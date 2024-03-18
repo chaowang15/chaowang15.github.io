@@ -6,7 +6,7 @@ layout: homepage
 
 I am a research engineer in the Intelligent Creation Lab at [Bytedance](https://www.bytedance.com/en/) / [TikTok](https://www.tiktok.com/about?lang=en). Prior to joining Bytedance, I was a computer vision engineer at [Matterport](https://matterport.com/discover) working on large scale high-quality 3D scene reconstruction and indoor touring. I graduated with my Ph.D. degree from [Computer Science Department at the University of Texas at Dallas](https://cs.utdallas.edu/), under supervision of Prof. [Xiaohu Guo](https://personal.utdallas.edu/~xguo/). Before that, I graduated with my master degree in computer science from [School of Software](https://www.thss.tsinghua.edu.cn/en/) under supervision of Prof. [Yu-shen Liu](https://yushen-liu.github.io/) and Prof. [Jun-hai Yong](https://www.thss.tsinghua.edu.cn/en/faculty/junhaiyong.htm), and my bachelor degree from [Department of Automation](https://www.au.tsinghua.edu.cn/), both at [Tsinghua University](https://www.tsinghua.edu.cn/).
 
-My current research interests are mainly in computer vision and graphics area, specifically in multi-modal motion synthesis, talking head generation, 3D human reconstruction and generative modeling.
+My current research interests are mainly in computer vision and graphics area, specifically in multi-modal motion synthesis, talking head generation, 3D human reconstruction and generative modeling. You can find [My Resume here](./assets/files/Resume_ChaoWang_2024.pdf).
 
 ## Work Experience
 
