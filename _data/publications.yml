@@ -36,8 +36,9 @@ main:
     bibtex: ./assets/files/bibtex_wacv.txt
     supplement: https://openaccess.thecvf.com/content/WACV2024/supplemental/Zhang_DR2_Disentangled_Recurrent_WACV_2024_supplemental.pdf
     video: https://www.youtube.com/watch?v=LDdDm86Ve_4
+    poster: ./assets/files/WACV2024_poster.pdf
     image: ./assets/img/wacv1.gif
-    notes: 
+    notes: Poster
 
   - title: "Using Augmented Face Images to Improve Facial Recognition Tasks"
     authors: Shuo Cheng, Guoxian Song, Wan-Chun Ma, <ins><strong>Chao Wang</strong></ins>, Linjie Luo
@@ -47,7 +48,8 @@ main:
     project: https://www.media.mit.edu/events/chi-2022-deepfakes/
     pdf: https://arxiv.org/abs/2205.06873
     bibtex: ./assets/files/bibtex_arxiv2022_deepfake.txt
-    image: ./assets/img/chi2022_profile.png
+    # image: ./assets/img/chi2022_profile.png
+    image: ./assets/img/chi.gif
     notes: 
 
   - title: "Study of detecting behavioral signatures within DeepFake videos"
@@ -57,7 +59,9 @@ main:
     page: https://arxiv.org/abs/2208.03561
     pdf: https://arxiv.org/abs/2208.03561
     bibtex: ./assets/files/bibtex_arxiv2022_behavior.txt
-    image: ./assets/img/arxiv2022_procedure.png
+    video: https://www.youtube.com/watch?v=yBEoGdgIui8&ab_channel=AriShapiro
+    # image: ./assets/img/arxiv2022_procedure.png
+    image: ./assets/img/Arxiv22_behavior.gif
     notes: 
 
   - title: "Efficient Plane-Based Optimization of Geometry and Texture for Indoor RGB-D Reconstruction"
@@ -82,6 +86,8 @@ main:
     pdf: https://arxiv.org/pdf/1905.09829.pdf
     bibtex: ./assets/files/bibtex_3dv2018.txt
     video: https://www.youtube.com/watch?v=57GFQcebceY&ab_channel=XiaohuGuo
+    slides: ./assets/files/plane-based-opt-3dv2018.pdf
+    poster: ./assets/files/3dv2018_poster_48x36.pdf
     image: ./assets/img/3DV_profile.gif
     notes: Oral
 
@@ -94,6 +100,7 @@ main:
     bibtex: ./assets/files/bibtex_cvm2017.txt
     image: ./assets/img/CVM2017_profile.gif
     video: ./assets/img/cvm2017.mp4
+    slides: ./assets/files/CVM2017_Feature_Chao.pdf
     notes: Oral
 
   - title: "Spectral animation compression"
@@ -103,7 +110,10 @@ main:
     page: https://jcst.ict.ac.cn/en/article/pdf/preview/10.1007/s11390-015-1544-z.pdf
     pdf: https://jcst.ict.ac.cn/en/article/pdf/preview/10.1007/s11390-015-1544-z.pdf
     bibtex: ./assets/files/bibtex_cvm2015.txt
-    image: ./assets/img/CVM2015_Profile.png
+    # image: ./assets/img/CVM2015_Profile.png
+    image: ./assets/img/Video_CVM02_Cut_Short.gif
+    video: ./assets/img/Video_SAC_CVM2015_submit.mp4
+    slides: ./assets/files/CVM15_PPT_SAC.pdf
     notes: Oral
 
   - title: "Robust shape normalization of 3D articulated volumetric models"
