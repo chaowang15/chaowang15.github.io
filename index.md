@@ -4,13 +4,13 @@ layout: homepage
 
 ## About Me
 
-I am a research engineer in the Intelligent Creation Lab at [Bytedance](https://www.bytedance.com/en/) / [TikTok](https://www.tiktok.com/about?lang=en). Prior to joining Bytedance, I was a computer vision engineer at [Matterport](https://matterport.com/discover) working on large scale high-quality 3D scene reconstruction and indoor touring. I graduated with my Ph.D. degree from [Computer Science Department at the University of Texas at Dallas](https://cs.utdallas.edu/), under supervision of Prof. [Xiaohu Guo](https://personal.utdallas.edu/~xguo/). Before that, I graduated with my master degree in computer science from [School of Software](https://www.thss.tsinghua.edu.cn/en/) under supervision of Prof. [Yu-shen Liu](https://yushen-liu.github.io/) and Prof. [Jun-hai Yong](https://www.thss.tsinghua.edu.cn/en/faculty/junhaiyong.htm), and my bachelor degree from [Department of Automation](https://www.au.tsinghua.edu.cn/), both at [Tsinghua University](https://www.tsinghua.edu.cn/).
+I am a research engineer in the XR-Tech Core AI team at [Meta Reality Labs](https://about.meta.com/realitylabs/). Prior to joining Meta, I was a research scientist in the Intelligent Creation Lab at [Bytedance](https://www.bytedance.com/en/) / [TikTok](https://www.tiktok.com/about?lang=en) based in San Jose, CA, USA. Prior to that, I was a computer vision engineer at [Matterport](https://matterport.com/discover) working on large scale high-quality 3D scene reconstruction and indoor touring. I graduated with my Ph.D. degree from [Computer Science Department at the University of Texas at Dallas](https://cs.utdallas.edu/), under supervision of Prof. [Xiaohu Guo](https://personal.utdallas.edu/~xguo/). Before that, I graduated with my master degree in computer science from [School of Software](https://www.thss.tsinghua.edu.cn/en/) under supervision of Prof. [Yu-shen Liu](https://yushen-liu.github.io/) and Prof. [Jun-hai Yong](https://www.thss.tsinghua.edu.cn/en/faculty/junhaiyong.htm), and my bachelor degree from [Department of Automation](https://www.au.tsinghua.edu.cn/), both at [Tsinghua University](https://www.tsinghua.edu.cn/).
 
-My current research interests are mainly in computer vision and graphics area, specifically in multi-modal motion synthesis, talking head generation, 3D human reconstruction and generative modeling. You can find [My Resume here](./assets/files/Resume_ChaoWang_2024.pdf).
+My current research interests are mainly in computer vision and graphics area, specifically in talking head generation, human video generation, multi-modal motion synthesis and generative modeling. You can find [My Resume here](./assets/files/Resume_ChaoWang_2024.pdf).
 
 ## Work Experience
-
-- [03/2020 - Present] **Bytedance**, San Jose, CA, USA --- Research Engineer
+- [08/2024 - Present] **Meta**, Burlingame, CA, USA -- Research Engineer
+- [03/2020 - 08/2024] **Bytedance**, San Jose, CA, USA --- Research Engineer
 - [10/2018 - 02/2020] **Matterport**, Sunnyvale, CA, USA --- Computer Vision Engineer
 
 ## Education
