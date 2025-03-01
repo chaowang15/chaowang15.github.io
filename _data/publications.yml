@@ -1,10 +1,35 @@
 main:
+  - title: "X-Dyna: Expressive Dynamic Human Image Animation"
+    authors: Di Chang, Hongyi Xu*, You Xie*, Yipeng Gao*, Zhengfei Kuang*, Shengqu Cai*, Chenxu Zhang*, Guoxian Song, <ins><strong>Chao Wang</strong></ins>, Yichun Shi, Zeyuan Chen, Shijie Zhou, Linjie Luo, Gordon Wetzstein, Mohammad Soleymani (*Equal contribution as second authors)
+    #! 'conference_short' will be added on top-left corner of this paper's figure
+    conference_short:
+    conference: IEEE/CVF Computer Vision and Pattern Recognition Conference (<strong>CVPR</strong>), 2025
+    page: https://x-dyna.github.io/xdyna.github.io/
+    project: https://x-dyna.github.io/xdyna.github.io/
+    pdf: https://arxiv.org/pdf/2501.10021
+    code: https://github.com/bytedance/X-Dyna
+    bibtex: ./assets/files/bibtex_arxiv2025_xdyna.txt
+    image: ./assets/img/xdyna.gif
+    notes:
+
+  - title: "MagicTalk: Implicit and Explicit Correlation Learning for Diffusion-based Emotional Talking Face Generation (known as DREAM-Talk)"
+    authors: Chenxu Zhang*, <ins><strong>Chao Wang*</strong></ins>, Jianfeng Zhang, Hongyi Xu, Guoxian Song, You Xie, Linjie Luo, Yapeng Tian, Xiaohu Guo, Jiashi Feng (*Equal contribution as first authors)
+    #! 'conference_short' will be added on top-left corner of this paper's figure
+    conference_short:
+    conference: Computational Visual Media <strong>(CVM)</strong>, 2025
+    page: https://magic-research.github.io/dream-talk/
+    project: https://magic-research.github.io/dream-talk/
+    pdf: https://arxiv.org/abs/2312.13578
+    code: https://github.com/magic-research/dream-talk
+    bibtex: ./assets/files/bibtex_dreamtalk.txt
+    image: ./assets/img/dreamtalk.gif
+    notes:
 
   - title: "X-Portrait: Expressive Portrait Animation with Hierarchical Motion Attention"
     authors: You Xie, Hongyi Xu, Guoxian Song, <ins><strong>Chao Wang</strong></ins>, Yichun Shi, Linjie Luo
-    #! 'conference_short' will be added on top-left corner of this paper's figure 
-    conference_short: 
-    conference:  <strong>SIGGRAPH 2024</strong>
+    #! 'conference_short' will be added on top-left corner of this paper's figure
+    conference_short:
+    conference: <strong>SIGGRAPH 2024</strong>
     page: https://byteaigc.github.io/x-portrait/
     project: https://byteaigc.github.io/x-portrait/
     video: https://youtu.be/4m4wokwFaaU
@@ -12,24 +37,11 @@ main:
     code: https://github.com/bytedance/X-Portrait
     bibtex: ./assets/files/bibtex_xportrait.txt
     image: ./assets/img/x-portrait.gif
-    notes: 
-
-  - title: "DREAM-Talk: Diffusion-based Realistic Emotional Audio-driven Method for Single Image Talking Face Generation"
-    authors: Chenxu Zhang*, <ins><strong>Chao Wang*</strong></ins>, Jianfeng Zhang, Hongyi Xu, Guoxian Song, You Xie, Linjie Luo, Yapeng Tian, Xiaohu Guo, Jiashi Feng (*Equal Contribution)
-    #! 'conference_short' will be added on top-left corner of this paper's figure 
-    conference_short: 
-    conference:  Arxiv Preprint, 2023
-    page: https://magic-research.github.io/dream-talk/
-    project: https://magic-research.github.io/dream-talk/
-    pdf: https://arxiv.org/abs/2312.13578
-    code: https://github.com/magic-research/dream-talk
-    bibtex: ./assets/files/bibtex_dreamtalk.txt
-    image: ./assets/img/dreamtalk.gif
-    notes: 
+    notes:
 
   - title: "DR2: Disentangled Recurrent Representation Learning for Data-efficient Speech Video Synthesis"
     authors: Chenxu Zhang, <ins><strong>Chao Wang</strong></ins>, Yifan Zhao, Shuo Cheng, Linjie Luo, Xiaohu Guo
-    conference_short: 
+    conference_short:
     conference: IEEE/CVF Winter Conference on Applications of Computer Vision <strong>(WACV)</strong>, 2024
     page: https://openaccess.thecvf.com/content/WACV2024/html/Zhang_DR2_Disentangled_Recurrent_Representation_Learning_for_Data-Efficient_Speech_Video_Synthesis_WACV_2024_paper.html
     pdf: https://openaccess.thecvf.com/content/WACV2024/papers/Zhang_DR2_Disentangled_Recurrent_Representation_Learning_for_Data-Efficient_Speech_Video_Synthesis_WACV_2024_paper.pdf
@@ -42,7 +54,7 @@ main:
 
   - title: "Using Augmented Face Images to Improve Facial Recognition Tasks"
     authors: Shuo Cheng, Guoxian Song, Wan-Chun Ma, <ins><strong>Chao Wang</strong></ins>, Linjie Luo
-    conference_short: 
+    conference_short:
     conference: "AI-Generated Characters: Putting Deepfakes to Good Use <strong>(CHI Workshop)</strong>, 2022"
     page: https://arxiv.org/abs/2205.06873
     project: https://www.media.mit.edu/events/chi-2022-deepfakes/
@@ -54,19 +66,19 @@ main:
 
   - title: "Study of detecting behavioral signatures within DeepFake videos"
     authors: Qiaomu Miao, Sinhwa Kang, Stacy Marsella, Steve DiPaola, <ins><strong>Chao Wang</strong></ins>, Ari Shapiro
-    conference_short: 
-    conference:  Arxiv Preprint, 2022
+    conference_short:
+    conference: Arxiv Preprint, 2022
     page: https://arxiv.org/abs/2208.03561
     pdf: https://arxiv.org/abs/2208.03561
     bibtex: ./assets/files/bibtex_arxiv2022_behavior.txt
     video: https://www.youtube.com/watch?v=yBEoGdgIui8&ab_channel=AriShapiro
     # image: ./assets/img/arxiv2022_procedure.png
     image: ./assets/img/Arxiv22_behavior.gif
-    notes: 
+    notes:
 
   - title: "Efficient Plane-Based Optimization of Geometry and Texture for Indoor RGB-D Reconstruction"
     authors: <ins><strong>Chao Wang</strong></ins>, Xiaohu Guo
-    conference_short: 
+    conference_short:
     conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong> Workshops, 2019
     page: https://openaccess.thecvf.com/content_CVPRW_2019/html/SUMO/Wang_Efficient_Plane-Based_Optimization_of_Geometry_and_Texture_for_Indoor_RGB-D_CVPRW_2019_paper.html
     project: https://sumochallenge.org/2019-sumo-workshop.html
@@ -79,7 +91,7 @@ main:
 
   - title: "Plane-based optimization of geometry and texture for RGB-D reconstruction of indoor scenes"
     authors: <ins><strong>Chao Wang</strong></ins>, Xiaohu Guo
-    conference_short: 
+    conference_short:
     conference: International Conference on 3D Vision <strong>(3DV)</strong>, 2018
     page: https://arxiv.org/pdf/1905.09829.pdf
     code: https://github.com/chaowang15/plane-opt-rgbd
@@ -93,7 +105,7 @@ main:
 
   - title: "Feature-based RGB-D camera pose optimization for real-time 3D reconstruction"
     authors: <ins><strong>Chao Wang</strong></ins>, Xiaohu Guo
-    conference_short: 
+    conference_short:
     conference: Computational Visual Media <strong>(CVM)</strong>, 2017
     page: https://link.springer.com/article/10.1007/s41095-016-0072-2
     pdf: https://link.springer.com/article/10.1007/s41095-016-0072-2
@@ -105,7 +117,7 @@ main:
 
   - title: "Spectral animation compression"
     authors: <ins><strong>Chao Wang</strong></ins>, Yang Liu, Xiaohu Guo, Zichun Zhong, Binh Le, Zhigang Deng
-    conference_short: 
+    conference_short:
     conference: Computational Visual Media <strong>(CVM)</strong>, 2015
     page: https://jcst.ict.ac.cn/en/article/pdf/preview/10.1007/s11390-015-1544-z.pdf
     pdf: https://jcst.ict.ac.cn/en/article/pdf/preview/10.1007/s11390-015-1544-z.pdf
@@ -118,7 +130,7 @@ main:
 
   - title: "Robust shape normalization of 3D articulated volumetric models"
     authors: <ins><strong>Chao Wang</strong></ins>, Yu-Shen Liu, Min Liu, Jun-Hai Yong, Jean-Claude Paul
-    conference_short: 
+    conference_short:
     conference: Computer-Aided Design <strong>(CAD)</strong>, 2012
     page: https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=18836e0a6af55b72acfcdae7ca9e67034790400c
     pdf: https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=18836e0a6af55b72acfcdae7ca9e67034790400c
