@@ -1,4 +1,30 @@
 main:
+  - title: "Seamless Interaction: Dyadic Audiovisual Motion Modeling and Large-Scale Dataset"
+    authors: Vasu Agrawal, ..., <ins><strong>Chao Wang</strong></ins>, ..., Michael Zollhoefer (long author list in alphabetical order), Meta AI
+    #! 'conference_short' will be added on top-left corner of this paper's figure
+    conference_short:
+    conference: Arxiv Preprint, 2025/06
+    page: https://ai.meta.com/research/seamless-interaction/
+    project: https://www.aidemos.meta.com/seamless_interaction_dataset
+    pdf: https://arxiv.org/pdf/2502.17414
+    code: https://github.com/facebookresearch/seamless_interaction
+    bibtex: ./assets/files/bibtex_seamless.txt
+    image: ./assets/img/seamless_dataset.gif
+    notes: Technical Report
+
+  - title: "X-Dancer: Expressive Music to Human Dance Video Generation"
+    authors: Zeyuan Chen, Hongyi Xu, Guoxian Song, You Xie, Chenxu Zhang, Xin Chen, <ins><strong>Chao Wang</strong></ins>, Di Chang, Linjie Luo
+    #! 'conference_short' will be added on top-left corner of this paper's figure
+    conference_short:
+    conference: The International Conference on Computer Vision (<strong>ICCV</strong>), 2025
+    page: https://zeyuan-chen.com/X-Dancer/
+    project: https://zeyuan-chen.com/X-Dancer/
+    pdf: https://arxiv.org/pdf/2502.17414
+    code: https://zeyuan-chen.com/X-Dancer-webpage/
+    bibtex: ./assets/files/bibtex_xdancer.txt
+    image: ./assets/img/xdancer.gif
+    notes: Accepted
+
   - title: "X-Dyna: Expressive Dynamic Human Image Animation"
     authors: Di Chang, Hongyi Xu*, You Xie*, Yipeng Gao*, Zhengfei Kuang*, Shengqu Cai*, Chenxu Zhang*, Guoxian Song, <ins><strong>Chao Wang</strong></ins>, Yichun Shi, Zeyuan Chen, Shijie Zhou, Linjie Luo, Gordon Wetzstein, Mohammad Soleymani (*Equal contribution as second authors)
     #! 'conference_short' will be added on top-left corner of this paper's figure
@@ -8,9 +34,9 @@ main:
     project: https://x-dyna.github.io/xdyna.github.io/
     pdf: https://arxiv.org/pdf/2501.10021
     code: https://github.com/bytedance/X-Dyna
-    bibtex: ./assets/files/bibtex_arxiv2025_xdyna.txt
+    bibtex: ./assets/files/bibtex_xdyna.txt
     image: ./assets/img/xdyna.gif
-    notes:
+    notes: CVPR Highlight
 
   - title: "MagicTalk: Implicit and Explicit Correlation Learning for Diffusion-based Emotional Talking Face Generation (known as DREAM-Talk)"
     authors: Chenxu Zhang*, <ins><strong>Chao Wang*</strong></ins>, Jianfeng Zhang, Hongyi Xu, Guoxian Song, You Xie, Linjie Luo, Yapeng Tian, Xiaohu Guo, Jiashi Feng (*Equal contribution as first authors)
@@ -23,7 +49,7 @@ main:
     code: https://github.com/magic-research/dream-talk
     bibtex: ./assets/files/bibtex_dreamtalk.txt
     image: ./assets/img/dreamtalk.gif
-    notes:
+    notes: Oral
 
   - title: "X-Portrait: Expressive Portrait Animation with Hierarchical Motion Attention"
     authors: You Xie, Hongyi Xu, Guoxian Song, <ins><strong>Chao Wang</strong></ins>, Yichun Shi, Linjie Luo
@@ -37,7 +63,7 @@ main:
     code: https://github.com/bytedance/X-Portrait
     bibtex: ./assets/files/bibtex_xportrait.txt
     image: ./assets/img/x-portrait.gif
-    notes:
+    notes: Oral
 
   - title: "DR2: Disentangled Recurrent Representation Learning for Data-efficient Speech Video Synthesis"
     authors: Chenxu Zhang, <ins><strong>Chao Wang</strong></ins>, Yifan Zhao, Shuo Cheng, Linjie Luo, Xiaohu Guo
