@@ -21,12 +21,14 @@ title: "Hacker News (Daily)"
 <span class='hn-index-meta'> · Scraped: 00:26, February 17, 2026 (PST)</span>
 </div>
 </div>
+</div>
 <div class='hn-row'>
 <div class='hn-date'>2026-02-16</div>
 <div class='hn-link'>
 <div class='hn-index-line'>
 <a class='hn-index-link' href='/hackernews/2026/02/16/best_stories_02162026'>Best Stories</a>
 <span class='hn-index-meta'> · Scraped: 23:51, February 16, 2026 (PST)</span>
+</div>
 </div>
 </div>
 </div>
