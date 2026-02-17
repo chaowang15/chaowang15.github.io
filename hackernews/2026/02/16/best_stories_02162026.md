@@ -7,7 +7,6 @@ title: "Hacker News — Best Stories (2026-02-16)"
 <div class='hn-badges'>
 <span class='hn-badge'>Top 50</span>
 <span class='hn-badge'>Best Stories</span>
-<span class='hn-badge'>PST/PDT</span>
 </div>
 <hr class='hn-rule'/>
 <div class='hn-list'>
