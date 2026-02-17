@@ -221,7 +221,6 @@ def render_markdown(
             lines.append(
                 f"<img class='hn-img' src='{image_url}' data-full='{image_url}' alt='preview image' loading='lazy'/>"
             )
-            lines.append("<div class='hn-img-hint'>Tap/click image to view full size</div>")
 
         lines.append("<div class='hn-body'>")
         lines.append(
