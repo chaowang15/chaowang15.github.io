@@ -163,14 +163,20 @@ def main():
     json_path = os.path.join(out_dir, json_name)
 
     # Token-saving behavior:
-    # - If json exists and NOT in refresh window (12:00 UTC +/- 30 min): reuse json, no LLM.
-    # - If in refresh window: refresh (overwrite) "previous-day" json.
     json_exists = os.path.exists(json_path)
     now_utc = utc_now()
-    force_refresh = in_refresh_window(now_utc, target_h=12, target_m=0, window_min=30)
+
+    event_name = os.getenv("GITHUB_EVENT_NAME", "")
+    is_scheduled = (event_name == "schedule")
+
+    # schedule => always refresh, manual => reuse json if exists
+    force_refresh = is_scheduled
+
 
     print(
         "[MODE] "
+        f"event={event_name} | "
+        f"is_scheduled={is_scheduled} | "
         f"force_refresh={force_refresh} | "
         f"json_exists={json_exists} | "
         f"content_date={content_dt.strftime('%Y-%m-%d')} | "
