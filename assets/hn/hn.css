@@ -1,4 +1,57 @@
-/* HackerNews pages - global CSS (applies to all generated pages) */
+/* Let iOS know this page supports both light & dark */
+:root {
+    color-scheme: light dark;
+}
+
+/* Default (light mode) */
+:root {
+    --bg: #ffffff;
+    --text: #111111;
+    --muted: #444444;
+    --title: #111111;
+    --subtitle: #444444;
+    --link: #0b57d0;
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg: #0b0f14;
+        --text: #e8e8e8;
+        --muted: #b5b5b5;
+        --title: #ffffff;
+        --subtitle: #cfcfcf;
+        --link: #7ab7ff;
+    }
+}
+
+/* Apply */
+html,
+body {
+    background: var(--bg);
+    color: var(--text);
+}
+
+h1,
+h2,
+h3 {
+    color: var(--title);
+}
+
+.subtitle,
+.hn-subtitle,
+.page-subtitle,
+p.subtitle {
+    color: var(--subtitle);
+}
+
+a {
+    color: var(--link);
+}
+
+body {
+    -webkit-text-size-adjust: 100%;
+}
 
 :root {
     --hn-maxw: 920px;
@@ -275,4 +328,81 @@
     margin-top: 16px;
     color: var(--hn-muted);
     font-size: 0.98rem;
+}
+
+/* =========================
+   Mobile font scaling
+   ========================= */
+@media (max-width: 640px) {
+    .hn-wrap {
+        font-size: 20px;
+        /* 原来是 18px */
+        padding: 18px 14px 34px 14px;
+    }
+
+    .hn-h1 {
+        font-size: 1.9rem;
+    }
+
+    .hn-subtitle {
+        font-size: 1.08rem;
+    }
+
+    .hn-title {
+        font-size: 1.35rem;
+        line-height: 1.28;
+    }
+
+    .hn-meta {
+        font-size: 1.05rem;
+    }
+
+    .hn-text-en,
+    .hn-text-zh {
+        font-size: 1.12rem;
+        line-height: 1.7;
+    }
+
+    .hn-badge {
+        font-size: 0.98rem;
+    }
+}
+
+/* =========================
+   Mobile spacing polish
+   ========================= */
+@media (max-width: 640px) {
+    .hn-list {
+        gap: 16px;
+        /* 原来是 22px：手机上会显得太散 */
+        margin-top: 14px;
+    }
+
+    .hn-body {
+        padding: 16px 16px 18px 16px;
+        /* 原来顶部略紧 */
+    }
+
+    .hn-card {
+        border-radius: 18px;
+        /* 更“柔软” */
+    }
+
+    .hn-title {
+        margin-bottom: 10px;
+    }
+
+    .hn-meta {
+        margin-bottom: 14px;
+    }
+
+    .hn-rule {
+        margin: 16px 0 10px 0;
+    }
+
+    /* 图片在手机上更适合的比例 */
+    .hn-img {
+        height: 200px;
+        /* 你现在 520px 才改 210，这里更统一 */
+    }
 }
