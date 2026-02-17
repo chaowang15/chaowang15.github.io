@@ -1,11 +1,21 @@
 from typing import List, Dict, Optional
 
+
 def render_markdown(
     items: List[Dict],
     page_title: str,
     page_subtitle: str = "",
     html_title: Optional[str] = None,
 ) -> str:
+    """
+    New version:
+    - No inline <style> or <script>
+    - Use shared assets:
+        /assets/hn/hn.css
+        /assets/hn/hn.js
+    - Use Google Fonts (Inter + Source Serif 4)
+    - All old pages will update if you change hn.css / hn.js
+    """
     fm_title = html_title or page_title
 
     lines = []
@@ -15,234 +25,14 @@ def render_markdown(
     lines.append("---")
     lines.append("")
 
+    # Google Fonts + global CSS/JS
     lines.append("""
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;650;750;800&family=Source+Serif+4:opsz,wght@8..60,450;8..60,600&display=swap" rel="stylesheet">
-    """.strip())
-    lines.append("")
-    
-    lines.append("<style>")
-    lines.append("""
-:root{
-  --hn-maxw: 920px;
-  --hn-radius: 16px;
-  --hn-border: rgba(0,0,0,0.10);
-  --hn-shadow: 0 10px 26px rgba(0,0,0,0.08);
-  --hn-muted: rgba(0,0,0,0.62);
-  --hn-fg: rgba(0,0,0,0.92);
-  --hn-card-bg: rgba(255,255,255,0.92);
-  --hn-page-bg: transparent;
-  --hn-sans: "Inter", system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
-  --hn-serif: "Source Serif 4", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-}
-@media (prefers-color-scheme: dark) {
-  :root{
-    --hn-border: rgba(255,255,255,0.14);
-    --hn-shadow: 0 10px 26px rgba(0,0,0,0.42);
-    --hn-muted: rgba(255,255,255,0.74);
-    --hn-fg: rgba(255,255,255,0.92);
-    --hn-card-bg: rgba(20,20,20,0.60);
-    --hn-page-bg: transparent;
-  }
-}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;650;750;800&family=Source+Serif+4:opsz,wght@8..60,450;8..60,600&display=swap" rel="stylesheet">
 
-.hn-wrap{
-  max-width: var(--hn-maxw);
-  margin: 0 auto;
-  padding: 18px 16px 34px 16px;
-  color: var(--hn-fg);            /* ✅ ensure readable in dark mode */
-  background: var(--hn-page-bg);
-  font-family: var(--hn-serif);   /* ✅ body uses serif */
-  font-size: 18px;                /* ✅ overall bigger (was ~16) */
-}
-
-.hn-subtitle{
-  margin: 0 0 18px 0;
-  color: var(--hn-muted);
-  font-size: 1.02rem;
-}
-.hn-badges{
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin: 12px 0 2px 0;
-}
-.hn-badge{
-  display: inline-flex;
-  align-items: center;
-  padding: 6px 10px;
-  border-radius: 999px;
-  border: 1px solid var(--hn-border);
-  background: rgba(0,0,0,0.03);
-  font-family: var(--hn-sans);
-  font-size: 0.92rem;
-  font-weight: 650;
-  color: var(--hn-fg);
-}
-@media (prefers-color-scheme: dark){
-  .hn-badge{
-    background: rgba(255,255,255,0.06);
-  }
-}
-.hn-rule{
-  height: 1px;
-  border: 0;
-  background: var(--hn-border);
-  margin: 14px 0 6px 0;
-}
-.hn-subtitle a{
-  color: inherit;
-  text-decoration: underline;
-  text-underline-offset: 3px;
-}
-
-.hn-list{
-  display: flex;
-  flex-direction: column;
-  gap: 22px;
-  margin-top: 18px;
-}
-
-.hn-card{
-  border: 1px solid var(--hn-border);
-  border-radius: var(--hn-radius);
-  box-shadow: var(--hn-shadow);
-  background: var(--hn-card-bg);
-  overflow: hidden;
-}
-.hn-card{
-  transition: transform 140ms ease, box-shadow 140ms ease, border-color 140ms ease;
-}
-.hn-card:hover{
-  transform: translateY(-2px);
-  box-shadow: 0 14px 34px rgba(0,0,0,0.12);
-}
-@media (prefers-color-scheme: dark){
-  .hn-card:hover{
-    box-shadow: 0 14px 34px rgba(0,0,0,0.55);
-  }
-}
-
-.hn-body{ padding: 14px 16px 18px 16px; }
-
-.hn-h1{
-  font-family: var(--hn-sans);
-  font-size: 1.75rem;
-  line-height: 1.18;
-  margin: 0 0 8px 0;
-  letter-spacing: -0.015em;
-}
-
-.hn-title{
-  font-family: var(--hn-sans);
-  font-size: 1.28rem;   /* ✅ slightly bigger */
-  line-height: 1.25;
-  font-weight: 780;
-  margin: 0 0 8px 0;
-}
-.hn-title a{
-  color: inherit;
-  text-decoration: none;
-}
-.hn-title a:hover{ text-decoration: underline; text-underline-offset: 3px; }
-
-.hn-meta{
-  margin: 0 0 12px 0;
-  color: var(--hn-muted);
-  font-size: 0.98rem;
-}
-
-.hn-img{
-  width: 100%;
-  height: 260px;
-  object-fit: cover;
-  display: block;
-  background: rgba(0,0,0,0.04);
-  cursor: zoom-in;               /* ✅ hint */
-}
-@media (max-width: 520px){
-  .hn-img{ height: 210px; }
-}
-
-.hn-img-hint{
-  margin: 8px 16px 0 16px;
-  color: var(--hn-muted);
-  font-size: 0.93rem;
-}
-
-.hn-text-en{
-  margin: 10px 0 10px 0;
-  font-size: 1.06rem;
-  line-height: 1.6;
-  max-width: 76ch;
-  color: var(--hn-fg);           /* ✅ force readable in dark mode */
-}
-.hn-text-zh{
-  margin: 0;
-  font-size: 1.06rem;
-  line-height: 1.6;
-  color: var(--hn-muted);
-  max-width: 76ch;
-}
-
-/* ===== Lightbox modal ===== */
-.hn-lightbox{
-  position: fixed;
-  inset: 0;
-  background: rgba(0,0,0,0.72);
-  display: none;
-  align-items: center;
-  justify-content: center;
-  padding: 24px 16px;
-  z-index: 9999;
-}
-.hn-lightbox.is-open{ display: flex; }
-
-.hn-lightbox-inner{
-  position: relative;
-  max-width: min(1100px, 96vw);
-  max-height: 90vh;
-}
-.hn-lightbox-img{
-  display: block;
-  max-width: 96vw;
-  max-height: 90vh;
-  width: auto;
-  height: auto;
-  border-radius: 14px;
-  box-shadow: 0 18px 60px rgba(0,0,0,0.55);
-}
-.hn-lightbox-close{
-  position: absolute;
-  top: -14px;
-  right: -14px;
-  width: 40px;
-  height: 40px;
-  border-radius: 999px;
-  border: 1px solid rgba(255,255,255,0.25);
-  background: rgba(0,0,0,0.55);
-  color: rgba(255,255,255,0.92);
-  cursor: pointer;
-  font-size: 22px;
-  line-height: 38px;
-  text-align: center;
-}
-.hn-lightbox-close:hover{
-  background: rgba(0,0,0,0.75);
-}
-""".strip())
-    lines.append("</style>")
-    lines.append("")
-
-    # Lightbox HTML (once per page)
-    lines.append("""
-<div class="hn-lightbox" id="hnLightbox" aria-hidden="true">
-  <div class="hn-lightbox-inner">
-    <button class="hn-lightbox-close" id="hnLightboxClose" aria-label="Close">×</button>
-    <img class="hn-lightbox-img" id="hnLightboxImg" src="" alt="full size image"/>
-  </div>
-</div>
+<link rel="stylesheet" href="/assets/hn/hn.css">
+<script src="/assets/hn/hn.js" defer></script>
 """.strip())
     lines.append("")
 
@@ -257,11 +47,14 @@ def render_markdown(
     else:
         subtitle = f"Source: {source_link}"
     lines.append(f"<p class='hn-subtitle'>{subtitle}</p>")
+
+    # badges
     lines.append("<div class='hn-badges'>")
     lines.append(f"<span class='hn-badge'>Top {len(items)}</span>")
     lines.append("<span class='hn-badge'>Best Stories</span>")
     lines.append("<span class='hn-badge'>PST/PDT</span>")
     lines.append("</div>")
+
     lines.append("<hr class='hn-rule'/>")
 
     lines.append("<div class='hn-list'>")
@@ -278,7 +71,7 @@ def render_markdown(
         lines.append("<div class='hn-card'>")
 
         if image_url:
-            # ✅ no new tab; click opens in-page lightbox
+            # click => handled by hn.js
             lines.append(
                 f"<img class='hn-img' src='{image_url}' data-full='{image_url}' alt='preview image' loading='lazy'/>"
             )
@@ -290,58 +83,12 @@ def render_markdown(
         lines.append(f"<p class='hn-meta'>{title_zh} &nbsp;|&nbsp; {scrape_time}</p>")
         lines.append(f"<p class='hn-text-en'>{summary_en}</p>")
         lines.append(f"<p class='hn-text-zh'>{summary_zh}</p>")
-        lines.append("</div>")
-        lines.append("</div>")
+        lines.append("</div>")  # hn-body
 
-    lines.append("</div>")  # list
-    lines.append("</div>")  # wrap
-    lines.append("")
+        lines.append("</div>")  # hn-card
 
-    # Lightbox JS (Esc + click outside + X)
-    lines.append("<script>")
-    lines.append("""
-(function(){
-  const lb = document.getElementById('hnLightbox');
-  const lbImg = document.getElementById('hnLightboxImg');
-  const btnClose = document.getElementById('hnLightboxClose');
-
-  function openLightbox(src){
-    lbImg.src = src;
-    lb.classList.add('is-open');
-    lb.setAttribute('aria-hidden', 'false');
-    document.body.style.overflow = 'hidden';
-  }
-  function closeLightbox(){
-    lb.classList.remove('is-open');
-    lb.setAttribute('aria-hidden', 'true');
-    lbImg.src = '';
-    document.body.style.overflow = '';
-  }
-
-  // click on any preview image
-  document.addEventListener('click', function(e){
-    const t = e.target;
-    if (t && t.classList && t.classList.contains('hn-img')){
-      const src = t.getAttribute('data-full') || t.getAttribute('src');
-      if (src) openLightbox(src);
-    }
-  });
-
-  // close on X
-  btnClose.addEventListener('click', closeLightbox);
-
-  // close on overlay click (but not when clicking the image itself)
-  lb.addEventListener('click', function(e){
-    if (e.target === lb) closeLightbox();
-  });
-
-  // close on Esc
-  document.addEventListener('keydown', function(e){
-    if (e.key === 'Escape') closeLightbox();
-  });
-})();
-""".strip())
-    lines.append("</script>")
+    lines.append("</div>")  # hn-list
+    lines.append("</div>")  # hn-wrap
     lines.append("")
 
     return "\n".join(lines)
