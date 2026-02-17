@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: hn
 title: "Hacker News — Best Stories (2026-02-17)"
 ---
 <h1 class='hn-h1'>Hacker News — Best Stories (2026-02-17)</h1>

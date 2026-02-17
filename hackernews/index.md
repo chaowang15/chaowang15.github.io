@@ -1,7 +1,16 @@
 ---
-layout: hn
+layout: default
 title: "Hacker News (Daily)"
 ---
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;650;750;800&family=Source+Serif+4:opsz,wght@8..60,450;8..60,600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="/assets/hn/hn.css">
+<script src="/assets/hn/hn.js" defer></script>
+
+<div class='hn-wrap'>
 <h1 class='hn-h1'>Hacker News (Daily)</h1>
 <p class='hn-subtitle'>Daily scraped <b>Hacker News — Best Stories</b>. · Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
 <div class='hn-badges'>
@@ -17,3 +26,4 @@ title: "Hacker News (Daily)"
 </div>
 
 <p class='hn-hint'>Browse by date: <code>/hackernews/YYYY/MM/DD/</code></p>
+</div>
