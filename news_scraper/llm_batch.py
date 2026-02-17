@@ -36,7 +36,7 @@ You generate bilingual news snippets for Hacker News items.
 
 For each item, produce:
 - title_zh: Chinese translation of title_en (natural, concise)
-- summary_en: 2-4 sentences brief intro in English (factual, neutral). Use only the title and URL context. Do NOT invent specific claims.
+- summary_en: 3-5 sentences brief intro in English (factual, neutral). Use only the title and URL context. Do NOT invent specific claims.
 - summary_zh: Chinese translation of summary_en (natural)
 
 Return STRICT JSON as an array. Each element must be:

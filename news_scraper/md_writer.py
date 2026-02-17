@@ -6,17 +6,7 @@ def render_markdown(
     page_subtitle: str = "",
     html_title: Optional[str] = None,
 ) -> str:
-    """
-    Improvements:
-    1) Click image to open original (no local hosting, no extra tokens)
-    2) More spacing between news cards
-    3) Bigger story title size
-    4) Page <title> simplified via front matter title (we pass filename-like title)
-    """
-    if html_title:
-        fm_title = html_title
-    else:
-        fm_title = page_title
+    fm_title = html_title or page_title
 
     lines = []
     lines.append("---")
@@ -33,12 +23,18 @@ def render_markdown(
   --hn-border: rgba(0,0,0,0.10);
   --hn-shadow: 0 10px 26px rgba(0,0,0,0.08);
   --hn-muted: rgba(0,0,0,0.62);
+  --hn-fg: rgba(0,0,0,0.92);
+  --hn-card-bg: rgba(255,255,255,0.92);
+  --hn-page-bg: transparent;
 }
 @media (prefers-color-scheme: dark) {
   :root{
     --hn-border: rgba(255,255,255,0.14);
     --hn-shadow: 0 10px 26px rgba(0,0,0,0.42);
-    --hn-muted: rgba(255,255,255,0.70);
+    --hn-muted: rgba(255,255,255,0.74);
+    --hn-fg: rgba(255,255,255,0.92);
+    --hn-card-bg: rgba(20,20,20,0.60);
+    --hn-page-bg: transparent;
   }
 }
 
@@ -46,6 +42,8 @@ def render_markdown(
   max-width: var(--hn-maxw);
   margin: 0 auto;
   padding: 18px 16px 34px 16px;
+  color: var(--hn-fg);            /* ✅ ensure readable in dark mode */
+  background: var(--hn-page-bg);
 }
 
 .hn-h1{
@@ -65,11 +63,10 @@ def render_markdown(
   text-underline-offset: 3px;
 }
 
-/* More space between cards */
 .hn-list{
   display: flex;
   flex-direction: column;
-  gap: 22px;               /* ✅ more vertical whitespace */
+  gap: 22px;
   margin-top: 18px;
 }
 
@@ -77,23 +74,22 @@ def render_markdown(
   border: 1px solid var(--hn-border);
   border-radius: var(--hn-radius);
   box-shadow: var(--hn-shadow);
-  background: rgba(255,255,255,0.92);
+  background: var(--hn-card-bg);
   overflow: hidden;
-}
-@media (prefers-color-scheme: dark){
-  .hn-card{ background: rgba(20,20,20,0.55); }
 }
 
 .hn-body{ padding: 14px 16px 18px 16px; }
 
-/* Bigger story title */
 .hn-title{
-  font-size: 1.18rem;       /* ✅ larger than before */
+  font-size: 1.18rem;
   line-height: 1.25;
   font-weight: 780;
   margin: 0 0 8px 0;
 }
-.hn-title a{ text-decoration: none; }
+.hn-title a{
+  color: inherit;
+  text-decoration: none;
+}
 .hn-title a:hover{ text-decoration: underline; text-underline-offset: 3px; }
 
 .hn-meta{
@@ -102,43 +98,100 @@ def render_markdown(
   font-size: 0.98rem;
 }
 
-/* Image cover (cropped) but clickable to open full original */
 .hn-img{
   width: 100%;
   height: 260px;
   object-fit: cover;
   display: block;
   background: rgba(0,0,0,0.04);
+  cursor: zoom-in;               /* ✅ hint */
 }
 @media (max-width: 520px){
   .hn-img{ height: 210px; }
 }
 
-/* Subtle hint under image */
 .hn-img-hint{
   margin: 8px 16px 0 16px;
   color: var(--hn-muted);
   font-size: 0.93rem;
 }
 
-/* Text blocks */
 .hn-text-en{
   margin: 10px 0 10px 0;
-  font-size: 1.12rem;
+  font-size: 1.06rem;
   line-height: 1.6;
   max-width: 76ch;
+  color: var(--hn-fg);           /* ✅ force readable in dark mode */
 }
 .hn-text-zh{
   margin: 0;
-  font-size: 1.12rem;
+  font-size: 1.06rem;
   line-height: 1.6;
   color: var(--hn-muted);
   max-width: 76ch;
+}
+
+/* ===== Lightbox modal ===== */
+.hn-lightbox{
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.72);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 16px;
+  z-index: 9999;
+}
+.hn-lightbox.is-open{ display: flex; }
+
+.hn-lightbox-inner{
+  position: relative;
+  max-width: min(1100px, 96vw);
+  max-height: 90vh;
+}
+.hn-lightbox-img{
+  display: block;
+  max-width: 96vw;
+  max-height: 90vh;
+  width: auto;
+  height: auto;
+  border-radius: 14px;
+  box-shadow: 0 18px 60px rgba(0,0,0,0.55);
+}
+.hn-lightbox-close{
+  position: absolute;
+  top: -14px;
+  right: -14px;
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.25);
+  background: rgba(0,0,0,0.55);
+  color: rgba(255,255,255,0.92);
+  cursor: pointer;
+  font-size: 22px;
+  line-height: 38px;
+  text-align: center;
+}
+.hn-lightbox-close:hover{
+  background: rgba(0,0,0,0.75);
 }
 """.strip())
     lines.append("</style>")
     lines.append("")
 
+    # Lightbox HTML (once per page)
+    lines.append("""
+<div class="hn-lightbox" id="hnLightbox" aria-hidden="true">
+  <div class="hn-lightbox-inner">
+    <button class="hn-lightbox-close" id="hnLightboxClose" aria-label="Close">×</button>
+    <img class="hn-lightbox-img" id="hnLightboxImg" src="" alt="full size image"/>
+  </div>
+</div>
+""".strip())
+    lines.append("")
+
+    # Header
     lines.append("<div class='hn-wrap'>")
     lines.append(f"<h1 class='hn-h1'>{page_title}</h1>")
 
@@ -164,11 +217,11 @@ def render_markdown(
         lines.append("<div class='hn-card'>")
 
         if image_url:
-            # ✅ Click to open full image in new tab (no hosting needed)
-            lines.append(f"<a href='{image_url}' target='_blank' rel='noopener noreferrer'>")
-            lines.append(f"<img class='hn-img' src='{image_url}' alt='preview image' loading='lazy'/>")
-            lines.append("</a>")
-            lines.append("<div class='hn-img-hint'>Click image to view full size</div>")
+            # ✅ no new tab; click opens in-page lightbox
+            lines.append(
+                f"<img class='hn-img' src='{image_url}' data-full='{image_url}' alt='preview image' loading='lazy'/>"
+            )
+            lines.append("<div class='hn-img-hint'>Tap/click image to view full size</div>")
 
         lines.append("<div class='hn-body'>")
         lines.append(
@@ -178,11 +231,57 @@ def render_markdown(
         lines.append(f"<p class='hn-text-en'>{summary_en}</p>")
         lines.append(f"<p class='hn-text-zh'>{summary_zh}</p>")
         lines.append("</div>")
-
         lines.append("</div>")
 
-    lines.append("</div>")
-    lines.append("</div>")
+    lines.append("</div>")  # list
+    lines.append("</div>")  # wrap
+    lines.append("")
+
+    # Lightbox JS (Esc + click outside + X)
+    lines.append("<script>")
+    lines.append("""
+(function(){
+  const lb = document.getElementById('hnLightbox');
+  const lbImg = document.getElementById('hnLightboxImg');
+  const btnClose = document.getElementById('hnLightboxClose');
+
+  function openLightbox(src){
+    lbImg.src = src;
+    lb.classList.add('is-open');
+    lb.setAttribute('aria-hidden', 'false');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeLightbox(){
+    lb.classList.remove('is-open');
+    lb.setAttribute('aria-hidden', 'true');
+    lbImg.src = '';
+    document.body.style.overflow = '';
+  }
+
+  // click on any preview image
+  document.addEventListener('click', function(e){
+    const t = e.target;
+    if (t && t.classList && t.classList.contains('hn-img')){
+      const src = t.getAttribute('data-full') || t.getAttribute('src');
+      if (src) openLightbox(src);
+    }
+  });
+
+  // close on X
+  btnClose.addEventListener('click', closeLightbox);
+
+  // close on overlay click (but not when clicking the image itself)
+  lb.addEventListener('click', function(e){
+    if (e.target === lb) closeLightbox();
+  });
+
+  // close on Esc
+  document.addEventListener('keydown', function(e){
+    if (e.key === 'Escape') closeLightbox();
+  });
+})();
+""".strip())
+    lines.append("</script>")
     lines.append("")
 
     return "\n".join(lines)
