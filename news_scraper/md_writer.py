@@ -55,25 +55,21 @@ def render_markdown(
         lines.append("<div class='hn-card'>")
         lines.append("<div class='hn-body'>")
 
-        lines.append(f"<p class='hn-title'>({i}) <a ...>{title_en}</a></p>")
+        lines.append(
+            f"<p class='hn-title'>({i}) "
+            f"<a href='{url}' target='_blank' rel='noopener noreferrer'>{title_en}</a>"
+            f"</p>"
+        )
 
         if title_zh:
             lines.append(f"<p class='hn-meta'>{title_zh}</p>")
 
-        # Move image here: under meta (subtitle)
+        # Image under meta (subtitle)
         if image_url:
             lines.append(
                 f"<img class='hn-img' src='{image_url}' data-full='{image_url}' "
                 f"alt='preview image' loading='lazy'/>"
             )
-
-        if summary_en:
-            lines.append(f"<p class='hn-text-en'>{summary_en}</p>")
-        if summary_zh:
-            lines.append(f"<p class='hn-text-zh'>{summary_zh}</p>")
-
-        lines.append("</div>")  # hn-body
-        lines.append("</div>")  # hn-card
 
         if summary_en:
             lines.append(f"<p class='hn-text-en'>{summary_en}</p>")

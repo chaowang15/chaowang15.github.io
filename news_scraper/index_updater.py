@@ -180,8 +180,9 @@ def update_hackernews_index(
             lines.append(f"<a class='hn-index-link' href='{e.rel_url}'>Best Stories</a>")
             if right_txt:
                 lines.append(f"<span class='hn-index-meta'> · {right_txt}</span>")
-            lines.append("</div>")
-            lines.append("</div>")
+            lines.append("</div>")  # hn-index-line
+            lines.append("</div>")  # hn-link
+            lines.append("</div>")  # hn-row  
         lines.append("</div>")
 
     lines.append("")
