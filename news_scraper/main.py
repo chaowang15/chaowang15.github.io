@@ -9,6 +9,7 @@ from llm_batch import llm_enrich_batch
 from image_fetcher import extract_preview_image_url
 from md_writer import render_markdown
 from index_updater import update_hackernews_index
+from backup_io import write_backup_json, read_backup_json
 
 def load_config(path: str) -> dict:
     with open(path, "r", encoding="utf-8") as f:
@@ -120,14 +121,45 @@ def main():
             "summary_zh": summary_zh,
         })
 
-    # Title on the daily page
-    page_title = f"Hacker News — Best Stories ({dt.strftime('%Y-%m-%d')})"
-    page_subtitle = f"Scraped at {scrape_time_str} · Top {len(final_items)} stories"
+    # ---------- Backup JSON (source of truth) ----------
+    json_name = filename.replace(".md", ".json")
+    json_path = os.path.join(out_dir, json_name)
 
-    html_title = filename.replace(".md", "")  # e.g., best_stories_02162026
-    md = render_markdown(final_items, page_title=page_title, page_subtitle=page_subtitle, html_title=html_title)
+    meta = {
+        "mode": mode,
+        "source": "https://news.ycombinator.com/",
+        "api": "https://github.com/HackerNews/API",
+        "count_requested": count,
+        "count_written": len(final_items),
+        "scrape_time_display": scrape_time_str,    # PT shown on page
+        "timezone": tz_name,
+        "date_dir": date_dir,
+    }
+
+    write_backup_json(json_path, meta=meta, items=final_items)
+
+    # ---------- Render MD strictly from JSON backup ----------
+    backup = read_backup_json(json_path)
+    items_for_render = backup["items"]
+
+    page_title = f"Hacker News — Best Stories ({dt.strftime('%Y-%m-%d')})"
+    page_subtitle = f"Scraped at {scrape_time_str} · Top {len(items_for_render)} stories"
+    html_title = filename.replace(".md", "")  # best_stories_MMDDYYYY
+
+    md = render_markdown(items_for_render, page_title=page_title, page_subtitle=page_subtitle, html_title=html_title)
+
     with open(out_path, "w", encoding="utf-8") as f:
         f.write(md)
+
+    # Auto-update /hackernews/ index page
+    update_hackernews_index(
+        base_dir=cfg["output"]["base_dir"],
+        index_path=os.path.join(cfg["output"]["base_dir"], "index.md"),
+        max_items=30,
+    )
+
+    print(f"Wrote: {out_path} and backup {json_path} with {len(items_for_render)} items. mode={mode} (index updated)")
+
 
     # Auto-update /hackernews/ index page
     update_hackernews_index(
