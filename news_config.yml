@@ -1,0 +1,26 @@
+timezone: "America/Los_Angeles"
+
+output:
+  base_dir: "hackernews" # 最终根目录： https://chaowang15.github.io/hackernews
+
+best:
+  count: 50
+  filename_prefix: "best_stories"
+
+latest:
+  enabled: false # 你现在只跑 best；以后要跑 latest 改成 true
+  count: 20
+  filename_prefix: "latest_news"
+
+format:
+  datetime_format: "%H:%M, %B %d, %Y" # 00:09, February 16, 2026
+  date_dir_format: "%Y/%m/%d" # 2026/02/16
+
+llm:
+  enabled: true
+  model: "gpt-5-mini"
+
+images:
+  enabled: true
+  timeout_seconds: 15
+  user_agent: "Mozilla/5.0 (compatible; HNNewsBot/1.0; +https://chaowang15.github.io)"
