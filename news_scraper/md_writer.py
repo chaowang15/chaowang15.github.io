@@ -62,6 +62,29 @@ def render_markdown(
   color: var(--hn-muted);
   font-size: 1.02rem;
 }
+.hn-badges{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 12px 0 2px 0;
+}
+.hn-badge{
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--hn-border);
+  background: rgba(0,0,0,0.03);
+  font-family: var(--hn-sans);
+  font-size: 0.92rem;
+  font-weight: 650;
+  color: var(--hn-fg);
+}
+@media (prefers-color-scheme: dark){
+  .hn-badge{
+    background: rgba(255,255,255,0.06);
+  }
+}
 .hn-rule{
   height: 1px;
   border: 0;
@@ -234,6 +257,11 @@ def render_markdown(
     else:
         subtitle = f"Source: {source_link}"
     lines.append(f"<p class='hn-subtitle'>{subtitle}</p>")
+    lines.append("<div class='hn-badges'>")
+    lines.append(f"<span class='hn-badge'>Top {len(items)}</span>")
+    lines.append("<span class='hn-badge'>Best Stories</span>")
+    lines.append("<span class='hn-badge'>PST/PDT</span>")
+    lines.append("</div>")
     lines.append("<hr class='hn-rule'/>")
 
     lines.append("<div class='hn-list'>")

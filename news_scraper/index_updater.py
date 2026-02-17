@@ -94,7 +94,29 @@ def update_hackernews_index(
     --hn-card-bg: rgba(20,20,20,0.60);
   }
 }
-
+.hn-badges{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 12px 0 2px 0;
+}
+.hn-badge{
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--hn-border);
+  background: rgba(0,0,0,0.03);
+  font-family: var(--hn-sans);
+  font-size: 0.92rem;
+  font-weight: 650;
+  color: var(--hn-fg);
+}
+@media (prefers-color-scheme: dark){
+  .hn-badge{
+    background: rgba(255,255,255,0.06);
+  }
+}
 .hn-wrap{
   max-width: var(--hn-maxw);
   margin: 0 auto;
@@ -179,6 +201,11 @@ def update_hackernews_index(
     lines.append("<h1 class='hn-h1'>Hacker News (Daily)</h1>")
     source_link = "<a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a>"
     lines.append(f"<p class='hn-subtitle'>Daily scraped <b>Hacker News — Best Stories</b>. · Source: {source_link}</p>")
+    lines.append("<div class='hn-badges'>")
+    lines.append("<span class='hn-badge'>Best Stories</span>")
+    lines.append("<span class='hn-badge'>Daily</span>")
+    lines.append("<span class='hn-badge'>PST/PDT</span>")
+    lines.append("</div>")
     lines.append("<hr class='hn-rule'/>")
     lines.append("")
 
