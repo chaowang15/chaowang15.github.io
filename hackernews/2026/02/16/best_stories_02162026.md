@@ -174,486 +174,446 @@ title: "best_stories_02162026"
 
 <div class='hn-wrap'>
 <h1 class='hn-h1'>Hacker News — Best Stories (2026-02-16)</h1>
-<p class='hn-subtitle'>Scraped at 18:28, February 16, 2026 (PST) · Top 50 stories · Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
+<p class='hn-subtitle'>Scraped at 19:23, February 16, 2026 (PST) · Top 50 stories · Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
 <div class='hn-list'>
 <div class='hn-card'>
 <img class='hn-img' src='https://s3.eu-central-2.wasabisys.com/mastodonworld/media_attachments/files/116/072/747/717/256/848/original/7dfa3f40a6cc6381.png' data-full='https://s3.eu-central-2.wasabisys.com/mastodonworld/media_attachments/files/116/072/747/717/256/848/original/7dfa3f40a6cc6381.png' alt='preview image' loading='lazy'/>
-<div class='hn-img-hint'>Tap/click image to view full size</div>
 <div class='hn-body'>
 <p class='hn-title'>(1) <a href='https://mastodon.world/@knowmadd/116072773118828295' target='_blank' rel='noopener noreferrer'>I want to wash my car. The car wash is 50 meters away. Should I walk or drive?</a></p>
-<p class='hn-meta'>我想洗车，洗车点只有50米远。我应该走过去还是开车？ &nbsp;|&nbsp; 18:28, February 16, 2026 (PST)</p>
-<p class='hn-text-en'>A short Mastodon post poses a practical question about whether to walk or drive to a nearby car wash located 50 meters away. The post likely invites opinions or humorous responses about small daily decisions and convenience. The link points to a user post on mastodon.world.</p>
-<p class='hn-text-zh'>一则简短的 Mastodon 帖子提出了一个实用问题：到只有 50 米远的洗车点是走路还是开车更好。该帖子可能征求对日常小决策和便利性的看法或幽默回应。链接指向 mastodon.world 上的用户帖子。</p>
+<p class='hn-meta'>我要去洗车。洗车点离我50米。我应该走路还是开车？ &nbsp;|&nbsp; 19:23, February 16, 2026 (PST)</p>
+<p class='hn-text-en'>A short Mastodon post posing a lighthearted dilemma about whether to walk or drive to a car wash located 50 meters away. The content appears to be a personal or humorous note rather than a formal analysis. The post is hosted on mastodon.world.</p>
+<p class='hn-text-zh'>一则简短的 Mastodon 帖子，提出了一个轻松的两难：去距离 50 米的洗车点应走路还是开车。内容看起来是个人或幽默性的记录，而非正式分析。该帖子发布在 mastodon.world。</p>
 </div>
 </div>
 <div class='hn-card'>
 <img class='hn-img' src='https://steipete.me/posts/2026/openclaw/index.png' data-full='https://steipete.me/posts/2026/openclaw/index.png' alt='preview image' loading='lazy'/>
-<div class='hn-img-hint'>Tap/click image to view full size</div>
 <div class='hn-body'>
 <p class='hn-title'>(2) <a href='https://steipete.me/posts/2026/openclaw' target='_blank' rel='noopener noreferrer'>I’m joining OpenAI</a></p>
-<p class='hn-meta'>我加入了 OpenAI &nbsp;|&nbsp; 18:28, February 16, 2026 (PST)</p>
-<p class='hn-text-en'>A personal blog post announces that the author is joining OpenAI. The linked article likely explains the author's new role, motivations, or expectations about the move. The post is hosted on steipete.me.</p>
-<p class='hn-text-zh'>一篇个人博客文章宣布作者将加入 OpenAI。该链接文章可能说明作者的新职位、动机或对这次变动的期望。文章发布在 steipete.me。</p>
+<p class='hn-meta'>我要加入 OpenAI &nbsp;|&nbsp; 19:23, February 16, 2026 (PST)</p>
+<p class='hn-text-en'>A personal blog post announcing that the author is joining OpenAI. The post is published on the author's site steipete.me and likely describes their move or new role. The page URL suggests it may include reflections on the transition.</p>
+<p class='hn-text-zh'>一篇个人博客文章，宣布作者将加入 OpenAI。文章发布在作者站点 steipete.me，可能描述了他们的去向或新职位。页面 URL 暗示文章可能包含对这一转变的感想。</p>
 </div>
 </div>
 <div class='hn-card'>
 <img class='hn-img' src='https://environment.ec.europa.eu/sites/default/files/styles/ewcms_metatag_image/public/2026-02/GettyImages-2164380614.jpg1_.jpg?h=03a24c0b&itok=gaShWK4G' data-full='https://environment.ec.europa.eu/sites/default/files/styles/ewcms_metatag_image/public/2026-02/GettyImages-2164380614.jpg1_.jpg?h=03a24c0b&itok=gaShWK4G' alt='preview image' loading='lazy'/>
-<div class='hn-img-hint'>Tap/click image to view full size</div>
 <div class='hn-body'>
 <p class='hn-title'>(3) <a href='https://environment.ec.europa.eu/news/new-eu-rules-stop-destruction-unsold-clothes-and-shoes-2026-02-09_en' target='_blank' rel='noopener noreferrer'>EU bans the destruction of unsold apparel, clothing, accessories and footwear</a></p>
-<p class='hn-meta'>欧盟禁止销毁滞销服装、配饰和鞋类 &nbsp;|&nbsp; 18:28, February 16, 2026 (PST)</p>
-<p class='hn-text-en'>An item on the European Commission site reports new EU rules that ban the destruction of unsold clothes, accessories and footwear. The page likely outlines the regulatory change, its scope, and intended environmental or market impacts. The announcement is published on environment.ec.europa.eu.</p>
-<p class='hn-text-zh'>欧盟委员会网站上的一则消息报道了新的欧盟规定，禁止销毁滞销的服装、配饰和鞋类。该页面可能概述了法规变更的内容、适用范围以及旨在产生的环境或市场影响。公告发布在 environment.ec.europa.eu。</p>
+<p class='hn-meta'>欧盟禁止销毁滞销服装、配饰和鞋类 &nbsp;|&nbsp; 19:23, February 16, 2026 (PST)</p>
+<p class='hn-text-en'>A news release on the European Commission's environment site announcing new EU rules that prohibit the destruction of unsold clothes and shoes. The page likely describes the measure's scope and objectives regarding waste and sustainable practices. It is presented as an official EU communication dated February 9, 2026.</p>
+<p class='hn-text-zh'>欧盟环境网站上的一则新闻稿，宣布欧盟出台新规，禁止销毁滞销的衣物和鞋类。该页面很可能描述了该措施的适用范围和旨在减少废弃物与推动可持续做法的目标。内容为 2026 年 2 月 9 日的官方通告。</p>
 </div>
 </div>
 <div class='hn-card'>
 <div class='hn-body'>
 <p class='hn-title'>(4) <a href='https://greenwald.substack.com/p/amazons-ring-and-googles-nest-unwittingly' target='_blank' rel='noopener noreferrer'>Amazon's Ring and Google's Nest reveal the severity of U.S. surveillance state</a></p>
-<p class='hn-meta'>亚马逊 Ring 与谷歌 Nest 暴露了美国监控国家的严重性 &nbsp;|&nbsp; 18:28, February 16, 2026 (PST)</p>
-<p class='hn-text-en'>A Substack article discusses how Amazon's Ring and Google's Nest products reflect broader issues with surveillance in the United States. The piece likely examines the privacy, corporate, and public-safety dimensions of consumer surveillance devices. The commentary is published on greenwald.substack.com.</p>
-<p class='hn-text-zh'>一篇 Substack 文章讨论了亚马逊 Ring 和谷歌 Nest 产品如何反映美国更广泛的监控问题。文章可能审视消费级监控设备的隐私、企业与公共安全等维度。评论发表在 greenwald.substack.com。</p>
+<p class='hn-meta'>亚马逊的 Ring 和谷歌的 Nest 暴露了美国监控状态的严重性 &nbsp;|&nbsp; 19:23, February 16, 2026 (PST)</p>
+<p class='hn-text-en'>An opinion piece on Substack examining how consumer devices from Amazon and Google illustrate aspects of surveillance in the United States. The article appears to discuss implications of smart-home cameras and related services. It is hosted on Glenn Greenwald's Substack.</p>
+<p class='hn-text-zh'>一篇发布在 Substack 上的观点文章，讨论亚马逊和谷歌的消费设备如何反映美国监控状况的某些方面。文章似乎涉及智能家居摄像头及相关服务的影响和含义。该文发表于 Glenn Greenwald 的 Substack 平台。</p>
 </div>
 </div>
 <div class='hn-card'>
 <img class='hn-img' src='https://marler8997.github.io/SimplyInstallVs.png' data-full='https://marler8997.github.io/SimplyInstallVs.png' alt='preview image' loading='lazy'/>
-<div class='hn-img-hint'>Tap/click image to view full size</div>
 <div class='hn-body'>
 <p class='hn-title'>(5) <a href='https://marler8997.github.io/blog/fixed-windows/' target='_blank' rel='noopener noreferrer'>I fixed Windows native development</a></p>
-<p class='hn-meta'>我修好了 Windows 本地开发 &nbsp;|&nbsp; 18:28, February 16, 2026 (PST)</p>
-<p class='hn-text-en'>A blog post claims to have fixed issues with native Windows development. The article likely describes problems the author encountered, the changes made, and practical steps or tools used to improve the development experience. The write-up is hosted on marler8997.github.io.</p>
-<p class='hn-text-zh'>一篇博文声称已修复 Windows 本地开发中的问题。文章可能描述作者遇到的问题、所做的改动以及用于改善开发体验的实际步骤或工具。文章发布在 marler8997.github.io。</p>
+<p class='hn-meta'>我修好了 Windows 原生开发 &nbsp;|&nbsp; 19:23, February 16, 2026 (PST)</p>
+<p class='hn-text-en'>A personal or technical blog post claiming to have improved native development on Windows. The article is hosted on marler8997.github.io and likely outlines changes or tools the author used. The content appears targeted at developers working with Windows toolchains.</p>
+<p class='hn-text-zh'>一篇个人或技术博客，声称改进了 Windows 原生开发体验。文章发布在 marler8997.github.io，可能概述了作者所做的更改或所用工具。内容面向从事 Windows 工具链开发的开发者。</p>
 </div>
 </div>
 <div class='hn-card'>
 <img class='hn-img' src='https://modern-css.com/apple-touch-icon.png' data-full='https://modern-css.com/apple-touch-icon.png' alt='preview image' loading='lazy'/>
-<div class='hn-img-hint'>Tap/click image to view full size</div>
 <div class='hn-body'>
 <p class='hn-title'>(6) <a href='https://modern-css.com' target='_blank' rel='noopener noreferrer'>Modern CSS Code Snippets: Stop writing CSS like it's 2015</a></p>
-<p class='hn-meta'>现代 CSS 代码片段：别再像 2015 年那样写 CSS &nbsp;|&nbsp; 18:28, February 16, 2026 (PST)</p>
-<p class='hn-text-en'>Modern-CSS.com offers a collection of contemporary CSS code snippets and techniques. The site aims to show up-to-date practices and alternatives to older CSS patterns. It serves as a practical resource for front-end developers looking to modernize their stylesheets.</p>
-<p class='hn-text-zh'>Modern-CSS.com 提供了一系列现代 CSS 代码片段和技术。该网站旨在展示最新的实践和旧 CSS 模式的替代方案。它是希望使样式表现代化的前端开发者的实用资源。</p>
+<p class='hn-meta'>现代 CSS 代码片段：别再像 2015 年那样写 CSS &nbsp;|&nbsp; 19:23, February 16, 2026 (PST)</p>
+<p class='hn-text-en'>A website promoting modern CSS snippets and best practices, urging developers to update older patterns. The site modern-css.com likely provides examples, utilities, or guides for contemporary CSS techniques. It targets front-end developers looking to modernize their stylesheets.</p>
+<p class='hn-text-zh'>一个推广现代 CSS 片段与最佳实践的网站，鼓励开发者更新过时的写法。网站 modern-css.com 很可能提供示例、工具或关于当代 CSS 技术的指南。目标读者是希望使样式表现代化的前端开发者。</p>
 </div>
 </div>
 <div class='hn-card'>
 <img class='hn-img' src='https://oat.ink/thumb.png' data-full='https://oat.ink/thumb.png' alt='preview image' loading='lazy'/>
-<div class='hn-img-hint'>Tap/click image to view full size</div>
 <div class='hn-body'>
 <p class='hn-title'>(7) <a href='https://oat.ink/' target='_blank' rel='noopener noreferrer'>Oat – Ultra-lightweight, zero dependency, semantic HTML, CSS, JS UI library</a></p>
-<p class='hn-meta'>Oat – 轻量、零依赖、语义化的 HTML/CSS/JS UI 库 &nbsp;|&nbsp; 18:28, February 16, 2026 (PST)</p>
-<p class='hn-text-en'>Oat is presented as an ultra-lightweight UI library with no dependencies that focuses on semantic HTML, CSS, and JavaScript. The project site likely highlights its design goals, features, and usage examples. The library is available at oat.ink.</p>
-<p class='hn-text-zh'>Oat 被描述为一个超轻量、零依赖的 UI 库，侧重于语义化的 HTML、CSS 和 JavaScript。项目站点可能突出其设计目标、功能和使用示例。该库托管在 oat.ink。</p>
+<p class='hn-meta'>Oat – 超轻量、零依赖、语义化的 HTML/CSS/JS UI 库 &nbsp;|&nbsp; 19:23, February 16, 2026 (PST)</p>
+<p class='hn-text-en'>A project site for Oat, described as an ultra-lightweight UI library with zero dependencies that uses semantic HTML, CSS, and JS. The site oat.ink likely showcases the library, documentation, and usage examples. It appears aimed at developers who want minimal, dependency-free UI components.</p>
+<p class='hn-text-zh'>Oat 项目网站，介绍它是一个超轻量、零依赖、使用语义化 HTML/CSS/JS 的 UI 库。网站 oat.ink 可能展示库的功能、文档和使用示例。目标受众是希望使用最小化、无依赖 UI 组件的开发者。</p>
 </div>
 </div>
 <div class='hn-card'>
 <img class='hn-img' src='https://www.legalcheek.com/wp-content/uploads/2024/03/AdobeStock_110501092-1.jpeg' data-full='https://www.legalcheek.com/wp-content/uploads/2024/03/AdobeStock_110501092-1.jpeg' alt='preview image' loading='lazy'/>
-<div class='hn-img-hint'>Tap/click image to view full size</div>
 <div class='hn-body'>
 <p class='hn-title'>(8) <a href='https://www.legalcheek.com/2026/02/ministry-of-justice-orders-deletion-of-the-uks-largest-court-reporting-database/' target='_blank' rel='noopener noreferrer'>Ministry of Justice orders deletion of the UK's largest court reporting database</a></p>
-<p class='hn-meta'>司法部下令删除英国最大法院报告数据库 &nbsp;|&nbsp; 18:28, February 16, 2026 (PST)</p>
-<p class='hn-text-en'>LegalCheek reports that the UK Ministry of Justice ordered the deletion of the country's largest court reporting database. The article likely covers the reasons given for the order, potential legal or procedural implications, and reactions from affected parties. The report appears on legalcheek.com.</p>
-<p class='hn-text-zh'>LegalCheek 报道称英国司法部下令删除英国最大的法院报道数据库。文章可能涉及所给出的理由、该命令的潜在法律或程序性影响以及受影响方的反应。报道见于 legalcheek.com。</p>
-</div>
-</div>
-<div class='hn-card'>
-<img class='hn-img' src='https://www.videogameschronicle.com/files/2026/02/IMG_1643.jpeg' data-full='https://www.videogameschronicle.com/files/2026/02/IMG_1643.jpeg' alt='preview image' loading='lazy'/>
-<div class='hn-img-hint'>Tap/click image to view full size</div>
-<div class='hn-body'>
-<p class='hn-title'>(9) <a href='https://www.videogameschronicle.com/news/hideki-sato-designer-of-segas-consoles-dies-age-75/' target='_blank' rel='noopener noreferrer'>Hideki Sato, designer of all Sega's consoles, has died</a></p>
-<p class='hn-meta'>世嘉所有主机的设计师佐藤秀树去世 &nbsp;|&nbsp; 18:28, February 16, 2026 (PST)</p>
-<p class='hn-text-en'>Video Games Chronicle reports the death of Hideki Sato, described as the designer of all of Sega's consoles. The obituary likely summarizes his career, contributions to console design, and reactions from the games industry. The story is on videogameschronicle.com.</p>
-<p class='hn-text-zh'>Video Games Chronicle 报道了被称为世嘉所有主机设计师的佐藤秀树去世的消息。讣告可能概述了他的职业生涯、对主机设计的贡献以及游戏行业的反应。报道见于 videogameschronicle.com。</p>
+<p class='hn-meta'>司法部下令删除英国最大法院报道数据库 &nbsp;|&nbsp; 19:23, February 16, 2026 (PST)</p>
+<p class='hn-text-en'>A Legal Cheek article reporting that the UK Ministry of Justice has ordered the deletion of a major court reporting database. The story appears to cover the decision and its implications for court reporting and legal transparency. The article is dated February 2026 and hosted on legalcheek.com.</p>
+<p class='hn-text-zh'>Legal Cheek 的一篇报道，称英国司法部已下令删除一项大型法院报道数据库。文章似乎讨论了该决定及其对法院报道和法律透明度的影响。该文发表于 2026 年 2 月，发布在 legalcheek.com。</p>
 </div>
 </div>
 <div class='hn-card'>
 <img class='hn-img' src='https://th-thumbnailer.cdn-si-edu.com/wUPPgpDHXxQh_Fz5JBjAfVAkLV4=/fit-in/1600x0/filters:focal(1000x667:1001x668)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/f6/6e/f66edaff-eb72-4b3e-8e69-77bf70f7aa4d/20251025_public-day_wu_miles_0135_lf.jpg' data-full='https://th-thumbnailer.cdn-si-edu.com/wUPPgpDHXxQh_Fz5JBjAfVAkLV4=/fit-in/1600x0/filters:focal(1000x667:1001x668)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/f6/6e/f66edaff-eb72-4b3e-8e69-77bf70f7aa4d/20251025_public-day_wu_miles_0135_lf.jpg' alt='preview image' loading='lazy'/>
-<div class='hn-img-hint'>Tap/click image to view full size</div>
 <div class='hn-body'>
-<p class='hn-title'>(10) <a href='https://www.smithsonianmag.com/innovation/this-14-year-old-is-using-origami-to-design-emergency-shelters-that-are-sturdy-cost-efficient-and-easy-to-deploy-180988179/' target='_blank' rel='noopener noreferrer'>14-year-old Miles Wu folded origami pattern that holds 10k times its own weight</a></p>
-<p class='hn-meta'>14 岁的 Miles Wu 折出的折纸图样能承重 1 万倍自重 &nbsp;|&nbsp; 18:28, February 16, 2026 (PST)</p>
-<p class='hn-text-en'>Smithsonian Magazine profiles a 14-year-old, Miles Wu, who folded an origami pattern reportedly capable of supporting 10,000 times its own weight. The article likely describes the design, its potential applications such as emergency shelters, and the young designer's background. The piece is published on smithsonianmag.com.</p>
-<p class='hn-text-zh'>史密森杂志报道了一位 14 岁的少年 Miles Wu，他折出的一种折纸图样据称能够承受自身重量的 1 万倍。文章可能描述该设计、其在紧急避难所等方面的潜在应用以及这位年轻设计者的背景。文章刊载于 smithsonianmag.com。</p>
+<p class='hn-title'>(9) <a href='https://www.smithsonianmag.com/innovation/this-14-year-old-is-using-origami-to-design-emergency-shelters-that-are-sturdy-cost-efficient-and-easy-to-deploy-180988179/' target='_blank' rel='noopener noreferrer'>14-year-old Miles Wu folded origami pattern that holds 10k times its own weight</a></p>
+<p class='hn-meta'>14 岁的 Miles Wu 折出的折纸图案能承受相当于自重的 1 万倍 &nbsp;|&nbsp; 19:23, February 16, 2026 (PST)</p>
+<p class='hn-text-en'>A Smithsonian Magazine feature about a 14-year-old, Miles Wu, who used origami-based designs to create strong, efficient structures. The piece discusses how his folding patterns yield high strength-to-weight ratios and potential applications. The article appears on smithsonianmag.com and highlights innovation from a young creator.</p>
+<p class='hn-text-zh'>史密森学会杂志的一篇专题报道，讲述 14 岁的 Miles Wu 如何利用折纸设计构建出强度高且高效的结构。文章讨论他的折叠图案如何带来高强重比以及潜在的应用。该文发布在 smithsonianmag.com，突出一位年轻创新者的成果。</p>
+</div>
+</div>
+<div class='hn-card'>
+<img class='hn-img' src='https://www.videogameschronicle.com/files/2026/02/IMG_1643.jpeg' data-full='https://www.videogameschronicle.com/files/2026/02/IMG_1643.jpeg' alt='preview image' loading='lazy'/>
+<div class='hn-body'>
+<p class='hn-title'>(10) <a href='https://www.videogameschronicle.com/news/hideki-sato-designer-of-segas-consoles-dies-age-75/' target='_blank' rel='noopener noreferrer'>Hideki Sato, designer of all Sega's consoles, has died</a></p>
+<p class='hn-meta'>世嘉所有主机设计师佐藤秀树已逝世 &nbsp;|&nbsp; 19:23, February 16, 2026 (PST)</p>
+<p class='hn-text-en'>A news report on Video Games Chronicle announcing the death of Hideki Sato, described as a designer of Sega's consoles. The article likely covers his career and contributions to console design. It notes his age as 75 in the headline link.</p>
+<p class='hn-text-zh'>Video Games Chronicle 的一则新闻，宣布曾参与设计世嘉主机的佐藤秀树去世。文章可能回顾了他的职业生涯和对主机设计的贡献。标题链接中标注其享年 75 岁。</p>
 </div>
 </div>
 <div class='hn-card'>
 <img class='hn-img' src='https://opengraph.githubassets.com/2b3f8222ba79e1e29c772f148e5f079dee0ef23d8ed1daa8e3e55e5b44272e6b/TechPaula/LT6502' data-full='https://opengraph.githubassets.com/2b3f8222ba79e1e29c772f148e5f079dee0ef23d8ed1daa8e3e55e5b44272e6b/TechPaula/LT6502' alt='preview image' loading='lazy'/>
-<div class='hn-img-hint'>Tap/click image to view full size</div>
 <div class='hn-body'>
 <p class='hn-title'>(11) <a href='https://github.com/TechPaula/LT6502' target='_blank' rel='noopener noreferrer'>LT6502: A 6502-based homebrew laptop</a></p>
-<p class='hn-meta'>LT6502：基于 6502 的自制笔记本 &nbsp;|&nbsp; 18:28, February 16, 2026 (PST)</p>
-<p class='hn-text-en'>A GitHub repository presents LT6502, a homebrew laptop project based on the 6502 microprocessor. The project page likely includes hardware designs, build instructions, and source code for the device. The repository is hosted on GitHub at TechPaula/LT6502.</p>
-<p class='hn-text-zh'>一个 GitHub 仓库展示了 LT6502，这是一款基于 6502 微处理器的自制笔记本项目。项目页面可能包含硬件设计、构建说明和设备的源代码。仓库位于 GitHub 的 TechPaula/LT6502。</p>
+<p class='hn-meta'>LT6502：基于 6502 的自制笔记本 &nbsp;|&nbsp; 19:23, February 16, 2026 (PST)</p>
+<p class='hn-text-en'>A GitHub repository for LT6502, described as a 6502-based homebrew laptop. The repo likely contains schematics, firmware, and build instructions for a DIY laptop project using the 6502 CPU. It is hosted on GitHub under TechPaula's account.</p>
+<p class='hn-text-zh'>LT6502 的 GitHub 仓库，介绍这是一个基于 6502 的自制笔记本项目。仓库可能包含电路图、固件和用于使用 6502 CPU 构建笔记本的制作说明。该项目托管在 TechPaula 的 GitHub 账户下。</p>
 </div>
 </div>
 <div class='hn-card'>
 <div class='hn-body'>
 <p class='hn-title'>(12) <a href='https://qwen.ai/blog?id=qwen3.5' target='_blank' rel='noopener noreferrer'>Qwen3.5: Towards Native Multimodal Agents</a></p>
-<p class='hn-meta'>Qwen3.5：迈向原生多模态代理 &nbsp;|&nbsp; 18:28, February 16, 2026 (PST)</p>
-<p class='hn-text-en'>A blog post on qwen.ai introduces Qwen3.5 and discusses progress toward native multimodal agents. The article likely outlines model capabilities, multimodal features, and intended use cases or research directions. The post appears on qwen.ai's official blog.</p>
-<p class='hn-text-zh'>qwen.ai 的一篇博文介绍了 Qwen3.5，并讨论了朝向原生多模态代理的进展。文章可能概述模型能力、多模态特性以及预期的用例或研究方向。该文章刊登在 qwen.ai 的官方博客上。</p>
+<p class='hn-meta'>Qwen3.5：迈向原生多模态代理 &nbsp;|&nbsp; 19:23, February 16, 2026 (PST)</p>
+<p class='hn-text-en'>A blog post on qwen.ai about Qwen3.5, framed as progress toward native multimodal agents. The page likely describes model capabilities, design goals, and multimodal features. It is presented by the Qwen project and intended for readers following AI model developments.</p>
+<p class='hn-text-zh'>qwen.ai 上关于 Qwen3.5 的一篇博文，表述其旨在推动原生多模态代理的发展。页面可能介绍模型能力、设计目标以及多模态特性。该文由 Qwen 项目发布，面向关注 AI 模型进展的读者。</p>
 </div>
 </div>
 <div class='hn-card'>
 <img class='hn-img' src='https://regmedia.co.uk/2026/02/05/shutterstock_2457318185.jpg' data-full='https://regmedia.co.uk/2026/02/05/shutterstock_2457318185.jpg' alt='preview image' loading='lazy'/>
-<div class='hn-img-hint'>Tap/click image to view full size</div>
 <div class='hn-body'>
 <p class='hn-title'>(13) <a href='https://www.theregister.com/2026/02/16/anthropic_claude_ai_edits/' target='_blank' rel='noopener noreferrer'>Anthropic tries to hide Claude's AI actions. Devs hate it</a></p>
-<p class='hn-meta'>Anthropic 试图隐藏 Claude 的 AI 行为，开发者不满 &nbsp;|&nbsp; 18:28, February 16, 2026 (PST)</p>
-<p class='hn-text-en'>The Register reports that Anthropic has taken steps to obscure some of Claude's AI actions, sparking criticism from developers. The article likely details the measures Anthropic implemented and the objections raised by the developer community. The story is available on theregister.com.</p>
-<p class='hn-text-zh'>The Register 报道称 Anthropic 采取措施模糊 Claude 的部分 AI 行为，引发开发者批评。文章可能详述 Anthropic 实施的举措以及开发者社区提出的异议。报道见于 theregister.com。</p>
+<p class='hn-meta'>Anthropic 试图隐藏 Claude 的 AI 行为，开发者不满 &nbsp;|&nbsp; 19:23, February 16, 2026 (PST)</p>
+<p class='hn-text-en'>An article on The Register reporting that Anthropic attempted to obscure certain actions of its Claude AI, prompting criticism from developers. The story likely covers the company's changes and developer reactions regarding transparency. It is dated February 16, 2026 and appears on theregister.com.</p>
+<p class='hn-text-zh'>The Register 的一篇报道，称 Anthropic 试图掩盖其 Claude AI 的某些行为，从而引发开发者的不满。文章可能讨论公司采取的变动以及开发者对透明度的反应。该文发表于 2026 年 2 月 16 日，发布在 theregister.com。</p>
 </div>
 </div>
 <div class='hn-card'>
 <img class='hn-img' src='https://www.fide.com/img/logo1.png' data-full='https://www.fide.com/img/logo1.png' alt='preview image' loading='lazy'/>
-<div class='hn-img-hint'>Tap/click image to view full size</div>
 <div class='hn-body'>
 <p class='hn-title'>(14) <a href='https://www.fide.com/magnus-carlsen-wins-2026-fide-freestyle-world-championship/' target='_blank' rel='noopener noreferrer'>Magnus Carlsen Wins the Freestyle (Chess960) World Championship</a></p>
-<p class='hn-meta'>马格努斯·卡尔森赢得自由式（Chess960）世界冠军 &nbsp;|&nbsp; 18:28, February 16, 2026 (PST)</p>
-<p class='hn-text-en'>FIDE announces that Magnus Carlsen has won the Freestyle (Chess960) World Championship. The official page likely summarizes the event, final standings, and key moments from the competition. The announcement is posted on fide.com.</p>
-<p class='hn-text-zh'>国际象棋联合会（FIDE）宣布马格努斯·卡尔森赢得了自由式（Chess960）世界冠军。官方页面可能概述了赛事、最终排名和比赛中的关键时刻。该公告发布在 fide.com。</p>
+<p class='hn-meta'>马格努斯·卡尔森赢得自由式（Chess960）世界冠军 &nbsp;|&nbsp; 19:23, February 16, 2026 (PST)</p>
+<p class='hn-text-en'>A news item on FIDE's site announcing that Magnus Carlsen won the 2026 Freestyle (Chess960) World Championship. The page likely summarizes the event and his victory. It is published on fide.com and relates to competitive chess results.</p>
+<p class='hn-text-zh'>国际棋联网站上的一则公告，宣布马格努斯·卡尔森赢得 2026 年自由式（Chess960）世界冠军。该页面可能概述赛事情况和他的夺冠过程。内容发布在 fide.com，属于国际象棋赛事报道。</p>
 </div>
 </div>
 <div class='hn-card'>
 <img class='hn-img' src='https://flashpointarchive.org/images/logo.svg' data-full='https://flashpointarchive.org/images/logo.svg' alt='preview image' loading='lazy'/>
-<div class='hn-img-hint'>Tap/click image to view full size</div>
 <div class='hn-body'>
 <p class='hn-title'>(15) <a href='https://flashpointarchive.org' target='_blank' rel='noopener noreferrer'>Flashpoint Archive – Over 200k web games and animations preserved</a></p>
-<p class='hn-meta'>Flashpoint Archive – 超过 20 万款网页游戏与动画被保存 &nbsp;|&nbsp; 18:28, February 16, 2026 (PST)</p>
-<p class='hn-text-en'>Flashpoint Archive is a preservation project that hosts over 200,000 web games and animations. The site provides a repository and tools to access archived web-based interactive content. FlashpointArchive.org is presented as a resource for maintaining playable web history.</p>
-<p class='hn-text-zh'>Flashpoint Archive 是一个保存项目，收录了超过 20 万款网页游戏与动画。该站点提供存档库和访问归档互动内容的工具。FlashpointArchive.org 被作为保存可玩网页历史的资源展示。</p>
+<p class='hn-meta'>Flashpoint Archive – 保存了超过 20 万个网页游戏与动画 &nbsp;|&nbsp; 19:23, February 16, 2026 (PST)</p>
+<p class='hn-text-en'>The Flashpoint Archive website offers preservation of web games and animations, claiming a collection of over 200,000 items. The site likely provides a downloadable archive and tools for running preserved content offline. It serves as an archival resource for internet games and interactive media.</p>
+<p class='hn-text-zh'>Flashpoint Archive 网站致力于保存网页游戏与动画，声称收藏超过 20 万件作品。该站点可能提供可下载的档案和用于离线运行已保存内容的工具。它是互联网游戏与交互式媒体的档案资源。</p>
 </div>
 </div>
 <div class='hn-card'>
 <img class='hn-img' src='https://helios-i.mashable.com/imagery/articles/03BMp5tylVs9DJJavYCVFKV/hero-image.fill.size_1200x675.v1771180235.jpg' data-full='https://helios-i.mashable.com/imagery/articles/03BMp5tylVs9DJJavYCVFKV/hero-image.fill.size_1200x675.v1771180235.jpg' alt='preview image' loading='lazy'/>
-<div class='hn-img-hint'>Tap/click image to view full size</div>
 <div class='hn-body'>
 <p class='hn-title'>(16) <a href='https://mashable.com/article/ai-hard-drive-hdd-shortages-western-digital-sold-out' target='_blank' rel='noopener noreferrer'>Thanks a lot, AI: Hard drives are sold out for the year, says WD</a></p>
-<p class='hn-meta'>多亏了 AI：西数称硬盘全年售罄 &nbsp;|&nbsp; 18:28, February 16, 2026 (PST)</p>
-<p class='hn-text-en'>Mashable reports that Western Digital has said hard drives are sold out for the year, attributing demand pressures to AI-related needs. The article likely discusses supply constraints, market demand from data centers or AI workloads, and company statements. The story is on mashable.com.</p>
-<p class='hn-text-zh'>Mashable 报道称西部数据表示硬盘已售罄至年底，并将需求压力归因于 AI 相关需求。文章可能讨论供应限制、来自数据中心或 AI 工作负载的市场需求以及公司的声明。报道见于 mashable.com。</p>
+<p class='hn-meta'>谢了，AI：硬盘已售罄，西数称今年供不应求 &nbsp;|&nbsp; 19:23, February 16, 2026 (PST)</p>
+<p class='hn-text-en'>A Mashable article reporting that Western Digital says hard drives are sold out for the year, attributing demand to AI-related needs in the headline. The piece likely discusses supply shortages, company statements, and market impacts. It appears on mashable.com and examines storage industry dynamics.</p>
+<p class='hn-text-zh'>Mashable 的一篇报道，称西部数据表示硬盘今年已售罄，标题将需求归因于与 AI 相关的需求。文章可能讨论供应短缺、公司声明和对市场的影响。该文发布在 mashable.com，分析存储行业动态。</p>
 </div>
 </div>
 <div class='hn-card'>
 <img class='hn-img' src='https://assetsio.gnwcdn.com/Discordageverification2.png?width=1200&height=630&fit=crop&enable=upscale&auto=webp' data-full='https://assetsio.gnwcdn.com/Discordageverification2.png?width=1200&height=630&fit=crop&enable=upscale&auto=webp' alt='preview image' loading='lazy'/>
-<div class='hn-img-hint'>Tap/click image to view full size</div>
 <div class='hn-body'>
 <p class='hn-title'>(17) <a href='https://www.rockpapershotgun.com/good-news-uk-discord-users-were-part-of-a-peter-thiel-linked-data-collection-experiment' target='_blank' rel='noopener noreferrer'>UK Discord users were part of a Peter Thiel-linked data collection experiment</a></p>
-<p class='hn-meta'>英国 Discord 用户参与了与彼得·蒂尔有关的数据收集实验 &nbsp;|&nbsp; 18:28, February 16, 2026 (PST)</p>
-<p class='hn-text-en'>Rock Paper Shotgun reports that UK Discord users were part of a data collection experiment linked to Peter Thiel. The article likely outlines the nature of the experiment, who was involved, and the implications for users' privacy. The piece appears on rockpapershotgun.com.</p>
-<p class='hn-text-zh'>Rock Paper Shotgun 报道称英国的 Discord 用户参与了与彼得·蒂尔有关的数据收集实验。文章可能概述实验的性质、参与方以及对用户隐私的影响。报道见于 rockpapershotgun.com。</p>
+<p class='hn-meta'>英国 Discord 用户曾参与与彼得·蒂尔有关的数据收集实验 &nbsp;|&nbsp; 19:23, February 16, 2026 (PST)</p>
+<p class='hn-text-en'>A Rock Paper Shotgun article reporting that UK Discord users were part of a data collection experiment linked to Peter Thiel. The story appears to explore who was involved and the nature of the experiment. It is published on rockpapershotgun.com and frames the matter as a news investigation.</p>
+<p class='hn-text-zh'>Rock Paper Shotgun 的一篇报道，称英国的 Discord 用户曾参与与彼得·蒂尔相关的数据收集实验。文章似乎探讨了参与者和实验性质。该文发布在 rockpapershotgun.com，并将此事作为一则新闻调查进行报道。</p>
 </div>
 </div>
 <div class='hn-card'>
 <img class='hn-img' src='https://blog.dmcc.io/img/android-icon-192x192.png' data-full='https://blog.dmcc.io/img/android-icon-192x192.png' alt='preview image' loading='lazy'/>
-<div class='hn-img-hint'>Tap/click image to view full size</div>
 <div class='hn-body'>
 <p class='hn-title'>(18) <a href='https://blog.dmcc.io/journal/2026-bluetooth-privacy-bluehood/' target='_blank' rel='noopener noreferrer'>What your Bluetooth devices reveal</a></p>
-<p class='hn-meta'>你的蓝牙设备会泄露什么 &nbsp;|&nbsp; 18:28, February 16, 2026 (PST)</p>
-<p class='hn-text-en'>A blog post on dmcc.io examines what information Bluetooth devices may reveal. The article likely explores privacy risks, data leakage vectors, and methods for detecting or mitigating exposure. The analysis is published on blog.dmcc.io.</p>
-<p class='hn-text-zh'>dmcc.io 的一篇博客文章探讨了蓝牙设备可能泄露的信息。文章可能研究隐私风险、数据泄露途径以及检测或缓解暴露的方法。该分析发布在 blog.dmcc.io。</p>
+<p class='hn-meta'>你的蓝牙设备会暴露什么信息 &nbsp;|&nbsp; 19:23, February 16, 2026 (PST)</p>
+<p class='hn-text-en'>A blog post on dmcc.io discussing privacy and what information Bluetooth devices can reveal. The entry titled 'What your Bluetooth devices reveal' likely examines tracking risks and device identifiers. It is presented as a technical or privacy-focused analysis on the author's blog.</p>
+<p class='hn-text-zh'>dmcc.io 上的一篇博文，讨论蓝牙设备可能泄露的隐私信息。题为“你的蓝牙设备会暴露什么信息”的文章可能分析跟踪风险与设备标识符问题。该文以技术或隐私导向的分析形式发布在作者博客上。</p>
 </div>
 </div>
 <div class='hn-card'>
 <img class='hn-img' src='https://theintercept.com/wp-content/uploads/2026/02/AP20302727055883-e1771043216688.jpg?fit=6000%2C3000&w=1200&h=800' data-full='https://theintercept.com/wp-content/uploads/2026/02/AP20302727055883-e1771043216688.jpg?fit=6000%2C3000&w=1200&h=800' alt='preview image' loading='lazy'/>
-<div class='hn-img-hint'>Tap/click image to view full size</div>
 <div class='hn-body'>
 <p class='hn-title'>(19) <a href='https://theintercept.com/2026/02/15/palantir-contract-new-york-city-health-hospitals/' target='_blank' rel='noopener noreferrer'>Palantir Gets Millions of Dollars from New York City's Public Hospitals</a></p>
-<p class='hn-meta'>Palantir 从纽约市公立医院获得数百万美元合约 &nbsp;|&nbsp; 18:28, February 16, 2026 (PST)</p>
-<p class='hn-text-en'>The Intercept reports that Palantir has received multimillion-dollar contracts from New York City's public hospitals. The article likely examines the contract details, procurement process, and potential concerns or responses from stakeholders. The report is on theintercept.com.</p>
-<p class='hn-text-zh'>The Intercept 报道称 Palantir 获得了来自纽约市公立医院的数百万美元合同。文章可能审视合同细节、采购流程以及利益相关者的潜在担忧或回应。报道见于 theintercept.com。</p>
+<p class='hn-meta'>Palantir 从纽约市公立医院获得数百万美元 &nbsp;|&nbsp; 19:23, February 16, 2026 (PST)</p>
+<p class='hn-text-en'>An article on The Intercept reporting that Palantir received millions of dollars from New York City's public hospitals. The piece likely examines the contract details and public response or implications. It appears on theintercept.com and focuses on government contracting with analytics firms.</p>
+<p class='hn-text-zh'>The Intercept 的一篇报道，称 Palantir 从纽约市公立医院获得了数百万美元。文章可能审视合同细节及公众反应或其影响。该文发布在 theintercept.com，关注政府与分析公司之间的合同关系。</p>
 </div>
 </div>
 <div class='hn-card'>
 <img class='hn-img' src='https://cdn.arstechnica.net/wp-content/uploads/2026/02/ars-logo-dark-background-1152x648.jpg' data-full='https://cdn.arstechnica.net/wp-content/uploads/2026/02/ars-logo-dark-background-1152x648.jpg' alt='preview image' loading='lazy'/>
-<div class='hn-img-hint'>Tap/click image to view full size</div>
 <div class='hn-body'>
 <p class='hn-title'>(20) <a href='https://arstechnica.com/staff/2026/02/editors-note-retraction-of-article-containing-fabricated-quotations/' target='_blank' rel='noopener noreferrer'>Editor's Note: Retraction of article containing fabricated quotations</a></p>
-<p class='hn-meta'>社论说明：撤回含捏造引述的文章 &nbsp;|&nbsp; 18:28, February 16, 2026 (PST)</p>
-<p class='hn-text-en'>Ars Technica publishes an editor's note announcing the retraction of an article that contained fabricated quotations. The note likely details the reasons for the retraction, the nature of the fabrication, and any corrective actions taken. The notice appears on arstechnica.com.</p>
-<p class='hn-text-zh'>Ars Technica 发布社论说明，宣布撤回一篇包含捏造引述的文章。说明可能详细说明撤稿原因、捏造内容的性质以及采取的纠正措施。该说明见于 arstechnica.com。</p>
+<p class='hn-meta'>社论说明：撤回含捏造引述的文章 &nbsp;|&nbsp; 19:23, February 16, 2026 (PST)</p>
+<p class='hn-text-en'>An editor's note on Ars Technica announcing the retraction of an article that contained fabricated quotations. The piece likely explains the reasons for the retraction and steps taken by the publication. It is hosted on arstechnica.com and serves as an editorial correction notice.</p>
+<p class='hn-text-zh'>Ars Technica 发布的一则社论说明，宣布撤回一篇包含捏造引述的文章。该说明很可能解释撤回原因以及刊方采取的措施。文章刊载在 arstechnica.com，作为编辑更正声明。</p>
 </div>
 </div>
 <div class='hn-card'>
 <img class='hn-img' src='https://gwern.net/doc/cs/algorithm/information/compression/2026-01-23-dbohdan-gpt5imagemini-gwtarlogo-guitar.png' data-full='https://gwern.net/doc/cs/algorithm/information/compression/2026-01-23-dbohdan-gpt5imagemini-gwtarlogo-guitar.png' alt='preview image' loading='lazy'/>
-<div class='hn-img-hint'>Tap/click image to view full size</div>
 <div class='hn-body'>
 <p class='hn-title'>(21) <a href='https://gwern.net/gwtar' target='_blank' rel='noopener noreferrer'>Gwtar: A static efficient single-file HTML format</a></p>
-<p class='hn-meta'>Gwtar：一种静态高效的单文件 HTML 格式 &nbsp;|&nbsp; 18:28, February 16, 2026 (PST)</p>
-<p class='hn-text-en'>Gwern.net presents Gwtar, a proposal for a static and efficient single-file HTML format. The page likely describes the format's design, benefits for archival or distribution, and implementation details. The write-up is hosted on gwern.net.</p>
-<p class='hn-text-zh'>Gwern.net 介绍了 Gwtar，这是一种静态且高效的单文件 HTML 格式提案。页面可能描述该格式的设计、对归档或分发的好处以及实现细节。文章发布在 gwern.net。</p>
+<p class='hn-meta'>Gwtar：一种高效的单文件静态 HTML 格式 &nbsp;|&nbsp; 19:23, February 16, 2026 (PST)</p>
+<p class='hn-text-en'>A Gwern.net page about Gwtar, described as a static, efficient single-file HTML format. The article likely details the format's design, benefits, and use cases for archiving or distribution. It is published on gwern.net and targets readers interested in web archiving and static formats.</p>
+<p class='hn-text-zh'>Gwern.net 上关于 Gwtar 的文章，介绍这是一种高效的单文件静态 HTML 格式。文章可能详述该格式的设计、优点及用于归档或分发的场景。该文发布在 gwern.net，面向对网页归档和静态格式感兴趣的读者。</p>
 </div>
 </div>
 <div class='hn-card'>
+<img class='hn-img' src='https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png' data-full='https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png' alt='preview image' loading='lazy'/>
 <div class='hn-body'>
-<p class='hn-title'>(22) <a href='https://microgpt.boratto.ca' target='_blank' rel='noopener noreferrer'>Show HN: Microgpt is a GPT you can visualize in the browser</a></p>
-<p class='hn-meta'>Show HN：Microgpt——可在浏览器中可视化的 GPT &nbsp;|&nbsp; 18:28, February 16, 2026 (PST)</p>
-<p class='hn-text-en'>Microgpt is a project that lets users visualize a GPT model running in the browser. The Show HN page likely demonstrates the interface, visualization features, and technical approach used to run or simulate the model client-side. The demo is available at microgpt.boratto.ca.</p>
-<p class='hn-text-zh'>Microgpt 是一个允许用户在浏览器中可视化运行 GPT 模型的项目。Show HN 页面可能演示了界面、可视化功能以及用于在客户端运行或模拟模型的技术方法。演示托管在 microgpt.boratto.ca。</p>
+<p class='hn-title'>(22) <a href='https://arxiv.org/abs/2602.12670' target='_blank' rel='noopener noreferrer'>Study: Self-generated Agent Skills are useless</a></p>
+<p class='hn-meta'>研究：自生成代理技能没用 &nbsp;|&nbsp; 19:23, February 16, 2026 (PST)</p>
+<p class='hn-text-en'>An arXiv paper titled 'Self-generated Agent Skills are useless' presenting research findings. The abstract on arxiv.org likely discusses experiments and conclusions about agent-generated skills. The paper is available as a preprint for readers to review the methodology and results.</p>
+<p class='hn-text-zh'>一篇标题为“自生成代理技能没用”的 arXiv 论文，陈述了相应的研究发现。arxiv.org 上的摘要可能讨论了相关实验和关于代理自生技能的结论。该论文以预印本形式发布，供读者审阅方法和结果。</p>
 </div>
 </div>
 <div class='hn-card'>
 <img class='hn-img' src='https://jmail.world/social-preview.png' data-full='https://jmail.world/social-preview.png' alt='preview image' loading='lazy'/>
-<div class='hn-img-hint'>Tap/click image to view full size</div>
 <div class='hn-body'>
 <p class='hn-title'>(23) <a href='https://jmail.world/jemini' target='_blank' rel='noopener noreferrer'>Show HN: Jemini – Gemini for the Epstein Files</a></p>
-<p class='hn-meta'>Show HN：Jemini——用于爱泼斯坦文件的 Gemini &nbsp;|&nbsp; 18:28, February 16, 2026 (PST)</p>
-<p class='hn-text-en'>Jemini is presented as a Show HN project described as 'Gemini for the Epstein Files.' The linked site likely provides a Gemini-protocol interface or indexed access to documents related to the Epstein files. The project is hosted at jmail.world.</p>
-<p class='hn-text-zh'>Jemini 被作为一个 Show HN 项目展示，描述为“用于爱泼斯坦文件的 Gemini”。链接站点可能提供 Gemini 协议接口或对与爱泼斯坦文件相关文档的索引访问。项目托管在 jmail.world。</p>
+<p class='hn-meta'>展示：Jemini – 针对爱泼斯坦档案的 Gemini &nbsp;|&nbsp; 19:23, February 16, 2026 (PST)</p>
+<p class='hn-text-en'>A Show HN post for Jemini, described as a Gemini interface for the Epstein files. The project hosted at jmail.world likely provides search or browsing functionality for documents related to Jeffrey Epstein. It is presented as a tool built on the Gemini protocol or interface.</p>
+<p class='hn-text-zh'>一则 Show HN 帖子，介绍 Jemini 项目，将 Gemini 接口用于爱泼斯坦档案。托管在 jmail.world 的该项目可能提供针对与杰弗里·爱泼斯坦相关文件的检索或浏览功能。它被描述为基于 Gemini 协议或界面的工具。</p>
 </div>
 </div>
 <div class='hn-card'>
 <div class='hn-body'>
 <p class='hn-title'>(24) <a href='https://notnotp.com/notes/use-protocols-not-services/' target='_blank' rel='noopener noreferrer'>Use protocols, not services</a></p>
-<p class='hn-meta'>使用协议，而非服务 &nbsp;|&nbsp; 18:28, February 16, 2026 (PST)</p>
-<p class='hn-text-en'>An essay on notnotp.com advocates for using protocols instead of centralized services. The piece likely argues for interoperability, decentralization, and the long-term benefits of protocol-based ecosystems. The note is published on notnotp.com.</p>
-<p class='hn-text-zh'>notnotp.com 上的一篇文章主张使用协议而非集中式服务。文章可能论述互操作性、去中心化以及基于协议的生态系统的长期利益。该文发布在 notnotp.com。</p>
+<p class='hn-meta'>使用协议，而非服务 &nbsp;|&nbsp; 19:23, February 16, 2026 (PST)</p>
+<p class='hn-text-en'>A blog post advocating for the use of protocols instead of centralized services. The note on notnotp.com likely argues for interoperable, open protocols as a design principle. It is positioned as an opinion or technical essay on systems design and decentralization.</p>
+<p class='hn-text-zh'>一篇博客文章，主张使用协议而非集中式服务。发布在 notnotp.com 的这篇笔记可能论述可互操作的开放协议作为设计原则。文章以观点或技术随笔的形式探讨系统设计与去中心化问题。</p>
+</div>
+</div>
+<div class='hn-card'>
+<div class='hn-body'>
+<p class='hn-title'>(25) <a href='https://microgpt.boratto.ca' target='_blank' rel='noopener noreferrer'>Show HN: Microgpt is a GPT you can visualize in the browser</a></p>
+<p class='hn-meta'>展示：Microgpt 是你可在浏览器中可视化的 GPT &nbsp;|&nbsp; 19:23, February 16, 2026 (PST)</p>
+<p class='hn-text-en'>A Show HN link to Microgpt, a GPT implementation that can be visualized in the browser. The site microgpt.boratto.ca likely demonstrates model internals or inference steps with interactive visualization. It appears aimed at developers and researchers interested in model interpretability.</p>
+<p class='hn-text-zh'>一则 Show HN 链接，介绍 Microgpt，这是一个可在浏览器中可视化的 GPT 实现。microgpt.boratto.ca 网站可能展示模型内部或推理步骤的交互式可视化。该项目面向对模型可解释性感兴趣的开发者和研究者。</p>
 </div>
 </div>
 <div class='hn-card'>
 <img class='hn-img' src='https://jmail.world/api/og/jwiki/peter-thiel' data-full='https://jmail.world/api/og/jwiki/peter-thiel' alt='preview image' loading='lazy'/>
-<div class='hn-img-hint'>Tap/click image to view full size</div>
 <div class='hn-body'>
-<p class='hn-title'>(25) <a href='https://jmail.world/wiki/peter-thiel' target='_blank' rel='noopener noreferrer'>Peter Thiel: 2,436 emails with Epstein from 2014 to 2019</a></p>
-<p class='hn-meta'>彼得·蒂尔：2014 至 2019 年与爱泼斯坦的 2,436 封电子邮件 &nbsp;|&nbsp; 18:28, February 16, 2026 (PST)</p>
-<p class='hn-text-en'>A page on jmail.world's wiki claims a collection of 2,436 emails between Peter Thiel and Jeffrey Epstein from 2014 to 2019. The wiki likely provides an index or archive of those communications and related context. The information is hosted on jmail.world.</p>
-<p class='hn-text-zh'>jmail.world 的一个维基页面声称收录了彼得·蒂尔与杰弗里·爱泼斯坦在 2014 至 2019 年间的 2,436 封电子邮件。该维基可能提供这些通信的索引或存档以及相关背景资料。信息托管在 jmail.world。</p>
-</div>
-</div>
-<div class='hn-card'>
-<img class='hn-img' src='https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png' data-full='https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png' alt='preview image' loading='lazy'/>
-<div class='hn-img-hint'>Tap/click image to view full size</div>
-<div class='hn-body'>
-<p class='hn-title'>(26) <a href='https://arxiv.org/abs/2602.12670' target='_blank' rel='noopener noreferrer'>Study: Self-generated Agent Skills are useless</a></p>
-<p class='hn-meta'>研究：自生成代理技能无用 &nbsp;|&nbsp; 18:28, February 16, 2026 (PST)</p>
-<p class='hn-text-en'>An arXiv paper titled 'Self-generated Agent Skills are useless' presents research findings on agent-generated skills. The abstract likely outlines the experimental setup, results, and conclusions about the utility of self-generated skills for agents. The paper is available on arxiv.org.</p>
-<p class='hn-text-zh'>一篇题为《自生成代理技能无用》的 arXiv 论文发表了关于代理自生成技能的研究结论。摘要可能概述实验设置、结果以及关于自生成技能对代理实用性的结论。论文可在 arxiv.org 查阅。</p>
+<p class='hn-title'>(26) <a href='https://jmail.world/wiki/peter-thiel' target='_blank' rel='noopener noreferrer'>Peter Thiel: 2,436 emails with Epstein from 2014 to 2019</a></p>
+<p class='hn-meta'>彼得·蒂尔：2014 至 2019 年与爱泼斯坦的 2,436 封邮件 &nbsp;|&nbsp; 19:23, February 16, 2026 (PST)</p>
+<p class='hn-text-en'>A page on jmail.world documenting emails between Peter Thiel and Jeffrey Epstein, with a headline number of 2,436 emails from 2014 to 2019. The site likely aggregates or indexes communications related to public figures. It appears to be part of a broader collection of documents or reporting.</p>
+<p class='hn-text-zh'>jmail.world 上的一页，记录彼得·蒂尔与杰弗里·爱泼斯坦之间的邮件，标题显示 2014 至 2019 年间共有 2,436 封邮件。该网站可能汇集或索引与公众人物相关的通信记录。页面似乎属于更大范围的文件或报道集合。</p>
 </div>
 </div>
 <div class='hn-card'>
 <div class='hn-body'>
 <p class='hn-title'>(27) <a href='https://ahmedeldin.substack.com/p/the-israeli-spyware-firm-that-accidentally' target='_blank' rel='noopener noreferrer'>The Israeli spyware firm that accidentally just exposed itself</a></p>
-<p class='hn-meta'>意外曝光自己的以色列间谍软件公司 &nbsp;|&nbsp; 18:28, February 16, 2026 (PST)</p>
-<p class='hn-text-en'>A Substack post discusses an Israeli spyware firm that 'accidentally' exposed itself. The article likely narrates how the exposure occurred, the firm's activities, and the implications of the leak or mistake. The analysis is published on ahmedeldin.substack.com.</p>
-<p class='hn-text-zh'>一篇 Substack 文章讨论了一家‘意外’暴露自己的以色列间谍软件公司。文章可能叙述了暴露是如何发生的、该公司的活动以及泄露或失误的影响。分析刊载于 ahmedeldin.substack.com。</p>
+<p class='hn-meta'>那家以色列间谍软件公司无意中曝光了自己 &nbsp;|&nbsp; 19:23, February 16, 2026 (PST)</p>
+<p class='hn-text-en'>A Substack post by Ahmed Eldin about an Israeli spyware firm that accidentally exposed itself. The article likely covers the circumstances of the exposure and relevant technical or operational details. It appears as an investigative or explanatory piece on substack.com.</p>
+<p class='hn-text-zh'>Ahmed Eldin 在 Substack 上发表的一篇文章，讨论一家以色列间谍软件公司无意中自曝的事件。文章可能讲述曝光的具体情况以及相关的技术或操作细节。该文呈现为一篇调查性或解释性文章，发布在 substack.com。</p>
 </div>
 </div>
 <div class='hn-card'>
 <img class='hn-img' src='https://heise.cloudimg.io/bound/1200x1200/q85.png-lossy-85.webp-lossy-85.foil1/_www-heise-de_/imgs/18/5/0/2/7/7/7/1/Screenshot_2026-02-13_at_19.57.24-85c7b3432095e315.png' data-full='https://heise.cloudimg.io/bound/1200x1200/q85.png-lossy-85.webp-lossy-85.foil1/_www-heise-de_/imgs/18/5/0/2/7/7/7/1/Screenshot_2026-02-13_at_19.57.24-85c7b3432095e315.png' alt='preview image' loading='lazy'/>
-<div class='hn-img-hint'>Tap/click image to view full size</div>
 <div class='hn-body'>
 <p class='hn-title'>(28) <a href='https://www.heise.de/en/news/Palantir-vs-the-Republik-US-analytics-firm-takes-magazine-to-court-11176508.html' target='_blank' rel='noopener noreferrer'>Palantir vs. the "Republik": US analytics firm takes magazine to court</a></p>
-<p class='hn-meta'>Palantir 对《Republik》提起诉讼：美国分析公司将杂志告上法庭 &nbsp;|&nbsp; 18:28, February 16, 2026 (PST)</p>
-<p class='hn-text-en'>Heise reports that US analytics firm Palantir has taken the magazine Republik to court. The article likely covers the grounds for the lawsuit, the legal claims involved, and responses from the magazine and other parties. The story is available on heise.de.</p>
-<p class='hn-text-zh'>Heise 报道称美国分析公司 Palantir 已对杂志《Republik》提起诉讼。文章可能报道了起诉理由、涉及的法律指控以及杂志和其他相关方的回应。报道见于 heise.de。</p>
+<p class='hn-meta'>Palantir 起诉《Republik》：美国分析公司将杂志告上法庭 &nbsp;|&nbsp; 19:23, February 16, 2026 (PST)</p>
+<p class='hn-text-en'>A Heise article reporting that Palantir has taken the magazine Republik to court. The story likely details the legal dispute between the analytics firm and the publication. It is published on heise.de and covers issues around press reporting and corporate responses.</p>
+<p class='hn-text-zh'>Heise 的一篇报道，称 Palantir 已将杂志《Republik》告上法庭。文章可能详述这家分析公司与该刊之间的法律纠纷。该文发布在 heise.de，涉及新闻报道与企业反应相关的问题。</p>
 </div>
 </div>
 <div class='hn-card'>
 <img class='hn-img' src='https://bear-images.sfo2.cdn.digitaloceanspaces.com/herman-1683556668-0.png' data-full='https://bear-images.sfo2.cdn.digitaloceanspaces.com/herman-1683556668-0.png' alt='preview image' loading='lazy'/>
-<div class='hn-img-hint'>Tap/click image to view full size</div>
 <div class='hn-body'>
 <p class='hn-title'>(29) <a href='https://tadaima.bearblog.dev/privilege-is-bad-grammar/' target='_blank' rel='noopener noreferrer'>Privilege is bad grammar</a></p>
-<p class='hn-meta'>特权是糟糕的语法 &nbsp;|&nbsp; 18:28, February 16, 2026 (PST)</p>
-<p class='hn-text-en'>A personal essay on tadaima.bearblog.dev argues that the concept of 'privilege' is framed poorly in grammar or discourse. The author likely critiques how privilege is discussed and proposes alternatives or clarifications. The piece is hosted on a personal blog.</p>
-<p class='hn-text-zh'>tadaima.bearblog.dev 上的一篇个人随笔认为“特权”这一概念在语法或话语中被表述得不好。作者可能批评了关于特权的讨论方式并提出替代意见或澄清。该文章发布在个人博客上。</p>
+<p class='hn-meta'>特权是糟糕的语法 &nbsp;|&nbsp; 19:23, February 16, 2026 (PST)</p>
+<p class='hn-text-en'>A blog post titled 'Privilege is bad grammar' on tadaima.bearblog.dev. The piece likely uses an analogy between grammatical rules and social or technical concepts of privilege. It appears to be an opinionated essay exploring language or social metaphors.</p>
+<p class='hn-text-zh'>一篇题为“特权是糟糕的语法”的博文，发布在 tadaima.bearblog.dev。文章可能将语法规则与社会或技术层面的特权概念作比喻。它看起来是一篇带有观点色彩的随笔，探讨语言或社会隐喻。</p>
 </div>
 </div>
 <div class='hn-card'>
 <img class='hn-img' src='https://kotaku.com/app/uploads/2025/09/Discord1-1200x675.jpg' data-full='https://kotaku.com/app/uploads/2025/09/Discord1-1200x675.jpg' alt='preview image' loading='lazy'/>
-<div class='hn-img-hint'>Tap/click image to view full size</div>
 <div class='hn-body'>
 <p class='hn-title'>(30) <a href='https://kotaku.com/discord-palantir-peter-thiel-persona-age-verification-2000668951' target='_blank' rel='noopener noreferrer'>Discord distances from age verification firm after ties to Peter Thiel surface</a></p>
-<p class='hn-meta'>在与彼得·蒂尔的关联浮出水面后，Discord 与年龄验证公司划清界限 &nbsp;|&nbsp; 18:28, February 16, 2026 (PST)</p>
-<p class='hn-text-en'>Kotaku reports that Discord has distanced itself from an age verification firm after ties to Peter Thiel surfaced. The article likely outlines the revelations, Discord's response, and potential implications for user verification practices. The story is on kotaku.com.</p>
-<p class='hn-text-zh'>Kotaku 报道称在与彼得·蒂尔的关联浮出水面后，Discord 已与一家年龄验证公司划清界限。文章可能概述了相关披露、Discord 的回应以及对用户验证做法的潜在影响。报道见于 kotaku.com。</p>
+<p class='hn-meta'>Discord 在彼得·蒂尔关系曝光后与年龄验证公司划清界限 &nbsp;|&nbsp; 19:23, February 16, 2026 (PST)</p>
+<p class='hn-text-en'>A Kotaku article reporting that Discord has distanced itself from an age verification firm after ties to Peter Thiel emerged. The story likely summarizes Discord's response and the context of the firm's connections. It is published on kotaku.com and covers platform policy and privacy implications.</p>
+<p class='hn-text-zh'>Kotaku 的一篇报道，称在与彼得·蒂尔有关联被曝出后，Discord 已与一家年龄验证公司划清界限。文章可能概述 Discord 的回应及该公司关联的背景。该文发布在 kotaku.com，关注平台政策与隐私影响。</p>
 </div>
 </div>
 <div class='hn-card'>
 <img class='hn-img' src='https://knock-knock.net/static/og-image.jpg' data-full='https://knock-knock.net/static/og-image.jpg' alt='preview image' loading='lazy'/>
-<div class='hn-img-hint'>Tap/click image to view full size</div>
 <div class='hn-body'>
 <p class='hn-title'>(31) <a href='https://knock-knock.net' target='_blank' rel='noopener noreferrer'>Show HN: Knock-Knock.net – Visualizing the bots knocking on my server's door</a></p>
-<p class='hn-meta'>Show HN：Knock-Knock.net——可视化敲我服务器门的机器人 &nbsp;|&nbsp; 18:28, February 16, 2026 (PST)</p>
-<p class='hn-text-en'>Knock-Knock.net is a Show HN project that visualizes the bots and traffic hitting a server. The site likely presents dashboards, logs, and visual summaries to help operators understand incoming automated traffic. The project is hosted at knock-knock.net.</p>
-<p class='hn-text-zh'>Knock-Knock.net 是一个 Show HN 项目，用于可视化访问服务器的机器人和流量。该站点可能展示仪表盘、日志和可视摘要，帮助运维人员了解进入的自动化流量。项目托管在 knock-knock.net。</p>
+<p class='hn-meta'>展示：Knock-Knock.net – 可视化敲我服务器门的机器人 &nbsp;|&nbsp; 19:23, February 16, 2026 (PST)</p>
+<p class='hn-text-en'>A Show HN project called Knock-Knock.net that visualizes bots probing a server. The site likely shows live or logged connection attempts and categorizes automated traffic. It is presented as a tool for server operators to understand incoming bot activity.</p>
+<p class='hn-text-zh'>一则 Show HN 项目，Knock-Knock.net，用于可视化探测服务器的机器人活动。该网站可能展示实时或记录的连接尝试，并对自动化流量进行分类。它被作为帮助服务器运维者了解入站机器人活动的工具呈现。</p>
 </div>
 </div>
 <div class='hn-card'>
 <img class='hn-img' src='https://blog.dmcc.io/img/android-icon-192x192.png' data-full='https://blog.dmcc.io/img/android-icon-192x192.png' alt='preview image' loading='lazy'/>
-<div class='hn-img-hint'>Tap/click image to view full size</div>
 <div class='hn-body'>
 <p class='hn-title'>(32) <a href='https://blog.dmcc.io/journal/xmpp-turn-stun-coturn-prosody/' target='_blank' rel='noopener noreferrer'>Running My Own XMPP Server</a></p>
-<p class='hn-meta'>运行我自己的 XMPP 服务器 &nbsp;|&nbsp; 18:28, February 16, 2026 (PST)</p>
-<p class='hn-text-en'>A blog post documents the author's experience running a personal XMPP server. The guide likely covers components like XMPP software, TURN/STUN setup, and configuration tips for reliable operation. The write-up is published on blog.dmcc.io.</p>
-<p class='hn-text-zh'>一篇博文记录了作者运行个人 XMPP 服务器的经验。该指南可能涵盖 XMPP 软件、TURN/STUN 设置以及可靠运行的配置建议。文章发布在 blog.dmcc.io。</p>
+<p class='hn-meta'>运行我自己的 XMPP 服务器 &nbsp;|&nbsp; 19:23, February 16, 2026 (PST)</p>
+<p class='hn-text-en'>A blog post on dmcc.io about running a personal XMPP server. The entry likely covers setup steps, pros and cons, and related components like TURN/STUN or Prosody. It appears aimed at readers interested in self-hosting real-time messaging services.</p>
+<p class='hn-text-zh'>dmcc.io 上关于运行个人 XMPP 服务器的博文。文章可能介绍搭建步骤、优缺点以及诸如 TURN/STUN 或 Prosody 等相关组件。该文面向对自托管实时消息服务感兴趣的读者。</p>
 </div>
 </div>
 <div class='hn-card'>
 <img class='hn-img' src='https://www.seangoedecke.com/og-image.jpg' data-full='https://www.seangoedecke.com/og-image.jpg' alt='preview image' loading='lazy'/>
-<div class='hn-img-hint'>Tap/click image to view full size</div>
 <div class='hn-body'>
 <p class='hn-title'>(33) <a href='https://www.seangoedecke.com/fast-llm-inference/' target='_blank' rel='noopener noreferrer'>Two different tricks for fast LLM inference</a></p>
-<p class='hn-meta'>两个加速 LLM 推理的不同技巧 &nbsp;|&nbsp; 18:28, February 16, 2026 (PST)</p>
-<p class='hn-text-en'>A technical article describes two different tricks for speeding up large language model (LLM) inference. The post likely explains algorithmic or engineering approaches, trade-offs, and performance results or examples. The analysis appears on seangoedecke.com.</p>
-<p class='hn-text-zh'>一篇技术文章描述了两种加速大型语言模型（LLM）推理的不同技巧。文章可能解释算法或工程方法、权衡以及性能结果或示例。分析发布在 seangoedecke.com。</p>
-</div>
-</div>
-<div class='hn-card'>
-<div class='hn-body'>
-<p class='hn-title'>(34) <a href='https://www.washingtonpost.com/technology/2026/02/15/david-greene-google-ai-podcast/' target='_blank' rel='noopener noreferrer'>Radio host David Greene says Google's NotebookLM tool stole his voice</a></p>
-<p class='hn-meta'>广播主持人大卫·格林称谷歌的 NotebookLM 工具盗用了他的声音 &nbsp;|&nbsp; 18:28, February 16, 2026 (PST)</p>
-<p class='hn-text-en'>The Washington Post reports that radio host David Greene alleges Google's NotebookLM tool stole his voice. The article likely covers Greene's claims, Google's response if any, and the broader implications for voice likeness and AI. The piece is on washingtonpost.com.</p>
-<p class='hn-text-zh'>华盛顿邮报报道广播主持人大卫·格林声称谷歌的 NotebookLM 工具盗用了他的声音。文章可能涉及格林的主张、谷歌的回应（如有）以及声音肖像和 AI 的更广泛影响。报道见于 washingtonpost.com。</p>
-</div>
-</div>
-<div class='hn-card'>
-<img class='hn-img' src='https://sgom.es/posts/2026-02-13-js-heavy-approaches-are-not-compatible-with-long-term-performance-goals/preact-dev-tools.jpg' data-full='https://sgom.es/posts/2026-02-13-js-heavy-approaches-are-not-compatible-with-long-term-performance-goals/preact-dev-tools.jpg' alt='preview image' loading='lazy'/>
-<div class='hn-img-hint'>Tap/click image to view full size</div>
-<div class='hn-body'>
-<p class='hn-title'>(35) <a href='https://sgom.es/posts/2026-02-13-js-heavy-approaches-are-not-compatible-with-long-term-performance-goals/' target='_blank' rel='noopener noreferrer'>JavaScript-heavy approaches are not compatible with long-term performance goals</a></p>
-<p class='hn-meta'>大量使用 JavaScript 的方法与长期性能目标不兼容 &nbsp;|&nbsp; 18:28, February 16, 2026 (PST)</p>
-<p class='hn-text-en'>A post on sgom.es argues that JavaScript-heavy approaches are not compatible with long-term performance goals. The author likely discusses the costs of heavy client-side JavaScript, alternative patterns, and implications for web performance over time. The essay is hosted on sgom.es.</p>
-<p class='hn-text-zh'>sgom.es 上的一篇文章认为大量使用 JavaScript 的方法与长期性能目标不兼容。作者可能讨论了大量客户端 JavaScript 的代价、替代方案以及对长期网页性能的影响。该文章发布在 sgom.es。</p>
-</div>
-</div>
-<div class='hn-card'>
-<img class='hn-img' src='https://johan.hal.se/wrote/2026/02/03/the-sideprocalypse/og.png' data-full='https://johan.hal.se/wrote/2026/02/03/the-sideprocalypse/og.png' alt='preview image' loading='lazy'/>
-<div class='hn-img-hint'>Tap/click image to view full size</div>
-<div class='hn-body'>
-<p class='hn-title'>(36) <a href='https://johan.hal.se/wrote/2026/02/03/the-sideprocalypse/' target='_blank' rel='noopener noreferrer'>The Sideprocalypse</a></p>
-<p class='hn-meta'>Sideprocalypse（边项目灾难） &nbsp;|&nbsp; 18:28, February 16, 2026 (PST)</p>
-<p class='hn-text-en'>A blog post titled 'The Sideprocalypse' reflects on issues related to side projects. The piece likely explores productivity, maintenance burdens, or cultural aspects that affect developers' side projects. The essay is available on johan.hal.se.</p>
-<p class='hn-text-zh'>一篇题为《The Sideprocalypse（边项目灾难）》的博文反思了与边项目相关的问题。文章可能探讨影响开发者边项目的生产力、维护负担或文化方面因素。该随笔发布在 johan.hal.se。</p>
-</div>
-</div>
-<div class='hn-card'>
-<img class='hn-img' src='https://opengraph.githubassets.com/6fb7e03fe8066c0f156c6cc3d6fb8b6981e533109afb1303a1335174c8956141/unicode-org/message-format-wg' data-full='https://opengraph.githubassets.com/6fb7e03fe8066c0f156c6cc3d6fb8b6981e533109afb1303a1335174c8956141/unicode-org/message-format-wg' alt='preview image' loading='lazy'/>
-<div class='hn-img-hint'>Tap/click image to view full size</div>
-<div class='hn-body'>
-<p class='hn-title'>(37) <a href='https://github.com/unicode-org/message-format-wg' target='_blank' rel='noopener noreferrer'>MessageFormat: Unicode standard for localizable message strings</a></p>
-<p class='hn-meta'>MessageFormat：用于本地化消息字符串的 Unicode 标准 &nbsp;|&nbsp; 18:28, February 16, 2026 (PST)</p>
-<p class='hn-text-en'>A GitHub repository describes MessageFormat, a Unicode working group standard for localizable message strings. The project likely outlines the specification, examples, and implementation guidance for internationalized message formatting. The repository is hosted under unicode-org/message-format-wg.</p>
-<p class='hn-text-zh'>一个 GitHub 仓库介绍了 MessageFormat，这是 Unicode 工作组用于本地化消息字符串的标准。该项目可能概述规范、示例以及国际化消息格式的实现指南。仓库位于 unicode-org/message-format-wg。</p>
-</div>
-</div>
-<div class='hn-card'>
-<img class='hn-img' src='https://reclaimthenet.org/wp-content/uploads/2026/02/rlbslt7uoVda-scaled.jpg' data-full='https://reclaimthenet.org/wp-content/uploads/2026/02/rlbslt7uoVda-scaled.jpg' alt='preview image' loading='lazy'/>
-<div class='hn-img-hint'>Tap/click image to view full size</div>
-<div class='hn-body'>
-<p class='hn-title'>(38) <a href='https://reclaimthenet.org/40-attorneys-general-back-ids-online-safety-act' target='_blank' rel='noopener noreferrer'>State Attorneys General Want to Tie Online Access to ID</a></p>
-<p class='hn-meta'>州总检察长想将在线访问与身份证绑定 &nbsp;|&nbsp; 18:28, February 16, 2026 (PST)</p>
-<p class='hn-text-en'>Reclaim The Net reports that 40 state attorneys general support tying online access to an ID through an 'Online Safety Act' or similar proposal. The article likely describes the policy push, arguments for and against, and potential effects on online anonymity and access. The piece is on reclaimthenet.org.</p>
-<p class='hn-text-zh'>Reclaim The Net 报道称有 40 位州总检察长支持通过《在线安全法》或类似提案将在线访问与身份证绑定。文章可能描述了该政策推动、支持与反对的论点以及对在线匿名性和访问的潜在影响。报道见于 reclaimthenet.org。</p>
-</div>
-</div>
-<div class='hn-card'>
-<div class='hn-body'>
-<p class='hn-title'>(39) <a href='https://www.economist.com/business/2026/02/12/arm-wants-a-bigger-slice-of-the-chip-business' target='_blank' rel='noopener noreferrer'>Arm wants a bigger slice of the chip business</a></p>
-<p class='hn-meta'>Arm 想在芯片业务中分得更大一块蛋糕 &nbsp;|&nbsp; 18:28, February 16, 2026 (PST)</p>
-<p class='hn-text-en'>The Economist discusses Arm's ambitions to increase its share of the chip business. The article likely examines Arm's strategy, market dynamics, partner relationships, and competitive challenges. The analysis is published on economist.com.</p>
-<p class='hn-text-zh'>《经济学人》讨论了 Arm 希望在芯片业务中获得更大份额的雄心。文章可能审视 Arm 的战略、市场动态、合作关系以及面临的竞争挑战。分析见于 economist.com。</p>
-</div>
-</div>
-<div class='hn-card'>
-<div class='hn-body'>
-<p class='hn-title'>(40) <a href='https://anthony.noided.media/blog/ai/programming/2026/02/14/i-guess-i-kinda-get-why-people-hate-ai.html' target='_blank' rel='noopener noreferrer'>I guess I kinda get why people hate AI</a></p>
-<p class='hn-meta'>我想我多少能理解为什么人们讨厌 AI &nbsp;|&nbsp; 18:28, February 16, 2026 (PST)</p>
-<p class='hn-text-en'>A personal blog post reflects on reasons why the author believes people dislike AI. The entry likely mixes personal anecdotes, critiques of AI behavior or impacts, and the author's evolving perspective. The piece is hosted on anthony.noided.media.</p>
-<p class='hn-text-zh'>一篇个人博客文章反思了作者认为人们不喜欢 AI 的原因。该文章可能结合个人轶事、对 AI 行为或影响的批评以及作者逐步形成的看法。文章发表在 anthony.noided.media。</p>
-</div>
-</div>
-<div class='hn-card'>
-<img class='hn-img' src='https://nichehunt.app/opengraph-image.png?opengraph-image.c79cda14.png' data-full='https://nichehunt.app/opengraph-image.png?opengraph-image.c79cda14.png' alt='preview image' loading='lazy'/>
-<div class='hn-img-hint'>Tap/click image to view full size</div>
-<div class='hn-body'>
-<p class='hn-title'>(41) <a href='https://nichehunt.app/blog/ai-going-to-kill-app-subscriptions' target='_blank' rel='noopener noreferrer'>AI is going to kill app subscriptions</a></p>
-<p class='hn-meta'>AI 将终结应用订阅制 &nbsp;|&nbsp; 18:28, February 16, 2026 (PST)</p>
-<p class='hn-text-en'>A blog post on Niche Hunt argues that AI will kill app subscriptions. The author likely explains how AI-driven features or changes to business models could disrupt subscription-based revenue for apps. The article is published on nichehunt.app.</p>
-<p class='hn-text-zh'>Niche Hunt 上的一篇博文认为 AI 将终结应用的订阅制。作者可能解释 AI 推动的特性或商业模式变化如何扰乱以订阅为基础的应用收入。文章发布在 nichehunt.app。</p>
-</div>
-</div>
-<div class='hn-card'>
-<img class='hn-img' src='https://opengraph.githubassets.com/c8722ad4affebe466ff7bbe325215c98c3fccc40b9f6c5515fbfb90b32a1f5aa/pocketblue/pocketblue' data-full='https://opengraph.githubassets.com/c8722ad4affebe466ff7bbe325215c98c3fccc40b9f6c5515fbfb90b32a1f5aa/pocketblue/pocketblue' alt='preview image' loading='lazy'/>
-<div class='hn-img-hint'>Tap/click image to view full size</div>
-<div class='hn-body'>
-<p class='hn-title'>(42) <a href='https://github.com/pocketblue/pocketblue' target='_blank' rel='noopener noreferrer'>Pocketblue – Fedora Atomic for mobile devices</a></p>
-<p class='hn-meta'>Pocketblue – 面向移动设备的 Fedora Atomic &nbsp;|&nbsp; 18:28, February 16, 2026 (PST)</p>
-<p class='hn-text-en'>Pocketblue is a GitHub project aiming to provide Fedora Atomic for mobile devices. The repository likely includes installation instructions, images, and documentation for running Fedora Atomic on mobile hardware. The project is hosted at github.com/pocketblue/pocketblue.</p>
-<p class='hn-text-zh'>Pocketblue 是一个 GitHub 项目，旨在为移动设备提供 Fedora Atomic。该仓库可能包含安装说明、镜像以及在移动硬件上运行 Fedora Atomic 的文档。项目位于 github.com/pocketblue/pocketblue。</p>
+<p class='hn-meta'>用于快速 LLM 推理的两种不同技巧 &nbsp;|&nbsp; 19:23, February 16, 2026 (PST)</p>
+<p class='hn-text-en'>A technical blog post by Sean Goedecke discussing two different tricks for faster LLM inference. The article likely explains optimization techniques and when to apply each approach. It appears aimed at developers and researchers working on efficient model serving.</p>
+<p class='hn-text-zh'>Sean Goedecke 的一篇技术博文，讨论两种用于加速大模型推理的不同技巧。文章可能解释这些优化技术以及各自的适用情境。该文面向从事高效模型部署的开发者和研究人员。</p>
 </div>
 </div>
 <div class='hn-card'>
 <img class='hn-img' src='https://ichef.bbci.co.uk/news/1024/branded_news/5ef8/live/d681e5e0-0827-11f1-b5e2-dd58fc65f0f6.png' data-full='https://ichef.bbci.co.uk/news/1024/branded_news/5ef8/live/d681e5e0-0827-11f1-b5e2-dd58fc65f0f6.png' alt='preview image' loading='lazy'/>
-<div class='hn-img-hint'>Tap/click image to view full size</div>
 <div class='hn-body'>
-<p class='hn-title'>(43) <a href='https://www.bbc.com/news/articles/cx2gn239exlo' target='_blank' rel='noopener noreferrer'>Dark web agent spotted bedroom wall clue to rescue girl from abuse</a></p>
-<p class='hn-meta'>暗网上的情报人员通过卧室墙线索助救出受虐女孩 &nbsp;|&nbsp; 18:28, February 16, 2026 (PST)</p>
-<p class='hn-text-en'>The BBC reports that a dark web agent spotted a bedroom wall clue that helped rescue a girl from abuse. The article likely recounts how the clue was discovered, the role of online investigators, and the outcome for the victim. The story is published on bbc.com.</p>
-<p class='hn-text-zh'>BBC 报道称一名暗网上的情报人员发现了卧室墙上的线索，帮助救出一名受虐女孩。文章可能叙述线索如何被发现、在线调查者的作用以及受害者的结局。报道见于 bbc.com。</p>
+<p class='hn-title'>(34) <a href='https://www.bbc.com/news/articles/cx2gn239exlo' target='_blank' rel='noopener noreferrer'>Dark web agent spotted bedroom wall clue to rescue girl from abuse</a></p>
+<p class='hn-meta'>暗网探员发现卧室墙线索救出受虐女孩 &nbsp;|&nbsp; 19:23, February 16, 2026 (PST)</p>
+<p class='hn-text-en'>A BBC News article reporting that an investigator on the dark web spotted a clue on a bedroom wall that helped rescue a girl from abuse. The story appears to recount the investigative lead and its role in a rescue operation. It is published on bbc.com and covers a law-enforcement or community-led intervention.</p>
+<p class='hn-text-zh'>BBC 的一则报道，称一名暗网线索的搜寻者注意到卧室墙上的线索，帮助救出一名受虐女孩。报道似乎描述了该线索的发现以及它在营救行动中的作用。文章发布在 bbc.com，涉及执法或社区主导的干预行动。</p>
+</div>
+</div>
+<div class='hn-card'>
+<div class='hn-body'>
+<p class='hn-title'>(35) <a href='https://www.jeffgeerling.com/blog/2026/ai-is-destroying-open-source/' target='_blank' rel='noopener noreferrer'>AI is destroying Open Source, and it's not even good yet</a></p>
+<p class='hn-meta'>人工智能正在摧毁开源，而它还远未做好 &nbsp;|&nbsp; 19:23, February 16, 2026 (PST)</p>
+<p class='hn-text-en'>A blog post by Jeff Geerling arguing that AI is harming open source projects and that current AI is not yet mature. The piece likely presents examples or opinions about the interactions between AI tools and open-source ecosystems. It is published on jeffgeerling.com as a viewpoint essay.</p>
+<p class='hn-text-zh'>Jeff Geerling 的一篇博文，认为人工智能正在损害开源项目，且当前的 AI 还不成熟。文章可能列举示例或阐述关于 AI 工具与开源生态相互作用的观点。该文发布在 jeffgeerling.com，属于观点性文章。</p>
+</div>
+</div>
+<div class='hn-card'>
+<div class='hn-body'>
+<p class='hn-title'>(36) <a href='https://www.washingtonpost.com/technology/2026/02/15/david-greene-google-ai-podcast/' target='_blank' rel='noopener noreferrer'>Radio host David Greene says Google's NotebookLM tool stole his voice</a></p>
+<p class='hn-meta'>电台主持人大卫·格林称谷歌的 NotebookLM 工具盗取了他的声音 &nbsp;|&nbsp; 19:23, February 16, 2026 (PST)</p>
+<p class='hn-text-en'>A Washington Post article reporting that radio host David Greene alleges Google's NotebookLM tool used his voice without permission. The piece likely covers Greene's claims and Google's response or policy context. It is published on washingtonpost.com and addresses issues around voice likeness and AI tools.</p>
+<p class='hn-text-zh'>华盛顿邮报的一篇报道，称电台主持人大卫·格林指控谷歌的 NotebookLM 工具未经许可使用了他的声音。文章可能报道了格林的主张以及谷歌的回应或相关政策背景。该文发布在 washingtonpost.com，讨论声音肖像权与 AI 工具相关的问题。</p>
+</div>
+</div>
+<div class='hn-card'>
+<img class='hn-img' src='https://sgom.es/posts/2026-02-13-js-heavy-approaches-are-not-compatible-with-long-term-performance-goals/preact-dev-tools.jpg' data-full='https://sgom.es/posts/2026-02-13-js-heavy-approaches-are-not-compatible-with-long-term-performance-goals/preact-dev-tools.jpg' alt='preview image' loading='lazy'/>
+<div class='hn-body'>
+<p class='hn-title'>(37) <a href='https://sgom.es/posts/2026-02-13-js-heavy-approaches-are-not-compatible-with-long-term-performance-goals/' target='_blank' rel='noopener noreferrer'>JavaScript-heavy approaches are not compatible with long-term performance goals</a></p>
+<p class='hn-meta'>大量使用 JavaScript 的做法与长期性能目标不兼容 &nbsp;|&nbsp; 19:23, February 16, 2026 (PST)</p>
+<p class='hn-text-en'>A blog post arguing that JavaScript-heavy approaches are incompatible with long-term web performance goals. The author on sgom.es likely critiques certain development patterns and suggests alternatives. The piece targets web developers concerned with performance and maintainability.</p>
+<p class='hn-text-zh'>一篇博文主张大量使用 JavaScript 的做法与长期的网页性能目标不兼容。sgom.es 上的作者可能批评某些开发模式并提出替代方案。该文面向关注性能和可维护性的网页开发者。</p>
+</div>
+</div>
+<div class='hn-card'>
+<img class='hn-img' src='https://johan.hal.se/wrote/2026/02/03/the-sideprocalypse/og.png' data-full='https://johan.hal.se/wrote/2026/02/03/the-sideprocalypse/og.png' alt='preview image' loading='lazy'/>
+<div class='hn-body'>
+<p class='hn-title'>(38) <a href='https://johan.hal.se/wrote/2026/02/03/the-sideprocalypse/' target='_blank' rel='noopener noreferrer'>The Sideprocalypse</a></p>
+<p class='hn-meta'>副处理器末日（The Sideprocalypse） &nbsp;|&nbsp; 19:23, February 16, 2026 (PST)</p>
+<p class='hn-text-en'>A blog post titled 'The Sideprocalypse' on johan.hal.se. The piece likely discusses issues related to side processes, side channels, or secondary processors in a critical or dramatic tone. It appears to be an opinionated technical essay.</p>
+<p class='hn-text-zh'>一篇题为《副处理器末日（The Sideprocalypse）》的博文，发布在 johan.hal.se。文章很可能以批判或戏谑的语气讨论与副进程、副通道或次级处理器相关的问题。它呈现为一篇有观点的技术随笔。</p>
+</div>
+</div>
+<div class='hn-card'>
+<img class='hn-img' src='https://opengraph.githubassets.com/45a45d32f0bcbcfc9906486ef1a5897f303c720dc5fd6d6b11c8419155c4708e/unicode-org/message-format-wg' data-full='https://opengraph.githubassets.com/45a45d32f0bcbcfc9906486ef1a5897f303c720dc5fd6d6b11c8419155c4708e/unicode-org/message-format-wg' alt='preview image' loading='lazy'/>
+<div class='hn-body'>
+<p class='hn-title'>(39) <a href='https://github.com/unicode-org/message-format-wg' target='_blank' rel='noopener noreferrer'>MessageFormat: Unicode standard for localizable message strings</a></p>
+<p class='hn-meta'>MessageFormat：用于可本地化消息字符串的 Unicode 标准 &nbsp;|&nbsp; 19:23, February 16, 2026 (PST)</p>
+<p class='hn-text-en'>A GitHub repository for the Unicode MessageFormat Working Group, detailing a standard for localizable message strings. The project likely specifies syntax and semantics for formatting messages across languages and locales. It is hosted on github.com/unicode-org and targets internationalization engineers.</p>
+<p class='hn-text-zh'>Unicode MessageFormat 工作组的 GitHub 仓库，阐述了用于本地化消息字符串的标准。该项目可能定义跨语言与区域设置的消息格式的语法和语义。仓库托管在 github.com/unicode-org，面向国际化工程师。</p>
+</div>
+</div>
+<div class='hn-card'>
+<img class='hn-img' src='https://reclaimthenet.org/wp-content/uploads/2026/02/rlbslt7uoVda-scaled.jpg' data-full='https://reclaimthenet.org/wp-content/uploads/2026/02/rlbslt7uoVda-scaled.jpg' alt='preview image' loading='lazy'/>
+<div class='hn-body'>
+<p class='hn-title'>(40) <a href='https://reclaimthenet.org/40-attorneys-general-back-ids-online-safety-act' target='_blank' rel='noopener noreferrer'>State Attorneys General Want to Tie Online Access to ID</a></p>
+<p class='hn-meta'>州检察长们想把网上访问与身份证绑定 &nbsp;|&nbsp; 19:23, February 16, 2026 (PST)</p>
+<p class='hn-text-en'>A Reclaim The Net article reporting that 40 state attorneys general back proposals to tie online access to ID as part of an 'Online Safety Act'. The piece likely covers the coalition's stance and potential policy implications. It is published on reclaimthenet.org and discusses digital identity and regulation.</p>
+<p class='hn-text-zh'>Reclaim The Net 的一篇报道，称 40 名州检察长支持将在线访问与身份证绑定的提案，作为所谓“在线安全法案”的一部分。文章可能讨论了这些检察长的立场及潜在的政策影响。该文发布在 reclaimthenet.org，涉及数字身份与监管问题。</p>
+</div>
+</div>
+<div class='hn-card'>
+<div class='hn-body'>
+<p class='hn-title'>(41) <a href='https://www.economist.com/business/2026/02/12/arm-wants-a-bigger-slice-of-the-chip-business' target='_blank' rel='noopener noreferrer'>Arm wants a bigger slice of the chip business</a></p>
+<p class='hn-meta'>Arm 想在芯片业务中分得更大一杯羹 &nbsp;|&nbsp; 19:23, February 16, 2026 (PST)</p>
+<p class='hn-text-en'>An Economist article discussing Arm's ambitions to capture a larger share of the chip business. The piece likely examines Arm's strategy, market position, and industry dynamics. It is published on economist.com and offers business and technology analysis.</p>
+<p class='hn-text-zh'>经济学人刊登的一篇文章，讨论 Arm 希望在芯片业务中获得更大份额的雄心。文章可能分析了 Arm 的战略、市场地位与行业动态。该文发布在 economist.com，提供商业与技术层面的分析。</p>
+</div>
+</div>
+<div class='hn-card'>
+<div class='hn-body'>
+<p class='hn-title'>(42) <a href='https://anthony.noided.media/blog/ai/programming/2026/02/14/i-guess-i-kinda-get-why-people-hate-ai.html' target='_blank' rel='noopener noreferrer'>I guess I kinda get why people hate AI</a></p>
+<p class='hn-meta'>我想我有点明白人们为什么讨厌 AI 了 &nbsp;|&nbsp; 19:23, February 16, 2026 (PST)</p>
+<p class='hn-text-en'>A personal blog post reflecting on reasons why people dislike AI, published on anthony.noided.media. The author likely shares personal experiences or observations about AI's shortcomings. It appears to be an opinion piece about social and technical impacts of AI.</p>
+<p class='hn-text-zh'>一篇个人博文，反思人们为何会讨厌 AI，发表在 anthony.noided.media。作者可能分享关于 AI 缺陷的个人经历或观察。文章呈现为关于 AI 社会与技术影响的观点性讨论。</p>
+</div>
+</div>
+<div class='hn-card'>
+<img class='hn-img' src='https://nichehunt.app/opengraph-image.png?opengraph-image.c79cda14.png' data-full='https://nichehunt.app/opengraph-image.png?opengraph-image.c79cda14.png' alt='preview image' loading='lazy'/>
+<div class='hn-body'>
+<p class='hn-title'>(43) <a href='https://nichehunt.app/blog/ai-going-to-kill-app-subscriptions' target='_blank' rel='noopener noreferrer'>AI is going to kill app subscriptions</a></p>
+<p class='hn-meta'>人工智能将要扼杀应用订阅制 &nbsp;|&nbsp; 19:23, February 16, 2026 (PST)</p>
+<p class='hn-text-en'>A blog post on nichehunt.app arguing that AI will disrupt or end app subscription models. The piece likely outlines reasons why AI-driven features change monetization and product distribution. It is aimed at app developers and product people considering future business models.</p>
+<p class='hn-text-zh'>nichehunt.app 上的一篇博文，主张人工智能将颠覆或终结应用订阅模式。文章可能列举 AI 驱动功能如何改变货币化和产品分发的理由。该文面向考虑未来商业模式的应用开发者与产品经理。</p>
+</div>
+</div>
+<div class='hn-card'>
+<img class='hn-img' src='https://opengraph.githubassets.com/e407cb3ed379ddc51e724bb1c3b60f3e510484e146bec258d0b9451f75944c88/pocketblue/pocketblue' data-full='https://opengraph.githubassets.com/e407cb3ed379ddc51e724bb1c3b60f3e510484e146bec258d0b9451f75944c88/pocketblue/pocketblue' alt='preview image' loading='lazy'/>
+<div class='hn-body'>
+<p class='hn-title'>(44) <a href='https://github.com/pocketblue/pocketblue' target='_blank' rel='noopener noreferrer'>Pocketblue – Fedora Atomic for mobile devices</a></p>
+<p class='hn-meta'>Pocketblue – 面向移动设备的 Fedora Atomic &nbsp;|&nbsp; 19:23, February 16, 2026 (PST)</p>
+<p class='hn-text-en'>A GitHub repository for Pocketblue, described as Fedora Atomic for mobile devices. The project likely provides images, scripts, or instructions to run an immutable Fedora-based system on mobile hardware. It is hosted on github.com and targets users interested in mobile Linux distributions.</p>
+<p class='hn-text-zh'>Pocketblue 的 GitHub 仓库，介绍这是面向移动设备的 Fedora Atomic。该项目可能提供镜像、脚本或在移动硬件上运行基于 Fedora 的不可变系统的说明。仓库托管在 github.com，面向对移动 Linux 发行版感兴趣的用户。</p>
 </div>
 </div>
 <div class='hn-card'>
 <img class='hn-img' src='https://static01.nyt.com/images/2026/01/21/multimedia/00duvall-pvjw/00duvall-pvjw-facebookJumbo-v2.jpg' data-full='https://static01.nyt.com/images/2026/01/21/multimedia/00duvall-pvjw/00duvall-pvjw-facebookJumbo-v2.jpg' alt='preview image' loading='lazy'/>
-<div class='hn-img-hint'>Tap/click image to view full size</div>
 <div class='hn-body'>
-<p class='hn-title'>(44) <a href='https://www.nytimes.com/2026/02/16/movies/robert-duvall-dead.html?unlocked_article_code=1.MlA.5LIC.JbSiEGzihyVU&smid=url-share' target='_blank' rel='noopener noreferrer'>Robert Duvall has died</a></p>
-<p class='hn-meta'>罗伯特·杜瓦尔去世 &nbsp;|&nbsp; 18:28, February 16, 2026 (PST)</p>
-<p class='hn-text-en'>The New York Times reports the death of actor Robert Duvall. The obituary likely summarizes his life, notable roles, career milestones, and public reactions. The article is available on nytimes.com.</p>
-<p class='hn-text-zh'>《纽约时报》报道演员罗伯特·杜瓦尔去世的消息。讣告可能概述他的生平、知名作品、职业里程碑以及公众反应。文章见于 nytimes.com。</p>
-</div>
-</div>
-<div class='hn-card'>
-<div class='hn-body'>
-<p class='hn-title'>(45) <a href='https://www.jeffgeerling.com/blog/2026/ai-is-destroying-open-source/' target='_blank' rel='noopener noreferrer'>AI is destroying Open Source, and it's not even good yet</a></p>
-<p class='hn-meta'>AI 正在摧毁开源，而且它还远不够好 &nbsp;|&nbsp; 18:28, February 16, 2026 (PST)</p>
-<p class='hn-text-en'>Jeff Geerling argues on his blog that AI is harming open source projects and that current implementations are inadequate. The post likely discusses specific ways AI tooling affects maintainers, contribution models, and project health. The commentary appears on jeffgeerling.com.</p>
-<p class='hn-text-zh'>Jeff Geerling 在他的博客上认为 AI 正在损害开源项目，且目前的实现并不够好。文章可能讨论 AI 工具如何影响维护者、贡献模式和项目健康的具体方式。评论发布在 jeffgeerling.com。</p>
+<p class='hn-title'>(45) <a href='https://www.nytimes.com/2026/02/16/movies/robert-duvall-dead.html?unlocked_article_code=1.MlA.5LIC.JbSiEGzihyVU&smid=url-share' target='_blank' rel='noopener noreferrer'>Robert Duvall has died</a></p>
+<p class='hn-meta'>罗伯特·杜瓦尔已去世 &nbsp;|&nbsp; 19:23, February 16, 2026 (PST)</p>
+<p class='hn-text-en'>A New York Times obituary notice reporting the death of actor Robert Duvall. The article on nytimes.com likely summarizes his career, notable roles, and legacy. It is presented as a news obituary dated February 16, 2026.</p>
+<p class='hn-text-zh'>纽约时报的一则讣告，报道演员罗伯特·杜瓦尔去世。nytimes.com 上的文章可能概述了他的职业生涯、代表作和遗产。该文作为 2026 年 2 月 16 日的新闻讣闻刊登。</p>
 </div>
 </div>
 <div class='hn-card'>
 <img class='hn-img' src='https://webmachinelearning.github.io/webmachinelearning-logo.png' data-full='https://webmachinelearning.github.io/webmachinelearning-logo.png' alt='preview image' loading='lazy'/>
-<div class='hn-img-hint'>Tap/click image to view full size</div>
 <div class='hn-body'>
 <p class='hn-title'>(46) <a href='https://webmachinelearning.github.io/webmcp/' target='_blank' rel='noopener noreferrer'>WebMCP Proposal</a></p>
-<p class='hn-meta'>WebMCP 提案 &nbsp;|&nbsp; 18:28, February 16, 2026 (PST)</p>
-<p class='hn-text-en'>The WebMachineLearning group presents the WebMCP proposal. The document likely outlines a specification or proposal related to web-based machine control protocols or performance co-processing for ML on the web. The proposal is hosted on webmachinelearning.github.io.</p>
-<p class='hn-text-zh'>WebMachineLearning 小组提出了 WebMCP 提案。该文档可能概述了与基于 Web 的机器控制协议或在网页上进行机器学习协处理相关的规范或提案。提案托管在 webmachinelearning.github.io。</p>
+<p class='hn-meta'>WebMCP 提案 &nbsp;|&nbsp; 19:23, February 16, 2026 (PST)</p>
+<p class='hn-text-en'>A proposal page for WebMCP hosted by the Web Machine Learning community, titled 'WebMCP Proposal'. The document likely outlines a proposal related to model control plane or management for web-based machine learning. It is published on webmachinelearning.github.io and aimed at standards or web-ML developers.</p>
+<p class='hn-text-zh'>Web Machine Learning 社区托管的 WebMCP 提案页面，标题为“WebMCP Proposal”。文档很可能概述了与基于网页的机器学习相关的模型控制平面或管理提案。该页发布在 webmachinelearning.github.io，面向标准制定者或 Web-ML 开发者。</p>
 </div>
 </div>
 <div class='hn-card'>
 <div class='hn-body'>
 <p class='hn-title'>(47) <a href='https://dlants.me/agi-not-imminent.html' target='_blank' rel='noopener noreferrer'>Why I don't think AGI is imminent</a></p>
-<p class='hn-meta'>为什么我不认为通用人工智能即将到来 &nbsp;|&nbsp; 18:28, February 16, 2026 (PST)</p>
-<p class='hn-text-en'>A personal essay explains why the author does not believe AGI is imminent. The piece likely lays out technical, philosophical, or empirical reasons for skepticism and discusses timelines or milestones. The argument is published on dlants.me.</p>
-<p class='hn-text-zh'>一篇个人随笔说明作者为何不认为通用人工智能（AGI）即将到来。文章可能列举对该观点持怀疑态度的技术性、哲学性或经验证据，并讨论时间线或里程碑。该论述刊登在 dlants.me。</p>
+<p class='hn-meta'>为何我认为通用人工智能不会很快到来 &nbsp;|&nbsp; 19:23, February 16, 2026 (PST)</p>
+<p class='hn-text-en'>A blog post on dlants.me explaining reasons the author does not think AGI is imminent. The piece likely presents technical arguments, timelines, and skepticism about near-term AGI claims. It appears to be an opinionated analysis by the author.</p>
+<p class='hn-text-zh'>dlants.me 上的一篇博文，阐述作者为何认为通用人工智能不会在短期内到来。文章可能提出技术论据、时间表以及对近-term AGI 声明的质疑。该文为作者的观点性分析。</p>
 </div>
 </div>
 <div class='hn-card'>
-<img class='hn-img' src='https://opengraph.githubassets.com/138c7334d0b08ee8e63d869aa6a0e193000c83c0ea23b0c5b0f5aea7c8456f1b/antirez/picol' data-full='https://opengraph.githubassets.com/138c7334d0b08ee8e63d869aa6a0e193000c83c0ea23b0c5b0f5aea7c8456f1b/antirez/picol' alt='preview image' loading='lazy'/>
-<div class='hn-img-hint'>Tap/click image to view full size</div>
+<img class='hn-img' src='https://dolphin-emu.org/m/user/uploads/zinnia/2026/02/16/triforce-header-social.jpg' data-full='https://dolphin-emu.org/m/user/uploads/zinnia/2026/02/16/triforce-header-social.jpg' alt='preview image' loading='lazy'/>
 <div class='hn-body'>
-<p class='hn-title'>(48) <a href='https://github.com/antirez/picol' target='_blank' rel='noopener noreferrer'>Picol: A Tcl interpreter in 500 lines of code</a></p>
-<p class='hn-meta'>Picol：用 500 行代码实现的 Tcl 解释器 &nbsp;|&nbsp; 18:28, February 16, 2026 (PST)</p>
-<p class='hn-text-en'>Picol is a compact Tcl interpreter implemented in about 500 lines of code. The GitHub repository likely contains source code, build instructions, and usage notes for the minimalist interpreter. The project is hosted under antirez/picol on GitHub.</p>
-<p class='hn-text-zh'>Picol 是一个约 500 行代码实现的精简 Tcl 解释器。GitHub 仓库可能包含源代码、构建说明和该极简解释器的使用说明。项目托管在 GitHub 的 antirez/picol。</p>
+<p class='hn-title'>(48) <a href='https://dolphin-emu.org/blog/2026/02/16/rise-of-the-triforce/' target='_blank' rel='noopener noreferrer'>Rise of the Triforce</a></p>
+<p class='hn-meta'>三角力量的崛起（Rise of the Triforce） &nbsp;|&nbsp; 19:23, February 16, 2026 (PST)</p>
+<p class='hn-text-en'>A blog post on the Dolphin emulator site titled 'Rise of the Triforce'. The entry likely discusses emulator development, preservation, or a notable project update related to the Triforce arcade hardware or emulation scene. It is posted on dolphin-emu.org's blog.</p>
+<p class='hn-text-zh'>Dolphin 模拟器网站上的一篇博文，标题为“Rise of the Triforce”。文章可能讨论与三角力量（Triforce）街机硬件或模拟器相关的开发、保护或重大项目更新。该文发布在 dolphin-emu.org 的博客上。</p>
+</div>
+</div>
+<div class='hn-card'>
+<img class='hn-img' src='https://opengraph.githubassets.com/4cb2039db4bcae076b120efb2e7c4dce6710bf06b3dce5069dd8ce8481817153/antirez/picol' data-full='https://opengraph.githubassets.com/4cb2039db4bcae076b120efb2e7c4dce6710bf06b3dce5069dd8ce8481817153/antirez/picol' alt='preview image' loading='lazy'/>
+<div class='hn-body'>
+<p class='hn-title'>(49) <a href='https://github.com/antirez/picol' target='_blank' rel='noopener noreferrer'>Picol: A Tcl interpreter in 500 lines of code</a></p>
+<p class='hn-meta'>Picol：用 500 行代码实现的 Tcl 解释器 &nbsp;|&nbsp; 19:23, February 16, 2026 (PST)</p>
+<p class='hn-text-en'>A GitHub repository for Picol, a Tcl interpreter implemented in about 500 lines of code. The repo likely contains source code and minimal documentation for this compact interpreter. It is hosted under antirez's account and is of interest to language implementers and learners.</p>
+<p class='hn-text-zh'>Picol 的 GitHub 仓库，这是一个用约 500 行代码实现的 Tcl 解释器。仓库很可能包含源代码和简要文档，介绍这个精简解释器。该项目托管在 antirez 的账户下，对语言实现者与学习者有吸引力。</p>
 </div>
 </div>
 <div class='hn-card'>
 <img class='hn-img' src='https://wero-wallet.eu/storage/images/Frame-1.png' data-full='https://wero-wallet.eu/storage/images/Frame-1.png' alt='preview image' loading='lazy'/>
-<div class='hn-img-hint'>Tap/click image to view full size</div>
 <div class='hn-body'>
-<p class='hn-title'>(49) <a href='https://wero-wallet.eu' target='_blank' rel='noopener noreferrer'>Wero – Digital payment wallet, made in Europe</a></p>
-<p class='hn-meta'>Wero – 在欧洲打造的数字支付钱包 &nbsp;|&nbsp; 18:28, February 16, 2026 (PST)</p>
-<p class='hn-text-en'>Wero presents a digital payment wallet developed in Europe. The site likely describes the wallet's features, privacy or regulatory positioning, and availability for users or businesses. The product is showcased at wero-wallet.eu.</p>
-<p class='hn-text-zh'>Wero 推出了一款在欧洲开发的数字支付钱包。该网站可能介绍钱包的功能、隐私或监管定位以及面向用户或企业的可用性。产品展示在 wero-wallet.eu。</p>
-</div>
-</div>
-<div class='hn-card'>
-<img class='hn-img' src='https://opengraph.githubassets.com/6a312cf19daa9b41d5e699d307e3525bee8d21aad4b3b05dbcf5930d22e9e270/s-macke/starflight-reverse' data-full='https://opengraph.githubassets.com/6a312cf19daa9b41d5e699d307e3525bee8d21aad4b3b05dbcf5930d22e9e270/s-macke/starflight-reverse' alt='preview image' loading='lazy'/>
-<div class='hn-img-hint'>Tap/click image to view full size</div>
-<div class='hn-body'>
-<p class='hn-title'>(50) <a href='https://github.com/s-macke/starflight-reverse' target='_blank' rel='noopener noreferrer'>Reversed engineered game Starflight (1986)</a></p>
-<p class='hn-meta'>逆向工程游戏 Starflight（1986） &nbsp;|&nbsp; 18:28, February 16, 2026 (PST)</p>
-<p class='hn-text-en'>A GitHub repository documents the reverse engineering of the 1986 game Starflight. The project likely includes reconstructed source code, analysis of game internals, and tooling to study or run the classic title. The repo is hosted at github.com/s-macke/starflight-reverse.</p>
-<p class='hn-text-zh'>一个 GitHub 仓库记录了对 1986 年游戏 Starflight 的逆向工程工作。该项目可能包含重构的源代码、对游戏内部机制的分析以及用于研究或运行这款经典游戏的工具。仓库位于 github.com/s-macke/starflight-reverse。</p>
+<p class='hn-title'>(50) <a href='https://wero-wallet.eu' target='_blank' rel='noopener noreferrer'>Wero – Digital payment wallet, made in Europe</a></p>
+<p class='hn-meta'>Wero – 在欧洲打造的数字支付钱包 &nbsp;|&nbsp; 19:23, February 16, 2026 (PST)</p>
+<p class='hn-text-en'>The Wero website presenting a digital payment wallet made in Europe. The site wero-wallet.eu likely describes wallet features, compliance with European regulations, and product availability. It appears aimed at users and businesses seeking a Europe-based digital payment solution.</p>
+<p class='hn-text-zh'>Wero 的官网，介绍一款在欧洲打造的数字支付钱包。wero-wallet.eu 可能描述了钱包功能、符合欧洲法规的情况以及产品可用性。该项目面向寻求欧洲本地数字支付解决方案的用户和企业。</p>
 </div>
 </div>
 </div>
