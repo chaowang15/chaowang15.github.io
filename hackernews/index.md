@@ -3,68 +3,23 @@ layout: default
 title: "Hacker News (Daily)"
 ---
 
-<style>
-:root{
-  --hn-maxw: 920px;
-  --hn-radius: 16px;
-  --hn-border: rgba(0,0,0,0.10);
-  --hn-shadow: 0 10px 26px rgba(0,0,0,0.08);
-  --hn-muted: rgba(0,0,0,0.62);
-}
-@media (prefers-color-scheme: dark) {
-  :root{
-    --hn-border: rgba(255,255,255,0.14);
-    --hn-shadow: 0 10px 26px rgba(0,0,0,0.42);
-    --hn-muted: rgba(255,255,255,0.70);
-  }
-}
-.hn-wrap{
-  max-width: var(--hn-maxw);
-  margin: 0 auto;
-  padding: 18px 16px 34px 16px;
-}
-.hn-h1{
-  font-size: 1.75rem;
-  line-height: 1.18;
-  margin: 0 0 8px 0;
-  letter-spacing: -0.015em;
-}
-.hn-subtitle{
-  margin: 0 0 18px 0;
-  color: var(--hn-muted);
-  font-size: 1.02rem;
-}
-.hn-subtitle a{
-  color: inherit;
-  text-decoration: underline;
-  text-underline-offset: 3px;
-}
-.hn-grid{ display: flex; flex-direction: column; gap: 14px; margin-top: 16px; }
-.hn-row{
-  padding: 14px 16px;
-  border: 1px solid var(--hn-border);
-  border-radius: var(--hn-radius);
-  box-shadow: var(--hn-shadow);
-  background: rgba(255,255,255,0.92);
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  gap: 14px;
-}
-@media (prefers-color-scheme: dark){
-  .hn-row{ background: rgba(20,20,20,0.55); }
-}
-.hn-date{ font-weight: 750; }
-.hn-link a{ font-weight: 750; text-decoration: none; }
-.hn-link a:hover{ text-decoration: underline; text-underline-offset: 3px; }
-.hn-hint{ margin-top: 16px; color: var(--hn-muted); font-size: 0.98rem; }
-</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;650;750;800&family=Source+Serif+4:opsz,wght@8..60,450;8..60,600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="/assets/hn/hn.css">
+<script src="/assets/hn/hn.js" defer></script>
 
 <div class='hn-wrap'>
 <h1 class='hn-h1'>Hacker News (Daily)</h1>
 <p class='hn-subtitle'>Daily scraped <b>Hacker News — Best Stories</b>. · Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-
-<h2>Latest Files</h2>
+<div class='hn-badges'>
+<span class='hn-badge'>Best Stories</span>
+<span class='hn-badge'>Daily</span>
+<span class='hn-badge'>PST/PDT</span>
+</div>
+<hr class='hn-rule'/>
+<h2 style='font-family: var(--hn-sans); margin-top: 6px;'>Latest Files</h2>
 <div class='hn-grid'>
 <div class='hn-row'><div class='hn-date'>2026-02-16</div><div class='hn-link'><a href='/hackernews/2026/02/16/best_stories_02162026'>Best Stories</a></div></div>
 </div>
