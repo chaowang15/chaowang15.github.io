@@ -1,19 +1,27 @@
 from typing import List, Dict, Optional
 
-def render_markdown(items: List[Dict], page_title: str, page_subtitle: str = "") -> str:
+def render_markdown(
+    items: List[Dict],
+    page_title: str,
+    page_subtitle: str = "",
+    html_title: Optional[str] = None,
+) -> str:
     """
-    Modern, clean, "media" style:
-    - Centered content with max-width (less empty right space)
-    - Better typography (bigger body text)
-    - Title slightly smaller than before, but still strong
-    - Image becomes a consistent cover (fixed height, crop with object-fit: cover)
-    - Remove bullet list; show EN + ZH as two paragraphs (less clutter)
-    - Subtitle includes source link (Hacker News)
+    Improvements:
+    1) Click image to open original (no local hosting, no extra tokens)
+    2) More spacing between news cards
+    3) Bigger story title size
+    4) Page <title> simplified via front matter title (we pass filename-like title)
     """
+    if html_title:
+        fm_title = html_title
+    else:
+        fm_title = page_title
+
     lines = []
     lines.append("---")
     lines.append("layout: default")
-    lines.append(f'title: "{page_title}"')
+    lines.append(f'title: "{fm_title}"')
     lines.append("---")
     lines.append("")
 
@@ -34,14 +42,12 @@ def render_markdown(items: List[Dict], page_title: str, page_subtitle: str = "")
   }
 }
 
-/* Center the whole page content */
 .hn-wrap{
   max-width: var(--hn-maxw);
   margin: 0 auto;
   padding: 18px 16px 34px 16px;
 }
 
-/* Header typography */
 .hn-h1{
   font-size: 1.75rem;
   line-height: 1.18;
@@ -59,10 +65,14 @@ def render_markdown(items: List[Dict], page_title: str, page_subtitle: str = "")
   text-underline-offset: 3px;
 }
 
-/* List spacing */
-.hn-list{ display: flex; flex-direction: column; gap: 14px; margin-top: 16px; }
+/* More space between cards */
+.hn-list{
+  display: flex;
+  flex-direction: column;
+  gap: 22px;               /* ✅ more vertical whitespace */
+  margin-top: 18px;
+}
 
-/* Card */
 .hn-card{
   border: 1px solid var(--hn-border);
   border-radius: var(--hn-radius);
@@ -74,36 +84,29 @@ def render_markdown(items: List[Dict], page_title: str, page_subtitle: str = "")
   .hn-card{ background: rgba(20,20,20,0.55); }
 }
 
-/* Card body */
-.hn-body{ padding: 14px 16px 16px 16px; }
+.hn-body{ padding: 14px 16px 18px 16px; }
 
-/* Title row */
+/* Bigger story title */
 .hn-title{
-  font-size: 1.06rem;          /* slightly smaller than before */
+  font-size: 1.18rem;       /* ✅ larger than before */
   line-height: 1.25;
-  font-weight: 750;
-  margin: 0 0 6px 0;
+  font-weight: 780;
+  margin: 0 0 8px 0;
 }
-.hn-title a{
-  text-decoration: none;
-}
-.hn-title a:hover{
-  text-decoration: underline;
-  text-underline-offset: 3px;
-}
+.hn-title a{ text-decoration: none; }
+.hn-title a:hover{ text-decoration: underline; text-underline-offset: 3px; }
 
-/* Meta row */
 .hn-meta{
-  margin: 0 0 10px 0;
+  margin: 0 0 12px 0;
   color: var(--hn-muted);
-  font-size: 0.98rem;          /* larger */
+  font-size: 0.98rem;
 }
 
-/* Image: consistent cover */
+/* Image cover (cropped) but clickable to open full original */
 .hn-img{
   width: 100%;
-  height: 260px;               /* fixed height */
-  object-fit: cover;           /* crop to look modern */
+  height: 260px;
+  object-fit: cover;
   display: block;
   background: rgba(0,0,0,0.04);
 }
@@ -111,30 +114,34 @@ def render_markdown(items: List[Dict], page_title: str, page_subtitle: str = "")
   .hn-img{ height: 210px; }
 }
 
+/* Subtle hint under image */
+.hn-img-hint{
+  margin: 8px 16px 0 16px;
+  color: var(--hn-muted);
+  font-size: 0.93rem;
+}
+
 /* Text blocks */
 .hn-text-en{
-  margin: 10px 0 8px 0;
-  font-size: 1.05rem;          /* bigger body text */
-  line-height: 1.55;
+  margin: 10px 0 10px 0;
+  font-size: 1.12rem;
+  line-height: 1.6;
+  max-width: 76ch;
 }
 .hn-text-zh{
   margin: 0;
-  font-size: 1.05rem;
-  line-height: 1.55;
+  font-size: 1.12rem;
+  line-height: 1.6;
   color: var(--hn-muted);
+  max-width: 76ch;
 }
-
-/* Make paragraphs not too wide for readability */
-.hn-text-en, .hn-text-zh { max-width: 76ch; }
 """.strip())
     lines.append("</style>")
     lines.append("")
 
-    # Header
     lines.append("<div class='hn-wrap'>")
     lines.append(f"<h1 class='hn-h1'>{page_title}</h1>")
-    # subtitle includes source link
-    # page_subtitle already includes scrape time; we append source link
+
     source_link = "<a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a>"
     subtitle = page_subtitle.strip()
     if subtitle:
@@ -157,7 +164,11 @@ def render_markdown(items: List[Dict], page_title: str, page_subtitle: str = "")
         lines.append("<div class='hn-card'>")
 
         if image_url:
+            # ✅ Click to open full image in new tab (no hosting needed)
+            lines.append(f"<a href='{image_url}' target='_blank' rel='noopener noreferrer'>")
             lines.append(f"<img class='hn-img' src='{image_url}' alt='preview image' loading='lazy'/>")
+            lines.append("</a>")
+            lines.append("<div class='hn-img-hint'>Click image to view full size</div>")
 
         lines.append("<div class='hn-body'>")
         lines.append(
@@ -166,12 +177,12 @@ def render_markdown(items: List[Dict], page_title: str, page_subtitle: str = "")
         lines.append(f"<p class='hn-meta'>{title_zh} &nbsp;|&nbsp; {scrape_time}</p>")
         lines.append(f"<p class='hn-text-en'>{summary_en}</p>")
         lines.append(f"<p class='hn-text-zh'>{summary_zh}</p>")
-        lines.append("</div>")  # hn-body
+        lines.append("</div>")
 
-        lines.append("</div>")  # hn-card
+        lines.append("</div>")
 
-    lines.append("</div>")  # hn-list
-    lines.append("</div>")  # hn-wrap
+    lines.append("</div>")
+    lines.append("</div>")
     lines.append("")
 
     return "\n".join(lines)

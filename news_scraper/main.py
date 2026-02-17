@@ -124,7 +124,8 @@ def main():
     page_title = f"Hacker News — Best Stories ({dt.strftime('%Y-%m-%d')})"
     page_subtitle = f"Scraped at {scrape_time_str} · Top {len(final_items)} stories"
 
-    md = render_markdown(final_items, page_title=page_title, page_subtitle=page_subtitle)
+    html_title = filename.replace(".md", "")  # e.g., best_stories_02162026
+    md = render_markdown(final_items, page_title=page_title, page_subtitle=page_subtitle, html_title=html_title)
     with open(out_path, "w", encoding="utf-8") as f:
         f.write(md)
 

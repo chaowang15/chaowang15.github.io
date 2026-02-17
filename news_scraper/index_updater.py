@@ -99,7 +99,7 @@ def update_hackernews_index(
   text-decoration: underline;
   text-underline-offset: 3px;
 }
-.hn-grid{ display: flex; flex-direction: column; gap: 12px; margin-top: 16px; }
+.hn-grid{ display: flex; flex-direction: column; gap: 14px; margin-top: 16px; }
 .hn-row{
   padding: 14px 16px;
   border: 1px solid var(--hn-border);
