@@ -62,6 +62,12 @@ def render_markdown(
   color: var(--hn-muted);
   font-size: 1.02rem;
 }
+.hn-rule{
+  height: 1px;
+  border: 0;
+  background: var(--hn-border);
+  margin: 14px 0 6px 0;
+}
 .hn-subtitle a{
   color: inherit;
   text-decoration: underline;
@@ -81,6 +87,18 @@ def render_markdown(
   box-shadow: var(--hn-shadow);
   background: var(--hn-card-bg);
   overflow: hidden;
+}
+.hn-card{
+  transition: transform 140ms ease, box-shadow 140ms ease, border-color 140ms ease;
+}
+.hn-card:hover{
+  transform: translateY(-2px);
+  box-shadow: 0 14px 34px rgba(0,0,0,0.12);
+}
+@media (prefers-color-scheme: dark){
+  .hn-card:hover{
+    box-shadow: 0 14px 34px rgba(0,0,0,0.55);
+  }
 }
 
 .hn-body{ padding: 14px 16px 18px 16px; }
@@ -216,6 +234,7 @@ def render_markdown(
     else:
         subtitle = f"Source: {source_link}"
     lines.append(f"<p class='hn-subtitle'>{subtitle}</p>")
+    lines.append("<hr class='hn-rule'/>")
 
     lines.append("<div class='hn-list'>")
 

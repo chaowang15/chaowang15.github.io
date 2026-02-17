@@ -116,6 +116,13 @@ def update_hackernews_index(
   color: var(--hn-muted);
   font-size: 1.02rem;
 }
+.hn-rule{
+  height: 1px;
+  border: 0;
+  background: var(--hn-border);
+  margin: 14px 0 6px 0;
+}
+
 .hn-subtitle a{
   color: inherit;
   text-decoration: underline;
@@ -135,6 +142,19 @@ def update_hackernews_index(
   align-items: baseline;
   gap: 14px;
 }
+.hn-row{
+  transition: transform 140ms ease, box-shadow 140ms ease, border-color 140ms ease;
+}
+.hn-row:hover{
+  transform: translateY(-2px);
+  box-shadow: 0 14px 34px rgba(0,0,0,0.12);
+}
+@media (prefers-color-scheme: dark){
+  .hn-row:hover{
+    box-shadow: 0 14px 34px rgba(0,0,0,0.55);
+  }
+}
+
 
 .hn-date{
   font-family: var(--hn-sans);
@@ -159,6 +179,7 @@ def update_hackernews_index(
     lines.append("<h1 class='hn-h1'>Hacker News (Daily)</h1>")
     source_link = "<a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a>"
     lines.append(f"<p class='hn-subtitle'>Daily scraped <b>Hacker News — Best Stories</b>. · Source: {source_link}</p>")
+    lines.append("<hr class='hn-rule'/>")
     lines.append("")
 
     lines.append("<h2 style='font-family: var(--hn-sans); margin-top: 6px;'>Latest Files</h2>")
