@@ -27,8 +27,6 @@ def mmddyyyy(dt: datetime) -> str:
     return dt.strftime("%m%d%Y")
 
 def main():
-    # Usage:
-    #   python news_scraper/main.py best
     if len(sys.argv) < 2:
         print("Usage: python news_scraper/main.py best")
         sys.exit(2)
@@ -41,12 +39,12 @@ def main():
     tz_name = cfg["timezone"]
     dt = now_in_tz(tz_name)
 
-    # Display time in PDT/PST, while scheduling can stay UTC in Actions
+    # Display time in PDT/PST
     tz_abbr = dt.tzname() or "PT"
     scrape_time_str = f"{fmt(dt, cfg['format']['datetime_format'])} ({tz_abbr})"
 
-    base_dir = cfg["output"]["base_dir"]            # hackernews
-    date_dir = fmt(dt, cfg["format"]["date_dir_format"])  # YYYY/MM/DD
+    base_dir = cfg["output"]["base_dir"]                 # hackernews
+    date_dir = fmt(dt, cfg["format"]["date_dir_format"]) # YYYY/MM/DD
     out_dir = os.path.join(base_dir, date_dir)
     ensure_dir(out_dir)
 
@@ -82,7 +80,7 @@ def main():
     if not raw_items:
         raise RuntimeError("No valid story items fetched.")
 
-    # 3) Batch LLM enrich (title_zh + summary_en + summary_zh)
+    # 3) Batch LLM enrich
     enrich_map = {}
     if llm_enabled:
         enrich_map = llm_enrich_batch(raw_items, model=llm_model)
@@ -122,20 +120,22 @@ def main():
             "summary_zh": summary_zh,
         })
 
-    # 5) Write Markdown
-    md = render_markdown(final_items)
+    # Title on the daily page
+    page_title = f"Hacker News — Best Stories ({dt.strftime('%Y-%m-%d')})"
+    page_subtitle = f"Scraped at {scrape_time_str} · Top {len(final_items)} stories"
+
+    md = render_markdown(final_items, page_title=page_title, page_subtitle=page_subtitle)
     with open(out_path, "w", encoding="utf-8") as f:
         f.write(md)
 
     # Auto-update /hackernews/ index page
     update_hackernews_index(
-        base_dir=cfg["output"]["base_dir"],     # "hackernews"
+        base_dir=cfg["output"]["base_dir"],
         index_path=os.path.join(cfg["output"]["base_dir"], "index.md"),
         max_items=30,
     )
 
     print(f"Wrote: {out_path} with {len(final_items)} items. mode={mode} (index updated)")
-
 
 if __name__ == "__main__":
     main()
