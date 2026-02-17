@@ -3,6 +3,7 @@ import sys
 import yaml
 from datetime import datetime
 from dateutil import tz
+import re
 
 from hn_api import get_story_ids, get_item, get_item_url
 from llm_batch import llm_enrich_batch
@@ -11,21 +12,104 @@ from md_writer import render_markdown
 from index_updater import update_hackernews_index
 from backup_io import write_backup_json, read_backup_json
 
+
 def load_config(path: str) -> dict:
     with open(path, "r", encoding="utf-8") as f:
         return yaml.safe_load(f)
 
+
 def now_in_tz(tz_name: str) -> datetime:
     return datetime.now(tz.gettz(tz_name))
+
 
 def fmt(dt: datetime, fmt_str: str) -> str:
     return dt.strftime(fmt_str)
 
+
 def ensure_dir(p: str):
     os.makedirs(p, exist_ok=True)
 
+
 def mmddyyyy(dt: datetime) -> str:
     return dt.strftime("%m%d%Y")
+
+
+def _clean_hn_markdown(md: str) -> str:
+    """
+    Clean generated markdown for Jekyll layout=hn:
+    - Remove injected <link> (fonts/css) and <script> tags that appear in BODY
+    - Remove outer <div class='hn-wrap'> ... </div> wrapper (layout already provides it)
+    """
+    lines = md.splitlines()
+
+    # 1) Preserve YAML front matter block if present
+    start = 0
+    fm_end = -1
+    if len(lines) >= 3 and lines[0].strip() == "---":
+        # find closing ---
+        for i in range(1, len(lines)):
+            if lines[i].strip() == "---":
+                fm_end = i
+                break
+
+    out = []
+    if fm_end != -1:
+        out.extend(lines[: fm_end + 1])
+        start = fm_end + 1
+
+    # 2) Drop link/script tags right after front matter
+    drop_patterns = [
+        r"^<link\s+rel=['\"]preconnect['\"].*>$",
+        r"^<link\s+href=['\"]https://fonts\.googleapis\.com/.*</link>$",  # rare
+        r"^<link\s+href=['\"]https://fonts\.googleapis\.com/.*>$",
+        r"^<link\s+rel=['\"]stylesheet['\"]\s+href=['\"]/assets/hn/hn\.css.*>$",
+        r"^<script\s+src=['\"]/assets/hn/hn\.js.*</script>$",
+        r"^<script\s+src=['\"]/assets/hn/hn\.js.*>\s*$",
+    ]
+    drop_re = [re.compile(p) for p in drop_patterns]
+
+    # skip leading blanks
+    i = start
+    while i < len(lines) and lines[i].strip() == "":
+        i += 1
+
+    # drop consecutive head-ish lines
+    while i < len(lines):
+        s = lines[i].strip()
+        if s == "":
+            i += 1
+            continue
+        matched = any(r.match(s) for r in drop_re)
+        # also drop the fonts.gstatic line with crossorigin
+        if not matched and s.startswith("<link") and "fonts.gstatic.com" in s:
+            matched = True
+        if matched:
+            i += 1
+            continue
+        break
+
+    body_lines = lines[i:]
+
+    # 3) Remove outer hn-wrap wrapper if it is the first non-empty body line
+    j = 0
+    while j < len(body_lines) and body_lines[j].strip() == "":
+        j += 1
+
+    if j < len(body_lines) and body_lines[j].strip() in ("<div class='hn-wrap'>", '<div class="hn-wrap">'):
+        body_lines = body_lines[:j] + body_lines[j + 1 :]
+
+        # remove the very last non-empty line if it's exactly </div>
+        k = len(body_lines) - 1
+        while k >= 0 and body_lines[k].strip() == "":
+            k -= 1
+        if k >= 0 and body_lines[k].strip() == "</div>":
+            body_lines = body_lines[:k] + body_lines[k + 1 :]
+
+    # 4) Recombine
+    out.extend(body_lines)
+    # ensure trailing newline
+    return "\n".join(out).rstrip() + "\n"
+
 
 def main():
     if len(sys.argv) < 2:
@@ -44,8 +128,8 @@ def main():
     tz_abbr = dt.tzname() or "PT"
     scrape_time_str = f"{fmt(dt, cfg['format']['datetime_format'])} ({tz_abbr})"
 
-    base_dir = cfg["output"]["base_dir"]                 # hackernews
-    date_dir = fmt(dt, cfg["format"]["date_dir_format"]) # YYYY/MM/DD
+    base_dir = cfg["output"]["base_dir"]                  # hackernews
+    date_dir = fmt(dt, cfg["format"]["date_dir_format"])  # YYYY/MM/DD
     out_dir = os.path.join(base_dir, date_dir)
     ensure_dir(out_dir)
 
@@ -144,19 +228,39 @@ def main():
 
     page_title = f"Hacker News — Best Stories ({dt.strftime('%Y-%m-%d')})"
     page_subtitle = f"Scraped at {scrape_time_str} · Top {len(items_for_render)} stories"
-    html_title = filename.replace(".md", "")  # best_stories_MMDDYYYY
 
-    md = render_markdown(items_for_render, page_title=page_title, page_subtitle=page_subtitle, html_title=html_title)
+    # Make the browser tab title nicer
+    html_title = page_title
+
+    md = render_markdown(
+        items_for_render,
+        page_title=page_title,
+        page_subtitle=page_subtitle,
+        html_title=html_title,
+    )
+
+    md = _clean_hn_markdown(md)
 
     with open(out_path, "w", encoding="utf-8") as f:
         f.write(md)
 
     # Auto-update /hackernews/ index page
+    index_path = os.path.join(cfg["output"]["base_dir"], "index.md")
     update_hackernews_index(
         base_dir=cfg["output"]["base_dir"],
-        index_path=os.path.join(cfg["output"]["base_dir"], "index.md"),
+        index_path=index_path,
         max_items=30,
     )
+
+    # Clean index page too (same reason)
+    try:
+        with open(index_path, "r", encoding="utf-8") as f:
+            idx_md = f.read()
+        idx_md = _clean_hn_markdown(idx_md)
+        with open(index_path, "w", encoding="utf-8") as f:
+            f.write(idx_md)
+    except Exception as e:
+        print(f"[WARN] Failed to clean index markdown: {e}")
 
     print(f"Wrote: {out_path} and backup {json_path} with {len(items_for_render)} items. mode={mode} (index updated)")
 

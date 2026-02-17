@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: hn
 title: "best_stories_02162026"
 ---
 
