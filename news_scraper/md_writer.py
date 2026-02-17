@@ -33,6 +33,8 @@ def render_markdown(
   --hn-fg: rgba(0,0,0,0.92);
   --hn-card-bg: rgba(255,255,255,0.92);
   --hn-page-bg: transparent;
+  --hn-sans: "Inter", system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+  --hn-serif: "Source Serif 4", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 @media (prefers-color-scheme: dark) {
   :root{
@@ -51,14 +53,10 @@ def render_markdown(
   padding: 18px 16px 34px 16px;
   color: var(--hn-fg);            /* ✅ ensure readable in dark mode */
   background: var(--hn-page-bg);
+  font-family: var(--hn-serif);   /* ✅ body uses serif */
+  font-size: 18px;                /* ✅ overall bigger (was ~16) */
 }
 
-.hn-h1{
-  font-size: 1.75rem;
-  line-height: 1.18;
-  margin: 0 0 8px 0;
-  letter-spacing: -0.015em;
-}
 .hn-subtitle{
   margin: 0 0 18px 0;
   color: var(--hn-muted);
@@ -87,8 +85,17 @@ def render_markdown(
 
 .hn-body{ padding: 14px 16px 18px 16px; }
 
+.hn-h1{
+  font-family: var(--hn-sans);
+  font-size: 1.75rem;
+  line-height: 1.18;
+  margin: 0 0 8px 0;
+  letter-spacing: -0.015em;
+}
+
 .hn-title{
-  font-size: 1.18rem;
+  font-family: var(--hn-sans);
+  font-size: 1.28rem;   /* ✅ slightly bigger */
   line-height: 1.25;
   font-weight: 780;
   margin: 0 0 8px 0;
