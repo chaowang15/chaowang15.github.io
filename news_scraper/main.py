@@ -161,14 +161,5 @@ def main():
     print(f"Wrote: {out_path} and backup {json_path} with {len(items_for_render)} items. mode={mode} (index updated)")
 
 
-    # Auto-update /hackernews/ index page
-    update_hackernews_index(
-        base_dir=cfg["output"]["base_dir"],
-        index_path=os.path.join(cfg["output"]["base_dir"], "index.md"),
-        max_items=30,
-    )
-
-    print(f"Wrote: {out_path} with {len(final_items)} items. mode={mode} (index updated)")
-
 if __name__ == "__main__":
     main()

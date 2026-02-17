@@ -31,10 +31,28 @@ jobs:
         run: |
           python news_scraper/main.py best
 
-      - name: Commit & push generated markdown
+      - name: Verify outputs (md/json)
         run: |
+          echo "Latest outputs:"
+          ls -la hackernews/2026 || true
+          find hackernews -type f \( -name "*.md" -o -name "*.json" \) | tail -n 50 || true
+
+      - name: Commit & push (md + json)
+        run: |
+          set -euxo pipefail
           git config user.name "hn-news-bot"
           git config user.email "hn-news-bot@users.noreply.github.com"
-          git add hackernews news_config.yml news_scraper || true
-          git commit -m "Update HackerNews best stories" || echo "No changes to commit"
+
+          # 最保险：把所有改动都提交（包括 backups json）
+          git add -A
+
+          echo "Git status:"
+          git status --porcelain
+
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Update HackerNews best stories"
           git push
