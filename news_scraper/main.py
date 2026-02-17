@@ -8,6 +8,7 @@ from hn_api import get_story_ids, get_item, get_item_url
 from llm_batch import llm_enrich_batch
 from image_fetcher import extract_preview_image_url
 from md_writer import render_markdown
+from index_updater import update_hackernews_index
 
 def load_config(path: str) -> dict:
     with open(path, "r", encoding="utf-8") as f:
@@ -126,7 +127,15 @@ def main():
     with open(out_path, "w", encoding="utf-8") as f:
         f.write(md)
 
-    print(f"Wrote: {out_path} with {len(final_items)} items. mode={mode}")
+    # Auto-update /hackernews/ index page
+    update_hackernews_index(
+        base_dir=cfg["output"]["base_dir"],     # "hackernews"
+        index_path=os.path.join(cfg["output"]["base_dir"], "index.md"),
+        max_items=30,
+    )
+
+    print(f"Wrote: {out_path} with {len(final_items)} items. mode={mode} (index updated)")
+
 
 if __name__ == "__main__":
     main()
