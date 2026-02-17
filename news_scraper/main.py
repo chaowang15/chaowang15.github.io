@@ -17,10 +17,10 @@ def utc_now() -> datetime:
     return datetime.now(timezone.utc)
 
 
-def in_refresh_window(now_utc: datetime, target_h=12, target_m=0, window_min=45) -> bool:
+def in_refresh_window(now_utc: datetime, target_h=12, target_m=0, window_min=30) -> bool:
     """
     Refresh window around daily routine time in UTC.
-    Default: 12:00 UTC +/- 45 min.
+    Default: 12:00 UTC +/- 30 min.
     """
     target = now_utc.replace(hour=target_h, minute=target_m, second=0, microsecond=0)
     delta_min = abs((now_utc - target).total_seconds()) / 60.0
@@ -163,11 +163,21 @@ def main():
     json_path = os.path.join(out_dir, json_name)
 
     # Token-saving behavior:
-    # - If json exists and NOT in refresh window (12:00 UTC +/- 45 min): reuse json, no LLM.
+    # - If json exists and NOT in refresh window (12:00 UTC +/- 30 min): reuse json, no LLM.
     # - If in refresh window: refresh (overwrite) "previous-day" json.
     json_exists = os.path.exists(json_path)
     now_utc = utc_now()
-    force_refresh = in_refresh_window(now_utc, target_h=12, target_m=0, window_min=45)
+    force_refresh = in_refresh_window(now_utc, target_h=12, target_m=0, window_min=30)
+
+    print(
+        "[MODE] "
+        f"force_refresh={force_refresh} | "
+        f"json_exists={json_exists} | "
+        f"content_date={content_dt.strftime('%Y-%m-%d')} | "
+        f"run_local={scrape_time_str} | "
+        f"run_utc={now_utc.strftime('%Y-%m-%d %H:%M:%S UTC')} | "
+        f"json={json_path}"
+    )
 
     if json_exists and (not force_refresh):
         backup = read_backup_json(json_path)
@@ -198,6 +208,10 @@ def main():
 
         print(f"[SKIP] Using existing JSON (no LLM). json={json_path}")
         return
+
+
+    if force_refresh:
+        llm_enabled = True
 
     # 1) Fetch best story IDs
     ids = get_story_ids("best")[:count]

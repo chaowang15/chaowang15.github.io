@@ -171,19 +171,15 @@ def update_hackernews_index(
     else:
         lines.append("<div class='hn-grid'>")
         for e in entries:
-            right_bits = []
-            if e.count_written is not None:
-                right_bits.append(f"Top {e.count_written}")
-            if e.scraped_local:
-                right_bits.append(f"Scraped: {e.scraped_local}")
-            right_txt = " · ".join(right_bits)
-
+            right_txt = f"Scraped: {e.scraped_local}" if e.scraped_local else ""
+            
             lines.append("<div class='hn-row'>")
             lines.append(f"<div class='hn-date'>{e.content_date}</div>")
             lines.append("<div class='hn-link'>")
-            lines.append(f"<a href='{e.rel_url}'>Best Stories</a>")
+            lines.append("<div class='hn-index-line'>")
+            lines.append(f"<a class='hn-index-link' href='{e.rel_url}'>Best Stories</a>")
             if right_txt:
-                lines.append(f"<div class='hn-meta' style='margin-top: 6px;'>{right_txt}</div>")
+                lines.append(f"<span class='hn-index-meta'> · {right_txt}</span>")
             lines.append("</div>")
             lines.append("</div>")
         lines.append("</div>")

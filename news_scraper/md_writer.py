@@ -51,21 +51,29 @@ def render_markdown(
         summary_zh: str = it.get("summary_zh", "")
         image_url: Optional[str] = it.get("image_url")
 
+
         lines.append("<div class='hn-card'>")
-
-        if image_url:
-            lines.append(
-                f"<img class='hn-img' src='{image_url}' data-full='{image_url}' alt='preview image' loading='lazy'/>"
-            )
-
         lines.append("<div class='hn-body'>")
-        lines.append(
-            f"<p class='hn-title'>({i}) <a href='{url}' target='_blank' rel='noopener noreferrer'>{title_en}</a></p>"
-        )
 
-        # IMPORTANT: remove per-item scrape_time display (you requested)
+        lines.append(f"<p class='hn-title'>({i}) <a ...>{title_en}</a></p>")
+
         if title_zh:
             lines.append(f"<p class='hn-meta'>{title_zh}</p>")
+
+        # Move image here: under meta (subtitle)
+        if image_url:
+            lines.append(
+                f"<img class='hn-img' src='{image_url}' data-full='{image_url}' "
+                f"alt='preview image' loading='lazy'/>"
+            )
+
+        if summary_en:
+            lines.append(f"<p class='hn-text-en'>{summary_en}</p>")
+        if summary_zh:
+            lines.append(f"<p class='hn-text-zh'>{summary_zh}</p>")
+
+        lines.append("</div>")  # hn-body
+        lines.append("</div>")  # hn-card
 
         if summary_en:
             lines.append(f"<p class='hn-text-en'>{summary_en}</p>")

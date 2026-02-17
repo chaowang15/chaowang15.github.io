@@ -406,3 +406,31 @@ body {
         /* 你现在 520px 才改 210，这里更统一 */
     }
 }
+
+/* Index: keep each row compact (single-line when possible) */
+.hn-index-line {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    min-width: 0;
+    /* allow ellipsis */
+}
+
+.hn-index-link {
+    white-space: nowrap;
+    flex: 0 0 auto;
+}
+
+.hn-index-meta {
+    min-width: 0;
+    flex: 1 1 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* too long => ... */
+    opacity: 0.9;
+}
+
+.hn-meta+.hn-img {
+    margin-top: 10px;
+}
