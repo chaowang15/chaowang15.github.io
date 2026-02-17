@@ -16,15 +16,17 @@ title: "Hacker News (Daily)"
 <div class='hn-row'>
 <div class='hn-date'>2026-02-17</div>
 <div class='hn-link'>
-<a href='/hackernews/2026/02/17/best_stories_02172026'>Best Stories</a>
-<div class='hn-meta' style='margin-top: 6px;'>Top 50 · Scraped: 00:26, February 17, 2026 (PST)</div>
+<div class='hn-index-line'>
+<a class='hn-index-link' href='/hackernews/2026/02/17/best_stories_02172026'>Best Stories</a>
+<span class='hn-index-meta'> · Scraped: 00:26, February 17, 2026 (PST)</span>
 </div>
 </div>
 <div class='hn-row'>
 <div class='hn-date'>2026-02-16</div>
 <div class='hn-link'>
-<a href='/hackernews/2026/02/16/best_stories_02162026'>Best Stories</a>
-<div class='hn-meta' style='margin-top: 6px;'>Top 50 · Scraped: 23:51, February 16, 2026 (PST)</div>
+<div class='hn-index-line'>
+<a class='hn-index-link' href='/hackernews/2026/02/16/best_stories_02162026'>Best Stories</a>
+<span class='hn-index-meta'> · Scraped: 23:51, February 16, 2026 (PST)</span>
 </div>
 </div>
 </div>
