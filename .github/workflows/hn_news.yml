@@ -3,7 +3,7 @@ name: HackerNews Best Daily
 on:
   workflow_dispatch:
   schedule:
-    - cron: "30 23 * * *" # 15:30 PT when PST (UTC-8) => 23:30 UTC
+    - cron: "0 12 * * *" # 12:00 UTC daily
 
 permissions:
   contents: write

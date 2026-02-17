@@ -1,7 +1,7 @@
 import os
 import sys
 import yaml
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from dateutil import tz
 import re
 
@@ -12,11 +12,16 @@ from md_writer import render_markdown
 from index_updater import update_hackernews_index
 from backup_io import write_backup_json, read_backup_json
 
+
 def utc_now() -> datetime:
     return datetime.now(timezone.utc)
 
-def in_refresh_window(now_utc: datetime, target_h=23, target_m=30, window_min=45) -> bool:
-    # 允许的刷新窗口：target 时间前后 window_min 分钟
+
+def in_refresh_window(now_utc: datetime, target_h=12, target_m=0, window_min=45) -> bool:
+    """
+    Refresh window around daily routine time in UTC.
+    Default: 12:00 UTC +/- 45 min.
+    """
     target = now_utc.replace(hour=target_h, minute=target_m, second=0, microsecond=0)
     delta_min = abs((now_utc - target).total_seconds()) / 60.0
     return delta_min <= window_min
@@ -55,7 +60,6 @@ def _clean_hn_markdown(md: str) -> str:
     start = 0
     fm_end = -1
     if len(lines) >= 3 and lines[0].strip() == "---":
-        # find closing ---
         for i in range(1, len(lines)):
             if lines[i].strip() == "---":
                 fm_end = i
@@ -69,7 +73,7 @@ def _clean_hn_markdown(md: str) -> str:
     # 2) Drop link/script tags right after front matter
     drop_patterns = [
         r"^<link\s+rel=['\"]preconnect['\"].*>$",
-        r"^<link\s+href=['\"]https://fonts\.googleapis\.com/.*</link>$",  # rare
+        r"^<link\s+href=['\"]https://fonts\.googleapis\.com/.*</link>$",
         r"^<link\s+href=['\"]https://fonts\.googleapis\.com/.*>$",
         r"^<link\s+rel=['\"]stylesheet['\"]\s+href=['\"]/assets/hn/hn\.css.*>$",
         r"^<script\s+src=['\"]/assets/hn/hn\.js.*</script>$",
@@ -77,19 +81,16 @@ def _clean_hn_markdown(md: str) -> str:
     ]
     drop_re = [re.compile(p) for p in drop_patterns]
 
-    # skip leading blanks
     i = start
     while i < len(lines) and lines[i].strip() == "":
         i += 1
 
-    # drop consecutive head-ish lines
     while i < len(lines):
         s = lines[i].strip()
         if s == "":
             i += 1
             continue
         matched = any(r.match(s) for r in drop_re)
-        # also drop the fonts.gstatic line with crossorigin
         if not matched and s.startswith("<link") and "fonts.gstatic.com" in s:
             matched = True
         if matched:
@@ -107,16 +108,13 @@ def _clean_hn_markdown(md: str) -> str:
     if j < len(body_lines) and body_lines[j].strip() in ("<div class='hn-wrap'>", '<div class="hn-wrap">'):
         body_lines = body_lines[:j] + body_lines[j + 1 :]
 
-        # remove the very last non-empty line if it's exactly </div>
         k = len(body_lines) - 1
         while k >= 0 and body_lines[k].strip() == "":
             k -= 1
         if k >= 0 and body_lines[k].strip() == "</div>":
             body_lines = body_lines[:k] + body_lines[k + 1 :]
 
-    # 4) Recombine
     out.extend(body_lines)
-    # ensure trailing newline
     return "\n".join(out).rstrip() + "\n"
 
 
@@ -131,20 +129,24 @@ def main():
 
     cfg = load_config("news_config.yml")
     tz_name = cfg["timezone"]
-    dt = now_in_tz(tz_name)
 
-    # Display time in PDT/PST
-    tz_abbr = dt.tzname() or "PT"
-    scrape_time_str = f"{fmt(dt, cfg['format']['datetime_format'])} ({tz_abbr})"
+    # Real run time (used in subtitle "Scraped at ...")
+    run_dt = now_in_tz(tz_name)
 
-    base_dir = cfg["output"]["base_dir"]                  # hackernews
-    date_dir = fmt(dt, cfg["format"]["date_dir_format"])  # YYYY/MM/DD
+    # Content date = previous day (used in path/file/title)
+    content_dt = run_dt - timedelta(days=1)
+
+    tz_abbr = run_dt.tzname() or "PT"
+    scrape_time_str = f"{fmt(run_dt, cfg['format']['datetime_format'])} ({tz_abbr})"
+
+    base_dir = cfg["output"]["base_dir"]  # hackernews
+    date_dir = fmt(content_dt, cfg["format"]["date_dir_format"])  # YYYY/MM/DD (previous day)
     out_dir = os.path.join(base_dir, date_dir)
     ensure_dir(out_dir)
 
     count = int(cfg["best"]["count"])
     prefix = cfg["best"]["filename_prefix"]
-    filename = f"{prefix}_{mmddyyyy(dt)}.md"
+    filename = f"{prefix}_{mmddyyyy(content_dt)}.md"
     out_path = os.path.join(out_dir, filename)
 
     llm_cfg = cfg.get("llm", {})
@@ -155,6 +157,47 @@ def main():
     img_enabled = bool(img_cfg.get("enabled", True))
     img_timeout = int(img_cfg.get("timeout_seconds", 15))
     img_ua = img_cfg.get("user_agent", "Mozilla/5.0")
+
+    # ---------- Backup JSON (source of truth) ----------
+    json_name = filename.replace(".md", ".json")
+    json_path = os.path.join(out_dir, json_name)
+
+    # Token-saving behavior:
+    # - If json exists and NOT in refresh window (12:00 UTC +/- 45 min): reuse json, no LLM.
+    # - If in refresh window: refresh (overwrite) "previous-day" json.
+    json_exists = os.path.exists(json_path)
+    now_utc = utc_now()
+    force_refresh = in_refresh_window(now_utc, target_h=12, target_m=0, window_min=45)
+
+    if json_exists and (not force_refresh):
+        backup = read_backup_json(json_path)
+        items_for_render = backup["items"]
+
+        page_title = f"Hacker News — Best Stories ({content_dt.strftime('%Y-%m-%d')})"
+        page_subtitle = (
+            f"Scraped at {backup['meta'].get('scrape_time_display', scrape_time_str)}"
+            f" · Top {len(items_for_render)} stories"
+        )
+
+        md = render_markdown(
+            items_for_render,
+            page_title=page_title,
+            page_subtitle=page_subtitle,
+            html_title=page_title,
+        )
+        md = _clean_hn_markdown(md)
+
+        with open(out_path, "w", encoding="utf-8") as f:
+            f.write(md)
+
+        update_hackernews_index(
+            base_dir=cfg["output"]["base_dir"],
+            index_path=os.path.join(cfg["output"]["base_dir"], "index.md"),
+            max_items=30,
+        )
+
+        print(f"[SKIP] Using existing JSON (no LLM). json={json_path}")
+        return
 
     # 1) Fetch best story IDs
     ids = get_story_ids("best")[:count]
@@ -204,55 +247,17 @@ def main():
                 user_agent=img_ua,
             )
 
-        final_items.append({
-            "title_en": title_en,
-            "url": url,
-            "title_zh": title_zh,
-            "scrape_time": scrape_time_str,
-            "image_url": image_url,
-            "summary_en": summary_en,
-            "summary_zh": summary_zh,
-        })
-
-    # ---------- Backup JSON (source of truth) ----------
-    json_name = filename.replace(".md", ".json")
-    json_path = os.path.join(out_dir, json_name)
-
-    today_json_exists = os.path.exists(json_path)
-    now_utc = utc_now()
-    force_refresh = in_refresh_window(now_utc, target_h=23, target_m=30, window_min=45)
-
-    if today_json_exists and (not force_refresh):
-        # 复用当天 JSON：不抓新 best、不用 LLM、不更新图片
-        backup = read_backup_json(json_path)
-        items_for_render = backup["items"]
-
-        page_title = f"Hacker News — Best Stories ({dt.strftime('%Y-%m-%d')})"
-        page_subtitle = f"Scraped at {backup['meta'].get('scrape_time_display', scrape_time_str)} · Top {len(items_for_render)} stories"
-        html_title = page_title
-
-        md = render_markdown(
-            items_for_render,
-            page_title=page_title,
-            page_subtitle=page_subtitle,
-            html_title=html_title,
+        # IMPORTANT: remove per-item scrape_time (you requested)
+        final_items.append(
+            {
+                "title_en": title_en,
+                "url": url,
+                "title_zh": title_zh,
+                "image_url": image_url,
+                "summary_en": summary_en,
+                "summary_zh": summary_zh,
+            }
         )
-        md = _clean_hn_markdown(md)
-
-        # 还要确保 layout 是 hn（你前面遇到过 default 问题）
-        md = md.replace("layout: default", "layout: hn", 1)
-
-        with open(out_path, "w", encoding="utf-8") as f:
-            f.write(md)
-
-        update_hackernews_index(
-            base_dir=cfg["output"]["base_dir"],
-            index_path=os.path.join(cfg["output"]["base_dir"], "index.md"),
-            max_items=30,
-        )
-
-        print(f"[SKIP] Using existing JSON (no LLM). json={json_path}")
-        return
 
     meta = {
         "mode": mode,
@@ -260,30 +265,30 @@ def main():
         "api": "https://github.com/HackerNews/API",
         "count_requested": count,
         "count_written": len(final_items),
-        "scrape_time_display": scrape_time_str,    # PT shown on page
+        "scrape_time_display": scrape_time_str,  # shown on page subtitle
         "timezone": tz_name,
         "date_dir": date_dir,
+        "content_date": content_dt.strftime("%Y-%m-%d"),
+        "run_time_local": scrape_time_str,
+        "run_time_utc": now_utc.strftime("%Y-%m-%d %H:%M:%S UTC"),
     }
 
+    # Overwrite allowed for the "previous-day" file at refresh time
     write_backup_json(json_path, meta=meta, items=final_items)
 
     # ---------- Render MD strictly from JSON backup ----------
     backup = read_backup_json(json_path)
     items_for_render = backup["items"]
 
-    page_title = f"Hacker News — Best Stories ({dt.strftime('%Y-%m-%d')})"
+    page_title = f"Hacker News — Best Stories ({content_dt.strftime('%Y-%m-%d')})"
     page_subtitle = f"Scraped at {scrape_time_str} · Top {len(items_for_render)} stories"
-
-    # Make the browser tab title nicer
-    html_title = page_title
 
     md = render_markdown(
         items_for_render,
         page_title=page_title,
         page_subtitle=page_subtitle,
-        html_title=html_title,
+        html_title=page_title,
     )
-
     md = _clean_hn_markdown(md)
 
     with open(out_path, "w", encoding="utf-8") as f:
@@ -297,7 +302,7 @@ def main():
         max_items=30,
     )
 
-    # Clean index page too (same reason)
+    # Clean index page too
     try:
         with open(index_path, "r", encoding="utf-8") as f:
             idx_md = f.read()
@@ -307,7 +312,10 @@ def main():
     except Exception as e:
         print(f"[WARN] Failed to clean index markdown: {e}")
 
-    print(f"Wrote: {out_path} and backup {json_path} with {len(items_for_render)} items. mode={mode} (index updated)")
+    print(
+        f"Wrote: {out_path} and backup {json_path} with {len(items_for_render)} items. "
+        f"mode={mode} (content_date={content_dt.strftime('%Y-%m-%d')}, run={scrape_time_str})"
+    )
 
 
 if __name__ == "__main__":
