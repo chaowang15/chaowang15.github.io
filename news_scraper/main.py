@@ -1,7 +1,7 @@
 import os
 import sys
 import yaml
-from datetime import datetime
+from datetime import datetime, timezone
 from dateutil import tz
 import re
 
@@ -11,6 +11,15 @@ from image_fetcher import extract_preview_image_url
 from md_writer import render_markdown
 from index_updater import update_hackernews_index
 from backup_io import write_backup_json, read_backup_json
+
+def utc_now() -> datetime:
+    return datetime.now(timezone.utc)
+
+def in_refresh_window(now_utc: datetime, target_h=23, target_m=30, window_min=45) -> bool:
+    # 允许的刷新窗口：target 时间前后 window_min 分钟
+    target = now_utc.replace(hour=target_h, minute=target_m, second=0, microsecond=0)
+    delta_min = abs((now_utc - target).total_seconds()) / 60.0
+    return delta_min <= window_min
 
 
 def load_config(path: str) -> dict:
@@ -208,6 +217,42 @@ def main():
     # ---------- Backup JSON (source of truth) ----------
     json_name = filename.replace(".md", ".json")
     json_path = os.path.join(out_dir, json_name)
+
+    today_json_exists = os.path.exists(json_path)
+    now_utc = utc_now()
+    force_refresh = in_refresh_window(now_utc, target_h=23, target_m=30, window_min=45)
+
+    if today_json_exists and (not force_refresh):
+        # 复用当天 JSON：不抓新 best、不用 LLM、不更新图片
+        backup = read_backup_json(json_path)
+        items_for_render = backup["items"]
+
+        page_title = f"Hacker News — Best Stories ({dt.strftime('%Y-%m-%d')})"
+        page_subtitle = f"Scraped at {backup['meta'].get('scrape_time_display', scrape_time_str)} · Top {len(items_for_render)} stories"
+        html_title = page_title
+
+        md = render_markdown(
+            items_for_render,
+            page_title=page_title,
+            page_subtitle=page_subtitle,
+            html_title=html_title,
+        )
+        md = _clean_hn_markdown(md)
+
+        # 还要确保 layout 是 hn（你前面遇到过 default 问题）
+        md = md.replace("layout: default", "layout: hn", 1)
+
+        with open(out_path, "w", encoding="utf-8") as f:
+            f.write(md)
+
+        update_hackernews_index(
+            base_dir=cfg["output"]["base_dir"],
+            index_path=os.path.join(cfg["output"]["base_dir"], "index.md"),
+            max_items=30,
+        )
+
+        print(f"[SKIP] Using existing JSON (no LLM). json={json_path}")
+        return
 
     meta = {
         "mode": mode,

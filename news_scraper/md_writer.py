@@ -20,7 +20,7 @@ def render_markdown(
 
     lines = []
     lines.append("---")
-    lines.append("layout: default")
+    lines.append("layout: hn")
     lines.append(f'title: "{fm_title}"')
     lines.append("---")
     lines.append("")

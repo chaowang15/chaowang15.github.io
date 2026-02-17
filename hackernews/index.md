@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: hn
 title: "Hacker News (Daily)"
 ---
 <h1 class='hn-h1'>Hacker News (Daily)</h1>
