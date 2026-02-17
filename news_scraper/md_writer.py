@@ -37,7 +37,6 @@ def render_markdown(
     lines.append("<div class='hn-badges'>")
     lines.append(f"<span class='hn-badge'>Top {len(items)}</span>")
     lines.append("<span class='hn-badge'>Best Stories</span>")
-    lines.append("<span class='hn-badge'>PST/PDT</span>")
     lines.append("</div>")
 
     lines.append("<hr class='hn-rule'/>")

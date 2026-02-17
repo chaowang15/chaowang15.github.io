@@ -156,13 +156,6 @@ def update_hackernews_index(
     source_link = "<a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a>"
     lines.append(f"<p class='hn-subtitle'>Daily scraped <b>Hacker News — Best Stories</b>. · Source: {source_link}</p>")
 
-    # badges (home)
-    lines.append("<div class='hn-badges'>")
-    lines.append("<span class='hn-badge'>Best Stories</span>")
-    lines.append("<span class='hn-badge'>Daily</span>")
-    lines.append("<span class='hn-badge'>UTC 12:00</span>")
-    lines.append("</div>")
-
     lines.append("<hr class='hn-rule'/>")
     lines.append("<h2 style='font-family: var(--hn-sans); margin-top: 6px;'>Latest Files</h2>")
 
@@ -171,18 +164,15 @@ def update_hackernews_index(
     else:
         lines.append("<div class='hn-grid'>")
         for e in entries:
-            right_txt = f"Scraped: {e.scraped_local}" if e.scraped_local else ""
-            
             lines.append("<div class='hn-row'>")
             lines.append(f"<div class='hn-date'>{e.content_date}</div>")
             lines.append("<div class='hn-link'>")
             lines.append("<div class='hn-index-line'>")
             lines.append(f"<a class='hn-index-link' href='{e.rel_url}'>Best Stories</a>")
-            if right_txt:
-                lines.append(f"<span class='hn-index-meta'> · {right_txt}</span>")
             lines.append("</div>")  # hn-index-line
             lines.append("</div>")  # hn-link
-            lines.append("</div>")  # hn-row  
+            lines.append("</div>")  # hn-row
+
         lines.append("</div>")
 
     lines.append("")
