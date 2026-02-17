@@ -9,14 +9,6 @@ title: "Hacker News (Daily)"
 <h2 style='font-family: var(--hn-sans); margin-top: 6px;'>Latest Files</h2>
 <div class='hn-grid'>
 <div class='hn-row'>
-<div class='hn-date'>2026-02-17</div>
-<div class='hn-link'>
-<div class='hn-index-line'>
-<a class='hn-index-link' href='/hackernews/2026/02/17/best_stories_02172026'>Best Stories</a>
-</div>
-</div>
-</div>
-<div class='hn-row'>
 <div class='hn-date'>2026-02-16</div>
 <div class='hn-link'>
 <div class='hn-index-line'>
