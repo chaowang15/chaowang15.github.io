@@ -62,6 +62,15 @@ def update_hackernews_index(
     lines.append('title: "Hacker News (Daily)"')
     lines.append("---")
     lines.append("")
+
+    # Google Fonts (same as daily pages)
+    lines.append("""
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;650;750;800&family=Source+Serif+4:opsz,wght@8..60,450;8..60,600&display=swap" rel="stylesheet">
+""".strip())
+    lines.append("")
+
     lines.append("<style>")
     lines.append("""
 :root{
@@ -70,20 +79,33 @@ def update_hackernews_index(
   --hn-border: rgba(0,0,0,0.10);
   --hn-shadow: 0 10px 26px rgba(0,0,0,0.08);
   --hn-muted: rgba(0,0,0,0.62);
+  --hn-fg: rgba(0,0,0,0.92);
+  --hn-card-bg: rgba(255,255,255,0.92);
+
+  --hn-sans: "Inter", system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+  --hn-serif: "Source Serif 4", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 @media (prefers-color-scheme: dark) {
   :root{
     --hn-border: rgba(255,255,255,0.14);
     --hn-shadow: 0 10px 26px rgba(0,0,0,0.42);
-    --hn-muted: rgba(255,255,255,0.70);
+    --hn-muted: rgba(255,255,255,0.74);
+    --hn-fg: rgba(255,255,255,0.92);
+    --hn-card-bg: rgba(20,20,20,0.60);
   }
 }
+
 .hn-wrap{
   max-width: var(--hn-maxw);
   margin: 0 auto;
   padding: 18px 16px 34px 16px;
+  color: var(--hn-fg);
+  font-family: var(--hn-serif);
+  font-size: 18px;                 /* ✅ bigger overall */
 }
+
 .hn-h1{
+  font-family: var(--hn-sans);
   font-size: 1.75rem;
   line-height: 1.18;
   margin: 0 0 8px 0;
@@ -99,24 +121,35 @@ def update_hackernews_index(
   text-decoration: underline;
   text-underline-offset: 3px;
 }
+
 .hn-grid{ display: flex; flex-direction: column; gap: 14px; margin-top: 16px; }
+
 .hn-row{
   padding: 14px 16px;
   border: 1px solid var(--hn-border);
   border-radius: var(--hn-radius);
   box-shadow: var(--hn-shadow);
-  background: rgba(255,255,255,0.92);
+  background: var(--hn-card-bg);
   display: flex;
   justify-content: space-between;
   align-items: baseline;
   gap: 14px;
 }
-@media (prefers-color-scheme: dark){
-  .hn-row{ background: rgba(20,20,20,0.55); }
+
+.hn-date{
+  font-family: var(--hn-sans);
+  font-weight: 750;
 }
-.hn-date{ font-weight: 750; }
-.hn-link a{ font-weight: 750; text-decoration: none; }
-.hn-link a:hover{ text-decoration: underline; text-underline-offset: 3px; }
+.hn-link a{
+  font-family: var(--hn-sans);
+  font-weight: 750;
+  text-decoration: none;
+}
+.hn-link a:hover{
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 .hn-hint{ margin-top: 16px; color: var(--hn-muted); font-size: 0.98rem; }
 """.strip())
     lines.append("</style>")
@@ -128,7 +161,7 @@ def update_hackernews_index(
     lines.append(f"<p class='hn-subtitle'>Daily scraped <b>Hacker News — Best Stories</b>. · Source: {source_link}</p>")
     lines.append("")
 
-    lines.append("<h2>Latest Files</h2>")
+    lines.append("<h2 style='font-family: var(--hn-sans); margin-top: 6px;'>Latest Files</h2>")
     if not entries:
         lines.append("<p class='hn-hint'>No files found yet. Run the workflow once to generate the first file.</p>")
     else:
@@ -144,7 +177,7 @@ def update_hackernews_index(
         lines.append("</div>")
 
     lines.append("")
-    lines.append("<p class='hn-hint'>Browse by date: <code>/{}/YYYY/MM/DD/</code></p>".format(base_dir))
+    lines.append(f"<p class='hn-hint'>Browse by date: <code>/{base_dir}/YYYY/MM/DD/</code></p>")
     lines.append("</div>")
 
     md = "\n".join(lines)
