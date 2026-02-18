@@ -3,6 +3,7 @@ layout: hn
 title: "Hacker News — Best Stories (2026-02-16)"
 ---
 <h1 class='hn-h1'>Hacker News — Best Stories (2026-02-16)</h1>
+<p class='hn-nav'><a class='hn-back' href='/hackernews/'>← Back to Index</a></p>
 <p class='hn-subtitle'>Scraped at 23:51, February 16, 2026 (PST) · Top 50 stories · Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
 <div class='hn-badges'>
 <span class='hn-badge'>Top 50</span>
