@@ -61,8 +61,43 @@ def render_markdown(
             f"</p>"
         )
 
+        # Chinese subtitle line
         if title_zh:
             lines.append(f"<p class='hn-meta'>{title_zh}</p>")
+
+        # New info row under Chinese subtitle (backward compatible)
+        created_display = it.get("created_display", "")
+        hn = it.get("hn") or {}
+        hn_score = hn.get("score")
+        hn_by = hn.get("by")
+        comments_url = hn.get("comments_url")
+        hn_desc = hn.get("descendants")
+
+        parts = []
+
+        # Created time
+        if created_display:
+            parts.append(f"<span class='hn-meta2-created'>{created_display}</span>")
+
+        # "120 points by cheeaun"
+        if hn_score is not None and hn_by:
+            parts.append(f"<span class='hn-meta2-points'>{hn_score} points by {hn_by}</span>")
+
+        # Comments link (optionally show count if available)
+        if comments_url:
+            if hn_desc is not None:
+                parts.append(
+                    f"<a class='hn-meta2-comments' href='{comments_url}' target='_blank' rel='noopener noreferrer'>Comments ({hn_desc})</a>"
+                )
+            else:
+                parts.append(
+                    f"<a class='hn-meta2-comments' href='{comments_url}' target='_blank' rel='noopener noreferrer'>Comments</a>"
+                )
+
+        # Only show the new row if anything exists (old json won't show it)
+        if parts:
+            lines.append("<p class='hn-meta2'>" + "<span class='hn-sep'> · </span>".join(parts) + "</p>")
+
 
         # Image under meta (subtitle)
         if image_url:

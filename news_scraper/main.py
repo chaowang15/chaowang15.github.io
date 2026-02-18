@@ -232,7 +232,26 @@ def main():
         if not title_en:
             continue
         url = get_item_url(item)
-        raw_items.append({"id": int(item_id), "title_en": title_en, "url": url})
+        hn_id = int(item_id)
+        hn_type = item.get("type")
+        hn_by = item.get("by")
+        hn_score = item.get("score")
+        hn_desc = item.get("descendants")
+        hn_time = item.get("time")  # unix timestamp (seconds)
+
+        raw_items.append({
+            "id": hn_id,
+            "title_en": title_en,
+            "url": url,
+            "hn_time": int(hn_time) if hn_time is not None else None,
+
+            # NEW: cache lightweight HN metadata
+            "hn_type": hn_type,
+            "hn_by": hn_by,
+            "hn_score": int(hn_score) if hn_score is not None else None,
+            "hn_descendants": int(hn_desc) if hn_desc is not None else None,
+        })
+
 
     if not raw_items:
         raise RuntimeError("No valid story items fetched.")
@@ -245,6 +264,12 @@ def main():
     # 4) Fetch preview image URL (store URL only)
     final_items = []
     for it in raw_items:
+        hn_time = it.get("hn_time")
+        created_display = ""
+        if hn_time:
+            created_dt = datetime.fromtimestamp(int(hn_time), tz=tz.gettz(tz_name))
+            created_display = created_dt.strftime("Created: %b %d, %Y / %H:%M PT")
+
         _id = it["id"]
         title_en = it["title_en"]
         url = it["url"]
@@ -267,17 +292,28 @@ def main():
                 user_agent=img_ua,
             )
 
-        # IMPORTANT: remove per-item scrape_time (you requested)
-        final_items.append(
-            {
-                "title_en": title_en,
-                "url": url,
-                "title_zh": title_zh,
-                "image_url": image_url,
-                "summary_en": summary_en,
-                "summary_zh": summary_zh,
-            }
-        )
+        comments_url = f"https://news.ycombinator.com/item?id={_id}"
+
+        final_items.append({
+            "title_en": title_en,
+            "url": url,
+            "title_zh": title_zh,
+            "created_display": created_display,
+            "image_url": image_url,
+            "summary_en": summary_en,
+            "summary_zh": summary_zh,
+
+            # NEW: raw HN metadata cache (not displayed yet)
+            "hn": {
+                "id": _id,
+                "type": it.get("hn_type"),
+                "by": it.get("hn_by"),
+                "score": it.get("hn_score"),
+                "descendants": it.get("hn_descendants"),
+                "time": it.get("hn_time"),
+                "comments_url": comments_url,
+            },
+        })
 
     meta = {
         "mode": mode,

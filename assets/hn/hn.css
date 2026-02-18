@@ -471,3 +471,32 @@ body {
         background: rgba(30, 30, 30, 0.85);
     }
 }
+
+/* Meta line: left zh title + right created time */
+.hn-meta {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    align-items: baseline;
+}
+
+.hn-meta-right {
+    white-space: nowrap;
+    opacity: 0.85;
+    font-size: 0.95em;
+}
+
+.hn-meta2 {
+    margin: 4px 0 10px;
+    opacity: 0.85;
+    font-size: 0.95em;
+    line-height: 1.25;
+}
+
+.hn-meta2 a {
+    text-decoration: none;
+}
+
+.hn-meta2 a:hover {
+    text-decoration: underline;
+}
