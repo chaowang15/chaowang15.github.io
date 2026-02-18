@@ -1,4 +1,6 @@
 from typing import List, Dict, Optional
+import re
+from datetime import datetime, timedelta
 
 
 def render_markdown(
@@ -24,7 +26,28 @@ def render_markdown(
 
     # Header (NO outer hn-wrap here; layout provides it)
     lines.append(f"<h1 class='hn-h1'>{page_title}</h1>")
-    lines.append("<p class='hn-nav'><a class='hn-back' href='/hackernews/'>← Back to Index</a></p>")
+    
+    # Back / Prev navigation
+    # page_title looks like: "Hacker News — Best Stories (2026-02-16)"
+    m = re.search(r"\((\d{4}-\d{2}-\d{2})\)", page_title)
+    prev_href = None
+    if m:
+        try:
+            dt = datetime.strptime(m.group(1), "%Y-%m-%d")
+            prev_dt = dt - timedelta(days=1)
+            prev_href = (
+                f"/hackernews/{prev_dt.strftime('%Y/%m/%d')}/"
+                f"best_stories_{prev_dt.strftime('%m%d%Y')}"
+            )
+        except Exception:
+            prev_href = None
+
+    nav_html = "<p class='hn-nav'>"
+    nav_html += "<a class='hn-back' href='/hackernews/'>← Index</a>"
+    if prev_href:
+        nav_html += f"<a class='hn-prev' href='{prev_href}'>‹ Prev day</a>"
+    nav_html += "</p>"
+    lines.append(nav_html)
 
     source_link = "<a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a>"
     subtitle = page_subtitle.strip()

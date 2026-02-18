@@ -500,3 +500,24 @@ body {
 .hn-meta2 a:hover {
     text-decoration: underline;
 }
+
+.hn-nav {
+    margin: 6px 0 8px;
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+
+.hn-back,
+.hn-prev {
+    font-family: var(--hn-sans);
+    font-size: 0.95em;
+    text-decoration: none;
+    opacity: 0.85;
+}
+
+.hn-back:hover,
+.hn-prev:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
