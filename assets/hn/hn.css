@@ -434,3 +434,40 @@ body {
 .hn-meta+.hn-img {
     margin-top: 10px;
 }
+
+.hn-nav {
+    margin: 6px 0 8px;
+}
+
+.hn-back {
+    font-family: var(--hn-sans);
+    font-size: 0.95em;
+    text-decoration: none;
+    opacity: 0.85;
+}
+
+.hn-back:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.hn-goup {
+    position: fixed;
+    right: 14px;
+    bottom: 16px;
+    z-index: 9999;
+    padding: 10px 12px;
+    border-radius: 999px;
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    background: rgba(255, 255, 255, 0.92);
+    font-family: var(--hn-sans);
+    cursor: pointer;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+@media (prefers-color-scheme: dark) {
+    .hn-goup {
+        border-color: rgba(255, 255, 255, 0.22);
+        background: rgba(30, 30, 30, 0.85);
+    }
+}

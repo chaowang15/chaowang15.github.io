@@ -24,6 +24,7 @@ def render_markdown(
 
     # Header (NO outer hn-wrap here; layout provides it)
     lines.append(f"<h1 class='hn-h1'>{page_title}</h1>")
+    lines.append("<p class='hn-nav'><a class='hn-back' href='/hackernews/'>← Back to Index</a></p>")
 
     source_link = "<a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a>"
     subtitle = page_subtitle.strip()

@@ -64,3 +64,25 @@
     if (e.key === "Escape") closeLightbox();
   });
 })();
+
+(function () {
+  const btn = document.createElement("button");
+  btn.className = "hn-goup";
+  btn.type = "button";
+  btn.textContent = "↑ Top";
+  btn.setAttribute("aria-label", "Go to top");
+  btn.style.display = "none";
+  document.body.appendChild(btn);
+
+  const toggle = () => {
+    const y = window.scrollY || document.documentElement.scrollTop || 0;
+    btn.style.display = (y > 600) ? "block" : "none";
+  };
+
+  btn.addEventListener("click", () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+
+  window.addEventListener("scroll", toggle, { passive: true });
+  toggle();
+})();
