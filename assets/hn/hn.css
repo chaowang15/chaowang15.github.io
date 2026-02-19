@@ -535,3 +535,22 @@ body {
     opacity: 1;
     text-decoration: underline;
 }
+
+/* Broken images: fully hidden (JS also sets display:none) */
+.hn-img--hidden {
+    display: none !important;
+}
+
+/* Tiny images: don't stretch to full width; show as contained small media */
+.hn-img.hn-img--tiny {
+    height: auto !important;
+    max-height: 240px;
+    object-fit: contain !important;
+    cursor: default !important;
+
+    /* visually nicer */
+    background: transparent !important;
+    border-radius: 12px;
+    margin: 10px auto 10px;
+    max-width: min(520px, 100%);
+}

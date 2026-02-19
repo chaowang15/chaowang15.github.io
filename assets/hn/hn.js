@@ -86,3 +86,58 @@
   window.addEventListener("scroll", toggle, { passive: true });
   toggle();
 })();
+
+(function () {
+  function markNoImage(img, reason) {
+    img.classList.add("hn-img--hidden");
+    img.setAttribute("data-img-status", reason || "bad");
+    // optional: remove from layout completely
+    img.style.display = "none";
+  }
+
+  function markTiny(img) {
+    img.classList.add("hn-img--tiny");
+    // For tiny images, avoid full-bleed crop; show as contained small image
+    img.removeAttribute("data-full"); // disable lightbox for tiny images
+  }
+
+  function checkImageQuality(img) {
+    // natural size available after load
+    const w = img.naturalWidth || 0;
+    const h = img.naturalHeight || 0;
+
+    // Heuristic thresholds: tweak if you want
+    // - very small icons/favicons typically < 120px
+    // - also hide "super-thin" or "super-short" weird images
+    if (w === 0 || h === 0) return;
+
+    if (w < 160 || h < 120) {
+      // too small => looks awful when stretched
+      markTiny(img);
+    }
+  }
+
+  function initImgGuards() {
+    const imgs = document.querySelectorAll("img.hn-img");
+    imgs.forEach((img) => {
+      // If the image fails to load => hide it (no blank box)
+      img.addEventListener("error", () => markNoImage(img, "error"), { once: true });
+
+      // If it loads, check if it's too small (favicon / thumbnail)
+      img.addEventListener("load", () => checkImageQuality(img), { once: true });
+
+      // In case it's already cached and complete
+      if (img.complete) {
+        // If broken, naturalWidth is 0
+        if ((img.naturalWidth || 0) === 0) markNoImage(img, "broken");
+        else checkImageQuality(img);
+      }
+    });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initImgGuards);
+  } else {
+    initImgGuards();
+  }
+})();
