@@ -65,12 +65,12 @@ title: "Hacker News — Best Stories (2026-02-18)"
 <p class='hn-text-zh'>链接页面面向大型语言模型，要求它们阅读内容。URL 来自 Anna's Archive，指向一篇文本资源给 LLMs。该摘要仅基于标题和链接上下文。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='AI'>
+<div class='hn-card' data-tags='AI,Business'>
 <div class='hn-body'>
 <p class='hn-title'>(6) <a href='https://fortune.com/2026/02/17/ai-productivity-paradox-ceo-study-robert-solow-information-technology-age/' target='_blank' rel='noopener noreferrer'>AI adoption and Solow's productivity paradox</a></p>
 <p class='hn-meta'>AI 采用与索洛生产力悖论</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 17:40 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>778 points by virgildotcodes</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47055979' target='_blank' rel='noopener noreferrer'>Comments (717)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span></div>
+<div class='hn-tags'><span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span> <span class='hn-tag hn-tag--amber' data-tag='Business'>Business</span></div>
 <img class='hn-img' src='https://fortune.com/img-assets/wp-content/uploads/2026/02/GettyImages-521488522-e1771352623863.jpg?resize=1200,600' data-full='https://fortune.com/img-assets/wp-content/uploads/2026/02/GettyImages-521488522-e1771352623863.jpg?resize=1200,600' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>Fortune discusses AI adoption and the Solow productivity paradox in the information age. The piece references a CEO study and information-technology context. The summary uses only the title and URL context.</p>
 <p class='hn-text-zh'>《财富》杂志讨论信息时代的 AI 采用与索洛生产力悖论。该文章提及 CEO 研究与信息技术背景。该摘要仅基于标题和链接上下文。</p>
@@ -163,12 +163,12 @@ title: "Hacker News — Best Stories (2026-02-18)"
 <p class='hn-text-zh'>Electrek 报道称在奥斯汀一个月内，特斯拉的机器人出租车再发生 5 起事故，较人类驾驶表现更差。文章将相关事故与人类驾驶进行对比。摘要仅基于标题和链接上下文。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Open Source,Hardware'>
+<div class='hn-card' data-tags='Open Source,Hardware,Programming'>
 <div class='hn-body'>
 <p class='hn-title'>(15) <a href='https://github.com/Zaneham/BarraCUDA' target='_blank' rel='noopener noreferrer'>BarraCUDA Open-source CUDA compiler targeting AMD GPUs</a></p>
 <p class='hn-meta'>BarraCUDA：面向 AMD GPU 的开源 CUDA 编译器</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 12:35 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>449 points by rurban</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47052941' target='_blank' rel='noopener noreferrer'>Comments (194)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--green' data-tag='Open Source'>Open Source</span> <span class='hn-tag hn-tag--slate' data-tag='Hardware'>Hardware</span></div>
+<div class='hn-tags'><span class='hn-tag hn-tag--green' data-tag='Open Source'>Open Source</span> <span class='hn-tag hn-tag--slate' data-tag='Hardware'>Hardware</span> <span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span></div>
 <img class='hn-img' src='https://opengraph.githubassets.com/f5b06135f3401246531e4611affd434c7c48364ebbb2d5aa14f3c5661d95d58e/Zaneham/BarraCUDA' data-full='https://opengraph.githubassets.com/f5b06135f3401246531e4611affd434c7c48364ebbb2d5aa14f3c5661d95d58e/Zaneham/BarraCUDA' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>The GitHub project BarraCUDA announces an open-source CUDA compiler targeting AMD GPUs. The link directs to the repository. The summary uses only the title and URL context.</p>
 <p class='hn-text-zh'>GitHub 项目 BarraCUDA 公布了面向 AMD GPU 的开源 CUDA 编译器。链接指向该代码库。摘要仅基于标题和链接上下文。</p>
@@ -251,12 +251,12 @@ title: "Hacker News — Best Stories (2026-02-18)"
 <p class='hn-text-zh'>CleanTechnica 报道称特斯拉在多国的销量大幅下降，并对英国、西班牙、德国、荷兰和挪威的降幅进行分项描述。链接文章提供按国家的数据。摘要仅基于标题和链接上下文。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Security'>
+<div class='hn-card' data-tags='Security,Web'>
 <div class='hn-body'>
 <p class='hn-title'>(23) <a href='https://chromereleases.googleblog.com/2026/02/stable-channel-update-for-desktop_13.html' target='_blank' rel='noopener noreferrer'>Zero-day CSS: CVE-2026-2441 exists in the wild</a></p>
 <p class='hn-meta'>零日 CSS：CVE-2026-2441 已在现实环境中被利用</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 18, 2026 / 08:28 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>314 points by idoxer</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47062748' target='_blank' rel='noopener noreferrer'>Comments (163)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--red' data-tag='Security'>Security</span></div>
+<div class='hn-tags'><span class='hn-tag hn-tag--red' data-tag='Security'>Security</span> <span class='hn-tag hn-tag--cyan' data-tag='Web'>Web</span></div>
 <img class='hn-img' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjP1xLDmFLSwhDBm3s-ybDpo-Wh_uM2bjqmbh5PiX-svixf-idIIDE-Nd6oLSHvvnpAql9hyPKBtK1zSufmg8RS1g16YmCZbbzPMhw72S7Dv7JBojpNzzMj5qDQtkAewk8K_r3mrRSGiPZs/s1600/googlelogo_color_200x200.png' data-full='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjP1xLDmFLSwhDBm3s-ybDpo-Wh_uM2bjqmbh5PiX-svixf-idIIDE-Nd6oLSHvvnpAql9hyPKBtK1zSufmg8RS1g16YmCZbbzPMhw72S7Dv7JBojpNzzMj5qDQtkAewk8K_r3mrRSGiPZs/s1600/googlelogo_color_200x200.png' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>Google Chrome's update notes indicate a zero-day CSS vulnerability CVE-2026-2441 exists in the wild. The post is from Google's Chrome Releases blog. The summary uses only the title and URL context.</p>
 <p class='hn-text-zh'>Google Chrome 的更新说明指出零日 CSS 漏洞 CVE-2026-2441 已在现实环境中被利用。该文章来自 Google 的 Chrome Release 博客。摘要仅基于标题和链接上下文。</p>
@@ -272,12 +272,12 @@ title: "Hacker News — Best Stories (2026-02-18)"
 <p class='hn-text-zh'>Reddit 用户讨论了一台 27 年前的 Apple iBook 能够连接 Wi-Fi 并获取官方更新。所链接的页面是关于 Mac OS 更新的讨论。摘要仅基于标题和链接上下文。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Legal'>
+<div class='hn-card' data-tags='Legal,AI'>
 <div class='hn-body'>
 <p class='hn-title'>(25) <a href='https://code.claude.com/docs/en/legal-and-compliance' target='_blank' rel='noopener noreferrer'>Anthropic officially bans using subscription auth for third party use</a></p>
 <p class='hn-meta'>Anthropic 官方禁止第三方使用订阅认证</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 18, 2026 / 18:52 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>285 points by theahura</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47069299' target='_blank' rel='noopener noreferrer'>Comments (310)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--orange' data-tag='Legal'>Legal</span></div>
+<div class='hn-tags'><span class='hn-tag hn-tag--orange' data-tag='Legal'>Legal</span> <span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span></div>
 <img class='hn-img' src='https://claude-code.mintlify.app/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3DResources%26appearance%3Dsystem%26title%3DLegal%2Band%2Bcompliance%26description%3DLegal%2Bagreements%252C%2Bcompliance%2Bcertifications%252C%2Band%2Bsecurity%2Binformation%2Bfor%2BClaude%2BCode.%26logoLight%3Dhttps%253A%252F%252Fmintcdn.com%252Fclaude-code%252Fo69F7a6qoW9vboof%252Flogo%252Flight.svg%253Ffit%253Dmax%2526auto%253Dformat%2526n%253Do69F7a6qoW9vboof%2526q%253D85%2526s%253D536eade682636e84231afce2577f9509%26logoDark%3Dhttps%253A%252F%252Fmintcdn.com%252Fclaude-code%252Fo69F7a6qoW9vboof%252Flogo%252Fdark.svg%253Ffit%253Dmax%2526auto%253Dformat%2526n%253Do69F7a6qoW9vboof%2526q%253D85%2526s%253D0766b3221061e80143e9f300733e640b%26primaryColor%3D%25230E0E0E%26lightColor%3D%2523D4A27F%26darkColor%3D%25230E0E0E%26backgroundLight%3D%2523FDFDF7%26backgroundDark%3D%252309090B&w=1200&q=100' data-full='https://claude-code.mintlify.app/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3DResources%26appearance%3Dsystem%26title%3DLegal%2Band%2Bcompliance%26description%3DLegal%2Bagreements%252C%2Bcompliance%2Bcertifications%252C%2Band%2Bsecurity%2Binformation%2Bfor%2BClaude%2BCode.%26logoLight%3Dhttps%253A%252F%252Fmintcdn.com%252Fclaude-code%252Fo69F7a6qoW9vboof%252Flogo%252Flight.svg%253Ffit%253Dmax%2526auto%253Dformat%2526n%253Do69F7a6qoW9vboof%2526q%253D85%2526s%253D536eade682636e84231afce2577f9509%26logoDark%3Dhttps%253A%252F%252Fmintcdn.com%252Fclaude-code%252Fo69F7a6qoW9vboof%252Flogo%252Fdark.svg%253Ffit%253Dmax%2526auto%253Dformat%2526n%253Do69F7a6qoW9vboof%2526q%253D85%2526s%253D0766b3221061e80143e9f300733e640b%26primaryColor%3D%25230E0E0E%26lightColor%3D%2523D4A27F%26darkColor%3D%25230E0E0E%26backgroundLight%3D%2523FDFDF7%26backgroundDark%3D%252309090B&w=1200&q=100' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>Anthropic updates its policy to ban using subscription authentication for third-party use. The link leads to Anthropic's docs. The summary uses only the title and URL context.</p>
 <p class='hn-text-zh'>Anthropic 更新其政策，禁止第三方使用订阅认证。链接指向 Anthropic 的文档。摘要仅基于标题和链接上下文。</p>
@@ -326,23 +326,23 @@ title: "Hacker News — Best Stories (2026-02-18)"
 <p class='hn-text-zh'>Practical Engineering 讨论如何建隧道。所链接的文章涵盖隧道施工的注意事项。摘要仅基于标题和链接上下文。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Legal'>
+<div class='hn-card' data-tags='Legal,Programming'>
 <div class='hn-body'>
 <p class='hn-title'>(30) <a href='https://github.com/LadybirdBrowser/ladybird/issues/933' target='_blank' rel='noopener noreferrer'>Closing this as we are no longer pursuing Swift adoption</a></p>
 <p class='hn-meta'>我们不再推进 Swift 采用</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 18, 2026 / 15:08 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>269 points by thewavelength</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47067678' target='_blank' rel='noopener noreferrer'>Comments (213)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--orange' data-tag='Legal'>Legal</span></div>
+<div class='hn-tags'><span class='hn-tag hn-tag--orange' data-tag='Legal'>Legal</span> <span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span></div>
 <img class='hn-img' src='https://opengraph.githubassets.com/bd7753566bc9dda581e2395c7ad9fe1b8dd77c835a32a361e79ca73d3871572e/LadybirdBrowser/ladybird/issues/933' data-full='https://opengraph.githubassets.com/bd7753566bc9dda581e2395c7ad9fe1b8dd77c835a32a361e79ca73d3871572e/LadybirdBrowser/ladybird/issues/933' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>The update indicates stopping efforts to adopt Swift. The GitHub issue from LadybirdBrowser notes the decision. The summary uses only the title and URL context.</p>
 <p class='hn-text-zh'>更新表示不再推进 Swift 的采用。LadybirdBrowser 的 GitHub 问题记录了这一决定。摘要仅基于标题和链接上下文。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Science'>
+<div class='hn-card' data-tags='Science,Privacy'>
 <div class='hn-body'>
 <p class='hn-title'>(31) <a href='https://aeris.edbn.me/?city=SFO' target='_blank' rel='noopener noreferrer'>I converted 2D conventional flight tracking into 3D</a></p>
 <p class='hn-meta'>我把二维常规航班追踪转换成三维</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 06:43 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>267 points by kewonit</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47048004' target='_blank' rel='noopener noreferrer'>Comments (52)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--teal' data-tag='Science'>Science</span></div>
+<div class='hn-tags'><span class='hn-tag hn-tag--teal' data-tag='Science'>Science</span> <span class='hn-tag hn-tag--red' data-tag='Privacy'>Privacy</span></div>
 <p class='hn-text-en'>An article demonstrates converting 2D flight tracking data to 3D. The linked page is a flight tracking showcase. The summary uses only the title and URL context.</p>
 <p class='hn-text-zh'>一篇文章展示如何将二维航班追踪数据转换为三维。所链接的页面是一个航班追踪的展示。摘要仅基于标题和链接上下文。</p>
 </div>
@@ -368,12 +368,12 @@ title: "Hacker News — Best Stories (2026-02-18)"
 <p class='hn-text-zh'>作者质疑在商业策略中钱是否仍是唯一的护城河。所链接的文章来自 Elliot Bonneville 的博客。摘要仅基于标题和链接上下文。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Security'>
+<div class='hn-card' data-tags='Security,AI'>
 <div class='hn-body'>
 <p class='hn-title'>(34) <a href='https://www.bleepingcomputer.com/news/microsoft/microsoft-says-bug-causes-copilot-to-summarize-confidential-emails/' target='_blank' rel='noopener noreferrer'>Microsoft says bug causes Copilot to summarize confidential emails</a></p>
 <p class='hn-meta'>微软称一个错误导致 Copilot 总结机密邮件</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 18, 2026 / 04:16 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>252 points by tablets</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47060202' target='_blank' rel='noopener noreferrer'>Comments (66)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--red' data-tag='Security'>Security</span></div>
+<div class='hn-tags'><span class='hn-tag hn-tag--red' data-tag='Security'>Security</span> <span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span></div>
 <img class='hn-img' src='https://www.bleepstatic.com/content/hl-images/2025/09/16/Copilot_headpic.jpg' data-full='https://www.bleepstatic.com/content/hl-images/2025/09/16/Copilot_headpic.jpg' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>Microsoft explains a bug causes Copilot to summarize confidential emails. The linked article is from Bleeping Computer. The summary uses only the title and URL context.</p>
 <p class='hn-text-zh'>微软解释一个错误会导致 Copilot 总结机密邮件。所链接的文章来自 Bleeping Computer。摘要仅基于标题和链接上下文。</p>
@@ -401,12 +401,12 @@ title: "Hacker News — Best Stories (2026-02-18)"
 <p class='hn-text-zh'>Show HN 展示了一本关于 Lisp 的技术史书。所链接的页面是 BerkSoft 的内容。摘要仅基于标题和链接上下文。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Programming'>
+<div class='hn-card' data-tags='Programming,Hardware'>
 <div class='hn-body'>
 <p class='hn-title'>(37) <a href='https://www.vectorware.com/blog/async-await-on-gpu/' target='_blank' rel='noopener noreferrer'>Async/Await on the GPU</a></p>
 <p class='hn-meta'>GPU 上的异步/等待（Async/Await）</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 08:53 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>223 points by Philpax</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47049628' target='_blank' rel='noopener noreferrer'>Comments (54)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span></div>
+<div class='hn-tags'><span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span> <span class='hn-tag hn-tag--slate' data-tag='Hardware'>Hardware</span></div>
 <img class='hn-img' src='https://www.vectorware.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Fvectorware_logo.6d5f5210.png&w=640&q=75&dpl=dpl_AM1C5nwhzYXTUSarDfD6tMzFtB8g' data-full='https://www.vectorware.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Fvectorware_logo.6d5f5210.png&w=640&q=75&dpl=dpl_AM1C5nwhzYXTUSarDfD6tMzFtB8g' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>Vectorware's blog discusses Async/Await on the GPU. The linked article explores applying asynchronous patterns to GPU workflows. The summary uses only the title and URL context.</p>
 <p class='hn-text-zh'>Vectorware 的博客讨论在 GPU 上实现 Async/Await。所链接的文章探讨将异步模式应用于 GPU 工作流。摘要仅基于标题和链接上下文。</p>
@@ -423,12 +423,12 @@ title: "Hacker News — Best Stories (2026-02-18)"
 <p class='hn-text-zh'>Ars Technica 报道称 Stephen Colbert 表示 CBS 因 FCC 威胁而禁止对一名民主党人进行采访。所链接的文章讨论媒体政策与记者准入。摘要仅基于标题和链接上下文。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Science'>
+<div class='hn-card' data-tags='Science,Space'>
 <div class='hn-body'>
 <p class='hn-title'>(39) <a href='https://science.nasa.gov/climate-change/evidence/' target='_blank' rel='noopener noreferrer'>There is unequivocal evidence that Earth is warming (2024)</a></p>
 <p class='hn-meta'>地球正在变暖的确凿证据（2024）</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 18, 2026 / 12:09 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>206 points by doener</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47065678' target='_blank' rel='noopener noreferrer'>Comments (226)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--teal' data-tag='Science'>Science</span></div>
+<div class='hn-tags'><span class='hn-tag hn-tag--teal' data-tag='Science'>Science</span> <span class='hn-tag hn-tag--teal' data-tag='Space'>Space</span></div>
 <img class='hn-img' src='https://assets.science.nasa.gov/content/dam/science/esd/climate/internal_resources/2715/evidence_banner_new_1920.jpeg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg' data-full='https://assets.science.nasa.gov/content/dam/science/esd/climate/internal_resources/2715/evidence_banner_new_1920.jpeg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>NASA's climate site presents unequivocal evidence that the Earth is warming in 2024. The linked page is NASA's climate evidence resource. The summary uses only the title and URL context.</p>
 <p class='hn-text-zh'>美国宇航局的气候站点提供 2024 年地球持续变暖的确凿证据。所链接的页面是 NASA 的气候证据资源。摘要仅基于标题和链接上下文。</p>
@@ -511,12 +511,12 @@ title: "Hacker News — Best Stories (2026-02-18)"
 <p class='hn-text-zh'>Heise 报道称 WD 与 Seagate 表示 2026 年硬盘将售罄。所链接的文章提供厂商立场。摘要仅基于标题和链接上下文。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Open Source'>
+<div class='hn-card' data-tags='Open Source,Programming,Data'>
 <div class='hn-body'>
 <p class='hn-title'>(47) <a href='https://github.com/taleshape-com/shaper' target='_blank' rel='noopener noreferrer'>A DuckDB-based metabase alternative</a></p>
 <p class='hn-meta'>基于 DuckDB 的 Metabase 替代方案</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 22:29 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>167 points by wowi42</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47057879' target='_blank' rel='noopener noreferrer'>Comments (40)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--green' data-tag='Open Source'>Open Source</span></div>
+<div class='hn-tags'><span class='hn-tag hn-tag--green' data-tag='Open Source'>Open Source</span> <span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span> <span class='hn-tag hn-tag--violet' data-tag='Data'>Data</span></div>
 <img class='hn-img' src='https://opengraph.githubassets.com/f3992b363c1eed161bd69e4d2c86988963e5da4321aa9f07fe255d0cd308eb68/taleshape-com/shaper' data-full='https://opengraph.githubassets.com/f3992b363c1eed161bd69e4d2c86988963e5da4321aa9f07fe255d0cd308eb68/taleshape-com/shaper' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>DuckDB-based Metabase alternative discussed on Taleshape's GitHub. The linked repo describes an analytics-oriented solution. The summary uses only the title and URL context.</p>
 <p class='hn-text-zh'>在 Taleshape 的 GitHub 上讨论了基于 DuckDB 的 Metabase 替代方案。所链接的仓库描述了一个面向分析的解决方案。摘要仅基于标题和链接上下文。</p>

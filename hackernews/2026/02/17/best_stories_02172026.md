@@ -22,12 +22,12 @@ title: "Hacker News — Best Stories (2026-02-17)"
 <p class='hn-text-zh'>Anthropic 发布了关于 Claude Sonnet 4.6 的新闻。该页面似乎在介绍或公告该版本的 Claude Sonnet。条目很可能总结了与 4.6 版本相关的更改、功能或可用性。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Security,Open Source'>
+<div class='hn-card' data-tags='Security,Open Source,Privacy'>
 <div class='hn-body'>
 <p class='hn-title'>(2) <a href='https://blog.tomaszdunia.pl/grapheneos-eng/' target='_blank' rel='noopener noreferrer'>GrapheneOS – Break Free from Google and Apple</a></p>
 <p class='hn-meta'>GrapheneOS — 摆脱 Google 与 Apple 的束缚</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 02:02 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>1123 points by to3k</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47045612' target='_blank' rel='noopener noreferrer'>Comments (826)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--red' data-tag='Security'>Security</span> <span class='hn-tag hn-tag--green' data-tag='Open Source'>Open Source</span></div>
+<div class='hn-tags'><span class='hn-tag hn-tag--red' data-tag='Security'>Security</span> <span class='hn-tag hn-tag--green' data-tag='Open Source'>Open Source</span> <span class='hn-tag hn-tag--red' data-tag='Privacy'>Privacy</span></div>
 <img class='hn-img' src='https://blog.tomaszdunia.pl/images/grapheneos.png' data-full='https://blog.tomaszdunia.pl/images/grapheneos.png' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>A blog post introduces GrapheneOS with the tagline 'Break Free from Google and Apple'. The page likely explains GrapheneOS as an alternative mobile operating system focused on privacy and control. It appears aimed at readers considering options outside mainstream mobile ecosystems.</p>
 <p class='hn-text-zh'>一篇博文以“摆脱 Google 与 Apple 的束缚”为标语介绍 GrapheneOS。页面很可能将 GrapheneOS 描述为注重隐私与控制的替代移动操作系统。目标读者似乎是考虑主流移动生态之外选项的人群。</p>
@@ -99,12 +99,12 @@ title: "Hacker News — Best Stories (2026-02-17)"
 <p class='hn-text-zh'>dmcc.io 上的一篇博文讨论了蓝牙设备会泄露用户哪些信息。文章很可能考察了蓝牙信号与设备行为在隐私和跟踪方面的影响。文中可能提供示例、观察或有关蓝牙隐私风险的建议。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Legal'>
+<div class='hn-card' data-tags='Legal,Data'>
 <div class='hn-body'>
 <p class='hn-title'>(9) <a href='https://www.legalcheek.com/2026/02/ministry-of-justice-orders-deletion-of-the-uks-largest-court-reporting-database/' target='_blank' rel='noopener noreferrer'>Ministry of Justice orders deletion of the UK's largest court reporting database</a></p>
 <p class='hn-meta'>司法部下令删除英国最大的法庭报道数据库</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 16, 2026 / 05:30 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>517 points by harel</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47034713' target='_blank' rel='noopener noreferrer'>Comments (345)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--orange' data-tag='Legal'>Legal</span></div>
+<div class='hn-tags'><span class='hn-tag hn-tag--orange' data-tag='Legal'>Legal</span> <span class='hn-tag hn-tag--violet' data-tag='Data'>Data</span></div>
 <img class='hn-img' src='https://www.legalcheek.com/wp-content/uploads/2024/03/AdobeStock_110501092-1.jpeg' data-full='https://www.legalcheek.com/wp-content/uploads/2024/03/AdobeStock_110501092-1.jpeg' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>Legal Cheek reports that the UK Ministry of Justice ordered deletion of the country's largest court reporting database. The article appears to cover the order, its rationale, and potential consequences for reporting and public records. It may include reactions from legal reporters and stakeholders.</p>
 <p class='hn-text-zh'>Legal Cheek 报道称英国司法部下令删除该国最大的法庭报道数据库。文章似乎涵盖了该命令、其理由以及对报道与公共记录的潜在影响。报道可能包含法律记者和相关方的反应。</p>
@@ -132,12 +132,12 @@ title: "Hacker News — Best Stories (2026-02-17)"
 <p class='hn-text-zh'>NBC 新闻报道指出，CBS 因担心 FCC 而未播放对众议员詹姆斯·塔拉里科的采访。报道讨论了该决定及网络对监管后果的担忧。文章可能包括相关方的声明以及该情况的背景说明。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Show HN'>
+<div class='hn-card' data-tags='Show HN,Health'>
 <div class='hn-body'>
 <p class='hn-title'>(12) <a href='https://www.arthurcnops.blog/death-of-show-hn/' target='_blank' rel='noopener noreferrer'>Is Show HN dead? No, but it's drowning</a></p>
 <p class='hn-meta'>Show HN 死了吗？不，但它在挣扎</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 02:29 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>478 points by acnops</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47045804' target='_blank' rel='noopener noreferrer'>Comments (399)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--green' data-tag='Show HN'>Show HN</span></div>
+<div class='hn-tags'><span class='hn-tag hn-tag--green' data-tag='Show HN'>Show HN</span> <span class='hn-tag hn-tag--emerald' data-tag='Health'>Health</span></div>
 <p class='hn-text-en'>A blog post examines the state of the Show HN category and asks whether it is dead, concluding that it is not dead but struggling. The author likely reviews trends, contributing factors, and community dynamics affecting Show HN. The piece appears analytical and reflective about the platform's health.</p>
 <p class='hn-text-zh'>一篇博文审视了 Show HN 分类的现状，探讨它是否已死，结论是并未死去，但在挣扎。作者可能回顾了影响 Show HN 的趋势、促成因素及社区动态。该文呈现出对平台健康状况的分析性与反思性讨论。</p>
 </div>
@@ -174,12 +174,12 @@ title: "Hacker News — Best Stories (2026-02-17)"
 <p class='hn-text-zh'>Jeff Geerling 的博文主张 AI 正在损害开源，而当前的成果尚不理想。文章似乎批评了 AI 与开源项目、流程或社区的互动方式。内容可能结合示例与观点，并呼吁对 AI 影响进行反思。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Open Source'>
+<div class='hn-card' data-tags='Open Source,Show HN'>
 <div class='hn-body'>
 <p class='hn-title'>(16) <a href='https://asteroidos.org/news/2-0-release/index.html' target='_blank' rel='noopener noreferrer'>Show HN: AsteroidOS 2.0 – Nobody asked, we shipped anyway</a></p>
 <p class='hn-meta'>Show HN：AsteroidOS 2.0 — 没人要求，但我们还是发布了</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 11:24 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>403 points by moWerk</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47051852' target='_blank' rel='noopener noreferrer'>Comments (50)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--green' data-tag='Open Source'>Open Source</span></div>
+<div class='hn-tags'><span class='hn-tag hn-tag--green' data-tag='Open Source'>Open Source</span> <span class='hn-tag hn-tag--green' data-tag='Show HN'>Show HN</span></div>
 <img class='hn-img' src='https://asteroidos.org/public/img/logo.png' data-full='https://asteroidos.org/public/img/logo.png' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>AsteroidOS announced version 2.0 on its release page. The project frames the release as something shipped despite limited demand. The page likely lists new features, improvements, and download or installation instructions for the smartwatch-focused OS.</p>
 <p class='hn-text-zh'>AsteroidOS 在其发布页面上宣布了 2.0 版本。项目将此次发布描述为尽管需求有限仍然推出的版本。页面很可能列出新功能、改进以及针对该智能手表操作系统的下载或安装说明。</p>
@@ -207,12 +207,12 @@ title: "Hacker News — Best Stories (2026-02-17)"
 <p class='hn-text-zh'>Rock Paper Shotgun 报道称英国的 Discord 用户参与了一项与彼得·蒂尔相关联的数据收集实验。文章似乎介绍了该实验的范围以及用户如何被涉及其中。报道可能讨论了实验背后的实体以及参与者或旁观者提出的潜在担忧。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Hardware,Business'>
+<div class='hn-card' data-tags='Hardware,Business,AI'>
 <div class='hn-body'>
 <p class='hn-title'>(19) <a href='https://mashable.com/article/ai-hard-drive-hdd-shortages-western-digital-sold-out' target='_blank' rel='noopener noreferrer'>Thanks a lot, AI: Hard drives are sold out for the year, says WD</a></p>
 <p class='hn-meta'>多亏 AI：硬盘全年售罄，西数称如此</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 16, 2026 / 04:28 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>373 points by dClauzel</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47034192' target='_blank' rel='noopener noreferrer'>Comments (306)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--slate' data-tag='Hardware'>Hardware</span> <span class='hn-tag hn-tag--amber' data-tag='Business'>Business</span></div>
+<div class='hn-tags'><span class='hn-tag hn-tag--slate' data-tag='Hardware'>Hardware</span> <span class='hn-tag hn-tag--amber' data-tag='Business'>Business</span> <span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span></div>
 <img class='hn-img' src='https://helios-i.mashable.com/imagery/articles/03BMp5tylVs9DJJavYCVFKV/hero-image.fill.size_1200x675.v1771180235.jpg' data-full='https://helios-i.mashable.com/imagery/articles/03BMp5tylVs9DJJavYCVFKV/hero-image.fill.size_1200x675.v1771180235.jpg' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>Mashable reports that Western Digital said hard drives are sold out for the year, linking the shortage to AI demand in the headline. The article likely summarizes WD's statement and the market situation affecting HDD supply. It may include context about demand drivers and industry reactions.</p>
 <p class='hn-text-zh'>Mashable 报道称西部数据表示硬盘已售罄至今年年底，标题将短缺与 AI 需求联系在一起。文章很可能总结了西数的声明以及影响 HDD 供应的市场状况。报道可能还提供了关于需求驱动因素和行业反应的背景信息。</p>
@@ -229,12 +229,12 @@ title: "Hacker News — Best Stories (2026-02-17)"
 <p class='hn-text-zh'>Gentoo 的新闻页面发布了与 Codeberg 相关的公告。该帖很可能描述了 Gentoo 在 Codeberg 上的存在、仓库托管或项目迁移。文章可能概述了目标、好处并提供面向贡献者和用户的链接。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Hardware'>
+<div class='hn-card' data-tags='Hardware,Programming,Open Source'>
 <div class='hn-body'>
 <p class='hn-title'>(21) <a href='https://github.com/Zaneham/BarraCUDA' target='_blank' rel='noopener noreferrer'>BarraCUDA Open-source CUDA compiler targeting AMD GPUs</a></p>
 <p class='hn-meta'>BarraCUDA：面向 AMD GPU 的开源 CUDA 编译器</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 12:35 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>357 points by rurban</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47052941' target='_blank' rel='noopener noreferrer'>Comments (150)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--slate' data-tag='Hardware'>Hardware</span></div>
+<div class='hn-tags'><span class='hn-tag hn-tag--slate' data-tag='Hardware'>Hardware</span> <span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span> <span class='hn-tag hn-tag--green' data-tag='Open Source'>Open Source</span></div>
 <img class='hn-img' src='https://opengraph.githubassets.com/fb97ed203dbe5cc0735a37aa23575da3bba4f44b180851441d017343089e2533/Zaneham/BarraCUDA' data-full='https://opengraph.githubassets.com/fb97ed203dbe5cc0735a37aa23575da3bba4f44b180851441d017343089e2533/Zaneham/BarraCUDA' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>A GitHub repository titled BarraCUDA presents an open-source CUDA compiler targeting AMD GPUs. The project appears to aim at translating or compiling CUDA code for AMD hardware. The repository likely includes source code, documentation, and usage instructions.</p>
 <p class='hn-text-zh'>一个名为 BarraCUDA 的 GitHub 仓库提供了面向 AMD GPU 的开源 CUDA 编译器。该项目似乎旨在将 CUDA 代码翻译或编译到 AMD 硬件。仓库很可能包含源代码、文档和使用说明。</p>
@@ -282,12 +282,12 @@ title: "Hacker News — Best Stories (2026-02-17)"
 <p class='hn-text-zh'>notnotp.com 上的一篇文章主张使用协议而非服务。文章很可能讨论为何从技术与理念上更应优先采用可互操作的协议而不是集中式服务。文中可能包含示例、权衡以及面向开发者和架构师的实用建议。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Security'>
+<div class='hn-card' data-tags='Security,Privacy'>
 <div class='hn-body'>
 <p class='hn-title'>(26) <a href='https://ahmedeldin.substack.com/p/the-israeli-spyware-firm-that-accidentally' target='_blank' rel='noopener noreferrer'>The Israeli spyware firm that accidentally just exposed itself</a></p>
 <p class='hn-meta'>无意中暴露自己的以色列间谍软件公司</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 16, 2026 / 04:00 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>286 points by 0x54MUR41</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47033976' target='_blank' rel='noopener noreferrer'>Comments (325)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--red' data-tag='Security'>Security</span></div>
+<div class='hn-tags'><span class='hn-tag hn-tag--red' data-tag='Security'>Security</span> <span class='hn-tag hn-tag--red' data-tag='Privacy'>Privacy</span></div>
 <p class='hn-text-en'>A Substack post reports on an Israeli spyware firm that accidentally exposed itself. The piece appears to detail how the exposure occurred and what was revealed. It likely examines implications for privacy, security, and accountability related to the firm.</p>
 <p class='hn-text-zh'>一篇 Substack 文章报道了一家以色列间谍软件公司无意中暴露自身的事件。文章似乎详述了暴露如何发生以及被揭示的内容。报道可能探讨了该事件对隐私、安全与问责的影响。</p>
 </div>
@@ -303,23 +303,23 @@ title: "Hacker News — Best Stories (2026-02-17)"
 <p class='hn-text-zh'>CleanTechnica 的一篇文章报道了特斯拉在多个欧洲国家的销量大幅下滑，并按国家列出了具体降幅。文章很可能分析了区域性销量趋势及导致下降的可能原因。报道可能包含数据来源以及关于市场竞争或政策因素的评论。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Show HN,Open Source'>
+<div class='hn-card' data-tags='Show HN,Open Source,Programming'>
 <div class='hn-body'>
 <p class='hn-title'>(28) <a href='https://github.com/zachlatta/freeflow' target='_blank' rel='noopener noreferrer'>Show HN: Free alternative to Wispr Flow, Superwhisper, and Monologue</a></p>
 <p class='hn-meta'>Show HN：替代 Wispr Flow、Superwhisper 和 Monologue 的免费方案</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 16, 2026 / 13:10 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>267 points by zachlatta</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47040375' target='_blank' rel='noopener noreferrer'>Comments (124)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--green' data-tag='Show HN'>Show HN</span> <span class='hn-tag hn-tag--green' data-tag='Open Source'>Open Source</span></div>
+<div class='hn-tags'><span class='hn-tag hn-tag--green' data-tag='Show HN'>Show HN</span> <span class='hn-tag hn-tag--green' data-tag='Open Source'>Open Source</span> <span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span></div>
 <img class='hn-img' src='https://opengraph.githubassets.com/d2653e5a808aa41ef1c2028f55debc0c30d1992f185d97bb6cd8bbe93cb0e648/zachlatta/freeflow' data-full='https://opengraph.githubassets.com/d2653e5a808aa41ef1c2028f55debc0c30d1992f185d97bb6cd8bbe93cb0e648/zachlatta/freeflow' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>A GitHub project called FreeFlow is presented as a free alternative to Wispr Flow, Superwhisper, and Monologue. The repository likely provides source code, installation instructions, and documentation for the alternative. The project appears aimed at users seeking open or no-cost options similar to those tools.</p>
 <p class='hn-text-zh'>名为 FreeFlow 的 GitHub 项目被介绍为 Wispr Flow、Superwhisper 和 Monologue 的免费替代方案。该仓库很可能提供源代码、安装说明和文档。该项目面向寻找类似工具的开源或免费选项的用户。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Web'>
+<div class='hn-card' data-tags='Web,Privacy'>
 <div class='hn-body'>
 <p class='hn-title'>(29) <a href='https://aeris.edbn.me/?city=SFO' target='_blank' rel='noopener noreferrer'>I converted 2D conventional flight tracking into 3D</a></p>
 <p class='hn-meta'>我把二维常规航班追踪转换为三维</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 06:43 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>263 points by kewonit</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47048004' target='_blank' rel='noopener noreferrer'>Comments (50)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--cyan' data-tag='Web'>Web</span></div>
+<div class='hn-tags'><span class='hn-tag hn-tag--cyan' data-tag='Web'>Web</span> <span class='hn-tag hn-tag--red' data-tag='Privacy'>Privacy</span></div>
 <p class='hn-text-en'>An interactive page demonstrates converting conventional 2D flight tracking into 3D, with a query parameter set to SFO. The project likely visualizes flight paths in three dimensions and offers an interface for exploring specific cities or airports. It appears intended for users interested in flight visualization and mapping.</p>
 <p class='hn-text-zh'>一个交互页面演示了将常规二维航班追踪转换为三维，地址中带有 SFO 参数。该项目很可能以三维方式可视化航班轨迹，并提供用于探索特定城市或机场的界面。它面向对航班可视化与地图感兴趣的用户。</p>
 </div>
@@ -379,23 +379,23 @@ title: "Hacker News — Best Stories (2026-02-17)"
 <p class='hn-text-zh'>Practical Engineering 发布了一篇题为“所以你想建一条隧道”的文章，解释隧道建设的相关内容。文章很可能涵盖工程考量、方法、挑战以及隧道项目的示例。其目标是为读者提供关于隧道建造所需事项的实用概述。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Web'>
+<div class='hn-card' data-tags='Web,Programming'>
 <div class='hn-body'>
 <p class='hn-title'>(35) <a href='https://gist.github.com/jake-stewart/0a8ea46159a7da2c808e5be2177e1783' target='_blank' rel='noopener noreferrer'>Terminals should generate the 256-color palette</a></p>
 <p class='hn-meta'>终端应生成 256 色调色板</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 22:19 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>230 points by tosh</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47057824' target='_blank' rel='noopener noreferrer'>Comments (71)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--cyan' data-tag='Web'>Web</span></div>
+<div class='hn-tags'><span class='hn-tag hn-tag--cyan' data-tag='Web'>Web</span> <span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span></div>
 <img class='hn-img' src='https://github.githubassets.com/assets/gist-og-image-54fd7dc0713e.png' data-full='https://github.githubassets.com/assets/gist-og-image-54fd7dc0713e.png' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>A GitHub gist argues that terminals should generate the 256-color palette. The author likely presents a proposal or code for how terminal emulators can compute or produce the palette. The post appears intended for terminal developers and users interested in color fidelity.</p>
 <p class='hn-text-zh'>一个 GitHub gist 主张终端应生成 256 色调色板。作者很可能提出了一个建议或代码，说明终端模拟器如何计算或生成该调色板。该帖面向关注色彩保真度的终端开发者和用户。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Open Source'>
+<div class='hn-card' data-tags='Open Source,DevOps'>
 <div class='hn-body'>
 <p class='hn-title'>(36) <a href='https://blog.dmcc.io/journal/xmpp-turn-stun-coturn-prosody/' target='_blank' rel='noopener noreferrer'>Running My Own XMPP Server</a></p>
 <p class='hn-meta'>运行我自己的 XMPP 服务器</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 16, 2026 / 05:39 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>230 points by speckx</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47034801' target='_blank' rel='noopener noreferrer'>Comments (144)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--green' data-tag='Open Source'>Open Source</span></div>
+<div class='hn-tags'><span class='hn-tag hn-tag--green' data-tag='Open Source'>Open Source</span> <span class='hn-tag hn-tag--indigo' data-tag='DevOps'>DevOps</span></div>
 <img class='hn-img' src='https://blog.dmcc.io/img/android-icon-192x192.png' data-full='https://blog.dmcc.io/img/android-icon-192x192.png' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>A personal blog post documents running an XMPP server, mentioning TURN/STUN (coturn) and Prosody in the URL. The author likely shares setup steps, configuration tips, and pros/cons of hosting XMPP. The write-up appears geared toward people interested in self-hosted messaging infrastructure.</p>
 <p class='hn-text-zh'>一篇个人博文记录了运行 XMPP 服务器的经验，URL 中提到 TURN/STUN（coturn）和 Prosody。作者很可能分享了设置步骤、配置技巧以及自建 XMPP 的利弊。该文面向对自托管消息基础设施感兴趣的人群。</p>
@@ -412,23 +412,23 @@ title: "Hacker News — Best Stories (2026-02-17)"
 <p class='hn-text-zh'>一则 Show HN 帖子链接到托管在 berksoft.ca 的一本关于 Lisp 的技术史书籍。作者似乎在介绍自己撰写的关于该语言历史和技术演进的书。页面很可能包含章节、目录以及供有兴趣读者下载或阅读的选项。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Politics'>
+<div class='hn-card' data-tags='Politics,Legal'>
 <div class='hn-body'>
 <p class='hn-title'>(38) <a href='https://arstechnica.com/tech-policy/2026/02/stephen-colbert-says-cbs-forbid-interview-of-democrat-because-of-fcc-threat/' target='_blank' rel='noopener noreferrer'>Stephen Colbert says CBS forbid interview of Democrat because of FCC threat</a></p>
 <p class='hn-meta'>斯蒂芬·科尔伯特称 CBS 禁止采访该民主党人，因担心 FCC 威胁</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 11:20 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>208 points by voxadam</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47051793' target='_blank' rel='noopener noreferrer'>Comments (65)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--orange' data-tag='Politics'>Politics</span></div>
+<div class='hn-tags'><span class='hn-tag hn-tag--orange' data-tag='Politics'>Politics</span> <span class='hn-tag hn-tag--orange' data-tag='Legal'>Legal</span></div>
 <img class='hn-img' src='https://cdn.arstechnica.net/wp-content/uploads/2026/02/stephen-colbert-1152x648-1771352733.jpg' data-full='https://cdn.arstechnica.net/wp-content/uploads/2026/02/stephen-colbert-1152x648-1771352733.jpg' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>An Ars Technica article reports Stephen Colbert saying CBS forbade an interview of a Democrat because of an FCC threat. The piece covers Colbert's statement and the surrounding media and regulatory context. It likely includes perspectives from the network, the host, and legal or policy observers.</p>
 <p class='hn-text-zh'>Ars Technica 报道称斯蒂芬·科尔伯特表示 CBS 因担心 FCC 的威胁而禁止对一位民主党人的采访。文章报道了科尔伯特的说法以及相关的媒体与监管背景。报道可能包含来自该网络、主持人以及法律或政策观察者的观点。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Programming,AI'>
+<div class='hn-card' data-tags='Programming,AI,Hardware'>
 <div class='hn-body'>
 <p class='hn-title'>(39) <a href='https://www.vectorware.com/blog/async-await-on-gpu/' target='_blank' rel='noopener noreferrer'>Async/Await on the GPU</a></p>
 <p class='hn-meta'>GPU 上的 Async/Await</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 08:53 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>205 points by Philpax</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47049628' target='_blank' rel='noopener noreferrer'>Comments (53)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span> <span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span></div>
+<div class='hn-tags'><span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span> <span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span> <span class='hn-tag hn-tag--slate' data-tag='Hardware'>Hardware</span></div>
 <img class='hn-img' src='https://www.vectorware.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Fvectorware_logo.6d5f5210.png&w=640&q=75&dpl=dpl_AM1C5nwhzYXTUSarDfD6tMzFtB8g' data-full='https://www.vectorware.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Fvectorware_logo.6d5f5210.png&w=640&q=75&dpl=dpl_AM1C5nwhzYXTUSarDfD6tMzFtB8g' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>A Vectorware blog post explores implementing async/await semantics on the GPU. The article likely discusses technical challenges, potential approaches, and performance considerations for asynchronous programming on GPU architectures. It appears aimed at systems programmers and researchers interested in concurrency models on accelerators.</p>
 <p class='hn-text-zh'>Vectorware 的一篇博文探讨了在 GPU 上实现 async/await 语义的问题。文章很可能讨论了技术挑战、可能的方法以及在 GPU 架构上进行异步编程的性能考量。该文面向对加速器上并发模型感兴趣的系统程序员与研究人员。</p>
@@ -478,12 +478,12 @@ title: "Hacker News — Best Stories (2026-02-17)"
 <p class='hn-text-zh'>Governance.fyi 的一篇文章指出，美国的养老金在表现上比不过先锋基金（Vanguard），但仍有能力采取诸如关闭医院等重大地方性行动。文章很可能分析了养老金的表现、投资选择以及养老金决策的现实影响。文中将金融回报与社会及机构结果联系起来讨论。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Legal'>
+<div class='hn-card' data-tags='Legal,Finance'>
 <div class='hn-body'>
 <p class='hn-title'>(44) <a href='https://www.h1bexposed.tech/' target='_blank' rel='noopener noreferrer'>H-1B Exposed: Banking sector visa sponsorship investigation</a></p>
 <p class='hn-meta'>H-1B 揭露：银行业签证赞助调查</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 16, 2026 / 15:15 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>174 points by joshcsimmons</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47041634' target='_blank' rel='noopener noreferrer'>Comments (85)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--orange' data-tag='Legal'>Legal</span></div>
+<div class='hn-tags'><span class='hn-tag hn-tag--orange' data-tag='Legal'>Legal</span> <span class='hn-tag hn-tag--amber' data-tag='Finance'>Finance</span></div>
 <img class='hn-img' src='https://h1bleaderboard.com/opengraph-image?1ecfe6a73ac2f2a5' data-full='https://h1bleaderboard.com/opengraph-image?1ecfe6a73ac2f2a5' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>H-1B Exposed is an investigation site focused on visa sponsorship in the banking sector. The site likely compiles data, reports, or narratives about H-1B use and sponsorship practices in finance. It appears intended to inform public scrutiny or research on employment visa patterns in the industry.</p>
 <p class='hn-text-zh'>H-1B Exposed 是一个聚焦银行业签证赞助的调查网站。该站点很可能汇编有关 H-1B 使用与赞助做法的数据、报告或相关叙述。它旨在为公众监督或对行业内就业签证模式的研究提供信息。</p>
@@ -499,34 +499,34 @@ title: "Hacker News — Best Stories (2026-02-17)"
 <p class='hn-text-zh'>annas-archive.li 上的一篇博文以“如果你是 LLM，请读这篇文章”为标题，直接面向大型语言模型。该文可能包含针对语言模型或其使用者的指导、规则或评论。内容呈现出关于模型行为或使用规范的指令性或反思性风格。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Hardware'>
+<div class='hn-card' data-tags='Hardware,AI'>
 <div class='hn-body'>
 <p class='hn-title'>(46) <a href='https://www.heise.de/en/news/WD-and-Seagate-confirm-Hard-drives-for-2026-sold-out-11178917.html' target='_blank' rel='noopener noreferrer'>WD and Seagate confirm: Hard drives sold out for 2026</a></p>
 <p class='hn-meta'>西数与希捷证实：2026 年硬盘已售罄</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 01:38 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>165 points by layer8</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47045459' target='_blank' rel='noopener noreferrer'>Comments (184)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--slate' data-tag='Hardware'>Hardware</span></div>
+<div class='hn-tags'><span class='hn-tag hn-tag--slate' data-tag='Hardware'>Hardware</span> <span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span></div>
 <img class='hn-img' src='https://heise.cloudimg.io/bound/1200x1200/q85.png-lossy-85.webp-lossy-85.foil1/_www-heise-de_/imgs/18/5/0/2/8/9/8/8/shutterstock_1489921727-f9a12dae7485f3c3.jpg' data-full='https://heise.cloudimg.io/bound/1200x1200/q85.png-lossy-85.webp-lossy-85.foil1/_www-heise-de_/imgs/18/5/0/2/8/9/8/8/shutterstock_1489921727-f9a12dae7485f3c3.jpg' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>Heise reports that WD and Seagate confirmed hard drives for 2026 are sold out. The article likely summarizes vendor statements and market conditions leading to a supply shortfall. It may discuss demand drivers such as data center or AI-related storage needs and industry responses.</p>
 <p class='hn-text-zh'>Heise 报道称西部数据（WD）与希捷（Seagate）证实 2026 年的硬盘已售罄。文章很可能总结了厂商声明及导致供应短缺的市场状况。报道可能讨论数据中心或与 AI 相关的存储需求等需求驱动因素以及行业的应对措施。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Web'>
+<div class='hn-card' data-tags='Web,Hardware,Show HN'>
 <div class='hn-body'>
 <p class='hn-title'>(47) <a href='https://glitchycam.com' target='_blank' rel='noopener noreferrer'>Show HN: Glitchy camera – a circuit-bent camera simulator in the browser</a></p>
 <p class='hn-meta'>Show HN：Glitchy camera——浏览器中的电路弯曲相机模拟器</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 16, 2026 / 03:57 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>164 points by elayabharath</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47033954' target='_blank' rel='noopener noreferrer'>Comments (22)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--cyan' data-tag='Web'>Web</span></div>
+<div class='hn-tags'><span class='hn-tag hn-tag--cyan' data-tag='Web'>Web</span> <span class='hn-tag hn-tag--slate' data-tag='Hardware'>Hardware</span> <span class='hn-tag hn-tag--green' data-tag='Show HN'>Show HN</span></div>
 <img class='hn-img' src='https://glitchycam.com/images/favicon.png' data-full='https://glitchycam.com/images/favicon.png' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>Glitchy Camera is a Show HN web project that simulates a circuit-bent camera in the browser. The site likely offers interactive filters or effects that emulate hardware glitch aesthetics. It is aimed at users wanting to experiment with retro or distorted camera visuals online.</p>
 <p class='hn-text-zh'>Glitchy Camera 是一款 Show HN 网络项目，在浏览器中模拟电路弯曲相机。该站点很可能提供交互式滤镜或效果，模拟硬件故障的美学风格。它面向希望在线尝试复古或扭曲相机视觉效果的用户。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Design'>
+<div class='hn-card' data-tags='Design,Gaming'>
 <div class='hn-body'>
 <p class='hn-title'>(48) <a href='https://gabrielcabrera.co/' target='_blank' rel='noopener noreferrer'>Xbox UI Portfolio Site</a></p>
 <p class='hn-meta'>Xbox UI 作品集网站</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 16, 2026 / 21:53 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>163 points by valgaze</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47044179' target='_blank' rel='noopener noreferrer'>Comments (47)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--pink' data-tag='Design'>Design</span></div>
+<div class='hn-tags'><span class='hn-tag hn-tag--pink' data-tag='Design'>Design</span> <span class='hn-tag hn-tag--purple' data-tag='Gaming'>Gaming</span></div>
 <img class='hn-img' src='https://gabrielcabrera.co/og-image.png' data-full='https://gabrielcabrera.co/og-image.png' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>A portfolio site at gabrielcabrera.co showcases Xbox UI work. The site likely presents designs, case studies, or interactive examples of user interface work related to Xbox. It appears intended for recruiters, peers, or clients interested in the creator's UI design portfolio.</p>
 <p class='hn-text-zh'>位于 gabrielcabrera.co 的作品集网站展示了与 Xbox 用户界面相关的作品。网站很可能呈现设计稿、案例研究或交互示例，展示与 Xbox 相关的 UI 工作。该站点面向招聘者、同行或对作者 UI 设计作品感兴趣的客户。</p>
