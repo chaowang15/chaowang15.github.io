@@ -1,3 +1,5 @@
+import glob
+import json
 import os
 import sys
 import yaml
@@ -117,6 +119,79 @@ def _clean_hn_markdown(md: str) -> str:
     out.extend(body_lines)
     return "\n".join(out).rstrip() + "\n"
 
+def rebuild_all_from_json(cfg: dict, max_items: int = 3650):
+    """
+    Rebuild ALL historical best_stories_*.md strictly from existing JSON backups.
+    - No HN API
+    - No LLM
+    - Overwrites md files in place
+    """
+    base_dir = cfg["output"]["base_dir"]  # "hackernews"
+    pattern = os.path.join(base_dir, "*", "*", "*", "best_stories_*.json")
+    json_paths = sorted(glob.glob(pattern))
+
+    if not json_paths:
+        print(f"[REBUILD] No JSON backups found under: {pattern}")
+        return
+
+    # Optional cap (safety)
+    json_paths = json_paths[:max_items]
+
+    print(f"[REBUILD] Found {len(json_paths)} json backups. Rebuilding md pages...")
+
+    rebuilt = 0
+    for json_path in json_paths:
+        try:
+            backup = read_backup_json(json_path)
+            items = backup.get("items", []) or []
+            meta = backup.get("meta", {}) or {}
+
+            # Derive md path = same dir, same prefix, .md
+            md_path = json_path[:-5] + ".md"
+
+            content_date = meta.get("content_date", "")
+            page_title = f"Hacker News — Best Stories ({content_date})" if content_date else "Hacker News — Best Stories"
+            scrape_disp = meta.get("scrape_time_display", meta.get("run_time_local", ""))
+            if scrape_disp:
+                page_subtitle = f"Scraped at {scrape_disp} · Top {len(items)} stories"
+            else:
+                page_subtitle = f"Top {len(items)} stories"
+
+            md = render_markdown(
+                items,
+                page_title=page_title,
+                page_subtitle=page_subtitle,
+                html_title=page_title,
+            )
+            md = _clean_hn_markdown(md)
+
+            with open(md_path, "w", encoding="utf-8") as f:
+                f.write(md)
+
+            rebuilt += 1
+        except Exception as e:
+            print(f"[REBUILD][WARN] Failed for {json_path}: {e}")
+
+    # Rebuild index once at the end
+    index_path = os.path.join(base_dir, "index.md")
+    update_hackernews_index(
+        base_dir=base_dir,
+        index_path=index_path,
+        max_items=30,
+    )
+
+    # Clean index too
+    try:
+        with open(index_path, "r", encoding="utf-8") as f:
+            idx_md = f.read()
+        idx_md = _clean_hn_markdown(idx_md)
+        with open(index_path, "w", encoding="utf-8") as f:
+            f.write(idx_md)
+    except Exception as e:
+        print(f"[REBUILD][WARN] Failed to clean index markdown: {e}")
+
+    print(f"[REBUILD] Done. Rebuilt {rebuilt} md pages + index.")
+
 
 def main():
     if len(sys.argv) < 2:
@@ -124,10 +199,15 @@ def main():
         sys.exit(2)
 
     mode = sys.argv[1].strip().lower()
-    if mode != "best":
-        raise ValueError("This version runs only 'best'. (latest is disabled for now.)")
+    if mode not in ("best", "rebuild"):
+        raise ValueError("Usage: python news_scraper/main.py best | rebuild")
+
 
     cfg = load_config("news_config.yml")
+    if mode == "rebuild":
+        rebuild_all_from_json(cfg)
+        return
+
     tz_name = cfg["timezone"]
 
     # Real run time (used in subtitle "Scraped at ...")
