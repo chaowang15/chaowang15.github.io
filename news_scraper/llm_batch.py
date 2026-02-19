@@ -3,17 +3,38 @@ from typing import Dict, List, Any
 from openai import OpenAI
 
 def _safe_json_loads(text: str) -> Any:
+    """Parse JSON from LLM output, handling common issues like
+    markdown fences, extra trailing data, and concatenated objects."""
     s = text.strip()
+
+    # Strip markdown code fences if present
+    if s.startswith("```"):
+        lines = s.split("\n")
+        if lines[-1].strip() == "```":
+            lines = lines[1:-1]
+        else:
+            lines = lines[1:]
+        s = "\n".join(lines).strip()
+
     try:
         return json.loads(s)
-    except Exception:
+    except json.JSONDecodeError:
         pass
 
-    # Try to locate the first JSON token
+    # Locate the first JSON token
     idxs = [i for i in [s.find("["), s.find("{")] if i != -1]
     if not idxs:
         raise RuntimeError(f"LLM output is not JSON: {s[:300]}")
     s2 = s[min(idxs):]
+
+    # Use JSONDecoder to parse only the first valid JSON value
+    try:
+        decoder = json.JSONDecoder()
+        obj, _ = decoder.raw_decode(s2)
+        return obj
+    except json.JSONDecodeError:
+        pass
+
     return json.loads(s2)
 
 def llm_enrich_batch(

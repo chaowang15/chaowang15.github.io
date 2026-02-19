@@ -18,56 +18,56 @@ title: "Hacker News — Best Stories (2026-02-17)"
 <p class='hn-text-zh'>Claude Sonnet 4.6 是Anthropic最新发布的AI助手版本，增强了推理、编程和安全性。该版本力求提供更可靠的回答和更细腻的理解，展示了大型语言模型能力的快速进步。它体现了AI助手向更实用与伦理方向演进的趋势。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Security,Open Source,Privacy'>
+<div class='hn-card' data-tags='Open Source,Security,Privacy'>
 <div class='hn-body'>
 <p class='hn-title'>(2) <a href='https://blog.tomaszdunia.pl/grapheneos-eng/' target='_blank' rel='noopener noreferrer'>GrapheneOS – Break Free from Google and Apple</a></p>
 <p class='hn-meta'>GrapheneOS —— 摆脱谷歌和苹果的束缚</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 02:02 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>1123 points by to3k</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47045612' target='_blank' rel='noopener noreferrer'>Comments (826)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--red' data-tag='Security'>Security</span> <span class='hn-tag hn-tag--green' data-tag='Open Source'>Open Source</span> <span class='hn-tag hn-tag--red' data-tag='Privacy'>Privacy</span></div>
+<div class='hn-tags'><span class='hn-tag hn-tag--green' data-tag='Open Source'>Open Source</span> <span class='hn-tag hn-tag--red' data-tag='Security'>Security</span> <span class='hn-tag hn-tag--red' data-tag='Privacy'>Privacy</span></div>
 <img class='hn-img' src='https://blog.tomaszdunia.pl/images/grapheneos.png' data-full='https://blog.tomaszdunia.pl/images/grapheneos.png' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>GrapheneOS is an open-source Android-based operating system focused on privacy and security, aiming to provide a Google- and Apple-free mobile experience. By hardening the underlying OS and minimizing data collection, it appeals to users wary of mainstream ecosystems’ surveillance and control. This project highlights growing demand for more transparent, user-controlled smartphone platforms.</p>
 <p class='hn-text-zh'>GrapheneOS 是一个基于安卓的开源操作系统，专注于隐私和安全，致力于提供无谷歌、无苹果的手机体验。通过强化系统安全和减少数据收集，它吸引了对主流生态系统监控和控制心存疑虑的用户。该项目反映了对更透明、用户可控智能手机平台的日益需求。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Design,Science'>
+<div class='hn-card' data-tags='Design'>
 <div class='hn-body'>
 <p class='hn-title'>(3) <a href='https://www.smithsonianmag.com/innovation/this-14-year-old-is-using-origami-to-design-emergency-shelters-that-are-sturdy-cost-efficient-and-easy-to-deploy-180988179/' target='_blank' rel='noopener noreferrer'>14-year-old Miles Wu folded origami pattern that holds 10k times its own weight</a></p>
 <p class='hn-meta'>14岁少年设计摺纸结构，能承载自身体重1万倍</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 16, 2026 / 10:41 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>906 points by bookofjoe</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47038546' target='_blank' rel='noopener noreferrer'>Comments (199)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--pink' data-tag='Design'>Design</span> <span class='hn-tag hn-tag--teal' data-tag='Science'>Science</span></div>
+<div class='hn-tags'><span class='hn-tag hn-tag--pink' data-tag='Design'>Design</span></div>
 <img class='hn-img' src='https://th-thumbnailer.cdn-si-edu.com/wUPPgpDHXxQh_Fz5JBjAfVAkLV4=/fit-in/1600x0/filters:focal(1000x667:1001x668)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/f6/6e/f66edaff-eb72-4b3e-8e69-77bf70f7aa4d/20251025_public-day_wu_miles_0135_lf.jpg' data-full='https://th-thumbnailer.cdn-si-edu.com/wUPPgpDHXxQh_Fz5JBjAfVAkLV4=/fit-in/1600x0/filters:focal(1000x667:1001x668)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/f6/6e/f66edaff-eb72-4b3e-8e69-77bf70f7aa4d/20251025_public-day_wu_miles_0135_lf.jpg' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>At 14, Miles Wu engineered an origami-based pattern capable of supporting 10,000 times its own weight, applied in designing practical emergency shelters. His innovation shows how ancient art principles can intersect with modern engineering for lightweight, durable, and affordable structures. This approach could revolutionize rapid-deployment housing in disaster relief.</p>
 <p class='hn-text-zh'>14岁的Miles Wu设计了一种基于摺纸的结构样式，能承载自身体重的1万倍，用于紧急避难所。这个创新展示了古老艺术与现代工程的结合，实现轻便、耐用且经济的建筑。此方法有望革新灾难救援中的快速部署住房。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Show HN,Open Source,Health'>
+<div class='hn-card' data-tags='Open Source,Health'>
 <div class='hn-body'>
 <p class='hn-title'>(4) <a href='https://news.ycombinator.com/item?id=47049824' target='_blank' rel='noopener noreferrer'>Thank HN: You helped save 33k lives</a></p>
 <p class='hn-meta'>谢谢Hacker News：你们帮助挽救了3.3万人生命</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 09:06 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>896 points by chaseadam17</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47049824' target='_blank' rel='noopener noreferrer'>Comments (89)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--green' data-tag='Show HN'>Show HN</span> <span class='hn-tag hn-tag--green' data-tag='Open Source'>Open Source</span> <span class='hn-tag hn-tag--emerald' data-tag='Health'>Health</span></div>
+<div class='hn-tags'><span class='hn-tag hn-tag--green' data-tag='Open Source'>Open Source</span> <span class='hn-tag hn-tag--emerald' data-tag='Health'>Health</span></div>
 <img class='hn-img' src='https://news.ycombinator.com/y18.svg' data-full='https://news.ycombinator.com/y18.svg' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>The Hacker News community collectively contributed to initiatives that have saved an estimated 33,000 lives, underscoring the power of open-source collaboration and information sharing. From medical technology improvements to public health interventions, their impact highlights the tangible benefits of tech communities beyond coding. It’s a reminder that technology and knowledge exchange can drive profound societal good.</p>
 <p class='hn-text-zh'>Hacker News社区的成员们共同推动了多个项目，估计挽救了3.3万人的生命，凸显了开源协作和信息共享的力量。从医疗技术改进到公共卫生干预，其影响体现了技术社区超越编码的实际价值。这提醒我们技术和知识交流能够带来深远的社会福祉。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Programming'>
+<div class='hn-card' data-tags='Legal'>
 <div class='hn-body'>
 <p class='hn-title'>(5) <a href='https://nvie.com/posts/15-years-later/' target='_blank' rel='noopener noreferrer'>15 years later, Microsoft morged my diagram</a></p>
 <p class='hn-meta'>15年后，微软“篡改”了我的图表</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 22:20 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>596 points by cheeaun</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47057829' target='_blank' rel='noopener noreferrer'>Comments (241)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span></div>
+<div class='hn-tags'><span class='hn-tag hn-tag--orange' data-tag='Legal'>Legal</span></div>
 <img class='hn-img' src='https://nvie.com/img/nvie-small@2x.jpg' data-full='https://nvie.com/img/nvie-small@2x.jpg' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>After 15 years, Microsoft modified a diagram originally created by the author, raising questions about intellectual property and legacy content in tech. The incident illustrates how corporate actions can affect long-standing personal or community-created digital artifacts. It also highlights challenges around attribution and control as software and documentation evolve.</p>
 <p class='hn-text-zh'>15年后，微软修改了作者最初创作的一张图表，引发了关于知识产权和数字遗产的讨论。该事件反映出企业行为如何影响长期存在的个人或社区创作的数字内容，也凸显了软件和文档演进过程中的署名与控制难题。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='AI,Business'>
+<div class='hn-card' data-tags='Business,AI'>
 <div class='hn-body'>
 <p class='hn-title'>(6) <a href='https://fortune.com/2026/02/17/ai-productivity-paradox-ceo-study-robert-solow-information-technology-age/' target='_blank' rel='noopener noreferrer'>Thousands of CEOs just admitted AI had no impact on employment or productivity</a></p>
 <p class='hn-meta'>数千CEO承认AI未提升就业或生产率</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 17:40 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>563 points by virgildotcodes</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47055979' target='_blank' rel='noopener noreferrer'>Comments (473)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span> <span class='hn-tag hn-tag--amber' data-tag='Business'>Business</span></div>
+<div class='hn-tags'><span class='hn-tag hn-tag--amber' data-tag='Business'>Business</span> <span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span></div>
 <img class='hn-img' src='https://fortune.com/img-assets/wp-content/uploads/2026/02/GettyImages-521488522-e1771352623863.jpg?resize=1200,600' data-full='https://fortune.com/img-assets/wp-content/uploads/2026/02/GettyImages-521488522-e1771352623863.jpg?resize=1200,600' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>A large-scale CEO study reveals that despite AI hype, many executives see no clear impact on employment or productivity so far. This highlights the ongoing paradox where technology advances outpace measurable economic benefits. It suggests that realizing AI’s promised gains may require more time, integration, or complementary changes beyond just deploying tools.</p>
 <p class='hn-text-zh'>一项大规模CEO调查显示，尽管AI备受追捧，许多高管尚未看到对就业或生产率的明显影响。这突显出技术发展与经济效益之间的悖论。暗示要实现AI承诺的收益，可能需要更长时间、更深入整合或配套措施，而不仅仅是工具部署。</p>
@@ -95,12 +95,12 @@ title: "Hacker News — Best Stories (2026-02-17)"
 <p class='hn-text-zh'>蓝牙设备常暴露出超出预期的用户信息，通过协议泄露可识别或行为数据。此隐私分析表明，日常蓝牙交互可能被利用追踪用户或推断敏感信息。鉴于蓝牙无处不在，加强防护和提高用户意识对降低风险至关重要。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Legal,Data,Privacy'>
+<div class='hn-card' data-tags='Legal,Privacy,Data'>
 <div class='hn-body'>
 <p class='hn-title'>(9) <a href='https://www.legalcheek.com/2026/02/ministry-of-justice-orders-deletion-of-the-uks-largest-court-reporting-database/' target='_blank' rel='noopener noreferrer'>Ministry of Justice orders deletion of the UK's largest court reporting database</a></p>
 <p class='hn-meta'>司法部下令删除英国最大法院报道数据库</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 16, 2026 / 05:30 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>517 points by harel</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47034713' target='_blank' rel='noopener noreferrer'>Comments (345)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--orange' data-tag='Legal'>Legal</span> <span class='hn-tag hn-tag--violet' data-tag='Data'>Data</span> <span class='hn-tag hn-tag--red' data-tag='Privacy'>Privacy</span></div>
+<div class='hn-tags'><span class='hn-tag hn-tag--orange' data-tag='Legal'>Legal</span> <span class='hn-tag hn-tag--red' data-tag='Privacy'>Privacy</span> <span class='hn-tag hn-tag--violet' data-tag='Data'>Data</span></div>
 <img class='hn-img' src='https://www.legalcheek.com/wp-content/uploads/2024/03/AdobeStock_110501092-1.jpeg' data-full='https://www.legalcheek.com/wp-content/uploads/2024/03/AdobeStock_110501092-1.jpeg' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>The UK Ministry of Justice has ordered the deletion of the country’s largest court reporting database, sparking concern over access to legal information and transparency. The move raises questions about data retention policies and the balance between privacy and public right to information. Legal communities worry this could hinder legal research and public scrutiny of judicial processes.</p>
 <p class='hn-text-zh'>英国司法部已下令删除该国最大的法院报道数据库，引发关于法律信息获取与透明度的担忧。此举引出了数据保留政策及隐私与公众知情权平衡的问题。法律界担心这将妨碍法律研究及公众对司法过程的监督。</p>
@@ -128,12 +128,12 @@ title: "Hacker News — Best Stories (2026-02-17)"
 <p class='hn-text-zh'>CBS因担忧联邦通信委员会反应，未播出与众议员詹姆斯·塔拉里科的采访。此事反映出媒体与监管机构间有关政治内容审查的持续紧张关系，凸显广播媒体在言论自由与监管压力间的平衡难题。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Show HN,Health'>
+<div class='hn-card' data-tags='Show HN'>
 <div class='hn-body'>
 <p class='hn-title'>(12) <a href='https://www.arthurcnops.blog/death-of-show-hn/' target='_blank' rel='noopener noreferrer'>Is Show HN dead? No, but it's drowning</a></p>
 <p class='hn-meta'>Show HN 死了吗？不，但正陷入困境</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 02:29 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>478 points by acnops</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47045804' target='_blank' rel='noopener noreferrer'>Comments (399)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--green' data-tag='Show HN'>Show HN</span> <span class='hn-tag hn-tag--emerald' data-tag='Health'>Health</span></div>
+<div class='hn-tags'><span class='hn-tag hn-tag--green' data-tag='Show HN'>Show HN</span></div>
 <p class='hn-text-en'>The popular hacker community feature Show HN is not dead but is experiencing declining engagement and visibility. Factors include increased noise, changing user behavior, and platform evolution making it harder for quality projects to stand out. This signals challenges for niche tech showcases in maintaining relevance amid growing content saturation.</p>
 <p class='hn-text-zh'>知名黑客社区栏目Show HN虽然未死，但参与度和曝光率正在下降。原因包括信息过载、用户行为改变及平台演进导致优质项目难以脱颖而出。这反映出技术小众展示在内容饱和中保持影响力的挑战。</p>
 </div>
@@ -149,33 +149,33 @@ title: "Hacker News — Best Stories (2026-02-17)"
 <p class='hn-text-zh'>特斯拉在奥斯汀的“机器人出租车”一个月内发生5起车祸，事故率是人类司机的4倍。这对特斯拉机器人出租车的安全性和成熟度提出严重质疑，也反映了全自动驾驶系统仍面临可靠性挑战。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Hardware,Open Source,Gaming'>
+<div class='hn-card' data-tags='Open Source,Gaming'>
 <div class='hn-body'>
 <p class='hn-title'>(14) <a href='https://dolphin-emu.org/blog/2026/02/16/rise-of-the-triforce/' target='_blank' rel='noopener noreferrer'>Rise of the Triforce</a></p>
 <p class='hn-meta'>三角力量的崛起</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 16, 2026 / 13:24 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>428 points by max-m</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47040524' target='_blank' rel='noopener noreferrer'>Comments (77)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--slate' data-tag='Hardware'>Hardware</span> <span class='hn-tag hn-tag--green' data-tag='Open Source'>Open Source</span> <span class='hn-tag hn-tag--purple' data-tag='Gaming'>Gaming</span></div>
+<div class='hn-tags'><span class='hn-tag hn-tag--green' data-tag='Open Source'>Open Source</span> <span class='hn-tag hn-tag--purple' data-tag='Gaming'>Gaming</span></div>
 <img class='hn-img' src='https://dolphin-emu.org/m/user/uploads/zinnia/2026/02/16/triforce-header-social.jpg' data-full='https://dolphin-emu.org/m/user/uploads/zinnia/2026/02/16/triforce-header-social.jpg' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>"Rise of the Triforce" is a progress update on Dolphin Emulator, detailing major achievements and future plans for enhancing GameCube and Wii game emulation. The post showcases technical milestones like improved compatibility and performance optimizations. It reflects the vibrant open-source community dedicated to preserving classic gaming experiences through advanced emulation.</p>
 <p class='hn-text-zh'>《三角力量的崛起》是Dolphin模拟器的最新进展报告，介绍了GameCube和Wii游戏模拟方面的重大成就与未来规划。文中展示了兼容性提升和性能优化等技术里程碑，体现了开放源代码社区通过先进模拟技术保护经典游戏的活力。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='AI,Open Source'>
+<div class='hn-card' data-tags='Open Source,AI'>
 <div class='hn-body'>
 <p class='hn-title'>(15) <a href='https://www.jeffgeerling.com/blog/2026/ai-is-destroying-open-source/' target='_blank' rel='noopener noreferrer'>AI is destroying open source, and it's not even good yet</a></p>
 <p class='hn-meta'>AI正在摧毁开源，且还远不成熟</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 16, 2026 / 16:26 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>406 points by VorpalWay</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47042136' target='_blank' rel='noopener noreferrer'>Comments (332)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span> <span class='hn-tag hn-tag--green' data-tag='Open Source'>Open Source</span></div>
+<div class='hn-tags'><span class='hn-tag hn-tag--green' data-tag='Open Source'>Open Source</span> <span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span></div>
 <p class='hn-text-en'>The rapid influx of AI-generated content is disrupting open source ecosystems, often flooding repositories with low-quality or redundant code. Despite AI’s potential, current implementations risk undermining community standards, maintainability, and collaboration culture. This warns that harnessing AI in open source requires careful curation and new governance models.</p>
 <p class='hn-text-zh'>AI生成内容的快速涌入扰乱了开源生态，常导致大量低质量或重复代码充斥仓库。尽管AI具潜力，但现有应用风险削弱社区标准、维护性和协作氛围。提醒我们要在开源中利用AI，必须审慎管理和创新治理模式。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Open Source,Show HN,Privacy'>
+<div class='hn-card' data-tags='Open Source,Web,Privacy,Show HN'>
 <div class='hn-body'>
 <p class='hn-title'>(16) <a href='https://asteroidos.org/news/2-0-release/index.html' target='_blank' rel='noopener noreferrer'>Show HN: AsteroidOS 2.0 – Nobody asked, we shipped anyway</a></p>
 <p class='hn-meta'>Show HN：AsteroidOS 2.0 —— 无人问津，我们照样发布</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 11:24 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>403 points by moWerk</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47051852' target='_blank' rel='noopener noreferrer'>Comments (50)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--green' data-tag='Open Source'>Open Source</span> <span class='hn-tag hn-tag--green' data-tag='Show HN'>Show HN</span> <span class='hn-tag hn-tag--red' data-tag='Privacy'>Privacy</span></div>
+<div class='hn-tags'><span class='hn-tag hn-tag--green' data-tag='Open Source'>Open Source</span> <span class='hn-tag hn-tag--cyan' data-tag='Web'>Web</span> <span class='hn-tag hn-tag--red' data-tag='Privacy'>Privacy</span> <span class='hn-tag hn-tag--green' data-tag='Show HN'>Show HN</span></div>
 <img class='hn-img' src='https://asteroidos.org/public/img/logo.png' data-full='https://asteroidos.org/public/img/logo.png' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>AsteroidOS 2.0 is a new release of the open-source smartwatch operating system emphasizing privacy and customization. Despite limited mainstream attention, the update adds meaningful features and fixes, reflecting a community-driven commitment to improving alternatives to proprietary watch OSs. It exemplifies the persistence of niche open projects beyond hype cycles.</p>
 <p class='hn-text-zh'>AsteroidOS 2.0是一个注重隐私和定制的开源智能手表操作系统新版本。尽管主流关注较少，更新带来了实质性功能和修复，体现了社区推动替代专有手表系统的决心。展示了小众开源项目持续发展的韧性。</p>
@@ -203,12 +203,12 @@ title: "Hacker News — Best Stories (2026-02-17)"
 <p class='hn-text-zh'>英国Discord用户在不知情的情况下参与了与投资人彼得·蒂尔相关的数据采集实验，引发隐私和伦理争议。这一揭露凸显了流行社交平台被用于隐秘研究或数据收集的趋势，强调数字数据操作中需加强明确同意和透明度。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Hardware,Business,AI,DevOps'>
+<div class='hn-card' data-tags='Hardware,AI,DevOps'>
 <div class='hn-body'>
 <p class='hn-title'>(19) <a href='https://mashable.com/article/ai-hard-drive-hdd-shortages-western-digital-sold-out' target='_blank' rel='noopener noreferrer'>Thanks a lot, AI: Hard drives are sold out for the year, says WD</a></p>
 <p class='hn-meta'>感谢AI：西部数据称硬盘全年售罄</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 16, 2026 / 04:28 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>373 points by dClauzel</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47034192' target='_blank' rel='noopener noreferrer'>Comments (306)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--slate' data-tag='Hardware'>Hardware</span> <span class='hn-tag hn-tag--amber' data-tag='Business'>Business</span> <span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span> <span class='hn-tag hn-tag--indigo' data-tag='DevOps'>DevOps</span></div>
+<div class='hn-tags'><span class='hn-tag hn-tag--slate' data-tag='Hardware'>Hardware</span> <span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span> <span class='hn-tag hn-tag--indigo' data-tag='DevOps'>DevOps</span></div>
 <img class='hn-img' src='https://helios-i.mashable.com/imagery/articles/03BMp5tylVs9DJJavYCVFKV/hero-image.fill.size_1200x675.v1771180235.jpg' data-full='https://helios-i.mashable.com/imagery/articles/03BMp5tylVs9DJJavYCVFKV/hero-image.fill.size_1200x675.v1771180235.jpg' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>Western Digital announced that hard drives are sold out for the year, largely due to increased demand driven by AI workloads and data centers. This shortage reflects broader supply-demand imbalances as AI infrastructure scales rapidly. It highlights how AI growth can stress traditional hardware supply chains in unexpected ways.</p>
 <p class='hn-text-zh'>西部数据表示硬盘全年已售罄，主要因AI工作负载和数据中心需求激增。此短缺反映出随着AI基础设施快速扩展，供需失衡加剧，显示AI发展对传统硬件供应链带来意想不到的压力。</p>
@@ -225,23 +225,23 @@ title: "Hacker News — Best Stories (2026-02-17)"
 <p class='hn-text-zh'>Gentoo Linux开始在Codeberg上托管代码仓库，后者是面向社区、注重隐私的主流代码托管替代品。此举反映开源项目越来越倾向于选择隐私导向、分散的托管服务，体现出向非企业主导生态系统多元化基础设施的努力。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Hardware,Programming,Open Source'>
+<div class='hn-card' data-tags='Open Source,Hardware,Programming'>
 <div class='hn-body'>
 <p class='hn-title'>(21) <a href='https://github.com/Zaneham/BarraCUDA' target='_blank' rel='noopener noreferrer'>BarraCUDA Open-source CUDA compiler targeting AMD GPUs</a></p>
 <p class='hn-meta'>BarraCUDA：面向AMD GPU的开源CUDA编译器</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 12:35 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>357 points by rurban</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47052941' target='_blank' rel='noopener noreferrer'>Comments (150)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--slate' data-tag='Hardware'>Hardware</span> <span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span> <span class='hn-tag hn-tag--green' data-tag='Open Source'>Open Source</span></div>
+<div class='hn-tags'><span class='hn-tag hn-tag--green' data-tag='Open Source'>Open Source</span> <span class='hn-tag hn-tag--slate' data-tag='Hardware'>Hardware</span> <span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span></div>
 <img class='hn-img' src='https://opengraph.githubassets.com/fb97ed203dbe5cc0735a37aa23575da3bba4f44b180851441d017343089e2533/Zaneham/BarraCUDA' data-full='https://opengraph.githubassets.com/fb97ed203dbe5cc0735a37aa23575da3bba4f44b180851441d017343089e2533/Zaneham/BarraCUDA' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>BarraCUDA is an open-source CUDA compiler targeting AMD GPUs, enabling developers to run CUDA code on non-NVIDIA hardware. This project broadens accessibility to CUDA-based acceleration beyond NVIDIA, a significant step for heterogeneous computing. It empowers AMD GPU owners with expanded tooling and cross-platform compatibility.</p>
 <p class='hn-text-zh'>BarraCUDA 是一款面向AMD GPU的开源CUDA编译器，支持开发者在非NVIDIA硬件上运行CUDA代码。该项目扩大了CUDA加速的硬件适用范围，对于异构计算具有重要意义，赋予AMD GPU用户更多工具和跨平台兼容性。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Science,Data,AI'>
+<div class='hn-card' data-tags='AI,Data'>
 <div class='hn-body'>
 <p class='hn-title'>(22) <a href='https://arxiv.org/abs/2602.12670' target='_blank' rel='noopener noreferrer'>SkillsBench: Benchmarking how well agent skills work across diverse tasks</a></p>
 <p class='hn-meta'>SkillsBench：跨多样任务评测代理技能表现</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 16, 2026 / 13:15 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>355 points by mustaphah</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47040430' target='_blank' rel='noopener noreferrer'>Comments (162)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--teal' data-tag='Science'>Science</span> <span class='hn-tag hn-tag--violet' data-tag='Data'>Data</span> <span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span></div>
+<div class='hn-tags'><span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span> <span class='hn-tag hn-tag--violet' data-tag='Data'>Data</span></div>
 <img class='hn-img' src='https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png' data-full='https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>SkillsBench introduces a benchmark framework to systematically evaluate AI agent skills across a diverse range of tasks. It aims to better understand how different capabilities generalize beyond specialized scenarios, providing insights into agent robustness and versatility. This work supports advancing more reliable and adaptable AI agents.</p>
 <p class='hn-text-zh'>SkillsBench提出了一套评测框架，用于系统性评估AI代理在多样化任务中的技能表现。旨在了解各种能力在专门场景外的泛化效果，为代理的鲁棒性和多功能性提供洞察，助推更可靠适应性强的AI代理发展。</p>
@@ -258,12 +258,12 @@ title: "Hacker News — Best Stories (2026-02-17)"
 <p class='hn-text-zh'>作者认为“特权”一词在讨论中常被滥用，引发误解和无效交流。建议用更清晰、精准的语言重新表达“特权”，以提升沟通效果，促进建设性对话。该观点推动更为深思熟虑的社会动态讨论。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Show HN'>
+<div class='hn-card' data-tags='Security'>
 <div class='hn-body'>
 <p class='hn-title'>(24) <a href='https://hackmyclaw.com/' target='_blank' rel='noopener noreferrer'>HackMyClaw</a></p>
 <p class='hn-meta'>HackMyClaw</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 08:48 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>327 points by hentrep</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47049573' target='_blank' rel='noopener noreferrer'>Comments (164)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--green' data-tag='Show HN'>Show HN</span></div>
+<div class='hn-tags'><span class='hn-tag hn-tag--red' data-tag='Security'>Security</span></div>
 <p class='hn-text-en'>HackMyClaw is an interactive hacking challenge platform designed to test and improve cybersecurity skills. It provides users with hands-on environments to practice exploitation techniques and problem-solving. The platform is a resource for learners aiming to deepen practical knowledge in ethical hacking.</p>
 <p class='hn-text-zh'>HackMyClaw 是一个交互式攻击挑战平台，旨在测试和提升网络安全技能。用户可在实操环境中练习漏洞利用和问题解决，是想深化道德黑客实战知识者的重要资源。</p>
 </div>
@@ -299,12 +299,12 @@ title: "Hacker News — Best Stories (2026-02-17)"
 <p class='hn-text-zh'>特斯拉在英国、西班牙、德国等欧洲主要市场的销量大幅下降，降幅从英国的55%到挪威的93%不等。如此大幅滑坡反映出特斯拉在这些市场面临越来越激烈的竞争和潜在的市场饱和。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Show HN,Open Source,Programming,Privacy'>
+<div class='hn-card' data-tags='Open Source,Privacy,Show HN'>
 <div class='hn-body'>
 <p class='hn-title'>(28) <a href='https://github.com/zachlatta/freeflow' target='_blank' rel='noopener noreferrer'>Show HN: Free alternative to Wispr Flow, Superwhisper, and Monologue</a></p>
 <p class='hn-meta'>展示 HN：Wispr Flow、Superwhisper 和 Monologue 的免费替代品</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 16, 2026 / 13:10 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>267 points by zachlatta</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47040375' target='_blank' rel='noopener noreferrer'>Comments (124)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--green' data-tag='Show HN'>Show HN</span> <span class='hn-tag hn-tag--green' data-tag='Open Source'>Open Source</span> <span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span> <span class='hn-tag hn-tag--red' data-tag='Privacy'>Privacy</span></div>
+<div class='hn-tags'><span class='hn-tag hn-tag--green' data-tag='Open Source'>Open Source</span> <span class='hn-tag hn-tag--red' data-tag='Privacy'>Privacy</span> <span class='hn-tag hn-tag--green' data-tag='Show HN'>Show HN</span></div>
 <img class='hn-img' src='https://opengraph.githubassets.com/d2653e5a808aa41ef1c2028f55debc0c30d1992f185d97bb6cd8bbe93cb0e648/zachlatta/freeflow' data-full='https://opengraph.githubassets.com/d2653e5a808aa41ef1c2028f55debc0c30d1992f185d97bb6cd8bbe93cb0e648/zachlatta/freeflow' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>A new open-source project offers a free alternative to popular communication tools like Wispr Flow, Superwhisper, and Monologue. It aims to provide comparable functionality without subscription fees, appealing to privacy-conscious users and developers.</p>
 <p class='hn-text-zh'>一款新的开源项目提供了Wispr Flow、Superwhisper和Monologue等流行通信工具的免费替代品。它致力于在无订阅费用的情况下，向注重隐私的用户和开发者提供类似功能。</p>
@@ -342,23 +342,23 @@ title: "Hacker News — Best Stories (2026-02-17)"
 <p class='hn-text-zh'>谷歌公共证书颁发机构出现故障，影响了数字证书的颁发和验证。此类中断可能波及安全网页浏览及依赖HTTPS证书的服务，凸显了对大型证书机构的依赖风险。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Web,Security,Finance'>
+<div class='hn-card' data-tags='Security,Finance'>
 <div class='hn-body'>
 <p class='hn-title'>(32) <a href='https://jkap.io/token-anxiety-or-a-slot-machine-by-any-other-name/' target='_blank' rel='noopener noreferrer'>"Token anxiety", a slot machine by any other name</a></p>
 <p class='hn-meta'>“代币焦虑”：另一种形式的老虎机</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 16, 2026 / 10:23 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>258 points by presbyterian</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47038318' target='_blank' rel='noopener noreferrer'>Comments (229)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--cyan' data-tag='Web'>Web</span> <span class='hn-tag hn-tag--red' data-tag='Security'>Security</span> <span class='hn-tag hn-tag--amber' data-tag='Finance'>Finance</span></div>
+<div class='hn-tags'><span class='hn-tag hn-tag--red' data-tag='Security'>Security</span> <span class='hn-tag hn-tag--amber' data-tag='Finance'>Finance</span></div>
 <img class='hn-img' src='https://files.crime.team/eggbug-profile.jpg' data-full='https://files.crime.team/eggbug-profile.jpg' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>The concept of 'token anxiety' draws a parallel between digital token mechanics and slot machine gambling, highlighting how reward systems can exploit psychological vulnerabilities. This analogy raises concerns about addictive gamification in modern apps and blockchain projects.</p>
 <p class='hn-text-zh'>“代币焦虑”这一概念将数字代币机制与老虎机赌博相提并论，强调奖励系统如何利用心理弱点。这一类比引发了对现代应用和区块链项目中成瘾性游戏化的关注。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Politics'>
+<div class='hn-card' data-tags='Security,Politics'>
 <div class='hn-body'>
 <p class='hn-title'>(33) <a href='https://kotaku.com/discord-alternative-teamspeak-age-verification-check-rivals-2000669693' target='_blank' rel='noopener noreferrer'>Discord Rival Gets Overwhelmed by Exodus of Players Fleeing Age-Verification</a></p>
 <p class='hn-meta'>Discord 竞争对手因年龄验证引发用户大规模流失</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 09:40 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>245 points by thunderbong</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47050376' target='_blank' rel='noopener noreferrer'>Comments (134)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--orange' data-tag='Politics'>Politics</span></div>
+<div class='hn-tags'><span class='hn-tag hn-tag--red' data-tag='Security'>Security</span> <span class='hn-tag hn-tag--orange' data-tag='Politics'>Politics</span></div>
 <img class='hn-img' src='https://kotaku.com/app/uploads/2026/02/teamspeak1.jpg' data-full='https://kotaku.com/app/uploads/2026/02/teamspeak1.jpg' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>An alternative to Discord implemented age-verification measures, which triggered a significant exodus of users seeking to avoid the process. This underscores the challenges platforms face balancing regulatory compliance with user retention and experience.</p>
 <p class='hn-text-zh'>一个Discord的竞争平台推行了年龄验证措施，导致大量用户为避开验证纷纷离开。此事凸显了平台在符合法规和保持用户留存及体验间的艰难平衡。</p>
@@ -375,78 +375,78 @@ title: "Hacker News — Best Stories (2026-02-17)"
 <p class='hn-text-zh'>建造隧道涉及地质勘察、结构支撑和安全等复杂工程难题。这份实用指南为对隧道建设感兴趣的人提供了关键步骤和重要见解。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Web,Programming'>
+<div class='hn-card' data-tags='Design'>
 <div class='hn-body'>
 <p class='hn-title'>(35) <a href='https://gist.github.com/jake-stewart/0a8ea46159a7da2c808e5be2177e1783' target='_blank' rel='noopener noreferrer'>Terminals should generate the 256-color palette</a></p>
 <p class='hn-meta'>终端应自动生成256色调色板</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 22:19 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>230 points by tosh</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47057824' target='_blank' rel='noopener noreferrer'>Comments (71)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--cyan' data-tag='Web'>Web</span> <span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span></div>
+<div class='hn-tags'><span class='hn-tag hn-tag--pink' data-tag='Design'>Design</span></div>
 <img class='hn-img' src='https://github.githubassets.com/assets/gist-og-image-54fd7dc0713e.png' data-full='https://github.githubassets.com/assets/gist-og-image-54fd7dc0713e.png' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>The proposal suggests terminals should dynamically generate the 256-color palette to ensure consistent and optimized color rendering across environments. This could improve terminal aesthetics and user experience by standardizing color output.</p>
 <p class='hn-text-zh'>该建议认为终端应动态生成256色调色板，以保证不同环境下颜色渲染的一致性和优化。这将通过标准化颜色输出提升终端美观度和用户体验。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Open Source,DevOps,Security,Privacy'>
+<div class='hn-card' data-tags='Open Source,Security,Privacy'>
 <div class='hn-body'>
 <p class='hn-title'>(36) <a href='https://blog.dmcc.io/journal/xmpp-turn-stun-coturn-prosody/' target='_blank' rel='noopener noreferrer'>Running My Own XMPP Server</a></p>
 <p class='hn-meta'>自建XMPP服务器实战</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 16, 2026 / 05:39 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>230 points by speckx</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47034801' target='_blank' rel='noopener noreferrer'>Comments (144)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--green' data-tag='Open Source'>Open Source</span> <span class='hn-tag hn-tag--indigo' data-tag='DevOps'>DevOps</span> <span class='hn-tag hn-tag--red' data-tag='Security'>Security</span> <span class='hn-tag hn-tag--red' data-tag='Privacy'>Privacy</span></div>
+<div class='hn-tags'><span class='hn-tag hn-tag--green' data-tag='Open Source'>Open Source</span> <span class='hn-tag hn-tag--red' data-tag='Security'>Security</span> <span class='hn-tag hn-tag--red' data-tag='Privacy'>Privacy</span></div>
 <img class='hn-img' src='https://blog.dmcc.io/img/android-icon-192x192.png' data-full='https://blog.dmcc.io/img/android-icon-192x192.png' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>Running a personal XMPP server involves configuring components like Prosody, TURN/STUN servers, and security settings to enable real-time messaging. This hands-on approach offers better privacy and control compared to mainstream chat services.</p>
 <p class='hn-text-zh'>搭建个人XMPP服务器需配置Prosody、TURN/STUN服务器及安全设置，实现实时消息传递。这种动手部署相比主流聊天服务提供了更好的隐私与控制权。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Show HN'>
+<div class='hn-card' data-tags='Culture,Show HN'>
 <div class='hn-body'>
 <p class='hn-title'>(37) <a href='https://berksoft.ca/gol/' target='_blank' rel='noopener noreferrer'>Show HN: I wrote a technical history book on Lisp</a></p>
 <p class='hn-meta'>展示 HN：我写了一本关于 Lisp 的技术史书</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 07:43 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>221 points by cdegroot</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47048733' target='_blank' rel='noopener noreferrer'>Comments (79)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--green' data-tag='Show HN'>Show HN</span></div>
+<div class='hn-tags'><span class='hn-tag hn-tag--rose' data-tag='Culture'>Culture</span> <span class='hn-tag hn-tag--green' data-tag='Show HN'>Show HN</span></div>
 <img class='hn-img' src='https://berksoft.ca/gol/ebook.png' data-full='https://berksoft.ca/gol/ebook.png' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>A new book details the technical history of Lisp, tracing its evolution and impact on programming languages. Such retrospectives help developers appreciate Lisp’s innovations and their relevance to modern computing.</p>
 <p class='hn-text-zh'>一本新书深入讲述了Lisp的技术发展史，追溯其演变过程及对编程语言的影响。这类回顾有助于开发者理解Lisp的创新及其对现代计算的重要性。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Politics,Legal'>
+<div class='hn-card' data-tags='Politics'>
 <div class='hn-body'>
 <p class='hn-title'>(38) <a href='https://arstechnica.com/tech-policy/2026/02/stephen-colbert-says-cbs-forbid-interview-of-democrat-because-of-fcc-threat/' target='_blank' rel='noopener noreferrer'>Stephen Colbert says CBS forbid interview of Democrat because of FCC threat</a></p>
 <p class='hn-meta'>斯蒂芬·科尔伯特称CBS因FCC威胁禁止采访民主党人</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 11:20 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>208 points by voxadam</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47051793' target='_blank' rel='noopener noreferrer'>Comments (65)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--orange' data-tag='Politics'>Politics</span> <span class='hn-tag hn-tag--orange' data-tag='Legal'>Legal</span></div>
+<div class='hn-tags'><span class='hn-tag hn-tag--orange' data-tag='Politics'>Politics</span></div>
 <img class='hn-img' src='https://cdn.arstechnica.net/wp-content/uploads/2026/02/stephen-colbert-1152x648-1771352733.jpg' data-full='https://cdn.arstechnica.net/wp-content/uploads/2026/02/stephen-colbert-1152x648-1771352733.jpg' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>Stephen Colbert alleged that CBS blocked an interview with a Democratic politician under pressure from the FCC. This incident raises questions about corporate media's susceptibility to regulatory intimidation and its impact on free political discourse.</p>
 <p class='hn-text-zh'>斯蒂芬·科尔伯特称CBS在FCC压力下阻止采访一位民主党人。这一事件引发了对企业媒体受监管威胁影响和对自由政治话语空间限制的担忧。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Programming,AI,Hardware'>
+<div class='hn-card' data-tags='Programming,Hardware'>
 <div class='hn-body'>
 <p class='hn-title'>(39) <a href='https://www.vectorware.com/blog/async-await-on-gpu/' target='_blank' rel='noopener noreferrer'>Async/Await on the GPU</a></p>
 <p class='hn-meta'>GPU上的 Async/Await 实现</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 08:53 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>205 points by Philpax</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47049628' target='_blank' rel='noopener noreferrer'>Comments (53)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span> <span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span> <span class='hn-tag hn-tag--slate' data-tag='Hardware'>Hardware</span></div>
+<div class='hn-tags'><span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span> <span class='hn-tag hn-tag--slate' data-tag='Hardware'>Hardware</span></div>
 <img class='hn-img' src='https://www.vectorware.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Fvectorware_logo.6d5f5210.png&w=640&q=75&dpl=dpl_AM1C5nwhzYXTUSarDfD6tMzFtB8g' data-full='https://www.vectorware.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Fvectorware_logo.6d5f5210.png&w=640&q=75&dpl=dpl_AM1C5nwhzYXTUSarDfD6tMzFtB8g' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>Implementing async/await semantics on GPUs introduces new ways to handle concurrency and asynchronous execution within massively parallel processors. This advancement can simplify coding complex GPU workflows and improve performance efficiency.</p>
 <p class='hn-text-zh'>在GPU上实现async/await语义，为大规模并行处理器内的并发和异步执行提供了新途径。这一技术进展能简化复杂GPU工作流的开发并提升性能效率。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Data'>
+<div class='hn-card' data-tags='AI'>
 <div class='hn-body'>
 <p class='hn-title'>(40) <a href='https://arxiv.org/abs/2602.11988' target='_blank' rel='noopener noreferrer'>Evaluating AGENTS.md: are they helpful for coding agents?</a></p>
 <p class='hn-meta'>评估AGENTS.md：它们对编码代理有帮助吗？</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 16, 2026 / 04:15 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>194 points by mustaphah</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47034087' target='_blank' rel='noopener noreferrer'>Comments (154)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--violet' data-tag='Data'>Data</span></div>
+<div class='hn-tags'><span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span></div>
 <img class='hn-img' src='https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png' data-full='https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>AGENTS.md aims to standardize prompts for coding agents, but its effectiveness in improving agent behavior remains under evaluation. Understanding its strengths and limitations is key for advancing autonomous coding assistants.</p>
 <p class='hn-text-zh'>AGENTS.md旨在规范编码代理的提示设计，但其提升代理行为的效果仍在评估中。了解其优缺点对于推动自主编码助手的发展至关重要。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Culture'>
+<div class='hn-card' data-tags='Business'>
 <div class='hn-body'>
 <p class='hn-title'>(41) <a href='https://surfingcomplexity.blog/2026/02/16/poor-deming-never-stood-a-chance/' target='_blank' rel='noopener noreferrer'>Poor Deming never stood a chance</a></p>
 <p class='hn-meta'>可怜的德明注定无缘成功</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 16, 2026 / 18:13 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>192 points by todsacerdoti</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47042895' target='_blank' rel='noopener noreferrer'>Comments (129)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--rose' data-tag='Culture'>Culture</span></div>
+<div class='hn-tags'><span class='hn-tag hn-tag--amber' data-tag='Business'>Business</span></div>
 <img class='hn-img' src='https://surfingcomplexity.blog/wp-content/uploads/2026/02/b96a1118-951d-4d71-803c-acf764525ece_1_201_a.jpg' data-full='https://surfingcomplexity.blog/wp-content/uploads/2026/02/b96a1118-951d-4d71-803c-acf764525ece_1_201_a.jpg' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>The post reflects on W. Edwards Deming's management philosophies and why his approaches struggled to gain traction in certain business cultures. It offers insight into the challenges of implementing quality management principles in corporate environments.</p>
 <p class='hn-text-zh'>文章回顾了德明的管理理念及其在部分商业文化中难以推广的原因。提供了对企业环境中推行质量管理原则挑战的深刻见解。</p>
@@ -495,12 +495,12 @@ title: "Hacker News — Best Stories (2026-02-17)"
 <p class='hn-text-zh'>文章直接针对大型语言模型，讨论其局限性、常见缺陷及亟需改进之处。为AI开发者提供技术反思，推动LLM安全性和效能提升。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Hardware,AI'>
+<div class='hn-card' data-tags='Hardware'>
 <div class='hn-body'>
 <p class='hn-title'>(46) <a href='https://www.heise.de/en/news/WD-and-Seagate-confirm-Hard-drives-for-2026-sold-out-11178917.html' target='_blank' rel='noopener noreferrer'>WD and Seagate confirm: Hard drives sold out for 2026</a></p>
 <p class='hn-meta'>WD和希捷确认：2026年硬盘已售罄</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 01:38 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>165 points by layer8</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47045459' target='_blank' rel='noopener noreferrer'>Comments (184)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--slate' data-tag='Hardware'>Hardware</span> <span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span></div>
+<div class='hn-tags'><span class='hn-tag hn-tag--slate' data-tag='Hardware'>Hardware</span></div>
 <img class='hn-img' src='https://heise.cloudimg.io/bound/1200x1200/q85.png-lossy-85.webp-lossy-85.foil1/_www-heise-de_/imgs/18/5/0/2/8/9/8/8/shutterstock_1489921727-f9a12dae7485f3c3.jpg' data-full='https://heise.cloudimg.io/bound/1200x1200/q85.png-lossy-85.webp-lossy-85.foil1/_www-heise-de_/imgs/18/5/0/2/8/9/8/8/shutterstock_1489921727-f9a12dae7485f3c3.jpg' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>Western Digital and Seagate confirm that their hard drive inventory is fully booked through 2026, indicating supply constraints amid growing storage demand. This shortage could impact industries relying on affordable mass storage solutions.</p>
 <p class='hn-text-zh'>西部数据和希捷确认其硬盘库存已售罄至2026年，显示在存储需求增长下供应紧张。此缺货可能影响依赖廉价大容量存储的行业。</p>
@@ -528,12 +528,12 @@ title: "Hacker News — Best Stories (2026-02-17)"
 <p class='hn-text-zh'>一个Xbox用户界面作品集网站展示了游戏平台界面和用户体验的创新设计，为专注主机平台的UI/UX设计师提供灵感。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='AI,Programming'>
+<div class='hn-card' data-tags='AI'>
 <div class='hn-body'>
 <p class='hn-title'>(49) <a href='https://anthony.noided.media/blog/ai/programming/2026/02/14/i-guess-i-kinda-get-why-people-hate-ai.html' target='_blank' rel='noopener noreferrer'>I guess I kinda get why people hate AI</a></p>
 <p class='hn-meta'>我大致理解为何人们讨厌 AI</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 16, 2026 / 09:22 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>163 points by NM-Super</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47037628' target='_blank' rel='noopener noreferrer'>Comments (259)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span> <span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span></div>
+<div class='hn-tags'><span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span></div>
 <p class='hn-text-en'>The author explores common frustrations and fears surrounding AI, capturing the nuanced reasons why some people have negative sentiments. This reflection helps frame ongoing societal debates about AI's role and impact.</p>
 <p class='hn-text-zh'>作者探讨了人们对AI的普遍挫败感和恐惧，抓住了负面情绪背后的复杂原因。这一思考有助于理解关于AI角色和影响的社会讨论。</p>
 </div>

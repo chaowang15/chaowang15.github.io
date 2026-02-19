@@ -282,37 +282,53 @@ def supplement_tags_by_keywords(item: Dict) -> List[str]:
 
 
 def _safe_json_loads(text: str) -> Any:
+    """Parse JSON from LLM output, handling common issues like
+    markdown fences, extra trailing data, and concatenated objects."""
     s = text.strip()
+
+    # Strip markdown code fences if present
+    if s.startswith("```"):
+        lines = s.split("\n")
+        # Remove first line (```json) and last line (```)
+        if lines[-1].strip() == "```":
+            lines = lines[1:-1]
+        else:
+            lines = lines[1:]
+        s = "\n".join(lines).strip()
+
     try:
         return json.loads(s)
-    except Exception:
+    except json.JSONDecodeError:
         pass
+
+    # Locate the first JSON token
     idxs = [i for i in [s.find("["), s.find("{")] if i != -1]
     if not idxs:
         raise RuntimeError(f"LLM output is not JSON: {s[:300]}")
     s2 = s[min(idxs):]
+
+    # Use JSONDecoder to parse only the first valid JSON value
+    # This handles "Extra data" errors from concatenated output
+    try:
+        decoder = json.JSONDecoder()
+        obj, _ = decoder.raw_decode(s2)
+        return obj
+    except json.JSONDecodeError:
+        pass
+
     return json.loads(s2)
 
 
-def generate_tags_for_items(
-    items: List[Dict],
-    model: str = "gpt-4.1-nano",
+def _call_tag_llm(
+    input_payload: List[Dict],
+    model: str,
 ) -> Dict[int, List[str]]:
     """
-    Given a list of items (each with title_en, url, summary_en, and an index),
-    returns a dict mapping item index -> list of tag strings.
+    Call the LLM to classify a batch of items into tags.
+    input_payload: list of {"idx": int, "title_en": str, "url": str, "summary_en": str}
+    Returns: dict mapping idx -> list of tag strings.
     """
     client = OpenAI()
-
-    input_payload = []
-    for idx, it in enumerate(items):
-        input_payload.append({
-            "idx": idx,
-            "title_en": it.get("title_en", ""),
-            "url": it.get("url", ""),
-            "summary_en": it.get("summary_en", ""),
-        })
-
     allowed_str = ", ".join(ALLOWED_TAGS)
 
     prompt = f"""You are a news classifier. For each Hacker News story below, assign 1-3 tags from this EXACT list:
@@ -337,6 +353,9 @@ Input:
         input=prompt,
     )
 
+    if resp.output is None:
+        raise RuntimeError(f"LLM returned None output. Status: {getattr(resp, 'status', 'unknown')}")
+
     text = resp.output_text.strip()
     data = _safe_json_loads(text)
 
@@ -351,15 +370,45 @@ Input:
         raw_tags = obj.get("tags", [])
         if not isinstance(raw_tags, list):
             continue
-        # Normalize and filter to allowed tags
         clean_tags = []
         for t in raw_tags:
             t_lower = str(t).strip().lower()
             if t_lower in TAG_SET:
                 clean_tags.append(TAG_CANONICAL[t_lower])
         if not clean_tags:
-            clean_tags = ["Programming"]  # safe fallback
+            clean_tags = ["Programming"]
         result[idx] = clean_tags[:3]
+
+    return result
+
+
+def generate_tags_for_items(
+    items: List[Dict],
+    model: str = "gpt-4.1-nano",
+) -> Dict[int, List[str]]:
+    """
+    Given a list of items (each with title_en, url, summary_en, and an index),
+    returns a dict mapping item index -> list of tag strings.
+    Processes in batches of 25 to avoid output truncation.
+    """
+    BATCH_SIZE = 25
+
+    # Build full payload with global indices
+    full_payload = []
+    for idx, it in enumerate(items):
+        full_payload.append({
+            "idx": idx,
+            "title_en": it.get("title_en", ""),
+            "url": it.get("url", ""),
+            "summary_en": it.get("summary_en", ""),
+        })
+
+    result: Dict[int, List[str]] = {}
+
+    for batch_start in range(0, len(full_payload), BATCH_SIZE):
+        batch = full_payload[batch_start:batch_start + BATCH_SIZE]
+        batch_result = _call_tag_llm(batch, model=model)
+        result.update(batch_result)
 
     return result
 
