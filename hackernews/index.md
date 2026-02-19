@@ -2,6 +2,7 @@
 layout: hn
 title: "Hacker News (Daily)"
 ---
+
 <h1 class='hn-h1'>Hacker News (Daily)</h1>
 <p class='hn-subtitle'>Daily scraped <b>Hacker News — Best Stories</b>. · Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
 <hr class='hn-rule'/>
