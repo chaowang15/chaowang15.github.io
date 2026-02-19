@@ -4,550 +4,500 @@ title: "Hacker News — Best Stories (2026-02-18)"
 ---
 <h1 class='hn-h1'>Hacker News — Best Stories (2026-02-18)</h1>
 <p class='hn-nav'><a class='hn-prev' href='/hackernews/2026/02/17/best_stories_02172026'>‹ Prev day</a><a class='hn-back' href='/hackernews/'>← Index</a><a class='hn-next' href='/hackernews/2026/02/19/best_stories_02192026'>Next day ›</a></p>
-<p class='hn-subtitle'>Scraped at 00:11, February 19, 2026 (PST)</p>
+<p class='hn-subtitle'>Scraped at 04:55, February 19, 2026 (PST)</p>
 <hr class='hn-rule'/>
 <div class='hn-list'>
-<div class='hn-card' data-tags='AI'>
+<div class='hn-card' data-tags=''>
 <div class='hn-body'>
 <p class='hn-title'>(1) <a href='https://www.anthropic.com/news/claude-sonnet-4-6' target='_blank' rel='noopener noreferrer'>Claude Sonnet 4.6</a></p>
-<p class='hn-meta'>Claude Sonnet 4.6发布</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 09:48 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>1303 points by adocomplete</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47050488' target='_blank' rel='noopener noreferrer'>Comments (1181)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span></div>
+<p class='hn-meta'>Claude Sonnet 4.6</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 09:48 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>1314 points by adocomplete</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47050488' target='_blank' rel='noopener noreferrer'>Comments (1193)</a></p>
 <img class='hn-img' src='https://www.anthropic.com/api/opengraph-illustration?name=Node-Head-Constellation&backgroundColor=clay' data-full='https://www.anthropic.com/api/opengraph-illustration?name=Node-Head-Constellation&backgroundColor=clay' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>Anthropic has released Claude Sonnet 4.6, an updated version of their AI assistant designed to improve performance and usability. This version likely includes enhancements in natural language understanding and safety mechanisms, continuing Anthropic’s focus on responsible AI deployment.</p>
-<p class='hn-text-zh'>Anthropic发布了Claude Sonnet 4.6，这是他们的AI助手的新版本，提升了性能和易用性。该版本可能增强了自然语言理解和安全机制，体现了Anthropic在负责任AI应用上的持续努力。</p>
+<p class='hn-text-en'>Anthropic released Claude Sonnet 4.6, an incremental update to their conversational AI series with improvements to reliability and safety. Expect modest gains in factuality and guardrails aimed at reducing harmful outputs, continuing the trend of iterative model polishing rather than a dramatic capability leap.</p>
+<p class='hn-text-zh'>Anthropic 推出 Claude Sonnet 4.6，对话式 AI 进行了小幅改进，重点在可靠性和安全性上。更新提升了事实性和防护措施，旨在减少有害输出，延续逐步打磨模型的路线，而非一次性大跃进。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Open Source,Security,Privacy'>
+<div class='hn-card' data-tags=''>
 <div class='hn-body'>
-<p class='hn-title'>(2) <a href='https://blog.tomaszdunia.pl/grapheneos-eng/' target='_blank' rel='noopener noreferrer'>GrapheneOS – Break Free from Google and Apple</a></p>
-<p class='hn-meta'>GrapheneOS——摆脱谷歌和苹果的束缚</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 02:02 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>1156 points by to3k</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47045612' target='_blank' rel='noopener noreferrer'>Comments (893)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--green' data-tag='Open Source'>Open Source</span> <span class='hn-tag hn-tag--red' data-tag='Security'>Security</span> <span class='hn-tag hn-tag--red' data-tag='Privacy'>Privacy</span></div>
-<img class='hn-img' src='https://blog.tomaszdunia.pl/images/grapheneos.png' data-full='https://blog.tomaszdunia.pl/images/grapheneos.png' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>GrapheneOS is a privacy-focused mobile operating system aiming to provide an alternative to Google and Apple ecosystems. It emphasizes strong security and privacy protections, giving users greater control over their data on Pixel devices without relying on Google services.</p>
-<p class='hn-text-zh'>GrapheneOS是一款注重隐私的手机操作系统，旨在为用户提供摆脱谷歌和苹果生态系统的选择。它强调安全性和隐私保护，让用户能在Pixel设备上更好地掌控自己的数据，无需依赖谷歌服务。</p>
-</div>
-</div>
-<div class='hn-card' data-tags='Health'>
-<div class='hn-body'>
-<p class='hn-title'>(3) <a href='https://news.ycombinator.com/item?id=47049824' target='_blank' rel='noopener noreferrer'>Thank HN: You helped save 33k lives</a></p>
-<p class='hn-meta'>感谢HN：你们帮助挽救了3.3万条生命</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 09:06 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>1101 points by chaseadam17</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47049824' target='_blank' rel='noopener noreferrer'>Comments (109)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--emerald' data-tag='Health'>Health</span></div>
+<p class='hn-title'>(2) <a href='https://news.ycombinator.com/item?id=47049824' target='_blank' rel='noopener noreferrer'>Thank HN: You helped save 33k lives</a></p>
+<p class='hn-meta'>感谢 HN：你们帮助挽救了 3.3 万条生命</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 09:06 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>1111 points by chaseadam17</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47049824' target='_blank' rel='noopener noreferrer'>Comments (111)</a></p>
 <img class='hn-img' src='https://news.ycombinator.com/y18.svg' data-full='https://news.ycombinator.com/y18.svg' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>A community-driven initiative on Hacker News has contributed to saving over 33,000 lives, showcasing how technology and open collaboration can have significant real-world health impacts. The collective efforts likely involved disseminating critical information or tools that improved medical outcomes globally.</p>
-<p class='hn-text-zh'>Hacker News社区的合作努力帮助挽救了超过3.3万人的生命，体现了技术和开源协作对全球健康的巨大影响。大家的集体行动可能包括传播关键医疗信息或工具，提升了医疗效果。</p>
+<p class='hn-text-en'>A community-driven effort credited Hacker News readers with mobilizing resources that led to saving 33,000 lives, showing how online coordination can scale for public-health or crisis responses. The case underlines the potential impact of technical communities when they contribute expertise, funding, or logistics to urgent real-world problems.</p>
+<p class='hn-text-zh'>一次社区主导的行动将挽救 3.3 万条生命的成就归功于 Hacker News 读者，体现了网络协调在公共卫生或危机响应中的规模化能力。这个例子强调技术社区在紧急现实问题上贡献专业知识、资金或后勤时能产生的显著影响。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Programming'>
+<div class='hn-card' data-tags=''>
 <div class='hn-body'>
-<p class='hn-title'>(4) <a href='https://nvie.com/posts/15-years-later/' target='_blank' rel='noopener noreferrer'>15 years later, Microsoft morged my diagram</a></p>
-<p class='hn-meta'>15年后，微软改变了我的架构图</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 22:20 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>984 points by cheeaun</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47057829' target='_blank' rel='noopener noreferrer'>Comments (370)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span></div>
+<p class='hn-title'>(3) <a href='https://nvie.com/posts/15-years-later/' target='_blank' rel='noopener noreferrer'>15 years later, Microsoft morged my diagram</a></p>
+<p class='hn-meta'>15 年后，微软盗用了我的图示</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 22:20 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>992 points by cheeaun</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47057829' target='_blank' rel='noopener noreferrer'>Comments (374)</a></p>
 <img class='hn-img' src='https://nvie.com/img/nvie-small@2x.jpg' data-full='https://nvie.com/img/nvie-small@2x.jpg' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>A developer reflects on a diagram they created 15 years ago that Microsoft later adapted or merged into its own technology stack. This story highlights how innovative ideas can have long-lasting influence, sometimes becoming integrated into major tech platforms over time.</p>
-<p class='hn-text-zh'>一位开发者回顾了15年前设计的一张架构图，后来被微软采纳并整合进其技术体系中。该经历展现了创新理念的持久影响力，有时会逐步成为大型科技平台的一部分。</p>
+<p class='hn-text-en'>The author recounts discovering that a diagram they created 15 years ago was appropriated by Microsoft without proper attribution, raising questions about corporate reuse of independent work. The story highlights how intellectual contributions from individuals can be absorbed into large organizations' materials, and why maintaining provenance and licensing matters.</p>
+<p class='hn-text-zh'>作者讲述发现自己 15 年前绘制的图示被微软在未适当归属的情况下使用，引发对企业挪用独立作品的质疑。该事件凸显个人知识成果容易被大组织吸收，并提醒人们关注来源记录和许可问题的重要性。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='AI'>
+<div class='hn-card' data-tags=''>
 <div class='hn-body'>
-<p class='hn-title'>(5) <a href='https://annas-archive.li/blog/llms-txt.html' target='_blank' rel='noopener noreferrer'>If you’re an LLM, please read this</a></p>
-<p class='hn-meta'>致大型语言模型的忠告，请认真阅读</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 23:18 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>841 points by soheilpro</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47058219' target='_blank' rel='noopener noreferrer'>Comments (378)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span></div>
-<p class='hn-text-en'>An insightful piece aimed at large language models (LLMs) emphasizes best practices and pitfalls in training and deployment. It serves as a metaphorical reminder for improving model reliability, safety, and ethical considerations as AI systems become increasingly integrated in real-world applications.</p>
-<p class='hn-text-zh'>这篇文章针对大型语言模型（LLMs），强调了训练和部署中的最佳实践与潜在问题。它以比喻方式提醒开发者不断提升模型的可靠性、安全性和伦理性，适应AI在实际中的广泛应用。</p>
+<p class='hn-title'>(4) <a href='https://annas-archive.li/blog/llms-txt.html' target='_blank' rel='noopener noreferrer'>If you’re an LLM, please read this</a></p>
+<p class='hn-meta'>如果你是个大模型，请读这个</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 23:18 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>861 points by soheilpro</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47058219' target='_blank' rel='noopener noreferrer'>Comments (382)</a></p>
+<p class='hn-text-en'>A plea-style piece directed at large language models lays out expectations for honesty, safety, and better alignment with human norms, framed as straightforward instructions LLMs should follow. It underscores community frustration with repetitive, evasive, or unsafe model behaviors and calls for clearer incentives and engineering to fix them.</p>
+<p class='hn-text-zh'>这篇面向大型语言模型的文章列出了对诚实、安全以及更好符合人类规范的具体期待，像是给模型的行为指南。文中表达了社区对模型重复、回避或不安全行为的失望，并呼吁通过更清晰的激励和工程手段加以改进。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='AI,Business'>
+<div class='hn-card' data-tags=''>
 <div class='hn-body'>
-<p class='hn-title'>(6) <a href='https://fortune.com/2026/02/17/ai-productivity-paradox-ceo-study-robert-solow-information-technology-age/' target='_blank' rel='noopener noreferrer'>AI adoption and Solow's productivity paradox</a></p>
-<p class='hn-meta'>AI普及与索洛生产率悖论</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 17:40 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>778 points by virgildotcodes</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47055979' target='_blank' rel='noopener noreferrer'>Comments (717)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span> <span class='hn-tag hn-tag--amber' data-tag='Business'>Business</span></div>
+<p class='hn-title'>(5) <a href='https://fortune.com/2026/02/17/ai-productivity-paradox-ceo-study-robert-solow-information-technology-age/' target='_blank' rel='noopener noreferrer'>AI adoption and Solow's productivity paradox</a></p>
+<p class='hn-meta'>人工智能采纳与索洛的生产率悖论</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 17:40 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>779 points by virgildotcodes</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47055979' target='_blank' rel='noopener noreferrer'>Comments (725)</a></p>
 <img class='hn-img' src='https://fortune.com/img-assets/wp-content/uploads/2026/02/GettyImages-521488522-e1771352623863.jpg?resize=1200,600' data-full='https://fortune.com/img-assets/wp-content/uploads/2026/02/GettyImages-521488522-e1771352623863.jpg?resize=1200,600' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>Despite rapid AI adoption, many organizations have not seen corresponding productivity gains, reflecting the classic 'Solow productivity paradox' where technological advances don't immediately translate into measurable efficiency. Understanding this gap is crucial for realistic expectations and strategic investment in AI technologies.</p>
-<p class='hn-text-zh'>尽管AI技术被广泛采用，许多企业的生产力并未显著提升，这体现了‘索洛生产率悖论’：技术进步未必马上带来效率提升。理解这一现象有助于合理预期和更明智地投资源于AI。</p>
+<p class='hn-text-en'>The piece revisits Solow's productivity paradox in the context of accelerating AI adoption, questioning why large AI investments haven't translated into obvious productivity gains yet. It explores measurement problems, lagging complementary investments, and organizational frictions that could explain the gap between AI hype and macroeconomic productivity metrics.</p>
+<p class='hn-text-zh'>文章在加速采用 AI 的背景下重新审视索洛的生产率悖论，探讨为何大量 AI 投资尚未明显反映在生产率上。文中分析了衡量困难、配套投资滞后和组织摩擦等因素，试图解释 AI 热潮与宏观生产率数据之间的落差。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Entertainment'>
+<div class='hn-card' data-tags=''>
 <div class='hn-body'>
-<p class='hn-title'>(7) <a href='https://www.sceneandheardnu.com/content/halt-and-catch-fire' target='_blank' rel='noopener noreferrer'>Halt and Catch Fire: TV’s best drama you’ve probably never heard of (2021)</a></p>
-<p class='hn-meta'>《半路死火》：你可能未曾听闻的最佳电视剧（2021）</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 18:18 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>711 points by walterbell</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47056314' target='_blank' rel='noopener noreferrer'>Comments (377)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--purple' data-tag='Entertainment'>Entertainment</span></div>
+<p class='hn-title'>(6) <a href='https://www.sceneandheardnu.com/content/halt-and-catch-fire' target='_blank' rel='noopener noreferrer'>Halt and Catch Fire: TV’s best drama you’ve probably never heard of (2021)</a></p>
+<p class='hn-meta'>《黑客军团》：你可能没听过的最佳剧集（2021）</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 18:18 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>717 points by walterbell</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47056314' target='_blank' rel='noopener noreferrer'>Comments (379)</a></p>
 <img class='hn-img' src='http://static1.squarespace.com/static/59066a076b8f5b6083962bff/t/606b3771a0a113500b35b2cb/1617639281578/download+%287%29.jfif?format=1500w' data-full='http://static1.squarespace.com/static/59066a076b8f5b6083962bff/t/606b3771a0a113500b35b2cb/1617639281578/download+%287%29.jfif?format=1500w' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>"Halt and Catch Fire" is a critically acclaimed drama series exploring the tech industry in the 1980s and early '90s. Praised for its storytelling and character depth, it remains a must-watch for tech enthusiasts interested in the personal and professional dynamics behind computing's rise.</p>
-<p class='hn-text-zh'>《半路死火》是一部深受好评的剧情剧，讲述了1980年代到90年代初的科技行业故事。凭借精彩的剧情和人物塑造，它是科技爱好者了解计算机发展背后人文故事的必看剧集。</p>
+<p class='hn-text-en'>A recommendation arguing that the TV drama 'Halt and Catch Fire' is an underrated gem, praised for its character-driven storytelling about the 1980s–90s tech boom. The show is noted for realistic portrayals of engineering culture, startup dynamics, and evolving personal relationships over multiple seasons.</p>
+<p class='hn-text-zh'>一篇推荐称《Halt and Catch Fire》是一部被低估的好剧，以人物驱动的叙事讲述 80 至 90 年代的科技浪潮。该剧在工程文化、创业动态以及多年人物关系演变方面被认为相当真实。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Politics'>
+<div class='hn-card' data-tags=''>
+<div class='hn-body'>
+<p class='hn-title'>(7) <a href='https://pudding.cool/2026/02/womens-sizing/' target='_blank' rel='noopener noreferrer'>Sizing chaos</a></p>
+<p class='hn-meta'>尺码混乱</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 18, 2026 / 13:18 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>659 points by zdw</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47066552' target='_blank' rel='noopener noreferrer'>Comments (356)</a></p>
+<img class='hn-img' src='https://pudding.cool/2026/02/womens-sizing/assets/og2.jpg' data-full='https://pudding.cool/2026/02/womens-sizing/assets/og2.jpg' alt='preview image' loading='lazy'/>
+<p class='hn-text-en'>An interactive investigation into women's clothing sizing shows vast inconsistencies across brands and regions, making online shopping and size selection unreliable. The analysis visualizes measurement distributions and highlights the need for standardization or better metadata so consumers and designers can find consistent fits.</p>
+<p class='hn-text-zh'>一项交互式调查揭示了女性服装尺码在品牌和地区间的大量不一致，导致线上购物和尺码选择变得不可靠。文章通过可视化测量分布，强调需要标准化或更好元数据，帮助消费者和设计师找到一致的合身方案。</p>
+</div>
+</div>
+<div class='hn-card' data-tags=''>
 <div class='hn-body'>
 <p class='hn-title'>(8) <a href='https://www.nbcnews.com/business/media/stephen-colbert-cbs-james-talarico-fcc-rcna259341' target='_blank' rel='noopener noreferrer'>CBS didn't air Rep. James Talarico interview out of fear of FCC</a></p>
-<p class='hn-meta'>CBS因担心FCC未播出James Talarico采访</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 08:37 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>521 points by theahura</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47049426' target='_blank' rel='noopener noreferrer'>Comments (247)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--orange' data-tag='Politics'>Politics</span></div>
+<p class='hn-meta'>CBS 因担心 FCC 未播出詹姆斯·塔拉里科采访</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 08:37 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>524 points by theahura</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47049426' target='_blank' rel='noopener noreferrer'>Comments (247)</a></p>
 <img class='hn-img' src='https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-02/260217-colbert-show-unaired-gk-3cd4c9.jpg' data-full='https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-02/260217-colbert-show-unaired-gk-3cd4c9.jpg' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>CBS opted not to air an interview with Representative James Talarico due to concerns about potential Federal Communications Commission (FCC) repercussions. This incident raises questions about media self-censorship and regulatory influence on political content coverage.</p>
-<p class='hn-text-zh'>CBS因担心联邦通讯委员会（FCC）可能采取行动，选择未播出与众议员James Talarico的采访。此事引发了对媒体自我审查和监管机构对政治内容影响的关注。</p>
+<p class='hn-text-en'>CBS reportedly withheld an interview with Representative James Talarico due to fears of an FCC enforcement action, indicating how regulatory pressure can shape editorial decisions. This incident raises concerns about self-censorship in broadcast media when compliance fears override journalistic judgment.</p>
+<p class='hn-text-zh'>据报导 CBS 因担心 FCC 执法而未播出对众议员詹姆斯·塔拉里科的采访，显示监管压力如何影响编辑决策。此事引发了对广播媒体在合规担忧压倒新闻判断时自我审查的担忧。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Politics'>
+<div class='hn-card' data-tags=''>
 <div class='hn-body'>
 <p class='hn-title'>(9) <a href='https://dispatch.techoversight.org/top-report-mark-zuckerberg-lied-to-congress-we-cant-trust-his-testimony/' target='_blank' rel='noopener noreferrer'>Mark Zuckerberg Lied to Congress. We Can't Trust His Testimony</a></p>
-<p class='hn-meta'>马克·扎克伯格对国会撒谎，我们无法信任他的证词</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 18, 2026 / 05:00 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>513 points by speckx</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47060486' target='_blank' rel='noopener noreferrer'>Comments (310)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--orange' data-tag='Politics'>Politics</span></div>
+<p class='hn-meta'>扎克伯格在国会撒谎，我们不能信任他的证词</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 18, 2026 / 05:00 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>519 points by speckx</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47060486' target='_blank' rel='noopener noreferrer'>Comments (310)</a></p>
 <img class='hn-img' src='https://dispatch.techoversight.org/content/images/2025/07/Dark-Dispatch-1200-2.png' data-full='https://dispatch.techoversight.org/content/images/2025/07/Dark-Dispatch-1200-2.png' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>New reports accuse Mark Zuckerberg of lying to Congress, further eroding trust in his testimony about Facebook’s business practices. This development intensifies scrutiny over tech executives’ accountability and transparency amid growing concerns about platform governance.</p>
-<p class='hn-text-zh'>有新消息指控马克·扎克伯格向国会撒谎，使人们对其关于Facebook业务的证词信任度进一步下降。这加剧了公众对科技高管责任和透明度的关注，尤其是在平台治理问题上。</p>
+<p class='hn-text-en'>A report accuses Mark Zuckerberg of providing false testimony to Congress, arguing that his statements undermine trust in executive accountability for platform harms. The claim, if substantiated, would have implications for regulatory oversight and the credibility of corporate leaders testifying before lawmakers.</p>
+<p class='hn-text-zh'>一份报告指控马克·扎克伯格在国会作伪证，认为其陈述削弱了对平台负责人问责的信任。若指控成立，将影响监管监督力度并损及企业高管在国会前证词的公信力。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Show HN'>
+<div class='hn-card' data-tags=''>
 <div class='hn-body'>
-<p class='hn-title'>(10) <a href='https://www.arthurcnops.blog/death-of-show-hn/' target='_blank' rel='noopener noreferrer'>Is Show HN dead? No, but it's drowning</a></p>
-<p class='hn-meta'>Show HN死了吗？不，但它正陷入困境</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 02:29 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>508 points by acnops</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47045804' target='_blank' rel='noopener noreferrer'>Comments (418)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--green' data-tag='Show HN'>Show HN</span></div>
-<p class='hn-text-en'>The beloved Show HN section on Hacker News is struggling with declining quality and engagement, suggesting it may be losing relevance. Despite not being dead, the community faces challenges to revive participation and maintain the platform's spirit of sharing innovative projects.</p>
-<p class='hn-text-zh'>Hacker News上的Show HN板块因质量和活跃度下滑而面临困境，看似正逐渐失去影响力。虽然尚未消亡，但社区需要努力恢复用户参与，保持其分享创新项目的核心精神。</p>
-</div>
-</div>
-<div class='hn-card' data-tags='Data'>
-<div class='hn-body'>
-<p class='hn-title'>(11) <a href='https://pudding.cool/2026/02/womens-sizing/' target='_blank' rel='noopener noreferrer'>Sizing chaos</a></p>
-<p class='hn-meta'>关于尺码混乱的分析</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 18, 2026 / 13:18 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>492 points by zdw</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47066552' target='_blank' rel='noopener noreferrer'>Comments (259)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--violet' data-tag='Data'>Data</span></div>
-<img class='hn-img' src='https://pudding.cool/2026/02/womens-sizing/assets/og2.jpg' data-full='https://pudding.cool/2026/02/womens-sizing/assets/og2.jpg' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>An exploration into the inconsistent and confusing nature of women’s clothing sizing across brands and regions reveals the complexity consumers face. This data-driven analysis highlights the need for better standards or tech solutions to simplify size selection in fashion ecommerce.</p>
-<p class='hn-text-zh'>深入分析了女性服装尺码在品牌和地区间的不统一与混乱，揭示了消费者面临的困惑。通过数据展示了时尚电商中尺码选择难题，呼吁制定更统一标准或引入技术解决方案。</p>
-</div>
-</div>
-<div class='hn-card' data-tags='Programming'>
-<div class='hn-body'>
-<p class='hn-title'>(12) <a href='https://gist.github.com/jake-stewart/0a8ea46159a7da2c808e5be2177e1783' target='_blank' rel='noopener noreferrer'>Terminals should generate the 256-color palette</a></p>
-<p class='hn-meta'>终端应自动生成256色调色板</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 22:19 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>471 points by tosh</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47057824' target='_blank' rel='noopener noreferrer'>Comments (187)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span></div>
+<p class='hn-title'>(10) <a href='https://gist.github.com/jake-stewart/0a8ea46159a7da2c808e5be2177e1783' target='_blank' rel='noopener noreferrer'>Terminals should generate the 256-color palette</a></p>
+<p class='hn-meta'>终端应生成 256 色调色板</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 22:19 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>476 points by tosh</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47057824' target='_blank' rel='noopener noreferrer'>Comments (198)</a></p>
 <img class='hn-img' src='https://github.githubassets.com/assets/gist-og-image-54fd7dc0713e.png' data-full='https://github.githubassets.com/assets/gist-og-image-54fd7dc0713e.png' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>A proposal suggests terminals should automatically generate the full 256-color palette for better color rendering and user experience. This approach could standardize how terminals handle colors, improving the consistency and aesthetics of command-line interfaces.</p>
-<p class='hn-text-zh'>有人建议终端应自动生成完整的256色调色板，以提升色彩显示效果和用户体验。该方案能统一终端色彩处理，增强命令行界面的视觉一致性和美感。</p>
+<p class='hn-text-en'>A proposal argues terminals should programmatically generate the full 256-color palette instead of relying on fixed mappings, improving color consistency across emulators and applications. Generating the palette at runtime would reduce surprises from differing defaults and make color-aware tooling and themes more portable.</p>
+<p class='hn-text-zh'>该提议主张终端应在运行时生成完整的 256 色调色板，而不是依赖固定映射，以提升不同模拟器与应用间的颜色一致性。运行时生成色板能减少因默认设置不同产生的意外，使颜色主题和工具更易迁移。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Show HN,Privacy,Open Source'>
+<div class='hn-card' data-tags=''>
 <div class='hn-body'>
-<p class='hn-title'>(13) <a href='https://asteroidos.org/news/2-0-release/index.html' target='_blank' rel='noopener noreferrer'>Show HN: AsteroidOS 2.0 – Nobody asked, we shipped anyway</a></p>
-<p class='hn-meta'>Show HN：AsteroidOS 2.0发布——无人问津我们依然发布</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 11:24 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>455 points by moWerk</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47051852' target='_blank' rel='noopener noreferrer'>Comments (68)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--green' data-tag='Show HN'>Show HN</span> <span class='hn-tag hn-tag--red' data-tag='Privacy'>Privacy</span> <span class='hn-tag hn-tag--green' data-tag='Open Source'>Open Source</span></div>
+<p class='hn-title'>(11) <a href='https://asteroidos.org/news/2-0-release/index.html' target='_blank' rel='noopener noreferrer'>Show HN: AsteroidOS 2.0 – Nobody asked, we shipped anyway</a></p>
+<p class='hn-meta'>Show HN：AsteroidOS 2.0 — 没人要求，但我们还是发布了</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 11:24 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>457 points by moWerk</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47051852' target='_blank' rel='noopener noreferrer'>Comments (68)</a></p>
 <img class='hn-img' src='https://asteroidos.org/public/img/logo.png' data-full='https://asteroidos.org/public/img/logo.png' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>AsteroidOS 2.0, an open-source smartwatch operating system, has been released with new features and improvements despite limited demand. The project demonstrates commitment to providing an alternative smartwatch platform focused on privacy and openness.</p>
-<p class='hn-text-zh'>AsteroidOS 2.0开源智能手表操作系统发布，虽然关注度有限，但带来了新功能和优化。该项目致力于打造注重隐私与开放性的智能手表替代方案。</p>
+<p class='hn-text-en'>AsteroidOS 2.0 is a new release of the open-source smartwatch OS, adding features and improvements for privacy-first wearable users. The update showcases active community development and provides an alternative for users who want a Linux-based, customizable smartwatch platform without vendor lock-in.</p>
+<p class='hn-text-zh'>AsteroidOS 2.0 发布，为开源智能手表操作系统带来新功能和改进，面向重视隐私的可穿戴设备用户。此更新显示社区仍在积极开发，提供了一个基于 Linux、可高度定制且无厂商锁定的替代选择。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Security'>
+<div class='hn-card' data-tags=''>
 <div class='hn-body'>
-<p class='hn-title'>(14) <a href='https://electrek.co/2026/02/17/tesla-robotaxi-adds-5-more-crashes-austin-month-4x-worse-than-humans/' target='_blank' rel='noopener noreferrer'>Tesla 'Robotaxi' adds 5 more crashes in Austin in a month – 4x worse than humans</a></p>
-<p class='hn-meta'>特斯拉Robotaxi在奥斯汀一个月内又发生5起车祸，比人类高4倍</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 11:02 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>455 points by Bender</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47051546' target='_blank' rel='noopener noreferrer'>Comments (261)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--red' data-tag='Security'>Security</span></div>
+<p class='hn-title'>(12) <a href='https://electrek.co/2026/02/17/tesla-robotaxi-adds-5-more-crashes-austin-month-4x-worse-than-humans/' target='_blank' rel='noopener noreferrer'>Tesla 'Robotaxi' adds 5 more crashes in Austin in a month – 4x worse than humans</a></p>
+<p class='hn-meta'>特斯拉“Robotaxi”在奥斯汀一个月内又添 5 起事故——比人类差 4 倍</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 11:02 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>455 points by Bender</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47051546' target='_blank' rel='noopener noreferrer'>Comments (264)</a></p>
 <img class='hn-img' src='https://i0.wp.com/electrek.co/wp-content/uploads/sites/3/2021/08/Tesla-Full-Self-Driving-Beta-Hero.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1' data-full='https://i0.wp.com/electrek.co/wp-content/uploads/sites/3/2021/08/Tesla-Full-Self-Driving-Beta-Hero.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>Tesla’s Robotaxi service in Austin reported five additional crashes in one month, with an incident rate four times worse than human drivers. These findings raise serious safety concerns about autonomous taxi services and their readiness for public deployment.</p>
-<p class='hn-text-zh'>特斯拉在奥斯汀的Robotaxi服务一个月内新增5起车祸，事故率是人类司机的4倍。这引发了对自动驾驶出租车安全性及其公共应用成熟度的严重质疑。</p>
+<p class='hn-text-en'>A reported cluster of crashes involving Tesla's Robotaxi service in Austin added five incidents in a month, with claims the autonomous fleet is crashing at higher rates than human drivers. If accurate, the pattern raises questions about deployment readiness and the validity of claims that robotaxis are safer than human-operated vehicles.</p>
+<p class='hn-text-zh'>据称特斯拉在奥斯汀的 Robotaxi 服务一个月内又发生五起事故，有报道称该自动车队的事故率高于人类司机。若属实，这一趋势将对自动驾驶投放成熟度及其比人类更安全的论断提出质疑。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Open Source,Hardware,Programming'>
+<div class='hn-card' data-tags=''>
 <div class='hn-body'>
-<p class='hn-title'>(15) <a href='https://github.com/Zaneham/BarraCUDA' target='_blank' rel='noopener noreferrer'>BarraCUDA Open-source CUDA compiler targeting AMD GPUs</a></p>
-<p class='hn-meta'>BarraCUDA：面向AMD GPU的开源CUDA编译器</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 12:35 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>449 points by rurban</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47052941' target='_blank' rel='noopener noreferrer'>Comments (194)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--green' data-tag='Open Source'>Open Source</span> <span class='hn-tag hn-tag--slate' data-tag='Hardware'>Hardware</span> <span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span></div>
-<img class='hn-img' src='https://opengraph.githubassets.com/f5b06135f3401246531e4611affd434c7c48364ebbb2d5aa14f3c5661d95d58e/Zaneham/BarraCUDA' data-full='https://opengraph.githubassets.com/f5b06135f3401246531e4611affd434c7c48364ebbb2d5aa14f3c5661d95d58e/Zaneham/BarraCUDA' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>BarraCUDA is an open-source CUDA compiler targeting AMD GPUs, aiming to bring CUDA compatibility beyond NVIDIA hardware. This could broaden GPU computing options and democratize access to CUDA-driven applications on more diverse platforms.</p>
-<p class='hn-text-zh'>BarraCUDA是一款面向AMD显卡的开源CUDA编译器，旨在实现CUDA对非NVIDIA硬件的支持。它有望拓宽GPU计算选择，让更多平台能够运行CUDA应用。</p>
+<p class='hn-title'>(13) <a href='https://github.com/Zaneham/BarraCUDA' target='_blank' rel='noopener noreferrer'>BarraCUDA Open-source CUDA compiler targeting AMD GPUs</a></p>
+<p class='hn-meta'>BarraCUDA：面向 AMD GPU 的开源 CUDA 编译器</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 12:35 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>450 points by rurban</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47052941' target='_blank' rel='noopener noreferrer'>Comments (194)</a></p>
+<img class='hn-img' src='https://opengraph.githubassets.com/1535270acea945dd40b2bf5d95a8cce2750674805a562806b85adc7e23be1f1a/Zaneham/BarraCUDA' data-full='https://opengraph.githubassets.com/1535270acea945dd40b2bf5d95a8cce2750674805a562806b85adc7e23be1f1a/Zaneham/BarraCUDA' alt='preview image' loading='lazy'/>
+<p class='hn-text-en'>BarraCUDA is an open-source project that compiles CUDA code to run on AMD GPUs, aiming to bridge NVIDIA-centric CUDA ecosystems and AMD hardware. It could help developers reuse CUDA workloads on non-NVIDIA devices, lowering friction for heterogeneous GPU environments, though compatibility and performance trade-offs will determine adoption.</p>
+<p class='hn-text-zh'>BarraCUDA 是个开源项目，目标是把 CUDA 代码编译到 AMD GPU 上，试图缩小以 NVIDIA 为中心的 CUDA 生态与 AMD 硬件之间的差距。它能让开发者在非 NVIDIA 设备上复用 CUDA 工作负载，但兼容性和性能权衡将决定其采用程度。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Science,Open Source'>
+<div class='hn-card' data-tags=''>
 <div class='hn-body'>
-<p class='hn-title'>(16) <a href='https://asahilinux.org/2026/02/progress-report-6-19/' target='_blank' rel='noopener noreferrer'>Asahi Linux Progress Report: Linux 6.19</a></p>
-<p class='hn-meta'>Asahi Linux进展报告：Linux 6.19版本</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 18, 2026 / 02:00 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>423 points by mkurz</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47059275' target='_blank' rel='noopener noreferrer'>Comments (153)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--teal' data-tag='Science'>Science</span> <span class='hn-tag hn-tag--green' data-tag='Open Source'>Open Source</span></div>
+<p class='hn-title'>(14) <a href='https://code.claude.com/docs/en/legal-and-compliance' target='_blank' rel='noopener noreferrer'>Anthropic officially bans using subscription auth for third party use</a></p>
+<p class='hn-meta'>Anthropic 正式禁止将订阅认证用于第三方使用</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 18, 2026 / 18:52 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>444 points by theahura</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47069299' target='_blank' rel='noopener noreferrer'>Comments (532)</a></p>
+<img class='hn-img' src='https://claude-code.mintlify.app/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3DResources%26appearance%3Dsystem%26title%3DLegal%2Band%2Bcompliance%26description%3DLegal%2Bagreements%252C%2Bcompliance%2Bcertifications%252C%2Band%2Bsecurity%2Binformation%2Bfor%2BClaude%2BCode.%26logoLight%3Dhttps%253A%252F%252Fmintcdn.com%252Fclaude-code%252Fo69F7a6qoW9vboof%252Flogo%252Flight.svg%253Ffit%253Dmax%2526auto%253Dformat%2526n%253Do69F7a6qoW9vboof%2526q%253D85%2526s%253D536eade682636e84231afce2577f9509%26logoDark%3Dhttps%253A%252F%252Fmintcdn.com%252Fclaude-code%252Fo69F7a6qoW9vboof%252Flogo%252Fdark.svg%253Ffit%253Dmax%2526auto%253Dformat%2526n%253Do69F7a6qoW9vboof%2526q%253D85%2526s%253D0766b3221061e80143e9f300733e640b%26primaryColor%3D%25230E0E0E%26lightColor%3D%2523D4A27F%26darkColor%3D%25230E0E0E%26backgroundLight%3D%2523FDFDF7%26backgroundDark%3D%252309090B&w=1200&q=100' data-full='https://claude-code.mintlify.app/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3DResources%26appearance%3Dsystem%26title%3DLegal%2Band%2Bcompliance%26description%3DLegal%2Bagreements%252C%2Bcompliance%2Bcertifications%252C%2Band%2Bsecurity%2Binformation%2Bfor%2BClaude%2BCode.%26logoLight%3Dhttps%253A%252F%252Fmintcdn.com%252Fclaude-code%252Fo69F7a6qoW9vboof%252Flogo%252Flight.svg%253Ffit%253Dmax%2526auto%253Dformat%2526n%253Do69F7a6qoW9vboof%2526q%253D85%2526s%253D536eade682636e84231afce2577f9509%26logoDark%3Dhttps%253A%252F%252Fmintcdn.com%252Fclaude-code%252Fo69F7a6qoW9vboof%252Flogo%252Fdark.svg%253Ffit%253Dmax%2526auto%253Dformat%2526n%253Do69F7a6qoW9vboof%2526q%253D85%2526s%253D0766b3221061e80143e9f300733e640b%26primaryColor%3D%25230E0E0E%26lightColor%3D%2523D4A27F%26darkColor%3D%25230E0E0E%26backgroundLight%3D%2523FDFDF7%26backgroundDark%3D%252309090B&w=1200&q=100' alt='preview image' loading='lazy'/>
+<p class='hn-text-en'>Anthropic updated its policy to ban using individual subscription authentication credentials for third-party integrations, tightening access controls and preventing workaround uses. This change forces developers to adopt official API or enterprise flows for multi-user or embedded access, affecting small-scale integrations that relied on personal accounts.</p>
+<p class='hn-text-zh'>Anthropic 更新政策，禁止将个人订阅认证用于第三方集成，收紧了访问控制并阻止规避性用法。此变更要求开发者使用官方 API 或企业授权来实现多用户或嵌入式访问，影响此前依赖个人账户的小规模集成。</p>
+</div>
+</div>
+<div class='hn-card' data-tags=''>
+<div class='hn-body'>
+<p class='hn-title'>(15) <a href='https://asahilinux.org/2026/02/progress-report-6-19/' target='_blank' rel='noopener noreferrer'>Asahi Linux Progress Report: Linux 6.19</a></p>
+<p class='hn-meta'>Asahi Linux 进展报告：Linux 6.19</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 18, 2026 / 02:00 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>437 points by mkurz</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47059275' target='_blank' rel='noopener noreferrer'>Comments (156)</a></p>
 <img class='hn-img' src='https://asahilinux.org/img/AsahiLinux_logomark_256px.png' data-full='https://asahilinux.org/img/AsahiLinux_logomark_256px.png' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>The Asahi Linux project reports progress integrating Linux kernel 6.19, improving support for Apple Silicon Macs. Continued advancements bring the open-source Linux experience closer to native performance on Mac devices.</p>
-<p class='hn-text-zh'>Asahi Linux项目公布了Linux 6.19内核集成进展，提升了对苹果自研芯片Mac的支持。持续发展使Linux系统在Mac设备上的原生表现越来越接近。</p>
+<p class='hn-text-en'>The Asahi Linux team reports progress toward upstreaming support for Linux 6.19 on Apple Silicon, detailing driver work, performance fixes, and remaining hardware compatibility tasks. The update signals steady advancement in making mainline kernels usable on newer Mac hardware, reducing the gap for Linux users on Apple devices.</p>
+<p class='hn-text-zh'>Asahi Linux 团队汇报了在 Apple Silicon 上支持 Linux 6.19 的进展，介绍了驱动开发、性能修复以及尚需解决的硬件兼容任务。该更新表明在使主线内核可用于新 Mac 硬件方面正在稳步推进，逐步缩小 Apple 设备上运行 Linux 的差距。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Programming'>
+<div class='hn-card' data-tags=''>
+<div class='hn-body'>
+<p class='hn-title'>(16) <a href='https://tailscale.com/blog/peer-relays-ga' target='_blank' rel='noopener noreferrer'>Tailscale Peer Relays is now generally available</a></p>
+<p class='hn-meta'>Tailscale Peer Relays 现已全面可用</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 18, 2026 / 08:46 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>425 points by sz4kerto</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47063005' target='_blank' rel='noopener noreferrer'>Comments (208)</a></p>
+<img class='hn-img' src='https://cdn.sanity.io/images/w77i7m8x/production/ccbb854e716b6a58e62ccb0fd3eed23c2bf77599-2304x1187.png' data-full='https://cdn.sanity.io/images/w77i7m8x/production/ccbb854e716b6a58e62ccb0fd3eed23c2bf77599-2304x1187.png' alt='preview image' loading='lazy'/>
+<p class='hn-text-en'>Tailscale announced general availability of Peer Relays, a feature that simplifies NAT traversal by relaying traffic between peers through trusted nodes when direct connections fail. This improves connectivity reliability for devices behind restrictive networks and reduces manual relay setup for teams using private mesh VPNs.</p>
+<p class='hn-text-zh'>Tailscale 宣布 Peer Relays 功能已全面可用，该功能在点对点直接连接失败时通过受信任节点中继流量，简化 NAT 穿透。它提升了处于受限网络设备的连接可靠性，并减少了团队在私有网格 VPN 中手动设置中继的需求。</p>
+</div>
+</div>
+<div class='hn-card' data-tags=''>
 <div class='hn-body'>
 <p class='hn-title'>(17) <a href='https://go.dev/blog/gofix' target='_blank' rel='noopener noreferrer'>Using go fix to modernize Go code</a></p>
 <p class='hn-meta'>用 go fix 现代化 Go 代码</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 08:42 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>423 points by todsacerdoti</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47049479' target='_blank' rel='noopener noreferrer'>Comments (82)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span></div>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 08:42 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>424 points by todsacerdoti</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47049479' target='_blank' rel='noopener noreferrer'>Comments (82)</a></p>
 <img class='hn-img' src='https://go.dev/doc/gopher/runningsquare.jpg' data-full='https://go.dev/doc/gopher/runningsquare.jpg' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>The Go team introduces 'go fix,' a tool to automatically update Go code to use new language features and idioms. This facilitates easier code modernization and adoption of best practices with minimal manual effort from developers.</p>
-<p class='hn-text-zh'>Go语言团队推出了“go fix”工具，可自动将Go代码更新为新语言特性和最佳用法。它帮助开发者轻松地让代码现代化，减少手动修改工作量。</p>
+<p class='hn-text-en'>A guide explains how to use go fix to automatically apply idiomatic modernizations and migration changes to Go codebases, easing upgrades to newer language versions. It walks through common transforms and cautions on review and testing, highlighting go fix as a practical tool for large-scale refactors with minimal manual edits.</p>
+<p class='hn-text-zh'>这篇指南介绍如何使用 go fix 自动对 Go 代码库进行符合现代风格和版本迁移的改造，从而简化升级到新语言版本的工作。文中列举常见的转换并提醒要注意代码审查与测试，强调 go fix 是大规模重构时减少手工修改的实用工具。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Open Source'>
+<div class='hn-card' data-tags=''>
 <div class='hn-body'>
 <p class='hn-title'>(18) <a href='https://www.gentoo.org/news/2026/02/16/codeberg.html' target='_blank' rel='noopener noreferrer'>Gentoo on Codeberg</a></p>
-<p class='hn-meta'>Gentoo入驻Codeberg平台</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 09:21 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>414 points by todsacerdoti</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47050067' target='_blank' rel='noopener noreferrer'>Comments (145)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--green' data-tag='Open Source'>Open Source</span></div>
+<p class='hn-meta'>Gentoo 登陆 Codeberg</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 09:21 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>419 points by todsacerdoti</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47050067' target='_blank' rel='noopener noreferrer'>Comments (146)</a></p>
 <img class='hn-img' src='https://www.gentoo.org/assets/img/og-image.jpg' data-full='https://www.gentoo.org/assets/img/og-image.jpg' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>Gentoo Linux announces hosting its source code repositories on Codeberg, a community-driven code hosting platform. This move promotes open collaboration and provides an alternative to larger, corporate-controlled hosts.</p>
-<p class='hn-text-zh'>Gentoo Linux宣布将源码库托管到社区驱动的Codeberg平台。此举促进开源协作，也为用户提供了对抗大型企业托管服务的替代选择。</p>
+<p class='hn-text-en'>Gentoo announced hosting some of its repositories and infrastructure on Codeberg, signaling a move toward decentralized or alternative code hosting options. The shift reflects broader interest in diversifying hosting providers and aligning with communities favoring open-source-friendly, European-based platforms.</p>
+<p class='hn-text-zh'>Gentoo 宣布将其部分仓库与基础设施迁至 Codeberg，表明其在寻求更分散或替代的代码托管选项。此举反映了在多样化托管服务商以及倾向于开源友好、欧洲平台的社区中日益增长的兴趣。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Open Source'>
+<div class='hn-card' data-tags=''>
 <div class='hn-body'>
-<p class='hn-title'>(19) <a href='https://tailscale.com/blog/peer-relays-ga' target='_blank' rel='noopener noreferrer'>Tailscale Peer Relays is now generally available</a></p>
-<p class='hn-meta'>Tailscale点对点中继正式上线</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 18, 2026 / 08:46 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>390 points by sz4kerto</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47063005' target='_blank' rel='noopener noreferrer'>Comments (194)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--green' data-tag='Open Source'>Open Source</span></div>
-<img class='hn-img' src='https://cdn.sanity.io/images/w77i7m8x/production/ccbb854e716b6a58e62ccb0fd3eed23c2bf77599-2304x1187.png' data-full='https://cdn.sanity.io/images/w77i7m8x/production/ccbb854e716b6a58e62ccb0fd3eed23c2bf77599-2304x1187.png' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>Tailscale has launched Peer Relays as a general availability feature to improve connectivity in restrictive networks. This enables more robust peer-to-peer communication, enhancing VPN experience under challenging network conditions.</p>
-<p class='hn-text-zh'>Tailscale正式推出点对点中继功能，提升受限网络环境下的连接稳定性。该功能加强了VPN的点对点通信体验，适应更多复杂网络场景。</p>
-</div>
-</div>
-<div class='hn-card' data-tags='Show HN,Hardware'>
-<div class='hn-body'>
-<p class='hn-title'>(20) <a href='https://hackmyclaw.com/' target='_blank' rel='noopener noreferrer'>HackMyClaw</a></p>
-<p class='hn-meta'>HackMyClaw项目介绍</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 08:48 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>358 points by hentrep</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47049573' target='_blank' rel='noopener noreferrer'>Comments (180)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--green' data-tag='Show HN'>Show HN</span> <span class='hn-tag hn-tag--slate' data-tag='Hardware'>Hardware</span></div>
-<img class='hn-img' src='https://hackmyclaw.com/og-image.png' data-full='https://hackmyclaw.com/og-image.png' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>HackMyClaw is a project that invites users to hack or modify the Robotic Claw game devices. It fosters creativity and learning by encouraging hands-on experimentation with embedded systems and hardware hacking.</p>
-<p class='hn-text-zh'>HackMyClaw项目鼓励用户对机器人爪游戏设备进行改造和破解。通过动手实验嵌入式系统和硬件黑客，激发创造力和学习热情。</p>
-</div>
-</div>
-<div class='hn-card' data-tags='Science,Data'>
-<div class='hn-body'>
-<p class='hn-title'>(21) <a href='https://jasonfantl.com/posts/Universal-Unique-IDs/' target='_blank' rel='noopener noreferrer'>Cosmologically Unique IDs</a></p>
-<p class='hn-meta'>宇宙唯一标识符的探索</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 18, 2026 / 10:37 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>356 points by jfantl</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47064490' target='_blank' rel='noopener noreferrer'>Comments (112)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--teal' data-tag='Science'>Science</span> <span class='hn-tag hn-tag--violet' data-tag='Data'>Data</span></div>
+<p class='hn-title'>(19) <a href='https://jasonfantl.com/posts/Universal-Unique-IDs/' target='_blank' rel='noopener noreferrer'>Cosmologically Unique IDs</a></p>
+<p class='hn-meta'>宇宙学唯一 ID</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 18, 2026 / 10:37 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>415 points by jfantl</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47064490' target='_blank' rel='noopener noreferrer'>Comments (125)</a></p>
 <img class='hn-img' src='https://jasonfantl.com/https:/blog-assets.jasonemerald.workers.dev/CUIDs/cover.png' data-full='https://jasonfantl.com/https:/blog-assets.jasonemerald.workers.dev/CUIDs/cover.png' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>An exploration of generating globally unique IDs based on cosmological principles offers a novel perspective on uniqueness that transcends conventional methods. This concept could inspire innovative approaches to distributed ID generation and identification.</p>
-<p class='hn-text-zh'>本文探讨了基于宇宙学原理来生成全球唯一标识符的新方法，提供了超越传统技术的全新视角。该理念或可启发分布式ID生成和身份识别的新思路。</p>
+<p class='hn-text-en'>The author proposes a scheme for universally unique identifiers based on cosmological timestamps or other large-scale physical references to reduce collision probability without centralized coordination. Such ideas aim to make IDs traceable to an external entropy source, though practical deployment would need interoperability agreements and consideration of privacy.</p>
+<p class='hn-text-zh'>作者提出一种基于宇宙学时间戳或大尺度物理参考的全局唯一标识方案，试图在无需中心化协调下尽量降低冲突概率。此类构想将 ID 与外部熵源关联，具有可追溯性，但实际部署需考虑互操作协议和隐私问题。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Business'>
+<div class='hn-card' data-tags=''>
 <div class='hn-body'>
-<p class='hn-title'>(22) <a href='https://cleantechnica.com/2026/02/15/tesla-sales-down-tremendously-in-uk-norway-netherlands-germany-spain-sweden-denmark-portugal-switzerland/' target='_blank' rel='noopener noreferrer'>Tesla Sales Down 55% UK, 58% Spain, 59% Germany, 81% Netherlands, 93% Norway</a></p>
-<p class='hn-meta'>特斯拉销量在英国、西班牙、德国、荷兰和挪威大幅下滑</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 06:47 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>335 points by whynotmaybe</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47048052' target='_blank' rel='noopener noreferrer'>Comments (343)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--amber' data-tag='Business'>Business</span></div>
-<img class='hn-img' src='https://cleantechnica.com/wp-content/uploads/2023/12/Tesla-Model-S-Black-Low-Speed-Netherlands-Belgium-Europe-Zach-Shahan-CleanTechnica-scaled.jpg' data-full='https://cleantechnica.com/wp-content/uploads/2023/12/Tesla-Model-S-Black-Low-Speed-Netherlands-Belgium-Europe-Zach-Shahan-CleanTechnica-scaled.jpg' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>Tesla's sales have dropped dramatically by over 50% across several major European countries including the UK, Germany, Spain, the Netherlands, and Norway. This trend signals increased competition, market saturation, or shifting consumer preferences impacting Tesla’s European market share.</p>
-<p class='hn-text-zh'>特斯拉在英国、西班牙、德国、荷兰和挪威等欧洲主要市场销量大幅下跌50%以上。此现象反映竞争加剧、市场趋于饱和或消费者偏好转变，影响其欧洲市场份额。</p>
+<p class='hn-title'>(20) <a href='https://old.reddit.com/r/MacOS/comments/1r8900z/macos_which_officially_supports_27_year_old/' target='_blank' rel='noopener noreferrer'>27-year-old Apple iBooks can connect to Wi-Fi and download official updates</a></p>
+<p class='hn-meta'>27 年前的 Apple iBooks 能连 Wi‑Fi 并下载官方更新</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 18, 2026 / 12:54 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>381 points by surprisetalk</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47066241' target='_blank' rel='noopener noreferrer'>Comments (207)</a></p>
+<p class='hn-text-en'>An old Apple iBook from 1999 was able to connect to Wi‑Fi and receive official updates, demonstrating surprising longevity in legacy hardware and protocol compatibility. The find highlights how long-lived standards and minimal server-side compatibility can keep vintage devices functional in modern networks.</p>
+<p class='hn-text-zh'>一台 1999 年的 Apple iBook 能够连接 Wi‑Fi 并下载官方更新，显示出旧硬件在协议兼容性方面的惊人持久性。这个发现强调了长期存在的标准和服务器端的向后兼容性如何让老设备在现代网络中继续可用。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Security,Web'>
+<div class='hn-card' data-tags=''>
 <div class='hn-body'>
-<p class='hn-title'>(23) <a href='https://chromereleases.googleblog.com/2026/02/stable-channel-update-for-desktop_13.html' target='_blank' rel='noopener noreferrer'>Zero-day CSS: CVE-2026-2441 exists in the wild</a></p>
-<p class='hn-meta'>零日CSS漏洞CVE-2026-2441已被利用</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 18, 2026 / 08:28 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>314 points by idoxer</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47062748' target='_blank' rel='noopener noreferrer'>Comments (163)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--red' data-tag='Security'>Security</span> <span class='hn-tag hn-tag--cyan' data-tag='Web'>Web</span></div>
+<p class='hn-title'>(21) <a href='https://hackmyclaw.com/' target='_blank' rel='noopener noreferrer'>HackMyClaw</a></p>
+<p class='hn-meta'>HackMyClaw</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 08:48 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>363 points by hentrep</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47049573' target='_blank' rel='noopener noreferrer'>Comments (180)</a></p>
+<img class='hn-img' src='https://hackmyclaw.com/og-image.png' data-full='https://hackmyclaw.com/og-image.png' alt='preview image' loading='lazy'/>
+<p class='hn-text-en'>HackMyClaw appears to be a hardware-hacking or modding project focused on Claw machines (or a specific device named 'Claw'), offering guides, tools, or a community for tinkering. Such projects typically aim to reverse-engineer mechanics, add remote control, or create novel interactions for hobbyist experimentation.</p>
+<p class='hn-text-zh'>HackMyClaw 似乎是一个针对抓娃娃机（或名为“Claw”的设备）的硬件改造项目，提供改装指南、工具或交流社区。此类项目通常致力于逆向机械结构、添加远程控制或为爱好者创造新玩法。</p>
+</div>
+</div>
+<div class='hn-card' data-tags=''>
+<div class='hn-body'>
+<p class='hn-title'>(22) <a href='https://chromereleases.googleblog.com/2026/02/stable-channel-update-for-desktop_13.html' target='_blank' rel='noopener noreferrer'>Zero-day CSS: CVE-2026-2441 exists in the wild</a></p>
+<p class='hn-meta'>零日 CSS：CVE-2026-2441 已在野外利用</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 18, 2026 / 08:28 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>349 points by idoxer</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47062748' target='_blank' rel='noopener noreferrer'>Comments (191)</a></p>
 <img class='hn-img' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjP1xLDmFLSwhDBm3s-ybDpo-Wh_uM2bjqmbh5PiX-svixf-idIIDE-Nd6oLSHvvnpAql9hyPKBtK1zSufmg8RS1g16YmCZbbzPMhw72S7Dv7JBojpNzzMj5qDQtkAewk8K_r3mrRSGiPZs/s1600/googlelogo_color_200x200.png' data-full='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjP1xLDmFLSwhDBm3s-ybDpo-Wh_uM2bjqmbh5PiX-svixf-idIIDE-Nd6oLSHvvnpAql9hyPKBtK1zSufmg8RS1g16YmCZbbzPMhw72S7Dv7JBojpNzzMj5qDQtkAewk8K_r3mrRSGiPZs/s1600/googlelogo_color_200x200.png' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>A zero-day CSS vulnerability identified as CVE-2026-2441 is actively exploited in the wild, prompting urgent browser security updates. This highlights the evolving threats in web standards and the need for timely patching to protect users.</p>
-<p class='hn-text-zh'>零日CSS漏洞CVE-2026-2441已被黑客利用，促使浏览器紧急发布安全更新。此事件强调了网页标准安全威胁的不断演进及及时打补丁的重要性。</p>
+<p class='hn-text-en'>A zero-day vulnerability identified as CVE-2026-2441 affects CSS processing and is reportedly being exploited in the wild, prompting urgent browser updates. The issue underscores that presentation-layer bugs can have real security impact and that prompt patching of browsers is critical for users and administrators.</p>
+<p class='hn-text-zh'>一个编号为 CVE-2026-2441 的零日漏洞影响 CSS 解析，并被报道已在野外被利用，促使浏览器进行紧急更新。此事提醒我们表现层的缺陷也能带来实际安全风险，用户和管理员应及时打补丁。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Legal,Hardware'>
+<div class='hn-card' data-tags=''>
 <div class='hn-body'>
-<p class='hn-title'>(24) <a href='https://old.reddit.com/r/MacOS/comments/1r8900z/macos_which_officially_supports_27_year_old/' target='_blank' rel='noopener noreferrer'>27-year-old Apple iBooks can connect to Wi-Fi and download official updates</a></p>
-<p class='hn-meta'>27年前的Apple iBooks仍能连接Wi-Fi并下载官方更新</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 18, 2026 / 12:54 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>305 points by surprisetalk</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47066241' target='_blank' rel='noopener noreferrer'>Comments (154)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--orange' data-tag='Legal'>Legal</span> <span class='hn-tag hn-tag--slate' data-tag='Hardware'>Hardware</span></div>
-<p class='hn-text-en'>Remarkably, Apple iBooks laptops from 27 years ago can still connect to Wi-Fi and receive official software updates. This demonstrates Apple's long-term support for legacy hardware and the enduring functionality of their older devices.</p>
-<p class='hn-text-zh'>令人惊讶的是，27年前的Apple iBooks笔记本仍可连接Wi-Fi并下载官方更新。体现了苹果对旧硬件的长期支持和其设备的耐用性。</p>
+<p class='hn-title'>(23) <a href='https://cleantechnica.com/2026/02/15/tesla-sales-down-tremendously-in-uk-norway-netherlands-germany-spain-sweden-denmark-portugal-switzerland/' target='_blank' rel='noopener noreferrer'>Tesla Sales Down 55% UK, 58% Spain, 59% Germany, 81% Netherlands, 93% Norway</a></p>
+<p class='hn-meta'>特斯拉销量大跌：英国降 55%，西班牙 58%，德国 59%，荷兰 81%，挪威 93%</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 06:47 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>337 points by whynotmaybe</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47048052' target='_blank' rel='noopener noreferrer'>Comments (349)</a></p>
+<img class='hn-img' src='https://cleantechnica.com/wp-content/uploads/2023/12/Tesla-Model-S-Black-Low-Speed-Netherlands-Belgium-Europe-Zach-Shahan-CleanTechnica-scaled.jpg' data-full='https://cleantechnica.com/wp-content/uploads/2023/12/Tesla-Model-S-Black-Low-Speed-Netherlands-Belgium-Europe-Zach-Shahan-CleanTechnica-scaled.jpg' alt='preview image' loading='lazy'/>
+<p class='hn-text-en'>Reported regional sales figures show steep year-over-year declines for Tesla in multiple European markets, with drops as high as 93% in Norway. These numbers suggest local market dynamics, increased competition, shifting incentives, or production/supply issues are significantly impacting Tesla's European sales performance.</p>
+<p class='hn-text-zh'>报告显示特斯拉在多个欧洲市场的销量出现大幅同比下降，挪威降幅高达 93%。这些数字表明当地市场动态、竞争加剧、激励变化或产供问题正在显著影响特斯拉在欧洲的销售表现。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Legal,AI,Security'>
+<div class='hn-card' data-tags=''>
 <div class='hn-body'>
-<p class='hn-title'>(25) <a href='https://code.claude.com/docs/en/legal-and-compliance' target='_blank' rel='noopener noreferrer'>Anthropic officially bans using subscription auth for third party use</a></p>
-<p class='hn-meta'>Anthropic正式禁止订阅授权用于第三方使用</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 18, 2026 / 18:52 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>285 points by theahura</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47069299' target='_blank' rel='noopener noreferrer'>Comments (310)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--orange' data-tag='Legal'>Legal</span> <span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span> <span class='hn-tag hn-tag--red' data-tag='Security'>Security</span></div>
-<img class='hn-img' src='https://claude-code.mintlify.app/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3DResources%26appearance%3Dsystem%26title%3DLegal%2Band%2Bcompliance%26description%3DLegal%2Bagreements%252C%2Bcompliance%2Bcertifications%252C%2Band%2Bsecurity%2Binformation%2Bfor%2BClaude%2BCode.%26logoLight%3Dhttps%253A%252F%252Fmintcdn.com%252Fclaude-code%252Fo69F7a6qoW9vboof%252Flogo%252Flight.svg%253Ffit%253Dmax%2526auto%253Dformat%2526n%253Do69F7a6qoW9vboof%2526q%253D85%2526s%253D536eade682636e84231afce2577f9509%26logoDark%3Dhttps%253A%252F%252Fmintcdn.com%252Fclaude-code%252Fo69F7a6qoW9vboof%252Flogo%252Fdark.svg%253Ffit%253Dmax%2526auto%253Dformat%2526n%253Do69F7a6qoW9vboof%2526q%253D85%2526s%253D0766b3221061e80143e9f300733e640b%26primaryColor%3D%25230E0E0E%26lightColor%3D%2523D4A27F%26darkColor%3D%25230E0E0E%26backgroundLight%3D%2523FDFDF7%26backgroundDark%3D%252309090B&w=1200&q=100' data-full='https://claude-code.mintlify.app/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3DResources%26appearance%3Dsystem%26title%3DLegal%2Band%2Bcompliance%26description%3DLegal%2Bagreements%252C%2Bcompliance%2Bcertifications%252C%2Band%2Bsecurity%2Binformation%2Bfor%2BClaude%2BCode.%26logoLight%3Dhttps%253A%252F%252Fmintcdn.com%252Fclaude-code%252Fo69F7a6qoW9vboof%252Flogo%252Flight.svg%253Ffit%253Dmax%2526auto%253Dformat%2526n%253Do69F7a6qoW9vboof%2526q%253D85%2526s%253D536eade682636e84231afce2577f9509%26logoDark%3Dhttps%253A%252F%252Fmintcdn.com%252Fclaude-code%252Fo69F7a6qoW9vboof%252Flogo%252Fdark.svg%253Ffit%253Dmax%2526auto%253Dformat%2526n%253Do69F7a6qoW9vboof%2526q%253D85%2526s%253D0766b3221061e80143e9f300733e640b%26primaryColor%3D%25230E0E0E%26lightColor%3D%2523D4A27F%26darkColor%3D%25230E0E0E%26backgroundLight%3D%2523FDFDF7%26backgroundDark%3D%252309090B&w=1200&q=100' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>Anthropic officially prohibits the use of subscription authentication for third-party applications, tightening control over API access and usage. This policy aims to enhance security and compliance as their AI services expand.</p>
-<p class='hn-text-zh'>Anthropic正式禁止将订阅授权用于第三方应用，以加强对API访问和使用的管理。此举意在提升安全性及合规性，适应其AI服务的扩展。</p>
+<p class='hn-title'>(24) <a href='https://devblogs.microsoft.com/azure-sql/langchain-with-sqlvectorstore-example/' target='_blank' rel='noopener noreferrer'>Microsoft guide to pirating Harry Potter for LLM training (2024) [removed]</a></p>
+<p class='hn-meta'>微软关于为 LLM 训练盗版《哈利·波特》的指南（2024）[已移除]</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 18, 2026 / 15:19 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>305 points by anonymous908213</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47067759' target='_blank' rel='noopener noreferrer'>Comments (179)</a></p>
+<p class='hn-text-en'>An apparently removed 2024 developer blog contained an example that could be read as demonstrating how copyrighted text was used for language-model workflows, raising questions about training data licensing. The snippet's removal highlights ongoing tensions around permissive examples, copyright law, and responsible documentation for model training practices.</p>
+<p class='hn-text-zh'>一篇已被移除的 2024 年开发博客中包含的示例，可能被解读为展示了如何将受版权保护文本用于语言模型流程，从而引发有关训练数据许可的问题。该内容被删凸显了示例文档、版权法与模型训练责任之间的持续紧张关系。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Security,DevOps'>
+<div class='hn-card' data-tags=''>
 <div class='hn-body'>
-<p class='hn-title'>(26) <a href='https://status.pki.goog/incidents/5oJEbcU3ZfMfySTSXXd3' target='_blank' rel='noopener noreferrer'>Google Public CA is down</a></p>
-<p class='hn-meta'>谷歌公共证书颁发机构宕机</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 17:05 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>276 points by aloknnikhil</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47055696' target='_blank' rel='noopener noreferrer'>Comments (159)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--red' data-tag='Security'>Security</span> <span class='hn-tag hn-tag--indigo' data-tag='DevOps'>DevOps</span></div>
-<img class='hn-img' src='https://status.pki.goog/images/trust-logo.svg' data-full='https://status.pki.goog/images/trust-logo.svg' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>Google's Public Certificate Authority (CA) experienced downtime, disrupting the issuance and validation of SSL/TLS certificates for various services relying on Google's PKI infrastructure. Such outages can impact website security and trust, highlighting the fragility of centralized certificate authorities.</p>
-<p class='hn-text-zh'>谷歌公共证书颁发机构发生宕机，导致依赖其PKI基础设施的服务证书签发和验证受阻。此类故障可能影响网站安全和信任，凸显集中式证书颁发机构的脆弱性。</p>
+<p class='hn-title'>(25) <a href='https://letsencrypt.org/2026/02/18/dns-persist-01.html' target='_blank' rel='noopener noreferrer'>DNS-Persist-01: A New Model for DNS-Based Challenge Validation</a></p>
+<p class='hn-meta'>DNS-Persist-01：一种新的基于 DNS 的挑战验证模式</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 18, 2026 / 10:04 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>285 points by todsacerdoti</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47064047' target='_blank' rel='noopener noreferrer'>Comments (127)</a></p>
+<img class='hn-img' src='https://letsencrypt.org/images/LetsEncrypt-SocialShare.png' data-full='https://letsencrypt.org/images/LetsEncrypt-SocialShare.png' alt='preview image' loading='lazy'/>
+<p class='hn-text-en'>Let's Encrypt introduced DNS-Persist-01, a new ACME challenge type that allows DNS-based validation to persist beyond short-lived records, simplifying automation for some use cases. This change can reduce flakiness in DNS validation workflows and help environments where DNS propagation or record stability is a problem.</p>
+<p class='hn-text-zh'>Let's Encrypt 推出 DNS-Persist-01，一种新的 ACME 挑战类型，使基于 DNS 的验证能在短期记录之外保持，从而简化某些自动化场景。此改动可减少 DNS 验证流程中的不稳定性，利于 DNS 传播或记录稳定性较差的环境。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='AI'>
+<div class='hn-card' data-tags=''>
+<div class='hn-body'>
+<p class='hn-title'>(26) <a href='https://github.com/LadybirdBrowser/ladybird/issues/933' target='_blank' rel='noopener noreferrer'>Closing this as we are no longer pursuing Swift adoption</a></p>
+<p class='hn-meta'>关闭此项：我们不再推进 Swift 采纳</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 18, 2026 / 15:08 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>279 points by thewavelength</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47067678' target='_blank' rel='noopener noreferrer'>Comments (234)</a></p>
+<img class='hn-img' src='https://opengraph.githubassets.com/bd7753566bc9dda581e2395c7ad9fe1b8dd77c835a32a361e79ca73d3871572e/LadybirdBrowser/ladybird/issues/933' data-full='https://opengraph.githubassets.com/bd7753566bc9dda581e2395c7ad9fe1b8dd77c835a32a361e79ca73d3871572e/LadybirdBrowser/ladybird/issues/933' alt='preview image' loading='lazy'/>
+<p class='hn-text-en'>A project issue announcing the decision to stop pursuing Swift adoption cites practical reasons—likely maintenance burden, ecosystem fit, or contributor availability—leading to reverting course. It highlights the trade-offs teams face when evaluating language migrations and the importance of aligning tooling choices with project capacity.</p>
+<p class='hn-text-zh'>一条议题声明决定不再推进 Swift 的采纳，理由可能是维护负担、生态适配或贡献者可用性等实际因素，因而选择回退。此事凸显团队在评估语言迁移时的权衡，以及将工具选择与项目能力对齐的重要性。</p>
+</div>
+</div>
+<div class='hn-card' data-tags=''>
 <div class='hn-body'>
 <p class='hn-title'>(27) <a href='https://www.theregister.com/2026/02/16/semantic_ablation_ai_writing/' target='_blank' rel='noopener noreferrer'>Semantic ablation: Why AI writing is generic and boring</a></p>
-<p class='hn-meta'>语义消融：为何AI写作千篇一律、乏味</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 08:12 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>275 points by benji8000</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47049088' target='_blank' rel='noopener noreferrer'>Comments (211)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span></div>
+<p class='hn-meta'>语义消融：为何 AI 写作平淡乏味</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 08:12 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>277 points by benji8000</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47049088' target='_blank' rel='noopener noreferrer'>Comments (214)</a></p>
 <img class='hn-img' src='https://regmedia.co.uk/2021/04/23/dog.jpg' data-full='https://regmedia.co.uk/2021/04/23/dog.jpg' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>Semantic ablation refers to the loss of meaningful content in AI-generated text, which results in generic and uninspiring writing. This happens because language models often prioritize plausible language patterns over deep semantic understanding, limiting creativity and engagement in AI-authored outputs.</p>
-<p class='hn-text-zh'>语义消融指的是AI生成文本中有意义内容的丧失，导致写作千篇一律且乏味。语言模型更注重合理的语言模式，而非深入语义理解，限制了AI创作的创造性和吸引力。</p>
+<p class='hn-text-en'>The article argues that AI-generated writing often feels generic because models lose high-level semantic structure during generation, producing plausible but uninteresting prose. It points to training, objective functions, and evaluation mismatches as root causes and suggests techniques for restoring distinct voice and purposeful variation.</p>
+<p class='hn-text-zh'>文章认为 AI 生成的文本常显得千篇一律，是因为模型在生成过程中丧失了高层语义结构，产出可行但缺乏趣味的文段。文中把问题归结于训练目标与评估不匹配，并提出一些恢复独特风格和有意变异的技术方向。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='AI,Legal'>
+<div class='hn-card' data-tags=''>
 <div class='hn-body'>
-<p class='hn-title'>(28) <a href='https://devblogs.microsoft.com/azure-sql/langchain-with-sqlvectorstore-example/' target='_blank' rel='noopener noreferrer'>Microsoft guide to pirating Harry Potter for LLM training (2024) [removed]</a></p>
-<p class='hn-meta'>微软指导如何盗版《哈利波特》用于大型语言模型训练（2024）[已删除]</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 18, 2026 / 15:19 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>274 points by anonymous908213</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47067759' target='_blank' rel='noopener noreferrer'>Comments (168)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span> <span class='hn-tag hn-tag--orange' data-tag='Legal'>Legal</span></div>
-<p class='hn-text-en'>Microsoft briefly published a controversial guide seemingly instructing how to pirate Harry Potter books for LLM training, sparking backlash over copyright and ethical concerns. The content was quickly removed, underscoring ongoing tensions between data sourcing strategies and legal boundaries in AI development.</p>
-<p class='hn-text-zh'>微软曾短暂发布一份涉及盗版《哈利波特》用于大型语言模型训练的指导，引发版权与伦理争议。该内容迅速被删除，反映出AI数据获取策略与法律边界之间的矛盾。</p>
+<p class='hn-title'>(28) <a href='https://status.pki.goog/incidents/5oJEbcU3ZfMfySTSXXd3' target='_blank' rel='noopener noreferrer'>Google Public CA is down</a></p>
+<p class='hn-meta'>Google 公共证书机构宕机</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 17:05 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>276 points by aloknnikhil</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47055696' target='_blank' rel='noopener noreferrer'>Comments (160)</a></p>
+<img class='hn-img' src='https://status.pki.goog/images/trust-logo.svg' data-full='https://status.pki.goog/images/trust-logo.svg' alt='preview image' loading='lazy'/>
+<p class='hn-text-en'>Google's Public CA experienced an outage, causing issues for TLS certificate issuance or validation in some services. Such CA incidents can have broad knock-on effects for automated provisioning, client trust chains, and services that rely on fresh certificates or CRL/OCSP responses.</p>
+<p class='hn-text-zh'>Google 的公共证书机构发生故障，导致某些服务在 TLS 证书签发或验证方面出现问题。证书机构的故障可能对自动化配置、客户端信任链以及依赖最新证书或 CRL/OCSP 响应的服务产生广泛连锁影响。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Programming,DevOps'>
+<div class='hn-card' data-tags=''>
 <div class='hn-body'>
 <p class='hn-title'>(29) <a href='https://practical.engineering/blog/2026/2/17/so-you-want-to-build-a-tunnel' target='_blank' rel='noopener noreferrer'>So you want to build a tunnel</a></p>
-<p class='hn-meta'>如果你想建造一条隧道</p>
+<p class='hn-meta'>所以你想建一条隧道</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 08:59 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>271 points by crescit_eundo</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47049718' target='_blank' rel='noopener noreferrer'>Comments (108)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span> <span class='hn-tag hn-tag--indigo' data-tag='DevOps'>DevOps</span></div>
 <img class='hn-img' src='http://static1.squarespace.com/static/55ac34e4e4b0170ef54be632/55ac3907e4b03d1c8c9deff1/69949856d3302d5668e7e2d6/1771346099695/Hobby-Tunnels_1a+%281%29.jpg?format=1500w' data-full='http://static1.squarespace.com/static/55ac34e4e4b0170ef54be632/55ac3907e4b03d1c8c9deff1/69949856d3302d5668e7e2d6/1771346099695/Hobby-Tunnels_1a+%281%29.jpg?format=1500w' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>Building tunnels involves complex engineering challenges including geological analysis, structural integrity, and ventilation systems. Effective tunneling requires balancing safety, cost, and environmental impact, making it a highly specialized field critical for urban infrastructure and transportation.</p>
-<p class='hn-text-zh'>隧道建设涉及地质分析、结构安全和通风系统等复杂工程难题。有效的隧道施工需权衡安全、成本与环境影响，是城市基础设施和交通的关键领域。</p>
+<p class='hn-text-en'>An engineering primer explains the technical, geological, and logistical challenges of designing and constructing tunnels, from alignment and boring methods to ventilation and emergency systems. It emphasizes cost drivers, risk management, and how long timelines and regulatory hurdles shape major tunneling projects.</p>
+<p class='hn-text-zh'>一篇工程入门文介绍了设计和建造隧道的技术、地质与后勤难点，包括线路选择、掘进方法以及通风与应急系统。文章强调了成本驱动因素、风险管理，以及漫长工期和监管障碍如何影响大型隧道工程。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Legal,Programming,Web'>
+<div class='hn-card' data-tags=''>
 <div class='hn-body'>
-<p class='hn-title'>(30) <a href='https://github.com/LadybirdBrowser/ladybird/issues/933' target='_blank' rel='noopener noreferrer'>Closing this as we are no longer pursuing Swift adoption</a></p>
-<p class='hn-meta'>停止推进Swift采纳的决定</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 18, 2026 / 15:08 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>269 points by thewavelength</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47067678' target='_blank' rel='noopener noreferrer'>Comments (213)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--orange' data-tag='Legal'>Legal</span> <span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span> <span class='hn-tag hn-tag--cyan' data-tag='Web'>Web</span></div>
-<img class='hn-img' src='https://opengraph.githubassets.com/bd7753566bc9dda581e2395c7ad9fe1b8dd77c835a32a361e79ca73d3871572e/LadybirdBrowser/ladybird/issues/933' data-full='https://opengraph.githubassets.com/bd7753566bc9dda581e2395c7ad9fe1b8dd77c835a32a361e79ca73d3871572e/LadybirdBrowser/ladybird/issues/933' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>The Ladybird Browser project has decided to halt efforts to adopt the Swift programming language, possibly due to compatibility, maintenance, or ecosystem concerns. This decision reflects the ongoing challenges projects face when integrating newer languages into established codebases.</p>
-<p class='hn-text-zh'>Ladybird浏览器项目决定停止推进Swift语言的采纳，可能因兼容性、维护或生态系统问题。此举体现了项目在将新语言整合进现有代码库时面临的挑战。</p>
-</div>
-</div>
-<div class='hn-card' data-tags='Science,Privacy'>
-<div class='hn-body'>
-<p class='hn-title'>(31) <a href='https://aeris.edbn.me/?city=SFO' target='_blank' rel='noopener noreferrer'>I converted 2D conventional flight tracking into 3D</a></p>
-<p class='hn-meta'>我把传统二维航班跟踪变成了三维</p>
+<p class='hn-title'>(30) <a href='https://aeris.edbn.me/?city=SFO' target='_blank' rel='noopener noreferrer'>I converted 2D conventional flight tracking into 3D</a></p>
+<p class='hn-meta'>我把二维常规航班追踪转成了三维</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 06:43 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>267 points by kewonit</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47048004' target='_blank' rel='noopener noreferrer'>Comments (52)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--teal' data-tag='Science'>Science</span> <span class='hn-tag hn-tag--red' data-tag='Privacy'>Privacy</span></div>
-<p class='hn-text-en'>A developer transformed conventional 2D flight tracking visualizations into immersive 3D models, enhancing the understanding of flight paths and altitudes. This innovation offers a richer, more intuitive perspective on air traffic patterns, useful for enthusiasts and professionals alike.</p>
-<p class='hn-text-zh'>一位开发者将传统二维航班跟踪视觉化升级为沉浸式三维模型，更直观展示飞行路径和高度。此创新为航空交通模式提供了更丰富且易懂的视角，对爱好者和专业人士都有价值。</p>
+<p class='hn-text-en'>The author converted conventional 2D flight-tracking data into 3D visualizations for airports like SFO, enriching situational awareness with altitude and trajectory insights. The 3D view helps spot vertical patterns, approach paths, and congestions that 2D overlays can obscure, useful for enthusiasts and operational analysis alike.</p>
+<p class='hn-text-zh'>作者将传统的二维航班追踪数据转换为三维可视化（如 SFO），通过高度与轨迹展现增强了态势感知。三维视图有助于识别垂直模式、进场航线与拥堵情况，这些在二维叠加图中往往不易看清，对爱好者和运营分析都有价值。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Culture'>
+<div class='hn-card' data-tags=''>
+<div class='hn-body'>
+<p class='hn-title'>(31) <a href='https://elliotbonneville.com/the-only-moat-left-is-money/' target='_blank' rel='noopener noreferrer'>The only moat left is money?</a></p>
+<p class='hn-meta'>剩下的唯一护城河是钱？</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 18, 2026 / 08:07 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>266 points by elliotbnvl</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47062521' target='_blank' rel='noopener noreferrer'>Comments (364)</a></p>
+<p class='hn-text-en'>The essay argues that in some tech markets, capital—ability to burn cash and outspend rivals—has become the primary moat, rather than technological advantage or product differentiation. It examines implications for competition, innovation incentives, and market structure when money, not sustainable defensibility, decides winners.</p>
+<p class='hn-text-zh'>文章指出在某些科技市场中，资本——即烧钱并压倒对手的能力——已经成为主要护城河，而非技术优势或产品差异化。文中探讨了当金钱而非可持续的防御能力决定胜负时，对竞争、创新激励和市场结构的影响。</p>
+</div>
+</div>
+<div class='hn-card' data-tags=''>
 <div class='hn-body'>
 <p class='hn-title'>(32) <a href='https://kotaku.com/discord-alternative-teamspeak-age-verification-check-rivals-2000669693' target='_blank' rel='noopener noreferrer'>Discord Rival Gets Overwhelmed by Exodus of Players Fleeing Age-Verification</a></p>
-<p class='hn-meta'>Discord竞争对手因年龄验证引发用户大规模流失</p>
+<p class='hn-meta'>Discord 竞争者因年龄验证引发玩家大量流失而不堪重负</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 09:40 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>261 points by thunderbong</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47050376' target='_blank' rel='noopener noreferrer'>Comments (143)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--rose' data-tag='Culture'>Culture</span></div>
 <img class='hn-img' src='https://kotaku.com/app/uploads/2026/02/teamspeak1.jpg' data-full='https://kotaku.com/app/uploads/2026/02/teamspeak1.jpg' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>A Discord alternative has been overwhelmed by a mass exodus of users fleeing its newly introduced age-verification requirements. This reflects the user backlash against intrusive identity checks, which can severely impact community platforms.</p>
-<p class='hn-text-zh'>一家Discord竞争平台因引入年龄验证遭遇用户大规模流失。此事反映出用户对过度身份审查的反感，严重影响社区平台的发展。</p>
+<p class='hn-text-en'>A Discord rival saw a mass exodus of users after implementing strict age-verification checks, overwhelming the platform with account issues and moderation load. The episode illustrates the trade-off between regulatory compliance and user experience, and how friction can erode network effects for community platforms.</p>
+<p class='hn-text-zh'>一款 Discord 的替代平台在实行严格年龄验证后遭遇用户大规模流失，导致平台被突增的账户问题和审核负担压垮。该事件展示了合规要求与用户体验之间的权衡，以及摩擦如何侵蚀社区平台的网络效应。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Business'>
+<div class='hn-card' data-tags=''>
 <div class='hn-body'>
-<p class='hn-title'>(33) <a href='https://elliotbonneville.com/the-only-moat-left-is-money/' target='_blank' rel='noopener noreferrer'>The only moat left is money?</a></p>
-<p class='hn-meta'>最后的护城河只有资金？</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 18, 2026 / 08:07 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>258 points by elliotbnvl</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47062521' target='_blank' rel='noopener noreferrer'>Comments (355)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--amber' data-tag='Business'>Business</span></div>
-<p class='hn-text-en'>This piece argues that in today’s tech landscape, financial resources have become the predominant moat protecting companies from competition. With technological barriers eroding, sustained capital enables dominance through hiring, marketing, and acquisition.</p>
-<p class='hn-text-zh'>文章认为，如今科技领域中，资金已成为企业抵御竞争的主要护城河。随着技术壁垒减弱，持续的资本投入可通过招聘、营销和收购维持优势。</p>
-</div>
-</div>
-<div class='hn-card' data-tags='Security,AI,Privacy'>
-<div class='hn-body'>
-<p class='hn-title'>(34) <a href='https://www.bleepingcomputer.com/news/microsoft/microsoft-says-bug-causes-copilot-to-summarize-confidential-emails/' target='_blank' rel='noopener noreferrer'>Microsoft says bug causes Copilot to summarize confidential emails</a></p>
-<p class='hn-meta'>微软称漏洞导致Copilot总结机密邮件</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 18, 2026 / 04:16 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>252 points by tablets</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47060202' target='_blank' rel='noopener noreferrer'>Comments (66)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--red' data-tag='Security'>Security</span> <span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span> <span class='hn-tag hn-tag--red' data-tag='Privacy'>Privacy</span></div>
+<p class='hn-title'>(33) <a href='https://www.bleepingcomputer.com/news/microsoft/microsoft-says-bug-causes-copilot-to-summarize-confidential-emails/' target='_blank' rel='noopener noreferrer'>Microsoft says bug causes Copilot to summarize confidential emails</a></p>
+<p class='hn-meta'>微软称漏洞导致 Copilot 摘要机密邮件</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 18, 2026 / 04:16 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>256 points by tablets</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47060202' target='_blank' rel='noopener noreferrer'>Comments (68)</a></p>
 <img class='hn-img' src='https://www.bleepstatic.com/content/hl-images/2025/09/16/Copilot_headpic.jpg' data-full='https://www.bleepstatic.com/content/hl-images/2025/09/16/Copilot_headpic.jpg' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>A bug in Microsoft Copilot caused the AI assistant to summarize confidential emails, raising privacy and security concerns. This incident highlights the risks of deploying AI tools that access sensitive information without proper safeguards.</p>
-<p class='hn-text-zh'>微软表示Copilot的漏洞导致AI助手总结机密邮件，引发隐私和安全担忧。此事件凸显未经充分防护的AI工具处理敏感信息的风险。</p>
+<p class='hn-text-en'>Microsoft acknowledged a bug in Copilot that could summarize confidential emails, potentially exposing sensitive content via assistant features. This incident highlights privacy risks of AI assistants integrated into corporate mailflows and the need for strict context-awareness and access controls in such tools.</p>
+<p class='hn-text-zh'>微软承认 Copilot 存在一个漏洞，可能将机密邮件内容生成摘要，从而有泄露敏感信息的风险。此事凸显了将 AI 助手整合入企业邮箱流时的隐私风险，强调需要在这些工具中实施严格的上下文感知和访问控制。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Security'>
+<div class='hn-card' data-tags=''>
 <div class='hn-body'>
-<p class='hn-title'>(35) <a href='https://letsencrypt.org/2026/02/18/dns-persist-01.html' target='_blank' rel='noopener noreferrer'>DNS-Persist-01: A New Model for DNS-Based Challenge Validation</a></p>
-<p class='hn-meta'>DNS-Persist-01：基于DNS的新挑战验证模型</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 18, 2026 / 10:04 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>251 points by todsacerdoti</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47064047' target='_blank' rel='noopener noreferrer'>Comments (116)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--red' data-tag='Security'>Security</span></div>
-<img class='hn-img' src='https://letsencrypt.org/images/LetsEncrypt-SocialShare.png' data-full='https://letsencrypt.org/images/LetsEncrypt-SocialShare.png' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>DNS-Persist-01 introduces a novel approach for DNS-based domain validation in certificate issuance, aiming to improve reliability and security of automated challenge-response mechanisms. This could enhance the robustness of certificate authorities like Let's Encrypt.</p>
-<p class='hn-text-zh'>DNS-Persist-01提出一种基于DNS的新型域名验证方法，旨在提升自动挑战应答机制的可靠性和安全性。此举有望增强如Let's Encrypt等证书颁发机构的稳健性。</p>
-</div>
-</div>
-<div class='hn-card' data-tags='Show HN,AI'>
-<div class='hn-body'>
-<p class='hn-title'>(36) <a href='https://berksoft.ca/gol/' target='_blank' rel='noopener noreferrer'>Show HN: I wrote a technical history book on Lisp</a></p>
-<p class='hn-meta'>展示HN：我写了一本关于Lisp的技术历史书</p>
+<p class='hn-title'>(34) <a href='https://berksoft.ca/gol/' target='_blank' rel='noopener noreferrer'>Show HN: I wrote a technical history book on Lisp</a></p>
+<p class='hn-meta'>Show HN：我写了一本关于 Lisp 的技术史</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 07:43 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>242 points by cdegroot</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47048733' target='_blank' rel='noopener noreferrer'>Comments (90)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--green' data-tag='Show HN'>Show HN</span> <span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span></div>
 <img class='hn-img' src='https://berksoft.ca/gol/ebook.png' data-full='https://berksoft.ca/gol/ebook.png' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>A developer has authored a detailed technical history of Lisp, tracing its evolution, influence on programming paradigms, and role in AI research. The book serves as a resource for understanding Lisp’s enduring legacy and unique characteristics.</p>
-<p class='hn-text-zh'>一位开发者撰写了关于Lisp的详细技术历史，追溯其发展、对编程范式的影响及在AI研究中的地位。该书是了解Lisp持久影响力和独特性的宝贵资料。</p>
+<p class='hn-text-en'>The author published a technical history book on Lisp, covering the language's evolution, key ideas, and cultural impact within programming. Such a work can serve both as a historical record and a resource for developers interested in the language's principles and influence on modern languages.</p>
+<p class='hn-text-zh'>作者发布了一本关于 Lisp 的技术史，梳理了该语言的演进、核心思想及其在编程文化中的影响。此书既可作为历史记录，也能为对语言原理及其对现代语言影响感兴趣的开发者提供参考。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Programming,Hardware'>
+<div class='hn-card' data-tags=''>
 <div class='hn-body'>
-<p class='hn-title'>(37) <a href='https://www.vectorware.com/blog/async-await-on-gpu/' target='_blank' rel='noopener noreferrer'>Async/Await on the GPU</a></p>
-<p class='hn-meta'>GPU上的Async/Await实现</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 08:53 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>223 points by Philpax</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47049628' target='_blank' rel='noopener noreferrer'>Comments (54)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span> <span class='hn-tag hn-tag--slate' data-tag='Hardware'>Hardware</span></div>
+<p class='hn-title'>(35) <a href='https://www.gamingonlinux.com/2026/02/minecraft-java-is-switching-from-opengl-to-vulkan-for-the-vibrant-visuals-update/' target='_blank' rel='noopener noreferrer'>Minecraft Java is switching from OpenGL to Vulkan</a></p>
+<p class='hn-meta'>Minecraft Java 将从 OpenGL 转向 Vulkan</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 18, 2026 / 17:55 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>236 points by tuananh</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47068948' target='_blank' rel='noopener noreferrer'>Comments (111)</a></p>
+<img class='hn-img' src='https://www.gamingonlinux.com/uploads/articles/tagline_images/1519041173id28520gol.jpg' data-full='https://www.gamingonlinux.com/uploads/articles/tagline_images/1519041173id28520gol.jpg' alt='preview image' loading='lazy'/>
+<p class='hn-text-en'>Minecraft Java is switching its rendering backend from OpenGL to Vulkan as part of a visual upgrade, promising better performance and more modern GPU features. The move reflects broader industry trends toward explicit, lower-level graphics APIs that offer improved multi-threading and driver predictability.</p>
+<p class='hn-text-zh'>Minecraft Java 将其渲染后端从 OpenGL 改为 Vulkan，作为视觉升级的一部分，承诺带来更好的性能和现代 GPU 功能。此举符合业界朝向更底层、更明确的图形 API 的趋势，这类 API 在多线程和驱动可预测性方面更有优势。</p>
+</div>
+</div>
+<div class='hn-card' data-tags=''>
+<div class='hn-body'>
+<p class='hn-title'>(36) <a href='https://www.vectorware.com/blog/async-await-on-gpu/' target='_blank' rel='noopener noreferrer'>Async/Await on the GPU</a></p>
+<p class='hn-meta'>GPU 上的 Async/Await</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 08:53 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>224 points by Philpax</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47049628' target='_blank' rel='noopener noreferrer'>Comments (54)</a></p>
 <img class='hn-img' src='https://www.vectorware.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Fvectorware_logo.6d5f5210.png&w=640&q=75&dpl=dpl_AM1C5nwhzYXTUSarDfD6tMzFtB8g' data-full='https://www.vectorware.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Fvectorware_logo.6d5f5210.png&w=640&q=75&dpl=dpl_AM1C5nwhzYXTUSarDfD6tMzFtB8g' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>This explores the implementation of async/await programming patterns on GPUs, enabling asynchronous computation for more efficient parallel processing. Such advances could simplify GPU programming and improve performance in compute-intensive tasks.</p>
-<p class='hn-text-zh'>该内容探讨了在GPU上实现async/await异步编程模式，促进更高效的并行计算。此技术进展有望简化GPU编程并提升高负载任务性能。</p>
+<p class='hn-text-en'>The post explores implementing async/await-style concurrency on GPUs, tackling challenges like scheduling, memory models, and latency hiding in massively parallel hardware. If practical, these ideas could simplify GPU programming by expressing asynchronous workflows more naturally, but they require runtime and hardware support to be efficient.</p>
+<p class='hn-text-zh'>文章探讨在 GPU 上实现类似 async/await 的并发模型，涉及在大规模并行硬件中调度、内存模型与隐藏延迟等挑战。若可行，这些想法能通过更自然地表达异步工作流来简化 GPU 编程，但要高效运行仍需运行时和硬件层面的支持。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Politics'>
+<div class='hn-card' data-tags=''>
 <div class='hn-body'>
-<p class='hn-title'>(38) <a href='https://arstechnica.com/tech-policy/2026/02/stephen-colbert-says-cbs-forbid-interview-of-democrat-because-of-fcc-threat/' target='_blank' rel='noopener noreferrer'>Stephen Colbert says CBS forbid interview of Democrat because of FCC threat</a></p>
-<p class='hn-meta'>斯蒂芬·科尔伯特称CBS因FCC威胁禁止采访民主党人</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 11:20 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>218 points by voxadam</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47051793' target='_blank' rel='noopener noreferrer'>Comments (72)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--orange' data-tag='Politics'>Politics</span></div>
+<p class='hn-title'>(37) <a href='https://arstechnica.com/tech-policy/2026/02/stephen-colbert-says-cbs-forbid-interview-of-democrat-because-of-fcc-threat/' target='_blank' rel='noopener noreferrer'>Stephen Colbert says CBS forbid interview of Democrat because of FCC threat</a></p>
+<p class='hn-meta'>斯蒂芬·科尔伯特称 CBS 禁止播出民主党人采访因 FCC 威胁</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 11:20 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>219 points by voxadam</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47051793' target='_blank' rel='noopener noreferrer'>Comments (72)</a></p>
 <img class='hn-img' src='https://cdn.arstechnica.net/wp-content/uploads/2026/02/stephen-colbert-1152x648-1771352733.jpg' data-full='https://cdn.arstechnica.net/wp-content/uploads/2026/02/stephen-colbert-1152x648-1771352733.jpg' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>Stephen Colbert revealed that CBS barred him from interviewing a Democrat due to alleged threats from the FCC, highlighting growing concerns about regulatory pressure on media content. This incident raises questions about censorship and editorial independence in broadcast journalism.</p>
-<p class='hn-text-zh'>斯蒂芬·科尔伯特透露CBS因FCC威胁禁止其采访一位民主党人，引发对监管压力影响媒体内容的担忧。此事质疑了广播新闻中的审查与编辑独立性。</p>
+<p class='hn-text-en'>Stephen Colbert says CBS barred him from airing an interview with a Democratic representative because of an FCC enforcement threat, suggesting regulatory intimidation influenced programming choices. The claim raises concerns about chilling effects on political speech and editorial independence in broadcast media.</p>
+<p class='hn-text-zh'>斯蒂芬·科尔伯特称 CBS 因 FCC 的执法威胁而禁止播出对一位民主党众议员的采访，暗示监管压力影响了节目安排。此说法引发了对监管恐慌效应以及广播媒体新闻独立性的关注。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Science,Space'>
+<div class='hn-card' data-tags=''>
+<div class='hn-body'>
+<p class='hn-title'>(38) <a href='https://eutechmap.com/map' target='_blank' rel='noopener noreferrer'>European Tech Alternatives</a></p>
+<p class='hn-meta'>欧洲科技替代方案</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 18, 2026 / 21:07 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>218 points by puppion</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47070142' target='_blank' rel='noopener noreferrer'>Comments (142)</a></p>
+<img class='hn-img' src='https://eutechmap.com/og-image.png' data-full='https://eutechmap.com/og-image.png' alt='preview image' loading='lazy'/>
+<p class='hn-text-en'>A map catalogs European alternatives to major tech services, aiming to showcase regional projects and vendors that offer privacy-friendly or sovereignty-aligned options. It provides a quick reference for organizations seeking to reduce dependence on big global platforms by adopting European-based tools and providers.</p>
+<p class='hn-text-zh'>一份地图汇总了欧洲可替代主要科技服务的方案，旨在展示符合隐私或主权要求的区域项目与供应商。它为希望通过采用欧洲本地工具和提供商减少对大型全球平台依赖的组织提供了便捷参考。</p>
+</div>
+</div>
+<div class='hn-card' data-tags=''>
 <div class='hn-body'>
 <p class='hn-title'>(39) <a href='https://science.nasa.gov/climate-change/evidence/' target='_blank' rel='noopener noreferrer'>There is unequivocal evidence that Earth is warming (2024)</a></p>
-<p class='hn-meta'>确凿证据表明地球正在变暖（2024年）</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 18, 2026 / 12:09 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>206 points by doener</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47065678' target='_blank' rel='noopener noreferrer'>Comments (226)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--teal' data-tag='Science'>Science</span> <span class='hn-tag hn-tag--teal' data-tag='Space'>Space</span></div>
+<p class='hn-meta'>有确凿证据表明地球在变暖（2024）</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 18, 2026 / 12:09 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>215 points by doener</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47065678' target='_blank' rel='noopener noreferrer'>Comments (233)</a></p>
 <img class='hn-img' src='https://assets.science.nasa.gov/content/dam/science/esd/climate/internal_resources/2715/evidence_banner_new_1920.jpeg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg' data-full='https://assets.science.nasa.gov/content/dam/science/esd/climate/internal_resources/2715/evidence_banner_new_1920.jpeg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>Scientific evidence from NASA confirms unequivocally that Earth’s climate is warming, driven primarily by human activities. This reinforces the urgency for global climate action to mitigate environmental and societal impacts.</p>
-<p class='hn-text-zh'>NASA的科学证据明确显示地球气候正在变暖，主要由人类活动引起。进一步强调全球气候行动的紧迫性，以减缓环境和社会影响。</p>
+<p class='hn-text-en'>A summary presents unequivocal evidence that Earth is warming, compiling temperature records, ice loss, sea-level rise, and ecological impacts as of 2024. The collection reinforces the scientific consensus and underlines the urgency for mitigation and adaptation policies informed by these observed trends.</p>
+<p class='hn-text-zh'>一份汇总展示了确凿证据表明地球正在变暖，集合了气温记录、冰层消融、海平面上升与生态影响等至 2024 年的数据。该资料强化了科学共识，并强调基于这些观测趋势采取缓解与适应政策的紧迫性。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='AI'>
+<div class='hn-card' data-tags=''>
 <div class='hn-body'>
 <p class='hn-title'>(40) <a href='https://martinfowler.com/fragments/2026-02-18.html' target='_blank' rel='noopener noreferrer'>The Future of AI Software Development</a></p>
-<p class='hn-meta'>人工智能软件开发的未来</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 18, 2026 / 08:08 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>187 points by nthypes</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47062534' target='_blank' rel='noopener noreferrer'>Comments (137)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span></div>
+<p class='hn-meta'>AI 软件开发的未来</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 18, 2026 / 08:08 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>189 points by nthypes</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47062534' target='_blank' rel='noopener noreferrer'>Comments (138)</a></p>
 <img class='hn-img' src='https://martinfowler.com/logo-sq.png' data-full='https://martinfowler.com/logo-sq.png' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>The future of AI software development involves deeper integration of AI tools to augment coding, testing, and deployment processes. This evolution promises higher productivity but raises challenges around trust, correctness, and human oversight.</p>
-<p class='hn-text-zh'>人工智能软件开发的未来将更深入结合AI工具，辅助编码、测试和部署。虽能提升生产力，但也带来信任、正确性及人类监督的挑战。</p>
+<p class='hn-text-en'>A forward-looking piece discusses how AI will reshape software development workflows, from coding assistants and automated testing to higher-level design synthesis. It argues that teams must redesign processes, tooling, and review practices to capture productivity benefits while managing risks like hallucinations and degraded code quality.</p>
+<p class='hn-text-zh'>一篇前瞻性文章讨论了 AI 将如何重塑软件开发流程，涵盖从代码助手与自动化测试到更高层的设计生成。作者认为团队需要重构流程、工具和评审机制，以在管理幻觉和代码质量风险的同时，真正获取生产力提升。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Finance'>
+<div class='hn-card' data-tags=''>
 <div class='hn-body'>
-<p class='hn-title'>(41) <a href='https://www.governance.fyi/p/americas-pensions-cant-beat-a-vanguard' target='_blank' rel='noopener noreferrer'>America's pensions can't beat Vanguard but they can close a hospital</a></p>
-<p class='hn-meta'>美国养老金基金击败不了先锋基金，却能关闭医院</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 07:04 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>183 points by bigbobbeeper</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47048248' target='_blank' rel='noopener noreferrer'>Comments (341)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--amber' data-tag='Finance'>Finance</span></div>
-<img class='hn-img' src='https://substackcdn.com/image/fetch/$s_!9d7o!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9a08e49a-c4f1-4a37-9895-98cb79beaf5c_840x555.jpeg' data-full='https://substackcdn.com/image/fetch/$s_!9d7o!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9a08e49a-c4f1-4a37-9895-98cb79beaf5c_840x555.jpeg' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>Analysis shows U.S. pension funds underperform compared to Vanguard index funds but possess enough power to affect local economies, including hospital closures. This points to governance and allocation issues in public pension management.</p>
-<p class='hn-text-zh'>分析表明美国养老金基金表现不及先锋指数基金，但影响力足以导致医院关闭等地方经济变化。暴露出公共养老金治理和资金配置问题。</p>
-</div>
-</div>
-<div class='hn-card' data-tags='Culture'>
-<div class='hn-body'>
-<p class='hn-title'>(42) <a href='https://www.experimental-history.com/p/i-swear-the-ufo-is-coming-any-minute' target='_blank' rel='noopener noreferrer'>I swear the UFO is coming any minute</a></p>
-<p class='hn-meta'>我发誓UFO随时要来了</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 14:10 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>182 points by Ariarule</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47054134' target='_blank' rel='noopener noreferrer'>Comments (57)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--rose' data-tag='Culture'>Culture</span></div>
+<p class='hn-title'>(41) <a href='https://www.experimental-history.com/p/i-swear-the-ufo-is-coming-any-minute' target='_blank' rel='noopener noreferrer'>I swear the UFO is coming any minute</a></p>
+<p class='hn-meta'>我发誓 UFO 随时会来</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 14:10 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>184 points by Ariarule</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47054134' target='_blank' rel='noopener noreferrer'>Comments (57)</a></p>
 <img class='hn-img' src='https://substackcdn.com/image/fetch/$s_!Gu_i!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fda97b8fd-f1f0-4265-8cd6-e9ea0f16a210_1187x1709.jpeg' data-full='https://substackcdn.com/image/fetch/$s_!Gu_i!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fda97b8fd-f1f0-4265-8cd6-e9ea0f16a210_1187x1709.jpeg' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>This personal narrative captures the anticipation and cultural fascination with UFO sightings, reflecting broader interest in extraterrestrial phenomena and the challenges of distinguishing credible evidence from speculation.</p>
-<p class='hn-text-zh'>这篇个人叙述表达了对UFO出现的期待和文化迷思，反映人们对外星现象的关注及辨别可信证据与猜测的难题。</p>
+<p class='hn-text-en'>A lighthearted or investigative piece tracks recurring UFO sightings and the pattern of anticipation around them, blending skepticism and cultural commentary. It reflects on how desire for extraordinary events, media cycles, and social dynamics fuel repeated claims despite weak evidence.</p>
+<p class='hn-text-zh'>一篇带有调侃或调查意味的文章追踪反复出现的不明飞行物目击事件及围绕它们的期待情绪，兼具怀疑与文化评论。文章反思了对非凡事件的渴望、媒体循环与社交动力如何在证据不足时仍推动不断的主张传播。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Programming'>
+<div class='hn-card' data-tags=''>
+<div class='hn-body'>
+<p class='hn-title'>(42) <a href='https://www.governance.fyi/p/americas-pensions-cant-beat-a-vanguard' target='_blank' rel='noopener noreferrer'>America's pensions can't beat Vanguard but they can close a hospital</a></p>
+<p class='hn-meta'>美国养老基金打不过先锋，但能关掉一家医院</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 07:04 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>183 points by bigbobbeeper</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47048248' target='_blank' rel='noopener noreferrer'>Comments (341)</a></p>
+<img class='hn-img' src='https://substackcdn.com/image/fetch/$s_!9d7o!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9a08e49a-c4f1-4a37-9895-98cb79beaf5c_840x555.jpeg' data-full='https://substackcdn.com/image/fetch/$s_!9d7o!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9a08e49a-c4f1-4a37-9895-98cb79beaf5c_840x555.jpeg' alt='preview image' loading='lazy'/>
+<p class='hn-text-en'>An analysis shows public pension funds struggle to match low-cost index returns like Vanguard's, and in trying to outperform they sometimes make local investment choices that impact communities—such as hospital closures. The piece explores the governance and political pressures that shape pension allocations, often with unintended social consequences.</p>
+<p class='hn-text-zh'>一篇分析指出，美国公共养老基金难以匹敌像先锋这种低成本指数的回报，且为追求超额收益会做出影响本地社区的投资决策，例如导致医院关闭。文章探讨了影响养老基金配置的治理与政治压力，这些决策常带来意料之外的社会后果。</p>
+</div>
+</div>
+<div class='hn-card' data-tags=''>
 <div class='hn-body'>
 <p class='hn-title'>(43) <a href='https://stephango.com/vault' target='_blank' rel='noopener noreferrer'>How I use Obsidian (2023)</a></p>
-<p class='hn-meta'>我如何使用Obsidian（2023年）</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 14:30 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>177 points by hisamafahri</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47054369' target='_blank' rel='noopener noreferrer'>Comments (87)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span></div>
+<p class='hn-meta'>我如何使用 Obsidian（2023）</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 14:30 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>181 points by hisamafahri</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47054369' target='_blank' rel='noopener noreferrer'>Comments (86)</a></p>
 <img class='hn-img' src='https://stephango.com/assets/card.png' data-full='https://stephango.com/assets/card.png' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>The author shares detailed workflows and tips for using Obsidian as a powerful personal knowledge management tool, emphasizing note linking, daily journaling, and customization. This showcases how advanced note-taking can enhance productivity and organization.</p>
-<p class='hn-text-zh'>作者分享了如何高效使用Obsidian进行个人知识管理，重点介绍笔记链接、每日日志和自定义功能。展示了高级笔记工具如何提升效率与组织能力。</p>
+<p class='hn-text-en'>A personal walkthrough of an Obsidian note-taking setup shares folder structure, templates, and plugins that support a long-term knowledge workflow. Practical tips cover linking habits, daily notes, and publishing options, useful for users adapting Obsidian to their own productivity and documentation needs.</p>
+<p class='hn-text-zh'>一篇个人化的 Obsidian 使用指南分享了文件结构、模板和插件，展示如何支持长期知识管理流程。实用建议包括链接习惯、每日笔记与发布选项，对想把 Obsidian 调整为自身生产力与文档需求的用户有参考价值。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Open Source'>
+<div class='hn-card' data-tags=''>
 <div class='hn-body'>
-<p class='hn-title'>(44) <a href='https://eutechmap.com/map' target='_blank' rel='noopener noreferrer'>European Tech Alternatives</a></p>
-<p class='hn-meta'>欧洲科技替代方案</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 18, 2026 / 21:07 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>174 points by puppion</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47070142' target='_blank' rel='noopener noreferrer'>Comments (118)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--green' data-tag='Open Source'>Open Source</span></div>
-<img class='hn-img' src='https://eutechmap.com/og-image.png' data-full='https://eutechmap.com/og-image.png' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>A comprehensive map catalogs European-developed tech alternatives to popular global products, promoting digital sovereignty and local innovation. This initiative supports reducing reliance on foreign tech giants amid geopolitical tensions.</p>
-<p class='hn-text-zh'>一张全面地图汇集了欧洲开发的科技替代品，推动数字主权和本土创新。此举助力在地缘政治紧张中减少对外国科技巨头的依赖。</p>
+<p class='hn-title'>(44) <a href='https://github.com/taleshape-com/shaper' target='_blank' rel='noopener noreferrer'>A DuckDB-based metabase alternative</a></p>
+<p class='hn-meta'>基于 DuckDB 的 Metabase 替代品</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 22:29 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>173 points by wowi42</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47057879' target='_blank' rel='noopener noreferrer'>Comments (40)</a></p>
+<img class='hn-img' src='https://opengraph.githubassets.com/a7f987192fdef4d6e8759fece098e2ebca194cfba087292831de080cc22f8ca8/taleshape-com/shaper' data-full='https://opengraph.githubassets.com/a7f987192fdef4d6e8759fece098e2ebca194cfba087292831de080cc22f8ca8/taleshape-com/shaper' alt='preview image' loading='lazy'/>
+<p class='hn-text-en'>A new project offers a lightweight analytics/metabase alternative built on DuckDB, aiming for fast, local analytic queries with a simpler stack. It targets teams that want easy setup, embedded SQL analytics, and lower operational overhead compared to heavier BI platforms.</p>
+<p class='hn-text-zh'>一个新项目基于 DuckDB 提供轻量级的分析/Metabase 替代方案，主打快速的本地分析查询和更简洁的技术栈。该项目面向那些希望比重量级 BI 平台更易部署、支持内嵌 SQL 分析且运维开销更低的团队。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Gaming'>
+<div class='hn-card' data-tags=''>
 <div class='hn-body'>
-<p class='hn-title'>(45) <a href='https://www.gamingonlinux.com/2026/02/minecraft-java-is-switching-from-opengl-to-vulkan-for-the-vibrant-visuals-update/' target='_blank' rel='noopener noreferrer'>Minecraft Java is switching from OpenGL to Vulkan</a></p>
-<p class='hn-meta'>Minecraft Java版将从OpenGL切换到Vulkan</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 18, 2026 / 17:55 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>173 points by tuananh</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47068948' target='_blank' rel='noopener noreferrer'>Comments (58)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--purple' data-tag='Gaming'>Gaming</span></div>
-<img class='hn-img' src='https://www.gamingonlinux.com/uploads/articles/tagline_images/1519041173id28520gol.jpg' data-full='https://www.gamingonlinux.com/uploads/articles/tagline_images/1519041173id28520gol.jpg' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>Minecraft Java Edition is transitioning its rendering engine from OpenGL to Vulkan for the Vibrant Visuals update, promising improved performance and graphics fidelity. This shift aligns with industry trends toward modern, low-level graphics APIs.</p>
-<p class='hn-text-zh'>Minecraft Java版为了Vibrant Visuals更新，将渲染引擎从OpenGL切换到Vulkan，提升性能和画质。这符合业界向现代低级图形API发展的趋势。</p>
-</div>
-</div>
-<div class='hn-card' data-tags='Hardware'>
-<div class='hn-body'>
-<p class='hn-title'>(46) <a href='https://www.heise.de/en/news/WD-and-Seagate-confirm-Hard-drives-for-2026-sold-out-11178917.html' target='_blank' rel='noopener noreferrer'>WD and Seagate confirm: Hard drives sold out for 2026</a></p>
-<p class='hn-meta'>西部数据和希捷确认2026年硬盘售罄</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 01:38 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>168 points by layer8</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47045459' target='_blank' rel='noopener noreferrer'>Comments (192)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--slate' data-tag='Hardware'>Hardware</span></div>
-<img class='hn-img' src='https://heise.cloudimg.io/bound/1200x1200/q85.png-lossy-85.webp-lossy-85.foil1/_www-heise-de_/imgs/18/5/0/2/8/9/8/8/shutterstock_1489921727-f9a12dae7485f3c3.jpg' data-full='https://heise.cloudimg.io/bound/1200x1200/q85.png-lossy-85.webp-lossy-85.foil1/_www-heise-de_/imgs/18/5/0/2/8/9/8/8/shutterstock_1489921727-f9a12dae7485f3c3.jpg' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>Western Digital and Seagate announced a complete sell-out of hard drives for 2026, signaling tight supply chains and potential challenges for data storage markets. This scarcity could drive adoption of alternative storage solutions or increased prices.</p>
-<p class='hn-text-zh'>西部数据和希捷宣布2026年硬盘已售罄，表明供应链紧张，存储市场面临挑战。硬盘短缺可能推动替代存储方案采用或价格上涨。</p>
-</div>
-</div>
-<div class='hn-card' data-tags='Open Source,Programming,Data'>
-<div class='hn-body'>
-<p class='hn-title'>(47) <a href='https://github.com/taleshape-com/shaper' target='_blank' rel='noopener noreferrer'>A DuckDB-based metabase alternative</a></p>
-<p class='hn-meta'>基于DuckDB的Metabase替代方案</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 22:29 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>167 points by wowi42</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47057879' target='_blank' rel='noopener noreferrer'>Comments (40)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--green' data-tag='Open Source'>Open Source</span> <span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span> <span class='hn-tag hn-tag--violet' data-tag='Data'>Data</span></div>
-<img class='hn-img' src='https://opengraph.githubassets.com/f3992b363c1eed161bd69e4d2c86988963e5da4321aa9f07fe255d0cd308eb68/taleshape-com/shaper' data-full='https://opengraph.githubassets.com/f3992b363c1eed161bd69e4d2c86988963e5da4321aa9f07fe255d0cd308eb68/taleshape-com/shaper' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>This project offers an alternative to Metabase for business intelligence, built on the lightweight DuckDB database, emphasizing simplicity and high performance for analytics workloads. It targets users who want a more streamlined and resource-efficient BI tool.</p>
-<p class='hn-text-zh'>该项目基于轻量级DuckDB数据库，提供Metabase的替代方案，强调简洁和高效的分析性能。适合追求更简洁且资源友好的商业智能工具的用户。</p>
-</div>
-</div>
-<div class='hn-card' data-tags='Finance'>
-<div class='hn-body'>
-<p class='hn-title'>(48) <a href='https://finbold.com/warren-buffett-dumps-1-7-billion-of-amazon-stock/' target='_blank' rel='noopener noreferrer'>Warren Buffett dumps $1.7B of Amazon stock</a></p>
-<p class='hn-meta'>沃伦·巴菲特抛售17亿美元亚马逊股票</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 18, 2026 / 09:56 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>151 points by fauria</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47063950' target='_blank' rel='noopener noreferrer'>Comments (162)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--amber' data-tag='Finance'>Finance</span></div>
+<p class='hn-title'>(45) <a href='https://finbold.com/warren-buffett-dumps-1-7-billion-of-amazon-stock/' target='_blank' rel='noopener noreferrer'>Warren Buffett dumps $1.7B of Amazon stock</a></p>
+<p class='hn-meta'>沃伦·巴菲特抛售 17 亿美元亚马逊股票</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 18, 2026 / 09:56 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>156 points by fauria</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47063950' target='_blank' rel='noopener noreferrer'>Comments (163)</a></p>
 <img class='hn-img' src='https://assets.finbold.com/uploads/2026/02/Warren-Buffett-dumps-1.7-billion-of-Amazon-stock.jpg' data-full='https://assets.finbold.com/uploads/2026/02/Warren-Buffett-dumps-1.7-billion-of-Amazon-stock.jpg' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>Warren Buffett's Berkshire Hathaway sold $1.7 billion worth of Amazon shares, signaling a shift in investment strategy or valuation outlook for the tech giant. This move may influence market perceptions of Amazon’s growth prospects.</p>
-<p class='hn-text-zh'>沃伦·巴菲特旗下伯克希尔哈撒韦公司抛售价值17亿美元的亚马逊股票，显示其投资策略或对亚马逊估值的调整。此举可能影响市场对亚马逊增长前景的看法。</p>
+<p class='hn-text-en'>Warren Buffett's investment vehicle reportedly sold about $1.7 billion of Amazon shares, a sizable portfolio move that may reflect valuation adjustments or portfolio rebalancing. Big sales from prominent investors tend to influence market perceptions, though motivations can range from tactical reallocations to risk management.</p>
+<p class='hn-text-zh'>据称沃伦·巴菲特的投资机构抛售了约 17 亿美元的亚马逊股票，这一大手笔交易可能反映估值调整或资产组合再平衡。知名投资者的大额抛售常会影响市场观感，但其动机可能包括策略性再配置或风险管理等多种原因。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Politics'>
+<div class='hn-card' data-tags=''>
 <div class='hn-body'>
-<p class='hn-title'>(49) <a href='https://twitter.com/MeshnetCapital/status/2023573563559547180' target='_blank' rel='noopener noreferrer'>A sitting US president launched two memecoins that wiped out $4.3B+</a></p>
-<p class='hn-meta'>一位在任美国总统推出两款毁灭性山寨币，损失超43亿美元</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 09:34 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>151 points by doener</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47050300' target='_blank' rel='noopener noreferrer'>Comments (70)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--orange' data-tag='Politics'>Politics</span></div>
+<p class='hn-title'>(46) <a href='https://twitter.com/MeshnetCapital/status/2023573563559547180' target='_blank' rel='noopener noreferrer'>A sitting US president launched two memecoins that wiped out $4.3B+</a></p>
+<p class='hn-meta'>现任美国总统推出两种抹去 43 亿美元的迷因币</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 09:34 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>152 points by doener</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47050300' target='_blank' rel='noopener noreferrer'>Comments (71)</a></p>
 <img class='hn-img' src='https://pbs.twimg.com/media/HBUtWRNbcAAW6qT.jpg:large' data-full='https://pbs.twimg.com/media/HBUtWRNbcAAW6qT.jpg:large' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>A sitting U.S. president is implicated in launching two meme cryptocurrencies that resulted in combined losses exceeding $4.3 billion, highlighting risks and scams in the crypto space tied to high-profile endorsements or promotions.</p>
-<p class='hn-text-zh'>一位在任美国总统涉嫌推出两款山寨币，导致累计损失超43亿美元，凸显了加密领域中与高调代言相关的风险及诈骗问题。</p>
+<p class='hn-text-en'>A claim circulated that a sitting US president launched two memecoins which subsequently collapsed, wiping out over $4.3 billion; if true, it showcases how celebrity or political association can massively inflate speculative token markets. Such incidents highlight the fragility of memecoins and the outsized impact of endorsements or high-profile involvement.</p>
+<p class='hn-text-zh'>有说法称一位现任美国总统推出了两种迷因币，之后崩盘导致超过 43 亿美元蒸发；若属实，这显示了名人或政治人物关联如何能大幅推高投机性代币市场。此类事件凸显迷因币的脆弱性以及名人背书或高调参与的巨大影响。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Gaming,AI'>
+<div class='hn-card' data-tags=''>
 <div class='hn-body'>
-<p class='hn-title'>(50) <a href='https://girl.surgery/chess' target='_blank' rel='noopener noreferrer'>Chess engines do weird stuff</a></p>
-<p class='hn-meta'>国际象棋引擎的奇怪行为</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 09:07 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>151 points by admiringly</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47049845' target='_blank' rel='noopener noreferrer'>Comments (81)</a></p>
-<div class='hn-tags'><span class='hn-tag hn-tag--purple' data-tag='Gaming'>Gaming</span> <span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span></div>
-<p class='hn-text-en'>Chess engines sometimes make unexpected or non-intuitive moves that challenge human understanding and highlight the complexity of computational evaluation. These peculiar behaviors have implications for AI interpretability and game theory.</p>
-<p class='hn-text-zh'>国际象棋引擎偶尔会做出非直观的奇怪走法，挑战人类认知并体现计算评估的复杂性。这些异常行为对AI可解释性和博弈理论有重要意义。</p>
+<p class='hn-title'>(47) <a href='https://girl.surgery/chess' target='_blank' rel='noopener noreferrer'>Chess engines do weird stuff</a></p>
+<p class='hn-meta'>象棋引擎会做奇怪的事</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 09:07 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>152 points by admiringly</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47049845' target='_blank' rel='noopener noreferrer'>Comments (81)</a></p>
+<p class='hn-text-en'>An exploration of bizarre behaviors from chess engines shows they sometimes prefer counterintuitive moves due to evaluation quirks, horizon effects, or specific search heuristics. Understanding these artifacts helps players and developers interpret engine recommendations and improve both tuning and human–engine collaboration.</p>
+<p class='hn-text-zh'>对棋类引擎怪异行为的探讨表明，它们有时会因评估奇异、视野效应或搜索启发式而偏好反直觉走法。了解这些现象有助于棋手与开发者更好解读引擎建议，并改进调参与人机协作。</p>
+</div>
+</div>
+<div class='hn-card' data-tags=''>
+<div class='hn-body'>
+<p class='hn-title'>(48) <a href='https://github.com/lopespm/zig-minimal-kernel-x86' target='_blank' rel='noopener noreferrer'>Minimal x86 Kernel Zig</a></p>
+<p class='hn-meta'>最小化 x86 内核（Zig）</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 16:02 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>146 points by lopespm</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47055262' target='_blank' rel='noopener noreferrer'>Comments (62)</a></p>
+<img class='hn-img' src='https://opengraph.githubassets.com/667dddc073e1b27d3b4c6217ff4586e04a2128d8252bd2c58ff7d0e1df2e8052/lopespm/zig-minimal-kernel-x86' data-full='https://opengraph.githubassets.com/667dddc073e1b27d3b4c6217ff4586e04a2128d8252bd2c58ff7d0e1df2e8052/lopespm/zig-minimal-kernel-x86' alt='preview image' loading='lazy'/>
+<p class='hn-text-en'>A minimal x86 kernel written in Zig provides a compact starting point for OS experimentation, demonstrating Zig's applicability beyond userland. Such projects are useful learning tools for low-level programmers who want to explore booting, memory management, and hardware initialization in a modern language.</p>
+<p class='hn-text-zh'>一个用 Zig 编写的最小化 x86 内核为操作系统实验提供了紧凑的起点，展示了 Zig 在用户态之外的适用性。此类项目对想在现代语言中探索引导、内存管理和硬件初始化的低层程序员很有价值。</p>
+</div>
+</div>
+<div class='hn-card' data-tags=''>
+<div class='hn-body'>
+<p class='hn-title'>(49) <a href='https://cepr.org/voxeu/columns/how-ai-affecting-productivity-and-jobs-europe' target='_blank' rel='noopener noreferrer'>How AI is affecting productivity and jobs in Europe</a></p>
+<p class='hn-meta'>AI 如何影响欧洲的生产力与就业</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 18, 2026 / 16:22 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>144 points by pseudolus</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47068320' target='_blank' rel='noopener noreferrer'>Comments (108)</a></p>
+<img class='hn-img' src='https://cepr.org/sites/default/files/styles/og_image/public/2026-02/AdobeStock_1772033845.jpeg?itok=jAPHpqwL,https://cepr.org/themes/nhsc-shared/nhsc_base/assets/img/default-social-share.png' data-full='https://cepr.org/sites/default/files/styles/og_image/public/2026-02/AdobeStock_1772033845.jpeg?itok=jAPHpqwL,https://cepr.org/themes/nhsc-shared/nhsc_base/assets/img/default-social-share.png' alt='preview image' loading='lazy'/>
+<p class='hn-text-en'>A study examines AI's impact on productivity and jobs in Europe, finding nuanced effects across sectors and worker types rather than uniform displacement. The analysis suggests AI can boost productivity where complementary investments and skills exist but may exacerbate inequalities without policy measures for retraining and distribution.</p>
+<p class='hn-text-zh'>一项研究评估了 AI 对欧洲生产力与就业的影响，发现不同部门与劳动力群体受影响各异，而非一致性替代。研究表明在存在配套投资与技能的情况下 AI 可提升生产力，但若无再培训与分配政策，可能会加剧不平等。</p>
+</div>
+</div>
+<div class='hn-card' data-tags=''>
+<div class='hn-body'>
+<p class='hn-title'>(50) <a href='https://downdetector.com/status/youtube/' target='_blank' rel='noopener noreferrer'>YouTube Is Down</a></p>
+<p class='hn-meta'>YouTube 宕机</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Feb 17, 2026 / 17:09 PT</span><span class='hn-sep'> · </span><span class='hn-meta2-points'>144 points by Vaslo</span><span class='hn-sep'> · </span><a class='hn-meta2-comments' href='https://news.ycombinator.com/item?id=47055723' target='_blank' rel='noopener noreferrer'>Comments (42)</a></p>
+<p class='hn-text-en'>YouTube experienced an outage, disrupting streaming, uploads, and access for many users. Such platform-wide interruptions affect creators' revenue and viewers' expectations, and they often prompt scrutiny of redundancy, deployment practices, and outage communication.</p>
+<p class='hn-text-zh'>YouTube 出现宕机，影响了许多用户的流媒体播放、上传与访问。此类平台级中断会波及创作者收入和观众体验，通常也会引发对冗余机制、部署实践及故障沟通的审视。</p>
 </div>
 </div>
 </div>
