@@ -2,6 +2,43 @@ from typing import List, Dict, Optional
 import re
 from datetime import datetime, timedelta
 
+# Tag color mapping: each tag gets a distinct hue for visual differentiation.
+# Colors are defined as CSS class suffixes; actual colors are in hn.css.
+TAG_COLOR_MAP = {
+    "AI":            "blue",
+    "Programming":   "indigo",
+    "Security":      "red",
+    "Science":       "teal",
+    "Business":      "amber",
+    "Finance":       "amber",
+    "Hardware":      "slate",
+    "Open Source":   "green",
+    "Design":        "pink",
+    "Web":           "cyan",
+    "DevOps":        "indigo",
+    "Data":          "violet",
+    "Gaming":        "purple",
+    "Entertainment": "purple",
+    "Politics":      "orange",
+    "Health":        "emerald",
+    "Education":     "sky",
+    "Career":        "sky",
+    "Privacy":       "red",
+    "Legal":         "orange",
+    "Culture":       "rose",
+    "Space":         "teal",
+    "Energy":        "emerald",
+    "Startups":      "amber",
+    "Show HN":       "green",
+}
+
+
+def _tag_html(tag: str) -> str:
+    """Render a single tag as an inline badge with color class and data attribute."""
+    color = TAG_COLOR_MAP.get(tag, "slate")
+    safe_tag = tag.replace('"', '&quot;')
+    return f"<span class='hn-tag hn-tag--{color}' data-tag='{safe_tag}'>{tag}</span>"
+
 
 def render_markdown(
     items: List[Dict],
@@ -99,9 +136,12 @@ def render_markdown(
         summary_en: str = it.get("summary_en", "")
         summary_zh: str = it.get("summary_zh", "")
         image_url: Optional[str] = it.get("image_url")
+        tags: List[str] = it.get("tags", [])
 
+        # Build data-tags attribute for future JS filtering
+        tags_data = ",".join(tags) if tags else ""
 
-        lines.append("<div class='hn-card'>")
+        lines.append(f"<div class='hn-card' data-tags='{tags_data}'>")
         lines.append("<div class='hn-body'>")
 
         lines.append(
@@ -147,6 +187,10 @@ def render_markdown(
         if parts:
             lines.append("<p class='hn-meta2'>" + "<span class='hn-sep'> · </span>".join(parts) + "</p>")
 
+        # Tags row (rendered as colored pill badges)
+        if tags:
+            tags_html = " ".join(_tag_html(t) for t in tags)
+            lines.append(f"<div class='hn-tags'>{tags_html}</div>")
 
         # Image under meta (subtitle)
         if image_url:

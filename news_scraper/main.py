@@ -13,6 +13,7 @@ from image_fetcher import extract_preview_image_url
 from md_writer import render_markdown
 from index_updater import update_hackernews_index
 from backup_io import write_backup_json, read_backup_json
+from tag_generator import tag_json_file
 
 
 def utc_now() -> datetime:
@@ -142,6 +143,12 @@ def rebuild_all_from_json(cfg: dict, max_items: int = 3650):
     rebuilt = 0
     for json_path in json_paths:
         try:
+            # Tag items if not already tagged
+            try:
+                tag_json_file(json_path, model="gpt-4.1-nano")
+            except Exception as te:
+                print(f"[REBUILD][WARN] Tag generation failed for {json_path}: {te}")
+
             backup = read_backup_json(json_path)
             items = backup.get("items", []) or []
             meta = backup.get("meta", {}) or {}
@@ -420,6 +427,12 @@ def main():
 
     # Overwrite allowed for the "previous-day" file at refresh time
     write_backup_json(json_path, meta=meta, items=final_items)
+
+    # ---------- Generate tags for the new JSON ----------
+    try:
+        tag_json_file(json_path, model=llm_cfg.get("tag_model", "gpt-4.1-nano"))
+    except Exception as e:
+        print(f"[WARN] Tag generation failed: {e}")
 
     # ---------- Render MD strictly from JSON backup ----------
     backup = read_backup_json(json_path)

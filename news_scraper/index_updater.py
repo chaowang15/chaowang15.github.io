@@ -15,6 +15,7 @@ class Entry:
     content_date: str          # YYYY-MM-DD (the "belongs to" date)
     scraped_local: str         # e.g. "04:00, February 17, 2026 (PST)" (optional)
     count_written: Optional[int]
+    top_title: Optional[str]   # title_en of the first (top) story
 
 
 def _try_parse_dt_from_dir(date_dir: str) -> Optional[datetime]:
@@ -39,6 +40,7 @@ def _collect_entries(base_dir: str) -> List[Entry]:
       - content_date (previous-day date)
       - run_time_local / scrape_time_display
       - count_written
+      - top_title (first item's title_en)
     Fallback to MD files if json missing (legacy).
     """
     entries: List[Entry] = []
@@ -52,7 +54,6 @@ def _collect_entries(base_dir: str) -> List[Entry]:
             continue
 
         dt_dir = _try_parse_dt_from_dir(rel_dir)
-        # dt_dir is still useful for sorting fallback; but content_date comes from JSON meta if present
 
         for fn in files:
             m = BEST_JSON_RE.match(fn)
@@ -82,6 +83,11 @@ def _collect_entries(base_dir: str) -> List[Entry]:
             except Exception:
                 count_written = None
 
+            # Extract top story title
+            top_title = None
+            if items:
+                top_title = items[0].get("title_en", None)
+
             rel_no_ext = fn[:-5]  # strip .json
             rel_url = f"/{base_dir}/{rel_dir}/{rel_no_ext}".replace("//", "/")
 
@@ -91,6 +97,7 @@ def _collect_entries(base_dir: str) -> List[Entry]:
                     content_date=content_date,
                     scraped_local=scraped_local,
                     count_written=count_written,
+                    top_title=top_title,
                 )
             )
 
@@ -120,6 +127,7 @@ def _collect_entries(base_dir: str) -> List[Entry]:
                     content_date=fallback_date,
                     scraped_local="",
                     count_written=None,
+                    top_title=None,
                 )
             )
 
@@ -164,14 +172,24 @@ def update_hackernews_index(
     else:
         lines.append("<div class='hn-grid'>")
         for e in entries:
+            # Build the detail line: count + top story title
+            detail_parts = []
+            if e.count_written is not None:
+                detail_parts.append(f"{e.count_written} stories")
+            if e.top_title:
+                detail_parts.append(f"Top: {e.top_title}")
+            detail_text = " · ".join(detail_parts) if detail_parts else ""
+
+            lines.append(f"<a class='hn-row-link' href='{e.rel_url}'>")
             lines.append("<div class='hn-row'>")
-            lines.append(f"<div class='hn-date'>{e.content_date}</div>")
-            lines.append("<div class='hn-link'>")
-            lines.append("<div class='hn-index-line'>")
-            lines.append(f"<a class='hn-index-link' href='{e.rel_url}'>Best Stories</a>")
-            lines.append("</div>")  # hn-index-line
-            lines.append("</div>")  # hn-link
+            lines.append(f"<div class='hn-row-header'>")
+            lines.append(f"<span class='hn-date'>{e.content_date}</span>")
+            lines.append(f"<span class='hn-row-type'>Best Stories</span>")
+            lines.append("</div>")  # hn-row-header
+            if detail_text:
+                lines.append(f"<div class='hn-row-detail'>{detail_text}</div>")
             lines.append("</div>")  # hn-row
+            lines.append("</a>")  # hn-row-link
 
         lines.append("</div>")
 
