@@ -1,7 +1,22 @@
+"""
+Hacker News Daily Scraper — main pipeline
+
+Modes:
+  best    — Fetch & enrich today's best stories (daily scheduled or manual)
+  rebuild — Rebuild all MD pages from existing JSON backups (no API, no LLM)
+
+Features:
+- Token-saving: reuse existing JSON in manual runs, force refresh in scheduled runs
+- Comprehensive logging for GitHub Actions debugging
+- Fallback model support for both enrichment and tag generation
+- Content cleaning and robust JSON parsing
+"""
+
 import glob
 import json
 import os
 import sys
+import time
 import yaml
 from datetime import datetime, timezone, timedelta
 from dateutil import tz
@@ -120,11 +135,13 @@ def _clean_hn_markdown(md: str) -> str:
     out.extend(body_lines)
     return "\n".join(out).rstrip() + "\n"
 
+
 def rebuild_all_from_json(cfg: dict, max_items: int = 3650):
     """
     Rebuild ALL historical best_stories_*.md strictly from existing JSON backups.
     - No HN API
-    - No LLM
+    - No LLM enrichment (uses existing summaries)
+    - Tags items if not already tagged
     - Overwrites md files in place
     """
     base_dir = cfg["output"]["base_dir"]  # "hackernews"
@@ -135,17 +152,28 @@ def rebuild_all_from_json(cfg: dict, max_items: int = 3650):
         print(f"[REBUILD] No JSON backups found under: {pattern}")
         return
 
+    llm_cfg = cfg.get("llm", {})
+    tag_model = llm_cfg.get("tag_model", "gpt-5-nano")
+    tag_fallback = llm_cfg.get("tag_fallback_model", "gpt-4.1-nano")
+    max_retries = int(llm_cfg.get("max_retries", 2))
+
     # Optional cap (safety)
     json_paths = json_paths[:max_items]
 
     print(f"[REBUILD] Found {len(json_paths)} json backups. Rebuilding md pages...")
+    print(f"[REBUILD] Tag model: {tag_model}, fallback: {tag_fallback}")
 
     rebuilt = 0
     for json_path in json_paths:
         try:
             # Tag items if not already tagged
             try:
-                tag_json_file(json_path, model="gpt-4.1-nano")
+                tag_json_file(
+                    json_path,
+                    model=tag_model,
+                    fallback_model=tag_fallback,
+                    max_retries=max_retries,
+                )
             except Exception as te:
                 print(f"[REBUILD][WARN] Tag generation failed for {json_path}: {te}")
 
@@ -176,6 +204,7 @@ def rebuild_all_from_json(cfg: dict, max_items: int = 3650):
                 f.write(md)
 
             rebuilt += 1
+            print(f"[REBUILD] OK: {md_path} ({len(items)} items)")
         except Exception as e:
             print(f"[REBUILD][WARN] Failed for {json_path}: {e}")
 
@@ -201,16 +230,19 @@ def rebuild_all_from_json(cfg: dict, max_items: int = 3650):
 
 
 def main():
+    t_start = time.time()
+
     if len(sys.argv) < 2:
-        print("Usage: python news_scraper/main.py best")
+        print("Usage: python news_scraper/main.py best | rebuild")
         sys.exit(2)
 
     mode = sys.argv[1].strip().lower()
     if mode not in ("best", "rebuild"):
         raise ValueError("Usage: python news_scraper/main.py best | rebuild")
 
-
     cfg = load_config("news_config.yml")
+    print(f"[CONFIG] Loaded news_config.yml")
+
     if mode == "rebuild":
         rebuild_all_from_json(cfg)
         return
@@ -238,7 +270,11 @@ def main():
 
     llm_cfg = cfg.get("llm", {})
     llm_enabled = bool(llm_cfg.get("enabled", False))
-    llm_model = llm_cfg.get("model", "gpt-5-mini")
+    llm_model = llm_cfg.get("model", "gpt-5-nano")
+    llm_fallback = llm_cfg.get("fallback_model", "gpt-5-mini")
+    tag_model = llm_cfg.get("tag_model", "gpt-5-nano")
+    tag_fallback = llm_cfg.get("tag_fallback_model", "gpt-4.1-nano")
+    max_retries = int(llm_cfg.get("max_retries", 2))
 
     img_cfg = cfg.get("images", {})
     img_enabled = bool(img_cfg.get("enabled", True))
@@ -259,22 +295,36 @@ def main():
     # schedule => always refresh, manual => reuse json if exists
     force_refresh = is_scheduled
 
+    print("=" * 70)
+    print(f"[PIPELINE] Hacker News Daily Scraper — mode={mode}")
+    print(f"[PIPELINE] event={event_name} | is_scheduled={is_scheduled} | force_refresh={force_refresh}")
+    print(f"[PIPELINE] content_date={content_dt.strftime('%Y-%m-%d')} | run_local={scrape_time_str}")
+    print(f"[PIPELINE] run_utc={now_utc.strftime('%Y-%m-%d %H:%M:%S UTC')}")
+    print(f"[PIPELINE] json={json_path} | exists={json_exists}")
+    print(f"[PIPELINE] llm_model={llm_model} | fallback={llm_fallback}")
+    print(f"[PIPELINE] tag_model={tag_model} | tag_fallback={tag_fallback}")
+    print(f"[PIPELINE] max_retries={max_retries}")
+    print("=" * 70)
 
-    print(
-        "[MODE] "
-        f"event={event_name} | "
-        f"is_scheduled={is_scheduled} | "
-        f"force_refresh={force_refresh} | "
-        f"json_exists={json_exists} | "
-        f"content_date={content_dt.strftime('%Y-%m-%d')} | "
-        f"run_local={scrape_time_str} | "
-        f"run_utc={now_utc.strftime('%Y-%m-%d %H:%M:%S UTC')} | "
-        f"json={json_path}"
-    )
-
+    # ---------- SKIP path: reuse existing JSON ----------
     if json_exists and (not force_refresh):
+        print(f"[SKIP] Reusing existing JSON (no LLM). json={json_path}")
         backup = read_backup_json(json_path)
         items_for_render = backup["items"]
+
+        # Still ensure tags exist
+        try:
+            tag_json_file(
+                json_path,
+                model=tag_model,
+                fallback_model=tag_fallback,
+                max_retries=max_retries,
+            )
+            # Re-read after tagging
+            backup = read_backup_json(json_path)
+            items_for_render = backup["items"]
+        except Exception as e:
+            print(f"[SKIP][WARN] Tag generation failed: {e}")
 
         page_title = f"Hacker News — Best Stories ({content_dt.strftime('%Y-%m-%d')})"
         page_subtitle = f"Scraped at {backup['meta'].get('scrape_time_display', scrape_time_str)}"
@@ -296,24 +346,33 @@ def main():
             max_items=30,
         )
 
-        print(f"[SKIP] Using existing JSON (no LLM). json={json_path}")
+        has_tags = sum(1 for it in items_for_render if it.get("tags"))
+        print(f"[SKIP] Done. Rendered {len(items_for_render)} items ({has_tags} with tags). json={json_path}")
         return
 
 
     if force_refresh:
         llm_enabled = True
 
-    # 1) Fetch best story IDs
+    # ========== STEP 1: Fetch best story IDs ==========
+    print(f"\n[STEP 1/5] Fetching top {count} best story IDs from HN API ...")
+    t0 = time.time()
     ids = get_story_ids("best")[:count]
+    print(f"[STEP 1/5] Got {len(ids)} story IDs in {time.time() - t0:.1f}s")
 
-    # 2) Fetch story items (title/url)
+    # ========== STEP 2: Fetch story details ==========
+    print(f"\n[STEP 2/5] Fetching story details ...")
+    t0 = time.time()
     raw_items = []
+    skipped = 0
     for item_id in ids:
         item = get_item(int(item_id))
         if not item or item.get("type") != "story":
+            skipped += 1
             continue
         title_en = (item.get("title") or "").strip()
         if not title_en:
+            skipped += 1
             continue
         url = get_item_url(item)
         hn_id = int(item_id)
@@ -328,34 +387,42 @@ def main():
             "title_en": title_en,
             "url": url,
             "hn_time": int(hn_time) if hn_time is not None else None,
-
-            # NEW: cache lightweight HN metadata
             "hn_type": hn_type,
             "hn_by": hn_by,
             "hn_score": int(hn_score) if hn_score is not None else None,
             "hn_descendants": int(hn_desc) if hn_desc is not None else None,
         })
 
+    print(f"[STEP 2/5] Fetched {len(raw_items)} valid stories, skipped {skipped}, in {time.time() - t0:.1f}s")
 
     if not raw_items:
         raise RuntimeError("No valid story items fetched.")
 
-    # 3) Batch LLM enrich
+    # ========== STEP 3: LLM enrichment ==========
+    print(f"\n[STEP 3/5] LLM enrichment (model={llm_model}, fallback={llm_fallback}) ...")
     enrich_map = {}
     if llm_enabled:
         try:
-            enrich_map = llm_enrich_batch(raw_items, model=llm_model)
+            enrich_map = llm_enrich_batch(raw_items, model=llm_model, max_retries=max_retries)
+            print(f"[STEP 3/5] LLM enrichment succeeded with model={llm_model}")
         except Exception as e:
-            print(f"[WARN] LLM failed with model={llm_model}: {e}")
-            fallback = llm_cfg.get("fallback_model", "gpt-5-mini")
-            if fallback and fallback != llm_model:
-                print(f"[WARN] Retrying with fallback model={fallback}")
-                enrich_map = llm_enrich_batch(raw_items, model=fallback)
+            print(f"[STEP 3/5][WARN] LLM failed with model={llm_model}: {e}")
+            if llm_fallback and llm_fallback != llm_model:
+                print(f"[STEP 3/5] Retrying with fallback model={llm_fallback} ...")
+                try:
+                    enrich_map = llm_enrich_batch(raw_items, model=llm_fallback, max_retries=max_retries)
+                    print(f"[STEP 3/5] LLM enrichment succeeded with fallback={llm_fallback}")
+                except Exception as e2:
+                    print(f"[STEP 3/5][ERROR] Fallback also failed: {e2}")
+                    raise
             else:
                 raise
 
-    # 4) Fetch preview image URL (store URL only)
+    # ========== STEP 4: Fetch preview images ==========
+    print(f"\n[STEP 4/5] Fetching preview images (enabled={img_enabled}) ...")
+    t0 = time.time()
     final_items = []
+    img_found = 0
     for it in raw_items:
         hn_time = it.get("hn_time")
         created_display = ""
@@ -384,6 +451,8 @@ def main():
                 timeout_seconds=img_timeout,
                 user_agent=img_ua,
             )
+            if image_url:
+                img_found += 1
 
         comments_url = f"https://news.ycombinator.com/item?id={_id}"
 
@@ -395,8 +464,6 @@ def main():
             "image_url": image_url,
             "summary_en": summary_en,
             "summary_zh": summary_zh,
-
-            # NEW: raw HN metadata cache (not displayed yet)
             "hn": {
                 "id": _id,
                 "type": it.get("hn_type"),
@@ -408,13 +475,15 @@ def main():
             },
         })
 
+    print(f"[STEP 4/5] Images: {img_found}/{len(final_items)} found in {time.time() - t0:.1f}s")
+
     meta = {
         "mode": mode,
         "source": "https://news.ycombinator.com/",
         "api": "https://github.com/HackerNews/API",
         "count_requested": count,
         "count_written": len(final_items),
-        "scrape_time_display": scrape_time_str,  # shown on page subtitle
+        "scrape_time_display": scrape_time_str,
         "timezone": tz_name,
         "date_dir": date_dir,
         "content_date": content_dt.strftime("%Y-%m-%d"),
@@ -424,16 +493,27 @@ def main():
 
     # Overwrite allowed for the "previous-day" file at refresh time
     write_backup_json(json_path, meta=meta, items=final_items)
+    print(f"\n[JSON] Saved backup: {json_path} ({len(final_items)} items)")
 
-    # ---------- Generate tags for the new JSON ----------
+    # ========== STEP 5: Generate tags ==========
+    print(f"\n[STEP 5/5] Generating tags (model={tag_model}, fallback={tag_fallback}) ...")
     try:
-        tag_json_file(json_path, model=llm_cfg.get("tag_model", "gpt-4.1-nano"))
+        tag_json_file(
+            json_path,
+            model=tag_model,
+            fallback_model=tag_fallback,
+            max_retries=max_retries,
+        )
+        print(f"[STEP 5/5] Tag generation succeeded")
     except Exception as e:
-        print(f"[WARN] Tag generation failed: {e}")
+        print(f"[STEP 5/5][ERROR] Tag generation failed: {e}")
+        print(f"[STEP 5/5][ERROR] Continuing without tags ...")
 
     # ---------- Render MD strictly from JSON backup ----------
     backup = read_backup_json(json_path)
     items_for_render = backup["items"]
+
+    has_tags = sum(1 for it in items_for_render if it.get("tags"))
 
     page_title = f"Hacker News — Best Stories ({content_dt.strftime('%Y-%m-%d')})"
     page_subtitle = f"Scraped at {scrape_time_str}"
@@ -448,6 +528,8 @@ def main():
 
     with open(out_path, "w", encoding="utf-8") as f:
         f.write(md)
+
+    print(f"\n[MD] Rendered: {out_path}")
 
     # Auto-update /hackernews/ index page
     index_path = os.path.join(cfg["output"]["base_dir"], "index.md")
@@ -467,10 +549,12 @@ def main():
     except Exception as e:
         print(f"[WARN] Failed to clean index markdown: {e}")
 
-    print(
-        f"Wrote: {out_path} and backup {json_path} with {len(items_for_render)} items. "
-        f"mode={mode} (content_date={content_dt.strftime('%Y-%m-%d')}, run={scrape_time_str})"
-    )
+    elapsed = time.time() - t_start
+    print("\n" + "=" * 70)
+    print(f"[DONE] Pipeline completed in {elapsed:.1f}s")
+    print(f"[DONE] {out_path} — {len(items_for_render)} items ({has_tags} with tags)")
+    print(f"[DONE] mode={mode}, content_date={content_dt.strftime('%Y-%m-%d')}, run={scrape_time_str}")
+    print("=" * 70)
 
 
 if __name__ == "__main__":
