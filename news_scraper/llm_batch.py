@@ -31,13 +31,20 @@ def llm_enrich_batch(
         for it in items
     ]
 
-    prompt = f"""
-You generate bilingual news snippets for Hacker News items.
+    prompt = f"""You are a tech news editor writing brief, insightful summaries for a Hacker News daily digest.
 
-For each item, produce:
-- title_zh: Chinese translation of title_en (natural, concise)
-- summary_en: 3-5 sentences brief intro in English (factual, neutral). Use only the title and URL context. Do NOT invent specific claims.
-- summary_zh: Chinese translation of summary_en (natural)
+For each item below, produce:
+- title_zh: Natural, concise Chinese translation of title_en.
+- summary_en: A 2-3 sentence English summary that is informative and engaging. You may use your general knowledge to provide useful context, background, or explain why the story matters. Focus on the key takeaway for a tech-savvy reader.
+- summary_zh: A 2-3 sentence Chinese summary covering the same information as summary_en. Write it naturally in Chinese (not a word-for-word translation).
+
+STRICT RULES:
+- Do NOT include meta-commentary like "this summary is based on..." or "the linked article discusses...".
+- Do NOT restate the title as the summary. Add value beyond what the title already says.
+- Do NOT mention the URL, the source website name, or where the link points to.
+- Do NOT use filler phrases like "the article explores", "the post highlights", "the piece discusses".
+- Start directly with the substance. Be concise and informative.
+- If you truly cannot infer anything beyond the title, write one sentence that rephrases the core idea with minimal added context, and stop.
 
 Return STRICT JSON as an array. Each element must be:
 {{
@@ -55,6 +62,9 @@ Input items JSON:
         model=model,
         input=prompt,
     )
+
+    if resp.output is None:
+        raise RuntimeError(f"LLM returned None output. Status: {getattr(resp, 'status', 'unknown')}")
 
     text = resp.output_text.strip()
     data = _safe_json_loads(text)
