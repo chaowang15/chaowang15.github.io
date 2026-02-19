@@ -53,17 +53,26 @@ def render_markdown(
             next_href = None
 
 
+    # Build Prev/Index/Next nav
     nav_html = "<p class='hn-nav'>"
-    nav_html += "<a class='hn-back' href='/hackernews/'>← Index</a>"
 
+    # Prev on left
     if prev_href:
         nav_html += f"<a class='hn-prev' href='{prev_href}'>‹ Prev day</a>"
+    else:
+        # optional placeholder to keep layout stable; can omit if you prefer
+        nav_html += "<span></span>"
 
+    # Index in center
+    nav_html += "<a class='hn-back' href='/hackernews/'>← Index</a>"
+
+    # Next on right
     if next_href:
         nav_html += f"<a class='hn-next' href='{next_href}'>Next day ›</a>"
+    else:
+        nav_html += "<span></span>"
 
     nav_html += "</p>"
-
     lines.append(nav_html)
 
     source_link = "<a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a>"
