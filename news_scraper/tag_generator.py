@@ -8,6 +8,13 @@ Predefined tag categories (kept small and common for consistency):
   Gaming, Entertainment, Politics, Health, Education, Career,
   Privacy, Legal, Culture, Space, Energy, Startups, Show HN
 
+Features:
+- Batch processing (25 items per batch) to avoid output truncation
+- Robust JSON parsing (handles markdown fences, extra data, concatenated output)
+- Retry logic with fallback model support
+- Keyword-based tag supplement for improved accuracy
+- Comprehensive logging for debugging
+
 Usage:
   python news_scraper/tag_generator.py                  # tag all JSON files (skip already tagged)
   python news_scraper/tag_generator.py --force           # force re-tag all JSON files
@@ -20,6 +27,8 @@ import json
 import os
 import re
 import sys
+import time
+import traceback
 from typing import Any, Dict, List, Set
 
 from openai import OpenAI
@@ -34,12 +43,10 @@ ALLOWED_TAGS = [
 TAG_SET = set(t.lower() for t in ALLOWED_TAGS)
 TAG_CANONICAL = {t.lower(): t for t in ALLOWED_TAGS}
 
+BATCH_SIZE = 25  # Process items in batches to avoid output truncation
+
 # ---------------------------------------------------------------------------
 # Keyword-based tag supplement rules
-# ---------------------------------------------------------------------------
-# Each entry maps a canonical tag to a list of regex patterns.
-# Patterns are matched case-insensitively against title_en + summary_en.
-# If ANY pattern matches and the tag is not already present, the tag is added.
 # ---------------------------------------------------------------------------
 KEYWORD_RULES: Dict[str, List[str]] = {
     "AI": [
@@ -258,6 +265,10 @@ _COMPILED_RULES: Dict[str, List[re.Pattern]] = {
 }
 
 
+# ---------------------------------------------------------------------------
+# Keyword supplement
+# ---------------------------------------------------------------------------
+
 def supplement_tags_by_keywords(item: Dict) -> List[str]:
     """
     Scan title_en and summary_en for keyword patterns.
@@ -281,6 +292,10 @@ def supplement_tags_by_keywords(item: Dict) -> List[str]:
     return extra
 
 
+# ---------------------------------------------------------------------------
+# Robust JSON parser
+# ---------------------------------------------------------------------------
+
 def _safe_json_loads(text: str) -> Any:
     """Parse JSON from LLM output, handling common issues like
     markdown fences, extra trailing data, and concatenated objects."""
@@ -289,7 +304,6 @@ def _safe_json_loads(text: str) -> Any:
     # Strip markdown code fences if present
     if s.startswith("```"):
         lines = s.split("\n")
-        # Remove first line (```json) and last line (```)
         if lines[-1].strip() == "```":
             lines = lines[1:-1]
         else:
@@ -319,9 +333,14 @@ def _safe_json_loads(text: str) -> Any:
     return json.loads(s2)
 
 
+# ---------------------------------------------------------------------------
+# LLM tag generation (single batch)
+# ---------------------------------------------------------------------------
+
 def _call_tag_llm(
     input_payload: List[Dict],
     model: str,
+    max_retries: int = 2,
 ) -> Dict[int, List[str]]:
     """
     Call the LLM to classify a batch of items into tags.
@@ -348,51 +367,88 @@ Input:
 {json.dumps(input_payload, ensure_ascii=False)}
 """
 
-    resp = client.responses.create(
-        model=model,
-        input=prompt,
+    last_error = None
+    for attempt in range(1, max_retries + 1):
+        try:
+            t0 = time.time()
+            resp = client.responses.create(
+                model=model,
+                input=prompt,
+            )
+            elapsed = time.time() - t0
+
+            if resp.output is None:
+                raise RuntimeError(
+                    f"LLM returned None output. Status: {getattr(resp, 'status', 'unknown')}"
+                )
+
+            raw_text = resp.output_text.strip()
+            print(f"    [TAG-LLM] model={model}, batch_size={len(input_payload)}, "
+                  f"response_len={len(raw_text)}, elapsed={elapsed:.1f}s (attempt {attempt})")
+
+            data = _safe_json_loads(raw_text)
+
+            if not isinstance(data, list):
+                raise RuntimeError(f"Expected JSON array, got: {type(data)}")
+
+            result: Dict[int, List[str]] = {}
+            for obj in data:
+                if not isinstance(obj, dict) or "idx" not in obj:
+                    continue
+                idx = int(obj["idx"])
+                raw_tags = obj.get("tags", [])
+                if not isinstance(raw_tags, list):
+                    continue
+                clean_tags = []
+                for t in raw_tags:
+                    t_lower = str(t).strip().lower()
+                    if t_lower in TAG_SET:
+                        clean_tags.append(TAG_CANONICAL[t_lower])
+                if not clean_tags:
+                    clean_tags = ["Programming"]
+                result[idx] = clean_tags[:3]
+
+            # Check coverage
+            expected_idxs = {p["idx"] for p in input_payload}
+            got_idxs = set(result.keys())
+            missing = expected_idxs - got_idxs
+            if missing:
+                print(f"    [TAG-LLM][WARN] Missing {len(missing)} items in response: {sorted(missing)[:5]}...")
+                # Fill missing with fallback
+                for m_idx in missing:
+                    result[m_idx] = ["Programming"]
+
+            return result
+
+        except Exception as e:
+            last_error = e
+            print(f"    [TAG-LLM][WARN] Attempt {attempt}/{max_retries} failed: {e}")
+            if attempt < max_retries:
+                wait = 2 ** attempt
+                print(f"    [TAG-LLM] Retrying in {wait}s ...")
+                time.sleep(wait)
+
+    raise RuntimeError(
+        f"Tag LLM call failed after {max_retries} attempts. Last error: {last_error}"
     )
 
-    if resp.output is None:
-        raise RuntimeError(f"LLM returned None output. Status: {getattr(resp, 'status', 'unknown')}")
 
-    text = resp.output_text.strip()
-    data = _safe_json_loads(text)
-
-    if not isinstance(data, list):
-        raise RuntimeError(f"Expected JSON array, got: {type(data)}")
-
-    result: Dict[int, List[str]] = {}
-    for obj in data:
-        if not isinstance(obj, dict) or "idx" not in obj:
-            continue
-        idx = int(obj["idx"])
-        raw_tags = obj.get("tags", [])
-        if not isinstance(raw_tags, list):
-            continue
-        clean_tags = []
-        for t in raw_tags:
-            t_lower = str(t).strip().lower()
-            if t_lower in TAG_SET:
-                clean_tags.append(TAG_CANONICAL[t_lower])
-        if not clean_tags:
-            clean_tags = ["Programming"]
-        result[idx] = clean_tags[:3]
-
-    return result
-
+# ---------------------------------------------------------------------------
+# Batch tag generation with fallback model
+# ---------------------------------------------------------------------------
 
 def generate_tags_for_items(
     items: List[Dict],
-    model: str = "gpt-4.1-nano",
+    model: str = "gpt-5-nano",
+    fallback_model: str = "gpt-4.1-nano",
+    max_retries: int = 2,
 ) -> Dict[int, List[str]]:
     """
     Given a list of items (each with title_en, url, summary_en, and an index),
     returns a dict mapping item index -> list of tag strings.
-    Processes in batches of 25 to avoid output truncation.
+    Processes in batches of BATCH_SIZE to avoid output truncation.
+    Falls back to fallback_model if primary model fails.
     """
-    BATCH_SIZE = 25
-
     # Build full payload with global indices
     full_payload = []
     for idx, it in enumerate(items):
@@ -404,30 +460,64 @@ def generate_tags_for_items(
         })
 
     result: Dict[int, List[str]] = {}
+    total_batches = (len(full_payload) + BATCH_SIZE - 1) // BATCH_SIZE
 
-    for batch_start in range(0, len(full_payload), BATCH_SIZE):
+    for batch_num, batch_start in enumerate(range(0, len(full_payload), BATCH_SIZE), 1):
         batch = full_payload[batch_start:batch_start + BATCH_SIZE]
-        batch_result = _call_tag_llm(batch, model=model)
-        result.update(batch_result)
+        print(f"  [TAG] Processing batch {batch_num}/{total_batches} "
+              f"(items {batch_start}-{batch_start + len(batch) - 1}) ...")
+
+        try:
+            batch_result = _call_tag_llm(batch, model=model, max_retries=max_retries)
+            result.update(batch_result)
+        except Exception as e:
+            print(f"  [TAG][WARN] Primary model ({model}) failed for batch {batch_num}: {e}")
+            if fallback_model and fallback_model != model:
+                print(f"  [TAG] Trying fallback model ({fallback_model}) ...")
+                try:
+                    batch_result = _call_tag_llm(batch, model=fallback_model, max_retries=max_retries)
+                    result.update(batch_result)
+                except Exception as e2:
+                    print(f"  [TAG][ERROR] Fallback model also failed for batch {batch_num}: {e2}")
+                    # Fill this batch with default tags
+                    for item in batch:
+                        result[item["idx"]] = ["Programming"]
+            else:
+                # No fallback, fill with defaults
+                for item in batch:
+                    result[item["idx"]] = ["Programming"]
 
     return result
 
 
-def tag_json_file(json_path: str, model: str = "gpt-4.1-nano", force: bool = False) -> bool:
+# ---------------------------------------------------------------------------
+# File-level tag operations
+# ---------------------------------------------------------------------------
+
+def tag_json_file(
+    json_path: str,
+    model: str = "gpt-5-nano",
+    fallback_model: str = "gpt-4.1-nano",
+    force: bool = False,
+    max_retries: int = 2,
+) -> bool:
     """
     Read a backup JSON, generate tags for all items via GPT,
     then supplement with keyword-based detection, and write back.
     Returns True if tags were added/updated.
     """
+    print(f"  [TAG] Processing: {json_path} (force={force})")
+
     with open(json_path, "r", encoding="utf-8") as f:
         data = json.load(f)
 
     items = data.get("items", [])
     if not items:
-        print(f"  [SKIP] No items in {json_path}")
+        print(f"  [TAG][SKIP] No items in {json_path}")
         return False
 
-    already_tagged = all("tags" in it for it in items)
+    already_tagged = all("tags" in it and it["tags"] for it in items)
+    print(f"  [TAG] Items: {len(items)}, already_tagged: {already_tagged}")
 
     if already_tagged and not force:
         # Even if already tagged, run keyword supplement pass
@@ -435,44 +525,61 @@ def tag_json_file(json_path: str, model: str = "gpt-4.1-nano", force: bool = Fal
         for it in items:
             extra = supplement_tags_by_keywords(it)
             if extra:
-                merged = list(dict.fromkeys(it["tags"] + extra))  # preserve order, deduplicate
+                merged = list(dict.fromkeys(it["tags"] + extra))
                 it["tags"] = merged
                 supplemented += 1
 
         if supplemented > 0:
             with open(json_path, "w", encoding="utf-8") as f:
                 json.dump(data, f, ensure_ascii=False, indent=2)
-            print(f"  [SUPPLEMENT] Added keyword-based tags to {supplemented} items in {json_path}")
+            print(f"  [TAG][SUPPLEMENT] Added keyword-based tags to {supplemented} items in {json_path}")
             return True
 
-        print(f"  [SKIP] Already tagged (no new keywords): {json_path}")
+        print(f"  [TAG][SKIP] Already tagged (no new keywords): {json_path}")
         return False
 
     # GPT tagging (either first time or forced re-tag)
-    print(f"  [TAG] Generating tags for {len(items)} items in {json_path} ...")
-    tag_map = generate_tags_for_items(items, model=model)
+    print(f"  [TAG] Generating tags for {len(items)} items with model={model} ...")
+    tag_map = generate_tags_for_items(
+        items, model=model, fallback_model=fallback_model, max_retries=max_retries
+    )
 
+    tagged_count = 0
     for idx, it in enumerate(items):
         gpt_tags = tag_map.get(idx, ["Programming"])
         it["tags"] = gpt_tags
+        tagged_count += 1
 
     # Keyword supplement pass: add any tags that GPT missed
     supplemented = 0
     for it in items:
         extra = supplement_tags_by_keywords(it)
         if extra:
-            merged = list(dict.fromkeys(it["tags"] + extra))  # preserve order, deduplicate
+            merged = list(dict.fromkeys(it["tags"] + extra))
             it["tags"] = merged
             supplemented += 1
 
     with open(json_path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
-    print(f"  [DONE] Tagged {len(items)} items ({supplemented} supplemented by keywords) in {json_path}")
+    # Log tag distribution
+    all_tags: Dict[str, int] = {}
+    for it in items:
+        for t in it.get("tags", []):
+            all_tags[t] = all_tags.get(t, 0) + 1
+    top_tags = sorted(all_tags.items(), key=lambda x: -x[1])[:10]
+    print(f"  [TAG][DONE] Tagged {tagged_count} items ({supplemented} supplemented by keywords)")
+    print(f"  [TAG][DIST] Top tags: {', '.join(f'{t}({c})' for t, c in top_tags)}")
+
     return True
 
 
-def tag_all_json_files(base_dir: str = "hackernews", model: str = "gpt-4.1-nano", force: bool = False):
+def tag_all_json_files(
+    base_dir: str = "hackernews",
+    model: str = "gpt-5-nano",
+    fallback_model: str = "gpt-4.1-nano",
+    force: bool = False,
+):
     """Tag all JSON backup files under base_dir."""
     pattern = os.path.join(base_dir, "*", "*", "*", "best_stories_*.json")
     json_paths = sorted(glob.glob(pattern))
@@ -481,14 +588,19 @@ def tag_all_json_files(base_dir: str = "hackernews", model: str = "gpt-4.1-nano"
         print(f"[TAG] No JSON files found under {pattern}")
         return
 
-    print(f"[TAG] Found {len(json_paths)} JSON files. Processing (force={force})...")
+    print(f"[TAG] Found {len(json_paths)} JSON files. Processing (force={force}, model={model})...")
+    success = 0
+    failed = 0
     for jp in json_paths:
         try:
-            tag_json_file(jp, model=model, force=force)
+            tag_json_file(jp, model=model, fallback_model=fallback_model, force=force)
+            success += 1
         except Exception as e:
-            print(f"  [ERROR] Failed for {jp}: {e}")
+            print(f"  [TAG][ERROR] Failed for {jp}: {e}")
+            traceback.print_exc()
+            failed += 1
 
-    print("[TAG] All done.")
+    print(f"[TAG] All done. Success: {success}, Failed: {failed}")
 
 
 if __name__ == "__main__":

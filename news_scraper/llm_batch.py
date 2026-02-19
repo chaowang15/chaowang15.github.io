@@ -1,6 +1,26 @@
+"""
+LLM batch enrichment: translate titles and generate bilingual summaries
+for a batch of Hacker News story items.
+
+Features:
+- Robust JSON parsing (handles markdown fences, extra data, concatenated output)
+- Content cleaning (strips control chars, normalizes whitespace, removes meta-commentary)
+- Comprehensive logging for debugging in GitHub Actions
+- Retry logic with configurable max_retries
+"""
+
 import json
-from typing import Dict, List, Any
+import re
+import time
+import traceback
+from typing import Any, Dict, List
+
 from openai import OpenAI
+
+
+# ---------------------------------------------------------------------------
+# Robust JSON parser
+# ---------------------------------------------------------------------------
 
 def _safe_json_loads(text: str) -> Any:
     """Parse JSON from LLM output, handling common issues like
@@ -28,6 +48,7 @@ def _safe_json_loads(text: str) -> Any:
     s2 = s[min(idxs):]
 
     # Use JSONDecoder to parse only the first valid JSON value
+    # This handles "Extra data" errors from concatenated output
     try:
         decoder = json.JSONDecoder()
         obj, _ = decoder.raw_decode(s2)
@@ -37,11 +58,73 @@ def _safe_json_loads(text: str) -> Any:
 
     return json.loads(s2)
 
+
+# ---------------------------------------------------------------------------
+# Content cleaning utilities
+# ---------------------------------------------------------------------------
+
+# Patterns for meta-commentary that should be removed from summaries
+_META_PATTERNS = [
+    re.compile(r"^(The\s+)?(linked\s+)?(article|post|page|piece|blog\s+post|URL)\s+(discusses|explores|highlights|describes|examines|covers|points\s+to|links\s+to)\b", re.IGNORECASE),
+    re.compile(r"\b(this|the)\s+summary\s+(is\s+based|uses|relies)\s+on\b", re.IGNORECASE),
+    re.compile(r"\bthe\s+URL\s+points?\s+to\b", re.IGNORECASE),
+    re.compile(r"\bbased\s+(solely\s+)?on\s+the\s+(title|URL)\s+(and\s+(URL|title)\s+)?context\b", re.IGNORECASE),
+    re.compile(r"\bno\s+additional\s+(claims|information|details)\b", re.IGNORECASE),
+    re.compile(r"\bthe\s+snippet\s+relies\s+on\b", re.IGNORECASE),
+]
+
+
+def _clean_text(text: str) -> str:
+    """Clean a single text field: strip control chars, normalize whitespace."""
+    if not text:
+        return ""
+    # Remove control characters (except newline/tab)
+    text = re.sub(r"[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]", "", text)
+    # Normalize whitespace
+    text = re.sub(r"\s+", " ", text).strip()
+    return text
+
+
+def _clean_summary(summary: str) -> str:
+    """Clean a summary: remove meta-commentary sentences, normalize whitespace."""
+    summary = _clean_text(summary)
+    if not summary:
+        return ""
+
+    # Split into sentences and filter out meta-commentary
+    sentences = re.split(r"(?<=[.!?])\s+", summary)
+    cleaned = []
+    for sent in sentences:
+        is_meta = any(pat.search(sent) for pat in _META_PATTERNS)
+        if not is_meta:
+            cleaned.append(sent)
+
+    result = " ".join(cleaned).strip()
+    # If everything was filtered out, keep the original (better than empty)
+    return result if result else summary
+
+
+def _clean_enrichment(obj: Dict[str, str]) -> Dict[str, str]:
+    """Clean all fields of an enrichment result."""
+    return {
+        "title_zh": _clean_text(obj.get("title_zh", "")),
+        "summary_en": _clean_summary(obj.get("summary_en", "")),
+        "summary_zh": _clean_summary(obj.get("summary_zh", "")),
+    }
+
+
+# ---------------------------------------------------------------------------
+# Main enrichment function
+# ---------------------------------------------------------------------------
+
 def llm_enrich_batch(
     items: List[Dict[str, str]],
-    model: str = "gpt-5-mini",
+    model: str = "gpt-5-nano",
+    max_retries: int = 2,
 ) -> Dict[int, Dict[str, str]]:
     """
+    Enrich a batch of HN story items with Chinese titles and bilingual summaries.
+
     items: [{"id": int, "title_en": str, "url": str}]
     return: id -> {"title_zh", "summary_en", "summary_zh"}
     """
@@ -79,36 +162,58 @@ Input items JSON:
 {json.dumps(input_payload, ensure_ascii=False)}
 """
 
-    resp = client.responses.create(
-        model=model,
-        input=prompt,
+    print(f"[LLM] Enriching {len(items)} items with model={model} ...")
+
+    last_error = None
+    for attempt in range(1, max_retries + 1):
+        try:
+            t0 = time.time()
+            resp = client.responses.create(
+                model=model,
+                input=prompt,
+            )
+            elapsed = time.time() - t0
+
+            if resp.output is None:
+                raise RuntimeError(
+                    f"LLM returned None output. Status: {getattr(resp, 'status', 'unknown')}"
+                )
+
+            raw_text = resp.output_text.strip()
+            print(f"[LLM] Response received in {elapsed:.1f}s, output length={len(raw_text)} chars")
+
+            data = _safe_json_loads(raw_text)
+
+            if not isinstance(data, list):
+                raise RuntimeError(f"Expected JSON array, got: {type(data)}")
+
+            out: Dict[int, Dict[str, str]] = {}
+            for obj in data:
+                if not isinstance(obj, dict) or "id" not in obj:
+                    continue
+                _id = int(obj["id"])
+                for k in ["title_zh", "summary_en", "summary_zh"]:
+                    if k not in obj or not isinstance(obj[k], str):
+                        raise RuntimeError(f"Missing/invalid key {k} for id={_id}")
+                out[_id] = _clean_enrichment(obj)
+
+            missing = [int(it["id"]) for it in items if int(it["id"]) not in out]
+            if missing:
+                raise RuntimeError(
+                    f"LLM batch missing ids: {missing[:10]} (total {len(missing)})"
+                )
+
+            print(f"[LLM] Successfully enriched {len(out)} items (attempt {attempt})")
+            return out
+
+        except Exception as e:
+            last_error = e
+            print(f"[LLM][WARN] Attempt {attempt}/{max_retries} failed: {e}")
+            if attempt < max_retries:
+                wait = 2 ** attempt
+                print(f"[LLM] Retrying in {wait}s ...")
+                time.sleep(wait)
+
+    raise RuntimeError(
+        f"LLM enrichment failed after {max_retries} attempts. Last error: {last_error}"
     )
-
-    if resp.output is None:
-        raise RuntimeError(f"LLM returned None output. Status: {getattr(resp, 'status', 'unknown')}")
-
-    text = resp.output_text.strip()
-    data = _safe_json_loads(text)
-
-    if not isinstance(data, list):
-        raise RuntimeError(f"Expected JSON array, got: {type(data)}")
-
-    out: Dict[int, Dict[str, str]] = {}
-    for obj in data:
-        if not isinstance(obj, dict) or "id" not in obj:
-            continue
-        _id = int(obj["id"])
-        for k in ["title_zh", "summary_en", "summary_zh"]:
-            if k not in obj or not isinstance(obj[k], str):
-                raise RuntimeError(f"Missing/invalid key {k} for id={_id}")
-        out[_id] = {
-            "title_zh": obj["title_zh"].strip(),
-            "summary_en": obj["summary_en"].strip(),
-            "summary_zh": obj["summary_zh"].strip(),
-        }
-
-    missing = [int(it["id"]) for it in items if int(it["id"]) not in out]
-    if missing:
-        raise RuntimeError(f"LLM batch missing ids: {missing[:10]} (total {len(missing)})")
-
-    return out
