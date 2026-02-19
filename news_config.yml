@@ -18,7 +18,8 @@ format:
 
 llm:
   enabled: true
-  model: "gpt-5-mini"
+  model: "gpt-5-nano"
+  fallback_model: gpt-5-mini
 
 images:
   enabled: true

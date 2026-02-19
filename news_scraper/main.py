@@ -259,7 +259,16 @@ def main():
     # 3) Batch LLM enrich
     enrich_map = {}
     if llm_enabled:
-        enrich_map = llm_enrich_batch(raw_items, model=llm_model)
+        try:
+            enrich_map = llm_enrich_batch(raw_items, model=llm_model)
+        except Exception as e:
+            print(f"[WARN] LLM failed with model={llm_model}: {e}")
+            fallback = llm_cfg.get("fallback_model", "gpt-5-mini")
+            if fallback and fallback != llm_model:
+                print(f"[WARN] Retrying with fallback model={fallback}")
+                enrich_map = llm_enrich_batch(raw_items, model=fallback)
+            else:
+                raise
 
     # 4) Fetch preview image URL (store URL only)
     final_items = []
