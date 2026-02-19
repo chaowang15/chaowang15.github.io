@@ -4,7 +4,7 @@ title: "Hacker News — Best Stories"
 ---
 <h1 class='hn-h1'>Hacker News — Best Stories</h1>
 <p class='hn-nav'><span></span><a class='hn-back' href='/hackernews/'>← Index</a><span></span></p>
-<p class='hn-subtitle'>Scraped at 23:51, February 16, 2026 (PST) · Top 50 stories · Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
+<p class='hn-subtitle'>Scraped at 23:51, February 16, 2026 (PST)</p>
 <hr class='hn-rule'/>
 <div class='hn-list'>
 <div class='hn-card' data-tags='Programming'>

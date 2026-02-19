@@ -112,13 +112,9 @@ def render_markdown(
     nav_html += "</p>"
     lines.append(nav_html)
 
-    source_link = "<a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a>"
     subtitle = page_subtitle.strip()
     if subtitle:
-        subtitle = f"{subtitle} · Source: {source_link}"
-    else:
-        subtitle = f"Source: {source_link}"
-    lines.append(f"<p class='hn-subtitle'>{subtitle}</p>")
+        lines.append(f"<p class='hn-subtitle'>{subtitle}</p>")
 
     lines.append("<hr class='hn-rule'/>")
     lines.append("<div class='hn-list'>")

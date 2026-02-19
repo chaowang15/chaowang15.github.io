@@ -160,9 +160,9 @@ def rebuild_all_from_json(cfg: dict, max_items: int = 3650):
             page_title = f"Hacker News — Best Stories ({content_date})" if content_date else "Hacker News — Best Stories"
             scrape_disp = meta.get("scrape_time_display", meta.get("run_time_local", ""))
             if scrape_disp:
-                page_subtitle = f"Scraped at {scrape_disp} · Top {len(items)} stories"
+                page_subtitle = f"Scraped at {scrape_disp}"
             else:
-                page_subtitle = f"Top {len(items)} stories"
+                page_subtitle = ""
 
             md = render_markdown(
                 items,
@@ -277,10 +277,7 @@ def main():
         items_for_render = backup["items"]
 
         page_title = f"Hacker News — Best Stories ({content_dt.strftime('%Y-%m-%d')})"
-        page_subtitle = (
-            f"Scraped at {backup['meta'].get('scrape_time_display', scrape_time_str)}"
-            f" · Top {len(items_for_render)} stories"
-        )
+        page_subtitle = f"Scraped at {backup['meta'].get('scrape_time_display', scrape_time_str)}"
 
         md = render_markdown(
             items_for_render,
@@ -439,7 +436,7 @@ def main():
     items_for_render = backup["items"]
 
     page_title = f"Hacker News — Best Stories ({content_dt.strftime('%Y-%m-%d')})"
-    page_subtitle = f"Scraped at {scrape_time_str} · Top {len(items_for_render)} stories"
+    page_subtitle = f"Scraped at {scrape_time_str}"
 
     md = render_markdown(
         items_for_render,
