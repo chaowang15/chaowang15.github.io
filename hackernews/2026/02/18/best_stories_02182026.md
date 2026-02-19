@@ -3,7 +3,7 @@ layout: hn
 title: "Hacker News — Best Stories (2026-02-18)"
 ---
 <h1 class='hn-h1'>Hacker News — Best Stories (2026-02-18)</h1>
-<p class='hn-nav'><a class='hn-back' href='/hackernews/'>← Index</a><a class='hn-prev' href='/hackernews/2026/02/17/best_stories_02172026'>‹ Prev day</a><a class='hn-next' href='/hackernews/2026/02/19/best_stories_02192026'>Next day ›</a></p>
+<p class='hn-nav'><a class='hn-prev' href='/hackernews/2026/02/17/best_stories_02172026'>‹ Prev day</a><a class='hn-back' href='/hackernews/'>← Index</a><a class='hn-next' href='/hackernews/2026/02/19/best_stories_02192026'>Next day ›</a></p>
 <p class='hn-subtitle'>Scraped at 00:11, February 19, 2026 (PST) · Top 50 stories · Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
 <div class='hn-badges'>
 <span class='hn-badge'>Top 50</span>
