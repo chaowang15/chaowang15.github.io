@@ -64,7 +64,7 @@
 *   **实现方式**：
     1.  **修改爬虫脚本**：在 `news_scraper/main.py` 的末尾增加一个新函数。这个函数在生成每日新闻后，会额外创建一个名为 `_data/latest_hn.yml` 的文件。该文件只包含最新一天新闻中的前 3-5 条的标题和链接。
     2.  **修改主页**：在 `index.md` 中你希望展示的位置（例如，“About Me”之后或“Publications”之前），添加一个 `include` 指令，引入一个新建的 `_includes/latest_news.md` 文件。
-    3.  **创建预览模块**：在 `_includes/latest_news.md` 文件中，使用 Jekyll 的 Liquid 语法 (`{% for item in site.data.latest_hn %}`) 来遍历 `_data/latest_hn.yml` 文件，并将最新的新闻标题以列表形式动态展示出来。每个标题都是一个指向对应日报页面的链接。
+    3.  **创建预览模块**：在 `_includes/latest_news.md` 文件中，使用 Jekyll 的 Liquid 语法 (`{% raw %}{% for item in site.data.latest_hn %}{% endraw %}`) 来遍历 `_data/latest_hn.yml` 文件，并将最新的新闻标题以列表形式动态展示出来。每个标题都是一个指向对应日报页面的链接。
 
 *   **优点**：
     *   **极具吸引力**：动态更新的内容能立刻抓住访问者的眼球，直观地证明这是一个“活”的项目，远比一个静态链接更有说服力。
