@@ -120,12 +120,6 @@ def render_markdown(
         subtitle = f"Source: {source_link}"
     lines.append(f"<p class='hn-subtitle'>{subtitle}</p>")
 
-    # badges
-    lines.append("<div class='hn-badges'>")
-    lines.append(f"<span class='hn-badge'>Top {len(items)}</span>")
-    lines.append("<span class='hn-badge'>Best Stories</span>")
-    lines.append("</div>")
-
     lines.append("<hr class='hn-rule'/>")
     lines.append("<div class='hn-list'>")
 
