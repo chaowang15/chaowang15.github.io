@@ -23,3 +23,7 @@ My current research interests are mainly in 3D GenAI area now, specifically on 3
 {% include_relative _includes/publications.md %}
 
 {% include_relative _includes/services.md %}
+
+## Side Projects
+
+- **[Hacker News Daily](https://chaowang15.github.io/hackernews/)**: An automated daily digest of Hacker News best stories, powered by the official HN API and GPT for bilingual (English & Chinese) summaries. Each story includes AI-generated briefs, metadata, and preview images — updated every day via GitHub Actions.
