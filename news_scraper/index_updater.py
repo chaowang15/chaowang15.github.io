@@ -10,6 +10,7 @@ BEST_JSON_RE = re.compile(r"^best_stories_(\d{8})\.json$")   # MMDDYYYY
 TOP_JSON_RE = re.compile(r"^top_stories_(\d{8})\.json$")     # MMDDYYYY
 BEST_MD_RE = re.compile(r"^best_stories_(\d{8})\.md$")       # MMDDYYYY
 TOP_MD_RE = re.compile(r"^top_stories_(\d{8})\.md$")         # MMDDYYYY
+WEEKLY_JSON_RE = re.compile(r"^(\d{4})-W(\d{2})\.json$")     # YYYY-WNN
 
 
 @dataclass
@@ -220,6 +221,71 @@ def _build_detail_html(entry: StoryEntry) -> str:
     return sep.join(parts)
 
 
+def _collect_weekly_entries(base_dir: str) -> List[dict]:
+    """
+    Scan hackernews/weekly/ for weekly digest JSON files.
+    Returns a list of dicts with url, week number, date range, and top_n.
+    Sorted by week descending (newest first).
+    """
+    weekly_dir = os.path.join(base_dir, "weekly")
+    if not os.path.isdir(weekly_dir):
+        return []
+
+    entries = []
+    for fn in os.listdir(weekly_dir):
+        m = WEEKLY_JSON_RE.match(fn)
+        if not m:
+            continue
+
+        year, week = m.group(1), m.group(2)
+        iso_week = f"{year}-W{week}"
+        json_path = os.path.join(weekly_dir, fn)
+
+        try:
+            with open(json_path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+        except Exception:
+            continue
+
+        meta = data.get("meta", {}) or {}
+        date_start = meta.get("date_start", "")
+        date_end = meta.get("date_end", "")
+        top_n = meta.get("top_n", 0)
+        total_pool = meta.get("total_pool", 0)
+
+        # Build detail text
+        detail_parts = []
+        if date_start and date_end:
+            detail_parts.append(f"{date_start} — {date_end}")
+        if top_n and total_pool:
+            detail_parts.append(f"Top <b>{top_n}</b> from <b>{total_pool}</b> stories")
+        elif top_n:
+            detail_parts.append(f"<b>{top_n}</b> stories")
+
+        # Add top tags from tag_stats
+        tag_stats = data.get("tag_stats", [])
+        if tag_stats:
+            top_tags = tag_stats[:2]
+            for ts in top_tags:
+                detail_parts.append(f"{ts['tag']} <b>{ts['count']}</b>")
+
+        sep = ' <span class="hn-row-sep">·</span> '
+        detail = sep.join(detail_parts)
+
+        entries.append({
+            "iso_week": iso_week,
+            "week": week,
+            "year": year,
+            "url": f"/{base_dir}/weekly/{iso_week}",
+            "detail": detail,
+            "sort_key": f"{year}-{week}",
+        })
+
+    # Sort newest first
+    entries.sort(key=lambda x: x["sort_key"], reverse=True)
+    return entries
+
+
 def update_hackernews_index(
     base_dir: str = "hackernews",
     index_path: str = "hackernews/index.md",
@@ -266,6 +332,20 @@ def update_hackernews_index(
     lines.append("</div>")
     lines.append("<div id='hn-search-results' class='hn-search-results' style='display:none;'></div>")
     lines.append("<button id='hn-search-more' class='hn-search-more' style='display:none;'>Show more results</button>")
+
+    # Weekly digest links
+    weekly_entries = _collect_weekly_entries(base_dir)
+    if weekly_entries:
+        lines.append("<div class='hn-weekly-section'>")
+        lines.append("<h3 class='hn-section-title'>Weekly Digest</h3>")
+        lines.append("<div class='hn-day-stories'>")
+        for w in weekly_entries:
+            lines.append(f"<a class='hn-story-link' href='{w['url']}'>")
+            lines.append(f"<span class='hn-row-type hn-type-weekly'>Week {w['week']}</span>")
+            lines.append(f"<span class='hn-row-detail'>{w['detail']}</span>")
+            lines.append("</a>")
+        lines.append("</div>")  # hn-day-stories
+        lines.append("</div>")  # hn-weekly-section
 
     lines.append("<hr class='hn-rule'/>")
 
