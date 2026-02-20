@@ -1202,3 +1202,88 @@ body {
   opacity: 1;
   text-decoration: none;
 }
+
+/* ===== Language Toggle (Segmented Control) ===== */
+.hn-lang-toggle {
+  display: inline-flex;
+  position: relative;
+  background: var(--bg);
+  border: 1px solid var(--hn-border);
+  border-radius: 8px;
+  padding: 2px;
+  margin: 8px 0 0;
+  float: right;
+  overflow: hidden;
+}
+.hn-lang-slider {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: calc(100% / 3 - 1px);
+  height: calc(100% - 4px);
+  background: var(--link);
+  border-radius: 6px;
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 0;
+}
+.hn-lang-btn {
+  position: relative;
+  z-index: 1;
+  background: none;
+  border: none;
+  padding: 3px 14px;
+  font-family: var(--hn-sans);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--fg);
+  opacity: 0.5;
+  cursor: pointer;
+  transition: color 0.2s ease, opacity 0.2s ease;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.hn-lang-btn:hover {
+  opacity: 0.8;
+}
+.hn-lang-btn.hn-lang-active {
+  color: #fff;
+  opacity: 1;
+}
+
+/* ===== Language visibility rules ===== */
+/* EN only: hide Chinese text and Chinese title */
+.hn-lang-en .hn-text-zh,
+.hn-lang-en .hn-meta {
+  display: none;
+}
+
+/* ZH only: hide English text */
+.hn-lang-zh .hn-text-en {
+  display: none;
+}
+
+/* Bilingual: show everything (default) */
+.hn-lang-bi .hn-text-en,
+.hn-lang-bi .hn-text-zh,
+.hn-lang-bi .hn-meta {
+  display: block;
+}
+
+/* Dark mode adjustments */
+@media (prefers-color-scheme: dark) {
+  .hn-lang-toggle {
+    background: rgba(255, 255, 255, 0.05);
+  }
+}
+
+/* Responsive: smaller on mobile */
+@media (max-width: 600px) {
+  .hn-lang-toggle {
+    float: none;
+    margin: 8px 0 0;
+  }
+  .hn-lang-btn {
+    padding: 3px 11px;
+    font-size: 11px;
+  }
+}

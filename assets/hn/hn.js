@@ -946,3 +946,86 @@
     initBubbleChart();
   }
 })();
+
+
+
+// ===== Language Toggle (News pages) =====
+(function () {
+  function initLangToggle() {
+    // Only run on pages that have .hn-list (news card pages)
+    var list = document.querySelector('.hn-list');
+    if (!list) return;
+
+    // Find the nav bar to insert the toggle next to it
+    var nav = document.querySelector('.hn-nav');
+    if (!nav) return;
+
+    // Build the segmented control
+    var wrap = document.createElement('div');
+    wrap.className = 'hn-lang-toggle';
+
+    var modes = [
+      { key: 'en', label: 'EN' },
+      { key: 'bi', label: '\u53cc' },  // 双
+      { key: 'zh', label: '\u4e2d' }   // 中
+    ];
+
+    var slider = document.createElement('div');
+    slider.className = 'hn-lang-slider';
+    wrap.appendChild(slider);
+
+    var btns = [];
+    modes.forEach(function (m, i) {
+      var btn = document.createElement('button');
+      btn.className = 'hn-lang-btn';
+      btn.setAttribute('data-lang', m.key);
+      btn.textContent = m.label;
+      btn.title = m.key === 'en' ? 'English only' : m.key === 'zh' ? '\u4e2d\u6587 only' : 'Bilingual';
+      wrap.appendChild(btn);
+      btns.push(btn);
+    });
+
+    // Insert after nav
+    nav.parentNode.insertBefore(wrap, nav.nextSibling);
+
+    // State
+    var STORAGE_KEY = 'hn-lang-mode';
+    var currentMode = localStorage.getItem(STORAGE_KEY) || 'bi';
+
+    function applyMode(mode) {
+      currentMode = mode;
+      localStorage.setItem(STORAGE_KEY, mode);
+
+      // Update button active state
+      btns.forEach(function (btn, i) {
+        if (btn.getAttribute('data-lang') === mode) {
+          btn.classList.add('hn-lang-active');
+          // Move slider
+          slider.style.transform = 'translateX(' + (i * 100) + '%)';
+        } else {
+          btn.classList.remove('hn-lang-active');
+        }
+      });
+
+      // Apply visibility via class on the list container
+      list.classList.remove('hn-lang-en', 'hn-lang-zh', 'hn-lang-bi');
+      list.classList.add('hn-lang-' + mode);
+    }
+
+    // Click handlers
+    btns.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        applyMode(btn.getAttribute('data-lang'));
+      });
+    });
+
+    // Initialize
+    applyMode(currentMode);
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initLangToggle);
+  } else {
+    initLangToggle();
+  }
+})();
