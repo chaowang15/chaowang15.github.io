@@ -163,12 +163,45 @@ def _collect_day_entries(base_dir: str) -> List[DayEntry]:
     return days
 
 
+def _compute_stats(days: List[DayEntry]) -> dict:
+    """Compute aggregate statistics across all day entries."""
+    total_stories = 0
+    best_count = 0
+    top_count = 0
+    dates = set()
+
+    for day in days:
+        dates.add(day.content_date)
+        for s in day.stories:
+            n = s.count_written or 0
+            total_stories += n
+            if s.story_type == "best":
+                best_count += 1
+            else:
+                top_count += 1
+
+    sorted_dates = sorted(dates)
+    date_range_start = sorted_dates[0] if sorted_dates else ""
+    date_range_end = sorted_dates[-1] if sorted_dates else ""
+
+    return {
+        "total_days": len(dates),
+        "total_stories": total_stories,
+        "best_files": best_count,
+        "top_files": top_count,
+        "date_start": date_range_start,
+        "date_end": date_range_end,
+    }
+
+
 def update_hackernews_index(
     base_dir: str = "hackernews",
     index_path: str = "hackernews/index.md",
     max_items: int = 30,
 ) -> str:
-    days = _collect_day_entries(base_dir)[:max_items]
+    all_days = _collect_day_entries(base_dir)
+    stats = _compute_stats(all_days)
+    days = all_days[:max_items]
 
     lines: List[str] = []
     lines.append("---")
@@ -181,8 +214,20 @@ def update_hackernews_index(
     source_link = "<a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a>"
     lines.append(f"<p class='hn-subtitle'>Daily scraped <b>Hacker News Best &amp; Top Stories</b>. · Source: {source_link}</p>")
 
+    # Statistics bar
+    if stats["total_days"] > 0:
+        stat_parts = []
+        stat_parts.append(f"<span class='hn-stat-item'><span class='hn-stat-num'>{stats['total_days']}</span> days</span>")
+        stat_parts.append(f"<span class='hn-stat-item'><span class='hn-stat-num'>{stats['total_stories']}</span> stories</span>")
+        stat_parts.append(f"<span class='hn-stat-item'><span class='hn-stat-num'>{stats['best_files']}</span> best files</span>")
+        stat_parts.append(f"<span class='hn-stat-item'><span class='hn-stat-num'>{stats['top_files']}</span> top files</span>")
+        date_range = f"{stats['date_start']} — {stats['date_end']}" if stats['date_start'] != stats['date_end'] else stats['date_start']
+        stat_parts.append(f"<span class='hn-stat-item'>{date_range}</span>")
+
+        sep = ' <span class="hn-stat-sep">·</span> '
+        lines.append(f"<div class='hn-stats'>{sep.join(stat_parts)}</div>")
+
     lines.append("<hr class='hn-rule'/>")
-    lines.append("<h2 style='font-family: var(--hn-sans); margin-top: 6px;'>Latest Files</h2>")
 
     if not days:
         lines.append("<p class='hn-hint'>No files found yet. Run the workflow once to generate the first file.</p>")
@@ -201,20 +246,23 @@ def update_hackernews_index(
                 type_label = "Best Stories" if s.story_type == "best" else "Top Stories"
                 type_class = "hn-type-best" if s.story_type == "best" else "hn-type-top"
 
-                # Build detail text
-                detail_parts = []
-                if s.count_written is not None:
-                    detail_parts.append(f"{s.count_written} stories")
+                # Build detail parts as separate spans for better mobile layout
+                count_text = f"{s.count_written} stories" if s.count_written is not None else ""
+                top_text = ""
                 if s.top_title:
-                    # Truncate long titles
-                    t = s.top_title if len(s.top_title) <= 55 else s.top_title[:52] + "..."
-                    detail_parts.append(f"Top: {t}")
-                detail_text = " · ".join(detail_parts) if detail_parts else ""
+                    top_text = f"Top: {s.top_title}"
 
                 lines.append(f"<a class='hn-story-link' href='{s.rel_url}'>")
                 lines.append(f"<span class='hn-row-type {type_class}'>{type_label}</span>")
-                if detail_text:
-                    lines.append(f"<span class='hn-row-detail'>{detail_text}</span>")
+                if count_text or top_text:
+                    lines.append("<span class='hn-row-detail'>")
+                    if count_text:
+                        lines.append(f"<span class='hn-row-count'>{count_text}</span>")
+                    if count_text and top_text:
+                        lines.append("<span class='hn-row-sep'> · </span>")
+                    if top_text:
+                        lines.append(f"<span class='hn-row-top'>{top_text}</span>")
+                    lines.append("</span>")
                 lines.append("</a>")
 
             lines.append("</div>")  # hn-day-stories
