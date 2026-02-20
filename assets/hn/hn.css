@@ -1037,3 +1037,34 @@ body {
     background: var(--link);
     color: #fff;
 }
+
+/* ── Sort toggle ── */
+.hn-search-sort {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 8px;
+  font-size: 13px;
+  font-family: var(--hn-sans);
+  color: var(--hn-muted);
+}
+.hn-sort-btn {
+  background: var(--bg);
+  border: 1px solid var(--hn-border);
+  border-radius: 14px;
+  padding: 3px 12px;
+  font-size: 12px;
+  font-family: var(--hn-sans);
+  color: var(--hn-muted);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+.hn-sort-btn:hover {
+  border-color: var(--link);
+  color: var(--link);
+}
+.hn-sort-btn.hn-sort-active {
+  background: var(--link);
+  border-color: var(--link);
+  color: #fff;
+}

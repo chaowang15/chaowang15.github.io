@@ -2,12 +2,19 @@
 layout: hn
 title: "Hacker News Daily"
 ---
+
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Daily scraped <b>Hacker News Daily Best &amp; Trending</b>. · Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
 <div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>4</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>265</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>3</span> best files</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>2</span> top files</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-02-19</span></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
+<div id='hn-search-sort' class='hn-search-sort' style='display:none;'>
+Sort: 
+<button class='hn-sort-btn hn-sort-active' data-sort='date'>Date ↓</button>
+<button class='hn-sort-btn' data-sort='score'>Score ↓</button>
+<button class='hn-sort-btn' data-sort='relevance'>Relevance</button>
+</div>
 </div>
 <div id='hn-search-results' class='hn-search-results' style='display:none;'></div>
 <button id='hn-search-more' class='hn-search-more' style='display:none;'>Show more results</button>

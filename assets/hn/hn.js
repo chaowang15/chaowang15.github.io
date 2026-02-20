@@ -340,9 +340,12 @@
     var ruleEl = resultsEl ? resultsEl.nextElementSibling : null; // the <hr> after results
 
     var fuse = null;
-    var allResults = [];
+    var allResults = [];      // Fuse results (with .item and .score)
+    var sortedResults = [];    // sorted view for display
     var displayCount = 0;
     var indexData = null;
+    var currentSort = 'date'; // default sort
+    var sortEl = document.getElementById('hn-search-sort');
 
     // Tag color map (same as tag filter)
     var TAG_COLORS = {
@@ -445,26 +448,49 @@
       return html;
     }
 
+    function applySortAndShow() {
+      // Build sortedResults from allResults based on currentSort
+      sortedResults = allResults.slice(); // copy
+      if (currentSort === 'date') {
+        sortedResults.sort(function (a, b) {
+          var ai = a.item || a, bi = b.item || b;
+          return (bi.date || '').localeCompare(ai.date || '') || (bi.score || 0) - (ai.score || 0);
+        });
+      } else if (currentSort === 'score') {
+        sortedResults.sort(function (a, b) {
+          var ai = a.item || a, bi = b.item || b;
+          return (bi.score || 0) - (ai.score || 0);
+        });
+      }
+      // 'relevance' keeps the original Fuse order (already sorted by match score)
+      showResults();
+    }
+
     function showResults() {
-      var end = Math.min(displayCount, allResults.length);
+      var end = Math.min(displayCount, sortedResults.length);
       var html = "";
       for (var i = 0; i < end; i++) {
-        html += renderResult(allResults[i].item || allResults[i]);
+        html += renderResult(sortedResults[i].item || sortedResults[i]);
       }
       resultsEl.innerHTML = html;
       resultsEl.style.display = end > 0 ? "block" : "none";
 
       // Show/hide "Show more" button
-      if (end < allResults.length) {
+      if (end < sortedResults.length) {
         moreBtn.style.display = "block";
-        moreBtn.textContent = "Show more results (" + (allResults.length - end) + " remaining)";
+        moreBtn.textContent = "Show more results (" + (sortedResults.length - end) + " remaining)";
       } else {
         moreBtn.style.display = "none";
       }
 
+      // Show/hide sort toggle
+      if (sortEl) {
+        sortEl.style.display = sortedResults.length > 0 ? "" : "none";
+      }
+
       // Hide the day grid when showing search results
       if (gridEl) {
-        gridEl.style.display = allResults.length > 0 ? "none" : "";
+        gridEl.style.display = sortedResults.length > 0 ? "none" : "";
       }
     }
 
@@ -473,11 +499,13 @@
       if (!query || query.length < 2) {
         // Clear search
         allResults = [];
+        sortedResults = [];
         displayCount = 0;
         resultsEl.innerHTML = "";
         resultsEl.style.display = "none";
         moreBtn.style.display = "none";
         statusEl.textContent = "";
+        if (sortEl) sortEl.style.display = "none";
         if (gridEl) gridEl.style.display = "";
         return;
       }
@@ -496,7 +524,7 @@
       allResults = fuse.search(query);
       displayCount = PAGE_SIZE;
       statusEl.textContent = "Found " + allResults.length + " result" + (allResults.length !== 1 ? "s" : "") + " for \"" + query + "\"";
-      showResults();
+      applySortAndShow();
     }
 
     // Debounce input
@@ -521,6 +549,24 @@
       moreBtn.addEventListener("click", function () {
         displayCount += PAGE_SIZE;
         showResults();
+      });
+    }
+
+    // Sort toggle buttons
+    if (sortEl) {
+      var sortBtns = sortEl.querySelectorAll('.hn-sort-btn');
+      sortBtns.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          var newSort = btn.getAttribute('data-sort');
+          if (newSort === currentSort) return;
+          currentSort = newSort;
+          // Update active class
+          sortBtns.forEach(function (b) { b.classList.remove('hn-sort-active'); });
+          btn.classList.add('hn-sort-active');
+          // Re-sort and re-display from top
+          displayCount = PAGE_SIZE;
+          applySortAndShow();
+        });
       });
     }
 
