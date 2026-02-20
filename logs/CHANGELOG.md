@@ -4,6 +4,34 @@
 
 ---
 
+## 2026年2月19日 (新增 Top Stories 支持和跨日去重)
+
+本次更新是一个重要的功能扩展，新增了 Top Stories 的爬取，并实现了跨日去重机制以节省 LLM tokens。
+
+- **新增 Top Stories 爬取**:
+  - `main.py` 现在支持 4 种模式：`best`（仅 Best Stories）、`top`（仅 Top Stories）、`all`（同时爬取两者）、`rebuild`（从 JSON 重建所有页面）。
+  - `news_config.yml` 新增 `top` 配置段（count: 50, prefix: top_stories）。
+  - Top Stories 基于 HN 首页实时排名，更新频率远高于 Best Stories，每天内容变化更大。
+
+- **跨日去重机制**:
+  - 新增 `_load_previous_day_items()` 和 `_is_same_story()` 函数，在爬取新数据后自动加载前一天的 JSON 文件。
+  - 通过 HN ID 匹配 + 标题相似度验证（精确匹配、包含关系、80%词汇重叠率）来确认同一篇新闻。
+  - 对于重复新闻，直接复用前一天的 LLM 摘要（title_zh, summary_en, summary_zh）、预览图和标签，仅更新 score 和 comment count 等时效性数据。
+  - 只有新出现的新闻才会调用 LLM 生成摘要，显著节省 tokens 开支。
+
+- **索引页面重新设计**:
+  - `index_updater.py` 完全重写，支持按日期分组显示 Best Stories 和 Top Stories。
+  - 每个日期行内显示蓝色 "Best Stories" 和金色 "Top Stories" 两个彩色药丸标签，各自可点击跳转。
+  - 索引页标题从 "Hacker News (Daily)" 更新为 "Hacker News Daily"。
+  - CSS 新增 `.hn-day-row`、`.hn-day-date`、`.hn-day-stories`、`.hn-type-best`、`.hn-type-top` 等样式，支持 dark mode 和移动端响应式。
+
+- **GitHub Actions Workflow**:
+  - `hn_news.yml` 需要手动更新为 `python news_scraper/main.py all`（由于 GitHub App 权限限制，workflow 文件无法通过 API 推送）。
+
+**修改文件**: `news_scraper/main.py`, `news_scraper/index_updater.py`, `news_config.yml`, `assets/hn/hn.css`, `hackernews/index.md`
+
+---
+
 ## 2026年2月19日 (日志文件夹迁移和 Jekyll 构建修复)
 
 将备份日志文件夹从 `hackernews/log/` 迁移到 repo 根目录的 `logs/`，并在 `_config.yml` 中将 `logs/`、`news_scraper/`、`news_config.yml`、`requirements.txt` 加入 Jekyll 的 `exclude` 列表。此前 `integration_proposal.md` 中包含了 Liquid 模板语法（`{% for %}`），导致 Jekyll 构建时解析失败（Pages build failure）。迁移并排除后，这些纯备份文件不再参与 Jekyll 构建，从根本上避免了此类问题。
