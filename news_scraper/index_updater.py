@@ -253,6 +253,14 @@ def update_hackernews_index(
         sep = ' <span class="hn-stat-sep">·</span> '
         lines.append(f"<div class='hn-stats'>{sep.join(stat_parts)}</div>")
 
+    # Search box
+    lines.append("<div class='hn-search-box'>")
+    lines.append("<input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>")
+    lines.append("<div id='hn-search-status' class='hn-search-status'></div>")
+    lines.append("</div>")
+    lines.append("<div id='hn-search-results' class='hn-search-results' style='display:none;'></div>")
+    lines.append("<button id='hn-search-more' class='hn-search-more' style='display:none;'>Show more results</button>")
+
     lines.append("<hr class='hn-rule'/>")
 
     if not days:

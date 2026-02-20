@@ -324,3 +324,221 @@
     initTagFilter();
   }
 })();
+
+// ===== Global Search (Index page only) =====
+(function () {
+  var PAGE_SIZE = 20;
+
+  function initSearch() {
+    var input = document.getElementById("hn-search-input");
+    if (!input) return; // not the index page
+
+    var statusEl = document.getElementById("hn-search-status");
+    var resultsEl = document.getElementById("hn-search-results");
+    var moreBtn = document.getElementById("hn-search-more");
+    var gridEl = document.querySelector(".hn-grid");
+    var ruleEl = resultsEl ? resultsEl.nextElementSibling : null; // the <hr> after results
+
+    var fuse = null;
+    var allResults = [];
+    var displayCount = 0;
+    var indexData = null;
+
+    // Tag color map (same as tag filter)
+    var TAG_COLORS = {
+      "AI": "blue", "Programming": "indigo", "Security": "red",
+      "Science": "teal", "Business": "amber", "Finance": "amber",
+      "Hardware": "slate", "Open Source": "green", "Design": "pink",
+      "Web": "cyan", "DevOps": "indigo", "Data": "violet",
+      "Gaming": "purple", "Entertainment": "purple", "Politics": "orange",
+      "Health": "emerald", "Education": "sky", "Career": "sky",
+      "Privacy": "red", "Legal": "orange", "Culture": "rose",
+      "Space": "teal", "Energy": "emerald", "Startups": "amber",
+      "Show HN": "green"
+    };
+
+    // Load Fuse.js from CDN
+    function loadFuse(cb) {
+      if (window.Fuse) { cb(); return; }
+      var s = document.createElement("script");
+      s.src = "https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js";
+      s.onload = cb;
+      s.onerror = function () {
+        statusEl.textContent = "Failed to load search library.";
+      };
+      document.head.appendChild(s);
+    }
+
+    // Load search index
+    function loadIndex(cb) {
+      if (indexData) { cb(indexData); return; }
+      var xhr = new XMLHttpRequest();
+      xhr.open("GET", "/hackernews/search_index.json", true);
+      xhr.onload = function () {
+        if (xhr.status === 200) {
+          try {
+            indexData = JSON.parse(xhr.responseText);
+            cb(indexData);
+          } catch (e) {
+            statusEl.textContent = "Failed to parse search index.";
+          }
+        } else {
+          statusEl.textContent = "Failed to load search index.";
+        }
+      };
+      xhr.onerror = function () {
+        statusEl.textContent = "Network error loading search index.";
+      };
+      xhr.send();
+    }
+
+    function initFuse(data) {
+      fuse = new Fuse(data, {
+        keys: [
+          { name: "t", weight: 0.4 },    // title English
+          { name: "z", weight: 0.3 },    // title Chinese
+          { name: "tags", weight: 0.2 }, // tags
+          { name: "by", weight: 0.1 }    // author
+        ],
+        threshold: 0.35,
+        ignoreLocation: true,
+        includeScore: true,
+        minMatchCharLength: 2
+      });
+    }
+
+    function renderResult(item) {
+      var typeLabel = item.type === "top" ? "Trending" : "Daily Best";
+      var typeClass = item.type === "top" ? "hn-type-top" : "hn-type-best";
+
+      var tagsHtml = "";
+      if (item.tags && item.tags.length) {
+        tagsHtml = item.tags.map(function (tag) {
+          var color = TAG_COLORS[tag] || "slate";
+          return "<span class='hn-tag hn-tag--" + color + "'>" + tag + "</span>";
+        }).join(" ");
+      }
+
+      var metaParts = [];
+      if (item.date) metaParts.push(item.date);
+      if (item.score) metaParts.push(item.score + " points");
+      if (item.by) metaParts.push("by " + item.by);
+      if (item.comments > 0) {
+        metaParts.push("<a href='" + item.hn_url + "' target='_blank' rel='noopener noreferrer'>" + item.comments + " comments</a>");
+      }
+
+      var html = "<div class='hn-search-item'>";
+      html += "<div class='hn-search-item-header'>";
+      html += "<span class='hn-row-type " + typeClass + "'>" + typeLabel + "</span>";
+      html += "<a class='hn-search-item-title' href='" + item.u + "' target='_blank' rel='noopener noreferrer'>" + item.t + "</a>";
+      html += "</div>";
+      if (item.z) {
+        html += "<div class='hn-search-item-zh'>" + item.z + "</div>";
+      }
+      html += "<div class='hn-search-item-meta'>" + metaParts.join(" · ") + "</div>";
+      if (tagsHtml) {
+        html += "<div class='hn-search-item-tags'>" + tagsHtml + "</div>";
+      }
+      html += "<a class='hn-search-item-page' href='" + item.page + "'>View in daily page →</a>";
+      html += "</div>";
+      return html;
+    }
+
+    function showResults() {
+      var end = Math.min(displayCount, allResults.length);
+      var html = "";
+      for (var i = 0; i < end; i++) {
+        html += renderResult(allResults[i].item || allResults[i]);
+      }
+      resultsEl.innerHTML = html;
+      resultsEl.style.display = end > 0 ? "block" : "none";
+
+      // Show/hide "Show more" button
+      if (end < allResults.length) {
+        moreBtn.style.display = "block";
+        moreBtn.textContent = "Show more results (" + (allResults.length - end) + " remaining)";
+      } else {
+        moreBtn.style.display = "none";
+      }
+
+      // Hide the day grid when showing search results
+      if (gridEl) {
+        gridEl.style.display = allResults.length > 0 ? "none" : "";
+      }
+    }
+
+    function doSearch(query) {
+      query = query.trim();
+      if (!query || query.length < 2) {
+        // Clear search
+        allResults = [];
+        displayCount = 0;
+        resultsEl.innerHTML = "";
+        resultsEl.style.display = "none";
+        moreBtn.style.display = "none";
+        statusEl.textContent = "";
+        if (gridEl) gridEl.style.display = "";
+        return;
+      }
+
+      if (!fuse) {
+        statusEl.textContent = "Loading...";
+        loadFuse(function () {
+          loadIndex(function (data) {
+            initFuse(data);
+            doSearch(query);
+          });
+        });
+        return;
+      }
+
+      allResults = fuse.search(query);
+      displayCount = PAGE_SIZE;
+      statusEl.textContent = "Found " + allResults.length + " result" + (allResults.length !== 1 ? "s" : "") + " for \"" + query + "\"";
+      showResults();
+    }
+
+    // Debounce input
+    var timer = null;
+    input.addEventListener("input", function () {
+      clearTimeout(timer);
+      timer = setTimeout(function () {
+        doSearch(input.value);
+      }, 300);
+    });
+
+    // Enter key triggers immediate search
+    input.addEventListener("keydown", function (e) {
+      if (e.key === "Enter") {
+        clearTimeout(timer);
+        doSearch(input.value);
+      }
+    });
+
+    // "Show more" button
+    if (moreBtn) {
+      moreBtn.addEventListener("click", function () {
+        displayCount += PAGE_SIZE;
+        showResults();
+      });
+    }
+
+    // Preload index on focus (lazy load)
+    var preloaded = false;
+    input.addEventListener("focus", function () {
+      if (preloaded) return;
+      preloaded = true;
+      loadFuse(function () {
+        loadIndex(function (data) {
+          initFuse(data);
+        });
+      });
+    });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initSearch);
+  } else {
+    initSearch();
+  }
+})();
