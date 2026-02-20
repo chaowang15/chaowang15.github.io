@@ -40,6 +40,13 @@ def _tag_html(tag: str) -> str:
     return f"<span class='hn-tag hn-tag--{color}' data-tag='{safe_tag}'>{tag}</span>"
 
 
+def _detect_mode(page_title: str) -> str:
+    """Detect story mode from page title string."""
+    if "Top Stories" in page_title:
+        return "top"
+    return "best"
+
+
 def render_markdown(
     items: List[Dict],
     page_title: str,
@@ -53,6 +60,7 @@ def render_markdown(
     Note: main.py will additionally clean legacy head tags / wrap if present.
     """
     fm_title = html_title or page_title
+    mode = _detect_mode(page_title)
 
     lines = []
     lines.append("---")
@@ -61,55 +69,64 @@ def render_markdown(
     lines.append("---")
     lines.append("")
 
-    # Header (NO outer hn-wrap here; layout provides it)
-    lines.append(f"<h1 class='hn-h1'>{page_title}</h1>")
-    
-    # Back / Prev navigation
-    # page_title looks like: "Hacker News — Best Stories (2026-02-16)"
-    m = re.search(r"\((\d{4}-\d{2}-\d{2})\)", page_title)
+    # Header with mode badge
+    if mode == "top":
+        badge = "<span class='hn-mode-badge hn-mode-top'>Top Stories</span>"
+    else:
+        badge = "<span class='hn-mode-badge hn-mode-best'>Best Stories</span>"
+
+    # Extract the date portion for a cleaner H1
+    # page_title: "Hacker News — Best Stories (2026-02-18)"
+    m_date = re.search(r"\((\d{4}-\d{2}-\d{2})\)", page_title)
+    date_str = m_date.group(1) if m_date else ""
+
+    if date_str:
+        h1_text = f"Hacker News Daily — {date_str}"
+    else:
+        h1_text = "Hacker News Daily"
+
+    lines.append(f"<h1 class='hn-h1'>{h1_text} {badge}</h1>")
+
+    # Prev / Index / Next navigation
     prev_href = None
     next_href = None
+    file_prefix = "top_stories" if mode == "top" else "best_stories"
 
-    if m:
+    if m_date:
         try:
-            dt = datetime.strptime(m.group(1), "%Y-%m-%d")
+            dt = datetime.strptime(m_date.group(1), "%Y-%m-%d")
 
             prev_dt = dt - timedelta(days=1)
             next_dt = dt + timedelta(days=1)
 
             prev_href = (
                 f"/hackernews/{prev_dt.strftime('%Y/%m/%d')}/"
-                f"best_stories_{prev_dt.strftime('%m%d%Y')}"
+                f"{file_prefix}_{prev_dt.strftime('%m%d%Y')}"
             )
             next_href = (
                 f"/hackernews/{next_dt.strftime('%Y/%m/%d')}/"
-                f"best_stories_{next_dt.strftime('%m%d%Y')}"
+                f"{file_prefix}_{next_dt.strftime('%m%d%Y')}"
             )
         except Exception:
             prev_href = None
             next_href = None
 
+    # Build Prev/Index/Next nav with pill button styling
+    nav_html = "<div class='hn-nav'>"
 
-    # Build Prev/Index/Next nav
-    nav_html = "<p class='hn-nav'>"
-
-    # Prev on left
     if prev_href:
-        nav_html += f"<a class='hn-prev' href='{prev_href}'>‹ Prev day</a>"
+        nav_html += f"<a class='hn-nav-btn hn-prev' href='{prev_href}'>‹ Prev day</a>"
     else:
-        # optional placeholder to keep layout stable; can omit if you prefer
         nav_html += "<span></span>"
 
-    # Index in center
-    nav_html += "<a class='hn-back' href='/hackernews/'>← Index</a>"
+    nav_html += "<a class='hn-nav-btn hn-nav-index' href='/hackernews/'>← Index</a>"
 
-    # Next on right
     if next_href:
-        nav_html += f"<a class='hn-next' href='{next_href}'>Next day ›</a>"
+        nav_html += f"<a class='hn-nav-btn hn-next' href='{next_href}'>Next day ›</a>"
     else:
         nav_html += "<span></span>"
 
-    nav_html += "</p>"
+    nav_html += "</div>"
     lines.append(nav_html)
 
     subtitle = page_subtitle.strip()

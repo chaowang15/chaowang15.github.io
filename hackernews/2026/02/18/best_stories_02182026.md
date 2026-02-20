@@ -2,8 +2,8 @@
 layout: hn
 title: "Hacker News — Best Stories (2026-02-18)"
 ---
-<h1 class='hn-h1'>Hacker News — Best Stories (2026-02-18)</h1>
-<p class='hn-nav'><a class='hn-prev' href='/hackernews/2026/02/17/best_stories_02172026'>‹ Prev day</a><a class='hn-back' href='/hackernews/'>← Index</a><a class='hn-next' href='/hackernews/2026/02/19/best_stories_02192026'>Next day ›</a></p>
+<h1 class='hn-h1'>Hacker News Daily — 2026-02-18 <span class='hn-mode-badge hn-mode-best'>Best Stories</span></h1>
+<div class='hn-nav'><a class='hn-nav-btn hn-prev' href='/hackernews/2026/02/17/best_stories_02172026'>‹ Prev day</a><a class='hn-nav-btn hn-nav-index' href='/hackernews/'>← Index</a><a class='hn-nav-btn hn-next' href='/hackernews/2026/02/19/best_stories_02192026'>Next day ›</a></div>
 <p class='hn-subtitle'>Scraped at 04:55, February 19, 2026 (PST)</p>
 <hr class='hn-rule'/>
 <div class='hn-list'>

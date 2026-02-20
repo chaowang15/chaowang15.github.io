@@ -2,8 +2,8 @@
 layout: hn
 title: "Hacker News — Best Stories"
 ---
-<h1 class='hn-h1'>Hacker News — Best Stories</h1>
-<p class='hn-nav'><span></span><a class='hn-back' href='/hackernews/'>← Index</a><span></span></p>
+<h1 class='hn-h1'>Hacker News Daily <span class='hn-mode-badge hn-mode-best'>Best Stories</span></h1>
+<div class='hn-nav'><span></span><a class='hn-nav-btn hn-nav-index' href='/hackernews/'>← Index</a><span></span></div>
 <p class='hn-subtitle'>Scraped at 23:51, February 16, 2026 (PST)</p>
 <hr class='hn-rule'/>
 <div class='hn-list'>
