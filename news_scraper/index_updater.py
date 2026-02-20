@@ -304,7 +304,7 @@ def update_hackernews_index(
 
     lines.append("<h1 class='hn-h1'>Hacker News Daily</h1>")
     source_link = "<a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a>"
-    lines.append(f"<p class='hn-subtitle'>Daily scraped <b>Hacker News Daily Best &amp; Trending</b>. · Source: {source_link}</p>")
+    lines.append(f"<p class='hn-subtitle'><b>Daily Best &amp; Trending</b> · Source: {source_link}</p>")
 
     # Statistics bar
     if stats["total_days"] > 0:
