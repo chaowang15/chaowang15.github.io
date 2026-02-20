@@ -43,7 +43,7 @@ title: "Hacker News Daily"
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/02/16/best_stories_02162026'>
 <span class='hn-row-type hn-type-best'>Best Stories</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>50</b> <span class="hn-row-sep">·</span> Open Source <b>7</b></span>
+<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>14</b> <span class="hn-row-sep">·</span> Web <b>9</b></span>
 </a>
 </div>
 </div>
