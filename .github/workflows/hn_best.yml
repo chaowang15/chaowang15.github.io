@@ -49,4 +49,8 @@ jobs:
             exit 0
           fi
           git commit -m "Update HN Best Stories"
+          
+          # Pull --rebase AFTER commit to handle any concurrent pushes
+          git pull --rebase origin main || true
+          
           git push
