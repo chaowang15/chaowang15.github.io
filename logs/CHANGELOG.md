@@ -326,3 +326,34 @@
 - **自动检测**: 切换器只在新闻页面上动态创建和显示，主页和 Trends 页面不受影响。
 
 **修改文件**: `assets/hn/hn.js`, `assets/hn/hn.css`, `_layouts/hn.html`, `news_scraper/index_updater.py`, `news_scraper/main.py`
+
+
+---
+
+## 2026年2月20日 (Weekly Digest 页面重新设计)
+
+本次更新对 Weekly Digest 页面进行了重大重新设计，将其从"Top 20 精选详情页"转变为"全部新闻的预览索引页"，并恢复了标签过滤功能。
+
+### 展示全部新闻（精简预览模式）
+
+- **取消 Top 20 限制**: 不再只展示分数最高的 20 条新闻，而是展示该周所有去重后的新闻（如 W08 共 171 条）。
+- **精简卡片设计**: 每条新闻只包含以下元素，不再显示摘要、图片、元数据（作者、评论数等）：
+  - **蓝色 score 徽章**: 左侧圆角小标签，显示 HN 分数（如 `1314`），一目了然。
+  - **英文标题**: 可点击跳转到原文链接。
+  - **中文标题**: 灰色显示，受语言切换器控制（双语/中文模式下显示）。
+  - **标签**: 彩色胶囊标签。
+  - **"View in daily page →"**: 跳转到对应的 Daily News 详情页查看完整信息。
+- **新增 CSS 样式**: `.hn-card-compact` 紧凑卡片样式（更小的内边距、字体和间距）和 `.hn-compact-score` 蓝色分数徽章样式，支持暗色模式和移动端响应式。
+
+### 标签栏替换
+
+- **删除**: 顶部的标签趋势统计栏（"AI 25 · Programming 24 · Hardware 17..."），因为展示全部新闻后该统计意义不大。
+- **恢复**: 可交互的标签过滤栏，显示 All (171) 和所有标签按钮（如 AI (34)、Programming (35) 等），点击可筛选对应标签的新闻。
+- **副标题简化**: 从 "Top 20 from 140 unique stories" 改为 "171 unique stories"。
+
+### 修改文件
+
+- **`news_scraper/weekly_digest.py`**: 取消 `top_n` 限制，传入全部新闻；精简 `render_weekly_digest()` 函数，移除摘要、图片、元数据渲染，新增 score 徽章；删除标签趋势统计栏生成代码。
+- **`assets/hn/hn.js`**: 移除 Weekly 页面跳过标签过滤的逻辑（`if (document.querySelector(".hn-mode-weekly")) return;`），恢复标签过滤功能。
+- **`assets/hn/hn.css`**: 新增 `.hn-card-compact` 和 `.hn-compact-score` 样式（约 60 行），包含暗色模式和移动端适配。
+- **`_layouts/hn.html`**: 缓存版本号更新至 `v=20260220u`。
