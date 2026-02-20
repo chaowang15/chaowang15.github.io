@@ -14,6 +14,10 @@ title: "Hacker News Daily"
 <span class='hn-row-type hn-type-best'>Best Stories</span>
 <span class='hn-row-detail'>50 stories · Top: Claude Sonnet 4.6</span>
 </a>
+<a class='hn-story-link' href='/hackernews/2026/02/18/top_stories_02182026'>
+<span class='hn-row-type hn-type-top'>Top Stories</span>
+<span class='hn-row-detail'>49 stories · Top: Gemini 3.1 Pro</span>
+</a>
 </div>
 </div>
 <div class='hn-day-row'>
