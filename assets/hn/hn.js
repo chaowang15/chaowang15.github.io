@@ -74,9 +74,30 @@
   btn.style.display = "none";
   document.body.appendChild(btn);
 
+  const CONTENT_MAX_W = 920; // must match --hn-maxw in CSS
+  const GAP = 12; // gap between content edge and button
+  const FALLBACK_RIGHT = 14; // fallback right when viewport is narrow
+
+  const positionBtn = () => {
+    const vw = window.innerWidth;
+    const margin = (vw - CONTENT_MAX_W) / 2;
+    if (margin > 80) {
+      // Wide screen: place button just outside content right edge
+      btn.style.right = (margin - btn.offsetWidth - GAP) + "px";
+    } else {
+      // Narrow screen: fallback to fixed right
+      btn.style.right = FALLBACK_RIGHT + "px";
+    }
+  };
+
   const toggle = () => {
     const y = window.scrollY || document.documentElement.scrollTop || 0;
-    btn.style.display = (y > 600) ? "block" : "none";
+    if (y > 600) {
+      btn.style.display = "block";
+      positionBtn();
+    } else {
+      btn.style.display = "none";
+    }
   };
 
   btn.addEventListener("click", () => {
@@ -84,6 +105,7 @@
   });
 
   window.addEventListener("scroll", toggle, { passive: true });
+  window.addEventListener("resize", positionBtn, { passive: true });
   toggle();
 })();
 
