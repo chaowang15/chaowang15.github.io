@@ -34,6 +34,7 @@ from image_fetcher import extract_preview_image_url
 from md_writer import render_markdown
 from index_updater import update_hackernews_index
 from search_index_builder import build_search_index
+from tag_cloud_builder import build_tag_cloud
 from backup_io import write_backup_json, read_backup_json
 from tag_generator import tag_json_file
 
@@ -318,6 +319,9 @@ def rebuild_all_from_json(cfg: dict, max_items: int = 3650):
 
     # Build search index
     build_search_index(base_dir=base_dir)
+
+    # Build tag cloud data
+    build_tag_cloud(base_dir=base_dir)
 
     # Clean index too
     try:
@@ -780,6 +784,9 @@ def main():
 
     # Build search index
     build_search_index(base_dir=base_dir)
+
+    # Build tag cloud data
+    build_tag_cloud(base_dir=base_dir)
 
     # Clean index page
     try:

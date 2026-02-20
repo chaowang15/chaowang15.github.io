@@ -1118,3 +1118,81 @@ body {
   border-color: var(--link);
   color: #fff;
 }
+
+
+/* ===== Tag Word Cloud ===== */
+.hn-tag-cloud {
+  margin: 20px 0 8px;
+  position: relative;
+}
+.hn-tag-cloud-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+.hn-tag-cloud-title {
+  font-family: var(--hn-sans);
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--hn-muted);
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+.hn-tag-cloud-toggle {
+  background: none;
+  border: 1px solid var(--hn-border);
+  border-radius: 10px;
+  padding: 2px 10px;
+  font-size: 11px;
+  font-family: var(--hn-sans);
+  color: var(--hn-muted);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  line-height: 1.6;
+}
+.hn-tag-cloud-toggle:hover {
+  border-color: var(--link);
+  color: var(--link);
+}
+.hn-tag-cloud-body {
+  position: relative;
+  border: 1px solid var(--hn-border);
+  border-radius: 12px;
+  background: var(--bg);
+  overflow: hidden;
+  padding: 8px;
+}
+.hn-tag-cloud-canvas {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+.hn-tag-cloud-tooltip {
+  display: none;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.82);
+  color: #fff;
+  font-family: var(--hn-sans);
+  font-size: 13px;
+  padding: 5px 12px;
+  border-radius: 6px;
+  pointer-events: none;
+  white-space: nowrap;
+  z-index: 10;
+  line-height: 1.5;
+}
+@media (prefers-color-scheme: dark) {
+  .hn-tag-cloud-body {
+    background: rgba(255,255,255,0.03);
+  }
+  .hn-tag-cloud-tooltip {
+    background: rgba(255, 255, 255, 0.88);
+    color: #111;
+  }
+}
+@media (max-width: 600px) {
+  .hn-tag-cloud-body {
+    padding: 4px;
+  }
+}

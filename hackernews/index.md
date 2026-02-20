@@ -2,6 +2,7 @@
 layout: hn
 title: "Hacker News Daily"
 ---
+
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Daily scraped <b>Hacker News Daily Best &amp; Trending</b>. · Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
 <div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>4</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>265</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>3</span> best files</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>2</span> top files</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-02-19</span></div>
@@ -17,6 +18,16 @@ Sort:
 </div>
 <div id='hn-search-results' class='hn-search-results' style='display:none;'></div>
 <button id='hn-search-more' class='hn-search-more' style='display:none;'>Show more results</button>
+<div class='hn-tag-cloud' id='hn-tag-cloud'>
+<div class='hn-tag-cloud-header'>
+<span class='hn-tag-cloud-title'>Tag Cloud</span>
+<button class='hn-tag-cloud-toggle' id='hn-tag-cloud-toggle' title='Hide tag cloud'>▾ Hide</button>
+</div>
+<div class='hn-tag-cloud-body' id='hn-tag-cloud-body'>
+<canvas class='hn-tag-cloud-canvas' id='hn-tag-cloud-canvas'></canvas>
+<div class='hn-tag-cloud-tooltip' id='hn-tag-cloud-tooltip'></div>
+</div>
+</div>
 <div class='hn-weekly-section'>
 <h3 class='hn-section-title'>Weekly Digest</h3>
 <div class='hn-day-stories'>

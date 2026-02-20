@@ -589,3 +589,268 @@
     initSearch();
   }
 })();
+
+
+// ===== Tag Word Cloud (Index page only) =====
+(function () {
+  function initWordCloud() {
+    var container = document.getElementById('hn-tag-cloud');
+    if (!container) return;
+
+    var canvas = document.getElementById('hn-tag-cloud-canvas');
+    var tooltip = document.getElementById('hn-tag-cloud-tooltip');
+    var toggleBtn = document.getElementById('hn-tag-cloud-toggle');
+    var body = document.getElementById('hn-tag-cloud-body');
+
+    // Tag color map
+    var TAG_COLORS = {
+      "AI": "#3b82f6", "Programming": "#6366f1", "Security": "#ef4444",
+      "Science": "#14b8a6", "Business": "#f59e0b", "Finance": "#f59e0b",
+      "Hardware": "#64748b", "Open Source": "#22c55e", "Design": "#ec4899",
+      "Web": "#06b6d4", "DevOps": "#6366f1", "Data": "#8b5cf6",
+      "Gaming": "#a855f7", "Entertainment": "#a855f7", "Politics": "#f97316",
+      "Health": "#10b981", "Education": "#0ea5e9", "Career": "#0ea5e9",
+      "Privacy": "#ef4444", "Legal": "#f97316", "Culture": "#f43f5e",
+      "Space": "#14b8a6", "Energy": "#10b981", "Startups": "#f59e0b",
+      "Show HN": "#22c55e"
+    };
+
+    // Dark mode detection
+    var isDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+    // Collapse/expand toggle with localStorage memory
+    var STORAGE_KEY = 'hn-tag-cloud-collapsed';
+    var isCollapsed = localStorage.getItem(STORAGE_KEY) === '1';
+
+    function applyCollapse() {
+      if (isCollapsed) {
+        body.style.display = 'none';
+        toggleBtn.textContent = '▸ Show';
+        toggleBtn.title = 'Show tag cloud';
+      } else {
+        body.style.display = '';
+        toggleBtn.textContent = '▾ Hide';
+        toggleBtn.title = 'Hide tag cloud';
+      }
+    }
+
+    toggleBtn.addEventListener('click', function () {
+      isCollapsed = !isCollapsed;
+      localStorage.setItem(STORAGE_KEY, isCollapsed ? '1' : '0');
+      applyCollapse();
+      if (!isCollapsed && !cloudRendered) {
+        renderCloud();
+      }
+    });
+
+    applyCollapse();
+
+    var cloudRendered = false;
+
+    // Load tag cloud data
+    function loadData(cb) {
+      var xhr = new XMLHttpRequest();
+      xhr.open('GET', '/hackernews/tag_cloud.json', true);
+      xhr.onload = function () {
+        if (xhr.status === 200) {
+          try { cb(JSON.parse(xhr.responseText)); } catch (e) { /* ignore */ }
+        }
+      };
+      xhr.send();
+    }
+
+    function renderCloud() {
+      loadData(function (data) {
+        if (!data || !data.tags || !data.tags.length) return;
+
+        var tags = data.tags;
+        var maxCount = tags[0].count;
+        var minCount = tags[tags.length - 1].count;
+
+        // Canvas setup
+        var rect = canvas.parentElement.getBoundingClientRect();
+        var W = Math.min(rect.width, 860);
+        var H = 280;
+        canvas.width = W * 2;  // retina
+        canvas.height = H * 2;
+        canvas.style.width = W + 'px';
+        canvas.style.height = H + 'px';
+
+        var ctx = canvas.getContext('2d');
+        ctx.scale(2, 2);
+        ctx.textBaseline = 'middle';
+
+        // Font size scaling
+        var MIN_FONT = 13;
+        var MAX_FONT = 52;
+        function fontSize(count) {
+          if (maxCount === minCount) return (MIN_FONT + MAX_FONT) / 2;
+          var t = (count - minCount) / (maxCount - minCount);
+          // Use sqrt for more balanced visual distribution
+          return MIN_FONT + Math.sqrt(t) * (MAX_FONT - MIN_FONT);
+        }
+
+        // Spiral placement algorithm
+        var placed = []; // array of {x, y, w, h, tag, count, color, fs}
+
+        function overlaps(x, y, w, h) {
+          for (var i = 0; i < placed.length; i++) {
+            var p = placed[i];
+            if (x < p.x + p.w && x + w > p.x && y < p.y + p.h && y + h > p.y) {
+              return true;
+            }
+          }
+          return false;
+        }
+
+        // Shuffle tags slightly so layout isn't always identical
+        // but keep rough size ordering (big words first for better packing)
+        var tagItems = tags.map(function (t) {
+          return { tag: t.tag, count: t.count, fs: fontSize(t.count) };
+        });
+
+        // Place each tag
+        tagItems.forEach(function (item) {
+          var fs = item.fs;
+          ctx.font = '600 ' + fs + 'px Inter, -apple-system, sans-serif';
+          var metrics = ctx.measureText(item.tag);
+          var tw = metrics.width + 8;
+          var th = fs * 1.3;
+
+          var cx = W / 2;
+          var cy = H / 2;
+          var angle = 0;
+          var step = 2;
+          var placed_ok = false;
+
+          for (var i = 0; i < 1200; i++) {
+            var r = step * angle / (2 * Math.PI);
+            var x = cx + r * Math.cos(angle) - tw / 2;
+            var y = cy + r * Math.sin(angle) - th / 2;
+
+            // Bounds check
+            if (x >= 2 && y >= 2 && x + tw <= W - 2 && y + th <= H - 2) {
+              if (!overlaps(x, y, tw, th)) {
+                var color = TAG_COLORS[item.tag] || '#64748b';
+                placed.push({ x: x, y: y, w: tw, h: th, tag: item.tag, count: item.count, color: color, fs: fs });
+                placed_ok = true;
+                break;
+              }
+            }
+            angle += 0.15;
+          }
+        });
+
+        // Draw all placed tags
+        function draw(hoverIdx) {
+          ctx.clearRect(0, 0, W, H);
+          placed.forEach(function (p, idx) {
+            ctx.font = '600 ' + p.fs + 'px Inter, -apple-system, sans-serif';
+            var alpha = (idx === hoverIdx) ? 1.0 : 0.82;
+            ctx.fillStyle = p.color;
+            ctx.globalAlpha = alpha;
+            if (idx === hoverIdx) {
+              ctx.shadowColor = p.color;
+              ctx.shadowBlur = 12;
+            } else {
+              ctx.shadowColor = 'transparent';
+              ctx.shadowBlur = 0;
+            }
+            ctx.fillText(p.tag, p.x + 4, p.y + p.h / 2);
+          });
+          ctx.globalAlpha = 1;
+          ctx.shadowColor = 'transparent';
+          ctx.shadowBlur = 0;
+        }
+
+        draw(-1);
+        cloudRendered = true;
+
+        // Hit detection for hover and click
+        function hitTest(ex, ey) {
+          var rect = canvas.getBoundingClientRect();
+          var mx = (ex - rect.left);
+          var my = (ey - rect.top);
+          for (var i = placed.length - 1; i >= 0; i--) {
+            var p = placed[i];
+            if (mx >= p.x && mx <= p.x + p.w && my >= p.y && my <= p.y + p.h) {
+              return i;
+            }
+          }
+          return -1;
+        }
+
+        var currentHover = -1;
+
+        canvas.addEventListener('mousemove', function (e) {
+          var idx = hitTest(e.clientX, e.clientY);
+          if (idx !== currentHover) {
+            currentHover = idx;
+            draw(idx);
+            if (idx >= 0) {
+              canvas.style.cursor = 'pointer';
+              var p = placed[idx];
+              var pct = data.total_stories > 0 ? (p.count / data.total_stories * 100).toFixed(1) : '0';
+              tooltip.innerHTML = '<b>' + p.tag + '</b>: ' + p.count + ' stories (' + pct + '%)';
+              tooltip.style.display = 'block';
+              // Position tooltip near cursor
+              var cr = canvas.getBoundingClientRect();
+              tooltip.style.left = (e.clientX - cr.left + 12) + 'px';
+              tooltip.style.top = (e.clientY - cr.top - 30) + 'px';
+            } else {
+              canvas.style.cursor = 'default';
+              tooltip.style.display = 'none';
+            }
+          } else if (idx >= 0) {
+            // Update tooltip position
+            var cr = canvas.getBoundingClientRect();
+            tooltip.style.left = (e.clientX - cr.left + 12) + 'px';
+            tooltip.style.top = (e.clientY - cr.top - 30) + 'px';
+          }
+        });
+
+        canvas.addEventListener('mouseleave', function () {
+          currentHover = -1;
+          draw(-1);
+          tooltip.style.display = 'none';
+          canvas.style.cursor = 'default';
+        });
+
+        // Click => trigger search for that tag
+        canvas.addEventListener('click', function (e) {
+          var idx = hitTest(e.clientX, e.clientY);
+          if (idx >= 0) {
+            var tag = placed[idx].tag;
+            var searchInput = document.getElementById('hn-search-input');
+            if (searchInput) {
+              searchInput.value = tag;
+              searchInput.dispatchEvent(new Event('input', { bubbles: true }));
+              searchInput.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+          }
+        });
+
+        // Responsive: redraw on resize
+        var resizeTimer;
+        window.addEventListener('resize', function () {
+          clearTimeout(resizeTimer);
+          resizeTimer = setTimeout(function () {
+            cloudRendered = false;
+            renderCloud();
+          }, 300);
+        });
+      });
+    }
+
+    // Render immediately if not collapsed
+    if (!isCollapsed) {
+      renderCloud();
+    }
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initWordCloud);
+  } else {
+    initWordCloud();
+  }
+})();
