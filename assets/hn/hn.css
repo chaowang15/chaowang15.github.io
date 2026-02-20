@@ -1074,6 +1074,19 @@ body {
     text-decoration: none;
 }
 
+/* Search keyword highlighting */
+.hn-highlight {
+    background: rgba(255, 220, 50, 0.45);
+    color: inherit;
+    padding: 0.05em 0.15em;
+    border-radius: 3px;
+}
+@media (prefers-color-scheme: dark) {
+    .hn-highlight {
+        background: rgba(255, 200, 40, 0.3);
+    }
+}
+
 .hn-search-more {
     display: block;
     width: 100%;

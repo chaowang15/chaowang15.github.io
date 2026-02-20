@@ -345,6 +345,7 @@
     var displayCount = 0;
     var indexData = null;
     var currentSort = 'date'; // default sort
+    var currentQuery = ''; // current search query for highlighting
     var sortEl = document.getElementById('hn-search-sort');
 
     // Tag color map (same as tag filter)
@@ -410,6 +411,19 @@
       });
     }
 
+    // Highlight matching keywords in text
+    function highlightText(text, query) {
+      if (!text || !query) return text || '';
+      // Split query into individual words, escape regex special chars
+      var words = query.trim().split(/\s+/).filter(function (w) { return w.length >= 2; });
+      if (!words.length) return text;
+      var escaped = words.map(function (w) {
+        return w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      });
+      var pattern = new RegExp('(' + escaped.join('|') + ')', 'gi');
+      return text.replace(pattern, '<mark class="hn-highlight">$1</mark>');
+    }
+
     function renderResult(item) {
       var typeLabel = item.type === "top" ? "Trending" : "Daily Best";
       var typeClass = item.type === "top" ? "hn-type-top" : "hn-type-best";
@@ -425,7 +439,7 @@
       var metaParts = [];
       if (item.date) metaParts.push(item.date);
       if (item.score) metaParts.push(item.score + " points");
-      if (item.by) metaParts.push("by " + item.by);
+      if (item.by) metaParts.push("by " + highlightText(item.by, currentQuery));
       if (item.comments > 0) {
         metaParts.push("<a href='" + item.hn_url + "' target='_blank' rel='noopener noreferrer'>" + item.comments + " comments</a>");
       }
@@ -433,10 +447,10 @@
       var html = "<div class='hn-search-item'>";
       html += "<div class='hn-search-item-header'>";
       html += "<span class='hn-row-type " + typeClass + "'>" + typeLabel + "</span>";
-      html += "<a class='hn-search-item-title' href='" + item.u + "' target='_blank' rel='noopener noreferrer'>" + item.t + "</a>";
+      html += "<a class='hn-search-item-title' href='" + item.u + "' target='_blank' rel='noopener noreferrer'>" + highlightText(item.t, currentQuery) + "</a>";
       html += "</div>";
       if (item.z) {
-        html += "<div class='hn-search-item-zh'>" + item.z + "</div>";
+        html += "<div class='hn-search-item-zh'>" + highlightText(item.z, currentQuery) + "</div>";
       }
       html += "<div class='hn-search-item-meta'>" + metaParts.join(" · ") + "</div>";
       if (tagsHtml) {
@@ -501,6 +515,7 @@
         allResults = [];
         sortedResults = [];
         displayCount = 0;
+        currentQuery = '';
         resultsEl.innerHTML = "";
         resultsEl.style.display = "none";
         moreBtn.style.display = "none";
@@ -522,6 +537,7 @@
       }
 
       allResults = fuse.search(query);
+      currentQuery = query;
       displayCount = PAGE_SIZE;
       statusEl.textContent = "Found " + allResults.length + " result" + (allResults.length !== 1 ? "s" : "") + " for \"" + query + "\"";
       applySortAndShow();
