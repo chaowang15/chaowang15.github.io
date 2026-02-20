@@ -2,13 +2,16 @@
 Hacker News Daily Scraper — main pipeline
 
 Modes:
-  best    — Fetch & enrich today's best stories
-  top     — Fetch & enrich today's top stories
+  best    — Fetch & enrich today's best stories (once daily)
+  top     — Fetch & enrich today's top stories (incremental, multiple times daily)
+  all     — Run both best and top sequentially
   rebuild — Rebuild all MD pages from existing JSON backups (no API, no LLM)
 
 Features:
 - Token-saving: reuse existing JSON in manual runs, force refresh in scheduled runs
 - Cross-day deduplication: reuse LLM summaries from previous day's JSON for overlapping stories
+- Same-day incremental appending: for top stories, merge new items into existing today's JSON
+- 100-item cap for top stories: keep top 100 by score after merging
 - Comprehensive logging for GitHub Actions debugging
 - Fallback model support for both enrichment and tag generation
 - Content cleaning and robust JSON parsing
@@ -31,6 +34,9 @@ from md_writer import render_markdown
 from index_updater import update_hackernews_index
 from backup_io import write_backup_json, read_backup_json
 from tag_generator import tag_json_file
+
+
+TOP_STORIES_MAX = 100  # Maximum number of top stories to keep per day
 
 
 def utc_now() -> datetime:
@@ -137,7 +143,6 @@ def _load_previous_day_items(base_dir: str, content_dt: datetime, mode: str) -> 
     """
     Load the previous day's JSON file for the given mode (best/top).
     Returns a dict mapping hn_id -> item dict for quick lookup.
-    Also tries to match by title_en as a secondary check.
     """
     prev_dt = content_dt - timedelta(days=1)
     prefix_map = {"best": "best_stories", "top": "top_stories"}
@@ -165,6 +170,32 @@ def _load_previous_day_items(base_dir: str, content_dt: datetime, mode: str) -> 
         return prev_map
     except Exception as e:
         print(f"[DEDUP][WARN] Failed to load previous day JSON: {e}")
+        return {}
+
+
+def _load_same_day_items(json_path: str) -> dict:
+    """
+    Load the current day's existing JSON file for incremental appending.
+    Returns a dict mapping hn_id -> item dict for quick lookup.
+    Used by top stories to merge new items into existing ones.
+    """
+    if not os.path.exists(json_path):
+        return {}
+
+    try:
+        with open(json_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        items = data.get("items", []) or []
+        existing_map = {}
+        for item in items:
+            hn = item.get("hn", {})
+            hn_id = hn.get("id")
+            if hn_id:
+                existing_map[int(hn_id)] = item
+        print(f"[INCREMENTAL] Loaded {len(existing_map)} existing items from today's JSON: {json_path}")
+        return existing_map
+    except Exception as e:
+        print(f"[INCREMENTAL][WARN] Failed to load today's JSON: {e}")
         return {}
 
 
@@ -302,7 +333,17 @@ def rebuild_all_from_json(cfg: dict, max_items: int = 3650):
 def run_scrape(mode: str, cfg: dict):
     """
     Run the scraping pipeline for a given mode ('best' or 'top').
-    Supports cross-day deduplication to reuse LLM summaries.
+
+    For 'best' mode:
+      - Scheduled runs: force refresh (re-fetch all, overwrite JSON)
+      - Manual runs: reuse existing JSON if available
+      - Cross-day dedup: reuse LLM summaries from previous day
+
+    For 'top' mode:
+      - Incremental: merge new items into today's existing JSON
+      - Same-day dedup: skip items already in today's JSON (update score only)
+      - Cross-day dedup: for truly new items, check previous day's JSON too
+      - 100-item cap: after merging, keep top 100 by score
     """
     t_start = time.time()
 
@@ -348,29 +389,31 @@ def run_scrape(mode: str, cfg: dict):
     json_name = filename.replace(".md", ".json")
     json_path = os.path.join(out_dir, json_name)
 
-    # Token-saving behavior:
     json_exists = os.path.exists(json_path)
     now_utc = utc_now()
 
     event_name = os.getenv("GITHUB_EVENT_NAME", "")
     is_scheduled = (event_name == "schedule")
 
-    # schedule => always refresh, manual => reuse json if exists
-    force_refresh = is_scheduled
+    # For best mode: schedule => force refresh; manual => reuse if exists
+    # For top mode: always incremental (merge new items into existing JSON)
+    is_top_mode = (mode == "top")
 
     print("=" * 70)
     print(f"[PIPELINE] Hacker News Daily Scraper — mode={mode}")
-    print(f"[PIPELINE] event={event_name} | is_scheduled={is_scheduled} | force_refresh={force_refresh}")
+    print(f"[PIPELINE] event={event_name} | is_scheduled={is_scheduled}")
     print(f"[PIPELINE] content_date={content_dt.strftime('%Y-%m-%d')} | run_local={scrape_time_str}")
     print(f"[PIPELINE] run_utc={now_utc.strftime('%Y-%m-%d %H:%M:%S UTC')}")
     print(f"[PIPELINE] json={json_path} | exists={json_exists}")
     print(f"[PIPELINE] llm_model={llm_model} | fallback={llm_fallback}")
     print(f"[PIPELINE] tag_model={tag_model} | tag_fallback={tag_fallback}")
     print(f"[PIPELINE] max_retries={max_retries}")
+    if is_top_mode:
+        print(f"[PIPELINE] top_stories_max={TOP_STORIES_MAX} | incremental=True")
     print("=" * 70)
 
-    # ---------- SKIP path: reuse existing JSON ----------
-    if json_exists and (not force_refresh):
+    # ---------- SKIP path: for best mode only, reuse existing JSON ----------
+    if not is_top_mode and json_exists and not is_scheduled:
         print(f"[SKIP] Reusing existing JSON (no LLM). json={json_path}")
         backup = read_backup_json(json_path)
         items_for_render = backup["items"]
@@ -409,7 +452,12 @@ def run_scrape(mode: str, cfg: dict):
         print(f"[SKIP] mode={mode} completed in {elapsed:.1f}s")
         return
 
-    if force_refresh:
+    # For best mode scheduled runs, force LLM
+    if not is_top_mode and is_scheduled:
+        llm_enabled = True
+
+    # For top mode, always enable LLM for new items
+    if is_top_mode:
         llm_enabled = True
 
     # ========== STEP 1: Fetch story IDs ==========
@@ -456,24 +504,32 @@ def run_scrape(mode: str, cfg: dict):
     if not raw_items:
         raise RuntimeError("No valid story items fetched.")
 
-    # ========== STEP 3: Cross-day deduplication ==========
-    print(f"\n[STEP 3/6] Cross-day deduplication ...")
+    # ========== STEP 3: Deduplication ==========
+    print(f"\n[STEP 3/6] Deduplication ...")
     t0 = time.time()
+
+    # For top mode: load same-day existing items first
+    same_day_map = {}
+    if is_top_mode:
+        same_day_map = _load_same_day_items(json_path)
+
+    # Load previous day items for cross-day dedup
     prev_items = _load_previous_day_items(base_dir, content_dt, mode)
 
-    reused_count = 0
+    reused_same_day = 0
+    reused_cross_day = 0
     new_items_for_llm = []
     reused_map = {}  # id -> prev_item (items that can skip LLM)
+    score_update_map = {}  # id -> updated score/descendants for same-day items
 
     for it in raw_items:
         hn_id = it["id"]
         title_en = it["title_en"]
 
-        if hn_id in prev_items:
-            prev = prev_items[hn_id]
-            # Verify by title match
+        # Priority 1: Check same-day existing items (top mode incremental)
+        if is_top_mode and hn_id in same_day_map:
+            prev = same_day_map[hn_id]
             if _is_same_story(prev, title_en):
-                # Check that previous item has valid LLM data
                 has_summary = (
                     prev.get("summary_en") and
                     prev.get("summary_zh") and
@@ -482,12 +538,36 @@ def run_scrape(mode: str, cfg: dict):
                 )
                 if has_summary:
                     reused_map[hn_id] = prev
-                    reused_count += 1
+                    # Track updated score/descendants
+                    score_update_map[hn_id] = {
+                        "score": it.get("hn_score"),
+                        "descendants": it.get("hn_descendants"),
+                    }
+                    reused_same_day += 1
+                    continue
+
+        # Priority 2: Check previous day's items (cross-day dedup)
+        if hn_id in prev_items:
+            prev = prev_items[hn_id]
+            if _is_same_story(prev, title_en):
+                has_summary = (
+                    prev.get("summary_en") and
+                    prev.get("summary_zh") and
+                    prev.get("title_zh") and
+                    prev["summary_en"] != "Brief intro unavailable (LLM disabled)."
+                )
+                if has_summary:
+                    reused_map[hn_id] = prev
+                    reused_cross_day += 1
                     continue
 
         new_items_for_llm.append(it)
 
-    print(f"[STEP 3/6] Dedup result: {reused_count} reused from previous day, {len(new_items_for_llm)} need LLM enrichment")
+    total_reused = reused_same_day + reused_cross_day
+    print(f"[STEP 3/6] Dedup result:")
+    print(f"  Same-day reused: {reused_same_day}")
+    print(f"  Cross-day reused: {reused_cross_day}")
+    print(f"  New (need LLM): {len(new_items_for_llm)}")
     print(f"[STEP 3/6] Completed in {time.time() - t0:.1f}s")
 
     # ========== STEP 4: LLM enrichment (only for new items) ==========
@@ -510,12 +590,14 @@ def run_scrape(mode: str, cfg: dict):
             else:
                 raise
     elif not new_items_for_llm:
-        print(f"[STEP 4/6] All items reused from previous day — no LLM calls needed!")
+        print(f"[STEP 4/6] All items reused — no LLM calls needed!")
 
     # ========== STEP 5: Fetch preview images & assemble final items ==========
     print(f"\n[STEP 5/6] Fetching preview images (enabled={img_enabled}) ...")
     t0 = time.time()
-    final_items = []
+
+    # Build the list of newly fetched items (from this run)
+    new_final_items = []
     img_found = 0
     for it in raw_items:
         hn_time = it.get("hn_time")
@@ -528,19 +610,27 @@ def run_scrape(mode: str, cfg: dict):
         title_en = it["title_en"]
         url = it["url"]
 
-        # Check if this item was reused from previous day
+        # Check if this item was reused (same-day or cross-day)
         if _id in reused_map:
             prev = reused_map[_id]
             title_zh = prev.get("title_zh", "")
             summary_en = prev.get("summary_en", "")
             summary_zh = prev.get("summary_zh", "")
-            # Reuse image from previous day if available
             image_url = prev.get("image_url")
             if image_url:
                 img_found += 1
-            # Reuse tags from previous day
             tags = prev.get("tags", [])
-            print(f"  [REUSE] ID={_id}: \"{title_en[:50]}...\" — reused summary + image + tags")
+
+            # For same-day reused items, update score/descendants to latest
+            if _id in score_update_map:
+                updated = score_update_map[_id]
+                hn_score_new = updated.get("score", it.get("hn_score"))
+                hn_desc_new = updated.get("descendants", it.get("hn_descendants"))
+            else:
+                hn_score_new = it.get("hn_score")
+                hn_desc_new = it.get("hn_descendants")
+
+            print(f"  [REUSE] ID={_id}: \"{title_en[:50]}\" — reused summary + image + tags")
         elif llm_enabled and _id in enrich_map:
             extra = enrich_map[_id]
             title_zh = extra["title_zh"]
@@ -548,6 +638,8 @@ def run_scrape(mode: str, cfg: dict):
             summary_zh = extra["summary_zh"]
             image_url = None
             tags = []
+            hn_score_new = it.get("hn_score")
+            hn_desc_new = it.get("hn_descendants")
             if img_enabled:
                 image_url = extract_preview_image_url(
                     page_url=url,
@@ -562,6 +654,8 @@ def run_scrape(mode: str, cfg: dict):
             summary_zh = "（未启用简介翻译）"
             image_url = None
             tags = []
+            hn_score_new = it.get("hn_score")
+            hn_desc_new = it.get("hn_descendants")
             if img_enabled:
                 image_url = extract_preview_image_url(
                     page_url=url,
@@ -585,8 +679,8 @@ def run_scrape(mode: str, cfg: dict):
                 "id": _id,
                 "type": it.get("hn_type"),
                 "by": it.get("hn_by"),
-                "score": it.get("hn_score"),       # Use today's score (time-sensitive)
-                "descendants": it.get("hn_descendants"),  # Use today's comment count
+                "score": hn_score_new,
+                "descendants": hn_desc_new,
                 "time": it.get("hn_time"),
                 "comments_url": comments_url,
             },
@@ -594,17 +688,41 @@ def run_scrape(mode: str, cfg: dict):
         if tags:
             item_dict["tags"] = tags
 
-        final_items.append(item_dict)
+        new_final_items.append(item_dict)
 
-    print(f"[STEP 5/6] Images: {img_found}/{len(final_items)} found in {time.time() - t0:.1f}s")
+    print(f"[STEP 5/6] Images: {img_found}/{len(new_final_items)} found in {time.time() - t0:.1f}s")
 
+    # ---------- For top mode: merge with existing same-day items ----------
+    if is_top_mode and same_day_map:
+        # Start with existing items that are NOT in the new fetch
+        new_ids = {it["hn"]["id"] for it in new_final_items}
+        carried_over = []
+        for hn_id, existing_item in same_day_map.items():
+            if hn_id not in new_ids:
+                carried_over.append(existing_item)
+
+        all_items = new_final_items + carried_over
+        print(f"[INCREMENTAL] Merged: {len(new_final_items)} from this run + {len(carried_over)} carried over = {len(all_items)} total")
+
+        # Sort by score descending and cap at TOP_STORIES_MAX
+        all_items.sort(key=lambda x: (x.get("hn", {}).get("score") or 0), reverse=True)
+        if len(all_items) > TOP_STORIES_MAX:
+            print(f"[INCREMENTAL] Capping from {len(all_items)} to {TOP_STORIES_MAX} items (by score)")
+            all_items = all_items[:TOP_STORIES_MAX]
+
+        final_items = all_items
+    else:
+        final_items = new_final_items
+
+    # ---------- Build meta ----------
     meta = {
         "mode": mode,
         "source": "https://news.ycombinator.com/",
         "api": "https://github.com/HackerNews/API",
         "count_requested": count,
         "count_written": len(final_items),
-        "reused_from_previous_day": reused_count,
+        "reused_same_day": reused_same_day,
+        "reused_cross_day": reused_cross_day,
         "new_llm_enriched": len(new_items_for_llm),
         "scrape_time_display": scrape_time_str,
         "timezone": tz_name,
@@ -614,8 +732,12 @@ def run_scrape(mode: str, cfg: dict):
         "run_time_utc": now_utc.strftime("%Y-%m-%d %H:%M:%S UTC"),
     }
 
+    if is_top_mode:
+        meta["incremental"] = True
+        meta["top_stories_max"] = TOP_STORIES_MAX
+
     write_backup_json(json_path, meta=meta, items=final_items)
-    print(f"\n[JSON] Saved backup: {json_path} ({len(final_items)} items, {reused_count} reused)")
+    print(f"\n[JSON] Saved backup: {json_path} ({len(final_items)} items, same_day_reused={reused_same_day}, cross_day_reused={reused_cross_day})")
 
     # ========== STEP 6: Generate tags ==========
     print(f"\n[STEP 6/6] Generating tags (model={tag_model}, fallback={tag_fallback}) ...")
@@ -658,7 +780,7 @@ def run_scrape(mode: str, cfg: dict):
     print(f"[DONE] Pipeline completed in {elapsed:.1f}s")
     print(f"[DONE] {out_path} — {len(items_for_render)} items ({has_tags} with tags)")
     print(f"[DONE] mode={mode}, content_date={content_dt.strftime('%Y-%m-%d')}, run={scrape_time_str}")
-    print(f"[DONE] Reused: {reused_count}, New LLM: {len(new_items_for_llm)}")
+    print(f"[DONE] Same-day reused: {reused_same_day}, Cross-day reused: {reused_cross_day}, New LLM: {len(new_items_for_llm)}")
     print("=" * 70)
 
 
@@ -678,22 +800,6 @@ def main():
 
     if mode == "rebuild":
         rebuild_all_from_json(cfg)
-        # Update index after rebuild
-        base_dir = cfg["output"]["base_dir"]
-        index_path = os.path.join(base_dir, "index.md")
-        update_hackernews_index(
-            base_dir=base_dir,
-            index_path=index_path,
-            max_items=30,
-        )
-        try:
-            with open(index_path, "r", encoding="utf-8") as f:
-                idx_md = f.read()
-            idx_md = _clean_hn_markdown(idx_md)
-            with open(index_path, "w", encoding="utf-8") as f:
-                f.write(idx_md)
-        except Exception as e:
-            print(f"[WARN] Failed to clean index markdown: {e}")
         return
 
     # For 'all' mode, run both best and top sequentially
