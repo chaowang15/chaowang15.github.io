@@ -3,25 +3,19 @@ name: HN Top Stories (Incremental)
 on:
   workflow_dispatch:
   schedule:
-    # PDT 7:00, 10:00, 13:00, 16:00, 19:00
-    # PDT = UTC-7 (summer) / PST = UTC-8 (winter)
-    # Using UTC-8 (PST) for consistency:
-    #   PDT 7:00  = UTC 14:00 (winter: PST 6:00)
-    #   PDT 10:00 = UTC 17:00 (winter: PST 9:00)
-    #   PDT 13:00 = UTC 20:00 (winter: PST 12:00)
-    #   PDT 16:00 = UTC 23:00 (winter: PST 15:00)
-    #   PDT 19:00 = UTC  2:00 (winter: PST 18:00)
-    # Using PST (UTC-8) for now since we're in winter:
-    #   PST 7:00  = UTC 15:00
-    #   PST 10:00 = UTC 18:00
-    #   PST 13:00 = UTC 21:00
-    #   PST 16:00 = UTC  0:00
-    #   PST 19:00 = UTC  3:00
-    - cron: "0 15 * * *"  # PST 7:00 AM
-    - cron: "0 18 * * *"  # PST 10:00 AM
-    - cron: "0 21 * * *"  # PST 1:00 PM
-    - cron: "0 0 * * *"   # PST 4:00 PM
-    - cron: "0 3 * * *"   # PST 7:00 PM
+    # Every 4 hours: PDT 7:00, 11:00, 15:00, 19:00, 23:00
+    # PDT = UTC-7
+    #   PDT  7:00 AM = UTC 14:00
+    #   PDT 11:00 AM = UTC 18:00
+    #   PDT  3:00 PM = UTC 22:00
+    #   PDT  7:00 PM = UTC  2:00 (next day)
+    #   PDT 11:00 PM = UTC  6:00 (next day)
+    - cron: "0 14 * * *"  # PDT  7:00 AM
+    - cron: "0 18 * * *"  # PDT 11:00 AM
+    - cron: "0 22 * * *"  # PDT  3:00 PM
+    - cron: "0 2 * * *"   # PDT  7:00 PM
+    - cron: "0 6 * * *"   # PDT 11:00 PM
+
 
 permissions:
   contents: write
