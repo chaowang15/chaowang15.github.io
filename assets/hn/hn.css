@@ -765,3 +765,95 @@ body {
         padding: 3px 10px;
     }
 }
+
+/* ===== Tag filter bar ===== */
+.hn-filter-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin: 14px 0 4px 0;
+    padding: 0;
+}
+
+.hn-filter-btn {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 999px;
+    font-family: var(--hn-sans);
+    font-size: 0.80rem;
+    font-weight: 600;
+    line-height: 1.4;
+    letter-spacing: 0.01em;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: opacity 140ms ease, transform 100ms ease, box-shadow 140ms ease;
+    outline: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.hn-filter-btn:hover {
+    opacity: 0.85;
+    transform: translateY(-1px);
+}
+
+/* "All" button: neutral style */
+.hn-filter-btn--all {
+    background: rgba(0, 0, 0, 0.06);
+    color: var(--hn-fg);
+    border-color: var(--hn-border);
+}
+
+@media (prefers-color-scheme: dark) {
+    .hn-filter-btn--all {
+        background: rgba(255, 255, 255, 0.08);
+    }
+}
+
+/* Active state: ring highlight */
+.hn-filter-btn.is-active {
+    box-shadow: 0 0 0 2px var(--link);
+    opacity: 1;
+    transform: none;
+}
+
+/* Dim non-active buttons when a filter is active */
+.hn-filter-bar:has(.hn-filter-btn.is-active:not(.hn-filter-btn--all)) .hn-filter-btn:not(.is-active) {
+    opacity: 0.50;
+}
+
+.hn-filter-bar:has(.hn-filter-btn.is-active:not(.hn-filter-btn--all)) .hn-filter-btn:not(.is-active):hover {
+    opacity: 0.75;
+}
+
+/* Filter status line */
+.hn-filter-status {
+    font-family: var(--hn-sans);
+    font-size: 0.88rem;
+    color: var(--hn-muted);
+    margin: 6px 0 2px 0;
+    padding: 0;
+}
+
+/* Mobile filter bar */
+@media (max-width: 640px) {
+    .hn-filter-bar {
+        gap: 5px;
+        margin: 12px 0 4px 0;
+    }
+    .hn-filter-btn {
+        font-size: 0.82rem;
+        padding: 4px 10px;
+    }
+}
+
+/* Make card tags clickable when filter is available */
+.hn-list .hn-tag {
+    cursor: pointer;
+}
+
+.hn-list .hn-tag:hover {
+    opacity: 0.75;
+    transform: translateY(-1px);
+    transition: opacity 140ms ease, transform 100ms ease;
+}

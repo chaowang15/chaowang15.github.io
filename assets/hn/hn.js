@@ -141,3 +141,164 @@
     initImgGuards();
   }
 })();
+
+// ===== Tag filter bar =====
+(function () {
+  function initTagFilter() {
+    const list = document.querySelector(".hn-list");
+    if (!list) return; // not a story page (e.g. index)
+
+    const cards = Array.from(list.querySelectorAll(".hn-card[data-tags]"));
+    if (!cards.length) return;
+
+    // Collect all unique tags and their counts
+    const tagCounts = {};
+    cards.forEach(function (card) {
+      var raw = card.getAttribute("data-tags") || "";
+      if (!raw) return;
+      raw.split(",").forEach(function (t) {
+        var tag = t.trim();
+        if (tag) tagCounts[tag] = (tagCounts[tag] || 0) + 1;
+      });
+    });
+
+    var tagNames = Object.keys(tagCounts);
+    if (!tagNames.length) return;
+
+    // Sort tags by count descending, then alphabetically
+    tagNames.sort(function (a, b) {
+      if (tagCounts[b] !== tagCounts[a]) return tagCounts[b] - tagCounts[a];
+      return a.localeCompare(b);
+    });
+
+    // Tag → CSS color class (must match TAG_COLOR_MAP in md_writer.py)
+    var TAG_COLORS = {
+      "AI": "blue", "Programming": "indigo", "Security": "red",
+      "Science": "teal", "Business": "amber", "Finance": "amber",
+      "Hardware": "slate", "Open Source": "green", "Design": "pink",
+      "Web": "cyan", "DevOps": "indigo", "Data": "violet",
+      "Gaming": "purple", "Entertainment": "purple", "Politics": "orange",
+      "Health": "emerald", "Education": "sky", "Career": "sky",
+      "Privacy": "red", "Legal": "orange", "Culture": "rose",
+      "Space": "teal", "Energy": "emerald", "Startups": "amber",
+      "Show HN": "green"
+    };
+
+    // Build the filter bar
+    var bar = document.createElement("div");
+    bar.className = "hn-filter-bar";
+
+    // "All" button
+    var allBtn = document.createElement("button");
+    allBtn.className = "hn-filter-btn hn-filter-btn--all is-active";
+    allBtn.setAttribute("data-filter", "__all__");
+    allBtn.textContent = "All (" + cards.length + ")";
+    bar.appendChild(allBtn);
+
+    // Tag buttons
+    tagNames.forEach(function (tag) {
+      var btn = document.createElement("button");
+      var color = TAG_COLORS[tag] || "slate";
+      btn.className = "hn-filter-btn hn-tag--" + color;
+      btn.setAttribute("data-filter", tag);
+      btn.textContent = tag + " (" + tagCounts[tag] + ")";
+      bar.appendChild(btn);
+    });
+
+    // Status line
+    var status = document.createElement("div");
+    status.className = "hn-filter-status";
+    status.style.display = "none";
+
+    // Insert bar and status before hn-list
+    list.parentNode.insertBefore(bar, list);
+    list.parentNode.insertBefore(status, list);
+
+    // State
+    var activeTag = null;
+
+    function applyFilter(tag) {
+      if (tag === "__all__" || tag === activeTag) {
+        // Reset
+        activeTag = null;
+        cards.forEach(function (c) { c.style.display = ""; });
+        status.style.display = "none";
+        // Update active state
+        bar.querySelectorAll(".hn-filter-btn").forEach(function (b) {
+          b.classList.remove("is-active");
+        });
+        allBtn.classList.add("is-active");
+
+        // Re-number all visible cards
+        renumberCards(cards);
+        return;
+      }
+
+      activeTag = tag;
+      var shown = 0;
+      cards.forEach(function (c) {
+        var tags = (c.getAttribute("data-tags") || "").split(",").map(function (s) { return s.trim(); });
+        if (tags.indexOf(tag) !== -1) {
+          c.style.display = "";
+          shown++;
+        } else {
+          c.style.display = "none";
+        }
+      });
+
+      // Update status
+      status.textContent = "Showing " + shown + " of " + cards.length + " stories tagged \"" + tag + "\"";
+      status.style.display = "block";
+
+      // Update active state
+      bar.querySelectorAll(".hn-filter-btn").forEach(function (b) {
+        b.classList.remove("is-active");
+        if (b.getAttribute("data-filter") === tag) b.classList.add("is-active");
+      });
+
+      // Re-number visible cards
+      var visibleCards = cards.filter(function (c) { return c.style.display !== "none"; });
+      renumberCards(visibleCards);
+    }
+
+    function renumberCards(visibleCards) {
+      // Update the (N) prefix in hn-title
+      visibleCards.forEach(function (card, idx) {
+        var titleEl = card.querySelector(".hn-title");
+        if (titleEl) {
+          // Replace "(N) " at the start of the text content
+          var firstText = titleEl.childNodes[0];
+          if (firstText && firstText.nodeType === 3) {
+            firstText.textContent = firstText.textContent.replace(/^\(\d+\)\s*/, "(" + (idx + 1) + ") ");
+          }
+        }
+      });
+    }
+
+    // Click handler (event delegation)
+    bar.addEventListener("click", function (e) {
+      var btn = e.target.closest(".hn-filter-btn");
+      if (!btn) return;
+      var filter = btn.getAttribute("data-filter");
+      applyFilter(filter);
+    });
+
+    // Also make individual tags on cards clickable for filtering
+    list.addEventListener("click", function (e) {
+      var tagEl = e.target.closest(".hn-tag");
+      if (!tagEl) return;
+      var tag = tagEl.getAttribute("data-tag");
+      if (tag) {
+        applyFilter(tag);
+        // Scroll to top of filter bar
+        bar.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initTagFilter);
+  } else {
+    initTagFilter();
+  }
+})();
