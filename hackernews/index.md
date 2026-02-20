@@ -8,6 +8,15 @@ title: "Hacker News Daily"
 <h2 style='font-family: var(--hn-sans); margin-top: 6px;'>Latest Files</h2>
 <div class='hn-grid'>
 <div class='hn-day-row'>
+<div class='hn-day-date'>2026-02-19</div>
+<div class='hn-day-stories'>
+<a class='hn-story-link' href='/hackernews/2026/02/19/top_stories_02192026'>
+<span class='hn-row-type hn-type-top'>Top Stories</span>
+<span class='hn-row-detail'>49 stories · Top: Sizing chaos</span>
+</a>
+</div>
+</div>
+<div class='hn-day-row'>
 <div class='hn-day-date'>2026-02-18</div>
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/02/18/best_stories_02182026'>
