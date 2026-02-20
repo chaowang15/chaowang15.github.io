@@ -242,3 +242,46 @@
 - **代码文件**: 
   - **新增**: `news_scraper/search_index_builder.py`
   - **修改**: `assets/hn/hn.css`, `assets/hn/hn.js`, `_layouts/hn.html`, `news_scraper/index_updater.py`, `news_scraper/main.py`, `news_scraper/md_writer.py`
+
+
+---
+
+## 2026年2月20日 (Weekly Digest 每周精选摘要)
+
+本次更新新增了 **Weekly Digest（每周精选摘要）** 功能，自动从过去一周的所有新闻中聚合去重，按分数排序生成 Top 20 精选页面。
+
+### 核心功能
+
+- **自动聚合**: 扫描 `hackernews/` 目录下指定周（周一至周日）范围内的所有 JSON 文件（best + top），按 HN ID 去重，保留最高分数的条目。
+- **Top 20 精选**: 从去重后的全部新闻池中按 score 降序排列，取前 20 条作为该周精选。
+- **标签趋势统计**: 页面顶部显示该周 Top 8 标签及其出现次数（如 "AI 25 · Programming 24 · Hardware 17"），一目了然地展示当周技术热点分布。
+- **完整的新闻卡片**: 每条精选新闻包含英文标题、中文翻译、元信息（分数、作者、评论数）、标签、预览图、中英文摘要，以及"View in daily page"链接跳转到原始每日页面。
+
+### 页面设计
+
+- **紫色 Weekly 徽章**: 新增 `.hn-mode-weekly` 和 `.hn-type-weekly` CSS 样式，使用紫色调（light: `#ede9fe`/`#5b21b6`, dark: `rgba(139,92,246,0.18)`/`#c4b5fd`）与现有的蓝色 Best 和黄色 Trending 徽章形成视觉区分。
+- **Prev/Next 周导航**: 支持按周前后翻页，以及返回 Index 页面。
+- **标签过滤**: 复用现有的标签过滤功能，可按标签筛选精选新闻。
+
+### 主页集成
+
+- 更新了 `index_updater.py`，新增 `_collect_weekly_entries()` 函数，自动扫描 `hackernews/weekly/` 目录下的 JSON 文件。
+- 在主页搜索框下方、每日列表上方新增 **"Weekly Digest"** 区域，显示所有已生成的周报链接，包含日期范围、精选数量和热门标签信息。
+
+### GitHub Actions 自动化
+
+- **Workflow 文件**: `.github/workflows/hn_weekly.yml`
+- **定时运行**: 每周一 09:00 UTC（2:00 AM PDT / 1:00 AM PST），与每日 Best Stories 的 4:00 AM PDT 错开。
+- **手动触发**: 支持通过 `workflow_dispatch` 手动指定 ISO 周（如 `2026-W07`）来回填历史数据。
+- **注意**: 由于 GitHub App 权限限制，workflow 文件需要用户手动添加到仓库。
+
+### 输出文件
+
+- **MD 页面**: `hackernews/weekly/YYYY-WNN.md`（如 `2026-W08.md`）
+- **JSON 备份**: `hackernews/weekly/YYYY-WNN.json`，包含完整的 meta 信息、标签统计和新闻数据，便于后续数据分析。
+
+### 代码文件
+
+- **新增**: `news_scraper/weekly_digest.py`, `.github/workflows/hn_weekly.yml`（需手动添加）
+- **修改**: `news_scraper/index_updater.py`, `assets/hn/hn.css`, `_layouts/hn.html`（缓存版本号更新）
+- **生成**: `hackernews/weekly/2026-W08.md`, `hackernews/weekly/2026-W08.json`（首期测试数据）
