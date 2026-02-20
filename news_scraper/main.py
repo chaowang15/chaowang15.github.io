@@ -558,6 +558,11 @@ def run_scrape(mode: str, cfg: dict):
                 )
                 if has_summary:
                     reused_map[hn_id] = prev
+                    # Track updated score/descendants for cross-day items too
+                    score_update_map[hn_id] = {
+                        "score": it.get("hn_score"),
+                        "descendants": it.get("hn_descendants"),
+                    }
                     reused_cross_day += 1
                     continue
 
@@ -621,7 +626,7 @@ def run_scrape(mode: str, cfg: dict):
                 img_found += 1
             tags = prev.get("tags", [])
 
-            # For same-day reused items, update score/descendants to latest
+            # For reused items (same-day or cross-day), update score/descendants to latest
             if _id in score_update_map:
                 updated = score_update_map[_id]
                 hn_score_new = updated.get("score", it.get("hn_score"))
@@ -713,6 +718,10 @@ def run_scrape(mode: str, cfg: dict):
         final_items = all_items
     else:
         final_items = new_final_items
+
+    # ---------- Sort ALL items by score descending ----------
+    final_items.sort(key=lambda x: (x.get("hn", {}).get("score") or 0), reverse=True)
+    print(f"[SORT] Sorted {len(final_items)} items by score (top: {final_items[0].get('hn',{}).get('score') if final_items else 'N/A'})")
 
     # ---------- Build meta ----------
     meta = {

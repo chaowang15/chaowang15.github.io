@@ -84,17 +84,23 @@ def _collect_day_entries(base_dir: str) -> List[DayEntry]:
             if not content_date:
                 continue
 
-            count_written = meta.get("count_written")
-            if count_written is None:
-                count_written = len(items)
-            try:
-                count_written = int(count_written)
-            except Exception:
-                count_written = None
+            # Always use actual item count from JSON (not meta.count_written)
+            # This ensures the index reflects the real number of rendered stories
+            count_written = len(items)
 
+            # Find the highest-scored story for the "Top:" display
             top_title = None
             if items:
-                top_title = items[0].get("title_en", None)
+                best_item = max(
+                    items,
+                    key=lambda x: (x.get("hn", {}).get("score") or 0),
+                    default=None,
+                )
+                if best_item:
+                    top_title = best_item.get("title_en", None)
+                # Fallback to first item if no scores available
+                if not top_title:
+                    top_title = items[0].get("title_en", None)
 
             rel_no_ext = fn[:-5]  # strip .json
             rel_url = f"/{base_dir}/{rel_dir}/{rel_no_ext}".replace("//", "/")
