@@ -16,7 +16,7 @@ title: "Hacker News Daily"
 </a>
 <a class='hn-story-link' href='/hackernews/2026/02/18/top_stories_02182026'>
 <span class='hn-row-type hn-type-top'>Top Stories</span>
-<span class='hn-row-detail'>51 stories · Top: Sizing chaos</span>
+<span class='hn-row-detail'>52 stories · Top: Sizing chaos</span>
 </a>
 </div>
 </div>
