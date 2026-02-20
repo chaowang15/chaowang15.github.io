@@ -4,6 +4,12 @@
 
 ---
 
+## 2026年2月19日 (日志文件夹迁移和 Jekyll 构建修复)
+
+将备份日志文件夹从 `hackernews/log/` 迁移到 repo 根目录的 `logs/`，并在 `_config.yml` 中将 `logs/`、`news_scraper/`、`news_config.yml`、`requirements.txt` 加入 Jekyll 的 `exclude` 列表。此前 `integration_proposal.md` 中包含了 Liquid 模板语法（`{% for %}`），导致 Jekyll 构建时解析失败（Pages build failure）。迁移并排除后，这些纯备份文件不再参与 Jekyll 构建，从根本上避免了此类问题。
+
+---
+
 ## 2026年2月19日 (可靠性、日志和模型优化)
 
 本次更新旨在全面提升系统的稳定性和可维护性。
