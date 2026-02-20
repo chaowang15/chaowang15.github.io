@@ -681,50 +681,50 @@
         ctx.textBaseline = 'middle';
 
         // Font size scaling
-        var MIN_FONT = 13;
-        var MAX_FONT = 52;
+        var MIN_FONT = 12;
+        var MAX_FONT = 46;
         function fontSize(count) {
           if (maxCount === minCount) return (MIN_FONT + MAX_FONT) / 2;
           var t = (count - minCount) / (maxCount - minCount);
           // Use sqrt for more balanced visual distribution
-          return MIN_FONT + Math.sqrt(t) * (MAX_FONT - MIN_FONT);
+          return Math.round(MIN_FONT + Math.sqrt(t) * (MAX_FONT - MIN_FONT));
         }
 
         // Spiral placement algorithm
         var placed = []; // array of {x, y, w, h, tag, count, color, fs}
+        var PAD = 4; // padding between words
 
         function overlaps(x, y, w, h) {
           for (var i = 0; i < placed.length; i++) {
             var p = placed[i];
-            if (x < p.x + p.w && x + w > p.x && y < p.y + p.h && y + h > p.y) {
+            if (x < p.x + p.w + PAD && x + w + PAD > p.x &&
+                y < p.y + p.h + PAD && y + h + PAD > p.y) {
               return true;
             }
           }
           return false;
         }
 
-        // Shuffle tags slightly so layout isn't always identical
-        // but keep rough size ordering (big words first for better packing)
         var tagItems = tags.map(function (t) {
           return { tag: t.tag, count: t.count, fs: fontSize(t.count) };
         });
 
-        // Place each tag
+        // Place each tag using Archimedean spiral
         tagItems.forEach(function (item) {
           var fs = item.fs;
           ctx.font = '600 ' + fs + 'px Inter, -apple-system, sans-serif';
           var metrics = ctx.measureText(item.tag);
-          var tw = metrics.width + 8;
-          var th = fs * 1.3;
+          var tw = metrics.width + 6;
+          var th = fs * 1.25;
 
           var cx = W / 2;
           var cy = H / 2;
-          var angle = 0;
-          var step = 2;
           var placed_ok = false;
 
-          for (var i = 0; i < 1200; i++) {
-            var r = step * angle / (2 * Math.PI);
+          // Archimedean spiral: r = a + b*theta
+          for (var i = 0; i < 3000; i++) {
+            var angle = i * 0.1;
+            var r = 1.5 * angle;
             var x = cx + r * Math.cos(angle) - tw / 2;
             var y = cy + r * Math.sin(angle) - th / 2;
 
@@ -737,7 +737,6 @@
                 break;
               }
             }
-            angle += 0.15;
           }
         });
 
