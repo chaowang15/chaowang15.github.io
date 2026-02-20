@@ -4,6 +4,67 @@
 
 ---
 
+## 2026年2月19日 (全面代码审计 + 统一增量去重 + 页面设计改进)
+
+本次更新包含三大改动：统一 Best/Top Stories 的增量去重流程、Top Stories 日期改为当天、以及页面设计改进。完成后进行了全面代码审计，确认所有逻辑路径正确无误。
+
+### 统一增量去重流程
+
+此前 Best Stories 在定时运行时采用强制覆盖模式，而 Top Stories 使用增量去重。现在两种模式完全统一为相同的增量去重流程，区别仅在于运行频率：Best 每天 1 次，Top 每天 5 次（每 4 小时）。
+
+- 移除了 `is_top_mode` 变量及所有相关分支判断，净减少约 60 行代码。
+- 两种模式均支持：同日去重 → 跨日去重 → LLM enrichment → 合并 carried-over → 按 score 排序 → 截取上限。
+- 新增 `BEST_STORIES_MAX = 50` 常量（Top 保持 `TOP_STORIES_MAX = 100`）。
+- LLM 始终启用（仅对新 item 调用），移除了从 config 读取 `llm_enabled` 的逻辑。
+
+### Top Stories 日期改为当天
+
+- Best Stories 的 `content_date` 保持为昨天（回顾性质）。
+- Top Stories 的 `content_date` 改为今天（时效性强）。
+- Index 页面自动正确显示：同一天可能 Best 显示昨天、Top 显示今天。
+- 跨日去重自动适配：Top 的"前一天"= 昨天的 top_stories，Best 的"前一天"= 前天的 best_stories。
+
+### Top Stories 定时调度更新
+
+- 从 PST 7/10/13/16/19 改为 PDT 7/11/15/19/23（每 4 小时一次）。
+- 对应 UTC cron：14:00, 18:00, 22:00, 2:00, 6:00。
+- 需用户手动更新 `.github/workflows/hn_top.yml`（权限限制）。
+
+### 页面设计改进
+
+- **H1 标题 Mode Badge**：Best Stories 页面显示蓝色 "Best Stories" pill badge，Top Stories 显示黄色 "Top Stories" pill badge，与 Index 页面配色一致。
+- **导航 Pill 按钮**：Prev Day / Index / Next Day 从纯文本链接改为带圆角边框的 pill 按钮，Index 按钮使用蓝色边框突出显示。
+- **模式感知导航**：Prev/Next 链接现在正确指向同类型页面（Best→Best, Top→Top），而非之前硬编码的 best_stories。
+- 所有样式支持 Dark Mode。
+
+### Score 更新修复
+
+- 修复了跨日去重的 item 不更新 score/descendants 的问题。
+- 现在同日和跨日复用的 item 都会从最新 API 数据获取 score 和 descendants。
+
+### 全面代码审计结果
+
+审查了 main.py (793行)、md_writer.py (219行)、index_updater.py (233行)、2个 workflow、news_config.yml 及所有 5 个 JSON/MD 文件。
+
+| 检查项 | 结果 |
+|--------|------|
+| 8 个 Python 文件语法 | 全部通过 |
+| 5 个 JSON 文件结构和排序 | 全部正确 |
+| 5 个 MD 文件新模板 | 全部更新 |
+| 定时运行（Best 1次/天, Top 5次/天）| 逻辑正确 |
+| 手动运行（best/top/all/rebuild）| 逻辑正确 |
+| 同日去重 + 跨日去重 | 逻辑正确 |
+| Score 更新 | 逻辑正确 |
+| 合并 + 排序 + 截取 | 逻辑正确 |
+| Index 页面日期分组 | 逻辑正确 |
+| Prev/Next 导航链接 | 逻辑正确 |
+
+**结论：无关键问题，所有逻辑路径均已验证正确。**
+
+**修改文件**: `news_scraper/main.py`, `news_scraper/md_writer.py`, `assets/hn/hn.css`, 全部 5 个 `hackernews/**/*.md`, `hackernews/index.md`
+
+---
+
 ## 2026年2月19日 (增量 Top Stories 抓取 + 同日去重 + 100条上限)
 
 本次更新将 Top Stories 从每天一次改为每天 5 次增量抓取，并实现了同日去重机制和 100 条上限。
