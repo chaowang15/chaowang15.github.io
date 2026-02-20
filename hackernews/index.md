@@ -2,9 +2,10 @@
 layout: hn
 title: "Hacker News Daily"
 ---
+
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Daily scraped <b>Hacker News Daily Best &amp; Trending</b>. · Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>5</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>364</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>4</span> best files</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>3</span> top files</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-02-20</span></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>5</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>364</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>4</span> best files</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>3</span> top files</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-02-20</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -17,27 +18,6 @@ Sort:
 </div>
 <div id='hn-search-results' class='hn-search-results' style='display:none;'></div>
 <button id='hn-search-more' class='hn-search-more' style='display:none;'>Show more results</button>
-<div class='hn-tag-cloud' id='hn-tag-cloud'>
-<div class='hn-tag-cloud-header'>
-<span class='hn-tag-cloud-title'>Tag Trends</span>
-<button class='hn-tag-cloud-toggle' id='hn-tag-cloud-toggle' title='Hide tag trends'>▾ Hide</button>
-</div>
-<div class='hn-tag-cloud-body' id='hn-tag-cloud-body'>
-<div class='hn-bubble-chart' id='hn-bubble-chart'></div>
-<div class='hn-tag-cloud-tooltip' id='hn-tag-cloud-tooltip'></div>
-</div>
-</div>
-<div class='hn-stream-section' id='hn-stream-section'>
-<div class='hn-stream-header'>
-<span class='hn-stream-title'>Tag Trends Over Time</span>
-<button class='hn-stream-toggle' id='hn-stream-toggle' title='Hide stream chart'>▾ Hide</button>
-</div>
-<div class='hn-stream-body' id='hn-stream-body'>
-<div class='hn-stream-svg-wrap' id='hn-stream-svg-wrap'></div>
-<div class='hn-stream-legend' id='hn-stream-legend'></div>
-<div class='hn-stream-tooltip' id='hn-stream-tooltip'></div>
-</div>
-</div>
 <div class='hn-weekly-section'>
 <h3 class='hn-section-title'>Weekly Digest</h3>
 <div class='hn-day-stories'>

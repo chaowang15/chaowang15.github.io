@@ -315,6 +315,7 @@ def update_hackernews_index(
         stat_parts.append(f"<span class='hn-stat-item'><span class='hn-stat-num'>{stats['top_files']}</span> top files</span>")
         date_range = f"{stats['date_start']} — {stats['date_end']}" if stats['date_start'] != stats['date_end'] else stats['date_start']
         stat_parts.append(f"<span class='hn-stat-item'>{date_range}</span>")
+        stat_parts.append("<a class='hn-stat-link' href='/hackernews/trends/'>Trends</a>")
 
         sep = ' <span class="hn-stat-sep">·</span> '
         lines.append(f"<div class='hn-stats'>{sep.join(stat_parts)}</div>")
@@ -333,30 +334,7 @@ def update_hackernews_index(
     lines.append("<div id='hn-search-results' class='hn-search-results' style='display:none;'></div>")
     lines.append("<button id='hn-search-more' class='hn-search-more' style='display:none;'>Show more results</button>")
 
-    # Tag bubble chart
-    lines.append("<div class='hn-tag-cloud' id='hn-tag-cloud'>")
-    lines.append("<div class='hn-tag-cloud-header'>")
-    lines.append("<span class='hn-tag-cloud-title'>Tag Trends</span>")
-    lines.append("<button class='hn-tag-cloud-toggle' id='hn-tag-cloud-toggle' title='Hide tag trends'>▾ Hide</button>")
-    lines.append("</div>")
-    lines.append("<div class='hn-tag-cloud-body' id='hn-tag-cloud-body'>")
-    lines.append("<div class='hn-bubble-chart' id='hn-bubble-chart'></div>")
-    lines.append("<div class='hn-tag-cloud-tooltip' id='hn-tag-cloud-tooltip'></div>")
-    lines.append("</div>")
-    lines.append("</div>")
 
-    # Stream chart (tag trends over time)
-    lines.append("<div class='hn-stream-section' id='hn-stream-section'>")
-    lines.append("<div class='hn-stream-header'>")
-    lines.append("<span class='hn-stream-title'>Tag Trends Over Time</span>")
-    lines.append("<button class='hn-stream-toggle' id='hn-stream-toggle' title='Hide stream chart'>▾ Hide</button>")
-    lines.append("</div>")
-    lines.append("<div class='hn-stream-body' id='hn-stream-body'>")
-    lines.append("<div class='hn-stream-svg-wrap' id='hn-stream-svg-wrap'></div>")
-    lines.append("<div class='hn-stream-legend' id='hn-stream-legend'></div>")
-    lines.append("<div class='hn-stream-tooltip' id='hn-stream-tooltip'></div>")
-    lines.append("</div>")
-    lines.append("</div>")
 
     # Weekly digest links
     weekly_entries = _collect_weekly_entries(base_dir)
