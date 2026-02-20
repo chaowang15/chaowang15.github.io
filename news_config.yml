@@ -7,10 +7,9 @@ best:
   count: 50
   filename_prefix: "best_stories"
 
-latest:
-  enabled: false # 你现在只跑 best；以后要跑 latest 改成 true
-  count: 20
-  filename_prefix: "latest_news"
+top:
+  count: 50
+  filename_prefix: "top_stories"
 
 format:
   datetime_format: "%H:%M, %B %d, %Y" # 00:09, February 16, 2026

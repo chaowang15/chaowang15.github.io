@@ -2,11 +2,13 @@
 Hacker News Daily Scraper — main pipeline
 
 Modes:
-  best    — Fetch & enrich today's best stories (daily scheduled or manual)
+  best    — Fetch & enrich today's best stories
+  top     — Fetch & enrich today's top stories
   rebuild — Rebuild all MD pages from existing JSON backups (no API, no LLM)
 
 Features:
 - Token-saving: reuse existing JSON in manual runs, force refresh in scheduled runs
+- Cross-day deduplication: reuse LLM summaries from previous day's JSON for overlapping stories
 - Comprehensive logging for GitHub Actions debugging
 - Fallback model support for both enrichment and tag generation
 - Content cleaning and robust JSON parsing
@@ -33,16 +35,6 @@ from tag_generator import tag_json_file
 
 def utc_now() -> datetime:
     return datetime.now(timezone.utc)
-
-
-def in_refresh_window(now_utc: datetime, target_h=12, target_m=0, window_min=30) -> bool:
-    """
-    Refresh window around daily routine time in UTC.
-    Default: 12:00 UTC +/- 30 min.
-    """
-    target = now_utc.replace(hour=target_h, minute=target_m, second=0, microsecond=0)
-    delta_min = abs((now_utc - target).total_seconds()) / 60.0
-    return delta_min <= window_min
 
 
 def load_config(path: str) -> dict:
@@ -136,20 +128,93 @@ def _clean_hn_markdown(md: str) -> str:
     return "\n".join(out).rstrip() + "\n"
 
 
+# ============================================================
+# Cross-day deduplication: load previous day's JSON to reuse
+# LLM summaries for overlapping stories
+# ============================================================
+
+def _load_previous_day_items(base_dir: str, content_dt: datetime, mode: str) -> dict:
+    """
+    Load the previous day's JSON file for the given mode (best/top).
+    Returns a dict mapping hn_id -> item dict for quick lookup.
+    Also tries to match by title_en as a secondary check.
+    """
+    prev_dt = content_dt - timedelta(days=1)
+    prefix_map = {"best": "best_stories", "top": "top_stories"}
+    prefix = prefix_map.get(mode, f"{mode}_stories")
+
+    date_dir = prev_dt.strftime("%Y/%m/%d")
+    json_name = f"{prefix}_{prev_dt.strftime('%m%d%Y')}.json"
+    json_path = os.path.join(base_dir, date_dir, json_name)
+
+    if not os.path.exists(json_path):
+        print(f"[DEDUP] No previous day JSON found: {json_path}")
+        return {}
+
+    try:
+        with open(json_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        items = data.get("items", []) or []
+        prev_map = {}
+        for item in items:
+            hn = item.get("hn", {})
+            hn_id = hn.get("id")
+            if hn_id:
+                prev_map[int(hn_id)] = item
+        print(f"[DEDUP] Loaded {len(prev_map)} items from previous day: {json_path}")
+        return prev_map
+    except Exception as e:
+        print(f"[DEDUP][WARN] Failed to load previous day JSON: {e}")
+        return {}
+
+
+def _is_same_story(prev_item: dict, title_en: str) -> bool:
+    """
+    Verify that the previous item is the same story by comparing title.
+    Uses a rough match: check if the titles are substantially similar.
+    """
+    prev_title = prev_item.get("title_en", "")
+    if not prev_title or not title_en:
+        return False
+    # Exact match
+    if prev_title.strip().lower() == title_en.strip().lower():
+        return True
+    # Rough match: check if one contains the other (handles minor edits)
+    a = prev_title.strip().lower()
+    b = title_en.strip().lower()
+    if len(a) > 10 and len(b) > 10:
+        if a in b or b in a:
+            return True
+        # Check word overlap ratio
+        words_a = set(a.split())
+        words_b = set(b.split())
+        if len(words_a) > 0 and len(words_b) > 0:
+            overlap = len(words_a & words_b) / max(len(words_a), len(words_b))
+            if overlap > 0.8:
+                return True
+    return False
+
+
+# ============================================================
+# Rebuild all from JSON
+# ============================================================
+
 def rebuild_all_from_json(cfg: dict, max_items: int = 3650):
     """
-    Rebuild ALL historical best_stories_*.md strictly from existing JSON backups.
+    Rebuild ALL historical *_stories_*.md strictly from existing JSON backups.
     - No HN API
     - No LLM enrichment (uses existing summaries)
     - Tags items if not already tagged
     - Overwrites md files in place
     """
     base_dir = cfg["output"]["base_dir"]  # "hackernews"
-    pattern = os.path.join(base_dir, "*", "*", "*", "best_stories_*.json")
-    json_paths = sorted(glob.glob(pattern))
+    # Match both best_stories_*.json and top_stories_*.json
+    pattern_best = os.path.join(base_dir, "*", "*", "*", "best_stories_*.json")
+    pattern_top = os.path.join(base_dir, "*", "*", "*", "top_stories_*.json")
+    json_paths = sorted(set(glob.glob(pattern_best) + glob.glob(pattern_top)))
 
     if not json_paths:
-        print(f"[REBUILD] No JSON backups found under: {pattern}")
+        print(f"[REBUILD] No JSON backups found.")
         return
 
     llm_cfg = cfg.get("llm", {})
@@ -157,7 +222,6 @@ def rebuild_all_from_json(cfg: dict, max_items: int = 3650):
     tag_fallback = llm_cfg.get("tag_fallback_model", "gpt-4.1-nano")
     max_retries = int(llm_cfg.get("max_retries", 2))
 
-    # Optional cap (safety)
     json_paths = json_paths[:max_items]
 
     print(f"[REBUILD] Found {len(json_paths)} json backups. Rebuilding md pages...")
@@ -181,11 +245,13 @@ def rebuild_all_from_json(cfg: dict, max_items: int = 3650):
             items = backup.get("items", []) or []
             meta = backup.get("meta", {}) or {}
 
-            # Derive md path = same dir, same prefix, .md
             md_path = json_path[:-5] + ".md"
 
             content_date = meta.get("content_date", "")
-            page_title = f"Hacker News — Best Stories ({content_date})" if content_date else "Hacker News — Best Stories"
+            story_mode = meta.get("mode", "best")
+            mode_label = "Top Stories" if story_mode == "top" else "Best Stories"
+
+            page_title = f"Hacker News — {mode_label} ({content_date})" if content_date else f"Hacker News — {mode_label}"
             scrape_disp = meta.get("scrape_time_display", meta.get("run_time_local", ""))
             if scrape_disp:
                 page_subtitle = f"Scraped at {scrape_disp}"
@@ -229,23 +295,16 @@ def rebuild_all_from_json(cfg: dict, max_items: int = 3650):
     print(f"[REBUILD] Done. Rebuilt {rebuilt} md pages + index.")
 
 
-def main():
+# ============================================================
+# Main pipeline: fetch, enrich, deduplicate, render
+# ============================================================
+
+def run_scrape(mode: str, cfg: dict):
+    """
+    Run the scraping pipeline for a given mode ('best' or 'top').
+    Supports cross-day deduplication to reuse LLM summaries.
+    """
     t_start = time.time()
-
-    if len(sys.argv) < 2:
-        print("Usage: python news_scraper/main.py best | rebuild")
-        sys.exit(2)
-
-    mode = sys.argv[1].strip().lower()
-    if mode not in ("best", "rebuild"):
-        raise ValueError("Usage: python news_scraper/main.py best | rebuild")
-
-    cfg = load_config("news_config.yml")
-    print(f"[CONFIG] Loaded news_config.yml")
-
-    if mode == "rebuild":
-        rebuild_all_from_json(cfg)
-        return
 
     tz_name = cfg["timezone"]
 
@@ -263,8 +322,12 @@ def main():
     out_dir = os.path.join(base_dir, date_dir)
     ensure_dir(out_dir)
 
-    count = int(cfg["best"]["count"])
-    prefix = cfg["best"]["filename_prefix"]
+    # Mode-specific config
+    mode_cfg = cfg.get(mode, {})
+    count = int(mode_cfg.get("count", 50))
+    prefix = mode_cfg.get("filename_prefix", f"{mode}_stories")
+    mode_label = "Top Stories" if mode == "top" else "Best Stories"
+
     filename = f"{prefix}_{mmddyyyy(content_dt)}.md"
     out_path = os.path.join(out_dir, filename)
 
@@ -326,7 +389,7 @@ def main():
         except Exception as e:
             print(f"[SKIP][WARN] Tag generation failed: {e}")
 
-        page_title = f"Hacker News — Best Stories ({content_dt.strftime('%Y-%m-%d')})"
+        page_title = f"Hacker News — {mode_label} ({content_dt.strftime('%Y-%m-%d')})"
         page_subtitle = f"Scraped at {backup['meta'].get('scrape_time_display', scrape_time_str)}"
 
         md = render_markdown(
@@ -340,28 +403,23 @@ def main():
         with open(out_path, "w", encoding="utf-8") as f:
             f.write(md)
 
-        update_hackernews_index(
-            base_dir=cfg["output"]["base_dir"],
-            index_path=os.path.join(cfg["output"]["base_dir"], "index.md"),
-            max_items=30,
-        )
-
         has_tags = sum(1 for it in items_for_render if it.get("tags"))
         print(f"[SKIP] Done. Rendered {len(items_for_render)} items ({has_tags} with tags). json={json_path}")
+        elapsed = time.time() - t_start
+        print(f"[SKIP] mode={mode} completed in {elapsed:.1f}s")
         return
-
 
     if force_refresh:
         llm_enabled = True
 
-    # ========== STEP 1: Fetch best story IDs ==========
-    print(f"\n[STEP 1/5] Fetching top {count} best story IDs from HN API ...")
+    # ========== STEP 1: Fetch story IDs ==========
+    print(f"\n[STEP 1/6] Fetching top {count} {mode} story IDs from HN API ...")
     t0 = time.time()
-    ids = get_story_ids("best")[:count]
-    print(f"[STEP 1/5] Got {len(ids)} story IDs in {time.time() - t0:.1f}s")
+    ids = get_story_ids(mode)[:count]
+    print(f"[STEP 1/6] Got {len(ids)} story IDs in {time.time() - t0:.1f}s")
 
     # ========== STEP 2: Fetch story details ==========
-    print(f"\n[STEP 2/5] Fetching story details ...")
+    print(f"\n[STEP 2/6] Fetching story details ...")
     t0 = time.time()
     raw_items = []
     skipped = 0
@@ -393,33 +451,69 @@ def main():
             "hn_descendants": int(hn_desc) if hn_desc is not None else None,
         })
 
-    print(f"[STEP 2/5] Fetched {len(raw_items)} valid stories, skipped {skipped}, in {time.time() - t0:.1f}s")
+    print(f"[STEP 2/6] Fetched {len(raw_items)} valid stories, skipped {skipped}, in {time.time() - t0:.1f}s")
 
     if not raw_items:
         raise RuntimeError("No valid story items fetched.")
 
-    # ========== STEP 3: LLM enrichment ==========
-    print(f"\n[STEP 3/5] LLM enrichment (model={llm_model}, fallback={llm_fallback}) ...")
+    # ========== STEP 3: Cross-day deduplication ==========
+    print(f"\n[STEP 3/6] Cross-day deduplication ...")
+    t0 = time.time()
+    prev_items = _load_previous_day_items(base_dir, content_dt, mode)
+
+    reused_count = 0
+    new_items_for_llm = []
+    reused_map = {}  # id -> prev_item (items that can skip LLM)
+
+    for it in raw_items:
+        hn_id = it["id"]
+        title_en = it["title_en"]
+
+        if hn_id in prev_items:
+            prev = prev_items[hn_id]
+            # Verify by title match
+            if _is_same_story(prev, title_en):
+                # Check that previous item has valid LLM data
+                has_summary = (
+                    prev.get("summary_en") and
+                    prev.get("summary_zh") and
+                    prev.get("title_zh") and
+                    prev["summary_en"] != "Brief intro unavailable (LLM disabled)."
+                )
+                if has_summary:
+                    reused_map[hn_id] = prev
+                    reused_count += 1
+                    continue
+
+        new_items_for_llm.append(it)
+
+    print(f"[STEP 3/6] Dedup result: {reused_count} reused from previous day, {len(new_items_for_llm)} need LLM enrichment")
+    print(f"[STEP 3/6] Completed in {time.time() - t0:.1f}s")
+
+    # ========== STEP 4: LLM enrichment (only for new items) ==========
+    print(f"\n[STEP 4/6] LLM enrichment for {len(new_items_for_llm)} new items (model={llm_model}, fallback={llm_fallback}) ...")
     enrich_map = {}
-    if llm_enabled:
+    if llm_enabled and new_items_for_llm:
         try:
-            enrich_map = llm_enrich_batch(raw_items, model=llm_model, max_retries=max_retries)
-            print(f"[STEP 3/5] LLM enrichment succeeded with model={llm_model}")
+            enrich_map = llm_enrich_batch(new_items_for_llm, model=llm_model, max_retries=max_retries)
+            print(f"[STEP 4/6] LLM enrichment succeeded with model={llm_model}")
         except Exception as e:
-            print(f"[STEP 3/5][WARN] LLM failed with model={llm_model}: {e}")
+            print(f"[STEP 4/6][WARN] LLM failed with model={llm_model}: {e}")
             if llm_fallback and llm_fallback != llm_model:
-                print(f"[STEP 3/5] Retrying with fallback model={llm_fallback} ...")
+                print(f"[STEP 4/6] Retrying with fallback model={llm_fallback} ...")
                 try:
-                    enrich_map = llm_enrich_batch(raw_items, model=llm_fallback, max_retries=max_retries)
-                    print(f"[STEP 3/5] LLM enrichment succeeded with fallback={llm_fallback}")
+                    enrich_map = llm_enrich_batch(new_items_for_llm, model=llm_fallback, max_retries=max_retries)
+                    print(f"[STEP 4/6] LLM enrichment succeeded with fallback={llm_fallback}")
                 except Exception as e2:
-                    print(f"[STEP 3/5][ERROR] Fallback also failed: {e2}")
+                    print(f"[STEP 4/6][ERROR] Fallback also failed: {e2}")
                     raise
             else:
                 raise
+    elif not new_items_for_llm:
+        print(f"[STEP 4/6] All items reused from previous day — no LLM calls needed!")
 
-    # ========== STEP 4: Fetch preview images ==========
-    print(f"\n[STEP 4/5] Fetching preview images (enabled={img_enabled}) ...")
+    # ========== STEP 5: Fetch preview images & assemble final items ==========
+    print(f"\n[STEP 5/6] Fetching preview images (enabled={img_enabled}) ...")
     t0 = time.time()
     final_items = []
     img_found = 0
@@ -434,29 +528,52 @@ def main():
         title_en = it["title_en"]
         url = it["url"]
 
-        if llm_enabled:
+        # Check if this item was reused from previous day
+        if _id in reused_map:
+            prev = reused_map[_id]
+            title_zh = prev.get("title_zh", "")
+            summary_en = prev.get("summary_en", "")
+            summary_zh = prev.get("summary_zh", "")
+            # Reuse image from previous day if available
+            image_url = prev.get("image_url")
+            if image_url:
+                img_found += 1
+            # Reuse tags from previous day
+            tags = prev.get("tags", [])
+            print(f"  [REUSE] ID={_id}: \"{title_en[:50]}...\" — reused summary + image + tags")
+        elif llm_enabled and _id in enrich_map:
             extra = enrich_map[_id]
             title_zh = extra["title_zh"]
             summary_en = extra["summary_en"]
             summary_zh = extra["summary_zh"]
+            image_url = None
+            tags = []
+            if img_enabled:
+                image_url = extract_preview_image_url(
+                    page_url=url,
+                    timeout_seconds=img_timeout,
+                    user_agent=img_ua,
+                )
+                if image_url:
+                    img_found += 1
         else:
             title_zh = "（未启用翻译）" + title_en
             summary_en = "Brief intro unavailable (LLM disabled)."
             summary_zh = "（未启用简介翻译）"
-
-        image_url = None
-        if img_enabled:
-            image_url = extract_preview_image_url(
-                page_url=url,
-                timeout_seconds=img_timeout,
-                user_agent=img_ua,
-            )
-            if image_url:
-                img_found += 1
+            image_url = None
+            tags = []
+            if img_enabled:
+                image_url = extract_preview_image_url(
+                    page_url=url,
+                    timeout_seconds=img_timeout,
+                    user_agent=img_ua,
+                )
+                if image_url:
+                    img_found += 1
 
         comments_url = f"https://news.ycombinator.com/item?id={_id}"
 
-        final_items.append({
+        item_dict = {
             "title_en": title_en,
             "url": url,
             "title_zh": title_zh,
@@ -468,14 +585,18 @@ def main():
                 "id": _id,
                 "type": it.get("hn_type"),
                 "by": it.get("hn_by"),
-                "score": it.get("hn_score"),
-                "descendants": it.get("hn_descendants"),
+                "score": it.get("hn_score"),       # Use today's score (time-sensitive)
+                "descendants": it.get("hn_descendants"),  # Use today's comment count
                 "time": it.get("hn_time"),
                 "comments_url": comments_url,
             },
-        })
+        }
+        if tags:
+            item_dict["tags"] = tags
 
-    print(f"[STEP 4/5] Images: {img_found}/{len(final_items)} found in {time.time() - t0:.1f}s")
+        final_items.append(item_dict)
+
+    print(f"[STEP 5/6] Images: {img_found}/{len(final_items)} found in {time.time() - t0:.1f}s")
 
     meta = {
         "mode": mode,
@@ -483,6 +604,8 @@ def main():
         "api": "https://github.com/HackerNews/API",
         "count_requested": count,
         "count_written": len(final_items),
+        "reused_from_previous_day": reused_count,
+        "new_llm_enriched": len(new_items_for_llm),
         "scrape_time_display": scrape_time_str,
         "timezone": tz_name,
         "date_dir": date_dir,
@@ -491,12 +614,11 @@ def main():
         "run_time_utc": now_utc.strftime("%Y-%m-%d %H:%M:%S UTC"),
     }
 
-    # Overwrite allowed for the "previous-day" file at refresh time
     write_backup_json(json_path, meta=meta, items=final_items)
-    print(f"\n[JSON] Saved backup: {json_path} ({len(final_items)} items)")
+    print(f"\n[JSON] Saved backup: {json_path} ({len(final_items)} items, {reused_count} reused)")
 
-    # ========== STEP 5: Generate tags ==========
-    print(f"\n[STEP 5/5] Generating tags (model={tag_model}, fallback={tag_fallback}) ...")
+    # ========== STEP 6: Generate tags ==========
+    print(f"\n[STEP 6/6] Generating tags (model={tag_model}, fallback={tag_fallback}) ...")
     try:
         tag_json_file(
             json_path,
@@ -504,10 +626,10 @@ def main():
             fallback_model=tag_fallback,
             max_retries=max_retries,
         )
-        print(f"[STEP 5/5] Tag generation succeeded")
+        print(f"[STEP 6/6] Tag generation succeeded")
     except Exception as e:
-        print(f"[STEP 5/5][ERROR] Tag generation failed: {e}")
-        print(f"[STEP 5/5][ERROR] Continuing without tags ...")
+        print(f"[STEP 6/6][ERROR] Tag generation failed: {e}")
+        print(f"[STEP 6/6][ERROR] Continuing without tags ...")
 
     # ---------- Render MD strictly from JSON backup ----------
     backup = read_backup_json(json_path)
@@ -515,7 +637,7 @@ def main():
 
     has_tags = sum(1 for it in items_for_render if it.get("tags"))
 
-    page_title = f"Hacker News — Best Stories ({content_dt.strftime('%Y-%m-%d')})"
+    page_title = f"Hacker News — {mode_label} ({content_dt.strftime('%Y-%m-%d')})"
     page_subtitle = f"Scraped at {scrape_time_str}"
 
     md = render_markdown(
@@ -531,15 +653,68 @@ def main():
 
     print(f"\n[MD] Rendered: {out_path}")
 
-    # Auto-update /hackernews/ index page
-    index_path = os.path.join(cfg["output"]["base_dir"], "index.md")
+    elapsed = time.time() - t_start
+    print("\n" + "=" * 70)
+    print(f"[DONE] Pipeline completed in {elapsed:.1f}s")
+    print(f"[DONE] {out_path} — {len(items_for_render)} items ({has_tags} with tags)")
+    print(f"[DONE] mode={mode}, content_date={content_dt.strftime('%Y-%m-%d')}, run={scrape_time_str}")
+    print(f"[DONE] Reused: {reused_count}, New LLM: {len(new_items_for_llm)}")
+    print("=" * 70)
+
+
+def main():
+    t_start = time.time()
+
+    if len(sys.argv) < 2:
+        print("Usage: python news_scraper/main.py best|top|all|rebuild")
+        sys.exit(2)
+
+    mode = sys.argv[1].strip().lower()
+    if mode not in ("best", "top", "all", "rebuild"):
+        raise ValueError("Usage: python news_scraper/main.py best|top|all|rebuild")
+
+    cfg = load_config("news_config.yml")
+    print(f"[CONFIG] Loaded news_config.yml")
+
+    if mode == "rebuild":
+        rebuild_all_from_json(cfg)
+        # Update index after rebuild
+        base_dir = cfg["output"]["base_dir"]
+        index_path = os.path.join(base_dir, "index.md")
+        update_hackernews_index(
+            base_dir=base_dir,
+            index_path=index_path,
+            max_items=30,
+        )
+        try:
+            with open(index_path, "r", encoding="utf-8") as f:
+                idx_md = f.read()
+            idx_md = _clean_hn_markdown(idx_md)
+            with open(index_path, "w", encoding="utf-8") as f:
+                f.write(idx_md)
+        except Exception as e:
+            print(f"[WARN] Failed to clean index markdown: {e}")
+        return
+
+    # For 'all' mode, run both best and top sequentially
+    modes_to_run = ["best", "top"] if mode == "all" else [mode]
+
+    for m in modes_to_run:
+        print(f"\n{'#' * 70}")
+        print(f"# Running mode: {m}")
+        print(f"{'#' * 70}\n")
+        run_scrape(m, cfg)
+
+    # Update index page ONCE after all modes are done
+    base_dir = cfg["output"]["base_dir"]
+    index_path = os.path.join(base_dir, "index.md")
     update_hackernews_index(
-        base_dir=cfg["output"]["base_dir"],
+        base_dir=base_dir,
         index_path=index_path,
         max_items=30,
     )
 
-    # Clean index page too
+    # Clean index page
     try:
         with open(index_path, "r", encoding="utf-8") as f:
             idx_md = f.read()
@@ -550,11 +725,7 @@ def main():
         print(f"[WARN] Failed to clean index markdown: {e}")
 
     elapsed = time.time() - t_start
-    print("\n" + "=" * 70)
-    print(f"[DONE] Pipeline completed in {elapsed:.1f}s")
-    print(f"[DONE] {out_path} — {len(items_for_render)} items ({has_tags} with tags)")
-    print(f"[DONE] mode={mode}, content_date={content_dt.strftime('%Y-%m-%d')}, run={scrape_time_str}")
-    print("=" * 70)
+    print(f"\n[TOTAL] All modes completed in {elapsed:.1f}s")
 
 
 if __name__ == "__main__":

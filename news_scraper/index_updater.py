@@ -1,21 +1,30 @@
 import os
 import re
 import json
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from datetime import datetime
-from typing import List, Optional
+from typing import List, Optional, Dict
 
-BEST_MD_RE = re.compile(r"^best_stories_(\d{8})\.md$")    # MMDDYYYY
-BEST_JSON_RE = re.compile(r"^best_stories_(\d{8})\.json$")  # MMDDYYYY
+BEST_JSON_RE = re.compile(r"^best_stories_(\d{8})\.json$")   # MMDDYYYY
+TOP_JSON_RE = re.compile(r"^top_stories_(\d{8})\.json$")     # MMDDYYYY
+BEST_MD_RE = re.compile(r"^best_stories_(\d{8})\.md$")       # MMDDYYYY
+TOP_MD_RE = re.compile(r"^top_stories_(\d{8})\.md$")         # MMDDYYYY
 
 
 @dataclass
-class Entry:
+class StoryEntry:
+    """One story type (best or top) for a given date."""
     rel_url: str               # /hackernews/YYYY/MM/DD/best_stories_MMDDYYYY
-    content_date: str          # YYYY-MM-DD (the "belongs to" date)
-    scraped_local: str         # e.g. "04:00, February 17, 2026 (PST)" (optional)
-    count_written: Optional[int]
-    top_title: Optional[str]   # title_en of the first (top) story
+    story_type: str            # "best" or "top"
+    count_written: Optional[int] = None
+    top_title: Optional[str] = None
+
+
+@dataclass
+class DayEntry:
+    """All story entries for a single content_date."""
+    content_date: str          # YYYY-MM-DD
+    stories: List[StoryEntry] = field(default_factory=list)
 
 
 def _try_parse_dt_from_dir(date_dir: str) -> Optional[datetime]:
@@ -34,20 +43,18 @@ def _read_json(path: str) -> Optional[dict]:
         return None
 
 
-def _collect_entries(base_dir: str) -> List[Entry]:
+def _collect_day_entries(base_dir: str) -> List[DayEntry]:
     """
-    Prefer JSON backups (best_stories_*.json) to get:
-      - content_date (previous-day date)
-      - run_time_local / scrape_time_display
-      - count_written
-      - top_title (first item's title_en)
-    Fallback to MD files if json missing (legacy).
+    Collect all day entries from JSON backups (both best and top).
+    Groups entries by content_date.
     """
-    entries: List[Entry] = []
-    if not os.path.isdir(base_dir):
-        return entries
+    # date_str -> DayEntry
+    day_map: Dict[str, DayEntry] = {}
 
-    # 1) First pass: JSON backups (preferred)
+    if not os.path.isdir(base_dir):
+        return []
+
+    # Pass 1: JSON backups (preferred)
     for root, _, files in os.walk(base_dir):
         rel_dir = os.path.relpath(root, base_dir).replace("\\", "/")
         if rel_dir.startswith("."):
@@ -56,10 +63,13 @@ def _collect_entries(base_dir: str) -> List[Entry]:
         dt_dir = _try_parse_dt_from_dir(rel_dir)
 
         for fn in files:
-            m = BEST_JSON_RE.match(fn)
-            if not m:
+            # Determine story type
+            m_best = BEST_JSON_RE.match(fn)
+            m_top = TOP_JSON_RE.match(fn)
+            if not m_best and not m_top:
                 continue
 
+            story_type = "best" if m_best else "top"
             abs_path = os.path.join(root, fn)
             data = _read_json(abs_path)
             if not data:
@@ -74,7 +84,6 @@ def _collect_entries(base_dir: str) -> List[Entry]:
             if not content_date:
                 continue
 
-            scraped_local = meta.get("run_time_local") or meta.get("scrape_time_display") or ""
             count_written = meta.get("count_written")
             if count_written is None:
                 count_written = len(items)
@@ -83,7 +92,6 @@ def _collect_entries(base_dir: str) -> List[Entry]:
             except Exception:
                 count_written = None
 
-            # Extract top story title
             top_title = None
             if items:
                 top_title = items[0].get("title_en", None)
@@ -91,18 +99,22 @@ def _collect_entries(base_dir: str) -> List[Entry]:
             rel_no_ext = fn[:-5]  # strip .json
             rel_url = f"/{base_dir}/{rel_dir}/{rel_no_ext}".replace("//", "/")
 
-            entries.append(
-                Entry(
-                    rel_url=rel_url,
-                    content_date=content_date,
-                    scraped_local=scraped_local,
-                    count_written=count_written,
-                    top_title=top_title,
-                )
+            entry = StoryEntry(
+                rel_url=rel_url,
+                story_type=story_type,
+                count_written=count_written,
+                top_title=top_title,
             )
 
-    # 2) Second pass: MD files (fallback) ONLY if no JSON for that content_date
-    have_dates = set(e.content_date for e in entries)
+            if content_date not in day_map:
+                day_map[content_date] = DayEntry(content_date=content_date)
+            day_map[content_date].stories.append(entry)
+
+    # Pass 2: MD fallback (for dates with no JSON)
+    have_dates_types = set()
+    for date_str, day in day_map.items():
+        for s in day.stories:
+            have_dates_types.add((date_str, s.story_type))
 
     for root, _, files in os.walk(base_dir):
         rel_dir = os.path.relpath(root, base_dir).replace("\\", "/")
@@ -113,37 +125,36 @@ def _collect_entries(base_dir: str) -> List[Entry]:
         if dt_dir is None:
             continue
         fallback_date = dt_dir.strftime("%Y-%m-%d")
-        if fallback_date in have_dates:
-            continue
 
         for fn in files:
-            m = BEST_MD_RE.match(fn)
-            if not m:
+            m_best = BEST_MD_RE.match(fn)
+            m_top = TOP_MD_RE.match(fn)
+            if not m_best and not m_top:
                 continue
+
+            story_type = "best" if m_best else "top"
+            if (fallback_date, story_type) in have_dates_types:
+                continue
+
             rel_url = f"/{base_dir}/{rel_dir}/{fn[:-3]}".replace("//", "/")
-            entries.append(
-                Entry(
-                    rel_url=rel_url,
-                    content_date=fallback_date,
-                    scraped_local="",
-                    count_written=None,
-                    top_title=None,
-                )
+            entry = StoryEntry(
+                rel_url=rel_url,
+                story_type=story_type,
             )
 
+            if fallback_date not in day_map:
+                day_map[fallback_date] = DayEntry(content_date=fallback_date)
+            day_map[fallback_date].stories.append(entry)
+
     # Sort by content_date desc
-    entries.sort(key=lambda e: e.content_date, reverse=True)
+    days = sorted(day_map.values(), key=lambda d: d.content_date, reverse=True)
 
-    # Deduplicate by content_date (keep first / newest)
-    dedup: List[Entry] = []
-    seen = set()
-    for e in entries:
-        if e.content_date in seen:
-            continue
-        seen.add(e.content_date)
-        dedup.append(e)
+    # Sort stories within each day: best first, then top
+    type_order = {"best": 0, "top": 1}
+    for day in days:
+        day.stories.sort(key=lambda s: type_order.get(s.story_type, 99))
 
-    return dedup
+    return days
 
 
 def update_hackernews_index(
@@ -151,47 +162,59 @@ def update_hackernews_index(
     index_path: str = "hackernews/index.md",
     max_items: int = 30,
 ) -> str:
-    entries = _collect_entries(base_dir)[:max_items]
+    days = _collect_day_entries(base_dir)[:max_items]
 
     lines: List[str] = []
     lines.append("---")
     lines.append("layout: hn")
-    lines.append('title: "Hacker News (Daily)"')
+    lines.append('title: "Hacker News Daily"')
     lines.append("---")
     lines.append("")
 
-    lines.append("<h1 class='hn-h1'>Hacker News (Daily)</h1>")
+    lines.append("<h1 class='hn-h1'>Hacker News Daily</h1>")
     source_link = "<a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a>"
-    lines.append(f"<p class='hn-subtitle'>Daily scraped <b>Hacker News — Best Stories</b>. · Source: {source_link}</p>")
+    lines.append(f"<p class='hn-subtitle'>Daily scraped <b>Hacker News Best &amp; Top Stories</b>. · Source: {source_link}</p>")
 
     lines.append("<hr class='hn-rule'/>")
     lines.append("<h2 style='font-family: var(--hn-sans); margin-top: 6px;'>Latest Files</h2>")
 
-    if not entries:
+    if not days:
         lines.append("<p class='hn-hint'>No files found yet. Run the workflow once to generate the first file.</p>")
     else:
         lines.append("<div class='hn-grid'>")
-        for e in entries:
-            # Build the detail line: count + top story title
-            detail_parts = []
-            if e.count_written is not None:
-                detail_parts.append(f"{e.count_written} stories")
-            if e.top_title:
-                detail_parts.append(f"Top: {e.top_title}")
-            detail_text = " · ".join(detail_parts) if detail_parts else ""
+        for day in days:
+            # Each day gets a date row with story links
+            lines.append("<div class='hn-day-row'>")
 
-            lines.append(f"<a class='hn-row-link' href='{e.rel_url}'>")
-            lines.append("<div class='hn-row'>")
-            lines.append(f"<div class='hn-row-header'>")
-            lines.append(f"<span class='hn-date'>{e.content_date}</span>")
-            lines.append(f"<span class='hn-row-type'>Best Stories</span>")
-            lines.append("</div>")  # hn-row-header
-            if detail_text:
-                lines.append(f"<div class='hn-row-detail'>{detail_text}</div>")
-            lines.append("</div>")  # hn-row
-            lines.append("</a>")  # hn-row-link
+            # Date label on the left
+            lines.append(f"<div class='hn-day-date'>{day.content_date}</div>")
 
-        lines.append("</div>")
+            # Story links on the right
+            lines.append("<div class='hn-day-stories'>")
+            for s in day.stories:
+                type_label = "Best Stories" if s.story_type == "best" else "Top Stories"
+                type_class = "hn-type-best" if s.story_type == "best" else "hn-type-top"
+
+                # Build detail text
+                detail_parts = []
+                if s.count_written is not None:
+                    detail_parts.append(f"{s.count_written} stories")
+                if s.top_title:
+                    # Truncate long titles
+                    t = s.top_title if len(s.top_title) <= 55 else s.top_title[:52] + "..."
+                    detail_parts.append(f"Top: {t}")
+                detail_text = " · ".join(detail_parts) if detail_parts else ""
+
+                lines.append(f"<a class='hn-story-link' href='{s.rel_url}'>")
+                lines.append(f"<span class='hn-row-type {type_class}'>{type_label}</span>")
+                if detail_text:
+                    lines.append(f"<span class='hn-row-detail'>{detail_text}</span>")
+                lines.append("</a>")
+
+            lines.append("</div>")  # hn-day-stories
+            lines.append("</div>")  # hn-day-row
+
+        lines.append("</div>")  # hn-grid
 
     lines.append("")
     lines.append(f"<p class='hn-hint'>Browse by date: <code>/{base_dir}/YYYY/MM/DD/</code></p>")
