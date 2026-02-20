@@ -28,6 +28,17 @@ Sort:
 <div class='hn-tag-cloud-tooltip' id='hn-tag-cloud-tooltip'></div>
 </div>
 </div>
+<div class='hn-stream-section' id='hn-stream-section'>
+<div class='hn-stream-header'>
+<span class='hn-stream-title'>Tag Trends Over Time</span>
+<button class='hn-stream-toggle' id='hn-stream-toggle' title='Hide stream chart'>▾ Hide</button>
+</div>
+<div class='hn-stream-body' id='hn-stream-body'>
+<div class='hn-stream-svg-wrap' id='hn-stream-svg-wrap'></div>
+<div class='hn-stream-legend' id='hn-stream-legend'></div>
+<div class='hn-stream-tooltip' id='hn-stream-tooltip'></div>
+</div>
+</div>
 <div class='hn-weekly-section'>
 <h3 class='hn-section-title'>Weekly Digest</h3>
 <div class='hn-day-stories'>

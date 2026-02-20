@@ -1210,3 +1210,122 @@ body {
     padding: 4px;
   }
 }
+
+/* ===== Stream Chart ===== */
+.hn-stream-section {
+  margin: 18px 0 10px;
+}
+.hn-stream-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+.hn-stream-title {
+  font-family: var(--hn-sans);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--fg);
+  opacity: 0.45;
+}
+.hn-stream-toggle {
+  font-family: var(--hn-sans);
+  font-size: 11px;
+  background: none;
+  border: 1px solid var(--hn-border);
+  border-radius: 4px;
+  padding: 1px 10px;
+  cursor: pointer;
+  color: var(--fg);
+  opacity: 0.5;
+  transition: all 0.15s ease;
+  line-height: 1.6;
+}
+.hn-stream-toggle:hover {
+  border-color: var(--link);
+  color: var(--link);
+}
+.hn-stream-body {
+  position: relative;
+  border: 1px solid var(--hn-border);
+  border-radius: 12px;
+  background: var(--bg);
+  overflow: hidden;
+  padding: 8px 8px 4px;
+}
+.hn-stream-svg-wrap {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+.hn-stream-svg-wrap svg {
+  max-width: 100%;
+  height: auto;
+}
+.hn-stream-layer {
+  transition: fill-opacity 0.2s ease, stroke-opacity 0.2s ease;
+}
+.hn-stream-tooltip {
+  display: none;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.82);
+  color: #fff;
+  font-family: var(--hn-sans);
+  font-size: 13px;
+  padding: 5px 12px;
+  border-radius: 6px;
+  pointer-events: none;
+  white-space: nowrap;
+  z-index: 10;
+  line-height: 1.5;
+}
+.hn-stream-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 14px;
+  justify-content: center;
+  padding: 6px 8px 2px;
+}
+.hn-stream-legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-family: var(--hn-sans);
+  font-size: 11px;
+  color: var(--fg);
+  opacity: 0.7;
+  cursor: pointer;
+  transition: opacity 0.15s ease;
+}
+.hn-stream-legend-item:hover {
+  opacity: 1;
+}
+.hn-stream-legend-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+@media (prefers-color-scheme: dark) {
+  .hn-stream-body {
+    background: rgba(255,255,255,0.03);
+  }
+  .hn-stream-tooltip {
+    background: rgba(255, 255, 255, 0.88);
+    color: #111;
+  }
+  .hn-stream-layer {
+    fill-opacity: 0.55;
+  }
+}
+@media (max-width: 600px) {
+  .hn-stream-body {
+    padding: 4px 4px 2px;
+  }
+  .hn-stream-legend {
+    gap: 4px 10px;
+  }
+}

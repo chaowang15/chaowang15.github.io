@@ -345,6 +345,19 @@ def update_hackernews_index(
     lines.append("</div>")
     lines.append("</div>")
 
+    # Stream chart (tag trends over time)
+    lines.append("<div class='hn-stream-section' id='hn-stream-section'>")
+    lines.append("<div class='hn-stream-header'>")
+    lines.append("<span class='hn-stream-title'>Tag Trends Over Time</span>")
+    lines.append("<button class='hn-stream-toggle' id='hn-stream-toggle' title='Hide stream chart'>▾ Hide</button>")
+    lines.append("</div>")
+    lines.append("<div class='hn-stream-body' id='hn-stream-body'>")
+    lines.append("<div class='hn-stream-svg-wrap' id='hn-stream-svg-wrap'></div>")
+    lines.append("<div class='hn-stream-legend' id='hn-stream-legend'></div>")
+    lines.append("<div class='hn-stream-tooltip' id='hn-stream-tooltip'></div>")
+    lines.append("</div>")
+    lines.append("</div>")
+
     # Weekly digest links
     weekly_entries = _collect_weekly_entries(base_dir)
     if weekly_entries:

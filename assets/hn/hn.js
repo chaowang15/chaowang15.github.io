@@ -976,3 +976,393 @@
     initBubbleChart();
   }
 })();
+
+
+// ===== Tag Stream Chart (Index page only) =====
+(function () {
+  function initStreamChart() {
+    var container = document.getElementById('hn-stream-chart');
+    if (!container) return;
+
+    var chartEl = document.getElementById('hn-stream-svg-wrap');
+    var tooltip = document.getElementById('hn-stream-tooltip');
+    var toggleBtn = document.getElementById('hn-stream-toggle');
+    var body = document.getElementById('hn-stream-body');
+    var legendEl = document.getElementById('hn-stream-legend');
+
+    // Tag color map
+    var TAG_COLORS = {
+      "AI": "#3b82f6", "Programming": "#6366f1", "Security": "#ef4444",
+      "Science": "#14b8a6", "Business": "#f59e0b", "Finance": "#d97706",
+      "Hardware": "#64748b", "Open Source": "#22c55e", "Design": "#ec4899",
+      "Web": "#06b6d4", "DevOps": "#818cf8", "Data": "#8b5cf6",
+      "Gaming": "#a855f7", "Entertainment": "#c084fc", "Politics": "#f97316",
+      "Health": "#10b981", "Education": "#0ea5e9", "Career": "#0ea5e9",
+      "Privacy": "#ef4444", "Legal": "#f97316", "Culture": "#f43f5e",
+      "Space": "#14b8a6", "Energy": "#10b981", "Startups": "#eab308",
+      "Show HN": "#22c55e", "Other": "#94a3b8"
+    };
+
+    // Collapse/expand toggle
+    var STORAGE_KEY = 'hn-stream-chart-collapsed';
+    var isCollapsed = localStorage.getItem(STORAGE_KEY) === '1';
+
+    function applyCollapse() {
+      if (isCollapsed) {
+        body.style.display = 'none';
+        toggleBtn.textContent = '\u25b8 Show';
+        toggleBtn.title = 'Show stream chart';
+      } else {
+        body.style.display = '';
+        toggleBtn.textContent = '\u25be Hide';
+        toggleBtn.title = 'Hide stream chart';
+      }
+    }
+
+    toggleBtn.addEventListener('click', function () {
+      isCollapsed = !isCollapsed;
+      localStorage.setItem(STORAGE_KEY, isCollapsed ? '1' : '0');
+      applyCollapse();
+      if (!isCollapsed && !chartRendered) {
+        renderStream();
+      }
+    });
+
+    applyCollapse();
+
+    var chartRendered = false;
+
+    function loadData(cb) {
+      var xhr = new XMLHttpRequest();
+      xhr.open('GET', '/hackernews/tag_trend.json', true);
+      xhr.onload = function () {
+        if (xhr.status === 200) {
+          try { cb(JSON.parse(xhr.responseText)); } catch (e) { /* ignore */ }
+        }
+      };
+      xhr.send();
+    }
+
+    function renderStream() {
+      loadData(function (data) {
+        if (!data || !data.series || data.series.length < 2 || !data.tags) return;
+
+        var tags = data.tags;
+        var series = data.series;
+        var nDays = series.length;
+        var nTags = tags.length;
+
+        // Compute stacked values for streamgraph (wiggle / silhouette baseline)
+        // First compute raw stacked layers
+        var layers = []; // layers[tagIdx][dayIdx] = { y0, y1, value }
+        for (var t = 0; t < nTags; t++) {
+          layers.push([]);
+          for (var d = 0; d < nDays; d++) {
+            var val = series[d][tags[t]] || 0;
+            layers[t].push({ value: val, y0: 0, y1: 0 });
+          }
+        }
+
+        // Stack: simple zero-baseline stack, then offset to center (silhouette)
+        for (var d = 0; d < nDays; d++) {
+          var cumY = 0;
+          for (var t = 0; t < nTags; t++) {
+            layers[t][d].y0 = cumY;
+            cumY += layers[t][d].value;
+            layers[t][d].y1 = cumY;
+          }
+          // Silhouette offset: shift all down by half the total
+          var offset = cumY / 2;
+          for (var t = 0; t < nTags; t++) {
+            layers[t][d].y0 -= offset;
+            layers[t][d].y1 -= offset;
+          }
+        }
+
+        // Find y extent
+        var yMin = Infinity, yMax = -Infinity;
+        for (var t = 0; t < nTags; t++) {
+          for (var d = 0; d < nDays; d++) {
+            if (layers[t][d].y0 < yMin) yMin = layers[t][d].y0;
+            if (layers[t][d].y1 > yMax) yMax = layers[t][d].y1;
+          }
+        }
+
+        // Chart dimensions
+        var rect = body.getBoundingClientRect();
+        var MARGIN = { top: 10, right: 16, bottom: 32, left: 16 };
+        var W = Math.min(rect.width - 16, 880);
+        var H = 220;
+        var plotW = W - MARGIN.left - MARGIN.right;
+        var plotH = H - MARGIN.top - MARGIN.bottom;
+
+        // Scales
+        function xScale(dayIdx) {
+          return MARGIN.left + (dayIdx / (nDays - 1)) * plotW;
+        }
+        function yScale(val) {
+          return MARGIN.top + plotH - ((val - yMin) / (yMax - yMin)) * plotH;
+        }
+
+        // Build SVG
+        var svgNS = 'http://www.w3.org/2000/svg';
+        var svg = document.createElementNS(svgNS, 'svg');
+        svg.setAttribute('width', W);
+        svg.setAttribute('height', H);
+        svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H);
+        svg.style.display = 'block';
+        svg.style.margin = '0 auto';
+
+        chartEl.innerHTML = '';
+        chartEl.style.width = W + 'px';
+        chartEl.style.height = H + 'px';
+
+        // Build smooth area paths using cardinal spline interpolation
+        function catmullRom(points, tension) {
+          tension = tension || 0.5;
+          if (points.length < 2) return '';
+          if (points.length === 2) {
+            return 'L' + points[1][0] + ',' + points[1][1];
+          }
+          var path = '';
+          for (var i = 0; i < points.length - 1; i++) {
+            var p0 = points[Math.max(0, i - 1)];
+            var p1 = points[i];
+            var p2 = points[i + 1];
+            var p3 = points[Math.min(points.length - 1, i + 2)];
+
+            var cp1x = p1[0] + (p2[0] - p0[0]) / (6 * tension);
+            var cp1y = p1[1] + (p2[1] - p0[1]) / (6 * tension);
+            var cp2x = p2[0] - (p3[0] - p1[0]) / (6 * tension);
+            var cp2y = p2[1] - (p3[1] - p1[1]) / (6 * tension);
+
+            path += 'C' + cp1x + ',' + cp1y + ',' + cp2x + ',' + cp2y + ',' + p2[0] + ',' + p2[1];
+          }
+          return path;
+        }
+
+        // Draw layers (bottom to top)
+        var pathEls = [];
+        for (var t = 0; t < nTags; t++) {
+          var topPoints = [];
+          var bottomPoints = [];
+          for (var d = 0; d < nDays; d++) {
+            var x = xScale(d);
+            topPoints.push([x, yScale(layers[t][d].y1)]);
+            bottomPoints.push([x, yScale(layers[t][d].y0)]);
+          }
+
+          // Build path: top line forward, bottom line backward
+          var pathD = 'M' + topPoints[0][0] + ',' + topPoints[0][1];
+          pathD += catmullRom(topPoints, 0.5);
+          // Reverse bottom
+          var revBottom = bottomPoints.slice().reverse();
+          pathD += 'L' + revBottom[0][0] + ',' + revBottom[0][1];
+          pathD += catmullRom(revBottom, 0.5);
+          pathD += 'Z';
+
+          var path = document.createElementNS(svgNS, 'path');
+          path.setAttribute('d', pathD);
+          var color = TAG_COLORS[tags[t]] || '#94a3b8';
+          path.setAttribute('fill', color);
+          path.setAttribute('fill-opacity', '0.65');
+          path.setAttribute('stroke', color);
+          path.setAttribute('stroke-width', '0.5');
+          path.setAttribute('stroke-opacity', '0.3');
+          path.setAttribute('class', 'hn-stream-layer');
+          path.setAttribute('data-tag', tags[t]);
+          svg.appendChild(path);
+          pathEls.push({ path: path, tag: tags[t], color: color });
+        }
+
+        // X-axis date labels
+        for (var d = 0; d < nDays; d++) {
+          var x = xScale(d);
+          var dateStr = series[d].date;
+          // Format: MM/DD
+          var parts = dateStr.split('-');
+          var label = parts[1] + '/' + parts[2];
+
+          var text = document.createElementNS(svgNS, 'text');
+          text.setAttribute('x', x);
+          text.setAttribute('y', H - 6);
+          text.setAttribute('text-anchor', 'middle');
+          text.setAttribute('font-family', 'Inter, -apple-system, sans-serif');
+          text.setAttribute('font-size', '11px');
+          text.setAttribute('fill', 'currentColor');
+          text.setAttribute('opacity', '0.5');
+          text.textContent = label;
+          svg.appendChild(text);
+
+          // Vertical gridline
+          var line = document.createElementNS(svgNS, 'line');
+          line.setAttribute('x1', x);
+          line.setAttribute('x2', x);
+          line.setAttribute('y1', MARGIN.top);
+          line.setAttribute('y2', H - MARGIN.bottom);
+          line.setAttribute('stroke', 'currentColor');
+          line.setAttribute('stroke-opacity', '0.08');
+          line.setAttribute('stroke-dasharray', '3,3');
+          svg.appendChild(line);
+        }
+
+        chartEl.appendChild(svg);
+
+        // Build legend
+        legendEl.innerHTML = '';
+        for (var t = 0; t < nTags; t++) {
+          var item = document.createElement('span');
+          item.className = 'hn-stream-legend-item';
+          item.setAttribute('data-tag', tags[t]);
+          var dot = document.createElement('span');
+          dot.className = 'hn-stream-legend-dot';
+          dot.style.background = TAG_COLORS[tags[t]] || '#94a3b8';
+          item.appendChild(dot);
+          item.appendChild(document.createTextNode(tags[t]));
+          legendEl.appendChild(item);
+        }
+
+        chartRendered = true;
+
+        // Hover interaction: highlight layer
+        var currentHoverTag = null;
+
+        function highlightTag(tag) {
+          if (tag === currentHoverTag) return;
+          currentHoverTag = tag;
+
+          pathEls.forEach(function (pe) {
+            if (tag && pe.tag !== tag) {
+              pe.path.setAttribute('fill-opacity', '0.15');
+              pe.path.setAttribute('stroke-opacity', '0.05');
+            } else {
+              pe.path.setAttribute('fill-opacity', '0.75');
+              pe.path.setAttribute('stroke-opacity', '0.5');
+            }
+          });
+
+          // Highlight legend item
+          var legendItems = legendEl.querySelectorAll('.hn-stream-legend-item');
+          legendItems.forEach(function (li) {
+            if (tag && li.getAttribute('data-tag') !== tag) {
+              li.style.opacity = '0.35';
+            } else {
+              li.style.opacity = '1';
+            }
+          });
+        }
+
+        function resetHighlight() {
+          currentHoverTag = null;
+          pathEls.forEach(function (pe) {
+            pe.path.setAttribute('fill-opacity', '0.65');
+            pe.path.setAttribute('stroke-opacity', '0.3');
+          });
+          var legendItems = legendEl.querySelectorAll('.hn-stream-legend-item');
+          legendItems.forEach(function (li) {
+            li.style.opacity = '1';
+          });
+          tooltip.style.display = 'none';
+        }
+
+        // SVG hover: find which layer the cursor is over
+        svg.addEventListener('mousemove', function (e) {
+          var svgRect = svg.getBoundingClientRect();
+          var mx = (e.clientX - svgRect.left) * (W / svgRect.width);
+          var my = (e.clientY - svgRect.top) * (H / svgRect.height);
+
+          // Find nearest day index
+          var dayIdx = Math.round((mx - MARGIN.left) / plotW * (nDays - 1));
+          dayIdx = Math.max(0, Math.min(nDays - 1, dayIdx));
+
+          // Find which layer the y coordinate falls in
+          var yVal = yMin + (1 - (my - MARGIN.top) / plotH) * (yMax - yMin);
+          var hitTag = null;
+          for (var t = 0; t < nTags; t++) {
+            if (yVal >= layers[t][dayIdx].y0 && yVal <= layers[t][dayIdx].y1) {
+              hitTag = tags[t];
+              break;
+            }
+          }
+
+          if (hitTag) {
+            highlightTag(hitTag);
+            svg.style.cursor = 'pointer';
+
+            // Show tooltip with that tag's value for the day
+            var val = series[dayIdx][hitTag] || 0;
+            var dateStr = series[dayIdx].date;
+            tooltip.innerHTML = '<b>' + hitTag + '</b>: ' + val + ' stories · ' + dateStr;
+            tooltip.style.display = 'block';
+
+            var cr = container.getBoundingClientRect();
+            tooltip.style.left = (e.clientX - cr.left + 14) + 'px';
+            tooltip.style.top = (e.clientY - cr.top - 32) + 'px';
+          } else {
+            resetHighlight();
+            svg.style.cursor = 'default';
+          }
+        });
+
+        svg.addEventListener('mouseleave', function () {
+          resetHighlight();
+          svg.style.cursor = 'default';
+        });
+
+        // Click => trigger search
+        svg.addEventListener('click', function (e) {
+          if (currentHoverTag && currentHoverTag !== 'Other') {
+            var searchInput = document.getElementById('hn-search-input');
+            if (searchInput) {
+              searchInput.value = currentHoverTag;
+              searchInput.dispatchEvent(new Event('input', { bubbles: true }));
+              searchInput.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+          }
+        });
+
+        // Legend hover
+        var legendItems = legendEl.querySelectorAll('.hn-stream-legend-item');
+        legendItems.forEach(function (li) {
+          li.addEventListener('mouseenter', function () {
+            highlightTag(li.getAttribute('data-tag'));
+          });
+          li.addEventListener('mouseleave', function () {
+            resetHighlight();
+          });
+          li.addEventListener('click', function () {
+            var tag = li.getAttribute('data-tag');
+            if (tag && tag !== 'Other') {
+              var searchInput = document.getElementById('hn-search-input');
+              if (searchInput) {
+                searchInput.value = tag;
+                searchInput.dispatchEvent(new Event('input', { bubbles: true }));
+                searchInput.scrollIntoView({ behavior: 'smooth', block: 'start' });
+              }
+            }
+          });
+        });
+
+        // Responsive
+        var resizeTimer;
+        window.addEventListener('resize', function () {
+          clearTimeout(resizeTimer);
+          resizeTimer = setTimeout(function () {
+            chartRendered = false;
+            renderStream();
+          }, 300);
+        });
+      });
+    }
+
+    if (!isCollapsed) {
+      renderStream();
+    }
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initStreamChart);
+  } else {
+    initStreamChart();
+  }
+})();
