@@ -956,9 +956,9 @@
     var list = document.querySelector('.hn-list');
     if (!list) return;
 
-    // Find the nav bar to insert the toggle next to it
-    var nav = document.querySelector('.hn-nav');
-    if (!nav) return;
+    // Find the subtitle line to insert the toggle on the same row
+    var subtitle = document.querySelector('.hn-subtitle');
+    if (!subtitle) return;
 
     // Build the segmented control
     var wrap = document.createElement('div');
@@ -985,8 +985,8 @@
       btns.push(btn);
     });
 
-    // Insert after nav
-    nav.parentNode.insertBefore(wrap, nav.nextSibling);
+    // Insert inside subtitle (which is now a flex row)
+    subtitle.appendChild(wrap);
 
     // State
     var STORAGE_KEY = 'hn-lang-mode';
