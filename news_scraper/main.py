@@ -282,7 +282,7 @@ def rebuild_all_from_json(cfg: dict, max_items: int = 3650):
 
             content_date = meta.get("content_date", "")
             story_mode = meta.get("mode", "best")
-            mode_label = "Top Stories" if story_mode == "top" else "Best Stories"
+            mode_label = "Trending" if story_mode == "top" else "Daily Best"
 
             page_title = f"Hacker News — {mode_label} ({content_date})" if content_date else f"Hacker News — {mode_label}"
             scrape_disp = meta.get("scrape_time_display", meta.get("run_time_local", ""))
@@ -368,7 +368,7 @@ def run_scrape(mode: str, cfg: dict):
     mode_cfg = cfg.get(mode, {})
     count = int(mode_cfg.get("count", 50))
     prefix = mode_cfg.get("filename_prefix", f"{mode}_stories")
-    mode_label = "Top Stories" if mode == "top" else "Best Stories"
+    mode_label = "Trending" if mode == "top" else "Daily Best"
 
     filename = f"{prefix}_{mmddyyyy(content_dt)}.md"
     out_path = os.path.join(out_dir, filename)

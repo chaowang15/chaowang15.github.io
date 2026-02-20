@@ -42,7 +42,7 @@ def _tag_html(tag: str) -> str:
 
 def _detect_mode(page_title: str) -> str:
     """Detect story mode from page title string."""
-    if "Top Stories" in page_title:
+    if "Trending" in page_title:
         return "top"
     return "best"
 
@@ -71,12 +71,12 @@ def render_markdown(
 
     # Header with mode badge
     if mode == "top":
-        badge = "<span class='hn-mode-badge hn-mode-top'>Top Stories</span>"
+        badge = "<span class='hn-mode-badge hn-mode-top'>Trending</span>"
     else:
-        badge = "<span class='hn-mode-badge hn-mode-best'>Best Stories</span>"
+        badge = "<span class='hn-mode-badge hn-mode-best'>Daily Best</span>"
 
     # Extract the date portion for a cleaner H1
-    # page_title: "Hacker News — Best Stories (2026-02-18)"
+    # page_title: "Hacker News — Daily Best (2026-02-18)" or "Hacker News — Trending (2026-02-19)"
     m_date = re.search(r"\((\d{4}-\d{2}-\d{2})\)", page_title)
     date_str = m_date.group(1) if m_date else ""
 
