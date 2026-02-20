@@ -4,6 +4,38 @@
 
 ---
 
+## 2026年2月19日 (增量 Top Stories 抓取 + 同日去重 + 100条上限)
+
+本次更新将 Top Stories 从每天一次改为每天 5 次增量抓取，并实现了同日去重机制和 100 条上限。
+
+- **增量抓取架构**:
+  - Top Stories 独立于 Best Stories 调度，每天 PST 7:00, 10:00, 13:00, 16:00, 19:00 共 5 次运行。
+  - Best Stories 保持每天 UTC 12:00 运行一次，不受影响。
+  - 创建了两个独立的 GitHub Actions workflow：`hn_best.yml`（Best Stories）和 `hn_top.yml`（Top Stories）。
+
+- **同日去重机制**:
+  - 新增 `_load_same_day_items()` 函数，每次 Top Stories 运行时加载当天已有的 JSON 文件。
+  - 去重优先级：先检查同日已有数据（same-day dedup），再检查前一天数据（cross-day dedup）。
+  - 对于同日重复新闻，复用已有的 LLM 摘要、图片和标签，仅更新 score 和 comment count。
+  - 只有全新出现的新闻才调用 LLM，大幅节省 tokens。
+
+- **100 条上限**:
+  - `TOP_STORIES_MAX = 100`：每天的 Top Stories JSON 最多保留 100 条新闻。
+  - 合并后按 score 降序排列，超过 100 条时截取前 100 条。
+  - 既保证了内容丰富度，又避免页面过长。
+
+- **Workflow 分离**:
+  - `hn_best.yml`：每天 UTC 12:00 运行 `python news_scraper/main.py best`。
+  - `hn_top.yml`：每天 5 次运行 `python news_scraper/main.py top`，带 `concurrency` 控制避免并发冲突。
+  - 旧的 `hn_news.yml` 应删除（需用户手动操作）。
+
+- **修改的文件**:
+  - `news_scraper/main.py`：重写 `run_scrape()` 支持增量追加、同日去重、100 条上限。
+  - `.github/workflows/hn_best.yml`：新增（需用户手动提交）。
+  - `.github/workflows/hn_top.yml`：新增（需用户手动提交）。
+
+---
+
 ## 2026年2月19日 (新增 Top Stories 支持和跨日去重)
 
 本次更新是一个重要的功能扩展，新增了 Top Stories 的爬取，并实现了跨日去重机制以节省 LLM tokens。
