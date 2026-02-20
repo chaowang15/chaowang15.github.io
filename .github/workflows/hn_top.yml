@@ -58,9 +58,6 @@ jobs:
           git config user.name "hn-news-bot"
           git config user.email "hn-news-bot@users.noreply.github.com"
 
-          # Pull latest to avoid conflicts from concurrent runs
-          git pull --rebase origin main || true
-
           git add -A
           echo "Git status:"
           git status --porcelain
@@ -69,4 +66,9 @@ jobs:
             exit 0
           fi
           git commit -m "Update HN Top Stories (incremental)"
+
+          # Pull --rebase AFTER commit so there are no unstaged changes
+          git pull --rebase origin main || true
+
           git push
+
