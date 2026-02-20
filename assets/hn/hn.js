@@ -439,7 +439,8 @@
       if (tagsHtml) {
         html += "<div class='hn-search-item-tags'>" + tagsHtml + "</div>";
       }
-      html += "<a class='hn-search-item-page' href='" + item.page + "'>View in daily page →</a>";
+      var anchor = item.id ? '#story-' + item.id : '';
+      html += "<a class='hn-search-item-page' href='" + item.page + anchor + "'>View in daily page →</a>";
       html += "</div>";
       return html;
     }

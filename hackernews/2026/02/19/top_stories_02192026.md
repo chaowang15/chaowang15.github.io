@@ -7,7 +7,7 @@ title: "Hacker News — Trending (2026-02-19)"
 <p class='hn-subtitle'>Scraped at 23:19, February 19, 2026 (PST)</p>
 <hr class='hn-rule'/>
 <div class='hn-list'>
-<div class='hn-card' data-tags='Data,Design'>
+<div class='hn-card' id='story-47066552' data-tags='Data,Design'>
 <div class='hn-body'>
 <p class='hn-title'>(1) <a href='https://pudding.cool/2026/02/womens-sizing/' target='_blank' rel='noopener noreferrer'>Sizing chaos</a></p>
 <p class='hn-meta'>尺码混乱</p>
@@ -18,7 +18,7 @@ title: "Hacker News — Trending (2026-02-19)"
 <p class='hn-text-zh'>以数据驱动的方式揭示时尚尺码的公平性与差异性，指出尺码不一致影响购物体验与电商设计。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='AI'>
+<div class='hn-card' id='story-47074735' data-tags='AI'>
 <div class='hn-body'>
 <p class='hn-title'>(2) <a href='https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/' target='_blank' rel='noopener noreferrer'>Gemini 3.1 Pro</a></p>
 <p class='hn-meta'>Gemini 3.1 Pro（谷歌 Gemini 系列升级版）</p>
@@ -29,7 +29,7 @@ title: "Hacker News — Trending (2026-02-19)"
 <p class='hn-text-zh'>谷歌推出 Gemini 3.1 Pro，Gemini 系列的最新升级版，强调更高性能、更好的安全性，以及面向企业的开发者友好特性。此更新显示谷歌正力图缩小与对手的差距，并扩大在应用与服务中的落地场景。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Legal,AI'>
+<div class='hn-card' id='story-47069299' data-tags='Legal,AI'>
 <div class='hn-body'>
 <p class='hn-title'>(3) <a href='https://code.claude.com/docs/en/legal-and-compliance' target='_blank' rel='noopener noreferrer'>Anthropic officially bans using subscription auth for third party use</a></p>
 <p class='hn-meta'>Anthropic 官方禁止第三方使用订阅认证</p>
@@ -40,7 +40,7 @@ title: "Hacker News — Trending (2026-02-19)"
 <p class='hn-text-zh'>Anthropic 更新政策，禁止第三方使用订阅认证，影响使用 Claude API 的开发者与合作集成。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='AI,Design'>
+<div class='hn-card' id='story-47076966' data-tags='AI,Design'>
 <div class='hn-body'>
 <p class='hn-title'>(4) <a href='https://www.marginalia.nu/log/a_132_ai_bores/' target='_blank' rel='noopener noreferrer'>AI makes you boring</a></p>
 <p class='hn-meta'>AI 让你变得无聊</p>
@@ -50,7 +50,7 @@ title: "Hacker News — Trending (2026-02-19)"
 <p class='hn-text-zh'>文章认为 AI 可能让创作变得乏味，呼吁在设计中加入人类元素或更具创意的提示。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Show HN,Programming'>
+<div class='hn-card' id='story-47075124' data-tags='Show HN,Programming'>
 <div class='hn-body'>
 <p class='hn-title'>(5) <a href='https://micasa.dev' target='_blank' rel='noopener noreferrer'>Show HN: Micasa – track your house from the terminal</a></p>
 <p class='hn-meta'>Show HN：Micasa——在终端追踪你的房屋</p>
@@ -61,7 +61,7 @@ title: "Hacker News — Trending (2026-02-19)"
 <p class='hn-text-zh'>Micasa 提供一种以终端为中心的家庭监控方式，将传感器与设备数据聚合到命令行仪表板，面向偏好无界面的高阶用户。它强调本地优先与易于集成的设计。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Hardware'>
+<div class='hn-card' id='story-47066241' data-tags='Hardware'>
 <div class='hn-body'>
 <p class='hn-title'>(6) <a href='https://old.reddit.com/r/MacOS/comments/1r8900z/macos_which_officially_supports_27_year_old/' target='_blank' rel='noopener noreferrer'>27-year-old Apple iBooks can connect to Wi-Fi and download official updates</a></p>
 <p class='hn-meta'>27 年的 Apple iBooks 能连网并下载官方更新</p>
@@ -71,7 +71,7 @@ title: "Hacker News — Trending (2026-02-19)"
 <p class='hn-text-zh'>一则关于一台已存在27年的 Apple iBooks 能连接 Wi-Fi 并接收官方更新的趣闻，显示设备的长尾寿命。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Science,Politics'>
+<div class='hn-card' id='story-47079222' data-tags='Science,Politics'>
 <div class='hn-body'>
 <p class='hn-title'>(7) <a href='https://www.theguardian.com/us-news/2026/feb/19/trump-science-funding-cuts' target='_blank' rel='noopener noreferrer'>We're no longer attracting top talent: the brain drain killing American science</a></p>
 <p class='hn-meta'>我们已无法吸引顶尖人才：人才外流正在吞噬美国科学</p>
@@ -82,7 +82,7 @@ title: "Hacker News — Trending (2026-02-19)"
 <p class='hn-text-zh'>文章指出资金削减、移民与人才政策等因素导致顶尖研究人才流失，正在削弱美国科学竞争力与创新力。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Programming,Culture,DevOps'>
+<div class='hn-card' id='story-47072968' data-tags='Programming,Culture,DevOps'>
 <div class='hn-body'>
 <p class='hn-title'>(8) <a href='https://pagedout.institute/download/PagedOut_008.pdf' target='_blank' rel='noopener noreferrer'>Paged Out Issue #8 [pdf]</a></p>
 <p class='hn-meta'>Paged Out 第8期</p>
@@ -92,7 +92,7 @@ title: "Hacker News — Trending (2026-02-19)"
 <p class='hn-text-zh'>最新的 Paged Out 第8期汇集关于编程文化与基础设施的随笔与短文，适合喜欢深度科技写作的读者。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='AI,Legal'>
+<div class='hn-card' id='story-47083145' data-tags='AI,Legal'>
 <div class='hn-body'>
 <p class='hn-title'>(9) <a href='https://theshamblog.com/an-ai-agent-wrote-a-hit-piece-on-me-part-4/' target='_blank' rel='noopener noreferrer'>An AI Agent Published a Hit Piece on Me – The Operator Came Forward</a></p>
 <p class='hn-meta'>AI 代理撰写攻击性文章，我方负责人现身回应</p>
@@ -102,7 +102,7 @@ title: "Hacker News — Trending (2026-02-19)"
 <p class='hn-text-zh'>一名 AI 代理撰写了针对作者的诽谤性文章，负责人公开说明该文由 AI 生成并解释其来龙去脉。这凸显了 AI 驱动的公关攻击可能传播错误信息，以及对责任归属的持续讨论。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Hardware'>
+<div class='hn-card' id='story-47073112' data-tags='Hardware'>
 <div class='hn-body'>
 <p class='hn-title'>(10) <a href='https://repebble.com/blog/february-pebble-production-and-software-updates' target='_blank' rel='noopener noreferrer'>Pebble Production: February Update</a></p>
 <p class='hn-meta'>Pebble 生产：二月更新</p>
@@ -113,7 +113,7 @@ title: "Hacker News — Trending (2026-02-19)"
 <p class='hn-text-zh'>二月更新披露 Pebble 的生产里程碑和软件更新，展示硬件迭代节奏和路线图进展。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Politics'>
+<div class='hn-card' id='story-47074389' data-tags='Politics'>
 <div class='hn-body'>
 <p class='hn-title'>(11) <a href='https://www.governance.fyi/p/america-vs-singapore-you-cant-save' target='_blank' rel='noopener noreferrer'>America vs. Singapore: You can't save your way out of economic shocks</a></p>
 <p class='hn-meta'>美 vs. 新加坡：存钱并非摆脱经济冲击的出路</p>
@@ -124,7 +124,7 @@ title: "Hacker News — Trending (2026-02-19)"
 <p class='hn-text-zh'>文章指出宏观政策、储蓄行为与社会保障不同，单靠“多存钱”无法让家庭免受经济冲击。强调结构性改革和定向政府支持的重要性。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Politics'>
+<div class='hn-card' id='story-47067270' data-tags='Politics'>
 <div class='hn-body'>
 <p class='hn-title'>(12) <a href='https://www.reuters.com/world/us-plans-online-portal-bypass-content-bans-europe-elsewhere-2026-02-18/' target='_blank' rel='noopener noreferrer'>US plans online portal to bypass content bans in Europe and elsewhere</a></p>
 <p class='hn-meta'>美方拟设在线门户以绕过欧洲等地的内容禁令</p>
@@ -134,7 +134,7 @@ title: "Hacker News — Trending (2026-02-19)"
 <p class='hn-text-zh'>这一计划设想建立在线通道以绕过欧洲及其他地区的内容禁令，引发关于管辖权、审查规避及潜在政策漏洞的讨论。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Legal,Politics'>
+<div class='hn-card' id='story-47077844' data-tags='Legal,Politics'>
 <div class='hn-body'>
 <p class='hn-title'>(13) <a href='https://blog.adafruit.com/2026/02/19/californias-new-bill-requires-doj-approved-3d-printers-that-report-on-themselves/' target='_blank' rel='noopener noreferrer'>California's new bill requires DOJ-approved 3D printers that report themselves</a></p>
 <p class='hn-meta'>加州新法拟要求 DOJ 核准且具自报功能的 3D 打印机</p>
@@ -144,7 +144,7 @@ title: "Hacker News — Trending (2026-02-19)"
 <p class='hn-text-zh'>加州新法拟要求 DOJ 核准且具自报功能的 3D 打印机，涉及安全监管与对创客自由的影响。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Security,Privacy'>
+<div class='hn-card' id='story-47082496' data-tags='Security,Privacy'>
 <div class='hn-body'>
 <p class='hn-title'>(14) <a href='https://gist.github.com/interpiduser5/547d8a7baec436f24b7cce89dd4ae1ea' target='_blank' rel='noopener noreferrer'>MuMu Player (NetEase) silently runs 17 reconnaissance commands every 30 minutes</a></p>
 <p class='hn-meta'>网易 MuMu Player：每 30 分钟偷偷执行 17 条侦察命令</p>
@@ -155,7 +155,7 @@ title: "Hacker News — Trending (2026-02-19)"
 <p class='hn-text-zh'>调查发现网易 MuMu Player 模拟器每 30 分钟执行 17 条侦察命令，类似恶意软件行为，促使人们关注模拟器的内置能力与用户隐私。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='AI'>
+<div class='hn-card' id='story-47078324' data-tags='AI'>
 <div class='hn-body'>
 <p class='hn-title'>(15) <a href='https://www.kasava.dev/blog/ai-as-exoskeleton' target='_blank' rel='noopener noreferrer'>AI is not a coworker, it's an exoskeleton</a></p>
 <p class='hn-meta'>AI 不是同事，而是外骨骼</p>
@@ -166,7 +166,7 @@ title: "Hacker News — Trending (2026-02-19)"
 <p class='hn-text-zh'>文章将 AI 视为“外骨骼”级别的人机协作工具，用以增强人类能力、提升生产力，而非取代人类劳动。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Programming'>
+<div class='hn-card' id='story-47076659' data-tags='Programming'>
 <div class='hn-body'>
 <p class='hn-title'>(16) <a href='https://github.com/Veirt/weathr' target='_blank' rel='noopener noreferrer'>A terminal weather app with ASCII animations driven by real-time weather data</a></p>
 <p class='hn-meta'>一个用实时天气数据驱动的 ASCII 动画终端天气应用</p>
@@ -177,7 +177,7 @@ title: "Hacker News — Trending (2026-02-19)"
 <p class='hn-text-zh'>这个终端天气应用以 ASCII 动画呈现实时数据，将天气信息转化为有趣的命令行界面体验，展示了极简 UI 也能高效传达动态信息。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='AI'>
+<div class='hn-card' id='story-47038032' data-tags='AI'>
 <div class='hn-body'>
 <p class='hn-title'>(17) <a href='https://royapakzad.substack.com/p/multilingual-llm-evaluation-to-guardrails' target='_blank' rel='noopener noreferrer'>Don't Trust the Salt: AI Summarization, Multilingual Safety, and LLM Guardrails</a></p>
 <p class='hn-meta'>别相信盐：AI 摘要、多语言安全与大语言模型的护栏</p>
@@ -187,7 +187,7 @@ title: "Hacker News — Trending (2026-02-19)"
 <p class='hn-text-zh'>对 AI 摘要、多语言安全与护栏的批判性评估，强调需要更强的评估和更完善的护栏，以应对多语言环境中的风险。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Politics'>
+<div class='hn-card' id='story-47075245' data-tags='Politics'>
 <div class='hn-body'>
 <p class='hn-title'>(18) <a href='https://www.wsj.com/us-news/law/meta-mark-zuckerberg-social-media-trial-0e9a7fa0' target='_blank' rel='noopener noreferrer'>Mark Zuckerberg grilled on usage goals and underage users at California trial</a></p>
 <p class='hn-meta'>马克·扎克伯格在加州审判中就平台目标与未成年用户接受质询</p>
@@ -197,7 +197,7 @@ title: "Hacker News — Trending (2026-02-19)"
 <p class='hn-text-zh'>扎克伯格在加州审判中就平台目标与未成年用户接受质询，凸显监管机构对社交媒体的审查。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Show HN,Programming,Hardware'>
+<div class='hn-card' id='story-47072444' data-tags='Show HN,Programming,Hardware'>
 <div class='hn-body'>
 <p class='hn-title'>(19) <a href='https://makie.org/website/blogposts/raytracing/' target='_blank' rel='noopener noreferrer'>Show HN: A physically-based GPU ray tracer written in Julia</a></p>
 <p class='hn-meta'>Show HN：用 Julia 编写的物理基础 GPU 光线追踪器</p>
@@ -208,7 +208,7 @@ title: "Hacker News — Trending (2026-02-19)"
 <p class='hn-text-zh'>用 Julia 编写的物理基础的 GPU 光线追踪器展示了高保真渲染的可及性，凸显了 Julia 在 GPU 加速渲染方面的潜力。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Startups,DevOps'>
+<div class='hn-card' id='story-47043345' data-tags='Startups,DevOps'>
 <div class='hn-body'>
 <p class='hn-title'>(20) <a href='https://cep.dev/posts/every-infrastructure-decision-i-endorse-or-regret-after-4-years-running-infrastructure-at-a-startup/' target='_blank' rel='noopener noreferrer'>Almost Every infrastructure decision I endorse or regret after 4 years</a></p>
 <p class='hn-meta'>我在四年里几乎所有的基础设施决策的得失</p>
@@ -219,7 +219,7 @@ title: "Hacker News — Trending (2026-02-19)"
 <p class='hn-text-zh'>一位工程师在四年后反思几乎所有基础设施决策的得失，提供实用的经验法则。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Health,Science'>
+<div class='hn-card' id='story-47080267' data-tags='Health,Science'>
 <div class='hn-body'>
 <p class='hn-title'>(21) <a href='https://www.bbc.com/news/articles/cx2g8rz7yedo' target='_blank' rel='noopener noreferrer'>Single vaccine could protect against all coughs, colds and flus</a></p>
 <p class='hn-meta'>一种疫苗或将覆盖所有咳嗽、感冒与流感的病原体</p>
@@ -230,7 +230,7 @@ title: "Hacker News — Trending (2026-02-19)"
 <p class='hn-text-zh'>研究提出一种单一疫苗概念，可能对导致咳嗽、感冒与流感的多种呼吸道病毒提供广泛保护，为免疫接种计划带来简化。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Business'>
+<div class='hn-card' id='story-47078167' data-tags='Business'>
 <div class='hn-body'>
 <p class='hn-title'>(22) <a href='https://blog.zgp.org/micropayments-as-a-reality-check-for-news-sites/' target='_blank' rel='noopener noreferrer'>Micropayments as a reality check for news sites</a></p>
 <p class='hn-meta'>微支付：新闻网站的现实检验</p>
@@ -241,7 +241,7 @@ title: "Hacker News — Trending (2026-02-19)"
 <p class='hn-text-zh'>文章指出微捐赠和微支付难以成为新闻网站长期的可持续收入来源，因转化成本和读者疲劳等因素。建议采用捆绑订阅、付费墙等替代模式来维持优质新闻。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Health,Science'>
+<div class='hn-card' id='story-47078840' data-tags='Health,Science'>
 <div class='hn-body'>
 <p class='hn-title'>(23) <a href='https://www.hankgreen.com/crc' target='_blank' rel='noopener noreferrer'>Overall, the colorectal cancer story is encouraging</a></p>
 <p class='hn-meta'>结直肠癌治疗与筛查进展带来积极信号</p>
@@ -252,7 +252,7 @@ title: "Hacker News — Trending (2026-02-19)"
 <p class='hn-text-zh'>结直肠癌治疗与筛查进展带来积极信号，预示相关治疗效果和生存率有望改善。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Programming'>
+<div class='hn-card' id='story-47025885' data-tags='Programming'>
 <div class='hn-body'>
 <p class='hn-title'>(24) <a href='https://thunderseethe.dev/posts/how-to-choose-between-hm-and-bidir/' target='_blank' rel='noopener noreferrer'>How to choose between Hindley-Milner and bidirectional typing</a></p>
 <p class='hn-meta'>在 Hindley-Milner 与双向类型推断之间如何取舍</p>
@@ -262,7 +262,7 @@ title: "Hacker News — Trending (2026-02-19)"
 <p class='hn-text-zh'>给出在 Hindley-Milner 与双向类型推断之间的取舍，涵盖推断、主类型与类型检查的权衡。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Programming'>
+<div class='hn-card' id='story-47073044' data-tags='Programming'>
 <div class='hn-body'>
 <p class='hn-title'>(25) <a href='https://kodiak64.co.uk/blog/seawolves-technical-tricks' target='_blank' rel='noopener noreferrer'>Coding Tricks Used in the C64 Game Seawolves (2025)</a></p>
 <p class='hn-meta'>2025 年 C64 游戏 Seawolves 的制作技法</p>
@@ -273,7 +273,7 @@ title: "Hacker News — Trending (2026-02-19)"
 <p class='hn-text-zh'>2025 年 C64 游戏 Seawolves 的制作技法，揭示了复古游戏开发的优化思路与技巧。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Hardware'>
+<div class='hn-card' id='story-47027171' data-tags='Hardware'>
 <div class='hn-body'>
 <p class='hn-title'>(26) <a href='https://en.wikipedia.org/wiki/Voith_Schneider_Propeller' target='_blank' rel='noopener noreferrer'>Voith Schneider Propeller</a></p>
 <p class='hn-meta'>福伊特-施耐德螺旋桨</p>
@@ -284,7 +284,7 @@ title: "Hacker News — Trending (2026-02-19)"
 <p class='hn-text-zh'>Voith-Schneider 螺旋桨是一种用于船舶的轮筒式多向推力螺旋桨，文中解释其工作原理。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Programming'>
+<div class='hn-card' id='story-47072539' data-tags='Programming'>
 <div class='hn-body'>
 <p class='hn-title'>(27) <a href='https://oban.pro/articles/bridging-with-oban' target='_blank' rel='noopener noreferrer'>Bridging Elixir and Python with Oban</a></p>
 <p class='hn-meta'>用 Oban 桥接 Elixir 与 Python</p>
@@ -295,7 +295,7 @@ title: "Hacker News — Trending (2026-02-19)"
 <p class='hn-text-zh'>文中介绍通过 Oban 实现 Elixir 与 Python 的桥接，支持跨语言的后台任务与作业队列。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Show HN,Privacy'>
+<div class='hn-card' id='story-47072863' data-tags='Show HN,Privacy'>
 <div class='hn-body'>
 <p class='hn-title'>(28) <a href='https://github.com/fjrevoredo/mini-diarium' target='_blank' rel='noopener noreferrer'>Show HN: Mini-Diarium - An encrypted, local, cross-platform journaling app</a></p>
 <p class='hn-meta'>Show HN：Mini-Diarium——一个本地加密、跨平台的日记应用</p>
@@ -306,7 +306,7 @@ title: "Hacker News — Trending (2026-02-19)"
 <p class='hn-text-zh'>Mini-Diarium 是一个本地加密、跨平台的日记应用，强调隐私保护与离线优先。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Programming'>
+<div class='hn-card' id='story-47077383' data-tags='Programming'>
 <div class='hn-body'>
 <p class='hn-title'>(29) <a href='https://yieldcode.blog/post/farewell-rust/' target='_blank' rel='noopener noreferrer'>Farewell, Rust for web</a></p>
 <p class='hn-meta'>告别 Rust 做网页开发</p>
@@ -317,7 +317,7 @@ title: "Hacker News — Trending (2026-02-19)"
 <p class='hn-text-zh'>作者认为在网页开发中不应再使用 Rust，提出用其他语言或框架来构建网络应用。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Show HN,Design'>
+<div class='hn-card' id='story-47079718' data-tags='Show HN,Design'>
 <div class='hn-body'>
 <p class='hn-title'>(30) <a href='https://github.com/manaflow-ai/cmux' target='_blank' rel='noopener noreferrer'>Show HN: Ghostty-based terminal with vertical tabs and notifications</a></p>
 <p class='hn-meta'>Show HN：基于 Ghostty 的终端，支持竖栏标签与通知</p>
@@ -328,7 +328,7 @@ title: "Hacker News — Trending (2026-02-19)"
 <p class='hn-text-zh'>基于 Ghostty 的终端提供现代化的命令行界面，具备竖向标签和内置通知，展示了轻量文本界面如何在高强度工作流中与 GUI 工具竞争。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Science'>
+<div class='hn-card' id='story-47074869' data-tags='Science'>
 <div class='hn-body'>
 <p class='hn-title'>(31) <a href='https://borischerny.com/food/2022/01/17/Dinosaur-food.html' target='_blank' rel='noopener noreferrer'>Dinosaur Food: 100M year old foods we still eat today (2022)</a></p>
 <p class='hn-meta'>恐龙时代的食物：一亿年前的食物如今仍在我们餐桌上</p>
@@ -339,7 +339,7 @@ title: "Hacker News — Trending (2026-02-19)"
 <p class='hn-text-zh'>这篇文章梳理了可追溯至恐龙时代的食物，揭示某些古老食材如何延续至今的饮食传统及其背后的历史脉络。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Culture'>
+<div class='hn-card' id='story-47038578' data-tags='Culture'>
 <div class='hn-body'>
 <p class='hn-title'>(32) <a href='https://tempus-word.de/en/index' target='_blank' rel='noopener noreferrer'>A word processor from 1990s for Atari ST/TOS is still supported by enthusiasts</a></p>
 <p class='hn-meta'>一款 1990 年代 Atari ST/TOS 的文字处理器仍由爱好者维护</p>
@@ -349,7 +349,7 @@ title: "Hacker News — Trending (2026-02-19)"
 <p class='hn-text-zh'>爱好者仍在维护一款1990年代 Atari ST/TOS 的文字处理器，展示了复古计算社区的活力与软件保护。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='DevOps'>
+<div class='hn-card' id='story-47037781' data-tags='DevOps'>
 <div class='hn-body'>
 <p class='hn-title'>(33) <a href='https://planetscale.com/blog/zero-downtime-migrations-at-petabyte-scale' target='_blank' rel='noopener noreferrer'>Zero downtime migrations at petabyte scale (2024)</a></p>
 <p class='hn-meta'>在 PB 级规模下实现零停机迁移（2024）</p>
@@ -360,7 +360,7 @@ title: "Hacker News — Trending (2026-02-19)"
 <p class='hn-text-zh'>Planetscale 分享大规模规模级的在线架构迁移策略，覆盖工具链、测试与回滚方法，确保零停机。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Science'>
+<div class='hn-card' id='story-47077245' data-tags='Science'>
 <div class='hn-body'>
 <p class='hn-title'>(34) <a href='https://www.smithsonianmag.com/smart-news/archaeologists-unearthed-a-2200-year-old-bone-they-say-it-could-be-the-first-direct-evidence-of-hannibals-legendary-war-elephants-180988185/' target='_blank' rel='noopener noreferrer'>Archaeologists find possible first direct evidence of Hannibal's war elephants</a></p>
 <p class='hn-meta'>考古学家发现汉尼拔战争象的可能首个直接证据</p>
@@ -371,7 +371,7 @@ title: "Hacker News — Trending (2026-02-19)"
 <p class='hn-text-zh'>最新考古发现的骨骼证据可能成为汉尼拔战争象的直接证据，为研究古代军队行动和大象驯养提供线索。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='AI'>
+<div class='hn-card' id='story-47073947' data-tags='AI'>
 <div class='hn-body'>
 <p class='hn-title'>(35) <a href='https://www.anthropic.com/research/measuring-agent-autonomy' target='_blank' rel='noopener noreferrer'>Measuring AI agent autonomy in practice</a></p>
 <p class='hn-meta'>在实践中衡量 AI 主体代理的自主性</p>
@@ -382,7 +382,7 @@ title: "Hacker News — Trending (2026-02-19)"
 <p class='hn-text-zh'>Anthropic 提出评估AI代理自主性的指标与实验，为实际应用中的安全风险提供了量化框架。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Entertainment'>
+<div class='hn-card' id='story-47070680' data-tags='Entertainment'>
 <div class='hn-body'>
 <p class='hn-title'>(36) <a href='http://singlemindedmovieblog.blogspot.com/2010/04/old-school-effects-cloud-tank.html' target='_blank' rel='noopener noreferrer'>Old School Visual Effects: The Cloud Tank (2010)</a></p>
 <p class='hn-meta'>古典视觉特效：云罐（Cloud Tank，2010）</p>
@@ -393,7 +393,7 @@ title: "Hacker News — Trending (2026-02-19)"
 <p class='hn-text-zh'>回顾2010年的 Cloud Tank 视觉特效技术及其对当代 VFX 工作流的启发，展示旧技艺如何影响现代 CG。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Hardware'>
+<div class='hn-card' id='story-47029368' data-tags='Hardware'>
 <div class='hn-body'>
 <p class='hn-title'>(37) <a href='https://www.justinmklam.com/posts/2026/02/beginners-guide-split-keyboards/' target='_blank' rel='noopener noreferrer'>A beginner's guide to split keyboards</a></p>
 <p class='hn-meta'>初学者指南：分体式键盘入门</p>
@@ -404,7 +404,7 @@ title: "Hacker News — Trending (2026-02-19)"
 <p class='hn-text-zh'>本指南介绍分体式键盘的原理、人体工学优势、常见布局与入门组装要点，适合对 ergonomic 输入或定制机械键盘感兴趣的新手。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Entertainment'>
+<div class='hn-card' id='story-47041294' data-tags='Entertainment'>
 <div class='hn-body'>
 <p class='hn-title'>(38) <a href='https://technologizer.com/home/2026/02/16/arctic-adventure-2026/' target='_blank' rel='noopener noreferrer'>My 1981 adventure game is now a multimedia extravaganza</a></p>
 <p class='hn-meta'>这款1981年的经典冒险游戏被重新打造为多媒体项目</p>
@@ -415,7 +415,7 @@ title: "Hacker News — Trending (2026-02-19)"
 <p class='hn-text-zh'>这款1981年的经典冒险游戏被重新打造为多媒体项目，将经典玩法与现代媒体融合，吸引新一代玩家。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Health'>
+<div class='hn-card' id='story-47079590' data-tags='Health'>
 <div class='hn-body'>
 <p class='hn-title'>(39) <a href='https://www.economist.com/science-and-technology/2026/02/19/a-psychedelic-medicine-performs-well-against-depression' target='_blank' rel='noopener noreferrer'>A psychedelic medicine performs well against depression</a></p>
 <p class='hn-meta'>一种迷幻药治疗在抑郁症治疗上呈现积极结果</p>
@@ -425,7 +425,7 @@ title: "Hacker News — Trending (2026-02-19)"
 <p class='hn-text-zh'>一种迷幻药治疗在抑郁症治疗上呈现积极结果，预示心理健康治疗可能出现新的方向。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Programming'>
+<div class='hn-card' id='story-47072603' data-tags='Programming'>
 <div class='hn-body'>
 <p class='hn-title'>(40) <a href='https://github.com/sstraust/shannonmax' target='_blank' rel='noopener noreferrer'>ShannonMax: A Library to Optimize Emacs Keybindings with Information Theory</a></p>
 <p class='hn-meta'>ShannonMax：用信息论优化 Emacs 快捷键的库</p>
@@ -436,7 +436,7 @@ title: "Hacker News — Trending (2026-02-19)"
 <p class='hn-text-zh'>ShannonMax 推出一个利用信息理论优化 Emacs 快捷键的库，为自定义提供系统化方法。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Politics,DevOps'>
+<div class='hn-card' id='story-47083735' data-tags='Politics,DevOps'>
 <div class='hn-body'>
 <p class='hn-title'>(41) <a href='https://www.bbc.com/news/articles/c3ew5jlqz87o' target='_blank' rel='noopener noreferrer'>Mystery donor gives Japanese city $3.6M in gold bars to fix water system</a></p>
 <p class='hn-meta'>神秘捐赠者向日本一座城市捐赠价值360万美元的金条以修复供水系统</p>
@@ -447,7 +447,7 @@ title: "Hacker News — Trending (2026-02-19)"
 <p class='hn-text-zh'>神秘捐赠者以数百万美元的金条资助日本一座城市的供水系统，引发关于慈善捐赠透明度与公共基础设施资金来源的讨论。这件事凸显匿名捐助在推动公共服务方面的潜力及治理挑战。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Programming'>
+<div class='hn-card' id='story-47031197' data-tags='Programming'>
 <div class='hn-body'>
 <p class='hn-title'>(42) <a href='https://gustedt.wordpress.com/2026/02/15/defer-available-in-gcc-and-clang/' target='_blank' rel='noopener noreferrer'>Defer available in gcc and clang</a></p>
 <p class='hn-meta'>GCC 与 Clang 实现 defer 机制</p>
@@ -458,7 +458,7 @@ title: "Hacker News — Trending (2026-02-19)"
 <p class='hn-text-zh'>GCC 与 Clang 通过一个宏模式实现类似 Go 的 defer 语义，使代码能够在作用域退出时执行清理操作。为 C/C++ 引入一种无需修改语言标准的资源管理方式，提升跨块的清理一致性，但需注意对控制流的影响。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='AI'>
+<div class='hn-card' id='story-47083648' data-tags='AI'>
 <div class='hn-body'>
 <p class='hn-title'>(43) <a href='https://www.together.ai/blog/consistency-diffusion-language-models' target='_blank' rel='noopener noreferrer'>Consistency diffusion language models: Up to 14x faster, no quality loss</a></p>
 <p class='hn-meta'>一致性扩散语言模型：速度提升至 14x 且品质不损</p>
@@ -469,7 +469,7 @@ title: "Hacker News — Trending (2026-02-19)"
 <p class='hn-text-zh'>Together AI 的一致性扩散语言模型声称在不牺牲输出质量的前提下实现高达 14 倍的推理加速，通过重新设计扩散采样策略来提升语言生成效率。这一突破有望显著降低大模型的算力成本并提升推理速度。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Hardware,DevOps'>
+<div class='hn-card' id='story-47082548' data-tags='Hardware,DevOps'>
 <div class='hn-body'>
 <p class='hn-title'>(44) <a href='https://sour.coffee/2026/02/20/an-arm-homelab-server-or-a-minisforum-ms-r1-review/' target='_blank' rel='noopener noreferrer'>An ARM Homelab Server, or a Minisforum MS-R1 Review</a></p>
 <p class='hn-meta'>ARM 家用实验室服务器：Minisforum MS-R1 评测</p>
@@ -480,7 +480,7 @@ title: "Hacker News — Trending (2026-02-19)"
 <p class='hn-text-zh'>紧凑的 ARM 硬件为轻量工作负载和容器服务提供了有吸引力的家用实验室解决方案。评测对 Minisforum MS-R1 的存储扩展、内存升级、散热与虚拟化能力进行了实际测试，权衡功耗与噪音与性能。结论是价格友好、运行安静，但 ARM 生态与扩展性可能限制更大规模的实验室需求。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='AI'>
+<div class='hn-card' id='story-47082854' data-tags='AI'>
 <div class='hn-body'>
 <p class='hn-title'>(45) <a href='https://github.com/tmustier/pi-for-excel' target='_blank' rel='noopener noreferrer'>Pi for Excel: AI sidebar add-in for Excel</a></p>
 <p class='hn-meta'>Pi for Excel：Excel 的 AI 侧边栏插件</p>
@@ -491,7 +491,7 @@ title: "Hacker News — Trending (2026-02-19)"
 <p class='hn-text-zh'>Pi for Excel 在 Excel 中增设了 AI 侧边栏，支持快速数据洞察、自然语言提示和工作流自动化接点。将 AI 助手无缝嵌入熟悉工具的趋势，提升工作效率且避免切换应用。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Open Source,Design'>
+<div class='hn-card' id='story-47047010' data-tags='Open Source,Design'>
 <div class='hn-body'>
 <p class='hn-title'>(46) <a href='https://www.freecad.org/index.php' target='_blank' rel='noopener noreferrer'>FreeCAD</a></p>
 <p class='hn-meta'>FreeCAD：开源参数化 CAD 工具</p>
@@ -502,7 +502,7 @@ title: "Hacker News — Trending (2026-02-19)"
 <p class='hn-text-zh'>FreeCAD 是一款开源的参数化 3D CAD 工具，具备可扩展的架构与脚本化能力。它在爱好者与工程师之间都很受欢迎，提供可自定义的工作流用于机械设计与原型开发，且无许可费。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Programming'>
+<div class='hn-card' id='story-47035698' data-tags='Programming'>
 <div class='hn-body'>
 <p class='hn-title'>(47) <a href='https://cormullion.github.io/Lindenmayer.jl/stable/' target='_blank' rel='noopener noreferrer'>Lindenmayer.jl: Defining recursive patterns in Julia</a></p>
 <p class='hn-meta'>Lindenmayer.jl：在 Julia 中定义递归模式</p>
@@ -513,7 +513,7 @@ title: "Hacker News — Trending (2026-02-19)"
 <p class='hn-text-zh'>Lindenmayer.jl 为在 Julia 中定义 L-系统提供了简洁的 DSL，使你能够用最少的样板代码表达递归重写规则并生成分形样式的图案。该包注重可读性语法，并可与 Julia 的绘图和数值计算生态无缝协同，便于快速尝试过程性生长和生成式艺术。对于在 Julia 中探索递归模式或可视化图形的研究者与开发者来说，是一款实用工具。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Politics,Education'>
+<div class='hn-card' id='story-47078941' data-tags='Politics,Education'>
 <div class='hn-body'>
 <p class='hn-title'>(48) <a href='https://www.texastribune.org/2026/02/19/texas-university-ut-regents-unnecessarily-controversial-subjects/' target='_blank' rel='noopener noreferrer'>University of Texas limits on teaching of "unnecessary controversial subjects"</a></p>
 <p class='hn-meta'>德州大学限制教授“不必要的有争议科目”</p>
@@ -524,7 +524,7 @@ title: "Hacker News — Trending (2026-02-19)"
 <p class='hn-text-zh'>德州大学理事会限制教授“可能引发争议的科目”，引发对学术自由与课程范围的担忧。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Privacy,Security,Legal'>
+<div class='hn-card' id='story-47077656' data-tags='Privacy,Security,Legal'>
 <div class='hn-body'>
 <p class='hn-title'>(49) <a href='https://www.404media.co/grok-doxing-real-names-birthdates-siri-dahl/' target='_blank' rel='noopener noreferrer'>Grok Exposed a Porn Performer's Legal Name and Birthdate–Without Being Asked</a></p>
 <p class='hn-meta'>Grok 暴露色情演员的真实姓名与出生日期——未被请求</p>
@@ -535,7 +535,7 @@ title: "Hacker News — Trending (2026-02-19)"
 <p class='hn-text-zh'>报道讨论对色情表演者真实姓名与出生日期进行的公开号码披露事件，凸显网络隐私与数据保护的伦理问题。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Science'>
+<div class='hn-card' id='story-47074083' data-tags='Science'>
 <div class='hn-body'>
 <p class='hn-title'>(50) <a href='https://journals.sagepub.com/doi/10.1177/26339137261421577' target='_blank' rel='noopener noreferrer'>Can random experimental choice lead to better theories?</a></p>
 <p class='hn-meta'>随机实验选择能否带来更好的理论？</p>
@@ -545,7 +545,7 @@ title: "Hacker News — Trending (2026-02-19)"
 <p class='hn-text-zh'>文章探讨将随机性引入实验是否能促成更好的理论，结合科学哲学与实验设计。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Design'>
+<div class='hn-card' id='story-47049121' data-tags='Design'>
 <div class='hn-body'>
 <p class='hn-title'>(51) <a href='https://phinze.com/writing/level-of-detail' target='_blank' rel='noopener noreferrer'>Level of Detail</a></p>
 <p class='hn-meta'>细节层次（LOD）</p>
@@ -556,7 +556,7 @@ title: "Hacker News — Trending (2026-02-19)"
 <p class='hn-text-zh'>探讨在设计与图形中的细节层次，阐述何时简化、何时保留细节以兼顾清晰度与性能。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Show HN,Programming,Open Source'>
+<div class='hn-card' id='story-47080873' data-tags='Show HN,Programming,Open Source'>
 <div class='hn-body'>
 <p class='hn-title'>(52) <a href='https://github.com/thelowsunoverthemoon/mahler.c' target='_blank' rel='noopener noreferrer'>Show HN: A small, simple music theory library in C99</a></p>
 <p class='hn-meta'>Show HN：一个用 C99 编写的简洁音乐理论库</p>
@@ -567,7 +567,7 @@ title: "Hacker News — Trending (2026-02-19)"
 <p class='hn-text-zh'>这个极小、无依赖的 C99 音乐理论库实现了核心音乐理论要素，如音符、区间、音阶和和弦。旨在便于嵌入到小游戏或演示类项目，提供一个轻量的替代方案，免去对大型库的依赖。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='AI,Business'>
+<div class='hn-card' id='story-47078109' data-tags='AI,Business'>
 <div class='hn-body'>
 <p class='hn-title'>(53) <a href='https://www.semafor.com/article/02/17/2026/palantir-partnership-is-at-heart-of-anthropic-pentagon-rift' target='_blank' rel='noopener noreferrer'>Palantir partnership is at heart of Anthropic, Pentagon rift</a></p>
 <p class='hn-meta'>Palantir 与 Anthropic 的伙伴关系在五角大楼分歧中居核心</p>
@@ -578,7 +578,7 @@ title: "Hacker News — Trending (2026-02-19)"
 <p class='hn-text-zh'>报道指出 Palantir 与 Anthropic 的关系在五角大楼关系紧张中扮演核心角色，反映大型科技企业对国防 AI 选择的影响。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Security'>
+<div class='hn-card' id='story-47080785' data-tags='Security'>
 <div class='hn-body'>
 <p class='hn-title'>(54) <a href='https://twitter.com/chiefofautism/status/2024483631067021348' target='_blank' rel='noopener noreferrer'>The #1 most downloaded skill on OpenClaw marketplace was malware</a></p>
 <p class='hn-meta'>OpenClaw 市场最受欢迎的技能居然是恶意软件</p>
@@ -589,7 +589,7 @@ title: "Hacker News — Trending (2026-02-19)"
 <p class='hn-text-zh'>OpenClaw 市场最受欢迎的技能竟是恶意软件，凸显安全风险与平台监管的必要性。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Security,Hardware,Privacy'>
+<div class='hn-card' id='story-47084000' data-tags='Security,Hardware,Privacy'>
 <div class='hn-body'>
 <p class='hn-title'>(55) <a href='https://github.com/olvvier/apple-silicon-accelerometer' target='_blank' rel='noopener noreferrer'>Reading the undocumented MEMS accelerometer on Apple Silicon MacBooks via iokit</a></p>
 <p class='hn-meta'>通过 iokit 读取 Apple Silicon MacBook 未公开的 MEMS 加速度计</p>
@@ -600,7 +600,7 @@ title: "Hacker News — Trending (2026-02-19)"
 <p class='hn-text-zh'>研究者通过 iokit 访问 Apple Silicon Mac 的未公开 MEMS 加速度计，暴露了硬件传感器可能绕过公开 API 被读取的情况。这一发现对消费级笔记本的安全、隐私及潜在副信道风险具有重要意义。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Programming'>
+<div class='hn-card' id='story-47038491' data-tags='Programming'>
 <div class='hn-body'>
 <p class='hn-title'>(56) <a href='https://bernsteinbear.com/blog/toy-tbaa/' target='_blank' rel='noopener noreferrer'>Type-based alias analysis in the Toy Optimizer</a></p>
 <p class='hn-meta'>该教程/博文在 Toy Optimizer 中探索基于类型的别名分析</p>
@@ -611,7 +611,7 @@ title: "Hacker News — Trending (2026-02-19)"
 <p class='hn-text-zh'>该教程/博文在 Toy Optimizer 中探索基于类型的别名分析，展示类型系统如何帮助优化与内存安全。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Design,Education,Science'>
+<div class='hn-card' id='story-47034593' data-tags='Design,Education,Science'>
 <div class='hn-body'>
 <p class='hn-title'>(57) <a href='https://www.youtube.com/watch?v=8ol7DsPnHcE' target='_blank' rel='noopener noreferrer'>The Chinese periodic table goes hard [video]</a></p>
 <p class='hn-meta'>中国元素周期表硬核来袭 [视频]</p>
@@ -621,7 +621,7 @@ title: "Hacker News — Trending (2026-02-19)"
 <p class='hn-text-zh'>一段充满冲击力的视频，使用大胆的视觉效果和快速动画来呈现元素周期表。它展示了设计与叙事如何提升化学知识的吸引力，使学习更易记忆且激发观众的科学兴趣。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Programming,Open Source'>
+<div class='hn-card' id='story-47076052' data-tags='Programming,Open Source'>
 <div class='hn-body'>
 <p class='hn-title'>(58) <a href='https://github.com/littlefly365/Netbase' target='_blank' rel='noopener noreferrer'>Netbase: A port of the NetBSD utilities for Linux</a></p>
 <p class='hn-meta'>Netbase：将 NetBSD 的实用工具移植到 Linux</p>
@@ -632,7 +632,7 @@ title: "Hacker News — Trending (2026-02-19)"
 <p class='hn-text-zh'>Netbase 将 NetBSD 的实用工具移植到 Linux，便于熟悉 NetBSD 工具链的开发者在 Linux 上工作。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Security,Legal'>
+<div class='hn-card' id='story-47083715' data-tags='Security,Legal'>
 <div class='hn-body'>
 <p class='hn-title'>(59) <a href='https://www.wired.com/story/an-fbi-asset-helped-run-a-dark-web-site-that-sold-fentanyl-laced-drugs-for-years/' target='_blank' rel='noopener noreferrer'>FBI 'Asset' Helped Run a Dark Web Site That Sold Fentanyl-Laced Drugs for Years</a></p>
 <p class='hn-meta'>FBI 线人协助运营长期售卖芬太尼药物的暗网站点</p>
@@ -643,7 +643,7 @@ title: "Hacker News — Trending (2026-02-19)"
 <p class='hn-text-zh'>一名 FBI 线人协助运营一个长期售卖芬太尼混合药物的暗网市场，引发对卧底行动、问责与网络犯罪打击中公共安全问题的讨论，凸显相关道德矛盾。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Politics,Culture'>
+<div class='hn-card' id='story-47058350' data-tags='Politics,Culture'>
 <div class='hn-body'>
 <p class='hn-title'>(60) <a href='https://clereviewofbooks.com/isabel-jacobs-boris-groys-marco-filoni/' target='_blank' rel='noopener noreferrer'>A Famous Enigma: On Alexandre Kojève</a></p>
 <p class='hn-meta'>名著之谜：解读 Alexandre Kojève</p>
@@ -654,7 +654,7 @@ title: "Hacker News — Trending (2026-02-19)"
 <p class='hn-text-zh'>本文解读 Kojève 的思想，聚焦他对黑格尔的解读及其对20世纪政治思想的影响，尤其在冷战时期知识分子圈中的传播与讨论。揭示他如何影响历史观、主权与自由主义的辩论。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Data,Science'>
+<div class='hn-card' id='story-47083882' data-tags='Data,Science'>
 <div class='hn-body'>
 <p class='hn-title'>(61) <a href='https://arxiv.org/abs/2602.16284' target='_blank' rel='noopener noreferrer'>Fast KV Compaction via Attention Matching</a></p>
 <p class='hn-meta'>通过注意力匹配实现快速 KV 压缩</p>
@@ -665,7 +665,7 @@ title: "Hacker News — Trending (2026-02-19)"
 <p class='hn-text-zh'>论文提出通过注意力匹配来加速 KV 存储的压缩整理，降低写放大并提升吞吐量。若落地，可能影响高吞吐数据库对压缩整理流水线的设计。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Show HN,Hardware,Web'>
+<div class='hn-card' id='story-47084349' data-tags='Show HN,Hardware,Web'>
 <div class='hn-body'>
 <p class='hn-title'>(62) <a href='https://github.com/Jay9185/Trmnl-Aviation-monitor' target='_blank' rel='noopener noreferrer'>Show HN: An e-ink air traffic monitor built with Cloudflare Workers</a></p>
 <p class='hn-meta'>Show HN：用 Cloudflare Workers 构建的电子纸空中交通监控显示器</p>
@@ -676,7 +676,7 @@ title: "Hacker News — Trending (2026-02-19)"
 <p class='hn-text-zh'>一个自制的电子纸空中交通监控显示器通过 Cloudflare Workers 实时更新航班数据，演示了基于边缘计算的低功耗仪表板。展示了轻量级 Web 工作流在实际硬件显示中的应用潜力。</p>
 </div>
 </div>
-<div class='hn-card' data-tags='Show HN,DevOps,Programming'>
+<div class='hn-card' id='story-47084431' data-tags='Show HN,DevOps,Programming'>
 <div class='hn-body'>
 <p class='hn-title'>(63) <a href='https://fostrom.io/' target='_blank' rel='noopener noreferrer'>Show HN: Fostrom, an IoT Cloud Platform built for developers</a></p>
 <p class='hn-meta'>Show HN：为开发者打造的物联网云平台 Fostrom</p>

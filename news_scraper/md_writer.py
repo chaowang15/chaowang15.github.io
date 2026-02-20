@@ -148,7 +148,11 @@ def render_markdown(
         # Build data-tags attribute for future JS filtering
         tags_data = ",".join(tags) if tags else ""
 
-        lines.append(f"<div class='hn-card' data-tags='{tags_data}'>")
+        # Anchor ID from HN story ID for deep linking
+        hn_id = (it.get("hn") or {}).get("id", "")
+        id_attr = f" id='story-{hn_id}'" if hn_id else ""
+
+        lines.append(f"<div class='hn-card'{id_attr} data-tags='{tags_data}'>")
         lines.append("<div class='hn-body'>")
 
         lines.append(
