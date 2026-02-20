@@ -20,11 +20,11 @@ Sort:
 <button id='hn-search-more' class='hn-search-more' style='display:none;'>Show more results</button>
 <div class='hn-tag-cloud' id='hn-tag-cloud'>
 <div class='hn-tag-cloud-header'>
-<span class='hn-tag-cloud-title'>Tag Cloud</span>
-<button class='hn-tag-cloud-toggle' id='hn-tag-cloud-toggle' title='Hide tag cloud'>▾ Hide</button>
+<span class='hn-tag-cloud-title'>Tag Trends</span>
+<button class='hn-tag-cloud-toggle' id='hn-tag-cloud-toggle' title='Hide tag trends'>▾ Hide</button>
 </div>
 <div class='hn-tag-cloud-body' id='hn-tag-cloud-body'>
-<canvas class='hn-tag-cloud-canvas' id='hn-tag-cloud-canvas'></canvas>
+<div class='hn-bubble-chart' id='hn-bubble-chart'></div>
 <div class='hn-tag-cloud-tooltip' id='hn-tag-cloud-tooltip'></div>
 </div>
 </div>

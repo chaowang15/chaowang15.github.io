@@ -333,14 +333,14 @@ def update_hackernews_index(
     lines.append("<div id='hn-search-results' class='hn-search-results' style='display:none;'></div>")
     lines.append("<button id='hn-search-more' class='hn-search-more' style='display:none;'>Show more results</button>")
 
-    # Tag word cloud
+    # Tag bubble chart
     lines.append("<div class='hn-tag-cloud' id='hn-tag-cloud'>")
     lines.append("<div class='hn-tag-cloud-header'>")
-    lines.append("<span class='hn-tag-cloud-title'>Tag Cloud</span>")
-    lines.append("<button class='hn-tag-cloud-toggle' id='hn-tag-cloud-toggle' title='Hide tag cloud'>▾ Hide</button>")
+    lines.append("<span class='hn-tag-cloud-title'>Tag Trends</span>")
+    lines.append("<button class='hn-tag-cloud-toggle' id='hn-tag-cloud-toggle' title='Hide tag trends'>▾ Hide</button>")
     lines.append("</div>")
     lines.append("<div class='hn-tag-cloud-body' id='hn-tag-cloud-body'>")
-    lines.append("<canvas class='hn-tag-cloud-canvas' id='hn-tag-cloud-canvas'></canvas>")
+    lines.append("<div class='hn-bubble-chart' id='hn-bubble-chart'></div>")
     lines.append("<div class='hn-tag-cloud-tooltip' id='hn-tag-cloud-tooltip'></div>")
     lines.append("</div>")
     lines.append("</div>")

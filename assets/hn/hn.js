@@ -591,32 +591,29 @@
 })();
 
 
-// ===== Tag Word Cloud (Index page only) =====
+// ===== Tag Bubble Chart (Index page only) =====
 (function () {
-  function initWordCloud() {
+  function initBubbleChart() {
     var container = document.getElementById('hn-tag-cloud');
     if (!container) return;
 
-    var canvas = document.getElementById('hn-tag-cloud-canvas');
+    var chartEl = document.getElementById('hn-bubble-chart');
     var tooltip = document.getElementById('hn-tag-cloud-tooltip');
     var toggleBtn = document.getElementById('hn-tag-cloud-toggle');
     var body = document.getElementById('hn-tag-cloud-body');
 
-    // Tag color map
+    // Tag color map (hex)
     var TAG_COLORS = {
       "AI": "#3b82f6", "Programming": "#6366f1", "Security": "#ef4444",
-      "Science": "#14b8a6", "Business": "#f59e0b", "Finance": "#f59e0b",
+      "Science": "#14b8a6", "Business": "#f59e0b", "Finance": "#d97706",
       "Hardware": "#64748b", "Open Source": "#22c55e", "Design": "#ec4899",
-      "Web": "#06b6d4", "DevOps": "#6366f1", "Data": "#8b5cf6",
-      "Gaming": "#a855f7", "Entertainment": "#a855f7", "Politics": "#f97316",
+      "Web": "#06b6d4", "DevOps": "#818cf8", "Data": "#8b5cf6",
+      "Gaming": "#a855f7", "Entertainment": "#c084fc", "Politics": "#f97316",
       "Health": "#10b981", "Education": "#0ea5e9", "Career": "#0ea5e9",
       "Privacy": "#ef4444", "Legal": "#f97316", "Culture": "#f43f5e",
-      "Space": "#14b8a6", "Energy": "#10b981", "Startups": "#f59e0b",
+      "Space": "#14b8a6", "Energy": "#10b981", "Startups": "#eab308",
       "Show HN": "#22c55e"
     };
-
-    // Dark mode detection
-    var isDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
 
     // Collapse/expand toggle with localStorage memory
     var STORAGE_KEY = 'hn-tag-cloud-collapsed';
@@ -626,11 +623,11 @@
       if (isCollapsed) {
         body.style.display = 'none';
         toggleBtn.textContent = '▸ Show';
-        toggleBtn.title = 'Show tag cloud';
+        toggleBtn.title = 'Show tag trends';
       } else {
         body.style.display = '';
         toggleBtn.textContent = '▾ Hide';
-        toggleBtn.title = 'Hide tag cloud';
+        toggleBtn.title = 'Hide tag trends';
       }
     }
 
@@ -638,16 +635,15 @@
       isCollapsed = !isCollapsed;
       localStorage.setItem(STORAGE_KEY, isCollapsed ? '1' : '0');
       applyCollapse();
-      if (!isCollapsed && !cloudRendered) {
-        renderCloud();
+      if (!isCollapsed && !chartRendered) {
+        renderChart();
       }
     });
 
     applyCollapse();
 
-    var cloudRendered = false;
+    var chartRendered = false;
 
-    // Load tag cloud data
     function loadData(cb) {
       var xhr = new XMLHttpRequest();
       xhr.open('GET', '/hackernews/tag_cloud.json', true);
@@ -659,172 +655,299 @@
       xhr.send();
     }
 
-    function renderCloud() {
+    function renderChart() {
       loadData(function (data) {
         if (!data || !data.tags || !data.tags.length) return;
 
         var tags = data.tags;
+        var totalStories = data.total_stories || 1;
         var maxCount = tags[0].count;
         var minCount = tags[tags.length - 1].count;
 
-        // Canvas setup
-        var rect = canvas.parentElement.getBoundingClientRect();
-        var W = Math.min(rect.width, 860);
-        var H = 280;
-        canvas.width = W * 2;  // retina
-        canvas.height = H * 2;
-        canvas.style.width = W + 'px';
-        canvas.style.height = H + 'px';
+        // Container dimensions
+        var rect = body.getBoundingClientRect();
+        var W = Math.min(rect.width - 16, 880);
+        var H = 300;
+        chartEl.style.width = W + 'px';
+        chartEl.style.height = H + 'px';
+        chartEl.innerHTML = '';
 
-        var ctx = canvas.getContext('2d');
-        ctx.scale(2, 2);
-        ctx.textBaseline = 'middle';
-
-        // Font size scaling
-        var MIN_FONT = 12;
-        var MAX_FONT = 46;
-        function fontSize(count) {
-          if (maxCount === minCount) return (MIN_FONT + MAX_FONT) / 2;
+        // Bubble radius scaling
+        var MIN_R = 22;
+        var MAX_R = 62;
+        function radius(count) {
+          if (maxCount === minCount) return (MIN_R + MAX_R) / 2;
           var t = (count - minCount) / (maxCount - minCount);
-          // Use sqrt for more balanced visual distribution
-          return Math.round(MIN_FONT + Math.sqrt(t) * (MAX_FONT - MIN_FONT));
+          return MIN_R + Math.sqrt(t) * (MAX_R - MIN_R);
         }
 
-        // Spiral placement algorithm
-        var placed = []; // array of {x, y, w, h, tag, count, color, fs}
-        var PAD = 4; // padding between words
-
-        function overlaps(x, y, w, h) {
-          for (var i = 0; i < placed.length; i++) {
-            var p = placed[i];
-            if (x < p.x + p.w + PAD && x + w + PAD > p.x &&
-                y < p.y + p.h + PAD && y + h + PAD > p.y) {
-              return true;
-            }
-          }
-          return false;
-        }
-
-        var tagItems = tags.map(function (t) {
-          return { tag: t.tag, count: t.count, fs: fontSize(t.count) };
+        // Build bubble data
+        var bubbles = tags.map(function (t) {
+          var r = radius(t.count);
+          var color = TAG_COLORS[t.tag] || '#64748b';
+          return {
+            tag: t.tag,
+            count: t.count,
+            r: r,
+            color: color,
+            x: W / 2 + (Math.random() - 0.5) * W * 0.3,
+            y: H / 2 + (Math.random() - 0.5) * H * 0.3,
+            vx: 0,
+            vy: 0
+          };
         });
 
-        // Place each tag using Archimedean spiral
-        tagItems.forEach(function (item) {
-          var fs = item.fs;
-          ctx.font = '600 ' + fs + 'px Inter, -apple-system, sans-serif';
-          var metrics = ctx.measureText(item.tag);
-          var tw = metrics.width + 6;
-          var th = fs * 1.25;
+        // Simple force simulation: center gravity + collision
+        var cx = W / 2;
+        var cy = H / 2;
+        var GRAVITY = 0.012;
+        var DAMPING = 0.88;
+        var COLLISION_STRENGTH = 0.6;
 
-          var cx = W / 2;
-          var cy = H / 2;
-          var placed_ok = false;
+        function simulate(steps) {
+          for (var s = 0; s < steps; s++) {
+            // Center gravity
+            for (var i = 0; i < bubbles.length; i++) {
+              var b = bubbles[i];
+              b.vx += (cx - b.x) * GRAVITY;
+              b.vy += (cy - b.y) * GRAVITY;
+            }
 
-          // Archimedean spiral: r = a + b*theta
-          for (var i = 0; i < 3000; i++) {
-            var angle = i * 0.1;
-            var r = 1.5 * angle;
-            var x = cx + r * Math.cos(angle) - tw / 2;
-            var y = cy + r * Math.sin(angle) - th / 2;
-
-            // Bounds check
-            if (x >= 2 && y >= 2 && x + tw <= W - 2 && y + th <= H - 2) {
-              if (!overlaps(x, y, tw, th)) {
-                var color = TAG_COLORS[item.tag] || '#64748b';
-                placed.push({ x: x, y: y, w: tw, h: th, tag: item.tag, count: item.count, color: color, fs: fs });
-                placed_ok = true;
-                break;
+            // Collision resolution
+            for (var i = 0; i < bubbles.length; i++) {
+              for (var j = i + 1; j < bubbles.length; j++) {
+                var a = bubbles[i];
+                var b = bubbles[j];
+                var dx = b.x - a.x;
+                var dy = b.y - a.y;
+                var dist = Math.sqrt(dx * dx + dy * dy) || 1;
+                var minDist = a.r + b.r + 3;
+                if (dist < minDist) {
+                  var overlap = (minDist - dist) / dist * COLLISION_STRENGTH;
+                  var mx = dx * overlap;
+                  var my = dy * overlap;
+                  a.vx -= mx;
+                  a.vy -= my;
+                  b.vx += mx;
+                  b.vy += my;
+                }
               }
             }
+
+            // Update positions with damping
+            for (var i = 0; i < bubbles.length; i++) {
+              var b = bubbles[i];
+              b.vx *= DAMPING;
+              b.vy *= DAMPING;
+              b.x += b.vx;
+              b.y += b.vy;
+              // Boundary constraints
+              if (b.x - b.r < 0) { b.x = b.r; b.vx *= -0.5; }
+              if (b.x + b.r > W) { b.x = W - b.r; b.vx *= -0.5; }
+              if (b.y - b.r < 0) { b.y = b.r; b.vy *= -0.5; }
+              if (b.y + b.r > H) { b.y = H - b.r; b.vy *= -0.5; }
+            }
           }
+        }
+
+        // Run simulation
+        simulate(200);
+
+        // Create SVG
+        var svgNS = 'http://www.w3.org/2000/svg';
+        var svg = document.createElementNS(svgNS, 'svg');
+        svg.setAttribute('width', W);
+        svg.setAttribute('height', H);
+        svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H);
+        svg.style.display = 'block';
+        svg.style.margin = '0 auto';
+
+        // Defs for filters
+        var defs = document.createElementNS(svgNS, 'defs');
+        var filter = document.createElementNS(svgNS, 'filter');
+        filter.setAttribute('id', 'bubble-shadow');
+        filter.setAttribute('x', '-20%');
+        filter.setAttribute('y', '-20%');
+        filter.setAttribute('width', '140%');
+        filter.setAttribute('height', '140%');
+        var feGauss = document.createElementNS(svgNS, 'feGaussianBlur');
+        feGauss.setAttribute('in', 'SourceAlpha');
+        feGauss.setAttribute('stdDeviation', '3');
+        feGauss.setAttribute('result', 'blur');
+        var feOffset = document.createElementNS(svgNS, 'feOffset');
+        feOffset.setAttribute('in', 'blur');
+        feOffset.setAttribute('dx', '0');
+        feOffset.setAttribute('dy', '2');
+        feOffset.setAttribute('result', 'shadow');
+        var feFlood = document.createElementNS(svgNS, 'feFlood');
+        feFlood.setAttribute('flood-color', 'rgba(0,0,0,0.15)');
+        feFlood.setAttribute('result', 'color');
+        var feComp = document.createElementNS(svgNS, 'feComposite');
+        feComp.setAttribute('in', 'color');
+        feComp.setAttribute('in2', 'shadow');
+        feComp.setAttribute('operator', 'in');
+        feComp.setAttribute('result', 'colorShadow');
+        var feMerge = document.createElementNS(svgNS, 'feMerge');
+        var feMerge1 = document.createElementNS(svgNS, 'feMergeNode');
+        feMerge1.setAttribute('in', 'colorShadow');
+        var feMerge2 = document.createElementNS(svgNS, 'feMergeNode');
+        feMerge2.setAttribute('in', 'SourceGraphic');
+        feMerge.appendChild(feMerge1);
+        feMerge.appendChild(feMerge2);
+        filter.appendChild(feGauss);
+        filter.appendChild(feOffset);
+        filter.appendChild(feFlood);
+        filter.appendChild(feComp);
+        filter.appendChild(feMerge);
+        defs.appendChild(filter);
+        svg.appendChild(defs);
+
+        // Render bubbles
+        var bubbleEls = [];
+        bubbles.forEach(function (b, idx) {
+          var g = document.createElementNS(svgNS, 'g');
+          g.setAttribute('class', 'hn-bubble');
+          g.setAttribute('data-idx', idx);
+          g.style.cursor = 'pointer';
+
+          // Circle
+          var circle = document.createElementNS(svgNS, 'circle');
+          circle.setAttribute('cx', b.x);
+          circle.setAttribute('cy', b.y);
+          circle.setAttribute('r', b.r);
+          circle.setAttribute('fill', b.color);
+          circle.setAttribute('fill-opacity', '0.18');
+          circle.setAttribute('stroke', b.color);
+          circle.setAttribute('stroke-width', '2');
+          circle.setAttribute('stroke-opacity', '0.6');
+          circle.setAttribute('filter', 'url(#bubble-shadow)');
+          g.appendChild(circle);
+
+          // Tag label
+          var text = document.createElementNS(svgNS, 'text');
+          text.setAttribute('x', b.x);
+          text.setAttribute('y', b.y - (b.r > 30 ? 5 : 0));
+          text.setAttribute('text-anchor', 'middle');
+          text.setAttribute('dominant-baseline', 'central');
+          text.setAttribute('fill', b.color);
+          text.setAttribute('font-family', 'Inter, -apple-system, sans-serif');
+          text.setAttribute('font-weight', '700');
+          // Font size based on bubble radius
+          var fs = Math.max(10, Math.min(b.r * 0.42, 20));
+          text.setAttribute('font-size', fs + 'px');
+          text.textContent = b.tag;
+          g.appendChild(text);
+
+          // Count label (below tag name, only for larger bubbles)
+          if (b.r > 30) {
+            var countText = document.createElementNS(svgNS, 'text');
+            countText.setAttribute('x', b.x);
+            countText.setAttribute('y', b.y + fs * 0.7 + 2);
+            countText.setAttribute('text-anchor', 'middle');
+            countText.setAttribute('dominant-baseline', 'central');
+            countText.setAttribute('fill', b.color);
+            countText.setAttribute('font-family', 'Inter, -apple-system, sans-serif');
+            countText.setAttribute('font-weight', '500');
+            countText.setAttribute('font-size', (fs * 0.65) + 'px');
+            countText.setAttribute('opacity', '0.7');
+            countText.textContent = b.count;
+            g.appendChild(countText);
+          }
+
+          svg.appendChild(g);
+          bubbleEls.push({ g: g, circle: circle, data: b });
         });
 
-        // Draw all placed tags
-        function draw(hoverIdx) {
-          ctx.clearRect(0, 0, W, H);
-          placed.forEach(function (p, idx) {
-            ctx.font = '600 ' + p.fs + 'px Inter, -apple-system, sans-serif';
-            var alpha = (idx === hoverIdx) ? 1.0 : 0.82;
-            ctx.fillStyle = p.color;
-            ctx.globalAlpha = alpha;
-            if (idx === hoverIdx) {
-              ctx.shadowColor = p.color;
-              ctx.shadowBlur = 12;
-            } else {
-              ctx.shadowColor = 'transparent';
-              ctx.shadowBlur = 0;
-            }
-            ctx.fillText(p.tag, p.x + 4, p.y + p.h / 2);
-          });
-          ctx.globalAlpha = 1;
-          ctx.shadowColor = 'transparent';
-          ctx.shadowBlur = 0;
-        }
+        chartEl.appendChild(svg);
+        chartRendered = true;
 
-        draw(-1);
-        cloudRendered = true;
-
-        // Hit detection for hover and click
-        function hitTest(ex, ey) {
-          var rect = canvas.getBoundingClientRect();
-          var mx = (ex - rect.left);
-          var my = (ey - rect.top);
-          for (var i = placed.length - 1; i >= 0; i--) {
-            var p = placed[i];
-            if (mx >= p.x && mx <= p.x + p.w && my >= p.y && my <= p.y + p.h) {
-              return i;
-            }
-          }
-          return -1;
-        }
-
+        // Hover interaction
         var currentHover = -1;
 
-        canvas.addEventListener('mousemove', function (e) {
-          var idx = hitTest(e.clientX, e.clientY);
-          if (idx !== currentHover) {
-            currentHover = idx;
-            draw(idx);
-            if (idx >= 0) {
-              canvas.style.cursor = 'pointer';
-              var p = placed[idx];
-              var pct = data.total_stories > 0 ? (p.count / data.total_stories * 100).toFixed(1) : '0';
-              tooltip.innerHTML = '<b>' + p.tag + '</b>: ' + p.count + ' stories (' + pct + '%)';
+        svg.addEventListener('mousemove', function (e) {
+          var svgRect = svg.getBoundingClientRect();
+          var mx = (e.clientX - svgRect.left) * (W / svgRect.width);
+          var my = (e.clientY - svgRect.top) * (H / svgRect.height);
+
+          var hitIdx = -1;
+          for (var i = bubbles.length - 1; i >= 0; i--) {
+            var b = bubbles[i];
+            var dx = mx - b.x;
+            var dy = my - b.y;
+            if (dx * dx + dy * dy <= b.r * b.r) {
+              hitIdx = i;
+              break;
+            }
+          }
+
+          if (hitIdx !== currentHover) {
+            // Reset previous
+            if (currentHover >= 0) {
+              var prev = bubbleEls[currentHover];
+              prev.circle.setAttribute('fill-opacity', '0.18');
+              prev.circle.setAttribute('stroke-width', '2');
+              prev.circle.setAttribute('stroke-opacity', '0.6');
+              prev.g.style.transform = '';
+            }
+            currentHover = hitIdx;
+
+            if (hitIdx >= 0) {
+              var el = bubbleEls[hitIdx];
+              el.circle.setAttribute('fill-opacity', '0.30');
+              el.circle.setAttribute('stroke-width', '3');
+              el.circle.setAttribute('stroke-opacity', '1');
+              svg.style.cursor = 'pointer';
+
+              var b = el.data;
+              var pct = (b.count / totalStories * 100).toFixed(1);
+              tooltip.innerHTML = '<b>' + b.tag + '</b>: ' + b.count + ' stories (' + pct + '%)';
               tooltip.style.display = 'block';
-              // Position tooltip near cursor
-              var cr = canvas.getBoundingClientRect();
-              tooltip.style.left = (e.clientX - cr.left + 12) + 'px';
-              tooltip.style.top = (e.clientY - cr.top - 30) + 'px';
+
+              var cr = chartEl.getBoundingClientRect();
+              tooltip.style.left = (e.clientX - cr.left + 14) + 'px';
+              tooltip.style.top = (e.clientY - cr.top - 32) + 'px';
             } else {
-              canvas.style.cursor = 'default';
+              svg.style.cursor = 'default';
               tooltip.style.display = 'none';
             }
-          } else if (idx >= 0) {
-            // Update tooltip position
-            var cr = canvas.getBoundingClientRect();
-            tooltip.style.left = (e.clientX - cr.left + 12) + 'px';
-            tooltip.style.top = (e.clientY - cr.top - 30) + 'px';
+          } else if (hitIdx >= 0) {
+            var cr = chartEl.getBoundingClientRect();
+            tooltip.style.left = (e.clientX - cr.left + 14) + 'px';
+            tooltip.style.top = (e.clientY - cr.top - 32) + 'px';
           }
         });
 
-        canvas.addEventListener('mouseleave', function () {
+        svg.addEventListener('mouseleave', function () {
+          if (currentHover >= 0) {
+            var prev = bubbleEls[currentHover];
+            prev.circle.setAttribute('fill-opacity', '0.18');
+            prev.circle.setAttribute('stroke-width', '2');
+            prev.circle.setAttribute('stroke-opacity', '0.6');
+            prev.g.style.transform = '';
+          }
           currentHover = -1;
-          draw(-1);
           tooltip.style.display = 'none';
-          canvas.style.cursor = 'default';
+          svg.style.cursor = 'default';
         });
 
-        // Click => trigger search for that tag
-        canvas.addEventListener('click', function (e) {
-          var idx = hitTest(e.clientX, e.clientY);
-          if (idx >= 0) {
-            var tag = placed[idx].tag;
-            var searchInput = document.getElementById('hn-search-input');
-            if (searchInput) {
-              searchInput.value = tag;
-              searchInput.dispatchEvent(new Event('input', { bubbles: true }));
-              searchInput.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        // Click => trigger search
+        svg.addEventListener('click', function (e) {
+          var svgRect = svg.getBoundingClientRect();
+          var mx = (e.clientX - svgRect.left) * (W / svgRect.width);
+          var my = (e.clientY - svgRect.top) * (H / svgRect.height);
+
+          for (var i = bubbles.length - 1; i >= 0; i--) {
+            var b = bubbles[i];
+            var dx = mx - b.x;
+            var dy = my - b.y;
+            if (dx * dx + dy * dy <= b.r * b.r) {
+              var searchInput = document.getElementById('hn-search-input');
+              if (searchInput) {
+                searchInput.value = b.tag;
+                searchInput.dispatchEvent(new Event('input', { bubbles: true }));
+                searchInput.scrollIntoView({ behavior: 'smooth', block: 'start' });
+              }
+              break;
             }
           }
         });
@@ -834,8 +957,8 @@
         window.addEventListener('resize', function () {
           clearTimeout(resizeTimer);
           resizeTimer = setTimeout(function () {
-            cloudRendered = false;
-            renderCloud();
+            chartRendered = false;
+            renderChart();
           }, 300);
         });
       });
@@ -843,13 +966,13 @@
 
     // Render immediately if not collapsed
     if (!isCollapsed) {
-      renderCloud();
+      renderChart();
     }
   }
 
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initWordCloud);
+    document.addEventListener('DOMContentLoaded', initBubbleChart);
   } else {
-    initWordCloud();
+    initBubbleChart();
   }
 })();
