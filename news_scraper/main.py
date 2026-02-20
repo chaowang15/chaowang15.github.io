@@ -2,16 +2,17 @@
 Hacker News Daily Scraper — main pipeline
 
 Modes:
-  best    — Fetch & enrich today's best stories (once daily)
+  best    — Fetch & enrich today's best stories (once daily, incremental with dedup)
   top     — Fetch & enrich today's top stories (incremental, multiple times daily)
   all     — Run both best and top sequentially
   rebuild — Rebuild all MD pages from existing JSON backups (no API, no LLM)
 
 Features:
-- Token-saving: reuse existing JSON in manual runs, force refresh in scheduled runs
+- Unified incremental dedup: both best and top modes use same-day + cross-day dedup
 - Cross-day deduplication: reuse LLM summaries from previous day's JSON for overlapping stories
-- Same-day incremental appending: for top stories, merge new items into existing today's JSON
-- 100-item cap for top stories: keep top 100 by score after merging
+- Same-day deduplication: reuse LLM summaries from today's existing JSON, update scores
+- Score refresh: all reused items get fresh score/descendants from API on every scrape
+- Per-mode item cap: best=50, top=100 (keep highest-scored after merging)
 - Comprehensive logging for GitHub Actions debugging
 - Fallback model support for both enrichment and tag generation
 - Content cleaning and robust JSON parsing
@@ -37,6 +38,7 @@ from tag_generator import tag_json_file
 
 
 TOP_STORIES_MAX = 100  # Maximum number of top stories to keep per day
+BEST_STORIES_MAX = 50   # Maximum number of best stories to keep per day
 
 
 def utc_now() -> datetime:
@@ -334,16 +336,12 @@ def run_scrape(mode: str, cfg: dict):
     """
     Run the scraping pipeline for a given mode ('best' or 'top').
 
-    For 'best' mode:
-      - Scheduled runs: force refresh (re-fetch all, overwrite JSON)
-      - Manual runs: reuse existing JSON if available
-      - Cross-day dedup: reuse LLM summaries from previous day
-
-    For 'top' mode:
-      - Incremental: merge new items into today's existing JSON
-      - Same-day dedup: skip items already in today's JSON (update score only)
-      - Cross-day dedup: for truly new items, check previous day's JSON too
-      - 100-item cap: after merging, keep top 100 by score
+    Both modes use the same unified incremental pipeline:
+      - Same-day dedup: reuse LLM summaries from today's existing JSON (update scores)
+      - Cross-day dedup: reuse LLM summaries from previous day's JSON
+      - Merge: combine new items with existing same-day items not in current fetch
+      - Cap: best=50, top=100 (keep highest-scored after merging)
+      - Sort: all items sorted by score descending
     """
     t_start = time.time()
 
@@ -373,7 +371,6 @@ def run_scrape(mode: str, cfg: dict):
     out_path = os.path.join(out_dir, filename)
 
     llm_cfg = cfg.get("llm", {})
-    llm_enabled = bool(llm_cfg.get("enabled", False))
     llm_model = llm_cfg.get("model", "gpt-5-nano")
     llm_fallback = llm_cfg.get("fallback_model", "gpt-5-mini")
     tag_model = llm_cfg.get("tag_model", "gpt-5-nano")
@@ -395,9 +392,8 @@ def run_scrape(mode: str, cfg: dict):
     event_name = os.getenv("GITHUB_EVENT_NAME", "")
     is_scheduled = (event_name == "schedule")
 
-    # For best mode: schedule => force refresh; manual => reuse if exists
-    # For top mode: always incremental (merge new items into existing JSON)
-    is_top_mode = (mode == "top")
+    # Both modes use the same unified incremental pipeline
+    stories_max = TOP_STORIES_MAX if mode == "top" else BEST_STORIES_MAX
 
     print("=" * 70)
     print(f"[PIPELINE] Hacker News Daily Scraper — mode={mode}")
@@ -408,57 +404,11 @@ def run_scrape(mode: str, cfg: dict):
     print(f"[PIPELINE] llm_model={llm_model} | fallback={llm_fallback}")
     print(f"[PIPELINE] tag_model={tag_model} | tag_fallback={tag_fallback}")
     print(f"[PIPELINE] max_retries={max_retries}")
-    if is_top_mode:
-        print(f"[PIPELINE] top_stories_max={TOP_STORIES_MAX} | incremental=True")
+    print(f"[PIPELINE] stories_max={stories_max} | incremental=True")
     print("=" * 70)
 
-    # ---------- SKIP path: for best mode only, reuse existing JSON ----------
-    if not is_top_mode and json_exists and not is_scheduled:
-        print(f"[SKIP] Reusing existing JSON (no LLM). json={json_path}")
-        backup = read_backup_json(json_path)
-        items_for_render = backup["items"]
-
-        # Still ensure tags exist
-        try:
-            tag_json_file(
-                json_path,
-                model=tag_model,
-                fallback_model=tag_fallback,
-                max_retries=max_retries,
-            )
-            # Re-read after tagging
-            backup = read_backup_json(json_path)
-            items_for_render = backup["items"]
-        except Exception as e:
-            print(f"[SKIP][WARN] Tag generation failed: {e}")
-
-        page_title = f"Hacker News — {mode_label} ({content_dt.strftime('%Y-%m-%d')})"
-        page_subtitle = f"Scraped at {backup['meta'].get('scrape_time_display', scrape_time_str)}"
-
-        md = render_markdown(
-            items_for_render,
-            page_title=page_title,
-            page_subtitle=page_subtitle,
-            html_title=page_title,
-        )
-        md = _clean_hn_markdown(md)
-
-        with open(out_path, "w", encoding="utf-8") as f:
-            f.write(md)
-
-        has_tags = sum(1 for it in items_for_render if it.get("tags"))
-        print(f"[SKIP] Done. Rendered {len(items_for_render)} items ({has_tags} with tags). json={json_path}")
-        elapsed = time.time() - t_start
-        print(f"[SKIP] mode={mode} completed in {elapsed:.1f}s")
-        return
-
-    # For best mode scheduled runs, force LLM
-    if not is_top_mode and is_scheduled:
-        llm_enabled = True
-
-    # For top mode, always enable LLM for new items
-    if is_top_mode:
-        llm_enabled = True
+    # LLM is always enabled for new items
+    llm_enabled = True
 
     # ========== STEP 1: Fetch story IDs ==========
     print(f"\n[STEP 1/6] Fetching top {count} {mode} story IDs from HN API ...")
@@ -508,10 +458,8 @@ def run_scrape(mode: str, cfg: dict):
     print(f"\n[STEP 3/6] Deduplication ...")
     t0 = time.time()
 
-    # For top mode: load same-day existing items first
-    same_day_map = {}
-    if is_top_mode:
-        same_day_map = _load_same_day_items(json_path)
+    # Load same-day existing items for incremental dedup (both modes)
+    same_day_map = _load_same_day_items(json_path)
 
     # Load previous day items for cross-day dedup
     prev_items = _load_previous_day_items(base_dir, content_dt, mode)
@@ -520,14 +468,14 @@ def run_scrape(mode: str, cfg: dict):
     reused_cross_day = 0
     new_items_for_llm = []
     reused_map = {}  # id -> prev_item (items that can skip LLM)
-    score_update_map = {}  # id -> updated score/descendants for same-day items
+    score_update_map = {}  # id -> updated score/descendants for reused items
 
     for it in raw_items:
         hn_id = it["id"]
         title_en = it["title_en"]
 
-        # Priority 1: Check same-day existing items (top mode incremental)
-        if is_top_mode and hn_id in same_day_map:
+        # Priority 1: Check same-day existing items (incremental dedup)
+        if hn_id in same_day_map:
             prev = same_day_map[hn_id]
             if _is_same_story(prev, title_en):
                 has_summary = (
@@ -697,30 +645,25 @@ def run_scrape(mode: str, cfg: dict):
 
     print(f"[STEP 5/6] Images: {img_found}/{len(new_final_items)} found in {time.time() - t0:.1f}s")
 
-    # ---------- For top mode: merge with existing same-day items ----------
-    if is_top_mode and same_day_map:
-        # Start with existing items that are NOT in the new fetch
+    # ---------- Merge with existing same-day items (both modes) ----------
+    if same_day_map:
+        # Carry over existing items that are NOT in the new fetch
         new_ids = {it["hn"]["id"] for it in new_final_items}
         carried_over = []
         for hn_id, existing_item in same_day_map.items():
             if hn_id not in new_ids:
                 carried_over.append(existing_item)
 
-        all_items = new_final_items + carried_over
-        print(f"[INCREMENTAL] Merged: {len(new_final_items)} from this run + {len(carried_over)} carried over = {len(all_items)} total")
-
-        # Sort by score descending and cap at TOP_STORIES_MAX
-        all_items.sort(key=lambda x: (x.get("hn", {}).get("score") or 0), reverse=True)
-        if len(all_items) > TOP_STORIES_MAX:
-            print(f"[INCREMENTAL] Capping from {len(all_items)} to {TOP_STORIES_MAX} items (by score)")
-            all_items = all_items[:TOP_STORIES_MAX]
-
-        final_items = all_items
+        final_items = new_final_items + carried_over
+        print(f"[INCREMENTAL] Merged: {len(new_final_items)} from this run + {len(carried_over)} carried over = {len(final_items)} total")
     else:
         final_items = new_final_items
 
-    # ---------- Sort ALL items by score descending ----------
+    # ---------- Sort by score descending and cap at stories_max ----------
     final_items.sort(key=lambda x: (x.get("hn", {}).get("score") or 0), reverse=True)
+    if len(final_items) > stories_max:
+        print(f"[CAP] Capping from {len(final_items)} to {stories_max} items (by score)")
+        final_items = final_items[:stories_max]
     print(f"[SORT] Sorted {len(final_items)} items by score (top: {final_items[0].get('hn',{}).get('score') if final_items else 'N/A'})")
 
     # ---------- Build meta ----------
@@ -741,9 +684,8 @@ def run_scrape(mode: str, cfg: dict):
         "run_time_utc": now_utc.strftime("%Y-%m-%d %H:%M:%S UTC"),
     }
 
-    if is_top_mode:
-        meta["incremental"] = True
-        meta["top_stories_max"] = TOP_STORIES_MAX
+    meta["incremental"] = True
+    meta["stories_max"] = stories_max
 
     write_backup_json(json_path, meta=meta, items=final_items)
     print(f"\n[JSON] Saved backup: {json_path} ({len(final_items)} items, same_day_reused={reused_same_day}, cross_day_reused={reused_cross_day})")
