@@ -981,7 +981,7 @@
 // ===== Tag Stream Chart (Index page only) =====
 (function () {
   function initStreamChart() {
-    var container = document.getElementById('hn-stream-chart');
+    var container = document.getElementById('hn-stream-section');
     if (!container) return;
 
     var chartEl = document.getElementById('hn-stream-svg-wrap');
