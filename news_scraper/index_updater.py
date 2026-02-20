@@ -1,9 +1,10 @@
 import os
 import re
 import json
+from collections import Counter
 from dataclasses import dataclass, field
 from datetime import datetime
-from typing import List, Optional, Dict
+from typing import List, Optional, Dict, Tuple
 
 BEST_JSON_RE = re.compile(r"^best_stories_(\d{8})\.json$")   # MMDDYYYY
 TOP_JSON_RE = re.compile(r"^top_stories_(\d{8})\.json$")     # MMDDYYYY
@@ -17,7 +18,8 @@ class StoryEntry:
     rel_url: str               # /hackernews/YYYY/MM/DD/best_stories_MMDDYYYY
     story_type: str            # "best" or "top"
     count_written: Optional[int] = None
-    top_title: Optional[str] = None
+    top_tags: List[Tuple[str, int]] = field(default_factory=list)
+    # e.g. [("AI", 10), ("Programming", 8)]
 
 
 @dataclass
@@ -41,6 +43,18 @@ def _read_json(path: str) -> Optional[dict]:
             return json.load(f)
     except Exception:
         return None
+
+
+def _extract_top_tags(items: list, n: int = 2) -> List[Tuple[str, int]]:
+    """Extract the top-N most frequent tags from a list of story items."""
+    tag_counter: Counter = Counter()
+    for item in items:
+        tags = item.get("tags", [])
+        if isinstance(tags, list):
+            for tag in tags:
+                if isinstance(tag, str) and tag.strip():
+                    tag_counter[tag.strip()] += 1
+    return tag_counter.most_common(n)
 
 
 def _collect_day_entries(base_dir: str) -> List[DayEntry]:
@@ -85,22 +99,10 @@ def _collect_day_entries(base_dir: str) -> List[DayEntry]:
                 continue
 
             # Always use actual item count from JSON (not meta.count_written)
-            # This ensures the index reflects the real number of rendered stories
             count_written = len(items)
 
-            # Find the highest-scored story for the "Top:" display
-            top_title = None
-            if items:
-                best_item = max(
-                    items,
-                    key=lambda x: (x.get("hn", {}).get("score") or 0),
-                    default=None,
-                )
-                if best_item:
-                    top_title = best_item.get("title_en", None)
-                # Fallback to first item if no scores available
-                if not top_title:
-                    top_title = items[0].get("title_en", None)
+            # Extract top 2 most frequent tags
+            top_tags = _extract_top_tags(items, n=2)
 
             rel_no_ext = fn[:-5]  # strip .json
             rel_url = f"/{base_dir}/{rel_dir}/{rel_no_ext}".replace("//", "/")
@@ -109,7 +111,7 @@ def _collect_day_entries(base_dir: str) -> List[DayEntry]:
                 rel_url=rel_url,
                 story_type=story_type,
                 count_written=count_written,
-                top_title=top_title,
+                top_tags=top_tags,
             )
 
             if content_date not in day_map:
@@ -194,6 +196,30 @@ def _compute_stats(days: List[DayEntry]) -> dict:
     }
 
 
+def _build_detail_html(entry: StoryEntry) -> str:
+    """
+    Build the detail text for a story row.
+    Format: All N · Tag1 X · Tag2 Y
+    Uses plain text style with bold numbers matching the stats bar.
+    """
+    parts = []
+
+    # "All N"
+    count = entry.count_written
+    if count is not None:
+        parts.append(f"All <b>{count}</b>")
+
+    # Top tags: "AI 10 · Programming 8"
+    for tag_name, tag_count in entry.top_tags:
+        parts.append(f"{tag_name} <b>{tag_count}</b>")
+
+    if not parts:
+        return ""
+
+    sep = ' <span class="hn-row-sep">·</span> '
+    return sep.join(parts)
+
+
 def update_hackernews_index(
     base_dir: str = "hackernews",
     index_path: str = "hackernews/index.md",
@@ -234,35 +260,20 @@ def update_hackernews_index(
     else:
         lines.append("<div class='hn-grid'>")
         for day in days:
-            # Each day gets a date row with story links
             lines.append("<div class='hn-day-row'>")
-
-            # Date label on the left
             lines.append(f"<div class='hn-day-date'>{day.content_date}</div>")
-
-            # Story links on the right
             lines.append("<div class='hn-day-stories'>")
+
             for s in day.stories:
                 type_label = "Best Stories" if s.story_type == "best" else "Top Stories"
                 type_class = "hn-type-best" if s.story_type == "best" else "hn-type-top"
 
-                # Build detail parts as separate spans for better mobile layout
-                count_text = f"{s.count_written} stories" if s.count_written is not None else ""
-                top_text = ""
-                if s.top_title:
-                    top_text = f"Top: {s.top_title}"
+                detail_html = _build_detail_html(s)
 
                 lines.append(f"<a class='hn-story-link' href='{s.rel_url}'>")
                 lines.append(f"<span class='hn-row-type {type_class}'>{type_label}</span>")
-                if count_text or top_text:
-                    lines.append("<span class='hn-row-detail'>")
-                    if count_text:
-                        lines.append(f"<span class='hn-row-count'>{count_text}</span>")
-                    if count_text and top_text:
-                        lines.append("<span class='hn-row-sep'> · </span>")
-                    if top_text:
-                        lines.append(f"<span class='hn-row-top'>{top_text}</span>")
-                    lines.append("</span>")
+                if detail_html:
+                    lines.append(f"<span class='hn-row-detail'>{detail_html}</span>")
                 lines.append("</a>")
 
             lines.append("</div>")  # hn-day-stories

@@ -13,11 +13,7 @@ title: "Hacker News Daily"
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/02/19/top_stories_02192026'>
 <span class='hn-row-type hn-type-top'>Top Stories</span>
-<span class='hn-row-detail'>
-<span class='hn-row-count'>49 stories</span>
-<span class='hn-row-sep'> · </span>
-<span class='hn-row-top'>Top: Sizing chaos</span>
-</span>
+<span class='hn-row-detail'>All <b>49</b> <span class="hn-row-sep">·</span> Programming <b>15</b> <span class="hn-row-sep">·</span> AI <b>7</b></span>
 </a>
 </div>
 </div>
@@ -26,19 +22,11 @@ title: "Hacker News Daily"
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/02/18/best_stories_02182026'>
 <span class='hn-row-type hn-type-best'>Best Stories</span>
-<span class='hn-row-detail'>
-<span class='hn-row-count'>50 stories</span>
-<span class='hn-row-sep'> · </span>
-<span class='hn-row-top'>Top: Claude Sonnet 4.6</span>
-</span>
+<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>10</b> <span class="hn-row-sep">·</span> Web <b>8</b></span>
 </a>
 <a class='hn-story-link' href='/hackernews/2026/02/18/top_stories_02182026'>
 <span class='hn-row-type hn-type-top'>Top Stories</span>
-<span class='hn-row-detail'>
-<span class='hn-row-count'>52 stories</span>
-<span class='hn-row-sep'> · </span>
-<span class='hn-row-top'>Top: Sizing chaos</span>
-</span>
+<span class='hn-row-detail'>All <b>52</b> <span class="hn-row-sep">·</span> Programming <b>15</b> <span class="hn-row-sep">·</span> AI <b>8</b></span>
 </a>
 </div>
 </div>
@@ -47,11 +35,7 @@ title: "Hacker News Daily"
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/02/17/best_stories_02172026'>
 <span class='hn-row-type hn-type-best'>Best Stories</span>
-<span class='hn-row-detail'>
-<span class='hn-row-count'>50 stories</span>
-<span class='hn-row-sep'> · </span>
-<span class='hn-row-top'>Top: Claude Sonnet 4.6</span>
-</span>
+<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> Privacy <b>10</b> <span class="hn-row-sep">·</span> AI <b>9</b></span>
 </a>
 </div>
 </div>
@@ -60,11 +44,7 @@ title: "Hacker News Daily"
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/02/16/best_stories_02162026'>
 <span class='hn-row-type hn-type-best'>Best Stories</span>
-<span class='hn-row-detail'>
-<span class='hn-row-count'>50 stories</span>
-<span class='hn-row-sep'> · </span>
-<span class='hn-row-top'>Top: I want to wash my car. The car wash is 50 meters away. Should I walk or drive?</span>
-</span>
+<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>50</b> <span class="hn-row-sep">·</span> Open Source <b>7</b></span>
 </a>
 </div>
 </div>

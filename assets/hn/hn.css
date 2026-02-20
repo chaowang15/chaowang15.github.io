@@ -370,22 +370,19 @@ body {
     font-size: 0.85em;
     color: var(--hn-muted);
     line-height: 1.35;
+    white-space: nowrap;
     min-width: 0;
     overflow: hidden;
+    text-overflow: ellipsis;
 }
 
-.hn-row-count {
-    white-space: nowrap;
+.hn-row-detail b {
+    color: var(--hn-fg);
 }
 
 .hn-row-sep {
-    white-space: nowrap;
-}
-
-.hn-row-top {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    opacity: 0.5;
+    margin: 0 1px;
 }
 
 /* Mobile: stack date and stories vertically */
@@ -405,15 +402,6 @@ body {
     }
     .hn-row-detail {
         font-size: 0.82em;
-        display: flex;
-        align-items: baseline;
-        max-width: 100%;
-    }
-    .hn-row-top {
-        flex: 1;
-        min-width: 0;
-        overflow: hidden;
-        text-overflow: ellipsis;
     }
 }
 
