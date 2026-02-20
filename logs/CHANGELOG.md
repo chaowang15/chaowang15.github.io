@@ -285,3 +285,44 @@
 - **新增**: `news_scraper/weekly_digest.py`, `.github/workflows/hn_weekly.yml`（需手动添加）
 - **修改**: `news_scraper/index_updater.py`, `assets/hn/hn.css`, `_layouts/hn.html`（缓存版本号更新）
 - **生成**: `hackernews/weekly/2026-W08.md`, `hackernews/weekly/2026-W08.json`（首期测试数据）
+
+
+---
+
+## 2026年2月20日 (可视化重构和中英文切换)
+
+本次更新包含两大模块：将主页的词云和流图重构为独立页面，以及在新闻页面新增中英文切换功能。
+
+### 可视化重构 (Visualization Refactor)
+
+为了解决主页加载性能问题，将原先嵌入主页的 **气泡图 (Bubble Chart)** 和 **流图 (Streamgraph)** 进行了重构。
+
+- **流图 (Streamgraph) 已删除**: 
+  - 为了极致的性能，暂时移除了流图功能。
+  - 所有相关代码（JS ~390行、CSS ~120行）和 `tag_trend_builder.py` 已被完全删除。
+
+- **气泡图 (Bubble Chart) 移至独立页面**:
+  - 创建了独立的 `/hackernews/trends/` 页面，专门用于展示气泡图。
+  - 主页 `/hackernews/` 不再加载任何与气泡图相关的 JS 或 CSS，恢复轻量。
+  - 在主页的统计信息栏末尾新增了一个胶囊形的 **"Trends"** 链接，点击后跳转到该独立页面。
+  - 气泡图本身的代码也进行了简化，移除了在主页上才需要的折叠/展开逻辑。
+
+- **代码清理**: 
+  - 总计删除了约 535 行不再需要的 JS 和 CSS 代码。
+  - `main.py` 中移除了对 `tag_trend_builder` 的调用。
+
+### 中英文切换功能 (Language Toggle)
+
+在每个新闻页面（如 `/hackernews/2026/02/19/`）的副标题行（抓取时间同一行）最右侧新增了一个 **三段式滑动切换器 (Segmented Control)**，允许用户在三种语言模式间切换：
+
+- **EN**: 只显示英文摘要。
+- **双** (默认): 同时显示英文和中文摘要。
+- **中**: 只显示中文标题和中文摘要。
+
+**交互特性**:
+- **滑块动画**: 点击切换时，蓝色高亮滑块会平滑移动到目标位置。
+- **状态记忆**: 用户的语言偏好会通过 `localStorage` 记住，在不同页面和会话间保持一致。
+- **纯 CSS 控制**: 通过在 `.hn-list` 容器上切换 `hn-lang-en`/`hn-lang-bi`/`hn-lang-zh` class 来控制内容的显隐，性能极高。
+- **自动检测**: 切换器只在新闻页面上动态创建和显示，主页和 Trends 页面不受影响。
+
+**修改文件**: `assets/hn/hn.js`, `assets/hn/hn.css`, `_layouts/hn.html`, `news_scraper/index_updater.py`, `news_scraper/main.py`
