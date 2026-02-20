@@ -169,8 +169,6 @@
   function initTagFilter() {
     const list = document.querySelector(".hn-list");
     if (!list) return; // not a story page (e.g. index)
-    // Skip tag filter on Weekly Digest pages (already has tag stats at top)
-    if (document.querySelector(".hn-mode-weekly")) return;
 
     const cards = Array.from(list.querySelectorAll(".hn-card[data-tags]"));
     if (!cards.length) return;

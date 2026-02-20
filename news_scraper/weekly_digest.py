@@ -248,18 +248,7 @@ def render_weekly_digest(
         lines.append(nav_html)
 
     # Subtitle with stats
-    lines.append(f"<p class='hn-subtitle'>{date_range} · Top <b>{top_n}</b> from <b>{total_pool}</b> unique stories</p>")
-
-    # Tag summary bar (top 5 tags)
-    if tag_stats:
-        top_tags = tag_stats[:8]
-        tag_parts = []
-        for tag_name, tag_count in top_tags:
-            color = TAG_COLOR_MAP.get(tag_name, "slate")
-            tag_parts.append(
-                f"<span class='hn-tag hn-tag--{color}'>{tag_name} <b>{tag_count}</b></span>"
-            )
-        lines.append(f"<div class='hn-weekly-tags'>{' '.join(tag_parts)}</div>")
+    lines.append(f"<p class='hn-subtitle'>{date_range} · <b>{total_pool}</b> unique stories</p>")
 
     lines.append("<hr class='hn-rule'/>")
     lines.append("<div class='hn-list'>")
@@ -268,17 +257,9 @@ def render_weekly_digest(
         title_en = item.get("title_en", "")
         url = item.get("url", "")
         title_zh = item.get("title_zh", "")
-        summary_en = item.get("summary_en", "")
-        summary_zh = item.get("summary_zh", "")
-        image_url = item.get("image_url")
         tags = item.get("tags", [])
         hn = item.get("hn", {}) or {}
         score = hn.get("score", 0)
-        by = hn.get("by", "")
-        descendants = hn.get("descendants", 0)
-        comments_url = hn.get("comments_url", "")
-        created_display = item.get("created_display", "")
-        content_date = item.get("_date", "")
         page_url = item.get("_page_url", "")
         anchor = item.get("_anchor", "")
 
@@ -286,54 +267,24 @@ def render_weekly_digest(
         hn_id = hn.get("id", "")
         id_attr = f" id='story-{hn_id}'" if hn_id else ""
 
-        lines.append(f"<div class='hn-card'{id_attr} data-tags='{tags_data}'>")
+        lines.append(f"<div class='hn-card hn-card-compact'{id_attr} data-tags='{tags_data}'>")
         lines.append("<div class='hn-body'>")
 
+        # Title row with score badge
+        score_badge = f"<span class='hn-compact-score'>{score}</span> " if score else ""
         lines.append(
-            f"<p class='hn-title'>({i}) "
+            f"<p class='hn-title'>{score_badge}"
             f"<a href='{url}' target='_blank' rel='noopener noreferrer'>{title_en}</a>"
             f"</p>"
         )
 
         if title_zh:
-            lines.append(f"<p class='hn-meta'>{title_zh}</p>")
+            lines.append(f"<p class='hn-meta hn-text-zh'>{title_zh}</p>")
 
-        # Meta row
-        parts = []
-        if created_display:
-            parts.append(f"<span class='hn-meta2-created'>{created_display}</span>")
-        if score and by:
-            parts.append(f"<span class='hn-meta2-points'>{score} points by {by}</span>")
-        if comments_url:
-            if descendants:
-                parts.append(
-                    f"<a class='hn-meta2-comments' href='{comments_url}' "
-                    f"target='_blank' rel='noopener noreferrer'>Comments ({descendants})</a>"
-                )
-            else:
-                parts.append(
-                    f"<a class='hn-meta2-comments' href='{comments_url}' "
-                    f"target='_blank' rel='noopener noreferrer'>Comments</a>"
-                )
-        if parts:
-            lines.append("<p class='hn-meta2'>" + "<span class='hn-sep'> · </span>".join(parts) + "</p>")
-
-        # Tags
+        # Tags (inline, compact)
         if tags:
             tags_html = " ".join(_tag_html(t) for t in tags)
             lines.append(f"<div class='hn-tags'>{tags_html}</div>")
-
-        # Image
-        if image_url:
-            lines.append(
-                f"<img class='hn-img' src='{image_url}' data-full='{image_url}' "
-                f"alt='preview image' loading='lazy'/>"
-            )
-
-        if summary_en:
-            lines.append(f"<p class='hn-text-en'>{summary_en}</p>")
-        if summary_zh:
-            lines.append(f"<p class='hn-text-zh'>{summary_zh}</p>")
 
         # "View in daily page" link
         if page_url and anchor:
@@ -426,11 +377,10 @@ def generate_weekly_digest(
         print(f"[WEEKLY] No stories found for {iso_week}. Skipping.")
         return None
 
-    # Take top N by score
-    top_stories = all_stories[:top_n]
-    print(f"[WEEKLY] Selected top {len(top_stories)} stories (by score)")
+    # Use all stories (sorted by score) for the weekly overview
+    print(f"[WEEKLY] Including all {total_pool} stories (sorted by score)")
 
-    # Compute tag stats from ALL stories (not just top N)
+    # Compute tag stats from all stories
     tag_stats = compute_tag_stats(all_stories)
     print(f"[WEEKLY] Tag distribution: {', '.join(f'{t}={c}' for t, c in tag_stats[:10])}")
 
@@ -439,11 +389,11 @@ def generate_weekly_digest(
 
     # Save JSON backup
     json_path = os.path.join(weekly_dir, f"{iso_week}.json")
-    save_digest_json(top_stories, iso_week, monday, sunday, total_pool, tag_stats, json_path)
+    save_digest_json(all_stories, iso_week, monday, sunday, total_pool, tag_stats, json_path)
 
     # Render markdown
     md = render_weekly_digest(
-        stories=top_stories,
+        stories=all_stories,
         iso_week=iso_week,
         monday=monday,
         sunday=sunday,
@@ -463,7 +413,7 @@ def generate_weekly_digest(
         f.write(md)
 
     print(f"[WEEKLY] MD saved: {md_path}")
-    print(f"[WEEKLY] Done: {iso_week} — {len(top_stories)} stories from {total_pool} pool")
+    print(f"[WEEKLY] Done: {iso_week} — {total_pool} stories")
 
     return md_path
 
