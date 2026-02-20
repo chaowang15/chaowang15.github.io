@@ -350,14 +350,17 @@ def run_scrape(mode: str, cfg: dict):
     # Real run time (used in subtitle "Scraped at ...")
     run_dt = now_in_tz(tz_name)
 
-    # Content date = previous day (used in path/file/title)
-    content_dt = run_dt - timedelta(days=1)
+    # Content date: best stories = previous day, top stories = today
+    if mode == "best":
+        content_dt = run_dt - timedelta(days=1)
+    else:
+        content_dt = run_dt
 
     tz_abbr = run_dt.tzname() or "PT"
     scrape_time_str = f"{fmt(run_dt, cfg['format']['datetime_format'])} ({tz_abbr})"
 
     base_dir = cfg["output"]["base_dir"]  # hackernews
-    date_dir = fmt(content_dt, cfg["format"]["date_dir_format"])  # YYYY/MM/DD (previous day)
+    date_dir = fmt(content_dt, cfg["format"]["date_dir_format"])  # YYYY/MM/DD
     out_dir = os.path.join(base_dir, date_dir)
     ensure_dir(out_dir)
 
