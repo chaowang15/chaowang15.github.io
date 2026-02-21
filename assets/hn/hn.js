@@ -1044,7 +1044,7 @@
       try { data = JSON.parse(xhr.responseText); } catch (e) { return; }
       if (!data || !data.tags || !data.series || data.series.length < 2) return;
 
-      var tags = data.tags;
+      var tags = data.tags.filter(function (t) { return t !== 'Other'; });
       var series = data.series;
       var dates = series.map(function (s) { return s.date; });
 

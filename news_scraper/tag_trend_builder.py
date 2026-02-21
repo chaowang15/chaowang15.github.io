@@ -15,8 +15,8 @@ from typing import Dict, List
 
 JSON_RE = re.compile(r"^(best|top)_stories_(\d{8})\.json$")
 
-# Top N tags to include in the stream chart (rest grouped as "Other")
-TOP_N_TAGS = 10
+# Top N tags to include in the stream chart (no "Other" bucket)
+TOP_N_TAGS = 20
 
 
 def build_tag_trend(
@@ -100,14 +100,10 @@ def build_tag_trend(
         for tag in top_tags:
             entry[tag] = day_counter.get(tag, 0)
 
-        # "Other" = sum of tags not in top_n
-        other = sum(c for t, c in day_counter.items() if t not in top_tags)
-        entry["Other"] = other
-
         series.append(entry)
 
     output = {
-        "tags": top_tags + ["Other"],
+        "tags": top_tags,
         "series": series,
     }
 
@@ -117,7 +113,7 @@ def build_tag_trend(
 
     size_kb = os.path.getsize(output_path) / 1024
     print(
-        f"[TAG TREND] Written {len(sorted_dates)} days × {len(top_tags)+1} tags "
+        f"[TAG TREND] Written {len(sorted_dates)} days × {len(top_tags)} tags "
         f"to {output_path} ({size_kb:.1f} KB)"
     )
     return len(sorted_dates)
