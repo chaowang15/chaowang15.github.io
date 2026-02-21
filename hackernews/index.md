@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 
 <h1 class='hn-h1'>Hacker News Daily</h1>
-<p class='hn-subtitle'><b>Daily Best &amp; Trending</b> · Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
+<p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
 <div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>5</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>415</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>4</span> best files</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>3</span> top files</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-02-20</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
@@ -84,12 +84,12 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/weekly/2026-W08'>
 <span class='hn-row-type hn-type-weekly'>Week 08</span>
-<span class='hn-row-detail'>2026-02-16 — 2026-02-22 <span class="hn-row-sep">·</span> Top <b>171</b> from <b>171</b> stories <span class="hn-row-sep">·</span> Programming <b>35</b> <span class="hn-row-sep">·</span> AI <b>34</b></span>
+<span class='hn-row-detail'>2026-02-16 — 2026-02-22 <span class="hn-row-sep">·</span> Top <b>222</b> from <b>222</b> stories <span class="hn-row-sep">·</span> AI <b>51</b> <span class="hn-row-sep">·</span> Programming <b>45</b></span>
 </a>
 </div>
 </div>
 <div class='hn-index-section hn-daily-section'>
-<h3 class='hn-section-title'>Daily Archive</h3>
+<h3 class='hn-section-title'>Daily News</h3>
 <div class='hn-grid'>
 <div class='hn-day-row'>
 <div class='hn-day-date'>2026-02-20</div>

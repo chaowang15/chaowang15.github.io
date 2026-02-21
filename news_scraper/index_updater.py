@@ -343,7 +343,7 @@ def update_hackernews_index(
 
     lines.append("<h1 class='hn-h1'>Hacker News Daily</h1>")
     source_link = "<a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a>"
-    lines.append(f"<p class='hn-subtitle'><b>Daily Best &amp; Trending</b> · Source: {source_link}</p>")
+    lines.append(f"<p class='hn-subtitle'>Source: {source_link}</p>")
 
     # Statistics bar
     if stats["total_days"] > 0:
@@ -442,7 +442,7 @@ def update_hackernews_index(
         lines.append("<p class='hn-hint'>No files found yet. Run the workflow once to generate the first file.</p>")
     else:
         lines.append("<div class='hn-index-section hn-daily-section'>")
-        lines.append("<h3 class='hn-section-title'>Daily Archive</h3>")
+        lines.append("<h3 class='hn-section-title'>Daily News</h3>")
         lines.append("<div class='hn-grid'>")
         for day in days:
             lines.append("<div class='hn-day-row'>")
