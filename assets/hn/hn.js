@@ -198,6 +198,13 @@
   function initImgGuards() {
     var imgs = document.querySelectorAll("img.hn-img");
     imgs.forEach(function (img) {
+      // Pre-check: immediately hide images whose URL is clearly a placeholder
+      // (no need to wait for load/error events)
+      if (isBlankUrl(img.getAttribute("src") || "")) {
+        markNoImage(img, "blank-url");
+        return;
+      }
+
       img.addEventListener("error", function () { markNoImage(img, "error"); }, { once: true });
       img.addEventListener("load", function () { checkImageQuality(img); }, { once: true });
 
