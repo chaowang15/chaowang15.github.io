@@ -379,7 +379,7 @@ def update_hackernews_index(
     top_stories = _get_top_stories(base_dir, all_days, n=5)
     if top_stories:
         lines.append("<div class='hn-index-section hn-top-stories-section'>")
-        lines.append("<h3 class='hn-section-title'>Today's Top Stories</h3>")
+        lines.append("<h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>")
         lines.append("<div class='hn-top-stories-list'>")
         for i, story in enumerate(top_stories, 1):
             score = story['score']
@@ -428,7 +428,7 @@ def update_hackernews_index(
     weekly_entries = _collect_weekly_entries(base_dir)
     if weekly_entries:
         lines.append("<div class='hn-index-section hn-weekly-section'>")
-        lines.append("<h3 class='hn-section-title'>Weekly Digest</h3>")
+        lines.append("<h3 class='hn-section-title'>Weekly Digest <span class='hn-section-zh'>每周热点</span></h3>")
         lines.append("<div class='hn-day-stories'>")
         for w in weekly_entries:
             lines.append(f"<a class='hn-story-link' href='{w['url']}'>")
@@ -442,7 +442,7 @@ def update_hackernews_index(
         lines.append("<p class='hn-hint'>No files found yet. Run the workflow once to generate the first file.</p>")
     else:
         lines.append("<div class='hn-index-section hn-daily-section'>")
-        lines.append("<h3 class='hn-section-title'>Daily News</h3>")
+        lines.append("<h3 class='hn-section-title'>Daily News <span class='hn-section-zh'>每日新闻</span></h3>")
         lines.append("<div class='hn-grid'>")
         for day in days:
             lines.append("<div class='hn-day-row'>")

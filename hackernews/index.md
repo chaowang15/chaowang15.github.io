@@ -18,7 +18,7 @@ Sort:
 <div id='hn-search-results' class='hn-search-results' style='display:none;'></div>
 <button id='hn-search-more' class='hn-search-more' style='display:none;'>Show more results</button>
 <div class='hn-index-section hn-top-stories-section'>
-<h3 class='hn-section-title'>Today's Top Stories</h3>
+<h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
 <div class='hn-top-story-item'>
 <span class='hn-top-story-rank'>1</span>
@@ -79,7 +79,7 @@ Sort:
 </div>
 </div>
 <div class='hn-index-section hn-weekly-section'>
-<h3 class='hn-section-title'>Weekly Digest</h3>
+<h3 class='hn-section-title'>Weekly Digest <span class='hn-section-zh'>每周热点</span></h3>
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/weekly/2026-W08'>
 <span class='hn-row-type hn-type-weekly'>Week 08</span>
@@ -88,7 +88,7 @@ Sort:
 </div>
 </div>
 <div class='hn-index-section hn-daily-section'>
-<h3 class='hn-section-title'>Daily News</h3>
+<h3 class='hn-section-title'>Daily News <span class='hn-section-zh'>每日新闻</span></h3>
 <div class='hn-grid'>
 <div class='hn-day-row'>
 <div class='hn-day-date'>2026-02-21</div>
