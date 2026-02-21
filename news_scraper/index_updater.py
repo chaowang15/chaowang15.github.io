@@ -221,6 +221,43 @@ def _build_detail_html(entry: StoryEntry) -> str:
     return sep.join(parts)
 
 
+def _get_top_stories(base_dir: str, days: List[DayEntry], n: int = 5) -> List[dict]:
+    """
+    Get the top N stories (by score) from the latest Trending (top) JSON.
+    Falls back to the latest Best JSON if no top JSON is found.
+    Returns a list of dicts with title_en, title_zh, url, score, descendants, tags.
+    """
+    # Find the latest day that has a 'top' story entry
+    for day in days:
+        for s in day.stories:
+            if s.story_type == "top":
+                # Reconstruct JSON path from rel_url
+                # rel_url looks like: /hackernews/2026/02/20/top_stories_02202026
+                json_path = s.rel_url.lstrip("/") + ".json"
+                if not os.path.exists(json_path):
+                    continue
+                data = _read_json(json_path)
+                if not data:
+                    continue
+                items = data.get("items", []) or []
+                # Sort by score descending
+                items.sort(key=lambda x: x.get("hn", {}).get("score", 0), reverse=True)
+                result = []
+                for it in items[:n]:
+                    hn = it.get("hn", {}) or {}
+                    result.append({
+                        "title_en": it.get("title_en", ""),
+                        "title_zh": it.get("title_zh", ""),
+                        "url": it.get("url", ""),
+                        "score": hn.get("score", 0),
+                        "descendants": hn.get("descendants", 0),
+                        "tags": it.get("tags", []),
+                        "daily_url": s.rel_url,  # link to the daily page
+                    })
+                return result
+    return []
+
+
 def _collect_weekly_entries(base_dir: str) -> List[dict]:
     """
     Scan hackernews/weekly/ for weekly digest JSON files.
@@ -335,6 +372,47 @@ def update_hackernews_index(
     lines.append("<button id='hn-search-more' class='hn-search-more' style='display:none;'>Show more results</button>")
 
 
+
+    # Today's Top Stories section
+    top_stories = _get_top_stories(base_dir, all_days, n=5)
+    if top_stories:
+        lines.append("<div class='hn-top-stories-section'>")
+        lines.append("<h3 class='hn-section-title'>Today's Top Stories</h3>")
+        lines.append("<div class='hn-top-stories-list'>")
+        for i, story in enumerate(top_stories, 1):
+            score = story['score']
+            comments = story['descendants']
+            title_en = story['title_en']
+            title_zh = story['title_zh']
+            url = story['url']
+            tags = story['tags']
+
+            lines.append(f"<div class='hn-top-story-item'>")
+            lines.append(f"<span class='hn-top-story-rank'>{i}</span>")
+            lines.append(f"<div class='hn-top-story-content'>")
+            # Title line with external link
+            lines.append(f"<div class='hn-top-story-title'>")
+            lines.append(f"<span class='hn-top-story-title-text'>{title_en}</span>")
+            if url:
+                lines.append(f" <a class='hn-top-story-link' href='{url}' target='_blank' rel='noopener noreferrer' title='Open original article'>&#x1F517;</a>")
+            lines.append(f"</div>")
+            # Chinese title
+            if title_zh:
+                lines.append(f"<div class='hn-top-story-zh'>{title_zh}</div>")
+            # Meta line: score, comments, tags
+            meta_parts = []
+            meta_parts.append(f"<span class='hn-top-story-score'>&#9650; {score}</span>")
+            meta_parts.append(f"<span class='hn-top-story-comments'>&#128172; {comments}</span>")
+            for tag in tags[:3]:
+                meta_parts.append(f"<span class='hn-top-story-tag'>{tag}</span>")
+            lines.append(f"<div class='hn-top-story-meta'>{' '.join(meta_parts)}</div>")
+            lines.append(f"</div>")  # hn-top-story-content
+            lines.append(f"</div>")  # hn-top-story-item
+        # Link to full daily page
+        if top_stories[0].get('daily_url'):
+            lines.append(f"<a class='hn-top-stories-more' href='{top_stories[0]['daily_url']}'>View all trending stories &rarr;</a>")
+        lines.append("</div>")  # hn-top-stories-list
+        lines.append("</div>")  # hn-top-stories-section
 
     # Weekly digest links
     weekly_entries = _collect_weekly_entries(base_dir)
