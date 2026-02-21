@@ -4,6 +4,60 @@
 
 ---
 
+## 2026年2月21日 (空白/占位图片智能检测与隐藏)
+
+增强图片质量检测逻辑，自动识别并隐藏空白占位图片，提升页面视觉质量。
+
+### 检测策略（三层防护）
+
+| 层级 | 检测方式 | 触发条件 | 处理方式 |
+|------|----------|----------|----------|
+| 1 | URL 关键词匹配 | URL 包含 blank/placeholder/noimage/fallback/missing/empty | 隐藏图片 |
+| 2 | 小图检测 | 宽 < 160px 或高 < 120px | 标记为 tiny，缩小显示 |
+| 3 | 纯色检测（Canvas） | 将图片缩至 32×32 采样像素，最大色差 ≤ 25 | 隐藏图片 |
+
+### 技术细节
+
+- Canvas 采样使用 `getImageData` 每隔 4 像素取样，遇到色差 > 25 立即退出，性能开销极低。
+- 跨域图片（CORS tainted canvas）自动跳过检测，不会误隐藏。
+- 已有的 `onerror` 和 `broken` 检测保持不变。
+- `loading='lazy'` 已在 `md_writer.py` 中实现，所有 daily/weekly 页面均已生效。
+
+### 涉及文件
+
+- `assets/hn/hn.js`：增强 `checkImageQuality()` 函数，新增 `isBlankUrl()` 和 `isNearSolidColor()` 检测。
+- `_layouts/hn.html`：缓存版本号更新至 `v=20260221j`。
+
+---
+
+## 2026年2月21日 (Top Stories 展开/折叠切换)
+
+Index 页面 Today's Top Stories 区块新增 Show more / Show less 切换功能，默认显示 5 条，可展开至 10 条。
+
+### 功能特性
+
+- 默认显示前 5 条热门新闻，底部显示 "Show more ▼" 按钮。
+- 点击展开后显示第 6–10 条，按钮变为 "Show less ▲"。
+- 再次点击折叠回 5 条。
+- CSS transition 实现平滑展开/折叠动画。
+
+### 技术细节
+
+- `index_updater.py` 改为获取 10 条 top stories，第 6–10 条添加 `hn-top-story-extra` class。
+- CSS 默认 `.hn-top-story-extra { display: none }`，展开时 `.hn-top-stories-expanded .hn-top-story-extra { display: list-item }`。
+- JS 通过 toggle `.hn-top-stories-expanded` class 控制显隐，同时更新按钮文字。
+- 缓存版本号更新至 `v=20260221i`。
+
+### 涉及文件
+
+- `news_scraper/index_updater.py`：`_get_top_stories()` 改为返回 10 条，HTML 生成添加 extra class 和 toggle 按钮。
+- `assets/hn/hn.css`：新增 `.hn-top-story-extra`、`.hn-top-stories-expanded`、`#hn-top-stories-toggle` 样式。
+- `assets/hn/hn.js`：新增 toggle 按钮点击事件处理。
+- `_layouts/hn.html`：缓存版本号更新至 `v=20260221i`。
+- `hackernews/index.md`：重新生成。
+
+---
+
 ## 2026年2月21日 (Index 页面中文标题与热点徽章)
 
 为 Index 页面三个区块标题添加中文副标题和视觉增强。

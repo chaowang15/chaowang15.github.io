@@ -110,47 +110,98 @@
 })();
 
 (function () {
+  // Keywords in image URLs that indicate placeholder/blank images
+  var BLANK_URL_KEYWORDS = [
+    "blank", "placeholder", "no-image", "noimage", "default-og",
+    "default_og", "fallback", "missing", "empty"
+  ];
+
   function markNoImage(img, reason) {
     img.classList.add("hn-img--hidden");
     img.setAttribute("data-img-status", reason || "bad");
-    // optional: remove from layout completely
     img.style.display = "none";
   }
 
   function markTiny(img) {
     img.classList.add("hn-img--tiny");
-    // For tiny images, avoid full-bleed crop; show as contained small image
     img.removeAttribute("data-full"); // disable lightbox for tiny images
   }
 
-  function checkImageQuality(img) {
-    // natural size available after load
-    const w = img.naturalWidth || 0;
-    const h = img.naturalHeight || 0;
+  /** Check if the URL contains known blank/placeholder keywords */
+  function isBlankUrl(src) {
+    if (!src) return false;
+    var lower = src.toLowerCase();
+    for (var i = 0; i < BLANK_URL_KEYWORDS.length; i++) {
+      if (lower.indexOf(BLANK_URL_KEYWORDS[i]) !== -1) return true;
+    }
+    return false;
+  }
 
-    // Heuristic thresholds: tweak if you want
-    // - very small icons/favicons typically < 120px
-    // - also hide "super-thin" or "super-short" weird images
+  /**
+   * Use a small canvas sample to detect near-solid-color images.
+   * Samples a grid of pixels; if colour variance is very low the
+   * image is almost certainly a placeholder / blank.
+   */
+  function isNearSolidColor(img) {
+    try {
+      var w = img.naturalWidth, h = img.naturalHeight;
+      if (!w || !h) return false;
+      // Down-sample to a tiny canvas for speed
+      var sw = Math.min(w, 32), sh = Math.min(h, 32);
+      var c = document.createElement("canvas");
+      c.width = sw; c.height = sh;
+      var ctx = c.getContext("2d");
+      ctx.drawImage(img, 0, 0, sw, sh);
+      var data = ctx.getImageData(0, 0, sw, sh).data;
+      // Sample every 4th pixel for speed
+      var r0 = data[0], g0 = data[1], b0 = data[2];
+      var maxDiff = 0;
+      for (var i = 0; i < data.length; i += 16) {
+        var dr = Math.abs(data[i] - r0);
+        var dg = Math.abs(data[i + 1] - g0);
+        var db = Math.abs(data[i + 2] - b0);
+        var d = Math.max(dr, dg, db);
+        if (d > maxDiff) maxDiff = d;
+        if (maxDiff > 25) return false; // early exit — enough variance
+      }
+      return maxDiff <= 25;
+    } catch (e) {
+      // Canvas tainted by CORS — can't analyse, assume OK
+      return false;
+    }
+  }
+
+  function checkImageQuality(img) {
+    var w = img.naturalWidth || 0;
+    var h = img.naturalHeight || 0;
     if (w === 0 || h === 0) return;
 
+    // 1. URL-based blank detection
+    if (isBlankUrl(img.src)) {
+      markNoImage(img, "blank-url");
+      return;
+    }
+
+    // 2. Tiny image detection
     if (w < 160 || h < 120) {
-      // too small => looks awful when stretched
       markTiny(img);
+      return;
+    }
+
+    // 3. Near-solid-color detection (placeholder images)
+    if (isNearSolidColor(img)) {
+      markNoImage(img, "solid-color");
+      return;
     }
   }
 
   function initImgGuards() {
-    const imgs = document.querySelectorAll("img.hn-img");
-    imgs.forEach((img) => {
-      // If the image fails to load => hide it (no blank box)
-      img.addEventListener("error", () => markNoImage(img, "error"), { once: true });
+    var imgs = document.querySelectorAll("img.hn-img");
+    imgs.forEach(function (img) {
+      img.addEventListener("error", function () { markNoImage(img, "error"); }, { once: true });
+      img.addEventListener("load", function () { checkImageQuality(img); }, { once: true });
 
-      // If it loads, check if it's too small (favicon / thumbnail)
-      img.addEventListener("load", () => checkImageQuality(img), { once: true });
-
-      // In case it's already cached and complete
       if (img.complete) {
-        // If broken, naturalWidth is 0
         if ((img.naturalWidth || 0) === 0) markNoImage(img, "broken");
         else checkImageQuality(img);
       }
