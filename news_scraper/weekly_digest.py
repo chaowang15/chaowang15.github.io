@@ -273,10 +273,15 @@ def render_weekly_digest(
         hn_desc = hn.get("descendants")
         comments_url = hn.get("comments_url", "")
 
-        # Title row (no score badge — moved to tags line)
+        # Title row with sequence number and daily page link icon
+        daily_icon = ""
+        if page_url and anchor:
+            daily_link = f"{page_url}#{anchor}"
+            daily_icon = f" <a class='hn-daily-link' href='{daily_link}' title='View in daily page'>&#128279;</a>"
         lines.append(
-            f"<p class='hn-title'>"
+            f"<p class='hn-title'>({i}) "
             f"<a href='{url}' target='_blank' rel='noopener noreferrer'>{title_en}</a>"
+            f"{daily_icon}"
             f"</p>"
         )
 
@@ -304,12 +309,7 @@ def render_weekly_digest(
         if tag_line_parts:
             lines.append(f"<div class='hn-tags'>{' '.join(tag_line_parts)}</div>")
 
-        # "View in daily page" link
-        if page_url and anchor:
-            daily_link = f"{page_url}#{anchor}"
-            lines.append(
-                f"<a class='hn-search-item-page' href='{daily_link}'>View in daily page →</a>"
-            )
+        # "View in daily page" link — now rendered inline in title row above
 
         lines.append("</div>")  # hn-body
         lines.append("</div>")  # hn-card

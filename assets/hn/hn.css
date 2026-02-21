@@ -1742,6 +1742,29 @@ a.hn-stat:hover::after {
   }
 }
 
+/* ===== Daily Page Link Icon (Weekly Digest) ===== */
+.hn-daily-link {
+  display: inline-block;
+  font-size: 0.72em;
+  text-decoration: none;
+  opacity: 0.35;
+  vertical-align: middle;
+  margin-left: 4px;
+  transition: opacity 0.15s;
+}
+.hn-daily-link:hover {
+  opacity: 0.85;
+  text-decoration: none;
+}
+@media (prefers-color-scheme: dark) {
+  .hn-daily-link {
+    opacity: 0.4;
+  }
+  .hn-daily-link:hover {
+    opacity: 0.9;
+  }
+}
+
 /* ===== Stream Graph ===== */
 .hn-stream-controls {
   display: flex;
