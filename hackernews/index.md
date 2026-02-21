@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>6</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>514</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>5</span> best files</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>4</span> top files</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-02-21</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>6</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>525</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>5</span> best files</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>4</span> top files</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-02-21</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -28,7 +28,7 @@ Sort:
  <a class='hn-top-story-link' href='/hackernews/2026/02/21/top_stories_02212026#story-47091419' title='View in daily page'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>让 Android 保持开放</div>
-<div class='hn-top-story-meta'><span class='hn-top-story-score'>&#9650; 1720</span> <span class='hn-top-story-comments'>&#128172; 613</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-meta'><span class='hn-top-story-score'>&#9650; 1881</span> <span class='hn-top-story-comments'>&#128172; 644</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
 <div class='hn-top-story-item'>
@@ -39,7 +39,7 @@ Sort:
  <a class='hn-top-story-link' href='/hackernews/2026/02/21/top_stories_02212026#story-47089213' title='View in daily page'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>美最高法院推翻特朗普时期的全球关税判决</div>
-<div class='hn-top-story-meta'><span class='hn-top-story-score'>&#9650; 1441</span> <span class='hn-top-story-comments'>&#128172; 1180</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Legal</span></div>
+<div class='hn-top-story-meta'><span class='hn-top-story-score'>&#9650; 1471</span> <span class='hn-top-story-comments'>&#128172; 1222</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Legal</span></div>
 </div>
 </div>
 <div class='hn-top-story-item'>
@@ -50,29 +50,29 @@ Sort:
  <a class='hn-top-story-link' href='/hackernews/2026/02/21/top_stories_02212026#story-47091748' title='View in daily page'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Facebook 已经完蛋</div>
-<div class='hn-top-story-meta'><span class='hn-top-story-score'>&#9650; 1233</span> <span class='hn-top-story-comments'>&#128172; 671</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-meta'><span class='hn-top-story-score'>&#9650; 1376</span> <span class='hn-top-story-comments'>&#128172; 750</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
 <div class='hn-top-story-item'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<span class='hn-top-story-title-text'>The path to ubiquitous AI (17k tokens/sec)</span>
- <a class='hn-top-story-link' href='/hackernews/2026/02/21/top_stories_02212026#story-47086181' title='View in daily page'>&#x1F517;</a>
+<span class='hn-top-story-title-text'>I found a Vulnerability. They found a Lawyer</span>
+ <a class='hn-top-story-link' href='/hackernews/2026/02/21/top_stories_02212026#story-47092578' title='View in daily page'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>走向普及化 AI 的路径（每秒 17k tokens）</div>
-<div class='hn-top-story-meta'><span class='hn-top-story-score'>&#9650; 764</span> <span class='hn-top-story-comments'>&#128172; 420</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>我发现了漏洞，他们找来了律师</div>
+<div class='hn-top-story-meta'><span class='hn-top-story-score'>&#9650; 803</span> <span class='hn-top-story-comments'>&#128172; 370</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Legal</span></div>
 </div>
 </div>
 <div class='hn-top-story-item'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<span class='hn-top-story-title-text'>Ggml.ai joins Hugging Face to ensure the long-term progress of Local AI</span>
- <a class='hn-top-story-link' href='/hackernews/2026/02/21/top_stories_02212026#story-47088037' title='View in daily page'>&#x1F517;</a>
+<span class='hn-top-story-title-text'>The path to ubiquitous AI (17k tokens/sec)</span>
+ <a class='hn-top-story-link' href='/hackernews/2026/02/21/top_stories_02212026#story-47086181' title='View in daily page'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Ggml.ai 加入 Hugging Face，推动本地 AI 的长期发展</div>
-<div class='hn-top-story-meta'><span class='hn-top-story-score'>&#9650; 759</span> <span class='hn-top-story-comments'>&#128172; 198</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>走向普及化 AI 的路径（每秒 17k tokens）</div>
+<div class='hn-top-story-meta'><span class='hn-top-story-score'>&#9650; 798</span> <span class='hn-top-story-comments'>&#128172; 431</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
 <a class='hn-top-stories-more' href='/hackernews/2026/02/21/top_stories_02212026'>View all trending stories &rarr;</a>
@@ -95,7 +95,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/02/21/top_stories_02212026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>49</b> <span class="hn-row-sep">·</span> Programming <b>18</b> <span class="hn-row-sep">·</span> AI <b>15</b></span>
+<span class='hn-row-detail'>All <b>60</b> <span class="hn-row-sep">·</span> Programming <b>19</b> <span class="hn-row-sep">·</span> AI <b>17</b></span>
 </a>
 </div>
 </div>
