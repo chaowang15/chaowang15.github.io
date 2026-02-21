@@ -245,6 +245,7 @@ def _get_top_stories(base_dir: str, days: List[DayEntry], n: int = 5) -> List[di
                 result = []
                 for it in items[:n]:
                     hn = it.get("hn", {}) or {}
+                    hn_id = hn.get("id", "")
                     result.append({
                         "title_en": it.get("title_en", ""),
                         "title_zh": it.get("title_zh", ""),
@@ -252,6 +253,7 @@ def _get_top_stories(base_dir: str, days: List[DayEntry], n: int = 5) -> List[di
                         "score": hn.get("score", 0),
                         "descendants": hn.get("descendants", 0),
                         "tags": it.get("tags", []),
+                        "hn_id": hn_id,
                         "daily_url": s.rel_url,  # link to the daily page
                     })
                 return result
@@ -386,15 +388,23 @@ def update_hackernews_index(
             title_zh = story['title_zh']
             url = story['url']
             tags = story['tags']
+            hn_id = story.get('hn_id', '')
+            daily_url = story.get('daily_url', '')
+
+            # Build anchor link to our daily page
+            if daily_url and hn_id:
+                story_link = f"{daily_url}#story-{hn_id}"
+            else:
+                story_link = url  # fallback to original URL
 
             lines.append(f"<div class='hn-top-story-item'>")
             lines.append(f"<span class='hn-top-story-rank'>{i}</span>")
             lines.append(f"<div class='hn-top-story-content'>")
-            # Title line with external link
+            # Title line with link to our daily page
             lines.append(f"<div class='hn-top-story-title'>")
             lines.append(f"<span class='hn-top-story-title-text'>{title_en}</span>")
-            if url:
-                lines.append(f" <a class='hn-top-story-link' href='{url}' target='_blank' rel='noopener noreferrer' title='Open original article'>&#x1F517;</a>")
+            if story_link:
+                lines.append(f" <a class='hn-top-story-link' href='{story_link}' title='View in daily page'>&#x1F517;</a>")
             lines.append(f"</div>")
             # Chinese title
             if title_zh:
