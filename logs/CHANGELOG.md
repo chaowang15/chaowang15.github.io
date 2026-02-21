@@ -4,6 +4,49 @@
 
 ---
 
+## 2026年2月20日 (禁用卡片标签点击)
+
+修复移动端滑动时误触新闻卡片内标签导致页面跳转到顶部的问题。卡片内的标签现在为纯展示，不再响应点击事件。
+
+### 修改内容
+
+- **JS**：移除了 `.hn-list` 上监听 `.hn-tag` 点击的事件处理器（之前点击卡片标签会触发 `applyFilter()` 并 `scrollIntoView` 到页面顶部）。
+- **CSS**：`.hn-tags`（卡片内标签容器）添加 `pointer-events: none`，彻底阻止触摸/点击事件穿透到标签元素。
+- **CSS**：`.hn-tag:hover` 效果限定为 `.hn-filter-bar .hn-tag:hover`，卡片内标签不再有 hover 反馈。
+
+### 不受影响的部分
+
+- 页面顶部的过滤栏（`.hn-filter-bar` + `.hn-filter-btn`）完全不受影响，仍可正常点击筛选。
+- 搜索结果标签（`.hn-search-item-tags`）使用独立 class，也不受影响。
+
+- 涉及文件：`assets/hn/hn.js`、`assets/hn/hn.css`、`_layouts/hn.html`。
+- 缓存版本号更新至 `v=20260221a`。
+
+---
+
+## 2026年2月20日 (Trends 页面新增 Stream Graph)
+
+在 Trends 页面的气泡图下方新增了 **Tag Trend Stream**（标签趋势流图），以堆叠面积图的形式展示过去一周每天各标签的数量分布变化。
+
+### 功能特性
+
+- **数据源**：读取 `tag_trend.json`，包含每天各标签的故事数量。
+- **平滑曲线**：使用 monotone cubic 插值算法，视觉效果流畅自然。
+- **交互式悬停**：鼠标移到某个标签区域时，该标签高亮（opacity 0.9），其他标签变淡（opacity 0.2），并显示 tooltip（标签名、日期、数量）。
+- **颜色编码图例**：底部显示所有标签的颜色对应关系，与气泡图配色一致。
+- **Y 轴网格线**：自动计算刻度，显示故事数量参考线。
+- **X 轴日期标签**：以 MM-DD 格式显示每天日期。
+
+### 技术细节
+
+- 纯 SVG 实现，无第三方依赖。
+- `initStreamGraph()` 函数封装在独立 IIFE 中，仅在 Trends 页面（检测 `#hn-stream-wrap`）时执行。
+- 支持 dark mode（路径 opacity 调整、tooltip 颜色反转）和移动端响应式（图例字体缩小）。
+- 涉及文件：`hackernews/trends/index.md`、`assets/hn/hn.js`、`assets/hn/hn.css`、`_layouts/hn.html`。
+- 缓存版本号更新至 `v=20260220z`。
+
+---
+
 ## 2026年2月20日 (搜索关键词高亮)
 
 为 Index 页面的搜索结果添加关键词高亮功能，匹配的搜索词以黄色背景标记，方便用户快速定位相关内容。

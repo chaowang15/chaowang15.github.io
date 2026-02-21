@@ -315,6 +315,66 @@
   }
 })();
 
+// ===== Card Collapse/Expand Toggle (News pages) =====
+(function () {
+  function initCardCollapse() {
+    var list = document.querySelector('.hn-list');
+    if (!list) return;
+
+    // Inject collapse button into each card
+    var cards = list.querySelectorAll('.hn-card');
+    cards.forEach(function (card) {
+      var body = card.querySelector('.hn-body');
+      if (!body) return;
+      var btn = document.createElement('button');
+      btn.className = 'hn-collapse-btn';
+      btn.setAttribute('aria-label', 'Collapse card');
+      btn.innerHTML = '<svg viewBox="0 0 16 16" width="14" height="14"><polyline class="hn-collapse-chevron" points="4,6 8,10 12,6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+      body.insertBefore(btn, body.firstChild);
+    });
+
+    // Event delegation for collapse toggle
+    list.addEventListener('click', function (e) {
+      var btn = e.target.closest('.hn-collapse-btn');
+      if (!btn) return;
+      e.preventDefault();
+      e.stopPropagation();
+      var card = btn.closest('.hn-card');
+      if (!card) return;
+      var isCollapsed = card.classList.toggle('is-collapsed');
+      btn.setAttribute('aria-label', isCollapsed ? 'Expand card' : 'Collapse card');
+    });
+
+    // "Collapse All" / "Expand All" button in the stats bar or subtitle area
+    var stats = document.querySelector('.hn-stats');
+    if (stats && cards.length > 0) {
+      var allBtn = document.createElement('button');
+      allBtn.className = 'hn-collapse-all-btn';
+      allBtn.textContent = 'Collapse All';
+      allBtn.addEventListener('click', function () {
+        var allCollapsed = list.querySelectorAll('.hn-card:not(.is-collapsed)').length === 0;
+        cards.forEach(function (card) {
+          if (allCollapsed) {
+            card.classList.remove('is-collapsed');
+          } else {
+            card.classList.add('is-collapsed');
+          }
+          var b = card.querySelector('.hn-collapse-btn');
+          if (b) b.setAttribute('aria-label', allCollapsed ? 'Collapse card' : 'Expand card');
+        });
+        allBtn.textContent = allCollapsed ? 'Collapse All' : 'Expand All';
+      });
+      stats.appendChild(allBtn);
+    }
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initCardCollapse);
+  } else {
+    initCardCollapse();
+  }
+})();
+
 // ===== Global Search (Index page only) =====
 (function () {
   var PAGE_SIZE = 20;

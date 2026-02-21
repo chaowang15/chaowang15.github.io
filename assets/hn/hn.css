@@ -170,8 +170,99 @@ body {
     }
 }
 
+/* ===== Card Collapse/Expand ===== */
+.hn-collapse-btn {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.05);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: var(--muted);
+    padding: 0;
+    z-index: 2;
+    transition: background 0.15s ease, transform 0.2s ease;
+}
+.hn-collapse-btn:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+.hn-collapse-btn svg {
+    transition: transform 0.25s ease;
+}
+.hn-card.is-collapsed .hn-collapse-btn svg {
+    transform: rotate(-90deg);
+}
+.hn-card.is-collapsed .hn-body > *:not(.hn-title):not(.hn-collapse-btn) {
+    display: none;
+}
+.hn-card.is-collapsed .hn-body {
+    padding-bottom: 10px;
+}
+.hn-card.is-collapsed .hn-title {
+    margin-bottom: 0;
+    padding-right: 36px;
+}
+.hn-card.is-collapsed {
+    opacity: 0.75;
+}
+.hn-card.is-collapsed:hover {
+    opacity: 1;
+    transform: none;
+    box-shadow: var(--hn-shadow);
+}
+
+/* Collapse All button */
+.hn-collapse-all-btn {
+    font-family: var(--hn-sans);
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--link);
+    background: none;
+    border: 1px solid var(--link);
+    border-radius: 999px;
+    padding: 2px 12px;
+    margin-left: 12px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    vertical-align: middle;
+}
+.hn-collapse-all-btn:hover {
+    background: var(--link);
+    color: #fff;
+}
+
+@media (prefers-color-scheme: dark) {
+    .hn-collapse-btn {
+        background: rgba(255, 255, 255, 0.08);
+    }
+    .hn-collapse-btn:hover {
+        background: rgba(255, 255, 255, 0.15);
+    }
+}
+
+@media (max-width: 600px) {
+    .hn-collapse-btn {
+        width: 26px;
+        height: 26px;
+        top: 10px;
+        right: 10px;
+    }
+    .hn-collapse-all-btn {
+        font-size: 11px;
+        padding: 1px 10px;
+        margin-left: 8px;
+    }
+}
+
 .hn-body {
     padding: 14px 16px 18px 16px;
+    position: relative;
 }
 
 .hn-title {
@@ -180,6 +271,7 @@ body {
     line-height: 1.25;
     font-weight: 780;
     margin: 0 0 8px 0;
+    padding-right: 36px;
 }
 
 .hn-title a {
