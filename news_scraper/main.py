@@ -8,9 +8,10 @@ Modes:
   rebuild — Rebuild all MD pages from existing JSON backups (no API, no LLM)
 
 Features:
-- Unified incremental dedup: both best and top modes use same-day + cross-day dedup
-- Cross-day deduplication: reuse LLM summaries from previous day's JSON for overlapping stories
+- Unified incremental dedup: both best and top modes use same-day + cross-day + cross-mode dedup
 - Same-day deduplication: reuse LLM summaries from today's existing JSON, update scores
+- Cross-day deduplication: reuse LLM summaries from previous day's JSON for overlapping stories
+- Cross-mode deduplication: best mode also checks today's top JSON; top mode also checks yesterday's best JSON
 - Score refresh: all reused items get fresh score/descendants from API on every scrape
 - Per-mode item cap: best=50, top=100 (keep highest-scored after merging)
 - Comprehensive logging for GitHub Actions debugging
@@ -175,6 +176,59 @@ def _load_previous_day_items(base_dir: str, content_dt: datetime, mode: str) -> 
     except Exception as e:
         print(f"[DEDUP][WARN] Failed to load previous day JSON: {e}")
         return {}
+
+
+def _load_cross_mode_items(base_dir: str, run_dt: datetime, content_dt: datetime, mode: str) -> dict:
+    """
+    Load items from the *other* mode's JSON for cross-mode deduplication.
+    - For 'best' mode: load today's (run_dt) top_stories JSON
+      (since best records yesterday's date but top records today's date,
+       and they share many overlapping stories)
+    - For 'top' mode: load content_dt's best_stories JSON
+      (best stories for the same content date)
+    Returns a dict mapping hn_id -> item dict.
+    """
+    cross_map = {}
+
+    if mode == "best":
+        # Best runs today but records yesterday's date.
+        # Today's top_stories JSON uses today's date (run_dt).
+        target_dt = run_dt
+        prefix = "top_stories"
+    elif mode == "top":
+        # Top runs today and records today's date.
+        # Today's best_stories JSON uses yesterday's date (content_dt - 0 for top = today,
+        # but best for today records yesterday => we look at best for content_dt).
+        # Actually: best that ran today records (today-1) as content_date.
+        # So if top content_dt = today, best content_dt = today-1 = yesterday.
+        # The best JSON for yesterday is at yesterday's date dir.
+        target_dt = content_dt - timedelta(days=1)
+        prefix = "best_stories"
+    else:
+        return cross_map
+
+    date_dir = target_dt.strftime("%Y/%m/%d")
+    json_name = f"{prefix}_{target_dt.strftime('%m%d%Y')}.json"
+    json_path = os.path.join(base_dir, date_dir, json_name)
+
+    if not os.path.exists(json_path):
+        print(f"[CROSS-MODE] No cross-mode JSON found: {json_path}")
+        return cross_map
+
+    try:
+        with open(json_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        items = data.get("items", []) or []
+        for item in items:
+            hn = item.get("hn", {})
+            hn_id = hn.get("id")
+            if hn_id:
+                cross_map[int(hn_id)] = item
+        print(f"[CROSS-MODE] Loaded {len(cross_map)} items from cross-mode JSON: {json_path}")
+    except Exception as e:
+        print(f"[CROSS-MODE][WARN] Failed to load cross-mode JSON: {e}")
+
+    return cross_map
 
 
 def _load_same_day_items(json_path: str) -> dict:
@@ -473,11 +527,15 @@ def run_scrape(mode: str, cfg: dict):
     # Load same-day existing items for incremental dedup (both modes)
     same_day_map = _load_same_day_items(json_path)
 
-    # Load previous day items for cross-day dedup
+    # Load previous day items for cross-day dedup (same mode)
     prev_items = _load_previous_day_items(base_dir, content_dt, mode)
+
+    # Load cross-mode items (best↔top) for additional dedup
+    cross_mode_items = _load_cross_mode_items(base_dir, run_dt, content_dt, mode)
 
     reused_same_day = 0
     reused_cross_day = 0
+    reused_cross_mode = 0
     new_items_for_llm = []
     reused_map = {}  # id -> prev_item (items that can skip LLM)
     score_update_map = {}  # id -> updated score/descendants for reused items
@@ -506,7 +564,7 @@ def run_scrape(mode: str, cfg: dict):
                     reused_same_day += 1
                     continue
 
-        # Priority 2: Check previous day's items (cross-day dedup)
+        # Priority 2: Check previous day's items (cross-day dedup, same mode)
         if hn_id in prev_items:
             prev = prev_items[hn_id]
             if _is_same_story(prev, title_en):
@@ -518,7 +576,6 @@ def run_scrape(mode: str, cfg: dict):
                 )
                 if has_summary:
                     reused_map[hn_id] = prev
-                    # Track updated score/descendants for cross-day items too
                     score_update_map[hn_id] = {
                         "score": it.get("hn_score"),
                         "descendants": it.get("hn_descendants"),
@@ -526,12 +583,32 @@ def run_scrape(mode: str, cfg: dict):
                     reused_cross_day += 1
                     continue
 
+        # Priority 3: Check cross-mode items (best↔top dedup)
+        if hn_id in cross_mode_items:
+            prev = cross_mode_items[hn_id]
+            if _is_same_story(prev, title_en):
+                has_summary = (
+                    prev.get("summary_en") and
+                    prev.get("summary_zh") and
+                    prev.get("title_zh") and
+                    prev["summary_en"] != "Brief intro unavailable (LLM disabled)."
+                )
+                if has_summary:
+                    reused_map[hn_id] = prev
+                    score_update_map[hn_id] = {
+                        "score": it.get("hn_score"),
+                        "descendants": it.get("hn_descendants"),
+                    }
+                    reused_cross_mode += 1
+                    continue
+
         new_items_for_llm.append(it)
 
-    total_reused = reused_same_day + reused_cross_day
+    total_reused = reused_same_day + reused_cross_day + reused_cross_mode
     print(f"[STEP 3/6] Dedup result:")
     print(f"  Same-day reused: {reused_same_day}")
     print(f"  Cross-day reused: {reused_cross_day}")
+    print(f"  Cross-mode reused: {reused_cross_mode}")
     print(f"  New (need LLM): {len(new_items_for_llm)}")
     print(f"[STEP 3/6] Completed in {time.time() - t0:.1f}s")
 

@@ -4,6 +4,41 @@
 
 ---
 
+## 2026年2月20日 (跨模式去重 Cross-Mode Dedup)
+
+为 Daily Best 和 Trending 的抓取流程新增跨模式去重功能，利用 best↔top 之间的大量重叠新闻复用已有的 LLM 翻译和摘要，减少 GPT token 消耗。
+
+### 改动内容
+
+- **新增函数** `_load_cross_mode_items()`：加载另一模式的 JSON 数据用于去重。
+  - Best 模式运行时：额外加载当天（`run_dt`）的 `top_stories_*.json`。
+  - Top 模式运行时：额外加载前一天的 `best_stories_*.json`。
+- **去重优先级更新为三级**：
+  1. Priority 1: Same-day dedup（同天同模式增量更新）
+  2. Priority 2: Cross-day dedup（前一天同模式）
+  3. Priority 3: Cross-mode dedup（best↔top 互查）
+- **日志输出**：新增 `Cross-mode reused` 计数，方便在 GitHub Actions 中监控节省效果。
+- **实测数据**：best 和 top 重叠率约 30%（当前 15/50 条），每次 best 抓取可节省约 15 次 LLM 调用。
+
+### 涉及文件
+
+- `news_scraper/main.py`：新增 `_load_cross_mode_items()` 函数，更新 STEP 3 去重流程，更新模块文档字符串。
+
+---
+
+## 2026年2月20日 (Stream Graph 移除 "Other" 类别)
+
+改进 Trends 页面的 Stream Graph，移除了占比过大的 "Other" 聚合类别，改为展示前 20 个具体标签。
+
+### 修改内容
+
+- **数据生成器** `tag_trend_builder.py`：`TOP_N_TAGS` 从 10 增加到 20，移除了 "Other" 聚合逻辑。
+- **数据文件** `tag_trend.json`：重新生成，现包含 20 个具体标签（AI、Programming、Security、Politics、Privacy、Hardware、Open Source、Business、Show HN、Science、DevOps、Legal、Web、Design、Culture、Data、Health、Finance、Education、Gaming）。
+- **前端** `hn.js`：添加安全过滤，确保旧数据中的 "Other" 也会被忽略。
+- 缓存版本号更新至 `v=20260221c`。
+
+---
+
 ## 2026年2月20日 (新闻卡片折叠/展开功能)
 
 为每张新闻卡片添加了折叠/展开切换功能，方便用户快速浏览大量新闻而无需反复滚动。
