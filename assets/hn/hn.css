@@ -1090,6 +1090,16 @@ a.hn-stat-comments {
 a.hn-stat-comments:hover {
     background: #bbdefb;
 }
+/* External link indicator for clickable stat icons */
+a.hn-stat::after {
+    content: '\2197';
+    font-size: 0.7em;
+    margin-left: 2px;
+    opacity: 0.6;
+}
+a.hn-stat:hover::after {
+    opacity: 1;
+}
 
 .hn-tag {
     display: inline-block;
