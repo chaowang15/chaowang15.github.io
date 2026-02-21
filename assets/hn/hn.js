@@ -1110,6 +1110,8 @@
     var chartEl = document.getElementById('hn-stream-chart');
     var tooltip = document.getElementById('hn-stream-tooltip');
     var legendEl = document.getElementById('hn-stream-legend');
+    var subtitleEl = document.getElementById('hn-stream-subtitle');
+    var rangeBar = document.getElementById('hn-stream-range-bar');
 
     var TAG_COLORS = {
       'AI': '#e74c3c', 'Programming': '#3498db', 'Security': '#e67e22',
@@ -1123,6 +1125,8 @@
     };
     function tagColor(tag) { return TAG_COLORS[tag] || '#95a5a6'; }
 
+    var RANGE_LABELS = { 7: 'past week', 14: 'past 2 weeks', 30: 'past month' };
+
     var xhr = new XMLHttpRequest();
     xhr.open('GET', '/hackernews/tag_trend.json', true);
     xhr.onload = function () {
@@ -1131,77 +1135,74 @@
       try { data = JSON.parse(xhr.responseText); } catch (e) { return; }
       if (!data || !data.tags || !data.series || data.series.length < 2) return;
 
-      var tags = data.tags.filter(function (t) { return t !== 'Other'; });
-      var series = data.series;
-      var dates = series.map(function (s) { return s.date; });
+      var allTags = data.tags.filter(function (t) { return t !== 'Other'; });
+      var allSeries = data.series;
+      var legendBuilt = false;
 
-      // Compute stacked values (baseline = 0, stack upward)
-      var stacked = []; // stacked[tagIdx][dateIdx] = { y0, y1 }
-      for (var t = 0; t < tags.length; t++) {
-        stacked.push([]);
-      }
-      for (var d = 0; d < series.length; d++) {
-        var y0 = 0;
-        for (var t = 0; t < tags.length; t++) {
-          var val = series[d][tags[t]] || 0;
-          stacked[t].push({ y0: y0, y1: y0 + val, val: val });
-          y0 += val;
+      /** Filter series to the last N days and render the chart */
+      function renderChart(days) {
+        // Filter series to last N days
+        var series, tags;
+        if (allSeries.length <= days) {
+          series = allSeries;
+        } else {
+          series = allSeries.slice(allSeries.length - days);
         }
-      }
+        tags = allTags;
 
-      // Find max total
-      var maxY = 0;
-      for (var d = 0; d < series.length; d++) {
-        var last = stacked[tags.length - 1][d];
-        if (last.y1 > maxY) maxY = last.y1;
-      }
+        if (series.length < 2) return;
 
-      // SVG dimensions
-      var W = 800, H = 360;
-      var padL = 45, padR = 20, padT = 20, padB = 40;
-      var plotW = W - padL - padR;
-      var plotH = H - padT - padB;
+        var dates = series.map(function (s) { return s.date; });
 
-      function xPos(i) { return padL + (i / (dates.length - 1)) * plotW; }
-      function yPos(v) { return padT + plotH - (v / maxY) * plotH; }
-
-      // Build smooth path using cardinal spline
-      function buildAreaPath(tagIdx) {
-        var pts = stacked[tagIdx];
-        var n = pts.length;
-        if (n < 2) return '';
-
-        // Top line (y1) left to right
-        var topX = [], topY = [];
-        for (var i = 0; i < n; i++) {
-          topX.push(xPos(i));
-          topY.push(yPos(pts[i].y1));
-        }
-        // Bottom line (y0) right to left
-        var botX = [], botY = [];
-        for (var i = n - 1; i >= 0; i--) {
-          botX.push(xPos(i));
-          botY.push(yPos(pts[i].y0));
+        // Update subtitle
+        if (subtitleEl) {
+          var actual = series.length;
+          var label = RANGE_LABELS[days] || ('past ' + days + ' days');
+          var suffix = actual < days ? ' (' + actual + ' days available)' : '';
+          subtitleEl.textContent = 'Daily tag distribution over the ' + label + suffix;
         }
 
-        // Monotone cubic interpolation for smooth curves
+        // Compute stacked values
+        var stacked = [];
+        for (var t = 0; t < tags.length; t++) stacked.push([]);
+        for (var d = 0; d < series.length; d++) {
+          var y0 = 0;
+          for (var t = 0; t < tags.length; t++) {
+            var val = series[d][tags[t]] || 0;
+            stacked[t].push({ y0: y0, y1: y0 + val, val: val });
+            y0 += val;
+          }
+        }
+
+        var maxY = 0;
+        for (var d = 0; d < series.length; d++) {
+          var last = stacked[tags.length - 1][d];
+          if (last.y1 > maxY) maxY = last.y1;
+        }
+        if (maxY === 0) maxY = 1;
+
+        // SVG dimensions
+        var W = 800, H = 360;
+        var padL = 45, padR = 20, padT = 20, padB = 40;
+        var plotW = W - padL - padR;
+        var plotH = H - padT - padB;
+
+        function xPos(i) { return padL + (i / Math.max(dates.length - 1, 1)) * plotW; }
+        function yPos(v) { return padT + plotH - (v / maxY) * plotH; }
+
+        // Monotone cubic interpolation
         function monotonePath(xs, ys) {
           var n = xs.length;
           if (n < 2) return 'M' + xs[0] + ',' + ys[0];
           if (n === 2) return 'M' + xs[0] + ',' + ys[0] + 'L' + xs[1] + ',' + ys[1];
-
-          // Compute tangents
           var ms = [];
-          for (var i = 0; i < n - 1; i++) {
-            ms.push((ys[i + 1] - ys[i]) / (xs[i + 1] - xs[i]));
-          }
+          for (var i = 0; i < n - 1; i++) ms.push((ys[i + 1] - ys[i]) / (xs[i + 1] - xs[i]));
           var ts = [ms[0]];
           for (var i = 1; i < n - 1; i++) {
-            if (ms[i - 1] * ms[i] <= 0) { ts.push(0); }
-            else { ts.push((ms[i - 1] + ms[i]) / 2); }
+            if (ms[i - 1] * ms[i] <= 0) ts.push(0);
+            else ts.push((ms[i - 1] + ms[i]) / 2);
           }
           ts.push(ms[n - 2]);
-
           var d = 'M' + xs[0].toFixed(2) + ',' + ys[0].toFixed(2);
           for (var i = 0; i < n - 1; i++) {
             var dx = (xs[i + 1] - xs[i]) / 3;
@@ -1212,165 +1213,169 @@
           return d;
         }
 
-        var topPath = monotonePath(topX, topY);
-        var botPath = monotonePath(botX, botY);
-        // Connect: top path forward, line to bottom start, bottom path, close
-        return topPath + 'L' + botX[0].toFixed(2) + ',' + botY[0].toFixed(2)
-          + botPath.substring(botPath.indexOf('L') !== -1 ? botPath.indexOf('L') : botPath.indexOf('C'))
-          + 'Z';
-      }
-
-      // Create SVG
-      var svgNS = 'http://www.w3.org/2000/svg';
-      var svg = document.createElementNS(svgNS, 'svg');
-      svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H);
-      svg.setAttribute('width', W);
-      svg.setAttribute('height', H);
-      svg.style.display = 'block';
-      svg.style.margin = '0 auto';
-
-      // Y-axis grid lines
-      var gridSteps = 5;
-      var gridStep = Math.ceil(maxY / gridSteps);
-      for (var g = 0; g <= maxY; g += gridStep) {
-        var gy = yPos(g);
-        var line = document.createElementNS(svgNS, 'line');
-        line.setAttribute('x1', padL);
-        line.setAttribute('x2', W - padR);
-        line.setAttribute('y1', gy);
-        line.setAttribute('y2', gy);
-        line.setAttribute('stroke', '#ddd');
-        line.setAttribute('stroke-width', '0.5');
-        svg.appendChild(line);
-
-        var label = document.createElementNS(svgNS, 'text');
-        label.setAttribute('x', padL - 8);
-        label.setAttribute('y', gy + 4);
-        label.setAttribute('text-anchor', 'end');
-        label.setAttribute('font-size', '11');
-        label.setAttribute('fill', '#999');
-        label.setAttribute('font-family', 'system-ui, sans-serif');
-        label.textContent = g;
-        svg.appendChild(label);
-      }
-
-      // Draw area paths (bottom tags first = rendered behind)
-      var pathEls = [];
-      for (var t = tags.length - 1; t >= 0; t--) {
-        var path = document.createElementNS(svgNS, 'path');
-        var d = buildAreaPath(t);
-        path.setAttribute('d', d);
-        path.setAttribute('fill', tagColor(tags[t]));
-        path.setAttribute('fill-opacity', '0.7');
-        path.setAttribute('stroke', tagColor(tags[t]));
-        path.setAttribute('stroke-width', '0.5');
-        path.setAttribute('stroke-opacity', '0.3');
-        path.setAttribute('class', 'hn-stream-path');
-        path.setAttribute('data-tag', tags[t]);
-        svg.appendChild(path);
-        pathEls[t] = path;
-      }
-
-      // X-axis date labels
-      for (var d = 0; d < dates.length; d++) {
-        var lx = xPos(d);
-        var label = document.createElementNS(svgNS, 'text');
-        label.setAttribute('x', lx);
-        label.setAttribute('y', H - padB + 20);
-        label.setAttribute('text-anchor', 'middle');
-        label.setAttribute('font-size', '11');
-        label.setAttribute('fill', '#999');
-        label.setAttribute('font-family', 'system-ui, sans-serif');
-        // Show short date: MM-DD
-        var parts = dates[d].split('-');
-        label.textContent = parts[1] + '-' + parts[2];
-        svg.appendChild(label);
-      }
-
-      chartEl.appendChild(svg);
-
-      // Hover interaction
-      var currentHighlight = -1;
-      svg.addEventListener('mousemove', function (e) {
-        var rect = svg.getBoundingClientRect();
-        var scaleX = W / rect.width;
-        var scaleY = H / rect.height;
-        var mx = (e.clientX - rect.left) * scaleX;
-        var my = (e.clientY - rect.top) * scaleY;
-
-        // Find which date column
-        var dateIdx = -1;
-        var minDist = Infinity;
-        for (var i = 0; i < dates.length; i++) {
-          var dist = Math.abs(mx - xPos(i));
-          if (dist < minDist) { minDist = dist; dateIdx = i; }
-        }
-        if (dateIdx < 0 || mx < padL - 10 || mx > W - padR + 10) {
-          tooltip.style.display = 'none';
-          resetHighlight();
-          return;
+        function buildAreaPath(tagIdx) {
+          var pts = stacked[tagIdx];
+          var n = pts.length;
+          if (n < 2) return '';
+          var topX = [], topY = [];
+          for (var i = 0; i < n; i++) { topX.push(xPos(i)); topY.push(yPos(pts[i].y1)); }
+          var botX = [], botY = [];
+          for (var i = n - 1; i >= 0; i--) { botX.push(xPos(i)); botY.push(yPos(pts[i].y0)); }
+          var topPath = monotonePath(topX, topY);
+          var botPath = monotonePath(botX, botY);
+          return topPath + 'L' + botX[0].toFixed(2) + ',' + botY[0].toFixed(2)
+            + botPath.substring(botPath.indexOf('L') !== -1 ? botPath.indexOf('L') : botPath.indexOf('C'))
+            + 'Z';
         }
 
-        // Find which tag band the mouse is in
-        var hitTag = -1;
-        for (var t = 0; t < tags.length; t++) {
-          var y0 = yPos(stacked[t][dateIdx].y0);
-          var y1 = yPos(stacked[t][dateIdx].y1);
-          if (my >= y1 && my <= y0) { hitTag = t; break; }
+        // Clear previous chart
+        chartEl.innerHTML = '';
+
+        // Create SVG
+        var svgNS = 'http://www.w3.org/2000/svg';
+        var svg = document.createElementNS(svgNS, 'svg');
+        svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H);
+        svg.setAttribute('width', W);
+        svg.setAttribute('height', H);
+        svg.style.display = 'block';
+        svg.style.margin = '0 auto';
+
+        // Y-axis grid lines
+        var gridSteps = 5;
+        var gridStep = Math.ceil(maxY / gridSteps);
+        for (var g = 0; g <= maxY; g += gridStep) {
+          var gy = yPos(g);
+          var line = document.createElementNS(svgNS, 'line');
+          line.setAttribute('x1', padL); line.setAttribute('x2', W - padR);
+          line.setAttribute('y1', gy); line.setAttribute('y2', gy);
+          line.setAttribute('stroke', '#ddd'); line.setAttribute('stroke-width', '0.5');
+          svg.appendChild(line);
+          var label = document.createElementNS(svgNS, 'text');
+          label.setAttribute('x', padL - 8); label.setAttribute('y', gy + 4);
+          label.setAttribute('text-anchor', 'end'); label.setAttribute('font-size', '11');
+          label.setAttribute('fill', '#999'); label.setAttribute('font-family', 'system-ui, sans-serif');
+          label.textContent = g;
+          svg.appendChild(label);
         }
 
-        if (hitTag >= 0) {
-          // Highlight this tag
-          if (currentHighlight !== hitTag) {
-            resetHighlight();
-            for (var t = 0; t < tags.length; t++) {
-              if (t !== hitTag) pathEls[t].setAttribute('fill-opacity', '0.2');
-              else pathEls[t].setAttribute('fill-opacity', '0.9');
-            }
-            currentHighlight = hitTag;
+        // Draw area paths
+        var pathEls = [];
+        for (var t = tags.length - 1; t >= 0; t--) {
+          var path = document.createElementNS(svgNS, 'path');
+          path.setAttribute('d', buildAreaPath(t));
+          path.setAttribute('fill', tagColor(tags[t]));
+          path.setAttribute('fill-opacity', '0.7');
+          path.setAttribute('stroke', tagColor(tags[t]));
+          path.setAttribute('stroke-width', '0.5');
+          path.setAttribute('stroke-opacity', '0.3');
+          path.setAttribute('class', 'hn-stream-path');
+          path.setAttribute('data-tag', tags[t]);
+          svg.appendChild(path);
+          pathEls[t] = path;
+        }
+
+        // X-axis date labels — show a reasonable number based on date count
+        var maxLabels = days <= 7 ? dates.length : (days <= 14 ? 7 : 10);
+        var labelStep = dates.length <= maxLabels ? 1 : Math.ceil(dates.length / maxLabels);
+        for (var d = 0; d < dates.length; d++) {
+          if (d % labelStep !== 0 && d !== dates.length - 1) continue;
+          var lx = xPos(d);
+          var label = document.createElementNS(svgNS, 'text');
+          label.setAttribute('x', lx);
+          label.setAttribute('y', H - padB + 20);
+          label.setAttribute('text-anchor', 'middle');
+          label.setAttribute('font-size', '11');
+          label.setAttribute('fill', '#999');
+          label.setAttribute('font-family', 'system-ui, sans-serif');
+          var parts = dates[d].split('-');
+          label.textContent = parts[1] + '-' + parts[2];
+          svg.appendChild(label);
+        }
+
+        chartEl.appendChild(svg);
+
+        // Hover interaction
+        var currentHighlight = -1;
+        svg.addEventListener('mousemove', function (e) {
+          var rect = svg.getBoundingClientRect();
+          var scaleX = W / rect.width;
+          var scaleY = H / rect.height;
+          var mx = (e.clientX - rect.left) * scaleX;
+          var my = (e.clientY - rect.top) * scaleY;
+          var dateIdx = -1, minDist = Infinity;
+          for (var i = 0; i < dates.length; i++) {
+            var dist = Math.abs(mx - xPos(i));
+            if (dist < minDist) { minDist = dist; dateIdx = i; }
           }
-
-          // Build tooltip
-          var val = stacked[hitTag][dateIdx].val;
-          tooltip.innerHTML = '<b>' + tags[hitTag] + '</b><br>' + dates[dateIdx] + ': ' + val + ' stories';
-          tooltip.style.display = 'block';
-
-          // Position tooltip
-          var tx = e.clientX - container.getBoundingClientRect().left + 12;
-          var ty = e.clientY - container.getBoundingClientRect().top - 10;
-          if (tx + 150 > container.offsetWidth) tx = tx - 170;
-          tooltip.style.left = tx + 'px';
-          tooltip.style.top = ty + 'px';
-        } else {
-          tooltip.style.display = 'none';
-          resetHighlight();
-        }
-      });
-
-      svg.addEventListener('mouseleave', function () {
-        tooltip.style.display = 'none';
-        resetHighlight();
-      });
-
-      function resetHighlight() {
-        if (currentHighlight >= 0) {
+          if (dateIdx < 0 || mx < padL - 10 || mx > W - padR + 10) {
+            tooltip.style.display = 'none'; resetHL(); return;
+          }
+          var hitTag = -1;
           for (var t = 0; t < tags.length; t++) {
-            pathEls[t].setAttribute('fill-opacity', '0.7');
+            var yy0 = yPos(stacked[t][dateIdx].y0);
+            var yy1 = yPos(stacked[t][dateIdx].y1);
+            if (my >= yy1 && my <= yy0) { hitTag = t; break; }
           }
-          currentHighlight = -1;
+          if (hitTag >= 0) {
+            if (currentHighlight !== hitTag) {
+              resetHL();
+              for (var t = 0; t < tags.length; t++) {
+                pathEls[t].setAttribute('fill-opacity', t !== hitTag ? '0.2' : '0.9');
+              }
+              currentHighlight = hitTag;
+            }
+            tooltip.innerHTML = '<b>' + tags[hitTag] + '</b><br>' + dates[dateIdx] + ': ' + stacked[hitTag][dateIdx].val + ' stories';
+            tooltip.style.display = 'block';
+            var tx = e.clientX - container.getBoundingClientRect().left + 12;
+            var ty = e.clientY - container.getBoundingClientRect().top - 10;
+            if (tx + 150 > container.offsetWidth) tx -= 170;
+            tooltip.style.left = tx + 'px'; tooltip.style.top = ty + 'px';
+          } else {
+            tooltip.style.display = 'none'; resetHL();
+          }
+        });
+        svg.addEventListener('mouseleave', function () { tooltip.style.display = 'none'; resetHL(); });
+        function resetHL() {
+          if (currentHighlight >= 0) {
+            for (var t = 0; t < tags.length; t++) pathEls[t].setAttribute('fill-opacity', '0.7');
+            currentHighlight = -1;
+          }
+        }
+
+        // Build legend only once
+        if (!legendBuilt) {
+          legendEl.innerHTML = '';
+          for (var t = 0; t < tags.length; t++) {
+            var item = document.createElement('span');
+            item.className = 'hn-stream-legend-item';
+            var swatch = document.createElement('span');
+            swatch.className = 'hn-stream-legend-swatch';
+            swatch.style.background = tagColor(tags[t]);
+            item.appendChild(swatch);
+            item.appendChild(document.createTextNode(tags[t]));
+            legendEl.appendChild(item);
+          }
+          legendBuilt = true;
         }
       }
 
-      // Build legend
-      for (var t = 0; t < tags.length; t++) {
-        var item = document.createElement('span');
-        item.className = 'hn-stream-legend-item';
-        var swatch = document.createElement('span');
-        swatch.className = 'hn-stream-legend-swatch';
-        swatch.style.background = tagColor(tags[t]);
-        item.appendChild(swatch);
-        item.appendChild(document.createTextNode(tags[t]));
-        legendEl.appendChild(item);
+      // Initial render with 1-week (7 days)
+      renderChart(7);
+
+      // Range button click handler
+      if (rangeBar) {
+        rangeBar.addEventListener('click', function (e) {
+          var btn = e.target;
+          if (!btn.classList.contains('hn-stream-range-btn')) return;
+          var days = parseInt(btn.getAttribute('data-range'), 10);
+          if (!days) return;
+          // Update active state
+          var btns = rangeBar.querySelectorAll('.hn-stream-range-btn');
+          for (var i = 0; i < btns.length; i++) btns[i].classList.remove('hn-stream-range-active');
+          btn.classList.add('hn-stream-range-active');
+          // Re-render chart
+          renderChart(days);
+        });
       }
     };
     xhr.send();

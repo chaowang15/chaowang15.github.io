@@ -1743,6 +1743,72 @@ a.hn-stat:hover::after {
 }
 
 /* ===== Stream Graph ===== */
+.hn-stream-controls {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+  margin-bottom: 1rem;
+}
+.hn-stream-subtitle {
+  margin: 0 !important;
+}
+.hn-stream-range-bar {
+  display: flex;
+  gap: 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.hn-stream-range-btn {
+  padding: 5px 14px;
+  font-size: 13px;
+  font-family: var(--hn-sans);
+  background: transparent;
+  border: none;
+  border-right: 1px solid #ccc;
+  color: var(--muted);
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+  white-space: nowrap;
+}
+.hn-stream-range-btn:last-child {
+  border-right: none;
+}
+.hn-stream-range-btn:hover {
+  background: rgba(0,0,0,0.05);
+}
+.hn-stream-range-btn.hn-stream-range-active {
+  background: var(--link);
+  color: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  .hn-stream-range-bar {
+    border-color: #444;
+  }
+  .hn-stream-range-btn {
+    border-color: #444;
+    color: #aaa;
+  }
+  .hn-stream-range-btn:hover {
+    background: rgba(255,255,255,0.08);
+  }
+  .hn-stream-range-btn.hn-stream-range-active {
+    background: var(--link);
+    color: #111;
+  }
+}
+@media (max-width: 600px) {
+  .hn-stream-controls {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .hn-stream-range-btn {
+    padding: 4px 10px;
+    font-size: 12px;
+  }
+}
 .hn-stream-wrap {
   position: relative;
   margin: 0 0 2rem;
