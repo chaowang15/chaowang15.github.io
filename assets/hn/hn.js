@@ -964,6 +964,288 @@
 })();
 
 
+// ===== Stream Graph (Trends page) =====
+(function () {
+  function initStreamGraph() {
+    var container = document.getElementById('hn-stream-wrap');
+    if (!container) return;
+
+    var chartEl = document.getElementById('hn-stream-chart');
+    var tooltip = document.getElementById('hn-stream-tooltip');
+    var legendEl = document.getElementById('hn-stream-legend');
+
+    var TAG_COLORS = {
+      'AI': '#e74c3c', 'Programming': '#3498db', 'Security': '#e67e22',
+      'Business': '#9b59b6', 'Privacy': '#1abc9c', 'Open Source': '#27ae60',
+      'Hardware': '#f39c12', 'DevOps': '#2980b9', 'Politics': '#c0392b',
+      'Legal': '#8e44ad', 'Show HN': '#16a085', 'Web': '#d35400',
+      'Design': '#e91e63', 'Science': '#00bcd4', 'Culture': '#ff9800',
+      'Data': '#607d8b', 'Finance': '#4caf50', 'Health': '#f44336',
+      'Education': '#3f51b5', 'Gaming': '#ff5722', 'Startups': '#795548',
+      'Entertainment': '#9c27b0', 'Career': '#009688', 'Other': '#95a5a6'
+    };
+    function tagColor(tag) { return TAG_COLORS[tag] || '#95a5a6'; }
+
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', '/hackernews/tag_trend.json', true);
+    xhr.onload = function () {
+      if (xhr.status !== 200) return;
+      var data;
+      try { data = JSON.parse(xhr.responseText); } catch (e) { return; }
+      if (!data || !data.tags || !data.series || data.series.length < 2) return;
+
+      var tags = data.tags;
+      var series = data.series;
+      var dates = series.map(function (s) { return s.date; });
+
+      // Compute stacked values (baseline = 0, stack upward)
+      var stacked = []; // stacked[tagIdx][dateIdx] = { y0, y1 }
+      for (var t = 0; t < tags.length; t++) {
+        stacked.push([]);
+      }
+      for (var d = 0; d < series.length; d++) {
+        var y0 = 0;
+        for (var t = 0; t < tags.length; t++) {
+          var val = series[d][tags[t]] || 0;
+          stacked[t].push({ y0: y0, y1: y0 + val, val: val });
+          y0 += val;
+        }
+      }
+
+      // Find max total
+      var maxY = 0;
+      for (var d = 0; d < series.length; d++) {
+        var last = stacked[tags.length - 1][d];
+        if (last.y1 > maxY) maxY = last.y1;
+      }
+
+      // SVG dimensions
+      var W = 800, H = 360;
+      var padL = 45, padR = 20, padT = 20, padB = 40;
+      var plotW = W - padL - padR;
+      var plotH = H - padT - padB;
+
+      function xPos(i) { return padL + (i / (dates.length - 1)) * plotW; }
+      function yPos(v) { return padT + plotH - (v / maxY) * plotH; }
+
+      // Build smooth path using cardinal spline
+      function buildAreaPath(tagIdx) {
+        var pts = stacked[tagIdx];
+        var n = pts.length;
+        if (n < 2) return '';
+
+        // Top line (y1) left to right
+        var topX = [], topY = [];
+        for (var i = 0; i < n; i++) {
+          topX.push(xPos(i));
+          topY.push(yPos(pts[i].y1));
+        }
+        // Bottom line (y0) right to left
+        var botX = [], botY = [];
+        for (var i = n - 1; i >= 0; i--) {
+          botX.push(xPos(i));
+          botY.push(yPos(pts[i].y0));
+        }
+
+        // Monotone cubic interpolation for smooth curves
+        function monotonePath(xs, ys) {
+          var n = xs.length;
+          if (n < 2) return 'M' + xs[0] + ',' + ys[0];
+          if (n === 2) return 'M' + xs[0] + ',' + ys[0] + 'L' + xs[1] + ',' + ys[1];
+
+          // Compute tangents
+          var ms = [];
+          for (var i = 0; i < n - 1; i++) {
+            ms.push((ys[i + 1] - ys[i]) / (xs[i + 1] - xs[i]));
+          }
+          var ts = [ms[0]];
+          for (var i = 1; i < n - 1; i++) {
+            if (ms[i - 1] * ms[i] <= 0) { ts.push(0); }
+            else { ts.push((ms[i - 1] + ms[i]) / 2); }
+          }
+          ts.push(ms[n - 2]);
+
+          var d = 'M' + xs[0].toFixed(2) + ',' + ys[0].toFixed(2);
+          for (var i = 0; i < n - 1; i++) {
+            var dx = (xs[i + 1] - xs[i]) / 3;
+            d += 'C' + (xs[i] + dx).toFixed(2) + ',' + (ys[i] + ts[i] * dx).toFixed(2)
+              + ',' + (xs[i + 1] - dx).toFixed(2) + ',' + (ys[i + 1] - ts[i + 1] * dx).toFixed(2)
+              + ',' + xs[i + 1].toFixed(2) + ',' + ys[i + 1].toFixed(2);
+          }
+          return d;
+        }
+
+        var topPath = monotonePath(topX, topY);
+        var botPath = monotonePath(botX, botY);
+        // Connect: top path forward, line to bottom start, bottom path, close
+        return topPath + 'L' + botX[0].toFixed(2) + ',' + botY[0].toFixed(2)
+          + botPath.substring(botPath.indexOf('L') !== -1 ? botPath.indexOf('L') : botPath.indexOf('C'))
+          + 'Z';
+      }
+
+      // Create SVG
+      var svgNS = 'http://www.w3.org/2000/svg';
+      var svg = document.createElementNS(svgNS, 'svg');
+      svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H);
+      svg.setAttribute('width', W);
+      svg.setAttribute('height', H);
+      svg.style.display = 'block';
+      svg.style.margin = '0 auto';
+
+      // Y-axis grid lines
+      var gridSteps = 5;
+      var gridStep = Math.ceil(maxY / gridSteps);
+      for (var g = 0; g <= maxY; g += gridStep) {
+        var gy = yPos(g);
+        var line = document.createElementNS(svgNS, 'line');
+        line.setAttribute('x1', padL);
+        line.setAttribute('x2', W - padR);
+        line.setAttribute('y1', gy);
+        line.setAttribute('y2', gy);
+        line.setAttribute('stroke', '#ddd');
+        line.setAttribute('stroke-width', '0.5');
+        svg.appendChild(line);
+
+        var label = document.createElementNS(svgNS, 'text');
+        label.setAttribute('x', padL - 8);
+        label.setAttribute('y', gy + 4);
+        label.setAttribute('text-anchor', 'end');
+        label.setAttribute('font-size', '11');
+        label.setAttribute('fill', '#999');
+        label.setAttribute('font-family', 'system-ui, sans-serif');
+        label.textContent = g;
+        svg.appendChild(label);
+      }
+
+      // Draw area paths (bottom tags first = rendered behind)
+      var pathEls = [];
+      for (var t = tags.length - 1; t >= 0; t--) {
+        var path = document.createElementNS(svgNS, 'path');
+        var d = buildAreaPath(t);
+        path.setAttribute('d', d);
+        path.setAttribute('fill', tagColor(tags[t]));
+        path.setAttribute('fill-opacity', '0.7');
+        path.setAttribute('stroke', tagColor(tags[t]));
+        path.setAttribute('stroke-width', '0.5');
+        path.setAttribute('stroke-opacity', '0.3');
+        path.setAttribute('class', 'hn-stream-path');
+        path.setAttribute('data-tag', tags[t]);
+        svg.appendChild(path);
+        pathEls[t] = path;
+      }
+
+      // X-axis date labels
+      for (var d = 0; d < dates.length; d++) {
+        var lx = xPos(d);
+        var label = document.createElementNS(svgNS, 'text');
+        label.setAttribute('x', lx);
+        label.setAttribute('y', H - padB + 20);
+        label.setAttribute('text-anchor', 'middle');
+        label.setAttribute('font-size', '11');
+        label.setAttribute('fill', '#999');
+        label.setAttribute('font-family', 'system-ui, sans-serif');
+        // Show short date: MM-DD
+        var parts = dates[d].split('-');
+        label.textContent = parts[1] + '-' + parts[2];
+        svg.appendChild(label);
+      }
+
+      chartEl.appendChild(svg);
+
+      // Hover interaction
+      var currentHighlight = -1;
+      svg.addEventListener('mousemove', function (e) {
+        var rect = svg.getBoundingClientRect();
+        var scaleX = W / rect.width;
+        var scaleY = H / rect.height;
+        var mx = (e.clientX - rect.left) * scaleX;
+        var my = (e.clientY - rect.top) * scaleY;
+
+        // Find which date column
+        var dateIdx = -1;
+        var minDist = Infinity;
+        for (var i = 0; i < dates.length; i++) {
+          var dist = Math.abs(mx - xPos(i));
+          if (dist < minDist) { minDist = dist; dateIdx = i; }
+        }
+        if (dateIdx < 0 || mx < padL - 10 || mx > W - padR + 10) {
+          tooltip.style.display = 'none';
+          resetHighlight();
+          return;
+        }
+
+        // Find which tag band the mouse is in
+        var hitTag = -1;
+        for (var t = 0; t < tags.length; t++) {
+          var y0 = yPos(stacked[t][dateIdx].y0);
+          var y1 = yPos(stacked[t][dateIdx].y1);
+          if (my >= y1 && my <= y0) { hitTag = t; break; }
+        }
+
+        if (hitTag >= 0) {
+          // Highlight this tag
+          if (currentHighlight !== hitTag) {
+            resetHighlight();
+            for (var t = 0; t < tags.length; t++) {
+              if (t !== hitTag) pathEls[t].setAttribute('fill-opacity', '0.2');
+              else pathEls[t].setAttribute('fill-opacity', '0.9');
+            }
+            currentHighlight = hitTag;
+          }
+
+          // Build tooltip
+          var val = stacked[hitTag][dateIdx].val;
+          tooltip.innerHTML = '<b>' + tags[hitTag] + '</b><br>' + dates[dateIdx] + ': ' + val + ' stories';
+          tooltip.style.display = 'block';
+
+          // Position tooltip
+          var tx = e.clientX - container.getBoundingClientRect().left + 12;
+          var ty = e.clientY - container.getBoundingClientRect().top - 10;
+          if (tx + 150 > container.offsetWidth) tx = tx - 170;
+          tooltip.style.left = tx + 'px';
+          tooltip.style.top = ty + 'px';
+        } else {
+          tooltip.style.display = 'none';
+          resetHighlight();
+        }
+      });
+
+      svg.addEventListener('mouseleave', function () {
+        tooltip.style.display = 'none';
+        resetHighlight();
+      });
+
+      function resetHighlight() {
+        if (currentHighlight >= 0) {
+          for (var t = 0; t < tags.length; t++) {
+            pathEls[t].setAttribute('fill-opacity', '0.7');
+          }
+          currentHighlight = -1;
+        }
+      }
+
+      // Build legend
+      for (var t = 0; t < tags.length; t++) {
+        var item = document.createElement('span');
+        item.className = 'hn-stream-legend-item';
+        var swatch = document.createElement('span');
+        swatch.className = 'hn-stream-legend-swatch';
+        swatch.style.background = tagColor(tags[t]);
+        item.appendChild(swatch);
+        item.appendChild(document.createTextNode(tags[t]));
+        legendEl.appendChild(item);
+      }
+    };
+    xhr.send();
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initStreamGraph);
+  } else {
+    initStreamGraph();
+  }
+})();
+
 
 // ===== Language Toggle (News pages) =====
 (function () {

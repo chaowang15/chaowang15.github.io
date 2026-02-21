@@ -12,3 +12,11 @@ title: "Tag Trends — Hacker News Daily"
 <div class='hn-tag-cloud-tooltip' id='hn-tag-cloud-tooltip'></div>
 </div>
 </div>
+
+<h2 class='hn-h2' style='margin-top:2.5rem;'>Tag Trend Stream</h2>
+<p class='hn-meta' style='margin-bottom:1rem;'>Daily tag distribution over the past week</p>
+<div class='hn-stream-wrap' id='hn-stream-wrap'>
+<div class='hn-stream-chart' id='hn-stream-chart'></div>
+<div class='hn-stream-tooltip' id='hn-stream-tooltip'></div>
+<div class='hn-stream-legend' id='hn-stream-legend'></div>
+</div>

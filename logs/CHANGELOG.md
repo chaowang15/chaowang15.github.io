@@ -4,6 +4,60 @@
 
 ---
 
+## 2026年2月20日 (搜索关键词高亮)
+
+为 Index 页面的搜索结果添加关键词高亮功能，匹配的搜索词以黄色背景标记，方便用户快速定位相关内容。
+
+### 高亮覆盖范围
+
+- **英文标题**（`.hn-search-item-title`）
+- **中文副标题**（`.hn-search-item-zh`）
+- **作者名**（meta 中的 `by` 字段）
+
+### 技术细节
+
+- 新增 `highlightText(text, query)` 函数，将搜索词按空格拆分为多个关键词，每个词独立匹配。
+- 使用 `<mark class="hn-highlight">` 标签包裹匹配文本，不区分大小写。
+- 最小匹配长度 2 字符，避免单字母误匹配。
+- CSS 支持 light/dark mode 两种高亮颜色。
+- 涉及文件：`assets/hn/hn.js`、`assets/hn/hn.css`。
+
+---
+
+## 2026年2月20日 (搜索结果和 Weekly 卡片字体增大)
+
+将搜索结果和 Weekly Digest compact 卡片的字体增大约 12–15%，提升可读性。
+
+| 组件 | 元素 | 修改前 | 修改后 |
+|------|------|--------|--------|
+| 搜索结果 | 标题 | 15px | 17px |
+| 搜索结果 | 中文副标题 | 13px | 15px |
+| 搜索结果 | 元数据 | 12px | 14px |
+| 搜索结果 | 标签 | 11px | 12px |
+| 搜索结果 | 页面链接按钮 | 12px | 14px |
+| Weekly 卡片 | 标题 | 15px | 17px |
+| Weekly 卡片 | 元数据 | 13px | 15px |
+| Weekly 卡片 | 标签 | 10px | 11px |
+| Weekly 卡片 | 页面链接按钮 | 11px | 13px |
+| Weekly 卡片 | 移动端标题 | 14px | 16px |
+
+- 涉及文件：`assets/hn/hn.css`。
+
+---
+
+## 2026年2月20日 (Index 页面副标题清理和布局修复)
+
+对 Index 页面副标题行进行三项清理，并修复布局问题：
+
+1. **删除 "Daily scraped" 前缀** — 与页面大标题重复。
+2. **删除 "Hacker News"** — H1 已包含，副标题简化为 "Daily Best & Trending"。
+3. **修复双标点** — 删除多余的句号（`". ·"` → `" ·"`）。
+4. **修复布局** — 将 `.hn-subtitle` 的 `justify-content` 从 `space-between` 改为 `flex-start`，使内容从左到右紧凑排列。
+
+- 涉及文件：`hackernews/index.md`、`news_scraper/index_updater.py`、`assets/hn/hn.css`。
+
+---
+
 ## 2026年2月20日 (移动端字体优化)
 
 针对移动设备（max-width: 640px）将大部分 UI 元素的字体缩小约 10–15%，以提升手机上的信息密度和阅读体验。
