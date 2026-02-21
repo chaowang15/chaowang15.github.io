@@ -165,7 +165,7 @@ def render_markdown(
         if title_zh:
             lines.append(f"<p class='hn-meta'>{title_zh}</p>")
 
-        # New info row under Chinese subtitle (backward compatible)
+        # Info row under Chinese subtitle (author and time)
         created_display = it.get("created_display", "")
         hn = it.get("hn") or {}
         hn_score = hn.get("score")
@@ -173,35 +173,33 @@ def render_markdown(
         comments_url = hn.get("comments_url")
         hn_desc = hn.get("descendants")
 
-        parts = []
-
-        # Created time
+        # Only show the time row if created_display exists
         if created_display:
-            parts.append(f"<span class='hn-meta2-created'>{created_display}</span>")
+            lines.append(f"<p class='hn-meta2'><span class='hn-meta2-created'>{created_display}</span></p>")
 
-        # "120 points by cheeaun"
-        if hn_score is not None and hn_by:
-            parts.append(f"<span class='hn-meta2-points'>{hn_score} points by {hn_by}</span>")
-
-        # Comments link (optionally show count if available)
-        if comments_url:
-            if hn_desc is not None:
-                parts.append(
-                    f"<a class='hn-meta2-comments' href='{comments_url}' target='_blank' rel='noopener noreferrer'>Comments ({hn_desc})</a>"
+        # Tags row with score/comments icons (rendered as colored pill badges)
+        tag_line_parts = []
+        # Score icon (linked to HN comments page)
+        if hn_score is not None:
+            if comments_url:
+                tag_line_parts.append(
+                    f"<a class='hn-stat hn-stat-score' href='{comments_url}' target='_blank' rel='noopener noreferrer'>&#9650; {hn_score}</a>"
                 )
             else:
-                parts.append(
-                    f"<a class='hn-meta2-comments' href='{comments_url}' target='_blank' rel='noopener noreferrer'>Comments</a>"
+                tag_line_parts.append(f"<span class='hn-stat hn-stat-score'>&#9650; {hn_score}</span>")
+        # Comments icon (with link to HN comments)
+        if hn_desc is not None:
+            if comments_url:
+                tag_line_parts.append(
+                    f"<a class='hn-stat hn-stat-comments' href='{comments_url}' target='_blank' rel='noopener noreferrer'>&#128172; {hn_desc}</a>"
                 )
-
-        # Only show the new row if anything exists (old json won't show it)
-        if parts:
-            lines.append("<p class='hn-meta2'>" + "<span class='hn-sep'> · </span>".join(parts) + "</p>")
-
-        # Tags row (rendered as colored pill badges)
-        if tags:
-            tags_html = " ".join(_tag_html(t) for t in tags)
-            lines.append(f"<div class='hn-tags'>{tags_html}</div>")
+            else:
+                tag_line_parts.append(f"<span class='hn-stat hn-stat-comments'>&#128172; {hn_desc}</span>")
+        # Tag badges
+        for t in tags:
+            tag_line_parts.append(_tag_html(t))
+        if tag_line_parts:
+            lines.append(f"<div class='hn-tags'>{' '.join(tag_line_parts)}</div>")
 
         # Image under meta (subtitle)
         if image_url:

@@ -270,10 +270,12 @@ def render_weekly_digest(
         lines.append(f"<div class='hn-card hn-card-compact'{id_attr} data-tags='{tags_data}'>")
         lines.append("<div class='hn-body'>")
 
-        # Title row with score badge
-        score_badge = f"<span class='hn-compact-score'>{score}</span> " if score else ""
+        hn_desc = hn.get("descendants")
+        comments_url = hn.get("comments_url", "")
+
+        # Title row (no score badge — moved to tags line)
         lines.append(
-            f"<p class='hn-title'>{score_badge}"
+            f"<p class='hn-title'>"
             f"<a href='{url}' target='_blank' rel='noopener noreferrer'>{title_en}</a>"
             f"</p>"
         )
@@ -281,10 +283,26 @@ def render_weekly_digest(
         if title_zh:
             lines.append(f"<p class='hn-meta hn-text-zh'>{title_zh}</p>")
 
-        # Tags (inline, compact)
-        if tags:
-            tags_html = " ".join(_tag_html(t) for t in tags)
-            lines.append(f"<div class='hn-tags'>{tags_html}</div>")
+        # Tags line with score/comments icons
+        tag_line_parts = []
+        if score:
+            if comments_url:
+                tag_line_parts.append(
+                    f"<a class='hn-stat hn-stat-score' href='{comments_url}' target='_blank' rel='noopener noreferrer'>&#9650; {score}</a>"
+                )
+            else:
+                tag_line_parts.append(f"<span class='hn-stat hn-stat-score'>&#9650; {score}</span>")
+        if hn_desc is not None:
+            if comments_url:
+                tag_line_parts.append(
+                    f"<a class='hn-stat hn-stat-comments' href='{comments_url}' target='_blank' rel='noopener noreferrer'>&#128172; {hn_desc}</a>"
+                )
+            else:
+                tag_line_parts.append(f"<span class='hn-stat hn-stat-comments'>&#128172; {hn_desc}</span>")
+        for t in tags:
+            tag_line_parts.append(_tag_html(t))
+        if tag_line_parts:
+            lines.append(f"<div class='hn-tags'>{' '.join(tag_line_parts)}</div>")
 
         # "View in daily page" link
         if page_url and anchor:
