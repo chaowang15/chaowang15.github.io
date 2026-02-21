@@ -2,6 +2,7 @@
 layout: hn
 title: "Hacker News Daily"
 ---
+
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
 <div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>6</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>525</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>5</span> best files</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>4</span> top files</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-02-21</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a></div>
@@ -75,6 +76,62 @@ Sort:
 <div class='hn-top-story-meta'><span class='hn-top-story-score'>&#9650; 798</span> <span class='hn-top-story-comments'>&#128172; 431</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
+<div class='hn-top-story-item hn-top-story-extra'>
+<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<span class='hn-top-story-title-text'>Ggml.ai joins Hugging Face to ensure the long-term progress of Local AI</span>
+ <a class='hn-top-story-link' href='/hackernews/2026/02/21/top_stories_02212026#story-47088037' title='View in daily page'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Ggml.ai 加入 Hugging Face，推动本地 AI 的长期发展</div>
+<div class='hn-top-story-meta'><span class='hn-top-story-score'>&#9650; 794</span> <span class='hn-top-story-comments'>&#128172; 210</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Privacy</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra'>
+<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<span class='hn-top-story-title-text'>I Verified My LinkedIn Identity. Here's What I Handed Over</span>
+ <a class='hn-top-story-link' href='/hackernews/2026/02/21/top_stories_02212026#story-47098245' title='View in daily page'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>我验证了我的 LinkedIn 身份，我交出了什么</div>
+<div class='hn-top-story-meta'><span class='hn-top-story-score'>&#9650; 788</span> <span class='hn-top-story-comments'>&#128172; 290</span> <span class='hn-top-story-tag'>Privacy</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra'>
+<span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<span class='hn-top-story-title-text'>I found a useful Git one liner buried in leaked CIA developer docs</span>
+ <a class='hn-top-story-link' href='/hackernews/2026/02/21/top_stories_02212026#story-47088181' title='View in daily page'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>在泄露的 CIA 开发者文档中发现一个有用的 Git 一行命令</div>
+<div class='hn-top-story-meta'><span class='hn-top-story-score'>&#9650; 674</span> <span class='hn-top-story-comments'>&#128172; 238</span> <span class='hn-top-story-tag'>Programming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra'>
+<span class='hn-top-story-rank'>9</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<span class='hn-top-story-title-text'>Turn Dependabot off</span>
+ <a class='hn-top-story-link' href='/hackernews/2026/02/21/top_stories_02212026#story-47094192' title='View in daily page'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>关闭 Dependabot</div>
+<div class='hn-top-story-meta'><span class='hn-top-story-score'>&#9650; 589</span> <span class='hn-top-story-comments'>&#128172; 170</span> <span class='hn-top-story-tag'>DevOps</span> <span class='hn-top-story-tag'>Security</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra'>
+<span class='hn-top-story-rank'>10</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<span class='hn-top-story-title-text'>Wikipedia deprecates Archive.today, starts removing archive links</span>
+ <a class='hn-top-story-link' href='/hackernews/2026/02/21/top_stories_02212026#story-47092006' title='View in daily page'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>维基百科弃用 Archive.today，开始移除归档链接</div>
+<div class='hn-top-story-meta'><span class='hn-top-story-score'>&#9650; 552</span> <span class='hn-top-story-comments'>&#128172; 335</span> <span class='hn-top-story-tag'>Web</span></div>
+</div>
+</div>
+<button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
 <a class='hn-top-stories-more' href='/hackernews/2026/02/21/top_stories_02212026'>View all trending stories &rarr;</a>
 </div>
 </div>

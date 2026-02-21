@@ -376,7 +376,7 @@ def update_hackernews_index(
 
 
     # Today's Top Stories section
-    top_stories = _get_top_stories(base_dir, all_days, n=5)
+    top_stories = _get_top_stories(base_dir, all_days, n=10)
     if top_stories:
         lines.append("<div class='hn-index-section hn-top-stories-section'>")
         lines.append("<h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>")
@@ -397,7 +397,9 @@ def update_hackernews_index(
             else:
                 story_link = url  # fallback to original URL
 
-            lines.append(f"<div class='hn-top-story-item'>")
+            # Items 6-10 are hidden by default (show more)
+            extra_cls = ' hn-top-story-extra' if i > 5 else ''
+            lines.append(f"<div class='hn-top-story-item{extra_cls}'>")
             lines.append(f"<span class='hn-top-story-rank'>{i}</span>")
             lines.append(f"<div class='hn-top-story-content'>")
             # Title line with link to our daily page
@@ -418,6 +420,9 @@ def update_hackernews_index(
             lines.append(f"<div class='hn-top-story-meta'>{' '.join(meta_parts)}</div>")
             lines.append(f"</div>")  # hn-top-story-content
             lines.append(f"</div>")  # hn-top-story-item
+        # Show more / Show less toggle button (only if we have more than 5)
+        if len(top_stories) > 5:
+            lines.append("<button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>")
         # Link to full daily page
         if top_stories[0].get('daily_url'):
             lines.append(f"<a class='hn-top-stories-more' href='{top_stories[0]['daily_url']}'>View all trending stories &rarr;</a>")

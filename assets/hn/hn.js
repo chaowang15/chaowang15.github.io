@@ -375,6 +375,35 @@
   }
 })();
 
+// ===== Top Stories Show More/Less Toggle =====
+(function () {
+  function initTopStoriesToggle() {
+    var btn = document.getElementById('hn-top-stories-toggle');
+    if (!btn) return;
+    var list = btn.closest('.hn-top-stories-list');
+    if (!list) return;
+    var expanded = false;
+    btn.addEventListener('click', function () {
+      expanded = !expanded;
+      if (expanded) {
+        list.classList.add('is-expanded');
+        btn.textContent = 'Show less \u25B2';
+      } else {
+        list.classList.remove('is-expanded');
+        btn.textContent = 'Show more \u25BC';
+        // Scroll back to the top stories section
+        var section = list.closest('.hn-top-stories-section');
+        if (section) section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    });
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initTopStoriesToggle);
+  } else {
+    initTopStoriesToggle();
+  }
+})();
+
 // ===== Global Search (Index page only) =====
 (function () {
   var PAGE_SIZE = 20;
