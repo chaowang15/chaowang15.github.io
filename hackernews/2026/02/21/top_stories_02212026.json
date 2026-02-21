@@ -4,16 +4,16 @@
     "source": "https://news.ycombinator.com/",
     "api": "https://github.com/HackerNews/API",
     "count_requested": 50,
-    "count_written": 60,
-    "reused_same_day": 38,
-    "reused_cross_day": 1,
-    "new_llm_enriched": 10,
-    "scrape_time_display": "10:30, February 21, 2026 (PST)",
+    "count_written": 85,
+    "reused_same_day": 24,
+    "reused_cross_day": 4,
+    "new_llm_enriched": 21,
+    "scrape_time_display": "14:13, February 21, 2026 (PST)",
     "timezone": "America/Los_Angeles",
     "date_dir": "2026/02/21",
     "content_date": "2026-02-21",
-    "run_time_local": "10:30, February 21, 2026 (PST)",
-    "run_time_utc": "2026-02-21 18:30:38 UTC",
+    "run_time_local": "14:13, February 21, 2026 (PST)",
+    "run_time_utc": "2026-02-21 22:13:38 UTC",
     "incremental": true,
     "stories_max": 100
   },
@@ -30,8 +30,8 @@
         "id": 47091419,
         "type": "story",
         "by": "LorenDB",
-        "score": 1881,
-        "descendants": 644,
+        "score": 1955,
+        "descendants": 673,
         "time": 1771610331,
         "comments_url": "https://news.ycombinator.com/item?id=47091419"
       },
@@ -81,13 +81,35 @@
         "comments_url": "https://news.ycombinator.com/item?id=47091748"
       },
       "tags": [
-        "Privacy",
         "Business",
+        "Privacy",
         "Politics"
       ]
     },
     {
-      "title_en": "I found a Vulnerability. They found a Lawyer",
+      "title_en": "I verified my LinkedIn identity. Here's what I handed over",
+      "url": "https://thelocalstack.eu/posts/linkedin-identity-verification-privacy/",
+      "title_zh": "我验证了我的 LinkedIn 身份，我交出了什么",
+      "created_display": "Created: Feb 20, 2026 / 23:06 PT",
+      "image_url": null,
+      "summary_en": "Explores what data is handed over during LinkedIn identity verification, revealing privacy implications and potential exposure.",
+      "summary_zh": "分析在 LinkedIn 身份验证过程中实际提交的数据及其隐私风险，揭示可能的暴露点，并给出用户在考虑身份验证时的实用建议。",
+      "hn": {
+        "id": 47098245,
+        "type": "story",
+        "by": "ColinWright",
+        "score": 1030,
+        "descendants": 379,
+        "time": 1771657578,
+        "comments_url": "https://news.ycombinator.com/item?id=47098245"
+      },
+      "tags": [
+        "Privacy",
+        "Data"
+      ]
+    },
+    {
+      "title_en": "I found a vulnerability. they found a lawyer",
       "url": "https://dixken.de/blog/i-found-a-vulnerability-they-found-a-lawyer",
       "title_zh": "我发现了漏洞，他们找来了律师",
       "created_display": "Created: Feb 20, 2026 / 11:19 PT",
@@ -98,8 +120,8 @@
         "id": 47092578,
         "type": "story",
         "by": "toomuchtodo",
-        "score": 803,
-        "descendants": 370,
+        "score": 838,
+        "descendants": 391,
         "time": 1771615198,
         "comments_url": "https://news.ycombinator.com/item?id=47092578"
       },
@@ -154,27 +176,6 @@
       ]
     },
     {
-      "title_en": "I Verified My LinkedIn Identity. Here's What I Handed Over",
-      "url": "https://thelocalstack.eu/posts/linkedin-identity-verification-privacy/",
-      "title_zh": "我验证了我的 LinkedIn 身份，我交出了什么",
-      "created_display": "Created: Feb 20, 2026 / 23:06 PT",
-      "image_url": null,
-      "summary_en": "Explores what data is handed over during LinkedIn identity verification, revealing privacy implications and potential exposure.",
-      "summary_zh": "分析在 LinkedIn 身份验证过程中实际提交的数据及其隐私风险，揭示可能的暴露点，并给出用户在考虑身份验证时的实用建议。",
-      "hn": {
-        "id": 47098245,
-        "type": "story",
-        "by": "ColinWright",
-        "score": 788,
-        "descendants": 290,
-        "time": 1771657578,
-        "comments_url": "https://news.ycombinator.com/item?id=47098245"
-      },
-      "tags": [
-        "Privacy"
-      ]
-    },
-    {
       "title_en": "I found a useful Git one liner buried in leaked CIA developer docs",
       "url": "https://spencer.wtf/2026/02/20/cleaning-up-merged-git-branches-a-one-liner-from-the-cias-leaked-dev-docs.html",
       "title_zh": "在泄露的 CIA 开发者文档中发现一个有用的 Git 一行命令",
@@ -207,12 +208,13 @@
         "id": 47094192,
         "type": "story",
         "by": "todsacerdoti",
-        "score": 589,
-        "descendants": 170,
+        "score": 610,
+        "descendants": 179,
         "time": 1771622741,
         "comments_url": "https://news.ycombinator.com/item?id=47094192"
       },
       "tags": [
+        "Programming",
         "DevOps",
         "Security"
       ]
@@ -261,6 +263,28 @@
       ]
     },
     {
+      "title_en": "What not to write on your security clearance form (1988)",
+      "url": "https://milk.com/wall-o-shame/security_clearance.html",
+      "title_zh": "填写安全许可申请表时不该写的内容",
+      "created_display": "Created: Feb 21, 2026 / 09:08 PT",
+      "image_url": "https://milk.com/wall-o-shame/wos-mark.gif",
+      "summary_en": "Common security-clearance mistakes derail applications: inflating qualifications, omitting required disclosures, or flagging risky personal associations. The piece maps these pitfalls to practical strategies—be honest, concise, and consistent, and explain any tricky items with proper context to minimize red flags. It also stresses alignment across related forms to avoid inconsistent narratives.",
+      "summary_zh": "在安全许可申请表中，常见错误会导致申请被拒：夸大资历、遗漏必填披露信息，以及暴露可能带来风险的个人关系。文章将这些坑点映射到实用策略，强调诚实、简洁、前后一致，并在需要时给出合理解释以降低红旗风险。 同时强调相关表格之间的一致性，避免叙述不一致。",
+      "hn": {
+        "id": 47102576,
+        "type": "story",
+        "by": "wizardforhire",
+        "score": 332,
+        "descendants": 133,
+        "time": 1771693692,
+        "comments_url": "https://news.ycombinator.com/item?id=47102576"
+      },
+      "tags": [
+        "Security",
+        "Legal"
+      ]
+    },
+    {
       "title_en": "Every company building your AI assistant is now an ad company",
       "url": "https://juno-labs.com/blogs/every-company-building-your-ai-assistant-is-an-ad-company",
       "title_zh": "打造你的 AI 助手的每家公司如今都变成了广告公司",
@@ -278,8 +302,31 @@
         "comments_url": "https://news.ycombinator.com/item?id=47092203"
       },
       "tags": [
-        "AI",
-        "Privacy"
+        "Business",
+        "Privacy",
+        "AI"
+      ]
+    },
+    {
+      "title_en": "How far back in time can you understand English?",
+      "url": "https://www.deadlanguagesociety.com/p/how-far-back-in-time-understand-english",
+      "title_zh": "你能理解多早期的英语？",
+      "created_display": "Created: Feb 18, 2026 / 06:56 PT",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!94Uq!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5dddb379-4714-4730-bb8d-538c26e2d623_1600x1066.jpeg",
+      "summary_en": "Old English, Middle English, and Early Modern English each present distinct vocabulary, grammar, and spelling gaps from modern usage. The piece surveys how far a typical reader can understand these stages and what tools help bridge the distance, such as glossaries and annotated editions. It notes that comprehension improves with exposure, but some periods remain opaque without study.",
+      "summary_zh": "古英语、中古英语和早期现代英语在词汇、语法和拼写上与现代英语存在显著差异。本文探讨普通读者在多大程度上能理解这些阶段，并介绍通过词汇表、注释版等工具来缩小差距的做法。理解能力会随着接触而提升，但若不系统学习，某些时期仍难以读懂。",
+      "hn": {
+        "id": 47061614,
+        "type": "story",
+        "by": "spzb",
+        "score": 253,
+        "descendants": 157,
+        "time": 1771426618,
+        "comments_url": "https://news.ycombinator.com/item?id=47061614"
+      },
+      "tags": [
+        "Education",
+        "Culture"
       ]
     },
     {
@@ -324,7 +371,7 @@
       },
       "tags": [
         "Web",
-        "Design",
+        "Science",
         "Security"
       ]
     },
@@ -346,7 +393,8 @@
         "comments_url": "https://news.ycombinator.com/item?id=47085425"
       },
       "tags": [
-        "Programming"
+        "Programming",
+        "Education"
       ]
     },
     {
@@ -361,8 +409,8 @@
         "id": 47091606,
         "type": "story",
         "by": "pminimax",
-        "score": 214,
-        "descendants": 211,
+        "score": 222,
+        "descendants": 225,
         "time": 1771611253,
         "comments_url": "https://news.ycombinator.com/item?id=47091606"
       },
@@ -383,7 +431,7 @@
         "id": 47093724,
         "type": "story",
         "by": "joebig",
-        "score": 208,
+        "score": 218,
         "descendants": 20,
         "time": 1771620468,
         "comments_url": "https://news.ycombinator.com/item?id=47093724"
@@ -405,14 +453,80 @@
         "id": 47096520,
         "type": "story",
         "by": "cratermoon",
-        "score": 184,
-        "descendants": 68,
+        "score": 198,
+        "descendants": 75,
         "time": 1771637620,
         "comments_url": "https://news.ycombinator.com/item?id=47096520"
       },
       "tags": [
-        "Programming",
-        "Security"
+        "Security",
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "AI uBlock Blacklist",
+      "url": "https://github.com/alvi-se/ai-ublock-blacklist",
+      "title_zh": "AI 版 uBlock 黑名单",
+      "created_display": "Created: Feb 21, 2026 / 00:10 PT",
+      "image_url": "https://opengraph.githubassets.com/19f1634736812f6482861569ec755a58a16569e81f8dfe6c3cb8cec7701a6740/alvi-se/ai-ublock-blacklist",
+      "summary_en": "This repository curates ad-blocking filters leveraging AI to identify and block content that resembles ads or trackers, aiming to improve the effectiveness of ad blockers in AI-enabled browsing.",
+      "summary_zh": "该仓库提供用于 uBlock Origin 等广告拦截器的 AI 驱动过滤清单，旨在更准确地识别并屏蔽与 AI 相关的广告和跟踪。",
+      "hn": {
+        "id": 47098582,
+        "type": "story",
+        "by": "rdmuser",
+        "score": 193,
+        "descendants": 79,
+        "time": 1771661449,
+        "comments_url": "https://news.ycombinator.com/item?id=47098582"
+      },
+      "tags": [
+        "AI",
+        "Open Source"
+      ]
+    },
+    {
+      "title_en": "macOS's Little-Known Command-Line Sandboxing Tool (2025)",
+      "url": "https://igorstechnoclub.com/sandbox-exec/",
+      "title_zh": "macOS 鲜为人知的命令行沙箱工具（2025）",
+      "created_display": "Created: Feb 21, 2026 / 06:34 PT",
+      "image_url": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/herman-1683556668-0.png",
+      "summary_en": "Sandbox-exec provides a quick, scriptable way to apply sandbox policies to a process, but it's brittle, poorly maintained, and effectively deprecated. The piece explains how it works, its policy language, and the risks of relying on it in modern macOS apps. It also contrasts it with modern macOS sandboxing approaches like App Sandbox and entitlements.",
+      "summary_zh": "Sandbox-exec 提供了一种快速、可脚本化的方式来对进程应用沙箱策略，但它易脆、维护不足，且在现代 macOS 上已被弃用。文章讲解了其工作原理、策略语言，以及在现代应用中依赖它的风险。 同时将其与现代 macOS 沙箱机制如应用沙箱和权限进行了对比。",
+      "hn": {
+        "id": 47101200,
+        "type": "story",
+        "by": "Igor_Wiwi",
+        "score": 179,
+        "descendants": 74,
+        "time": 1771684485,
+        "comments_url": "https://news.ycombinator.com/item?id=47101200"
+      },
+      "tags": [
+        "Security",
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "Be wary of Bluesky",
+      "url": "https://kevinak.se/blog/be-wary-of-bluesky",
+      "title_zh": "警惕 Bluesky",
+      "created_display": "Created: Feb 20, 2026 / 15:35 PT",
+      "image_url": null,
+      "summary_en": "A cautious take on Bluesky, discussing potential privacy, governance, or reliability concerns. The piece urges readers to scrutinize the platform’s trade-offs as it grows.",
+      "summary_zh": "对 Bluesky 的隐私、治理与可靠性等方面提出谨慎观点，提醒读者在关注去中心化社交网络时要权衡利弊与潜在风险。",
+      "hn": {
+        "id": 47095597,
+        "type": "story",
+        "by": "kevinak",
+        "score": 175,
+        "descendants": 133,
+        "time": 1771630533,
+        "comments_url": "https://news.ycombinator.com/item?id=47095597"
+      },
+      "tags": [
+        "Privacy",
+        "Politics"
       ]
     },
     {
@@ -433,30 +547,9 @@
         "comments_url": "https://news.ycombinator.com/item?id=47098687"
       },
       "tags": [
-        "Energy",
-        "Business"
-      ]
-    },
-    {
-      "title_en": "What Not to Write on Your Security Clearance Form",
-      "url": "https://milk.com/wall-o-shame/security_clearance.html",
-      "title_zh": "填写安全许可申请表时不该写的内容",
-      "created_display": "Created: Feb 21, 2026 / 09:08 PT",
-      "image_url": "https://milk.com/wall-o-shame/wos-mark.gif",
-      "summary_en": "Common security-clearance mistakes derail applications: inflating qualifications, omitting required disclosures, or flagging risky personal associations. The piece maps these pitfalls to practical strategies—be honest, concise, and consistent, and explain any tricky items with proper context to minimize red flags. It also stresses alignment across related forms to avoid inconsistent narratives.",
-      "summary_zh": "在安全许可申请表中，常见错误会导致申请被拒：夸大资历、遗漏必填披露信息，以及暴露可能带来风险的个人关系。文章将这些坑点映射到实用策略，强调诚实、简洁、前后一致，并在需要时给出合理解释以降低红旗风险。 同时强调相关表格之间的一致性，避免叙述不一致。",
-      "hn": {
-        "id": 47102576,
-        "type": "story",
-        "by": "wizardforhire",
-        "score": 159,
-        "descendants": 42,
-        "time": 1771693692,
-        "comments_url": "https://news.ycombinator.com/item?id=47102576"
-      },
-      "tags": [
-        "Security",
-        "Legal"
+        "Politics",
+        "Business",
+        "Energy"
       ]
     },
     {
@@ -477,51 +570,30 @@
         "comments_url": "https://news.ycombinator.com/item?id=47099160"
       },
       "tags": [
-        "AI"
-      ]
-    },
-    {
-      "title_en": "macOS's Little-Known Command-Line Sandboxing Tool (2025)",
-      "url": "https://igorstechnoclub.com/sandbox-exec/",
-      "title_zh": "macOS 鲜为人知的命令行沙箱工具（2025）",
-      "created_display": "Created: Feb 21, 2026 / 06:34 PT",
-      "image_url": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/herman-1683556668-0.png",
-      "summary_en": "Sandbox-exec provides a quick, scriptable way to apply sandbox policies to a process, but it's brittle, poorly maintained, and effectively deprecated. The piece explains how it works, its policy language, and the risks of relying on it in modern macOS apps. It also contrasts it with modern macOS sandboxing approaches like App Sandbox and entitlements.",
-      "summary_zh": "Sandbox-exec 提供了一种快速、可脚本化的方式来对进程应用沙箱策略，但它易脆、维护不足，且在现代 macOS 上已被弃用。文章讲解了其工作原理、策略语言，以及在现代应用中依赖它的风险。 同时将其与现代 macOS 沙箱机制如应用沙箱和权限进行了对比。",
-      "hn": {
-        "id": 47101200,
-        "type": "story",
-        "by": "Igor_Wiwi",
-        "score": 144,
-        "descendants": 50,
-        "time": 1771684485,
-        "comments_url": "https://news.ycombinator.com/item?id=47101200"
-      },
-      "tags": [
-        "Security",
+        "AI",
         "Programming"
       ]
     },
     {
-      "title_en": "AI uBlock Blacklist",
-      "url": "https://github.com/alvi-se/ai-ublock-blacklist",
-      "title_zh": "AI 版 uBlock 黑名单",
-      "created_display": "Created: Feb 21, 2026 / 00:10 PT",
-      "image_url": "https://opengraph.githubassets.com/19f1634736812f6482861569ec755a58a16569e81f8dfe6c3cb8cec7701a6740/alvi-se/ai-ublock-blacklist",
-      "summary_en": "This repository curates ad-blocking filters leveraging AI to identify and block content that resembles ads or trackers, aiming to improve the effectiveness of ad blockers in AI-enabled browsing.",
-      "summary_zh": "该仓库提供用于 uBlock Origin 等广告拦截器的 AI 驱动过滤清单，旨在更准确地识别并屏蔽与 AI 相关的广告和跟踪。",
+      "title_en": "Acme Weather",
+      "url": "https://acmeweather.com/blog/introducing-acme-weather",
+      "title_zh": "Acme Weather 天气平台上线",
+      "created_display": "Created: Feb 20, 2026 / 23:13 PT",
+      "image_url": "https://acmeweather.com/img/preview.png",
+      "summary_en": "Acme Weather introduces a new weather data platform offering real-time data, APIs, and dashboards, with an emphasis on accessibility for developers and openness.",
+      "summary_zh": "Acme Weather 推出一个新的人气天气数据平台，提供实时数据、API 接口和可视化仪表盘，强调对开发者友好与开放性。",
       "hn": {
-        "id": 47098582,
+        "id": 47098296,
         "type": "story",
-        "by": "rdmuser",
-        "score": 141,
-        "descendants": 61,
-        "time": 1771661449,
-        "comments_url": "https://news.ycombinator.com/item?id=47098582"
+        "by": "cryptoz",
+        "score": 152,
+        "descendants": 97,
+        "time": 1771658018,
+        "comments_url": "https://news.ycombinator.com/item?id=47098296"
       },
       "tags": [
-        "AI",
-        "Open Source"
+        "Data",
+        "Web"
       ]
     },
     {
@@ -536,8 +608,8 @@
         "id": 47058584,
         "type": "story",
         "by": "ingve",
-        "score": 140,
-        "descendants": 64,
+        "score": 150,
+        "descendants": 76,
         "time": 1771402817,
         "comments_url": "https://news.ycombinator.com/item?id=47058584"
       },
@@ -557,10 +629,31 @@
         "id": 47096466,
         "type": "story",
         "by": "gfortaine",
-        "score": 130,
-        "descendants": 69,
+        "score": 142,
+        "descendants": 71,
         "time": 1771637255,
         "comments_url": "https://news.ycombinator.com/item?id=47096466"
+      },
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title_en": "Claws are now a new layer on top of LLM agents",
+      "url": "https://twitter.com/karpathy/status/2024987174077432126",
+      "title_zh": "Claws 成为大语言模型代理的新层",
+      "created_display": "Created: Feb 20, 2026 / 16:56 PT",
+      "image_url": "https://pbs.twimg.com/profile_images/1296667294148382721/9Pr6XrPB_200x200.jpg",
+      "summary_en": "Claws adds a new layer on top of LLM agents to improve safety, governance, and composability of autonomous tasks. It aims to provide a modular framework that handles orchestration, policy enforcement, and error handling beyond a single prompt. This could advance reliable agent AI, though adoption details remain to be seen.",
+      "summary_zh": "Claws 在大语言模型代理之上引入新的一层，提升自治任务的安全性、治理与模块化能力，提供用于编排、策略执行和错误处理的分层框架。此举有望推动更可靠的代理式 AI，但具体落地与普及情况尚待观察。",
+      "hn": {
+        "id": 47096253,
+        "type": "story",
+        "by": "Cyphase",
+        "score": 131,
+        "descendants": 546,
+        "time": 1771635389,
+        "comments_url": "https://news.ycombinator.com/item?id=47096253"
       },
       "tags": [
         "AI"
@@ -589,24 +682,46 @@
       ]
     },
     {
-      "title_en": "How far back in time can you understand English?",
-      "url": "https://www.deadlanguagesociety.com/p/how-far-back-in-time-understand-english",
-      "title_zh": "你能理解多早期的英语？",
-      "created_display": "Created: Feb 18, 2026 / 06:56 PT",
-      "image_url": "https://substackcdn.com/image/fetch/$s_!94Uq!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5dddb379-4714-4730-bb8d-538c26e2d623_1600x1066.jpeg",
-      "summary_en": "Old English, Middle English, and Early Modern English each present distinct vocabulary, grammar, and spelling gaps from modern usage. The piece surveys how far a typical reader can understand these stages and what tools help bridge the distance, such as glossaries and annotated editions. It notes that comprehension improves with exposure, but some periods remain opaque without study.",
-      "summary_zh": "古英语、中古英语和早期现代英语在词汇、语法和拼写上与现代英语存在显著差异。本文探讨普通读者在多大程度上能理解这些阶段，并介绍通过词汇表、注释版等工具来缩小差距的做法。理解能力会随着接触而提升，但若不系统学习，某些时期仍难以读懂。",
+      "title_en": "Lean 4: How the theorem prover works and why it's the new competitive edge in AI",
+      "url": "https://venturebeat.com/ai/lean4-how-the-theorem-prover-works-and-why-its-the-new-competitive-edge-in",
+      "title_zh": "Lean 4：定理证明器如何工作，及其成为 AI 竞争新砝码的原因",
+      "created_display": "Created: Feb 17, 2026 / 04:58 PT",
+      "image_url": null,
+      "summary_en": "Lean 4 combines a powerful theorem prover with a practical language, enabling formal verification in software development. The piece argues that such rigorous tooling can be a new competitive edge for AI, helping produce safer, more reliable components for AI systems.",
+      "summary_zh": "Lean 4 将强大的定理证明器与实用编程语言结合，推动在软件开发中的形式化验证。文章认为这样的工具链在 AI 领域可提供安全、可验证的组件，从而成为新的竞争力来源。",
       "hn": {
-        "id": 47061614,
+        "id": 47047027,
         "type": "story",
-        "by": "spzb",
-        "score": 121,
-        "descendants": 64,
-        "time": 1771426618,
-        "comments_url": "https://news.ycombinator.com/item?id=47061614"
+        "by": "tesserato",
+        "score": 124,
+        "descendants": 55,
+        "time": 1771333117,
+        "comments_url": "https://news.ycombinator.com/item?id=47047027"
       },
       "tags": [
-        "Education"
+        "Programming",
+        "AI"
+      ]
+    },
+    {
+      "title_en": "Don't create .gitkeep files, use .gitignore instead (2023)",
+      "url": "https://adamj.eu/tech/2023/09/18/git-dont-create-gitkeep/",
+      "title_zh": "不要创建 .gitkeep 文件，改用 .gitignore",
+      "created_display": "Created: Feb 20, 2026 / 14:27 PT",
+      "image_url": "https://adamj.eu/tech/assets/2023-09-18-crystals.jpeg",
+      "summary_en": "Argues for using .gitignore to ignore empty directories rather than keeping .gitkeep placeholders. It covers practical patterns and pitfalls, helping maintain a clean repo.",
+      "summary_zh": "主张用 .gitignore 忽略空目录，而不是添加 .gitkeep 作为占位。文章给出实际的模式和注意事项，帮助保持代码仓库整洁。",
+      "hn": {
+        "id": 47094877,
+        "type": "story",
+        "by": "frou_dh",
+        "score": 117,
+        "descendants": 72,
+        "time": 1771626476,
+        "comments_url": "https://news.ycombinator.com/item?id=47094877"
+      },
+      "tags": [
+        "Programming"
       ]
     },
     {
@@ -631,46 +746,67 @@
       ]
     },
     {
-      "title_en": "Lean 4: How the theorem prover works and why it's the new competitive edge in AI",
-      "url": "https://venturebeat.com/ai/lean4-how-the-theorem-prover-works-and-why-its-the-new-competitive-edge-in",
-      "title_zh": "Lean 4：定理证明器如何工作，及其成为 AI 竞争新砝码的原因",
-      "created_display": "Created: Feb 17, 2026 / 04:58 PT",
-      "image_url": null,
-      "summary_en": "Lean 4 combines a powerful theorem prover with a practical language, enabling formal verification in software development. The piece argues that such rigorous tooling can be a new competitive edge for AI, helping produce safer, more reliable components for AI systems.",
-      "summary_zh": "Lean 4 将强大的定理证明器与实用编程语言结合，推动在软件开发中的形式化验证。文章认为这样的工具链在 AI 领域可提供安全、可验证的组件，从而成为新的竞争力来源。",
+      "title_en": "Cloudflare outage on February 20, 2026",
+      "url": "https://blog.cloudflare.com/cloudflare-outage-february-20-2026/",
+      "title_zh": "2026年2月20日的 Cloudflare 故障",
+      "created_display": "Created: Feb 21, 2026 / 11:05 PT",
+      "image_url": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/uFzR7cRW6VzZMP5YSUNZV/4120d828e3f57c095b51b2be805d2a02/BLOG-3193_OG.png",
+      "summary_en": "Cloudflare suffered a wide-reaching outage on Feb 20, 2026, prompting a post that details the outage timeline, root cause analysis, and steps taken to restore services. The incident underscores how dependent many apps are on edge services.",
+      "summary_zh": "2026年2月20日，Cloudflare 遭遇大规模故障，文章梳理了时间线、根因分析及恢复措施，凸显了众多应用对边缘服务的高度依赖。",
       "hn": {
-        "id": 47047027,
+        "id": 47103649,
         "type": "story",
-        "by": "tesserato",
-        "score": 115,
-        "descendants": 45,
-        "time": 1771333117,
-        "comments_url": "https://news.ycombinator.com/item?id=47047027"
+        "by": "nomaxx117",
+        "score": 116,
+        "descendants": 82,
+        "time": 1771700731,
+        "comments_url": "https://news.ycombinator.com/item?id=47103649"
       },
       "tags": [
-        "AI",
-        "Programming"
+        "Web"
       ]
     },
     {
-      "title_en": "Acme Weather",
-      "url": "https://acmeweather.com/blog/introducing-acme-weather",
-      "title_zh": "Acme Weather 天气平台上线",
-      "created_display": "Created: Feb 20, 2026 / 23:13 PT",
-      "image_url": "https://acmeweather.com/img/preview.png",
-      "summary_en": "Acme Weather introduces a new weather data platform offering real-time data, APIs, and dashboards, with an emphasis on accessibility for developers and openness.",
-      "summary_zh": "Acme Weather 推出一个新的人气天气数据平台，提供实时数据、API 接口和可视化仪表盘，强调对开发者友好与开放性。",
+      "title_en": "CXMT has been offering DDR4 chips at about half the prevailing market rate",
+      "url": "https://www.koreaherald.com/article/10679206",
+      "title_zh": "CXMT 正以约市场价一半的价格提供 DDR4 芯片",
+      "created_display": "Created: Feb 21, 2026 / 06:32 PT",
+      "image_url": "https://wimg.heraldcorp.com/news/cms/2026/02/20/news-p.v1.20260220.1686b9f4331c4661b835adf082563d1a_T1.png",
+      "summary_en": "CXMT has been offering DDR4 chips at about half the prevailing market rate. This aggressive pricing hints at oversupply, regional subsidies, or strategic dumping that could pressure rivals. Buyers may benefit from lower costs but should watch for quality variance, supply stability, and downstream pricing impacts.",
+      "summary_zh": "据报道，CXMT 以约市场价一半的价格出售 DDR4 芯片。这表明可能存在产能过剩、政府补贴或策略性抛售等因素，可能压低行业价格。买家应关注质量、供货稳定性，以及对下游厂商和市场格局的影响。",
       "hn": {
-        "id": 47098296,
+        "id": 47101171,
         "type": "story",
-        "by": "cryptoz",
-        "score": 114,
-        "descendants": 80,
-        "time": 1771658018,
-        "comments_url": "https://news.ycombinator.com/item?id=47098296"
+        "by": "phront",
+        "score": 113,
+        "descendants": 83,
+        "time": 1771684336,
+        "comments_url": "https://news.ycombinator.com/item?id=47101171"
       },
       "tags": [
-        "Data"
+        "Hardware"
+      ]
+    },
+    {
+      "title_en": "Uncovering insiders and alpha on Polymarket with AI",
+      "url": "https://twitter.com/peterjliu/status/2024901585806225723",
+      "title_zh": "用 AI 揭示 Polymarket 的内部人和先发信息",
+      "created_display": "Created: Feb 20, 2026 / 10:11 PT",
+      "image_url": "https://pbs.twimg.com/media/HBlmH_kbIAALtpv.jpg:large",
+      "summary_en": "It raises questions about market integrity, data ethics, and the responsible use of ML in finance.",
+      "summary_zh": "文章介绍用 AI 发现 Polymarket 的内部信息和早期信号，展示机器学习在预测市场中揭示隐藏模式的潜力。也提出对市场公正、数据伦理和在金融领域负责任使用 ML 的思考。",
+      "hn": {
+        "id": 47091557,
+        "type": "story",
+        "by": "somerandomness",
+        "score": 106,
+        "descendants": 101,
+        "time": 1771611062,
+        "comments_url": "https://news.ycombinator.com/item?id=47091557"
+      },
+      "tags": [
+        "AI",
+        "Finance"
       ]
     },
     {
@@ -714,7 +850,6 @@
       "tags": [
         "Show HN",
         "Web",
-        "Data",
         "DevOps"
       ]
     },
@@ -740,6 +875,27 @@
       ]
     },
     {
+      "title_en": "Personal Statement of a CIA Analyst",
+      "url": "https://antipolygraph.org/statements/statement-038.shtml",
+      "title_zh": "CIA 分析师的个人陈述",
+      "created_display": "Created: Feb 21, 2026 / 09:49 PT",
+      "image_url": "https://antipolygraph.org/resources/antipolygraph-dot-org-150x1000.jpg",
+      "summary_en": "A personal statement from a CIA analyst offers an insider perspective on intelligence work, including how analysis is framed, the pressures of secrecy, and the human aspects of decision-making.",
+      "summary_zh": "这篇来自 CIA 分析师的个人陈述提供了对情报工作的内部视角，涉及分析框架、保密压力以及决策过程中的人性因素。",
+      "hn": {
+        "id": 47102975,
+        "type": "story",
+        "by": "grubbs",
+        "score": 90,
+        "descendants": 48,
+        "time": 1771696142,
+        "comments_url": "https://news.ycombinator.com/item?id=47102975"
+      },
+      "tags": [
+        "Security"
+      ]
+    },
+    {
       "title_en": "How to Review an AUR Package",
       "url": "https://bertptrs.nl/2026/01/30/how-to-review-an-aur-package.html",
       "title_zh": "如何审查 AUR 软件包",
@@ -757,29 +913,49 @@
         "comments_url": "https://news.ycombinator.com/item?id=47044700"
       },
       "tags": [
-        "Programming",
-        "Security"
+        "Programming"
       ]
     },
     {
-      "title_en": "CXMT has been offering DDR4 chips at about half the prevailing market rate",
-      "url": "https://www.koreaherald.com/article/10679206",
-      "title_zh": "CXMT 正以约市场价一半的价格提供 DDR4 芯片",
-      "created_display": "Created: Feb 21, 2026 / 06:32 PT",
-      "image_url": "https://wimg.heraldcorp.com/news/cms/2026/02/20/news-p.v1.20260220.1686b9f4331c4661b835adf082563d1a_T1.png",
-      "summary_en": "CXMT has been offering DDR4 chips at about half the prevailing market rate. This aggressive pricing hints at oversupply, regional subsidies, or strategic dumping that could pressure rivals. Buyers may benefit from lower costs but should watch for quality variance, supply stability, and downstream pricing impacts.",
-      "summary_zh": "据报道，CXMT 以约市场价一半的价格出售 DDR4 芯片。这表明可能存在产能过剩、政府补贴或策略性抛售等因素，可能压低行业价格。买家应关注质量、供货稳定性，以及对下游厂商和市场格局的影响。",
+      "title_en": "Approaches to writing two-sentence journal entries",
+      "url": "https://alexanderbjoy.com/two-sentence-journal-approaches/",
+      "title_zh": "两句日记条目的写作方法",
+      "created_display": "Created: Feb 17, 2026 / 13:11 PT",
+      "image_url": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/aeneas-nin/view_from_rock_rimmon.webp",
+      "summary_en": "Two-sentence journaling emphasizes concise reflection: one sentence to log events, a second to capture significance or lessons learned. The article outlines practical templates and prompts to help writers start quickly and maintain consistency.",
+      "summary_zh": "两句日记强调简洁反思：一条记录事件，另一条提炼意义或收获。文章给出实用模板和提示，帮助读者快速入手并保持一致性。",
       "hn": {
-        "id": 47101171,
+        "id": 47053410,
         "type": "story",
-        "by": "phront",
-        "score": 74,
-        "descendants": 46,
-        "time": 1771684336,
-        "comments_url": "https://news.ycombinator.com/item?id=47101171"
+        "by": "fi-le",
+        "score": 78,
+        "descendants": 12,
+        "time": 1771362688,
+        "comments_url": "https://news.ycombinator.com/item?id=47053410"
       },
       "tags": [
-        "Hardware"
+        "Education"
+      ]
+    },
+    {
+      "title_en": "Coccinelle: The Linux kernel's source-to-source transformation tool",
+      "url": "https://github.com/coccinelle/coccinelle",
+      "title_zh": "Coccinelle：Linux 内核的源代码级转换工具",
+      "created_display": "Created: Feb 21, 2026 / 00:26 PT",
+      "image_url": "https://opengraph.githubassets.com/87282db164608c6a0a176f9c7f650a0cfc141ab5a726bbaa771e49f0a9fd622c/coccinelle/coccinelle",
+      "summary_en": "Coccinelle automates source-to-source transformations for C, used to mass-refactor and patch the Linux kernel while preserving correctness. It lets maintainers express patterns and apply changes across large codebases safely and reproducibly.",
+      "summary_zh": "Coccinelle 是一种用于 C 语言的源代码级转换工具，广泛用于对 Linux 内核进行自动化改动、重构和风格规范化。它通过模式匹配和脚本实现跨大代码库的可重复变更。",
+      "hn": {
+        "id": 47098669,
+        "type": "story",
+        "by": "anon111332142",
+        "score": 77,
+        "descendants": 24,
+        "time": 1771662396,
+        "comments_url": "https://news.ycombinator.com/item?id=47098669"
+      },
+      "tags": [
+        "Programming"
       ]
     },
     {
@@ -804,24 +980,46 @@
       ]
     },
     {
-      "title_en": "Approaches to writing two-sentence journal entries",
-      "url": "https://alexanderbjoy.com/two-sentence-journal-approaches/",
-      "title_zh": "两句日记条目的写作方法",
-      "created_display": "Created: Feb 17, 2026 / 13:11 PT",
-      "image_url": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/aeneas-nin/view_from_rock_rimmon.webp",
-      "summary_en": "Two-sentence journaling emphasizes concise reflection: one sentence to log events, a second to capture significance or lessons learned. The article outlines practical templates and prompts to help writers start quickly and maintain consistency.",
-      "summary_zh": "两句日记强调简洁反思：一条记录事件，另一条提炼意义或收获。文章给出实用模板和提示，帮助读者快速入手并保持一致性。",
+      "title_en": "EDuke32 – Duke Nukem 3D (Open-Source)",
+      "url": "https://www.eduke32.com/",
+      "title_zh": "EDuke32：Duke Nukem 3D 的开源实现",
+      "created_display": "Created: Feb 21, 2026 / 12:10 PT",
+      "image_url": "https://www.eduke32.com/images/download.png",
+      "summary_en": "EDuke32 is a modern open-source port of Duke Nukem 3D built on the Build engine, bringing updated rendering and cross-platform support to a classic shooter. It adds tooling for mods and expansions, inviting preservation-minded players and hobby developers to experiment with source code and assets.",
+      "summary_zh": "EDuke32 是 Duke Nukem 3D 的开源移植，基于 Build 引擎，提供现代渲染和跨平台支持。它为模组和扩展提供工具，适合热爱复古游戏的玩家与开发者探索源码与资产。",
       "hn": {
-        "id": 47053410,
+        "id": 47104185,
         "type": "story",
-        "by": "fi-le",
-        "score": 68,
-        "descendants": 8,
-        "time": 1771362688,
-        "comments_url": "https://news.ycombinator.com/item?id=47053410"
+        "by": "reconnecting",
+        "score": 73,
+        "descendants": 21,
+        "time": 1771704613,
+        "comments_url": "https://news.ycombinator.com/item?id=47104185"
       },
       "tags": [
-        "Education"
+        "Open Source",
+        "Gaming"
+      ]
+    },
+    {
+      "title_en": "Parse, Don't Validate and Type-Driven Design in Rust",
+      "url": "https://www.harudagondi.space/blog/parse-dont-validate-and-type-driven-design-in-rust/",
+      "title_zh": "Rust 的“解析优先”与类型驱动设计",
+      "created_display": "Created: Feb 21, 2026 / 11:40 PT",
+      "image_url": "https://www.harudagondi.space/uploads/parse-dont-validate/tingey-injury-law-firm-veNb0DDegzE-unsplash.jpg",
+      "summary_en": "Promotes parsing-first validation and type-driven design in Rust, arguing that the right types should encode invariants and that parsing should produce clean, well-formed data. The approach leverages Rust’s strong type system—newtypes, enums, and type-level guarantees—to reduce runtime validation and make API boundaries safer.",
+      "summary_zh": "提倡在 Rust 中采用解析优先的验证和类型驱动设计，即通过类型对不变量进行编码，让解析直接产出正确的数据结构。依托强类型系统（新类型、枚举、类型级保证）来减少运行时校验，使 API 边界更安全。",
+      "hn": {
+        "id": 47103931,
+        "type": "story",
+        "by": "todsacerdoti",
+        "score": 71,
+        "descendants": 25,
+        "time": 1771702806,
+        "comments_url": "https://news.ycombinator.com/item?id=47103931"
+      },
+      "tags": [
+        "Programming"
       ]
     },
     {
@@ -842,30 +1040,72 @@
         "comments_url": "https://news.ycombinator.com/item?id=47046486"
       },
       "tags": [
-        "AI",
         "Programming"
       ]
     },
     {
-      "title_en": "Coccinelle: The Linux kernel's source-to-source transformation tool",
-      "url": "https://github.com/coccinelle/coccinelle",
-      "title_zh": "Coccinelle：Linux 内核的源代码级转换工具",
-      "created_display": "Created: Feb 21, 2026 / 00:26 PT",
-      "image_url": "https://opengraph.githubassets.com/87282db164608c6a0a176f9c7f650a0cfc141ab5a726bbaa771e49f0a9fd622c/coccinelle/coccinelle",
-      "summary_en": "Coccinelle automates source-to-source transformations for C, used to mass-refactor and patch the Linux kernel while preserving correctness. It lets maintainers express patterns and apply changes across large codebases safely and reproducibly.",
-      "summary_zh": "Coccinelle 是一种用于 C 语言的源代码级转换工具，广泛用于对 Linux 内核进行自动化改动、重构和风格规范化。它通过模式匹配和脚本实现跨大代码库的可重复变更。",
+      "title_en": "Microsoft team creates data-storage system that lasts for millennia",
+      "url": "https://www.nature.com/articles/d41586-026-00502-2",
+      "title_zh": "微软团队开发可持续千年的数据存储系统",
+      "created_display": "Created: Feb 18, 2026 / 12:12 PT",
+      "image_url": "https://media.nature.com/lw1200/magazine-assets/d41586-026-00502-2/d41586-026-00502-2_52070010.jpg",
+      "summary_en": "A Microsoft team proposes data storage technology aimed at ultra-long-term durability, capable of surviving millennia, highlighting the challenges and importance of archiving critical data.",
+      "summary_zh": "微软团队提出旨在实现超长期持久性的的数据存储技术，能够经受千年甚至更久的寿命，凸显持久存档的重要性与相关挑战。",
       "hn": {
-        "id": 47098669,
+        "id": 47065729,
         "type": "story",
-        "by": "anon111332142",
-        "score": 63,
-        "descendants": 17,
-        "time": 1771662396,
-        "comments_url": "https://news.ycombinator.com/item?id=47098669"
+        "by": "gnabgib",
+        "score": 66,
+        "descendants": 58,
+        "time": 1771445533,
+        "comments_url": "https://news.ycombinator.com/item?id=47065729"
       },
       "tags": [
-        "Programming",
-        "Open Source"
+        "Hardware"
+      ]
+    },
+    {
+      "title_en": "Permacomputing",
+      "url": "https://wiki.xxiivv.com/site/permacomputing.html",
+      "title_zh": "永续计算",
+      "created_display": "Created: Feb 17, 2026 / 04:40 PT",
+      "image_url": "https://wiki.xxiivv.com/media/services/rss.jpg",
+      "summary_en": "Permacomputing blends permaculture principles with computing to design sustainable tech ecosystems. It advocates energy-efficient hardware, distributed resilience, and open, community-driven maintenance to reduce e-waste and long-term costs. The field encourages critiquing growth-centric tech culture and exploring less resource-intensive deployment.",
+      "summary_zh": "永续计算将永续耕作的原则应用到计算领域，旨在设计更可持续的技术生态。它提倡使用节能硬件、分布式韧性以及开放、由社区推动的维护模式，以减少电子垃圾和长期成本。这一理念也在批判以增长为导向的科技文化，探讨资源占用更低的部署方案。",
+      "hn": {
+        "id": 47046858,
+        "type": "story",
+        "by": "tosh",
+        "score": 64,
+        "descendants": 13,
+        "time": 1771332037,
+        "comments_url": "https://news.ycombinator.com/item?id=47046858"
+      },
+      "tags": [
+        "Open Source",
+        "Energy",
+        "Hardware"
+      ]
+    },
+    {
+      "title_en": "A16Z partner says that the theory that we'll vibe code everything is ' wrong'",
+      "url": "https://www.aol.com/articles/a16z-partner-says-theory-well-050150534.html",
+      "title_zh": "A16Z 合伙人：‘把一切都编码化’的理论是错的",
+      "created_display": "Created: Feb 20, 2026 / 14:47 PT",
+      "image_url": "https://s.yimg.com/ny/api/res/1.2/HYb7SzCtpmUGj3ZrekabPg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD05MDA-/https://media.zenfs.com/en/aol_business_insider_articles_308/8906dcd2aea70db986bf0fab88ec5a08",
+      "summary_en": "An A16Z partner argues against the idea that everything can be coded and automated, stressing the continued importance of human judgment, creativity, and the limits of AI.",
+      "summary_zh": "A16Z 合伙人反对“所有事情都能被编码并自动化”的观点，强调人类判断力、创造力以及 AI 的局限性仍然重要。讨论了如何在自动化与人工智慧之间取得平衡。",
+      "hn": {
+        "id": 47095105,
+        "type": "story",
+        "by": "paulpauper",
+        "score": 63,
+        "descendants": 78,
+        "time": 1771627678,
+        "comments_url": "https://news.ycombinator.com/item?id=47095105"
+      },
+      "tags": [
+        "AI"
       ]
     },
     {
@@ -887,7 +1127,6 @@
       },
       "tags": [
         "AI",
-        "Data",
         "Education"
       ]
     },
@@ -903,13 +1142,214 @@
         "id": 47050308,
         "type": "story",
         "by": "speckx",
-        "score": 43,
-        "descendants": 27,
+        "score": 56,
+        "descendants": 31,
         "time": 1771349723,
         "comments_url": "https://news.ycombinator.com/item?id=47050308"
       },
       "tags": [
         "Programming"
+      ]
+    },
+    {
+      "title_en": "I Don't Like Magic",
+      "url": "https://adactio.com/journal/22399",
+      "title_zh": "我不喜欢魔法式编程",
+      "created_display": "Created: Feb 18, 2026 / 01:42 PT",
+      "image_url": "https://adactio.com/images/photo-300.jpg",
+      "summary_en": "Reasoning against 'magic' in software, the post champions explicit, readable code and transparent behavior over clever abstractions.",
+      "summary_zh": "文章反对软件中的“魔法做法”，主张以明确、易读的实现和透明的行为来取代高深但不透明的技巧。",
+      "hn": {
+        "id": 47059147,
+        "type": "story",
+        "by": "edent",
+        "score": 55,
+        "descendants": 28,
+        "time": 1771407760,
+        "comments_url": "https://news.ycombinator.com/item?id=47059147"
+      },
+      "tags": [
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "How an inference provider can prove they're not serving a quantized model",
+      "url": "https://tinfoil.sh/blog/2026-02-03-proving-model-identity",
+      "title_zh": "推断服务提供商如何证明自己未提供量化模型",
+      "created_display": "Created: Feb 20, 2026 / 22:53 PT",
+      "image_url": "https://tinfoil.sh/blog-images/2026-02-03-proving-model-identity.jpg",
+      "summary_en": "Outlines how an inference provider can prove it's not serving a quantized model, touching on model identity attestations and verifiable tests that demonstrate a model's original precision rather than compressed versions.",
+      "summary_zh": "讨论推断服务提供商如何证明自己未提供量化模型，涉及模型身份的可验证证明与测试，确保提供的是原始精度而非被量化的版本。",
+      "hn": {
+        "id": 47098172,
+        "type": "story",
+        "by": "FrasiertheLion",
+        "score": 55,
+        "descendants": 32,
+        "time": 1771656837,
+        "comments_url": "https://news.ycombinator.com/item?id=47098172"
+      },
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title_en": "Gitas – A tool for Git account switching",
+      "url": "https://github.com/letmutex/gitas",
+      "title_zh": "Gitas：Git 账户切换工具",
+      "created_display": "Created: Feb 17, 2026 / 00:51 PT",
+      "image_url": "https://opengraph.githubassets.com/7b198b9495cee226560e0d739742d5f48c3ba37cbdcab77267dbc90f4cd5f241/letmutex/gitas",
+      "summary_en": "Gitas is a command-line tool to switch between multiple Git accounts by updating your identity and remotes per repository, reducing friction for developers who juggle personal and work identities.",
+      "summary_zh": "Gitas 是一个命令行工具，用于在多个 Git 账户之间切换，通过更新仓库级的身份和远端配置来降低多账户管理的痛点。",
+      "hn": {
+        "id": 47045175,
+        "type": "story",
+        "by": "letmutex",
+        "score": 53,
+        "descendants": 41,
+        "time": 1771318301,
+        "comments_url": "https://news.ycombinator.com/item?id=47045175"
+      },
+      "tags": [
+        "Programming",
+        "Open Source"
+      ]
+    },
+    {
+      "title_en": "Loon: A functional lang with invisible types, safe ownership, and alg. effects",
+      "url": "https://loonlang.com",
+      "title_zh": "Loon：一种具备不可见类型、所有权安全与代数效应的函数式语言",
+      "created_display": "Created: Feb 20, 2026 / 13:45 PT",
+      "image_url": null,
+      "summary_en": "Loon presents a functional language with invisible types, safe ownership, and algebraic effects, exploring a design that aims to make effects easier to reason about without sacrificing performance.",
+      "summary_zh": "Loon 提出一种函数式语言，特征包括不可见类型、所有权安全与代数效应，探讨让副作用更易推理的设计，同时保持性能。",
+      "hn": {
+        "id": 47094429,
+        "type": "story",
+        "by": "surprisetalk",
+        "score": 50,
+        "descendants": 30,
+        "time": 1771623931,
+        "comments_url": "https://news.ycombinator.com/item?id=47094429"
+      },
+      "tags": [
+        "Programming",
+        "Design"
+      ]
+    },
+    {
+      "title_en": "Show HN: Iron-Wolf – Wolfenstein 3D source port in Rust",
+      "url": "https://github.com/Ragnaroek/iron-wolf",
+      "title_zh": "Show HN：Iron-Wolf——用 Rust 实现的 Wolfenstein 3D 源码移植",
+      "created_display": "Created: Feb 21, 2026 / 07:52 PT",
+      "image_url": "https://opengraph.githubassets.com/82c9158ec67dbfeb2473d75aa0354025adfc896ee37be5528aab48e770fe35dd/Ragnaroek/iron-wolf",
+      "summary_en": "Rust-based source port of the classic Wolfenstein 3D demonstrates how modern language safety and ecosystem can revive retro games. Iron-Wolf focuses on clean code, portability, and potential performance gains, offering a case study in Rust-driven game porting. The project also shows the balance between authenticity and safety in emulation-like efforts.",
+      "summary_zh": "基于 Rust 的经典 Wolfenstein 3D 源码移植展示了现代语言的安全性与生态系统如何促成复古游戏的再现。Iron-Wolf 注重代码整洁、可移植性，以及潜在的性能提升，成为 Rust 驱动的移植案例。该项目也揭示了在保真度与安全性之间寻求平衡的挑战。",
+      "hn": {
+        "id": 47101890,
+        "type": "story",
+        "by": "ragnaroekX",
+        "score": 47,
+        "descendants": 17,
+        "time": 1771689140,
+        "comments_url": "https://news.ycombinator.com/item?id=47101890"
+      },
+      "tags": [
+        "Show HN",
+        "Gaming",
+        "Open Source",
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "A solver for Semantle",
+      "url": "https://victoriaritvo.com/blog/semantle-solver/",
+      "title_zh": "为 Semantle 设计的求解器",
+      "created_display": "Created: Feb 18, 2026 / 11:25 PT",
+      "image_url": "https://victoriaritvo.com/blog/semantle-solver/semantle_game.png",
+      "summary_en": "A solver for Semantle demonstrates strategies to maximize semantic similarity guesses, using vector representations and search techniques.",
+      "summary_zh": "为 Semantle 设计的求解器展示了通过向量表示与搜索策略来提升语义相似度猜测的思路。",
+      "hn": {
+        "id": 47065146,
+        "type": "story",
+        "by": "evakhoury",
+        "score": 45,
+        "descendants": 11,
+        "time": 1771442746,
+        "comments_url": "https://news.ycombinator.com/item?id=47065146"
+      },
+      "tags": [
+        "Programming",
+        "Data"
+      ]
+    },
+    {
+      "title_en": "Toyota Mirai hydrogen car depreciation: 65% value loss in a year",
+      "url": "https://carbuzz.com/toyota-mirai-massive-depreciation-one-year/",
+      "title_zh": "丰田 Mirai 氢动力车一年内贬值65%",
+      "created_display": "Created: Feb 21, 2026 / 10:09 PT",
+      "image_url": "https://static0.carbuzzimages.com/wordpress/wp-content/uploads/2025/10/toyota-mirai-main.png?w=1600&h=900&fit=crop",
+      "summary_en": "Despite high-tech hype, the Mirai's depreciation illustrates the volatility of early hydrogen vehicles: a 65% drop in value within a year underscores market skepticism, infrastructure gaps, and consumer demand dynamics.",
+      "summary_zh": "尽管氢燃料车技术备受关注，Mirai 一年的贬值率达到 65%，凸显市场对氢能源车的信心不足、充氢/加氢基础设施不足以及需求波动。",
+      "hn": {
+        "id": 47103136,
+        "type": "story",
+        "by": "iancmceachern",
+        "score": 41,
+        "descendants": 93,
+        "time": 1771697364,
+        "comments_url": "https://news.ycombinator.com/item?id=47103136"
+      },
+      "tags": [
+        "Business",
+        "Energy",
+        "DevOps"
+      ]
+    },
+    {
+      "title_en": "The Nekonomicon – Nekochan.net Archive, Updated",
+      "url": "http://nekonomicon.irixnet.org/",
+      "title_zh": "Nekonomicon – Nekochan.net 存档更新",
+      "created_display": "Created: Feb 21, 2026 / 08:27 PT",
+      "image_url": "http://nekonomicon.irixnet.org/static/nekonomicon-c.png",
+      "summary_en": "An updated Nekonomicon archive preserves more of Nekochan.net's retro computing discussions, guides, and references. The refresh makes historical content more accessible for researchers and nostalgia fans, offering a snapshot of early online tech culture. It underscores how community archives illuminate the evolution of hardware hacking and open-source conversations.",
+      "summary_zh": "Nekonomicon 存档更新保留了 Nekochan.net 的复古计算讨论、指南和参考资料的更多内容。此次更新让历史内容对研究者和怀旧爱好者更易获取，提供了早期科技社区的一个缩影。它强调社区存档如何揭示硬件黑客与开源对话的演变。",
+      "hn": {
+        "id": 47102208,
+        "type": "story",
+        "by": "ThatGuyRaion",
+        "score": 41,
+        "descendants": 8,
+        "time": 1771691221,
+        "comments_url": "https://news.ycombinator.com/item?id=47102208"
+      },
+      "tags": [
+        "Open Source",
+        "Culture",
+        "Hardware"
+      ]
+    },
+    {
+      "title_en": "Inputlag.science – Repository of knowledge about input lag in gaming",
+      "url": "https://inputlag.science",
+      "title_zh": "Inputlag.science：游戏输入延迟知识库",
+      "created_display": "Created: Feb 21, 2026 / 11:41 PT",
+      "image_url": "https://inputlag.science/assets/logo.png",
+      "summary_en": "This repository aggregates knowledge about gaming input lag, covering measurement methods, testing setups, and practical guidance to reduce latency for both hardware and software. The collection helps developers, testers, and competitive gamers understand and improve perceived responsiveness.",
+      "summary_zh": "该知识库汇总了游戏输入延迟的测量方法、测试流程，以及降低延迟的实用建议，涵盖硬件与软件多方面。为开发者、测试人员和竞技玩家提供理解并提升响应性的参考。",
+      "hn": {
+        "id": 47103945,
+        "type": "story",
+        "by": "akyuu",
+        "score": 39,
+        "descendants": 7,
+        "time": 1771702912,
+        "comments_url": "https://news.ycombinator.com/item?id=47103945"
+      },
+      "tags": [
+        "Gaming",
+        "Science",
+        "Hardware"
       ]
     },
     {
@@ -930,29 +1370,8 @@
         "comments_url": "https://news.ycombinator.com/item?id=47028545"
       },
       "tags": [
-        "AI"
-      ]
-    },
-    {
-      "title_en": "Claws are now a new layer on top of LLM agents",
-      "url": "https://twitter.com/karpathy/status/2024987174077432126",
-      "title_zh": "Claws 成为大语言模型代理的新层",
-      "created_display": "Created: Feb 20, 2026 / 16:56 PT",
-      "image_url": "https://pbs.twimg.com/profile_images/1296667294148382721/9Pr6XrPB_200x200.jpg",
-      "summary_en": "Claws adds a new layer on top of LLM agents to improve safety, governance, and composability of autonomous tasks. It aims to provide a modular framework that handles orchestration, policy enforcement, and error handling beyond a single prompt. This could advance reliable agent AI, though adoption details remain to be seen.",
-      "summary_zh": "Claws 在大语言模型代理之上引入新的一层，提升自治任务的安全性、治理与模块化能力，提供用于编排、策略执行和错误处理的分层框架。此举有望推动更可靠的代理式 AI，但具体落地与普及情况尚待观察。",
-      "hn": {
-        "id": 47096253,
-        "type": "story",
-        "by": "Cyphase",
-        "score": 37,
-        "descendants": 389,
-        "time": 1771635389,
-        "comments_url": "https://news.ycombinator.com/item?id=47096253"
-      },
-      "tags": [
         "AI",
-        "Security"
+        "Data"
       ]
     },
     {
@@ -1036,30 +1455,54 @@
         "comments_url": "https://news.ycombinator.com/item?id=47099485"
       },
       "tags": [
-        "Security",
         "Business",
-        "AI"
+        "Politics",
+        "AI",
+        "Security"
       ]
     },
     {
-      "title_en": "Gitas – A tool for Git account switching",
-      "url": "https://github.com/letmutex/gitas",
-      "title_zh": "Gitas：Git 账户切换工具",
-      "created_display": "Created: Feb 17, 2026 / 00:51 PT",
-      "image_url": "https://opengraph.githubassets.com/7b198b9495cee226560e0d739742d5f48c3ba37cbdcab77267dbc90f4cd5f241/letmutex/gitas",
-      "summary_en": "Gitas is a command-line tool to switch between multiple Git accounts by updating your identity and remotes per repository, reducing friction for developers who juggle personal and work identities.",
-      "summary_zh": "Gitas 是一个命令行工具，用于在多个 Git 账户之间切换，通过更新仓库级的身份和远端配置来降低多账户管理的痛点。",
+      "title_en": "zclaw: personal AI assistant in under 888 KB, running on an ESP32",
+      "url": "https://github.com/tnm/zclaw",
+      "title_zh": "zclaw：在 ESP32 上运行、仅 888 KB 的个人 AI 助手",
+      "created_display": "Created: Feb 21, 2026 / 04:37 PT",
+      "image_url": "https://opengraph.githubassets.com/d8d1ea1540b515c167a955db7f35993cab516bfc91cc8ea6d9a215f2e0ae680c/tnm/zclaw",
+      "summary_en": "Shows a personal AI assistant that runs on an ESP32 within 888 KB, demonstrating the feasibility of ultra-lightweight AI in embedded devices. The project highlights the engineering trade-offs between memory, latency, and offline capability.",
+      "summary_zh": "展示在 ESP32 上仅 888 KB 的个人 AI 助手的实现，证明极小体积的 AI 也能在嵌入式设备上运行。该项目揭示了内存、延迟和离线能力之间的取舍。",
       "hn": {
-        "id": 47045175,
+        "id": 47100232,
         "type": "story",
-        "by": "letmutex",
-        "score": 30,
-        "descendants": 26,
-        "time": 1771318301,
-        "comments_url": "https://news.ycombinator.com/item?id=47045175"
+        "by": "tosh",
+        "score": 33,
+        "descendants": 19,
+        "time": 1771677472,
+        "comments_url": "https://news.ycombinator.com/item?id=47100232"
       },
       "tags": [
-        "Programming"
+        "AI",
+        "Hardware"
+      ]
+    },
+    {
+      "title_en": "Canvas_ity: A tiny, single-header <canvas>-like 2D rasterizer for C++",
+      "url": "https://github.com/a-e-k/canvas_ity",
+      "title_zh": "Canvas_ity：一个极小、单头文件的 C++ 2D 光栅化库",
+      "created_display": "Created: Feb 21, 2026 / 10:50 PT",
+      "image_url": "https://opengraph.githubassets.com/879e1d49a48fc25627029190f08aa9a5a1b9e8476be6d585440411edfdca35a9/a-e-k/canvas_ity",
+      "summary_en": "Canvas_ity is a tiny, single-header 2D rasterizer for C++, offering a Canvas-like API with minimal dependencies. It's suitable for tiny demos, educational projects, or embedding in tools where keeping the build simple matters.",
+      "summary_zh": "Canvas_ity 是一个极小的、单头文件的 C++ 2D 光栅化库，提供类似 Canvas 的接口且依赖极少。非常适合小型演示、教学项目或需要简单构建的新工具。",
+      "hn": {
+        "id": 47103506,
+        "type": "story",
+        "by": "PaulHoule",
+        "score": 32,
+        "descendants": 14,
+        "time": 1771699819,
+        "comments_url": "https://news.ycombinator.com/item?id=47103506"
+      },
+      "tags": [
+        "Programming",
+        "Open Source"
       ]
     },
     {
@@ -1102,7 +1545,8 @@
         "comments_url": "https://news.ycombinator.com/item?id=47098839"
       },
       "tags": [
-        "AI"
+        "AI",
+        "Science"
       ]
     },
     {
@@ -1128,25 +1572,24 @@
       ]
     },
     {
-      "title_en": "The Nekonomicon – Nekochan.net Archive, Updated",
-      "url": "http://nekonomicon.irixnet.org/",
-      "title_zh": "Nekonomicon – Nekochan.net 存档更新",
-      "created_display": "Created: Feb 21, 2026 / 08:27 PT",
-      "image_url": "http://nekonomicon.irixnet.org/static/nekonomicon-c.png",
-      "summary_en": "An updated Nekonomicon archive preserves more of Nekochan.net's retro computing discussions, guides, and references. The refresh makes historical content more accessible for researchers and nostalgia fans, offering a snapshot of early online tech culture. It underscores how community archives illuminate the evolution of hardware hacking and open-source conversations.",
-      "summary_zh": "Nekonomicon 存档更新保留了 Nekochan.net 的复古计算讨论、指南和参考资料的更多内容。此次更新让历史内容对研究者和怀旧爱好者更易获取，提供了早期科技社区的一个缩影。它强调社区存档如何揭示硬件黑客与开源对话的演变。",
+      "title_en": "The Software Development Lifecycle Is Dead",
+      "url": "https://boristane.com/blog/the-software-development-lifecycle-is-dead/",
+      "title_zh": "软件开发生命周期已死",
+      "created_display": "Created: Feb 21, 2026 / 10:40 PT",
+      "image_url": "https://boristane.com/assets/blog/the-software-development-lifecycle-is-dead/og.png",
+      "summary_en": "The Software Development Lifecycle Is Dead argues traditional SDLC is outdated; teams should embrace continuous delivery, rapid iteration, and cross-functional ownership to keep pace with modern software needs.",
+      "summary_zh": "“软件开发生命周期已死”认为传统的 SDLC 已不再适用，企业应拥抱持续交付、快速迭代与跨职能协作以跟上现代软件开发节奏。",
       "hn": {
-        "id": 47102208,
+        "id": 47103418,
         "type": "story",
-        "by": "ThatGuyRaion",
-        "score": 19,
-        "descendants": 7,
-        "time": 1771691221,
-        "comments_url": "https://news.ycombinator.com/item?id=47102208"
+        "by": "zenon_paradox",
+        "score": 18,
+        "descendants": 12,
+        "time": 1771699244,
+        "comments_url": "https://news.ycombinator.com/item?id=47103418"
       },
       "tags": [
-        "Hardware",
-        "Open Source"
+        "DevOps"
       ]
     },
     {
@@ -1167,7 +1610,8 @@
         "comments_url": "https://news.ycombinator.com/item?id=47044413"
       },
       "tags": [
-        "Programming"
+        "Programming",
+        "Open Source"
       ]
     },
     {
@@ -1189,7 +1633,7 @@
       },
       "tags": [
         "Gaming",
-        "Entertainment"
+        "Culture"
       ]
     },
     {
@@ -1216,26 +1660,67 @@
       ]
     },
     {
-      "title_en": "Show HN: Iron-Wolf – Wolfenstein 3D source port in Rust",
-      "url": "https://github.com/Ragnaroek/iron-wolf",
-      "title_zh": "Show HN：Iron-Wolf——用 Rust 实现的 Wolfenstein 3D 源码移植",
-      "created_display": "Created: Feb 21, 2026 / 07:52 PT",
-      "image_url": "https://opengraph.githubassets.com/82c9158ec67dbfeb2473d75aa0354025adfc896ee37be5528aab48e770fe35dd/Ragnaroek/iron-wolf",
-      "summary_en": "Rust-based source port of the classic Wolfenstein 3D demonstrates how modern language safety and ecosystem can revive retro games. Iron-Wolf focuses on clean code, portability, and potential performance gains, offering a case study in Rust-driven game porting. The project also shows the balance between authenticity and safety in emulation-like efforts.",
-      "summary_zh": "基于 Rust 的经典 Wolfenstein 3D 源码移植展示了现代语言的安全性与生态系统如何促成复古游戏的再现。Iron-Wolf 注重代码整洁、可移植性，以及潜在的性能提升，成为 Rust 驱动的移植案例。该项目也揭示了在保真度与安全性之间寻求平衡的挑战。",
+      "title_en": "MeshTNC is a tool for turning consumer grade LoRa radios into KISS TNC compatib",
+      "url": "https://github.com/datapartyjs/MeshTNC",
+      "title_zh": "MeshTNC：将消费级 LoRa 无线电转化为 KISS TNC 兼容设备的工具",
+      "created_display": "Created: Feb 21, 2026 / 12:14 PT",
+      "image_url": "https://opengraph.githubassets.com/1697c6b0a3b99e1b85e9be3d1be822435bf34a9384c4b3709cf2d1c1f6cab6cc/datapartyjs/MeshTNC",
+      "summary_en": "MeshTNC enables turning consumer-grade LoRa radios into KISS TNC-compatible devices, bridging modern wireless hardware with traditional HAM radio workflows. It opens avenues for experimentation and retro-computing projects.",
+      "summary_zh": "MeshTNC 让消费级 LoRa 无线电设备也能兼容 KISS TNC，连接现代无线硬件与传统业余无线电工作流。为实验和复古计算相关项目打开了新路径。",
       "hn": {
-        "id": 47101890,
+        "id": 47104223,
         "type": "story",
-        "by": "ragnaroekX",
-        "score": 9,
-        "descendants": 5,
-        "time": 1771689140,
-        "comments_url": "https://news.ycombinator.com/item?id=47101890"
+        "by": "todsacerdoti",
+        "score": 12,
+        "descendants": 3,
+        "time": 1771704840,
+        "comments_url": "https://news.ycombinator.com/item?id=47104223"
       },
       "tags": [
-        "Show HN",
-        "Programming",
-        "Gaming"
+        "Hardware"
+      ]
+    },
+    {
+      "title_en": "Denonomicon: The Dark Arts of Deno Foreign Function Interface Programming",
+      "url": "https://denonomicon.deno.dev/introduction",
+      "title_zh": "Denonomicon：Deno 的 FFI 编程的黑暗艺术",
+      "created_display": "Created: Feb 17, 2026 / 01:16 PT",
+      "image_url": "https://denonomicon.deno.dev/denonomicon-title.svg?__frsh_c=zvkgjmb5de00",
+      "summary_en": "Denonomicon surveys Deno's foreign function interface programming, outlining strategies, pitfalls, and best practices for safe and ergonomic FFI usage.",
+      "summary_zh": "Denonomicon 介绍 Deno 的 FFI 编程，梳理安全、易用的实践、常见坑点与最佳实践。",
+      "hn": {
+        "id": 47045313,
+        "type": "story",
+        "by": "enz",
+        "score": 8,
+        "descendants": 1,
+        "time": 1771319801,
+        "comments_url": "https://news.ycombinator.com/item?id=47045313"
+      },
+      "tags": [
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "Shai-Hulud-Style NPM Worm Hijacks CI Workflows and Poisons AI Toolchains",
+      "url": "https://socket.dev/blog/sandworm-mode-npm-worm-ai-toolchain-poisoning",
+      "title_zh": "Shai-Hulud 风格的 NPM 蠕虫劫持 CI 工作流并污染 AI 工具链",
+      "created_display": "Created: Feb 21, 2026 / 12:41 PT",
+      "image_url": null,
+      "summary_en": "Shai-Hulud-Style NPM Worm hijacks CI workflows and taints AI toolchains, illustrating how supply-chain attacks can compromise build pipelines and downstream tooling.",
+      "summary_zh": "Shai-Hulud 风格的 NPM 蠕虫劫持持续集成工作流并污染 AI 工具链，揭示供应链攻击对构建管线和下游工具的风险。",
+      "hn": {
+        "id": 47104510,
+        "type": "story",
+        "by": "jicea",
+        "score": 6,
+        "descendants": 0,
+        "time": 1771706476,
+        "comments_url": "https://news.ycombinator.com/item?id=47104510"
+      },
+      "tags": [
+        "Security",
+        "AI"
       ]
     },
     {
@@ -1257,31 +1742,29 @@
       },
       "tags": [
         "Design",
-        "Web",
         "DevOps"
       ]
     },
     {
-      "title_en": "Permacomputing",
-      "url": "https://wiki.xxiivv.com/site/permacomputing.html",
-      "title_zh": "永续计算",
-      "created_display": "Created: Feb 17, 2026 / 04:40 PT",
-      "image_url": "https://wiki.xxiivv.com/media/services/rss.jpg",
-      "summary_en": "Permacomputing blends permaculture principles with computing to design sustainable tech ecosystems. It advocates energy-efficient hardware, distributed resilience, and open, community-driven maintenance to reduce e-waste and long-term costs. The field encourages critiquing growth-centric tech culture and exploring less resource-intensive deployment.",
-      "summary_zh": "永续计算将永续耕作的原则应用到计算领域，旨在设计更可持续的技术生态。它提倡使用节能硬件、分布式韧性以及开放、由社区推动的维护模式，以减少电子垃圾和长期成本。这一理念也在批判以增长为导向的科技文化，探讨资源占用更低的部署方案。",
+      "title_en": "Ask HN: Programmable Watches with WiFi?",
+      "url": "https://news.ycombinator.com/item?id=47105086",
+      "title_zh": "Ask HN：带 WiFi 的可编程手表？",
+      "created_display": "Created: Feb 21, 2026 / 13:39 PT",
+      "image_url": "https://news.ycombinator.com/y18.svg",
+      "summary_en": "Ask HN: Programmable Watches with WiFi? discusses feasibility, power budget, security considerations, and potential use cases for smartwatches with network connectivity.",
+      "summary_zh": "Ask HN：带 WiFi 的可编程手表可行吗？讨论了网络连接、功耗、安全性与潜在应用场景等问题。",
       "hn": {
-        "id": 47046858,
+        "id": 47105086,
         "type": "story",
-        "by": "tosh",
+        "by": "dakiol",
         "score": 5,
         "descendants": 0,
-        "time": 1771332037,
-        "comments_url": "https://news.ycombinator.com/item?id=47046858"
+        "time": 1771709995,
+        "comments_url": "https://news.ycombinator.com/item?id=47105086"
       },
       "tags": [
-        "Energy",
-        "Culture",
-        "Hardware"
+        "Hardware",
+        "Security"
       ]
     },
     {
@@ -1324,7 +1807,72 @@
       },
       "tags": [
         "Web",
-        "Programming"
+        "Design"
+      ]
+    },
+    {
+      "title_en": "Online Pebble Development",
+      "url": "https://cloudpebble.repebble.com/",
+      "title_zh": "Pebble 在线开发",
+      "created_display": "Created: Feb 21, 2026 / 12:50 PT",
+      "image_url": "https://cloudpebble.repebble.com/static/root/images/cloudpebble.png",
+      "summary_en": "Online Pebble Development provides browser-based development for Pebble apps, enabling testing and iteration without local tooling.",
+      "summary_zh": "Online Pebble Development 提供浏览器中的 Pebble 应用开发与测试环境，方便开发者在无需本地工具的情况下进行试验。",
+      "hn": {
+        "id": 47104613,
+        "type": "story",
+        "by": "teekert",
+        "score": 4,
+        "descendants": 1,
+        "time": 1771707046,
+        "comments_url": "https://news.ycombinator.com/item?id=47104613"
+      },
+      "tags": [
+        "Programming",
+        "Web"
+      ]
+    },
+    {
+      "title_en": "NSA and IETF, Part 6",
+      "url": "https://blog.cr.yp.to/20260221-structure.html",
+      "title_zh": "NSA 与 IETF 第六部分",
+      "created_display": "Created: Feb 21, 2026 / 13:42 PT",
+      "image_url": null,
+      "summary_en": "NSA and IETF, Part 6 continues examining the interaction between intelligence agencies and standards bodies, highlighting governance, security, and potential concerns about influence on cryptography.",
+      "summary_zh": "NSA 与 IETF 第六部分继续探讨情报机构与标准化机构之间的互动，聚焦治理、安全性以及对密码学标准的潜在影响担忧。",
+      "hn": {
+        "id": 47105107,
+        "type": "story",
+        "by": "Tomte",
+        "score": 4,
+        "descendants": 0,
+        "time": 1771710137,
+        "comments_url": "https://news.ycombinator.com/item?id=47105107"
+      },
+      "tags": [
+        "Security",
+        "Politics"
+      ]
+    },
+    {
+      "title_en": "Toggle: A simple and keyboard friendly graphics drawing tool",
+      "url": "https://github.com/Protyasha-Roy/toggle",
+      "title_zh": "Toggle：一个简单且键盘友好的绘图工具",
+      "created_display": "Created: Feb 21, 2026 / 11:51 PT",
+      "image_url": "https://opengraph.githubassets.com/a7682004889fd300c6d8c6689869aa1b6bc4211dac36797ee55db8538912df6b/Protyasha-Roy/toggle",
+      "summary_en": "Toggle is a keyboard-friendly graphics drawing tool that aims for fast, distraction-free sketching with minimal UI and focused keyboard workflows.",
+      "summary_zh": "Toggle 是一个以键盘为核心的简洁图形绘制工具，追求快速无干扰的绘图体验，界面简洁、操作以键盘为主。",
+      "hn": {
+        "id": 47104019,
+        "type": "story",
+        "by": "zynovex",
+        "score": 3,
+        "descendants": 0,
+        "time": 1771703518,
+        "comments_url": "https://news.ycombinator.com/item?id=47104019"
+      },
+      "tags": [
+        "Design"
       ]
     }
   ]
