@@ -305,17 +305,7 @@
       applyFilter(filter);
     });
 
-    // Also make individual tags on cards clickable for filtering
-    list.addEventListener("click", function (e) {
-      var tagEl = e.target.closest(".hn-tag");
-      if (!tagEl) return;
-      var tag = tagEl.getAttribute("data-tag");
-      if (tag) {
-        applyFilter(tag);
-        // Scroll to top of filter bar
-        bar.scrollIntoView({ behavior: "smooth", block: "start" });
-      }
-    });
+    // Card-level tags are non-clickable to prevent accidental taps on mobile
   }
 
   if (document.readyState === "loading") {

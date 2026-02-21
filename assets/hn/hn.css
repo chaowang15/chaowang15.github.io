@@ -794,6 +794,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 6px;
+    pointer-events: none; /* prevent accidental taps on card tags */
     margin: 8px 0 10px 0;
 }
 
@@ -811,7 +812,7 @@ body {
     transition: opacity 140ms ease;
 }
 
-.hn-tag:hover {
+.hn-filter-bar .hn-tag:hover {
     opacity: 0.85;
 }
 
