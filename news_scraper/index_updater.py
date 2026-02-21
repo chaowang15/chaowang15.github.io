@@ -378,7 +378,7 @@ def update_hackernews_index(
     # Today's Top Stories section
     top_stories = _get_top_stories(base_dir, all_days, n=5)
     if top_stories:
-        lines.append("<div class='hn-top-stories-section'>")
+        lines.append("<div class='hn-index-section hn-top-stories-section'>")
         lines.append("<h3 class='hn-section-title'>Today's Top Stories</h3>")
         lines.append("<div class='hn-top-stories-list'>")
         for i, story in enumerate(top_stories, 1):
@@ -427,7 +427,7 @@ def update_hackernews_index(
     # Weekly digest links
     weekly_entries = _collect_weekly_entries(base_dir)
     if weekly_entries:
-        lines.append("<div class='hn-weekly-section'>")
+        lines.append("<div class='hn-index-section hn-weekly-section'>")
         lines.append("<h3 class='hn-section-title'>Weekly Digest</h3>")
         lines.append("<div class='hn-day-stories'>")
         for w in weekly_entries:
@@ -438,11 +438,11 @@ def update_hackernews_index(
         lines.append("</div>")  # hn-day-stories
         lines.append("</div>")  # hn-weekly-section
 
-    lines.append("<hr class='hn-rule'/>")
-
     if not days:
         lines.append("<p class='hn-hint'>No files found yet. Run the workflow once to generate the first file.</p>")
     else:
+        lines.append("<div class='hn-index-section hn-daily-section'>")
+        lines.append("<h3 class='hn-section-title'>Daily Archive</h3>")
         lines.append("<div class='hn-grid'>")
         for day in days:
             lines.append("<div class='hn-day-row'>")
@@ -465,6 +465,7 @@ def update_hackernews_index(
             lines.append("</div>")  # hn-day-row
 
         lines.append("</div>")  # hn-grid
+        lines.append("</div>")  # hn-daily-section
 
     lines.append("")
     lines.append(f"<p class='hn-hint'>Browse by date: <code>/{base_dir}/YYYY/MM/DD/</code></p>")

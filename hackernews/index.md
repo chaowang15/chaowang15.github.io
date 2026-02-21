@@ -18,7 +18,7 @@ Sort:
 </div>
 <div id='hn-search-results' class='hn-search-results' style='display:none;'></div>
 <button id='hn-search-more' class='hn-search-more' style='display:none;'>Show more results</button>
-<div class='hn-top-stories-section'>
+<div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories</h3>
 <div class='hn-top-stories-list'>
 <div class='hn-top-story-item'>
@@ -79,7 +79,7 @@ Sort:
 <a class='hn-top-stories-more' href='/hackernews/2026/02/20/top_stories_02202026'>View all trending stories &rarr;</a>
 </div>
 </div>
-<div class='hn-weekly-section'>
+<div class='hn-index-section hn-weekly-section'>
 <h3 class='hn-section-title'>Weekly Digest</h3>
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/weekly/2026-W08'>
@@ -88,7 +88,8 @@ Sort:
 </a>
 </div>
 </div>
-<hr class='hn-rule'/>
+<div class='hn-index-section hn-daily-section'>
+<h3 class='hn-section-title'>Daily Archive</h3>
 <div class='hn-grid'>
 <div class='hn-day-row'>
 <div class='hn-day-date'>2026-02-20</div>
@@ -141,6 +142,7 @@ Sort:
 <span class='hn-row-type hn-type-best'>Daily Best</span>
 <span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>14</b> <span class="hn-row-sep">·</span> Web <b>9</b></span>
 </a>
+</div>
 </div>
 </div>
 </div>
