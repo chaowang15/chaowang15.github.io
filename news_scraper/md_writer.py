@@ -156,7 +156,8 @@ def render_markdown(
         # Data attributes for JS sorting (hot/top/new)
         hn_time = hn.get("time", "")
         hn_score_val = hn.get("score", 0)
-        data_attrs = f" data-hn-time='{hn_time}' data-hn-score='{hn_score_val}'"
+        hot_score_val = it.get("hot_score", 0)
+        data_attrs = f" data-hn-time='{hn_time}' data-hn-score='{hn_score_val}' data-hot-score='{hot_score_val}'"
 
         lines.append(f"<div class='hn-card'{id_attr} data-tags='{tags_data}'{data_attrs}>")
         lines.append("<div class='hn-body'>")

@@ -221,14 +221,6 @@ def _build_detail_html(entry: StoryEntry) -> str:
     return sep.join(parts)
 
 
-def _hn_hot_score(score: int, created_ts: int, now_ts: float, gravity: float = 1.8) -> float:
-    """
-    Compute HN time-decay hotness: (P - 1) / (T + 2) ^ G
-    P = score (votes), T = age in hours, G = gravity (default 1.8)
-    """
-    age_hours = max((now_ts - created_ts) / 3600.0, 0.1)
-    return (max(score - 1, 0)) / ((age_hours + 2) ** gravity)
-
 
 def _get_top_stories(base_dir: str, days: List[DayEntry], n: int = 10) -> List[dict]:
     """
@@ -238,9 +230,6 @@ def _get_top_stories(base_dir: str, days: List[DayEntry], n: int = 10) -> List[d
     Returns a list of dicts with title_en, title_zh, url, score, descendants,
     tags, hot_score.
     """
-    import time as _time
-    now_ts = _time.time()
-
     # Find the latest day that has a 'top' story entry
     for day in days:
         for s in day.stories:
@@ -254,24 +243,15 @@ def _get_top_stories(base_dir: str, days: List[DayEntry], n: int = 10) -> List[d
                 if not data:
                     continue
                 items = data.get("items", []) or []
-                # Sort by HN time-decay hotness (descending)
+                # Sort by stored hot_score (computed at pipeline time), descending
                 items.sort(
-                    key=lambda x: _hn_hot_score(
-                        x.get("hn", {}).get("score", 0),
-                        x.get("hn", {}).get("time", 0),
-                        now_ts
-                    ),
+                    key=lambda x: x.get("hot_score", 0),
                     reverse=True
                 )
                 result = []
                 for it in items[:n]:
                     hn = it.get("hn", {}) or {}
                     hn_id = hn.get("id", "")
-                    hot = _hn_hot_score(
-                        hn.get("score", 0),
-                        hn.get("time", 0),
-                        now_ts
-                    )
                     result.append({
                         "title_en": it.get("title_en", ""),
                         "title_zh": it.get("title_zh", ""),
@@ -282,7 +262,7 @@ def _get_top_stories(base_dir: str, days: List[DayEntry], n: int = 10) -> List[d
                         "hn_id": hn_id,
                         "hn_time": hn.get("time", 0),
                         "daily_url": s.rel_url,  # link to the daily page
-                        "hot_score": round(hot, 1),
+                        "hot_score": it.get("hot_score", 0),
                     })
                 return result
     return []
@@ -446,7 +426,9 @@ def update_hackernews_index(
                 lines.append(f"<div class='hn-top-story-zh'>{title_zh}</div>")
             # Meta line: hot score, score, comments, tags
             meta_parts = []
-            meta_parts.append(f"<span class='hn-hot-idx'>&#128293; --</span>")
+            hot_score = story.get('hot_score', 0)
+            hot_display = str(round(hot_score)) if hot_score >= 10 else f"{hot_score:.1f}"
+            meta_parts.append(f"<span class='hn-hot-idx'>&#128293; {hot_display}</span>")
             meta_parts.append(f"<span class='hn-top-story-score'>&#9650; {score}</span>")
             meta_parts.append(f"<span class='hn-top-story-comments'>&#128172; {comments}</span>")
             for tag in tags[:3]:

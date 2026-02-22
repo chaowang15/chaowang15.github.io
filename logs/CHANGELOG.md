@@ -4,28 +4,33 @@
 
 ---
 
-## 2026年2月22日 (全站 Hot Score 实时一致性)
+## 2026年2月22日 (Hot Score 统一为 Pipeline 固定计算)
 
-修复 Index 页面 Today's Top Stories 与 Trending 页面 hot score 不一致的问题。原因是 Index 页面的 hot score 在 pipeline 运行时计算并硬编码到 HTML 中，而 Trending 页面由 JS 实时计算。随着时间推移，两者差异越来越大。
+将全站 hot score 从客户端实时计算改为 pipeline 运行时一次性固定计算。
+
+### 变更原因
+
+之前的方案（JS 实时计算）存在问题：由于爬取间隔为 4-5 小时，每次用户访问页面时 hot score 都会因为时间衰减而变化，导致绝对值越来越小，失去参考意义。固定计算更能反映"发现时的热度"。
 
 ### 解决方案
 
-将 Index 页面 Top Stories 的 hot score 改为与 Trending 页面相同的 JS 实时计算方式：
-- `index_updater.py`：在 `hn-top-story-item` 上添加 `data-hn-score` 和 `data-hn-time` 属性，hot score 改为占位符 `🔥 --`
-- `hn.js`：新增 `initIndexHotScores()` 模块，页面加载时使用 `hnRankScore()` 公式实时计算并填充 hot score
-- 公式：`(votes - 1) / (ageHours + 2)^1.8`，与 Trending 页面完全一致
+1. **`main.py`**：在保存 JSON 前计算每条新闻的 `hot_score` 字段，使用爬取时间作为基准时间
+2. **`main.py`**：对历史 JSON 文件进行 backfill，使用 `run_time_utc` 作为基准时间补算 `hot_score`
+3. **`md_writer.py`**：在 `hn-card` 上添加 `data-hot-score` 属性，从 JSON 中读取
+4. **`hn.js`**：Trending 页面排序直接读取 `data-hot-score`，移除 `hnRankScore()` 实时计算函数
+5. **`hn.js`**：移除 `initIndexHotScores()` IIFE（不再需要客户端计算）
+6. **`index_updater.py`**：直接从 JSON 读取 `hot_score` 并写入 HTML，移除 `_hn_hot_score()` 函数
 
-### 验证结果
+### 公式
 
-| 新闻 | Index 页面 | Trending 页面 |
-|------|-----------|---------------|
-| How I use Claude Code | 🔥 3.3 | 🔥 3.3 |
-| Attention Media | 🔥 2.9 | 🔥 2.9 |
+`hot_score = (votes - 1) / (age_hours + 2) ^ 1.8`，在 pipeline 运行时一次性计算并存入 JSON。
 
 ### 涉及文件
 
-- `news_scraper/index_updater.py` — 添加 data 属性，移除硬编码 hot score
-- `assets/hn/hn.js` — 新增 Index 页面实时 hot score 计算模块
+- `news_scraper/main.py` — 添加 hot_score 计算（新数据 + 历史 backfill）
+- `news_scraper/md_writer.py` — 添加 `data-hot-score` 属性到 card HTML
+- `news_scraper/index_updater.py` — 读取存储的 hot_score，移除实时计算函数
+- `assets/hn/hn.js` — 移除 `hnRankScore()`、`initIndexHotScores()`，改为读取 data 属性
 
 ---
 

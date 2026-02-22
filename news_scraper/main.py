@@ -338,6 +338,30 @@ def rebuild_all_from_json(cfg: dict, max_items: int = 3650):
             items = backup.get("items", []) or []
             meta = backup.get("meta", {}) or {}
 
+            # Compute hot_score for each item if not already present
+            _need_hot = any("hot_score" not in it for it in items)
+            if _need_hot:
+                # Use scrape time from meta, or fall back to current time
+                _run_utc = meta.get("run_time_utc", "")
+                if _run_utc:
+                    import datetime as _dt
+                    try:
+                        _scrape_ts = _dt.datetime.strptime(_run_utc.replace(" UTC", ""), "%Y-%m-%d %H:%M:%S").replace(tzinfo=_dt.timezone.utc).timestamp()
+                    except Exception:
+                        _scrape_ts = time.time()
+                else:
+                    _scrape_ts = time.time()
+                _gravity = 1.8
+                for _it in items:
+                    _hn = _it.get("hn", {}) or {}
+                    _score = _hn.get("score", 0)
+                    _ctime = _hn.get("time", 0)
+                    _age_h = max((_scrape_ts - _ctime) / 3600.0, 0.1) if _ctime else 9999
+                    _hot = max(_score - 1, 0) / ((_age_h + 2) ** _gravity)
+                    _it["hot_score"] = round(_hot, 2)
+                # Save updated JSON with hot_score
+                write_backup_json(json_path, meta=meta, items=items)
+
             md_path = json_path[:-5] + ".md"
 
             content_date = meta.get("content_date", "")
@@ -785,6 +809,18 @@ def run_scrape(mode: str, cfg: dict):
 
     meta["incremental"] = True
     meta["stories_max"] = stories_max
+
+    # Compute hot_score for each item at scrape time
+    _now_ts = time.time()
+    _gravity = 1.8
+    for _it in final_items:
+        _hn = _it.get("hn", {}) or {}
+        _score = _hn.get("score", 0)
+        _ctime = _hn.get("time", 0)
+        _age_h = max((_now_ts - _ctime) / 3600.0, 0.1) if _ctime else 9999
+        _hot = max(_score - 1, 0) / ((_age_h + 2) ** _gravity)
+        _it["hot_score"] = round(_hot, 2)
+    meta["hot_score_time_utc"] = time.strftime("%Y-%m-%d %H:%M:%S UTC", time.gmtime(_now_ts))
 
     write_backup_json(json_path, meta=meta, items=final_items)
     print(f"\n[JSON] Saved backup: {json_path} ({len(final_items)} items, same_day_reused={reused_same_day}, cross_day_reused={reused_cross_day})")
