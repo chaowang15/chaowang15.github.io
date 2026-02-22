@@ -17,6 +17,8 @@ from typing import Any, Dict, List
 
 from openai import OpenAI
 
+from token_logger import log_token_usage, extract_usage
+
 
 # ---------------------------------------------------------------------------
 # Robust JSON parser
@@ -181,6 +183,17 @@ Input items JSON:
 
             raw_text = resp.output_text.strip()
             print(f"[LLM] Response received in {elapsed:.1f}s, output length={len(raw_text)} chars")
+
+            # Log token usage
+            usage = extract_usage(resp)
+            log_token_usage(
+                model=model,
+                input_tokens=usage["input_tokens"],
+                output_tokens=usage["output_tokens"],
+                cached_tokens=usage["cached_tokens"],
+                caller="llm_batch",
+                note=f"enrich {len(items)} items, attempt {attempt}",
+            )
 
             data = _safe_json_loads(raw_text)
 

@@ -4,6 +4,36 @@
 
 ---
 
+## 2026年2月22日 (OpenAI API Token 用量跟踪)
+
+新增 `token_logger.py` 模块，自动记录每次 OpenAI API 调用的 token 用量和估算费用到 `logs/openai_token_usage_log.md`。
+
+### 功能详情
+
+| 功能 | 说明 |
+|------|------|
+| **自动记录** | 每次 LLM 调用自动记录模型、input/output/cached tokens、费用 |
+| **费用估算** | 内置最新定价表（gpt-5-nano/mini, gpt-4.1-nano/mini 等） |
+| **日报汇总** | pipeline 结束时自动生成当日汇总行（总调用次数、总 token、总费用） |
+| **按日分组** | 每天一个 section，Markdown 表格格式，便于阅读和分析 |
+| **优雅降级** | 模型不返回 usage 时记录零值，不影响 pipeline 运行 |
+
+### 集成点
+
+- `news_scraper/llm_batch.py`：摘要/翻译 enrichment 调用后记录
+- `news_scraper/tag_generator.py`：标签生成调用后记录
+- `news_scraper/main.py`：pipeline 结束时调用 `log_daily_summary()`
+
+### 涉及文件
+
+- `news_scraper/token_logger.py`：新增，核心 logger 模块
+- `news_scraper/llm_batch.py`：集成 token logging
+- `news_scraper/tag_generator.py`：集成 token logging
+- `news_scraper/main.py`：集成 daily summary
+- `logs/openai_token_usage_log.md`：新增，token 用量日志文件
+
+---
+
 ## 2026年2月22日 (Index 日期行加星期几)
 
 Index 页面 Daily News 区域的日期行现在显示星期几缩写，提升可扫描性。

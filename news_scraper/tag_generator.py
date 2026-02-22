@@ -33,6 +33,8 @@ from typing import Any, Dict, List, Set
 
 from openai import OpenAI
 
+from token_logger import log_token_usage, extract_usage
+
 ALLOWED_TAGS = [
     "AI", "Programming", "Security", "Science", "Business", "Finance",
     "Hardware", "Open Source", "Design", "Web", "DevOps", "Data",
@@ -385,6 +387,17 @@ Input:
             raw_text = resp.output_text.strip()
             print(f"    [TAG-LLM] model={model}, batch_size={len(input_payload)}, "
                   f"response_len={len(raw_text)}, elapsed={elapsed:.1f}s (attempt {attempt})")
+
+            # Log token usage
+            usage = extract_usage(resp)
+            log_token_usage(
+                model=model,
+                input_tokens=usage["input_tokens"],
+                output_tokens=usage["output_tokens"],
+                cached_tokens=usage["cached_tokens"],
+                caller="tag_generator",
+                note=f"tag {len(input_payload)} items, attempt {attempt}",
+            )
 
             data = _safe_json_loads(raw_text)
 

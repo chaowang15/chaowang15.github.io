@@ -37,6 +37,7 @@ from index_updater import update_hackernews_index
 from search_index_builder import build_search_index
 from tag_cloud_builder import build_tag_cloud
 from tag_trend_builder import build_tag_trend
+from token_logger import log_daily_summary
 from rss_builder import build_rss_feed
 from backup_io import write_backup_json, read_backup_json
 from tag_generator import tag_json_file
@@ -886,6 +887,12 @@ def main():
             f.write(idx_md)
     except Exception as e:
         print(f"[WARN] Failed to clean index markdown: {e}")
+
+    # Log daily token usage summary
+    try:
+        log_daily_summary()
+    except Exception as e:
+        print(f"[WARN] Failed to write token usage summary: {e}")
 
     elapsed = time.time() - t_start
     print(f"\n[TOTAL] All modes completed in {elapsed:.1f}s")
