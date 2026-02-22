@@ -24,110 +24,110 @@ Sort:
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<span class='hn-top-story-title-text'>What not to write on your security clearance form (1988)</span>
- <a class='hn-top-story-link' href='/hackernews/2026/02/21/top_stories_02212026#story-47102576' title='View in daily page'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/02/21/top_stories_02212026#story-47098245'>I verified my LinkedIn identity. Here's what I handed over</a>
+ <a class='hn-top-story-link' href='https://thelocalstack.eu/posts/linkedin-identity-verification-privacy/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>填写安全许可申请表时不该写的内容</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.7</span> <span class='hn-top-story-score'>&#9650; 332</span> <span class='hn-top-story-comments'>&#128172; 133</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Legal</span></div>
+<div class='hn-top-story-zh'>我验证了我的 LinkedIn 身份，我交出了什么</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 1030</span> <span class='hn-top-story-comments'>&#128172; 379</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Data</span></div>
 </div>
 </div>
 <div class='hn-top-story-item'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<span class='hn-top-story-title-text'>I verified my LinkedIn identity. Here's what I handed over</span>
- <a class='hn-top-story-link' href='/hackernews/2026/02/21/top_stories_02212026#story-47098245' title='View in daily page'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/02/21/top_stories_02212026#story-47102576'>What not to write on your security clearance form (1988)</a>
+ <a class='hn-top-story-link' href='https://milk.com/wall-o-shame/security_clearance.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>我验证了我的 LinkedIn 身份，我交出了什么</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.4</span> <span class='hn-top-story-score'>&#9650; 1030</span> <span class='hn-top-story-comments'>&#128172; 379</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Data</span></div>
+<div class='hn-top-story-zh'>填写安全许可申请表时不该写的内容</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 332</span> <span class='hn-top-story-comments'>&#128172; 133</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Legal</span></div>
 </div>
 </div>
 <div class='hn-top-story-item'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<span class='hn-top-story-title-text'>Keep Android Open</span>
- <a class='hn-top-story-link' href='/hackernews/2026/02/21/top_stories_02212026#story-47091419' title='View in daily page'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/02/21/top_stories_02212026#story-47091419'>Keep Android Open</a>
+ <a class='hn-top-story-link' href='https://f-droid.org/2026/02/20/twif.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>让 Android 保持开放</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 1955</span> <span class='hn-top-story-comments'>&#128172; 673</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 1955</span> <span class='hn-top-story-comments'>&#128172; 673</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
 <div class='hn-top-story-item'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<span class='hn-top-story-title-text'>Facebook is cooked</span>
- <a class='hn-top-story-link' href='/hackernews/2026/02/21/top_stories_02212026#story-47091748' title='View in daily page'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/02/21/top_stories_02212026#story-47091748'>Facebook is cooked</a>
+ <a class='hn-top-story-link' href='https://pilk.website/3/facebook-is-absolutely-cooked' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Facebook 已经完蛋</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 1376</span> <span class='hn-top-story-comments'>&#128172; 750</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.2</span> <span class='hn-top-story-score'>&#9650; 1376</span> <span class='hn-top-story-comments'>&#128172; 750</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
 <div class='hn-top-story-item'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<span class='hn-top-story-title-text'>Cloudflare outage on February 20, 2026</span>
- <a class='hn-top-story-link' href='/hackernews/2026/02/21/top_stories_02212026#story-47103649' title='View in daily page'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/02/21/top_stories_02212026#story-47089213'>Trump's global tariffs struck down by US Supreme Court</a>
+ <a class='hn-top-story-link' href='https://www.bbc.com/news/live/c0l9r67drg7t' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>2026年2月20日的 Cloudflare 故障</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 116</span> <span class='hn-top-story-comments'>&#128172; 82</span> <span class='hn-top-story-tag'>Web</span></div>
+<div class='hn-top-story-zh'>美最高法院推翻特朗普时期的全球关税判决</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 1471</span> <span class='hn-top-story-comments'>&#128172; 1222</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Legal</span></div>
 </div>
 </div>
 <div class='hn-top-story-item hn-top-story-extra'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<span class='hn-top-story-title-text'>Trump's global tariffs struck down by US Supreme Court</span>
- <a class='hn-top-story-link' href='/hackernews/2026/02/21/top_stories_02212026#story-47089213' title='View in daily page'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/02/21/top_stories_02212026#story-47103649'>Cloudflare outage on February 20, 2026</a>
+ <a class='hn-top-story-link' href='https://blog.cloudflare.com/cloudflare-outage-february-20-2026/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>美最高法院推翻特朗普时期的全球关税判决</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.3</span> <span class='hn-top-story-score'>&#9650; 1471</span> <span class='hn-top-story-comments'>&#128172; 1222</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Legal</span></div>
+<div class='hn-top-story-zh'>2026年2月20日的 Cloudflare 故障</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.5</span> <span class='hn-top-story-score'>&#9650; 116</span> <span class='hn-top-story-comments'>&#128172; 82</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
 <div class='hn-top-story-item hn-top-story-extra'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<span class='hn-top-story-title-text'>EDuke32 – Duke Nukem 3D (Open-Source)</span>
- <a class='hn-top-story-link' href='/hackernews/2026/02/21/top_stories_02212026#story-47104185' title='View in daily page'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/02/21/top_stories_02212026#story-47092578'>I found a vulnerability. they found a lawyer</a>
+ <a class='hn-top-story-link' href='https://dixken.de/blog/i-found-a-vulnerability-they-found-a-lawyer' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>EDuke32：Duke Nukem 3D 的开源实现</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.9</span> <span class='hn-top-story-score'>&#9650; 73</span> <span class='hn-top-story-comments'>&#128172; 21</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Gaming</span></div>
+<div class='hn-top-story-zh'>我发现了漏洞，他们找来了律师</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.4</span> <span class='hn-top-story-score'>&#9650; 838</span> <span class='hn-top-story-comments'>&#128172; 391</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Legal</span></div>
 </div>
 </div>
 <div class='hn-top-story-item hn-top-story-extra'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<span class='hn-top-story-title-text'>macOS's Little-Known Command-Line Sandboxing Tool (2025)</span>
- <a class='hn-top-story-link' href='/hackernews/2026/02/21/top_stories_02212026#story-47101200' title='View in daily page'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/02/21/top_stories_02212026#story-47101200'>macOS's Little-Known Command-Line Sandboxing Tool (2025)</a>
+ <a class='hn-top-story-link' href='https://igorstechnoclub.com/sandbox-exec/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>macOS 鲜为人知的命令行沙箱工具（2025）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.7</span> <span class='hn-top-story-score'>&#9650; 179</span> <span class='hn-top-story-comments'>&#128172; 74</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.3</span> <span class='hn-top-story-score'>&#9650; 179</span> <span class='hn-top-story-comments'>&#128172; 74</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
 <div class='hn-top-story-item hn-top-story-extra'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<span class='hn-top-story-title-text'>Parse, Don't Validate and Type-Driven Design in Rust</span>
- <a class='hn-top-story-link' href='/hackernews/2026/02/21/top_stories_02212026#story-47103931' title='View in daily page'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/02/21/top_stories_02212026#story-47104185'>EDuke32 – Duke Nukem 3D (Open-Source)</a>
+ <a class='hn-top-story-link' href='https://www.eduke32.com/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Rust 的“解析优先”与类型驱动设计</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.6</span> <span class='hn-top-story-score'>&#9650; 71</span> <span class='hn-top-story-comments'>&#128172; 25</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>EDuke32：Duke Nukem 3D 的开源实现</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.2</span> <span class='hn-top-story-score'>&#9650; 73</span> <span class='hn-top-story-comments'>&#128172; 21</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Gaming</span></div>
 </div>
 </div>
 <div class='hn-top-story-item hn-top-story-extra'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<span class='hn-top-story-title-text'>I found a vulnerability. they found a lawyer</span>
- <a class='hn-top-story-link' href='/hackernews/2026/02/21/top_stories_02212026#story-47092578' title='View in daily page'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/02/21/top_stories_02212026#story-47094192'>Turn Dependabot off</a>
+ <a class='hn-top-story-link' href='https://words.filippo.io/dependabot/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>我发现了漏洞，他们找来了律师</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.6</span> <span class='hn-top-story-score'>&#9650; 838</span> <span class='hn-top-story-comments'>&#128172; 391</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Legal</span></div>
+<div class='hn-top-story-zh'>关闭 Dependabot</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.1</span> <span class='hn-top-story-score'>&#9650; 610</span> <span class='hn-top-story-comments'>&#128172; 179</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>DevOps</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>

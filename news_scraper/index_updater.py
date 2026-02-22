@@ -429,11 +429,14 @@ def update_hackernews_index(
             lines.append(f"<div class='hn-top-story-item{extra_cls}'>")
             lines.append(f"<span class='hn-top-story-rank'>{i}</span>")
             lines.append(f"<div class='hn-top-story-content'>")
-            # Title line with link to our daily page
+            # Title line: title links to our daily page, 🔗 icon links to original article
             lines.append(f"<div class='hn-top-story-title'>")
-            lines.append(f"<span class='hn-top-story-title-text'>{title_en}</span>")
             if story_link:
-                lines.append(f" <a class='hn-top-story-link' href='{story_link}' title='View in daily page'>&#x1F517;</a>")
+                lines.append(f"<a class='hn-top-story-title-text' href='{story_link}'>{title_en}</a>")
+            else:
+                lines.append(f"<span class='hn-top-story-title-text'>{title_en}</span>")
+            if url:
+                lines.append(f" <a class='hn-top-story-link' href='{url}' target='_blank' title='Read original article'>&#x1F517;</a>")
             lines.append(f"</div>")
             # Chinese title
             if title_zh:
