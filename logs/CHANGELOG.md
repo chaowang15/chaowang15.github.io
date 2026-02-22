@@ -4,6 +4,23 @@
 
 ---
 
+## 2026年2月21日 (语言切换按钮位置调整)
+
+将语言切换按钮（EN / 双 / 中）从 "Scraped at" 行移到更合适的位置：
+
+| 页面类型 | 放置位置 |
+|----------|----------|
+| Trending 页面 | Sort by 同一行的最右边（`margin-left: auto`） |
+| Daily Best 页面 | 独立一行，右对齐 |
+
+### 涉及文件
+
+- `assets/hn/hn.js`：`initLangToggle` 函数根据是否存在 `.hn-sort-bar` 决定插入位置。
+- `assets/hn/hn.css`：新增 `.hn-lang-toggle--in-sort`（sort bar 内右对齐）和 `.hn-lang-toolbar`（独立行右对齐）样式，移动端响应式适配。
+- `_layouts/hn.html`：缓存版本号更新至 `v=20260221r`。
+
+---
+
 ## 2026年2月21日 (Index 页 Top Stories 改为 Hot 排序)
 
 将 Index 主页的 "Today's Top Stories" 从纯分数排序改为 HN 时间衰减公式（Hot）排序，让首页展示"正在热门"的内容而非历史高分故事。每条故事增加 🔥 热度分标签。

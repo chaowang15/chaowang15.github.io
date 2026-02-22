@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>6</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>550</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>5</span> best files</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>4</span> top files</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-02-21</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>6</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>550</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>5</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>4</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-02-21</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -28,7 +28,7 @@ Sort:
  <a class='hn-top-story-link' href='/hackernews/2026/02/21/top_stories_02212026#story-47102576' title='View in daily page'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>填写安全许可申请表时不该写的内容</div>
-<div class='hn-top-story-meta'><span class='hn-hot-badge'>&#128293; 5.0</span> <span class='hn-top-story-score'>&#9650; 332</span> <span class='hn-top-story-comments'>&#128172; 133</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Legal</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.7</span> <span class='hn-top-story-score'>&#9650; 332</span> <span class='hn-top-story-comments'>&#128172; 133</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Legal</span></div>
 </div>
 </div>
 <div class='hn-top-story-item'>
@@ -39,7 +39,7 @@ Sort:
  <a class='hn-top-story-link' href='/hackernews/2026/02/21/top_stories_02212026#story-47098245' title='View in daily page'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>我验证了我的 LinkedIn 身份，我交出了什么</div>
-<div class='hn-top-story-meta'><span class='hn-hot-badge'>&#128293; 4.6</span> <span class='hn-top-story-score'>&#9650; 1030</span> <span class='hn-top-story-comments'>&#128172; 379</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Data</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.4</span> <span class='hn-top-story-score'>&#9650; 1030</span> <span class='hn-top-story-comments'>&#128172; 379</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Data</span></div>
 </div>
 </div>
 <div class='hn-top-story-item'>
@@ -50,7 +50,7 @@ Sort:
  <a class='hn-top-story-link' href='/hackernews/2026/02/21/top_stories_02212026#story-47091419' title='View in daily page'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>让 Android 保持开放</div>
-<div class='hn-top-story-meta'><span class='hn-hot-badge'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 1955</span> <span class='hn-top-story-comments'>&#128172; 673</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 1955</span> <span class='hn-top-story-comments'>&#128172; 673</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
 <div class='hn-top-story-item'>
@@ -61,7 +61,7 @@ Sort:
  <a class='hn-top-story-link' href='/hackernews/2026/02/21/top_stories_02212026#story-47091748' title='View in daily page'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Facebook 已经完蛋</div>
-<div class='hn-top-story-meta'><span class='hn-hot-badge'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 1376</span> <span class='hn-top-story-comments'>&#128172; 750</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 1376</span> <span class='hn-top-story-comments'>&#128172; 750</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
 <div class='hn-top-story-item'>
@@ -72,7 +72,7 @@ Sort:
  <a class='hn-top-story-link' href='/hackernews/2026/02/21/top_stories_02212026#story-47103649' title='View in daily page'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>2026年2月20日的 Cloudflare 故障</div>
-<div class='hn-top-story-meta'><span class='hn-hot-badge'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 116</span> <span class='hn-top-story-comments'>&#128172; 82</span> <span class='hn-top-story-tag'>Web</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 116</span> <span class='hn-top-story-comments'>&#128172; 82</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
 <div class='hn-top-story-item hn-top-story-extra'>
@@ -83,7 +83,7 @@ Sort:
  <a class='hn-top-story-link' href='/hackernews/2026/02/21/top_stories_02212026#story-47089213' title='View in daily page'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>美最高法院推翻特朗普时期的全球关税判决</div>
-<div class='hn-top-story-meta'><span class='hn-hot-badge'>&#128293; 2.3</span> <span class='hn-top-story-score'>&#9650; 1471</span> <span class='hn-top-story-comments'>&#128172; 1222</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Legal</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.3</span> <span class='hn-top-story-score'>&#9650; 1471</span> <span class='hn-top-story-comments'>&#128172; 1222</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Legal</span></div>
 </div>
 </div>
 <div class='hn-top-story-item hn-top-story-extra'>
@@ -94,7 +94,7 @@ Sort:
  <a class='hn-top-story-link' href='/hackernews/2026/02/21/top_stories_02212026#story-47104185' title='View in daily page'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>EDuke32：Duke Nukem 3D 的开源实现</div>
-<div class='hn-top-story-meta'><span class='hn-hot-badge'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 73</span> <span class='hn-top-story-comments'>&#128172; 21</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Gaming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.9</span> <span class='hn-top-story-score'>&#9650; 73</span> <span class='hn-top-story-comments'>&#128172; 21</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Gaming</span></div>
 </div>
 </div>
 <div class='hn-top-story-item hn-top-story-extra'>
@@ -105,7 +105,7 @@ Sort:
  <a class='hn-top-story-link' href='/hackernews/2026/02/21/top_stories_02212026#story-47101200' title='View in daily page'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>macOS 鲜为人知的命令行沙箱工具（2025）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-badge'>&#128293; 1.8</span> <span class='hn-top-story-score'>&#9650; 179</span> <span class='hn-top-story-comments'>&#128172; 74</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.7</span> <span class='hn-top-story-score'>&#9650; 179</span> <span class='hn-top-story-comments'>&#128172; 74</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
 <div class='hn-top-story-item hn-top-story-extra'>
@@ -116,7 +116,7 @@ Sort:
  <a class='hn-top-story-link' href='/hackernews/2026/02/21/top_stories_02212026#story-47103931' title='View in daily page'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Rust 的“解析优先”与类型驱动设计</div>
-<div class='hn-top-story-meta'><span class='hn-hot-badge'>&#128293; 1.8</span> <span class='hn-top-story-score'>&#9650; 71</span> <span class='hn-top-story-comments'>&#128172; 25</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.6</span> <span class='hn-top-story-score'>&#9650; 71</span> <span class='hn-top-story-comments'>&#128172; 25</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
 <div class='hn-top-story-item hn-top-story-extra'>
@@ -127,7 +127,7 @@ Sort:
  <a class='hn-top-story-link' href='/hackernews/2026/02/21/top_stories_02212026#story-47092578' title='View in daily page'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>我发现了漏洞，他们找来了律师</div>
-<div class='hn-top-story-meta'><span class='hn-hot-badge'>&#128293; 1.6</span> <span class='hn-top-story-score'>&#9650; 838</span> <span class='hn-top-story-comments'>&#128172; 391</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Legal</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.6</span> <span class='hn-top-story-score'>&#9650; 838</span> <span class='hn-top-story-comments'>&#128172; 391</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Legal</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>

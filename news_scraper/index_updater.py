@@ -377,8 +377,8 @@ def update_hackernews_index(
         stat_parts = []
         stat_parts.append(f"<span class='hn-stat-item'><span class='hn-stat-num'>{stats['total_days']}</span> days</span>")
         stat_parts.append(f"<span class='hn-stat-item'><span class='hn-stat-num'>{stats['total_stories']}</span> stories</span>")
-        stat_parts.append(f"<span class='hn-stat-item'><span class='hn-stat-num'>{stats['best_files']}</span> best files</span>")
-        stat_parts.append(f"<span class='hn-stat-item'><span class='hn-stat-num'>{stats['top_files']}</span> top files</span>")
+        stat_parts.append(f"<span class='hn-stat-item'><span class='hn-stat-num'>{stats['best_files']}</span> daily best</span>")
+        stat_parts.append(f"<span class='hn-stat-item'><span class='hn-stat-num'>{stats['top_files']}</span> trending</span>")
         date_range = f"{stats['date_start']} — {stats['date_end']}" if stats['date_start'] != stats['date_end'] else stats['date_start']
         stat_parts.append(f"<span class='hn-stat-item'>{date_range}</span>")
         stat_parts.append("<a class='hn-stat-link' href='/hackernews/trends/'>Trends</a>")
@@ -441,7 +441,7 @@ def update_hackernews_index(
             # Meta line: hot score, score, comments, tags
             hot = story.get('hot_score', 0)
             meta_parts = []
-            meta_parts.append(f"<span class='hn-hot-badge'>&#128293; {hot}</span>")
+            meta_parts.append(f"<span class='hn-hot-idx'>&#128293; {hot}</span>")
             meta_parts.append(f"<span class='hn-top-story-score'>&#9650; {score}</span>")
             meta_parts.append(f"<span class='hn-top-story-comments'>&#128172; {comments}</span>")
             for tag in tags[:3]:
