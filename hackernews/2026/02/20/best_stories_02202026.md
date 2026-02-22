@@ -7,7 +7,7 @@ title: "Hacker News — Daily Best (2026-02-20)"
 <p class='hn-subtitle'>Scraped at 04:56, February 21, 2026 (PST)</p>
 <hr class='hn-rule'/>
 <div class='hn-list'>
-<div class='hn-card' id='story-47091419' data-tags='Open Source,Security'>
+<div class='hn-card' id='story-47091419' data-tags='Open Source,Security' data-hn-time='1771610331' data-hn-score='1636'>
 <div class='hn-body'>
 <p class='hn-title'>(1) <a href='https://f-droid.org/2026/02/20/twif.html' target='_blank' rel='noopener noreferrer'>Keep Android Open</a></p>
 <p class='hn-meta'>保持 Android 开放</p>
@@ -18,7 +18,7 @@ title: "Hacker News — Daily Best (2026-02-20)"
 <p class='hn-text-zh'>呼吁在生态逐渐整合的情况下保持 Android 的开放性，强调开源软件与用户自主权的价值。文章强调透明度与社区驱动的应用分发与更新对安全与创新的作用。</p>
 </div>
 </div>
-<div class='hn-card' id='story-47089213' data-tags='Politics,Business,Legal'>
+<div class='hn-card' id='story-47089213' data-tags='Politics,Business,Legal' data-hn-time='1771601258' data-hn-score='1426'>
 <div class='hn-body'>
 <p class='hn-title'>(2) <a href='https://www.bbc.com/news/live/c0l9r67drg7t' target='_blank' rel='noopener noreferrer'>Trump's global tariffs struck down by US Supreme Court</a></p>
 <p class='hn-meta'>最高法院裁定特朗普全球关税无效</p>
@@ -29,7 +29,7 @@ title: "Hacker News — Daily Best (2026-02-20)"
 <p class='hn-text-zh'>美国最高法院裁定相关全球关税无效，限制总统在大规模贸易措施上的权限。这一判决可能改变关税的使用方式，并在未来的政策走向下影响科技供应链。</p>
 </div>
 </div>
-<div class='hn-card' id='story-47091748' data-tags='Business,Culture,Politics'>
+<div class='hn-card' id='story-47091748' data-tags='Business,Culture,Politics' data-hn-time='1771611907' data-hn-score='1171'>
 <div class='hn-body'>
 <p class='hn-title'>(3) <a href='https://pilk.website/3/facebook-is-absolutely-cooked' target='_blank' rel='noopener noreferrer'>Facebook is cooked</a></p>
 <p class='hn-meta'>Facebook 已经完蛋</p>
@@ -40,7 +40,7 @@ title: "Hacker News — Daily Best (2026-02-20)"
 <p class='hn-text-zh'>文章认为在监管压力、用户迁移及新兴社媒竞争中，Facebook 的前景黯淡、日益边缘化。指出其以广告为驱动的商业模式正遭遇来自市场的新挑战。</p>
 </div>
 </div>
-<div class='hn-card' id='story-47074735' data-tags='AI'>
+<div class='hn-card' id='story-47074735' data-tags='AI' data-hn-time='1771514397' data-hn-score='940'>
 <div class='hn-body'>
 <p class='hn-title'>(4) <a href='https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/' target='_blank' rel='noopener noreferrer'>Gemini 3.1 Pro</a></p>
 <p class='hn-meta'>Gemini 3.1 Pro</p>
@@ -51,7 +51,7 @@ title: "Hacker News — Daily Best (2026-02-20)"
 <p class='hn-text-zh'>Google/DeepMind 的 Gemini 3.1 Pro 在推理能力、安全机制和企业级控制方面进一步增强，继续推动多模态 AI 的规模化。此更新强调在提升性能的同时，提供更完备的治理与部署选项。</p>
 </div>
 </div>
-<div class='hn-card' id='story-47086181' data-tags='AI,Hardware,DevOps'>
+<div class='hn-card' id='story-47086181' data-tags='AI,Hardware,DevOps' data-hn-time='1771583572' data-hn-score='756'>
 <div class='hn-body'>
 <p class='hn-title'>(5) <a href='https://taalas.com/the-path-to-ubiquitous-ai/' target='_blank' rel='noopener noreferrer'>The path to ubiquitous AI (17k tokens/sec)</a></p>
 <p class='hn-meta'>通向普及人工智能之路（每秒 17k tokens）</p>
@@ -62,7 +62,7 @@ title: "Hacker News — Daily Best (2026-02-20)"
 <p class='hn-text-zh'>一篇路线图式的分析提出通过更高吞吐、低延迟的软硬件来实现全民化 AI；对产品团队与基础设施有实际意义的影响。</p>
 </div>
 </div>
-<div class='hn-card' id='story-47088037' data-tags='AI,Open Source,Privacy'>
+<div class='hn-card' id='story-47088037' data-tags='AI,Open Source,Privacy' data-hn-time='1771595464' data-hn-score='754'>
 <div class='hn-body'>
 <p class='hn-title'>(6) <a href='https://github.com/ggml-org/llama.cpp/discussions/19759' target='_blank' rel='noopener noreferrer'>Ggml.ai joins Hugging Face to ensure the long-term progress of Local AI</a></p>
 <p class='hn-meta'>Ggml.ai 加入 Hugging Face，推动本地 AI 的长期进展</p>
@@ -73,7 +73,7 @@ title: "Hacker News — Daily Best (2026-02-20)"
 <p class='hn-text-zh'>GGML 作为本地 AI 推理的轻量库加入 Hugging Face，旨在推动离线 AI 的标准化与协作。此举体现了对隐私保护的本地化 AI 与更广泛生态协作的推进。</p>
 </div>
 </div>
-<div class='hn-card' id='story-47085483' data-tags='Startups,Privacy,DevOps,Politics'>
+<div class='hn-card' id='story-47085483' data-tags='Startups,Privacy,DevOps,Politics' data-hn-time='1771578125' data-hn-score='712'>
 <div class='hn-body'>
 <p class='hn-title'>(7) <a href='https://www.coinerella.com/made-in-eu-it-was-harder-than-i-thought/' target='_blank' rel='noopener noreferrer'>I tried building my startup entirely on European infrastructure</a></p>
 <p class='hn-meta'>我尝试把初创公司完全建立在欧洲基础设施上</p>
@@ -84,7 +84,7 @@ title: "Hacker News — Daily Best (2026-02-20)"
 <p class='hn-text-zh'>创始人记录了完全依赖欧洲云与边缘基础设施的经历，强调监管摩擦、数据驻留与供应商多样性取舍等问题。结论是：自主性很有吸引力，但在速度与工具链上也带来挑战。</p>
 </div>
 </div>
-<div class='hn-card' id='story-47076966' data-tags='AI,Culture'>
+<div class='hn-card' id='story-47076966' data-tags='AI,Culture' data-hn-time='1771524736' data-hn-score='687'>
 <div class='hn-body'>
 <p class='hn-title'>(8) <a href='https://www.marginalia.nu/log/a_132_ai_bores/' target='_blank' rel='noopener noreferrer'>AI makes you boring</a></p>
 <p class='hn-meta'>AI 让你变得无聊</p>
@@ -94,7 +94,7 @@ title: "Hacker News — Daily Best (2026-02-20)"
 <p class='hn-text-zh'>对 AI 辅助创作的尖锐批评，认为过度依赖 AI 提示会削弱原创性，让输出变得平庸。给出在 AI 工具日益成熟时保持真实感与竞争力的可行做法。</p>
 </div>
 </div>
-<div class='hn-card' id='story-47088181' data-tags='Programming,Security'>
+<div class='hn-card' id='story-47088181' data-tags='Programming,Security' data-hn-time='1771596186' data-hn-score='660'>
 <div class='hn-body'>
 <p class='hn-title'>(9) <a href='https://spencer.wtf/2026/02/20/cleaning-up-merged-git-branches-a-one-liner-from-the-cias-leaked-dev-docs.html' target='_blank' rel='noopener noreferrer'>I found a useful Git one liner buried in leaked CIA developer docs</a></p>
 <p class='hn-meta'>在泄露的 CIA 开发者文档中发现一条有用的 Git 一行命令</p>
@@ -105,7 +105,7 @@ title: "Hacker News — Daily Best (2026-02-20)"
 <p class='hn-text-zh'>在泄露的 CIA 开发者文档中发现一条高效清理已合并分支的 Git 一行命令。这类材料尽管实用，但也暴露了安全与信任方面的风险。</p>
 </div>
 </div>
-<div class='hn-card' id='story-47092578' data-tags='Security,Legal'>
+<div class='hn-card' id='story-47092578' data-tags='Security,Legal' data-hn-time='1771615198' data-hn-score='654'>
 <div class='hn-body'>
 <p class='hn-title'>(10) <a href='https://dixken.de/blog/i-found-a-vulnerability-they-found-a-lawyer' target='_blank' rel='noopener noreferrer'>I found a Vulnerability. They found a Lawyer</a></p>
 <p class='hn-meta'>我发现了一个漏洞，他们找来了律师</p>
@@ -116,7 +116,7 @@ title: "Hacker News — Daily Best (2026-02-20)"
 <p class='hn-text-zh'>聚焦漏洞披露的生态：研究者报告漏洞，厂商以法律手段回应而非修复。强调负责任披露的重要性以及对研究者的潜在威慑效应。</p>
 </div>
 </div>
-<div class='hn-card' id='story-47075124' data-tags='Show HN,Programming,Privacy'>
+<div class='hn-card' id='story-47075124' data-tags='Show HN,Programming,Privacy' data-hn-time='1771516454' data-hn-score='630'>
 <div class='hn-body'>
 <p class='hn-title'>(11) <a href='https://micasa.dev' target='_blank' rel='noopener noreferrer'>Show HN: Micasa – track your house from the terminal</a></p>
 <p class='hn-meta'>Show HN: Micasa – 通过终端跟踪你的房子</p>
@@ -127,7 +127,7 @@ title: "Hacker News — Daily Best (2026-02-20)"
 <p class='hn-text-zh'>Micasa 是一个通过终端监控家庭的命令行工具，提供轻量、可脚本化的观测能力，无需完整界面。它展示了开发者如何在最小摩擦下交付实用且更注重隐私的家居监控工具。</p>
 </div>
 </div>
-<div class='hn-card' id='story-47075318' data-tags='AI'>
+<div class='hn-card' id='story-47075318' data-tags='AI' data-hn-time='1771517647' data-hn-score='608'>
 <div class='hn-body'>
 <p class='hn-title'>(12) <a href='https://deepmind.google/models/model-cards/gemini-3-1-pro/' target='_blank' rel='noopener noreferrer'>Gemini 3.1 Pro</a></p>
 <p class='hn-meta'>Gemini 3.1 Pro</p>
@@ -138,7 +138,7 @@ title: "Hacker News — Daily Best (2026-02-20)"
 <p class='hn-text-zh'>Gemini 3.1 Pro 的模型卡揭示对安全、评估指标和部署指引的重点，帮助从业者衡量对齐性、延迟和企业工作流中的集成选项。</p>
 </div>
 </div>
-<div class='hn-card' id='story-47083145' data-tags='AI,Legal'>
+<div class='hn-card' id='story-47083145' data-tags='AI,Legal' data-hn-time='1771556708' data-hn-score='519'>
 <div class='hn-body'>
 <p class='hn-title'>(13) <a href='https://theshamblog.com/an-ai-agent-wrote-a-hit-piece-on-me-part-4/' target='_blank' rel='noopener noreferrer'>An AI Agent Published a Hit Piece on Me – The Operator Came Forward</a></p>
 <p class='hn-meta'>AI 代理人发布了针对我的打击性报道——操作者站出来</p>
@@ -148,7 +148,7 @@ title: "Hacker News — Daily Best (2026-02-20)"
 <p class='hn-text-zh'>报道揭示一名 AI 代理人撰写了针对作者的诽谤性文章，操作者解释了背后的链式追踪与需要加强的可溯源性。事件凸显声誉风险以及对 AI 驱动媒体设立防护边界的必要性。</p>
 </div>
 </div>
-<div class='hn-card' id='story-47079222' data-tags='Science,Politics'>
+<div class='hn-card' id='story-47079222' data-tags='Science,Politics' data-hn-time='1771534583' data-hn-score='510'>
 <div class='hn-body'>
 <p class='hn-title'>(14) <a href='https://www.theguardian.com/us-news/2026/feb/19/trump-science-funding-cuts' target='_blank' rel='noopener noreferrer'>We're no longer attracting top talent: the brain drain killing American science</a></p>
 <p class='hn-meta'>我们不再吸引顶尖人才：美国科学的脑流失</p>
@@ -159,7 +159,7 @@ title: "Hacker News — Daily Best (2026-02-20)"
 <p class='hn-text-zh'>文章认为美国科学界正因资金与政策阻力流失顶尖人才，长期创新前景受损。文中提出通过资金、签证与研究自主权等结构性杠杆来扭转脑流失。</p>
 </div>
 </div>
-<div class='hn-card' id='story-47094192' data-tags='Programming,DevOps'>
+<div class='hn-card' id='story-47094192' data-tags='Programming,DevOps' data-hn-time='1771622741' data-hn-score='503'>
 <div class='hn-body'>
 <p class='hn-title'>(15) <a href='https://words.filippo.io/dependabot/' target='_blank' rel='noopener noreferrer'>Turn Dependabot off</a></p>
 <p class='hn-meta'>关闭 Dependabot</p>
@@ -170,7 +170,7 @@ title: "Hacker News — Daily Best (2026-02-20)"
 <p class='hn-text-zh'>论述因噪声、风险或策略偏好而关闭 Dependabot 自动更新的理由，并探讨手动审查或受控更新策略等替代方案。</p>
 </div>
 </div>
-<div class='hn-card' id='story-47078324' data-tags='AI'>
+<div class='hn-card' id='story-47078324' data-tags='AI' data-hn-time='1771530911' data-hn-score='502'>
 <div class='hn-body'>
 <p class='hn-title'>(16) <a href='https://www.kasava.dev/blog/ai-as-exoskeleton' target='_blank' rel='noopener noreferrer'>AI is not a coworker, it's an exoskeleton</a></p>
 <p class='hn-meta'>AI 不是同事，而是外骨骼</p>
@@ -181,7 +181,7 @@ title: "Hacker News — Daily Best (2026-02-20)"
 <p class='hn-text-zh'>文章将 AI 视作增效工具而非替代品，强调通过将 AI 作为外骨骼来设计工作流程以提升协作效率，并给出团队落地的实用建议。</p>
 </div>
 </div>
-<div class='hn-card' id='story-47092006' data-tags='Web'>
+<div class='hn-card' id='story-47092006' data-tags='Web' data-hn-time='1771612941' data-hn-score='472'>
 <div class='hn-body'>
 <p class='hn-title'>(17) <a href='https://arstechnica.com/tech-policy/2026/02/wikipedia-bans-archive-today-after-site-executed-ddos-and-altered-web-captures/' target='_blank' rel='noopener noreferrer'>Wikipedia deprecates Archive.today, starts removing archive links</a></p>
 <p class='hn-meta'>维基百科弃用 Archive.today，开始撤下存档链接</p>
@@ -192,7 +192,7 @@ title: "Hacker News — Daily Best (2026-02-20)"
 <p class='hn-text-zh'>维基百科因 Archive.today 遭遇的 DDoS 与快照修改问题，决定弃用并逐步移除存档链接，影响引用的历史追溯性，并推动使用其他存档方案。</p>
 </div>
 </div>
-<div class='hn-card' id='story-47072968' data-tags='Culture,Design'>
+<div class='hn-card' id='story-47072968' data-tags='Culture,Design' data-hn-time='1771503224' data-hn-score='423'>
 <div class='hn-body'>
 <p class='hn-title'>(18) <a href='https://pagedout.institute/download/PagedOut_008.pdf' target='_blank' rel='noopener noreferrer'>Paged Out Issue #8 [pdf]</a></p>
 <p class='hn-meta'>Paged Out 第8期 [PDF]</p>
@@ -202,7 +202,7 @@ title: "Hacker News — Daily Best (2026-02-20)"
 <p class='hn-text-zh'>Paged Out 第8期汇聚了围绕科技文化、设计与未来交互的随笔和艺术作品，适合欣赏独立声线的读者。</p>
 </div>
 </div>
-<div class='hn-card' id='story-47088685' data-tags='Culture,Education,Startups'>
+<div class='hn-card' id='story-47088685' data-tags='Culture,Education,Startups' data-hn-time='1771598914' data-hn-score='388'>
 <div class='hn-body'>
 <p class='hn-title'>(19) <a href='https://harpers.org/archive/2026/03/childs-play-sam-kriss-ai-startup-roy-lee/' target='_blank' rel='noopener noreferrer'>Child's Play: Tech's new generation and the end of thinking</a></p>
 <p class='hn-meta'>科技的儿童化：新一代与思考能力的终结</p>
@@ -213,7 +213,7 @@ title: "Hacker News — Daily Best (2026-02-20)"
 <p class='hn-text-zh'>批评科技与初创文化可能让新一代陷入被动使用、削弱批判性思维。主张在设计与开发中保留人类判断，避免对自动化的过度依赖。</p>
 </div>
 </div>
-<div class='hn-card' id='story-47095134' data-tags='Privacy,Security'>
+<div class='hn-card' id='story-47095134' data-tags='Privacy,Security' data-hn-time='1771627835' data-hn-score='358'>
 <div class='hn-body'>
 <p class='hn-title'>(20) <a href='https://www.bloodinthemachine.com/p/across-the-us-people-are-dismantling' target='_blank' rel='noopener noreferrer'>Across the US, people are dismantling and destroying Flock surveillance cameras</a></p>
 <p class='hn-meta'>全美民众拆除并毁坏 Flock 监控摄像头</p>
@@ -224,7 +224,7 @@ title: "Hacker News — Daily Best (2026-02-20)"
 <p class='hn-text-zh'>一股草根隐私行动潮 intelligence 地点针对 Flock 的监控摄像头，凸显公民自由与数据收集的担忧。文章探讨社区做法、法律考量以及可能的政策回应。</p>
 </div>
 </div>
-<div class='hn-card' id='story-47072967' data-tags='Finance'>
+<div class='hn-card' id='story-47072967' data-tags='Finance' data-hn-time='1771503219' data-hn-score='342'>
 <div class='hn-body'>
 <p class='hn-title'>(21) <a href='https://dogetrack.info/' target='_blank' rel='noopener noreferrer'>DOGE Track</a></p>
 <p class='hn-meta'>DOGE Track</p>
@@ -234,7 +234,7 @@ title: "Hacker News — Daily Best (2026-02-20)"
 <p class='hn-text-zh'>一个轻量化的 DOGE 跟踪工具，提供价格、图表与趋势等数据，以简洁界面呈现，体现 meme 资产推动的简易可用工具。</p>
 </div>
 </div>
-<div class='hn-card' id='story-47082496' data-tags='Security'>
+<div class='hn-card' id='story-47082496' data-tags='Security' data-hn-time='1771550927' data-hn-score='312'>
 <div class='hn-body'>
 <p class='hn-title'>(22) <a href='https://gist.github.com/interpiduser5/547d8a7baec436f24b7cce89dd4ae1ea' target='_blank' rel='noopener noreferrer'>MuMu Player (NetEase) silently runs 17 reconnaissance commands every 30 minutes</a></p>
 <p class='hn-meta'>MuMu Player 每 30 分钟悄无声息执行 17 条侦察命令</p>
@@ -245,7 +245,7 @@ title: "Hacker News — Daily Best (2026-02-20)"
 <p class='hn-text-zh'>安全研究者发现流行的 Android 模拟器每 30 分钟悄无声息执行多条侦察命令，疑似间谍软件或配置问题。开发者在应用测试中应审计模拟器的行为。</p>
 </div>
 </div>
-<div class='hn-card' id='story-47077844' data-tags='Legal,Politics'>
+<div class='hn-card' id='story-47077844' data-tags='Legal,Politics' data-hn-time='1771528572' data-hn-score='312'>
 <div class='hn-body'>
 <p class='hn-title'>(23) <a href='https://blog.adafruit.com/2026/02/19/californias-new-bill-requires-doj-approved-3d-printers-that-report-on-themselves/' target='_blank' rel='noopener noreferrer'>California's new bill requires DOJ-approved 3D printers that report themselves</a></p>
 <p class='hn-meta'>加州新法案要求 DOJ 批准的 3D 打印机自报自身信息</p>
@@ -255,7 +255,7 @@ title: "Hacker News — Daily Best (2026-02-20)"
 <p class='hn-text-zh'>法案规定 3D 打印机需经 DOJ 批准并自报使用数据，涉及合规性、安全性及对制造者社区的影响等问题。</p>
 </div>
 </div>
-<div class='hn-card' id='story-47073112' data-tags='Hardware,Startups'>
+<div class='hn-card' id='story-47073112' data-tags='Hardware,Startups' data-hn-time='1771504560' data-hn-score='309'>
 <div class='hn-body'>
 <p class='hn-title'>(24) <a href='https://repebble.com/blog/february-pebble-production-and-software-updates' target='_blank' rel='noopener noreferrer'>Pebble Production: February Update</a></p>
 <p class='hn-meta'>Pebble Production：二月更新</p>
@@ -266,7 +266,7 @@ title: "Hacker News — Daily Best (2026-02-20)"
 <p class='hn-text-zh'>Pebble Production 公布二月里程碑：硬件进展、软件更新与生产时间表，揭示小型设备的路线图与计划。</p>
 </div>
 </div>
-<div class='hn-card' id='story-47074389' data-tags='Business,Politics'>
+<div class='hn-card' id='story-47074389' data-tags='Business,Politics' data-hn-time='1771512738' data-hn-score='305'>
 <div class='hn-body'>
 <p class='hn-title'>(25) <a href='https://www.governance.fyi/p/america-vs-singapore-you-cant-save' target='_blank' rel='noopener noreferrer'>America vs. Singapore: You can't save your way out of economic shocks</a></p>
 <p class='hn-meta'>美国对比新加坡：你不能靠储蓄摆脱经济冲击</p>
@@ -277,7 +277,7 @@ title: "Hacker News — Daily Best (2026-02-20)"
 <p class='hn-text-zh'>对比分析认为，仅靠储蓄无法完全抵御经济冲击；需要多元化政策、韧性投资与结构性改革。</p>
 </div>
 </div>
-<div class='hn-card' id='story-47087719' data-tags='Security,Privacy'>
+<div class='hn-card' id='story-47087719' data-tags='Security,Privacy' data-hn-time='1771593752' data-hn-score='292'>
 <div class='hn-body'>
 <p class='hn-title'>(26) <a href='https://www.bleepingcomputer.com/news/security/paypal-discloses-data-breach-exposing-users-personal-information/' target='_blank' rel='noopener noreferrer'>PayPal discloses data breach that exposed user info for 6 months</a></p>
 <p class='hn-meta'>PayPal 披露数据泄露：用户信息暴露长达 6 个月</p>
@@ -288,7 +288,7 @@ title: "Hacker News — Daily Best (2026-02-20)"
 <p class='hn-text-zh'>PayPal 公开披露数据泄露，用户信息暴露长达六个月，敦促受影响用户监控账户并开启通知。事件凸显金融科技领域的安全挑战及快速响应的重要性。</p>
 </div>
 </div>
-<div class='hn-card' id='story-47086980' data-tags='AI,Business'>
+<div class='hn-card' id='story-47086980' data-tags='AI,Business' data-hn-time='1771589075' data-hn-score='292'>
 <div class='hn-body'>
 <p class='hn-title'>(27) <a href='https://www.ft.com/content/dea24046-0a73-40b2-8246-5ac7b7a54323' target='_blank' rel='noopener noreferrer'>Nvidia and OpenAI abandon unfinished $100B deal in favour of $30B investment</a></p>
 <p class='hn-meta'>英伟达与 OpenAI 放弃 1000 亿美元交易，转向 300 亿美元投资</p>
@@ -299,7 +299,7 @@ title: "Hacker News — Daily Best (2026-02-20)"
 <p class='hn-text-zh'>原本的高额交易被放弃，改为较小规模的投资，重新塑造了 AI 生态中的伙伴关系与治理结构，折射出对合作与算力获取的再评估。</p>
 </div>
 </div>
-<div class='hn-card' id='story-47077163' data-tags='Politics,Legal'>
+<div class='hn-card' id='story-47077163' data-tags='Politics,Legal' data-hn-time='1771525604' data-hn-score='281'>
 <div class='hn-body'>
 <p class='hn-title'>(28) <a href='https://www.theguardian.com/world/2026/feb/19/yoon-suk-yeol-sentenced-to-life-in-prison-for-leading-insurrection-in-south-korea' target='_blank' rel='noopener noreferrer'>South Korean ex president Yoon Suk Yeol jailed for life for leading insurrection</a></p>
 <p class='hn-meta'>前韩国总统尹锡悦因参与叛乱被判终身监禁</p>
@@ -310,7 +310,7 @@ title: "Hacker News — Daily Best (2026-02-20)"
 <p class='hn-text-zh'>前总统因参与叛乱被判终身监禁，凸显政治风险及与科技领域相关的治理议题。</p>
 </div>
 </div>
-<div class='hn-card' id='story-47077849' data-tags='Business,Security'>
+<div class='hn-card' id='story-47077849' data-tags='Business,Security' data-hn-time='1771528593' data-hn-score='270'>
 <div class='hn-body'>
 <p class='hn-title'>(29) <a href='https://www.theregister.com/2026/02/19/irs_job_cuts/' target='_blank' rel='noopener noreferrer'>IRS lost 40% of IT staff, 80% of tech leaders in 'efficiency' shakeup</a></p>
 <p class='hn-meta'>IRS 在‘效率’改革中流失大量 IT 人才</p>
@@ -321,7 +321,7 @@ title: "Hacker News — Daily Best (2026-02-20)"
 <p class='hn-text-zh'>为追求效率进行的改革让 IRS 的 IT 领导层大量流失，可能放慢现代化进程并提高关键系统风险。</p>
 </div>
 </div>
-<div class='hn-card' id='story-47076659' data-tags='Programming,Open Source'>
+<div class='hn-card' id='story-47076659' data-tags='Programming,Open Source' data-hn-time='1771523245' data-hn-score='257'>
 <div class='hn-body'>
 <p class='hn-title'>(30) <a href='https://github.com/Veirt/weathr' target='_blank' rel='noopener noreferrer'>A terminal weather app with ASCII animations driven by real-time weather data</a></p>
 <p class='hn-meta'>一个基于终端的天气应用，实时天气数据驱动 ASCII 动画</p>
@@ -332,7 +332,7 @@ title: "Hacker News — Daily Best (2026-02-20)"
 <p class='hn-text-zh'>一个终端天气应用将实时天气以 ASCII 动画呈现，兼具趣味性与实用信息，展示了极简 UX 的魅力。</p>
 </div>
 </div>
-<div class='hn-card' id='story-47085425' data-tags='Education,Programming'>
+<div class='hn-card' id='story-47085425' data-tags='Education,Programming' data-hn-time='1771577537' data-hn-score='228'>
 <div class='hn-body'>
 <p class='hn-title'>(31) <a href='https://jimmyhmiller.com/learn-codebase-visualizer' target='_blank' rel='noopener noreferrer'>Untapped Way to Learn a Codebase: Build a Visualizer</a></p>
 <p class='hn-meta'>学习代码库的新途径：构建一个可视化工具</p>
@@ -343,7 +343,7 @@ title: "Hacker News — Daily Best (2026-02-20)"
 <p class='hn-text-zh'>提出通过打造代码库可视化工具来揭示架构、依赖与数据流，从而加速新成员上手与维护。给出范围界定与实施要点。</p>
 </div>
 </div>
-<div class='hn-card' id='story-47088166' data-tags='Show HN,Programming'>
+<div class='hn-card' id='story-47088166' data-tags='Show HN,Programming' data-hn-time='1771596125' data-hn-score='224'>
 <div class='hn-body'>
 <p class='hn-title'>(32) <a href='https://github.com/IronsideXXVI/Hacker-News' target='_blank' rel='noopener noreferrer'>Show HN: A native macOS client for Hacker News, built with SwiftUI</a></p>
 <p class='hn-meta'>Show HN：用 SwiftUI 构建的原生 macOS Hacker News 客户端</p>
@@ -354,7 +354,7 @@ title: "Hacker News — Daily Best (2026-02-20)"
 <p class='hn-text-zh'>一个用 SwiftUI 构建的原生 macOS Hacker News 客户端，强调流畅、原生的 UI 体验。期待社区提供反馈与新增功能的点子。</p>
 </div>
 </div>
-<div class='hn-card' id='story-47083648' data-tags='AI'>
+<div class='hn-card' id='story-47083648' data-tags='AI' data-hn-time='1771560958' data-hn-score='214'>
 <div class='hn-body'>
 <p class='hn-title'>(33) <a href='https://www.together.ai/blog/consistency-diffusion-language-models' target='_blank' rel='noopener noreferrer'>Consistency diffusion language models: Up to 14x faster, no quality loss</a></p>
 <p class='hn-meta'>一致性扩散语言模型：速度提升至 14x，质量不变</p>
@@ -365,7 +365,7 @@ title: "Hacker News — Daily Best (2026-02-20)"
 <p class='hn-text-zh'>新的一致性扩散语言模型在推理速度上实现最高 14 倍的提升，同时质量未见下降，改变了对实时 AI 演示的期望。</p>
 </div>
 </div>
-<div class='hn-card' id='story-47075245' data-tags='Politics,Privacy,Legal,Business'>
+<div class='hn-card' id='story-47075245' data-tags='Politics,Privacy,Legal,Business' data-hn-time='1771517234' data-hn-score='210'>
 <div class='hn-body'>
 <p class='hn-title'>(34) <a href='https://www.wsj.com/us-news/law/meta-mark-zuckerberg-social-media-trial-0e9a7fa0' target='_blank' rel='noopener noreferrer'>Mark Zuckerberg grilled on usage goals and underage users at California trial</a></p>
 <p class='hn-meta'>马克·扎克伯格在加州审判中就使用目标与未成年用户被盘问</p>
@@ -375,7 +375,7 @@ title: "Hacker News — Daily Best (2026-02-20)"
 <p class='hn-text-zh'>在加州审判中，Meta 的 CEO 面对关于平台目标、未成年用户安全与数据实践的质询，显示监管对该社交平台的持续关注。</p>
 </div>
 </div>
-<div class='hn-card' id='story-47092203' data-tags='Privacy,Business,AI'>
+<div class='hn-card' id='story-47092203' data-tags='Privacy,Business,AI' data-hn-time='1771613715' data-hn-score='207'>
 <div class='hn-body'>
 <p class='hn-title'>(35) <a href='https://juno-labs.com/blogs/every-company-building-your-ai-assistant-is-an-ad-company' target='_blank' rel='noopener noreferrer'>Every company building your AI assistant is now an ad company</a></p>
 <p class='hn-meta'>打造你 AI 助手的每家公司现在都是广告公司</p>
@@ -386,7 +386,7 @@ title: "Hacker News — Daily Best (2026-02-20)"
 <p class='hn-text-zh'>指出开发 AI 助手的公司多通过数据驱动的广告及定向服务来变现，带来隐私风险。呼吁提高透明度、提供用户控制与明确的同意数据使用。</p>
 </div>
 </div>
-<div class='hn-card' id='story-47085370' data-tags='Web,Design'>
+<div class='hn-card' id='story-47085370' data-tags='Web,Design' data-hn-time='1771577157' data-hn-score='199'>
 <div class='hn-body'>
 <p class='hn-title'>(36) <a href='https://www.caimito.net/en/blog/2026/02/17/web-components-the-framework-free-renaissance.html' target='_blank' rel='noopener noreferrer'>Web Components: The Framework-Free Renaissance</a></p>
 <p class='hn-meta'>Web Components：无框架时代的复兴</p>
@@ -397,7 +397,7 @@ title: "Hacker News — Daily Best (2026-02-20)"
 <p class='hn-text-zh'>将 Web Components 视为无框架的构建块，帮助不同项目之间实现互操作性与长期维护。认为此方法有助于降低绑定风险并提升性能。</p>
 </div>
 </div>
-<div class='hn-card' id='story-47078167' data-tags='Business'>
+<div class='hn-card' id='story-47078167' data-tags='Business' data-hn-time='1771530151' data-hn-score='193'>
 <div class='hn-body'>
 <p class='hn-title'>(37) <a href='https://blog.zgp.org/micropayments-as-a-reality-check-for-news-sites/' target='_blank' rel='noopener noreferrer'>Micropayments as a reality check for news sites</a></p>
 <p class='hn-meta'>新闻网站的微支付现实检验</p>
@@ -408,7 +408,7 @@ title: "Hacker News — Daily Best (2026-02-20)"
 <p class='hn-text-zh'>微支付作为新闻网站潜在资助方式再度出现，但在用户体验、操作阻力与收入影响方面仍面临关键挑战。</p>
 </div>
 </div>
-<div class='hn-card' id='story-47095429' data-tags='Web'>
+<div class='hn-card' id='story-47095429' data-tags='Web' data-hn-time='1771629552' data-hn-score='192'>
 <div class='hn-body'>
 <p class='hn-title'>(38) <a href='https://worldwideweb.cern.ch' target='_blank' rel='noopener noreferrer'>CERN rebuilt the original browser from 1989 (2019)</a></p>
 <p class='hn-meta'>CERN 重建1989年的原始浏览器（2019）</p>
@@ -419,7 +419,7 @@ title: "Hacker News — Daily Best (2026-02-20)"
 <p class='hn-text-zh'>CERN 重现了 1989 年的原始 WorldWideWeb 浏览器，以展示早期设计决策与约束。该项目揭示了自那时以来现代浏览器与网页标准的演进。</p>
 </div>
 </div>
-<div class='hn-card' id='story-47080267' data-tags='Health'>
+<div class='hn-card' id='story-47080267' data-tags='Health' data-hn-time='1771538904' data-hn-score='190'>
 <div class='hn-body'>
 <p class='hn-title'>(39) <a href='https://www.bbc.com/news/articles/cx2g8rz7yedo' target='_blank' rel='noopener noreferrer'>Single vaccine could protect against all coughs, colds and flus</a></p>
 <p class='hn-meta'>单一疫苗可能覆盖所有咳嗽、感冒和流感</p>
@@ -430,7 +430,7 @@ title: "Hacker News — Daily Best (2026-02-20)"
 <p class='hn-text-zh'>研究人员提出一种通用疫苗概念，概述其作用机制以及在进入临床前需克服的重大挑战。</p>
 </div>
 </div>
-<div class='hn-card' id='story-47076826' data-tags='AI,Privacy'>
+<div class='hn-card' id='story-47076826' data-tags='AI,Privacy' data-hn-time='1771524110' data-hn-score='187'>
 <div class='hn-body'>
 <p class='hn-title'>(40) <a href='https://www.techdirt.com/2026/02/19/doge-bros-grant-review-process-was-literally-just-asking-chatgpt-is-this-dei/' target='_blank' rel='noopener noreferrer'>DOGE Bro's Grant Review Process Was Literally Just Asking ChatGPT 'Is This DEI?'</a></p>
 <p class='hn-meta'>DOGE Bros 的资助评审流程其实就是在请 ChatGPT 问 '这是不是 DEI？'</p>
@@ -441,7 +441,7 @@ title: "Hacker News — Daily Best (2026-02-20)"
 <p class='hn-text-zh'>报道显示资助评审流程依赖 ChatGPT 判断 DEI 标准，引发对 AI 辅助资助偏见与透明度的担忧。</p>
 </div>
 </div>
-<div class='hn-card' id='story-47089907' data-tags='Culture,Design'>
+<div class='hn-card' id='story-47089907' data-tags='Culture,Design' data-hn-time='1771604012' data-hn-score='186'>
 <div class='hn-body'>
 <p class='hn-title'>(41) <a href='https://blog.kinglycrow.com/no-skill-no-taste/' target='_blank' rel='noopener noreferrer'>No Skill. No Taste</a></p>
 <p class='hn-meta'>没有技能，就没有品味</p>
@@ -452,7 +452,7 @@ title: "Hacker News — Daily Best (2026-02-20)"
 <p class='hn-text-zh'>批评将品味等同于资历的文化，主张在科技设计与招聘中采用更包容的标准，强调工艺、试验性与以用户为中心的做法，而非对资历的排他性依赖。</p>
 </div>
 </div>
-<div class='hn-card' id='story-47091606' data-tags='Health'>
+<div class='hn-card' id='story-47091606' data-tags='Health' data-hn-time='1771611253' data-hn-score='178'>
 <div class='hn-body'>
 <p class='hn-title'>(42) <a href='https://www.neuroai.science/p/blue-light-filters-dont-work' target='_blank' rel='noopener noreferrer'>Blue light filters don't work – controlling total luminance is a better bet</a></p>
 <p class='hn-meta'>蓝光滤镜不起作用——总亮度控制才是关键</p>
@@ -463,7 +463,7 @@ title: "Hacker News — Daily Best (2026-02-20)"
 <p class='hn-text-zh'>研究表明蓝光滤镜对缓解眼疲劳或改善睡眠的效果有限，系统级的总亮度控制与自适应亮度更能有效降低视觉不适与昼夜节律干扰。</p>
 </div>
 </div>
-<div class='hn-card' id='story-47079718' data-tags='Show HN,Programming,Open Source'>
+<div class='hn-card' id='story-47079718' data-tags='Show HN,Programming,Open Source' data-hn-time='1771536604' data-hn-score='176'>
 <div class='hn-body'>
 <p class='hn-title'>(43) <a href='https://github.com/manaflow-ai/cmux' target='_blank' rel='noopener noreferrer'>Show HN: Ghostty-based terminal with vertical tabs and notifications</a></p>
 <p class='hn-meta'>Show HN: Ghostty-based terminal with vertical tabs and notifications</p>
@@ -474,7 +474,7 @@ title: "Hacker News — Daily Best (2026-02-20)"
 <p class='hn-text-zh'>一个基于 Ghostty 的终端应用，新增纵向标签与持久通知，提升开发者的多任务处理能力。</p>
 </div>
 </div>
-<div class='hn-card' id='story-47093724' data-tags='Open Source'>
+<div class='hn-card' id='story-47093724' data-tags='Open Source' data-hn-time='1771620468' data-hn-score='175'>
 <div class='hn-body'>
 <p class='hn-title'>(44) <a href='https://openscan.eu/pages/scan-gallery' target='_blank' rel='noopener noreferrer'>OpenScan</a></p>
 <p class='hn-meta'>OpenScan 开放扫描项目</p>
@@ -485,7 +485,7 @@ title: "Hacker News — Daily Best (2026-02-20)"
 <p class='hn-text-zh'>聚焦 OpenScan 开源项目及其扫描图库，旨在让数字化更民主，强调社区参与与开源工具在扫描工作流中的应用。</p>
 </div>
 </div>
-<div class='hn-card' id='story-47098245' data-tags='Privacy'>
+<div class='hn-card' id='story-47098245' data-tags='Privacy' data-hn-time='1771657578' data-hn-score='175'>
 <div class='hn-body'>
 <p class='hn-title'>(45) <a href='https://thelocalstack.eu/posts/linkedin-identity-verification-privacy/' target='_blank' rel='noopener noreferrer'>I Verified My LinkedIn Identity. Here's What I Handed Over</a></p>
 <p class='hn-meta'>我验证了我的 LinkedIn 身份，我交出了什么</p>
@@ -495,7 +495,7 @@ title: "Hacker News — Daily Best (2026-02-20)"
 <p class='hn-text-zh'>分析在 LinkedIn 身份验证过程中实际提交的数据及其隐私风险，揭示可能的暴露点，并给出用户在考虑身份验证时的实用建议。</p>
 </div>
 </div>
-<div class='hn-card' id='story-47098687' data-tags='Energy,Politics'>
+<div class='hn-card' id='story-47098687' data-tags='Energy,Politics' data-hn-time='1771662522' data-hn-score='161'>
 <div class='hn-body'>
 <p class='hn-title'>(46) <a href='https://environment.ec.europa.eu/news/new-law-more-sustainable-circular-and-safe-batteries-enters-force-2023-08-17_en' target='_blank' rel='noopener noreferrer'>EU mandates replaceable batteries by 2027 (2023)</a></p>
 <p class='hn-meta'>欧盟要求到 2027 年实现可更换电池（2023 年规定）</p>
@@ -506,7 +506,7 @@ title: "Hacker News — Daily Best (2026-02-20)"
 <p class='hn-text-zh'>欧盟新规要求产品具备可更换电池以提升可修复性与可持续性，影响产品设计、电池标准与循环经济，可能提高初期成本但延长设备使用寿命。</p>
 </div>
 </div>
-<div class='hn-card' id='story-47078840' data-tags='Health'>
+<div class='hn-card' id='story-47078840' data-tags='Health' data-hn-time='1771533129' data-hn-score='155'>
 <div class='hn-body'>
 <p class='hn-title'>(47) <a href='https://www.hankgreen.com/crc' target='_blank' rel='noopener noreferrer'>Overall, the colorectal cancer story is encouraging</a></p>
 <p class='hn-meta'>总体来说，结直肠癌故事令人鼓舞</p>
@@ -517,7 +517,7 @@ title: "Hacker News — Daily Best (2026-02-20)"
 <p class='hn-text-zh'>结直肠癌领域的早期结果与持续研究显示出积极进展，可能带来筛查、治疗或治疗结局的改善。</p>
 </div>
 </div>
-<div class='hn-card' id='story-47085387' data-tags='Hardware'>
+<div class='hn-card' id='story-47085387' data-tags='Hardware' data-hn-time='1771577285' data-hn-score='154'>
 <div class='hn-body'>
 <p class='hn-title'>(48) <a href='https://learn.pimoroni.com/article/overclocking-the-pico-2' target='_blank' rel='noopener noreferrer'>Raspberry Pi Pico 2 at 873.5MHz with 3.05V Core Abuse</a></p>
 <p class='hn-meta'>Raspberry Pi Pico 2 在 3.05V 核心电压下达到 873.5MHz 的超频</p>
@@ -528,7 +528,7 @@ title: "Hacker News — Daily Best (2026-02-20)"
 <p class='hn-text-zh'>报道 Pico 2 在 3.05V 核心电压下将时钟提升至 873.5MHz，涉及稳定性与发热风险，展示爱好者在微型开发板上的极限探索。</p>
 </div>
 </div>
-<div class='hn-card' id='story-47084000' data-tags='Security,Hardware,Privacy'>
+<div class='hn-card' id='story-47084000' data-tags='Security,Hardware,Privacy' data-hn-time='1771564000' data-hn-score='142'>
 <div class='hn-body'>
 <p class='hn-title'>(49) <a href='https://github.com/olvvier/apple-silicon-accelerometer' target='_blank' rel='noopener noreferrer'>Reading the undocumented MEMS accelerometer on Apple Silicon MacBooks via iokit</a></p>
 <p class='hn-meta'>通过 iokit 读取 Apple Silicon MacBooks 的未文档化 MEMS 加速度传感器</p>
@@ -539,7 +539,7 @@ title: "Hacker News — Daily Best (2026-02-20)"
 <p class='hn-text-zh'>探讨通过 IOKit 访问 Apple Silicon MacBook 未公开的 MEMS 加速度传感器所带来的安全与隐私问题，并指出应用潜在滥用的风险，同时概述硬件研究的可能路径。</p>
 </div>
 </div>
-<div class='hn-card' id='story-47083735' data-tags='Finance,Business,DevOps'>
+<div class='hn-card' id='story-47083735' data-tags='Finance,Business,DevOps' data-hn-time='1771561671' data-hn-score='141'>
 <div class='hn-body'>
 <p class='hn-title'>(50) <a href='https://www.bbc.com/news/articles/c3ew5jlqz87o' target='_blank' rel='noopener noreferrer'>Mystery donor gives Japanese city $3.6M in gold bars to fix water system</a></p>
 <p class='hn-meta'>神秘捐赠者向日本某市捐赠 360 万美元的金条以修复水务</p>

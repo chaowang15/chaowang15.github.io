@@ -139,7 +139,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/weekly/2026-W08'>
 <span class='hn-row-type hn-type-weekly'>Week 08</span>
-<span class='hn-row-detail'>2026-02-16 — 2026-02-22 <span class="hn-row-sep">·</span> Top <b>222</b> from <b>222</b> stories <span class="hn-row-sep">·</span> AI <b>51</b> <span class="hn-row-sep">·</span> Programming <b>45</b></span>
+<span class='hn-row-detail'>2026-02-16 — 2026-02-22 <span class="hn-row-sep">·</span> Top <b>253</b> from <b>253</b> stories <span class="hn-row-sep">·</span> AI <b>60</b> <span class="hn-row-sep">·</span> Programming <b>55</b></span>
 </a>
 </div>
 </div>

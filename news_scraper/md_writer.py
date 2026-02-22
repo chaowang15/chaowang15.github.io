@@ -149,10 +149,16 @@ def render_markdown(
         tags_data = ",".join(tags) if tags else ""
 
         # Anchor ID from HN story ID for deep linking
-        hn_id = (it.get("hn") or {}).get("id", "")
+        hn = it.get("hn") or {}
+        hn_id = hn.get("id", "")
         id_attr = f" id='story-{hn_id}'" if hn_id else ""
 
-        lines.append(f"<div class='hn-card'{id_attr} data-tags='{tags_data}'>")
+        # Data attributes for JS sorting (hot/top/new)
+        hn_time = hn.get("time", "")
+        hn_score_val = hn.get("score", 0)
+        data_attrs = f" data-hn-time='{hn_time}' data-hn-score='{hn_score_val}'"
+
+        lines.append(f"<div class='hn-card'{id_attr} data-tags='{tags_data}'{data_attrs}>")
         lines.append("<div class='hn-body'>")
 
         lines.append(
@@ -167,7 +173,6 @@ def render_markdown(
 
         # Info row under Chinese subtitle (author and time)
         created_display = it.get("created_display", "")
-        hn = it.get("hn") or {}
         hn_score = hn.get("score")
         hn_by = hn.get("by")
         comments_url = hn.get("comments_url")

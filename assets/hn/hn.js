@@ -373,6 +373,166 @@
   }
 })();
 
+// ===== Hot / Top / New Sort Toggle (Trending pages only) =====
+(function () {
+  var GRAVITY = 1.8;
+
+  function hnRankScore(votes, ageHours) {
+    var p = Math.max((votes || 0) - 1, 0);
+    return p / Math.pow((ageHours || 0) + 2, GRAVITY);
+  }
+
+  function initSortToggle() {
+    // Only activate on Trending (top stories) pages
+    var modeBadge = document.querySelector('.hn-mode-top');
+    if (!modeBadge) return;
+
+    var list = document.querySelector('.hn-list');
+    if (!list) return;
+
+    var cards = Array.from(list.querySelectorAll('.hn-card'));
+    if (!cards.length) return;
+
+    // Store original order for reference
+    var nowSec = Date.now() / 1000;
+
+    // Pre-compute sort keys for each card
+    cards.forEach(function (card) {
+      var hnTime = parseInt(card.getAttribute('data-hn-time') || '0', 10);
+      var hnScore = parseInt(card.getAttribute('data-hn-score') || '0', 10);
+      var ageH = hnTime ? (nowSec - hnTime) / 3600 : 9999;
+      card._sortData = {
+        score: hnScore,
+        time: hnTime,
+        ageH: ageH,
+        hot: hnRankScore(hnScore, ageH)
+      };
+    });
+
+    // Build sort bar
+    var sortBar = document.createElement('div');
+    sortBar.className = 'hn-sort-bar';
+
+    var label = document.createElement('span');
+    label.className = 'hn-sort-label';
+    label.textContent = 'Sort by:';
+    sortBar.appendChild(label);
+
+    var modes = [
+      { key: 'hot', text: '\uD83D\uDD25 Hot', title: 'Sort by hotness (HN time-decay formula)' },
+      { key: 'top', text: '\u2B06 Top', title: 'Sort by score (highest first)' },
+      { key: 'new', text: '\uD83D\uDD52 New', title: 'Sort by time (newest first)' }
+    ];
+
+    var currentSort = 'hot';
+    var sortBtns = {};
+
+    modes.forEach(function (m) {
+      var btn = document.createElement('button');
+      btn.className = 'hn-sort-toggle-btn' + (m.key === 'hot' ? ' is-active' : '');
+      btn.setAttribute('data-sort', m.key);
+      btn.setAttribute('title', m.title);
+      btn.textContent = m.text;
+      sortBar.appendChild(btn);
+      sortBtns[m.key] = btn;
+    });
+
+    // Insert sort bar before the filter bar or the list
+    var filterBar = document.querySelector('.hn-filter-bar');
+    if (filterBar) {
+      filterBar.parentNode.insertBefore(sortBar, filterBar);
+    } else {
+      list.parentNode.insertBefore(sortBar, list);
+    }
+
+    // Hotness badge management
+    function updateHotBadges(show) {
+      cards.forEach(function (card) {
+        var existing = card.querySelector('.hn-hot-badge');
+        if (!show) {
+          if (existing) existing.style.display = 'none';
+          return;
+        }
+        var hotVal = card._sortData.hot;
+        var displayVal = hotVal >= 10 ? Math.round(hotVal) : hotVal.toFixed(1);
+        if (existing) {
+          existing.textContent = '\uD83D\uDD25 ' + displayVal;
+          existing.style.display = '';
+        } else {
+          var badge = document.createElement('span');
+          badge.className = 'hn-hot-badge';
+          badge.title = 'Hotness score (HN time-decay formula)';
+          badge.textContent = '\uD83D\uDD25 ' + displayVal;
+          // Insert into the tags row
+          var tagsRow = card.querySelector('.hn-tags');
+          if (tagsRow) {
+            tagsRow.insertBefore(badge, tagsRow.firstChild);
+          }
+        }
+      });
+    }
+
+    function renumberVisible() {
+      var visible = cards.filter(function (c) { return c.style.display !== 'none'; });
+      visible.forEach(function (card, idx) {
+        var titleEl = card.querySelector('.hn-title');
+        if (titleEl) {
+          var firstText = titleEl.childNodes[0];
+          if (firstText && firstText.nodeType === 3) {
+            firstText.textContent = firstText.textContent.replace(/^\(\d+\)\s*/, '(' + (idx + 1) + ') ');
+          }
+        }
+      });
+    }
+
+    function applySort(mode) {
+      var sorted = cards.slice();
+      if (mode === 'hot') {
+        sorted.sort(function (a, b) { return b._sortData.hot - a._sortData.hot; });
+      } else if (mode === 'top') {
+        sorted.sort(function (a, b) { return b._sortData.score - a._sortData.score; });
+      } else if (mode === 'new') {
+        sorted.sort(function (a, b) { return b._sortData.time - a._sortData.time; });
+      }
+
+      // Re-append cards in new order
+      sorted.forEach(function (card) { list.appendChild(card); });
+
+      // Update internal cards array to match new order
+      cards = sorted;
+
+      // Show/hide hotness badges
+      updateHotBadges(mode === 'hot');
+
+      // Re-number
+      renumberVisible();
+    }
+
+    // Click handler
+    sortBar.addEventListener('click', function (e) {
+      var btn = e.target.closest('.hn-sort-toggle-btn');
+      if (!btn) return;
+      var newSort = btn.getAttribute('data-sort');
+      if (newSort === currentSort) return;
+      currentSort = newSort;
+      // Update active state
+      Object.keys(sortBtns).forEach(function (k) {
+        sortBtns[k].classList.toggle('is-active', k === newSort);
+      });
+      applySort(newSort);
+    });
+
+    // Apply initial Hot sort
+    applySort('hot');
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initSortToggle);
+  } else {
+    initSortToggle();
+  }
+})();
+
 // ===== Card Collapse/Expand Toggle (News pages) =====
 (function () {
   function initCardCollapse() {

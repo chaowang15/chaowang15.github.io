@@ -767,6 +767,95 @@ body {
     text-underline-offset: 3px;
 }
 
+/* ===== Sort Toggle Bar (Trending pages) ===== */
+.hn-sort-bar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 12px 0 8px 0;
+    font-family: var(--hn-sans);
+}
+
+.hn-sort-label {
+    font-size: 0.88rem;
+    color: var(--hn-muted);
+    font-weight: 500;
+    margin-right: 2px;
+}
+
+.hn-sort-toggle-btn {
+    padding: 5px 14px;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: var(--hn-sans);
+    border: 1px solid rgba(0,0,0,0.15);
+    background: transparent;
+    color: var(--hn-muted);
+    cursor: pointer;
+    transition: background 0.15s, color 0.15s;
+    border-radius: 6px;
+}
+
+.hn-sort-toggle-btn:hover {
+    background: rgba(0,0,0,0.05);
+}
+
+.hn-sort-toggle-btn.is-active {
+    background: var(--link);
+    color: #fff;
+    border-color: var(--link);
+}
+
+/* Hotness badge in tags row */
+.hn-hot-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 2px 8px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    font-family: var(--hn-sans);
+    background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%);
+    color: #fff;
+    border-radius: 10px;
+    white-space: nowrap;
+    line-height: 1.4;
+    vertical-align: middle;
+}
+
+@media (prefers-color-scheme: dark) {
+    .hn-sort-toggle-btn {
+        border-color: #444;
+        color: #aaa;
+    }
+    .hn-sort-toggle-btn:hover {
+        background: rgba(255,255,255,0.08);
+    }
+    .hn-sort-toggle-btn.is-active {
+        background: var(--link);
+        color: #111;
+    }
+    .hn-hot-badge {
+        background: linear-gradient(135deg, #e85d26 0%, #d4820e 100%);
+    }
+}
+
+@media (max-width: 640px) {
+    .hn-sort-bar {
+        gap: 5px;
+    }
+    .hn-sort-toggle-btn {
+        padding: 4px 10px;
+        font-size: 12px;
+    }
+    .hn-sort-label {
+        font-size: 0.82rem;
+    }
+    .hn-hot-badge {
+        font-size: 0.72rem;
+        padding: 1px 6px;
+    }
+}
+
 /* ===== Statistics bar ===== */
 .hn-stats {
     display: flex;
