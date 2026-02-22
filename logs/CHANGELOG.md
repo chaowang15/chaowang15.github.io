@@ -4,6 +4,19 @@
 
 ---
 
+## 2026年2月21日 (Index 页面细节调整)
+
+1. **副标题术语更新**：将 "best files" 改为 "daily best"，"top files" 改为 "trending"，与页面实际命名保持一致。
+2. **热度分标签简化**：Top Stories 中的热度分从圆角矩形背景色块改为纯文字样式（`🔥 4.7`），与旁边的 `▲ 332` `💬 133` 风格统一。
+
+### 涉及文件
+
+- `news_scraper/index_updater.py`：更新副标题术语，热度分 HTML 类名从 `hn-hot-badge` 改为 `hn-hot-idx`。
+- `assets/hn/hn.css`：新增 `.hn-hot-idx` 纯文字样式。
+- `_layouts/hn.html`：缓存版本号更新至 `v=20260221s`。
+
+---
+
 ## 2026年2月21日 (语言切换按钮位置调整)
 
 将语言切换按钮（EN / 双 / 中）从 "Scraped at" 行移到更合适的位置：
