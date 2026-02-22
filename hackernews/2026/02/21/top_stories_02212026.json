@@ -5,15 +5,15 @@
     "api": "https://github.com/HackerNews/API",
     "count_requested": 50,
     "count_written": 100,
-    "reused_same_day": 30,
+    "reused_same_day": 36,
     "reused_cross_day": 0,
-    "new_llm_enriched": 19,
-    "scrape_time_display": "20:10, February 21, 2026 (PST)",
+    "new_llm_enriched": 13,
+    "scrape_time_display": "22:57, February 21, 2026 (PST)",
     "timezone": "America/Los_Angeles",
     "date_dir": "2026/02/21",
     "content_date": "2026-02-21",
-    "run_time_local": "20:10, February 21, 2026 (PST)",
-    "run_time_utc": "2026-02-22 04:10:33 UTC",
+    "run_time_local": "22:57, February 21, 2026 (PST)",
+    "run_time_utc": "2026-02-22 06:57:44 UTC",
     "incremental": true,
     "stories_max": 100
   },
@@ -30,7 +30,7 @@
         "id": 47091419,
         "type": "story",
         "by": "LorenDB",
-        "score": 2011,
+        "score": 2036,
         "descendants": 694,
         "time": 1771610331,
         "comments_url": "https://news.ycombinator.com/item?id=47091419"
@@ -98,14 +98,13 @@
         "id": 47098245,
         "type": "story",
         "by": "ColinWright",
-        "score": 1196,
-        "descendants": 418,
+        "score": 1225,
+        "descendants": 428,
         "time": 1771657578,
         "comments_url": "https://news.ycombinator.com/item?id=47098245"
       },
       "tags": [
-        "Privacy",
-        "Security"
+        "Privacy"
       ]
     },
     {
@@ -251,13 +250,35 @@
         "id": 47061614,
         "type": "story",
         "by": "spzb",
-        "score": 407,
-        "descendants": 236,
+        "score": 474,
+        "descendants": 258,
         "time": 1771426618,
         "comments_url": "https://news.ycombinator.com/item?id=47061614"
       },
       "tags": [
         "Education"
+      ]
+    },
+    {
+      "title_en": "What not to write on your security clearance form (1988)",
+      "url": "https://milk.com/wall-o-shame/security_clearance.html",
+      "title_zh": "填写安全许可申请表时不该写的内容",
+      "created_display": "Created: Feb 21, 2026 / 09:08 PT",
+      "image_url": "https://milk.com/wall-o-shame/wos-mark.gif",
+      "summary_en": "Common security-clearance mistakes derail applications: inflating qualifications, omitting required disclosures, or flagging risky personal associations. The piece maps these pitfalls to practical strategies—be honest, concise, and consistent, and explain any tricky items with proper context to minimize red flags. It also stresses alignment across related forms to avoid inconsistent narratives.",
+      "summary_zh": "在安全许可申请表中，常见错误会导致申请被拒：夸大资历、遗漏必填披露信息，以及暴露可能带来风险的个人关系。文章将这些坑点映射到实用策略，强调诚实、简洁、前后一致，并在需要时给出合理解释以降低红旗风险。 同时强调相关表格之间的一致性，避免叙述不一致。",
+      "hn": {
+        "id": 47102576,
+        "type": "story",
+        "by": "wizardforhire",
+        "score": 428,
+        "descendants": 190,
+        "time": 1771693692,
+        "comments_url": "https://news.ycombinator.com/item?id=47102576"
+      },
+      "tags": [
+        "Security",
+        "Legal"
       ]
     },
     {
@@ -278,30 +299,28 @@
         "comments_url": "https://news.ycombinator.com/item?id=47095134"
       },
       "tags": [
-        "Privacy",
-        "Politics"
+        "Privacy"
       ]
     },
     {
-      "title_en": "What not to write on your security clearance form (1988)",
-      "url": "https://milk.com/wall-o-shame/security_clearance.html",
-      "title_zh": "填写安全许可申请表时不该写的内容",
-      "created_display": "Created: Feb 21, 2026 / 09:08 PT",
-      "image_url": "https://milk.com/wall-o-shame/wos-mark.gif",
-      "summary_en": "Common security-clearance mistakes derail applications: inflating qualifications, omitting required disclosures, or flagging risky personal associations. The piece maps these pitfalls to practical strategies—be honest, concise, and consistent, and explain any tricky items with proper context to minimize red flags. It also stresses alignment across related forms to avoid inconsistent narratives.",
-      "summary_zh": "在安全许可申请表中，常见错误会导致申请被拒：夸大资历、遗漏必填披露信息，以及暴露可能带来风险的个人关系。文章将这些坑点映射到实用策略，强调诚实、简洁、前后一致，并在需要时给出合理解释以降低红旗风险。 同时强调相关表格之间的一致性，避免叙述不一致。",
+      "title_en": "How I use Claude Code: Separation of planning and execution",
+      "url": "https://boristane.com/blog/how-i-use-claude-code/",
+      "title_zh": "我如何使用 Claude Code：将规划与执行分离",
+      "created_display": "Created: Feb 21, 2026 / 16:29 PT",
+      "image_url": "https://boristane.com/assets/blog/how-i-use-claude-code/og.png",
+      "summary_en": "I describe using Claude Code with a clear separation between planning and execution. By isolating planning, you get more predictable, debuggable behavior and can swap execution strategies without reworking the plan. It helps manage complex workflows and reduces brittle prompts in production.",
+      "summary_zh": "作者分享在 Claude Code 中将规划与执行分离。分离计划阶段可以带来更可预测、可调试的行为，同时在不改动计划的前提下切换执行策略。此方法有助于处理复杂工作流，降低生产环境中提示的脆弱性。",
       "hn": {
-        "id": 47102576,
+        "id": 47106686,
         "type": "story",
-        "by": "wizardforhire",
-        "score": 403,
-        "descendants": 181,
-        "time": 1771693692,
-        "comments_url": "https://news.ycombinator.com/item?id=47102576"
+        "by": "vinhnx",
+        "score": 356,
+        "descendants": 210,
+        "time": 1771720145,
+        "comments_url": "https://news.ycombinator.com/item?id=47106686"
       },
       "tags": [
-        "Security",
-        "Legal"
+        "AI"
       ]
     },
     {
@@ -323,9 +342,29 @@
       },
       "tags": [
         "Programming",
-        "Design",
         "AI",
         "Security"
+      ]
+    },
+    {
+      "title_en": "Be wary of Bluesky",
+      "url": "https://kevinak.se/blog/be-wary-of-bluesky",
+      "title_zh": "警惕 Bluesky",
+      "created_display": "Created: Feb 20, 2026 / 15:35 PT",
+      "image_url": null,
+      "summary_en": "A cautious take on Bluesky, discussing potential privacy, governance, or reliability concerns. The piece urges readers to scrutinize the platform’s trade-offs as it grows.",
+      "summary_zh": "对 Bluesky 的隐私、治理与可靠性等方面提出谨慎观点，提醒读者在关注去中心化社交网络时要权衡利弊与潜在风险。",
+      "hn": {
+        "id": 47095597,
+        "type": "story",
+        "by": "kevinak",
+        "score": 291,
+        "descendants": 190,
+        "time": 1771630533,
+        "comments_url": "https://news.ycombinator.com/item?id=47095597"
+      },
+      "tags": [
+        "Privacy"
       ]
     },
     {
@@ -346,31 +385,53 @@
         "comments_url": "https://news.ycombinator.com/item?id=47092203"
       },
       "tags": [
+        "AI",
         "Privacy",
-        "Business",
-        "AI"
+        "Business"
       ]
     },
     {
-      "title_en": "Be wary of Bluesky",
-      "url": "https://kevinak.se/blog/be-wary-of-bluesky",
-      "title_zh": "警惕 Bluesky",
-      "created_display": "Created: Feb 20, 2026 / 15:35 PT",
-      "image_url": null,
-      "summary_en": "A cautious take on Bluesky, discussing potential privacy, governance, or reliability concerns. The piece urges readers to scrutinize the platform’s trade-offs as it grows.",
-      "summary_zh": "对 Bluesky 的隐私、治理与可靠性等方面提出谨慎观点，提醒读者在关注去中心化社交网络时要权衡利弊与潜在风险。",
+      "title_en": "Claws are now a new layer on top of LLM agents",
+      "url": "https://twitter.com/karpathy/status/2024987174077432126",
+      "title_zh": "Claws 成为大语言模型代理的新层",
+      "created_display": "Created: Feb 20, 2026 / 16:56 PT",
+      "image_url": "https://pbs.twimg.com/profile_images/1296667294148382721/9Pr6XrPB_200x200.jpg",
+      "summary_en": "Claws adds a new layer on top of LLM agents to improve safety, governance, and composability of autonomous tasks. It aims to provide a modular framework that handles orchestration, policy enforcement, and error handling beyond a single prompt. This could advance reliable agent AI, though adoption details remain to be seen.",
+      "summary_zh": "Claws 在大语言模型代理之上引入新的一层，提升自治任务的安全性、治理与模块化能力，提供用于编排、策略执行和错误处理的分层框架。此举有望推动更可靠的代理式 AI，但具体落地与普及情况尚待观察。",
       "hn": {
-        "id": 47095597,
+        "id": 47096253,
         "type": "story",
-        "by": "kevinak",
-        "score": 263,
-        "descendants": 179,
-        "time": 1771630533,
-        "comments_url": "https://news.ycombinator.com/item?id=47095597"
+        "by": "Cyphase",
+        "score": 258,
+        "descendants": 712,
+        "time": 1771635389,
+        "comments_url": "https://news.ycombinator.com/item?id=47096253"
       },
       "tags": [
-        "Privacy",
-        "Politics"
+        "AI",
+        "Security"
+      ]
+    },
+    {
+      "title_en": "AI uBlock Blacklist",
+      "url": "https://github.com/alvi-se/ai-ublock-blacklist",
+      "title_zh": "AI 版 uBlock 黑名单",
+      "created_display": "Created: Feb 21, 2026 / 00:10 PT",
+      "image_url": "https://opengraph.githubassets.com/19f1634736812f6482861569ec755a58a16569e81f8dfe6c3cb8cec7701a6740/alvi-se/ai-ublock-blacklist",
+      "summary_en": "This repository curates ad-blocking filters leveraging AI to identify and block content that resembles ads or trackers, aiming to improve the effectiveness of ad blockers in AI-enabled browsing.",
+      "summary_zh": "该仓库提供用于 uBlock Origin 等广告拦截器的 AI 驱动过滤清单，旨在更准确地识别并屏蔽与 AI 相关的广告和跟踪。",
+      "hn": {
+        "id": 47098582,
+        "type": "story",
+        "by": "rdmuser",
+        "score": 243,
+        "descendants": 108,
+        "time": 1771661449,
+        "comments_url": "https://news.ycombinator.com/item?id=47098582"
+      },
+      "tags": [
+        "AI",
+        "Open Source"
       ]
     },
     {
@@ -394,28 +455,6 @@
         "Show HN",
         "Programming",
         "Web"
-      ]
-    },
-    {
-      "title_en": "AI uBlock Blacklist",
-      "url": "https://github.com/alvi-se/ai-ublock-blacklist",
-      "title_zh": "AI 版 uBlock 黑名单",
-      "created_display": "Created: Feb 21, 2026 / 00:10 PT",
-      "image_url": "https://opengraph.githubassets.com/19f1634736812f6482861569ec755a58a16569e81f8dfe6c3cb8cec7701a6740/alvi-se/ai-ublock-blacklist",
-      "summary_en": "This repository curates ad-blocking filters leveraging AI to identify and block content that resembles ads or trackers, aiming to improve the effectiveness of ad blockers in AI-enabled browsing.",
-      "summary_zh": "该仓库提供用于 uBlock Origin 等广告拦截器的 AI 驱动过滤清单，旨在更准确地识别并屏蔽与 AI 相关的广告和跟踪。",
-      "hn": {
-        "id": 47098582,
-        "type": "story",
-        "by": "rdmuser",
-        "score": 234,
-        "descendants": 105,
-        "time": 1771661449,
-        "comments_url": "https://news.ycombinator.com/item?id=47098582"
-      },
-      "tags": [
-        "AI",
-        "Open Source"
       ]
     },
     {
@@ -459,30 +498,8 @@
         "comments_url": "https://news.ycombinator.com/item?id=47085425"
       },
       "tags": [
-        "Programming",
-        "Education"
-      ]
-    },
-    {
-      "title_en": "Claws are now a new layer on top of LLM agents",
-      "url": "https://twitter.com/karpathy/status/2024987174077432126",
-      "title_zh": "Claws 成为大语言模型代理的新层",
-      "created_display": "Created: Feb 20, 2026 / 16:56 PT",
-      "image_url": "https://pbs.twimg.com/profile_images/1296667294148382721/9Pr6XrPB_200x200.jpg",
-      "summary_en": "Claws adds a new layer on top of LLM agents to improve safety, governance, and composability of autonomous tasks. It aims to provide a modular framework that handles orchestration, policy enforcement, and error handling beyond a single prompt. This could advance reliable agent AI, though adoption details remain to be seen.",
-      "summary_zh": "Claws 在大语言模型代理之上引入新的一层，提升自治任务的安全性、治理与模块化能力，提供用于编排、策略执行和错误处理的分层框架。此举有望推动更可靠的代理式 AI，但具体落地与普及情况尚待观察。",
-      "hn": {
-        "id": 47096253,
-        "type": "story",
-        "by": "Cyphase",
-        "score": 225,
-        "descendants": 667,
-        "time": 1771635389,
-        "comments_url": "https://news.ycombinator.com/item?id=47096253"
-      },
-      "tags": [
-        "AI",
-        "Security"
+        "Education",
+        "Programming"
       ]
     },
     {
@@ -546,30 +563,29 @@
         "comments_url": "https://news.ycombinator.com/item?id=47098296"
       },
       "tags": [
-        "Open Source",
         "Data"
       ]
     },
     {
-      "title_en": "How I use Claude Code: Separation of planning and execution",
-      "url": "https://boristane.com/blog/how-i-use-claude-code/",
-      "title_zh": "我如何使用 Claude Code：将规划与执行分离",
-      "created_display": "Created: Feb 21, 2026 / 16:29 PT",
-      "image_url": "https://boristane.com/assets/blog/how-i-use-claude-code/og.png",
-      "summary_en": "I describe using Claude Code with a clear separation between planning and execution. By isolating planning, you get more predictable, debuggable behavior and can swap execution strategies without reworking the plan. It helps manage complex workflows and reduces brittle prompts in production.",
-      "summary_zh": "作者分享在 Claude Code 中将规划与执行分离。分离计划阶段可以带来更可预测、可调试的行为，同时在不改动计划的前提下切换执行策略。此方法有助于处理复杂工作流，降低生产环境中提示的脆弱性。",
+      "title_en": "Personal Statement of a CIA Analyst",
+      "url": "https://antipolygraph.org/statements/statement-038.shtml",
+      "title_zh": "CIA 分析师的个人陈述",
+      "created_display": "Created: Feb 21, 2026 / 09:49 PT",
+      "image_url": "https://antipolygraph.org/resources/antipolygraph-dot-org-150x1000.jpg",
+      "summary_en": "A personal statement from a CIA analyst offers an insider perspective on intelligence work, including how analysis is framed, the pressures of secrecy, and the human aspects of decision-making.",
+      "summary_zh": "这篇来自 CIA 分析师的个人陈述提供了对情报工作的内部视角，涉及分析框架、保密压力以及决策过程中的人性因素。",
       "hn": {
-        "id": 47106686,
+        "id": 47102975,
         "type": "story",
-        "by": "vinhnx",
-        "score": 210,
-        "descendants": 127,
-        "time": 1771720145,
-        "comments_url": "https://news.ycombinator.com/item?id=47106686"
+        "by": "grubbs",
+        "score": 204,
+        "descendants": 130,
+        "time": 1771696142,
+        "comments_url": "https://news.ycombinator.com/item?id=47102975"
       },
       "tags": [
-        "AI",
-        "Programming"
+        "Security",
+        "Politics"
       ]
     },
     {
@@ -590,8 +606,31 @@
         "comments_url": "https://news.ycombinator.com/item?id=47096520"
       },
       "tags": [
-        "Security",
-        "Web"
+        "Programming",
+        "Security"
+      ]
+    },
+    {
+      "title_en": "Show HN: Llama 3.1 70B on a single RTX 3090 via NVMe-to-GPU bypassing the CPU",
+      "url": "https://github.com/xaskasdf/ntransformer",
+      "title_zh": "Show HN：在单张 RTX 3090 上用 NVMe–GPU 直连实现 Llama 3.1 70B，绕过 CPU",
+      "created_display": "Created: Feb 21, 2026 / 12:57 PT",
+      "image_url": "https://opengraph.githubassets.com/f0d4fb95d21a897c25a1b752b21861cb294e483389f056f30bed5ad9a5268dd2/xaskasdf/ntransformer",
+      "summary_en": "Show HN demonstrates Llama 3.1 70B running on a single RTX 3090 by bypassing CPU bottlenecks with an NVMe-to-GPU path. The approach leans on streaming weights and memory-efficient techniques to fit a large model on consumer hardware, signaling a path for hobbyists and small teams.",
+      "summary_zh": "Show HN 展示了在单张 RTX 3090 上通过 NVMe–GPU 直连绕过 CPU 瓶颈来运行 Llama 3.1 70B。该方法依赖权重流式加载与节省内存的技巧，使大型模型在消费级硬件上可用，给爱好者和小团队开辟了新路径。",
+      "hn": {
+        "id": 47104667,
+        "type": "story",
+        "by": "xaskasdf",
+        "score": 196,
+        "descendants": 48,
+        "time": 1771707450,
+        "comments_url": "https://news.ycombinator.com/item?id=47104667"
+      },
+      "tags": [
+        "Show HN",
+        "AI",
+        "Hardware"
       ]
     },
     {
@@ -612,29 +651,51 @@
         "comments_url": "https://news.ycombinator.com/item?id=47101200"
       },
       "tags": [
-        "Security",
-        "Programming"
+        "Security"
       ]
     },
     {
-      "title_en": "Personal Statement of a CIA Analyst",
-      "url": "https://antipolygraph.org/statements/statement-038.shtml",
-      "title_zh": "CIA 分析师的个人陈述",
-      "created_display": "Created: Feb 21, 2026 / 09:49 PT",
-      "image_url": "https://antipolygraph.org/resources/antipolygraph-dot-org-150x1000.jpg",
-      "summary_en": "A personal statement from a CIA analyst offers an insider perspective on intelligence work, including how analysis is framed, the pressures of secrecy, and the human aspects of decision-making.",
-      "summary_zh": "这篇来自 CIA 分析师的个人陈述提供了对情报工作的内部视角，涉及分析框架、保密压力以及决策过程中的人性因素。",
+      "title_en": "CXMT has been offering DDR4 chips at about half the prevailing market rate",
+      "url": "https://www.koreaherald.com/article/10679206",
+      "title_zh": "CXMT 正以约市场价一半的价格提供 DDR4 芯片",
+      "created_display": "Created: Feb 21, 2026 / 06:32 PT",
+      "image_url": "https://wimg.heraldcorp.com/news/cms/2026/02/20/news-p.v1.20260220.1686b9f4331c4661b835adf082563d1a_T1.png",
+      "summary_en": "CXMT has been offering DDR4 chips at about half the prevailing market rate. This aggressive pricing hints at oversupply, regional subsidies, or strategic dumping that could pressure rivals. Buyers may benefit from lower costs but should watch for quality variance, supply stability, and downstream pricing impacts.",
+      "summary_zh": "据报道，CXMT 以约市场价一半的价格出售 DDR4 芯片。这表明可能存在产能过剩、政府补贴或策略性抛售等因素，可能压低行业价格。买家应关注质量、供货稳定性，以及对下游厂商和市场格局的影响。",
       "hn": {
-        "id": 47102975,
+        "id": 47101171,
         "type": "story",
-        "by": "grubbs",
-        "score": 191,
-        "descendants": 113,
-        "time": 1771696142,
-        "comments_url": "https://news.ycombinator.com/item?id=47102975"
+        "by": "phront",
+        "score": 189,
+        "descendants": 170,
+        "time": 1771684336,
+        "comments_url": "https://news.ycombinator.com/item?id=47101171"
       },
       "tags": [
-        "Politics"
+        "Hardware",
+        "Business"
+      ]
+    },
+    {
+      "title_en": "EDuke32 – Duke Nukem 3D (Open-Source)",
+      "url": "https://www.eduke32.com/",
+      "title_zh": "EDuke32：Duke Nukem 3D 的开源实现",
+      "created_display": "Created: Feb 21, 2026 / 12:10 PT",
+      "image_url": "https://www.eduke32.com/images/download.png",
+      "summary_en": "EDuke32 is a modern open-source port of Duke Nukem 3D built on the Build engine, bringing updated rendering and cross-platform support to a classic shooter. It adds tooling for mods and expansions, inviting preservation-minded players and hobby developers to experiment with source code and assets.",
+      "summary_zh": "EDuke32 是 Duke Nukem 3D 的开源移植，基于 Build 引擎，提供现代渲染和跨平台支持。它为模组和扩展提供工具，适合热爱复古游戏的玩家与开发者探索源码与资产。",
+      "hn": {
+        "id": 47104185,
+        "type": "story",
+        "by": "reconnecting",
+        "score": 174,
+        "descendants": 62,
+        "time": 1771704613,
+        "comments_url": "https://news.ycombinator.com/item?id=47104185"
+      },
+      "tags": [
+        "Open Source",
+        "Gaming"
       ]
     },
     {
@@ -660,25 +721,24 @@
       ]
     },
     {
-      "title_en": "CXMT has been offering DDR4 chips at about half the prevailing market rate",
-      "url": "https://www.koreaherald.com/article/10679206",
-      "title_zh": "CXMT 正以约市场价一半的价格提供 DDR4 芯片",
-      "created_display": "Created: Feb 21, 2026 / 06:32 PT",
-      "image_url": "https://wimg.heraldcorp.com/news/cms/2026/02/20/news-p.v1.20260220.1686b9f4331c4661b835adf082563d1a_T1.png",
-      "summary_en": "CXMT has been offering DDR4 chips at about half the prevailing market rate. This aggressive pricing hints at oversupply, regional subsidies, or strategic dumping that could pressure rivals. Buyers may benefit from lower costs but should watch for quality variance, supply stability, and downstream pricing impacts.",
-      "summary_zh": "据报道，CXMT 以约市场价一半的价格出售 DDR4 芯片。这表明可能存在产能过剩、政府补贴或策略性抛售等因素，可能压低行业价格。买家应关注质量、供货稳定性，以及对下游厂商和市场格局的影响。",
+      "title_en": "Parse, Don't Validate and Type-Driven Design in Rust",
+      "url": "https://www.harudagondi.space/blog/parse-dont-validate-and-type-driven-design-in-rust/",
+      "title_zh": "Rust 的“解析优先”与类型驱动设计",
+      "created_display": "Created: Feb 21, 2026 / 11:40 PT",
+      "image_url": "https://www.harudagondi.space/uploads/parse-dont-validate/tingey-injury-law-firm-veNb0DDegzE-unsplash.jpg",
+      "summary_en": "Promotes parsing-first validation and type-driven design in Rust, arguing that the right types should encode invariants and that parsing should produce clean, well-formed data. The approach leverages Rust’s strong type system—newtypes, enums, and type-level guarantees—to reduce runtime validation and make API boundaries safer.",
+      "summary_zh": "提倡在 Rust 中采用解析优先的验证和类型驱动设计，即通过类型对不变量进行编码，让解析直接产出正确的数据结构。依托强类型系统（新类型、枚举、类型级保证）来减少运行时校验，使 API 边界更安全。",
       "hn": {
-        "id": 47101171,
+        "id": 47103931,
         "type": "story",
-        "by": "phront",
-        "score": 169,
-        "descendants": 150,
-        "time": 1771684336,
-        "comments_url": "https://news.ycombinator.com/item?id=47101171"
+        "by": "todsacerdoti",
+        "score": 167,
+        "descendants": 40,
+        "time": 1771702806,
+        "comments_url": "https://news.ycombinator.com/item?id=47103931"
       },
       "tags": [
-        "Business",
-        "Finance"
+        "Programming"
       ]
     },
     {
@@ -693,36 +753,14 @@
         "id": 47103649,
         "type": "story",
         "by": "nomaxx117",
-        "score": 162,
-        "descendants": 108,
+        "score": 167,
+        "descendants": 110,
         "time": 1771700731,
         "comments_url": "https://news.ycombinator.com/item?id=47103649"
       },
       "tags": [
-        "DevOps",
-        "Web"
-      ]
-    },
-    {
-      "title_en": "EDuke32 – Duke Nukem 3D (Open-Source)",
-      "url": "https://www.eduke32.com/",
-      "title_zh": "EDuke32：Duke Nukem 3D 的开源实现",
-      "created_display": "Created: Feb 21, 2026 / 12:10 PT",
-      "image_url": "https://www.eduke32.com/images/download.png",
-      "summary_en": "EDuke32 is a modern open-source port of Duke Nukem 3D built on the Build engine, bringing updated rendering and cross-platform support to a classic shooter. It adds tooling for mods and expansions, inviting preservation-minded players and hobby developers to experiment with source code and assets.",
-      "summary_zh": "EDuke32 是 Duke Nukem 3D 的开源移植，基于 Build 引擎，提供现代渲染和跨平台支持。它为模组和扩展提供工具，适合热爱复古游戏的玩家与开发者探索源码与资产。",
-      "hn": {
-        "id": 47104185,
-        "type": "story",
-        "by": "reconnecting",
-        "score": 161,
-        "descendants": 61,
-        "time": 1771704613,
-        "comments_url": "https://news.ycombinator.com/item?id=47104185"
-      },
-      "tags": [
-        "Open Source",
-        "Gaming"
+        "Web",
+        "DevOps"
       ]
     },
     {
@@ -768,24 +806,25 @@
       ]
     },
     {
-      "title_en": "Parse, Don't Validate and Type-Driven Design in Rust",
-      "url": "https://www.harudagondi.space/blog/parse-dont-validate-and-type-driven-design-in-rust/",
-      "title_zh": "Rust 的“解析优先”与类型驱动设计",
-      "created_display": "Created: Feb 21, 2026 / 11:40 PT",
-      "image_url": "https://www.harudagondi.space/uploads/parse-dont-validate/tingey-injury-law-firm-veNb0DDegzE-unsplash.jpg",
-      "summary_en": "Promotes parsing-first validation and type-driven design in Rust, arguing that the right types should encode invariants and that parsing should produce clean, well-formed data. The approach leverages Rust’s strong type system—newtypes, enums, and type-level guarantees—to reduce runtime validation and make API boundaries safer.",
-      "summary_zh": "提倡在 Rust 中采用解析优先的验证和类型驱动设计，即通过类型对不变量进行编码，让解析直接产出正确的数据结构。依托强类型系统（新类型、枚举、类型级保证）来减少运行时校验，使 API 边界更安全。",
+      "title_en": "zclaw: personal AI assistant in under 888 KB, running on an ESP32",
+      "url": "https://github.com/tnm/zclaw",
+      "title_zh": "zclaw：在 ESP32 上运行、仅 888 KB 的个人 AI 助手",
+      "created_display": "Created: Feb 21, 2026 / 04:37 PT",
+      "image_url": "https://opengraph.githubassets.com/d8d1ea1540b515c167a955db7f35993cab516bfc91cc8ea6d9a215f2e0ae680c/tnm/zclaw",
+      "summary_en": "Shows a personal AI assistant that runs on an ESP32 within 888 KB, demonstrating the feasibility of ultra-lightweight AI in embedded devices. The project highlights the engineering trade-offs between memory, latency, and offline capability.",
+      "summary_zh": "展示在 ESP32 上仅 888 KB 的个人 AI 助手的实现，证明极小体积的 AI 也能在嵌入式设备上运行。该项目揭示了内存、延迟和离线能力之间的取舍。",
       "hn": {
-        "id": 47103931,
+        "id": 47100232,
         "type": "story",
-        "by": "todsacerdoti",
-        "score": 143,
-        "descendants": 39,
-        "time": 1771702806,
-        "comments_url": "https://news.ycombinator.com/item?id=47103931"
+        "by": "tosh",
+        "score": 144,
+        "descendants": 79,
+        "time": 1771677472,
+        "comments_url": "https://news.ycombinator.com/item?id=47100232"
       },
       "tags": [
-        "Programming"
+        "AI",
+        "Hardware"
       ]
     },
     {
@@ -807,29 +846,6 @@
       },
       "tags": [
         "AI"
-      ]
-    },
-    {
-      "title_en": "Show HN: Llama 3.1 70B on a single RTX 3090 via NVMe-to-GPU bypassing the CPU",
-      "url": "https://github.com/xaskasdf/ntransformer",
-      "title_zh": "Show HN：在单张 RTX 3090 上用 NVMe–GPU 直连实现 Llama 3.1 70B，绕过 CPU",
-      "created_display": "Created: Feb 21, 2026 / 12:57 PT",
-      "image_url": "https://opengraph.githubassets.com/f0d4fb95d21a897c25a1b752b21861cb294e483389f056f30bed5ad9a5268dd2/xaskasdf/ntransformer",
-      "summary_en": "Show HN demonstrates Llama 3.1 70B running on a single RTX 3090 by bypassing CPU bottlenecks with an NVMe-to-GPU path. The approach leans on streaming weights and memory-efficient techniques to fit a large model on consumer hardware, signaling a path for hobbyists and small teams.",
-      "summary_zh": "Show HN 展示了在单张 RTX 3090 上通过 NVMe–GPU 直连绕过 CPU 瓶颈来运行 Llama 3.1 70B。该方法依赖权重流式加载与节省内存的技巧，使大型模型在消费级硬件上可用，给爱好者和小团队开辟了新路径。",
-      "hn": {
-        "id": 47104667,
-        "type": "story",
-        "by": "xaskasdf",
-        "score": 137,
-        "descendants": 31,
-        "time": 1771707450,
-        "comments_url": "https://news.ycombinator.com/item?id=47104667"
-      },
-      "tags": [
-        "AI",
-        "Show HN",
-        "Hardware"
       ]
     },
     {
@@ -866,8 +882,8 @@
         "id": 47094877,
         "type": "story",
         "by": "frou_dh",
-        "score": 132,
-        "descendants": 78,
+        "score": 134,
+        "descendants": 82,
         "time": 1771626476,
         "comments_url": "https://news.ycombinator.com/item?id=47094877"
       },
@@ -887,7 +903,7 @@
         "id": 47047027,
         "type": "story",
         "by": "tesserato",
-        "score": 130,
+        "score": 131,
         "descendants": 60,
         "time": 1771333117,
         "comments_url": "https://news.ycombinator.com/item?id=47047027"
@@ -895,6 +911,73 @@
       "tags": [
         "AI",
         "Programming"
+      ]
+    },
+    {
+      "title_en": "Toyota Mirai hydrogen car depreciation: 65% value loss in a year",
+      "url": "https://carbuzz.com/toyota-mirai-massive-depreciation-one-year/",
+      "title_zh": "丰田 Mirai 氢动力车一年内贬值65%",
+      "created_display": "Created: Feb 21, 2026 / 10:09 PT",
+      "image_url": "https://static0.carbuzzimages.com/wordpress/wp-content/uploads/2025/10/toyota-mirai-main.png?w=1600&h=900&fit=crop",
+      "summary_en": "Despite high-tech hype, the Mirai's depreciation illustrates the volatility of early hydrogen vehicles: a 65% drop in value within a year underscores market skepticism, infrastructure gaps, and consumer demand dynamics.",
+      "summary_zh": "尽管氢燃料车技术备受关注，Mirai 一年的贬值率达到 65%，凸显市场对氢能源车的信心不足、充氢/加氢基础设施不足以及需求波动。",
+      "hn": {
+        "id": 47103136,
+        "type": "story",
+        "by": "iancmceachern",
+        "score": 129,
+        "descendants": 299,
+        "time": 1771697364,
+        "comments_url": "https://news.ycombinator.com/item?id=47103136"
+      },
+      "tags": [
+        "Energy",
+        "Finance",
+        "DevOps"
+      ]
+    },
+    {
+      "title_en": "I Don't Like Magic",
+      "url": "https://adactio.com/journal/22399",
+      "title_zh": "我不喜欢魔法式编程",
+      "created_display": "Created: Feb 18, 2026 / 01:42 PT",
+      "image_url": "https://adactio.com/images/photo-300.jpg",
+      "summary_en": "Reasoning against 'magic' in software, the post champions explicit, readable code and transparent behavior over clever abstractions.",
+      "summary_zh": "文章反对软件中的“魔法做法”，主张以明确、易读的实现和透明的行为来取代高深但不透明的技巧。",
+      "hn": {
+        "id": 47059147,
+        "type": "story",
+        "by": "edent",
+        "score": 129,
+        "descendants": 109,
+        "time": 1771407760,
+        "comments_url": "https://news.ycombinator.com/item?id=47059147"
+      },
+      "tags": [
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "Permacomputing",
+      "url": "https://wiki.xxiivv.com/site/permacomputing.html",
+      "title_zh": "永续计算",
+      "created_display": "Created: Feb 17, 2026 / 04:40 PT",
+      "image_url": "https://wiki.xxiivv.com/media/services/rss.jpg",
+      "summary_en": "Permacomputing blends permaculture principles with computing to design sustainable tech ecosystems. It advocates energy-efficient hardware, distributed resilience, and open, community-driven maintenance to reduce e-waste and long-term costs. The field encourages critiquing growth-centric tech culture and exploring less resource-intensive deployment.",
+      "summary_zh": "永续计算将永续耕作的原则应用到计算领域，旨在设计更可持续的技术生态。它提倡使用节能硬件、分布式韧性以及开放、由社区推动的维护模式，以减少电子垃圾和长期成本。这一理念也在批判以增长为导向的科技文化，探讨资源占用更低的部署方案。",
+      "hn": {
+        "id": 47046858,
+        "type": "story",
+        "by": "tosh",
+        "score": 127,
+        "descendants": 32,
+        "time": 1771332037,
+        "comments_url": "https://news.ycombinator.com/item?id=47046858"
+      },
+      "tags": [
+        "Energy",
+        "Culture",
+        "Hardware"
       ]
     },
     {
@@ -920,46 +1003,24 @@
       ]
     },
     {
-      "title_en": "I Don't Like Magic",
-      "url": "https://adactio.com/journal/22399",
-      "title_zh": "我不喜欢魔法式编程",
-      "created_display": "Created: Feb 18, 2026 / 01:42 PT",
-      "image_url": "https://adactio.com/images/photo-300.jpg",
-      "summary_en": "Reasoning against 'magic' in software, the post champions explicit, readable code and transparent behavior over clever abstractions.",
-      "summary_zh": "文章反对软件中的“魔法做法”，主张以明确、易读的实现和透明的行为来取代高深但不透明的技巧。",
+      "title_en": "A16z partner says that the theory that we’ll vibe code everything is wrong",
+      "url": "https://www.aol.com/articles/a16z-partner-says-theory-well-050150534.html",
+      "title_zh": "A16z 合伙人称，用代码解决一切的理论是错误的",
+      "created_display": "Created: Feb 20, 2026 / 14:47 PT",
+      "image_url": "https://s.yimg.com/ny/api/res/1.2/HYb7SzCtpmUGj3ZrekabPg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD05MDA-/https://media.zenfs.com/en/aol_business_insider_articles_308/8906dcd2aea70db986bf0fab88ec5a08",
+      "summary_en": "A16z partner argues that the idea we’ll vibe code everything is wrong; real-world product success requires human insight, domain context, and governance. The piece urges founders to pair automation with judgment and ethics.",
+      "summary_zh": "A16z 合伙人认为“用代码解决一切”是错误的；现实世界的产品成功需要人类洞察、领域背景与治理。文章敦促创始人将自动化与判断、伦理结合起来。",
       "hn": {
-        "id": 47059147,
+        "id": 47095105,
         "type": "story",
-        "by": "edent",
-        "score": 124,
-        "descendants": 102,
-        "time": 1771407760,
-        "comments_url": "https://news.ycombinator.com/item?id=47059147"
+        "by": "paulpauper",
+        "score": 118,
+        "descendants": 179,
+        "time": 1771627678,
+        "comments_url": "https://news.ycombinator.com/item?id=47095105"
       },
       "tags": [
-        "Programming"
-      ]
-    },
-    {
-      "title_en": "zclaw: personal AI assistant in under 888 KB, running on an ESP32",
-      "url": "https://github.com/tnm/zclaw",
-      "title_zh": "zclaw：在 ESP32 上运行、仅 888 KB 的个人 AI 助手",
-      "created_display": "Created: Feb 21, 2026 / 04:37 PT",
-      "image_url": "https://opengraph.githubassets.com/d8d1ea1540b515c167a955db7f35993cab516bfc91cc8ea6d9a215f2e0ae680c/tnm/zclaw",
-      "summary_en": "Shows a personal AI assistant that runs on an ESP32 within 888 KB, demonstrating the feasibility of ultra-lightweight AI in embedded devices. The project highlights the engineering trade-offs between memory, latency, and offline capability.",
-      "summary_zh": "展示在 ESP32 上仅 888 KB 的个人 AI 助手的实现，证明极小体积的 AI 也能在嵌入式设备上运行。该项目揭示了内存、延迟和离线能力之间的取舍。",
-      "hn": {
-        "id": 47100232,
-        "type": "story",
-        "by": "tosh",
-        "score": 123,
-        "descendants": 65,
-        "time": 1771677472,
-        "comments_url": "https://news.ycombinator.com/item?id=47100232"
-      },
-      "tags": [
-        "AI",
-        "Hardware"
+        "Business"
       ]
     },
     {
@@ -984,49 +1045,24 @@
       ]
     },
     {
-      "title_en": "Toyota Mirai hydrogen car depreciation: 65% value loss in a year",
-      "url": "https://carbuzz.com/toyota-mirai-massive-depreciation-one-year/",
-      "title_zh": "丰田 Mirai 氢动力车一年内贬值65%",
-      "created_display": "Created: Feb 21, 2026 / 10:09 PT",
-      "image_url": "https://static0.carbuzzimages.com/wordpress/wp-content/uploads/2025/10/toyota-mirai-main.png?w=1600&h=900&fit=crop",
-      "summary_en": "Despite high-tech hype, the Mirai's depreciation illustrates the volatility of early hydrogen vehicles: a 65% drop in value within a year underscores market skepticism, infrastructure gaps, and consumer demand dynamics.",
-      "summary_zh": "尽管氢燃料车技术备受关注，Mirai 一年的贬值率达到 65%，凸显市场对氢能源车的信心不足、充氢/加氢基础设施不足以及需求波动。",
+      "title_en": "Evidence of the bouba-kiki effect in naïve baby chicks",
+      "url": "https://www.science.org/doi/10.1126/science.adq7188",
+      "title_zh": "未经训练的小鸡对 Bouba–Kiki 效应的证据",
+      "created_display": "Created: Feb 21, 2026 / 13:51 PT",
+      "image_url": null,
+      "summary_en": "The bouba–kiki effect appears in naïve chicks, suggesting early cross-modal mappings are not unique to humans. The finding informs debates on perceptual biases, cognition, and language evolution across species.",
+      "summary_zh": "在未经训练的小鸡中也观察到 Bouba–Kiki 效应，表明早期感知-形象映射并非人类独有。此发现为跨物种的感知偏好、认知与语言起源研究提供证据与启示。",
       "hn": {
-        "id": 47103136,
+        "id": 47105198,
         "type": "story",
-        "by": "iancmceachern",
-        "score": 114,
-        "descendants": 259,
-        "time": 1771697364,
-        "comments_url": "https://news.ycombinator.com/item?id=47103136"
+        "by": "suddenlybananas",
+        "score": 111,
+        "descendants": 31,
+        "time": 1771710718,
+        "comments_url": "https://news.ycombinator.com/item?id=47105198"
       },
       "tags": [
-        "Business",
-        "Finance",
-        "DevOps"
-      ]
-    },
-    {
-      "title_en": "Permacomputing",
-      "url": "https://wiki.xxiivv.com/site/permacomputing.html",
-      "title_zh": "永续计算",
-      "created_display": "Created: Feb 17, 2026 / 04:40 PT",
-      "image_url": "https://wiki.xxiivv.com/media/services/rss.jpg",
-      "summary_en": "Permacomputing blends permaculture principles with computing to design sustainable tech ecosystems. It advocates energy-efficient hardware, distributed resilience, and open, community-driven maintenance to reduce e-waste and long-term costs. The field encourages critiquing growth-centric tech culture and exploring less resource-intensive deployment.",
-      "summary_zh": "永续计算将永续耕作的原则应用到计算领域，旨在设计更可持续的技术生态。它提倡使用节能硬件、分布式韧性以及开放、由社区推动的维护模式，以减少电子垃圾和长期成本。这一理念也在批判以增长为导向的科技文化，探讨资源占用更低的部署方案。",
-      "hn": {
-        "id": 47046858,
-        "type": "story",
-        "by": "tosh",
-        "score": 112,
-        "descendants": 28,
-        "time": 1771332037,
-        "comments_url": "https://news.ycombinator.com/item?id=47046858"
-      },
-      "tags": [
-        "Energy",
-        "Culture",
-        "Hardware"
+        "Science"
       ]
     },
     {
@@ -1070,29 +1106,8 @@
       "tags": [
         "Show HN",
         "Web",
+        "Data",
         "DevOps"
-      ]
-    },
-    {
-      "title_en": "A16z partner says that the theory that we’ll vibe code everything is wrong",
-      "url": "https://www.aol.com/articles/a16z-partner-says-theory-well-050150534.html",
-      "title_zh": "A16z 合伙人称，用代码解决一切的理论是错误的",
-      "created_display": "Created: Feb 20, 2026 / 14:47 PT",
-      "image_url": "https://s.yimg.com/ny/api/res/1.2/HYb7SzCtpmUGj3ZrekabPg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD05MDA-/https://media.zenfs.com/en/aol_business_insider_articles_308/8906dcd2aea70db986bf0fab88ec5a08",
-      "summary_en": "A16z partner argues that the idea we’ll vibe code everything is wrong; real-world product success requires human insight, domain context, and governance. The piece urges founders to pair automation with judgment and ethics.",
-      "summary_zh": "A16z 合伙人认为“用代码解决一切”是错误的；现实世界的产品成功需要人类洞察、领域背景与治理。文章敦促创始人将自动化与判断、伦理结合起来。",
-      "hn": {
-        "id": 47095105,
-        "type": "story",
-        "by": "paulpauper",
-        "score": 96,
-        "descendants": 143,
-        "time": 1771627678,
-        "comments_url": "https://news.ycombinator.com/item?id=47095105"
-      },
-      "tags": [
-        "Startups",
-        "Business"
       ]
     },
     {
@@ -1113,29 +1128,8 @@
         "comments_url": "https://news.ycombinator.com/item?id=47098828"
       },
       "tags": [
-        "Politics",
-        "Open Source"
-      ]
-    },
-    {
-      "title_en": "Evidence of the bouba-kiki effect in naïve baby chicks",
-      "url": "https://www.science.org/doi/10.1126/science.adq7188",
-      "title_zh": "未经训练的小鸡对 Bouba–Kiki 效应的证据",
-      "created_display": "Created: Feb 21, 2026 / 13:51 PT",
-      "image_url": null,
-      "summary_en": "The bouba–kiki effect appears in naïve chicks, suggesting early cross-modal mappings are not unique to humans. The finding informs debates on perceptual biases, cognition, and language evolution across species.",
-      "summary_zh": "在未经训练的小鸡中也观察到 Bouba–Kiki 效应，表明早期感知-形象映射并非人类独有。此发现为跨物种的感知偏好、认知与语言起源研究提供证据与启示。",
-      "hn": {
-        "id": 47105198,
-        "type": "story",
-        "by": "suddenlybananas",
-        "score": 92,
-        "descendants": 24,
-        "time": 1771710718,
-        "comments_url": "https://news.ycombinator.com/item?id=47105198"
-      },
-      "tags": [
-        "Science"
+        "Open Source",
+        "Business"
       ]
     },
     {
@@ -1150,29 +1144,30 @@
         "id": 47065729,
         "type": "story",
         "by": "gnabgib",
-        "score": 82,
-        "descendants": 63,
+        "score": 84,
+        "descendants": 67,
         "time": 1771445533,
         "comments_url": "https://news.ycombinator.com/item?id=47065729"
       },
       "tags": [
-        "Data"
+        "Data",
+        "Science"
       ]
     },
     {
-      "title_en": "Coccinelle: The Linux kernel's source-to-source transformation tool",
+      "title_en": "Coccinelle: Source-to-source transformation tool",
       "url": "https://github.com/coccinelle/coccinelle",
-      "title_zh": "Coccinelle：Linux 内核的源代码级转换工具",
+      "title_zh": "Coccinelle：源代码级转换工具",
       "created_display": "Created: Feb 21, 2026 / 00:26 PT",
-      "image_url": "https://opengraph.githubassets.com/87282db164608c6a0a176f9c7f650a0cfc141ab5a726bbaa771e49f0a9fd622c/coccinelle/coccinelle",
-      "summary_en": "Coccinelle automates source-to-source transformations for C, used to mass-refactor and patch the Linux kernel while preserving correctness. It lets maintainers express patterns and apply changes across large codebases safely and reproducibly.",
-      "summary_zh": "Coccinelle 是一种用于 C 语言的源代码级转换工具，广泛用于对 Linux 内核进行自动化改动、重构和风格规范化。它通过模式匹配和脚本实现跨大代码库的可重复变更。",
+      "image_url": "https://opengraph.githubassets.com/f7a8953b16641d21b6a42c50b313c921397806daf847aa28c9481f02165abc58/coccinelle/coccinelle",
+      "summary_en": "Coccinelle is a framework for automating source-to-source transformations in codebases, enabling large-scale refactors and bug fixes with pattern matching and semantic-preserving rewrites. It aids maintainers in applying consistent changes across projects.",
+      "summary_zh": "Coccinelle 是一个用于在代码库中实现源代码级转换的框架，能够通过模式匹配和语义保持的重写实现大规模重构与修复。有助于维护者在项目中应用一致的改动。",
       "hn": {
         "id": 47098669,
         "type": "story",
         "by": "anon111332142",
-        "score": 81,
-        "descendants": 25,
+        "score": 83,
+        "descendants": 26,
         "time": 1771662396,
         "comments_url": "https://news.ycombinator.com/item?id=47098669"
       },
@@ -1198,8 +1193,28 @@
         "comments_url": "https://news.ycombinator.com/item?id=47044700"
       },
       "tags": [
-        "Programming",
-        "Security"
+        "DevOps"
+      ]
+    },
+    {
+      "title_en": "Canvas_ity: A tiny, single-header <canvas>-like 2D rasterizer for C++",
+      "url": "https://github.com/a-e-k/canvas_ity",
+      "title_zh": "Canvas_ity：一个极小、单头文件的 C++ 2D 光栅化库",
+      "created_display": "Created: Feb 21, 2026 / 10:50 PT",
+      "image_url": "https://opengraph.githubassets.com/879e1d49a48fc25627029190f08aa9a5a1b9e8476be6d585440411edfdca35a9/a-e-k/canvas_ity",
+      "summary_en": "Canvas_ity is a tiny, single-header 2D rasterizer for C++, offering a Canvas-like API with minimal dependencies. It's suitable for tiny demos, educational projects, or embedding in tools where keeping the build simple matters.",
+      "summary_zh": "Canvas_ity 是一个极小的、单头文件的 C++ 2D 光栅化库，提供类似 Canvas 的接口且依赖极少。非常适合小型演示、教学项目或需要简单构建的新工具。",
+      "hn": {
+        "id": 47103506,
+        "type": "story",
+        "by": "PaulHoule",
+        "score": 80,
+        "descendants": 28,
+        "time": 1771699819,
+        "comments_url": "https://news.ycombinator.com/item?id=47103506"
+      },
+      "tags": [
+        "Programming"
       ]
     },
     {
@@ -1220,7 +1235,7 @@
         "comments_url": "https://news.ycombinator.com/item?id=47053410"
       },
       "tags": [
-        "Culture"
+        "Education"
       ]
     },
     {
@@ -1235,14 +1250,37 @@
         "id": 47103945,
         "type": "story",
         "by": "akyuu",
-        "score": 74,
-        "descendants": 12,
+        "score": 77,
+        "descendants": 14,
         "time": 1771702912,
         "comments_url": "https://news.ycombinator.com/item?id=47103945"
       },
       "tags": [
         "Gaming",
         "Hardware"
+      ]
+    },
+    {
+      "title_en": "A Botnet Accidentally Destroyed I2P",
+      "url": "https://www.sambent.com/a-botnet-accidentally-destroyed-i2p-the-full-story/",
+      "title_zh": "一个僵尸网络意外摧毁了 I2P",
+      "created_display": "Created: Feb 21, 2026 / 17:08 PT",
+      "image_url": "https://www.sambent.com/content/images/size/w1200/2026/02/A-Botnet-Accidentally-Destroyed-I2P--The-Full-Story-.jpg",
+      "summary_en": "A botnet incident inadvertently destroyed I2P infrastructure, showing how abuse of privacy tools can ripple through decentralized networks. The article traces how malicious traffic affected routing and what operators did to recover, underscoring fragility and the need for hardening.",
+      "summary_zh": "一起僵尸网络事件意外破坏了 I2P 基础设施，揭示隐私工具被滥用时对去中心化网络的连锁影响。报道梳理了恶意流量如何干扰路由及运营方的应对，凸显网络的脆弱性以及需要加强防护。",
+      "hn": {
+        "id": 47106985,
+        "type": "story",
+        "by": "Cider9986",
+        "score": 76,
+        "descendants": 36,
+        "time": 1771722497,
+        "comments_url": "https://news.ycombinator.com/item?id=47106985"
+      },
+      "tags": [
+        "Security",
+        "Privacy",
+        "DevOps"
       ]
     },
     {
@@ -1267,24 +1305,26 @@
       ]
     },
     {
-      "title_en": "Canvas_ity: A tiny, single-header <canvas>-like 2D rasterizer for C++",
-      "url": "https://github.com/a-e-k/canvas_ity",
-      "title_zh": "Canvas_ity：一个极小、单头文件的 C++ 2D 光栅化库",
-      "created_display": "Created: Feb 21, 2026 / 10:50 PT",
-      "image_url": "https://opengraph.githubassets.com/879e1d49a48fc25627029190f08aa9a5a1b9e8476be6d585440411edfdca35a9/a-e-k/canvas_ity",
-      "summary_en": "Canvas_ity is a tiny, single-header 2D rasterizer for C++, offering a Canvas-like API with minimal dependencies. It's suitable for tiny demos, educational projects, or embedding in tools where keeping the build simple matters.",
-      "summary_zh": "Canvas_ity 是一个极小的、单头文件的 C++ 2D 光栅化库，提供类似 Canvas 的接口且依赖极少。非常适合小型演示、教学项目或需要简单构建的新工具。",
+      "title_en": "Show HN: Iron-Wolf – Wolfenstein 3D source port in Rust",
+      "url": "https://github.com/Ragnaroek/iron-wolf",
+      "title_zh": "Show HN：Iron-Wolf——用 Rust 实现的 Wolfenstein 3D 源码移植",
+      "created_display": "Created: Feb 21, 2026 / 07:52 PT",
+      "image_url": "https://opengraph.githubassets.com/82c9158ec67dbfeb2473d75aa0354025adfc896ee37be5528aab48e770fe35dd/Ragnaroek/iron-wolf",
+      "summary_en": "Rust-based source port of the classic Wolfenstein 3D demonstrates how modern language safety and ecosystem can revive retro games. Iron-Wolf focuses on clean code, portability, and potential performance gains, offering a case study in Rust-driven game porting. The project also shows the balance between authenticity and safety in emulation-like efforts.",
+      "summary_zh": "基于 Rust 的经典 Wolfenstein 3D 源码移植展示了现代语言的安全性与生态系统如何促成复古游戏的再现。Iron-Wolf 注重代码整洁、可移植性，以及潜在的性能提升，成为 Rust 驱动的移植案例。该项目也揭示了在保真度与安全性之间寻求平衡的挑战。",
       "hn": {
-        "id": 47103506,
+        "id": 47101890,
         "type": "story",
-        "by": "PaulHoule",
-        "score": 68,
-        "descendants": 23,
-        "time": 1771699819,
-        "comments_url": "https://news.ycombinator.com/item?id=47103506"
+        "by": "ragnaroekX",
+        "score": 67,
+        "descendants": 22,
+        "time": 1771689140,
+        "comments_url": "https://news.ycombinator.com/item?id=47101890"
       },
       "tags": [
-        "Programming"
+        "Show HN",
+        "Programming",
+        "Gaming"
       ]
     },
     {
@@ -1305,30 +1345,29 @@
         "comments_url": "https://news.ycombinator.com/item?id=47046486"
       },
       "tags": [
-        "Programming"
+        "Web"
       ]
     },
     {
-      "title_en": "Show HN: Iron-Wolf – Wolfenstein 3D source port in Rust",
-      "url": "https://github.com/Ragnaroek/iron-wolf",
-      "title_zh": "Show HN：Iron-Wolf——用 Rust 实现的 Wolfenstein 3D 源码移植",
-      "created_display": "Created: Feb 21, 2026 / 07:52 PT",
-      "image_url": "https://opengraph.githubassets.com/82c9158ec67dbfeb2473d75aa0354025adfc896ee37be5528aab48e770fe35dd/Ragnaroek/iron-wolf",
-      "summary_en": "Rust-based source port of the classic Wolfenstein 3D demonstrates how modern language safety and ecosystem can revive retro games. Iron-Wolf focuses on clean code, portability, and potential performance gains, offering a case study in Rust-driven game porting. The project also shows the balance between authenticity and safety in emulation-like efforts.",
-      "summary_zh": "基于 Rust 的经典 Wolfenstein 3D 源码移植展示了现代语言的安全性与生态系统如何促成复古游戏的再现。Iron-Wolf 注重代码整洁、可移植性，以及潜在的性能提升，成为 Rust 驱动的移植案例。该项目也揭示了在保真度与安全性之间寻求平衡的挑战。",
+      "title_en": "Two Bits Are Better Than One: making bloom filters 2x more accurate",
+      "url": "https://floedb.ai/blog/two-bits-are-better-than-one-making-bloom-filters-2x-more-accurate",
+      "title_zh": "两个比特比一个更好：让布隆过滤器精确度提升两倍",
+      "created_display": "Created: Feb 17, 2026 / 03:01 PT",
+      "image_url": "https://floedb.ai/hubfs/BlogCover/bloom_filter.png",
+      "summary_en": "Two bits per Bloom filter cell can halve false positives compared to the traditional single-bit version. The approach trades a modest memory increase for much higher accuracy, benefiting large caches, search systems, and network infrastructure.",
+      "summary_zh": "布隆过滤器的每个单元用两个比特即可将误报率降至原来的一半左右。该做法在增加少量内存开销的同时显著提升准确性，适用于大规模缓存、搜索系统和网络基础设施。",
       "hn": {
-        "id": 47101890,
+        "id": 47046070,
         "type": "story",
-        "by": "ragnaroekX",
-        "score": 64,
-        "descendants": 21,
-        "time": 1771689140,
-        "comments_url": "https://news.ycombinator.com/item?id=47101890"
+        "by": "matheusalmeida",
+        "score": 60,
+        "descendants": 8,
+        "time": 1771326069,
+        "comments_url": "https://news.ycombinator.com/item?id=47046070"
       },
       "tags": [
-        "Show HN",
-        "Programming",
-        "Open Source"
+        "Data",
+        "DevOps"
       ]
     },
     {
@@ -1371,7 +1410,6 @@
         "comments_url": "https://news.ycombinator.com/item?id=47050308"
       },
       "tags": [
-        "DevOps",
         "Programming"
       ]
     },
@@ -1419,6 +1457,48 @@
       ]
     },
     {
+      "title_en": "Japanese Woodblock Print Search",
+      "url": "https://ukiyo-e.org/",
+      "title_zh": "日本浮世绘检索",
+      "created_display": "Created: Feb 21, 2026 / 19:18 PT",
+      "image_url": "https://ukiyo-e.org/images/ja.svg",
+      "summary_en": "A dedicated search tool for Japanese woodblock prints collects metadata and high-resolution scans of ukiyo-e. The engine makes it easy to browse thousands of prints, explore artists and studios, and trace provenance.",
+      "summary_zh": "这是一个专门检索日本浮世绘的工具，汇集了大量作品的元数据与高分辨率影像。该检索支持研究者与爱好者轻松浏览数千幅作品，了解艺术家、流派与出处，推动相关研究与收藏工作。",
+      "hn": {
+        "id": 47107781,
+        "type": "story",
+        "by": "curmudgeon22",
+        "score": 52,
+        "descendants": 10,
+        "time": 1771730316,
+        "comments_url": "https://news.ycombinator.com/item?id=47107781"
+      },
+      "tags": [
+        "Web"
+      ]
+    },
+    {
+      "title_en": "Gamedate – A site to revive dead multiplayer games",
+      "url": "https://gamedate.org/",
+      "title_zh": "Gamedate：一个让已停运的多人游戏重获新生的平台",
+      "created_display": "Created: Feb 20, 2026 / 16:44 PT",
+      "image_url": null,
+      "summary_en": "Gamedate provides a venue for reviving abandoned multiplayer games by coordinating communities, matchmaking, and mods around legacy titles. It highlights community-driven preservation as a way to extend the life of classic games and reduce waste.",
+      "summary_zh": "Gamedate 为复兴已停运的多人游戏提供平台，帮助社区组织、重建匹配与模组，让经典作品重新活跃。此举体现通过社区力量延长游戏生命、降低资源浪费的趋势。",
+      "hn": {
+        "id": 47096167,
+        "type": "story",
+        "by": "msuniverse2026",
+        "score": 50,
+        "descendants": 5,
+        "time": 1771634668,
+        "comments_url": "https://news.ycombinator.com/item?id=47096167"
+      },
+      "tags": [
+        "Gaming"
+      ]
+    },
+    {
       "title_en": "Loon: A functional lang with invisible types, safe ownership, and alg. effects",
       "url": "https://loonlang.com",
       "title_zh": "Loon：一种具备不可见类型、所有权安全与代数效应的函数式语言",
@@ -1440,6 +1520,27 @@
       ]
     },
     {
+      "title_en": "A solver for Semantle",
+      "url": "https://victoriaritvo.com/blog/semantle-solver/",
+      "title_zh": "为 Semantle 设计的求解器",
+      "created_display": "Created: Feb 18, 2026 / 11:25 PT",
+      "image_url": "https://victoriaritvo.com/blog/semantle-solver/semantle_game.png",
+      "summary_en": "A solver for Semantle demonstrates strategies to maximize semantic similarity guesses, using vector representations and search techniques.",
+      "summary_zh": "为 Semantle 设计的求解器展示了通过向量表示与搜索策略来提升语义相似度猜测的思路。",
+      "hn": {
+        "id": 47065146,
+        "type": "story",
+        "by": "evakhoury",
+        "score": 49,
+        "descendants": 13,
+        "time": 1771442746,
+        "comments_url": "https://news.ycombinator.com/item?id=47065146"
+      },
+      "tags": [
+        "AI"
+      ]
+    },
+    {
       "title_en": "Palantir's secret weapon isn't AI – it's Ontology. An open-source deep dive",
       "url": "https://github.com/Leading-AI-IO/palantir-ontology-strategy",
       "title_zh": "帕兰蒂尔的秘密武器不是 AI，而是本体论：开源深度解析",
@@ -1458,30 +1559,76 @@
       },
       "tags": [
         "Open Source",
-        "Data",
-        "AI"
+        "AI",
+        "Data"
       ]
     },
     {
-      "title_en": "A solver for Semantle",
-      "url": "https://victoriaritvo.com/blog/semantle-solver/",
-      "title_zh": "为 Semantle 设计的求解器",
-      "created_display": "Created: Feb 18, 2026 / 11:25 PT",
-      "image_url": "https://victoriaritvo.com/blog/semantle-solver/semantle_game.png",
-      "summary_en": "A solver for Semantle demonstrates strategies to maximize semantic similarity guesses, using vector representations and search techniques.",
-      "summary_zh": "为 Semantle 设计的求解器展示了通过向量表示与搜索策略来提升语义相似度猜测的思路。",
+      "title_en": "Iranian Students Protest as Anger Grows",
+      "url": "https://www.wsj.com/world/middle-east/iranian-students-protest-as-anger-grows-89a6a44e",
+      "title_zh": "愤怒日益高涨，伊朗学生爆发抗议",
+      "created_display": "Created: Feb 21, 2026 / 20:45 PT",
+      "image_url": null,
+      "summary_en": "The report highlights student protests in Iran amid economic hardship and political tensions, signaling sustained youth-led dissent. It situates campus activism within broader domestic dynamics and potential implications for stability.",
+      "summary_zh": "报道聚焦伊朗学生在经济困难与政治紧张局势下的抗议，显示青年主导的持续性不满。将校园行动置于更广阔的国内动荡中，探讨对稳定性的潜在影响。",
       "hn": {
-        "id": 47065146,
+        "id": 47108256,
         "type": "story",
-        "by": "evakhoury",
-        "score": 47,
-        "descendants": 13,
-        "time": 1771442746,
-        "comments_url": "https://news.ycombinator.com/item?id=47065146"
+        "by": "JumpCrisscross",
+        "score": 45,
+        "descendants": 16,
+        "time": 1771735506,
+        "comments_url": "https://news.ycombinator.com/item?id=47108256"
+      },
+      "tags": [
+        "Politics",
+        "Education"
+      ]
+    },
+    {
+      "title_en": "How Taalas \"prints\" LLM onto a chip?",
+      "url": "https://www.anuragk.com/blog/posts/Taalas.html",
+      "title_zh": "Taalas 如何将大型语言模型印在芯片上？",
+      "created_display": "Created: Feb 21, 2026 / 11:07 PT",
+      "image_url": "https://www.anuragk.com/blog/staticFiles/Taalas/GPUInference.png",
+      "summary_en": "It weighs latency, privacy, and energy trade-offs that come with on-device AI deployment.",
+      "summary_zh": "文章探讨在硬件上运行大型语言模型的思路，涉及片上存储、优化技术与专用加速器等要点。讨论了边缘部署对延迟、隐私与能耗的取舍。",
+      "hn": {
+        "id": 47103661,
+        "type": "story",
+        "by": "beAroundHere",
+        "score": 43,
+        "descendants": 9,
+        "time": 1771700840,
+        "comments_url": "https://news.ycombinator.com/item?id=47103661"
       },
       "tags": [
         "AI",
-        "Data"
+        "Energy",
+        "Privacy",
+        "Hardware"
+      ]
+    },
+    {
+      "title_en": "Scientists discover recent tectonic activity on the moon",
+      "url": "https://phys.org/news/2026-02-scientists-tectonic-moon.html",
+      "title_zh": "科学家在月球上发现最近的地质构造活动",
+      "created_display": "Created: Feb 17, 2026 / 11:13 PT",
+      "image_url": "https://scx2.b-cdn.net/gfx/news/2026/smithsonian-planetary.jpg",
+      "summary_en": "Researchers report evidence of recent tectonic activity on the Moon, suggesting it's geologically active on human timescales. The finding challenges the idea of a completely dormant Moon and has implications for future missions and surface operations.",
+      "summary_zh": "研究者发现月球存在最近的构造活动，表明月球在人的时间尺度内仍具地质活动。这个发现挑战了月球长期处于休眠状态的观点，并影响未来阿尔忒弥斯计划及月面任务的规划。",
+      "hn": {
+        "id": 47051709,
+        "type": "story",
+        "by": "bookmtn",
+        "score": 42,
+        "descendants": 2,
+        "time": 1771355617,
+        "comments_url": "https://news.ycombinator.com/item?id=47051709"
+      },
+      "tags": [
+        "Space",
+        "Science"
       ]
     },
     {
@@ -1502,8 +1649,8 @@
         "comments_url": "https://news.ycombinator.com/item?id=47102208"
       },
       "tags": [
-        "Open Source",
         "Culture",
+        "Open Source",
         "Hardware"
       ]
     },
@@ -1525,31 +1672,7 @@
         "comments_url": "https://news.ycombinator.com/item?id=47028545"
       },
       "tags": [
-        "AI",
-        "Data"
-      ]
-    },
-    {
-      "title_en": "A Botnet Accidentally Destroyed I2P",
-      "url": "https://www.sambent.com/a-botnet-accidentally-destroyed-i2p-the-full-story/",
-      "title_zh": "一个僵尸网络意外摧毁了 I2P",
-      "created_display": "Created: Feb 21, 2026 / 17:08 PT",
-      "image_url": "https://www.sambent.com/content/images/size/w1200/2026/02/A-Botnet-Accidentally-Destroyed-I2P--The-Full-Story-.jpg",
-      "summary_en": "A botnet incident inadvertently destroyed I2P infrastructure, showing how abuse of privacy tools can ripple through decentralized networks. The article traces how malicious traffic affected routing and what operators did to recover, underscoring fragility and the need for hardening.",
-      "summary_zh": "一起僵尸网络事件意外破坏了 I2P 基础设施，揭示隐私工具被滥用时对去中心化网络的连锁影响。报道梳理了恶意流量如何干扰路由及运营方的应对，凸显网络的脆弱性以及需要加强防护。",
-      "hn": {
-        "id": 47106985,
-        "type": "story",
-        "by": "Cider9986",
-        "score": 37,
-        "descendants": 13,
-        "time": 1771722497,
-        "comments_url": "https://news.ycombinator.com/item?id=47106985"
-      },
-      "tags": [
-        "Security",
-        "Privacy",
-        "DevOps"
+        "AI"
       ]
     },
     {
@@ -1633,53 +1756,9 @@
         "comments_url": "https://news.ycombinator.com/item?id=47099485"
       },
       "tags": [
-        "Security",
         "Business",
+        "Security",
         "AI"
-      ]
-    },
-    {
-      "title_en": "MeshTNC is a tool for turning consumer grade LoRa radios into KISS TNC compatib",
-      "url": "https://github.com/datapartyjs/MeshTNC",
-      "title_zh": "MeshTNC：将消费级 LoRa 无线电转化为 KISS TNC 兼容设备的工具",
-      "created_display": "Created: Feb 21, 2026 / 12:14 PT",
-      "image_url": "https://opengraph.githubassets.com/1697c6b0a3b99e1b85e9be3d1be822435bf34a9384c4b3709cf2d1c1f6cab6cc/datapartyjs/MeshTNC",
-      "summary_en": "MeshTNC enables turning consumer-grade LoRa radios into KISS TNC-compatible devices, bridging modern wireless hardware with traditional HAM radio workflows. It opens avenues for experimentation and retro-computing projects.",
-      "summary_zh": "MeshTNC 让消费级 LoRa 无线电设备也能兼容 KISS TNC，连接现代无线硬件与传统业余无线电工作流。为实验和复古计算相关项目打开了新路径。",
-      "hn": {
-        "id": 47104223,
-        "type": "story",
-        "by": "todsacerdoti",
-        "score": 24,
-        "descendants": 9,
-        "time": 1771704840,
-        "comments_url": "https://news.ycombinator.com/item?id=47104223"
-      },
-      "tags": [
-        "Hardware",
-        "Open Source"
-      ]
-    },
-    {
-      "title_en": "Two Bits Are Better Than One: making bloom filters 2x more accurate",
-      "url": "https://floedb.ai/blog/two-bits-are-better-than-one-making-bloom-filters-2x-more-accurate",
-      "title_zh": "两个比特比一个更好：让布隆过滤器精确度提升两倍",
-      "created_display": "Created: Feb 17, 2026 / 03:01 PT",
-      "image_url": "https://floedb.ai/hubfs/BlogCover/bloom_filter.png",
-      "summary_en": "Two bits per Bloom filter cell can halve false positives compared to the traditional single-bit version. The approach trades a modest memory increase for much higher accuracy, benefiting large caches, search systems, and network infrastructure.",
-      "summary_zh": "布隆过滤器的每个单元用两个比特即可将误报率降至原来的一半左右。该做法在增加少量内存开销的同时显著提升准确性，适用于大规模缓存、搜索系统和网络基础设施。",
-      "hn": {
-        "id": 47046070,
-        "type": "story",
-        "by": "matheusalmeida",
-        "score": 23,
-        "descendants": 0,
-        "time": 1771326069,
-        "comments_url": "https://news.ycombinator.com/item?id=47046070"
-      },
-      "tags": [
-        "Data",
-        "DevOps"
       ]
     },
     {
@@ -1694,13 +1773,35 @@
         "id": 47042779,
         "type": "story",
         "by": "todsacerdoti",
-        "score": 23,
-        "descendants": 0,
+        "score": 30,
+        "descendants": 2,
         "time": 1771293460,
         "comments_url": "https://news.ycombinator.com/item?id=47042779"
       },
       "tags": [
         "Programming"
+      ]
+    },
+    {
+      "title_en": "MeshTNC is a tool for turning consumer grade LoRa radios into KISS TNC compatib",
+      "url": "https://github.com/datapartyjs/MeshTNC",
+      "title_zh": "MeshTNC：将消费级 LoRa 无线电转化为 KISS TNC 兼容设备的工具",
+      "created_display": "Created: Feb 21, 2026 / 12:14 PT",
+      "image_url": "https://opengraph.githubassets.com/1697c6b0a3b99e1b85e9be3d1be822435bf34a9384c4b3709cf2d1c1f6cab6cc/datapartyjs/MeshTNC",
+      "summary_en": "MeshTNC enables turning consumer-grade LoRa radios into KISS TNC-compatible devices, bridging modern wireless hardware with traditional HAM radio workflows. It opens avenues for experimentation and retro-computing projects.",
+      "summary_zh": "MeshTNC 让消费级 LoRa 无线电设备也能兼容 KISS TNC，连接现代无线硬件与传统业余无线电工作流。为实验和复古计算相关项目打开了新路径。",
+      "hn": {
+        "id": 47104223,
+        "type": "story",
+        "by": "todsacerdoti",
+        "score": 27,
+        "descendants": 13,
+        "time": 1771704840,
+        "comments_url": "https://news.ycombinator.com/item?id=47104223"
+      },
+      "tags": [
+        "Hardware",
+        "Open Source"
       ]
     },
     {
@@ -1715,7 +1816,7 @@
         "id": 47104613,
         "type": "story",
         "by": "teekert",
-        "score": 23,
+        "score": 24,
         "descendants": 6,
         "time": 1771707046,
         "comments_url": "https://news.ycombinator.com/item?id=47104613"
@@ -1723,6 +1824,28 @@
       "tags": [
         "Programming",
         "Web"
+      ]
+    },
+    {
+      "title_en": "The Internet Is Becoming a Dark Forest – and AI Is the Hunter",
+      "url": "https://opennhp.org/blog/the-internet-is-becoming-a-dark-forest.html",
+      "title_zh": "互联网正变成黑暗森林——AI 是猎手",
+      "created_display": "Created: Feb 21, 2026 / 17:15 PT",
+      "image_url": "https://opennhp.org/assets/images/zero-visibility-architecture.jpeg",
+      "summary_en": "The Internet Is Becoming a Dark Forest – and AI Is the Hunter. The piece casts the net as a dark forest where adversaries roam; AI accelerates discovery and exploitation, creating new attack surfaces. It outlines defensive priorities for platforms and users, plus policy considerations to preserve openness while reducing risk.",
+      "summary_zh": "文章把互联网比作黑暗森林，攻击者在其中游走，AI 提高了搜索、探索和攻击能力，带来新的风险点。提出平台与用户应优先强化防御，并从政策层面平衡开放性与安全。",
+      "hn": {
+        "id": 47107039,
+        "type": "story",
+        "by": "windcbf",
+        "score": 23,
+        "descendants": 23,
+        "time": 1771722938,
+        "comments_url": "https://news.ycombinator.com/item?id=47107039"
+      },
+      "tags": [
+        "Security",
+        "AI"
       ]
     },
     {
@@ -1769,6 +1892,49 @@
       ]
     },
     {
+      "title_en": "Forward propagation of errors through time",
+      "url": "https://nicolaszucchet.github.io/Forward-propagation-errors-through-time/",
+      "title_zh": "错误在时间上的前向传播",
+      "created_display": "Created: Feb 19, 2026 / 01:23 PT",
+      "image_url": "https://nicolaszucchet.github.io/Forward-propagation-errors-through-time/assets/images/fprop_errors_final.jpg",
+      "summary_en": "The piece analyzes how errors propagate forward through time in sequential systems, affecting future predictions and stability. It discusses implications for training and inference in time-series models and suggests strategies to contain error growth.",
+      "summary_zh": "文章分析了误差在时间序列或其他时序系统中的前向传播，影响未来预测与系统稳定性。讨论了对时间序列模型训练与推断的含义，并提出抑制误差增长的策略。",
+      "hn": {
+        "id": 47071770,
+        "type": "story",
+        "by": "iNic",
+        "score": 22,
+        "descendants": 0,
+        "time": 1771493033,
+        "comments_url": "https://news.ycombinator.com/item?id=47071770"
+      },
+      "tags": [
+        "Data"
+      ]
+    },
+    {
+      "title_en": "U.S. Cannot Legally Impose Tariffs Using Section 122 of the Trade Act of 1974",
+      "url": "https://ielp.worldtradelaw.net/2026/01/guest-post-president-trump-cannot-legally-impose-tariffs-using-section-122-of-the-trade-act-of-1974/",
+      "title_zh": "美国不能依法单方面以1974年贸易法第122条征收关税",
+      "created_display": "Created: Feb 21, 2026 / 21:40 PT",
+      "image_url": null,
+      "summary_en": "A legal analysis argues that Section 122 cannot legally empower the President to unilaterally impose tariffs, signaling a constraint on executive trade powers. The piece outlines potential statutory and constitutional hurdles and what that means for future U.S. trade policy.",
+      "summary_zh": "法律分析认为第122条无法合法授权总统单方面征收关税，凸显对行政权在贸易领域的约束。本文梳理了可能的法定与宪法障碍，以及对未来美国贸易政策的潜在影响。",
+      "hn": {
+        "id": 47108538,
+        "type": "story",
+        "by": "JumpCrisscross",
+        "score": 21,
+        "descendants": 1,
+        "time": 1771738822,
+        "comments_url": "https://news.ycombinator.com/item?id=47108538"
+      },
+      "tags": [
+        "Legal",
+        "Politics"
+      ]
+    },
+    {
       "title_en": "Red Robin Died by Spreadsheet. Don't Make the Same Mistake",
       "url": "https://garryslist.org/posts/red-robin-died-by-spreadsheet-don-t-make-the-same-mistake",
       "title_zh": "Red Robin 被电子表格害死",
@@ -1786,30 +1952,7 @@
         "comments_url": "https://news.ycombinator.com/item?id=47107165"
       },
       "tags": [
-        "Data",
-        "Business"
-      ]
-    },
-    {
-      "title_en": "Scientists discover recent tectonic activity on the moon",
-      "url": "https://phys.org/news/2026-02-scientists-tectonic-moon.html",
-      "title_zh": "科学家在月球上发现最近的地质构造活动",
-      "created_display": "Created: Feb 17, 2026 / 11:13 PT",
-      "image_url": "https://scx2.b-cdn.net/gfx/news/2026/smithsonian-planetary.jpg",
-      "summary_en": "Researchers report evidence of recent tectonic activity on the Moon, suggesting it's geologically active on human timescales. The finding challenges the idea of a completely dormant Moon and has implications for future missions and surface operations.",
-      "summary_zh": "研究者发现月球存在最近的构造活动，表明月球在人的时间尺度内仍具地质活动。这个发现挑战了月球长期处于休眠状态的观点，并影响未来阿尔忒弥斯计划及月面任务的规划。",
-      "hn": {
-        "id": 47051709,
-        "type": "story",
-        "by": "bookmtn",
-        "score": 20,
-        "descendants": 1,
-        "time": 1771355617,
-        "comments_url": "https://news.ycombinator.com/item?id=47051709"
-      },
-      "tags": [
-        "Science",
-        "Space"
+        "Data"
       ]
     },
     {
@@ -1830,7 +1973,8 @@
         "comments_url": "https://news.ycombinator.com/item?id=47064048"
       },
       "tags": [
-        "Programming"
+        "DevOps",
+        "Open Source"
       ]
     },
     {
@@ -1852,28 +1996,6 @@
       },
       "tags": [
         "Privacy",
-        "Security"
-      ]
-    },
-    {
-      "title_en": "The Internet Is Becoming a Dark Forest – and AI Is the Hunter",
-      "url": "https://opennhp.org/blog/the-internet-is-becoming-a-dark-forest.html",
-      "title_zh": "互联网正变成黑暗森林——AI 是猎手",
-      "created_display": "Created: Feb 21, 2026 / 17:15 PT",
-      "image_url": "https://opennhp.org/assets/images/zero-visibility-architecture.jpeg",
-      "summary_en": "The Internet Is Becoming a Dark Forest – and AI Is the Hunter. The piece casts the net as a dark forest where adversaries roam; AI accelerates discovery and exploitation, creating new attack surfaces. It outlines defensive priorities for platforms and users, plus policy considerations to preserve openness while reducing risk.",
-      "summary_zh": "文章把互联网比作黑暗森林，攻击者在其中游走，AI 提高了搜索、探索和攻击能力，带来新的风险点。提出平台与用户应优先强化防御，并从政策层面平衡开放性与安全。",
-      "hn": {
-        "id": 47107039,
-        "type": "story",
-        "by": "windcbf",
-        "score": 18,
-        "descendants": 20,
-        "time": 1771722938,
-        "comments_url": "https://news.ycombinator.com/item?id=47107039"
-      },
-      "tags": [
-        "AI",
         "Security"
       ]
     },
@@ -1916,7 +2038,8 @@
         "comments_url": "https://news.ycombinator.com/item?id=47044413"
       },
       "tags": [
-        "Programming"
+        "Programming",
+        "Open Source"
       ]
     },
     {
@@ -1941,48 +2064,6 @@
       ]
     },
     {
-      "title_en": "Japanese Woodblock Print Search",
-      "url": "https://ukiyo-e.org/",
-      "title_zh": "日本浮世绘检索",
-      "created_display": "Created: Feb 21, 2026 / 19:18 PT",
-      "image_url": "https://ukiyo-e.org/images/ja.svg",
-      "summary_en": "A dedicated search tool for Japanese woodblock prints collects metadata and high-resolution scans of ukiyo-e. The engine makes it easy to browse thousands of prints, explore artists and studios, and trace provenance.",
-      "summary_zh": "这是一个专门检索日本浮世绘的工具，汇集了大量作品的元数据与高分辨率影像。该检索支持研究者与爱好者轻松浏览数千幅作品，了解艺术家、流派与出处，推动相关研究与收藏工作。",
-      "hn": {
-        "id": 47107781,
-        "type": "story",
-        "by": "curmudgeon22",
-        "score": 16,
-        "descendants": 3,
-        "time": 1771730316,
-        "comments_url": "https://news.ycombinator.com/item?id=47107781"
-      },
-      "tags": [
-        "Culture"
-      ]
-    },
-    {
-      "title_en": "Forward propagation of errors through time",
-      "url": "https://nicolaszucchet.github.io/Forward-propagation-errors-through-time/",
-      "title_zh": "错误在时间上的前向传播",
-      "created_display": "Created: Feb 19, 2026 / 01:23 PT",
-      "image_url": "https://nicolaszucchet.github.io/Forward-propagation-errors-through-time/assets/images/fprop_errors_final.jpg",
-      "summary_en": "The piece analyzes how errors propagate forward through time in sequential systems, affecting future predictions and stability. It discusses implications for training and inference in time-series models and suggests strategies to contain error growth.",
-      "summary_zh": "文章分析了误差在时间序列或其他时序系统中的前向传播，影响未来预测与系统稳定性。讨论了对时间序列模型训练与推断的含义，并提出抑制误差增长的策略。",
-      "hn": {
-        "id": 47071770,
-        "type": "story",
-        "by": "iNic",
-        "score": 15,
-        "descendants": 0,
-        "time": 1771493033,
-        "comments_url": "https://news.ycombinator.com/item?id=47071770"
-      },
-      "tags": [
-        "Science"
-      ]
-    },
-    {
       "title_en": "I'm #1 on Google thanks to AI bullshit [video]",
       "url": "https://www.youtube.com/watch?v=6uKZ84zwJI0",
       "title_zh": "我靠 AI 胡扯成就了 Google 第1名 [视频]",
@@ -2001,6 +2082,7 @@
       },
       "tags": [
         "AI",
+        "Business",
         "Gaming"
       ]
     },
@@ -2022,8 +2104,31 @@
         "comments_url": "https://news.ycombinator.com/item?id=47107819"
       },
       "tags": [
-        "AI",
-        "Business"
+        "Business",
+        "Culture",
+        "AI"
+      ]
+    },
+    {
+      "title_en": "“Playmakers,” reviewed: The race to give every child a toy",
+      "url": "https://www.newyorker.com/magazine/2026/02/16/playmakers-the-jewish-entrepreneurs-who-created-the-toy-industry-in-america-michael-kimmel-book-review",
+      "title_zh": "《Playmakers》评析：让每个孩子都能拥有玩具的竞赛",
+      "created_display": "Created: Feb 20, 2026 / 06:14 PT",
+      "image_url": "https://media.newyorker.com/photos/69826bb2e29787400e0eb784/16:9/w_1280,c_limit/r48493.jpg",
+      "summary_en": "The NYer review traces the rise of Jewish entrepreneurs who built America's toy industry, examining how capital, culture, and manufacturing shaped a mass-market of playthings. It reflects on the social and economic forces that broadened access to toys.",
+      "summary_zh": "纽约客评析追溯一群犹太裔企业家如何打造美国玩具产业，考察资本、文化与制造业如何推动大众化玩具市场的形成。文章反思推动玩具普及的社会与经济力量。",
+      "hn": {
+        "id": 47088307,
+        "type": "story",
+        "by": "fortran77",
+        "score": 13,
+        "descendants": 1,
+        "time": 1771596873,
+        "comments_url": "https://news.ycombinator.com/item?id=47088307"
+      },
+      "tags": [
+        "Business",
+        "Culture"
       ]
     },
     {
@@ -2045,7 +2150,29 @@
       },
       "tags": [
         "Education",
+        "Culture",
         "AI"
+      ]
+    },
+    {
+      "title_en": "Carelessness versus Craftsmanship in Cryptography",
+      "url": "https://blog.trailofbits.com/2026/02/18/carelessness-versus-craftsmanship-in-cryptography/",
+      "title_zh": "密码学中的粗心与匠心",
+      "created_display": "Created: Feb 18, 2026 / 04:34 PT",
+      "image_url": "https://blog.trailofbits.com/img/tob.png",
+      "summary_en": "The post contrasts sloppy cryptography with craftsmanship, arguing that secure designs come from disciplined engineering rather than quick fixes. It outlines best practices from threat modeling to rigorous verification to mitigate real-world risk.",
+      "summary_zh": "文章对比了粗心的密码学实践与匠心之作，强调安全设计来自周密的工程实践而非临时修补。提出从威胁建模到严格验证等一系列最佳实践以降低现实风险。",
+      "hn": {
+        "id": 47060334,
+        "type": "story",
+        "by": "ingve",
+        "score": 9,
+        "descendants": 0,
+        "time": 1771418092,
+        "comments_url": "https://news.ycombinator.com/item?id=47060334"
+      },
+      "tags": [
+        "Security"
       ]
     },
     {
@@ -2067,140 +2194,7 @@
       },
       "tags": [
         "Education",
-        "Business"
-      ]
-    },
-    {
-      "title_en": "Denonomicon: The Dark Arts of Deno Foreign Function Interface Programming",
-      "url": "https://denonomicon.deno.dev/introduction",
-      "title_zh": "Denonomicon：Deno 的 FFI 编程的黑暗艺术",
-      "created_display": "Created: Feb 17, 2026 / 01:16 PT",
-      "image_url": "https://denonomicon.deno.dev/denonomicon-title.svg?__frsh_c=zvkgjmb5de00",
-      "summary_en": "Denonomicon surveys Deno's foreign function interface programming, outlining strategies, pitfalls, and best practices for safe and ergonomic FFI usage.",
-      "summary_zh": "Denonomicon 介绍 Deno 的 FFI 编程，梳理安全、易用的实践、常见坑点与最佳实践。",
-      "hn": {
-        "id": 47045313,
-        "type": "story",
-        "by": "enz",
-        "score": 8,
-        "descendants": 1,
-        "time": 1771319801,
-        "comments_url": "https://news.ycombinator.com/item?id=47045313"
-      },
-      "tags": [
-        "Programming",
-        "Open Source"
-      ]
-    },
-    {
-      "title_en": "Declarative, Inquisitive, then Imperative (2017) [pdf]",
-      "url": "https://www.forth.org/svfig/kk/11-2017-Falvo.pdf",
-      "title_zh": "先声明式、再探究式、然后实现（2017）[PDF]",
-      "created_display": "Created: Feb 17, 2026 / 01:03 PT",
-      "image_url": null,
-      "summary_en": "A 2017 PDF discusses a three-stage programming paradigm: declarative, inquisitive, then imperative, arguing this order can improve clarity and interactive design.",
-      "summary_zh": "这份 2017 年的 PDF 探讨了三阶段的编程范式：声明式、探询式、然后实现，讨论该顺序如何提升可读性、推理性与以用户为中心的交互。",
-      "hn": {
-        "id": 47045246,
-        "type": "story",
-        "by": "tosh",
-        "score": 6,
-        "descendants": 0,
-        "time": 1771318992,
-        "comments_url": "https://news.ycombinator.com/item?id=47045246"
-      },
-      "tags": [
-        "Programming"
-      ]
-    },
-    {
-      "title_en": "Shai-Hulud-Style NPM Worm Hijacks CI Workflows and Poisons AI Toolchains",
-      "url": "https://socket.dev/blog/sandworm-mode-npm-worm-ai-toolchain-poisoning",
-      "title_zh": "Shai-Hulud 风格的 NPM 蠕虫劫持 CI 工作流并污染 AI 工具链",
-      "created_display": "Created: Feb 21, 2026 / 12:41 PT",
-      "image_url": null,
-      "summary_en": "Shai-Hulud-Style NPM Worm hijacks CI workflows and taints AI toolchains, illustrating how supply-chain attacks can compromise build pipelines and downstream tooling.",
-      "summary_zh": "Shai-Hulud 风格的 NPM 蠕虫劫持持续集成工作流并污染 AI 工具链，揭示供应链攻击对构建管线和下游工具的风险。",
-      "hn": {
-        "id": 47104510,
-        "type": "story",
-        "by": "jicea",
-        "score": 6,
-        "descendants": 0,
-        "time": 1771706476,
-        "comments_url": "https://news.ycombinator.com/item?id=47104510"
-      },
-      "tags": [
-        "Security",
-        "DevOps",
-        "Open Source",
-        "AI"
-      ]
-    },
-    {
-      "title_en": "DialUp95 – A 90s inspired nostalgia hit",
-      "url": "https://dialup95.com/",
-      "title_zh": "DialUp95：一部90年代风格的怀旧作品",
-      "created_display": "Created: Feb 21, 2026 / 09:26 PT",
-      "image_url": "https://dialup95.com/dial_icon.png",
-      "summary_en": "DialUp95 recreates the look and feel of a 1990s internet experience, with dial-up sounds, chunky UI, and intentionally slow-loading sequences. It's a playful nostalgia project for designers and developers curious about historical UX and skeuomorphism. The project also reminds how internet infrastructure shaped early online experiences and design decisions.",
-      "summary_zh": "DialUp95 重现了1990年代上网的视觉与交互体验，包含拨号音效、粗犷的界面和故意缓慢的加载。对于对历史用户体验和拟物设计感兴趣的设计师与开发者来说，这是一个有趣的怀旧项目。它也让人回想起当年网络基础设施如何影响早期的在线体验与设计选择。",
-      "hn": {
-        "id": 47102763,
-        "type": "story",
-        "by": "robputt",
-        "score": 6,
-        "descendants": 2,
-        "time": 1771694777,
-        "comments_url": "https://news.ycombinator.com/item?id=47102763"
-      },
-      "tags": [
-        "Design",
-        "Entertainment",
-        "DevOps"
-      ]
-    },
-    {
-      "title_en": "Ask HN: Programmable Watches with WiFi?",
-      "url": "https://news.ycombinator.com/item?id=47105086",
-      "title_zh": "Ask HN：带 WiFi 的可编程手表？",
-      "created_display": "Created: Feb 21, 2026 / 13:39 PT",
-      "image_url": "https://news.ycombinator.com/y18.svg",
-      "summary_en": "Ask HN: Programmable Watches with WiFi? discusses feasibility, power budget, security considerations, and potential use cases for smartwatches with network connectivity.",
-      "summary_zh": "Ask HN：带 WiFi 的可编程手表可行吗？讨论了网络连接、功耗、安全性与潜在应用场景等问题。",
-      "hn": {
-        "id": 47105086,
-        "type": "story",
-        "by": "dakiol",
-        "score": 5,
-        "descendants": 0,
-        "time": 1771709995,
-        "comments_url": "https://news.ycombinator.com/item?id=47105086"
-      },
-      "tags": [
-        "Hardware",
-        "Security"
-      ]
-    },
-    {
-      "title_en": "Instant AI Response",
-      "url": "https://chatjimmy.ai/",
-      "title_zh": "Instant AI Response 实时 AI 回复",
-      "created_display": "Created: Feb 21, 2026 / 01:42 PT",
-      "image_url": null,
-      "summary_en": "Instant AI Response presents a tool for near-instant AI replies, likely offering a quick, responsive interface for generating AI-based answers and prototyping chat experiences.",
-      "summary_zh": "Instant AI Response 提供近乎即时的 AI 回应能力，可能为快速查询和原型化对话体验提供简洁的界面。",
-      "hn": {
-        "id": 47099087,
-        "type": "story",
-        "by": "hochmartinez",
-        "score": 5,
-        "descendants": 0,
-        "time": 1771666924,
-        "comments_url": "https://news.ycombinator.com/item?id=47099087"
-      },
-      "tags": [
-        "AI"
+        "Politics"
       ]
     }
   ]
