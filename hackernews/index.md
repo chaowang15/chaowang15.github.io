@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>7</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>681</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>6</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>5</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-02-22</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>7</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>705</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>6</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>5</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-02-22</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,19 +20,85 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='343' data-hn-time='1771763806'>
+<div class='hn-top-story-item' data-hn-score='307' data-hn-time='1771787551'>
 <span class='hn-top-story-rank'>1</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/02/22/top_stories_02222026#story-47113728'>I built Timeframe, our family e-paper dashboard</a>
+ <a class='hn-top-story-link' href='https://hawksley.org/2026/02/17/timeframe.html' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Timeframe，我们家的电子纸仪表板</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; --</span> <span class='hn-top-story-score'>&#9650; 307</span> <span class='hn-top-story-comments'>&#128172; 87</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Design</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='76' data-hn-time='1771791432'>
+<span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/02/22/top_stories_02222026#story-47114235'>Spain has blocked access to freedom.gov</a>
+ <a class='hn-top-story-link' href='https://twitter.com/Pirat_Nation/status/2025643188321714642' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>西班牙封锁 freedom.gov 的访问</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; --</span> <span class='hn-top-story-score'>&#9650; 76</span> <span class='hn-top-story-comments'>&#128172; 71</span> <span class='hn-top-story-tag'>Politics</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='480' data-hn-time='1771763806'>
+<span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/02/22/top_stories_02222026#story-47110515'>Attention Media ≠ Social Networks</a>
  <a class='hn-top-story-link' href='https://susam.net/attention-media-vs-social-networks.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>注意力媒体与社交网络的区别</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; --</span> <span class='hn-top-story-score'>&#9650; 343</span> <span class='hn-top-story-comments'>&#128172; 151</span> <span class='hn-top-story-tag'>Web</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; --</span> <span class='hn-top-story-score'>&#9650; 480</span> <span class='hn-top-story-comments'>&#128172; 211</span> <span class='hn-top-story-tag'>Culture</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='224' data-hn-time='1771768780'>
-<span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-item' data-hn-score='42' data-hn-time='1771793778'>
+<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/02/22/top_stories_02222026#story-47114579'>Global Intelligence Crisis</a>
+ <a class='hn-top-story-link' href='https://www.citriniresearch.com/p/2028gic' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>全球情报危机</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; --</span> <span class='hn-top-story-score'>&#9650; 42</span> <span class='hn-top-story-comments'>&#128172; 15</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Politics</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='71' data-hn-time='1771787570'>
+<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/02/22/top_stories_02222026#story-47113731'>NanoClaw Moved from Apple Containers to Docker</a>
+ <a class='hn-top-story-link' href='https://twitter.com/Gavriel_Cohen/status/2025603982769410356' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>NanoClaw 从 Apple Containers 切换到 Docker</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; --</span> <span class='hn-top-story-score'>&#9650; 71</span> <span class='hn-top-story-comments'>&#128172; 53</span> <span class='hn-top-story-tag'>DevOps</span> <span class='hn-top-story-tag'>Programming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='160' data-hn-time='1771776751'>
+<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/02/22/top_stories_02222026#story-47112174'>Fix your tools</a>
+ <a class='hn-top-story-link' href='https://ochagavia.nl/blog/fix-your-tools/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>修复你的工具</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; --</span> <span class='hn-top-story-score'>&#9650; 160</span> <span class='hn-top-story-comments'>&#128172; 59</span> <span class='hn-top-story-tag'>Programming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='65' data-hn-time='1771787883'>
+<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/02/22/top_stories_02222026#story-47113769'>An Unbothered Jimmy Wales Calls Grokipedia a 'Cartoon Imitation' of Wikipedia</a>
+ <a class='hn-top-story-link' href='https://gizmodo.com/an-unbothered-jimmy-wales-calls-grokipedia-a-cartoon-imitation-of-wikipedia-2000725070' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>吉米·威尔斯：Grokipedia 是 Wikipedia 的‘卡通模仿’</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; --</span> <span class='hn-top-story-score'>&#9650; 65</span> <span class='hn-top-story-comments'>&#128172; 39</span> <span class='hn-top-story-tag'>Culture</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='224' data-hn-time='1771768780'>
+<span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/02/22/top_stories_02222026#story-47111067'>Iran students stage first large anti-government protests since deadly crackdown</a>
@@ -42,92 +108,26 @@ Sort:
 <div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; --</span> <span class='hn-top-story-score'>&#9650; 224</span> <span class='hn-top-story-comments'>&#128172; 272</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Education</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='134' data-hn-time='1771771844'>
-<span class='hn-top-story-rank'>3</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/02/22/top_stories_02222026#story-47111440'>We hid backdoors in ~40MB binaries and asked AI + Ghidra to find them</a>
- <a class='hn-top-story-link' href='https://quesma.com/blog/introducing-binaryaudit/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>我们在约 40MB 的二进制中藏入后门，并让 AI 与 Ghidra 找出它们</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; --</span> <span class='hn-top-story-score'>&#9650; 134</span> <span class='hn-top-story-comments'>&#128172; 53</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='73' data-hn-time='1771776751'>
-<span class='hn-top-story-rank'>4</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/02/22/top_stories_02222026#story-47112174'>Fix Your Tools</a>
- <a class='hn-top-story-link' href='https://ochagavia.nl/blog/fix-your-tools/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>修复你的工具</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; --</span> <span class='hn-top-story-score'>&#9650; 73</span> <span class='hn-top-story-comments'>&#128172; 33</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>DevOps</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='106' data-hn-time='1771771482'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/02/22/top_stories_02222026#story-47111400'>Man accidentally gains control of 7k robot vacuums</a>
- <a class='hn-top-story-link' href='https://www.popsci.com/technology/robot-vacuum-army/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>男子意外获得对约 7000 台扫地机器人的控制权</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; --</span> <span class='hn-top-story-score'>&#9650; 106</span> <span class='hn-top-story-comments'>&#128172; 57</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='800' data-hn-time='1771720145'>
-<span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/02/22/top_stories_02222026#story-47106686'>How I use Claude Code: Separation of planning and execution</a>
- <a class='hn-top-story-link' href='https://boristane.com/blog/how-i-use-claude-code/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>我如何使用 Claude Code：将规划与执行分离</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; --</span> <span class='hn-top-story-score'>&#9650; 800</span> <span class='hn-top-story-comments'>&#128172; 513</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='146' data-hn-time='1771763321'>
-<span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/02/22/top_stories_02222026#story-47110473'>What Is a Database Transaction?</a>
- <a class='hn-top-story-link' href='https://planetscale.com/blog/database-transactions' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>数据库事务是什么</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; --</span> <span class='hn-top-story-score'>&#9650; 146</span> <span class='hn-top-story-comments'>&#128172; 23</span> <span class='hn-top-story-tag'>Data</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='61' data-hn-time='1771773135'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/02/22/top_stories_02222026#story-47111626'>Xweather Live – Interactive global vector weather map</a>
- <a class='hn-top-story-link' href='https://live.xweather.com/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Xweather Live：全球矢量天气地图的交互式体验</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; --</span> <span class='hn-top-story-score'>&#9650; 61</span> <span class='hn-top-story-comments'>&#128172; 18</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Data</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='33' data-hn-time='1771777267'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='69' data-hn-time='1771786600'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/02/22/top_stories_02222026#story-47112252'>Fungicide vinclozin causes disease via germline for 20 generations in rats</a>
- <a class='hn-top-story-link' href='https://pnas.org/doi/10.1073/pnas.2523071123' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/02/22/top_stories_02222026#story-47113618'>Loops is a federated, open-source TikTok</a>
+ <a class='hn-top-story-link' href='https://joinloops.org/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>杀菌剂 vinclozin 通过生殖系造成大鼠多代疾病</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; --</span> <span class='hn-top-story-score'>&#9650; 33</span> <span class='hn-top-story-comments'>&#128172; 10</span> <span class='hn-top-story-tag'>Health</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>Loops：一个联邦化的开源 TikTok</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; --</span> <span class='hn-top-story-score'>&#9650; 69</span> <span class='hn-top-story-comments'>&#128172; 44</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1379' data-hn-time='1771657578'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='15' data-hn-time='1771797808'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/02/22/top_stories_02222026#story-47098245'>I verified my LinkedIn identity. Here's what I handed over</a>
- <a class='hn-top-story-link' href='https://thelocalstack.eu/posts/linkedin-identity-verification-privacy/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/02/22/top_stories_02222026#story-47115221'>AWS won't discuss my bill, suspended my account, took $1,600, still no human</a>
+ <a class='hn-top-story-link' href='https://news.ycombinator.com/item?id=47115221' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>我验证了我的 LinkedIn 身份，我交出了什么</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; --</span> <span class='hn-top-story-score'>&#9650; 1379</span> <span class='hn-top-story-comments'>&#128172; 469</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>AWS 拒绝解释我的账单，账户被暂停，扣款 1600 美元，至今没有人工客服回应</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; --</span> <span class='hn-top-story-score'>&#9650; 15</span> <span class='hn-top-story-comments'>&#128172; 0</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -151,7 +151,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/02/22/top_stories_02222026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>66</b> <span class="hn-row-sep">·</span> Programming <b>17</b> <span class="hn-row-sep">·</span> Science <b>11</b></span>
+<span class='hn-row-detail'>All <b>90</b> <span class="hn-row-sep">·</span> Programming <b>24</b> <span class="hn-row-sep">·</span> Open Source <b>16</b></span>
 </a>
 </div>
 </div>
