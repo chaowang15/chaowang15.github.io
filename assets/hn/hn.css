@@ -1793,6 +1793,18 @@ a.hn-stat:hover::after {
   display: block;
 }
 
+/* When inside sort bar: push to right via auto margin */
+.hn-lang-toggle--in-sort {
+  margin-left: auto;
+}
+
+/* Standalone toolbar row (Best pages without sort bar) */
+.hn-lang-toolbar {
+  display: flex;
+  justify-content: flex-end;
+  margin: 12px 0 8px 0;
+}
+
 /* Dark mode adjustments */
 @media (prefers-color-scheme: dark) {
   .hn-lang-toggle {
@@ -1805,6 +1817,13 @@ a.hn-stat:hover::after {
   .hn-lang-btn {
     padding: 3px 11px;
     font-size: 11px;
+  }
+  .hn-sort-bar {
+    flex-wrap: wrap;
+  }
+  .hn-lang-toggle--in-sort {
+    margin-left: 0;
+    margin-top: 4px;
   }
 }
 

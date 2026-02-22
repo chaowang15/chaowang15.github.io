@@ -1594,8 +1594,27 @@
       btns.push(btn);
     });
 
-    // Insert inside subtitle (which is now a flex row)
-    subtitle.appendChild(wrap);
+    // Determine where to place the language toggle:
+    // - Trending pages (have sort bar): append to sort bar (right side)
+    // - Best/other pages (no sort bar): create a standalone row
+    var sortBar = document.querySelector('.hn-sort-bar');
+    if (sortBar) {
+      // Trending page: append to sort bar, will be pushed right via CSS flex
+      wrap.classList.add('hn-lang-toggle--in-sort');
+      sortBar.appendChild(wrap);
+    } else {
+      // Best/other pages: create a standalone toolbar row
+      var toolbar = document.createElement('div');
+      toolbar.className = 'hn-lang-toolbar';
+      toolbar.appendChild(wrap);
+      // Insert before the filter bar or the list
+      var filterBar = document.querySelector('.hn-filter-bar');
+      if (filterBar) {
+        filterBar.parentNode.insertBefore(toolbar, filterBar);
+      } else if (list) {
+        list.parentNode.insertBefore(toolbar, list);
+      }
+    }
 
     // State
     var STORAGE_KEY = 'hn-lang-mode';

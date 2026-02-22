@@ -4,6 +4,27 @@
 
 ---
 
+## 2026年2月21日 (Index 页 Top Stories 改为 Hot 排序)
+
+将 Index 主页的 "Today's Top Stories" 从纯分数排序改为 HN 时间衰减公式（Hot）排序，让首页展示"正在热门"的内容而非历史高分故事。每条故事增加 🔥 热度分标签。
+
+### 改动前后对比
+
+| 项目 | 改动前 | 改动后 |
+|------|--------|--------|
+| 排序方式 | 纯 score 降序 | HN 时间衰减公式 (P-1)/(T+2)^1.8 |
+| 第 1 名 | Keep Android Open (1955分, 30h+) | What not to write... (332分, 7.5h) |
+| 热度标签 | 无 | 🔥 5.0 等 |
+| 展示数量 | 10 条 (5+5) | 10 条 (5+5)，不变 |
+
+### 涉及文件
+
+- `news_scraper/index_updater.py`：新增 `_hn_hot_score` 函数，`_get_top_stories` 改为按热度排序并返回 `hot_score` 字段，meta 行增加热度标签。
+- `hackernews/index.md`：重新生成，Top Stories 按热度排序。
+- `_layouts/hn.html`：缓存版本号更新至 `v=20260221q`。
+
+---
+
 ## 2026年2月21日 (排序模式上下文感知高亮)
 
 为 Trending 页面的三种排序模式实现了上下文感知的指标高亮：只对当前排序依据的指标做“加法”高亮，Score 和 Created 时间在非激活时保持默认样式（不淡化），热度标签在非 Hot 模式下变为灰色。
