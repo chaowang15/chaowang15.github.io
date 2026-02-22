@@ -1837,3 +1837,41 @@
     initExternalLinkTracking();
   }
 })();
+
+
+// ===== Real-time Hot Score for Index Top Stories =====
+(function () {
+  var GRAVITY = 1.8;
+
+  function hnRankScore(votes, ageHours) {
+    var p = Math.max((votes || 0) - 1, 0);
+    return p / Math.pow((ageHours || 0) + 2, GRAVITY);
+  }
+
+  function initIndexHotScores() {
+    var items = document.querySelectorAll('.hn-top-story-item[data-hn-score]');
+    if (!items.length) return;
+
+    var nowSec = Date.now() / 1000;
+
+    items.forEach(function (item) {
+      var hnScore = parseInt(item.getAttribute('data-hn-score') || '0', 10);
+      var hnTime = parseInt(item.getAttribute('data-hn-time') || '0', 10);
+      var ageH = hnTime ? (nowSec - hnTime) / 3600 : 9999;
+      var hot = hnRankScore(hnScore, ageH);
+      var displayVal = hot >= 10 ? Math.round(hot) : hot.toFixed(1);
+
+      // Find the hn-hot-idx span and update its text
+      var hotSpan = item.querySelector('.hn-hot-idx');
+      if (hotSpan) {
+        hotSpan.textContent = '\uD83D\uDD25 ' + displayVal;
+      }
+    });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initIndexHotScores);
+  } else {
+    initIndexHotScores();
+  }
+})();

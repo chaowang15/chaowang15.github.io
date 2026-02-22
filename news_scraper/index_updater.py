@@ -280,6 +280,7 @@ def _get_top_stories(base_dir: str, days: List[DayEntry], n: int = 10) -> List[d
                         "descendants": hn.get("descendants", 0),
                         "tags": it.get("tags", []),
                         "hn_id": hn_id,
+                        "hn_time": hn.get("time", 0),
                         "daily_url": s.rel_url,  # link to the daily page
                         "hot_score": round(hot, 1),
                     })
@@ -427,7 +428,8 @@ def update_hackernews_index(
 
             # Items 6-10 are hidden by default (show more)
             extra_cls = ' hn-top-story-extra' if i > 5 else ''
-            lines.append(f"<div class='hn-top-story-item{extra_cls}'>")
+            hn_time = story.get('hn_time', 0)
+            lines.append(f"<div class='hn-top-story-item{extra_cls}' data-hn-score='{score}' data-hn-time='{hn_time}'>")
             lines.append(f"<span class='hn-top-story-rank'>{i}</span>")
             lines.append(f"<div class='hn-top-story-content'>")
             # Title line: title links to our daily page, 🔗 icon links to original article
@@ -443,9 +445,8 @@ def update_hackernews_index(
             if title_zh:
                 lines.append(f"<div class='hn-top-story-zh'>{title_zh}</div>")
             # Meta line: hot score, score, comments, tags
-            hot = story.get('hot_score', 0)
             meta_parts = []
-            meta_parts.append(f"<span class='hn-hot-idx'>&#128293; {hot}</span>")
+            meta_parts.append(f"<span class='hn-hot-idx'>&#128293; --</span>")
             meta_parts.append(f"<span class='hn-top-story-score'>&#9650; {score}</span>")
             meta_parts.append(f"<span class='hn-top-story-comments'>&#128172; {comments}</span>")
             for tag in tags[:3]:
