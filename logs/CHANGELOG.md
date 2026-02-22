@@ -4,6 +4,36 @@
 
 ---
 
+## 2026年2月22日 (新闻卡片分享按钮)
+
+在所有新闻卡片（Trending、Daily Best、Weekly Digest 页面）的标签行末尾新增分享按钮，点击后将包含锚点的页面链接复制到剪贴板，方便用户分享特定新闻。
+
+### 功能详情
+
+| 功能 | 说明 |
+|------|------|
+| **分享图标** | 使用 SVG 绘制的经典分享图标（方框+向上箭头），与 🔗 emoji 明确区分 |
+| **一键复制** | 点击后自动复制当前页面 URL + `#story-{id}` 锚点到剪贴板 |
+| **Toast 提示** | 复制成功后在按钮旁显示 "Link copied!" 提示，1.5 秒后自动消失 |
+| **跨平台支持** | 优先使用 `navigator.clipboard` API，降级到 `execCommand('copy')` 兼容旧浏览器 |
+| **暗色模式** | 图标和 Toast 均适配暗色模式 |
+| **位置** | 标签行最右侧，不干扰现有标签布局 |
+
+### 覆盖页面
+
+- Trending 页面（每日热门）
+- Daily Best 页面（每日精选）
+- Weekly Digest 页面（每周汇总）
+- Index 页面 Top Stories 不添加（紧凑卡片无标签行）
+
+### 涉及文件
+
+- `assets/hn/hn.js`：新增 `initShareButtons()` 模块
+- `assets/hn/hn.css`：新增 `.hn-share-btn` 和 `.hn-share-toast` 样式
+- `_layouts/hn.html`：缓存版本号更新
+
+---
+
 ## 2026年2月22日 (OpenAI API Token 用量跟踪)
 
 新增 `token_logger.py` 模块，自动记录每次 OpenAI API 调用的 token 用量和估算费用到 `logs/openai_token_usage_log.md`。
