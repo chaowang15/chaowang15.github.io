@@ -4,6 +4,31 @@
 
 ---
 
+## 2026年2月22日 (全站 Hot Score 实时一致性)
+
+修复 Index 页面 Today's Top Stories 与 Trending 页面 hot score 不一致的问题。原因是 Index 页面的 hot score 在 pipeline 运行时计算并硬编码到 HTML 中，而 Trending 页面由 JS 实时计算。随着时间推移，两者差异越来越大。
+
+### 解决方案
+
+将 Index 页面 Top Stories 的 hot score 改为与 Trending 页面相同的 JS 实时计算方式：
+- `index_updater.py`：在 `hn-top-story-item` 上添加 `data-hn-score` 和 `data-hn-time` 属性，hot score 改为占位符 `🔥 --`
+- `hn.js`：新增 `initIndexHotScores()` 模块，页面加载时使用 `hnRankScore()` 公式实时计算并填充 hot score
+- 公式：`(votes - 1) / (ageHours + 2)^1.8`，与 Trending 页面完全一致
+
+### 验证结果
+
+| 新闻 | Index 页面 | Trending 页面 |
+|------|-----------|---------------|
+| How I use Claude Code | 🔥 3.3 | 🔥 3.3 |
+| Attention Media | 🔥 2.9 | 🔥 2.9 |
+
+### 涉及文件
+
+- `news_scraper/index_updater.py` — 添加 data 属性，移除硬编码 hot score
+- `assets/hn/hn.js` — 新增 Index 页面实时 hot score 计算模块
+
+---
+
 ## 2026年2月22日 (Google Analytics 4 集成)
 
 将 Google Analytics 从旧版 Universal Analytics (UA-157588937-1) 升级到 GA4 (G-S94YYNZWEY)，并集成到主站首页和 Hacker News Daily 所有页面。添加 6 个自定义事件追踪，用于分析用户行为。
