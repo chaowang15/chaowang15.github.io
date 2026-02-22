@@ -484,7 +484,14 @@ def update_hackernews_index(
         lines.append("<div class='hn-grid'>")
         for day in days:
             lines.append("<div class='hn-day-row'>")
-            lines.append(f"<div class='hn-day-date'>{day.content_date}</div>")
+            # Add weekday name (e.g., "Mon", "Tue")
+            try:
+                _dt = datetime.strptime(day.content_date, "%Y-%m-%d")
+                _weekday = _dt.strftime("%a")  # Mon, Tue, Wed, ...
+            except Exception:
+                _weekday = ""
+            weekday_html = f" <span class='hn-day-weekday'>{_weekday}</span>" if _weekday else ""
+            lines.append(f"<div class='hn-day-date'>{day.content_date}{weekday_html}</div>")
             lines.append("<div class='hn-day-stories'>")
 
             for s in day.stories:

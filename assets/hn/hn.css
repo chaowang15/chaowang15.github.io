@@ -420,8 +420,14 @@ body {
     font-weight: 750;
     font-size: 1.02em;
     flex-shrink: 0;
-    min-width: 110px;
+    min-width: 140px;
     padding-top: 4px;
+}
+.hn-day-weekday {
+    font-weight: 400;
+    font-size: 0.85em;
+    color: var(--hn-muted);
+    margin-left: 2px;
 }
 
 .hn-day-stories {

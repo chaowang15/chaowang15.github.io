@@ -29,7 +29,7 @@ Sort:
  <a class='hn-top-story-link' href='https://boristane.com/blog/how-i-use-claude-code/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>我如何使用 Claude Code：将规划与执行分离</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.2</span> <span class='hn-top-story-score'>&#9650; 210</span> <span class='hn-top-story-comments'>&#128172; 127</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.0</span> <span class='hn-top-story-score'>&#9650; 210</span> <span class='hn-top-story-comments'>&#128172; 127</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
 <div class='hn-top-story-item'>
@@ -40,7 +40,7 @@ Sort:
  <a class='hn-top-story-link' href='https://www.dbreunig.com/2026/02/21/why-is-claude-an-electron-app.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>为什么 Claude 是一个 Electron 应用？</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.5</span> <span class='hn-top-story-score'>&#9650; 350</span> <span class='hn-top-story-comments'>&#128172; 332</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Design</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.3</span> <span class='hn-top-story-score'>&#9650; 350</span> <span class='hn-top-story-comments'>&#128172; 332</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Design</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
 <div class='hn-top-story-item'>
@@ -62,7 +62,7 @@ Sort:
  <a class='hn-top-story-link' href='https://milk.com/wall-o-shame/security_clearance.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>填写安全许可申请表时不该写的内容</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 403</span> <span class='hn-top-story-comments'>&#128172; 181</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Legal</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 403</span> <span class='hn-top-story-comments'>&#128172; 181</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Legal</span></div>
 </div>
 </div>
 <div class='hn-top-story-item'>
@@ -84,7 +84,7 @@ Sort:
  <a class='hn-top-story-link' href='https://github.com/Leading-AI-IO/palantir-ontology-strategy' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>帕兰蒂尔的秘密武器不是 AI，而是本体论：开源深度解析</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 47</span> <span class='hn-top-story-comments'>&#128172; 28</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 47</span> <span class='hn-top-story-comments'>&#128172; 28</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
 <div class='hn-top-story-item hn-top-story-extra'>
@@ -95,7 +95,7 @@ Sort:
  <a class='hn-top-story-link' href='https://pilk.website/3/facebook-is-absolutely-cooked' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Facebook 已经完蛋</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.1</span> <span class='hn-top-story-score'>&#9650; 1376</span> <span class='hn-top-story-comments'>&#128172; 750</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 1376</span> <span class='hn-top-story-comments'>&#128172; 750</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
 <div class='hn-top-story-item hn-top-story-extra'>
@@ -113,22 +113,22 @@ Sort:
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/02/21/top_stories_02212026#story-47104667'>Show HN: Llama 3.1 70B on a single RTX 3090 via NVMe-to-GPU bypassing the CPU</a>
- <a class='hn-top-story-link' href='https://github.com/xaskasdf/ntransformer' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/02/21/top_stories_02212026#story-47089213'>Trump's global tariffs struck down by US Supreme Court</a>
+ <a class='hn-top-story-link' href='https://www.bbc.com/news/live/c0l9r67drg7t' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Show HN：在单张 RTX 3090 上用 NVMe–GPU 直连实现 Llama 3.1 70B，绕过 CPU</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 137</span> <span class='hn-top-story-comments'>&#128172; 31</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>美最高法院推翻特朗普时期的全球关税判决</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.9</span> <span class='hn-top-story-score'>&#9650; 1471</span> <span class='hn-top-story-comments'>&#128172; 1222</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Legal</span></div>
 </div>
 </div>
 <div class='hn-top-story-item hn-top-story-extra'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/02/21/top_stories_02212026#story-47089213'>Trump's global tariffs struck down by US Supreme Court</a>
- <a class='hn-top-story-link' href='https://www.bbc.com/news/live/c0l9r67drg7t' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/02/21/top_stories_02212026#story-47104667'>Show HN: Llama 3.1 70B on a single RTX 3090 via NVMe-to-GPU bypassing the CPU</a>
+ <a class='hn-top-story-link' href='https://github.com/xaskasdf/ntransformer' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>美最高法院推翻特朗普时期的全球关税判决</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.9</span> <span class='hn-top-story-score'>&#9650; 1471</span> <span class='hn-top-story-comments'>&#128172; 1222</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Legal</span></div>
+<div class='hn-top-story-zh'>Show HN：在单张 RTX 3090 上用 NVMe–GPU 直连实现 Llama 3.1 70B，绕过 CPU</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.9</span> <span class='hn-top-story-score'>&#9650; 137</span> <span class='hn-top-story-comments'>&#128172; 31</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -148,7 +148,7 @@ Sort:
 <h3 class='hn-section-title'>Daily News <span class='hn-section-zh'>每日新闻</span></h3>
 <div class='hn-grid'>
 <div class='hn-day-row'>
-<div class='hn-day-date'>2026-02-21</div>
+<div class='hn-day-date'>2026-02-21 <span class='hn-day-weekday'>Sat</span></div>
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/02/21/top_stories_02212026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
@@ -157,7 +157,7 @@ Sort:
 </div>
 </div>
 <div class='hn-day-row'>
-<div class='hn-day-date'>2026-02-20</div>
+<div class='hn-day-date'>2026-02-20 <span class='hn-day-weekday'>Fri</span></div>
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/02/20/best_stories_02202026'>
 <span class='hn-row-type hn-type-best'>Daily Best</span>
@@ -170,7 +170,7 @@ Sort:
 </div>
 </div>
 <div class='hn-day-row'>
-<div class='hn-day-date'>2026-02-19</div>
+<div class='hn-day-date'>2026-02-19 <span class='hn-day-weekday'>Thu</span></div>
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/02/19/best_stories_02192026'>
 <span class='hn-row-type hn-type-best'>Daily Best</span>
@@ -183,7 +183,7 @@ Sort:
 </div>
 </div>
 <div class='hn-day-row'>
-<div class='hn-day-date'>2026-02-18</div>
+<div class='hn-day-date'>2026-02-18 <span class='hn-day-weekday'>Wed</span></div>
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/02/18/best_stories_02182026'>
 <span class='hn-row-type hn-type-best'>Daily Best</span>
@@ -196,7 +196,7 @@ Sort:
 </div>
 </div>
 <div class='hn-day-row'>
-<div class='hn-day-date'>2026-02-17</div>
+<div class='hn-day-date'>2026-02-17 <span class='hn-day-weekday'>Tue</span></div>
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/02/17/best_stories_02172026'>
 <span class='hn-row-type hn-type-best'>Daily Best</span>
@@ -205,7 +205,7 @@ Sort:
 </div>
 </div>
 <div class='hn-day-row'>
-<div class='hn-day-date'>2026-02-16</div>
+<div class='hn-day-date'>2026-02-16 <span class='hn-day-weekday'>Mon</span></div>
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/02/16/best_stories_02162026'>
 <span class='hn-row-type hn-type-best'>Daily Best</span>
