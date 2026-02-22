@@ -446,21 +446,18 @@
     }
 
     // Hotness badge management
-    function updateHotBadges(show) {
+    function updateHotBadges(isHotMode) {
       cards.forEach(function (card) {
         var existing = card.querySelector('.hn-hot-badge');
-        if (!show) {
-          if (existing) existing.style.display = 'none';
-          return;
-        }
         var hotVal = card._sortData.hot;
         var displayVal = hotVal >= 10 ? Math.round(hotVal) : hotVal.toFixed(1);
         if (existing) {
           existing.textContent = '\uD83D\uDD25 ' + displayVal;
           existing.style.display = '';
+          existing.classList.toggle('hn-hot-badge--dim', !isHotMode);
         } else {
           var badge = document.createElement('span');
-          badge.className = 'hn-hot-badge';
+          badge.className = 'hn-hot-badge' + (isHotMode ? '' : ' hn-hot-badge--dim');
           badge.title = 'Hotness score (HN time-decay formula)';
           badge.textContent = '\uD83D\uDD25 ' + displayVal;
           // Insert into the tags row

@@ -820,9 +820,17 @@ body {
     white-space: nowrap;
     line-height: 1.4;
     vertical-align: middle;
+    transition: opacity 0.2s ease;
+}
+
+.hn-hot-badge--dim {
+    opacity: 0.45;
 }
 
 @media (prefers-color-scheme: dark) {
+    .hn-hot-badge--dim {
+        opacity: 0.4;
+    }
     .hn-sort-toggle-btn {
         border-color: #444;
         color: #aaa;

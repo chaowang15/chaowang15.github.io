@@ -4,6 +4,41 @@
 
 ---
 
+## 2026年2月21日 (Trending 页面 Hot/Top/New 排序切换 + 热度标签)
+
+为 Trending 页面新增三种排序模式和实时热度标签，让 "Trending" 名副其实。
+
+### 改动说明
+
+| 排序模式 | 算法 | 效果 |
+|----------|------|------|
+| 🔥 Hot（默认） | HN 时间衰减公式 `(P-1)/(T+2)^1.8` | 新鲜且受欢迎的故事排在前面 |
+| ⬆ Top | 纯分数降序 | 当天最高分故事排在前面 |
+| 🕒 New | 按发布时间降序 | 最新故事排在前面 |
+
+### 核心改进
+
+- **Hot 排序解决了旧故事霸占前排的问题**：之前纯分数排序导致 Top 20 中 95% 是 24h+ 的老故事，新故事被挤到底部。Hot 排序后 Top 20 中新故事占比从 5% 提升到 40%。
+- **热度标签 🔥**：在 Hot 模式下，每个故事卡片的标签行显示实时热度分（橙色渐变 pill badge），切换到 Top/New 模式时自动隐藏。
+- **排序按钮组**：圆角按钮样式，支持 dark mode 和移动端响应式。
+
+### 技术细节
+
+- 在 `md_writer.py` 中为每个卡片添加 `data-hn-time`（Unix 时间戳）和 `data-hn-score`（投票数）属性。
+- JS 在页面加载时实时计算热度分，排序在前端完成，无需重新请求数据。
+- 仅在 Trending（top stories）页面激活，通过检测 `.hn-mode-top` badge 判断页面类型。
+- 切换排序时自动重新编号 (1), (2), (3)...。
+
+### 涉及文件
+
+- `news_scraper/md_writer.py`：卡片 div 添加 `data-hn-time` 和 `data-hn-score` 属性。
+- `assets/hn/hn.js`：新增 Hot/Top/New 排序模块（~120 行）。
+- `assets/hn/hn.css`：新增 `.hn-sort-bar`、`.hn-sort-toggle-btn`、`.hn-hot-badge` 样式。
+- `_layouts/hn.html`：缓存版本号更新至 `v=20260221m`。
+- 所有 9 个 daily 页面通过 `rebuild` 重新生成。
+
+---
+
 ## 2026年2月21日 (Weekly Digest 序号与 Daily 链接优化)
 
 优化 Weekly Digest 页面的故事卡片展示，增加序号并精简 "View in daily page" 链接。
