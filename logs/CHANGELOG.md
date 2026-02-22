@@ -4,6 +4,29 @@
 
 ---
 
+## 2026年2月22日 (Google Analytics 4 集成)
+
+将 Google Analytics 从旧版 Universal Analytics (UA-157588937-1) 升级到 GA4 (G-S94YYNZWEY)，并集成到主站首页和 Hacker News Daily 所有页面。添加 6 个自定义事件追踪，用于分析用户行为。
+
+### 追踪事件
+
+| 事件名 | 触发条件 | 追踪参数 |
+|--------|----------|----------|
+| `share_story` | 点击分享按钮 | story_id, story_title, page_type |
+| `search_query` | 执行搜索 | search_term, results_count |
+| `sort_change` | 切换排序模式 | sort_mode (hot/top/new) |
+| `tag_filter` | 点击标签筛选 | tag_name |
+| `language_switch` | 切换语言 | language (en/bi/zh) |
+| `click_external_link` | 点击 🔗 跳转原始文章 | story_id, link_url |
+
+### 涉及文件
+
+- `_layouts/hn.html` — 添加 GA4 脚本到 Hacker News Daily 页面
+- `_layouts/homepage.html` — 替换旧版 UA 为 GA4
+- `assets/hn/hn.js` — 在 6 个交互事件处理函数中添加 `gtag()` 调用
+
+---
+
 ## 2026年2月22日 (Open Graph 分享页面)
 
 为每条新闻生成独立的 OG 分享页面（`hackernews/share/{story_id}.html`），包含 Open Graph 和 Twitter Card meta 标签，实现在 Line、Slack、Twitter 等平台分享时显示富媒体预览卡片（标题、描述、图片）。分享页面会自动重定向到对应的 daily page 锚点。
