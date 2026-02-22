@@ -548,9 +548,10 @@
     var list = document.querySelector('.hn-list');
     if (!list) return;
 
-    // Inject collapse button into each card
+    // Inject collapse button into each card (skip cards with hn-no-collapse)
     var cards = list.querySelectorAll('.hn-card');
     cards.forEach(function (card) {
+      if (card.classList.contains('hn-no-collapse')) return;
       var body = card.querySelector('.hn-body');
       if (!body) return;
       var btn = document.createElement('button');

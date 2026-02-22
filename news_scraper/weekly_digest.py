@@ -247,8 +247,8 @@ def render_weekly_digest(
         nav_html += "</div>"
         lines.append(nav_html)
 
-    # Subtitle with stats
-    lines.append(f"<p class='hn-subtitle'>{date_range} · <b>{total_pool}</b> unique stories</p>")
+    # Subtitle with stats + Trends link
+    lines.append(f"<p class='hn-subtitle'>{date_range} · <b>{total_pool}</b> unique stories · <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a></p>")
 
     lines.append("<hr class='hn-rule'/>")
     lines.append("<div class='hn-list'>")
@@ -267,21 +267,26 @@ def render_weekly_digest(
         hn_id = hn.get("id", "")
         id_attr = f" id='story-{hn_id}'" if hn_id else ""
 
-        lines.append(f"<div class='hn-card hn-card-compact'{id_attr} data-tags='{tags_data}'>")
+        lines.append(f"<div class='hn-card hn-card-compact hn-no-collapse'{id_attr} data-tags='{tags_data}'>")
         lines.append("<div class='hn-body'>")
 
         hn_desc = hn.get("descendants")
         comments_url = hn.get("comments_url", "")
 
-        # Title row with sequence number and daily page link icon
-        daily_icon = ""
+        # Title row: title links to daily page anchor, 🔗 icon links to original article
+        title_link = ""
         if page_url and anchor:
             daily_link = f"{page_url}#{anchor}"
-            daily_icon = f" <a class='hn-daily-link' href='{daily_link}' title='View in daily page'>&#128279;</a>"
+            title_link = f"<a class='hn-top-title-link' href='{daily_link}'>{title_en}</a>"
+        else:
+            title_link = title_en
+        original_icon = ""
+        if url:
+            original_icon = f" <a class='hn-daily-link' href='{url}' target='_blank' rel='noopener noreferrer' title='Read original article'>&#128279;</a>"
         lines.append(
             f"<p class='hn-title'>({i}) "
-            f"<a href='{url}' target='_blank' rel='noopener noreferrer'>{title_en}</a>"
-            f"{daily_icon}"
+            f"{title_link}"
+            f"{original_icon}"
             f"</p>"
         )
 
