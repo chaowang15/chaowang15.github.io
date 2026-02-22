@@ -4,16 +4,16 @@
     "source": "https://news.ycombinator.com/",
     "api": "https://github.com/HackerNews/API",
     "count_requested": 50,
-    "count_written": 49,
-    "reused_same_day": 0,
-    "reused_cross_day": 30,
-    "new_llm_enriched": 18,
-    "scrape_time_display": "06:26, February 22, 2026 (PST)",
+    "count_written": 66,
+    "reused_same_day": 32,
+    "reused_cross_day": 0,
+    "new_llm_enriched": 17,
+    "scrape_time_display": "10:31, February 22, 2026 (PST)",
     "timezone": "America/Los_Angeles",
     "date_dir": "2026/02/22",
     "content_date": "2026-02-22",
-    "run_time_local": "06:26, February 22, 2026 (PST)",
-    "run_time_utc": "2026-02-22 14:26:51 UTC",
+    "run_time_local": "10:31, February 22, 2026 (PST)",
+    "run_time_utc": "2026-02-22 18:31:32 UTC",
     "incremental": true,
     "stories_max": 100
   },
@@ -30,8 +30,8 @@
         "id": 47091419,
         "type": "story",
         "by": "LorenDB",
-        "score": 2125,
-        "descendants": 707,
+        "score": 2145,
+        "descendants": 715,
         "time": 1771610331,
         "comments_url": "https://news.ycombinator.com/item?id=47091419"
       },
@@ -52,14 +52,13 @@
         "id": 47098245,
         "type": "story",
         "by": "ColinWright",
-        "score": 1340,
-        "descendants": 457,
+        "score": 1379,
+        "descendants": 469,
         "time": 1771657578,
         "comments_url": "https://news.ycombinator.com/item?id=47098245"
       },
       "tags": [
-        "Privacy",
-        "Data"
+        "Privacy"
       ]
     },
     {
@@ -74,14 +73,13 @@
         "id": 47106686,
         "type": "story",
         "by": "vinhnx",
-        "score": 691,
-        "descendants": 433,
+        "score": 800,
+        "descendants": 513,
         "time": 1771720145,
         "comments_url": "https://news.ycombinator.com/item?id=47106686"
       },
       "tags": [
-        "AI",
-        "Programming"
+        "AI"
       ]
     },
     {
@@ -96,14 +94,13 @@
         "id": 47061614,
         "type": "story",
         "by": "spzb",
-        "score": 610,
-        "descendants": 332,
+        "score": 690,
+        "descendants": 353,
         "time": 1771426618,
         "comments_url": "https://news.ycombinator.com/item?id=47061614"
       },
       "tags": [
-        "Science",
-        "Education"
+        "Science"
       ]
     },
     {
@@ -139,14 +136,34 @@
         "id": 47096253,
         "type": "story",
         "by": "Cyphase",
-        "score": 341,
-        "descendants": 778,
+        "score": 374,
+        "descendants": 839,
         "time": 1771635389,
         "comments_url": "https://news.ycombinator.com/item?id=47096253"
       },
       "tags": [
-        "AI",
-        "Design"
+        "AI"
+      ]
+    },
+    {
+      "title_en": "Attention Media ≠ Social Networks",
+      "url": "https://susam.net/attention-media-vs-social-networks.html",
+      "title_zh": "注意力媒体与社交网络的区别",
+      "created_display": "Created: Feb 22, 2026 / 04:36 PT",
+      "image_url": null,
+      "summary_en": "Attention media are engineered to maximize engagement, while social networks prioritize network effects and user-generated content.",
+      "summary_zh": "注意力媒体被设计来最大化参与度，而社交网络以网络效应和用户生成内容为核心。本文探讨了对出版商、开发者和平台设计的影响，强调信任、盈利模式与内容韧性等方面的后果。",
+      "hn": {
+        "id": 47110515,
+        "type": "story",
+        "by": "susam",
+        "score": 343,
+        "descendants": 151,
+        "time": 1771763806,
+        "comments_url": "https://news.ycombinator.com/item?id=47110515"
+      },
+      "tags": [
+        "Web"
       ]
     },
     {
@@ -161,8 +178,8 @@
         "id": 47104667,
         "type": "story",
         "by": "xaskasdf",
-        "score": 292,
-        "descendants": 67,
+        "score": 337,
+        "descendants": 88,
         "time": 1771707450,
         "comments_url": "https://news.ycombinator.com/item?id=47104667"
       },
@@ -170,28 +187,6 @@
         "Show HN",
         "AI",
         "Hardware"
-      ]
-    },
-    {
-      "title_en": "AI uBlock Blacklist",
-      "url": "https://github.com/alvi-se/ai-ublock-blacklist",
-      "title_zh": "AI 版 uBlock 黑名单",
-      "created_display": "Created: Feb 21, 2026 / 00:10 PT",
-      "image_url": "https://opengraph.githubassets.com/19f1634736812f6482861569ec755a58a16569e81f8dfe6c3cb8cec7701a6740/alvi-se/ai-ublock-blacklist",
-      "summary_en": "This repository curates ad-blocking filters leveraging AI to identify and block content that resembles ads or trackers, aiming to improve the effectiveness of ad blockers in AI-enabled browsing.",
-      "summary_zh": "该仓库提供用于 uBlock Origin 等广告拦截器的 AI 驱动过滤清单，旨在更准确地识别并屏蔽与 AI 相关的广告和跟踪。",
-      "hn": {
-        "id": 47098582,
-        "type": "story",
-        "by": "rdmuser",
-        "score": 258,
-        "descendants": 112,
-        "time": 1771661449,
-        "comments_url": "https://news.ycombinator.com/item?id=47098582"
-      },
-      "tags": [
-        "AI",
-        "Open Source"
       ]
     },
     {
@@ -206,16 +201,58 @@
         "id": 47103661,
         "type": "story",
         "by": "beAroundHere",
-        "score": 243,
-        "descendants": 120,
+        "score": 332,
+        "descendants": 195,
         "time": 1771700840,
         "comments_url": "https://news.ycombinator.com/item?id=47103661"
       },
       "tags": [
         "AI",
         "Hardware",
-        "Energy",
-        "Privacy"
+        "Privacy",
+        "Energy"
+      ]
+    },
+    {
+      "title_en": "AI uBlock Blacklist",
+      "url": "https://github.com/alvi-se/ai-ublock-blacklist",
+      "title_zh": "AI 版 uBlock 黑名单",
+      "created_display": "Created: Feb 21, 2026 / 00:10 PT",
+      "image_url": "https://opengraph.githubassets.com/19f1634736812f6482861569ec755a58a16569e81f8dfe6c3cb8cec7701a6740/alvi-se/ai-ublock-blacklist",
+      "summary_en": "This repository curates ad-blocking filters leveraging AI to identify and block content that resembles ads or trackers, aiming to improve the effectiveness of ad blockers in AI-enabled browsing.",
+      "summary_zh": "该仓库提供用于 uBlock Origin 等广告拦截器的 AI 驱动过滤清单，旨在更准确地识别并屏蔽与 AI 相关的广告和跟踪。",
+      "hn": {
+        "id": 47098582,
+        "type": "story",
+        "by": "rdmuser",
+        "score": 267,
+        "descendants": 114,
+        "time": 1771661449,
+        "comments_url": "https://news.ycombinator.com/item?id=47098582"
+      },
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title_en": "Gamedate – A site to revive dead multiplayer games",
+      "url": "https://gamedate.org/",
+      "title_zh": "Gamedate：一个让已停运的多人游戏重获新生的平台",
+      "created_display": "Created: Feb 20, 2026 / 16:44 PT",
+      "image_url": null,
+      "summary_en": "Gamedate provides a venue for reviving abandoned multiplayer games by coordinating communities, matchmaking, and mods around legacy titles. It highlights community-driven preservation as a way to extend the life of classic games and reduce waste.",
+      "summary_zh": "Gamedate 为复兴已停运的多人游戏提供平台，帮助社区组织、重建匹配与模组，让经典作品重新活跃。此举体现通过社区力量延长游戏生命、降低资源浪费的趋势。",
+      "hn": {
+        "id": 47096167,
+        "type": "story",
+        "by": "msuniverse2026",
+        "score": 263,
+        "descendants": 38,
+        "time": 1771634668,
+        "comments_url": "https://news.ycombinator.com/item?id=47096167"
+      },
+      "tags": [
+        "Gaming"
       ]
     },
     {
@@ -230,37 +267,14 @@
         "id": 47101171,
         "type": "story",
         "by": "phront",
-        "score": 222,
-        "descendants": 216,
+        "score": 250,
+        "descendants": 251,
         "time": 1771684336,
         "comments_url": "https://news.ycombinator.com/item?id=47101171"
       },
       "tags": [
         "Hardware",
-        "Business",
-        "Finance"
-      ]
-    },
-    {
-      "title_en": "Parse, Don't Validate and Type-Driven Design in Rust",
-      "url": "https://www.harudagondi.space/blog/parse-dont-validate-and-type-driven-design-in-rust/",
-      "title_zh": "Rust 的“解析优先”与类型驱动设计",
-      "created_display": "Created: Feb 21, 2026 / 11:40 PT",
-      "image_url": "https://www.harudagondi.space/uploads/parse-dont-validate/tingey-injury-law-firm-veNb0DDegzE-unsplash.jpg",
-      "summary_en": "Promotes parsing-first validation and type-driven design in Rust, arguing that the right types should encode invariants and that parsing should produce clean, well-formed data. The approach leverages Rust’s strong type system—newtypes, enums, and type-level guarantees—to reduce runtime validation and make API boundaries safer.",
-      "summary_zh": "提倡在 Rust 中采用解析优先的验证和类型驱动设计，即通过类型对不变量进行编码，让解析直接产出正确的数据结构。依托强类型系统（新类型、枚举、类型级保证）来减少运行时校验，使 API 边界更安全。",
-      "hn": {
-        "id": 47103931,
-        "type": "story",
-        "by": "todsacerdoti",
-        "score": 220,
-        "descendants": 55,
-        "time": 1771702806,
-        "comments_url": "https://news.ycombinator.com/item?id=47103931"
-      },
-      "tags": [
-        "Programming",
-        "Design"
+        "Business"
       ]
     },
     {
@@ -275,14 +289,58 @@
         "id": 47100232,
         "type": "story",
         "by": "tosh",
-        "score": 207,
-        "descendants": 115,
+        "score": 241,
+        "descendants": 129,
         "time": 1771677472,
         "comments_url": "https://news.ycombinator.com/item?id=47100232"
       },
       "tags": [
         "AI",
         "Hardware"
+      ]
+    },
+    {
+      "title_en": "Parse, Don't Validate and Type-Driven Design in Rust",
+      "url": "https://www.harudagondi.space/blog/parse-dont-validate-and-type-driven-design-in-rust/",
+      "title_zh": "Rust 的“解析优先”与类型驱动设计",
+      "created_display": "Created: Feb 21, 2026 / 11:40 PT",
+      "image_url": "https://www.harudagondi.space/uploads/parse-dont-validate/tingey-injury-law-firm-veNb0DDegzE-unsplash.jpg",
+      "summary_en": "Promotes parsing-first validation and type-driven design in Rust, arguing that the right types should encode invariants and that parsing should produce clean, well-formed data. The approach leverages Rust’s strong type system—newtypes, enums, and type-level guarantees—to reduce runtime validation and make API boundaries safer.",
+      "summary_zh": "提倡在 Rust 中采用解析优先的验证和类型驱动设计，即通过类型对不变量进行编码，让解析直接产出正确的数据结构。依托强类型系统（新类型、枚举、类型级保证）来减少运行时校验，使 API 边界更安全。",
+      "hn": {
+        "id": 47103931,
+        "type": "story",
+        "by": "todsacerdoti",
+        "score": 235,
+        "descendants": 65,
+        "time": 1771702806,
+        "comments_url": "https://news.ycombinator.com/item?id=47103931"
+      },
+      "tags": [
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "Iran students stage first large anti-government protests since deadly crackdown",
+      "url": "https://www.bbc.com/news/articles/c5yj2kzkrj0o",
+      "title_zh": "伊朗学生在致命镇压后首次举行大规模抗议",
+      "created_display": "Created: Feb 22, 2026 / 05:59 PT",
+      "image_url": "https://ichef.bbci.co.uk/news/1024/branded_news/a75b/live/6cc1b4f0-0fd9-11f1-b048-c9424b2cf5fd.jpg",
+      "summary_en": "Iranian students have staged sizable anti-government demonstrations, marking the first major protests since a deadly crackdown. The movement underscores rising student activism and the delicate balance of security measures and civil dissent. The tech angle includes monitoring, internet access controls, and how digital tools shape protest organization.",
+      "summary_zh": "伊朗学生在致命镇压后首次举行大规模抗议，标志着抗议热潮的延续。这一行动凸显了学生群体在政治变局中的积极作用，以及政府维稳的挑战。数字工具在组织与监控方面的作用也成为关注点。",
+      "hn": {
+        "id": 47111067,
+        "type": "story",
+        "by": "tartoran",
+        "score": 224,
+        "descendants": 272,
+        "time": 1771768780,
+        "comments_url": "https://news.ycombinator.com/item?id=47111067"
+      },
+      "tags": [
+        "Politics",
+        "Security",
+        "Education"
       ]
     },
     {
@@ -308,27 +366,6 @@
       ]
     },
     {
-      "title_en": "Gamedate – A site to revive dead multiplayer games",
-      "url": "https://gamedate.org/",
-      "title_zh": "Gamedate：一个让已停运的多人游戏重获新生的平台",
-      "created_display": "Created: Feb 20, 2026 / 16:44 PT",
-      "image_url": null,
-      "summary_en": "Gamedate provides a venue for reviving abandoned multiplayer games by coordinating communities, matchmaking, and mods around legacy titles. It highlights community-driven preservation as a way to extend the life of classic games and reduce waste.",
-      "summary_zh": "Gamedate 为复兴已停运的多人游戏提供平台，帮助社区组织、重建匹配与模组，让经典作品重新活跃。此举体现通过社区力量延长游戏生命、降低资源浪费的趋势。",
-      "hn": {
-        "id": 47096167,
-        "type": "story",
-        "by": "msuniverse2026",
-        "score": 187,
-        "descendants": 26,
-        "time": 1771634668,
-        "comments_url": "https://news.ycombinator.com/item?id=47096167"
-      },
-      "tags": [
-        "Gaming"
-      ]
-    },
-    {
       "title_en": "A16z partner says that the theory that we’ll vibe code everything is wrong",
       "url": "https://www.aol.com/articles/a16z-partner-says-theory-well-050150534.html",
       "title_zh": "A16z 合伙人称，用代码解决一切的理论是错误的",
@@ -340,14 +377,100 @@
         "id": 47095105,
         "type": "story",
         "by": "paulpauper",
-        "score": 167,
-        "descendants": 228,
+        "score": 179,
+        "descendants": 252,
         "time": 1771627678,
         "comments_url": "https://news.ycombinator.com/item?id=47095105"
       },
       "tags": [
-        "Business",
+        "Business"
+      ]
+    },
+    {
+      "title_en": "Evidence of the bouba-kiki effect in naïve baby chicks",
+      "url": "https://www.science.org/doi/10.1126/science.adq7188",
+      "title_zh": "未经训练的小鸡对 Bouba–Kiki 效应的证据",
+      "created_display": "Created: Feb 21, 2026 / 13:51 PT",
+      "image_url": null,
+      "summary_en": "The bouba–kiki effect appears in naïve chicks, suggesting early cross-modal mappings are not unique to humans. The finding informs debates on perceptual biases, cognition, and language evolution across species.",
+      "summary_zh": "在未经训练的小鸡中也观察到 Bouba–Kiki 效应，表明早期感知-形象映射并非人类独有。此发现为跨物种的感知偏好、认知与语言起源研究提供证据与启示。",
+      "hn": {
+        "id": 47105198,
+        "type": "story",
+        "by": "suddenlybananas",
+        "score": 177,
+        "descendants": 55,
+        "time": 1771710718,
+        "comments_url": "https://news.ycombinator.com/item?id=47105198"
+      },
+      "tags": [
+        "Science"
+      ]
+    },
+    {
+      "title_en": "Back to FreeBSD: Part 1",
+      "url": "https://hypha.pub/back-to-freebsd-part-1",
+      "title_zh": "重返 FreeBSD：第一部分",
+      "created_display": "Created: Feb 21, 2026 / 23:16 PT",
+      "image_url": null,
+      "summary_en": "An introduction to FreeBSD's design philosophy, highlighting performance, security, and advanced networking features. The piece touches on recent updates and the ecosystem, outlining scenarios where FreeBSD remains compelling for modern workloads.",
+      "summary_zh": "本文介绍 FreeBSD 的设计哲学，强调其性能、安全性与先进网络特性。内容涵盖近期更新与生态系统，勾勒出在现代工作负载中 FreeBSD 仍具吸引力的场景。",
+      "hn": {
+        "id": 47108989,
+        "type": "story",
+        "by": "enz",
+        "score": 171,
+        "descendants": 80,
+        "time": 1771744587,
+        "comments_url": "https://news.ycombinator.com/item?id=47108989"
+      },
+      "tags": [
+        "Open Source",
+        "Security"
+      ]
+    },
+    {
+      "title_en": "Japanese Woodblock Print Search",
+      "url": "https://ukiyo-e.org/",
+      "title_zh": "日本浮世绘检索",
+      "created_display": "Created: Feb 21, 2026 / 19:18 PT",
+      "image_url": "https://ukiyo-e.org/images/ja.svg",
+      "summary_en": "A dedicated search tool for Japanese woodblock prints collects metadata and high-resolution scans of ukiyo-e. The engine makes it easy to browse thousands of prints, explore artists and studios, and trace provenance.",
+      "summary_zh": "这是一个专门检索日本浮世绘的工具，汇集了大量作品的元数据与高分辨率影像。该检索支持研究者与爱好者轻松浏览数千幅作品，了解艺术家、流派与出处，推动相关研究与收藏工作。",
+      "hn": {
+        "id": 47107781,
+        "type": "story",
+        "by": "curmudgeon22",
+        "score": 170,
+        "descendants": 26,
+        "time": 1771730316,
+        "comments_url": "https://news.ycombinator.com/item?id=47107781"
+      },
+      "tags": [
         "Culture"
+      ]
+    },
+    {
+      "title_en": "Two Bits Are Better Than One: making bloom filters 2x more accurate",
+      "url": "https://floedb.ai/blog/two-bits-are-better-than-one-making-bloom-filters-2x-more-accurate",
+      "title_zh": "两个比特比一个更好：让布隆过滤器精确度提升两倍",
+      "created_display": "Created: Feb 17, 2026 / 03:01 PT",
+      "image_url": "https://floedb.ai/hubfs/BlogCover/bloom_filter.png",
+      "summary_en": "Two bits per Bloom filter cell can halve false positives compared to the traditional single-bit version. The approach trades a modest memory increase for much higher accuracy, benefiting large caches, search systems, and network infrastructure.",
+      "summary_zh": "布隆过滤器的每个单元用两个比特即可将误报率降至原来的一半左右。该做法在增加少量内存开销的同时显著提升准确性，适用于大规模缓存、搜索系统和网络基础设施。",
+      "hn": {
+        "id": 47046070,
+        "type": "story",
+        "by": "matheusalmeida",
+        "score": 168,
+        "descendants": 24,
+        "time": 1771326069,
+        "comments_url": "https://news.ycombinator.com/item?id=47046070"
+      },
+      "tags": [
+        "Programming",
+        "Data",
+        "DevOps"
       ]
     },
     {
@@ -362,14 +485,35 @@
         "id": 47094877,
         "type": "story",
         "by": "frou_dh",
-        "score": 163,
+        "score": 168,
         "descendants": 89,
         "time": 1771626476,
         "comments_url": "https://news.ycombinator.com/item?id=47094877"
       },
       "tags": [
-        "Programming",
-        "DevOps"
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "Toyota’s hydrogen-powered Mirai has experienced rapid depreciation",
+      "url": "https://carbuzz.com/toyota-mirai-massive-depreciation-one-year/",
+      "title_zh": "丰田氢动力 Mirai 的快速折旧",
+      "created_display": "Created: Feb 21, 2026 / 10:09 PT",
+      "image_url": "https://static0.carbuzzimages.com/wordpress/wp-content/uploads/2025/10/toyota-mirai-main.png?w=1600&h=900&fit=crop",
+      "summary_en": "Toyota Mirai's hydrogen-powered car has seen steep depreciation, signaling market headwinds for hydrogen tech and shifting consumer demand. The story warns about the risk of early tech bets in auto propulsion.",
+      "summary_zh": "丰田氢动力 Mirai 的折旧速度迅速，显示出氢能源汽车技术路线的市场挑战与消费者需求的转变。警示未来汽车推进中的早期技术投资风险。",
+      "hn": {
+        "id": 47103136,
+        "type": "story",
+        "by": "iancmceachern",
+        "score": 167,
+        "descendants": 436,
+        "time": 1771697364,
+        "comments_url": "https://news.ycombinator.com/item?id=47103136"
+      },
+      "tags": [
+        "Business",
+        "Energy"
       ]
     },
     {
@@ -390,54 +534,9 @@
         "comments_url": "https://news.ycombinator.com/item?id=47046858"
       },
       "tags": [
-        "Energy",
-        "Culture",
         "Open Source",
+        "Energy",
         "Hardware"
-      ]
-    },
-    {
-      "title_en": "Evidence of the bouba-kiki effect in naïve baby chicks",
-      "url": "https://www.science.org/doi/10.1126/science.adq7188",
-      "title_zh": "未经训练的小鸡对 Bouba–Kiki 效应的证据",
-      "created_display": "Created: Feb 21, 2026 / 13:51 PT",
-      "image_url": null,
-      "summary_en": "The bouba–kiki effect appears in naïve chicks, suggesting early cross-modal mappings are not unique to humans. The finding informs debates on perceptual biases, cognition, and language evolution across species.",
-      "summary_zh": "在未经训练的小鸡中也观察到 Bouba–Kiki 效应，表明早期感知-形象映射并非人类独有。此发现为跨物种的感知偏好、认知与语言起源研究提供证据与启示。",
-      "hn": {
-        "id": 47105198,
-        "type": "story",
-        "by": "suddenlybananas",
-        "score": 159,
-        "descendants": 48,
-        "time": 1771710718,
-        "comments_url": "https://news.ycombinator.com/item?id=47105198"
-      },
-      "tags": [
-        "Science",
-        "Education"
-      ]
-    },
-    {
-      "title_en": "Toyota’s hydrogen-powered Mirai has experienced rapid depreciation",
-      "url": "https://carbuzz.com/toyota-mirai-massive-depreciation-one-year/",
-      "title_zh": "丰田氢动力 Mirai 的快速折旧",
-      "created_display": "Created: Feb 21, 2026 / 10:09 PT",
-      "image_url": "https://static0.carbuzzimages.com/wordpress/wp-content/uploads/2025/10/toyota-mirai-main.png?w=1600&h=900&fit=crop",
-      "summary_en": "Toyota Mirai's hydrogen-powered car has seen steep depreciation, signaling market headwinds for hydrogen tech and shifting consumer demand. The story warns about the risk of early tech bets in auto propulsion.",
-      "summary_zh": "丰田氢动力 Mirai 的折旧速度迅速，显示出氢能源汽车技术路线的市场挑战与消费者需求的转变。警示未来汽车推进中的早期技术投资风险。",
-      "hn": {
-        "id": 47103136,
-        "type": "story",
-        "by": "iancmceachern",
-        "score": 158,
-        "descendants": 375,
-        "time": 1771697364,
-        "comments_url": "https://news.ycombinator.com/item?id=47103136"
-      },
-      "tags": [
-        "Business",
-        "Energy"
       ]
     },
     {
@@ -458,53 +557,28 @@
         "comments_url": "https://news.ycombinator.com/item?id=47059147"
       },
       "tags": [
-        "Programming",
-        "Design"
+        "Programming"
       ]
     },
     {
-      "title_en": "Japanese Woodblock Print Search",
-      "url": "https://ukiyo-e.org/",
-      "title_zh": "日本浮世绘检索",
-      "created_display": "Created: Feb 21, 2026 / 19:18 PT",
-      "image_url": "https://ukiyo-e.org/images/ja.svg",
-      "summary_en": "A dedicated search tool for Japanese woodblock prints collects metadata and high-resolution scans of ukiyo-e. The engine makes it easy to browse thousands of prints, explore artists and studios, and trace provenance.",
-      "summary_zh": "这是一个专门检索日本浮世绘的工具，汇集了大量作品的元数据与高分辨率影像。该检索支持研究者与爱好者轻松浏览数千幅作品，了解艺术家、流派与出处，推动相关研究与收藏工作。",
+      "title_en": "What Is a Database Transaction?",
+      "url": "https://planetscale.com/blog/database-transactions",
+      "title_zh": "数据库事务是什么",
+      "created_display": "Created: Feb 22, 2026 / 04:28 PT",
+      "image_url": "https://planetscale.com/assets/database-transactions-social-C4_q_qA5.png",
+      "summary_en": "A database transaction is a sequence of operations treated as a single unit, guaranteeing atomicity, consistency, isolation, and durability (ACID). It matters for data integrity under concurrent workloads and in error handling, with practical examples like transfers or multi-step updates.",
+      "summary_zh": "数据库事务是一组作为一个原子单元执行的操作，确保原子性、一致性、隔离性和持久性（ACID）。在并发工作负载和错误处理场景中，它对数据完整性至关重要，通过诸如转账或多步更新等示例直观展示。",
       "hn": {
-        "id": 47107781,
+        "id": 47110473,
         "type": "story",
-        "by": "curmudgeon22",
+        "by": "0x54MUR41",
         "score": 146,
-        "descendants": 24,
-        "time": 1771730316,
-        "comments_url": "https://news.ycombinator.com/item?id=47107781"
+        "descendants": 23,
+        "time": 1771763321,
+        "comments_url": "https://news.ycombinator.com/item?id=47110473"
       },
       "tags": [
-        "Web",
-        "Culture"
-      ]
-    },
-    {
-      "title_en": "Two Bits Are Better Than One: making bloom filters 2x more accurate",
-      "url": "https://floedb.ai/blog/two-bits-are-better-than-one-making-bloom-filters-2x-more-accurate",
-      "title_zh": "两个比特比一个更好：让布隆过滤器精确度提升两倍",
-      "created_display": "Created: Feb 17, 2026 / 03:01 PT",
-      "image_url": "https://floedb.ai/hubfs/BlogCover/bloom_filter.png",
-      "summary_en": "Two bits per Bloom filter cell can halve false positives compared to the traditional single-bit version. The approach trades a modest memory increase for much higher accuracy, benefiting large caches, search systems, and network infrastructure.",
-      "summary_zh": "布隆过滤器的每个单元用两个比特即可将误报率降至原来的一半左右。该做法在增加少量内存开销的同时显著提升准确性，适用于大规模缓存、搜索系统和网络基础设施。",
-      "hn": {
-        "id": 47046070,
-        "type": "story",
-        "by": "matheusalmeida",
-        "score": 144,
-        "descendants": 22,
-        "time": 1771326069,
-        "comments_url": "https://news.ycombinator.com/item?id=47046070"
-      },
-      "tags": [
-        "Programming",
-        "Data",
-        "DevOps"
+        "Data"
       ]
     },
     {
@@ -519,8 +593,8 @@
         "id": 47106985,
         "type": "story",
         "by": "Cider9986",
-        "score": 132,
-        "descendants": 82,
+        "score": 140,
+        "descendants": 85,
         "time": 1771722497,
         "comments_url": "https://news.ycombinator.com/item?id=47106985"
       },
@@ -531,47 +605,26 @@
       ]
     },
     {
-      "title_en": "Canvas_ity: A tiny, single-header <canvas>-like 2D rasterizer for C++",
-      "url": "https://github.com/a-e-k/canvas_ity",
-      "title_zh": "Canvas_ity：一个极小、单头文件的 C++ 2D 光栅化库",
-      "created_display": "Created: Feb 21, 2026 / 10:50 PT",
-      "image_url": "https://opengraph.githubassets.com/879e1d49a48fc25627029190f08aa9a5a1b9e8476be6d585440411edfdca35a9/a-e-k/canvas_ity",
-      "summary_en": "Canvas_ity is a tiny, single-header 2D rasterizer for C++, offering a Canvas-like API with minimal dependencies. It's suitable for tiny demos, educational projects, or embedding in tools where keeping the build simple matters.",
-      "summary_zh": "Canvas_ity 是一个极小的、单头文件的 C++ 2D 光栅化库，提供类似 Canvas 的接口且依赖极少。非常适合小型演示、教学项目或需要简单构建的新工具。",
+      "title_en": "We hid backdoors in ~40MB binaries and asked AI + Ghidra to find them",
+      "url": "https://quesma.com/blog/introducing-binaryaudit/",
+      "title_zh": "我们在约 40MB 的二进制中藏入后门，并让 AI 与 Ghidra 找出它们",
+      "created_display": "Created: Feb 22, 2026 / 06:50 PT",
+      "image_url": "https://quesma.com/_astro/overall_ranking.CRL7hnOy.png",
+      "summary_en": "A research-style post reveals a deliberate backdoor in ~40MB binaries and documents the process of using AI and the Ghidra reverse-engineering suite to detect it. It underscores how automated analysis can uncover stealthy malicious payloads at binary scale. The piece offers practical lessons for red-team exercises and blue-team defenses.",
+      "summary_zh": "这篇研究式博客展示了在约 40MB 的二进制文件中有意隐藏后门的情形，并用 AI 与 Ghidra 来检测它们。说明了自动化分析在大规模二进制检测中的作用及潜在威胁。给红队演练与蓝队防御提供了实用经验教训。",
       "hn": {
-        "id": 47103506,
+        "id": 47111440,
         "type": "story",
-        "by": "PaulHoule",
-        "score": 111,
-        "descendants": 35,
-        "time": 1771699819,
-        "comments_url": "https://news.ycombinator.com/item?id=47103506"
+        "by": "jakozaur",
+        "score": 134,
+        "descendants": 53,
+        "time": 1771771844,
+        "comments_url": "https://news.ycombinator.com/item?id=47111440"
       },
       "tags": [
-        "Programming",
-        "Open Source"
-      ]
-    },
-    {
-      "title_en": "Back to FreeBSD: Part 1",
-      "url": "https://hypha.pub/back-to-freebsd-part-1",
-      "title_zh": "重返 FreeBSD：第一部分",
-      "created_display": "Created: Feb 21, 2026 / 23:16 PT",
-      "image_url": null,
-      "summary_en": "An introduction to FreeBSD's design philosophy, highlighting performance, security, and advanced networking features. The piece touches on recent updates and the ecosystem, outlining scenarios where FreeBSD remains compelling for modern workloads.",
-      "summary_zh": "本文介绍 FreeBSD 的设计哲学，强调其性能、安全性与先进网络特性。内容涵盖近期更新与生态系统，勾勒出在现代工作负载中 FreeBSD 仍具吸引力的场景。",
-      "hn": {
-        "id": 47108989,
-        "type": "story",
-        "by": "enz",
-        "score": 110,
-        "descendants": 45,
-        "time": 1771744587,
-        "comments_url": "https://news.ycombinator.com/item?id=47108989"
-      },
-      "tags": [
+        "Security",
         "Open Source",
-        "Security"
+        "AI"
       ]
     },
     {
@@ -586,8 +639,8 @@
         "id": 47098669,
         "type": "story",
         "by": "anon111332142",
-        "score": 110,
-        "descendants": 30,
+        "score": 118,
+        "descendants": 31,
         "time": 1771662396,
         "comments_url": "https://news.ycombinator.com/item?id=47098669"
       },
@@ -597,24 +650,47 @@
       ]
     },
     {
-      "title_en": "Attention Media ≠ Social Networks",
-      "url": "https://susam.net/attention-media-vs-social-networks.html",
-      "title_zh": "注意力媒体与社交网络的区别",
-      "created_display": "Created: Feb 22, 2026 / 04:36 PT",
-      "image_url": null,
-      "summary_en": "Attention media are engineered to maximize engagement, while social networks prioritize network effects and user-generated content.",
-      "summary_zh": "注意力媒体被设计来最大化参与度，而社交网络以网络效应和用户生成内容为核心。本文探讨了对出版商、开发者和平台设计的影响，强调信任、盈利模式与内容韧性等方面的后果。",
+      "title_en": "Canvas_ity: A tiny, single-header <canvas>-like 2D rasterizer for C++",
+      "url": "https://github.com/a-e-k/canvas_ity",
+      "title_zh": "Canvas_ity：一个极小、单头文件的 C++ 2D 光栅化库",
+      "created_display": "Created: Feb 21, 2026 / 10:50 PT",
+      "image_url": "https://opengraph.githubassets.com/879e1d49a48fc25627029190f08aa9a5a1b9e8476be6d585440411edfdca35a9/a-e-k/canvas_ity",
+      "summary_en": "Canvas_ity is a tiny, single-header 2D rasterizer for C++, offering a Canvas-like API with minimal dependencies. It's suitable for tiny demos, educational projects, or embedding in tools where keeping the build simple matters.",
+      "summary_zh": "Canvas_ity 是一个极小的、单头文件的 C++ 2D 光栅化库，提供类似 Canvas 的接口且依赖极少。非常适合小型演示、教学项目或需要简单构建的新工具。",
       "hn": {
-        "id": 47110515,
+        "id": 47103506,
         "type": "story",
-        "by": "susam",
-        "score": 106,
-        "descendants": 26,
-        "time": 1771763806,
-        "comments_url": "https://news.ycombinator.com/item?id=47110515"
+        "by": "PaulHoule",
+        "score": 116,
+        "descendants": 43,
+        "time": 1771699819,
+        "comments_url": "https://news.ycombinator.com/item?id=47103506"
       },
       "tags": [
-        "Culture"
+        "Programming",
+        "Open Source"
+      ]
+    },
+    {
+      "title_en": "Man accidentally gains control of 7k robot vacuums",
+      "url": "https://www.popsci.com/technology/robot-vacuum-army/",
+      "title_zh": "男子意外获得对约 7000 台扫地机器人的控制权",
+      "created_display": "Created: Feb 22, 2026 / 06:44 PT",
+      "image_url": "https://www.popsci.com/wp-content/uploads/2026/02/robot_army.jpg?quality=85&w=1200",
+      "summary_en": "A man inadvertently gains control of around 7,000 robotic vacuums, exposing how insecure IoT deployments can be weaponized or misused. The incident spotlights the need for safer defaults, firmware updates, and robust access controls in consumer robotics. It also raises questions about surveillance perimeter and botnet risk in dense deployments.",
+      "summary_zh": "一名男子在不经意间获得对约 7000 台扫地机器人的控制权，暴露了物联设备的安全漏洞。此事件凸显了对普通消费级机器人设定更安全的默认设置、固件更新与访问控制的必要性。与此同时也引发对在密集部署中的监控与僵尸网络风险的关注。",
+      "hn": {
+        "id": 47111400,
+        "type": "story",
+        "by": "Brajeshwar",
+        "score": 106,
+        "descendants": 57,
+        "time": 1771771482,
+        "comments_url": "https://news.ycombinator.com/item?id=47111400"
+      },
+      "tags": [
+        "Security",
+        "Privacy"
       ]
     },
     {
@@ -629,13 +705,14 @@
         "id": 47103945,
         "type": "story",
         "by": "akyuu",
-        "score": 98,
-        "descendants": 32,
+        "score": 102,
+        "descendants": 34,
         "time": 1771702912,
         "comments_url": "https://news.ycombinator.com/item?id=47103945"
       },
       "tags": [
         "Gaming",
+        "Data",
         "Hardware"
       ]
     },
@@ -662,6 +739,27 @@
       ]
     },
     {
+      "title_en": "Carelessness versus craftsmanship in cryptography",
+      "url": "https://blog.trailofbits.com/2026/02/18/carelessness-versus-craftsmanship-in-cryptography/",
+      "title_zh": "密码学中的粗心与匠心",
+      "created_display": "Created: Feb 18, 2026 / 04:34 PT",
+      "image_url": "https://blog.trailofbits.com/img/tob.png",
+      "summary_en": "The post contrasts sloppy cryptography with craftsmanship, arguing that secure designs come from disciplined engineering rather than quick fixes. It outlines best practices from threat modeling to rigorous verification to mitigate real-world risk.",
+      "summary_zh": "文章对比了粗心的密码学实践与匠心之作，强调安全设计来自周密的工程实践而非临时修补。提出从威胁建模到严格验证等一系列最佳实践以降低现实风险。",
+      "hn": {
+        "id": 47060334,
+        "type": "story",
+        "by": "ingve",
+        "score": 82,
+        "descendants": 16,
+        "time": 1771418092,
+        "comments_url": "https://news.ycombinator.com/item?id=47060334"
+      },
+      "tags": [
+        "Security"
+      ]
+    },
+    {
       "title_en": "Show HN: Iron-Wolf – Wolfenstein 3D source port in Rust",
       "url": "https://github.com/Ragnaroek/iron-wolf",
       "title_zh": "Show HN：Iron-Wolf——用 Rust 实现的 Wolfenstein 3D 源码移植",
@@ -680,7 +778,30 @@
       },
       "tags": [
         "Show HN",
-        "Programming"
+        "Programming",
+        "Open Source"
+      ]
+    },
+    {
+      "title_en": "Fix Your Tools",
+      "url": "https://ochagavia.nl/blog/fix-your-tools/",
+      "title_zh": "修复你的工具",
+      "created_display": "Created: Feb 22, 2026 / 08:12 PT",
+      "image_url": "https://ochagavia.nl/images/headshot.jpg",
+      "summary_en": "A pragmatic guide to auditing and repairing your development tools and workflows to boost reliability and speed.",
+      "summary_zh": "提供一个务实的指南，用于审视并修复开发工具与工作流，以提升可靠性和效率。",
+      "hn": {
+        "id": 47112174,
+        "type": "story",
+        "by": "vinhnx",
+        "score": 73,
+        "descendants": 33,
+        "time": 1771776751,
+        "comments_url": "https://news.ycombinator.com/item?id=47112174"
+      },
+      "tags": [
+        "Programming",
+        "DevOps"
       ]
     },
     {
@@ -695,35 +816,80 @@
         "id": 47051709,
         "type": "story",
         "by": "bookmtn",
-        "score": 63,
+        "score": 65,
         "descendants": 6,
         "time": 1771355617,
         "comments_url": "https://news.ycombinator.com/item?id=47051709"
       },
       "tags": [
-        "Space",
-        "Science"
+        "Science",
+        "Space"
       ]
     },
     {
-      "title_en": "Carelessness versus craftsmanship in cryptography",
-      "url": "https://blog.trailofbits.com/2026/02/18/carelessness-versus-craftsmanship-in-cryptography/",
-      "title_zh": "密码学中的粗心与匠心",
-      "created_display": "Created: Feb 18, 2026 / 04:34 PT",
-      "image_url": "https://blog.trailofbits.com/img/tob.png",
-      "summary_en": "The post contrasts sloppy cryptography with craftsmanship, arguing that secure designs come from disciplined engineering rather than quick fixes. It outlines best practices from threat modeling to rigorous verification to mitigate real-world risk.",
-      "summary_zh": "文章对比了粗心的密码学实践与匠心之作，强调安全设计来自周密的工程实践而非临时修补。提出从威胁建模到严格验证等一系列最佳实践以降低现实风险。",
+      "title_en": "Xweather Live – Interactive global vector weather map",
+      "url": "https://live.xweather.com/",
+      "title_zh": "Xweather Live：全球矢量天气地图的交互式体验",
+      "created_display": "Created: Feb 22, 2026 / 07:12 PT",
+      "image_url": "https://live.xweather.com/favicon.ico",
+      "summary_en": "Xweather Live presents an interactive, vector-based global weather map that updates in real time. By using vector tiles, it can render smooth zoomable weather data across scales while keeping file size modest. The project highlights how vector-based weather visualization can offer scalable clarity for dashboards and research.",
+      "summary_zh": "Xweather Live 提供一个交互式的全球矢量天气地图，支持实时更新。通过矢量切片实现，可以在不同尺度下平滑缩放并保持较小的文件尺寸。该项目凸显了矢量化天气可视化在仪表盘和研究中的可扩展清晰度。",
       "hn": {
-        "id": 47060334,
+        "id": 47111626,
         "type": "story",
-        "by": "ingve",
-        "score": 54,
-        "descendants": 11,
-        "time": 1771418092,
-        "comments_url": "https://news.ycombinator.com/item?id=47060334"
+        "by": "unstyledcontent",
+        "score": 61,
+        "descendants": 18,
+        "time": 1771773135,
+        "comments_url": "https://news.ycombinator.com/item?id=47111626"
       },
       "tags": [
-        "Security"
+        "Web",
+        "Data"
+      ]
+    },
+    {
+      "title_en": "How I launched 3 consoles and found true love at Babbage's store no. 9 (2013)",
+      "url": "https://arstechnica.com/gadgets/2013/01/how-i-launched-3-consoles-and-found-true-love-at-babbages-store-no-9/",
+      "title_zh": "我在 Babbage 的第9号门店发布三款主机并找到真爱的经历（2013）",
+      "created_display": "Created: Feb 19, 2026 / 07:14 PT",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2012/12/babb-intro-1076x648.jpg",
+      "summary_en": "A personal recollection from 2013 about launching three consoles at a specific Babbage’s store and the ensuing romance. The piece offers a human-scale glimpse into retail culture and hardware launches.",
+      "summary_zh": "作者在 2013 年的个人回忆，讲述在 Babbage 的门店发布三款主机并因此邂逅真爱。文章提供了对零售文化与硬件发布背后的人情味的观察。",
+      "hn": {
+        "id": 47074671,
+        "type": "story",
+        "by": "zepearl",
+        "score": 57,
+        "descendants": 21,
+        "time": 1771514058,
+        "comments_url": "https://news.ycombinator.com/item?id=47074671"
+      },
+      "tags": [
+        "Culture",
+        "Entertainment",
+        "Hardware"
+      ]
+    },
+    {
+      "title_en": "ReferenceFinder: Find coordinates on a piece of paper with only folds",
+      "url": "https://mutsuntsai.github.io/reference-finder/",
+      "title_zh": "ReferenceFinder：仅用折痕在纸上定位坐标",
+      "created_display": "Created: Feb 18, 2026 / 20:27 PT",
+      "image_url": null,
+      "summary_en": "ReferenceFinder demonstrates a method to locate coordinates on paper using only folds, without any marks. It showcases principles of computational origami with potential applications in portable navigation, AR calibration, or lightweight geospatial encoding.",
+      "summary_zh": "ReferenceFinder 展示了一种仅靠折痕在纸上定位坐标的方法，无需任何标记。它体现了计算机折纸的原理，潜在应用包括便携导航、增强现实标定或轻量级地理编码。",
+      "hn": {
+        "id": 47069918,
+        "type": "story",
+        "by": "icwtyjj",
+        "score": 53,
+        "descendants": 7,
+        "time": 1771475243,
+        "comments_url": "https://news.ycombinator.com/item?id=47069918"
+      },
+      "tags": [
+        "Science"
       ]
     },
     {
@@ -744,29 +910,29 @@
         "comments_url": "https://news.ycombinator.com/item?id=47110495"
       },
       "tags": [
+        "AI",
         "Programming"
       ]
     },
     {
-      "title_en": "What Is a Database Transaction?",
-      "url": "https://planetscale.com/blog/database-transactions",
-      "title_zh": "数据库事务是什么",
-      "created_display": "Created: Feb 22, 2026 / 04:28 PT",
-      "image_url": "https://planetscale.com/assets/database-transactions-social-C4_q_qA5.png",
-      "summary_en": "A database transaction is a sequence of operations treated as a single unit, guaranteeing atomicity, consistency, isolation, and durability (ACID). It matters for data integrity under concurrent workloads and in error handling, with practical examples like transfers or multi-step updates.",
-      "summary_zh": "数据库事务是一组作为一个原子单元执行的操作，确保原子性、一致性、隔离性和持久性（ACID）。在并发工作负载和错误处理场景中，它对数据完整性至关重要，通过诸如转账或多步更新等示例直观展示。",
+      "title_en": "Unreal numbers",
+      "url": "https://lcamtuf.substack.com/p/unreal-numbers",
+      "title_zh": "虚幻的数字",
+      "created_display": "Created: Feb 17, 2026 / 04:40 PT",
+      "image_url": null,
+      "summary_en": "A provocative take on numbers that feel unreal—non-intuitive representations and mathematical abstractions shaping computing and data. The piece challenges conventional intuition about what numbers mean in practice.",
+      "summary_zh": "对“虚幻的数字”进行挑衅性探讨：在计算与数据处理中，非直觉的表示与数学抽象如何塑形现实。文章挑战了我们对于数字在实际中的意义的直觉。",
       "hn": {
-        "id": 47110473,
+        "id": 47046853,
         "type": "story",
-        "by": "0x54MUR41",
-        "score": 46,
-        "descendants": 6,
-        "time": 1771763321,
-        "comments_url": "https://news.ycombinator.com/item?id=47110473"
+        "by": "surprisetalk",
+        "score": 51,
+        "descendants": 19,
+        "time": 1771332010,
+        "comments_url": "https://news.ycombinator.com/item?id=47046853"
       },
       "tags": [
-        "Programming",
-        "Data"
+        "Science"
       ]
     },
     {
@@ -791,46 +957,92 @@
       ]
     },
     {
-      "title_en": "How I launched 3 consoles and found true love at Babbage's store no. 9 (2013)",
-      "url": "https://arstechnica.com/gadgets/2013/01/how-i-launched-3-consoles-and-found-true-love-at-babbages-store-no-9/",
-      "title_zh": "我在 Babbage 的第9号门店发布三款主机并找到真爱的经历（2013）",
-      "created_display": "Created: Feb 19, 2026 / 07:14 PT",
-      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2012/12/babb-intro-1076x648.jpg",
-      "summary_en": "A personal recollection from 2013 about launching three consoles at a specific Babbage’s store and the ensuing romance. The piece offers a human-scale glimpse into retail culture and hardware launches.",
-      "summary_zh": "作者在 2013 年的个人回忆，讲述在 Babbage 的门店发布三款主机并因此邂逅真爱。文章提供了对零售文化与硬件发布背后的人情味的观察。",
-      "hn": {
-        "id": 47074671,
-        "type": "story",
-        "by": "zepearl",
-        "score": 37,
-        "descendants": 12,
-        "time": 1771514058,
-        "comments_url": "https://news.ycombinator.com/item?id=47074671"
-      },
-      "tags": [
-        "Hardware",
-        "Culture"
-      ]
-    },
-    {
-      "title_en": "Unreal Numbers",
-      "url": "https://lcamtuf.substack.com/p/unreal-numbers",
-      "title_zh": "虚幻的数字",
-      "created_display": "Created: Feb 17, 2026 / 04:40 PT",
+      "title_en": "The Four-Color Theorem 1852–1976",
+      "url": "https://www.ams.org/journals/notices/202603/noti3305/noti3305.html",
+      "title_zh": "四色定理：1852–1976 的历程",
+      "created_display": "Created: Feb 21, 2026 / 04:32 PT",
       "image_url": null,
-      "summary_en": "A provocative take on numbers that feel unreal—non-intuitive representations and mathematical abstractions shaping computing and data. The piece challenges conventional intuition about what numbers mean in practice.",
-      "summary_zh": "对“虚幻的数字”进行挑衅性探讨：在计算与数据处理中，非直觉的表示与数学抽象如何塑形现实。文章挑战了我们对于数字在实际中的意义的直觉。",
+      "summary_en": "The article traces the four-color theorem from its 19th-century conjecture to the mid-20th-century computer-assisted proof. It demonstrates how collaboration between mathematicians and computers changed the way we validate proofs. The story offers a lens on the history of computational mathematics and the limits of human-only reasoning.",
+      "summary_zh": "本文梳理四色定理从提出到通过计算机辅助证明的历程。数学家与计算机的协作改变了证明的验证方式，也凸显了计算在人类推理中的作用。这是对计算数学史与理论界限的深刻反思。",
       "hn": {
-        "id": 47046853,
+        "id": 47100190,
         "type": "story",
-        "by": "surprisetalk",
-        "score": 34,
-        "descendants": 6,
-        "time": 1771332010,
-        "comments_url": "https://news.ycombinator.com/item?id=47046853"
+        "by": "bikenaga",
+        "score": 43,
+        "descendants": 5,
+        "time": 1771677126,
+        "comments_url": "https://news.ycombinator.com/item?id=47100190"
       },
       "tags": [
         "Science"
+      ]
+    },
+    {
+      "title_en": "Fungicide vinclozin causes disease via germline for 20 generations in rats",
+      "url": "https://pnas.org/doi/10.1073/pnas.2523071123",
+      "title_zh": "杀菌剂 vinclozin 通过生殖系造成大鼠多代疾病",
+      "created_display": "Created: Feb 22, 2026 / 08:21 PT",
+      "image_url": null,
+      "summary_en": "New research shows fungicide vinclozin can cause disease through the germline across 20 rat generations, indicating potential transgenerational effects. The findings spur safety and regulatory considerations for chemical exposure and health outcomes. It emphasizes the importance of long-term, multigenerational studies in toxicology.",
+      "summary_zh": "新研究显示杀菌剂 vinclozin 通过生殖系造成大鼠多代疾病，具有潜在的跨代效应。研究结果推动对化学暴露与健康后果的安全性与监管讨论，并强调在毒理学中进行长期、多代研究的重要性。",
+      "hn": {
+        "id": 47112252,
+        "type": "story",
+        "by": "stevenwoo",
+        "score": 33,
+        "descendants": 10,
+        "time": 1771777267,
+        "comments_url": "https://news.ycombinator.com/item?id=47112252"
+      },
+      "tags": [
+        "Health",
+        "Science",
+        "Politics"
+      ]
+    },
+    {
+      "title_en": "Show HN: 3D Mahjong, Built in CSS",
+      "url": "https://voxjong.com",
+      "title_zh": "Show HN：用 CSS 构建的 3D 麻将",
+      "created_display": "Created: Feb 22, 2026 / 07:53 PT",
+      "image_url": "https://voxjong.com/_nuxt/voxjong-logo.5kOxd6eD.png",
+      "summary_en": "A Show HN project demonstrates 3D Mahjong rendered with pure CSS, showcasing how far CSS transforms and perspective can push browser rendering without heavy WebGL. The build serves as both a playful demo and a reference for CSS-driven 3D layouts. It hints at potential performance and accessibility tradeoffs for CSS-only approaches.",
+      "summary_zh": "这是一个 Show HN 项目，展示了用纯 CSS 实现的 3D 麻将。它展示了 CSS 变换和透视在无需 WebGL 的情况下实现 3D 的潜力。该作品既是趣味演示，也为 CSS 驱动的 3D 布局提供参考，同时提示了在纯 CSS 方法下的性能与可访问性取舍。",
+      "hn": {
+        "id": 47111981,
+        "type": "story",
+        "by": "rofko",
+        "score": 32,
+        "descendants": 20,
+        "time": 1771775582,
+        "comments_url": "https://news.ycombinator.com/item?id=47111981"
+      },
+      "tags": [
+        "Show HN",
+        "Web"
+      ]
+    },
+    {
+      "title_en": "Volatility: The volatile memory forensic extraction framework",
+      "url": "https://github.com/volatilityfoundation/volatility3",
+      "title_zh": "Volatility：易失性内存取证框架",
+      "created_display": "Created: Feb 22, 2026 / 05:20 PT",
+      "image_url": "https://opengraph.githubassets.com/f45db425f5c163d0b8bdd2cabaec696a4df34f40778a234c8b4c19c9d1eb6edb/volatilityfoundation/volatility3",
+      "summary_en": "Volatility 3 is a memory-forensics framework for extracting artifacts from RAM dumps. The release highlights Python 3 support, a pluggable architecture, and improved tooling for incident response and evidence preservation.",
+      "summary_zh": "Volatility 3 是一个从 RAM 转储中提取证据的内存取证框架。新版本强调对 Python 3 的支持、可插拔架构，以及用于事件响应和证据留存的改进工具链。",
+      "hn": {
+        "id": 47110781,
+        "type": "story",
+        "by": "transpute",
+        "score": 29,
+        "descendants": 2,
+        "time": 1771766407,
+        "comments_url": "https://news.ycombinator.com/item?id=47110781"
+      },
+      "tags": [
+        "Security",
+        "Open Source",
+        "Programming"
       ]
     },
     {
@@ -877,24 +1089,46 @@
       ]
     },
     {
-      "title_en": "ReferenceFinder: Find coordinates on a piece of paper with only folds",
-      "url": "https://mutsuntsai.github.io/reference-finder/",
-      "title_zh": "ReferenceFinder：仅用折痕在纸上定位坐标",
-      "created_display": "Created: Feb 18, 2026 / 20:27 PT",
-      "image_url": null,
-      "summary_en": "ReferenceFinder demonstrates a method to locate coordinates on paper using only folds, without any marks. It showcases principles of computational origami with potential applications in portable navigation, AR calibration, or lightweight geospatial encoding.",
-      "summary_zh": "ReferenceFinder 展示了一种仅靠折痕在纸上定位坐标的方法，无需任何标记。它体现了计算机折纸的原理，潜在应用包括便携导航、增强现实标定或轻量级地理编码。",
+      "title_en": "Yet Another Fix Coming for Older AMD GPUs on Linux – Thanks to Valve Developer",
+      "url": "https://www.phoronix.com/news/Hawaii-Macs-AMDGPU-DC-Fix",
+      "title_zh": "又一修复将解决 Linux 上旧 AMD GPU 的问题——感谢 Valve 开发者",
+      "created_display": "Created: Feb 22, 2026 / 06:46 PT",
+      "image_url": "https://www.phoronix.net/image.php?id=2026&image=imac_171",
+      "summary_en": "Valve contributors have helped surface a fix for older AMD GPUs on Linux, addressing DC (display core) and driver issues that hinder hardware acceleration. The patch improves stability and performance for users on Hawaii-era cards and similar hardware. It reflects the ongoing, crowd-sourced momentum behind open-source drivers.",
+      "summary_zh": "来自 Valve 的贡献者推动了 Linux 上旧 AMD GPU 的修复，解决显示核心等驱动问题。补丁提升 Hawaii 系列显卡在 Linux 下的稳定性与性能。这体现了社区协作对开源显卡驱动持续迭代的重要性。",
       "hn": {
-        "id": 47069918,
+        "id": 47111420,
         "type": "story",
-        "by": "icwtyjj",
+        "by": "Bender",
         "score": 24,
-        "descendants": 2,
-        "time": 1771475243,
-        "comments_url": "https://news.ycombinator.com/item?id=47069918"
+        "descendants": 0,
+        "time": 1771771578,
+        "comments_url": "https://news.ycombinator.com/item?id=47111420"
       },
       "tags": [
-        "Science"
+        "Hardware",
+        "Open Source"
+      ]
+    },
+    {
+      "title_en": "Monkey Patching in VBA",
+      "url": "https://ecp-solutions.github.io/ASF/Language%20reference.html",
+      "title_zh": "VBA 的猴子补丁",
+      "created_display": "Created: Feb 18, 2026 / 02:29 PT",
+      "image_url": null,
+      "summary_en": "It shows practical patterns, caveats, and risks of breaking compatibility or introducing fragile code. The piece serves as a cautionary guide for developers embedding VBA in business apps.",
+      "summary_zh": "文章探讨了 VBA 中的猴子补丁（monkey patching）技术，展示如何在运行时修改或扩展现有对象行为。它给出可操作的模式、注意事项与可能破坏性风险的分析。适用于在企业应用中嵌入 VBA 的开发者，但也提醒其潜在的稳定性与兼容性问题。",
+      "hn": {
+        "id": 47059516,
+        "type": "story",
+        "by": "n013",
+        "score": 22,
+        "descendants": 3,
+        "time": 1771410548,
+        "comments_url": "https://news.ycombinator.com/item?id=47059516"
+      },
+      "tags": [
+        "Programming"
       ]
     },
     {
@@ -916,8 +1150,51 @@
       },
       "tags": [
         "Show HN",
-        "Privacy",
-        "Web"
+        "Web",
+        "Privacy"
+      ]
+    },
+    {
+      "title_en": "Git's Magic Files",
+      "url": "https://nesbitt.io/2026/02/05/git-magic-files.html",
+      "title_zh": "Git 的魔法文件",
+      "created_display": "Created: Feb 22, 2026 / 06:21 PT",
+      "image_url": "https://nesbitt.io/images/boxes.png",
+      "summary_en": "The article digs into Git's lesser-known magic files—configurations and attributes that alter how Git behaves beyond ordinary commands. It explains how files like .gitattributes and .gitignore influence merging, pathspecs, and cross-repo tooling. The takeaway is that small, well-chosen magic files can dramatically simplify repository hygiene and collaboration.",
+      "summary_zh": "文章梳理了 Git 中鲜为人知的神奇/魔法文件及其对行为的影响。它解释了 .gitattributes、.gitignore 等文件如何影响合并、路径模式以及跨仓工具。小而巧妙的“魔法文件”可以显著简化仓库治理与协作。",
+      "hn": {
+        "id": 47111218,
+        "type": "story",
+        "by": "chmaynard",
+        "score": 21,
+        "descendants": 8,
+        "time": 1771770095,
+        "comments_url": "https://news.ycombinator.com/item?id=47111218"
+      },
+      "tags": [
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "Show HN: TLA+ Workbench skill for coding agents (compat. with Vercel skills CLI)",
+      "url": "https://github.com/younes-io/agent-skills/tree/main/skills/tlaplus-workbench",
+      "title_zh": "Show HN：TLA+ Workbench 技能用于编码代理（与 Vercel Skills CLI 兼容）",
+      "created_display": "Created: Feb 22, 2026 / 05:44 PT",
+      "image_url": "https://opengraph.githubassets.com/e29fbc7d52d6b0cc6c47d6bd05ad101cc8934fa15b58edda83cd65cde953423a/younes-io/agent-skills",
+      "summary_en": "A Show HN introduces a TLA+ Workbench skill for coding agents, bridging formal methods tooling with real-world dev workflows. It also notes compatibility with the Vercel skills CLI, enabling agents to plug into modern deployments. The snippet signals growing interest in rigorous, model-driven automation for production systems.",
+      "summary_zh": "Show HN 介绍了一个用于编码代理的 TLA+ Workbench 技能，结合正式方法工具与实际开发工作流。并指出可以与 Vercel skills CLI 兼容，使代理能够接入现代部署。这反映了对面向生产的模型驱动自动化需求的增长趋势。",
+      "hn": {
+        "id": 47110946,
+        "type": "story",
+        "by": "youio",
+        "score": 14,
+        "descendants": 2,
+        "time": 1771767867,
+        "comments_url": "https://news.ycombinator.com/item?id=47110946"
+      },
+      "tags": [
+        "Show HN",
+        "Programming"
       ]
     },
     {
@@ -940,6 +1217,73 @@
       "tags": [
         "Data",
         "Design"
+      ]
+    },
+    {
+      "title_en": "I Analyzed Every Nootropic Study on PubMed",
+      "url": "https://outspeaker.com/post/217",
+      "title_zh": "我分析了 PubMed 上的所有认知增强剂研究",
+      "created_display": "Created: Feb 22, 2026 / 09:15 PT",
+      "image_url": null,
+      "summary_en": "A comprehensive audit of PubMed entries on nootropics finds a patchwork of evidence, with many claims lacking robust clinical support and varying study quality. The writer highlights how publication bias and small sample sizes skew impressions of efficacy. The takeaway is skepticism toward “brain-boosting” pills without rigorous, replicated data.",
+      "summary_zh": "对 PubMed 上关于认知增强剂的研究进行了全面评估，结果显示证据往往不稳固、质量参差不齐。出版偏倚和样本量小等因素会扭曲“脑力提升”效能的印象。结论是，缺乏鲁棒的重复性数据就难以把认知增强剂的效果当成可靠结论。",
+      "hn": {
+        "id": 47112719,
+        "type": "story",
+        "by": "paulpauper",
+        "score": 11,
+        "descendants": 4,
+        "time": 1771780520,
+        "comments_url": "https://news.ycombinator.com/item?id=47112719"
+      },
+      "tags": [
+        "Science",
+        "Health"
+      ]
+    },
+    {
+      "title_en": "Conway's Arcade",
+      "url": "https://specialguestx.com/?s=project&p=conway/",
+      "title_zh": "康威的街机",
+      "created_display": "Created: Feb 18, 2026 / 05:44 PT",
+      "image_url": "https://specialguestx.com/assets/sgx_social.png",
+      "summary_en": "Conway's Arcade blends Conway-style cellular automata with arcade gameplay, illustrating how simple rules yield emergent, visually engaging experiences. It serves as a playful exploration of computation and education through interactive media.",
+      "summary_zh": "将康威式元胞自动机与街机玩法相结合，展示简单规则如何产生涌现式、吸引眼球的体验。作品通过互动媒介，作为对计算与教育的一种有趣探索。",
+      "hn": {
+        "id": 47060852,
+        "type": "story",
+        "by": "redbell",
+        "score": 9,
+        "descendants": 4,
+        "time": 1771422251,
+        "comments_url": "https://news.ycombinator.com/item?id=47060852"
+      },
+      "tags": [
+        "Gaming",
+        "Education"
+      ]
+    },
+    {
+      "title_en": "Amazon, Meta, Alphabet report plunging tax bills thanks to AI and tax changes",
+      "url": "https://finance.yahoo.com/news/amazon-meta-and-alphabet-report-plunging-tax-bills-thanks-to-ai-investment-and-new-rules-in-washington-161229652.html",
+      "title_zh": "因为 AI 投资及税法调整，亚马逊、Meta、Alphabet 税负大幅下降",
+      "created_display": "Created: Feb 22, 2026 / 08:38 PT",
+      "image_url": "https://s.yimg.com/ny/api/res/1.2/H6WbzQdsJrkvQ2_FIf04gw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-uploaded-images/2026-02/8fcd11a0-068e-11f1-ab9d-268d4b9d1ae5",
+      "summary_en": "Major tech giants report plunging tax bills driven by AI investments and Washington’s tax changes, illustrating how incentives and write-offs reshape profitability. The numbers reflect a combination of R&D credits, rate changes, and international restructuring. It signals how policy and AI spending are increasingly intertwined with corporate finance.",
+      "summary_zh": "因 AI 投资和税法变化，亚马逊、Meta、Alphabet 的税单大幅下降。这反映了研发抵税、税率变化以及国际结构调整如何影响利润表。显示出政策、AI 支出与企业财务之间日益紧密的互动。",
+      "hn": {
+        "id": 47112431,
+        "type": "story",
+        "by": "epistasis",
+        "score": 8,
+        "descendants": 6,
+        "time": 1771778322,
+        "comments_url": "https://news.ycombinator.com/item?id=47112431"
+      },
+      "tags": [
+        "Business",
+        "Finance",
+        "AI"
       ]
     },
     {
@@ -981,30 +1325,8 @@
         "comments_url": "https://news.ycombinator.com/item?id=47110268"
       },
       "tags": [
-        "DevOps",
-        "Programming"
-      ]
-    },
-    {
-      "title_en": "Volatility: The volatile memory forensic extraction framework",
-      "url": "https://github.com/volatilityfoundation/volatility3",
-      "title_zh": "Volatility：易失性内存取证框架",
-      "created_display": "Created: Feb 22, 2026 / 05:20 PT",
-      "image_url": "https://opengraph.githubassets.com/f45db425f5c163d0b8bdd2cabaec696a4df34f40778a234c8b4c19c9d1eb6edb/volatilityfoundation/volatility3",
-      "summary_en": "Volatility 3 is a memory-forensics framework for extracting artifacts from RAM dumps. The release highlights Python 3 support, a pluggable architecture, and improved tooling for incident response and evidence preservation.",
-      "summary_zh": "Volatility 3 是一个从 RAM 转储中提取证据的内存取证框架。新版本强调对 Python 3 的支持、可插拔架构，以及用于事件响应和证据留存的改进工具链。",
-      "hn": {
-        "id": 47110781,
-        "type": "story",
-        "by": "transpute",
-        "score": 6,
-        "descendants": 0,
-        "time": 1771766407,
-        "comments_url": "https://news.ycombinator.com/item?id=47110781"
-      },
-      "tags": [
-        "Security",
-        "Programming"
+        "Programming",
+        "DevOps"
       ]
     },
     {
@@ -1029,25 +1351,25 @@
       ]
     },
     {
-      "title_en": "Conway's Arcade",
-      "url": "https://specialguestx.com/?s=project&p=conway/",
-      "title_zh": "康威的街机",
-      "created_display": "Created: Feb 18, 2026 / 05:44 PT",
-      "image_url": "https://specialguestx.com/assets/sgx_social.png",
-      "summary_en": "Conway's Arcade blends Conway-style cellular automata with arcade gameplay, illustrating how simple rules yield emergent, visually engaging experiences. It serves as a playful exploration of computation and education through interactive media.",
-      "summary_zh": "将康威式元胞自动机与街机玩法相结合，展示简单规则如何产生涌现式、吸引眼球的体验。作品通过互动媒介，作为对计算与教育的一种有趣探索。",
+      "title_en": "Introduction to Out of Time Order Correlators (OTOCs)(2025)",
+      "url": "https://quantumcomputer.blog/introduction-to-out-of-time-order-correlators/",
+      "title_zh": "OTOC 入门（2025）",
+      "created_display": "Created: Feb 18, 2026 / 14:16 PT",
+      "image_url": "https://i0.wp.com/quantumcomputer.blog/wp-content/uploads/2025/10/Out-of-Time-Order-Correlator-.jpg",
+      "summary_en": "Out-of-time-order correlators introduce a framework to measure information scrambling and chaos in quantum systems. The primer explains the intuition, typical definitions, and why OTOCs matter for understanding quantum dynamics and error mitigation. It's a useful entry point for readers curious about quantum information and hardware-aware theory.",
+      "summary_zh": "OTOC 为量子系统的信息扩散和混乱程度提供衡量框架。该入门文章解释了定义、直觉及其在理解量子动力学与误差抑制中的作用。是对量子信息与硬件相关理论兴趣读者的实用入口。",
       "hn": {
-        "id": 47060852,
+        "id": 47067187,
         "type": "story",
-        "by": "redbell",
+        "by": "rolph",
         "score": 5,
-        "descendants": 3,
-        "time": 1771422251,
-        "comments_url": "https://news.ycombinator.com/item?id=47060852"
+        "descendants": 0,
+        "time": 1771452967,
+        "comments_url": "https://news.ycombinator.com/item?id=47067187"
       },
       "tags": [
-        "Entertainment",
-        "Education"
+        "Science",
+        "Hardware"
       ]
     },
     {
@@ -1090,8 +1412,52 @@
       },
       "tags": [
         "AI",
-        "Privacy",
+        "Politics",
         "Data"
+      ]
+    },
+    {
+      "title_en": "Fresh File Explorer – VS Code extension for navigating recent work",
+      "url": "https://github.com/FreHu/vscode-fresh-file-explorer",
+      "title_zh": "Fresh File Explorer：VS Code 的最近工作导航扩展",
+      "created_display": "Created: Feb 22, 2026 / 10:20 PT",
+      "image_url": "https://opengraph.githubassets.com/6a2c8e95ab69cfb81181b56c33c54031f034db7cfdd8e8700942c36b78675eef/FreHu/vscode-fresh-file-explorer",
+      "summary_en": "Fresh File Explorer is a VS Code extension designed to speed up navigation by exposing recent files and work sessions in an accessible panel. It reduces context-switching and helps developers jump back into work faster. The extension demonstrates a shift toward more ergonomic, task-focused tooling inside editors.",
+      "summary_zh": "Fresh File Explorer 是一个 VS Code 扩展，旨在通过展示最近的文件和工作会话来提升导航效率。它可以减少上下文切换，帮助开发者更快回到正在做的事。这一扩展体现了编辑器内更注重任务导向的工具设计趋势。",
+      "hn": {
+        "id": 47113325,
+        "type": "story",
+        "by": "frehu",
+        "score": 3,
+        "descendants": 2,
+        "time": 1771784431,
+        "comments_url": "https://news.ycombinator.com/item?id=47113325"
+      },
+      "tags": [
+        "Programming",
+        "DevOps"
+      ]
+    },
+    {
+      "title_en": "Show HN: Cryphos – no-code crypto signal bot with Telegram alerts",
+      "url": "https://cryphos.com",
+      "title_zh": "Show HN：Cryphos——无代码的加密信号机器人，提供 Telegram 提醒",
+      "created_display": "Created: Feb 22, 2026 / 05:32 PT",
+      "image_url": "https://cryphos.com/logo.png",
+      "summary_en": "Cryphos offers a no-code crypto signal bot with Telegram alerts, lowering the barrier to automated trading signals. The project showcases how users can compose trading logic without writing code, though it raises questions about reliability and compliance. It’s a practical data-point in the trend toward no-code automation for finance.",
+      "summary_zh": "Cryphos 提供无代码的加密信号机器人，并附带 Telegram 提醒，降低自动化交易的门槛。产品展示了用户无需编写代码即可构建交易逻辑的方式，但也引发对可靠性与合规性的疑问。这是无代码自动化在金融领域日益流行的实例。",
+      "hn": {
+        "id": 47110877,
+        "type": "story",
+        "by": "duckducker",
+        "score": 3,
+        "descendants": 0,
+        "time": 1771767176,
+        "comments_url": "https://news.ycombinator.com/item?id=47110877"
+      },
+      "tags": [
+        "Show HN",
+        "Finance"
       ]
     }
   ]
