@@ -1758,6 +1758,14 @@ a.hn-stat:hover::after {
   opacity: 1;
   text-decoration: none;
 }
+.hn-rss-link {
+  color: #f26522;
+  border-color: #f26522;
+}
+.hn-rss-link:hover {
+  background: #f26522;
+  color: #fff;
+}
 
 /* ===== Language Toggle (Segmented Control) ===== */
 .hn-lang-toggle {

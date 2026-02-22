@@ -382,6 +382,7 @@ def update_hackernews_index(
         date_range = f"{stats['date_start']} — {stats['date_end']}" if stats['date_start'] != stats['date_end'] else stats['date_start']
         stat_parts.append(f"<span class='hn-stat-item'>{date_range}</span>")
         stat_parts.append("<a class='hn-stat-link' href='/hackernews/trends/'>Trends</a>")
+        stat_parts.append("<a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a>")
 
         sep = ' <span class="hn-stat-sep">·</span> '
         lines.append(f"<div class='hn-stats'>{sep.join(stat_parts)}</div>")
