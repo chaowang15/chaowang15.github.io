@@ -446,25 +446,39 @@
     }
 
     // Hotness badge management
-    function updateHotBadges(isHotMode) {
+    function updateMetricHighlights(mode) {
       cards.forEach(function (card) {
+        // --- Hotness badge ---
         var existing = card.querySelector('.hn-hot-badge');
         var hotVal = card._sortData.hot;
         var displayVal = hotVal >= 10 ? Math.round(hotVal) : hotVal.toFixed(1);
         if (existing) {
           existing.textContent = '\uD83D\uDD25 ' + displayVal;
           existing.style.display = '';
-          existing.classList.toggle('hn-hot-badge--dim', !isHotMode);
+          existing.classList.toggle('hn-hot-badge--dim', mode !== 'hot');
         } else {
           var badge = document.createElement('span');
-          badge.className = 'hn-hot-badge' + (isHotMode ? '' : ' hn-hot-badge--dim');
+          badge.className = 'hn-hot-badge' + (mode === 'hot' ? '' : ' hn-hot-badge--dim');
           badge.title = 'Hotness score (HN time-decay formula)';
           badge.textContent = '\uD83D\uDD25 ' + displayVal;
-          // Insert into the tags row
           var tagsRow = card.querySelector('.hn-tags');
           if (tagsRow) {
             tagsRow.insertBefore(badge, tagsRow.firstChild);
           }
+        }
+
+        // --- Score highlight ---
+        var scoreEl = card.querySelector('.hn-stat-score');
+        if (scoreEl) {
+          scoreEl.classList.toggle('hn-stat--highlight', mode === 'top');
+          scoreEl.classList.toggle('hn-stat--dim', mode !== 'top');
+        }
+
+        // --- Created time highlight ---
+        var timeEl = card.querySelector('.hn-meta2-created');
+        if (timeEl) {
+          timeEl.classList.toggle('hn-meta2-created--highlight', mode === 'new');
+          timeEl.classList.toggle('hn-meta2-created--dim', mode !== 'new');
         }
       });
     }
@@ -498,8 +512,8 @@
       // Update internal cards array to match new order
       cards = sorted;
 
-      // Show/hide hotness badges
-      updateHotBadges(mode === 'hot');
+      // Update metric highlights based on sort mode
+      updateMetricHighlights(mode);
 
       // Re-number
       renumberVisible();

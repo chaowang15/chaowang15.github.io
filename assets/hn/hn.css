@@ -824,11 +824,48 @@ body {
 }
 
 .hn-hot-badge--dim {
+    background: #bbb;
+    opacity: 0.55;
+}
+
+/* --- Sort-mode metric highlight/dim --- */
+.hn-stat--highlight {
+    background: #e65100 !important;
+    color: #fff !important;
+    border-color: #e65100 !important;
+    font-weight: 700;
+    transform: scale(1.05);
+}
+.hn-stat--dim {
+    opacity: 0.4;
+}
+
+.hn-meta2-created--highlight {
+    font-weight: 700;
+    color: #1565c0;
+    opacity: 1 !important;
+}
+.hn-meta2-created--dim {
     opacity: 0.45;
 }
 
 @media (prefers-color-scheme: dark) {
     .hn-hot-badge--dim {
+        background: #555;
+        opacity: 0.55;
+    }
+    .hn-stat--highlight {
+        background: #ff8f00 !important;
+        color: #111 !important;
+        border-color: #ff8f00 !important;
+    }
+    .hn-stat--dim {
+        opacity: 0.35;
+    }
+    .hn-meta2-created--highlight {
+        color: #64b5f6;
+    }
+    .hn-meta2-created--dim {
         opacity: 0.4;
     }
     .hn-sort-toggle-btn {
@@ -1053,6 +1090,7 @@ body {
     opacity: 0.85;
     font-size: 0.95em;
     line-height: 1.25;
+    transition: opacity 0.2s ease, color 0.2s ease;
 }
 
 .hn-meta2 a {
@@ -1215,6 +1253,7 @@ body {
     display: inline-flex;
     align-items: center;
     gap: 3px;
+    transition: opacity 0.2s ease, background 0.2s ease, color 0.2s ease, transform 0.2s ease;
     padding: 3px 10px;
     border-radius: 999px;
     font-family: var(--hn-sans);
