@@ -4,6 +4,33 @@
 
 ---
 
+## 2026年2月22日 (Open Graph 分享页面)
+
+为每条新闻生成独立的 OG 分享页面（`hackernews/share/{story_id}.html`），包含 Open Graph 和 Twitter Card meta 标签，实现在 Line、Slack、Twitter 等平台分享时显示富媒体预览卡片（标题、描述、图片）。分享页面会自动重定向到对应的 daily page 锚点。
+
+### 功能详情
+
+| 项目 | 说明 |
+|------|------|
+| 分享页数量 | 288 个（当前数据），每日自动更新 |
+| 单文件大小 | 约 500 字节 |
+| 总存储 | 约 1.2 MB |
+| OG 标题 | 双语（英文 \| 中文） |
+| OG 描述 | 双语摘要 + 标签 |
+| OG 图片 | 引用原始文章图片 URL（不增加存储） |
+| Twitter Card | 支持 summary_large_image |
+| SEO | noindex/nofollow，不影响搜索引擎 |
+| 重定向 | `<meta http-equiv="refresh">` 瞬间跳转 |
+
+### 涉及文件
+
+- `news_scraper/share_page_builder.py`：新增模块
+- `news_scraper/main.py`：集成到 rebuild 和 daily pipeline
+- `assets/hn/hn.js`：分享按钮 URL 从 `page#anchor` 改为 `share/{id}.html`
+- `_layouts/hn.html`：缓存版本号更新
+
+---
+
 ## 2026年2月22日 (搜索结果链接重构)
 
 搜索结果中的新闻标题链接从原始文章 URL 改为跳转到对应的 daily page 锚点，与 Index 页面和 Weekly Digest 的链接逻辑保持一致。同时移除了冗余的 "View in daily page →" 按钮。
