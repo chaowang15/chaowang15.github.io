@@ -359,7 +359,12 @@ def rebuild_all_from_json(cfg: dict, max_items: int = 3650):
                     _age_h = max((_scrape_ts - _ctime) / 3600.0, 0.1) if _ctime else 9999
                     _hot = max(_score - 1, 0) / ((_age_h + 2) ** _gravity)
                     _it["hot_score"] = round(_hot, 2)
-                # Save updated JSON with hot_score
+
+            # Sort by hot_score descending so default page order is by hotness
+            items.sort(key=lambda x: x.get("hot_score", 0), reverse=True)
+
+            if _need_hot:
+                # Save updated JSON with hot_score (now sorted by hot_score)
                 write_backup_json(json_path, meta=meta, items=items)
 
             md_path = json_path[:-5] + ".md"
@@ -821,6 +826,10 @@ def run_scrape(mode: str, cfg: dict):
         _hot = max(_score - 1, 0) / ((_age_h + 2) ** _gravity)
         _it["hot_score"] = round(_hot, 2)
     meta["hot_score_time_utc"] = time.strftime("%Y-%m-%d %H:%M:%S UTC", time.gmtime(_now_ts))
+
+    # Re-sort by hot_score descending so JSON/HTML default order is by hotness
+    final_items.sort(key=lambda x: x.get("hot_score", 0), reverse=True)
+    print(f"[SORT] Re-sorted {len(final_items)} items by hot_score (top: {final_items[0].get('hot_score') if final_items else 'N/A'})")
 
     write_backup_json(json_path, meta=meta, items=final_items)
     print(f"\n[JSON] Saved backup: {json_path} ({len(final_items)} items, same_day_reused={reused_same_day}, cross_day_reused={reused_cross_day})")

@@ -4,6 +4,31 @@
 
 ---
 
+## 2026年2月22日 (JSON 和页面按 Hot Score 排序)
+
+修复 Index 页面 Today's Top Stories 和 Trending 页面的排序问题：之前 items 在 JSON 中按 score（投票数）降序存储，导致页面默认显示顺序不是按热度排列。
+
+### 变更内容
+
+1. **`main.py` (`run_scrape`)**：计算完 `hot_score` 后，重新按 `hot_score` 降序排列 items，然后再保存 JSON。这样 Trending 页面的 HTML 默认顺序就是按热度排列。
+2. **`main.py` (`rebuild_all_from_json`)**：同样在 rebuild 时按 `hot_score` 降序排列，确保历史页面也按热度排序。
+3. **`index_updater.py`**：`_get_top_stories()` 已经按 `hot_score` 降序排列（上一次提交已完成）。
+
+### 排序流程
+
+| 步骤 | 排序 | 说明 |
+|------|------|------|
+| 爬取后初始排序 | score 降序 | 用于截取 top N（保留投票最高的新闻） |
+| 计算 hot_score 后 | hot_score 降序 | JSON 和 HTML 的默认顺序 |
+| Index Top Stories | hot_score 降序 | 从 JSON 读取后排序 |
+| Trending 页面 JS | hot_score 降序 | 默认 Hot 模式，读取 data-hot-score |
+
+### 涉及文件
+
+- `news_scraper/main.py` — 添加 hot_score 降序排序（run_scrape + rebuild）
+
+---
+
 ## 2026年2月22日 (Hot Score 统一为 Pipeline 固定计算)
 
 将全站 hot score 从客户端实时计算改为 pipeline 运行时一次性固定计算。
