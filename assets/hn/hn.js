@@ -361,6 +361,11 @@
       if (!btn) return;
       var filter = btn.getAttribute("data-filter");
       applyFilter(filter);
+
+      // GA4: track tag filter
+      if (typeof gtag === 'function' && filter !== '__all__') {
+        gtag('event', 'tag_filter', { tag_name: filter });
+      }
     });
 
     // Card-level tags are non-clickable to prevent accidental taps on mobile
@@ -529,6 +534,11 @@
         sortBtns[k].classList.toggle('is-active', k === newSort);
       });
       applySort(newSort);
+
+      // GA4: track sort change
+      if (typeof gtag === 'function') {
+        gtag('event', 'sort_change', { sort_mode: newSort });
+      }
     });
 
     // Apply initial Hot sort
@@ -848,6 +858,14 @@
       displayCount = PAGE_SIZE;
       statusEl.textContent = "Found " + allResults.length + " result" + (allResults.length !== 1 ? "s" : "") + " for \"" + query + "\"";
       applySortAndShow();
+
+      // GA4: track search event
+      if (typeof gtag === 'function') {
+        gtag('event', 'search_query', {
+          search_term: query.substring(0, 100),
+          results_count: allResults.length
+        });
+      }
     }
 
     // Debounce input
@@ -1644,7 +1662,13 @@
     // Click handlers
     btns.forEach(function (btn) {
       btn.addEventListener('click', function () {
-        applyMode(btn.getAttribute('data-lang'));
+        var lang = btn.getAttribute('data-lang');
+        applyMode(lang);
+
+        // GA4: track language switch
+        if (typeof gtag === 'function') {
+          gtag('event', 'language_switch', { language: lang });
+        }
       });
     });
 
@@ -1759,6 +1783,17 @@
       var numericId = storyId.replace('story-', '');
       var url = window.location.origin + '/hackernews/share/' + numericId + '.html';
       copyToClipboard(url, btn);
+
+      // GA4: track share event
+      if (typeof gtag === 'function') {
+        var titleEl = card.querySelector('.hn-title');
+        var titleText = titleEl ? titleEl.textContent.replace(/^\(\d+\)\s*/, '').substring(0, 80) : '';
+        gtag('event', 'share_story', {
+          story_id: numericId,
+          story_title: titleText,
+          page_type: document.querySelector('.hn-mode-top') ? 'trending' : document.querySelector('.hn-mode-best') ? 'daily_best' : document.querySelector('.hn-mode-weekly') ? 'weekly' : 'other'
+        });
+      }
     });
   }
 
@@ -1766,5 +1801,39 @@
     document.addEventListener('DOMContentLoaded', initShareButtons);
   } else {
     initShareButtons();
+  }
+})();
+
+// ===== GA4: Track external link clicks (🔗 icon) =====
+(function () {
+  function initExternalLinkTracking() {
+    // Track clicks on external article links (🔗 icons and hn-top-ext-link)
+    document.addEventListener('click', function (e) {
+      var link = e.target.closest('a[target="_blank"]');
+      if (!link) return;
+
+      // Only track links within hn-wrap (our site content)
+      if (!link.closest('.hn-wrap')) return;
+
+      // Skip HN discussion links (news.ycombinator.com)
+      var href = link.getAttribute('href') || '';
+      if (href.indexOf('news.ycombinator.com') !== -1) return;
+
+      // GA4: track external link click
+      if (typeof gtag === 'function') {
+        var card = link.closest('.hn-card[id]');
+        var storyId = card ? card.getAttribute('id').replace('story-', '') : '';
+        gtag('event', 'click_external_link', {
+          story_id: storyId,
+          link_url: href.substring(0, 200)
+        });
+      }
+    });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initExternalLinkTracking);
+  } else {
+    initExternalLinkTracking();
   }
 })();
