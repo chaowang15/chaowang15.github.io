@@ -4,6 +4,24 @@
 
 ---
 
+## 2026年2月22日 (搜索结果链接重构)
+
+搜索结果中的新闻标题链接从原始文章 URL 改为跳转到对应的 daily page 锚点，与 Index 页面和 Weekly Digest 的链接逻辑保持一致。同时移除了冗余的 "View in daily page →" 按钮。
+
+### 改动详情
+
+| 改动前 | 改动后 |
+|--------|--------|
+| 标题链接 → 原始文章（新标签页） | 标题链接 → daily page `#story-{id}` 锚点 |
+| 底部有 "View in daily page →" 按钮 | 按钮移除（标题已承担此功能） |
+
+### 涉及文件
+
+- `assets/hn/hn.js`：修改 `renderResult()` 函数
+- `_layouts/hn.html`：缓存版本号更新
+
+---
+
 ## 2026年2月22日 (新闻卡片分享按钮)
 
 在所有新闻卡片（Trending、Daily Best、Weekly Digest 页面）的标签行末尾新增分享按钮，点击后将包含锚点的页面链接复制到剪贴板，方便用户分享特定新闻。
