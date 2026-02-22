@@ -39,6 +39,7 @@ from tag_cloud_builder import build_tag_cloud
 from tag_trend_builder import build_tag_trend
 from token_logger import log_daily_summary
 from rss_builder import build_rss_feed
+from share_page_builder import build_share_pages
 from backup_io import write_backup_json, read_backup_json
 from tag_generator import tag_json_file
 
@@ -383,6 +384,8 @@ def rebuild_all_from_json(cfg: dict, max_items: int = 3650):
     build_tag_trend(base_dir=base_dir)
     # Build RSS feed
     build_rss_feed(base_dir=base_dir)
+    # Build share pages for OG previews
+    build_share_pages(base_dir)
 
 
     # Clean index too
@@ -867,15 +870,14 @@ def main():
         max_items=30,
     )
 
-    # Build search index
-    build_search_index(base_dir=base_dir)
-
     # Build tag cloud data
     build_tag_cloud(base_dir=base_dir)
     # Build tag trend data (stream graph)
     build_tag_trend(base_dir=base_dir)
     # Build RSS feed
     build_rss_feed(base_dir=base_dir)
+    # Build share pages for OG previews
+    build_share_pages(base_dir)
 
 
     # Clean index page

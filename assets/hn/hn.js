@@ -1753,9 +1753,11 @@
       var card = btn.closest('.hn-card[id]');
       if (!card) return;
 
-      // Build the full URL with anchor
+      // Build the share URL pointing to the OG redirect page
       var storyId = card.getAttribute('id');
-      var url = window.location.origin + window.location.pathname + '#' + storyId;
+      // storyId is like 'story-47091419', extract the numeric part
+      var numericId = storyId.replace('story-', '');
+      var url = window.location.origin + '/hackernews/share/' + numericId + '.html';
       copyToClipboard(url, btn);
     });
   }
