@@ -1658,3 +1658,111 @@
     initLangToggle();
   }
 })();
+
+// ===== Share Button (copy anchor link to clipboard) =====
+(function () {
+  // SVG share icon (box with upward arrow, iOS-style)
+  var SHARE_SVG = '<svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">'
+    + '<path d="M4 8V13a1 1 0 001 1h6a1 1 0 001-1V8"/>'
+    + '<polyline points="5,4 8,1 11,4"/>'
+    + '<line x1="8" y1="1" x2="8" y2="10"/>'
+    + '</svg>';
+
+  function initShareButtons() {
+    var list = document.querySelector('.hn-list');
+    if (!list) return;
+
+    var cards = list.querySelectorAll('.hn-card[id]');
+    if (!cards.length) return;
+
+    // Inject share button into each card's tags row
+    cards.forEach(function (card) {
+      var tagsRow = card.querySelector('.hn-tags');
+      if (!tagsRow) return;
+
+      var btn = document.createElement('button');
+      btn.className = 'hn-share-btn';
+      btn.setAttribute('type', 'button');
+      btn.setAttribute('aria-label', 'Copy link to this story');
+      btn.setAttribute('title', 'Copy link');
+      btn.innerHTML = SHARE_SVG;
+      tagsRow.appendChild(btn);
+    });
+
+    // Toast element (reusable)
+    var toast = document.createElement('div');
+    toast.className = 'hn-share-toast';
+    toast.textContent = 'Link copied!';
+    document.body.appendChild(toast);
+
+    var toastTimer = null;
+
+    function showToast(x, y) {
+      clearTimeout(toastTimer);
+      // Position near the button
+      toast.style.left = x + 'px';
+      toast.style.top = (y - 36) + 'px';
+      toast.classList.add('is-visible');
+      toastTimer = setTimeout(function () {
+        toast.classList.remove('is-visible');
+      }, 1600);
+    }
+
+    function copyToClipboard(text, btn) {
+      var rect = btn.getBoundingClientRect();
+      var cx = rect.left + rect.width / 2;
+      var cy = rect.top + window.scrollY;
+
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(function () {
+          showToast(cx, cy);
+        }).catch(function () {
+          fallbackCopy(text, cx, cy);
+        });
+      } else {
+        fallbackCopy(text, cx, cy);
+      }
+    }
+
+    function fallbackCopy(text, cx, cy) {
+      // Fallback for older browsers / mobile
+      var ta = document.createElement('textarea');
+      ta.value = text;
+      ta.style.position = 'fixed';
+      ta.style.left = '-9999px';
+      ta.style.top = '-9999px';
+      document.body.appendChild(ta);
+      ta.focus();
+      ta.select();
+      try {
+        document.execCommand('copy');
+        showToast(cx, cy);
+      } catch (e) {
+        // Silent fail
+      }
+      document.body.removeChild(ta);
+    }
+
+    // Event delegation
+    list.addEventListener('click', function (e) {
+      var btn = e.target.closest('.hn-share-btn');
+      if (!btn) return;
+      e.preventDefault();
+      e.stopPropagation();
+
+      var card = btn.closest('.hn-card[id]');
+      if (!card) return;
+
+      // Build the full URL with anchor
+      var storyId = card.getAttribute('id');
+      var url = window.location.origin + window.location.pathname + '#' + storyId;
+      copyToClipboard(url, btn);
+    });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initShareButtons);
+  } else {
+    initShareButtons();
+  }
+})();

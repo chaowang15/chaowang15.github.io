@@ -1371,8 +1371,73 @@ a.hn-stat:hover::after {
 .hn-tag--sky       { background: #e0f2fe; color: #075985; border-color: #bae6fd; }
 .hn-tag--rose      { background: #ffe4e6; color: #9f1239; border-color: #fecdd3; }
 
+/* Share button (in tags row) */
+.hn-share-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 26px;
+    height: 26px;
+    padding: 0;
+    margin-left: auto;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    background: transparent;
+    color: #94a3b8;
+    cursor: pointer;
+    pointer-events: auto;
+    transition: color 0.15s ease, border-color 0.15s ease, background 0.15s ease;
+    flex-shrink: 0;
+}
+.hn-share-btn:hover {
+    color: #f97316;
+    border-color: #f97316;
+    background: rgba(249,115,22,0.06);
+}
+.hn-share-btn:active {
+    transform: scale(0.92);
+}
+.hn-share-btn svg {
+    display: block;
+}
+
+/* Share toast notification */
+.hn-share-toast {
+    position: absolute;
+    z-index: 9999;
+    padding: 5px 12px;
+    border-radius: 6px;
+    background: #1e293b;
+    color: #f8fafc;
+    font-family: var(--hn-sans);
+    font-size: 0.78rem;
+    font-weight: 500;
+    white-space: nowrap;
+    pointer-events: none;
+    opacity: 0;
+    transform: translateX(-50%) translateY(4px);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+.hn-share-toast.is-visible {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+}
+
 /* Color variants — dark mode */
 @media (prefers-color-scheme: dark) {
+    .hn-share-btn {
+        border-color: #334155;
+        color: #64748b;
+    }
+    .hn-share-btn:hover {
+        color: #fb923c;
+        border-color: #fb923c;
+        background: rgba(251,146,60,0.1);
+    }
+    .hn-share-toast {
+        background: #f1f5f9;
+        color: #1e293b;
+    }
     .hn-tag--blue      { background: rgba(59,130,246,0.18);  color: #93c5fd; border-color: rgba(59,130,246,0.30); }
     .hn-tag--indigo    { background: rgba(99,102,241,0.18);  color: #a5b4fc; border-color: rgba(99,102,241,0.30); }
     .hn-tag--red       { background: rgba(239,68,68,0.18);   color: #fca5a5; border-color: rgba(239,68,68,0.30); }
