@@ -754,7 +754,8 @@
       var html = "<div class='hn-search-item'>";
       html += "<div class='hn-search-item-header'>";
       html += "<span class='hn-row-type " + typeClass + "'>" + typeLabel + "</span>";
-      html += "<a class='hn-search-item-title' href='" + item.u + "' target='_blank' rel='noopener noreferrer'>" + highlightText(item.t, currentQuery) + "</a>";
+      var anchor = item.id ? '#story-' + item.id : '';
+      html += "<a class='hn-search-item-title' href='" + item.page + anchor + "'>" + highlightText(item.t, currentQuery) + "</a>";
       html += "</div>";
       if (item.z) {
         html += "<div class='hn-search-item-zh'>" + highlightText(item.z, currentQuery) + "</div>";
@@ -763,8 +764,7 @@
       if (tagsHtml) {
         html += "<div class='hn-search-item-tags'>" + tagsHtml + "</div>";
       }
-      var anchor = item.id ? '#story-' + item.id : '';
-      html += "<a class='hn-search-item-page' href='" + item.page + anchor + "'>View in daily page →</a>";
+
       html += "</div>";
       return html;
     }
