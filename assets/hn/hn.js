@@ -467,18 +467,16 @@
           }
         }
 
-        // --- Score highlight ---
+        // --- Score highlight (only add highlight in Top mode, otherwise normal) ---
         var scoreEl = card.querySelector('.hn-stat-score');
         if (scoreEl) {
           scoreEl.classList.toggle('hn-stat--highlight', mode === 'top');
-          scoreEl.classList.toggle('hn-stat--dim', mode !== 'top');
         }
 
-        // --- Created time highlight ---
+        // --- Created time highlight (only add highlight in New mode, otherwise normal) ---
         var timeEl = card.querySelector('.hn-meta2-created');
         if (timeEl) {
           timeEl.classList.toggle('hn-meta2-created--highlight', mode === 'new');
-          timeEl.classList.toggle('hn-meta2-created--dim', mode !== 'new');
         }
       });
     }

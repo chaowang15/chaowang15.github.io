@@ -4,6 +4,24 @@
 
 ---
 
+## 2026年2月21日 (排序模式上下文感知高亮)
+
+为 Trending 页面的三种排序模式实现了上下文感知的指标高亮：当前排序依据的指标加深高亮，其他指标淡化显示。
+
+| 排序模式 | 高亮元素 | 淡化元素 |
+|----------|----------|----------|
+| 🔥 Hot | 热度标签（鲜艳橙色渐变） | Score ▲、Created 时间 |
+| ⬆ Top | Score ▲（橙色背景白字） | 热度标签（灰色）、Created 时间 |
+| 🕒 New | Created 时间（粗体蓝色） | 热度标签（灰色）、Score ▲ |
+
+### 涉及文件
+
+- `assets/hn/hn.js`：`updateMetricHighlights` 函数替代原 `updateHotBadges`，统一管理三个指标的高亮/淡化类。
+- `assets/hn/hn.css`：新增 `.hn-stat--highlight`、`.hn-stat--dim`、`.hn-meta2-created--highlight`、`.hn-meta2-created--dim` 样式，热度标签淡化改为灰色背景。
+- `_layouts/hn.html`：缓存版本号更新至 `v=20260221o`。
+
+---
+
 ## 2026年2月21日 (热度标签在所有排序模式下始终显示)
 
 优化热度标签显示逻辑：在所有三种排序模式（Hot/Top/New）下始终显示热度分。Hot 模式下全亮度（鲜艳橙色渐变），Top/New 模式下降低透明度（opacity 0.45）以示区分，同时保留信息参考价值。
