@@ -222,20 +222,25 @@ def _build_detail_html(entry: StoryEntry) -> str:
 
 
 
+def _compute_hot_score(score: int, created_ts: int, ref_ts: float, gravity: float = 1.8) -> float:
+    """Compute HN time-decay hotness: (P-1) / (T+2)^G"""
+    age_hours = max((ref_ts - created_ts) / 3600.0, 0.1) if created_ts else 9999
+    return max(score - 1, 0) / ((age_hours + 2) ** gravity)
+
+
 def _get_top_stories(base_dir: str, days: List[DayEntry], n: int = 10) -> List[dict]:
     """
-    Get the top N stories sorted by HN time-decay hotness from the latest
-    Trending (top) JSON. Falls back to the latest Best JSON if no top JSON
-    is found.
-    Returns a list of dicts with title_en, title_zh, url, score, descendants,
-    tags, hot_score.
+    Get the top N stories sorted by hot_score descending from the latest
+    Trending (top) JSON. Computes hot_score on the fly if not stored in JSON
+    (using run_time_utc from meta as reference time).
     """
+    import time as _time
+    import datetime as _dt
+
     # Find the latest day that has a 'top' story entry
     for day in days:
         for s in day.stories:
             if s.story_type == "top":
-                # Reconstruct JSON path from rel_url
-                # rel_url looks like: /hackernews/2026/02/20/top_stories_02202026
                 json_path = s.rel_url.lstrip("/") + ".json"
                 if not os.path.exists(json_path):
                     continue
@@ -243,7 +248,30 @@ def _get_top_stories(base_dir: str, days: List[DayEntry], n: int = 10) -> List[d
                 if not data:
                     continue
                 items = data.get("items", []) or []
-                # Sort by stored hot_score (computed at pipeline time), descending
+                meta = data.get("meta", {}) or {}
+
+                # Ensure every item has hot_score
+                need_compute = any("hot_score" not in it for it in items)
+                if need_compute:
+                    # Use scrape time from meta as reference
+                    _run_utc = meta.get("run_time_utc", "")
+                    if _run_utc:
+                        try:
+                            ref_ts = _dt.datetime.strptime(
+                                _run_utc.replace(" UTC", ""), "%Y-%m-%d %H:%M:%S"
+                            ).replace(tzinfo=_dt.timezone.utc).timestamp()
+                        except Exception:
+                            ref_ts = _time.time()
+                    else:
+                        ref_ts = _time.time()
+                    for it in items:
+                        if "hot_score" not in it:
+                            hn = it.get("hn", {}) or {}
+                            it["hot_score"] = round(_compute_hot_score(
+                                hn.get("score", 0), hn.get("time", 0), ref_ts
+                            ), 2)
+
+                # Sort by hot_score descending
                 items.sort(
                     key=lambda x: x.get("hot_score", 0),
                     reverse=True
@@ -261,7 +289,7 @@ def _get_top_stories(base_dir: str, days: List[DayEntry], n: int = 10) -> List[d
                         "tags": it.get("tags", []),
                         "hn_id": hn_id,
                         "hn_time": hn.get("time", 0),
-                        "daily_url": s.rel_url,  # link to the daily page
+                        "daily_url": s.rel_url,
                         "hot_score": it.get("hot_score", 0),
                     })
                 return result

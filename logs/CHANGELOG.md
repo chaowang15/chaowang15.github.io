@@ -6,13 +6,13 @@
 
 ## 2026年2月22日 (JSON 和页面按 Hot Score 排序)
 
-修复 Index 页面 Today's Top Stories 和 Trending 页面的排序问题：之前 items 在 JSON 中按 score（投票数）降序存储，导致页面默认显示顺序不是按热度排列。
+修复 Index 页面 Today's Top Stories 和 Trending 页面的排序问题。之前 items 在 JSON 中按 score（投票数）降序存储，且 JSON 中缺少 `hot_score` 字段，导致排序失效。
 
 ### 变更内容
 
-1. **`main.py` (`run_scrape`)**：计算完 `hot_score` 后，重新按 `hot_score` 降序排列 items，然后再保存 JSON。这样 Trending 页面的 HTML 默认顺序就是按热度排列。
-2. **`main.py` (`rebuild_all_from_json`)**：同样在 rebuild 时按 `hot_score` 降序排列，确保历史页面也按热度排序。
-3. **`index_updater.py`**：`_get_top_stories()` 已经按 `hot_score` 降序排列（上一次提交已完成）。
+1. **`main.py` (`run_scrape`)**：计算完 `hot_score` 后，重新按 `hot_score` 降序排列 items，然后再保存 JSON。Trending 页面 HTML 默认顺序按热度排列。
+2. **`main.py` (`rebuild_all_from_json`)**：同样在 rebuild 时按 `hot_score` 降序排列。
+3. **`index_updater.py`**：`_get_top_stories()` 增加 fallback 逻辑——当 JSON 中缺少 `hot_score` 字段时，使用 `run_time_utc` 作为基准时间当场计算，确保无论 JSON 是新代码还是旧代码生成的，都能正确按热度排序。
 
 ### 排序流程
 
@@ -26,6 +26,7 @@
 ### 涉及文件
 
 - `news_scraper/main.py` — 添加 hot_score 降序排序（run_scrape + rebuild）
+- `news_scraper/index_updater.py` — 添加 hot_score fallback 计算 + 降序排序
 
 ---
 
