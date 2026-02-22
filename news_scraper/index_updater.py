@@ -323,10 +323,10 @@ def _collect_weekly_entries(base_dir: str) -> List[dict]:
         detail_parts = []
         if date_start and date_end:
             detail_parts.append(f"{date_start} — {date_end}")
-        if top_n and total_pool:
-            detail_parts.append(f"Top <b>{top_n}</b> from <b>{total_pool}</b> stories")
+        if total_pool:
+            detail_parts.append(f"All <b>{total_pool}</b>")
         elif top_n:
-            detail_parts.append(f"<b>{top_n}</b> stories")
+            detail_parts.append(f"All <b>{top_n}</b>")
 
         # Add top tags from tag_stats
         tag_stats = data.get("tag_stats", [])
