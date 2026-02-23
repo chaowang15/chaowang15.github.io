@@ -1,0 +1,12 @@
+# Scrape Run Log
+
+This file tracks every pipeline execution of the Hacker News Daily scraper.
+Each row records one `run_scrape()` invocation.
+
+---
+
+## 2026-02-23
+
+| Time (PST) | Trigger | Mode | Duration | Total Items | New (LLM) | Reused (same-day) | Reused (cross-day) | Tokens | Cost (USD) | Note |
+|------------|---------|------|----------|------------:|----------:|------------------:|-------------------:|------:|-----------:|------|
+| 05:17:39 | schedule | best | 203s | 50 | 35 | 0 | 15 | 28,511 | $0.0093 |  |
