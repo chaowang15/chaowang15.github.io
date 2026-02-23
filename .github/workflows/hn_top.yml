@@ -47,11 +47,35 @@ jobs:
         run: |
           python news_scraper/main.py top
 
-      - name: Verify outputs
+      - name: Pipeline summary
         run: |
-          echo "Latest outputs:"
-          find hackernews -type f \( -name "top_stories_*.md" -o -name "top_stories_*.json" \) | sort | tail -n 10
-
+          echo "## 📊 Pipeline Run Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| Metric | Value |" >> $GITHUB_STEP_SUMMARY
+          echo "|--------|-------|" >> $GITHUB_STEP_SUMMARY
+          echo "| Mode | top (Trending) |" >> $GITHUB_STEP_SUMMARY
+          echo "| Trigger | ${{ github.event_name }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Time (UTC) | $(date -u '+%Y-%m-%d %H:%M:%S') |" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Latest outputs" >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          find hackernews -type f \( -name "top_stories_*.md" -o -name "top_stories_*.json" \) | sort | tail -n 10 >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          if [ -f logs/scrape_run_log.md ]; then
+            echo "### Scrape Run Log (today)" >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+            tail -n 5 logs/scrape_run_log.md >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+          fi
+          echo "" >> $GITHUB_STEP_SUMMARY
+          if [ -f logs/openai_token_usage_log.md ]; then
+            echo "### Token Usage (latest batch)" >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+            tail -n 10 logs/openai_token_usage_log.md >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+          fi
+          
       - name: Commit & push
         run: |
           set -euxo pipefail
