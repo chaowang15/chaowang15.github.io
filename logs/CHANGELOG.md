@@ -4,6 +4,23 @@
 
 ---
 
+## 2026年2月23日 (HN API 重试机制 + 容错处理)
+
+**问题**：2026-02-23 07:14 UTC 的 routine scrape 因 `SSLError: UNEXPECTED_EOF_WHILE_READING` 失败。HN Firebase API 返回了一个不完整的 SSL 响应，导致整个 pipeline 崩溃。
+
+**根因**：`hn_api.py` 的 `_get_json()` 没有任何重试逻辑，一次网络错误就直接抛出异常；同时 `main.py` 的 `run_scrape()` 中 `get_item()` 调用也没有 try-except，单个 item 失败就导致整个 pipeline 中断。
+
+**修复**：
+- `hn_api.py`：`_get_json()` 增加 **3 次重试 + 指数退避**（SSLError / ConnectionError / Timeout）
+- `main.py`：`run_scrape()` 中 `get_item()` 调用外层加 try-except，单个 item 失败只 skip 不崩溃
+
+### 涉及文件
+
+- `news_scraper/hn_api.py` — 增加重试逻辑（max_retries=3, backoff 2/4/8s）
+- `news_scraper/main.py` — get_item 容错处理
+
+---
+
 ## 2026年2月22日 (Scrape Run Log + Token Log 格式修复)
 
 ### 1. Token Usage Log 格式修复

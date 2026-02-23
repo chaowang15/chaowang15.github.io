@@ -529,7 +529,12 @@ def run_scrape(mode: str, cfg: dict):
     raw_items = []
     skipped = 0
     for item_id in ids:
-        item = get_item(int(item_id))
+        try:
+            item = get_item(int(item_id))
+        except Exception as e:
+            print(f"  [WARN] Failed to fetch item {item_id}: {e}. Skipping.")
+            skipped += 1
+            continue
         if not item or item.get("type") != "story":
             skipped += 1
             continue
