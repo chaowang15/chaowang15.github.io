@@ -25,31 +25,43 @@ Each entry records the model, token counts, and estimated cost.
 | 05:00:03 | gpt-5-nano | llm_batch | 1,724 | 0 | 12,452 | 14,176 | $0.005067 | enrich 30 items, attempt 1 |
 | 05:00:52 | gpt-5-nano | tag_generator | 2,469 | 0 | 3,260 | 5,729 | $0.001427 | tag 25 items, attempt 1 |
 | 05:01:33 | gpt-5-nano | tag_generator | 2,465 | 0 | 4,143 | 6,608 | $0.001780 | tag 25 items, attempt 1 |
-| **TOTAL** | **3 calls** | — | **6,658** | **0** | **19,855** | **26,513** | **$0.008274** | Daily summary |
+| **Subtotal** | **3 calls** | — | **6,658** | **0** | **19,855** | **26,513** | **$0.008274** | Scrape #1 |
 
+| Time | Model | Caller | Input | Cached | Output | Total | Cost (USD) | Note |
+|------|-------|--------|------:|-------:|-------:|------:|-----------:|------|
 | 06:28:27 | gpt-5-nano | llm_batch | 1,183 | 0 | 9,161 | 10,344 | $0.003724 | enrich 18 items, attempt 1 |
 | 06:29:18 | gpt-5-nano | tag_generator | 2,607 | 0 | 4,476 | 7,083 | $0.001921 | tag 25 items, attempt 1 |
 | 06:29:50 | gpt-5-nano | tag_generator | 2,351 | 0 | 3,660 | 6,011 | $0.001582 | tag 24 items, attempt 1 |
-| **TOTAL** | **6 calls** | — | **12,799** | **0** | **37,152** | **49,951** | **$0.015501** | Daily summary |
+| **Subtotal** | **3 calls** | — | **6,141** | **0** | **17,297** | **23,438** | **$0.007227** | Scrape #2 |
 
+| Time | Model | Caller | Input | Cached | Output | Total | Cost (USD) | Note |
+|------|-------|--------|------:|-------:|-------:|------:|-----------:|------|
 | 10:32:59 | gpt-5-nano | llm_batch | 1,115 | 0 | 10,707 | 11,822 | $0.004339 | enrich 17 items, attempt 1 |
 | 10:34:17 | gpt-5-nano | llm_batch | 1,115 | 0 | 9,467 | 10,582 | $0.003843 | enrich 17 items, attempt 2 |
 | 10:35:01 | gpt-5-nano | tag_generator | 2,568 | 0 | 3,472 | 6,040 | $0.001517 | tag 25 items, attempt 1 |
 | 10:35:30 | gpt-5-nano | tag_generator | 2,645 | 0 | 3,888 | 6,533 | $0.001687 | tag 25 items, attempt 1 |
 | 10:35:53 | gpt-5-nano | tag_generator | 1,779 | 0 | 3,030 | 4,809 | $0.001301 | tag 16 items, attempt 1 |
-| **TOTAL** | **11 calls** | — | **22,021** | **0** | **67,716** | **89,737** | **$0.028188** | Daily summary |
+| **Subtotal** | **5 calls** | — | **9,222** | **0** | **30,564** | **39,786** | **$0.012687** | Scrape #3 |
 
+| Time | Model | Caller | Input | Cached | Output | Total | Cost (USD) | Note |
+|------|-------|--------|------:|-------:|-------:|------:|-----------:|------|
 | 14:15:23 | gpt-5-nano | llm_batch | 1,397 | 0 | 15,101 | 16,498 | $0.006110 | enrich 24 items, attempt 1 |
 | 14:15:54 | gpt-5-nano | tag_generator | 2,611 | 0 | 3,713 | 6,324 | $0.001616 | tag 25 items, attempt 1 |
 | 14:16:18 | gpt-5-nano | tag_generator | 2,556 | 0 | 4,330 | 6,886 | $0.001860 | tag 25 items, attempt 1 |
 | 14:16:40 | gpt-5-nano | tag_generator | 2,530 | 0 | 4,023 | 6,553 | $0.001736 | tag 25 items, attempt 1 |
 | 14:16:54 | gpt-5-nano | tag_generator | 1,573 | 0 | 2,635 | 4,208 | $0.001133 | tag 15 items, attempt 1 |
-| **TOTAL** | **16 calls** | — | **32,688** | **0** | **97,518** | **130,206** | **$0.040643** | Daily summary |
+| **Subtotal** | **5 calls** | — | **10,667** | **0** | **29,802** | **40,469** | **$0.012455** | Scrape #4 |
 
+| Time | Model | Caller | Input | Cached | Output | Total | Cost (USD) | Note |
+|------|-------|--------|------:|-------:|-------:|------:|-----------:|------|
 | 20:19:03 | gpt-5-nano | llm_batch | 1,550 | 0 | 11,874 | 13,424 | $0.004827 | enrich 25 items, attempt 1 |
 | 20:19:42 | gpt-5-nano | tag_generator | 2,400 | 0 | 3,378 | 5,778 | $0.001471 | tag 25 items, attempt 1 |
 | 20:20:11 | gpt-5-nano | tag_generator | 2,498 | 0 | 3,768 | 6,266 | $0.001632 | tag 25 items, attempt 1 |
 | 20:20:40 | gpt-5-nano | tag_generator | 2,703 | 0 | 3,243 | 5,946 | $0.001432 | tag 25 items, attempt 1 |
 | 20:21:14 | gpt-5-nano | tag_generator | 2,424 | 0 | 4,194 | 6,618 | $0.001799 | tag 25 items, attempt 1 |
-| **TOTAL** | **21 calls** | — | **44,263** | **0** | **123,975** | **168,238** | **$0.051804** | Daily summary |
+| **Subtotal** | **5 calls** | — | **11,575** | **0** | **26,457** | **38,032** | **$0.011161** | Scrape #5 |
+
+| | | | | | | | | |
+|------|-------|--------|------:|-------:|-------:|------:|-----------:|------|
+| **DAILY TOTAL** | **21 calls** | — | **44,263** | **0** | **123,975** | **168,238** | **$0.051804** | 2026-02-22 |
 

@@ -4,6 +4,49 @@
 
 ---
 
+## 2026年2月22日 (Scrape Run Log + Token Log 格式修复)
+
+### 1. Token Usage Log 格式修复
+
+**问题**：`openai_token_usage_log.md` 中 2026-02-22 的表格从第二个 scrape batch 开始全部显示为原始 pipe 文本，无法渲染为 Markdown 表格。
+
+**根因**：`token_logger.py` 的 `log_token_usage()` 在当天 section 已存在时不会重新写入 table header 行。当 `log_daily_summary()` 写入 TOTAL 行后，下一次 scrape 的数据行直接追加，缺少 header 导致 Markdown 无法识别为表格。
+
+**修复**：
+- `log_token_usage()`：检测文件末尾是否为 TOTAL/Subtotal 行，如果是则自动插入新的 table header
+- `log_daily_summary()`：改为只计算当前 batch 的 subtotal（而非累计），输出 `**Subtotal**` 行
+- 手动修复了 2026-02-22 的历史数据，每个 batch 独立成表并附带正确的 Subtotal
+
+### 2. Scrape Run Log（新功能）
+
+新增 `logs/scrape_run_log.md`，每次 pipeline 执行时自动记录一行，包含：
+
+| 字段 | 说明 |
+|------|------|
+| Time (PST) | 执行时间 |
+| Trigger | schedule / manual / local |
+| Mode | top / best |
+| Duration | 运行耗时 |
+| Total Items | 最终 JSON 中的条目数 |
+| New (LLM) | 需要 LLM enrichment 的新条目 |
+| Reused (same-day) | 当天已有的复用条目 |
+| Reused (cross-day) | 跨天复用的条目 |
+| Tokens | 本次运行消耗的总 token 数 |
+| Cost (USD) | 估算费用 |
+
+同时在 GitHub Actions 中增加了 **Job Summary**，每次运行后可在 Actions 页面直接查看 pipeline 摘要、scrape run log 和 token usage。
+
+### 涉及文件
+
+- `news_scraper/token_logger.py` — 修复 table header 缺失 bug；添加 session accumulator
+- `news_scraper/run_logger.py` — 新增 scrape run log 模块
+- `news_scraper/main.py` — 集成 run_logger；在 run_scrape 中 reset/collect session stats
+- `logs/openai_token_usage_log.md` — 手动修复 2026-02-22 历史数据格式
+- `.github/workflows/hn_top.yml` — 增加 Pipeline Summary step
+- `.github/workflows/hn_best.yml` — 增加 Pipeline Summary step
+
+---
+
 ## 2026年2月22日 (JSON 和页面按 Hot Score 排序)
 
 修复 Index 页面 Today's Top Stories 和 Trending 页面的排序问题。之前 items 在 JSON 中按 score（投票数）降序存储，且 JSON 中缺少 `hot_score` 字段，导致排序失效。

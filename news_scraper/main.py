@@ -37,7 +37,8 @@ from index_updater import update_hackernews_index
 from search_index_builder import build_search_index
 from tag_cloud_builder import build_tag_cloud
 from tag_trend_builder import build_tag_trend
-from token_logger import log_daily_summary
+from token_logger import log_daily_summary, reset_session_stats, get_session_stats
+from run_logger import log_scrape_run
 from rss_builder import build_rss_feed
 from share_page_builder import build_share_pages
 from backup_io import write_backup_json, read_backup_json
@@ -446,6 +447,7 @@ def run_scrape(mode: str, cfg: dict):
       - Sort: all items sorted by score descending
     """
     t_start = time.time()
+    reset_session_stats()  # Reset token accumulator for this run
 
     tz_name = cfg["timezone"]
 
@@ -877,6 +879,26 @@ def run_scrape(mode: str, cfg: dict):
     print(f"[DONE] mode={mode}, content_date={content_dt.strftime('%Y-%m-%d')}, run={scrape_time_str}")
     print(f"[DONE] Same-day reused: {reused_same_day}, Cross-day reused: {reused_cross_day}, New LLM: {len(new_items_for_llm)}")
     print("=" * 70)
+
+    # Log this scrape run to scrape_run_log.md
+    try:
+        session = get_session_stats()
+        trigger = "schedule" if is_scheduled else (
+            "manual" if event_name == "workflow_dispatch" else "local"
+        )
+        log_scrape_run(
+            mode=mode,
+            trigger=trigger,
+            duration_sec=elapsed,
+            total_items=len(items_for_render),
+            new_llm=len(new_items_for_llm),
+            reused_same_day=reused_same_day,
+            reused_cross_day=reused_cross_day,
+            total_tokens=session["total_tokens"],
+            total_cost=session["total_cost"],
+        )
+    except Exception as e:
+        print(f"[WARN] Failed to write scrape run log: {e}")
 
 
 def main():
