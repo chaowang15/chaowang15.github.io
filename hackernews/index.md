@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>8</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>915</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>8</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>6</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-02-23</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>9</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>964</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>8</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>7</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-02-24</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,118 +20,118 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='76' data-hn-time='1771912043'>
+<div class='hn-top-story-item' data-hn-score='99' data-hn-time='1771938256'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/02/23/top_stories_02232026#story-47133313'>Firefox 148 Launches with AI Kill Switch Feature and More Enhancements</a>
- <a class='hn-top-story-link' href='https://serverhost.com/blog/firefox-148-launches-with-exciting-ai-kill-switch-feature-and-more-enhancements/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/02/24/top_stories_02242026#story-47136611'>Goodbye InnerHTML, Hello SetHTML: Stronger XSS Protection in Firefox 148</a>
+ <a class='hn-top-story-link' href='https://hacks.mozilla.org/2026/02/goodbye-innerhtml-hello-sethtml-stronger-xss-protection-in-firefox-148/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Firefox 148 发布，新增 AI 关停开关及其他改进</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.3</span> <span class='hn-top-story-score'>&#9650; 76</span> <span class='hn-top-story-comments'>&#128172; 28</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>告别 InnerHTML，迎来 SetHTML：Firefox 148 加强 XSS 保护</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.9</span> <span class='hn-top-story-score'>&#9650; 99</span> <span class='hn-top-story-comments'>&#128172; 42</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='182' data-hn-time='1771902616'>
+<div class='hn-top-story-item' data-hn-score='360' data-hn-time='1771912043'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/02/23/top_stories_02232026#story-47132388'>Blood test boosts Alzheimer's diagnosis accuracy to 94.5%, clinical study shows</a>
- <a class='hn-top-story-link' href='https://medicalxpress.com/news/2026-02-blood-boosts-alzheimer-diagnosis-accuracy.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/02/24/top_stories_02242026#story-47133313'>Firefox 148 Launches with AI Kill Switch Feature and More Enhancements</a>
+ <a class='hn-top-story-link' href='https://serverhost.com/blog/firefox-148-launches-with-exciting-ai-kill-switch-feature-and-more-enhancements/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>血液检测将阿尔茨海默病诊断准确率提升至94.5%，临床研究证实</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.2</span> <span class='hn-top-story-score'>&#9650; 182</span> <span class='hn-top-story-comments'>&#128172; 56</span> <span class='hn-top-story-tag'>Health</span></div>
+<div class='hn-top-story-zh'>Firefox 148 发布，新增 AI 关停开关及其他改进</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.7</span> <span class='hn-top-story-score'>&#9650; 360</span> <span class='hn-top-story-comments'>&#128172; 304</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='1381' data-hn-time='1771856559'>
+<div class='hn-top-story-item' data-hn-score='1553' data-hn-time='1771856559'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/02/23/top_stories_02232026#story-47122715'>The Age Verification Trap: Verifying age undermines everyone's data protection</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/02/24/top_stories_02242026#story-47122715'>The Age Verification Trap: Verifying age undermines everyone's data protection</a>
  <a class='hn-top-story-link' href='https://spectrum.ieee.org/age-verification' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>年龄验证陷阱：核验年龄削弱了大家的数据保护</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.0</span> <span class='hn-top-story-score'>&#9650; 1381</span> <span class='hn-top-story-comments'>&#128172; 1049</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.3</span> <span class='hn-top-story-score'>&#9650; 1553</span> <span class='hn-top-story-comments'>&#128172; 1189</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Design</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='612' data-hn-time='1771873474'>
+<div class='hn-top-story-item' data-hn-score='345' data-hn-time='1771902616'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/02/23/top_stories_02232026#story-47127081'>Americans are destroying Flock surveillance cameras</a>
- <a class='hn-top-story-link' href='https://techcrunch.com/2026/02/23/americans-are-destroying-flock-surveillance-cameras/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/02/24/top_stories_02242026#story-47132388'>Blood test boosts Alzheimer's diagnosis accuracy to 94.5%, clinical study shows</a>
+ <a class='hn-top-story-link' href='https://medicalxpress.com/news/2026-02-blood-boosts-alzheimer-diagnosis-accuracy.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>美国人正在破坏 Flock 监控摄像头</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.2</span> <span class='hn-top-story-score'>&#9650; 612</span> <span class='hn-top-story-comments'>&#128172; 417</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>血液检测将阿尔茨海默病诊断准确率提升至94.5%，临床研究证实</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 345</span> <span class='hn-top-story-comments'>&#128172; 134</span> <span class='hn-top-story-tag'>Health</span> <span class='hn-top-story-tag'>Science</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='1142' data-hn-time='1771846162'>
+<div class='hn-top-story-item' data-hn-score='54' data-hn-time='1771934354'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/02/23/top_stories_02232026#story-47120899'>Ladybird adopts Rust, with help from AI</a>
- <a class='hn-top-story-link' href='https://ladybird.org/posts/adopting-rust/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/02/24/top_stories_02242026#story-47136036'>Discord cuts ties with Peter Thiel-backed verification software</a>
+ <a class='hn-top-story-link' href='https://fortune.com/2026/02/24/discord-peter-thiel-backed-persona-identity-verification-breach/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Ladybird 项目采用 Rust 编程语言</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.5</span> <span class='hn-top-story-score'>&#9650; 1142</span> <span class='hn-top-story-comments'>&#128172; 625</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>Discord 终止与彼得·蒂尔支持的身份验证软件的合作</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 54</span> <span class='hn-top-story-comments'>&#128172; 16</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='482' data-hn-time='1771874610'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1215' data-hn-time='1771846162'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/02/23/top_stories_02232026#story-47127396'>Binance fired employees who found $1.7B in crypto was sent to Iran</a>
- <a class='hn-top-story-link' href='https://www.nytimes.com/2026/02/23/technology/binance-employees-iran-firings.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/02/24/top_stories_02242026#story-47120899'>Ladybird adopts Rust, with help from AI</a>
+ <a class='hn-top-story-link' href='https://ladybird.org/posts/adopting-rust/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>币安解雇发现约17亿美元加密资金流向伊朗的员工</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.3</span> <span class='hn-top-story-score'>&#9650; 482</span> <span class='hn-top-story-comments'>&#128172; 206</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>Ladybird 项目采用 Rust 编程语言</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 1215</span> <span class='hn-top-story-comments'>&#128172; 678</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='334' data-hn-time='1771883068'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='399' data-hn-time='1771883068'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/02/23/top_stories_02232026#story-47129361'>FreeBSD doesn't have Wi-Fi driver for my old MacBook, so AI built one for me</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/02/24/top_stories_02242026#story-47129361'>FreeBSD doesn't have Wi-Fi driver for my old MacBook, so AI built one for me</a>
  <a class='hn-top-story-link' href='https://vladimir.varank.in/notes/2026/02/freebsd-brcmfmac/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>FreeBSD 没有为我的老款 MacBook 提供 Wi-Fi 驱动，结果 AI 给我写了一个</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 334</span> <span class='hn-top-story-comments'>&#128172; 271</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 399</span> <span class='hn-top-story-comments'>&#128172; 320</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='159' data-hn-time='1771893186'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='143' data-hn-time='1771909490'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/02/23/top_stories_02232026#story-47131173'>Shatner is making an album with 35 metal icons</a>
- <a class='hn-top-story-link' href='https://www.guitarworld.com/artists/guitarists/william-shatner-announces-all-star-metal-album' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/02/24/top_stories_02242026#story-47133055'>Show HN: enveil – hide your .env secrets from prAIng eyes</a>
+ <a class='hn-top-story-link' href='https://github.com/GreatScott/enveil' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>夏特纳将与35位金属乐坛大咖合作新专辑</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 159</span> <span class='hn-top-story-comments'>&#128172; 68</span> <span class='hn-top-story-tag'>Entertainment</span></div>
+<div class='hn-top-story-zh'>Show HN：enveil — 将 .env 密钥隐藏，防止被窥探</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.7</span> <span class='hn-top-story-score'>&#9650; 143</span> <span class='hn-top-story-comments'>&#128172; 86</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='82' data-hn-time='1771900034'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1569' data-hn-time='1771787551'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/02/23/top_stories_02232026#story-47132102'>Show HN: X86CSS – An x86 CPU emulator written in CSS</a>
- <a class='hn-top-story-link' href='https://lyra.horse/x86css/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/02/24/top_stories_02242026#story-47113728'>I built Timeframe, our family e-paper dashboard</a>
+ <a class='hn-top-story-link' href='https://hawksley.org/2026/02/17/timeframe.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Show HN: X86CSS——一个用 CSS 编写的 x86 CPU 模拟器</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 82</span> <span class='hn-top-story-comments'>&#128172; 24</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>Timeframe，我们家的电子纸仪表板</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.6</span> <span class='hn-top-story-score'>&#9650; 1569</span> <span class='hn-top-story-comments'>&#128172; 362</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Design</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='141' data-hn-time='1771891125'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='240' data-hn-time='1771893482'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/02/23/top_stories_02232026#story-47130860'>I Ported Coreboot to the ThinkPad X270</a>
- <a class='hn-top-story-link' href='https://dork.dev/posts/2026-02-20-ported-coreboot/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/02/24/top_stories_02242026#story-47131225'>Show HN: Steerling-8B, a language model that can explain any token it generates</a>
+ <a class='hn-top-story-link' href='https://www.guidelabs.ai/post/steerling-8b-base-model-release/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>我将 Coreboot 移植到 ThinkPad X270</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 141</span> <span class='hn-top-story-comments'>&#128172; 25</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>Show HN: Steerling-8B，一种能够解释其生成的任意标记的语言模型</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.6</span> <span class='hn-top-story-score'>&#9650; 240</span> <span class='hn-top-story-comments'>&#128172; 70</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
-<a class='hn-top-stories-more' href='/hackernews/2026/02/23/top_stories_02232026'>View all trending stories &rarr;</a>
+<a class='hn-top-stories-more' href='/hackernews/2026/02/24/top_stories_02242026'>View all trending stories &rarr;</a>
 </div>
 </div>
 <div class='hn-index-section hn-weekly-section'>
@@ -146,6 +146,15 @@ Sort:
 <div class='hn-index-section hn-daily-section'>
 <h3 class='hn-section-title'>Daily News <span class='hn-section-zh'>每日新闻</span></h3>
 <div class='hn-grid'>
+<div class='hn-day-row'>
+<div class='hn-day-date'>2026-02-24 <span class='hn-day-weekday'>Tue</span></div>
+<div class='hn-day-stories'>
+<a class='hn-story-link' href='/hackernews/2026/02/24/top_stories_02242026'>
+<span class='hn-row-type hn-type-top'>Trending</span>
+<span class='hn-row-detail'>All <b>49</b> <span class="hn-row-sep">·</span> Programming <b>16</b> <span class="hn-row-sep">·</span> Hardware <b>12</b></span>
+</a>
+</div>
+</div>
 <div class='hn-day-row'>
 <div class='hn-day-date'>2026-02-23 <span class='hn-day-weekday'>Mon</span></div>
 <div class='hn-day-stories'>
