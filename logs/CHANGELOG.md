@@ -4,6 +4,16 @@
 
 ---
 
+## 2026年2月23日 (修复 Share 链接 404)
+
+**问题**：点击新闻卡片的分享按钮后，生成的链接（如 `/hackernews/share/47115805.html`）打开后显示 404。
+
+**根因**：`build_share_pages()` 在 `run_scrape()` 末尾调用，但最近的 routine scrape 因 SSL 错误失败，导致 pipeline 中断，新的 share 页面未生成。已有的 share 文件只到 ID 47108538，而最新新闻已到 47117459。
+
+**修复**：本地运行 `build_share_pages()` 生成了 69 个缺失的 share 页面（总计 357 个）。同时上述 HN API 重试机制已修复，后续 routine scrape 应能正常生成 share 页面。
+
+---
+
 ## 2026年2月23日 (HN API 重试机制 + 容错处理)
 
 **问题**：2026-02-23 07:14 UTC 的 routine scrape 因 `SSLError: UNEXPECTED_EOF_WHILE_READING` 失败。HN Firebase API 返回了一个不完整的 SSL 响应，导致整个 pipeline 崩溃。
