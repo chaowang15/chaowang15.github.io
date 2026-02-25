@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>10</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>1114</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>9</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>8</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-02-25</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>10</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>1137</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>9</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>8</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-02-25</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='220' data-hn-time='1772026277'>
+<div class='hn-top-story-item' data-hn-score='524' data-hn-time='1772026277'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/02/25/top_stories_02252026#story-47151233'>Never Buy A .online Domain</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/02/25/top_stories_02252026#story-47151233'>Never buy a .online domain</a>
  <a class='hn-top-story-link' href='https://www.0xsid.com/blog/online-tld-is-pain' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>永远别买 .online 域名</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 25</span> <span class='hn-top-story-score'>&#9650; 220</span> <span class='hn-top-story-comments'>&#128172; 93</span> <span class='hn-top-story-tag'>Web</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 14</span> <span class='hn-top-story-score'>&#9650; 524</span> <span class='hn-top-story-comments'>&#128172; 300</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='400' data-hn-time='1772014582'>
+<div class='hn-top-story-item' data-hn-score='155' data-hn-time='1772037894'>
 <span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/02/25/top_stories_02252026#story-47154009'>Following 35% growth, solar has passed hydro on US grid</a>
+ <a class='hn-top-story-link' href='https://arstechnica.com/science/2026/02/final-2025-data-is-in-us-energy-use-is-up-as-solar-passes-hydro/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>在35% 的增长后，太阳能在美国电网中的发电量超过水电</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 155</span> <span class='hn-top-story-comments'>&#128172; 91</span> <span class='hn-top-story-tag'>Energy</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='298' data-hn-time='1772030897'>
+<span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/02/25/top_stories_02252026#story-47152252'>US orders diplomats to fight data sovereignty initiatives</a>
+ <a class='hn-top-story-link' href='https://www.reuters.com/sustainability/boards-policy-regulation/us-orders-diplomats-fight-data-sovereignty-initiatives-2026-02-25/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>美国下令外交官对抗数据主权倡议</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 298</span> <span class='hn-top-story-comments'>&#128172; 262</span> <span class='hn-top-story-tag'>Politics</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='306' data-hn-time='1772030241'>
+<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/02/25/top_stories_02252026#story-47152085'>New accounts on HN 10x more likely to use em-dashes</a>
+ <a class='hn-top-story-link' href='https://www.marginalia.nu/weird-ai-crap/hn/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>HN 新账号更可能在帖子中使用破折号</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 306</span> <span class='hn-top-story-comments'>&#128172; 255</span> <span class='hn-top-story-tag'>Culture</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='144' data-hn-time='1772037086'>
+<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/02/25/top_stories_02252026#story-47153798'>Bus stop balancing is fast, cheap, and effective</a>
+ <a class='hn-top-story-link' href='https://worksinprogress.co/issue/the-united-states-needs-fewer-bus-stops/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>公交站点平衡：快速、低成本且高效</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.4</span> <span class='hn-top-story-score'>&#9650; 144</span> <span class='hn-top-story-comments'>&#128172; 227</span> <span class='hn-top-story-tag'>Science</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='613' data-hn-time='1772014582'>
+<span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/02/25/top_stories_02252026#story-47149701'>Danish government agency to ditch Microsoft software (2025)</a>
  <a class='hn-top-story-link' href='https://therecord.media/denmark-digital-agency-microsoft-digital-independence' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>丹麦政府机构将放弃微软软件以实现数字独立</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 13</span> <span class='hn-top-story-score'>&#9650; 400</span> <span class='hn-top-story-comments'>&#128172; 231</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.5</span> <span class='hn-top-story-score'>&#9650; 613</span> <span class='hn-top-story-comments'>&#128172; 314</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='66' data-hn-time='1772024856'>
-<span class='hn-top-story-rank'>3</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/02/25/top_stories_02252026#story-47151000'>AIs can't stop recommending nuclear strikes in war game simulations</a>
- <a class='hn-top-story-link' href='https://www.newscientist.com/article/2516885-ais-cant-stop-recommending-nuclear-strikes-in-war-game-simulations/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>AI 在战争游戏模拟中无法停止建议核打击</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.1</span> <span class='hn-top-story-score'>&#9650; 66</span> <span class='hn-top-story-comments'>&#128172; 70</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Energy</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='28' data-hn-time='1772029034'>
-<span class='hn-top-story-rank'>4</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/02/25/top_stories_02252026#story-47151784'>Show HN: Clocksimulator.com – A minimalist, distraction-free analog clock</a>
- <a class='hn-top-story-link' href='https://www.clocksimulator.com/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Show HN：Clocksimulator.com——极简、无干扰的模拟钟表</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.9</span> <span class='hn-top-story-score'>&#9650; 28</span> <span class='hn-top-story-comments'>&#128172; 18</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Web</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='1912' data-hn-time='1771935405'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/02/25/top_stories_02252026#story-47136179'>IDF killed Gaza aid workers at point blank range in 2025 massacre: Report</a>
- <a class='hn-top-story-link' href='https://www.dropsitenews.com/p/israeli-soldiers-tel-sultan-gaza-red-crescent-civil-defense-massacre-report-forensic-architecture-earshot' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>IDF Killed Gaza Aid Workers at Point Blank Range in 2025 Massacre: Report</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.6</span> <span class='hn-top-story-score'>&#9650; 1912</span> <span class='hn-top-story-comments'>&#128172; 766</span> <span class='hn-top-story-tag'>Politics</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='169' data-hn-time='1772010340'>
-<span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/02/25/top_stories_02252026#story-47149151'>LLM=True</a>
- <a class='hn-top-story-link' href='https://blog.codemine.be/posts/2026/20260222-be-quiet/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>LLM=True</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 169</span> <span class='hn-top-story-comments'>&#128172; 110</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='557' data-hn-time='1771981245'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='61' data-hn-time='1772041767'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/02/25/top_stories_02252026#story-47145907'>Amazon accused of widespread scheme to inflate prices across the economy</a>
- <a class='hn-top-story-link' href='https://www.thebignewsletter.com/p/amazon-busted-for-widespread-price' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/02/25/top_stories_02252026#story-47154983'>The Pentagon Threatens Anthropic</a>
+ <a class='hn-top-story-link' href='https://www.astralcodexten.com/p/the-pentagon-threatens-anthropic' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>亚马逊被指控在全美范围内策划抬高价格的广泛计划</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 557</span> <span class='hn-top-story-comments'>&#128172; 216</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>五角大楼威胁 Anthropic</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.3</span> <span class='hn-top-story-score'>&#9650; 61</span> <span class='hn-top-story-comments'>&#128172; 20</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='120' data-hn-time='1772013765'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='52' data-hn-time='1772041024'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/02/25/top_stories_02252026#story-47149586'>Show HN: A real-time strategy game that AI agents can play</a>
- <a class='hn-top-story-link' href='https://llmskirmish.com/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/02/25/top_stories_02252026#story-47154803'>Sandboxes won't save you from OpenClaw</a>
+ <a class='hn-top-story-link' href='https://tachyon.so/blog/sandboxes-wont-save-you' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Show HN：一个 AI 代理能玩的实时战略游戏</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.8</span> <span class='hn-top-story-score'>&#9650; 120</span> <span class='hn-top-story-comments'>&#128172; 37</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Gaming</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>沙箱不能保护你免受 OpenClaw 攻击</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.5</span> <span class='hn-top-story-score'>&#9650; 52</span> <span class='hn-top-story-comments'>&#128172; 47</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1004' data-hn-time='1771953317'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='71' data-hn-time='1772038053'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/02/25/top_stories_02252026#story-47139675'>I'm helping my dog vibe code games</a>
- <a class='hn-top-story-link' href='https://www.calebleak.com/posts/dog-game/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/02/25/top_stories_02252026#story-47154042'>Racket v9.1</a>
+ <a class='hn-top-story-link' href='https://blog.racket-lang.org/2026/02/racket-v9-1.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>我在帮我的狗玩转编码游戏</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 1004</span> <span class='hn-top-story-comments'>&#128172; 327</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>Racket 9.1</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.2</span> <span class='hn-top-story-score'>&#9650; 71</span> <span class='hn-top-story-comments'>&#128172; 8</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Education</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='479' data-hn-time='1771981726'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='75' data-hn-time='1772037520'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/02/25/top_stories_02252026#story-47145963'>Anthropic Drops Flagship Safety Pledge</a>
- <a class='hn-top-story-link' href='https://time.com/7380854/exclusive-anthropic-drops-flagship-safety-pledge/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/02/25/top_stories_02252026#story-47153924'>The Misuses of the University</a>
+ <a class='hn-top-story-link' href='https://www.publicbooks.org/the-misuses-of-the-university/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Anthropic 放弃其旗舰安全承诺</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 479</span> <span class='hn-top-story-comments'>&#128172; 247</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>高校的误用</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.1</span> <span class='hn-top-story-score'>&#9650; 75</span> <span class='hn-top-story-comments'>&#128172; 47</span> <span class='hn-top-story-tag'>Education</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -151,7 +151,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/02/25/top_stories_02252026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>49</b> <span class="hn-row-sep">·</span> Programming <b>17</b> <span class="hn-row-sep">·</span> AI <b>12</b></span>
+<span class='hn-row-detail'>All <b>72</b> <span class="hn-row-sep">·</span> Programming <b>24</b> <span class="hn-row-sep">·</span> AI <b>15</b></span>
 </a>
 </div>
 </div>
