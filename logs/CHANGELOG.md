@@ -4,13 +4,27 @@
 
 ---
 
-## 2026年2月23日 (修复 Share 链接 404)
+## 2026年2月25日 (修复 Share 链接 404 — 根因修复)
+
+**问题**：Feb 23–25 的新闻 share 链接全部 404。之前补生成的 Feb 22 share 页面正常，但后续 routine scrape 仍然不生成新的 share 文件。
+
+**根因**：`main.py` 中 `build_share_pages(base_dir)` 传入的是 `base_dir="hackernews"`，但 `share_page_builder.py` 期望接收 **repo 根目录**。内部用 `os.path.join(repo_root, "hackernews/2026/**/*.json")` 查找 JSON，当 `repo_root="hackernews"` 时路径变成 `hackernews/hackernews/2026/**/*.json`，找不到任何文件，因此生成 0 个 share 页面。
+
+**修复**：
+- `main.py` 两处调用改为 `build_share_pages(".")` 传入 repo 根目录
+- 本地补生成 214 个缺失的 share 页面（总计 571 个，覆盖 Feb 22–25 所有新闻）
+
+**涉及文件**：`news_scraper/main.py`（第 418, 952 行）
+
+---
+
+## 2026年2月23日 (临时补生成 Share 页面)
 
 **问题**：点击新闻卡片的分享按钮后，生成的链接（如 `/hackernews/share/47115805.html`）打开后显示 404。
 
-**根因**：`build_share_pages()` 在 `run_scrape()` 末尾调用，但最近的 routine scrape 因 SSL 错误失败，导致 pipeline 中断，新的 share 页面未生成。已有的 share 文件只到 ID 47108538，而最新新闻已到 47117459。
+**根因**：`build_share_pages()` 在 `run_scrape()` 末尾调用，但参数传错导致从未实际生成文件（见上条）。同时最近的 routine scrape 因 SSL 错误失败也加剧了问题。
 
-**修复**：本地运行 `build_share_pages()` 生成了 69 个缺失的 share 页面（总计 357 个）。同时上述 HN API 重试机制已修复，后续 routine scrape 应能正常生成 share 页面。
+**修复**：本地运行 `build_share_pages('.')` 临时补生成了 69 个缺失的 share 页面。
 
 ---
 

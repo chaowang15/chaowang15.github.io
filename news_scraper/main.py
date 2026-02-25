@@ -414,8 +414,8 @@ def rebuild_all_from_json(cfg: dict, max_items: int = 3650):
     build_tag_trend(base_dir=base_dir)
     # Build RSS feed
     build_rss_feed(base_dir=base_dir)
-    # Build share pages for OG previews
-    build_share_pages(base_dir)
+    # Build share pages for OG previews (needs repo root, not base_dir)
+    build_share_pages(".")
 
 
     # Clean index too
@@ -948,8 +948,8 @@ def main():
     build_tag_trend(base_dir=base_dir)
     # Build RSS feed
     build_rss_feed(base_dir=base_dir)
-    # Build share pages for OG previews
-    build_share_pages(base_dir)
+    # Build share pages for OG previews (needs repo root, not base_dir)
+    build_share_pages(".")
 
 
     # Clean index page
