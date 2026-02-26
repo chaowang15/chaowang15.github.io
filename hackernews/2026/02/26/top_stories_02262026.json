@@ -4,21 +4,43 @@
     "source": "https://news.ycombinator.com/",
     "api": "https://github.com/HackerNews/API",
     "count_requested": 50,
-    "count_written": 49,
-    "reused_same_day": 0,
-    "reused_cross_day": 28,
-    "new_llm_enriched": 20,
-    "scrape_time_display": "06:47, February 26, 2026 (PST)",
+    "count_written": 75,
+    "reused_same_day": 23,
+    "reused_cross_day": 0,
+    "new_llm_enriched": 26,
+    "scrape_time_display": "10:49, February 26, 2026 (PST)",
     "timezone": "America/Los_Angeles",
     "date_dir": "2026/02/26",
     "content_date": "2026-02-26",
-    "run_time_local": "06:47, February 26, 2026 (PST)",
-    "run_time_utc": "2026-02-26 14:47:07 UTC",
+    "run_time_local": "10:49, February 26, 2026 (PST)",
+    "run_time_utc": "2026-02-26 18:49:11 UTC",
     "incremental": true,
     "stories_max": 100,
-    "hot_score_time_utc": "2026-02-26 14:48:42 UTC"
+    "hot_score_time_utc": "2026-02-26 18:51:30 UTC"
   },
   "items": [
+    {
+      "title_en": "Nano Banana 2: Google's latest AI image generation model",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/nano-banana-2/",
+      "title_zh": "Nano Banana 2：谷歌最新的 AI 图像生成模型",
+      "created_display": "Created: Feb 26, 2026 / 08:02 PT",
+      "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/NB2_SS.width-1300.png",
+      "summary_en": "Nano Banana 2 is Google's latest AI image generation model focusing on efficiency and quality, enabling faster generation with a smaller footprint—potentially on-device. It could broaden access to high-quality generative visuals and influence creator workflows, while amplifying discussions about AI-generated media provenance and misuse.",
+      "summary_zh": "Nano Banana 2 是谷歌最新的 AI 图像生成模型，强调高效性与高质量，可能实现更快的生成并具备更小的算力占用，甚至支持设备端运行。它将扩大高质量生成视觉内容的可及性，影响创作者的工作流程，同时引发对 AI 生成媒体出处与滥用的讨论。",
+      "hn": {
+        "id": 47167858,
+        "type": "story",
+        "by": "davidbarker",
+        "score": 294,
+        "descendants": 283,
+        "time": 1772121757,
+        "comments_url": "https://news.ycombinator.com/item?id=47167858"
+      },
+      "hot_score": 17.31,
+      "tags": [
+        "AI"
+      ]
+    },
     {
       "title_en": "Anthropic ditches its core safety promise",
       "url": "https://www.cnn.com/2026/02/25/tech/anthropic-safety-policy-change",
@@ -31,12 +53,285 @@
         "id": 47165397,
         "type": "story",
         "by": "motbus3",
-        "score": 152,
-        "descendants": 72,
+        "score": 527,
+        "descendants": 298,
         "time": 1772110370,
         "comments_url": "https://news.ycombinator.com/item?id=47165397"
       },
-      "hot_score": 12.85,
+      "tags": [
+        "AI"
+      ],
+      "hot_score": 12.52
+    },
+    {
+      "title_en": "AirSnitch: Demystifying and breaking client isolation in Wi-Fi networks [pdf]",
+      "url": "https://www.ndss-symposium.org/wp-content/uploads/2026-f1282-paper.pdf",
+      "title_zh": "AirSnitch：揭示并突破 Wi‑Fi 网络中的客户端隔离",
+      "created_display": "Created: Feb 26, 2026 / 07:55 PT",
+      "image_url": null,
+      "summary_en": "AirSnitch demystifies client isolation and demonstrates how it can be bypassed in common Wi‑Fi setups. The paper shows potential opportunities for eavesdropping or lateral movement between devices on poorly isolated networks, underscoring why robust isolation, segmentation, and monitoring matter for security. For both home users and enterprises, this work is a reminder to re-evaluate default access controls and firmware hygiene.",
+      "summary_zh": "AirSnitch 通过揭示客户端隔离的工作原理并演示在常见 Wi‑Fi 设置中如何被绕过，点出潜在的窃听与横向移动风险。此举强调对接入点隔离、网络分段以及固件更新等安全要点的重要性。无论家庭还是企业网络，这都提醒应重新评估默认访问控制与设备固件的健康状态。",
+      "hn": {
+        "id": 47167763,
+        "type": "story",
+        "by": "DamnInteresting",
+        "score": 193,
+        "descendants": 99,
+        "time": 1772121348,
+        "comments_url": "https://news.ycombinator.com/item?id=47167763"
+      },
+      "hot_score": 10.88,
+      "tags": [
+        "Security"
+      ]
+    },
+    {
+      "title_en": "Open Source Endowment – new funding source for open source maintainers",
+      "url": "https://endowment.dev/",
+      "title_zh": "开源捐赠基金——为维护者提供的新资金来源",
+      "created_display": "Created: Feb 26, 2026 / 08:13 PT",
+      "image_url": "https://endowment.dev/images/opengraph.png",
+      "summary_en": "Open Source Endowment provides a structured funding channel for OSS maintainers, aiming to stabilize long-term sustainability beyond ad-hoc sponsorships. By offering transparent grants and governance, it could shift how maintainers plan roadmaps and community contributions.",
+      "summary_zh": "开源捐赠基金为开源维护者提供了一个结构化的资金渠道，旨在让长期可持续性不再完全依赖零散赞助。通过透明的资助与治理，它可能改变维护者的路线规划与社区贡献方式。",
+      "hn": {
+        "id": 47168012,
+        "type": "story",
+        "by": "kvinogradov",
+        "score": 122,
+        "descendants": 69,
+        "time": 1772122386,
+        "comments_url": "https://news.ycombinator.com/item?id=47168012"
+      },
+      "hot_score": 7.64,
+      "tags": [
+        "Open Source"
+      ]
+    },
+    {
+      "title_en": "Twitch: \"Hey, come back! This commercial break can't play while you're away.\"",
+      "url": "https://twitter.com/KryDotExe/status/2026806591517856208",
+      "title_zh": "Twitch：离开时广告中断不能播放的测试",
+      "created_display": "Created: Feb 26, 2026 / 10:11 PT",
+      "image_url": "https://pbs.twimg.com/media/HCCptPrXEAEB_aI.jpg:large",
+      "summary_en": "Twitch experiments with ad-inventory UX by prompting a return when a user is away, illustrating the tension between monetization and a seamless viewing experience. The idea reflects growing sophistication in ad scheduling and viewer behavior analytics, with implications for creators and platforms.",
+      "summary_zh": "Twitch 正在测试在用户离开时通过提示返回来触发广告中断的体验，显示了广告收益与无缝观看体验之间的张力。此举体现了广告排期与观众行为分析的日益成熟，对创作者和平台都具有影响。",
+      "hn": {
+        "id": 47169748,
+        "type": "story",
+        "by": "josephcsible",
+        "score": 45,
+        "descendants": 21,
+        "time": 1772129516,
+        "comments_url": "https://news.ycombinator.com/item?id=47169748"
+      },
+      "hot_score": 7.57,
+      "tags": [
+        "Business",
+        "Data"
+      ]
+    },
+    {
+      "title_en": "Tell HN: YC companies scrape GitHub activity, send spam emails to users",
+      "url": "https://news.ycombinator.com/item?id=47163885",
+      "title_zh": "Tell HN: YC 公司抓取 GitHub 活动并向用户发送垃圾邮件",
+      "created_display": "Created: Feb 26, 2026 / 01:35 PT",
+      "image_url": "https://news.ycombinator.com/y18.svg",
+      "summary_en": "A report alleges YC-backed startups harvest GitHub activity data and email users at scale, raising privacy and consent concerns in developer ecosystems. The post spotlights tensions between growth tactics and user privacy.",
+      "summary_zh": "据称部分 YC 支持的初创公司会规模化抓取 GitHub 活动数据并向用户发送邮件，引发开发者生态系的隐私与同意问题。这一讨论凸显增长手段与隐私之间的张力。",
+      "hn": {
+        "id": 47163885,
+        "type": "story",
+        "by": "miki123211",
+        "score": 461,
+        "descendants": 157,
+        "time": 1772098508,
+        "comments_url": "https://news.ycombinator.com/item?id=47163885"
+      },
+      "tags": [
+        "Privacy",
+        "Programming",
+        "Startups"
+      ],
+      "hot_score": 5.88
+    },
+    {
+      "title_en": "Google Street View in 2026",
+      "url": "https://tech.marksblogg.com/google-street-view-coverage.html",
+      "title_zh": "Google Street View 2026 年展望",
+      "created_display": "Created: Feb 26, 2026 / 09:38 PT",
+      "image_url": "https://tech.marksblogg.com/theme/images/mark.jpg",
+      "summary_en": "Street View coverage has expanded in 2026 with more areas and fresher imagery, along with richer viewing modes and privacy controls. The update strengthens the usefulness of geospatial data for mapping, navigation, and AR applications, while also raising questions about data freshness and privacy.",
+      "summary_zh": "2026 年 Street View 的覆盖范围进一步扩大，影像更新更频繁，呈现出更丰富的查看模式，并增强隐私控制。此次更新提升了地理数据在地图、导航和增强现实中的实用性，同时也引发关于数据时效与隐私的讨论。",
+      "hn": {
+        "id": 47169278,
+        "type": "story",
+        "by": "marklit",
+        "score": 46,
+        "descendants": 31,
+        "time": 1772127483,
+        "comments_url": "https://news.ycombinator.com/item?id=47169278"
+      },
+      "hot_score": 5.47,
+      "tags": [
+        "Web",
+        "Privacy"
+      ]
+    },
+    {
+      "title_en": "Will vibe coding end like the maker movement?",
+      "url": "https://read.technically.dev/p/vibe-coding-and-the-maker-movement",
+      "title_zh": "Vibe 编程会像 Maker 运动那样消退吗？",
+      "created_display": "Created: Feb 26, 2026 / 08:07 PT",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!BCv8!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F930faad1-6c70-4d57-a2f1-5273483daa28_644x447.png",
+      "summary_en": "The piece questions whether vibe coding—a cultural shift toward quick, aesthetically driven development—will endure like the maker movement or fade as a trend. It considers implications for tooling, community building, and how developers choose what to adopt and contribute to.",
+      "summary_zh": "文章质疑所谓的 vibe 编程是否会像 Maker 运动那样持久，还是仅是短暂的潮流。它讨论了这类文化趋势对工具生态、社区建设以及开发者选择采用与贡献对象的影响。",
+      "hn": {
+        "id": 47167931,
+        "type": "story",
+        "by": "itunpredictable",
+        "score": 65,
+        "descendants": 65,
+        "time": 1772122031,
+        "comments_url": "https://news.ycombinator.com/item?id=47167931"
+      },
+      "hot_score": 3.89,
+      "tags": [
+        "Culture"
+      ]
+    },
+    {
+      "title_en": "Palm OS User Interface Guidelines [pdf, 2003]",
+      "url": "https://cs.uml.edu/~fredm/courses/91.308-spr05/files/palmdocs/uiguidelines.pdf",
+      "title_zh": "Palm OS 用户界面指南",
+      "created_display": "Created: Feb 26, 2026 / 09:01 PT",
+      "image_url": null,
+      "summary_en": "The Palm OS UI Guidelines capture early constraints and patterns in mobile UX, such as Graffiti input, limited screen space, and single-handed navigation. While dated, they show how mobile design thinking evolved and the trade-offs between speed, clarity, and discoverability.",
+      "summary_zh": "Palm OS 用户界面指南记录了早期移动 UX 的约束与设计模式，如 Graffiti 输入、有限屏幕空间和单手导航。虽然已过时，但它揭示了移动界面设计思维如何演进，以及在速度、清晰度与易发现性之间的权衡。",
+      "hn": {
+        "id": 47168726,
+        "type": "story",
+        "by": "spiffytech",
+        "score": 44,
+        "descendants": 10,
+        "time": 1772125265,
+        "comments_url": "https://news.ycombinator.com/item?id=47168726"
+      },
+      "hot_score": 3.82,
+      "tags": [
+        "Design"
+      ]
+    },
+    {
+      "title_en": "Show HN: Terminal Phone – E2EE Walkie Talkie from the Command Line",
+      "url": "https://gitlab.com/here_forawhile/terminalphone",
+      "title_zh": "终端电话：从命令行实现的端对端加密对讲机",
+      "created_display": "Created: Feb 26, 2026 / 02:40 PT",
+      "image_url": "https://gitlab.com/assets/twitter_card-570ddb06edf56a2312253c5872489847a0f385112ddbcd71ccfa1570febab5d2.jpg",
+      "summary_en": "Terminal Phone offers end-to-end encrypted walkie-talkie-style communication directly from the terminal. It demonstrates peer-to-peer privacy in a GUI-less tool, highlighting how lightweight CLI apps can enable private collaboration.",
+      "summary_zh": "一个完全在命令行中运行的端对端加密对讲工具，点对点加密，免 GUI。展示了以 CLI 为核心的隐私优先协作工具的可行性。",
+      "hn": {
+        "id": 47164270,
+        "type": "story",
+        "by": "smalltorch",
+        "score": 240,
+        "descendants": 55,
+        "time": 1772102445,
+        "comments_url": "https://news.ycombinator.com/item?id=47164270"
+      },
+      "tags": [
+        "Show HN",
+        "Security",
+        "Privacy"
+      ],
+      "hot_score": 3.67
+    },
+    {
+      "title_en": "iPhone and iPad approved to handle classified NATO information",
+      "url": "https://www.apple.com/newsroom/2026/02/iphone-and-ipad-approved-to-handle-classified-nato-information/",
+      "title_zh": "iPhone 与 iPad 获准处理北约机密信息",
+      "created_display": "Created: Feb 26, 2026 / 10:16 PT",
+      "image_url": "https://www.apple.com/newsroom/images/logos/quick-reads-logos/Apple-Security.jpg.og.jpg?202602261759",
+      "summary_en": "Apple has been approved to handle NATO classified information on iPhone and iPad, signaling government trust in secure hardware and iOS security features. The certification underscores the role of consumer devices in defense-related workflows and highlights ongoing security standards evolution.",
+      "summary_zh": "苹果获准在 iPhone 和 iPad 上处理北约机密信息，标志着政府对安全硬件与 iOS 安全特性的信任。该认证凸显了消费级设备在国防相关工作中的作用，并反映出安全标准的持续演进。",
+      "hn": {
+        "id": 47169815,
+        "type": "story",
+        "by": "throwfaraway4",
+        "score": 20,
+        "descendants": 7,
+        "time": 1772129805,
+        "comments_url": "https://news.ycombinator.com/item?id=47169815"
+      },
+      "hot_score": 3.45,
+      "tags": [
+        "Security",
+        "Hardware",
+        "Politics"
+      ]
+    },
+    {
+      "title_en": "Google API keys weren't secrets, but then Gemini changed the rules",
+      "url": "https://trufflesecurity.com/blog/google-api-keys-werent-secrets-but-then-gemini-changed-the-rules",
+      "title_zh": "Google API 密钥并非秘密，但 Gemini 改变了规则",
+      "created_display": "Created: Feb 25, 2026 / 11:54 PT",
+      "image_url": "https://framerusercontent.com/images/YDDp8rnck6rG7jTHoAV4O5bs.png?width=1024&height=572",
+      "summary_en": "API keys are often not true secrets, but Gemini's approach raises the stakes for credential hygiene. The notes discuss how new model-based tooling and security expectations are reshaping key management practices.",
+      "summary_zh": "文章讨论 Google API 密钥往往并非真正的秘密，但 Gemini 的新规则提高了对凭证管理的要求，反映出模型驱动工具对安全实践的推动。",
+      "hn": {
+        "id": 47156925,
+        "type": "story",
+        "by": "hiisthisthingon",
+        "score": 1092,
+        "descendants": 260,
+        "time": 1772049254,
+        "comments_url": "https://news.ycombinator.com/item?id=47156925"
+      },
+      "tags": [
+        "Security",
+        "AI"
+      ],
+      "hot_score": 3.33
+    },
+    {
+      "title_en": "Story of XZ Backdoor [video]",
+      "url": "https://www.youtube.com/watch?v=aoag03mSuXQ",
+      "title_zh": "XZ Backdoor 故事（视频）",
+      "created_display": "Created: Feb 26, 2026 / 06:21 PT",
+      "image_url": null,
+      "summary_en": "A video documentary traces the XZ backdoor incident, explaining how the backdoor operated and what defenders can learn from the incident. It spotlights supply chain and firmware security lessons for modern devices.",
+      "summary_zh": "一段视频梳理 XZ 后门事件，解释后门如何运作，以及对防御方的教训，强调供应链与固件安全在现代设备中的要点。",
+      "hn": {
+        "id": 47166473,
+        "type": "story",
+        "by": "Ulf950",
+        "score": 90,
+        "descendants": 32,
+        "time": 1772115665,
+        "comments_url": "https://news.ycombinator.com/item?id=47166473"
+      },
+      "tags": [
+        "Security"
+      ],
+      "hot_score": 3.06
+    },
+    {
+      "title_en": "SynthID",
+      "url": "https://deepmind.google/models/synthid/",
+      "title_zh": "SynthID：合成媒体身份识别技术",
+      "created_display": "Created: Feb 26, 2026 / 09:28 PT",
+      "image_url": "https://lh3.googleusercontent.com/AXiIx9H8Zbs0ao0jpyayhmTZFIB-rrnWT-fFReylThnuio6QhOpEF8s2nj7OSai-L1bdoKeDu1ZNITnFLqvsKrnb5vPqlssdyKE83atw7A=w1200-h630-n-nu-rw",
+      "summary_en": "SynthID introduces a robust watermarking approach for AI-generated content to help verify authenticity and provenance. It’s a step toward combating misinformation, but also foreshadows an arms race between watermarking and evasion and raises questions about policy, ethics, and user trust.",
+      "summary_zh": "SynthID 提出了一种稳健的水印机制，用以标识 AI 生成内容的真实性与来源。这是打击错误信息的一步，但也预示着水印对抗技术的竞赛，以及对政策、道德与用户信任的讨论。",
+      "hn": {
+        "id": 47169146,
+        "type": "story",
+        "by": "tosh",
+        "score": 28,
+        "descendants": 27,
+        "time": 1772126915,
+        "comments_url": "https://news.ycombinator.com/item?id=47169146"
+      },
+      "hot_score": 3.01,
       "tags": [
         "AI"
       ]
@@ -58,105 +353,100 @@
         "time": 1772105170,
         "comments_url": "https://news.ycombinator.com/item?id=47164605"
       },
-      "hot_score": 7.85,
+      "hot_score": 2.86,
       "tags": [
         "Privacy"
       ]
     },
     {
-      "title_en": "Tell HN: YC companies scrape GitHub activity, send spam emails to users",
-      "url": "https://news.ycombinator.com/item?id=47163885",
-      "title_zh": "Tell HN: YC 公司抓取 GitHub 活动并向用户发送垃圾邮件",
-      "created_display": "Created: Feb 26, 2026 / 01:35 PT",
-      "image_url": "https://news.ycombinator.com/y18.svg",
-      "summary_en": "A report alleges YC-backed startups harvest GitHub activity data and email users at scale, raising privacy and consent concerns in developer ecosystems. The post spotlights tensions between growth tactics and user privacy.",
-      "summary_zh": "据称部分 YC 支持的初创公司会规模化抓取 GitHub 活动数据并向用户发送邮件，引发开发者生态系的隐私与同意问题。这一讨论凸显增长手段与隐私之间的张力。",
+      "title_en": "BuildKit: Docker's Hidden Gem That Can Build Almost Anything",
+      "url": "https://tuananh.net/2026/02/25/buildkit-docker-hidden-gem/",
+      "title_zh": "BuildKit：Docker 的隐藏宝石，可以构建几乎任何东西",
+      "created_display": "Created: Feb 26, 2026 / 06:05 PT",
+      "image_url": "https://tuananh.net/img/buildkit.png",
+      "summary_en": "BuildKit is praised as Docker's under-the-radar engine that can handle complex builds with advanced features like parallelism and caching. It unlocks faster, more scalable container builds and can simplify multi-stage workflows for large projects.",
+      "summary_zh": "BuildKit 被视为 Docker 的隐藏引擎，支持并行构建、缓存等高级特性，适用于复杂的构建任务。它让容器构建更快、可扩展性更强，并能简化大型项目的多阶段工作流。",
       "hn": {
-        "id": 47163885,
+        "id": 47166264,
         "type": "story",
-        "by": "miki123211",
-        "score": 238,
-        "descendants": 80,
-        "time": 1772098508,
-        "comments_url": "https://news.ycombinator.com/item?id=47163885"
+        "by": "jasonpeacock",
+        "score": 79,
+        "descendants": 23,
+        "time": 1772114746,
+        "comments_url": "https://news.ycombinator.com/item?id=47166264"
       },
-      "hot_score": 6.74,
+      "hot_score": 2.5,
       "tags": [
-        "Privacy",
-        "Data",
         "Programming",
-        "Startups"
+        "DevOps"
       ]
     },
     {
-      "title_en": "Show HN: Terminal Phone – E2EE Walkie Talkie from the Command Line",
-      "url": "https://gitlab.com/here_forawhile/terminalphone",
-      "title_zh": "终端电话：从命令行实现的端对端加密对讲机",
-      "created_display": "Created: Feb 26, 2026 / 02:40 PT",
-      "image_url": "https://gitlab.com/assets/twitter_card-570ddb06edf56a2312253c5872489847a0f385112ddbcd71ccfa1570febab5d2.jpg",
-      "summary_en": "Terminal Phone offers end-to-end encrypted walkie-talkie-style communication directly from the terminal. It demonstrates peer-to-peer privacy in a GUI-less tool, highlighting how lightweight CLI apps can enable private collaboration.",
-      "summary_zh": "一个完全在命令行中运行的端对端加密对讲工具，点对点加密，免 GUI。展示了以 CLI 为核心的隐私优先协作工具的可行性。",
+      "title_en": "He saw an abandoned trailer. Then, uncovered a surveillance network",
+      "url": "https://calmatters.org/justice/2026/02/alpr-border-patrol-caltrans/",
+      "title_zh": "他在废弃拖车旁发现了一个监控网络",
+      "created_display": "Created: Feb 26, 2026 / 10:27 PT",
+      "image_url": "https://i0.wp.com/calmatters.org/wp-content/uploads/2026/02/020726_ALRPS_ZM_CM_04.jpg?fit=2000%2C1334&ssl=1",
+      "summary_en": "A report reveals a sprawling surveillance network discovered after inspecting an abandoned trailer, illustrating how public and private tracking infrastructures permeate everyday spaces. The story raises concerns about privacy, data storage, and accountability in modern surveillance systems.",
+      "summary_zh": "报道讲述在拆解一辆废弃拖车后揭露的庞大监控网络，揭示公共与私营追踪体系如何渗透日常空间。此事引发关于隐私、数据存储与现代监控体系问责制的讨论。",
       "hn": {
-        "id": 47164270,
+        "id": 47169984,
         "type": "story",
-        "by": "smalltorch",
-        "score": 134,
-        "descendants": 36,
-        "time": 1772102445,
-        "comments_url": "https://news.ycombinator.com/item?id=47164270"
+        "by": "Element_",
+        "score": 11,
+        "descendants": 4,
+        "time": 1772130431,
+        "comments_url": "https://news.ycombinator.com/item?id=47169984"
       },
-      "hot_score": 5.08,
+      "hot_score": 2.06,
       "tags": [
-        "Show HN",
-        "Programming",
         "Privacy"
       ]
     },
     {
-      "title_en": "Google API keys weren't secrets, but then Gemini changed the rules",
-      "url": "https://trufflesecurity.com/blog/google-api-keys-werent-secrets-but-then-gemini-changed-the-rules",
-      "title_zh": "Google API 密钥并非秘密，但 Gemini 改变了规则",
-      "created_display": "Created: Feb 25, 2026 / 11:54 PT",
-      "image_url": "https://framerusercontent.com/images/YDDp8rnck6rG7jTHoAV4O5bs.png?width=1024&height=572",
-      "summary_en": "API keys are often not true secrets, but Gemini's approach raises the stakes for credential hygiene. The notes discuss how new model-based tooling and security expectations are reshaping key management practices.",
-      "summary_zh": "文章讨论 Google API 密钥往往并非真正的秘密，但 Gemini 的新规则提高了对凭证管理的要求，反映出模型驱动工具对安全实践的推动。",
+      "title_en": "Jimi Hendrix was a systems engineer",
+      "url": "https://spectrum.ieee.org/jimi-hendrix-systems-engineer",
+      "title_zh": "吉米·亨德里克斯其实是系统工程师",
+      "created_display": "Created: Feb 25, 2026 / 12:16 PT",
+      "image_url": "https://spectrum.ieee.org/media-library/image.png?id=64983431&width=1200&height=600&coordinates=0%2C344%2C0%2C344",
+      "summary_en": "Jimi Hendrix didn’t just play guitar—he treated tone as a systems problem, engineering pedal chains, amps, and studio setups to craft his signature sound.",
+      "summary_zh": "吉米·亨德里克斯并非只会弹吉他，他把音色视作一个系统来设计，亲自搭建和改造踏板链、放大器与录音室布线，以实现标志性的音色。文章揭示了他的动手能力和对新信号路径的试验精神，以及硬件思维如何推动音乐技术的边界。",
       "hn": {
-        "id": 47156925,
+        "id": 47157224,
         "type": "story",
-        "by": "hiisthisthingon",
-        "score": 924,
-        "descendants": 215,
-        "time": 1772049254,
-        "comments_url": "https://news.ycombinator.com/item?id=47156925"
+        "by": "tintinnabula",
+        "score": 620,
+        "descendants": 209,
+        "time": 1772050607,
+        "comments_url": "https://news.ycombinator.com/item?id=47157224"
       },
       "tags": [
-        "Security",
+        "Culture"
+      ],
+      "hot_score": 1.94
+    },
+    {
+      "title_en": "just-bash: Bash for Agents",
+      "url": "https://github.com/vercel-labs/just-bash",
+      "title_zh": "just-bash：面向代理的 Bash",
+      "created_display": "Created: Feb 26, 2026 / 05:16 PT",
+      "image_url": "https://opengraph.githubassets.com/e92c7276b0bb7355e6304a639b6195a47acc9c040b3d0d4c104fec509873cf38/vercel-labs/just-bash",
+      "summary_en": "Just-bash brings Bash scripting to AI agents, allowing commands and tool calls to be orchestrated from a shell. It lowers the barrier to building simple, scriptable agents and demonstrates a pragmatic approach to tool integration.",
+      "summary_zh": "Just-bash 将 Bash 脚本用于 AI 代理，使命令和工具调用可从 shell 进行编排，降低了构建可脚本化代理的门槛，并展示了工具整合的务实路径。",
+      "hn": {
+        "id": 47165648,
+        "type": "story",
+        "by": "tosh",
+        "score": 72,
+        "descendants": 40,
+        "time": 1772111790,
+        "comments_url": "https://news.ycombinator.com/item?id=47165648"
+      },
+      "tags": [
+        "Programming",
         "AI"
       ],
-      "hot_score": 3.88
-    },
-    {
-      "title_en": "Burger King will use AI to check if employees say 'please' and 'thank you'",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/884911/burger-king-ai-assistant-patty",
-      "title_zh": "汉堡王将用人工智能检查员工是否说‘请’和‘谢谢’",
-      "created_display": "Created: Feb 26, 2026 / 05:12 PT",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/02/BK-Assistant-Image-2.png?quality=90&strip=all&crop=0%2C3.6884772309087%2C100%2C92.623045538183&w=1200",
-      "summary_en": "Burger King plans to deploy AI that analyzes cashier and crew interactions to enforce polite language like 'please' and 'thank you'. Critics argue it could enable surveillance and micromanagement, while proponents say it could improve customer service.",
-      "summary_zh": "汉堡王计划部署AI，分析收银和员工互动是否使用“请/谢谢”等礼貌用语。批评者担忧监控与微管理，支持者则认为可提升服务质量。",
-      "hn": {
-        "id": 47165606,
-        "type": "story",
-        "by": "JeanKage",
-        "score": 38,
-        "descendants": 36,
-        "time": 1772111574,
-        "comments_url": "https://news.ycombinator.com/item?id=47165606"
-      },
-      "hot_score": 3.69,
-      "tags": [
-        "AI",
-        "Privacy"
-      ]
+      "hot_score": 1.85
     },
     {
       "title_en": "RAM now represents 35 percent of bill of materials for HP PCs",
@@ -178,32 +468,7 @@
       "tags": [
         "Hardware"
       ],
-      "hot_score": 2.81
-    },
-    {
-      "title_en": "Show HN: Agent Swarm – Multi-agent self-learning teams (OSS)",
-      "url": "https://github.com/desplega-ai/agent-swarm",
-      "title_zh": "Show HN: Agent Swarm – 多代理自学习团队（开源）",
-      "created_display": "Created: Feb 26, 2026 / 04:15 PT",
-      "image_url": "https://opengraph.githubassets.com/48fd2dde4def6f2030f3218424fab2e5a4cfe7f58e84ca98e6071e759d2b8147/desplega-ai/agent-swarm",
-      "summary_en": "Agent Swarm is an OSS framework for coordinating multiple self-learning agents as a team. It illustrates emergent teamwork among AI agents and offers a practical path to building distributed, capable systems.",
-      "summary_zh": "这是一个开源框架，用于协同多代理组成团队共同学习。展示了代理间的协作涌现，并提供构建分布式、强大系统的现实路径。",
-      "hn": {
-        "id": 47165046,
-        "type": "story",
-        "by": "tarasyarema",
-        "score": 42,
-        "descendants": 22,
-        "time": 1772108138,
-        "comments_url": "https://news.ycombinator.com/item?id=47165046"
-      },
-      "hot_score": 2.68,
-      "tags": [
-        "Show HN",
-        "Open Source",
-        "Programming",
-        "AI"
-      ]
+      "hot_score": 1.78
     },
     {
       "title_en": "Tech companies shouldn't be bullied into doing surveillance",
@@ -225,51 +490,52 @@
       "tags": [
         "Privacy"
       ],
-      "hot_score": 2.54
+      "hot_score": 1.7
     },
     {
-      "title_en": "Jimi Hendrix was a systems engineer",
-      "url": "https://spectrum.ieee.org/jimi-hendrix-systems-engineer",
-      "title_zh": "吉米·亨德里克斯其实是系统工程师",
-      "created_display": "Created: Feb 25, 2026 / 12:16 PT",
-      "image_url": "https://spectrum.ieee.org/media-library/image.png?id=64983431&width=1200&height=600&coordinates=0%2C344%2C0%2C344",
-      "summary_en": "Jimi Hendrix didn’t just play guitar—he treated tone as a systems problem, engineering pedal chains, amps, and studio setups to craft his signature sound.",
-      "summary_zh": "吉米·亨德里克斯并非只会弹吉他，他把音色视作一个系统来设计，亲自搭建和改造踏板链、放大器与录音室布线，以实现标志性的音色。文章揭示了他的动手能力和对新信号路径的试验精神，以及硬件思维如何推动音乐技术的边界。",
+      "title_en": "Banned in California",
+      "url": "https://www.bannedincalifornia.org/",
+      "title_zh": "在加州被禁止的事物",
+      "created_display": "Created: Feb 25, 2026 / 15:16 PT",
+      "image_url": "https://banned-in-california.vercel.app/og-image.png",
+      "summary_en": "A look at things banned or restricted in California’s tech/legal landscape, illustrating how state rules shape what developers can do and how platforms operate within the state.",
+      "summary_zh": "解析加州科技与法律领域的限制，揭示州法如何影响开发者操作与平台合规。文章探讨对产品策略与合规的影响。",
       "hn": {
-        "id": 47157224,
+        "id": 47159430,
         "type": "story",
-        "by": "tintinnabula",
-        "score": 563,
-        "descendants": 184,
-        "time": 1772050607,
-        "comments_url": "https://news.ycombinator.com/item?id=47157224"
+        "by": "pie_flavor",
+        "score": 424,
+        "descendants": 500,
+        "time": 1772061400,
+        "comments_url": "https://news.ycombinator.com/item?id=47159430"
       },
       "tags": [
-        "Culture"
+        "Legal"
       ],
-      "hot_score": 2.44
+      "hot_score": 1.68
     },
     {
-      "title_en": "Number of UK workers on zero-hours contracts hits record high ahead of crackdown",
-      "url": "https://www.bbc.co.uk/news/articles/czj1m7d4gxpo",
-      "title_zh": "英国零小时合同工数量创历史新高，监管行动在即",
-      "created_display": "Created: Feb 26, 2026 / 04:18 PT",
-      "image_url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/ee34/live/dc122920-10ec-11f1-9120-a910fc22c6ac.jpg",
-      "summary_en": "UK zero-hours contracts reached a record high as policymakers tighten the screws on precarious work. The data underscores ongoing flexibility in the labor market and fuels policy debates about worker protections.",
-      "summary_zh": "英国零小时合同工数量达到历史新高，监管行动近在眉睫。数据凸显劳动市场的持续灵活性，并推动关于劳工保护的政策辩论。",
+      "title_en": "How will OpenAI compete?",
+      "url": "https://www.ben-evans.com/benedictevans/2026/2/19/how-will-openai-compete-nkg2x",
+      "title_zh": "OpenAI 将如何竞争？",
+      "created_display": "Created: Feb 25, 2026 / 14:29 PT",
+      "image_url": "http://static1.squarespace.com/static/50363cf324ac8e905e7df861/t/6993b59b8517240d2235240a/1771507646532/Frontier%2BLanguage%2BModel%2BIntelligence%2C%2BOver%2BTime%2B%2824%2BJan%2B%2726%29%2B-2.png.webp?format=1500w",
+      "summary_en": "Ben Evans contemplates OpenAI's competitiveness, arguing that product, ecosystem, and profitability dynamics will determine who leads in AI. Expect strategic moves around pricing, platform features, and enterprise integration.",
+      "summary_zh": "Ben Evans 分析 OpenAI 的竞争格局，认为其要在产品、生态与盈利能力上取得突破，才能在 AI 领域保持领先。文章暗示定价、平台特性与企业集成将成为关键变量。",
       "hn": {
-        "id": 47165060,
+        "id": 47158975,
         "type": "story",
-        "by": "robtherobber",
-        "score": 36,
-        "descendants": 32,
-        "time": 1772108291,
-        "comments_url": "https://news.ycombinator.com/item?id=47165060"
+        "by": "iamskeole",
+        "score": 410,
+        "descendants": 578,
+        "time": 1772058565,
+        "comments_url": "https://news.ycombinator.com/item?id=47158975"
       },
-      "hot_score": 2.33,
       "tags": [
-        "Politics"
-      ]
+        "Business",
+        "AI"
+      ],
+      "hot_score": 1.52
     },
     {
       "title_en": "Never buy a .online domain",
@@ -291,75 +557,28 @@
       "tags": [
         "Web"
       ],
-      "hot_score": 1.93
+      "hot_score": 1.5
     },
     {
-      "title_en": "Fentanyl makeover: Core structural redesign could lead to safer pain medications",
-      "url": "https://www.scripps.edu/news-and-events/press-room/2026/20260211-janda-molecule.html",
-      "title_zh": "芬太尼改造：核心结构重新设计或带来更安全的止痛药",
-      "created_display": "Created: Feb 26, 2026 / 04:44 PT",
-      "image_url": null,
-      "summary_en": "Researchers redesigned the core scaffold of fentanyl-inspired analgesics with the aim of reducing abuse potential while preserving pain relief. If validated, this approach could guide safer opioid design, though it will need careful safety and regulatory scrutiny.",
-      "summary_zh": "研究者在芬太尼样止痛药的核心骨架上进行 redesign，目标是降低滥用风险同时保留镇痛效果。若得到验证，这一思路或为更安全的阿片类药物设计提供方向，但需要审慎的安全性与监管评估。",
+      "title_en": "Child-free 'Disney adults' are transforming the company's theme parks",
+      "url": "https://www.businessinsider.com/why-disney-parks-top-destinations-millennials-gen-z-2023-9",
+      "title_zh": "无子女的“迪士尼成人”正在改变乐园",
+      "created_display": "Created: Feb 26, 2026 / 08:51 PT",
+      "image_url": "https://i.insider.com/64d13ab920f1cf0019cc4b7d?width=1200&format=jpeg",
+      "summary_en": "Child-free Millennials and Gen Z are reshaping Disney parks with demand for new experiences, pricing, and amenities tailored to adults. The trend affects branding, operations, and the broader theme-park ecosystem.",
+      "summary_zh": "无子女的千禧一代与 Z 世代正在通过对新体验、定价与成人化设施的需求，重塑迪士尼乐园。该趋势影响品牌策略、运营模式以及整个主题乐园生态。",
       "hn": {
-        "id": 47165299,
+        "id": 47168588,
         "type": "story",
-        "by": "littlexsparkee",
-        "score": 24,
-        "descendants": 23,
-        "time": 1772109868,
-        "comments_url": "https://news.ycombinator.com/item?id=47165299"
+        "by": "lordleft",
+        "score": 18,
+        "descendants": 24,
+        "time": 1772124660,
+        "comments_url": "https://news.ycombinator.com/item?id=47168588"
       },
-      "hot_score": 1.84,
+      "hot_score": 1.4,
       "tags": [
-        "Science",
-        "Health",
-        "Politics"
-      ]
-    },
-    {
-      "title_en": "How will OpenAI compete?",
-      "url": "https://www.ben-evans.com/benedictevans/2026/2/19/how-will-openai-compete-nkg2x",
-      "title_zh": "OpenAI 将如何竞争？",
-      "created_display": "Created: Feb 25, 2026 / 14:29 PT",
-      "image_url": "http://static1.squarespace.com/static/50363cf324ac8e905e7df861/t/6993b59b8517240d2235240a/1771507646532/Frontier%2BLanguage%2BModel%2BIntelligence%2C%2BOver%2BTime%2B%2824%2BJan%2B%2726%29%2B-2.png.webp?format=1500w",
-      "summary_en": "Ben Evans contemplates OpenAI's competitiveness, arguing that product, ecosystem, and profitability dynamics will determine who leads in AI. Expect strategic moves around pricing, platform features, and enterprise integration.",
-      "summary_zh": "Ben Evans 分析 OpenAI 的竞争格局，认为其要在产品、生态与盈利能力上取得突破，才能在 AI 领域保持领先。文章暗示定价、平台特性与企业集成将成为关键变量。",
-      "hn": {
-        "id": 47158975,
-        "type": "story",
-        "by": "iamskeole",
-        "score": 336,
-        "descendants": 469,
-        "time": 1772058565,
-        "comments_url": "https://news.ycombinator.com/item?id=47158975"
-      },
-      "tags": [
-        "AI",
-        "Business"
-      ],
-      "hot_score": 1.79
-    },
-    {
-      "title_en": "Story of XZ Backdoor [video]",
-      "url": "https://www.youtube.com/watch?v=aoag03mSuXQ",
-      "title_zh": "XZ Backdoor 故事（视频）",
-      "created_display": "Created: Feb 26, 2026 / 06:21 PT",
-      "image_url": null,
-      "summary_en": "A video documentary traces the XZ backdoor incident, explaining how the backdoor operated and what defenders can learn from the incident. It spotlights supply chain and firmware security lessons for modern devices.",
-      "summary_zh": "一段视频梳理 XZ 后门事件，解释后门如何运作，以及对防御方的教训，强调供应链与固件安全在现代设备中的要点。",
-      "hn": {
-        "id": 47166473,
-        "type": "story",
-        "by": "Ulf950",
-        "score": 10,
-        "descendants": 1,
-        "time": 1772115665,
-        "comments_url": "https://news.ycombinator.com/item?id=47166473"
-      },
-      "hot_score": 1.78,
-      "tags": [
-        "Security"
+        "Entertainment"
       ]
     },
     {
@@ -383,51 +602,30 @@
         "Open Source",
         "Politics"
       ],
-      "hot_score": 1.72
+      "hot_score": 1.37
     },
     {
-      "title_en": "Nihilistic Violent Extremism",
-      "url": "https://en.wikipedia.org/wiki/Nihilistic_violent_extremism",
-      "title_zh": "虚无主义暴力极端主义",
-      "created_display": "Created: Feb 26, 2026 / 04:12 PT",
-      "image_url": "https://en.wikipedia.org/static/images/icons/enwiki-25.svg",
-      "summary_en": "Nihilistic violent extremism is examined, outlining its nihilistic roots, appeal to disenfranchised individuals, and the societal challenges it poses.",
-      "summary_zh": "概述虚无主义暴力极端主义的根源、对边缘人群的吸引力，以及对社会稳定带来的挑战。",
+      "title_en": "Fentanyl makeover: Core structural redesign could lead to safer pain medications",
+      "url": "https://www.scripps.edu/news-and-events/press-room/2026/20260211-janda-molecule.html",
+      "title_zh": "芬太尼改造：核心结构重新设计或带来更安全的止痛药",
+      "created_display": "Created: Feb 26, 2026 / 04:44 PT",
+      "image_url": null,
+      "summary_en": "Researchers redesigned the core scaffold of fentanyl-inspired analgesics with the aim of reducing abuse potential while preserving pain relief. If validated, this approach could guide safer opioid design, though it will need careful safety and regulatory scrutiny.",
+      "summary_zh": "研究者在芬太尼样止痛药的核心骨架上进行 redesign，目标是降低滥用风险同时保留镇痛效果。若得到验证，这一思路或为更安全的阿片类药物设计提供方向，但需要审慎的安全性与监管评估。",
       "hn": {
-        "id": 47165024,
+        "id": 47165299,
         "type": "story",
-        "by": "doener",
-        "score": 26,
-        "descendants": 22,
-        "time": 1772107978,
-        "comments_url": "https://news.ycombinator.com/item?id=47165024"
+        "by": "littlexsparkee",
+        "score": 60,
+        "descendants": 64,
+        "time": 1772109868,
+        "comments_url": "https://news.ycombinator.com/item?id=47165299"
       },
-      "hot_score": 1.61,
       "tags": [
+        "Science",
         "Politics"
-      ]
-    },
-    {
-      "title_en": "Banned in California",
-      "url": "https://www.bannedincalifornia.org/",
-      "title_zh": "在加州被禁止的事物",
-      "created_display": "Created: Feb 25, 2026 / 15:16 PT",
-      "image_url": "https://banned-in-california.vercel.app/og-image.png",
-      "summary_en": "A look at things banned or restricted in California’s tech/legal landscape, illustrating how state rules shape what developers can do and how platforms operate within the state.",
-      "summary_zh": "解析加州科技与法律领域的限制，揭示州法如何影响开发者操作与平台合规。文章探讨对产品策略与合规的影响。",
-      "hn": {
-        "id": 47159430,
-        "type": "story",
-        "by": "pie_flavor",
-        "score": 270,
-        "descendants": 302,
-        "time": 1772061400,
-        "comments_url": "https://news.ycombinator.com/item?id=47159430"
-      },
-      "tags": [
-        "Legal"
       ],
-      "hot_score": 1.55
+      "hot_score": 1.36
     },
     {
       "title_en": "First Website (1992)",
@@ -441,15 +639,15 @@
         "id": 47159302,
         "type": "story",
         "by": "shrikaranhanda",
-        "score": 262,
-        "descendants": 73,
+        "score": 293,
+        "descendants": 82,
         "time": 1772060578,
         "comments_url": "https://news.ycombinator.com/item?id=47159302"
       },
       "tags": [
         "Web"
       ],
-      "hot_score": 1.47
+      "hot_score": 1.14
     },
     {
       "title_en": "Bus stop balancing is fast, cheap, and effective",
@@ -463,15 +661,38 @@
         "id": 47153798,
         "type": "story",
         "by": "surprisetalk",
-        "score": 386,
-        "descendants": 557,
+        "score": 409,
+        "descendants": 596,
         "time": 1772037086,
         "comments_url": "https://news.ycombinator.com/item?id=47153798"
       },
       "tags": [
-        "Business"
+        "Design"
       ],
-      "hot_score": 1.24
+      "hot_score": 0.99
+    },
+    {
+      "title_en": "Burger King will use AI to check if employees say 'please' and 'thank you'",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/884911/burger-king-ai-assistant-patty",
+      "title_zh": "汉堡王将用人工智能检查员工是否说‘请’和‘谢谢’",
+      "created_display": "Created: Feb 26, 2026 / 05:12 PT",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/02/BK-Assistant-Image-2.png?quality=90&strip=all&crop=0%2C3.6884772309087%2C100%2C92.623045538183&w=1200",
+      "summary_en": "Burger King plans to deploy AI that analyzes cashier and crew interactions to enforce polite language like 'please' and 'thank you'. Critics argue it could enable surveillance and micromanagement, while proponents say it could improve customer service.",
+      "summary_zh": "汉堡王计划部署AI，分析收银和员工互动是否使用“请/谢谢”等礼貌用语。批评者担忧监控与微管理，支持者则认为可提升服务质量。",
+      "hn": {
+        "id": 47165606,
+        "type": "story",
+        "by": "JeanKage",
+        "score": 38,
+        "descendants": 36,
+        "time": 1772111574,
+        "comments_url": "https://news.ycombinator.com/item?id=47165606"
+      },
+      "hot_score": 0.95,
+      "tags": [
+        "AI",
+        "Privacy"
+      ]
     },
     {
       "title_en": "Making MCP cheaper via CLI",
@@ -485,16 +706,38 @@
         "id": 47157398,
         "type": "story",
         "by": "thellimist",
-        "score": 264,
-        "descendants": 104,
+        "score": 296,
+        "descendants": 112,
         "time": 1772051377,
         "comments_url": "https://news.ycombinator.com/item?id=47157398"
       },
       "tags": [
-        "Programming",
-        "DevOps"
+        "Programming"
       ],
-      "hot_score": 1.16
+      "hot_score": 0.94
+    },
+    {
+      "title_en": "Pentagon officials send Anthropic best and final offer for military use of AI",
+      "url": "https://www.cbsnews.com/news/pentagon-anthropic-offer-ai-unrestricted-military-use-sources/",
+      "title_zh": "五角大楼向 Anthropic 提交军事用途 AI 的最佳与最终要约",
+      "created_display": "Created: Feb 26, 2026 / 09:44 PT",
+      "image_url": "https://assets1.cbsnewsstatic.com/hub/i/r/2026/02/26/7441e27a-4a55-411d-bfd8-5b82c0498435/thumbnail/1200x630/14d41252fddb066bd1bed4734e89274c/gettyimages-2262845944.jpg",
+      "summary_en": "Pentagon officials submit a best-and-final offer to Anthropic regarding military use of AI, signaling a push to integrate advanced AI into defense capabilities. The proposal raises policy, safety, and geopolitical questions about dual-use AI in national security.",
+      "summary_zh": "五角大楼向Anthropic提交了关于军事用途 AI 的最佳与最终要约，显示出将前沿 AI 技术纳入防务能力的推进。此提案引发关于国安领域双用途 AI 的政策、安全与地缘政治问题的讨论。",
+      "hn": {
+        "id": 47169366,
+        "type": "story",
+        "by": "rob",
+        "score": 8,
+        "descendants": 0,
+        "time": 1772127869,
+        "comments_url": "https://news.ycombinator.com/item?id=47169366"
+      },
+      "hot_score": 0.9,
+      "tags": [
+        "AI",
+        "Security"
+      ]
     },
     {
       "title_en": "Windows 11 Notepad to support Markdown",
@@ -508,15 +751,61 @@
         "id": 47154399,
         "type": "story",
         "by": "andreynering",
-        "score": 319,
-        "descendants": 478,
+        "score": 339,
+        "descendants": 505,
         "time": 1772039659,
         "comments_url": "https://news.ycombinator.com/item?id=47154399"
       },
       "tags": [
         "Programming"
       ],
-      "hot_score": 1.08
+      "hot_score": 0.86
+    },
+    {
+      "title_en": "Show HN: Agent Swarm – Multi-agent self-learning teams (OSS)",
+      "url": "https://github.com/desplega-ai/agent-swarm",
+      "title_zh": "Show HN: Agent Swarm – 多代理自学习团队（开源）",
+      "created_display": "Created: Feb 26, 2026 / 04:15 PT",
+      "image_url": "https://opengraph.githubassets.com/48fd2dde4def6f2030f3218424fab2e5a4cfe7f58e84ca98e6071e759d2b8147/desplega-ai/agent-swarm",
+      "summary_en": "Agent Swarm is an OSS framework for coordinating multiple self-learning agents as a team. It illustrates emergent teamwork among AI agents and offers a practical path to building distributed, capable systems.",
+      "summary_zh": "这是一个开源框架，用于协同多代理组成团队共同学习。展示了代理间的协作涌现，并提供构建分布式、强大系统的现实路径。",
+      "hn": {
+        "id": 47165046,
+        "type": "story",
+        "by": "tarasyarema",
+        "score": 42,
+        "descendants": 22,
+        "time": 1772108138,
+        "comments_url": "https://news.ycombinator.com/item?id=47165046"
+      },
+      "hot_score": 0.85,
+      "tags": [
+        "Show HN",
+        "Open Source",
+        "AI"
+      ]
+    },
+    {
+      "title_en": "Stardew Valley at 10: The pixel art farm game that became an unlikely phenomenon",
+      "url": "https://www.cnn.com/2026/02/26/style/stardew-valley-video-game-anniversary",
+      "title_zh": "星露谷物语十周年：这款像素风农场游戏的非同寻常现象",
+      "created_display": "Created: Feb 26, 2026 / 10:09 PT",
+      "image_url": "https://media.cnn.com/api/v1/images/stellar/prod/img-3011.jpg?c=16x9&q=w_800,c_fill",
+      "summary_en": "Ten years after its release, Stardew Valley remains a cult indie hit thanks to tight systems, moddability, and warm pixel art. Its success reshaped indie publishing, inspired a wave of imitators, and influenced how developers approach sustainability and community engagement.",
+      "summary_zh": "十周年之际，星露谷物语凭借精巧的系统、广泛的模组支持和温暖的像素美学成为现象级独立游戏。它改变了独立发行的格局，影响了后续作品的开发与社区互动的持续性。",
+      "hn": {
+        "id": 47169717,
+        "type": "story",
+        "by": "Tomte",
+        "score": 6,
+        "descendants": 0,
+        "time": 1772129389,
+        "comments_url": "https://news.ycombinator.com/item?id=47169717"
+      },
+      "hot_score": 0.84,
+      "tags": [
+        "Gaming"
+      ]
     },
     {
       "title_en": "The Om Programming Language",
@@ -538,7 +827,144 @@
       "tags": [
         "Programming"
       ],
-      "hot_score": 1.0
+      "hot_score": 0.75
+    },
+    {
+      "title_en": "Number of UK workers on zero-hours contracts hits record high ahead of crackdown",
+      "url": "https://www.bbc.co.uk/news/articles/czj1m7d4gxpo",
+      "title_zh": "英国零小时合同工数量创历史新高，监管行动在即",
+      "created_display": "Created: Feb 26, 2026 / 04:18 PT",
+      "image_url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/ee34/live/dc122920-10ec-11f1-9120-a910fc22c6ac.jpg",
+      "summary_en": "UK zero-hours contracts reached a record high as policymakers tighten the screws on precarious work. The data underscores ongoing flexibility in the labor market and fuels policy debates about worker protections.",
+      "summary_zh": "英国零小时合同工数量达到历史新高，监管行动近在眉睫。数据凸显劳动市场的持续灵活性，并推动关于劳工保护的政策辩论。",
+      "hn": {
+        "id": 47165060,
+        "type": "story",
+        "by": "robtherobber",
+        "score": 36,
+        "descendants": 32,
+        "time": 1772108291,
+        "comments_url": "https://news.ycombinator.com/item?id=47165060"
+      },
+      "hot_score": 0.73,
+      "tags": [
+        "Politics"
+      ]
+    },
+    {
+      "title_en": "Launch HN: Cardboard (YC W26) – Agentic video editor",
+      "url": "https://www.usecardboard.com/",
+      "title_zh": "Cardboard（YC W26）— 具备代理能力的视频编辑工具",
+      "created_display": "Created: Feb 26, 2026 / 10:38 PT",
+      "image_url": "https://www.usecardboard.com/images/marketing/og.png",
+      "summary_en": "Cardboard positions itself as an agentic video editor, automating parts of the editing workflow with AI-like capabilities. It promises faster turnaround and smarter automation, while raising questions about reliability, creative control, and data privacy in AI-assisted video work.",
+      "summary_zh": "Cardboard 将自己定位为具备代理能力的视频编辑工具，能够在编辑工作流中自动化部分任务，并具备智能化能力。它承诺更快的产出与更智能的自动化，但也引发关于可靠性、创作控制与数据隐私的讨论。",
+      "hn": {
+        "id": 47170174,
+        "type": "story",
+        "by": "sxmawl",
+        "score": 4,
+        "descendants": 0,
+        "time": 1772131118,
+        "comments_url": "https://news.ycombinator.com/item?id=47170174"
+      },
+      "hot_score": 0.72,
+      "tags": [
+        "AI",
+        "Privacy",
+        "Startups"
+      ]
+    },
+    {
+      "title_en": "Show HN: Deff – side-by-side Git diff review in your terminal",
+      "url": "https://github.com/flamestro/deff",
+      "title_zh": "Deff：在终端中进行并排 Git diff 审阅",
+      "created_display": "Created: Feb 26, 2026 / 09:54 PT",
+      "image_url": "https://opengraph.githubassets.com/2763bde09c3db743cd121730402435ecefc8f1d6a102cb3e82776ad83ce04423/flamestro/deff",
+      "summary_en": "Deff brings side-by-side Git diff reviewing to the terminal, streamlining code reviews and increasing readability for terminal-first workflows. It helps developers quickly compare changes without leaving the command line, boosting productivity.",
+      "summary_zh": "Deff 将并排的 Git diff 审阅带到终端，简化代码评审并提升命令行工作流的可读性。开发者无需离开命令行就能快速对比改动，从而提升生产力。",
+      "hn": {
+        "id": 47169518,
+        "type": "story",
+        "by": "flamestro",
+        "score": 6,
+        "descendants": 0,
+        "time": 1772128446,
+        "comments_url": "https://news.ycombinator.com/item?id=47169518"
+      },
+      "hot_score": 0.71,
+      "tags": [
+        "Show HN",
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "Nihilistic Violent Extremism",
+      "url": "https://en.wikipedia.org/wiki/Nihilistic_violent_extremism",
+      "title_zh": "虚无主义暴力极端主义",
+      "created_display": "Created: Feb 26, 2026 / 04:12 PT",
+      "image_url": "https://en.wikipedia.org/static/images/icons/enwiki-25.svg",
+      "summary_en": "Nihilistic violent extremism is examined, outlining its nihilistic roots, appeal to disenfranchised individuals, and the societal challenges it poses.",
+      "summary_zh": "概述虚无主义暴力极端主义的根源、对边缘人群的吸引力，以及对社会稳定带来的挑战。",
+      "hn": {
+        "id": 47165024,
+        "type": "story",
+        "by": "doener",
+        "score": 26,
+        "descendants": 22,
+        "time": 1772107978,
+        "comments_url": "https://news.ycombinator.com/item?id=47165024"
+      },
+      "hot_score": 0.52,
+      "tags": [
+        "Politics"
+      ]
+    },
+    {
+      "title_en": "Show HN: Librarian – Cut token costs by up to 85% for LangGraph and OpenClaw",
+      "url": "https://uselibrarian.dev/",
+      "title_zh": "Show HN: Librarian——将 LangGraph 与 OpenClaw 的令牌成本降低高达85%",
+      "created_display": "Created: Feb 26, 2026 / 10:11 PT",
+      "image_url": null,
+      "summary_en": "Librarian helps cut token costs by up to 85% for LangGraph and OpenClaw, pointing to more cost-efficient LLM workflows. The project demonstrates practical approaches to model serving economics and on-device or local inference strategies.",
+      "summary_zh": "Librarian 将 LangGraph 与 OpenClaw 的推理成本降低多达 85%，指向更高效的 LLM 工作流。该项目展示了在模型服务经济性以及本地推理方面的实用做法。",
+      "hn": {
+        "id": 47169742,
+        "type": "story",
+        "by": "Pinkert",
+        "score": 4,
+        "descendants": 0,
+        "time": 1772129495,
+        "comments_url": "https://news.ycombinator.com/item?id=47169742"
+      },
+      "hot_score": 0.51,
+      "tags": [
+        "Show HN",
+        "AI"
+      ]
+    },
+    {
+      "title_en": "Show HN: Respectify – A comment moderator that teaches people to argue better",
+      "url": "https://respectify.org/",
+      "title_zh": "Respectify：一个教人更善辩的评论 Moderation 工具",
+      "created_display": "Created: Feb 25, 2026 / 06:21 PT",
+      "image_url": "https://respectify.org/og-image.png",
+      "summary_en": "Respectify is a comment moderator that nudges users toward more constructive arguments by suggesting better framing and offering in-thread guidance. It demonstrates how automated feedback can educate online discourse while remaining permissive.",
+      "summary_zh": "Respectify 是一个评论区的自动化 Moderation 工具，通过建议更好的论点框架和在对话中的即时反馈，引导用户进行更具建设性的讨论，同时保持讨论的开放性。",
+      "hn": {
+        "id": 47151842,
+        "type": "story",
+        "by": "vintagedave",
+        "score": 203,
+        "descendants": 204,
+        "time": 1772029279,
+        "comments_url": "https://news.ycombinator.com/item?id=47151842"
+      },
+      "tags": [
+        "Show HN",
+        "AI"
+      ],
+      "hot_score": 0.43
     },
     {
       "title_en": "GNU Texmacs",
@@ -561,53 +987,53 @@
         "Open Source",
         "Science"
       ],
-      "hot_score": 0.54
+      "hot_score": 0.41
     },
     {
-      "title_en": "Show HN: Respectify – A comment moderator that teaches people to argue better",
-      "url": "https://respectify.org/",
-      "title_zh": "Respectify：一个教人更善辩的评论 Moderation 工具",
-      "created_display": "Created: Feb 25, 2026 / 06:21 PT",
-      "image_url": "https://respectify.org/og-image.png",
-      "summary_en": "Respectify is a comment moderator that nudges users toward more constructive arguments by suggesting better framing and offering in-thread guidance. It demonstrates how automated feedback can educate online discourse while remaining permissive.",
-      "summary_zh": "Respectify 是一个评论区的自动化 Moderation 工具，通过建议更好的论点框架和在对话中的即时反馈，引导用户进行更具建设性的讨论，同时保持讨论的开放性。",
+      "title_en": "An autopsy of AI-generated 3D slop",
+      "url": "https://aircada.com/blog/ai-vs-human-3d-ecommerce",
+      "title_zh": "AI 生成的 3D 乱象的解剖",
+      "created_display": "Created: Feb 25, 2026 / 13:05 PT",
+      "image_url": "https://aircada.com/og-default.png",
+      "summary_en": "Analyses AI-generated 3D assets in ecommerce, showing quality gaps, unrealistic textures, and stability issues, suggesting that human-created assets still outrank current AI outputs for fidelity.",
+      "summary_zh": "对电商领域 AI 生成的 3D 资产进行解剖，揭示在质量、纹理与稳定性方面的不足，认为目前仍难以超越人类创作在真实感方面的水平。",
       "hn": {
-        "id": 47151842,
+        "id": 47157841,
         "type": "story",
-        "by": "vintagedave",
-        "score": 192,
-        "descendants": 191,
-        "time": 1772029279,
-        "comments_url": "https://news.ycombinator.com/item?id=47151842"
+        "by": "sech8420",
+        "score": 124,
+        "descendants": 69,
+        "time": 1772053515,
+        "comments_url": "https://news.ycombinator.com/item?id=47157841"
       },
       "tags": [
-        "Show HN",
-        "Programming"
+        "AI",
+        "Design"
       ],
-      "hot_score": 0.53
+      "hot_score": 0.41
     },
     {
-      "title_en": "Long Range E-Bike",
-      "url": "https://jacquesmattheij.com/long-range-ebike/",
-      "title_zh": "长续航电动自行车",
-      "created_display": "Created: Feb 26, 2026 / 05:41 PT",
-      "image_url": "https://jacquesmattheij.com/ebike_1.jpg",
-      "summary_en": "A deep dive into long-range e-bike design, battery technology, and trade-offs between weight, speed, and range.",
-      "summary_zh": "深入探讨长续航电动自行车的设计、电池技术，以及重量、速度与续航之间的权衡。",
+      "title_en": "I pitched a roller coaster to Disneyland at age 10 in 1978",
+      "url": "https://wordglyph.xyz/one-piece-at-a-time",
+      "title_zh": "我在 1978 年 10 岁时向迪士尼提议过一座过山车",
+      "created_display": "Created: Feb 24, 2026 / 05:03 PT",
+      "image_url": "https://wordglyph.xyz/Quadrupuler-Blueprints.jpg",
+      "summary_en": "A personal anecdote about pitching a Disneyland roller coaster at age 10 in 1978, illustrating early engineering imagination. The story reflects how early ideas foreshadow a long-running interest in design and storytelling.",
+      "summary_zh": "这是一则关于作者 10 岁时在 1978 年向迪士尼提议过一座过山车的个人趣闻，展现早期对设计与讲故事的热情。故事反映出创意如何从童年想法延续并影响职业兴趣。",
       "hn": {
-        "id": 47165965,
+        "id": 47136604,
         "type": "story",
-        "by": "birdculture",
-        "score": 5,
-        "descendants": 0,
-        "time": 1772113292,
-        "comments_url": "https://news.ycombinator.com/item?id=47165965"
+        "by": "wordglyph",
+        "score": 551,
+        "descendants": 194,
+        "time": 1771938231,
+        "comments_url": "https://news.ycombinator.com/item?id=47136604"
       },
-      "hot_score": 0.52,
       "tags": [
-        "Hardware",
-        "Energy"
-      ]
+        "Design",
+        "Culture"
+      ],
+      "hot_score": 0.39
     },
     {
       "title_en": "LLM=True",
@@ -629,51 +1055,29 @@
       "tags": [
         "AI"
       ],
-      "hot_score": 0.49
+      "hot_score": 0.39
     },
     {
-      "title_en": "I pitched a roller coaster to Disneyland at age 10 in 1978",
-      "url": "https://wordglyph.xyz/one-piece-at-a-time",
-      "title_zh": "我在 1978 年 10 岁时向迪士尼提议过一座过山车",
-      "created_display": "Created: Feb 24, 2026 / 05:03 PT",
-      "image_url": "https://wordglyph.xyz/Quadrupuler-Blueprints.jpg",
-      "summary_en": "A personal anecdote about pitching a Disneyland roller coaster at age 10 in 1978, illustrating early engineering imagination. The story reflects how early ideas foreshadow a long-running interest in design and storytelling.",
-      "summary_zh": "这是一则关于作者 10 岁时在 1978 年向迪士尼提议过一座过山车的个人趣闻，展现早期对设计与讲故事的热情。故事反映出创意如何从童年想法延续并影响职业兴趣。",
+      "title_en": "Microsoft announces new \"mini PCs\" for Windows 365",
+      "url": "https://www.neowin.net/news/microsoft-announces-new-mini-pcs-for-windows-365/",
+      "title_zh": "微软推出用于 Windows 365 的新迷你电脑",
+      "created_display": "Created: Feb 26, 2026 / 10:19 PT",
+      "image_url": null,
+      "summary_en": "Microsoft unveils new mini PCs designed to run Windows 365 cloud PCs, combining compact form factors with cloud-based desktops. The move tightens the link between hardware affordability and cloud workspaces, accelerating hybrid computing.",
+      "summary_zh": "微软推出新款迷你电脑，旨在运行 Windows 365 云桌面，结合紧凑机身与云端桌面。此举加强了硬件可负担性与云工作区的连接，加速混合计算的普及。",
       "hn": {
-        "id": 47136604,
+        "id": 47169858,
         "type": "story",
-        "by": "wordglyph",
-        "score": 551,
-        "descendants": 194,
-        "time": 1771938231,
-        "comments_url": "https://news.ycombinator.com/item?id=47136604"
+        "by": "mikece",
+        "score": 3,
+        "descendants": 0,
+        "time": 1772129976,
+        "comments_url": "https://news.ycombinator.com/item?id=47169858"
       },
+      "hot_score": 0.38,
       "tags": [
-        "Design"
-      ],
-      "hot_score": 0.45
-    },
-    {
-      "title_en": "An autopsy of AI-generated 3D slop",
-      "url": "https://aircada.com/blog/ai-vs-human-3d-ecommerce",
-      "title_zh": "AI 生成的 3D 乱象的解剖",
-      "created_display": "Created: Feb 25, 2026 / 13:05 PT",
-      "image_url": "https://aircada.com/og-default.png",
-      "summary_en": "Analyses AI-generated 3D assets in ecommerce, showing quality gaps, unrealistic textures, and stability issues, suggesting that human-created assets still outrank current AI outputs for fidelity.",
-      "summary_zh": "对电商领域 AI 生成的 3D 资产进行解剖，揭示在质量、纹理与稳定性方面的不足，认为目前仍难以超越人类创作在真实感方面的水平。",
-      "hn": {
-        "id": 47157841,
-        "type": "story",
-        "by": "sech8420",
-        "score": 96,
-        "descendants": 55,
-        "time": 1772053515,
-        "comments_url": "https://news.ycombinator.com/item?id=47157841"
-      },
-      "tags": [
-        "AI"
-      ],
-      "hot_score": 0.44
+        "Hardware"
+      ]
     },
     {
       "title_en": "Why isn't LA repaving streets?",
@@ -696,30 +1100,7 @@
         "Politics",
         "DevOps"
       ],
-      "hot_score": 0.41
-    },
-    {
-      "title_en": "just-bash: Bash for Agents",
-      "url": "https://github.com/vercel-labs/just-bash",
-      "title_zh": "just-bash：面向代理的 Bash",
-      "created_display": "Created: Feb 26, 2026 / 05:16 PT",
-      "image_url": "https://opengraph.githubassets.com/e92c7276b0bb7355e6304a639b6195a47acc9c040b3d0d4c104fec509873cf38/vercel-labs/just-bash",
-      "summary_en": "Just-bash brings Bash scripting to AI agents, allowing commands and tool calls to be orchestrated from a shell. It lowers the barrier to building simple, scriptable agents and demonstrates a pragmatic approach to tool integration.",
-      "summary_zh": "Just-bash 将 Bash 脚本用于 AI 代理，使命令和工具调用可从 shell 进行编排，降低了构建可脚本化代理的门槛，并展示了工具整合的务实路径。",
-      "hn": {
-        "id": 47165648,
-        "type": "story",
-        "by": "tosh",
-        "score": 4,
-        "descendants": 0,
-        "time": 1772111790,
-        "comments_url": "https://news.ycombinator.com/item?id=47165648"
-      },
-      "hot_score": 0.31,
-      "tags": [
-        "Programming",
-        "AI"
-      ]
+      "hot_score": 0.31
     },
     {
       "title_en": "Large-Scale Online Deanonymization with LLMs",
@@ -733,8 +1114,8 @@
         "id": 47139716,
         "type": "story",
         "by": "DalasNoin",
-        "score": 307,
-        "descendants": 217,
+        "score": 330,
+        "descendants": 233,
         "time": 1771953497,
         "comments_url": "https://news.ycombinator.com/item?id=47139716"
       },
@@ -743,7 +1124,31 @@
         "Security",
         "AI"
       ],
-      "hot_score": 0.29
+      "hot_score": 0.27
+    },
+    {
+      "title_en": "Show HN: Mission Control – Open-source task management for AI agents",
+      "url": "https://github.com/MeisnerDan/mission-control",
+      "title_zh": "Mission Control：开源的 AI 代理任务管理",
+      "created_display": "Created: Feb 26, 2026 / 05:12 PT",
+      "image_url": "https://opengraph.githubassets.com/ec8931e5d245038e064390aec90eb554cdabfe3262fe5d7784b87e776905c7b8/MeisnerDan/mission-control",
+      "summary_en": "Mission Control is an open-source task manager tailored for AI agents, enabling teams to orchestrate and track agent workflows. It aims to bring more structured governance and collaboration to autonomous AI systems, open for community contributions.",
+      "summary_zh": "Mission Control 是一个面向 AI 代理的开源任务管理工具，帮助团队编排并跟踪代理工作流。它旨在为自治 AI 系统带来更结构化的治理与协作，欢迎社区贡献。",
+      "hn": {
+        "id": 47165602,
+        "type": "story",
+        "by": "meisnerd",
+        "score": 8,
+        "descendants": 1,
+        "time": 1772111553,
+        "comments_url": "https://news.ycombinator.com/item?id=47165602"
+      },
+      "hot_score": 0.18,
+      "tags": [
+        "Show HN",
+        "Open Source",
+        "AI"
+      ]
     },
     {
       "title_en": "RK3588 and RK3576 video decoders support merged in the upstream Linux Kernel",
@@ -763,32 +1168,77 @@
         "comments_url": "https://news.ycombinator.com/item?id=47157285"
       },
       "tags": [
-        "Open Source",
-        "Hardware"
+        "Hardware",
+        "Open Source"
       ],
-      "hot_score": 0.22
+      "hot_score": 0.16
     },
     {
-      "title_en": "PA bench: Evaluating web agents on real world personal assistant workflows",
-      "url": "https://vibrantlabs.com/blog/pa-bench",
-      "title_zh": "PA Bench：在真实个人助理工作流中评估网页代理",
-      "created_display": "Created: Feb 25, 2026 / 12:11 PT",
-      "image_url": "https://framerusercontent.com/images/2h5IakevA3gf5dDEes1SV83J8uc.png?width=786&height=486",
-      "summary_en": "PA Bench introduces real-world benchmarks to assess web agents across typical personal assistant workflows. It highlights gaps between lab performance and practical reliability, guiding future improvements.",
-      "summary_zh": "PA Bench 提出在真实个人助理工作流中的网页代理评测基准，揭示实验室表现与实际应用之间的差距。评估重点包括完成任务、可靠性和对场景的契合度。",
+      "title_en": "The First Fully General Computer Action Model",
+      "url": "https://si.inc/posts/fdm1/",
+      "title_zh": "首个完全通用的计算机动作模型",
+      "created_display": "Created: Feb 23, 2026 / 09:00 PT",
+      "image_url": "https://si.inc/fdm1/action_mosaic.png",
+      "summary_en": "Proposes the first fully general computer action model, aiming to unify how programs represent and execute actions across architectures.",
+      "summary_zh": "提出了首个完全通用的计算机动作模型，旨在统一跨体系结构的程序动作表示与执行方式。文中探讨了对编程语言设计与形式化推理的潜在影响。",
       "hn": {
-        "id": 47157160,
+        "id": 47125014,
         "type": "story",
-        "by": "shahules",
-        "score": 35,
-        "descendants": 5,
-        "time": 1772050297,
-        "comments_url": "https://news.ycombinator.com/item?id=47157160"
+        "by": "nee1r",
+        "score": 318,
+        "descendants": 79,
+        "time": 1771866000,
+        "comments_url": "https://news.ycombinator.com/item?id=47125014"
       },
       "tags": [
-        "Programming"
+        "Science"
       ],
-      "hot_score": 0.15
+      "hot_score": 0.13
+    },
+    {
+      "title_en": "Long Range E-Bike",
+      "url": "https://jacquesmattheij.com/long-range-ebike/",
+      "title_zh": "长续航电动自行车",
+      "created_display": "Created: Feb 26, 2026 / 05:41 PT",
+      "image_url": "https://jacquesmattheij.com/ebike_1.jpg",
+      "summary_en": "A deep dive into long-range e-bike design, battery technology, and trade-offs between weight, speed, and range.",
+      "summary_zh": "深入探讨长续航电动自行车的设计、电池技术，以及重量、速度与续航之间的权衡。",
+      "hn": {
+        "id": 47165965,
+        "type": "story",
+        "by": "birdculture",
+        "score": 5,
+        "descendants": 0,
+        "time": 1772113292,
+        "comments_url": "https://news.ycombinator.com/item?id=47165965"
+      },
+      "hot_score": 0.12,
+      "tags": [
+        "Hardware",
+        "Energy"
+      ]
+    },
+    {
+      "title_en": "Learnings from 4 months of Image-Video VAE experiments",
+      "url": "https://www.linum.ai/field-notes/vae-reconstruction-vs-generation",
+      "title_zh": "四个月的影像—视频 VAE 实验的收获",
+      "created_display": "Created: Feb 24, 2026 / 10:59 PT",
+      "image_url": "https://linum.ai/field-notes/vae-reconstruction-vs-generation/opengraph-image?840daf457348e2c2",
+      "summary_en": "Four months of image-video VAE experiments reveal that optimizing for reconstruction can come at the expense of high-quality generation, and vice versa. The notes distill practical takeaways on model design, training regimes, and evaluation for image/video VAEs.",
+      "summary_zh": "四个月的影像与视频变分自编码器实验表明，优化重建质量往往以牺牲生成质量为代价，反之亦然。笔记归纳了模型设计、训练策略与评估方法的实用要点，帮助研究者在图像/视频 VAE 任务中取舍。",
+      "hn": {
+        "id": 47141107,
+        "type": "story",
+        "by": "schopra909",
+        "score": 123,
+        "descendants": 15,
+        "time": 1771959571,
+        "comments_url": "https://news.ycombinator.com/item?id=47141107"
+      },
+      "tags": [
+        "AI"
+      ],
+      "hot_score": 0.11
     },
     {
       "title_en": "Launch HN: TeamOut (YC W22) – AI agent for planning company retreats",
@@ -811,74 +1261,30 @@
         "AI",
         "Startups"
       ],
-      "hot_score": 0.14
+      "hot_score": 0.11
     },
     {
-      "title_en": "The First Fully General Computer Action Model",
-      "url": "https://si.inc/posts/fdm1/",
-      "title_zh": "首个完全通用的计算机动作模型",
-      "created_display": "Created: Feb 23, 2026 / 09:00 PT",
-      "image_url": "https://si.inc/fdm1/action_mosaic.png",
-      "summary_en": "Proposes the first fully general computer action model, aiming to unify how programs represent and execute actions across architectures.",
-      "summary_zh": "提出了首个完全通用的计算机动作模型，旨在统一跨体系结构的程序动作表示与执行方式。文中探讨了对编程语言设计与形式化推理的潜在影响。",
+      "title_en": "PA bench: Evaluating web agents on real world personal assistant workflows",
+      "url": "https://vibrantlabs.com/blog/pa-bench",
+      "title_zh": "PA Bench：在真实个人助理工作流中评估网页代理",
+      "created_display": "Created: Feb 25, 2026 / 12:11 PT",
+      "image_url": "https://framerusercontent.com/images/2h5IakevA3gf5dDEes1SV83J8uc.png?width=786&height=486",
+      "summary_en": "PA Bench introduces real-world benchmarks to assess web agents across typical personal assistant workflows. It highlights gaps between lab performance and practical reliability, guiding future improvements.",
+      "summary_zh": "PA Bench 提出在真实个人助理工作流中的网页代理评测基准，揭示实验室表现与实际应用之间的差距。评估重点包括完成任务、可靠性和对场景的契合度。",
       "hn": {
-        "id": 47125014,
+        "id": 47157160,
         "type": "story",
-        "by": "nee1r",
-        "score": 296,
-        "descendants": 71,
-        "time": 1771866000,
-        "comments_url": "https://news.ycombinator.com/item?id=47125014"
+        "by": "shahules",
+        "score": 35,
+        "descendants": 5,
+        "time": 1772050297,
+        "comments_url": "https://news.ycombinator.com/item?id=47157160"
       },
-      "tags": [
-        "Programming"
-      ],
-      "hot_score": 0.13
-    },
-    {
-      "title_en": "Learnings from 4 months of Image-Video VAE experiments",
-      "url": "https://www.linum.ai/field-notes/vae-reconstruction-vs-generation",
-      "title_zh": "四个月的影像—视频 VAE 实验的收获",
-      "created_display": "Created: Feb 24, 2026 / 10:59 PT",
-      "image_url": "https://linum.ai/field-notes/vae-reconstruction-vs-generation/opengraph-image?840daf457348e2c2",
-      "summary_en": "Four months of image-video VAE experiments reveal that optimizing for reconstruction can come at the expense of high-quality generation, and vice versa. The notes distill practical takeaways on model design, training regimes, and evaluation for image/video VAEs.",
-      "summary_zh": "四个月的影像与视频变分自编码器实验表明，优化重建质量往往以牺牲生成质量为代价，反之亦然。笔记归纳了模型设计、训练策略与评估方法的实用要点，帮助研究者在图像/视频 VAE 任务中取舍。",
-      "hn": {
-        "id": 47141107,
-        "type": "story",
-        "by": "schopra909",
-        "score": 123,
-        "descendants": 15,
-        "time": 1771959571,
-        "comments_url": "https://news.ycombinator.com/item?id=47141107"
-      },
-      "tags": [
-        "AI"
-      ],
-      "hot_score": 0.12
-    },
-    {
-      "title_en": "LM Link: Use local models on remote devices, powered by Tailscale",
-      "url": "https://tailscale.com/blog/lm-link-remote-llm-access",
-      "title_zh": "LM Link：在远端设备上使用本地模型，借助 Tailscale 提供连接",
-      "created_display": "Created: Feb 25, 2026 / 23:35 PT",
-      "image_url": "https://cdn.sanity.io/images/w77i7m8x/production/f9031d79ef534728f4bdc3e2b7fa23a79869ac96-2304x1187.png",
-      "summary_en": "Describes LM Link, a method to run local LLMs on remote devices while keeping model data local, connected securely through Tailscale.",
-      "summary_zh": "介绍 LM Link——在远端设备上运行本地模型，并通过 Tailscale 提供安全连接，数据保持本地化。",
-      "hn": {
-        "id": 47163040,
-        "type": "story",
-        "by": "calcifer",
-        "score": 7,
-        "descendants": 0,
-        "time": 1772091356,
-        "comments_url": "https://news.ycombinator.com/item?id=47163040"
-      },
-      "hot_score": 0.11,
       "tags": [
         "AI",
-        "Privacy"
-      ]
+        "Web"
+      ],
+      "hot_score": 0.11
     },
     {
       "title_en": "Dissecting the CPU-memory relationship in garbage collection (OpenJDK 26)",
@@ -899,9 +1305,10 @@
       },
       "tags": [
         "Programming",
+        "Open Source",
         "Hardware"
       ],
-      "hot_score": 0.09
+      "hot_score": 0.08
     },
     {
       "title_en": "Artist who “paints” portraits on glass by hitting it with a hammer",
@@ -915,15 +1322,62 @@
         "id": 47112299,
         "type": "story",
         "by": "cs702",
-        "score": 211,
-        "descendants": 87,
+        "score": 235,
+        "descendants": 103,
         "time": 1771777548,
         "comments_url": "https://news.ycombinator.com/item?id=47112299"
       },
       "tags": [
-        "Culture"
+        "Culture",
+        "Entertainment"
       ],
       "hot_score": 0.06
+    },
+    {
+      "title_en": "LM Link: Use local models on remote devices, powered by Tailscale",
+      "url": "https://tailscale.com/blog/lm-link-remote-llm-access",
+      "title_zh": "LM Link：在远端设备上使用本地模型，借助 Tailscale 提供连接",
+      "created_display": "Created: Feb 25, 2026 / 23:35 PT",
+      "image_url": "https://cdn.sanity.io/images/w77i7m8x/production/f9031d79ef534728f4bdc3e2b7fa23a79869ac96-2304x1187.png",
+      "summary_en": "Describes LM Link, a method to run local LLMs on remote devices while keeping model data local, connected securely through Tailscale.",
+      "summary_zh": "介绍 LM Link——在远端设备上运行本地模型，并通过 Tailscale 提供安全连接，数据保持本地化。",
+      "hn": {
+        "id": 47163040,
+        "type": "story",
+        "by": "calcifer",
+        "score": 7,
+        "descendants": 0,
+        "time": 1772091356,
+        "comments_url": "https://news.ycombinator.com/item?id=47163040"
+      },
+      "hot_score": 0.06,
+      "tags": [
+        "AI",
+        "Privacy"
+      ]
+    },
+    {
+      "title_en": "Steering interpretable language models with concept algebra",
+      "url": "https://www.guidelabs.ai/post/steerling-steering-8b/",
+      "title_zh": "Steering interpretable language models with concept algebra",
+      "created_display": "Created: Feb 25, 2026 / 15:55 PT",
+      "image_url": "https://www.guidelabs.ai/logo/guidelabs-social-media-thumbnail.png",
+      "summary_en": "Steerling/ concept algebra offers a framework to steer language models toward interpretable behaviors, exploring algebraic constructs to guide outputs. The approach could improve controllability and transparency in AI systems and mitigate unsafe or unexpected responses.",
+      "summary_zh": "用概念代数引导可解释语言模型，提供一种让模型朝向可理解行为的框架，探索代数结构来控制输出。这一方法有望提升AI系统的可控性与透明度，并降低不安全或意外输出的风险。",
+      "hn": {
+        "id": 47159833,
+        "type": "story",
+        "by": "luulinh90s",
+        "score": 13,
+        "descendants": 1,
+        "time": 1772063734,
+        "comments_url": "https://news.ycombinator.com/item?id=47159833"
+      },
+      "hot_score": 0.05,
+      "tags": [
+        "AI",
+        "Science"
+      ]
     },
     {
       "title_en": "The Physics and Economics of Moving 44 Tonnes at 56mph",
@@ -942,10 +1396,56 @@
         "time": 1771884058,
         "comments_url": "https://news.ycombinator.com/item?id=47129589"
       },
-      "hot_score": 0.04,
+      "hot_score": 0.03,
       "tags": [
         "Science",
         "Business"
+      ]
+    },
+    {
+      "title_en": "Writers and Their Day Jobs",
+      "url": "https://lithub.com/the-work-behind-the-writing-on-writers-and-their-day-jobs/",
+      "title_zh": "作家及其日常工作",
+      "created_display": "Created: Feb 22, 2026 / 04:13 PT",
+      "image_url": "https://s26162.pcdn.co/wp-content/uploads/2026/01/hippopx.com-2.jpg",
+      "summary_en": "Writers and Their Day Jobs examines how authors balance regular work with writing life, and how ordinary jobs shape voice, themes, and discipline.",
+      "summary_zh": "《作家及其日常工作》探讨作者如何在日常工作与写作之间取得平衡，以及日常工作如何影响写作风格、主题和自律。",
+      "hn": {
+        "id": 47110393,
+        "type": "story",
+        "by": "simplegeek",
+        "score": 79,
+        "descendants": 33,
+        "time": 1771762395,
+        "comments_url": "https://news.ycombinator.com/item?id=47110393"
+      },
+      "tags": [
+        "Culture",
+        "Education"
+      ],
+      "hot_score": 0.02
+    },
+    {
+      "title_en": "Show HN: Hacker Smacker – spot great (and terrible) HN commenters at a glance",
+      "url": "https://hackersmacker.org",
+      "title_zh": "Show HN: Hacker Smacker——一眼辨别优秀与糟糕的 HN 评论者",
+      "created_display": "Created: Feb 24, 2026 / 11:00 PT",
+      "image_url": "https://hackersmacker.org/images/hackersmacker_logo.png",
+      "summary_en": "Hacker Smacker is a show-and-tell tool that helps you spot high- and low-quality Hacker News commenters at a glance. It hints at a growing culture of audience self-regulation and tooling that helps readers filter conversations, with potential implications for signal quality and moderation.",
+      "summary_zh": "Hacker Smacker 是一个 Show HN 项目，帮助你一眼分辨 Hacker News 评论者的优劣势。它反映出日益成熟的受众自我治理文化，以及帮助读者筛选讨论的工具，对信息质量与版面管理可能产生影响。",
+      "hn": {
+        "id": 47141119,
+        "type": "story",
+        "by": "conesus",
+        "score": 21,
+        "descendants": 8,
+        "time": 1771959616,
+        "comments_url": "https://news.ycombinator.com/item?id=47141119"
+      },
+      "hot_score": 0.02,
+      "tags": [
+        "Show HN",
+        "Politics"
       ]
     },
     {
@@ -966,31 +1466,32 @@
         "comments_url": "https://news.ycombinator.com/item?id=47102610"
       },
       "tags": [
-        "Programming"
+        "Web"
       ],
       "hot_score": 0.01
     },
     {
-      "title_en": "Writers and Their Day Jobs",
-      "url": "https://lithub.com/the-work-behind-the-writing-on-writers-and-their-day-jobs/",
-      "title_zh": "作家及其日常工作",
-      "created_display": "Created: Feb 22, 2026 / 04:13 PT",
-      "image_url": "https://s26162.pcdn.co/wp-content/uploads/2026/01/hippopx.com-2.jpg",
-      "summary_en": "Writers and Their Day Jobs examines how authors balance regular work with writing life, and how ordinary jobs shape voice, themes, and discipline.",
-      "summary_zh": "《作家及其日常工作》探讨作者如何在日常工作与写作之间取得平衡，以及日常工作如何影响写作风格、主题和自律。",
+      "title_en": "A 26-Gram Butterfly-Inspired Robot Achieving Autonomous Tailless Flight",
+      "url": "https://arxiv.org/abs/2602.06811",
+      "title_zh": "26克蝴蝶式机器人实现自主无尾飞行",
+      "created_display": "Created: Feb 22, 2026 / 06:15 PT",
+      "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "summary_en": "A 26-gram butterfly-inspired robot demonstrates autonomous tailless flight, using lightweight actuation and flexible wings, a step forward for micro aerial robotics.",
+      "summary_zh": "26 克蝴蝶灵感的机器人实现了自主无尾飞行，依靠轻量化驱动与柔性翼面，标志着微型无人机领域的一步重要进展。",
       "hn": {
-        "id": 47110393,
+        "id": 47111164,
         "type": "story",
-        "by": "simplegeek",
-        "score": 54,
+        "by": "Terretta",
+        "score": 56,
         "descendants": 15,
-        "time": 1771762395,
-        "comments_url": "https://news.ycombinator.com/item?id=47110393"
+        "time": 1771769709,
+        "comments_url": "https://news.ycombinator.com/item?id=47111164"
       },
-      "hot_score": 0.01,
       "tags": [
-        "Career"
-      ]
+        "Hardware",
+        "Science"
+      ],
+      "hot_score": 0.01
     },
     {
       "title_en": "What Pressure Does to an Athlete's Body",
@@ -1032,31 +1533,76 @@
         "comments_url": "https://news.ycombinator.com/item?id=47105175"
       },
       "tags": [
-        "Programming"
+        "Science"
       ],
       "hot_score": 0.01
     },
     {
-      "title_en": "A 26-Gram Butterfly-Inspired Robot Achieving Autonomous Tailless Flight",
-      "url": "https://arxiv.org/abs/2602.06811",
-      "title_zh": "26克蝴蝶式机器人实现自主无尾飞行",
-      "created_display": "Created: Feb 22, 2026 / 06:15 PT",
-      "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-      "summary_en": "A 26-gram butterfly-inspired robot demonstrates autonomous tailless flight, using lightweight actuation and flexible wings, a step forward for micro aerial robotics.",
-      "summary_zh": "26 克蝴蝶灵感的机器人实现了自主无尾飞行，依靠轻量化驱动与柔性翼面，标志着微型无人机领域的一步重要进展。",
+      "title_en": "Those who can, teach history",
+      "url": "https://www.historytoday.com/archive/making-history/those-who-can-teach-history",
+      "title_zh": "那些能讲好历史的人为何应投身教学",
+      "created_display": "Created: Feb 21, 2026 / 15:37 PT",
+      "image_url": "https://www.historytoday.com/.bunny-shield/assets/challenge.svg",
+      "summary_en": "The piece argues that people with historical understanding are best placed to teach it, exploring teaching methods, history education access, and public understanding.",
+      "summary_zh": "文章主张具备历史素养的人最适合教授历史，探讨教学方法、历史教育的普及与公众理解之间的关系。",
       "hn": {
-        "id": 47111164,
+        "id": 47106275,
         "type": "story",
-        "by": "Terretta",
-        "score": 29,
-        "descendants": 7,
-        "time": 1771769709,
-        "comments_url": "https://news.ycombinator.com/item?id=47111164"
+        "by": "hhs",
+        "score": 41,
+        "descendants": 36,
+        "time": 1771717024,
+        "comments_url": "https://news.ycombinator.com/item?id=47106275"
+      },
+      "tags": [
+        "Education",
+        "Culture"
+      ],
+      "hot_score": 0.01
+    },
+    {
+      "title_en": "I baked a pie every day for a year and it changed my life",
+      "url": "https://www.theguardian.com/lifeandstyle/2026/feb/22/a-new-start-after-60-i-baked-a-pie-every-day-for-a-year-and-it-changed-my-life",
+      "title_zh": "我每天烤一个馅饼一年，改变了我的生活",
+      "created_display": "Created: Feb 23, 2026 / 12:54 PT",
+      "image_url": "https://i.guim.co.uk/img/media/13b25becf38eae040d804aba8ec782ba8cd66988/654_0_3335_2668/master/3335.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=3489c87db87da769fb108a825e59ff73",
+      "summary_en": "Baking a pie every day for a year became a catalyst for routine, creativity, and personal growth, revealing how small, repeatable practices can unlock new habits. The experiment offers transferable lessons on discipline, iteration, and finding joy in craft.",
+      "summary_zh": "每天烤一个馅饼持续一年成为培养日常规律、创造力与个人成长的催化剂，展示了以小而重复的练习可以养成新习惯。此实验提供可迁移的自律、迭代与在制作中发现乐趣的启示。",
+      "hn": {
+        "id": 47128645,
+        "type": "story",
+        "by": "NaOH",
+        "score": 32,
+        "descendants": 19,
+        "time": 1771880074,
+        "comments_url": "https://news.ycombinator.com/item?id=47128645"
       },
       "hot_score": 0.01,
       "tags": [
-        "Hardware",
-        "Science"
+        "Culture"
+      ]
+    },
+    {
+      "title_en": "Some silly Z3 scripts I wrote",
+      "url": "https://www.hillelwayne.com/post/z3-examples/",
+      "title_zh": "我写过的一些有趣的 Z3 脚本",
+      "created_display": "Created: Feb 23, 2026 / 09:01 PT",
+      "image_url": null,
+      "summary_en": "A collection of playful Z3 scripts showcases the solver's flexibility for reasoning tasks and automation. The examples reveal how SMT techniques can solve puzzles, verify properties, or automate coding tasks in creative ways.",
+      "summary_zh": "一组有趣的 Z3 脚本展示了求解器在推理任务与自动化中的灵活性。示例展现了如何用 SMT 技术解决谜题、验证属性或以创造性方式自动化编码任务。",
+      "hn": {
+        "id": 47125044,
+        "type": "story",
+        "by": "azhenley",
+        "score": 30,
+        "descendants": 8,
+        "time": 1771866086,
+        "comments_url": "https://news.ycombinator.com/item?id=47125044"
+      },
+      "hot_score": 0.01,
+      "tags": [
+        "Programming",
+        "Open Source"
       ]
     },
     {
@@ -1078,7 +1624,31 @@
       },
       "hot_score": 0.01,
       "tags": [
-        "Culture"
+        "Culture",
+        "Design"
+      ]
+    },
+    {
+      "title_en": "Ferret-UI Lite: Lessons from Building Small On-Device GUI Agents",
+      "url": "https://machinelearning.apple.com/research/ferret-ui",
+      "title_zh": "Ferret-UI Lite：在设备上构建小型 GUI 代理的经验教训",
+      "created_display": "Created: Feb 21, 2026 / 19:54 PT",
+      "image_url": "https://mlr.cdn-apple.com/media/Home_1200x630_48225d82e9.png",
+      "summary_en": "Ferret-UI Lite distills learnings from building on-device GUI agents, focusing on lightweight interfaces, offline capability, and resource constraints. It shares practical design patterns for edge AI tools that run without cloud connectivity.",
+      "summary_zh": "Ferret-UI Lite 汇总了在设备上构建 GUI 代理的经验，聚焦轻量界面、离线能力和资源约束，提供面向边缘 AI 工具的实用设计模式。",
+      "hn": {
+        "id": 47107974,
+        "type": "story",
+        "by": "CharlesW",
+        "score": 26,
+        "descendants": 4,
+        "time": 1771732441,
+        "comments_url": "https://news.ycombinator.com/item?id=47107974"
+      },
+      "hot_score": 0.01,
+      "tags": [
+        "AI",
+        "Design"
       ]
     },
     {
@@ -1093,37 +1663,62 @@
         "id": 47110049,
         "type": "story",
         "by": "vlad_angelov",
-        "score": 12,
-        "descendants": 1,
+        "score": 24,
+        "descendants": 4,
         "time": 1771758199,
         "comments_url": "https://news.ycombinator.com/item?id=47110049"
+      },
+      "tags": [
+        "Show HN",
+        "Programming",
+        "Open Source"
+      ],
+      "hot_score": 0.01
+    },
+    {
+      "title_en": "Show HN: Linex – A daily challenge: placing pieces on a board that fights back",
+      "url": "https://www.playlinex.com/",
+      "title_zh": "Linex——每日挑战：在会反扑的棋盘上放置棋子",
+      "created_display": "Created: Feb 24, 2026 / 15:33 PT",
+      "image_url": "https://www.playlinex.com/swap16x16.svg",
+      "summary_en": "Linex challenges players with a daily puzzle where your moves are countered by a reactive board, creating a tight cognitive loop. The premise combines strategy and incremental difficulty, appealing to fans of logic puzzles and algorithmic gameplay.",
+      "summary_zh": "Linex 为玩家带来每日谜题，棋子落下后棋盘会进行反击，形成紧密的认知循环。题材将策略与递进难度结合，吸引逻辑谜题与算法玩法的爱好者。",
+      "hn": {
+        "id": 47145082,
+        "type": "story",
+        "by": "Humanista75",
+        "score": 7,
+        "descendants": 6,
+        "time": 1771976038,
+        "comments_url": "https://news.ycombinator.com/item?id=47145082"
+      },
+      "hot_score": 0.01,
+      "tags": [
+        "Show HN",
+        "Gaming"
+      ]
+    },
+    {
+      "title_en": "Show HN: Beehive – Multi-Workspace Agent Orchestrator",
+      "url": "https://storozhenko98.github.io/beehive/",
+      "title_zh": "Beehive——多工作区代理编排器",
+      "created_display": "Created: Feb 24, 2026 / 02:41 PT",
+      "image_url": "https://storozhenko98.github.io/beehive/logo.png",
+      "summary_en": "Beehive is a multi-workspace agent orchestrator that coordinates several AI agents across tasks and contexts. It aims to simplify building complex AI workflows, lowering integration friction and enabling more scalable automation.",
+      "summary_zh": "Beehive 是一个多工作区代理编排器，协调多个 AI 代理在不同任务和场景中的协作。它旨在简化复杂 AI 工作流的构建，降低集成难度并提升自动化的可扩展性。",
+      "hn": {
+        "id": 47135425,
+        "type": "story",
+        "by": "mst98",
+        "score": 8,
+        "descendants": 0,
+        "time": 1771929676,
+        "comments_url": "https://news.ycombinator.com/item?id=47135425"
       },
       "hot_score": 0.0,
       "tags": [
         "Show HN",
-        "Open Source"
-      ]
-    },
-    {
-      "title_en": "Those who can, teach history",
-      "url": "https://www.historytoday.com/archive/making-history/those-who-can-teach-history",
-      "title_zh": "那些能讲好历史的人为何应投身教学",
-      "created_display": "Created: Feb 21, 2026 / 15:37 PT",
-      "image_url": "https://www.historytoday.com/.bunny-shield/assets/challenge.svg",
-      "summary_en": "The piece argues that people with historical understanding are best placed to teach it, exploring teaching methods, history education access, and public understanding.",
-      "summary_zh": "文章主张具备历史素养的人最适合教授历史，探讨教学方法、历史教育的普及与公众理解之间的关系。",
-      "hn": {
-        "id": 47106275,
-        "type": "story",
-        "by": "hhs",
-        "score": 7,
-        "descendants": 2,
-        "time": 1771717024,
-        "comments_url": "https://news.ycombinator.com/item?id=47106275"
-      },
-      "hot_score": 0.0,
-      "tags": [
-        "Education"
+        "AI"
       ]
     }
   ]
