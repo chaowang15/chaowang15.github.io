@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>13</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>1590</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>12</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>11</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-02-28</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>13</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>1600</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>12</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>11</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-02-28</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -28,106 +28,106 @@ Sort:
  <a class='hn-top-story-link' href='https://help.openai.com/en/articles/6378407-how-to-delete-your-account' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>OpenAI：如何删除账户</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 28</span> <span class='hn-top-story-score'>&#9650; 1714</span> <span class='hn-top-story-comments'>&#128172; 323</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 16</span> <span class='hn-top-story-score'>&#9650; 1714</span> <span class='hn-top-story-comments'>&#128172; 323</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='254' data-hn-time='1772293150'>
+<div class='hn-top-story-item' data-hn-score='123' data-hn-time='1772310929'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/02/28/top_stories_02282026#story-47196582'>Cognitive Debt: When Velocity Exceeds Comprehension</a>
- <a class='hn-top-story-link' href='https://www.rockoder.com/beyondthecode/cognitive-debt-when-velocity-exceeds-comprehension/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/02/28/top_stories_02282026#story-47199948'>Our Agreement with the Department of War</a>
+ <a class='hn-top-story-link' href='https://openai.com/index/our-agreement-with-the-department-of-war' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>认知负债：当速度超过理解力</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 15</span> <span class='hn-top-story-score'>&#9650; 254</span> <span class='hn-top-story-comments'>&#128172; 110</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>我们与战争部的协议</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 123</span> <span class='hn-top-story-comments'>&#128172; 107</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='2336' data-hn-time='1772240093'>
+<div class='hn-top-story-item' data-hn-score='404' data-hn-time='1772297509'>
 <span class='hn-top-story-rank'>3</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/02/28/top_stories_02282026#story-47188473'>We Will Not Be Divided</a>
- <a class='hn-top-story-link' href='https://notdivided.org' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>我们不再分裂</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 2336</span> <span class='hn-top-story-comments'>&#128172; 740</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Gaming</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='128' data-hn-time='1772296313'>
-<span class='hn-top-story-rank'>4</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/02/28/top_stories_02282026#story-47197267'>Obsidian Sync now has a headless client</a>
- <a class='hn-top-story-link' href='https://help.obsidian.md/sync/headless' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Obsidian Sync 现推出无头客户端</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 128</span> <span class='hn-top-story-comments'>&#128172; 46</span> <span class='hn-top-story-tag'>Programming</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='1205' data-hn-time='1772247542'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/02/28/top_stories_02282026#story-47189650'>OpenAI agrees with Dept. of War to deploy models in their classified network</a>
- <a class='hn-top-story-link' href='https://twitter.com/sama/status/2027578652477821175' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>OpenAI 与战争部在其机密网络中部署模型达成协议</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.0</span> <span class='hn-top-story-score'>&#9650; 1205</span> <span class='hn-top-story-comments'>&#128172; 573</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Politics</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='750' data-hn-time='1772260447'>
-<span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/02/28/top_stories_02282026#story-47191232'>The United States and Israel have launched a major attack on Iran</a>
- <a class='hn-top-story-link' href='https://www.cnn.com/2026/02/28/middleeast/israel-attack-iran-intl-hnk' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>美以对伊朗发动大规模攻击</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.5</span> <span class='hn-top-story-score'>&#9650; 750</span> <span class='hn-top-story-comments'>&#128172; 1780</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Energy</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='244' data-hn-time='1772282372'>
-<span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/02/28/top_stories_02282026#story-47194611'>Don't trust AI agents</a>
- <a class='hn-top-story-link' href='https://nanoclaw.dev/blog/nanoclaw-security-model' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>别信任 AI 代理</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.0</span> <span class='hn-top-story-score'>&#9650; 244</span> <span class='hn-top-story-comments'>&#128172; 132</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='218' data-hn-time='1772283903'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/02/28/top_stories_02282026#story-47194847'>What AI coding costs you</a>
- <a class='hn-top-story-link' href='https://tomwojcik.com/posts/2026-02-15/finding-the-right-amount-of-ai/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>AI 编码对你成本的影响</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.9</span> <span class='hn-top-story-score'>&#9650; 218</span> <span class='hn-top-story-comments'>&#128172; 152</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='59' data-hn-time='1772297509'>
-<span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/02/28/top_stories_02282026#story-47197505'>The whole thing was a scam</a>
  <a class='hn-top-story-link' href='https://garymarcus.substack.com/p/the-whole-thing-was-scam' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>这一切都是骗局</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.7</span> <span class='hn-top-story-score'>&#9650; 59</span> <span class='hn-top-story-comments'>&#128172; 8</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Startups</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 404</span> <span class='hn-top-story-comments'>&#128172; 119</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1092' data-hn-time='1772241610'>
+<div class='hn-top-story-item' data-hn-score='2481' data-hn-time='1772240093'>
+<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/02/28/top_stories_02282026#story-47188473'>We Will Not Be Divided</a>
+ <a class='hn-top-story-link' href='https://notdivided.org' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>我们不再分裂</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.6</span> <span class='hn-top-story-score'>&#9650; 2481</span> <span class='hn-top-story-comments'>&#128172; 778</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Gaming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='296' data-hn-time='1772296313'>
+<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/02/28/top_stories_02282026#story-47197267'>Obsidian Sync now has a headless client</a>
+ <a class='hn-top-story-link' href='https://help.obsidian.md/sync/headless' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Obsidian Sync 现推出无头客户端</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.5</span> <span class='hn-top-story-score'>&#9650; 296</span> <span class='hn-top-story-comments'>&#128172; 114</span> <span class='hn-top-story-tag'>Programming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1302' data-hn-time='1772247542'>
+<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/02/28/top_stories_02282026#story-47189650'>OpenAI agrees with Dept. of War to deploy models in their classified network</a>
+ <a class='hn-top-story-link' href='https://twitter.com/sama/status/2027578652477821175' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>OpenAI 与战争部在其机密网络中部署模型达成协议</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.3</span> <span class='hn-top-story-score'>&#9650; 1302</span> <span class='hn-top-story-comments'>&#128172; 610</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Politics</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='254' data-hn-time='1772293150'>
+<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/02/28/top_stories_02282026#story-47196582'>Cognitive Debt: When Velocity Exceeds Comprehension</a>
+ <a class='hn-top-story-link' href='https://www.rockoder.com/beyondthecode/cognitive-debt-when-velocity-exceeds-comprehension/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>认知负债：当速度超过理解力</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.3</span> <span class='hn-top-story-score'>&#9650; 254</span> <span class='hn-top-story-comments'>&#128172; 110</span> <span class='hn-top-story-tag'>Programming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='911' data-hn-time='1772260447'>
+<span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/02/28/top_stories_02282026#story-47191232'>The United States and Israel have launched a major attack on Iran</a>
+ <a class='hn-top-story-link' href='https://www.cnn.com/2026/02/28/middleeast/israel-attack-iran-intl-hnk' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>美以对伊朗发动大规模攻击</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.2</span> <span class='hn-top-story-score'>&#9650; 911</span> <span class='hn-top-story-comments'>&#128172; 2115</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Energy</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='53' data-hn-time='1772310000'>
+<span class='hn-top-story-rank'>9</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/02/28/top_stories_02282026#story-47199781'>Qwen3.5 122B and 35B models offer Sonnet 4.5 performance on local computers</a>
+ <a class='hn-top-story-link' href='https://venturebeat.com/technology/alibabas-new-open-source-qwen3-5-medium-models-offer-sonnet-4-5-performance' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Qwen3.5 122B 与 35B 模型在本地电脑上实现 Sonnet 4.5 性能</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.5</span> <span class='hn-top-story-score'>&#9650; 53</span> <span class='hn-top-story-comments'>&#128172; 16</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Hardware</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='29' data-hn-time='1772313413'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/02/28/top_stories_02282026#story-47188697'>Statement on the comments from Secretary of War Pete Hegseth</a>
- <a class='hn-top-story-link' href='https://www.anthropic.com/news/statement-comments-secretary-war' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/02/28/top_stories_02282026#story-47200342'>MinIO Is Dead, Long Live MinIO</a>
+ <a class='hn-top-story-link' href='https://blog.vonng.com/en/db/minio-resurrect/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>关于战争部部长彼特·赫格斯特言论的声明</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.4</span> <span class='hn-top-story-score'>&#9650; 1092</span> <span class='hn-top-story-comments'>&#128172; 343</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>MinIO 已死，MinIO 长存</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 29</span> <span class='hn-top-story-comments'>&#128172; 7</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -151,7 +151,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/02/28/top_stories_02282026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>75</b> <span class="hn-row-sep">·</span> Programming <b>24</b> <span class="hn-row-sep">·</span> AI <b>20</b></span>
+<span class='hn-row-detail'>All <b>85</b> <span class="hn-row-sep">·</span> Programming <b>28</b> <span class="hn-row-sep">·</span> AI <b>23</b></span>
 </a>
 </div>
 </div>
