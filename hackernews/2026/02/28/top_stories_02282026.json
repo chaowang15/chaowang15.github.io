@@ -4,19 +4,19 @@
     "source": "https://news.ycombinator.com/",
     "api": "https://github.com/HackerNews/API",
     "count_requested": 50,
-    "count_written": 98,
-    "reused_same_day": 35,
+    "count_written": 100,
+    "reused_same_day": 47,
     "reused_cross_day": 0,
-    "new_llm_enriched": 15,
-    "scrape_time_display": "20:16, February 28, 2026 (PST)",
+    "new_llm_enriched": 3,
+    "scrape_time_display": "22:55, February 28, 2026 (PST)",
     "timezone": "America/Los_Angeles",
     "date_dir": "2026/02/28",
     "content_date": "2026-02-28",
-    "run_time_local": "20:16, February 28, 2026 (PST)",
-    "run_time_utc": "2026-03-01 04:16:13 UTC",
+    "run_time_local": "22:55, February 28, 2026 (PST)",
+    "run_time_utc": "2026-03-01 06:55:43 UTC",
     "incremental": true,
     "stories_max": 100,
-    "hot_score_time_utc": "2026-03-01 04:17:15 UTC"
+    "hot_score_time_utc": "2026-03-01 06:56:05 UTC"
   },
   "items": [
     {
@@ -31,16 +31,16 @@
         "id": 47202708,
         "type": "story",
         "by": "tambourine_man",
-        "score": 264,
-        "descendants": 40,
+        "score": 516,
+        "descendants": 88,
         "time": 1772329166,
         "comments_url": "https://news.ycombinator.com/item?id=47202708"
       },
-      "hot_score": 16.67,
       "tags": [
         "AI",
         "Hardware"
-      ]
+      ],
+      "hot_score": 14.46
     },
     {
       "title_en": "OpenAI – How to delete your account",
@@ -63,7 +63,7 @@
         "Privacy",
         "AI"
       ],
-      "hot_score": 8.09
+      "hot_score": 6.44
     },
     {
       "title_en": "We do not think Anthropic should be designated as a supply chain risk",
@@ -77,38 +77,17 @@
         "id": 47200420,
         "type": "story",
         "by": "golfer",
-        "score": 352,
-        "descendants": 157,
+        "score": 448,
+        "descendants": 204,
         "time": 1772313856,
         "comments_url": "https://news.ycombinator.com/item?id=47200420"
       },
       "tags": [
+        "Security",
         "Politics",
         "AI"
       ],
-      "hot_score": 6.88
-    },
-    {
-      "title_en": "The whole thing was a scam",
-      "url": "https://garymarcus.substack.com/p/the-whole-thing-was-scam",
-      "title_zh": "这一切都是骗局",
-      "created_display": "Created: Feb 28, 2026 / 08:51 PT",
-      "image_url": null,
-      "summary_en": "A candid take revealing that the project was a scam, with implications for investor trust and community governance in tech.",
-      "summary_zh": "直言揭露该项目其实是骗局，对投资者信任与技术社区治理带来警示与反思。",
-      "hn": {
-        "id": 47197505,
-        "type": "story",
-        "by": "guilamu",
-        "score": 668,
-        "descendants": 196,
-        "time": 1772297509,
-        "comments_url": "https://news.ycombinator.com/item?id=47197505"
-      },
-      "tags": [
-        "Business"
-      ],
-      "hot_score": 6.22
+      "hot_score": 5.48
     },
     {
       "title_en": "We Will Not Be Divided",
@@ -122,8 +101,8 @@
         "id": 47188473,
         "type": "story",
         "by": "BloondAndDoom",
-        "score": 2543,
-        "descendants": 806,
+        "score": 2552,
+        "descendants": 807,
         "time": 1772240093,
         "comments_url": "https://news.ycombinator.com/item?id=47188473"
       },
@@ -131,7 +110,29 @@
         "Politics",
         "Gaming"
       ],
-      "hot_score": 5.79
+      "hot_score": 4.98
+    },
+    {
+      "title_en": "The whole thing was a scam",
+      "url": "https://garymarcus.substack.com/p/the-whole-thing-was-scam",
+      "title_zh": "这一切都是骗局",
+      "created_display": "Created: Feb 28, 2026 / 08:51 PT",
+      "image_url": null,
+      "summary_en": "A candid take revealing that the project was a scam, with implications for investor trust and community governance in tech.",
+      "summary_zh": "直言揭露该项目其实是骗局，对投资者信任与技术社区治理带来警示与反思。",
+      "hn": {
+        "id": 47197505,
+        "type": "story",
+        "by": "guilamu",
+        "score": 729,
+        "descendants": 218,
+        "time": 1772297509,
+        "comments_url": "https://news.ycombinator.com/item?id=47197505"
+      },
+      "tags": [
+        "Business"
+      ],
+      "hot_score": 4.91
     },
     {
       "title_en": "Qwen3.5 122B and 35B models offer Sonnet 4.5 performance on local computers",
@@ -145,8 +146,8 @@
         "id": 47199781,
         "type": "story",
         "by": "lostmsu",
-        "score": 265,
-        "descendants": 174,
+        "score": 307,
+        "descendants": 187,
         "time": 1772310000,
         "comments_url": "https://news.ycombinator.com/item?id=47199781"
       },
@@ -155,7 +156,7 @@
         "Open Source",
         "Hardware"
       ],
-      "hot_score": 4.22
+      "hot_score": 3.2
     },
     {
       "title_en": "The Windows 95 user interface: A case study in usability engineering (1996)",
@@ -169,61 +170,15 @@
         "id": 47200904,
         "type": "story",
         "by": "ksec",
-        "score": 173,
-        "descendants": 104,
+        "score": 221,
+        "descendants": 130,
         "time": 1772317176,
         "comments_url": "https://news.ycombinator.com/item?id=47200904"
       },
-      "hot_score": 4.11,
       "tags": [
         "Design"
-      ]
-    },
-    {
-      "title_en": "Our Agreement with the Department of War",
-      "url": "https://openai.com/index/our-agreement-with-the-department-of-war",
-      "title_zh": "我们与战争部的协议",
-      "created_display": "Created: Feb 28, 2026 / 12:35 PT",
-      "image_url": null,
-      "summary_en": "OpenAI shares an agreement with the Department of War, framing how the organization considers defense-related deployment and governance of its AI technology. The document sheds light on safety commitments and the boundaries of collaboration, highlighting tensions between innovation and national security.",
-      "summary_zh": "OpenAI 公布了与战争部的协议，阐明公司在军事用途及相关治理方面的立场与安排。该文件揭示了在安全承诺和协作边界方面的考量，以及创新与国家安全之间的张力。",
-      "hn": {
-        "id": 47199948,
-        "type": "story",
-        "by": "surprisetalk",
-        "score": 244,
-        "descendants": 201,
-        "time": 1772310929,
-        "comments_url": "https://news.ycombinator.com/item?id=47199948"
-      },
-      "tags": [
-        "Politics",
-        "AI",
-        "Security"
       ],
-      "hot_score": 4.07
-    },
-    {
-      "title_en": "Obsidian Sync now has a headless client",
-      "url": "https://help.obsidian.md/sync/headless",
-      "title_zh": "Obsidian Sync 现推出无头客户端",
-      "created_display": "Created: Feb 28, 2026 / 08:31 PT",
-      "image_url": "https://ogimage.obsidian.md/og-image.png?title=Headless+Sync&description=Obsidian+Sync+offers+a+headless+client+to+sync+vaults+without+using+the+desktop+app.+Useful+for+CI+pipelines%2C+agents%2C+and+automated+workflows.+Sync+the+latest+changes+or+keep+files+continuously+up+to+date.&logoUrl=https%3A%2F%2Fpublish-01.obsidian.md%2Faccess%2Ff786db9fac45774fa4f0d8112e232d67%2Ffavicon-96x96.png&siteName=Obsidian+Help",
-      "summary_en": "Obsidian Sync now offers a headless client, enabling automation and scripting without the UI. This unlocks programmatic syncing, custom workflows, and deeper integrations with note pipelines.",
-      "summary_zh": "Obsidian Sync 增添了无头客户端，支持无界面自动化与脚本化操作。用户可以实现编程化同步、定制工作流，并更容易与笔记处理管线整合。",
-      "hn": {
-        "id": 47197267,
-        "type": "story",
-        "by": "adilmoujahid",
-        "score": 421,
-        "descendants": 146,
-        "time": 1772296313,
-        "comments_url": "https://news.ycombinator.com/item?id=47197267"
-      },
-      "tags": [
-        "Programming"
-      ],
-      "hot_score": 3.75
+      "hot_score": 3.14
     },
     {
       "title_en": "The United States and Israel have launched a major attack on Iran",
@@ -237,8 +192,8 @@
         "id": 47191232,
         "type": "story",
         "by": "lavp",
-        "score": 1083,
-        "descendants": 2330,
+        "score": 1098,
+        "descendants": 2375,
         "time": 1772260447,
         "comments_url": "https://news.ycombinator.com/item?id=47191232"
       },
@@ -246,7 +201,7 @@
         "Politics",
         "Energy"
       ],
-      "hot_score": 3.62
+      "hot_score": 3.04
     },
     {
       "title_en": "OpenAI agrees with Dept. of War to deploy models in their classified network",
@@ -260,17 +215,63 @@
         "id": 47189650,
         "type": "story",
         "by": "eoskx",
-        "score": 1348,
-        "descendants": 624,
+        "score": 1355,
+        "descendants": 625,
         "time": 1772247542,
         "comments_url": "https://news.ycombinator.com/item?id=47189650"
       },
       "tags": [
         "Security",
-        "AI",
-        "Politics"
+        "Politics",
+        "AI"
       ],
-      "hot_score": 3.5
+      "hot_score": 2.98
+    },
+    {
+      "title_en": "Obsidian Sync now has a headless client",
+      "url": "https://help.obsidian.md/sync/headless",
+      "title_zh": "Obsidian Sync 现推出无头客户端",
+      "created_display": "Created: Feb 28, 2026 / 08:31 PT",
+      "image_url": "https://ogimage.obsidian.md/og-image.png?title=Headless+Sync&description=Obsidian+Sync+offers+a+headless+client+to+sync+vaults+without+using+the+desktop+app.+Useful+for+CI+pipelines%2C+agents%2C+and+automated+workflows.+Sync+the+latest+changes+or+keep+files+continuously+up+to+date.&logoUrl=https%3A%2F%2Fpublish-01.obsidian.md%2Faccess%2Ff786db9fac45774fa4f0d8112e232d67%2Ffavicon-96x96.png&siteName=Obsidian+Help",
+      "summary_en": "Obsidian Sync now offers a headless client, enabling automation and scripting without the UI. This unlocks programmatic syncing, custom workflows, and deeper integrations with note pipelines.",
+      "summary_zh": "Obsidian Sync 增添了无头客户端，支持无界面自动化与脚本化操作。用户可以实现编程化同步、定制工作流，并更容易与笔记处理管线整合。",
+      "hn": {
+        "id": 47197267,
+        "type": "story",
+        "by": "adilmoujahid",
+        "score": 451,
+        "descendants": 153,
+        "time": 1772296313,
+        "comments_url": "https://news.ycombinator.com/item?id=47197267"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 2.93
+    },
+    {
+      "title_en": "Our Agreement with the Department of War",
+      "url": "https://openai.com/index/our-agreement-with-the-department-of-war",
+      "title_zh": "我们与战争部的协议",
+      "created_display": "Created: Feb 28, 2026 / 12:35 PT",
+      "image_url": null,
+      "summary_en": "OpenAI shares an agreement with the Department of War, framing how the organization considers defense-related deployment and governance of its AI technology. The document sheds light on safety commitments and the boundaries of collaboration, highlighting tensions between innovation and national security.",
+      "summary_zh": "OpenAI 公布了与战争部的协议，阐明公司在军事用途及相关治理方面的立场与安排。该文件揭示了在安全承诺和协作边界方面的考量，以及创新与国家安全之间的张力。",
+      "hn": {
+        "id": 47199948,
+        "type": "story",
+        "by": "surprisetalk",
+        "score": 268,
+        "descendants": 211,
+        "time": 1772310929,
+        "comments_url": "https://news.ycombinator.com/item?id=47199948"
+      },
+      "tags": [
+        "Security",
+        "Politics",
+        "AI"
+      ],
+      "hot_score": 2.9
     },
     {
       "title_en": "Samsung Galaxy update removes Android recovery menu tools, including sideloading",
@@ -284,39 +285,15 @@
         "id": 47202808,
         "type": "story",
         "by": "pabs3",
-        "score": 49,
-        "descendants": 5,
+        "score": 83,
+        "descendants": 15,
         "time": 1772330340,
         "comments_url": "https://news.ycombinator.com/item?id=47202808"
       },
-      "hot_score": 3.47,
       "tags": [
         "Hardware"
-      ]
-    },
-    {
-      "title_en": "Pentagon chief blocks officers from Ivy League schools and top universities",
-      "url": "https://fortune.com/2026/02/28/pentagon-officer-education-ivy-league-schools-universities-partners-ai-space/",
-      "title_zh": "五角大楼主管阻止军官就读常春藤等一流大学",
-      "created_display": "Created: Feb 28, 2026 / 15:51 PT",
-      "image_url": "https://fortune.com/img-assets/wp-content/uploads/2026/02/GettyImages-1362368150-e1772319228293.jpg?resize=1200,600",
-      "summary_en": "The Pentagon chief restricts officers' participation in education partnerships with Ivy League and top universities as AI and space programs expand, potentially reshaping professional development pipelines.",
-      "summary_zh": "国防部部长在 AI 与太空项目扩张背景下，限制军官参与常春藤及顶尖大学的教育合作伙伴关系，可能改变职业发展渠道。",
-      "hn": {
-        "id": 47201882,
-        "type": "story",
-        "by": "geox",
-        "score": 82,
-        "descendants": 29,
-        "time": 1772322664,
-        "comments_url": "https://news.ycombinator.com/item?id=47201882"
-      },
-      "hot_score": 2.84,
-      "tags": [
-        "Politics",
-        "Education",
-        "AI"
-      ]
+      ],
+      "hot_score": 2.5
     },
     {
       "title_en": "Statement on the comments from Secretary of War Pete Hegseth",
@@ -340,7 +317,31 @@
         "AI",
         "Security"
       ],
-      "hot_score": 2.55
+      "hot_score": 2.18
+    },
+    {
+      "title_en": "Pentagon chief blocks officers from Ivy League schools and top universities",
+      "url": "https://fortune.com/2026/02/28/pentagon-officer-education-ivy-league-schools-universities-partners-ai-space/",
+      "title_zh": "五角大楼主管阻止军官就读常春藤等一流大学",
+      "created_display": "Created: Feb 28, 2026 / 15:51 PT",
+      "image_url": "https://fortune.com/img-assets/wp-content/uploads/2026/02/GettyImages-1362368150-e1772319228293.jpg?resize=1200,600",
+      "summary_en": "The Pentagon chief restricts officers' participation in education partnerships with Ivy League and top universities as AI and space programs expand, potentially reshaping professional development pipelines.",
+      "summary_zh": "国防部部长在 AI 与太空项目扩张背景下，限制军官参与常春藤及顶尖大学的教育合作伙伴关系，可能改变职业发展渠道。",
+      "hn": {
+        "id": 47201882,
+        "type": "story",
+        "by": "geox",
+        "score": 93,
+        "descendants": 33,
+        "time": 1772322664,
+        "comments_url": "https://news.ycombinator.com/item?id=47201882"
+      },
+      "tags": [
+        "Education",
+        "Politics",
+        "AI"
+      ],
+      "hot_score": 1.73
     },
     {
       "title_en": "Block the “Upgrade to Tahoe” Alerts",
@@ -354,15 +355,15 @@
         "id": 47198977,
         "type": "story",
         "by": "todsacerdoti",
-        "score": 165,
-        "descendants": 74,
+        "score": 189,
+        "descendants": 85,
         "time": 1772305441,
         "comments_url": "https://news.ycombinator.com/item?id=47198977"
       },
-      "hot_score": 2.11,
       "tags": [
         "Design"
-      ]
+      ],
+      "hot_score": 1.65
     },
     {
       "title_en": "Cognitive Debt: When Velocity Exceeds Comprehension",
@@ -381,11 +382,33 @@
         "time": 1772293150,
         "comments_url": "https://news.ycombinator.com/item?id=47196582"
       },
-      "hot_score": 2.02,
+      "hot_score": 1.5,
       "tags": [
-        "Programming",
         "DevOps"
       ]
+    },
+    {
+      "title_en": "Running a One Trillion-Parameter LLM Locally on AMD Ryzen AI Max+ Cluster",
+      "url": "https://www.amd.com/en/developer/resources/technical-articles/2026/how-to-run-a-one-trillion-parameter-llm-locally-an-amd.html",
+      "title_zh": "在 AMD Ryzen AI Max+ 集群上本地运行一万亿参数的 LLM",
+      "created_display": "Created: Feb 28, 2026 / 17:24 PT",
+      "image_url": null,
+      "summary_en": "AMD demonstrates locally running a trillion-parameter LLM on a Ryzen AI Max+ cluster, likely using model parallelism and quantization to fit hardware constraints. This signals growing feasibility of private, on-prem AI at scale.",
+      "summary_zh": "AMD 展示在 Ryzen AI Max+ 集群上本地运行万亿参数的 LLM，凭借模型并行和量化等技术实现硬件约束下的可行性。这表明在私有、本地大规模 AI 部署方面的可行性正在提升。",
+      "hn": {
+        "id": 47202614,
+        "type": "story",
+        "by": "mindcrime",
+        "score": 55,
+        "descendants": 11,
+        "time": 1772328294,
+        "comments_url": "https://news.ycombinator.com/item?id=47202614"
+      },
+      "tags": [
+        "AI",
+        "Hardware"
+      ],
+      "hot_score": 1.43
     },
     {
       "title_en": "Don't trust AI agents",
@@ -408,7 +431,7 @@
         "AI",
         "Security"
       ],
-      "hot_score": 1.77
+      "hot_score": 1.38
     },
     {
       "title_en": "OpenAI fires an employee for prediction market insider trading",
@@ -422,39 +445,17 @@
         "id": 47195317,
         "type": "story",
         "by": "bookofjoe",
-        "score": 272,
-        "descendants": 140,
+        "score": 276,
+        "descendants": 142,
         "time": 1772286380,
         "comments_url": "https://news.ycombinator.com/item?id=47195317"
       },
       "tags": [
-        "Security",
+        "Business",
+        "Legal",
         "AI"
       ],
-      "hot_score": 1.74
-    },
-    {
-      "title_en": "Running a One Trillion-Parameter LLM Locally on AMD Ryzen AI Max+ Cluster",
-      "url": "https://www.amd.com/en/developer/resources/technical-articles/2026/how-to-run-a-one-trillion-parameter-llm-locally-an-amd.html",
-      "title_zh": "在 AMD Ryzen AI Max+ 集群上本地运行一万亿参数的 LLM",
-      "created_display": "Created: Feb 28, 2026 / 17:24 PT",
-      "image_url": null,
-      "summary_en": "AMD demonstrates locally running a trillion-parameter LLM on a Ryzen AI Max+ cluster, likely using model parallelism and quantization to fit hardware constraints. This signals growing feasibility of private, on-prem AI at scale.",
-      "summary_zh": "AMD 展示在 Ryzen AI Max+ 集群上本地运行万亿参数的 LLM，凭借模型并行和量化等技术实现硬件约束下的可行性。这表明在私有、本地大规模 AI 部署方面的可行性正在提升。",
-      "hn": {
-        "id": 47202614,
-        "type": "story",
-        "by": "mindcrime",
-        "score": 29,
-        "descendants": 5,
-        "time": 1772328294,
-        "comments_url": "https://news.ycombinator.com/item?id=47202614"
-      },
-      "hot_score": 1.62,
-      "tags": [
-        "AI",
-        "Hardware"
-      ]
+      "hot_score": 1.35
     },
     {
       "title_en": "What AI coding costs you",
@@ -474,125 +475,8 @@
         "comments_url": "https://news.ycombinator.com/item?id=47194847"
       },
       "tags": [
-        "Programming",
-        "Business",
-        "AI"
-      ],
-      "hot_score": 1.58
-    },
-    {
-      "title_en": "Verified Spec-Driven Development (VSDD)",
-      "url": "https://gist.github.com/dollspace-gay/d8d3bc3ecf4188df049d7a4726bb2a00",
-      "title_zh": "经验证的规范驱动开发（VSDD）",
-      "created_display": "Created: Feb 28, 2026 / 08:58 PT",
-      "image_url": "https://github.githubassets.com/assets/gist-og-image-54fd7dc0713e.png",
-      "summary_en": "Verified Spec-Driven Development advocates anchoring software work to verified specifications, then deriving tests and implementations from them. It emphasizes keeping specs honest, aligning teams, and reducing misinterpretation.",
-      "summary_zh": "经验证的规范驱动开发主张以经过验证的规范为基石，进而推导测试与实现，强调保持规范的准确性、促成团队对齐并降低误解风险。",
-      "hn": {
-        "id": 47197595,
-        "type": "story",
-        "by": "todsacerdoti",
-        "score": 156,
-        "descendants": 81,
-        "time": 1772297934,
-        "comments_url": "https://news.ycombinator.com/item?id=47197595"
-      },
-      "tags": [
-        "Programming"
-      ],
-      "hot_score": 1.47
-    },
-    {
-      "title_en": "Addressing Antigravity Bans and Reinstating Access",
-      "url": "https://github.com/google-gemini/gemini-cli/discussions/20632",
-      "title_zh": "应对 Antigravity 封禁与重新开放访问",
-      "created_display": "Created: Feb 28, 2026 / 05:50 PT",
-      "image_url": "https://opengraph.githubassets.com/4a9ad0aea387a9108f01cefab5d93c6cfa46277f39dbe3505578c1c8a0814a8a/google-gemini/gemini-cli/discussions/20632",
-      "summary_en": "Discussion centers on restoring access after an Antigravity ban and how to reinstate it. It highlights governance questions around access control, authentication changes, and policy clarity for AI-assisted tooling.",
-      "summary_zh": "讨论聚焦在对 Antigravity 封禁后如何重新开放访问，并就访问控制、认证变更与对 AI 驱动工具的政策清晰度提出治理性问题。",
-      "hn": {
-        "id": 47195371,
-        "type": "story",
-        "by": "RyanShook",
-        "score": 215,
-        "descendants": 176,
-        "time": 1772286613,
-        "comments_url": "https://news.ycombinator.com/item?id=47195371"
-      },
-      "tags": [
-        "Politics",
-        "AI"
-      ],
-      "hot_score": 1.38
-    },
-    {
-      "title_en": "Show HN: Xmloxide – an agent made rust replacement for libxml2",
-      "url": "https://github.com/jonwiggins/xmloxide",
-      "title_zh": "Xmloxide：用 Rust 重写的 libxml2 替代方案",
-      "created_display": "Created: Feb 28, 2026 / 15:44 PT",
-      "image_url": "https://opengraph.githubassets.com/c99624e41dc846e59cde9296619b2d43392c23ae6efb40576aba783a536d6baa/jonwiggins/xmloxide",
-      "summary_en": "Xmloxide is a Rust-based XML parser intended to replace libxml2 with safer memory handling and improved performance. It exemplifies a broader migration from C libraries to Rust to improve security and reliability in core tooling.",
-      "summary_zh": "Xmloxide 是一个用 Rust 实现的 XML 解析器，旨在更安全地取代 libxml2 并提升性能。它体现了将关键 C 库迁移到 Rust 以提高安全性与可靠性的趋势。",
-      "hn": {
-        "id": 47201816,
-        "type": "story",
-        "by": "jawiggins",
-        "score": 41,
-        "descendants": 26,
-        "time": 1772322281,
-        "comments_url": "https://news.ycombinator.com/item?id=47201816"
-      },
-      "hot_score": 1.36,
-      "tags": [
-        "Show HN",
-        "Programming",
-        "Open Source",
-        "Security"
-      ]
-    },
-    {
-      "title_en": "Croatia declared free of landmines after 31 years",
-      "url": "https://glashrvatske.hrt.hr/en/domestic/croatia-declared-free-of-landmines-after-31-years-12593533",
-      "title_zh": "克罗地亚宣布31年后全面解除地雷",
-      "created_display": "Created: Feb 27, 2026 / 18:48 PT",
-      "image_url": "https://api.hrt.hr/media/92/38/najava-razminiranjetransfer-frame-1065-20231204122052.webp",
-      "summary_en": "After decades of contamination, Croatia declares its territory free of landmines following a 31-year clearance effort. The milestone accelerates post-conflict recovery by enabling safer farming, travel, and development across communities. It also underscores the long horizon of humanitarian demining and the role of international support.",
-      "summary_zh": "克罗地亚经过31年的清理工作，宣布境内无地雷。这一里程碑将推动战后重建，提升农业生产、交通与地区发展安全。此举也凸显长期人道地雷清除任务的艰巨性以及国际援助的重要性。",
-      "hn": {
-        "id": 47189535,
-        "type": "story",
-        "by": "toomuchtodo",
-        "score": 484,
-        "descendants": 121,
-        "time": 1772246896,
-        "comments_url": "https://news.ycombinator.com/item?id=47189535"
-      },
-      "tags": [
-        "Politics"
-      ],
-      "hot_score": 1.24
-    },
-    {
-      "title_en": "Show HN: Now I Get It – Translate scientific papers into interactive webpages",
-      "url": "https://nowigetit.us",
-      "title_zh": "Show HN：Now I Get It——将科学论文转化为交互式网页",
-      "created_display": "Created: Feb 28, 2026 / 05:29 PT",
-      "image_url": "https://nowigetit.us/logo.png",
-      "summary_en": "Now I Get It translates scientific papers into interactive webpages, enabling readers to explore figures, data, and equations directly. The project lowers barriers to understanding and accelerates scientific communication.",
-      "summary_zh": "Now I Get It 将科学论文转化为交互式网页，读者可直接探索图表、数据与公式。该项目降低理解门槛，提升科学传播效率。",
-      "hn": {
-        "id": 47195123,
-        "type": "story",
-        "by": "jbdamask",
-        "score": 196,
-        "descendants": 99,
-        "time": 1772285376,
-        "comments_url": "https://news.ycombinator.com/item?id=47195123"
-      },
-      "tags": [
-        "Show HN",
-        "Programming",
-        "Science"
+        "AI",
+        "Business"
       ],
       "hot_score": 1.22
     },
@@ -608,15 +492,132 @@
         "id": 47193064,
         "type": "story",
         "by": "mksglu",
-        "score": 269,
-        "descendants": 62,
+        "score": 328,
+        "descendants": 71,
         "time": 1772272880,
         "comments_url": "https://news.ycombinator.com/item?id=47193064"
       },
-      "hot_score": 1.19,
       "tags": [
+        "AI",
+        "DevOps"
+      ],
+      "hot_score": 1.17
+    },
+    {
+      "title_en": "Verified Spec-Driven Development (VSDD)",
+      "url": "https://gist.github.com/dollspace-gay/d8d3bc3ecf4188df049d7a4726bb2a00",
+      "title_zh": "经验证的规范驱动开发（VSDD）",
+      "created_display": "Created: Feb 28, 2026 / 08:58 PT",
+      "image_url": "https://github.githubassets.com/assets/gist-og-image-54fd7dc0713e.png",
+      "summary_en": "Verified Spec-Driven Development advocates anchoring software work to verified specifications, then deriving tests and implementations from them. It emphasizes keeping specs honest, aligning teams, and reducing misinterpretation.",
+      "summary_zh": "经验证的规范驱动开发主张以经过验证的规范为基石，进而推导测试与实现，强调保持规范的准确性、促成团队对齐并降低误解风险。",
+      "hn": {
+        "id": 47197595,
+        "type": "story",
+        "by": "todsacerdoti",
+        "score": 171,
+        "descendants": 88,
+        "time": 1772297934,
+        "comments_url": "https://news.ycombinator.com/item?id=47197595"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 1.16
+    },
+    {
+      "title_en": "Addressing Antigravity Bans and Reinstating Access",
+      "url": "https://github.com/google-gemini/gemini-cli/discussions/20632",
+      "title_zh": "应对 Antigravity 封禁与重新开放访问",
+      "created_display": "Created: Feb 28, 2026 / 05:50 PT",
+      "image_url": "https://opengraph.githubassets.com/4a9ad0aea387a9108f01cefab5d93c6cfa46277f39dbe3505578c1c8a0814a8a/google-gemini/gemini-cli/discussions/20632",
+      "summary_en": "Discussion centers on restoring access after an Antigravity ban and how to reinstate it. It highlights governance questions around access control, authentication changes, and policy clarity for AI-assisted tooling.",
+      "summary_zh": "讨论聚焦在对 Antigravity 封禁后如何重新开放访问，并就访问控制、认证变更与对 AI 驱动工具的政策清晰度提出治理性问题。",
+      "hn": {
+        "id": 47195371,
+        "type": "story",
+        "by": "RyanShook",
+        "score": 227,
+        "descendants": 187,
+        "time": 1772286613,
+        "comments_url": "https://news.ycombinator.com/item?id=47195371"
+      },
+      "tags": [
+        "Security",
         "AI"
-      ]
+      ],
+      "hot_score": 1.12
+    },
+    {
+      "title_en": "Croatia declared free of landmines after 31 years",
+      "url": "https://glashrvatske.hrt.hr/en/domestic/croatia-declared-free-of-landmines-after-31-years-12593533",
+      "title_zh": "克罗地亚宣布31年后全面解除地雷",
+      "created_display": "Created: Feb 27, 2026 / 18:48 PT",
+      "image_url": "https://api.hrt.hr/media/92/38/najava-razminiranjetransfer-frame-1065-20231204122052.webp",
+      "summary_en": "After decades of contamination, Croatia declares its territory free of landmines following a 31-year clearance effort. The milestone accelerates post-conflict recovery by enabling safer farming, travel, and development across communities. It also underscores the long horizon of humanitarian demining and the role of international support.",
+      "summary_zh": "克罗地亚经过31年的清理工作，宣布境内无地雷。这一里程碑将推动战后重建，提升农业生产、交通与地区发展安全。此举也凸显长期人道地雷清除任务的艰巨性以及国际援助的重要性。",
+      "hn": {
+        "id": 47189535,
+        "type": "story",
+        "by": "toomuchtodo",
+        "score": 488,
+        "descendants": 123,
+        "time": 1772246896,
+        "comments_url": "https://news.ycombinator.com/item?id=47189535"
+      },
+      "tags": [
+        "Science"
+      ],
+      "hot_score": 1.06
+    },
+    {
+      "title_en": "Show HN: Now I Get It – Translate scientific papers into interactive webpages",
+      "url": "https://nowigetit.us",
+      "title_zh": "Show HN：Now I Get It——将科学论文转化为交互式网页",
+      "created_display": "Created: Feb 28, 2026 / 05:29 PT",
+      "image_url": "https://nowigetit.us/logo.png",
+      "summary_en": "Now I Get It translates scientific papers into interactive webpages, enabling readers to explore figures, data, and equations directly. The project lowers barriers to understanding and accelerates scientific communication.",
+      "summary_zh": "Now I Get It 将科学论文转化为交互式网页，读者可直接探索图表、数据与公式。该项目降低理解门槛，提升科学传播效率。",
+      "hn": {
+        "id": 47195123,
+        "type": "story",
+        "by": "jbdamask",
+        "score": 223,
+        "descendants": 100,
+        "time": 1772285376,
+        "comments_url": "https://news.ycombinator.com/item?id=47195123"
+      },
+      "tags": [
+        "Show HN",
+        "Web",
+        "Science"
+      ],
+      "hot_score": 1.06
+    },
+    {
+      "title_en": "Show HN: Xmloxide – an agent made rust replacement for libxml2",
+      "url": "https://github.com/jonwiggins/xmloxide",
+      "title_zh": "Xmloxide：用 Rust 重写的 libxml2 替代方案",
+      "created_display": "Created: Feb 28, 2026 / 15:44 PT",
+      "image_url": "https://opengraph.githubassets.com/c99624e41dc846e59cde9296619b2d43392c23ae6efb40576aba783a536d6baa/jonwiggins/xmloxide",
+      "summary_en": "Xmloxide is a Rust-based XML parser intended to replace libxml2 with safer memory handling and improved performance. It exemplifies a broader migration from C libraries to Rust to improve security and reliability in core tooling.",
+      "summary_zh": "Xmloxide 是一个用 Rust 实现的 XML 解析器，旨在更安全地取代 libxml2 并提升性能。它体现了将关键 C 库迁移到 Rust 以提高安全性与可靠性的趋势。",
+      "hn": {
+        "id": 47201816,
+        "type": "story",
+        "by": "jawiggins",
+        "score": 54,
+        "descendants": 38,
+        "time": 1772322281,
+        "comments_url": "https://news.ycombinator.com/item?id=47201816"
+      },
+      "tags": [
+        "Show HN",
+        "Programming",
+        "Open Source",
+        "Security"
+      ],
+      "hot_score": 0.98
     },
     {
       "title_en": "A new California law says all operating systems need to have age verification",
@@ -630,62 +631,17 @@
         "id": 47181208,
         "type": "story",
         "by": "WalterSobchak",
-        "score": 784,
-        "descendants": 667,
+        "score": 787,
+        "descendants": 673,
         "time": 1772204149,
         "comments_url": "https://news.ycombinator.com/item?id=47181208"
       },
       "tags": [
+        "Politics",
         "Legal",
         "Privacy"
       ],
-      "hot_score": 1.05
-    },
-    {
-      "title_en": "Building a Minimal Transformer for 10-digit Addition",
-      "url": "https://alexlitzenberger.com/blog/post.html?post=/building_a_minimal_transformer_for_10_digit_addition",
-      "title_zh": "构建用于十位数相加的最小 Transformer",
-      "created_display": "Created: Feb 28, 2026 / 14:10 PT",
-      "image_url": "https://alexlitzenberger.com/social-preview.png",
-      "summary_en": "Shows how a minimal transformer can learn 10-digit addition, shedding light on how far tiny neural nets can go on structured arithmetic tasks.",
-      "summary_zh": "展示一个极简的 Transformer 如何学习十位数相加，揭示在结构化算术任务上小型神经网络的潜力与局限。",
-      "hn": {
-        "id": 47200828,
-        "type": "story",
-        "by": "kelseyfrog",
-        "score": 42,
-        "descendants": 7,
-        "time": 1772316621,
-        "comments_url": "https://news.ycombinator.com/item?id=47200828"
-      },
-      "hot_score": 0.95,
-      "tags": [
-        "AI",
-        "Programming"
-      ]
-    },
-    {
-      "title_en": "Unsloth Dynamic 2.0 GGUFs",
-      "url": "https://unsloth.ai/docs/basics/unsloth-dynamic-2.0-ggufs",
-      "title_zh": "Unsloth Dynamic 2.0 GGUFs",
-      "created_display": "Created: Feb 28, 2026 / 00:56 PT",
-      "image_url": "https://unsloth.ai/docs/~gitbook/image?url=https%3A%2F%2F2815821428-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Forganizations%252FHpyELzcNe0topgVLGCZY%252Fsites%252Fsite_mXXTe%252Fsocialpreview%252FOeFDVbzp4cgwaId7PbvL%252Funsloth%2520docs%2520pic.png%3Falt%3Dmedia%26token%3Df34a6bcc-db15-449a-bc2d-e0e8f52fe953&width=1200&height=630&sign=b1ca68fa&sv=2",
-      "summary_en": "Unsloth Dynamic 2.0 introduces an updated GGUF format that supports dynamic loading and on-demand quantization for large language model weights. The update improves loading speed and memory efficiency on consumer hardware, enabling larger models to run with fewer GPUs. This matters for developers and researchers building on-device AI tooling.",
-      "summary_zh": "Unsloth Dynamic 2.0 引入更新的 GGUF 格式，支持权重的动态加载和按需量化。此改动提升了在消费级硬件上的加载速度与内存利用效率，使更大模型在更少显卡上也能运行。对在设备端构建 AI 工具链的开发者和研究者尤为相关。",
-      "hn": {
-        "id": 47192505,
-        "type": "story",
-        "by": "tosh",
-        "score": 208,
-        "descendants": 56,
-        "time": 1772268993,
-        "comments_url": "https://news.ycombinator.com/item?id=47192505"
-      },
-      "tags": [
-        "AI",
-        "Hardware"
-      ],
-      "hot_score": 0.84
+      "hot_score": 0.94
     },
     {
       "title_en": "Court finds Fourth Amendment doesn’t support broad search of protesters’ devices",
@@ -708,7 +664,54 @@
         "Legal",
         "Privacy"
       ],
-      "hot_score": 0.8
+      "hot_score": 0.71
+    },
+    {
+      "title_en": "Unsloth Dynamic 2.0 GGUFs",
+      "url": "https://unsloth.ai/docs/basics/unsloth-dynamic-2.0-ggufs",
+      "title_zh": "Unsloth Dynamic 2.0 GGUFs",
+      "created_display": "Created: Feb 28, 2026 / 00:56 PT",
+      "image_url": "https://unsloth.ai/docs/~gitbook/image?url=https%3A%2F%2F2815821428-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Forganizations%252FHpyELzcNe0topgVLGCZY%252Fsites%252Fsite_mXXTe%252Fsocialpreview%252FOeFDVbzp4cgwaId7PbvL%252Funsloth%2520docs%2520pic.png%3Falt%3Dmedia%26token%3Df34a6bcc-db15-449a-bc2d-e0e8f52fe953&width=1200&height=630&sign=b1ca68fa&sv=2",
+      "summary_en": "Unsloth Dynamic 2.0 introduces an updated GGUF format that supports dynamic loading and on-demand quantization for large language model weights. The update improves loading speed and memory efficiency on consumer hardware, enabling larger models to run with fewer GPUs. This matters for developers and researchers building on-device AI tooling.",
+      "summary_zh": "Unsloth Dynamic 2.0 引入更新的 GGUF 格式，支持权重的动态加载和按需量化。此改动提升了在消费级硬件上的加载速度与内存利用效率，使更大模型在更少显卡上也能运行。对在设备端构建 AI 工具链的开发者和研究者尤为相关。",
+      "hn": {
+        "id": 47192505,
+        "type": "story",
+        "by": "tosh",
+        "score": 218,
+        "descendants": 60,
+        "time": 1772268993,
+        "comments_url": "https://news.ycombinator.com/item?id=47192505"
+      },
+      "tags": [
+        "AI",
+        "Hardware"
+      ],
+      "hot_score": 0.71
+    },
+    {
+      "title_en": "Building a Minimal Transformer for 10-digit Addition",
+      "url": "https://alexlitzenberger.com/blog/post.html?post=/building_a_minimal_transformer_for_10_digit_addition",
+      "title_zh": "构建用于十位数相加的最小 Transformer",
+      "created_display": "Created: Feb 28, 2026 / 14:10 PT",
+      "image_url": "https://alexlitzenberger.com/social-preview.png",
+      "summary_en": "Shows how a minimal transformer can learn 10-digit addition, shedding light on how far tiny neural nets can go on structured arithmetic tasks.",
+      "summary_zh": "展示一个极简的 Transformer 如何学习十位数相加，揭示在结构化算术任务上小型神经网络的潜力与局限。",
+      "hn": {
+        "id": 47200828,
+        "type": "story",
+        "by": "kelseyfrog",
+        "score": 49,
+        "descendants": 7,
+        "time": 1772316621,
+        "comments_url": "https://news.ycombinator.com/item?id=47200828"
+      },
+      "tags": [
+        "AI",
+        "Science",
+        "Programming"
+      ],
+      "hot_score": 0.67
     },
     {
       "title_en": "OpenAI raises $110B on $730B pre-money valuation",
@@ -732,30 +735,7 @@
         "Finance",
         "AI"
       ],
-      "hot_score": 0.74
-    },
-    {
-      "title_en": "Human brain cells on a chip learned to play Doom in a week",
-      "url": "https://www.newscientist.com/article/2517389-human-brain-cells-on-a-chip-learned-to-play-doom-in-a-week/",
-      "title_zh": "芯片上的人脑细胞一周内学会玩 Doom",
-      "created_display": "Created: Feb 28, 2026 / 19:57 PT",
-      "image_url": "https://images.newscientist.com/wp-content/uploads/2026/02/27124116/SEI_287024727.jpg",
-      "summary_en": "In a chip-based brain-cell experiment, cultures learned to play Doom within a week, illustrating rapid learning-like behavior in biological substrates and implications for neuromorphic research.",
-      "summary_zh": "在芯片上的脑细胞培养物一周内学会玩 Doom，展示了生物材料中近似快速学习的能力，对神经形态研究具有潜在意义。",
-      "hn": {
-        "id": 47203544,
-        "type": "story",
-        "by": "alex_young",
-        "score": 4,
-        "descendants": 0,
-        "time": 1772337455,
-        "comments_url": "https://news.ycombinator.com/item?id=47203544"
-      },
-      "hot_score": 0.66,
-      "tags": [
-        "Science",
-        "Hardware"
-      ]
+      "hot_score": 0.65
     },
     {
       "title_en": "Don't use passkeys for encrypting user data",
@@ -769,37 +749,16 @@
         "id": 47189749,
         "type": "story",
         "by": "zdw",
-        "score": 246,
-        "descendants": 199,
+        "score": 251,
+        "descendants": 203,
         "time": 1772248300,
         "comments_url": "https://news.ycombinator.com/item?id=47189749"
       },
       "tags": [
-        "Security"
+        "Security",
+        "Privacy"
       ],
-      "hot_score": 0.65
-    },
-    {
-      "title_en": "The Future of AI",
-      "url": "https://lucijagregov.com/2026/02/26/the-future-of-ai/",
-      "title_zh": "人工智能的未来",
-      "created_display": "Created: Feb 28, 2026 / 02:41 PT",
-      "image_url": "https://lucijagregov.com/wp-content/uploads/2026/02/image.png",
-      "summary_en": "AI is poised to keep expanding in capability and reach, unlocking productivity gains as models become more integrated into everyday tooling. At the same time, governance, safety, and ethical considerations will intensify, demanding clear alignment and responsible deployment.",
-      "summary_zh": "人工智能的未来将继续显著扩展，模型越发融入日常工具，推动生产力提升。与此同时，治理、安全与伦理议题将变得更加关键，需要明确的对齐机制和负责任的部署。",
-      "hn": {
-        "id": 47193476,
-        "type": "story",
-        "by": "BerislavLopac",
-        "score": 121,
-        "descendants": 97,
-        "time": 1772275313,
-        "comments_url": "https://news.ycombinator.com/item?id=47193476"
-      },
-      "tags": [
-        "AI"
-      ],
-      "hot_score": 0.57
+      "hot_score": 0.56
     },
     {
       "title_en": "A better streams API is possible for JavaScript",
@@ -819,9 +778,100 @@
         "comments_url": "https://news.ycombinator.com/item?id=47180569"
       },
       "tags": [
+        "Programming",
+        "Web"
+      ],
+      "hot_score": 0.49
+    },
+    {
+      "title_en": "The Future of AI",
+      "url": "https://lucijagregov.com/2026/02/26/the-future-of-ai/",
+      "title_zh": "人工智能的未来",
+      "created_display": "Created: Feb 28, 2026 / 02:41 PT",
+      "image_url": "https://lucijagregov.com/wp-content/uploads/2026/02/image.png",
+      "summary_en": "AI is poised to keep expanding in capability and reach, unlocking productivity gains as models become more integrated into everyday tooling. At the same time, governance, safety, and ethical considerations will intensify, demanding clear alignment and responsible deployment.",
+      "summary_zh": "人工智能的未来将继续显著扩展，模型越发融入日常工具，推动生产力提升。与此同时，治理、安全与伦理议题将变得更加关键，需要明确的对齐机制和负责任的部署。",
+      "hn": {
+        "id": 47193476,
+        "type": "story",
+        "by": "BerislavLopac",
+        "score": 125,
+        "descendants": 99,
+        "time": 1772275313,
+        "comments_url": "https://news.ycombinator.com/item?id=47193476"
+      },
+      "tags": [
+        "AI"
+      ],
+      "hot_score": 0.47
+    },
+    {
+      "title_en": "The Science of Detecting LLM-Generated Text",
+      "url": "https://dl.acm.org/doi/10.1145/3624725",
+      "title_zh": "识别 LLM 生成文本的科学研究",
+      "created_display": "Created: Feb 28, 2026 / 18:09 PT",
+      "image_url": null,
+      "summary_en": "Researchers survey the methods for detecting text produced by large language models, highlighting the limitations of current classifiers and watermarking approaches. The study shows detectors struggle with newer model generations and domain shift, underscoring that no single method is reliable across all contexts. The takeaway is that robust detection will require a multi-pronged strategy combining statistical cues, watermarking, and human-in-the-loop validation.",
+      "summary_zh": "研究评估了现有检测大语言模型生成文本的方法，指出当前分类器和水印等手段的局限性。对最新模型和跨领域文本的检测仍存在显著挑战，单一方法难以全面可靠。关键在于结合统计线索、水印技术以及人工复核的多方位策略来提升鲁棒性。",
+      "hn": {
+        "id": 47202864,
+        "type": "story",
+        "by": "vinhnx",
+        "score": 14,
+        "descendants": 2,
+        "time": 1772330981,
+        "comments_url": "https://news.ycombinator.com/item?id=47202864"
+      },
+      "hot_score": 0.42,
+      "tags": [
+        "Science",
+        "AI"
+      ]
+    },
+    {
+      "title_en": "Rust is just a tool",
+      "url": "https://lewiscampbell.tech/blog/260204.html",
+      "title_zh": "Rust 只是一个工具",
+      "created_display": "Created: Feb 27, 2026 / 21:47 PT",
+      "image_url": "https://lewiscampbell.tech/img/icon512-967261d058848800.png",
+      "summary_en": "Rust is just a tool cautions against language-agnostic dogma, urging engineers to pick tools by fit rather than ideology. It emphasizes pragmatic, context-driven software design.",
+      "summary_zh": "强调不要盲目崇拜某种语言，应该依据实际需求选择工具，倡导务实且以情境为导向的软件设计。",
+      "hn": {
+        "id": 47190947,
+        "type": "story",
+        "by": "JuniperMesos",
+        "score": 152,
+        "descendants": 165,
+        "time": 1772257659,
+        "comments_url": "https://news.ycombinator.com/item?id=47190947"
+      },
+      "tags": [
         "Programming"
       ],
-      "hot_score": 0.55
+      "hot_score": 0.4
+    },
+    {
+      "title_en": "NASA announces overhaul of Artemis program amid safety concerns, delays",
+      "url": "https://www.cbsnews.com/news/nasa-artemis-moon-program-overhaul/",
+      "title_zh": "NASA 在阿耳忒弥斯计划面临安全担忧与延迟时宣布重大改革",
+      "created_display": "Created: Feb 27, 2026 / 08:33 PT",
+      "image_url": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/02/27/45751ccd-7e36-4b4f-b82b-9a0aeac6f8bb/thumbnail/1200x630g8/f796eb8c92366c9ce173eb45aec39b21/2026-02-02t220404z-948151260-rc2ydjad8bol-rtrmadp-3-space-moon-artemis.jpg",
+      "summary_en": "NASA unveils a major overhaul of the Artemis program to address safety concerns and schedule slips. The move involves milestones, risk-management changes, and organizational adjustments intended to accelerate safe lunar exploration.",
+      "summary_zh": "美国航天局宣布对阿耳忒弥斯计划进行重大改革，以应对安全担忧和进度延迟，涉及里程碑设置、风险管理调整和组织结构变化，旨在推动更安全的月球探测。",
+      "hn": {
+        "id": 47182483,
+        "type": "story",
+        "by": "voxadam",
+        "score": 286,
+        "descendants": 314,
+        "time": 1772210019,
+        "comments_url": "https://news.ycombinator.com/item?id=47182483"
+      },
+      "tags": [
+        "Space",
+        "Science"
+      ],
+      "hot_score": 0.37
     },
     {
       "title_en": "MinIO Is Dead, Long Live MinIO",
@@ -840,33 +890,11 @@
         "time": 1772313413,
         "comments_url": "https://news.ycombinator.com/item?id=47200342"
       },
-      "hot_score": 0.54,
+      "hot_score": 0.34,
       "tags": [
         "Open Source",
-        "DevOps"
+        "Business"
       ]
-    },
-    {
-      "title_en": "Rust is just a tool",
-      "url": "https://lewiscampbell.tech/blog/260204.html",
-      "title_zh": "Rust 只是一个工具",
-      "created_display": "Created: Feb 27, 2026 / 21:47 PT",
-      "image_url": "https://lewiscampbell.tech/img/icon512-967261d058848800.png",
-      "summary_en": "Rust is just a tool cautions against language-agnostic dogma, urging engineers to pick tools by fit rather than ideology. It emphasizes pragmatic, context-driven software design.",
-      "summary_zh": "强调不要盲目崇拜某种语言，应该依据实际需求选择工具，倡导务实且以情境为导向的软件设计。",
-      "hn": {
-        "id": 47190947,
-        "type": "story",
-        "by": "JuniperMesos",
-        "score": 150,
-        "descendants": 161,
-        "time": 1772257659,
-        "comments_url": "https://news.ycombinator.com/item?id=47190947"
-      },
-      "tags": [
-        "Programming"
-      ],
-      "hot_score": 0.47
     },
     {
       "title_en": "The Life Cycle of Money",
@@ -889,30 +917,7 @@
         "Finance",
         "Business"
       ],
-      "hot_score": 0.43
-    },
-    {
-      "title_en": "NASA announces overhaul of Artemis program amid safety concerns, delays",
-      "url": "https://www.cbsnews.com/news/nasa-artemis-moon-program-overhaul/",
-      "title_zh": "NASA 在阿耳忒弥斯计划面临安全担忧与延迟时宣布重大改革",
-      "created_display": "Created: Feb 27, 2026 / 08:33 PT",
-      "image_url": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/02/27/45751ccd-7e36-4b4f-b82b-9a0aeac6f8bb/thumbnail/1200x630g8/f796eb8c92366c9ce173eb45aec39b21/2026-02-02t220404z-948151260-rc2ydjad8bol-rtrmadp-3-space-moon-artemis.jpg",
-      "summary_en": "NASA unveils a major overhaul of the Artemis program to address safety concerns and schedule slips. The move involves milestones, risk-management changes, and organizational adjustments intended to accelerate safe lunar exploration.",
-      "summary_zh": "美国航天局宣布对阿耳忒弥斯计划进行重大改革，以应对安全担忧和进度延迟，涉及里程碑设置、风险管理调整和组织结构变化，旨在推动更安全的月球探测。",
-      "hn": {
-        "id": 47182483,
-        "type": "story",
-        "by": "voxadam",
-        "score": 286,
-        "descendants": 314,
-        "time": 1772210019,
-        "comments_url": "https://news.ycombinator.com/item?id=47182483"
-      },
-      "tags": [
-        "Space",
-        "Politics"
-      ],
-      "hot_score": 0.41
+      "hot_score": 0.33
     },
     {
       "title_en": "A Chinese official’s use of ChatGPT revealed an intimidation operation",
@@ -932,10 +937,11 @@
         "comments_url": "https://news.ycombinator.com/item?id=47181944"
       },
       "tags": [
-        "AI",
-        "Politics"
+        "Politics",
+        "Security",
+        "AI"
       ],
-      "hot_score": 0.35
+      "hot_score": 0.31
     },
     {
       "title_en": "Cash issuing terminals",
@@ -949,38 +955,16 @@
         "id": 47190806,
         "type": "story",
         "by": "zdw",
-        "score": 104,
+        "score": 105,
         "descendants": 22,
         "time": 1772256081,
         "comments_url": "https://news.ycombinator.com/item?id=47190806"
       },
       "tags": [
-        "Hardware"
+        "Hardware",
+        "Finance"
       ],
-      "hot_score": 0.32
-    },
-    {
-      "title_en": "Latency numbers every programmer should know",
-      "url": "https://cheat.sh/latency",
-      "title_zh": "每个程序员都应该知道的延迟数值",
-      "created_display": "Created: Feb 28, 2026 / 04:58 PT",
-      "image_url": null,
-      "summary_en": "Latency numbers every programmer should know compile practical figures—from CPU cycles to network RTT—that frame performance budgets and guide architectural decisions.",
-      "summary_zh": "汇总从 CPU 时钟周期到网络往返时间的关键延迟数值，为性能预算定界并指导架构决策。",
-      "hn": {
-        "id": 47194781,
-        "type": "story",
-        "by": "ksec",
-        "score": 53,
-        "descendants": 16,
-        "time": 1772283489,
-        "comments_url": "https://news.ycombinator.com/item?id=47194781"
-      },
-      "hot_score": 0.31,
-      "tags": [
-        "Programming",
-        "Hardware"
-      ]
+      "hot_score": 0.27
     },
     {
       "title_en": "Open source calculator firmware DB48X forbids CA/CO use due to age verification",
@@ -1001,9 +985,10 @@
       },
       "tags": [
         "Open Source",
-        "Privacy"
+        "Privacy",
+        "Legal"
       ],
-      "hot_score": 0.29
+      "hot_score": 0.26
     },
     {
       "title_en": "We gave terabytes of CI logs to an LLM",
@@ -1026,31 +1011,7 @@
         "AI",
         "Data"
       ],
-      "hot_score": 0.28
-    },
-    {
-      "title_en": "Show HN: SQLite for Rivet Actors – one database per agent, tenant, or document",
-      "url": "https://github.com/rivet-dev/rivet",
-      "title_zh": "Rivet Actors 的 SQLite——每个代理/租户/文档一个数据库",
-      "created_display": "Created: Feb 28, 2026 / 08:11 PT",
-      "image_url": "https://repository-images.githubusercontent.com/654560183/8fa02fa0-32a0-4700-9d17-26966325db09",
-      "summary_en": "SQLite for Rivet Actors proposes one database per agent, tenant, or document, enabling clean isolation in multi-agent systems. It offers simplicity and fault containment, while trading off cross-entity querying and management headaches.",
-      "summary_zh": "为 Rivet Actors 引入每个代理、租户或文档一个数据库的 SQLite 方案，实现多代理系统中的清晰隔离。简化性与故障隔离性有优势，但跨实体查询与管理成本可能上升。",
-      "hn": {
-        "id": 47197003,
-        "type": "story",
-        "by": "NathanFlurry",
-        "score": 33,
-        "descendants": 12,
-        "time": 1772295118,
-        "comments_url": "https://news.ycombinator.com/item?id=47197003"
-      },
-      "tags": [
-        "Show HN",
-        "Open Source",
-        "Data"
-      ],
-      "hot_score": 0.27
+      "hot_score": 0.25
     },
     {
       "title_en": "The normalization of corruption in organizations (2003) [pdf]",
@@ -1073,7 +1034,30 @@
         "Culture",
         "Politics"
       ],
-      "hot_score": 0.26
+      "hot_score": 0.24
+    },
+    {
+      "title_en": "Latency numbers every programmer should know",
+      "url": "https://cheat.sh/latency",
+      "title_zh": "每个程序员都应该知道的延迟数值",
+      "created_display": "Created: Feb 28, 2026 / 04:58 PT",
+      "image_url": null,
+      "summary_en": "Latency numbers every programmer should know compile practical figures—from CPU cycles to network RTT—that frame performance budgets and guide architectural decisions.",
+      "summary_zh": "汇总从 CPU 时钟周期到网络往返时间的关键延迟数值，为性能预算定界并指导架构决策。",
+      "hn": {
+        "id": 47194781,
+        "type": "story",
+        "by": "ksec",
+        "score": 53,
+        "descendants": 16,
+        "time": 1772283489,
+        "comments_url": "https://news.ycombinator.com/item?id=47194781"
+      },
+      "hot_score": 0.24,
+      "tags": [
+        "Programming",
+        "Hardware"
+      ]
     },
     {
       "title_en": "Bootc and OSTree: Modernizing Linux System Deployment",
@@ -1087,39 +1071,16 @@
         "id": 47189625,
         "type": "story",
         "by": "mrtedbear",
-        "score": 102,
+        "score": 104,
         "descendants": 39,
         "time": 1772247329,
         "comments_url": "https://news.ycombinator.com/item?id=47189625"
       },
       "tags": [
-        "Open Source",
-        "DevOps"
-      ],
-      "hot_score": 0.26
-    },
-    {
-      "title_en": "Show HN: SplatHash – A lightweight alternative to BlurHash and ThumbHash",
-      "url": "https://github.com/junevm/splathash",
-      "title_zh": "Show HN：SplatHash——比 BlurHash/ThumbHash 更轻量的占位哈希",
-      "created_display": "Created: Feb 28, 2026 / 03:24 PT",
-      "image_url": "https://opengraph.githubassets.com/da195cab103573cf874685c6153d4b47d65b8677272a426733042c8038eef202/junevm/splathash",
-      "summary_en": "SplatHash provides a compact, fast way to generate placeholder representations for images with minimal computation. It aims to be simpler and smaller than BlurHash or ThumbHash, making it easier to implement in low-resource apps. This leads to snappier placeholders on mobile and web.",
-      "summary_zh": "SplatHash 提供一种紧凑、快速的方式来生成图片的占位表示，计算成本极低。它力求比 BlurHash 或 ThumbHash 更简单、占用更小，便于在资源受限的应用中实现。这样可以使移动端和网页上的占位图更流畅。",
-      "hn": {
-        "id": 47193832,
-        "type": "story",
-        "by": "unsorted2270",
-        "score": 51,
-        "descendants": 20,
-        "time": 1772277885,
-        "comments_url": "https://news.ycombinator.com/item?id=47193832"
-      },
-      "tags": [
-        "Show HN",
+        "DevOps",
         "Open Source"
       ],
-      "hot_score": 0.25
+      "hot_score": 0.23
     },
     {
       "title_en": "Let's discuss sandbox isolation",
@@ -1139,10 +1100,9 @@
         "comments_url": "https://news.ycombinator.com/item?id=47184049"
       },
       "tags": [
-        "Security",
-        "DevOps"
+        "Security"
       ],
-      "hot_score": 0.24
+      "hot_score": 0.21
     },
     {
       "title_en": "Show HN: RetroTick – Run classic Windows EXEs in the browser",
@@ -1165,7 +1125,7 @@
         "Show HN",
         "Web"
       ],
-      "hot_score": 0.23
+      "hot_score": 0.2
     },
     {
       "title_en": "Qt45: A small polymerase ribozyme that can synthesize itself",
@@ -1187,7 +1147,56 @@
       "tags": [
         "Science"
       ],
-      "hot_score": 0.23
+      "hot_score": 0.2
+    },
+    {
+      "title_en": "Show HN: SplatHash – A lightweight alternative to BlurHash and ThumbHash",
+      "url": "https://github.com/junevm/splathash",
+      "title_zh": "Show HN：SplatHash——比 BlurHash/ThumbHash 更轻量的占位哈希",
+      "created_display": "Created: Feb 28, 2026 / 03:24 PT",
+      "image_url": "https://opengraph.githubassets.com/da195cab103573cf874685c6153d4b47d65b8677272a426733042c8038eef202/junevm/splathash",
+      "summary_en": "SplatHash provides a compact, fast way to generate placeholder representations for images with minimal computation. It aims to be simpler and smaller than BlurHash or ThumbHash, making it easier to implement in low-resource apps. This leads to snappier placeholders on mobile and web.",
+      "summary_zh": "SplatHash 提供一种紧凑、快速的方式来生成图片的占位表示，计算成本极低。它力求比 BlurHash 或 ThumbHash 更简单、占用更小，便于在资源受限的应用中实现。这样可以使移动端和网页上的占位图更流畅。",
+      "hn": {
+        "id": 47193832,
+        "type": "story",
+        "by": "unsorted2270",
+        "score": 51,
+        "descendants": 20,
+        "time": 1772277885,
+        "comments_url": "https://news.ycombinator.com/item?id=47193832"
+      },
+      "tags": [
+        "Show HN",
+        "Open Source",
+        "Programming"
+      ],
+      "hot_score": 0.2
+    },
+    {
+      "title_en": "Show HN: SQLite for Rivet Actors – one database per agent, tenant, or document",
+      "url": "https://github.com/rivet-dev/rivet",
+      "title_zh": "Rivet Actors 的 SQLite——每个代理/租户/文档一个数据库",
+      "created_display": "Created: Feb 28, 2026 / 08:11 PT",
+      "image_url": "https://repository-images.githubusercontent.com/654560183/8fa02fa0-32a0-4700-9d17-26966325db09",
+      "summary_en": "SQLite for Rivet Actors proposes one database per agent, tenant, or document, enabling clean isolation in multi-agent systems. It offers simplicity and fault containment, while trading off cross-entity querying and management headaches.",
+      "summary_zh": "为 Rivet Actors 引入每个代理、租户或文档一个数据库的 SQLite 方案，实现多代理系统中的清晰隔离。简化性与故障隔离性有优势，但跨实体查询与管理成本可能上升。",
+      "hn": {
+        "id": 47197003,
+        "type": "story",
+        "by": "NathanFlurry",
+        "score": 33,
+        "descendants": 12,
+        "time": 1772295118,
+        "comments_url": "https://news.ycombinator.com/item?id=47197003"
+      },
+      "tags": [
+        "Show HN",
+        "Programming",
+        "Open Source",
+        "Data"
+      ],
+      "hot_score": 0.2
     },
     {
       "title_en": "Allocating on the Stack",
@@ -1209,7 +1218,7 @@
       "tags": [
         "Programming"
       ],
-      "hot_score": 0.22
+      "hot_score": 0.19
     },
     {
       "title_en": "747s and Coding Agents",
@@ -1223,16 +1232,84 @@
         "id": 47182986,
         "type": "story",
         "by": "cckolon",
-        "score": 138,
-        "descendants": 61,
+        "score": 142,
+        "descendants": 67,
         "time": 1772212920,
         "comments_url": "https://news.ycombinator.com/item?id=47182986"
       },
       "tags": [
         "AI",
+        "Programming"
+      ],
+      "hot_score": 0.19
+    },
+    {
+      "title_en": "Monitor the Situation",
+      "url": "https://monitor-the-situation.com/middle-east",
+      "title_zh": "Monitor the Situation：中东局势监测",
+      "created_display": "Created: Feb 28, 2026 / 10:28 PT",
+      "image_url": "https://monitor-the-situation.com/og-image.png",
+      "summary_en": "Monitor-the-Situation provides real-time geopolitical monitoring focused on the Middle East, aggregating signals and analysis to help engineers gauge potential disruption risks.",
+      "summary_zh": "提供关于中东地区的实时监测与分析，聚合数据与洞察，帮助工程与运维团队在风险情境下做出更明智的决策。",
+      "hn": {
+        "id": 47198608,
+        "type": "story",
+        "by": "bookofjoe",
+        "score": 24,
+        "descendants": 5,
+        "time": 1772303305,
+        "comments_url": "https://news.ycombinator.com/item?id=47198608"
+      },
+      "tags": [
+        "Politics",
         "Security"
       ],
-      "hot_score": 0.21
+      "hot_score": 0.19
+    },
+    {
+      "title_en": "The happiest I've ever been",
+      "url": "https://ben-mini.com/2026/the-happiest-ive-ever-been",
+      "title_zh": "我有史以来最幸福的时刻",
+      "created_display": "Created: Feb 25, 2026 / 20:13 PT",
+      "image_url": "https://ben-mini.com/assets/images/logo-square.png",
+      "summary_en": "A personal reflection on what happiness looks like at this moment, with practical, low-key takeaways for sustaining well-being in tech-heavy lives.",
+      "summary_zh": "这是关于此刻幸福感的个人反思，为在高强度科技工作中维持身心健康提供简要、可执行的要点。",
+      "hn": {
+        "id": 47161759,
+        "type": "story",
+        "by": "bewal416",
+        "score": 430,
+        "descendants": 215,
+        "time": 1772079227,
+        "comments_url": "https://news.ycombinator.com/item?id=47161759"
+      },
+      "tags": [
+        "Health"
+      ],
+      "hot_score": 0.17
+    },
+    {
+      "title_en": "Human brain cells on a chip learned to play Doom in a week",
+      "url": "https://www.newscientist.com/article/2517389-human-brain-cells-on-a-chip-learned-to-play-doom-in-a-week/",
+      "title_zh": "芯片上的人脑细胞一周内学会玩 Doom",
+      "created_display": "Created: Feb 28, 2026 / 19:57 PT",
+      "image_url": "https://images.newscientist.com/wp-content/uploads/2026/02/27124116/SEI_287024727.jpg",
+      "summary_en": "In a chip-based brain-cell experiment, cultures learned to play Doom within a week, illustrating rapid learning-like behavior in biological substrates and implications for neuromorphic research.",
+      "summary_zh": "在芯片上的脑细胞培养物一周内学会玩 Doom，展示了生物材料中近似快速学习的能力，对神经形态研究具有潜在意义。",
+      "hn": {
+        "id": 47203544,
+        "type": "story",
+        "by": "alex_young",
+        "score": 4,
+        "descendants": 0,
+        "time": 1772337455,
+        "comments_url": "https://news.ycombinator.com/item?id=47203544"
+      },
+      "hot_score": 0.17,
+      "tags": [
+        "Science",
+        "Hardware"
+      ]
     },
     {
       "title_en": "Show HN: Decided to play god this morning, so I built an agent civilisation",
@@ -1251,100 +1328,11 @@
         "time": 1772287527,
         "comments_url": "https://news.ycombinator.com/item?id=47195530"
       },
-      "hot_score": 0.21,
+      "hot_score": 0.16,
       "tags": [
         "Show HN",
         "AI"
       ]
-    },
-    {
-      "title_en": "Show HN: Tomoshibi – A writing app where your words fade by firelight",
-      "url": "https://tomoshibi.in-hakumei.com/",
-      "title_zh": "Show HN：Tomoshibi——在火光中逐渐淡出的写作应用",
-      "created_display": "Created: Feb 28, 2026 / 09:12 PT",
-      "image_url": "https://tomoshibi.in-hakumei.com/lp/og-image.png",
-      "summary_en": "Tomoshibi is a writing app where words fade by firelight, creating a contemplative writing experience. The project explores how temporality and focus constraints shape creative workflow in the terminal.",
-      "summary_zh": "Tomoshibi 是一款让文字在火光中逐渐淡出的写作应用，营造沉思式写作体验。它探索时间性与专注约束如何影响终端环境下的创作流程。",
-      "hn": {
-        "id": 47197735,
-        "type": "story",
-        "by": "hakumei",
-        "score": 19,
-        "descendants": 12,
-        "time": 1772298766,
-        "comments_url": "https://news.ycombinator.com/item?id=47197735"
-      },
-      "tags": [
-        "Show HN",
-        "Programming"
-      ],
-      "hot_score": 0.18
-    },
-    {
-      "title_en": "Monitor the Situation",
-      "url": "https://monitor-the-situation.com/middle-east",
-      "title_zh": "Monitor the Situation：中东局势监测",
-      "created_display": "Created: Feb 28, 2026 / 10:28 PT",
-      "image_url": "https://monitor-the-situation.com/og-image.png",
-      "summary_en": "Monitor-the-Situation provides real-time geopolitical monitoring focused on the Middle East, aggregating signals and analysis to help engineers gauge potential disruption risks.",
-      "summary_zh": "提供关于中东地区的实时监测与分析，聚合数据与洞察，帮助工程与运维团队在风险情境下做出更明智的决策。",
-      "hn": {
-        "id": 47198608,
-        "type": "story",
-        "by": "bookofjoe",
-        "score": 16,
-        "descendants": 3,
-        "time": 1772303305,
-        "comments_url": "https://news.ycombinator.com/item?id=47198608"
-      },
-      "hot_score": 0.18,
-      "tags": [
-        "Politics"
-      ]
-    },
-    {
-      "title_en": "Everything Changes, and Nothing Changes",
-      "url": "https://btao.org/posts/2026-02-28-everything-changes-nothing-changes/",
-      "title_zh": "一切在改变，同时也不改变",
-      "created_display": "Created: Feb 28, 2026 / 05:35 PT",
-      "image_url": "https://btao.org/_astro/textilemill.rVG4l-uz_Z1OhaEq.webp",
-      "summary_en": "Everything Changes, and Nothing Changes reflects on how rapid, broad shifts occur alongside enduring fundamentals, offering a lens on strategy and resilience in tech.",
-      "summary_zh": "快速变革与持续不变的基本面并存，提供了关于技术策略与韧性的观察视角。",
-      "hn": {
-        "id": 47195210,
-        "type": "story",
-        "by": "todsacerdoti",
-        "score": 28,
-        "descendants": 21,
-        "time": 1772285754,
-        "comments_url": "https://news.ycombinator.com/item?id=47195210"
-      },
-      "tags": [
-        "Business"
-      ],
-      "hot_score": 0.17
-    },
-    {
-      "title_en": "The happiest I've ever been",
-      "url": "https://ben-mini.com/2026/the-happiest-ive-ever-been",
-      "title_zh": "我有史以来最幸福的时刻",
-      "created_display": "Created: Feb 25, 2026 / 20:13 PT",
-      "image_url": "https://ben-mini.com/assets/images/logo-square.png",
-      "summary_en": "A personal reflection on what happiness looks like at this moment, with practical, low-key takeaways for sustaining well-being in tech-heavy lives.",
-      "summary_zh": "这是关于此刻幸福感的个人反思，为在高强度科技工作中维持身心健康提供简要、可执行的要点。",
-      "hn": {
-        "id": 47161759,
-        "type": "story",
-        "by": "bewal416",
-        "score": 371,
-        "descendants": 178,
-        "time": 1772079227,
-        "comments_url": "https://news.ycombinator.com/item?id=47161759"
-      },
-      "tags": [
-        "Health"
-      ],
-      "hot_score": 0.16
     },
     {
       "title_en": "Writing a Guide to SDF Fonts",
@@ -1364,9 +1352,10 @@
         "comments_url": "https://news.ycombinator.com/item?id=47183725"
       },
       "tags": [
+        "Design",
         "Programming"
       ],
-      "hot_score": 0.16
+      "hot_score": 0.14
     },
     {
       "title_en": "Smallest transformer that can add two 10-digit numbers",
@@ -1389,7 +1378,7 @@
         "AI",
         "Hardware"
       ],
-      "hot_score": 0.15
+      "hot_score": 0.13
     },
     {
       "title_en": "Tell HN: MitID, Denmark's digital ID, was down",
@@ -1409,10 +1398,56 @@
         "comments_url": "https://news.ycombinator.com/item?id=47179038"
       },
       "tags": [
+        "Politics",
         "Security",
         "DevOps"
       ],
-      "hot_score": 0.15
+      "hot_score": 0.13
+    },
+    {
+      "title_en": "Everything Changes, and Nothing Changes",
+      "url": "https://btao.org/posts/2026-02-28-everything-changes-nothing-changes/",
+      "title_zh": "一切在改变，同时也不改变",
+      "created_display": "Created: Feb 28, 2026 / 05:35 PT",
+      "image_url": "https://btao.org/_astro/textilemill.rVG4l-uz_Z1OhaEq.webp",
+      "summary_en": "Everything Changes, and Nothing Changes reflects on how rapid, broad shifts occur alongside enduring fundamentals, offering a lens on strategy and resilience in tech.",
+      "summary_zh": "快速变革与持续不变的基本面并存，提供了关于技术策略与韧性的观察视角。",
+      "hn": {
+        "id": 47195210,
+        "type": "story",
+        "by": "todsacerdoti",
+        "score": 28,
+        "descendants": 21,
+        "time": 1772285754,
+        "comments_url": "https://news.ycombinator.com/item?id=47195210"
+      },
+      "tags": [
+        "Business"
+      ],
+      "hot_score": 0.13
+    },
+    {
+      "title_en": "Show HN: Tomoshibi – A writing app where your words fade by firelight",
+      "url": "https://tomoshibi.in-hakumei.com/",
+      "title_zh": "Show HN：Tomoshibi——在火光中逐渐淡出的写作应用",
+      "created_display": "Created: Feb 28, 2026 / 09:12 PT",
+      "image_url": "https://tomoshibi.in-hakumei.com/lp/og-image.png",
+      "summary_en": "Tomoshibi is a writing app where words fade by firelight, creating a contemplative writing experience. The project explores how temporality and focus constraints shape creative workflow in the terminal.",
+      "summary_zh": "Tomoshibi 是一款让文字在火光中逐渐淡出的写作应用，营造沉思式写作体验。它探索时间性与专注约束如何影响终端环境下的创作流程。",
+      "hn": {
+        "id": 47197735,
+        "type": "story",
+        "by": "hakumei",
+        "score": 19,
+        "descendants": 12,
+        "time": 1772298766,
+        "comments_url": "https://news.ycombinator.com/item?id=47197735"
+      },
+      "tags": [
+        "Show HN",
+        "Programming"
+      ],
+      "hot_score": 0.13
     },
     {
       "title_en": "Inferring car movement patterns from passive TPMS measurements",
@@ -1431,7 +1466,7 @@
         "time": 1772264736,
         "comments_url": "https://news.ycombinator.com/item?id=47191844"
       },
-      "hot_score": 0.14,
+      "hot_score": 0.12,
       "tags": [
         "Privacy",
         "Data"
@@ -1457,31 +1492,34 @@
       "tags": [
         "Show HN",
         "Open Source",
+        "Programming",
         "AI"
       ],
-      "hot_score": 0.13
+      "hot_score": 0.11
     },
     {
-      "title_en": "Ask HN: My YC company is hiring one engineer/day but there's not enough work",
-      "url": "https://news.ycombinator.com/item?id=47200708",
-      "title_zh": "Ask HN：我的 YC 公司每天招聘一名工程师，但工作量不足",
-      "created_display": "Created: Feb 28, 2026 / 13:56 PT",
-      "image_url": "https://news.ycombinator.com/y18.svg",
-      "summary_en": "There's a candid discussion about whether rapid hiring outpaces the actual work available. The thread touches on product-market fit, pipeline realism, and aligning engineering headcount with project velocity.",
-      "summary_zh": "关于一个 YC 支持的公司日招聘一名工程师却缺乏相应工作量的公开讨论。讨论聚焦于产品–市场契合、管线现实性，以及如何让研发人数与实际项目节奏相匹配。",
+      "title_en": "Woxi: Wolfram Mathematica Reimplementation in Rust",
+      "url": "https://github.com/ad-si/Woxi",
+      "title_zh": "Woxi：用 Rust 重实现 Wolfram Mathematica",
+      "created_display": "Created: Feb 25, 2026 / 10:24 PT",
+      "image_url": "https://opengraph.githubassets.com/7bb99285ffac42a49498a0c758e3091f8fce5f372a6628db595f7821bd10b06c/ad-si/Woxi",
+      "summary_en": "Woxi is a Rust-based reimplementation of Wolfram Mathematica, aiming to deliver high-performance symbolic computation. It exemplifies efforts to democratize advanced math tooling while highlighting the challenges of reimplementing a mature system.",
+      "summary_zh": "Woxi 用 Rust 重实现 Wolfram Mathematica，目标是提供高性能的符号计算工具。该项目展示了让高端数学工具更易得的努力，同时也揭示了重实现一个成熟系统的挑战。",
       "hn": {
-        "id": 47200708,
+        "id": 47155526,
         "type": "story",
-        "by": "ta_jobstartup",
-        "score": 7,
-        "descendants": 1,
-        "time": 1772315769,
-        "comments_url": "https://news.ycombinator.com/item?id=47200708"
+        "by": "adamnemecek",
+        "score": 273,
+        "descendants": 112,
+        "time": 1772043886,
+        "comments_url": "https://news.ycombinator.com/item?id=47155526"
       },
-      "hot_score": 0.13,
       "tags": [
-        "Startups"
-      ]
+        "Open Source",
+        "Programming",
+        "Science"
+      ],
+      "hot_score": 0.09
     },
     {
       "title_en": "Show HN: Gitcredits – movie-style end credits for any Git repo in your terminal",
@@ -1500,35 +1538,12 @@
         "time": 1772282728,
         "comments_url": "https://news.ycombinator.com/item?id=47194679"
       },
-      "hot_score": 0.12,
+      "hot_score": 0.09,
       "tags": [
         "Show HN",
         "Open Source",
         "Programming"
       ]
-    },
-    {
-      "title_en": "Woxi: Wolfram Mathematica Reimplementation in Rust",
-      "url": "https://github.com/ad-si/Woxi",
-      "title_zh": "Woxi：用 Rust 重实现 Wolfram Mathematica",
-      "created_display": "Created: Feb 25, 2026 / 10:24 PT",
-      "image_url": "https://opengraph.githubassets.com/7bb99285ffac42a49498a0c758e3091f8fce5f372a6628db595f7821bd10b06c/ad-si/Woxi",
-      "summary_en": "Woxi is a Rust-based reimplementation of Wolfram Mathematica, aiming to deliver high-performance symbolic computation. It exemplifies efforts to democratize advanced math tooling while highlighting the challenges of reimplementing a mature system.",
-      "summary_zh": "Woxi 用 Rust 重实现 Wolfram Mathematica，目标是提供高性能的符号计算工具。该项目展示了让高端数学工具更易得的努力，同时也揭示了重实现一个成熟系统的挑战。",
-      "hn": {
-        "id": 47155526,
-        "type": "story",
-        "by": "adamnemecek",
-        "score": 261,
-        "descendants": 108,
-        "time": 1772043886,
-        "comments_url": "https://news.ycombinator.com/item?id=47155526"
-      },
-      "tags": [
-        "Programming",
-        "Open Source"
-      ],
-      "hot_score": 0.09
     },
     {
       "title_en": "Building secure, scalable agent sandbox infrastructure",
@@ -1551,7 +1566,31 @@
         "Security",
         "DevOps"
       ],
-      "hot_score": 0.09
+      "hot_score": 0.08
+    },
+    {
+      "title_en": "Ask HN: My YC company is hiring one engineer/day but there's not enough work",
+      "url": "https://news.ycombinator.com/item?id=47200708",
+      "title_zh": "Ask HN：我的 YC 公司每天招聘一名工程师，但工作量不足",
+      "created_display": "Created: Feb 28, 2026 / 13:56 PT",
+      "image_url": "https://news.ycombinator.com/y18.svg",
+      "summary_en": "There's a candid discussion about whether rapid hiring outpaces the actual work available. The thread touches on product-market fit, pipeline realism, and aligning engineering headcount with project velocity.",
+      "summary_zh": "关于一个 YC 支持的公司日招聘一名工程师却缺乏相应工作量的公开讨论。讨论聚焦于产品–市场契合、管线现实性，以及如何让研发人数与实际项目节奏相匹配。",
+      "hn": {
+        "id": 47200708,
+        "type": "story",
+        "by": "ta_jobstartup",
+        "score": 7,
+        "descendants": 1,
+        "time": 1772315769,
+        "comments_url": "https://news.ycombinator.com/item?id=47200708"
+      },
+      "hot_score": 0.08,
+      "tags": [
+        "Business",
+        "Career",
+        "Startups"
+      ]
     },
     {
       "title_en": "Can you reverse engineer our neural network?",
@@ -1571,10 +1610,33 @@
         "comments_url": "https://news.ycombinator.com/item?id=47146487"
       },
       "tags": [
-        "AI",
-        "Security"
+        "Security",
+        "AI"
       ],
-      "hot_score": 0.08
+      "hot_score": 0.07
+    },
+    {
+      "title_en": "The Eternal Promise: A History of Attempts to Eliminate Programmers",
+      "url": "https://www.ivanturkovic.com/2026/01/22/history-software-simplification-cobol-ai-hype/",
+      "title_zh": "永恒的承诺：试图消灭程序员的历史",
+      "created_display": "Created: Feb 24, 2026 / 21:14 PT",
+      "image_url": null,
+      "summary_en": "Software has long promised to automate away developers, and this history shows why that promise repeatedly fails. The piece surveys milestones from early auto-generation to modern AI-assisted tooling, arguing that complexity and creative problem-solving keep programmers indispensable.",
+      "summary_zh": "软件领域长期被承诺要自动化淘汰程序员，但这一承诺屡屡难以实现。本文梳理了从早期自动生成代码到现代 AI 辅助工具的里程碑，指出复杂性和人类解决问题的能力使程序员不可替代。",
+      "hn": {
+        "id": 47147597,
+        "type": "story",
+        "by": "dinvlad",
+        "score": 261,
+        "descendants": 173,
+        "time": 1771996449,
+        "comments_url": "https://news.ycombinator.com/item?id=47147597"
+      },
+      "tags": [
+        "AI",
+        "Business"
+      ],
+      "hot_score": 0.07
     },
     {
       "title_en": "Show HN: Unfucked - version all changes (by any tool) - local-first/source avail",
@@ -1595,9 +1657,33 @@
       },
       "tags": [
         "Show HN",
-        "Open Source"
+        "Open Source",
+        "Programming"
       ],
-      "hot_score": 0.08
+      "hot_score": 0.07
+    },
+    {
+      "title_en": "Werner Herzog Between Fact and Fiction",
+      "url": "https://www.thenation.com/article/culture/werner-herzog-future-truth/",
+      "title_zh": "沃纳·赫佐格：在事实与虚构之间",
+      "created_display": "Created: Feb 27, 2026 / 00:27 PT",
+      "image_url": "https://www.thenation.com/wp-content/uploads/2026/02/GettyImages-1766659145.jpeg",
+      "summary_en": "Herzog's interviews and essays probe how truth travels between fact and fiction in documentary cinema and culture. The piece reflects on how his thinking informs media critique and future storytelling.",
+      "summary_zh": "赫尔佐格的访谈与文章探讨纪录片与文化中真相在事实与虚构之间的流动。他的观点为媒体批评与未来叙事提供了启示。",
+      "hn": {
+        "id": 47178051,
+        "type": "story",
+        "by": "Hooke",
+        "score": 73,
+        "descendants": 14,
+        "time": 1772180865,
+        "comments_url": "https://news.ycombinator.com/item?id=47178051"
+      },
+      "tags": [
+        "Culture",
+        "Entertainment"
+      ],
+      "hot_score": 0.07
     },
     {
       "title_en": "CSP for Pentesters: Understanding the Fundamentals",
@@ -1620,51 +1706,30 @@
         "Security",
         "Web"
       ],
-      "hot_score": 0.08
+      "hot_score": 0.06
     },
     {
-      "title_en": "The Eternal Promise: A History of Attempts to Eliminate Programmers",
-      "url": "https://www.ivanturkovic.com/2026/01/22/history-software-simplification-cobol-ai-hype/",
-      "title_zh": "永恒的承诺：试图消灭程序员的历史",
-      "created_display": "Created: Feb 24, 2026 / 21:14 PT",
-      "image_url": null,
-      "summary_en": "Software has long promised to automate away developers, and this history shows why that promise repeatedly fails. The piece surveys milestones from early auto-generation to modern AI-assisted tooling, arguing that complexity and creative problem-solving keep programmers indispensable.",
-      "summary_zh": "软件领域长期被承诺要自动化淘汰程序员，但这一承诺屡屡难以实现。本文梳理了从早期自动生成代码到现代 AI 辅助工具的里程碑，指出复杂性和人类解决问题的能力使程序员不可替代。",
+      "title_en": "From Noise to Image – interactive guide to diffusion",
+      "url": "https://lighthousesoftware.co.uk/projects/from-noise-to-image/",
+      "title_zh": "从噪声到图像——扩散模型的交互指南",
+      "created_display": "Created: Feb 25, 2026 / 23:52 PT",
+      "image_url": "https://lighthousesoftware.co.uk/assets/blog/image-generation-models/grids-optimised/improbability/grid.webp",
+      "summary_en": "From Noise to Image provides an interactive tour of diffusion models, showing how random noise evolves into coherent images. The guide helps learners visualize the mechanics behind modern generative AI.",
+      "summary_zh": "提供扩散模型的互动式演示，展示随机噪声如何逐步形成清晰图像，帮助学习者直观理解现代生成模型的工作原理。",
       "hn": {
-        "id": 47147597,
+        "id": 47163167,
         "type": "story",
-        "by": "dinvlad",
-        "score": 248,
-        "descendants": 167,
-        "time": 1771996449,
-        "comments_url": "https://news.ycombinator.com/item?id=47147597"
+        "by": "simedw",
+        "score": 124,
+        "descendants": 16,
+        "time": 1772092349,
+        "comments_url": "https://news.ycombinator.com/item?id=47163167"
       },
       "tags": [
-        "AI"
+        "AI",
+        "Education"
       ],
-      "hot_score": 0.07
-    },
-    {
-      "title_en": "Werner Herzog Between Fact and Fiction",
-      "url": "https://www.thenation.com/article/culture/werner-herzog-future-truth/",
-      "title_zh": "沃纳·赫佐格：在事实与虚构之间",
-      "created_display": "Created: Feb 27, 2026 / 00:27 PT",
-      "image_url": "https://www.thenation.com/wp-content/uploads/2026/02/GettyImages-1766659145.jpeg",
-      "summary_en": "Herzog's interviews and essays probe how truth travels between fact and fiction in documentary cinema and culture. The piece reflects on how his thinking informs media critique and future storytelling.",
-      "summary_zh": "赫尔佐格的访谈与文章探讨纪录片与文化中真相在事实与虚构之间的流动。他的观点为媒体批评与未来叙事提供了启示。",
-      "hn": {
-        "id": 47178051,
-        "type": "story",
-        "by": "Hooke",
-        "score": 70,
-        "descendants": 14,
-        "time": 1772180865,
-        "comments_url": "https://news.ycombinator.com/item?id=47178051"
-      },
-      "tags": [
-        "Culture"
-      ],
-      "hot_score": 0.07
+      "hot_score": 0.05
     },
     {
       "title_en": "US Customs destroy a rare floppy disk containing demo version of Tsukihime",
@@ -1683,32 +1748,11 @@
         "time": 1772272108,
         "comments_url": "https://news.ycombinator.com/item?id=47192973"
       },
-      "hot_score": 0.06,
+      "hot_score": 0.05,
       "tags": [
-        "Entertainment"
+        "Gaming",
+        "Culture"
       ]
-    },
-    {
-      "title_en": "From Noise to Image – interactive guide to diffusion",
-      "url": "https://lighthousesoftware.co.uk/projects/from-noise-to-image/",
-      "title_zh": "从噪声到图像——扩散模型的交互指南",
-      "created_display": "Created: Feb 25, 2026 / 23:52 PT",
-      "image_url": "https://lighthousesoftware.co.uk/assets/blog/image-generation-models/grids-optimised/improbability/grid.webp",
-      "summary_en": "From Noise to Image provides an interactive tour of diffusion models, showing how random noise evolves into coherent images. The guide helps learners visualize the mechanics behind modern generative AI.",
-      "summary_zh": "提供扩散模型的互动式演示，展示随机噪声如何逐步形成清晰图像，帮助学习者直观理解现代生成模型的工作原理。",
-      "hn": {
-        "id": 47163167,
-        "type": "story",
-        "by": "simedw",
-        "score": 116,
-        "descendants": 15,
-        "time": 1772092349,
-        "comments_url": "https://news.ycombinator.com/item?id=47163167"
-      },
-      "tags": [
-        "AI"
-      ],
-      "hot_score": 0.05
     },
     {
       "title_en": "Show HN: I ported Manim to TypeScript (run 3b1B math animations in the browser)",
@@ -1746,8 +1790,8 @@
         "id": 47154637,
         "type": "story",
         "by": "rbanffy",
-        "score": 113,
-        "descendants": 70,
+        "score": 119,
+        "descendants": 75,
         "time": 1772040513,
         "comments_url": "https://news.ycombinator.com/item?id=47154637"
       },
@@ -1757,24 +1801,24 @@
       "hot_score": 0.04
     },
     {
-      "title_en": "More Cows, More Wives",
-      "url": "https://www.worksinprogress.news/p/more-cows-more-wives",
-      "title_zh": "更多牛群、更多妻子",
-      "created_display": "Created: Feb 25, 2026 / 07:36 PT",
-      "image_url": "https://substackcdn.com/image/fetch/$s_!a7-H!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0a663574-42d5-494c-8414-71e7413045b6_2206x1154.png",
-      "summary_en": "A provocative look at how livestock wealth—cows—may influence marriage markets and social structures in different societies.",
-      "summary_zh": "本文以牲畜财富为切入点，探讨牛等资源如何影响婚娶市场与社会结构。",
+      "title_en": "H-Bomb: A Frank Lloyd Wright Typographic Mystery",
+      "url": "https://www.inconspicuous.info/p/h-bomb-a-frank-lloyd-wright-typographic",
+      "title_zh": "H-Bomb：弗兰克·劳埃德·赖特的字体之谜",
+      "created_display": "Created: Feb 26, 2026 / 01:18 PT",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!qRJ6!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F46b50cd0-f83c-46aa-bfac-727157e43e48_2014x1210.jpeg",
+      "summary_en": "Explores a typographic mystery tied to Frank Lloyd Wright, uncovering unusual letterforms and design choices linked to his architectural language. The piece shows how typography can encode a designer's worldview and invite cross-disciplinary inquiry.",
+      "summary_zh": "探索与 Frank Lloyd Wright 相关的字体之谜，揭示与其建筑语言相连的独特字母形态与设计选择。此探索揭示了字体如何承载设计师的世界观，并激发跨学科的思考。",
       "hn": {
-        "id": 47152967,
+        "id": 47163779,
         "type": "story",
-        "by": "oxw",
-        "score": 79,
-        "descendants": 54,
-        "time": 1772033796,
-        "comments_url": "https://news.ycombinator.com/item?id=47152967"
+        "by": "mrngm",
+        "score": 61,
+        "descendants": 14,
+        "time": 1772097537,
+        "comments_url": "https://news.ycombinator.com/item?id=47163779"
       },
       "tags": [
-        "Culture"
+        "Design"
       ],
       "hot_score": 0.03
     },
@@ -1801,6 +1845,28 @@
       "hot_score": 0.02
     },
     {
+      "title_en": "More Cows, More Wives",
+      "url": "https://www.worksinprogress.news/p/more-cows-more-wives",
+      "title_zh": "更多牛群、更多妻子",
+      "created_display": "Created: Feb 25, 2026 / 07:36 PT",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!a7-H!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0a663574-42d5-494c-8414-71e7413045b6_2206x1154.png",
+      "summary_en": "A provocative look at how livestock wealth—cows—may influence marriage markets and social structures in different societies.",
+      "summary_zh": "本文以牲畜财富为切入点，探讨牛等资源如何影响婚娶市场与社会结构。",
+      "hn": {
+        "id": 47152967,
+        "type": "story",
+        "by": "oxw",
+        "score": 79,
+        "descendants": 54,
+        "time": 1772033796,
+        "comments_url": "https://news.ycombinator.com/item?id=47152967"
+      },
+      "tags": [
+        "Culture"
+      ],
+      "hot_score": 0.02
+    },
+    {
       "title_en": "Ghosts'n Goblins – “Worse danger is ahead”",
       "url": "https://superchartisland.com/ghostsn-goblins/",
       "title_zh": "Ghosts'n Goblins：’更大的危险在前方’",
@@ -1812,8 +1878,8 @@
         "id": 47155235,
         "type": "story",
         "by": "elvis70",
-        "score": 68,
-        "descendants": 25,
+        "score": 70,
+        "descendants": 26,
         "time": 1772042829,
         "comments_url": "https://news.ycombinator.com/item?id=47155235"
       },
@@ -1834,59 +1900,16 @@
         "id": 47152835,
         "type": "story",
         "by": "Brajeshwar",
-        "score": 54,
-        "descendants": 6,
+        "score": 63,
+        "descendants": 12,
         "time": 1772033332,
         "comments_url": "https://news.ycombinator.com/item?id=47152835"
       },
       "tags": [
-        "Hardware"
+        "Hardware",
+        "Data"
       ],
       "hot_score": 0.02
-    },
-    {
-      "title_en": "H-Bomb: A Frank Lloyd Wright Typographic Mystery",
-      "url": "https://www.inconspicuous.info/p/h-bomb-a-frank-lloyd-wright-typographic",
-      "title_zh": "H-Bomb：弗兰克·劳埃德·赖特的字体之谜",
-      "created_display": "Created: Feb 26, 2026 / 01:18 PT",
-      "image_url": "https://substackcdn.com/image/fetch/$s_!qRJ6!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F46b50cd0-f83c-46aa-bfac-727157e43e48_2014x1210.jpeg",
-      "summary_en": "Explores a typographic mystery tied to Frank Lloyd Wright, uncovering unusual letterforms and design choices linked to his architectural language. The piece shows how typography can encode a designer's worldview and invite cross-disciplinary inquiry.",
-      "summary_zh": "探索与 Frank Lloyd Wright 相关的字体之谜，揭示与其建筑语言相连的独特字母形态与设计选择。此探索揭示了字体如何承载设计师的世界观，并激发跨学科的思考。",
-      "hn": {
-        "id": 47163779,
-        "type": "story",
-        "by": "mrngm",
-        "score": 34,
-        "descendants": 9,
-        "time": 1772097537,
-        "comments_url": "https://news.ycombinator.com/item?id=47163779"
-      },
-      "hot_score": 0.02,
-      "tags": [
-        "Design"
-      ]
-    },
-    {
-      "title_en": "Ow My Foot – Error Handling Across C, Go, Rust, and Google's Absl",
-      "url": "https://n8z.dev/posts/ow-my-foot/",
-      "title_zh": "Ow My Foot——C、Go、Rust 与 Google Abseil 的错误处理比较",
-      "created_display": "Created: Feb 28, 2026 / 07:18 PT",
-      "image_url": "https://n8z.dev/posts/ow-my-foot/index.png",
-      "summary_en": "Ow My Foot compares error handling across C, Go, Rust, and Google's Absl, highlighting language-specific patterns and best practices for portable, reliable error management.",
-      "summary_zh": "对比 C、Go、Rust 及 Google Abseil 的错误处理模式，揭示跨语言的实践要点与可移植、可靠的错误管理最佳实践。",
-      "hn": {
-        "id": 47196289,
-        "type": "story",
-        "by": "nlz",
-        "score": 4,
-        "descendants": 3,
-        "time": 1772291890,
-        "comments_url": "https://news.ycombinator.com/item?id=47196289"
-      },
-      "hot_score": 0.02,
-      "tags": [
-        "Programming"
-      ]
     },
     {
       "title_en": "Distributed Systems for Fun and Profit",
@@ -1978,6 +2001,52 @@
       "hot_score": 0.01
     },
     {
+      "title_en": "Deterministic Programming with LLMs",
+      "url": "https://www.mcherm.com/deterministic-programming-with-llms.html",
+      "title_zh": "LLMs 的确定性编程",
+      "created_display": "Created: Feb 25, 2026 / 14:17 PT",
+      "image_url": null,
+      "summary_en": "Argues for making LLM-driven programs deterministic through controlled prompting, tool usage, and state management. This improves reproducibility, testability, and safety when deploying AI-powered software.",
+      "summary_zh": "提出通过受控提示、工具调用和状态管理等手段，让基于 LLM 的程序实现确定性。提升了在部署 AI 驱动软件时的可重复性、可测试性和安全性。",
+      "hn": {
+        "id": 47158834,
+        "type": "story",
+        "by": "todsacerdoti",
+        "score": 38,
+        "descendants": 20,
+        "time": 1772057849,
+        "comments_url": "https://news.ycombinator.com/item?id=47158834"
+      },
+      "tags": [
+        "AI",
+        "Programming"
+      ],
+      "hot_score": 0.01
+    },
+    {
+      "title_en": "Sub-second volumetric 3D printing by synthesis of holographic light fields",
+      "url": "https://www.nature.com/articles/s41586-026-10114-5",
+      "title_zh": "亚秒级体积三维打印：通过全息光场合成实现",
+      "created_display": "Created: Feb 25, 2026 / 07:01 PT",
+      "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41586-026-10114-5/MediaObjects/41586_2026_10114_Fig1_HTML.png",
+      "summary_en": "Researchers demonstrate sub-second volumetric 3D printing by synthesizing holographic light fields that encode an entire object in a single exposure. By projecting a carefully designed holographic light field, the resin cures in three dimensions without layer-by-layer scanning, enabling ultra-fast fabrication of complex geometries. The method hinges on precise light-field control and rapid image synthesis hardware.",
+      "summary_zh": "研究通过全息光场的合成来实现亚秒级的体积打印，将整个三维对象在单次曝光中编码到光场中。避免传统逐层打印的过程，利用高精度光场控制实现复杂几何体的超快速制造。该技术若实现规模化的材料和硬件兼容性，可能彻底改变快速原型制作与按需制造的速度与灵活性。",
+      "hn": {
+        "id": 47152448,
+        "type": "story",
+        "by": "zdw",
+        "score": 32,
+        "descendants": 8,
+        "time": 1772031680,
+        "comments_url": "https://news.ycombinator.com/item?id=47152448"
+      },
+      "hot_score": 0.01,
+      "tags": [
+        "Science",
+        "Hardware"
+      ]
+    },
+    {
       "title_en": "Time-Travel Debugging: Replaying Production Bugs Locally",
       "url": "https://lackofimagination.org/2026/02/time-travel-debugging-replaying-production-bugs-locally/",
       "title_zh": "时光穿梭调试：在本地重现生产环境中的错误",
@@ -1996,29 +2065,6 @@
       },
       "hot_score": 0.01,
       "tags": [
-        "Programming"
-      ]
-    },
-    {
-      "title_en": "Deterministic Programming with LLMs",
-      "url": "https://www.mcherm.com/deterministic-programming-with-llms.html",
-      "title_zh": "LLMs 的确定性编程",
-      "created_display": "Created: Feb 25, 2026 / 14:17 PT",
-      "image_url": null,
-      "summary_en": "Argues for making LLM-driven programs deterministic through controlled prompting, tool usage, and state management. This improves reproducibility, testability, and safety when deploying AI-powered software.",
-      "summary_zh": "提出通过受控提示、工具调用和状态管理等手段，让基于 LLM 的程序实现确定性。提升了在部署 AI 驱动软件时的可重复性、可测试性和安全性。",
-      "hn": {
-        "id": 47158834,
-        "type": "story",
-        "by": "todsacerdoti",
-        "score": 31,
-        "descendants": 15,
-        "time": 1772057849,
-        "comments_url": "https://news.ycombinator.com/item?id=47158834"
-      },
-      "hot_score": 0.01,
-      "tags": [
-        "AI",
         "Programming"
       ]
     },
@@ -2056,13 +2102,13 @@
         "id": 47170847,
         "type": "story",
         "by": "mitchbob",
-        "score": 23,
+        "score": 24,
         "descendants": 0,
         "time": 1772134175,
         "comments_url": "https://news.ycombinator.com/item?id=47170847"
       },
       "tags": [
-        "Culture"
+        "Entertainment"
       ],
       "hot_score": 0.01
     },
@@ -2078,13 +2124,12 @@
         "id": 47150352,
         "type": "story",
         "by": "Jashwanth01",
-        "score": 20,
-        "descendants": 10,
+        "score": 21,
+        "descendants": 12,
         "time": 1772020506,
         "comments_url": "https://news.ycombinator.com/item?id=47150352"
       },
       "tags": [
-        "Data",
         "Programming",
         "Hardware"
       ],
@@ -2108,8 +2153,7 @@
         "comments_url": "https://news.ycombinator.com/item?id=47153797"
       },
       "tags": [
-        "Design",
-        "Culture"
+        "Design"
       ],
       "hot_score": 0.01
     },
@@ -2137,26 +2181,27 @@
       ]
     },
     {
-      "title_en": "SHELL: Global Tool for Calling and Chaining Procedures in the System (1965) [pdf]",
-      "url": "https://people.csail.mit.edu/saltzer/Multics/Multics-Documents/MDN/MDN-4.pdf",
-      "title_zh": "SHELL：1965 年的全局调用与流程连接工具（PDF）",
-      "created_display": "Created: Feb 26, 2026 / 07:40 PT",
-      "image_url": null,
-      "summary_en": "This 1965-era tool provides a global interface for invoking and chaining procedures throughout a computer system, predating modern shells.",
-      "summary_zh": "这是 1965 年的早期工具，提供在整个系统中调用与串联过程的全局接口，早于现代 Shell 的雏形。",
+      "title_en": "SpacetimeDB ThreeJS Support",
+      "url": "https://discourse.threejs.org/t/spacetimedb-threejs-support-and-free-tier/90052",
+      "title_zh": "SpacetimeDB 增加 ThreeJS 支持与免费等级",
+      "created_display": "Created: Feb 25, 2026 / 12:20 PT",
+      "image_url": "https://canada1.discourse-cdn.com/flex035/uploads/threejs/original/2X/d/d15ec0d4722f858ce1e7671232c1350f259fa737.png",
+      "summary_en": "SpacetimeDB now supports Three.js, enabling developers to render time-aware data in interactive 3D scenes, plus a free tier lowers the barrier to experimentation.",
+      "summary_zh": "SpacetimeDB 新增对 Three.js 的支持，方便开发者在交互式 3D 场景中可视化时空数据；同时提供免费层，降低上手门槛。",
       "hn": {
-        "id": 47167545,
+        "id": 47157265,
         "type": "story",
-        "by": "NaOH",
-        "score": 10,
-        "descendants": 2,
-        "time": 1772120442,
-        "comments_url": "https://news.ycombinator.com/item?id=47167545"
+        "by": "ryker2000",
+        "score": 12,
+        "descendants": 4,
+        "time": 1772050821,
+        "comments_url": "https://news.ycombinator.com/item?id=47157265"
       },
-      "hot_score": 0.01,
       "tags": [
-        "Programming"
-      ]
+        "Programming",
+        "Web"
+      ],
+      "hot_score": 0.0
     },
     {
       "title_en": "A Fuzzer for the Toy Optimizer",
@@ -2178,6 +2223,28 @@
       "hot_score": 0.0,
       "tags": [
         "Security",
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "SHELL: Global Tool for Calling and Chaining Procedures in the System (1965) [pdf]",
+      "url": "https://people.csail.mit.edu/saltzer/Multics/Multics-Documents/MDN/MDN-4.pdf",
+      "title_zh": "SHELL：1965 年的全局调用与流程连接工具（PDF）",
+      "created_display": "Created: Feb 26, 2026 / 07:40 PT",
+      "image_url": null,
+      "summary_en": "This 1965-era tool provides a global interface for invoking and chaining procedures throughout a computer system, predating modern shells.",
+      "summary_zh": "这是 1965 年的早期工具，提供在整个系统中调用与串联过程的全局接口，早于现代 Shell 的雏形。",
+      "hn": {
+        "id": 47167545,
+        "type": "story",
+        "by": "NaOH",
+        "score": 10,
+        "descendants": 2,
+        "time": 1772120442,
+        "comments_url": "https://news.ycombinator.com/item?id=47167545"
+      },
+      "hot_score": 0.0,
+      "tags": [
         "Programming"
       ]
     },
@@ -2204,25 +2271,25 @@
       ]
     },
     {
-      "title_en": "SpacetimeDB ThreeJS Support",
-      "url": "https://discourse.threejs.org/t/spacetimedb-threejs-support-and-free-tier/90052",
-      "title_zh": "SpacetimeDB 增加 ThreeJS 支持与免费等级",
-      "created_display": "Created: Feb 25, 2026 / 12:20 PT",
-      "image_url": "https://canada1.discourse-cdn.com/flex035/uploads/threejs/original/2X/d/d15ec0d4722f858ce1e7671232c1350f259fa737.png",
-      "summary_en": "SpacetimeDB now supports Three.js, enabling developers to render time-aware data in interactive 3D scenes, plus a free tier lowers the barrier to experimentation.",
-      "summary_zh": "SpacetimeDB 新增对 Three.js 的支持，方便开发者在交互式 3D 场景中可视化时空数据；同时提供免费层，降低上手门槛。",
+      "title_en": "Hardwood: A New Parser for Apache Parquet",
+      "url": "https://www.morling.dev/blog/hardwood-new-parser-for-apache-parquet/",
+      "title_zh": "Hardwood：Apache Parquet 的全新解析器",
+      "created_display": "Created: Feb 26, 2026 / 07:31 PT",
+      "image_url": "https://www.morling.dev/images/gunnar_morling.jpg",
+      "summary_en": "Hardwood introduces a new parser for Apache Parquet designed to improve parsing speed and resilience relative to existing implementations. It focuses on robust handling of the Parquet metadata and nested schemas, with potential for streaming reads and better ergonomics for developers integrating Parquet data into pipelines. This could influence data tooling performance in analytics stacks that rely on Parquet.",
+      "summary_zh": "Hardwood 为 Apache Parquet 提供了一种全新的解析器，目标是提升解析速度与容错能力。它强调对 Parquet 元数据和嵌套模式的稳健处理，并可能支持流式读取，方便将 Parquet 数据接入数据管线。此举可能提升分析栈中 Parquet 相关工具的性能与可用性。",
       "hn": {
-        "id": 47157265,
+        "id": 47167432,
         "type": "story",
-        "by": "ryker2000",
-        "score": 8,
-        "descendants": 3,
-        "time": 1772050821,
-        "comments_url": "https://news.ycombinator.com/item?id=47157265"
+        "by": "rmoff",
+        "score": 9,
+        "descendants": 0,
+        "time": 1772119899,
+        "comments_url": "https://news.ycombinator.com/item?id=47167432"
       },
       "hot_score": 0.0,
       "tags": [
-        "Web",
+        "Data",
         "Programming"
       ]
     },
