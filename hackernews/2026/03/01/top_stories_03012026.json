@@ -4,44 +4,44 @@
     "source": "https://news.ycombinator.com/",
     "api": "https://github.com/HackerNews/API",
     "count_requested": 50,
-    "count_written": 50,
-    "reused_same_day": 0,
-    "reused_cross_day": 31,
-    "new_llm_enriched": 17,
-    "scrape_time_display": "06:24, March 01, 2026 (PST)",
+    "count_written": 62,
+    "reused_same_day": 38,
+    "reused_cross_day": 0,
+    "new_llm_enriched": 12,
+    "scrape_time_display": "10:29, March 01, 2026 (PST)",
     "timezone": "America/Los_Angeles",
     "date_dir": "2026/03/01",
     "content_date": "2026-03-01",
-    "run_time_local": "06:24, March 01, 2026 (PST)",
-    "run_time_utc": "2026-03-01 14:24:18 UTC",
+    "run_time_local": "10:29, March 01, 2026 (PST)",
+    "run_time_utc": "2026-03-01 18:29:08 UTC",
     "incremental": true,
     "stories_max": 100,
-    "hot_score_time_utc": "2026-03-01 14:25:22 UTC"
+    "hot_score_time_utc": "2026-03-01 18:29:57 UTC"
   },
   "items": [
     {
-      "title_en": "I built a demo of what AI chat will look like when it's \"free\" and ad-supported",
-      "url": "https://99helpers.com/tools/ad-supported-chat",
-      "title_zh": "AI 聊天若免费且有广告的演示",
-      "created_display": "Created: Mar 01, 2026 / 03:49 PT",
-      "image_url": "https://99helpers.com/images/main.jpg",
-      "summary_en": "This demo imagines a free, ad supported AI chat and highlights how revenue models could shape latency, limits, and personalization. It flags the tension between free access and data-driven ads, with potential tradeoffs for privacy and user experience.",
-      "summary_zh": "这个演示设想了免费且由广告支持的 AI 聊天，揭示了收入模式如何影响响应时延、使用限制和个性化。强调免费获取与数据广告驱动的激励之间的矛盾，可能影响隐私与用户体验。",
+      "title_en": "AI Made Writing Code Easier. It Made Being an Engineer Harder",
+      "url": "https://www.ivanturkovic.com/2026/02/25/ai-made-writing-code-easier-engineering-harder/",
+      "title_zh": "AI 让写代码更容易，却让工程师更难",
+      "created_display": "Created: Mar 01, 2026 / 06:09 PT",
+      "image_url": null,
+      "summary_en": "AI can accelerate code generation and boilerplate, but it shifts the burden to engineers for design, vetting, and integration. The result is higher cognitive load and accountability as teams balance speed with reliability, security, and maintainability.",
+      "summary_zh": "AI 在生成代码和处理重复任务方面提升了效率，但也把设计、审核与整合的责任压在工程师身上。工作强度和对输出质量的要求提高，需要在速度、可靠性与安全性之间取得平衡。",
       "hn": {
-        "id": 47205890,
+        "id": 47206824,
         "type": "story",
-        "by": "nickk81",
-        "score": 161,
-        "descendants": 91,
-        "time": 1772365741,
-        "comments_url": "https://news.ycombinator.com/item?id=47205890"
+        "by": "saikatsg",
+        "score": 343,
+        "descendants": 242,
+        "time": 1772374164,
+        "comments_url": "https://news.ycombinator.com/item?id=47206824"
       },
-      "hot_score": 10.24,
       "tags": [
         "AI",
-        "Privacy",
-        "Business"
-      ]
+        "Programming",
+        "Security"
+      ],
+      "hot_score": 12.3
     },
     {
       "title_en": "Microgpt",
@@ -55,17 +55,107 @@
         "id": 47202708,
         "type": "story",
         "by": "tambourine_man",
-        "score": 1186,
-        "descendants": 209,
+        "score": 1395,
+        "descendants": 250,
         "time": 1772329166,
         "comments_url": "https://news.ycombinator.com/item?id=47202708"
       },
       "tags": [
         "AI",
-        "Programming",
         "Hardware"
       ],
-      "hot_score": 9.31
+      "hot_score": 7.06
+    },
+    {
+      "title_en": "Ghostty – Terminal Emulator",
+      "url": "https://ghostty.org/docs",
+      "title_zh": "Ghostty 终端模拟器",
+      "created_display": "Created: Mar 01, 2026 / 04:13 PT",
+      "image_url": "https://ghostty.org/social-share-card.jpg",
+      "summary_en": "Ghostty presents a lightweight terminal emulator focused on fast rendering and a modern UX. It showcases how a lean terminal app can balance UTF-8, color support, and cross-platform compatibility without feature bloat.",
+      "summary_zh": "Ghostty 是一个轻量级的终端模拟器，关注快速渲染和现代用户体验。它展示了一个简洁的终端应用在对 UTF-8、颜色显示以及跨平台兼容性之间的平衡，避免功能臃肿。",
+      "hn": {
+        "id": 47206009,
+        "type": "story",
+        "by": "oli5679",
+        "score": 297,
+        "descendants": 141,
+        "time": 1772367183,
+        "comments_url": "https://news.ycombinator.com/item?id=47206009"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 6.59
+    },
+    {
+      "title_en": "When does MCP make sense vs CLI?",
+      "url": "https://ejholmes.github.io/2026/02/28/mcp-is-dead-long-live-the-cli.html",
+      "title_zh": "MCP 何时有意义，CLI 何时更合适？",
+      "created_display": "Created: Mar 01, 2026 / 08:54 PT",
+      "image_url": null,
+      "summary_en": "The piece argues that MCP is largely obsolete, while the CLI remains the flexible and reliable tool for automation. It contrasts scenarios where a higher-level protocol might be tempting against the practicality and ecosystem support of the CLI. Takeaway: design tooling with a CLI-first mindset and reserve MCP for niche orchestration tasks.",
+      "summary_zh": "文章认为 MCP 基本过时，CLI 仍然是自动化的灵活且可信赖的工具。对比了在需要重复编排时 MCP 可能有用的情景与 CLI 的可用性和生态系统优势。核心观点是优先以 CLI 为中心设计工具，MCP 仅在少数专业编排任务中才有价值。",
+      "hn": {
+        "id": 47208398,
+        "type": "story",
+        "by": "ejholmes",
+        "score": 60,
+        "descendants": 47,
+        "time": 1772384089,
+        "comments_url": "https://news.ycombinator.com/item?id=47208398"
+      },
+      "hot_score": 5.92,
+      "tags": [
+        "Programming",
+        "DevOps"
+      ]
+    },
+    {
+      "title_en": "I built a demo of what AI chat will look like when it's \"free\" and ad-supported",
+      "url": "https://99helpers.com/tools/ad-supported-chat",
+      "title_zh": "AI 聊天若免费且有广告的演示",
+      "created_display": "Created: Mar 01, 2026 / 03:49 PT",
+      "image_url": "https://99helpers.com/images/main.jpg",
+      "summary_en": "This demo imagines a free, ad supported AI chat and highlights how revenue models could shape latency, limits, and personalization. It flags the tension between free access and data-driven ads, with potential tradeoffs for privacy and user experience.",
+      "summary_zh": "这个演示设想了免费且由广告支持的 AI 聊天，揭示了收入模式如何影响响应时延、使用限制和个性化。强调免费获取与数据广告驱动的激励之间的矛盾，可能影响隐私与用户体验。",
+      "hn": {
+        "id": 47205890,
+        "type": "story",
+        "by": "nickk81",
+        "score": 290,
+        "descendants": 189,
+        "time": 1772365741,
+        "comments_url": "https://news.ycombinator.com/item?id=47205890"
+      },
+      "tags": [
+        "AI",
+        "Privacy",
+        "Business"
+      ],
+      "hot_score": 5.91
+    },
+    {
+      "title_en": "Ape Coding",
+      "url": "https://rsaksida.com/blog/ape-coding/",
+      "title_zh": "Ape Coding",
+      "created_display": "Created: Mar 01, 2026 / 06:07 PT",
+      "image_url": "https://rsaksida.com/images/og-image.ff8cd797.jpg",
+      "summary_en": "Ape Coding explores a compact language design experiment, outlining its motivation, syntax, and example programs. It reflects on the trade-offs between readability, expressiveness, and learnability in crafting approachable new languages.",
+      "summary_zh": "Ape Coding 探讨了一种极简语言设计的实验，概述了设计动机、语法和示例程序。文章反思在打造易学、易读的新语言时，表达力与可读性之间的权衡。",
+      "hn": {
+        "id": 47206798,
+        "type": "story",
+        "by": "rmsaksida",
+        "score": 129,
+        "descendants": 64,
+        "time": 1772374025,
+        "comments_url": "https://news.ycombinator.com/item?id=47206798"
+      },
+      "hot_score": 4.55,
+      "tags": [
+        "Programming"
+      ]
     },
     {
       "title_en": "Switch to Claude without starting over",
@@ -79,15 +169,39 @@
         "id": 47204571,
         "type": "story",
         "by": "doener",
-        "score": 302,
-        "descendants": 155,
+        "score": 429,
+        "descendants": 213,
         "time": 1772350612,
         "comments_url": "https://news.ycombinator.com/item?id=47204571"
       },
       "tags": [
-        "AI"
+        "AI",
+        "Data"
       ],
-      "hot_score": 5.99
+      "hot_score": 4.3
+    },
+    {
+      "title_en": "New iron nanomaterial wipes out cancer cells without harming healthy tissue",
+      "url": "https://www.sciencedaily.com/releases/2026/02/260228093456.htm",
+      "title_zh": "新型铁基纳米材料可消灭癌细胞而不伤及健康组织",
+      "created_display": "Created: Mar 01, 2026 / 07:09 PT",
+      "image_url": "https://www.sciencedaily.com/images/1920/cancer-cell-self-destructing.webp",
+      "summary_en": "In early-stage studies, a new iron-based nanomaterial appears to selectively kill cancer cells while sparing healthy tissue. The material leverages targeted uptake and triggering mechanisms to minimize collateral damage, representing a potential path toward safer, targeted cancer therapies. If validated clinically, it could complement or replace more toxic treatments.",
+      "summary_zh": "在早期研究阶段，一种新型铁基纳米材料似乎能够选择性地杀死癌细胞，同时尽量保护健康组织。该材料通过定向摄取和触发机制来降低副作用，为更安全的靶向癌症治疗提供潜在途径。一旦临床验证，可能成为现有更毒治疗的有力补充或替代方案。",
+      "hn": {
+        "id": 47207404,
+        "type": "story",
+        "by": "gradus_ad",
+        "score": 88,
+        "descendants": 26,
+        "time": 1772377795,
+        "comments_url": "https://news.ycombinator.com/item?id=47207404"
+      },
+      "hot_score": 4.27,
+      "tags": [
+        "Science",
+        "Health"
+      ]
     },
     {
       "title_en": "Decision trees – the unreasonable power of nested decision rules",
@@ -101,38 +215,38 @@
         "id": 47204964,
         "type": "story",
         "by": "mschnell",
-        "score": 187,
-        "descendants": 26,
+        "score": 275,
+        "descendants": 49,
         "time": 1772355352,
         "comments_url": "https://news.ycombinator.com/item?id=47204964"
       },
-      "hot_score": 4.96,
       "tags": [
-        "Data"
-      ]
+        "Data",
+        "Science"
+      ],
+      "hot_score": 3.34
     },
     {
-      "title_en": "AI Made Writing Code Easier. It Made Being an Engineer Harder",
-      "url": "https://www.ivanturkovic.com/2026/02/25/ai-made-writing-code-easier-engineering-harder/",
-      "title_zh": "AI 让写代码更容易，却让工程师更难",
-      "created_display": "Created: Mar 01, 2026 / 06:09 PT",
+      "title_en": "Why XML Tags Are So Fundamental to Claude",
+      "url": "https://glthr.com/XML-fundamental-to-Claude",
+      "title_zh": "为什么 XML 标签对 Claude 至关重要",
+      "created_display": "Created: Mar 01, 2026 / 06:52 PT",
       "image_url": null,
-      "summary_en": "AI can accelerate code generation and boilerplate, but it shifts the burden to engineers for design, vetting, and integration. The result is higher cognitive load and accountability as teams balance speed with reliability, security, and maintainability.",
-      "summary_zh": "AI 在生成代码和处理重复任务方面提升了效率，但也把设计、审核与整合的责任压在工程师身上。工作强度和对输出质量的要求提高，需要在速度、可靠性与安全性之间取得平衡。",
+      "summary_en": "XML tags give Claude a structured language to mark roles, blocks, and data in prompts, helping the model disambiguate tasks and enforce output formats. The article argues these tags are foundational for reliable prompt engineering with Claude and similar assistants. Practical guidance for building AI-powered workflows centers on leveraging structured tagging to improve consistency and interoperability.",
+      "summary_zh": "XML 标签为 Claude 提供结构化的输入标记，以区分角色、区块与数据，从而帮助模型更好地理解任务并统一输出格式。文章认为这类标签是 Claude 等助手实现更可靠提示工程的基础，并给出在 AI 工作流中利用结构化标记提升一致性和互操作性的实践要点。",
       "hn": {
-        "id": 47206824,
+        "id": 47207236,
         "type": "story",
-        "by": "saikatsg",
-        "score": 17,
-        "descendants": 7,
-        "time": 1772374164,
-        "comments_url": "https://news.ycombinator.com/item?id=47206824"
+        "by": "glth",
+        "score": 64,
+        "descendants": 28,
+        "time": 1772376742,
+        "comments_url": "https://news.ycombinator.com/item?id=47207236"
       },
-      "hot_score": 3.67,
+      "hot_score": 2.81,
       "tags": [
         "AI",
-        "Programming",
-        "Security"
+        "Programming"
       ]
     },
     {
@@ -147,17 +261,18 @@
         "id": 47200420,
         "type": "story",
         "by": "golfer",
-        "score": 631,
-        "descendants": 339,
+        "score": 709,
+        "descendants": 383,
         "time": 1772313856,
         "comments_url": "https://news.ycombinator.com/item?id=47200420"
       },
       "tags": [
         "Security",
+        "Legal",
         "AI",
         "Politics"
       ],
-      "hot_score": 3.14
+      "hot_score": 2.49
     },
     {
       "title_en": "The whole thing was a scam",
@@ -171,105 +286,15 @@
         "id": 47197505,
         "type": "story",
         "by": "guilamu",
-        "score": 880,
-        "descendants": 273,
+        "score": 905,
+        "descendants": 288,
         "time": 1772297509,
         "comments_url": "https://news.ycombinator.com/item?id=47197505"
       },
       "tags": [
-        "Startups"
+        "Business"
       ],
-      "hot_score": 2.98
-    },
-    {
-      "title_en": "How the Federal Government Is Painting Immigrants as Criminals on Social Media",
-      "url": "https://www.npr.org/2026/02/27/nx-s1-5720167/trump-ice-immigration-social-media-deportation-dhs-immigrants-detained-disputes",
-      "title_zh": "联邦政府如何在社交媒体上将移民描绘成罪犯",
-      "created_display": "Created: Mar 01, 2026 / 05:35 PT",
-      "image_url": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4500x2531+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F56%2Fb0%2F461812d5434598da11ab25f1e624%2F2026-02-dhs-tweets-final.jpg",
-      "summary_en": "Investigations show government agencies using social media to portray immigrants as criminals, raising concerns about misinformation, civil rights, and political signaling. The coverage discusses impact on communities, enforcement practices, and trust in online discourse.",
-      "summary_zh": "调查显示政府机构在社交媒体上将移民描绘成罪犯，引发关于错误信息、公民权利与政治信号传递的担忧。报道分析对社区的影响、执法做法及公众信任的影响。",
-      "hn": {
-        "id": 47206573,
-        "type": "story",
-        "by": "TigerUniversity",
-        "score": 18,
-        "descendants": 2,
-        "time": 1772372105,
-        "comments_url": "https://news.ycombinator.com/item?id=47206573"
-      },
-      "hot_score": 2.6,
-      "tags": [
-        "Politics"
-      ]
-    },
-    {
-      "title_en": "Ghostty – Terminal Emulator",
-      "url": "https://ghostty.org/docs",
-      "title_zh": "Ghostty 终端模拟器",
-      "created_display": "Created: Mar 01, 2026 / 04:13 PT",
-      "image_url": "https://ghostty.org/social-share-card.jpg",
-      "summary_en": "Ghostty presents a lightweight terminal emulator focused on fast rendering and a modern UX. It showcases how a lean terminal app can balance UTF-8, color support, and cross-platform compatibility without feature bloat.",
-      "summary_zh": "Ghostty 是一个轻量级的终端模拟器，关注快速渲染和现代用户体验。它展示了一个简洁的终端应用在对 UTF-8、颜色显示以及跨平台兼容性之间的平衡，避免功能臃肿。",
-      "hn": {
-        "id": 47206009,
-        "type": "story",
-        "by": "oli5679",
-        "score": 35,
-        "descendants": 3,
-        "time": 1772367183,
-        "comments_url": "https://news.ycombinator.com/item?id=47206009"
-      },
-      "hot_score": 2.56,
-      "tags": [
-        "Programming"
-      ]
-    },
-    {
-      "title_en": "10-202: Introduction to Modern AI (CMU)",
-      "url": "https://modernaicourse.org",
-      "title_zh": "10-202 现代人工智能导论（CMU）",
-      "created_display": "Created: Feb 28, 2026 / 23:35 PT",
-      "image_url": null,
-      "summary_en": "This CMU course provides a survey of modern AI concepts, architectures, and applications, focusing on practical understanding and responsible deployment. It’s a solid resource for engineers to anchor model evaluation, risk awareness, and governance.",
-      "summary_zh": "这门来自 CMU 的课程概述现代 AI 的核心概念、架构与应用，强调实际理解与负责任的部署。对于工程师而言，它有助于建立模型评估、风险认知和治理的基础。",
-      "hn": {
-        "id": 47204559,
-        "type": "story",
-        "by": "vismit2000",
-        "score": 116,
-        "descendants": 27,
-        "time": 1772350503,
-        "comments_url": "https://news.ycombinator.com/item?id=47204559"
-      },
-      "hot_score": 2.28,
-      "tags": [
-        "AI",
-        "Education"
-      ]
-    },
-    {
-      "title_en": "Why is the first C++ (m)allocation always 72 KB?",
-      "url": "https://joelsiks.com/posts/cpp-emergency-pool-72kb-allocation/",
-      "title_zh": "为什么第一次的 C++ 内存分配总是 72 KB？",
-      "created_display": "Created: Mar 01, 2026 / 01:27 PT",
-      "image_url": null,
-      "summary_en": "Exploring the initial memory allocation in C++ reveals allocator design, page alignment, and arena behavior. The observation matters because the first allocation can influence startup latency and fragmentation, shaping optimization choices for allocators and data layout.",
-      "summary_zh": "探究 C++ 首次内存分配为何常见为 72 KB，揭示分配器设计、页面对齐与内存区的行为。此现象会影响启动延迟与碎片化，从而引导开发者在分配器与内存布局上的优化选择。",
-      "hn": {
-        "id": 47205129,
-        "type": "story",
-        "by": "joelsiks",
-        "score": 69,
-        "descendants": 7,
-        "time": 1772357254,
-        "comments_url": "https://news.ycombinator.com/item?id=47205129"
-      },
-      "hot_score": 2.07,
-      "tags": [
-        "Programming",
-        "Startups"
-      ]
+      "hot_score": 2.3
     },
     {
       "title_en": "OpenAI agrees with Dept. of War to deploy models in their classified network",
@@ -290,10 +315,10 @@
       },
       "tags": [
         "Security",
-        "AI",
-        "Politics"
+        "Politics",
+        "AI"
       ],
-      "hot_score": 2.02
+      "hot_score": 1.68
     },
     {
       "title_en": "The United States and Israel have launched a major attack on Iran",
@@ -316,7 +341,53 @@
         "Politics",
         "Energy"
       ],
-      "hot_score": 2.0
+      "hot_score": 1.63
+    },
+    {
+      "title_en": "10-202: Introduction to Modern AI (CMU)",
+      "url": "https://modernaicourse.org",
+      "title_zh": "10-202 现代人工智能导论（CMU）",
+      "created_display": "Created: Feb 28, 2026 / 23:35 PT",
+      "image_url": null,
+      "summary_en": "This CMU course provides a survey of modern AI concepts, architectures, and applications, focusing on practical understanding and responsible deployment. It’s a solid resource for engineers to anchor model evaluation, risk awareness, and governance.",
+      "summary_zh": "这门来自 CMU 的课程概述现代 AI 的核心概念、架构与应用，强调实际理解与负责任的部署。对于工程师而言，它有助于建立模型评估、风险认知和治理的基础。",
+      "hn": {
+        "id": 47204559,
+        "type": "story",
+        "by": "vismit2000",
+        "score": 159,
+        "descendants": 39,
+        "time": 1772350503,
+        "comments_url": "https://news.ycombinator.com/item?id=47204559"
+      },
+      "tags": [
+        "Education",
+        "AI"
+      ],
+      "hot_score": 1.58
+    },
+    {
+      "title_en": "Flightradar24 for Ships",
+      "url": "https://atlas.flexport.com/",
+      "title_zh": "船舶版 Flightradar24",
+      "created_display": "Created: Mar 01, 2026 / 03:01 PT",
+      "image_url": null,
+      "summary_en": "Adapting the flight-tracking concept to maritime vessels, this service enables real-time tracking of ships, routes, and statuses. It highlights how vessel telemetry and open data standards could streamline port logistics and global supply chains.",
+      "summary_zh": "将航班追踪概念移植到海运领域，支持对船舶、航线与状态的实时追踪。此类船舶遥测与开放标准的应用前景，可能提升港口物流与全球供应链的效率。",
+      "hn": {
+        "id": 47205637,
+        "type": "story",
+        "by": "chromy",
+        "score": 89,
+        "descendants": 25,
+        "time": 1772362877,
+        "comments_url": "https://news.ycombinator.com/item?id=47205637"
+      },
+      "tags": [
+        "Data",
+        "Privacy"
+      ],
+      "hot_score": 1.54
     },
     {
       "title_en": "Iran's Ayatollah Ali Khamenei is killed in Israeli strike, ending 36-year rule",
@@ -330,17 +401,40 @@
         "id": 47200879,
         "type": "story",
         "by": "andsoitis",
-        "score": 364,
-        "descendants": 607,
+        "score": 397,
+        "descendants": 747,
         "time": 1772316968,
         "comments_url": "https://news.ycombinator.com/item?id=47200879"
       },
       "tags": [
-        "Politics",
         "Security",
+        "Politics",
         "Energy"
       ],
-      "hot_score": 1.97
+      "hot_score": 1.49
+    },
+    {
+      "title_en": "I Built a Scheme Compiler with AI in 4 Days",
+      "url": "https://matthewphillips.info/programming/posts/i-built-a-scheme-compiler-with-ai/",
+      "title_zh": "4 天内用 AI 构建 Scheme 编译器",
+      "created_display": "Created: Mar 01, 2026 / 08:58 PT",
+      "image_url": null,
+      "summary_en": "The author chronicles building a Scheme compiler with AI assistance in four days, delivering a working prototype. The piece candidly discusses AI-generated code limitations, debugging experiences, and practical patterns for integrating AI into compiler projects.",
+      "summary_zh": "作者记录了在四天内借助 AI 构建 Scheme 编译器的过程，产出了一个可用的原型。文中坦诚了 AI 生成代码的局限性、调试过程和在编译器项目中与 AI 协作的实用模式。",
+      "hn": {
+        "id": 47208423,
+        "type": "story",
+        "by": "MatthewPhillips",
+        "score": 15,
+        "descendants": 8,
+        "time": 1772384283,
+        "comments_url": "https://news.ycombinator.com/item?id=47208423"
+      },
+      "hot_score": 1.44,
+      "tags": [
+        "AI",
+        "Programming"
+      ]
     },
     {
       "title_en": "Qwen3.5 122B and 35B models offer Sonnet 4.5 performance on local computers",
@@ -354,8 +448,8 @@
         "id": 47199781,
         "type": "story",
         "by": "lostmsu",
-        "score": 415,
-        "descendants": 229,
+        "score": 433,
+        "descendants": 249,
         "time": 1772310000,
         "comments_url": "https://news.ycombinator.com/item?id=47199781"
       },
@@ -364,7 +458,7 @@
         "Open Source",
         "Hardware"
       ],
-      "hot_score": 1.87
+      "hot_score": 1.4
     },
     {
       "title_en": "Obsidian Sync now has a headless client",
@@ -378,15 +472,16 @@
         "id": 47197267,
         "type": "story",
         "by": "adilmoujahid",
-        "score": 517,
-        "descendants": 173,
+        "score": 542,
+        "descendants": 180,
         "time": 1772296313,
         "comments_url": "https://news.ycombinator.com/item?id=47197267"
       },
       "tags": [
-        "Programming"
+        "Programming",
+        "DevOps"
       ],
-      "hot_score": 1.71
+      "hot_score": 1.35
     },
     {
       "title_en": "The Windows 95 user interface: A case study in usability engineering (1996)",
@@ -400,15 +495,38 @@
         "id": 47200904,
         "type": "story",
         "by": "ksec",
-        "score": 307,
-        "descendants": 217,
+        "score": 329,
+        "descendants": 244,
         "time": 1772317176,
         "comments_url": "https://news.ycombinator.com/item?id=47200904"
       },
       "tags": [
         "Design"
       ],
-      "hot_score": 1.67
+      "hot_score": 1.24
+    },
+    {
+      "title_en": "Why is the first C++ (m)allocation always 72 KB?",
+      "url": "https://joelsiks.com/posts/cpp-emergency-pool-72kb-allocation/",
+      "title_zh": "为什么第一次的 C++ 内存分配总是 72 KB？",
+      "created_display": "Created: Mar 01, 2026 / 01:27 PT",
+      "image_url": null,
+      "summary_en": "Exploring the initial memory allocation in C++ reveals allocator design, page alignment, and arena behavior. The observation matters because the first allocation can influence startup latency and fragmentation, shaping optimization choices for allocators and data layout.",
+      "summary_zh": "探究 C++ 首次内存分配为何常见为 72 KB，揭示分配器设计、页面对齐与内存区的行为。此现象会影响启动延迟与碎片化，从而引导开发者在分配器与内存布局上的优化选择。",
+      "hn": {
+        "id": 47205129,
+        "type": "story",
+        "by": "joelsiks",
+        "score": 94,
+        "descendants": 18,
+        "time": 1772357254,
+        "comments_url": "https://news.ycombinator.com/item?id=47205129"
+      },
+      "tags": [
+        "Programming",
+        "Startups"
+      ],
+      "hot_score": 1.23
     },
     {
       "title_en": "Our Agreement with the Department of War",
@@ -422,16 +540,63 @@
         "id": 47199948,
         "type": "story",
         "by": "surprisetalk",
-        "score": 335,
-        "descendants": 238,
+        "score": 349,
+        "descendants": 254,
         "time": 1772310929,
         "comments_url": "https://news.ycombinator.com/item?id=47199948"
       },
       "tags": [
         "Security",
+        "Legal",
         "AI"
       ],
-      "hot_score": 1.54
+      "hot_score": 1.15
+    },
+    {
+      "title_en": "MCP server that reduces Claude Code context consumption by 98%",
+      "url": "https://mksg.lu/blog/context-mode",
+      "title_zh": "MCP 服务器将 Claude Code 的上下文消耗降低 98%",
+      "created_display": "Created: Feb 28, 2026 / 02:01 PT",
+      "image_url": null,
+      "summary_en": "Describes a server-side MCP approach that slashes Claude Code's context window usage by 98%, enabling longer reasoning or lower hosting costs.",
+      "summary_zh": "介绍一种服务器端的 MCP 方案，将 Claude Code 的上下文消耗降低约 98%，从而支持更长的推理链路或降低部署成本。",
+      "hn": {
+        "id": 47193064,
+        "type": "story",
+        "by": "mksglu",
+        "score": 521,
+        "descendants": 96,
+        "time": 1772272880,
+        "comments_url": "https://news.ycombinator.com/item?id=47193064"
+      },
+      "tags": [
+        "Programming",
+        "DevOps",
+        "AI"
+      ],
+      "hot_score": 0.89
+    },
+    {
+      "title_en": "Block the “Upgrade to Tahoe” Alerts",
+      "url": "https://robservatory.com/block-the-upgrade-to-tahoe-alerts-and-system-settings-indicator/",
+      "title_zh": "屏蔽“升级到 Tahoe”提醒与系统设置指示",
+      "created_display": "Created: Feb 28, 2026 / 11:04 PT",
+      "image_url": null,
+      "summary_en": "Provides methods to suppress upgrade prompts and system setting indicators that push users toward updates, including policy tweaks and UI controls. Reducing these distractions can improve user focus and stability in complex workflows.",
+      "summary_zh": "提供抑制升级提示和系统设置指示的做法，包括策略调整和 UI 控制。减少这类干扰有助于在复杂工作流中提升用户专注度与系统稳定性。",
+      "hn": {
+        "id": 47198977,
+        "type": "story",
+        "by": "todsacerdoti",
+        "score": 293,
+        "descendants": 159,
+        "time": 1772305441,
+        "comments_url": "https://news.ycombinator.com/item?id=47198977"
+      },
+      "tags": [
+        "Design"
+      ],
+      "hot_score": 0.86
     },
     {
       "title_en": "Samsung Galaxy update removes Android recovery menu tools, including sideloading",
@@ -451,103 +616,9 @@
         "comments_url": "https://news.ycombinator.com/item?id=47202808"
       },
       "tags": [
-        "Hardware"
+        "Security"
       ],
-      "hot_score": 1.15
-    },
-    {
-      "title_en": "Block the “Upgrade to Tahoe” Alerts",
-      "url": "https://robservatory.com/block-the-upgrade-to-tahoe-alerts-and-system-settings-indicator/",
-      "title_zh": "屏蔽“升级到 Tahoe”提醒与系统设置指示",
-      "created_display": "Created: Feb 28, 2026 / 11:04 PT",
-      "image_url": null,
-      "summary_en": "Provides methods to suppress upgrade prompts and system setting indicators that push users toward updates, including policy tweaks and UI controls. Reducing these distractions can improve user focus and stability in complex workflows.",
-      "summary_zh": "提供抑制升级提示和系统设置指示的做法，包括策略调整和 UI 控制。减少这类干扰有助于在复杂工作流中提升用户专注度与系统稳定性。",
-      "hn": {
-        "id": 47198977,
-        "type": "story",
-        "by": "todsacerdoti",
-        "score": 271,
-        "descendants": 133,
-        "time": 1772305441,
-        "comments_url": "https://news.ycombinator.com/item?id=47198977"
-      },
-      "tags": [
-        "Design"
-      ],
-      "hot_score": 1.09
-    },
-    {
-      "title_en": "MCP server that reduces Claude Code context consumption by 98%",
-      "url": "https://mksg.lu/blog/context-mode",
-      "title_zh": "MCP 服务器将 Claude Code 的上下文消耗降低 98%",
-      "created_display": "Created: Feb 28, 2026 / 02:01 PT",
-      "image_url": null,
-      "summary_en": "Describes a server-side MCP approach that slashes Claude Code's context window usage by 98%, enabling longer reasoning or lower hosting costs.",
-      "summary_zh": "介绍一种服务器端的 MCP 方案，将 Claude Code 的上下文消耗降低约 98%，从而支持更长的推理链路或降低部署成本。",
-      "hn": {
-        "id": 47193064,
-        "type": "story",
-        "by": "mksglu",
-        "score": 459,
-        "descendants": 92,
-        "time": 1772272880,
-        "comments_url": "https://news.ycombinator.com/item?id=47193064"
-      },
-      "tags": [
-        "Programming",
-        "AI"
-      ],
-      "hot_score": 0.98
-    },
-    {
-      "title_en": "Dutch Tax Authority hands US software company control over VAT system",
-      "url": "https://www.techzine.eu/news/infrastructure/139152/dutch-tax-authority-hands-us-software-company-control-over-vat-system/",
-      "title_zh": "荷兰税务局将增值税系统交给美国软件公司",
-      "created_display": "Created: Mar 01, 2026 / 05:28 PT",
-      "image_url": "https://www.techzine.eu/wp-content/uploads/2026/02/shutterstock_2358497813.jpg",
-      "summary_en": "A US-based vendor now controls the Dutch VAT system, raising concerns about sovereignty, vendor lock-in, and data security. The decision highlights how digital tax infrastructure increasingly relies on external software providers with implications for privacy and resilience.",
-      "summary_zh": "一家美国软件公司现在掌控荷兰的增值税系统，引发关于主权、锁定与数据安全的担忧。此举凸显数字税务基础设施日益依赖外部厂商，对隐私与系统韧性带来影响。",
-      "hn": {
-        "id": 47206517,
-        "type": "story",
-        "by": "bramhaag",
-        "score": 7,
-        "descendants": 1,
-        "time": 1772371695,
-        "comments_url": "https://news.ycombinator.com/item?id=47206517"
-      },
-      "hot_score": 0.85,
-      "tags": [
-        "Business",
-        "Security",
-        "Privacy",
-        "DevOps"
-      ]
-    },
-    {
-      "title_en": "Flightradar24 for Ships",
-      "url": "https://atlas.flexport.com/",
-      "title_zh": "船舶版 Flightradar24",
-      "created_display": "Created: Mar 01, 2026 / 03:01 PT",
-      "image_url": null,
-      "summary_en": "Adapting the flight-tracking concept to maritime vessels, this service enables real-time tracking of ships, routes, and statuses. It highlights how vessel telemetry and open data standards could streamline port logistics and global supply chains.",
-      "summary_zh": "将航班追踪概念移植到海运领域，支持对船舶、航线与状态的实时追踪。此类船舶遥测与开放标准的应用前景，可能提升港口物流与全球供应链的效率。",
-      "hn": {
-        "id": 47205637,
-        "type": "story",
-        "by": "chromy",
-        "score": 18,
-        "descendants": 6,
-        "time": 1772362877,
-        "comments_url": "https://news.ycombinator.com/item?id=47205637"
-      },
-      "hot_score": 0.82,
-      "tags": [
-        "Data",
-        "Web",
-        "Privacy"
-      ]
+      "hot_score": 0.73
     },
     {
       "title_en": "Show HN: Now I Get It – Translate scientific papers into interactive webpages",
@@ -561,39 +632,61 @@
         "id": 47195123,
         "type": "story",
         "by": "jbdamask",
-        "score": 255,
-        "descendants": 119,
+        "score": 268,
+        "descendants": 123,
         "time": 1772285376,
         "comments_url": "https://news.ycombinator.com/item?id=47195123"
       },
       "tags": [
         "Show HN",
-        "Web",
-        "Science"
+        "Science",
+        "Web"
       ],
-      "hot_score": 0.68
+      "hot_score": 0.55
     },
     {
-      "title_en": "Verified Spec-Driven Development (VSDD)",
-      "url": "https://gist.github.com/dollspace-gay/d8d3bc3ecf4188df049d7a4726bb2a00",
-      "title_zh": "经验证的规范驱动开发（VSDD）",
-      "created_display": "Created: Feb 28, 2026 / 08:58 PT",
-      "image_url": "https://github.githubassets.com/assets/gist-og-image-54fd7dc0713e.png",
-      "summary_en": "Verified Spec-Driven Development advocates anchoring software work to verified specifications, then deriving tests and implementations from them. It emphasizes keeping specs honest, aligning teams, and reducing misinterpretation.",
-      "summary_zh": "经验证的规范驱动开发主张以经过验证的规范为基石，进而推导测试与实现，强调保持规范的准确性、促成团队对齐并降低误解风险。",
+      "title_en": "Foods destroying rainforests, in one simple chart",
+      "url": "https://www.vox.com/climate/480083/beef-agriculture-deforestation-amazon-rainforest",
+      "title_zh": "导致雨林破坏的食品，一张简单图表",
+      "created_display": "Created: Mar 01, 2026 / 07:28 PT",
+      "image_url": "https://platform.vox.com/wp-content/uploads/sites/2/2026/02/AP0909150104091.jpg?quality=90&strip=all&crop=0%2C7.7174197762823%2C100%2C84.565160447435&w=1200",
+      "summary_en": "A simple chart links a small set of foods—beef, soy, palm oil, and others—to rainforest deforestation, outlining the supply-chain drivers and environmental impact. The piece emphasizes how consumer choices and production systems drive ecological harm and calls for sustainable sourcing.",
+      "summary_zh": "一张简单图表将少数食品（如牛肉、大豆、棕榈油等）与雨林砍伐联系起来，梳理供给链驱动因素及环境影响。文章强调消费选择与生产体系对生态破坏的推动作用，并呼吁更可持续的采购。",
       "hn": {
-        "id": 47197595,
+        "id": 47207580,
         "type": "story",
-        "by": "todsacerdoti",
-        "score": 197,
-        "descendants": 106,
-        "time": 1772297934,
-        "comments_url": "https://news.ycombinator.com/item?id=47197595"
+        "by": "stared",
+        "score": 11,
+        "descendants": 15,
+        "time": 1772378933,
+        "comments_url": "https://news.ycombinator.com/item?id=47207580"
       },
+      "hot_score": 0.55,
+      "tags": [
+        "Science"
+      ]
+    },
+    {
+      "title_en": "Lil' Fun Langs' Guts",
+      "url": "https://taylor.town/scrapscript-001",
+      "title_zh": "Lil' Fun Langs 的内部实现",
+      "created_display": "Created: Mar 01, 2026 / 07:23 PT",
+      "image_url": "https://i.lede.me?title=Lil%27+Fun+Langs%27+Guts&lede=What%27s+inside+them%3F+Do+I+need+my+pancreas%3F&author=taylor.town&date=2026.03.01",
+      "summary_en": "Lil' Fun Langs dives into the guts of a tiny, playful language, detailing its parser, runtime, and design trade-offs. The piece draws practical lessons on how minimalism influences tooling, ergonomics, and the ease of experimentation when building approachable languages.",
+      "summary_zh": "Lil' Fun Langs 讲解了这门小巧、有趣的语言的内部实现，涵盖解析器、运行时以及设计取舍。文章从实作角度总结了极简设计对工具链、可用性和实验性的影响。",
+      "hn": {
+        "id": 47207531,
+        "type": "story",
+        "by": "surprisetalk",
+        "score": 11,
+        "descendants": 1,
+        "time": 1772378622,
+        "comments_url": "https://news.ycombinator.com/item?id=47207531"
+      },
+      "hot_score": 0.53,
       "tags": [
         "Programming"
-      ],
-      "hot_score": 0.67
+      ]
     },
     {
       "title_en": "Addressing Antigravity Bans and Reinstating Access",
@@ -607,39 +700,83 @@
         "id": 47195371,
         "type": "story",
         "by": "RyanShook",
-        "score": 244,
-        "descendants": 205,
+        "score": 249,
+        "descendants": 213,
         "time": 1772286613,
         "comments_url": "https://news.ycombinator.com/item?id=47195371"
       },
       "tags": [
-        "AI",
-        "Security"
+        "Politics",
+        "Security",
+        "AI"
       ],
-      "hot_score": 0.66
+      "hot_score": 0.52
     },
     {
-      "title_en": "Show HN: Terminal-Style Portfolio on the Internet",
-      "url": "https://kuber.studio/",
-      "title_zh": "Show HN：终端风格的个人作品集",
-      "created_display": "Created: Mar 01, 2026 / 01:26 PT",
-      "image_url": "https://kuber.studio/embed-image.png",
-      "summary_en": "Show HN features a portfolio built with a terminal-like UI, highlighting minimalism and keyboard-driven navigation. It demonstrates that a compact, design-forward approach can stand out in a crowded web portfolio space.",
-      "summary_zh": "Show HN 展示了一个以终端式 UI 构建的个人作品集，强调极简风格和键盘导航。它证明了在拥挤的网页作品集中，紧凑且有设计感的实现也能脱颖而出。",
+      "title_en": "Verified Spec-Driven Development (VSDD)",
+      "url": "https://gist.github.com/dollspace-gay/d8d3bc3ecf4188df049d7a4726bb2a00",
+      "title_zh": "经验证的规范驱动开发（VSDD）",
+      "created_display": "Created: Feb 28, 2026 / 08:58 PT",
+      "image_url": "https://github.githubassets.com/assets/gist-og-image-54fd7dc0713e.png",
+      "summary_en": "Verified Spec-Driven Development advocates anchoring software work to verified specifications, then deriving tests and implementations from them. It emphasizes keeping specs honest, aligning teams, and reducing misinterpretation.",
+      "summary_zh": "经验证的规范驱动开发主张以经过验证的规范为基石，进而推导测试与实现，强调保持规范的准确性、促成团队对齐并降低误解风险。",
       "hn": {
-        "id": 47205127,
+        "id": 47197595,
         "type": "story",
-        "by": "kuberwastaken",
-        "score": 20,
-        "descendants": 22,
-        "time": 1772357219,
-        "comments_url": "https://news.ycombinator.com/item?id=47205127"
+        "by": "todsacerdoti",
+        "score": 203,
+        "descendants": 108,
+        "time": 1772297934,
+        "comments_url": "https://news.ycombinator.com/item?id=47197595"
       },
-      "hot_score": 0.58,
       "tags": [
-        "Show HN",
-        "Web",
-        "Design"
+        "Programming"
+      ],
+      "hot_score": 0.52
+    },
+    {
+      "title_en": "How the Federal Government Is Painting Immigrants as Criminals on Social Media",
+      "url": "https://www.npr.org/2026/02/27/nx-s1-5720167/trump-ice-immigration-social-media-deportation-dhs-immigrants-detained-disputes",
+      "title_zh": "联邦政府如何在社交媒体上将移民描绘成罪犯",
+      "created_display": "Created: Mar 01, 2026 / 05:35 PT",
+      "image_url": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4500x2531+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F56%2Fb0%2F461812d5434598da11ab25f1e624%2F2026-02-dhs-tweets-final.jpg",
+      "summary_en": "Investigations show government agencies using social media to portray immigrants as criminals, raising concerns about misinformation, civil rights, and political signaling. The coverage discusses impact on communities, enforcement practices, and trust in online discourse.",
+      "summary_zh": "调查显示政府机构在社交媒体上将移民描绘成罪犯，引发关于错误信息、公民权利与政治信号传递的担忧。报道分析对社区的影响、执法做法及公众信任的影响。",
+      "hn": {
+        "id": 47206573,
+        "type": "story",
+        "by": "TigerUniversity",
+        "score": 18,
+        "descendants": 2,
+        "time": 1772372105,
+        "comments_url": "https://news.ycombinator.com/item?id=47206573"
+      },
+      "hot_score": 0.52,
+      "tags": [
+        "Politics",
+        "Culture"
+      ]
+    },
+    {
+      "title_en": "January in Servo: preloads, better forms, details styling, and more",
+      "url": "https://servo.org/blog/2026/02/28/january-in-servo/",
+      "title_zh": "Servo 一月更新：预加载、表单改进、细节样式等",
+      "created_display": "Created: Mar 01, 2026 / 09:31 PT",
+      "image_url": "https://servo.org/svg/servo-color-positive.svg",
+      "summary_en": "Servo’s January updates highlight performance and UX improvements, including preloads to speed up navigation, better forms, and refined styling details. The post illustrates how these changes impact web rendering performance and developer experience.",
+      "summary_zh": "Servo 的一月更新聚焦性能与用户体验的提升，包括预加载以加速导航、表单改进以及样式细节的优化。文章展示了这些改动对网页渲染性能和开发者体验的影响。",
+      "hn": {
+        "id": 47208744,
+        "type": "story",
+        "by": "birdculture",
+        "score": 4,
+        "descendants": 0,
+        "time": 1772386289,
+        "comments_url": "https://news.ycombinator.com/item?id=47208744"
+      },
+      "hot_score": 0.42,
+      "tags": [
+        "Web"
       ]
     },
     {
@@ -654,7 +791,7 @@
         "id": 47192505,
         "type": "story",
         "by": "tosh",
-        "score": 227,
+        "score": 228,
         "descendants": 63,
         "time": 1772268993,
         "comments_url": "https://news.ycombinator.com/item?id=47192505"
@@ -663,31 +800,7 @@
         "AI",
         "Hardware"
       ],
-      "hot_score": 0.45
-    },
-    {
-      "title_en": "Show HN: Vertex.js – A 1kloc SPA Framework",
-      "url": "https://lukeb42.github.io/vertex-manual.html",
-      "title_zh": "Show HN：Vertex.js 一个 1k 行的单页应用框架",
-      "created_display": "Created: Mar 01, 2026 / 03:05 PT",
-      "image_url": null,
-      "summary_en": "A tiny SPA framework clocking in at about 1,000 lines of code, focusing on minimalism and performance. It demonstrates how much functionality can fit into a compact framework and serves as a teaching example for lean frontend design.",
-      "summary_zh": "一个约 1000 行代码的极简单页应用框架，强调性能与简洁。它展示了在极小规模内也能实现的核心前端能力，并可作为学习与教学的范例。",
-      "hn": {
-        "id": 47205659,
-        "type": "story",
-        "by": "LukeB42",
-        "score": 10,
-        "descendants": 3,
-        "time": 1772363128,
-        "comments_url": "https://news.ycombinator.com/item?id=47205659"
-      },
-      "hot_score": 0.44,
-      "tags": [
-        "Show HN",
-        "Programming",
-        "Web"
-      ]
+      "hot_score": 0.37
     },
     {
       "title_en": "Don't use passkeys for encrypting user data",
@@ -709,7 +822,79 @@
       "tags": [
         "Security"
       ],
-      "hot_score": 0.38
+      "hot_score": 0.32
+    },
+    {
+      "title_en": "Show HN: Vertex.js – A 1kloc SPA Framework",
+      "url": "https://lukeb42.github.io/vertex-manual.html",
+      "title_zh": "Show HN：Vertex.js 一个 1k 行的单页应用框架",
+      "created_display": "Created: Mar 01, 2026 / 03:05 PT",
+      "image_url": null,
+      "summary_en": "A tiny SPA framework clocking in at about 1,000 lines of code, focusing on minimalism and performance. It demonstrates how much functionality can fit into a compact framework and serves as a teaching example for lean frontend design.",
+      "summary_zh": "一个约 1000 行代码的极简单页应用框架，强调性能与简洁。它展示了在极小规模内也能实现的核心前端能力，并可作为学习与教学的范例。",
+      "hn": {
+        "id": 47205659,
+        "type": "story",
+        "by": "LukeB42",
+        "score": 19,
+        "descendants": 14,
+        "time": 1772363128,
+        "comments_url": "https://news.ycombinator.com/item?id=47205659"
+      },
+      "tags": [
+        "Show HN",
+        "Programming",
+        "Web"
+      ],
+      "hot_score": 0.32
+    },
+    {
+      "title_en": "Show HN: Audio Toolkit for Agents",
+      "url": "https://github.com/shiehn/sas-audio-processor",
+      "title_zh": "Show HN：面向代理的音频工具包",
+      "created_display": "Created: Mar 01, 2026 / 07:52 PT",
+      "image_url": "https://opengraph.githubassets.com/608576d716177820337d46f0f8904feeadfbc3fd77788c5c3f0b7eb15a464bee/shiehn/sas-audio-processor",
+      "summary_en": "Show HN presents an audio toolkit for agents—modular components for audio input/output, speech processing, and streaming pipelines. It demonstrates how agents can reason over real-time audio data and integrate with external services to enhance interactive workflows.",
+      "summary_zh": "Show HN 展示了一个面向代理的音频工具包，提供音频输入/输出、语音处理和流式处理等模块化组件。展示了代理如何基于实时音频数据进行推理并接入外部服务，提升交互工作流的能力。",
+      "hn": {
+        "id": 47207806,
+        "type": "story",
+        "by": "stevehiehn",
+        "score": 6,
+        "descendants": 1,
+        "time": 1772380322,
+        "comments_url": "https://news.ycombinator.com/item?id=47207806"
+      },
+      "hot_score": 0.32,
+      "tags": [
+        "Show HN",
+        "Programming",
+        "Open Source"
+      ]
+    },
+    {
+      "title_en": "Show HN: Terminal-Style Portfolio on the Internet",
+      "url": "https://kuber.studio/",
+      "title_zh": "Show HN：终端风格的个人作品集",
+      "created_display": "Created: Mar 01, 2026 / 01:26 PT",
+      "image_url": "https://kuber.studio/embed-image.png",
+      "summary_en": "Show HN features a portfolio built with a terminal-like UI, highlighting minimalism and keyboard-driven navigation. It demonstrates that a compact, design-forward approach can stand out in a crowded web portfolio space.",
+      "summary_zh": "Show HN 展示了一个以终端式 UI 构建的个人作品集，强调极简风格和键盘导航。它证明了在拥挤的网页作品集中，紧凑且有设计感的实现也能脱颖而出。",
+      "hn": {
+        "id": 47205127,
+        "type": "story",
+        "by": "kuberwastaken",
+        "score": 20,
+        "descendants": 22,
+        "time": 1772357219,
+        "comments_url": "https://news.ycombinator.com/item?id=47205127"
+      },
+      "hot_score": 0.25,
+      "tags": [
+        "Show HN",
+        "Web",
+        "Design"
+      ]
     },
     {
       "title_en": "Building a Minimal Transformer for 10-digit Addition",
@@ -732,7 +917,7 @@
         "AI",
         "Programming"
       ],
-      "hot_score": 0.34
+      "hot_score": 0.24
     },
     {
       "title_en": "The Science of Detecting LLM-Generated Text (2024)",
@@ -755,7 +940,7 @@
         "AI",
         "Science"
       ],
-      "hot_score": 0.33
+      "hot_score": 0.21
     },
     {
       "title_en": "The happiest I've ever been",
@@ -769,8 +954,8 @@
         "id": 47161759,
         "type": "story",
         "by": "bewal416",
-        "score": 552,
-        "descendants": 297,
+        "score": 591,
+        "descendants": 322,
         "time": 1772079227,
         "comments_url": "https://news.ycombinator.com/item?id=47161759"
       },
@@ -778,6 +963,32 @@
         "Health"
       ],
       "hot_score": 0.19
+    },
+    {
+      "title_en": "Dutch Tax Authority hands US software company control over VAT system",
+      "url": "https://www.techzine.eu/news/infrastructure/139152/dutch-tax-authority-hands-us-software-company-control-over-vat-system/",
+      "title_zh": "荷兰税务局将增值税系统交给美国软件公司",
+      "created_display": "Created: Mar 01, 2026 / 05:28 PT",
+      "image_url": "https://www.techzine.eu/wp-content/uploads/2026/02/shutterstock_2358497813.jpg",
+      "summary_en": "A US-based vendor now controls the Dutch VAT system, raising concerns about sovereignty, vendor lock-in, and data security. The decision highlights how digital tax infrastructure increasingly relies on external software providers with implications for privacy and resilience.",
+      "summary_zh": "一家美国软件公司现在掌控荷兰的增值税系统，引发关于主权、锁定与数据安全的担忧。此举凸显数字税务基础设施日益依赖外部厂商，对隐私与系统韧性带来影响。",
+      "hn": {
+        "id": 47206517,
+        "type": "story",
+        "by": "bramhaag",
+        "score": 7,
+        "descendants": 1,
+        "time": 1772371695,
+        "comments_url": "https://news.ycombinator.com/item?id=47206517"
+      },
+      "hot_score": 0.18,
+      "tags": [
+        "Politics",
+        "Business",
+        "Security",
+        "Privacy",
+        "DevOps"
+      ]
     },
     {
       "title_en": "747s and coding agents",
@@ -791,8 +1002,8 @@
         "id": 47182986,
         "type": "story",
         "by": "cckolon",
-        "score": 159,
-        "descendants": 82,
+        "score": 162,
+        "descendants": 85,
         "time": 1772212920,
         "comments_url": "https://news.ycombinator.com/item?id=47182986"
       },
@@ -800,7 +1011,7 @@
         "Programming",
         "AI"
       ],
-      "hot_score": 0.15
+      "hot_score": 0.14
     },
     {
       "title_en": "Woxi: Wolfram Mathematica Reimplementation in Rust",
@@ -814,8 +1025,8 @@
         "id": 47155526,
         "type": "story",
         "by": "adamnemecek",
-        "score": 306,
-        "descendants": 124,
+        "score": 316,
+        "descendants": 126,
         "time": 1772043886,
         "comments_url": "https://news.ycombinator.com/item?id=47155526"
       },
@@ -823,7 +1034,7 @@
         "Programming",
         "Open Source"
       ],
-      "hot_score": 0.09
+      "hot_score": 0.08
     },
     {
       "title_en": "An ode to houseplant programming (2025)",
@@ -837,16 +1048,16 @@
         "id": 47181542,
         "type": "story",
         "by": "evakhoury",
-        "score": 77,
-        "descendants": 13,
+        "score": 100,
+        "descendants": 18,
         "time": 1772205550,
         "comments_url": "https://news.ycombinator.com/item?id=47181542"
       },
-      "hot_score": 0.07,
       "tags": [
         "Science",
         "Hardware"
-      ]
+      ],
+      "hot_score": 0.08
     },
     {
       "title_en": "The Eternal Promise: A History of Attempts to Eliminate Programmers",
@@ -860,14 +1071,37 @@
         "id": 47147597,
         "type": "story",
         "by": "dinvlad",
-        "score": 293,
-        "descendants": 202,
+        "score": 308,
+        "descendants": 211,
         "time": 1771996449,
         "comments_url": "https://news.ycombinator.com/item?id=47147597"
       },
       "tags": [
-        "AI",
-        "Career"
+        "Programming",
+        "AI"
+      ],
+      "hot_score": 0.06
+    },
+    {
+      "title_en": "Robust and efficient quantum-safe HTTPS",
+      "url": "https://security.googleblog.com/2026/02/cultivating-robust-and-efficient.html",
+      "title_zh": "稳健高效的量子安全 HTTPS",
+      "created_display": "Created: Feb 27, 2026 / 09:58 PT",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYIUyQJtaAY06QUHFJwNJq_G2-GyovxH4kqwBEFS_WweUghi5Qkid_Mrt9Qa65XBQ254P_EMWHpRQWIV17U_oQgEyStBSHWel9v8hHlWeP4ncr9BBtfD6QUhjhPlcISln2jWWNWgf2Ol-P/s1600/googlelogo_color_200x200.png",
+      "summary_en": "Efforts to deploy quantum-resistant cryptography in TLS aim to future-proof web traffic without sacrificing performance. The discussion covers practical strategies, standards progress, and deployment considerations for quantum-safe HTTPS.",
+      "summary_zh": "在 TLS 中引入对量子攻击的抵御能力，力求在不牺牲性能的前提下实现量子抗性。讨论涵盖实际策略、标准进展以及量子安全 HTTPS 的部署要点。",
+      "hn": {
+        "id": 47183396,
+        "type": "story",
+        "by": "tptacek",
+        "score": 76,
+        "descendants": 13,
+        "time": 1772215128,
+        "comments_url": "https://news.ycombinator.com/item?id=47183396"
+      },
+      "tags": [
+        "Security",
+        "Science"
       ],
       "hot_score": 0.06
     },
@@ -892,53 +1126,30 @@
         "Culture",
         "Entertainment"
       ],
-      "hot_score": 0.06
+      "hot_score": 0.05
     },
     {
-      "title_en": "Robust and efficient quantum-safe HTTPS",
-      "url": "https://security.googleblog.com/2026/02/cultivating-robust-and-efficient.html",
-      "title_zh": "稳健高效的量子安全 HTTPS",
-      "created_display": "Created: Feb 27, 2026 / 09:58 PT",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYIUyQJtaAY06QUHFJwNJq_G2-GyovxH4kqwBEFS_WweUghi5Qkid_Mrt9Qa65XBQ254P_EMWHpRQWIV17U_oQgEyStBSHWel9v8hHlWeP4ncr9BBtfD6QUhjhPlcISln2jWWNWgf2Ol-P/s1600/googlelogo_color_200x200.png",
-      "summary_en": "Efforts to deploy quantum-resistant cryptography in TLS aim to future-proof web traffic without sacrificing performance. The discussion covers practical strategies, standards progress, and deployment considerations for quantum-safe HTTPS.",
-      "summary_zh": "在 TLS 中引入对量子攻击的抵御能力，力求在不牺牲性能的前提下实现量子抗性。讨论涵盖实际策略、标准进展以及量子安全 HTTPS 的部署要点。",
+      "title_en": "Rydberg atoms detect clear signals from a handheld radio",
+      "url": "https://phys.org/news/2026-02-rydberg-atoms-handheld-radio.html",
+      "title_zh": "Rydberg 原子从手持无线电中探测到清晰信号",
+      "created_display": "Created: Feb 27, 2026 / 09:07 PT",
+      "image_url": "https://scx2.b-cdn.net/gfx/news/hires/2026/rydberg-atoms-detect-c.jpg",
+      "summary_en": "Researchers show Rydberg atoms can detect clear signals from a handheld radio, enabling compact, sensitive radio sensing. This opens possibilities for lightweight receivers and new quantum-enabled sensing applications.",
+      "summary_zh": "研究人员证明 Rydberg 原子能够从手持无线电中检测到清晰信号，带来紧凑高灵敏的射频传感能力。此技术有望推动轻量接收设备与量子感测应用的发展。",
       "hn": {
-        "id": 47183396,
+        "id": 47182907,
         "type": "story",
-        "by": "tptacek",
-        "score": 52,
-        "descendants": 4,
-        "time": 1772215128,
-        "comments_url": "https://news.ycombinator.com/item?id=47183396"
-      },
-      "hot_score": 0.05,
-      "tags": [
-        "Security",
-        "Web",
-        "Science"
-      ]
-    },
-    {
-      "title_en": "New evidence that Cantor plagiarized Dedekind?",
-      "url": "https://www.quantamagazine.org/the-man-who-stole-infinity-20260225/",
-      "title_zh": "新证据指向康托尔抄袭了德德金？",
-      "created_display": "Created: Feb 25, 2026 / 09:28 PT",
-      "image_url": "https://www.quantamagazine.org/wp-content/uploads/2026/02/CantorThePlagiarist-crKristinaArmitage-Social-1.jpg",
-      "summary_en": "New evidence suggests Cantor may have drawn on Dedekind’s work, reigniting debate over priority in the foundations of set theory. The discussion reframes historical claims about originality and the evolution of infinity concepts.",
-      "summary_zh": "新证据指向康托尔可能借鉴了德德金的工作，再度点燃关于集合论基础中的优先权之辩。讨论重新构建了关于原创性与无穷概念演进的历史主张。",
-      "hn": {
-        "id": 47154637,
-        "type": "story",
-        "by": "rbanffy",
-        "score": 134,
-        "descendants": 77,
-        "time": 1772040513,
-        "comments_url": "https://news.ycombinator.com/item?id=47154637"
+        "by": "Brajeshwar",
+        "score": 60,
+        "descendants": 20,
+        "time": 1772212062,
+        "comments_url": "https://news.ycombinator.com/item?id=47182907"
       },
       "tags": [
-        "Science"
+        "Science",
+        "Hardware"
       ],
-      "hot_score": 0.04
+      "hot_score": 0.05
     },
     {
       "title_en": "H-Bomb: A Frank Lloyd Wright typographic mystery",
@@ -952,15 +1163,105 @@
         "id": 47163779,
         "type": "story",
         "by": "mrngm",
-        "score": 107,
-        "descendants": 30,
+        "score": 125,
+        "descendants": 35,
         "time": 1772097537,
         "comments_url": "https://news.ycombinator.com/item?id=47163779"
       },
       "tags": [
-        "Design"
+        "Design",
+        "Culture"
       ],
       "hot_score": 0.04
+    },
+    {
+      "title_en": "New evidence that Cantor plagiarized Dedekind?",
+      "url": "https://www.quantamagazine.org/the-man-who-stole-infinity-20260225/",
+      "title_zh": "新证据指向康托尔抄袭了德德金？",
+      "created_display": "Created: Feb 25, 2026 / 09:28 PT",
+      "image_url": "https://www.quantamagazine.org/wp-content/uploads/2026/02/CantorThePlagiarist-crKristinaArmitage-Social-1.jpg",
+      "summary_en": "New evidence suggests Cantor may have drawn on Dedekind’s work, reigniting debate over priority in the foundations of set theory. The discussion reframes historical claims about originality and the evolution of infinity concepts.",
+      "summary_zh": "新证据指向康托尔可能借鉴了德德金的工作，再度点燃关于集合论基础中的优先权之辩。讨论重新构建了关于原创性与无穷概念演进的历史主张。",
+      "hn": {
+        "id": 47154637,
+        "type": "story",
+        "by": "rbanffy",
+        "score": 137,
+        "descendants": 79,
+        "time": 1772040513,
+        "comments_url": "https://news.ycombinator.com/item?id=47154637"
+      },
+      "tags": [
+        "Science"
+      ],
+      "hot_score": 0.03
+    },
+    {
+      "title_en": "Hardwood: A New Parser for Apache Parquet",
+      "url": "https://www.morling.dev/blog/hardwood-new-parser-for-apache-parquet/",
+      "title_zh": "Hardwood：Apache Parquet 的全新解析器",
+      "created_display": "Created: Feb 26, 2026 / 07:31 PT",
+      "image_url": "https://www.morling.dev/images/gunnar_morling.jpg",
+      "summary_en": "Hardwood introduces a new parser for Apache Parquet designed to improve parsing speed and resilience relative to existing implementations. It focuses on robust handling of the Parquet metadata and nested schemas, with potential for streaming reads and better ergonomics for developers integrating Parquet data into pipelines. This could influence data tooling performance in analytics stacks that rely on Parquet.",
+      "summary_zh": "Hardwood 为 Apache Parquet 提供了一种全新的解析器，目标是提升解析速度与容错能力。它强调对 Parquet 元数据和嵌套模式的稳健处理，并可能支持流式读取，方便将 Parquet 数据接入数据管线。此举可能提升分析栈中 Parquet 相关工具的性能与可用性。",
+      "hn": {
+        "id": 47167432,
+        "type": "story",
+        "by": "rmoff",
+        "score": 87,
+        "descendants": 9,
+        "time": 1772119899,
+        "comments_url": "https://news.ycombinator.com/item?id=47167432"
+      },
+      "tags": [
+        "Programming",
+        "Data"
+      ],
+      "hot_score": 0.03
+    },
+    {
+      "title_en": "Interview with Øyvind Kolås, GIMP developer (2017)",
+      "url": "https://www.gimp.org/news/2026/02/22/%C3%B8yvind-kol%C3%A5s-interview-ww2017/",
+      "title_zh": "GIMP 开发者 Øyvind Kolås 专访",
+      "created_display": "Created: Feb 26, 2026 / 08:39 PT",
+      "image_url": "https://www.gimp.org/news/2026/02/22/øyvind-kolås-interview-ww2017//Øyvind_Kolås.jpg",
+      "summary_en": "Øyvind Kolås shares his views on GIMP, its design philosophy, and the project’s evolving feature set. The interview sheds light on open source graphics tooling, community governance, and sustaining long-running projects in a dynamic ecosystem.",
+      "summary_zh": "Øyvind Kolås 分享了对 GIMP 的看法、设计理念以及日益发展的功能集。访谈揭示了开源图形工具、社区治理，以及在快速变化的生态中维持长期项目的挑战与策略。",
+      "hn": {
+        "id": 47168405,
+        "type": "story",
+        "by": "ibobev",
+        "score": 71,
+        "descendants": 27,
+        "time": 1772123947,
+        "comments_url": "https://news.ycombinator.com/item?id=47168405"
+      },
+      "tags": [
+        "Open Source"
+      ],
+      "hot_score": 0.03
+    },
+    {
+      "title_en": "Aromatic 5-silicon rings synthesized at last",
+      "url": "https://cen.acs.org/materials/inorganic-chemistry/Aromatic-5-silicon-rings-synthesized/104/web/2026/02",
+      "title_zh": "芳香性五元硅环终于被合成",
+      "created_display": "Created: Feb 27, 2026 / 02:10 PT",
+      "image_url": "https://cen.acs.org/content/dam/cen/104/02/09/WEB/News---Aromatic-rings-made-from-silicon---342044.jpg",
+      "summary_en": "The article reports the successful synthesis of an aromatic five-membered silicon ring, a milestone in inorganic chemistry. Such structures challenge conventional silicon chemistry, opening doors to novel materials and bonding concepts with potential implications for electronics and catalysis.",
+      "summary_zh": "报道了芳香性五元硅环的成功合成，这是无机化学领域的里程碑之作。这些结构挑战了传统的硅化学，可能为新材料、电子学和催化等领域带来新的结合与应用前景。",
+      "hn": {
+        "id": 47178758,
+        "type": "story",
+        "by": "keepamovin",
+        "score": 50,
+        "descendants": 23,
+        "time": 1772187022,
+        "comments_url": "https://news.ycombinator.com/item?id=47178758"
+      },
+      "hot_score": 0.03,
+      "tags": [
+        "Science"
+      ]
     },
     {
       "title_en": "Sub-second volumetric 3D printing by synthesis of holographic light fields",
@@ -974,8 +1275,8 @@
         "id": 47152448,
         "type": "story",
         "by": "zdw",
-        "score": 78,
-        "descendants": 13,
+        "score": 89,
+        "descendants": 14,
         "time": 1772031680,
         "comments_url": "https://news.ycombinator.com/item?id=47152448"
       },
@@ -1004,7 +1305,29 @@
       },
       "tags": [
         "Data",
-        "Science",
+        "Hardware"
+      ],
+      "hot_score": 0.02
+    },
+    {
+      "title_en": "The real cost of random I/O",
+      "url": "https://vondra.me/posts/the-real-cost-of-random-io/",
+      "title_zh": "随机 I/O 的真实成本",
+      "created_display": "Created: Feb 26, 2026 / 04:38 PT",
+      "image_url": "https://vondra.me/avatar.png",
+      "summary_en": "Random I/O incurs far higher latency than sequential access due to seeks and cache behavior. The analysis shows how random patterns translate into higher CPU and I/O costs, influencing database design and storage expectations.",
+      "summary_zh": "随机 I/O 相比顺序访问带来更高的延迟，原因在于寻道和缓存行为。分析显示随机模式如何转化为更高的 CPU 与 I/O 成本，影响数据库设计与存储预期。",
+      "hn": {
+        "id": 47165230,
+        "type": "story",
+        "by": "jpineman",
+        "score": 63,
+        "descendants": 6,
+        "time": 1772109528,
+        "comments_url": "https://news.ycombinator.com/item?id=47165230"
+      },
+      "tags": [
+        "Data",
         "Hardware"
       ],
       "hot_score": 0.02
@@ -1033,50 +1356,26 @@
       "hot_score": 0.02
     },
     {
-      "title_en": "Hardwood: A New Parser for Apache Parquet",
-      "url": "https://www.morling.dev/blog/hardwood-new-parser-for-apache-parquet/",
-      "title_zh": "Hardwood：Apache Parquet 的全新解析器",
-      "created_display": "Created: Feb 26, 2026 / 07:31 PT",
-      "image_url": "https://www.morling.dev/images/gunnar_morling.jpg",
-      "summary_en": "Hardwood introduces a new parser for Apache Parquet designed to improve parsing speed and resilience relative to existing implementations. It focuses on robust handling of the Parquet metadata and nested schemas, with potential for streaming reads and better ergonomics for developers integrating Parquet data into pipelines. This could influence data tooling performance in analytics stacks that rely on Parquet.",
-      "summary_zh": "Hardwood 为 Apache Parquet 提供了一种全新的解析器，目标是提升解析速度与容错能力。它强调对 Parquet 元数据和嵌套模式的稳健处理，并可能支持流式读取，方便将 Parquet 数据接入数据管线。此举可能提升分析栈中 Parquet 相关工具的性能与可用性。",
+      "title_en": "Long Range E-Bike",
+      "url": "https://jacquesmattheij.com/long-range-ebike/",
+      "title_zh": "长续航电动自行车",
+      "created_display": "Created: Feb 26, 2026 / 05:41 PT",
+      "image_url": "https://jacquesmattheij.com/ebike_1.jpg",
+      "summary_en": "The long-range e-bike article discusses a build focused on maximizing distance through larger batteries, efficient drivetrains, and weight management. It weighs the trade-offs between speed, weight, and ride comfort, offering practical guidance for real-world range gains.",
+      "summary_zh": "这篇关于长续航电动自行车的文章聚焦通过增大电池、高效传动与重量控制来提升续航。它权衡了速度、重量与骑行舒适度，并给出实现实际续航提升的实用建议。",
       "hn": {
-        "id": 47167432,
+        "id": 47165965,
         "type": "story",
-        "by": "rmoff",
-        "score": 57,
-        "descendants": 8,
-        "time": 1772119899,
-        "comments_url": "https://news.ycombinator.com/item?id=47167432"
-      },
-      "tags": [
-        "Programming",
-        "Data",
-        "Open Source"
-      ],
-      "hot_score": 0.02
-    },
-    {
-      "title_en": "Rydberg atoms detect clear signals from a handheld radio",
-      "url": "https://phys.org/news/2026-02-rydberg-atoms-handheld-radio.html",
-      "title_zh": "Rydberg 原子从手持无线电中探测到清晰信号",
-      "created_display": "Created: Feb 27, 2026 / 09:07 PT",
-      "image_url": "https://scx2.b-cdn.net/gfx/news/hires/2026/rydberg-atoms-detect-c.jpg",
-      "summary_en": "Researchers show Rydberg atoms can detect clear signals from a handheld radio, enabling compact, sensitive radio sensing. This opens possibilities for lightweight receivers and new quantum-enabled sensing applications.",
-      "summary_zh": "研究人员证明 Rydberg 原子能够从手持无线电中检测到清晰信号，带来紧凑高灵敏的射频传感能力。此技术有望推动轻量接收设备与量子感测应用的发展。",
-      "hn": {
-        "id": 47182907,
-        "type": "story",
-        "by": "Brajeshwar",
-        "score": 25,
-        "descendants": 11,
-        "time": 1772212062,
-        "comments_url": "https://news.ycombinator.com/item?id=47182907"
+        "by": "birdculture",
+        "score": 46,
+        "descendants": 52,
+        "time": 1772113292,
+        "comments_url": "https://news.ycombinator.com/item?id=47165965"
       },
       "hot_score": 0.02,
       "tags": [
-        "Science",
-        "Hardware"
+        "Hardware",
+        "Energy"
       ]
     },
     {
@@ -1091,62 +1390,16 @@
         "id": 47157265,
         "type": "story",
         "by": "ryker2000",
-        "score": 37,
-        "descendants": 13,
+        "score": 39,
+        "descendants": 16,
         "time": 1772050821,
         "comments_url": "https://news.ycombinator.com/item?id=47157265"
       },
       "tags": [
         "Web",
-        "Open Source"
+        "Programming"
       ],
       "hot_score": 0.01
-    },
-    {
-      "title_en": "The real cost of random I/O",
-      "url": "https://vondra.me/posts/the-real-cost-of-random-io/",
-      "title_zh": "随机 I/O 的真实成本",
-      "created_display": "Created: Feb 26, 2026 / 04:38 PT",
-      "image_url": "https://vondra.me/avatar.png",
-      "summary_en": "Random I/O incurs far higher latency than sequential access due to seeks and cache behavior. The analysis shows how random patterns translate into higher CPU and I/O costs, influencing database design and storage expectations.",
-      "summary_zh": "随机 I/O 相比顺序访问带来更高的延迟，原因在于寻道和缓存行为。分析显示随机模式如何转化为更高的 CPU 与 I/O 成本，影响数据库设计与存储预期。",
-      "hn": {
-        "id": 47165230,
-        "type": "story",
-        "by": "jpineman",
-        "score": 33,
-        "descendants": 1,
-        "time": 1772109528,
-        "comments_url": "https://news.ycombinator.com/item?id=47165230"
-      },
-      "hot_score": 0.01,
-      "tags": [
-        "Data",
-        "Hardware"
-      ]
-    },
-    {
-      "title_en": "Interview with Øyvind Kolås, GIMP developer",
-      "url": "https://www.gimp.org/news/2026/02/22/%C3%B8yvind-kol%C3%A5s-interview-ww2017/",
-      "title_zh": "GIMP 开发者 Øyvind Kolås 专访",
-      "created_display": "Created: Feb 26, 2026 / 08:39 PT",
-      "image_url": "https://www.gimp.org/news/2026/02/22/øyvind-kolås-interview-ww2017//Øyvind_Kolås.jpg",
-      "summary_en": "Øyvind Kolås shares his views on GIMP, its design philosophy, and the project’s evolving feature set. The interview sheds light on open source graphics tooling, community governance, and sustaining long-running projects in a dynamic ecosystem.",
-      "summary_zh": "Øyvind Kolås 分享了对 GIMP 的看法、设计理念以及日益发展的功能集。访谈揭示了开源图形工具、社区治理，以及在快速变化的生态中维持长期项目的挑战与策略。",
-      "hn": {
-        "id": 47168405,
-        "type": "story",
-        "by": "ibobev",
-        "score": 27,
-        "descendants": 3,
-        "time": 1772123947,
-        "comments_url": "https://news.ycombinator.com/item?id=47168405"
-      },
-      "hot_score": 0.01,
-      "tags": [
-        "Open Source",
-        "Design"
-      ]
     },
     {
       "title_en": "Pigeons and Planes Has a Website Again",
@@ -1160,15 +1413,37 @@
         "id": 47164336,
         "type": "story",
         "by": "herbertl",
-        "score": 16,
-        "descendants": 1,
+        "score": 37,
+        "descendants": 3,
         "time": 1772103089,
         "comments_url": "https://news.ycombinator.com/item?id=47164336"
       },
-      "hot_score": 0.01,
       "tags": [
-        "Web",
-        "Culture"
+        "Design",
+        "Business"
+      ],
+      "hot_score": 0.01
+    },
+    {
+      "title_en": "Python Type Checker Comparison: Empty Container Inference",
+      "url": "https://pyrefly.org/blog/container-inference-comparison/",
+      "title_zh": "Python 类型检查器对空容器推断的对比",
+      "created_display": "Created: Feb 25, 2026 / 05:45 PT",
+      "image_url": "https://pyrefly.org/assets/images/empty-container-blog-cef98862cb6b53726eb97df7ee6f2d14.png",
+      "summary_en": "Different Python type checkers vary in how they infer types for empty containers like [] and {}, affecting type-safety and potential false positives. The comparison highlights trade-offs between inference precision and annotation burden, offering practical guidance on choosing a checker and annotating code to improve results.",
+      "summary_zh": "不同的 Python 类型检查器在对空容器（如 []、{}）的类型推断上差异明显，可能影响类型安全并带来误报。对比揭示了推断精度与标注成本之间的权衡，并就选择检查器与编写提示给出实用建议。",
+      "hn": {
+        "id": 47151367,
+        "type": "story",
+        "by": "ocamoss",
+        "score": 8,
+        "descendants": 0,
+        "time": 1772027102,
+        "comments_url": "https://news.ycombinator.com/item?id=47151367"
+      },
+      "hot_score": 0.0,
+      "tags": [
+        "Programming"
       ]
     }
   ]
