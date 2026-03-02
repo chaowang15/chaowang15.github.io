@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>14</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>1815</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>14</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>12</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-03-01</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>15</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>1865</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>14</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>13</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-03-02</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,118 +20,118 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='162' data-hn-time='1772424360'>
+<div class='hn-top-story-item' data-hn-score='1120' data-hn-time='1772434087'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/01/top_stories_03012026#story-47213764'>Everett shuts down Flock camera network after judge rules footage public record</a>
- <a class='hn-top-story-link' href='https://www.wltx.com/article/news/nation-world/281-53d8693e-77a4-42ad-86e4-3426a30d25ae' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/02/top_stories_03022026#story-47214645'>Motorola announces a partnership with GrapheneOS Foundation</a>
+ <a class='hn-top-story-link' href='https://motorolanews.com/motorola-three-new-b2b-solutions-at-mwc-2026/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Everett 在法官裁定录像公开后关闭 Flock 摄像头网络</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.8</span> <span class='hn-top-story-score'>&#9650; 162</span> <span class='hn-top-story-comments'>&#128172; 28</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>DevOps</span></div>
+<div class='hn-top-story-zh'>摩托罗拉宣布与 GrapheneOS 基金会达成合作</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 18</span> <span class='hn-top-story-score'>&#9650; 1120</span> <span class='hn-top-story-comments'>&#128172; 390</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='63' data-hn-time='1772425433'>
+<div class='hn-top-story-item' data-hn-score='406' data-hn-time='1772446986'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/01/top_stories_03012026#story-47213866'>Computer-generated dream world: Virtual reality for a 286 processor</a>
- <a class='hn-top-story-link' href='https://deadlime.hu/en/2026/02/22/computer-generated-dream-world/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/02/top_stories_03022026#story-47216047'>Microsoft bans the word "Microslop" on its Discord, then locks the server</a>
+ <a class='hn-top-story-link' href='https://www.windowslatest.com/2026/03/02/microsoft-gets-tired-of-microslop-bans-the-word-on-its-discord-then-locks-the-server-after-backlash/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>286 处理器上的计算机生成梦境世界：虚拟现实</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.8</span> <span class='hn-top-story-score'>&#9650; 63</span> <span class='hn-top-story-comments'>&#128172; 4</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>微软在 Discord 禁用 Microslop 一词后封锁服务器</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 15</span> <span class='hn-top-story-score'>&#9650; 406</span> <span class='hn-top-story-comments'>&#128172; 151</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='1787' data-hn-time='1772329166'>
+<div class='hn-top-story-item' data-hn-score='375' data-hn-time='1772442584'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/01/top_stories_03012026#story-47202708'>Microgpt</a>
- <a class='hn-top-story-link' href='http://karpathy.github.io/2026/02/12/microgpt/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/02/top_stories_03022026#story-47215489'>/e/OS is a complete "deGoogled", mobile ecosystem</a>
+ <a class='hn-top-story-link' href='https://e.foundation/e-os/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>MicroGPT：轻量级 GPT 的新思路</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 1787</span> <span class='hn-top-story-comments'>&#128172; 301</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>/e OS：一个完整的去谷歌化移动生态系统</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.8</span> <span class='hn-top-story-score'>&#9650; 375</span> <span class='hn-top-story-comments'>&#128172; 215</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='254' data-hn-time='1772403238'>
+<div class='hn-top-story-item' data-hn-score='264' data-hn-time='1772446884'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/01/top_stories_03012026#story-47211249'>WebMCP is available for early preview</a>
- <a class='hn-top-story-link' href='https://developer.chrome.com/blog/webmcp-epp' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/02/top_stories_03022026#story-47216037'>Jolla phone – a full-stack European alternative</a>
+ <a class='hn-top-story-link' href='https://commerce.jolla.com/products/jolla-phone-sept-26' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>WebMCP 已进入早期预览</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 254</span> <span class='hn-top-story-comments'>&#128172; 137</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Web</span></div>
+<div class='hn-top-story-zh'>Jolla 手机——全栈式欧洲替代方案</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.4</span> <span class='hn-top-story-score'>&#9650; 264</span> <span class='hn-top-story-comments'>&#128172; 101</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='155' data-hn-time='1772411272'>
+<div class='hn-top-story-item' data-hn-score='200' data-hn-time='1772443206'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/01/top_stories_03012026#story-47212355'>If AI writes code, should the session be part of the commit?</a>
- <a class='hn-top-story-link' href='https://github.com/mandel-macaque/memento' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/02/top_stories_03022026#story-47215565'>U.S. science agency moves to restrict foreign scientists from its labs</a>
+ <a class='hn-top-story-link' href='https://www.science.org/content/article/nist-moves-restrict-foreign-scientists-its-labs' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>如果 AI 写代码，会话应该成为提交的一部分吗？</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 155</span> <span class='hn-top-story-comments'>&#128172; 170</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>美国科学机构拟限制外国科学家进入其实验室</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.4</span> <span class='hn-top-story-score'>&#9650; 200</span> <span class='hn-top-story-comments'>&#128172; 135</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='694' data-hn-time='1772367183'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='237' data-hn-time='1772436612'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/01/top_stories_03012026#story-47206009'>Ghostty – Terminal Emulator</a>
- <a class='hn-top-story-link' href='https://ghostty.org/docs' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/02/top_stories_03022026#story-47214864'>How to talk to anyone and why you should</a>
+ <a class='hn-top-story-link' href='https://www.theguardian.com/lifeandstyle/2026/feb/24/stranger-secret-how-to-talk-to-anyone-why-you-should' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Ghostty 终端模拟器</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 694</span> <span class='hn-top-story-comments'>&#128172; 303</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>如何和任何人交谈以及为何要这样做</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.3</span> <span class='hn-top-story-score'>&#9650; 237</span> <span class='hn-top-story-comments'>&#128172; 371</span> <span class='hn-top-story-tag'>Education</span> <span class='hn-top-story-tag'>Culture</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='356' data-hn-time='1772384089'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='348' data-hn-time='1772424360'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/01/top_stories_03012026#story-47208398'>When does MCP make sense vs CLI?</a>
- <a class='hn-top-story-link' href='https://ejholmes.github.io/2026/02/28/mcp-is-dead-long-live-the-cli.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/02/top_stories_03022026#story-47213764'>Everett shuts down Flock camera network after judge rules footage public record</a>
+ <a class='hn-top-story-link' href='https://www.wltx.com/article/news/nation-world/281-53d8693e-77a4-42ad-86e4-3426a30d25ae' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>MCP 何时有意义，CLI 何时更合适？</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 356</span> <span class='hn-top-story-comments'>&#128172; 225</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>Everett 在法官裁定录像公开后关闭 Flock 摄像头网络</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 348</span> <span class='hn-top-story-comments'>&#128172; 104</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>DevOps</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='104' data-hn-time='1772413060'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1847' data-hn-time='1772329166'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/01/top_stories_03012026#story-47212576'>Show HN: Timber – Ollama for classical ML models, 336x faster than Python</a>
- <a class='hn-top-story-link' href='https://github.com/kossisoroyce/timber' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/02/top_stories_03022026#story-47202708'>Microgpt</a>
+ <a class='hn-top-story-link' href='http://karpathy.github.io/2026/02/12/microgpt/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Show HN：Timber——用 Ollama 运行经典 ML 模型，速度比 Python 快 336 倍</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.3</span> <span class='hn-top-story-score'>&#9650; 104</span> <span class='hn-top-story-comments'>&#128172; 11</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>MicroGPT：轻量级 GPT 的新思路</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 1847</span> <span class='hn-top-story-comments'>&#128172; 309</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='532' data-hn-time='1772365741'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='28' data-hn-time='1772456206'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/01/top_stories_03012026#story-47205890'>I built a demo of what AI chat will look like when it's “free” and ad-supported</a>
- <a class='hn-top-story-link' href='https://99helpers.com/tools/ad-supported-chat' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/02/top_stories_03022026#story-47217402'>AMD Am386 released March 2, 1991</a>
+ <a class='hn-top-story-link' href='https://dfarq.homeip.net/amd-am386-released-march-2-1991/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>AI 聊天若免费且有广告的演示</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.1</span> <span class='hn-top-story-score'>&#9650; 532</span> <span class='hn-top-story-comments'>&#128172; 284</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>AMD Am386 于1991年3月2日发布</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 28</span> <span class='hn-top-story-comments'>&#128172; 3</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='343' data-hn-time='1772374164'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='357' data-hn-time='1772411272'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/01/top_stories_03012026#story-47206824'>AI Made Writing Code Easier. It Made Being an Engineer Harder</a>
- <a class='hn-top-story-link' href='https://www.ivanturkovic.com/2026/02/25/ai-made-writing-code-easier-engineering-harder/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/02/top_stories_03022026#story-47212355'>If AI writes code, should the session be part of the commit?</a>
+ <a class='hn-top-story-link' href='https://github.com/mandel-macaque/memento' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>AI 让写代码更容易，却让工程师更难</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.7</span> <span class='hn-top-story-score'>&#9650; 343</span> <span class='hn-top-story-comments'>&#128172; 242</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Career</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>如果 AI 写代码，会话应该成为提交的一部分吗？</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 357</span> <span class='hn-top-story-comments'>&#128172; 314</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
-<a class='hn-top-stories-more' href='/hackernews/2026/03/01/top_stories_03012026'>View all trending stories &rarr;</a>
+<a class='hn-top-stories-more' href='/hackernews/2026/03/02/top_stories_03022026'>View all trending stories &rarr;</a>
 </div>
 </div>
 <div class='hn-index-section hn-weekly-section'>
@@ -150,6 +150,15 @@ Sort:
 <div class='hn-index-section hn-daily-section'>
 <h3 class='hn-section-title'>Daily News <span class='hn-section-zh'>每日新闻</span></h3>
 <div class='hn-grid'>
+<div class='hn-day-row'>
+<div class='hn-day-date'>2026-03-02 <span class='hn-day-weekday'>Mon</span></div>
+<div class='hn-day-stories'>
+<a class='hn-story-link' href='/hackernews/2026/03/02/top_stories_03022026'>
+<span class='hn-row-type hn-type-top'>Trending</span>
+<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> Programming <b>16</b> <span class="hn-row-sep">·</span> AI <b>12</b></span>
+</a>
+</div>
+</div>
 <div class='hn-day-row'>
 <div class='hn-day-date'>2026-03-01 <span class='hn-day-weekday'>Sun</span></div>
 <div class='hn-day-stories'>
