@@ -74,3 +74,4 @@ Each row records one `run_scrape()` invocation.
 | 10:31:13 | schedule | top | 124s | 62 | 12 | 38 | 0 | 26,028 | $0.0078 |  |
 | 14:18:50 | schedule | top | 286s | 80 | 19 | 31 | 0 | 37,225 | $0.0113 |  |
 | 20:10:29 | schedule | top | 137s | 97 | 17 | 33 | 0 | 36,160 | $0.0105 |  |
+| 23:10:26 | schedule | top | 166s | 100 | 13 | 37 | 0 | 35,061 | $0.0100 |  |
