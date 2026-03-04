@@ -4,23 +4,23 @@
     "source": "https://news.ycombinator.com/",
     "api": "https://github.com/HackerNews/API",
     "count_requested": 50,
-    "count_written": 49,
-    "reused_same_day": 0,
-    "reused_cross_day": 24,
-    "new_llm_enriched": 24,
-    "scrape_time_display": "06:38, March 04, 2026 (PST)",
+    "count_written": 72,
+    "reused_same_day": 26,
+    "reused_cross_day": 0,
+    "new_llm_enriched": 23,
+    "scrape_time_display": "10:43, March 04, 2026 (PST)",
     "timezone": "America/Los_Angeles",
     "date_dir": "2026/03/04",
     "content_date": "2026-03-04",
-    "run_time_local": "06:38, March 04, 2026 (PST)",
-    "run_time_utc": "2026-03-04 14:38:04 UTC",
+    "run_time_local": "10:43, March 04, 2026 (PST)",
+    "run_time_utc": "2026-03-04 18:43:18 UTC",
     "incremental": true,
     "stories_max": 100,
-    "hot_score_time_utc": "2026-03-04 14:39:30 UTC"
+    "hot_score_time_utc": "2026-03-04 18:44:48 UTC"
   },
   "items": [
     {
-      "title_en": "Apple Introduces MacBook Neo",
+      "title_en": "MacBook Neo",
       "url": "https://www.apple.com/newsroom/2026/03/say-hello-to-macbook-neo/",
       "title_zh": "苹果推出 MacBook Neo",
       "created_display": "Created: Mar 04, 2026 / 06:16 PT",
@@ -31,37 +31,38 @@
         "id": 47247645,
         "type": "story",
         "by": "dm",
-        "score": 109,
-        "descendants": 78,
+        "score": 873,
+        "descendants": 1179,
         "time": 1772633801,
         "comments_url": "https://news.ycombinator.com/item?id=47247645"
       },
-      "hot_score": 22.67,
       "tags": [
         "Hardware",
         "Energy"
-      ]
+      ],
+      "hot_score": 30.27
     },
     {
-      "title_en": "MacBook Neo",
-      "url": "https://www.apple.com/macbook-neo/",
-      "title_zh": "MacBook Neo",
-      "created_display": "Created: Mar 04, 2026 / 06:16 PT",
-      "image_url": "https://www.apple.com/v/macbook-neo/a/images/meta/macbook_neo__f2p1f7yafjyy_og.png?202603031702",
-      "summary_en": "Rumors point to a new MacBook Neo offering lighter weight and modern spec, signaling Apple's ongoing refresh of the entry-level lineup. If true, expect better efficiency and price-to-performance balance that could pressure rivals in the thin-and-light segment.",
-      "summary_zh": "传闻中的 MacBook Neo 将带来更轻薄的机身和更新的硬件，反映苹果对入门级产品线的持续更新。如果属实，可能带来更高的能效比和更具竞争力的性价比，或对同类轻薄笔记本形成压力。",
+      "title_en": "Something is afoot in the land of Qwen",
+      "url": "https://simonwillison.net/2026/Mar/4/qwen/",
+      "title_zh": "Qwen 领域出现新动向",
+      "created_display": "Created: Mar 04, 2026 / 07:55 PT",
+      "image_url": null,
+      "summary_en": "Qwen domain shows signs of acceleration with model updates and ecosystem progress, signaling stronger competition to established LLMs. The discussion aggregates signals that developers and researchers are watching for open models, tooling, and licensing shifts.",
+      "summary_zh": "Qwen 领域正在加速，出现模型更新和生态系统进展，显示出对现有大模型的更强竞争。讨论聚焦开发者和研究者关注的开源模型、工具链与许可变化等信号。",
       "hn": {
-        "id": 47247649,
+        "id": 47249343,
         "type": "story",
-        "by": "meetpateltech",
-        "score": 69,
-        "descendants": 43,
-        "time": 1772633816,
-        "comments_url": "https://news.ycombinator.com/item?id=47247649"
+        "by": "simonw",
+        "score": 234,
+        "descendants": 95,
+        "time": 1772639734,
+        "comments_url": "https://news.ycombinator.com/item?id=47249343"
       },
-      "hot_score": 14.32,
+      "hot_score": 13.73,
       "tags": [
-        "Hardware"
+        "AI",
+        "Open Source"
       ]
     },
     {
@@ -76,14 +77,85 @@
         "id": 47246110,
         "type": "story",
         "by": "aamederen",
-        "score": 210,
-        "descendants": 109,
+        "score": 609,
+        "descendants": 364,
         "time": 1772624612,
         "comments_url": "https://news.ycombinator.com/item?id=47246110"
       },
-      "hot_score": 11.82,
       "tags": [
         "Programming"
+      ],
+      "hot_score": 11.6
+    },
+    {
+      "title_en": "Government grant-funded research should not be published in for-profit journals",
+      "url": "https://www.experimental-history.com/p/the-one-science-reform-we-can-all",
+      "title_zh": "政府资助的研究不应发表在商业化期刊上",
+      "created_display": "Created: Mar 04, 2026 / 06:53 PT",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!OkWt!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F01ba4c49-a417-4d02-8502-aef829fd1e42_1765x1167.jpeg",
+      "summary_en": "The piece argues that government-funded research should be published in open or non-profit venues rather than paywalled journals, citing public-interest and reproducibility. It frames reform as a lever to improve science accessibility and trust.",
+      "summary_zh": "文章主张政府资助的研究应在开放获取或非营利刊物上发表，而非付费墙期刊，强调公共利益和可重复性。将改革视为提升科学可及性和信任度的关键手段。",
+      "hn": {
+        "id": 47248341,
+        "type": "story",
+        "by": "sito42",
+        "score": 229,
+        "descendants": 115,
+        "time": 1772636028,
+        "comments_url": "https://news.ycombinator.com/item?id=47248341"
+      },
+      "hot_score": 9.48,
+      "tags": [
+        "Science",
+        "Education",
+        "Politics",
+        "Business"
+      ]
+    },
+    {
+      "title_en": "“It turns out” (2010)",
+      "url": "https://jsomers.net/blog/it-turns-out",
+      "title_zh": "原来如此（2010）",
+      "created_display": "Created: Mar 04, 2026 / 06:52 PT",
+      "image_url": "https://secure.gravatar.com/avatar/1e1cc33eaad3642245f078c5300c1f2b5a4a6d3448353a042ac45cff278d7ec3?s=48&d=mm&r=g",
+      "summary_en": "A retrospective look at a notable moment from 2010 and its lessons for today’s software and data practices.",
+      "summary_zh": "回顾 2010 年的一个知名时刻及其对当今软件与数据实践的启示。",
+      "hn": {
+        "id": 47248319,
+        "type": "story",
+        "by": "Munksgaard",
+        "score": 158,
+        "descendants": 61,
+        "time": 1772635966,
+        "comments_url": "https://news.ycombinator.com/item?id=47248319"
+      },
+      "hot_score": 6.5,
+      "tags": [
+        "Programming",
+        "Data"
+      ]
+    },
+    {
+      "title_en": "Making Firefox's right-click not suck with about:config",
+      "url": "https://joshua.hu/firefox-making-right-click-not-suck",
+      "title_zh": "让 Firefox 右键菜单更顺畅：通过 about:config 调整",
+      "created_display": "Created: Mar 04, 2026 / 10:12 PT",
+      "image_url": "https://joshua.hu/web-app-manifest-192x192.png",
+      "summary_en": "The piece shows practical tweaks to Firefox's context menu via about:config to improve usability, such as removing, reordering, or enabling hidden options. It highlights how advanced browser customization can significantly alter user experience for power users.",
+      "summary_zh": "这篇文章展示了通过 about:config 调整 Firefox 右键菜单以提升可用性的具体做法，可能涉及删减、重新排序或开启隐藏选项。强调了浏览器高级自定义能力对用户体验的显著影响。",
+      "hn": {
+        "id": 47251480,
+        "type": "story",
+        "by": "mmsc",
+        "score": 35,
+        "descendants": 12,
+        "time": 1772647959,
+        "comments_url": "https://news.ycombinator.com/item?id=47251480"
+      },
+      "hot_score": 6.37,
+      "tags": [
+        "Programming",
+        "Web"
       ]
     },
     {
@@ -98,16 +170,40 @@
         "id": 47241551,
         "type": "story",
         "by": "pabs3",
-        "score": 962,
-        "descendants": 374,
+        "score": 1135,
+        "descendants": 455,
         "time": 1772585911,
         "comments_url": "https://news.ycombinator.com/item?id=47241551"
       },
       "tags": [
         "Security",
+        "Hardware",
         "Privacy"
       ],
-      "hot_score": 6.78
+      "hot_score": 5.27
+    },
+    {
+      "title_en": "Medical journal says the case reports it has published for 25 years are fiction",
+      "url": "https://retractionwatch.com/2026/03/03/canadian-pediatric-society-journal-correction-case-reports-fictional-paediatrics-child-health/",
+      "title_zh": "医学期刊称其过去25年的病例报道为虚构",
+      "created_display": "Created: Mar 04, 2026 / 07:02 PT",
+      "image_url": "https://retractionwatch.com/wp-content/uploads/2026/03/paediatrics-child-health-corrections.png",
+      "summary_en": "A medical journal reveals that decades of published case reports are fictional, shaking trust in a long-running publication and raising questions about peer review and data provenance. The episode spotlights ongoing needs for verifiable data and rigorous editorial practices.",
+      "summary_zh": "一家医学期刊宣布其长期刊载的病例报道其实为虚构，这动摇了长期刊物的公信力，并引发对同行评审与数据可追溯性的质疑。事件凸显对可验证数据与严格编辑实践的持续需求。",
+      "hn": {
+        "id": 47248511,
+        "type": "story",
+        "by": "Tomte",
+        "score": 111,
+        "descendants": 44,
+        "time": 1772636556,
+        "comments_url": "https://news.ycombinator.com/item?id=47248511"
+      },
+      "hot_score": 4.79,
+      "tags": [
+        "Health",
+        "Science"
+      ]
     },
     {
       "title_en": "Glaze by Raycast",
@@ -121,14 +217,128 @@
         "id": 47247033,
         "type": "story",
         "by": "romac",
-        "score": 57,
-        "descendants": 36,
+        "score": 139,
+        "descendants": 79,
         "time": 1772630491,
         "comments_url": "https://news.ycombinator.com/item?id=47247033"
       },
-      "hot_score": 6.53,
       "tags": [
         "Programming"
+      ],
+      "hot_score": 3.77
+    },
+    {
+      "title_en": "Sea level much higher than assumed in most coastal hazard assessments",
+      "url": "https://www.nature.com/articles/s41586-026-10196-1",
+      "title_zh": "沿海风险评估中的海平面远高于普遍假设",
+      "created_display": "Created: Mar 04, 2026 / 08:24 PT",
+      "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41586-026-10196-1/MediaObjects/41586_2026_10196_Fig1_HTML.png",
+      "summary_en": "New findings push sea level rise higher than many coastal risk assessments assumed, implying greater flood risk, faster shoreline erosion, and tougher adaptation planning for cities and infrastructure. The result argues for updated models and resilient design standards.",
+      "summary_zh": "新研究显示海平面上升高于多数沿海风险评估的假设，意味着更大的洪水风险、海岸侵蚀加速以及更严格的适应规划。结果呼吁更新模型并提升设计韧性。",
+      "hn": {
+        "id": 47249809,
+        "type": "story",
+        "by": "jacquesm",
+        "score": 49,
+        "descendants": 20,
+        "time": 1772641458,
+        "comments_url": "https://news.ycombinator.com/item?id=47249809"
+      },
+      "hot_score": 3.42,
+      "tags": [
+        "Science",
+        "DevOps"
+      ]
+    },
+    {
+      "title_en": "Qwen3.5 Fine-Tuning Guide – Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/models/qwen3.5/fine-tune",
+      "title_zh": "Qwen3.5 微调指南 - Unsloth 文档",
+      "created_display": "Created: Mar 04, 2026 / 04:04 PT",
+      "image_url": "https://unsloth.ai/docs/~gitbook/image?url=https%3A%2F%2F2815821428-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Forganizations%252FHpyELzcNe0topgVLGCZY%252Fsites%252Fsite_mXXTe%252Fsocialpreview%252FOeFDVbzp4cgwaId7PbvL%252Funsloth%2520docs%2520pic.png%3Falt%3Dmedia%26token%3Df34a6bcc-db15-449a-bc2d-e0e8f52fe953&width=1200&height=630&sign=b1ca68fa&sv=2",
+      "summary_en": "Unsloth's guide walks through practical fine-tuning of Qwen 3.5, including data selection, training steps, and safety considerations. The document helps practitioners push model behavior in controlled directions while managing budget and risk.",
+      "summary_zh": "Unsloth 的指南讲解如何对 Qwen 3.5 进行实际微调，包括数据选择、训练步骤与安全性考量，帮助从业者在受控条件下引导模型行为，同时兼顾预算与风险管理。",
+      "hn": {
+        "id": 47246296,
+        "type": "story",
+        "by": "bilsbie",
+        "score": 149,
+        "descendants": 42,
+        "time": 1772625871,
+        "comments_url": "https://news.ycombinator.com/item?id=47246296"
+      },
+      "tags": [
+        "AI"
+      ],
+      "hot_score": 3.03
+    },
+    {
+      "title_en": "Agentic Engineering Patterns",
+      "url": "https://simonwillison.net/guides/agentic-engineering-patterns/",
+      "title_zh": "代理式工程模式",
+      "created_display": "Created: Mar 03, 2026 / 21:00 PT",
+      "image_url": null,
+      "summary_en": "A primer on building AI-assisted systems using agentic patterns—designs that orchestrate agents, prompts, and tools to perform complex tasks. The piece outlines practical patterns to balance autonomy, reliability, and controllability as AI agents collaborate with software.",
+      "summary_zh": "介绍用代理式模式构建 AI 辅助系统的方法，强调通过代理、提示与工具的协同来完成复杂任务。提出在自主性、可靠性与可控性之间取得平衡的实用设计模式。",
+      "hn": {
+        "id": 47243272,
+        "type": "story",
+        "by": "r4um",
+        "score": 396,
+        "descendants": 220,
+        "time": 1772600437,
+        "comments_url": "https://news.ycombinator.com/item?id=47243272"
+      },
+      "tags": [
+        "AI"
+      ],
+      "hot_score": 2.77
+    },
+    {
+      "title_en": "Did Alibaba just kneecap its powerful Qwen AI team?",
+      "url": "https://venturebeat.com/technology/did-alibaba-just-kneecap-its-powerful-qwen-ai-team-key-figures-depart-in",
+      "title_zh": "阿里巴巴是否在削弱其强大的 Qwen AI 团队？",
+      "created_display": "Created: Mar 04, 2026 / 04:54 PT",
+      "image_url": null,
+      "summary_en": "VentureBeat reports leadership changes and key departures at Alibaba's Qwen AI team, risking momentum on a high-profile Chinese AI effort. The moves illustrate how internal politics and funding shifts can impact AI product roadmaps.",
+      "summary_zh": "VentureBeat 报道称阿里巴巴 Qwen AI 团队发生高层调整与关键成员离职，可能影响这项重要的 AI 项目的推进。此举反映出内部政治和资金分配变化对 AI 路线图的潜在冲击。",
+      "hn": {
+        "id": 47246746,
+        "type": "story",
+        "by": "GTP",
+        "score": 114,
+        "descendants": 33,
+        "time": 1772628844,
+        "comments_url": "https://news.ycombinator.com/item?id=47246746"
+      },
+      "tags": [
+        "AI",
+        "Business",
+        "Politics"
+      ],
+      "hot_score": 2.77
+    },
+    {
+      "title_en": "1.5 Million Users Leave ChatGPT",
+      "url": "https://www.forbes.com/sites/barrycollins/2026/03/02/leaving-chatgpt-make-sure-to-do-this-before-you-cancel/",
+      "title_zh": "150万用户离开 ChatGPT",
+      "created_display": "Created: Mar 04, 2026 / 08:02 PT",
+      "image_url": null,
+      "summary_en": "Mass user churn around ChatGPT signals shifting user sentiment, pricing, or feature tradeoffs, prompting questions about retention and competition in consumer AI. The story underscores how rapidly AI products must adapt to user expectations.",
+      "summary_zh": "大量用户流失反映用户情绪、定价或功能取舍的变化，给消费级 AI 的留存和竞争态势带来质疑。强调 AI 产品需要迅速适应用户期望。",
+      "hn": {
+        "id": 47249448,
+        "type": "story",
+        "by": "johnbarron",
+        "score": 43,
+        "descendants": 18,
+        "time": 1772640129,
+        "comments_url": "https://news.ycombinator.com/item?id=47249448"
+      },
+      "hot_score": 2.58,
+      "tags": [
+        "AI",
+        "Business"
       ]
     },
     {
@@ -148,57 +358,33 @@
         "time": 1772617340,
         "comments_url": "https://news.ycombinator.com/item?id=47245211"
       },
-      "hot_score": 5.58,
+      "hot_score": 2.43,
       "tags": [
         "Data",
-        "Business",
+        "Startups",
         "DevOps"
       ]
     },
     {
-      "title_en": "Agentic Engineering Patterns",
-      "url": "https://simonwillison.net/guides/agentic-engineering-patterns/",
-      "title_zh": "代理式工程模式",
-      "created_display": "Created: Mar 03, 2026 / 21:00 PT",
-      "image_url": null,
-      "summary_en": "A primer on building AI-assisted systems using agentic patterns—designs that orchestrate agents, prompts, and tools to perform complex tasks. The piece outlines practical patterns to balance autonomy, reliability, and controllability as AI agents collaborate with software.",
-      "summary_zh": "介绍用代理式模式构建 AI 辅助系统的方法，强调通过代理、提示与工具的协同来完成复杂任务。提出在自主性、可靠性与可控性之间取得平衡的实用设计模式。",
+      "title_en": "MacBook Neo",
+      "url": "https://www.apple.com/macbook-neo/",
+      "title_zh": "MacBook Neo",
+      "created_display": "Created: Mar 04, 2026 / 06:16 PT",
+      "image_url": "https://www.apple.com/v/macbook-neo/a/images/meta/macbook_neo__f2p1f7yafjyy_og.png?202603031702",
+      "summary_en": "Rumors point to a new MacBook Neo offering lighter weight and modern spec, signaling Apple's ongoing refresh of the entry-level lineup. If true, expect better efficiency and price-to-performance balance that could pressure rivals in the thin-and-light segment.",
+      "summary_zh": "传闻中的 MacBook Neo 将带来更轻薄的机身和更新的硬件，反映苹果对入门级产品线的持续更新。如果属实，可能带来更高的能效比和更具竞争力的性价比，或对同类轻薄笔记本形成压力。",
       "hn": {
-        "id": 47243272,
+        "id": 47247649,
         "type": "story",
-        "by": "r4um",
-        "score": 286,
-        "descendants": 143,
-        "time": 1772600437,
-        "comments_url": "https://news.ycombinator.com/item?id=47243272"
+        "by": "meetpateltech",
+        "score": 69,
+        "descendants": 43,
+        "time": 1772633816,
+        "comments_url": "https://news.ycombinator.com/item?id=47247649"
       },
+      "hot_score": 2.36,
       "tags": [
-        "AI"
-      ],
-      "hot_score": 3.43
-    },
-    {
-      "title_en": "Did Alibaba just kneecap its powerful Qwen AI team?",
-      "url": "https://venturebeat.com/technology/did-alibaba-just-kneecap-its-powerful-qwen-ai-team-key-figures-depart-in",
-      "title_zh": "阿里巴巴是否在削弱其强大的 Qwen AI 团队？",
-      "created_display": "Created: Mar 04, 2026 / 04:54 PT",
-      "image_url": null,
-      "summary_en": "VentureBeat reports leadership changes and key departures at Alibaba's Qwen AI team, risking momentum on a high-profile Chinese AI effort. The moves illustrate how internal politics and funding shifts can impact AI product roadmaps.",
-      "summary_zh": "VentureBeat 报道称阿里巴巴 Qwen AI 团队发生高层调整与关键成员离职，可能影响这项重要的 AI 项目的推进。此举反映出内部政治和资金分配变化对 AI 路线图的潜在冲击。",
-      "hn": {
-        "id": 47246746,
-        "type": "story",
-        "by": "GTP",
-        "score": 36,
-        "descendants": 13,
-        "time": 1772628844,
-        "comments_url": "https://news.ycombinator.com/item?id=47246746"
-      },
-      "hot_score": 3.23,
-      "tags": [
-        "AI",
-        "Business",
-        "Politics"
+        "Hardware"
       ]
     },
     {
@@ -213,62 +399,38 @@
         "id": 47244291,
         "type": "story",
         "by": "P_qRs",
-        "score": 163,
-        "descendants": 71,
+        "score": 223,
+        "descendants": 110,
         "time": 1772609124,
         "comments_url": "https://news.ycombinator.com/item?id=47244291"
       },
-      "hot_score": 2.96,
-      "tags": [
-        "Security",
-        "Privacy"
-      ]
-    },
-    {
-      "title_en": "Apple Announces Low-Cost 'MacBook Neo' with A18 Pro Chip",
-      "url": "https://www.macrumors.com/2026/03/04/apple-announces-low-cost-macbook-neo-with-a18-pro-chip/",
-      "title_zh": "苹果宣布低价 MacBook Neo，搭载 A18 Pro 芯片",
-      "created_display": "Created: Mar 04, 2026 / 06:18 PT",
-      "image_url": "https://images.macrumors.com/t/8nZQn4ZS5L6tgW0wUo015MD1-Rk=/1600x/article-new/2026/03/macbook-neo-colors-fan.jpg",
-      "summary_en": "Apple unveils MacBook Neo at a budget price, powered by the A18 Pro, signaling a broader push into affordable hardware with Apple Silicon. The product aims to broaden the ecosystem lock-in while offering competitive performance for students and light users.",
-      "summary_zh": "苹果以低价推出 MacBook Neo，搭载 A18 Pro 芯片，显示其在苹果硅生态上的普及策略。新机面向学生和轻量级用户，提供具有竞争力的性能与能效。",
-      "hn": {
-        "id": 47247670,
-        "type": "story",
-        "by": "vanburen",
-        "score": 12,
-        "descendants": 1,
-        "time": 1772633913,
-        "comments_url": "https://news.ycombinator.com/item?id=47247670"
-      },
-      "hot_score": 2.36,
-      "tags": [
-        "Hardware"
-      ]
-    },
-    {
-      "title_en": "TikTok will not introduce end-to-end encryption, saying it makes users less safe",
-      "url": "https://www.bbc.com/news/articles/cly2m5e5ke4o",
-      "title_zh": "TikTok 不会引入端到端加密，称这会让用户更不安全",
-      "created_display": "Created: Mar 03, 2026 / 17:31 PT",
-      "image_url": "https://ichef.bbci.co.uk/news/1024/branded_news/642d/live/9816c7c0-1723-11f1-9120-a910fc22c6ac.jpg",
-      "summary_en": "TikTok says it will not implement end-to-end encryption, arguing that encryption would reduce safety by making moderation harder. The decision underscores the tensions among user privacy, government pressure, and platform safety, and signals regulatory risk for proponents of universal encryption in consumer apps.",
-      "summary_zh": "TikTok 表示不会实现端到端加密，称加密将降低内容审核与安全管理的能力，从而让用户处于更高风险之中。此举凸显了隐私保护、监管压力与平台安全之间的张力，并为在消费级应用中推行全端对端加密的立法风险敲响警钟。",
-      "hn": {
-        "id": 47241817,
-        "type": "story",
-        "by": "1659447091",
-        "score": 300,
-        "descendants": 293,
-        "time": 1772587865,
-        "comments_url": "https://news.ycombinator.com/item?id=47241817"
-      },
       "tags": [
         "Privacy",
-        "Security",
-        "Politics"
+        "Security"
       ],
-      "hot_score": 2.25
+      "hot_score": 2.1
+    },
+    {
+      "title_en": "NanoGPT Slowrun: Language Modeling with Limited Data, Infinite Compute",
+      "url": "https://qlabs.sh/slowrun",
+      "title_zh": "NanoGPT Slowrun：在有限数据、无限计算的语言建模",
+      "created_display": "Created: Mar 04, 2026 / 09:56 PT",
+      "image_url": "https://qlabs.sh/0.gif",
+      "summary_en": "Slowrun explores language modeling with limited data but abundant compute, using strategies that maximize training efficiency and data augmentation. It demonstrates that clever data regimes and scaling can yield competitive models without huge datasets.",
+      "summary_zh": "Slowrun 探索在数据有限、计算资源充足的条件下进行语言建模，利用高效训练与数据增广等策略。显示出通过巧妙的数据方案与扩展规模，即使数据量不大也能训练出具有竞争力的模型。",
+      "hn": {
+        "id": 47251259,
+        "type": "story",
+        "by": "sdpmas",
+        "score": 13,
+        "descendants": 0,
+        "time": 1772646964,
+        "comments_url": "https://news.ycombinator.com/item?id=47251259"
+      },
+      "hot_score": 1.87,
+      "tags": [
+        "AI"
+      ]
     },
     {
       "title_en": "MacBook Pro with M5 Pro and M5 Max",
@@ -292,30 +454,99 @@
         "AI",
         "Energy"
       ],
-      "hot_score": 2.22
+      "hot_score": 1.72
     },
     {
-      "title_en": "A CPU that runs entirely on GPU",
-      "url": "https://github.com/robertcprice/nCPU",
-      "title_zh": "一个完全在 GPU 上运行的 CPU",
-      "created_display": "Created: Mar 03, 2026 / 20:30 PT",
-      "image_url": "https://opengraph.githubassets.com/b214ca809dd3d9caade6189aaaaf38bd75a9743f7f2acc98a0066e0b71de8714/robertcprice/nCPU",
-      "summary_en": "A CPU implemented to run entirely on GPU hardware demonstrates offloading instruction scheduling and execution to GPU kernels, blurring the line between CPU and GPU architectures. The project is not about replacing CPUs yet, but it shows how GPU-centric designs could inform emulation, education, and certain HPC workloads. It hints at potential benefits like unified memory usage and high parallelism for specific tasks.",
-      "summary_zh": "这个在GPU上完整运行的CPU展示了将指令执行移植到GPU内核的可能性，模糊了CPU与GPU的边界。该项目尚不能替代实际CPU，但为仿真、教育和高性能计算场景提供了新的设计思路，可能带来内存整合和并行性提升的潜在收益。",
+      "title_en": "TikTok will not introduce end-to-end encryption, saying it makes users less safe",
+      "url": "https://www.bbc.com/news/articles/cly2m5e5ke4o",
+      "title_zh": "TikTok 不会引入端到端加密，称这会让用户更不安全",
+      "created_display": "Created: Mar 03, 2026 / 17:31 PT",
+      "image_url": "https://ichef.bbci.co.uk/news/1024/branded_news/642d/live/9816c7c0-1723-11f1-9120-a910fc22c6ac.jpg",
+      "summary_en": "TikTok says it will not implement end-to-end encryption, arguing that encryption would reduce safety by making moderation harder. The decision underscores the tensions among user privacy, government pressure, and platform safety, and signals regulatory risk for proponents of universal encryption in consumer apps.",
+      "summary_zh": "TikTok 表示不会实现端到端加密，称加密将降低内容审核与安全管理的能力，从而让用户处于更高风险之中。此举凸显了隐私保护、监管压力与平台安全之间的张力，并为在消费级应用中推行全端对端加密的立法风险敲响警钟。",
       "hn": {
-        "id": 47243069,
+        "id": 47241817,
         "type": "story",
-        "by": "cypres",
-        "score": 158,
-        "descendants": 82,
-        "time": 1772598632,
-        "comments_url": "https://news.ycombinator.com/item?id=47243069"
+        "by": "1659447091",
+        "score": 338,
+        "descendants": 328,
+        "time": 1772587865,
+        "comments_url": "https://news.ycombinator.com/item?id=47241817"
       },
       "tags": [
-        "Hardware",
-        "Education"
+        "Privacy",
+        "Security",
+        "Politics"
       ],
-      "hot_score": 1.75
+      "hot_score": 1.65
+    },
+    {
+      "title_en": "MyFirst Kids Watch Hacked. Access to Camera and Microphone",
+      "url": "https://www.kth.se/en/om/nyheter/centrala-nyheter/kth-studenten-hackade-klocka-for-barn-1.1461249",
+      "title_zh": "我的第一块儿童手表被破解：获得摄像头和麦克风访问权限",
+      "created_display": "Created: Mar 04, 2026 / 05:04 PT",
+      "image_url": "https://www.kth.se/polopoly_fs/1.1461258.1772613955!/image/Gustaf2920px.jpg",
+      "summary_en": "A security demonstration shows a kid's smartwatch being hacked to access its camera and microphone, exposing IoT security flaws in consumer wearables. The case reinforces the need for strong access controls, secure firmware, and responsible disclosure in IoT.",
+      "summary_zh": "一次安全演示显示，一块儿童智能手表被破解，获取摄像头和麦克风访问权限，暴露了消费级可穿戴设备的物联安全缺陷。案例强调需要强访问控制、固件安全和负责任的漏洞披露。",
+      "hn": {
+        "id": 47246858,
+        "type": "story",
+        "by": "jidoka",
+        "score": 63,
+        "descendants": 10,
+        "time": 1772629493,
+        "comments_url": "https://news.ycombinator.com/item?id=47246858"
+      },
+      "hot_score": 1.59,
+      "tags": [
+        "Security",
+        "Privacy"
+      ]
+    },
+    {
+      "title_en": "Emails to Outlook.com rejected due to a fault or overzealous blocking rules",
+      "url": "https://www.theregister.com/2026/03/04/users_fume_at_outlookcom_email/",
+      "title_zh": "发往 Outlook.com 的邮件被拒收：故障或过度拦截规则所致",
+      "created_display": "Created: Mar 04, 2026 / 03:33 PT",
+      "image_url": "https://regmedia.co.uk/2017/02/02/shutterstock_email_overload.jpg",
+      "summary_en": "A fault or aggressive filtering caused legitimate emails to be blocked by Outlook.com, disrupting communication for users. The episode illustrates how backend policy or bugs can create wide-scoped reliability issues and the importance of robust monitoring.",
+      "summary_zh": "发往 Outlook.com 的邮件因故障或过度拦截规则被拒收，干扰用户沟通。此事件凸显后台策略或错误如何引发广泛的可靠性问题，以及加强监控的重要性。",
+      "hn": {
+        "id": 47246044,
+        "type": "story",
+        "by": "Bender",
+        "score": 84,
+        "descendants": 52,
+        "time": 1772624026,
+        "comments_url": "https://news.ycombinator.com/item?id=47246044"
+      },
+      "hot_score": 1.53,
+      "tags": [
+        "Web"
+      ]
+    },
+    {
+      "title_en": "CBP Tapped into the Online Advertising Ecosystem to Track Peoples' Movements",
+      "url": "https://www.404media.co/cbp-tapped-into-the-online-advertising-ecosystem-to-track-peoples-movements/",
+      "title_zh": "CBP 借助在线广告数据生态系统追踪民众活动",
+      "created_display": "Created: Mar 04, 2026 / 07:57 PT",
+      "image_url": "https://www.404media.co/content/images/size/w1200/2026/02/54723348049_72eefb5739.jpg",
+      "summary_en": "Reveals CBP’s use of the online advertising ecosystem to track movements, raising privacy and civil liberties concerns. The finding spotlights how commercial data flows enable government surveillance and the need for policy guardrails.",
+      "summary_zh": "揭示海关执法机构利用在线广告生态系统追踪民众行动，引发隐私与公民自由担忧。强调商业数据流对政府监控的作用及需要政策约束。",
+      "hn": {
+        "id": 47249387,
+        "type": "story",
+        "by": "ece",
+        "score": 26,
+        "descendants": 2,
+        "time": 1772639849,
+        "comments_url": "https://news.ycombinator.com/item?id=47249387"
+      },
+      "hot_score": 1.49,
+      "tags": [
+        "Privacy",
+        "Politics"
+      ]
     },
     {
       "title_en": "Meta’s AI smart glasses and data privacy concerns",
@@ -338,7 +569,30 @@
         "AI",
         "Privacy"
       ],
-      "hot_score": 1.65
+      "hot_score": 1.4
+    },
+    {
+      "title_en": "A CPU that runs entirely on GPU",
+      "url": "https://github.com/robertcprice/nCPU",
+      "title_zh": "一个完全在 GPU 上运行的 CPU",
+      "created_display": "Created: Mar 03, 2026 / 20:30 PT",
+      "image_url": "https://opengraph.githubassets.com/b214ca809dd3d9caade6189aaaaf38bd75a9743f7f2acc98a0066e0b71de8714/robertcprice/nCPU",
+      "summary_en": "A CPU implemented to run entirely on GPU hardware demonstrates offloading instruction scheduling and execution to GPU kernels, blurring the line between CPU and GPU architectures. The project is not about replacing CPUs yet, but it shows how GPU-centric designs could inform emulation, education, and certain HPC workloads. It hints at potential benefits like unified memory usage and high parallelism for specific tasks.",
+      "summary_zh": "这个在GPU上完整运行的CPU展示了将指令执行移植到GPU内核的可能性，模糊了CPU与GPU的边界。该项目尚不能替代实际CPU，但为仿真、教育和高性能计算场景提供了新的设计思路，可能带来内存整合和并行性提升的潜在收益。",
+      "hn": {
+        "id": 47243069,
+        "type": "story",
+        "by": "cypres",
+        "score": 207,
+        "descendants": 103,
+        "time": 1772598632,
+        "comments_url": "https://news.ycombinator.com/item?id=47243069"
+      },
+      "tags": [
+        "Hardware",
+        "Education"
+      ],
+      "hot_score": 1.36
     },
     {
       "title_en": "Claude's Cycles [pdf]",
@@ -352,41 +606,15 @@
         "id": 47230710,
         "type": "story",
         "by": "fs123",
-        "score": 698,
-        "descendants": 291,
+        "score": 742,
+        "descendants": 311,
         "time": 1772535462,
         "comments_url": "https://news.ycombinator.com/item?id=47230710"
       },
       "tags": [
-        "Science",
         "AI"
       ],
-      "hot_score": 1.56
-    },
-    {
-      "title_en": "Better JIT for Postgres",
-      "url": "https://github.com/vladich/pg_jitter",
-      "title_zh": "PostgreSQL 的更好 JIT",
-      "created_display": "Created: Mar 03, 2026 / 22:17 PT",
-      "image_url": "https://opengraph.githubassets.com/ef24023ff0d79d3c54f4443385eb5efae0b214863acd94d3c6e18bc48350e1d3/vladich/pg_jitter",
-      "summary_en": "Pg_jitter proposes a faster JIT path for PostgreSQL, potentially boosting query speed on workloads with many generated queries. It highlights the ongoing tension between runtime code generation and maintainability, plus how JIT affects CPU cache and startup cost.",
-      "summary_zh": "pg_jitter 提出在 PostgreSQL 上实现更快的 JIT 路径，可能提升对高并发和生成型查询的执行速度。揭示了运行时代码生成与可维护性之间的平衡，以及 JIT 对 CPU 缓存和启动成本的影响。",
-      "hn": {
-        "id": 47243804,
-        "type": "story",
-        "by": "vladich",
-        "score": 99,
-        "descendants": 39,
-        "time": 1772605030,
-        "comments_url": "https://news.ycombinator.com/item?id=47243804"
-      },
-      "hot_score": 1.45,
-      "tags": [
-        "Programming",
-        "Hardware",
-        "Data",
-        "Startups"
-      ]
+      "hot_score": 1.31
     },
     {
       "title_en": "Physics Girl: Super-Kamiokande – Imaging the sun by detecting neutrinos [video]",
@@ -409,29 +637,7 @@
         "Science",
         "Energy"
       ],
-      "hot_score": 1.39
-    },
-    {
-      "title_en": "GPT‑5.3 Instant",
-      "url": "https://openai.com/index/gpt-5-3-instant/",
-      "title_zh": "GPT-5.3 即刻版",
-      "created_display": "Created: Mar 03, 2026 / 09:57 PT",
-      "image_url": null,
-      "summary_en": "Announces GPT-5.3 Instant, a version promising near-instant responses and reduced latency for critical tasks.",
-      "summary_zh": "宣布 GPT-5.3 Instant，强调快速推理、近乎即时的响应与更低延迟。介绍在延迟、可靠性及开发工具方面的改进，便于将该模型无缝接入应用与工作流。",
-      "hn": {
-        "id": 47236169,
-        "type": "story",
-        "by": "meetpateltech",
-        "score": 367,
-        "descendants": 288,
-        "time": 1772560653,
-        "comments_url": "https://news.ycombinator.com/item?id=47236169"
-      },
-      "tags": [
-        "AI"
-      ],
-      "hot_score": 1.33
+      "hot_score": 1.07
     },
     {
       "title_en": "British Columbia is permanently adopting daylight time",
@@ -454,29 +660,100 @@
         "Politics",
         "Energy"
       ],
-      "hot_score": 1.25
+      "hot_score": 1.06
     },
     {
-      "title_en": "Weave – A language aware merge algorithm based on entities",
-      "url": "https://github.com/Ataraxy-Labs/weave",
-      "title_zh": "Weave——一种基于实体的语言感知合并算法",
-      "created_display": "Created: Mar 03, 2026 / 17:52 PT",
-      "image_url": "https://opengraph.githubassets.com/5289f5cb217976a057e0bcb2c91fe1589c35b609b6dbff8aa2b6b2f54462959a/Ataraxy-Labs/weave",
-      "summary_en": "Weave is a language-aware merge algorithm that uses entities to resolve conflicts during merges, prioritizing semantics over raw text. By aligning changes to underlying entities, it can reduce churn in collaborative editing and improve consistency across versions. The project could influence future diff/merge tooling for structured data.",
-      "summary_zh": "Weave 是一种基于实体的语言感知合并算法，在合并冲突时以实体语义为导向来解决分歧。通过将改动对齐到实体之上，能够降低协同编辑中的重复冲突并提升版本一致性。该项目可能影响未来对结构化数据的差异和合并工具。",
+      "title_en": "Better JIT for Postgres",
+      "url": "https://github.com/vladich/pg_jitter",
+      "title_zh": "PostgreSQL 的更好 JIT",
+      "created_display": "Created: Mar 03, 2026 / 22:17 PT",
+      "image_url": "https://opengraph.githubassets.com/ef24023ff0d79d3c54f4443385eb5efae0b214863acd94d3c6e18bc48350e1d3/vladich/pg_jitter",
+      "summary_en": "Pg_jitter proposes a faster JIT path for PostgreSQL, potentially boosting query speed on workloads with many generated queries. It highlights the ongoing tension between runtime code generation and maintainability, plus how JIT affects CPU cache and startup cost.",
+      "summary_zh": "pg_jitter 提出在 PostgreSQL 上实现更快的 JIT 路径，可能提升对高并发和生成型查询的执行速度。揭示了运行时代码生成与可维护性之间的平衡，以及 JIT 对 CPU 缓存和启动成本的影响。",
       "hn": {
-        "id": 47241976,
+        "id": 47243804,
         "type": "story",
-        "by": "rs545837",
-        "score": 158,
-        "descendants": 91,
-        "time": 1772589141,
-        "comments_url": "https://news.ycombinator.com/item?id=47241976"
+        "by": "vladich",
+        "score": 129,
+        "descendants": 58,
+        "time": 1772605030,
+        "comments_url": "https://news.ycombinator.com/item?id=47243804"
       },
       "tags": [
-        "Programming"
+        "Programming",
+        "Hardware",
+        "Data",
+        "Startups"
       ],
-      "hot_score": 1.23
+      "hot_score": 1.04
+    },
+    {
+      "title_en": "The Iran War's Most Precious Commodity Isn't Oil, It's Desalinated Water",
+      "url": "https://www.bloomberg.com/opinion/articles/2026-03-04/iran-war-the-most-precious-commodity-is-water-not-oil",
+      "title_zh": "伊朗战争中最宝贵的不是石油，而是脱盐水",
+      "created_display": "Created: Mar 04, 2026 / 09:51 PT",
+      "image_url": null,
+      "summary_en": "Water scarcity and desalination are becoming central strategic issues in the Iran conflict, with water security acting as a critical resource rival to oil. The piece frames how climate, technology, and geopolitics intersect in wartime economies.",
+      "summary_zh": "水资源短缺与脱盐在伊朗冲突中成为核心战略议题，水资源安全成为与石油同等重要的资源竞争要素。文章将气候、技术与地缘政治在战争经济中的交汇点呈现出来。",
+      "hn": {
+        "id": 47251194,
+        "type": "story",
+        "by": "ck2",
+        "score": 8,
+        "descendants": 2,
+        "time": 1772646705,
+        "comments_url": "https://news.ycombinator.com/item?id=47251194"
+      },
+      "hot_score": 1.04,
+      "tags": [
+        "Politics",
+        "Security"
+      ]
+    },
+    {
+      "title_en": "GPT‑5.3 Instant",
+      "url": "https://openai.com/index/gpt-5-3-instant/",
+      "title_zh": "GPT-5.3 即刻版",
+      "created_display": "Created: Mar 03, 2026 / 09:57 PT",
+      "image_url": null,
+      "summary_en": "Announces GPT-5.3 Instant, a version promising near-instant responses and reduced latency for critical tasks.",
+      "summary_zh": "宣布 GPT-5.3 Instant，强调快速推理、近乎即时的响应与更低延迟。介绍在延迟、可靠性及开发工具方面的改进，便于将该模型无缝接入应用与工作流。",
+      "hn": {
+        "id": 47236169,
+        "type": "story",
+        "by": "meetpateltech",
+        "score": 367,
+        "descendants": 288,
+        "time": 1772560653,
+        "comments_url": "https://news.ycombinator.com/item?id=47236169"
+      },
+      "tags": [
+        "AI"
+      ],
+      "hot_score": 0.98
+    },
+    {
+      "title_en": "A Visual Guide to DNA Sequencing",
+      "url": "https://www.asimov.press/p/dna-sequencing",
+      "title_zh": "DNA 测序图解指南",
+      "created_display": "Created: Mar 04, 2026 / 05:39 PT",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!ezte!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F69bb038e-36d7-4ac7-9543-1567b44b3a43_1714x1080.gif",
+      "summary_en": "A visual guide breaks down the principles and steps of DNA sequencing with accessible illustrations, making complex biotechnology concepts approachable. It serves as a quick primer for readers new to genomics and helpful for educators.",
+      "summary_zh": "这份可视化指南通过直观插图讲解 DNA 测序的原理与步骤，使生物技术概念变得易于理解。是 genomics 入门者的快速指南，对教育者也有帮助。",
+      "hn": {
+        "id": 47247245,
+        "type": "story",
+        "by": "surprisetalk",
+        "score": 32,
+        "descendants": 7,
+        "time": 1772631568,
+        "comments_url": "https://news.ycombinator.com/item?id=47247245"
+      },
+      "hot_score": 0.91,
+      "tags": [
+        "Science",
+        "Education"
+      ]
     },
     {
       "title_en": "Graphics Programming Resources",
@@ -490,8 +767,8 @@
         "id": 47242193,
         "type": "story",
         "by": "abetusk",
-        "score": 141,
-        "descendants": 13,
+        "score": 170,
+        "descendants": 17,
         "time": 1772590981,
         "comments_url": "https://news.ycombinator.com/item?id=47242193"
       },
@@ -499,7 +776,30 @@
         "Programming",
         "Hardware"
       ],
-      "hot_score": 1.17
+      "hot_score": 0.9
+    },
+    {
+      "title_en": "Voxile: A ray-traced game made in its own engine and programming language",
+      "url": "https://elbowgreasegames.substack.com/p/voxray-games-pushes-major-update",
+      "title_zh": "Voxile：用自家引擎与编程语言打造的光线追踪游戏",
+      "created_display": "Created: Mar 03, 2026 / 13:10 PT",
+      "image_url": null,
+      "summary_en": "Voxile showcases a ray-traced game built entirely on a custom engine and its own programming language, illustrating a fully self-contained development stack. The project demonstrates how bespoke tooling can deliver tight performance and creative control, while offering a provocative alternative to mainstream engines.",
+      "summary_zh": "Voxile 展示了在自研引擎和自家编程语言驱动下完成的光线追踪游戏，体现了完全自给自足的开发链。该项目展示了定制工具在性能与创意控制方面的潜力，同时为独立开发者提供了对主流引擎之外的可行路线。",
+      "hn": {
+        "id": 47239042,
+        "type": "story",
+        "by": "spacemarine1",
+        "score": 253,
+        "descendants": 65,
+        "time": 1772572227,
+        "comments_url": "https://news.ycombinator.com/item?id=47239042"
+      },
+      "tags": [
+        "Gaming",
+        "Programming"
+      ],
+      "hot_score": 0.85
     },
     {
       "title_en": "Intel's make-or-break 18A process node debuts for data center with 288-core Xeon",
@@ -521,30 +821,29 @@
       "tags": [
         "Hardware"
       ],
-      "hot_score": 1.15
+      "hot_score": 0.84
     },
     {
-      "title_en": "Voxile: A ray-traced game made in its own engine and programming language",
-      "url": "https://elbowgreasegames.substack.com/p/voxray-games-pushes-major-update",
-      "title_zh": "Voxile：用自家引擎与编程语言打造的光线追踪游戏",
-      "created_display": "Created: Mar 03, 2026 / 13:10 PT",
-      "image_url": null,
-      "summary_en": "Voxile showcases a ray-traced game built entirely on a custom engine and its own programming language, illustrating a fully self-contained development stack. The project demonstrates how bespoke tooling can deliver tight performance and creative control, while offering a provocative alternative to mainstream engines.",
-      "summary_zh": "Voxile 展示了在自研引擎和自家编程语言驱动下完成的光线追踪游戏，体现了完全自给自足的开发链。该项目展示了定制工具在性能与创意控制方面的潜力，同时为独立开发者提供了对主流引擎之外的可行路线。",
+      "title_en": "Weave – A language aware merge algorithm based on entities",
+      "url": "https://github.com/Ataraxy-Labs/weave",
+      "title_zh": "Weave——一种基于实体的语言感知合并算法",
+      "created_display": "Created: Mar 03, 2026 / 17:52 PT",
+      "image_url": "https://opengraph.githubassets.com/5289f5cb217976a057e0bcb2c91fe1589c35b609b6dbff8aa2b6b2f54462959a/Ataraxy-Labs/weave",
+      "summary_en": "Weave is a language-aware merge algorithm that uses entities to resolve conflicts during merges, prioritizing semantics over raw text. By aligning changes to underlying entities, it can reduce churn in collaborative editing and improve consistency across versions. The project could influence future diff/merge tooling for structured data.",
+      "summary_zh": "Weave 是一种基于实体的语言感知合并算法，在合并冲突时以实体语义为导向来解决分歧。通过将改动对齐到实体之上，能够降低协同编辑中的重复冲突并提升版本一致性。该项目可能影响未来对结构化数据的差异和合并工具。",
       "hn": {
-        "id": 47239042,
+        "id": 47241976,
         "type": "story",
-        "by": "spacemarine1",
-        "score": 237,
-        "descendants": 65,
-        "time": 1772572227,
-        "comments_url": "https://news.ycombinator.com/item?id=47239042"
+        "by": "rs545837",
+        "score": 163,
+        "descendants": 104,
+        "time": 1772589141,
+        "comments_url": "https://news.ycombinator.com/item?id=47241976"
       },
       "tags": [
-        "Gaming",
         "Programming"
       ],
-      "hot_score": 1.13
+      "hot_score": 0.82
     },
     {
       "title_en": "Don't become an engineering manager",
@@ -566,28 +865,31 @@
       "tags": [
         "Career"
       ],
-      "hot_score": 1.03
+      "hot_score": 0.79
     },
     {
-      "title_en": "Qwen3.5 Fine-Tuning Guide – Unsloth Documentation",
-      "url": "https://unsloth.ai/docs/models/qwen3.5/fine-tune",
-      "title_zh": "Qwen3.5 微调指南 - Unsloth 文档",
-      "created_display": "Created: Mar 04, 2026 / 04:04 PT",
-      "image_url": "https://unsloth.ai/docs/~gitbook/image?url=https%3A%2F%2F2815821428-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Forganizations%252FHpyELzcNe0topgVLGCZY%252Fsites%252Fsite_mXXTe%252Fsocialpreview%252FOeFDVbzp4cgwaId7PbvL%252Funsloth%2520docs%2520pic.png%3Falt%3Dmedia%26token%3Df34a6bcc-db15-449a-bc2d-e0e8f52fe953&width=1200&height=630&sign=b1ca68fa&sv=2",
-      "summary_en": "Unsloth's guide walks through practical fine-tuning of Qwen 3.5, including data selection, training steps, and safety considerations. The document helps practitioners push model behavior in controlled directions while managing budget and risk.",
-      "summary_zh": "Unsloth 的指南讲解如何对 Qwen 3.5 进行实际微调，包括数据选择、训练步骤与安全性考量，帮助从业者在受控条件下引导模型行为，同时兼顾预算与风险管理。",
+      "title_en": "New York could prohibit chatbot medical, legal, engineering advice",
+      "url": "https://folding-sky.com/blog/ny-senate-bill-s7263-chatbot-liability",
+      "title_zh": "纽约可能禁止聊天机器人提供医疗、法律、工程等咨询",
+      "created_display": "Created: Mar 04, 2026 / 08:52 PT",
+      "image_url": "https://folding-sky.com/blog/2026-03-04/ny-senate-bill-s7263-chatbot-liability/ny-licensed-professions.png",
+      "summary_en": "New York explores restricting chatbot advice in medical, legal, and engineering domains to curb unsafe AI use and clarify liability. The move could shape how AI services are deployed in high-stakes fields.",
+      "summary_zh": "纽约拟限制聊天机器人在医疗、法律、工程等高风险领域的建议，以遏制不安全的 AI 使用并明确法律责任。这一举措可能影响高风险领域 AI 服务的部署。",
       "hn": {
-        "id": 47246296,
+        "id": 47250286,
         "type": "story",
-        "by": "bilsbie",
-        "score": 16,
-        "descendants": 2,
-        "time": 1772625871,
-        "comments_url": "https://news.ycombinator.com/item?id=47246296"
+        "by": "bluepeter",
+        "score": 9,
+        "descendants": 3,
+        "time": 1772643128,
+        "comments_url": "https://news.ycombinator.com/item?id=47250286"
       },
-      "hot_score": 0.97,
+      "hot_score": 0.7,
       "tags": [
-        "AI"
+        "Politics",
+        "Legal",
+        "AI",
+        "Health"
       ]
     },
     {
@@ -602,15 +904,15 @@
         "id": 47240736,
         "type": "story",
         "by": "dmckinno",
-        "score": 151,
-        "descendants": 133,
+        "score": 168,
+        "descendants": 153,
         "time": 1772581101,
         "comments_url": "https://news.ycombinator.com/item?id=47240736"
       },
       "tags": [
-        "Programming"
+        "Culture"
       ],
-      "hot_score": 0.91
+      "hot_score": 0.69
     },
     {
       "title_en": "When AI writes the software, who verifies it?",
@@ -633,28 +935,73 @@
         "AI",
         "Security"
       ],
-      "hot_score": 0.9
+      "hot_score": 0.68
     },
     {
-      "title_en": "Indefinite Book Club Hiatus",
-      "url": "https://whatever.scalzi.com/2026/03/03/indefinite-book-club-hiatus/",
-      "title_zh": "Indefinite Book Club Hiatus",
-      "created_display": "Created: Mar 03, 2026 / 20:25 PT",
-      "image_url": "https://whatever.scalzi.com/wp-content/uploads/2023/08/WHSJohnS2.jpg",
-      "summary_en": "Indefinite hiatus for Scalzi's book club means readers should expect delays on new picks and discussions. It hints at author priorities and the challenges of keeping a collaborative reading community.",
-      "summary_zh": "Scalzi 的读书会宣布无限期休会，意味着新书讨论可能延迟。此举反映了作者的时间安排与维持一个共同阅读社区的挑战。",
+      "title_en": "Chimpanzees Are into Crystals",
+      "url": "https://www.nytimes.com/2026/03/04/science/chimpanzees-crystals.html",
+      "title_zh": "黑猩猩对晶体感兴趣",
+      "created_display": "Created: Mar 03, 2026 / 23:47 PT",
+      "image_url": null,
+      "summary_en": "A new study shows chimpanzees interact with crystals, hinting at elemental curiosity and material culture in our close relatives. The finding adds to growing evidence that non-human primates engage with objects beyond tool-use, challenging assumptions about cognition and preference.",
+      "summary_zh": "一项新研究表明黑猩猩会对晶体表现出兴趣，揭示近亲类动物的物质文化与好奇心。此发现为非人灵长类也会参与超越工具使用的对象互动提供证据，挑战对认知与偏好的常见假设。",
       "hn": {
-        "id": 47243036,
+        "id": 47244395,
         "type": "story",
-        "by": "cdrnsf",
-        "score": 70,
-        "descendants": 39,
-        "time": 1772598320,
-        "comments_url": "https://news.ycombinator.com/item?id=47243036"
+        "by": "jimnotgym",
+        "score": 68,
+        "descendants": 42,
+        "time": 1772610426,
+        "comments_url": "https://news.ycombinator.com/item?id=47244395"
       },
-      "hot_score": 0.76,
       "tags": [
-        "Culture"
+        "Science"
+      ],
+      "hot_score": 0.67
+    },
+    {
+      "title_en": "Who Writes the Bugs? A Deeper Look at 125,000 Kernel Vulnerabilities",
+      "url": "https://pebblebed.com/blog/kernel-bugs-part2",
+      "title_zh": "是谁写出这些漏洞？对125,000个内核漏洞的深入观察",
+      "created_display": "Created: Mar 04, 2026 / 09:37 PT",
+      "image_url": "https://pebblebed.com/logo.svg",
+      "summary_en": "The piece digs into attribution in kernel vulnerabilities across 125k reports, revealing who discovers and reports bugs, and how that shapes security responsiveness and maintainership. It highlights gaps in disclosure workflows and incentives.",
+      "summary_zh": "文章深入探讨125,000个内核漏洞报告的作者归属，揭示谁发现并报告漏洞，以及这如何影响安全响应和维护者的工作。指出披露流程与激励机制存在的不足。",
+      "hn": {
+        "id": 47250985,
+        "type": "story",
+        "by": "MBCook",
+        "score": 5,
+        "descendants": 1,
+        "time": 1772645864,
+        "comments_url": "https://news.ycombinator.com/item?id=47250985"
+      },
+      "hot_score": 0.52,
+      "tags": [
+        "Security"
+      ]
+    },
+    {
+      "title_en": "Codex app now available on Windows",
+      "url": "https://developers.openai.com/codex/app/windows/",
+      "title_zh": "Codex 应用现已在 Windows 上可用",
+      "created_display": "Created: Mar 04, 2026 / 10:03 PT",
+      "image_url": "https://developers.openai.com/open-graph.png",
+      "summary_en": "Codex app lands on Windows, expanding access to AI-assisted coding for Windows developers and teams. The update emphasizes expanding platform reach and potential integration into IDE workflows.",
+      "summary_zh": "Codex 应用现已在 Windows 上上线，扩大了 Windows 开发者对 AI 辅助编码的获取。此次更新凸显了拓展平台覆盖面和对集成开发环境工作流的潜在影响。",
+      "hn": {
+        "id": 47251353,
+        "type": "story",
+        "by": "meetpateltech",
+        "score": 4,
+        "descendants": 0,
+        "time": 1772647419,
+        "comments_url": "https://news.ycombinator.com/item?id=47251353"
+      },
+      "hot_score": 0.51,
+      "tags": [
+        "AI",
+        "Programming"
       ]
     },
     {
@@ -678,7 +1025,97 @@
         "Programming",
         "Data"
       ],
-      "hot_score": 0.68
+      "hot_score": 0.5
+    },
+    {
+      "title_en": "Indefinite Book Club Hiatus",
+      "url": "https://whatever.scalzi.com/2026/03/03/indefinite-book-club-hiatus/",
+      "title_zh": "Indefinite Book Club Hiatus",
+      "created_display": "Created: Mar 03, 2026 / 20:25 PT",
+      "image_url": "https://whatever.scalzi.com/wp-content/uploads/2023/08/WHSJohnS2.jpg",
+      "summary_en": "Indefinite hiatus for Scalzi's book club means readers should expect delays on new picks and discussions. It hints at author priorities and the challenges of keeping a collaborative reading community.",
+      "summary_zh": "Scalzi 的读书会宣布无限期休会，意味着新书讨论可能延迟。此举反映了作者的时间安排与维持一个共同阅读社区的挑战。",
+      "hn": {
+        "id": 47243036,
+        "type": "story",
+        "by": "cdrnsf",
+        "score": 70,
+        "descendants": 39,
+        "time": 1772598320,
+        "comments_url": "https://news.ycombinator.com/item?id=47243036"
+      },
+      "hot_score": 0.45,
+      "tags": [
+        "Culture"
+      ]
+    },
+    {
+      "title_en": "Ex-NYPD Official Indicted for Accepting Bribes from Tech Exec",
+      "url": "https://www.thecity.nyc/2026/02/12/kevin-taylor-phil-david-terence-banks-saferwatch-indictment/",
+      "title_zh": "前 NYPD 官员因接受科技高管贿赂被起诉",
+      "created_display": "Created: Mar 04, 2026 / 10:26 PT",
+      "image_url": "https://www.thecity.nyc/wp-content/uploads/2026/02/FWCSoIvXoAAwGRS.jpeg",
+      "summary_en": "An ex-NYPD official faces indictment for taking bribes from a tech executive, illustrating ongoing issues of corruption and influence in law enforcement contracting. The case adds to debates about governance and transparency in tech-police intersections.",
+      "summary_zh": "一名前 NYPD 官员因接受科技高管贿赂被起诉，凸显执法机构采购中的腐败与影响力问题。此案为科技行业与警务之间治理与透明度的讨论增添新的议题。",
+      "hn": {
+        "id": 47251695,
+        "type": "story",
+        "by": "PaulHoule",
+        "score": 3,
+        "descendants": 0,
+        "time": 1772648800,
+        "comments_url": "https://news.ycombinator.com/item?id=47251695"
+      },
+      "hot_score": 0.45,
+      "tags": [
+        "Politics",
+        "Legal"
+      ]
+    },
+    {
+      "title_en": "Apple Announces Low-Cost 'MacBook Neo' with A18 Pro Chip",
+      "url": "https://www.macrumors.com/2026/03/04/apple-announces-low-cost-macbook-neo-with-a18-pro-chip/",
+      "title_zh": "苹果宣布低价 MacBook Neo，搭载 A18 Pro 芯片",
+      "created_display": "Created: Mar 04, 2026 / 06:18 PT",
+      "image_url": "https://images.macrumors.com/t/8nZQn4ZS5L6tgW0wUo015MD1-Rk=/1600x/article-new/2026/03/macbook-neo-colors-fan.jpg",
+      "summary_en": "Apple unveils MacBook Neo at a budget price, powered by the A18 Pro, signaling a broader push into affordable hardware with Apple Silicon. The product aims to broaden the ecosystem lock-in while offering competitive performance for students and light users.",
+      "summary_zh": "苹果以低价推出 MacBook Neo，搭载 A18 Pro 芯片，显示其在苹果硅生态上的普及策略。新机面向学生和轻量级用户，提供具有竞争力的性能与能效。",
+      "hn": {
+        "id": 47247670,
+        "type": "story",
+        "by": "vanburen",
+        "score": 12,
+        "descendants": 1,
+        "time": 1772633913,
+        "comments_url": "https://news.ycombinator.com/item?id=47247670"
+      },
+      "hot_score": 0.39,
+      "tags": [
+        "Hardware"
+      ]
+    },
+    {
+      "title_en": "Notes on Project Oberon",
+      "url": "https://sidhion.com/blog/oberon_notes/",
+      "title_zh": "Project Oberon 笔记",
+      "created_display": "Created: Mar 04, 2026 / 07:22 PT",
+      "image_url": null,
+      "summary_en": "Notes on Project Oberon revisit a minimalist OS and language design that emphasizes simplicity, reliability, and education. The piece may reflect on lessons for small, reproducible computing systems and pedagogical tooling.",
+      "summary_zh": "对 Project Oberon 的笔记回顾，强调简约操作系统与语言设计所追求的简单性、可靠性与教育性。提供关于小型、可重复计算系统与教育工具的启示。",
+      "hn": {
+        "id": 47248806,
+        "type": "story",
+        "by": "surprisetalk",
+        "score": 9,
+        "descendants": 3,
+        "time": 1772637723,
+        "comments_url": "https://news.ycombinator.com/item?id=47248806"
+      },
+      "hot_score": 0.39,
+      "tags": [
+        "Programming",
+        "Education"
+      ]
     },
     {
       "title_en": "Speculative Speculative Decoding (SSD)",
@@ -700,7 +1137,29 @@
       "tags": [
         "AI"
       ],
-      "hot_score": 0.5
+      "hot_score": 0.31
+    },
+    {
+      "title_en": "Moss is a pixel canvas where every brush is a tiny program",
+      "url": "https://www.moss.town/",
+      "title_zh": "Moss：每一笔刷都是小程序的像素画布",
+      "created_display": "Created: Mar 04, 2026 / 02:21 PT",
+      "image_url": "https://play.moss.town/img/MOSS-social.gif",
+      "summary_en": "Moss turns brush strokes into small programs, forming a pixel canvas. The design lets artists craft complex visuals by composing tiny algorithms, blurring the line between art and software. It showcases computation embedded directly in visual creation.",
+      "summary_zh": "Moss 将笔触变为小程序，形成像素画布。通过把微型算法拼接来创作复杂视觉效果，模糊了艺术与软件的边界。展示了将计算直接嵌入视觉创作中的创新做法。",
+      "hn": {
+        "id": 47245491,
+        "type": "story",
+        "by": "smusamashah",
+        "score": 21,
+        "descendants": 2,
+        "time": 1772619673,
+        "comments_url": "https://news.ycombinator.com/item?id=47245491"
+      },
+      "hot_score": 0.3,
+      "tags": [
+        "Programming"
+      ]
     },
     {
       "title_en": "Number Research Inc",
@@ -720,99 +1179,31 @@
         "comments_url": "https://news.ycombinator.com/item?id=47242277"
       },
       "tags": [
-        "Business"
+        "Data"
       ],
-      "hot_score": 0.38
+      "hot_score": 0.24
     },
     {
-      "title_en": "Chimpanzees Are into Crystals",
-      "url": "https://www.nytimes.com/2026/03/04/science/chimpanzees-crystals.html",
-      "title_zh": "黑猩猩对晶体感兴趣",
-      "created_display": "Created: Mar 03, 2026 / 23:47 PT",
-      "image_url": null,
-      "summary_en": "A new study shows chimpanzees interact with crystals, hinting at elemental curiosity and material culture in our close relatives. The finding adds to growing evidence that non-human primates engage with objects beyond tool-use, challenging assumptions about cognition and preference.",
-      "summary_zh": "一项新研究表明黑猩猩会对晶体表现出兴趣，揭示近亲类动物的物质文化与好奇心。此发现为非人灵长类也会参与超越工具使用的对象互动提供证据，挑战对认知与偏好的常见假设。",
+      "title_en": "Factory Logic",
+      "url": "https://asteriskmag.com/issues/13/factory-logic",
+      "title_zh": "工厂逻辑",
+      "created_display": "Created: Mar 04, 2026 / 09:11 PT",
+      "image_url": "https://asteriskmag.com/media/pages/issues/13/factory-logic/830aca9b84-1772229030/afrawang-1200x630-crop.png",
+      "summary_en": "Factory Logic delves into how software-driven automation and data flows shape modern manufacturing, exploring decisions behind intelligent factories and the tradeoffs of optimization strategies. It connects theory to real-world production challenges.",
+      "summary_zh": "《工厂逻辑》深入探讨软件驱动的自动化和数据流如何塑造现代制造业，分析智能工厂背后的决策及优化策略的权衡。将理论与实际生产挑战连接起来。",
       "hn": {
-        "id": 47244395,
+        "id": 47250606,
         "type": "story",
-        "by": "jimnotgym",
-        "score": 19,
-        "descendants": 1,
-        "time": 1772610426,
-        "comments_url": "https://news.ycombinator.com/item?id=47244395"
+        "by": "herbertl",
+        "score": 3,
+        "descendants": 0,
+        "time": 1772644280,
+        "comments_url": "https://news.ycombinator.com/item?id=47250606"
       },
-      "hot_score": 0.35,
+      "hot_score": 0.2,
       "tags": [
-        "Science"
-      ]
-    },
-    {
-      "title_en": "Nuclear War: An LLM Scenario",
-      "url": "https://chrisclapham.com/blog/nuclear-war-an-llm-scenario",
-      "title_zh": "核战争：一个大语言模型情景",
-      "created_display": "Created: Mar 04, 2026 / 00:23 PT",
-      "image_url": null,
-      "summary_en": "A thought experiment using LLMs to simulate a nuclear conflict scenario, exploring how AI could model and reason about geopolitical crises. It highlights both potential uses and ethical concerns of AI in strategic simulation.",
-      "summary_zh": "以大语言模型为工具，构建核战争情景的思考实验，评估 AI 在建模与推演地缘政治危机时的潜在用途与伦理风险。",
-      "hn": {
-        "id": 47244651,
-        "type": "story",
-        "by": "huey77",
-        "score": 15,
-        "descendants": 11,
-        "time": 1772612606,
-        "comments_url": "https://news.ycombinator.com/item?id=47244651"
-      },
-      "hot_score": 0.31,
-      "tags": [
-        "AI",
-        "Politics",
-        "Energy"
-      ]
-    },
-    {
-      "title_en": "Giving LLMs a personality is just good engineering",
-      "url": "https://www.seangoedecke.com/giving-llms-a-personality/",
-      "title_zh": "给 LLMs 赋予个性只是良好工程实践",
-      "created_display": "Created: Mar 03, 2026 / 19:37 PT",
-      "image_url": "https://www.seangoedecke.com/og-image.jpg",
-      "summary_en": "Argues that personality traits in LLMs can improve user trust and productivity, if designed with guardrails.",
-      "summary_zh": "认为赋予大语言模型个性化特征有助于提升用户信任与效率，前提是设有合适的护栏与规范。文中还探讨了人格控制、上下文管理与安全等工程实践。",
-      "hn": {
-        "id": 47242739,
-        "type": "story",
-        "by": "dboon",
-        "score": 28,
-        "descendants": 24,
-        "time": 1772595468,
-        "comments_url": "https://news.ycombinator.com/item?id=47242739"
-      },
-      "hot_score": 0.27,
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "title_en": "The JVG algorithm could break RSA-2048 encryption with fewer than 5k qubits",
-      "url": "https://briefglance.com/articles/new-quantum-algorithm-warns-of-an-accelerated-crypto-apocalypse",
-      "title_zh": "JVG 算法或在不到 5k 量子比特下破解 RSA-2048",
-      "created_display": "Created: Mar 04, 2026 / 04:04 PT",
-      "image_url": "https://briefglance.com/android-chrome-512x512.png",
-      "summary_en": "Researchers claim a quantum algorithm (JVG) could break RSA-2048 with under 5,000 qubits, underscoring the looming need for stronger quantum-resistant cryptography. The result accelerates timelines for practical quantum threats and motivates post-quantum crypto research.",
-      "summary_zh": "一种名为 JVG 的新量子算法声称能用不到 5k 量子比特破解 RSA-2048，这凸显了量子威胁的加速临近，并推动对抗量子攻击的后量子加密研究。",
-      "hn": {
-        "id": 47246295,
-        "type": "story",
-        "by": "giuliomagnifico",
-        "score": 5,
-        "descendants": 3,
-        "time": 1772625861,
-        "comments_url": "https://news.ycombinator.com/item?id=47246295"
-      },
-      "hot_score": 0.26,
-      "tags": [
-        "Security",
-        "Science"
+        "Data",
+        "Business"
       ]
     },
     {
@@ -834,10 +1225,79 @@
       },
       "tags": [
         "AI",
-        "DevOps",
         "Startups"
       ],
-      "hot_score": 0.25
+      "hot_score": 0.19
+    },
+    {
+      "title_en": "Giving LLMs a personality is just good engineering",
+      "url": "https://www.seangoedecke.com/giving-llms-a-personality/",
+      "title_zh": "给 LLMs 赋予个性只是良好工程实践",
+      "created_display": "Created: Mar 03, 2026 / 19:37 PT",
+      "image_url": "https://www.seangoedecke.com/og-image.jpg",
+      "summary_en": "Argues that personality traits in LLMs can improve user trust and productivity, if designed with guardrails.",
+      "summary_zh": "认为赋予大语言模型个性化特征有助于提升用户信任与效率，前提是设有合适的护栏与规范。文中还探讨了人格控制、上下文管理与安全等工程实践。",
+      "hn": {
+        "id": 47242739,
+        "type": "story",
+        "by": "dboon",
+        "score": 28,
+        "descendants": 24,
+        "time": 1772595468,
+        "comments_url": "https://news.ycombinator.com/item?id=47242739"
+      },
+      "hot_score": 0.16,
+      "tags": [
+        "AI",
+        "Design"
+      ]
+    },
+    {
+      "title_en": "Nuclear War: An LLM Scenario",
+      "url": "https://chrisclapham.com/blog/nuclear-war-an-llm-scenario",
+      "title_zh": "核战争：一个大语言模型情景",
+      "created_display": "Created: Mar 04, 2026 / 00:23 PT",
+      "image_url": null,
+      "summary_en": "A thought experiment using LLMs to simulate a nuclear conflict scenario, exploring how AI could model and reason about geopolitical crises. It highlights both potential uses and ethical concerns of AI in strategic simulation.",
+      "summary_zh": "以大语言模型为工具，构建核战争情景的思考实验，评估 AI 在建模与推演地缘政治危机时的潜在用途与伦理风险。",
+      "hn": {
+        "id": 47244651,
+        "type": "story",
+        "by": "huey77",
+        "score": 15,
+        "descendants": 11,
+        "time": 1772612606,
+        "comments_url": "https://news.ycombinator.com/item?id=47244651"
+      },
+      "hot_score": 0.15,
+      "tags": [
+        "AI",
+        "Politics",
+        "Energy"
+      ]
+    },
+    {
+      "title_en": "The JVG algorithm could break RSA-2048 encryption with fewer than 5k qubits",
+      "url": "https://briefglance.com/articles/new-quantum-algorithm-warns-of-an-accelerated-crypto-apocalypse",
+      "title_zh": "JVG 算法或在不到 5k 量子比特下破解 RSA-2048",
+      "created_display": "Created: Mar 04, 2026 / 04:04 PT",
+      "image_url": "https://briefglance.com/android-chrome-512x512.png",
+      "summary_en": "Researchers claim a quantum algorithm (JVG) could break RSA-2048 with under 5,000 qubits, underscoring the looming need for stronger quantum-resistant cryptography. The result accelerates timelines for practical quantum threats and motivates post-quantum crypto research.",
+      "summary_zh": "一种名为 JVG 的新量子算法声称能用不到 5k 量子比特破解 RSA-2048，这凸显了量子威胁的加速临近，并推动对抗量子攻击的后量子加密研究。",
+      "hn": {
+        "id": 47246295,
+        "type": "story",
+        "by": "giuliomagnifico",
+        "score": 5,
+        "descendants": 3,
+        "time": 1772625861,
+        "comments_url": "https://news.ycombinator.com/item?id=47246295"
+      },
+      "hot_score": 0.08,
+      "tags": [
+        "Science",
+        "Security"
+      ]
     },
     {
       "title_en": "Show HN: I made a zero-copy coroutine tracer to find my scheduler's lost wakeups",
@@ -851,17 +1311,16 @@
         "id": 47230620,
         "type": "story",
         "by": "lixiasky",
-        "score": 35,
+        "score": 39,
         "descendants": 1,
         "time": 1772534486,
         "comments_url": "https://news.ycombinator.com/item?id=47230620"
       },
-      "hot_score": 0.07,
       "tags": [
         "Show HN",
-        "Programming",
-        "Open Source"
-      ]
+        "Programming"
+      ],
+      "hot_score": 0.07
     },
     {
       "title_en": "Textadept",
@@ -875,14 +1334,13 @@
         "id": 47204027,
         "type": "story",
         "by": "giancarlostoro",
-        "score": 171,
-        "descendants": 33,
+        "score": 179,
+        "descendants": 41,
         "time": 1772343418,
         "comments_url": "https://news.ycombinator.com/item?id=47204027"
       },
       "tags": [
-        "Programming",
-        "Open Source"
+        "Programming"
       ],
       "hot_score": 0.06
     },
@@ -898,15 +1356,85 @@
         "id": 47206647,
         "type": "story",
         "by": "exceptione",
-        "score": 100,
-        "descendants": 39,
+        "score": 159,
+        "descendants": 55,
         "time": 1772372856,
         "comments_url": "https://news.ycombinator.com/item?id=47206647"
       },
-      "hot_score": 0.04,
       "tags": [
         "Programming"
+      ],
+      "hot_score": 0.06
+    },
+    {
+      "title_en": "Show HN: Stacked Game of Life",
+      "url": "https://stacked-game-of-life.koenvangilst.nl/",
+      "title_zh": "Show HN：叠层生命游戏",
+      "created_display": "Created: Feb 28, 2026 / 08:28 PT",
+      "image_url": null,
+      "summary_en": "Stacked Game of Life extends the classic cellular automaton with layered grids or stacking semantics, creating richer patterns and interactions. It's a playful exploration of how small rules scales into complex emergent behavior.",
+      "summary_zh": "叠层生命游戏在经典细胞自动机基础上加入分层网格或叠加语义，产生更丰富的图样与互动。这是对小规则如何演化出复杂涌现行为的有趣探索。",
+      "hn": {
+        "id": 47197218,
+        "type": "story",
+        "by": "vnglst",
+        "score": 145,
+        "descendants": 24,
+        "time": 1772296134,
+        "comments_url": "https://news.ycombinator.com/item?id=47197218"
+      },
+      "tags": [
+        "Show HN",
+        "Gaming"
+      ],
+      "hot_score": 0.04
+    },
+    {
+      "title_en": "Libre Solar – Open Hardware for Renewable Energy",
+      "url": "https://libre.solar",
+      "title_zh": "Libre Solar：面向可再生能源的开源硬件",
+      "created_display": "Created: Mar 01, 2026 / 01:01 PT",
+      "image_url": "https://libre.solar/images/libresolar-logo-website-dark.png",
+      "summary_en": "Libre Solar offers open hardware designs for renewable energy, from solar charge controllers to microinverters, enabling DIY communities to build and customize sustainable electronics. The project underscores the value of open-source hardware in accelerating energy tech adoption.",
+      "summary_zh": "Libre Solar 提供面向可再生能源的开源硬件设计，从太阳能充电控制器到微型逆变器，帮助社区搭建并定制可持续电子设备。该项目凸显了开源硬件在推动能源科技普及方面的价值。",
+      "hn": {
+        "id": 47204994,
+        "type": "story",
+        "by": "evolve2k",
+        "score": 120,
+        "descendants": 36,
+        "time": 1772355665,
+        "comments_url": "https://news.ycombinator.com/item?id=47204994"
+      },
+      "hot_score": 0.04,
+      "tags": [
+        "Open Source",
+        "Hardware",
+        "Energy"
       ]
+    },
+    {
+      "title_en": "Charging a three-cell nickel-based battery pack with a Li-Ion charger [pdf]",
+      "url": "https://www.ti.com/lit/an/slyt468/slyt468.pdf",
+      "title_zh": "用锂离子充电器给三节镍基电池充电（PDF）",
+      "created_display": "Created: Mar 03, 2026 / 06:55 PT",
+      "image_url": null,
+      "summary_en": "The TI note explains why using a Li-ion charger to charge Ni-based cells is problematic, covering charging curves, safety limits, and potential cell damage. It emphasizes the importance of chemistry-aware charging strategies for safe, reliable battery design.",
+      "summary_zh": "这份 TI 技术文章解释为何使用锂离子充电器给三节镍基电池充电会带来问题，涵盖充电曲线、安全限制与潜在的电池损伤。强调在电池设计中采用化学特性相匹配的充电策略以确保安全与可靠性。",
+      "hn": {
+        "id": 47233336,
+        "type": "story",
+        "by": "theblazehen",
+        "score": 21,
+        "descendants": 3,
+        "time": 1772549757,
+        "comments_url": "https://news.ycombinator.com/item?id=47233336"
+      },
+      "tags": [
+        "Science",
+        "Energy"
+      ],
+      "hot_score": 0.04
     },
     {
       "title_en": "You can use newline characters in URLs",
@@ -954,27 +1482,27 @@
       "hot_score": 0.03
     },
     {
-      "title_en": "Show HN: Stacked Game of Life",
-      "url": "https://stacked-game-of-life.koenvangilst.nl/",
-      "title_zh": "Show HN：叠层生命游戏",
-      "created_display": "Created: Feb 28, 2026 / 08:28 PT",
+      "title_en": "Elevator Saga: The elevator programming game (2015)",
+      "url": "https://play.elevatorsaga.com/index.html",
+      "title_zh": "Elevator Saga：电梯编程游戏（2015）",
+      "created_display": "Created: Feb 28, 2026 / 23:26 PT",
       "image_url": null,
-      "summary_en": "Stacked Game of Life extends the classic cellular automaton with layered grids or stacking semantics, creating richer patterns and interactions. It's a playful exploration of how small rules scales into complex emergent behavior.",
-      "summary_zh": "叠层生命游戏在经典细胞自动机基础上加入分层网格或叠加语义，产生更丰富的图样与互动。这是对小规则如何演化出复杂涌现行为的有趣探索。",
+      "summary_en": "This browser game challenges players to optimize elevator scheduling under constraints, teaching concepts like concurrency, event-driven design, and systems thinking. It's a surprisingly effective sandbox for engineers to practice algorithmic thinking.",
+      "summary_zh": "这款浏览器游戏要求玩家在约束条件下优化电梯调度，涵盖并发、事件驱动设计与系统思维等概念。它意外成为训练工程师算法思考的高效沙盒。",
       "hn": {
-        "id": 47197218,
+        "id": 47204504,
         "type": "story",
-        "by": "vnglst",
-        "score": 90,
-        "descendants": 16,
-        "time": 1772296134,
-        "comments_url": "https://news.ycombinator.com/item?id=47197218"
+        "by": "xmprt",
+        "score": 80,
+        "descendants": 14,
+        "time": 1772349960,
+        "comments_url": "https://news.ycombinator.com/item?id=47204504"
       },
-      "hot_score": 0.02,
       "tags": [
-        "Show HN",
-        "Gaming"
-      ]
+        "Gaming",
+        "Web"
+      ],
+      "hot_score": 0.03
     },
     {
       "title_en": "On the Design of Programming Languages (1974) [pdf]",
@@ -988,63 +1516,38 @@
         "id": 47205031,
         "type": "story",
         "by": "jruohonen",
-        "score": 62,
-        "descendants": 20,
+        "score": 71,
+        "descendants": 29,
         "time": 1772356144,
         "comments_url": "https://news.ycombinator.com/item?id=47205031"
       },
       "tags": [
-        "Design",
         "Programming"
       ],
       "hot_score": 0.02
     },
     {
-      "title_en": "Elevator Saga: The elevator programming game (2015)",
-      "url": "https://play.elevatorsaga.com/index.html",
-      "title_zh": "Elevator Saga：电梯编程游戏（2015）",
-      "created_display": "Created: Feb 28, 2026 / 23:26 PT",
-      "image_url": null,
-      "summary_en": "This browser game challenges players to optimize elevator scheduling under constraints, teaching concepts like concurrency, event-driven design, and systems thinking. It's a surprisingly effective sandbox for engineers to practice algorithmic thinking.",
-      "summary_zh": "这款浏览器游戏要求玩家在约束条件下优化电梯调度，涵盖并发、事件驱动设计与系统思维等概念。它意外成为训练工程师算法思考的高效沙盒。",
+      "title_en": "Greg Knauss Is Losing Himself",
+      "url": "https://shapeof.com/archives/2026/2/greg_knauss_is_losing_himself.html",
+      "title_zh": "Greg Knauss 正在迷失自我",
+      "created_display": "Created: Mar 01, 2026 / 10:09 PT",
+      "image_url": "https://shapeof.com/images/header-256.png",
+      "summary_en": "A personal essay exploring identity, self-doubt, and the toll of online life in the tech world. It offers reflections on burnout and finding authenticity beyond career metrics.",
+      "summary_zh": "这篇个人随笔探讨在科技行业中对自我认同和自我怀疑的感受，以及网络生活对身心的影响。文章提供关于职业倦怠与在职业指标之外寻找真实自我的思考。",
       "hn": {
-        "id": 47204504,
+        "id": 47209122,
         "type": "story",
-        "by": "xmprt",
-        "score": 49,
-        "descendants": 7,
-        "time": 1772349960,
-        "comments_url": "https://news.ycombinator.com/item?id=47204504"
+        "by": "wallflower",
+        "score": 52,
+        "descendants": 34,
+        "time": 1772388548,
+        "comments_url": "https://news.ycombinator.com/item?id=47209122"
       },
-      "hot_score": 0.02,
       "tags": [
-        "Gaming",
-        "Programming",
-        "Web"
-      ]
-    },
-    {
-      "title_en": "Welcoming Elizabeth Barron as the New Executive Director of the PHP Foundation",
-      "url": "https://thephp.foundation/blog/2026/02/27/welcoming-elizabeth-barron-new-executive-director/",
-      "title_zh": "欢迎 Elizabeth Barron 成为 PHP 基金会新任执行董事",
-      "created_display": "Created: Mar 01, 2026 / 02:56 PT",
-      "image_url": "https://thephp.foundation/assets/share/2026-02-27-welcoming-elizabeth-barron-new-executive-director.png",
-      "summary_en": "Elizabeth Barron steps in as PHP Foundation's new executive director, likely signaling a shift in PHP ecosystem governance and priorities. Expect emphasis on community growth, stewardship of PHP core, and developer education.",
-      "summary_zh": "Elizabeth Barron 将出任 PHP 基金会新任执行董事，预示 PHP 生态治理与优先事项的变化。未来可能聚焦于社区扩展、核心维护与开发者教育。",
-      "hn": {
-        "id": 47205603,
-        "type": "story",
-        "by": "ulrischa",
-        "score": 41,
-        "descendants": 18,
-        "time": 1772362577,
-        "comments_url": "https://news.ycombinator.com/item?id=47205603"
-      },
-      "hot_score": 0.02,
-      "tags": [
-        "Business",
-        "Education"
-      ]
+        "Culture",
+        "Career"
+      ],
+      "hot_score": 0.02
     },
     {
       "title_en": "Reverse-Engineering the Wetware: Spiking Networks and the End of Matrix Math",
@@ -1065,33 +1568,8 @@
       },
       "hot_score": 0.02,
       "tags": [
-        "Science",
-        "Hardware",
-        "AI"
-      ]
-    },
-    {
-      "title_en": "Charging a three-cell nickel-based battery pack with a Li-Ion charger [pdf]",
-      "url": "https://www.ti.com/lit/an/slyt468/slyt468.pdf",
-      "title_zh": "用锂离子充电器给三节镍基电池充电（PDF）",
-      "created_display": "Created: Mar 03, 2026 / 06:55 PT",
-      "image_url": null,
-      "summary_en": "The TI note explains why using a Li-ion charger to charge Ni-based cells is problematic, covering charging curves, safety limits, and potential cell damage. It emphasizes the importance of chemistry-aware charging strategies for safe, reliable battery design.",
-      "summary_zh": "这份 TI 技术文章解释为何使用锂离子充电器给三节镍基电池充电会带来问题，涵盖充电曲线、安全限制与潜在的电池损伤。强调在电池设计中采用化学特性相匹配的充电策略以确保安全与可靠性。",
-      "hn": {
-        "id": 47233336,
-        "type": "story",
-        "by": "theblazehen",
-        "score": 9,
-        "descendants": 0,
-        "time": 1772549757,
-        "comments_url": "https://news.ycombinator.com/item?id=47233336"
-      },
-      "hot_score": 0.02,
-      "tags": [
-        "Hardware",
-        "Energy",
-        "Science"
+        "AI",
+        "Hardware"
       ]
     },
     {
@@ -1106,38 +1584,83 @@
         "id": 47197749,
         "type": "story",
         "by": "eustoria",
-        "score": 20,
-        "descendants": 1,
+        "score": 51,
+        "descendants": 4,
         "time": 1772298860,
         "comments_url": "https://news.ycombinator.com/item?id=47197749"
       },
-      "hot_score": 0.01,
       "tags": [
         "Design",
         "Culture"
-      ]
+      ],
+      "hot_score": 0.01
     },
     {
-      "title_en": "Greg Knauss Is Losing Himself",
-      "url": "https://shapeof.com/archives/2026/2/greg_knauss_is_losing_himself.html",
-      "title_zh": "Greg Knauss 正在迷失自我",
-      "created_display": "Created: Mar 01, 2026 / 10:09 PT",
-      "image_url": "https://shapeof.com/images/header-256.png",
-      "summary_en": "A personal essay exploring identity, self-doubt, and the toll of online life in the tech world. It offers reflections on burnout and finding authenticity beyond career metrics.",
-      "summary_zh": "这篇个人随笔探讨在科技行业中对自我认同和自我怀疑的感受，以及网络生活对身心的影响。文章提供关于职业倦怠与在职业指标之外寻找真实自我的思考。",
+      "title_en": "Welcoming Elizabeth Barron as the New Executive Director of the PHP Foundation",
+      "url": "https://thephp.foundation/blog/2026/02/27/welcoming-elizabeth-barron-new-executive-director/",
+      "title_zh": "欢迎 Elizabeth Barron 成为 PHP 基金会新任执行董事",
+      "created_display": "Created: Mar 01, 2026 / 02:56 PT",
+      "image_url": "https://thephp.foundation/assets/share/2026-02-27-welcoming-elizabeth-barron-new-executive-director.png",
+      "summary_en": "Elizabeth Barron steps in as PHP Foundation's new executive director, likely signaling a shift in PHP ecosystem governance and priorities. Expect emphasis on community growth, stewardship of PHP core, and developer education.",
+      "summary_zh": "Elizabeth Barron 将出任 PHP 基金会新任执行董事，预示 PHP 生态治理与优先事项的变化。未来可能聚焦于社区扩展、核心维护与开发者教育。",
       "hn": {
-        "id": 47209122,
+        "id": 47205603,
         "type": "story",
-        "by": "wallflower",
-        "score": 17,
-        "descendants": 1,
-        "time": 1772388548,
-        "comments_url": "https://news.ycombinator.com/item?id=47209122"
+        "by": "ulrischa",
+        "score": 41,
+        "descendants": 18,
+        "time": 1772362577,
+        "comments_url": "https://news.ycombinator.com/item?id=47205603"
       },
       "hot_score": 0.01,
       "tags": [
-        "Culture",
-        "Health"
+        "Business",
+        "Education"
+      ]
+    },
+    {
+      "title_en": "Raspberry Pi Pico as AM Radio Transmitter",
+      "url": "https://www.pesfandiar.com/blog/2026/02/28/pico-am-radio-transmitter",
+      "title_zh": "Raspberry Pi Pico 作为 AM 无线电发射机",
+      "created_display": "Created: Feb 28, 2026 / 16:26 PT",
+      "image_url": "https://www.pesfandiar.com/assets/themes/the-program/images/80x15.png",
+      "summary_en": "A project shows the Raspberry Pi Pico can function as an AM radio transmitter with minimal hardware, illustrating how hobbyist microcontrollers can explore radio tech. It highlights accessible experimentation but also considerations around regulatory compliance and signal integrity.",
+      "summary_zh": "该项目展示了 Raspberry Pi Pico 在最小硬件条件下实现 AM 无线电发射，体现了业余微控制器在无线电技术探索中的可行性。也提醒关注合规性与信号质量等问题。",
+      "hn": {
+        "id": 47202210,
+        "type": "story",
+        "by": "pesfandiar",
+        "score": 17,
+        "descendants": 5,
+        "time": 1772324803,
+        "comments_url": "https://news.ycombinator.com/item?id=47202210"
+      },
+      "hot_score": 0.0,
+      "tags": [
+        "Hardware",
+        "Politics"
+      ]
+    },
+    {
+      "title_en": "SRGB↔XYZ Conversion (2021)",
+      "url": "https://mina86.com/2019/srgb-xyz-conversion/",
+      "title_zh": "sRGB 与 XYZ 转换（2021）",
+      "created_display": "Created: Mar 01, 2026 / 22:17 PT",
+      "image_url": null,
+      "summary_en": "A technical explainer details how to convert between sRGB and XYZ color spaces, highlighting implications for color management, ICC profiles, and accurate rendering across devices.",
+      "summary_zh": "技术解释讲解如何在 sRGB 与 XYZ 色彩空间之间转换，强调颜色管理、ICC 配置文件以及在不同设备上实现准确呈现的要点。",
+      "hn": {
+        "id": 47214478,
+        "type": "story",
+        "by": "kqr",
+        "score": 7,
+        "descendants": 5,
+        "time": 1772432248,
+        "comments_url": "https://news.ycombinator.com/item?id=47214478"
+      },
+      "hot_score": 0.0,
+      "tags": [
+        "Science"
       ]
     }
   ]

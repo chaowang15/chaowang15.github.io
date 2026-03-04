@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>17</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>2164</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>16</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>15</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-03-04</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>17</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>2187</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>16</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>15</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-03-04</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,29 +20,29 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='109' data-hn-time='1772633801'>
+<div class='hn-top-story-item' data-hn-score='873' data-hn-time='1772633801'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/04/top_stories_03042026#story-47247645'>Apple Introduces MacBook Neo</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/04/top_stories_03042026#story-47247645'>MacBook Neo</a>
  <a class='hn-top-story-link' href='https://www.apple.com/newsroom/2026/03/say-hello-to-macbook-neo/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>苹果推出 MacBook Neo</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 23</span> <span class='hn-top-story-score'>&#9650; 109</span> <span class='hn-top-story-comments'>&#128172; 78</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Energy</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 30</span> <span class='hn-top-story-score'>&#9650; 873</span> <span class='hn-top-story-comments'>&#128172; 1179</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Energy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='69' data-hn-time='1772633816'>
+<div class='hn-top-story-item' data-hn-score='234' data-hn-time='1772639734'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/04/top_stories_03042026#story-47247649'>MacBook Neo</a>
- <a class='hn-top-story-link' href='https://www.apple.com/macbook-neo/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/04/top_stories_03042026#story-47249343'>Something is afoot in the land of Qwen</a>
+ <a class='hn-top-story-link' href='https://simonwillison.net/2026/Mar/4/qwen/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>MacBook Neo</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 14</span> <span class='hn-top-story-score'>&#9650; 69</span> <span class='hn-top-story-comments'>&#128172; 43</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>Qwen 领域出现新动向</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 14</span> <span class='hn-top-story-score'>&#9650; 234</span> <span class='hn-top-story-comments'>&#128172; 95</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='210' data-hn-time='1772624612'>
+<div class='hn-top-story-item' data-hn-score='609' data-hn-time='1772624612'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -50,84 +50,84 @@ Sort:
  <a class='hn-top-story-link' href='https://terriblesoftware.org/2026/03/03/nobody-gets-promoted-for-simplicity/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>没有人因为追求简单而升职</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 210</span> <span class='hn-top-story-comments'>&#128172; 109</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 609</span> <span class='hn-top-story-comments'>&#128172; 364</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='962' data-hn-time='1772585911'>
+<div class='hn-top-story-item' data-hn-score='229' data-hn-time='1772636028'>
 <span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/04/top_stories_03042026#story-47248341'>Government grant-funded research should not be published in for-profit journals</a>
+ <a class='hn-top-story-link' href='https://www.experimental-history.com/p/the-one-science-reform-we-can-all' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>政府资助的研究不应发表在商业化期刊上</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.5</span> <span class='hn-top-story-score'>&#9650; 229</span> <span class='hn-top-story-comments'>&#128172; 115</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Education</span> <span class='hn-top-story-tag'>Politics</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='158' data-hn-time='1772635966'>
+<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/04/top_stories_03042026#story-47248319'>“It turns out” (2010)</a>
+ <a class='hn-top-story-link' href='https://jsomers.net/blog/it-turns-out' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>原来如此（2010）</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.5</span> <span class='hn-top-story-score'>&#9650; 158</span> <span class='hn-top-story-comments'>&#128172; 61</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Data</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='35' data-hn-time='1772647959'>
+<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/04/top_stories_03042026#story-47251480'>Making Firefox's right-click not suck with about:config</a>
+ <a class='hn-top-story-link' href='https://joshua.hu/firefox-making-right-click-not-suck' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>让 Firefox 右键菜单更顺畅：通过 about:config 调整</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.4</span> <span class='hn-top-story-score'>&#9650; 35</span> <span class='hn-top-story-comments'>&#128172; 12</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Web</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1135' data-hn-time='1772585911'>
+<span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/03/04/top_stories_03042026#story-47241551'>Motorola GrapheneOS devices will be bootloader unlockable/relockable</a>
  <a class='hn-top-story-link' href='https://grapheneos.social/@GrapheneOS/116160393783585567' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>摩托罗拉的 GrapheneOS 设备将支持解锁与重新锁定引导加载程序</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.8</span> <span class='hn-top-story-score'>&#9650; 962</span> <span class='hn-top-story-comments'>&#128172; 374</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.3</span> <span class='hn-top-story-score'>&#9650; 1135</span> <span class='hn-top-story-comments'>&#128172; 455</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='57' data-hn-time='1772630491'>
-<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='111' data-hn-time='1772636556'>
+<span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/04/top_stories_03042026#story-47248511'>Medical journal says the case reports it has published for 25 years are fiction</a>
+ <a class='hn-top-story-link' href='https://retractionwatch.com/2026/03/03/canadian-pediatric-society-journal-correction-case-reports-fictional-paediatrics-child-health/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>医学期刊称其过去25年的病例报道为虚构</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.8</span> <span class='hn-top-story-score'>&#9650; 111</span> <span class='hn-top-story-comments'>&#128172; 44</span> <span class='hn-top-story-tag'>Health</span> <span class='hn-top-story-tag'>Science</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='139' data-hn-time='1772630491'>
+<span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/03/04/top_stories_03042026#story-47247033'>Glaze by Raycast</a>
  <a class='hn-top-story-link' href='https://www.glazeapp.com/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Raycast 推出 Glaze</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.5</span> <span class='hn-top-story-score'>&#9650; 57</span> <span class='hn-top-story-comments'>&#128172; 36</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.8</span> <span class='hn-top-story-score'>&#9650; 139</span> <span class='hn-top-story-comments'>&#128172; 79</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='184' data-hn-time='1772617340'>
-<span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/04/top_stories_03042026#story-47245211'>Bet on German Train Delays</a>
- <a class='hn-top-story-link' href='https://bahn.bet' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>押注德国铁路延误</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.6</span> <span class='hn-top-story-score'>&#9650; 184</span> <span class='hn-top-story-comments'>&#128172; 140</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>DevOps</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='286' data-hn-time='1772600437'>
-<span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/04/top_stories_03042026#story-47243272'>Agentic Engineering Patterns</a>
- <a class='hn-top-story-link' href='https://simonwillison.net/guides/agentic-engineering-patterns/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>代理式工程模式</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 286</span> <span class='hn-top-story-comments'>&#128172; 143</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='36' data-hn-time='1772628844'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/04/top_stories_03042026#story-47246746'>Did Alibaba just kneecap its powerful Qwen AI team?</a>
- <a class='hn-top-story-link' href='https://venturebeat.com/technology/did-alibaba-just-kneecap-its-powerful-qwen-ai-team-key-figures-depart-in' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>阿里巴巴是否在削弱其强大的 Qwen AI 团队？</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 36</span> <span class='hn-top-story-comments'>&#128172; 13</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Politics</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='163' data-hn-time='1772609124'>
-<span class='hn-top-story-rank'>9</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/04/top_stories_03042026#story-47244291'>RFC 9849. TLS Encrypted Client Hello</a>
- <a class='hn-top-story-link' href='https://www.rfc-editor.org/rfc/rfc9849.html' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>RFC 9849：TLS 加密的客户端问候</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 163</span> <span class='hn-top-story-comments'>&#128172; 71</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='12' data-hn-time='1772633913'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='49' data-hn-time='1772641458'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/04/top_stories_03042026#story-47247670'>Apple Announces Low-Cost 'MacBook Neo' with A18 Pro Chip</a>
- <a class='hn-top-story-link' href='https://www.macrumors.com/2026/03/04/apple-announces-low-cost-macbook-neo-with-a18-pro-chip/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/04/top_stories_03042026#story-47249809'>Sea level much higher than assumed in most coastal hazard assessments</a>
+ <a class='hn-top-story-link' href='https://www.nature.com/articles/s41586-026-10196-1' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>苹果宣布低价 MacBook Neo，搭载 A18 Pro 芯片</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 12</span> <span class='hn-top-story-comments'>&#128172; 1</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>沿海风险评估中的海平面远高于普遍假设</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 49</span> <span class='hn-top-story-comments'>&#128172; 20</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>DevOps</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -155,7 +155,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/03/04/top_stories_03042026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>49</b> <span class="hn-row-sep">·</span> Programming <b>14</b> <span class="hn-row-sep">·</span> AI <b>13</b></span>
+<span class='hn-row-detail'>All <b>72</b> <span class="hn-row-sep">·</span> AI <b>18</b> <span class="hn-row-sep">·</span> Programming <b>17</b></span>
 </a>
 </div>
 </div>
