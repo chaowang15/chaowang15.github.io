@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>18</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>2314</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>17</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>16</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-03-05</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>18</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>2339</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>17</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>16</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-03-05</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='104' data-hn-time='1772719546'>
+<div class='hn-top-story-item' data-hn-score='505' data-hn-time='1772726694'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/05/top_stories_03052026#story-47261688'>Judge Orders Government to Begin Refunding More Than $130B in Tariffs</a>
- <a class='hn-top-story-link' href='https://www.wsj.com/politics/policy/judge-orders-government-to-begin-refunding-more-than-130-billion-in-tariffs-fdc1e62c' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/05/top_stories_03052026#story-47263323'>Wikipedia in read-only mode following mass admin account compromise</a>
+ <a class='hn-top-story-link' href='https://www.wikimediastatus.net' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>法官命令政府开始退还超过1300亿美元关税</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 18</span> <span class='hn-top-story-score'>&#9650; 104</span> <span class='hn-top-story-comments'>&#128172; 48</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Finance</span></div>
+<div class='hn-top-story-zh'>维基百科因管理员账户被大规模入侵而进入只读模式</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 26</span> <span class='hn-top-story-score'>&#9650; 505</span> <span class='hn-top-story-comments'>&#128172; 158</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='319' data-hn-time='1772699871'>
+<div class='hn-top-story-item' data-hn-score='688' data-hn-time='1772719546'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/05/top_stories_03052026#story-47259177'>No right to relicense this project</a>
- <a class='hn-top-story-link' href='https://github.com/chardet/chardet/issues/327' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/05/top_stories_03052026#story-47261688'>Judge orders government to begin refunding more than $130B in tariffs</a>
+ <a class='hn-top-story-link' href='https://www.wsj.com/politics/policy/judge-orders-government-to-begin-refunding-more-than-130-billion-in-tariffs-fdc1e62c' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>无权重新授权此项目</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.3</span> <span class='hn-top-story-score'>&#9650; 319</span> <span class='hn-top-story-comments'>&#128172; 195</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Legal</span></div>
+<div class='hn-top-story-zh'>法官命令政府开始退还超过1300亿美元关税</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 20</span> <span class='hn-top-story-score'>&#9650; 688</span> <span class='hn-top-story-comments'>&#128172; 510</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='1845' data-hn-time='1772633801'>
+<div class='hn-top-story-item' data-hn-score='135' data-hn-time='1772734090'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/05/top_stories_03052026#story-47247645'>MacBook Neo</a>
- <a class='hn-top-story-link' href='https://www.apple.com/newsroom/2026/03/say-hello-to-macbook-neo/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/05/top_stories_03052026#story-47265045'>GPT-5.4 Thinking System Card</a>
+ <a class='hn-top-story-link' href='https://openai.com/index/gpt-5-4-thinking-system-card/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>苹果推出 MacBook Neo</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.1</span> <span class='hn-top-story-score'>&#9650; 1845</span> <span class='hn-top-story-comments'>&#128172; 2152</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Energy</span></div>
+<div class='hn-top-story-zh'>GPT-5.4 思考系统卡</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 17</span> <span class='hn-top-story-score'>&#9650; 135</span> <span class='hn-top-story-comments'>&#128172; 90</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='732' data-hn-time='1772670129'>
+<div class='hn-top-story-item' data-hn-score='117' data-hn-time='1772730982'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/05/top_stories_03052026#story-47255881'>Google Workspace CLI</a>
- <a class='hn-top-story-link' href='https://github.com/googleworkspace/cli' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/05/top_stories_03052026#story-47264341'>The Government Uses Targeted Advertising to Track Your Location</a>
+ <a class='hn-top-story-link' href='https://www.eff.org/deeplinks/2026/03/targeted-advertising-gives-your-location-government-just-ask-cbp' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Google Workspace CLI（命令行工具）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.8</span> <span class='hn-top-story-score'>&#9650; 732</span> <span class='hn-top-story-comments'>&#128172; 243</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>政府使用定向广告追踪你的位置信息</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.7</span> <span class='hn-top-story-score'>&#9650; 117</span> <span class='hn-top-story-comments'>&#128172; 37</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='422' data-hn-time='1772683352'>
+<div class='hn-top-story-item' data-hn-score='70' data-hn-time='1772734288'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/05/top_stories_03052026#story-47257394'>The L in "LLM" Stands for Lying</a>
- <a class='hn-top-story-link' href='https://acko.net/blog/the-l-in-llm-stands-for-lying/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/05/top_stories_03052026#story-47265089'>GPT-5.4 Thinking and GPT-5.4 Pro</a>
+ <a class='hn-top-story-link' href='https://twitter.com/i/status/2029620619743219811' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>LLM 中的 L 代表撒谎</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.3</span> <span class='hn-top-story-score'>&#9650; 422</span> <span class='hn-top-story-comments'>&#128172; 259</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>GPT-5.4 思考与 GPT-5.4 专业版</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.2</span> <span class='hn-top-story-score'>&#9650; 70</span> <span class='hn-top-story-comments'>&#128172; 20</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='697' data-hn-time='1772668270'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='210' data-hn-time='1772723002'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/05/top_stories_03052026#story-47255662'>Dario Amodei calls OpenAI’s messaging around military deal ‘straight up lies’</a>
- <a class='hn-top-story-link' href='https://techcrunch.com/2026/03/04/anthropic-ceo-dario-amodei-calls-openais-messaging-around-military-deal-straight-up-lies-report-says/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/05/top_stories_03052026#story-47262347'>Google Safe Browsing missed 84% of confirmed phishing sites</a>
+ <a class='hn-top-story-link' href='https://www.norn-labs.com/blog/huginn-report-feb-2026' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>达里奥·阿莫迪称 OpenAI 关于军用交易的表述是赤裸裸的谎言</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.3</span> <span class='hn-top-story-score'>&#9650; 697</span> <span class='hn-top-story-comments'>&#128172; 358</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>Google Safe Browsing 未能发现 84% 确认的钓鱼站点</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.8</span> <span class='hn-top-story-score'>&#9650; 210</span> <span class='hn-top-story-comments'>&#128172; 65</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='217' data-hn-time='1772696621'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='128' data-hn-time='1772727721'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/05/top_stories_03052026#story-47258801'>Nvidia PersonaPlex 7B on Apple Silicon: Full-Duplex Speech-to-Speech in Swift</a>
- <a class='hn-top-story-link' href='https://blog.ivan.digital/nvidia-personaplex-7b-on-apple-silicon-full-duplex-speech-to-speech-in-native-swift-with-mlx-0aa5276f2e23' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/05/top_stories_03052026#story-47263595'>A GitHub Issue Title Compromised 4k Developer Machines</a>
+ <a class='hn-top-story-link' href='https://grith.ai/blog/clinejection-when-your-ai-tool-installs-another' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>NVIDIA PersonaPlex 7B 在 Apple Silicon 上：Swift 原生实现的全双工语音对话</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.1</span> <span class='hn-top-story-score'>&#9650; 217</span> <span class='hn-top-story-comments'>&#128172; 67</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>GitHub 问题标题被入侵导致数千开发者机器被利用的警示</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.3</span> <span class='hn-top-story-score'>&#9650; 128</span> <span class='hn-top-story-comments'>&#128172; 26</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='243' data-hn-time='1772687253'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='153' data-hn-time='1772725732'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/05/top_stories_03052026#story-47257803'>Relicensing with AI-Assisted Rewrite</a>
- <a class='hn-top-story-link' href='https://tuananh.net/2026/03/05/relicensing-with-ai-assisted-rewrite/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/05/top_stories_03052026#story-47263036'>Show HN: Jido 2.0, Elixir Agent Framework</a>
+ <a class='hn-top-story-link' href='https://jido.run/blog/jido-2-0-is-here' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Relicensing with AI-Assisted Rewrite</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 243</span> <span class='hn-top-story-comments'>&#128172; 245</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Legal</span></div>
+<div class='hn-top-story-zh'>Show HN: Jido 2.0，Elixir Agent 框架</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.2</span> <span class='hn-top-story-score'>&#9650; 153</span> <span class='hn-top-story-comments'>&#128172; 35</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='609' data-hn-time='1772655363'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='49' data-hn-time='1772734567'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/05/top_stories_03052026#story-47253177'>Building a new Flash</a>
- <a class='hn-top-story-link' href='https://bill.newgrounds.com/news/post/1607118' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/05/top_stories_03052026#story-47265150'>GPT 5.4 Thinking and Pro</a>
+ <a class='hn-top-story-link' href='https://twitter.com/OpenAI/status/2029620619743219811' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>打造一个新的 Flash</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 609</span> <span class='hn-top-story-comments'>&#128172; 194</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>GPT 5.4 Thinking 与 Pro 版本</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.7</span> <span class='hn-top-story-score'>&#9650; 49</span> <span class='hn-top-story-comments'>&#128172; 6</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='589' data-hn-time='1772650245'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='209' data-hn-time='1772718763'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/05/top_stories_03052026#story-47252049'>An interactive map of Flock Cams</a>
- <a class='hn-top-story-link' href='https://deflock.org/map#map=5/37.125286/-96.284180' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/05/top_stories_03052026#story-47261561'>Good software knows when to stop</a>
+ <a class='hn-top-story-link' href='https://ogirardot.writizzy.com/p/good-software-knows-when-to-stop' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Flock Cams 的互动地图</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.3</span> <span class='hn-top-story-score'>&#9650; 589</span> <span class='hn-top-story-comments'>&#128172; 214</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Web</span></div>
+<div class='hn-top-story-zh'>优秀的软件懂得何时止步</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.7</span> <span class='hn-top-story-score'>&#9650; 209</span> <span class='hn-top-story-comments'>&#128172; 120</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Design</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -155,7 +155,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/03/05/top_stories_03052026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>49</b> <span class="hn-row-sep">·</span> Hardware <b>11</b> <span class="hn-row-sep">·</span> Programming <b>10</b></span>
+<span class='hn-row-detail'>All <b>74</b> <span class="hn-row-sep">·</span> AI <b>18</b> <span class="hn-row-sep">·</span> Programming <b>14</b></span>
 </a>
 </div>
 </div>
