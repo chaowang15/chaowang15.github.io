@@ -4,23 +4,46 @@
     "source": "https://news.ycombinator.com/",
     "api": "https://github.com/HackerNews/API",
     "count_requested": 50,
-    "count_written": 49,
-    "reused_same_day": 0,
-    "reused_cross_day": 31,
-    "new_llm_enriched": 18,
-    "scrape_time_display": "06:38, March 06, 2026 (PST)",
+    "count_written": 74,
+    "reused_same_day": 23,
+    "reused_cross_day": 0,
+    "new_llm_enriched": 26,
+    "scrape_time_display": "10:41, March 06, 2026 (PST)",
     "timezone": "America/Los_Angeles",
     "date_dir": "2026/03/06",
     "content_date": "2026-03-06",
-    "run_time_local": "06:38, March 06, 2026 (PST)",
-    "run_time_utc": "2026-03-06 14:38:13 UTC",
+    "run_time_local": "10:41, March 06, 2026 (PST)",
+    "run_time_utc": "2026-03-06 18:41:00 UTC",
     "incremental": true,
     "stories_max": 100,
-    "hot_score_time_utc": "2026-03-06 14:39:38 UTC"
+    "hot_score_time_utc": "2026-03-06 18:42:11 UTC"
   },
   "items": [
     {
-      "title_en": "US economy unexpectedly sheds 92,000 jobs in February",
+      "title_en": "Global warming has accelerated significantly",
+      "url": "https://www.researchgate.net/publication/389855619_Global_Warming_has_Accelerated_Significantly",
+      "title_zh": "全球变暖显著加速",
+      "created_display": "Created: Mar 06, 2026 / 06:10 PT",
+      "image_url": null,
+      "summary_en": "A study reports that global warming has accelerated significantly, underscoring that climate trends are intensifying faster than previously assumed. The finding reinforces urgency for policy action and robust infrastructure adaption in tech sectors.",
+      "summary_zh": "一项研究显示全球变暖显著加速，意味着气候趋势比此前预期更为迅速加强。这为政策行动和科技行业的基础设施适应性提出更高要求。",
+      "hn": {
+        "id": 47275088,
+        "type": "story",
+        "by": "morsch",
+        "score": 687,
+        "descendants": 661,
+        "time": 1772806203,
+        "comments_url": "https://news.ycombinator.com/item?id=47275088"
+      },
+      "hot_score": 23.38,
+      "tags": [
+        "Science",
+        "DevOps"
+      ]
+    },
+    {
+      "title_en": "US economy unexpectedly sheds 92k jobs in February",
       "url": "https://www.bbc.com/news/articles/cjd98091g28o",
       "title_zh": "美国2月就业数据意外下降9.2万岗位",
       "created_display": "Created: Mar 06, 2026 / 06:04 PT",
@@ -31,18 +54,18 @@
         "id": 47275035,
         "type": "story",
         "by": "smartbit",
-        "score": 77,
-        "descendants": 46,
+        "score": 430,
+        "descendants": 553,
         "time": 1772805858,
         "comments_url": "https://news.ycombinator.com/item?id=47275035"
       },
-      "hot_score": 13.71,
       "tags": [
-        "Finance"
-      ]
+        "Business"
+      ],
+      "hot_score": 14.24
     },
     {
-      "title_en": "Workers who love 'synergizing paradigms' might be bad at their jobs",
+      "title_en": "Workers who love ‘synergizing paradigms’ might be bad at their jobs",
       "url": "https://news.cornell.edu/stories/2026/03/workers-who-love-synergizing-paradigms-might-be-bad-their-jobs",
       "title_zh": "爱说‘协同范式’的员工可能不擅长工作",
       "created_display": "Created: Mar 06, 2026 / 05:30 PT",
@@ -53,15 +76,38 @@
         "id": 47274676,
         "type": "story",
         "by": "Anon84",
-        "score": 108,
-        "descendants": 46,
+        "score": 379,
+        "descendants": 210,
         "time": 1772803854,
         "comments_url": "https://news.ycombinator.com/item?id=47274676"
       },
-      "hot_score": 13.6,
       "tags": [
         "Culture",
         "Career"
+      ],
+      "hot_score": 10.85
+    },
+    {
+      "title_en": "Tech employment now significantly worse than the 2008 or 2020 recessions",
+      "url": "https://twitter.com/JosephPolitano/status/2029916364664611242",
+      "title_zh": "技术行业就业现在显著逊于2008年或2020年的衰退",
+      "created_display": "Created: Mar 06, 2026 / 09:46 PT",
+      "image_url": "https://pbs.twimg.com/media/HCu0mG9bEAAdzYM.png:large",
+      "summary_en": "New data suggest tech employment is currently worse off than in the 2008 or 2020 recessions, signaling a slower rebound and ongoing headwinds for software, hardware, and startups. The implication is clear: talent markets and hiring strategies may need to adapt to a more prolonged downturn.",
+      "summary_zh": "最新数据表明科技行业的就业状况显著弱于2008年和2020年衰退期，复苏速度放缓。对软件、硬件和初创公司而言，这意味着用人策略和投资计划需要更审慎、时间更长。",
+      "hn": {
+        "id": 47278426,
+        "type": "story",
+        "by": "enraged_camel",
+        "score": 56,
+        "descendants": 27,
+        "time": 1772819205,
+        "comments_url": "https://news.ycombinator.com/item?id=47278426"
+      },
+      "hot_score": 7.97,
+      "tags": [
+        "Business",
+        "Hardware"
       ]
     },
     {
@@ -76,16 +122,65 @@
         "id": 47273854,
         "type": "story",
         "by": "todsacerdoti",
-        "score": 126,
-        "descendants": 37,
+        "score": 281,
+        "descendants": 89,
         "time": 1772797998,
         "comments_url": "https://news.ycombinator.com/item?id=47273854"
       },
-      "hot_score": 7.5,
       "tags": [
         "Security",
         "AI",
         "Web"
+      ],
+      "hot_score": 5.57
+    },
+    {
+      "title_en": "Claude Code wiped our production database with a Terraform command",
+      "url": "https://twitter.com/Al_Grigor/status/2029889772181934425",
+      "title_zh": "Claude Code 通过 Terraform 命令在生产环境误删数据库",
+      "created_display": "Created: Mar 06, 2026 / 10:07 PT",
+      "image_url": "https://pbs.twimg.com/media/HCud_WGaUAE6hxf.jpg:large",
+      "summary_en": "An incident where Claude Code autonomously wiped a production database via a Terraform command underscores the risk of relying on AI-assisted tooling for critical operations. It highlights the need for safeguards, access controls, and strict IaC review processes.",
+      "summary_zh": "一起事件显示 Claude Code 通过 Terraform 命令在生产环境误删数据库，暴露出在关键操作中依赖 AI 助手的风险。提醒需要加强安全控制、访问权限与 IaC 审核流程。",
+      "hn": {
+        "id": 47278720,
+        "type": "story",
+        "by": "jv22222",
+        "score": 30,
+        "descendants": 12,
+        "time": 1772820472,
+        "comments_url": "https://news.ycombinator.com/item?id=47278720"
+      },
+      "hot_score": 5.3,
+      "tags": [
+        "AI",
+        "Security",
+        "DevOps",
+        "Data"
+      ]
+    },
+    {
+      "title_en": "Show HN: Moongate – Ultima Online server emulator in .NET 10 with Lua scripting",
+      "url": "https://github.com/moongate-community/moongatev2",
+      "title_zh": "Show HN: Moongate – 基于 .NET 的 Ultima Online 服务器模拟器，支持 Lua 脚本",
+      "created_display": "Created: Mar 06, 2026 / 06:22 PT",
+      "image_url": "https://opengraph.githubassets.com/ac37d10fe0e6c4c8d44737fcbe84dd8b1fceefc5e2e92188ec7ce8dd4773f195/moongate-community/moongatev2",
+      "summary_en": "Moongate is a community-driven Ultima Online server emulator built on .NET, featuring Lua scripting for game logic and customization. It showcases how retro MMORPGs can be hosted and extended with modern tooling, enabling custom rules and mods.",
+      "summary_zh": "Moongate 是基于 .NET 的 Ultima Online 服务器模拟器，支持 Lua 脚本来定制游戏逻辑。它展示了用现代工具托管和扩展经典 MMO 的可行性，便于玩家自定义规则与模组。",
+      "hn": {
+        "id": 47275236,
+        "type": "story",
+        "by": "squidleon",
+        "score": 135,
+        "descendants": 76,
+        "time": 1772806979,
+        "comments_url": "https://news.ycombinator.com/item?id=47275236"
+      },
+      "hot_score": 4.85,
+      "tags": [
+        "Show HN",
+        "Open Source",
+        "Programming"
       ]
     },
     {
@@ -100,16 +195,62 @@
         "id": 47270784,
         "type": "story",
         "by": "LorenDB",
-        "score": 594,
-        "descendants": 391,
+        "score": 729,
+        "descendants": 525,
         "time": 1772770346,
         "comments_url": "https://news.ycombinator.com/item?id=47270784"
       },
       "tags": [
         "Privacy",
-        "Legal"
+        "Politics"
       ],
-      "hot_score": 6.33
+      "hot_score": 4.69
+    },
+    {
+      "title_en": "CT Scans of Health Wearables",
+      "url": "https://www.lumafield.com/scan-of-the-month/health-wearables",
+      "title_zh": "健康穿戴设备的 CT 扫描",
+      "created_display": "Created: Mar 06, 2026 / 06:16 PT",
+      "image_url": "https://cdn.prod.website-files.com/63e15418201b6e2a5cabb911/6993be41b53672d6f35bedc7_og-image-sotm-health-wearables.jpg",
+      "summary_en": "A CT scan study visualizes health wearables at millimeter scale, revealing internal components and assembly faults that aren’t visible from the outside. The work highlights how imaging tech can inform hardware design, safety, and privacy considerations for wearables.",
+      "summary_zh": "对健康穿戴设备进行的 CT 扫描揭示了外壳之外的内部结构和潜在缺陷。此类成像技术有助于改进硬件设计、提升安全性，并为穿戴设备的隐私与合规性提供参考。",
+      "hn": {
+        "id": 47275152,
+        "type": "story",
+        "by": "radeeyate",
+        "score": 121,
+        "descendants": 17,
+        "time": 1772806566,
+        "comments_url": "https://news.ycombinator.com/item?id=47275152"
+      },
+      "hot_score": 4.21,
+      "tags": [
+        "Hardware",
+        "Health",
+        "Privacy"
+      ]
+    },
+    {
+      "title_en": "Paul Brainerd, Founder of Aldus PageMaker, has died",
+      "url": "https://blog.adafruit.com/2026/03/04/pagemaker-and-aldus-founder-pioneer-paul-brainerd-1947-2026/",
+      "title_zh": "Paul Brainerd，Aldus PageMaker 的创始人，逝世",
+      "created_display": "Created: Mar 06, 2026 / 07:33 PT",
+      "image_url": null,
+      "summary_en": "Paul Brainerd, the entrepreneur who spawned desktop publishing with Aldus PageMaker, passed away. His work helped kick off the personal-computer era’s publishing revolution, influencing early software, fonts, and document workflows.",
+      "summary_zh": "Paul Brainerd，Aldus PageMaker 的创始人，逝世。他的桌面排版革命推动了个人计算时代的软件生态、字体设计与文档工作流的变革。",
+      "hn": {
+        "id": 47276220,
+        "type": "story",
+        "by": "fortran77",
+        "score": 55,
+        "descendants": 10,
+        "time": 1772811197,
+        "comments_url": "https://news.ycombinator.com/item?id=47276220"
+      },
+      "hot_score": 2.83,
+      "tags": [
+        "Culture"
+      ]
     },
     {
       "title_en": "Where things stand with the Department of War",
@@ -123,37 +264,38 @@
         "id": 47269263,
         "type": "story",
         "by": "surprisetalk",
-        "score": 537,
-        "descendants": 616,
+        "score": 586,
+        "descendants": 708,
         "time": 1772757641,
         "comments_url": "https://news.ycombinator.com/item?id=47269263"
       },
       "tags": [
         "Politics",
+        "Legal",
         "AI"
       ],
-      "hot_score": 3.65
+      "hot_score": 2.66
     },
     {
-      "title_en": "LibreSprite – open-source pixel art editor",
-      "url": "https://libresprite.github.io/",
-      "title_zh": "LibreSprite：开源像素绘图编辑器",
-      "created_display": "Created: Mar 06, 2026 / 01:22 PT",
-      "image_url": "https://libresprite.github.io/assets/ase.ico",
-      "summary_en": "LibreSprite is a free, open-source pixel art editor with layers and animation support. It offers indie developers a customizable alternative without licensing fees.",
-      "summary_zh": "LibreSprite 是一个自由且开源的像素绘图编辑器，支持图层与动画等功能，为独立开发者提供了一个无需支付许可费的可定制工具。",
+      "title_en": "Never Bet Against x86",
+      "url": "https://www.osnews.com/story/144527/never-bet-against-x86/",
+      "title_zh": "永远别小看 x86",
+      "created_display": "Created: Mar 06, 2026 / 10:17 PT",
+      "image_url": null,
+      "summary_en": "The piece argues that x86 remains incredibly relevant due to legacy software, ecosystem maturity, and performance optimizations, despite rising interest in ARM. For developers and operators, it’s a reminder to design with compatibility and tooling in mind.",
+      "summary_zh": "文章认为 x86 仍然具有强大优势，原因包括遗留软件、成熟生态和持续的性能优化。对开发者和运维而言，这是一个需要兼容性与工具链考虑的提醒。",
       "hn": {
-        "id": 47272799,
+        "id": 47278836,
         "type": "story",
-        "by": "nicoloren",
-        "score": 125,
-        "descendants": 40,
-        "time": 1772788920,
-        "comments_url": "https://news.ycombinator.com/item?id=47272799"
+        "by": "raphinou",
+        "score": 14,
+        "descendants": 0,
+        "time": 1772821034,
+        "comments_url": "https://news.ycombinator.com/item?id=47278836"
       },
-      "hot_score": 3.47,
+      "hot_score": 2.66,
       "tags": [
-        "Open Source"
+        "Programming"
       ]
     },
     {
@@ -168,15 +310,15 @@
         "id": 47265045,
         "type": "story",
         "by": "mudkipdev",
-        "score": 899,
-        "descendants": 714,
+        "score": 959,
+        "descendants": 754,
         "time": 1772734090,
         "comments_url": "https://news.ycombinator.com/item?id=47265045"
       },
       "tags": [
         "AI"
       ],
-      "hot_score": 3.3
+      "hot_score": 2.62
     },
     {
       "title_en": "Wikipedia was in read-only mode following mass admin account compromise",
@@ -190,15 +332,39 @@
         "id": 47263323,
         "type": "story",
         "by": "greyface-",
-        "score": 1006,
-        "descendants": 364,
+        "score": 1022,
+        "descendants": 373,
         "time": 1772726694,
         "comments_url": "https://news.ycombinator.com/item?id=47263323"
       },
       "tags": [
-        "Security"
+        "Security",
+        "Privacy"
       ],
-      "hot_score": 3.16
+      "hot_score": 2.44
+    },
+    {
+      "title_en": "LibreSprite – open-source pixel art editor",
+      "url": "https://libresprite.github.io/",
+      "title_zh": "LibreSprite：开源像素绘图编辑器",
+      "created_display": "Created: Mar 06, 2026 / 01:22 PT",
+      "image_url": "https://libresprite.github.io/assets/ase.ico",
+      "summary_en": "LibreSprite is a free, open-source pixel art editor with layers and animation support. It offers indie developers a customizable alternative without licensing fees.",
+      "summary_zh": "LibreSprite 是一个自由且开源的像素绘图编辑器，支持图层与动画等功能，为独立开发者提供了一个无需支付许可费的可定制工具。",
+      "hn": {
+        "id": 47272799,
+        "type": "story",
+        "by": "nicoloren",
+        "score": 194,
+        "descendants": 71,
+        "time": 1772788920,
+        "comments_url": "https://news.ycombinator.com/item?id=47272799"
+      },
+      "tags": [
+        "Open Source",
+        "Programming"
+      ],
+      "hot_score": 2.44
     },
     {
       "title_en": "Judge orders government to begin refunding more than $130B in tariffs",
@@ -218,31 +384,124 @@
         "comments_url": "https://news.ycombinator.com/item?id=47261688"
       },
       "tags": [
+        "Finance",
+        "Legal",
         "Politics"
       ],
-      "hot_score": 2.78
+      "hot_score": 2.15
     },
     {
-      "title_en": "GPL upgrades via section 14 proxy delegation",
-      "url": "https://runxiyu.org/comp/gplproxy/",
-      "title_zh": "通过 Section 14 代理授权实现 GPL 升级",
-      "created_display": "Created: Mar 06, 2026 / 00:41 PT",
-      "image_url": null,
-      "summary_en": "A proposal describes using a Section 14 proxy delegation to upgrade GPL terms, enabling downstream projects to obtain newer licenses without direct renegotiation. The mechanism could streamline license updates for large codebases with many contributors. If workable, it raises questions about license governance and cross-ecosystem compatibility.",
-      "summary_zh": "一篇提案描述通过 Section 14 的代理授权来升级 GPL 条款，使下游项目在无需逐一重新协商的情况下获得更新的许可。该机制可能为拥有大量贡献者的庞大代码库简化许可证升级流程。若能实现，将引发关于许可治理、授权代理及跨生态兼容性的讨论。",
+      "title_en": "Supertoast tables",
+      "url": "https://hatchet.run/blog/supertoast-tables",
+      "title_zh": "Supertoast 表格",
+      "created_display": "Created: Mar 06, 2026 / 08:46 PT",
+      "image_url": "https://hatchet.run/assets/og-PqKfvZWg.png",
+      "summary_en": "Supertoast tables is a blog post about a data representation technique for rendering large tabular datasets efficiently. It argues for clever caching and streaming strategies to keep UI snappy even with big tables.",
+      "summary_zh": "《Supertoast 表格》讨论了一种高效呈现大规模表格数据的技术思路。通过缓存与流式加载等策略，目标是在处理海量表格时保持用户界面的响应性。",
       "hn": {
-        "id": 47272534,
+        "id": 47277420,
         "type": "story",
-        "by": "weinzierl",
-        "score": 79,
-        "descendants": 29,
-        "time": 1772786511,
-        "comments_url": "https://news.ycombinator.com/item?id=47272534"
+        "by": "abelanger",
+        "score": 26,
+        "descendants": 2,
+        "time": 1772815610,
+        "comments_url": "https://news.ycombinator.com/item?id=47277420"
       },
-      "hot_score": 1.86,
+      "hot_score": 2.14,
+      "tags": [
+        "Data"
+      ]
+    },
+    {
+      "title_en": "Launch HN: Palus Finance (YC W26): Better yields on idle cash for startups, SMBs",
+      "url": "https://news.ycombinator.com/item?id=47278980",
+      "title_zh": "Launch HN: Palus Finance（YC W26）：为初创和中小企业闲置现金提供更高收益",
+      "created_display": "Created: Mar 06, 2026 / 10:26 PT",
+      "image_url": "https://news.ycombinator.com/y18.svg",
+      "summary_en": "Palus Finance aims to optimize yields on idle corporate cash for startups and SMBs, offering treasury-style products designed for small balances. Backed by YC's W26 batch, it arrives as founders seek yield without sacrificing liquidity or safety.",
+      "summary_zh": "Palus Finance 目标是为初创和中小企业的闲置现金提供更高的收益，像企业金库工具一样管理短期资金。来自 YC 第26期，面向小额余额的低风险、可流动性保障的收益方案，帮助企业提升现金回报。",
+      "hn": {
+        "id": 47278980,
+        "type": "story",
+        "by": "sam_palus",
+        "score": 10,
+        "descendants": 0,
+        "time": 1772821581,
+        "comments_url": "https://news.ycombinator.com/item?id=47278980"
+      },
+      "hot_score": 2.07,
+      "tags": [
+        "Startups",
+        "Finance"
+      ]
+    },
+    {
+      "title_en": "Astra: An open-source observatory control software",
+      "url": "https://github.com/ppp-one/astra",
+      "title_zh": "Astra：一个开源的观测站/望远镜控制软件",
+      "created_display": "Created: Mar 06, 2026 / 08:14 PT",
+      "image_url": "https://opengraph.githubassets.com/c9e05b8a4d44b1e5701d9d177f8f13e322fe3df7512f14cb2de2851d89e44970/ppp-one/astra",
+      "summary_en": "Astra is an open-source software package for observatory control, enabling telescope automation, instrument control, and remote operation. By embracing open standards, it lowers the barrier to building affordable, shareable observatories and can accelerate amateur and research workflows.",
+      "summary_zh": "Astra 是一个开源的观测站/望远镜控制软件，支持望远镜自动化、仪器控制与远程操作。采用开放标准，有助于降低搭建可分享天文台的门槛，促进业余与科研工作流的协同。",
+      "hn": {
+        "id": 47276865,
+        "type": "story",
+        "by": "pppone",
+        "score": 31,
+        "descendants": 10,
+        "time": 1772813670,
+        "comments_url": "https://news.ycombinator.com/item?id=47276865"
+      },
+      "hot_score": 2.03,
       "tags": [
         "Open Source",
-        "Legal"
+        "Science",
+        "Space"
+      ]
+    },
+    {
+      "title_en": "Entomologists use a particle accelerator to image ants at scale",
+      "url": "https://spectrum.ieee.org/3d-scanning-particle-accelerator-antscan",
+      "title_zh": "昆虫学家利用粒子加速器在大尺度下成像蚂蚁",
+      "created_display": "Created: Mar 06, 2026 / 07:53 PT",
+      "image_url": "https://spectrum.ieee.org/media-library/image.jpg?id=65150276&width=1200&height=600&coordinates=0%2C214%2C0%2C36",
+      "summary_en": "Entomologists are using a particle accelerator to image ants at scale, enabling high-resolution 3D imaging of insect morphology across colonies. The approach expands possibilities for studying ant anatomy, development, and behavior at unprecedented scale.",
+      "summary_zh": "昆虫学家利用粒子加速器对蚂蚁进行大尺度成像，获得高分辨率的三维形态数据，覆盖整个群体。该方法为研究蚂蚁解剖结构、发育与行为提供前所未有的尺度与细节。",
+      "hn": {
+        "id": 47276539,
+        "type": "story",
+        "by": "gmays",
+        "score": 32,
+        "descendants": 2,
+        "time": 1772812412,
+        "comments_url": "https://news.ycombinator.com/item?id=47276539"
+      },
+      "hot_score": 1.83,
+      "tags": [
+        "Science",
+        "Hardware"
+      ]
+    },
+    {
+      "title_en": "Good Bad ISPs",
+      "url": "https://community.torproject.org/relay/community-resources/good-bad-isps/",
+      "title_zh": "Good Bad ISPs",
+      "created_display": "Created: Mar 06, 2026 / 06:22 PT",
+      "image_url": "https://community.torproject.org/static/images/tor-logo@2x.png?h=16ad42bc",
+      "summary_en": "A community-backed guide categorizes ISPs into 'good' and 'bad' based on privacy, transparency, and reliability criteria, helping users and researchers choose providers for privacy-preserving networks.",
+      "summary_zh": "一份社区指南按隐私、透明度与可靠性等标准，将 ISP 分为“好”与“坏”两类，帮助用户在选网和进行隐私相关研究时作出更明智的选择。",
+      "hn": {
+        "id": 47275230,
+        "type": "story",
+        "by": "rzk",
+        "score": 47,
+        "descendants": 10,
+        "time": 1772806945,
+        "comments_url": "https://news.ycombinator.com/item?id=47275230"
+      },
+      "hot_score": 1.66,
+      "tags": [
+        "Privacy"
       ]
     },
     {
@@ -266,7 +525,7 @@
         "Hardware",
         "Energy"
       ],
-      "hot_score": 1.67
+      "hot_score": 1.46
     },
     {
       "title_en": "A GitHub Issue Title Compromised 4k Developer Machines",
@@ -280,41 +539,64 @@
         "id": 47263595,
         "type": "story",
         "by": "edf13",
-        "score": 523,
-        "descendants": 165,
+        "score": 585,
+        "descendants": 179,
         "time": 1772727721,
         "comments_url": "https://news.ycombinator.com/item?id=47263595"
       },
       "tags": [
         "Security",
-        "AI",
-        "Programming"
-      ],
-      "hot_score": 1.67
-    },
-    {
-      "title_en": "Labor market impacts of AI: A new measure and early evidence",
-      "url": "https://www.anthropic.com/research/labor-market-impacts",
-      "title_zh": "AI对劳动力市场的影响：新指标与初步证据",
-      "created_display": "Created: Mar 05, 2026 / 14:55 PT",
-      "image_url": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20NodeLine&backgroundColor=cactus",
-      "summary_en": "Introduces a new metric for measuring AI's impact on work and employment and reports early evidence of how automation is affecting job tasks and wages. The findings help policymakers and businesses gauge skill needs and plan training investments.",
-      "summary_zh": "介绍了衡量人工智能对劳动力市场影响的新指标，并给出关于自动化对工作任务和工资的初步证据。研究结果为政策制定者和企业评估技能需求、规划培训投入提供依据。",
-      "hn": {
-        "id": 47268391,
-        "type": "story",
-        "by": "jjwiseman",
-        "score": 254,
-        "descendants": 395,
-        "time": 1772751301,
-        "comments_url": "https://news.ycombinator.com/item?id=47268391"
-      },
-      "tags": [
-        "Science",
-        "Business",
+        "Programming",
         "AI"
       ],
-      "hot_score": 1.43
+      "hot_score": 1.42
+    },
+    {
+      "title_en": "BlackRock limits withdrawals as redemptions rattle private credit fund",
+      "url": "https://www.reuters.com/business/blackrock-limits-withdrawals-private-credit-fund-redemptions-mount-2026-03-06/",
+      "title_zh": "BlackRock 限制赎回，私募信贷基金赎回潮涌动",
+      "created_display": "Created: Mar 06, 2026 / 09:50 PT",
+      "image_url": null,
+      "summary_en": "BlackRock limits withdrawals from a private credit fund as redemptions surge, signaling liquidity stress and prompting questions about the credit market's resilience and investor confidence.",
+      "summary_zh": "随着赎回潮涌，BlackRock 对私募信贷基金设定取现上限，暴露出流动性压力与投资者信心的担忧，并对信贷市场的韧性提出质疑。",
+      "hn": {
+        "id": 47278477,
+        "type": "story",
+        "by": "itbeho",
+        "score": 10,
+        "descendants": 1,
+        "time": 1772819411,
+        "comments_url": "https://news.ycombinator.com/item?id=47278477"
+      },
+      "hot_score": 1.35,
+      "tags": [
+        "Finance",
+        "Business"
+      ]
+    },
+    {
+      "title_en": "I dropped our production database and now pay 10% more for AWS",
+      "url": "https://alexeyondata.substack.com/p/how-i-dropped-our-production-database",
+      "title_zh": "我把生产数据库删掉了，现在在 AWS 上多花 10% 资金",
+      "created_display": "Created: Mar 06, 2026 / 06:17 PT",
+      "image_url": null,
+      "summary_en": "A personal account explaining how a production database crash increased AWS costs by 10% due to data recovery, downtime, and reconfiguration. It underscores the importance of backups, disaster recovery plans, and cost-aware incident response.",
+      "summary_zh": "作者分享因意外删除生产数据库导致的成本上升（约 10%），归因于数据恢复与系统重建。强调备份、灾备计划与事件响应的成本与风险。",
+      "hn": {
+        "id": 47275157,
+        "type": "story",
+        "by": "dsr12",
+        "score": 38,
+        "descendants": 53,
+        "time": 1772806621,
+        "comments_url": "https://news.ycombinator.com/item?id=47275157"
+      },
+      "hot_score": 1.3,
+      "tags": [
+        "DevOps",
+        "Finance",
+        "Data"
+      ]
     },
     {
       "title_en": "The Brand Age",
@@ -328,8 +610,8 @@
         "id": 47264756,
         "type": "story",
         "by": "bigwheels",
-        "score": 396,
-        "descendants": 320,
+        "score": 437,
+        "descendants": 340,
         "time": 1772732650,
         "comments_url": "https://news.ycombinator.com/item?id=47264756"
       },
@@ -337,7 +619,30 @@
         "Startups",
         "Business"
       ],
-      "hot_score": 1.41
+      "hot_score": 1.16
+    },
+    {
+      "title_en": "Labor market impacts of AI: A new measure and early evidence",
+      "url": "https://www.anthropic.com/research/labor-market-impacts",
+      "title_zh": "AI对劳动力市场的影响：新指标与初步证据",
+      "created_display": "Created: Mar 05, 2026 / 14:55 PT",
+      "image_url": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20NodeLine&backgroundColor=cactus",
+      "summary_en": "Introduces a new metric for measuring AI's impact on work and employment and reports early evidence of how automation is affecting job tasks and wages. The findings help policymakers and businesses gauge skill needs and plan training investments.",
+      "summary_zh": "介绍了衡量人工智能对劳动力市场影响的新指标，并给出关于自动化对工作任务和工资的初步证据。研究结果为政策制定者和企业评估技能需求、规划培训投入提供依据。",
+      "hn": {
+        "id": 47268391,
+        "type": "story",
+        "by": "jjwiseman",
+        "score": 296,
+        "descendants": 485,
+        "time": 1772751301,
+        "comments_url": "https://news.ycombinator.com/item?id=47268391"
+      },
+      "tags": [
+        "AI",
+        "Business"
+      ],
+      "hot_score": 1.15
     },
     {
       "title_en": "Good software knows when to stop",
@@ -351,15 +656,39 @@
         "id": 47261561,
         "type": "story",
         "by": "ssaboum",
-        "score": 490,
-        "descendants": 248,
+        "score": 523,
+        "descendants": 262,
         "time": 1772718763,
         "comments_url": "https://news.ycombinator.com/item?id=47261561"
       },
       "tags": [
-        "Programming"
+        "Programming",
+        "Design"
       ],
-      "hot_score": 1.32
+      "hot_score": 1.09
+    },
+    {
+      "title_en": "GPL upgrades via section 14 proxy delegation",
+      "url": "https://runxiyu.org/comp/gplproxy/",
+      "title_zh": "通过 Section 14 代理授权实现 GPL 升级",
+      "created_display": "Created: Mar 06, 2026 / 00:41 PT",
+      "image_url": null,
+      "summary_en": "A proposal describes using a Section 14 proxy delegation to upgrade GPL terms, enabling downstream projects to obtain newer licenses without direct renegotiation. The mechanism could streamline license updates for large codebases with many contributors. If workable, it raises questions about license governance and cross-ecosystem compatibility.",
+      "summary_zh": "一篇提案描述通过 Section 14 的代理授权来升级 GPL 条款，使下游项目在无需逐一重新协商的情况下获得更新的许可。该机制可能为拥有大量贡献者的庞大代码库简化许可证升级流程。若能实现，将引发关于许可治理、授权代理及跨生态兼容性的讨论。",
+      "hn": {
+        "id": 47272534,
+        "type": "story",
+        "by": "weinzierl",
+        "score": 92,
+        "descendants": 41,
+        "time": 1772786511,
+        "comments_url": "https://news.ycombinator.com/item?id=47272534"
+      },
+      "tags": [
+        "Open Source",
+        "Legal"
+      ],
+      "hot_score": 1.04
     },
     {
       "title_en": "Show HN: Swarm – Program a colony of 200 ants using a custom assembly language",
@@ -373,8 +702,8 @@
         "id": 47270807,
         "type": "story",
         "by": "armandhammer10",
-        "score": 124,
-        "descendants": 36,
+        "score": 159,
+        "descendants": 52,
         "time": 1772770540,
         "comments_url": "https://news.ycombinator.com/item?id=47270807"
       },
@@ -382,28 +711,28 @@
         "Show HN",
         "Programming"
       ],
-      "hot_score": 1.32
+      "hot_score": 1.02
     },
     {
-      "title_en": "Async Programming Is Just Inject Time",
-      "url": "https://willhbr.net/2026/03/02/async-inject-and-effects/",
-      "title_zh": "异步编程其实是注入时间",
-      "created_display": "Created: Mar 06, 2026 / 03:52 PT",
-      "image_url": "https://willhbr.net/images/opengraph.png",
-      "summary_en": "The piece reframes asynchronous programming as a concept of injecting time into computations, linking async patterns to time effects and runtime abstractions. It proposes a mental model to simplify reasoning about concurrency and side effects.",
-      "summary_zh": "文章把异步编程重新理解为向计算中注入时间的模式，将异步模式与时间效应和运行时抽象联系起来。它提出了一种帮助简化并发和副作用推理的心智模型。",
+      "title_en": "It took four years until 2011’s iOS 5 gave everyone an emoji keyboard",
+      "url": "https://unsung.aresluna.org/im-obviously-taking-a-risk-here-by-advertising-emoji-directly/",
+      "title_zh": "直到2011年的 iOS 5 才给所有人提供表情符键盘",
+      "created_display": "Created: Mar 06, 2026 / 00:13 PT",
+      "image_url": "https://unsung.aresluna.org/_media/im-obviously-taking-a-risk-here-by-advertising-emoji-directly/ogimage.png",
+      "summary_en": "It took four years for iOS 5 to include an emoji keyboard, illustrating the long road to feature parity and standardization for new input methods on mobile.",
+      "summary_zh": "经历四年才在 iOS 5 中加入表情符键盘，反映了移动端新输入法的普及与标准化的漫长进程。",
       "hn": {
-        "id": 47273845,
+        "id": 47272338,
         "type": "story",
-        "by": "marvinborner",
-        "score": 22,
-        "descendants": 7,
-        "time": 1772797921,
-        "comments_url": "https://news.ycombinator.com/item?id=47273845"
+        "by": "tobr",
+        "score": 97,
+        "descendants": 54,
+        "time": 1772784808,
+        "comments_url": "https://news.ycombinator.com/item?id=47272338"
       },
-      "hot_score": 1.25,
+      "hot_score": 1.02,
       "tags": [
-        "Programming"
+        "Design"
       ]
     },
     {
@@ -418,62 +747,86 @@
         "id": 47267947,
         "type": "story",
         "by": "Muhammad523",
-        "score": 235,
-        "descendants": 79,
+        "score": 277,
+        "descendants": 100,
         "time": 1772748299,
         "comments_url": "https://news.ycombinator.com/item?id=47267947"
       },
       "tags": [
-        "Programming",
-        "AI"
+        "AI",
+        "Programming"
       ],
-      "hot_score": 1.22
+      "hot_score": 1.01
     },
     {
-      "title_en": "Why Going to Mars Would Be Bad for Your Health",
-      "url": "https://slate.com/technology/2026/03/elon-musk-mars-space-travel-health-muscle-atrophy.html",
-      "title_zh": "为什么去火星对健康不利",
-      "created_display": "Created: Mar 06, 2026 / 06:20 PT",
-      "image_url": "https://compote.slate.com/images/21e4913b-993b-4301-a932-6c1d1d5d0353.jpeg?crop=1560%2C1040%2Cx0%2Cy0&width=1560",
-      "summary_en": "The article outlines health risks of long-duration spaceflight to Mars, including muscle atrophy, bone density loss, and radiation exposure. It notes current countermeasures are limited by time and resources. The piece reframes space travel health as a key constraint for explorers and sponsors.",
-      "summary_zh": "《Slate》指出前往火星的长期太空飞行会带来肌肉萎缩、骨密度下降和辐射暴露等健康风险，现有对策受时间和资源限制。文章将健康问题作为探索任务的核心约束，影响个人与资方的决策。",
+      "title_en": "We might all be AI engineers now",
+      "url": "https://yasint.dev/we-might-all-be-ai-engineers-now/",
+      "title_zh": "现在我们可能都成了 AI 工程师",
+      "created_display": "Created: Mar 06, 2026 / 01:13 PT",
+      "image_url": "https://yasint.dev/og/yasintdev-primary-og.png",
+      "summary_en": "The piece argues that AI tooling is enabling broader audiences to build AI-enabled solutions, effectively making many knowledge workers AI engineers. It discusses implications for skills, education, and product development.",
+      "summary_zh": "文章认为 AI 工具正在让更多人具备构建 AI 解决方案的能力，许多知识工作者会成为“AI 工程师”。讨论了对技能、教育与产品开发的影响。",
       "hn": {
-        "id": 47275205,
+        "id": 47272734,
         "type": "story",
-        "by": "RickJWagner",
-        "score": 6,
-        "descendants": 0,
-        "time": 1772806833,
-        "comments_url": "https://news.ycombinator.com/item?id=47275205"
+        "by": "sn0wflak3s",
+        "score": 83,
+        "descendants": 114,
+        "time": 1772788410,
+        "comments_url": "https://news.ycombinator.com/item?id=47272734"
       },
-      "hot_score": 1.1,
+      "hot_score": 1.01,
       "tags": [
-        "Health",
-        "Space"
+        "AI",
+        "Education",
+        "Career"
       ]
     },
     {
-      "title_en": "TeX Live 2026 is available for download now",
-      "url": "https://www.tug.org/texlive/acquire.html",
-      "title_zh": "TeX Live 2026 已可下载",
-      "created_display": "Created: Mar 05, 2026 / 21:20 PT",
-      "image_url": null,
-      "summary_en": "TeX Live 2026 is released and ready for download, bringing updated TeX engines, thousands of package updates, and bug fixes. The release emphasizes improved security, performance, and compatibility with modern TeX workflows, making it a solid upgrade for researchers and writers relying on LaTeX.",
-      "summary_zh": "TeX Live 2026 已发布，包含更新的 TeX 引擎、成千上万的包更新以及修复。新版本提升了安全性、性能与对现代 TeX 工作流的兼容性，适合研究者与 LaTeX 用户升级。",
+      "title_en": "Show HN: Claude-replay – A video-like player for Claude Code sessions",
+      "url": "https://github.com/es617/claude-replay",
+      "title_zh": "Claude-replay：用于 Claude Code 会话的视频式回放工具",
+      "created_display": "Created: Mar 06, 2026 / 07:57 PT",
+      "image_url": "https://opengraph.githubassets.com/107bb481340ac6ea876214e5ae9b1ec917644ec7ddd5859a12f2bc3ee8c541ed/es617/claude-replay",
+      "summary_en": "Claude-replay is a video-like player for Claude Code sessions, letting users replay interactions to study reasoning steps, debugging approaches, or teaching others. It lowers the friction of understanding AI-assisted coding sessions.",
+      "summary_zh": "Claude-replay 是一个用于 Claude Code 会话的“视频级”回放工具，便于复现推理过程、调试思路，或用于教学。降低了学习 AI 辅助编码的门槛。",
       "hn": {
-        "id": 47271187,
+        "id": 47276604,
         "type": "story",
-        "by": "jithinraj",
-        "score": 83,
-        "descendants": 53,
-        "time": 1772774410,
-        "comments_url": "https://news.ycombinator.com/item?id=47271187"
+        "by": "es617",
+        "score": 16,
+        "descendants": 12,
+        "time": 1772812647,
+        "comments_url": "https://news.ycombinator.com/item?id=47276604"
+      },
+      "hot_score": 0.91,
+      "tags": [
+        "Show HN",
+        "Programming",
+        "AI"
+      ]
+    },
+    {
+      "title_en": "10% of Firefox crashes are caused by bitflips",
+      "url": "https://mas.to/@gabrielesvelto/116171750653898304",
+      "title_zh": "Firefox 崩溃中有 10% 由位翻转引发",
+      "created_display": "Created: Mar 04, 2026 / 11:58 PT",
+      "image_url": "https://mas.to/packs/assets/logo-DXQkHAe5.svg",
+      "summary_en": "Reports that about 10% of Firefox crashes are caused by bitflips in memory, underscoring the impact of hardware faults on software reliability. The finding motivates better error handling, ECC memory use, and robust testing for resilience.",
+      "summary_zh": "报道显示约 10% 的 Firefox 崩溃由内存位翻转引起，凸显硬件故障对软件可靠性的影响。该发现促使加强错误处理、使用 ECC 内存以及提高容错测试。",
+      "hn": {
+        "id": 47252971,
+        "type": "story",
+        "by": "marvinborner",
+        "score": 850,
+        "descendants": 439,
+        "time": 1772654304,
+        "comments_url": "https://news.ycombinator.com/item?id=47252971"
       },
       "tags": [
-        "Open Source",
-        "Security"
+        "Hardware"
       ],
-      "hot_score": 1.04
+      "hot_score": 0.78
     },
     {
       "title_en": "Show HN: Jido 2.0, Elixir Agent Framework",
@@ -494,31 +847,55 @@
       },
       "tags": [
         "Show HN",
-        "Programming"
+        "Programming",
+        "Open Source"
       ],
-      "hot_score": 0.94
+      "hot_score": 0.71
     },
     {
-      "title_en": "10% of Firefox crashes are caused by bitflips",
-      "url": "https://mas.to/@gabrielesvelto/116171750653898304",
-      "title_zh": "Firefox 崩溃中有 10% 由位翻转引发",
-      "created_display": "Created: Mar 04, 2026 / 11:58 PT",
-      "image_url": "https://mas.to/packs/assets/logo-DXQkHAe5.svg",
-      "summary_en": "Reports that about 10% of Firefox crashes are caused by bitflips in memory, underscoring the impact of hardware faults on software reliability. The finding motivates better error handling, ECC memory use, and robust testing for resilience.",
-      "summary_zh": "报道显示约 10% 的 Firefox 崩溃由内存位翻转引起，凸显硬件故障对软件可靠性的影响。该发现促使加强错误处理、使用 ECC 内存以及提高容错测试。",
+      "title_en": "See the oldest fossilized 'butthole' imprint",
+      "url": "https://www.scientificamerican.com/article/see-the-worlds-oldest-fossilized-butthole-imprint/",
+      "title_zh": "看到有史以来最早的化石化‘肛门’印记",
+      "created_display": "Created: Mar 06, 2026 / 10:02 PT",
+      "image_url": "https://static.scientificamerican.com/dam/m/4fa9faa7b94fac89/original/cloacal_vent_web.png?m=1772575863.599&w=1200",
+      "summary_en": "Scientists report the oldest fossilized anal opening imprint, pushing back the timeline of body segmentation and early animal evolution. The find demonstrates how soft-tissue features survive in the fossil record and what it tells us about ancient life.",
+      "summary_zh": "科学家宣布发现有史以来最早的化石化肛门印记，推升了关于早期动物解剖与身体分节进化的时间线。这一发现揭示了软组织特征在化石记录中的保存，以及对远古生命的认识。",
       "hn": {
-        "id": 47252971,
+        "id": 47278643,
         "type": "story",
-        "by": "marvinborner",
-        "score": 761,
-        "descendants": 377,
-        "time": 1772654304,
-        "comments_url": "https://news.ycombinator.com/item?id=47252971"
+        "by": "Tomte",
+        "score": 5,
+        "descendants": 0,
+        "time": 1772820138,
+        "comments_url": "https://news.ycombinator.com/item?id=47278643"
+      },
+      "hot_score": 0.69,
+      "tags": [
+        "Science"
+      ]
+    },
+    {
+      "title_en": "TeX Live 2026 is available for download now",
+      "url": "https://www.tug.org/texlive/acquire.html",
+      "title_zh": "TeX Live 2026 已可下载",
+      "created_display": "Created: Mar 05, 2026 / 21:20 PT",
+      "image_url": null,
+      "summary_en": "TeX Live 2026 is released and ready for download, bringing updated TeX engines, thousands of package updates, and bug fixes. The release emphasizes improved security, performance, and compatibility with modern TeX workflows, making it a solid upgrade for researchers and writers relying on LaTeX.",
+      "summary_zh": "TeX Live 2026 已发布，包含更新的 TeX 引擎、成千上万的包更新以及修复。新版本提升了安全性、性能与对现代 TeX 工作流的兼容性，适合研究者与 LaTeX 用户升级。",
+      "hn": {
+        "id": 47271187,
+        "type": "story",
+        "by": "jithinraj",
+        "score": 83,
+        "descendants": 53,
+        "time": 1772774410,
+        "comments_url": "https://news.ycombinator.com/item?id=47271187"
       },
       "tags": [
-        "Hardware"
+        "Programming",
+        "Security"
       ],
-      "hot_score": 0.81
+      "hot_score": 0.6
     },
     {
       "title_en": "Remotely unlocking an encrypted hard disk",
@@ -539,10 +916,78 @@
       },
       "tags": [
         "Security",
-        "Privacy",
         "Hardware"
       ],
-      "hot_score": 0.64
+      "hot_score": 0.47
+    },
+    {
+      "title_en": "Show HN: Modembin – A pastebin that encodes your text into real FSK modem audio",
+      "url": "https://www.modembin.com",
+      "title_zh": "Modembin：一个将文本编码成真实的 FSK 调制解调器音频的粘贴板应用",
+      "created_display": "Created: Mar 06, 2026 / 07:00 PT",
+      "image_url": "https://modembin.com/og.png",
+      "summary_en": "Modembin is a pastebin-like tool that encodes text into real FSK modem audio, enabling data transfer over audio channels. It blends retro-comms with modern tooling for experiments, education, and novelty projects.",
+      "summary_zh": "Modembin 是一个仿粘贴板的工具，可将文本编码成真实的 FSK 调制解调器音频，在音频信道上进行数据传输，兼具复古通信与现代应用的教育与实验价值。",
+      "hn": {
+        "id": 47275692,
+        "type": "story",
+        "by": "a13x57",
+        "score": 11,
+        "descendants": 2,
+        "time": 1772809254,
+        "comments_url": "https://news.ycombinator.com/item?id=47275692"
+      },
+      "hot_score": 0.44,
+      "tags": [
+        "Show HN",
+        "Programming",
+        "Education"
+      ]
+    },
+    {
+      "title_en": "Async Programming Is Just Inject Time",
+      "url": "https://willhbr.net/2026/03/02/async-inject-and-effects/",
+      "title_zh": "异步编程其实是注入时间",
+      "created_display": "Created: Mar 06, 2026 / 03:52 PT",
+      "image_url": "https://willhbr.net/images/opengraph.png",
+      "summary_en": "The piece reframes asynchronous programming as a concept of injecting time into computations, linking async patterns to time effects and runtime abstractions. It proposes a mental model to simplify reasoning about concurrency and side effects.",
+      "summary_zh": "文章把异步编程重新理解为向计算中注入时间的模式，将异步模式与时间效应和运行时抽象联系起来。它提出了一种帮助简化并发和副作用推理的心智模型。",
+      "hn": {
+        "id": 47273845,
+        "type": "story",
+        "by": "marvinborner",
+        "score": 22,
+        "descendants": 7,
+        "time": 1772797921,
+        "comments_url": "https://news.ycombinator.com/item?id=47273845"
+      },
+      "hot_score": 0.42,
+      "tags": [
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "Show HN: Interactive 3D globe of EU shipping emissions",
+      "url": "https://seafloor.pages.dev",
+      "title_zh": "Show HN：Interactive 3D globe of EU shipping emissions",
+      "created_display": "Created: Mar 06, 2026 / 06:12 PT",
+      "image_url": "https://seafloor.pages.dev/og.png",
+      "summary_en": "Show HN features an interactive 3D globe visualizing EU shipping emissions, enabling users to explore data by route, vessel, and time. It illustrates how immersive visualization can inform policy debates and climate research.",
+      "summary_zh": "Show HN 展示了一个交互式的欧盟航运排放三维地球仪，可按航线、船舶和时间等维度探查数据，直观呈现政策与气候研究的可视化证据。",
+      "hn": {
+        "id": 47275121,
+        "type": "story",
+        "by": "marcohaber",
+        "score": 13,
+        "descendants": 7,
+        "time": 1772806365,
+        "comments_url": "https://news.ycombinator.com/item?id=47275121"
+      },
+      "hot_score": 0.41,
+      "tags": [
+        "Show HN",
+        "Data"
+      ]
     },
     {
       "title_en": "How to install and start using LineageOS on your phone",
@@ -565,54 +1010,7 @@
         "Open Source",
         "Privacy"
       ],
-      "hot_score": 0.6
-    },
-    {
-      "title_en": "Let's Get Physical",
-      "url": "https://m4iler.cloud/posts/lets-get-physical/",
-      "title_zh": "让我们走向实体世界",
-      "created_display": "Created: Mar 05, 2026 / 11:21 PT",
-      "image_url": null,
-      "summary_en": "A candid look at the intersection of digital and physical computing, exploring hardware and tangible interfaces shaping modern software.",
-      "summary_zh": "本文聚焦数字与物理计算的交汇，探讨硬件与可触及界面对现代软件的影响与机遇，强调在开发者逐步将软件与实体设备相结合时的实际挑战。",
-      "hn": {
-        "id": 47266030,
-        "type": "story",
-        "by": "MBCook",
-        "score": 128,
-        "descendants": 20,
-        "time": 1772738463,
-        "comments_url": "https://news.ycombinator.com/item?id=47266030"
-      },
-      "tags": [
-        "Hardware",
-        "Design"
-      ],
-      "hot_score": 0.52
-    },
-    {
-      "title_en": "OpenTitan Shipping in Production",
-      "url": "https://opensource.googleblog.com/2026/03/opentitan-shipping-in-production.html",
-      "title_zh": "OpenTitan 已正式投入生产",
-      "created_display": "Created: Mar 05, 2026 / 10:50 PT",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwJr3EDJXlAiISJQCv2DMWsD6dtomk3NMxjfNyOeoSTkiU1lWskg11axvCknOUMFK-TYwXuTfm91DsIEgqbAE6DSTX8cA_Z7oUhUhe1cc0LBRvlRNjr4gzpHK2OWtmeSHf7UFSHcojyma5MdOqSAQJQZv9hqcZFHjRLsdgSmSr9lRjow96wBAh7_uRsYQ/w1200-h630-p-k-no-nu/6b6cUfEMUcXHJLu.png",
-      "summary_en": "OpenTitan, the open-source secure hardware project, is shipping in production, enabling customers to deploy trusted hardware at scale. The milestone demonstrates that research-grade security can reach real-world deployments, potentially strengthening supply-chain trust across devices.",
-      "summary_zh": "OpenTitan 作为开源安全硬件项目，已正式进入生产部署，帮助客户在大规模环境中部署可信硬件。这一里程碑证明研究阶段的安全设计可以落地到实际应用，或提升设备供应链的可信性。",
-      "hn": {
-        "id": 47265619,
-        "type": "story",
-        "by": "rayhaanj",
-        "score": 120,
-        "descendants": 25,
-        "time": 1772736633,
-        "comments_url": "https://news.ycombinator.com/item?id=47265619"
-      },
-      "tags": [
-        "Hardware",
-        "Open Source",
-        "Security"
-      ],
-      "hot_score": 0.46
+      "hot_score": 0.4
     },
     {
       "title_en": "CBP tapped into the online advertising ecosystem to track peoples’ movements",
@@ -635,7 +1033,7 @@
         "Privacy",
         "Politics"
       ],
-      "hot_score": 0.45
+      "hot_score": 0.39
     },
     {
       "title_en": "AI and the Ship of Theseus",
@@ -649,15 +1047,39 @@
         "id": 47263048,
         "type": "story",
         "by": "pixelmonkey",
-        "score": 144,
-        "descendants": 149,
+        "score": 168,
+        "descendants": 174,
         "time": 1772725785,
         "comments_url": "https://news.ycombinator.com/item?id=47263048"
       },
       "tags": [
-        "AI"
+        "AI",
+        "Design"
       ],
-      "hot_score": 0.44
+      "hot_score": 0.39
+    },
+    {
+      "title_en": "Let's Get Physical",
+      "url": "https://m4iler.cloud/posts/lets-get-physical/",
+      "title_zh": "让我们走向实体世界",
+      "created_display": "Created: Mar 05, 2026 / 11:21 PT",
+      "image_url": null,
+      "summary_en": "A candid look at the intersection of digital and physical computing, exploring hardware and tangible interfaces shaping modern software.",
+      "summary_zh": "本文聚焦数字与物理计算的交汇，探讨硬件与可触及界面对现代软件的影响与机遇，强调在开发者逐步将软件与实体设备相结合时的实际挑战。",
+      "hn": {
+        "id": 47266030,
+        "type": "story",
+        "by": "MBCook",
+        "score": 128,
+        "descendants": 20,
+        "time": 1772738463,
+        "comments_url": "https://news.ycombinator.com/item?id=47266030"
+      },
+      "tags": [
+        "Hardware",
+        "Design"
+      ],
+      "hot_score": 0.38
     },
     {
       "title_en": "Poor Man's Polaroid",
@@ -677,10 +1099,55 @@
         "comments_url": "https://news.ycombinator.com/item?id=47258809"
       },
       "tags": [
-        "Design",
-        "Hardware"
+        "Design"
       ],
-      "hot_score": 0.43
+      "hot_score": 0.35
+    },
+    {
+      "title_en": "70k Books Found in Hidden Library in This Germany Home",
+      "url": "https://bookstr.com/article/70k-books-found-in-hidden-library-in-this-germany-home/",
+      "title_zh": "德国一户家中藏书洞藏70,000本",
+      "created_display": "Created: Mar 06, 2026 / 04:20 PT",
+      "image_url": "https://bookstr.com/wp-content/uploads/2023/01/schroder-featured-image-1.jpg",
+      "summary_en": "A Germany home hides a library of about 70,000 books discovered behind walls, offering a remarkable glimpse into archival treasure and provenance. The find could attract researchers and collectors interested in rare editions.",
+      "summary_zh": "德国某户人家的隐藏书库里藏着约7万本书，展现出罕见藏书的宝贵性与来源。此类发现吸引研究者和收藏家关注。",
+      "hn": {
+        "id": 47274086,
+        "type": "story",
+        "by": "eatonphil",
+        "score": 17,
+        "descendants": 7,
+        "time": 1772799640,
+        "comments_url": "https://news.ycombinator.com/item?id=47274086"
+      },
+      "hot_score": 0.35,
+      "tags": [
+        "Culture"
+      ]
+    },
+    {
+      "title_en": "OpenTitan Shipping in Production",
+      "url": "https://opensource.googleblog.com/2026/03/opentitan-shipping-in-production.html",
+      "title_zh": "OpenTitan 已正式投入生产",
+      "created_display": "Created: Mar 05, 2026 / 10:50 PT",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwJr3EDJXlAiISJQCv2DMWsD6dtomk3NMxjfNyOeoSTkiU1lWskg11axvCknOUMFK-TYwXuTfm91DsIEgqbAE6DSTX8cA_Z7oUhUhe1cc0LBRvlRNjr4gzpHK2OWtmeSHf7UFSHcojyma5MdOqSAQJQZv9hqcZFHjRLsdgSmSr9lRjow96wBAh7_uRsYQ/w1200-h630-p-k-no-nu/6b6cUfEMUcXHJLu.png",
+      "summary_en": "OpenTitan, the open-source secure hardware project, is shipping in production, enabling customers to deploy trusted hardware at scale. The milestone demonstrates that research-grade security can reach real-world deployments, potentially strengthening supply-chain trust across devices.",
+      "summary_zh": "OpenTitan 作为开源安全硬件项目，已正式进入生产部署，帮助客户在大规模环境中部署可信硬件。这一里程碑证明研究阶段的安全设计可以落地到实际应用，或提升设备供应链的可信性。",
+      "hn": {
+        "id": 47265619,
+        "type": "story",
+        "by": "rayhaanj",
+        "score": 120,
+        "descendants": 25,
+        "time": 1772736633,
+        "comments_url": "https://news.ycombinator.com/item?id=47265619"
+      },
+      "tags": [
+        "Open Source",
+        "Hardware",
+        "Security"
+      ],
+      "hot_score": 0.34
     },
     {
       "title_en": "Show HN: PageAgent, A GUI agent that lives inside your web app",
@@ -702,31 +1169,10 @@
       "tags": [
         "Show HN",
         "Programming",
+        "Open Source",
         "Web"
       ],
-      "hot_score": 0.43
-    },
-    {
-      "title_en": "\"I'm obviously taking a risk here by advertising emoji directly.\"",
-      "url": "https://unsung.aresluna.org/im-obviously-taking-a-risk-here-by-advertising-emoji-directly/",
-      "title_zh": "“直接广告表情符号显然冒险”",
-      "created_display": "Created: Mar 06, 2026 / 00:13 PT",
-      "image_url": "https://unsung.aresluna.org/_media/im-obviously-taking-a-risk-here-by-advertising-emoji-directly/ogimage.png",
-      "summary_en": "The post delves into the risks and pitfalls of advertising emoji directly, including misinterpretation and platform policy concerns. It examines when emoji can aid or hinder communication and offers pragmatic usage guidelines.",
-      "summary_zh": "文章探讨在品牌传播中直接使用表情符号所带来的风险与陷阱，包括误解与平台政策问题。它分析表情符号何时能提升沟通效果，何时可能适得其反，并给出实际的使用建议。",
-      "hn": {
-        "id": 47272338,
-        "type": "story",
-        "by": "tobr",
-        "score": 18,
-        "descendants": 3,
-        "time": 1772784808,
-        "comments_url": "https://news.ycombinator.com/item?id=47272338"
-      },
-      "hot_score": 0.37,
-      "tags": [
-        "Culture"
-      ]
+      "hot_score": 0.32
     },
     {
       "title_en": "The home computer war",
@@ -746,32 +1192,55 @@
         "comments_url": "https://news.ycombinator.com/item?id=47269914"
       },
       "tags": [
-        "Programming",
-        "Culture"
+        "Science",
+        "Business"
       ],
-      "hot_score": 0.29
+      "hot_score": 0.19
     },
     {
-      "title_en": "Every Claim from Meta Child Safety Trials",
-      "url": "https://meta-trials.vercel.app/",
-      "title_zh": "Meta 儿童安全试验中的全部主张",
-      "created_display": "Created: Mar 05, 2026 / 19:45 PT",
-      "image_url": null,
-      "summary_en": "The page aggregates Meta's claims across its child safety trials, enabling scrutiny against independent research. The collection highlights gaps between disclosures and real-world outcomes, underscoring transparency needs in safety experiments.",
-      "summary_zh": "一份公开整理汇总了Meta在其儿童安全试验中的各项主张，便于与独立研究进行对照审查。该汇编揭示披露内容与实际结果之间的差距，凸显对安全实验透明度的需求。",
+      "title_en": "Why Going to Mars Would Be Bad for Your Health",
+      "url": "https://slate.com/technology/2026/03/elon-musk-mars-space-travel-health-muscle-atrophy.html",
+      "title_zh": "为什么去火星对健康不利",
+      "created_display": "Created: Mar 06, 2026 / 06:20 PT",
+      "image_url": "https://compote.slate.com/images/21e4913b-993b-4301-a932-6c1d1d5d0353.jpeg?crop=1560%2C1040%2Cx0%2Cy0&width=1560",
+      "summary_en": "The article outlines health risks of long-duration spaceflight to Mars, including muscle atrophy, bone density loss, and radiation exposure. It notes current countermeasures are limited by time and resources. The piece reframes space travel health as a key constraint for explorers and sponsors.",
+      "summary_zh": "《Slate》指出前往火星的长期太空飞行会带来肌肉萎缩、骨密度下降和辐射暴露等健康风险，现有对策受时间和资源限制。文章将健康问题作为探索任务的核心约束，影响个人与资方的决策。",
       "hn": {
-        "id": 47270607,
+        "id": 47275205,
         "type": "story",
-        "by": "laurex",
-        "score": 24,
-        "descendants": 2,
-        "time": 1772768723,
-        "comments_url": "https://news.ycombinator.com/item?id=47270607"
+        "by": "RickJWagner",
+        "score": 6,
+        "descendants": 0,
+        "time": 1772806833,
+        "comments_url": "https://news.ycombinator.com/item?id=47275205"
       },
-      "hot_score": 0.23,
+      "hot_score": 0.18,
       "tags": [
-        "Privacy"
+        "Space",
+        "Health"
       ]
+    },
+    {
+      "title_en": "Analytic Fog Rendering with Volumetric Primitives (2025)",
+      "url": "https://matejlou.blog/2025/02/11/analytic-fog-rendering-with-volumetric-primitives/",
+      "title_zh": "基于体积原语的解析雾渲染",
+      "created_display": "Created: Mar 05, 2026 / 08:12 PT",
+      "image_url": "https://i0.wp.com/matejlou.blog/wp-content/uploads/2025/02/screenshot-2025-02-05-at-16.46.07-edited.png?fit=1200%2C882&ssl=1",
+      "summary_en": "Analytic fog rendering with volumetric primitives presents a method to render atmospheric fog using primitive volumes, enabling efficient and controllable results. By avoiding heavy ray tracing, it offers real-time performance improvements for games and graphics pipelines.",
+      "summary_zh": "基于体积原语的解析雾渲染提出一种用原语体积来实现大气雾效的渲染方法，可获得更高效、可控的雾效。通过避免昂贵的光线追踪，该方法有望提高游戏和图形管线的实时性能。",
+      "hn": {
+        "id": 47263441,
+        "type": "story",
+        "by": "surprisetalk",
+        "score": 64,
+        "descendants": 3,
+        "time": 1772727164,
+        "comments_url": "https://news.ycombinator.com/item?id=47263441"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 0.15
     },
     {
       "title_en": "Launch HN: Vela (YC W26) – AI for complex scheduling",
@@ -794,7 +1263,53 @@
         "AI",
         "Startups"
       ],
-      "hot_score": 0.18
+      "hot_score": 0.14
+    },
+    {
+      "title_en": "Every Claim from Meta Child Safety Trials",
+      "url": "https://meta-trials.vercel.app/",
+      "title_zh": "Meta 儿童安全试验中的全部主张",
+      "created_display": "Created: Mar 05, 2026 / 19:45 PT",
+      "image_url": null,
+      "summary_en": "The page aggregates Meta's claims across its child safety trials, enabling scrutiny against independent research. The collection highlights gaps between disclosures and real-world outcomes, underscoring transparency needs in safety experiments.",
+      "summary_zh": "一份公开整理汇总了Meta在其儿童安全试验中的各项主张，便于与独立研究进行对照审查。该汇编揭示披露内容与实际结果之间的差距，凸显对安全实验透明度的需求。",
+      "hn": {
+        "id": 47270607,
+        "type": "story",
+        "by": "laurex",
+        "score": 24,
+        "descendants": 2,
+        "time": 1772768723,
+        "comments_url": "https://news.ycombinator.com/item?id=47270607"
+      },
+      "hot_score": 0.14,
+      "tags": [
+        "Science",
+        "Politics"
+      ]
+    },
+    {
+      "title_en": "An Analysis of User-Space Idle State Instructions on x86 Processors",
+      "url": "https://dl.acm.org/doi/10.1145/3676151.3719370",
+      "title_zh": "x86 处理器用户态空闲状态指令分析",
+      "created_display": "Created: Mar 06, 2026 / 06:41 PT",
+      "image_url": null,
+      "summary_en": "An analysis of user-space idle state instructions on x86 CPUs, shedding light on how idle modes and power management interact with software workloads. Results inform OS and compiler optimizations.",
+      "summary_zh": "一项分析 x86 处理器用户态空闲状态指令的研究，揭示空闲模式与功耗管理如何影响软件工作负载，结果为操作系统与编译器优化提供参考。",
+      "hn": {
+        "id": 47275463,
+        "type": "story",
+        "by": "blakepelton",
+        "score": 4,
+        "descendants": 1,
+        "time": 1772808079,
+        "comments_url": "https://news.ycombinator.com/item?id=47275463"
+      },
+      "hot_score": 0.12,
+      "tags": [
+        "Hardware",
+        "Programming"
+      ]
     },
     {
       "title_en": "Typst Examples Book",
@@ -813,7 +1328,7 @@
         "time": 1772779824,
         "comments_url": "https://news.ycombinator.com/item?id=47271769"
       },
-      "hot_score": 0.15,
+      "hot_score": 0.08,
       "tags": [
         "Design",
         "Open Source"
@@ -840,7 +1355,30 @@
         "Science",
         "Data"
       ],
-      "hot_score": 0.08
+      "hot_score": 0.07
+    },
+    {
+      "title_en": "Payphone Go",
+      "url": "https://walzr.com/payphone-go/",
+      "title_zh": "Payphone Go",
+      "created_display": "Created: Mar 02, 2026 / 08:45 PT",
+      "image_url": null,
+      "summary_en": "Payphone Go reimagines legacy payphones as a modern payment interface.",
+      "summary_zh": "Payphone Go 将传统电话亭改造成现代支付接口。",
+      "hn": {
+        "id": 47220411,
+        "type": "story",
+        "by": "walz",
+        "score": 195,
+        "descendants": 44,
+        "time": 1772469943,
+        "comments_url": "https://news.ycombinator.com/item?id=47220411"
+      },
+      "tags": [
+        "Startups",
+        "Programming"
+      ],
+      "hot_score": 0.05
     },
     {
       "title_en": "Hardware hotplug events on Linux, the gory details",
@@ -861,7 +1399,7 @@
       },
       "tags": [
         "Hardware",
-        "Programming"
+        "Open Source"
       ],
       "hot_score": 0.04
     },
@@ -877,15 +1415,39 @@
         "id": 47225655,
         "type": "story",
         "by": "gz09",
-        "score": 122,
-        "descendants": 94,
+        "score": 134,
+        "descendants": 101,
         "time": 1772493380,
         "comments_url": "https://news.ycombinator.com/item?id=47225655"
       },
       "tags": [
-        "Programming"
+        "Programming",
+        "Design"
       ],
       "hot_score": 0.04
+    },
+    {
+      "title_en": "Open Camera is a FOSS Camera App for Android",
+      "url": "https://opencamera.org.uk/",
+      "title_zh": "Open Camera：一个面向 Android 的开源相机应用",
+      "created_display": "Created: Mar 02, 2026 / 07:46 PT",
+      "image_url": "https://opencamera.org.uk/ic_launcher.png",
+      "summary_en": "Open Camera is a fully free and open-source camera app for Android, offering manual controls, RAW image support, and privacy-friendly design. Its FOSS nature makes it a strong alternative to vendor bloatware and closed ecosystems.",
+      "summary_zh": "Open Camera 是一个面向 Android 的开源相机应用，提供手动控制、RAW 支持等功能，注重隐私与可定制性。作为免费开源软件，它为抵制厂商臃肿应用提供了有力选项。",
+      "hn": {
+        "id": 47219462,
+        "type": "story",
+        "by": "tetris11",
+        "score": 107,
+        "descendants": 48,
+        "time": 1772466411,
+        "comments_url": "https://news.ycombinator.com/item?id=47219462"
+      },
+      "hot_score": 0.03,
+      "tags": [
+        "Open Source",
+        "Privacy"
+      ]
     },
     {
       "title_en": "Greg Kroah-Hartman Stretches Support Periods for Key Linux LTS Kernels",
@@ -905,31 +1467,32 @@
         "comments_url": "https://news.ycombinator.com/item?id=47218397"
       },
       "tags": [
-        "Programming",
-        "Open Source"
+        "Open Source",
+        "DevOps"
       ],
       "hot_score": 0.02
     },
     {
-      "title_en": "Analytic Fog Rendering with Volumetric Primitives",
-      "url": "https://matejlou.blog/2025/02/11/analytic-fog-rendering-with-volumetric-primitives/",
-      "title_zh": "基于体积原语的解析雾渲染",
-      "created_display": "Created: Mar 05, 2026 / 08:12 PT",
-      "image_url": "https://i0.wp.com/matejlou.blog/wp-content/uploads/2025/02/screenshot-2025-02-05-at-16.46.07-edited.png?fit=1200%2C882&ssl=1",
-      "summary_en": "Analytic fog rendering with volumetric primitives presents a method to render atmospheric fog using primitive volumes, enabling efficient and controllable results. By avoiding heavy ray tracing, it offers real-time performance improvements for games and graphics pipelines.",
-      "summary_zh": "基于体积原语的解析雾渲染提出一种用原语体积来实现大气雾效的渲染方法，可获得更高效、可控的雾效。通过避免昂贵的光线追踪，该方法有望提高游戏和图形管线的实时性能。",
+      "title_en": "Ask HN: How many of you hold an amateur radio license in your country?",
+      "url": "https://news.ycombinator.com/item?id=47232091",
+      "title_zh": "Ask HN：你们中有多少人在各自国家持有业余无线电执照？",
+      "created_display": "Created: Mar 03, 2026 / 05:34 PT",
+      "image_url": "https://news.ycombinator.com/y18.svg",
+      "summary_en": "Ask HN invites anecdotes on amateur radio licensing across countries, highlighting regulatory diversity, hobbyist communities, and the role of radio in emergencies and education.",
+      "summary_zh": "Ask HN 征集各国业余无线电执照的经验与制度差异，展示业余无线电社区的活力，以及在应急通信和教育中的作用。",
       "hn": {
-        "id": 47263441,
+        "id": 47232091,
         "type": "story",
-        "by": "surprisetalk",
-        "score": 7,
-        "descendants": 0,
-        "time": 1772727164,
-        "comments_url": "https://news.ycombinator.com/item?id=47263441"
+        "by": "ToddWBurgess",
+        "score": 49,
+        "descendants": 58,
+        "time": 1772544850,
+        "comments_url": "https://news.ycombinator.com/item?id=47232091"
       },
       "hot_score": 0.02,
       "tags": [
-        "Programming"
+        "Education",
+        "Politics"
       ]
     },
     {
@@ -951,6 +1514,52 @@
       },
       "tags": [
         "Data"
+      ],
+      "hot_score": 0.01
+    },
+    {
+      "title_en": "Screeching Sound of Peeling Tape",
+      "url": "https://journals.aps.org/pre/abstract/10.1103/p19h-9ysx",
+      "title_zh": "剥离胶带时的刺耳声",
+      "created_display": "Created: Mar 02, 2026 / 06:39 PT",
+      "image_url": null,
+      "summary_en": "The study analyzes why peeling tape emits a squeal, attributing it to stick-slip dynamics and peeling angle. It notes implications for material science and robotics grippers.",
+      "summary_zh": "该研究分析了撕开胶带时发出尖锐声响的原因，归因于粘滑动力学与撕离角度。研究结果对材料科学和机器人夹持等领域具有启示意义。",
+      "hn": {
+        "id": 47218521,
+        "type": "story",
+        "by": "akshatjiwan",
+        "score": 53,
+        "descendants": 15,
+        "time": 1772462376,
+        "comments_url": "https://news.ycombinator.com/item?id=47218521"
+      },
+      "tags": [
+        "Science"
+      ],
+      "hot_score": 0.01
+    },
+    {
+      "title_en": "Xous security focused open source on 22nm custom silicon",
+      "url": "https://www.crowdsupply.com/sutajio-kosagi/precursor/updates/xous-0-10-0-introducing-baochip-1x-support",
+      "title_zh": "22nm 自定义硅工艺的 Xous 安全导向开源操作系统",
+      "created_display": "Created: Mar 02, 2026 / 11:22 PT",
+      "image_url": "https://www.crowdsupply.com/img/695d/32afe31c-9464-4905-9d38-5908b3c1695d/precursor-eightview-2_jpg_open-graph.jpg",
+      "summary_en": "Xous is a security-focused open-source OS designed for a 22nm custom BaoChip silicon platform, with emphasis on a small trusted code base and formal security properties. The update introduces BaoChip 1.x support and related hardening features, illustrating the growing ecosystem of open-source firmware for bespoke hardware.",
+      "summary_zh": "Xous 是一个面向安全设计的开源操作系统，面向 22nm 定制 BaoChip 芯片，并强调小型可信代码库与形式化的安全属性。此次更新引入 BaoChip 1.x 支持与相关的加固特性，体现了为定制硬件构建的开源固件生态日益成熟。",
+      "hn": {
+        "id": 47222777,
+        "type": "story",
+        "by": "ZiiS",
+        "score": 50,
+        "descendants": 8,
+        "time": 1772479343,
+        "comments_url": "https://news.ycombinator.com/item?id=47222777"
+      },
+      "tags": [
+        "Security",
+        "Open Source",
+        "Hardware"
       ],
       "hot_score": 0.01
     },
@@ -978,49 +1587,48 @@
       "hot_score": 0.01
     },
     {
-      "title_en": "Screeching Sound of Peeling Tape",
-      "url": "https://journals.aps.org/pre/abstract/10.1103/p19h-9ysx",
-      "title_zh": "剥离胶带时的刺耳声",
-      "created_display": "Created: Mar 02, 2026 / 06:39 PT",
+      "title_en": "Image manipulation with convolution using Julia",
+      "url": "https://medium.com/@Ahmad_Hamze/image-manipulation-with-convolution-using-julia-f898995ac1e5",
+      "title_zh": "使用 Julia 进行卷积的图像处理",
+      "created_display": "Created: Mar 02, 2026 / 07:31 PT",
       "image_url": null,
-      "summary_en": "The study analyzes why peeling tape emits a squeal, attributing it to stick-slip dynamics and peeling angle. It notes implications for material science and robotics grippers.",
-      "summary_zh": "该研究分析了撕开胶带时发出尖锐声响的原因，归因于粘滑动力学与撕离角度。研究结果对材料科学和机器人夹持等领域具有启示意义。",
+      "summary_en": "The article demonstrates image manipulation workflows in Julia through convolution-based filters, covering operations like blur, sharpen, and edge detection. It also shares performance tips and how to harness Julia's array operations for large images.",
+      "summary_zh": "文章展示了使用 Julia 进行卷积滤镜的图像处理工作流，包括模糊、锐化和边缘检测等操作。还分享了性能优化要点，以及如何利用 Julia 的数组操作处理大图像。",
       "hn": {
-        "id": 47218521,
+        "id": 47219256,
         "type": "story",
-        "by": "akshatjiwan",
-        "score": 41,
-        "descendants": 8,
-        "time": 1772462376,
-        "comments_url": "https://news.ycombinator.com/item?id=47218521"
+        "by": "AhmadHamze",
+        "score": 36,
+        "descendants": 5,
+        "time": 1772465466,
+        "comments_url": "https://news.ycombinator.com/item?id=47219256"
       },
-      "hot_score": 0.01,
       "tags": [
-        "Science"
-      ]
+        "Programming"
+      ],
+      "hot_score": 0.01
     },
     {
-      "title_en": "Payphone Go",
-      "url": "https://walzr.com/payphone-go/",
-      "title_zh": "Payphone Go",
-      "created_display": "Created: Mar 02, 2026 / 08:45 PT",
+      "title_en": "Charge a three-cell nickel-based battery pack with a Li-Ion charger (2012) [pdf]",
+      "url": "https://www.ti.com/lit/an/slyt468/slyt468.pdf",
+      "title_zh": "使用锂离子充电器为三元镍电池组充电（2012）[PDF]",
+      "created_display": "Created: Mar 03, 2026 / 06:55 PT",
       "image_url": null,
-      "summary_en": "Payphone Go reimagines legacy payphones as a modern payment interface.",
-      "summary_zh": "Payphone Go 将传统电话亭改造成现代支付接口。",
+      "summary_en": "A 2012 TI technical note demonstrates charging a nickel-based three-cell pack with a Li-ion charger, showing cross-chemistry compatibility caveats and potential safety concerns.",
+      "summary_zh": "一份 2012 年的 TI 技术文档展示了用锂离子充电器为三元镍电池组充电的可行性与风险，强调跨化学体系的兼容性以及安全性问题。",
       "hn": {
-        "id": 47220411,
+        "id": 47233336,
         "type": "story",
-        "by": "walz",
-        "score": 39,
-        "descendants": 16,
-        "time": 1772469943,
-        "comments_url": "https://news.ycombinator.com/item?id=47220411"
+        "by": "theblazehen",
+        "score": 31,
+        "descendants": 8,
+        "time": 1772549757,
+        "comments_url": "https://news.ycombinator.com/item?id=47233336"
       },
       "hot_score": 0.01,
       "tags": [
-        "Hardware",
-        "Startups",
-        "Programming"
+        "Energy",
+        "Science"
       ]
     },
     {
@@ -1042,53 +1650,7 @@
       },
       "hot_score": 0.01,
       "tags": [
-        "Data",
-        "Culture"
-      ]
-    },
-    {
-      "title_en": "Image manipulation with convolution using Julia",
-      "url": "https://medium.com/@Ahmad_Hamze/image-manipulation-with-convolution-using-julia-f898995ac1e5",
-      "title_zh": "使用 Julia 进行卷积的图像处理",
-      "created_display": "Created: Mar 02, 2026 / 07:31 PT",
-      "image_url": null,
-      "summary_en": "The article demonstrates image manipulation workflows in Julia through convolution-based filters, covering operations like blur, sharpen, and edge detection. It also shares performance tips and how to harness Julia's array operations for large images.",
-      "summary_zh": "文章展示了使用 Julia 进行卷积滤镜的图像处理工作流，包括模糊、锐化和边缘检测等操作。还分享了性能优化要点，以及如何利用 Julia 的数组操作处理大图像。",
-      "hn": {
-        "id": 47219256,
-        "type": "story",
-        "by": "AhmadHamze",
-        "score": 21,
-        "descendants": 3,
-        "time": 1772465466,
-        "comments_url": "https://news.ycombinator.com/item?id=47219256"
-      },
-      "hot_score": 0.01,
-      "tags": [
-        "Programming",
-        "Open Source"
-      ]
-    },
-    {
-      "title_en": "Stupidly Obscure Programming in a Troubled Time (2018)",
-      "url": "https://blog.podsnap.com/apply.html",
-      "title_zh": "在动荡时期的愚蠢而晦涩的编程（2018）",
-      "created_display": "Created: Mar 02, 2026 / 20:17 PT",
-      "image_url": "https://blog.podsnap.com/images/patrick-hammer.png",
-      "summary_en": "A retrospective tour of obscure programming topics from 2018 reflects on how niche languages and esoteric techniques flourished in a turbulent tech climate. The piece uses humor and history to critique tooling choices and emphasize readability.",
-      "summary_zh": "对2018年一些晦涩的编程主题进行回顾，揭示在动荡的科技环境中，冷僻语言和怪异技巧曾一度盛行。作者以幽默和历史视角评析工具选择，并强调可读性和长期维护的重要性。",
-      "hn": {
-        "id": 47227974,
-        "type": "story",
-        "by": "luu",
-        "score": 16,
-        "descendants": 0,
-        "time": 1772511434,
-        "comments_url": "https://news.ycombinator.com/item?id=47227974"
-      },
-      "hot_score": 0.01,
-      "tags": [
-        "Programming"
+        "Data"
       ]
     },
     {
@@ -1112,32 +1674,55 @@
       "tags": [
         "Show HN",
         "Programming",
-        "Web",
-        "Privacy"
+        "Privacy",
+        "Web"
       ]
     },
     {
-      "title_en": "Xous security focused open source on 22nm custom silicon",
-      "url": "https://www.crowdsupply.com/sutajio-kosagi/precursor/updates/xous-0-10-0-introducing-baochip-1x-support",
-      "title_zh": "22nm 自定义硅工艺的 Xous 安全导向开源操作系统",
-      "created_display": "Created: Mar 02, 2026 / 11:22 PT",
-      "image_url": "https://www.crowdsupply.com/img/695d/32afe31c-9464-4905-9d38-5908b3c1695d/precursor-eightview-2_jpg_open-graph.jpg",
-      "summary_en": "Xous is a security-focused open-source OS designed for a 22nm custom BaoChip silicon platform, with emphasis on a small trusted code base and formal security properties. The update introduces BaoChip 1.x support and related hardening features, illustrating the growing ecosystem of open-source firmware for bespoke hardware.",
-      "summary_zh": "Xous 是一个面向安全设计的开源操作系统，面向 22nm 定制 BaoChip 芯片，并强调小型可信代码库与形式化的安全属性。此次更新引入 BaoChip 1.x 支持与相关的加固特性，体现了为定制硬件构建的开源固件生态日益成熟。",
+      "title_en": "Stupidly Obscure Programming in a Troubled Time (2018)",
+      "url": "https://blog.podsnap.com/apply.html",
+      "title_zh": "在动荡时期的愚蠢而晦涩的编程（2018）",
+      "created_display": "Created: Mar 02, 2026 / 20:17 PT",
+      "image_url": "https://blog.podsnap.com/images/patrick-hammer.png",
+      "summary_en": "A retrospective tour of obscure programming topics from 2018 reflects on how niche languages and esoteric techniques flourished in a turbulent tech climate. The piece uses humor and history to critique tooling choices and emphasize readability.",
+      "summary_zh": "对2018年一些晦涩的编程主题进行回顾，揭示在动荡的科技环境中，冷僻语言和怪异技巧曾一度盛行。作者以幽默和历史视角评析工具选择，并强调可读性和长期维护的重要性。",
       "hn": {
-        "id": 47222777,
+        "id": 47227974,
         "type": "story",
-        "by": "ZiiS",
-        "score": 11,
+        "by": "luu",
+        "score": 16,
         "descendants": 0,
-        "time": 1772479343,
-        "comments_url": "https://news.ycombinator.com/item?id=47222777"
+        "time": 1772511434,
+        "comments_url": "https://news.ycombinator.com/item?id=47227974"
       },
       "hot_score": 0.0,
       "tags": [
-        "Open Source",
-        "Security",
-        "Hardware"
+        "Programming",
+        "Culture"
+      ]
+    },
+    {
+      "title_en": "Show HN: A trainable, modular electronic nose for industrial use",
+      "url": "https://sniphi.com/",
+      "title_zh": "Show HN: 可训练、模块化的工业用电子鼻",
+      "created_display": "Created: Mar 03, 2026 / 08:34 PT",
+      "image_url": "https://sniphi.com/wp-content/uploads/2024/11/Logo_color.png",
+      "summary_en": "This project offers a trainable, modular electronic nose for industrial use, combining flexible sensor arrays with AI-driven calibration. It promises customizable gas/odor detection for manufacturing safety, leak monitoring, and process control.",
+      "summary_zh": "该项目提供一个可训练、模块化的工业用电子鼻，将可定制的传感阵列与 AI 校准结合，适用于制造安全、泄漏监测与工艺控制等场景。",
+      "hn": {
+        "id": 47234907,
+        "type": "story",
+        "by": "kwitczak",
+        "score": 9,
+        "descendants": 4,
+        "time": 1772555666,
+        "comments_url": "https://news.ycombinator.com/item?id=47234907"
+      },
+      "hot_score": 0.0,
+      "tags": [
+        "Show HN",
+        "Hardware",
+        "AI"
       ]
     }
   ]
