@@ -20,7 +20,7 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='255' data-hn-time='1772757641'>
+<div class='hn-top-story-item' data-hn-score='376' data-hn-time='1772757641'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -28,21 +28,21 @@ Sort:
  <a class='hn-top-story-link' href='https://www.anthropic.com/news/where-stand-department-war' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>战争部现状：最新进展</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 255</span> <span class='hn-top-story-comments'>&#128172; 227</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.3</span> <span class='hn-top-story-score'>&#9650; 376</span> <span class='hn-top-story-comments'>&#128172; 374</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='909' data-hn-time='1772726694'>
+<div class='hn-top-story-item' data-hn-score='130' data-hn-time='1772770346'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/05/top_stories_03052026#story-47263323'>Wikipedia was in read-only mode following mass admin account compromise</a>
- <a class='hn-top-story-link' href='https://www.wikimediastatus.net' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/05/top_stories_03052026#story-47270784'>System76 on Age Verification Laws</a>
+ <a class='hn-top-story-link' href='https://blog.system76.com/post/system76-on-age-verification/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>维基百科因管理员账户被大规模入侵而进入只读模式</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.8</span> <span class='hn-top-story-score'>&#9650; 909</span> <span class='hn-top-story-comments'>&#128172; 314</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>System76 关于年龄验证法的看法</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.7</span> <span class='hn-top-story-score'>&#9650; 130</span> <span class='hn-top-story-comments'>&#128172; 69</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='683' data-hn-time='1772734090'>
+<div class='hn-top-story-item' data-hn-score='768' data-hn-time='1772734090'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -50,40 +50,40 @@ Sort:
  <a class='hn-top-story-link' href='https://openai.com/index/introducing-gpt-5-4/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>GPT-5.4</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.8</span> <span class='hn-top-story-score'>&#9650; 683</span> <span class='hn-top-story-comments'>&#128172; 598</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.0</span> <span class='hn-top-story-score'>&#9650; 768</span> <span class='hn-top-story-comments'>&#128172; 635</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='840' data-hn-time='1772719546'>
+<div class='hn-top-story-item' data-hn-score='941' data-hn-time='1772726694'>
 <span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/05/top_stories_03052026#story-47263323'>Wikipedia was in read-only mode following mass admin account compromise</a>
+ <a class='hn-top-story-link' href='https://www.wikimediastatus.net' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>维基百科因管理员账户被大规模入侵而进入只读模式</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.8</span> <span class='hn-top-story-score'>&#9650; 941</span> <span class='hn-top-story-comments'>&#128172; 325</span> <span class='hn-top-story-tag'>Security</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='900' data-hn-time='1772719546'>
+<span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/03/05/top_stories_03052026#story-47261688'>Judge orders government to begin refunding more than $130B in tariffs</a>
  <a class='hn-top-story-link' href='https://www.wsj.com/politics/policy/judge-orders-government-to-begin-refunding-more-than-130-billion-in-tariffs-fdc1e62c' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>法官命令政府开始退还超过1300亿美元关税</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.7</span> <span class='hn-top-story-score'>&#9650; 840</span> <span class='hn-top-story-comments'>&#128172; 626</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.5</span> <span class='hn-top-story-score'>&#9650; 900</span> <span class='hn-top-story-comments'>&#128172; 655</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='261' data-hn-time='1772746540'>
-<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='316' data-hn-time='1772746540'>
+<span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/03/05/top_stories_03052026#story-47267628'>Proton Mail Helped FBI Unmask Anonymous 'Stop Cop City' Protester</a>
  <a class='hn-top-story-link' href='https://www.404media.co/proton-mail-helped-fbi-unmask-anonymous-stop-cop-city-protestor/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Proton Mail 帮助 FBI 揭露匿名“Stop Cop City”抗议者</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.5</span> <span class='hn-top-story-score'>&#9650; 261</span> <span class='hn-top-story-comments'>&#128172; 135</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='153' data-hn-time='1772753212'>
-<span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/05/top_stories_03052026#story-47268662'>The next generations of Bubble Tea, Lip Gloss, and Bubbles are available now</a>
- <a class='hn-top-story-link' href='https://charm.land/blog/v2/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>下一代 Bubble Tea、Lip Gloss 与 Bubbles 已上市</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.0</span> <span class='hn-top-story-score'>&#9650; 153</span> <span class='hn-top-story-comments'>&#128172; 56</span> <span class='hn-top-story-tag'>Design</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 316</span> <span class='hn-top-story-comments'>&#128172; 152</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
 <div class='hn-top-story-item hn-top-story-extra' data-hn-score='330' data-hn-time='1772738675'>
@@ -94,40 +94,40 @@ Sort:
  <a class='hn-top-story-link' href='https://www.wsj.com/politics/national-security/pentagon-formally-labels-anthropic-supply-chain-risk-escalating-conflict-ebdf0523' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>五角大楼正式将 Anthropic 供应链风险列入关注</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.6</span> <span class='hn-top-story-score'>&#9650; 330</span> <span class='hn-top-story-comments'>&#128172; 220</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 330</span> <span class='hn-top-story-comments'>&#128172; 220</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='348' data-hn-time='1772727721'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='168' data-hn-time='1772753212'>
 <span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/05/top_stories_03052026#story-47268662'>The next generations of Bubble Tea, Lip Gloss, and Bubbles are available now</a>
+ <a class='hn-top-story-link' href='https://charm.land/blog/v2/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>下一代 Bubble Tea、Lip Gloss 与 Bubbles 已上市</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 168</span> <span class='hn-top-story-comments'>&#128172; 66</span> <span class='hn-top-story-tag'>Design</span> <span class='hn-top-story-tag'>Business</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='30' data-hn-time='1772774410'>
+<span class='hn-top-story-rank'>9</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/05/top_stories_03052026#story-47271187'>TeX Live 2026 is available for download now</a>
+ <a class='hn-top-story-link' href='https://www.tug.org/texlive/acquire.html' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>TeX Live 2026 已可下载</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 30</span> <span class='hn-top-story-comments'>&#128172; 11</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Security</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='380' data-hn-time='1772727721'>
+<span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/03/05/top_stories_03052026#story-47263595'>A GitHub Issue Title Compromised 4k Developer Machines</a>
  <a class='hn-top-story-link' href='https://grith.ai/blog/clinejection-when-your-ai-tool-installs-another' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>GitHub 问题标题被入侵导致数千开发者机器被利用的警示</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 348</span> <span class='hn-top-story-comments'>&#128172; 82</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='263' data-hn-time='1772732650'>
-<span class='hn-top-story-rank'>9</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/05/top_stories_03052026#story-47264756'>The Brand Age</a>
- <a class='hn-top-story-link' href='https://paulgraham.com/brandage.html' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>品牌时代</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 263</span> <span class='hn-top-story-comments'>&#128172; 229</span> <span class='hn-top-story-tag'>Startups</span> <span class='hn-top-story-tag'>Business</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='114' data-hn-time='1772748299'>
-<span class='hn-top-story-rank'>10</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/05/top_stories_03052026#story-47267947'>A standard protocol to handle and discard low-effort, AI-Generated pull requests</a>
- <a class='hn-top-story-link' href='https://406.fail/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>处理和丢弃低质量 AI 生成的拉取请求的标准协议</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.7</span> <span class='hn-top-story-score'>&#9650; 114</span> <span class='hn-top-story-comments'>&#128172; 32</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 380</span> <span class='hn-top-story-comments'>&#128172; 95</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>DevOps</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -155,7 +155,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/03/05/top_stories_03052026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>23</b> <span class="hn-row-sep">·</span> Programming <b>18</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>22</b> <span class="hn-row-sep">·</span> Programming <b>20</b></span>
 </a>
 </div>
 </div>
