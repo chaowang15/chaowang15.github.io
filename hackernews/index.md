@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>21</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>2807</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>20</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>19</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-03-08</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>21</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>2815</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>20</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>19</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-03-08</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,29 +20,29 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='298' data-hn-time='1772998019'>
+<div class='hn-top-story-item' data-hn-score='411' data-hn-time='1773001818'>
 <span class='hn-top-story-rank'>1</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/08/top_stories_03082026#story-47300329'>Ask HN: Please restrict new accounts from posting</a>
- <a class='hn-top-story-link' href='https://news.ycombinator.com/item?id=47300329' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Ask HN：请限制新账户发帖</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 17</span> <span class='hn-top-story-score'>&#9650; 298</span> <span class='hn-top-story-comments'>&#128172; 217</span> <span class='hn-top-story-tag'>Security</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='114' data-hn-time='1773001818'>
-<span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/03/08/top_stories_03082026#story-47301085'>Agent Safehouse – macOS-native sandboxing for local agents</a>
  <a class='hn-top-story-link' href='https://agent-safehouse.dev/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Agent Safehouse：macOS 原生本地代理沙箱</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 10</span> <span class='hn-top-story-score'>&#9650; 114</span> <span class='hn-top-story-comments'>&#128172; 28</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.9</span> <span class='hn-top-story-score'>&#9650; 411</span> <span class='hn-top-story-comments'>&#128172; 95</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='305' data-hn-time='1772990198'>
+<div class='hn-top-story-item' data-hn-score='494' data-hn-time='1772998019'>
+<span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/08/top_stories_03082026#story-47300329'>Ask HN: Please restrict new accounts from posting</a>
+ <a class='hn-top-story-link' href='https://news.ycombinator.com/item?id=47300329' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Ask HN：请限制新账户发帖</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.9</span> <span class='hn-top-story-score'>&#9650; 494</span> <span class='hn-top-story-comments'>&#128172; 383</span> <span class='hn-top-story-tag'>Culture</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='350' data-hn-time='1772990198'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -50,84 +50,84 @@ Sort:
  <a class='hn-top-story-link' href='https://mlumiste.com/general/openai-charter/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>AGI 时间线在变，未来仍未定</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.2</span> <span class='hn-top-story-score'>&#9650; 305</span> <span class='hn-top-story-comments'>&#128172; 197</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 350</span> <span class='hn-top-story-comments'>&#128172; 300</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='223' data-hn-time='1772989310'>
+<div class='hn-top-story-item' data-hn-score='380' data-hn-time='1772983269'>
 <span class='hn-top-story-rank'>4</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/08/top_stories_03082026#story-47298885'>LibreOffice Writer now supports Markdown</a>
- <a class='hn-top-story-link' href='https://blog.documentfoundation.org/blog/2026/02/04/libreoffice-26-2-is-here/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>LibreOffice Writer 现支持 Markdown</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.3</span> <span class='hn-top-story-score'>&#9650; 223</span> <span class='hn-top-story-comments'>&#128172; 41</span> <span class='hn-top-story-tag'>Open Source</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='308' data-hn-time='1772983269'>
-<span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/03/08/top_stories_03082026#story-47298044'>FrameBook</a>
  <a class='hn-top-story-link' href='https://fb.edoo.gg' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>FrameBook</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.0</span> <span class='hn-top-story-score'>&#9650; 308</span> <span class='hn-top-story-comments'>&#128172; 60</span> <span class='hn-top-story-tag'>Startups</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 380</span> <span class='hn-top-story-comments'>&#128172; 65</span> <span class='hn-top-story-tag'>Startups</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='91' data-hn-time='1772996853'>
+<div class='hn-top-story-item' data-hn-score='299' data-hn-time='1772989310'>
+<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/08/top_stories_03082026#story-47298885'>LibreOffice Writer now supports Markdown</a>
+ <a class='hn-top-story-link' href='https://blog.documentfoundation.org/blog/2026/02/04/libreoffice-26-2-is-here/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>LibreOffice Writer 现支持 Markdown</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 299</span> <span class='hn-top-story-comments'>&#128172; 54</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Programming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='73' data-hn-time='1773014838'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/08/top_stories_03082026#story-47300102'>Show HN: I built a real-time OSINT dashboard pulling 15 live global feeds</a>
- <a class='hn-top-story-link' href='https://github.com/BigBodyCobain/Shadowbroker' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/08/top_stories_03082026#story-47303111'>Ask HN: What Are You Working On? (March 2026)</a>
+ <a class='hn-top-story-link' href='https://news.ycombinator.com/item?id=47303111' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Show HN：我构建了一个实时 OSINT 仪表板，聚合 15 个全球信息源</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.7</span> <span class='hn-top-story-score'>&#9650; 91</span> <span class='hn-top-story-comments'>&#128172; 46</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-zh'>Ask HN：你们在做什么？（2026年3月）</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 73</span> <span class='hn-top-story-comments'>&#128172; 213</span> <span class='hn-top-story-tag'>Startups</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='254' data-hn-time='1772978949'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='171' data-hn-time='1772999895'>
 <span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/08/top_stories_03082026#story-47297453'>LibreOffice: Request to the European Commission to adhere to its own guidances</a>
- <a class='hn-top-story-link' href='https://blog.documentfoundation.org/blog/2026/03/05/cra-guidances/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>LibreOffice 请求欧盟委员会遵守自身指南</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 254</span> <span class='hn-top-story-comments'>&#128172; 37</span> <span class='hn-top-story-tag'>Open Source</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='129' data-hn-time='1772990093'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/08/top_stories_03082026#story-47298997'>Claude struggles to cope with ChatGPT exodus</a>
- <a class='hn-top-story-link' href='https://www.forbes.com/sites/barrycollins/2026/03/06/claude-struggles-to-cope-with-chatgpt-exodus/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Claude 在应对 ChatGPT 流失潮中的挣扎</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.8</span> <span class='hn-top-story-score'>&#9650; 129</span> <span class='hn-top-story-comments'>&#128172; 117</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='295' data-hn-time='1772973614'>
-<span class='hn-top-story-rank'>9</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/08/top_stories_03082026#story-47296849'>I ported Linux to the PS5 and turned it into a Steam Machine</a>
- <a class='hn-top-story-link' href='https://xcancel.com/theflow0/status/2030011206040256841' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>把 Linux 搬到 PS5，变成了一台 Steam 机</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 295</span> <span class='hn-top-story-comments'>&#128172; 122</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Programming</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='46' data-hn-time='1772999895'>
-<span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/03/08/top_stories_03082026#story-47300747'>We should revisit literate programming in the agent era</a>
  <a class='hn-top-story-link' href='https://silly.business/blog/we-should-revisit-literate-programming-in-the-agent-era/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>代理时代应重新审视可文档编程（Literate Programming）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 46</span> <span class='hn-top-story-comments'>&#128172; 27</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 171</span> <span class='hn-top-story-comments'>&#128172; 92</span> <span class='hn-top-story-tag'>Programming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='35' data-hn-time='1773021317'>
+<span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/08/top_stories_03082026#story-47303944'>Claude helped select targets for Iran strikes, possibly including school</a>
+ <a class='hn-top-story-link' href='https://twitter.com/robertwrighter/status/2030482402628214841' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Claude 协助为对伊朗的军事打击选择目标，可能还包括学校</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 35</span> <span class='hn-top-story-comments'>&#128172; 26</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='188' data-hn-time='1772996853'>
+<span class='hn-top-story-rank'>9</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/08/top_stories_03082026#story-47300102'>Show HN: I built a real-time OSINT dashboard pulling 15 live global feeds</a>
+ <a class='hn-top-story-link' href='https://github.com/BigBodyCobain/Shadowbroker' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Show HN：我构建了一个实时 OSINT 仪表板，聚合 15 个全球信息源</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 188</span> <span class='hn-top-story-comments'>&#128172; 85</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Open Source</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='111' data-hn-time='1773006035'>
+<span class='hn-top-story-rank'>10</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/08/top_stories_03082026#story-47301808'>Blacksky AppView</a>
+ <a class='hn-top-story-link' href='https://github.com/blacksky-algorithms/atproto' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Blacksky AppView</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.3</span> <span class='hn-top-story-score'>&#9650; 111</span> <span class='hn-top-story-comments'>&#128172; 71</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -155,7 +155,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/03/08/top_stories_03082026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>92</b> <span class="hn-row-sep">·</span> Programming <b>31</b> <span class="hn-row-sep">·</span> Science <b>17</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>34</b> <span class="hn-row-sep">·</span> Open Source <b>17</b></span>
 </a>
 </div>
 </div>
