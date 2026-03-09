@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>22</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>2915</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>21</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>20</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-03-09</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>22</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>2931</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>21</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>20</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-03-09</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,51 +20,51 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='57' data-hn-time='1773037682'>
+<div class='hn-top-story-item' data-hn-score='389' data-hn-time='1773051299'>
 <span class='hn-top-story-rank'>1</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/09/top_stories_03092026#story-47307055'>Ireland shuts last coal plant, becomes 15th coal-free country in Europe (2025)</a>
+ <a class='hn-top-story-link' href='https://www.pv-magazine.com/2025/06/20/ireland-coal-free-ends-coal-power-generation-moneypoint/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>爱尔兰关闭最后一座煤电厂，成为欧洲第15个无煤国家（2025）</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 13</span> <span class='hn-top-story-score'>&#9650; 389</span> <span class='hn-top-story-comments'>&#128172; 196</span> <span class='hn-top-story-tag'>Energy</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='204' data-hn-time='1773048302'>
+<span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/09/top_stories_03092026#story-47306655'>Fontcrafter: Turn Your Handwriting into a Real Font</a>
+ <a class='hn-top-story-link' href='https://arcade.pirillo.com/fontcrafter.html' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Fontcrafter：把手写字转成真实字体</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.4</span> <span class='hn-top-story-score'>&#9650; 204</span> <span class='hn-top-story-comments'>&#128172; 75</span> <span class='hn-top-story-tag'>Design</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='366' data-hn-time='1773037682'>
+<span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/03/09/top_stories_03092026#story-47305461'>US Court of Appeals: TOS may be updated by email, use can imply consent [pdf]</a>
  <a class='hn-top-story-link' href='https://cdn.ca9.uscourts.gov/datastore/memoranda/2026/03/03/25-403.pdf' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>美法院认定可通过邮件更新 TOS，继续使用可视为默示同意</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.2</span> <span class='hn-top-story-score'>&#9650; 57</span> <span class='hn-top-story-comments'>&#128172; 18</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.3</span> <span class='hn-top-story-score'>&#9650; 366</span> <span class='hn-top-story-comments'>&#128172; 283</span> <span class='hn-top-story-tag'>Legal</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='521' data-hn-time='1773001818'>
-<span class='hn-top-story-rank'>2</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/09/top_stories_03092026#story-47301085'>Agent Safehouse – macOS-native sandboxing for local agents</a>
- <a class='hn-top-story-link' href='https://agent-safehouse.dev/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Agent Safehouse：macOS 原生本地代理沙箱</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.4</span> <span class='hn-top-story-score'>&#9650; 521</span> <span class='hn-top-story-comments'>&#128172; 120</span> <span class='hn-top-story-tag'>Security</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='548' data-hn-time='1772998019'>
-<span class='hn-top-story-rank'>3</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/09/top_stories_03092026#story-47300329'>Ask HN: Please restrict new accounts from posting</a>
- <a class='hn-top-story-link' href='https://news.ycombinator.com/item?id=47300329' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Ask HN：请限制新账户发帖</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.9</span> <span class='hn-top-story-score'>&#9650; 548</span> <span class='hn-top-story-comments'>&#128172; 414</span> <span class='hn-top-story-tag'>Culture</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='77' data-hn-time='1773030479'>
+<div class='hn-top-story-item' data-hn-score='22' data-hn-time='1773066752'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/09/top_stories_03092026#story-47304886'>The death of social media is the renaissance of RSS (2025)</a>
- <a class='hn-top-story-link' href='https://www.smartlab.at/rss-revival-life-after-social-media/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/09/top_stories_03092026#story-47309655'>Global Stocks Sink as Oil Prices Surge</a>
+ <a class='hn-top-story-link' href='https://www.nytimes.com/2026/03/09/business/stocks-iran-oil.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>社交媒体的衰落与 RSS 的再兴（2025）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.6</span> <span class='hn-top-story-score'>&#9650; 77</span> <span class='hn-top-story-comments'>&#128172; 38</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>油价上涨引发全球股市下挫</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.4</span> <span class='hn-top-story-score'>&#9650; 22</span> <span class='hn-top-story-comments'>&#128172; 10</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>Energy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='71' data-hn-time='1773029793'>
+<div class='hn-top-story-item' data-hn-score='312' data-hn-time='1773029793'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -72,62 +72,62 @@ Sort:
  <a class='hn-top-story-link' href='https://old.reddit.com/r/KitchenConfidential/comments/1ro61g2/how_the_sriracha_guys_screwed_over_their_supplier/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Sriracha 创始人如何压榨供应商</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 71</span> <span class='hn-top-story-comments'>&#128172; 9</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Startups</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 312</span> <span class='hn-top-story-comments'>&#128172; 133</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='363' data-hn-time='1772990198'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='692' data-hn-time='1773001818'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/09/top_stories_03092026#story-47299009'>The changing goalposts of AGI and timelines</a>
- <a class='hn-top-story-link' href='https://mlumiste.com/general/openai-charter/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/09/top_stories_03092026#story-47301085'>Agent Safehouse – macOS-native sandboxing for local agents</a>
+ <a class='hn-top-story-link' href='https://agent-safehouse.dev/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>AGI 时间线在变，未来仍未定</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 363</span> <span class='hn-top-story-comments'>&#128172; 308</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>Agent Safehouse：macOS 原生本地代理沙箱</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 692</span> <span class='hn-top-story-comments'>&#128172; 163</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='397' data-hn-time='1772983269'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='32' data-hn-time='1773059926'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/09/top_stories_03092026#story-47298044'>FrameBook</a>
- <a class='hn-top-story-link' href='https://fb.edoo.gg' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/09/top_stories_03092026#story-47308278'>Reverse-engineering the UniFi inform protocol</a>
+ <a class='hn-top-story-link' href='https://tamarack.cloud/blog/reverse-engineering-unifi-inform-protocol' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>FrameBook</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.2</span> <span class='hn-top-story-score'>&#9650; 397</span> <span class='hn-top-story-comments'>&#128172; 68</span> <span class='hn-top-story-tag'>Web</span></div>
+<div class='hn-top-story-zh'>UniFi inform 协议的反向工程</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.3</span> <span class='hn-top-story-score'>&#9650; 32</span> <span class='hn-top-story-comments'>&#128172; 6</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='324' data-hn-time='1772989310'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='548' data-hn-time='1772998019'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/09/top_stories_03092026#story-47298885'>LibreOffice Writer now supports Markdown</a>
- <a class='hn-top-story-link' href='https://blog.documentfoundation.org/blog/2026/02/04/libreoffice-26-2-is-here/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/09/top_stories_03092026#story-47300329'>Ask HN: Please restrict new accounts from posting</a>
+ <a class='hn-top-story-link' href='https://news.ycombinator.com/item?id=47300329' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>LibreOffice Writer 现支持 Markdown</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.2</span> <span class='hn-top-story-score'>&#9650; 324</span> <span class='hn-top-story-comments'>&#128172; 60</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>Ask HN：请限制新账户发帖</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.2</span> <span class='hn-top-story-score'>&#9650; 548</span> <span class='hn-top-story-comments'>&#128172; 414</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='112' data-hn-time='1773014838'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='198' data-hn-time='1773030479'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/09/top_stories_03092026#story-47303111'>Ask HN: What Are You Working On? (March 2026)</a>
- <a class='hn-top-story-link' href='https://news.ycombinator.com/item?id=47303111' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/09/top_stories_03092026#story-47304886'>The death of social media is the renaissance of RSS (2025)</a>
+ <a class='hn-top-story-link' href='https://www.smartlab.at/rss-revival-life-after-social-media/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Ask HN：你们在做什么？（2026年3月）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.1</span> <span class='hn-top-story-score'>&#9650; 112</span> <span class='hn-top-story-comments'>&#128172; 355</span> <span class='hn-top-story-tag'>Culture</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>社交媒体的衰落与 RSS 的再兴（2025）</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.1</span> <span class='hn-top-story-score'>&#9650; 198</span> <span class='hn-top-story-comments'>&#128172; 128</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='212' data-hn-time='1772999895'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='26' data-hn-time='1773060740'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/09/top_stories_03092026#story-47300747'>We should revisit literate programming in the agent era</a>
- <a class='hn-top-story-link' href='https://silly.business/blog/we-should-revisit-literate-programming-in-the-agent-era/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/09/top_stories_03092026#story-47308394'>FreeBSD Capsicum vs. Linux Seccomp Process Sandboxing</a>
+ <a class='hn-top-story-link' href='https://vivianvoss.net/blog/capsicum-vs-seccomp' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>代理时代应重新审视可文档编程（Literate Programming）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 212</span> <span class='hn-top-story-comments'>&#128172; 120</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>FreeBSD Capsicum 与 Linux Seccomp 的进程沙箱对比</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 26</span> <span class='hn-top-story-comments'>&#128172; 4</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -159,7 +159,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/03/09/top_stories_03092026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> Programming <b>17</b> <span class="hn-row-sep">·</span> Hardware <b>9</b></span>
+<span class='hn-row-detail'>All <b>66</b> <span class="hn-row-sep">·</span> Programming <b>18</b> <span class="hn-row-sep">·</span> Open Source <b>12</b></span>
 </a>
 </div>
 </div>
