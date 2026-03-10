@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>23</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>3065</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>22</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>21</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-03-10</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>23</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>3091</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>22</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>21</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-03-10</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='64' data-hn-time='1773118132'>
+<div class='hn-top-story-item' data-hn-score='125' data-hn-time='1773147342'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/10/top_stories_03102026#story-47319179'>Windows: Microsoft broke the only thing that mattered</a>
- <a class='hn-top-story-link' href='https://www.yankodesign.com/2026/03/08/microsoft-broke-the-only-thing-that-actually-mattered/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/10/top_stories_03102026#story-47322635'>Online age-verification tools for child safety are surveilling adults</a>
+ <a class='hn-top-story-link' href='https://www.cnbc.com/2026/03/08/social-media-child-safety-internet-ai-surveillance.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Windows：微软把最关键的东西搞砸了</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.7</span> <span class='hn-top-story-score'>&#9650; 64</span> <span class='hn-top-story-comments'>&#128172; 45</span> <span class='hn-top-story-tag'>Design</span></div>
+<div class='hn-top-story-zh'>面向儿童安全的线上年龄验证工具正在监控成年人</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 125</span> <span class='hn-top-story-comments'>&#128172; 57</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='106' data-hn-time='1773109492'>
+<div class='hn-top-story-item' data-hn-score='239' data-hn-time='1773139830'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/10/top_stories_03102026#story-47318421'>Learnings from paying artists royalties for AI-generated art</a>
- <a class='hn-top-story-link' href='https://www.kapwing.com/blog/learnings-from-paying-artists-royalties-for-ai-generated-art/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/10/top_stories_03102026#story-47321533'>Yann LeCun's AI startup raises $1B in Europe's largest ever seed round</a>
+ <a class='hn-top-story-link' href='https://www.ft.com/content/e5245ec3-1a58-4eff-ab58-480b6259aaf1' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>从为AI生成艺术支付艺术家版税中得到的经验</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 106</span> <span class='hn-top-story-comments'>&#128172; 77</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>Yann LeCun 的 AI 初创公司完成 10 亿美元种子轮</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.4</span> <span class='hn-top-story-score'>&#9650; 239</span> <span class='hn-top-story-comments'>&#128172; 127</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Startups</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='173' data-hn-time='1773101804'>
+<div class='hn-top-story-item' data-hn-score='239' data-hn-time='1773137268'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/10/top_stories_03102026#story-47317616'>Two Years of Emacs Solo</a>
- <a class='hn-top-story-link' href='https://www.rahuljuliato.com/posts/emacs-solo-two-years' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/10/top_stories_03102026#story-47321233'>I put my whole life into a single database</a>
+ <a class='hn-top-story-link' href='https://howisfelix.today/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>两年独自打造的 Emacs：35 个模块、零外部包、全面重构</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 173</span> <span class='hn-top-story-comments'>&#128172; 39</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-zh'>将几乎人生放进一个数据库的个人故事，揭示隐私与数据控制的议题</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.7</span> <span class='hn-top-story-score'>&#9650; 239</span> <span class='hn-top-story-comments'>&#128172; 106</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Data</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='318' data-hn-time='1773088603'>
+<div class='hn-top-story-item' data-hn-score='65' data-hn-time='1773149207'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/10/top_stories_03102026#story-47315128'>OpenAI is walking away from expanding its Stargate data center with Oracle</a>
- <a class='hn-top-story-link' href='https://www.cnbc.com/2026/03/09/oracle-is-building-yesterdays-data-centers-with-tomorrows-debt.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/10/top_stories_03102026#story-47322966'>Hisense TVs add unskippable startup ads before live TV</a>
+ <a class='hn-top-story-link' href='https://www.guru3d.com/story/hisense-vidaa-tvs-reportedly-add-unskippable-startup-ads-before-live-tv/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>OpenAI 正在放弃与 Oracle 扩展 Stargate 数据中心</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 318</span> <span class='hn-top-story-comments'>&#128172; 172</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-zh'>海信电视在直播前加入不可跳过的开机广告</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.0</span> <span class='hn-top-story-score'>&#9650; 65</span> <span class='hn-top-story-comments'>&#128172; 84</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Startups</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='929' data-hn-time='1773051299'>
+<div class='hn-top-story-item' data-hn-score='258' data-hn-time='1773132893'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/10/top_stories_03102026#story-47307055'>Ireland shuts last coal plant, becomes 15th coal-free country in Europe (2025)</a>
- <a class='hn-top-story-link' href='https://www.pv-magazine.com/2025/06/20/ireland-coal-free-ends-coal-power-generation-moneypoint/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/10/top_stories_03102026#story-47320661'>Redox OS has adopted a Certificate of Origin policy and a strict no-LLM policy</a>
+ <a class='hn-top-story-link' href='https://gitlab.redox-os.org/redox-os/redox/-/blob/master/CONTRIBUTING.md' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>爱尔兰关闭最后一座煤电厂，成为欧洲第15个无煤国家（2025）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 929</span> <span class='hn-top-story-comments'>&#128172; 568</span> <span class='hn-top-story-tag'>Energy</span></div>
+<div class='hn-top-story-zh'>Redox OS 采纳证书来源政策并严格执行不得使用大语言模型</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.2</span> <span class='hn-top-story-score'>&#9650; 258</span> <span class='hn-top-story-comments'>&#128172; 265</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='358' data-hn-time='1773083343'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='65' data-hn-time='1773148248'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/10/top_stories_03102026#story-47313884'>Bluesky CEO Jay Graber is stepping down</a>
- <a class='hn-top-story-link' href='https://bsky.social/about/blog/03-09-2026-a-new-chapter-for-bluesky' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/10/top_stories_03102026#story-47322815'>Intel Demos Chip to Compute with Encrypted Data</a>
+ <a class='hn-top-story-link' href='https://spectrum.ieee.org/fhe-intel' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Bluesky CEO 杰伊·格雷伯将辞任</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 358</span> <span class='hn-top-story-comments'>&#128172; 317</span> <span class='hn-top-story-tag'>Startups</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-zh'>英特尔展示可对加密数据进行计算的芯片</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.2</span> <span class='hn-top-story-score'>&#9650; 65</span> <span class='hn-top-story-comments'>&#128172; 14</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='456' data-hn-time='1773075742'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='50' data-hn-time='1773149919'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/10/top_stories_03102026#story-47311815'>Building a Procedural Hex Map with Wave Function Collapse</a>
- <a class='hn-top-story-link' href='https://felixturner.github.io/hex-map-wfc/article/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/10/top_stories_03102026#story-47323105'>Rebasing in Magit</a>
+ <a class='hn-top-story-link' href='https://entropicthoughts.com/rebasing-in-magit' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>用波函数坍缩生成六边形地图的程序化方法</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 456</span> <span class='hn-top-story-comments'>&#128172; 68</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Design</span></div>
+<div class='hn-top-story-zh'>Magit 中的变基操作</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.0</span> <span class='hn-top-story-score'>&#9650; 50</span> <span class='hn-top-story-comments'>&#128172; 28</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='409' data-hn-time='1773076829'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='47' data-hn-time='1773149525'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/10/top_stories_03102026#story-47312090'>Florida judge rules red light camera tickets are unconstitutional</a>
- <a class='hn-top-story-link' href='https://cbs12.com/news/local/florida-news-judge-rules-red-light-camera-tickets-unconstitutional' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/10/top_stories_03102026#story-47323028'>Germany's Solar Boom Eases Power Costs as Gas Price Jumps</a>
+ <a class='hn-top-story-link' href='https://www.bloomberg.com/news/articles/2026-03-06/germany-s-solar-boom-eases-power-costs-as-gas-price-jumps' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>佛州法官裁定闯红灯摄像罚单违宪</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 409</span> <span class='hn-top-story-comments'>&#128172; 529</span> <span class='hn-top-story-tag'>Legal</span></div>
+<div class='hn-top-story-zh'>德国太阳能激增缓解高燃气价格带来的电力成本上升</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.3</span> <span class='hn-top-story-score'>&#9650; 47</span> <span class='hn-top-story-comments'>&#128172; 46</span> <span class='hn-top-story-tag'>Energy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='418' data-hn-time='1773069173'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='102' data-hn-time='1773139509'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/10/top_stories_03102026#story-47310160'>Is legal the same as legitimate: AI reimplementation and the erosion of copyleft</a>
- <a class='hn-top-story-link' href='https://writings.hongminhee.org/2026/03/legal-vs-legitimate/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/10/top_stories_03102026#story-47321499'>FreeBSD 14.4-Release Announcement</a>
+ <a class='hn-top-story-link' href='https://www.freebsd.org/releases/14.4R/announce/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>法律与正当性：AI 重现与 Copyleft 的侵蚀</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.3</span> <span class='hn-top-story-score'>&#9650; 418</span> <span class='hn-top-story-comments'>&#128172; 454</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Legal</span></div>
+<div class='hn-top-story-zh'>FreeBSD 14.4 发行公告</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 102</span> <span class='hn-top-story-comments'>&#128172; 23</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='25' data-hn-time='1773119279'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='78' data-hn-time='1773141840'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/10/top_stories_03102026#story-47319273'>Amazon holds engineering meeting following AI-related outages</a>
- <a class='hn-top-story-link' href='https://www.ft.com/content/7cab4ec7-4712-4137-b602-119a44f771de' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/10/top_stories_03102026#story-47321760'>Ask HN: Remember Fidonet?</a>
+ <a class='hn-top-story-link' href='https://news.ycombinator.com/item?id=47321760' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>亚马逊在 AI 故障后召开工程会议</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.1</span> <span class='hn-top-story-score'>&#9650; 25</span> <span class='hn-top-story-comments'>&#128172; 13</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>DevOps</span></div>
+<div class='hn-top-story-zh'>Ask HN：你还记得 Fidonet 吗？</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 78</span> <span class='hn-top-story-comments'>&#128172; 51</span> <span class='hn-top-story-tag'>Culture</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -159,7 +159,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/03/10/top_stories_03102026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> Programming <b>20</b> <span class="hn-row-sep">·</span> Science <b>9</b></span>
+<span class='hn-row-detail'>All <b>76</b> <span class="hn-row-sep">·</span> Programming <b>22</b> <span class="hn-row-sep">·</span> AI <b>14</b></span>
 </a>
 </div>
 </div>
