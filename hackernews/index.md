@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>24</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>3235</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>23</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>22</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-03-11</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>24</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>3259</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>23</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>22</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-03-11</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='155' data-hn-time='1773237121'>
+<div class='hn-top-story-item' data-hn-score='512' data-hn-time='1773237121'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/11/top_stories_03112026#story-47335572'>Whistleblower: DOGE member took Social Security data to new job</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/11/top_stories_03112026#story-47335572'>Whistleblower claims ex-DOGE member says he took Social Security data to new job</a>
  <a class='hn-top-story-link' href='https://www.washingtonpost.com/politics/2026/03/10/social-security-data-breach-doge-2/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>告密者：DOGE 成员将社会保障数据带到新工作岗位</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 21</span> <span class='hn-top-story-score'>&#9650; 155</span> <span class='hn-top-story-comments'>&#128172; 55</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>举报者称前 DOGE 成员表示他将社会保障数据带到新工作单位</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 15</span> <span class='hn-top-story-score'>&#9650; 512</span> <span class='hn-top-story-comments'>&#128172; 215</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='88' data-hn-time='1773235359'>
+<div class='hn-top-story-item' data-hn-score='249' data-hn-time='1773243350'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/11/top_stories_03112026#story-47335237'>Lego's 0.002 mm Specification and Its Implications for Manufacturing (2025)</a>
- <a class='hn-top-story-link' href='https://www.thewave.engineer/articles.html/productivity/legos-0002mm-specification-and-its-implications-for-manufacturing-r120/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/11/top_stories_03112026#story-47336989'>Temporal: A nine-year journey to fix time in JavaScript</a>
+ <a class='hn-top-story-link' href='https://bloomberg.github.io/js-blog/post/temporal/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>乐高的0.002毫米公差及其对制造业的影响（2025）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.2</span> <span class='hn-top-story-score'>&#9650; 88</span> <span class='hn-top-story-comments'>&#128172; 54</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>Temporal：九年修复 JavaScript 时间问题的历程</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 249</span> <span class='hn-top-story-comments'>&#128172; 102</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='116' data-hn-time='1773232035'>
+<div class='hn-top-story-item' data-hn-score='291' data-hn-time='1773235359'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/11/top_stories_03112026#story-47334694'>Microsoft BitNet: 100B Param 1-Bit model for local CPUs</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/11/top_stories_03112026#story-47335237'>Lego's 0.002mm specification and its implications for manufacturing (2025)</a>
+ <a class='hn-top-story-link' href='https://www.thewave.engineer/articles.html/productivity/legos-0002mm-specification-and-its-implications-for-manufacturing-r120/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>乐高 0.002mm 规格及其对制造业的启示（2025）</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.6</span> <span class='hn-top-story-score'>&#9650; 291</span> <span class='hn-top-story-comments'>&#128172; 229</span> <span class='hn-top-story-tag'>Hardware</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='196' data-hn-time='1773235932'>
+<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/11/top_stories_03112026#story-47335349'>Entities enabling scientific fraud at scale are large, resilient, growing (2025)</a>
+ <a class='hn-top-story-link' href='https://doi.org/10.1073/pnas.2420092122' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>促进大规模科学造假的实体体量大、韧性强且在增长（2025）</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.3</span> <span class='hn-top-story-score'>&#9650; 196</span> <span class='hn-top-story-comments'>&#128172; 107</span> <span class='hn-top-story-tag'>Science</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='236' data-hn-time='1773232035'>
+<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/11/top_stories_03112026#story-47334694'>BitNet: 100B Param 1-Bit model for local CPUs</a>
  <a class='hn-top-story-link' href='https://github.com/microsoft/BitNet' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>微软 BitNet：用于本地 CPU 的 1000 亿参数 1 位模型</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.9</span> <span class='hn-top-story-score'>&#9650; 116</span> <span class='hn-top-story-comments'>&#128172; 68</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.0</span> <span class='hn-top-story-score'>&#9650; 236</span> <span class='hn-top-story-comments'>&#128172; 118</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='526' data-hn-time='1773207949'>
-<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='133' data-hn-time='1773239753'>
+<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/11/top_stories_03112026#story-47336111'>Faster asin() was hiding in plain sight</a>
+ <a class='hn-top-story-link' href='https://16bpp.net/blog/post/faster-asin-was-hiding-in-plain-sight/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>更快的 asin() 原来一直显而易见</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.8</span> <span class='hn-top-story-score'>&#9650; 133</span> <span class='hn-top-story-comments'>&#128172; 80</span> <span class='hn-top-story-tag'>Programming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='613' data-hn-time='1773207949'>
+<span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/03/11/top_stories_03112026#story-47332074'>Create value for others and don’t worry about the returns</a>
  <a class='hn-top-story-link' href='https://geohot.github.io//blog/jekyll/update/2026/03/11/running-69-agents.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>为他人创造价值，别过分担心回报</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.9</span> <span class='hn-top-story-score'>&#9650; 526</span> <span class='hn-top-story-comments'>&#128172; 371</span> <span class='hn-top-story-tag'>Culture</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.6</span> <span class='hn-top-story-score'>&#9650; 613</span> <span class='hn-top-story-comments'>&#128172; 408</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='39' data-hn-time='1773238092'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/11/top_stories_03112026#story-47335764'>WA income tax clears House after 24-hour debate</a>
- <a class='hn-top-story-link' href='https://www.seattletimes.com/seattle-news/politics/wa-income-tax-passes-house-after-24-hour-debate/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>华州议会在24小时辩论后通过所得税法案</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.2</span> <span class='hn-top-story-score'>&#9650; 39</span> <span class='hn-top-story-comments'>&#128172; 47</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Business</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1895' data-hn-time='1773154216'>
-<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1956' data-hn-time='1773154216'>
+<span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/03/11/top_stories_03112026#story-47324054'>Tony Hoare has died</a>
  <a class='hn-top-story-link' href='https://blog.computationalcomplexity.org/2026/03/tony-hoare-1934-2026.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>托尼·霍尔去世</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.4</span> <span class='hn-top-story-score'>&#9650; 1895</span> <span class='hn-top-story-comments'>&#128172; 248</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.3</span> <span class='hn-top-story-score'>&#9650; 1956</span> <span class='hn-top-story-comments'>&#128172; 256</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='37' data-hn-time='1773235932'>
-<span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/11/top_stories_03112026#story-47335349'>The entities enabling scientific fraud at scale are large, resilient and growing</a>
- <a class='hn-top-story-link' href='https://doi.org/10.1073/pnas.2420092122' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>助长大规模科研造假的主体正变得更大、更有韧性且在增长</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.1</span> <span class='hn-top-story-score'>&#9650; 37</span> <span class='hn-top-story-comments'>&#128172; 9</span> <span class='hn-top-story-tag'>Science</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='24' data-hn-time='1773238128'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/11/top_stories_03112026#story-47335772'>UK MPs give ministers powers to restrict Internet for under 18s</a>
- <a class='hn-top-story-link' href='https://www.openrightsgroup.org/press-releases/mps-give-ministers-powers-to-restrict-entire-internet/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>英国议员赋予部长限制18岁以下互联网访问的权力</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.8</span> <span class='hn-top-story-score'>&#9650; 24</span> <span class='hn-top-story-comments'>&#128172; 9</span> <span class='hn-top-story-tag'>Politics</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='22' data-hn-time='1773236549'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='100' data-hn-time='1773241100'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/11/top_stories_03112026#story-47335472'>Ig Nobel award ceremony moving to Zurich due to concern over U.S. travel visas</a>
- <a class='hn-top-story-link' href='https://www.swissinfo.ch/eng/research-frontiers/ig-nobels-to-move-awards-to-switzerland-due-to-concern-over-us-travel-visas/91073250' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/11/top_stories_03112026#story-47336476'>Wiz joins Google</a>
+ <a class='hn-top-story-link' href='https://www.wiz.io/blog/google-closes-deal-to-acquire-wiz' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>为避免美国签证问题，恶搞诺贝尔移师苏黎世</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 22</span> <span class='hn-top-story-comments'>&#128172; 0</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Culture</span> <span class='hn-top-story-tag'>Science</span></div>
+<div class='hn-top-story-zh'>Wiz 加入 Google</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 100</span> <span class='hn-top-story-comments'>&#128172; 74</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='330' data-hn-time='1773192287'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='66' data-hn-time='1773244109'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/11/top_stories_03112026#story-47330836'>Zig – Type Resolution Redesign and Language Changes</a>
- <a class='hn-top-story-link' href='https://ziglang.org/devlog/2026/#2026-03-10' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/11/top_stories_03112026#story-47337177'>Where Some See Strings, She Sees a Space-Time Made of Fractals</a>
+ <a class='hn-top-story-link' href='https://www.quantamagazine.org/where-some-see-strings-she-sees-a-space-time-made-of-fractals-20260311/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Zig 重构类型解析与语言特性的变更</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 330</span> <span class='hn-top-story-comments'>&#128172; 165</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>当有人看到弦论，她却看到由分形构成的时空</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 66</span> <span class='hn-top-story-comments'>&#128172; 9</span> <span class='hn-top-story-tag'>Science</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -159,7 +159,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/03/11/top_stories_03112026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>70</b> <span class="hn-row-sep">·</span> AI <b>20</b> <span class="hn-row-sep">·</span> Programming <b>17</b></span>
+<span class='hn-row-detail'>All <b>94</b> <span class="hn-row-sep">·</span> AI <b>24</b> <span class="hn-row-sep">·</span> Programming <b>21</b></span>
 </a>
 </div>
 </div>
