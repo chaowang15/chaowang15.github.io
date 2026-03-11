@@ -20,7 +20,7 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='1259' data-hn-time='1773154216'>
+<div class='hn-top-story-item' data-hn-score='1587' data-hn-time='1773154216'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -28,106 +28,106 @@ Sort:
  <a class='hn-top-story-link' href='https://blog.computationalcomplexity.org/2026/03/tony-hoare-1934-2026.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>托尼·霍尔去世</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 22</span> <span class='hn-top-story-score'>&#9650; 1259</span> <span class='hn-top-story-comments'>&#128172; 176</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 1587</span> <span class='hn-top-story-comments'>&#128172; 204</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='103' data-hn-time='1773173514'>
+<div class='hn-top-story-item' data-hn-score='195' data-hn-time='1773182025'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/10/top_stories_03102026#story-47328214'>RISC-V Is Sloooow</a>
- <a class='hn-top-story-link' href='https://marcin.juszkiewicz.com.pl/2026/03/10/risc-v-is-sloooow/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/10/top_stories_03102026#story-47329605'>U+237C ⍼ Is Azimuth</a>
+ <a class='hn-top-story-link' href='https://ionathan.ch/2026/02/16/angzarr.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>RISC-V 真慢</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.9</span> <span class='hn-top-story-score'>&#9650; 103</span> <span class='hn-top-story-comments'>&#128172; 84</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>U+237C ⍼ 是否为方位符号</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.1</span> <span class='hn-top-story-score'>&#9650; 195</span> <span class='hn-top-story-comments'>&#128172; 20</span> <span class='hn-top-story-tag'>Design</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='151' data-hn-time='1773169786'>
+<div class='hn-top-story-item' data-hn-score='166' data-hn-time='1773181635'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/10/top_stories_03102026#story-47327559'>Agents that run while I sleep</a>
- <a class='hn-top-story-link' href='https://www.claudecodecamp.com/p/i-m-building-agents-that-run-while-i-sleep' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/10/top_stories_03102026#story-47329557'>Cloudflare crawl endpoint</a>
+ <a class='hn-top-story-link' href='https://developers.cloudflare.com/changelog/post/2026-03-10-br-crawl-endpoint/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>睡梦中运行的智能代理</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.8</span> <span class='hn-top-story-score'>&#9650; 151</span> <span class='hn-top-story-comments'>&#128172; 99</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>Cloudflare 新增抓取端点</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 166</span> <span class='hn-top-story-comments'>&#128172; 81</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='470' data-hn-time='1773147342'>
+<div class='hn-top-story-item' data-hn-score='149' data-hn-time='1773182028'>
 <span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/10/top_stories_03102026#story-47329608'>Universal vaccine against respiratory infections and allergens</a>
+ <a class='hn-top-story-link' href='https://med.stanford.edu/news/all-news/2026/02/universal-vaccine.html' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>针对呼吸道感染与过敏的通用疫苗取得进展</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 149</span> <span class='hn-top-story-comments'>&#128172; 54</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Health</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='584' data-hn-time='1773147342'>
+<span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/03/10/top_stories_03102026#story-47322635'>Online age-verification tools for child safety are surveilling adults</a>
  <a class='hn-top-story-link' href='https://www.cnbc.com/2026/03/08/social-media-child-safety-internet-ai-surveillance.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>面向儿童安全的线上年龄验证工具正在监控成年人</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.9</span> <span class='hn-top-story-score'>&#9650; 470</span> <span class='hn-top-story-comments'>&#128172; 280</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 584</span> <span class='hn-top-story-comments'>&#128172; 315</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='344' data-hn-time='1773153486'>
-<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='258' data-hn-time='1773169786'>
+<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/10/top_stories_03102026#story-47327559'>Agents that run while I sleep</a>
+ <a class='hn-top-story-link' href='https://www.claudecodecamp.com/p/i-m-building-agents-that-run-while-i-sleep' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>睡梦中运行的智能代理</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 258</span> <span class='hn-top-story-comments'>&#128172; 225</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='56' data-hn-time='1773192287'>
+<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/10/top_stories_03102026#story-47330836'>Zig – Type Resolution Redesign and Language Changes</a>
+ <a class='hn-top-story-link' href='https://ziglang.org/devlog/2026/#2026-03-10' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Zig 重构类型解析与语言特性的变更</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 56</span> <span class='hn-top-story-comments'>&#128172; 13</span> <span class='hn-top-story-tag'>Programming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='445' data-hn-time='1773153486'>
+<span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/03/10/top_stories_03102026#story-47323900'>Meta acquires Moltbook</a>
  <a class='hn-top-story-link' href='https://www.axios.com/2026/03/10/meta-facebook-moltbook-agent-social-network' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Meta 收购 Moltbook</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.7</span> <span class='hn-top-story-score'>&#9650; 344</span> <span class='hn-top-story-comments'>&#128172; 221</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Data</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 445</span> <span class='hn-top-story-comments'>&#128172; 294</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Data</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='159' data-hn-time='1773162892'>
-<span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/10/top_stories_03102026#story-47326101'>Launch HN: RunAnywhere (YC W26) – Faster AI Inference on Apple Silicon</a>
- <a class='hn-top-story-link' href='https://github.com/RunanywhereAI/rcli' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Launch HN：RunAnwhere（YC W26）——在 Apple Silicon 上实现更快的 AI 推理</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.7</span> <span class='hn-top-story-score'>&#9650; 159</span> <span class='hn-top-story-comments'>&#128172; 72</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Startups</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='236' data-hn-time='1773154393'>
-<span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/10/top_stories_03102026#story-47324087'>Debian decides not to decide on AI-generated contributions</a>
- <a class='hn-top-story-link' href='https://lwn.net/SubscriberLink/1061544/125f911834966dd0/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Debian 决定不就 AI 生成的贡献作出决定</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.1</span> <span class='hn-top-story-score'>&#9650; 236</span> <span class='hn-top-story-comments'>&#128172; 192</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='63' data-hn-time='1773170246'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/10/top_stories_03102026#story-47327641'>HyperCard discovery: Neuromancer, Count Zero, Mona Lisa Overdrive (2022)</a>
- <a class='hn-top-story-link' href='https://macintoshgarden.org/apps/neuromancer-count-zero-mona-lisa-overdrive' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>HyperCard 发现：Neuromancer、Count Zero、Mona Lisa Overdrive（2022）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 63</span> <span class='hn-top-story-comments'>&#128172; 18</span> <span class='hn-top-story-tag'>Culture</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='396' data-hn-time='1773137268'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='482' data-hn-time='1773149477'>
 <span class='hn-top-story-rank'>9</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/10/top_stories_03102026#story-47321233'>I put my whole life into a single database</a>
- <a class='hn-top-story-link' href='https://howisfelix.today/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>将几乎人生放进一个数据库的个人故事，揭示隐私与数据控制的议题</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 396</span> <span class='hn-top-story-comments'>&#128172; 187</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Data</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='224' data-hn-time='1773149477'>
-<span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/03/10/top_stories_03102026#story-47323017'>After outages, Amazon to make senior engineers sign off on AI-assisted changes</a>
  <a class='hn-top-story-link' href='https://arstechnica.com/ai/2026/03/after-outages-amazon-to-make-senior-engineers-sign-off-on-ai-assisted-changes/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>故障后，亚马逊要求高级工程师对AI辅助变更签字批准</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 224</span> <span class='hn-top-story-comments'>&#128172; 274</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 482</span> <span class='hn-top-story-comments'>&#128172; 407</span> <span class='hn-top-story-tag'>DevOps</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='187' data-hn-time='1773173514'>
+<span class='hn-top-story-rank'>10</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/10/top_stories_03102026#story-47328214'>RISC-V Is Sloooow</a>
+ <a class='hn-top-story-link' href='https://marcin.juszkiewicz.com.pl/2026/03/10/risc-v-is-sloooow/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>RISC-V 真慢</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 187</span> <span class='hn-top-story-comments'>&#128172; 175</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -159,7 +159,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/03/10/top_stories_03102026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>28</b> <span class="hn-row-sep">·</span> AI <b>25</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>29</b> <span class="hn-row-sep">·</span> AI <b>19</b></span>
 </a>
 </div>
 </div>
