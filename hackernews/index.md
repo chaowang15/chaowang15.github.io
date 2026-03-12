@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>25</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>3364</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>24</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>23</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-03-12</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>25</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>3393</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>24</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>23</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-03-12</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,7 +20,7 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='3286' data-hn-time='1773257369'>
+<div class='hn-top-story-item' data-hn-score='3880' data-hn-time='1773257369'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -28,106 +28,106 @@ Sort:
  <a class='hn-top-story-link' href='https://news.ycombinator.com/newsguidelines.html#generated' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>不要发布生成的 AI 编辑评论。HN 仅供人类对话</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 30</span> <span class='hn-top-story-score'>&#9650; 3286</span> <span class='hn-top-story-comments'>&#128172; 1240</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 16</span> <span class='hn-top-story-score'>&#9650; 3880</span> <span class='hn-top-story-comments'>&#128172; 1448</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='220' data-hn-time='1773280981'>
+<div class='hn-top-story-item' data-hn-score='187' data-hn-time='1773315674'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/12/top_stories_03122026#story-47345393'>DHS Contracts Explorer – Hacked data from the Office of Industry Partnership</a>
- <a class='hn-top-story-link' href='https://micahflee.github.io/ice-contracts/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/12/top_stories_03122026#story-47349277'>Big Data on the Cheapest MacBook</a>
+ <a class='hn-top-story-link' href='https://duckdb.org/2026/03/11/big-data-on-the-cheapest-macbook' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>DHS 合同探索器：产业伙伴办公室数据被黑</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.5</span> <span class='hn-top-story-score'>&#9650; 220</span> <span class='hn-top-story-comments'>&#128172; 41</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>在最便宜的MacBook上进行大数据处理</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.7</span> <span class='hn-top-story-score'>&#9650; 187</span> <span class='hn-top-story-comments'>&#128172; 149</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='115' data-hn-time='1773286168'>
+<div class='hn-top-story-item' data-hn-score='113' data-hn-time='1773319485'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/12/top_stories_03122026#story-47346091'>Iran-backed hackers claim wiper attack on medtech firm Stryker</a>
- <a class='hn-top-story-link' href='https://krebsonsecurity.com/2026/03/iran-backed-hackers-claim-wiper-attack-on-medtech-firm-stryker/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/12/top_stories_03122026#story-47349806'>US private credit defaults hit record 9.2% in 2025, Fitch says</a>
+ <a class='hn-top-story-link' href='https://www.marketscreener.com/news/us-private-credit-defaults-hit-record-9-2-in-2025-fitch-says-ce7e5fd8df8fff2d' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>伊朗支持的黑客声称对医疗技术公司 Stryker 发动抹除式攻击</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.1</span> <span class='hn-top-story-score'>&#9650; 115</span> <span class='hn-top-story-comments'>&#128172; 44</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Health</span></div>
+<div class='hn-top-story-zh'>据称2025年美国私募信贷违约率创纪录达到9.2%</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.8</span> <span class='hn-top-story-score'>&#9650; 113</span> <span class='hn-top-story-comments'>&#128172; 117</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='199' data-hn-time='1773274939'>
+<div class='hn-top-story-item' data-hn-score='40' data-hn-time='1773323696'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/12/top_stories_03122026#story-47344548'>Show HN: s@: decentralized social networking over static sites</a>
- <a class='hn-top-story-link' href='http://satproto.org/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/12/top_stories_03122026#story-47350578'>Iranian Hacktivists Strike Medical Device Maker Stryker and Wiped Systems</a>
+ <a class='hn-top-story-link' href='https://www.zetter-zeroday.com/iranian-hacktivists-strike-medical-device-maker-stryker-in-severe-attack-that-wiped-systems/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Show HN：s@：在静态站点上实现去中心化社交网络</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 199</span> <span class='hn-top-story-comments'>&#128172; 74</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-zh'>伊朗黑客行动者袭击医疗器械制造商 Stryker 并清除系统</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.6</span> <span class='hn-top-story-score'>&#9650; 40</span> <span class='hn-top-story-comments'>&#128172; 44</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Health</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='629' data-hn-time='1773243350'>
+<div class='hn-top-story-item' data-hn-score='45' data-hn-time='1773322872'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/12/top_stories_03122026#story-47336989'>Temporal: The 9-year journey to fix time in JavaScript</a>
- <a class='hn-top-story-link' href='https://bloomberg.github.io/js-blog/post/temporal/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/12/top_stories_03122026#story-47350416'>Show HN: We analyzed 1,573 Claude Code sessions to see how AI agents work</a>
+ <a class='hn-top-story-link' href='https://github.com/obsessiondb/rudel' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Temporal：用九年修复 JavaScript 的时间处理</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 629</span> <span class='hn-top-story-comments'>&#128172; 201</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>Show HN：我们分析了1573次 Claude Code 会话以揭示AI代理的工作原理</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.5</span> <span class='hn-top-story-score'>&#9650; 45</span> <span class='hn-top-story-comments'>&#128172; 26</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='51' data-hn-time='1773290329'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='69' data-hn-time='1773319406'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/12/top_stories_03122026#story-47346511'>WireGuard Is Two Things</a>
- <a class='hn-top-story-link' href='https://www.proxylity.com/articles/wireguard-is-two-things.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/12/top_stories_03122026#story-47349798'>US banks' exposure to private credit hits $300B (2025)</a>
+ <a class='hn-top-story-link' href='https://alternativecreditinvestor.com/2025/10/22/us-banks-exposure-to-private-credit-hits-300bn/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>WireGuard 的两件事</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 51</span> <span class='hn-top-story-comments'>&#128172; 16</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-zh'>美国银行对私募信贷敞口达3000亿美元（2025）</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.3</span> <span class='hn-top-story-score'>&#9650; 69</span> <span class='hn-top-story-comments'>&#128172; 28</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='243' data-hn-time='1773263166'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='162' data-hn-time='1773307381'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/12/top_stories_03122026#story-47341845'>Britain is ejecting hereditary nobles from Parliament after 700 years</a>
- <a class='hn-top-story-link' href='https://apnews.com/article/uk-house-of-lords-hereditary-peers-expelled-535df8781dd01e8970acda1dca99d3d4' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/12/top_stories_03122026#story-47348304'>Dolphin Progress Release 2603</a>
+ <a class='hn-top-story-link' href='https://dolphin-emu.org/blog/2026/03/12/dolphin-progress-report-release-2603/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>英国从议会中驱逐700年传统的世袭贵族</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 243</span> <span class='hn-top-story-comments'>&#128172; 248</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>Dolphin 进展发布 2603</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.3</span> <span class='hn-top-story-score'>&#9650; 162</span> <span class='hn-top-story-comments'>&#128172; 18</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1990' data-hn-time='1773154216'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='144' data-hn-time='1773308760'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/12/top_stories_03122026#story-47324054'>Tony Hoare has died</a>
- <a class='hn-top-story-link' href='https://blog.computationalcomplexity.org/2026/03/tony-hoare-1934-2026.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/12/top_stories_03122026#story-47348440'>1B identity records exposed in ID verification data leak</a>
+ <a class='hn-top-story-link' href='https://www.aol.com/articles/1-billion-identity-records-exposed-152505381.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>托尼·霍尔去世</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 1990</span> <span class='hn-top-story-comments'>&#128172; 259</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>在身份验证数据泄露中曝光10亿身份记录</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 144</span> <span class='hn-top-story-comments'>&#128172; 33</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='208' data-hn-time='1773262612'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='247' data-hn-time='1773295606'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/12/top_stories_03122026#story-47341645'>Many SWE-bench-Passing PRs would not be merged</a>
- <a class='hn-top-story-link' href='https://metr.org/notes/2026-03-10-many-swe-bench-passing-prs-would-not-be-merged-into-main/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/12/top_stories_03122026#story-47347064'>Returning to Rails in 2026</a>
+ <a class='hn-top-story-link' href='https://www.markround.com/blog/2026/03/05/returning-to-rails-in-2026/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>大量通过 SWE 基准的 PR 可能无法直接合并</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.3</span> <span class='hn-top-story-score'>&#9650; 208</span> <span class='hn-top-story-comments'>&#128172; 84</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>在 2026 年重新拥抱 Rails</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 247</span> <span class='hn-top-story-comments'>&#128172; 159</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='78' data-hn-time='1773280787'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='152' data-hn-time='1773304036'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/12/top_stories_03122026#story-47345364'>Urea prices</a>
- <a class='hn-top-story-link' href='https://tradingeconomics.com/commodity/urea' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/12/top_stories_03122026#story-47347945'>3D-Knitting: The Ultimate Guide</a>
+ <a class='hn-top-story-link' href='https://www.oliver-charles.com/pages/3d-knitting' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>尿素价格</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.3</span> <span class='hn-top-story-score'>&#9650; 78</span> <span class='hn-top-story-comments'>&#128172; 56</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-zh'>3D针织：终极指南</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 152</span> <span class='hn-top-story-comments'>&#128172; 56</span> <span class='hn-top-story-tag'>Design</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -159,7 +159,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/03/12/top_stories_03122026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>49</b> <span class="hn-row-sep">·</span> AI <b>15</b> <span class="hn-row-sep">·</span> Programming <b>13</b></span>
+<span class='hn-row-detail'>All <b>78</b> <span class="hn-row-sep">·</span> Programming <b>23</b> <span class="hn-row-sep">·</span> AI <b>19</b></span>
 </a>
 </div>
 </div>
