@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='623' data-hn-time='1773322924'>
+<div class='hn-top-story-item' data-hn-score='276' data-hn-time='1773349270'>
 <span class='hn-top-story-rank'>1</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/12/top_stories_03122026#story-47357042'>Shall I implement it? No</a>
+ <a class='hn-top-story-link' href='https://gist.github.com/bretonium/291f4388e2de89a43b25c135b44e41f0' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>要不要自己实现？不</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 32</span> <span class='hn-top-story-score'>&#9650; 276</span> <span class='hn-top-story-comments'>&#128172; 96</span> <span class='hn-top-story-tag'>Programming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='180' data-hn-time='1773348951'>
+<span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/12/top_stories_03122026#story-47356968'>Innocent woman jailed after being misidentified using AI facial recognition</a>
+ <a class='hn-top-story-link' href='https://www.grandforksherald.com/news/north-dakota/ai-error-jails-innocent-grandmother-for-months-in-north-dakota-fraud-case' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>因AI人脸识别误识而入狱的无辜老妇人</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 20</span> <span class='hn-top-story-score'>&#9650; 180</span> <span class='hn-top-story-comments'>&#128172; 98</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='908' data-hn-time='1773322924'>
+<span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/03/12/top_stories_03122026#story-47350424'>Malus – Clean Room as a Service</a>
  <a class='hn-top-story-link' href='https://malus.sh' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Malus：洁净室即服务</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 18</span> <span class='hn-top-story-score'>&#9650; 623</span> <span class='hn-top-story-comments'>&#128172; 231</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Startups</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='260' data-hn-time='1773329437'>
-<span class='hn-top-story-rank'>2</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/12/top_stories_03122026#story-47352215'>Asia rolls out 4-day weeks, WFH to solve fuel crisis caused by Iran war</a>
- <a class='hn-top-story-link' href='https://fortune.com/2026/03/11/iran-war-fuel-crisis-asia-work-from-home-closed-schools-price-caps/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>亚洲推行4天工作制和在家工作以应对因战争引发的燃料危机</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 13</span> <span class='hn-top-story-score'>&#9650; 260</span> <span class='hn-top-story-comments'>&#128172; 161</span> <span class='hn-top-story-tag'>Energy</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 13</span> <span class='hn-top-story-score'>&#9650; 908</span> <span class='hn-top-story-comments'>&#128172; 355</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Startups</span></div>
 </div>
 </div>
 <div class='hn-top-story-item' data-hn-score='3880' data-hn-time='1773257369'>
-<span class='hn-top-story-rank'>3</span>
+<span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/03/12/top_stories_03122026#story-47340079'>Don't post generated/AI-edited comments. HN is for conversation between humans</a>
  <a class='hn-top-story-link' href='https://news.ycombinator.com/newsguidelines.html#generated' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>不要发布生成的 AI 编辑评论。HN 仅供人类对话</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 3880</span> <span class='hn-top-story-comments'>&#128172; 1448</span> <span class='hn-top-story-tag'>Culture</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.2</span> <span class='hn-top-story-score'>&#9650; 3880</span> <span class='hn-top-story-comments'>&#128172; 1448</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='86' data-hn-time='1773335636'>
-<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-item' data-hn-score='126' data-hn-time='1773344495'>
+<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/12/top_stories_03122026#story-47356017'>An old photo of a large BBS (2022)</a>
+ <a class='hn-top-story-link' href='https://rachelbythebay.com/w/2022/01/26/swcbbs/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>2022年的一张大型 BBS 的旧照片</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.0</span> <span class='hn-top-story-score'>&#9650; 126</span> <span class='hn-top-story-comments'>&#128172; 92</span> <span class='hn-top-story-tag'>Culture</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='212' data-hn-time='1773335636'>
+<span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/03/12/top_stories_03122026#story-47354098'>Bubble Sorted Amen Break</a>
  <a class='hn-top-story-link' href='https://parametricavocado.itch.io/amen-sorting' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>冒泡排序版 Amen Break</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.4</span> <span class='hn-top-story-score'>&#9650; 86</span> <span class='hn-top-story-comments'>&#128172; 34</span> <span class='hn-top-story-tag'>Entertainment</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.2</span> <span class='hn-top-story-score'>&#9650; 212</span> <span class='hn-top-story-comments'>&#128172; 73</span> <span class='hn-top-story-tag'>Entertainment</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='142' data-hn-time='1773329681'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/12/top_stories_03122026#story-47352297'>Italian prosecutors seek trial for Amazon, 4 execs in alleged $1.4B tax evasion</a>
- <a class='hn-top-story-link' href='https://www.reuters.com/world/italian-prosecutors-seek-trial-amazon-four-execs-over-alleged-14-bln-tax-evasion-2026-03-12/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>意大利检方就亚马逊及4名高管涉14亿美元逃税提起审判</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.1</span> <span class='hn-top-story-score'>&#9650; 142</span> <span class='hn-top-story-comments'>&#128172; 26</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Business</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='197' data-hn-time='1773325363'>
-<span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/12/top_stories_03122026#story-47350931'>Kotlin creator's new language: a formal way to talk to LLMs instead of English</a>
- <a class='hn-top-story-link' href='https://codespeak.dev/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Kotlin 创作者的新语言：用结构化语言对话而非英语与 LLM 交流</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.8</span> <span class='hn-top-story-score'>&#9650; 197</span> <span class='hn-top-story-comments'>&#128172; 165</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='161' data-hn-time='1773326937'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='260' data-hn-time='1773329437'>
 <span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/12/top_stories_03122026#story-47352215'>Asia rolls out 4-day weeks, WFH to solve fuel crisis caused by Iran war</a>
+ <a class='hn-top-story-link' href='https://fortune.com/2026/03/11/iran-war-fuel-crisis-asia-work-from-home-closed-schools-price-caps/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>亚洲推行4天工作制和在家工作以应对因战争引发的燃料危机</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.2</span> <span class='hn-top-story-score'>&#9650; 260</span> <span class='hn-top-story-comments'>&#128172; 161</span> <span class='hn-top-story-tag'>Energy</span> <span class='hn-top-story-tag'>Business</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='261' data-hn-time='1773326937'>
+<span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/03/12/top_stories_03122026#story-47351371'>ATMs didn't kill bank teller jobs, but the iPhone did</a>
  <a class='hn-top-story-link' href='https://davidoks.blog/p/why-the-atm-didnt-kill-bank-teller' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>ATM 没杀死出纳员工作，但 iPhone 做到了</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.3</span> <span class='hn-top-story-score'>&#9650; 161</span> <span class='hn-top-story-comments'>&#128172; 203</span> <span class='hn-top-story-tag'>Career</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.5</span> <span class='hn-top-story-score'>&#9650; 261</span> <span class='hn-top-story-comments'>&#128172; 317</span> <span class='hn-top-story-tag'>Career</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='164' data-hn-time='1773326472'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/12/top_stories_03122026#story-47351239'>Suburban school district uses license plate readers to verify student residency</a>
- <a class='hn-top-story-link' href='https://www.nbcchicago.com/consumer/suburban-school-district-uses-license-plate-readers-to-verify-student-residency/3906703/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>郊区学区利用车牌识别器核验学生居住地</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.2</span> <span class='hn-top-story-score'>&#9650; 164</span> <span class='hn-top-story-comments'>&#128172; 196</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Education</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='67' data-hn-time='1773335236'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='224' data-hn-time='1773329681'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/12/top_stories_03122026#story-47353993'>Apple's MacBook Neo makes repairs easier and cheaper than other MacBooks</a>
- <a class='hn-top-story-link' href='https://arstechnica.com/gadgets/2026/03/more-modular-design-makes-macbook-neo-easier-to-fix-than-other-apple-laptops/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/12/top_stories_03122026#story-47352297'>Italian prosecutors seek trial for Amazon, 4 execs in alleged $1.4B tax evasion</a>
+ <a class='hn-top-story-link' href='https://www.reuters.com/world/italian-prosecutors-seek-trial-amazon-four-execs-over-alleged-14-bln-tax-evasion-2026-03-12/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>苹果 MacBook Neo：更易维修、成本更低的模块化设计</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.2</span> <span class='hn-top-story-score'>&#9650; 67</span> <span class='hn-top-story-comments'>&#128172; 22</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Design</span></div>
+<div class='hn-top-story-zh'>意大利检方就亚马逊及4名高管涉14亿美元逃税提起审判</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.5</span> <span class='hn-top-story-score'>&#9650; 224</span> <span class='hn-top-story-comments'>&#128172; 58</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>Legal</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='101' data-hn-time='1773331140'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='164' data-hn-time='1773333531'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/12/top_stories_03122026#story-47352751'>Claude now creates interactive charts, diagrams and visualizations</a>
- <a class='hn-top-story-link' href='https://claude.com/blog/claude-builds-visuals' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/12/top_stories_03122026#story-47353533'>Reversing memory loss via gut-brain communication</a>
+ <a class='hn-top-story-link' href='https://med.stanford.edu/news/all-news/2026/03/gut-brain-cognitive-decline.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Claude 现在能创建交互式图表、图解和可视化</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.8</span> <span class='hn-top-story-score'>&#9650; 101</span> <span class='hn-top-story-comments'>&#128172; 53</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Data</span></div>
+<div class='hn-top-story-zh'>通过肠脑通讯逆转记忆衰退</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 164</span> <span class='hn-top-story-comments'>&#128172; 47</span> <span class='hn-top-story-tag'>Health</span> <span class='hn-top-story-tag'>Science</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -159,7 +159,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/03/12/top_stories_03122026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>31</b> <span class="hn-row-sep">·</span> AI <b>23</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>28</b> <span class="hn-row-sep">·</span> Programming <b>24</b></span>
 </a>
 </div>
 </div>
