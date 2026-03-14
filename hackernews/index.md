@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>27</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>3664</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>26</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>25</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-03-14</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>27</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>3682</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>26</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>25</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-03-14</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='127' data-hn-time='1773488789'>
+<div class='hn-top-story-item' data-hn-score='162' data-hn-time='1773507520'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/14/top_stories_03142026#story-47375682'>Please Do Not A/B Test My Workflow</a>
- <a class='hn-top-story-link' href='https://backnotprop.com/blog/do-not-ab-test-my-workflow/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/14/top_stories_03142026#story-47378638'>What happens when US economic data becomes unreliable</a>
+ <a class='hn-top-story-link' href='https://mitsloan.mit.edu/ideas-made-to-matter/what-happens-when-us-economic-data-becomes-unreliable' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>请勿对我的工作流做 A/B 测试</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.7</span> <span class='hn-top-story-score'>&#9650; 127</span> <span class='hn-top-story-comments'>&#128172; 138</span> <span class='hn-top-story-tag'>DevOps</span> <span class='hn-top-story-tag'>Data</span></div>
+<div class='hn-top-story-zh'>美国经济数据一旦失去可信度会怎样</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 16</span> <span class='hn-top-story-score'>&#9650; 162</span> <span class='hn-top-story-comments'>&#128172; 109</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='105' data-hn-time='1773489553'>
+<div class='hn-top-story-item' data-hn-score='84' data-hn-time='1773505534'>
 <span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/14/top_stories_03142026#story-47378268'>NMAP in the Movies</a>
+ <a class='hn-top-story-link' href='https://nmap.org/movies/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>电影中的 NMAP</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.4</span> <span class='hn-top-story-score'>&#9650; 84</span> <span class='hn-top-story-comments'>&#128172; 12</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Entertainment</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='172' data-hn-time='1773496798'>
+<span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/14/top_stories_03142026#story-47376767'>Montana passes Right to Compute act (2025)</a>
+ <a class='hn-top-story-link' href='https://www.westernmt.news/2025/04/21/montana-leads-the-nation-with-groundbreaking-right-to-compute-act/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>蒙大拿通过“计算权利”法案（2025）</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.7</span> <span class='hn-top-story-score'>&#9650; 172</span> <span class='hn-top-story-comments'>&#128172; 121</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='62' data-hn-time='1773506222'>
+<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/14/top_stories_03142026#story-47378399'>UBI Is Your Productivity Dividend – The Only Way to All Share What We All Built</a>
+ <a class='hn-top-story-link' href='https://scottsantens.substack.com/p/universal-basic-income-is-your-productivity' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>全民基本收入是你的生产力红利——分享我们共同创造的价值</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.1</span> <span class='hn-top-story-score'>&#9650; 62</span> <span class='hn-top-story-comments'>&#128172; 53</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Business</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='190' data-hn-time='1773489553'>
+<span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/03/14/top_stories_03142026#story-47375764'>XML Is a Cheap DSL</a>
  <a class='hn-top-story-link' href='https://unplannedobsolescence.com/blog/xml-cheap-dsl/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>XML 是一种廉价的领域特定语言</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.9</span> <span class='hn-top-story-score'>&#9650; 105</span> <span class='hn-top-story-comments'>&#128172; 70</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 190</span> <span class='hn-top-story-comments'>&#128172; 196</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='1292' data-hn-time='1773405970'>
-<span class='hn-top-story-rank'>3</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/14/top_stories_03142026#story-47363754'>Can I run AI locally?</a>
- <a class='hn-top-story-link' href='https://www.canirun.ai/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>我能在本地运行 AI 吗？</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 1292</span> <span class='hn-top-story-comments'>&#128172; 319</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Energy</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='880' data-hn-time='1773422341'>
-<span class='hn-top-story-rank'>4</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/14/top_stories_03142026#story-47367129'>1M context is now generally available for Opus 4.6 and Sonnet 4.6</a>
- <a class='hn-top-story-link' href='https://claude.com/blog/1m-context-ga' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Opus 4.6 与 Sonnet 4.6 现已支持 1M 上下文长度</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 880</span> <span class='hn-top-story-comments'>&#128172; 338</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='78' data-hn-time='1773482758'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/14/top_stories_03142026#story-47375085'>RAM kits are now sold with one fake RAM stick alongside a real one</a>
- <a class='hn-top-story-link' href='https://www.tomshardware.com/pc-components/ram/fake-ram-bundled-with-real-ram-to-create-a-performance-illusion-for-amd-users-1-1-value-pack-offers-desperate-psychological-relief-as-the-memory-shortage-worsens' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>RAM 捆绑现含伪造内存条以制造性能错觉</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.7</span> <span class='hn-top-story-score'>&#9650; 78</span> <span class='hn-top-story-comments'>&#128172; 66</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Security</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='32' data-hn-time='1773488149'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='107' data-hn-time='1773497298'>
 <span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/14/top_stories_03142026#story-47375610'>How Lego builds a new Lego set</a>
- <a class='hn-top-story-link' href='https://www.theverge.com/c/23991049/lego-ideas-polaroid-onestep-behind-the-scenes-price' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>乐高如何打造一个全新套装</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.8</span> <span class='hn-top-story-score'>&#9650; 32</span> <span class='hn-top-story-comments'>&#128172; 9</span> <span class='hn-top-story-tag'>Design</span> <span class='hn-top-story-tag'>Business</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='9' data-hn-time='1773497298'>
-<span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/03/14/top_stories_03142026#story-47376848'>Philosoph Jürgen Habermas Gestorben</a>
  <a class='hn-top-story-link' href='https://www.spiegel.de/kultur/philosoph-juergen-habermas-mit-96-jahren-gestorben-a-8be73ac7-e722-4543-8344-4515c4040363' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>哲学家尤尔根·哈贝马斯去世</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.7</span> <span class='hn-top-story-score'>&#9650; 9</span> <span class='hn-top-story-comments'>&#128172; 1</span> <span class='hn-top-story-tag'>Culture</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.7</span> <span class='hn-top-story-score'>&#9650; 107</span> <span class='hn-top-story-comments'>&#128172; 37</span> <span class='hn-top-story-tag'>Culture</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='250' data-hn-time='1773446557'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='26' data-hn-time='1773510023'>
+<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/14/top_stories_03142026#story-47379067'>Sunsetting Jazzband</a>
+ <a class='hn-top-story-link' href='https://jazzband.co/news/2026/03/14/sunsetting-jazzband' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Jazzband 将停止运营</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 26</span> <span class='hn-top-story-comments'>&#128172; 3</span> <span class='hn-top-story-tag'>Business</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='49' data-hn-time='1773503638'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/14/top_stories_03142026#story-47371692'>Games with loot boxes to get minimum 16 age rating across Europe</a>
- <a class='hn-top-story-link' href='https://www.bbc.com/news/articles/cge84xqjg5lo' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/14/top_stories_03142026#story-47377907'>Online astroturfing: A problem beyond disinformation</a>
+ <a class='hn-top-story-link' href='https://journals.sagepub.com/doi/10.1177/01914537221108467' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>欧洲对含有抽奖箱的游戏定为 16+ 的分级</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.6</span> <span class='hn-top-story-score'>&#9650; 250</span> <span class='hn-top-story-comments'>&#128172; 155</span> <span class='hn-top-story-tag'>Gaming</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>在线造势：一个超越错误信息的问题</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 49</span> <span class='hn-top-story-comments'>&#128172; 20</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='643' data-hn-time='1773405069'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='191' data-hn-time='1773482758'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/14/top_stories_03142026#story-47363584'>Qatar helium shutdown puts chip supply chain on a two-week clock</a>
- <a class='hn-top-story-link' href='https://www.tomshardware.com/tech-industry/qatar-helium-shutdown-puts-chip-supply-chain-on-a-two-week-clock' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/14/top_stories_03142026#story-47375085'>RAM kits are now sold with one fake RAM stick alongside a real one</a>
+ <a class='hn-top-story-link' href='https://www.tomshardware.com/pc-components/ram/fake-ram-bundled-with-real-ram-to-create-a-performance-illusion-for-amd-users-1-1-value-pack-offers-desperate-psychological-relief-as-the-memory-shortage-worsens' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>卡塔尔氦气停产将芯片供应链推向两周窗口</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.6</span> <span class='hn-top-story-score'>&#9650; 643</span> <span class='hn-top-story-comments'>&#128172; 553</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Energy</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>RAM 捆绑现含伪造内存条以制造性能错觉</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 191</span> <span class='hn-top-story-comments'>&#128172; 136</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='494' data-hn-time='1773418410'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1045' data-hn-time='1773422341'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/14/top_stories_03142026#story-47366374'>The Wyden Siren Goes Off Again: We’ll Be “Stunned” By What the NSA Is Doing</a>
- <a class='hn-top-story-link' href='https://www.techdirt.com/2026/03/12/the-wyden-siren-goes-off-again-well-be-stunned-by-what-the-nsa-is-doing-under-section-702/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/14/top_stories_03142026#story-47367129'>1M context is now generally available for Opus 4.6 and Sonnet 4.6</a>
+ <a class='hn-top-story-link' href='https://claude.com/blog/1m-context-ga' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Wyden 警报再响：NSA 的所作所为可能令人大吃一惊</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.6</span> <span class='hn-top-story-score'>&#9650; 494</span> <span class='hn-top-story-comments'>&#128172; 145</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>Opus 4.6 与 Sonnet 4.6 现已支持 1M 上下文长度</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.7</span> <span class='hn-top-story-score'>&#9650; 1045</span> <span class='hn-top-story-comments'>&#128172; 440</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -159,7 +159,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/03/14/top_stories_03142026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>49</b> <span class="hn-row-sep">·</span> Programming <b>15</b> <span class="hn-row-sep">·</span> AI <b>11</b></span>
+<span class='hn-row-detail'>All <b>67</b> <span class="hn-row-sep">·</span> Programming <b>18</b> <span class="hn-row-sep">·</span> AI <b>15</b></span>
 </a>
 </div>
 </div>
