@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>27</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>3715</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>26</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>25</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-03-14</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>28</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>3764</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>26</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>26</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-03-15</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,118 +20,118 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='441' data-hn-time='1773526226'>
+<div class='hn-top-story-item' data-hn-score='525' data-hn-time='1773526226'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/14/top_stories_03142026#story-47381791'>Ageless Linux – Software for humans of indeterminate age</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/15/top_stories_03152026#story-47381791'>Ageless Linux – Software for humans of indeterminate age</a>
  <a class='hn-top-story-link' href='https://agelesslinux.org/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Ageless Linux：面向各年龄段的 Linux 系统</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.7</span> <span class='hn-top-story-score'>&#9650; 441</span> <span class='hn-top-story-comments'>&#128172; 287</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Design</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.0</span> <span class='hn-top-story-score'>&#9650; 525</span> <span class='hn-top-story-comments'>&#128172; 338</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Design</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='38' data-hn-time='1773542913'>
+<div class='hn-top-story-item' data-hn-score='80' data-hn-time='1773548623'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/14/top_stories_03142026#story-47383804'>Treasure hunter freed from jail after refusing to turn over shipwreck gold</a>
- <a class='hn-top-story-link' href='https://www.bbc.com/news/articles/cg4g7kn99q3o' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/15/top_stories_03152026#story-47384352'>Rack-mount hydroponics</a>
+ <a class='hn-top-story-link' href='https://sa.lj.am/rack-mount-hydroponics/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>拒绝交出沉船宝藏后获释的寻宝者</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 38</span> <span class='hn-top-story-comments'>&#128172; 39</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Culture</span></div>
+<div class='hn-top-story-zh'>机架式水培系统</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.8</span> <span class='hn-top-story-score'>&#9650; 80</span> <span class='hn-top-story-comments'>&#128172; 18</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Energy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='219' data-hn-time='1773518934'>
+<div class='hn-top-story-item' data-hn-score='27' data-hn-time='1773552960'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/14/top_stories_03142026#story-47380647'>Claude March 2026 usage promotion</a>
- <a class='hn-top-story-link' href='https://support.claude.com/en/articles/14063676-claude-march-2026-usage-promotion' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/15/top_stories_03152026#story-47384619'>How Jeff Bezos Upended The Washington Post</a>
+ <a class='hn-top-story-link' href='https://www.nytimes.com/2026/03/14/business/media/washington-post-jeff-bezos-layoffs.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Claude 公布 2026 年 3 月使用促销</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 219</span> <span class='hn-top-story-comments'>&#128172; 135</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>贝索斯如何改造《华盛顿邮报》</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.7</span> <span class='hn-top-story-score'>&#9650; 27</span> <span class='hn-top-story-comments'>&#128172; 11</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='133' data-hn-time='1773525888'>
+<div class='hn-top-story-item' data-hn-score='115' data-hn-time='1773533710'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/14/top_stories_03142026#story-47381746'>Changes to OpenTTD Distribution on Steam</a>
- <a class='hn-top-story-link' href='https://www.openttd.org/news/2026/03/14/steam-changes' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Steam 平台上 OpenTTD 发行方式变更</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 133</span> <span class='hn-top-story-comments'>&#128172; 94</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Gaming</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='73' data-hn-time='1773533710'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/14/top_stories_03142026#story-47382791'>How Kernel Anti-Cheats Work: A Deep Dive into Modern Game Protection</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/15/top_stories_03152026#story-47382791'>How kernel anti-cheats work</a>
  <a class='hn-top-story-link' href='https://s4dbrd.github.io/posts/how-kernel-anti-cheats-work/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>内核级反作弊工作原理：对现代游戏保护的深入剖析</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.7</span> <span class='hn-top-story-score'>&#9650; 73</span> <span class='hn-top-story-comments'>&#128172; 53</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.2</span> <span class='hn-top-story-score'>&#9650; 115</span> <span class='hn-top-story-comments'>&#128172; 90</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='287' data-hn-time='1773507520'>
+<div class='hn-top-story-item' data-hn-score='57' data-hn-time='1773542913'>
+<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/15/top_stories_03152026#story-47383804'>Treasure hunter freed from jail after refusing to turn over shipwreck gold</a>
+ <a class='hn-top-story-link' href='https://www.bbc.com/news/articles/cg4g7kn99q3o' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>拒绝交出沉船宝藏后获释的寻宝者</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 57</span> <span class='hn-top-story-comments'>&#128172; 55</span> <span class='hn-top-story-tag'>Legal</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='151' data-hn-time='1773525888'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/14/top_stories_03142026#story-47378638'>What happens when US economic data becomes unreliable</a>
- <a class='hn-top-story-link' href='https://mitsloan.mit.edu/ideas-made-to-matter/what-happens-when-us-economic-data-becomes-unreliable' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/15/top_stories_03152026#story-47381746'>Changes to OpenTTD Distribution on Steam</a>
+ <a class='hn-top-story-link' href='https://www.openttd.org/news/2026/03/14/steam-changes' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>美国经济数据一旦失去可信度会怎样</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 287</span> <span class='hn-top-story-comments'>&#128172; 282</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-zh'>Steam 平台上 OpenTTD 发行方式变更</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 151</span> <span class='hn-top-story-comments'>&#128172; 96</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='93' data-hn-time='1773529824'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='120' data-hn-time='1773529824'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/14/top_stories_03142026#story-47382277'>Airbus is preparing two uncrewed combat aircraft</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/15/top_stories_03152026#story-47382277'>Airbus is preparing two uncrewed combat aircraft</a>
  <a class='hn-top-story-link' href='https://www.airbus.com/en/newsroom/press-releases/2026-03-airbus-is-preparing-two-uncrewed-combat-aircraft-from-kratos-for-first-flight-with-a-european' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>空客筹备两架无人战斗机</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 93</span> <span class='hn-top-story-comments'>&#128172; 48</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.9</span> <span class='hn-top-story-score'>&#9650; 120</span> <span class='hn-top-story-comments'>&#128172; 66</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='122' data-hn-time='1773523653'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='151' data-hn-time='1773523653'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/14/top_stories_03142026#story-47381382'>Show HN: Han – A Korean programming language written in Rust</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/15/top_stories_03152026#story-47381382'>Show HN: Han – A Korean programming language written in Rust</a>
  <a class='hn-top-story-link' href='https://github.com/xodn348/han' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Show HN：Han——用 Rust 编写的韩语编程语言</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.3</span> <span class='hn-top-story-score'>&#9650; 122</span> <span class='hn-top-story-comments'>&#128172; 80</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.8</span> <span class='hn-top-story-score'>&#9650; 151</span> <span class='hn-top-story-comments'>&#128172; 86</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='162' data-hn-time='1773517885'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='38' data-hn-time='1773545357'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/14/top_stories_03142026#story-47380465'>GIMP 3.2 released</a>
- <a class='hn-top-story-link' href='https://www.gimp.org/news/2026/03/14/gimp-3-2-released/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/15/top_stories_03152026#story-47384032'>A most elegant TCP hole punching algorithm</a>
+ <a class='hn-top-story-link' href='https://robertsdotpm.github.io/cryptography/tcp_hole_punching.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>GIMP 3.2 发布</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.3</span> <span class='hn-top-story-score'>&#9650; 162</span> <span class='hn-top-story-comments'>&#128172; 39</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Design</span></div>
+<div class='hn-top-story-zh'>最优雅的 TCP 打洞算法</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.6</span> <span class='hn-top-story-score'>&#9650; 38</span> <span class='hn-top-story-comments'>&#128172; 6</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='107' data-hn-time='1773523422'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1419' data-hn-time='1773405970'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/14/top_stories_03142026#story-47381340'>Launching the Claude Partner Network</a>
- <a class='hn-top-story-link' href='https://www.anthropic.com/news/claude-partner-network' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/15/top_stories_03152026#story-47363754'>Can I run AI locally?</a>
+ <a class='hn-top-story-link' href='https://www.canirun.ai/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>推出 Claude 合作伙伴网络</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 107</span> <span class='hn-top-story-comments'>&#128172; 50</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-zh'>我能在本地运行 AI 吗？</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.5</span> <span class='hn-top-story-score'>&#9650; 1419</span> <span class='hn-top-story-comments'>&#128172; 339</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Energy</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
-<a class='hn-top-stories-more' href='/hackernews/2026/03/14/top_stories_03142026'>View all trending stories &rarr;</a>
+<a class='hn-top-stories-more' href='/hackernews/2026/03/15/top_stories_03152026'>View all trending stories &rarr;</a>
 </div>
 </div>
 <div class='hn-index-section hn-weekly-section'>
@@ -154,6 +154,15 @@ Sort:
 <div class='hn-index-section hn-daily-section'>
 <h3 class='hn-section-title'>Daily News <span class='hn-section-zh'>每日新闻</span></h3>
 <div class='hn-grid'>
+<div class='hn-day-row'>
+<div class='hn-day-date'>2026-03-15 <span class='hn-day-weekday'>Sun</span></div>
+<div class='hn-day-stories'>
+<a class='hn-story-link' href='/hackernews/2026/03/15/top_stories_03152026'>
+<span class='hn-row-type hn-type-top'>Trending</span>
+<span class='hn-row-detail'>All <b>49</b> <span class="hn-row-sep">·</span> Programming <b>13</b> <span class="hn-row-sep">·</span> AI <b>11</b></span>
+</a>
+</div>
+</div>
 <div class='hn-day-row'>
 <div class='hn-day-date'>2026-03-14 <span class='hn-day-weekday'>Sat</span></div>
 <div class='hn-day-stories'>
