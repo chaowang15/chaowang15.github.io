@@ -5,7 +5,7 @@
     <link>https://chaowang15.github.io/hackernews/</link>
     <description>Curated daily digest of top Hacker News stories with AI-generated summaries, tags, and bilingual translations.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 Mar 2026 07:08:59 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Mar 2026 13:04:05 +0000</lastBuildDate>
     <generator>Hacker News Daily RSS Builder</generator>
     <atom:link href="https://chaowang15.github.io/hackernews/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
@@ -52,12 +52,15 @@
       <dc:creator>ricardbejarano</dc:creator>
       <pubDate>Fri, 13 Mar 2026 12:46:10 +0000</pubDate>
       <category>AI</category>
+      <category>Privacy</category>
+      <category>Security</category>
+      <category>Open Source</category>
       <category>Hardware</category>
       <category>Energy</category>
-      <description>&lt;p&gt;The piece surveys the feasibility of running AI models offline, outlining hardware requirements (RAM, GPU VRAM), energy use, and performance trade-offs. It also points to practical pathways for local inference, from smaller open models to edge devices, versus cloud-based options. For developers, it helps frame when on-device AI makes sense.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;本文评估在本地离线运行 AI 模型的可行性，涵盖所需硬件（RAM、GPU 显存）、能耗与性能权衡。并指出从小型开源模型到边缘设备的本地推理路径，与云端方案相比的取舍。对开发者而言，这有助于判断何时在设备端部署 AI 更合适。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 1419 · 💬 339 · AI · Hardware · Energy&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47363754&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/15/top_stories_03152026#story-47363754&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Running AI locally is increasingly feasible for certain models, but hardware, energy, and cost trade-offs persist against the convenience of cloud inference. The piece surveys current open-source options, performance hurdles, and key privacy and security considerations for offline deployment.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;在本地运行 AI 对某些模型已逐渐变得可行，但与云端推理相比，仍需权衡硬件、能耗与成本。本文梳理了当前的开源选项、性能瓶颈，以及离线部署的隐私和安全考量。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 1435 · 💬 343 · AI · Privacy · Security · Open Source · Hardware · Energy&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47363754&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/14/top_stories_03142026#story-47363754&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Malus – Clean Room as a Service</title>
@@ -92,10 +95,10 @@
       <dc:creator>meetpateltech</dc:creator>
       <pubDate>Fri, 13 Mar 2026 17:19:01 +0000</pubDate>
       <category>AI</category>
-      <description>&lt;p&gt;1M context windows are now generally available for Opus 4.6 and Sonnet 4.6, enabling longer context retention and more coherent long-form assistance. This reduces engineering friction around chunking long documents and improves tasks like document QA, summarization, and multi-turn conversations, though it shifts cost and latency considerations.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Opus 4.6 和 Sonnet 4.6 现推出 1M 上下文长度，便于处理更长的对话和文档。长上下文提升了连续性与可用性，减少对文本分块的依赖，但也带来成本和延迟的权衡。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 1151 · 💬 489 · AI&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47367129&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/15/top_stories_03152026#story-47367129&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Long-context support expands what AI models can handle, enabling processing of much larger documents and more complex tasks. This milestone raises considerations about cost, latency, and best practices for managing very large inputs.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;更长的上下文容量让模型能够处理更大文档和更复杂的任务。这一里程碑带来成本、延迟及管理超大输入的最佳实践等新话题。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 1166 · 💬 496 · AI&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47367129&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/14/top_stories_03142026#story-47367129&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ireland shuts last coal plant, becomes 15th coal-free country in Europe (2025)</title>
@@ -185,6 +188,32 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47300329&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/09/top_stories_03092026#story-47300329&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Ageless Linux – Software for humans of indeterminate age</title>
+      <link>https://agelesslinux.org/</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47381791</guid>
+      <dc:creator>nateb2022</dc:creator>
+      <pubDate>Sat, 14 Mar 2026 22:10:26 +0000</pubDate>
+      <category>Open Source</category>
+      <category>Design</category>
+      <description>&lt;p&gt;Ageless Linux aims to be usable by people across a wide range of ages, focusing on human-centered design and accessibility. It challenges the stereotype that Linux is only for coders by providing a gentler, more inclusive user experience and documentation. The project highlights a trend toward more approachable, age-inclusive open-source software.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Ageless Linux 以以人为本的设计为核心，致力于让不同年龄段的用户都能轻松使用 Linux，并提供友好的界面与文档。此举打破了“Linux 只给程序员用”的刻板印象，体现出开源软件在可访问性与包容性方面的进步。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 689 · 💬 455 · Open Source · Design&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47381791&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/14/top_stories_03142026#story-47381791&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Qatar helium shutdown puts chip supply chain on a two-week clock</title>
+      <link>https://www.tomshardware.com/tech-industry/qatar-helium-shutdown-puts-chip-supply-chain-on-a-two-week-clock</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47363584</guid>
+      <dc:creator>johnbarron</dc:creator>
+      <pubDate>Fri, 13 Mar 2026 12:31:09 +0000</pubDate>
+      <category>Hardware</category>
+      <category>Business</category>
+      <description>&lt;p&gt;Helium supply disruption threatens semiconductor production, potentially delaying fabs and increasing costs. The industry is pressing for diversified sourcing and alternative gas strategies to build resilience.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;氦气供应中断威胁半导体生产，可能延迟晶圆厂与提高成本。行业正在推动多源采购与替代气体策略来提升韧性。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 679 · 💬 614 · Hardware · Business&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47363584&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/14/top_stories_03142026#story-47363584&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Create value for others and don’t worry about the returns</title>
       <link>https://geohot.github.io//blog/jekyll/update/2026/03/11/running-69-agents.html</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=47332074</guid>
@@ -196,19 +225,6 @@
 &lt;p&gt;&lt;em&gt;强调把为他人创造实用价值放在首位，而不是只追逐短期回报。文章倡导专注于影响力、开放协作和可持续做法，而非单纯看 ROI。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 679 · 💬 444 · Startups · Culture&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47332074&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/11/top_stories_03112026#story-47332074&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Qatar helium shutdown puts chip supply chain on a two-week clock</title>
-      <link>https://www.tomshardware.com/tech-industry/qatar-helium-shutdown-puts-chip-supply-chain-on-a-two-week-clock</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47363584</guid>
-      <dc:creator>johnbarron</dc:creator>
-      <pubDate>Fri, 13 Mar 2026 12:31:09 +0000</pubDate>
-      <category>Business</category>
-      <category>Hardware</category>
-      <description>&lt;p&gt;Qatar's helium shutdown creates a two-week bottleneck for chip manufacturing, highlighting how a single commodity can ripple through global supply chains. The disruption urges buyers to diversify inputs and lines.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;这一事件凸显了稀缺资源在半导体生产中的关键性，以及全球供应链对单一材料的脆弱性。未来企业需要寻求替代品或多元化采购来缓解风险。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 674 · 💬 608 · Business · Hardware&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47363584&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/14/top_stories_03142026#story-47363584&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Online age-verification tools for child safety are surveilling adults</title>
@@ -380,6 +396,19 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47323900&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/11/top_stories_03112026#story-47323900&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>The Wyden Siren Goes Off Again: We’ll Be “Stunned” By What the NSA Is Doing</title>
+      <link>https://www.techdirt.com/2026/03/12/the-wyden-siren-goes-off-again-well-be-stunned-by-what-the-nsa-is-doing-under-section-702/</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47366374</guid>
+      <dc:creator>cf100clunk</dc:creator>
+      <pubDate>Fri, 13 Mar 2026 16:13:30 +0000</pubDate>
+      <category>Privacy</category>
+      <category>Politics</category>
+      <description>&lt;p&gt;Surveillance disclosures under the Section 702 framework continue to fuel a policy tug-of-war over oversight and civil liberties. Fresh details are expected to draw sharper scrutiny of government data use.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;关于第702条框架下的监控披露持续推动监管与公民自由之间的博弈。新的细节预计将进一步引发对政府数据使用的审查。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 544 · 💬 162 · Privacy · Politics&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47366374&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/14/top_stories_03142026#story-47366374&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>US Court of Appeals: TOS may be updated by email, use can imply consent [pdf]</title>
       <link>https://cdn.ca9.uscourts.gov/datastore/memoranda/2026/03/03/25-403.pdf</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=47305461</guid>
@@ -406,19 +435,6 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47360730&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/13/top_stories_03132026#story-47360730&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Ageless Linux – Software for humans of indeterminate age</title>
-      <link>https://agelesslinux.org/</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47381791</guid>
-      <dc:creator>nateb2022</dc:creator>
-      <pubDate>Sat, 14 Mar 2026 22:10:26 +0000</pubDate>
-      <category>Open Source</category>
-      <category>Design</category>
-      <description>&lt;p&gt;Ageless Linux aims to be usable by people across a wide range of ages, focusing on human-centered design and accessibility. It challenges the stereotype that Linux is only for coders by providing a gentler, more inclusive user experience and documentation. The project highlights a trend toward more approachable, age-inclusive open-source software.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Ageless Linux 以以人为本的设计为核心，致力于让不同年龄段的用户都能轻松使用 Linux，并提供友好的界面与文档。此举打破了“Linux 只给程序员用”的刻板印象，体现出开源软件在可访问性与包容性方面的进步。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 525 · 💬 338 · Open Source · Design&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47381791&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/15/top_stories_03152026#story-47381791&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>ATMs didn’t kill bank teller jobs, but the iPhone did</title>
       <link>https://davidoks.blog/p/why-the-atm-didnt-kill-bank-teller</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=47351371</guid>
@@ -443,18 +459,17 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47298044&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/09/top_stories_03092026#story-47298044&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>The Wyden Siren Goes Off Again: We’ll Be “Stunned” By What the NSA Is Doing</title>
-      <link>https://www.techdirt.com/2026/03/12/the-wyden-siren-goes-off-again-well-be-stunned-by-what-the-nsa-is-doing-under-section-702/</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47366374</guid>
-      <dc:creator>cf100clunk</dc:creator>
-      <pubDate>Fri, 13 Mar 2026 16:13:30 +0000</pubDate>
-      <category>Privacy</category>
-      <category>Politics</category>
-      <category>Security</category>
-      <description>&lt;p&gt;Techdirt covers renewed scrutiny of the NSA’s use of Section 702 authorities, with lawmakers indicating there may be surprising programs or data handling practices coming to light.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;报道聚焦对国家安全局在第 702 条款下使用权力的再度审视，立法者表示将揭示令人吃惊的监控项目与数据处理做法。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 494 · 💬 145 · Privacy · Politics · Security&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47366374&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/14/top_stories_03142026#story-47366374&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+      <title>Elon Musk pushes out more xAI founders as AI coding effort falters</title>
+      <link>https://www.ft.com/content/e5fbc6c2-d5a6-4b97-a105-6a96ea849de5</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47366666</guid>
+      <dc:creator>merksittich</dc:creator>
+      <pubDate>Fri, 13 Mar 2026 16:40:42 +0000</pubDate>
+      <category>AI</category>
+      <category>Startups</category>
+      <description>&lt;p&gt;Leadership shakeups at Musk-backed xAI reflect the rough path of early-stage AI ventures amid technical and funding challenges. Talent turnover and strategic pivots could reshape the project’s trajectory.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;马斯克支持的 xAI 出现领导层动荡，反映早期 AI 项目在技术与资金挑战中的艰难路径。人才流动与策略调整可能改变项目走向。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 506 · 💬 797 · AI · Startups&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47366666&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/14/top_stories_03142026#story-47366666&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Florida judge rules red light camera tickets are unconstitutional</title>
@@ -479,19 +494,6 @@
 &lt;p&gt;&lt;em&gt;Cloudflare 推出新的抓取端点，帮助开发者测试并观察其爬虫对站点的抓取方式。此端点有助于 SEO 调试以及在保护机制下理解爬虫行为。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 484 · 💬 184 · Web&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47329557&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/11/top_stories_03112026#story-47329557&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Elon Musk pushes out more xAI founders as AI coding effort falters</title>
-      <link>https://www.ft.com/content/e5fbc6c2-d5a6-4b97-a105-6a96ea849de5</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47366666</guid>
-      <dc:creator>merksittich</dc:creator>
-      <pubDate>Fri, 13 Mar 2026 16:40:42 +0000</pubDate>
-      <category>AI</category>
-      <category>Startups</category>
-      <description>&lt;p&gt;Elon Musk's xAI is undergoing leadership churn as the AI coding push appears to stall, with several founders stepping away. The turmoil signals a potential pivot or refocusing of the venture as execution struggles surface.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;埃隆·马斯克旗下的 xAI 正经历高层变动，核心编码工作似乎停滞，已有多名创始人离开。这场动荡可能推动公司进行战略调整或重新聚焦执行。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 481 · 💬 745 · AI · Startups&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47366666&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/14/top_stories_03142026#story-47366666&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>No, it doesn't cost Anthropic $5k per Claude Code user</title>
@@ -572,6 +574,18 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47349806&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/13/top_stories_03132026#story-47349806&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Mouser: An open source alternative to Logi-Plus mouse software</title>
+      <link>https://github.com/TomBadash/MouseControl</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47368033</guid>
+      <dc:creator>avionics-guy</dc:creator>
+      <pubDate>Fri, 13 Mar 2026 18:42:54 +0000</pubDate>
+      <category>Open Source</category>
+      <description>&lt;p&gt;An open-source substitute for Logi-Plus mouse software appears, enabling transparent customization, macros, and device profiles through community-driven tools. This can attract power users who want more control and fewer vendor lock-ins.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;出现了一款 Logi-Plus 鼠标软件的开源替代方案，使用户能够通过社区工具进行透明的自定义、宏和设备配置，吸引追求更大控制权的高阶用户。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 425 · 💬 141 · Open Source&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47368033&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/14/top_stories_03142026#story-47368033&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Agents that run while I sleep</title>
       <link>https://www.claudecodecamp.com/p/i-m-building-agents-that-run-while-i-sleep</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=47327559</guid>
@@ -632,19 +646,6 @@
 &lt;p&gt;&lt;em&gt;尽管无线耳机已成主流，市场仍见有线耳机需求激增，原因包括声音保真、低延迟和更可靠的连接。文章分析了市场动态、情感诉求以及发烧友和专业用户对有线设备的持续青睐。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 410 · 💬 679 · Hardware&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47340203&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/14/top_stories_03142026#story-47340203&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>I was interviewed by an AI bot for a job</title>
-      <link>https://www.theverge.com/featured-video/892850/i-was-interviewed-by-an-ai-bot-for-a-job</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47339164</guid>
-      <dc:creator>speckx</dc:creator>
-      <pubDate>Wed, 11 Mar 2026 18:17:30 +0000</pubDate>
-      <category>AI</category>
-      <category>Career</category>
-      <description>&lt;p&gt;An applicant recounts being interviewed by an AI bot for a job, illustrating how automated interviewing tools are entering hiring. It raises questions about bias, evaluation transparency, and how far automation should override human judgment in candidate assessment.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;应聘者讲述自己被 AI 机器人面试的经历，展示了自动化招聘工具在招聘流程中的渗透。此事引发对偏见、评估透明度以及在候选人评估中让自动化替代人工判断的边界等问题的讨论。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 410 · 💬 456 · AI · Career&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47339164&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/12/top_stories_03122026#story-47339164&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
