@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>30</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>4114</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>29</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>28</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-03-17</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>30</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>4135</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>29</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>28</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-03-17</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='310' data-hn-time='1773722382'>
+<div class='hn-top-story-item' data-hn-score='665' data-hn-time='1773743988'>
 <span class='hn-top-story-rank'>1</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/17/top_stories_03172026#story-47410870'>Reddit User Uncovers Who Is Behind Meta's $2B Lobbying for Age Verification Tech</a>
+ <a class='hn-top-story-link' href='https://www.gadgetreview.com/reddit-user-uncovers-who-is-behind-metas-2b-lobbying-for-invasive-age-verification-tech' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Reddit 用户揭露谁在为 Meta 的年龄验证技术投入 20 亿美元进行游说</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 24</span> <span class='hn-top-story-score'>&#9650; 665</span> <span class='hn-top-story-comments'>&#128172; 284</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='417' data-hn-time='1773741233'>
+<span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/17/top_stories_03172026#story-47410542'>Kagi Small Web</a>
+ <a class='hn-top-story-link' href='https://kagi.com/smallweb/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Kagi 推出 Small Web 小型网络</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 417</span> <span class='hn-top-story-comments'>&#128172; 100</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Privacy</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='1028' data-hn-time='1773722382'>
+<span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/03/17/top_stories_03172026#story-47408703'>Kagi Translate now supports LinkedIn Speak as an output language</a>
  <a class='hn-top-story-link' href='https://translate.kagi.com/?from=en&to=LinkedIn+speak' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Kagi Translate 现已支持 LinkedIn Speak 作为输出语言</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 20</span> <span class='hn-top-story-score'>&#9650; 310</span> <span class='hn-top-story-comments'>&#128172; 53</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 1028</span> <span class='hn-top-story-comments'>&#128172; 245</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='532' data-hn-time='1773705755'>
-<span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-item' data-hn-score='127' data-hn-time='1773752219'>
+<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/17/top_stories_03172026#story-47412023'>Silicon Valley's "Pronatalists" Killed WFH. The Strait of Hormuz Brought It Back</a>
+ <a class='hn-top-story-link' href='https://www.governance.fyi/p/silicon-valleys-pronatalists-killed' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>硅谷的‘促生育派’杀死了在家办公，霍尔木兹海峡让它重新兴起</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 10</span> <span class='hn-top-story-score'>&#9650; 127</span> <span class='hn-top-story-comments'>&#128172; 148</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Culture</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='657' data-hn-time='1773705755'>
+<span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/03/17/top_stories_03172026#story-47406779'>US SEC preparing to scrap quarterly reporting requirement</a>
  <a class='hn-top-story-link' href='https://www.reuters.com/business/finance/us-sec-preparing-eliminate-quarterly-reporting-requirement-wsj-says-2026-03-16/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>美国SEC拟取消季度报告要求</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.8</span> <span class='hn-top-story-score'>&#9650; 532</span> <span class='hn-top-story-comments'>&#128172; 284</span> <span class='hn-top-story-tag'>Finance</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 657</span> <span class='hn-top-story-comments'>&#128172; 367</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>Legal</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='1444' data-hn-time='1773662406'>
-<span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='47' data-hn-time='1773752618'>
+<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/17/top_stories_03172026#story-47412097'>A proposal to classify happiness as a psychiatric disorder</a>
+ <a class='hn-top-story-link' href='https://pmc.ncbi.nlm.nih.gov/articles/PMC1376114/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>将幸福列为精神疾病的分类提案</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 47</span> <span class='hn-top-story-comments'>&#128172; 34</span> <span class='hn-top-story-tag'>Health</span> <span class='hn-top-story-tag'>Science</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1537' data-hn-time='1773662406'>
+<span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/03/17/top_stories_03172026#story-47397822'>Polymarket gamblers threaten to kill me over Iran missile story</a>
  <a class='hn-top-story-link' href='https://www.timesofisrael.com/gamblers-trying-to-win-a-bet-on-polymarket-are-vowing-to-kill-me-if-i-dont-rewrite-an-iran-missile-story/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Polymarket 赌徒因伊朗导弹报道威胁要杀我</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.9</span> <span class='hn-top-story-score'>&#9650; 1444</span> <span class='hn-top-story-comments'>&#128172; 926</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 1537</span> <span class='hn-top-story-comments'>&#128172; 976</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='134' data-hn-time='1773717636'>
-<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='383' data-hn-time='1773717636'>
+<span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/03/17/top_stories_03172026#story-47408205'>Every layer of review makes you 10x slower</a>
  <a class='hn-top-story-link' href='https://apenwarr.ca/log/20260316' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>每多一层评审，速度就会慢十倍</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.4</span> <span class='hn-top-story-score'>&#9650; 134</span> <span class='hn-top-story-comments'>&#128172; 58</span> <span class='hn-top-story-tag'>DevOps</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 383</span> <span class='hn-top-story-comments'>&#128172; 232</span> <span class='hn-top-story-tag'>DevOps</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='427' data-hn-time='1773694780'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/17/top_stories_03172026#story-47404796'>Leanstral: Open-source agent for trustworthy coding and formal proof engineering</a>
- <a class='hn-top-story-link' href='https://mistral.ai/news/leanstral' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Leanstral：用于可信编码与形式化证明工程的开源代理</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.7</span> <span class='hn-top-story-score'>&#9650; 427</span> <span class='hn-top-story-comments'>&#128172; 89</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Open Source</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='81' data-hn-time='1773720028'>
-<span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/17/top_stories_03172026#story-47408441'>Monkey Island for Commodore 64 Ground Up</a>
- <a class='hn-top-story-link' href='https://pixeldust.se/monkey-island-project' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>为 Commodore 64 全新从零重制的 Monkey Island</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.1</span> <span class='hn-top-story-score'>&#9650; 81</span> <span class='hn-top-story-comments'>&#128172; 20</span> <span class='hn-top-story-tag'>Gaming</span> <span class='hn-top-story-tag'>Hardware</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='405' data-hn-time='1773684752'>
-<span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/17/top_stories_03172026#story-47402640'>Meta’s renewed commitment to jemalloc</a>
- <a class='hn-top-story-link' href='https://engineering.fb.com/2026/03/02/data-infrastructure/investing-in-infrastructure-metas-renewed-commitment-to-jemalloc/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Meta 再次承诺优化 jemalloc</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 405</span> <span class='hn-top-story-comments'>&#128172; 177</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>DevOps</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='694' data-hn-time='1773660331'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/17/top_stories_03172026#story-47397593'>Corruption erodes social trust more in democracies than in autocracies</a>
- <a class='hn-top-story-link' href='https://www.frontiersin.org/journals/political-science/articles/10.3389/fpos.2026.1779810/full' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>腐败在民主国家对社会信任的侵蚀比专制国家更严重</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.7</span> <span class='hn-top-story-score'>&#9650; 694</span> <span class='hn-top-story-comments'>&#128172; 363</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Science</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='378' data-hn-time='1773681477'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='26' data-hn-time='1773755657'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/17/top_stories_03172026#story-47401879'>The “small web” is bigger than you might think</a>
- <a class='hn-top-story-link' href='https://kevinboone.me/small_web_is_big.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/17/top_stories_03172026#story-47412726'>OpenSUSE Kalpa</a>
+ <a class='hn-top-story-link' href='https://kalpadesktop.org/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>“小型网络”比你想象的更大</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 378</span> <span class='hn-top-story-comments'>&#128172; 163</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>OpenSUSE Kalpa 桌面环境</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 26</span> <span class='hn-top-story-comments'>&#128172; 12</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='619' data-hn-time='1773662253'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='56' data-hn-time='1773748865'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/17/top_stories_03172026#story-47397797'>MoD sources warn Palantir role at heart of government is threat to UK security</a>
- <a class='hn-top-story-link' href='https://www.thenerve.news/p/palantir-technologies-uk-mod-sources-government-data-insights-security-state-secrets' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/17/top_stories_03172026#story-47411480'>Ryugu asteroid samples contain all DNA and RNA building blocks</a>
+ <a class='hn-top-story-link' href='https://phys.org/news/2026-03-ryugu-asteroid-samples-dna-rna.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>英国国防部消息称 Palantir 在政府核心地位的角色对国家安全构成威胁</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 619</span> <span class='hn-top-story-comments'>&#128172; 256</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>龙宫小行星样本含有 DNA 与 RNA 的构建块</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 56</span> <span class='hn-top-story-comments'>&#128172; 44</span> <span class='hn-top-story-tag'>Space</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Energy</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -163,7 +163,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/03/17/top_stories_03172026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>49</b> <span class="hn-row-sep">·</span> Programming <b>16</b> <span class="hn-row-sep">·</span> AI <b>11</b></span>
+<span class='hn-row-detail'>All <b>70</b> <span class="hn-row-sep">·</span> Programming <b>22</b> <span class="hn-row-sep">·</span> AI <b>11</b></span>
 </a>
 </div>
 </div>
