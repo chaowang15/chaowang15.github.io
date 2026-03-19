@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>32</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>4437</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>31</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>30</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-03-19</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>32</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>4463</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>31</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>30</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-03-19</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,7 +20,7 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='342' data-hn-time='1773925550'>
+<div class='hn-top-story-item' data-hn-score='880' data-hn-time='1773925550'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -28,10 +28,10 @@ Sort:
  <a class='hn-top-story-link' href='https://astral.sh/blog/openai' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Astral 将加入 OpenAI</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 32</span> <span class='hn-top-story-score'>&#9650; 342</span> <span class='hn-top-story-comments'>&#128172; 158</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 22</span> <span class='hn-top-story-score'>&#9650; 880</span> <span class='hn-top-story-comments'>&#128172; 566</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='582' data-hn-time='1773913916'>
+<div class='hn-top-story-item' data-hn-score='941' data-hn-time='1773913916'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -39,95 +39,95 @@ Sort:
  <a class='hn-top-story-link' href='https://nypost.com/2026/03/18/us-news/afroman-found-not-liable-in-bizarre-ohio-defamation-case/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Afroman 在诽谤案中被裁定对警察无责</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 18</span> <span class='hn-top-story-score'>&#9650; 582</span> <span class='hn-top-story-comments'>&#128172; 202</span> <span class='hn-top-story-tag'>Entertainment</span> <span class='hn-top-story-tag'>Legal</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 941</span> <span class='hn-top-story-comments'>&#128172; 526</span> <span class='hn-top-story-tag'>Entertainment</span> <span class='hn-top-story-tag'>Legal</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='120' data-hn-time='1773925517'>
+<div class='hn-top-story-item' data-hn-score='90' data-hn-time='1773941237'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/19/top_stories_03192026#story-47438716'>OpenAI to Acquire Astral</a>
- <a class='hn-top-story-link' href='https://openai.com/index/openai-to-acquire-astral/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/19/top_stories_03192026#story-47442834'>An update on Steam / GOG changes for OpenTTD</a>
+ <a class='hn-top-story-link' href='https://www.openttd.org/news/2026/03/19/steam-changes-update' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>OpenAI 将收购 Astral</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 120</span> <span class='hn-top-story-comments'>&#128172; 65</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-zh'>OpenTTD 的 Steam 与 GOG 变更更新</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.4</span> <span class='hn-top-story-score'>&#9650; 90</span> <span class='hn-top-story-comments'>&#128172; 52</span> <span class='hn-top-story-tag'>Gaming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='173' data-hn-time='1773922380'>
+<div class='hn-top-story-item' data-hn-score='210' data-hn-time='1773932818'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/19/top_stories_03192026#story-47438001'>Afroman Wins Civil Trial over Use of Police Raid Footage in His Music Videos</a>
- <a class='hn-top-story-link' href='https://www.nytimes.com/2026/03/19/us/afroman-trial-lemon-cake-verdict.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/19/top_stories_03192026#story-47440759'>macOS 26 breaks custom DNS settings including .internal</a>
+ <a class='hn-top-story-link' href='https://gist.github.com/adamamyl/81b78eced40feae50eae7c4f3bec1f5a' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Afroman 因在音乐视频中使用警察突袭镜头的民事诉讼获胜</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 173</span> <span class='hn-top-story-comments'>&#128172; 20</span> <span class='hn-top-story-tag'>Entertainment</span> <span class='hn-top-story-tag'>Legal</span></div>
+<div class='hn-top-story-zh'>macOS 26 破坏了自定义 DNS 设置，包括 .internal</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.8</span> <span class='hn-top-story-score'>&#9650; 210</span> <span class='hn-top-story-comments'>&#128172; 105</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='180' data-hn-time='1773918927'>
+<div class='hn-top-story-item' data-hn-score='131' data-hn-time='1773935766'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/19/top_stories_03192026#story-47437516'>Iran war energy shock sparks global push to reduce fossil fuel dependence</a>
- <a class='hn-top-story-link' href='https://www.reuters.com/business/energy/iran-war-energy-shock-sparks-global-push-reduce-fossil-fuel-dependence-2026-03-18/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/19/top_stories_03192026#story-47441546'>Show HN: Three new Kitten TTS models – smallest less than 25MB</a>
+ <a class='hn-top-story-link' href='https://github.com/KittenML/KittenTTS' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>伊朗战争引发的能源冲击推动全球减少对化石燃料的依赖</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.1</span> <span class='hn-top-story-score'>&#9650; 180</span> <span class='hn-top-story-comments'>&#128172; 212</span> <span class='hn-top-story-tag'>Energy</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>Show HN：三个新的 Kitten TTS 模型——最小版小于 25MB</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.2</span> <span class='hn-top-story-score'>&#9650; 131</span> <span class='hn-top-story-comments'>&#128172; 41</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='138' data-hn-time='1773920064'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='57' data-hn-time='1773940596'>
 <span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/19/top_stories_03192026#story-47442699'>How to Not Pay Your Taxes</a>
+ <a class='hn-top-story-link' href='https://taylor.town/succession-000' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>如何不缴税</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.4</span> <span class='hn-top-story-score'>&#9650; 57</span> <span class='hn-top-story-comments'>&#128172; 36</span> <span class='hn-top-story-tag'>Politics</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='47' data-hn-time='1773941253'>
+<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/19/top_stories_03192026#story-47442838'>UK's Ofcom has today fined 4chan £450k for not having age checks in place</a>
+ <a class='hn-top-story-link' href='https://www.ofcom.org.uk/online-safety/illegal-and-harmful-content/4chan-fined-450000-for-not-protecting-children-from-online-pornography' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>英国 Ofcom 因未设年龄验证被罚 45 万英镑</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.9</span> <span class='hn-top-story-score'>&#9650; 47</span> <span class='hn-top-story-comments'>&#128172; 47</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Politics</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='264' data-hn-time='1773920064'>
+<span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/03/19/top_stories_03192026#story-47437655'>'Your Frustration Is the Product'</a>
  <a class='hn-top-story-link' href='https://daringfireball.net/2026/03/your_frustration_is_the_product' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>你的挫败感就是产品</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.9</span> <span class='hn-top-story-score'>&#9650; 138</span> <span class='hn-top-story-comments'>&#128172; 68</span> <span class='hn-top-story-tag'>Design</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.7</span> <span class='hn-top-story-score'>&#9650; 264</span> <span class='hn-top-story-comments'>&#128172; 165</span> <span class='hn-top-story-tag'>Design</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='67' data-hn-time='1773925355'>
-<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='185' data-hn-time='1773925355'>
+<span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/03/19/top_stories_03192026#story-47438675'>Juggalo Makeup Blocks Facial Recognition Technology (2019)</a>
  <a class='hn-top-story-link' href='https://consequence.net/2019/07/juggalo-makeup-facial-recognition/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Juggalo 妆容阻挡人脸识别技术（2019）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.0</span> <span class='hn-top-story-score'>&#9650; 67</span> <span class='hn-top-story-comments'>&#128172; 19</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.5</span> <span class='hn-top-story-score'>&#9650; 185</span> <span class='hn-top-story-comments'>&#128172; 90</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='41' data-hn-time='1773927806'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/19/top_stories_03192026#story-47439320'>OpenBSD: PF queues break the 4 Gbps barrier</a>
- <a class='hn-top-story-link' href='https://undeadly.org/cgi?action=article;sid=20260319125859' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>OpenBSD：PF 队列突破 4 Gbps 界限</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.2</span> <span class='hn-top-story-score'>&#9650; 41</span> <span class='hn-top-story-comments'>&#128172; 14</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Hardware</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='142' data-hn-time='1773915466'>
-<span class='hn-top-story-rank'>9</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/19/top_stories_03192026#story-47437101'>2% of ICML papers desk rejected because the authors used LLM in their reviews</a>
- <a class='hn-top-story-link' href='https://blog.icml.cc/2026/03/18/on-violations-of-llm-review-policies/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>ICML 评审：因评审阶段使用大语言模型而被直接拒稿的比例为 2%</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.8</span> <span class='hn-top-story-score'>&#9650; 142</span> <span class='hn-top-story-comments'>&#128172; 128</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='653' data-hn-time='1773879339'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='24' data-hn-time='1773944235'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/19/top_stories_03192026#story-47433058'>Austin’s surge of new housing construction drove down rents</a>
- <a class='hn-top-story-link' href='https://www.pew.org/en/research-and-analysis/articles/2026/03/18/austins-surge-of-new-housing-construction-drove-down-rents' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/19/top_stories_03192026#story-47443588'>Noq: n0's new QUIC implementation in Rust</a>
+ <a class='hn-top-story-link' href='https://www.iroh.computer/blog/noq-announcement' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>奥斯汀新建住房激增致租金下降</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 653</span> <span class='hn-top-story-comments'>&#128172; 787</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>DevOps</span></div>
+<div class='hn-top-story-zh'>Noq：用 Rust 实现的 QUIC</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 24</span> <span class='hn-top-story-comments'>&#128172; 1</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -163,7 +163,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/03/19/top_stories_03192026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>72</b> <span class="hn-row-sep">·</span> AI <b>17</b> <span class="hn-row-sep">·</span> Programming <b>13</b></span>
+<span class='hn-row-detail'>All <b>98</b> <span class="hn-row-sep">·</span> Programming <b>23</b> <span class="hn-row-sep">·</span> AI <b>22</b></span>
 </a>
 </div>
 </div>
