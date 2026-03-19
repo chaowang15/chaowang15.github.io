@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='252' data-hn-time='1773864592'>
+<div class='hn-top-story-item' data-hn-score='386' data-hn-time='1773879339'>
 <span class='hn-top-story-rank'>1</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/18/top_stories_03182026#story-47433058'>Austin’s surge of new housing construction drove down rents</a>
+ <a class='hn-top-story-link' href='https://www.pew.org/en/research-and-analysis/articles/2026/03/18/austins-surge-of-new-housing-construction-drove-down-rents' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>奥斯汀新建住房激增致租金下降</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 15</span> <span class='hn-top-story-score'>&#9650; 386</span> <span class='hn-top-story-comments'>&#128172; 371</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>DevOps</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='422' data-hn-time='1773864592'>
+<span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/03/18/top_stories_03182026#story-47430797'>FBI is buying location data to track US citizens, director confirms</a>
  <a class='hn-top-story-link' href='https://techcrunch.com/2026/03/18/fbi-is-buying-location-data-to-track-us-citizens-kash-patel-wyden/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>联邦调查局确认购买位置数据以追踪美国公民</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 18</span> <span class='hn-top-story-score'>&#9650; 252</span> <span class='hn-top-story-comments'>&#128172; 77</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.5</span> <span class='hn-top-story-score'>&#9650; 422</span> <span class='hn-top-story-comments'>&#128172; 156</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='284' data-hn-time='1773854522'>
-<span class='hn-top-story-rank'>2</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/18/top_stories_03182026#story-47428541'>AI coding is gambling</a>
- <a class='hn-top-story-link' href='https://notes.visaint.space/ai-coding-is-gambling/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>AI 编码像赌博</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.4</span> <span class='hn-top-story-score'>&#9650; 284</span> <span class='hn-top-story-comments'>&#128172; 335</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='786' data-hn-time='1773827994'>
+<div class='hn-top-story-item' data-hn-score='83' data-hn-time='1773884255'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/18/top_stories_03182026#story-47423647'>Rob Pike’s Rules of Programming (1989)</a>
- <a class='hn-top-story-link' href='https://www.cs.unc.edu/~stotts/COMP590-059-f24/robsrules.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/18/top_stories_03182026#story-47433702'>Ask HN: How do you deal with people who trust LLMs?</a>
+ <a class='hn-top-story-link' href='https://news.ycombinator.com/item?id=47433702' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Rob Pike 的五条编程法则</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.4</span> <span class='hn-top-story-score'>&#9650; 786</span> <span class='hn-top-story-comments'>&#128172; 390</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>Ask HN：你怎么对待相信大型语言模型的人？</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.1</span> <span class='hn-top-story-score'>&#9650; 83</span> <span class='hn-top-story-comments'>&#128172; 97</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Education</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='410' data-hn-time='1773843242'>
+<div class='hn-top-story-item' data-hn-score='58' data-hn-time='1773886834'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/18/top_stories_03182026#story-47426057'>Despite Doubts, Federal Cyber Experts Approved Microsoft Cloud Service</a>
- <a class='hn-top-story-link' href='https://www.propublica.org/article/microsoft-cloud-fedramp-cybersecurity-government' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/18/top_stories_03182026#story-47434024'>Cook: A simple CLI for orchestrating Claude Code</a>
+ <a class='hn-top-story-link' href='https://rjcorwin.github.io/cook/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>尽管存在疑虑，联邦网络安全专家仍批准微软云服务</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.3</span> <span class='hn-top-story-score'>&#9650; 410</span> <span class='hn-top-story-comments'>&#128172; 185</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>Cook：用于编排 Claude Code 的简易 CLI</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.8</span> <span class='hn-top-story-score'>&#9650; 58</span> <span class='hn-top-story-comments'>&#128172; 14</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='325' data-hn-time='1773847438'>
+<div class='hn-top-story-item' data-hn-score='234' data-hn-time='1773866754'>
 <span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/18/top_stories_03182026#story-47426932'>Death to Scroll Fade</a>
- <a class='hn-top-story-link' href='https://dbushell.com/2026/01/09/death-to-scroll-fade/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>告别滚动淡出效果</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.2</span> <span class='hn-top-story-score'>&#9650; 325</span> <span class='hn-top-story-comments'>&#128172; 172</span> <span class='hn-top-story-tag'>Design</span> <span class='hn-top-story-tag'>Web</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='55' data-hn-time='1773866754'>
-<span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/03/18/top_stories_03182026#story-47431237'>Warranty Void If Regenerated</a>
  <a class='hn-top-story-link' href='https://nearzero.software/p/warranty-void-if-regenerated' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>再生即保修失效</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.2</span> <span class='hn-top-story-score'>&#9650; 55</span> <span class='hn-top-story-comments'>&#128172; 37</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 234</span> <span class='hn-top-story-comments'>&#128172; 139</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='207' data-hn-time='1773847807'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='879' data-hn-time='1773827994'>
+<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/18/top_stories_03182026#story-47423647'>Rob Pike’s Rules of Programming (1989)</a>
+ <a class='hn-top-story-link' href='https://www.cs.unc.edu/~stotts/COMP590-059-f24/robsrules.html' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Rob Pike 的五条编程法则</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 879</span> <span class='hn-top-story-comments'>&#128172; 422</span> <span class='hn-top-story-tag'>Programming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='450' data-hn-time='1773843242'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/18/top_stories_03182026#story-47427017'>Snowflake AI Escapes Sandbox and Executes Malware</a>
- <a class='hn-top-story-link' href='https://www.promptarmor.com/resources/snowflake-ai-escapes-sandbox-and-executes-malware' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/18/top_stories_03182026#story-47426057'>Despite Doubts, Federal Cyber Experts Approved Microsoft Cloud Service</a>
+ <a class='hn-top-story-link' href='https://www.propublica.org/article/microsoft-cloud-fedramp-cybersecurity-government' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Snowflake AI 逃离沙箱并执行恶意软件</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 207</span> <span class='hn-top-story-comments'>&#128172; 64</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>尽管存在疑虑，联邦网络安全专家仍批准微软云服务</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 450</span> <span class='hn-top-story-comments'>&#128172; 207</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='198' data-hn-time='1773847867'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='36' data-hn-time='1773886997'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/18/top_stories_03182026#story-47427027'>Nvidia NemoClaw</a>
- <a class='hn-top-story-link' href='https://github.com/NVIDIA/NemoClaw' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/18/top_stories_03182026#story-47434047'>A sufficiently detailed spec is code</a>
+ <a class='hn-top-story-link' href='https://haskellforall.com/2026/03/a-sufficiently-detailed-spec-is-code' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>NVIDIA 发布 NemoClaw</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 198</span> <span class='hn-top-story-comments'>&#128172; 145</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>足够详细的规格就是代码</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 36</span> <span class='hn-top-story-comments'>&#128172; 5</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='119' data-hn-time='1773854961'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='65' data-hn-time='1773880832'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/18/top_stories_03182026#story-47428650'>Show HN: Will my flight have Starlink?</a>
- <a class='hn-top-story-link' href='https://news.ycombinator.com/item?id=47428650' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/18/top_stories_03182026#story-47433265'>Autoresearch for SAT Solvers</a>
+ <a class='hn-top-story-link' href='https://github.com/iliazintchenko/agent-sat' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>我的航班会有 Starlink 吗？</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 119</span> <span class='hn-top-story-comments'>&#128172; 118</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Space</span></div>
+<div class='hn-top-story-zh'>SAT 求解器的自动化研究</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 65</span> <span class='hn-top-story-comments'>&#128172; 13</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Science</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='823' data-hn-time='1773806022'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='370' data-hn-time='1773847438'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/18/top_stories_03182026#story-47421442'>Have a fucking website</a>
- <a class='hn-top-story-link' href='https://www.otherstrangeness.com/2026/03/14/have-a-fucking-website/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/18/top_stories_03182026#story-47426932'>Death to Scroll Fade</a>
+ <a class='hn-top-story-link' href='https://dbushell.com/2026/01/09/death-to-scroll-fade/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>一定要有一个网站</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 823</span> <span class='hn-top-story-comments'>&#128172; 475</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Design</span></div>
+<div class='hn-top-story-zh'>告别滚动淡出效果</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 370</span> <span class='hn-top-story-comments'>&#128172; 192</span> <span class='hn-top-story-tag'>Design</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -163,7 +163,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/03/18/top_stories_03182026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>22</b> <span class="hn-row-sep">·</span> AI <b>19</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>30</b> <span class="hn-row-sep">·</span> AI <b>20</b></span>
 </a>
 </div>
 </div>
