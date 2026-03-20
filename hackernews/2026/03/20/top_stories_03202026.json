@@ -4,19 +4,19 @@
     "source": "https://news.ycombinator.com/",
     "api": "https://github.com/HackerNews/API",
     "count_requested": 50,
-    "count_written": 75,
-    "reused_same_day": 24,
+    "count_written": 94,
+    "reused_same_day": 28,
     "reused_cross_day": 0,
-    "new_llm_enriched": 26,
-    "scrape_time_display": "07:41, March 20, 2026 (PDT)",
+    "new_llm_enriched": 22,
+    "scrape_time_display": "11:43, March 20, 2026 (PDT)",
     "timezone": "America/Los_Angeles",
     "date_dir": "2026/03/20",
     "content_date": "2026-03-20",
-    "run_time_local": "07:41, March 20, 2026 (PDT)",
-    "run_time_utc": "2026-03-20 14:41:36 UTC",
+    "run_time_local": "11:43, March 20, 2026 (PDT)",
+    "run_time_utc": "2026-03-20 18:43:13 UTC",
     "incremental": true,
     "stories_max": 100,
-    "hot_score_time_utc": "2026-03-20 14:46:38 UTC"
+    "hot_score_time_utc": "2026-03-20 18:44:45 UTC"
   },
   "items": [
     {
@@ -31,18 +31,19 @@
         "id": 47454341,
         "type": "story",
         "by": "coinfused",
-        "score": 338,
-        "descendants": 196,
+        "score": 685,
+        "descendants": 557,
         "time": 1774013936,
         "comments_url": "https://news.ycombinator.com/item?id=47454341"
       },
-      "hot_score": 43.26,
       "tags": [
-        "Privacy"
-      ]
+        "Privacy",
+        "Culture"
+      ],
+      "hot_score": 20.1
     },
     {
-      "title_en": "Chuck Norris Has Died",
+      "title_en": "Chuck Norris has died",
       "url": "https://variety.com/2026/film/news/chuck-norris-dead-walker-texas-ranger-dies-1236694953/",
       "title_zh": "查克·诺里斯去世",
       "created_display": "Created: Mar 20, 2026 / 07:09 PT",
@@ -53,37 +54,315 @@
         "id": 47454782,
         "type": "story",
         "by": "mp3il",
-        "score": 112,
-        "descendants": 46,
+        "score": 514,
+        "descendants": 324,
         "time": 1774015798,
         "comments_url": "https://news.ycombinator.com/item?id=47454782"
       },
-      "hot_score": 19.73,
       "tags": [
-        "Entertainment"
+        "Entertainment",
+        "Culture"
+      ],
+      "hot_score": 17.27
+    },
+    {
+      "title_en": "Oregon school cell phone ban: 'Engaged students, joyful teachers'",
+      "url": "https://portlandtribune.com/2026/03/18/oregon-school-cell-phone-ban-engaged-students-joyful-teachers/",
+      "title_zh": "俄勒冈州学校禁用手机：'学生更投入，教师更快乐'",
+      "created_display": "Created: Mar 20, 2026 / 08:39 PT",
+      "image_url": "https://portlandtribune.com/wp-content/uploads/sites/20/2026/03/Gov.-Tina-Kotek-visited-Estacada-High-School-to-hear-how-her-cell-phone-ban-has-been-going.jpg?w=729",
+      "summary_en": "Oregon schools report that banning cell phones correlates with higher student engagement and happier teachers, suggesting that reducing digital distractions can improve classroom dynamics.",
+      "summary_zh": "俄勒冈州学校实施停用手机政策后，学生参与度提升、教师更快乐的现象显现，表明减少数字干扰有助于课堂氛围与学习效果。",
+      "hn": {
+        "id": 47456153,
+        "type": "story",
+        "by": "nxobject",
+        "score": 217,
+        "descendants": 151,
+        "time": 1774021159,
+        "comments_url": "https://news.ycombinator.com/item?id=47456153"
+      },
+      "hot_score": 11.54,
+      "tags": [
+        "Education"
       ]
     },
     {
-      "title_en": "HP realizes that mandatory 15-minute support call wait times isn't good support",
+      "title_en": "Super Micro Shares Plunge 25% After Co-Founder Charged in $2.5B Smuggling Plot",
+      "url": "https://www.forbes.com/sites/tylerroush/2026/03/20/super-micro-shares-plunge-25-after-co-founder-charged-in-25-billion-ai-chip-smuggling-plot/",
+      "title_zh": "Super Micro 股价暴跌25%：联合创始人因2.5亿美元走私案被起诉",
+      "created_display": "Created: Mar 20, 2026 / 07:48 PT",
+      "image_url": null,
+      "summary_en": "Super Micro's stock tumbled 25% after a co-founder was charged in a $2.5B AI-chip smuggling plot. The episode underscores how governance, legal risk, and geopolitical concerns can ripple through hardware supply chains and investor sentiment.",
+      "summary_zh": "Super Micro 的股票在联合创始人被指控涉及25亿美元 AI 芯片走私案后暴跌25%。事件凸显治理、法律风险和地缘政治对硬件供应链与投资情绪的潜在冲击。",
+      "hn": {
+        "id": 47455365,
+        "type": "story",
+        "by": "pera",
+        "score": 175,
+        "descendants": 87,
+        "time": 1774018089,
+        "comments_url": "https://news.ycombinator.com/item?id=47455365"
+      },
+      "hot_score": 7.03,
+      "tags": [
+        "Business",
+        "Legal",
+        "AI",
+        "Hardware"
+      ]
+    },
+    {
+      "title_en": "HP trialed mandatory 15-minute support call wait times (2025)",
       "url": "https://arstechnica.com/gadgets/2025/02/misguided-hp-customer-support-approach-included-forced-15-minute-call-wait-times/",
-      "title_zh": "惠普发现强制 15 分钟等待不是好客服",
+      "title_zh": "HP 试行强制15分钟客服等待时间",
       "created_display": "Created: Mar 20, 2026 / 06:23 PT",
       "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2025/02/GettyImages-1400844458-1152x648.jpg",
-      "summary_en": "A policy that enforced 15‑minute support call wait times backfired when it prioritized metric compliance over actual customer help, prompting a reversal. The episode illustrates how rigid operational targets and automation can degrade user experience if they ignore real support outcomes.",
-      "summary_zh": "一项强制客户等待 15 分钟的服务政策因只重视指标合规而忽视实际帮助效果，最终遭到撤回。此事表明，如果运营目标和自动化流程不顾真实支持结果，会损害用户体验。",
+      "summary_en": "HP piloted mandatory 15-minute hold times for support calls in 2025, a move seen as misguided given growing demand for fast support. The policy sparked backlash and highlighted the tension between cost efficiency and user experience in enterprise tech support.",
+      "summary_zh": "惠普在2025年试行强制15分钟支持电话等待时间，这一举措被视为在应对高成本压力时的误导性策略。事件凸显了客户体验与成本控制之间的冲突。",
       "hn": {
         "id": 47454164,
         "type": "story",
         "by": "felineflock",
-        "score": 56,
-        "descendants": 21,
+        "score": 243,
+        "descendants": 150,
         "time": 1774013036,
         "comments_url": "https://news.ycombinator.com/item?id=47454164"
       },
-      "hot_score": 6.15,
+      "hot_score": 6.68,
       "tags": [
-        "Business",
-        "DevOps"
+        "Business"
+      ]
+    },
+    {
+      "title_en": "MacBook M5 Pro and Qwen3.5 = Local AI Security System",
+      "url": "https://www.sharpai.org/benchmark/",
+      "title_zh": "MacBook M5 Pro 与 Qwen3.5：本地 AI 安全系统",
+      "created_display": "Created: Mar 20, 2026 / 09:41 PT",
+      "image_url": "https://www.sharpai.org/og-image.png",
+      "summary_en": "MacBook M5 Pro paired with Qwen3.5 demonstrates a local AI security system, illustrating on-device inference, privacy, and latency considerations for security tooling.",
+      "summary_zh": "将 MacBook M5 Pro 与 Qwen3.5 结合，展示本地化 AI 安全系统的实现，凸显在设备端推理、隐私保护与延迟等方面的权衡。",
+      "hn": {
+        "id": 47457107,
+        "type": "story",
+        "by": "aegis_camera",
+        "score": 81,
+        "descendants": 95,
+        "time": 1774024902,
+        "comments_url": "https://news.ycombinator.com/item?id=47457107"
+      },
+      "hot_score": 6.45,
+      "tags": [
+        "AI",
+        "Security",
+        "Hardware",
+        "Privacy"
+      ]
+    },
+    {
+      "title_en": "France's aircraft carrier located in real time by Le Monde through fitness app",
+      "url": "https://www.lemonde.fr/en/international/article/2026/03/20/stravaleaks-france-s-aircraft-carrier-located-in-real-time-by-le-monde-through-fitness-app_6751640_4.html",
+      "title_zh": "法国航母被健身应用实时定位",
+      "created_display": "Created: Mar 20, 2026 / 06:01 PT",
+      "image_url": "https://img.lemde.fr/2026/03/19/0/0/3000/2000/1440/960/60/0/bb60bcc_upload-1-md2sp9cobjd5-strava-porte-avion.jpg",
+      "summary_en": "Real‑time activity data from a fitness app was used to pinpoint the location of a national aircraft carrier, exposing how public workout traces can reveal sensitive military movements. The incident highlights serious operational security and privacy risks from always‑on geolocation services and aggregated user data.",
+      "summary_zh": "来自某健身应用的实时活动数据被用来定位一艘国家航母，暴露出公开锻炼轨迹也能泄露敏感军事动态。该事件凸显了始终开启的地理定位服务与聚合用户数据带来的严峻运维安全和隐私风险。",
+      "hn": {
+        "id": 47453942,
+        "type": "story",
+        "by": "MrDresden",
+        "score": 181,
+        "descendants": 200,
+        "time": 1774011716,
+        "comments_url": "https://news.ycombinator.com/item?id=47453942"
+      },
+      "tags": [
+        "Privacy",
+        "Security",
+        "Data"
+      ],
+      "hot_score": 4.55
+    },
+    {
+      "title_en": "Having Kids (2019)",
+      "url": "https://paulgraham.com/kids.html",
+      "title_zh": "有孩子吗？(2019)",
+      "created_display": "Created: Mar 20, 2026 / 07:56 PT",
+      "image_url": "https://s.turbifycdn.com/aah/paulgraham/bel-7.gif",
+      "summary_en": "Paul Graham argues that having kids reshapes a founder's horizon and priorities, influencing risk tolerance and long-term planning. The essay frames parenthood as a design constraint that can shape work and life choices.",
+      "summary_zh": "保罗·格雷厄姆在《Having Kids》里探讨了生育对个人生涯和创业的影响，认为为人父母会改变视野、优先级和长期规划，并成为设计生活与工作的约束。",
+      "hn": {
+        "id": 47455489,
+        "type": "story",
+        "by": "Anon84",
+        "score": 101,
+        "descendants": 185,
+        "time": 1774018563,
+        "comments_url": "https://news.ycombinator.com/item?id=47455489"
+      },
+      "hot_score": 4.21,
+      "tags": [
+        "Career",
+        "Culture"
+      ]
+    },
+    {
+      "title_en": "ArXiv declares independence from Cornell",
+      "url": "https://www.science.org/content/article/arxiv-pioneering-preprint-server-declares-independence-cornell",
+      "title_zh": "ArXiv宣布独立于康奈尔大学",
+      "created_display": "Created: Mar 19, 2026 / 21:24 PT",
+      "image_url": null,
+      "summary_en": "ArXiv, the long-running open-access preprint server, is shedding its longtime host by shifting governance away from Cornell. The move signals a push toward community-led stewardship and diversified funding as arXiv seeks long-term sustainability. For researchers, it could mean changes in governance, policy, and how quickly new features roll out.",
+      "summary_zh": "作为长期负责的开放获取预印本服务器，ArXiv 正在将治理从康奈尔大学转向独立管理。此次转变旨在实现更具社区驱动色彩的治理结构和多元化资金来源，以确保长期可持续性。对于研究者而言，未来在治理、政策和新功能上线速度等方面可能出现变化。",
+      "hn": {
+        "id": 47450478,
+        "type": "story",
+        "by": "bookstore-romeo",
+        "score": 638,
+        "descendants": 215,
+        "time": 1773980651,
+        "comments_url": "https://news.ycombinator.com/item?id=47450478"
+      },
+      "tags": [
+        "Open Source",
+        "Science"
+      ],
+      "hot_score": 4.17
+    },
+    {
+      "title_en": "Germany Mandates ODF for Public Administration",
+      "url": "https://linuxiac.com/germany-mandates-odf-for-public-administration/",
+      "title_zh": "德国要求公共行政采用 ODF",
+      "created_display": "Created: Mar 20, 2026 / 07:04 PT",
+      "image_url": "https://linuxiac.com/wp-content/uploads/2026/03/germany-odf.jpg",
+      "summary_en": "Germany has mandated the Open Document Format for public administration, a move aimed at interoperability and reducing vendor lock‑in in government IT. The policy will influence procurement, document workflows, and how offices handle compatibility with proprietary formats going forward.",
+      "summary_zh": "德国已要求公共行政使用开放文档格式（ODF），此举旨在提升互操作性并减少政府 IT 的厂商锁定。该政策将影响采购标准、文档流程以及未来与专有格式兼容性的处理方式。",
+      "hn": {
+        "id": 47454694,
+        "type": "story",
+        "by": "mvdwoord",
+        "score": 128,
+        "descendants": 19,
+        "time": 1774015479,
+        "comments_url": "https://news.ycombinator.com/item?id=47454694"
+      },
+      "tags": [
+        "Open Source",
+        "Politics"
+      ],
+      "hot_score": 4.17
+    },
+    {
+      "title_en": "90% of crypto's Illinois primary spending failed to achieve its objective",
+      "url": "https://www.mollywhite.net/micro/entry/202603172318",
+      "title_zh": "加密货币在伊利诺伊州初选中的花费90%未达成目标",
+      "created_display": "Created: Mar 20, 2026 / 09:34 PT",
+      "image_url": "https://www.mollywhite.net/assets/images/molly_illustration.png",
+      "summary_en": "Crypto-funded spending in Illinois primaries largely failed to move outcomes, illustrating the limited political influence and potential misallocation of crypto political financing.",
+      "summary_zh": "在伊利诺伊州初选中的加密资金支出大多未能影响投票结果，显示出加密货币政治资助的影响力有限与资金分配的潜在问题。文章讨论了透明度与影响力等挑战。",
+      "hn": {
+        "id": 47456987,
+        "type": "story",
+        "by": "speckx",
+        "score": 52,
+        "descendants": 44,
+        "time": 1774024444,
+        "comments_url": "https://news.ycombinator.com/item?id=47456987"
+      },
+      "hot_score": 3.89,
+      "tags": [
+        "Politics",
+        "Finance"
+      ]
+    },
+    {
+      "title_en": "Java is fast, code might not be",
+      "url": "https://jvogel.me/posts/2026/java-is-fast-your-code-might-not-be/",
+      "title_zh": "Java 很快，代码未必快",
+      "created_display": "Created: Mar 20, 2026 / 06:43 PT",
+      "image_url": "https://jvogel.me/_astro/string_concat_in_loop.9aeLgUH_.jpg",
+      "summary_en": "Java's runtime optimizations can make programs fast, but developers should still optimize algorithms and data access, not assume language speed. The piece emphasizes practical profiling and micro-optimizations beyond language hype.",
+      "summary_zh": "Java 的运行时优化确实能让程序跑得快，但开发者仍需对算法和数据访问进行优化，不能指望语言本身就快。文章强调通过实际的分析和微观优化来提升性能。",
+      "hn": {
+        "id": 47454384,
+        "type": "story",
+        "by": "siegers",
+        "score": 113,
+        "descendants": 112,
+        "time": 1774014203,
+        "comments_url": "https://news.ycombinator.com/item?id=47454384"
+      },
+      "hot_score": 3.35,
+      "tags": [
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "Astral to Join OpenAI",
+      "url": "https://astral.sh/blog/openai",
+      "title_zh": "Astral 将加入 OpenAI",
+      "created_display": "Created: Mar 19, 2026 / 06:05 PT",
+      "image_url": "https://astral.sh/static/OpenGraph/Astral.jpg",
+      "summary_en": "Astral will join OpenAI, signaling a consolidation of AI tooling and developer platforms. The move could accelerate integration of Astral's capabilities into OpenAI's ecosystem, influencing how developers build atop AI services.",
+      "summary_zh": "Astral 将加入 OpenAI，标志着 AI 工具链和开发者平台的整合。这一举措可能加速将 Astral 的能力融入 OpenAI 的生态，影响开发者在 AI 服务上的搭建方式。",
+      "hn": {
+        "id": 47438723,
+        "type": "story",
+        "by": "ibraheemdev",
+        "score": 1427,
+        "descendants": 870,
+        "time": 1773925550,
+        "comments_url": "https://news.ycombinator.com/item?id=47438723"
+      },
+      "tags": [
+        "AI",
+        "Business"
+      ],
+      "hot_score": 2.84
+    },
+    {
+      "title_en": "Google details new 24-hour process to sideload unverified Android apps",
+      "url": "https://arstechnica.com/gadgets/2026/03/google-details-new-24-hour-process-to-sideload-unverified-android-apps/",
+      "title_zh": "谷歌公布 24 小时内可 sideload 未验证 Android 应用的新流程",
+      "created_display": "Created: Mar 19, 2026 / 10:16 PT",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/03/developer-identity-hero-1152x648.jpg",
+      "summary_en": "Google detailed a 24-hour window that allows sideloading of unverified Android apps to accelerate testing and internal distribution outside the Play ecosystem. While it speeds iteration, it broadens the attack surface and prompts heightened security and policy safeguards.",
+      "summary_zh": "谷歌公布了一项 24 小时窗口，允许 sideload 未经验证的 Android 应用以加速测试和内部分发。此举虽提升迭代速度，但也扩大了潜在攻击面，需加强安全与策略层面的防护。",
+      "hn": {
+        "id": 47442690,
+        "type": "story",
+        "by": "0xedb",
+        "score": 1103,
+        "descendants": 1170,
+        "time": 1773940564,
+        "comments_url": "https://news.ycombinator.com/item?id=47442690"
+      },
+      "tags": [
+        "Security"
+      ],
+      "hot_score": 2.83
+    },
+    {
+      "title_en": "Schizophrenia study finds new biomarker, drug candidate in mice",
+      "url": "https://news.northwestern.edu/stories/2026/03/schizophrenia-study-finds-new-biomarker-drug-candidate-to-treat-cognitive-symptoms",
+      "title_zh": "精神分裂症研究新生物标志物与药物候选（小鼠）",
+      "created_display": "Created: Mar 20, 2026 / 06:18 PT",
+      "image_url": "https://news.northwestern.edu/assets/Stories/2026/03/pipette1940__FocusFillMaxWyIwLjAwIiwiMC4wMCIsMTIwMCw2MzBd.jpg",
+      "summary_en": "A mouse study identifies a novel biomarker and a drug candidate for treating cognitive symptoms of schizophrenia, offering a potential path for biomarker-guided therapies. It's early-stage, but could steer future clinical research.",
+      "summary_zh": "一项小鼠研究发现一种新的生物标志物及其对应的药物候选物，可能用于治疗精神分裂症的认知症状。尽管处于早期，这一发现或为未来的生物标志物导向治疗提供方向。",
+      "hn": {
+        "id": 47454091,
+        "type": "story",
+        "by": "gmays",
+        "score": 97,
+        "descendants": 43,
+        "time": 1774012716,
+        "comments_url": "https://news.ycombinator.com/item?id=47454091"
+      },
+      "hot_score": 2.59,
+      "tags": [
+        "Science",
+        "Health"
       ]
     },
     {
@@ -103,54 +382,10 @@
         "time": 1773999711,
         "comments_url": "https://news.ycombinator.com/item?id=47452404"
       },
-      "hot_score": 5.55,
+      "hot_score": 2.49,
       "tags": [
-        "AI"
-      ]
-    },
-    {
-      "title_en": "ArXiv Declares Independence from Cornell",
-      "url": "https://www.science.org/content/article/arxiv-pioneering-preprint-server-declares-independence-cornell",
-      "title_zh": "ArXiv宣布独立于康奈尔大学",
-      "created_display": "Created: Mar 19, 2026 / 21:24 PT",
-      "image_url": null,
-      "summary_en": "ArXiv, the long-running open-access preprint server, is shedding its longtime host by shifting governance away from Cornell. The move signals a push toward community-led stewardship and diversified funding as arXiv seeks long-term sustainability. For researchers, it could mean changes in governance, policy, and how quickly new features roll out.",
-      "summary_zh": "作为长期负责的开放获取预印本服务器，ArXiv 正在将治理从康奈尔大学转向独立管理。此次转变旨在实现更具社区驱动色彩的治理结构和多元化资金来源，以确保长期可持续性。对于研究者而言，未来在治理、政策和新功能上线速度等方面可能出现变化。",
-      "hn": {
-        "id": 47450478,
-        "type": "story",
-        "by": "bookstore-romeo",
-        "score": 507,
-        "descendants": 181,
-        "time": 1773980651,
-        "comments_url": "https://news.ycombinator.com/item?id=47450478"
-      },
-      "tags": [
-        "Science"
-      ],
-      "hot_score": 5.47
-    },
-    {
-      "title_en": "Schizophrenia study finds new biomarker, drug candidate to treat symptoms",
-      "url": "https://news.northwestern.edu/stories/2026/03/schizophrenia-study-finds-new-biomarker-drug-candidate-to-treat-cognitive-symptoms",
-      "title_zh": "精神分裂症研究发现新型生物标志物与候选药物",
-      "created_display": "Created: Mar 20, 2026 / 06:18 PT",
-      "image_url": "https://news.northwestern.edu/assets/Stories/2026/03/pipette1940__FocusFillMaxWyIwLjAwIiwiMC4wMCIsMTIwMCw2MzBd.jpg",
-      "summary_en": "Researchers identified a biomarker linked to cognitive symptoms of schizophrenia and a drug candidate that ameliorates those deficits in preclinical tests, opening a potential path toward targeted therapies. If validated in clinical trials, this could shift treatment from broadly suppressive approaches to interventions aimed at specific biological mechanisms behind cognitive impairment.",
-      "summary_zh": "研究团队发现了与精神分裂症认知症状相关的生物标志物，并筛选出一个在前期实验中能改善这些缺陷的候选药物。若临床试验证实有效，治疗可能从广泛抑制性方法转向针对认知损害具体生物机制的精准干预。",
-      "hn": {
-        "id": 47454091,
-        "type": "story",
-        "by": "gmays",
-        "score": 50,
-        "descendants": 10,
-        "time": 1774012716,
-        "comments_url": "https://news.ycombinator.com/item?id=47454091"
-      },
-      "hot_score": 5.23,
-      "tags": [
-        "Science",
-        "Health"
+        "AI",
+        "Programming"
       ]
     },
     {
@@ -165,85 +400,40 @@
         "id": 47452955,
         "type": "story",
         "by": "Rygian",
-        "score": 86,
-        "descendants": 18,
+        "score": 141,
+        "descendants": 46,
         "time": 1774004607,
         "comments_url": "https://news.ycombinator.com/item?id=47452955"
       },
-      "hot_score": 3.68,
       "tags": [
         "Energy",
-        "Security",
-        "DevOps"
-      ]
-    },
-    {
-      "title_en": "Astral to Join OpenAI",
-      "url": "https://astral.sh/blog/openai",
-      "title_zh": "Astral 将加入 OpenAI",
-      "created_display": "Created: Mar 19, 2026 / 06:05 PT",
-      "image_url": "https://astral.sh/static/OpenGraph/Astral.jpg",
-      "summary_en": "Astral will join OpenAI, signaling a consolidation of AI tooling and developer platforms. The move could accelerate integration of Astral's capabilities into OpenAI's ecosystem, influencing how developers build atop AI services.",
-      "summary_zh": "Astral 将加入 OpenAI，标志着 AI 工具链和开发者平台的整合。这一举措可能加速将 Astral 的能力融入 OpenAI 的生态，影响开发者在 AI 服务上的搭建方式。",
-      "hn": {
-        "id": 47438723,
-        "type": "story",
-        "by": "ibraheemdev",
-        "score": 1414,
-        "descendants": 859,
-        "time": 1773925550,
-        "comments_url": "https://news.ycombinator.com/item?id=47438723"
-      },
-      "tags": [
-        "AI",
-        "Startups"
-      ],
-      "hot_score": 3.58
-    },
-    {
-      "title_en": "Google details new 24-hour process to sideload unverified Android apps",
-      "url": "https://arstechnica.com/gadgets/2026/03/google-details-new-24-hour-process-to-sideload-unverified-android-apps/",
-      "title_zh": "谷歌公布 24 小时内可 sideload 未验证 Android 应用的新流程",
-      "created_display": "Created: Mar 19, 2026 / 10:16 PT",
-      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/03/developer-identity-hero-1152x648.jpg",
-      "summary_en": "Google detailed a 24-hour window that allows sideloading of unverified Android apps to accelerate testing and internal distribution outside the Play ecosystem. While it speeds iteration, it broadens the attack surface and prompts heightened security and policy safeguards.",
-      "summary_zh": "谷歌公布了一项 24 小时窗口，允许 sideload 未经验证的 Android 应用以加速测试和内部分发。此举虽提升迭代速度，但也扩大了潜在攻击面，需加强安全与策略层面的防护。",
-      "hn": {
-        "id": 47442690,
-        "type": "story",
-        "by": "0xedb",
-        "score": 1009,
-        "descendants": 1075,
-        "time": 1773940564,
-        "comments_url": "https://news.ycombinator.com/item?id=47442690"
-      },
-      "tags": [
+        "Science",
         "Security",
         "DevOps"
       ],
-      "hot_score": 3.43
+      "hot_score": 2.35
     },
     {
-      "title_en": "France's aircraft carrier located in real time by Le Monde through fitness app",
-      "url": "https://www.lemonde.fr/en/international/article/2026/03/20/stravaleaks-france-s-aircraft-carrier-located-in-real-time-by-le-monde-through-fitness-app_6751640_4.html",
-      "title_zh": "法国航母被健身应用实时定位",
-      "created_display": "Created: Mar 20, 2026 / 06:01 PT",
-      "image_url": "https://img.lemde.fr/2026/03/19/0/0/3000/2000/1440/960/60/0/bb60bcc_upload-1-md2sp9cobjd5-strava-porte-avion.jpg",
-      "summary_en": "Real‑time activity data from a fitness app was used to pinpoint the location of a national aircraft carrier, exposing how public workout traces can reveal sensitive military movements. The incident highlights serious operational security and privacy risks from always‑on geolocation services and aggregated user data.",
-      "summary_zh": "来自某健身应用的实时活动数据被用来定位一艘国家航母，暴露出公开锻炼轨迹也能泄露敏感军事动态。该事件凸显了始终开启的地理定位服务与聚合用户数据带来的严峻运维安全和隐私风险。",
+      "title_en": "BYD's bet on EVs is paying off as drivers ditch gas amid rising oil prices",
+      "url": "https://electrek.co/2026/03/20/byd-ev-demand-surges-drivers-ditch-gas-amid-rising-oil-prices/",
+      "title_zh": "比亚迪的电动车赌注正在兑现",
+      "created_display": "Created: Mar 20, 2026 / 11:19 PT",
+      "image_url": "https://i0.wp.com/electrek.co/wp-content/uploads/sites/3/2026/03/BYD-EV-demand-gas-prices-2.jpeg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+      "summary_en": "BYD rides a surge in EV demand as oil prices rise and drivers shift away from internal combustion. The article notes BYD's expanding model lineup and manufacturing capacity, signaling a broader EV transition in mainstream markets.",
+      "summary_zh": "油价攀升推动消费者转向电动汽车，BYD 的电动车需求上升态势明显。文章指出其车型阵容扩大、产能提升，预示着主流市场正在加速向电动化转型。",
       "hn": {
-        "id": 47453942,
+        "id": 47458549,
         "type": "story",
-        "by": "MrDresden",
-        "score": 33,
-        "descendants": 26,
-        "time": 1774011716,
-        "comments_url": "https://news.ycombinator.com/item?id=47453942"
+        "by": "ironyman",
+        "score": 12,
+        "descendants": 0,
+        "time": 1774030798,
+        "comments_url": "https://news.ycombinator.com/item?id=47458549"
       },
-      "hot_score": 2.97,
+      "hot_score": 2.25,
       "tags": [
-        "Privacy",
-        "Security"
+        "Business",
+        "Energy"
       ]
     },
     {
@@ -264,10 +454,34 @@
         "comments_url": "https://news.ycombinator.com/item?id=47436950"
       },
       "tags": [
-        "Entertainment",
-        "Legal"
+        "Legal",
+        "Entertainment"
       ],
-      "hot_score": 2.46
+      "hot_score": 1.98
+    },
+    {
+      "title_en": "The Social Smolnet",
+      "url": "https://ploum.net/2026-03-20-social-smolnet.html",
+      "title_zh": "社交小网：Smolnet",
+      "created_display": "Created: Mar 20, 2026 / 06:02 PT",
+      "image_url": "https://ploum.net/files/offpunk_reply.png",
+      "summary_en": "Smolnet advocates for tiny, well-governed social networks that emphasize privacy and humane moderation over scale. The piece surveys design choices, federation options, and governance tradeoffs that can yield healthier online ecosystems.",
+      "summary_zh": "Smolnet 倡导小型、治理健全的社交网络，强调隐私保护和温和的社区治理胜过追求规模。文章梳理了设计选项、联盟协议和治理权衡，展示小型社区如何打造更健康的线上生态。",
+      "hn": {
+        "id": 47453947,
+        "type": "story",
+        "by": "aebtebeten",
+        "score": 68,
+        "descendants": 8,
+        "time": 1774011739,
+        "comments_url": "https://news.ycombinator.com/item?id=47453947"
+      },
+      "hot_score": 1.7,
+      "tags": [
+        "Privacy",
+        "Culture",
+        "Web"
+      ]
     },
     {
       "title_en": "Push events into a running session with channels",
@@ -281,15 +495,40 @@
         "id": 47448524,
         "type": "story",
         "by": "jasonjmcghee",
-        "score": 371,
-        "descendants": 216,
+        "score": 385,
+        "descendants": 229,
         "time": 1773966128,
         "comments_url": "https://news.ycombinator.com/item?id=47448524"
       },
       "tags": [
-        "Programming"
+        "Programming",
+        "DevOps"
       ],
-      "hot_score": 2.4
+      "hot_score": 1.69
+    },
+    {
+      "title_en": "Launch HN: Sitefire (YC W26) – Automating actions to improve AI visibility",
+      "url": "https://news.ycombinator.com/item?id=47457472",
+      "title_zh": "Sitefire：自动化以提升 AI 可见性",
+      "created_display": "Created: Mar 20, 2026 / 10:05 PT",
+      "image_url": "https://news.ycombinator.com/y18.svg",
+      "summary_en": "Launch HN: YC W26’s Sitefire builds automation to streamline actions around AI deployments, improving visibility and governance. By triggering signals and surfacing events across workflows, it reduces manual toil for teams monitoring AI systems.",
+      "summary_zh": "Sitefire 由 YC W26 支持，提供自动化工具来处理 AI 部署中的日常操作，以改善可观测性与治理。通过在工作流中触发信号、将事件显现，帮助团队在减少人工工作量的同时更好地监控 AI 系统。",
+      "hn": {
+        "id": 47457472,
+        "type": "story",
+        "by": "vincko",
+        "score": 18,
+        "descendants": 17,
+        "time": 1774026338,
+        "comments_url": "https://news.ycombinator.com/item?id=47457472"
+      },
+      "hot_score": 1.65,
+      "tags": [
+        "AI",
+        "DevOps",
+        "Startups"
+      ]
     },
     {
       "title_en": "The Soul of a Pedicab Driver",
@@ -303,59 +542,16 @@
         "id": 47452399,
         "type": "story",
         "by": "haritha-j",
-        "score": 79,
-        "descendants": 24,
+        "score": 107,
+        "descendants": 30,
         "time": 1773999656,
         "comments_url": "https://news.ycombinator.com/item?id=47452399"
       },
-      "hot_score": 2.29,
       "tags": [
-        "Culture"
-      ]
-    },
-    {
-      "title_en": "Java Is Fast. Your Code Might Not Be",
-      "url": "https://jvogel.me/posts/2026/java-is-fast-your-code-might-not-be/",
-      "title_zh": "Java 很快，但你的代码可能不够快",
-      "created_display": "Created: Mar 20, 2026 / 06:43 PT",
-      "image_url": "https://jvogel.me/_astro/string_concat_in_loop.9aeLgUH_.jpg",
-      "summary_en": "The piece argues that the JVM and modern Java runtimes are high‑performance, but poor algorithm choices, excessive allocations, and I/O patterns often negate that potential. It urges profiling, mindful allocations, and using the right data structures and APIs to unlock Java's raw speed.",
-      "summary_zh": "文章指出 JVM 和现代 Java 运行时本身性能很好，但糟糕的算法、频繁分配和不当的 I/O 会抵消这些优势。建议通过剖析性能、控制分配并选用合适的数据结构与 API 来发挥 Java 的真正速度。",
-      "hn": {
-        "id": 47454384,
-        "type": "story",
-        "by": "siegers",
-        "score": 17,
-        "descendants": 7,
-        "time": 1774014203,
-        "comments_url": "https://news.ycombinator.com/item?id=47454384"
-      },
-      "hot_score": 2.14,
-      "tags": [
-        "Programming"
-      ]
-    },
-    {
-      "title_en": "Delphi 13.1 Released, with ARM64 support",
-      "url": "https://blogs.embarcadero.com/announcing-the-availability-of-rad-studio-13-florence-update-1/",
-      "title_zh": "Delphi 13.1 发布，新增 ARM64 支持",
-      "created_display": "Created: Mar 20, 2026 / 04:45 PT",
-      "image_url": "https://blogs.embarcadero.com/wp-content/uploads/2026/03/florence-13-1-launch-webinar-replay-no-q-a.jpg",
-      "summary_en": "The new Delphi 13.1 release adds ARM64 support, enabling native compilation for modern ARM platforms and expanding Delphi's cross‑platform reach. This update is aimed at developers targeting performance‑sensitive or mobile/embedded ARM targets while keeping the existing RAD tooling.",
-      "summary_zh": "Delphi 13.1 新版加入了 ARM64 支持，允许为现代 ARM 平台生成原生可执行文件，扩展了 Delphi 的跨平台能力。该更新面向需要高性能或面向移动/嵌入式 ARM 目标的开发者，同时保留现有的快速应用开发工具链。",
-      "hn": {
-        "id": 47453261,
-        "type": "story",
-        "by": "nopakos",
-        "score": 35,
-        "descendants": 20,
-        "time": 1774007120,
-        "comments_url": "https://news.ycombinator.com/item?id=47453261"
-      },
-      "hot_score": 1.86,
-      "tags": [
-        "Programming"
-      ]
+        "Culture",
+        "Career"
+      ],
+      "hot_score": 1.4
     },
     {
       "title_en": "Show HN: Sonar – A tiny CLI to see and kill whatever's running on localhost",
@@ -369,16 +565,17 @@
         "id": 47452515,
         "type": "story",
         "by": "raskrebs",
-        "score": 53,
-        "descendants": 29,
+        "score": 96,
+        "descendants": 53,
         "time": 1774000796,
         "comments_url": "https://news.ycombinator.com/item?id=47452515"
       },
-      "hot_score": 1.66,
       "tags": [
         "Show HN",
-        "Programming"
-      ]
+        "Programming",
+        "Open Source"
+      ],
+      "hot_score": 1.32
     },
     {
       "title_en": "Full Disclosure: A Third (and Fourth) Azure Sign-In Log Bypass Found",
@@ -392,60 +589,60 @@
         "id": 47448994,
         "type": "story",
         "by": "nyxgeek",
-        "score": 224,
-        "descendants": 66,
+        "score": 264,
+        "descendants": 80,
         "time": 1773968985,
         "comments_url": "https://news.ycombinator.com/item?id=47448994"
       },
       "tags": [
-        "Security"
+        "Security",
+        "Privacy"
       ],
-      "hot_score": 1.58
+      "hot_score": 1.24
     },
     {
-      "title_en": "FSFE supporters affected: Payment provider Nexi cancelled us",
-      "url": "https://fsfe.org/news/2026/news-20260316-01.en.html",
-      "title_zh": "受影响的 FSFE 支持者：支付提供商 Nexi 取消了我们的服务",
-      "created_display": "Created: Mar 20, 2026 / 00:09 PT",
-      "image_url": "https://pics.fsfe.org/uploads/medium/6a/a3/e54d386708f90b88f8773e514dd3.png",
-      "summary_en": "A payment provider terminated service for the Free Software Foundation Europe, disrupting donations and membership payments and prompting concern about dependency on centralized payment processors. The incident underscores risks to civil society groups when financial rails can be cut off without transparent recourse.",
-      "summary_zh": "一家支付服务商终止了对自由软件基金会欧洲分支的服务，导致捐款和会费支付中断，并引发对依赖集中支付通道的担忧。该事件凸显了当金融通道被切断而缺乏透明救济时，对民间组织的潜在风险。",
+      "title_en": "Google Search is now using AI to replace headlines",
+      "url": "https://www.theverge.com/tech/896490/google-replace-news-headlines-in-search-canary-coal-mine-experiment",
+      "title_zh": "谷歌搜索正在用 AI 替换新闻标题",
+      "created_display": "Created: Mar 20, 2026 / 07:39 PT",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/10455389/mdoying_180117_2249_0206stills.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+      "summary_en": "Google Search experiments with AI-generated headlines to summarize and surface content more efficiently. The test prompts questions about trust, editorial control, and the future of search quality.",
+      "summary_zh": "谷歌在搜索结果中试验由 AI 生成的标题，以更高效地概括并呈现内容。测试引发关于信任、编辑控制和搜索质量未来的讨论。",
       "hn": {
-        "id": 47451429,
+        "id": 47455224,
         "type": "story",
-        "by": "rasjani",
-        "score": 94,
-        "descendants": 23,
-        "time": 1773990547,
-        "comments_url": "https://news.ycombinator.com/item?id=47451429"
+        "by": "imartin2k",
+        "score": 32,
+        "descendants": 9,
+        "time": 1774017545,
+        "comments_url": "https://news.ycombinator.com/item?id=47455224"
       },
-      "hot_score": 1.58,
+      "hot_score": 1.2,
       "tags": [
-        "Finance",
-        "Open Source"
+        "AI"
       ]
     },
     {
-      "title_en": "Wayland set the Linux Desktop back by 10 years?",
-      "url": "https://omar.yt/posts/wayland-set-the-linux-desktop-back-by-10-years",
-      "title_zh": "Wayland 是否让 Linux 桌面回退十年？",
-      "created_display": "Created: Mar 19, 2026 / 17:01 PT",
-      "image_url": "https://omar.yt/images/gaslighting-cat.png",
-      "summary_en": "Offers a provocative critique of Wayland's impact on the Linux desktop, arguing compatibility, tooling, and maturity gaps hindered productivity. The piece weighs current benefits against historical friction and calls for pragmatic improvements in ecosystem tooling.",
-      "summary_zh": "对 Wayland 在 Linux 桌面中的作用提出挑衅性批评，认为兼容性、工具链与成熟度差距拖累了生产力。评估了现有收益与历史性摩擦，并呼吁在生态工具方面进行务实改进。",
+      "title_en": "Delve – Fake Compliance as a Service",
+      "url": "https://substack.com/home/post/p-191342187",
+      "title_zh": "Delve：假合规即服务",
+      "created_display": "Created: Mar 20, 2026 / 11:03 PT",
+      "image_url": null,
+      "summary_en": "Delve's take on fake compliance as a service emphasizes the growing risk of superficial attestations in audits and the value of skepticism toward compliance tooling.",
+      "summary_zh": "Delve 关注“假合规即服务”的风险，强调对审计中的表面化凭证保持警惕，以及对合规工具的怀疑态度的重要性。",
       "hn": {
-        "id": 47448328,
+        "id": 47458310,
         "type": "story",
-        "by": "omarroth",
-        "score": 246,
-        "descendants": 266,
-        "time": 1773964900,
-        "comments_url": "https://news.ycombinator.com/item?id=47448328"
+        "by": "dsr12",
+        "score": 8,
+        "descendants": 3,
+        "time": 1774029825,
+        "comments_url": "https://news.ycombinator.com/item?id=47458310"
       },
+      "hot_score": 1.18,
       "tags": [
-        "Open Source"
-      ],
-      "hot_score": 1.53
+        "Legal"
+      ]
     },
     {
       "title_en": "Show HN: Three new Kitten TTS models – smallest less than 25MB",
@@ -469,30 +666,98 @@
         "AI",
         "Hardware"
       ],
-      "hot_score": 1.51
+      "hot_score": 1.15
     },
     {
-      "title_en": "Germany Mandates ODF for Public Administration",
-      "url": "https://linuxiac.com/germany-mandates-odf-for-public-administration/",
-      "title_zh": "德国要求公共行政采用 ODF",
-      "created_display": "Created: Mar 20, 2026 / 07:04 PT",
-      "image_url": "https://linuxiac.com/wp-content/uploads/2026/03/germany-odf.jpg",
-      "summary_en": "Germany has mandated the Open Document Format for public administration, a move aimed at interoperability and reducing vendor lock‑in in government IT. The policy will influence procurement, document workflows, and how offices handle compatibility with proprietary formats going forward.",
-      "summary_zh": "德国已要求公共行政使用开放文档格式（ODF），此举旨在提升互操作性并减少政府 IT 的厂商锁定。该政策将影响采购标准、文档流程以及未来与专有格式兼容性的处理方式。",
+      "title_en": "Drugwars for the TI-82/83/83 Calculators (2011)",
+      "url": "https://gist.github.com/mattmanning/1002653/b7a1e88479a10eaae3bd5298b8b2c86e16fb4404",
+      "title_zh": "TI-82/83/83 Plus 计算器上的 Drugwars",
+      "created_display": "Created: Mar 19, 2026 / 17:26 PT",
+      "image_url": "https://github.githubassets.com/assets/gist-og-image-54fd7dc0713e.png",
+      "summary_en": "A port of the classic Drugwars game to TI-82/83/83Plus calculators demonstrates how far calculator hardware hobbyists can push tiny devices. The project highlights clever optimization, self-contained code, and the enduring appeal of retro computing.",
+      "summary_zh": "经典游戏 Drugwars 被移植到 TI-82/83/83Plus 计算器上，展示了极简设备上的创意优化与自包含代码。此类项目体现了复古计算的魅力及对极小硬件的极致挖掘。",
       "hn": {
-        "id": 47454694,
+        "id": 47448566,
         "type": "story",
-        "by": "mvdwoord",
-        "score": 10,
-        "descendants": 0,
-        "time": 1774015479,
-        "comments_url": "https://news.ycombinator.com/item?id=47454694"
+        "by": "robotnikman",
+        "score": 248,
+        "descendants": 71,
+        "time": 1773966407,
+        "comments_url": "https://news.ycombinator.com/item?id=47448566"
       },
-      "hot_score": 1.51,
+      "tags": [
+        "Programming",
+        "Hardware"
+      ],
+      "hot_score": 1.09
+    },
+    {
+      "title_en": "Carbon dioxide levels are higher than humans have ever experienced",
+      "url": "https://www.cnn.com/2026/03/19/climate/carbon-dioxide-blood-chemistry-public-health-climate-change",
+      "title_zh": "二氧化碳水平创历史新高",
+      "created_display": "Created: Mar 20, 2026 / 08:51 PT",
+      "image_url": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-926715326.jpg?c=16x9&q=w_800,c_fill",
+      "summary_en": "Atmospheric CO2 levels are higher than any point in human history, with implications for public health and climate. The piece connects rising CO2 to changes in blood chemistry and broader climate risks, underscoring urgency to cut emissions.",
+      "summary_zh": "大气二氧化碳水平达到人类历史最高点，对公共健康和气候带来影响。文章将升高的 CO2 与血液化学变化及更广泛的气候风险联系起来，强调减排的紧迫性。",
+      "hn": {
+        "id": 47456342,
+        "type": "story",
+        "by": "Bender",
+        "score": 20,
+        "descendants": 2,
+        "time": 1774021867,
+        "comments_url": "https://news.ycombinator.com/item?id=47456342"
+      },
+      "hot_score": 1.09,
+      "tags": [
+        "Science",
+        "Health"
+      ]
+    },
+    {
+      "title_en": "KiCad 10.0.0 Release",
+      "url": "https://www.kicad.org/blog/2026/03/Version-10.0.0-Released/",
+      "title_zh": "KiCad 10.0.0 发布",
+      "created_display": "Created: Mar 20, 2026 / 06:05 PT",
+      "image_url": "https://www.kicad.org/img/about/ksc-logo.png",
+      "summary_en": "KiCad 10.0.0 release brings a major update with UI refresh, improved 3D rendering, and workflow enhancements for schematic capture and PCB layout. This advances open-source PCB design for hobbyists and professionals.",
+      "summary_zh": "KiCad 10.0.0 发布带来重大更新：界面重绘、3D 渲染改进以及原理图/ PCB 布局工作流的提升，推动开源 PCB 设计在爱好者与专业人士中的应用。",
+      "hn": {
+        "id": 47453976,
+        "type": "story",
+        "by": "craftyjon",
+        "score": 43,
+        "descendants": 5,
+        "time": 1774011930,
+        "comments_url": "https://news.ycombinator.com/item?id=47453976"
+      },
+      "hot_score": 1.08,
       "tags": [
         "Open Source",
-        "Politics"
+        "Design"
       ]
+    },
+    {
+      "title_en": "Wayland set the Linux Desktop back by 10 years?",
+      "url": "https://omar.yt/posts/wayland-set-the-linux-desktop-back-by-10-years",
+      "title_zh": "Wayland 是否让 Linux 桌面回退十年？",
+      "created_display": "Created: Mar 19, 2026 / 17:01 PT",
+      "image_url": "https://omar.yt/images/gaslighting-cat.png",
+      "summary_en": "Offers a provocative critique of Wayland's impact on the Linux desktop, arguing compatibility, tooling, and maturity gaps hindered productivity. The piece weighs current benefits against historical friction and calls for pragmatic improvements in ecosystem tooling.",
+      "summary_zh": "对 Wayland 在 Linux 桌面中的作用提出挑衅性批评，认为兼容性、工具链与成熟度差距拖累了生产力。评估了现有收益与历史性摩擦，并呼吁在生态工具方面进行务实改进。",
+      "hn": {
+        "id": 47448328,
+        "type": "story",
+        "by": "omarroth",
+        "score": 246,
+        "descendants": 266,
+        "time": 1773964900,
+        "comments_url": "https://news.ycombinator.com/item?id=47448328"
+      },
+      "tags": [
+        "Open Source"
+      ],
+      "hot_score": 1.05
     },
     {
       "title_en": "Waymo Safety Impact",
@@ -515,30 +780,7 @@
         "Science",
         "Politics"
       ],
-      "hot_score": 1.43
-    },
-    {
-      "title_en": "Drugwars for the TI-82/83/83 Calculators (2011)",
-      "url": "https://gist.github.com/mattmanning/1002653/b7a1e88479a10eaae3bd5298b8b2c86e16fb4404",
-      "title_zh": "TI-82/83/83 Plus 计算器上的 Drugwars",
-      "created_display": "Created: Mar 19, 2026 / 17:26 PT",
-      "image_url": "https://github.githubassets.com/assets/gist-og-image-54fd7dc0713e.png",
-      "summary_en": "A port of the classic Drugwars game to TI-82/83/83Plus calculators demonstrates how far calculator hardware hobbyists can push tiny devices. The project highlights clever optimization, self-contained code, and the enduring appeal of retro computing.",
-      "summary_zh": "经典游戏 Drugwars 被移植到 TI-82/83/83Plus 计算器上，展示了极简设备上的创意优化与自包含代码。此类项目体现了复古计算的魅力及对极小硬件的极致挖掘。",
-      "hn": {
-        "id": 47448566,
-        "type": "story",
-        "by": "robotnikman",
-        "score": 211,
-        "descendants": 61,
-        "time": 1773966407,
-        "comments_url": "https://news.ycombinator.com/item?id=47448566"
-      },
-      "tags": [
-        "Gaming",
-        "Hardware"
-      ],
-      "hot_score": 1.38
+      "hot_score": 1.04
     },
     {
       "title_en": "Cockpit is a web-based graphical interface for servers",
@@ -552,39 +794,17 @@
         "id": 47445599,
         "type": "story",
         "by": "modinfo",
-        "score": 297,
-        "descendants": 169,
+        "score": 309,
+        "descendants": 173,
         "time": 1773952382,
         "comments_url": "https://news.ycombinator.com/item?id=47445599"
       },
       "tags": [
+        "Programming",
         "Open Source",
         "Web"
       ],
-      "hot_score": 1.32
-    },
-    {
-      "title_en": "4Chan mocks £520k fine for UK online safety breaches",
-      "url": "https://www.bbc.com/news/articles/c624330lg1ko",
-      "title_zh": "4chan 围观英国因网络安全违规被罚52万英镑",
-      "created_display": "Created: Mar 19, 2026 / 07:46 PT",
-      "image_url": "https://ichef.bbci.co.uk/news/1024/branded_news/dea7/live/b4f76f30-835c-11f0-b3de-c13d348c14aa.png",
-      "summary_en": "4chan's response to a £520k UK online safety breach penalty highlights enforcement dynamics and platform compliance with safety regulations.",
-      "summary_zh": "4chan 对英国因网络安全违规被罚 £520k 的处罚进行嘲讽，同时文章也回顾监管裁决及其对平台合规的启示。",
-      "hn": {
-        "id": 47440430,
-        "type": "story",
-        "by": "mosura",
-        "score": 425,
-        "descendants": 777,
-        "time": 1773931585,
-        "comments_url": "https://news.ycombinator.com/item?id=47440430"
-      },
-      "tags": [
-        "Politics",
-        "Legal"
-      ],
-      "hot_score": 1.2
+      "hot_score": 1.0
     },
     {
       "title_en": "“Your frustration is the product”",
@@ -604,32 +824,53 @@
         "comments_url": "https://news.ycombinator.com/item?id=47437655"
       },
       "tags": [
-        "Design",
-        "Business"
+        "Design"
       ],
-      "hot_score": 1.17
+      "hot_score": 0.93
     },
     {
-      "title_en": "EnshittifAIcation",
-      "url": "https://it-notes.dragas.net/2026/03/20/enshittifaication/",
-      "title_zh": "被 AI 毁掉化",
-      "created_display": "Created: Mar 20, 2026 / 05:22 PT",
-      "image_url": "https://unsplash.com/photos/pTUCMqXCOrk/download?force=true&w=640",
-      "summary_en": "The author coins 'EnshittifAIcation' to describe how AI integration often degrades product experience—prioritizing monetization, surveillance, and superficial automation over real user value. The critique calls for resistance to pattern‑driven rollouts that progressively make services worse despite AI rhetoric.",
-      "summary_zh": "作者提出“EnshittifAIcation”一词，指 AI 集成常常使产品体验变差，把变现、监控和表面化自动化置于真正用户价值之上。批评呼吁抵制那种按模式推进、表面上是 AI 改进却逐步让服务恶化的做法。",
+      "title_en": "4Chan mocks £520k fine for UK online safety breaches",
+      "url": "https://www.bbc.com/news/articles/c624330lg1ko",
+      "title_zh": "4chan 围观英国因网络安全违规被罚52万英镑",
+      "created_display": "Created: Mar 19, 2026 / 07:46 PT",
+      "image_url": "https://ichef.bbci.co.uk/news/1024/branded_news/dea7/live/b4f76f30-835c-11f0-b3de-c13d348c14aa.png",
+      "summary_en": "4chan's response to a £520k UK online safety breach penalty highlights enforcement dynamics and platform compliance with safety regulations.",
+      "summary_zh": "4chan 对英国因网络安全违规被罚 £520k 的处罚进行嘲讽，同时文章也回顾监管裁决及其对平台合规的启示。",
       "hn": {
-        "id": 47453563,
+        "id": 47440430,
         "type": "story",
-        "by": "rockstar2001",
-        "score": 17,
-        "descendants": 1,
-        "time": 1774009325,
-        "comments_url": "https://news.ycombinator.com/item?id=47453563"
+        "by": "mosura",
+        "score": 425,
+        "descendants": 777,
+        "time": 1773931585,
+        "comments_url": "https://news.ycombinator.com/item?id=47440430"
       },
-      "hot_score": 1.11,
       "tags": [
-        "AI",
-        "Privacy"
+        "Legal",
+        "Politics"
+      ],
+      "hot_score": 0.93
+    },
+    {
+      "title_en": "FSFE supporters affected: Payment provider Nexi cancelled us",
+      "url": "https://fsfe.org/news/2026/news-20260316-01.en.html",
+      "title_zh": "受影响的 FSFE 支持者：支付提供商 Nexi 取消了我们的服务",
+      "created_display": "Created: Mar 20, 2026 / 00:09 PT",
+      "image_url": "https://pics.fsfe.org/uploads/medium/6a/a3/e54d386708f90b88f8773e514dd3.png",
+      "summary_en": "A payment provider terminated service for the Free Software Foundation Europe, disrupting donations and membership payments and prompting concern about dependency on centralized payment processors. The incident underscores risks to civil society groups when financial rails can be cut off without transparent recourse.",
+      "summary_zh": "一家支付服务商终止了对自由软件基金会欧洲分支的服务，导致捐款和会费支付中断，并引发对依赖集中支付通道的担忧。该事件凸显了当金融通道被切断而缺乏透明救济时，对民间组织的潜在风险。",
+      "hn": {
+        "id": 47451429,
+        "type": "story",
+        "by": "rasjani",
+        "score": 94,
+        "descendants": 23,
+        "time": 1773990547,
+        "comments_url": "https://news.ycombinator.com/item?id=47451429"
+      },
+      "hot_score": 0.85,
+      "tags": [
+        "Finance"
       ]
     },
     {
@@ -650,10 +891,9 @@
         "comments_url": "https://news.ycombinator.com/item?id=47442834"
       },
       "tags": [
-        "Gaming",
-        "Open Source"
+        "Gaming"
       ],
-      "hot_score": 1.05
+      "hot_score": 0.79
     },
     {
       "title_en": "macOS 26 breaks custom DNS settings including .internal",
@@ -673,10 +913,9 @@
         "comments_url": "https://news.ycombinator.com/item?id=47440759"
       },
       "tags": [
-        "DevOps",
         "Privacy"
       ],
-      "hot_score": 1.01
+      "hot_score": 0.78
     },
     {
       "title_en": "Noq: n0's new QUIC implementation in Rust",
@@ -690,61 +929,128 @@
         "id": 47443588,
         "type": "story",
         "by": "od0",
-        "score": 233,
-        "descendants": 35,
+        "score": 238,
+        "descendants": 36,
         "time": 1773944235,
         "comments_url": "https://news.ycombinator.com/item?id=47443588"
       },
       "tags": [
         "Programming"
       ],
-      "hot_score": 0.85
+      "hot_score": 0.65
     },
     {
-      "title_en": "Codex with a vague prompt just solved a bug in Ghostty",
-      "url": "https://twitter.com/mitchellh/status/2029348087538565612",
-      "title_zh": "用模糊提示的 Codex 刚好解决了 Ghostty 的一个 bug",
-      "created_display": "Created: Mar 20, 2026 / 03:28 PT",
-      "image_url": "https://pbs.twimg.com/profile_images/1141762999838842880/64_Y4_XB_200x200.jpg",
-      "summary_en": "An anecdote reports that feeding a vague prompt to Codex produced a correct bug fix for a software project, highlighting how large code models can sometimes produce useful patches with minimal guidance. The incident showcases both the surprising usefulness of AI assistants for debugging and the uncertainty around when and why they succeed.",
-      "summary_zh": "一则轶事称，用模糊提示让 Codex 生成了一个恰当的 bug 修复，表明大型代码模型有时在极少引导下也能产出有用补丁。此事既展示了 AI 助手在调试中的意外效用，也突显了其成功时机和原因的不确定性。",
+      "title_en": "Delphi 13.1 Released, with ARM64 support",
+      "url": "https://blogs.embarcadero.com/announcing-the-availability-of-rad-studio-13-florence-update-1/",
+      "title_zh": "Delphi 13.1 发布，新增 ARM64 支持",
+      "created_display": "Created: Mar 20, 2026 / 04:45 PT",
+      "image_url": "https://blogs.embarcadero.com/wp-content/uploads/2026/03/florence-13-1-launch-webinar-replay-no-q-a.jpg",
+      "summary_en": "The new Delphi 13.1 release adds ARM64 support, enabling native compilation for modern ARM platforms and expanding Delphi's cross‑platform reach. This update is aimed at developers targeting performance‑sensitive or mobile/embedded ARM targets while keeping the existing RAD tooling.",
+      "summary_zh": "Delphi 13.1 新版加入了 ARM64 支持，允许为现代 ARM 平台生成原生可执行文件，扩展了 Delphi 的跨平台能力。该更新面向需要高性能或面向移动/嵌入式 ARM 目标的开发者，同时保留现有的快速应用开发工具链。",
       "hn": {
-        "id": 47452715,
+        "id": 47453261,
         "type": "story",
-        "by": "Tikrong",
-        "score": 24,
-        "descendants": 2,
-        "time": 1774002485,
-        "comments_url": "https://news.ycombinator.com/item?id=47452715"
+        "by": "nopakos",
+        "score": 35,
+        "descendants": 20,
+        "time": 1774007120,
+        "comments_url": "https://news.ycombinator.com/item?id=47453261"
       },
-      "hot_score": 0.84,
+      "hot_score": 0.65,
       "tags": [
-        "AI",
         "Programming"
       ]
     },
     {
-      "title_en": "Essex police pause facial recognition camera use after study finds racial bias",
-      "url": "https://www.theguardian.com/technology/2026/mar/19/essex-police-pause-facial-recognition-camera-use-study-racial-bias",
-      "title_zh": "埃塞克斯警方在研究发现种族偏差后暂停面部识别摄像头使用",
-      "created_display": "Created: Mar 20, 2026 / 02:17 PT",
-      "image_url": "https://i.guim.co.uk/img/media/9f9926cae92981cf378aea4c4a5da4278456c540/308_0_6882_5504/master/6882.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=ba94050367898cf0d98f78e830851e93",
-      "summary_en": "Police halted live facial recognition camera deployments after a study found racial bias and high error rates, reflecting growing scrutiny of biometric surveillance. The pause follows concerns that such systems misidentify minorities and lack sufficient governance to prevent harms in policing contexts.",
-      "summary_zh": "在一项研究发现面部识别存在种族偏差和较高错误率后，警方暂停了实时面部识别摄像头的使用，显示对生物识别监控的审查日益加强。暂停措施源于该类系统易误识少数群体且治理不足，可能在执法场景中造成伤害。",
+      "title_en": "Exploring 8 Shaft Weaving",
+      "url": "https://slab.org/2026/03/11/exploring-8-shaft-weaving/",
+      "title_zh": "8轴织造探索",
+      "created_display": "Created: Mar 20, 2026 / 05:59 PT",
+      "image_url": "https://slab.org/wp-content/uploads/sites/2/2026/03/AP1GczOac2B0Wp7Mt2iPBHorTitUKxcZ5b-vMFKCvppWrtFljh6EFbFm1WXvaAw733-h1300-s-no-e1773224071399.webp",
+      "summary_en": "An exploration of 8-shaft weaving reveals pattern possibilities and loom mechanics, offering insights for textile designers and hobbyists into more complex weave structures.",
+      "summary_zh": "对 8 根经轴织造的深入探索，揭示了更复杂花样的织造原理与织机机制，为纺织设计师和爱好者提供实用洞见。",
       "hn": {
-        "id": 47452248,
+        "id": 47453911,
         "type": "story",
-        "by": "Brajeshwar",
-        "score": 32,
-        "descendants": 28,
-        "time": 1773998264,
-        "comments_url": "https://news.ycombinator.com/item?id=47452248"
+        "by": "surprisetalk",
+        "score": 27,
+        "descendants": 2,
+        "time": 1774011543,
+        "comments_url": "https://news.ycombinator.com/item?id=47453911"
       },
-      "hot_score": 0.83,
+      "hot_score": 0.65,
       "tags": [
-        "Privacy",
-        "Security"
+        "Design"
       ]
+    },
+    {
+      "title_en": "A 6502 disassembler with a TUI: A modern take on Regenerator",
+      "url": "https://github.com/ricardoquesada/regenerator2000",
+      "title_zh": "带 TUI 的 6502 反汇编器：Regenerator 的现代版本",
+      "created_display": "Created: Mar 20, 2026 / 09:34 PT",
+      "image_url": "https://opengraph.githubassets.com/6465ca99fba69aef45335b8473adc248c781562f787fc07816bf472f88a43874/ricardoquesada/regenerator2000",
+      "summary_en": "Regenerator2000 reimagines a 6502 disassembler with a modern TUI, offering a polished UX for exploring vintage code. It demonstrates how retro tooling can benefit from contemporary interfaces.",
+      "summary_zh": "Regenerator2000 项目以现代 TUI 重塑 6502 反汇编器，提供对古早代码的更友好交互。展示了复古工具可借助当代界面提升使用体验的可能性。",
+      "hn": {
+        "id": 47456997,
+        "type": "story",
+        "by": "wslh",
+        "score": 9,
+        "descendants": 0,
+        "time": 1774024464,
+        "comments_url": "https://news.ycombinator.com/item?id=47456997"
+      },
+      "hot_score": 0.61,
+      "tags": [
+        "Programming",
+        "Open Source"
+      ]
+    },
+    {
+      "title_en": "Delve – Fake Compliance as a Service",
+      "url": "https://deepdelver.substack.com/p/delve-fake-compliance-as-a-service",
+      "title_zh": "Delve：假合规即服务",
+      "created_display": "Created: Mar 19, 2026 / 12:08 PT",
+      "image_url": null,
+      "summary_en": "Delve dives into the emerging 'Fake Compliance as a Service' phenomenon, critiquing services that generate pretend attestations or simplified controls to appease audits. The piece warns about integrity risks for users, regulators, and auditors when compliance is commodified.",
+      "summary_zh": "Delve 深度剖析新兴的“假合规即服务”现象，批评那些提供虚假合规证明或简化控制的服务。文章警示当合规被商品化时，对用户、监管机构和审计方构成的信任与合规性风险。",
+      "hn": {
+        "id": 47444319,
+        "type": "story",
+        "by": "freddykruger",
+        "score": 195,
+        "descendants": 72,
+        "time": 1773947282,
+        "comments_url": "https://news.ycombinator.com/item?id=47444319"
+      },
+      "hot_score": 0.57,
+      "tags": [
+        "Legal",
+        "Politics"
+      ]
+    },
+    {
+      "title_en": "Scaling Karpathy's Autoresearch: What Happens When the Agent Gets a GPU Cluster",
+      "url": "https://blog.skypilot.co/scaling-autoresearch/",
+      "title_zh": "扩展 Karpathy 的 Autoresearch：当代理获得 GPU 集群时会发生什么",
+      "created_display": "Created: Mar 19, 2026 / 09:55 PT",
+      "image_url": "https://blog.skypilot.co/scaling-autoresearch/assets/banner.png",
+      "summary_en": "Skypilot's post on scaling Autoresearch explains the implications of giving an agent access to a GPU cluster: faster experimentation, potential capability growth, and new architectural and safety considerations.",
+      "summary_zh": "Skypilot 的 Autoresearch 方案扩展到拥有 GPU 集群后，会显著提速实验与迭代，同时也带来系统架构与安全治理方面的新挑战。",
+      "hn": {
+        "id": 47442435,
+        "type": "story",
+        "by": "hopechong",
+        "score": 217,
+        "descendants": 91,
+        "time": 1773939345,
+        "comments_url": "https://news.ycombinator.com/item?id=47442435"
+      },
+      "tags": [
+        "AI",
+        "Hardware"
+      ],
+      "hot_score": 0.54
     },
     {
       "title_en": "Be intentional about how AI changes your codebase",
@@ -765,57 +1071,10 @@
       },
       "tags": [
         "AI",
-        "DevOps",
+        "Programming",
         "Security"
       ],
-      "hot_score": 0.71
-    },
-    {
-      "title_en": "Bombarding gamblers with offers greatly increases betting and gambling harm",
-      "url": "https://www.bristol.ac.uk/news/2026/march/bombarding-gamblers-with-offers-greatly-increases-betting-and-gambling-harm.html",
-      "title_zh": "向赌客持续轰炸式推送优惠显著提升下注与赌博伤害",
-      "created_display": "Created: Mar 19, 2026 / 15:59 PT",
-      "image_url": "https://www.bristol.ac.uk/media-library/sites/news/2026/march/Naman image article.jpg",
-      "summary_en": "A Bristol study finds that aggressive marketing and frequent offers significantly boost betting activity and related harm. The result informs policy debates on consumer protections and the role of platform design in preventing gambling-related harm.",
-      "summary_zh": "布里斯托大学的一项研究发现，持续性、轰炸式的优惠推送显著增加下注活动及相关伤害。这一结果为关于消费者保护的政策讨论提供了依据，强调平台设计在防范赌博相关伤害中的作用。",
-      "hn": {
-        "id": 47447600,
-        "type": "story",
-        "by": "hhs",
-        "score": 125,
-        "descendants": 95,
-        "time": 1773961158,
-        "comments_url": "https://news.ycombinator.com/item?id=47447600"
-      },
-      "tags": [
-        "Health",
-        "Politics"
-      ],
-      "hot_score": 0.7
-    },
-    {
-      "title_en": "Scaling Karpathy's Autoresearch: What Happens When the Agent Gets a GPU Cluster",
-      "url": "https://blog.skypilot.co/scaling-autoresearch/",
-      "title_zh": "扩展 Karpathy 的 Autoresearch：当代理获得 GPU 集群时会发生什么",
-      "created_display": "Created: Mar 19, 2026 / 09:55 PT",
-      "image_url": "https://blog.skypilot.co/scaling-autoresearch/assets/banner.png",
-      "summary_en": "Skypilot's post on scaling Autoresearch explains the implications of giving an agent access to a GPU cluster: faster experimentation, potential capability growth, and new architectural and safety considerations.",
-      "summary_zh": "Skypilot 的 Autoresearch 方案扩展到拥有 GPU 集群后，会显著提速实验与迭代，同时也带来系统架构与安全治理方面的新挑战。",
-      "hn": {
-        "id": 47442435,
-        "type": "story",
-        "by": "hopechong",
-        "score": 210,
-        "descendants": 89,
-        "time": 1773939345,
-        "comments_url": "https://news.ycombinator.com/item?id=47442435"
-      },
-      "tags": [
-        "AI",
-        "DevOps",
-        "Hardware"
-      ],
-      "hot_score": 0.69
+      "hot_score": 0.51
     },
     {
       "title_en": "Juggalo makeup blocks facial recognition technology (2019)",
@@ -835,10 +1094,31 @@
         "comments_url": "https://news.ycombinator.com/item?id=47438675"
       },
       "tags": [
-        "Privacy",
-        "Security"
+        "Privacy"
       ],
-      "hot_score": 0.63
+      "hot_score": 0.5
+    },
+    {
+      "title_en": "Bombarding gamblers with offers greatly increases betting and gambling harm",
+      "url": "https://www.bristol.ac.uk/news/2026/march/bombarding-gamblers-with-offers-greatly-increases-betting-and-gambling-harm.html",
+      "title_zh": "向赌客持续轰炸式推送优惠显著提升下注与赌博伤害",
+      "created_display": "Created: Mar 19, 2026 / 15:59 PT",
+      "image_url": "https://www.bristol.ac.uk/media-library/sites/news/2026/march/Naman image article.jpg",
+      "summary_en": "A Bristol study finds that aggressive marketing and frequent offers significantly boost betting activity and related harm. The result informs policy debates on consumer protections and the role of platform design in preventing gambling-related harm.",
+      "summary_zh": "布里斯托大学的一项研究发现，持续性、轰炸式的优惠推送显著增加下注活动及相关伤害。这一结果为关于消费者保护的政策讨论提供了依据，强调平台设计在防范赌博相关伤害中的作用。",
+      "hn": {
+        "id": 47447600,
+        "type": "story",
+        "by": "hhs",
+        "score": 125,
+        "descendants": 95,
+        "time": 1773961158,
+        "comments_url": "https://news.ycombinator.com/item?id=47447600"
+      },
+      "tags": [
+        "Health"
+      ],
+      "hot_score": 0.48
     },
     {
       "title_en": "NanoGPT Slowrun: 10x Data Efficiency with Infinite Compute",
@@ -852,8 +1132,8 @@
         "id": 47444072,
         "type": "story",
         "by": "sdpmas",
-        "score": 161,
-        "descendants": 42,
+        "score": 163,
+        "descendants": 44,
         "time": 1773946285,
         "comments_url": "https://news.ycombinator.com/item?id=47444072"
       },
@@ -861,7 +1141,7 @@
         "AI",
         "Data"
       ],
-      "hot_score": 0.62
+      "hot_score": 0.46
     },
     {
       "title_en": "OpenBSD: PF queues break the 4 Gbps barrier",
@@ -882,9 +1162,10 @@
       },
       "tags": [
         "Open Source",
+        "Programming",
         "Hardware"
       ],
-      "hot_score": 0.56
+      "hot_score": 0.44
     },
     {
       "title_en": "Clockwise acquired by Salesforce",
@@ -904,30 +1185,32 @@
         "comments_url": "https://news.ycombinator.com/item?id=47444906"
       },
       "tags": [
-        "Business"
+        "Business",
+        "Startups"
       ],
-      "hot_score": 0.55
+      "hot_score": 0.4
     },
     {
-      "title_en": "Floating wetlands boost water quality, slash greenhouse emissions",
-      "url": "https://www.science.org/content/article/floating-wetlands-boost-water-quality-slash-greenhouse-emissions",
-      "title_zh": "浮动湿地提升水质并大幅减少温室气体排放",
-      "created_display": "Created: Mar 20, 2026 / 04:39 PT",
-      "image_url": null,
-      "summary_en": "A study shows floating wetlands can remove nutrients and improve water quality while significantly cutting methane emissions compared with open water, suggesting a scalable nature‑based mitigation. These installations may offer a low‑cost option for rehabilitating polluted waterways and reducing greenhouse gas outputs from aquatic systems.",
-      "summary_zh": "研究表明，浮动湿地能去除营养物质并改善水质，同时相比开阔水体显著降低甲烷排放，显示出可扩展的自然治理潜力。此类设施可能成为修复受污染水道并减少水体温室气体排放的低成本方案。",
+      "title_en": "Essex police pause facial recognition camera use after study finds racial bias",
+      "url": "https://www.theguardian.com/technology/2026/mar/19/essex-police-pause-facial-recognition-camera-use-study-racial-bias",
+      "title_zh": "埃塞克斯警方在研究发现种族偏差后暂停面部识别摄像头使用",
+      "created_display": "Created: Mar 20, 2026 / 02:17 PT",
+      "image_url": "https://i.guim.co.uk/img/media/9f9926cae92981cf378aea4c4a5da4278456c540/308_0_6882_5504/master/6882.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=ba94050367898cf0d98f78e830851e93",
+      "summary_en": "Police halted live facial recognition camera deployments after a study found racial bias and high error rates, reflecting growing scrutiny of biometric surveillance. The pause follows concerns that such systems misidentify minorities and lack sufficient governance to prevent harms in policing contexts.",
+      "summary_zh": "在一项研究发现面部识别存在种族偏差和较高错误率后，警方暂停了实时面部识别摄像头的使用，显示对生物识别监控的审查日益加强。暂停措施源于该类系统易误识少数群体且治理不足，可能在执法场景中造成伤害。",
       "hn": {
-        "id": 47453222,
+        "id": 47452248,
         "type": "story",
         "by": "Brajeshwar",
-        "score": 11,
-        "descendants": 3,
-        "time": 1774006765,
-        "comments_url": "https://news.ycombinator.com/item?id=47453222"
+        "score": 32,
+        "descendants": 28,
+        "time": 1773998264,
+        "comments_url": "https://news.ycombinator.com/item?id=47452248"
       },
-      "hot_score": 0.53,
+      "hot_score": 0.39,
       "tags": [
-        "Science"
+        "Privacy",
+        "Security"
       ]
     },
     {
@@ -950,7 +1233,52 @@
       "tags": [
         "Programming"
       ],
-      "hot_score": 0.48
+      "hot_score": 0.35
+    },
+    {
+      "title_en": "Codex with a vague prompt just solved a bug in Ghostty",
+      "url": "https://twitter.com/mitchellh/status/2029348087538565612",
+      "title_zh": "用模糊提示的 Codex 刚好解决了 Ghostty 的一个 bug",
+      "created_display": "Created: Mar 20, 2026 / 03:28 PT",
+      "image_url": "https://pbs.twimg.com/profile_images/1141762999838842880/64_Y4_XB_200x200.jpg",
+      "summary_en": "An anecdote reports that feeding a vague prompt to Codex produced a correct bug fix for a software project, highlighting how large code models can sometimes produce useful patches with minimal guidance. The incident showcases both the surprising usefulness of AI assistants for debugging and the uncertainty around when and why they succeed.",
+      "summary_zh": "一则轶事称，用模糊提示让 Codex 生成了一个恰当的 bug 修复，表明大型代码模型有时在极少引导下也能产出有用补丁。此事既展示了 AI 助手在调试中的意外效用，也突显了其成功时机和原因的不确定性。",
+      "hn": {
+        "id": 47452715,
+        "type": "story",
+        "by": "Tikrong",
+        "score": 24,
+        "descendants": 2,
+        "time": 1774002485,
+        "comments_url": "https://news.ycombinator.com/item?id=47452715"
+      },
+      "hot_score": 0.35,
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title_en": "EnshittifAIcation",
+      "url": "https://it-notes.dragas.net/2026/03/20/enshittifaication/",
+      "title_zh": "被 AI 毁掉化",
+      "created_display": "Created: Mar 20, 2026 / 05:22 PT",
+      "image_url": "https://unsplash.com/photos/pTUCMqXCOrk/download?force=true&w=640",
+      "summary_en": "The author coins 'EnshittifAIcation' to describe how AI integration often degrades product experience—prioritizing monetization, surveillance, and superficial automation over real user value. The critique calls for resistance to pattern‑driven rollouts that progressively make services worse despite AI rhetoric.",
+      "summary_zh": "作者提出“EnshittifAIcation”一词，指 AI 集成常常使产品体验变差，把变现、监控和表面化自动化置于真正用户价值之上。批评呼吁抵制那种按模式推进、表面上是 AI 改进却逐步让服务恶化的做法。",
+      "hn": {
+        "id": 47453563,
+        "type": "story",
+        "by": "rockstar2001",
+        "score": 17,
+        "descendants": 1,
+        "time": 1774009325,
+        "comments_url": "https://news.ycombinator.com/item?id=47453563"
+      },
+      "hot_score": 0.35,
+      "tags": [
+        "AI",
+        "Privacy"
+      ]
     },
     {
       "title_en": "Xiaomi launches next-gen SU7 with 902 km range and Lidar, still undercuts Tesla",
@@ -970,10 +1298,10 @@
         "comments_url": "https://news.ycombinator.com/item?id=47446192"
       },
       "tags": [
-        "Business",
+        "Hardware",
         "Energy"
       ],
-      "hot_score": 0.42
+      "hot_score": 0.3
     },
     {
       "title_en": "EsoLang-Bench: Evaluating Genuine Reasoning in LLMs via Esoteric Languages",
@@ -995,7 +1323,7 @@
       "tags": [
         "AI"
       ],
-      "hot_score": 0.4
+      "hot_score": 0.29
     },
     {
       "title_en": "Prompt Injecting Contributing.md",
@@ -1018,29 +1346,7 @@
         "Open Source",
         "Security"
       ],
-      "hot_score": 0.34
-    },
-    {
-      "title_en": "The day I discovered type design",
-      "url": "https://www.marksimonson.com/notebook/view/the-day-i-discovered-type-design/",
-      "title_zh": "我第一次发现字体设计的日子",
-      "created_display": "Created: Mar 19, 2026 / 16:08 PT",
-      "image_url": "https://www.marksimonson.com/_astro/simonson_logo_knockout_sm.Bh7-C2lQ_1yDfUs.png",
-      "summary_en": "A personal reflection on discovering typography and its craft, revealing how letterforms, spacing, and visual rhythm shape interfaces. It offers practical takeaways for designers and developers about the power of typography in UX.",
-      "summary_zh": "回顾自己首次接触字体设计的经历，揭示字形、字距与视觉节奏如何塑造界面。为设计师与开发者提供关于排版在用户体验中的作用的实用启示。",
-      "hn": {
-        "id": 47447690,
-        "type": "story",
-        "by": "ingve",
-        "score": 60,
-        "descendants": 7,
-        "time": 1773961717,
-        "comments_url": "https://news.ycombinator.com/item?id=47447690"
-      },
-      "tags": [
-        "Design"
-      ],
-      "hot_score": 0.34
+      "hot_score": 0.26
     },
     {
       "title_en": "The Shape of Inequalities",
@@ -1063,30 +1369,29 @@
         "Data",
         "Politics"
       ],
-      "hot_score": 0.29
+      "hot_score": 0.23
     },
     {
-      "title_en": "Launch HN: Voltair (YC W26) – Drone and charging network for power utilities",
-      "url": "https://news.ycombinator.com/item?id=47442452",
-      "title_zh": "Launch HN: Voltair（YC W26）—— 面向电力公用事业的无人机与充电网络",
-      "created_display": "Created: Mar 19, 2026 / 09:57 PT",
-      "image_url": "https://news.ycombinator.com/y18.svg",
-      "summary_en": "Voltair, a YC W26-backed startup, builds a drone and charging network for power utilities to improve inspection, maintenance, and grid reliability through automation and on-site charging.",
-      "summary_zh": "Voltair 是 YC W26 支持的初创团队，打造面向电力公用事业的无人机与充电网络平台，用以提升巡检、维护和网络可靠性。通过自动化数据采集与就地充电，aim to降低运维成本与风险。",
+      "title_en": "The day I discovered type design",
+      "url": "https://www.marksimonson.com/notebook/view/the-day-i-discovered-type-design/",
+      "title_zh": "我第一次发现字体设计的日子",
+      "created_display": "Created: Mar 19, 2026 / 16:08 PT",
+      "image_url": "https://www.marksimonson.com/_astro/simonson_logo_knockout_sm.Bh7-C2lQ_1yDfUs.png",
+      "summary_en": "A personal reflection on discovering typography and its craft, revealing how letterforms, spacing, and visual rhythm shape interfaces. It offers practical takeaways for designers and developers about the power of typography in UX.",
+      "summary_zh": "回顾自己首次接触字体设计的经历，揭示字形、字距与视觉节奏如何塑造界面。为设计师与开发者提供关于排版在用户体验中的作用的实用启示。",
       "hn": {
-        "id": 47442452,
+        "id": 47447690,
         "type": "story",
-        "by": "wweissbluth",
-        "score": 78,
-        "descendants": 27,
-        "time": 1773939422,
-        "comments_url": "https://news.ycombinator.com/item?id=47442452"
+        "by": "ingve",
+        "score": 60,
+        "descendants": 7,
+        "time": 1773961717,
+        "comments_url": "https://news.ycombinator.com/item?id=47447690"
       },
       "tags": [
-        "Startups",
-        "Hardware"
+        "Design"
       ],
-      "hot_score": 0.26
+      "hot_score": 0.23
     },
     {
       "title_en": "I turned Markdown into a protocol for generative UI",
@@ -1106,33 +1411,55 @@
         "comments_url": "https://news.ycombinator.com/item?id=47439300"
       },
       "tags": [
-        "Programming",
-        "Design"
+        "Programming"
       ],
-      "hot_score": 0.25
+      "hot_score": 0.2
     },
     {
-      "title_en": "Android developer verification: Balancing openness and choice with safety",
-      "url": "https://android-developers.googleblog.com/2026/03/android-developer-verification.html",
-      "title_zh": "Android 开发者验证：在开放性与安全性之间寻求平衡",
-      "created_display": "Created: Mar 19, 2026 / 13:19 PT",
-      "image_url": "https://blogger.googleusercontent.com/img/a/AVvXsEhfuDCN-ydp1pEzz98sEaYM9xaev8lWd_vGbCg13oO7OMpNj6JeuyS7JO6hpHZGj6Iyo92nA36FEP9lE4fL62qqhNbdQWH0NeV5F2asMGgJI1VZOWzuyyRbQ_76VL2bDZxIAzT_PDeY_N4yC9vrNFqOw1m5H3ufQlQGBna8iQaOMb-I9iOaWwiz1xiUKgQ",
-      "summary_en": "Describes updates to Android's developer verification to preserve openness while enforcing safety controls. Emphasizes stronger checks and risk-based gating to reduce abuse without stifling legitimate developers.",
-      "summary_zh": "介绍 Android 开发者验证流程的更新，旨在在保持开放生态的同时加强安全控制。强调通过更严格的检查和风险分级入口来减少滥用，同时不压制合规开发者。",
+      "title_en": "Launch HN: Voltair (YC W26) – Drone and charging network for power utilities",
+      "url": "https://news.ycombinator.com/item?id=47442452",
+      "title_zh": "Launch HN: Voltair（YC W26）—— 面向电力公用事业的无人机与充电网络",
+      "created_display": "Created: Mar 19, 2026 / 09:57 PT",
+      "image_url": "https://news.ycombinator.com/y18.svg",
+      "summary_en": "Voltair, a YC W26-backed startup, builds a drone and charging network for power utilities to improve inspection, maintenance, and grid reliability through automation and on-site charging.",
+      "summary_zh": "Voltair 是 YC W26 支持的初创团队，打造面向电力公用事业的无人机与充电网络平台，用以提升巡检、维护和网络可靠性。通过自动化数据采集与就地充电，aim to降低运维成本与风险。",
       "hn": {
-        "id": 47445361,
+        "id": 47442452,
         "type": "story",
-        "by": "WalterSobchak",
-        "score": 49,
-        "descendants": 29,
-        "time": 1773951599,
-        "comments_url": "https://news.ycombinator.com/item?id=47445361"
+        "by": "wweissbluth",
+        "score": 80,
+        "descendants": 27,
+        "time": 1773939422,
+        "comments_url": "https://news.ycombinator.com/item?id=47442452"
       },
       "tags": [
-        "Security",
-        "DevOps"
+        "Startups",
+        "Hardware",
+        "Energy"
       ],
-      "hot_score": 0.21
+      "hot_score": 0.2
+    },
+    {
+      "title_en": "Floating wetlands boost water quality, slash greenhouse emissions",
+      "url": "https://www.science.org/content/article/floating-wetlands-boost-water-quality-slash-greenhouse-emissions",
+      "title_zh": "浮动湿地提升水质并大幅减少温室气体排放",
+      "created_display": "Created: Mar 20, 2026 / 04:39 PT",
+      "image_url": null,
+      "summary_en": "A study shows floating wetlands can remove nutrients and improve water quality while significantly cutting methane emissions compared with open water, suggesting a scalable nature‑based mitigation. These installations may offer a low‑cost option for rehabilitating polluted waterways and reducing greenhouse gas outputs from aquatic systems.",
+      "summary_zh": "研究表明，浮动湿地能去除营养物质并改善水质，同时相比开阔水体显著降低甲烷排放，显示出可扩展的自然治理潜力。此类设施可能成为修复受污染水道并减少水体温室气体排放的低成本方案。",
+      "hn": {
+        "id": 47453222,
+        "type": "story",
+        "by": "Brajeshwar",
+        "score": 11,
+        "descendants": 3,
+        "time": 1774006765,
+        "comments_url": "https://news.ycombinator.com/item?id=47453222"
+      },
+      "hot_score": 0.19,
+      "tags": [
+        "Science"
+      ]
     },
     {
       "title_en": "Eniac, the First General-Purpose Digital Computer, Turns 80",
@@ -1154,7 +1481,51 @@
       "tags": [
         "Science"
       ],
-      "hot_score": 0.19
+      "hot_score": 0.16
+    },
+    {
+      "title_en": "Android developer verification: Balancing openness and choice with safety",
+      "url": "https://android-developers.googleblog.com/2026/03/android-developer-verification.html",
+      "title_zh": "Android 开发者验证：在开放性与安全性之间寻求平衡",
+      "created_display": "Created: Mar 19, 2026 / 13:19 PT",
+      "image_url": "https://blogger.googleusercontent.com/img/a/AVvXsEhfuDCN-ydp1pEzz98sEaYM9xaev8lWd_vGbCg13oO7OMpNj6JeuyS7JO6hpHZGj6Iyo92nA36FEP9lE4fL62qqhNbdQWH0NeV5F2asMGgJI1VZOWzuyyRbQ_76VL2bDZxIAzT_PDeY_N4yC9vrNFqOw1m5H3ufQlQGBna8iQaOMb-I9iOaWwiz1xiUKgQ",
+      "summary_en": "Describes updates to Android's developer verification to preserve openness while enforcing safety controls. Emphasizes stronger checks and risk-based gating to reduce abuse without stifling legitimate developers.",
+      "summary_zh": "介绍 Android 开发者验证流程的更新，旨在在保持开放生态的同时加强安全控制。强调通过更严格的检查和风险分级入口来减少滥用，同时不压制合规开发者。",
+      "hn": {
+        "id": 47445361,
+        "type": "story",
+        "by": "WalterSobchak",
+        "score": 49,
+        "descendants": 29,
+        "time": 1773951599,
+        "comments_url": "https://news.ycombinator.com/item?id=47445361"
+      },
+      "tags": [
+        "Security"
+      ],
+      "hot_score": 0.15
+    },
+    {
+      "title_en": "How the Turner twins are mythbusting modern technical apparel",
+      "url": "https://www.carryology.com/insights/how-the-turner-twins-are-mythbusting-modern-gear/",
+      "title_zh": "Turner 兄弟揭穿现代技术服装的神话",
+      "created_display": "Created: Mar 17, 2026 / 12:19 PT",
+      "image_url": "https://www.carryology.com/wp-content/uploads/2026/03/Mallory-Project_FULL-RES_2025-00938.jpg-resized.jpg",
+      "summary_en": "The Turner twins apply rigorous testing and data-driven analysis to popular claims about performance fabrics and wearables. Their work helps consumers separate hype from real benefits and nudges brands toward evidence-backed claims.",
+      "summary_zh": "Turner 兄弟以严格测试和数据分析挑战关于性能面料与可穿戴设备的流行主张，帮助消费者辨别炒作与真实收益，并促使品牌以证据支撑声明。",
+      "hn": {
+        "id": 47416972,
+        "type": "story",
+        "by": "greedo",
+        "score": 319,
+        "descendants": 164,
+        "time": 1773775184,
+        "comments_url": "https://news.ycombinator.com/item?id=47416972"
+      },
+      "tags": [
+        "Design"
+      ],
+      "hot_score": 0.14
     },
     {
       "title_en": "Launch HN: Canary (YC W26) – AI QA that understands your code",
@@ -1178,75 +1549,7 @@
         "Programming",
         "Startups"
       ],
-      "hot_score": 0.18
-    },
-    {
-      "title_en": "Connecticut and the 1 Kilometer Effect",
-      "url": "https://alearningaday.blog/2026/03/19/connecticut-and-the-1-kilometer-effect/",
-      "title_zh": "康涅狄格与 1 公里效应",
-      "created_display": "Created: Mar 19, 2026 / 10:52 PT",
-      "image_url": "https://alearningaday.blog/wp-content/uploads/2017/05/cropped-alearningadaylogov6.png?w=200",
-      "summary_en": "Explores how small geographic shifts, like a one-kilometer difference, can ripple through housing, commuting, and economic outcomes, illustrating geography’s role in policy and opportunity.",
-      "summary_zh": "介绍康涅狄格州的“1 公里效应”等地理经济现象，说明微小距离改变如何放大到居住、出行与经济结果等方面。",
-      "hn": {
-        "id": 47443239,
-        "type": "story",
-        "by": "speckx",
-        "score": 46,
-        "descendants": 29,
-        "time": 1773942731,
-        "comments_url": "https://news.ycombinator.com/item?id=47443239"
-      },
-      "tags": [
-        "Data"
-      ],
-      "hot_score": 0.16
-    },
-    {
-      "title_en": "How the Turner twins are mythbusting modern technical apparel",
-      "url": "https://www.carryology.com/insights/how-the-turner-twins-are-mythbusting-modern-gear/",
-      "title_zh": "Turner 兄弟揭穿现代技术服装的神话",
-      "created_display": "Created: Mar 17, 2026 / 12:19 PT",
-      "image_url": "https://www.carryology.com/wp-content/uploads/2026/03/Mallory-Project_FULL-RES_2025-00938.jpg-resized.jpg",
-      "summary_en": "The Turner twins apply rigorous testing and data-driven analysis to popular claims about performance fabrics and wearables. Their work helps consumers separate hype from real benefits and nudges brands toward evidence-backed claims.",
-      "summary_zh": "Turner 兄弟以严格测试和数据分析挑战关于性能面料与可穿戴设备的流行主张，帮助消费者辨别炒作与真实收益，并促使品牌以证据支撑声明。",
-      "hn": {
-        "id": 47416972,
-        "type": "story",
-        "by": "greedo",
-        "score": 291,
-        "descendants": 152,
-        "time": 1773775184,
-        "comments_url": "https://news.ycombinator.com/item?id=47416972"
-      },
-      "tags": [
-        "Science"
-      ],
       "hot_score": 0.14
-    },
-    {
-      "title_en": "Thoughts on OpenAI acquiring Astral and uv/ruff/ty",
-      "url": "https://simonwillison.net/2026/Mar/19/openai-acquiring-astral/",
-      "title_zh": "关于OpenAI收购Astral及uv/ruff/ty的看法",
-      "created_display": "Created: Mar 19, 2026 / 11:23 PT",
-      "image_url": "https://imgs.xkcd.com/comics/python_environment.png",
-      "summary_en": "Simon Willison weighs in on OpenAI's acquisition of Astral and related tooling (uv, Ruff, Ty). The discussion centers on how such consolidations reshape AI tooling, governance, and open-source ecosystems, potentially accelerating or constraining innovation. The takeaway for engineers is to watch how tooling strategy affects interoperability, licensing, and community contributions.",
-      "summary_zh": "Willison 讨论 OpenAI 收购 Astral 及相关工具链（uv/ruff/ty）的潜在影响。核心议题在于此类整合如何改变 AI 工具生态、治理与开源协作，可能加速或限制创新。对于开发者来说，关注工具链的互操作性、许可与社区贡献的变化。",
-      "hn": {
-        "id": 47443675,
-        "type": "story",
-        "by": "jt-hill",
-        "score": 38,
-        "descendants": 12,
-        "time": 1773944600,
-        "comments_url": "https://news.ycombinator.com/item?id=47443675"
-      },
-      "hot_score": 0.14,
-      "tags": [
-        "AI",
-        "Open Source",
-        "Business"
-      ]
     },
     {
       "title_en": "Return of the Obra Dinn: spherical mapped dithering for a 1bpp first-person game",
@@ -1268,54 +1571,29 @@
       "tags": [
         "Gaming"
       ],
-      "hot_score": 0.13
+      "hot_score": 0.12
     },
     {
-      "title_en": "GrapheneOS: Duress Pin/Password",
-      "url": "https://grapheneos.org/features",
-      "title_zh": "GrapheneOS：胁迫式密码/强制输入功能",
-      "created_display": "Created: Mar 19, 2026 / 13:54 PT",
-      "image_url": "https://grapheneos.org/opengraph.png",
-      "summary_en": "GrapheneOS includes a duress PIN/password feature that triggers a different authentication flow if the user is under duress. This helps protect users in threatening situations by concealing a decoy credential. It's a practical privacy feature for security-conscious users.",
-      "summary_zh": "GrapheneOS 提供胁迫式密码功能，在用户处于胁迫状态时进行不同的认证流程以隐藏真实凭据。该特性为注重隐私和安全的用户在受威胁时提供保护。",
+      "title_en": "Connecticut and the 1 Kilometer Effect",
+      "url": "https://alearningaday.blog/2026/03/19/connecticut-and-the-1-kilometer-effect/",
+      "title_zh": "康涅狄格与 1 公里效应",
+      "created_display": "Created: Mar 19, 2026 / 10:52 PT",
+      "image_url": "https://alearningaday.blog/wp-content/uploads/2017/05/cropped-alearningadaylogov6.png?w=200",
+      "summary_en": "Explores how small geographic shifts, like a one-kilometer difference, can ripple through housing, commuting, and economic outcomes, illustrating geography’s role in policy and opportunity.",
+      "summary_zh": "介绍康涅狄格州的“1 公里效应”等地理经济现象，说明微小距离改变如何放大到居住、出行与经济结果等方面。",
       "hn": {
-        "id": 47445931,
+        "id": 47443239,
         "type": "story",
-        "by": "davikr",
-        "score": 26,
-        "descendants": 7,
-        "time": 1773953649,
-        "comments_url": "https://news.ycombinator.com/item?id=47445931"
+        "by": "speckx",
+        "score": 46,
+        "descendants": 29,
+        "time": 1773942731,
+        "comments_url": "https://news.ycombinator.com/item?id=47443239"
       },
-      "hot_score": 0.12,
       "tags": [
-        "Security",
-        "Privacy"
-      ]
-    },
-    {
-      "title_en": "Physicists Trace Sun's Magnetic Engine, 200k Kilometers Below Surface",
-      "url": "https://news.njit.edu/njit-physicists-trace-sun%E2%80%99s-magnetic-engine-200000-kilometers-below-surface",
-      "title_zh": "物理学家追踪太阳磁性发动机，深入地表下二十万公里",
-      "created_display": "Created: Mar 19, 2026 / 19:12 PT",
-      "image_url": "https://news.njit.edu/sites/news/files/styles/16by9-banner/public/edit_Sun_SDO_AIA171_left_2019_12_07_right_2026_03_08.jpg?itok=uyc9HzXO",
-      "summary_en": "Physicists map the Sun's magnetic engine far below the surface, to a depth of about 200,000 kilometers. The work advances understanding of the solar dynamo and how magnetic fields power activity like flares and sunspots. Improved models of solar magnetism help space weather forecasting and our grasp of stellar interiors.",
-      "summary_zh": "物理学家将太阳磁性发动机的工作区深入到离表面约二十万公里的深处。该研究推动对太阳发电机（发电过程）的理解，以及磁场如何驱动耀斑和黑子等现象。对太空天气预测和恒星内部结构的认识将因此受益。",
-      "hn": {
-        "id": 47449576,
-        "type": "story",
-        "by": "gmays",
-        "score": 16,
-        "descendants": 1,
-        "time": 1773972761,
-        "comments_url": "https://news.ycombinator.com/item?id=47449576"
-      },
-      "hot_score": 0.12,
-      "tags": [
-        "Science",
-        "Space",
-        "Energy"
-      ]
+        "Politics"
+      ],
+      "hot_score": 0.12
     },
     {
       "title_en": "How many branches can your CPU predict?",
@@ -1338,7 +1616,214 @@
         "Programming",
         "Hardware"
       ],
-      "hot_score": 0.11
+      "hot_score": 0.1
+    },
+    {
+      "title_en": "Thoughts on OpenAI acquiring Astral and uv/ruff/ty",
+      "url": "https://simonwillison.net/2026/Mar/19/openai-acquiring-astral/",
+      "title_zh": "关于OpenAI收购Astral及uv/ruff/ty的看法",
+      "created_display": "Created: Mar 19, 2026 / 11:23 PT",
+      "image_url": "https://imgs.xkcd.com/comics/python_environment.png",
+      "summary_en": "Simon Willison weighs in on OpenAI's acquisition of Astral and related tooling (uv, Ruff, Ty). The discussion centers on how such consolidations reshape AI tooling, governance, and open-source ecosystems, potentially accelerating or constraining innovation. The takeaway for engineers is to watch how tooling strategy affects interoperability, licensing, and community contributions.",
+      "summary_zh": "Willison 讨论 OpenAI 收购 Astral 及相关工具链（uv/ruff/ty）的潜在影响。核心议题在于此类整合如何改变 AI 工具生态、治理与开源协作，可能加速或限制创新。对于开发者来说，关注工具链的互操作性、许可与社区贡献的变化。",
+      "hn": {
+        "id": 47443675,
+        "type": "story",
+        "by": "jt-hill",
+        "score": 38,
+        "descendants": 12,
+        "time": 1773944600,
+        "comments_url": "https://news.ycombinator.com/item?id=47443675"
+      },
+      "hot_score": 0.1,
+      "tags": [
+        "AI",
+        "Open Source",
+        "Business"
+      ]
+    },
+    {
+      "title_en": "GrapheneOS: Duress Pin/Password",
+      "url": "https://grapheneos.org/features",
+      "title_zh": "GrapheneOS：胁迫式密码/强制输入功能",
+      "created_display": "Created: Mar 19, 2026 / 13:54 PT",
+      "image_url": "https://grapheneos.org/opengraph.png",
+      "summary_en": "GrapheneOS includes a duress PIN/password feature that triggers a different authentication flow if the user is under duress. This helps protect users in threatening situations by concealing a decoy credential. It's a practical privacy feature for security-conscious users.",
+      "summary_zh": "GrapheneOS 提供胁迫式密码功能，在用户处于胁迫状态时进行不同的认证流程以隐藏真实凭据。该特性为注重隐私和安全的用户在受威胁时提供保护。",
+      "hn": {
+        "id": 47445931,
+        "type": "story",
+        "by": "davikr",
+        "score": 26,
+        "descendants": 7,
+        "time": 1773953649,
+        "comments_url": "https://news.ycombinator.com/item?id=47445931"
+      },
+      "hot_score": 0.08,
+      "tags": [
+        "Privacy",
+        "Security"
+      ]
+    },
+    {
+      "title_en": "Physicists Trace Sun's Magnetic Engine, 200k Kilometers Below Surface",
+      "url": "https://news.njit.edu/njit-physicists-trace-sun%E2%80%99s-magnetic-engine-200000-kilometers-below-surface",
+      "title_zh": "物理学家追踪太阳磁性发动机，深入地表下二十万公里",
+      "created_display": "Created: Mar 19, 2026 / 19:12 PT",
+      "image_url": "https://news.njit.edu/sites/news/files/styles/16by9-banner/public/edit_Sun_SDO_AIA171_left_2019_12_07_right_2026_03_08.jpg?itok=uyc9HzXO",
+      "summary_en": "Physicists map the Sun's magnetic engine far below the surface, to a depth of about 200,000 kilometers. The work advances understanding of the solar dynamo and how magnetic fields power activity like flares and sunspots. Improved models of solar magnetism help space weather forecasting and our grasp of stellar interiors.",
+      "summary_zh": "物理学家将太阳磁性发动机的工作区深入到离表面约二十万公里的深处。该研究推动对太阳发电机（发电过程）的理解，以及磁场如何驱动耀斑和黑子等现象。对太空天气预测和恒星内部结构的认识将因此受益。",
+      "hn": {
+        "id": 47449576,
+        "type": "story",
+        "by": "gmays",
+        "score": 16,
+        "descendants": 1,
+        "time": 1773972761,
+        "comments_url": "https://news.ycombinator.com/item?id=47449576"
+      },
+      "hot_score": 0.08,
+      "tags": [
+        "Science",
+        "Space",
+        "Energy"
+      ]
+    },
+    {
+      "title_en": "The Los Angeles Aqueduct Is Wild",
+      "url": "https://practical.engineering/blog/2026/3/17/the-los-angeles-aqueduct-is-wild",
+      "title_zh": "洛杉矶引水渠真是惊人",
+      "created_display": "Created: Mar 17, 2026 / 11:43 PT",
+      "image_url": "http://static1.squarespace.com/static/55ac34e4e4b0170ef54be632/55ac3907e4b03d1c8c9deff1/69b9a04591992c11b5f51309/1773772948931/LA+Aqueduct+%28color%29.jpg?format=1500w",
+      "summary_en": "The Los Angeles Aqueduct is portrayed as an engineering marvel with complex history and massive environmental consequences, from long gravity‑fed pipelines to major landscape alteration. The piece balances admiration for the engineering with scrutiny of the social and ecological costs of diverting water at scale.",
+      "summary_zh": "文中将洛杉矶引水渠描述为一项既惊人又复杂的工程奇迹，涉及长距离重力输水和对地貌的大规模改造。文章在赞叹工程成就的同时，也审视了大规模调水对社会与生态造成的代价。",
+      "hn": {
+        "id": 47416543,
+        "type": "story",
+        "by": "michaefe",
+        "score": 168,
+        "descendants": 93,
+        "time": 1773773033,
+        "comments_url": "https://news.ycombinator.com/item?id=47416543"
+      },
+      "tags": [
+        "Science"
+      ],
+      "hot_score": 0.07
+    },
+    {
+      "title_en": "Drawvg Filter for FFmpeg",
+      "url": "https://ayosec.github.io/ffmpeg-drawvg/",
+      "title_zh": "FFmpeg 的 Drawvg 滤镜",
+      "created_display": "Created: Mar 17, 2026 / 08:16 PT",
+      "image_url": null,
+      "summary_en": "A new FFmpeg filter renders vector graphics directly into video frames, enabling crisp overlays and animated SVG‑style content in encoding pipelines. This makes it easier to integrate resolution‑independent artwork into video workflows without external rendering steps.",
+      "summary_zh": "一个新的 FFmpeg 滤镜能将矢量图直接渲染入视频帧，方便在编码流程中加入清晰的叠层和 SVG 式动画内容。这样可以在无需外部渲染的情况下，将分辨率无关的设计元素整合进视频工作流。",
+      "hn": {
+        "id": 47413879,
+        "type": "story",
+        "by": "nolta",
+        "score": 154,
+        "descendants": 25,
+        "time": 1773760599,
+        "comments_url": "https://news.ycombinator.com/item?id=47413879"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 0.06
+    },
+    {
+      "title_en": "FSF statement on copyright infringement lawsuit Bartz v. Anthropic",
+      "url": "https://www.fsf.org/blogs/licensing/2026-anthropic-settlement",
+      "title_zh": "自由软件基金会就 Bartz 诉 Anthropic 版权侵权案发表声明",
+      "created_display": "Created: Mar 16, 2026 / 12:49 PT",
+      "image_url": "https://static.fsf.org/common/img/logo-new.png",
+      "summary_en": "The Free Software Foundation released a statement about the copyright lawsuit settlement involving a developer and a major AI company, framing it in terms of implications for training data, developer rights, and open‑source ecosystems. The statement emphasizes concerns about precedent, transparency, and how legal decisions could affect model training practices and community contributions.",
+      "summary_zh": "自由软件基金会就一位开发者与一家大型 AI 公司之间的版权诉讼和解发表了声明，关注其对训练数据、开发者权利和开源生态的影响。声明强调对判例效应、透明度以及法律对模型训练实践和社区贡献可能带来后果的担忧。",
+      "hn": {
+        "id": 47403905,
+        "type": "story",
+        "by": "m463",
+        "score": 188,
+        "descendants": 97,
+        "time": 1773690560,
+        "comments_url": "https://news.ycombinator.com/item?id=47403905"
+      },
+      "tags": [
+        "Legal",
+        "Open Source",
+        "AI"
+      ],
+      "hot_score": 0.05
+    },
+    {
+      "title_en": "Flash-KMeans: Fast and Memory-Efficient Exact K-Means",
+      "url": "https://arxiv.org/abs/2603.09229",
+      "title_zh": "Flash‑KMeans：快速且节省内存的精确 K‑Means",
+      "created_display": "Created: Mar 16, 2026 / 22:38 PT",
+      "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "summary_en": "Flash‑KMeans presents an algorithm and implementation that achieves exact k‑means clustering quickly while keeping memory usage low, enabling clustering of much larger datasets on limited RAM. It emphasizes external‑memory techniques and optimization tricks to avoid approximate shortcuts while remaining scalable.",
+      "summary_zh": "Flash‑KMeans 提出了一种既能保持 K‑Means 精确性又具有高速度和低内存占用的算法，实现了在有限内存下对更大数据集的聚类处理。其重点是利用外存技术和工程优化，在不采用近似简化的前提下实现可扩展性。",
+      "hn": {
+        "id": 47409055,
+        "type": "story",
+        "by": "matt_d",
+        "score": 141,
+        "descendants": 10,
+        "time": 1773725906,
+        "comments_url": "https://news.ycombinator.com/item?id=47409055"
+      },
+      "tags": [
+        "Programming",
+        "Data"
+      ],
+      "hot_score": 0.05
+    },
+    {
+      "title_en": "Regex Blaster",
+      "url": "https://mdp.github.io/regex-blaster/",
+      "title_zh": "Regex Blaster",
+      "created_display": "Created: Mar 17, 2026 / 14:00 PT",
+      "image_url": null,
+      "summary_en": "A tool named Regex Blaster for stress‑testing regular expressions to reveal performance problems like catastrophic backtracking and denial‑of‑service vulnerabilities. It helps developers find pathological inputs and optimize patterns to avoid slowdowns in production.",
+      "summary_zh": "名为 Regex Blaster 的工具用于对正则表达式进行压力测试，揭示灾难性回溯等性能问题与可能的服务拒绝风险。它帮助开发者找出存在问题的输入并优化模式以避免上线时的性能崩溃。",
+      "hn": {
+        "id": 47418247,
+        "type": "story",
+        "by": "mdp",
+        "score": 95,
+        "descendants": 39,
+        "time": 1773781254,
+        "comments_url": "https://news.ycombinator.com/item?id=47418247"
+      },
+      "tags": [
+        "Programming",
+        "Security"
+      ],
+      "hot_score": 0.04
+    },
+    {
+      "title_en": "Too Much Color",
+      "url": "https://www.keithcirkel.co.uk/too-much-color/",
+      "title_zh": "太多颜色",
+      "created_display": "Created: Mar 17, 2026 / 19:28 PT",
+      "image_url": "https://www.keithcirkel.co.uk/images/preview/too-much-color.png",
+      "summary_en": "The author warns that oversized color palettes in design systems create cognitive load, inconsistencies, and accessibility pitfalls, advocating for fewer semantic tokens and stronger contrast rules. Simplifying color usage helps teams move faster and produce more coherent, accessible interfaces.",
+      "summary_zh": "作者提醒，设计系统中过多的颜色会增加认知负担、导致风格不一致并带来可访问性问题，主张采用更少的语义化色彩令牌和更严格的对比规范。简化色彩使用能让团队更高效并产出更统一、易用的界面。",
+      "hn": {
+        "id": 47420950,
+        "type": "story",
+        "by": "maguay",
+        "score": 80,
+        "descendants": 48,
+        "time": 1773800903,
+        "comments_url": "https://news.ycombinator.com/item?id=47420950"
+      },
+      "tags": [
+        "Design"
+      ],
+      "hot_score": 0.04
     },
     {
       "title_en": "Kin: Semantic version control that tracks code as entities, not files",
@@ -1357,146 +1842,56 @@
         "time": 1773981061,
         "comments_url": "https://news.ycombinator.com/item?id=47450514"
       },
-      "hot_score": 0.07,
-      "tags": [
-        "Programming"
-      ]
-    },
-    {
-      "title_en": "FSF statement on copyright infringement lawsuit Bartz v. Anthropic",
-      "url": "https://www.fsf.org/blogs/licensing/2026-anthropic-settlement",
-      "title_zh": "自由软件基金会就 Bartz 诉 Anthropic 版权侵权案发表声明",
-      "created_display": "Created: Mar 16, 2026 / 12:49 PT",
-      "image_url": "https://static.fsf.org/common/img/logo-new.png",
-      "summary_en": "The Free Software Foundation released a statement about the copyright lawsuit settlement involving a developer and a major AI company, framing it in terms of implications for training data, developer rights, and open‑source ecosystems. The statement emphasizes concerns about precedent, transparency, and how legal decisions could affect model training practices and community contributions.",
-      "summary_zh": "自由软件基金会就一位开发者与一家大型 AI 公司之间的版权诉讼和解发表了声明，关注其对训练数据、开发者权利和开源生态的影响。声明强调对判例效应、透明度以及法律对模型训练实践和社区贡献可能带来后果的担忧。",
-      "hn": {
-        "id": 47403905,
-        "type": "story",
-        "by": "m463",
-        "score": 161,
-        "descendants": 74,
-        "time": 1773690560,
-        "comments_url": "https://news.ycombinator.com/item?id=47403905"
-      },
-      "hot_score": 0.05,
-      "tags": [
-        "Legal",
-        "Open Source",
-        "AI"
-      ]
-    },
-    {
-      "title_en": "Drawvg Filter for FFmpeg",
-      "url": "https://ayosec.github.io/ffmpeg-drawvg/",
-      "title_zh": "FFmpeg 的 Drawvg 滤镜",
-      "created_display": "Created: Mar 17, 2026 / 08:16 PT",
-      "image_url": null,
-      "summary_en": "A new FFmpeg filter renders vector graphics directly into video frames, enabling crisp overlays and animated SVG‑style content in encoding pipelines. This makes it easier to integrate resolution‑independent artwork into video workflows without external rendering steps.",
-      "summary_zh": "一个新的 FFmpeg 滤镜能将矢量图直接渲染入视频帧，方便在编码流程中加入清晰的叠层和 SVG 式动画内容。这样可以在无需外部渲染的情况下，将分辨率无关的设计元素整合进视频工作流。",
-      "hn": {
-        "id": 47413879,
-        "type": "story",
-        "by": "nolta",
-        "score": 122,
-        "descendants": 22,
-        "time": 1773760599,
-        "comments_url": "https://news.ycombinator.com/item?id=47413879"
-      },
-      "hot_score": 0.05,
+      "hot_score": 0.04,
       "tags": [
         "Programming",
         "Open Source"
       ]
     },
     {
-      "title_en": "TI-89 Height-Mapped Raycaster",
-      "url": "https://github.com/dzoba/ti-89-raycasting-with-z",
-      "title_zh": "TI-89 高度映射的射线投射器",
-      "created_display": "Created: Mar 19, 2026 / 19:33 PT",
-      "image_url": "https://opengraph.githubassets.com/c7e6b1920feeac7e8d1be2618089e4fc17126fffe900e48b53dc0472aa85e20d/dzoba/ti-89-raycasting-with-z",
-      "summary_en": "A retro-computing project implementing a height-mapped raycaster on the TI-89 calculator. It showcases creative use of limited hardware for 3D rendering and game-like visuals. The takeaway for enthusiasts: even older calculators can run sophisticated graphics with clever techniques.",
-      "summary_zh": "在 TI-89 计算器上实现了高度映射的射线投射器，是对受限硬件条件下的3D 渲染与游戏式视觉效果的创意演示。展示了在老旧设备上通过巧妙算法实现高级图形的可能。对于爱好者而言，这是对硬件极限与创新的有趣案例。",
+      "title_en": "Video Encoding and Decoding with Vulkan Compute Shaders in FFmpeg",
+      "url": "https://www.khronos.org/blog/video-encoding-and-decoding-with-vulkan-compute-shaders-in-ffmpeg",
+      "title_zh": "在 FFmpeg 中用 Vulkan 计算着色器做视频编解码",
+      "created_display": "Created: Mar 16, 2026 / 18:02 PT",
+      "image_url": "https://www.khronos.org/assets/uploads/apis/Vulkan-Square.png",
+      "summary_en": "FFmpeg developers demonstrate using Vulkan compute shaders to implement parts of video encode/decode pipelines, offering a vendor‑agnostic path to GPU acceleration. This approach can broaden hardware support and simplify custom processing stages compared with proprietary APIs, though integration complexity and driver behavior remain practical considerations.",
+      "summary_zh": "FFmpeg 采用 Vulkan 计算着色器来实现视频编解码的部分流程，为 GPU 加速提供了与厂商无关的路径。与专有 API 相比，这能扩展硬件适配并简化自定义处理环节，但实现复杂性和驱动差异仍是需要权衡的实际问题。",
       "hn": {
-        "id": 47449741,
+        "id": 47407293,
         "type": "story",
-        "by": "zoba",
-        "score": 7,
-        "descendants": 0,
-        "time": 1773974014,
-        "comments_url": "https://news.ycombinator.com/item?id=47449741"
+        "by": "y1n0",
+        "score": 112,
+        "descendants": 45,
+        "time": 1773709361,
+        "comments_url": "https://news.ycombinator.com/item?id=47407293"
       },
-      "hot_score": 0.05,
       "tags": [
         "Programming",
         "Hardware"
-      ]
+      ],
+      "hot_score": 0.03
     },
     {
-      "title_en": "Too Much Color",
-      "url": "https://www.keithcirkel.co.uk/too-much-color/",
-      "title_zh": "太多颜色",
-      "created_display": "Created: Mar 17, 2026 / 19:28 PT",
-      "image_url": "https://www.keithcirkel.co.uk/images/preview/too-much-color.png",
-      "summary_en": "The author warns that oversized color palettes in design systems create cognitive load, inconsistencies, and accessibility pitfalls, advocating for fewer semantic tokens and stronger contrast rules. Simplifying color usage helps teams move faster and produce more coherent, accessible interfaces.",
-      "summary_zh": "作者提醒，设计系统中过多的颜色会增加认知负担、导致风格不一致并带来可访问性问题，主张采用更少的语义化色彩令牌和更严格的对比规范。简化色彩使用能让团队更高效并产出更统一、易用的界面。",
+      "title_en": "VisiCalc Reconstructed",
+      "url": "https://zserge.com/posts/visicalc/",
+      "title_zh": "VisiCalc 重建版",
+      "created_display": "Created: Mar 17, 2026 / 03:39 PT",
+      "image_url": "https://zserge.com/logo.png",
+      "summary_en": "Researchers recreate VisiCalc's original spreadsheet engine, detailing how its simple cell model and formula language powered the first killer app. The reconstruction exposes the architectural constraints that shaped early user expectations and informs how modern spreadsheets handle dependency tracking, recalculation, and UI latency.",
+      "summary_zh": "研究人员重建了 Visicalc 的原始电子表格引擎，揭示其简单的单元格模型和公式语言如何驱动首个爆款应用。重建过程暴露了早期架构的限制，并为现代电子表格在依赖跟踪、重算和界面延迟方面的设计提供了启示。",
       "hn": {
-        "id": 47420950,
+        "id": 47410871,
         "type": "story",
-        "by": "maguay",
-        "score": 62,
-        "descendants": 33,
-        "time": 1773800903,
-        "comments_url": "https://news.ycombinator.com/item?id=47420950"
-      },
-      "hot_score": 0.04,
-      "tags": [
-        "Design"
-      ]
-    },
-    {
-      "title_en": "3D Printing High Quality Keycaps",
-      "url": "https://candrews.integralblue.com/2024/03/3d-printing-high-quality-keycaps/",
-      "title_zh": "3D 打印高质量键帽",
-      "created_display": "Created: Mar 19, 2026 / 18:09 PT",
-      "image_url": "https://candrews.integralblue.com/wp-content/uploads/2024/03/PXL_20240307_140002494-scaled.jpg",
-      "summary_en": "A guide to printing high-quality keycaps, covering material choices, printer settings, and finishing techniques. It helps keyboard enthusiasts customize tactile feel and aesthetics with DIY hardware. The takeaway: 3D printing can produce durable, polished keycaps with the right workflow.",
-      "summary_zh": "介绍如何用3D打印制作高质量键帽，涵盖材料选择、打印参数与表面处理等要点。为键盘爱好者实现自定义手感与外观提供实用方法。核心要点是通过合适的工作流，3D打印也能生产耐用、表面光滑的键帽。",
-      "hn": {
-        "id": 47448992,
-        "type": "story",
-        "by": "TheGuyWhoCodes",
-        "score": 6,
-        "descendants": 0,
-        "time": 1773968980,
-        "comments_url": "https://news.ycombinator.com/item?id=47448992"
-      },
-      "hot_score": 0.04,
-      "tags": [
-        "Hardware",
-        "Design"
-      ]
-    },
-    {
-      "title_en": "Flash-KMeans: Fast and Memory-Efficient Exact K-Means",
-      "url": "https://arxiv.org/abs/2603.09229",
-      "title_zh": "Flash‑KMeans：快速且节省内存的精确 K‑Means",
-      "created_display": "Created: Mar 16, 2026 / 22:38 PT",
-      "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-      "summary_en": "Flash‑KMeans presents an algorithm and implementation that achieves exact k‑means clustering quickly while keeping memory usage low, enabling clustering of much larger datasets on limited RAM. It emphasizes external‑memory techniques and optimization tricks to avoid approximate shortcuts while remaining scalable.",
-      "summary_zh": "Flash‑KMeans 提出了一种既能保持 K‑Means 精确性又具有高速度和低内存占用的算法，实现了在有限内存下对更大数据集的聚类处理。其重点是利用外存技术和工程优化，在不采用近似简化的前提下实现可扩展性。",
-      "hn": {
-        "id": 47409055,
-        "type": "story",
-        "by": "matt_d",
-        "score": 97,
-        "descendants": 5,
-        "time": 1773725906,
-        "comments_url": "https://news.ycombinator.com/item?id=47409055"
+        "by": "ingve",
+        "score": 95,
+        "descendants": 41,
+        "time": 1773743995,
+        "comments_url": "https://news.ycombinator.com/item?id=47410871"
       },
       "hot_score": 0.03,
       "tags": [
-        "Data"
+        "Science",
+        "Privacy"
       ]
     },
     {
@@ -1517,77 +1912,55 @@
         "comments_url": "https://news.ycombinator.com/item?id=47424881"
       },
       "tags": [
+        "Programming",
         "DevOps"
       ],
       "hot_score": 0.03
     },
     {
-      "title_en": "Building a Reader for the Smallest Hard Drive",
-      "url": "https://www.willwhang.dev/Reading-MK4001MTD/",
-      "title_zh": "为最小硬盘打造读盘器",
-      "created_display": "Created: Mar 16, 2026 / 02:04 PT",
-      "image_url": "https://www.willwhang.dev/assets/images/MK4001MTD_reader/DSC1278.jpg",
-      "summary_en": "An engineer documents reverse‑engineering and building a custom reader for an extremely small and obscure hard drive, covering mechanical adaptation, signal capture, and decoding challenges. The write‑up shows the practical hacks needed to recover data from tiny, legacy storage devices when standard tools won't work.",
-      "summary_zh": "作者记录了为一款极小且罕见的硬盘逆向并自制读盘器的全过程，涉及机械改装、信号捕获与解码等难题。文章展示了在标准工具无法使用时，从旧式小型存储设备中恢复数据所需的实用技巧。",
+      "title_en": "Parallel Perl – autoparallelizing interpreter with JIT",
+      "url": "https://perl.petamem.com/gpw2026/perl-mit-ai-gpw2026.html#/4/1/1",
+      "title_zh": "Parallel Perl：带 JIT 的自动并行化解释器",
+      "created_display": "Created: Mar 18, 2026 / 04:59 PT",
+      "image_url": "https://perl.petamem.com/gpw2026/img/act1/pv-exp-j1-prague.jpg",
+      "summary_en": "Parallel Perl introduces an autoparallelizing Perl interpreter with JIT, aiming to automatically exploit multicore CPUs without changing source code. It discusses the technique, potential performance gains, and the challenges of dynamic languages where data dependencies are not explicit.",
+      "summary_zh": "Parallel Perl 提供一个具备自动并行化能力的 Perl 解释器，结合 JIT 尝试在不修改代码的前提下自动利用多核。文章探讨了实现思路、潜在性能收益以及动态语言在依赖关系未显式表达时面临的挑战。",
       "hn": {
-        "id": 47396593,
+        "id": 47424592,
         "type": "story",
-        "by": "voctor",
-        "score": 68,
-        "descendants": 22,
-        "time": 1773651883,
-        "comments_url": "https://news.ycombinator.com/item?id=47396593"
+        "by": "bmn__",
+        "score": 41,
+        "descendants": 18,
+        "time": 1773835145,
+        "comments_url": "https://news.ycombinator.com/item?id=47424592"
       },
-      "hot_score": 0.02,
-      "tags": [
-        "Hardware"
-      ]
-    },
-    {
-      "title_en": "Video Encoding and Decoding with Vulkan Compute Shaders in FFmpeg",
-      "url": "https://www.khronos.org/blog/video-encoding-and-decoding-with-vulkan-compute-shaders-in-ffmpeg",
-      "title_zh": "在 FFmpeg 中用 Vulkan 计算着色器做视频编解码",
-      "created_display": "Created: Mar 16, 2026 / 18:02 PT",
-      "image_url": "https://www.khronos.org/assets/uploads/apis/Vulkan-Square.png",
-      "summary_en": "FFmpeg developers demonstrate using Vulkan compute shaders to implement parts of video encode/decode pipelines, offering a vendor‑agnostic path to GPU acceleration. This approach can broaden hardware support and simplify custom processing stages compared with proprietary APIs, though integration complexity and driver behavior remain practical considerations.",
-      "summary_zh": "FFmpeg 采用 Vulkan 计算着色器来实现视频编解码的部分流程，为 GPU 加速提供了与厂商无关的路径。与专有 API 相比，这能扩展硬件适配并简化自定义处理环节，但实现复杂性和驱动差异仍是需要权衡的实际问题。",
-      "hn": {
-        "id": 47407293,
-        "type": "story",
-        "by": "y1n0",
-        "score": 52,
-        "descendants": 17,
-        "time": 1773709361,
-        "comments_url": "https://news.ycombinator.com/item?id=47407293"
-      },
-      "hot_score": 0.02,
-      "tags": [
-        "Programming",
-        "Open Source",
-        "Hardware"
-      ]
-    },
-    {
-      "title_en": "Regex Blaster",
-      "url": "https://mdp.github.io/regex-blaster/",
-      "title_zh": "Regex Blaster",
-      "created_display": "Created: Mar 17, 2026 / 14:00 PT",
-      "image_url": null,
-      "summary_en": "A tool named Regex Blaster for stress‑testing regular expressions to reveal performance problems like catastrophic backtracking and denial‑of‑service vulnerabilities. It helps developers find pathological inputs and optimize patterns to avoid slowdowns in production.",
-      "summary_zh": "名为 Regex Blaster 的工具用于对正则表达式进行压力测试，揭示灾难性回溯等性能问题与可能的服务拒绝风险。它帮助开发者找出存在问题的输入并优化模式以避免上线时的性能崩溃。",
-      "hn": {
-        "id": 47418247,
-        "type": "story",
-        "by": "mdp",
-        "score": 33,
-        "descendants": 11,
-        "time": 1773781254,
-        "comments_url": "https://news.ycombinator.com/item?id=47418247"
-      },
-      "hot_score": 0.02,
+      "hot_score": 0.03,
       "tags": [
         "Programming",
         "Security"
+      ]
+    },
+    {
+      "title_en": "TI-89 Height-Mapped Raycaster",
+      "url": "https://github.com/dzoba/ti-89-raycasting-with-z",
+      "title_zh": "TI-89 高度映射的射线投射器",
+      "created_display": "Created: Mar 19, 2026 / 19:33 PT",
+      "image_url": "https://opengraph.githubassets.com/c7e6b1920feeac7e8d1be2618089e4fc17126fffe900e48b53dc0472aa85e20d/dzoba/ti-89-raycasting-with-z",
+      "summary_en": "A retro-computing project implementing a height-mapped raycaster on the TI-89 calculator. It showcases creative use of limited hardware for 3D rendering and game-like visuals. The takeaway for enthusiasts: even older calculators can run sophisticated graphics with clever techniques.",
+      "summary_zh": "在 TI-89 计算器上实现了高度映射的射线投射器，是对受限硬件条件下的3D 渲染与游戏式视觉效果的创意演示。展示了在老旧设备上通过巧妙算法实现高级图形的可能。对于爱好者而言，这是对硬件极限与创新的有趣案例。",
+      "hn": {
+        "id": 47449741,
+        "type": "story",
+        "by": "zoba",
+        "score": 7,
+        "descendants": 0,
+        "time": 1773974014,
+        "comments_url": "https://news.ycombinator.com/item?id=47449741"
+      },
+      "hot_score": 0.03,
+      "tags": [
+        "Programming",
+        "Hardware"
       ]
     },
     {
@@ -1602,14 +1975,60 @@
         "id": 47397372,
         "type": "story",
         "by": "surprisetalk",
-        "score": 57,
-        "descendants": 24,
+        "score": 106,
+        "descendants": 51,
         "time": 1773658390,
         "comments_url": "https://news.ycombinator.com/item?id=47397372"
       },
-      "hot_score": 0.01,
       "tags": [
-        "Data"
+        "Data",
+        "Design"
+      ],
+      "hot_score": 0.02
+    },
+    {
+      "title_en": "Building a Reader for the Smallest Hard Drive",
+      "url": "https://www.willwhang.dev/Reading-MK4001MTD/",
+      "title_zh": "为最小硬盘打造读盘器",
+      "created_display": "Created: Mar 16, 2026 / 02:04 PT",
+      "image_url": "https://www.willwhang.dev/assets/images/MK4001MTD_reader/DSC1278.jpg",
+      "summary_en": "An engineer documents reverse‑engineering and building a custom reader for an extremely small and obscure hard drive, covering mechanical adaptation, signal capture, and decoding challenges. The write‑up shows the practical hacks needed to recover data from tiny, legacy storage devices when standard tools won't work.",
+      "summary_zh": "作者记录了为一款极小且罕见的硬盘逆向并自制读盘器的全过程，涉及机械改装、信号捕获与解码等难题。文章展示了在标准工具无法使用时，从旧式小型存储设备中恢复数据所需的实用技巧。",
+      "hn": {
+        "id": 47396593,
+        "type": "story",
+        "by": "voctor",
+        "score": 84,
+        "descendants": 26,
+        "time": 1773651883,
+        "comments_url": "https://news.ycombinator.com/item?id=47396593"
+      },
+      "tags": [
+        "Hardware"
+      ],
+      "hot_score": 0.02
+    },
+    {
+      "title_en": "3D Printing High Quality Keycaps",
+      "url": "https://candrews.integralblue.com/2024/03/3d-printing-high-quality-keycaps/",
+      "title_zh": "3D 打印高质量键帽",
+      "created_display": "Created: Mar 19, 2026 / 18:09 PT",
+      "image_url": "https://candrews.integralblue.com/wp-content/uploads/2024/03/PXL_20240307_140002494-scaled.jpg",
+      "summary_en": "A guide to printing high-quality keycaps, covering material choices, printer settings, and finishing techniques. It helps keyboard enthusiasts customize tactile feel and aesthetics with DIY hardware. The takeaway: 3D printing can produce durable, polished keycaps with the right workflow.",
+      "summary_zh": "介绍如何用3D打印制作高质量键帽，涵盖材料选择、打印参数与表面处理等要点。为键盘爱好者实现自定义手感与外观提供实用方法。核心要点是通过合适的工作流，3D打印也能生产耐用、表面光滑的键帽。",
+      "hn": {
+        "id": 47448992,
+        "type": "story",
+        "by": "TheGuyWhoCodes",
+        "score": 6,
+        "descendants": 0,
+        "time": 1773968980,
+        "comments_url": "https://news.ycombinator.com/item?id=47448992"
+      },
+      "hot_score": 0.02,
+      "tags": [
+        "Hardware",
+        "Design"
       ]
     },
     {
@@ -1631,29 +2050,8 @@
       },
       "hot_score": 0.01,
       "tags": [
+        "Science",
         "Data"
-      ]
-    },
-    {
-      "title_en": "The Los Angeles Aqueduct Is Wild",
-      "url": "https://practical.engineering/blog/2026/3/17/the-los-angeles-aqueduct-is-wild",
-      "title_zh": "洛杉矶引水渠真是惊人",
-      "created_display": "Created: Mar 17, 2026 / 11:43 PT",
-      "image_url": "http://static1.squarespace.com/static/55ac34e4e4b0170ef54be632/55ac3907e4b03d1c8c9deff1/69b9a04591992c11b5f51309/1773772948931/LA+Aqueduct+%28color%29.jpg?format=1500w",
-      "summary_en": "The Los Angeles Aqueduct is portrayed as an engineering marvel with complex history and massive environmental consequences, from long gravity‑fed pipelines to major landscape alteration. The piece balances admiration for the engineering with scrutiny of the social and ecological costs of diverting water at scale.",
-      "summary_zh": "文中将洛杉矶引水渠描述为一项既惊人又复杂的工程奇迹，涉及长距离重力输水和对地貌的大规模改造。文章在赞叹工程成就的同时，也审视了大规模调水对社会与生态造成的代价。",
-      "hn": {
-        "id": 47416543,
-        "type": "story",
-        "by": "michaefe",
-        "score": 29,
-        "descendants": 5,
-        "time": 1773773033,
-        "comments_url": "https://news.ycombinator.com/item?id=47416543"
-      },
-      "hot_score": 0.01,
-      "tags": [
-        "Science"
       ]
     },
     {
@@ -1675,7 +2073,8 @@
       },
       "hot_score": 0.01,
       "tags": [
-        "Health"
+        "Health",
+        "Data"
       ]
     },
     {
@@ -1697,8 +2096,8 @@
       },
       "hot_score": 0.0,
       "tags": [
-        "Health",
-        "Culture"
+        "Culture",
+        "Health"
       ]
     },
     {
@@ -1720,9 +2119,57 @@
       },
       "hot_score": 0.0,
       "tags": [
-        "Design",
         "Web",
+        "Design",
         "Programming"
+      ]
+    },
+    {
+      "title_en": "Randomization in Controlled Experiments",
+      "url": "https://queue.acm.org/detail.cfm?id=3778029",
+      "title_zh": "随机化在受控实验中的作用",
+      "created_display": "Created: Mar 17, 2026 / 08:01 PT",
+      "image_url": null,
+      "summary_en": "A concise primer on how randomization underpins causal inference in experiments, covering pitfalls and practical guidelines for implementing robust random allocation and blinding.",
+      "summary_zh": "关于随机化在控制实验中如何支撑因果推断的简明入门，讲解常见陷阱以及实现强健随机分配和盲法的实践要点。",
+      "hn": {
+        "id": 47413661,
+        "type": "story",
+        "by": "pykq",
+        "score": 6,
+        "descendants": 1,
+        "time": 1773759699,
+        "comments_url": "https://news.ycombinator.com/item?id=47413661"
+      },
+      "hot_score": 0.0,
+      "tags": [
+        "Science",
+        "Data"
+      ]
+    },
+    {
+      "title_en": "Show HN: An open-source safety net for home hemodialysis",
+      "url": "https://safehemo.com/",
+      "title_zh": "Show HN：家用血液透析的开源安全网",
+      "created_display": "Created: Mar 16, 2026 / 17:48 PT",
+      "image_url": "https://safehemo.com/images/community-support-1375b6ec2c017b96ba80ff3494d12e89.avif?vsn=d",
+      "summary_en": "Show HN: Open-source safety net for home hemodialysis provides patients tools to monitor safety, alarms, and supply management. It demonstrates how DIY medical tooling can empower patients while raising regulatory and safety considerations.",
+      "summary_zh": "Show HN：SafeHemo 提供了一个用于居家透析的开源安全网，为患者提供监测安全、警报和耗材管理的工具，展示了 DIY 医疗工具如何增强患者自助能力，同时也带来监管和安全方面的挑战。",
+      "hn": {
+        "id": 47407184,
+        "type": "story",
+        "by": "qweliantanner",
+        "score": 4,
+        "descendants": 3,
+        "time": 1773708495,
+        "comments_url": "https://news.ycombinator.com/item?id=47407184"
+      },
+      "hot_score": 0.0,
+      "tags": [
+        "Show HN",
+        "Open Source",
+        "Health",
+        "Politics"
       ]
     }
   ]
