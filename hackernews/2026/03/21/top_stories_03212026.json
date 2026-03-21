@@ -4,21 +4,204 @@
     "source": "https://news.ycombinator.com/",
     "api": "https://github.com/HackerNews/API",
     "count_requested": 50,
-    "count_written": 50,
-    "reused_same_day": 0,
-    "reused_cross_day": 30,
-    "new_llm_enriched": 20,
-    "scrape_time_display": "07:27, March 21, 2026 (PDT)",
+    "count_written": 69,
+    "reused_same_day": 31,
+    "reused_cross_day": 1,
+    "new_llm_enriched": 18,
+    "scrape_time_display": "11:31, March 21, 2026 (PDT)",
     "timezone": "America/Los_Angeles",
     "date_dir": "2026/03/21",
     "content_date": "2026-03-21",
-    "run_time_local": "07:27, March 21, 2026 (PDT)",
-    "run_time_utc": "2026-03-21 14:27:23 UTC",
+    "run_time_local": "11:31, March 21, 2026 (PDT)",
+    "run_time_utc": "2026-03-21 18:31:38 UTC",
     "incremental": true,
     "stories_max": 100,
-    "hot_score_time_utc": "2026-03-21 14:28:49 UTC"
+    "hot_score_time_utc": "2026-03-21 18:33:17 UTC"
   },
   "items": [
+    {
+      "title_en": "Passengers who refuse to use headphones can now be kicked off United flights",
+      "url": "https://www.cnn.com/2026/03/21/travel/travel-news-happiest-countries",
+      "title_zh": "拒戴耳机乘客现可被要求下机",
+      "created_display": "Created: Mar 21, 2026 / 10:52 PT",
+      "image_url": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2172673145.jpg?c=16x9&q=w_800,c_fill",
+      "summary_en": "United is tightening in-flight conduct rules to remove passengers who refuse to follow headphone rules, aiming to curb disturbances during flights. The policy underscores growing airline attention to cabin behavior and noise management.",
+      "summary_zh": "联合航空正在收紧机舱行为规定，对拒绝遵守佩戴耳机规定的乘客采取下机等措施，旨在减少飞行过程中的干扰。此举凸显航空公司日益重视舱内行为管理与噪音控制。",
+      "hn": {
+        "id": 47469417,
+        "type": "story",
+        "by": "edward",
+        "score": 63,
+        "descendants": 51,
+        "time": 1774115571,
+        "comments_url": "https://news.ycombinator.com/item?id=47469417"
+      },
+      "hot_score": 10.56,
+      "tags": [
+        "Business"
+      ]
+    },
+    {
+      "title_en": "404 Deno CEO not found",
+      "url": "https://dbushell.com/2026/03/20/denos-decline-and-layoffs/",
+      "title_zh": "Deno CEO 不见了",
+      "created_display": "Created: Mar 21, 2026 / 08:10 PT",
+      "image_url": "https://dbushell.com/images/articles/2026-03-20-denos-decline-and-layoffs.png",
+      "summary_en": "Deno continues to falter as leadership uncertainty compounds concerns, with layoffs reducing headcount. The setback highlights how niche runtimes face competition from Node and other ecosystems.",
+      "summary_zh": "Deno 的领导层动荡加剧，裁员潮进一步削弱了这家小型运行时的用户基础与投资者信心。该事件反映出在与主流运行时竞争中，早期风光难免转为现实挑战。",
+      "hn": {
+        "id": 47467746,
+        "type": "story",
+        "by": "WhyNotHugo",
+        "score": 186,
+        "descendants": 125,
+        "time": 1774105854,
+        "comments_url": "https://news.ycombinator.com/item?id=47467746"
+      },
+      "hot_score": 8.97,
+      "tags": [
+        "Programming",
+        "Business"
+      ]
+    },
+    {
+      "title_en": "Some Things Just Take Time",
+      "url": "https://lucumr.pocoo.org/2026/3/20/some-things-just-take-time/",
+      "title_zh": "有些事确实需要时间",
+      "created_display": "Created: Mar 21, 2026 / 07:46 PT",
+      "image_url": "https://lucumr.pocoo.org/social/2026-03-20-some-things-just-take-time-social.png",
+      "summary_en": "Long-term projects—whether research, large-scale systems, or skill-building—unfold at their own pace, and patience often pays off with eventual breakthroughs.",
+      "summary_zh": "长期项目——无论是研究、大规模系统，还是技能的积累——都按自己的节奏展开，耐心最终会带来突破。",
+      "hn": {
+        "id": 47467537,
+        "type": "story",
+        "by": "vaylian",
+        "score": 189,
+        "descendants": 83,
+        "time": 1774104416,
+        "comments_url": "https://news.ycombinator.com/item?id=47467537"
+      },
+      "hot_score": 8.01,
+      "tags": [
+        "Science"
+      ]
+    },
+    {
+      "title_en": "OpenCode – Open source AI coding agent",
+      "url": "https://opencode.ai/",
+      "title_zh": "OpenCode — 开源 AI 编码代理",
+      "created_display": "Created: Mar 20, 2026 / 14:03 PT",
+      "image_url": "https://opencode.ai/social-share.png",
+      "summary_en": "OpenCode is an open-source AI coding agent designed to orchestrate code generation, tooling, and runtimes. By releasing it as open source, it offers a transparent, customizable alternative to proprietary coding assistants and accelerates experimentation in AI-assisted development.",
+      "summary_zh": "OpenCode 是一个开源的 AI 编码代理，旨在协调代码生成、工具集和运行时以完成编码任务。以开源形式发布，提供透明、可定制的替代方案，便于开发者在 AI 辅助的软件开发领域进行实验。",
+      "hn": {
+        "id": 47460525,
+        "type": "story",
+        "by": "rbanffy",
+        "score": 1126,
+        "descendants": 553,
+        "time": 1774040632,
+        "comments_url": "https://news.ycombinator.com/item?id=47460525"
+      },
+      "tags": [
+        "AI",
+        "Open Source",
+        "Programming"
+      ],
+      "hot_score": 3.83
+    },
+    {
+      "title_en": "Grafeo – A fast, lean, embeddable graph database built in Rust",
+      "url": "https://grafeo.dev/",
+      "title_zh": "Grafeo：用 Rust 构建的高速、轻量、可嵌入的图数据库",
+      "created_display": "Created: Mar 21, 2026 / 07:50 PT",
+      "image_url": "https://grafeo.dev/assets/logo-small.png",
+      "summary_en": "Grafeo is a fast, small-footprint graph database designed to be embedded in applications, offering Rust-based safety and predictable latency. It targets workloads that need graph relationships but can't rely on a separate database service, enabling easier offline or edge use.",
+      "summary_zh": "Grafeo 是一个高速、轻量、可嵌入的图数据库，目标是在应用内直接存储和查询图结构数据，利用 Rust 的安全性和可预测的延迟。它非常适合需要图关系但不愿引入外部数据库服务的场景，如边缘计算或离线应用。",
+      "hn": {
+        "id": 47467567,
+        "type": "story",
+        "by": "0x1997",
+        "score": 89,
+        "descendants": 21,
+        "time": 1774104618,
+        "comments_url": "https://news.ycombinator.com/item?id=47467567"
+      },
+      "hot_score": 3.82,
+      "tags": [
+        "Programming",
+        "Data"
+      ]
+    },
+    {
+      "title_en": "Blocking Internet Archive Won't Stop AI, but Will Erase Web's Historical Record",
+      "url": "https://www.eff.org/deeplinks/2026/03/blocking-internet-archive-wont-stop-ai-it-will-erase-webs-historical-record",
+      "title_zh": "阻断 Internet Archive 不会阻止 AI，但会抹去网络的历史记录",
+      "created_display": "Created: Mar 21, 2026 / 00:30 PT",
+      "image_url": "https://www.eff.org/files/banner_library/internet-archive-servers-by-jason-scott.jpg",
+      "summary_en": "EFF argues that blocking an online archive won't stop AI models from training on data, and could erase historical web records essential for research and accountability. The piece calls for smarter policy that protects memory and growth of AI capabilities without stifling innovation.",
+      "summary_zh": "电子前哨基金会指出，阻断互联网档案不会阻止AI使用数据，反而会抹去对研究和问责重要的网络历史记录。文章倡议在不扼杀创新的前提下，制定更聪明的政策以保护数字记忆与AI能力的长期发展。",
+      "hn": {
+        "id": 47464818,
+        "type": "story",
+        "by": "pabs3",
+        "score": 367,
+        "descendants": 108,
+        "time": 1774078216,
+        "comments_url": "https://news.ycombinator.com/item?id=47464818"
+      },
+      "tags": [
+        "AI",
+        "Privacy"
+      ],
+      "hot_score": 3.59
+    },
+    {
+      "title_en": "Iran launched unsuccessful attack on UK's Diego Garcia",
+      "url": "https://www.bbc.com/news/articles/c5yljdgwppzo",
+      "title_zh": "Deno CEO 不见了",
+      "created_display": "Created: Mar 21, 2026 / 07:54 PT",
+      "image_url": "https://ichef.bbci.co.uk/news/1024/branded_news/2759/live/1898fec0-254f-11f1-a79a-77e93010d956.jpg",
+      "summary_en": "Deno continues to falter as leadership uncertainty compounds concerns, with layoffs reducing headcount. The setback highlights how niche runtimes face competition from Node and other ecosystems.",
+      "summary_zh": "Deno 的领导层动荡加剧，裁员潮进一步削弱了这家小型运行时的用户基础与投资者信心。该事件反映出在与主流运行时竞争中，早期风光难免转为现实挑战。",
+      "hn": {
+        "id": 47467609,
+        "type": "story",
+        "by": "alephnerd",
+        "score": 75,
+        "descendants": 145,
+        "time": 1774104878,
+        "comments_url": "https://news.ycombinator.com/item?id=47467609"
+      },
+      "hot_score": 3.28,
+      "tags": [
+        "Politics",
+        "Security"
+      ]
+    },
+    {
+      "title_en": "Senior European journalist suspended over AI-generated quotes",
+      "url": "https://www.theguardian.com/technology/2026/mar/20/mediahuis-suspends-senior-journalist-over-ai-generated-quotes",
+      "title_zh": "资深欧洲记者因 AI 生成的引语被停职",
+      "created_display": "Created: Mar 21, 2026 / 07:50 PT",
+      "image_url": "https://i.guim.co.uk/img/media/f53f8e674f5b3c1fccaf19b9b0a8e24f0987ae2f/101_0_1499_1199/master/1499.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=5adaa12d59579fdcda49ac7f11363bd9",
+      "summary_en": "A senior journalist was suspended after publishing quotes generated by AI, prompting questions about attribution and verification in journalism. The incident underscores growing ethical and verification challenges as AI becomes a tool in reporting.",
+      "summary_zh": "一位资深欧洲记者因刊发由 AI 生成的引语而被停职，事件引发关于报道署名与证据核实的伦理讨论。此事凸显了 AI 作为新闻工具带来的新挑战：如何确保来源可核查与真实。",
+      "hn": {
+        "id": 47467566,
+        "type": "story",
+        "by": "Brajeshwar",
+        "score": 52,
+        "descendants": 33,
+        "time": 1774104613,
+        "comments_url": "https://news.ycombinator.com/item?id=47467566"
+      },
+      "hot_score": 2.21,
+      "tags": [
+        "AI",
+        "Culture"
+      ]
+    },
     {
       "title_en": "Mayor of Paris removed parking spaces, \"drastically\" reduced the number of cars",
       "url": "https://www.cnn.com/2026/03/21/travel/paris-transformation-anne-hidalgo-mayor",
@@ -36,101 +219,10 @@
         "time": 1774098730,
         "comments_url": "https://news.ycombinator.com/item?id=47466697"
       },
-      "hot_score": 8.26,
+      "hot_score": 1.93,
       "tags": [
-        "Politics"
-      ]
-    },
-    {
-      "title_en": "OpenCode – Open source AI coding agent",
-      "url": "https://opencode.ai/",
-      "title_zh": "OpenCode — 开源 AI 编码代理",
-      "created_display": "Created: Mar 20, 2026 / 14:03 PT",
-      "image_url": "https://opencode.ai/social-share.png",
-      "summary_en": "OpenCode is an open-source AI coding agent designed to orchestrate code generation, tooling, and runtimes. By releasing it as open source, it offers a transparent, customizable alternative to proprietary coding assistants and accelerates experimentation in AI-assisted development.",
-      "summary_zh": "OpenCode 是一个开源的 AI 编码代理，旨在协调代码生成、工具集和运行时以完成编码任务。以开源形式发布，提供透明、可定制的替代方案，便于开发者在 AI 辅助的软件开发领域进行实验。",
-      "hn": {
-        "id": 47460525,
-        "type": "story",
-        "by": "rbanffy",
-        "score": 976,
-        "descendants": 456,
-        "time": 1774040632,
-        "comments_url": "https://news.ycombinator.com/item?id=47460525"
-      },
-      "tags": [
-        "AI",
-        "Open Source"
-      ],
-      "hot_score": 4.68
-    },
-    {
-      "title_en": "Why western carmakers' retreat from electric risks dooming them to irrelevance",
-      "url": "https://www.theguardian.com/business/2026/mar/21/west-carmakers-retreat-electric-vehicle-risks-irrelevance-iran-war-evs-china",
-      "title_zh": "西方车企撤出电动化恐致自我边缘化",
-      "created_display": "Created: Mar 21, 2026 / 06:52 PT",
-      "image_url": "https://i.guim.co.uk/img/media/4be43872009262fe408c59f0cf518aa2d7783110/1696_0_4016_3213/master/4016.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=107d60906534b9d9d59b5862b25db562",
-      "summary_en": "The Guardian piece argues that Western automakers' hesitation or retreat from electrification risks ceding leadership to aggressive EV players in China, Europe, and beyond. It highlights strategic missteps, overreliance on legacy engines, and geopolitical headwinds. For tech readers, the takeaway is that speed and focus on EVs are increasingly a competitive moat.",
-      "summary_zh": "这篇 Guardian 文章认为西方车企在电动化上的犹豫或撤退可能让它们在全球电动车竞赛中处于劣势，失去领导地位。文章指出在传统发动机的延续、策略失误以及地缘政治因素等方面的挑战。对科技读者而言，快速推进电动化成为日益关键的竞争壁垒。",
-      "hn": {
-        "id": 47467034,
-        "type": "story",
-        "by": "n1b0m",
-        "score": 27,
-        "descendants": 14,
-        "time": 1774101142,
-        "comments_url": "https://news.ycombinator.com/item?id=47467034"
-      },
-      "hot_score": 4.63,
-      "tags": [
-        "Business",
-        "Energy"
-      ]
-    },
-    {
-      "title_en": "Blocking Internet Archive Won't Stop AI, but Will Erase Web's Historical Record",
-      "url": "https://www.eff.org/deeplinks/2026/03/blocking-internet-archive-wont-stop-ai-it-will-erase-webs-historical-record",
-      "title_zh": "阻断 Internet Archive 不会阻止 AI，但会抹去网络的历史记录",
-      "created_display": "Created: Mar 21, 2026 / 00:30 PT",
-      "image_url": "https://www.eff.org/files/banner_library/internet-archive-servers-by-jason-scott.jpg",
-      "summary_en": "EFF argues that blocking an online archive won't stop AI models from training on data, and could erase historical web records essential for research and accountability. The piece calls for smarter policy that protects memory and growth of AI capabilities without stifling innovation.",
-      "summary_zh": "电子前哨基金会指出，阻断互联网档案不会阻止AI使用数据，反而会抹去对研究和问责重要的网络历史记录。文章倡议在不扼杀创新的前提下，制定更聪明的政策以保护数字记忆与AI能力的长期发展。",
-      "hn": {
-        "id": 47464818,
-        "type": "story",
-        "by": "pabs3",
-        "score": 209,
-        "descendants": 59,
-        "time": 1774078216,
-        "comments_url": "https://news.ycombinator.com/item?id=47464818"
-      },
-      "hot_score": 4.0,
-      "tags": [
-        "AI",
-        "Privacy"
-      ]
-    },
-    {
-      "title_en": "Atuin v18.13 – better search, a PTY proxy, and AI for your shell",
-      "url": "https://blog.atuin.sh/atuin-v18-13/",
-      "title_zh": "Atuin v18.13：改进搜索、PTY 代理，并为你的 shell 增添 AI 能力",
-      "created_display": "Created: Mar 21, 2026 / 03:35 PT",
-      "image_url": "https://blog.atuin.sh/content/images/2024/01/Atuin_Logo_01_blue.png",
-      "summary_en": "Atuin v18.13 improves search, adds a PTY proxy, and introduces AI features for shell workflows, enhancing productivity and interoperability with terminal tools.",
-      "summary_zh": "Atuin 最新版本 v18.13 增强了全局搜索、引入了一个 PTY 代理，并在 shell 工作流中加入 AI 功能，提升生产力与工具互操作性。",
-      "hn": {
-        "id": 47465824,
-        "type": "story",
-        "by": "cenanozen",
-        "score": 60,
-        "descendants": 47,
-        "time": 1774089320,
-        "comments_url": "https://news.ycombinator.com/item?id=47465824"
-      },
-      "hot_score": 2.42,
-      "tags": [
-        "AI",
-        "Programming"
+        "Politics",
+        "Design"
       ]
     },
     {
@@ -145,15 +237,15 @@
         "id": 47459296,
         "type": "story",
         "by": "hadrien01",
-        "score": 571,
-        "descendants": 1050,
+        "score": 592,
+        "descendants": 1109,
         "time": 1774034173,
         "comments_url": "https://news.ycombinator.com/item?id=47459296"
       },
       "tags": [
-        "DevOps"
+        "Programming"
       ],
-      "hot_score": 2.33
+      "hot_score": 1.76
     },
     {
       "title_en": "A Japanese glossary of chopsticks faux pas (2022)",
@@ -167,15 +259,37 @@
         "id": 47460452,
         "type": "story",
         "by": "cainxinth",
-        "score": 349,
-        "descendants": 268,
+        "score": 402,
+        "descendants": 317,
         "time": 1774040097,
         "comments_url": "https://news.ycombinator.com/item?id=47460452"
       },
       "tags": [
         "Culture"
       ],
-      "hot_score": 1.65
+      "hot_score": 1.35
+    },
+    {
+      "title_en": "Ubuntu 26.04 Ends 46 Years of Silent sudo Passwords",
+      "url": "https://pbxscience.com/ubuntu-26-04-ends-46-years-of-silent-sudo-passwords/",
+      "title_zh": "Ubuntu 26.04 结束46年来的静默 sudo 密码",
+      "created_display": "Created: Mar 20, 2026 / 22:06 PT",
+      "image_url": "https://pbxscience.com/wp-content/uploads/2025/12/cc251204-ubuntu.webp",
+      "summary_en": "Ubuntu 26.04 changes the default by requiring sudo passwords, ending decades of silent elevation. The change boosts security hygiene but may affect onboarding and scripts; users can still fine-tune by policy.",
+      "summary_zh": "Ubuntu 26.04 将默认 sudo 提权改为需要密码，结束长久以来的静默便利。这一改动提升了系统安全，但可能增加开发和运维的耗时与脚本兼容性的问题，用户仍可通过策略进行调整。",
+      "hn": {
+        "id": 47464134,
+        "type": "story",
+        "by": "akersten",
+        "score": 179,
+        "descendants": 208,
+        "time": 1774069571,
+        "comments_url": "https://news.ycombinator.com/item?id=47464134"
+      },
+      "hot_score": 1.29,
+      "tags": [
+        "Security"
+      ]
     },
     {
       "title_en": "France's aircraft carrier located in real time by Le Monde through fitness app",
@@ -189,83 +303,16 @@
         "id": 47453942,
         "type": "story",
         "by": "MrDresden",
-        "score": 589,
-        "descendants": 474,
+        "score": 611,
+        "descendants": 492,
         "time": 1774011716,
         "comments_url": "https://news.ycombinator.com/item?id=47453942"
       },
       "tags": [
-        "Security",
-        "Privacy"
+        "Privacy",
+        "Security"
       ],
-      "hot_score": 1.51
-    },
-    {
-      "title_en": "Ghostling",
-      "url": "https://github.com/ghostty-org/ghostling",
-      "title_zh": "Ghostling（GitHub 开源项目）",
-      "created_display": "Created: Mar 20, 2026 / 15:11 PT",
-      "image_url": "https://opengraph.githubassets.com/5865e642e26261b63d702f77189c47f244fc850c715d8fb80d8940dbc0560c40/ghostty-org/ghostling",
-      "summary_en": "Ghostling appears to be an open-source project housed on GitHub.",
-      "summary_zh": "Ghostling 看起来是一个托管在 GitHub 上的开源项目。",
-      "hn": {
-        "id": 47461378,
-        "type": "story",
-        "by": "bjornroberg",
-        "score": 253,
-        "descendants": 48,
-        "time": 1774044697,
-        "comments_url": "https://news.ycombinator.com/item?id=47461378"
-      },
-      "tags": [
-        "Open Source",
-        "Programming"
-      ],
-      "hot_score": 1.35
-    },
-    {
-      "title_en": "We rewrote our Rust WASM parser in TypeScript and it got faster",
-      "url": "https://www.openui.com/blog/rust-wasm-parser",
-      "title_zh": "我们把 Rust 的 WASM 解析器改成 TypeScript，结果更快。",
-      "created_display": "Created: Mar 20, 2026 / 14:48 PT",
-      "image_url": "https://www.openui.com/meta-image.png",
-      "summary_en": "After rewriting a Rust-based WASM parser in TypeScript, the TS version beat the original in benchmarks. The result highlights how modern TypeScript tooling and the JS/WASM execution environment can yield surprising performance for parsing workloads, raising interesting questions about language choice for cross-platform tooling.",
-      "summary_zh": "将基于 Rust 的 WASM 解析器改写为 TypeScript 后，在基准测试中反而更快。此结果凸显了现代 TypeScript 工具链与 JS/WASM 执行环境在解析任务上的潜在性能优势，并引发对跨平台工具选择的思考。",
-      "hn": {
-        "id": 47461094,
-        "type": "story",
-        "by": "zahlekhan",
-        "score": 245,
-        "descendants": 157,
-        "time": 1774043286,
-        "comments_url": "https://news.ycombinator.com/item?id=47461094"
-      },
-      "tags": [
-        "Programming"
-      ],
-      "hot_score": 1.26
-    },
-    {
-      "title_en": "FFmpeg 101 (2024)",
-      "url": "https://blogs.igalia.com/llepage/ffmpeg-101/",
-      "title_zh": "FFmpeg 101（2024）",
-      "created_display": "Created: Mar 20, 2026 / 19:47 PT",
-      "image_url": "https://blogs.igalia.com/llepage/img/header1.jpg",
-      "summary_en": "A practical primer on FFmpeg as of 2024, covering essential commands, filters, and workflow patterns for modern multimedia tasks. It highlights how to craft efficient pipelines, handle subtitles and codecs, and stay up-to-date with ongoing tool developments.",
-      "summary_zh": "本文提供 FFmpeg 的实用入门要点，覆盖2024年的常用命令、滤镜及工作流程。帮助读者构建高效的多媒体处理管线，正确处理字幕与编解码，以及把握新特性的演进。",
-      "hn": {
-        "id": 47463547,
-        "type": "story",
-        "by": "vinhnx",
-        "score": 137,
-        "descendants": 5,
-        "time": 1774061233,
-        "comments_url": "https://news.ycombinator.com/item?id=47463547"
-      },
-      "hot_score": 1.22,
-      "tags": [
-        "Programming"
-      ]
+      "hot_score": 1.22
     },
     {
       "title_en": "Astral to Join OpenAI",
@@ -285,9 +332,34 @@
         "comments_url": "https://news.ycombinator.com/item?id=47438723"
       },
       "tags": [
-        "AI"
+        "AI",
+        "Business",
+        "Startups"
       ],
-      "hot_score": 1.21
+      "hot_score": 1.06
+    },
+    {
+      "title_en": "Ghostling",
+      "url": "https://github.com/ghostty-org/ghostling",
+      "title_zh": "Ghostling（GitHub 开源项目）",
+      "created_display": "Created: Mar 20, 2026 / 15:11 PT",
+      "image_url": "https://opengraph.githubassets.com/5865e642e26261b63d702f77189c47f244fc850c715d8fb80d8940dbc0560c40/ghostty-org/ghostling",
+      "summary_en": "Ghostling appears to be an open-source project housed on GitHub.",
+      "summary_zh": "Ghostling 看起来是一个托管在 GitHub 上的开源项目。",
+      "hn": {
+        "id": 47461378,
+        "type": "story",
+        "by": "bjornroberg",
+        "score": 285,
+        "descendants": 60,
+        "time": 1774044697,
+        "comments_url": "https://news.ycombinator.com/item?id=47461378"
+      },
+      "tags": [
+        "Open Source",
+        "Programming"
+      ],
+      "hot_score": 1.06
     },
     {
       "title_en": "ArXiv declares independence from Cornell",
@@ -301,15 +373,85 @@
         "id": 47450478,
         "type": "story",
         "by": "bookstore-romeo",
-        "score": 772,
-        "descendants": 268,
+        "score": 784,
+        "descendants": 272,
         "time": 1773980651,
         "comments_url": "https://news.ycombinator.com/item?id=47450478"
       },
       "tags": [
-        "Science"
+        "Science",
+        "Politics"
       ],
-      "hot_score": 1.21
+      "hot_score": 1.02
+    },
+    {
+      "title_en": "Just make it hard to fail",
+      "url": "https://nekolucifer.substack.com/p/just-make-it-really-hard-to-fail",
+      "title_zh": "就让它真的难以失败",
+      "created_display": "Created: Mar 21, 2026 / 06:38 PT",
+      "image_url": null,
+      "summary_en": "A piece arguing for designing systems so failure is extremely hard to accomplish, emphasizing robust architecture, redundancy, and clear failure modes.",
+      "summary_zh": "文章倡导用稳健的架构、冗余和清晰的故障处理来让系统尽量不出错，挑战过于冒险的“快速迭代”思维。",
+      "hn": {
+        "id": 47466922,
+        "type": "story",
+        "by": "andai",
+        "score": 34,
+        "descendants": 18,
+        "time": 1774100291,
+        "comments_url": "https://news.ycombinator.com/item?id=47466922"
+      },
+      "tags": [
+        "Design"
+      ],
+      "hot_score": 1.02
+    },
+    {
+      "title_en": "FFmpeg 101 (2024)",
+      "url": "https://blogs.igalia.com/llepage/ffmpeg-101/",
+      "title_zh": "FFmpeg 101（2024）",
+      "created_display": "Created: Mar 20, 2026 / 19:47 PT",
+      "image_url": "https://blogs.igalia.com/llepage/img/header1.jpg",
+      "summary_en": "A practical primer on FFmpeg as of 2024, covering essential commands, filters, and workflow patterns for modern multimedia tasks. It highlights how to craft efficient pipelines, handle subtitles and codecs, and stay up-to-date with ongoing tool developments.",
+      "summary_zh": "本文提供 FFmpeg 的实用入门要点，覆盖2024年的常用命令、滤镜及工作流程。帮助读者构建高效的多媒体处理管线，正确处理字幕与编解码，以及把握新特性的演进。",
+      "hn": {
+        "id": 47463547,
+        "type": "story",
+        "by": "vinhnx",
+        "score": 181,
+        "descendants": 7,
+        "time": 1774061233,
+        "comments_url": "https://news.ycombinator.com/item?id=47463547"
+      },
+      "tags": [
+        "Programming",
+        "Open Source"
+      ],
+      "hot_score": 1.01
+    },
+    {
+      "title_en": "Claude Code and the Great Productivity Panic of 2026",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-26/ai-coding-agents-like-claude-code-are-fueling-a-productivity-panic-in-tech",
+      "title_zh": "Claude Code 与2026年生产力恐慌",
+      "created_display": "Created: Mar 21, 2026 / 08:31 PT",
+      "image_url": null,
+      "summary_en": "AI coding assistants promise big productivity gains but also create a 'productivity panic' as teams chase automation without clear ROI.",
+      "summary_zh": "AI 编码助手承诺带来生产力提升，但随着团队追逐自动化而缺乏明确回报，出现所謂的生产力恐慌。文章讨论了采用 AI 助手的节奏、度量不当的风险，以及治理和渐进式落地的重要性。",
+      "hn": {
+        "id": 47467922,
+        "type": "story",
+        "by": "muzz",
+        "score": 19,
+        "descendants": 6,
+        "time": 1774107069,
+        "comments_url": "https://news.ycombinator.com/item?id=47467922"
+      },
+      "hot_score": 0.98,
+      "tags": [
+        "AI",
+        "Programming",
+        "Business"
+      ]
     },
     {
       "title_en": "Google details new 24-hour process to sideload unverified Android apps",
@@ -331,7 +473,76 @@
       "tags": [
         "Security"
       ],
-      "hot_score": 1.12
+      "hot_score": 0.97
+    },
+    {
+      "title_en": "We rewrote our Rust WASM parser in TypeScript and it got faster",
+      "url": "https://www.openui.com/blog/rust-wasm-parser",
+      "title_zh": "我们把 Rust 的 WASM 解析器改成 TypeScript，结果更快。",
+      "created_display": "Created: Mar 20, 2026 / 14:48 PT",
+      "image_url": "https://www.openui.com/meta-image.png",
+      "summary_en": "After rewriting a Rust-based WASM parser in TypeScript, the TS version beat the original in benchmarks. The result highlights how modern TypeScript tooling and the JS/WASM execution environment can yield surprising performance for parsing workloads, raising interesting questions about language choice for cross-platform tooling.",
+      "summary_zh": "将基于 Rust 的 WASM 解析器改写为 TypeScript 后，在基准测试中反而更快。此结果凸显了现代 TypeScript 工具链与 JS/WASM 执行环境在解析任务上的潜在性能优势，并引发对跨平台工具选择的思考。",
+      "hn": {
+        "id": 47461094,
+        "type": "story",
+        "by": "zahlekhan",
+        "score": 270,
+        "descendants": 175,
+        "time": 1774043286,
+        "comments_url": "https://news.ycombinator.com/item?id=47461094"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 0.97
+    },
+    {
+      "title_en": "Atuin v18.13 – better search, a PTY proxy, and AI for your shell",
+      "url": "https://blog.atuin.sh/atuin-v18-13/",
+      "title_zh": "Atuin v18.13：改进搜索、PTY 代理，并为你的 shell 增添 AI 能力",
+      "created_display": "Created: Mar 21, 2026 / 03:35 PT",
+      "image_url": "https://blog.atuin.sh/content/images/2024/01/Atuin_Logo_01_blue.png",
+      "summary_en": "Atuin v18.13 improves search, adds a PTY proxy, and introduces AI features for shell workflows, enhancing productivity and interoperability with terminal tools.",
+      "summary_zh": "Atuin 最新版本 v18.13 增强了全局搜索、引入了一个 PTY 代理，并在 shell 工作流中加入 AI 功能，提升生产力与工具互操作性。",
+      "hn": {
+        "id": 47465824,
+        "type": "story",
+        "by": "cenanozen",
+        "score": 60,
+        "descendants": 47,
+        "time": 1774089320,
+        "comments_url": "https://news.ycombinator.com/item?id=47465824"
+      },
+      "hot_score": 0.94,
+      "tags": [
+        "AI",
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "Why western carmakers' retreat from electric risks dooming them to irrelevance",
+      "url": "https://www.theguardian.com/business/2026/mar/21/west-carmakers-retreat-electric-vehicle-risks-irrelevance-iran-war-evs-china",
+      "title_zh": "西方车企撤出电动化恐致自我边缘化",
+      "created_display": "Created: Mar 21, 2026 / 06:52 PT",
+      "image_url": "https://i.guim.co.uk/img/media/4be43872009262fe408c59f0cf518aa2d7783110/1696_0_4016_3213/master/4016.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=107d60906534b9d9d59b5862b25db562",
+      "summary_en": "The Guardian piece argues that Western automakers' hesitation or retreat from electrification risks ceding leadership to aggressive EV players in China, Europe, and beyond. It highlights strategic missteps, overreliance on legacy engines, and geopolitical headwinds. For tech readers, the takeaway is that speed and focus on EVs are increasingly a competitive moat.",
+      "summary_zh": "这篇 Guardian 文章认为西方车企在电动化上的犹豫或撤退可能让它们在全球电动车竞赛中处于劣势，失去领导地位。文章指出在传统发动机的延续、策略失误以及地缘政治因素等方面的挑战。对科技读者而言，快速推进电动化成为日益关键的竞争壁垒。",
+      "hn": {
+        "id": 47467034,
+        "type": "story",
+        "by": "n1b0m",
+        "score": 27,
+        "descendants": 14,
+        "time": 1774101142,
+        "comments_url": "https://news.ycombinator.com/item?id=47467034"
+      },
+      "hot_score": 0.85,
+      "tags": [
+        "Business",
+        "Politics",
+        "Energy"
+      ]
     },
     {
       "title_en": "Super Micro Shares Plunge 25% After Co-Founder Charged in $2.5B Smuggling Plot",
@@ -352,35 +563,34 @@
       },
       "tags": [
         "Business",
-        "Finance",
         "Legal",
         "AI",
         "Hardware"
       ],
-      "hot_score": 1.05
+      "hot_score": 0.81
     },
     {
-      "title_en": "Linux Applications Programming by Example: The Fundamental APIs (2nd Edition)",
-      "url": "https://github.com/arnoldrobbins/LinuxByExample-2e",
-      "title_zh": "Linux 应用编程示例：基础 API（第2版）",
-      "created_display": "Created: Mar 20, 2026 / 16:57 PT",
-      "image_url": "https://opengraph.githubassets.com/f8fd2cdabebc5e1be94b83b914cd07d1919028d098ca43149ea89fcb8242dddc/arnoldrobbins/LinuxByExample-2e",
-      "summary_en": "This second edition is an example-driven guide to Linux application programming, covering core APIs and practical routines. It updates foundational topics like POSIX interfaces, I/O, processes, signals, and threading with fresh examples for modern Linux.",
-      "summary_zh": "这本第二版以实例驱动的方式讲解 Linux 应用编程，聚焦核心 API 与实际用例。内容更新了 POSIX、I/O、进程、信号与线程等基础主题，并结合现代 Linux 场景给出新示例。",
+      "title_en": "Jury signals tech titans on hook for social media addiction",
+      "url": "https://techxplore.com/news/2026-03-jury-tech-titans-social-media.html",
+      "title_zh": "陪审团指向科技巨头就社交媒体成瘾承担责任",
+      "created_display": "Created: Mar 21, 2026 / 08:44 PT",
+      "image_url": "https://scx2.b-cdn.net/gfx/news/2026/parents-adamant-that-s.jpg",
+      "summary_en": "A jury's decision signals that tech giants could be held liable for how social networks influence addictive use, potentially setting precedent for product design accountability. This could accelerate regulation and push for safer defaults, transparency, and privacy protections. The verdict could force changes in app design, data practices, and advertising.",
+      "summary_zh": "陪审团的裁决信号可能让科技巨头为社交媒体成瘾承担法律责任，或为产品设计的问责设定先例。此结果可能推动监管趋严、促使更安全的默认设置、透明度与隐私保护加强。判决还可能推动对应用设计、数据使用和广告策略的调整。",
       "hn": {
-        "id": 47462483,
+        "id": 47468051,
         "type": "story",
-        "by": "teleforce",
-        "score": 127,
-        "descendants": 16,
-        "time": 1774051042,
-        "comments_url": "https://news.ycombinator.com/item?id=47462483"
+        "by": "Brajeshwar",
+        "score": 13,
+        "descendants": 2,
+        "time": 1774107898,
+        "comments_url": "https://news.ycombinator.com/item?id=47468051"
       },
+      "hot_score": 0.71,
       "tags": [
-        "Programming",
-        "Education"
-      ],
-      "hot_score": 0.81
+        "Politics",
+        "Privacy"
+      ]
     },
     {
       "title_en": "Delve – Fake Compliance as a Service",
@@ -394,17 +604,17 @@
         "id": 47444319,
         "type": "story",
         "by": "freddykruger",
-        "score": 730,
-        "descendants": 250,
+        "score": 756,
+        "descendants": 264,
         "time": 1773947282,
         "comments_url": "https://news.ycombinator.com/item?id=47444319"
       },
       "tags": [
-        "Security",
+        "Business",
         "Legal",
         "Politics"
       ],
-      "hot_score": 0.76
+      "hot_score": 0.67
     },
     {
       "title_en": "Attention Residuals",
@@ -418,36 +628,83 @@
         "id": 47458595,
         "type": "story",
         "by": "GaggiX",
-        "score": 200,
-        "descendants": 27,
+        "score": 221,
+        "descendants": 29,
         "time": 1774031021,
         "comments_url": "https://news.ycombinator.com/item?id=47458595"
       },
       "tags": [
         "AI"
       ],
-      "hot_score": 0.76
+      "hot_score": 0.62
     },
     {
-      "title_en": "Just make it hard to fail",
-      "url": "https://nekolucifer.substack.com/p/just-make-it-really-hard-to-fail",
-      "title_zh": "就让它真的难以失败",
-      "created_display": "Created: Mar 21, 2026 / 06:38 PT",
-      "image_url": null,
-      "summary_en": "A piece arguing for designing systems so failure is extremely hard to accomplish, emphasizing robust architecture, redundancy, and clear failure modes.",
-      "summary_zh": "文章倡导用稳健的架构、冗余和清晰的故障处理来让系统尽量不出错，挑战过于冒险的“快速迭代”思维。",
+      "title_en": "Linux Applications Programming by Example: The Fundamental APIs (2nd Edition)",
+      "url": "https://github.com/arnoldrobbins/LinuxByExample-2e",
+      "title_zh": "Linux 应用编程示例：基础 API（第2版）",
+      "created_display": "Created: Mar 20, 2026 / 16:57 PT",
+      "image_url": "https://opengraph.githubassets.com/f8fd2cdabebc5e1be94b83b914cd07d1919028d098ca43149ea89fcb8242dddc/arnoldrobbins/LinuxByExample-2e",
+      "summary_en": "This second edition is an example-driven guide to Linux application programming, covering core APIs and practical routines. It updates foundational topics like POSIX interfaces, I/O, processes, signals, and threading with fresh examples for modern Linux.",
+      "summary_zh": "这本第二版以实例驱动的方式讲解 Linux 应用编程，聚焦核心 API 与实际用例。内容更新了 POSIX、I/O、进程、信号与线程等基础主题，并结合现代 Linux 场景给出新示例。",
       "hn": {
-        "id": 47466922,
+        "id": 47462483,
         "type": "story",
-        "by": "andai",
-        "score": 6,
-        "descendants": 4,
-        "time": 1774100291,
-        "comments_url": "https://news.ycombinator.com/item?id=47466922"
+        "by": "teleforce",
+        "score": 144,
+        "descendants": 18,
+        "time": 1774051042,
+        "comments_url": "https://news.ycombinator.com/item?id=47462483"
       },
-      "hot_score": 0.76,
       "tags": [
-        "Design"
+        "Programming"
+      ],
+      "hot_score": 0.62
+    },
+    {
+      "title_en": "Thinking Fast, Slow, and Artificial: How AI Is Reshaping Human Reasoning",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6097646",
+      "title_zh": "快速、慢速与人工智能：AI 如何重塑人类推理",
+      "created_display": "Created: Mar 21, 2026 / 08:30 PT",
+      "image_url": null,
+      "summary_en": "A new paper argues AI systems influence human reasoning by providing quick heuristics and confident outputs, potentially biasing judgments. It examines how AI can both augment and distort thinking, depending on how we interact with it. The research also considers safeguards for education, policy, and design to preserve critical thinking.",
+      "summary_zh": "一项新研究认为，人工智能系统通过提供快速的启发式和自信的输出，正在潜移默化地影响人类推理，可能引发偏见。AI 的作用既可能提升判断效率，也可能削弱独立思考，取决于人机交互方式。研究还讨论在教育、政策和设计层面需要采取的保障措施，以维护批判性思维。",
+      "hn": {
+        "id": 47467913,
+        "type": "story",
+        "by": "Anon84",
+        "score": 12,
+        "descendants": 2,
+        "time": 1774107029,
+        "comments_url": "https://news.ycombinator.com/item?id=47467913"
+      },
+      "hot_score": 0.6,
+      "tags": [
+        "AI",
+        "Education"
+      ]
+    },
+    {
+      "title_en": "Canada moves towards homegrown rocket launches",
+      "url": "https://www.ctvnews.ca/sci-tech/article/incredibly-important-canada-moves-towards-homegrown-rocket-launches/",
+      "title_zh": "加拿大向本土火箭发射迈进",
+      "created_display": "Created: Mar 21, 2026 / 06:24 PT",
+      "image_url": "https://www.ctvnews.ca/resizer/v2/EIM77JKSMVFTZKKXQ3JHIQUXWU.jpg?smart=true&auth=a311e642b5827545b55567f9d61aee474c413f373e73af911afb71ed78745e2f&width=1200&height=630",
+      "summary_en": "Canada is moving toward developing homegrown rocket launch capability, signaling investment in national space infrastructure. The move could diversify the space sector, attract startups, and reduce reliance on foreign launch providers, with implications for national security and sovereignty. Policy and funding details will shape timeline.",
+      "summary_zh": "加拿大正在推动本土火箭发射能力的发展，显示出对国家空间基础设施投资的决心。此举可能促进本地太空产业多元化、吸引初创公司并降低对外部发射服务的依赖，同时对国家安全与主权有一定影响。具体的政策与资金安排将决定时间表。",
+      "hn": {
+        "id": 47466807,
+        "type": "story",
+        "by": "pseudolus",
+        "score": 18,
+        "descendants": 0,
+        "time": 1774099441,
+        "comments_url": "https://news.ycombinator.com/item?id=47466807"
+      },
+      "hot_score": 0.49,
+      "tags": [
+        "Space",
+        "Security",
+        "DevOps"
       ]
     },
     {
@@ -462,8 +719,8 @@
         "id": 47461321,
         "type": "story",
         "by": "FormerLabFred",
-        "score": 108,
-        "descendants": 53,
+        "score": 126,
+        "descendants": 76,
         "time": 1774044411,
         "comments_url": "https://news.ycombinator.com/item?id=47461321"
       },
@@ -471,7 +728,29 @@
         "Show HN",
         "Programming"
       ],
-      "hot_score": 0.57
+      "hot_score": 0.46
+    },
+    {
+      "title_en": "Molly guard in reverse",
+      "url": "https://unsung.aresluna.org/molly-guard-in-reverse/",
+      "title_zh": "Molly Guard（安全保护机制）",
+      "created_display": "Created: Mar 20, 2026 / 07:33 PT",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiqhXfvdwH2Q3dUIS7ROPd_lvD6QWAw7IyPG6eyedf1djSS70b4Yj0RttWd7N47XIqEILZn0bW_-6LM9znuOTg3dOzBiZNRZGJi7Dq7nxqhUqJ6GB3qnw61-YnNiWatuUZunfdjUV5o42uXNV9XcaqCiU9YO2Dslf_R_Tpg-k2sQxNzSwSOI1elNe0iPfdP/w1200-h630-p-k-no-nu/Screenshot%202026-02-16%20at%2011.32.51%E2%80%AFAM.png",
+      "summary_en": "Molly Guard discusses a safety mechanism intended to prevent accidental destructive actions in technical workflows.",
+      "summary_zh": "Molly Guard 讨论了一种防止在技术工作流中发生误操作的安全机制。",
+      "hn": {
+        "id": 47455138,
+        "type": "story",
+        "by": "surprisetalk",
+        "score": 184,
+        "descendants": 76,
+        "time": 1774017221,
+        "comments_url": "https://news.ycombinator.com/item?id=47455138"
+      },
+      "tags": [
+        "Security"
+      ],
+      "hot_score": 0.4
     },
     {
       "title_en": "Entso-E final report on Iberian 2025 blackout",
@@ -485,8 +764,8 @@
         "id": 47452955,
         "type": "story",
         "by": "Rygian",
-        "score": 209,
-        "descendants": 99,
+        "score": 215,
+        "descendants": 102,
         "time": 1774004607,
         "comments_url": "https://news.ycombinator.com/item?id=47452955"
       },
@@ -495,52 +774,31 @@
         "Security",
         "DevOps"
       ],
-      "hot_score": 0.47
+      "hot_score": 0.38
     },
     {
-      "title_en": "Liberated Systemd",
-      "url": "https://github.com/jeffrey-sardina/systemd",
-      "title_zh": "Liberated Systemd",
-      "created_display": "Created: Mar 21, 2026 / 00:59 PT",
-      "image_url": "https://opengraph.githubassets.com/a9fe6ee7d9a7016eec1db068bf5d5accf5e490be930cccab9567917af719cffa/Jeffrey-Sardina/systemd",
-      "summary_en": "A project aiming to liberate systemd by loosening its control or creating alternatives; discusses the motivations, potential benefits, and trade-offs of decoupling init systems.",
-      "summary_zh": "一个旨在解放或替代 Systemd 的项目，讨论去中心化、降低对单一初始化系统的依赖的动机、潜在收益及权衡。",
+      "title_en": "Show HN: Joonote – A note-taking app on your lock screen and notification panel",
+      "url": "https://joonote.com/",
+      "title_zh": "Show HN: Joonote——一款在锁屏和通知面板上的记笔记应用",
+      "created_display": "Created: Mar 21, 2026 / 08:02 PT",
+      "image_url": "https://joonote.com/images/hero_banner.png",
+      "summary_en": "Joonote is a minimalist note-taking app that lives on your lock screen and notification panel, enabling fast capture without unlocking your device. It emphasizes low-friction note-taking and privacy, with syncing across devices.",
+      "summary_zh": "Joonote 是一款放在锁屏和通知区的极简记笔记应用，便于在不解锁设备时快速记录想法。它强调低阻力的捕捉体验，并提供跨设备的同步与隐私保护。",
       "hn": {
-        "id": 47464978,
+        "id": 47467671,
         "type": "story",
-        "by": "gasull",
-        "score": 23,
-        "descendants": 31,
-        "time": 1774079969,
-        "comments_url": "https://news.ycombinator.com/item?id=47464978"
+        "by": "kilgarenone",
+        "score": 7,
+        "descendants": 0,
+        "time": 1774105350,
+        "comments_url": "https://news.ycombinator.com/item?id=47467671"
       },
-      "hot_score": 0.47,
+      "hot_score": 0.28,
       "tags": [
-        "Open Source",
-        "Programming"
+        "Show HN",
+        "Programming",
+        "Privacy"
       ]
-    },
-    {
-      "title_en": "Molly Guard",
-      "url": "https://bookofjoe2.blogspot.com/2026/02/molly-guard.html",
-      "title_zh": "Molly Guard（安全保护机制）",
-      "created_display": "Created: Mar 20, 2026 / 07:33 PT",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiqhXfvdwH2Q3dUIS7ROPd_lvD6QWAw7IyPG6eyedf1djSS70b4Yj0RttWd7N47XIqEILZn0bW_-6LM9znuOTg3dOzBiZNRZGJi7Dq7nxqhUqJ6GB3qnw61-YnNiWatuUZunfdjUV5o42uXNV9XcaqCiU9YO2Dslf_R_Tpg-k2sQxNzSwSOI1elNe0iPfdP/w1200-h630-p-k-no-nu/Screenshot%202026-02-16%20at%2011.32.51%E2%80%AFAM.png",
-      "summary_en": "Molly Guard discusses a safety mechanism intended to prevent accidental destructive actions in technical workflows.",
-      "summary_zh": "Molly Guard 讨论了一种防止在技术工作流中发生误操作的安全机制。",
-      "hn": {
-        "id": 47455138,
-        "type": "story",
-        "by": "surprisetalk",
-        "score": 150,
-        "descendants": 62,
-        "time": 1774017221,
-        "comments_url": "https://news.ycombinator.com/item?id=47455138"
-      },
-      "tags": [
-        "Security"
-      ],
-      "hot_score": 0.43
     },
     {
       "title_en": "Show HN: Sonar – A tiny CLI to see and kill whatever's running on localhost",
@@ -563,7 +821,7 @@
         "Show HN",
         "Programming"
       ],
-      "hot_score": 0.33
+      "hot_score": 0.27
     },
     {
       "title_en": "The Social Smolnet",
@@ -577,7 +835,7 @@
         "id": 47453947,
         "type": "story",
         "by": "aebtebeten",
-        "score": 129,
+        "score": 134,
         "descendants": 14,
         "time": 1774011739,
         "comments_url": "https://news.ycombinator.com/item?id=47453947"
@@ -586,7 +844,7 @@
         "Privacy",
         "Design"
       ],
-      "hot_score": 0.33
+      "hot_score": 0.27
     },
     {
       "title_en": "The Soul of a Pedicab Driver",
@@ -608,7 +866,74 @@
       "tags": [
         "Culture"
       ],
-      "hot_score": 0.32
+      "hot_score": 0.26
+    },
+    {
+      "title_en": "Discontinuation and reinitiation of dual-labeled GLP-1 receptor agonists",
+      "url": "https://nautil.us/whiplash-heart-attack-and-stroke-risk-jumps-when-people-stop-taking-glp-1s-1279029",
+      "title_zh": "双标 GLP-1 受体激动剂的停用与重新启动",
+      "created_display": "Created: Mar 20, 2026 / 14:42 PT",
+      "image_url": "https://lede-admin.nautil.us/wp-content/uploads/sites/70/2026/03/Currie_HERO_e5e1a4.png",
+      "summary_en": "Discontinuation and reinitiation of dual-labeled GLP-1 receptor agonists may raise cardiovascular risks, underscoring the importance of adherence in therapy.",
+      "summary_zh": "停用并重新开始双标 GLP-1 受体激动剂可能增加心血管风险，强调坚持用药的重要性及潜在临床影响。",
+      "hn": {
+        "id": 47461018,
+        "type": "story",
+        "by": "siquick",
+        "score": 73,
+        "descendants": 115,
+        "time": 1774042936,
+        "comments_url": "https://news.ycombinator.com/item?id=47461018"
+      },
+      "tags": [
+        "Health"
+      ],
+      "hot_score": 0.26
+    },
+    {
+      "title_en": "Is playing music good for the brain?",
+      "url": "https://www.economist.com/science-and-technology/2026/03/20/is-playing-music-good-for-the-brain",
+      "title_zh": "音乐对大脑有益吗？",
+      "created_display": "Created: Mar 21, 2026 / 05:36 PT",
+      "image_url": null,
+      "summary_en": "New evidence suggests listening to music may enhance brain plasticity, memory, and cognitive function, with perhaps differential effects by age and genre. The piece synthesizes studies and caveats, highlighting potential educational and therapeutic uses.",
+      "summary_zh": "最新研究表明，音乐对大脑的塑形、记忆和认知功能可能有积极作用，且效果因年龄和音乐类型而异。文章综合多项研究，强调需要谨慎解读并关注教育和治疗层面的潜在应用。",
+      "hn": {
+        "id": 47466463,
+        "type": "story",
+        "by": "andsoitis",
+        "score": 12,
+        "descendants": 5,
+        "time": 1774096611,
+        "comments_url": "https://news.ycombinator.com/item?id=47466463"
+      },
+      "hot_score": 0.26,
+      "tags": [
+        "Science"
+      ]
+    },
+    {
+      "title_en": "Liberated Systemd",
+      "url": "https://github.com/jeffrey-sardina/systemd",
+      "title_zh": "Liberated Systemd",
+      "created_display": "Created: Mar 21, 2026 / 00:59 PT",
+      "image_url": "https://opengraph.githubassets.com/a9fe6ee7d9a7016eec1db068bf5d5accf5e490be930cccab9567917af719cffa/Jeffrey-Sardina/systemd",
+      "summary_en": "A project aiming to liberate systemd by loosening its control or creating alternatives; discusses the motivations, potential benefits, and trade-offs of decoupling init systems.",
+      "summary_zh": "一个旨在解放或替代 Systemd 的项目，讨论去中心化、降低对单一初始化系统的依赖的动机、潜在收益及权衡。",
+      "hn": {
+        "id": 47464978,
+        "type": "story",
+        "by": "gasull",
+        "score": 23,
+        "descendants": 31,
+        "time": 1774079969,
+        "comments_url": "https://news.ycombinator.com/item?id=47464978"
+      },
+      "hot_score": 0.23,
+      "tags": [
+        "Open Source",
+        "Programming"
+      ]
     },
     {
       "title_en": "Show HN: Red Grid Link – peer-to-peer team tracking over Bluetooth, no servers",
@@ -629,10 +954,10 @@
       },
       "tags": [
         "Show HN",
-        "Privacy",
-        "Open Source"
+        "Programming",
+        "Privacy"
       ],
-      "hot_score": 0.25
+      "hot_score": 0.17
     },
     {
       "title_en": "NumKong: 2'000 Mixed Precision Kernels for All",
@@ -655,52 +980,7 @@
         "AI",
         "Hardware"
       ],
-      "hot_score": 0.18
-    },
-    {
-      "title_en": "Gangs of Karachi",
-      "url": "https://harpers.org/archive/2015/09/gangs-of-karachi/",
-      "title_zh": "卡拉奇帮派",
-      "created_display": "Created: Mar 20, 2026 / 21:21 PT",
-      "image_url": "https://wp.harpers.org/wp-content/uploads/2015/08/00036__AsimRafiqu-Harpers-1509-630.-1.png",
-      "summary_en": "Harper's piece on the gangs in Karachi, exploring their rise, networks, and impact on urban life and security.",
-      "summary_zh": "Harper's 杂志文章深入探讨卡拉奇的帮派及其网络结构、发展及对城市安全和日常生活的影响。",
-      "hn": {
-        "id": 47463959,
-        "type": "story",
-        "by": "ajax33",
-        "score": 16,
-        "descendants": 2,
-        "time": 1774066888,
-        "comments_url": "https://news.ycombinator.com/item?id=47463959"
-      },
-      "hot_score": 0.17,
-      "tags": [
-        "Culture",
-        "Security"
-      ]
-    },
-    {
-      "title_en": "Reboot: Rebuild civilization by reinventing lost technologies",
-      "url": "https://ksindi.com/reboot/",
-      "title_zh": "重启：通过重新发明失传技术来重建文明",
-      "created_display": "Created: Mar 20, 2026 / 17:20 PT",
-      "image_url": null,
-      "summary_en": "An essay on rebooting civilization by reinventing lost technologies, outlining approaches to recover critical capabilities and the societal shifts needed to sustain progress.",
-      "summary_zh": "本文探讨通过重现失传技术来重建文明的可能路径，提出如何恢复关键能力、以及实现可持续进步所需的社会变革。",
-      "hn": {
-        "id": 47462669,
-        "type": "story",
-        "by": "nielka",
-        "score": 24,
-        "descendants": 3,
-        "time": 1774052434,
-        "comments_url": "https://news.ycombinator.com/item?id=47462669"
-      },
-      "hot_score": 0.15,
-      "tags": [
-        "Science"
-      ]
+      "hot_score": 0.13
     },
     {
       "title_en": "The Los Angeles Aqueduct Is Wild",
@@ -720,10 +1000,55 @@
         "comments_url": "https://news.ycombinator.com/item?id=47416543"
       },
       "tags": [
-        "Science",
-        "Politics"
+        "Science"
       ],
-      "hot_score": 0.11
+      "hot_score": 0.1
+    },
+    {
+      "title_en": "Reboot: Rebuild civilization by reinventing lost technologies",
+      "url": "https://ksindi.com/reboot/",
+      "title_zh": "重启：通过重新发明失传技术来重建文明",
+      "created_display": "Created: Mar 20, 2026 / 17:20 PT",
+      "image_url": null,
+      "summary_en": "An essay on rebooting civilization by reinventing lost technologies, outlining approaches to recover critical capabilities and the societal shifts needed to sustain progress.",
+      "summary_zh": "本文探讨通过重现失传技术来重建文明的可能路径，提出如何恢复关键能力、以及实现可持续进步所需的社会变革。",
+      "hn": {
+        "id": 47462669,
+        "type": "story",
+        "by": "nielka",
+        "score": 24,
+        "descendants": 3,
+        "time": 1774052434,
+        "comments_url": "https://news.ycombinator.com/item?id=47462669"
+      },
+      "hot_score": 0.1,
+      "tags": [
+        "Culture",
+        "Science"
+      ]
+    },
+    {
+      "title_en": "Gangs of Karachi",
+      "url": "https://harpers.org/archive/2015/09/gangs-of-karachi/",
+      "title_zh": "卡拉奇帮派",
+      "created_display": "Created: Mar 20, 2026 / 21:21 PT",
+      "image_url": "https://wp.harpers.org/wp-content/uploads/2015/08/00036__AsimRafiqu-Harpers-1509-630.-1.png",
+      "summary_en": "Harper's piece on the gangs in Karachi, exploring their rise, networks, and impact on urban life and security.",
+      "summary_zh": "Harper's 杂志文章深入探讨卡拉奇的帮派及其网络结构、发展及对城市安全和日常生活的影响。",
+      "hn": {
+        "id": 47463959,
+        "type": "story",
+        "by": "ajax33",
+        "score": 16,
+        "descendants": 2,
+        "time": 1774066888,
+        "comments_url": "https://news.ycombinator.com/item?id=47463959"
+      },
+      "hot_score": 0.1,
+      "tags": [
+        "Culture",
+        "Security"
+      ]
     },
     {
       "title_en": "Meme Buildings",
@@ -742,33 +1067,11 @@
         "time": 1774022140,
         "comments_url": "https://news.ycombinator.com/item?id=47456421"
       },
-      "hot_score": 0.11,
+      "hot_score": 0.08,
       "tags": [
         "Design",
         "Culture"
       ]
-    },
-    {
-      "title_en": "The worst volume control UI in the world (2017)",
-      "url": "https://uxdesign.cc/the-worst-volume-control-ui-in-the-world-60713dc86950",
-      "title_zh": "史上最差音量控制 UI（2017）",
-      "created_display": "Created: Mar 18, 2026 / 03:22 PT",
-      "image_url": null,
-      "summary_en": "The piece analyzes a famously poor volume control design, likely where volume changes unpredictably or the control isn't accessible. It discusses lessons for UX, such as clear affordances and intuitive feedback.",
-      "summary_zh": "这篇文章评析了2017年广为人知的极差音量控制界面，指出其难以使用的原因与用户痛点。通过这枚案例，作者提出 UX 设计的教训，如直观的控制、清晰的反馈和一致性。",
-      "hn": {
-        "id": 47423762,
-        "type": "story",
-        "by": "andsoitis",
-        "score": 174,
-        "descendants": 86,
-        "time": 1773829358,
-        "comments_url": "https://news.ycombinator.com/item?id=47423762"
-      },
-      "tags": [
-        "Design"
-      ],
-      "hot_score": 0.07
     },
     {
       "title_en": "Mamba-3",
@@ -782,15 +1085,38 @@
         "id": 47419391,
         "type": "story",
         "by": "matt_d",
-        "score": 196,
-        "descendants": 39,
+        "score": 243,
+        "descendants": 48,
         "time": 1773787512,
         "comments_url": "https://news.ycombinator.com/item?id=47419391"
       },
       "tags": [
-        "AI"
+        "Open Source",
+        "Programming"
       ],
-      "hot_score": 0.06
+      "hot_score": 0.07
+    },
+    {
+      "title_en": "The worst volume control UI in the world (2017)",
+      "url": "https://uxdesign.cc/the-worst-volume-control-ui-in-the-world-60713dc86950",
+      "title_zh": "史上最差音量控制 UI（2017）",
+      "created_display": "Created: Mar 18, 2026 / 03:22 PT",
+      "image_url": null,
+      "summary_en": "The piece analyzes a famously poor volume control design, likely where volume changes unpredictably or the control isn't accessible. It discusses lessons for UX, such as clear affordances and intuitive feedback.",
+      "summary_zh": "这篇文章评析了2017年广为人知的极差音量控制界面，指出其难以使用的原因与用户痛点。通过这枚案例，作者提出 UX 设计的教训，如直观的控制、清晰的反馈和一致性。",
+      "hn": {
+        "id": 47423762,
+        "type": "story",
+        "by": "andsoitis",
+        "score": 206,
+        "descendants": 101,
+        "time": 1773829358,
+        "comments_url": "https://news.ycombinator.com/item?id=47423762"
+      },
+      "tags": [
+        "Design"
+      ],
+      "hot_score": 0.07
     },
     {
       "title_en": "Fujifilm X RAW STUDIO webapp clone",
@@ -804,17 +1130,16 @@
         "id": 47435081,
         "type": "story",
         "by": "notcodingtoday",
-        "score": 96,
-        "descendants": 35,
+        "score": 129,
+        "descendants": 47,
         "time": 1773895773,
         "comments_url": "https://news.ycombinator.com/item?id=47435081"
       },
-      "hot_score": 0.06,
       "tags": [
         "Open Source",
-        "Programming",
         "Web"
-      ]
+      ],
+      "hot_score": 0.07
     },
     {
       "title_en": "VisiCalc Reconstructed",
@@ -828,38 +1153,14 @@
         "id": 47410871,
         "type": "story",
         "by": "ingve",
-        "score": 216,
+        "score": 229,
         "descendants": 79,
         "time": 1773743995,
         "comments_url": "https://news.ycombinator.com/item?id=47410871"
       },
       "tags": [
-        "Science",
         "Programming",
         "Privacy"
-      ],
-      "hot_score": 0.05
-    },
-    {
-      "title_en": "Drawvg Filter for FFmpeg",
-      "url": "https://ayosec.github.io/ffmpeg-drawvg/",
-      "title_zh": "FFmpeg 的 Drawvg 滤镜",
-      "created_display": "Created: Mar 17, 2026 / 08:16 PT",
-      "image_url": null,
-      "summary_en": "A new FFmpeg filter renders vector graphics directly into video frames, enabling crisp overlays and animated SVG‑style content in encoding pipelines. This makes it easier to integrate resolution‑independent artwork into video workflows without external rendering steps.",
-      "summary_zh": "一个新的 FFmpeg 滤镜能将矢量图直接渲染入视频帧，方便在编码流程中加入清晰的叠层和 SVG 式动画内容。这样可以在无需外部渲染的情况下，将分辨率无关的设计元素整合进视频工作流。",
-      "hn": {
-        "id": 47413879,
-        "type": "story",
-        "by": "nolta",
-        "score": 178,
-        "descendants": 28,
-        "time": 1773760599,
-        "comments_url": "https://news.ycombinator.com/item?id=47413879"
-      },
-      "tags": [
-        "Programming",
-        "Open Source"
       ],
       "hot_score": 0.05
     },
@@ -887,6 +1188,50 @@
       "hot_score": 0.05
     },
     {
+      "title_en": "An industrial piping contractor on Claude Code [video]",
+      "url": "https://twitter.com/toddsaunders/status/2034243420147859716",
+      "title_zh": "一名管道承包商谈 Claude Code（视频）",
+      "created_display": "Created: Mar 18, 2026 / 13:50 PT",
+      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2033947938464907265/img/JdKSWum0Jmzbdjye.jpg:large",
+      "summary_en": "A piping contractor discusses Claude Code in a video, sharing real-world impressions of Claude's coding capabilities and limitations in industrial contexts.",
+      "summary_zh": "一名管道承包商在视频中聊到 Claude Code，分享在工业场景中对 Claude 的编码能力与局限性的真实观察。",
+      "hn": {
+        "id": 47431288,
+        "type": "story",
+        "by": "mighty-fine",
+        "score": 104,
+        "descendants": 64,
+        "time": 1773867056,
+        "comments_url": "https://news.ycombinator.com/item?id=47431288"
+      },
+      "tags": [
+        "AI"
+      ],
+      "hot_score": 0.05
+    },
+    {
+      "title_en": "Drawvg Filter for FFmpeg",
+      "url": "https://ayosec.github.io/ffmpeg-drawvg/",
+      "title_zh": "FFmpeg 的 Drawvg 滤镜",
+      "created_display": "Created: Mar 17, 2026 / 08:16 PT",
+      "image_url": null,
+      "summary_en": "A new FFmpeg filter renders vector graphics directly into video frames, enabling crisp overlays and animated SVG‑style content in encoding pipelines. This makes it easier to integrate resolution‑independent artwork into video workflows without external rendering steps.",
+      "summary_zh": "一个新的 FFmpeg 滤镜能将矢量图直接渲染入视频帧，方便在编码流程中加入清晰的叠层和 SVG 式动画内容。这样可以在无需外部渲染的情况下，将分辨率无关的设计元素整合进视频工作流。",
+      "hn": {
+        "id": 47413879,
+        "type": "story",
+        "by": "nolta",
+        "score": 178,
+        "descendants": 28,
+        "time": 1773760599,
+        "comments_url": "https://news.ycombinator.com/item?id=47413879"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 0.04
+    },
+    {
       "title_en": "Too Much Color",
       "url": "https://www.keithcirkel.co.uk/too-much-color/",
       "title_zh": "太多颜色",
@@ -898,7 +1243,7 @@
         "id": 47420950,
         "type": "story",
         "by": "maguay",
-        "score": 124,
+        "score": 130,
         "descendants": 62,
         "time": 1773800903,
         "comments_url": "https://news.ycombinator.com/item?id=47420950"
@@ -920,38 +1265,37 @@
         "id": 47428132,
         "type": "story",
         "by": "randycupertino",
-        "score": 94,
-        "descendants": 48,
+        "score": 105,
+        "descendants": 52,
         "time": 1773852778,
         "comments_url": "https://news.ycombinator.com/item?id=47428132"
       },
       "tags": [
-        "Design",
-        "Culture"
+        "Design"
       ],
       "hot_score": 0.04
     },
     {
-      "title_en": "An industrial piping contractor on Claude Code [video]",
-      "url": "https://twitter.com/toddsaunders/status/2034243420147859716",
-      "title_zh": "一名管道承包商谈 Claude Code（视频）",
-      "created_display": "Created: Mar 18, 2026 / 13:50 PT",
-      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2033947938464907265/img/JdKSWum0Jmzbdjye.jpg:large",
-      "summary_en": "A piping contractor discusses Claude Code in a video, sharing real-world impressions of Claude's coding capabilities and limitations in industrial contexts.",
-      "summary_zh": "一名管道承包商在视频中聊到 Claude Code，分享在工业场景中对 Claude 的编码能力与局限性的真实观察。",
+      "title_en": "Meta's Omnilingual MT for 1,600 Languages",
+      "url": "https://ai.meta.com/research/publications/omnilingual-mt-machine-translation-for-1600-languages/?_fb_noscript=1",
+      "title_zh": "Meta 的 Omnilingual MT 支持1600种语言的机器翻译",
+      "created_display": "Created: Mar 17, 2026 / 22:00 PT",
+      "image_url": "https://scontent-atl3-3.xx.fbcdn.net/v/t39.8562-6/252294889_575082167077436_6034106545912333281_n.svg/meta-logo-primary_standardsize.svg?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=7qFvHT2H62IQ7kNvwFlnpBX&_nc_oc=AdphJSx9pPm0goLK3rg127z52NVQtXibfIU_daEg3-LTHGH64G9XFJx-UOZHSZg7QYo&_nc_zt=14&_nc_ht=scontent-atl3-3.xx&_nc_gid=oC6zotDPb9yED3n5CSgVaQ&_nc_ss=7a30f&oh=00_AfyCAuWqz1FZMpQYG_lnlPQ_E6wn7pxOp0Gxn9LetJflZg&oe=69C48279",
+      "summary_en": "Meta unveils Omnilingual MT, a multilingual machine translation model designed to handle 1,600 languages in a single system. By pooling data across languages, it aims to improve coverage for underrepresented tongues and reduce translation gaps, though performance may vary by language. The deployment could reshape access to information for many communities.",
+      "summary_zh": "Meta 公开 Omnilingual MT，一套面向1600种语言的通用翻译模型。通过跨语言数据整合提升对小语种的覆盖，尽管不同语言的翻译质量差异可能较大，但长期有望扩大信息获取的平等性。实际应用前景需关注数据规模与偏见等挑战。",
       "hn": {
-        "id": 47431288,
+        "id": 47421749,
         "type": "story",
-        "by": "mighty-fine",
-        "score": 76,
-        "descendants": 42,
-        "time": 1773867056,
-        "comments_url": "https://news.ycombinator.com/item?id=47431288"
+        "by": "j0e1",
+        "score": 89,
+        "descendants": 27,
+        "time": 1773810018,
+        "comments_url": "https://news.ycombinator.com/item?id=47421749"
       },
-      "hot_score": 0.04,
       "tags": [
         "AI"
-      ]
+      ],
+      "hot_score": 0.03
     },
     {
       "title_en": "Lent and Lisp",
@@ -965,8 +1309,8 @@
         "id": 47425257,
         "type": "story",
         "by": "surprisetalk",
-        "score": 68,
-        "descendants": 3,
+        "score": 77,
+        "descendants": 4,
         "time": 1773838839,
         "comments_url": "https://news.ycombinator.com/item?id=47425257"
       },
@@ -987,14 +1331,36 @@
         "id": 47431653,
         "type": "story",
         "by": "rvnx",
-        "score": 62,
-        "descendants": 35,
+        "score": 72,
+        "descendants": 40,
         "time": 1773869354,
         "comments_url": "https://news.ycombinator.com/item?id=47431653"
       },
-      "hot_score": 0.03,
       "tags": [
         "Security"
+      ],
+      "hot_score": 0.03
+    },
+    {
+      "title_en": "Books of the Century by Le Monde",
+      "url": "https://standardebooks.org/collections/le-mondes-100-books-of-the-century",
+      "title_zh": "Le Monde 的世纪书单（100 本书）",
+      "created_display": "Created: Mar 18, 2026 / 17:58 PT",
+      "image_url": "https://standardebooks.org/images/logo.png",
+      "summary_en": "Le Monde has published a list of 100 books of the century, spanning global fiction, non-fiction, and classics. Standard Ebooks is releasing accessible editions to widen readership; the collection sparks discussions about canonical works and current relevance.",
+      "summary_zh": "《世纪书单》列出世纪百本书，涵盖全球文学与非虚构作品。Standard Ebooks 推出无障碍电子版，帮助更广泛读者接触经典。该名单也引发对何为‘世纪之作’的讨论和当代相关性的话题。",
+      "hn": {
+        "id": 47433429,
+        "type": "story",
+        "by": "zlu",
+        "score": 51,
+        "descendants": 28,
+        "time": 1773881905,
+        "comments_url": "https://news.ycombinator.com/item?id=47433429"
+      },
+      "hot_score": 0.03,
+      "tags": [
+        "Culture"
       ]
     },
     {
@@ -1009,15 +1375,15 @@
         "id": 47416607,
         "type": "story",
         "by": "AlexGerasim",
-        "score": 55,
-        "descendants": 27,
+        "score": 66,
+        "descendants": 38,
         "time": 1773773379,
         "comments_url": "https://news.ycombinator.com/item?id=47416607"
       },
-      "hot_score": 0.02,
       "tags": [
         "Gaming"
-      ]
+      ],
+      "hot_score": 0.02
     },
     {
       "title_en": "Turing Award Honors Bennett and Brassard for Quantum Information Science",
@@ -1031,15 +1397,37 @@
         "id": 47424752,
         "type": "story",
         "by": "throw0101d",
-        "score": 52,
+        "score": 60,
         "descendants": 0,
         "time": 1773836186,
         "comments_url": "https://news.ycombinator.com/item?id=47424752"
       },
-      "hot_score": 0.02,
       "tags": [
         "Science"
-      ]
+      ],
+      "hot_score": 0.02
+    },
+    {
+      "title_en": "The Story of Marina Abramovic and Ulay (2020)",
+      "url": "https://www.sydney-yaeko.com/artsandculture/marina-and-ulay",
+      "title_zh": "玛丽娜·阿布拉莫维奇与乌莱的故事（2020）",
+      "created_display": "Created: Mar 18, 2026 / 18:45 PT",
+      "image_url": "http://static1.squarespace.com/static/59e7ad0cd7bdce1a63515d5c/59ec29ba0abd04cc6dd7eede/5e5fe7380b3b664a507139c8/1718852962157/88183131_881102468998293_2779684379142373803_n.jpg?format=1500w",
+      "summary_en": "A 2020 retrospective on the iconic performance art duo Marina Abramović and Ulay, tracing their collaborative experiments, breakups, and lasting impact on performance art.",
+      "summary_zh": "2020年对标志性行为艺术二人组玛丽娜·阿布拉莫维奇与乌莱的回顾，梳理他们共同实验、分道扬镳，以及对后世行为艺术的深远影响。",
+      "hn": {
+        "id": 47433755,
+        "type": "story",
+        "by": "NaOH",
+        "score": 41,
+        "descendants": 34,
+        "time": 1773884723,
+        "comments_url": "https://news.ycombinator.com/item?id=47433755"
+      },
+      "tags": [
+        "Culture"
+      ],
+      "hot_score": 0.02
     },
     {
       "title_en": "Heisuke Hironaka Has Died",
@@ -1064,47 +1452,94 @@
       ]
     },
     {
-      "title_en": "Meta's Omnilingual MT for 1,600 Languages",
-      "url": "https://ai.meta.com/research/publications/omnilingual-mt-machine-translation-for-1600-languages/?_fb_noscript=1",
-      "title_zh": "Meta 的 Omnilingual MT 支持1600种语言的机器翻译",
-      "created_display": "Created: Mar 17, 2026 / 22:00 PT",
-      "image_url": "https://scontent-atl3-3.xx.fbcdn.net/v/t39.8562-6/252294889_575082167077436_6034106545912333281_n.svg/meta-logo-primary_standardsize.svg?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=7qFvHT2H62IQ7kNvwFlnpBX&_nc_oc=AdphJSx9pPm0goLK3rg127z52NVQtXibfIU_daEg3-LTHGH64G9XFJx-UOZHSZg7QYo&_nc_zt=14&_nc_ht=scontent-atl3-3.xx&_nc_gid=oC6zotDPb9yED3n5CSgVaQ&_nc_ss=7a30f&oh=00_AfyCAuWqz1FZMpQYG_lnlPQ_E6wn7pxOp0Gxn9LetJflZg&oe=69C48279",
-      "summary_en": "Meta unveils Omnilingual MT, a multilingual machine translation model designed to handle 1,600 languages in a single system. By pooling data across languages, it aims to improve coverage for underrepresented tongues and reduce translation gaps, though performance may vary by language. The deployment could reshape access to information for many communities.",
-      "summary_zh": "Meta 公开 Omnilingual MT，一套面向1600种语言的通用翻译模型。通过跨语言数据整合提升对小语种的覆盖，尽管不同语言的翻译质量差异可能较大，但长期有望扩大信息获取的平等性。实际应用前景需关注数据规模与偏见等挑战。",
+      "title_en": "How we give every user SQL access to a shared ClickHouse cluster",
+      "url": "https://trigger.dev/blog/how-trql-works",
+      "title_zh": "我们如何让每个用户都能访问共享的 ClickHouse 集群的 SQL",
+      "created_display": "Created: Mar 17, 2026 / 08:50 PT",
+      "image_url": "https://trigger.dev/blog/how-trql-works/how-trql-works.png",
+      "summary_en": "A blog details a scalable approach to give each user SQL access to a shared ClickHouse cluster, balancing isolation and efficiency with a lightweight access layer. The technique simplifies multi-tenant analytics while raising considerations for security and resource governance.",
+      "summary_zh": "一篇博文介绍通过轻量化接入层，让每个用户都能在共享的 ClickHouse 集群上执行 SQL，兼顾数据隔离与性能。该方法有助于降低运维成本与实现集中化分析，但也提出安全与资源治理方面的挑战。",
       "hn": {
-        "id": 47421749,
+        "id": 47414356,
         "type": "story",
-        "by": "j0e1",
-        "score": 30,
-        "descendants": 5,
-        "time": 1773810018,
-        "comments_url": "https://news.ycombinator.com/item?id=47421749"
+        "by": "eallam",
+        "score": 47,
+        "descendants": 56,
+        "time": 1773762603,
+        "comments_url": "https://news.ycombinator.com/item?id=47414356"
       },
       "hot_score": 0.01,
       "tags": [
-        "AI"
+        "Data",
+        "Security"
       ]
     },
     {
-      "title_en": "The Story of Marina Abramovic and Ulay (2020)",
-      "url": "https://www.sydney-yaeko.com/artsandculture/marina-and-ulay",
-      "title_zh": "玛丽娜·阿布拉莫维奇与乌莱的故事（2020）",
-      "created_display": "Created: Mar 18, 2026 / 18:45 PT",
-      "image_url": "http://static1.squarespace.com/static/59e7ad0cd7bdce1a63515d5c/59ec29ba0abd04cc6dd7eede/5e5fe7380b3b664a507139c8/1718852962157/88183131_881102468998293_2779684379142373803_n.jpg?format=1500w",
-      "summary_en": "A 2020 retrospective on the iconic performance art duo Marina Abramović and Ulay, tracing their collaborative experiments, breakups, and lasting impact on performance art.",
-      "summary_zh": "2020年对标志性行为艺术二人组玛丽娜·阿布拉莫维奇与乌莱的回顾，梳理他们共同实验、分道扬镳，以及对后世行为艺术的深远影响。",
+      "title_en": "ZJIT removes redundant object loads and stores",
+      "url": "https://railsatscale.com/2026-03-18-how-zjit-removes-redundant-object-loads-and-stores/",
+      "title_zh": "ZJIT 移除冗余对象加载与存储",
+      "created_display": "Created: Mar 18, 2026 / 14:26 PT",
+      "image_url": "https://railsatscale.com/2026-03-18-how-zjit-removes-redundant-object-loads-and-stores/a8af7ce28b60c651dd883d4404993de7f3eb7c3d.png",
+      "summary_en": "ZJIT eliminates redundant object loads and stores to reduce memory traffic and GC pressure in Ruby, shaving latency for Rails apps under load.",
+      "summary_zh": "ZJIT 通过消除冗余的对象加载与存储，降低内存带宽消耗和垃圾回收压力，提升 Rails 应用在高并发场景下的性能。",
       "hn": {
-        "id": 47433755,
+        "id": 47431625,
         "type": "story",
-        "by": "NaOH",
-        "score": 20,
-        "descendants": 12,
-        "time": 1773884723,
-        "comments_url": "https://news.ycombinator.com/item?id=47433755"
+        "by": "tekknolagi",
+        "score": 32,
+        "descendants": 2,
+        "time": 1773869183,
+        "comments_url": "https://news.ycombinator.com/item?id=47431625"
       },
       "hot_score": 0.01,
       "tags": [
-        "Culture"
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "How HN: Ironkernel – Python expressions, Rust parallel",
+      "url": "https://github.com/YuminosukeSato/ironkernel",
+      "title_zh": "Ironkernel：Python 表达式、Rust 并行",
+      "created_display": "Created: Mar 18, 2026 / 10:22 PT",
+      "image_url": "https://opengraph.githubassets.com/856925b882a3cf732ccd81acba40d7ed78d8c616c9033a6a5f0d96abaab77aa6/YuminosukeSato/ironkernel",
+      "summary_en": "Ironkernel is a project combining Python-style expressions with Rust-backed parallel execution to speed up evaluation tasks. It explores language design and performance trade-offs between dynamic expression evaluation and compiled performance.",
+      "summary_zh": "Ironkernel 项目将 Python 风格的表达式与 Rust 的并行执行结合，提升表达式计算的性能。它讨论了动态表达式语言与编译型性能之间的权衡以及实现细节。",
+      "hn": {
+        "id": 47428544,
+        "type": "story",
+        "by": "acc_10000",
+        "score": 27,
+        "descendants": 10,
+        "time": 1773854524,
+        "comments_url": "https://news.ycombinator.com/item?id=47428544"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 0.01
+    },
+    {
+      "title_en": "Invisalign Became the Biggest User of 3D Printers",
+      "url": "https://www.wired.com/story/how-invisalign-became-the-worlds-biggest-3d-printing-company/",
+      "title_zh": "Invisalign 成为全球最大的 3D 打印机用户",
+      "created_display": "Created: Mar 18, 2026 / 21:40 PT",
+      "image_url": "https://media.wired.com/photos/69a6021b9601628729405650/191:100/w_1280,c_limit/CEO%20Joe%20Hogan.jpg",
+      "summary_en": "Invisalign has scaled 3D printing across its production, becoming the largest user of 3D printers. The move underscores how patient-specific medical devices can drive rapid growth in additive manufacturing and push printer vendors toward high-throughput, regulated environments.",
+      "summary_zh": "Invisalign 在生产环节大规模使用3D打印，成为全球最大的3D打印机用户。此举凸显定制化医疗器械对增材制造的强力推动，并促使打印设备供应商向高吞吐量、受监管的环境发展。",
+      "hn": {
+        "id": 47435028,
+        "type": "story",
+        "by": "mikhael",
+        "score": 20,
+        "descendants": 14,
+        "time": 1773895259,
+        "comments_url": "https://news.ycombinator.com/item?id=47435028"
+      },
+      "hot_score": 0.01,
+      "tags": [
+        "Hardware",
+        "Health",
+        "Politics"
       ]
     },
     {
@@ -1127,30 +1562,31 @@
       "hot_score": 0.0,
       "tags": [
         "Show HN",
-        "Programming",
-        "Open Source"
+        "Programming"
       ]
     },
     {
-      "title_en": "How HN: Ironkernel – Python expressions, Rust parallel",
-      "url": "https://github.com/YuminosukeSato/ironkernel",
-      "title_zh": "Ironkernel：Python 表达式、Rust 并行",
-      "created_display": "Created: Mar 18, 2026 / 10:22 PT",
-      "image_url": "https://opengraph.githubassets.com/856925b882a3cf732ccd81acba40d7ed78d8c616c9033a6a5f0d96abaab77aa6/YuminosukeSato/ironkernel",
-      "summary_en": "Ironkernel is a project combining Python-style expressions with Rust-backed parallel execution to speed up evaluation tasks. It explores language design and performance trade-offs between dynamic expression evaluation and compiled performance.",
-      "summary_zh": "Ironkernel 项目将 Python 风格的表达式与 Rust 的并行执行结合，提升表达式计算的性能。它讨论了动态表达式语言与编译型性能之间的权衡以及实现细节。",
+      "title_en": "I Built a Spy Satellite Simulator in a Browser. Here's What I Learned",
+      "url": "https://www.spatialintelligence.ai/p/i-built-a-spy-satellite-simulator",
+      "title_zh": "我在浏览器里构建了间谍卫星仿真器：学到的教训",
+      "created_display": "Created: Mar 18, 2026 / 11:33 PT",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!qZcY!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa5596c04-fa84-4035-8357-781bbe0e7fdc_3840x2160.jpeg",
+      "summary_en": "In building a browser-based spy satellite simulator, the author learned about modeling orbital mechanics, performance trade-offs in WebGL, and the friction of data ingestion in the browser. The experiment highlights both the potential and limits of client-side simulations for education and prototyping. Key takeaways include balancing physics fidelity with performance and considering Web Assembly for compute-heavy tasks.",
+      "summary_zh": "在浏览器中实现间谍卫星模拟器的实践里，作者学习了轨道力学建模、WebGL 的性能权衡，以及浏览器环境中数据获取的挑战。该项目揭示了客户端模拟在教育和原型设计中的潜力与局限。关键收获包括在保持物理精度与性能之间的平衡，以及将计算密集型任务转移给 WASM 的考虑。",
       "hn": {
-        "id": 47428544,
+        "id": 47429562,
         "type": "story",
-        "by": "acc_10000",
-        "score": 4,
-        "descendants": 1,
-        "time": 1773854524,
-        "comments_url": "https://news.ycombinator.com/item?id=47428544"
+        "by": "cyrc",
+        "score": 6,
+        "descendants": 2,
+        "time": 1773858789,
+        "comments_url": "https://news.ycombinator.com/item?id=47429562"
       },
       "hot_score": 0.0,
       "tags": [
-        "Programming"
+        "Web",
+        "Science",
+        "Education"
       ]
     }
   ]
