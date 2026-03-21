@@ -20,7 +20,7 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='531' data-hn-time='1774040632'>
+<div class='hn-top-story-item' data-hn-score='651' data-hn-time='1774040632'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -28,10 +28,10 @@ Sort:
  <a class='hn-top-story-link' href='https://opencode.ai/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>OpenCode — 开源 AI 编码代理</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 10</span> <span class='hn-top-story-score'>&#9650; 531</span> <span class='hn-top-story-comments'>&#128172; 239</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.5</span> <span class='hn-top-story-score'>&#9650; 651</span> <span class='hn-top-story-comments'>&#128172; 285</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='458' data-hn-time='1774034173'>
+<div class='hn-top-story-item' data-hn-score='488' data-hn-time='1774034173'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -39,7 +39,7 @@ Sort:
  <a class='hn-top-story-link' href='https://blogs.windows.com/windows-insider/2026/03/20/our-commitment-to-windows-quality/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>我们对 Windows 质量的承诺</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.3</span> <span class='hn-top-story-score'>&#9650; 458</span> <span class='hn-top-story-comments'>&#128172; 802</span> <span class='hn-top-story-tag'>DevOps</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.4</span> <span class='hn-top-story-score'>&#9650; 488</span> <span class='hn-top-story-comments'>&#128172; 882</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
 <div class='hn-top-story-item' data-hn-score='761' data-hn-time='1774013936'>
@@ -50,7 +50,7 @@ Sort:
  <a class='hn-top-story-link' href='https://shkspr.mobi/blog/2026/03/im-ok-being-left-behind-thanks/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>我愿意被落下，谢谢</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.0</span> <span class='hn-top-story-score'>&#9650; 761</span> <span class='hn-top-story-comments'>&#128172; 630</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.7</span> <span class='hn-top-story-score'>&#9650; 761</span> <span class='hn-top-story-comments'>&#128172; 630</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
 <div class='hn-top-story-item' data-hn-score='662' data-hn-time='1774015798'>
@@ -61,54 +61,54 @@ Sort:
  <a class='hn-top-story-link' href='https://variety.com/2026/film/news/chuck-norris-dead-walker-texas-ranger-dies-1236694953/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>查克·诺里斯去世</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.6</span> <span class='hn-top-story-score'>&#9650; 662</span> <span class='hn-top-story-comments'>&#128172; 399</span> <span class='hn-top-story-tag'>Entertainment</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 662</span> <span class='hn-top-story-comments'>&#128172; 399</span> <span class='hn-top-story-tag'>Entertainment</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='131' data-hn-time='1774044697'>
+<div class='hn-top-story-item' data-hn-score='538' data-hn-time='1774011716'>
 <span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/20/top_stories_03202026#story-47461378'>Ghostling</a>
- <a class='hn-top-story-link' href='https://github.com/ghostty-org/ghostling' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Ghostling（GitHub 开源项目）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 131</span> <span class='hn-top-story-comments'>&#128172; 20</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Programming</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='497' data-hn-time='1774011716'>
-<span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/03/20/top_stories_03202026#story-47453942'>France's aircraft carrier located in real time by Le Monde through fitness app</a>
  <a class='hn-top-story-link' href='https://www.lemonde.fr/en/international/article/2026/03/20/stravaleaks-france-s-aircraft-carrier-located-in-real-time-by-le-monde-through-fitness-app_6751640_4.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>法国航母被健身应用实时定位</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 497</span> <span class='hn-top-story-comments'>&#128172; 403</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 538</span> <span class='hn-top-story-comments'>&#128172; 427</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='135' data-hn-time='1774043286'>
-<span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/20/top_stories_03202026#story-47461094'>We rewrote our Rust WASM parser in TypeScript and it got faster</a>
- <a class='hn-top-story-link' href='https://www.openui.com/blog/rust-wasm-parser' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>我们把 Rust 的 WASM 解析器改成 TypeScript，结果更快。</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 135</span> <span class='hn-top-story-comments'>&#128172; 75</span> <span class='hn-top-story-tag'>Programming</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='155' data-hn-time='1774040097'>
-<span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='210' data-hn-time='1774040097'>
+<span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/03/20/top_stories_03202026#story-47460452'>A Japanese glossary of chopsticks faux pas</a>
  <a class='hn-top-story-link' href='https://www.nippon.com/en/japan-data/h01362/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>日本筷子礼仪禁忌词汇表</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 155</span> <span class='hn-top-story-comments'>&#128172; 130</span> <span class='hn-top-story-tag'>Culture</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 210</span> <span class='hn-top-story-comments'>&#128172; 153</span> <span class='hn-top-story-tag'>Culture</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='332' data-hn-time='1774018089'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='169' data-hn-time='1774044697'>
+<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/20/top_stories_03202026#story-47461378'>Ghostling</a>
+ <a class='hn-top-story-link' href='https://github.com/ghostty-org/ghostling' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Ghostling（GitHub 开源项目）</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.3</span> <span class='hn-top-story-score'>&#9650; 169</span> <span class='hn-top-story-comments'>&#128172; 29</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Programming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='163' data-hn-time='1774043286'>
+<span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/20/top_stories_03202026#story-47461094'>We rewrote our Rust WASM parser in TypeScript and it got faster</a>
+ <a class='hn-top-story-link' href='https://www.openui.com/blog/rust-wasm-parser' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>我们把 Rust 的 WASM 解析器改成 TypeScript，结果更快。</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.1</span> <span class='hn-top-story-score'>&#9650; 163</span> <span class='hn-top-story-comments'>&#128172; 92</span> <span class='hn-top-story-tag'>Programming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='340' data-hn-time='1774018089'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -116,10 +116,10 @@ Sort:
  <a class='hn-top-story-link' href='https://www.forbes.com/sites/tylerroush/2026/03/20/super-micro-shares-plunge-25-after-co-founder-charged-in-25-billion-ai-chip-smuggling-plot/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Super Micro 股价暴跌25%：联合创始人因2.5亿美元走私案被起诉</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 332</span> <span class='hn-top-story-comments'>&#128172; 139</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>Legal</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.8</span> <span class='hn-top-story-score'>&#9650; 340</span> <span class='hn-top-story-comments'>&#128172; 147</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='732' data-hn-time='1773980651'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='746' data-hn-time='1773980651'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -127,7 +127,7 @@ Sort:
  <a class='hn-top-story-link' href='https://www.science.org/content/article/arxiv-pioneering-preprint-server-declares-independence-cornell' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>ArXiv宣布独立于康奈尔大学</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.1</span> <span class='hn-top-story-score'>&#9650; 732</span> <span class='hn-top-story-comments'>&#128172; 255</span> <span class='hn-top-story-tag'>Science</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.8</span> <span class='hn-top-story-score'>&#9650; 746</span> <span class='hn-top-story-comments'>&#128172; 263</span> <span class='hn-top-story-tag'>Science</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
