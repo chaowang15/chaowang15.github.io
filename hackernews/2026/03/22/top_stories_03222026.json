@@ -4,43 +4,42 @@
     "source": "https://news.ycombinator.com/",
     "api": "https://github.com/HackerNews/API",
     "count_requested": 50,
-    "count_written": 50,
-    "reused_same_day": 0,
-    "reused_cross_day": 16,
-    "new_llm_enriched": 32,
-    "scrape_time_display": "07:28, March 22, 2026 (PDT)",
+    "count_written": 67,
+    "reused_same_day": 30,
+    "reused_cross_day": 2,
+    "new_llm_enriched": 18,
+    "scrape_time_display": "11:32, March 22, 2026 (PDT)",
     "timezone": "America/Los_Angeles",
     "date_dir": "2026/03/22",
     "content_date": "2026-03-22",
-    "run_time_local": "07:28, March 22, 2026 (PDT)",
-    "run_time_utc": "2026-03-22 14:28:38 UTC",
+    "run_time_local": "11:32, March 22, 2026 (PDT)",
+    "run_time_utc": "2026-03-22 18:32:35 UTC",
     "incremental": true,
     "stories_max": 100,
-    "hot_score_time_utc": "2026-03-22 14:30:13 UTC"
+    "hot_score_time_utc": "2026-03-22 18:34:19 UTC"
   },
   "items": [
     {
-      "title_en": "Hormuz Minesweeper – Are you tired of winning?",
-      "url": "https://hormuz.pythonic.ninja/",
-      "title_zh": "Hormuz Minesweeper：你厌倦赢了吗？",
-      "created_display": "Created: Mar 22, 2026 / 02:00 PT",
-      "image_url": "https://hormuz.pythonic.ninja/og-preview.jpg",
-      "summary_en": "Hormuz Minesweeper is an experimental Minesweeper-inspired project that challenges players with nontraditional puzzles; it also probes AI-assisted play and human limits.",
-      "summary_zh": "Hormuz Minesweeper 是一个受扫雷启发的实验性项目，通过非传统的谜题挑战玩家；同时探讨 AI 辅助玩法与人类能力的边界。",
+      "title_en": "The Future of Version Control",
+      "url": "https://bramcohen.com/p/manyana",
+      "title_zh": "版本控制的未来",
+      "created_display": "Created: Mar 22, 2026 / 08:16 PT",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!93xj!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fbramcohen.substack.com%2Ftwitter%2Fsubscribe-card.jpg%3Fv%3D-1733548744%26version%3D9",
+      "summary_en": "Visionaries describe the next phase of version control beyond Git-style systems, spotlighting peer-to-peer collaboration, cryptographic integrity, and scalable, offline-friendly workflows. The takeaway is that new paradigms could change how teams coordinate, verify history, and scale development. For technologists, this signals a shift in toolchains and trust conventions.",
+      "summary_zh": "讨论了超越现有版本控制系统的新范式，强调点对点协作、加密完整性和可离线扩展的工作流。核心在于新机制可能改变团队的协作、历史验证和开发扩展的方式。对开发者来说，这预示着工具链与信任体系的变革。",
       "hn": {
-        "id": 47475686,
+        "id": 47478401,
         "type": "story",
-        "by": "PythonicNinja",
-        "score": 441,
-        "descendants": 265,
-        "time": 1774170037,
-        "comments_url": "https://news.ycombinator.com/item?id=47475686"
+        "by": "c17r",
+        "score": 155,
+        "descendants": 73,
+        "time": 1774192588,
+        "comments_url": "https://news.ycombinator.com/item?id=47478401"
       },
+      "hot_score": 7.66,
       "tags": [
-        "AI",
-        "Gaming"
-      ],
-      "hot_score": 11.72
+        "Programming"
+      ]
     },
     {
       "title_en": "Bored of eating your own dogfood? Try smelling your own farts",
@@ -54,39 +53,198 @@
         "id": 47477158,
         "type": "story",
         "by": "ColinWright",
-        "score": 86,
-        "descendants": 19,
+        "score": 264,
+        "descendants": 162,
         "time": 1774185151,
         "comments_url": "https://news.ycombinator.com/item?id=47477158"
       },
-      "hot_score": 9.94,
       "tags": [
-        "Business",
-        "Culture"
+        "Business"
+      ],
+      "hot_score": 7.23
+    },
+    {
+      "title_en": "Hormuz Minesweeper – Are you tired of winning?",
+      "url": "https://hormuz.pythonic.ninja/",
+      "title_zh": "Hormuz Minesweeper：你厌倦赢了吗？",
+      "created_display": "Created: Mar 22, 2026 / 02:00 PT",
+      "image_url": "https://hormuz.pythonic.ninja/og-preview.jpg",
+      "summary_en": "Hormuz Minesweeper is an experimental Minesweeper-inspired project that challenges players with nontraditional puzzles; it also probes AI-assisted play and human limits.",
+      "summary_zh": "Hormuz Minesweeper 是一个受扫雷启发的实验性项目，通过非传统的谜题挑战玩家；同时探讨 AI 辅助玩法与人类能力的边界。",
+      "hn": {
+        "id": 47475686,
+        "type": "story",
+        "by": "PythonicNinja",
+        "score": 571,
+        "descendants": 376,
+        "time": 1774170037,
+        "comments_url": "https://news.ycombinator.com/item?id=47475686"
+      },
+      "tags": [
+        "AI",
+        "Gaming"
+      ],
+      "hot_score": 6.96
+    },
+    {
+      "title_en": "Why I love NixOS",
+      "url": "https://www.birkey.co/2026-03-22-why-i-love-nixos.html",
+      "title_zh": "我为什么爱上 NixOS",
+      "created_display": "Created: Mar 22, 2026 / 10:17 PT",
+      "image_url": null,
+      "summary_en": "The author extols NixOS for reproducible configurations, declarative systems, and isolated packages that reduce drift. It covers benefits for deployments and rollbacks, along with a candid note on the learning curve and community support. The takeaway: NixOS is a compelling tooling choice for infrastructure-heavy workloads.",
+      "summary_zh": "作者盛赞 NixOS 的可重复配置、声明式系统和包隔离性，显著降低环境漂移。文中还谈及部署与回滚的好处，以及较陡的学习曲线和社区支持。核心结论是在基础设施密集型场景下，NixOS 是一个值得考虑的工具选择。",
+      "hn": {
+        "id": 47479751,
+        "type": "story",
+        "by": "birkey",
+        "score": 57,
+        "descendants": 45,
+        "time": 1774199826,
+        "comments_url": "https://news.ycombinator.com/item?id=47479751"
+      },
+      "hot_score": 6.58,
+      "tags": [
+        "Open Source",
+        "DevOps"
       ]
     },
     {
-      "title_en": "Flash-Moe: Running a 397B Parameter Model on a Mac with 48GB RAM",
+      "title_en": "I hate: Programming Wayland applications",
+      "url": "https://www.p4m.dev/posts/29/index.html",
+      "title_zh": "我讨厌编写 Wayland 应用",
+      "created_display": "Created: Mar 22, 2026 / 08:06 PT",
+      "image_url": "https://www.p4m.dev/Avatar.png",
+      "summary_en": "A candid critique of developing on Wayland, detailing compositor quirks, API fragmentation, and debugging pain points. It proposes practical workarounds and hints at areas where the ecosystem could improve. It’s a pragmatic read for developers wrestling with modern Linux GUI stacks.",
+      "summary_zh": "直述在 Wayland 开发中的痛点，如合成器行为、API 碎片化以及调试困难，提出实用的解决方案与改进方向。对正在应对现代 Linux GUI 堆栈的开发者而言，这是实用的观点。",
+      "hn": {
+        "id": 47478298,
+        "type": "story",
+        "by": "dwdz",
+        "score": 137,
+        "descendants": 114,
+        "time": 1774191989,
+        "comments_url": "https://news.ycombinator.com/item?id=47478298"
+      },
+      "hot_score": 6.4,
+      "tags": [
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "Project Nomad – Knowledge That Never Goes Offline",
+      "url": "https://www.projectnomad.us",
+      "title_zh": "Project Nomad：知识永不离线",
+      "created_display": "Created: Mar 22, 2026 / 05:28 PT",
+      "image_url": "https://www.projectnomad.us/_next/image?url=%2Flogo.png&w=96&q=75&dpl=dpl_D5HoMqabuZP4MGAmXHnxVxE6tspG",
+      "summary_en": "Presents an offline-first knowledge initiative designed to keep information accessible during outages or censorship. Emphasizes resilience and portability of knowledge through local-first data strategies.",
+      "summary_zh": "介绍一个离线优先的知识项目，确保在断网或审查环境中也能访问信息，强调通过本地化数据策略提升知识的韧性与可携带性。",
+      "hn": {
+        "id": 47476821,
+        "type": "story",
+        "by": "jensgk",
+        "score": 215,
+        "descendants": 41,
+        "time": 1774182518,
+        "comments_url": "https://news.ycombinator.com/item?id=47476821"
+      },
+      "tags": [
+        "Data",
+        "Open Source"
+      ],
+      "hot_score": 4.96
+    },
+    {
+      "title_en": "Flash-MoE: Running a 397B Parameter Model on a Laptop",
       "url": "https://github.com/danveloper/flash-moe",
-      "title_zh": "Flash-Moe：在 48GB RAM 的 Mac 上运行 3970 亿参数模型",
+      "title_zh": "Flash-MoE：在笔记本上运行397B参数模型",
       "created_display": "Created: Mar 22, 2026 / 04:30 PT",
-      "image_url": "https://opengraph.githubassets.com/8d55d798b04c740d4cf936fc07903d93b5c783c1b755e182a090b83626a474d5/danveloper/flash-moe",
-      "summary_en": "Showcases Flash-Moe, enabling a 397B-parameter model to run on a Mac with 48GB RAM by streaming weights and efficient memory management. This lowers the barrier to experimenting with very large models on consumer hardware and highlights practical tradeoffs in RAM, SSD bandwidth, and latency.",
-      "summary_zh": "展示 Flash-Moe 如何在仅 48GB RAM 的 Mac 上通过权重流向和内存管理运行 3970 亿参数的模型，降低在家用硬件上试验大模型的门槛，并揭示 RAM、SSD 带宽与延迟之间的实际权衡。",
+      "image_url": "https://opengraph.githubassets.com/e13b02ae158c9d4ca6dd5e1ace64c13713ddcf5006628bf3d21b14177a031533/danveloper/flash-moe",
+      "summary_en": "Flash-MoE demonstrates how mixture-of-experts can shrink memory and compute needs, letting a 397B parameter model run on consumer hardware. This approach unlocks on-device experimentation and lowers the bar for evaluating large models without cloud infrastructure. Expect more on-device AI prototyping and edge-friendly deployments.",
+      "summary_zh": "展示了混合专家（MoE）通过稀疏计算在普通硬件上运行大型模型的可能性，使397B参数模型在笔记本上落地成为现实。此举降低了评估大模型对云资源的依赖，促进本地化实验与边缘部署的发展。",
       "hn": {
         "id": 47476422,
         "type": "story",
         "by": "mft_",
-        "score": 131,
-        "descendants": 45,
+        "score": 220,
+        "descendants": 83,
         "time": 1774179003,
         "comments_url": "https://news.ycombinator.com/item?id=47476422"
       },
-      "hot_score": 7.17,
+      "hot_score": 4.14,
       "tags": [
         "AI",
-        "Hardware"
+        "Hardware",
+        "DevOps"
       ]
+    },
+    {
+      "title_en": "Building an FPGA 3dfx Voodoo with Modern RTL Tools",
+      "url": "https://noquiche.fyi/voodoo",
+      "title_zh": "用现代 RTL 工具构建 FPGA 的 3dfx Voodoo",
+      "created_display": "Created: Mar 22, 2026 / 06:24 PT",
+      "image_url": "https://noquiche.fyi/assets/screamer2_sim.png",
+      "summary_en": "Describes recreating the classic 3dfx Voodoo GPU in FPGA using modern RTL tools, covering design choices, timing challenges, and what modern tooling enables for retro hardware experimentation.",
+      "summary_zh": "讲述在 FPGA 上用现代 RTL 工具复刻经典的 3dfx Voodoo GPU，讨论设计取舍、时序挑战，以及现代工具如何让复古硬件实验成为可能。",
+      "hn": {
+        "id": 47477284,
+        "type": "story",
+        "by": "fayalalebrun",
+        "score": 108,
+        "descendants": 19,
+        "time": 1774185878,
+        "comments_url": "https://news.ycombinator.com/item?id=47477284"
+      },
+      "tags": [
+        "Hardware",
+        "Design"
+      ],
+      "hot_score": 3.09
+    },
+    {
+      "title_en": "MAUI Is Coming to Linux",
+      "url": "https://avaloniaui.net/blog/maui-avalonia-preview-1",
+      "title_zh": "MAUI 即将登陆 Linux",
+      "created_display": "Created: Mar 22, 2026 / 08:43 PT",
+      "image_url": "https://framerusercontent.com/images/CUbSIRximmKmuZ0BgveVtIexZSg.png?width=2013&height=1496",
+      "summary_en": "MAUI is coming to Linux via a preview from Avalonia, widening the cross-platform story for .NET apps on desktop Linux. If you build .NET GUIs, this could broaden deployment targets and influence UI strategy. It underscores Linux's growing role in the .NET ecosystem.",
+      "summary_zh": ".NET MAUI 即将登陆 Linux，借助 Avalonia 的预览实现跨平台桌面 UI。这将扩大 .NET GUI 的部署目标，影响 UI 策略，体现了 Linux 在 .NET 生态中的日益重要地位。",
+      "hn": {
+        "id": 47478687,
+        "type": "story",
+        "by": "DeathArrow",
+        "score": 45,
+        "descendants": 14,
+        "time": 1774194201,
+        "comments_url": "https://news.ycombinator.com/item?id=47478687"
+      },
+      "hot_score": 2.57,
+      "tags": [
+        "Programming",
+        "Open Source"
+      ]
+    },
+    {
+      "title_en": "Windows native app development is a mess",
+      "url": "https://domenic.me/windows-native-dev/",
+      "title_zh": "Windows 原生应用开发是一团乱麻",
+      "created_display": "Created: Mar 22, 2026 / 02:57 PT",
+      "image_url": "https://domenic.me/images/display-blackout.webp",
+      "summary_en": "critiques the state of Windows native app development, pointing to tooling, API fragmentation, and a difficult developer experience, with suggestions for improvement.",
+      "summary_zh": "批评 Windows 原生应用开发现状，指出工具链、API 分裂及开发者体验问题，并给出改进建议。",
+      "hn": {
+        "id": 47475938,
+        "type": "story",
+        "by": "domenicd",
+        "score": 180,
+        "descendants": 169,
+        "time": 1774173451,
+        "comments_url": "https://news.ycombinator.com/item?id=47475938"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 2.55
     },
     {
       "title_en": "Do Not Turn Child Protection into Internet Access Control",
@@ -109,7 +267,7 @@
         "Privacy",
         "Politics"
       ],
-      "hot_score": 3.45
+      "hot_score": 2.47
     },
     {
       "title_en": "The three pillars of JavaScript bloat",
@@ -123,8 +281,8 @@
         "id": 47473718,
         "type": "story",
         "by": "onlyspaceghost",
-        "score": 388,
-        "descendants": 227,
+        "score": 422,
+        "descendants": 247,
         "time": 1774145071,
         "comments_url": "https://news.ycombinator.com/item?id=47473718"
       },
@@ -132,28 +290,305 @@
         "Programming",
         "Web"
       ],
-      "hot_score": 3.17
+      "hot_score": 2.21
     },
     {
-      "title_en": "Project Nomad – Knowledge That Never Goes Offline",
-      "url": "https://www.projectnomad.us",
-      "title_zh": "Project Nomad：知识永不离线",
-      "created_display": "Created: Mar 22, 2026 / 05:28 PT",
-      "image_url": "https://www.projectnomad.us/_next/image?url=%2Flogo.png&w=96&q=75&dpl=dpl_D5HoMqabuZP4MGAmXHnxVxE6tspG",
-      "summary_en": "Presents an offline-first knowledge initiative designed to keep information accessible during outages or censorship. Emphasizes resilience and portability of knowledge through local-first data strategies.",
-      "summary_zh": "介绍一个离线优先的知识项目，确保在断网或审查环境中也能访问信息，强调通过本地化数据策略提升知识的韧性与可携带性。",
+      "title_en": "iBook Clamshell",
+      "url": "https://www.ibook-clamshell.com/index.php/en/",
+      "title_zh": "iBook Clamshell（复刻版）",
+      "created_display": "Created: Mar 22, 2026 / 07:34 PT",
+      "image_url": "https://www.ibook-clamshell.com/media/mod_languages/images/de.gif",
+      "summary_en": "Introducing iBook Clamshell project, likely a restoration or replica of the iconic iBook clamshell, with focus on hardware design and community tinkering. It captures the enduring appeal of vintage Apple aesthetics and the DIY hardware culture.",
+      "summary_zh": "介绍 iBook Clamshell 项目，可能是对标志性 iBook 翼形设计的复刻或修复，聚焦硬件设计与社区改造。体现了复古苹果风格的持续吸引力以及开源硬件文化。",
       "hn": {
-        "id": 47476821,
+        "id": 47477938,
         "type": "story",
-        "by": "jensgk",
-        "score": 35,
-        "descendants": 6,
-        "time": 1774182518,
-        "comments_url": "https://news.ycombinator.com/item?id=47476821"
+        "by": "polishdude20",
+        "score": 53,
+        "descendants": 40,
+        "time": 1774190075,
+        "comments_url": "https://news.ycombinator.com/item?id=47477938"
       },
-      "hot_score": 2.77,
+      "hot_score": 2.07,
       "tags": [
-        "Data"
+        "Hardware",
+        "Culture"
+      ]
+    },
+    {
+      "title_en": "GrapheneOS refuses to comply with new age verification laws for operating system",
+      "url": "https://www.tomshardware.com/software/operating-systems/grapheneos-refuses-to-comply-with-age-verification-laws",
+      "title_zh": "GrapheneOS 拒绝遵守针对操作系统的新年龄验证法",
+      "created_display": "Created: Mar 22, 2026 / 09:28 PT",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/wUuHeVd83rRmkYZ6cSNmwf-640-80.jpg",
+      "summary_en": "Reports that GrapheneOS rejects new age-verification requirements, citing privacy and security concerns. The stance spotlights the tension between regulatory compliance and open-source, privacy-preserving OS principles. It raises questions about how future rules will intersect with secure mobile ecosystems.",
+      "summary_zh": "GrapheneOS 拒绝遵守针对操作系统的新年龄验证法，强调隐私与安全的关切。这凸显了监管合规与开源、隐私保护系统之间的张力，并引发对未来规则如何影响安全移动生态的讨论。",
+      "hn": {
+        "id": 47479183,
+        "type": "story",
+        "by": "CrypticShift",
+        "score": 26,
+        "descendants": 1,
+        "time": 1774196932,
+        "comments_url": "https://news.ycombinator.com/item?id=47479183"
+      },
+      "hot_score": 1.98,
+      "tags": [
+        "Privacy",
+        "Security",
+        "Open Source",
+        "Politics"
+      ]
+    },
+    {
+      "title_en": "More common mistakes to avoid when creating system architecture diagrams",
+      "url": "https://www.ilograph.com/blog/posts/more-common-diagram-mistakes/",
+      "title_zh": "创建系统架构图时应避免的常见错误",
+      "created_display": "Created: Mar 22, 2026 / 04:51 PT",
+      "image_url": "https://www.ilograph.com/blog/img/more-diagram-mistakes/labels1.png",
+      "summary_en": "Lists common diagram mistakes like over-abstracting, tying diagrams to implementation details, or omitting stakeholders. Provides practical guidelines for diagrams that clearly communicate decisions and constraints.",
+      "summary_zh": "列出常见的架构图错误，如过度抽象、将图与实现细节绑定，以及忽略相关方。给出清晰传达决策与约束的实用绘制要点。",
+      "hn": {
+        "id": 47476562,
+        "type": "story",
+        "by": "billyp-rva",
+        "score": 93,
+        "descendants": 35,
+        "time": 1774180312,
+        "comments_url": "https://news.ycombinator.com/item?id=47476562"
+      },
+      "tags": [
+        "Design"
+      ],
+      "hot_score": 1.87
+    },
+    {
+      "title_en": "Introducing DoorDash Tasks",
+      "url": "https://about.doordash.com/en-us/news/introducing-doordash-tasks",
+      "title_zh": "DoorDash 推出任务功能",
+      "created_display": "Created: Mar 22, 2026 / 09:48 PT",
+      "image_url": "https://images.ctfassets.net/trvmqu12jq2l/oDYWZruwo937risH8yq9c/1a53301dbc8c87af27d8380efcc3ddfa/updated.png",
+      "summary_en": "DoorDash launches a new 'Tasks' platform to orchestrate and track work across operations. The feature aims to streamline workflows, improve reliability, and enable teams to automate routine tasks. It hints at a broader move toward programmable operations inside consumer platforms.",
+      "summary_zh": "DoorDash 推出名为 Tasks 的任务平台，用于编排和跟踪运营工作，提升流程自动化和可靠性。此举暗示平台运营将向可编程化和自动化方向发展，供团队使用的 API/界面将增多。",
+      "hn": {
+        "id": 47479417,
+        "type": "story",
+        "by": "ChrisArchitect",
+        "score": 21,
+        "descendants": 20,
+        "time": 1774198117,
+        "comments_url": "https://news.ycombinator.com/item?id=47479417"
+      },
+      "hot_score": 1.84,
+      "tags": [
+        "Business",
+        "DevOps"
+      ]
+    },
+    {
+      "title_en": "Tinybox – A powerful computer for deep learning",
+      "url": "https://tinygrad.org/#tinybox",
+      "title_zh": "Tinybox：用于深度学习的强大小型电脑",
+      "created_display": "Created: Mar 21, 2026 / 13:08 PT",
+      "image_url": "https://tinygrad.org/assets/tinybox.jpg",
+      "summary_en": "Tinybox packs substantial compute into a compact box, enabling on-device deep learning experiments without relying on the cloud. It targets researchers, hobbyists, and edge deployments seeking serious compute with a small footprint.",
+      "summary_zh": "Tinybox 将强大算力压缩进小巧盒子，支持本地深度学习试验，无需依赖云端。面向希望在紧凑空间内获得高性能计算的研究者、爱好者与边缘部署。",
+      "hn": {
+        "id": 47470773,
+        "type": "story",
+        "by": "albelfio",
+        "score": 566,
+        "descendants": 326,
+        "time": 1774123717,
+        "comments_url": "https://news.ycombinator.com/item?id=47470773"
+      },
+      "tags": [
+        "AI",
+        "Hardware"
+      ],
+      "hot_score": 1.79
+    },
+    {
+      "title_en": "Some things just take time",
+      "url": "https://lucumr.pocoo.org/2026/3/20/some-things-just-take-time/",
+      "title_zh": "有些事确实需要时间",
+      "created_display": "Created: Mar 21, 2026 / 07:46 PT",
+      "image_url": "https://lucumr.pocoo.org/social/2026-03-20-some-things-just-take-time-social.png",
+      "summary_en": "Long-term projects—whether research, large-scale systems, or skill-building—unfold at their own pace, and patience often pays off with eventual breakthroughs.",
+      "summary_zh": "长期项目——无论是研究、大规模系统，还是技能的积累——都按自己的节奏展开，耐心最终会带来突破。",
+      "hn": {
+        "id": 47467537,
+        "type": "story",
+        "by": "vaylian",
+        "score": 796,
+        "descendants": 252,
+        "time": 1774104416,
+        "comments_url": "https://news.ycombinator.com/item?id=47467537"
+      },
+      "tags": [
+        "Career"
+      ],
+      "hot_score": 1.77
+    },
+    {
+      "title_en": "Cloudflare flags archive.today as \"C&C/Botnet\"; no longer resolves via 1.1.1.2",
+      "url": "https://radar.cloudflare.com/domains/domain/archive.today",
+      "title_zh": "Cloudflare 将 archive.today 标记为 C&C/僵尸网络；不再通过 1.1.1.2 解析",
+      "created_display": "Created: Mar 21, 2026 / 20:43 PT",
+      "image_url": null,
+      "summary_en": "Cloudflare has flagged archive.today as a command-and-control/botnet domain, and it no longer resolves via the 1.1.1.2 resolver. This move highlights how security-driven DNS filtering can disrupt access to legitimate services and underscores the risk of false positives in threat lists.",
+      "summary_zh": "Cloudflare 将 archive.today 标记为 C&C/僵尸网络，且不再通过 1.1.1.2 解析。此举凸显了基于安全的 DNS 过滤可能阻断合法服务，并暴露威胁情报中的误报与连带影响风险。",
+      "hn": {
+        "id": 47474255,
+        "type": "story",
+        "by": "winkelmann",
+        "score": 283,
+        "descendants": 227,
+        "time": 1774151031,
+        "comments_url": "https://news.ycombinator.com/item?id=47474255"
+      },
+      "tags": [
+        "Security"
+      ],
+      "hot_score": 1.75
+    },
+    {
+      "title_en": "A case against currying",
+      "url": "https://emi-h.com/articles/a-case-against-currying.html",
+      "title_zh": "对柯里化的反对意见",
+      "created_display": "Created: Mar 22, 2026 / 06:03 PT",
+      "image_url": null,
+      "summary_en": "Argues that currying can harm readability and debugging in real-world code, especially as function chains grow. The piece advocates pragmatic function design and cautions against overusing point-free styles.",
+      "summary_zh": "指出在实际代码中，柯里化可能降低可读性和调试性，尤其当函数链日益复杂时。提倡更务实的函数设计，警惕过度使用点-free 风格。",
+      "hn": {
+        "id": 47477090,
+        "type": "story",
+        "by": "emih",
+        "score": 62,
+        "descendants": 78,
+        "time": 1774184635,
+        "comments_url": "https://news.ycombinator.com/item?id=47477090"
+      },
+      "tags": [
+        "Programming",
+        "Design"
+      ],
+      "hot_score": 1.62
+    },
+    {
+      "title_en": "Brute-forcing my algorithmic ignorance with an LLM in 7 days",
+      "url": "http://blog.dominikrudnik.pl/my-google-recruitment-journey-part-1",
+      "title_zh": "用 LLM 在 7 天内暴力弥补我的算法无知",
+      "created_display": "Created: Mar 22, 2026 / 05:23 PT",
+      "image_url": null,
+      "summary_en": "Chronicles a personal experiment using a large language model to fill gaps in algorithm knowledge over a week, with insights on effective prompting and learning strategies. Highlights both potential and limits of AI-assisted self-education.",
+      "summary_zh": "记录在七天内利用大语言模型弥补算法盲点的个人实验，分享有效提示与学习策略。揭示 AI 辅助自学的潜力与局限。",
+      "hn": {
+        "id": 47476776,
+        "type": "story",
+        "by": "qikcik",
+        "score": 71,
+        "descendants": 47,
+        "time": 1774182184,
+        "comments_url": "https://news.ycombinator.com/item?id=47476776"
+      },
+      "tags": [
+        "AI",
+        "Education"
+      ],
+      "hot_score": 1.59
+    },
+    {
+      "title_en": "Turns out your coffee addiction may be doing your brain a favor",
+      "url": "https://www.theregister.com/2026/03/21/turns_out_your_coffee_addiction/",
+      "title_zh": "Turns out your coffee addiction may be doing your brain a favor",
+      "created_display": "Created: Mar 22, 2026 / 05:52 PT",
+      "image_url": "https://regmedia.co.uk/2016/11/17/coffee_photo_via_shutterstock.jpg",
+      "summary_en": "Notes research indicating caffeine consumption can confer cognitive benefits like improved attention, while also acknowledging potential downsides and the need for moderation.",
+      "summary_zh": "指出研究表明咖啡因摄入可能带来认知益处，如提升注意力，同时也要注意副作用并保持适度。",
+      "hn": {
+        "id": 47477003,
+        "type": "story",
+        "by": "Bender",
+        "score": 61,
+        "descendants": 35,
+        "time": 1774183978,
+        "comments_url": "https://news.ycombinator.com/item?id=47477003"
+      },
+      "tags": [
+        "Health",
+        "Science"
+      ],
+      "hot_score": 1.53
+    },
+    {
+      "title_en": "'Miracle': Europe reconnects with lost spacecraft",
+      "url": "https://phys.org/news/2026-03-miracle-europe-reconnects-lost-spacecraft.html",
+      "title_zh": "奇迹：欧洲重新与失落的航天器建立联系",
+      "created_display": "Created: Mar 22, 2026 / 03:22 PT",
+      "image_url": "https://scx2.b-cdn.net/gfx/news/2026/the-proba-3-mission-im.jpg",
+      "summary_en": "Reports Europe reconnecting with a previously lost spacecraft, highlighting resilience in space missions and implications for future deep-space communications.",
+      "summary_zh": "报道欧洲重新与一度失联的航天器取得联系，凸显太空任务的韧性及对未来深空通信的影响。",
+      "hn": {
+        "id": 47476060,
+        "type": "story",
+        "by": "vrganj",
+        "score": 95,
+        "descendants": 36,
+        "time": 1774174948,
+        "comments_url": "https://news.ycombinator.com/item?id=47476060"
+      },
+      "tags": [
+        "Space",
+        "Science"
+      ],
+      "hot_score": 1.44
+    },
+    {
+      "title_en": "Professional video editing, right in the browser with WebGPU and WASM",
+      "url": "https://tooscut.app/",
+      "title_zh": "在浏览器中实现专业视频编辑：WebGPU 与 WASM",
+      "created_display": "Created: Mar 21, 2026 / 14:27 PT",
+      "image_url": "https://tooscut.app/hero-asset-video.jpg",
+      "summary_en": "Demonstrates a browser-based professional video editor powered by WebGPU and WASM, signaling how front-end tech can approach desktop-grade workflows. The project illustrates both the performance hurdles and the potential for cloud-free, privacy-preserving editing in the browser.",
+      "summary_zh": "展示了一个在浏览器中运行的专业级视频编辑器，借助 WebGPU 与 WASM 实现桌面级工作流的可能性。该项目揭示了性能挑战与在浏览器中实现无云、保护隐私的编辑能力的潜力。",
+      "hn": {
+        "id": 47471601,
+        "type": "story",
+        "by": "mohebifar",
+        "score": 340,
+        "descendants": 121,
+        "time": 1774128470,
+        "comments_url": "https://news.ycombinator.com/item?id=47471601"
+      },
+      "tags": [
+        "Programming",
+        "Web",
+        "Privacy"
+      ],
+      "hot_score": 1.19
+    },
+    {
+      "title_en": "Reports of code's death are greatly exaggerated",
+      "url": "https://stevekrouse.com/precision",
+      "title_zh": "关于代码死亡的传闻被大大夸大",
+      "created_display": "Created: Mar 22, 2026 / 04:09 PT",
+      "image_url": "https://imagedelivery.net/iHX6Ovru0O7AjmyT5yZRoA/f7e9e621-0fad-4c3a-a65b-d16832c02b00/public",
+      "summary_en": "Code isn't dead; AI tools will augment but not replace human software craftsmen. The piece argues that precise, maintainable code, rigorous testing, and clear design remain essential as automation shifts routine work. In practice, expect a continued emphasis on tooling that preserves correctness and developer control.",
+      "summary_zh": "尽管有 AI 辅助写码的趋势，代码并未消亡。高质量、可维护的代码、严谨的测试和明确的设计仍然是关键，因为自动化会改变工作方式但需要人类把控。",
+      "hn": {
+        "id": 47476315,
+        "type": "story",
+        "by": "stevekrouse",
+        "score": 68,
+        "descendants": 48,
+        "time": 1774177774,
+        "comments_url": "https://news.ycombinator.com/item?id=47476315"
+      },
+      "hot_score": 1.18,
+      "tags": [
+        "Programming",
+        "AI"
       ]
     },
     {
@@ -173,235 +608,78 @@
         "time": 1774172154,
         "comments_url": "https://news.ycombinator.com/item?id=47475849"
       },
-      "hot_score": 2.69,
+      "hot_score": 1.17,
       "tags": [
-        "Culture",
+        "Politics",
+        "Culture"
+      ]
+    },
+    {
+      "title_en": "Operation Epic Fury Explained: Riches and Domination Drive This War",
+      "url": "https://truthout.org/articles/operation-epic-fury-explained-riches-and-domination-drive-this-war/",
+      "title_zh": "Operation Epic Fury 解释：财富与统治驱动这场战争",
+      "created_display": "Created: Mar 22, 2026 / 07:36 PT",
+      "image_url": "https://truthout.org/app/uploads/2026/03/GettyImages-2266297783.jpg",
+      "summary_en": "Explains how wealth concentration and dominance shape the war landscape, linking financial incentives to strategic decisions and tech-enabled power. The piece connects economic drivers to policy, supply chains, and information warfare in conflict zones. It offers a critical lens for readers considering the tech industry's geopolitical role.",
+      "summary_zh": "解释财富集中与支配如何塑造战争格局，将经济激励与战略决策以及技术驱动的力量联系起来。文章将经济驱动因素与政策、供应链及冲突地区的信息战联系起来，提供了对科技行业地缘政治角色的批判性视角。",
+      "hn": {
+        "id": 47477965,
+        "type": "story",
+        "by": "hkhn",
+        "score": 25,
+        "descendants": 4,
+        "time": 1774190215,
+        "comments_url": "https://news.ycombinator.com/item?id=47477965"
+      },
+      "hot_score": 0.97,
+      "tags": [
+        "Business",
         "Politics"
       ]
     },
     {
-      "title_en": "Windows native app development is a mess",
-      "url": "https://domenic.me/windows-native-dev/",
-      "title_zh": "Windows 原生应用开发是一团乱麻",
-      "created_display": "Created: Mar 22, 2026 / 02:57 PT",
-      "image_url": "https://domenic.me/images/display-blackout.webp",
-      "summary_en": "critiques the state of Windows native app development, pointing to tooling, API fragmentation, and a difficult developer experience, with suggestions for improvement.",
-      "summary_zh": "批评 Windows 原生应用开发现状，指出工具链、API 分裂及开发者体验问题，并给出改进建议。",
+      "title_en": "The IBM scientist who rewrote the rules of information just won a Turing Award",
+      "url": "https://www.ibm.com/think/news/ibm-scientist-charles-bennett-turing-award",
+      "title_zh": "改写信息规则的 IBM 科学家荣获图灵奖",
+      "created_display": "Created: Mar 22, 2026 / 04:53 PT",
+      "image_url": "https://www.ibm.com/content/dam/connectedassets-adobe-cms/worldwide-content/arc/cf/ul/g/b8/42/ibmprphoto_quantumpublickeydistdevice_cbennett_may23_1990-copy.jpg/_jcr_content/renditions/cq5dam.web.3840.3840.jpeg",
+      "summary_en": "Celebrates Charles Bennett, an IBM scientist whose work on the physics of information earned him a Turing Award, underscoring foundational contributions to information theory.",
+      "summary_zh": "庆祝 IBM 科学家 Charles Bennett 因信息物理的贡献荣获图灵奖，强调他在信息理论方面的奠基性贡献。",
       "hn": {
-        "id": 47475938,
+        "id": 47476566,
         "type": "story",
-        "by": "domenicd",
-        "score": 78,
-        "descendants": 77,
-        "time": 1774173451,
-        "comments_url": "https://news.ycombinator.com/item?id=47475938"
-      },
-      "hot_score": 2.62,
-      "tags": [
-        "Programming"
-      ]
-    },
-    {
-      "title_en": "'Miracle': Europe reconnects with lost spacecraft",
-      "url": "https://phys.org/news/2026-03-miracle-europe-reconnects-lost-spacecraft.html",
-      "title_zh": "奇迹：欧洲重新与失落的航天器建立联系",
-      "created_display": "Created: Mar 22, 2026 / 03:22 PT",
-      "image_url": "https://scx2.b-cdn.net/gfx/news/2026/the-proba-3-mission-im.jpg",
-      "summary_en": "Reports Europe reconnecting with a previously lost spacecraft, highlighting resilience in space missions and implications for future deep-space communications.",
-      "summary_zh": "报道欧洲重新与一度失联的航天器取得联系，凸显太空任务的韧性及对未来深空通信的影响。",
-      "hn": {
-        "id": 47476060,
-        "type": "story",
-        "by": "vrganj",
-        "score": 64,
-        "descendants": 27,
-        "time": 1774174948,
-        "comments_url": "https://news.ycombinator.com/item?id=47476060"
-      },
-      "hot_score": 2.41,
-      "tags": [
-        "Space"
-      ]
-    },
-    {
-      "title_en": "Tinybox – A powerful computer for deep learning",
-      "url": "https://tinygrad.org/#tinybox",
-      "title_zh": "Tinybox：用于深度学习的强大小型电脑",
-      "created_display": "Created: Mar 21, 2026 / 13:08 PT",
-      "image_url": "https://tinygrad.org/assets/tinybox.jpg",
-      "summary_en": "Tinybox packs substantial compute into a compact box, enabling on-device deep learning experiments without relying on the cloud. It targets researchers, hobbyists, and edge deployments seeking serious compute with a small footprint.",
-      "summary_zh": "Tinybox 将强大算力压缩进小巧盒子，支持本地深度学习试验，无需依赖云端。面向希望在紧凑空间内获得高性能计算的研究者、爱好者与边缘部署。",
-      "hn": {
-        "id": 47470773,
-        "type": "story",
-        "by": "albelfio",
-        "score": 534,
-        "descendants": 305,
-        "time": 1774123717,
-        "comments_url": "https://news.ycombinator.com/item?id=47470773"
-      },
-      "tags": [
-        "AI",
-        "Hardware"
-      ],
-      "hot_score": 2.35
-    },
-    {
-      "title_en": "A Case Against Currying",
-      "url": "https://emi-h.com/articles/a-case-against-currying.html",
-      "title_zh": "对柯里化的反对意见",
-      "created_display": "Created: Mar 22, 2026 / 06:03 PT",
-      "image_url": null,
-      "summary_en": "Argues that currying can harm readability and debugging in real-world code, especially as function chains grow. The piece advocates pragmatic function design and cautions against overusing point-free styles.",
-      "summary_zh": "指出在实际代码中，柯里化可能降低可读性和调试性，尤其当函数链日益复杂时。提倡更务实的函数设计，警惕过度使用点-free 风格。",
-      "hn": {
-        "id": 47477090,
-        "type": "story",
-        "by": "emih",
-        "score": 22,
-        "descendants": 19,
-        "time": 1774184635,
-        "comments_url": "https://news.ycombinator.com/item?id=47477090"
-      },
-      "hot_score": 2.27,
-      "tags": [
-        "Programming"
-      ]
-    },
-    {
-      "title_en": "Some things just take time",
-      "url": "https://lucumr.pocoo.org/2026/3/20/some-things-just-take-time/",
-      "title_zh": "有些事确实需要时间",
-      "created_display": "Created: Mar 21, 2026 / 07:46 PT",
-      "image_url": "https://lucumr.pocoo.org/social/2026-03-20-some-things-just-take-time-social.png",
-      "summary_en": "Long-term projects—whether research, large-scale systems, or skill-building—unfold at their own pace, and patience often pays off with eventual breakthroughs.",
-      "summary_zh": "长期项目——无论是研究、大规模系统，还是技能的积累——都按自己的节奏展开，耐心最终会带来突破。",
-      "hn": {
-        "id": 47467537,
-        "type": "story",
-        "by": "vaylian",
-        "score": 766,
-        "descendants": 246,
-        "time": 1774104416,
-        "comments_url": "https://news.ycombinator.com/item?id=47467537"
-      },
-      "tags": [
-        "Culture"
-      ],
-      "hot_score": 2.21
-    },
-    {
-      "title_en": "Turns out your coffee addiction may be doing your brain a favor",
-      "url": "https://www.theregister.com/2026/03/21/turns_out_your_coffee_addiction/",
-      "title_zh": "Turns out your coffee addiction may be doing your brain a favor",
-      "created_display": "Created: Mar 22, 2026 / 05:52 PT",
-      "image_url": "https://regmedia.co.uk/2016/11/17/coffee_photo_via_shutterstock.jpg",
-      "summary_en": "Notes research indicating caffeine consumption can confer cognitive benefits like improved attention, while also acknowledging potential downsides and the need for moderation.",
-      "summary_zh": "指出研究表明咖啡因摄入可能带来认知益处，如提升注意力，同时也要注意副作用并保持适度。",
-      "hn": {
-        "id": 47477003,
-        "type": "story",
-        "by": "Bender",
-        "score": 21,
+        "by": "rbanffy",
+        "score": 43,
         "descendants": 4,
-        "time": 1774183978,
-        "comments_url": "https://news.ycombinator.com/item?id=47477003"
-      },
-      "hot_score": 1.97,
-      "tags": [
-        "Health"
-      ]
-    },
-    {
-      "title_en": "More common mistakes to avoid when creating system architecture diagrams",
-      "url": "https://www.ilograph.com/blog/posts/more-common-diagram-mistakes/",
-      "title_zh": "创建系统架构图时应避免的常见错误",
-      "created_display": "Created: Mar 22, 2026 / 04:51 PT",
-      "image_url": "https://www.ilograph.com/blog/img/more-diagram-mistakes/labels1.png",
-      "summary_en": "Lists common diagram mistakes like over-abstracting, tying diagrams to implementation details, or omitting stakeholders. Provides practical guidelines for diagrams that clearly communicate decisions and constraints.",
-      "summary_zh": "列出常见的架构图错误，如过度抽象、将图与实现细节绑定，以及忽略相关方。给出清晰传达决策与约束的实用绘制要点。",
-      "hn": {
-        "id": 47476562,
-        "type": "story",
-        "by": "billyp-rva",
-        "score": 32,
-        "descendants": 12,
-        "time": 1774180312,
-        "comments_url": "https://news.ycombinator.com/item?id=47476562"
-      },
-      "hot_score": 1.96,
-      "tags": [
-        "Programming",
-        "Design"
-      ]
-    },
-    {
-      "title_en": "Revise – An AI Editor for Documents",
-      "url": "https://revise.io",
-      "title_zh": "Revise：文档的 AI 编辑器",
-      "created_display": "Created: Mar 22, 2026 / 06:28 PT",
-      "image_url": "https://revise.io/og.png",
-      "summary_en": "Introduces Revise, an AI-powered editor for documents focused on streamlining drafting, consistency, and practical writing aid rather than flashy AI theatrics.",
-      "summary_zh": "介绍 Revise，一款面向文档的 AI 编辑器，聚焦提升起草效率与一致性，强调务实的写作辅助。",
-      "hn": {
-        "id": 47477339,
-        "type": "story",
-        "by": "artursapek",
-        "score": 13,
-        "descendants": 9,
-        "time": 1774186125,
-        "comments_url": "https://news.ycombinator.com/item?id=47477339"
-      },
-      "hot_score": 1.64,
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "title_en": "Professional video editing, right in the browser with WebGPU and WASM",
-      "url": "https://tooscut.app/",
-      "title_zh": "在浏览器中实现专业视频编辑：WebGPU 与 WASM",
-      "created_display": "Created: Mar 21, 2026 / 14:27 PT",
-      "image_url": "https://tooscut.app/hero-asset-video.jpg",
-      "summary_en": "Demonstrates a browser-based professional video editor powered by WebGPU and WASM, signaling how front-end tech can approach desktop-grade workflows. The project illustrates both the performance hurdles and the potential for cloud-free, privacy-preserving editing in the browser.",
-      "summary_zh": "展示了一个在浏览器中运行的专业级视频编辑器，借助 WebGPU 与 WASM 实现桌面级工作流的可能性。该项目揭示了性能挑战与在浏览器中实现无云、保护隐私的编辑能力的潜力。",
-      "hn": {
-        "id": 47471601,
-        "type": "story",
-        "by": "mohebifar",
-        "score": 315,
-        "descendants": 112,
-        "time": 1774128470,
-        "comments_url": "https://news.ycombinator.com/item?id=47471601"
+        "time": 1774180417,
+        "comments_url": "https://news.ycombinator.com/item?id=47476566"
       },
       "tags": [
-        "Web",
-        "Programming",
-        "Privacy"
+        "Science"
       ],
-      "hot_score": 1.56
+      "hot_score": 0.86
     },
     {
-      "title_en": "Brute-Forcing My Algorithmic Ignorance with an LLM in 7 Days",
-      "url": "http://blog.dominikrudnik.pl/my-google-recruitment-journey-part-1",
-      "title_zh": "用 LLM 在 7 天内暴力弥补我的算法无知",
-      "created_display": "Created: Mar 22, 2026 / 05:23 PT",
+      "title_en": "HopTab – Open source macOS app switcher and tiler that replaces Cmd+Tab",
+      "url": "https://www.royalbhati.com/hoptab",
+      "title_zh": "HopTab：替代 Cmd+Tab 的开源 macOS 应用切换与平铺工具",
+      "created_display": "Created: Mar 21, 2026 / 23:23 PT",
       "image_url": null,
-      "summary_en": "Chronicles a personal experiment using a large language model to fill gaps in algorithm knowledge over a week, with insights on effective prompting and learning strategies. Highlights both potential and limits of AI-assisted self-education.",
-      "summary_zh": "记录在七天内利用大语言模型弥补算法盲点的个人实验，分享有效提示与学习策略。揭示 AI 辅助自学的潜力与局限。",
+      "summary_en": "HopTab is an open-source macOS app switcher and tiler that replaces Cmd+Tab with a more powerful switcher and window tiling. It showcases community-driven enhancements to macOS UX and could improve multitasking for power users. The project reflects growing appetite for user-level productivity tools in the ecosystem.",
+      "summary_zh": "HopTab 是一个开源的 macOS 应用切换与平铺工具，替代 Cmd+Tab 提供更强大的切换与窗口平铺能力。该项目体现了社区对提升 macOS 用户体验的持续推动，并可能提升高强度用户的多任务效率。",
       "hn": {
-        "id": 47476776,
+        "id": 47474967,
         "type": "story",
-        "by": "qikcik",
-        "score": 20,
-        "descendants": 7,
-        "time": 1774182184,
-        "comments_url": "https://news.ycombinator.com/item?id=47476776"
+        "by": "robhati",
+        "score": 100,
+        "descendants": 30,
+        "time": 1774160639,
+        "comments_url": "https://news.ycombinator.com/item?id=47474967"
       },
-      "hot_score": 1.49,
+      "hot_score": 0.84,
       "tags": [
-        "AI",
-        "Education"
+        "Open Source",
+        "Programming"
       ]
     },
     {
@@ -425,55 +703,29 @@
         "Open Source",
         "DevOps"
       ],
-      "hot_score": 1.18
+      "hot_score": 0.83
     },
     {
-      "title_en": "Nintendo's not-AI, not-a-game toy",
-      "url": "https://tapestry.news/culture/nintendo-talking-flower/",
-      "title_zh": "任天堂的‘会说话花’：不是 AI 也不是游戏的玩具",
-      "created_display": "Created: Mar 22, 2026 / 07:01 PT",
-      "image_url": "https://tapestry.news/content/images/2026/03/og-nintendo-talking-flower.png",
-      "summary_en": "Examines a Nintendo talking flower toy that relies on simple interactivity rather than advanced AI, using it to critique AI hype in consumer toys. The piece reflects on what “intelligence” means in everyday devices and how users perceive interactive tech.",
-      "summary_zh": "分析任天堂的一款会说话的花玩具，强调简单交互而非高级 AI，借此评析消费类玩具中的 AI 含义。讨论日常设备所带来的“智能”感知与互动技术的真实边界。",
+      "title_en": "Ask HN: AI productivity gains – do you fire devs or build better products?",
+      "url": "https://news.ycombinator.com/item?id=47475859",
+      "title_zh": "Ask HN：AI 生产力提升——裁员还是做出更好产品？",
+      "created_display": "Created: Mar 22, 2026 / 02:37 PT",
+      "image_url": "https://news.ycombinator.com/y18.svg",
+      "summary_en": "A discussion about how AI-driven productivity affects staffing decisions; many users advocate investing in better tooling and upskilling rather than mass layoffs; outcomes emphasize product impact and higher leverage.",
+      "summary_zh": "关于 AI 提升生产力对人员配置的影响展开讨论，普遍观点倾向于通过更好的工具和技能提升来提升产出，而非大规模裁员；重点在于将 AI 效益转化为产品和业务的杠杆。",
       "hn": {
-        "id": 47477653,
+        "id": 47475859,
         "type": "story",
-        "by": "zygon",
-        "score": 7,
-        "descendants": 0,
-        "time": 1774188088,
-        "comments_url": "https://news.ycombinator.com/item?id=47477653"
+        "by": "Bleiglanz",
+        "score": 62,
+        "descendants": 92,
+        "time": 1774172250,
+        "comments_url": "https://news.ycombinator.com/item?id=47475859"
       },
-      "hot_score": 1.17,
+      "hot_score": 0.82,
       "tags": [
-        "Culture",
-        "Entertainment",
         "AI",
-        "Gaming"
-      ]
-    },
-    {
-      "title_en": "Show HN: Crack – Turn your MacBook into a squeaky door",
-      "url": "http://crackmacapp.com/",
-      "title_zh": "Show HN: Crack – 让你的 MacBook 变成吱呀声的门",
-      "created_display": "Created: Mar 22, 2026 / 06:44 PT",
-      "image_url": "http://crackmacapp.com/icon.png",
-      "summary_en": "Show HN submission for Crack, a macOS app that uses sound or UI tricks to make a MacBook emulate a squeaky door, illustrating playful hardware-software experiments.",
-      "summary_zh": "Show HN 展示 Crack，这是一个让 MacBook 发出吱呀声的应用，展示软硬件结合的趣味实验。",
-      "hn": {
-        "id": 47477491,
-        "type": "story",
-        "by": "ronreiter",
-        "score": 8,
-        "descendants": 4,
-        "time": 1774187068,
-        "comments_url": "https://news.ycombinator.com/item?id=47477491"
-      },
-      "hot_score": 1.12,
-      "tags": [
-        "Show HN",
-        "Programming",
-        "Hardware"
+        "Career"
       ]
     },
     {
@@ -488,8 +740,8 @@
         "id": 47473279,
         "type": "story",
         "by": "wolfi1",
-        "score": 146,
-        "descendants": 78,
+        "score": 171,
+        "descendants": 96,
         "time": 1774141330,
         "comments_url": "https://news.ycombinator.com/item?id=47473279"
       },
@@ -497,52 +749,30 @@
         "Hardware",
         "Design"
       ],
-      "hot_score": 1.05
+      "hot_score": 0.81
     },
     {
-      "title_en": "HopTab–free,open source macOS app switcher and tiler that replaces Cmd+Tab",
-      "url": "https://www.royalbhati.com/hoptab",
-      "title_zh": "HopTab – 免费、开源的 macOS 应用切换与平铺工具，替代 Cmd+Tab",
-      "created_display": "Created: Mar 21, 2026 / 23:23 PT",
-      "image_url": null,
-      "summary_en": "Presents HopTab, a free and open-source macOS app switcher and tiler that offers alternatives to Cmd+Tab for window management and workflow efficiency.",
-      "summary_zh": "介绍 HopTab，一款免费开源的 macOS 应用切换与平铺工具，提供替代 Cmd+Tab 的窗口管理与工作流提升。",
+      "title_en": "Show HN: Revise – An AI Editor for Documents",
+      "url": "https://revise.io",
+      "title_zh": "Revise：文档的 AI 编辑器",
+      "created_display": "Created: Mar 22, 2026 / 06:28 PT",
+      "image_url": "https://revise.io/og.png",
+      "summary_en": "Introduces Revise, an AI-powered editor for documents focused on streamlining drafting, consistency, and practical writing aid rather than flashy AI theatrics.",
+      "summary_zh": "介绍 Revise，一款面向文档的 AI 编辑器，聚焦提升起草效率与一致性，强调务实的写作辅助。",
       "hn": {
-        "id": 47474967,
+        "id": 47477339,
         "type": "story",
-        "by": "robhati",
-        "score": 67,
-        "descendants": 19,
-        "time": 1774160639,
-        "comments_url": "https://news.ycombinator.com/item?id=47474967"
+        "by": "artursapek",
+        "score": 25,
+        "descendants": 28,
+        "time": 1774186125,
+        "comments_url": "https://news.ycombinator.com/item?id=47477339"
       },
-      "hot_score": 1.03,
       "tags": [
-        "Open Source",
-        "Programming"
-      ]
-    },
-    {
-      "title_en": "Building an FPGA 3dfx Voodoo with Modern RTL Tools",
-      "url": "https://noquiche.fyi/voodoo",
-      "title_zh": "用现代 RTL 工具构建 FPGA 的 3dfx Voodoo",
-      "created_display": "Created: Mar 22, 2026 / 06:24 PT",
-      "image_url": "https://noquiche.fyi/assets/screamer2_sim.png",
-      "summary_en": "Describes recreating the classic 3dfx Voodoo GPU in FPGA using modern RTL tools, covering design choices, timing challenges, and what modern tooling enables for retro hardware experimentation.",
-      "summary_zh": "讲述在 FPGA 上用现代 RTL 工具复刻经典的 3dfx Voodoo GPU，讨论设计取舍、时序挑战，以及现代工具如何让复古硬件实验成为可能。",
-      "hn": {
-        "id": 47477284,
-        "type": "story",
-        "by": "fayalalebrun",
-        "score": 8,
-        "descendants": 0,
-        "time": 1774185878,
-        "comments_url": "https://news.ycombinator.com/item?id=47477284"
-      },
-      "hot_score": 0.92,
-      "tags": [
-        "Hardware"
-      ]
+        "Show HN",
+        "AI"
+      ],
+      "hot_score": 0.71
     },
     {
       "title_en": "Hide macOS Tahoe's Menu Icons",
@@ -564,52 +794,29 @@
       "tags": [
         "Design"
       ],
-      "hot_score": 0.87
+      "hot_score": 0.65
     },
     {
-      "title_en": "Cross-Model Void Convergence: GPT-5.2 and Claude Opus 4.6 Deterministic Silence",
-      "url": "https://zenodo.org/records/18976656",
-      "title_zh": "Cross-Model Void Convergence: GPT-5.2 与 Claude Opus 4.6 Deterministic Silence",
-      "created_display": "Created: Mar 22, 2026 / 00:07 PT",
-      "image_url": "https://zenodo.org/static/images/invenio-rdm.svg",
-      "summary_en": "Notes a phenomenon where different models converge to deterministic ‘silence’ on certain prompts, exploring cross-model boundaries and implications for evaluation and reliability.",
-      "summary_zh": "记录在特定提示下，不同模型之间出现确定性“沉默”的现象，探讨跨模型的边界及对评估与可靠性的影响。",
+      "title_en": "$ teebot.dev – from terminal to tee in 6 seconds",
+      "url": "https://teebot.dev",
+      "title_zh": "$ teebot.dev – 从终端到 tee 在 6 秒内完成",
+      "created_display": "Created: Mar 22, 2026 / 05:22 PT",
+      "image_url": "https://teebot.dev/api/og?title=the+fastest+way+to%0Awear+some+words&tagline=type+it.+pick+a+size.+order.",
+      "summary_en": "Describes a workflow or tool that takes terminal output and quickly pipes it to a tee-like stream, improving quick file writes and log handling in development.",
+      "summary_zh": "介绍一个工作流工具，使终端输出在 6 秒内就能进入 tee 风格的流式写入，提升开发中的日志处理与文件写入效率。",
       "hn": {
-        "id": 47475155,
+        "id": 47476772,
         "type": "story",
-        "by": "rayanpal_",
-        "score": 47,
-        "descendants": 22,
-        "time": 1774163235,
-        "comments_url": "https://news.ycombinator.com/item?id=47475155"
+        "by": "foxpress",
+        "score": 29,
+        "descendants": 32,
+        "time": 1774182170,
+        "comments_url": "https://news.ycombinator.com/item?id=47476772"
       },
-      "hot_score": 0.82,
       "tags": [
-        "AI"
-      ]
-    },
-    {
-      "title_en": "If AI brings 90% productivity gains, do you fire devs or build better products?",
-      "url": "https://news.ycombinator.com/item?id=47475859",
-      "title_zh": "如果 AI 带来 90% 的生产力提升，你会解雇开发者还是打造更好的产品？",
-      "created_display": "Created: Mar 22, 2026 / 02:37 PT",
-      "image_url": "https://news.ycombinator.com/y18.svg",
-      "summary_en": "Posits a provocative scenario about AI-driven productivity: should teams replace developers or pivot to building higher-quality products? Examines strategic, organizational, and ethical considerations.",
-      "summary_zh": "提出一个关于 AI 生产力提升的具挑战性情景：是替代开发者还是专注于打造更高质量的产品？从战略、组织与伦理层面展开讨论。",
-      "hn": {
-        "id": 47475859,
-        "type": "story",
-        "by": "Bleiglanz",
-        "score": 27,
-        "descendants": 39,
-        "time": 1774172250,
-        "comments_url": "https://news.ycombinator.com/item?id=47475859"
-      },
-      "hot_score": 0.81,
-      "tags": [
-        "AI",
-        "Business"
-      ]
+        "Programming"
+      ],
+      "hot_score": 0.64
     },
     {
       "title_en": "Grafeo – A fast, lean, embeddable graph database built in Rust",
@@ -632,30 +839,7 @@
         "Programming",
         "Data"
       ],
-      "hot_score": 0.68
-    },
-    {
-      "title_en": "Convincing Is Not Persuading",
-      "url": "https://blog.alaindichiappari.dev/p/convincing-is-not-persuading",
-      "title_zh": "说服力并非劝说力",
-      "created_display": "Created: Mar 22, 2026 / 06:00 PT",
-      "image_url": "https://substackcdn.com/image/fetch/$s_!Rw6r!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb8ddf511-ce4b-4fe8-9027-7756344314fa_1920x1315.webp",
-      "summary_en": "Distinguishes convincing from persuading, exploring cognitive biases and how rhetoric can shape beliefs without changing underlying values. Applies to AI, UX, and product strategy.",
-      "summary_zh": "区分让人信服与劝说，分析认知偏误以及修辞如何在不改变根本价值观的前提下影响信念，与 AI、用户体验及产品策略相关。",
-      "hn": {
-        "id": 47477068,
-        "type": "story",
-        "by": "alainrk",
-        "score": 7,
-        "descendants": 5,
-        "time": 1774184445,
-        "comments_url": "https://news.ycombinator.com/item?id=47477068"
-      },
-      "hot_score": 0.63,
-      "tags": [
-        "Design",
-        "AI"
-      ]
+      "hot_score": 0.52
     },
     {
       "title_en": "Ubuntu 26.04 Ends 46 Years of Silent sudo Passwords",
@@ -677,50 +861,51 @@
       "tags": [
         "Security"
       ],
-      "hot_score": 0.62
+      "hot_score": 0.51
     },
     {
-      "title_en": "$ teebot.dev – from terminal to tee in 6 seconds",
-      "url": "https://teebot.dev",
-      "title_zh": "$ teebot.dev – 从终端到 tee 在 6 秒内完成",
-      "created_display": "Created: Mar 22, 2026 / 05:22 PT",
-      "image_url": "https://teebot.dev/api/og?title=the+fastest+way+to%0Awear+some+words&tagline=type+it.+pick+a+size.+order.",
-      "summary_en": "Describes a workflow or tool that takes terminal output and quickly pipes it to a tee-like stream, improving quick file writes and log handling in development.",
-      "summary_zh": "介绍一个工作流工具，使终端输出在 6 秒内就能进入 tee 风格的流式写入，提升开发中的日志处理与文件写入效率。",
+      "title_en": "Cross-Model Void Convergence: GPT-5.2 and Claude Opus 4.6 Deterministic Silence",
+      "url": "https://zenodo.org/records/18976656",
+      "title_zh": "Cross-Model Void Convergence: GPT-5.2 与 Claude Opus 4.6 Deterministic Silence",
+      "created_display": "Created: Mar 22, 2026 / 00:07 PT",
+      "image_url": "https://zenodo.org/static/images/invenio-rdm.svg",
+      "summary_en": "Notes a phenomenon where different models converge to deterministic ‘silence’ on certain prompts, exploring cross-model boundaries and implications for evaluation and reliability.",
+      "summary_zh": "记录在特定提示下，不同模型之间出现确定性“沉默”的现象，探讨跨模型的边界及对评估与可靠性的影响。",
       "hn": {
-        "id": 47476772,
+        "id": 47475155,
         "type": "story",
-        "by": "foxpress",
-        "score": 9,
-        "descendants": 9,
-        "time": 1774182170,
-        "comments_url": "https://news.ycombinator.com/item?id=47476772"
+        "by": "rayanpal_",
+        "score": 47,
+        "descendants": 22,
+        "time": 1774163235,
+        "comments_url": "https://news.ycombinator.com/item?id=47475155"
       },
-      "hot_score": 0.62,
+      "hot_score": 0.43,
       "tags": [
-        "Programming"
+        "AI"
       ]
     },
     {
-      "title_en": "How We Synchronized Editing for Rec Room's Multiplayer Scripting System",
-      "url": "https://www.tyleo.com/blog/how-we-synchronized-editing-for-rec-rooms-multiplayer-scripting-system",
-      "title_zh": "Rec Room 的多人编辑系统如何实现同步",
-      "created_display": "Created: Mar 22, 2026 / 05:14 PT",
-      "image_url": "https://www.tyleo.com/img/how-we-synchronized-editing-for-rec-rooms-multiplayer-scripting-system-hero-de935adb.webp",
-      "summary_en": "Discusses how editing is synchronized in Rec Room’s multiplayer scripting environment, covering conflict resolution, latency handling, and real-time collaboration patterns.",
-      "summary_zh": "讲述 Rec Room 多人脚本编辑系统的同步实现，涉及冲突处理、延迟补偿与实时协作模式。",
+      "title_en": "Five Years of Running a Systems Reading Group at Microsoft",
+      "url": "https://armaansood.com/posts/systems-reading-group/",
+      "title_zh": "微软系统读书会五周年回顾",
+      "created_display": "Created: Mar 22, 2026 / 10:06 PT",
+      "image_url": null,
+      "summary_en": "Microsoft's systems reading group marks five years of structured knowledge sharing among engineers. It highlights how curated reading lists and discussions accelerate collective expertise and cross-team collaboration. The takeaway: formalized learning communities can compound technical growth inside large orgs.",
+      "summary_zh": "微软的系统读书会已成立五年，系统化的知识分享和讨论推动工程师集体成长与跨团队协作。通过精心挑选的阅读清单和讨论，学习成果在大型组织中呈现出倍增效应。",
       "hn": {
-        "id": 47476707,
+        "id": 47479627,
         "type": "story",
-        "by": "tyleo",
-        "score": 9,
-        "descendants": 6,
-        "time": 1774181646,
-        "comments_url": "https://news.ycombinator.com/item?id=47476707"
+        "by": "Foe",
+        "score": 5,
+        "descendants": 1,
+        "time": 1774199198,
+        "comments_url": "https://news.ycombinator.com/item?id=47479627"
       },
-      "hot_score": 0.59,
+      "hot_score": 0.43,
       "tags": [
-        "Programming"
+        "Education",
+        "Culture"
       ]
     },
     {
@@ -742,9 +927,32 @@
       },
       "tags": [
         "AI",
+        "Science",
         "Education"
       ],
-      "hot_score": 0.53
+      "hot_score": 0.41
+    },
+    {
+      "title_en": "How We Synchronized Editing for Rec Room's Multiplayer Scripting System",
+      "url": "https://www.tyleo.com/blog/how-we-synchronized-editing-for-rec-rooms-multiplayer-scripting-system",
+      "title_zh": "Rec Room 的多人编辑系统如何实现同步",
+      "created_display": "Created: Mar 22, 2026 / 05:14 PT",
+      "image_url": "https://www.tyleo.com/img/how-we-synchronized-editing-for-rec-rooms-multiplayer-scripting-system-hero-de935adb.webp",
+      "summary_en": "Discusses how editing is synchronized in Rec Room’s multiplayer scripting environment, covering conflict resolution, latency handling, and real-time collaboration patterns.",
+      "summary_zh": "讲述 Rec Room 多人脚本编辑系统的同步实现，涉及冲突处理、延迟补偿与实时协作模式。",
+      "hn": {
+        "id": 47476707,
+        "type": "story",
+        "by": "tyleo",
+        "score": 19,
+        "descendants": 12,
+        "time": 1774181646,
+        "comments_url": "https://news.ycombinator.com/item?id=47476707"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 0.4
     },
     {
       "title_en": "Show HN: Termcraft – Terminal-first 2D sandbox survival in Rust",
@@ -765,9 +973,10 @@
       },
       "tags": [
         "Show HN",
-        "Programming"
+        "Programming",
+        "Gaming"
       ],
-      "hot_score": 0.48
+      "hot_score": 0.35
     },
     {
       "title_en": "Common Lisp Development Tooling",
@@ -781,37 +990,15 @@
         "id": 47470734,
         "type": "story",
         "by": "0bytematt",
-        "score": 98,
-        "descendants": 23,
+        "score": 102,
+        "descendants": 24,
         "time": 1774123448,
         "comments_url": "https://news.ycombinator.com/item?id=47470734"
       },
       "tags": [
         "Programming"
       ],
-      "hot_score": 0.42
-    },
-    {
-      "title_en": "Can Programming Be Liberated from the von Neumann Style? (1977) [pdf]",
-      "url": "https://worrydream.com/refs/Backus_1978_-_Can_Programming_Be_Liberated_from_the_von_Neumann_Style.pdf",
-      "title_zh": "Can Programming Be Liberated from the von Neumann Style? (1977) [pdf]",
-      "created_display": "Created: Mar 22, 2026 / 04:43 PT",
-      "image_url": null,
-      "summary_en": "Discusses the Backus 1977 paper that argued for programming paradigms beyond the von Neumann model, laying groundwork for dataflow and alternative computation styles.",
-      "summary_zh": "讨论 Backus 1977 年的论文，主张超越冯·诺依曼模型的编程范式，为数据流与替代计算风格奠定基础。",
-      "hn": {
-        "id": 47476509,
-        "type": "story",
-        "by": "tosh",
-        "score": 8,
-        "descendants": 1,
-        "time": 1774179837,
-        "comments_url": "https://news.ycombinator.com/item?id=47476509"
-      },
-      "hot_score": 0.42,
-      "tags": [
-        "Programming"
-      ]
+      "hot_score": 0.32
     },
     {
       "title_en": "Sashiko: An agentic Linux kernel code review system",
@@ -825,15 +1012,64 @@
         "id": 47474323,
         "type": "story",
         "by": "Lwrless",
-        "score": 37,
+        "score": 42,
         "descendants": 3,
         "time": 1774151986,
         "comments_url": "https://news.ycombinator.com/item?id=47474323"
       },
-      "hot_score": 0.38,
       "tags": [
-        "Programming",
-        "AI"
+        "AI",
+        "Open Source",
+        "Programming"
+      ],
+      "hot_score": 0.26
+    },
+    {
+      "title_en": "Show HN: Crack – Turn your MacBook into a squeaky door",
+      "url": "http://crackmacapp.com/",
+      "title_zh": "Show HN: Crack – 让你的 MacBook 变成吱呀声的门",
+      "created_display": "Created: Mar 22, 2026 / 06:44 PT",
+      "image_url": "http://crackmacapp.com/icon.png",
+      "summary_en": "Show HN submission for Crack, a macOS app that uses sound or UI tricks to make a MacBook emulate a squeaky door, illustrating playful hardware-software experiments.",
+      "summary_zh": "Show HN 展示 Crack，这是一个让 MacBook 发出吱呀声的应用，展示软硬件结合的趣味实验。",
+      "hn": {
+        "id": 47477491,
+        "type": "story",
+        "by": "ronreiter",
+        "score": 8,
+        "descendants": 4,
+        "time": 1774187068,
+        "comments_url": "https://news.ycombinator.com/item?id=47477491"
+      },
+      "hot_score": 0.22,
+      "tags": [
+        "Show HN",
+        "Hardware"
+      ]
+    },
+    {
+      "title_en": "Nintendo's not-AI, not-a-game toy",
+      "url": "https://tapestry.news/culture/nintendo-talking-flower/",
+      "title_zh": "任天堂的‘会说话花’：不是 AI 也不是游戏的玩具",
+      "created_display": "Created: Mar 22, 2026 / 07:01 PT",
+      "image_url": "https://tapestry.news/content/images/2026/03/og-nintendo-talking-flower.png",
+      "summary_en": "Examines a Nintendo talking flower toy that relies on simple interactivity rather than advanced AI, using it to critique AI hype in consumer toys. The piece reflects on what “intelligence” means in everyday devices and how users perceive interactive tech.",
+      "summary_zh": "分析任天堂的一款会说话的花玩具，强调简单交互而非高级 AI，借此评析消费类玩具中的 AI 含义。讨论日常设备所带来的“智能”感知与互动技术的真实边界。",
+      "hn": {
+        "id": 47477653,
+        "type": "story",
+        "by": "zygon",
+        "score": 7,
+        "descendants": 0,
+        "time": 1774188088,
+        "comments_url": "https://news.ycombinator.com/item?id=47477653"
+      },
+      "hot_score": 0.2,
+      "tags": [
+        "Culture",
+        "Entertainment",
+        "AI",
+        "Gaming"
       ]
     },
     {
@@ -853,31 +1089,55 @@
         "time": 1774150690,
         "comments_url": "https://news.ycombinator.com/item?id=47474236"
       },
-      "hot_score": 0.26,
+      "hot_score": 0.16,
       "tags": [
         "Hardware"
       ]
     },
     {
-      "title_en": "The IBM scientist who rewrote the rules of information just won a Turing Award",
-      "url": "https://www.ibm.com/think/news/ibm-scientist-charles-bennett-turing-award",
-      "title_zh": "改写信息规则的 IBM 科学家荣获图灵奖",
-      "created_display": "Created: Mar 22, 2026 / 04:53 PT",
-      "image_url": "https://www.ibm.com/content/dam/connectedassets-adobe-cms/worldwide-content/arc/cf/ul/g/b8/42/ibmprphoto_quantumpublickeydistdevice_cbennett_may23_1990-copy.jpg/_jcr_content/renditions/cq5dam.web.3840.3840.jpeg",
-      "summary_en": "Celebrates Charles Bennett, an IBM scientist whose work on the physics of information earned him a Turing Award, underscoring foundational contributions to information theory.",
-      "summary_zh": "庆祝 IBM 科学家 Charles Bennett 因信息物理的贡献荣获图灵奖，强调他在信息理论方面的奠基性贡献。",
+      "title_en": "Convincing Is Not Persuading",
+      "url": "https://blog.alaindichiappari.dev/p/convincing-is-not-persuading",
+      "title_zh": "说服力并非劝说力",
+      "created_display": "Created: Mar 22, 2026 / 06:00 PT",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!Rw6r!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb8ddf511-ce4b-4fe8-9027-7756344314fa_1920x1315.webp",
+      "summary_en": "Distinguishes convincing from persuading, exploring cognitive biases and how rhetoric can shape beliefs without changing underlying values. Applies to AI, UX, and product strategy.",
+      "summary_zh": "区分让人信服与劝说，分析认知偏误以及修辞如何在不改变根本价值观的前提下影响信念，与 AI、用户体验及产品策略相关。",
       "hn": {
-        "id": 47476566,
+        "id": 47477068,
         "type": "story",
-        "by": "rbanffy",
-        "score": 5,
-        "descendants": 0,
-        "time": 1774180417,
-        "comments_url": "https://news.ycombinator.com/item?id=47476566"
+        "by": "alainrk",
+        "score": 7,
+        "descendants": 5,
+        "time": 1774184445,
+        "comments_url": "https://news.ycombinator.com/item?id=47477068"
       },
-      "hot_score": 0.26,
+      "hot_score": 0.16,
       "tags": [
-        "Science"
+        "Culture",
+        "Education",
+        "AI"
+      ]
+    },
+    {
+      "title_en": "Can Programming Be Liberated from the von Neumann Style? (1977) [pdf]",
+      "url": "https://worrydream.com/refs/Backus_1978_-_Can_Programming_Be_Liberated_from_the_von_Neumann_Style.pdf",
+      "title_zh": "Can Programming Be Liberated from the von Neumann Style? (1977) [pdf]",
+      "created_display": "Created: Mar 22, 2026 / 04:43 PT",
+      "image_url": null,
+      "summary_en": "Discusses the Backus 1977 paper that argued for programming paradigms beyond the von Neumann model, laying groundwork for dataflow and alternative computation styles.",
+      "summary_zh": "讨论 Backus 1977 年的论文，主张超越冯·诺依曼模型的编程范式，为数据流与替代计算风格奠定基础。",
+      "hn": {
+        "id": 47476509,
+        "type": "story",
+        "by": "tosh",
+        "score": 8,
+        "descendants": 1,
+        "time": 1774179837,
+        "comments_url": "https://news.ycombinator.com/item?id=47476509"
+      },
+      "hot_score": 0.14,
+      "tags": [
+        "Programming"
       ]
     },
     {
@@ -892,8 +1152,8 @@
         "id": 47457570,
         "type": "story",
         "by": "rasengan0",
-        "score": 148,
-        "descendants": 15,
+        "score": 155,
+        "descendants": 17,
         "time": 1774026808,
         "comments_url": "https://news.ycombinator.com/item?id=47457570"
       },
@@ -901,7 +1161,53 @@
         "Design",
         "Education"
       ],
-      "hot_score": 0.14
+      "hot_score": 0.13
+    },
+    {
+      "title_en": "My first patch to the Linux kernel",
+      "url": "https://pooladkhay.com/posts/first-kernel-patch/",
+      "title_zh": "我的第一份 Linux 内核补丁",
+      "created_display": "Created: Mar 19, 2026 / 12:51 PT",
+      "image_url": "https://pooladkhay.com/blog-img/hide-the-pain.webp",
+      "summary_en": "Shares the experience of submitting your first patch to the Linux kernel, detailing the learning curve, code reviews, and community feedback that come with contributing to the core project.",
+      "summary_zh": "讲述向 Linux 内核提交第一份补丁的经历，涵盖学习曲线、代码审查与社区反馈。",
+      "hn": {
+        "id": 47444909,
+        "type": "story",
+        "by": "pooladkhay",
+        "score": 185,
+        "descendants": 38,
+        "time": 1773949867,
+        "comments_url": "https://news.ycombinator.com/item?id=47444909"
+      },
+      "tags": [
+        "Programming",
+        "Open Source"
+      ],
+      "hot_score": 0.08
+    },
+    {
+      "title_en": "The Architecture of Asking",
+      "url": "https://echo.surf/essays/the-architecture-of-asking/",
+      "title_zh": "提问的结构艺术",
+      "created_display": "Created: Mar 22, 2026 / 07:35 PT",
+      "image_url": null,
+      "summary_en": "Argues that asking well is a design practice, shaping prompts, questions, and context to elicit better answers in research and AI-enabled workflows. It examines how framing, constraints, and tone influence outcomes in research, AI, or collaboration. The Architecture of Asking is a guide to more effective inquiry and collaboration.",
+      "summary_zh": "主张提问本身是一门设计实践，通过构建问题框架、约束与语气来获得更高质量的回答，适用于研究、AI 交互与协作场景。探讨了框架化、约束与语气如何影响结果，提供提升提问效果的实用指南。",
+      "hn": {
+        "id": 47477939,
+        "type": "story",
+        "by": "jmilinovich",
+        "score": 3,
+        "descendants": 0,
+        "time": 1774190105,
+        "comments_url": "https://news.ycombinator.com/item?id=47477939"
+      },
+      "hot_score": 0.08,
+      "tags": [
+        "Design",
+        "AI"
+      ]
     },
     {
       "title_en": "Electronics for Kids, 2nd Edition",
@@ -921,55 +1227,10 @@
         "comments_url": "https://news.ycombinator.com/item?id=47434986"
       },
       "tags": [
-        "Education"
+        "Education",
+        "Hardware"
       ],
-      "hot_score": 0.08
-    },
-    {
-      "title_en": "My first patch to the Linux kernel",
-      "url": "https://pooladkhay.com/posts/first-kernel-patch/",
-      "title_zh": "我的第一份 Linux 内核补丁",
-      "created_display": "Created: Mar 19, 2026 / 12:51 PT",
-      "image_url": "https://pooladkhay.com/blog-img/hide-the-pain.webp",
-      "summary_en": "Shares the experience of submitting your first patch to the Linux kernel, detailing the learning curve, code reviews, and community feedback that come with contributing to the core project.",
-      "summary_zh": "讲述向 Linux 内核提交第一份补丁的经历，涵盖学习曲线、代码审查与社区反馈。",
-      "hn": {
-        "id": 47444909,
-        "type": "story",
-        "by": "pooladkhay",
-        "score": 153,
-        "descendants": 27,
-        "time": 1773949867,
-        "comments_url": "https://news.ycombinator.com/item?id=47444909"
-      },
-      "hot_score": 0.08,
-      "tags": [
-        "Programming",
-        "Open Source"
-      ]
-    },
-    {
-      "title_en": "Bayesian statistics for confused data scientists",
-      "url": "https://nchagnet.pages.dev/blog/bayesian-statistics-for-confused-data-scientists/",
-      "title_zh": "困惑数据科学家的贝叶斯统计入门",
-      "created_display": "Created: Mar 18, 2026 / 10:52 PT",
-      "image_url": "https://nchagnet.pages.dev/favicon.ico",
-      "summary_en": "Offers a practical primer on Bayesian statistics for data scientists who feel overwhelmed by frequentist norms, covering priors, posteriors, and model comparison with intuition and examples. It helps readers reason about uncertainty more naturally.",
-      "summary_zh": "为对贝叶斯统计感到困惑的数据科学家提供实用入门，讲解先验、后验以及模型对比等要点，并用直观示例帮助理解不确定性。",
-      "hn": {
-        "id": 47428953,
-        "type": "story",
-        "by": "speckx",
-        "score": 156,
-        "descendants": 45,
-        "time": 1773856338,
-        "comments_url": "https://news.ycombinator.com/item?id=47428953"
-      },
-      "tags": [
-        "Data",
-        "Science"
-      ],
-      "hot_score": 0.04
+      "hot_score": 0.07
     },
     {
       "title_en": "25 Years of Eggs",
@@ -983,37 +1244,83 @@
         "id": 47427224,
         "type": "story",
         "by": "avyfain",
-        "score": 124,
-        "descendants": 42,
+        "score": 184,
+        "descendants": 56,
         "time": 1773848648,
         "comments_url": "https://news.ycombinator.com/item?id=47427224"
       },
-      "hot_score": 0.03,
       "tags": [
         "Culture"
-      ]
+      ],
+      "hot_score": 0.05
     },
     {
-      "title_en": "Training Center for Maneuvering on Manned Model Ships",
-      "url": "https://www.portrevel.com/",
-      "title_zh": "用于操纵载人模型舰艇的训练中心",
-      "created_display": "Created: Mar 20, 2026 / 05:04 PT",
-      "image_url": "https://www.portrevel.com/uploads/Autopromo/atp_visuel/GAB_PORTREVEL/IMF_AUTOPROMO/52/22_666_porte-conteneur.jpg",
-      "summary_en": "Describes a training center for maneuvering manned model ships, outlining curriculum, simulators, and safety practices for hands-on engineering education.",
-      "summary_zh": "介绍用于操纵载人模型舰艇的训练中心，涵盖课程、仿真设备与安全规范，强调动手教育的价值。",
+      "title_en": "Bayesian statistics for confused data scientists",
+      "url": "https://nchagnet.pages.dev/blog/bayesian-statistics-for-confused-data-scientists/",
+      "title_zh": "困惑数据科学家的贝叶斯统计入门",
+      "created_display": "Created: Mar 18, 2026 / 10:52 PT",
+      "image_url": "https://nchagnet.pages.dev/favicon.ico",
+      "summary_en": "Offers a practical primer on Bayesian statistics for data scientists who feel overwhelmed by frequentist norms, covering priors, posteriors, and model comparison with intuition and examples. It helps readers reason about uncertainty more naturally.",
+      "summary_zh": "为对贝叶斯统计感到困惑的数据科学家提供实用入门，讲解先验、后验以及模型对比等要点，并用直观示例帮助理解不确定性。",
       "hn": {
-        "id": 47453414,
+        "id": 47428953,
         "type": "story",
-        "by": "mhb",
-        "score": 22,
-        "descendants": 6,
-        "time": 1774008289,
-        "comments_url": "https://news.ycombinator.com/item?id=47453414"
+        "by": "speckx",
+        "score": 163,
+        "descendants": 53,
+        "time": 1773856338,
+        "comments_url": "https://news.ycombinator.com/item?id=47428953"
       },
-      "hot_score": 0.02,
       "tags": [
-        "Education"
-      ]
+        "Data",
+        "Science"
+      ],
+      "hot_score": 0.04
+    },
+    {
+      "title_en": "Trivy ecosystem supply chain briefly compromised",
+      "url": "https://github.com/aquasecurity/trivy/security/advisories/GHSA-69fq-xp46-6x23",
+      "title_zh": "Trivy 生态系统供应链短暂受损",
+      "created_display": "Created: Mar 19, 2026 / 20:30 PT",
+      "image_url": "https://opengraph.githubassets.com/0988760f7897540bf66fdee8f66ae98b523eebe201a9e4998076dd8e8aec9f14/aquasecurity/trivy/security/advisories/GHSA-69fq-xp46-6x23",
+      "summary_en": "A security advisory reports a brief compromise in the Trivy ecosystem, prompting updates and coordinated responses for users to mitigate supply-chain risk. The incident underscores the fragility of open-source tooling and the need for rapid patching.",
+      "summary_zh": "Trivy 生态系统短暂受损的安全公告促使用户更新并采取应对措施，以降低供应链风险。事件凸显开源工具的脆弱性及快速修补的重要性。",
+      "hn": {
+        "id": 47450142,
+        "type": "story",
+        "by": "batch12",
+        "score": 80,
+        "descendants": 30,
+        "time": 1773977407,
+        "comments_url": "https://news.ycombinator.com/item?id=47450142"
+      },
+      "tags": [
+        "Security",
+        "Open Source"
+      ],
+      "hot_score": 0.04
+    },
+    {
+      "title_en": "A review of dice that came with the white castle",
+      "url": "https://boardgamegeek.com/thread/3533812/a-review-of-dice-that-came-with-the-white-castle",
+      "title_zh": "随 White Castle 附带的骰子评测",
+      "created_display": "Created: Mar 18, 2026 / 23:47 PT",
+      "image_url": null,
+      "summary_en": "A discussion thread reviewing a dice set that came with a White Castle promotion, focusing on design, randomness, and nostalgia. Explores how promotional items intersect with gaming culture.",
+      "summary_zh": "评测随 White Castle 推广活动附赠的骰子，讨论设计、随机性与情感记忆，以及促销品如何与游戏文化交汇。",
+      "hn": {
+        "id": 47435783,
+        "type": "story",
+        "by": "doener",
+        "score": 91,
+        "descendants": 25,
+        "time": 1773902874,
+        "comments_url": "https://news.ycombinator.com/item?id=47435783"
+      },
+      "tags": [
+        "Gaming"
+      ],
+      "hot_score": 0.03
     },
     {
       "title_en": "It's Their Mona Lisa",
@@ -1027,7 +1334,7 @@
         "id": 47425186,
         "type": "story",
         "by": "ramimac",
-        "score": 53,
+        "score": 58,
         "descendants": 15,
         "time": 1773838395,
         "comments_url": "https://news.ycombinator.com/item?id=47425186"
@@ -1036,29 +1343,6 @@
         "Culture"
       ],
       "hot_score": 0.01
-    },
-    {
-      "title_en": "A Review of Dice That Came with the White Castle",
-      "url": "https://boardgamegeek.com/thread/3533812/a-review-of-dice-that-came-with-the-white-castle",
-      "title_zh": "随 White Castle 附带的骰子评测",
-      "created_display": "Created: Mar 18, 2026 / 23:47 PT",
-      "image_url": null,
-      "summary_en": "A discussion thread reviewing a dice set that came with a White Castle promotion, focusing on design, randomness, and nostalgia. Explores how promotional items intersect with gaming culture.",
-      "summary_zh": "评测随 White Castle 推广活动附赠的骰子，讨论设计、随机性与情感记忆，以及促销品如何与游戏文化交汇。",
-      "hn": {
-        "id": 47435783,
-        "type": "story",
-        "by": "doener",
-        "score": 28,
-        "descendants": 4,
-        "time": 1773902874,
-        "comments_url": "https://news.ycombinator.com/item?id=47435783"
-      },
-      "hot_score": 0.01,
-      "tags": [
-        "Gaming",
-        "Culture"
-      ]
     },
     {
       "title_en": "Node.js worker threads are problematic, but they work great for us",
@@ -1072,10 +1356,54 @@
         "id": 47428117,
         "type": "story",
         "by": "goodoldneon",
-        "score": 27,
-        "descendants": 10,
+        "score": 47,
+        "descendants": 28,
         "time": 1773852711,
         "comments_url": "https://news.ycombinator.com/item?id=47428117"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 0.01
+    },
+    {
+      "title_en": "Why Lab Coats Turned White",
+      "url": "https://www.asimov.press/p/lab-coat",
+      "title_zh": "为什么实验室外套变白了",
+      "created_display": "Created: Mar 18, 2026 / 11:16 PT",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!DTsZ!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3c6c2ca7-b756-4992-b107-3eab5bfacb2e_2000x1260.jpeg",
+      "summary_en": "Explores the history and practical reasons behind white lab coats, including cleanliness, visibility of stains, and safety norms that shaped lab attire.",
+      "summary_zh": "解读实验室外套为何普遍为白色，涉及清洁、污渍可见性与安全规范等原因。",
+      "hn": {
+        "id": 47429285,
+        "type": "story",
+        "by": "mailyk",
+        "score": 46,
+        "descendants": 30,
+        "time": 1773857764,
+        "comments_url": "https://news.ycombinator.com/item?id=47429285"
+      },
+      "tags": [
+        "Science"
+      ],
+      "hot_score": 0.01
+    },
+    {
+      "title_en": "Monuses and Heaps",
+      "url": "https://doisinkidney.com/posts/2026-03-03-monus-heaps.html",
+      "title_zh": "Monuses 与堆的探讨",
+      "created_display": "Created: Mar 18, 2026 / 16:55 PT",
+      "image_url": null,
+      "summary_en": "Monuses and Heaps explores algebraic structures and data-structure interactions, offering insights into algorithm design and invariants. The post translates theoretical ideas into practical takeaways for engineers building efficient tools. It’s a read for those curious about the underpinnings of language and memory management.",
+      "summary_zh": "探讨代数结构与数据结构之间的关系，揭示算法设计中的不变量与实现要点。文中将理论思路转化为工程实践的可用要点，适合对语言与内存管理底层感兴趣的读者。",
+      "hn": {
+        "id": 47432893,
+        "type": "story",
+        "by": "aebtebeten",
+        "score": 38,
+        "descendants": 3,
+        "time": 1773878142,
+        "comments_url": "https://news.ycombinator.com/item?id=47432893"
       },
       "hot_score": 0.01,
       "tags": [
@@ -1094,15 +1422,36 @@
         "id": 47445433,
         "type": "story",
         "by": "jmbuilds",
-        "score": 18,
+        "score": 22,
         "descendants": 7,
         "time": 1773951830,
         "comments_url": "https://news.ycombinator.com/item?id=47445433"
       },
+      "tags": [
+        "Show HN"
+      ],
+      "hot_score": 0.01
+    },
+    {
+      "title_en": "Training Center for Maneuvering on Manned Model Ships",
+      "url": "https://www.portrevel.com/",
+      "title_zh": "用于操纵载人模型舰艇的训练中心",
+      "created_display": "Created: Mar 20, 2026 / 05:04 PT",
+      "image_url": "https://www.portrevel.com/uploads/Autopromo/atp_visuel/GAB_PORTREVEL/IMF_AUTOPROMO/52/22_666_porte-conteneur.jpg",
+      "summary_en": "Describes a training center for maneuvering manned model ships, outlining curriculum, simulators, and safety practices for hands-on engineering education.",
+      "summary_zh": "介绍用于操纵载人模型舰艇的训练中心，涵盖课程、仿真设备与安全规范，强调动手教育的价值。",
+      "hn": {
+        "id": 47453414,
+        "type": "story",
+        "by": "mhb",
+        "score": 22,
+        "descendants": 6,
+        "time": 1774008289,
+        "comments_url": "https://news.ycombinator.com/item?id=47453414"
+      },
       "hot_score": 0.01,
       "tags": [
-        "Show HN",
-        "Programming"
+        "Education"
       ]
     },
     {
@@ -1124,30 +1473,74 @@
       },
       "hot_score": 0.01,
       "tags": [
-        "Show HN",
+        "Show HN"
+      ]
+    },
+    {
+      "title_en": "A Fuzzer for the Toy Optimizer",
+      "url": "https://bernsteinbear.com/blog/toy-fuzzer/",
+      "title_zh": "Toy Optimizer 的模糊测试工具",
+      "created_display": "Created: Mar 17, 2026 / 08:32 PT",
+      "image_url": "https://bernsteinbear.com/favicon.ico",
+      "summary_en": "A fuzzing approach targets a tiny optimizer to surface edge cases and stability issues, illustrating how automated input generation can improve even small-scale optimization code. The results highlight the value of fuzz testing in uncovering bugs and performance pitfalls early. It’s a quick, practical lesson in reliability engineering.",
+      "summary_zh": "为一个小型优化器设计了模糊测试工具，用以暴露边界情况与稳定性问题，展示自动化输入生成在小型优化代码中的效用。该方法有助于及早发现缺陷与性能瓶颈，是可靠性工程的实用案例。",
+      "hn": {
+        "id": 47414112,
+        "type": "story",
+        "by": "surprisetalk",
+        "score": 28,
+        "descendants": 5,
+        "time": 1773761531,
+        "comments_url": "https://news.ycombinator.com/item?id=47414112"
+      },
+      "hot_score": 0.0,
+      "tags": [
         "Programming"
       ]
     },
     {
-      "title_en": "Why Lab Coats Turned White",
-      "url": "https://www.asimov.press/p/lab-coat",
-      "title_zh": "为什么实验室外套变白了",
-      "created_display": "Created: Mar 18, 2026 / 11:16 PT",
-      "image_url": "https://substackcdn.com/image/fetch/$s_!DTsZ!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3c6c2ca7-b756-4992-b107-3eab5bfacb2e_2000x1260.jpeg",
-      "summary_en": "Explores the history and practical reasons behind white lab coats, including cleanliness, visibility of stains, and safety norms that shaped lab attire.",
-      "summary_zh": "解读实验室外套为何普遍为白色，涉及清洁、污渍可见性与安全规范等原因。",
+      "title_en": "Zero ZGC4: A Better Graphing Calculator for School and Beyond",
+      "url": "https://www.zerocalculators.com/features",
+      "title_zh": "Zero ZGC4：面向校园及未来的更好图形计算器",
+      "created_display": "Created: Mar 17, 2026 / 11:07 PT",
+      "image_url": "https://cdn.prod.website-files.com/66eb1fda8bc67cfee80496a4/681bcd7faa13c95dd4807d29_Calculator%20Still%20Side%20Angle%20(1).avif",
+      "summary_en": "Zero ZGC4 brings a modern graphing calculator with improved math, performance, and usability for students and beyond. It showcases how educational tools continue to evolve with better interfaces and features. The takeaway is accessible, capable calculation tools that go beyond basic graphing.",
+      "summary_zh": "Zero ZGC4 提供了更现代的图形计算器，提升了数学运算、性能与易用性，惠及学生及更广用户。教育工具正在通过更好的界面和功能演进，提升学习体验。",
       "hn": {
-        "id": 47429285,
+        "id": 47416149,
         "type": "story",
-        "by": "mailyk",
-        "score": 10,
-        "descendants": 0,
-        "time": 1773857764,
-        "comments_url": "https://news.ycombinator.com/item?id=47429285"
+        "by": "uticus",
+        "score": 7,
+        "descendants": 8,
+        "time": 1773770854,
+        "comments_url": "https://news.ycombinator.com/item?id=47416149"
       },
       "hot_score": 0.0,
       "tags": [
-        "Science"
+        "Education",
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "Learnings from training a font recognition model from scratch",
+      "url": "https://www.mixfont.com/blog/learnings-from-training-a-font-recognition-model-from-scratch",
+      "title_zh": "从零开始训练字体识别模型的经验教训",
+      "created_display": "Created: Mar 17, 2026 / 13:16 PT",
+      "image_url": "https://static.normalsoftware.com/mixfont-og-rlgnsi8j.webp",
+      "summary_en": "From scratch, the team trained a font recognition model and documented the process: data collection, labeling, preprocessing, architecture choices, and evaluation. The piece surfaces practical lessons and pitfalls for building robust OCR-like systems with limited datasets. It helps readers plan end-to-end experimentation.",
+      "summary_zh": "分享从零开始训练字体识别模型的经验与教训，包括数据收集、标注、预处理、模型选择与评估。揭示在数据有限情境下构建鲁棒 OCR 类系统的实用要点与风险点，帮助读者进行端到端的实验规划。",
+      "hn": {
+        "id": 47417707,
+        "type": "story",
+        "by": "justswim",
+        "score": 5,
+        "descendants": 1,
+        "time": 1773778574,
+        "comments_url": "https://news.ycombinator.com/item?id=47417707"
+      },
+      "hot_score": 0.0,
+      "tags": [
+        "AI"
       ]
     }
   ]
