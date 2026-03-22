@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>35</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>4882</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>34</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>33</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-03-22</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>35</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>4901</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>34</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>33</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-03-22</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='155' data-hn-time='1774192588'>
+<div class='hn-top-story-item' data-hn-score='235' data-hn-time='1774200928'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/22/top_stories_03222026#story-47478401'>The Future of Version Control</a>
- <a class='hn-top-story-link' href='https://bramcohen.com/p/manyana' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/22/top_stories_03222026#story-47479962'>OpenClaw is a security nightmare dressed up as a daydream</a>
+ <a class='hn-top-story-link' href='https://composio.dev/content/openclaw-security-and-vulnerabilities' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>版本控制的未来</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.7</span> <span class='hn-top-story-score'>&#9650; 155</span> <span class='hn-top-story-comments'>&#128172; 73</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>OpenClaw：把安全隐患美化成白日梦</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.7</span> <span class='hn-top-story-score'>&#9650; 235</span> <span class='hn-top-story-comments'>&#128172; 166</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='264' data-hn-time='1774185151'>
+<div class='hn-top-story-item' data-hn-score='177' data-hn-time='1774203820'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/22/top_stories_03222026#story-47477158'>Bored of eating your own dogfood? Try smelling your own farts</a>
- <a class='hn-top-story-link' href='https://shkspr.mobi/blog/2026/03/bored-of-eating-your-own-dogfood-try-smelling-your-own-farts/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/22/top_stories_03222026#story-47480507'>PC Gamer recommends RSS readers in a 37mb article that just keeps downloading</a>
+ <a class='hn-top-story-link' href='https://stuartbreckenridge.net/2026-03-19-pc-gamer-recommends-rss-readers-in-a-37mb-article/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>厌倦吃自己的狗粮？试试聞闻你自己的屁</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.2</span> <span class='hn-top-story-score'>&#9650; 264</span> <span class='hn-top-story-comments'>&#128172; 162</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-zh'>PC Gamer 在一篇 37MB 的文章中推荐 RSS 阅读器，但文稿似乎不断在下载</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.2</span> <span class='hn-top-story-score'>&#9650; 177</span> <span class='hn-top-story-comments'>&#128172; 71</span> <span class='hn-top-story-tag'>Web</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='324' data-hn-time='1774192588'>
+<span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/22/top_stories_03222026#story-47478401'>The future of version control</a>
+ <a class='hn-top-story-link' href='https://bramcohen.com/p/manyana' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>版本控制的未来</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.2</span> <span class='hn-top-story-score'>&#9650; 324</span> <span class='hn-top-story-comments'>&#128172; 178</span> <span class='hn-top-story-tag'>Programming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='126' data-hn-time='1774202186'>
+<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/22/top_stories_03222026#story-47480200'>Palantir extends reach into British state as gets access to sensitive FCA data</a>
+ <a class='hn-top-story-link' href='https://www.theguardian.com/technology/2026/mar/22/palantir-extends-reach-into-british-state-as-it-gets-access-to-sensitive-fca-data' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Palantir 扩大在英国政府端的触角，获得敏感的 FCA 数据</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.5</span> <span class='hn-top-story-score'>&#9650; 126</span> <span class='hn-top-story-comments'>&#128172; 36</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Data</span></div>
 </div>
 </div>
 <div class='hn-top-story-item' data-hn-score='571' data-hn-time='1774170037'>
-<span class='hn-top-story-rank'>3</span>
+<span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/03/22/top_stories_03222026#story-47475686'>Hormuz Minesweeper – Are you tired of winning?</a>
  <a class='hn-top-story-link' href='https://hormuz.pythonic.ninja/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Hormuz Minesweeper：你厌倦赢了吗？</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.0</span> <span class='hn-top-story-score'>&#9650; 571</span> <span class='hn-top-story-comments'>&#128172; 376</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Gaming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 571</span> <span class='hn-top-story-comments'>&#128172; 376</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Gaming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='57' data-hn-time='1774199826'>
-<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='140' data-hn-time='1774199826'>
+<span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/03/22/top_stories_03222026#story-47479751'>Why I love NixOS</a>
  <a class='hn-top-story-link' href='https://www.birkey.co/2026-03-22-why-i-love-nixos.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>我为什么爱上 NixOS</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.6</span> <span class='hn-top-story-score'>&#9650; 57</span> <span class='hn-top-story-comments'>&#128172; 45</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>DevOps</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 140</span> <span class='hn-top-story-comments'>&#128172; 113</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>DevOps</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='137' data-hn-time='1774191989'>
-<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='76' data-hn-time='1774206163'>
+<span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/22/top_stories_03222026#story-47478298'>I hate: Programming Wayland applications</a>
- <a class='hn-top-story-link' href='https://www.p4m.dev/posts/29/index.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/22/top_stories_03222026#story-47480886'>The gold standard of optimization: A look under the hood of RollerCoaster Tycoon</a>
+ <a class='hn-top-story-link' href='https://larstofus.com/2026/03/22/the-gold-standard-of-optimization-a-look-under-the-hood-of-rollercoaster-tycoon/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>我讨厌编写 Wayland 应用</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.4</span> <span class='hn-top-story-score'>&#9650; 137</span> <span class='hn-top-story-comments'>&#128172; 114</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>优化的黄金标准：一探 RollerCoaster Tycoon 的底层实现</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.8</span> <span class='hn-top-story-score'>&#9650; 76</span> <span class='hn-top-story-comments'>&#128172; 21</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Gaming</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='215' data-hn-time='1774182518'>
-<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='154' data-hn-time='1774196932'>
+<span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/22/top_stories_03222026#story-47479183'>GrapheneOS refuses to comply with new age verification laws for operating system</a>
+ <a class='hn-top-story-link' href='https://www.tomshardware.com/software/operating-systems/grapheneos-refuses-to-comply-with-age-verification-laws' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>GrapheneOS 拒绝遵守针对操作系统的新年龄验证法</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.8</span> <span class='hn-top-story-score'>&#9650; 154</span> <span class='hn-top-story-comments'>&#128172; 69</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Open Source</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='318' data-hn-time='1774182518'>
+<span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/03/22/top_stories_03222026#story-47476821'>Project Nomad – Knowledge That Never Goes Offline</a>
  <a class='hn-top-story-link' href='https://www.projectnomad.us' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Project Nomad：知识永不离线</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.0</span> <span class='hn-top-story-score'>&#9650; 215</span> <span class='hn-top-story-comments'>&#128172; 41</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.7</span> <span class='hn-top-story-score'>&#9650; 318</span> <span class='hn-top-story-comments'>&#128172; 75</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='220' data-hn-time='1774179003'>
-<span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/22/top_stories_03222026#story-47476422'>Flash-MoE: Running a 397B Parameter Model on a Laptop</a>
- <a class='hn-top-story-link' href='https://github.com/danveloper/flash-moe' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Flash-MoE：在笔记本上运行397B参数模型</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.1</span> <span class='hn-top-story-score'>&#9650; 220</span> <span class='hn-top-story-comments'>&#128172; 83</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>DevOps</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='108' data-hn-time='1774185878'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/22/top_stories_03222026#story-47477284'>Building an FPGA 3dfx Voodoo with Modern RTL Tools</a>
- <a class='hn-top-story-link' href='https://noquiche.fyi/voodoo' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>用现代 RTL 工具构建 FPGA 的 3dfx Voodoo</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 108</span> <span class='hn-top-story-comments'>&#128172; 19</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Design</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='45' data-hn-time='1774194201'>
-<span class='hn-top-story-rank'>9</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/22/top_stories_03222026#story-47478687'>MAUI Is Coming to Linux</a>
- <a class='hn-top-story-link' href='https://avaloniaui.net/blog/maui-avalonia-preview-1' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>MAUI 即将登陆 Linux</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 45</span> <span class='hn-top-story-comments'>&#128172; 14</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Open Source</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='180' data-hn-time='1774173451'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='264' data-hn-time='1774185151'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/22/top_stories_03222026#story-47475938'>Windows native app development is a mess</a>
- <a class='hn-top-story-link' href='https://domenic.me/windows-native-dev/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/22/top_stories_03222026#story-47477158'>Bored of eating your own dogfood? Try smelling your own farts</a>
+ <a class='hn-top-story-link' href='https://shkspr.mobi/blog/2026/03/bored-of-eating-your-own-dogfood-try-smelling-your-own-farts/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Windows 原生应用开发是一团乱麻</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 180</span> <span class='hn-top-story-comments'>&#128172; 169</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>厌倦吃自己的狗粮？试试聞闻你自己的屁</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 264</span> <span class='hn-top-story-comments'>&#128172; 162</span> <span class='hn-top-story-tag'>Career</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -163,7 +163,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/03/22/top_stories_03222026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>67</b> <span class="hn-row-sep">·</span> Programming <b>21</b> <span class="hn-row-sep">·</span> AI <b>14</b></span>
+<span class='hn-row-detail'>All <b>86</b> <span class="hn-row-sep">·</span> Programming <b>25</b> <span class="hn-row-sep">·</span> AI <b>19</b></span>
 </a>
 </div>
 </div>
