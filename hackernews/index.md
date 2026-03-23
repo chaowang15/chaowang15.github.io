@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>36</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>5051</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>35</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>34</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-03-23</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>36</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>5065</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>35</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>34</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-03-23</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='286' data-hn-time='1774276210'>
+<div class='hn-top-story-item' data-hn-score='115' data-hn-time='1774297510'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/23/top_stories_03232026#story-47490070'>iPhone 17 Pro Demonstrated Running a 400B LLM</a>
- <a class='hn-top-story-link' href='https://twitter.com/anemll/status/2035901335984611412' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/23/top_stories_03232026#story-47494629'>Bets on US-Iran ceasefire show signs of insider knowledge, say experts</a>
+ <a class='hn-top-story-link' href='https://www.theguardian.com/us-news/2026/mar/23/bets-us-iran-ceasefire-show-signs-of-insider-knowledge-say-experts-polymarket' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>iPhone 17 Pro 展示本地运行 400B 参数的 LLM</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 10</span> <span class='hn-top-story-score'>&#9650; 286</span> <span class='hn-top-story-comments'>&#128172; 168</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>美伊停火赌注或受内部消息影响，专家称迹象明显</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.5</span> <span class='hn-top-story-score'>&#9650; 115</span> <span class='hn-top-story-comments'>&#128172; 83</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='696' data-hn-time='1774261052'>
+<div class='hn-top-story-item' data-hn-score='200' data-hn-time='1774291258'>
 <span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/23/top_stories_03232026#story-47493460'>Autoresearch on an old research idea</a>
+ <a class='hn-top-story-link' href='https://ykumar.me/blog/eclip-autoresearch/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>对一个旧研究想法的自动化再研究</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.7</span> <span class='hn-top-story-score'>&#9650; 200</span> <span class='hn-top-story-comments'>&#128172; 61</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Data</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='261' data-hn-time='1774287338'>
+<span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/23/top_stories_03232026#story-47492599'>US and TotalEnergies reach 'nearly $1B' deal to end offshore wind projects</a>
+ <a class='hn-top-story-link' href='https://www.lemonde.fr/en/international/article/2026/03/23/us-and-totalenergies-reach-nearly-1-billion-deal-to-end-offshore-wind-projects_6751739_4.html' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>美方与道达能源就终止海上风电项目达成近十亿美元协议</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.3</span> <span class='hn-top-story-score'>&#9650; 261</span> <span class='hn-top-story-comments'>&#128172; 185</span> <span class='hn-top-story-tag'>Energy</span> <span class='hn-top-story-tag'>Business</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='793' data-hn-time='1774261052'>
+<span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/03/23/top_stories_03232026#story-47487436'>Migrating to the EU</a>
  <a class='hn-top-story-link' href='https://rz01.org/eu-migration/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>迁移到欧盟</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.9</span> <span class='hn-top-story-score'>&#9650; 696</span> <span class='hn-top-story-comments'>&#128172; 561</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>DevOps</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.8</span> <span class='hn-top-story-score'>&#9650; 793</span> <span class='hn-top-story-comments'>&#128172; 616</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>DevOps</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='114' data-hn-time='1774282420'>
-<span class='hn-top-story-rank'>3</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/23/top_stories_03232026#story-47491496'>Is it a pint?</a>
- <a class='hn-top-story-link' href='https://isitapint.com/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>到底是一品脱吗？</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.1</span> <span class='hn-top-story-score'>&#9650; 114</span> <span class='hn-top-story-comments'>&#128172; 102</span> <span class='hn-top-story-tag'>Design</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='162' data-hn-time='1774277572'>
-<span class='hn-top-story-rank'>4</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/23/top_stories_03232026#story-47490365'>If DSPy is so great, why isn't anyone using it?</a>
- <a class='hn-top-story-link' href='https://skylarbpayne.com/posts/dspy-engineering-patterns/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>如果 DSPy 真这么棒，为什么没有人使用？</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.4</span> <span class='hn-top-story-score'>&#9650; 162</span> <span class='hn-top-story-comments'>&#128172; 98</span> <span class='hn-top-story-tag'>Programming</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='358' data-hn-time='1774262379'>
+<div class='hn-top-story-item' data-hn-score='408' data-hn-time='1774276210'>
 <span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/23/top_stories_03232026#story-47490070'>iPhone 17 Pro Demonstrated Running a 400B LLM</a>
+ <a class='hn-top-story-link' href='https://twitter.com/anemll/status/2035901335984611412' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>iPhone 17 Pro 展示本地运行 400B 参数的 LLM</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.6</span> <span class='hn-top-story-score'>&#9650; 408</span> <span class='hn-top-story-comments'>&#128172; 221</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Privacy</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='85' data-hn-time='1774296698'>
+<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/23/top_stories_03232026#story-47494469'>American Aviation Is Near Collapse</a>
+ <a class='hn-top-story-link' href='https://www.theatlantic.com/newsletters/2026/03/aviation-failures-tsa-dhs-shutdown/686505/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>美国航空业近乎崩溃</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.4</span> <span class='hn-top-story-score'>&#9650; 85</span> <span class='hn-top-story-comments'>&#128172; 68</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Politics</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='62' data-hn-time='1774298950'>
+<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/23/top_stories_03232026#story-47494890'>How I'm Productive with Claude Code</a>
+ <a class='hn-top-story-link' href='https://neilkakkar.com/productive-with-claude-code.html' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>我如何用 Claude Code 提高生产力</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.2</span> <span class='hn-top-story-score'>&#9650; 62</span> <span class='hn-top-story-comments'>&#128172; 35</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='110' data-hn-time='1774292228'>
+<span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/23/top_stories_03232026#story-47493657'>Local Stack Archived their GitHub repo and requires an account to run</a>
+ <a class='hn-top-story-link' href='https://github.com/localstack/localstack' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>LocalStack 将仓库归档，运行需账户</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.2</span> <span class='hn-top-story-score'>&#9650; 110</span> <span class='hn-top-story-comments'>&#128172; 54</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Programming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='416' data-hn-time='1774262379'>
+<span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/03/23/top_stories_03232026#story-47487584'>GitHub appears to be struggling with measly three nines availability</a>
  <a class='hn-top-story-link' href='https://www.theregister.com/2026/02/10/github_outages/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>GitHub 的可用性似乎仅有 99.9%（三九），引发关注</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.4</span> <span class='hn-top-story-score'>&#9650; 358</span> <span class='hn-top-story-comments'>&#128172; 188</span> <span class='hn-top-story-tag'>DevOps</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.7</span> <span class='hn-top-story-score'>&#9650; 416</span> <span class='hn-top-story-comments'>&#128172; 213</span> <span class='hn-top-story-tag'>DevOps</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='112' data-hn-time='1774279504'>
-<span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/23/top_stories_03232026#story-47490816'>Cyber.mil serving file downloads using TLS certificate which expired 3 days ago</a>
- <a class='hn-top-story-link' href='https://www.cyber.mil/stigs/downloads' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Cyber.mil 使用已过期的 TLS 证书提供下载</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.2</span> <span class='hn-top-story-score'>&#9650; 112</span> <span class='hn-top-story-comments'>&#128172; 104</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>DevOps</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='37' data-hn-time='1774287338'>
-<span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/23/top_stories_03232026#story-47492599'>US govt pays TotalEnergies nearly $1B to stop US offshore wind projects</a>
- <a class='hn-top-story-link' href='https://www.lemonde.fr/en/international/article/2026/03/23/us-and-totalenergies-reach-nearly-1-billion-deal-to-end-offshore-wind-projects_6751739_4.html' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>美国政府向 TotalEnergies 支付近 10 亿美元以停止美国海上风电项目</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 37</span> <span class='hn-top-story-comments'>&#128172; 6</span> <span class='hn-top-story-tag'>Energy</span> <span class='hn-top-story-tag'>Politics</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='238' data-hn-time='1774265479'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/23/top_stories_03232026#story-47488015'>Attractive students no longer receive better results as classes moved online</a>
- <a class='hn-top-story-link' href='https://www.sciencedirect.com/science/article/pii/S016517652200283X' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>网课让长相更好的学生不再获得更高成绩</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 238</span> <span class='hn-top-story-comments'>&#128172; 215</span> <span class='hn-top-story-tag'>Education</span> <span class='hn-top-story-tag'>Science</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='372' data-hn-time='1774254567'>
-<span class='hn-top-story-rank'>9</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/23/top_stories_03232026#story-47486726'>POSSE – Publish on your Own Site, Syndicate Elsewhere</a>
- <a class='hn-top-story-link' href='https://indieweb.org/POSSE' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>POSSE：先在自家站点发布，再在外部平台聚合</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 372</span> <span class='hn-top-story-comments'>&#128172; 80</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Privacy</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='107' data-hn-time='1774271610'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='163' data-hn-time='1774282420'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/23/top_stories_03232026#story-47489058'>Cyberattack on vehicle breathalyzer company leaves drivers stranded in the US</a>
- <a class='hn-top-story-link' href='https://techcrunch.com/2026/03/20/cyberattack-on-vehicle-breathalyzer-company-leaves-drivers-stranded-across-the-us/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/23/top_stories_03232026#story-47491496'>Is it a pint?</a>
+ <a class='hn-top-story-link' href='https://isitapint.com/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>车辆呼气测试设备公司遭网络攻击，致多地司机滞留</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.7</span> <span class='hn-top-story-score'>&#9650; 107</span> <span class='hn-top-story-comments'>&#128172; 141</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>到底是一品脱吗？</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.7</span> <span class='hn-top-story-score'>&#9650; 163</span> <span class='hn-top-story-comments'>&#128172; 138</span> <span class='hn-top-story-tag'>Design</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -191,7 +191,7 @@ Your browser does not support the audio element.
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/03/23/top_stories_03232026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>86</b> <span class="hn-row-sep">·</span> Programming <b>23</b> <span class="hn-row-sep">·</span> AI <b>18</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>25</b> <span class="hn-row-sep">·</span> Programming <b>25</b></span>
 </a>
 </div>
 </div>
