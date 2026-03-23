@@ -47,6 +47,52 @@ def _detect_mode(page_title: str) -> str:
     return "best"
 
 
+def _build_podcast_player_html(date_str: str, mode: str) -> str:
+    """Build inline podcast player HTML for daily best pages.
+
+    Returns empty string if mode is not 'best' or date is invalid.
+    """
+    if mode != "best" or not date_str:
+        return ""
+
+    try:
+        dt = datetime.strptime(date_str, "%Y-%m-%d")
+    except ValueError:
+        return ""
+
+    repo = "chaowang15/chaowang15.github.io"
+    date_tag = dt.strftime("%Y-%m-%d")
+    release_tag = f"podcast-{dt.strftime('%Y-%m')}"
+    mp3_filename = f"hn-podcast-{date_tag}.mp3"
+    transcript_filename = f"hn-podcast-{date_tag}-transcript.md"
+    mp3_url = f"https://github.com/{repo}/releases/download/{release_tag}/{mp3_filename}"
+    transcript_url = f"https://github.com/{repo}/releases/download/{release_tag}/{transcript_filename}"
+    date_display = dt.strftime("%B %d, %Y")
+
+    lines = []
+    lines.append("<div class='hn-podcast-inline'>")
+    lines.append("<div class='hn-podcast-player'>")
+    lines.append("<div class='hn-podcast-header'>")
+    lines.append("<span class='hn-podcast-icon'>\U0001F399</span>")
+    lines.append("<div class='hn-podcast-info'>")
+    lines.append(f"<p class='hn-podcast-title'>\U0001F3A7 Daily Podcast \u2014 {date_display}</p>")
+    lines.append(f"<p class='hn-podcast-meta'>\u4E2D\u6587\u64AD\u5BA2 \u00B7 AI \u751F\u6210 \u00B7 \u5C0F\u6653 &amp; \u4E91\u5E0C</p>")
+    lines.append("</div>")
+    lines.append("</div>")
+    lines.append(f"<audio class='hn-podcast-audio' controls preload='none'>")
+    lines.append(f"<source src='{mp3_url}' type='audio/mpeg'>")
+    lines.append("</audio>")
+    lines.append("<div class='hn-podcast-links'>")
+    lines.append(f"<a class='hn-podcast-link' href='{mp3_url}' download>")
+    lines.append("<span class='hn-podcast-link-icon'>\u2B07</span> Download MP3</a>")
+    lines.append(f"<a class='hn-podcast-link' href='{transcript_url}' target='_blank'>")
+    lines.append("<span class='hn-podcast-link-icon'>\U0001F4C4</span> Transcript</a>")
+    lines.append("</div>")
+    lines.append("</div>")
+    lines.append("</div>")
+    return "\n".join(lines)
+
+
 def render_markdown(
     items: List[Dict],
     page_title: str,
@@ -132,6 +178,11 @@ def render_markdown(
     subtitle = page_subtitle.strip()
     if subtitle:
         lines.append(f"<p class='hn-subtitle'>{subtitle}</p>")
+
+    # Add podcast player for daily best pages
+    podcast_html = _build_podcast_player_html(date_str, mode)
+    if podcast_html:
+        lines.append(podcast_html)
 
     lines.append("<hr class='hn-rule'/>")
     lines.append("<div class='hn-list'>")

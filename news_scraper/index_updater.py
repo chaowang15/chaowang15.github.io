@@ -361,6 +361,81 @@ def _collect_weekly_entries(base_dir: str) -> List[dict]:
     return entries
 
 
+def _get_podcast_info(base_dir: str, days: list) -> Optional[dict]:
+    """Find the latest available podcast and return its info.
+
+    Looks for podcast metadata by checking GitHub Releases URL pattern.
+    Returns dict with date, mp3_url, transcript_url, or None.
+    """
+    # Check recent days (up to 7) for best_stories JSON that would have a podcast
+    repo = "chaowang15/chaowang15.github.io"
+    for day in days[:7]:
+        try:
+            dt = datetime.strptime(day.content_date, "%Y-%m-%d")
+        except Exception:
+            continue
+        # Only best stories have podcasts
+        has_best = any(s.story_type == "best" for s in day.stories)
+        if not has_best:
+            continue
+
+        date_tag = dt.strftime("%Y-%m-%d")
+        release_tag = f"podcast-{dt.strftime('%Y-%m')}"
+        mp3_filename = f"hn-podcast-{date_tag}.mp3"
+        transcript_filename = f"hn-podcast-{date_tag}-transcript.md"
+
+        mp3_url = f"https://github.com/{repo}/releases/download/{release_tag}/{mp3_filename}"
+        transcript_url = f"https://github.com/{repo}/releases/download/{release_tag}/{transcript_filename}"
+
+        return {
+            "date": day.content_date,
+            "date_display": dt.strftime("%B %d, %Y"),
+            "mp3_url": mp3_url,
+            "transcript_url": transcript_url,
+            "release_tag": release_tag,
+        }
+    return None
+
+
+def _add_podcast_section(lines: list, base_dir: str, days: list):
+    """Add podcast player section to the index page."""
+    podcast = _get_podcast_info(base_dir, days)
+    if not podcast:
+        return
+
+    lines.append("<div class='hn-index-section hn-podcast-section'>")
+    lines.append("<h3 class='hn-section-title'>Daily Podcast <span class='hn-section-zh'>\u6BCF\u65E5\u64AD\u5BA2</span></h3>")
+    lines.append("<div class='hn-podcast-player'>")
+
+    # Header with icon and info
+    lines.append("<div class='hn-podcast-header'>")
+    lines.append("<span class='hn-podcast-icon'>\U0001F399</span>")
+    lines.append("<div class='hn-podcast-info'>")
+    lines.append(f"<p class='hn-podcast-title'>HN Daily Best \u2014 {podcast['date_display']}</p>")
+    lines.append(f"<p class='hn-podcast-meta'>\u4E2D\u6587\u64AD\u5BA2 \u00B7 AI \u751F\u6210 \u00B7 \u5C0F\u6653 &amp; \u4E91\u5E0C</p>")
+    lines.append("</div>")
+    lines.append("</div>")
+
+    # Audio player
+    lines.append(f"<audio class='hn-podcast-audio' controls preload='none'>")
+    lines.append(f"<source src='{podcast['mp3_url']}' type='audio/mpeg'>")
+    lines.append("Your browser does not support the audio element.")
+    lines.append("</audio>")
+
+    # Links
+    lines.append("<div class='hn-podcast-links'>")
+    lines.append(f"<a class='hn-podcast-link' href='{podcast['mp3_url']}' download>")
+    lines.append("<span class='hn-podcast-link-icon'>\u2B07</span> Download MP3")
+    lines.append("</a>")
+    lines.append(f"<a class='hn-podcast-link' href='{podcast['transcript_url']}' target='_blank'>")
+    lines.append("<span class='hn-podcast-link-icon'>\U0001F4C4</span> Transcript")
+    lines.append("</a>")
+    lines.append("</div>")
+
+    lines.append("</div>")  # hn-podcast-player
+    lines.append("</div>")  # hn-podcast-section
+
+
 def update_hackernews_index(
     base_dir: str = "hackernews",
     index_path: str = "hackernews/index.md",
@@ -472,6 +547,9 @@ def update_hackernews_index(
             lines.append(f"<a class='hn-top-stories-more' href='{top_stories[0]['daily_url']}'>View all trending stories &rarr;</a>")
         lines.append("</div>")  # hn-top-stories-list
         lines.append("</div>")  # hn-top-stories-section
+
+    # Podcast section (latest available podcast)
+    _add_podcast_section(lines, base_dir, all_days)
 
     # Weekly digest links
     weekly_entries = _collect_weekly_entries(base_dir)

@@ -43,6 +43,7 @@ from rss_builder import build_rss_feed
 from share_page_builder import build_share_pages
 from backup_io import write_backup_json, read_backup_json
 from tag_generator import tag_json_file
+from podcast_generator import generate_daily_podcast
 
 
 TOP_STORIES_MAX = 100  # Maximum number of top stories to keep per day
@@ -951,6 +952,30 @@ def main():
     # Build share pages for OG previews (needs repo root, not base_dir)
     build_share_pages(".")
 
+
+    # Generate podcast for best stories (only when best mode is included)
+    if "best" in modes_to_run:
+        podcast_enabled = cfg.get("podcast", {}).get("enabled", True)
+        skip_upload = "--skip-upload" in sys.argv
+        if podcast_enabled:
+            try:
+                tz_name = cfg["timezone"]
+                content_dt = now_in_tz(tz_name) - timedelta(days=1)
+                podcast_result = generate_daily_podcast(
+                    base_dir=base_dir,
+                    target_date=content_dt,
+                    skip_upload=skip_upload,
+                )
+                if podcast_result:
+                    print(f"[PODCAST] Podcast generated: {podcast_result.get('mp3_url', '')}")
+                else:
+                    print("[PODCAST] Podcast generation returned empty result")
+            except Exception as e:
+                print(f"[WARN] Podcast generation failed (non-fatal): {e}")
+                import traceback
+                traceback.print_exc()
+        else:
+            print("[PODCAST] Podcast generation disabled in config")
 
     # Clean index page
     try:
