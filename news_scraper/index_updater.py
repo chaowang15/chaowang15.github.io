@@ -595,6 +595,18 @@ def update_hackernews_index(
                     lines.append(f"<span class='hn-row-detail'>{detail_html}</span>")
                 lines.append("</a>")
 
+                # Add podcast listen badge inline within the story-link for daily best entries
+                if s.story_type == "best":
+                    try:
+                        _sdt = datetime.strptime(day.content_date, "%Y-%m-%d")
+                        # Insert podcast badge BEFORE the closing </a> of the story-link
+                        if lines[-1] == "</a>":
+                            lines.pop()  # remove </a>
+                            lines.append(f"<span class='hn-podcast-badge' title='Podcast available'>&#x1F3A7;</span>")
+                            lines.append("</a>")  # re-add closing tag
+                    except Exception:
+                        pass
+
             lines.append("</div>")  # hn-day-stories
             lines.append("</div>")  # hn-day-row
 

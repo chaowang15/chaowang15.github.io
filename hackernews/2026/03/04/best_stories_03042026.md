@@ -5,6 +5,26 @@ title: "Hacker News — Daily Best (2026-03-04)"
 <h1 class='hn-h1'>Hacker News Daily — 2026-03-04 <span class='hn-mode-badge hn-mode-best'>Daily Best</span></h1>
 <div class='hn-nav'><a class='hn-nav-btn hn-prev' href='/hackernews/2026/03/03/best_stories_03032026'>‹ Prev day</a><a class='hn-nav-btn hn-nav-index' href='/hackernews/'>← Index</a><a class='hn-nav-btn hn-next' href='/hackernews/2026/03/05/best_stories_03052026'>Next day ›</a></div>
 <p class='hn-subtitle'>Scraped at 05:09, March 05, 2026 (PST)</p>
+<div class='hn-podcast-inline'>
+<div class='hn-podcast-player'>
+<div class='hn-podcast-header'>
+<span class='hn-podcast-icon'>🎙</span>
+<div class='hn-podcast-info'>
+<p class='hn-podcast-title'>🎧 Daily Podcast — March 04, 2026</p>
+<p class='hn-podcast-meta'>中文播客 · AI 生成 · 小晓 &amp; 云希</p>
+</div>
+</div>
+<audio class='hn-podcast-audio' controls preload='none'>
+<source src='https://github.com/chaowang15/chaowang15.github.io/releases/download/podcast-2026-03/hn-podcast-2026-03-04.mp3' type='audio/mpeg'>
+</audio>
+<div class='hn-podcast-links'>
+<a class='hn-podcast-link' href='https://github.com/chaowang15/chaowang15.github.io/releases/download/podcast-2026-03/hn-podcast-2026-03-04.mp3' download>
+<span class='hn-podcast-link-icon'>⬇</span> Download MP3</a>
+<a class='hn-podcast-link' href='https://github.com/chaowang15/chaowang15.github.io/releases/download/podcast-2026-03/hn-podcast-2026-03-04-transcript.md' target='_blank'>
+<span class='hn-podcast-link-icon'>📄</span> Transcript</a>
+</div>
+</div>
+</div>
 <hr class='hn-rule'/>
 <div class='hn-list'>
 <div class='hn-card' id='story-47259177' data-tags='Legal,Open Source' data-hn-time='1772699871' data-hn-score='269' data-hot-score='9.07'>
