@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>37</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>5209</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>36</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>35</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-03-24</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>37</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>5215</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>36</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>35</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-03-24</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,40 +20,40 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='822' data-hn-time='1774344989'>
+<div class='hn-top-story-item' data-hn-score='329' data-hn-time='1774384268'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/24/top_stories_03242026#story-47500335'>Microsoft's "Fix" for Windows 11: Flowers After the Beating</a>
- <a class='hn-top-story-link' href='https://www.sambent.com/microsofts-plan-to-fix-windows-11-is-gaslighting/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/24/top_stories_03242026#story-47508745'>Is anybody else bored of talking about AI?</a>
+ <a class='hn-top-story-link' href='https://blog.jakesaunders.dev/is-anybody-else-bored-of-talking-about-ai/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>微软对 Windows 11 的“修复”：挨打后的花束</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 10</span> <span class='hn-top-story-score'>&#9650; 822</span> <span class='hn-top-story-comments'>&#128172; 600</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-zh'>还有人觉得聊 AI 吗？</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 29</span> <span class='hn-top-story-score'>&#9650; 329</span> <span class='hn-top-story-comments'>&#128172; 255</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='303' data-hn-time='1774361999'>
+<div class='hn-top-story-item' data-hn-score='256' data-hn-time='1774383814'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/24/top_stories_03242026#story-47503006'>So where are all the AI apps?</a>
- <a class='hn-top-story-link' href='https://www.answer.ai/posts/2026-03-12-so-where-are-all-the-ai-apps.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/24/top_stories_03242026#story-47508608'>GitHub is once again down</a>
+ <a class='hn-top-story-link' href='https://www.githubstatus.com/incidents/kp06czybl7dw' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>AI 应用到底在哪儿？</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.9</span> <span class='hn-top-story-score'>&#9650; 303</span> <span class='hn-top-story-comments'>&#128172; 284</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>GitHub 再次宕机</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 21</span> <span class='hn-top-story-score'>&#9650; 256</span> <span class='hn-top-story-comments'>&#128172; 131</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>DevOps</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='225' data-hn-time='1774365559'>
+<div class='hn-top-story-item' data-hn-score='445' data-hn-time='1774377292'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/24/top_stories_03242026#story-47503965'>LaGuardia pilots raised safety alarms months before deadly runway crash</a>
- <a class='hn-top-story-link' href='https://www.theguardian.com/us-news/2026/mar/24/laguardia-airplane-pilots-safety-concerns-crash' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/24/top_stories_03242026#story-47507150'>Wine 11 rewrites how Linux runs Windows games at kernel with massive speed gains</a>
+ <a class='hn-top-story-link' href='https://www.xda-developers.com/wine-11-rewrites-linux-runs-windows-games-speed-gains/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>拉瓜迪亚机场飞行员在致命跑道事故前数月发出安全警报</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.8</span> <span class='hn-top-story-score'>&#9650; 225</span> <span class='hn-top-story-comments'>&#128172; 181</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>Wine 11：在内核层重写以显著提升 Linux 上运行 Windows 游戏的速度</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 19</span> <span class='hn-top-story-score'>&#9650; 445</span> <span class='hn-top-story-comments'>&#128172; 158</span> <span class='hn-top-story-tag'>Gaming</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='176' data-hn-time='1774366181'>
+<div class='hn-top-story-item' data-hn-score='414' data-hn-time='1774366181'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -61,73 +61,73 @@ Sort:
  <a class='hn-top-story-link' href='https://www.apple.com/newsroom/2026/03/introducing-apple-business-a-new-all-in-one-platform-for-businesses-of-all-sizes/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Apple Business：面向各规模企业的一体化平台</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.1</span> <span class='hn-top-story-score'>&#9650; 176</span> <span class='hn-top-story-comments'>&#128172; 145</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.1</span> <span class='hn-top-story-score'>&#9650; 414</span> <span class='hn-top-story-comments'>&#128172; 268</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='78' data-hn-time='1774373455'>
+<div class='hn-top-story-item' data-hn-score='70' data-hn-time='1774386081'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/24/top_stories_03242026#story-47506259'>The AI Industry Is Lying to You</a>
- <a class='hn-top-story-link' href='https://www.wheresyoured.at/the-ai-industry-is-lying-to-you/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/24/top_stories_03242026#story-47509234'>Disney Exits OpenAI Deal After AI Giant Shutters Sora</a>
+ <a class='hn-top-story-link' href='https://www.hollywoodreporter.com/business/digital/openai-shutting-down-sora-ai-video-app-1236546187/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>AI 行业在欺骗你</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.1</span> <span class='hn-top-story-score'>&#9650; 78</span> <span class='hn-top-story-comments'>&#128172; 27</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>迪士尼在 OpenAI 交易中退出 Sora 项目</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.8</span> <span class='hn-top-story-score'>&#9650; 70</span> <span class='hn-top-story-comments'>&#128172; 11</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='149' data-hn-time='1774367884'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='389' data-hn-time='1774365952'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/24/top_stories_03242026#story-47504615'>No Terms. No Conditions</a>
- <a class='hn-top-story-link' href='https://notermsnoconditions.com' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/24/top_stories_03242026#story-47504060'>Mystery jump in oil trading ahead of Trump post draws scrutiny</a>
+ <a class='hn-top-story-link' href='https://www.bbc.com/news/articles/cg547ljepvzo' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>无条款、无条件</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.0</span> <span class='hn-top-story-score'>&#9650; 149</span> <span class='hn-top-story-comments'>&#128172; 63</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-zh'>特朗普发帖前油价交易出现神秘跳涨，引发关注</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.5</span> <span class='hn-top-story-score'>&#9650; 389</span> <span class='hn-top-story-comments'>&#128172; 236</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='74' data-hn-time='1774373551'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='891' data-hn-time='1774344989'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/24/top_stories_03242026#story-47506279'>Country that put backdoors in Cisco routers to spy on world bans foreign routers</a>
- <a class='hn-top-story-link' href='https://www.theregister.com/2026/03/24/fcc_foreign_routers/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/24/top_stories_03242026#story-47500335'>Microsoft's "fix" for Windows 11</a>
+ <a class='hn-top-story-link' href='https://www.sambent.com/microsofts-plan-to-fix-windows-11-is-gaslighting/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>某国在思科路由器中植入后门以实施全球监视，现禁止进口外国路由器</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.7</span> <span class='hn-top-story-score'>&#9650; 74</span> <span class='hn-top-story-comments'>&#128172; 28</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>微软对 Windows 11 的“修复”：挨打后的花束</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.0</span> <span class='hn-top-story-score'>&#9650; 891</span> <span class='hn-top-story-comments'>&#128172; 676</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='134' data-hn-time='1774368142'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='219' data-hn-time='1774373442'>
 <span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/24/top_stories_03242026#story-47504695'>Hypura – A storage-tier-aware LLM inference scheduler for Apple Silicon</a>
- <a class='hn-top-story-link' href='https://github.com/t8/hypura' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Hypura：面向 Apple Silicon 的存储层感知 LLM 推理调度器</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.4</span> <span class='hn-top-story-score'>&#9650; 134</span> <span class='hn-top-story-comments'>&#128172; 60</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Hardware</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='54' data-hn-time='1774375156'>
-<span class='hn-top-story-rank'>9</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/24/top_stories_03242026#story-47506641'>ARM AGI CPU: Specs and SKUs</a>
- <a class='hn-top-story-link' href='https://sbcwiki.com/docs/soc-manufacturers/arm/arm-silicon/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>ARM AGI CPU：规格与型号</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.2</span> <span class='hn-top-story-score'>&#9650; 54</span> <span class='hn-top-story-comments'>&#128172; 12</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='59' data-hn-time='1774373442'>
-<span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/03/24/top_stories_03242026#story-47506251'>Arm AGI CPU</a>
  <a class='hn-top-story-link' href='https://newsroom.arm.com/blog/introducing-arm-agi-cpu' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Arm AGI CPU：面向通用人工智能的新一代处理器</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.0</span> <span class='hn-top-story-score'>&#9650; 59</span> <span class='hn-top-story-comments'>&#128172; 34</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.8</span> <span class='hn-top-story-score'>&#9650; 219</span> <span class='hn-top-story-comments'>&#128172; 171</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Security</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='309' data-hn-time='1774365559'>
+<span class='hn-top-story-rank'>9</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/24/top_stories_03242026#story-47503965'>LaGuardia pilots raised safety alarms months before deadly runway crash</a>
+ <a class='hn-top-story-link' href='https://www.theguardian.com/us-news/2026/mar/24/laguardia-airplane-pilots-safety-concerns-crash' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>拉瓜迪亚机场飞行员在致命跑道事故前数月发出安全警报</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.8</span> <span class='hn-top-story-score'>&#9650; 309</span> <span class='hn-top-story-comments'>&#128172; 244</span> <span class='hn-top-story-tag'>Security</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='362' data-hn-time='1774361999'>
+<span class='hn-top-story-rank'>10</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/24/top_stories_03242026#story-47503006'>So where are all the AI apps?</a>
+ <a class='hn-top-story-link' href='https://www.answer.ai/posts/2026-03-12-so-where-are-all-the-ai-apps.html' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>AI 应用到底在哪儿？</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.7</span> <span class='hn-top-story-score'>&#9650; 362</span> <span class='hn-top-story-comments'>&#128172; 328</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -196,7 +196,7 @@ Your browser does not support the audio element.
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/03/24/top_stories_03242026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>94</b> <span class="hn-row-sep">·</span> Programming <b>32</b> <span class="hn-row-sep">·</span> AI <b>21</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>30</b> <span class="hn-row-sep">·</span> AI <b>25</b></span>
 </a>
 </div>
 </div>
