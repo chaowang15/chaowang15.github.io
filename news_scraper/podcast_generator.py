@@ -445,6 +445,7 @@ def upload_to_release(files: list, target_date: datetime, repo: str = "") -> boo
     """Upload files to a monthly GitHub Release.
 
     Creates the release if it doesn't exist, otherwise appends files.
+    Uses subprocess list args (not shell=True) to avoid shell escaping issues.
     """
     tag = f"podcast-{target_date.strftime('%Y-%m')}"
     title = f"HN Podcast - {target_date.strftime('%B %Y')}"
@@ -453,26 +454,25 @@ def upload_to_release(files: list, target_date: datetime, repo: str = "") -> boo
         "Each day includes:\n"
         "- MP3 audio (Chinese, Azure Speech TTS)\n"
         "- Markdown transcript (Chinese-English mixed)\n\n"
-        "Files are named `hn-podcast-YYYY-MM-DD.*`"
+        "Files are named hn-podcast-YYYY-MM-DD.mp3 and hn-podcast-YYYY-MM-DD-transcript.md"
     )
 
-    repo_flag = f"--repo {repo}" if repo else ""
+    repo_args = ["--repo", repo] if repo else []
 
     # Check if release already exists
-    check_cmd = f"gh release view {tag} {repo_flag} 2>/dev/null"
-    result = subprocess.run(check_cmd, shell=True, capture_output=True, text=True)
+    check_cmd = ["gh", "release", "view", tag] + repo_args
+    result = subprocess.run(check_cmd, capture_output=True, text=True)
 
     if result.returncode != 0:
         # Create new release
         print(f"[PODCAST] Creating new release: {tag}")
-        file_args = " ".join(f'"{f}"' for f in files)
         create_cmd = (
-            f'gh release create {tag} {file_args} '
-            f'--title "{title}" '
-            f'--notes "{body}" '
-            f'{repo_flag}'
+            ["gh", "release", "create", tag]
+            + list(files)
+            + ["--title", title, "--notes", body]
+            + repo_args
         )
-        result = subprocess.run(create_cmd, shell=True, capture_output=True, text=True)
+        result = subprocess.run(create_cmd, capture_output=True, text=True)
         if result.returncode != 0:
             print(f"[PODCAST] ERROR creating release: {result.stderr}")
             return False
@@ -480,9 +480,13 @@ def upload_to_release(files: list, target_date: datetime, repo: str = "") -> boo
     else:
         # Upload to existing release
         print(f"[PODCAST] Uploading to existing release: {tag}")
-        file_args = " ".join(f'"{f}"' for f in files)
-        upload_cmd = f"gh release upload {tag} {file_args} --clobber {repo_flag}"
-        result = subprocess.run(upload_cmd, shell=True, capture_output=True, text=True)
+        upload_cmd = (
+            ["gh", "release", "upload", tag]
+            + list(files)
+            + ["--clobber"]
+            + repo_args
+        )
+        result = subprocess.run(upload_cmd, capture_output=True, text=True)
         if result.returncode != 0:
             print(f"[PODCAST] ERROR uploading: {result.stderr}")
             return False
@@ -495,8 +499,8 @@ def upload_to_release(files: list, target_date: datetime, repo: str = "") -> boo
             url_repo = repo
         else:
             detect = subprocess.run(
-                "gh repo view --json nameWithOwner -q .nameWithOwner",
-                shell=True, capture_output=True, text=True,
+                ["gh", "repo", "view", "--json", "nameWithOwner", "-q", ".nameWithOwner"],
+                capture_output=True, text=True,
             )
             url_repo = detect.stdout.strip() if detect.returncode == 0 else "OWNER/REPO"
         url = f"https://github.com/{url_repo}/releases/download/{tag}/{fname}"
@@ -624,8 +628,8 @@ def generate_daily_podcast(
 
     # Determine download URL
     detect = subprocess.run(
-        "gh repo view --json nameWithOwner -q .nameWithOwner 2>/dev/null",
-        shell=True, capture_output=True, text=True,
+        ["gh", "repo", "view", "--json", "nameWithOwner", "-q", ".nameWithOwner"],
+        capture_output=True, text=True,
     )
     url_repo = detect.stdout.strip() if detect.returncode == 0 else repo
     if not url_repo:
