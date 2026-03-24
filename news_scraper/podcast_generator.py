@@ -362,12 +362,76 @@ def build_ssml(raw_transcript: str, voice_pair: dict) -> str:
     return '\n'.join(ssml_parts)
 
 
+def _build_ssml_chunk(segments: list, voice_pair: dict) -> str:
+    """Build a single SSML document from a list of (speaker, content) segments."""
+    female_voice = voice_pair["female_voice"]
+    female_style = voice_pair["female_style"]
+    male_voice = voice_pair["male_voice"]
+    male_style = voice_pair["male_style"]
+
+    ssml_parts = [
+        '<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="zh-CN">'
+    ]
+    for speaker, content in segments:
+        content = content.strip()
+        if not content:
+            continue
+        content = content.replace("&", "&amp;")
+        content = content.replace("<", "&lt;")
+        content = content.replace(">", "&gt;")
+        if speaker == "Person1":
+            voice_id, style = female_voice, female_style
+        else:
+            voice_id, style = male_voice, male_style
+        ssml_parts.append(
+            f'  <voice name="{voice_id}">\n'
+            f'    <mstts:express-as xmlns:mstts="http://www.w3.org/2001/mstts" style="{style}">\n'
+            f'      {content}\n'
+            f'    </mstts:express-as>\n'
+            f'  </voice>'
+        )
+    ssml_parts.append('</speak>')
+    return '\n'.join(ssml_parts)
+
+
+def _synthesize_one_chunk(ssml: str, output_path: str, speech_key: str, speech_region: str) -> bool:
+    """Synthesize a single SSML chunk to an MP3 file. Returns True on success."""
+    import azure.cognitiveservices.speech as speechsdk
+
+    speech_config = speechsdk.SpeechConfig(subscription=speech_key, region=speech_region)
+    speech_config.set_speech_synthesis_output_format(
+        speechsdk.SpeechSynthesisOutputFormat.Audio48Khz192KBitRateMonoMp3
+    )
+    audio_config = speechsdk.audio.AudioOutputConfig(filename=output_path)
+    synthesizer = speechsdk.SpeechSynthesizer(
+        speech_config=speech_config, audio_config=audio_config
+    )
+
+    result = synthesizer.speak_ssml_async(ssml).get()
+
+    if result.reason == speechsdk.ResultReason.SynthesizingAudioCompleted:
+        return True
+    elif result.reason == speechsdk.ResultReason.Canceled:
+        cancellation = result.cancellation_details
+        print(f"[PODCAST] ERROR: Azure TTS canceled: {cancellation.reason}")
+        if cancellation.error_details:
+            print(f"[PODCAST]   Details: {cancellation.error_details}")
+        return False
+    else:
+        print(f"[PODCAST] ERROR: Azure TTS unexpected result: {result.reason}")
+        return False
+
+
 def synthesize_audio(raw_transcript: str, output_mp3: str, voice_pair: dict) -> bool:
     """Synthesize audio from transcript using Azure Speech TTS.
 
-    Azure Speech TTS supports SSML with multiple voices in a single request,
-    so we can generate the entire podcast in one API call — no chunking needed.
+    Azure Free F0 tier has a ~10 minute / ~14MB per-request limit.
+    If the transcript has many segments, we split into chunks of
+    MAX_SEGMENTS_PER_CHUNK segments, synthesize each chunk separately,
+    then concatenate with ffmpeg.
     """
+    MAX_SEGMENTS_PER_CHUNK = 25  # ~6-7 min per chunk, safely under 10 min limit
+
     try:
         import azure.cognitiveservices.speech as speechsdk
     except ImportError:
@@ -381,35 +445,76 @@ def synthesize_audio(raw_transcript: str, output_mp3: str, voice_pair: dict) -> 
         print("[PODCAST] ERROR: AZURE_SPEECH_KEY not set")
         return False
 
-    # Build SSML
-    ssml = build_ssml(raw_transcript, voice_pair)
-    if not ssml:
-        print("[PODCAST] ERROR: Failed to build SSML")
+    # Parse all dialogue segments
+    pattern = r"<(Person[12])>(.*?)</\1>"
+    all_segments = re.findall(pattern, raw_transcript, re.DOTALL)
+    all_segments = [(s, c.strip()) for s, c in all_segments if c.strip()]
+
+    if not all_segments:
+        print("[PODCAST] WARNING: No dialogue segments found in transcript")
         return False
 
-    print(f"[PODCAST] SSML built: {len(ssml)} chars, {ssml.count('<voice')} voice segments")
+    total_segments = len(all_segments)
+    print(f"[PODCAST] Total dialogue segments: {total_segments}")
 
-    # Configure Azure Speech
-    speech_config = speechsdk.SpeechConfig(subscription=speech_key, region=speech_region)
-    speech_config.set_speech_synthesis_output_format(
-        speechsdk.SpeechSynthesisOutputFormat.Audio48Khz192KBitRateMonoMp3
-    )
+    # Decide whether to chunk
+    if total_segments <= MAX_SEGMENTS_PER_CHUNK:
+        # Single request — no chunking needed
+        ssml = _build_ssml_chunk(all_segments, voice_pair)
+        print(f"[PODCAST] SSML built: {len(ssml)} chars, {total_segments} voice segments (single chunk)")
+        print("[PODCAST] Starting Azure TTS synthesis...")
+        t0 = time.time()
+        success = _synthesize_one_chunk(ssml, output_mp3, speech_key, speech_region)
+        elapsed = time.time() - t0
+    else:
+        # Split into chunks
+        chunks = []
+        for i in range(0, total_segments, MAX_SEGMENTS_PER_CHUNK):
+            chunks.append(all_segments[i:i + MAX_SEGMENTS_PER_CHUNK])
+        num_chunks = len(chunks)
+        print(f"[PODCAST] Splitting into {num_chunks} chunks ({MAX_SEGMENTS_PER_CHUNK} segments each)")
 
-    audio_config = speechsdk.audio.AudioOutputConfig(filename=output_mp3)
-    synthesizer = speechsdk.SpeechSynthesizer(
-        speech_config=speech_config, audio_config=audio_config
-    )
+        chunk_files = []
+        t0 = time.time()
+        for idx, chunk_segments in enumerate(chunks):
+            chunk_ssml = _build_ssml_chunk(chunk_segments, voice_pair)
+            chunk_path = os.path.join(WORK_DIR, f"chunk_{idx:02d}.mp3")
+            print(f"[PODCAST]   Chunk {idx + 1}/{num_chunks}: {len(chunk_segments)} segments, {len(chunk_ssml)} chars")
 
-    print("[PODCAST] Starting Azure TTS synthesis...")
-    t0 = time.time()
+            if not _synthesize_one_chunk(chunk_ssml, chunk_path, speech_key, speech_region):
+                print(f"[PODCAST] ERROR: Chunk {idx + 1} failed")
+                return False
 
-    result = synthesizer.speak_ssml_async(ssml).get()
-    elapsed = time.time() - t0
+            chunk_files.append(chunk_path)
+            print(f"[PODCAST]   Chunk {idx + 1}/{num_chunks} done: {os.path.getsize(chunk_path) / (1024*1024):.1f} MB")
 
-    if result.reason == speechsdk.ResultReason.SynthesizingAudioCompleted:
+        elapsed = time.time() - t0
+
+        # Concatenate chunks with ffmpeg
+        print(f"[PODCAST] Concatenating {num_chunks} chunks with ffmpeg...")
+        concat_list = os.path.join(WORK_DIR, "concat_list.txt")
+        with open(concat_list, "w") as f:
+            for cf in chunk_files:
+                f.write(f"file '{cf}'\n")
+
+        concat_cmd = [
+            "ffmpeg", "-y", "-f", "concat", "-safe", "0",
+            "-i", concat_list, "-c", "copy", output_mp3,
+        ]
+        concat_result = subprocess.run(concat_cmd, capture_output=True, text=True)
+        if concat_result.returncode != 0:
+            print(f"[PODCAST] ERROR: ffmpeg concat failed: {concat_result.stderr}")
+            return False
+
+        # Clean up chunk files
+        for cf in chunk_files:
+            os.remove(cf)
+        os.remove(concat_list)
+
+        success = True
+
+    if success:
         mp3_size = os.path.getsize(output_mp3) / (1024 * 1024)
-
-        # Get duration via ffprobe
         probe = subprocess.run(
             [
                 "ffprobe", "-v", "quiet",
@@ -420,22 +525,12 @@ def synthesize_audio(raw_transcript: str, output_mp3: str, voice_pair: dict) -> 
             capture_output=True, text=True,
         )
         duration = float(probe.stdout.strip()) if probe.stdout.strip() else 0
-
         print(f"[PODCAST] Azure TTS completed in {elapsed:.1f}s")
         print(f"[PODCAST]   Duration: {duration:.0f}s ({duration / 60:.1f} min)")
         print(f"[PODCAST]   Size: {mp3_size:.1f} MB")
         return True
 
-    elif result.reason == speechsdk.ResultReason.Canceled:
-        cancellation = result.cancellation_details
-        print(f"[PODCAST] ERROR: Azure TTS canceled: {cancellation.reason}")
-        if cancellation.error_details:
-            print(f"[PODCAST]   Details: {cancellation.error_details}")
-        return False
-
-    else:
-        print(f"[PODCAST] ERROR: Azure TTS unexpected result: {result.reason}")
-        return False
+    return False
 
 
 # ---------------------------------------------------------------------------
