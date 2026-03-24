@@ -25,9 +25,16 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Install podcast deps
+        run: |
+          pip install azure-cognitiveservices-speech
+          sudo apt-get update && sudo apt-get install -y ffmpeg
+
       - name: Run scraper (best stories only)
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
+          AZURE_SPEECH_REGION: ${{ secrets.AZURE_SPEECH_REGION }}
         run: |
           python news_scraper/main.py best
 
@@ -58,6 +65,17 @@ jobs:
             echo '```' >> $GITHUB_STEP_SUMMARY
             tail -n 10 logs/openai_token_usage_log.md >> $GITHUB_STEP_SUMMARY
             echo '```' >> $GITHUB_STEP_SUMMARY
+          fi
+          echo "" >> $GITHUB_STEP_SUMMARY
+          # Podcast info
+          echo "### 🎙️ Podcast" >> $GITHUB_STEP_SUMMARY
+          if ls /tmp/podcast_work/hn-podcast-*.mp3 1>/dev/null 2>&1; then
+            for f in /tmp/podcast_work/hn-podcast-*.mp3; do
+              size=$(du -h "$f" | cut -f1)
+              echo "- $(basename $f): $size" >> $GITHUB_STEP_SUMMARY
+            done
+          else
+            echo "- No podcast generated" >> $GITHUB_STEP_SUMMARY
           fi
           
       - name: Commit & push
