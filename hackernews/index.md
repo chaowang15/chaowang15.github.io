@@ -140,12 +140,25 @@ Sort:
 <div class='hn-podcast-header'>
 <span class='hn-podcast-icon'>🎙</span>
 <div class='hn-podcast-info'>
-<p class='hn-podcast-title'>HN Daily Best — March 23, 2026</p>
-<p class='hn-podcast-meta'>中文播客 · AI 生成 · 小晓 &amp; 云希</p>
+<p class='hn-podcast-title'>HN Daily Best (上半场) — March 23, 2026</p>
+<p class='hn-podcast-meta'>中文播客 · AI 生成 · 晓梦 &amp; 云扬</p>
 </div>
 </div>
 <audio class='hn-podcast-audio' controls preload='metadata'>
-<source src='https://github.com/chaowang15/chaowang15.github.io/releases/download/podcast-2026-03/hn-podcast-2026-03-23.mp3' type='audio/mpeg'>
+<source src='https://github.com/chaowang15/chaowang15.github.io/releases/download/podcast-2026-03/hn-podcast-2026-03-23-part1.mp3' type='audio/mpeg'>
+Your browser does not support the audio element.
+</audio>
+</div>
+<div class='hn-podcast-player'>
+<div class='hn-podcast-header'>
+<span class='hn-podcast-icon'>🎙</span>
+<div class='hn-podcast-info'>
+<p class='hn-podcast-title'>HN Daily Best (下半场) — March 23, 2026</p>
+<p class='hn-podcast-meta'>中文播客 · AI 生成 · 晓梦 &amp; 云扬</p>
+</div>
+</div>
+<audio class='hn-podcast-audio' controls preload='metadata'>
+<source src='https://github.com/chaowang15/chaowang15.github.io/releases/download/podcast-2026-03/hn-podcast-2026-03-23-part2.mp3' type='audio/mpeg'>
 Your browser does not support the audio element.
 </audio>
 </div>
@@ -192,7 +205,7 @@ Your browser does not support the audio element.
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/03/23/best_stories_03232026'>
 <span class='hn-row-type hn-type-best'>Daily Best</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> Programming <b>16</b> <span class="hn-row-sep">·</span> AI <b>11</b></span>
+<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> Programming <b>17</b> <span class="hn-row-sep">·</span> AI <b>13</b></span>
 <span class='hn-podcast-badge' title='Podcast available'>&#x1F3A7;</span>
 </a>
 <a class='hn-story-link' href='/hackernews/2026/03/23/top_stories_03232026'>
