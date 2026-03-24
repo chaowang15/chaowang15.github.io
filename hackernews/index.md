@@ -192,7 +192,7 @@ Your browser does not support the audio element.
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/03/23/best_stories_03232026'>
 <span class='hn-row-type hn-type-best'>Daily Best</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> Programming <b>15</b> <span class="hn-row-sep">·</span> AI <b>11</b></span>
+<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> Programming <b>16</b> <span class="hn-row-sep">·</span> AI <b>11</b></span>
 <span class='hn-podcast-badge' title='Podcast available'>&#x1F3A7;</span>
 </a>
 <a class='hn-story-link' href='/hackernews/2026/03/23/top_stories_03232026'>

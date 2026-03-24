@@ -5,20 +5,43 @@
     "api": "https://github.com/HackerNews/API",
     "count_requested": 50,
     "count_written": 50,
-    "reused_same_day": 42,
+    "reused_same_day": 39,
     "reused_cross_day": 1,
-    "new_llm_enriched": 3,
-    "scrape_time_display": "06:21, March 24, 2026 (PDT)",
+    "new_llm_enriched": 4,
+    "scrape_time_display": "09:02, March 24, 2026 (PDT)",
     "timezone": "America/Los_Angeles",
     "date_dir": "2026/03/23",
     "content_date": "2026-03-23",
-    "run_time_local": "06:21, March 24, 2026 (PDT)",
-    "run_time_utc": "2026-03-24 13:21:26 UTC",
+    "run_time_local": "09:02, March 24, 2026 (PDT)",
+    "run_time_utc": "2026-03-24 16:02:55 UTC",
     "incremental": true,
     "stories_max": 50,
-    "hot_score_time_utc": "2026-03-24 13:22:16 UTC"
+    "hot_score_time_utc": "2026-03-24 16:03:38 UTC"
   },
   "items": [
+    {
+      "title_en": "LiteLLM Python package compromised by supply-chain attack",
+      "url": "https://github.com/BerriAI/litellm/issues/24512",
+      "title_zh": "LiteLLM Python 包遭供应链攻击",
+      "created_display": "Created: Mar 24, 2026 / 05:36 PT",
+      "image_url": "https://opengraph.githubassets.com/f10b0614e0a692fdb94d9dfe93ee3d191be19c34e29cb0dd890eeef6e8f32055/BerriAI/litellm/issues/24512",
+      "summary_en": "A supply-chain attack compromised the LiteLLM Python package, potentially injecting malicious code into downstream deployments. It highlights how reliance on third-party dependencies amplifies risk, and stresses the importance of integrity checks, signed builds, and timely upgrades.",
+      "summary_zh": "LiteLLM 的 Python 包遭遇供应链攻击，可能在下游部署中引入恶意代码。该事件凸显了依赖第三方包带来的风险，以及进行完整性校验、签名构建和及时升级的重要性。",
+      "hn": {
+        "id": 47501729,
+        "type": "story",
+        "by": "theanonymousone",
+        "score": 440,
+        "descendants": 191,
+        "time": 1774355780,
+        "comments_url": "https://news.ycombinator.com/item?id=47501729"
+      },
+      "tags": [
+        "Security",
+        "Programming"
+      ],
+      "hot_score": 20.71
+    },
     {
       "title_en": "Microsoft's \"Fix\" for Windows 11: Flowers After the Beating",
       "url": "https://www.sambent.com/microsofts-plan-to-fix-windows-11-is-gaslighting/",
@@ -31,15 +54,38 @@
         "id": 47500335,
         "type": "story",
         "by": "h0ek",
-        "score": 415,
-        "descendants": 294,
+        "score": 663,
+        "descendants": 491,
         "time": 1774344989,
         "comments_url": "https://news.ycombinator.com/item?id=47500335"
       },
-      "hot_score": 17.69,
       "tags": [
         "Programming"
-      ]
+      ],
+      "hot_score": 14.2
+    },
+    {
+      "title_en": "Ripgrep is faster than grep, ag, git grep, ucg, pt, sift (2016)",
+      "url": "https://burntsushi.net/ripgrep/",
+      "title_zh": "Ripgrep 比 grep、ag、git grep、ucg、pt、sift 更快",
+      "created_display": "Created: Mar 23, 2026 / 23:31 PT",
+      "image_url": "https://burntsushi.net/stuff/ripgrep1.png",
+      "summary_en": "A 2016 comparison shows Ripgrep outperforms traditional search tools on large codebases thanks to Rust-based internals and smarter regex handling. It helped popularize fast, developer-friendly search in modern toolchains.",
+      "summary_zh": "2016 年的比较显示 Ripgrep 在大型代码库中明显快于 grep、ag、git grep 等工具，得益于 Rust 实现和更高效的正则处理。这推动了现代工具链对快速搜索的追求。",
+      "hn": {
+        "id": 47499245,
+        "type": "story",
+        "by": "jxmorris12",
+        "score": 217,
+        "descendants": 88,
+        "time": 1774333899,
+        "comments_url": "https://news.ycombinator.com/item?id=47499245"
+      },
+      "tags": [
+        "Programming",
+        "Open Source"
+      ],
+      "hot_score": 2.65
     },
     {
       "title_en": "Log File Viewer for the Terminal",
@@ -53,37 +99,15 @@
         "id": 47498924,
         "type": "story",
         "by": "wiradikusuma",
-        "score": 210,
-        "descendants": 26,
+        "score": 249,
+        "descendants": 39,
         "time": 1774330373,
         "comments_url": "https://news.ycombinator.com/item?id=47498924"
       },
       "tags": [
         "Programming"
       ],
-      "hot_score": 3.42
-    },
-    {
-      "title_en": "Epoch confirms GPT5.4 Pro solved a frontier math open problem",
-      "url": "https://epoch.ai/frontiermath/open-problems/ramsey-hypergraphs",
-      "title_zh": "Epoch 证实 GPT5.4 Pro 解决了一道前沿数学开放问题",
-      "created_display": "Created: Mar 23, 2026 / 18:53 PT",
-      "image_url": "https://epoch.ai/assets/images/frontiermath/open-problems-cover.png",
-      "summary_en": "GPT5.4 Pro reportedly solved a frontier math open problem in Ramsey theory related to hypergraphs. The claim showcases AI's advancing capabilities in abstract reasoning, but independent verification and reproducibility remain crucial.",
-      "summary_zh": "GPT5.4 Pro 据称解决了一道前沿数学开放问题，涉及 Ramsey 理论中的超图。此事展示了人工智能在高水平抽象推理方面的进步，但独立验证和复现仍然关键。",
-      "hn": {
-        "id": 47497757,
-        "type": "story",
-        "by": "in-silico",
-        "score": 363,
-        "descendants": 460,
-        "time": 1774317189,
-        "comments_url": "https://news.ycombinator.com/item?id=47497757"
-      },
-      "tags": [
-        "AI"
-      ],
-      "hot_score": 3.35
+      "hot_score": 2.63
     },
     {
       "title_en": "Claude Code Cheat Sheet",
@@ -97,38 +121,37 @@
         "id": 47495527,
         "type": "story",
         "by": "phasE89",
-        "score": 475,
-        "descendants": 155,
+        "score": 564,
+        "descendants": 178,
         "time": 1774302260,
         "comments_url": "https://news.ycombinator.com/item?id=47495527"
       },
       "tags": [
         "AI"
       ],
-      "hot_score": 2.71
+      "hot_score": 2.49
     },
     {
-      "title_en": "Migrating to the EU",
-      "url": "https://rz01.org/eu-migration/",
-      "title_zh": "迁移到欧盟",
-      "created_display": "Created: Mar 23, 2026 / 03:17 PT",
-      "image_url": null,
-      "summary_en": "Relocating workloads to EU infrastructure helps meet data-residency and privacy requirements under GDPR-era norms. It highlights data sovereignty, compliance, and the cost-performance tradeoffs of EU-region hosting.",
-      "summary_zh": "将工作负载迁移到欧盟基础设施有助于符合数据驻留和隐私规定。讨论数据主权、合规性，以及在欧盟区域托管的成本与性能权衡。",
+      "title_en": "Epoch confirms GPT5.4 Pro solved a frontier math open problem",
+      "url": "https://epoch.ai/frontiermath/open-problems/ramsey-hypergraphs",
+      "title_zh": "Epoch 证实 GPT5.4 Pro 解决了一道前沿数学开放问题",
+      "created_display": "Created: Mar 23, 2026 / 18:53 PT",
+      "image_url": "https://epoch.ai/assets/images/frontiermath/open-problems-cover.png",
+      "summary_en": "GPT5.4 Pro reportedly solved a frontier math open problem in Ramsey theory related to hypergraphs. The claim showcases AI's advancing capabilities in abstract reasoning, but independent verification and reproducibility remain crucial.",
+      "summary_zh": "GPT5.4 Pro 据称解决了一道前沿数学开放问题，涉及 Ramsey 理论中的超图。此事展示了人工智能在高水平抽象推理方面的进步，但独立验证和复现仍然关键。",
       "hn": {
-        "id": 47487436,
+        "id": 47497757,
         "type": "story",
-        "by": "exitnode",
-        "score": 879,
-        "descendants": 677,
-        "time": 1774261052,
-        "comments_url": "https://news.ycombinator.com/item?id=47487436"
+        "by": "in-silico",
+        "score": 375,
+        "descendants": 514,
+        "time": 1774317189,
+        "comments_url": "https://news.ycombinator.com/item?id=47497757"
       },
       "tags": [
-        "Privacy",
-        "DevOps"
+        "AI"
       ],
-      "hot_score": 2.04
+      "hot_score": 2.49
     },
     {
       "title_en": "FCC updates covered list to include foreign-made consumer routers",
@@ -142,8 +165,8 @@
         "id": 47495344,
         "type": "story",
         "by": "moonka",
-        "score": 364,
-        "descendants": 240,
+        "score": 410,
+        "descendants": 278,
         "time": 1774301282,
         "comments_url": "https://news.ycombinator.com/item?id=47495344"
       },
@@ -152,7 +175,30 @@
         "Privacy",
         "Politics"
       ],
-      "hot_score": 2.02
+      "hot_score": 1.77
+    },
+    {
+      "title_en": "Migrating to the EU",
+      "url": "https://rz01.org/eu-migration/",
+      "title_zh": "迁移到欧盟",
+      "created_display": "Created: Mar 23, 2026 / 03:17 PT",
+      "image_url": null,
+      "summary_en": "Relocating workloads to EU infrastructure helps meet data-residency and privacy requirements under GDPR-era norms. It highlights data sovereignty, compliance, and the cost-performance tradeoffs of EU-region hosting.",
+      "summary_zh": "将工作负载迁移到欧盟基础设施有助于符合数据驻留和隐私规定。讨论数据主权、合规性，以及在欧盟区域托管的成本与性能权衡。",
+      "hn": {
+        "id": 47487436,
+        "type": "story",
+        "by": "exitnode",
+        "score": 882,
+        "descendants": 684,
+        "time": 1774261052,
+        "comments_url": "https://news.ycombinator.com/item?id=47487436"
+      },
+      "tags": [
+        "Privacy",
+        "DevOps"
+      ],
+      "hot_score": 1.74
     },
     {
       "title_en": "iPhone 17 Pro Demonstrated Running a 400B LLM",
@@ -166,8 +212,8 @@
         "id": 47490070,
         "type": "story",
         "by": "anemll",
-        "score": 653,
-        "descendants": 286,
+        "score": 681,
+        "descendants": 305,
         "time": 1774276210,
         "comments_url": "https://news.ycombinator.com/item?id=47490070"
       },
@@ -175,30 +221,7 @@
         "AI",
         "Privacy"
       ],
-      "hot_score": 2.0
-    },
-    {
-      "title_en": "US and TotalEnergies reach 'nearly $1B' deal to end offshore wind projects",
-      "url": "https://www.lemonde.fr/en/international/article/2026/03/23/us-and-totalenergies-reach-nearly-1-billion-deal-to-end-offshore-wind-projects_6751739_4.html",
-      "title_zh": "美方与道达能源就终止海上风电项目达成近十亿美元协议",
-      "created_display": "Created: Mar 23, 2026 / 10:35 PT",
-      "image_url": "https://img.lemde.fr/2026/03/23/0/0/6274/4183/1440/960/60/0/f4c4bd1_ftp-1-fkry16t0fs41-5570111-01-06.jpg",
-      "summary_en": "The deal signals a retreat from several offshore wind projects in the US, with implications for climate goals, supply chains, and state/federal energy policy.",
-      "summary_zh": "这一达成为美方多项海上风电项目的终止铺平了道路，凸显清洁能源投资与项目推进中的风险与不确定性，对气候目标、供应链及能源政策具有深远影响。",
-      "hn": {
-        "id": 47492599,
-        "type": "story",
-        "by": "lode",
-        "score": 419,
-        "descendants": 340,
-        "time": 1774287338,
-        "comments_url": "https://news.ycombinator.com/item?id=47492599"
-      },
-      "tags": [
-        "Energy",
-        "Business"
-      ],
-      "hot_score": 1.63
+      "hot_score": 1.74
     },
     {
       "title_en": "Autoresearch on an old research idea",
@@ -212,15 +235,38 @@
         "id": 47493460,
         "type": "story",
         "by": "ykumards",
-        "score": 381,
-        "descendants": 84,
+        "score": 401,
+        "descendants": 87,
         "time": 1774291258,
         "comments_url": "https://news.ycombinator.com/item?id=47493460"
       },
       "tags": [
         "Science"
       ],
-      "hot_score": 1.63
+      "hot_score": 1.37
+    },
+    {
+      "title_en": "US and TotalEnergies reach 'nearly $1B' deal to end offshore wind projects",
+      "url": "https://www.lemonde.fr/en/international/article/2026/03/23/us-and-totalenergies-reach-nearly-1-billion-deal-to-end-offshore-wind-projects_6751739_4.html",
+      "title_zh": "美方与道达能源就终止海上风电项目达成近十亿美元协议",
+      "created_display": "Created: Mar 23, 2026 / 10:35 PT",
+      "image_url": "https://img.lemde.fr/2026/03/23/0/0/6274/4183/1440/960/60/0/f4c4bd1_ftp-1-fkry16t0fs41-5570111-01-06.jpg",
+      "summary_en": "The deal signals a retreat from several offshore wind projects in the US, with implications for climate goals, supply chains, and state/federal energy policy.",
+      "summary_zh": "这一达成为美方多项海上风电项目的终止铺平了道路，凸显清洁能源投资与项目推进中的风险与不确定性，对气候目标、供应链及能源政策具有深远影响。",
+      "hn": {
+        "id": 47492599,
+        "type": "story",
+        "by": "lode",
+        "score": 428,
+        "descendants": 357,
+        "time": 1774287338,
+        "comments_url": "https://news.ycombinator.com/item?id=47492599"
+      },
+      "tags": [
+        "Energy",
+        "Business"
+      ],
+      "hot_score": 1.35
     },
     {
       "title_en": "Windows 3.1 tiled background .bmp archive",
@@ -234,8 +280,8 @@
         "id": 47496221,
         "type": "story",
         "by": "justsomehnguy",
-        "score": 253,
-        "descendants": 69,
+        "score": 258,
+        "descendants": 71,
         "time": 1774306355,
         "comments_url": "https://news.ycombinator.com/item?id=47496221"
       },
@@ -243,7 +289,7 @@
         "Open Source",
         "Programming"
       ],
-      "hot_score": 1.62
+      "hot_score": 1.26
     },
     {
       "title_en": "How I'm Productive with Claude Code",
@@ -257,15 +303,15 @@
         "id": 47494890,
         "type": "story",
         "by": "neilkakkar",
-        "score": 223,
-        "descendants": 142,
+        "score": 239,
+        "descendants": 150,
         "time": 1774298950,
         "comments_url": "https://news.ycombinator.com/item?id=47494890"
       },
       "tags": [
         "AI"
       ],
-      "hot_score": 1.16
+      "hot_score": 0.97
     },
     {
       "title_en": "GitHub appears to be struggling with measly three nines availability",
@@ -279,8 +325,8 @@
         "id": 47487584,
         "type": "story",
         "by": "richtr",
-        "score": 455,
-        "descendants": 232,
+        "score": 460,
+        "descendants": 235,
         "time": 1774262379,
         "comments_url": "https://news.ycombinator.com/item?id=47487584"
       },
@@ -288,30 +334,30 @@
         "DevOps",
         "Programming"
       ],
-      "hot_score": 1.08
+      "hot_score": 0.93
     },
     {
-      "title_en": "Bets on US-Iran ceasefire show signs of insider knowledge, say experts",
-      "url": "https://www.theguardian.com/us-news/2026/mar/23/bets-us-iran-ceasefire-show-signs-of-insider-knowledge-say-experts-polymarket",
-      "title_zh": "美伊停火赌注显示内幕消息迹象，专家称",
-      "created_display": "Created: Mar 23, 2026 / 13:25 PT",
-      "image_url": "https://i.guim.co.uk/img/media/b27de2f58de3e8b2463d2633f9accc372f8bfb4a/0_0_2817_2255/master/2817.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=a3e276d43ed265a9def5a9cdf8294caa",
-      "summary_en": "Market bets on a US-Iran ceasefire appear to reflect insider information according to experts, raising concerns about leakage and manipulation on prediction platforms. The analysis highlights hidden information risks and regulatory questions surrounding such markets.",
-      "summary_zh": "专家表示，美伊停火相关赌注可能反映内部信息而非纯市场信号，暴露预测平台上的内幕交易与操纵风险。此现象凸显隐性信息带来的风险及对此类市场的监管疑问。",
+      "title_en": "PC Gamer recommends RSS readers in a 37mb article that just keeps downloading",
+      "url": "https://stuartbreckenridge.net/2026-03-19-pc-gamer-recommends-rss-readers-in-a-37mb-article/",
+      "title_zh": "PC Gamer 在一篇 37MB 的文章中推荐 RSS 阅读器，但文稿似乎不断在下载",
+      "created_display": "Created: Mar 22, 2026 / 11:23 PT",
+      "image_url": "https://stuartbreckenridge.net/content/images/2026/03/pc-gamer-1.png",
+      "summary_en": "PC Gamer curates a selection of RSS readers in a long, 37MB feature. The piece itself is unexpectedly download-heavy, turning a simple recommendation into a test of browser patience. The underlying takeaway is that enthusiasts still crave lightweight, dependable feed readers in an era of endless content.",
+      "summary_zh": "PC Gamer 选出一批 RSS 阅读器的清单，但这篇 37MB 的文章本身却像在持续下载内容，考验浏览器耐心。文章透露在信息过载的时代，用户仍然需要轻量、可靠的订阅工具。",
       "hn": {
-        "id": 47494629,
+        "id": 47480507,
         "type": "story",
-        "by": "trocado",
-        "score": 180,
-        "descendants": 174,
-        "time": 1774297510,
-        "comments_url": "https://news.ycombinator.com/item?id=47494629"
+        "by": "JumpCrisscross",
+        "score": 832,
+        "descendants": 392,
+        "time": 1774203820,
+        "comments_url": "https://news.ycombinator.com/item?id=47480507"
       },
       "tags": [
-        "Politics",
-        "Privacy"
+        "Programming",
+        "Web"
       ],
-      "hot_score": 0.9
+      "hot_score": 0.79
     },
     {
       "title_en": "Student beauty and grades under in-person and remote teaching",
@@ -326,7 +372,7 @@
         "type": "story",
         "by": "jdthedisciple",
         "score": 354,
-        "descendants": 500,
+        "descendants": 506,
         "time": 1774265479,
         "comments_url": "https://news.ycombinator.com/item?id=47488015"
       },
@@ -334,53 +380,7 @@
         "Education",
         "Data"
       ],
-      "hot_score": 0.89
-    },
-    {
-      "title_en": "PC Gamer recommends RSS readers in a 37mb article that just keeps downloading",
-      "url": "https://stuartbreckenridge.net/2026-03-19-pc-gamer-recommends-rss-readers-in-a-37mb-article/",
-      "title_zh": "PC Gamer 在一篇 37MB 的文章中推荐 RSS 阅读器，但文稿似乎不断在下载",
-      "created_display": "Created: Mar 22, 2026 / 11:23 PT",
-      "image_url": "https://stuartbreckenridge.net/content/images/2026/03/pc-gamer-1.png",
-      "summary_en": "PC Gamer curates a selection of RSS readers in a long, 37MB feature. The piece itself is unexpectedly download-heavy, turning a simple recommendation into a test of browser patience. The underlying takeaway is that enthusiasts still crave lightweight, dependable feed readers in an era of endless content.",
-      "summary_zh": "PC Gamer 选出一批 RSS 阅读器的清单，但这篇 37MB 的文章本身却像在持续下载内容，考验浏览器耐心。文章透露在信息过载的时代，用户仍然需要轻量、可靠的订阅工具。",
-      "hn": {
-        "id": 47480507,
-        "type": "story",
-        "by": "JumpCrisscross",
-        "score": 829,
-        "descendants": 387,
-        "time": 1774203820,
-        "comments_url": "https://news.ycombinator.com/item?id=47480507"
-      },
-      "tags": [
-        "Programming",
-        "Web"
-      ],
-      "hot_score": 0.88
-    },
-    {
-      "title_en": "Local Stack Archived their GitHub repo and requires an account to run",
-      "url": "https://github.com/localstack/localstack",
-      "title_zh": "LocalStack 将仓库归档，运行需账户",
-      "created_display": "Created: Mar 23, 2026 / 11:57 PT",
-      "image_url": "https://repository-images.githubusercontent.com/71948498/7a7abf27-e02e-4544-8d0f-0a8630e5b77b",
-      "summary_en": "LocalStack has archived its GitHub repository and now requires you to sign in to run the software locally. This marks a shift from open development toward a gated model, potentially affecting developers who rely on a free, self-hosted AWS-like environment. The move invites questions about accessibility and sustainability of community-focused open-source projects.",
-      "summary_zh": "LocalStack 已将其 GitHub 仓库归档，现在运行需要账户登录。这标志着从开放开发向受限访问的转变，可能影响依赖免费本地 AWS 模拟环境的开发者。此举也引发关于社区开源项目可访问性与可持续性的讨论。",
-      "hn": {
-        "id": 47493657,
-        "type": "story",
-        "by": "ecshafer",
-        "score": 201,
-        "descendants": 120,
-        "time": 1774292228,
-        "comments_url": "https://news.ycombinator.com/item?id=47493657"
-      },
-      "tags": [
-        "Open Source",
-        "Programming"
-      ],
-      "hot_score": 0.88
+      "hot_score": 0.75
     },
     {
       "title_en": "POSSE – Publish on your Own Site, Syndicate Elsewhere",
@@ -403,7 +403,53 @@
         "Web",
         "Privacy"
       ],
-      "hot_score": 0.84
+      "hot_score": 0.72
+    },
+    {
+      "title_en": "Local Stack Archived their GitHub repo and requires an account to run",
+      "url": "https://github.com/localstack/localstack",
+      "title_zh": "LocalStack 将仓库归档，运行需账户",
+      "created_display": "Created: Mar 23, 2026 / 11:57 PT",
+      "image_url": "https://repository-images.githubusercontent.com/71948498/7a7abf27-e02e-4544-8d0f-0a8630e5b77b",
+      "summary_en": "LocalStack has archived its GitHub repository and now requires you to sign in to run the software locally. This marks a shift from open development toward a gated model, potentially affecting developers who rely on a free, self-hosted AWS-like environment. The move invites questions about accessibility and sustainability of community-focused open-source projects.",
+      "summary_zh": "LocalStack 已将其 GitHub 仓库归档，现在运行需要账户登录。这标志着从开放开发向受限访问的转变，可能影响依赖免费本地 AWS 模拟环境的开发者。此举也引发关于社区开源项目可访问性与可持续性的讨论。",
+      "hn": {
+        "id": 47493657,
+        "type": "story",
+        "by": "ecshafer",
+        "score": 204,
+        "descendants": 122,
+        "time": 1774292228,
+        "comments_url": "https://news.ycombinator.com/item?id=47493657"
+      },
+      "tags": [
+        "Open Source",
+        "Programming"
+      ],
+      "hot_score": 0.71
+    },
+    {
+      "title_en": "Bets on US-Iran ceasefire show signs of insider knowledge, say experts",
+      "url": "https://www.theguardian.com/us-news/2026/mar/23/bets-us-iran-ceasefire-show-signs-of-insider-knowledge-say-experts-polymarket",
+      "title_zh": "美伊停火赌注显示内幕消息迹象，专家称",
+      "created_display": "Created: Mar 23, 2026 / 13:25 PT",
+      "image_url": "https://i.guim.co.uk/img/media/b27de2f58de3e8b2463d2633f9accc372f8bfb4a/0_0_2817_2255/master/2817.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=a3e276d43ed265a9def5a9cdf8294caa",
+      "summary_en": "Market bets on a US-Iran ceasefire appear to reflect insider information according to experts, raising concerns about leakage and manipulation on prediction platforms. The analysis highlights hidden information risks and regulatory questions surrounding such markets.",
+      "summary_zh": "专家表示，美伊停火相关赌注可能反映内部信息而非纯市场信号，暴露预测平台上的内幕交易与操纵风险。此现象凸显隐性信息带来的风险及对此类市场的监管疑问。",
+      "hn": {
+        "id": 47494629,
+        "type": "story",
+        "by": "trocado",
+        "score": 181,
+        "descendants": 178,
+        "time": 1774297510,
+        "comments_url": "https://news.ycombinator.com/item?id=47494629"
+      },
+      "tags": [
+        "Politics",
+        "Privacy"
+      ],
+      "hot_score": 0.71
     },
     {
       "title_en": "Two pilots dead after plane and ground vehicle collide at LaGuardia",
@@ -417,37 +463,15 @@
         "id": 47486386,
         "type": "story",
         "by": "mememememememo",
-        "score": 407,
-        "descendants": 633,
+        "score": 411,
+        "descendants": 640,
         "time": 1774250659,
         "comments_url": "https://news.ycombinator.com/item?id=47486386"
       },
       "tags": [
         "Security"
       ],
-      "hot_score": 0.79
-    },
-    {
-      "title_en": "An incoherent Rust",
-      "url": "https://www.boxyuwu.blog/posts/an-incoherent-rust/",
-      "title_zh": "不连贯的 Rust",
-      "created_display": "Created: Mar 23, 2026 / 08:13 PT",
-      "image_url": null,
-      "summary_en": "A critical look at Rust rhetoric and design choices, arguing that some aspects lack coherence and hinder learning. The post suggests clarifying mental models and aligning APIs to improve consistency.",
-      "summary_zh": "本文批判性评估 Rust 的表述与设计选择，认为某些方面缺乏连贯性，影响学习曲线。作者提出在设计上应明确思维模型并让 API 更加一致。",
-      "hn": {
-        "id": 47490648,
-        "type": "story",
-        "by": "emschwartz",
-        "score": 225,
-        "descendants": 124,
-        "time": 1774278802,
-        "comments_url": "https://news.ycombinator.com/item?id=47490648"
-      },
-      "tags": [
-        "Programming"
-      ],
-      "hot_score": 0.73
+      "hot_score": 0.69
     },
     {
       "title_en": "GrapheneOS will remain usable by anyone without requiring personal information",
@@ -461,8 +485,8 @@
         "id": 47482217,
         "type": "story",
         "by": "nothrowaways",
-        "score": 595,
-        "descendants": 183,
+        "score": 598,
+        "descendants": 184,
         "time": 1774214051,
         "comments_url": "https://news.ycombinator.com/item?id=47482217"
       },
@@ -470,7 +494,29 @@
         "Privacy",
         "Security"
       ],
-      "hot_score": 0.71
+      "hot_score": 0.64
+    },
+    {
+      "title_en": "An incoherent Rust",
+      "url": "https://www.boxyuwu.blog/posts/an-incoherent-rust/",
+      "title_zh": "不连贯的 Rust",
+      "created_display": "Created: Mar 23, 2026 / 08:13 PT",
+      "image_url": null,
+      "summary_en": "A critical look at Rust rhetoric and design choices, arguing that some aspects lack coherence and hinder learning. The post suggests clarifying mental models and aligning APIs to improve consistency.",
+      "summary_zh": "本文批判性评估 Rust 的表述与设计选择，认为某些方面缺乏连贯性，影响学习曲线。作者提出在设计上应明确思维模型并让 API 更加一致。",
+      "hn": {
+        "id": 47490648,
+        "type": "story",
+        "by": "emschwartz",
+        "score": 232,
+        "descendants": 138,
+        "time": 1774278802,
+        "comments_url": "https://news.ycombinator.com/item?id=47490648"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 0.62
     },
     {
       "title_en": "I built an AI receptionist for a mechanic shop",
@@ -484,8 +530,8 @@
         "id": 47487536,
         "type": "story",
         "by": "mooreds",
-        "score": 299,
-        "descendants": 304,
+        "score": 302,
+        "descendants": 308,
         "time": 1774261953,
         "comments_url": "https://news.ycombinator.com/item?id=47487536"
       },
@@ -494,29 +540,7 @@
         "Business",
         "Privacy"
       ],
-      "hot_score": 0.7
-    },
-    {
-      "title_en": "If DSPy is so great, why isn't anyone using it?",
-      "url": "https://skylarbpayne.com/posts/dspy-engineering-patterns/",
-      "title_zh": "如果 DSPy 那么强大，为什么没人用它？",
-      "created_display": "Created: Mar 23, 2026 / 07:52 PT",
-      "image_url": "https://skylarbpayne.com/og-image/dspy-engineering-patterns.png",
-      "summary_en": "The post critiques the practical adoption of DSPy, a tool or framework, arguing that impressive capabilities don't guarantee usage. It identifies barriers such as steep learning curve, insufficient documentation, or ecosystem fragmentation, and suggests patterns to improve onboarding and integration.",
-      "summary_zh": "本文批评 DSPy 的实际落地难题，认为再强的功能也未必能换来广泛使用。作者指出学习曲线陡峭、文档不足以及生态系统碎片化等障碍，并提出改进上手和集成的工程模式以提升采用率。",
-      "hn": {
-        "id": 47490365,
-        "type": "story",
-        "by": "sbpayne",
-        "score": 215,
-        "descendants": 120,
-        "time": 1774277572,
-        "comments_url": "https://news.ycombinator.com/item?id=47490365"
-      },
-      "tags": [
-        "Programming"
-      ],
-      "hot_score": 0.68
+      "hot_score": 0.6
     },
     {
       "title_en": "The gold standard of optimization: A look under the hood of RollerCoaster Tycoon",
@@ -530,8 +554,8 @@
         "id": 47480886,
         "type": "story",
         "by": "mariuz",
-        "score": 584,
-        "descendants": 156,
+        "score": 587,
+        "descendants": 157,
         "time": 1774206163,
         "comments_url": "https://news.ycombinator.com/item?id=47480886"
       },
@@ -539,29 +563,29 @@
         "Gaming",
         "AI"
       ],
-      "hot_score": 0.63
+      "hot_score": 0.57
     },
     {
-      "title_en": "Is it a pint?",
-      "url": "https://isitapint.com/",
-      "title_zh": "这是不是品脱？",
-      "created_display": "Created: Mar 23, 2026 / 09:13 PT",
-      "image_url": "https://isitapint.com/app-icon.png",
-      "summary_en": "A tiny web tool helps you determine whether a given quantity qualifies as a pint.",
-      "summary_zh": "一个小型网页工具，帮助你判断某个量是否等同于品脱。",
+      "title_en": "If DSPy is so great, why isn't anyone using it?",
+      "url": "https://skylarbpayne.com/posts/dspy-engineering-patterns/",
+      "title_zh": "如果 DSPy 那么强大，为什么没人用它？",
+      "created_display": "Created: Mar 23, 2026 / 07:52 PT",
+      "image_url": "https://skylarbpayne.com/og-image/dspy-engineering-patterns.png",
+      "summary_en": "The post critiques the practical adoption of DSPy, a tool or framework, arguing that impressive capabilities don't guarantee usage. It identifies barriers such as steep learning curve, insufficient documentation, or ecosystem fragmentation, and suggests patterns to improve onboarding and integration.",
+      "summary_zh": "本文批评 DSPy 的实际落地难题，认为再强的功能也未必能换来广泛使用。作者指出学习曲线陡峭、文档不足以及生态系统碎片化等障碍，并提出改进上手和集成的工程模式以提升采用率。",
       "hn": {
-        "id": 47491496,
+        "id": 47490365,
         "type": "story",
-        "by": "cainxinth",
-        "score": 180,
-        "descendants": 158,
-        "time": 1774282420,
-        "comments_url": "https://news.ycombinator.com/item?id=47491496"
+        "by": "sbpayne",
+        "score": 218,
+        "descendants": 120,
+        "time": 1774277572,
+        "comments_url": "https://news.ycombinator.com/item?id=47490365"
       },
       "tags": [
-        "Web"
+        "Programming"
       ],
-      "hot_score": 0.63
+      "hot_score": 0.57
     },
     {
       "title_en": "The future of version control",
@@ -575,15 +599,15 @@
         "id": 47478401,
         "type": "story",
         "by": "c17r",
-        "score": 650,
-        "descendants": 370,
+        "score": 652,
+        "descendants": 371,
         "time": 1774192588,
         "comments_url": "https://news.ycombinator.com/item?id=47478401"
       },
       "tags": [
         "Programming"
       ],
-      "hot_score": 0.61
+      "hot_score": 0.55
     },
     {
       "title_en": "Show HN: Cq – Stack Overflow for AI coding agents",
@@ -597,8 +621,8 @@
         "id": 47491466,
         "type": "story",
         "by": "peteski22",
-        "score": 172,
-        "descendants": 66,
+        "score": 191,
+        "descendants": 82,
         "time": 1774282263,
         "comments_url": "https://news.ycombinator.com/item?id=47491466"
       },
@@ -607,7 +631,7 @@
         "AI",
         "Programming"
       ],
-      "hot_score": 0.6
+      "hot_score": 0.54
     },
     {
       "title_en": "Box of Secrets: Discreetly modding an apartment intercom to work with Apple Home",
@@ -621,37 +645,37 @@
         "id": 47488686,
         "type": "story",
         "by": "jackhogan11",
-        "score": 198,
-        "descendants": 65,
+        "score": 231,
+        "descendants": 82,
         "time": 1774269720,
         "comments_url": "https://news.ycombinator.com/item?id=47488686"
       },
       "tags": [
         "Hardware"
       ],
-      "hot_score": 0.53
+      "hot_score": 0.52
     },
     {
-      "title_en": "Project Nomad – Knowledge That Never Goes Offline",
-      "url": "https://www.projectnomad.us",
-      "title_zh": "Project Nomad：知识永不离线",
-      "created_display": "Created: Mar 22, 2026 / 05:28 PT",
-      "image_url": "https://www.projectnomad.us/_next/image?url=%2Flogo.png&w=96&q=75&dpl=dpl_D5HoMqabuZP4MGAmXHnxVxE6tspG",
-      "summary_en": "Presents an offline-first knowledge initiative designed to keep information accessible during outages or censorship. Emphasizes resilience and portability of knowledge through local-first data strategies.",
-      "summary_zh": "介绍一个离线优先的知识项目，确保在断网或审查环境中也能访问信息，强调通过本地化数据策略提升知识的韧性与可携带性。",
+      "title_en": "Is it a pint?",
+      "url": "https://isitapint.com/",
+      "title_zh": "这是不是品脱？",
+      "created_display": "Created: Mar 23, 2026 / 09:13 PT",
+      "image_url": "https://isitapint.com/app-icon.png",
+      "summary_en": "A tiny web tool helps you determine whether a given quantity qualifies as a pint.",
+      "summary_zh": "一个小型网页工具，帮助你判断某个量是否等同于品脱。",
       "hn": {
-        "id": 47476821,
+        "id": 47491496,
         "type": "story",
-        "by": "jensgk",
-        "score": 588,
-        "descendants": 216,
-        "time": 1774182518,
-        "comments_url": "https://news.ycombinator.com/item?id=47476821"
+        "by": "cainxinth",
+        "score": 181,
+        "descendants": 160,
+        "time": 1774282420,
+        "comments_url": "https://news.ycombinator.com/item?id=47491496"
       },
       "tags": [
-        "Data"
+        "Web"
       ],
-      "hot_score": 0.5
+      "hot_score": 0.52
     },
     {
       "title_en": "Hormuz Minesweeper – Are you tired of winning?",
@@ -674,7 +698,29 @@
         "AI",
         "Gaming"
       ],
-      "hot_score": 0.49
+      "hot_score": 0.45
+    },
+    {
+      "title_en": "Project Nomad – Knowledge That Never Goes Offline",
+      "url": "https://www.projectnomad.us",
+      "title_zh": "Project Nomad：知识永不离线",
+      "created_display": "Created: Mar 22, 2026 / 05:28 PT",
+      "image_url": "https://www.projectnomad.us/_next/image?url=%2Flogo.png&w=96&q=75&dpl=dpl_D5HoMqabuZP4MGAmXHnxVxE6tspG",
+      "summary_en": "Presents an offline-first knowledge initiative designed to keep information accessible during outages or censorship. Emphasizes resilience and portability of knowledge through local-first data strategies.",
+      "summary_zh": "介绍一个离线优先的知识项目，确保在断网或审查环境中也能访问信息，强调通过本地化数据策略提升知识的韧性与可携带性。",
+      "hn": {
+        "id": 47476821,
+        "type": "story",
+        "by": "jensgk",
+        "score": 588,
+        "descendants": 216,
+        "time": 1774182518,
+        "comments_url": "https://news.ycombinator.com/item?id=47476821"
+      },
+      "tags": [
+        "Data"
+      ],
+      "hot_score": 0.45
     },
     {
       "title_en": "“Collaboration” is bullshit",
@@ -688,15 +734,15 @@
         "id": 47484519,
         "type": "story",
         "by": "mitchbob",
-        "score": 338,
-        "descendants": 178,
+        "score": 340,
+        "descendants": 182,
         "time": 1774230225,
         "comments_url": "https://news.ycombinator.com/item?id=47484519"
       },
       "tags": [
         "Culture"
       ],
-      "hot_score": 0.49
+      "hot_score": 0.44
     },
     {
       "title_en": "Reports of code's death are greatly exaggerated",
@@ -719,7 +765,7 @@
         "Programming",
         "AI"
       ],
-      "hot_score": 0.47
+      "hot_score": 0.43
     },
     {
       "title_en": "Why I love NixOS",
@@ -734,7 +780,7 @@
         "type": "story",
         "by": "birkey",
         "score": 436,
-        "descendants": 307,
+        "descendants": 308,
         "time": 1774199826,
         "comments_url": "https://news.ycombinator.com/item?id=47479751"
       },
@@ -742,7 +788,7 @@
         "Open Source",
         "DevOps"
       ],
-      "hot_score": 0.44
+      "hot_score": 0.4
     },
     {
       "title_en": "OpenClaw is a security nightmare dressed up as a daydream",
@@ -757,14 +803,14 @@
         "type": "story",
         "by": "fs_software",
         "score": 391,
-        "descendants": 280,
+        "descendants": 282,
         "time": 1774200928,
         "comments_url": "https://news.ycombinator.com/item?id=47479962"
       },
       "tags": [
         "Security"
       ],
-      "hot_score": 0.4
+      "hot_score": 0.36
     },
     {
       "title_en": "Windows native app development is a mess",
@@ -786,7 +832,7 @@
       "tags": [
         "Programming"
       ],
-      "hot_score": 0.35
+      "hot_score": 0.32
     },
     {
       "title_en": "You are not your job",
@@ -800,8 +846,8 @@
         "id": 47478548,
         "type": "story",
         "by": "jryio",
-        "score": 371,
-        "descendants": 397,
+        "score": 373,
+        "descendants": 401,
         "time": 1774193454,
         "comments_url": "https://news.ycombinator.com/item?id=47478548"
       },
@@ -809,7 +855,7 @@
         "Culture",
         "Career"
       ],
-      "hot_score": 0.35
+      "hot_score": 0.32
     },
     {
       "title_en": "Flash-MoE: Running a 397B Parameter Model on a Laptop",
@@ -833,7 +879,7 @@
         "Hardware",
         "DevOps"
       ],
-      "hot_score": 0.32
+      "hot_score": 0.29
     },
     {
       "title_en": "Bored of eating your own dogfood? Try smelling your own farts",
@@ -855,7 +901,7 @@
       "tags": [
         "Culture"
       ],
-      "hot_score": 0.31
+      "hot_score": 0.29
     },
     {
       "title_en": "GrapheneOS refuses to comply with new age verification laws for operating system",
@@ -869,7 +915,7 @@
         "id": 47479183,
         "type": "story",
         "by": "CrypticShift",
-        "score": 283,
+        "score": 284,
         "descendants": 156,
         "time": 1774196932,
         "comments_url": "https://news.ycombinator.com/item?id=47479183"
@@ -880,29 +926,7 @@
         "Open Source",
         "Politics"
       ],
-      "hot_score": 0.28
-    },
-    {
-      "title_en": "Department of State advises Americans worldwide to exercise increased caution",
-      "url": "https://travel.state.gov/en/international-travel/travel-advisories/global-events/worldwide-caution.html",
-      "title_zh": "国务院建议全球范围内的美国人提高警惕",
-      "created_display": "Created: Mar 22, 2026 / 18:02 PT",
-      "image_url": "https://travel.state.gov/content/dam/tsg_aem/banner-images/us_flag_small%201.png",
-      "summary_en": "A broad worldwide travel advisory signals elevated risk levels across regions, impacting tech workers and contractors abroad. It underscores the need for proactive risk planning, security considerations, and contingency options when deploying globally.",
-      "summary_zh": "全球范围的旅行警示信号指向各地风险上升，这将影响在海外工作的科技人员和承包商。强调在全球部署时需要前瞻性的风险规划、安全考量与应急选项。",
-      "hn": {
-        "id": 47484208,
-        "type": "story",
-        "by": "supernova215",
-        "score": 170,
-        "descendants": 249,
-        "time": 1774227776,
-        "comments_url": "https://news.ycombinator.com/item?id=47484208"
-      },
-      "tags": [
-        "Security"
-      ],
-      "hot_score": 0.24
+      "hot_score": 0.25
     },
     {
       "title_en": "MAUI Is Coming to Linux",
@@ -916,8 +940,8 @@
         "id": 47478687,
         "type": "story",
         "by": "DeathArrow",
-        "score": 247,
-        "descendants": 166,
+        "score": 248,
+        "descendants": 168,
         "time": 1774194201,
         "comments_url": "https://news.ycombinator.com/item?id=47478687"
       },
@@ -925,7 +949,7 @@
         "Open Source",
         "Programming"
       ],
-      "hot_score": 0.23
+      "hot_score": 0.21
     },
     {
       "title_en": "What young workers are doing to AI-proof themselves",
@@ -939,8 +963,8 @@
         "id": 47480447,
         "type": "story",
         "by": "wallflower",
-        "score": 223,
-        "descendants": 379,
+        "score": 224,
+        "descendants": 385,
         "time": 1774203481,
         "comments_url": "https://news.ycombinator.com/item?id=47480447"
       },
@@ -948,7 +972,7 @@
         "Career",
         "AI"
       ],
-      "hot_score": 0.23
+      "hot_score": 0.21
     },
     {
       "title_en": "Iran war energy crisis is a renewable energy wake-up call",
@@ -963,7 +987,7 @@
         "type": "story",
         "by": "mooreds",
         "score": 188,
-        "descendants": 244,
+        "descendants": 245,
         "time": 1774216863,
         "comments_url": "https://news.ycombinator.com/item?id=47482667"
       },
@@ -971,7 +995,7 @@
         "Energy",
         "Security"
       ],
-      "hot_score": 0.23
+      "hot_score": 0.21
     },
     {
       "title_en": "Five years of running a systems reading group at Microsoft",
@@ -985,7 +1009,7 @@
         "id": 47479627,
         "type": "story",
         "by": "Foe",
-        "score": 208,
+        "score": 209,
         "descendants": 54,
         "time": 1774199198,
         "comments_url": "https://news.ycombinator.com/item?id=47479627"
@@ -993,7 +1017,7 @@
       "tags": [
         "Education"
       ],
-      "hot_score": 0.21
+      "hot_score": 0.19
     },
     {
       "title_en": "More common mistakes to avoid when creating system architecture diagrams",
@@ -1015,7 +1039,7 @@
       "tags": [
         "Design"
       ],
-      "hot_score": 0.2
+      "hot_score": 0.18
     },
     {
       "title_en": "Building an FPGA 3dfx Voodoo with Modern RTL Tools",
@@ -1037,7 +1061,7 @@
       "tags": [
         "Hardware"
       ],
-      "hot_score": 0.2
+      "hot_score": 0.18
     },
     {
       "title_en": "Palantir extends reach into British state as gets access to sensitive FCA data",
@@ -1063,7 +1087,7 @@
         "Data",
         "Politics"
       ],
-      "hot_score": 0.2
+      "hot_score": 0.18
     },
     {
       "title_en": "Apple's intentional crippling of Mobile Safari",
@@ -1085,29 +1109,7 @@
       "tags": [
         "Web"
       ],
-      "hot_score": 0.19
-    },
-    {
-      "title_en": "I hate: Programming Wayland applications",
-      "url": "https://www.p4m.dev/posts/29/index.html",
-      "title_zh": "我讨厌：编写 Wayland 应用程序",
-      "created_display": "Created: Mar 22, 2026 / 08:06 PT",
-      "image_url": "https://www.p4m.dev/Avatar.png",
-      "summary_en": "A developer venting about the pain points of building Wayland apps, likely citing API fragmentation, debugging woes, and toolchain inefficiencies. The piece serves as a case study for the UX fragility of modern Linux display servers and why many devs seek alternatives or abstractions.",
-      "summary_zh": "作者吐槽在编写 Wayland 应用时遇到的痛点，例如 API 的碎片化、调试困难以及工具链低效等。这反映了现代 Linux 显示服务器在开发体验上的脆弱性，以及许多开发者为何寻求替代方案或抽象层。",
-      "hn": {
-        "id": 47478298,
-        "type": "story",
-        "by": "dwdz",
-        "score": 173,
-        "descendants": 175,
-        "time": 1774191989,
-        "comments_url": "https://news.ycombinator.com/item?id=47478298"
-      },
-      "tags": [
-        "Programming"
-      ],
-      "hot_score": 0.16
+      "hot_score": 0.17
     },
     {
       "title_en": "Trivy under attack again: Widespread GitHub Actions tag compromise secrets",
@@ -1131,7 +1133,7 @@
         "Programming",
         "DevOps"
       ],
-      "hot_score": 0.15
+      "hot_score": 0.14
     },
     {
       "title_en": "Vatican Rebukes Peter Thiel's Antichrist Lectures in Rome",
@@ -1153,7 +1155,7 @@
       "tags": [
         "Politics"
       ],
-      "hot_score": 0.14
+      "hot_score": 0.13
     }
   ]
 }
