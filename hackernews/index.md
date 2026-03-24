@@ -144,18 +144,10 @@ Sort:
 <p class='hn-podcast-meta'>中文播客 · AI 生成 · 小晓 &amp; 云希</p>
 </div>
 </div>
-<audio class='hn-podcast-audio' controls preload='none'>
+<audio class='hn-podcast-audio' controls preload='metadata'>
 <source src='https://github.com/chaowang15/chaowang15.github.io/releases/download/podcast-2026-03/hn-podcast-2026-03-22.mp3' type='audio/mpeg'>
 Your browser does not support the audio element.
 </audio>
-<div class='hn-podcast-links'>
-<a class='hn-podcast-link' href='https://github.com/chaowang15/chaowang15.github.io/releases/download/podcast-2026-03/hn-podcast-2026-03-22.mp3' download>
-<span class='hn-podcast-link-icon'>⬇</span> Download MP3
-</a>
-<a class='hn-podcast-link' href='https://github.com/chaowang15/chaowang15.github.io/releases/download/podcast-2026-03/hn-podcast-2026-03-22-transcript.md' target='_blank'>
-<span class='hn-podcast-link-icon'>📄</span> Transcript
-</a>
-</div>
 </div>
 </div>
 <div class='hn-index-section hn-weekly-section'>

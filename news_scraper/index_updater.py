@@ -416,21 +416,11 @@ def _add_podcast_section(lines: list, base_dir: str, days: list):
     lines.append("</div>")
     lines.append("</div>")
 
-    # Audio player
-    lines.append(f"<audio class='hn-podcast-audio' controls preload='none'>")
+    # Audio player (preload=metadata to show duration before playback)
+    lines.append(f"<audio class='hn-podcast-audio' controls preload='metadata'>")
     lines.append(f"<source src='{podcast['mp3_url']}' type='audio/mpeg'>")
     lines.append("Your browser does not support the audio element.")
     lines.append("</audio>")
-
-    # Links
-    lines.append("<div class='hn-podcast-links'>")
-    lines.append(f"<a class='hn-podcast-link' href='{podcast['mp3_url']}' download>")
-    lines.append("<span class='hn-podcast-link-icon'>\u2B07</span> Download MP3")
-    lines.append("</a>")
-    lines.append(f"<a class='hn-podcast-link' href='{podcast['transcript_url']}' target='_blank'>")
-    lines.append("<span class='hn-podcast-link-icon'>\U0001F4C4</span> Transcript")
-    lines.append("</a>")
-    lines.append("</div>")
 
     lines.append("</div>")  # hn-podcast-player
     lines.append("</div>")  # hn-podcast-section

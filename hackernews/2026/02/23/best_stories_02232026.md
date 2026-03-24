@@ -14,15 +14,9 @@ title: "Hacker News — Daily Best (2026-02-23)"
 <p class='hn-podcast-meta'>中文播客 · AI 生成 · 小晓 &amp; 云希</p>
 </div>
 </div>
-<audio class='hn-podcast-audio' controls preload='none'>
+<audio class='hn-podcast-audio' controls preload='metadata'>
 <source src='https://github.com/chaowang15/chaowang15.github.io/releases/download/podcast-2026-02/hn-podcast-2026-02-23.mp3' type='audio/mpeg'>
 </audio>
-<div class='hn-podcast-links'>
-<a class='hn-podcast-link' href='https://github.com/chaowang15/chaowang15.github.io/releases/download/podcast-2026-02/hn-podcast-2026-02-23.mp3' download>
-<span class='hn-podcast-link-icon'>⬇</span> Download MP3</a>
-<a class='hn-podcast-link' href='https://github.com/chaowang15/chaowang15.github.io/releases/download/podcast-2026-02/hn-podcast-2026-02-23-transcript.md' target='_blank'>
-<span class='hn-podcast-link-icon'>📄</span> Transcript</a>
-</div>
 </div>
 </div>
 <hr class='hn-rule'/>
