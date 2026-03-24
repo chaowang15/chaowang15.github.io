@@ -381,12 +381,27 @@ def _get_podcast_dates(base_dir: str) -> set:
     return dates
 
 
+def _parse_podcast_marker(marker_path: str) -> dict:
+    """Parse .podcast marker file and return a dict of key=value pairs."""
+    info = {}
+    try:
+        with open(marker_path, "r") as f:
+            for line in f:
+                line = line.strip()
+                if "=" in line:
+                    k, v = line.split("=", 1)
+                    info[k.strip()] = v.strip()
+    except Exception:
+        pass
+    return info
+
+
 def _get_podcast_info(base_dir: str, days: list) -> Optional[dict]:
     """Find the latest available podcast and return its info.
 
-    Only returns info for dates that have a .podcast marker file,
-    which is created after a successful podcast upload.
-    Returns dict with date, mp3_url, transcript_url, or None.
+    Supports two-part podcasts (Part 1 + Part 2) as well as legacy single-file.
+    Only returns info for dates that have a .podcast marker file.
+    Returns dict with date, mp3 URLs, or None.
     """
     repo = "chaowang15/chaowang15.github.io"
     podcast_dates = _get_podcast_dates(base_dir)
@@ -402,53 +417,95 @@ def _get_podcast_info(base_dir: str, days: list) -> Optional[dict]:
             continue
 
         date_tag = dt.strftime("%Y-%m-%d")
-        # Only return if this date actually has a podcast
         if date_tag not in podcast_dates:
             continue
 
         release_tag = f"podcast-{dt.strftime('%Y-%m')}"
-        mp3_filename = f"hn-podcast-{date_tag}.mp3"
-        transcript_filename = f"hn-podcast-{date_tag}-transcript.md"
 
-        mp3_url = f"https://github.com/{repo}/releases/download/{release_tag}/{mp3_filename}"
-        transcript_url = f"https://github.com/{repo}/releases/download/{release_tag}/{transcript_filename}"
+        # Parse marker file for format info
+        marker_path = os.path.join(
+            base_dir, dt.strftime("%Y"), dt.strftime("%m"), dt.strftime("%d"), ".podcast"
+        )
+        marker_info = _parse_podcast_marker(marker_path)
+        num_parts = int(marker_info.get("parts", "0"))
+        female_name = marker_info.get("female", "晓晓")
+        male_name = marker_info.get("male", "云希")
 
-        return {
+        result = {
             "date": day.content_date,
             "date_display": dt.strftime("%B %d, %Y"),
-            "mp3_url": mp3_url,
-            "transcript_url": transcript_url,
             "release_tag": release_tag,
+            "female_name": female_name,
+            "male_name": male_name,
         }
+
+        if num_parts >= 2:
+            # Two-part podcast
+            result["num_parts"] = num_parts
+            result["parts"] = []
+            for pn in range(1, num_parts + 1):
+                mp3_fn = marker_info.get(f"mp3_part{pn}", f"hn-podcast-{date_tag}-part{pn}.mp3")
+                mp3_url = f"https://github.com/{repo}/releases/download/{release_tag}/{mp3_fn}"
+                result["parts"].append({
+                    "part": pn,
+                    "mp3_url": mp3_url,
+                    "mp3_filename": mp3_fn,
+                })
+            # Backward compat: first part URL
+            result["mp3_url"] = result["parts"][0]["mp3_url"]
+        else:
+            # Legacy single-file
+            result["num_parts"] = 1
+            mp3_fn = marker_info.get("mp3", f"hn-podcast-{date_tag}.mp3")
+            mp3_url = f"https://github.com/{repo}/releases/download/{release_tag}/{mp3_fn}"
+            result["mp3_url"] = mp3_url
+            result["parts"] = [{"part": 1, "mp3_url": mp3_url, "mp3_filename": mp3_fn}]
+
+        return result
     return None
 
 
 def _add_podcast_section(lines: list, base_dir: str, days: list):
-    """Add podcast player section to the index page."""
+    """Add podcast player section to the index page.
+
+    Supports two-part podcasts (Part 1 + Part 2) as well as legacy single-file.
+    """
     podcast = _get_podcast_info(base_dir, days)
     if not podcast:
         return
 
+    female_name = podcast.get("female_name", "\u6653\u6653")
+    male_name = podcast.get("male_name", "\u4E91\u5E0C")
+    num_parts = podcast.get("num_parts", 1)
+    parts = podcast.get("parts", [])
+
     lines.append("<div class='hn-index-section hn-podcast-section'>")
     lines.append("<h3 class='hn-section-title'>Daily Podcast <span class='hn-section-zh'>\u6BCF\u65E5\u64AD\u5BA2</span></h3>")
-    lines.append("<div class='hn-podcast-player'>")
 
-    # Header with icon and info
-    lines.append("<div class='hn-podcast-header'>")
-    lines.append("<span class='hn-podcast-icon'>\U0001F399</span>")
-    lines.append("<div class='hn-podcast-info'>")
-    lines.append(f"<p class='hn-podcast-title'>HN Daily Best \u2014 {podcast['date_display']}</p>")
-    lines.append(f"<p class='hn-podcast-meta'>\u4E2D\u6587\u64AD\u5BA2 \u00B7 AI \u751F\u6210 \u00B7 \u5C0F\u6653 &amp; \u4E91\u5E0C</p>")
-    lines.append("</div>")
-    lines.append("</div>")
+    for part_info in parts:
+        pn = part_info["part"]
+        mp3_url = part_info["mp3_url"]
 
-    # Audio player (preload=metadata to show duration before playback)
-    lines.append(f"<audio class='hn-podcast-audio' controls preload='metadata'>")
-    lines.append(f"<source src='{podcast['mp3_url']}' type='audio/mpeg'>")
-    lines.append("Your browser does not support the audio element.")
-    lines.append("</audio>")
+        if num_parts >= 2:
+            part_label = "\u4E0A\u534A\u573A" if pn == 1 else "\u4E0B\u534A\u573A"
+            title_text = f"HN Daily Best ({part_label}) \u2014 {podcast['date_display']}"
+        else:
+            title_text = f"HN Daily Best \u2014 {podcast['date_display']}"
 
-    lines.append("</div>")  # hn-podcast-player
+        lines.append("<div class='hn-podcast-player'>")
+        lines.append("<div class='hn-podcast-header'>")
+        lines.append("<span class='hn-podcast-icon'>\U0001F399</span>")
+        lines.append("<div class='hn-podcast-info'>")
+        lines.append(f"<p class='hn-podcast-title'>{title_text}</p>")
+        lines.append(f"<p class='hn-podcast-meta'>\u4E2D\u6587\u64AD\u5BA2 \u00B7 AI \u751F\u6210 \u00B7 {female_name} &amp; {male_name}</p>")
+        lines.append("</div>")
+        lines.append("</div>")
+        lines.append(f"<audio class='hn-podcast-audio' controls preload='metadata'>")
+        lines.append(f"<source src='{mp3_url}' type='audio/mpeg'>")
+        lines.append("Your browser does not support the audio element.")
+        lines.append("</audio>")
+        lines.append("</div>")  # hn-podcast-player
+
     lines.append("</div>")  # hn-podcast-section
 
 
