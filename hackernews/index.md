@@ -140,12 +140,12 @@ Sort:
 <div class='hn-podcast-header'>
 <span class='hn-podcast-icon'>🎙</span>
 <div class='hn-podcast-info'>
-<p class='hn-podcast-title'>HN Daily Best — March 22, 2026</p>
+<p class='hn-podcast-title'>HN Daily Best — March 23, 2026</p>
 <p class='hn-podcast-meta'>中文播客 · AI 生成 · 小晓 &amp; 云希</p>
 </div>
 </div>
 <audio class='hn-podcast-audio' controls preload='metadata'>
-<source src='https://github.com/chaowang15/chaowang15.github.io/releases/download/podcast-2026-03/hn-podcast-2026-03-22.mp3' type='audio/mpeg'>
+<source src='https://github.com/chaowang15/chaowang15.github.io/releases/download/podcast-2026-03/hn-podcast-2026-03-23.mp3' type='audio/mpeg'>
 Your browser does not support the audio element.
 </audio>
 </div>
@@ -193,6 +193,7 @@ Your browser does not support the audio element.
 <a class='hn-story-link' href='/hackernews/2026/03/23/best_stories_03232026'>
 <span class='hn-row-type hn-type-best'>Daily Best</span>
 <span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> Programming <b>15</b> <span class="hn-row-sep">·</span> AI <b>11</b></span>
+<span class='hn-podcast-badge' title='Podcast available'>&#x1F3A7;</span>
 </a>
 <a class='hn-story-link' href='/hackernews/2026/03/23/top_stories_03232026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
