@@ -4,10 +4,11 @@ Podcast Generator — Generate daily Chinese podcast from HN Daily Best stories.
 Pipeline:
   1. Load today's best_stories JSON
   2. Prepare news text input
-  3. Generate Chinese-English mixed dialogue transcript via LLM (gpt-4.1-mini)
-  4. Convert raw transcript to reading-friendly Markdown
-  5. Synthesize audio via Gemini 2.5 Flash TTS (multi-speaker)
-  6. Encode to MP3 64kbps
+  3. Randomly select a voice pair for today
+  4. Generate Chinese-English mixed dialogue transcript via LLM (gpt-4.1-mini)
+     with host names matching the selected voice pair
+  5. Convert raw transcript to reading-friendly Markdown
+  6. Synthesize audio via Azure Speech TTS (SSML multi-speaker)
   7. Upload MP3 + transcript to GitHub Releases (monthly release, daily append)
 
 Usage:
@@ -17,30 +18,22 @@ Usage:
 """
 
 import argparse
+import hashlib
 import json
 import os
 import re
 import subprocess
 import sys
 import time
-import wave
 from datetime import datetime, timedelta
 from pathlib import Path
 
 # ---------------------------------------------------------------------------
 # Constants
 # ---------------------------------------------------------------------------
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", "")
-
-# TTS voices
-SPEAKER1_VOICE = "Kore"   # Female voice for 小晓
-SPEAKER2_VOICE = "Puck"   # Male voice for 云希
-
-# Audio settings
-MP3_BITRATE = "64k"
-TTS_SAMPLE_RATE = 24000
-TTS_SAMPLE_WIDTH = 2
+AZURE_SPEECH_KEY = os.environ.get("AZURE_SPEECH_KEY", "")
+AZURE_SPEECH_REGION = os.environ.get("AZURE_SPEECH_REGION", "westus")
 
 # LLM settings
 LLM_MODEL = "gpt-4.1-mini"
@@ -55,6 +48,75 @@ BASE_DIR = "hackernews"
 
 # Temporary working directory for intermediate files
 WORK_DIR = "/tmp/podcast_work"
+
+# ---------------------------------------------------------------------------
+# Voice Pairs — 6 female-male pairs for random daily rotation
+# Each pair: (female_voice_id, female_name, female_style,
+#             male_voice_id, male_name, male_style)
+# ---------------------------------------------------------------------------
+VOICE_PAIRS = [
+    {
+        "female_voice": "zh-CN-XiaoxiaoNeural",
+        "female_name": "晓晓",
+        "female_style": "chat",
+        "male_voice": "zh-CN-YunxiNeural",
+        "male_name": "云希",
+        "male_style": "chat",
+    },
+    {
+        "female_voice": "zh-CN-XiaomengNeural",
+        "female_name": "晓梦",
+        "female_style": "chat",
+        "male_voice": "zh-CN-YunyangNeural",
+        "male_name": "云扬",
+        "male_style": "newscast-casual",
+    },
+    {
+        "female_voice": "zh-CN-XiaoshuangNeural",
+        "female_name": "晓双",
+        "female_style": "chat",
+        "male_voice": "zh-CN-YunzeNeural",
+        "male_name": "云泽",
+        "male_style": "cheerful",
+    },
+    {
+        "female_voice": "zh-CN-XiaoyouMultilingualNeural",
+        "female_name": "晓悠",
+        "female_style": "chat",
+        "male_voice": "zh-CN-YunjianNeural",
+        "male_name": "云健",
+        "male_style": "narration-relaxed",
+    },
+    {
+        "female_voice": "zh-CN-XiaoyiNeural",
+        "female_name": "晓伊",
+        "female_style": "cheerful",
+        "male_voice": "zh-CN-YunyeNeural",
+        "male_name": "云野",
+        "male_style": "cheerful",
+    },
+    {
+        "female_voice": "zh-CN-XiaoxiaoNeural",
+        "female_name": "晓晓",
+        "female_style": "chat-casual",
+        "male_voice": "zh-CN-YunfengNeural",
+        "male_name": "云枫",
+        "male_style": "cheerful",
+    },
+]
+
+
+def select_voice_pair(date_tag: str) -> dict:
+    """Select a voice pair deterministically based on the date.
+
+    Uses a hash of the date string so the same date always gets the same pair,
+    but different dates get different pairs in a seemingly random pattern.
+    """
+    h = int(hashlib.md5(date_tag.encode()).hexdigest(), 16)
+    idx = h % len(VOICE_PAIRS)
+    pair = VOICE_PAIRS[idx]
+    print(f"[PODCAST] Voice pair selected: {pair['female_name']} + {pair['male_name']} (pair {idx + 1})")
+    return pair
 
 
 # ---------------------------------------------------------------------------
@@ -77,11 +139,9 @@ def load_news_items(json_path: str) -> tuple:
     with open(json_path, "r", encoding="utf-8") as f:
         data = json.load(f)
     items = data.get("items", [])
-    # Extract date from metadata or filename
     meta = data.get("metadata", {})
     date_str = meta.get("date", "")
     if not date_str:
-        # Parse from filename: best_stories_MMDDYYYY.json
         basename = os.path.basename(json_path)
         m = re.search(r"(\d{8})", basename)
         if m:
@@ -117,10 +177,15 @@ def prepare_news_text(items: list, date_str: str) -> str:
 # ---------------------------------------------------------------------------
 # Step 3: Generate Chinese dialogue transcript via LLM
 # ---------------------------------------------------------------------------
-SYSTEM_PROMPT = """你是一个专业的播客脚本编剧。你需要将一组 Hacker News 每日精选新闻转化为一段双人对话形式的播客脚本。
+def build_system_prompt(voice_pair: dict) -> str:
+    """Build the LLM system prompt with the selected voice pair names."""
+    female_name = voice_pair["female_name"]
+    male_name = voice_pair["male_name"]
+
+    return f"""你是一个专业的播客脚本编剧。你需要将一组 Hacker News 每日精选新闻转化为一段双人对话形式的播客脚本。
 
 播客名称：HN Daily Best（HN 每日精选）
-主持人：小晓（女，活泼开朗）和云希（男，沉稳有见解）
+主持人：{female_name}（女，活泼开朗）和{male_name}（男，沉稳有见解）
 
 语言风格要求：
 1. 主体语言用中文，语气自然、口语化，像两个科技爱好者在聊天
@@ -138,20 +203,22 @@ SYSTEM_PROMPT = """你是一个专业的播客脚本编剧。你需要将一组 
 
 输出格式：
 严格使用 <Person1> 和 <Person2> 标签包裹每段对话。
-Person1 = 小晓（女主持）
-Person2 = 云希（男主持）
+Person1 = {female_name}（女主持）
+Person2 = {male_name}（男主持）
 
 示例：
-<Person1>大家好，欢迎收听 HN Daily Best！我是小晓。</Person1>
-<Person2>我是云希。今天的 Hacker News 精选真的很精彩，我们赶紧开始吧！</Person2>
+<Person1>大家好，欢迎收听 HN Daily Best！我是{female_name}。</Person1>
+<Person2>我是{male_name}。今天的 Hacker News 精选真的很精彩，我们赶紧开始吧！</Person2>
 """
 
 
-def generate_transcript(news_text: str) -> str:
+def generate_transcript(news_text: str, voice_pair: dict) -> str:
     """Generate Chinese-English mixed podcast transcript using OpenAI LLM."""
     from openai import OpenAI
 
     client = OpenAI()  # Uses OPENAI_API_KEY env var
+
+    system_prompt = build_system_prompt(voice_pair)
 
     user_prompt = (
         "请根据以下 Hacker News 每日精选新闻数据，"
@@ -165,7 +232,7 @@ def generate_transcript(news_text: str) -> str:
     response = client.chat.completions.create(
         model=LLM_MODEL,
         messages=[
-            {"role": "system", "content": SYSTEM_PROMPT},
+            {"role": "system", "content": system_prompt},
             {"role": "user", "content": user_prompt},
         ],
         temperature=LLM_TEMPERATURE,
@@ -190,14 +257,17 @@ def generate_transcript(news_text: str) -> str:
 # ---------------------------------------------------------------------------
 # Step 4: Convert raw transcript to reading-friendly Markdown
 # ---------------------------------------------------------------------------
-def transcript_to_markdown(raw_transcript: str, date_str: str) -> str:
+def transcript_to_markdown(raw_transcript: str, date_str: str, voice_pair: dict) -> str:
     """Convert <Person1>/<Person2> tagged transcript to readable Markdown."""
+    female_name = voice_pair["female_name"]
+    male_name = voice_pair["male_name"]
+
     lines = [
         f"# HN 每日精选播客 — {date_str}",
         "",
         "> HN Daily Best — 每天精选 Hacker News 最佳新闻",
         "",
-        "**主持人：** 小晓（女主持）和云希（男主持）",
+        f"**主持人：** {female_name}（女主持）和{male_name}（男主持）",
         "",
         "---",
         "",
@@ -213,7 +283,7 @@ def transcript_to_markdown(raw_transcript: str, date_str: str) -> str:
         if not content:
             continue
 
-        # Detect story transitions (look for story number patterns)
+        # Detect story transitions
         story_match = re.search(
             r"(?:第\s*(\d+)\s*条|Story\s*(\d+)|第(\d+)个)", content
         )
@@ -225,7 +295,7 @@ def transcript_to_markdown(raw_transcript: str, date_str: str) -> str:
                 lines.append("---")
                 lines.append("")
 
-        name = "小晓" if speaker == "Person1" else "云希"
+        name = female_name if speaker == "Person1" else male_name
         lines.append(f"**{name}：** {content}")
         lines.append("")
 
@@ -240,197 +310,132 @@ def transcript_to_markdown(raw_transcript: str, date_str: str) -> str:
 
 
 # ---------------------------------------------------------------------------
-# Step 5: Synthesize audio via Gemini 2.5 Flash TTS
+# Step 5: Synthesize audio via Azure Speech TTS (SSML multi-speaker)
 # ---------------------------------------------------------------------------
-def convert_tags_to_speaker_names(text: str) -> str:
-    """Convert <Person1>...</Person1> to 小晓: ... format for Gemini multi-speaker."""
-    text = re.sub(r"<Person1>(.*?)</Person1>", r"小晓: \1", text, flags=re.DOTALL)
-    text = re.sub(r"<Person2>(.*?)</Person2>", r"云希: \1", text, flags=re.DOTALL)
-    text = re.sub(r"</Person[12]>", "", text)
-    return text
+def build_ssml(raw_transcript: str, voice_pair: dict) -> str:
+    """Build SSML document from raw transcript with multi-speaker voices."""
+    female_voice = voice_pair["female_voice"]
+    female_name = voice_pair["female_name"]
+    female_style = voice_pair["female_style"]
+    male_voice = voice_pair["male_voice"]
+    male_name = voice_pair["male_name"]
+    male_style = voice_pair["male_style"]
+
+    # Parse dialogue segments
+    pattern = r"<(Person[12])>(.*?)</\1>"
+    segments = re.findall(pattern, raw_transcript, re.DOTALL)
+
+    if not segments:
+        print("[PODCAST] WARNING: No dialogue segments found in transcript")
+        return ""
+
+    ssml_parts = [
+        '<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="zh-CN">'
+    ]
+
+    for speaker, content in segments:
+        content = content.strip()
+        if not content:
+            continue
+
+        # Escape XML special characters in content
+        content = content.replace("&", "&amp;")
+        content = content.replace("<", "&lt;")
+        content = content.replace(">", "&gt;")
+
+        if speaker == "Person1":
+            voice_id = female_voice
+            style = female_style
+        else:
+            voice_id = male_voice
+            style = male_style
+
+        ssml_parts.append(
+            f'  <voice name="{voice_id}">\n'
+            f'    <mstts:express-as xmlns:mstts="http://www.w3.org/2001/mstts" style="{style}">\n'
+            f'      {content}\n'
+            f'    </mstts:express-as>\n'
+            f'  </voice>'
+        )
+
+    ssml_parts.append('</speak>')
+    return '\n'.join(ssml_parts)
 
 
-def split_into_chunks(transcript: str, max_lines: int = 8) -> list:
-    """Split transcript into chunks of dialogue lines for TTS processing."""
-    lines = [l.strip() for l in transcript.split("\n") if l.strip()]
-    chunks = []
-    for i in range(0, len(lines), max_lines):
-        chunk = "\n".join(lines[i : i + max_lines])
-        chunks.append(chunk)
-    return chunks
+def synthesize_audio(raw_transcript: str, output_mp3: str, voice_pair: dict) -> bool:
+    """Synthesize audio from transcript using Azure Speech TTS.
 
-
-def wave_file(filename: str, pcm: bytes, channels=1, rate=24000, sample_width=2):
-    """Write raw PCM data to a WAV file."""
-    with wave.open(filename, "wb") as wf:
-        wf.setnchannels(channels)
-        wf.setsampwidth(sample_width)
-        wf.setframerate(rate)
-        wf.writeframes(pcm)
-
-
-def add_silence(duration_ms: int = 400, rate: int = 24000, sample_width: int = 2) -> bytes:
-    """Generate silence as raw PCM bytes."""
-    num_samples = int(rate * duration_ms / 1000)
-    return b"\x00" * (num_samples * sample_width)
-
-
-def synthesize_audio(raw_transcript: str, output_wav: str) -> bool:
-    """Synthesize audio from transcript using Gemini 2.5 Flash TTS."""
+    Azure Speech TTS supports SSML with multiple voices in a single request,
+    so we can generate the entire podcast in one API call — no chunking needed.
+    """
     try:
-        from google import genai
-        from google.genai import types
+        import azure.cognitiveservices.speech as speechsdk
     except ImportError:
-        print("[PODCAST] ERROR: google-genai package not installed. Run: pip install google-genai")
+        print("[PODCAST] ERROR: azure-cognitiveservices-speech not installed.")
+        print("[PODCAST]   Run: pip install azure-cognitiveservices-speech")
         return False
 
-    api_key = GEMINI_API_KEY
-    if not api_key:
-        print("[PODCAST] ERROR: GEMINI_API_KEY not set")
+    speech_key = AZURE_SPEECH_KEY
+    speech_region = AZURE_SPEECH_REGION
+    if not speech_key:
+        print("[PODCAST] ERROR: AZURE_SPEECH_KEY not set")
         return False
 
-    # Convert tags to speaker names
-    transcript = convert_tags_to_speaker_names(raw_transcript)
-
-    # Split into chunks
-    chunks = split_into_chunks(transcript, max_lines=8)
-    print(f"[PODCAST] Split transcript into {len(chunks)} TTS chunks")
-
-    # Initialize Gemini client
-    client = genai.Client(api_key=api_key)
-
-    all_audio = bytearray()
-    silence = add_silence(400)
-
-    failed_chunks = []
-    for i, chunk in enumerate(chunks):
-        prompt = f"TTS the following conversation between 小晓 and 云希:\n{chunk}"
-
-        retry_count = 0
-        max_retries = 8  # More retries to handle rate limits
-        chunk_success = False
-        while retry_count < max_retries:
-            try:
-                print(f"[PODCAST]   TTS chunk {i + 1}/{len(chunks)} ({len(chunk)} chars)...")
-                response = client.models.generate_content(
-                    model="gemini-2.5-flash-preview-tts",
-                    contents=prompt,
-                    config=types.GenerateContentConfig(
-                        response_modalities=["AUDIO"],
-                        speech_config=types.SpeechConfig(
-                            multi_speaker_voice_config=types.MultiSpeakerVoiceConfig(
-                                speaker_voice_configs=[
-                                    types.SpeakerVoiceConfig(
-                                        speaker="小晓",
-                                        voice_config=types.VoiceConfig(
-                                            prebuilt_voice_config=types.PrebuiltVoiceConfig(
-                                                voice_name=SPEAKER1_VOICE,
-                                            )
-                                        ),
-                                    ),
-                                    types.SpeakerVoiceConfig(
-                                        speaker="云希",
-                                        voice_config=types.VoiceConfig(
-                                            prebuilt_voice_config=types.PrebuiltVoiceConfig(
-                                                voice_name=SPEAKER2_VOICE,
-                                            )
-                                        ),
-                                    ),
-                                ]
-                            )
-                        ),
-                    ),
-                )
-
-                audio_data = response.candidates[0].content.parts[0].inline_data.data
-                all_audio.extend(audio_data)
-                if i < len(chunks) - 1:
-                    all_audio.extend(silence)
-                print(f"[PODCAST]   Chunk {i + 1} done: {len(audio_data)} bytes")
-                chunk_success = True
-                break
-
-            except Exception as e:
-                retry_count += 1
-                err_str = str(e)
-                print(f"[PODCAST]   ERROR on chunk {i + 1}: {err_str[:200]}")
-
-                if retry_count < max_retries:
-                    # Parse retry delay from error if available
-                    wait_time = 65  # default: wait 65s for rate limit reset
-                    delay_match = re.search(r'retryDelay.*?(\d+)s', err_str)
-                    if delay_match:
-                        wait_time = int(delay_match.group(1)) + 5  # add 5s buffer
-                    elif '429' in err_str or 'RESOURCE_EXHAUSTED' in err_str:
-                        wait_time = 65  # rate limit: wait a full minute
-                    else:
-                        wait_time = 15 * retry_count  # non-rate-limit errors
-
-                    print(f"[PODCAST]   Retrying in {wait_time}s (attempt {retry_count + 1}/{max_retries})...")
-                    time.sleep(wait_time)
-                else:
-                    print(f"[PODCAST]   FAILED after {max_retries} attempts on chunk {i + 1}")
-
-        if not chunk_success:
-            failed_chunks.append(i + 1)
-
-        # Rate limiting delay between chunks (Gemini free tier: 10 RPM)
-        # Wait 12s between chunks to stay safely under limit (~5 req/min)
-        if i < len(chunks) - 1:
-            time.sleep(12)
-
-    if failed_chunks:
-        print(f"[PODCAST] ERROR: {len(failed_chunks)} chunk(s) failed: {failed_chunks}")
-        print(f"[PODCAST] Audio would be incomplete — aborting to avoid truncated podcast")
+    # Build SSML
+    ssml = build_ssml(raw_transcript, voice_pair)
+    if not ssml:
+        print("[PODCAST] ERROR: Failed to build SSML")
         return False
 
-    if not all_audio:
-        print("[PODCAST] ERROR: No audio generated")
-        return False
+    print(f"[PODCAST] SSML built: {len(ssml)} chars, {ssml.count('<voice')} voice segments")
 
-    # Save as WAV
-    wave_file(output_wav, bytes(all_audio))
-    print(f"[PODCAST] WAV saved: {output_wav}")
-    return True
-
-
-def convert_to_mp3(wav_path: str, mp3_path: str, bitrate: str = "64k") -> bool:
-    """Convert WAV to MP3 using ffmpeg."""
-    result = subprocess.run(
-        [
-            "ffmpeg", "-y", "-i", wav_path,
-            "-codec:a", "libmp3lame", "-b:a", bitrate,
-            mp3_path,
-        ],
-        capture_output=True,
-        text=True,
+    # Configure Azure Speech
+    speech_config = speechsdk.SpeechConfig(subscription=speech_key, region=speech_region)
+    speech_config.set_speech_synthesis_output_format(
+        speechsdk.SpeechSynthesisOutputFormat.Audio48Khz192KBitRateMonoMp3
     )
-    if result.returncode != 0:
-        print(f"[PODCAST] ffmpeg error: {result.stderr}")
+
+    audio_config = speechsdk.audio.AudioOutputConfig(filename=output_mp3)
+    synthesizer = speechsdk.SpeechSynthesizer(
+        speech_config=speech_config, audio_config=audio_config
+    )
+
+    print("[PODCAST] Starting Azure TTS synthesis...")
+    t0 = time.time()
+
+    result = synthesizer.speak_ssml_async(ssml).get()
+    elapsed = time.time() - t0
+
+    if result.reason == speechsdk.ResultReason.SynthesizingAudioCompleted:
+        mp3_size = os.path.getsize(output_mp3) / (1024 * 1024)
+
+        # Get duration via ffprobe
+        probe = subprocess.run(
+            [
+                "ffprobe", "-v", "quiet",
+                "-show_entries", "format=duration",
+                "-of", "default=noprint_wrappers=1:nokey=1",
+                output_mp3,
+            ],
+            capture_output=True, text=True,
+        )
+        duration = float(probe.stdout.strip()) if probe.stdout.strip() else 0
+
+        print(f"[PODCAST] Azure TTS completed in {elapsed:.1f}s")
+        print(f"[PODCAST]   Duration: {duration:.0f}s ({duration / 60:.1f} min)")
+        print(f"[PODCAST]   Size: {mp3_size:.1f} MB")
+        return True
+
+    elif result.reason == speechsdk.ResultReason.Canceled:
+        cancellation = result.cancellation_details
+        print(f"[PODCAST] ERROR: Azure TTS canceled: {cancellation.reason}")
+        if cancellation.error_details:
+            print(f"[PODCAST]   Details: {cancellation.error_details}")
         return False
 
-    # Get file info
-    mp3_size = os.path.getsize(mp3_path) / (1024 * 1024)
-
-    # Get duration
-    probe = subprocess.run(
-        [
-            "ffprobe", "-v", "quiet",
-            "-show_entries", "format=duration",
-            "-of", "default=noprint_wrappers=1:nokey=1",
-            mp3_path,
-        ],
-        capture_output=True,
-        text=True,
-    )
-    duration = float(probe.stdout.strip()) if probe.stdout.strip() else 0
-
-    print(f"[PODCAST] MP3 saved: {mp3_path}")
-    print(f"[PODCAST]   Duration: {duration:.0f}s ({duration / 60:.1f} min)")
-    print(f"[PODCAST]   Size: {mp3_size:.1f} MB")
-    print(f"[PODCAST]   Bitrate: {bitrate}")
-
-    return True
+    else:
+        print(f"[PODCAST] ERROR: Azure TTS unexpected result: {result.reason}")
+        return False
 
 
 # ---------------------------------------------------------------------------
@@ -440,18 +445,13 @@ def upload_to_release(files: list, target_date: datetime, repo: str = "") -> boo
     """Upload files to a monthly GitHub Release.
 
     Creates the release if it doesn't exist, otherwise appends files.
-
-    Args:
-        files: List of file paths to upload
-        target_date: The date of the podcast
-        repo: GitHub repo in owner/repo format (auto-detected if empty)
     """
     tag = f"podcast-{target_date.strftime('%Y-%m')}"
     title = f"HN Podcast - {target_date.strftime('%B %Y')}"
     body = (
         f"Daily HN podcast audio and transcripts for {target_date.strftime('%B %Y')}.\n\n"
         "Each day includes:\n"
-        "- MP3 audio (Chinese, 64kbps)\n"
+        "- MP3 audio (Chinese, Azure Speech TTS)\n"
         "- Markdown transcript (Chinese-English mixed)\n\n"
         "Files are named `hn-podcast-YYYY-MM-DD.*`"
     )
@@ -478,7 +478,7 @@ def upload_to_release(files: list, target_date: datetime, repo: str = "") -> boo
             return False
         print(f"[PODCAST] Release created: {tag}")
     else:
-        # Upload to existing release (overwrite if same filename exists)
+        # Upload to existing release
         print(f"[PODCAST] Uploading to existing release: {tag}")
         file_args = " ".join(f'"{f}"' for f in files)
         upload_cmd = f"gh release upload {tag} {file_args} --clobber {repo_flag}"
@@ -491,11 +491,9 @@ def upload_to_release(files: list, target_date: datetime, repo: str = "") -> boo
     # Print download URLs
     for f in files:
         fname = os.path.basename(f)
-        # Determine repo for URL
         if repo:
             url_repo = repo
         else:
-            # Try to detect from git remote
             detect = subprocess.run(
                 "gh repo view --json nameWithOwner -q .nameWithOwner",
                 shell=True, capture_output=True, text=True,
@@ -523,7 +521,6 @@ def generate_daily_podcast(
     t_start = time.time()
 
     if target_date is None:
-        # Default to yesterday (since best stories are typically from yesterday)
         target_date = datetime.now() - timedelta(days=1)
 
     date_tag = target_date.strftime("%Y-%m-%d")
@@ -533,6 +530,10 @@ def generate_daily_podcast(
 
     # Ensure work directory
     os.makedirs(WORK_DIR, exist_ok=True)
+
+    # --- Step 0: Select voice pair ---
+    print(f"\n[PODCAST] Step 0: Selecting voice pair...")
+    voice_pair = select_voice_pair(date_tag)
 
     # --- Step 1: Load news data ---
     print(f"\n[PODCAST] Step 1: Loading news data...")
@@ -555,7 +556,7 @@ def generate_daily_podcast(
 
     # --- Step 3: Generate transcript ---
     print(f"\n[PODCAST] Step 3: Generating transcript...")
-    raw_transcript = generate_transcript(news_text)
+    raw_transcript = generate_transcript(news_text, voice_pair)
 
     # Save raw transcript
     raw_path = os.path.join(WORK_DIR, f"transcript_raw_{date_tag}.txt")
@@ -564,7 +565,7 @@ def generate_daily_podcast(
 
     # --- Step 4: Convert to Markdown ---
     print(f"\n[PODCAST] Step 4: Converting to Markdown transcript...")
-    md_transcript = transcript_to_markdown(raw_transcript, date_str)
+    md_transcript = transcript_to_markdown(raw_transcript, date_str, voice_pair)
 
     transcript_filename = f"{PODCAST_PREFIX}-{date_tag}-transcript.md"
     transcript_path = os.path.join(WORK_DIR, transcript_filename)
@@ -572,44 +573,28 @@ def generate_daily_podcast(
         f.write(md_transcript)
     print(f"[PODCAST] Transcript saved: {transcript_path}")
 
-    # --- Step 5: Synthesize audio ---
-    print(f"\n[PODCAST] Step 5: Synthesizing audio via Gemini TTS...")
-    wav_path = os.path.join(WORK_DIR, f"podcast_{date_tag}.wav")
-    success = synthesize_audio(raw_transcript, wav_path)
+    # --- Step 5: Synthesize audio via Azure Speech TTS ---
+    print(f"\n[PODCAST] Step 5: Synthesizing audio via Azure Speech TTS...")
+    mp3_filename = f"{PODCAST_PREFIX}-{date_tag}.mp3"
+    mp3_path = os.path.join(WORK_DIR, mp3_filename)
+    success = synthesize_audio(raw_transcript, mp3_path, voice_pair)
     if not success:
         print("[PODCAST] Audio synthesis failed")
         return {}
 
-    # --- Step 6: Convert to MP3 ---
-    print(f"\n[PODCAST] Step 6: Converting to MP3...")
-    mp3_filename = f"{PODCAST_PREFIX}-{date_tag}.mp3"
-    mp3_path = os.path.join(WORK_DIR, mp3_filename)
-    success = convert_to_mp3(wav_path, mp3_path, bitrate=MP3_BITRATE)
-    if not success:
-        print("[PODCAST] MP3 conversion failed")
-        return {}
-
-    # Clean up WAV
-    try:
-        os.remove(wav_path)
-    except OSError:
-        pass
-
-    # --- Step 7: Upload to GitHub Releases ---
+    # --- Step 6: Upload to GitHub Releases ---
     release_tag = f"podcast-{target_date.strftime('%Y-%m')}"
     upload_files = [mp3_path, transcript_path]
 
     if skip_upload:
-        print(f"\n[PODCAST] Step 7: Skipping upload (--skip-upload)")
+        print(f"\n[PODCAST] Step 6: Skipping upload (--skip-upload)")
     else:
-        print(f"\n[PODCAST] Step 7: Uploading to GitHub Releases...")
+        print(f"\n[PODCAST] Step 6: Uploading to GitHub Releases...")
         upload_success = upload_to_release(upload_files, target_date, repo=repo)
         if not upload_success:
             print("[PODCAST] WARNING: Upload failed, files saved locally")
 
-    # --- Step 8: Create .podcast marker file ---
-    # This marker is used by index_updater and md_writer to know which dates
-    # actually have a podcast available (avoids showing player for dates without audio)
+    # --- Step 7: Create .podcast marker file ---
     marker_dir = os.path.join(
         base_dir, target_date.strftime("%Y"), target_date.strftime("%m"),
         target_date.strftime("%d")
@@ -617,7 +602,13 @@ def generate_daily_podcast(
     os.makedirs(marker_dir, exist_ok=True)
     marker_path = os.path.join(marker_dir, ".podcast")
     with open(marker_path, "w") as f:
-        f.write(f"mp3={mp3_filename}\ntranscript={transcript_filename}\nrelease={release_tag}\n")
+        f.write(
+            f"mp3={mp3_filename}\n"
+            f"transcript={transcript_filename}\n"
+            f"release={release_tag}\n"
+            f"female={voice_pair['female_name']}\n"
+            f"male={voice_pair['male_name']}\n"
+        )
     print(f"[PODCAST] Marker created: {marker_path}")
 
     # --- Summary ---
@@ -626,6 +617,7 @@ def generate_daily_podcast(
 
     print(f"\n{'=' * 60}")
     print(f"[PODCAST] DONE! Total time: {elapsed:.1f}s")
+    print(f"[PODCAST]   Voice: {voice_pair['female_name']} + {voice_pair['male_name']}")
     print(f"[PODCAST]   MP3: {mp3_path} ({mp3_size:.1f} MB)")
     print(f"[PODCAST]   Transcript: {transcript_path}")
     print(f"{'=' * 60}")
@@ -657,8 +649,9 @@ def generate_daily_podcast(
         "transcript_filename": transcript_filename,
         "transcript_url": transcript_url,
         "release_tag": release_tag,
-        "duration_sec": 0,  # filled by caller if needed
+        "duration_sec": 0,
         "size_mb": mp3_size,
+        "voice_pair": voice_pair,
     }
 
 
