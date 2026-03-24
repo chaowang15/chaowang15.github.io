@@ -1,4 +1,5 @@
 from typing import List, Dict, Optional
+import os
 import re
 from datetime import datetime, timedelta
 
@@ -50,7 +51,8 @@ def _detect_mode(page_title: str) -> str:
 def _build_podcast_player_html(date_str: str, mode: str) -> str:
     """Build inline podcast player HTML for daily best pages.
 
-    Returns empty string if mode is not 'best' or date is invalid.
+    Returns empty string if mode is not 'best', date is invalid,
+    or no .podcast marker file exists for this date.
     """
     if mode != "best" or not date_str:
         return ""
@@ -58,6 +60,13 @@ def _build_podcast_player_html(date_str: str, mode: str) -> str:
     try:
         dt = datetime.strptime(date_str, "%Y-%m-%d")
     except ValueError:
+        return ""
+
+    # Check for .podcast marker file
+    marker_path = os.path.join(
+        "hackernews", dt.strftime("%Y"), dt.strftime("%m"), dt.strftime("%d"), ".podcast"
+    )
+    if not os.path.exists(marker_path):
         return ""
 
     repo = "chaowang15/chaowang15.github.io"

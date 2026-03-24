@@ -207,7 +207,6 @@ Your browser does not support the audio element.
 <a class='hn-story-link' href='/hackernews/2026/03/21/best_stories_03212026'>
 <span class='hn-row-type hn-type-best'>Daily Best</span>
 <span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> Programming <b>10</b> <span class="hn-row-sep">·</span> AI <b>9</b></span>
-<span class='hn-podcast-badge' title='Podcast available'>&#x1F3A7;</span>
 </a>
 <a class='hn-story-link' href='/hackernews/2026/03/21/top_stories_03212026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
@@ -221,7 +220,6 @@ Your browser does not support the audio element.
 <a class='hn-story-link' href='/hackernews/2026/03/20/best_stories_03202026'>
 <span class='hn-row-type hn-type-best'>Daily Best</span>
 <span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>14</b> <span class="hn-row-sep">·</span> Open Source <b>9</b></span>
-<span class='hn-podcast-badge' title='Podcast available'>&#x1F3A7;</span>
 </a>
 <a class='hn-story-link' href='/hackernews/2026/03/20/top_stories_03202026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
@@ -235,7 +233,6 @@ Your browser does not support the audio element.
 <a class='hn-story-link' href='/hackernews/2026/03/19/best_stories_03192026'>
 <span class='hn-row-type hn-type-best'>Daily Best</span>
 <span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>14</b> <span class="hn-row-sep">·</span> Politics <b>10</b></span>
-<span class='hn-podcast-badge' title='Podcast available'>&#x1F3A7;</span>
 </a>
 <a class='hn-story-link' href='/hackernews/2026/03/19/top_stories_03192026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
@@ -249,7 +246,6 @@ Your browser does not support the audio element.
 <a class='hn-story-link' href='/hackernews/2026/03/18/best_stories_03182026'>
 <span class='hn-row-type hn-type-best'>Daily Best</span>
 <span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> Programming <b>13</b> <span class="hn-row-sep">·</span> AI <b>12</b></span>
-<span class='hn-podcast-badge' title='Podcast available'>&#x1F3A7;</span>
 </a>
 <a class='hn-story-link' href='/hackernews/2026/03/18/top_stories_03182026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
@@ -263,7 +259,6 @@ Your browser does not support the audio element.
 <a class='hn-story-link' href='/hackernews/2026/03/17/best_stories_03172026'>
 <span class='hn-row-type hn-type-best'>Daily Best</span>
 <span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> Programming <b>14</b> <span class="hn-row-sep">·</span> AI <b>11</b></span>
-<span class='hn-podcast-badge' title='Podcast available'>&#x1F3A7;</span>
 </a>
 <a class='hn-story-link' href='/hackernews/2026/03/17/top_stories_03172026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
@@ -277,7 +272,6 @@ Your browser does not support the audio element.
 <a class='hn-story-link' href='/hackernews/2026/03/16/best_stories_03162026'>
 <span class='hn-row-type hn-type-best'>Daily Best</span>
 <span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>14</b> <span class="hn-row-sep">·</span> Programming <b>11</b></span>
-<span class='hn-podcast-badge' title='Podcast available'>&#x1F3A7;</span>
 </a>
 <a class='hn-story-link' href='/hackernews/2026/03/16/top_stories_03162026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
@@ -291,7 +285,6 @@ Your browser does not support the audio element.
 <a class='hn-story-link' href='/hackernews/2026/03/15/best_stories_03152026'>
 <span class='hn-row-type hn-type-best'>Daily Best</span>
 <span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>14</b> <span class="hn-row-sep">·</span> Programming <b>11</b></span>
-<span class='hn-podcast-badge' title='Podcast available'>&#x1F3A7;</span>
 </a>
 <a class='hn-story-link' href='/hackernews/2026/03/15/top_stories_03152026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
@@ -305,7 +298,6 @@ Your browser does not support the audio element.
 <a class='hn-story-link' href='/hackernews/2026/03/14/best_stories_03142026'>
 <span class='hn-row-type hn-type-best'>Daily Best</span>
 <span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> Politics <b>11</b> <span class="hn-row-sep">·</span> Hardware <b>9</b></span>
-<span class='hn-podcast-badge' title='Podcast available'>&#x1F3A7;</span>
 </a>
 <a class='hn-story-link' href='/hackernews/2026/03/14/top_stories_03142026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
@@ -319,7 +311,6 @@ Your browser does not support the audio element.
 <a class='hn-story-link' href='/hackernews/2026/03/13/best_stories_03132026'>
 <span class='hn-row-type hn-type-best'>Daily Best</span>
 <span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>11</b> <span class="hn-row-sep">·</span> Politics <b>11</b></span>
-<span class='hn-podcast-badge' title='Podcast available'>&#x1F3A7;</span>
 </a>
 <a class='hn-story-link' href='/hackernews/2026/03/13/top_stories_03132026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
@@ -333,7 +324,6 @@ Your browser does not support the audio element.
 <a class='hn-story-link' href='/hackernews/2026/03/12/best_stories_03122026'>
 <span class='hn-row-type hn-type-best'>Daily Best</span>
 <span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>13</b> <span class="hn-row-sep">·</span> Security <b>10</b></span>
-<span class='hn-podcast-badge' title='Podcast available'>&#x1F3A7;</span>
 </a>
 <a class='hn-story-link' href='/hackernews/2026/03/12/top_stories_03122026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
@@ -347,7 +337,6 @@ Your browser does not support the audio element.
 <a class='hn-story-link' href='/hackernews/2026/03/11/best_stories_03112026'>
 <span class='hn-row-type hn-type-best'>Daily Best</span>
 <span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>18</b> <span class="hn-row-sep">·</span> Programming <b>13</b></span>
-<span class='hn-podcast-badge' title='Podcast available'>&#x1F3A7;</span>
 </a>
 <a class='hn-story-link' href='/hackernews/2026/03/11/top_stories_03112026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
@@ -361,7 +350,6 @@ Your browser does not support the audio element.
 <a class='hn-story-link' href='/hackernews/2026/03/10/best_stories_03102026'>
 <span class='hn-row-type hn-type-best'>Daily Best</span>
 <span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>18</b> <span class="hn-row-sep">·</span> Programming <b>9</b></span>
-<span class='hn-podcast-badge' title='Podcast available'>&#x1F3A7;</span>
 </a>
 <a class='hn-story-link' href='/hackernews/2026/03/10/top_stories_03102026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
@@ -375,7 +363,6 @@ Your browser does not support the audio element.
 <a class='hn-story-link' href='/hackernews/2026/03/09/best_stories_03092026'>
 <span class='hn-row-type hn-type-best'>Daily Best</span>
 <span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> Programming <b>12</b> <span class="hn-row-sep">·</span> AI <b>10</b></span>
-<span class='hn-podcast-badge' title='Podcast available'>&#x1F3A7;</span>
 </a>
 <a class='hn-story-link' href='/hackernews/2026/03/09/top_stories_03092026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
@@ -389,7 +376,6 @@ Your browser does not support the audio element.
 <a class='hn-story-link' href='/hackernews/2026/03/08/best_stories_03082026'>
 <span class='hn-row-type hn-type-best'>Daily Best</span>
 <span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> Programming <b>12</b> <span class="hn-row-sep">·</span> AI <b>11</b></span>
-<span class='hn-podcast-badge' title='Podcast available'>&#x1F3A7;</span>
 </a>
 <a class='hn-story-link' href='/hackernews/2026/03/08/top_stories_03082026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
@@ -403,7 +389,6 @@ Your browser does not support the audio element.
 <a class='hn-story-link' href='/hackernews/2026/03/07/best_stories_03072026'>
 <span class='hn-row-type hn-type-best'>Daily Best</span>
 <span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>15</b> <span class="hn-row-sep">·</span> Programming <b>11</b></span>
-<span class='hn-podcast-badge' title='Podcast available'>&#x1F3A7;</span>
 </a>
 <a class='hn-story-link' href='/hackernews/2026/03/07/top_stories_03072026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
@@ -417,7 +402,6 @@ Your browser does not support the audio element.
 <a class='hn-story-link' href='/hackernews/2026/03/06/best_stories_03062026'>
 <span class='hn-row-type hn-type-best'>Daily Best</span>
 <span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>17</b> <span class="hn-row-sep">·</span> Programming <b>15</b></span>
-<span class='hn-podcast-badge' title='Podcast available'>&#x1F3A7;</span>
 </a>
 <a class='hn-story-link' href='/hackernews/2026/03/06/top_stories_03062026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
@@ -431,7 +415,6 @@ Your browser does not support the audio element.
 <a class='hn-story-link' href='/hackernews/2026/03/05/best_stories_03052026'>
 <span class='hn-row-type hn-type-best'>Daily Best</span>
 <span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>15</b> <span class="hn-row-sep">·</span> Security <b>11</b></span>
-<span class='hn-podcast-badge' title='Podcast available'>&#x1F3A7;</span>
 </a>
 <a class='hn-story-link' href='/hackernews/2026/03/05/top_stories_03052026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
@@ -445,7 +428,6 @@ Your browser does not support the audio element.
 <a class='hn-story-link' href='/hackernews/2026/03/04/best_stories_03042026'>
 <span class='hn-row-type hn-type-best'>Daily Best</span>
 <span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>12</b> <span class="hn-row-sep">·</span> Hardware <b>9</b></span>
-<span class='hn-podcast-badge' title='Podcast available'>&#x1F3A7;</span>
 </a>
 <a class='hn-story-link' href='/hackernews/2026/03/04/top_stories_03042026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
@@ -459,7 +441,6 @@ Your browser does not support the audio element.
 <a class='hn-story-link' href='/hackernews/2026/03/03/best_stories_03032026'>
 <span class='hn-row-type hn-type-best'>Daily Best</span>
 <span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>20</b> <span class="hn-row-sep">·</span> Programming <b>14</b></span>
-<span class='hn-podcast-badge' title='Podcast available'>&#x1F3A7;</span>
 </a>
 <a class='hn-story-link' href='/hackernews/2026/03/03/top_stories_03032026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
@@ -473,7 +454,6 @@ Your browser does not support the audio element.
 <a class='hn-story-link' href='/hackernews/2026/03/02/best_stories_03022026'>
 <span class='hn-row-type hn-type-best'>Daily Best</span>
 <span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>21</b> <span class="hn-row-sep">·</span> Programming <b>12</b></span>
-<span class='hn-podcast-badge' title='Podcast available'>&#x1F3A7;</span>
 </a>
 <a class='hn-story-link' href='/hackernews/2026/03/02/top_stories_03022026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
@@ -487,7 +467,6 @@ Your browser does not support the audio element.
 <a class='hn-story-link' href='/hackernews/2026/03/01/best_stories_03012026'>
 <span class='hn-row-type hn-type-best'>Daily Best</span>
 <span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>22</b> <span class="hn-row-sep">·</span> Programming <b>12</b></span>
-<span class='hn-podcast-badge' title='Podcast available'>&#x1F3A7;</span>
 </a>
 <a class='hn-story-link' href='/hackernews/2026/03/01/top_stories_03012026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
@@ -501,7 +480,6 @@ Your browser does not support the audio element.
 <a class='hn-story-link' href='/hackernews/2026/02/28/best_stories_02282026'>
 <span class='hn-row-type hn-type-best'>Daily Best</span>
 <span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>25</b> <span class="hn-row-sep">·</span> Politics <b>15</b></span>
-<span class='hn-podcast-badge' title='Podcast available'>&#x1F3A7;</span>
 </a>
 <a class='hn-story-link' href='/hackernews/2026/02/28/top_stories_02282026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
@@ -515,7 +493,6 @@ Your browser does not support the audio element.
 <a class='hn-story-link' href='/hackernews/2026/02/27/best_stories_02272026'>
 <span class='hn-row-type hn-type-best'>Daily Best</span>
 <span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>20</b> <span class="hn-row-sep">·</span> Politics <b>15</b></span>
-<span class='hn-podcast-badge' title='Podcast available'>&#x1F3A7;</span>
 </a>
 <a class='hn-story-link' href='/hackernews/2026/02/27/top_stories_02272026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
@@ -529,7 +506,6 @@ Your browser does not support the audio element.
 <a class='hn-story-link' href='/hackernews/2026/02/26/best_stories_02262026'>
 <span class='hn-row-type hn-type-best'>Daily Best</span>
 <span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>13</b> <span class="hn-row-sep">·</span> Programming <b>12</b></span>
-<span class='hn-podcast-badge' title='Podcast available'>&#x1F3A7;</span>
 </a>
 <a class='hn-story-link' href='/hackernews/2026/02/26/top_stories_02262026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
@@ -543,7 +519,6 @@ Your browser does not support the audio element.
 <a class='hn-story-link' href='/hackernews/2026/02/25/best_stories_02252026'>
 <span class='hn-row-type hn-type-best'>Daily Best</span>
 <span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>16</b> <span class="hn-row-sep">·</span> Politics <b>10</b></span>
-<span class='hn-podcast-badge' title='Podcast available'>&#x1F3A7;</span>
 </a>
 <a class='hn-story-link' href='/hackernews/2026/02/25/top_stories_02252026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
@@ -557,7 +532,6 @@ Your browser does not support the audio element.
 <a class='hn-story-link' href='/hackernews/2026/02/24/best_stories_02242026'>
 <span class='hn-row-type hn-type-best'>Daily Best</span>
 <span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>15</b> <span class="hn-row-sep">·</span> Privacy <b>10</b></span>
-<span class='hn-podcast-badge' title='Podcast available'>&#x1F3A7;</span>
 </a>
 <a class='hn-story-link' href='/hackernews/2026/02/24/top_stories_02242026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
@@ -571,7 +545,6 @@ Your browser does not support the audio element.
 <a class='hn-story-link' href='/hackernews/2026/02/23/best_stories_02232026'>
 <span class='hn-row-type hn-type-best'>Daily Best</span>
 <span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>11</b> <span class="hn-row-sep">·</span> Programming <b>10</b></span>
-<span class='hn-podcast-badge' title='Podcast available'>&#x1F3A7;</span>
 </a>
 <a class='hn-story-link' href='/hackernews/2026/02/23/top_stories_02232026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
@@ -585,7 +558,6 @@ Your browser does not support the audio element.
 <a class='hn-story-link' href='/hackernews/2026/02/22/best_stories_02222026'>
 <span class='hn-row-type hn-type-best'>Daily Best</span>
 <span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> Programming <b>11</b> <span class="hn-row-sep">·</span> AI <b>8</b></span>
-<span class='hn-podcast-badge' title='Podcast available'>&#x1F3A7;</span>
 </a>
 <a class='hn-story-link' href='/hackernews/2026/02/22/top_stories_02222026'>
 <span class='hn-row-type hn-type-top'>Trending</span>

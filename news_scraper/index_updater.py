@@ -4,6 +4,7 @@ import json
 from collections import Counter
 from dataclasses import dataclass, field
 from datetime import datetime
+from pathlib import Path
 from typing import List, Optional, Dict, Tuple
 
 BEST_JSON_RE = re.compile(r"^best_stories_(\d{8})\.json$")   # MMDDYYYY
@@ -360,16 +361,37 @@ def _collect_weekly_entries(base_dir: str) -> List[dict]:
     entries.sort(key=lambda x: x["sort_key"], reverse=True)
     return entries
 
+def _get_podcast_dates(base_dir: str) -> set:
+    """Return a set of date strings (YYYY-MM-DD) that have podcast marker files.
+
+    A podcast marker file is created by the podcast generator after a successful
+    upload: hackernews/YYYY/MM/DD/.podcast
+    """
+    dates = set()
+    for marker in Path(base_dir).rglob(".podcast"):
+        # marker path: hackernews/YYYY/MM/DD/.podcast
+        parts = marker.parts
+        try:
+            # Extract YYYY/MM/DD from path
+            idx = list(parts).index(Path(base_dir).name)
+            y, m, d = parts[idx + 1], parts[idx + 2], parts[idx + 3]
+            dates.add(f"{y}-{m}-{d}")
+        except (ValueError, IndexError):
+            pass
+    return dates
+
 
 def _get_podcast_info(base_dir: str, days: list) -> Optional[dict]:
     """Find the latest available podcast and return its info.
 
-    Looks for podcast metadata by checking GitHub Releases URL pattern.
+    Only returns info for dates that have a .podcast marker file,
+    which is created after a successful podcast upload.
     Returns dict with date, mp3_url, transcript_url, or None.
     """
-    # Check recent days (up to 7) for best_stories JSON that would have a podcast
     repo = "chaowang15/chaowang15.github.io"
-    for day in days[:7]:
+    podcast_dates = _get_podcast_dates(base_dir)
+
+    for day in days[:14]:
         try:
             dt = datetime.strptime(day.content_date, "%Y-%m-%d")
         except Exception:
@@ -380,6 +402,10 @@ def _get_podcast_info(base_dir: str, days: list) -> Optional[dict]:
             continue
 
         date_tag = dt.strftime("%Y-%m-%d")
+        # Only return if this date actually has a podcast
+        if date_tag not in podcast_dates:
+            continue
+
         release_tag = f"podcast-{dt.strftime('%Y-%m')}"
         mp3_filename = f"hn-podcast-{date_tag}.mp3"
         transcript_filename = f"hn-podcast-{date_tag}-transcript.md"
@@ -434,6 +460,7 @@ def update_hackernews_index(
     all_days = _collect_day_entries(base_dir)
     stats = _compute_stats(all_days)
     days = all_days[:max_items]
+    _podcast_dates = _get_podcast_dates(base_dir)
 
     lines: List[str] = []
     lines.append("---")
@@ -585,17 +612,12 @@ def update_hackernews_index(
                     lines.append(f"<span class='hn-row-detail'>{detail_html}</span>")
                 lines.append("</a>")
 
-                # Add podcast listen badge inline within the story-link for daily best entries
-                if s.story_type == "best":
-                    try:
-                        _sdt = datetime.strptime(day.content_date, "%Y-%m-%d")
-                        # Insert podcast badge BEFORE the closing </a> of the story-link
-                        if lines[-1] == "</a>":
-                            lines.pop()  # remove </a>
-                            lines.append(f"<span class='hn-podcast-badge' title='Podcast available'>&#x1F3A7;</span>")
-                            lines.append("</a>")  # re-add closing tag
-                    except Exception:
-                        pass
+                # Add podcast listen badge inline — only if this date has a podcast
+                if s.story_type == "best" and day.content_date in _podcast_dates:
+                    if lines[-1] == "</a>":
+                        lines.pop()  # remove </a>
+                        lines.append(f"<span class='hn-podcast-badge' title='Podcast available'>&#x1F3A7;</span>")
+                        lines.append("</a>")  # re-add closing tag
 
             lines.append("</div>")  # hn-day-stories
             lines.append("</div>")  # hn-day-row

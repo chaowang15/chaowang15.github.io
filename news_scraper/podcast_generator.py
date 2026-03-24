@@ -302,11 +302,13 @@ def synthesize_audio(raw_transcript: str, output_wav: str) -> bool:
     all_audio = bytearray()
     silence = add_silence(400)
 
+    failed_chunks = []
     for i, chunk in enumerate(chunks):
         prompt = f"TTS the following conversation between 小晓 and 云希:\n{chunk}"
 
         retry_count = 0
-        max_retries = 5
+        max_retries = 8  # More retries to handle rate limits
+        chunk_success = False
         while retry_count < max_retries:
             try:
                 print(f"[PODCAST]   TTS chunk {i + 1}/{len(chunks)} ({len(chunk)} chars)...")
@@ -345,12 +347,13 @@ def synthesize_audio(raw_transcript: str, output_wav: str) -> bool:
                 if i < len(chunks) - 1:
                     all_audio.extend(silence)
                 print(f"[PODCAST]   Chunk {i + 1} done: {len(audio_data)} bytes")
+                chunk_success = True
                 break
 
             except Exception as e:
                 retry_count += 1
                 err_str = str(e)
-                print(f"[PODCAST]   ERROR on chunk {i + 1}: {err_str[:120]}")
+                print(f"[PODCAST]   ERROR on chunk {i + 1}: {err_str[:200]}")
 
                 if retry_count < max_retries:
                     # Parse retry delay from error if available
@@ -358,17 +361,28 @@ def synthesize_audio(raw_transcript: str, output_wav: str) -> bool:
                     delay_match = re.search(r'retryDelay.*?(\d+)s', err_str)
                     if delay_match:
                         wait_time = int(delay_match.group(1)) + 5  # add 5s buffer
-                    elif '429' not in err_str:
-                        wait_time = 10 * retry_count  # non-rate-limit errors: shorter wait
+                    elif '429' in err_str or 'RESOURCE_EXHAUSTED' in err_str:
+                        wait_time = 65  # rate limit: wait a full minute
+                    else:
+                        wait_time = 15 * retry_count  # non-rate-limit errors
 
                     print(f"[PODCAST]   Retrying in {wait_time}s (attempt {retry_count + 1}/{max_retries})...")
                     time.sleep(wait_time)
                 else:
-                    print(f"[PODCAST]   FAILED after {max_retries} attempts, skipping chunk {i + 1}")
+                    print(f"[PODCAST]   FAILED after {max_retries} attempts on chunk {i + 1}")
+
+        if not chunk_success:
+            failed_chunks.append(i + 1)
 
         # Rate limiting delay between chunks (Gemini free tier: 10 RPM)
+        # Wait 12s between chunks to stay safely under limit (~5 req/min)
         if i < len(chunks) - 1:
-            time.sleep(8)  # ~7.5 requests/min to stay under 10 RPM limit
+            time.sleep(12)
+
+    if failed_chunks:
+        print(f"[PODCAST] ERROR: {len(failed_chunks)} chunk(s) failed: {failed_chunks}")
+        print(f"[PODCAST] Audio would be incomplete — aborting to avoid truncated podcast")
+        return False
 
     if not all_audio:
         print("[PODCAST] ERROR: No audio generated")
@@ -592,6 +606,19 @@ def generate_daily_podcast(
         upload_success = upload_to_release(upload_files, target_date, repo=repo)
         if not upload_success:
             print("[PODCAST] WARNING: Upload failed, files saved locally")
+
+    # --- Step 8: Create .podcast marker file ---
+    # This marker is used by index_updater and md_writer to know which dates
+    # actually have a podcast available (avoids showing player for dates without audio)
+    marker_dir = os.path.join(
+        base_dir, target_date.strftime("%Y"), target_date.strftime("%m"),
+        target_date.strftime("%d")
+    )
+    os.makedirs(marker_dir, exist_ok=True)
+    marker_path = os.path.join(marker_dir, ".podcast")
+    with open(marker_path, "w") as f:
+        f.write(f"mp3={mp3_filename}\ntranscript={transcript_filename}\nrelease={release_tag}\n")
+    print(f"[PODCAST] Marker created: {marker_path}")
 
     # --- Summary ---
     elapsed = time.time() - t_start
