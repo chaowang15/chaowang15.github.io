@@ -5,67 +5,157 @@
     "api": "https://github.com/HackerNews/API",
     "count_requested": 50,
     "count_written": 50,
-    "reused_same_day": 34,
-    "reused_cross_day": 2,
+    "reused_same_day": 27,
+    "reused_cross_day": 3,
     "new_llm_enriched": 8,
-    "scrape_time_display": "11:12, March 24, 2026 (PDT)",
+    "scrape_time_display": "14:18, March 24, 2026 (PDT)",
     "timezone": "America/Los_Angeles",
     "date_dir": "2026/03/23",
     "content_date": "2026-03-23",
-    "run_time_local": "11:12, March 24, 2026 (PDT)",
-    "run_time_utc": "2026-03-24 18:12:49 UTC",
+    "run_time_local": "14:18, March 24, 2026 (PDT)",
+    "run_time_utc": "2026-03-24 21:18:39 UTC",
     "incremental": true,
     "stories_max": 50,
-    "hot_score_time_utc": "2026-03-24 18:13:53 UTC"
+    "hot_score_time_utc": "2026-03-24 21:19:10 UTC"
   },
   "items": [
     {
-      "title_en": "LiteLLM Python package compromised by supply-chain attack",
+      "title_en": "Is anybody else bored of talking about AI?",
+      "url": "https://blog.jakesaunders.dev/is-anybody-else-bored-of-talking-about-ai/",
+      "title_zh": "还有人觉得聊 AI 吗？",
+      "created_display": "Created: Mar 24, 2026 / 13:31 PT",
+      "image_url": "https://blog.jakesaunders.dev/is-anybody-else-bored-of-talking-about-ai/img.png",
+      "summary_en": "A reflective essay questions whether the constant AI chatter has worn people down and argues for focusing on practical, real-world impact over hype. It pushes readers to value concrete use cases, governance, and measurable progress rather than trending headlines.",
+      "summary_zh": "这篇随笔质疑持续的 AI 热议是否让人疲惫，并主张把重点放在现实世界的实际影响而非炒作。作者鼓励关注具体的使用场景、治理与可衡量的进展，而不是追逐热度新闻。",
+      "hn": {
+        "id": 47508745,
+        "type": "story",
+        "by": "jakelsaunders94",
+        "score": 214,
+        "descendants": 115,
+        "time": 1774384268,
+        "comments_url": "https://news.ycombinator.com/item?id=47508745"
+      },
+      "hot_score": 33.37,
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title_en": "Wine 11 rewrites how Linux runs Windows games at kernel with massive speed gains",
+      "url": "https://www.xda-developers.com/wine-11-rewrites-linux-runs-windows-games-speed-gains/",
+      "title_zh": "Wine 11：在内核层重写以显著提升 Linux 上运行 Windows 游戏的速度",
+      "created_display": "Created: Mar 24, 2026 / 11:34 PT",
+      "image_url": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2025/09/windows-apps-through-wine.jpg?w=1600&h=900&fit=crop",
+      "summary_en": "Wine 11 overhauls kernel interactions to accelerate Windows games on Linux, delivering substantial speedups; it improves compatibility and reduces overhead in system calls translation and graphics handling. This move tightens the gap between Linux gaming and Windows performance, potentially expanding Linux gaming adoption.",
+      "summary_zh": "Wine 11 对内核层进行重写，使 Linux 上运行 Windows 游戏的性能显著提升，并提高了兼容性与系统调用翻译、图形处理的效率。此举缩小了 Linux 与 Windows 在游戏性能上的差距，有望推动 Linux 游戏生态的扩展。",
+      "hn": {
+        "id": 47507150,
+        "type": "story",
+        "by": "felineflock",
+        "score": 331,
+        "descendants": 116,
+        "time": 1774377292,
+        "comments_url": "https://news.ycombinator.com/item?id=47507150"
+      },
+      "tags": [
+        "Programming",
+        "Gaming"
+      ],
+      "hot_score": 20.06
+    },
+    {
+      "title_en": "Malicious litellm_init.pth in litellm 1.82.8 PyPI package – credential stealer",
       "url": "https://github.com/BerriAI/litellm/issues/24512",
-      "title_zh": "LiteLLM Python 包遭供应链攻击",
+      "title_zh": "litellm 1.82.8 PyPI 包中的恶意 litellm_init.pth：凭据窃取",
       "created_display": "Created: Mar 24, 2026 / 05:36 PT",
-      "image_url": "https://opengraph.githubassets.com/f10b0614e0a692fdb94d9dfe93ee3d191be19c34e29cb0dd890eeef6e8f32055/BerriAI/litellm/issues/24512",
-      "summary_en": "A supply-chain attack compromised the LiteLLM Python package, potentially injecting malicious code into downstream deployments. It highlights how reliance on third-party dependencies amplifies risk, and stresses the importance of integrity checks, signed builds, and timely upgrades.",
-      "summary_zh": "LiteLLM 的 Python 包遭遇供应链攻击，可能在下游部署中引入恶意代码。该事件凸显了依赖第三方包带来的风险，以及进行完整性校验、签名构建和及时升级的重要性。",
+      "image_url": "https://opengraph.githubassets.com/e76d7b4b189f651aace0e240e20c1e7bc59e9f539953e5d586087ecfcd3be327/BerriAI/litellm/issues/24512",
+      "summary_en": "A malicious PyPI package for litellm 1.82.8 contains a litellm_init.pth file that loads a credential-stealing module during import. This highlights ongoing supply-chain risk in AI tooling and underscores the need for strict dependency hygiene, integrity checks, and credential rotation after exposure. Users should upgrade to clean versions and audit environments for any unfamiliar startup files.",
+      "summary_zh": "在 litellm 1.82.8 的 PyPI 包中发现恶意的 litellm_init.pth，导入时会加载窃取凭据的模块。此事件暴露了 AI 工具链中的供应链风险，并强调对依赖项进行严格校验、完整性检查以及暴露后轮换凭据的必要性。如有怀疑，应升级到干净版本并审计运行环境中是否存在异常的启动文件。",
       "hn": {
         "id": 47501729,
         "type": "story",
         "by": "theanonymousone",
-        "score": 671,
-        "descendants": 262,
+        "score": 709,
+        "descendants": 1,
         "time": 1774355780,
         "comments_url": "https://news.ycombinator.com/item?id=47501729"
       },
+      "hot_score": 9.91,
       "tags": [
         "Security",
-        "Programming"
-      ],
-      "hot_score": 17.3
+        "AI",
+        "Startups"
+      ]
     },
     {
-      "title_en": "Major insider trading on oil detected ahead of Iran talks",
-      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-03-24-2026/card/mystery-jump-in-oil-trading-ahead-of-trump-post-draws-scrutiny-56sgwdXtlOlonqIKDsL6",
-      "title_zh": "伊朗谈判前出现重大油市内幕交易",
+      "title_en": "Mystery jump in oil trading ahead of Trump post draws scrutiny",
+      "url": "https://www.bbc.com/news/articles/cg547ljepvzo",
+      "title_zh": "特朗普发帖前油价交易出现神秘跳涨，引发关注",
       "created_display": "Created: Mar 24, 2026 / 08:25 PT",
-      "image_url": null,
-      "summary_en": "Oil markets show a spike in activity ahead of Iran talks, raising concerns about possible insider moves around geopolitical risk. Regulators are reviewing unusual trading patterns and timing that could indicate attempts to profit from news flows, underscoring how geopolitics can move energy prices and invite scrutiny of market integrity.",
-      "summary_zh": "油市在伊朗谈判前出现异常交易活动，引发对内幕交易的担忧。监管机构正审查异常的交易模式和时机，可能暗示有人试图从地缘政治消息中获利，凸显地缘风险对能源价格的影响以及市场诚信的关注。",
+      "image_url": "https://ichef.bbci.co.uk/news/1024/branded_news/cfb2/live/b420e4e0-2769-11f1-82f7-f757ccb9d4bd.jpg",
+      "summary_en": "Crude oil markets showed an unexplained rally ahead of a high-profile Trump post, drawing scrutiny from traders and regulators alike. Analysts debate whether rapid algorithmic trading, order-flow dynamics, or potential insider information drove the move. The episode underscores how political events can instantly ripple through commodity markets.",
+      "summary_zh": "在特朗普发布重要言论前，原油市场出现难以解释的跳涨，吸引交易员和监管机构的关注。分析师讨论是否因快速的算法交易、订单流动性变化，或内部信息导致了这一下跳。此事凸显政治事件能即时波及大宗商品市场。",
       "hn": {
         "id": 47504060,
         "type": "story",
         "by": "psim1",
-        "score": 290,
-        "descendants": 152,
+        "score": 351,
+        "descendants": 214,
         "time": 1774365952,
         "comments_url": "https://news.ycombinator.com/item?id=47504060"
       },
-      "hot_score": 17.16,
+      "hot_score": 8.5,
       "tags": [
         "Finance",
         "Energy",
-        "Politics",
-        "Business"
+        "Politics"
       ]
+    },
+    {
+      "title_en": "Apple Business",
+      "url": "https://www.apple.com/newsroom/2026/03/introducing-apple-business-a-new-all-in-one-platform-for-businesses-of-all-sizes/",
+      "title_zh": "Apple Business：面向各规模企业的一体化平台",
+      "created_display": "Created: Mar 24, 2026 / 08:29 PT",
+      "image_url": "https://www.apple.com/newsroom/images/2026/03/introducing-apple-business-a-new-all-in-one-platform-for-businesses-of-all-sizes/tile/Apple-Business-hero-lp.jpg.og.jpg?202603241459",
+      "summary_en": "Apple introduces Apple Business, an all-in-one platform to streamline device management, security, and app deployment for organizations of all sizes. By consolidating IT controls and enterprise workflows, it aims to reduce friction for Apple-powered ecosystems in the workplace. The move could reshape enterprise IT purchasing and cross-device collaboration strategies.",
+      "summary_zh": "苹果推出 Apple Business，一站式平台用于简化企业级设备管理、安全性与应用部署，覆盖各类规模的组织。通过整合 IT 控制和企业工作流，意在降低在工作场景中使用苹果设备的门槛。这一举措可能影响企业 IT 的采购决策及跨设备协作方式。",
+      "hn": {
+        "id": 47504112,
+        "type": "story",
+        "by": "soheilpro",
+        "score": 343,
+        "descendants": 238,
+        "time": 1774366181,
+        "comments_url": "https://news.ycombinator.com/item?id=47504112"
+      },
+      "tags": [
+        "Business",
+        "Security"
+      ],
+      "hot_score": 8.43
+    },
+    {
+      "title_en": "Microsoft's \"fix\" for Windows 11",
+      "url": "https://www.sambent.com/microsofts-plan-to-fix-windows-11-is-gaslighting/",
+      "title_zh": "微软对 Windows 11 的“修复”：挨打后的花束",
+      "created_display": "Created: Mar 24, 2026 / 02:36 PT",
+      "image_url": "https://www.sambent.com/content/images/size/w1200/2026/03/microsoft-plan-fix-windows-11-gaslighting-1.jpg",
+      "summary_en": "Microsoft continues to roll out patches for Windows 11, but critics argue the changes are cosmetic and don't address core reliability or usability issues. The messaging resembles a post-incident PR sprint rather than substantive engineering fixes. For tech readers, this highlights the gap between marketing narratives and real-world OS quality in major updates.",
+      "summary_zh": "微软继续推出 Windows 11 的补丁，但批评者认为这些改动多为表面修补，无法解决核心的可靠性或可用性问题。外部宣传更像是事后公关冲刺，而非实质工程改进。对技术读者而言，这凸显了大型操作系统更新中营销叙述与实际软件质量之间的差距。",
+      "hn": {
+        "id": 47500335,
+        "type": "story",
+        "by": "h0ek",
+        "score": 872,
+        "descendants": 647,
+        "time": 1774344989,
+        "comments_url": "https://news.ycombinator.com/item?id=47500335"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 7.82
     },
     {
       "title_en": "LaGuardia pilots raised safety alarms months before deadly runway crash",
@@ -79,37 +169,15 @@
         "id": 47503965,
         "type": "story",
         "by": "m_fayer",
-        "score": 203,
-        "descendants": 165,
+        "score": 293,
+        "descendants": 223,
         "time": 1774365559,
         "comments_url": "https://news.ycombinator.com/item?id=47503965"
       },
-      "hot_score": 11.52,
       "tags": [
-        "Security"
-      ]
-    },
-    {
-      "title_en": "Microsoft's \"Fix\" for Windows 11: Flowers After the Beating",
-      "url": "https://www.sambent.com/microsofts-plan-to-fix-windows-11-is-gaslighting/",
-      "title_zh": "微软对 Windows 11 的“修复”：挨打后的花束",
-      "created_display": "Created: Mar 24, 2026 / 02:36 PT",
-      "image_url": "https://www.sambent.com/content/images/size/w1200/2026/03/microsoft-plan-fix-windows-11-gaslighting-1.jpg",
-      "summary_en": "Microsoft continues to roll out patches for Windows 11, but critics argue the changes are cosmetic and don't address core reliability or usability issues. The messaging resembles a post-incident PR sprint rather than substantive engineering fixes. For tech readers, this highlights the gap between marketing narratives and real-world OS quality in major updates.",
-      "summary_zh": "微软继续推出 Windows 11 的补丁，但批评者认为这些改动多为表面修补，无法解决核心的可靠性或可用性问题。外部宣传更像是事后公关冲刺，而非实质工程改进。对技术读者而言，这凸显了大型操作系统更新中营销叙述与实际软件质量之间的差距。",
-      "hn": {
-        "id": 47500335,
-        "type": "story",
-        "by": "h0ek",
-        "score": 786,
-        "descendants": 575,
-        "time": 1774344989,
-        "comments_url": "https://news.ycombinator.com/item?id=47500335"
-      },
-      "tags": [
-        "Programming"
+        "Politics"
       ],
-      "hot_score": 11.16
+      "hot_score": 6.92
     },
     {
       "title_en": "So where are all the AI apps?",
@@ -123,15 +191,15 @@
         "id": 47503006,
         "type": "story",
         "by": "tanelpoder",
-        "score": 266,
-        "descendants": 257,
+        "score": 356,
+        "descendants": 326,
         "time": 1774361999,
         "comments_url": "https://news.ycombinator.com/item?id=47503006"
       },
       "tags": [
         "AI"
       ],
-      "hot_score": 10.86
+      "hot_score": 6.82
     },
     {
       "title_en": "The bridge to wealth is being pulled up with AI",
@@ -145,16 +213,40 @@
         "id": 47503296,
         "type": "story",
         "by": "dankai",
-        "score": 237,
-        "descendants": 315,
+        "score": 253,
+        "descendants": 362,
         "time": 1774363160,
         "comments_url": "https://news.ycombinator.com/item?id=47503296"
       },
-      "hot_score": 10.7,
       "tags": [
         "AI",
         "Business"
-      ]
+      ],
+      "hot_score": 5.17
+    },
+    {
+      "title_en": "Tell HN: Litellm 1.82.7 and 1.82.8 on PyPI are compromised",
+      "url": "https://github.com/BerriAI/litellm/issues/24512",
+      "title_zh": "Litellm 1.82.7 与 1.82.8 在 PyPI 上遭篡改",
+      "created_display": "Created: Mar 24, 2026 / 05:06 PT",
+      "image_url": "https://opengraph.githubassets.com/879c9c5c8544440c1f91210a5c60ea3b63b4bb81e93c0b1239ff87aab7717395/BerriAI/litellm/issues/24512",
+      "summary_en": "Two releases of a lightweight LLM client package were compromised on PyPI, enabling malicious code pushes to downstream users. The incident underscores supply-chain risk in Python ecosystems and the importance of checksum validation and pinning versions. Users should audit dependencies, upgrade to clean builds, and verify package integrity.",
+      "summary_zh": "两个版本的轻量级 LLM 客户端包在 PyPI 的发布被篡改，导致后续用户可能被注入恶意代码。事件凸显 Python 生态的供应链风险，强调校验和版本锁定的重要性。请审计依赖、升级到干净的构建版本，并验证包的完整性。",
+      "hn": {
+        "id": 47501426,
+        "type": "story",
+        "by": "dot_treo",
+        "score": 270,
+        "descendants": 327,
+        "time": 1774353989,
+        "comments_url": "https://news.ycombinator.com/item?id=47501426"
+      },
+      "tags": [
+        "Security",
+        "AI",
+        "Programming"
+      ],
+      "hot_score": 3.47
     },
     {
       "title_en": "Ripgrep is faster than grep, ag, git grep, ucg, pt, sift (2016)",
@@ -168,16 +260,15 @@
         "id": 47499245,
         "type": "story",
         "by": "jxmorris12",
-        "score": 268,
-        "descendants": 108,
+        "score": 294,
+        "descendants": 129,
         "time": 1774333899,
         "comments_url": "https://news.ycombinator.com/item?id=47499245"
       },
       "tags": [
-        "Programming",
-        "Open Source"
+        "Programming"
       ],
-      "hot_score": 2.4
+      "hot_score": 1.83
     },
     {
       "title_en": "Claude Code Cheat Sheet",
@@ -191,16 +282,16 @@
         "id": 47495527,
         "type": "story",
         "by": "phasE89",
-        "score": 586,
-        "descendants": 181,
+        "score": 613,
+        "descendants": 184,
         "time": 1774302260,
         "comments_url": "https://news.ycombinator.com/item?id=47495527"
       },
       "tags": [
-        "AI",
-        "Programming"
+        "Programming",
+        "AI"
       ],
-      "hot_score": 2.16
+      "hot_score": 1.79
     },
     {
       "title_en": "Log File Viewer for the Terminal",
@@ -214,16 +305,15 @@
         "id": 47498924,
         "type": "story",
         "by": "wiradikusuma",
-        "score": 272,
-        "descendants": 42,
+        "score": 285,
+        "descendants": 46,
         "time": 1774330373,
         "comments_url": "https://news.ycombinator.com/item?id=47498924"
       },
       "tags": [
-        "Programming",
-        "Open Source"
+        "Programming"
       ],
-      "hot_score": 2.15
+      "hot_score": 1.6
     },
     {
       "title_en": "Epoch confirms GPT5.4 Pro solved a frontier math open problem",
@@ -237,39 +327,16 @@
         "id": 47497757,
         "type": "story",
         "by": "in-silico",
-        "score": 380,
-        "descendants": 546,
+        "score": 387,
+        "descendants": 559,
         "time": 1774317189,
         "comments_url": "https://news.ycombinator.com/item?id=47497757"
       },
       "tags": [
-        "AI"
+        "AI",
+        "Science"
       ],
-      "hot_score": 2.02
-    },
-    {
-      "title_en": "FCC updates covered list to include foreign-made consumer routers",
-      "url": "https://www.fcc.gov/document/fcc-updates-covered-list-include-foreign-made-consumer-routers",
-      "title_zh": "FCC 将外国制造的消费路由器纳入覆盖清单",
-      "created_display": "Created: Mar 23, 2026 / 14:28 PT",
-      "image_url": null,
-      "summary_en": "The FCC expands the Covered Equipment list to include foreign-made consumer routers, tightening security requirements for home networking gear sold in the U.S. The move could affect manufacturers, supply chains, and consumer privacy as compliance costs become clearer.",
-      "summary_zh": "FCC 将外国制造的消费路由器纳入覆盖清单，强化对美国市场网络设备的安全要求。此举可能影响厂商、供应链与合规成本，进而关系到家庭网络的隐私与安全。",
-      "hn": {
-        "id": 47495344,
-        "type": "story",
-        "by": "moonka",
-        "score": 444,
-        "descendants": 305,
-        "time": 1774301282,
-        "comments_url": "https://news.ycombinator.com/item?id=47495344"
-      },
-      "tags": [
-        "Security",
-        "Privacy",
-        "Politics"
-      ],
-      "hot_score": 1.6
+      "hot_score": 1.55
     },
     {
       "title_en": "Migrating to the EU",
@@ -283,16 +350,41 @@
         "id": 47487436,
         "type": "story",
         "by": "exitnode",
-        "score": 888,
-        "descendants": 690,
+        "score": 893,
+        "descendants": 689,
         "time": 1774261052,
         "comments_url": "https://news.ycombinator.com/item?id=47487436"
       },
       "tags": [
         "Privacy",
+        "Data",
         "DevOps"
       ],
-      "hot_score": 1.56
+      "hot_score": 1.34
+    },
+    {
+      "title_en": "FCC updates covered list to include foreign-made consumer routers",
+      "url": "https://www.fcc.gov/document/fcc-updates-covered-list-include-foreign-made-consumer-routers",
+      "title_zh": "FCC 将外国制造的消费路由器纳入覆盖清单",
+      "created_display": "Created: Mar 23, 2026 / 14:28 PT",
+      "image_url": null,
+      "summary_en": "The FCC expands the Covered Equipment list to include foreign-made consumer routers, tightening security requirements for home networking gear sold in the U.S. The move could affect manufacturers, supply chains, and consumer privacy as compliance costs become clearer.",
+      "summary_zh": "FCC 将外国制造的消费路由器纳入覆盖清单，强化对美国市场网络设备的安全要求。此举可能影响厂商、供应链与合规成本，进而关系到家庭网络的隐私与安全。",
+      "hn": {
+        "id": 47495344,
+        "type": "story",
+        "by": "moonka",
+        "score": 465,
+        "descendants": 399,
+        "time": 1774301282,
+        "comments_url": "https://news.ycombinator.com/item?id=47495344"
+      },
+      "tags": [
+        "Security",
+        "Privacy",
+        "Politics"
+      ],
+      "hot_score": 1.33
     },
     {
       "title_en": "iPhone 17 Pro Demonstrated Running a 400B LLM",
@@ -306,17 +398,16 @@
         "id": 47490070,
         "type": "story",
         "by": "anemll",
-        "score": 690,
-        "descendants": 315,
+        "score": 692,
+        "descendants": 320,
         "time": 1774276210,
         "comments_url": "https://news.ycombinator.com/item?id=47490070"
       },
       "tags": [
         "AI",
-        "Hardware",
         "Privacy"
       ],
-      "hot_score": 1.54
+      "hot_score": 1.29
     },
     {
       "title_en": "Autoresearch on an old research idea",
@@ -330,15 +421,15 @@
         "id": 47493460,
         "type": "story",
         "by": "ykumards",
-        "score": 408,
-        "descendants": 90,
+        "score": 410,
+        "descendants": 92,
         "time": 1774291258,
         "comments_url": "https://news.ycombinator.com/item?id=47493460"
       },
       "tags": [
         "Science"
       ],
-      "hot_score": 1.19
+      "hot_score": 0.98
     },
     {
       "title_en": "US and TotalEnergies reach 'nearly $1B' deal to end offshore wind projects",
@@ -352,15 +443,15 @@
         "id": 47492599,
         "type": "story",
         "by": "lode",
-        "score": 432,
-        "descendants": 364,
+        "score": 434,
+        "descendants": 373,
         "time": 1774287338,
         "comments_url": "https://news.ycombinator.com/item?id=47492599"
       },
       "tags": [
         "Energy"
       ],
-      "hot_score": 1.17
+      "hot_score": 0.97
     },
     {
       "title_en": "Windows 3.1 tiled background .bmp archive",
@@ -374,36 +465,13 @@
         "id": 47496221,
         "type": "story",
         "by": "justsomehnguy",
-        "score": 263,
-        "descendants": 72,
+        "score": 268,
+        "descendants": 74,
         "time": 1774306355,
         "comments_url": "https://news.ycombinator.com/item?id=47496221"
       },
       "tags": [
-        "Open Source",
-        "Programming"
-      ],
-      "hot_score": 1.06
-    },
-    {
-      "title_en": "How I'm Productive with Claude Code",
-      "url": "https://neilkakkar.com/productive-with-claude-code.html",
-      "title_zh": "我如何用 Claude Code 提高生产力",
-      "created_display": "Created: Mar 23, 2026 / 13:49 PT",
-      "image_url": "https://neilkakkar.com/assets/images/productive-with-claude-code-cover.png",
-      "summary_en": "A personal take on working efficiently with Claude Code, sharing workflows, prompt templates, and practices that keep coding progress steady while staying focused.",
-      "summary_zh": "作者分享在 Claude Code 上保持高效工作的实际做法，包括工作流、提示模板和可持续的练习习惯，以在保持产出的同时保持专注。",
-      "hn": {
-        "id": 47494890,
-        "type": "story",
-        "by": "neilkakkar",
-        "score": 248,
-        "descendants": 152,
-        "time": 1774298950,
-        "comments_url": "https://news.ycombinator.com/item?id=47494890"
-      },
-      "tags": [
-        "AI",
+        "Culture",
         "Programming"
       ],
       "hot_score": 0.85
@@ -420,8 +488,8 @@
         "id": 47487584,
         "type": "story",
         "by": "richtr",
-        "score": 461,
-        "descendants": 235,
+        "score": 463,
+        "descendants": 236,
         "time": 1774262379,
         "comments_url": "https://news.ycombinator.com/item?id=47487584"
       },
@@ -429,7 +497,30 @@
         "DevOps",
         "Programming"
       ],
-      "hot_score": 0.82
+      "hot_score": 0.71
+    },
+    {
+      "title_en": "How I'm Productive with Claude Code",
+      "url": "https://neilkakkar.com/productive-with-claude-code.html",
+      "title_zh": "我如何用 Claude Code 提高生产力",
+      "created_display": "Created: Mar 23, 2026 / 13:49 PT",
+      "image_url": "https://neilkakkar.com/assets/images/productive-with-claude-code-cover.png",
+      "summary_en": "A personal take on working efficiently with Claude Code, sharing workflows, prompt templates, and practices that keep coding progress steady while staying focused.",
+      "summary_zh": "作者分享在 Claude Code 上保持高效工作的实际做法，包括工作流、提示模板和可持续的练习习惯，以在保持产出的同时保持专注。",
+      "hn": {
+        "id": 47494890,
+        "type": "story",
+        "by": "neilkakkar",
+        "score": 258,
+        "descendants": 157,
+        "time": 1774298950,
+        "comments_url": "https://news.ycombinator.com/item?id=47494890"
+      },
+      "tags": [
+        "Programming",
+        "AI"
+      ],
+      "hot_score": 0.7
     },
     {
       "title_en": "PC Gamer recommends RSS readers in a 37mb article that just keeps downloading",
@@ -449,9 +540,10 @@
         "comments_url": "https://news.ycombinator.com/item?id=47480507"
       },
       "tags": [
+        "Culture",
         "Web"
       ],
-      "hot_score": 0.73
+      "hot_score": 0.66
     },
     {
       "title_en": "Student beauty and grades under in-person and remote teaching",
@@ -466,14 +558,15 @@
         "type": "story",
         "by": "jdthedisciple",
         "score": 356,
-        "descendants": 508,
+        "descendants": 510,
         "time": 1774265479,
         "comments_url": "https://news.ycombinator.com/item?id=47488015"
       },
       "tags": [
-        "Education"
+        "Education",
+        "Science"
       ],
-      "hot_score": 0.67
+      "hot_score": 0.57
     },
     {
       "title_en": "POSSE – Publish on your Own Site, Syndicate Elsewhere",
@@ -487,16 +580,17 @@
         "id": 47486726,
         "type": "story",
         "by": "tosh",
-        "score": 405,
+        "score": 408,
         "descendants": 82,
         "time": 1774254567,
         "comments_url": "https://news.ycombinator.com/item?id=47486726"
       },
       "tags": [
         "Web",
+        "Open Source",
         "Privacy"
       ],
-      "hot_score": 0.65
+      "hot_score": 0.56
     },
     {
       "title_en": "Two pilots dead after plane and ground vehicle collide at LaGuardia",
@@ -510,38 +604,15 @@
         "id": 47486386,
         "type": "story",
         "by": "mememememememo",
-        "score": 413,
-        "descendants": 649,
+        "score": 416,
+        "descendants": 675,
         "time": 1774250659,
         "comments_url": "https://news.ycombinator.com/item?id=47486386"
       },
       "tags": [
         "Security"
       ],
-      "hot_score": 0.62
-    },
-    {
-      "title_en": "Local Stack Archived their GitHub repo and requires an account to run",
-      "url": "https://github.com/localstack/localstack",
-      "title_zh": "LocalStack 将仓库归档，运行需账户",
-      "created_display": "Created: Mar 23, 2026 / 11:57 PT",
-      "image_url": "https://repository-images.githubusercontent.com/71948498/7a7abf27-e02e-4544-8d0f-0a8630e5b77b",
-      "summary_en": "LocalStack has archived its GitHub repository and now requires you to sign in to run the software locally. This marks a shift from open development toward a gated model, potentially affecting developers who rely on a free, self-hosted AWS-like environment. The move invites questions about accessibility and sustainability of community-focused open-source projects.",
-      "summary_zh": "LocalStack 已将其 GitHub 仓库归档，现在运行需要账户登录。这标志着从开放开发向受限访问的转变，可能影响依赖免费本地 AWS 模拟环境的开发者。此举也引发关于社区开源项目可访问性与可持续性的讨论。",
-      "hn": {
-        "id": 47493657,
-        "type": "story",
-        "by": "ecshafer",
-        "score": 206,
-        "descendants": 122,
-        "time": 1774292228,
-        "comments_url": "https://news.ycombinator.com/item?id=47493657"
-      },
-      "tags": [
-        "Open Source",
-        "Programming"
-      ],
-      "hot_score": 0.61
+      "hot_score": 0.54
     },
     {
       "title_en": "GrapheneOS will remain usable by anyone without requiring personal information",
@@ -555,8 +626,8 @@
         "id": 47482217,
         "type": "story",
         "by": "nothrowaways",
-        "score": 602,
-        "descendants": 185,
+        "score": 604,
+        "descendants": 186,
         "time": 1774214051,
         "comments_url": "https://news.ycombinator.com/item?id=47482217"
       },
@@ -564,53 +635,30 @@
         "Privacy",
         "Open Source"
       ],
-      "hot_score": 0.59
+      "hot_score": 0.53
     },
     {
-      "title_en": "An incoherent Rust",
-      "url": "https://www.boxyuwu.blog/posts/an-incoherent-rust/",
-      "title_zh": "不连贯的 Rust",
-      "created_display": "Created: Mar 23, 2026 / 08:13 PT",
-      "image_url": null,
-      "summary_en": "A critical look at Rust rhetoric and design choices, arguing that some aspects lack coherence and hinder learning. The post suggests clarifying mental models and aligning APIs to improve consistency.",
-      "summary_zh": "本文批判性评估 Rust 的表述与设计选择，认为某些方面缺乏连贯性，影响学习曲线。作者提出在设计上应明确思维模型并让 API 更加一致。",
+      "title_en": "Local Stack Archived their GitHub repo and requires an account to run",
+      "url": "https://github.com/localstack/localstack",
+      "title_zh": "LocalStack 将仓库归档，运行需账户",
+      "created_display": "Created: Mar 23, 2026 / 11:57 PT",
+      "image_url": "https://repository-images.githubusercontent.com/71948498/7a7abf27-e02e-4544-8d0f-0a8630e5b77b",
+      "summary_en": "LocalStack has archived its GitHub repository and now requires you to sign in to run the software locally. This marks a shift from open development toward a gated model, potentially affecting developers who rely on a free, self-hosted AWS-like environment. The move invites questions about accessibility and sustainability of community-focused open-source projects.",
+      "summary_zh": "LocalStack 已将其 GitHub 仓库归档，现在运行需要账户登录。这标志着从开放开发向受限访问的转变，可能影响依赖免费本地 AWS 模拟环境的开发者。此举也引发关于社区开源项目可访问性与可持续性的讨论。",
       "hn": {
-        "id": 47490648,
+        "id": 47493657,
         "type": "story",
-        "by": "emschwartz",
-        "score": 236,
-        "descendants": 145,
-        "time": 1774278802,
-        "comments_url": "https://news.ycombinator.com/item?id=47490648"
+        "by": "ecshafer",
+        "score": 209,
+        "descendants": 124,
+        "time": 1774292228,
+        "comments_url": "https://news.ycombinator.com/item?id=47493657"
       },
       "tags": [
+        "Open Source",
         "Programming"
       ],
-      "hot_score": 0.55
-    },
-    {
-      "title_en": "I built an AI receptionist for a mechanic shop",
-      "url": "https://www.itsthatlady.dev/blog/building-an-ai-receptionist-for-my-brother/",
-      "title_zh": "我为修车店搭建了 AI 接待员",
-      "created_display": "Created: Mar 23, 2026 / 03:32 PT",
-      "image_url": "http://localhost:4321/screenshot.jpg",
-      "summary_en": "A DIY AI receptionist automates front-desk tasks for a small mechanic shop, handling inquiries and scheduling. It demonstrates practical deployment of AI in small businesses and raises questions about privacy, reliability, and integration.",
-      "summary_zh": "一个自制项目为小型修车店打造了 AI 接待员，负责前台问询与排程。展示了 AI 在小企业中的实际应用，同时引发隐私、可靠性与集成方面的讨论。",
-      "hn": {
-        "id": 47487536,
-        "type": "story",
-        "by": "mooreds",
-        "score": 302,
-        "descendants": 312,
-        "time": 1774261953,
-        "comments_url": "https://news.ycombinator.com/item?id=47487536"
-      },
-      "tags": [
-        "AI",
-        "Business",
-        "Privacy"
-      ],
-      "hot_score": 0.54
+      "hot_score": 0.5
     },
     {
       "title_en": "The gold standard of optimization: A look under the hood of RollerCoaster Tycoon",
@@ -631,9 +679,10 @@
       },
       "tags": [
         "Gaming",
+        "Programming",
         "AI"
       ],
-      "hot_score": 0.53
+      "hot_score": 0.47
     },
     {
       "title_en": "The future of version control",
@@ -656,29 +705,54 @@
         "Programming",
         "DevOps"
       ],
-      "hot_score": 0.51
+      "hot_score": 0.46
     },
     {
-      "title_en": "If DSPy is so great, why isn't anyone using it?",
-      "url": "https://skylarbpayne.com/posts/dspy-engineering-patterns/",
-      "title_zh": "如果 DSPy 那么强大，为什么没人用它？",
-      "created_display": "Created: Mar 23, 2026 / 07:52 PT",
-      "image_url": "https://skylarbpayne.com/og-image/dspy-engineering-patterns.png",
-      "summary_en": "The post critiques the practical adoption of DSPy, a tool or framework, arguing that impressive capabilities don't guarantee usage. It identifies barriers such as steep learning curve, insufficient documentation, or ecosystem fragmentation, and suggests patterns to improve onboarding and integration.",
-      "summary_zh": "本文批评 DSPy 的实际落地难题，认为再强的功能也未必能换来广泛使用。作者指出学习曲线陡峭、文档不足以及生态系统碎片化等障碍，并提出改进上手和集成的工程模式以提升采用率。",
+      "title_en": "I built an AI receptionist for a mechanic shop",
+      "url": "https://www.itsthatlady.dev/blog/building-an-ai-receptionist-for-my-brother/",
+      "title_zh": "我为修车店搭建了 AI 接待员",
+      "created_display": "Created: Mar 23, 2026 / 03:32 PT",
+      "image_url": "http://localhost:4321/screenshot.jpg",
+      "summary_en": "A DIY AI receptionist automates front-desk tasks for a small mechanic shop, handling inquiries and scheduling. It demonstrates practical deployment of AI in small businesses and raises questions about privacy, reliability, and integration.",
+      "summary_zh": "一个自制项目为小型修车店打造了 AI 接待员，负责前台问询与排程。展示了 AI 在小企业中的实际应用，同时引发隐私、可靠性与集成方面的讨论。",
       "hn": {
-        "id": 47490365,
+        "id": 47487536,
         "type": "story",
-        "by": "sbpayne",
-        "score": 218,
-        "descendants": 120,
-        "time": 1774277572,
-        "comments_url": "https://news.ycombinator.com/item?id=47490365"
+        "by": "mooreds",
+        "score": 306,
+        "descendants": 314,
+        "time": 1774261953,
+        "comments_url": "https://news.ycombinator.com/item?id=47487536"
       },
       "tags": [
-        "Programming"
+        "AI",
+        "Business",
+        "Privacy"
       ],
-      "hot_score": 0.5
+      "hot_score": 0.46
+    },
+    {
+      "title_en": "An incoherent Rust",
+      "url": "https://www.boxyuwu.blog/posts/an-incoherent-rust/",
+      "title_zh": "不连贯的 Rust",
+      "created_display": "Created: Mar 23, 2026 / 08:13 PT",
+      "image_url": null,
+      "summary_en": "A critical look at Rust rhetoric and design choices, arguing that some aspects lack coherence and hinder learning. The post suggests clarifying mental models and aligning APIs to improve consistency.",
+      "summary_zh": "本文批判性评估 Rust 的表述与设计选择，认为某些方面缺乏连贯性，影响学习曲线。作者提出在设计上应明确思维模型并让 API 更加一致。",
+      "hn": {
+        "id": 47490648,
+        "type": "story",
+        "by": "emschwartz",
+        "score": 238,
+        "descendants": 148,
+        "time": 1774278802,
+        "comments_url": "https://news.ycombinator.com/item?id=47490648"
+      },
+      "tags": [
+        "Programming",
+        "Design"
+      ],
+      "hot_score": 0.46
     },
     {
       "title_en": "Box of Secrets: Discreetly modding an apartment intercom to work with Apple Home",
@@ -692,38 +766,38 @@
         "id": 47488686,
         "type": "story",
         "by": "jackhogan11",
-        "score": 244,
-        "descendants": 96,
+        "score": 254,
+        "descendants": 107,
         "time": 1774269720,
         "comments_url": "https://news.ycombinator.com/item?id=47488686"
       },
       "tags": [
-        "Hardware"
+        "Hardware",
+        "Programming"
       ],
-      "hot_score": 0.49
+      "hot_score": 0.43
     },
     {
-      "title_en": "Show HN: Cq – Stack Overflow for AI coding agents",
-      "url": "https://blog.mozilla.ai/cq-stack-overflow-for-agents/",
-      "title_zh": "Show HN：Cq——AI 编码代理的 Stack Overflow",
-      "created_display": "Created: Mar 23, 2026 / 09:11 PT",
-      "image_url": "https://blog.mozilla.ai/content/images/size/w1200/2026/03/mozilla-ai-cq-stack-overflow-for-agents-blog-hero-image-1200x630.png",
-      "summary_en": "Show HN introduces Cq, pitched as Stack Overflow for AI coding agents. It aims to centralize code Q&A for AI copilots, potentially accelerating development and sharing best practices.",
-      "summary_zh": "Show HN 介绍 Cq，被称为 AI 编码代理的 Stack Overflow。它为 AI 代码代理提供问答与知识库，帮助开发者共享工具、模式与经验教训，可能提升协作效率。",
+      "title_en": "If DSPy is so great, why isn't anyone using it?",
+      "url": "https://skylarbpayne.com/posts/dspy-engineering-patterns/",
+      "title_zh": "如果 DSPy 那么强大，为什么没人用它？",
+      "created_display": "Created: Mar 23, 2026 / 07:52 PT",
+      "image_url": "https://skylarbpayne.com/og-image/dspy-engineering-patterns.png",
+      "summary_en": "The post critiques the practical adoption of DSPy, a tool or framework, arguing that impressive capabilities don't guarantee usage. It identifies barriers such as steep learning curve, insufficient documentation, or ecosystem fragmentation, and suggests patterns to improve onboarding and integration.",
+      "summary_zh": "本文批评 DSPy 的实际落地难题，认为再强的功能也未必能换来广泛使用。作者指出学习曲线陡峭、文档不足以及生态系统碎片化等障碍，并提出改进上手和集成的工程模式以提升采用率。",
       "hn": {
-        "id": 47491466,
+        "id": 47490365,
         "type": "story",
-        "by": "peteski22",
-        "score": 196,
-        "descendants": 84,
-        "time": 1774282263,
-        "comments_url": "https://news.ycombinator.com/item?id=47491466"
+        "by": "sbpayne",
+        "score": 220,
+        "descendants": 120,
+        "time": 1774277572,
+        "comments_url": "https://news.ycombinator.com/item?id=47490365"
       },
       "tags": [
-        "Show HN",
-        "AI"
+        "Programming"
       ],
-      "hot_score": 0.48
+      "hot_score": 0.42
     },
     {
       "title_en": "Hormuz Minesweeper – Are you tired of winning?",
@@ -743,10 +817,10 @@
         "comments_url": "https://news.ycombinator.com/item?id=47475686"
       },
       "tags": [
-        "Gaming",
-        "AI"
+        "AI",
+        "Gaming"
       ],
-      "hot_score": 0.42
+      "hot_score": 0.38
     },
     {
       "title_en": "Project Nomad – Knowledge That Never Goes Offline",
@@ -768,7 +842,7 @@
       "tags": [
         "Data"
       ],
-      "hot_score": 0.42
+      "hot_score": 0.38
     },
     {
       "title_en": "Reports of code's death are greatly exaggerated",
@@ -791,7 +865,7 @@
         "Programming",
         "AI"
       ],
-      "hot_score": 0.4
+      "hot_score": 0.37
     },
     {
       "title_en": "“Collaboration” is bullshit",
@@ -805,7 +879,7 @@
         "id": 47484519,
         "type": "story",
         "by": "mitchbob",
-        "score": 343,
+        "score": 345,
         "descendants": 183,
         "time": 1774230225,
         "comments_url": "https://news.ycombinator.com/item?id=47484519"
@@ -813,7 +887,7 @@
       "tags": [
         "Culture"
       ],
-      "hot_score": 0.4
+      "hot_score": 0.36
     },
     {
       "title_en": "Why I love NixOS",
@@ -836,7 +910,7 @@
         "Open Source",
         "DevOps"
       ],
-      "hot_score": 0.37
+      "hot_score": 0.33
     },
     {
       "title_en": "OpenClaw is a security nightmare dressed up as a daydream",
@@ -858,7 +932,7 @@
       "tags": [
         "Security"
       ],
-      "hot_score": 0.33
+      "hot_score": 0.3
     },
     {
       "title_en": "Windows native app development is a mess",
@@ -880,7 +954,7 @@
       "tags": [
         "Programming"
       ],
-      "hot_score": 0.3
+      "hot_score": 0.27
     },
     {
       "title_en": "You are not your job",
@@ -902,7 +976,7 @@
       "tags": [
         "Career"
       ],
-      "hot_score": 0.3
+      "hot_score": 0.27
     },
     {
       "title_en": "Flash-MoE: Running a 397B Parameter Model on a Laptop",
@@ -926,7 +1000,7 @@
         "Hardware",
         "DevOps"
       ],
-      "hot_score": 0.27
+      "hot_score": 0.25
     },
     {
       "title_en": "Bored of eating your own dogfood? Try smelling your own farts",
@@ -946,9 +1020,9 @@
         "comments_url": "https://news.ycombinator.com/item?id=47477158"
       },
       "tags": [
-        "DevOps"
+        "Culture"
       ],
-      "hot_score": 0.27
+      "hot_score": 0.24
     },
     {
       "title_en": "GrapheneOS refuses to comply with new age verification laws for operating system",
@@ -969,11 +1043,12 @@
       },
       "tags": [
         "Privacy",
+        "Legal",
         "Security",
         "Open Source",
         "Politics"
       ],
-      "hot_score": 0.23
+      "hot_score": 0.21
     },
     {
       "title_en": "MAUI Is Coming to Linux",
@@ -996,7 +1071,7 @@
         "Programming",
         "Open Source"
       ],
-      "hot_score": 0.2
+      "hot_score": 0.18
     },
     {
       "title_en": "What young workers are doing to AI-proof themselves",
@@ -1019,7 +1094,7 @@
         "Career",
         "AI"
       ],
-      "hot_score": 0.2
+      "hot_score": 0.18
     },
     {
       "title_en": "More common mistakes to avoid when creating system architecture diagrams",
@@ -1039,10 +1114,10 @@
         "comments_url": "https://news.ycombinator.com/item?id=47476562"
       },
       "tags": [
-        "Design",
-        "Programming"
+        "Programming",
+        "Design"
       ],
-      "hot_score": 0.17
+      "hot_score": 0.15
     },
     {
       "title_en": "Building an FPGA 3dfx Voodoo with Modern RTL Tools",
@@ -1062,55 +1137,10 @@
         "comments_url": "https://news.ycombinator.com/item?id=47477284"
       },
       "tags": [
-        "Hardware"
+        "Hardware",
+        "Programming"
       ],
-      "hot_score": 0.17
-    },
-    {
-      "title_en": "Five years of running a systems reading group at Microsoft",
-      "url": "https://armaansood.com/posts/systems-reading-group/",
-      "title_zh": "微软系统读书会五周年回顾",
-      "created_display": "Created: Mar 22, 2026 / 10:06 PT",
-      "image_url": null,
-      "summary_en": "Microsoft's systems reading group marks five years of structured knowledge sharing among engineers. It highlights how curated reading lists and discussions accelerate collective expertise and cross-team collaboration. The takeaway: formalized learning communities can compound technical growth inside large orgs.",
-      "summary_zh": "微软的系统读书会已成立五年，系统化的知识分享和讨论推动工程师集体成长与跨团队协作。通过精心挑选的阅读清单和讨论，学习成果在大型组织中呈现出倍增效应。",
-      "hn": {
-        "id": 47479627,
-        "type": "story",
-        "by": "Foe",
-        "score": 209,
-        "descendants": 54,
-        "time": 1774199198,
-        "comments_url": "https://news.ycombinator.com/item?id=47479627"
-      },
-      "tags": [
-        "Education"
-      ],
-      "hot_score": 0.17
-    },
-    {
-      "title_en": "Palantir extends reach into British state as gets access to sensitive FCA data",
-      "url": "https://www.theguardian.com/technology/2026/mar/22/palantir-extends-reach-into-british-state-as-it-gets-access-to-sensitive-fca-data",
-      "title_zh": "帕兰蒂尔扩展在英国政府的触角，获得对敏感FCA数据的访问",
-      "created_display": "Created: Mar 22, 2026 / 10:56 PT",
-      "image_url": "https://i.guim.co.uk/img/media/5c83fbd70ff3afa3a833e5af25b1d712092536f7/698_0_4680_3744/master/4680.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=f8fd058308676c9e409863fead15b508",
-      "summary_en": "Palantir has gained access to sensitive FCA data, deepening its involvement with the UK public sector. The arrangement underscores the tension between advanced analytics contracts and government data governance, raising questions about oversight, security, and contractor access.",
-      "summary_zh": "帕兰蒂尔获得对英国金融行为监管局敏感数据的访问，进一步加强了其在英国公共部门的参与。此类安排凸显高端分析合同与政府数据治理之间的张力，涉及监管、安全和承包商访问等问题。",
-      "hn": {
-        "id": 47480200,
-        "type": "story",
-        "by": "chrisjj",
-        "score": 198,
-        "descendants": 63,
-        "time": 1774202186,
-        "comments_url": "https://news.ycombinator.com/item?id=47480200"
-      },
-      "tags": [
-        "Security",
-        "Politics",
-        "Data"
-      ],
-      "hot_score": 0.17
+      "hot_score": 0.15
     },
     {
       "title_en": "Apple's intentional crippling of Mobile Safari",
@@ -1130,34 +1160,9 @@
         "comments_url": "https://news.ycombinator.com/item?id=47477024"
       },
       "tags": [
-        "Privacy",
         "Web"
       ],
-      "hot_score": 0.16
-    },
-    {
-      "title_en": "Trivy under attack again: Widespread GitHub Actions tag compromise secrets",
-      "url": "https://socket.dev/blog/trivy-under-attack-again-github-actions-compromise",
-      "title_zh": "Trivy 再度受攻击：GitHub Actions 标签广泛暴露密钥",
-      "created_display": "Created: Mar 22, 2026 / 02:45 PT",
-      "image_url": "https://cdn.sanity.io/images/cgdhsj6q/production/6afe7a11b9f6e0eaca499016e7760f5674917627-1024x1024.png?w=1000&q=95&fit=max&auto=format",
-      "summary_en": "Trivy is again under fire after attackers exploited compromised GitHub Actions tags to steal secrets. The incident underscores how software supply chain tools can be weaponized through CI/CD workflows, prompting teams to pin trusted versions, audit action usage, and rotate leaked credentials.",
-      "summary_zh": "Trivy 再次受攻击，攻击者利用被妥协的 GitHub Actions 标签窃取密钥。这凸显供应链工具在 CI/CD 流水线中的潜在攻击点，促使团队固定可信版本、审计 Actions 使用并轮换泄露的凭证。",
-      "hn": {
-        "id": 47475888,
-        "type": "story",
-        "by": "jicea",
-        "score": 195,
-        "descendants": 69,
-        "time": 1774172714,
-        "comments_url": "https://news.ycombinator.com/item?id=47475888"
-      },
-      "tags": [
-        "Security",
-        "DevOps",
-        "Programming"
-      ],
-      "hot_score": 0.13
+      "hot_score": 0.15
     }
   ]
 }
