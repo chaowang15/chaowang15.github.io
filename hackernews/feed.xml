@@ -5,7 +5,7 @@
     <link>https://chaowang15.github.io/hackernews/</link>
     <description>Curated daily digest of top Hacker News stories with AI-generated summaries, tags, and bilingual translations.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 Mar 2026 04:16:08 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Mar 2026 04:23:00 +0000</lastBuildDate>
     <generator>Hacker News Daily RSS Builder</generator>
     <atom:link href="https://chaowang15.github.io/hackernews/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
@@ -118,7 +118,7 @@
       <category>DevOps</category>
       <description>&lt;p&gt;Relocating workloads to EU infrastructure helps meet data-residency and privacy requirements under GDPR-era norms. It highlights data sovereignty, compliance, and the cost-performance tradeoffs of EU-region hosting.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;将工作负载迁移到欧盟基础设施有助于符合数据驻留和隐私规定。讨论数据主权、合规性，以及在欧盟区域托管的成本与性能权衡。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 893 · 💬 689 · Privacy · Data · DevOps&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 899 · 💬 691 · Privacy · Data · DevOps&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47487436&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/23/top_stories_03232026#story-47487436&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
@@ -256,12 +256,11 @@
       <dc:creator>felineflock</dc:creator>
       <pubDate>Tue, 24 Mar 2026 18:34:52 +0000</pubDate>
       <category>Programming</category>
-      <category>Open Source</category>
       <category>Gaming</category>
       <description>&lt;p&gt;Wine 11 overhauls kernel interactions to accelerate Windows games on Linux, delivering substantial speedups; it improves compatibility and reduces overhead in system calls translation and graphics handling. This move tightens the gap between Linux gaming and Windows performance, potentially expanding Linux gaming adoption.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Wine 11 对内核层进行重写，使 Linux 上运行 Windows 游戏的性能显著提升，并提高了兼容性与系统调用翻译、图形处理的效率。此举缩小了 Linux 与 Windows 在游戏性能上的差距，有望推动 Linux 游戏生态的扩展。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 746 · 💬 260 · Programming · Open Source · Gaming&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47507150&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/24/top_stories_03242026#story-47507150&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;small&gt;▲ 751 · 💬 261 · Programming · Gaming&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47507150&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/23/top_stories_03232026#story-47507150&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>A Decade of Slug</title>
@@ -274,6 +273,20 @@
 &lt;p&gt;&lt;em&gt;Slug 的十年回顾。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 736 · 💬 79 · Culture&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47416736&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/18/top_stories_03182026#story-47416736&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Malicious litellm_init.pth in litellm 1.82.8 PyPI package – credential stealer</title>
+      <link>https://github.com/BerriAI/litellm/issues/24512</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47501729</guid>
+      <dc:creator>theanonymousone</dc:creator>
+      <pubDate>Tue, 24 Mar 2026 12:36:20 +0000</pubDate>
+      <category>Security</category>
+      <category>AI</category>
+      <category>Startups</category>
+      <description>&lt;p&gt;A malicious PyPI package for litellm 1.82.8 contains a litellm_init.pth file that loads a credential-stealing module during import. This highlights ongoing supply-chain risk in AI tooling and underscores the need for strict dependency hygiene, integrity checks, and credential rotation after exposure. Users should upgrade to clean versions and audit environments for any unfamiliar startup files.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;在 litellm 1.82.8 的 PyPI 包中发现恶意的 litellm_init.pth，导入时会加载窃取凭据的模块。此事件暴露了 AI 工具链中的供应链风险，并强调对依赖项进行严格校验、完整性检查以及暴露后轮换凭据的必要性。如有怀疑，应升级到干净版本并审计运行环境中是否存在异常的启动文件。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 721 · 💬 1 · Security · AI · Startups&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47501729&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/23/top_stories_03232026#story-47501729&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Mistral AI Releases Forge</title>
@@ -289,20 +302,6 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47418295&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/18/top_stories_03182026#story-47418295&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Malicious litellm_init.pth in litellm 1.82.8 PyPI package – credential stealer</title>
-      <link>https://github.com/BerriAI/litellm/issues/24512</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47501729</guid>
-      <dc:creator>theanonymousone</dc:creator>
-      <pubDate>Tue, 24 Mar 2026 12:36:20 +0000</pubDate>
-      <category>Security</category>
-      <category>AI</category>
-      <category>Startups</category>
-      <description>&lt;p&gt;A malicious PyPI package for litellm 1.82.8 contains a litellm_init.pth file that loads a credential-stealing module during import. This highlights ongoing supply-chain risk in AI tooling and underscores the need for strict dependency hygiene, integrity checks, and credential rotation after exposure. Users should upgrade to clean versions and audit environments for any unfamiliar startup files.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;在 litellm 1.82.8 的 PyPI 包中发现恶意的 litellm_init.pth，导入时会加载窃取凭据的模块。此事件暴露了 AI 工具链中的供应链风险，并强调对依赖项进行严格校验、完整性检查以及暴露后轮换凭据的必要性。如有怀疑，应升级到干净版本并审计运行环境中是否存在异常的启动文件。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 709 · 💬 1 · Security · AI · Startups&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47501729&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/23/top_stories_03232026#story-47501729&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>iPhone 17 Pro Demonstrated Running a 400B LLM</title>
       <link>https://twitter.com/anemll/status/2035901335984611412</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=47490070</guid>
@@ -312,7 +311,7 @@
       <category>Privacy</category>
       <description>&lt;p&gt;An iPhone 17 Pro demonstration shows a 400-billion-parameter LLM running locally on-device, signaling advances in edge AI and privacy-preserving inference. The feat highlights model compression, efficient on-device runtimes, and the potential shift away from cloud-only AI.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;一段演示显示 iPhone 17 Pro 能在本地设备上运行 400B 参数的 LLM，标志边缘 AI 的进展与隐私保护推理能力。此成就凸显模型压缩、边缘运行效率的提升，以及 AI 由云端依赖向本地推理的潜在转变。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 692 · 💬 320 · AI · Privacy&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 699 · 💬 320 · AI · Privacy&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47490070&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/23/top_stories_03232026#story-47490070&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
@@ -357,6 +356,19 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47475686&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/23/top_stories_03232026#story-47475686&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Claude Code Cheat Sheet</title>
+      <link>https://cc.storyfox.cz</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47495527</guid>
+      <dc:creator>phasE89</dc:creator>
+      <pubDate>Mon, 23 Mar 2026 21:44:20 +0000</pubDate>
+      <category>Programming</category>
+      <category>AI</category>
+      <description>&lt;p&gt;A printable Claude Code cheat sheet that auto-updates daily, serving as a handy quick-reference for prompts, patterns, and tips when coding with Claude. It's a lightweight, always-current resource for frequent Claude Code users.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;一份可打印的 Claude Code 快速参考表每日自动更新，提供提示语、常用模式和编码技巧，便于在使用 Claude 编码时快速查阅。该资源保持最新，适合高频使用者。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 632 · 💬 184 · Programming · AI&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47495527&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/23/top_stories_03232026#story-47495527&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>France's aircraft carrier located in real time by Le Monde through fitness app</title>
       <link>https://www.lemonde.fr/en/international/article/2026/03/20/stravaleaks-france-s-aircraft-carrier-located-in-real-time-by-le-monde-through-fitness-app_6751640_4.html</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=47453942</guid>
@@ -382,19 +394,6 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47459296&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/21/top_stories_03212026#story-47459296&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Claude Code Cheat Sheet</title>
-      <link>https://cc.storyfox.cz</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47495527</guid>
-      <dc:creator>phasE89</dc:creator>
-      <pubDate>Mon, 23 Mar 2026 21:44:20 +0000</pubDate>
-      <category>Programming</category>
-      <category>AI</category>
-      <description>&lt;p&gt;A printable Claude Code cheat sheet that auto-updates daily, serving as a handy quick-reference for prompts, patterns, and tips when coding with Claude. It's a lightweight, always-current resource for frequent Claude Code users.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;一份可打印的 Claude Code 快速参考表每日自动更新，提供提示语、常用模式和编码技巧，便于在使用 Claude 编码时快速查阅。该资源保持最新，适合高频使用者。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 613 · 💬 184 · Programming · AI&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47495527&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/23/top_stories_03232026#story-47495527&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>A sufficiently detailed spec is code</title>
       <link>https://haskellforall.com/2026/03/a-sufficiently-detailed-spec-is-code</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=47434047</guid>
@@ -418,6 +417,18 @@
 &lt;p&gt;&lt;em&gt;GrapheneOS 继续坚持隐私优先理念，强调无需提供个人信息即可使用系统。文章点出在保持无需账户或数据传输的前提下，生态系统所需的权衡以及对普通用户的影响。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 604 · 💬 186 · Privacy · Open Source&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47482217&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/23/top_stories_03232026#story-47482217&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Is anybody else bored of talking about AI?</title>
+      <link>https://blog.jakesaunders.dev/is-anybody-else-bored-of-talking-about-ai/</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47508745</guid>
+      <dc:creator>jakelsaunders94</dc:creator>
+      <pubDate>Tue, 24 Mar 2026 20:31:08 +0000</pubDate>
+      <category>AI</category>
+      <description>&lt;p&gt;A reflective essay questions whether the constant AI chatter has worn people down and argues for focusing on practical, real-world impact over hype. It pushes readers to value concrete use cases, governance, and measurable progress rather than trending headlines.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;这篇随笔质疑持续的 AI 热议是否让人疲惫，并主张把重点放在现实世界的实际影响而非炒作。作者鼓励关注具体的使用场景、治理与可衡量的进展，而不是追逐热度新闻。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 592 · 💬 409 · AI&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47508745&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/23/top_stories_03232026#story-47508745&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>The gold standard of optimization: A look under the hood of RollerCoaster Tycoon</title>
@@ -446,18 +457,6 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47476821&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/23/top_stories_03232026#story-47476821&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Is anybody else bored of talking about AI?</title>
-      <link>https://blog.jakesaunders.dev/is-anybody-else-bored-of-talking-about-ai/</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47508745</guid>
-      <dc:creator>jakelsaunders94</dc:creator>
-      <pubDate>Tue, 24 Mar 2026 20:31:08 +0000</pubDate>
-      <category>AI</category>
-      <description>&lt;p&gt;A reflective essay questions whether the constant AI chatter has worn people down and argues for focusing on practical, real-world impact over hype. It pushes readers to value concrete use cases, governance, and measurable progress rather than trending headlines.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;这篇随笔质疑持续的 AI 热议是否让人疲惫，并主张把重点放在现实世界的实际影响而非炒作。作者鼓励关注具体的使用场景、治理与可衡量的进展，而不是追逐热度新闻。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 587 · 💬 408 · AI&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47508745&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/24/top_stories_03242026#story-47508745&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Reports of code's death are greatly exaggerated</title>
       <link>https://stevekrouse.com/precision</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=47476315</guid>
@@ -484,6 +483,20 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47470773&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/22/top_stories_03222026#story-47470773&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Tell HN: Litellm 1.82.7 and 1.82.8 on PyPI are compromised</title>
+      <link>https://github.com/BerriAI/litellm/issues/24512</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47501426</guid>
+      <dc:creator>dot_treo</dc:creator>
+      <pubDate>Tue, 24 Mar 2026 12:06:29 +0000</pubDate>
+      <category>Security</category>
+      <category>AI</category>
+      <category>Programming</category>
+      <description>&lt;p&gt;Two releases of a lightweight LLM client package were compromised on PyPI, enabling malicious code pushes to downstream users. The incident underscores supply-chain risk in Python ecosystems and the importance of checksum validation and pinning versions. Users should audit dependencies, upgrade to clean builds, and verify package integrity.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;两个版本的轻量级 LLM 客户端包在 PyPI 的发布被篡改，导致后续用户可能被注入恶意代码。事件凸显 Python 生态的供应链风险，强调校验和版本锁定的重要性。请审计依赖、升级到干净的构建版本，并验证包的完整性。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 556 · 💬 392 · Security · AI · Programming&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47501426&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/23/top_stories_03232026#story-47501426&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Nightingale – open-source karaoke app that works with any song on your computer</title>
       <link>https://nightingale.cafe/</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=47422942</guid>
@@ -497,21 +510,6 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47422942&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/18/top_stories_03182026#story-47422942&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Tell HN: Litellm 1.82.7 and 1.82.8 on PyPI are compromised</title>
-      <link>https://github.com/BerriAI/litellm/issues/24512</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47501426</guid>
-      <dc:creator>dot_treo</dc:creator>
-      <pubDate>Tue, 24 Mar 2026 12:06:29 +0000</pubDate>
-      <category>Security</category>
-      <category>Open Source</category>
-      <category>AI</category>
-      <category>Programming</category>
-      <description>&lt;p&gt;Two releases of a lightweight LLM client package were compromised on PyPI, enabling malicious code pushes to downstream users. The incident underscores supply-chain risk in Python ecosystems and the importance of checksum validation and pinning versions. Users should audit dependencies, upgrade to clean builds, and verify package integrity.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;两个版本的轻量级 LLM 客户端包在 PyPI 的发布被篡改，导致后续用户可能被注入恶意代码。事件凸显 Python 生态的供应链风险，强调校验和版本锁定的重要性。请审计依赖、升级到干净的构建版本，并验证包的完整性。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 551 · 💬 393 · Security · Open Source · AI · Programming&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47501426&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/24/top_stories_03242026#story-47501426&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Apple Business</title>
       <link>https://www.apple.com/newsroom/2026/03/introducing-apple-business-a-new-all-in-one-platform-for-businesses-of-all-sizes/</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=47504112</guid>
@@ -521,8 +519,8 @@
       <category>Security</category>
       <description>&lt;p&gt;Apple introduces Apple Business, an all-in-one platform to streamline device management, security, and app deployment for organizations of all sizes. By consolidating IT controls and enterprise workflows, it aims to reduce friction for Apple-powered ecosystems in the workplace. The move could reshape enterprise IT purchasing and cross-device collaboration strategies.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;苹果推出 Apple Business，一站式平台用于简化企业级设备管理、安全性与应用部署，覆盖各类规模的组织。通过整合 IT 控制和企业工作流，意在降低在工作场景中使用苹果设备的门槛。这一举措可能影响企业 IT 的采购决策及跨设备协作方式。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 548 · 💬 325 · Business · Security&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47504112&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/24/top_stories_03242026#story-47504112&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;small&gt;▲ 550 · 💬 326 · Business · Security&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47504112&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/23/top_stories_03232026#story-47504112&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>“Your frustration is the product”</title>
@@ -598,8 +596,8 @@
       <category>Business</category>
       <description>&lt;p&gt;An announcement signals the end of Sora, marking a closing chapter for the service.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;官方公告表明 Sora 将停止运营，标志着该服务的收尾阶段。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 488 · 💬 377 · Business&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47508246&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/24/top_stories_03242026#story-47508246&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;small&gt;▲ 492 · 💬 380 · Business&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47508246&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/23/top_stories_03232026#story-47508246&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Despite doubts, federal cyber experts approved Microsoft cloud service</title>
@@ -640,17 +638,18 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47416486&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/18/top_stories_03182026#story-47416486&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Anthropic takes legal action against OpenCode</title>
-      <link>https://github.com/anomalyco/opencode/pull/18186</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47444748</guid>
-      <dc:creator>_squared_</dc:creator>
-      <pubDate>Thu, 19 Mar 2026 19:37:26 +0000</pubDate>
-      <category>Legal</category>
-      <category>AI</category>
-      <description>&lt;p&gt;Anthropic has filed a lawsuit against OpenCode, signaling a new legal tussle in the AI ecosystem. The action highlights ongoing battles over training data, IP, and competitive practices that could influence how AI startups operate and disclose information.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Anthropic 对 OpenCode 提起诉讼，标志着 AI 领域新的法律博弈。此举凸显关于训练数据、知识产权和竞争行为的持续之争，可能影响 AI 初创公司的运营方式与信息披露要求。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 470 · 💬 384 · Legal · AI&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47444748&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/20/top_stories_03202026#story-47444748&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+      <title>FCC updates covered list to include foreign-made consumer routers</title>
+      <link>https://www.fcc.gov/document/fcc-updates-covered-list-include-foreign-made-consumer-routers</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47495344</guid>
+      <dc:creator>moonka</dc:creator>
+      <pubDate>Mon, 23 Mar 2026 21:28:02 +0000</pubDate>
+      <category>Security</category>
+      <category>Privacy</category>
+      <category>Politics</category>
+      <description>&lt;p&gt;The FCC expands the Covered Equipment list to include foreign-made consumer routers, tightening security requirements for home networking gear sold in the U.S. The move could affect manufacturers, supply chains, and consumer privacy as compliance costs become clearer.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;FCC 将外国制造的消费路由器纳入覆盖清单，强化对美国市场网络设备的安全要求。此举可能影响厂商、供应链与合规成本，进而关系到家庭网络的隐私与安全。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 474 · 💬 408 · Security · Privacy · Politics&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47495344&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/23/top_stories_03232026#story-47495344&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
