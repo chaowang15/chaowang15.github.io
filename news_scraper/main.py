@@ -955,13 +955,19 @@ def main():
 
 
     # Generate podcast for best stories (only when best mode is included)
+    # Podcast only on Tue(1), Wed(2), Thu(3), Fri(4)
     if "best" in modes_to_run:
         podcast_enabled = cfg.get("podcast", {}).get("enabled", True)
         skip_upload = "--skip-upload" in sys.argv
-        if podcast_enabled:
+        tz_name = cfg["timezone"]
+        content_dt = now_in_tz(tz_name) - timedelta(days=1)
+        weekday = content_dt.weekday()  # 0=Mon, 1=Tue, ..., 6=Sun
+        podcast_days = {1, 2, 3, 4}  # Tue, Wed, Thu, Fri
+        if weekday not in podcast_days:
+            print(f"[PODCAST] Skipping daily podcast — content date {content_dt.strftime('%Y-%m-%d')} "
+                  f"is {content_dt.strftime('%A')} (only Tue–Fri)")
+        elif podcast_enabled:
             try:
-                tz_name = cfg["timezone"]
-                content_dt = now_in_tz(tz_name) - timedelta(days=1)
                 podcast_result = generate_daily_podcast(
                     base_dir=base_dir,
                     target_date=content_dt,
@@ -992,17 +998,15 @@ def main():
                 traceback.print_exc()
             # --- Re-render best stories page & index to include podcast players ---
             try:
-                tz_name = cfg["timezone"]
-                content_dt_re = now_in_tz(tz_name) - timedelta(days=1)
-                date_dir = content_dt_re.strftime("%Y/%m/%d")
-                date_suffix = content_dt_re.strftime("%m%d%Y")
+                date_dir = content_dt.strftime("%Y/%m/%d")
+                date_suffix = content_dt.strftime("%m%d%Y")
                 json_path_re = os.path.join(base_dir, date_dir, f"best_stories_{date_suffix}.json")
                 out_path_re = os.path.join(base_dir, date_dir, f"best_stories_{date_suffix}.md")
 
                 if os.path.exists(json_path_re):
                     backup_re = read_backup_json(json_path_re)
                     items_re = backup_re["items"]
-                    page_title_re = f"Hacker News \u2014 Daily Best ({content_dt_re.strftime('%Y-%m-%d')})"
+                    page_title_re = f"Hacker News \u2014 Daily Best ({content_dt.strftime('%Y-%m-%d')})"
                     md_re = render_markdown(
                         items_re,
                         page_title=page_title_re,

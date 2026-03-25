@@ -443,7 +443,18 @@ def generate_weekly_digest(
 
 def main():
     iso_week = sys.argv[1] if len(sys.argv) > 1 else None
-    generate_weekly_digest(iso_week=iso_week)
+    md_path = generate_weekly_digest(iso_week=iso_week)
+
+    # Generate weekly podcast after digest is ready
+    if md_path:
+        try:
+            from podcast_weekly_generator import generate_weekly_podcast
+            print("\n[WEEKLY] Starting weekly podcast generation...")
+            generate_weekly_podcast(iso_week=iso_week)
+        except Exception as e:
+            print(f"[WEEKLY] WARNING: Weekly podcast generation failed: {e}")
+            import traceback
+            traceback.print_exc()
 
 
 if __name__ == "__main__":
