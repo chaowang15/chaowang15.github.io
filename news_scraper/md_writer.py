@@ -101,10 +101,31 @@ def _build_podcast_player_html(date_str: str, mode: str) -> str:
     lines = []
     lines.append("<div class='hn-podcast-inline'>")
 
+    # --- English podcast player (shown first, above Chinese) ---
+    en_mp3_filename = marker_info.get("en_mp3", "")
+    if en_mp3_filename:
+        en_female = marker_info.get("en_female", "Aria")
+        en_male = marker_info.get("en_male", "Davis")
+        en_mp3_url = f"https://github.com/{repo}/releases/download/{release_tag}/{en_mp3_filename}"
+
+        lines.append("<div class='hn-podcast-player'>")
+        lines.append("<div class='hn-podcast-header'>")
+        lines.append("<span class='hn-podcast-icon'>\U0001F399</span>")
+        lines.append("<div class='hn-podcast-info'>")
+        lines.append(f"<p class='hn-podcast-title'>\U0001F3A7 Daily Podcast (English) \u2014 {date_display}</p>")
+        lines.append(f"<p class='hn-podcast-meta'>English Podcast \u00B7 AI Generated \u00B7 {en_female} &amp; {en_male}</p>")
+        lines.append("</div>")
+        lines.append("</div>")
+        lines.append(f"<audio class='hn-podcast-audio' controls preload='metadata'>")
+        lines.append(f"<source src='{en_mp3_url}' type='audio/mpeg'>")
+        lines.append("</audio>")
+        lines.append("</div>")
+
+    # --- Chinese podcast players ---
     if num_parts >= 2:
         # Two-part podcast player
         for pn in range(1, num_parts + 1):
-            part_label = "上半场" if pn == 1 else "下半场"
+            part_label = "\u4e0a\u534a\u573a" if pn == 1 else "\u4e0b\u534a\u573a"
             mp3_filename = marker_info.get(f"mp3_part{pn}", f"hn-podcast-{date_tag}-part{pn}.mp3")
             mp3_url = f"https://github.com/{repo}/releases/download/{release_tag}/{mp3_filename}"
 

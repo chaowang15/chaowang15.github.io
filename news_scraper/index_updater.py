@@ -461,6 +461,15 @@ def _get_podcast_info(base_dir: str, days: list) -> Optional[dict]:
             result["mp3_url"] = mp3_url
             result["parts"] = [{"part": 1, "mp3_url": mp3_url, "mp3_filename": mp3_fn}]
 
+        # English podcast info
+        en_mp3_fn = marker_info.get("en_mp3", "")
+        if en_mp3_fn:
+            en_mp3_url = f"https://github.com/{repo}/releases/download/{release_tag}/{en_mp3_fn}"
+            result["en_mp3_url"] = en_mp3_url
+            result["en_mp3_filename"] = en_mp3_fn
+            result["en_female"] = marker_info.get("en_female", "Aria")
+            result["en_male"] = marker_info.get("en_male", "Davis")
+
         return result
     return None
 
@@ -482,6 +491,28 @@ def _add_podcast_section(lines: list, base_dir: str, days: list):
     lines.append("<div class='hn-index-section hn-podcast-section'>")
     lines.append("<h3 class='hn-section-title'>Daily Podcast <span class='hn-section-zh'>\u6BCF\u65E5\u64AD\u5BA2</span></h3>")
 
+    # --- English podcast player (shown first, above Chinese) ---
+    en_mp3_url = podcast.get("en_mp3_url", "")
+    if en_mp3_url:
+        en_female = podcast.get("en_female", "Aria")
+        en_male = podcast.get("en_male", "Davis")
+        en_title = f"HN Daily Best (English) \u2014 {podcast['date_display']}"
+
+        lines.append("<div class='hn-podcast-player'>")
+        lines.append("<div class='hn-podcast-header'>")
+        lines.append("<span class='hn-podcast-icon'>\U0001F399</span>")
+        lines.append("<div class='hn-podcast-info'>")
+        lines.append(f"<p class='hn-podcast-title'>{en_title}</p>")
+        lines.append(f"<p class='hn-podcast-meta'>English Podcast \u00B7 AI Generated \u00B7 {en_female} &amp; {en_male}</p>")
+        lines.append("</div>")
+        lines.append("</div>")
+        lines.append(f"<audio class='hn-podcast-audio' controls preload='metadata'>")
+        lines.append(f"<source src='{en_mp3_url}' type='audio/mpeg'>")
+        lines.append("Your browser does not support the audio element.")
+        lines.append("</audio>")
+        lines.append("</div>")  # hn-podcast-player
+
+    # --- Chinese podcast players ---
     for part_info in parts:
         pn = part_info["part"]
         mp3_url = part_info["mp3_url"]
