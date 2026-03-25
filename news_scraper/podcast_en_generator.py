@@ -323,6 +323,10 @@ def generate_en_transcript(news_text: str, voice_pair: dict) -> str:
     cost = usage.prompt_tokens * 0.4 / 1e6 + usage.completion_tokens * 1.6 / 1e6
     print(f"[EN-PODCAST] Estimated LLM cost: ${cost:.4f}")
 
+    # LLM post-validation: fix any remaining tag issues
+    from transcript_validator import validate_transcript
+    transcript = validate_transcript(transcript, label="EN-PODCAST")
+
     # Verify tag quality
     segments = _parse_dialogue_segments(transcript)
     print(f"[EN-PODCAST] Parsed {len(segments)} dialogue segments")

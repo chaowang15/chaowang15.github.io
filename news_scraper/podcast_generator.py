@@ -613,7 +613,11 @@ def _generate_one_part(
     # --- Generate transcript ---
     raw_transcript = generate_transcript(news_text, voice_pair, part_num)
 
-    # Save raw transcript
+    # --- Validate and fix transcript tags ---
+    from transcript_validator import validate_transcript
+    raw_transcript = validate_transcript(raw_transcript, label="PODCAST")
+
+    # Save raw transcript (after validation)
     raw_path = os.path.join(WORK_DIR, f"transcript_raw_{date_tag}_{part_suffix}.txt")
     with open(raw_path, "w", encoding="utf-8") as f:
         f.write(raw_transcript)
