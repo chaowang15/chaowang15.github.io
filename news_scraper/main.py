@@ -44,6 +44,7 @@ from share_page_builder import build_share_pages
 from backup_io import write_backup_json, read_backup_json
 from tag_generator import tag_json_file
 from podcast_generator import generate_daily_podcast
+from podcast_en_generator import generate_en_podcast
 
 
 TOP_STORIES_MAX = 100  # Maximum number of top stories to keep per day
@@ -972,6 +973,21 @@ def main():
                     print("[PODCAST] Podcast generation returned empty result")
             except Exception as e:
                 print(f"[WARN] Podcast generation failed (non-fatal): {e}")
+                import traceback
+                traceback.print_exc()
+            # --- English podcast ---
+            try:
+                en_result = generate_en_podcast(
+                    base_dir=base_dir,
+                    target_date=content_dt,
+                    skip_upload=skip_upload,
+                )
+                if en_result:
+                    print(f"[EN-PODCAST] English podcast generated: {en_result.get('mp3_url', '')}")
+                else:
+                    print("[EN-PODCAST] English podcast generation returned empty result")
+            except Exception as e:
+                print(f"[WARN] English podcast generation failed (non-fatal): {e}")
                 import traceback
                 traceback.print_exc()
         else:
