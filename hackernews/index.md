@@ -141,7 +141,7 @@ Sort:
 <span class='hn-podcast-icon'>🎙</span>
 <div class='hn-podcast-info'>
 <p class='hn-podcast-title'>HN Daily Best (English) — March 23, 2026</p>
-<p class='hn-podcast-meta'>English Podcast · AI Generated · Aria &amp; Davis</p>
+<p class='hn-podcast-meta'>English Podcast · AI Generated · Marin &amp; Cedar</p>
 </div>
 </div>
 <audio class='hn-podcast-audio' controls preload='metadata'>

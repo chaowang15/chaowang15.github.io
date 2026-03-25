@@ -1637,3 +1637,8 @@ Each entry records the model, token counts, and estimated cost.
 | 21:11:26 | gpt-5-nano | llm_batch | 459 | 0 | 2,251 | 2,710 | $0.000923 | enrich 3 items, attempt 1 |
 | **Subtotal** | **1 calls** | — | **459** | **0** | **2,251** | **2,710** | **$0.000923** | Scrape batch |
 
+| Time | Model | Caller | Input | Cached | Output | Total | Cost (USD) | Note |
+|------|-------|--------|------:|-------:|-------:|------:|-----------:|------|
+| 22:35:39 | gpt-5-nano | llm_batch | 459 | 0 | 4,388 | 4,847 | $0.001778 | enrich 3 items, attempt 1 |
+| **Subtotal** | **1 calls** | — | **459** | **0** | **4,388** | **4,847** | **$0.001778** | Scrape batch |
+
