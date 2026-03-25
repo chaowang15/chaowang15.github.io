@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>38</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>5264</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>36</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>36</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-03-25</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>38</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>5314</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>37</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>36</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-03-25</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -140,12 +140,12 @@ Sort:
 <div class='hn-podcast-header'>
 <span class='hn-podcast-icon'>🎙</span>
 <div class='hn-podcast-info'>
-<p class='hn-podcast-title'>HN Daily Best (English) — March 23, 2026</p>
-<p class='hn-podcast-meta'>English Podcast · AI Generated · Marin &amp; Cedar</p>
+<p class='hn-podcast-title'>HN Daily Best (English) — March 24, 2026</p>
+<p class='hn-podcast-meta'>English Podcast · AI Generated · Nova &amp; Onyx</p>
 </div>
 </div>
 <audio class='hn-podcast-audio' controls preload='metadata'>
-<source src='https://github.com/chaowang15/chaowang15.github.io/releases/download/podcast-2026-03/hn-podcast-en-2026-03-23.mp3' type='audio/mpeg'>
+<source src='https://github.com/chaowang15/chaowang15.github.io/releases/download/podcast-2026-03/hn-podcast-en-2026-03-24.mp3' type='audio/mpeg'>
 Your browser does not support the audio element.
 </audio>
 </div>
@@ -153,12 +153,12 @@ Your browser does not support the audio element.
 <div class='hn-podcast-header'>
 <span class='hn-podcast-icon'>🎙</span>
 <div class='hn-podcast-info'>
-<p class='hn-podcast-title'>HN 每日精选 (中文) — March 23, 2026</p>
-<p class='hn-podcast-meta'>中文播客 · AI 生成 · 晓梦 &amp; 云扬</p>
+<p class='hn-podcast-title'>HN 每日精选 (中文) — March 24, 2026</p>
+<p class='hn-podcast-meta'>中文播客 · AI 生成 · 晓辰 &amp; 云野</p>
 </div>
 </div>
 <audio class='hn-podcast-audio' controls preload='metadata'>
-<source src='https://github.com/chaowang15/chaowang15.github.io/releases/download/podcast-2026-03/hn-podcast-2026-03-23.mp3' type='audio/mpeg'>
+<source src='https://github.com/chaowang15/chaowang15.github.io/releases/download/podcast-2026-03/hn-podcast-2026-03-24.mp3' type='audio/mpeg'>
 Your browser does not support the audio element.
 </audio>
 </div>
@@ -203,6 +203,11 @@ Your browser does not support the audio element.
 <div class='hn-day-row'>
 <div class='hn-day-date'>2026-03-24 <span class='hn-day-weekday'>Tue</span></div>
 <div class='hn-day-stories'>
+<a class='hn-story-link' href='/hackernews/2026/03/24/best_stories_03242026'>
+<span class='hn-row-type hn-type-best'>Daily Best</span>
+<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> Programming <b>19</b> <span class="hn-row-sep">·</span> AI <b>15</b></span>
+<span class='hn-podcast-badge' title='Podcast available'>&#x1F3A7;</span>
+</a>
 <a class='hn-story-link' href='/hackernews/2026/03/24/top_stories_03242026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
 <span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>36</b> <span class="hn-row-sep">·</span> AI <b>23</b></span>
