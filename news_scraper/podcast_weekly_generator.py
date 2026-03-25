@@ -263,7 +263,8 @@ def _build_cn_weekly_prompt(voice_pair: dict) -> str:
 1. 开场：简短介绍本周精选概况（2-3 句）
 2. 主体：逐条快速过新闻，每条新闻只需 2 句话（一人介绍 + 一人评论）
 3. 结尾：简短总结并告别（2-3 句）
-4. 总字数严格控制在 3000 字以内（约 8 分钟音频）
+4. 从第二条新闻开始，介绍标题的人必须先说一个简短的过渡词再引出标题，例如"接下来"、"下一条"、"然后是"、"再来看看"、"说到这个"等。过渡词要自然多样，不要每次都用同一个。第一条新闻不需要过渡词。
+5. 总字数严格控制在 3000 字以内（约 8 分钟音频）
 
 输出格式：
 严格使用 <Person1> 和 <Person2> 标签包裹每段对话。
@@ -284,6 +285,8 @@ Person2 = {mn}（男主持）
 <Person2>是啊，这说明预测市场的影响力已经远超金融领域了。</Person2>
 <Person2>接下来，Astral 宣布加入 OpenAI，这在 Python 社区引起了不小的讨论。</Person2>
 <Person1>确实，很多人担心开源工具的未来走向。</Person1>
+<Person1>再来看看，有个关于 Rust 重写系统组件的热门讨论。</Person1>
+<Person2>这个话题每次都能引发激烈争论。</Person2>
 """
 
 
@@ -308,8 +311,13 @@ def _build_en_weekly_prompt(voice_pair: dict) -> str:
         "1. Brief intro (2-3 sentences)\n"
         "2. Cover each story in exactly 2 lines (one intro + one comment)\n"
         "3. Brief sign-off (2-3 sentences)\n"
-        "4. STRICT word limit: under 2500 words total (~7 minutes audio)\n"
-        "5. Do NOT repeat speaker names in dialogue. Names only in intro/sign-off.\n\n"
+        "4. Starting from the SECOND story, the person introducing the title MUST begin "
+        "with a brief transition phrase before stating the title, such as 'Next up', "
+        "'Moving on', 'Now let's look at', 'Also making waves', 'Speaking of which', "
+        "'Another interesting one', etc. Vary the transitions naturally — do NOT repeat "
+        "the same phrase. The first story does NOT need a transition.\n"
+        "5. STRICT word limit: under 2500 words total (~7 minutes audio)\n"
+        "6. Do NOT repeat speaker names in dialogue. Names only in intro/sign-off.\n\n"
         "Output format:\n"
         "Use <Person1> and <Person2> XML tags.\n"
         f"Person1 = {fn} (female host)\n"
@@ -323,8 +331,10 @@ def _build_en_weekly_prompt(voice_pair: dict) -> str:
         f"<Person2>And I'm {mn}. Packed week — let's jump right in!</Person2>\n"
         "<Person1>First up, Polymarket gamblers are threatening journalists over an Iran missile story.</Person1>\n"
         "<Person2>Wild stuff. Prediction markets are getting way too personal.</Person2>\n"
-        "<Person2>Next, Astral is joining OpenAI, which has the Python community buzzing.</Person2>\n"
+        "<Person2>Moving on, Astral is joining OpenAI, which has the Python community buzzing.</Person2>\n"
         "<Person1>Yeah, a lot of folks are worried about what happens to their open-source tools.</Person1>\n"
+        "<Person1>Also making waves, there's a heated debate about rewriting system components in Rust.</Person1>\n"
+        "<Person2>Classic topic — never fails to spark strong opinions.</Person2>\n"
     )
 
 

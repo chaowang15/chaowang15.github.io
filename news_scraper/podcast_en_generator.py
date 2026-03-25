@@ -203,7 +203,12 @@ def build_en_system_prompt(voice_pair: dict) -> str:
         "4. For each story, randomly alternate which host introduces the title and which "
         "host comments on it. Do NOT always have the same person go first. Roughly half "
         f"the stories should be introduced by {female_name}, the other half by {male_name}.\n"
-        "5. STRICT word limit: under 2500 words total (approximately 6-7 minutes of audio). "
+        "5. Starting from the SECOND story, the person introducing the title MUST begin "
+        "with a brief transition phrase before stating the title, such as 'Next up', "
+        "'Moving on', 'Now let's look at', 'Also making waves', 'Speaking of which', "
+        "'Another interesting one', etc. Vary the transitions naturally — do NOT repeat "
+        "the same phrase. The first story does NOT need a transition.\n"
+        "6. STRICT word limit: under 2500 words total (approximately 6-7 minutes of audio). "
         "This is a hard limit — better to say less about each story than to exceed it.\n\n"
         "Output format:\n"
         "Use <Person1> and <Person2> XML tags to wrap each dialogue segment.\n"
@@ -221,6 +226,10 @@ def build_en_system_prompt(voice_pair: dict) -> str:
         f"<Person2>And I'm {male_name}. We've got a packed show today — let's dive right in!</Person2>\n"
         "<Person1>Our first story today is about a supply-chain attack on a popular Python package.</Person1>\n"
         "<Person2>That's right. It's a stark reminder to always verify your dependencies.</Person2>\n"
+        "<Person2>Next up, there's a heated debate about rewriting Linux kernel modules in Rust.</Person2>\n"
+        "<Person1>Yeah, the community reactions have been really fascinating on that one.</Person1>\n"
+        "<Person1>Moving on, Google just dropped a new AI coding assistant.</Person1>\n"
+        "<Person2>Interesting for sure, though I think we need to see how it holds up in practice.</Person2>\n"
     )
 
 
