@@ -7,7 +7,7 @@ Pipeline:
   3. Randomly select an English voice pair for today
   4. Generate English dialogue transcript via LLM (gpt-4.1-mini)
   5. Convert raw transcript to reading-friendly Markdown
-  6. Synthesize audio via Azure Speech TTS (SSML multi-speaker, en-US)
+  6. Synthesize audio via OpenAI gpt-4o-mini-tts (per-segment, then concatenate)
   7. Upload MP3 + transcript to GitHub Releases (monthly release, daily append)
 
 Usage:
@@ -31,12 +31,14 @@ from pathlib import Path
 # Constants
 # ---------------------------------------------------------------------------
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", "")
-AZURE_SPEECH_KEY = os.environ.get("AZURE_SPEECH_KEY", "")
-AZURE_SPEECH_REGION = os.environ.get("AZURE_SPEECH_REGION", "westus")
+# For TTS: use a separate key for the original OpenAI API (not the proxy)
+OPENAI_TTS_KEY = os.environ.get("OPENAI_TTS_KEY", "")
 
 LLM_MODEL = "gpt-4.1-mini"
 LLM_TEMPERATURE = 0.7
 LLM_MAX_TOKENS = 4000
+
+TTS_MODEL = "gpt-4o-mini-tts"
 
 PODCAST_PREFIX = "hn-podcast-en"
 BASE_DIR = "hackernews"
@@ -46,72 +48,63 @@ WORK_DIR = "/tmp/podcast_work"
 EN_STORIES_COUNT = 20
 
 # ---------------------------------------------------------------------------
-# English Voice Pairs — 8 female-male pairs for daily rotation
+# English Voice Pairs — 3 pairs for daily rotation (OpenAI gpt-4o-mini-tts)
+# Each pair has voice IDs, display names, and TTS instructions for style control
 # ---------------------------------------------------------------------------
 EN_VOICE_PAIRS = [
     {
-        "female_voice": "en-US-AriaNeural",
-        "female_name": "Aria",
-        "female_style": "chat",
-        "male_voice": "en-US-DavisNeural",
-        "male_name": "Davis",
-        "male_style": "chat",
+        "female_voice": "marin",
+        "female_name": "Marin",
+        "female_instructions": (
+            "You are a female podcast co-host. Speak in a warm, upbeat, "
+            "conversational tone like you're chatting with a close friend about tech news. "
+            "Be enthusiastic and expressive. Vary your pacing naturally — speed up when excited, "
+            "slow down for emphasis. Use natural pauses between thoughts."
+        ),
+        "male_voice": "cedar",
+        "male_name": "Cedar",
+        "male_instructions": (
+            "You are a male podcast co-host. Speak in a relaxed, thoughtful, "
+            "conversational tone. React naturally to topics with genuine interest and occasional humor. "
+            "Sound like you're having a real conversation, not reading a script. "
+            "Vary your intonation and add natural pauses."
+        ),
     },
     {
-        "female_voice": "en-US-JennyNeural",
-        "female_name": "Jenny",
-        "female_style": "chat",
-        "male_voice": "en-US-GuyNeural",
-        "male_name": "Guy",
-        "male_style": "newscast",
+        "female_voice": "nova",
+        "female_name": "Nova",
+        "female_instructions": (
+            "You are a female podcast co-host. Speak in a warm, upbeat, "
+            "conversational tone like you're chatting with a close friend about tech news. "
+            "Be enthusiastic and expressive. Vary your pacing naturally — speed up when excited, "
+            "slow down for emphasis. Use natural pauses between thoughts."
+        ),
+        "male_voice": "onyx",
+        "male_name": "Onyx",
+        "male_instructions": (
+            "You are a male podcast co-host. Speak in a relaxed, thoughtful, "
+            "conversational tone. React naturally to topics with genuine interest and occasional humor. "
+            "Sound like you're having a real conversation, not reading a script. "
+            "Vary your intonation and add natural pauses."
+        ),
     },
     {
-        "female_voice": "en-US-AvaMultilingualNeural",
-        "female_name": "Ava",
-        "female_style": "chat",
-        "male_voice": "en-US-AndrewMultilingualNeural",
-        "male_name": "Andrew",
-        "male_style": "chat",
-    },
-    {
-        "female_voice": "en-US-EmmaMultilingualNeural",
-        "female_name": "Emma",
-        "female_style": "chat",
-        "male_voice": "en-US-BrianMultilingualNeural",
-        "male_name": "Brian",
-        "male_style": "chat",
-    },
-    {
-        "female_voice": "en-US-NancyMultilingualNeural",
-        "female_name": "Nancy",
-        "female_style": "chat",
-        "male_voice": "en-US-ChristopherMultilingualNeural",
-        "male_name": "Christopher",
-        "male_style": "chat",
-    },
-    {
-        "female_voice": "en-US-AriaNeural",
-        "female_name": "Aria",
-        "female_style": "cheerful",
-        "male_voice": "en-US-DavisNeural",
-        "male_name": "Davis",
-        "male_style": "cheerful",
-    },
-    {
-        "female_voice": "en-US-EmmaMultilingualNeural",
-        "female_name": "Emma",
-        "female_style": "chat",
-        "male_voice": "en-US-DerekMultilingualNeural",
-        "male_name": "Derek",
-        "male_style": "chat",
-    },
-    {
-        "female_voice": "en-US-AriaNeural",
-        "female_name": "Aria",
-        "female_style": "chat",
-        "male_voice": "en-US-DustinMultilingualNeural",
-        "male_name": "Dustin",
-        "male_style": "chat",
+        "female_voice": "coral",
+        "female_name": "Coral",
+        "female_instructions": (
+            "You are a female podcast co-host. Speak in a warm, upbeat, "
+            "conversational tone like you're chatting with a close friend about tech news. "
+            "Be enthusiastic and expressive. Vary your pacing naturally — speed up when excited, "
+            "slow down for emphasis. Use natural pauses between thoughts."
+        ),
+        "male_voice": "ash",
+        "male_name": "Ash",
+        "male_instructions": (
+            "You are a male podcast co-host. Speak in a relaxed, thoughtful, "
+            "conversational tone. React naturally to topics with genuine interest and occasional humor. "
+            "Sound like you're having a real conversation, not reading a script. "
+            "Vary your intonation and add natural pauses."
+        ),
     },
 ]
 
@@ -198,7 +191,10 @@ def build_en_system_prompt(voice_pair: dict) -> str:
         "2. Keep technical terms as-is (e.g., GDPR, API, GrapheneOS, RSS, Git, FPGA, AI, LLM)\n"
         "3. Be engaging with back-and-forth banter, occasional humor, and genuine reactions\n"
         f"4. Each host should have distinct personality — {female_name} is more enthusiastic, "
-        f"{male_name} is more analytical\n\n"
+        f"{male_name} is more analytical\n"
+        "5. Do NOT repeat the speaker's name at the beginning of each line. The names are only "
+        "used in the intro and sign-off. During the conversation, just speak naturally without "
+        "prefixing lines with names.\n\n"
         "Content requirements:\n"
         "1. Try to cover ALL given stories — breadth over depth\n"
         "2. Keep discussion of each story very concise: top stories get 2-3 sentences, "
@@ -257,7 +253,6 @@ def _fix_transcript_tags(text: str) -> str:
                     )
             else:
                 # Missing closing tag — add it
-                # Remove any trailing whitespace
                 stripped = stripped.rstrip()
                 stripped = f"{stripped}</{speaker}>"
 
@@ -388,162 +383,110 @@ def transcript_to_markdown(raw_transcript: str, date_str: str, voice_pair: dict)
 
 
 # ---------------------------------------------------------------------------
-# Step 5: Synthesize audio via Azure Speech TTS (en-US)
+# Step 5: Synthesize audio via OpenAI gpt-4o-mini-tts (per-segment concat)
 # ---------------------------------------------------------------------------
-def _build_en_ssml_chunk(segments: list, voice_pair: dict) -> str:
-    """Build a single SSML document for English voices."""
-    female_voice = voice_pair["female_voice"]
-    female_style = voice_pair["female_style"]
-    male_voice = voice_pair["male_voice"]
-    male_style = voice_pair["male_style"]
-
-    ssml_parts = [
-        '<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="en-US">'
-    ]
-    for speaker, content in segments:
-        content = content.strip()
-        if not content:
-            continue
-        content = content.replace("&", "&amp;")
-        content = content.replace("<", "&lt;")
-        content = content.replace(">", "&gt;")
-        if speaker == "Person1":
-            voice_id, style = female_voice, female_style
-        else:
-            voice_id, style = male_voice, male_style
-        ssml_parts.append(
-            f'  <voice name="{voice_id}">\n'
-            f'    <mstts:express-as xmlns:mstts="http://www.w3.org/2001/mstts" style="{style}">\n'
-            f'      {content}\n'
-            f'    </mstts:express-as>\n'
-            f'  </voice>'
-        )
-    ssml_parts.append('</speak>')
-    return '\n'.join(ssml_parts)
-
-
-def _synthesize_one_chunk(ssml: str, output_path: str, speech_key: str, speech_region: str) -> bool:
-    """Synthesize a single SSML chunk to an MP3 file."""
-    import azure.cognitiveservices.speech as speechsdk
-
-    speech_config = speechsdk.SpeechConfig(subscription=speech_key, region=speech_region)
-    speech_config.set_speech_synthesis_output_format(
-        speechsdk.SpeechSynthesisOutputFormat.Audio48Khz192KBitRateMonoMp3
-    )
-    audio_config = speechsdk.audio.AudioOutputConfig(filename=output_path)
-    synthesizer = speechsdk.SpeechSynthesizer(
-        speech_config=speech_config, audio_config=audio_config
-    )
-
-    result = synthesizer.speak_ssml_async(ssml).get()
-
-    if result.reason == speechsdk.ResultReason.SynthesizingAudioCompleted:
-        return True
-    elif result.reason == speechsdk.ResultReason.Canceled:
-        cancellation = result.cancellation_details
-        print(f"[EN-PODCAST] ERROR: Azure TTS canceled: {cancellation.reason}")
-        if cancellation.error_details:
-            print(f"[EN-PODCAST]   Details: {cancellation.error_details}")
-        return False
-    else:
-        print(f"[EN-PODCAST] ERROR: Azure TTS unexpected result: {result.reason}")
-        return False
-
-
 def synthesize_en_audio(raw_transcript: str, output_mp3: str, voice_pair: dict) -> bool:
-    """Synthesize English audio from transcript using Azure Speech TTS."""
-    MAX_SEGMENTS_PER_CHUNK = 25
+    """Synthesize English audio from transcript using OpenAI gpt-4o-mini-tts.
 
-    try:
-        import azure.cognitiveservices.speech as speechsdk
-    except ImportError:
-        print("[EN-PODCAST] ERROR: azure-cognitiveservices-speech not installed.")
+    Each dialogue segment is synthesized individually with the appropriate voice
+    and instructions, then all segments are concatenated with short pauses.
+    """
+    from openai import OpenAI
+    from pydub import AudioSegment
+
+    tts_key = OPENAI_TTS_KEY
+    if not tts_key:
+        print("[EN-PODCAST] ERROR: OPENAI_TTS_KEY not set")
         return False
 
-    speech_key = AZURE_SPEECH_KEY
-    speech_region = AZURE_SPEECH_REGION
-    if not speech_key:
-        print("[EN-PODCAST] ERROR: AZURE_SPEECH_KEY not set")
-        return False
+    client = OpenAI(
+        api_key=tts_key,
+        base_url="https://api.openai.com/v1",
+    )
 
     all_segments = _parse_dialogue_segments(raw_transcript)
-
     if not all_segments:
         print("[EN-PODCAST] WARNING: No dialogue segments found in transcript")
         return False
 
     total_segments = len(all_segments)
+    total_chars = sum(len(c) for _, c in all_segments)
     print(f"[EN-PODCAST] Total dialogue segments: {total_segments}")
+    print(f"[EN-PODCAST] Total characters: {total_chars}")
 
-    if total_segments <= MAX_SEGMENTS_PER_CHUNK:
-        ssml = _build_en_ssml_chunk(all_segments, voice_pair)
-        print(f"[EN-PODCAST] SSML built: {len(ssml)} chars, {total_segments} segments (single chunk)")
-        print("[EN-PODCAST] Starting Azure TTS synthesis...")
-        t0 = time.time()
-        success = _synthesize_one_chunk(ssml, output_mp3, speech_key, speech_region)
-        elapsed = time.time() - t0
-    else:
-        chunks = []
-        for i in range(0, total_segments, MAX_SEGMENTS_PER_CHUNK):
-            chunks.append(all_segments[i:i + MAX_SEGMENTS_PER_CHUNK])
-        num_chunks = len(chunks)
-        print(f"[EN-PODCAST] Splitting into {num_chunks} chunks ({MAX_SEGMENTS_PER_CHUNK} segments each)")
+    female_voice = voice_pair["female_voice"]
+    male_voice = voice_pair["male_voice"]
+    female_inst = voice_pair["female_instructions"]
+    male_inst = voice_pair["male_instructions"]
 
-        chunk_files = []
-        t0 = time.time()
-        for idx, chunk_segments in enumerate(chunks):
-            chunk_ssml = _build_en_ssml_chunk(chunk_segments, voice_pair)
-            chunk_path = os.path.join(WORK_DIR, f"en_chunk_{idx:02d}.mp3")
-            print(f"[EN-PODCAST]   Chunk {idx + 1}/{num_chunks}: {len(chunk_segments)} segments, {len(chunk_ssml)} chars")
+    seg_dir = os.path.join(WORK_DIR, "en_tts_segments")
+    os.makedirs(seg_dir, exist_ok=True)
 
-            if not _synthesize_one_chunk(chunk_ssml, chunk_path, speech_key, speech_region):
-                print(f"[EN-PODCAST] ERROR: Chunk {idx + 1} failed")
-                return False
+    print(f"[EN-PODCAST] Starting OpenAI TTS synthesis (model={TTS_MODEL})...")
+    t0 = time.time()
+    success_count = 0
 
-            chunk_files.append(chunk_path)
-            print(f"[EN-PODCAST]   Chunk {idx + 1}/{num_chunks} done: {os.path.getsize(chunk_path) / (1024*1024):.1f} MB")
+    for i, (speaker, content) in enumerate(all_segments):
+        voice = female_voice if speaker == "Person1" else male_voice
+        instructions = female_inst if speaker == "Person1" else male_inst
+        seg_path = os.path.join(seg_dir, f"seg_{i:03d}.mp3")
 
-        elapsed = time.time() - t0
+        try:
+            with client.audio.speech.with_streaming_response.create(
+                model=TTS_MODEL,
+                voice=voice,
+                input=content,
+                instructions=instructions,
+                response_format="mp3",
+            ) as response:
+                response.stream_to_file(seg_path)
+            success_count += 1
+            if (i + 1) % 10 == 0 or i == total_segments - 1:
+                print(f"[EN-PODCAST]   Progress: {i + 1}/{total_segments} segments synthesized")
+        except Exception as e:
+            print(f"[EN-PODCAST]   ERROR on segment {i + 1}: {e}")
 
-        print(f"[EN-PODCAST] Concatenating {num_chunks} chunks with ffmpeg...")
-        concat_list = os.path.join(WORK_DIR, "en_concat_list.txt")
-        with open(concat_list, "w") as f:
-            for cf in chunk_files:
-                f.write(f"file '{cf}'\n")
+    gen_time = time.time() - t0
+    print(f"[EN-PODCAST] TTS generation: {gen_time:.1f}s ({success_count}/{total_segments} succeeded)")
 
-        concat_cmd = [
-            "ffmpeg", "-y", "-f", "concat", "-safe", "0",
-            "-i", concat_list, "-c", "copy", output_mp3,
-        ]
-        concat_result = subprocess.run(concat_cmd, capture_output=True, text=True)
-        if concat_result.returncode != 0:
-            print(f"[EN-PODCAST] ERROR: ffmpeg concat failed: {concat_result.stderr}")
-            return False
+    if success_count < total_segments * 0.8:
+        print(f"[EN-PODCAST] ERROR: Too many failures ({total_segments - success_count}/{total_segments})")
+        return False
 
-        for cf in chunk_files:
-            os.remove(cf)
-        os.remove(concat_list)
+    # Concatenate all segments with short pauses
+    print(f"[EN-PODCAST] Concatenating {success_count} segments...")
+    t1 = time.time()
+    combined = AudioSegment.empty()
+    pause = AudioSegment.silent(duration=300)  # 300ms pause between segments
 
-        success = True
+    for i in range(total_segments):
+        seg_path = os.path.join(seg_dir, f"seg_{i:03d}.mp3")
+        if os.path.exists(seg_path) and os.path.getsize(seg_path) > 0:
+            audio = AudioSegment.from_mp3(seg_path)
+            if len(combined) > 0:
+                combined += pause
+            combined += audio
 
-    if success:
-        mp3_size = os.path.getsize(output_mp3) / (1024 * 1024)
-        probe = subprocess.run(
-            [
-                "ffprobe", "-v", "quiet",
-                "-show_entries", "format=duration",
-                "-of", "default=noprint_wrappers=1:nokey=1",
-                output_mp3,
-            ],
-            capture_output=True, text=True,
-        )
-        duration = float(probe.stdout.strip()) if probe.stdout.strip() else 0
-        print(f"[EN-PODCAST] Azure TTS completed in {elapsed:.1f}s")
-        print(f"[EN-PODCAST]   Duration: {duration:.0f}s ({duration / 60:.1f} min)")
-        print(f"[EN-PODCAST]   Size: {mp3_size:.1f} MB")
-        return True
+    combined.export(output_mp3, format="mp3", bitrate="160k")
+    concat_time = time.time() - t1
 
-    return False
+    # Clean up segment files
+    for i in range(total_segments):
+        seg_path = os.path.join(seg_dir, f"seg_{i:03d}.mp3")
+        if os.path.exists(seg_path):
+            os.remove(seg_path)
+
+    duration = len(combined) / 1000
+    mp3_size = os.path.getsize(output_mp3) / (1024 * 1024)
+    tts_cost = total_chars * 15 / 1_000_000  # $15 per 1M characters
+
+    print(f"[EN-PODCAST] Concat time: {concat_time:.1f}s")
+    print(f"[EN-PODCAST] OpenAI TTS completed in {gen_time + concat_time:.1f}s")
+    print(f"[EN-PODCAST]   Duration: {duration:.0f}s ({duration / 60:.1f} min)")
+    print(f"[EN-PODCAST]   Size: {mp3_size:.1f} MB")
+    print(f"[EN-PODCAST]   TTS cost: ${tts_cost:.4f}")
+
+    return True
 
 
 # ---------------------------------------------------------------------------
@@ -555,8 +498,8 @@ def upload_to_release(files: list, target_date: datetime, repo: str = "") -> boo
     title = f"HN Podcast - {target_date.strftime('%B %Y')}"
     body = (
         f"Daily HN podcast audio and transcripts for {target_date.strftime('%B %Y')}.\n\n"
-        "Includes Chinese (two parts) and English editions.\n\n"
-        "Audio: Azure Speech TTS"
+        "Includes Chinese and English editions.\n\n"
+        "Chinese audio: Azure Speech TTS | English audio: OpenAI gpt-4o-mini-tts"
     )
 
     repo_args = ["--repo", repo] if repo else []
@@ -675,7 +618,7 @@ def generate_en_podcast(
     print(f"[EN-PODCAST] Transcript saved: {transcript_path}")
 
     # --- Synthesize audio ---
-    print(f"\n[EN-PODCAST] Synthesizing audio via Azure Speech TTS (en-US)...")
+    print(f"\n[EN-PODCAST] Synthesizing audio via OpenAI gpt-4o-mini-tts...")
     mp3_filename = f"{PODCAST_PREFIX}-{date_tag}.mp3"
     mp3_path = os.path.join(WORK_DIR, mp3_filename)
     success = synthesize_en_audio(raw_transcript, mp3_path, voice_pair)
