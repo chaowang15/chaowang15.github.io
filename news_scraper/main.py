@@ -990,6 +990,41 @@ def main():
                 print(f"[WARN] English podcast generation failed (non-fatal): {e}")
                 import traceback
                 traceback.print_exc()
+            # --- Re-render best stories page & index to include podcast players ---
+            try:
+                tz_name = cfg["timezone"]
+                content_dt_re = now_in_tz(tz_name) - timedelta(days=1)
+                date_dir = content_dt_re.strftime("%Y/%m/%d")
+                date_suffix = content_dt_re.strftime("%m%d%Y")
+                json_path_re = os.path.join(base_dir, date_dir, f"best_stories_{date_suffix}.json")
+                out_path_re = os.path.join(base_dir, date_dir, f"best_stories_{date_suffix}.md")
+
+                if os.path.exists(json_path_re):
+                    backup_re = read_backup_json(json_path_re)
+                    items_re = backup_re["items"]
+                    page_title_re = f"Hacker News \u2014 Daily Best ({content_dt_re.strftime('%Y-%m-%d')})"
+                    md_re = render_markdown(
+                        items_re,
+                        page_title=page_title_re,
+                        page_subtitle="",
+                        html_title=page_title_re,
+                    )
+                    md_re = _clean_hn_markdown(md_re)
+                    with open(out_path_re, "w", encoding="utf-8") as f:
+                        f.write(md_re)
+                    print(f"[POST-PODCAST] Re-rendered best stories page: {out_path_re}")
+
+                # Re-render index page
+                update_hackernews_index(
+                    base_dir=base_dir,
+                    index_path=index_path,
+                    max_items=30,
+                )
+                print(f"[POST-PODCAST] Re-rendered index page: {index_path}")
+            except Exception as e:
+                print(f"[WARN] Post-podcast re-render failed (non-fatal): {e}")
+                import traceback
+                traceback.print_exc()
         else:
             print("[PODCAST] Podcast generation disabled in config")
 

@@ -1,11 +1,11 @@
 """
 Podcast Generator — Generate daily Chinese podcast from HN Daily Best stories.
 
-Pipeline (runs twice per day — Part 1 and Part 2):
+Pipeline:
   1. Load today's best_stories JSON
-  2. Split stories into Part 1 (stories 1-20) and Part 2 (stories 21-40)
+  2. Take the top 25 stories
   3. Randomly select a voice pair for today
-  4. For each part: generate Chinese dialogue transcript via LLM (gpt-4.1-mini)
+  4. Generate Chinese dialogue transcript via LLM (gpt-4.1-mini)
   5. Convert raw transcript to reading-friendly Markdown
   6. Synthesize audio via Azure Speech TTS (SSML multi-speaker)
   7. Upload MP3 + transcript to GitHub Releases (monthly release, daily append)
@@ -48,8 +48,8 @@ BASE_DIR = "hackernews"
 # Temporary working directory for intermediate files
 WORK_DIR = "/tmp/podcast_work"
 
-# Two-part split: each part covers 20 stories, total 40
-STORIES_PER_PART = 20
+# Chinese podcast: single episode, top 25 stories
+CN_STORIES_COUNT = 25
 
 # ---------------------------------------------------------------------------
 # Voice Pairs — 9 female-male pairs for random daily rotation
@@ -179,21 +179,11 @@ def load_news_items(json_path: str) -> tuple:
 # ---------------------------------------------------------------------------
 # Step 2: Prepare text input for LLM
 # ---------------------------------------------------------------------------
-def prepare_news_text(items: list, date_str: str, part_num: int = 1) -> str:
-    """Format news items into a text block for LLM input.
-
-    Args:
-        items: List of news items (already sliced for this part).
-        date_str: Human-readable date string.
-        part_num: 1 or 2 (Part 1 = top stories, Part 2 = more stories).
-    """
-    part_label = "上半场" if part_num == 1 else "下半场"
-    offset = 0 if part_num == 1 else STORIES_PER_PART
-
+def prepare_news_text(items: list, date_str: str) -> str:
+    """Format news items into a text block for LLM input."""
     lines = [
-        f"Hacker News Daily Best Stories — {date_str} ({part_label})",
-        f"The following is Part {part_num} of today's top stories from "
-        f"Hacker News on {date_str} (stories {offset + 1}-{offset + len(items)}).",
+        f"Hacker News Daily Best Stories — {date_str}",
+        f"The following are the top {len(items)} stories from Hacker News on {date_str}.",
         "",
     ]
     for i, item in enumerate(items, 1):
@@ -201,7 +191,7 @@ def prepare_news_text(items: list, date_str: str, part_num: int = 1) -> str:
         summary = item.get("summary_en", "No summary available.")
         score = item.get("hn", {}).get("score", 0)
         comments = item.get("hn", {}).get("descendants", 0)
-        lines.append(f"Story {offset + i}: {title}")
+        lines.append(f"Story {i}: {title}")
         lines.append(f"Votes: {score}, Comments: {comments}")
         lines.append(f"Summary: {summary}")
         lines.append("")
@@ -211,30 +201,18 @@ def prepare_news_text(items: list, date_str: str, part_num: int = 1) -> str:
 # ---------------------------------------------------------------------------
 # Step 3: Generate Chinese dialogue transcript via LLM
 # ---------------------------------------------------------------------------
-def build_system_prompt(voice_pair: dict, part_num: int = 1) -> str:
+def build_system_prompt(voice_pair: dict) -> str:
     """Build the LLM system prompt with the selected voice pair names."""
     female_name = voice_pair["female_name"]
     male_name = voice_pair["male_name"]
-
-    if part_num == 1:
-        part_intro = (
-            "这是今天的上半场节目，涵盖排名最靠前的新闻。\n"
-            "开场：简短介绍今天的精选概况，说明这是上半场。\n"
-            "结尾：简短预告下半场还有更多精彩内容，不要说再见。"
-        )
-    else:
-        part_intro = (
-            "这是今天的下半场节目，涵盖更多精彩新闻。\n"
-            "开场：简短说明这是下半场，直接进入新闻。\n"
-            "结尾：简短总结今天的全部内容并告别。"
-        )
 
     return f"""你是一个专业的播客脚本编剧。你需要将一组 Hacker News 每日精选新闻转化为一段双人对话形式的播客脚本。
 
 播客名称：HN Daily Best（HN 每日精选）
 主持人：{female_name}（女，活泼开朗）和{male_name}（男，沉稳有见解）
 
-{part_intro}
+开场：简短介绍今天的精选概况。
+结尾：简短总结今天的内容并告别。
 
 语言风格要求：
 1. 主体语言用中文，语气自然、口语化，像两个科技爱好者在聊天
@@ -247,35 +225,45 @@ def build_system_prompt(voice_pair: dict, part_num: int = 1) -> str:
 1. 尽量涵盖所有给出的新闻故事，覆盖面优先
 2. 每个故事的讨论要非常简洁精炼：排名靠前的 1-3 句话，排名靠后的 1 句话快速带过
 3. 两人要有互动、有观点碰撞、偶尔有幽默
-4. 总字数严格控制在 2500 字以内（约 6-7 分钟音频），这是硬性上限，宁可每个故事少说几句也不要超字数
+4. 总字数严格控制在 2800 字以内（约 7-8 分钟音频），这是硬性上限，宁可每个故事少说几句也不要超字数
 
 输出格式：
 严格使用 <Person1> 和 <Person2> 标签包裹每段对话。
 Person1 = {female_name}（女主持）
 Person2 = {male_name}（男主持）
 
+关键格式规则（必须严格遵守）：
+- 每一行对话必须同时有开始标签和结束标签
+- 开始和结束标签必须匹配：<Person1>文字</Person1> 或 <Person2>文字</Person2>
+- 绝对不要遗漏结束标签
+- 绝对不要使用不匹配的标签，如 <Person1>文字</Person2>
+- 每对标签只包含一个人的一段话
+- 不要使用任何其他格式（不要用 Markdown 粗体、不要加名字前缀）
+- 对话内容中不要重复说出主持人的名字（例如不要写"我是{female_name}"或"{male_name}你觉得呢"），只在开场自我介绍时提一次名字即可
+
 示例：
 <Person1>大家好，欢迎收听 HN Daily Best！我是{female_name}。</Person1>
 <Person2>我是{male_name}。今天的 Hacker News 精选真的很精彩，我们赶紧开始吧！</Person2>
+<Person1>今天第一条新闻是关于一个 Python 供应链攻击的。</Person1>
+<Person2>没错，这再次提醒我们要仔细检查依赖包的来源。</Person2>
 """
 
 
-def generate_transcript(news_text: str, voice_pair: dict, part_num: int = 1) -> str:
+def generate_transcript(news_text: str, voice_pair: dict) -> str:
     """Generate Chinese-English mixed podcast transcript using OpenAI LLM."""
     from openai import OpenAI
 
     client = OpenAI()  # Uses OPENAI_API_KEY env var
 
-    system_prompt = build_system_prompt(voice_pair, part_num)
+    system_prompt = build_system_prompt(voice_pair)
 
-    part_label = "上半场" if part_num == 1 else "下半场"
     user_prompt = (
-        f"请根据以下 Hacker News 每日精选新闻数据（{part_label}），"
+        "请根据以下 Hacker News 每日精选新闻数据，"
         "生成一段中英混合的双人播客对话脚本：\n\n"
         f"{news_text}"
     )
 
-    print(f"[PODCAST] Generating Chinese transcript via LLM (Part {part_num})...")
+    print("[PODCAST] Generating Chinese transcript via LLM...")
     t0 = time.time()
 
     response = client.chat.completions.create(
@@ -306,51 +294,61 @@ def generate_transcript(news_text: str, voice_pair: dict, part_num: int = 1) -> 
 # ---------------------------------------------------------------------------
 # Step 4: Convert raw transcript to reading-friendly Markdown
 # ---------------------------------------------------------------------------
-def transcript_to_markdown(raw_transcript: str, date_str: str, voice_pair: dict,
-                           part_num: int = 1) -> str:
+def _parse_dialogue_segments(text: str) -> list:
+    """Parse dialogue segments from transcript, with fallback for edge cases.
+
+    Returns list of (speaker, content) tuples.
+    """
+    # Primary: match properly tagged segments
+    pattern = r"<(Person[12])>(.*?)</\1>"
+    segments = re.findall(pattern, text, re.DOTALL)
+    segments = [(s, c.strip()) for s, c in segments if c.strip()]
+
+    if len(segments) >= 5:
+        return segments
+
+    # Fallback: try matching any <PersonX> opening tag and grab content until next tag
+    print(f"[PODCAST] WARNING: Only {len(segments)} matched segments, trying fallback parser")
+    fallback_segments = []
+    parts = re.split(r"<(Person[12])>", text)
+    i = 1
+    while i < len(parts) - 1:
+        speaker = parts[i]
+        content = parts[i + 1]
+        content = re.sub(r"</(Person[12])>", "", content).strip()
+        if content:
+            fallback_segments.append((speaker, content))
+        i += 2
+
+    print(f"[PODCAST] Fallback parser found {len(fallback_segments)} segments")
+    return fallback_segments
+
+
+def transcript_to_markdown(raw_transcript: str, date_str: str, voice_pair: dict) -> str:
     """Convert <Person1>/<Person2> tagged transcript to readable Markdown."""
     female_name = voice_pair["female_name"]
     male_name = voice_pair["male_name"]
 
-    part_label = "上半场" if part_num == 1 else "下半场"
     lines = [
-        f"# HN 每日精选播客（{part_label}） — {date_str}",
+        f"# HN 每日精选播客 — {date_str}",
         "",
-        f"> HN Daily Best — Part {part_num}",
-        "",
-        f"**主持人：** {female_name}（女主持）和{male_name}（男主持）",
+        f"> HN Daily Best Podcast — {date_str}",
+        f"> 主持人：{female_name} & {male_name}",
         "",
         "---",
         "",
     ]
 
-    # Parse dialogue segments
-    pattern = r"<(Person[12])>(.*?)</\1>"
-    segments = re.findall(pattern, raw_transcript, re.DOTALL)
+    segments = _parse_dialogue_segments(raw_transcript)
 
-    current_story = None
     for speaker, content in segments:
         content = content.strip()
         if not content:
             continue
-
-        # Detect story transitions
-        story_match = re.search(
-            r"(?:第\s*(\d+)\s*条|Story\s*(\d+)|第(\d+)个)", content
-        )
-        if story_match:
-            num = story_match.group(1) or story_match.group(2) or story_match.group(3)
-            if num != current_story:
-                current_story = num
-                lines.append("")
-                lines.append("---")
-                lines.append("")
-
         name = female_name if speaker == "Person1" else male_name
         lines.append(f"**{name}：** {content}")
         lines.append("")
 
-    # Add footer
     lines.extend([
         "---",
         "",
@@ -447,9 +445,7 @@ def synthesize_audio(raw_transcript: str, output_mp3: str, voice_pair: dict) -> 
         return False
 
     # Parse all dialogue segments
-    pattern = r"<(Person[12])>(.*?)</\1>"
-    all_segments = re.findall(pattern, raw_transcript, re.DOTALL)
-    all_segments = [(s, c.strip()) for s, c in all_segments if c.strip()]
+    all_segments = _parse_dialogue_segments(raw_transcript)
 
     if not all_segments:
         print("[PODCAST] WARNING: No dialogue segments found in transcript")
@@ -547,11 +543,8 @@ def upload_to_release(files: list, target_date: datetime, repo: str = "") -> boo
     title = f"HN Podcast - {target_date.strftime('%B %Y')}"
     body = (
         f"Daily HN podcast audio and transcripts for {target_date.strftime('%B %Y')}.\n\n"
-        "Each day includes two parts:\n"
-        "- Part 1: Top stories (hn-podcast-YYYY-MM-DD-part1.mp3)\n"
-        "- Part 2: More stories (hn-podcast-YYYY-MM-DD-part2.mp3)\n"
-        "- Markdown transcripts for each part\n\n"
-        "Audio: Chinese, Azure Speech TTS"
+        "Includes Chinese and English editions.\n\n"
+        "Audio: Azure Speech TTS"
     )
 
     repo_args = ["--repo", repo] if repo else []
@@ -607,109 +600,6 @@ def upload_to_release(files: list, target_date: datetime, repo: str = "") -> boo
 
 
 # ---------------------------------------------------------------------------
-# Generate one part of the podcast
-# ---------------------------------------------------------------------------
-def _generate_one_part(
-    items: list,
-    date_str: str,
-    date_tag: str,
-    voice_pair: dict,
-    part_num: int,
-    target_date: datetime,
-    skip_upload: bool,
-    repo: str,
-) -> dict:
-    """Generate one part (Part 1 or Part 2) of the daily podcast.
-
-    Returns a dict with paths and metadata, or empty dict on failure.
-    """
-    part_label = f"Part {part_num}"
-    part_suffix = f"part{part_num}"
-
-    print(f"\n{'─' * 50}")
-    print(f"[PODCAST] === Generating {part_label} ({len(items)} stories) ===")
-    print(f"{'─' * 50}")
-
-    # --- Prepare news text ---
-    news_text = prepare_news_text(items, date_str, part_num)
-    print(f"[PODCAST] News text ({part_label}): {len(news_text)} characters")
-
-    # --- Generate transcript ---
-    raw_transcript = generate_transcript(news_text, voice_pair, part_num)
-
-    # --- Validate and fix transcript tags ---
-    from transcript_validator import validate_transcript
-    raw_transcript = validate_transcript(raw_transcript, label="PODCAST")
-
-    # Save raw transcript (after validation)
-    raw_path = os.path.join(WORK_DIR, f"transcript_raw_{date_tag}_{part_suffix}.txt")
-    with open(raw_path, "w", encoding="utf-8") as f:
-        f.write(raw_transcript)
-
-    # --- Convert to Markdown ---
-    md_transcript = transcript_to_markdown(raw_transcript, date_str, voice_pair, part_num)
-
-    transcript_filename = f"{PODCAST_PREFIX}-{date_tag}-{part_suffix}-transcript.md"
-    transcript_path = os.path.join(WORK_DIR, transcript_filename)
-    with open(transcript_path, "w", encoding="utf-8") as f:
-        f.write(md_transcript)
-    print(f"[PODCAST] Transcript saved: {transcript_path}")
-
-    # --- Synthesize audio ---
-    print(f"\n[PODCAST] Synthesizing audio ({part_label}) via Azure Speech TTS...")
-    mp3_filename = f"{PODCAST_PREFIX}-{date_tag}-{part_suffix}.mp3"
-    mp3_path = os.path.join(WORK_DIR, mp3_filename)
-    success = synthesize_audio(raw_transcript, mp3_path, voice_pair)
-    if not success:
-        print(f"[PODCAST] Audio synthesis failed for {part_label}")
-        return {}
-
-    # --- Upload ---
-    release_tag = f"podcast-{target_date.strftime('%Y-%m')}"
-    upload_files = [mp3_path, transcript_path]
-
-    if skip_upload:
-        print(f"[PODCAST] Skipping upload for {part_label} (--skip-upload)")
-    else:
-        print(f"[PODCAST] Uploading {part_label} to GitHub Releases...")
-        upload_success = upload_to_release(upload_files, target_date, repo=repo)
-        if not upload_success:
-            print(f"[PODCAST] WARNING: Upload failed for {part_label}, files saved locally")
-
-    # Determine download URL
-    detect = subprocess.run(
-        ["gh", "repo", "view", "--json", "nameWithOwner", "-q", ".nameWithOwner"],
-        capture_output=True, text=True,
-    )
-    url_repo = detect.stdout.strip() if detect.returncode == 0 else repo
-    if not url_repo:
-        url_repo = "chaowang15/chaowang15.github.io"
-
-    mp3_url = (
-        f"https://github.com/{url_repo}/releases/download/"
-        f"{release_tag}/{mp3_filename}"
-    )
-    transcript_url = (
-        f"https://github.com/{url_repo}/releases/download/"
-        f"{release_tag}/{transcript_filename}"
-    )
-
-    mp3_size = os.path.getsize(mp3_path) / (1024 * 1024)
-
-    return {
-        "part": part_num,
-        "mp3_path": mp3_path,
-        "mp3_filename": mp3_filename,
-        "mp3_url": mp3_url,
-        "transcript_path": transcript_path,
-        "transcript_filename": transcript_filename,
-        "transcript_url": transcript_url,
-        "release_tag": release_tag,
-        "size_mb": mp3_size,
-    }
-
-
-# ---------------------------------------------------------------------------
 # Main pipeline
 # ---------------------------------------------------------------------------
 def generate_daily_podcast(
@@ -718,9 +608,9 @@ def generate_daily_podcast(
     skip_upload: bool = False,
     repo: str = "",
 ) -> dict:
-    """Run the full podcast generation pipeline (two parts).
+    """Run the full Chinese podcast generation pipeline (single episode).
 
-    Returns a dict with paths and metadata for both parts, or empty dict on failure.
+    Returns a dict with paths and metadata, or empty dict on failure.
     """
     t_start = time.time()
 
@@ -729,7 +619,7 @@ def generate_daily_podcast(
 
     date_tag = target_date.strftime("%Y-%m-%d")
     print(f"\n{'=' * 60}")
-    print(f"[PODCAST] Generating podcast for {date_tag} (2 parts)")
+    print(f"[PODCAST] Generating Chinese podcast for {date_tag}")
     print(f"{'=' * 60}")
 
     # Ensure work directory
@@ -753,44 +643,67 @@ def generate_daily_podcast(
         return {}
     print(f"[PODCAST] Loaded {len(items)} stories from {json_path}")
 
-    # --- Step 2: Split into two parts ---
-    total_stories = min(len(items), STORIES_PER_PART * 2)  # Use at most 40 stories
-    part1_items = items[:STORIES_PER_PART]
-    part2_items = items[STORIES_PER_PART:total_stories]
+    # Take top 25 stories
+    items = items[:CN_STORIES_COUNT]
+    print(f"[PODCAST] Using top {len(items)} stories")
 
-    print(f"[PODCAST] Splitting: Part 1 = {len(part1_items)} stories, Part 2 = {len(part2_items)} stories")
+    # --- Step 2: Prepare news text ---
+    news_text = prepare_news_text(items, date_str)
+    print(f"[PODCAST] News text: {len(news_text)} characters")
 
-    if len(part2_items) == 0:
-        print("[PODCAST] Not enough stories for Part 2, generating Part 1 only")
+    # --- Step 3: Generate transcript ---
+    raw_transcript = generate_transcript(news_text, voice_pair)
 
-    # --- Generate each part ---
-    results = {}
-    release_tag = f"podcast-{target_date.strftime('%Y-%m')}"
+    # --- Validate and fix transcript tags ---
+    from transcript_validator import validate_transcript
+    raw_transcript = validate_transcript(raw_transcript, label="PODCAST")
 
-    for part_num, part_items in [(1, part1_items), (2, part2_items)]:
-        if not part_items:
-            continue
+    # Save raw transcript (after validation)
+    raw_path = os.path.join(WORK_DIR, f"transcript_raw_{date_tag}.txt")
+    with open(raw_path, "w", encoding="utf-8") as f:
+        f.write(raw_transcript)
 
-        part_result = _generate_one_part(
-            items=part_items,
-            date_str=date_str,
-            date_tag=date_tag,
-            voice_pair=voice_pair,
-            part_num=part_num,
-            target_date=target_date,
-            skip_upload=skip_upload,
-            repo=repo,
-        )
+    # --- Step 4: Convert to Markdown ---
+    md_transcript = transcript_to_markdown(raw_transcript, date_str, voice_pair)
 
-        if not part_result:
-            print(f"[PODCAST] Part {part_num} failed, continuing with other parts...")
-            continue
+    transcript_filename = f"{PODCAST_PREFIX}-{date_tag}-transcript.md"
+    transcript_path = os.path.join(WORK_DIR, transcript_filename)
+    with open(transcript_path, "w", encoding="utf-8") as f:
+        f.write(md_transcript)
+    print(f"[PODCAST] Transcript saved: {transcript_path}")
 
-        results[f"part{part_num}"] = part_result
-
-    if not results:
-        print("[PODCAST] All parts failed")
+    # --- Step 5: Synthesize audio ---
+    print(f"\n[PODCAST] Synthesizing audio via Azure Speech TTS...")
+    mp3_filename = f"{PODCAST_PREFIX}-{date_tag}.mp3"
+    mp3_path = os.path.join(WORK_DIR, mp3_filename)
+    success = synthesize_audio(raw_transcript, mp3_path, voice_pair)
+    if not success:
+        print("[PODCAST] Audio synthesis failed")
         return {}
+
+    # --- Step 6: Upload ---
+    release_tag = f"podcast-{target_date.strftime('%Y-%m')}"
+    upload_files = [mp3_path, transcript_path]
+
+    if skip_upload:
+        print("[PODCAST] Skipping upload (--skip-upload)")
+    else:
+        print("[PODCAST] Uploading to GitHub Releases...")
+        upload_success = upload_to_release(upload_files, target_date, repo=repo)
+        if not upload_success:
+            print("[PODCAST] WARNING: Upload failed, files saved locally")
+
+    # Determine download URL
+    detect = subprocess.run(
+        ["gh", "repo", "view", "--json", "nameWithOwner", "-q", ".nameWithOwner"],
+        capture_output=True, text=True,
+    )
+    url_repo = detect.stdout.strip() if detect.returncode == 0 else repo
+    if not url_repo:
+        url_repo = "chaowang15/chaowang15.github.io"
+
+    mp3_url = f"https://github.com/{url_repo}/releases/download/{release_tag}/{mp3_filename}"
+    mp3_size = os.path.getsize(mp3_path) / (1024 * 1024)
 
     # --- Create .podcast marker file ---
     marker_dir = os.path.join(
@@ -801,15 +714,12 @@ def generate_daily_podcast(
     marker_path = os.path.join(marker_dir, ".podcast")
 
     marker_lines = [
-        f"parts={len(results)}",
         f"release={release_tag}",
         f"female={voice_pair['female_name']}",
         f"male={voice_pair['male_name']}",
+        f"mp3={mp3_filename}",
+        f"transcript={transcript_filename}",
     ]
-    for key, part_data in sorted(results.items()):
-        pn = part_data["part"]
-        marker_lines.append(f"mp3_part{pn}={part_data['mp3_filename']}")
-        marker_lines.append(f"transcript_part{pn}={part_data['transcript_filename']}")
 
     with open(marker_path, "w") as f:
         f.write("\n".join(marker_lines) + "\n")
@@ -817,24 +727,22 @@ def generate_daily_podcast(
 
     # --- Summary ---
     elapsed = time.time() - t_start
-    total_size = sum(r["size_mb"] for r in results.values())
-
     print(f"\n{'=' * 60}")
     print(f"[PODCAST] DONE! Total time: {elapsed:.1f}s")
     print(f"[PODCAST]   Voice: {voice_pair['female_name']} + {voice_pair['male_name']}")
-    print(f"[PODCAST]   Parts generated: {len(results)}")
-    for key, part_data in sorted(results.items()):
-        print(f"[PODCAST]   {key}: {part_data['mp3_filename']} ({part_data['size_mb']:.1f} MB)")
-    print(f"[PODCAST]   Total size: {total_size:.1f} MB")
+    print(f"[PODCAST]   File: {mp3_filename} ({mp3_size:.1f} MB)")
+    print(f"[PODCAST]   URL: {mp3_url}")
     print(f"{'=' * 60}")
 
     return {
         "date": date_tag,
         "release_tag": release_tag,
         "voice_pair": voice_pair,
-        "parts": results,
-        # Convenience: first part's URL for backward compatibility
-        "mp3_url": results.get("part1", {}).get("mp3_url", ""),
+        "mp3_path": mp3_path,
+        "mp3_filename": mp3_filename,
+        "mp3_url": mp3_url,
+        "transcript_path": transcript_path,
+        "size_mb": mp3_size,
     }
 
 
@@ -884,9 +792,7 @@ def main():
         print("[PODCAST] Pipeline failed")
         sys.exit(1)
 
-    print(f"\n[PODCAST] Success! MP3 URLs:")
-    for key, part_data in sorted(result.get("parts", {}).items()):
-        print(f"[PODCAST]   {key}: {part_data['mp3_url']}")
+    print(f"\n[PODCAST] Success! MP3: {result['mp3_url']}")
 
 
 if __name__ == "__main__":

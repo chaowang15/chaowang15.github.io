@@ -66,7 +66,7 @@ def _parse_podcast_marker(marker_path: str) -> dict:
 def _build_podcast_player_html(date_str: str, mode: str) -> str:
     """Build inline podcast player HTML for daily best pages.
 
-    Supports two-part podcasts (Part 1 + Part 2) as well as legacy single-file.
+    Displays English podcast first, then Chinese podcast.
     Returns empty string if mode is not 'best', date is invalid,
     or no .podcast marker file exists for this date.
     """
@@ -90,13 +90,11 @@ def _build_podcast_player_html(date_str: str, mode: str) -> str:
     release_tag = f"podcast-{dt.strftime('%Y-%m')}"
     date_display = dt.strftime("%B %d, %Y")
 
-    # Parse marker to determine format (two-part vs legacy single)
     marker_info = _parse_podcast_marker(marker_path)
-    num_parts = int(marker_info.get("parts", "0"))
 
     # Read voice names from marker
-    female_name = marker_info.get("female", "晓晓")
-    male_name = marker_info.get("male", "云希")
+    female_name = marker_info.get("female", "\u6653\u6653")
+    male_name = marker_info.get("male", "\u4e91\u5e0c")
 
     lines = []
     lines.append("<div class='hn-podcast-inline'>")
@@ -121,36 +119,17 @@ def _build_podcast_player_html(date_str: str, mode: str) -> str:
         lines.append("</audio>")
         lines.append("</div>")
 
-    # --- Chinese podcast players ---
-    if num_parts >= 2:
-        # Two-part podcast player
-        for pn in range(1, num_parts + 1):
-            part_label = "\u4e0a\u534a\u573a" if pn == 1 else "\u4e0b\u534a\u573a"
-            mp3_filename = marker_info.get(f"mp3_part{pn}", f"hn-podcast-{date_tag}-part{pn}.mp3")
-            mp3_url = f"https://github.com/{repo}/releases/download/{release_tag}/{mp3_filename}"
-
-            lines.append("<div class='hn-podcast-player'>")
-            lines.append("<div class='hn-podcast-header'>")
-            lines.append("<span class='hn-podcast-icon'>\U0001F399</span>")
-            lines.append("<div class='hn-podcast-info'>")
-            lines.append(f"<p class='hn-podcast-title'>\U0001F3A7 Daily Podcast ({part_label}) \u2014 {date_display}</p>")
-            lines.append(f"<p class='hn-podcast-meta'>\u4E2D\u6587\u64AD\u5BA2 \u00B7 AI \u751F\u6210 \u00B7 {female_name} &amp; {male_name}</p>")
-            lines.append("</div>")
-            lines.append("</div>")
-            lines.append(f"<audio class='hn-podcast-audio' controls preload='metadata'>")
-            lines.append(f"<source src='{mp3_url}' type='audio/mpeg'>")
-            lines.append("</audio>")
-            lines.append("</div>")
-    else:
-        # Legacy single-file podcast player
-        mp3_filename = marker_info.get("mp3", f"hn-podcast-{date_tag}.mp3")
+    # --- Chinese podcast player (single episode) ---
+    # Support both new format (mp3=...) and legacy two-part format (mp3_part1=...)
+    mp3_filename = marker_info.get("mp3", "") or marker_info.get("mp3_part1", "")
+    if mp3_filename:
         mp3_url = f"https://github.com/{repo}/releases/download/{release_tag}/{mp3_filename}"
 
         lines.append("<div class='hn-podcast-player'>")
         lines.append("<div class='hn-podcast-header'>")
         lines.append("<span class='hn-podcast-icon'>\U0001F399</span>")
         lines.append("<div class='hn-podcast-info'>")
-        lines.append(f"<p class='hn-podcast-title'>\U0001F3A7 Daily Podcast \u2014 {date_display}</p>")
+        lines.append(f"<p class='hn-podcast-title'>\U0001F3A7 \u6BCF\u65E5\u64AD\u5BA2 (\u4E2D\u6587) \u2014 {date_display}</p>")
         lines.append(f"<p class='hn-podcast-meta'>\u4E2D\u6587\u64AD\u5BA2 \u00B7 AI \u751F\u6210 \u00B7 {female_name} &amp; {male_name}</p>")
         lines.append("</div>")
         lines.append("</div>")
