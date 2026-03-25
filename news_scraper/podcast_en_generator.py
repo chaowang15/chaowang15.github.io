@@ -46,7 +46,7 @@ WORK_DIR = "/tmp/podcast_work"
 EN_STORIES_COUNT = 20
 
 # ---------------------------------------------------------------------------
-# English Voice Pairs — 6 female-male pairs for daily rotation
+# English Voice Pairs — 8 female-male pairs for daily rotation
 # ---------------------------------------------------------------------------
 EN_VOICE_PAIRS = [
     {
@@ -96,6 +96,22 @@ EN_VOICE_PAIRS = [
         "male_voice": "en-US-DavisNeural",
         "male_name": "Davis",
         "male_style": "cheerful",
+    },
+    {
+        "female_voice": "en-US-EmmaMultilingualNeural",
+        "female_name": "Emma",
+        "female_style": "chat",
+        "male_voice": "en-US-DerekMultilingualNeural",
+        "male_name": "Derek",
+        "male_style": "chat",
+    },
+    {
+        "female_voice": "en-US-AriaNeural",
+        "female_name": "Aria",
+        "female_style": "chat",
+        "male_voice": "en-US-DustinMultilingualNeural",
+        "male_name": "Dustin",
+        "male_style": "chat",
     },
 ]
 

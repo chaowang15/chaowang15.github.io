@@ -52,7 +52,7 @@ WORK_DIR = "/tmp/podcast_work"
 STORIES_PER_PART = 20
 
 # ---------------------------------------------------------------------------
-# Voice Pairs — 6 female-male pairs for random daily rotation
+# Voice Pairs — 9 female-male pairs for random daily rotation
 # Each pair: (female_voice_id, female_name, female_style,
 #             male_voice_id, male_name, male_style)
 # ---------------------------------------------------------------------------
@@ -104,6 +104,30 @@ VOICE_PAIRS = [
         "male_voice": "zh-CN-YunfengNeural",
         "male_name": "云枫",
         "male_style": "cheerful",
+    },
+    {
+        "female_voice": "zh-CN-XiaochenNeural",
+        "female_name": "晓辰",
+        "female_style": "chat",
+        "male_voice": "zh-CN-YunyeNeural",
+        "male_name": "云野",
+        "male_style": "chat",
+    },
+    {
+        "female_voice": "zh-CN-XiaoxiaoNeural",
+        "female_name": "晓晓",
+        "female_style": "chat",
+        "male_voice": "zh-CN-YunyiMultilingualNeural",
+        "male_name": "云逸",
+        "male_style": "chat",
+    },
+    {
+        "female_voice": "zh-CN-XiaoyuMultilingualNeural",
+        "female_name": "晓语",
+        "female_style": "chat",
+        "male_voice": "zh-CN-YunjianNeural",
+        "male_name": "云健",
+        "male_style": "chat",
     },
 ]
 
