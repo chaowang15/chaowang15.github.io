@@ -24,13 +24,17 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-          pip install pydub azure-cognitiveservices-speech
+      - name: Install podcast deps
+        run: |
+          pip install pydub
           sudo apt-get update && sudo apt-get install -y ffmpeg
       - name: Generate weekly digest
         env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
           AZURE_SPEECH_REGION: ${{ secrets.AZURE_SPEECH_REGION }}
           OPENAI_TTS_KEY: ${{ secrets.OPENAI_TTS_KEY }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           cd $GITHUB_WORKSPACE
           WEEK_ARG="${{ github.event.inputs.week }}"
