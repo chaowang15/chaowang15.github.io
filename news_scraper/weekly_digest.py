@@ -368,6 +368,112 @@ def save_digest_json(
 
 
 # ---------------------------------------------------------------------------
+# Weekly podcast player
+# ---------------------------------------------------------------------------
+
+def _parse_podcast_marker(marker_path: str) -> dict:
+    """Parse .podcast-YYYY-WNN marker file and return a dict of key=value pairs."""
+    info = {}
+    try:
+        with open(marker_path, "r") as f:
+            for line in f:
+                line = line.strip()
+                if "=" in line:
+                    k, v = line.split("=", 1)
+                    info[k.strip()] = v.strip()
+    except Exception:
+        pass
+    return info
+
+
+def _build_weekly_podcast_player_html(iso_week: str, weekly_dir: str) -> str:
+    """Build inline podcast player HTML for weekly digest pages.
+
+    Displays English podcast first, then Chinese podcast.
+    Returns empty string if no .podcast-YYYY-WNN marker file exists.
+    """
+    marker_path = os.path.join(weekly_dir, f".podcast-{iso_week}")
+    if not os.path.exists(marker_path):
+        return ""
+
+    marker_info = _parse_podcast_marker(marker_path)
+    release_tag = marker_info.get("release", "")
+    if not release_tag:
+        return ""
+
+    repo = "chaowang15/chaowang15.github.io"
+
+    lines = []
+    lines.append("<div class='hn-podcast-inline'>")
+
+    # --- English podcast player (shown first) ---
+    en_mp3_filename = marker_info.get("en_mp3", "")
+    if en_mp3_filename:
+        en_female = marker_info.get("en_female", "Aria")
+        en_male = marker_info.get("en_male", "Davis")
+        en_mp3_url = f"https://github.com/{repo}/releases/download/{release_tag}/{en_mp3_filename}"
+
+        lines.append("<div class='hn-podcast-player'>")
+        lines.append("<div class='hn-podcast-header'>")
+        lines.append("<span class='hn-podcast-icon'>\U0001F399</span>")
+        lines.append("<div class='hn-podcast-info'>")
+        lines.append(f"<p class='hn-podcast-title'>\U0001F3A7 Weekly Podcast (English) \u2014 {iso_week}</p>")
+        lines.append(f"<p class='hn-podcast-meta'>English Podcast \u00B7 AI Generated \u00B7 {en_female} &amp; {en_male}</p>")
+        lines.append("</div>")
+        lines.append("</div>")
+        lines.append(f"<audio class='hn-podcast-audio' controls preload='metadata'>")
+        lines.append(f"<source src='{en_mp3_url}' type='audio/mpeg'>")
+        lines.append("</audio>")
+        lines.append("</div>")
+
+    # --- Chinese podcast player ---
+    cn_mp3_filename = marker_info.get("cn_mp3", "")
+    if cn_mp3_filename:
+        cn_female = marker_info.get("cn_female", "\u6653\u6653")
+        cn_male = marker_info.get("cn_male", "\u4e91\u5e0c")
+        cn_mp3_url = f"https://github.com/{repo}/releases/download/{release_tag}/{cn_mp3_filename}"
+
+        lines.append("<div class='hn-podcast-player'>")
+        lines.append("<div class='hn-podcast-header'>")
+        lines.append("<span class='hn-podcast-icon'>\U0001F399</span>")
+        lines.append("<div class='hn-podcast-info'>")
+        lines.append(f"<p class='hn-podcast-title'>\U0001F3A7 \u6BCF\u5468\u64AD\u5BA2 (\u4E2D\u6587) \u2014 {iso_week}</p>")
+        lines.append(f"<p class='hn-podcast-meta'>\u4E2D\u6587\u64AD\u5BA2 \u00B7 AI \u751F\u6210 \u00B7 {cn_female} &amp; {cn_male}</p>")
+        lines.append("</div>")
+        lines.append("</div>")
+        lines.append(f"<audio class='hn-podcast-audio' controls preload='metadata'>")
+        lines.append(f"<source src='{cn_mp3_url}' type='audio/mpeg'>")
+        lines.append("</audio>")
+        lines.append("</div>")
+
+    lines.append("</div>")
+    return "\n".join(lines)
+
+
+def _inject_podcast_player_into_md(md_path: str, iso_week: str, weekly_dir: str):
+    """Re-read the weekly MD file and inject podcast player HTML after the subtitle line."""
+    podcast_html = _build_weekly_podcast_player_html(iso_week, weekly_dir)
+    if not podcast_html:
+        return
+
+    with open(md_path, "r", encoding="utf-8") as f:
+        content = f.read()
+
+    # Insert podcast player before <hr class='hn-rule'/>
+    marker = "<hr class='hn-rule'/>"
+    if marker in content:
+        content = content.replace(marker, podcast_html + "\n" + marker, 1)
+    else:
+        # Fallback: append before the story list
+        content = content.replace("<div class='hn-list'>", podcast_html + "\n<div class='hn-list'>", 1)
+
+    with open(md_path, "w", encoding="utf-8") as f:
+        f.write(content)
+
+    print(f"[WEEKLY] Injected podcast player into {md_path}")
+
+
+# ---------------------------------------------------------------------------
 # Main entry point
 # ---------------------------------------------------------------------------
 
@@ -455,6 +561,13 @@ def main():
             print(f"[WEEKLY] WARNING: Weekly podcast generation failed: {e}")
             import traceback
             traceback.print_exc()
+
+        # Inject podcast player into the weekly MD page
+        # (must run after podcast generation creates the .podcast-YYYY-WNN marker)
+        try:
+            _inject_podcast_player_into_md(md_path, iso_week or _last_full_week_iso(), WEEKLY_DIR)
+        except Exception as e:
+            print(f"[WEEKLY] WARNING: Failed to inject podcast player: {e}")
 
 
 if __name__ == "__main__":
