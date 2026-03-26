@@ -24,7 +24,12 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+          pip install pydub azure-cognitiveservices-speech
       - name: Generate weekly digest
+        env:
+          AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
+          AZURE_SPEECH_REGION: ${{ secrets.AZURE_SPEECH_REGION }}
+          OPENAI_TTS_KEY: ${{ secrets.OPENAI_TTS_KEY }}
         run: |
           cd $GITHUB_WORKSPACE
           WEEK_ARG="${{ github.event.inputs.week }}"
