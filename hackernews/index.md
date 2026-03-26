@@ -2,6 +2,7 @@
 layout: hn
 title: "Hacker News Daily"
 ---
+
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
 <div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>39</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>5414</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>37</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>37</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-03-26</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
@@ -163,33 +164,14 @@ Your browser does not support the audio element.
 </audio>
 </div>
 </div>
-<div class='hn-index-section hn-weekly-section'>
-<h3 class='hn-section-title'>Weekly Digest <span class='hn-section-zh'>每周热点</span></h3>
-<div class='hn-day-stories'>
-<a class='hn-story-link' href='/hackernews/weekly/2026-W12'>
-<span class='hn-row-type hn-type-weekly'>Week 12</span>
-<span class='hn-row-detail'>2026-03-16 — 2026-03-22 <span class="hn-row-sep">·</span> All <b>521</b> <span class="hn-row-sep">·</span> Programming <b>131</b> <span class="hn-row-sep">·</span> AI <b>105</b></span>
-</a>
-<a class='hn-story-link' href='/hackernews/weekly/2026-W11'>
-<span class='hn-row-type hn-type-weekly'>Week 11</span>
-<span class='hn-row-detail'>2026-03-09 — 2026-03-15 <span class="hn-row-sep">·</span> All <b>507</b> <span class="hn-row-sep">·</span> Programming <b>124</b> <span class="hn-row-sep">·</span> AI <b>107</b></span>
-</a>
-<a class='hn-story-link' href='/hackernews/weekly/2026-W10'>
-<span class='hn-row-type hn-type-weekly'>Week 10</span>
-<span class='hn-row-detail'>2026-03-02 — 2026-03-08 <span class="hn-row-sep">·</span> All <b>540</b> <span class="hn-row-sep">·</span> Programming <b>151</b> <span class="hn-row-sep">·</span> AI <b>114</b></span>
-</a>
-<a class='hn-story-link' href='/hackernews/weekly/2026-W09'>
-<span class='hn-row-type hn-type-weekly'>Week 09</span>
-<span class='hn-row-detail'>2026-02-23 — 2026-03-01 <span class="hn-row-sep">·</span> All <b>540</b> <span class="hn-row-sep">·</span> Programming <b>158</b> <span class="hn-row-sep">·</span> AI <b>137</b></span>
-</a>
-<a class='hn-story-link' href='/hackernews/weekly/2026-W08'>
-<span class='hn-row-type hn-type-weekly'>Week 08</span>
-<span class='hn-row-detail'>2026-02-16 — 2026-02-22 <span class="hn-row-sep">·</span> All <b>357</b> <span class="hn-row-sep">·</span> Programming <b>78</b> <span class="hn-row-sep">·</span> AI <b>73</b></span>
-</a>
-</div>
-</div>
-<div class='hn-index-section hn-daily-section'>
-<h3 class='hn-section-title'>Daily News <span class='hn-section-zh'>每日新闻</span></h3>
+<div class='hn-index-section hn-archive-section'>
+<h3 class='hn-section-title'>News Archive <span class='hn-section-zh'>新闻归档</span></h3>
+<details class='hn-week-group' open>
+<summary class='hn-week-summary'>
+<span class='hn-week-title'>2026 Week 13 <span class='hn-this-week-badge'>This Week</span></span>
+<span class='hn-week-meta'>2026-03-23 — 2026-03-26 <span class="hn-row-sep">·</span> 449 stories <span class="hn-row-sep">·</span> 4 days</span>
+</summary>
+<div class='hn-week-content'>
 <div class='hn-grid'>
 <div class='hn-day-row'>
 <div class='hn-day-date'>2026-03-26 <span class='hn-day-weekday'>Thu</span></div>
@@ -237,6 +219,21 @@ Your browser does not support the audio element.
 </a>
 </div>
 </div>
+</div>
+</div>
+</details>
+<details class='hn-week-group'>
+<summary class='hn-week-summary'>
+<span class='hn-week-title'>2026 Week 12</span>
+<span class='hn-week-meta'>2026-03-16 — 2026-03-22 <span class="hn-row-sep">·</span> 1050 stories <span class="hn-row-sep">·</span> 7 days <span class="hn-row-sep">·</span> 📊 Weekly Digest <span class="hn-row-sep">·</span> 🎧</span>
+</summary>
+<div class='hn-week-content'>
+<a class='hn-story-link hn-weekly-digest-link' href='/hackernews/weekly/2026-W12'>
+<span class='hn-row-type hn-type-weekly'>Weekly Digest</span>
+<span class='hn-row-detail'>2026-03-16 — 2026-03-22 <span class="hn-row-sep">·</span> All <b>521</b> <span class="hn-row-sep">·</span> Programming <b>131</b> <span class="hn-row-sep">·</span> AI <b>105</b></span>
+ <span class='hn-podcast-badge' title='Weekly podcast available'>&#x1F3A7;</span>
+</a>
+<div class='hn-grid'>
 <div class='hn-day-row'>
 <div class='hn-day-date'>2026-03-22 <span class='hn-day-weekday'>Sun</span></div>
 <div class='hn-day-stories'>
@@ -329,6 +326,20 @@ Your browser does not support the audio element.
 </a>
 </div>
 </div>
+</div>
+</div>
+</details>
+<details class='hn-week-group'>
+<summary class='hn-week-summary'>
+<span class='hn-week-title'>2026 Week 11</span>
+<span class='hn-week-meta'>2026-03-09 — 2026-03-15 <span class="hn-row-sep">·</span> 1050 stories <span class="hn-row-sep">·</span> 7 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
+</summary>
+<div class='hn-week-content'>
+<a class='hn-story-link hn-weekly-digest-link' href='/hackernews/weekly/2026-W11'>
+<span class='hn-row-type hn-type-weekly'>Weekly Digest</span>
+<span class='hn-row-detail'>2026-03-09 — 2026-03-15 <span class="hn-row-sep">·</span> All <b>507</b> <span class="hn-row-sep">·</span> Programming <b>124</b> <span class="hn-row-sep">·</span> AI <b>107</b></span>
+</a>
+<div class='hn-grid'>
 <div class='hn-day-row'>
 <div class='hn-day-date'>2026-03-15 <span class='hn-day-weekday'>Sun</span></div>
 <div class='hn-day-stories'>
@@ -420,6 +431,20 @@ Your browser does not support the audio element.
 </a>
 </div>
 </div>
+</div>
+</div>
+</details>
+<details class='hn-week-group'>
+<summary class='hn-week-summary'>
+<span class='hn-week-title'>2026 Week 10</span>
+<span class='hn-week-meta'>2026-03-02 — 2026-03-08 <span class="hn-row-sep">·</span> 1050 stories <span class="hn-row-sep">·</span> 7 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
+</summary>
+<div class='hn-week-content'>
+<a class='hn-story-link hn-weekly-digest-link' href='/hackernews/weekly/2026-W10'>
+<span class='hn-row-type hn-type-weekly'>Weekly Digest</span>
+<span class='hn-row-detail'>2026-03-02 — 2026-03-08 <span class="hn-row-sep">·</span> All <b>540</b> <span class="hn-row-sep">·</span> Programming <b>151</b> <span class="hn-row-sep">·</span> AI <b>114</b></span>
+</a>
+<div class='hn-grid'>
 <div class='hn-day-row'>
 <div class='hn-day-date'>2026-03-08 <span class='hn-day-weekday'>Sun</span></div>
 <div class='hn-day-stories'>
@@ -511,6 +536,20 @@ Your browser does not support the audio element.
 </a>
 </div>
 </div>
+</div>
+</div>
+</details>
+<details class='hn-week-group'>
+<summary class='hn-week-summary'>
+<span class='hn-week-title'>2026 Week 9</span>
+<span class='hn-week-meta'>2026-02-23 — 2026-03-01 <span class="hn-row-sep">·</span> 1050 stories <span class="hn-row-sep">·</span> 7 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
+</summary>
+<div class='hn-week-content'>
+<a class='hn-story-link hn-weekly-digest-link' href='/hackernews/weekly/2026-W09'>
+<span class='hn-row-type hn-type-weekly'>Weekly Digest</span>
+<span class='hn-row-detail'>2026-02-23 — 2026-03-01 <span class="hn-row-sep">·</span> All <b>540</b> <span class="hn-row-sep">·</span> Programming <b>158</b> <span class="hn-row-sep">·</span> AI <b>137</b></span>
+</a>
+<div class='hn-grid'>
 <div class='hn-day-row'>
 <div class='hn-day-date'>2026-03-01 <span class='hn-day-weekday'>Sun</span></div>
 <div class='hn-day-stories'>
@@ -576,7 +615,132 @@ Your browser does not support the audio element.
 </a>
 </div>
 </div>
+<div class='hn-day-row'>
+<div class='hn-day-date'>2026-02-24 <span class='hn-day-weekday'>Tue</span></div>
+<div class='hn-day-stories'>
+<a class='hn-story-link' href='/hackernews/2026/02/24/best_stories_02242026'>
+<span class='hn-row-type hn-type-best'>Daily Best</span>
+<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>15</b> <span class="hn-row-sep">·</span> Privacy <b>10</b></span>
+</a>
+<a class='hn-story-link' href='/hackernews/2026/02/24/top_stories_02242026'>
+<span class='hn-row-type hn-type-top'>Trending</span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>32</b> <span class="hn-row-sep">·</span> AI <b>22</b></span>
+</a>
 </div>
+</div>
+<div class='hn-day-row'>
+<div class='hn-day-date'>2026-02-23 <span class='hn-day-weekday'>Mon</span></div>
+<div class='hn-day-stories'>
+<a class='hn-story-link' href='/hackernews/2026/02/23/best_stories_02232026'>
+<span class='hn-row-type hn-type-best'>Daily Best</span>
+<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>11</b> <span class="hn-row-sep">·</span> Programming <b>10</b></span>
+</a>
+<a class='hn-story-link' href='/hackernews/2026/02/23/top_stories_02232026'>
+<span class='hn-row-type hn-type-top'>Trending</span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>30</b> <span class="hn-row-sep">·</span> AI <b>22</b></span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</details>
+<details class='hn-week-group'>
+<summary class='hn-week-summary'>
+<span class='hn-week-title'>2026 Week 8</span>
+<span class='hn-week-meta'>2026-02-16 — 2026-02-22 <span class="hn-row-sep">·</span> 765 stories <span class="hn-row-sep">·</span> 7 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
+</summary>
+<div class='hn-week-content'>
+<a class='hn-story-link hn-weekly-digest-link' href='/hackernews/weekly/2026-W08'>
+<span class='hn-row-type hn-type-weekly'>Weekly Digest</span>
+<span class='hn-row-detail'>2026-02-16 — 2026-02-22 <span class="hn-row-sep">·</span> All <b>357</b> <span class="hn-row-sep">·</span> Programming <b>78</b> <span class="hn-row-sep">·</span> AI <b>73</b></span>
+</a>
+<div class='hn-grid'>
+<div class='hn-day-row'>
+<div class='hn-day-date'>2026-02-22 <span class='hn-day-weekday'>Sun</span></div>
+<div class='hn-day-stories'>
+<a class='hn-story-link' href='/hackernews/2026/02/22/best_stories_02222026'>
+<span class='hn-row-type hn-type-best'>Daily Best</span>
+<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> Programming <b>11</b> <span class="hn-row-sep">·</span> AI <b>8</b></span>
+</a>
+<a class='hn-story-link' href='/hackernews/2026/02/22/top_stories_02222026'>
+<span class='hn-row-type hn-type-top'>Trending</span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>26</b> <span class="hn-row-sep">·</span> Open Source <b>13</b></span>
+</a>
+</div>
+</div>
+<div class='hn-day-row'>
+<div class='hn-day-date'>2026-02-21 <span class='hn-day-weekday'>Sat</span></div>
+<div class='hn-day-stories'>
+<a class='hn-story-link' href='/hackernews/2026/02/21/best_stories_02212026'>
+<span class='hn-row-type hn-type-best'>Daily Best</span>
+<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>16</b> <span class="hn-row-sep">·</span> Programming <b>11</b></span>
+</a>
+<a class='hn-story-link' href='/hackernews/2026/02/21/top_stories_02212026'>
+<span class='hn-row-type hn-type-top'>Trending</span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>27</b> <span class="hn-row-sep">·</span> Programming <b>22</b></span>
+</a>
+</div>
+</div>
+<div class='hn-day-row'>
+<div class='hn-day-date'>2026-02-20 <span class='hn-day-weekday'>Fri</span></div>
+<div class='hn-day-stories'>
+<a class='hn-story-link' href='/hackernews/2026/02/20/best_stories_02202026'>
+<span class='hn-row-type hn-type-best'>Daily Best</span>
+<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>11</b> <span class="hn-row-sep">·</span> Privacy <b>10</b></span>
+</a>
+<a class='hn-story-link' href='/hackernews/2026/02/20/top_stories_02202026'>
+<span class='hn-row-type hn-type-top'>Trending</span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>30</b> <span class="hn-row-sep">·</span> Programming <b>25</b></span>
+</a>
+</div>
+</div>
+<div class='hn-day-row'>
+<div class='hn-day-date'>2026-02-19 <span class='hn-day-weekday'>Thu</span></div>
+<div class='hn-day-stories'>
+<a class='hn-story-link' href='/hackernews/2026/02/19/best_stories_02192026'>
+<span class='hn-row-type hn-type-best'>Daily Best</span>
+<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>14</b> <span class="hn-row-sep">·</span> Politics <b>11</b></span>
+</a>
+<a class='hn-story-link' href='/hackernews/2026/02/19/top_stories_02192026'>
+<span class='hn-row-type hn-type-top'>Trending</span>
+<span class='hn-row-detail'>All <b>63</b> <span class="hn-row-sep">·</span> Programming <b>15</b> <span class="hn-row-sep">·</span> AI <b>10</b></span>
+</a>
+</div>
+</div>
+<div class='hn-day-row'>
+<div class='hn-day-date'>2026-02-18 <span class='hn-day-weekday'>Wed</span></div>
+<div class='hn-day-stories'>
+<a class='hn-story-link' href='/hackernews/2026/02/18/best_stories_02182026'>
+<span class='hn-row-type hn-type-best'>Daily Best</span>
+<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>10</b> <span class="hn-row-sep">·</span> Web <b>8</b></span>
+</a>
+<a class='hn-story-link' href='/hackernews/2026/02/18/top_stories_02182026'>
+<span class='hn-row-type hn-type-top'>Trending</span>
+<span class='hn-row-detail'>All <b>52</b> <span class="hn-row-sep">·</span> Programming <b>15</b> <span class="hn-row-sep">·</span> Politics <b>8</b></span>
+</a>
+</div>
+</div>
+<div class='hn-day-row'>
+<div class='hn-day-date'>2026-02-17 <span class='hn-day-weekday'>Tue</span></div>
+<div class='hn-day-stories'>
+<a class='hn-story-link' href='/hackernews/2026/02/17/best_stories_02172026'>
+<span class='hn-row-type hn-type-best'>Daily Best</span>
+<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> Privacy <b>10</b> <span class="hn-row-sep">·</span> AI <b>9</b></span>
+</a>
+</div>
+</div>
+<div class='hn-day-row'>
+<div class='hn-day-date'>2026-02-16 <span class='hn-day-weekday'>Mon</span></div>
+<div class='hn-day-stories'>
+<a class='hn-story-link' href='/hackernews/2026/02/16/best_stories_02162026'>
+<span class='hn-row-type hn-type-best'>Daily Best</span>
+<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>14</b> <span class="hn-row-sep">·</span> Web <b>9</b></span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</details>
 </div>
 
 <p class='hn-hint'>Browse by date: <code>/hackernews/YYYY/MM/DD/</code></p>

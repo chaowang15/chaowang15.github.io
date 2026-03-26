@@ -512,15 +512,83 @@ def _add_podcast_section(lines: list, base_dir: str, days: list):
     lines.append("</div>")  # hn-podcast-section
 
 
+def _group_days_by_week(days: List[DayEntry]) -> List[dict]:
+    """Group DayEntry list by ISO week.
+
+    Returns a list of dicts sorted by week descending (newest first):
+    [
+        {
+            "iso_week": "2026-W13",
+            "year": 2026,
+            "week_num": 13,
+            "label": "2026 Week 13",
+            "days": [DayEntry, ...],  # sorted by date desc within week
+        },
+        ...
+    ]
+    """
+    from collections import OrderedDict
+
+    week_map: Dict[str, dict] = {}
+    for day in days:
+        try:
+            dt = datetime.strptime(day.content_date, "%Y-%m-%d")
+            iso_year, iso_week_num, _ = dt.isocalendar()
+            iso_week = f"{iso_year}-W{iso_week_num:02d}"
+        except Exception:
+            continue
+
+        if iso_week not in week_map:
+            week_map[iso_week] = {
+                "iso_week": iso_week,
+                "year": iso_year,
+                "week_num": iso_week_num,
+                "label": f"{iso_year} Week {iso_week_num}",
+                "days": [],
+            }
+        week_map[iso_week]["days"].append(day)
+
+    # Sort weeks descending
+    weeks = sorted(week_map.values(), key=lambda w: w["iso_week"], reverse=True)
+    # Sort days within each week descending
+    for w in weeks:
+        w["days"].sort(key=lambda d: d.content_date, reverse=True)
+    return weeks
+
+
+def _get_weekly_podcast_weeks(base_dir: str) -> set:
+    """Return a set of ISO week strings that have weekly podcast marker files."""
+    weekly_dir = os.path.join(base_dir, "weekly")
+    weeks = set()
+    if not os.path.isdir(weekly_dir):
+        return weeks
+    for fn in os.listdir(weekly_dir):
+        if fn.startswith(".podcast-"):
+            # .podcast-2026-W12 -> 2026-W12
+            iso_week = fn.replace(".podcast-", "")
+            weeks.add(iso_week)
+    return weeks
+
+
 def update_hackernews_index(
     base_dir: str = "hackernews",
     index_path: str = "hackernews/index.md",
-    max_items: int = 30,
+    max_items: int = 200,
 ) -> str:
     all_days = _collect_day_entries(base_dir)
     stats = _compute_stats(all_days)
     days = all_days[:max_items]
     _podcast_dates = _get_podcast_dates(base_dir)
+
+    # Build weekly data lookups
+    weekly_entries_list = _collect_weekly_entries(base_dir)
+    weekly_map = {w["iso_week"]: w for w in weekly_entries_list}  # iso_week -> weekly entry
+    weekly_podcast_weeks = _get_weekly_podcast_weeks(base_dir)
+
+    # Determine current ISO week
+    now = datetime.now()
+    current_iso_year, current_iso_week, _ = now.isocalendar()
+    current_week_str = f"{current_iso_year}-W{current_iso_week:02d}"
 
     lines: List[str] = []
     lines.append("---")
@@ -562,13 +630,11 @@ def update_hackernews_index(
     lines.append("<div id='hn-search-results' class='hn-search-results' style='display:none;'></div>")
     lines.append("<button id='hn-search-more' class='hn-search-more' style='display:none;'>Show more results</button>")
 
-
-
     # Today's Top Stories section
     top_stories = _get_top_stories(base_dir, all_days, n=10)
     if top_stories:
         lines.append("<div class='hn-index-section hn-top-stories-section'>")
-        lines.append("<h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>")
+        lines.append("<h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>\u4eca\u65e5\u5934\u6761</span> <span class='hn-hot-badge'>\U0001F525 HOT</span></h3>")
         lines.append("<div class='hn-top-stories-list'>")
         for i, story in enumerate(top_stories, 1):
             score = story['score']
@@ -580,19 +646,16 @@ def update_hackernews_index(
             hn_id = story.get('hn_id', '')
             daily_url = story.get('daily_url', '')
 
-            # Build anchor link to our daily page
             if daily_url and hn_id:
                 story_link = f"{daily_url}#story-{hn_id}"
             else:
-                story_link = url  # fallback to original URL
+                story_link = url
 
-            # Items 6-10 are hidden by default (show more)
             extra_cls = ' hn-top-story-extra' if i > 5 else ''
             hn_time = story.get('hn_time', 0)
             lines.append(f"<div class='hn-top-story-item{extra_cls}' data-hn-score='{score}' data-hn-time='{hn_time}'>")
             lines.append(f"<span class='hn-top-story-rank'>{i}</span>")
             lines.append(f"<div class='hn-top-story-content'>")
-            # Title line: title links to our daily page, 🔗 icon links to original article
             lines.append(f"<div class='hn-top-story-title'>")
             if story_link:
                 lines.append(f"<a class='hn-top-story-title-text' href='{story_link}'>{title_en}</a>")
@@ -601,10 +664,8 @@ def update_hackernews_index(
             if url:
                 lines.append(f" <a class='hn-top-story-link' href='{url}' target='_blank' title='Read original article'>&#x1F517;</a>")
             lines.append(f"</div>")
-            # Chinese title
             if title_zh:
                 lines.append(f"<div class='hn-top-story-zh'>{title_zh}</div>")
-            # Meta line: hot score, score, comments, tags
             meta_parts = []
             hot_score = story.get('hot_score', 0)
             hot_display = str(round(hot_score)) if hot_score >= 10 else f"{hot_score:.1f}"
@@ -616,74 +677,116 @@ def update_hackernews_index(
             lines.append(f"<div class='hn-top-story-meta'>{' '.join(meta_parts)}</div>")
             lines.append(f"</div>")  # hn-top-story-content
             lines.append(f"</div>")  # hn-top-story-item
-        # Show more / Show less toggle button (only if we have more than 5)
         if len(top_stories) > 5:
-            lines.append("<button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>")
-        # Link to full daily page
+            lines.append("<button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more \u25BC</button>")
         if top_stories[0].get('daily_url'):
             lines.append(f"<a class='hn-top-stories-more' href='{top_stories[0]['daily_url']}'>View all trending stories &rarr;</a>")
         lines.append("</div>")  # hn-top-stories-list
         lines.append("</div>")  # hn-top-stories-section
 
-    # Podcast section (latest available podcast)
+    # Podcast section (latest available daily podcast)
     _add_podcast_section(lines, base_dir, all_days)
 
-    # Weekly digest links
-    weekly_entries = _collect_weekly_entries(base_dir)
-    if weekly_entries:
-        lines.append("<div class='hn-index-section hn-weekly-section'>")
-        lines.append("<h3 class='hn-section-title'>Weekly Digest <span class='hn-section-zh'>每周热点</span></h3>")
-        lines.append("<div class='hn-day-stories'>")
-        for w in weekly_entries:
-            lines.append(f"<a class='hn-story-link' href='{w['url']}'>")
-            lines.append(f"<span class='hn-row-type hn-type-weekly'>Week {w['week']}</span>")
-            lines.append(f"<span class='hn-row-detail'>{w['detail']}</span>")
-            lines.append("</a>")
-        lines.append("</div>")  # hn-day-stories
-        lines.append("</div>")  # hn-weekly-section
+    # ── News Archive: grouped by ISO week ──
+    week_groups = _group_days_by_week(days)
 
-    if not days:
+    if not week_groups:
         lines.append("<p class='hn-hint'>No files found yet. Run the workflow once to generate the first file.</p>")
     else:
-        lines.append("<div class='hn-index-section hn-daily-section'>")
-        lines.append("<h3 class='hn-section-title'>Daily News <span class='hn-section-zh'>每日新闻</span></h3>")
-        lines.append("<div class='hn-grid'>")
-        for day in days:
-            lines.append("<div class='hn-day-row'>")
-            # Add weekday name (e.g., "Mon", "Tue")
-            try:
-                _dt = datetime.strptime(day.content_date, "%Y-%m-%d")
-                _weekday = _dt.strftime("%a")  # Mon, Tue, Wed, ...
-            except Exception:
-                _weekday = ""
-            weekday_html = f" <span class='hn-day-weekday'>{_weekday}</span>" if _weekday else ""
-            lines.append(f"<div class='hn-day-date'>{day.content_date}{weekday_html}</div>")
-            lines.append("<div class='hn-day-stories'>")
+        lines.append("<div class='hn-index-section hn-archive-section'>")
+        lines.append("<h3 class='hn-section-title'>News Archive <span class='hn-section-zh'>\u65b0\u95fb\u5f52\u6863</span></h3>")
 
-            for s in day.stories:
-                type_label = "Daily Best" if s.story_type == "best" else "Trending"
-                type_class = "hn-type-best" if s.story_type == "best" else "hn-type-top"
+        for wg in week_groups:
+            iso_week = wg["iso_week"]
+            week_label = wg["label"]
+            week_days = wg["days"]
+            is_current_week = (iso_week == current_week_str)
 
-                detail_html = _build_detail_html(s)
+            # Compute week-level summary
+            week_total_stories = 0
+            week_day_count = len(week_days)
+            for wd in week_days:
+                for s in wd.stories:
+                    week_total_stories += (s.count_written or 0)
 
-                lines.append(f"<a class='hn-story-link' href='{s.rel_url}'>")
-                lines.append(f"<span class='hn-row-type {type_class}'>{type_label}</span>")
-                if detail_html:
-                    lines.append(f"<span class='hn-row-detail'>{detail_html}</span>")
+            # Date range for this week
+            date_list = sorted([d.content_date for d in week_days])
+            date_range_str = f"{date_list[0]} \u2014 {date_list[-1]}" if len(date_list) > 1 else date_list[0]
+
+            # Check if weekly digest exists
+            weekly_entry = weekly_map.get(iso_week)
+            has_weekly_podcast = iso_week in weekly_podcast_weeks
+
+            # Build summary line for the <summary> header
+            summary_parts = [date_range_str]
+            if week_total_stories:
+                summary_parts.append(f"{week_total_stories} stories")
+            summary_parts.append(f"{week_day_count} days")
+            if weekly_entry:
+                summary_parts.append("\U0001F4CA Weekly Digest")
+            if has_weekly_podcast:
+                summary_parts.append("\U0001F3A7")
+            summary_meta = ' <span class="hn-row-sep">\u00B7</span> '.join(summary_parts)
+
+            # Use <details> for collapsible; current week open by default
+            open_attr = " open" if is_current_week else ""
+            this_week_badge = " <span class='hn-this-week-badge'>This Week</span>" if is_current_week else ""
+
+            lines.append(f"<details class='hn-week-group'{open_attr}>")
+            lines.append(f"<summary class='hn-week-summary'>")
+            lines.append(f"<span class='hn-week-title'>{week_label}{this_week_badge}</span>")
+            lines.append(f"<span class='hn-week-meta'>{summary_meta}</span>")
+            lines.append(f"</summary>")
+
+            lines.append("<div class='hn-week-content'>")
+
+            # Weekly digest link (if available)
+            if weekly_entry:
+                podcast_badge = " <span class='hn-podcast-badge' title='Weekly podcast available'>&#x1F3A7;</span>" if has_weekly_podcast else ""
+                lines.append(f"<a class='hn-story-link hn-weekly-digest-link' href='{weekly_entry['url']}'>")
+                lines.append(f"<span class='hn-row-type hn-type-weekly'>Weekly Digest</span>")
+                lines.append(f"<span class='hn-row-detail'>{weekly_entry['detail']}</span>")
+                if podcast_badge:
+                    lines.append(podcast_badge)
                 lines.append("</a>")
 
-                # Add podcast listen badge inline — only if this date has a podcast
-                if s.story_type == "best" and day.content_date in _podcast_dates:
-                    if lines[-1] == "</a>":
-                        lines.pop()  # remove </a>
+            # Daily rows within this week
+            lines.append("<div class='hn-grid'>")
+            for day in week_days:
+                lines.append("<div class='hn-day-row'>")
+                try:
+                    _dt = datetime.strptime(day.content_date, "%Y-%m-%d")
+                    _weekday = _dt.strftime("%a")
+                except Exception:
+                    _weekday = ""
+                weekday_html = f" <span class='hn-day-weekday'>{_weekday}</span>" if _weekday else ""
+                lines.append(f"<div class='hn-day-date'>{day.content_date}{weekday_html}</div>")
+                lines.append("<div class='hn-day-stories'>")
+
+                for s in day.stories:
+                    type_label = "Daily Best" if s.story_type == "best" else "Trending"
+                    type_class = "hn-type-best" if s.story_type == "best" else "hn-type-top"
+                    detail_html = _build_detail_html(s)
+
+                    lines.append(f"<a class='hn-story-link' href='{s.rel_url}'>")
+                    lines.append(f"<span class='hn-row-type {type_class}'>{type_label}</span>")
+                    if detail_html:
+                        lines.append(f"<span class='hn-row-detail'>{detail_html}</span>")
+
+                    # Podcast badge for daily best
+                    if s.story_type == "best" and day.content_date in _podcast_dates:
                         lines.append(f"<span class='hn-podcast-badge' title='Podcast available'>&#x1F3A7;</span>")
-                        lines.append("</a>")  # re-add closing tag
 
-            lines.append("</div>")  # hn-day-stories
-            lines.append("</div>")  # hn-day-row
+                    lines.append("</a>")
 
-        lines.append("</div>")  # hn-grid
-        lines.append("</div>")  # hn-daily-section
+                lines.append("</div>")  # hn-day-stories
+                lines.append("</div>")  # hn-day-row
+
+            lines.append("</div>")  # hn-grid
+            lines.append("</div>")  # hn-week-content
+            lines.append("</details>")  # hn-week-group
+
+        lines.append("</div>")  # hn-archive-section
 
     lines.append("")
     lines.append(f"<p class='hn-hint'>Browse by date: <code>/{base_dir}/YYYY/MM/DD/</code></p>")
