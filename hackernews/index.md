@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='405' data-hn-time='1774554485'>
+<div class='hn-top-story-item' data-hn-score='309' data-hn-time='1774568033'>
 <span class='hn-top-story-rank'>1</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/26/top_stories_03262026#story-47537228'>Judge blocks Pentagon effort to 'punish' Anthropic with supply chain risk label</a>
+ <a class='hn-top-story-link' href='https://www.cnn.com/2026/03/26/business/anthropic-pentagon-injunction-supply-chain-risk' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>法官阻止五角大楼以供应链风险标签惩罚 Anthropic</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.4</span> <span class='hn-top-story-score'>&#9650; 309</span> <span class='hn-top-story-comments'>&#128172; 172</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='629' data-hn-time='1774554485'>
+<span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/03/26/top_stories_03262026#story-47534848'>We haven't seen the worst of what gambling and prediction markets will do</a>
  <a class='hn-top-story-link' href='https://www.derekthompson.org/p/we-havent-seen-the-worst-of-what' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>我们还没看到赌博与预测市场的最坏后果</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 26</span> <span class='hn-top-story-score'>&#9650; 405</span> <span class='hn-top-story-comments'>&#128172; 291</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.8</span> <span class='hn-top-story-score'>&#9650; 629</span> <span class='hn-top-story-comments'>&#128172; 452</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='106' data-hn-time='1774557304'>
-<span class='hn-top-story-rank'>2</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/26/top_stories_03262026#story-47535371'>New York City hospitals drop Palantir as controversial AI firm expands in UK</a>
- <a class='hn-top-story-link' href='https://www.theguardian.com/technology/2026/mar/26/new-york-hospitals-palantir-ai' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>纽约市医院撤出 Palantir，而有争议的 AI 公司在英国扩张</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.7</span> <span class='hn-top-story-score'>&#9650; 106</span> <span class='hn-top-story-comments'>&#128172; 31</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Health</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='144' data-hn-time='1774553435'>
+<div class='hn-top-story-item' data-hn-score='149' data-hn-time='1774564885'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/26/top_stories_03262026#story-47534629'>CERN to host a new phase of Open Research Europe</a>
- <a class='hn-top-story-link' href='https://home.cern/news/news/cern/cern-host-europes-flagship-open-access-publishing-platform' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/26/top_stories_03262026#story-47536761'>Show HN: I put an AI agent on a $7/month VPS with IRC as its transport layer</a>
+ <a class='hn-top-story-link' href='https://georgelarson.me/writing/2026-03-23-nullclaw-doorman/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>CERN 将承办 Open Research Europe 新阶段</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.4</span> <span class='hn-top-story-score'>&#9650; 144</span> <span class='hn-top-story-comments'>&#128172; 13</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>DevOps</span></div>
+<div class='hn-top-story-zh'>Show HN：用 7 美元/月的 VPS 搭建 AI 代理，IRC 作为传输层</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 149</span> <span class='hn-top-story-comments'>&#128172; 59</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='155' data-hn-time='1774550330'>
+<div class='hn-top-story-item' data-hn-score='551' data-hn-time='1774532305'>
 <span class='hn-top-story-rank'>4</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/26/top_stories_03262026#story-47534086'>John Bradley, author of xv, has died</a>
- <a class='hn-top-story-link' href='https://voxday.net/2026/03/25/rip-john-bradley/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>著作 xv 的作者 John Bradley 去世</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.7</span> <span class='hn-top-story-score'>&#9650; 155</span> <span class='hn-top-story-comments'>&#128172; 49</span> <span class='hn-top-story-tag'>Culture</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='467' data-hn-time='1774532305'>
-<span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/03/26/top_stories_03262026#story-47530330'>Moving from GitHub to Codeberg, for lazy people</a>
  <a class='hn-top-story-link' href='https://unterwaditzer.net/2025/codeberg.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>从 GitHub 转向 Codeberg：懒人友好的迁移指南</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.5</span> <span class='hn-top-story-score'>&#9650; 467</span> <span class='hn-top-story-comments'>&#128172; 238</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 551</span> <span class='hn-top-story-comments'>&#128172; 276</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='528' data-hn-time='1774527876'>
+<div class='hn-top-story-item' data-hn-score='122' data-hn-time='1774566705'>
+<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/26/top_stories_03262026#story-47537051'>Order Granting Preliminary Injunction – Anthropic vs. U.S. Department of War [pdf]</a>
+ <a class='hn-top-story-link' href='https://storage.courtlistener.com/recap/gov.uscourts.cand.465515/gov.uscourts.cand.465515.134.0.pdf' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>初步禁令命令——Anthropic 对阵美国战争部 [PDF]</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 122</span> <span class='hn-top-story-comments'>&#128172; 19</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='191' data-hn-time='1774559090'>
 <span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/26/top_stories_03262026#story-47535708'>Apple discontinues the Mac Pro</a>
+ <a class='hn-top-story-link' href='https://9to5mac.com/2026/03/26/apple-discontinues-the-mac-pro/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>苹果停产 Mac Pro</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 191</span> <span class='hn-top-story-comments'>&#128172; 163</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Business</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='579' data-hn-time='1774527876'>
+<span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/03/26/top_stories_03262026#story-47529609'>End of "Chat Control": EU parliament stops mass surveillance</a>
  <a class='hn-top-story-link' href='https://www.patrick-breyer.de/en/end-of-chat-control-eu-parliament-stops-mass-surveillance-in-voting-thriller-paving-the-way-for-genuine-child-protection/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>《聊天控制》终结：欧盟议会阻止大规模监控，为真正的儿童保护铺路</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.1</span> <span class='hn-top-story-score'>&#9650; 528</span> <span class='hn-top-story-comments'>&#128172; 259</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 579</span> <span class='hn-top-story-comments'>&#128172; 273</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='249' data-hn-time='1774540120'>
-<span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/26/top_stories_03262026#story-47531967'>My minute-by-minute response to the LiteLLM malware attack</a>
- <a class='hn-top-story-link' href='https://futuresearch.ai/blog/litellm-attack-transcript/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>对 LiteLLM 恶意软件攻击的分秒级应对</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.2</span> <span class='hn-top-story-score'>&#9650; 249</span> <span class='hn-top-story-comments'>&#128172; 113</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='359' data-hn-time='1774528259'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='179' data-hn-time='1774558434'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/26/top_stories_03262026#story-47529646'>European Parliament decided that Chat Control 1.0 must stop</a>
- <a class='hn-top-story-link' href='https://bsky.app/profile/tuta.com/post/3mhxkfowv322c' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>欧洲议会决定停止 Chat Control 1.0</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 359</span> <span class='hn-top-story-comments'>&#128172; 95</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='39' data-hn-time='1774558434'>
-<span class='hn-top-story-rank'>9</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/26/top_stories_03262026#story-47535586'>Deploytarot.com – tarot card reading for deployments</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/26/top_stories_03262026#story-47535586'>DeployTarot.com – Tarot card reading for deployments</a>
  <a class='hn-top-story-link' href='https://deploytarot.com/setup' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Deploytarot.com – 部署的塔羅牌占卜</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.1</span> <span class='hn-top-story-score'>&#9650; 39</span> <span class='hn-top-story-comments'>&#128172; 13</span> <span class='hn-top-story-tag'>Culture</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 179</span> <span class='hn-top-story-comments'>&#128172; 51</span> <span class='hn-top-story-tag'>DevOps</span> <span class='hn-top-story-tag'>Culture</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='42' data-hn-time='1774557353'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='240' data-hn-time='1774550330'>
+<span class='hn-top-story-rank'>9</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/26/top_stories_03262026#story-47534086'>John Bradley, author of xv, has died</a>
+ <a class='hn-top-story-link' href='https://voxday.net/2026/03/25/rip-john-bradley/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>著作 xv 的作者 John Bradley 去世</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 240</span> <span class='hn-top-story-comments'>&#128172; 72</span> <span class='hn-top-story-tag'>Culture</span> <span class='hn-top-story-tag'>Design</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='204' data-hn-time='1774553435'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/26/top_stories_03262026#story-47535380'>The Little Book of C</a>
- <a class='hn-top-story-link' href='https://little-book-of.github.io/c/books/en-US/book.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/26/top_stories_03262026#story-47534629'>CERN to host a new phase of Open Research Europe</a>
+ <a class='hn-top-story-link' href='https://home.cern/news/news/cern/cern-host-europes-flagship-open-access-publishing-platform' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>C 语言小书</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.8</span> <span class='hn-top-story-score'>&#9650; 42</span> <span class='hn-top-story-comments'>&#128172; 8</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>CERN 将承办 Open Research Europe 新阶段</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.7</span> <span class='hn-top-story-score'>&#9650; 204</span> <span class='hn-top-story-comments'>&#128172; 17</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>DevOps</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -177,7 +177,7 @@ Your browser does not support the audio element.
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/03/26/top_stories_03262026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>26</b> <span class="hn-row-sep">·</span> AI <b>23</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>27</b> <span class="hn-row-sep">·</span> Programming <b>25</b></span>
 </a>
 </div>
 </div>
