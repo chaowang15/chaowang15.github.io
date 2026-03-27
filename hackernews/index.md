@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>40</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>5615</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>39</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>38</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-03-27</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>40</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>5629</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>39</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>38</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-03-27</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='679' data-hn-time='1774554485'>
+<div class='hn-top-story-item' data-hn-score='216' data-hn-time='1774615609'>
 <span class='hn-top-story-rank'>1</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/27/top_stories_03272026#story-47542057'>The 'Paperwork Flood': How I Drowned a Bureaucrat Before Dinner</a>
+ <a class='hn-top-story-link' href='https://sightlessscribbles.com/posts/the-paperwork-flood/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>“纸上洪流”：我在晚餐前把官僚打败</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 17</span> <span class='hn-top-story-score'>&#9650; 216</span> <span class='hn-top-story-comments'>&#128172; 122</span> <span class='hn-top-story-tag'>Business</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='339' data-hn-time='1774606241'>
+<span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/27/top_stories_03272026#story-47540833'>Hold on to Your Hardware</a>
+ <a class='hn-top-story-link' href='https://xn--gckvb8fzb.com/hold-on-to-your-hardware/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>守住你的硬件</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 339</span> <span class='hn-top-story-comments'>&#128172; 280</span> <span class='hn-top-story-tag'>Hardware</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='38' data-hn-time='1774619856'>
+<span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/27/top_stories_03272026#story-47542722'>Hong Kong Police Can Now Demand Phone Passwords Under New Security Rules</a>
+ <a class='hn-top-story-link' href='https://www.gadgetreview.com/hong-kong-police-can-now-demand-phone-passwords-under-new-security-rules' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>新安全规则下，香港警方可要求解锁手机密码</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.4</span> <span class='hn-top-story-score'>&#9650; 38</span> <span class='hn-top-story-comments'>&#128172; 29</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Security</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='247' data-hn-time='1774595546'>
+<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/27/top_stories_03272026#story-47539825'>A Faster Alternative to Jq</a>
+ <a class='hn-top-story-link' href='https://micahkepe.com/blog/jsongrep/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>比 jq 更快的替代方案</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 247</span> <span class='hn-top-story-comments'>&#128172; 140</span> <span class='hn-top-story-tag'>Programming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='828' data-hn-time='1774554485'>
+<span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/03/27/top_stories_03272026#story-47534848'>We haven't seen the worst of what gambling and prediction markets will do</a>
  <a class='hn-top-story-link' href='https://www.derekthompson.org/p/we-havent-seen-the-worst-of-what' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>我们还没看到赌博与预测市场的最坏后果</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.2</span> <span class='hn-top-story-score'>&#9650; 679</span> <span class='hn-top-story-comments'>&#128172; 479</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 828</span> <span class='hn-top-story-comments'>&#128172; 578</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='360' data-hn-time='1774568033'>
-<span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='16' data-hn-time='1774620945'>
+<span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/27/top_stories_03272026#story-47537228'>Judge blocks Pentagon effort to 'punish' Anthropic with supply chain risk label</a>
- <a class='hn-top-story-link' href='https://www.cnn.com/2026/03/26/business/anthropic-pentagon-injunction-supply-chain-risk' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/27/top_stories_03272026#story-47542916'>Author of Red Mars calls 'bullshit' on emigrating to the planet</a>
+ <a class='hn-top-story-link' href='https://www.newscientist.com/article/2520312-author-of-red-mars-calls-bullshit-on-emigrating-to-the-planet/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>法官阻止五角大楼以供应链风险标签惩罚 Anthropic</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.9</span> <span class='hn-top-story-score'>&#9650; 360</span> <span class='hn-top-story-comments'>&#128172; 189</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>《红色火星》作者公开表示‘移居到火星’是胡扯</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.7</span> <span class='hn-top-story-score'>&#9650; 16</span> <span class='hn-top-story-comments'>&#128172; 1</span> <span class='hn-top-story-tag'>Space</span> <span class='hn-top-story-tag'>Science</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='85' data-hn-time='1774586835'>
-<span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='217' data-hn-time='1774586835'>
+<span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/03/27/top_stories_03272026#story-47539188'>Schedule tasks on the web</a>
  <a class='hn-top-story-link' href='https://code.claude.com/docs/en/web-scheduled-tasks' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>在网页上调度任务</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.5</span> <span class='hn-top-story-score'>&#9650; 85</span> <span class='hn-top-story-comments'>&#128172; 58</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Energy</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 217</span> <span class='hn-top-story-comments'>&#128172; 180</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Energy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='281' data-hn-time='1774559090'>
-<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='513' data-hn-time='1774559090'>
+<span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/03/27/top_stories_03272026#story-47535708'>Apple discontinues the Mac Pro</a>
  <a class='hn-top-story-link' href='https://9to5mac.com/2026/03/26/apple-discontinues-the-mac-pro/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>苹果停产 Mac Pro</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 281</span> <span class='hn-top-story-comments'>&#128172; 216</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 513</span> <span class='hn-top-story-comments'>&#128172; 435</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='196' data-hn-time='1774564885'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/27/top_stories_03272026#story-47536761'>Show HN: I put an AI agent on a $7/month VPS with IRC as its transport layer</a>
- <a class='hn-top-story-link' href='https://georgelarson.me/writing/2026-03-23-nullclaw-doorman/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Show HN：用 7 美元/月的 VPS 搭建 AI 代理，IRC 作为传输层</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 196</span> <span class='hn-top-story-comments'>&#128172; 63</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='573' data-hn-time='1774532305'>
-<span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/27/top_stories_03272026#story-47530330'>Moving from GitHub to Codeberg, for lazy people</a>
- <a class='hn-top-story-link' href='https://unterwaditzer.net/2025/codeberg.html' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>从 GitHub 转向 Codeberg：懒人友好的迁移指南</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.7</span> <span class='hn-top-story-score'>&#9650; 573</span> <span class='hn-top-story-comments'>&#128172; 294</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Programming</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='594' data-hn-time='1774527876'>
-<span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/27/top_stories_03272026#story-47529609'>End of "Chat Control": EU parliament stops mass surveillance</a>
- <a class='hn-top-story-link' href='https://www.patrick-breyer.de/en/end-of-chat-control-eu-parliament-stops-mass-surveillance-in-voting-thriller-paving-the-way-for-genuine-child-protection/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>《聊天控制》终结：欧盟议会阻止大规模监控，为真正的儿童保护铺路</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 594</span> <span class='hn-top-story-comments'>&#128172; 276</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='140' data-hn-time='1774566705'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/27/top_stories_03272026#story-47537051'>Order Granting Preliminary Injunction – Anthropic vs. U.S. Department of War [pdf]</a>
- <a class='hn-top-story-link' href='https://storage.courtlistener.com/recap/gov.uscourts.cand.465515/gov.uscourts.cand.465515.134.0.pdf' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>初步禁令命令——Anthropic 对阵美国战争部 [PDF]</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.1</span> <span class='hn-top-story-score'>&#9650; 140</span> <span class='hn-top-story-comments'>&#128172; 21</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='255' data-hn-time='1774550330'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='10' data-hn-time='1774622308'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/27/top_stories_03272026#story-47534086'>John Bradley, author of xv, has died</a>
- <a class='hn-top-story-link' href='https://voxday.net/2026/03/25/rip-john-bradley/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/27/top_stories_03272026#story-47543167'>Iran-linked hackers claim breach of FBI director's personal email</a>
+ <a class='hn-top-story-link' href='https://www.reuters.com/world/us/iran-linked-hackers-claim-breach-of-fbi-directors-personal-email-doj-official-2026-03-27/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>著作 xv 的作者 John Bradley 去世</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 255</span> <span class='hn-top-story-comments'>&#128172; 79</span> <span class='hn-top-story-tag'>Culture</span> <span class='hn-top-story-tag'>Design</span></div>
+<div class='hn-top-story-zh'>伊朗关联黑客声称入侵 FBI 局长的个人邮箱</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.1</span> <span class='hn-top-story-score'>&#9650; 10</span> <span class='hn-top-story-comments'>&#128172; 1</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='346' data-hn-time='1774540120'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='360' data-hn-time='1774568033'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/27/top_stories_03272026#story-47531967'>My minute-by-minute response to the LiteLLM malware attack</a>
- <a class='hn-top-story-link' href='https://futuresearch.ai/blog/litellm-attack-transcript/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/27/top_stories_03272026#story-47537228'>Judge blocks Pentagon effort to 'punish' Anthropic with supply chain risk label</a>
+ <a class='hn-top-story-link' href='https://www.cnn.com/2026/03/26/business/anthropic-pentagon-injunction-supply-chain-risk' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>对 LiteLLM 恶意软件攻击的分秒级应对</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 346</span> <span class='hn-top-story-comments'>&#128172; 132</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>DevOps</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>法官阻止五角大楼以供应链风险标签惩罚 Anthropic</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.1</span> <span class='hn-top-story-score'>&#9650; 360</span> <span class='hn-top-story-comments'>&#128172; 189</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -168,7 +168,7 @@ Your browser does not support the audio element.
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 13 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-03-23 — 2026-03-27 <span class="hn-row-sep">·</span> 650 stories <span class="hn-row-sep">·</span> 5 days</span>
+<span class='hn-week-meta'>2026-03-23 — 2026-03-27 <span class="hn-row-sep">·</span> 664 stories <span class="hn-row-sep">·</span> 5 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -177,7 +177,7 @@ Your browser does not support the audio element.
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/03/27/top_stories_03272026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>12</b> <span class="hn-row-sep">·</span> Programming <b>11</b></span>
+<span class='hn-row-detail'>All <b>64</b> <span class="hn-row-sep">·</span> Programming <b>17</b> <span class="hn-row-sep">·</span> AI <b>12</b></span>
 </a>
 </div>
 </div>

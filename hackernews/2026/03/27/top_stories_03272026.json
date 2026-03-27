@@ -4,21 +4,111 @@
     "source": "https://news.ycombinator.com/",
     "api": "https://github.com/HackerNews/API",
     "count_requested": 50,
-    "count_written": 50,
-    "reused_same_day": 0,
-    "reused_cross_day": 38,
+    "count_written": 64,
+    "reused_same_day": 36,
+    "reused_cross_day": 0,
     "new_llm_enriched": 12,
-    "scrape_time_display": "00:18, March 27, 2026 (PDT)",
+    "scrape_time_display": "07:50, March 27, 2026 (PDT)",
     "timezone": "America/Los_Angeles",
     "date_dir": "2026/03/27",
     "content_date": "2026-03-27",
-    "run_time_local": "00:18, March 27, 2026 (PDT)",
-    "run_time_utc": "2026-03-27 07:18:27 UTC",
+    "run_time_local": "07:50, March 27, 2026 (PDT)",
+    "run_time_utc": "2026-03-27 14:50:45 UTC",
     "incremental": true,
     "stories_max": 100,
-    "hot_score_time_utc": "2026-03-27 07:19:45 UTC"
+    "hot_score_time_utc": "2026-03-27 14:52:10 UTC"
   },
   "items": [
+    {
+      "title_en": "The 'Paperwork Flood': How I Drowned a Bureaucrat Before Dinner",
+      "url": "https://sightlessscribbles.com/posts/the-paperwork-flood/",
+      "title_zh": "“纸上洪流”：我在晚餐前把官僚打败",
+      "created_display": "Created: Mar 27, 2026 / 05:46 PT",
+      "image_url": null,
+      "summary_en": "A humorous, first-person account of wrestling with bureaucratic red tape as the author builds a metaphorical 'paperwork flood'. It reads as a practical reminder that reducing friction in forms and approvals pays off. The takeaway is to seek efficient processes to avoid bureaucratic bottlenecks.",
+      "summary_zh": "这篇以“纸上洪流”为题的博客故事，讲述作者如何对付繁琐的官僚流程。通过一连串讽刺与经验教训，揭示繁文缛节的痛点及应对思路。核心在于在文书工作中寻求高效、低摩擦的处理方式，避免被繁琐拖垮。",
+      "hn": {
+        "id": 47542057,
+        "type": "story",
+        "by": "robin_reala",
+        "score": 216,
+        "descendants": 122,
+        "time": 1774615609,
+        "comments_url": "https://news.ycombinator.com/item?id=47542057"
+      },
+      "hot_score": 17.04,
+      "tags": [
+        "Business"
+      ]
+    },
+    {
+      "title_en": "Hold on to Your Hardware",
+      "url": "https://xn--gckvb8fzb.com/hold-on-to-your-hardware/",
+      "title_zh": "守住你的硬件",
+      "created_display": "Created: Mar 27, 2026 / 03:10 PT",
+      "image_url": "https://xn--gckvb8fzb.com/hold-on-to-your-hardware/images/cover.jpg",
+      "summary_en": "A short essay argues for extending hardware lifespans through repairable design, modular upgrades, and stronger anti-obsolescence norms. It warns that consumer electronics waste grows as devices become harder to repair, urging both makers and buyers to rethink responsibility.",
+      "summary_zh": "本文主张通过可维修设计、模块化升级和更强的反废弃规范来延长硬件寿命，警示随电子产品推陈出新导致的电子废弃物增加。作者呼吁厂商与用户共同重塑责任感，以减缓浪费并提升可持续性。",
+      "hn": {
+        "id": 47540833,
+        "type": "story",
+        "by": "LucidLynx",
+        "score": 339,
+        "descendants": 280,
+        "time": 1774606241,
+        "comments_url": "https://news.ycombinator.com/item?id=47540833"
+      },
+      "tags": [
+        "Hardware"
+      ],
+      "hot_score": 11.04
+    },
+    {
+      "title_en": "Hong Kong Police Can Now Demand Phone Passwords Under New Security Rules",
+      "url": "https://www.gadgetreview.com/hong-kong-police-can-now-demand-phone-passwords-under-new-security-rules",
+      "title_zh": "新安全规则下，香港警方可要求解锁手机密码",
+      "created_display": "Created: Mar 27, 2026 / 06:57 PT",
+      "image_url": "https://www.gadgetreview.com/wp-content/uploads/Depositphotos_169835510_XL-scaled.jpg",
+      "summary_en": "New security rules in Hong Kong let police request unlock codes for phones under certain conditions, expanding device-access powers. The move raises privacy and civil-liberties concerns for everyday users and organizations. Practically, users should be aware of legal triggers and how to safeguard data.",
+      "summary_zh": "香港新规赋予警方在特定情况下要求解锁手机的权力，扩展了对设备的访问能力。此举引发对隐私与公民自由的担忧，尤其对普通用户和机构。实际要点在于了解触发条件并采取数据保护措施。",
+      "hn": {
+        "id": 47542722,
+        "type": "story",
+        "by": "vidyesh",
+        "score": 38,
+        "descendants": 29,
+        "time": 1774619856,
+        "comments_url": "https://news.ycombinator.com/item?id=47542722"
+      },
+      "hot_score": 5.41,
+      "tags": [
+        "Privacy",
+        "Legal",
+        "Security"
+      ]
+    },
+    {
+      "title_en": "A Faster Alternative to Jq",
+      "url": "https://micahkepe.com/blog/jsongrep/",
+      "title_zh": "比 jq 更快的替代方案",
+      "created_display": "Created: Mar 27, 2026 / 00:12 PT",
+      "image_url": "https://micahkepe.com/blog/icons/favicon/web-app-manifest-512x512.png",
+      "summary_en": "A new JSON data querying tool provides a faster alternative to jq, offering performance improvements and simpler usage for shell scripting and data pipelines. It aims to streamline JSON processing at scale.",
+      "summary_zh": "一款新的JSON数据查询工具提供比jq更快的性能和更简洁的用法，有望提升shell脚本和数据管道中的JSON处理效率。该工具若实现大规模数据处理，将成为开发与运维的有力助手。",
+      "hn": {
+        "id": 47539825,
+        "type": "story",
+        "by": "pistolario",
+        "score": 247,
+        "descendants": 140,
+        "time": 1774595546,
+        "comments_url": "https://news.ycombinator.com/item?id=47539825"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 4.15
+    },
     {
       "title_en": "We haven't seen the worst of what gambling and prediction markets will do",
       "url": "https://www.derekthompson.org/p/we-havent-seen-the-worst-of-what",
@@ -31,8 +121,8 @@
         "id": 47534848,
         "type": "story",
         "by": "mmcclure",
-        "score": 679,
-        "descendants": 479,
+        "score": 828,
+        "descendants": 578,
         "time": 1774554485,
         "comments_url": "https://news.ycombinator.com/item?id=47534848"
       },
@@ -40,7 +130,97 @@
         "AI",
         "Politics"
       ],
-      "hot_score": 6.24
+      "hot_score": 3.43
+    },
+    {
+      "title_en": "Author of Red Mars calls 'bullshit' on emigrating to the planet",
+      "url": "https://www.newscientist.com/article/2520312-author-of-red-mars-calls-bullshit-on-emigrating-to-the-planet/",
+      "title_zh": "《红色火星》作者公开表示‘移居到火星’是胡扯",
+      "created_display": "Created: Mar 27, 2026 / 07:15 PT",
+      "image_url": "https://images.newscientist.com/wp-content/uploads/2026/03/23145152/sei290668427.jpg",
+      "summary_en": "Red Mars author expresses skepticism about emigrating to Mars, arguing that colonization fantasies overlook practicalities and risks. The piece challenges space-colonization hype and calls for more nuanced, critical thinking about such dreams.",
+      "summary_zh": "《红色火星》作者对移居火星的设想表达怀疑，认为殖民梦不切实际且风险重重。文章批评太空殖民的热潮，呼吁对这类梦想保持更清醒、批判性的观点。",
+      "hn": {
+        "id": 47542916,
+        "type": "story",
+        "by": "Brajeshwar",
+        "score": 16,
+        "descendants": 1,
+        "time": 1774620945,
+        "comments_url": "https://news.ycombinator.com/item?id=47542916"
+      },
+      "hot_score": 2.67,
+      "tags": [
+        "Space",
+        "Science"
+      ]
+    },
+    {
+      "title_en": "Schedule tasks on the web",
+      "url": "https://code.claude.com/docs/en/web-scheduled-tasks",
+      "title_zh": "在网页上调度任务",
+      "created_display": "Created: Mar 26, 2026 / 21:47 PT",
+      "image_url": "https://claude-code.mintlify.app/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3DClaude%2BCode%2Bon%2Bthe%2Bweb%26appearance%3Dsystem%26title%3DSchedule%2Btasks%2Bon%2Bthe%2Bweb%26description%3DAutomate%2Brecurring%2Bwork%2Bwith%2Bcloud%2Bscheduled%2Btasks%26logoLight%3Dhttps%253A%252F%252Fmintcdn.com%252Fclaude-code%252Fc5r9_6tjPMzFdDDT%252Flogo%252Flight.svg%253Ffit%253Dmax%2526auto%253Dformat%2526n%253Dc5r9_6tjPMzFdDDT%2526q%253D85%2526s%253D78fd01ff4f4340295a4f66e2ea54903c%26logoDark%3Dhttps%253A%252F%252Fmintcdn.com%252Fclaude-code%252Fc5r9_6tjPMzFdDDT%252Flogo%252Fdark.svg%253Ffit%253Dmax%2526auto%253Dformat%2526n%253Dc5r9_6tjPMzFdDDT%2526q%253D85%2526s%253D1298a0c3b3a1da603b190d0de0e31712%26primaryColor%3D%25230E0E0E%26lightColor%3D%2523D4A27F%26darkColor%3D%25230E0E0E%26backgroundLight%3D%2523FDFDF7%26backgroundDark%3D%252309090B&w=1200&q=100",
+      "summary_en": "Scheduling tasks on the web goes beyond setTimeouts, covering browser APIs for background work and time-based triggers. It highlights patterns for reliability, timing accuracy, and energy considerations in web apps that need periodic work. Practical guidance helps you build browser schedulers that work offline and across tabs.",
+      "summary_zh": "探讨在网页应用中实现定时任务的新思路，涵盖服务工作者、后台任务和基于时间的触发等模式。讨论在可用性、精度和电量成本之间的权衡，以及跨标签、离线环境中的可行策略。为在浏览器中构建健壮的周期性调度器提供实用建议。",
+      "hn": {
+        "id": 47539188,
+        "type": "story",
+        "by": "iBelieve",
+        "score": 217,
+        "descendants": 180,
+        "time": 1774586835,
+        "comments_url": "https://news.ycombinator.com/item?id=47539188"
+      },
+      "tags": [
+        "Web",
+        "Energy"
+      ],
+      "hot_score": 2.44
+    },
+    {
+      "title_en": "Apple discontinues the Mac Pro",
+      "url": "https://9to5mac.com/2026/03/26/apple-discontinues-the-mac-pro/",
+      "title_zh": "苹果停产 Mac Pro",
+      "created_display": "Created: Mar 26, 2026 / 14:04 PT",
+      "image_url": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2026/03/mac-pro-rip.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+      "summary_en": "Apple has ended the Mac Pro line, signaling a shift away from modular Xeon-based workstations toward higher-density consumer-grade hardware or external compute options. Professionals may pivot to Mac Studio or other external compute solutions, reshaping workflows that depend on PCIe expandability and upgradeability.",
+      "summary_zh": "苹果宣布停产 Mac Pro，这标志着其工作站路线向高密度消费级硬件或外部计算方案的转变。专业用户可能转向 Mac Studio 或其他外设扩展解决方案，升级与扩展性成为新关注点。",
+      "hn": {
+        "id": 47535708,
+        "type": "story",
+        "by": "bentocorp",
+        "score": 513,
+        "descendants": 435,
+        "time": 1774559090,
+        "comments_url": "https://news.ycombinator.com/item?id=47535708"
+      },
+      "tags": [
+        "Hardware"
+      ],
+      "hot_score": 2.38
+    },
+    {
+      "title_en": "Iran-linked hackers claim breach of FBI director's personal email",
+      "url": "https://www.reuters.com/world/us/iran-linked-hackers-claim-breach-of-fbi-directors-personal-email-doj-official-2026-03-27/",
+      "title_zh": "伊朗关联黑客声称入侵 FBI 局长的个人邮箱",
+      "created_display": "Created: Mar 27, 2026 / 07:38 PT",
+      "image_url": null,
+      "summary_en": "Iran-linked hackers claim breach of FBI director's personal email, highlighting the risk of high-profile personal accounts being exploited. The attribution raises questions about how such breaches may occur and how agencies defend personal vectors.",
+      "summary_zh": "与伊朗有关的黑客声称入侵了 FBI 局长的个人邮箱，凸显高调人物个人账户被利用的风险。此归因引发对此类漏洞的形成机制及机构如何防护个人入口的思考。",
+      "hn": {
+        "id": 47543167,
+        "type": "story",
+        "by": "m-hodges",
+        "score": 10,
+        "descendants": 1,
+        "time": 1774622308,
+        "comments_url": "https://news.ycombinator.com/item?id=47543167"
+      },
+      "hot_score": 2.13,
+      "tags": [
+        "Security"
+      ]
     },
     {
       "title_en": "Judge blocks Pentagon effort to 'punish' Anthropic with supply chain risk label",
@@ -60,82 +240,10 @@
         "comments_url": "https://news.ycombinator.com/item?id=47537228"
       },
       "tags": [
-        "Security",
         "Legal",
         "AI"
       ],
-      "hot_score": 5.94
-    },
-    {
-      "title_en": "Schedule tasks on the web",
-      "url": "https://code.claude.com/docs/en/web-scheduled-tasks",
-      "title_zh": "在网页上调度任务",
-      "created_display": "Created: Mar 26, 2026 / 21:47 PT",
-      "image_url": "https://claude-code.mintlify.app/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3DClaude%2BCode%2Bon%2Bthe%2Bweb%26appearance%3Dsystem%26title%3DSchedule%2Btasks%2Bon%2Bthe%2Bweb%26description%3DAutomate%2Brecurring%2Bwork%2Bwith%2Bcloud%2Bscheduled%2Btasks%26logoLight%3Dhttps%253A%252F%252Fmintcdn.com%252Fclaude-code%252Fc5r9_6tjPMzFdDDT%252Flogo%252Flight.svg%253Ffit%253Dmax%2526auto%253Dformat%2526n%253Dc5r9_6tjPMzFdDDT%2526q%253D85%2526s%253D78fd01ff4f4340295a4f66e2ea54903c%26logoDark%3Dhttps%253A%252F%252Fmintcdn.com%252Fclaude-code%252Fc5r9_6tjPMzFdDDT%252Flogo%252Fdark.svg%253Ffit%253Dmax%2526auto%253Dformat%2526n%253Dc5r9_6tjPMzFdDDT%2526q%253D85%2526s%253D1298a0c3b3a1da603b190d0de0e31712%26primaryColor%3D%25230E0E0E%26lightColor%3D%2523D4A27F%26darkColor%3D%25230E0E0E%26backgroundLight%3D%2523FDFDF7%26backgroundDark%3D%252309090B&w=1200&q=100",
-      "summary_en": "Scheduling tasks on the web goes beyond setTimeouts, covering browser APIs for background work and time-based triggers. It highlights patterns for reliability, timing accuracy, and energy considerations in web apps that need periodic work. Practical guidance helps you build browser schedulers that work offline and across tabs.",
-      "summary_zh": "探讨在网页应用中实现定时任务的新思路，涵盖服务工作者、后台任务和基于时间的触发等模式。讨论在可用性、精度和电量成本之间的权衡，以及跨标签、离线环境中的可行策略。为在浏览器中构建健壮的周期性调度器提供实用建议。",
-      "hn": {
-        "id": 47539188,
-        "type": "story",
-        "by": "iBelieve",
-        "score": 85,
-        "descendants": 58,
-        "time": 1774586835,
-        "comments_url": "https://news.ycombinator.com/item?id=47539188"
-      },
-      "hot_score": 5.51,
-      "tags": [
-        "Programming",
-        "Web",
-        "Energy"
-      ]
-    },
-    {
-      "title_en": "Apple discontinues the Mac Pro",
-      "url": "https://9to5mac.com/2026/03/26/apple-discontinues-the-mac-pro/",
-      "title_zh": "苹果停产 Mac Pro",
-      "created_display": "Created: Mar 26, 2026 / 14:04 PT",
-      "image_url": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2026/03/mac-pro-rip.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
-      "summary_en": "Apple has ended the Mac Pro line, signaling a shift away from modular Xeon-based workstations toward higher-density consumer-grade hardware or external compute options. Professionals may pivot to Mac Studio or other external compute solutions, reshaping workflows that depend on PCIe expandability and upgradeability.",
-      "summary_zh": "苹果宣布停产 Mac Pro，这标志着其工作站路线向高密度消费级硬件或外部计算方案的转变。专业用户可能转向 Mac Studio 或其他外设扩展解决方案，升级与扩展性成为新关注点。",
-      "hn": {
-        "id": 47535708,
-        "type": "story",
-        "by": "bentocorp",
-        "score": 281,
-        "descendants": 216,
-        "time": 1774559090,
-        "comments_url": "https://news.ycombinator.com/item?id=47535708"
-      },
-      "tags": [
-        "Hardware",
-        "Business"
-      ],
-      "hot_score": 3.08
-    },
-    {
-      "title_en": "Show HN: I put an AI agent on a $7/month VPS with IRC as its transport layer",
-      "url": "https://georgelarson.me/writing/2026-03-23-nullclaw-doorman/",
-      "title_zh": "Show HN：用 7 美元/月的 VPS 搭建 AI 代理，IRC 作为传输层",
-      "created_display": "Created: Mar 26, 2026 / 15:41 PT",
-      "image_url": null,
-      "summary_en": "A lightweight experiment shows running an AI agent on a $7/month VPS with IRC as the transport layer. It demonstrates that cheap hosting and a simple transport protocol can support autonomous AI agents, albeit with trade-offs on reliability and security.",
-      "summary_zh": "一个极低成本的 AI 代理实验，使用每月 7 美元的 VPS 和 IRC 作为传输通道运行。这个演示表明，廉价主机与轻量协议也能支撑自主 AI 代理，但在可靠性和安全性方面存在取舍。",
-      "hn": {
-        "id": 47536761,
-        "type": "story",
-        "by": "j0rg3",
-        "score": 196,
-        "descendants": 63,
-        "time": 1774564885,
-        "comments_url": "https://news.ycombinator.com/item?id=47536761"
-      },
-      "tags": [
-        "Show HN",
-        "AI",
-        "Security"
-      ],
-      "hot_score": 2.76
+      "hot_score": 2.12
     },
     {
       "title_en": "Moving from GitHub to Codeberg, for lazy people",
@@ -149,17 +257,41 @@
         "id": 47530330,
         "type": "story",
         "by": "jslakro",
-        "score": 573,
-        "descendants": 294,
+        "score": 603,
+        "descendants": 310,
         "time": 1774532305,
         "comments_url": "https://news.ycombinator.com/item?id=47530330"
       },
       "tags": [
         "Open Source",
-        "Privacy",
-        "Programming"
+        "Programming",
+        "Privacy"
       ],
-      "hot_score": 2.68
+      "hot_score": 1.57
+    },
+    {
+      "title_en": "Show HN: I put an AI agent on a $7/month VPS with IRC as its transport layer",
+      "url": "https://georgelarson.me/writing/2026-03-23-nullclaw-doorman/",
+      "title_zh": "Show HN：用 7 美元/月的 VPS 搭建 AI 代理，IRC 作为传输层",
+      "created_display": "Created: Mar 26, 2026 / 15:41 PT",
+      "image_url": null,
+      "summary_en": "A lightweight experiment shows running an AI agent on a $7/month VPS with IRC as the transport layer. It demonstrates that cheap hosting and a simple transport protocol can support autonomous AI agents, albeit with trade-offs on reliability and security.",
+      "summary_zh": "一个极低成本的 AI 代理实验，使用每月 7 美元的 VPS 和 IRC 作为传输通道运行。这个演示表明，廉价主机与轻量协议也能支撑自主 AI 代理，但在可靠性和安全性方面存在取舍。",
+      "hn": {
+        "id": 47536761,
+        "type": "story",
+        "by": "j0rg3",
+        "score": 289,
+        "descendants": 83,
+        "time": 1774564885,
+        "comments_url": "https://news.ycombinator.com/item?id=47536761"
+      },
+      "tags": [
+        "Show HN",
+        "AI",
+        "Security"
+      ],
+      "hot_score": 1.56
     },
     {
       "title_en": "End of \"Chat Control\": EU parliament stops mass surveillance",
@@ -173,8 +305,8 @@
         "id": 47529609,
         "type": "story",
         "by": "amarcheschi",
-        "score": 594,
-        "descendants": 276,
+        "score": 642,
+        "descendants": 288,
         "time": 1774527876,
         "comments_url": "https://news.ycombinator.com/item?id=47529609"
       },
@@ -182,7 +314,255 @@
         "Privacy",
         "Politics"
       ],
-      "hot_score": 2.49
+      "hot_score": 1.55
+    },
+    {
+      "title_en": "The European AllSky7 fireball network",
+      "url": "https://www.allsky7.net/#archive",
+      "title_zh": "欧洲 AllSky7 火球观测网",
+      "created_display": "Created: Mar 27, 2026 / 00:00 PT",
+      "image_url": null,
+      "summary_en": "Europe-wide AllSky7 coordinates autonomous cameras to detect and track fireballs and meteors across the night sky. The network enables large-scale data collection on asteroid and atmospheric events, contributing to research and public engagement in astronomy. Real-time alerts and archival data deepen understanding of near-Earth space.",
+      "summary_zh": "欧洲 AllSky7 全域性利用星空摄像头网络，统一协调观测火球与流星的轨迹与亮度数据。该网络扩展了天文观测覆盖范围，推动相关研究与公众参与，既有实时警报也有海量归档数据。",
+      "hn": {
+        "id": 47539767,
+        "type": "story",
+        "by": "marklit",
+        "score": 90,
+        "descendants": 7,
+        "time": 1774594849,
+        "comments_url": "https://news.ycombinator.com/item?id=47539767"
+      },
+      "tags": [
+        "Space",
+        "Science"
+      ],
+      "hot_score": 1.45
+    },
+    {
+      "title_en": "$500 GPU outperforms Claude Sonnet on coding benchmarks",
+      "url": "https://github.com/itigges22/ATLAS",
+      "title_zh": "500 美元 GPU 在编码基准测试中胜过 Claude Sonnet",
+      "created_display": "Created: Mar 26, 2026 / 10:31 PT",
+      "image_url": "https://opengraph.githubassets.com/1326df1d4de0e9bb5617df65a2e96d401bc743845fa843713d11fc68760f8f5f/itigges22/ATLAS",
+      "summary_en": "A $500 GPU reportedly outperforms Claude Sonnet on coding benchmarks, signaling that consumer hardware can rival dedicated AI accelerators for certain tasks. This shifts cost considerations for AI research and development.",
+      "summary_zh": "据报道，价值 500 美元的显卡在编码基准测试中胜过 Claude Sonnet，表明部分任务上普通硬件也能与专用 AI 加速器对抗。这将改变 AI 研究与开发的成本考量。",
+      "hn": {
+        "id": 47533297,
+        "type": "story",
+        "by": "yogthos",
+        "score": 395,
+        "descendants": 222,
+        "time": 1774546284,
+        "comments_url": "https://news.ycombinator.com/item?id=47533297"
+      },
+      "tags": [
+        "AI",
+        "Hardware"
+      ],
+      "hot_score": 1.36
+    },
+    {
+      "title_en": "People inside Microsoft are fighting to drop mandatory Microsoft Account",
+      "url": "https://www.windowscentral.com/microsoft/windows-11/people-inside-microsoft-are-fighting-to-drop-windows-11s-mandatory-microsoft-account-requirements-during-setup",
+      "title_zh": "微软内部推动取消 Windows 11 的强制微软账户",
+      "created_display": "Created: Mar 27, 2026 / 06:54 PT",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/JCodoJxkyaJ8XW3FU9wbEB-1376-80.png",
+      "summary_en": "Inside Microsoft, discussions are intensifying about dropping Windows 11's mandatory Microsoft Account requirement, signaling a possible shift in setup flow and user choice. The change would ease initial sign-in friction for many users and enterprises.",
+      "summary_zh": "微软内部对取消 Windows 11 强制微软账户的讨论日益激烈，显示安装流程和用户选择可能放宽。此举将降低大量用户和企业在初始登录时的阻力。",
+      "hn": {
+        "id": 47542695,
+        "type": "story",
+        "by": "breve",
+        "score": 10,
+        "descendants": 0,
+        "time": 1774619675,
+        "comments_url": "https://news.ycombinator.com/item?id=47542695"
+      },
+      "hot_score": 1.28,
+      "tags": [
+        "Privacy",
+        "Business"
+      ]
+    },
+    {
+      "title_en": "My minute-by-minute response to the LiteLLM malware attack",
+      "url": "https://futuresearch.ai/blog/litellm-attack-transcript/",
+      "title_zh": "对 LiteLLM 恶意软件攻击的分秒级应对",
+      "created_display": "Created: Mar 26, 2026 / 08:48 PT",
+      "image_url": "https://futuresearch.ai/futuresearch-logo.webp",
+      "summary_en": "A minute-by-minute walk-through of responding to a LiteLLM malware incident, highlighting rapid detection, containment, and forensics. The post doubles as a practical blueprint for securing LLM deployments and tightening incident-response playbooks under pressure.",
+      "summary_zh": "对 LiteLLM 恶意软件攻击的逐分钟应对过程，强调快速检测、隔离与取证。内容同时提供在压力下保护 LLM 部署、强化事件响应流程的实用蓝本。",
+      "hn": {
+        "id": 47531967,
+        "type": "story",
+        "by": "Fibonar",
+        "score": 404,
+        "descendants": 151,
+        "time": 1774540120,
+        "comments_url": "https://news.ycombinator.com/item?id=47531967"
+      },
+      "tags": [
+        "Security",
+        "AI"
+      ],
+      "hot_score": 1.22
+    },
+    {
+      "title_en": "We rewrote JSONata with AI in a day, saved $500k/year",
+      "url": "https://www.reco.ai/blog/we-rewrote-jsonata-with-ai",
+      "title_zh": "我们在一天内用 AI 重写 JSONata，年省 50 万美元",
+      "created_display": "Created: Mar 26, 2026 / 15:36 PT",
+      "image_url": "https://cdn.prod.website-files.com/644fc991ce69ff211edbeb95/69c41472d9654291b273f039_Blog%20Image%20Website-03-26%20We%20rewrote%20JSONata-%24400%2C%20and%20saved%20us%20%24300K%20(1)%20(1)%20(1).png",
+      "summary_en": "A team rewrote the JSONata transformation engine using AI in a single day, achieving substantial maintenance savings. The move illustrates AI-assisted code rewriting at scale, with caveats around verification and reliability.",
+      "summary_zh": "团队在一天内使用 AI 重写了 JSONata 转换引擎，显著降低维护成本。此案例展示了大规模 AI 辅助代码改写的潜力，但需对产出进行充分验证与可靠性评估。",
+      "hn": {
+        "id": 47536712,
+        "type": "story",
+        "by": "cjlm",
+        "score": 219,
+        "descendants": 195,
+        "time": 1774564601,
+        "comments_url": "https://news.ycombinator.com/item?id=47536712"
+      },
+      "tags": [
+        "AI",
+        "Programming"
+      ],
+      "hot_score": 1.17
+    },
+    {
+      "title_en": "John Bradley, author of xv, has died",
+      "url": "https://voxday.net/2026/03/25/rip-john-bradley/",
+      "title_zh": "著作 xv 的作者 John Bradley 去世",
+      "created_display": "Created: Mar 26, 2026 / 11:38 PT",
+      "image_url": "https://arkhavencomics.com/wp-content/uploads/2025/01/Cathedra_600-1.png",
+      "summary_en": "John Bradley, author of the influential book xv, has died. Bradley's work helped shape early tech writing and sparked conversations about software design and aesthetics.",
+      "summary_zh": "著作 xv 的影响力作者约翰·布拉德利去世。他的作品促使人们思考早期科技写作以及软件设计与美学的讨论。",
+      "hn": {
+        "id": 47534086,
+        "type": "story",
+        "by": "linsomniac",
+        "score": 286,
+        "descendants": 88,
+        "time": 1774550330,
+        "comments_url": "https://news.ycombinator.com/item?id=47534086"
+      },
+      "tags": [
+        "Culture"
+      ],
+      "hot_score": 1.07
+    },
+    {
+      "title_en": "Running Tesla Model 3's computer on my desk using parts from crashed cars",
+      "url": "https://bugs.xdavidhu.me/tesla/2026/03/23/running-tesla-model-3s-computer-on-my-desk-using-parts-from-crashed-cars/",
+      "title_zh": "用桌面裝置與回收車輛零件運行特斯拉 Model 3 的電腦",
+      "created_display": "Created: Mar 25, 2026 / 14:11 PT",
+      "image_url": "https://bugs.xdavidhu.me/assets/posts/2026-03-23-running-tesla-model-3s-computer-on-my-desk-using-parts-from-crashed-cars/card.jpg",
+      "summary_en": "A maker demonstrates powering and running the Tesla Model 3's computer on a desktop rig using salvaged parts from crashed cars. The project shows automotive-grade compute can be repurposed for off-car experimentation, highlighting both learning value and safety/compatibility challenges.",
+      "summary_zh": "一位硬件爱好者用从撞车事故中回收的部件，在桌面上搭建并运行特斯拉 Model 3 的计算机。该项目展示了汽车级算力可以被改作桌面实验，但也暴露出安全与兼容性方面的挑战。",
+      "hn": {
+        "id": 47523330,
+        "type": "story",
+        "by": "driesdep",
+        "score": 916,
+        "descendants": 319,
+        "time": 1774473117,
+        "comments_url": "https://news.ycombinator.com/item?id=47523330"
+      },
+      "tags": [
+        "Hardware"
+      ],
+      "hot_score": 1.02
+    },
+    {
+      "title_en": "CERN to host a new phase of Open Research Europe",
+      "url": "https://home.cern/news/news/cern/cern-host-europes-flagship-open-access-publishing-platform",
+      "title_zh": "CERN 将承办 Open Research Europe 新阶段",
+      "created_display": "Created: Mar 26, 2026 / 12:30 PT",
+      "image_url": "https://cds.cern.ch/images//file?size=medium",
+      "summary_en": "CERN will host the new phase of Open Research Europe, expanding an EU-wide open-access publishing platform. The move signals ongoing investment in open science infrastructure and could reshape visibility and funding flows for European research.",
+      "summary_zh": "CERN 将承办 Open Research Europe 的新阶段，扩大覆盖欧盟的开放获取出版平台。这一举措表明将持续投入开放科学基础设施，可能影响欧洲研究的可见性与资助格局。",
+      "hn": {
+        "id": 47534629,
+        "type": "story",
+        "by": "JohnHammersley",
+        "score": 238,
+        "descendants": 24,
+        "time": 1774553435,
+        "comments_url": "https://news.ycombinator.com/item?id=47534629"
+      },
+      "tags": [
+        "Science",
+        "DevOps"
+      ],
+      "hot_score": 0.96
+    },
+    {
+      "title_en": "Olympic Committee bars transgender athletes from women’s events",
+      "url": "https://www.nytimes.com/2026/03/26/world/olympics/ioc-transgender-athletes-ban.html?unlocked_article_code=1.WFA.U8U0.iEs61HsUkQj5",
+      "title_zh": "国际奥委会将跨性别运动员排除在女子项目之外",
+      "created_display": "Created: Mar 26, 2026 / 07:32 PT",
+      "image_url": null,
+      "summary_en": "The policy decision to bar transgender athletes from women’s events sparks heated debate over fairness, inclusion, and science in sport, signaling ongoing tensions between governance and evolving gender policy.",
+      "summary_zh": "将跨性别运动员排除在女子项目之外的政策引发关于公平、包容与体育科学的激烈辩论，反映体育治理与性别政策之间持续的紧张关系。",
+      "hn": {
+        "id": 47530945,
+        "type": "story",
+        "by": "RestlessMind",
+        "score": 324,
+        "descendants": 736,
+        "time": 1774535554,
+        "comments_url": "https://news.ycombinator.com/item?id=47530945"
+      },
+      "tags": [
+        "Politics"
+      ],
+      "hot_score": 0.9
+    },
+    {
+      "title_en": "Personal Encyclopedias",
+      "url": "https://whoami.wiki/blog/personal-encyclopedias",
+      "title_zh": "个人百科全书",
+      "created_display": "Created: Mar 25, 2026 / 12:41 PT",
+      "image_url": "https://whoami.wiki/blog/personal-encyclopedias/opengraph-image.png?v=2",
+      "summary_en": "Explores how individuals build personal encyclopedias to organize knowledge, notes, and references into a portable, searchable knowledge base. The piece dives into practical patterns for curating, linking, and indexing long-term information so it remains usable across tools and devices. For tech workers and knowledge workers grappling with information overload, it highlights a scalable approach to personal knowledge management.",
+      "summary_zh": "探讨个人如何建立百科式知识库，将笔记、引用和资料整合成可检索的本地知识体系。文章深入讨论对条目进行整理、链接与索引的实用模式，以便在不同工具和设备间保持可用性。对于面临信息过载的技术工作者和知识工作者，这种个人知识管理的可扩展方法尤为重要。",
+      "hn": {
+        "id": 47522173,
+        "type": "story",
+        "by": "jrmyphlmn",
+        "score": 850,
+        "descendants": 179,
+        "time": 1774467711,
+        "comments_url": "https://news.ycombinator.com/item?id=47522173"
+      },
+      "tags": [
+        "Education"
+      ],
+      "hot_score": 0.89
+    },
+    {
+      "title_en": "Why so many control rooms were seafoam green (2025)",
+      "url": "https://bethmathews.substack.com/p/why-so-many-control-rooms-were-seafoam",
+      "title_zh": "为什么大量控制室偏好海泡绿（2025）",
+      "created_display": "Created: Mar 25, 2026 / 08:46 PT",
+      "image_url": null,
+      "summary_en": "The color choice in control rooms often favors seafoam green because it reduces glare and supports sustained focus during long shifts. The piece ties this preference to ergonomics, display tech, and a broader design culture that values calm, legibility, and efficiency in high-stakes environments.",
+      "summary_zh": "控制室的颜色选择常常偏向海泡绿，因为它能降低眩光、帮助在长时间工作中保持专注。本文将这一偏好与人体工效学、显示技术以及强调冷静、易读与高效的设计文化联系起来，探讨在高压环境中的实用性。",
+      "hn": {
+        "id": 47518960,
+        "type": "story",
+        "by": "Amorymeltzer",
+        "score": 916,
+        "descendants": 190,
+        "time": 1774453589,
+        "comments_url": "https://news.ycombinator.com/item?id=47518960"
+      },
+      "tags": [
+        "Design"
+      ],
+      "hot_score": 0.83
     },
     {
       "title_en": "Order Granting Preliminary Injunction – Anthropic vs. U.S. Department of War [pdf]",
@@ -205,167 +585,7 @@
         "Legal",
         "AI"
       ],
-      "hot_score": 2.15
-    },
-    {
-      "title_en": "John Bradley, author of xv, has died",
-      "url": "https://voxday.net/2026/03/25/rip-john-bradley/",
-      "title_zh": "著作 xv 的作者 John Bradley 去世",
-      "created_display": "Created: Mar 26, 2026 / 11:38 PT",
-      "image_url": "https://arkhavencomics.com/wp-content/uploads/2025/01/Cathedra_600-1.png",
-      "summary_en": "John Bradley, author of the influential book xv, has died. Bradley's work helped shape early tech writing and sparked conversations about software design and aesthetics.",
-      "summary_zh": "著作 xv 的影响力作者约翰·布拉德利去世。他的作品促使人们思考早期科技写作以及软件设计与美学的讨论。",
-      "hn": {
-        "id": 47534086,
-        "type": "story",
-        "by": "linsomniac",
-        "score": 255,
-        "descendants": 79,
-        "time": 1774550330,
-        "comments_url": "https://news.ycombinator.com/item?id=47534086"
-      },
-      "tags": [
-        "Culture",
-        "Design"
-      ],
-      "hot_score": 2.02
-    },
-    {
-      "title_en": "My minute-by-minute response to the LiteLLM malware attack",
-      "url": "https://futuresearch.ai/blog/litellm-attack-transcript/",
-      "title_zh": "对 LiteLLM 恶意软件攻击的分秒级应对",
-      "created_display": "Created: Mar 26, 2026 / 08:48 PT",
-      "image_url": "https://futuresearch.ai/futuresearch-logo.webp",
-      "summary_en": "A minute-by-minute walk-through of responding to a LiteLLM malware incident, highlighting rapid detection, containment, and forensics. The post doubles as a practical blueprint for securing LLM deployments and tightening incident-response playbooks under pressure.",
-      "summary_zh": "对 LiteLLM 恶意软件攻击的逐分钟应对过程，强调快速检测、隔离与取证。内容同时提供在压力下保护 LLM 部署、强化事件响应流程的实用蓝本。",
-      "hn": {
-        "id": 47531967,
-        "type": "story",
-        "by": "Fibonar",
-        "score": 346,
-        "descendants": 132,
-        "time": 1774540120,
-        "comments_url": "https://news.ycombinator.com/item?id=47531967"
-      },
-      "tags": [
-        "Security",
-        "DevOps",
-        "AI"
-      ],
-      "hot_score": 1.99
-    },
-    {
-      "title_en": "CERN to host a new phase of Open Research Europe",
-      "url": "https://home.cern/news/news/cern/cern-host-europes-flagship-open-access-publishing-platform",
-      "title_zh": "CERN 将承办 Open Research Europe 新阶段",
-      "created_display": "Created: Mar 26, 2026 / 12:30 PT",
-      "image_url": "https://cds.cern.ch/images//file?size=medium",
-      "summary_en": "CERN will host the new phase of Open Research Europe, expanding an EU-wide open-access publishing platform. The move signals ongoing investment in open science infrastructure and could reshape visibility and funding flows for European research.",
-      "summary_zh": "CERN 将承办 Open Research Europe 的新阶段，扩大覆盖欧盟的开放获取出版平台。这一举措表明将持续投入开放科学基础设施，可能影响欧洲研究的可见性与资助格局。",
-      "hn": {
-        "id": 47534629,
-        "type": "story",
-        "by": "JohnHammersley",
-        "score": 216,
-        "descendants": 19,
-        "time": 1774553435,
-        "comments_url": "https://news.ycombinator.com/item?id=47534629"
-      },
-      "tags": [
-        "Science",
-        "DevOps"
-      ],
-      "hot_score": 1.9
-    },
-    {
-      "title_en": "From 0% to 36% on Day 1 of ARC-AGI-3",
-      "url": "https://www.symbolica.ai/blog/arc-agi-3",
-      "title_zh": "ARC-AGI-3 首日实现从 0% 到 36% 的跃进",
-      "created_display": "Created: Mar 26, 2026 / 18:32 PT",
-      "image_url": "https://www.symbolica.ai/images/blog/meta/arc-agi-3.png",
-      "summary_en": "ARC-AGI-3 shows rapid early progress, jumping from 0% to 36% on day one. The result hints at aggressive development and potential near-term capability gains, albeit early and with uncertainties about sustainment.",
-      "summary_zh": "ARC-AGI-3 首日实现从 0% 到 36% 的跃进，显示出快速的初期提升。尽管尚在初期阶段且持续性未可知，但暗示着在短期内可能出现能力提升。",
-      "hn": {
-        "id": 47538078,
-        "type": "story",
-        "by": "lairv",
-        "score": 71,
-        "descendants": 38,
-        "time": 1774575130,
-        "comments_url": "https://news.ycombinator.com/item?id=47538078"
-      },
-      "tags": [
-        "AI"
-      ],
-      "hot_score": 1.74
-    },
-    {
-      "title_en": "We rewrote JSONata with AI in a day, saved $500k/year",
-      "url": "https://www.reco.ai/blog/we-rewrote-jsonata-with-ai",
-      "title_zh": "我们在一天内用 AI 重写 JSONata，年省 50 万美元",
-      "created_display": "Created: Mar 26, 2026 / 15:36 PT",
-      "image_url": "https://cdn.prod.website-files.com/644fc991ce69ff211edbeb95/69c41472d9654291b273f039_Blog%20Image%20Website-03-26%20We%20rewrote%20JSONata-%24400%2C%20and%20saved%20us%20%24300K%20(1)%20(1)%20(1).png",
-      "summary_en": "A team rewrote the JSONata transformation engine using AI in a single day, achieving substantial maintenance savings. The move illustrates AI-assisted code rewriting at scale, with caveats around verification and reliability.",
-      "summary_zh": "团队在一天内使用 AI 重写了 JSONata 转换引擎，显著降低维护成本。此案例展示了大规模 AI 辅助代码改写的潜力，但需对产出进行充分验证与可靠性评估。",
-      "hn": {
-        "id": 47536712,
-        "type": "story",
-        "by": "cjlm",
-        "score": 118,
-        "descendants": 112,
-        "time": 1774564601,
-        "comments_url": "https://news.ycombinator.com/item?id=47536712"
-      },
-      "tags": [
-        "AI",
-        "Programming"
-      ],
-      "hot_score": 1.64
-    },
-    {
-      "title_en": "Olympic Committee bars transgender athletes from women’s events",
-      "url": "https://www.nytimes.com/2026/03/26/world/olympics/ioc-transgender-athletes-ban.html?unlocked_article_code=1.WFA.U8U0.iEs61HsUkQj5",
-      "title_zh": "国际奥委会将跨性别运动员排除在女子项目之外",
-      "created_display": "Created: Mar 26, 2026 / 07:32 PT",
-      "image_url": null,
-      "summary_en": "The policy decision to bar transgender athletes from women’s events sparks heated debate over fairness, inclusion, and science in sport, signaling ongoing tensions between governance and evolving gender policy.",
-      "summary_zh": "将跨性别运动员排除在女子项目之外的政策引发关于公平、包容与体育科学的激烈辩论，反映体育治理与性别政策之间持续的紧张关系。",
-      "hn": {
-        "id": 47530945,
-        "type": "story",
-        "by": "RestlessMind",
-        "score": 282,
-        "descendants": 668,
-        "time": 1774535554,
-        "comments_url": "https://news.ycombinator.com/item?id=47530945"
-      },
-      "tags": [
-        "Politics",
-        "Culture"
-      ],
-      "hot_score": 1.43
-    },
-    {
-      "title_en": "Running Tesla Model 3's computer on my desk using parts from crashed cars",
-      "url": "https://bugs.xdavidhu.me/tesla/2026/03/23/running-tesla-model-3s-computer-on-my-desk-using-parts-from-crashed-cars/",
-      "title_zh": "用桌面裝置與回收車輛零件運行特斯拉 Model 3 的電腦",
-      "created_display": "Created: Mar 25, 2026 / 14:11 PT",
-      "image_url": "https://bugs.xdavidhu.me/assets/posts/2026-03-23-running-tesla-model-3s-computer-on-my-desk-using-parts-from-crashed-cars/card.jpg",
-      "summary_en": "A maker demonstrates powering and running the Tesla Model 3's computer on a desktop rig using salvaged parts from crashed cars. The project shows automotive-grade compute can be repurposed for off-car experimentation, highlighting both learning value and safety/compatibility challenges.",
-      "summary_zh": "一位硬件爱好者用从撞车事故中回收的部件，在桌面上搭建并运行特斯拉 Model 3 的计算机。该项目展示了汽车级算力可以被改作桌面实验，但也暴露出安全与兼容性方面的挑战。",
-      "hn": {
-        "id": 47523330,
-        "type": "story",
-        "by": "driesdep",
-        "score": 887,
-        "descendants": 305,
-        "time": 1774473117,
-        "comments_url": "https://news.ycombinator.com/item?id=47523330"
-      },
-      "tags": [
-        "Hardware"
-      ],
-      "hot_score": 1.39
+      "hot_score": 0.79
     },
     {
       "title_en": "Agent-to-agent pair programming",
@@ -379,39 +599,39 @@
         "id": 47538190,
         "type": "story",
         "by": "axldelafosse",
-        "score": 52,
-        "descendants": 16,
+        "score": 99,
+        "descendants": 42,
         "time": 1774576075,
         "comments_url": "https://news.ycombinator.com/item?id=47538190"
       },
-      "hot_score": 1.35,
       "tags": [
         "AI",
         "Programming"
-      ]
+      ],
+      "hot_score": 0.74
     },
     {
-      "title_en": "$500 GPU outperforms Claude Sonnet on coding benchmarks",
-      "url": "https://github.com/itigges22/ATLAS",
-      "title_zh": "500 美元 GPU 在编码基准测试中胜过 Claude Sonnet",
-      "created_display": "Created: Mar 26, 2026 / 10:31 PT",
-      "image_url": "https://opengraph.githubassets.com/1326df1d4de0e9bb5617df65a2e96d401bc743845fa843713d11fc68760f8f5f/itigges22/ATLAS",
-      "summary_en": "A $500 GPU reportedly outperforms Claude Sonnet on coding benchmarks, signaling that consumer hardware can rival dedicated AI accelerators for certain tasks. This shifts cost considerations for AI research and development.",
-      "summary_zh": "据报道，价值 500 美元的显卡在编码基准测试中胜过 Claude Sonnet，表明部分任务上普通硬件也能与专用 AI 加速器对抗。这将改变 AI 研究与开发的成本考量。",
+      "title_en": "Google Just Patented the End of Your Website",
+      "url": "https://www.forbes.com/sites/joetoscano1/2026/03/06/google-just-patented-the-end-of-your-website/",
+      "title_zh": "谷歌申请“网站时代终结”专利？",
+      "created_display": "Created: Mar 27, 2026 / 05:56 PT",
+      "image_url": null,
+      "summary_en": "Google patented a framework that hints at the end of traditional static websites, proposing a modular, component-based delivery model. If adopted, it could reshape SEO, caching, and how sites structure content.",
+      "summary_zh": "谷歌申请了一项框架性专利，暗示“传统静态网站的终结”，提出以模块化、基于组件的内容交付模型。若落地，可能重塑 SEO、缓存与站点内容结构。",
       "hn": {
-        "id": 47533297,
+        "id": 47542141,
         "type": "story",
-        "by": "yogthos",
-        "score": 182,
-        "descendants": 66,
-        "time": 1774546284,
-        "comments_url": "https://news.ycombinator.com/item?id=47533297"
+        "by": "bookofjoe",
+        "score": 8,
+        "descendants": 2,
+        "time": 1774616178,
+        "comments_url": "https://news.ycombinator.com/item?id=47542141"
       },
+      "hot_score": 0.6,
       "tags": [
-        "AI",
-        "Hardware"
-      ],
-      "hot_score": 1.26
+        "Web",
+        "Business"
+      ]
     },
     {
       "title_en": "Chicago artist creates tourism posters for city's neighborhoods",
@@ -425,8 +645,8 @@
         "id": 47537106,
         "type": "story",
         "by": "NaOH",
-        "score": 80,
-        "descendants": 39,
+        "score": 101,
+        "descendants": 50,
         "time": 1774567118,
         "comments_url": "https://news.ycombinator.com/item?id=47537106"
       },
@@ -434,100 +654,7 @@
         "Culture",
         "Design"
       ],
-      "hot_score": 1.25
-    },
-    {
-      "title_en": "Personal Encyclopedias",
-      "url": "https://whoami.wiki/blog/personal-encyclopedias",
-      "title_zh": "个人百科全书",
-      "created_display": "Created: Mar 25, 2026 / 12:41 PT",
-      "image_url": "https://whoami.wiki/blog/personal-encyclopedias/opengraph-image.png?v=2",
-      "summary_en": "Explores how individuals build personal encyclopedias to organize knowledge, notes, and references into a portable, searchable knowledge base. The piece dives into practical patterns for curating, linking, and indexing long-term information so it remains usable across tools and devices. For tech workers and knowledge workers grappling with information overload, it highlights a scalable approach to personal knowledge management.",
-      "summary_zh": "探讨个人如何建立百科式知识库，将笔记、引用和资料整合成可检索的本地知识体系。文章深入讨论对条目进行整理、链接与索引的实用模式，以便在不同工具和设备间保持可用性。对于面临信息过载的技术工作者和知识工作者，这种个人知识管理的可扩展方法尤为重要。",
-      "hn": {
-        "id": 47522173,
-        "type": "story",
-        "by": "jrmyphlmn",
-        "score": 827,
-        "descendants": 176,
-        "time": 1774467711,
-        "comments_url": "https://news.ycombinator.com/item?id=47522173"
-      },
-      "tags": [
-        "Education",
-        "Data"
-      ],
-      "hot_score": 1.2
-    },
-    {
-      "title_en": "Show HN: Turbolite – a SQLite VFS serving sub-250ms cold JOIN queries from S3",
-      "url": "https://github.com/russellromney/turbolite",
-      "title_zh": "Turbolite：一种 SQLite VFS，能从 S3 提供冷 JOIN 查询低于 250ms",
-      "created_display": "Created: Mar 26, 2026 / 11:58 PT",
-      "image_url": "https://opengraph.githubassets.com/f1e6176bdb664909d9f9b81b98acbef24be7a2503cee113d6c2f7c6a4a5d0737/russellromney/turbolite",
-      "summary_en": "Turbolite is a SQLite VFS that serves cold JOIN queries from S3 in under 250ms. This approach demonstrates how remote object storage can be used to accelerate analytics, highlighting tradeoffs between latency, cost, and simplicity in serverless data pipelines.",
-      "summary_zh": "Turbolite 是一个把 S3 数据作为源的 SQLite 虚拟文件系统，能够实现冷 JOIN 查询在 250ms 以内的响应。此做法展示了远程对象存储在加速分析方面的潜力，同时需权衡延迟、成本与无服务器数据管线的简易性。",
-      "hn": {
-        "id": 47534283,
-        "type": "story",
-        "by": "russellthehippo",
-        "score": 134,
-        "descendants": 35,
-        "time": 1774551499,
-        "comments_url": "https://news.ycombinator.com/item?id=47534283"
-      },
-      "tags": [
-        "Show HN",
-        "Programming",
-        "Data"
-      ],
-      "hot_score": 1.1
-    },
-    {
-      "title_en": "OpenTelemetry profiles enters public alpha",
-      "url": "https://opentelemetry.io/blog/2026/profiles-alpha/",
-      "title_zh": "OpenTelemetry Profiles 公测 Alpha 版上线",
-      "created_display": "Created: Mar 26, 2026 / 09:14 PT",
-      "image_url": "https://opentelemetry.io/img/social/logo-wordmark-001.png",
-      "summary_en": "OpenTelemetry Profiles reach public alpha, offering pre-defined configuration bundles to simplify tracing and metrics across environments. Profiles can speed up setup, standardize observability stacks, and reduce configuration drift for teams.",
-      "summary_zh": "OpenTelemetry Profiles 公测 Alpha 版上线，提供预定义的配置组合以简化跨环境的追踪与度量设置。Profiles 能加速上手、标准化观测栈并减少配置漂移。",
-      "hn": {
-        "id": 47532339,
-        "type": "story",
-        "by": "tanelpoder",
-        "score": 162,
-        "descendants": 24,
-        "time": 1774541696,
-        "comments_url": "https://news.ycombinator.com/item?id=47532339"
-      },
-      "tags": [
-        "Open Source",
-        "DevOps"
-      ],
-      "hot_score": 0.97
-    },
-    {
-      "title_en": "Why so many control rooms were seafoam green (2025)",
-      "url": "https://bethmathews.substack.com/p/why-so-many-control-rooms-were-seafoam",
-      "title_zh": "为什么大量控制室偏好海泡绿（2025）",
-      "created_display": "Created: Mar 25, 2026 / 08:46 PT",
-      "image_url": null,
-      "summary_en": "The color choice in control rooms often favors seafoam green because it reduces glare and supports sustained focus during long shifts. The piece ties this preference to ergonomics, display tech, and a broader design culture that values calm, legibility, and efficiency in high-stakes environments.",
-      "summary_zh": "控制室的颜色选择常常偏向海泡绿，因为它能降低眩光、帮助在长时间工作中保持专注。本文将这一偏好与人体工效学、显示技术以及强调冷静、易读与高效的设计文化联系起来，探讨在高压环境中的实用性。",
-      "hn": {
-        "id": 47518960,
-        "type": "story",
-        "by": "Amorymeltzer",
-        "score": 756,
-        "descendants": 147,
-        "time": 1774453589,
-        "comments_url": "https://news.ycombinator.com/item?id=47518960"
-      },
-      "tags": [
-        "Design",
-        "Culture"
-      ],
-      "hot_score": 0.92
+      "hot_score": 0.58
     },
     {
       "title_en": "Swift 6.3",
@@ -549,75 +676,97 @@
       "tags": [
         "Programming"
       ],
-      "hot_score": 0.9
+      "hot_score": 0.57
     },
     {
-      "title_en": "The European AllSky7 fireball network",
-      "url": "https://www.allsky7.net/#archive",
-      "title_zh": "欧洲 AllSky7 火球观测网",
-      "created_display": "Created: Mar 27, 2026 / 00:00 PT",
-      "image_url": null,
-      "summary_en": "Europe-wide AllSky7 coordinates autonomous cameras to detect and track fireballs and meteors across the night sky. The network enables large-scale data collection on asteroid and atmospheric events, contributing to research and public engagement in astronomy. Real-time alerts and archival data deepen understanding of near-Earth space.",
-      "summary_zh": "欧洲 AllSky7 全域性利用星空摄像头网络，统一协调观测火球与流星的轨迹与亮度数据。该网络扩展了天文观测覆盖范围，推动相关研究与公众参与，既有实时警报也有海量归档数据。",
+      "title_en": "OpenTelemetry profiles enters public alpha",
+      "url": "https://opentelemetry.io/blog/2026/profiles-alpha/",
+      "title_zh": "OpenTelemetry Profiles 公测 Alpha 版上线",
+      "created_display": "Created: Mar 26, 2026 / 09:14 PT",
+      "image_url": "https://opentelemetry.io/img/social/logo-wordmark-001.png",
+      "summary_en": "OpenTelemetry Profiles reach public alpha, offering pre-defined configuration bundles to simplify tracing and metrics across environments. Profiles can speed up setup, standardize observability stacks, and reduce configuration drift for teams.",
+      "summary_zh": "OpenTelemetry Profiles 公测 Alpha 版上线，提供预定义的配置组合以简化跨环境的追踪与度量设置。Profiles 能加速上手、标准化观测栈并减少配置漂移。",
       "hn": {
-        "id": 47539767,
+        "id": 47532339,
         "type": "story",
-        "by": "marklit",
-        "score": 5,
-        "descendants": 1,
-        "time": 1774594849,
-        "comments_url": "https://news.ycombinator.com/item?id=47539767"
+        "by": "tanelpoder",
+        "score": 184,
+        "descendants": 28,
+        "time": 1774541696,
+        "comments_url": "https://news.ycombinator.com/item?id=47532339"
       },
-      "hot_score": 0.88,
       "tags": [
-        "Science",
-        "Space"
-      ]
+        "DevOps"
+      ],
+      "hot_score": 0.57
     },
     {
-      "title_en": "Colibri – chat platform built on the AT Protocol for communities big and small",
-      "url": "https://colibri.social/",
-      "title_zh": "Colibri：基于 AT Protocol 的社区聊天平台",
-      "created_display": "Created: Mar 26, 2026 / 10:29 PT",
-      "image_url": "https://colibri.social/og.png",
-      "summary_en": "Colibri is a chat platform built on the AT Protocol designed to scale for communities of all sizes. It emphasizes federation, modular features, and approachable onboarding to help communities host and grow their own social spaces.",
-      "summary_zh": "Colibri 是一个基于 AT Protocol 的聊天平台，面向各规模社区的扩展使用。它强调去中心化/联合式通信、模块化功能，以及友好的入门体验，帮助社区托管与扩展自己的社交空间。",
+      "title_en": "Show HN: Turbolite – a SQLite VFS serving sub-250ms cold JOIN queries from S3",
+      "url": "https://github.com/russellromney/turbolite",
+      "title_zh": "Turbolite：一种 SQLite VFS，能从 S3 提供冷 JOIN 查询低于 250ms",
+      "created_display": "Created: Mar 26, 2026 / 11:58 PT",
+      "image_url": "https://opengraph.githubassets.com/f1e6176bdb664909d9f9b81b98acbef24be7a2503cee113d6c2f7c6a4a5d0737/russellromney/turbolite",
+      "summary_en": "Turbolite is a SQLite VFS that serves cold JOIN queries from S3 in under 250ms. This approach demonstrates how remote object storage can be used to accelerate analytics, highlighting tradeoffs between latency, cost, and simplicity in serverless data pipelines.",
+      "summary_zh": "Turbolite 是一个把 S3 数据作为源的 SQLite 虚拟文件系统，能够实现冷 JOIN 查询在 250ms 以内的响应。此做法展示了远程对象存储在加速分析方面的潜力，同时需权衡延迟、成本与无服务器数据管线的简易性。",
       "hn": {
-        "id": 47533283,
+        "id": 47534283,
         "type": "story",
-        "by": "todotask2",
+        "by": "russellthehippo",
+        "score": 148,
+        "descendants": 38,
+        "time": 1774551499,
+        "comments_url": "https://news.ycombinator.com/item?id=47534283"
+      },
+      "tags": [
+        "Programming",
+        "Show HN",
+        "Data"
+      ],
+      "hot_score": 0.57
+    },
+    {
+      "title_en": "An unstoppable mushroom is tearing through North American forests",
+      "url": "https://www.bbc.com/future/article/20260325-an-unstoppable-mushroom-is-tearing-through-north-american-forests",
+      "title_zh": "一株不可阻挡的蘑菇正横扫北美森林",
+      "created_display": "Created: Mar 26, 2026 / 14:36 PT",
+      "image_url": "https://ychef.files.bbci.co.uk/624x351/p0n8q080.jpg",
+      "summary_en": "Reports on a rapidly spreading fungal outbreak altering North American forests, with ecological implications for trees, ecosystems, and carbon cycles. The story delves into how climate factors and monitoring tools shape containment and early-warning efforts.",
+      "summary_zh": "报道称一种快速扩散的真菌疫情正在改变北美森林生态，对树木、生态系统与碳循环产生影响。文中探讨气候因素与监测工具如何推动防控与早期预警。",
+      "hn": {
+        "id": 47536102,
+        "type": "story",
+        "by": "1659447091",
         "score": 113,
-        "descendants": 68,
-        "time": 1774546198,
-        "comments_url": "https://news.ycombinator.com/item?id=47533283"
+        "descendants": 49,
+        "time": 1774561011,
+        "comments_url": "https://news.ycombinator.com/item?id=47536102"
       },
       "tags": [
-        "Web",
-        "Open Source"
+        "Science"
       ],
-      "hot_score": 0.78
+      "hot_score": 0.55
     },
     {
-      "title_en": "Using FireWire on a Raspberry Pi",
-      "url": "https://www.jeffgeerling.com/blog/2026/firewire-on-a-raspberry-pi/",
-      "title_zh": "在树莓派上使用 FireWire",
-      "created_display": "Created: Mar 26, 2026 / 13:23 PT",
-      "image_url": "https://www.jeffgeerling.com/blog/2026/firewire-on-a-raspberry-pi/g4-canon-gl1-firewire.jpg",
-      "summary_en": "A guide or project showing how to enable FireWire on a Raspberry Pi, expanding support for legacy peripherals and high-speed data interfaces. It covers practical wiring, drivers, and caveats.",
-      "summary_zh": "展示如何在树莓派上启用 FireWire，拓展对传统外设和高速数据接口的支持。包括实际连线、驱动与潜在注意事项。",
+      "title_en": "From 0% to 36% on Day 1 of ARC-AGI-3",
+      "url": "https://www.symbolica.ai/blog/arc-agi-3",
+      "title_zh": "ARC-AGI-3 首日实现从 0% 到 36% 的跃进",
+      "created_display": "Created: Mar 26, 2026 / 18:32 PT",
+      "image_url": "https://www.symbolica.ai/images/blog/meta/arc-agi-3.png",
+      "summary_en": "ARC-AGI-3 shows rapid early progress, jumping from 0% to 36% on day one. The result hints at aggressive development and potential near-term capability gains, albeit early and with uncertainties about sustainment.",
+      "summary_zh": "ARC-AGI-3 首日实现从 0% 到 36% 的跃进，显示出快速的初期提升。尽管尚在初期阶段且持续性未可知，但暗示着在短期内可能出现能力提升。",
       "hn": {
-        "id": 47535249,
+        "id": 47538078,
         "type": "story",
-        "by": "jandeboevrie",
-        "score": 78,
-        "descendants": 35,
-        "time": 1774556590,
-        "comments_url": "https://news.ycombinator.com/item?id=47535249"
+        "by": "lairv",
+        "score": 71,
+        "descendants": 38,
+        "time": 1774575130,
+        "comments_url": "https://news.ycombinator.com/item?id=47538078"
       },
       "tags": [
-        "Hardware"
+        "AI"
       ],
-      "hot_score": 0.77
+      "hot_score": 0.51
     },
     {
       "title_en": "Anthropic Subprocessor Changes",
@@ -631,8 +780,8 @@
         "id": 47536110,
         "type": "story",
         "by": "tencentshill",
-        "score": 64,
-        "descendants": 34,
+        "score": 102,
+        "descendants": 46,
         "time": 1774561035,
         "comments_url": "https://news.ycombinator.com/item?id=47536110"
       },
@@ -640,29 +789,74 @@
         "Privacy",
         "AI"
       ],
-      "hot_score": 0.75
+      "hot_score": 0.49
     },
     {
-      "title_en": "Stripe Projects: Provision and manage services from the CLI",
-      "url": "https://projects.dev/",
-      "title_zh": "Stripe Projects：通过 CLI 配置与管理服务",
-      "created_display": "Created: Mar 26, 2026 / 09:00 PT",
-      "image_url": "https://projects.dev/assets/images/og/og.jpg",
-      "summary_en": "Stripe Projects lets developers provision and manage services from the CLI, enabling versioned infrastructure, GitOps workflows, and faster experimentation. It streamlines infrastructure provisioning and aligns Stripe tooling with modern DevOps practices.",
-      "summary_zh": "Stripe Projects 让开发者能够通过 CLI 配置与管理服务，支持版本化基础设施、GitOps 工作流以及更快的实验循环。它将基础设施管理与 Stripe 的服务生态整合，提升开发效率。",
+      "title_en": "Using FireWire on a Raspberry Pi",
+      "url": "https://www.jeffgeerling.com/blog/2026/firewire-on-a-raspberry-pi/",
+      "title_zh": "在树莓派上使用 FireWire",
+      "created_display": "Created: Mar 26, 2026 / 13:23 PT",
+      "image_url": "https://www.jeffgeerling.com/blog/2026/firewire-on-a-raspberry-pi/g4-canon-gl1-firewire.jpg",
+      "summary_en": "A guide or project showing how to enable FireWire on a Raspberry Pi, expanding support for legacy peripherals and high-speed data interfaces. It covers practical wiring, drivers, and caveats.",
+      "summary_zh": "展示如何在树莓派上启用 FireWire，拓展对传统外设和高速数据接口的支持。包括实际连线、驱动与潜在注意事项。",
       "hn": {
-        "id": 47532148,
+        "id": 47535249,
         "type": "story",
-        "by": "piinbinary",
-        "score": 123,
-        "descendants": 29,
-        "time": 1774540857,
-        "comments_url": "https://news.ycombinator.com/item?id=47532148"
+        "by": "jandeboevrie",
+        "score": 107,
+        "descendants": 46,
+        "time": 1774556590,
+        "comments_url": "https://news.ycombinator.com/item?id=47535249"
       },
       "tags": [
-        "DevOps"
+        "Hardware"
       ],
-      "hot_score": 0.72
+      "hot_score": 0.46
+    },
+    {
+      "title_en": "Colibri – chat platform built on the AT Protocol for communities big and small",
+      "url": "https://colibri.social/",
+      "title_zh": "Colibri：基于 AT Protocol 的社区聊天平台",
+      "created_display": "Created: Mar 26, 2026 / 10:29 PT",
+      "image_url": "https://colibri.social/og.png",
+      "summary_en": "Colibri is a chat platform built on the AT Protocol designed to scale for communities of all sizes. It emphasizes federation, modular features, and approachable onboarding to help communities host and grow their own social spaces.",
+      "summary_zh": "Colibri 是一个基于 AT Protocol 的聊天平台，面向各规模社区的扩展使用。它强调去中心化/联合式通信、模块化功能，以及友好的入门体验，帮助社区托管与扩展自己的社交空间。",
+      "hn": {
+        "id": 47533283,
+        "type": "story",
+        "by": "todotask2",
+        "score": 130,
+        "descendants": 86,
+        "time": 1774546198,
+        "comments_url": "https://news.ycombinator.com/item?id=47533283"
+      },
+      "tags": [
+        "Web",
+        "Open Source"
+      ],
+      "hot_score": 0.44
+    },
+    {
+      "title_en": "Installing a Let's Encrypt TLS Certificate on a Brother Printer with Certbot",
+      "url": "https://owltec.ca/Other/Installing+a+Let%27s+Encrypt+TLS+certificate+on+a+Brother+printer+automatically+with+Certbot+(%26+Cloudflare)",
+      "title_zh": "用 Certbot 为 Brother 打印机安装 Let's Encrypt TLS 证书",
+      "created_display": "Created: Mar 27, 2026 / 06:49 PT",
+      "image_url": "https://ogimage.obsidian.md/og-image.png?title=Installing+a+Let%27s+Encrypt+TLS+certificate+on+a+Brother+printer+automatically+with+Certbot+%28%26+Cloudflare%29&description=%282025%2F12%2F09%29+%23Brother+%23Certificates+%23Cloudflare+%23Tailscale+%23Printer+Article+inspiration%3A+https%3A%2F%2Fblog.poggs.com%2F2020%2F03%2F18%2Fprinter-security-installing-tls-certificates-on-hp-printers-automatically%2F+h%E2%80%A6&logoUrl=https%3A%2F%2Fpublish-01.obsidian.md%2Faccess%2F42ca5dc38a1a3318b53b2c9b5ffdc715%2Ffavicon-196x196.png&siteName=OwlTec",
+      "summary_en": "A practical guide showing how to secure a Brother network printer with a Let's Encrypt TLS certificate using Certbot and Cloudflare DNS challenges. The steps cover certificate issuance, renewal, and how to configure the printer's web interface. It highlights the growing trend of securing IoT-like devices even without dedicated vendors' support.",
+      "summary_zh": "实用指南演示如何借助 Certbot 与 Cloudflare DNS 挑战，为一台 Brother 网络打印机部署 Let's Encrypt TLS 证书。步骤涵盖证书申请、续期及打印机网页界面的配置，同时指出在缺乏厂商支持的情况下，为类似物联网设备加固安全的趋势。",
+      "hn": {
+        "id": 47542644,
+        "type": "story",
+        "by": "8organicbits",
+        "score": 4,
+        "descendants": 0,
+        "time": 1774619391,
+        "comments_url": "https://news.ycombinator.com/item?id=47542644"
+      },
+      "hot_score": 0.41,
+      "tags": [
+        "Security"
+      ]
     },
     {
       "title_en": "Show HN: Fio: 3D World editor/game engine – inspired by Radiant and Hammer",
@@ -676,17 +870,63 @@
         "id": 47535626,
         "type": "story",
         "by": "vicioussquid",
-        "score": 55,
-        "descendants": 4,
+        "score": 86,
+        "descendants": 8,
         "time": 1774558684,
         "comments_url": "https://news.ycombinator.com/item?id=47535626"
       },
       "tags": [
+        "Programming",
         "Show HN",
         "Open Source",
         "Gaming"
       ],
-      "hot_score": 0.58
+      "hot_score": 0.39
+    },
+    {
+      "title_en": "Stripe Projects: Provision and manage services from the CLI",
+      "url": "https://projects.dev/",
+      "title_zh": "Stripe Projects：通过 CLI 配置与管理服务",
+      "created_display": "Created: Mar 26, 2026 / 09:00 PT",
+      "image_url": "https://projects.dev/assets/images/og/og.jpg",
+      "summary_en": "Stripe Projects lets developers provision and manage services from the CLI, enabling versioned infrastructure, GitOps workflows, and faster experimentation. It streamlines infrastructure provisioning and aligns Stripe tooling with modern DevOps practices.",
+      "summary_zh": "Stripe Projects 让开发者能够通过 CLI 配置与管理服务，支持版本化基础设施、GitOps 工作流以及更快的实验循环。它将基础设施管理与 Stripe 的服务生态整合，提升开发效率。",
+      "hn": {
+        "id": 47532148,
+        "type": "story",
+        "by": "piinbinary",
+        "score": 126,
+        "descendants": 30,
+        "time": 1774540857,
+        "comments_url": "https://news.ycombinator.com/item?id=47532148"
+      },
+      "tags": [
+        "DevOps"
+      ],
+      "hot_score": 0.38
+    },
+    {
+      "title_en": "Obsolete Sounds",
+      "url": "https://citiesandmemory.com/obsolete-sounds/",
+      "title_zh": "过时的声音",
+      "created_display": "Created: Mar 25, 2026 / 20:54 PT",
+      "image_url": "https://citiesandmemory.com/wp-content/uploads/2022/11/Obsolete_Sounds_Featured_Fb_Tw_1.jpg",
+      "summary_en": "Obsolete Sounds curates audio from devices and interfaces that have fallen out of use, offering a snapshot of tech history through sound. The project highlights how audio cues encode memory of hardware lifecycles.",
+      "summary_zh": "Obsolete Sounds 收集并呈现已逐渐退出现代科技的声音，提供一段通过声音感知的科技史。该项目凸显音频线索如何反映硬件生命周期与记忆。",
+      "hn": {
+        "id": 47526478,
+        "type": "story",
+        "by": "benbreen",
+        "score": 228,
+        "descendants": 48,
+        "time": 1774497267,
+        "comments_url": "https://news.ycombinator.com/item?id=47526478"
+      },
+      "tags": [
+        "Culture",
+        "Hardware"
+      ],
+      "hot_score": 0.34
     },
     {
       "title_en": "Building a Blog with Elixir and Phoenix",
@@ -709,7 +949,29 @@
         "Programming",
         "Web"
       ],
-      "hot_score": 0.56
+      "hot_score": 0.28
+    },
+    {
+      "title_en": "Chroma Context-1: Training a Self-Editing Search Agent",
+      "url": "https://www.trychroma.com/research/context-1",
+      "title_zh": "Chroma Context-1：训练一个自我编辑的搜索代理",
+      "created_display": "Created: Mar 26, 2026 / 12:25 PT",
+      "image_url": "https://www.trychroma.com/img/context_1/card.png",
+      "summary_en": "Context-1 describes training a retrieval-augmented search agent that can edit its own outputs, using feedback loops and self-refinement to improve accuracy. The approach aims to reduce hallucinations and build more trustworthy search behavior, with implications for enterprise AI tooling.",
+      "summary_zh": "Context-1 讲述训练一个能自我编辑输出的检索代理，通过反馈回路和自我修正来提升准确性，减少错误信息。该方法对企业级 AI 工具中的可依赖性和可信度具有启发。",
+      "hn": {
+        "id": 47534564,
+        "type": "story",
+        "by": "philip1209",
+        "score": 61,
+        "descendants": 8,
+        "time": 1774553119,
+        "comments_url": "https://news.ycombinator.com/item?id=47534564"
+      },
+      "tags": [
+        "AI"
+      ],
+      "hot_score": 0.24
     },
     {
       "title_en": "HandyMKV for MakeMKV and HandBrake Automation",
@@ -723,39 +985,15 @@
         "id": 47538433,
         "type": "story",
         "by": "geerlingguy",
-        "score": 19,
-        "descendants": 2,
+        "score": 27,
+        "descendants": 8,
         "time": 1774577952,
         "comments_url": "https://news.ycombinator.com/item?id=47538433"
       },
-      "hot_score": 0.54,
       "tags": [
-        "Programming",
-        "Open Source"
-      ]
-    },
-    {
-      "title_en": "Obsolete Sounds",
-      "url": "https://citiesandmemory.com/obsolete-sounds/",
-      "title_zh": "过时的声音",
-      "created_display": "Created: Mar 25, 2026 / 20:54 PT",
-      "image_url": "https://citiesandmemory.com/wp-content/uploads/2022/11/Obsolete_Sounds_Featured_Fb_Tw_1.jpg",
-      "summary_en": "Obsolete Sounds curates audio from devices and interfaces that have fallen out of use, offering a snapshot of tech history through sound. The project highlights how audio cues encode memory of hardware lifecycles.",
-      "summary_zh": "Obsolete Sounds 收集并呈现已逐渐退出现代科技的声音，提供一段通过声音感知的科技史。该项目凸显音频线索如何反映硬件生命周期与记忆。",
-      "hn": {
-        "id": 47526478,
-        "type": "story",
-        "by": "benbreen",
-        "score": 218,
-        "descendants": 44,
-        "time": 1774497267,
-        "comments_url": "https://news.ycombinator.com/item?id=47526478"
-      },
-      "tags": [
-        "Culture",
-        "Hardware"
+        "Programming"
       ],
-      "hot_score": 0.49
+      "hot_score": 0.21
     },
     {
       "title_en": "How much precision can you squeeze out of a table?",
@@ -777,51 +1015,30 @@
       "tags": [
         "Data"
       ],
-      "hot_score": 0.44
+      "hot_score": 0.2
     },
     {
-      "title_en": "An unstoppable mushroom is tearing through North American forests",
-      "url": "https://www.bbc.com/future/article/20260325-an-unstoppable-mushroom-is-tearing-through-north-american-forests",
-      "title_zh": "一株不可阻挡的蘑菇正横扫北美森林",
-      "created_display": "Created: Mar 26, 2026 / 14:36 PT",
-      "image_url": "https://ychef.files.bbci.co.uk/624x351/p0n8q080.jpg",
-      "summary_en": "Reports on a rapidly spreading fungal outbreak altering North American forests, with ecological implications for trees, ecosystems, and carbon cycles. The story delves into how climate factors and monitoring tools shape containment and early-warning efforts.",
-      "summary_zh": "报道称一种快速扩散的真菌疫情正在改变北美森林生态，对树木、生态系统与碳循环产生影响。文中探讨气候因素与监测工具如何推动防控与早期预警。",
+      "title_en": "Show HN: Veil – Dark mode PDFs without destroying images, runs in the browser",
+      "url": "https://veil.simoneamico.com/",
+      "title_zh": "Show HN：Veil——在浏览器中实现暗模式 PDF 而不破坏图片",
+      "created_display": "Created: Mar 26, 2026 / 04:47 PT",
+      "image_url": "https://veil.simoneamico.com/icon/og-image.png",
+      "summary_en": "Veil enables browser-based dark-mode PDFs without degrading embedded images, improving readability while preserving media.",
+      "summary_zh": "Veil 使浏览器中的 PDF 支持暗模式，同时不损坏图片，提升可读性并保留媒体质量。",
       "hn": {
-        "id": 47536102,
+        "id": 47529306,
         "type": "story",
-        "by": "1659447091",
-        "score": 35,
-        "descendants": 1,
-        "time": 1774561011,
-        "comments_url": "https://news.ycombinator.com/item?id=47536102"
+        "by": "simoneamico",
+        "score": 71,
+        "descendants": 12,
+        "time": 1774525646,
+        "comments_url": "https://news.ycombinator.com/item?id=47529306"
       },
-      "hot_score": 0.41,
       "tags": [
-        "Science"
-      ]
-    },
-    {
-      "title_en": "Chroma Context-1: Training a Self-Editing Search Agent",
-      "url": "https://www.trychroma.com/research/context-1",
-      "title_zh": "Chroma Context-1：训练一个自我编辑的搜索代理",
-      "created_display": "Created: Mar 26, 2026 / 12:25 PT",
-      "image_url": "https://www.trychroma.com/img/context_1/card.png",
-      "summary_en": "Context-1 describes training a retrieval-augmented search agent that can edit its own outputs, using feedback loops and self-refinement to improve accuracy. The approach aims to reduce hallucinations and build more trustworthy search behavior, with implications for enterprise AI tooling.",
-      "summary_zh": "Context-1 讲述训练一个能自我编辑输出的检索代理，通过反馈回路和自我修正来提升准确性，减少错误信息。该方法对企业级 AI 工具中的可依赖性和可信度具有启发。",
-      "hn": {
-        "id": 47534564,
-        "type": "story",
-        "by": "philip1209",
-        "score": 41,
-        "descendants": 3,
-        "time": 1774553119,
-        "comments_url": "https://news.ycombinator.com/item?id=47534564"
-      },
-      "hot_score": 0.35,
-      "tags": [
-        "AI"
-      ]
+        "Web",
+        "Show HN"
+      ],
+      "hot_score": 0.16
     },
     {
       "title_en": "Zero Days: Electric Motorcycles Are a Security Nightmare",
@@ -843,30 +1060,51 @@
       "tags": [
         "Security"
       ],
-      "hot_score": 0.29
+      "hot_score": 0.14
     },
     {
-      "title_en": "Show HN: Veil – Dark mode PDFs without destroying images, runs in the browser",
-      "url": "https://veil.simoneamico.com/",
-      "title_zh": "Show HN：Veil——在浏览器中实现暗模式 PDF 而不破坏图片",
-      "created_display": "Created: Mar 26, 2026 / 04:47 PT",
-      "image_url": "https://veil.simoneamico.com/icon/og-image.png",
-      "summary_en": "Veil enables browser-based dark-mode PDFs without degrading embedded images, improving readability while preserving media.",
-      "summary_zh": "Veil 使浏览器中的 PDF 支持暗模式，同时不损坏图片，提升可读性并保留媒体质量。",
+      "title_en": "HyperAgents: Self-referential self-improving agents",
+      "url": "https://github.com/facebookresearch/hyperagents",
+      "title_zh": "HyperAgents：自我指涉的自我提升代理",
+      "created_display": "Created: Mar 24, 2026 / 09:54 PT",
+      "image_url": "https://opengraph.githubassets.com/e8f192e2fd7899cb5538e99f3981d93ce918c6479fe5f6c034387ba44a46a9f6/facebookresearch/HyperAgents",
+      "summary_en": "HyperAgents introduces self-referential agents that can inspect and adjust their own policies to improve performance. The work explores auto-improvement loops, self-assessment, and the potential benefits and risks of self-modifying agents for complex tasks.",
+      "summary_zh": "HyperAgents 介绍了能够自我审视并调整自身策略的代理，形成自我提升循环。该研究探索自我评估与自我修改在解决复杂任务时的潜在收益与风险，以及对 AI 系统设计的影响。",
       "hn": {
-        "id": 47529306,
+        "id": 47505670,
         "type": "story",
-        "by": "simoneamico",
-        "score": 71,
-        "descendants": 12,
-        "time": 1774525646,
-        "comments_url": "https://news.ycombinator.com/item?id=47529306"
+        "by": "andyg_blog",
+        "score": 215,
+        "descendants": 76,
+        "time": 1774371250,
+        "comments_url": "https://news.ycombinator.com/item?id=47505670"
       },
       "tags": [
-        "Show HN",
-        "Web"
+        "AI"
       ],
-      "hot_score": 0.28
+      "hot_score": 0.1
+    },
+    {
+      "title_en": "DOOM Over DNS",
+      "url": "https://github.com/resumex/doom-over-dns",
+      "title_zh": "DNS 上的 DOOM",
+      "created_display": "Created: Mar 23, 2026 / 08:17 PT",
+      "image_url": "https://opengraph.githubassets.com/6bc555a4d2a94cc16a14732c62eec40fed2d670041306f2bb141145e52e2fe89/resumex/doom-over-dns",
+      "summary_en": "Doom Over DNS is a proof-of-concept that streams data or a game over DNS channels, illustrating DNS's potential as a transport medium and its security implications. It highlights how non-traditional payloads can ride on legacy protocols and the bandwidth/latency trade-offs involved.",
+      "summary_zh": "DOOM Over DNS 是一个展示通过 DNS 通道传输数据或游戏的概念验证，揭示 DNS 作为传输媒介的潜力及其安全含义。它强调传统协议也能承载非传统载荷，以及相关的带宽与延迟权衡。",
+      "hn": {
+        "id": 47490705,
+        "type": "story",
+        "by": "Venn1",
+        "score": 323,
+        "descendants": 87,
+        "time": 1774279058,
+        "comments_url": "https://news.ycombinator.com/item?id=47490705"
+      },
+      "tags": [
+        "Security"
+      ],
+      "hot_score": 0.08
     },
     {
       "title_en": "PICO-8 platformer system: handling every notoriously difficult physics edge case",
@@ -885,10 +1123,10 @@
         "time": 1774581788,
         "comments_url": "https://news.ycombinator.com/item?id=47538803"
       },
-      "hot_score": 0.24,
+      "hot_score": 0.06,
       "tags": [
-        "Gaming",
         "Programming",
+        "Gaming",
         "Science",
         "Hardware"
       ]
@@ -910,54 +1148,10 @@
         "time": 1774580123,
         "comments_url": "https://news.ycombinator.com/item?id=47538627"
       },
-      "hot_score": 0.21,
+      "hot_score": 0.05,
       "tags": [
         "Finance"
       ]
-    },
-    {
-      "title_en": "HyperAgents: Self-referential self-improving agents",
-      "url": "https://github.com/facebookresearch/hyperagents",
-      "title_zh": "HyperAgents：自我指涉的自我提升代理",
-      "created_display": "Created: Mar 24, 2026 / 09:54 PT",
-      "image_url": "https://opengraph.githubassets.com/e8f192e2fd7899cb5538e99f3981d93ce918c6479fe5f6c034387ba44a46a9f6/facebookresearch/HyperAgents",
-      "summary_en": "HyperAgents introduces self-referential agents that can inspect and adjust their own policies to improve performance. The work explores auto-improvement loops, self-assessment, and the potential benefits and risks of self-modifying agents for complex tasks.",
-      "summary_zh": "HyperAgents 介绍了能够自我审视并调整自身策略的代理，形成自我提升循环。该研究探索自我评估与自我修改在解决复杂任务时的潜在收益与风险，以及对 AI 系统设计的影响。",
-      "hn": {
-        "id": 47505670,
-        "type": "story",
-        "by": "andyg_blog",
-        "score": 168,
-        "descendants": 64,
-        "time": 1774371250,
-        "comments_url": "https://news.ycombinator.com/item?id=47505670"
-      },
-      "tags": [
-        "AI"
-      ],
-      "hot_score": 0.09
-    },
-    {
-      "title_en": "DOOM Over DNS",
-      "url": "https://github.com/resumex/doom-over-dns",
-      "title_zh": "DNS 上的 DOOM",
-      "created_display": "Created: Mar 23, 2026 / 08:17 PT",
-      "image_url": "https://opengraph.githubassets.com/6bc555a4d2a94cc16a14732c62eec40fed2d670041306f2bb141145e52e2fe89/resumex/doom-over-dns",
-      "summary_en": "Doom Over DNS is a proof-of-concept that streams data or a game over DNS channels, illustrating DNS's potential as a transport medium and its security implications. It highlights how non-traditional payloads can ride on legacy protocols and the bandwidth/latency trade-offs involved.",
-      "summary_zh": "DOOM Over DNS 是一个展示通过 DNS 通道传输数据或游戏的概念验证，揭示 DNS 作为传输媒介的潜力及其安全含义。它强调传统协议也能承载非传统载荷，以及相关的带宽与延迟权衡。",
-      "hn": {
-        "id": 47490705,
-        "type": "story",
-        "by": "Venn1",
-        "score": 250,
-        "descendants": 76,
-        "time": 1774279058,
-        "comments_url": "https://news.ycombinator.com/item?id=47490705"
-      },
-      "tags": [
-        "Security"
-      ],
-      "hot_score": 0.08
     },
     {
       "title_en": "My home network observes bedtime with OpenBSD and pf",
@@ -971,15 +1165,16 @@
         "id": 47489620,
         "type": "story",
         "by": "ibobev",
-        "score": 126,
-        "descendants": 35,
+        "score": 131,
+        "descendants": 36,
         "time": 1774274214,
         "comments_url": "https://news.ycombinator.com/item?id=47489620"
       },
       "tags": [
-        "Privacy"
+        "Privacy",
+        "Security"
       ],
-      "hot_score": 0.04
+      "hot_score": 0.03
     },
     {
       "title_en": "Whistler: Live eBPF Programming from the Common Lisp REPL",
@@ -993,8 +1188,8 @@
         "id": 47495190,
         "type": "story",
         "by": "varjag",
-        "score": 74,
-        "descendants": 2,
+        "score": 116,
+        "descendants": 14,
         "time": 1774300396,
         "comments_url": "https://news.ycombinator.com/item?id=47495190"
       },
@@ -1002,6 +1197,29 @@
         "Programming"
       ],
       "hot_score": 0.03
+    },
+    {
+      "title_en": "Everything old is new again: memory optimization",
+      "url": "https://nibblestew.blogspot.com/2026/03/everything-old-is-new-again-memory.html",
+      "title_zh": "往日的内存优化再次成为新潮：内存优化",
+      "created_display": "Created: Mar 23, 2026 / 11:22 PT",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbppQPX3SbdskyBbtvbPBads2_KKTFR6pEGhVQpuLAFxtXUB_m56IeF1vZl1pDWIT_kNxGsqBixC1Xyt9m8SNg1I8QuJakm7PeKGC5EzbXQZA_U1kSy7nKkInnD12hkIIYImwS8GpJziJmuQhtmVag_3ojrWh7qoj5NvenpJukYrdYSxubN6E8hjChyphenhyphenvs/w1200-h630-p-k-no-nu/massif_python.png",
+      "summary_en": "A blog post argues memory optimization is timeless: many old tricks remain relevant as hardware evolves. It discusses data locality, caching strategies, and allocator choices that impact performance in modern workloads.",
+      "summary_zh": "博客重新强调内存优化的长久性：在硬件演进的背景下，许多经典技巧仍然有效。讨论数据本地性、缓存策略与分配器选择等对现代工作负载性能的影响。",
+      "hn": {
+        "id": 47493246,
+        "type": "story",
+        "by": "ibobev",
+        "score": 102,
+        "descendants": 70,
+        "time": 1774290153,
+        "comments_url": "https://news.ycombinator.com/item?id=47493246"
+      },
+      "hot_score": 0.03,
+      "tags": [
+        "Programming",
+        "Hardware"
+      ]
     },
     {
       "title_en": "Cloudflare's Gen 13 servers: trading cache for cores for 2x performance",
@@ -1050,6 +1268,96 @@
       "hot_score": 0.02
     },
     {
+      "title_en": "The Legibility of Serif and Sans Serif Typefaces (2022)",
+      "url": "https://library.oapen.org//handle/20.500.12657/53344",
+      "title_zh": "衬线体与无衬线体的易读性（2022）",
+      "created_display": "Created: Mar 23, 2026 / 10:56 PT",
+      "image_url": "https://library.oapen.org/themes/Mirage2/images/oapenlogo_01_colour.jpg",
+      "summary_en": "A 2022 study quantifies how serif and sans-serif typefaces fare in legibility on screens, with nuanced findings across reading tasks and sizes. The results inform typography choices for UI and accessibility, suggesting practical trade-offs between aesthetics and readability. Designers can tailor typography to context, audience, and device.",
+      "summary_zh": "2022 年的研究比较了衬线体与无衬线体在屏幕上的可读性，结果揭示不同任务和字号下的差异。对 UI 字体选择与无障碍设计具有指导意义，强调在美观与易读之间的权衡。",
+      "hn": {
+        "id": 47492894,
+        "type": "story",
+        "by": "the-mitr",
+        "score": 62,
+        "descendants": 43,
+        "time": 1774288591,
+        "comments_url": "https://news.ycombinator.com/item?id=47492894"
+      },
+      "tags": [
+        "Design"
+      ],
+      "hot_score": 0.02
+    },
+    {
+      "title_en": "Generators in Lone Lisp",
+      "url": "https://www.matheusmoreira.com/articles/generators-in-lone-lisp",
+      "title_zh": "Lone Lisp 中的生成器",
+      "created_display": "Created: Mar 23, 2026 / 06:51 PT",
+      "image_url": null,
+      "summary_en": "Explores implementing or using generators (lazy sequences) in Lone Lisp, enabling streaming data processing and memory-efficient pipelines in a Lisp environment.",
+      "summary_zh": "探讨在 Lone Lisp 中实现生成器（惰性序列）的设计与应用，支持流式数据处理与内存高效的流水线。内容涵盖常用模式与示例代码。",
+      "hn": {
+        "id": 47489535,
+        "type": "story",
+        "by": "matheusmoreira",
+        "score": 54,
+        "descendants": 8,
+        "time": 1774273863,
+        "comments_url": "https://news.ycombinator.com/item?id=47489535"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 0.01
+    },
+    {
+      "title_en": "This picture broke my brain [3B1B video]",
+      "url": "https://www.youtube.com/watch?v=ldxFjLJ3rVY",
+      "title_zh": "这张图片把我的脑子搞崩了 [3Blue1Brown 视频]",
+      "created_display": "Created: Mar 23, 2026 / 08:10 PT",
+      "image_url": null,
+      "summary_en": "This is a mind-blowing visual from 3Blue1Brown that makes a counterintuitive math concept feel tangible. The video demonstrates how carefully designed visuals can illuminate ideas that are hard to grasp algebraically. It's a reminder that intuition-driven explanations often outperform static equations.",
+      "summary_zh": "这张图片通过3Blue1Brown的直观视觉呈现，让一个反直觉的数学概念变得具体可感。视频展示了精心设计的视觉如何揭示难以靠代数直观理解的思想。强调直观解释在理解复杂概念时的力量。",
+      "hn": {
+        "id": 47490609,
+        "type": "story",
+        "by": "jgwil2",
+        "score": 52,
+        "descendants": 27,
+        "time": 1774278643,
+        "comments_url": "https://news.ycombinator.com/item?id=47490609"
+      },
+      "hot_score": 0.01,
+      "tags": [
+        "Education"
+      ]
+    },
+    {
+      "title_en": "Show HN: Minimalist library to generate SVG views of scientific data",
+      "url": "https://github.com/alefore/mini_svg/",
+      "title_zh": "Show HN：用于生成科学数据 SVG 视图的极简库",
+      "created_display": "Created: Mar 23, 2026 / 10:54 PT",
+      "image_url": "https://opengraph.githubassets.com/01e26c0bf9fa7d9ae45a4e662c1bd0b8aa8c50737789ddb5cabb4eb8f7b9c1f7/alefore/mini_svg",
+      "summary_en": "Introduces a tiny library that renders scientific data as SVG visuals, prioritizing simplicity and reproducibility over feature creep. It suits quick plots for docs, dashboards, or educational demos, with easy integration into static pages.",
+      "summary_zh": "介绍一个极简库，用于把科学数据渲染成 SVG 图表，强调简单、可重复的可视化。适合快速文档、仪表盘或教学演示的静态页面集成。",
+      "hn": {
+        "id": 47492871,
+        "type": "story",
+        "by": "afc",
+        "score": 40,
+        "descendants": 3,
+        "time": 1774288491,
+        "comments_url": "https://news.ycombinator.com/item?id=47492871"
+      },
+      "tags": [
+        "Show HN",
+        "Programming",
+        "Science"
+      ],
+      "hot_score": 0.01
+    },
+    {
       "title_en": "Fast regex search: indexing text for agent tools",
       "url": "https://cursor.com/blog/fast-regex-search",
       "title_zh": "快速正则搜索：为代理工具对文本建立索引",
@@ -1067,52 +1375,75 @@
         "comments_url": "https://news.ycombinator.com/item?id=47499242"
       },
       "tags": [
-        "Data"
+        "Programming"
       ],
-      "hot_score": 0.02
+      "hot_score": 0.01
     },
     {
-      "title_en": "Generators in Lone Lisp",
-      "url": "https://www.matheusmoreira.com/articles/generators-in-lone-lisp",
-      "title_zh": "Lone Lisp 中的生成器",
-      "created_display": "Created: Mar 23, 2026 / 06:51 PT",
-      "image_url": null,
-      "summary_en": "Explores implementing or using generators (lazy sequences) in Lone Lisp, enabling streaming data processing and memory-efficient pipelines in a Lisp environment.",
-      "summary_zh": "探讨在 Lone Lisp 中实现生成器（惰性序列）的设计与应用，支持流式数据处理与内存高效的流水线。内容涵盖常用模式与示例代码。",
+      "title_en": "QRV Operating System: QNX on RISC-V",
+      "url": "https://r-tty.blogspot.com/2026/03/qrv-operating-system-first-publication.html",
+      "title_zh": "QRV 操作系统：QNX 在 RISC-V 上首次公开发布",
+      "created_display": "Created: Mar 22, 2026 / 18:16 PT",
+      "image_url": "https://resources.blogblog.com/img/icon18_edit_allbkg.gif",
+      "summary_en": "QNX, a real-time OS, has a public release showing it running on RISC-V, underscoring portability to open hardware. The port demonstrates realtime performance and expands options for embedded developers using modern ISA.",
+      "summary_zh": "公开发布显示 QNX（实时操作系统）已在 RISC-V 上运行，凸显其对开源硬件的可移植性。该移植展示了实时性能，并为使用现代指令集架构的嵌入式开发者带来更多选择。",
       "hn": {
-        "id": 47489535,
+        "id": 47484295,
         "type": "story",
-        "by": "matheusmoreira",
-        "score": 25,
-        "descendants": 1,
-        "time": 1774273863,
-        "comments_url": "https://news.ycombinator.com/item?id=47489535"
+        "by": "chrsw",
+        "score": 37,
+        "descendants": 7,
+        "time": 1774228563,
+        "comments_url": "https://news.ycombinator.com/item?id=47484295"
       },
       "hot_score": 0.01,
       "tags": [
-        "Programming"
+        "Programming",
+        "Hardware"
       ]
     },
     {
-      "title_en": "The Legibility of Serif and Sans Serif Typefaces (2022)",
-      "url": "https://library.oapen.org//handle/20.500.12657/53344",
-      "title_zh": "衬线体与无衬线体的易读性（2022）",
-      "created_display": "Created: Mar 23, 2026 / 10:56 PT",
-      "image_url": "https://library.oapen.org/themes/Mirage2/images/oapenlogo_01_colour.jpg",
-      "summary_en": "A 2022 study quantifies how serif and sans-serif typefaces fare in legibility on screens, with nuanced findings across reading tasks and sizes. The results inform typography choices for UI and accessibility, suggesting practical trade-offs between aesthetics and readability. Designers can tailor typography to context, audience, and device.",
-      "summary_zh": "2022 年的研究比较了衬线体与无衬线体在屏幕上的可读性，结果揭示不同任务和字号下的差异。对 UI 字体选择与无障碍设计具有指导意义，强调在美观与易读之间的权衡。",
+      "title_en": "Local Bernstein theory, and lower bounds for Lebesgue constants",
+      "url": "https://terrytao.wordpress.com/2026/03/23/local-bernstein-theory-and-lower-bounds-for-lebesgue-constants/",
+      "title_zh": "局部伯恩斯坦理论与 Lebesgue 常数下界",
+      "created_display": "Created: Mar 24, 2026 / 02:36 PT",
+      "image_url": "https://terrytao.wordpress.com/wp-content/uploads/2026/03/cheby.png",
+      "summary_en": "Tao surveys local Bernstein theory and derives lower bounds for Lebesgue constants, tying into interpolation stability and convergence rates. The discussion sheds light on how local structures influence global approximation error. The takeaway is a deeper intuition for why certain interpolation schemes behave poorly as degree grows.",
+      "summary_zh": "泰勒探讨了局部伯恩斯坦理论，并给出 Lebesgue 常数的下界，与插值稳定性和收敛速率相关。讨论揭示了局部结构如何影响全局近似误差，帮助理解某些插值方案在次数增大时为何表现不佳。",
       "hn": {
-        "id": 47492894,
+        "id": 47500337,
         "type": "story",
-        "by": "the-mitr",
-        "score": 23,
-        "descendants": 4,
-        "time": 1774288591,
-        "comments_url": "https://news.ycombinator.com/item?id=47492894"
+        "by": "jjgreen",
+        "score": 27,
+        "descendants": 3,
+        "time": 1774345005,
+        "comments_url": "https://news.ycombinator.com/item?id=47500337"
       },
       "hot_score": 0.01,
       "tags": [
-        "Design"
+        "Science"
+      ]
+    },
+    {
+      "title_en": "Gzip decompression in 250 lines of Rust",
+      "url": "https://iev.ee/blog/gzip-decompression-in-250-lines-of-rust/",
+      "title_zh": "用 Rust 仅 250 行实现 Gzip 解压",
+      "created_display": "Created: Mar 23, 2026 / 23:35 PT",
+      "image_url": "https://iev.ee/og-image.png",
+      "summary_en": "A compact gzip decompressor implemented in 250 lines of Rust demonstrates how readable, dependency-free code can handle real-world compression. The post walks through the design choices for headers, blocks, and streaming decompression, with performance notes. It's a compact showcase of robust systems programming in Rust.",
+      "summary_zh": "展示了用 Rust 在仅 250 行代码下实现 gzip 解压的可能性，强调代码简洁性与无依赖实现的可读性。文中解析了头部、数据块及流式解压的设计要点，并附带性能评估。这是一个对 Rust 系统编程风格的简洁展示。",
+      "hn": {
+        "id": 47499262,
+        "type": "story",
+        "by": "vismit2000",
+        "score": 11,
+        "descendants": 0,
+        "time": 1774334108,
+        "comments_url": "https://news.ycombinator.com/item?id=47499262"
+      },
+      "hot_score": 0.0,
+      "tags": [
+        "Programming"
       ]
     },
     {
@@ -1135,33 +1466,8 @@
       "hot_score": 0.0,
       "tags": [
         "Web",
-        "Privacy",
-        "Science"
-      ]
-    },
-    {
-      "title_en": "Show HN: Minimalist library to generate SVG views of scientific data",
-      "url": "https://github.com/alefore/mini_svg/",
-      "title_zh": "Show HN：用于生成科学数据 SVG 视图的极简库",
-      "created_display": "Created: Mar 23, 2026 / 10:54 PT",
-      "image_url": "https://opengraph.githubassets.com/01e26c0bf9fa7d9ae45a4e662c1bd0b8aa8c50737789ddb5cabb4eb8f7b9c1f7/alefore/mini_svg",
-      "summary_en": "Introduces a tiny library that renders scientific data as SVG visuals, prioritizing simplicity and reproducibility over feature creep. It suits quick plots for docs, dashboards, or educational demos, with easy integration into static pages.",
-      "summary_zh": "介绍一个极简库，用于把科学数据渲染成 SVG 图表，强调简单、可重复的可视化。适合快速文档、仪表盘或教学演示的静态页面集成。",
-      "hn": {
-        "id": 47492871,
-        "type": "story",
-        "by": "afc",
-        "score": 5,
-        "descendants": 0,
-        "time": 1774288491,
-        "comments_url": "https://news.ycombinator.com/item?id=47492871"
-      },
-      "hot_score": 0.0,
-      "tags": [
-        "Show HN",
-        "Open Source",
-        "Web",
-        "Science"
+        "Science",
+        "Privacy"
       ]
     }
   ]
