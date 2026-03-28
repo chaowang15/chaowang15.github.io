@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>40</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>5665</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>39</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>38</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-03-27</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>41</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>5715</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>39</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>39</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-03-28</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,118 +20,118 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='368' data-hn-time='1774645491'>
+<div class='hn-top-story-item' data-hn-score='239' data-hn-time='1774658394'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/27/top_stories_03272026#story-47548243'>If you don't opt out by Apr 24 GitHub will train on your private repos</a>
- <a class='hn-top-story-link' href='https://news.ycombinator.com/item?id=47548243' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/28/top_stories_03282026#story-47550282'>Go hard on agents, not on your filesystem</a>
+ <a class='hn-top-story-link' href='https://jai.scs.stanford.edu/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>若在4月24日前未选择退出，GitHub 将把你的私有仓库用于训练模型</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.8</span> <span class='hn-top-story-score'>&#9650; 368</span> <span class='hn-top-story-comments'>&#128172; 191</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>把精力放在代理上，而不是文件系统</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.1</span> <span class='hn-top-story-score'>&#9650; 239</span> <span class='hn-top-story-comments'>&#128172; 131</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='97' data-hn-time='1774662619'>
+<div class='hn-top-story-item' data-hn-score='112' data-hn-time='1774664224'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/27/top_stories_03272026#story-47550726'>Fear and denial in Silicon Valley over social media addiction trial</a>
- <a class='hn-top-story-link' href='https://www.bbc.com/news/articles/c86e3eglv2go' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>硅谷对社交媒体成瘾审判的恐惧与否认</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.7</span> <span class='hn-top-story-score'>&#9650; 97</span> <span class='hn-top-story-comments'>&#128172; 139</span> <span class='hn-top-story-tag'>Politics</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='134' data-hn-time='1774658394'>
-<span class='hn-top-story-rank'>3</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/27/top_stories_03272026#story-47550282'>Don't YOLO your file system</a>
- <a class='hn-top-story-link' href='https://jai.scs.stanford.edu/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>别在文件系统上赌命</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.0</span> <span class='hn-top-story-score'>&#9650; 134</span> <span class='hn-top-story-comments'>&#128172; 66</span> <span class='hn-top-story-tag'>Data</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='234' data-hn-time='1774647701'>
-<span class='hn-top-story-rank'>4</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/27/top_stories_03272026#story-47548670'>DOJ confirms FBI Director Kash Patel's personal email was hacked</a>
- <a class='hn-top-story-link' href='https://arstechnica.com/tech-policy/2026/03/doj-confirms-fbi-director-kash-patels-personal-email-was-hacked/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>司法部确认 FBI 局长 Kash Patel 的个人邮箱遭到入侵</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.9</span> <span class='hn-top-story-score'>&#9650; 234</span> <span class='hn-top-story-comments'>&#128172; 122</span> <span class='hn-top-story-tag'>Security</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='333' data-hn-time='1774638919'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/27/top_stories_03272026#story-47547009'>Make macOS consistently bad unironically</a>
- <a class='hn-top-story-link' href='https://lr0.org/blog/p/macos/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>让 macOS 真正变得一贯糟糕</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.4</span> <span class='hn-top-story-score'>&#9650; 333</span> <span class='hn-top-story-comments'>&#128172; 231</span> <span class='hn-top-story-tag'>Design</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='46' data-hn-time='1774664224'>
-<span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/27/top_stories_03272026#story-47550878'>AMD's Ryzen 9 9950X3D2 Dual Edition crams 208MB of cache into a single chip</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/28/top_stories_03282026#story-47550878'>AMD's Ryzen 9 9950X3D2 Dual Edition crams 208MB of cache into a single chip</a>
  <a class='hn-top-story-link' href='https://arstechnica.com/gadgets/2026/03/amds-ryzen-9-9950x3d2-dual-edition-crams-208mb-of-cache-into-a-single-chip/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>AMD Ryzen 9 9950X3D2 双版将208MB缓存塞进单芯片</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.8</span> <span class='hn-top-story-score'>&#9650; 46</span> <span class='hn-top-story-comments'>&#128172; 21</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Gaming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 112</span> <span class='hn-top-story-comments'>&#128172; 55</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Gaming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='564' data-hn-time='1774619675'>
-<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-item' data-hn-score='372' data-hn-time='1774638919'>
+<span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/27/top_stories_03272026#story-47542695'>People inside Microsoft are fighting to drop mandatory Microsoft Account</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/28/top_stories_03282026#story-47547009'>Make macOS consistently bad unironically</a>
+ <a class='hn-top-story-link' href='https://lr0.org/blog/p/macos/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>让 macOS 真正变得一贯糟糕</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 372</span> <span class='hn-top-story-comments'>&#128172; 253</span> <span class='hn-top-story-tag'>Design</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='607' data-hn-time='1774619675'>
+<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/28/top_stories_03282026#story-47542695'>People inside Microsoft are fighting to drop mandatory Microsoft Account</a>
  <a class='hn-top-story-link' href='https://www.windowscentral.com/microsoft/windows-11/people-inside-microsoft-are-fighting-to-drop-windows-11s-mandatory-microsoft-account-requirements-during-setup' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>微软内部推动取消 Windows 11 的强制微软账户</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.7</span> <span class='hn-top-story-score'>&#9650; 564</span> <span class='hn-top-story-comments'>&#128172; 418</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 607</span> <span class='hn-top-story-comments'>&#128172; 445</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='531' data-hn-time='1774615609'>
-<span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-item' data-hn-score='537' data-hn-time='1774615609'>
+<span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/27/top_stories_03272026#story-47542057'>The 'paperwork flood': How I drowned a bureaucrat before dinner</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/28/top_stories_03282026#story-47542057'>The 'paperwork flood': How I drowned a bureaucrat before dinner</a>
  <a class='hn-top-story-link' href='https://sightlessscribbles.com/posts/the-paperwork-flood/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>“纸上洪流”：我在晚餐前把官僚打败</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 531</span> <span class='hn-top-story-comments'>&#128172; 430</span> <span class='hn-top-story-tag'>Culture</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 537</span> <span class='hn-top-story-comments'>&#128172; 434</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='337' data-hn-time='1774629572'>
-<span class='hn-top-story-rank'>9</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='451' data-hn-time='1774622145'>
+<span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/27/top_stories_03272026#story-47544980'>AI got the blame for the Iran school bombing. The truth is more worrying</a>
- <a class='hn-top-story-link' href='https://www.theguardian.com/news/2026/mar/26/ai-got-the-blame-for-the-iran-school-bombing-the-truth-is-far-more-worrying' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>AI被指控参与伊朗校园爆炸？真相更令人担忧</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 337</span> <span class='hn-top-story-comments'>&#128172; 305</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='403' data-hn-time='1774622145'>
-<span class='hn-top-story-rank'>10</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/27/top_stories_03272026#story-47543139'>Anatomy of the .claude/ folder</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/28/top_stories_03282026#story-47543139'>Anatomy of the .claude/ folder</a>
  <a class='hn-top-story-link' href='https://blog.dailydoseofds.com/p/anatomy-of-the-claude-folder' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>.claude/ 文件夹结构解析</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 403</span> <span class='hn-top-story-comments'>&#128172; 194</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 451</span> <span class='hn-top-story-comments'>&#128172; 207</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='354' data-hn-time='1774629572'>
+<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/28/top_stories_03282026#story-47544980'>AI got the blame for the Iran school bombing. The truth is more worrying</a>
+ <a class='hn-top-story-link' href='https://www.theguardian.com/news/2026/mar/26/ai-got-the-blame-for-the-iran-school-bombing-the-truth-is-far-more-worrying' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>AI被指控参与伊朗校园爆炸？真相更令人担忧</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.3</span> <span class='hn-top-story-score'>&#9650; 354</span> <span class='hn-top-story-comments'>&#128172; 318</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='383' data-hn-time='1774625480'>
+<span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/28/top_stories_03282026#story-47543943'>Desk for people who work at home with a cat</a>
+ <a class='hn-top-story-link' href='https://soranews24.com/2026/03/27/japan-now-has-a-special-desk-for-people-who-work-at-home-with-a-pet-catphotos/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>适合在家工作且养猫人群的办公桌</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.2</span> <span class='hn-top-story-score'>&#9650; 383</span> <span class='hn-top-story-comments'>&#128172; 138</span> <span class='hn-top-story-tag'>Design</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='605' data-hn-time='1774606241'>
+<span class='hn-top-story-rank'>9</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/28/top_stories_03282026#story-47540833'>Hold on to Your Hardware</a>
+ <a class='hn-top-story-link' href='https://xn--gckvb8fzb.com/hold-on-to-your-hardware/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>守住你的硬件</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.1</span> <span class='hn-top-story-score'>&#9650; 605</span> <span class='hn-top-story-comments'>&#128172; 479</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Design</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='142' data-hn-time='1774641725'>
+<span class='hn-top-story-rank'>10</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/28/top_stories_03282026#story-47547508'>ISBN Visualization</a>
+ <a class='hn-top-story-link' href='https://annas-archive.gd/isbn-visualization?' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>ISBN 可视化：Annas Archive</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.4</span> <span class='hn-top-story-score'>&#9650; 142</span> <span class='hn-top-story-comments'>&#128172; 22</span> <span class='hn-top-story-tag'>Data</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
-<a class='hn-top-stories-more' href='/hackernews/2026/03/27/top_stories_03272026'>View all trending stories &rarr;</a>
+<a class='hn-top-stories-more' href='/hackernews/2026/03/28/top_stories_03282026'>View all trending stories &rarr;</a>
 </div>
 </div>
 <div class='hn-index-section hn-podcast-section'>
@@ -168,10 +168,19 @@ Your browser does not support the audio element.
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 13 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-03-23 — 2026-03-27 <span class="hn-row-sep">·</span> 700 stories <span class="hn-row-sep">·</span> 5 days</span>
+<span class='hn-week-meta'>2026-03-23 — 2026-03-28 <span class="hn-row-sep">·</span> 750 stories <span class="hn-row-sep">·</span> 6 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
+<div class='hn-day-row'>
+<div class='hn-day-date'>2026-03-28 <span class='hn-day-weekday'>Sat</span></div>
+<div class='hn-day-stories'>
+<a class='hn-story-link' href='/hackernews/2026/03/28/top_stories_03282026'>
+<span class='hn-row-type hn-type-top'>Trending</span>
+<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> Hardware <b>13</b> <span class="hn-row-sep">·</span> Programming <b>11</b></span>
+</a>
+</div>
+</div>
 <div class='hn-day-row'>
 <div class='hn-day-date'>2026-03-27 <span class='hn-day-weekday'>Fri</span></div>
 <div class='hn-day-stories'>
@@ -560,7 +569,7 @@ Your browser does not support the audio element.
 <details class='hn-week-group'>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 9</span>
-<span class='hn-week-meta'>2026-02-26 — 2026-03-01 <span class="hn-row-sep">·</span> 600 stories <span class="hn-row-sep">·</span> 4 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
+<span class='hn-week-meta'>2026-02-27 — 2026-03-01 <span class="hn-row-sep">·</span> 450 stories <span class="hn-row-sep">·</span> 3 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
 </summary>
 <div class='hn-week-content'>
 <a class='hn-story-link hn-weekly-digest-link' href='/hackernews/weekly/2026-W09'>
@@ -604,19 +613,6 @@ Your browser does not support the audio element.
 <a class='hn-story-link' href='/hackernews/2026/02/27/top_stories_02272026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
 <span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>29</b> <span class="hn-row-sep">·</span> Programming <b>26</b></span>
-</a>
-</div>
-</div>
-<div class='hn-day-row'>
-<div class='hn-day-date'>2026-02-26 <span class='hn-day-weekday'>Thu</span></div>
-<div class='hn-day-stories'>
-<a class='hn-story-link' href='/hackernews/2026/02/26/best_stories_02262026'>
-<span class='hn-row-type hn-type-best'>Daily Best</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>13</b> <span class="hn-row-sep">·</span> Programming <b>12</b></span>
-</a>
-<a class='hn-story-link' href='/hackernews/2026/02/26/top_stories_02262026'>
-<span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>27</b> <span class="hn-row-sep">·</span> Programming <b>24</b></span>
 </a>
 </div>
 </div>
