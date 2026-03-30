@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='172' data-hn-time='1774815665'>
+<div class='hn-top-story-item' data-hn-score='163' data-hn-time='1774835000'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/29/top_stories_03292026#story-47566865'>ChatGPT Won't Let You Type Until Cloudflare Reads Your React State</a>
- <a class='hn-top-story-link' href='https://www.buchodi.com/chatgpt-wont-let-you-type-until-cloudflare-reads-your-react-state-i-decrypted-the-program-that-does-it/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/29/top_stories_03292026#story-47569502'>New Apple Silicon M4 and M5 HiDPI Limitation on 4K External Displays</a>
+ <a class='hn-top-story-link' href='https://smcleod.net/2026/03/new-apple-silicon-m4-m5-hidpi-limitation-on-4k-external-displays/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>ChatGPT 在 Cloudflare 读取你的 React 状态前不让你输入</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 14</span> <span class='hn-top-story-score'>&#9650; 172</span> <span class='hn-top-story-comments'>&#128172; 109</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>新款 Apple Silicon M4 与 M5 在 4K 外接显示器上的 HiDPI 限制</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.5</span> <span class='hn-top-story-score'>&#9650; 163</span> <span class='hn-top-story-comments'>&#128172; 66</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='459' data-hn-time='1774795880'>
+<div class='hn-top-story-item' data-hn-score='131' data-hn-time='1774834697'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/29/top_stories_03292026#story-47563655'>Say No to Palantir in Europe</a>
- <a class='hn-top-story-link' href='https://action.wemove.eu/sign/2026-03-palantir-petition-EN' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/29/top_stories_03292026#story-47569471'>Philly courts will ban all smart eyeglasses starting next week</a>
+ <a class='hn-top-story-link' href='https://www.inquirer.com/news/philadelphia/smart-glasses-ai-meta-courts-20260326.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>拒绝 Palantir 在欧洲落地</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.0</span> <span class='hn-top-story-score'>&#9650; 459</span> <span class='hn-top-story-comments'>&#128172; 100</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Data</span></div>
+<div class='hn-top-story-zh'>费城法院下周起全面禁止智能眼镜</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.6</span> <span class='hn-top-story-score'>&#9650; 131</span> <span class='hn-top-story-comments'>&#128172; 40</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='131' data-hn-time='1774812981'>
+<div class='hn-top-story-item' data-hn-score='398' data-hn-time='1774815665'>
 <span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/29/top_stories_03292026#story-47566865'>ChatGPT won't let you type until Cloudflare reads your React state</a>
+ <a class='hn-top-story-link' href='https://www.buchodi.com/chatgpt-wont-let-you-type-until-cloudflare-reads-your-react-state-i-decrypted-the-program-that-does-it/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>ChatGPT 在 Cloudflare 读取你的 React 状态前不让你输入</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.7</span> <span class='hn-top-story-score'>&#9650; 398</span> <span class='hn-top-story-comments'>&#128172; 292</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='212' data-hn-time='1774822506'>
+<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/29/top_stories_03292026#story-47567969'>Claude Code runs Git reset –hard origin/main against project repo every 10 mins</a>
+ <a class='hn-top-story-link' href='https://github.com/anthropics/claude-code/issues/40710' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Claude Code 每十分钟对项目仓库执行 git reset --hard origin/main</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.4</span> <span class='hn-top-story-score'>&#9650; 212</span> <span class='hn-top-story-comments'>&#128172; 138</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='338' data-hn-time='1774812981'>
+<span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/03/29/top_stories_03292026#story-47566442'>The Cognitive Dark Forest</a>
  <a class='hn-top-story-link' href='https://ryelang.org/blog/posts/cognitive-dark-forest/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>认知黑暗森林</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.9</span> <span class='hn-top-story-score'>&#9650; 131</span> <span class='hn-top-story-comments'>&#128172; 69</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.3</span> <span class='hn-top-story-score'>&#9650; 338</span> <span class='hn-top-story-comments'>&#128172; 155</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Science</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='237' data-hn-time='1774805995'>
-<span class='hn-top-story-rank'>4</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/29/top_stories_03292026#story-47565316'>Neovim 0.12.0</a>
- <a class='hn-top-story-link' href='https://github.com/neovim/neovim/releases/tag/v0.12.0' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Neovim 0.12.0</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.7</span> <span class='hn-top-story-score'>&#9650; 237</span> <span class='hn-top-story-comments'>&#128172; 100</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Open Source</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='327' data-hn-time='1774800742'>
-<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='435' data-hn-time='1774800742'>
+<span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/03/29/top_stories_03292026#story-47564421'>Voyager 1 runs on 69 KB of memory and an 8-track tape recorder</a>
  <a class='hn-top-story-link' href='https://techfixated.com/a-1977-time-capsule-voyager-1-runs-on-69-kb-of-memory-and-an-8-track-tape-recorder-4/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>旅行者1号仅靠69KB内存与8轨磁带记录器运行</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.5</span> <span class='hn-top-story-score'>&#9650; 327</span> <span class='hn-top-story-comments'>&#128172; 137</span> <span class='hn-top-story-tag'>Space</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Energy</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 435</span> <span class='hn-top-story-comments'>&#128172; 175</span> <span class='hn-top-story-tag'>Space</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Energy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='97' data-hn-time='1774811300'>
-<span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/29/top_stories_03292026#story-47566143'>My MacBook Keyboard Is Broken and It's Insanely Expensive to Fix</a>
- <a class='hn-top-story-link' href='https://tobiasberg.net/posts/my-macbook-keyboard-is-broken-and-its-insanely-expensive-to-fix/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>我的 MacBook 键盘坏了，修理竟然如此昂贵</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.9</span> <span class='hn-top-story-score'>&#9650; 97</span> <span class='hn-top-story-comments'>&#128172; 102</span> <span class='hn-top-story-tag'>Hardware</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='299' data-hn-time='1774794023'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='459' data-hn-time='1774795880'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/29/top_stories_03292026#story-47563384'>Police used AI facial recognition to wrongly arrest TN woman for crimes in ND</a>
- <a class='hn-top-story-link' href='https://www.cnn.com/2026/03/29/us/angela-lipps-ai-facial-recognition' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/29/top_stories_03292026#story-47563655'>Say No to Palantir in Europe</a>
+ <a class='hn-top-story-link' href='https://action.wemove.eu/sign/2026-03-palantir-petition-EN' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>警方利用 AI 面部识别错误逮捕田纳西州女性，指控在北达科他州的罪行</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.7</span> <span class='hn-top-story-score'>&#9650; 299</span> <span class='hn-top-story-comments'>&#128172; 116</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>拒绝 Palantir 在欧洲落地</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 459</span> <span class='hn-top-story-comments'>&#128172; 100</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Data</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='185' data-hn-time='1774801050'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='322' data-hn-time='1774805995'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/29/top_stories_03292026#story-47564469'>The bot situation on the internet is worse than you could imagine</a>
- <a class='hn-top-story-link' href='https://gladeart.com/blog/the-bot-situation-on-the-internet-is-actually-worse-than-you-could-imagine-heres-why' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/29/top_stories_03292026#story-47565316'>Neovim 0.12.0</a>
+ <a class='hn-top-story-link' href='https://github.com/neovim/neovim/releases/tag/v0.12.0' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>互联网上的机器人现象比你想象的更糟</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.3</span> <span class='hn-top-story-score'>&#9650; 185</span> <span class='hn-top-story-comments'>&#128172; 133</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Data</span></div>
+<div class='hn-top-story-zh'>Neovim 0.12.0</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 322</span> <span class='hn-top-story-comments'>&#128172; 176</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='197' data-hn-time='1774799665'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='132' data-hn-time='1774822894'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/29/top_stories_03292026#story-47564245'>Full network of clitoral nerves mapped out for first time</a>
- <a class='hn-top-story-link' href='https://www.theguardian.com/society/2026/mar/29/full-network-clitoral-nerves-mapped-out-first-time-women-pelvic-surgery' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/29/top_stories_03292026#story-47568028'>Coding Agents Could Make Free Software Matter Again</a>
+ <a class='hn-top-story-link' href='https://www.gjlondon.com/blog/ai-agents-could-make-free-software-matter-again/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>首次绘制完整阴蒂神经网络</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 197</span> <span class='hn-top-story-comments'>&#128172; 58</span> <span class='hn-top-story-tag'>Health</span> <span class='hn-top-story-tag'>Science</span></div>
+<div class='hn-top-story-zh'>编码代理可能让自由软件再次有意义</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 132</span> <span class='hn-top-story-comments'>&#128172; 122</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='125' data-hn-time='1774806372'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='658' data-hn-time='1774774704'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/29/top_stories_03292026#story-47565365'>C++26 is done ISO C++ standards meeting, Trip Report</a>
- <a class='hn-top-story-link' href='https://herbsutter.com/2026/03/29/c26-is-done-trip-report-march-2026-iso-c-standards-meeting-london-croydon-uk/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/29/top_stories_03292026#story-47561489'>LinkedIn uses 2.4 GB RAM across two tabs</a>
+ <a class='hn-top-story-link' href='https://news.ycombinator.com/item?id=47561489' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>C++26 完成 ISO C++ 标准会议：现场报道</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 125</span> <span class='hn-top-story-comments'>&#128172; 99</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>LinkedIn 在两个标签页上耗用 2.4 GB RAM</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 658</span> <span class='hn-top-story-comments'>&#128172; 384</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -165,9 +165,9 @@ Your browser does not support the audio element.
 </div>
 <div class='hn-index-section hn-archive-section'>
 <h3 class='hn-section-title'>News Archive <span class='hn-section-zh'>新闻归档</span></h3>
-<details class='hn-week-group' open>
+<details class='hn-week-group'>
 <summary class='hn-week-summary'>
-<span class='hn-week-title'>2026 Week 13 <span class='hn-this-week-badge'>This Week</span></span>
+<span class='hn-week-title'>2026 Week 13</span>
 <span class='hn-week-meta'>2026-03-23 — 2026-03-29 <span class="hn-row-sep">·</span> 1000 stories <span class="hn-row-sep">·</span> 7 days</span>
 </summary>
 <div class='hn-week-content'>
@@ -177,7 +177,7 @@ Your browser does not support the audio element.
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/03/29/top_stories_03292026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>23</b> <span class="hn-row-sep">·</span> Hardware <b>19</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>27</b> <span class="hn-row-sep">·</span> Hardware <b>18</b></span>
 </a>
 </div>
 </div>
