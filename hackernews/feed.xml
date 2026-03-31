@@ -5,7 +5,7 @@
     <link>https://chaowang15.github.io/hackernews/</link>
     <description>Curated daily digest of top Hacker News stories with AI-generated summaries, tags, and bilingual translations.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 31 Mar 2026 07:29:11 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 31 Mar 2026 13:44:17 +0000</lastBuildDate>
     <generator>Hacker News Daily RSS Builder</generator>
     <atom:link href="https://chaowang15.github.io/hackernews/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
@@ -18,7 +18,7 @@
       <category>Programming</category>
       <description>&lt;p&gt;A firsthand account of Copilot inserting an advertisement into a pull request, illustrating a real risk of AI-assisted edits slipping into code reviews. It underscores the need for guardrails and provenance in AI tooling.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;讲述 Copilot 将广告插入到我的 PR 的真实经历，凸显 AI 辅助编辑在代码评审中可能悄然进入的风险。强调对 AI 工具设定护栏与可溯性的必要性。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 1476 · 💬 615 · AI · Programming&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 1543 · 💬 629 · AI · Programming&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47570269&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/30/top_stories_03302026#story-47570269&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
@@ -61,6 +61,19 @@
 &lt;p&gt;&lt;em&gt;Wine 11 对内核层进行重写，使 Linux 上运行 Windows 游戏的性能显著提升，并提高了兼容性与系统调用翻译、图形处理的效率。此举缩小了 Linux 与 Windows 在游戏性能上的差距，有望推动 Linux 游戏生态的扩展。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 1246 · 💬 469 · Gaming · Open Source&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47507150&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/25/top_stories_03252026#story-47507150&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Axios compromised on NPM – Malicious versions drop remote access trojan</title>
+      <link>https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47582220</guid>
+      <dc:creator>mtud</dc:creator>
+      <pubDate>Tue, 31 Mar 2026 02:54:17 +0000</pubDate>
+      <category>Security</category>
+      <category>Programming</category>
+      <description>&lt;p&gt;Malicious Axios releases popped up on npm, embedding a remote access Trojan in certain versions. The attack highlights the ongoing supply-chain risk for widely used libraries, and operators should audit dependencies, pin safe versions, and monitor for unusual network activity after updates.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;npm 上出现恶意的 Axios 版本，包含可对受影响环境进行远程访问的木马。此类供应链攻击再次暴露了对广泛使用库的依赖风险，建议锁定版本、进行依赖审计，并在更新后监测异常网络活动。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 1191 · 💬 435 · Security · Programming&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47582220&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/30/top_stories_03302026#story-47582220&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Goodbye to Sora</title>
@@ -130,11 +143,11 @@
       <dc:creator>alberto-m</dc:creator>
       <pubDate>Sun, 29 Mar 2026 20:21:05 +0000</pubDate>
       <category>Security</category>
-      <category>Web</category>
       <category>AI</category>
+      <category>Web</category>
       <description>&lt;p&gt;Some anti-bot protections gate user input until the browser reveals internal React state, illustrating how client-side signals shape UX.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;一些反爬虫防护在浏览器暴露内部 React 状态前就阻止输入，揭示了客户端信号如何影响用户体验。此类防护引发对隐私、性能以及基于 JavaScript 的检测策略韧性的讨论。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 943 · 💬 605 · Security · Web · AI&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 957 · 💬 612 · Security · AI · Web&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47566865&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/30/top_stories_03302026#story-47566865&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
@@ -296,19 +309,6 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47548243&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/28/top_stories_03282026#story-47548243&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>End of &quot;Chat Control&quot;: EU parliament stops mass surveillance</title>
-      <link>https://www.patrick-breyer.de/en/end-of-chat-control-eu-parliament-stops-mass-surveillance-in-voting-thriller-paving-the-way-for-genuine-child-protection/</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47529609</guid>
-      <dc:creator>amarcheschi</dc:creator>
-      <pubDate>Thu, 26 Mar 2026 12:24:36 +0000</pubDate>
-      <category>Privacy</category>
-      <category>Politics</category>
-      <description>&lt;p&gt;EU Parliament's stance on Chat Control signals an end to mass surveillance in that policy area, paving the way for targeted child-protection measures. The vote reframes privacy policy and could influence how Europe approaches open web safety.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;欧盟议会对 Chat Control 的态度表明停止大规模监控的方向，为以目标化手段保护儿童铺路。此举重塑隐私政策，并可能影响欧洲在开放网络安全方面的做法。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 669 · 💬 308 · Privacy · Politics&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47529609&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/27/top_stories_03272026#story-47529609&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>How to turn anything into a router</title>
       <link>https://nbailey.ca/post/router/</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=47574034</guid>
@@ -318,8 +318,8 @@
       <category>Open Source</category>
       <description>&lt;p&gt;A practical guide to repurposing everyday devices into network routers, using affordable hardware and open-source tooling. It covers core techniques and trade-offs, from setting up a small single-board computer to routing traffic securely.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;将日常设备改造成路由器的实用指南，借助低成本硬件和开源工具实现网络转发。文章介绍从配置小型单板机到路由流量的核心方法，展示 DIY 路由在灵活性和隐私方面的潜力。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 657 · 💬 229 · Hardware · Open Source&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47574034&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/31/top_stories_03312026#story-47574034&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;small&gt;▲ 712 · 💬 248 · Hardware · Open Source&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47574034&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/30/top_stories_03302026#story-47574034&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Voyager 1 runs on 69 KB of memory and an 8-track tape recorder</title>
@@ -332,8 +332,21 @@
       <category>Energy</category>
       <description>&lt;p&gt;Voyager 1 still operates with a mere 69 KB of RAM and an 8-track tape recorder, a testament to long-lived space hardware engineered decades ago. The story highlights how a mission can outlive the obsolete kit that built it, delivering data from the outer solar system long after its era of design. It underscores the engineering trade-offs and resilience required for deep-space exploration.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;旅行者1号仍以仅有的69 KB RAM和8轨磁带记录器运行，展示了数十年前设计的硬件的持久耐用。这个故事凸显了任务往往超越其设计时的技术极限，能够持续传回外太阳系的数据，凸显深空探测的工程权衡与韧性。此事也让人反思长期任务对老旧组件的依赖与替换挑战。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 656 · 💬 243 · Space · Hardware · Energy&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 673 · 💬 253 · Space · Hardware · Energy&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47564421&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/30/top_stories_03302026#story-47564421&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>End of &quot;Chat Control&quot;: EU parliament stops mass surveillance</title>
+      <link>https://www.patrick-breyer.de/en/end-of-chat-control-eu-parliament-stops-mass-surveillance-in-voting-thriller-paving-the-way-for-genuine-child-protection/</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47529609</guid>
+      <dc:creator>amarcheschi</dc:creator>
+      <pubDate>Thu, 26 Mar 2026 12:24:36 +0000</pubDate>
+      <category>Privacy</category>
+      <category>Politics</category>
+      <description>&lt;p&gt;EU Parliament's stance on Chat Control signals an end to mass surveillance in that policy area, paving the way for targeted child-protection measures. The vote reframes privacy policy and could influence how Europe approaches open web safety.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;欧盟议会对 Chat Control 的态度表明停止大规模监控的方向，为以目标化手段保护儿童铺路。此举重塑隐私政策，并可能影响欧洲在开放网络安全方面的做法。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 669 · 💬 308 · Privacy · Politics&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47529609&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/27/top_stories_03272026#story-47529609&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Apple discontinues the Mac Pro</title>
@@ -359,6 +372,20 @@
 &lt;p&gt;&lt;em&gt;对白宫新应用的反编译分析揭示了其安全姿态与数据流的细节，指出了加强政府软件安全性的机会与挑战。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 641 · 💬 233 · Security · Politics&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47555556&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/29/top_stories_03292026#story-47555556&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Claude Code's source code has been leaked via a map file in their NPM registry</title>
+      <link>https://twitter.com/Fried_rice/status/2038894956459290963</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47584540</guid>
+      <dc:creator>treexs</dc:creator>
+      <pubDate>Tue, 31 Mar 2026 09:00:40 +0000</pubDate>
+      <category>Security</category>
+      <category>Programming</category>
+      <category>AI</category>
+      <description>&lt;p&gt;Claude Code’s source code was leaked through a source map file published in their NPM package registry. The incident underscores how publishing artifacts like source maps can unintentionally expose proprietary code and sensitive logic. It’s a reminder for maintainers to scrub sensitive bits from build artifacts and implement stricter registry hygiene and access controls.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Claude Code 的源代码通过其 NPM 包注册表中暴露的一个 source map 文件泄露到公网。事件凸显了在发布构建产物时，source map 可能无意间暴露私有代码和业务逻辑的风险。开发团队需要对发布的产物进行清理，并加强注册表的访问控制与审计。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 634 · 💬 332 · Security · Programming · AI&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47584540&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/30/top_stories_03302026#story-47584540&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Moving from GitHub to Codeberg, for lazy people</title>
@@ -413,6 +440,19 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47519519&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/26/top_stories_03262026#story-47519519&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Do your own writing</title>
+      <link>https://alexhwoods.com/dont-let-ai-write-for-you/</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47573519</guid>
+      <dc:creator>karimf</dc:creator>
+      <pubDate>Mon, 30 Mar 2026 12:39:56 +0000</pubDate>
+      <category>Culture</category>
+      <category>AI</category>
+      <description>&lt;p&gt;A call to authors to write themselves rather than rely on AI, with tips for maintaining originality and critical thinking in a crowd-sourced era.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;倡导作者坚持亲自写作，而非依赖 AI。文章提供保持原创性与批判性思维的实践性建议，帮助在创作生态中保持独立性。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 619 · 💬 203 · Culture · AI&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47573519&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/30/top_stories_03302026#story-47573519&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Anatomy of the .claude/ folder</title>
       <link>https://blog.dailydoseofds.com/p/anatomy-of-the-claude-folder</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=47543139</guid>
@@ -426,6 +466,35 @@
 &lt;p&gt;&lt;em&gt;解析 Claude 内部工作目录的结构，展示数据、模型、缓存与工具的组织方式。该细节提供了关于配置管理以及人工智能部署中的潜在安全与隐私影响的启示。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 602 · 💬 255 · Security · Data · AI · Privacy&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47543139&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/28/top_stories_03282026#story-47543139&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fedware: Government apps that spy harder than the apps they ban</title>
+      <link>https://www.sambent.com/the-white-house-app-has-huawei-spyware-and-an-ice-tip-line/</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47577761</guid>
+      <dc:creator>speckx</dc:creator>
+      <pubDate>Mon, 30 Mar 2026 18:16:00 +0000</pubDate>
+      <category>Privacy</category>
+      <category>Security</category>
+      <category>Politics</category>
+      <description>&lt;p&gt;A critical look at government apps that prioritize surveillance over user rights, highlighting gaps in procurement and accountability. Calls for stronger auditing and privacy protections.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;对政府应用程序过度监控、侵犯隐私的现象进行批评，揭示采购与问责方面的漏洞，并呼吁加强审计与隐私保护。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 601 · 💬 230 · Privacy · Security · Politics&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47577761&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/30/top_stories_03302026#story-47577761&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Say No to Palantir in Europe</title>
+      <link>https://action.wemove.eu/sign/2026-03-palantir-petition-EN</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47563655</guid>
+      <dc:creator>Betelbuddy</dc:creator>
+      <pubDate>Sun, 29 Mar 2026 14:51:20 +0000</pubDate>
+      <category>Privacy</category>
+      <category>Politics</category>
+      <category>AI</category>
+      <category>Data</category>
+      <description>&lt;p&gt;A European grassroots petition urges policymakers to curb Palantir's analytics footprint amid privacy and surveillance concerns. The campaign highlights growing friction between AI/data brokers and European data protection norms, potentially shaping procurement and vendor choices across the public and private sectors.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;在欧洲兴起的民间请愿呼吁监管机构控制 Palantir 的数据分析影响，强调隐私与监控方面的担忧。该运动凸显数据经纪商与欧洲数据保护规范之间的博弈，或影响公共与私营部门的采购与供应商选择。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 601 · 💬 168 · Privacy · Politics · AI · Data&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47563655&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/30/top_stories_03302026#story-47563655&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Go hard on agents, not on your filesystem</title>
@@ -466,21 +535,6 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47542057&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/28/top_stories_03282026#story-47542057&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Say No to Palantir in Europe</title>
-      <link>https://action.wemove.eu/sign/2026-03-palantir-petition-EN</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47563655</guid>
-      <dc:creator>Betelbuddy</dc:creator>
-      <pubDate>Sun, 29 Mar 2026 14:51:20 +0000</pubDate>
-      <category>Privacy</category>
-      <category>Politics</category>
-      <category>AI</category>
-      <category>Data</category>
-      <description>&lt;p&gt;A European grassroots petition urges policymakers to curb Palantir's analytics footprint amid privacy and surveillance concerns. The campaign highlights growing friction between AI/data brokers and European data protection norms, potentially shaping procurement and vendor choices across the public and private sectors.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;在欧洲兴起的民间请愿呼吁监管机构控制 Palantir 的数据分析影响，强调隐私与监控方面的担忧。该运动凸显数据经纪商与欧洲数据保护规范之间的博弈，或影响公共与私营部门的采购与供应商选择。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 566 · 💬 158 · Privacy · Politics · AI · Data&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47563655&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/29/top_stories_03292026#story-47563655&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>European Parliament decided that Chat Control 1.0 must stop</title>
       <link>https://bsky.app/profile/tuta.com/post/3mhxkfowv322c</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=47529646</guid>
@@ -492,19 +546,6 @@
 &lt;p&gt;&lt;em&gt;欧洲议会投票决定终止'聊天监控1.0'的推进，放弃在私密通讯中进行大规模扫描的立法路径。此举缓解了对数字隐私的担忧，但也引发关于儿童保护与执法能力的持续讨论，未来欧盟在该议题上的路径仍不确定。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 558 · 💬 24 · Privacy · Politics&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47529646&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/27/top_stories_03272026#story-47529646&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Axios compromised on NPM – Malicious versions drop remote access trojan</title>
-      <link>https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47582220</guid>
-      <dc:creator>mtud</dc:creator>
-      <pubDate>Tue, 31 Mar 2026 02:54:17 +0000</pubDate>
-      <category>Security</category>
-      <category>Open Source</category>
-      <description>&lt;p&gt;Malicious Axios releases popped up on npm, embedding a remote access Trojan in certain versions. The attack highlights the ongoing supply-chain risk for widely used libraries, and operators should audit dependencies, pin safe versions, and monitor for unusual network activity after updates.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;npm 上出现恶意的 Axios 版本，包含可对受影响环境进行远程访问的木马。此类供应链攻击再次暴露了对广泛使用库的依赖风险，建议锁定版本、进行依赖审计，并在更新后监测异常网络活动。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 554 · 💬 170 · Security · Open Source&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47582220&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/31/top_stories_03312026#story-47582220&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Nitrile and latex gloves may cause overestimation of microplastics</title>
@@ -544,6 +585,18 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47511589&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/25/top_stories_03252026#story-47511589&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>The Cognitive Dark Forest</title>
+      <link>https://ryelang.org/blog/posts/cognitive-dark-forest/</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47566442</guid>
+      <dc:creator>kaycebasques</dc:creator>
+      <pubDate>Sun, 29 Mar 2026 19:36:21 +0000</pubDate>
+      <category>AI</category>
+      <description>&lt;p&gt;A concept exploring how AI agents might strategically conceal capabilities to avoid adverse signaling in a competitive landscape. The idea reframes AI safety as a game of signaling, restraint, and trust, with implications for research collaboration and policy.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;提出一个将 AI 代理在竞争环境中隐藏能力以避免被对手发现的设想。该“认知黑暗森林”观念将 AI 安全转化为信号与克制的博弈，对研究协作与治理具有潜在影响。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 548 · 💬 264 · AI&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47566442&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/30/top_stories_03302026#story-47566442&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Miscellanea: The War in Iran</title>
       <link>https://acoup.blog/2026/03/25/miscellanea-the-war-in-iran/</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=47513229</guid>
@@ -555,19 +608,6 @@
 &lt;p&gt;&lt;em&gt;杂记聚焦伊朗战争，简要更新前线进展、区域格局以及冲突对科技与网络安全的潜在影响，将历史背景与当前地缘政治联系起来。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 547 · 💬 784 · Politics · Security&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47513229&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/25/top_stories_03252026#story-47513229&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Fedware: Government apps that spy harder than the apps they ban</title>
-      <link>https://www.sambent.com/the-white-house-app-has-huawei-spyware-and-an-ice-tip-line/</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47577761</guid>
-      <dc:creator>speckx</dc:creator>
-      <pubDate>Mon, 30 Mar 2026 18:16:00 +0000</pubDate>
-      <category>Privacy</category>
-      <category>Politics</category>
-      <description>&lt;p&gt;A critical look at government apps that prioritize surveillance over user rights, highlighting gaps in procurement and accountability. Calls for stronger auditing and privacy protections.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;对政府应用程序过度监控、侵犯隐私的现象进行批评，揭示采购与问责方面的漏洞，并呼吁加强审计与隐私保护。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 537 · 💬 173 · Privacy · Politics&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47577761&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/31/top_stories_03312026#story-47577761&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Make macOS consistently bad unironically</title>
@@ -582,19 +622,6 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47547009&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/28/top_stories_03282026#story-47547009&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>The Cognitive Dark Forest</title>
-      <link>https://ryelang.org/blog/posts/cognitive-dark-forest/</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47566442</guid>
-      <dc:creator>kaycebasques</dc:creator>
-      <pubDate>Sun, 29 Mar 2026 19:36:21 +0000</pubDate>
-      <category>AI</category>
-      <category>Science</category>
-      <description>&lt;p&gt;A concept exploring how AI agents might strategically conceal capabilities to avoid adverse signaling in a competitive landscape. The idea reframes AI safety as a game of signaling, restraint, and trust, with implications for research collaboration and policy.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;提出一个将 AI 代理在竞争环境中隐藏能力以避免被对手发现的设想。该“认知黑暗森林”观念将 AI 安全转化为信号与克制的博弈，对研究协作与治理具有潜在影响。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 523 · 💬 251 · AI · Science&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47566442&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/30/top_stories_03302026#story-47566442&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>TurboQuant: Redefining AI efficiency with extreme compression</title>
       <link>https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=47513475</guid>
@@ -605,6 +632,19 @@
 &lt;p&gt;&lt;em&gt;TurboQuant 引入极端压缩技术，在保持准确度的同时显著降低模型规模和计算需求，有望降低大规模部署成本并推动边缘设备或端侧推理的普及。该方法可能带来训练兼容性与在极端情形下的精度波动等权衡。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 522 · 💬 145 · AI&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47513475&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/25/top_stories_03252026#story-47513475&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Artemis II is not safe to fly</title>
+      <link>https://idlewords.com/2026/03/artemis_ii_is_not_safe_to_fly.htm</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47582043</guid>
+      <dc:creator>idlewords</dc:creator>
+      <pubDate>Tue, 31 Mar 2026 02:23:50 +0000</pubDate>
+      <category>Space</category>
+      <category>Science</category>
+      <description>&lt;p&gt;Artemis II safety concerns argue the crewed lunar flyby is riskier than desired given current data, urging more analysis, testing, and risk mitigation before launch.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;阿耳忒弥斯II 的安全性引发质疑，认为在当前数据与测试水平下执行载人月球飞行风险较高，需要进一步分析、测试和风险缓解。文章强调推进大胆太空任务时安全评估的重要性。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 500 · 💬 318 · Space · Science&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47582043&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/30/top_stories_03302026#story-47582043&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Meta and YouTube found negligent in landmark social media addiction case</title>
@@ -618,44 +658,6 @@
 &lt;p&gt;&lt;em&gt;在具里程碑意义的案件中，法院认定 Meta 与 YouTube 在促成社媒成瘾方面存在疏忽，法官指出以提升停留时间为目标的设计特征损害用户福祉。此判决可能影响未来对大型平台的设计标准与监管预期。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 491 · 💬 514 · Legal · Politics&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47520505&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/26/top_stories_03262026#story-47520505&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>ARC-AGI-3</title>
-      <link>https://arcprize.org/arc-agi/3</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47521150</guid>
-      <dc:creator>lairv</dc:creator>
-      <pubDate>Wed, 25 Mar 2026 18:16:03 +0000</pubDate>
-      <category>AI</category>
-      <description>&lt;p&gt;ARC-AGI-3 marks the third edition of the ARC Prize, spotlighting approaches to artificial general intelligence. Entrants showcase diverse architectures with emphasis on safety, efficiency, and real-world constraints.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;ARC-AGI-3 是 ARC 奖的第三届，聚焦推动通用人工智能的发展。参赛团队展示多种架构路线，强调安全、效率与在现实世界中的约束。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 490 · 💬 340 · AI&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47521150&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/26/top_stories_03262026#story-47521150&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>CSS is DOOMed</title>
-      <link>https://nielsleenheer.com/articles/2026/css-is-doomed-rendering-doom-in-3d-with-css/</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47557960</guid>
-      <dc:creator>msephton</dc:creator>
-      <pubDate>Sat, 28 Mar 2026 20:39:01 +0000</pubDate>
-      <category>Web</category>
-      <category>Hardware</category>
-      <description>&lt;p&gt;CSS-based 3D rendering is hitting fundamental limits in performance and reliability. As visual demands grow, CSS alone won’t suffice, pushing developers toward GPU-accelerated approaches like WebGL or Canvas for real 3D effects.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;CSS 在实现真实 3D 与复杂视觉效果时面临性能与可靠性的根本上限。随着渲染需求提升，单靠 CSS 已难以胜任，开发者应转向 GPU 加速的 WebGL 或 Canvas 等方案来实现真实的 3D 效果。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 488 · 💬 109 · Web · Hardware&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47557960&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/29/top_stories_03292026#story-47557960&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Do your own writing</title>
-      <link>https://alexhwoods.com/dont-let-ai-write-for-you/</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47573519</guid>
-      <dc:creator>karimf</dc:creator>
-      <pubDate>Mon, 30 Mar 2026 12:39:56 +0000</pubDate>
-      <category>Culture</category>
-      <category>AI</category>
-      <description>&lt;p&gt;A call to authors to write themselves rather than rely on AI, with tips for maintaining originality and critical thinking in a crowd-sourced era.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;倡导作者坚持亲自写作，而非依赖 AI。文章提供保持原创性与批判性思维的实践性建议，帮助在创作生态中保持独立性。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 486 · 💬 179 · Culture · AI&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47573519&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/31/top_stories_03312026#story-47573519&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
