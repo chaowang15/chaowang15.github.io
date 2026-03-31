@@ -5,9 +5,22 @@
     <link>https://chaowang15.github.io/hackernews/</link>
     <description>Curated daily digest of top Hacker News stories with AI-generated summaries, tags, and bilingual translations.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 31 Mar 2026 15:05:52 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 31 Mar 2026 19:02:10 +0000</lastBuildDate>
     <generator>Hacker News Daily RSS Builder</generator>
     <atom:link href="https://chaowang15.github.io/hackernews/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Axios compromised on NPM – Malicious versions drop remote access trojan</title>
+      <link>https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47582220</guid>
+      <dc:creator>mtud</dc:creator>
+      <pubDate>Tue, 31 Mar 2026 02:54:17 +0000</pubDate>
+      <category>Security</category>
+      <category>Open Source</category>
+      <description>&lt;p&gt;Malicious Axios releases popped up on npm, embedding a remote access Trojan in certain versions. The attack highlights the ongoing supply-chain risk for widely used libraries, and operators should audit dependencies, pin safe versions, and monitor for unusual network activity after updates.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;npm 上出现恶意的 Axios 版本，包含可对受影响环境进行远程访问的木马。此类供应链攻击再次暴露了对广泛使用库的依赖风险，建议锁定版本、进行依赖审计，并在更新后监测异常网络活动。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 1674 · 💬 660 · Security · Open Source&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47582220&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/31/top_stories_03312026#story-47582220&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Copilot edited an ad into my PR</title>
       <link>https://notes.zachmanson.com/copilot-edited-an-ad-into-my-pr/</link>
@@ -20,6 +33,20 @@
 &lt;p&gt;&lt;em&gt;讲述 Copilot 将广告插入到我的 PR 的真实经历，凸显 AI 辅助编辑在代码评审中可能悄然进入的风险。强调对 AI 工具设定护栏与可溯性的必要性。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 1543 · 💬 629 · AI · Programming&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47570269&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/30/top_stories_03302026#story-47570269&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Claude Code's source code has been leaked via a map file in their NPM registry</title>
+      <link>https://twitter.com/Fried_rice/status/2038894956459290963</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47584540</guid>
+      <dc:creator>treexs</dc:creator>
+      <pubDate>Tue, 31 Mar 2026 09:00:40 +0000</pubDate>
+      <category>Security</category>
+      <category>Open Source</category>
+      <category>AI</category>
+      <description>&lt;p&gt;Claude Code’s source code was leaked through a source map file published in their NPM package registry. The incident underscores how publishing artifacts like source maps can unintentionally expose proprietary code and sensitive logic. It’s a reminder for maintainers to scrub sensitive bits from build artifacts and implement stricter registry hygiene and access controls.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Claude Code 的源代码通过其 NPM 包注册表中暴露的一个 source map 文件泄露到公网。事件凸显了在发布构建产物时，source map 可能无意间暴露私有代码和业务逻辑的风险。开发团队需要对发布的产物进行清理，并加强注册表的访问控制与审计。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 1508 · 💬 760 · Security · Open Source · AI&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47584540&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/31/top_stories_03312026#story-47584540&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>The EU still wants to scan  your private messages and photos</title>
@@ -48,18 +75,6 @@
 &lt;p&gt;&lt;em&gt;GitLab 联合创始人正在与癌症作斗争，但仍通过创办新公司继续前进。这一做法凸显创业在治疗期间用以应对压力的作用，以及在健康挑战中保持生产力的能力。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 1369 · 💬 247 · Health · Startups · Energy&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47556729&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/30/top_stories_03302026#story-47556729&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Axios compromised on NPM – Malicious versions drop remote access trojan</title>
-      <link>https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47582220</guid>
-      <dc:creator>mtud</dc:creator>
-      <pubDate>Tue, 31 Mar 2026 02:54:17 +0000</pubDate>
-      <category>Security</category>
-      <description>&lt;p&gt;Malicious Axios releases popped up on npm, embedding a remote access Trojan in certain versions. The attack highlights the ongoing supply-chain risk for widely used libraries, and operators should audit dependencies, pin safe versions, and monitor for unusual network activity after updates.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;npm 上出现恶意的 Axios 版本，包含可对受影响环境进行远程访问的木马。此类供应链攻击再次暴露了对广泛使用库的依赖风险，建议锁定版本、进行依赖审计，并在更新后监测异常网络活动。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 1341 · 💬 507 · Security&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47582220&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/31/top_stories_03312026#story-47582220&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Wine 11 rewrites how Linux runs Windows games at kernel with massive speed gains</title>
@@ -190,19 +205,6 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47534848&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/27/top_stories_03272026#story-47534848&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Claude Code's source code has been leaked via a map file in their NPM registry</title>
-      <link>https://twitter.com/Fried_rice/status/2038894956459290963</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47584540</guid>
-      <dc:creator>treexs</dc:creator>
-      <pubDate>Tue, 31 Mar 2026 09:00:40 +0000</pubDate>
-      <category>AI</category>
-      <category>Security</category>
-      <description>&lt;p&gt;Claude Code’s source code was leaked through a source map file published in their NPM package registry. The incident underscores how publishing artifacts like source maps can unintentionally expose proprietary code and sensitive logic. It’s a reminder for maintainers to scrub sensitive bits from build artifacts and implement stricter registry hygiene and access controls.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Claude Code 的源代码通过其 NPM 包注册表中暴露的一个 source map 文件泄露到公网。事件凸显了在发布构建产物时，source map 可能无意间暴露私有代码和业务逻辑的风险。开发团队需要对发布的产物进行清理，并加强注册表的访问控制与审计。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 858 · 💬 468 · AI · Security&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47584540&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/31/top_stories_03312026#story-47584540&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Personal Encyclopedias</title>
       <link>https://whoami.wiki/blog/personal-encyclopedias</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=47522173</guid>
@@ -241,6 +243,19 @@
 &lt;p&gt;&lt;em&gt;一个项目把西班牙立法作为可版本化的 Git 仓库来管理，支持协同起草、审查和变更追踪。这样的“法治即代码”理念提升透明度与治理效率，同时也暴露了实现方面的挑战。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 773 · 💬 225 · Legal · Open Source · Programming · Politics&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47553798&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/29/top_stories_03292026#story-47553798&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Artemis II is not safe to fly</title>
+      <link>https://idlewords.com/2026/03/artemis_ii_is_not_safe_to_fly.htm</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47582043</guid>
+      <dc:creator>idlewords</dc:creator>
+      <pubDate>Tue, 31 Mar 2026 02:23:50 +0000</pubDate>
+      <category>Space</category>
+      <category>Science</category>
+      <description>&lt;p&gt;Artemis II safety concerns argue the crewed lunar flyby is riskier than desired given current data, urging more analysis, testing, and risk mitigation before launch.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;阿耳忒弥斯II 的安全性引发质疑，认为在当前数据与测试水平下执行载人月球飞行风险较高，需要进一步分析、测试和风险缓解。文章强调推进大胆太空任务时安全评估的重要性。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 763 · 💬 496 · Space · Science&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47582043&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/31/top_stories_03312026#story-47582043&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>People inside Microsoft are fighting to drop mandatory Microsoft Account</title>
@@ -334,6 +349,19 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47548243&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/28/top_stories_03282026#story-47548243&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Oracle slashes 30k jobs</title>
+      <link>https://rollingout.com/2026/03/31/oracle-slashes-30000-jobs-with-a-cold-6/</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47587935</guid>
+      <dc:creator>pje</dc:creator>
+      <pubDate>Tue, 31 Mar 2026 14:30:48 +0000</pubDate>
+      <category>Business</category>
+      <category>AI</category>
+      <description>&lt;p&gt;Oracle announced cutting about 30,000 jobs, reportedly via an early 6am email, underscoring ongoing belt-tightening in tech as AI shifts reframe headcounts. The move highlights how corporate communications and workforce restructuring are evolving in large software firms.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Oracle宣布裁撤约3万名员工，传以6点的深夜/凌晨邮件通知，折射出在 AI 投资驱动的环境下科技公司持续精简人力。此举凸显大型软件企业在组织沟通和人力结构调整方面的新常态。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 673 · 💬 561 · Business · AI&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47587935&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/31/top_stories_03312026#story-47587935&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Voyager 1 runs on 69 KB of memory and an 8-track tape recorder</title>
       <link>https://techfixated.com/a-1977-time-capsule-voyager-1-runs-on-69-kb-of-memory-and-an-8-track-tape-recorder-4/</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=47564421</guid>
@@ -366,11 +394,10 @@
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=47573519</guid>
       <dc:creator>karimf</dc:creator>
       <pubDate>Mon, 30 Mar 2026 12:39:56 +0000</pubDate>
-      <category>Culture</category>
       <category>AI</category>
       <description>&lt;p&gt;A call to authors to write themselves rather than rely on AI, with tips for maintaining originality and critical thinking in a crowd-sourced era.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;倡导作者坚持亲自写作，而非依赖 AI。文章提供保持原创性与批判性思维的实践性建议，帮助在创作生态中保持独立性。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 643 · 💬 209 · Culture · AI&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 643 · 💬 209 · AI&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47573519&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/31/top_stories_03312026#story-47573519&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
@@ -521,19 +548,6 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47525243&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/26/top_stories_03262026#story-47525243&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Artemis II is not safe to fly</title>
-      <link>https://idlewords.com/2026/03/artemis_ii_is_not_safe_to_fly.htm</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47582043</guid>
-      <dc:creator>idlewords</dc:creator>
-      <pubDate>Tue, 31 Mar 2026 02:23:50 +0000</pubDate>
-      <category>Space</category>
-      <category>Science</category>
-      <description>&lt;p&gt;Artemis II safety concerns argue the crewed lunar flyby is riskier than desired given current data, urging more analysis, testing, and risk mitigation before launch.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;阿耳忒弥斯II 的安全性引发质疑，认为在当前数据与测试水平下执行载人月球飞行风险较高，需要进一步分析、测试和风险缓解。文章强调推进大胆太空任务时安全评估的重要性。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 586 · 💬 362 · Space · Science&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47582043&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/31/top_stories_03312026#story-47582043&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>The 'paperwork flood': How I drowned a bureaucrat before dinner</title>
       <link>https://sightlessscribbles.com/posts/the-paperwork-flood/</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=47542057</guid>
@@ -544,6 +558,20 @@
 &lt;p&gt;&lt;em&gt;这篇以“纸上洪流”为题的博客故事，讲述作者如何对付繁琐的官僚流程。通过一连串讽刺与经验教训，揭示繁文缛节的痛点及应对思路。核心在于在文书工作中寻求高效、低摩擦的处理方式，避免被繁琐拖垮。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 578 · 💬 472 · Culture&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47542057&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/28/top_stories_03282026#story-47542057&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ollama is now powered by MLX on Apple Silicon in preview</title>
+      <link>https://ollama.com/blog/mlx</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47582482</guid>
+      <dc:creator>redundantly</dc:creator>
+      <pubDate>Tue, 31 Mar 2026 03:40:45 +0000</pubDate>
+      <category>AI</category>
+      <category>Hardware</category>
+      <category>Privacy</category>
+      <description>&lt;p&gt;Ollama now supports MLX on Apple Silicon in preview, enabling accelerated on-device LLMs on M-series Macs. The preview could bring notable speedups and privacy benefits versus cloud inference, but adopters should be aware of early-stage status and hardware compatibility.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Ollama 现已在 Apple Silicon 支持 MLX，提供本地推理的加速效果。预览版可能带来显著的性能提升和隐私优势，但仍处于早期阶段，需关注兼容性与稳定性。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 576 · 💬 297 · AI · Hardware · Privacy&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47582482&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/31/top_stories_03312026#story-47582482&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>European Parliament decided that Chat Control 1.0 must stop</title>
@@ -621,41 +649,18 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47513229&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/25/top_stories_03252026#story-47513229&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Make macOS consistently bad unironically</title>
-      <link>https://lr0.org/blog/p/macos/</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47547009</guid>
-      <dc:creator>speckx</dc:creator>
-      <pubDate>Fri, 27 Mar 2026 19:15:19 +0000</pubDate>
-      <category>Design</category>
-      <description>&lt;p&gt;The piece argues for a deliberate shift toward consistent macOS behavior, framing trade-offs between polish and reliability.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;文章主张让 macOS 的行为更具一致性，权衡光鲜体验与可靠性之间的取舍。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 524 · 💬 354 · Design&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47547009&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/28/top_stories_03282026#story-47547009&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>TurboQuant: Redefining AI efficiency with extreme compression</title>
-      <link>https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47513475</guid>
-      <dc:creator>ray__</dc:creator>
-      <pubDate>Wed, 25 Mar 2026 05:00:54 +0000</pubDate>
+      <title>GitHub backs down, kills Copilot pull-request ads after backlash</title>
+      <link>https://www.theregister.com/2026/03/30/github_copilot_ads_pull_requests/</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47582984</guid>
+      <dc:creator>_____k</dc:creator>
+      <pubDate>Tue, 31 Mar 2026 05:11:24 +0000</pubDate>
       <category>AI</category>
-      <description>&lt;p&gt;TurboQuant introduces extreme compression techniques to shrink AI models and cut compute needs while preserving accuracy. This approach tests the boundaries of model distillation and quantization, potentially slashing deployment costs and enabling more edge and on-device inference. Trade-offs remain: training compatibility and potential accuracy quirks in edge cases.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;TurboQuant 引入极端压缩技术，在保持准确度的同时显著降低模型规模和计算需求，有望降低大规模部署成本并推动边缘设备或端侧推理的普及。该方法可能带来训练兼容性与在极端情形下的精度波动等权衡。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 522 · 💬 145 · AI&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47513475&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/25/top_stories_03252026#story-47513475&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Meta and YouTube found negligent in landmark social media addiction case</title>
-      <link>https://www.nytimes.com/2026/03/25/technology/social-media-trial-verdict.html</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47520505</guid>
-      <dc:creator>mrjaeger</dc:creator>
-      <pubDate>Wed, 25 Mar 2026 17:29:33 +0000</pubDate>
-      <category>Legal</category>
-      <category>Politics</category>
-      <description>&lt;p&gt;A landmark case finds Meta and YouTube negligent in contributing to social media addiction, with judges noting engagement-driven features that prioritize time-on-site over user well-being. The ruling could influence future design standards and regulatory expectations for large platforms.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;在具里程碑意义的案件中，法院认定 Meta 与 YouTube 在促成社媒成瘾方面存在疏忽，法官指出以提升停留时间为目标的设计特征损害用户福祉。此判决可能影响未来对大型平台的设计标准与监管预期。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 491 · 💬 514 · Legal · Politics&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47520505&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/26/top_stories_03262026#story-47520505&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Programming</category>
+      <category>Open Source</category>
+      <description>&lt;p&gt;GitHub has scrapped Copilot pull-request ads after community backlash, signaling a shift in how sponsor messaging appears inside developer workflows. The move adds to ongoing debates about paid AI assistance in open-source tooling and PR review noise.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;GitHub 在社区强烈反对后取消 Copilot 在拉取请求中的广告，体现了开发者工作流中赞助信息呈现的权衡。此举加剧了关于在开源工具中使用付费 AI 助手以及降低 PR 审核噪声的讨论。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 527 · 💬 316 · AI · Programming · Open Source&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47582984&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/31/top_stories_03312026#story-47582984&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
