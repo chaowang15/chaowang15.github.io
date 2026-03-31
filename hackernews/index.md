@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>43</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>6115</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>42</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>41</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-03-30</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>44</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>6164</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>42</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>42</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-03-31</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,118 +20,118 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='175' data-hn-time='1774925657'>
+<div class='hn-top-story-item' data-hn-score='554' data-hn-time='1774925657'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/30/top_stories_03302026#story-47582220'>Axios Compromised on NPM – Malicious Versions Drop Remote Access Trojan</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/31/top_stories_03312026#story-47582220'>Axios compromised on NPM – Malicious versions drop remote access trojan</a>
  <a class='hn-top-story-link' href='https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Axios 在 NPM 上被劫持：恶意版本投放远程访问木马</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 17</span> <span class='hn-top-story-score'>&#9650; 175</span> <span class='hn-top-story-comments'>&#128172; 45</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 19</span> <span class='hn-top-story-score'>&#9650; 554</span> <span class='hn-top-story-comments'>&#128172; 170</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='181' data-hn-time='1774920214'>
+<div class='hn-top-story-item' data-hn-score='171' data-hn-time='1774928445'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/30/top_stories_03302026#story-47581701'>Universal Claude.md – cut Claude output tokens by 63%</a>
- <a class='hn-top-story-link' href='https://github.com/drona23/claude-token-efficient' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/31/top_stories_03312026#story-47582482'>Ollama is now powered by MLX on Apple Silicon in preview</a>
+ <a class='hn-top-story-link' href='https://ollama.com/blog/mlx' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Universal Claude.md：将 Claude 输出令牌缩减63%</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.4</span> <span class='hn-top-story-score'>&#9650; 181</span> <span class='hn-top-story-comments'>&#128172; 71</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>Ollama 在 Apple Silicon 上开启 MLX 预览加速</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.2</span> <span class='hn-top-story-score'>&#9650; 171</span> <span class='hn-top-story-comments'>&#128172; 63</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='92' data-hn-time='1774923830'>
+<div class='hn-top-story-item' data-hn-score='97' data-hn-time='1774933884'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/30/top_stories_03302026#story-47582043'>Artemis II is not safe to fly</a>
- <a class='hn-top-story-link' href='https://idlewords.com/2026/03/artemis_ii_is_not_safe_to_fly.htm' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/31/top_stories_03312026#story-47582984'>GitHub backs down, kills Copilot pull-request ads after backlash</a>
+ <a class='hn-top-story-link' href='https://www.theregister.com/2026/03/30/github_copilot_ads_pull_requests/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Artemis II 不宜飞行：存在安全隐患</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.0</span> <span class='hn-top-story-score'>&#9650; 92</span> <span class='hn-top-story-comments'>&#128172; 39</span> <span class='hn-top-story-tag'>Space</span> <span class='hn-top-story-tag'>Science</span></div>
+<div class='hn-top-story-zh'>GitHub 在遭遇批评后取消 Copilot 拉取请求广告</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.0</span> <span class='hn-top-story-score'>&#9650; 97</span> <span class='hn-top-story-comments'>&#128172; 46</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='488' data-hn-time='1774894560'>
+<div class='hn-top-story-item' data-hn-score='229' data-hn-time='1774923830'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/30/top_stories_03302026#story-47577761'>Fedware: Government apps that spy harder than the apps they ban</a>
- <a class='hn-top-story-link' href='https://www.sambent.com/the-white-house-app-has-huawei-spyware-and-an-ice-tip-line/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/31/top_stories_03312026#story-47582043'>Artemis II is not safe to fly</a>
+ <a class='hn-top-story-link' href='https://idlewords.com/2026/03/artemis_ii_is_not_safe_to_fly.htm' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>联邦软件：政府应用比被禁应用更会监控隐私</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.3</span> <span class='hn-top-story-score'>&#9650; 488</span> <span class='hn-top-story-comments'>&#128172; 154</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>Artemis II 不宜飞行：存在安全隐患</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.7</span> <span class='hn-top-story-score'>&#9650; 229</span> <span class='hn-top-story-comments'>&#128172; 136</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Space</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='1476' data-hn-time='1774843471'>
+<div class='hn-top-story-item' data-hn-score='259' data-hn-time='1774920214'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/30/top_stories_03302026#story-47570269'>Copilot edited an ad into my PR</a>
- <a class='hn-top-story-link' href='https://notes.zachmanson.com/copilot-edited-an-ad-into-my-pr/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/31/top_stories_03312026#story-47581701'>Universal Claude.md – cut Claude output tokens</a>
+ <a class='hn-top-story-link' href='https://github.com/drona23/claude-token-efficient' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Copilot 编辑了一条广告进我的 PR</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 1476</span> <span class='hn-top-story-comments'>&#128172; 615</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>Universal Claude.md：将 Claude 输出令牌缩减63%</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.0</span> <span class='hn-top-story-score'>&#9650; 259</span> <span class='hn-top-story-comments'>&#128172; 95</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='179' data-hn-time='1774908321'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='74' data-hn-time='1774934519'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/30/top_stories_03302026#story-47580297'>Android Developer Verification</a>
- <a class='hn-top-story-link' href='https://android-developers.googleblog.com/2026/03/android-developer-verification-rolling-out-to-all-developers.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/31/top_stories_03312026#story-47583045'>Google's 200M-parameter time-series foundation model with 16k context</a>
+ <a class='hn-top-story-link' href='https://github.com/google-research/timesfm' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Android 开发者验证全面向所有开发者铺开</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.8</span> <span class='hn-top-story-score'>&#9650; 179</span> <span class='hn-top-story-comments'>&#128172; 163</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>谷歌发布 200M 参数的时序基础模型，具 16k 上下文容量</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.8</span> <span class='hn-top-story-score'>&#9650; 74</span> <span class='hn-top-story-comments'>&#128172; 35</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Data</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='626' data-hn-time='1774877334'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='537' data-hn-time='1774894560'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/30/top_stories_03302026#story-47574034'>How to turn anything into a router</a>
- <a class='hn-top-story-link' href='https://nbailey.ca/post/router/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/31/top_stories_03312026#story-47577761'>Fedware: Government apps that spy harder than the apps they ban</a>
+ <a class='hn-top-story-link' href='https://www.sambent.com/the-white-house-app-has-huawei-spyware-and-an-ice-tip-line/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>把任何设备都变成路由器</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.8</span> <span class='hn-top-story-score'>&#9650; 626</span> <span class='hn-top-story-comments'>&#128172; 217</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-zh'>联邦软件：政府应用比被禁应用更会监控隐私</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 537</span> <span class='hn-top-story-comments'>&#128172; 173</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='242' data-hn-time='1774898553'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='657' data-hn-time='1774877334'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/30/top_stories_03302026#story-47578572'>Turning a MacBook into a touchscreen with $1 of hardware (2018)</a>
- <a class='hn-top-story-link' href='https://anishathalye.com/macbook-touchscreen/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/31/top_stories_03312026#story-47574034'>How to turn anything into a router</a>
+ <a class='hn-top-story-link' href='https://nbailey.ca/post/router/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>用不到1美元的外设把 MacBook 变成触控屏（2018）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 242</span> <span class='hn-top-story-comments'>&#128172; 110</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>把任何设备都变成路由器</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 657</span> <span class='hn-top-story-comments'>&#128172; 229</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='205' data-hn-time='1774901983'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='226' data-hn-time='1774908321'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/30/top_stories_03302026#story-47579229'>Learn Claude Code by doing, not reading</a>
- <a class='hn-top-story-link' href='https://claude.nagdy.me/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/31/top_stories_03312026#story-47580297'>Android Developer Verification</a>
+ <a class='hn-top-story-link' href='https://android-developers.googleblog.com/2026/03/android-developer-verification-rolling-out-to-all-developers.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>通过动手学习 Claude Code 实践，而非仅仅阅读</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 205</span> <span class='hn-top-story-comments'>&#128172; 94</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>Android 开发者验证全面向所有开发者铺开</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 226</span> <span class='hn-top-story-comments'>&#128172; 218</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='353' data-hn-time='1774883795'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='290' data-hn-time='1774898553'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/03/30/top_stories_03302026#story-47575403'>CodingFont: A game to help you pick a coding font</a>
- <a class='hn-top-story-link' href='https://www.codingfont.com/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/03/31/top_stories_03312026#story-47578572'>Turning a MacBook into a touchscreen with $1 of hardware (2018)</a>
+ <a class='hn-top-story-link' href='https://anishathalye.com/macbook-touchscreen/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>CodingFont：帮助你选取编码字体的游戏</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 353</span> <span class='hn-top-story-comments'>&#128172; 188</span> <span class='hn-top-story-tag'>Design</span></div>
+<div class='hn-top-story-zh'>用不到1美元的外设把 MacBook 变成触控屏（2018）</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 290</span> <span class='hn-top-story-comments'>&#128172; 134</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
-<a class='hn-top-stories-more' href='/hackernews/2026/03/30/top_stories_03302026'>View all trending stories &rarr;</a>
+<a class='hn-top-stories-more' href='/hackernews/2026/03/31/top_stories_03312026'>View all trending stories &rarr;</a>
 </div>
 </div>
 <div class='hn-index-section hn-podcast-section'>
@@ -168,10 +168,19 @@ Your browser does not support the audio element.
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 14 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-03-30 <span class="hn-row-sep">·</span> 100 stories <span class="hn-row-sep">·</span> 1 days</span>
+<span class='hn-week-meta'>2026-03-30 — 2026-03-31 <span class="hn-row-sep">·</span> 149 stories <span class="hn-row-sep">·</span> 2 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
+<div class='hn-day-row'>
+<div class='hn-day-date'>2026-03-31 <span class='hn-day-weekday'>Tue</span></div>
+<div class='hn-day-stories'>
+<a class='hn-story-link' href='/hackernews/2026/03/31/top_stories_03312026'>
+<span class='hn-row-type hn-type-top'>Trending</span>
+<span class='hn-row-detail'>All <b>49</b> <span class="hn-row-sep">·</span> Science <b>12</b> <span class="hn-row-sep">·</span> Programming <b>11</b></span>
+</a>
+</div>
+</div>
 <div class='hn-day-row'>
 <div class='hn-day-date'>2026-03-30 <span class='hn-day-weekday'>Mon</span></div>
 <div class='hn-day-stories'>
@@ -606,33 +615,6 @@ Your browser does not support the audio element.
 <a class='hn-story-link' href='/hackernews/2026/03/02/top_stories_03022026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
 <span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>28</b> <span class="hn-row-sep">·</span> AI <b>25</b></span>
-</a>
-</div>
-</div>
-</div>
-</div>
-</details>
-<details class='hn-week-group'>
-<summary class='hn-week-summary'>
-<span class='hn-week-title'>2026 Week 9</span>
-<span class='hn-week-meta'>2026-03-01 <span class="hn-row-sep">·</span> 150 stories <span class="hn-row-sep">·</span> 1 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
-</summary>
-<div class='hn-week-content'>
-<a class='hn-story-link hn-weekly-digest-link' href='/hackernews/weekly/2026-W09'>
-<span class='hn-row-type hn-type-weekly'>Weekly Digest</span>
-<span class='hn-row-detail'>2026-02-23 — 2026-03-01 <span class="hn-row-sep">·</span> All <b>540</b> <span class="hn-row-sep">·</span> Programming <b>158</b> <span class="hn-row-sep">·</span> AI <b>137</b></span>
-</a>
-<div class='hn-grid'>
-<div class='hn-day-row'>
-<div class='hn-day-date'>2026-03-01 <span class='hn-day-weekday'>Sun</span></div>
-<div class='hn-day-stories'>
-<a class='hn-story-link' href='/hackernews/2026/03/01/best_stories_03012026'>
-<span class='hn-row-type hn-type-best'>Daily Best</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>22</b> <span class="hn-row-sep">·</span> Programming <b>12</b></span>
-</a>
-<a class='hn-story-link' href='/hackernews/2026/03/01/top_stories_03012026'>
-<span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>36</b> <span class="hn-row-sep">·</span> AI <b>29</b></span>
 </a>
 </div>
 </div>
