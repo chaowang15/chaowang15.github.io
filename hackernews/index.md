@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>45</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>6384</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>44</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>43</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-04-01</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>45</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>6409</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>44</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>43</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-04-01</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='790' data-hn-time='1775020537'>
+<div class='hn-top-story-item' data-hn-score='240' data-hn-time='1775060078'>
 <span class='hn-top-story-rank'>1</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/01/top_stories_04012026#story-47602832'>EmDash – a spiritual successor to WordPress that solves plugin security</a>
+ <a class='hn-top-story-link' href='https://blog.cloudflare.com/emdash-wordpress/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>EmDash：解决插件安全问题的 WordPress 精神续作</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 14</span> <span class='hn-top-story-score'>&#9650; 240</span> <span class='hn-top-story-comments'>&#128172; 140</span> <span class='hn-top-story-tag'>Security</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='132' data-hn-time='1775063491'>
+<span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/01/top_stories_04012026#story-47603657'>NASA Artemis II moon mission live launch broadcast</a>
+ <a class='hn-top-story-link' href='https://plus.nasa.gov/scheduled-video/nasas-artemis-ii-crew-launches-to-the-moon-official-broadcast/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>NASA 阿耳忒弥斯 II 月球任务现场直播发射</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 132</span> <span class='hn-top-story-comments'>&#128172; 57</span> <span class='hn-top-story-tag'>Space</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='128' data-hn-time='1775058930'>
+<span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/01/top_stories_04012026#story-47602565'>The OpenAI Graveyard: All the Deals and Products That Haven't Happened</a>
+ <a class='hn-top-story-link' href='https://www.forbes.com/sites/phoebeliu/2026/03/31/openai-graveyard-deals-and-products-havent-happened-openai/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>OpenAI 的坟场：尚未实现的交易与产品</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.8</span> <span class='hn-top-story-score'>&#9650; 128</span> <span class='hn-top-story-comments'>&#128172; 83</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Politics</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='941' data-hn-time='1775020537'>
+<span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/04/01/top_stories_04012026#story-47597085'>Claude Code Unpacked : A visual guide</a>
  <a class='hn-top-story-link' href='https://ccunpacked.dev/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Claude 代码解读：可视化指南</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.2</span> <span class='hn-top-story-score'>&#9650; 790</span> <span class='hn-top-story-comments'>&#128172; 285</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.6</span> <span class='hn-top-story-score'>&#9650; 941</span> <span class='hn-top-story-comments'>&#128172; 343</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='52' data-hn-time='1775053576'>
-<span class='hn-top-story-rank'>2</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/01/top_stories_04012026#story-47601405'>OpenAI Demand Sinks on Secondary Market as Anthropic Runs Hot</a>
- <a class='hn-top-story-link' href='https://www.bloomberg.com/news/articles/2026-04-01/openai-demand-sinks-on-secondary-market-as-anthropic-runs-hot' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>OpenAI 二级市场需求下滑，Anthropic 需求走热</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.7</span> <span class='hn-top-story-score'>&#9650; 52</span> <span class='hn-top-story-comments'>&#128172; 12</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='91' data-hn-time='1775049029'>
-<span class='hn-top-story-rank'>3</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/01/top_stories_04012026#story-47600382'>Is BGP Safe Yet? No. Test Your ISP</a>
- <a class='hn-top-story-link' href='https://isbgpsafeyet.com/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>BGP 还安全吗？尚未安全，请测试你的 ISP</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.6</span> <span class='hn-top-story-score'>&#9650; 91</span> <span class='hn-top-story-comments'>&#128172; 37</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>DevOps</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='263' data-hn-time='1775034034'>
-<span class='hn-top-story-rank'>4</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/01/top_stories_04012026#story-47598511'>I Quit. The Clankers Won</a>
- <a class='hn-top-story-link' href='https://dbushell.com/2026/04/01/i-quit-the-clankers-won/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>我辞职了，机器人赢了</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.1</span> <span class='hn-top-story-score'>&#9650; 263</span> <span class='hn-top-story-comments'>&#128172; 267</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Career</span> <span class='hn-top-story-tag'>Security</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='265' data-hn-time='1775028433'>
+<div class='hn-top-story-item' data-hn-score='67' data-hn-time='1775062939'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/01/top_stories_04012026#story-47597935'>CERN levels up with new superconducting karts</a>
- <a class='hn-top-story-link' href='https://home.cern/news/news/engineering/cern-levels-new-superconducting-karts' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/01/top_stories_04012026#story-47603534'>A new way to measure poverty shows the US falling behind Europe</a>
+ <a class='hn-top-story-link' href='https://www.euronews.com/business/2026/03/29/a-new-way-to-measure-poverty-shows-the-us-falling-behind-europe' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>CERN 新型超导卡丁车升级计划</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.5</span> <span class='hn-top-story-score'>&#9650; 265</span> <span class='hn-top-story-comments'>&#128172; 54</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>一种新的贫困测量方法显示美国落后于欧洲</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.6</span> <span class='hn-top-story-score'>&#9650; 67</span> <span class='hn-top-story-comments'>&#128172; 50</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Data</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='49' data-hn-time='1775049333'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='57' data-hn-time='1775063844'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/01/top_stories_04012026#story-47600434'>New Patches Allow Building Linux IPv6-Only, Option to Deprecate "Legacy" IPv4</a>
- <a class='hn-top-story-link' href='https://www.phoronix.com/news/Linux-IPv6-IPv4-Legacy-Knobs' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/01/top_stories_04012026#story-47603737'>AI for American-Produced Cement and Concrete</a>
+ <a class='hn-top-story-link' href='https://engineering.fb.com/2026/03/30/data-center-engineering/ai-for-american-produced-cement-and-concrete/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>新补丁：Linux IPv6-only 构建与弃用传统 IPv4 的选项</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 49</span> <span class='hn-top-story-comments'>&#128172; 14</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-zh'>用于美国产水泥与混凝土的 AI</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.3</span> <span class='hn-top-story-score'>&#9650; 57</span> <span class='hn-top-story-comments'>&#128172; 44</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Data</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='30' data-hn-time='1775051549'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='80' data-hn-time='1775060255'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/01/top_stories_04012026#story-47600888'>Age verification now required for DNS resolution</a>
- <a class='hn-top-story-link' href='https://easydns.com/blog/2026/04/01/age-verification-now-required-for-dns-resolution/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/01/top_stories_04012026#story-47602879'>StepFun 3.5 Flash is #1 cost-effective model for OpenClaw tasks (300 battles)</a>
+ <a class='hn-top-story-link' href='https://app.uniclaw.ai/arena?tab=costEffectiveness&via=hn' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>DNS 解析现在需要年龄验证</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 30</span> <span class='hn-top-story-comments'>&#128172; 11</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>StepFun 3.5 Flash：300 场对战中的 OpenClaw 任务成本效益第一的模型</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.9</span> <span class='hn-top-story-score'>&#9650; 80</span> <span class='hn-top-story-comments'>&#128172; 29</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='55' data-hn-time='1775046618'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='196' data-hn-time='1775049029'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/01/top_stories_04012026#story-47599956'>Show HN: Sycamore – next gen Rust web UI library using fine-grained reactivity</a>
- <a class='hn-top-story-link' href='https://sycamore.dev' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/01/top_stories_04012026#story-47600382'>Is BGP safe yet?</a>
+ <a class='hn-top-story-link' href='https://isbgpsafeyet.com/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Show HN: Sycamore——Rust 的下一代 Web UI 库，细粒度反应式</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 55</span> <span class='hn-top-story-comments'>&#128172; 39</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Web</span></div>
+<div class='hn-top-story-zh'>BGP 还安全吗？尚未安全，请测试你的 ISP</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.8</span> <span class='hn-top-story-score'>&#9650; 196</span> <span class='hn-top-story-comments'>&#128172; 67</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>DevOps</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1282' data-hn-time='1774962270'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='112' data-hn-time='1775055696'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/01/top_stories_04012026#story-47586778'>The Claude Code Source Leak: fake tools, frustration regexes, undercover mode</a>
- <a class='hn-top-story-link' href='https://alex000kim.com/posts/2026-03-31-claude-code-source-leak/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/01/top_stories_04012026#story-47601859'>Ask HN: Who is hiring? (April 2026)</a>
+ <a class='hn-top-story-link' href='https://news.ycombinator.com/item?id=47601859' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Claude 代码源泄露：假工具、挫败感正则、潜伏模式</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 1282</span> <span class='hn-top-story-comments'>&#128172; 521</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>Ask HN：谁在招聘？（2026年4月）</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.5</span> <span class='hn-top-story-score'>&#9650; 112</span> <span class='hn-top-story-comments'>&#128172; 92</span> <span class='hn-top-story-tag'>Career</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1889' data-hn-time='1774925657'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='62' data-hn-time='1775061586'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/01/top_stories_04012026#story-47582220'>Axios compromised on NPM – Malicious versions drop remote access trojan</a>
- <a class='hn-top-story-link' href='https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/01/top_stories_04012026#story-47603231'>What Is Copilot Exactly?</a>
+ <a class='hn-top-story-link' href='https://idiallo.com/blog/what-is-copilot-exactly' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Axios 在 NPM 上被劫持：恶意版本投放远程访问木马</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.7</span> <span class='hn-top-story-score'>&#9650; 1889</span> <span class='hn-top-story-comments'>&#128172; 762</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-zh'>Copilot到底是什么？</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.4</span> <span class='hn-top-story-score'>&#9650; 62</span> <span class='hn-top-story-comments'>&#128172; 38</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -168,7 +168,7 @@ Your browser does not support the audio element.
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 14 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-03-30 — 2026-04-01 <span class="hn-row-sep">·</span> 369 stories <span class="hn-row-sep">·</span> 3 days</span>
+<span class='hn-week-meta'>2026-03-30 — 2026-04-01 <span class="hn-row-sep">·</span> 394 stories <span class="hn-row-sep">·</span> 3 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -177,7 +177,7 @@ Your browser does not support the audio element.
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/04/01/top_stories_04012026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>69</b> <span class="hn-row-sep">·</span> Programming <b>22</b> <span class="hn-row-sep">·</span> AI <b>21</b></span>
+<span class='hn-row-detail'>All <b>94</b> <span class="hn-row-sep">·</span> Programming <b>29</b> <span class="hn-row-sep">·</span> AI <b>28</b></span>
 </a>
 </div>
 </div>
