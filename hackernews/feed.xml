@@ -5,7 +5,7 @@
     <link>https://chaowang15.github.io/hackernews/</link>
     <description>Curated daily digest of top Hacker News stories with AI-generated summaries, tags, and bilingual translations.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Apr 2026 04:46:24 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Apr 2026 07:45:52 +0000</lastBuildDate>
     <generator>Hacker News Daily RSS Builder</generator>
     <atom:link href="https://chaowang15.github.io/hackernews/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
@@ -29,11 +29,11 @@
       <dc:creator>mtud</dc:creator>
       <pubDate>Tue, 31 Mar 2026 02:54:17 +0000</pubDate>
       <category>Security</category>
-      <category>Open Source</category>
+      <category>Programming</category>
       <description>&lt;p&gt;Malicious Axios releases popped up on npm, embedding a remote access Trojan in certain versions. The attack highlights the ongoing supply-chain risk for widely used libraries, and operators should audit dependencies, pin safe versions, and monitor for unusual network activity after updates.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;npm 上出现恶意的 Axios 版本，包含可对受影响环境进行远程访问的木马。此类供应链攻击再次暴露了对广泛使用库的依赖风险，建议锁定版本、进行依赖审计，并在更新后监测异常网络活动。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 1800 · 💬 730 · Security · Open Source&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47582220&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/31/top_stories_03312026#story-47582220&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;small&gt;▲ 1826 · 💬 737 · Security · Programming&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47582220&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/04/01/top_stories_04012026#story-47582220&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Copilot edited an ad into my PR</title>
@@ -86,8 +86,21 @@
       <category>Open Source</category>
       <description>&lt;p&gt;Wine 11 overhauls kernel interactions to accelerate Windows games on Linux, delivering substantial speedups; it improves compatibility and reduces overhead in system calls translation and graphics handling. This move tightens the gap between Linux gaming and Windows performance, potentially expanding Linux gaming adoption.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Wine 11 对内核层进行重写，使 Linux 上运行 Windows 游戏的性能显著提升，并提高了兼容性与系统调用翻译、图形处理的效率。此举缩小了 Linux 与 Windows 在游戏性能上的差距，有望推动 Linux 游戏生态的扩展。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 1246 · 💬 469 · Gaming · Open Source&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47507150&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/25/top_stories_03252026#story-47507150&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;small&gt;▲ 1234 · 💬 465 · Gaming · Open Source&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47507150&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/26/top_stories_03262026#story-47507150&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Claude Code Source Leak: fake tools, frustration regexes, undercover mode</title>
+      <link>https://alex000kim.com/posts/2026-03-31-claude-code-source-leak/</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47586778</guid>
+      <dc:creator>alex000kim</dc:creator>
+      <pubDate>Tue, 31 Mar 2026 13:04:30 +0000</pubDate>
+      <category>AI</category>
+      <category>Security</category>
+      <description>&lt;p&gt;An analysis of a Claude code-source leak reveals decoy tools and frustrating regex tests, with mentions of an undercover mode. The incident highlights the fragility of model provenance and the risk of leaked tooling being manipulated to mislead researchers. The takeaway is a call for stronger provenance controls and safer, auditable tooling around AI code-generation.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;对 Claude 代码源泄露事件的分析显示存在伪工具与令人挫败的正则测试，并提及潜伏模式。此事凸显了模型来源的脆弱性，以及泄露工具被操纵以误导研究者的风险。核心启示是需要加强来源追溯与对 AI 代码生成工具的安全、可审计设计。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 1117 · 💬 445 · AI · Security&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47586778&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/04/01/top_stories_04012026#story-47586778&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Goodbye to Sora</title>
@@ -98,8 +111,8 @@
       <category>Culture</category>
       <description>&lt;p&gt;An announcement signals the end of Sora, marking a closing chapter for the service.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;官方公告表明 Sora 将停止运营，标志着该服务的收尾阶段。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 1103 · 💬 822 · Culture&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47508246&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/25/top_stories_03252026#story-47508246&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;small&gt;▲ 1093 · 💬 805 · Culture&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47508246&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/26/top_stories_03262026#story-47508246&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Thoughts on slowing the fuck down</title>
@@ -125,31 +138,6 @@
 &lt;p&gt;&lt;em&gt;控制室的颜色选择常常偏向海泡绿，因为它能降低眩光、帮助在长时间工作中保持专注。本文将这一偏好与人体工效学、显示技术以及强调冷静、易读与高效的设计文化联系起来，探讨在高压环境中的实用性。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 1006 · 💬 200 · Design&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47518960&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/28/top_stories_03282026#story-47518960&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Microsoft's &quot;fix&quot; for Windows 11</title>
-      <link>https://www.sambent.com/microsofts-plan-to-fix-windows-11-is-gaslighting/</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47500335</guid>
-      <dc:creator>h0ek</dc:creator>
-      <pubDate>Tue, 24 Mar 2026 09:36:29 +0000</pubDate>
-      <category>Security</category>
-      <description>&lt;p&gt;Microsoft continues to roll out patches for Windows 11, but critics argue the changes are cosmetic and don't address core reliability or usability issues. The messaging resembles a post-incident PR sprint rather than substantive engineering fixes. For tech readers, this highlights the gap between marketing narratives and real-world OS quality in major updates.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;微软继续推出 Windows 11 的补丁，但批评者认为这些改动多为表面修补，无法解决核心的可靠性或可用性问题。外部宣传更像是事后公关冲刺，而非实质工程改进。对技术读者而言，这凸显了大型操作系统更新中营销叙述与实际软件质量之间的差距。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 993 · 💬 720 · Security&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47500335&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/25/top_stories_03252026#story-47500335&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>The Claude Code Source Leak: fake tools, frustration regexes, undercover mode</title>
-      <link>https://alex000kim.com/posts/2026-03-31-claude-code-source-leak/</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47586778</guid>
-      <dc:creator>alex000kim</dc:creator>
-      <pubDate>Tue, 31 Mar 2026 13:04:30 +0000</pubDate>
-      <category>AI</category>
-      <category>Security</category>
-      <description>&lt;p&gt;An analysis of a Claude code-source leak reveals decoy tools and frustrating regex tests, with mentions of an undercover mode. The incident highlights the fragility of model provenance and the risk of leaked tooling being manipulated to mislead researchers. The takeaway is a call for stronger provenance controls and safer, auditable tooling around AI code-generation.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;对 Claude 代码源泄露事件的分析显示存在伪工具与令人挫败的正则测试，并提及潜伏模式。此事凸显了模型来源的脆弱性，以及泄露工具被操纵以误导研究者的风险。核心启示是需要加强来源追溯与对 AI 代码生成工具的安全、可审计设计。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 975 · 💬 383 · AI · Security&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47586778&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/31/top_stories_03312026#story-47586778&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Running Tesla Model 3's computer on my desk using parts from crashed cars</title>
@@ -240,8 +228,8 @@
       <category>Science</category>
       <description>&lt;p&gt;Artemis II safety concerns argue the crewed lunar flyby is riskier than desired given current data, urging more analysis, testing, and risk mitigation before launch.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;阿耳忒弥斯II 的安全性引发质疑，认为在当前数据与测试水平下执行载人月球飞行风险较高，需要进一步分析、测试和风险缓解。文章强调推进大胆太空任务时安全评估的重要性。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 817 · 💬 560 · Space · Science&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47582043&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/31/top_stories_03312026#story-47582043&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;small&gt;▲ 832 · 💬 573 · Space · Science&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47582043&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/04/01/top_stories_04012026#story-47582043&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Oracle slashes 30k jobs</title>
@@ -308,45 +296,6 @@
 &lt;p&gt;&lt;em&gt;LinkedIn 的网页应用在仅打开两个标签页的情况下就大约占用 2.4 GB 内存，映射出现代浏览器对高功能网站的内存需求。此现象引发对内存效率、标签页隔离与在中等硬件上保持响应性的设计考量。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 737 · 💬 421 · Web · Hardware&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47561489&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/29/top_stories_03292026#story-47561489&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Malicious litellm_init.pth in litellm 1.82.8 PyPI package – credential stealer</title>
-      <link>https://github.com/BerriAI/litellm/issues/24512</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47501729</guid>
-      <dc:creator>theanonymousone</dc:creator>
-      <pubDate>Tue, 24 Mar 2026 12:36:20 +0000</pubDate>
-      <category>Security</category>
-      <category>AI</category>
-      <category>Startups</category>
-      <description>&lt;p&gt;A malicious PyPI package for litellm 1.82.8 contains a litellm_init.pth file that loads a credential-stealing module during import. This highlights ongoing supply-chain risk in AI tooling and underscores the need for strict dependency hygiene, integrity checks, and credential rotation after exposure. Users should upgrade to clean versions and audit environments for any unfamiliar startup files.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;在 litellm 1.82.8 的 PyPI 包中发现恶意的 litellm_init.pth，导入时会加载窃取凭据的模块。此事件暴露了 AI 工具链中的供应链风险，并强调对依赖项进行严格校验、完整性检查以及暴露后轮换凭据的必要性。如有怀疑，应升级到干净版本并审计运行环境中是否存在异常的启动文件。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 737 · 💬 1 · Security · AI · Startups&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47501729&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/25/top_stories_03252026#story-47501729&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Is anybody else bored of talking about AI?</title>
-      <link>https://blog.jakesaunders.dev/is-anybody-else-bored-of-talking-about-ai/</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47508745</guid>
-      <dc:creator>jakelsaunders94</dc:creator>
-      <pubDate>Tue, 24 Mar 2026 20:31:08 +0000</pubDate>
-      <category>AI</category>
-      <description>&lt;p&gt;A reflective essay questions whether the constant AI chatter has worn people down and argues for focusing on practical, real-world impact over hype. It pushes readers to value concrete use cases, governance, and measurable progress rather than trending headlines.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;这篇随笔质疑持续的 AI 热议是否让人疲惫，并主张把重点放在现实世界的实际影响而非炒作。作者鼓励关注具体的使用场景、治理与可衡量的进展，而不是追逐热度新闻。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 728 · 💬 514 · AI&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47508745&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/25/top_stories_03252026#story-47508745&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Apple Business</title>
-      <link>https://www.apple.com/newsroom/2026/03/introducing-apple-business-a-new-all-in-one-platform-for-businesses-of-all-sizes/</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47504112</guid>
-      <dc:creator>soheilpro</dc:creator>
-      <pubDate>Tue, 24 Mar 2026 15:29:41 +0000</pubDate>
-      <category>Business</category>
-      <category>Security</category>
-      <description>&lt;p&gt;Apple introduces Apple Business, an all-in-one platform to streamline device management, security, and app deployment for organizations of all sizes. By consolidating IT controls and enterprise workflows, it aims to reduce friction for Apple-powered ecosystems in the workplace. The move could reshape enterprise IT purchasing and cross-device collaboration strategies.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;苹果推出 Apple Business，一站式平台用于简化企业级设备管理、安全性与应用部署，覆盖各类规模的组织。通过整合 IT 控制和企业工作流，意在降低在工作场景中使用苹果设备的门槛。这一举措可能影响企业 IT 的采购决策及跨设备协作方式。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 724 · 💬 423 · Business · Security&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47504112&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/25/top_stories_03252026#story-47504112&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to turn anything into a router</title>
@@ -455,18 +404,6 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47530330&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/27/top_stories_03272026#story-47530330&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Show HN: I took back Video.js after 16 years and we rewrote it to be 88% smaller</title>
-      <link>https://videojs.org/blog/videojs-v10-beta-hello-world-again</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47506713</guid>
-      <dc:creator>Heff</dc:creator>
-      <pubDate>Tue, 24 Mar 2026 18:03:48 +0000</pubDate>
-      <category>Show HN</category>
-      <description>&lt;p&gt;Show HN: after reclaiming control of Video.js, the team rebuilt the project to a leaner 12% of its former size, maintaining compatibility while shaving bandwidth and load time. The rewrite by the maintainers highlights how modern tooling and modular design can yield dramatic size reductions.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Show HN：重新掌控 Video.js 后，团队将其重写，使体积仅为原来的 12%，并保持向后兼容，同时减小带宽和加载时间。此重写展示了现代工具链与模块化设计在实现显著体积缩减方面的潜力。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 627 · 💬 137 · Show HN&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47506713&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/25/top_stories_03252026#story-47506713&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Hold on to Your Hardware</title>
       <link>https://xn--gckvb8fzb.com/hold-on-to-your-hardware/</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=47540833</guid>
@@ -516,8 +453,8 @@
       <category>Privacy</category>
       <description>&lt;p&gt;Ollama now supports MLX on Apple Silicon in preview, enabling accelerated on-device LLMs on M-series Macs. The preview could bring notable speedups and privacy benefits versus cloud inference, but adopters should be aware of early-stage status and hardware compatibility.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Ollama 现已在 Apple Silicon 支持 MLX，提供本地推理的加速效果。预览版可能带来显著的性能提升和隐私优势，但仍处于早期阶段，需关注兼容性与稳定性。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 610 · 💬 337 · AI · Hardware · Privacy&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47582482&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/31/top_stories_03312026#story-47582482&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;small&gt;▲ 617 · 💬 342 · AI · Hardware · Privacy&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47582482&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/04/01/top_stories_04012026#story-47582482&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Anatomy of the .claude/ folder</title>
@@ -613,31 +550,6 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47561711&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/30/top_stories_03302026#story-47561711&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Mystery jump in oil trading ahead of Trump post draws scrutiny</title>
-      <link>https://www.bbc.com/news/articles/cg547ljepvzo</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47504060</guid>
-      <dc:creator>psim1</dc:creator>
-      <pubDate>Tue, 24 Mar 2026 15:25:52 +0000</pubDate>
-      <category>Finance</category>
-      <category>Politics</category>
-      <description>&lt;p&gt;Crude oil markets showed an unexplained rally ahead of a high-profile Trump post, drawing scrutiny from traders and regulators alike. Analysts debate whether rapid algorithmic trading, order-flow dynamics, or potential insider information drove the move. The episode underscores how political events can instantly ripple through commodity markets.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;在特朗普发布重要言论前，原油市场出现难以解释的跳涨，吸引交易员和监管机构的关注。分析师讨论是否因快速的算法交易、订单流动性变化，或内部信息导致了这一下跳。此事凸显政治事件能即时波及大宗商品市场。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 554 · 💬 385 · Finance · Politics&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47504060&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/25/top_stories_03252026#story-47504060&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Flighty Airports</title>
-      <link>https://flighty.com/airports</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47511589</guid>
-      <dc:creator>skogstokig</dc:creator>
-      <pubDate>Wed, 25 Mar 2026 00:29:45 +0000</pubDate>
-      <category>Data</category>
-      <description>&lt;p&gt;Flighty Airports highlights Flighty’s airport data coverage.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Flighty Airports 展示了 Flighty 应用覆盖的机场数据内容。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 550 · 💬 182 · Data&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47511589&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/25/top_stories_03252026#story-47511589&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>The Cognitive Dark Forest</title>
       <link>https://ryelang.org/blog/posts/cognitive-dark-forest/</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=47566442</guid>
@@ -650,6 +562,32 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47566442&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/30/top_stories_03302026#story-47566442&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>GitHub backs down, kills Copilot pull-request ads after backlash</title>
+      <link>https://www.theregister.com/2026/03/30/github_copilot_ads_pull_requests/</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47582984</guid>
+      <dc:creator>_____k</dc:creator>
+      <pubDate>Tue, 31 Mar 2026 05:11:24 +0000</pubDate>
+      <category>AI</category>
+      <category>Open Source</category>
+      <category>Programming</category>
+      <description>&lt;p&gt;GitHub has scrapped Copilot pull-request ads after community backlash, signaling a shift in how sponsor messaging appears inside developer workflows. The move adds to ongoing debates about paid AI assistance in open-source tooling and PR review noise.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;GitHub 在社区强烈反对后取消 Copilot 在拉取请求中的广告，体现了开发者工作流中赞助信息呈现的权衡。此举加剧了关于在开源工具中使用付费 AI 助手以及降低 PR 审核噪声的讨论。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 527 · 💬 316 · AI · Open Source · Programming&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47582984&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/31/top_stories_03312026#story-47582984&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Make macOS consistently bad unironically</title>
+      <link>https://lr0.org/blog/p/macos/</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47547009</guid>
+      <dc:creator>speckx</dc:creator>
+      <pubDate>Fri, 27 Mar 2026 19:15:19 +0000</pubDate>
+      <category>Design</category>
+      <description>&lt;p&gt;The piece argues for a deliberate shift toward consistent macOS behavior, framing trade-offs between polish and reliability.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;文章主张让 macOS 的行为更具一致性，权衡光鲜体验与可靠性之间的取舍。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 524 · 💬 354 · Design&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47547009&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/28/top_stories_03282026#story-47547009&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Miscellanea: The War in Iran</title>
       <link>https://acoup.blog/2026/03/25/miscellanea-the-war-in-iran/</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=47513229</guid>
@@ -659,8 +597,71 @@
       <category>Security</category>
       <description>&lt;p&gt;Miscellanea covering the war in Iran, offering concise updates on frontline developments, regional dynamics, and the tech/security implications of conflict in the region. It ties historical context to contemporary geopolitical and cyber considerations.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;杂记聚焦伊朗战争，简要更新前线进展、区域格局以及冲突对科技与网络安全的潜在影响，将历史背景与当前地缘政治联系起来。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 547 · 💬 784 · Politics · Security&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47513229&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/25/top_stories_03252026#story-47513229&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;small&gt;▲ 516 · 💬 719 · Politics · Security&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47513229&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/26/top_stories_03262026#story-47513229&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>TurboQuant: Redefining AI efficiency with extreme compression</title>
+      <link>https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47513475</guid>
+      <dc:creator>ray__</dc:creator>
+      <pubDate>Wed, 25 Mar 2026 05:00:54 +0000</pubDate>
+      <category>AI</category>
+      <description>&lt;p&gt;TurboQuant introduces extreme compression techniques to shrink AI models and cut compute needs while preserving accuracy. This approach tests the boundaries of model distillation and quantization, potentially slashing deployment costs and enabling more edge and on-device inference. Trade-offs remain: training compatibility and potential accuracy quirks in edge cases.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;TurboQuant 引入极端压缩技术，在保持准确度的同时显著降低模型规模和计算需求，有望降低大规模部署成本并推动边缘设备或端侧推理的普及。该方法可能带来训练兼容性与在极端情形下的精度波动等权衡。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 513 · 💬 143 · AI&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47513475&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/26/top_stories_03262026#story-47513475&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Microsoft: Copilot is for entertainment purposes only</title>
+      <link>https://www.microsoft.com/en-us/microsoft-copilot/for-individuals/termsofuse</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47587866</guid>
+      <dc:creator>lpcvoid</dc:creator>
+      <pubDate>Tue, 31 Mar 2026 14:25:37 +0000</pubDate>
+      <category>AI</category>
+      <category>Legal</category>
+      <description>&lt;p&gt;Microsoft explicitly states in its terms that Copilot is for entertainment purposes only, clarifying its intended use and limitations. This stance raises questions about relying on AI for critical coding or decision-making and highlights the need for clear risk disclosures.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;微软在使用条款中明确表示 Copilot 仅用于娱乐用途，界定了其使用范围与局限。此说法引发了人们对将其用于关键编码或决策场景的可依赖性以及需披露的风险信息的关注。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 512 · 💬 184 · AI · Legal&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47587866&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/04/01/top_stories_04012026#story-47587866&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Meta and YouTube found negligent in landmark social media addiction case</title>
+      <link>https://www.nytimes.com/2026/03/25/technology/social-media-trial-verdict.html</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47520505</guid>
+      <dc:creator>mrjaeger</dc:creator>
+      <pubDate>Wed, 25 Mar 2026 17:29:33 +0000</pubDate>
+      <category>Legal</category>
+      <category>Politics</category>
+      <description>&lt;p&gt;A landmark case finds Meta and YouTube negligent in contributing to social media addiction, with judges noting engagement-driven features that prioritize time-on-site over user well-being. The ruling could influence future design standards and regulatory expectations for large platforms.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;在具里程碑意义的案件中，法院认定 Meta 与 YouTube 在促成社媒成瘾方面存在疏忽，法官指出以提升停留时间为目标的设计特征损害用户福祉。此判决可能影响未来对大型平台的设计标准与监管预期。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 491 · 💬 514 · Legal · Politics&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47520505&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/26/top_stories_03262026#story-47520505&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ARC-AGI-3</title>
+      <link>https://arcprize.org/arc-agi/3</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47521150</guid>
+      <dc:creator>lairv</dc:creator>
+      <pubDate>Wed, 25 Mar 2026 18:16:03 +0000</pubDate>
+      <category>AI</category>
+      <description>&lt;p&gt;ARC-AGI-3 marks the third edition of the ARC Prize, spotlighting approaches to artificial general intelligence. Entrants showcase diverse architectures with emphasis on safety, efficiency, and real-world constraints.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;ARC-AGI-3 是 ARC 奖的第三届，聚焦推动通用人工智能的发展。参赛团队展示多种架构路线，强调安全、效率与在现实世界中的约束。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 490 · 💬 340 · AI&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47521150&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/26/top_stories_03262026#story-47521150&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CSS is DOOMed</title>
+      <link>https://nielsleenheer.com/articles/2026/css-is-doomed-rendering-doom-in-3d-with-css/</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47557960</guid>
+      <dc:creator>msephton</dc:creator>
+      <pubDate>Sat, 28 Mar 2026 20:39:01 +0000</pubDate>
+      <category>Web</category>
+      <category>Hardware</category>
+      <description>&lt;p&gt;CSS-based 3D rendering is hitting fundamental limits in performance and reliability. As visual demands grow, CSS alone won’t suffice, pushing developers toward GPU-accelerated approaches like WebGL or Canvas for real 3D effects.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;CSS 在实现真实 3D 与复杂视觉效果时面临性能与可靠性的根本上限。随着渲染需求提升，单靠 CSS 已难以胜任，开发者应转向 GPU 加速的 WebGL 或 Canvas 等方案来实现真实的 3D 效果。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 488 · 💬 109 · Web · Hardware&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47557960&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/03/29/top_stories_03292026#story-47557960&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
