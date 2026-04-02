@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>45</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>6415</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>44</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>43</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-04-01</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>46</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>6464</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>44</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>44</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-04-02</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,118 +20,118 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='364' data-hn-time='1775079401'>
+<div class='hn-top-story-item' data-hn-score='106' data-hn-time='1775108000'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/01/top_stories_04012026#story-47606840'>DRAM pricing is killing the hobbyist SBC market</a>
- <a class='hn-top-story-link' href='https://www.jeffgeerling.com/blog/2026/dram-pricing-is-killing-the-hobbyist-sbc-market/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/02/top_stories_04022026#story-47610336'>r/programming bans all discussion of LLM programming</a>
+ <a class='hn-top-story-link' href='https://old.reddit.com/r/programming/comments/1s9jkzi/announcement_temporary_llm_content_ban/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>DRAM定价正在挤压爱好者级SBC市场</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.2</span> <span class='hn-top-story-score'>&#9650; 364</span> <span class='hn-top-story-comments'>&#128172; 299</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-zh'>r/programming 禁止讨论 LLM 编程</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.0</span> <span class='hn-top-story-score'>&#9650; 106</span> <span class='hn-top-story-comments'>&#128172; 90</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='738' data-hn-time='1775063491'>
+<div class='hn-top-story-item' data-hn-score='214' data-hn-time='1775099544'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/01/top_stories_04012026#story-47603657'>Live: Artemis II Launch Day Updates</a>
- <a class='hn-top-story-link' href='https://www.nasa.gov/blogs/missions/2026/04/01/live-artemis-ii-launch-day-updates/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>阿尔忒弥斯 II 发射日现场更新</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.0</span> <span class='hn-top-story-score'>&#9650; 738</span> <span class='hn-top-story-comments'>&#128172; 681</span> <span class='hn-top-story-tag'>Space</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='51' data-hn-time='1775099544'>
-<span class='hn-top-story-rank'>3</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/01/top_stories_04012026#story-47609564'>Steam on Linux Use Skyrocketed Above 5% in March</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/02/top_stories_04022026#story-47609564'>Steam on Linux Use Skyrocketed Above 5% in March</a>
  <a class='hn-top-story-link' href='https://www.phoronix.com/news/Steam-On-Linux-Tops-5p' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Steam 在 Linux 的使用率于三月突破 5%</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.0</span> <span class='hn-top-story-score'>&#9650; 51</span> <span class='hn-top-story-comments'>&#128172; 20</span> <span class='hn-top-story-tag'>Gaming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.8</span> <span class='hn-top-story-score'>&#9650; 214</span> <span class='hn-top-story-comments'>&#128172; 82</span> <span class='hn-top-story-tag'>Gaming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='509' data-hn-time='1775060078'>
+<div class='hn-top-story-item' data-hn-score='842' data-hn-time='1775063491'>
+<span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/02/top_stories_04022026#story-47603657'>Live: Artemis II Launch Day Updates</a>
+ <a class='hn-top-story-link' href='https://www.nasa.gov/blogs/missions/2026/04/01/live-artemis-ii-launch-day-updates/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>阿尔忒弥斯 II 发射日现场更新</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.5</span> <span class='hn-top-story-score'>&#9650; 842</span> <span class='hn-top-story-comments'>&#128172; 752</span> <span class='hn-top-story-tag'>Space</span> <span class='hn-top-story-tag'>Science</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='434' data-hn-time='1775079401'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/01/top_stories_04012026#story-47602832'>EmDash – A spiritual successor to WordPress that solves plugin security</a>
- <a class='hn-top-story-link' href='https://blog.cloudflare.com/emdash-wordpress/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/02/top_stories_04022026#story-47606840'>DRAM pricing is killing the hobbyist SBC market</a>
+ <a class='hn-top-story-link' href='https://www.jeffgeerling.com/blog/2026/dram-pricing-is-killing-the-hobbyist-sbc-market/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>EmDash：解决插件安全问题的 WordPress 精神续作</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.3</span> <span class='hn-top-story-score'>&#9650; 509</span> <span class='hn-top-story-comments'>&#128172; 360</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Web</span></div>
+<div class='hn-top-story-zh'>DRAM定价正在挤压爱好者级SBC市场</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.0</span> <span class='hn-top-story-score'>&#9650; 434</span> <span class='hn-top-story-comments'>&#128172; 351</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='128' data-hn-time='1775086502'>
+<div class='hn-top-story-item' data-hn-score='92' data-hn-time='1775102885'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/01/top_stories_04012026#story-47608058'>A new C++ back end for ocamlc</a>
- <a class='hn-top-story-link' href='https://github.com/ocaml/ocaml/pull/14701' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/02/top_stories_04022026#story-47609882'>Subscription bombing and how to mitigate it</a>
+ <a class='hn-top-story-link' href='https://bytemash.net/posts/subscription-bombing-your-signup-form-is-a-weapon/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Ocamlc 的 C++ 后端新实现</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 128</span> <span class='hn-top-story-comments'>&#128172; 7</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>DevOps</span></div>
+<div class='hn-top-story-zh'>订阅轰炸及其缓解方法</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.5</span> <span class='hn-top-story-score'>&#9650; 92</span> <span class='hn-top-story-comments'>&#128172; 66</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='54' data-hn-time='1775094498'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='116' data-hn-time='1775096765'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/01/top_stories_04012026#story-47609090'>Weather.com/Retro</a>
- <a class='hn-top-story-link' href='https://weather.com/retro/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/02/top_stories_04022026#story-47609294'>The Claude Code Leak</a>
+ <a class='hn-top-story-link' href='https://build.ms/2026/4/1/the-claude-code-leak/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Weather.com 复古版界面上线</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 54</span> <span class='hn-top-story-comments'>&#128172; 13</span> <span class='hn-top-story-tag'>Design</span></div>
+<div class='hn-top-story-zh'>Claude 代码泄露</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 116</span> <span class='hn-top-story-comments'>&#128172; 74</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1018' data-hn-time='1775020537'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='132' data-hn-time='1775094498'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/01/top_stories_04012026#story-47597085'>Claude Code Unpacked : A visual guide</a>
- <a class='hn-top-story-link' href='https://ccunpacked.dev/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/02/top_stories_04022026#story-47609090'>Weather.com/Retro</a>
+ <a class='hn-top-story-link' href='https://weather.com/retro/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Claude 代码解读：可视化指南</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 1018</span> <span class='hn-top-story-comments'>&#128172; 355</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>Weather.com 复古版界面上线</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 132</span> <span class='hn-top-story-comments'>&#128172; 23</span> <span class='hn-top-story-tag'>Design</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='76' data-hn-time='1775089483'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='544' data-hn-time='1775060078'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/01/top_stories_04012026#story-47608495'>Quantum computing bombshells that are not April Fools</a>
- <a class='hn-top-story-link' href='https://scottaaronson.blog/?p=9665' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/02/top_stories_04022026#story-47602832'>EmDash – A spiritual successor to WordPress that solves plugin security</a>
+ <a class='hn-top-story-link' href='https://blog.cloudflare.com/emdash-wordpress/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>量子计算领域的重大突破，绝非愚人节玩笑</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 76</span> <span class='hn-top-story-comments'>&#128172; 12</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>EmDash：解决插件安全问题的 WordPress 精神续作</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 544</span> <span class='hn-top-story-comments'>&#128172; 379</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='252' data-hn-time='1775065794'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='158' data-hn-time='1775086502'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/01/top_stories_04012026#story-47604155'>SpaceX files to go public</a>
- <a class='hn-top-story-link' href='https://www.nytimes.com/2026/04/01/technology/spacex-ipo-elon-musk.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/02/top_stories_04022026#story-47608058'>A new C++ back end for ocamlc</a>
+ <a class='hn-top-story-link' href='https://github.com/ocaml/ocaml/pull/14701' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>SpaceX 上市申请</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 252</span> <span class='hn-top-story-comments'>&#128172; 316</span> <span class='hn-top-story-tag'>Space</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Finance</span></div>
+<div class='hn-top-story-zh'>Ocamlc 的 C++ 后端新实现</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 158</span> <span class='hn-top-story-comments'>&#128172; 12</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>DevOps</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='30' data-hn-time='1775096271'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='128' data-hn-time='1775089483'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/01/top_stories_04012026#story-47609253'>Solar Balconies Take Europe by Storm</a>
- <a class='hn-top-story-link' href='https://hackaday.com/2026/03/31/solar-balconies-take-europe-by-storm/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/02/top_stories_04022026#story-47608495'>Quantum computing bombshells that are not April Fools</a>
+ <a class='hn-top-story-link' href='https://scottaaronson.blog/?p=9665' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>欧洲掀起太阳能阳台热潮</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.2</span> <span class='hn-top-story-score'>&#9650; 30</span> <span class='hn-top-story-comments'>&#128172; 8</span> <span class='hn-top-story-tag'>Energy</span></div>
+<div class='hn-top-story-zh'>量子计算领域的重大突破，绝非愚人节玩笑</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 128</span> <span class='hn-top-story-comments'>&#128172; 36</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
-<a class='hn-top-stories-more' href='/hackernews/2026/04/01/top_stories_04012026'>View all trending stories &rarr;</a>
+<a class='hn-top-stories-more' href='/hackernews/2026/04/02/top_stories_04022026'>View all trending stories &rarr;</a>
 </div>
 </div>
 <div class='hn-index-section hn-podcast-section'>
@@ -168,10 +168,19 @@ Your browser does not support the audio element.
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 14 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-03-30 — 2026-04-01 <span class="hn-row-sep">·</span> 400 stories <span class="hn-row-sep">·</span> 3 days</span>
+<span class='hn-week-meta'>2026-03-30 — 2026-04-02 <span class="hn-row-sep">·</span> 449 stories <span class="hn-row-sep">·</span> 4 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
+<div class='hn-day-row'>
+<div class='hn-day-date'>2026-04-02 <span class='hn-day-weekday'>Thu</span></div>
+<div class='hn-day-stories'>
+<a class='hn-story-link' href='/hackernews/2026/04/02/top_stories_04022026'>
+<span class='hn-row-type hn-type-top'>Trending</span>
+<span class='hn-row-detail'>All <b>49</b> <span class="hn-row-sep">·</span> Programming <b>14</b> <span class="hn-row-sep">·</span> AI <b>11</b></span>
+</a>
+</div>
+</div>
 <div class='hn-day-row'>
 <div class='hn-day-date'>2026-04-01 <span class='hn-day-weekday'>Wed</span></div>
 <div class='hn-day-stories'>
@@ -537,7 +546,7 @@ Your browser does not support the audio element.
 <details class='hn-week-group'>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 10</span>
-<span class='hn-week-meta'>2026-03-03 — 2026-03-08 <span class="hn-row-sep">·</span> 900 stories <span class="hn-row-sep">·</span> 6 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
+<span class='hn-week-meta'>2026-03-04 — 2026-03-08 <span class="hn-row-sep">·</span> 750 stories <span class="hn-row-sep">·</span> 5 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
 </summary>
 <div class='hn-week-content'>
 <a class='hn-story-link hn-weekly-digest-link' href='/hackernews/weekly/2026-W10'>
@@ -607,19 +616,6 @@ Your browser does not support the audio element.
 <a class='hn-story-link' href='/hackernews/2026/03/04/top_stories_03042026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
 <span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>24</b> <span class="hn-row-sep">·</span> AI <b>23</b></span>
-</a>
-</div>
-</div>
-<div class='hn-day-row'>
-<div class='hn-day-date'>2026-03-03 <span class='hn-day-weekday'>Tue</span></div>
-<div class='hn-day-stories'>
-<a class='hn-story-link' href='/hackernews/2026/03/03/best_stories_03032026'>
-<span class='hn-row-type hn-type-best'>Daily Best</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>20</b> <span class="hn-row-sep">·</span> Programming <b>14</b></span>
-</a>
-<a class='hn-story-link' href='/hackernews/2026/03/03/top_stories_03032026'>
-<span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>25</b> <span class="hn-row-sep">·</span> Programming <b>25</b></span>
 </a>
 </div>
 </div>
