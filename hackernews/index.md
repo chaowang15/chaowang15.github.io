@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>47</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>6688</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>46</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>45</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-04-03</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>47</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>6709</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>46</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>45</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-04-03</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='163' data-hn-time='1775219625'>
+<div class='hn-top-story-item' data-hn-score='102' data-hn-time='1775236940'>
 <span class='hn-top-story-rank'>1</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/03/top_stories_04032026#story-47629433'>iNaturalist</a>
+ <a class='hn-top-story-link' href='https://www.inaturalist.org/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>iNaturalist 自然观测平台</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 102</span> <span class='hn-top-story-comments'>&#128172; 28</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Data</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='468' data-hn-time='1775219625'>
+<span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/04/03/top_stories_04032026#story-47625952'>Show HN: I built a frontpage for personal blogs</a>
  <a class='hn-top-story-link' href='https://text.blogosphere.app/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Show HN：我为个人博客搭建了一个前端首页</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 163</span> <span class='hn-top-story-comments'>&#128172; 69</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Web</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 468</span> <span class='hn-top-story-comments'>&#128172; 135</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='386' data-hn-time='1775207734'>
-<span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-item' data-hn-score='147' data-hn-time='1775233292'>
+<span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/03/top_stories_04032026#story-47628608'>If you're running OpenClaw, you probably got hacked in the last week</a>
+ <a class='hn-top-story-link' href='https://old.reddit.com/r/sysadmin/comments/1sbdw29/if_youre_running_openclaw_you_probably_got_hacked/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>如果你在运行 OpenClaw，可能在上周被入侵</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 10</span> <span class='hn-top-story-score'>&#9650; 147</span> <span class='hn-top-story-comments'>&#128172; 84</span> <span class='hn-top-story-tag'>Security</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='219' data-hn-time='1775226566'>
+<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/03/top_stories_04032026#story-47627061'>Solar and batteries can power the world</a>
+ <a class='hn-top-story-link' href='https://nworbmot.org/blog/solar-battery-world.html' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>太阳能与电池可以为全球供电</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.1</span> <span class='hn-top-story-score'>&#9650; 219</span> <span class='hn-top-story-comments'>&#128172; 308</span> <span class='hn-top-story-tag'>Energy</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='559' data-hn-time='1775207734'>
+<span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/04/03/top_stories_04032026#story-47624645'>Show HN: Apfel – The free AI already on your Mac</a>
  <a class='hn-top-story-link' href='https://apfel.franzai.com' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Show HN: Apfel — 你的 Mac 上已经有的免费 AI</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 10</span> <span class='hn-top-story-score'>&#9650; 386</span> <span class='hn-top-story-comments'>&#128172; 80</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.9</span> <span class='hn-top-story-score'>&#9650; 559</span> <span class='hn-top-story-comments'>&#128172; 125</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='122' data-hn-time='1775213931'>
-<span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='48' data-hn-time='1775237361'>
+<span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/03/top_stories_04032026#story-47625244'>Critics say EU risks ceding control of its tech laws under U.S. pressure</a>
- <a class='hn-top-story-link' href='https://www.politico.eu/article/fatal-decision-eu-slammed-for-caving-to-us-pressure-on-digital-rules/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/03/top_stories_04032026#story-47629505'>Solana Drift Protocol drained of $285M via fake token and governance hijack</a>
+ <a class='hn-top-story-link' href='https://anonhaven.com/en/news/drift-protocol-hack-285-million-solana/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>欧盟在美方压力下可能让渡科技法规控制权</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.2</span> <span class='hn-top-story-score'>&#9650; 122</span> <span class='hn-top-story-comments'>&#128172; 71</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>Solana Drift 协议被假代币和治理劫持，损失 2.85 亿美元</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.6</span> <span class='hn-top-story-score'>&#9650; 48</span> <span class='hn-top-story-comments'>&#128172; 18</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Finance</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='1627' data-hn-time='1775146254'>
-<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1688' data-hn-time='1775146254'>
+<span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/04/03/top_stories_04032026#story-47616361'>Google releases Gemma 4 open models</a>
  <a class='hn-top-story-link' href='https://deepmind.google/models/gemma/gemma-4/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>谷歌发布 Gemma 4 开源模型</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.1</span> <span class='hn-top-story-score'>&#9650; 1627</span> <span class='hn-top-story-comments'>&#128172; 432</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Hardware</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='176' data-hn-time='1775208993'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/03/top_stories_04032026#story-47624736'>NHS staff refusing to use FDP over Palantir ethical concerns</a>
- <a class='hn-top-story-link' href='https://www.freevacy.com/news/financial-times/nhs-staff-refusing-to-use-fdp-over-palantir-ethical-concerns/7272' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>NHS 员工因 Palantir 道德担忧拒用 FDP</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.1</span> <span class='hn-top-story-score'>&#9650; 176</span> <span class='hn-top-story-comments'>&#128172; 56</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 1688</span> <span class='hn-top-story-comments'>&#128172; 446</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
 <div class='hn-top-story-item hn-top-story-extra' data-hn-score='1822' data-hn-time='1775135349'>
-<span class='hn-top-story-rank'>6</span>
+<span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/04/03/top_stories_04032026#story-47613981'>LinkedIn is searching your browser extensions</a>
  <a class='hn-top-story-link' href='https://browsergate.eu/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>LinkedIn 正在搜索你的浏览器扩展</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.7</span> <span class='hn-top-story-score'>&#9650; 1822</span> <span class='hn-top-story-comments'>&#128172; 731</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>Web</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 1822</span> <span class='hn-top-story-comments'>&#128172; 731</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='72' data-hn-time='1775217212'>
-<span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/03/top_stories_04032026#story-47625639'>TDF ejects its core developers</a>
- <a class='hn-top-story-link' href='https://meeksfamily.uk/~michael/blog/2026-04-02-tdf-ejects-core-devs.html' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>TDF 将核心开发者驱逐</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 72</span> <span class='hn-top-story-comments'>&#128172; 57</span> <span class='hn-top-story-tag'>Open Source</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='140' data-hn-time='1775208916'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/03/top_stories_04032026#story-47624731'>April 2026 TLDR Setup for Ollama and Gemma 4 26B on a Mac mini</a>
- <a class='hn-top-story-link' href='https://gist.github.com/greenstevester/fc49b4e60a4fef9effc79066c1033ae5' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>2026 年 4 月 TLDR：在 Mac mini 上为 Ollama 与 Gemma 4 26B 的搭建指南</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 140</span> <span class='hn-top-story-comments'>&#128172; 52</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='144' data-hn-time='1775206785'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='268' data-hn-time='1775208993'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/03/top_stories_04032026#story-47624558'>Proton meet isn't what they told you it was</a>
- <a class='hn-top-story-link' href='https://www.sambent.com/proton-meet-isnt-what-they-told-you/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/03/top_stories_04032026#story-47624736'>NHS staff refusing to use FDP over Palantir ethical concerns</a>
+ <a class='hn-top-story-link' href='https://www.freevacy.com/news/financial-times/nhs-staff-refusing-to-use-fdp-over-palantir-ethical-concerns/7272' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Proton Meet 并非如宣传所述</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 144</span> <span class='hn-top-story-comments'>&#128172; 131</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>NHS 员工因 Palantir 道德担忧拒用 FDP</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 268</span> <span class='hn-top-story-comments'>&#128172; 114</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='976' data-hn-time='1775145627'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='192' data-hn-time='1775213931'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/03/top_stories_04032026#story-47616242'>Decisions that eroded trust in Azure – by a former Azure Core engineer</a>
- <a class='hn-top-story-link' href='https://isolveproblems.substack.com/p/how-microsoft-vaporized-a-trillion' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/03/top_stories_04032026#story-47625244'>Critics say EU risks ceding control of its tech laws under U.S. pressure</a>
+ <a class='hn-top-story-link' href='https://www.politico.eu/article/fatal-decision-eu-slammed-for-caving-to-us-pressure-on-digital-rules/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>让 Azure 信任度受损的决策—一位前 Azure Core 工程师的看法</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 976</span> <span class='hn-top-story-comments'>&#128172; 437</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>欧盟在美方压力下可能让渡科技法规控制权</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 192</span> <span class='hn-top-story-comments'>&#128172; 123</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -168,7 +168,7 @@ Your browser does not support the audio element.
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 14 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-03-30 — 2026-04-03 <span class="hn-row-sep">·</span> 673 stories <span class="hn-row-sep">·</span> 5 days</span>
+<span class='hn-week-meta'>2026-03-30 — 2026-04-03 <span class="hn-row-sep">·</span> 694 stories <span class="hn-row-sep">·</span> 5 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -177,7 +177,7 @@ Your browser does not support the audio element.
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/04/03/top_stories_04032026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>73</b> <span class="hn-row-sep">·</span> Programming <b>18</b> <span class="hn-row-sep">·</span> Security <b>12</b></span>
+<span class='hn-row-detail'>All <b>94</b> <span class="hn-row-sep">·</span> Programming <b>21</b> <span class="hn-row-sep">·</span> Science <b>16</b></span>
 </a>
 </div>
 </div>
