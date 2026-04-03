@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>46</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>6565</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>45</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>44</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-04-02</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>47</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>6614</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>45</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>45</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-04-03</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,118 +20,118 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='1241' data-hn-time='1775146254'>
+<div class='hn-top-story-item' data-hn-score='1367' data-hn-time='1775146254'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/02/top_stories_04022026#story-47616361'>Google releases Gemma 4 open models</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/03/top_stories_04032026#story-47616361'>Google releases Gemma 4 open models</a>
  <a class='hn-top-story-link' href='https://deepmind.google/models/gemma/gemma-4/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>谷歌发布 Gemma 4 开源模型</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 10</span> <span class='hn-top-story-score'>&#9650; 1241</span> <span class='hn-top-story-comments'>&#128172; 366</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.2</span> <span class='hn-top-story-score'>&#9650; 1367</span> <span class='hn-top-story-comments'>&#128172; 394</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='1607' data-hn-time='1775135349'>
+<div class='hn-top-story-item' data-hn-score='1668' data-hn-time='1775135349'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/02/top_stories_04022026#story-47613981'>LinkedIn is searching your browser extensions</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/03/top_stories_04032026#story-47613981'>LinkedIn is searching your browser extensions</a>
  <a class='hn-top-story-link' href='https://browsergate.eu/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>LinkedIn 正在搜索你的浏览器扩展</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.5</span> <span class='hn-top-story-score'>&#9650; 1607</span> <span class='hn-top-story-comments'>&#128172; 692</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Web</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.5</span> <span class='hn-top-story-score'>&#9650; 1668</span> <span class='hn-top-story-comments'>&#128172; 696</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='63' data-hn-time='1775181920'>
+<div class='hn-top-story-item' data-hn-score='631' data-hn-time='1775145627'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/02/top_stories_04022026#story-47622490'>The open web isn't dying, we're killing it</a>
- <a class='hn-top-story-link' href='https://ouvre-boite.com/the-open-web-isnt-dying-were-killing-it/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>开放的网络并未死亡——其实是我们在扼杀它</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.4</span> <span class='hn-top-story-score'>&#9650; 63</span> <span class='hn-top-story-comments'>&#128172; 43</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Privacy</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='370' data-hn-time='1775154123'>
-<span class='hn-top-story-rank'>4</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/02/top_stories_04022026#story-47618189'>Tailscale's new macOS home</a>
- <a class='hn-top-story-link' href='https://tailscale.com/blog/macos-notch-escape' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Tailscale 的全新 macOS 应用 Home</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 370</span> <span class='hn-top-story-comments'>&#128172; 182</span> <span class='hn-top-story-tag'>Programming</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='454' data-hn-time='1775145627'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/02/top_stories_04022026#story-47616242'>Decisions that eroded trust in Azure – by a former Azure Core engineer</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/03/top_stories_04032026#story-47616242'>Decisions that eroded trust in Azure – by a former Azure Core engineer</a>
  <a class='hn-top-story-link' href='https://isolveproblems.substack.com/p/how-microsoft-vaporized-a-trillion' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>让 Azure 信任度受损的决策—一位前 Azure Core 工程师的看法</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.7</span> <span class='hn-top-story-score'>&#9650; 454</span> <span class='hn-top-story-comments'>&#128172; 167</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.7</span> <span class='hn-top-story-score'>&#9650; 631</span> <span class='hn-top-story-comments'>&#128172; 245</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='330' data-hn-time='1775153621'>
-<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-item' data-hn-score='426' data-hn-time='1775154123'>
+<span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/02/top_stories_04022026#story-47618084'>Cursor 3</a>
- <a class='hn-top-story-link' href='https://cursor.com/blog/cursor-3' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/03/top_stories_04032026#story-47618189'>Tailscale's new macOS home</a>
+ <a class='hn-top-story-link' href='https://tailscale.com/blog/macos-notch-escape' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Cursor 3 发布</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 330</span> <span class='hn-top-story-comments'>&#128172; 270</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>Tailscale 的全新 macOS 应用 Home</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 426</span> <span class='hn-top-story-comments'>&#128172; 210</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='771' data-hn-time='1775127000'>
-<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-item' data-hn-score='811' data-hn-time='1775127000'>
+<span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/02/top_stories_04022026#story-47612601'>Sweden goes back to basics, swapping screens for books in the classroom</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/03/top_stories_04032026#story-47612601'>Sweden goes back to basics, swapping screens for books in the classroom</a>
  <a class='hn-top-story-link' href='https://undark.org/2026/04/01/sweden-schools-books/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>瑞典在校内实验减少屏幕使用，课堂以书本取代屏幕</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 771</span> <span class='hn-top-story-comments'>&#128172; 388</span> <span class='hn-top-story-tag'>Education</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 811</span> <span class='hn-top-story-comments'>&#128172; 398</span> <span class='hn-top-story-tag'>Education</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='461' data-hn-time='1775140132'>
-<span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='376' data-hn-time='1775153621'>
+<span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/02/top_stories_04022026#story-47615002'>Qwen3.6-Plus: Towards real world agents</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/03/top_stories_04032026#story-47618084'>Cursor 3</a>
+ <a class='hn-top-story-link' href='https://cursor.com/blog/cursor-3' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Cursor 3 发布</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 376</span> <span class='hn-top-story-comments'>&#128172; 304</span> <span class='hn-top-story-tag'>Programming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='501' data-hn-time='1775140132'>
+<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/03/top_stories_04032026#story-47615002'>Qwen3.6-Plus: Towards real world agents</a>
  <a class='hn-top-story-link' href='https://qwen.ai/blog?id=qwen3.6' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Qwen3.6-Plus：迈向现实世界的智能代理</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 461</span> <span class='hn-top-story-comments'>&#128172; 163</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 501</span> <span class='hn-top-story-comments'>&#128172; 176</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='354' data-hn-time='1775142525'>
-<span class='hn-top-story-rank'>9</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='388' data-hn-time='1775142525'>
+<span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/02/top_stories_04022026#story-47615490'>Artemis computer running two instances of MS outlook; they can't figure out why</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/03/top_stories_04032026#story-47615490'>Artemis computer running two instances of MS outlook; they can't figure out why</a>
  <a class='hn-top-story-link' href='https://bsky.app/profile/nikigrayson.com/post/3miik2wzosk25' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>阿提米斯 II 航天员发现两台 Outlook 实例在计算机上运行</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 354</span> <span class='hn-top-story-comments'>&#128172; 268</span> <span class='hn-top-story-tag'>Space</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.1</span> <span class='hn-top-story-score'>&#9650; 388</span> <span class='hn-top-story-comments'>&#128172; 292</span> <span class='hn-top-story-tag'>Space</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='335' data-hn-time='1775142284'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='497' data-hn-time='1775127891'>
+<span class='hn-top-story-rank'>9</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/03/top_stories_04032026#story-47612724'>Lemonade by AMD: a fast and open source local LLM server using GPU and NPU</a>
+ <a class='hn-top-story-link' href='https://lemonade-server.ai' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>AMD 的 Lemonade：一个使用 GPU/NPU 的快速开源本地 LLM 服务器</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.9</span> <span class='hn-top-story-score'>&#9650; 497</span> <span class='hn-top-story-comments'>&#128172; 107</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Hardware</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='344' data-hn-time='1775142284'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/02/top_stories_04022026#story-47615449'>Artemis II will use laser beams to live-stream 4K moon footage at 260 Mbps</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/03/top_stories_04032026#story-47615449'>Artemis II will use laser beams to live-stream 4K moon footage at 260 Mbps</a>
  <a class='hn-top-story-link' href='https://www.tomshardware.com/networking/artemis-ii-will-use-laser-beams-to-live-stream-4k-moon-footage-one-giant-step-beyond-the-s-band-radio-comms-of-the-apollo-era' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>阿提米斯 II 将用激光实现 4K 月球影像直播</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 335</span> <span class='hn-top-story-comments'>&#128172; 146</span> <span class='hn-top-story-tag'>Space</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.8</span> <span class='hn-top-story-score'>&#9650; 344</span> <span class='hn-top-story-comments'>&#128172; 146</span> <span class='hn-top-story-tag'>Space</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
-<a class='hn-top-stories-more' href='/hackernews/2026/04/02/top_stories_04022026'>View all trending stories &rarr;</a>
+<a class='hn-top-stories-more' href='/hackernews/2026/04/03/top_stories_04032026'>View all trending stories &rarr;</a>
 </div>
 </div>
 <div class='hn-index-section hn-podcast-section'>
@@ -168,10 +168,19 @@ Your browser does not support the audio element.
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 14 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-03-30 — 2026-04-02 <span class="hn-row-sep">·</span> 550 stories <span class="hn-row-sep">·</span> 4 days</span>
+<span class='hn-week-meta'>2026-03-30 — 2026-04-03 <span class="hn-row-sep">·</span> 599 stories <span class="hn-row-sep">·</span> 5 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
+<div class='hn-day-row'>
+<div class='hn-day-date'>2026-04-03 <span class='hn-day-weekday'>Fri</span></div>
+<div class='hn-day-stories'>
+<a class='hn-story-link' href='/hackernews/2026/04/03/top_stories_04032026'>
+<span class='hn-row-type hn-type-top'>Trending</span>
+<span class='hn-row-detail'>All <b>49</b> <span class="hn-row-sep">·</span> Programming <b>12</b> <span class="hn-row-sep">·</span> AI <b>7</b></span>
+</a>
+</div>
+</div>
 <div class='hn-day-row'>
 <div class='hn-day-date'>2026-04-02 <span class='hn-day-weekday'>Thu</span></div>
 <div class='hn-day-stories'>
@@ -551,7 +560,7 @@ Your browser does not support the audio element.
 <details class='hn-week-group'>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 10</span>
-<span class='hn-week-meta'>2026-03-04 — 2026-03-08 <span class="hn-row-sep">·</span> 750 stories <span class="hn-row-sep">·</span> 5 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
+<span class='hn-week-meta'>2026-03-05 — 2026-03-08 <span class="hn-row-sep">·</span> 600 stories <span class="hn-row-sep">·</span> 4 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
 </summary>
 <div class='hn-week-content'>
 <a class='hn-story-link hn-weekly-digest-link' href='/hackernews/weekly/2026-W10'>
@@ -608,19 +617,6 @@ Your browser does not support the audio element.
 <a class='hn-story-link' href='/hackernews/2026/03/05/top_stories_03052026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
 <span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>22</b> <span class="hn-row-sep">·</span> Programming <b>20</b></span>
-</a>
-</div>
-</div>
-<div class='hn-day-row'>
-<div class='hn-day-date'>2026-03-04 <span class='hn-day-weekday'>Wed</span></div>
-<div class='hn-day-stories'>
-<a class='hn-story-link' href='/hackernews/2026/03/04/best_stories_03042026'>
-<span class='hn-row-type hn-type-best'>Daily Best</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>12</b> <span class="hn-row-sep">·</span> Hardware <b>9</b></span>
-</a>
-<a class='hn-story-link' href='/hackernews/2026/03/04/top_stories_03042026'>
-<span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>24</b> <span class="hn-row-sep">·</span> AI <b>23</b></span>
 </a>
 </div>
 </div>
