@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>48</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>6828</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>47</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>46</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-04-04</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>48</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>6853</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>47</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>46</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-04-04</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='225' data-hn-time='1775298381'>
+<div class='hn-top-story-item' data-hn-score='407' data-hn-time='1775314106'>
 <span class='hn-top-story-rank'>1</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/04/top_stories_04042026#story-47639524'>Author of "Careless People" banned from saying anything negative about Meta</a>
+ <a class='hn-top-story-link' href='https://www.thetimes.com/uk/technology-uk/article/sarah-wynn-williams-careless-people-meta-nrffdfpmf' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>《Careless People》作者被禁言，不能对 Meta 提出负评</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 17</span> <span class='hn-top-story-score'>&#9650; 407</span> <span class='hn-top-story-comments'>&#128172; 278</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Culture</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='157' data-hn-time='1775321154'>
+<span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/04/top_stories_04042026#story-47640728'>Show HN: A game where you build a GPU</a>
+ <a class='hn-top-story-link' href='https://jaso1024.com/mvidia/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Show HN：一个组装显卡的游戏</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 14</span> <span class='hn-top-story-score'>&#9650; 157</span> <span class='hn-top-story-comments'>&#128172; 33</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Gaming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='209' data-hn-time='1775317150'>
+<span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/04/top_stories_04042026#story-47639976'>German men 18-45 need military permit to leave country for longer than 3 months</a>
+ <a class='hn-top-story-link' href='https://www.dw.com/en/german-men-need-military-permit-for-extended-stays-abroad/a-76662677' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>德国 18–45 岁男性出国超过 3 个月需军事许可</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 209</span> <span class='hn-top-story-comments'>&#128172; 259</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Legal</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='109' data-hn-time='1775321131'>
+<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/04/top_stories_04042026#story-47640722'>12,000 AI-generated blog posts added in a single commit</a>
+ <a class='hn-top-story-link' href='https://github.com/OneUptime/blog/commit/30cd2384794c897d95aca77d173db44af51ca849' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Show HN：一次提交中加入 12,000 篇 AI 生成的博客</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.4</span> <span class='hn-top-story-score'>&#9650; 109</span> <span class='hn-top-story-comments'>&#128172; 92</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='114' data-hn-time='1775319370'>
+<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/04/top_stories_04042026#story-47640380'>Apple approves driver that lets Nvidia eGPUs work with Arm Macs</a>
+ <a class='hn-top-story-link' href='https://www.theverge.com/tech/907003/apple-approves-driver-that-lets-nvidia-egpus-work-with-arm-macs' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Apple 批准驱动让 Nvidia eGPU 在 Arm Mac 上工作</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.9</span> <span class='hn-top-story-score'>&#9650; 114</span> <span class='hn-top-story-comments'>&#128172; 39</span> <span class='hn-top-story-tag'>Hardware</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='383' data-hn-time='1775298381'>
+<span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/04/04/top_stories_04042026#story-47637757'>Simple self-distillation improves code generation</a>
  <a class='hn-top-story-link' href='https://arxiv.org/abs/2604.01193' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>苹果：极其简单的自蒸馏提升代码生成</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.6</span> <span class='hn-top-story-score'>&#9650; 225</span> <span class='hn-top-story-comments'>&#128172; 66</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.8</span> <span class='hn-top-story-score'>&#9650; 383</span> <span class='hn-top-story-comments'>&#128172; 116</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='854' data-hn-time='1775256924'>
-<span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='30' data-hn-time='1775325175'>
+<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/04/top_stories_04042026#story-47641464'>Scientists capture how cells trigger inflammation</a>
+ <a class='hn-top-story-link' href='https://news.stanford.edu/stories/2026/03/immune-response-inside-cells-inflammation-research' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Scientists capture how cells trigger inflammation</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.7</span> <span class='hn-top-story-score'>&#9650; 30</span> <span class='hn-top-story-comments'>&#128172; 1</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Health</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='949' data-hn-time='1775256924'>
+<span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/04/04/top_stories_04042026#story-47633396'>Tell HN: Anthropic no longer allowing Claude Code subscriptions to use OpenClaw</a>
  <a class='hn-top-story-link' href='https://news.ycombinator.com/item?id=47633396' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>告知 HN：Anthropic 不再允许 Claude Code 订阅使用 OpenClaw</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.9</span> <span class='hn-top-story-score'>&#9650; 854</span> <span class='hn-top-story-comments'>&#128172; 660</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Startups</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.7</span> <span class='hn-top-story-score'>&#9650; 949</span> <span class='hn-top-story-comments'>&#128172; 731</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Legal</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='868' data-hn-time='1775244902'>
-<span class='hn-top-story-rank'>3</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/04/top_stories_04042026#story-47631118'>Artemis II crew take “spectacular” image of Earth</a>
- <a class='hn-top-story-link' href='https://www.bbc.com/news/articles/ce8jzr423p9o' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>阿尔忒弥斯二号任务组拍出壮观的地球照片</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 868</span> <span class='hn-top-story-comments'>&#128172; 296</span> <span class='hn-top-story-tag'>Space</span> <span class='hn-top-story-tag'>Science</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='397' data-hn-time='1775266622'>
-<span class='hn-top-story-rank'>4</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/04/top_stories_04042026#story-47634690'>Delve removed from Y Combinator</a>
- <a class='hn-top-story-link' href='https://www.ycombinator.com/companies/delve' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Delve 已从 YC 移除</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 397</span> <span class='hn-top-story-comments'>&#128172; 250</span> <span class='hn-top-story-tag'>Startups</span> <span class='hn-top-story-tag'>Business</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='470' data-hn-time='1775260592'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/04/top_stories_04042026#story-47633947'>The FAA’s flight restriction for drones is an attempt to criminalize filming ICE</a>
- <a class='hn-top-story-link' href='https://www.eff.org/deeplinks/2026/04/faas-temporary-flight-restriction-drones-blatant-attempt-criminalize-filming-ice' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>FAA 的无人机飞行限制试图将拍摄 ICE 刑事化</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 470</span> <span class='hn-top-story-comments'>&#128172; 152</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Privacy</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='55' data-hn-time='1775301870'>
-<span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/04/top_stories_04042026#story-47638075'>The CMS is dead. Long live the CMS</a>
- <a class='hn-top-story-link' href='https://next.jazzsequence.com/posts/the-cms-is-dead-long-live-the-cms' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>CMS 已死，CMS 万岁</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 55</span> <span class='hn-top-story-comments'>&#128172; 30</span> <span class='hn-top-story-tag'>Web</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='106' data-hn-time='1775293459'>
-<span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/04/top_stories_04042026#story-47637287'>Some Unusual Trees</a>
- <a class='hn-top-story-link' href='https://thoughts.wyounas.com/p/some-unusual-trees' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>一些不寻常的树木</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 106</span> <span class='hn-top-story-comments'>&#128172; 31</span> <span class='hn-top-story-tag'>Science</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='36' data-hn-time='1775303834'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/04/top_stories_04042026#story-47638246'>Jack Dorsey says Block employees now bring prototypes, not slides, to meetings</a>
- <a class='hn-top-story-link' href='https://www.businessinsider.com/block-ceo-jack-dorsey-bring-prototypes-not-slide-decks-meetings-2026-4' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Jack Dorsey 表示 Block 员工现在带原型去开会，而不是幻灯片</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.2</span> <span class='hn-top-story-score'>&#9650; 36</span> <span class='hn-top-story-comments'>&#128172; 25</span> <span class='hn-top-story-tag'>Business</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='232' data-hn-time='1775269832'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='34' data-hn-time='1775322389'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/04/top_stories_04042026#story-47635056'>Gold overtakes U.S. Treasuries as the largest foreign reserve asset</a>
- <a class='hn-top-story-link' href='https://economictimes.indiatimes.com/news/international/us/gold-overtakes-u-s-treasuries-as-the-worlds-largest-foreign-reserve-asset-in-2026-can-gold-challenge-the-u-s-dollars-dominance-and-hold-its-ground/articleshow/126420128.cms?from=mdr' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/04/top_stories_04042026#story-47640984'>Iran's Network of Cameras Bolsters Air Defenses, Expert Says</a>
+ <a class='hn-top-story-link' href='https://www.wsj.com/livecoverage/iran-war-news-2026/card/iran-s-network-of-cameras-bolsters-air-defenses-expert-says-IqjSSuOcGNrxzsrp52i8' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>黄金超过美国国债成为全球最大的外储资产</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 232</span> <span class='hn-top-story-comments'>&#128172; 179</span> <span class='hn-top-story-tag'>Finance</span></div>
+<div class='hn-top-story-zh'>伊朗摄像头网络增强防空能力，专家称</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 34</span> <span class='hn-top-story-comments'>&#128172; 11</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='727' data-hn-time='1775219625'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='43' data-hn-time='1775319654'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/04/top_stories_04042026#story-47625952'>Show HN: I built a frontpage for personal blogs</a>
- <a class='hn-top-story-link' href='https://text.blogosphere.app/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/04/top_stories_04042026#story-47640431'>What life looks like on the most remote inhabited island</a>
+ <a class='hn-top-story-link' href='https://apps.npr.org/life-on-tristan-da-cunha/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Show HN：我为个人博客搭建了一个前端首页</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.8</span> <span class='hn-top-story-score'>&#9650; 727</span> <span class='hn-top-story-comments'>&#128172; 186</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Web</span></div>
+<div class='hn-top-story-zh'>最偏远有人居岛屿的生活长啥样</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 43</span> <span class='hn-top-story-comments'>&#128172; 8</span> <span class='hn-top-story-tag'>Culture</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -168,7 +168,7 @@ Your browser does not support the audio element.
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 14 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-03-30 — 2026-04-04 <span class="hn-row-sep">·</span> 813 stories <span class="hn-row-sep">·</span> 6 days</span>
+<span class='hn-week-meta'>2026-03-30 — 2026-04-04 <span class="hn-row-sep">·</span> 838 stories <span class="hn-row-sep">·</span> 6 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -177,7 +177,7 @@ Your browser does not support the audio element.
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/04/04/top_stories_04042026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>63</b> <span class="hn-row-sep">·</span> Programming <b>16</b> <span class="hn-row-sep">·</span> AI <b>12</b></span>
+<span class='hn-row-detail'>All <b>88</b> <span class="hn-row-sep">·</span> AI <b>19</b> <span class="hn-row-sep">·</span> Programming <b>17</b></span>
 </a>
 </div>
 </div>
