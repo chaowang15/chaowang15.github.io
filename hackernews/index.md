@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>49</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>6984</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>48</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>47</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-04-05</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>49</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>7005</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>48</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>47</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-04-05</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,18 +20,18 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='131' data-hn-time='1775394878'>
+<div class='hn-top-story-item' data-hn-score='150' data-hn-time='1775404688'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/05/top_stories_04052026#story-47649117'>Someone at BrowserStack Is Leaking Users' Email Address</a>
- <a class='hn-top-story-link' href='https://shkspr.mobi/blog/2026/04/someone-at-browserstack-is-leaking-users-email-address/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/05/top_stories_04052026#story-47650726'>Codex is switching to API pricing based usage for all users</a>
+ <a class='hn-top-story-link' href='https://help.openai.com/en/articles/20001106-codex-rate-card' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>BrowserStack 内部人员泄露用户邮箱</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 15</span> <span class='hn-top-story-score'>&#9650; 131</span> <span class='hn-top-story-comments'>&#128172; 34</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>Codex 将对所有用户改为基于 API 调用的定价</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.2</span> <span class='hn-top-story-score'>&#9650; 150</span> <span class='hn-top-story-comments'>&#128172; 104</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='378' data-hn-time='1775383045'>
+<div class='hn-top-story-item' data-hn-score='646' data-hn-time='1775383045'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -39,43 +39,43 @@ Sort:
  <a class='hn-top-story-link' href='https://ergosphere.blog/posts/the-machines-are-fine/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>威胁来自对所做之事逐渐变得难以理解的舒适漂移</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 378</span> <span class='hn-top-story-comments'>&#128172; 287</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>DevOps</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.0</span> <span class='hn-top-story-score'>&#9650; 646</span> <span class='hn-top-story-comments'>&#128172; 445</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='119' data-hn-time='1775389693'>
+<div class='hn-top-story-item' data-hn-score='325' data-hn-time='1775394878'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/05/top_stories_04052026#story-47648404'>Sad Story of My Google Workspace Account Suspension</a>
- <a class='hn-top-story-link' href='https://zencapital.substack.com/p/sad-story-of-my-google-workspace' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/05/top_stories_04052026#story-47649117'>Someone at BrowserStack is leaking users' email addresses</a>
+ <a class='hn-top-story-link' href='https://shkspr.mobi/blog/2026/04/someone-at-browserstack-is-leaking-users-email-address/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>我的 Google Workspace 账户暂停的悲伤故事</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.0</span> <span class='hn-top-story-score'>&#9650; 119</span> <span class='hn-top-story-comments'>&#128172; 45</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-zh'>BrowserStack 内部人员泄露用户邮箱</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.8</span> <span class='hn-top-story-score'>&#9650; 325</span> <span class='hn-top-story-comments'>&#128172; 87</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='111' data-hn-time='1775390245'>
+<div class='hn-top-story-item' data-hn-score='239' data-hn-time='1775398692'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/05/top_stories_04052026#story-47648452'>Ubuntu now requires more RAM than Windows 11</a>
- <a class='hn-top-story-link' href='https://www.howtogeek.com/ubuntu-now-requires-more-ram-than-windows-11/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/05/top_stories_04052026#story-47649721'>Artemis II crew see first glimpse of far side of Moon [video]</a>
+ <a class='hn-top-story-link' href='https://www.bbc.com/news/videos/ce3d5gkd2geo' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Ubuntu 现在对 RAM 的需求超出 Windows 11</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.9</span> <span class='hn-top-story-score'>&#9650; 111</span> <span class='hn-top-story-comments'>&#128172; 121</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>阿耳忒弥斯二号任务组首次揭示月球背面画面</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.5</span> <span class='hn-top-story-score'>&#9650; 239</span> <span class='hn-top-story-comments'>&#128172; 166</span> <span class='hn-top-story-tag'>Space</span> <span class='hn-top-story-tag'>Science</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='236' data-hn-time='1775379378'>
+<div class='hn-top-story-item' data-hn-score='322' data-hn-time='1775393027'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/05/top_stories_04052026#story-47647455'>Talk like caveman</a>
- <a class='hn-top-story-link' href='https://github.com/JuliusBrussee/caveman' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/05/top_stories_04052026#story-47648828'>Eight years of wanting, three months of building with AI</a>
+ <a class='hn-top-story-link' href='https://lalitm.com/post/building-syntaqlite-ai/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>像穴居人一样说话</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.0</span> <span class='hn-top-story-score'>&#9650; 236</span> <span class='hn-top-story-comments'>&#128172; 166</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Design</span></div>
+<div class='hn-top-story-zh'>用 AI 耗时三个月打造 Syntaqlite AI，终成梦想</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.7</span> <span class='hn-top-story-score'>&#9650; 322</span> <span class='hn-top-story-comments'>&#128172; 100</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='38' data-hn-time='1775394876'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='217' data-hn-time='1775394876'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -83,51 +83,51 @@ Sort:
  <a class='hn-top-story-link' href='https://www.tandfonline.com/doi/full/10.1080/23328940.2026.2645467#abstract' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>芬兰桑拿高温暴露激发更强的免疫细胞反应</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.1</span> <span class='hn-top-story-score'>&#9650; 38</span> <span class='hn-top-story-comments'>&#128172; 5</span> <span class='hn-top-story-tag'>Health</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.8</span> <span class='hn-top-story-score'>&#9650; 217</span> <span class='hn-top-story-comments'>&#128172; 131</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Health</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='33' data-hn-time='1775395085'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='490' data-hn-time='1775379378'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/05/top_stories_04052026#story-47649148'>Iguanaworks has closed down. USB Infrared hardware open source maker</a>
- <a class='hn-top-story-link' href='http://iguanaworks.net/products/usb-ir-transceiver.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/05/top_stories_04052026#story-47647455'>Caveman: Why use many token when few token do trick</a>
+ <a class='hn-top-story-link' href='https://github.com/JuliusBrussee/caveman' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Iguanaworks 已关闭，USB 红外硬件开源制造商</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.7</span> <span class='hn-top-story-score'>&#9650; 33</span> <span class='hn-top-story-comments'>&#128172; 3</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-zh'>Caveman：为何用多 Token 不如用少 Token 就能完成任务</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.8</span> <span class='hn-top-story-score'>&#9650; 490</span> <span class='hn-top-story-comments'>&#128172; 258</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='717' data-hn-time='1775331583'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='258' data-hn-time='1775389693'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/05/top_stories_04052026#story-47642569'>How many products does Microsoft have named 'Copilot'?</a>
- <a class='hn-top-story-link' href='https://teybannerman.com/strategy/2026/03/31/how-many-microsoft-copilot-are-there.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/05/top_stories_04052026#story-47648404'>My Google Workspace account suspension</a>
+ <a class='hn-top-story-link' href='https://zencapital.substack.com/p/sad-story-of-my-google-workspace' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>微软有多少个以 Copilot 命名的产品？</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 717</span> <span class='hn-top-story-comments'>&#128172; 339</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>我的 Google Workspace 账户暂停的悲伤故事</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.1</span> <span class='hn-top-story-score'>&#9650; 258</span> <span class='hn-top-story-comments'>&#128172; 134</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='835' data-hn-time='1775321154'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='76' data-hn-time='1775401440'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/05/top_stories_04052026#story-47640728'>Show HN: A game where you build a GPU</a>
- <a class='hn-top-story-link' href='https://jaso1024.com/mvidia/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/05/top_stories_04052026#story-47650172'>Phone-free bars and restaurants on the rise across the U.S.</a>
+ <a class='hn-top-story-link' href='https://www.axios.com/2026/04/05/phone-free-restaurants-bars-bans-restrictions-offline' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Show HN：一个组装显卡的游戏</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 835</span> <span class='hn-top-story-comments'>&#128172; 169</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Gaming</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>美国各地越来越多的无手机酒吧与餐厅</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 76</span> <span class='hn-top-story-comments'>&#128172; 53</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Culture</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='159' data-hn-time='1775372239'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='64' data-hn-time='1775402281'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/05/top_stories_04052026#story-47646843'>Lisette a little language inspired by Rust that compiles to Go</a>
- <a class='hn-top-story-link' href='https://lisette.run/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/05/top_stories_04052026#story-47650312'>A tail-call interpreter in (nightly) Rust</a>
+ <a class='hn-top-story-link' href='https://www.mattkeeter.com/blog/2026-04-05-tailcall/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Lisette：一种受 Rust 启发、可编译成 Go 的小语言</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.7</span> <span class='hn-top-story-score'>&#9650; 159</span> <span class='hn-top-story-comments'>&#128172; 77</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>在 nightly Rust 中实现的尾调用解释器</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 64</span> <span class='hn-top-story-comments'>&#128172; 3</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -168,7 +168,7 @@ Your browser does not support the audio element.
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 14 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-03-30 — 2026-04-05 <span class="hn-row-sep">·</span> 969 stories <span class="hn-row-sep">·</span> 7 days</span>
+<span class='hn-week-meta'>2026-03-30 — 2026-04-05 <span class="hn-row-sep">·</span> 990 stories <span class="hn-row-sep">·</span> 7 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -177,7 +177,7 @@ Your browser does not support the audio element.
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/04/05/top_stories_04052026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>69</b> <span class="hn-row-sep">·</span> AI <b>18</b> <span class="hn-row-sep">·</span> Programming <b>15</b></span>
+<span class='hn-row-detail'>All <b>90</b> <span class="hn-row-sep">·</span> AI <b>20</b> <span class="hn-row-sep">·</span> Programming <b>20</b></span>
 </a>
 </div>
 </div>
