@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>50</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>7128</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>49</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>48</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-04-06</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>50</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>7145</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>49</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>48</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-04-06</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='133' data-hn-time='1775480021'>
+<div class='hn-top-story-item' data-hn-score='663' data-hn-time='1775485889'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/06/top_stories_04062026#story-47660286'>What Being Ripped Off Taught Me</a>
- <a class='hn-top-story-link' href='https://belief.horse/notes/what-being-ripped-off-taught-me/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>被坑教会了我什么</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 133</span> <span class='hn-top-story-comments'>&#128172; 86</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Legal</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='198' data-hn-time='1775472851'>
-<span class='hn-top-story-rank'>2</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/06/top_stories_04062026#story-47659252'>Is Germany's gold safe in New York ?</a>
- <a class='hn-top-story-link' href='https://www.dw.com/en/is-germanys-gold-safe-in-new-york/video-75766873' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>德国的黄金在纽约安全吗？</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.1</span> <span class='hn-top-story-score'>&#9650; 198</span> <span class='hn-top-story-comments'>&#128172; 187</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>Security</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='36' data-hn-time='1775485889'>
-<span class='hn-top-story-rank'>3</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/06/top_stories_04062026#story-47661439'>I Won't Download Your App. The Web Version Is A-OK</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/06/top_stories_04062026#story-47661439'>I won't download your app. The web version is a-ok</a>
  <a class='hn-top-story-link' href='https://www.0xsid.com/blog/wont-download-your-app' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>我不会下载你的应用，网页版本就够用了</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.9</span> <span class='hn-top-story-score'>&#9650; 36</span> <span class='hn-top-story-comments'>&#128172; 12</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 23</span> <span class='hn-top-story-score'>&#9650; 663</span> <span class='hn-top-story-comments'>&#128172; 364</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='378' data-hn-time='1775462623'>
+<div class='hn-top-story-item' data-hn-score='237' data-hn-time='1775492141'>
+<span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/06/top_stories_04062026#story-47662857'>81yo Dodgers fan can no longer get tickets because he doesn't have a smartphone</a>
+ <a class='hn-top-story-link' href='https://twitter.com/Suzierizzo1/status/2040864617467924865' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>81 岁道奇球迷因没有智能手机无法购票</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 15</span> <span class='hn-top-story-score'>&#9650; 237</span> <span class='hn-top-story-comments'>&#128172; 223</span> <span class='hn-top-story-tag'>Web</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='405' data-hn-time='1775483435'>
+<span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/06/top_stories_04062026#story-47660925'>Claude Code is unusable for complex engineering tasks with the Feb updates</a>
+ <a class='hn-top-story-link' href='https://github.com/anthropics/claude-code/issues/42796' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Claude Code 在二月更新后难以处理复杂工程任务</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 405</span> <span class='hn-top-story-comments'>&#128172; 289</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='98' data-hn-time='1775497058'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/06/top_stories_04062026#story-47658146'>France pulls last gold held in US for $15B gain</a>
- <a class='hn-top-story-link' href='https://www.mining.com/france-pulls-last-gold-held-in-us-for-15b-gain/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/06/top_stories_04062026#story-47664186'>Battle for Wesnoth: open-source, turn-based strategy game</a>
+ <a class='hn-top-story-link' href='https://www.wesnoth.org' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>法国从美国取回最后一批黄金，获利约150亿美元</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.6</span> <span class='hn-top-story-score'>&#9650; 378</span> <span class='hn-top-story-comments'>&#128172; 219</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Web</span></div>
+<div class='hn-top-story-zh'>Wesnoth：开源的回合制策略游戏</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 98</span> <span class='hn-top-story-comments'>&#128172; 18</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Gaming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='697' data-hn-time='1775434812'>
+<div class='hn-top-story-item' data-hn-score='78' data-hn-time='1775497110'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/06/top_stories_04062026#story-47655408'>Show HN: I built a tiny LLM to demystify how language models work</a>
- <a class='hn-top-story-link' href='https://github.com/arman-bd/guppylm' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/06/top_stories_04062026#story-47664205'>Adobe modifies hosts file to detect whether Creative Cloud is installed</a>
+ <a class='hn-top-story-link' href='https://www.osnews.com/story/144737/adobe-secretly-modifies-your-hosts-file-for-the-stupidest-reason/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Show HN：我构建了一个小型语言模型来揭示语言模型的工作原理</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.5</span> <span class='hn-top-story-score'>&#9650; 697</span> <span class='hn-top-story-comments'>&#128172; 99</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Show HN</span></div>
+<div class='hn-top-story-zh'>Adobe 修改 hosts 文件以检测 Creative Cloud 是否安装</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.1</span> <span class='hn-top-story-score'>&#9650; 78</span> <span class='hn-top-story-comments'>&#128172; 35</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='24' data-hn-time='1775483557'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='129' data-hn-time='1775489480'>
 <span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/06/top_stories_04062026#story-47662234'>A cryptography engineer's perspective on quantum computing timelines</a>
+ <a class='hn-top-story-link' href='https://words.filippo.io/crqc-timeline/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>量子计算时间线：一位密码学工程师的观点</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.1</span> <span class='hn-top-story-score'>&#9650; 129</span> <span class='hn-top-story-comments'>&#128172; 44</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Science</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='86' data-hn-time='1775493131'>
+<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/06/top_stories_04062026#story-47663147'>Launch HN: Freestyle: Sandboxes for AI Coding Agents</a>
+ <a class='hn-top-story-link' href='https://www.freestyle.sh' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Freestyle：用于AI编码代理的沙盒环境</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.9</span> <span class='hn-top-story-score'>&#9650; 86</span> <span class='hn-top-story-comments'>&#128172; 49</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='192' data-hn-time='1775483557'>
+<span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/04/06/top_stories_04062026#story-47660954'>Germany Doxes "UNKN," Head of RU Ransomware Gangs REvil, GandCrab</a>
  <a class='hn-top-story-link' href='https://krebsonsecurity.com/2026/04/germany-doxes-unkn-head-of-ru-ransomware-gangs-revil-gandcrab/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>德国公开 UNKN 等 RU 勒索团伙头目身份</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 24</span> <span class='hn-top-story-comments'>&#128172; 6</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Legal</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.7</span> <span class='hn-top-story-score'>&#9650; 192</span> <span class='hn-top-story-comments'>&#128172; 83</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Legal</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='743' data-hn-time='1775414753'>
-<span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/06/top_stories_04062026#story-47652561'>Gemma 4 on iPhone</a>
- <a class='hn-top-story-link' href='https://apps.apple.com/nl/app/google-ai-edge-gallery/id6749645337' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Gemma 4 在 iPhone 上</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 743</span> <span class='hn-top-story-comments'>&#128172; 210</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='87' data-hn-time='1775468357'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/06/top_stories_04062026#story-47658743'>Number in man page titles e.g. sleep(3)</a>
- <a class='hn-top-story-link' href='https://lalitm.com/til-number-in-man-page-titles-e-g-sleep-3/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>手册页标题中的数字，例如 sleep(3)</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 87</span> <span class='hn-top-story-comments'>&#128172; 36</span> <span class='hn-top-story-tag'>Programming</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='647' data-hn-time='1775413787'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='226' data-hn-time='1775480021'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/06/top_stories_04062026#story-47652400'>Why Switzerland has 25 Gbit internet and America doesn't</a>
- <a class='hn-top-story-link' href='https://sschueller.github.io/posts/the-free-market-lie/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/06/top_stories_04062026#story-47660286'>What being ripped off taught me</a>
+ <a class='hn-top-story-link' href='https://belief.horse/notes/what-being-ripped-off-taught-me/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>自由市场的谎言：瑞士为何有25 Gbit互联网，美国却没有</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 647</span> <span class='hn-top-story-comments'>&#128172; 521</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>DevOps</span></div>
+<div class='hn-top-story-zh'>被坑教会了我什么</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.3</span> <span class='hn-top-story-score'>&#9650; 226</span> <span class='hn-top-story-comments'>&#128172; 138</span> <span class='hn-top-story-tag'>Startups</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='44' data-hn-time='1775475543'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='26' data-hn-time='1775500263'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/06/top_stories_04062026#story-47659609'>Tiny Corp's Exabox</a>
- <a class='hn-top-story-link' href='https://twitter.com/__tinygrad__/status/2040944508402360592' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/06/top_stories_04062026#story-47664912'>The Cult of Vibe Coding Is Insane</a>
+ <a class='hn-top-story-link' href='https://bramcohen.com/p/the-cult-of-vibe-coding-is-insane' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Tiny Corp 的 Exabox</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.2</span> <span class='hn-top-story-score'>&#9650; 44</span> <span class='hn-top-story-comments'>&#128172; 12</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>Vibe 编码风潮简直疯狂</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.1</span> <span class='hn-top-story-score'>&#9650; 26</span> <span class='hn-top-story-comments'>&#128172; 2</span> <span class='hn-top-story-tag'>Culture</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -168,7 +168,7 @@ Your browser does not support the audio element.
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 15 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-04-06 <span class="hn-row-sep">·</span> 63 stories <span class="hn-row-sep">·</span> 1 days</span>
+<span class='hn-week-meta'>2026-04-06 <span class="hn-row-sep">·</span> 80 stories <span class="hn-row-sep">·</span> 1 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -177,7 +177,7 @@ Your browser does not support the audio element.
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/04/06/top_stories_04062026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>63</b> <span class="hn-row-sep">·</span> Programming <b>18</b> <span class="hn-row-sep">·</span> AI <b>15</b></span>
+<span class='hn-row-detail'>All <b>80</b> <span class="hn-row-sep">·</span> Programming <b>21</b> <span class="hn-row-sep">·</span> AI <b>18</b></span>
 </a>
 </div>
 </div>
