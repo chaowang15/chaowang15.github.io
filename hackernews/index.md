@@ -20,7 +20,7 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='152' data-hn-time='1775585374'>
+<div class='hn-top-story-item' data-hn-score='679' data-hn-time='1775585374'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -28,10 +28,10 @@ Sort:
  <a class='hn-top-story-link' href='https://www.anthropic.com/glasswing' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>玻璃翼计划：为AI时代的关键软件提供安全防护</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 22</span> <span class='hn-top-story-score'>&#9650; 152</span> <span class='hn-top-story-comments'>&#128172; 50</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 24</span> <span class='hn-top-story-score'>&#9650; 679</span> <span class='hn-top-story-comments'>&#128172; 285</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='113' data-hn-time='1775585916'>
+<div class='hn-top-story-item' data-hn-score='437' data-hn-time='1775585916'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -39,10 +39,10 @@ Sort:
  <a class='hn-top-story-link' href='https://www-cdn.anthropic.com/53566bf5440a10affd749724787c8913a2ae0841.pdf' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>系统卡：Claude Mythos 预览版 [PDF]</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 18</span> <span class='hn-top-story-score'>&#9650; 113</span> <span class='hn-top-story-comments'>&#128172; 42</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 16</span> <span class='hn-top-story-score'>&#9650; 437</span> <span class='hn-top-story-comments'>&#128172; 303</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='220' data-hn-time='1775579535'>
+<div class='hn-top-story-item' data-hn-score='357' data-hn-time='1775579535'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -50,84 +50,84 @@ Sort:
  <a class='hn-top-story-link' href='https://z.ai/blog/glm-5.1' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>GLM-5.1：迈向长时域任务</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 14</span> <span class='hn-top-story-score'>&#9650; 220</span> <span class='hn-top-story-comments'>&#128172; 64</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.5</span> <span class='hn-top-story-score'>&#9650; 357</span> <span class='hn-top-story-comments'>&#128172; 106</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='99' data-hn-time='1775582623'>
+<div class='hn-top-story-item' data-hn-score='222' data-hn-time='1775585491'>
 <span class='hn-top-story-rank'>4</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/07/top_stories_04072026#story-47678573'>Cambodia unveils a statue of famous landmine-sniffing rat Magawa</a>
- <a class='hn-top-story-link' href='https://www.bbc.com/news/articles/c0rx7xzd10xo' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>柬埔寨揭幕著名排雷鼠 Magawa 雕像</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.5</span> <span class='hn-top-story-score'>&#9650; 99</span> <span class='hn-top-story-comments'>&#128172; 15</span> <span class='hn-top-story-tag'>Science</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='590' data-hn-time='1775560064'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/07/top_stories_04072026#story-47673360'>Show HN: Brutalist Concrete Laptop Stand (2024)</a>
- <a class='hn-top-story-link' href='https://sam-burns.com/posts/concrete-laptop-stand/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Show HN：极简混凝土笔记本支架（2024）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.4</span> <span class='hn-top-story-score'>&#9650; 590</span> <span class='hn-top-story-comments'>&#128172; 188</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Hardware</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='176' data-hn-time='1775576836'>
-<span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/07/top_stories_04072026#story-47677142'>12k Tons of Dumped Orange Peel Grew into a Landscape Nobody Expected (2017)</a>
- <a class='hn-top-story-link' href='https://www.sciencealert.com/how-12-000-tonnes-of-dumped-orange-peel-produced-something-nobody-imagined' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>12,000 吨被堆成的橙皮竟然创造出意想不到的景观（2017）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.8</span> <span class='hn-top-story-score'>&#9650; 176</span> <span class='hn-top-story-comments'>&#128172; 55</span> <span class='hn-top-story-tag'>Science</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='202' data-hn-time='1775574263'>
-<span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/07/top_stories_04072026#story-47676521'>Claude Code is locking people out for hours</a>
- <a class='hn-top-story-link' href='https://github.com/anthropics/claude-code/issues/44257' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Claude Code 竟然会锁定用户数小时</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.0</span> <span class='hn-top-story-score'>&#9650; 202</span> <span class='hn-top-story-comments'>&#128172; 274</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='314' data-hn-time='1775568185'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/07/top_stories_04072026#story-47675013'>Dropping Cloudflare for Bunny.net</a>
- <a class='hn-top-story-link' href='https://jola.dev/posts/dropping-cloudflare' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>放弃 Cloudflare 改用 Bunny.net</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.0</span> <span class='hn-top-story-score'>&#9650; 314</span> <span class='hn-top-story-comments'>&#128172; 154</span> <span class='hn-top-story-tag'>Web</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='152' data-hn-time='1775577256'>
-<span class='hn-top-story-rank'>9</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/07/top_stories_04072026#story-47677241'>Good Taste the Only Real Moat Left</a>
- <a class='hn-top-story-link' href='https://rajnandan.com/posts/taste-in-the-age-of-ai-and-llms/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>在 AI 时代，良好品味是唯一真正的护城河</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.9</span> <span class='hn-top-story-score'>&#9650; 152</span> <span class='hn-top-story-comments'>&#128172; 127</span> <span class='hn-top-story-tag'>Culture</span> <span class='hn-top-story-tag'>Design</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='43' data-hn-time='1775585491'>
-<span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/04/07/top_stories_04072026#story-47679155'>Assessing Claude Mythos Preview's cybersecurity capabilities</a>
  <a class='hn-top-story-link' href='https://red.anthropic.com/2026/mythos-preview/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>评估 Claude Mythos 预览版的网络安全能力</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.3</span> <span class='hn-top-story-score'>&#9650; 43</span> <span class='hn-top-story-comments'>&#128172; 3</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.0</span> <span class='hn-top-story-score'>&#9650; 222</span> <span class='hn-top-story-comments'>&#128172; 28</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='127' data-hn-time='1775591041'>
+<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/07/top_stories_04072026#story-47680404'>S3 Files</a>
+ <a class='hn-top-story-link' href='https://www.allthingsdistributed.com/2026/04/s3-files-and-the-changing-face-of-s3.html' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>S3 文件与 S3 的新面貌</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.6</span> <span class='hn-top-story-score'>&#9650; 127</span> <span class='hn-top-story-comments'>&#128172; 33</span> <span class='hn-top-story-tag'>Data</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='222' data-hn-time='1775582623'>
+<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/07/top_stories_04072026#story-47678573'>Cambodia unveils a statue of famous landmine-sniffing rat Magawa</a>
+ <a class='hn-top-story-link' href='https://www.bbc.com/news/articles/c0rx7xzd10xo' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>柬埔寨揭幕著名排雷鼠 Magawa 雕像</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.5</span> <span class='hn-top-story-score'>&#9650; 222</span> <span class='hn-top-story-comments'>&#128172; 49</span> <span class='hn-top-story-tag'>Science</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='671' data-hn-time='1775560064'>
+<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/07/top_stories_04072026#story-47673360'>Show HN: Brutalist Concrete Laptop Stand (2024)</a>
+ <a class='hn-top-story-link' href='https://sam-burns.com/posts/concrete-laptop-stand/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Show HN：极简混凝土笔记本支架（2024）</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.3</span> <span class='hn-top-story-score'>&#9650; 671</span> <span class='hn-top-story-comments'>&#128172; 208</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Hardware</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='90' data-hn-time='1775590625'>
+<span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/07/top_stories_04072026#story-47680309'>Show HN: Gemma 4 Multimodal Fine-Tuner for Apple Silicon</a>
+ <a class='hn-top-story-link' href='https://github.com/mattmireles/gemma-tuner-multimodal' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Gemma 4：Apple Silicon 的多模态微调器</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.1</span> <span class='hn-top-story-score'>&#9650; 90</span> <span class='hn-top-story-comments'>&#128172; 7</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='251' data-hn-time='1775576836'>
+<span class='hn-top-story-rank'>9</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/07/top_stories_04072026#story-47677142'>12k Tons of Dumped Orange Peel Grew into a Landscape Nobody Expected (2017)</a>
+ <a class='hn-top-story-link' href='https://www.sciencealert.com/how-12-000-tonnes-of-dumped-orange-peel-produced-something-nobody-imagined' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>12,000 吨被堆成的橙皮竟然创造出意想不到的景观（2017）</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.1</span> <span class='hn-top-story-score'>&#9650; 251</span> <span class='hn-top-story-comments'>&#128172; 98</span> <span class='hn-top-story-tag'>Science</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='361' data-hn-time='1775568185'>
+<span class='hn-top-story-rank'>10</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/07/top_stories_04072026#story-47675013'>Dropping Cloudflare for Bunny.net</a>
+ <a class='hn-top-story-link' href='https://jola.dev/posts/dropping-cloudflare' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>放弃 Cloudflare 改用 Bunny.net</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.7</span> <span class='hn-top-story-score'>&#9650; 361</span> <span class='hn-top-story-comments'>&#128172; 187</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -177,7 +177,7 @@ Your browser does not support the audio element.
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/04/07/top_stories_04072026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>30</b> <span class="hn-row-sep">·</span> AI <b>24</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>28</b> <span class="hn-row-sep">·</span> AI <b>24</b></span>
 </a>
 </div>
 </div>
