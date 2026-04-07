@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>51</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>7264</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>50</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>49</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-04-07</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>51</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>7293</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>50</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>49</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-04-07</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='1008' data-hn-time='1775483435'>
+<div class='hn-top-story-item' data-hn-score='150' data-hn-time='1775568185'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/07/top_stories_04072026#story-47660925'>Issue: Claude Code is unusable for complex engineering tasks with Feb updates</a>
- <a class='hn-top-story-link' href='https://github.com/anthropics/claude-code/issues/42796' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/07/top_stories_04072026#story-47675013'>Dropping Cloudflare for Bunny.net</a>
+ <a class='hn-top-story-link' href='https://jola.dev/posts/dropping-cloudflare' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Claude Code 在二月更新后难以处理复杂工程任务</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.6</span> <span class='hn-top-story-score'>&#9650; 1008</span> <span class='hn-top-story-comments'>&#128172; 567</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>放弃 Cloudflare 改用 Bunny.net</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 14</span> <span class='hn-top-story-score'>&#9650; 150</span> <span class='hn-top-story-comments'>&#128172; 68</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>DevOps</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='1278' data-hn-time='1775471817'>
+<div class='hn-top-story-item' data-hn-score='247' data-hn-time='1775560064'>
 <span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/07/top_stories_04072026#story-47673360'>Show HN: Brutalist Concrete Laptop Stand (2024)</a>
+ <a class='hn-top-story-link' href='https://sam-burns.com/posts/concrete-laptop-stand/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Show HN：极简混凝土笔记本支架（2024）</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.7</span> <span class='hn-top-story-score'>&#9650; 247</span> <span class='hn-top-story-comments'>&#128172; 111</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Design</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='221' data-hn-time='1775557512'>
+<span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/07/top_stories_04072026#story-47673005'>We found an undocumented bug in the Apollo 11 guidance computer code</a>
+ <a class='hn-top-story-link' href='https://www.juxt.pro/blog/a-bug-on-the-dark-side-of-the-moon/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>我们在阿波罗11号制导计算机代码中发现了未记录的漏洞</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.1</span> <span class='hn-top-story-score'>&#9650; 221</span> <span class='hn-top-story-comments'>&#128172; 121</span> <span class='hn-top-story-tag'>Space</span> <span class='hn-top-story-tag'>Science</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='143' data-hn-time='1775561342'>
+<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/07/top_stories_04072026#story-47673541'>AI may be making us think and write more alike</a>
+ <a class='hn-top-story-link' href='https://dornsife.usc.edu/news/stories/ai-may-be-making-us-think-and-write-more-alike/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>AI 可能让我们思考和写作更加趋同</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.2</span> <span class='hn-top-story-score'>&#9650; 143</span> <span class='hn-top-story-comments'>&#128172; 135</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Education</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='150' data-hn-time='1775560337'>
+<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/07/top_stories_04072026#story-47673394'>Show HN: Stop paying for Dropbox/Google Drive, use your own S3 bucket instead</a>
+ <a class='hn-top-story-link' href='https://locker.dev' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Stop paying for Dropbox/Google Drive，改用自有 S3 存储</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.0</span> <span class='hn-top-story-score'>&#9650; 150</span> <span class='hn-top-story-comments'>&#128172; 126</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>DevOps</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='206' data-hn-time='1775551097'>
+<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/07/top_stories_04072026#story-47672295'>Every GPU That Mattered</a>
+ <a class='hn-top-story-link' href='https://sheets.works/data-viz/every-gpu' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>每一代都重要的显卡</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.3</span> <span class='hn-top-story-score'>&#9650; 206</span> <span class='hn-top-story-comments'>&#128172; 113</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='69' data-hn-time='1775564879'>
+<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/07/top_stories_04072026#story-47674234'>"The new Copilot app for Windows 11 is really just Microsoft Edge"</a>
+ <a class='hn-top-story-link' href='https://twitter.com/TheBobPony/status/2041112541909205001' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>新版 Copilot 应用其实就是 Microsoft Edge</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 69</span> <span class='hn-top-story-comments'>&#128172; 45</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='73' data-hn-time='1775563935'>
+<span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/07/top_stories_04072026#story-47674027'>Show HN: A cartographer's attempt to realistically map Tolkien's world</a>
+ <a class='hn-top-story-link' href='https://www.intofarlands.com/atlasofarda' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>绘制托尔金世界的现实世界地图尝试</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 73</span> <span class='hn-top-story-comments'>&#128172; 13</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Design</span> <span class='hn-top-story-tag'>Data</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1713' data-hn-time='1775471817'>
+<span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/04/07/top_stories_04072026#story-47659135'>Sam Altman may control our future – can he be trusted?</a>
  <a class='hn-top-story-link' href='https://www.newyorker.com/magazine/2026/04/13/sam-altman-may-control-our-future-can-he-be-trusted' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>萨姆·奥特曼可能掌控我们的未来——能被信任吗？</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.5</span> <span class='hn-top-story-score'>&#9650; 1278</span> <span class='hn-top-story-comments'>&#128172; 495</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 1713</span> <span class='hn-top-story-comments'>&#128172; 707</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='541' data-hn-time='1775500263'>
-<span class='hn-top-story-rank'>3</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/07/top_stories_04072026#story-47664912'>The cult of vibe coding is dogfooding run amok</a>
- <a class='hn-top-story-link' href='https://bramcohen.com/p/the-cult-of-vibe-coding-is-insane' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>氛围编码的崇拜：自我喂养文化失控</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 541</span> <span class='hn-top-story-comments'>&#128172; 454</span> <span class='hn-top-story-tag'>Culture</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='465' data-hn-time='1775497058'>
-<span class='hn-top-story-rank'>4</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/07/top_stories_04072026#story-47664186'>Battle for Wesnoth: open-source, turn-based strategy game</a>
- <a class='hn-top-story-link' href='https://www.wesnoth.org' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Wesnoth：开源的回合制策略游戏</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 465</span> <span class='hn-top-story-comments'>&#128172; 127</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Gaming</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='353' data-hn-time='1775505016'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/07/top_stories_04072026#story-47666024'>Show HN: Ghost Pepper – Local hold-to-talk speech-to-text for macOS</a>
- <a class='hn-top-story-link' href='https://github.com/matthartman/ghost-pepper' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Show HN：Ghost Pepper——本地按住说话的语音转文本（macOS）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 353</span> <span class='hn-top-story-comments'>&#128172; 161</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Privacy</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='231' data-hn-time='1775512328'>
-<span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/07/top_stories_04072026#story-47667717'>Anthropic expands partnership with Google and Broadcom for next-gen compute</a>
- <a class='hn-top-story-link' href='https://www.anthropic.com/news/google-broadcom-partnership-compute' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Anthropic 拓展与 Google 与 Broadcom 的下一代算力合作</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.7</span> <span class='hn-top-story-score'>&#9650; 231</span> <span class='hn-top-story-comments'>&#128172; 99</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>DevOps</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='178' data-hn-time='1775517808'>
-<span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/07/top_stories_04072026#story-47668727'>After 20 years I turned off Google Adsense for my websites (2025)</a>
- <a class='hn-top-story-link' href='https://blog.ericgoldman.org/archives/2025/06/after-20-years-i-turned-off-google-adsense-for-my-websites.htm' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>二十年后我关闭了 Google AdSense（2025）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 178</span> <span class='hn-top-story-comments'>&#128172; 118</span> <span class='hn-top-story-tag'>Business</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='440' data-hn-time='1775489480'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/07/top_stories_04072026#story-47662234'>A cryptography engineer's perspective on quantum computing timelines</a>
- <a class='hn-top-story-link' href='https://words.filippo.io/crqc-timeline/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>量子计算时间线：一位密码学工程师的观点</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 440</span> <span class='hn-top-story-comments'>&#128172; 179</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Science</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='113' data-hn-time='1775522881'>
-<span class='hn-top-story-rank'>9</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/07/top_stories_04072026#story-47669337'>Solod – A subset of Go that translates to C</a>
- <a class='hn-top-story-link' href='https://github.com/solod-dev/solod' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Solod：把 Go 的子集转译成 C 的工具</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.2</span> <span class='hn-top-story-score'>&#9650; 113</span> <span class='hn-top-story-comments'>&#128172; 28</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Open Source</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='294' data-hn-time='1775497110'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='113' data-hn-time='1775556505'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/07/top_stories_04072026#story-47664205'>Adobe modifies hosts file to detect whether Creative Cloud is installed</a>
- <a class='hn-top-story-link' href='https://www.osnews.com/story/144737/adobe-secretly-modifies-your-hosts-file-for-the-stupidest-reason/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/07/top_stories_04072026#story-47672884'>Identify a London Underground Line just by listening to it</a>
+ <a class='hn-top-story-link' href='https://tubesoundquiz.com/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Adobe 修改 hosts 文件以检测 Creative Cloud 是否安装</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 294</span> <span class='hn-top-story-comments'>&#128172; 142</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>只凭声音辨识伦敦地铁线</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 113</span> <span class='hn-top-story-comments'>&#128172; 32</span> <span class='hn-top-story-tag'>Gaming</span> <span class='hn-top-story-tag'>Culture</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -168,7 +168,7 @@ Your browser does not support the audio element.
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 15 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-04-06 — 2026-04-07 <span class="hn-row-sep">·</span> 199 stories <span class="hn-row-sep">·</span> 2 days</span>
+<span class='hn-week-meta'>2026-04-06 — 2026-04-07 <span class="hn-row-sep">·</span> 228 stories <span class="hn-row-sep">·</span> 2 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -177,7 +177,7 @@ Your browser does not support the audio element.
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/04/07/top_stories_04072026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>49</b> <span class="hn-row-sep">·</span> Programming <b>13</b> <span class="hn-row-sep">·</span> AI <b>9</b></span>
+<span class='hn-row-detail'>All <b>78</b> <span class="hn-row-sep">·</span> Programming <b>22</b> <span class="hn-row-sep">·</span> AI <b>15</b></span>
 </a>
 </div>
 </div>
