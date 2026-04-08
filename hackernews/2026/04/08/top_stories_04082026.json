@@ -4,21 +4,135 @@
     "source": "https://news.ycombinator.com/",
     "api": "https://github.com/HackerNews/API",
     "count_requested": 50,
-    "count_written": 49,
-    "reused_same_day": 0,
-    "reused_cross_day": 37,
-    "new_llm_enriched": 12,
-    "scrape_time_display": "00:45, April 08, 2026 (PDT)",
+    "count_written": 71,
+    "reused_same_day": 27,
+    "reused_cross_day": 0,
+    "new_llm_enriched": 19,
+    "scrape_time_display": "08:10, April 08, 2026 (PDT)",
     "timezone": "America/Los_Angeles",
     "date_dir": "2026/04/08",
     "content_date": "2026-04-08",
-    "run_time_local": "00:45, April 08, 2026 (PDT)",
-    "run_time_utc": "2026-04-08 07:45:20 UTC",
+    "run_time_local": "08:10, April 08, 2026 (PDT)",
+    "run_time_utc": "2026-04-08 15:10:50 UTC",
     "incremental": true,
     "stories_max": 100,
-    "hot_score_time_utc": "2026-04-08 07:46:31 UTC"
+    "hot_score_time_utc": "2026-04-08 15:12:18 UTC"
   },
   "items": [
+    {
+      "title_en": "Git commands I run before reading any code",
+      "url": "https://piechowski.io/post/git-commands-before-reading-code/",
+      "title_zh": "在读代码前我会执行的 Git 命令",
+      "created_display": "Created: Apr 08, 2026 / 01:53 PT",
+      "image_url": "https://piechowski.io/post/git-commands-before-reading-code/cover_hu3f66e25b7571f7e32d40f355f31a2ca9_56928_1200x630_resize_box_2.png",
+      "summary_en": "Before diving into a codebase, I run a concise set of Git commands to map the repo’s history, structure, and hotspots. The routine surfaces remotes, recent commits, file changes, and likely entry points, helping you jump straight to meaningful parts.",
+      "summary_zh": "在进入代码库前，作者先执行一小组 Git 命令来快速梳理历史、结构与关键区域。这个流程能快速显示远端、最近提交、改动文件以及潜在入口点，帮助开发者直接进入重点代码。",
+      "hn": {
+        "id": 47687273,
+        "type": "story",
+        "by": "grepsedawk",
+        "score": 844,
+        "descendants": 186,
+        "time": 1775638422,
+        "comments_url": "https://news.ycombinator.com/item?id=47687273"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 18.64
+    },
+    {
+      "title_en": "US cities are axing Flock Safety surveillance technology",
+      "url": "https://www.cnet.com/home/security/when-flock-comes-to-town-why-cities-are-axing-the-controversial-surveillance-technology/",
+      "title_zh": "美国城市正在削减Flock Safety监控技术",
+      "created_display": "Created: Apr 08, 2026 / 05:26 PT",
+      "image_url": "https://www.cnet.com/a/img/resize/d9a1ad1c04f1050acee2847bf47c758d40ea0122/hub/2026/03/30/20f18d29-c3e9-47d3-8467-1a0ba718fa78/flock-surveillance.png?auto=webp&fit=crop&height=675&width=1200",
+      "summary_en": "Multiple U.S. cities are dropping Flock Safety license-plate surveillance programs amid privacy and civil-liberties concerns. The move underscores the tension between public safety aims and individual rights in a surveillance-heavy era.",
+      "summary_zh": "多座美国城市在隐私与公民自由关注下撤回Flock Safety的车牌监控项目。这一举措凸显了在高强度监控时代，公共安全目标与个人权利之间的张力。",
+      "hn": {
+        "id": 47689237,
+        "type": "story",
+        "by": "giuliomagnifico",
+        "score": 221,
+        "descendants": 111,
+        "time": 1775651174,
+        "comments_url": "https://news.ycombinator.com/item?id=47689237"
+      },
+      "hot_score": 13.23,
+      "tags": [
+        "Privacy"
+      ]
+    },
+    {
+      "title_en": "Veracrypt project update",
+      "url": "https://sourceforge.net/p/veracrypt/discussion/general/thread/9620d7a4b3/",
+      "title_zh": "Veracrypt 项目更新",
+      "created_display": "Created: Apr 08, 2026 / 00:23 PT",
+      "image_url": "https://a.fsdn.com/con/images/sandiego/sf-logo-full.svg",
+      "summary_en": "The VeraCrypt project provides an update on ongoing maintenance, security fixes, and platform compatibility efforts. The note signals continued commitment to open-source disk encryption, even as development pace remains measured.",
+      "summary_zh": "VeraCrypt 项目发布关于持续维护、安全改进和跨平台支持的更新。尽管进展较为克制，仍表明对开源磁盘加密的长期承诺以及提升用户使用安全性的努力。",
+      "hn": {
+        "id": 47686549,
+        "type": "story",
+        "by": "super256",
+        "score": 677,
+        "descendants": 222,
+        "time": 1775633019,
+        "comments_url": "https://news.ycombinator.com/item?id=47686549"
+      },
+      "tags": [
+        "Open Source",
+        "Security"
+      ],
+      "hot_score": 11.09
+    },
+    {
+      "title_en": "MegaTrain: Full Precision Training of 100B+ Parameter LLMs on a Single GPU",
+      "url": "https://arxiv.org/abs/2604.05091",
+      "title_zh": "MegaTrain：在单个GPU上对1000亿以上参数的LLM进行全精度训练",
+      "created_display": "Created: Apr 08, 2026 / 05:19 PT",
+      "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "summary_en": "Researchers claim to enable full-precision training of models with 100B+ parameters on a single GPU, likely via novel memory management and offload strategies. If real, this could lower the hardware barrier to ultra-large models, but raises questions about training speed, energy use, and practicality in real workloads.",
+      "summary_zh": "这项研究声称可在单个GPU上对1000亿以上参数的模型进行全精度训练，可能依赖创新的内存管理与数据分流。若属实，将降低超大模型的硬件门槛，但也引发训练速度、能耗与实际可行性的问题。",
+      "hn": {
+        "id": 47689174,
+        "type": "story",
+        "by": "chrsw",
+        "score": 116,
+        "descendants": 23,
+        "time": 1775650740,
+        "comments_url": "https://news.ycombinator.com/item?id=47689174"
+      },
+      "hot_score": 6.61,
+      "tags": [
+        "AI",
+        "Hardware",
+        "Energy"
+      ]
+    },
+    {
+      "title_en": "Škoda DuoBell: A bicycle bell that penetrates noise-cancelling headphones",
+      "url": "https://www.skoda-storyboard.com/en/skoda-world/skoda-duobell-a-bicycle-bell-that-outsmarts-even-smart-headphones/",
+      "title_zh": "Škoda DuoBell：一枚能穿透降噪耳机的自行车铃",
+      "created_display": "Created: Apr 08, 2026 / 01:50 PT",
+      "image_url": "https://cdn.skoda-storyboard.com/2025/07/kim_2ee84de4.png",
+      "summary_en": "Škoda's DuoBell uses an audible signal designed to cut through active noise cancellation, ensuring cyclists are noticed. It highlights practical hardware design for urban mobility and how audible cues interact with consumer audio tech.",
+      "summary_zh": "Škoda 的 DuoBell 设计成在主动降噪耳机下仍能发出清晰声音，确保骑行者被听见。该产品凸显城市出行的实用硬件设计，以及可听信号与消费级音频技术的互动。",
+      "hn": {
+        "id": 47687248,
+        "type": "story",
+        "by": "ra",
+        "score": 256,
+        "descendants": 345,
+        "time": 1775638237,
+        "comments_url": "https://news.ycombinator.com/item?id=47687248"
+      },
+      "tags": [
+        "Hardware",
+        "Design"
+      ],
+      "hot_score": 5.58
+    },
     {
       "title_en": "Project Glasswing: Securing critical software for the AI era",
       "url": "https://www.anthropic.com/glasswing",
@@ -31,8 +145,8 @@
         "id": 47679121,
         "type": "story",
         "by": "Ryan5453",
-        "score": 1210,
-        "descendants": 581,
+        "score": 1411,
+        "descendants": 729,
         "time": 1775585374,
         "comments_url": "https://news.ycombinator.com/item?id=47679121"
       },
@@ -40,95 +154,54 @@
         "Security",
         "AI"
       ],
-      "hot_score": 8.59
+      "hot_score": 4.97
     },
     {
-      "title_en": "Sonnet 4.6 Elevated Rate of Errors",
-      "url": "https://status.claude.com/incidents/lhws0phdvzz3",
-      "title_zh": "Sonnet 4.6：错误率提升",
-      "created_display": "Created: Apr 07, 2026 / 23:34 PT",
-      "image_url": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png",
-      "summary_en": "Status page notes an elevated error rate for Sonnet 4.6, indicating an outage or degraded performance in the Claude service line. The incident underscores the fragility of AI services and the importance of operational resilience and incident response.",
-      "summary_zh": "状态页显示 Sonnet 4.6 的错误率上升，表明 Claude 服务出现中断或性能下降。此次事件凸显 AI 服务的易损性，以及建立运维韧性和有效应急机制的重要性。",
+      "title_en": "Show HN: We fingerprinted 178 AI models' writing styles and similarity clusters",
+      "url": "https://rival.tips/research/model-similarity",
+      "title_zh": "Show HN：我们对178个AI模型的写作风格进行指纹识别并聚类",
+      "created_display": "Created: Apr 08, 2026 / 07:06 PT",
+      "image_url": null,
+      "summary_en": "The project fingerprints writing styles across 178 AI models and clusters them by similarity. This helps with model attribution and provenance checks, and could aid in detecting model reuse, though it also raises concerns about privacy and misuse.",
+      "summary_zh": "该工作对178个AI模型的写作风格进行指纹提取，并据此提出相似性聚类。对于溯源与检测模型复用有帮助，但也带来隐私与滥用方面的担忧。",
       "hn": {
-        "id": 47686187,
+        "id": 47690415,
         "type": "story",
-        "by": "kylestanfield",
-        "score": 51,
-        "descendants": 61,
-        "time": 1775630094,
-        "comments_url": "https://news.ycombinator.com/item?id=47686187"
+        "by": "nuancedev",
+        "score": 30,
+        "descendants": 6,
+        "time": 1775657163,
+        "comments_url": "https://news.ycombinator.com/item?id=47690415"
       },
-      "hot_score": 6.18,
+      "hot_score": 3.77,
       "tags": [
-        "AI"
+        "Show HN",
+        "AI",
+        "Privacy"
       ]
     },
     {
-      "title_en": "US and Iran agree to provisional ceasefire",
-      "url": "https://www.theguardian.com/us-news/2026/apr/07/trump-iran-war-ceasefire",
-      "title_zh": "美伊就临时停火达成一致",
-      "created_display": "Created: Apr 07, 2026 / 15:41 PT",
-      "image_url": "https://i.guim.co.uk/img/media/7cde4a66207fd4d8c625b447df29716f6e1a7235/576_0_4582_3666/master/4582.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=b2a8729bf6c3d7f318035c7c52fbec3a",
-      "summary_en": "After talks, the US and Iran reach a provisional ceasefire, signaling a de-escalation step amid ongoing tensions. The arrangement creates space for negotiations and potential humanitarian corridors, though fragility remains.",
-      "summary_zh": "经谈判，美伊就临时停火达成协议，表明紧张局势有所缓和。协议为继续谈判和人道主义走廊争取时间，但局势仍不稳固。",
+      "title_en": "They're Made Out of Meat (1991)",
+      "url": "http://www.terrybisson.com/theyre-made-out-of-meat-2/",
+      "title_zh": "它们都是肉做的（1991）",
+      "created_display": "Created: Apr 08, 2026 / 04:20 PT",
+      "image_url": "http://www.terrybisson.com/wp-content/uploads/2019/04/TB-logo-2.png",
+      "summary_en": "Aliens discover humans are meat and struggle to understand Earth's beings; the story uses a stark premise to question assumptions about life, intelligence, and cross-cultural communication. It remains a sharp, classic piece on perspective.",
+      "summary_zh": "外星人发现人类其实是肉体所构成，他们努力理解地球生命与意识的边界。通过简练又讽刺的情节，质疑关于生命、智能与跨文化沟通的假设。",
       "hn": {
-        "id": 47682276,
+        "id": 47688678,
         "type": "story",
-        "by": "g-b-r",
-        "score": 432,
-        "descendants": 1194,
-        "time": 1775601662,
-        "comments_url": "https://news.ycombinator.com/item?id=47682276"
+        "by": "surprisetalk",
+        "score": 91,
+        "descendants": 28,
+        "time": 1775647250,
+        "comments_url": "https://news.ycombinator.com/item?id=47688678"
       },
+      "hot_score": 3.74,
       "tags": [
-        "Politics"
-      ],
-      "hot_score": 5.67
-    },
-    {
-      "title_en": "System Card: Claude Mythos Preview [pdf]",
-      "url": "https://www-cdn.anthropic.com/53566bf5440a10affd749724787c8913a2ae0841.pdf",
-      "title_zh": "系统卡：Claude Mythos 预览版 [PDF]",
-      "created_display": "Created: Apr 07, 2026 / 11:18 PT",
-      "image_url": null,
-      "summary_en": "Claude Mythos Preview introduces new capabilities and safety features in a downloadable PDF, outlining how Mythos handles reasoning, memory, and guardrails in practice. The preview helps developers gauge how this iteration differs from prior Claude releases and where it fits into enterprise workflows.",
-      "summary_zh": "Claude Mythos 预览版以 PDF 形式提供新能力与安全特性，概述 Mythos 在推理、上下文记忆与防护边界方面的实现。该预览有助于开发者评估这一版本与前代区别及在企业工作流中的定位。",
-      "hn": {
-        "id": 47679258,
-        "type": "story",
-        "by": "be7a",
-        "score": 655,
-        "descendants": 469,
-        "time": 1775585916,
-        "comments_url": "https://news.ycombinator.com/item?id=47679258"
-      },
-      "tags": [
-        "AI"
-      ],
-      "hot_score": 4.73
-    },
-    {
-      "title_en": "Protect your shed",
-      "url": "https://dylanbutler.dev/blog/protect-your-shed/",
-      "title_zh": "保护你的花园小木棚",
-      "created_display": "Created: Apr 07, 2026 / 20:03 PT",
-      "image_url": "https://dylanbutler.dev/images/IMG_2205.jpg",
-      "summary_en": "Practical steps to secure a garden shed against theft and weather. It also offers tips on organizing and storing tools safely to reduce risk.",
-      "summary_zh": "提供一系列针对花园小木棚的安全措施，帮助防盗并应对天气。内容包括选择坚固的锁具、强化门、安装照明和监控，以及通过放置位置来降低被盗风险，同时给出整理与存放工具的实用建议。",
-      "hn": {
-        "id": 47684514,
-        "type": "story",
-        "by": "baely",
-        "score": 125,
-        "descendants": 26,
-        "time": 1775617413,
-        "comments_url": "https://news.ycombinator.com/item?id=47684514"
-      },
-      "tags": [
-        "Security"
-      ],
-      "hot_score": 4.02
+        "Entertainment",
+        "Culture"
+      ]
     },
     {
       "title_en": "Revision Demoparty 2026: Razor1911 [video]",
@@ -142,17 +215,85 @@
         "id": 47685739,
         "type": "story",
         "by": "tetrisgm",
-        "score": 51,
-        "descendants": 19,
+        "score": 265,
+        "descendants": 90,
         "time": 1775626448,
         "comments_url": "https://news.ycombinator.com/item?id=47685739"
       },
-      "hot_score": 3.77,
       "tags": [
         "Programming",
         "Hardware",
         "Privacy",
         "Energy"
+      ],
+      "hot_score": 3.19
+    },
+    {
+      "title_en": "US and Iran agree to provisional ceasefire",
+      "url": "https://www.theguardian.com/us-news/2026/apr/07/trump-iran-war-ceasefire",
+      "title_zh": "美伊就临时停火达成一致",
+      "created_display": "Created: Apr 07, 2026 / 15:41 PT",
+      "image_url": "https://i.guim.co.uk/img/media/7cde4a66207fd4d8c625b447df29716f6e1a7235/576_0_4582_3666/master/4582.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=b2a8729bf6c3d7f318035c7c52fbec3a",
+      "summary_en": "After talks, the US and Iran reach a provisional ceasefire, signaling a de-escalation step amid ongoing tensions. The arrangement creates space for negotiations and potential humanitarian corridors, though fragility remains.",
+      "summary_zh": "经谈判，美伊就临时停火达成协议，表明紧张局势有所缓和。协议为继续谈判和人道主义走廊争取时间，但局势仍不稳固。",
+      "hn": {
+        "id": 47682276,
+        "type": "story",
+        "by": "g-b-r",
+        "score": 554,
+        "descendants": 1708,
+        "time": 1775601662,
+        "comments_url": "https://news.ycombinator.com/item?id=47682276"
+      },
+      "tags": [
+        "Politics"
+      ],
+      "hot_score": 2.89
+    },
+    {
+      "title_en": "System Card: Claude Mythos Preview [pdf]",
+      "url": "https://www-cdn.anthropic.com/53566bf5440a10affd749724787c8913a2ae0841.pdf",
+      "title_zh": "系统卡：Claude Mythos 预览版 [PDF]",
+      "created_display": "Created: Apr 07, 2026 / 11:18 PT",
+      "image_url": null,
+      "summary_en": "Claude Mythos Preview introduces new capabilities and safety features in a downloadable PDF, outlining how Mythos handles reasoning, memory, and guardrails in practice. The preview helps developers gauge how this iteration differs from prior Claude releases and where it fits into enterprise workflows.",
+      "summary_zh": "Claude Mythos 预览版以 PDF 形式提供新能力与安全特性，概述 Mythos 在推理、上下文记忆与防护边界方面的实现。该预览有助于开发者评估这一版本与前代区别及在企业工作流中的定位。",
+      "hn": {
+        "id": 47679258,
+        "type": "story",
+        "by": "be7a",
+        "score": 775,
+        "descendants": 570,
+        "time": 1775585916,
+        "comments_url": "https://news.ycombinator.com/item?id=47679258"
+      },
+      "tags": [
+        "AI"
+      ],
+      "hot_score": 2.76
+    },
+    {
+      "title_en": "Iran demands Bitcoin fees for ships passing Hormuz during ceasefire",
+      "url": "https://www.ft.com/content/02aefac4-ea62-48db-9326-c0da373b11b8",
+      "title_zh": "在停火期间，伊朗要求船只通过霍尔木兹海峡缴纳比特币费用",
+      "created_display": "Created: Apr 08, 2026 / 07:06 PT",
+      "image_url": null,
+      "summary_en": "Iran proposes crypto-based payments, specifically Bitcoin, for ships passing Hormuz during a ceasefire, signaling crypto’s potential role in sanctions-busting and revenue mechanisms amid geopolitics.",
+      "summary_zh": "伊朗提出在停火期间通过比特币等加密货币向通过霍尔木兹海峡的船只收取费用，展示加密货币在地缘政治与制裁环境中的潜在作用。",
+      "hn": {
+        "id": 47690434,
+        "type": "story",
+        "by": "pavlov",
+        "score": 21,
+        "descendants": 11,
+        "time": 1775657208,
+        "comments_url": "https://news.ycombinator.com/item?id=47690434"
+      },
+      "hot_score": 2.62,
+      "tags": [
+        "Politics",
+        "Finance",
+        "Business"
       ]
     },
     {
@@ -167,8 +308,8 @@
         "id": 47676509,
         "type": "story",
         "by": "kipi",
-        "score": 647,
-        "descendants": 151,
+        "score": 860,
+        "descendants": 207,
         "time": 1775574198,
         "comments_url": "https://news.ycombinator.com/item?id=47676509"
       },
@@ -176,7 +317,29 @@
         "Space",
         "Science"
       ],
-      "hot_score": 3.31
+      "hot_score": 2.41
+    },
+    {
+      "title_en": "Protect your shed",
+      "url": "https://dylanbutler.dev/blog/protect-your-shed/",
+      "title_zh": "保护你的花园小木棚",
+      "created_display": "Created: Apr 07, 2026 / 20:03 PT",
+      "image_url": "https://dylanbutler.dev/images/IMG_2205.jpg",
+      "summary_en": "Practical steps to secure a garden shed against theft and weather. It also offers tips on organizing and storing tools safely to reduce risk.",
+      "summary_zh": "提供一系列针对花园小木棚的安全措施，帮助防盗并应对天气。内容包括选择坚固的锁具、强化门、安装照明和监控，以及通过放置位置来降低被盗风险，同时给出整理与存放工具的实用建议。",
+      "hn": {
+        "id": 47684514,
+        "type": "story",
+        "by": "baely",
+        "score": 236,
+        "descendants": 63,
+        "time": 1775617413,
+        "comments_url": "https://news.ycombinator.com/item?id=47684514"
+      },
+      "tags": [
+        "Security"
+      ],
+      "hot_score": 1.99
     },
     {
       "title_en": "GLM-5.1: Towards Long-Horizon Tasks",
@@ -190,15 +353,15 @@
         "id": 47677853,
         "type": "story",
         "by": "zixuanlimit",
-        "score": 507,
-        "descendants": 206,
+        "score": 577,
+        "descendants": 233,
         "time": 1775579535,
         "comments_url": "https://news.ycombinator.com/item?id=47677853"
       },
       "tags": [
         "AI"
       ],
-      "hot_score": 3.01
+      "hot_score": 1.8
     },
     {
       "title_en": "Show HN: Brutalist Concrete Laptop Stand (2024)",
@@ -219,32 +382,34 @@
       },
       "tags": [
         "Show HN",
-        "Hardware"
+        "Hardware",
+        "Design"
       ],
-      "hot_score": 2.71
+      "hot_score": 1.63
     },
     {
-      "title_en": "S3 Files",
-      "url": "https://www.allthingsdistributed.com/2026/04/s3-files-and-the-changing-face-of-s3.html",
-      "title_zh": "S3 文件与 S3 的新面貌",
-      "created_display": "Created: Apr 07, 2026 / 12:44 PT",
-      "image_url": "https://www.allthingsdistributed.com/images/sunflowers.jpg",
-      "summary_en": "Cloud storage remains dominated by S3, but the service is evolving beyond a pure object store. The piece surveys new file-like semantics, tiering options, and API changes that blur the line between object storage and traditional file systems. These shifts have practical implications for developers and operators weighing cost, performance, and data management strategies.",
-      "summary_zh": "S3 依然主导云存储，但服务正在向更丰富的文件化语义、分层存储和跨区域能力发展，模糊了对象存储与传统文件系统的边界。这些变化给开发者和运维带来更灵活的存取模式，同时也带来成本与性能权衡。",
+      "title_en": "Sam Altman may control our future – can he be trusted?",
+      "url": "https://www.newyorker.com/magazine/2026/04/13/sam-altman-may-control-our-future-can-he-be-trusted",
+      "title_zh": "萨姆·奥特曼可能掌控我们的未来——能被信任吗？",
+      "created_display": "Created: Apr 06, 2026 / 03:36 PT",
+      "image_url": "https://media.newyorker.com/photos/69cd326ac6ea0f4558d6e181/16:9/w_1280,c_limit/r47927.jpg",
+      "summary_en": "Sam Altman's influence over AI policy and development raises questions about the balance of power and accountability in tech leadership. The piece challenges readers to weigh optimism about rapid innovation against safeguards for society, privacy, and equity. Understanding who shapes AI's trajectory matters for engineers and policymakers alike.",
+      "summary_zh": "萨姆·奥特曼在AI领域的影响力引发关于科技领袖权力与责任平衡的讨论。文章促使读者权衡对快速创新的乐观态度与对社会、隐私和公平的保障之间的取舍。理解谁在塑造AI的未来，对工程师与政策制定者都至关重要。",
       "hn": {
-        "id": 47680404,
+        "id": 47659135,
         "type": "story",
-        "by": "werner",
-        "score": 284,
-        "descendants": 84,
-        "time": 1775591041,
-        "comments_url": "https://news.ycombinator.com/item?id=47680404"
+        "by": "adrianhon",
+        "score": 2044,
+        "descendants": 865,
+        "time": 1775471817,
+        "comments_url": "https://news.ycombinator.com/item?id=47659135"
       },
       "tags": [
-        "Data",
-        "DevOps"
+        "Politics",
+        "AI",
+        "Privacy"
       ],
-      "hot_score": 2.43
+      "hot_score": 1.53
     },
     {
       "title_en": "Cambodia unveils statue to honour famous landmine-sniffing rat",
@@ -258,36 +423,108 @@
         "id": 47678573,
         "type": "story",
         "by": "speckx",
-        "score": 364,
-        "descendants": 77,
+        "score": 445,
+        "descendants": 105,
         "time": 1775582623,
         "comments_url": "https://news.ycombinator.com/item?id=47678573"
       },
       "tags": [
         "Culture"
       ],
-      "hot_score": 2.37
+      "hot_score": 1.48
     },
     {
-      "title_en": "Who Is Satoshi Nakamoto? My Quest to Unmask Bitcoin's Creator",
-      "url": "https://www.nytimes.com/2026/04/08/business/bitcoin-satoshi-nakamoto-identity-adam-back.html",
-      "title_zh": "谁是中本聪？我揭开比特币创始人真身的追寻",
-      "created_display": "Created: Apr 07, 2026 / 21:37 PT",
-      "image_url": null,
-      "summary_en": "Adam Back's profile in the New York Times traces attempts to uncover Satoshi Nakamoto's true identity, weighing rumored candidates and the evidentiary curve.",
-      "summary_zh": "纽约时报刊文回顾 Adam Back 的追踪，试图揭示中本聪的真实身份，评估候选人及相关证据。报道揭示了这场追寻如何交织密码学史、隐私议题，以及比特币创始人神话的形成。",
+      "title_en": "Show HN: I pipe free sports streams into Jellyfin – no ads, just HLS",
+      "url": "https://github.com/pcruz1905/hls-restream-proxy",
+      "title_zh": "Show HN：我把免费体育直播推送到 Jellyfin——无广告，只有 HLS",
+      "created_display": "Created: Apr 08, 2026 / 05:17 PT",
+      "image_url": "https://opengraph.githubassets.com/841b0fd886e04714a11a3878303aafebb6ef2058e2b29aa659cb7dbc50565357/pcruz1905/hls-restream-proxy",
+      "summary_en": "A Show HN post describes piping free sports streams into Jellyfin via an HLS restream proxy, enabling ad-free, self-hosted viewing. It discusses practicality and potential legality of aggregating free streams into a personal media server.",
+      "summary_zh": "Show HN 分享了通过HLS中继代理将免费体育流推送到Jellyfin，实现无广告的自托管观看。文中谈及 practicality 与将免费流聚合到自建媒体服务器的潜在合规性。",
       "hn": {
-        "id": 47685320,
+        "id": 47689165,
         "type": "story",
-        "by": "jfirebaugh",
-        "score": 42,
-        "descendants": 14,
-        "time": 1775623077,
-        "comments_url": "https://news.ycombinator.com/item?id=47685320"
+        "by": "pruz",
+        "score": 27,
+        "descendants": 3,
+        "time": 1775650677,
+        "comments_url": "https://news.ycombinator.com/item?id=47689165"
       },
-      "hot_score": 2.15,
+      "hot_score": 1.48,
       "tags": [
-        "Finance"
+        "Show HN",
+        "Programming",
+        "Open Source"
+      ]
+    },
+    {
+      "title_en": "S3 Files",
+      "url": "https://www.allthingsdistributed.com/2026/04/s3-files-and-the-changing-face-of-s3.html",
+      "title_zh": "S3 文件与 S3 的新面貌",
+      "created_display": "Created: Apr 07, 2026 / 12:44 PT",
+      "image_url": "https://www.allthingsdistributed.com/images/sunflowers.jpg",
+      "summary_en": "Cloud storage remains dominated by S3, but the service is evolving beyond a pure object store. The piece surveys new file-like semantics, tiering options, and API changes that blur the line between object storage and traditional file systems. These shifts have practical implications for developers and operators weighing cost, performance, and data management strategies.",
+      "summary_zh": "S3 依然主导云存储，但服务正在向更丰富的文件化语义、分层存储和跨区域能力发展，模糊了对象存储与传统文件系统的边界。这些变化给开发者和运维带来更灵活的存取模式，同时也带来成本与性能权衡。",
+      "hn": {
+        "id": 47680404,
+        "type": "story",
+        "by": "werner",
+        "score": 347,
+        "descendants": 102,
+        "time": 1775591041,
+        "comments_url": "https://news.ycombinator.com/item?id=47680404"
+      },
+      "tags": [
+        "Data",
+        "Web"
+      ],
+      "hot_score": 1.39
+    },
+    {
+      "title_en": "Show HN: An interactive map of Tolkien's Middle-earth",
+      "url": "https://middle-earth-interactive-map.web.app/",
+      "title_zh": "托尔金中土互动地图",
+      "created_display": "Created: Apr 07, 2026 / 13:42 PT",
+      "image_url": null,
+      "summary_en": "An interactive map of Middle-earth lets fans explore locations, routes, and lore overlays, bringing Tolkien’s geography to life in the browser. The project showcases practical data modeling for fictional worlds and approachable, immersive UI.",
+      "summary_zh": "这款托尔金中土互动地图让用户在浏览器中探索地点、路线以及相关设定，生动呈现虚构世界的地理格局。它展示了对虚构世界进行数据建模的思路，以及实现沉浸式 UI 的可行性。",
+      "hn": {
+        "id": 47681112,
+        "type": "story",
+        "by": "frasermarlow",
+        "score": 259,
+        "descendants": 51,
+        "time": 1775594557,
+        "comments_url": "https://news.ycombinator.com/item?id=47681112"
+      },
+      "tags": [
+        "Show HN",
+        "Web",
+        "Data"
+      ],
+      "hot_score": 1.12
+    },
+    {
+      "title_en": "Microsoft Abruptly Terminates VeraCrypt Account, Halting Windows Updates",
+      "url": "https://www.404media.co/microsoft-abruptly-terminates-veracrypt-account-halting-windows-updates/",
+      "title_zh": "微软突然终止 VeraCrypt 账户，导致 Windows 更新中断",
+      "created_display": "Created: Apr 08, 2026 / 07:46 PT",
+      "image_url": "https://www.404media.co/content/images/size/w1200/2026/04/simon-ray-TICJQELFmg4-unsplash.jpg",
+      "summary_en": "Reports indicate Microsoft terminated a VeraCrypt account, halting Windows updates. The incident underscores how dependence on external accounts can disrupt critical software maintenance and raises questions about vendor policies.",
+      "summary_zh": "报道称微软突然终止了VeraCrypt账户，导致Windows更新中断。这一事件凸显对外部账户的依赖如何影响关键软件维护，并引发对厂商政策的关注。",
+      "hn": {
+        "id": 47690977,
+        "type": "story",
+        "by": "donohoe",
+        "score": 6,
+        "descendants": 0,
+        "time": 1775659575,
+        "comments_url": "https://news.ycombinator.com/item?id=47690977"
+      },
+      "hot_score": 1.01,
+      "tags": [
+        "Security",
+        "Privacy"
       ]
     },
     {
@@ -311,54 +548,30 @@
         "AI",
         "Security"
       ],
-      "hot_score": 2.0
+      "hot_score": 0.99
     },
     {
-      "title_en": "Sam Altman may control our future – can he be trusted?",
-      "url": "https://www.newyorker.com/magazine/2026/04/13/sam-altman-may-control-our-future-can-he-be-trusted",
-      "title_zh": "萨姆·奥特曼可能掌控我们的未来——能被信任吗？",
-      "created_display": "Created: Apr 06, 2026 / 03:36 PT",
-      "image_url": "https://media.newyorker.com/photos/69cd326ac6ea0f4558d6e181/16:9/w_1280,c_limit/r47927.jpg",
-      "summary_en": "Sam Altman's influence over AI policy and development raises questions about the balance of power and accountability in tech leadership. The piece challenges readers to weigh optimism about rapid innovation against safeguards for society, privacy, and equity. Understanding who shapes AI's trajectory matters for engineers and policymakers alike.",
-      "summary_zh": "萨姆·奥特曼在AI领域的影响力引发关于科技领袖权力与责任平衡的讨论。文章促使读者权衡对快速创新的乐观态度与对社会、隐私和公平的保障之间的取舍。理解谁在塑造AI的未来，对工程师与政策制定者都至关重要。",
+      "title_en": "Cloudflare targets 2029 for full post-quantum security",
+      "url": "https://blog.cloudflare.com/post-quantum-roadmap/",
+      "title_zh": "Cloudflare 将在 2029 年实现全面后量子安全",
+      "created_display": "Created: Apr 07, 2026 / 07:07 PT",
+      "image_url": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/cyRyBin8jhfj8ufWGp1PI/c8d43126c48ebd6d48c73b2e810ee80d/OG_Share_2024-2025-2026__27_.png",
+      "summary_en": "Cloudflare outlines a path to post-quantum security by 2029, with phased deployment and testing. The planning reflects industry urgency around quantum threats and crypto agility.",
+      "summary_zh": "Cloudflare 提出到 2029 年实现全面后量子安全的路线图，包含分阶段部署与测试。这反映出业界对量子威胁与加密灵活性的紧迫关注。",
       "hn": {
-        "id": 47659135,
+        "id": 47675625,
         "type": "story",
-        "by": "adrianhon",
-        "score": 2009,
-        "descendants": 847,
-        "time": 1775471817,
-        "comments_url": "https://news.ycombinator.com/item?id=47659135"
+        "by": "ilreb",
+        "score": 372,
+        "descendants": 112,
+        "time": 1775570854,
+        "comments_url": "https://news.ycombinator.com/item?id=47675625"
       },
       "tags": [
-        "Politics",
-        "AI",
-        "Privacy"
+        "Security",
+        "Science"
       ],
-      "hot_score": 1.95
-    },
-    {
-      "title_en": "Show HN: An interactive map of Tolkien's Middle-earth",
-      "url": "https://middle-earth-interactive-map.web.app/",
-      "title_zh": "托尔金中土互动地图",
-      "created_display": "Created: Apr 07, 2026 / 13:42 PT",
-      "image_url": null,
-      "summary_en": "An interactive map of Middle-earth lets fans explore locations, routes, and lore overlays, bringing Tolkien’s geography to life in the browser. The project showcases practical data modeling for fictional worlds and approachable, immersive UI.",
-      "summary_zh": "这款托尔金中土互动地图让用户在浏览器中探索地点、路线以及相关设定，生动呈现虚构世界的地理格局。它展示了对虚构世界进行数据建模的思路，以及实现沉浸式 UI 的可行性。",
-      "hn": {
-        "id": 47681112,
-        "type": "story",
-        "by": "frasermarlow",
-        "score": 182,
-        "descendants": 35,
-        "time": 1775594557,
-        "comments_url": "https://news.ycombinator.com/item?id=47681112"
-      },
-      "tags": [
-        "Show HN",
-        "Web"
-      ],
-      "hot_score": 1.77
+      "hot_score": 0.98
     },
     {
       "title_en": "Dropping Cloudflare for Bunny.net",
@@ -378,32 +591,32 @@
         "comments_url": "https://news.ycombinator.com/item?id=47675013"
       },
       "tags": [
+        "Web",
         "DevOps"
       ],
-      "hot_score": 1.68
+      "hot_score": 0.96
     },
     {
-      "title_en": "Cloudflare targets 2029 for full post-quantum security",
-      "url": "https://blog.cloudflare.com/post-quantum-roadmap/",
-      "title_zh": "Cloudflare 将在 2029 年实现全面后量子安全",
-      "created_display": "Created: Apr 07, 2026 / 07:07 PT",
-      "image_url": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/cyRyBin8jhfj8ufWGp1PI/c8d43126c48ebd6d48c73b2e810ee80d/OG_Share_2024-2025-2026__27_.png",
-      "summary_en": "Cloudflare outlines a path to post-quantum security by 2029, with phased deployment and testing. The planning reflects industry urgency around quantum threats and crypto agility.",
-      "summary_zh": "Cloudflare 提出到 2029 年实现全面后量子安全的路线图，包含分阶段部署与测试。这反映出业界对量子威胁与加密灵活性的紧迫关注。",
+      "title_en": "Mario and Earendil",
+      "url": "https://lucumr.pocoo.org/2026/4/8/mario-and-earendil/",
+      "title_zh": "马里奥与埃兰迪尔",
+      "created_display": "Created: Apr 08, 2026 / 02:13 PT",
+      "image_url": "https://lucumr.pocoo.org/social/2026-04-08-mario-and-earendil-social.png",
+      "summary_en": "An essay drawing cross-media comparisons between Mario and Earendil to explore mythmaking, heroism, and navigation across games and high fantasy, highlighting shared storytelling devices.",
+      "summary_zh": "通过对马里奥与埃兰迪尔的跨媒介对照，探讨英雄叙事、航行与神话建构等主题，揭示不同媒介中的共通讲述手法。",
       "hn": {
-        "id": 47675625,
+        "id": 47687464,
         "type": "story",
-        "by": "ilreb",
-        "score": 319,
-        "descendants": 96,
-        "time": 1775570854,
-        "comments_url": "https://news.ycombinator.com/item?id=47675625"
+        "by": "doppp",
+        "score": 38,
+        "descendants": 16,
+        "time": 1775639597,
+        "comments_url": "https://news.ycombinator.com/item?id=47687464"
       },
+      "hot_score": 0.88,
       "tags": [
-        "Security",
-        "Science"
-      ],
-      "hot_score": 1.49
+        "Culture"
+      ]
     },
     {
       "title_en": "Show HN: Gemma 4 Multimodal Fine-Tuner for Apple Silicon",
@@ -417,18 +630,156 @@
         "id": 47680309,
         "type": "story",
         "by": "MediaSquirrel",
-        "score": 167,
-        "descendants": 22,
+        "score": 209,
+        "descendants": 26,
         "time": 1775590625,
         "comments_url": "https://news.ycombinator.com/item?id=47680309"
       },
       "tags": [
-        "Show HN",
         "AI",
-        "Programming",
+        "Show HN",
         "Privacy"
       ],
-      "hot_score": 1.41
+      "hot_score": 0.83
+    },
+    {
+      "title_en": "Xilem – An experimental Rust native UI framework",
+      "url": "https://github.com/linebender/xilem",
+      "title_zh": "Xilem：一个实验性的 Rust 原生 UI 框架",
+      "created_display": "Created: Apr 07, 2026 / 16:36 PT",
+      "image_url": "https://opengraph.githubassets.com/e55abec780f7abe4fac0ac734a4fff0a516ab4e013935b1a1d5bf13ab311d130/linebender/xilem",
+      "summary_en": "Xilem is an experimental Rust-native UI framework targeting high performance and clean abstractions with native widgets and minimal runtime overhead. It appeals to developers seeking efficient, low-level UI tech in Rust.",
+      "summary_zh": "Xilem 是一个实验性的 Rust 原生 UI 框架，致力于提供高性能、简洁的抽象和原生控件。项目强调最小运行时开销和跨平台潜力，吸引对本地界面开发感兴趣的开发者。",
+      "hn": {
+        "id": 47682719,
+        "type": "story",
+        "by": "Levitating",
+        "score": 130,
+        "descendants": 63,
+        "time": 1775604975,
+        "comments_url": "https://news.ycombinator.com/item?id=47682719"
+      },
+      "tags": [
+        "Programming",
+        "Open Source"
+      ],
+      "hot_score": 0.74
+    },
+    {
+      "title_en": "Taste in the age of AI and LLMs",
+      "url": "https://rajnandan.com/posts/taste-in-the-age-of-ai-and-llms/",
+      "title_zh": "AI 与大语言模型时代的品味",
+      "created_display": "Created: Apr 07, 2026 / 08:54 PT",
+      "image_url": "https://rajnandan.com/ogs/taste-in-the-age-of-ai-and-llms/og-image.jpg",
+      "summary_en": "Explores how AI and LLM-driven recommendations influence taste across media and culture, from recipes to art. The piece warns about homogenization and dependency on algorithmic curation, offering ideas to maintain agency.",
+      "summary_zh": "探讨 AI 和大语言模型驱动的推荐如何影响我们的口味和选择，涉及音乐、艺术、饮食等领域。警示同质化风险与对算法依赖，并提出保持自主审美的思考方向。",
+      "hn": {
+        "id": 47677241,
+        "type": "story",
+        "by": "speckx",
+        "score": 239,
+        "descendants": 194,
+        "time": 1775577256,
+        "comments_url": "https://news.ycombinator.com/item?id=47677241"
+      },
+      "tags": [
+        "AI",
+        "Culture"
+      ],
+      "hot_score": 0.71
+    },
+    {
+      "title_en": "Sonnet 4.6 Elevated Rate of Errors",
+      "url": "https://status.claude.com/incidents/lhws0phdvzz3",
+      "title_zh": "Sonnet 4.6：错误率提升",
+      "created_display": "Created: Apr 07, 2026 / 23:34 PT",
+      "image_url": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png",
+      "summary_en": "Status page notes an elevated error rate for Sonnet 4.6, indicating an outage or degraded performance in the Claude service line. The incident underscores the fragility of AI services and the importance of operational resilience and incident response.",
+      "summary_zh": "状态页显示 Sonnet 4.6 的错误率上升，表明 Claude 服务出现中断或性能下降。此次事件凸显 AI 服务的易损性，以及建立运维韧性和有效应急机制的重要性。",
+      "hn": {
+        "id": 47686187,
+        "type": "story",
+        "by": "kylestanfield",
+        "score": 51,
+        "descendants": 61,
+        "time": 1775630094,
+        "comments_url": "https://news.ycombinator.com/item?id=47686187"
+      },
+      "hot_score": 0.71,
+      "tags": [
+        "AI",
+        "DevOps"
+      ]
+    },
+    {
+      "title_en": "Rescuing old printers with an in-browser Linux VM bridged to WebUSB over USB/IP",
+      "url": "https://printervention.app/details",
+      "title_zh": "用浏览器中的 Linux 虚拟机，借助 WebUSB/USB/IP 拯救老印表机",
+      "created_display": "Created: Apr 07, 2026 / 09:33 PT",
+      "image_url": "https://printervention.app/cat.jpeg",
+      "summary_en": "A project bridges old printers to modern machines by running a Linux VM inside the browser and exposing it via WebUSB/USB/IP, letting legacy hardware print without vendor drivers. The approach unlocks long-tail devices for web-enabled environments and showcases browser-based hardware emulation.",
+      "summary_zh": "一个项目通过在浏览器中运行 Linux 虚拟机并通过 WebUSB/USB/IP 暴露，连接并驱动老旧打印机，无需厂商驱动即可打印。这种在浏览器层实现的硬件仿真方法，为长期积压的设备重新获得可用性。",
+      "hn": {
+        "id": 47677885,
+        "type": "story",
+        "by": "gmac",
+        "score": 221,
+        "descendants": 93,
+        "time": 1775579637,
+        "comments_url": "https://news.ycombinator.com/item?id=47677885"
+      },
+      "tags": [
+        "Hardware",
+        "Web"
+      ],
+      "hot_score": 0.69
+    },
+    {
+      "title_en": "Show HN: Go-Bt: Minimalist Behavior Trees for Go",
+      "url": "https://github.com/rvitorper/go-bt",
+      "title_zh": "Show HN：Go-Bt：Go语言的极简行为树",
+      "created_display": "Created: Apr 08, 2026 / 07:33 PT",
+      "image_url": "https://opengraph.githubassets.com/55f1bfe8c0e4ed9db239dec04d84bac5f50630d1ca0f7c58419b79f4a810c966/rvitorper/go-bt",
+      "summary_en": "A minimalist Behavior Tree library for Go that enables building AI agents with simple, composable blocks. It’s useful for game AI, robotics, or simulations implemented in Go.",
+      "summary_zh": "一个为Go设计的极简行为树库，便于用简单、可组合的模块构建AI代理。适合用Go实现的游戏AI、机器人或仿真。",
+      "hn": {
+        "id": 47690797,
+        "type": "story",
+        "by": "rvitorper",
+        "score": 5,
+        "descendants": 0,
+        "time": 1775658810,
+        "comments_url": "https://news.ycombinator.com/item?id=47690797"
+      },
+      "hot_score": 0.69,
+      "tags": [
+        "Programming",
+        "Show HN",
+        "AI"
+      ]
+    },
+    {
+      "title_en": "Wildlife Conservation Police Are Searching Flock Cameras for ICE",
+      "url": "https://www.404media.co/floridas-wildlife-cops-are-searching-thousands-of-flock-cameras-for-ice/",
+      "title_zh": "野生动物保护警察正从 Flock 摄像头中搜索 ICE 数据",
+      "created_display": "Created: Apr 08, 2026 / 07:55 PT",
+      "image_url": "https://www.404media.co/content/images/size/w1200/2026/04/52390953381_c7509e55b1_k.jpg",
+      "summary_en": "Wildlife-conservation police are querying Flock cameras for ICE data, illustrating tensions between public safety, private surveillance networks, and civil liberties. The piece questions governance and consent in a shared surveillance landscape.",
+      "summary_zh": "野生动物保护警察正在从Flock摄像头中检索ICE数据，揭示公共安全、私有监控网络与公民自由之间的紧张关系。文章质疑在共用监控环境中的治理与同意问题。",
+      "hn": {
+        "id": 47691108,
+        "type": "story",
+        "by": "lschueller",
+        "score": 4,
+        "descendants": 0,
+        "time": 1775660103,
+        "comments_url": "https://news.ycombinator.com/item?id=47691108"
+      },
+      "hot_score": 0.68,
+      "tags": [
+        "Privacy",
+        "Politics"
+      ]
     },
     {
       "title_en": "Bitcoin and quantum computing",
@@ -452,77 +803,7 @@
         "Security",
         "Science"
       ],
-      "hot_score": 1.4
-    },
-    {
-      "title_en": "Taste in the age of AI and LLMs",
-      "url": "https://rajnandan.com/posts/taste-in-the-age-of-ai-and-llms/",
-      "title_zh": "AI 与大语言模型时代的品味",
-      "created_display": "Created: Apr 07, 2026 / 08:54 PT",
-      "image_url": "https://rajnandan.com/ogs/taste-in-the-age-of-ai-and-llms/og-image.jpg",
-      "summary_en": "Explores how AI and LLM-driven recommendations influence taste across media and culture, from recipes to art. The piece warns about homogenization and dependency on algorithmic curation, offering ideas to maintain agency.",
-      "summary_zh": "探讨 AI 和大语言模型驱动的推荐如何影响我们的口味和选择，涉及音乐、艺术、饮食等领域。警示同质化风险与对算法依赖，并提出保持自主审美的思考方向。",
-      "hn": {
-        "id": 47677241,
-        "type": "story",
-        "by": "speckx",
-        "score": 239,
-        "descendants": 194,
-        "time": 1775577256,
-        "comments_url": "https://news.ycombinator.com/item?id=47677241"
-      },
-      "tags": [
-        "AI",
-        "Culture"
-      ],
-      "hot_score": 1.33
-    },
-    {
-      "title_en": "Xilem – An experimental Rust native UI framework",
-      "url": "https://github.com/linebender/xilem",
-      "title_zh": "Xilem：一个实验性的 Rust 原生 UI 框架",
-      "created_display": "Created: Apr 07, 2026 / 16:36 PT",
-      "image_url": "https://opengraph.githubassets.com/e55abec780f7abe4fac0ac734a4fff0a516ab4e013935b1a1d5bf13ab311d130/linebender/xilem",
-      "summary_en": "Xilem is an experimental Rust-native UI framework targeting high performance and clean abstractions with native widgets and minimal runtime overhead. It appeals to developers seeking efficient, low-level UI tech in Rust.",
-      "summary_zh": "Xilem 是一个实验性的 Rust 原生 UI 框架，致力于提供高性能、简洁的抽象和原生控件。项目强调最小运行时开销和跨平台潜力，吸引对本地界面开发感兴趣的开发者。",
-      "hn": {
-        "id": 47682719,
-        "type": "story",
-        "by": "Levitating",
-        "score": 78,
-        "descendants": 22,
-        "time": 1775604975,
-        "comments_url": "https://news.ycombinator.com/item?id=47682719"
-      },
-      "tags": [
-        "Programming",
-        "Open Source"
-      ],
-      "hot_score": 1.18
-    },
-    {
-      "title_en": "Rescuing old printers with an in-browser Linux VM bridged to WebUSB over USB/IP",
-      "url": "https://printervention.app/details",
-      "title_zh": "用浏览器中的 Linux 虚拟机，借助 WebUSB/USB/IP 拯救老印表机",
-      "created_display": "Created: Apr 07, 2026 / 09:33 PT",
-      "image_url": "https://printervention.app/cat.jpeg",
-      "summary_en": "A project bridges old printers to modern machines by running a Linux VM inside the browser and exposing it via WebUSB/USB/IP, letting legacy hardware print without vendor drivers. The approach unlocks long-tail devices for web-enabled environments and showcases browser-based hardware emulation.",
-      "summary_zh": "一个项目通过在浏览器中运行 Linux 虚拟机并通过 WebUSB/USB/IP 暴露，连接并驱动老旧打印机，无需厂商驱动即可打印。这种在浏览器层实现的硬件仿真方法，为长期积压的设备重新获得可用性。",
-      "hn": {
-        "id": 47677885,
-        "type": "story",
-        "by": "gmac",
-        "score": 188,
-        "descendants": 82,
-        "time": 1775579637,
-        "comments_url": "https://news.ycombinator.com/item?id=47677885"
-      },
-      "tags": [
-        "Programming",
-        "Web",
-        "Hardware"
-      ],
-      "hot_score": 1.12
+      "hot_score": 0.61
     },
     {
       "title_en": "Every GPU That Mattered",
@@ -546,29 +827,7 @@
         "AI",
         "Gaming"
       ],
-      "hot_score": 0.93
-    },
-    {
-      "title_en": "JSIR: A High-Level IR for JavaScript",
-      "url": "https://discourse.llvm.org/t/rfc-jsir-a-high-level-ir-for-javascript/90456",
-      "title_zh": "JSIR：面向 JavaScript 的高级中间表示",
-      "created_display": "Created: Apr 07, 2026 / 17:59 PT",
-      "image_url": "https://us1.discourse-cdn.com/flex021/uploads/llvm/original/3X/a/5/a5e2f18e2787b0f7493d9aa43cc2f4d488794c53.png",
-      "summary_en": "JSIR proposes a high-level intermediate representation for JavaScript to improve compiler optimizations and cross-tooling. It aims to bridge JS engines with LLVM-like backends, enabling more portable and aggressive optimizations while preserving JS semantics.",
-      "summary_zh": "JSIR 提出一种面向 JavaScript 的高级中间表示，旨在提升编译器优化与跨工具链的能力。它试图将 JS 引擎与类似 LLVM 的后端衔接，以实现更可移植、且更具侵袭性的优化，同时保留 JavaScript 的语义。",
-      "hn": {
-        "id": 47683376,
-        "type": "story",
-        "by": "nnx",
-        "score": 45,
-        "descendants": 9,
-        "time": 1775609945,
-        "comments_url": "https://news.ycombinator.com/item?id=47683376"
-      },
-      "hot_score": 0.88,
-      "tags": [
-        "Programming"
-      ]
+      "hot_score": 0.59
     },
     {
       "title_en": "Google open-sources experimental agent orchestration testbed Scion",
@@ -582,8 +841,8 @@
         "id": 47675213,
         "type": "story",
         "by": "timbilt",
-        "score": 190,
-        "descendants": 50,
+        "score": 221,
+        "descendants": 56,
         "time": 1775569155,
         "comments_url": "https://news.ycombinator.com/item?id=47675213"
       },
@@ -591,75 +850,96 @@
         "Open Source",
         "AI"
       ],
-      "hot_score": 0.85
+      "hot_score": 0.56
     },
     {
-      "title_en": "How the Vision Pro Rollout Inflamed Tensions at Apple",
-      "url": "https://www.wired.com/story/book-excerpt-mutiny-noam-scheiber-apple-vision-pro/",
-      "title_zh": "Vision Pro 推出如何点燃苹果内部紧张局势",
-      "created_display": "Created: Apr 07, 2026 / 22:30 PT",
-      "image_url": "https://media.wired.com/photos/69cd244228d35b2c1dfa6820/191:100/w_1280,c_limit/excerpt-AppleVisionPro_V2.jpg",
-      "summary_en": "An excerpt reveals internal debates and frictions at Apple during the Vision Pro rollout, including disagreements over product strategy, resource allocation, and organizational culture. The piece sheds light on how a bold new product line can stress existing processes even in a hardware giant.",
-      "summary_zh": "书摘揭示 Vision Pro 推出过程中苹果内部的分歧与紧张，包括对产品策略、资源分配和组织文化的不同意见。文章透视了在硬件巨头内部，一条大胆的新产品线如何给现有流程带来压力。",
+      "title_en": "LLM plays an 8-bit Commander X16 game using structured \"smart senses\"",
+      "url": "https://pvp-ai.russell-harper.com",
+      "title_zh": "LLM 使用结构化“智能感知”玩8位Commander X16游戏",
+      "created_display": "Created: Apr 08, 2026 / 05:56 PT",
+      "image_url": null,
+      "summary_en": "An LLM plays an 8-bit Commander X16 game using structured 'smart senses' to perceive the game state and decide actions. The work demonstrates progress in giving language models interpretable inputs for emulator-based tasks.",
+      "summary_zh": "LLM利用结构化的“智能感知”来感知8位Commander X16游戏的状态并选择行动，展示了语言模型在仿真器任务中的可解释输入能力的进展。",
       "hn": {
-        "id": 47685704,
+        "id": 47689550,
         "type": "story",
-        "by": "f_allwein",
-        "score": 10,
-        "descendants": 2,
-        "time": 1775626226,
-        "comments_url": "https://news.ycombinator.com/item?id=47685704"
+        "by": "russellharper",
+        "score": 8,
+        "descendants": 1,
+        "time": 1775653018,
+        "comments_url": "https://news.ycombinator.com/item?id=47689550"
       },
-      "hot_score": 0.66,
+      "hot_score": 0.52,
       "tags": [
-        "Hardware",
-        "Business"
+        "AI",
+        "Entertainment"
       ]
     },
     {
-      "title_en": "Move Detroit",
-      "url": "https://www.movedetroit.com/program",
-      "title_zh": "Move Detroit 项目",
-      "created_display": "Created: Apr 07, 2026 / 14:04 PT",
-      "image_url": "https://cdn.prod.website-files.com/69710900e64634767b0291e2/69c97b6ea067ab1287c518fb_success_image.avif",
-      "summary_en": "Move Detroit acts as a civic tech program aimed at improving mobility, transit access, and urban life in Detroit. It typically brings together residents, local government, and tech partners to pilot data-driven transport solutions.",
-      "summary_zh": "Move Detroit 是一个公民科技计划，旨在改善底特律的出行、交通可达性和城市生活。它通常汇集居民、地方政府和科技伙伴，推动数据驱动的交通方案试点。",
+      "title_en": "JSIR: A High-Level IR for JavaScript",
+      "url": "https://discourse.llvm.org/t/rfc-jsir-a-high-level-ir-for-javascript/90456",
+      "title_zh": "JSIR：面向 JavaScript 的高级中间表示",
+      "created_display": "Created: Apr 07, 2026 / 17:59 PT",
+      "image_url": "https://us1.discourse-cdn.com/flex021/uploads/llvm/original/3X/a/5/a5e2f18e2787b0f7493d9aa43cc2f4d488794c53.png",
+      "summary_en": "JSIR proposes a high-level intermediate representation for JavaScript to improve compiler optimizations and cross-tooling. It aims to bridge JS engines with LLVM-like backends, enabling more portable and aggressive optimizations while preserving JS semantics.",
+      "summary_zh": "JSIR 提出一种面向 JavaScript 的高级中间表示，旨在提升编译器优化与跨工具链的能力。它试图将 JS 引擎与类似 LLVM 的后端衔接，以实现更可移植、且更具侵袭性的优化，同时保留 JavaScript 的语义。",
       "hn": {
-        "id": 47681361,
+        "id": 47683376,
         "type": "story",
-        "by": "rmason",
-        "score": 59,
-        "descendants": 82,
-        "time": 1775595893,
-        "comments_url": "https://news.ycombinator.com/item?id=47681361"
+        "by": "nnx",
+        "score": 75,
+        "descendants": 24,
+        "time": 1775609945,
+        "comments_url": "https://news.ycombinator.com/item?id=47683376"
       },
       "tags": [
-        "Data",
-        "Politics"
+        "Programming"
       ],
-      "hot_score": 0.6
+      "hot_score": 0.49
     },
     {
-      "title_en": "We moved Railway's frontend off Next.js. Builds went from 10+ mins to under two",
-      "url": "https://blog.railway.com/p/moving-railways-frontend-off-nextjs",
-      "title_zh": "Railway 的前端从 Next.js 移走，构建时间从十多分钟降至两分钟内",
-      "created_display": "Created: Apr 07, 2026 / 23:01 PT",
-      "image_url": "https://res.cloudinary.com/railway/image/upload/v1775567332/blog/Moving-OG_aclrsn.png",
-      "summary_en": "Railway relocated its frontend away from Next.js, slashing build times from over 10 minutes to under two. The move likely relies on a leaner toolchain or bundler choices, enabling faster iteration and deployment at scale, though it may shift maintenance and migration costs.",
-      "summary_zh": "Railway 将前端从 Next.js 迁出，构建时间从十多分钟降至两分钟以下。此举很可能依赖于更精简的工具链或打包方案，提升了大规模迭代与部署的速度，但也伴随维护与迁移成本的变化。",
+      "title_en": "Show HN: Explore the Silk Roads through an interactive map",
+      "url": "https://www.intofarlands.com/silk-roads-map",
+      "title_zh": "Show HN：通过互动地图探索丝绸之路",
+      "created_display": "Created: Apr 08, 2026 / 08:00 PT",
+      "image_url": "https://static.wixstatic.com/media/86e751_9bcd7d6f559b4153b800c4710afa44a0~mv2.jpg/v1/fill/w_1200,h_700,al_c/86e751_9bcd7d6f559b4153b800c4710afa44a0~mv2.jpg",
+      "summary_en": "An interactive map lets users explore Silk Road routes, trade hubs, and historical context with geospatial visuals. It provides a tangible way to study ancient globalization and networked exchange.",
+      "summary_zh": "一个互动地图让用户通过地理信息和历史情境直观探索丝绸之路的路线、节点及贸易网络，为研究古代全球化提供直观工具。",
       "hn": {
-        "id": 47685945,
+        "id": 47691174,
         "type": "story",
-        "by": "bundie",
-        "score": 7,
+        "by": "intofarlands",
+        "score": 3,
         "descendants": 0,
-        "time": 1775628060,
-        "comments_url": "https://news.ycombinator.com/item?id=47685945"
+        "time": 1775660412,
+        "comments_url": "https://news.ycombinator.com/item?id=47691174"
       },
-      "hot_score": 0.55,
+      "hot_score": 0.48,
       "tags": [
-        "Programming",
+        "Show HN",
         "Web"
+      ]
+    },
+    {
+      "title_en": "Who Is Satoshi Nakamoto? My Quest to Unmask Bitcoin's Creator",
+      "url": "https://www.nytimes.com/2026/04/08/business/bitcoin-satoshi-nakamoto-identity-adam-back.html",
+      "title_zh": "谁是中本聪？我揭开比特币创始人真身的追寻",
+      "created_display": "Created: Apr 07, 2026 / 21:37 PT",
+      "image_url": null,
+      "summary_en": "Adam Back's profile in the New York Times traces attempts to uncover Satoshi Nakamoto's true identity, weighing rumored candidates and the evidentiary curve.",
+      "summary_zh": "纽约时报刊文回顾 Adam Back 的追踪，试图揭示中本聪的真实身份，评估候选人及相关证据。报道揭示了这场追寻如何交织密码学史、隐私议题，以及比特币创始人神话的形成。",
+      "hn": {
+        "id": 47685320,
+        "type": "story",
+        "by": "jfirebaugh",
+        "score": 42,
+        "descendants": 14,
+        "time": 1775623077,
+        "comments_url": "https://news.ycombinator.com/item?id=47685320"
+      },
+      "hot_score": 0.43,
+      "tags": [
+        "Finance"
       ]
     },
     {
@@ -681,9 +961,9 @@
       },
       "tags": [
         "Hardware",
-        "Business"
+        "Startups"
       ],
-      "hot_score": 0.52
+      "hot_score": 0.29
     },
     {
       "title_en": "Has electricity decoupled from natural gas prices in Germany?",
@@ -703,10 +983,76 @@
         "comments_url": "https://news.ycombinator.com/item?id=47675372"
       },
       "tags": [
-        "Energy",
-        "Finance"
+        "Energy"
       ],
-      "hot_score": 0.5
+      "hot_score": 0.28
+    },
+    {
+      "title_en": "Move Detroit",
+      "url": "https://www.movedetroit.com/program",
+      "title_zh": "Move Detroit 项目",
+      "created_display": "Created: Apr 07, 2026 / 14:04 PT",
+      "image_url": "https://cdn.prod.website-files.com/69710900e64634767b0291e2/69c97b6ea067ab1287c518fb_success_image.avif",
+      "summary_en": "Move Detroit acts as a civic tech program aimed at improving mobility, transit access, and urban life in Detroit. It typically brings together residents, local government, and tech partners to pilot data-driven transport solutions.",
+      "summary_zh": "Move Detroit 是一个公民科技计划，旨在改善底特律的出行、交通可达性和城市生活。它通常汇集居民、地方政府和科技伙伴，推动数据驱动的交通方案试点。",
+      "hn": {
+        "id": 47681361,
+        "type": "story",
+        "by": "rmason",
+        "score": 59,
+        "descendants": 82,
+        "time": 1775595893,
+        "comments_url": "https://news.ycombinator.com/item?id=47681361"
+      },
+      "tags": [
+        "Politics"
+      ],
+      "hot_score": 0.26
+    },
+    {
+      "title_en": "Audio Reactive LED Strips Are Diabolically Hard",
+      "url": "https://scottlawsonbc.com/post/audio-led",
+      "title_zh": "声音反应LED灯带异常难搞",
+      "created_display": "Created: Apr 07, 2026 / 06:55 PT",
+      "image_url": "https://scottlawsonbc.com/static/audio-led-06.jpg",
+      "summary_en": "The author dives into the challenges of building audio-reactive LED strips. Real-time audio analysis, color mapping, and hardware limitations create timing and perceptual traps that frustrate makers.",
+      "summary_zh": "作者深入分析声音响应LED灯带的实现难点：实时音频分析、颜色映射与硬件限制共同带来时序与感知的挑战，常让自制爱好者陷入困境。",
+      "hn": {
+        "id": 47675446,
+        "type": "story",
+        "by": "surprisetalk",
+        "score": 98,
+        "descendants": 28,
+        "time": 1775570114,
+        "comments_url": "https://news.ycombinator.com/item?id=47675446"
+      },
+      "hot_score": 0.25,
+      "tags": [
+        "Hardware"
+      ]
+    },
+    {
+      "title_en": "A truck driver spent 20 years making a scale model of every building in NYC",
+      "url": "https://www.smithsonianmag.com/smart-news/a-truck-drive-spent-20-years-making-this-astonishing-scale-model-of-every-single-building-in-new-york-city-180988443/",
+      "title_zh": "一名卡车司机花20年制作纽约市所有建筑的缩尺模型",
+      "created_display": "Created: Apr 05, 2026 / 22:22 PT",
+      "image_url": "https://th-thumbnailer.cdn-si-edu.com/G1N09dK0V7TdAbp9YbmOTT7FwRY=/fit-in/1600x0/filters:focal(750x500:751x501)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/b8/57/b857e0c7-ca4f-4125-8e59-aa66ff192cf3/city.jpg",
+      "summary_en": "A truck driver spent two decades building a precise scale model of every building in New York City, turning a lifelong hobby into a remarkable urban panorama. The project blends craftsmanship with data-driven representation, offering a personal, tangible record of a living city.",
+      "summary_zh": "一名卡车司机花了20年时间，逐座复制纽约市的所有建筑，做成精密的缩尺模型。这项手工与数据结合的工程，成为对这座活城的一部独特、可触及的记录。",
+      "hn": {
+        "id": 47657268,
+        "type": "story",
+        "by": "1659447091",
+        "score": 376,
+        "descendants": 64,
+        "time": 1775452944,
+        "comments_url": "https://news.ycombinator.com/item?id=47657268"
+      },
+      "tags": [
+        "Culture",
+        "Design"
+      ],
+      "hot_score": 0.24
     },
     {
       "title_en": "IPv6 is the only way forward",
@@ -729,7 +1075,7 @@
         "Web",
         "Security"
       ],
-      "hot_score": 0.48
+      "hot_score": 0.23
     },
     {
       "title_en": "A blind man made it possible for others with low vision to build Lego sets",
@@ -749,9 +1095,10 @@
         "comments_url": "https://news.ycombinator.com/item?id=47675893"
       },
       "tags": [
-        "Education"
+        "Education",
+        "Culture"
       ],
-      "hot_score": 0.37
+      "hot_score": 0.21
     },
     {
       "title_en": "You can't cancel a JavaScript promise (except sometimes you can)",
@@ -773,7 +1120,7 @@
       "tags": [
         "Programming"
       ],
-      "hot_score": 0.36
+      "hot_score": 0.2
     },
     {
       "title_en": "John Coltrane illustrates the mathematics of jazz",
@@ -793,31 +1140,77 @@
         "comments_url": "https://news.ycombinator.com/item?id=47671219"
       },
       "tags": [
+        "Culture",
         "Science"
       ],
-      "hot_score": 0.29
+      "hot_score": 0.19
     },
     {
-      "title_en": "A truck driver spent 20 years making a scale model of every building in NYC",
-      "url": "https://www.smithsonianmag.com/smart-news/a-truck-drive-spent-20-years-making-this-astonishing-scale-model-of-every-single-building-in-new-york-city-180988443/",
-      "title_zh": "一名卡车司机花20年制作纽约市所有建筑的缩尺模型",
-      "created_display": "Created: Apr 05, 2026 / 22:22 PT",
-      "image_url": "https://th-thumbnailer.cdn-si-edu.com/G1N09dK0V7TdAbp9YbmOTT7FwRY=/fit-in/1600x0/filters:focal(750x500:751x501)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/b8/57/b857e0c7-ca4f-4125-8e59-aa66ff192cf3/city.jpg",
-      "summary_en": "A truck driver spent two decades building a precise scale model of every building in New York City, turning a lifelong hobby into a remarkable urban panorama. The project blends craftsmanship with data-driven representation, offering a personal, tangible record of a living city.",
-      "summary_zh": "一名卡车司机花了20年时间，逐座复制纽约市的所有建筑，做成精密的缩尺模型。这项手工与数据结合的工程，成为对这座活城的一部独特、可触及的记录。",
+      "title_en": "How to get better at guitar",
+      "url": "https://www.jakeworth.com/posts/how-to-get-better-at-guitar/",
+      "title_zh": "如何把吉他弹得更好",
+      "created_display": "Created: Apr 05, 2026 / 09:14 PT",
+      "image_url": "https://jakeworth.com/twittercard.png",
+      "summary_en": "Clear, actionable guidance on improving guitar skills through deliberate practice, focused repetition, and mindful listening. The piece emphasizes structured routines, metronome work, and recording oneself to identify and fix mistakes, helping players progress faster.",
+      "summary_zh": "提供一套清晰可执行的练习方法，强调有目的的练习、专注重复和用心聆听。文章建议使用节拍器、分段练习并录音回放，以识别并纠正错误，从而更高效地提升演奏水平。",
       "hn": {
-        "id": 47657268,
+        "id": 47650887,
         "type": "story",
-        "by": "1659447091",
-        "score": 314,
-        "descendants": 49,
-        "time": 1775452944,
-        "comments_url": "https://news.ycombinator.com/item?id=47657268"
+        "by": "jwworth",
+        "score": 416,
+        "descendants": 213,
+        "time": 1775405652,
+        "comments_url": "https://news.ycombinator.com/item?id=47650887"
       },
       "tags": [
-        "Data"
+        "Education"
       ],
-      "hot_score": 0.25
+      "hot_score": 0.18
+    },
+    {
+      "title_en": "The Future of Everything Is Lies, I Guess",
+      "url": "https://aphyr.com/posts/411-the-future-of-everything-is-lies-i-guess",
+      "title_zh": "万物的未来，或许都是谎言",
+      "created_display": "Created: Apr 08, 2026 / 06:06 PT",
+      "image_url": null,
+      "summary_en": "An essay arguing many tech predictions are unreliable and progress is messy and nonlinear. It urges building robust systems and staying skeptical of hype rather than chasing fashionable prophecies.",
+      "summary_zh": "作者认为科技领域的很多预测并不可靠，技术进步往往是混乱且非线性的。文中主张着眼于构建稳健系统，避免被热炒的未来预测牵着走。",
+      "hn": {
+        "id": 47689648,
+        "type": "story",
+        "by": "pabs3",
+        "score": 3,
+        "descendants": 0,
+        "time": 1775653593,
+        "comments_url": "https://news.ycombinator.com/item?id=47689648"
+      },
+      "hot_score": 0.16,
+      "tags": [
+        "Science"
+      ]
+    },
+    {
+      "title_en": "The Image Boards of Hayao Miyazaki",
+      "url": "https://animationobsessive.substack.com/p/the-image-boards-of-hayao-miyazaki",
+      "title_zh": "宫崎骏的影像板",
+      "created_display": "Created: Apr 06, 2026 / 00:56 PT",
+      "image_url": null,
+      "summary_en": "An examination of Miyazaki's image boards, the visual planning tools used to sketch scenes and camera work. The boards reveal how early composition decisions, motifs, and storytelling cues evolved through meticulous planning behind Studio Ghibli's animation.",
+      "summary_zh": "本文解读宫崎骏的影像板——用于分镜与构图的视觉规划工具，揭示关键场景的前期构思如何通过细致的布局、主题和色彩规划逐步形成。",
+      "hn": {
+        "id": 47658104,
+        "type": "story",
+        "by": "vinhnx",
+        "score": 191,
+        "descendants": 16,
+        "time": 1775462194,
+        "comments_url": "https://news.ycombinator.com/item?id=47658104"
+      },
+      "tags": [
+        "Entertainment",
+        "Design"
+      ],
+      "hot_score": 0.13
     },
     {
       "title_en": "AI helps add 10k more photos to OldNYC",
@@ -840,52 +1233,123 @@
         "AI",
         "Data"
       ],
-      "hot_score": 0.18
+      "hot_score": 0.13
     },
     {
-      "title_en": "How to get better at guitar",
-      "url": "https://www.jakeworth.com/posts/how-to-get-better-at-guitar/",
-      "title_zh": "如何把吉他弹得更好",
-      "created_display": "Created: Apr 05, 2026 / 09:14 PT",
-      "image_url": "https://jakeworth.com/twittercard.png",
-      "summary_en": "Clear, actionable guidance on improving guitar skills through deliberate practice, focused repetition, and mindful listening. The piece emphasizes structured routines, metronome work, and recording oneself to identify and fix mistakes, helping players progress faster.",
-      "summary_zh": "提供一套清晰可执行的练习方法，强调有目的的练习、专注重复和用心聆听。文章建议使用节拍器、分段练习并录音回放，以识别并纠正错误，从而更高效地提升演奏水平。",
+      "title_en": "How the Vision Pro Rollout Inflamed Tensions at Apple",
+      "url": "https://www.wired.com/story/book-excerpt-mutiny-noam-scheiber-apple-vision-pro/",
+      "title_zh": "Vision Pro 推出如何点燃苹果内部紧张局势",
+      "created_display": "Created: Apr 07, 2026 / 22:30 PT",
+      "image_url": "https://media.wired.com/photos/69cd244228d35b2c1dfa6820/191:100/w_1280,c_limit/excerpt-AppleVisionPro_V2.jpg",
+      "summary_en": "An excerpt reveals internal debates and frictions at Apple during the Vision Pro rollout, including disagreements over product strategy, resource allocation, and organizational culture. The piece sheds light on how a bold new product line can stress existing processes even in a hardware giant.",
+      "summary_zh": "书摘揭示 Vision Pro 推出过程中苹果内部的分歧与紧张，包括对产品策略、资源分配和组织文化的不同意见。文章透视了在硬件巨头内部，一条大胆的新产品线如何给现有流程带来压力。",
       "hn": {
-        "id": 47650887,
+        "id": 47685704,
         "type": "story",
-        "by": "jwworth",
-        "score": 304,
-        "descendants": 147,
-        "time": 1775405652,
-        "comments_url": "https://news.ycombinator.com/item?id=47650887"
+        "by": "f_allwein",
+        "score": 10,
+        "descendants": 2,
+        "time": 1775626226,
+        "comments_url": "https://news.ycombinator.com/item?id=47685704"
       },
+      "hot_score": 0.11,
       "tags": [
-        "Education"
-      ],
-      "hot_score": 0.16
+        "Business",
+        "Culture",
+        "Hardware"
+      ]
     },
     {
-      "title_en": "The Image Boards of Hayao Miyazaki",
-      "url": "https://animationobsessive.substack.com/p/the-image-boards-of-hayao-miyazaki",
-      "title_zh": "宫崎骏的影像板",
-      "created_display": "Created: Apr 06, 2026 / 00:56 PT",
-      "image_url": null,
-      "summary_en": "An examination of Miyazaki's image boards, the visual planning tools used to sketch scenes and camera work. The boards reveal how early composition decisions, motifs, and storytelling cues evolved through meticulous planning behind Studio Ghibli's animation.",
-      "summary_zh": "本文解读宫崎骏的影像板——用于分镜与构图的视觉规划工具，揭示关键场景的前期构思如何通过细致的布局、主题和色彩规划逐步形成。",
+      "title_en": "We moved Railway's frontend off Next.js. Builds went from 10+ mins to under two",
+      "url": "https://blog.railway.com/p/moving-railways-frontend-off-nextjs",
+      "title_zh": "Railway 的前端从 Next.js 移走，构建时间从十多分钟降至两分钟内",
+      "created_display": "Created: Apr 07, 2026 / 23:01 PT",
+      "image_url": "https://res.cloudinary.com/railway/image/upload/v1775567332/blog/Moving-OG_aclrsn.png",
+      "summary_en": "Railway relocated its frontend away from Next.js, slashing build times from over 10 minutes to under two. The move likely relies on a leaner toolchain or bundler choices, enabling faster iteration and deployment at scale, though it may shift maintenance and migration costs.",
+      "summary_zh": "Railway 将前端从 Next.js 迁出，构建时间从十多分钟降至两分钟以下。此举很可能依赖于更精简的工具链或打包方案，提升了大规模迭代与部署的速度，但也伴随维护与迁移成本的变化。",
       "hn": {
-        "id": 47658104,
+        "id": 47685945,
         "type": "story",
-        "by": "vinhnx",
-        "score": 164,
-        "descendants": 15,
-        "time": 1775462194,
-        "comments_url": "https://news.ycombinator.com/item?id=47658104"
+        "by": "bundie",
+        "score": 7,
+        "descendants": 0,
+        "time": 1775628060,
+        "comments_url": "https://news.ycombinator.com/item?id=47685945"
+      },
+      "hot_score": 0.08,
+      "tags": [
+        "Programming",
+        "DevOps",
+        "Web"
+      ]
+    },
+    {
+      "title_en": "Binary obfuscation used in AAA Games",
+      "url": "https://blog.farzon.org/2026/04/binary-obfuscation-that-doesnt-kill-lto.html",
+      "title_zh": "AAA 游戏中的二进制混淆技术",
+      "created_display": "Created: Apr 05, 2026 / 13:37 PT",
+      "image_url": "https://blogger.googleusercontent.com/img/a/AVvXsEhPJQN6qeVy8lr8Rikfss5p82ORiNryYFRobl5Xunt61-vavRJxGqxlZeMWtzNsWV8MYWvIh6Ux4v-15tzmb-PX9oote0ptZ5d31jYyEkuGguWGEqQpYsJpv20IFnSL7GLflaO8jiXux8v13zhAskwEyNRXE9jOYmg1XScBXWe_9pG1LqlSVjPAlBWrdKc=w1200-h630-p-k-no-nu",
+      "summary_en": "AAA game developers deploy binary obfuscation to deter reverse engineering and cheating. The discussion covers how obfuscation interacts with LTO (link-time optimization) and the tradeoffs between security, performance, and tooling compatibility.",
+      "summary_zh": "AAA 级别游戏常用二进制混淆技术以防止逆向分析和修改。文章探讨混淆对链接时优化（LTO）的影响，以及安全性、性能与开发工具兼容性之间的权衡。",
+      "hn": {
+        "id": 47653642,
+        "type": "story",
+        "by": "noztol",
+        "score": 123,
+        "descendants": 71,
+        "time": 1775421475,
+        "comments_url": "https://news.ycombinator.com/item?id=47653642"
       },
       "tags": [
-        "Design",
-        "Culture"
+        "Security",
+        "Gaming"
       ],
-      "hot_score": 0.14
+      "hot_score": 0.06
+    },
+    {
+      "title_en": "A whole boss fight in 256 bytes",
+      "url": "https://hellmood.111mb.de//A_whole_boss_fight_in_256_bytes.html",
+      "title_zh": "用 256 字节实现完整 Boss 战",
+      "created_display": "Created: Apr 05, 2026 / 15:32 PT",
+      "image_url": "https://content.pouet.net/files/screenshots/00105/00105909.gif",
+      "summary_en": "A code-golf style achievement compressing a complete boss fight into just 256 bytes. It showcases extreme minification techniques and how careful data representation and control flow can fit a full game inside a tiny footprint.",
+      "summary_zh": "一项极致代码高尔夫的成就：用仅 256 字节实现一个完整的 Boss 战。展示了极致压缩技法，以及通过精简数据结构和控制流在极小的体积内表达完整游戏的可能性。",
+      "hn": {
+        "id": 47654626,
+        "type": "story",
+        "by": "HellMood",
+        "score": 116,
+        "descendants": 48,
+        "time": 1775428332,
+        "comments_url": "https://news.ycombinator.com/item?id=47654626"
+      },
+      "tags": [
+        "Programming",
+        "Gaming"
+      ],
+      "hot_score": 0.06
+    },
+    {
+      "title_en": "Your File System Is Already A Graph Database",
+      "url": "https://rumproarious.com/2026/04/04/your-file-system-is-already-a-graph-database/",
+      "title_zh": "你的文件系统其实已经是一个图数据库",
+      "created_display": "Created: Apr 05, 2026 / 20:06 PT",
+      "image_url": "https://rumproarious.com/img/rocket.png",
+      "summary_en": "The piece argues that a filesystem naturally forms a graph, with folders, files, symlinks, and metadata creating nodes and edges. Viewing FS through a graph lens suggests new data-querying approaches directly on storage.",
+      "summary_zh": "文中指出文件系统本质上就是一个图，目录、文件、符号链接与元数据共同构成节点和边。用图数据库思维去查询文件系统，可能带来对存储中关系的新洞察。",
+      "hn": {
+        "id": 47656518,
+        "type": "story",
+        "by": "alxndr",
+        "score": 85,
+        "descendants": 37,
+        "time": 1775444776,
+        "comments_url": "https://news.ycombinator.com/item?id=47656518"
+      },
+      "hot_score": 0.05,
+      "tags": [
+        "Data"
+      ]
     },
     {
       "title_en": "Show HN: Unicode Steganography",
@@ -904,34 +1368,33 @@
         "time": 1775566645,
         "comments_url": "https://news.ycombinator.com/item?id=47674606"
       },
-      "hot_score": 0.09,
+      "hot_score": 0.05,
       "tags": [
         "Show HN",
         "Security"
       ]
     },
     {
-      "title_en": "A whole boss fight in 256 bytes",
-      "url": "https://hellmood.111mb.de//A_whole_boss_fight_in_256_bytes.html",
-      "title_zh": "用 256 字节实现完整 Boss 战",
-      "created_display": "Created: Apr 05, 2026 / 15:32 PT",
-      "image_url": "https://content.pouet.net/files/screenshots/00105/00105909.gif",
-      "summary_en": "A code-golf style achievement compressing a complete boss fight into just 256 bytes. It showcases extreme minification techniques and how careful data representation and control flow can fit a full game inside a tiny footprint.",
-      "summary_zh": "一项极致代码高尔夫的成就：用仅 256 字节实现一个完整的 Boss 战。展示了极致压缩技法，以及通过精简数据结构和控制流在极小的体积内表达完整游戏的可能性。",
+      "title_en": "Running out of disk space in production",
+      "url": "https://alt-romes.github.io/posts/2026-04-01-running-out-of-disk-space-on-launch.html",
+      "title_zh": "生产环境磁盘空间告罄",
+      "created_display": "Created: Apr 03, 2026 / 07:42 PT",
+      "image_url": "https://alt-romes.github.io/images/running-out-of-disk-space-on-launch/architecture.svg",
+      "summary_en": "A production launch runs into disk space exhaustion, with notes on symptoms, root causes, and fixes. The piece emphasizes proactive storage planning and instrumentation to avoid similar outages.",
+      "summary_zh": "一次上线过程中遇到磁盘空间耗尽，文中记录了现象、根因与解决办法。强调提前的存储规划和监控对避免类似故障的重要性。",
       "hn": {
-        "id": 47654626,
+        "id": 47627217,
         "type": "story",
-        "by": "HellMood",
-        "score": 96,
-        "descendants": 35,
-        "time": 1775428332,
-        "comments_url": "https://news.ycombinator.com/item?id=47654626"
+        "by": "romes",
+        "score": 214,
+        "descendants": 117,
+        "time": 1775227348,
+        "comments_url": "https://news.ycombinator.com/item?id=47627217"
       },
       "tags": [
-        "Programming",
-        "Gaming"
+        "DevOps"
       ],
-      "hot_score": 0.06
+      "hot_score": 0.04
     },
     {
       "title_en": "SQLite in Production: Lessons from Running a Store on a Single File",
@@ -951,54 +1414,55 @@
         "comments_url": "https://news.ycombinator.com/item?id=47637353"
       },
       "tags": [
+        "Programming",
         "Data"
       ],
-      "hot_score": 0.05
-    },
-    {
-      "title_en": "Binary obfuscation used in AAA Games",
-      "url": "https://blog.farzon.org/2026/04/binary-obfuscation-that-doesnt-kill-lto.html",
-      "title_zh": "AAA 游戏中的二进制混淆技术",
-      "created_display": "Created: Apr 05, 2026 / 13:37 PT",
-      "image_url": "https://blogger.googleusercontent.com/img/a/AVvXsEhPJQN6qeVy8lr8Rikfss5p82ORiNryYFRobl5Xunt61-vavRJxGqxlZeMWtzNsWV8MYWvIh6Ux4v-15tzmb-PX9oote0ptZ5d31jYyEkuGguWGEqQpYsJpv20IFnSL7GLflaO8jiXux8v13zhAskwEyNRXE9jOYmg1XScBXWe_9pG1LqlSVjPAlBWrdKc=w1200-h630-p-k-no-nu",
-      "summary_en": "AAA game developers deploy binary obfuscation to deter reverse engineering and cheating. The discussion covers how obfuscation interacts with LTO (link-time optimization) and the tradeoffs between security, performance, and tooling compatibility.",
-      "summary_zh": "AAA 级别游戏常用二进制混淆技术以防止逆向分析和修改。文章探讨混淆对链接时优化（LTO）的影响，以及安全性、性能与开发工具兼容性之间的权衡。",
-      "hn": {
-        "id": 47653642,
-        "type": "story",
-        "by": "noztol",
-        "score": 81,
-        "descendants": 29,
-        "time": 1775421475,
-        "comments_url": "https://news.ycombinator.com/item?id=47653642"
-      },
-      "tags": [
-        "Security",
-        "Gaming"
-      ],
-      "hot_score": 0.05
-    },
-    {
-      "title_en": "Running out of disk space in production",
-      "url": "https://alt-romes.github.io/posts/2026-04-01-running-out-of-disk-space-on-launch.html",
-      "title_zh": "生产环境磁盘空间告罄",
-      "created_display": "Created: Apr 03, 2026 / 07:42 PT",
-      "image_url": "https://alt-romes.github.io/images/running-out-of-disk-space-on-launch/architecture.svg",
-      "summary_en": "A production launch runs into disk space exhaustion, with notes on symptoms, root causes, and fixes. The piece emphasizes proactive storage planning and instrumentation to avoid similar outages.",
-      "summary_zh": "一次上线过程中遇到磁盘空间耗尽，文中记录了现象、根因与解决办法。强调提前的存储规划和监控对避免类似故障的重要性。",
-      "hn": {
-        "id": 47627217,
-        "type": "story",
-        "by": "romes",
-        "score": 190,
-        "descendants": 100,
-        "time": 1775227348,
-        "comments_url": "https://news.ycombinator.com/item?id=47627217"
-      },
-      "tags": [
-        "DevOps"
-      ],
       "hot_score": 0.04
+    },
+    {
+      "title_en": "Show HN: We built a camera only robot vacuum for less than 300$ (Well almost)",
+      "url": "https://indraneelpatil.github.io/blog/2026/robot-vacuum/",
+      "title_zh": "我们用摄像头打造的机器人吸尘器，价格不足300美元（几乎）",
+      "created_display": "Created: Apr 05, 2026 / 22:08 PT",
+      "image_url": "https://indraneelpatil.github.io/assets/img/robo_vac/robo_vac_build.jpeg",
+      "summary_en": "A camera-only robot vacuum prototype demonstrates a low-cost autonomous cleaner under $300. While-costs are appealing, navigation and mapping trade-offs highlight practical limits of camera-only autonomy.",
+      "summary_zh": "一个仅用摄像头的机器人吸尘器原型，成本声称低于300美元。尽管成本具吸引力，但导航与地图构建等方面的取舍也显现出摄像头单一方案的现实局限。",
+      "hn": {
+        "id": 47657204,
+        "type": "story",
+        "by": "indraneelpatil",
+        "score": 71,
+        "descendants": 22,
+        "time": 1775452100,
+        "comments_url": "https://news.ycombinator.com/item?id=47657204"
+      },
+      "hot_score": 0.04,
+      "tags": [
+        "Show HN",
+        "Hardware"
+      ]
+    },
+    {
+      "title_en": "Slightly safer vibecoding by adopting old hacker habits",
+      "url": "http://addxorrol.blogspot.com/2026/03/slightly-safer-vibecoding-by-adopting.html",
+      "title_zh": "通过采用老派黑客的做法让 vibecoding 更安全",
+      "created_display": "Created: Apr 02, 2026 / 18:53 PT",
+      "image_url": "https://resources.blogblog.com/img/icon18_edit_allbkg.gif",
+      "summary_en": "Revisits old hacker habits to make vibecoding safer.",
+      "summary_zh": "通过借鉴早期黑客的做法来提升 vibecoding 的安全性。",
+      "hn": {
+        "id": 47622436,
+        "type": "story",
+        "by": "transpute",
+        "score": 146,
+        "descendants": 81,
+        "time": 1775181195,
+        "comments_url": "https://news.ycombinator.com/item?id=47622436"
+      },
+      "tags": [
+        "Security"
+      ],
+      "hot_score": 0.02
     },
     {
       "title_en": "A database of analog cameras that can be 3D printed",
@@ -1012,16 +1476,40 @@
         "id": 47624572,
         "type": "story",
         "by": "thomasjb",
-        "score": 89,
-        "descendants": 10,
+        "score": 144,
+        "descendants": 21,
         "time": 1775206941,
         "comments_url": "https://news.ycombinator.com/item?id=47624572"
       },
       "tags": [
-        "Hardware",
         "Open Source",
+        "Hardware",
         "Data",
         "Legal"
+      ],
+      "hot_score": 0.02
+    },
+    {
+      "title_en": "Native Americans had dice 12k years ago",
+      "url": "https://www.nbcnews.com/science/science-news/native-americans-dice-games-probability-study-rcna266426",
+      "title_zh": "美洲原住民1.2万年前已有骰子",
+      "created_display": "Created: Apr 03, 2026 / 17:59 PT",
+      "image_url": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-04/260402-Early-examples-of-Native-American-dice-ew-132p-fbf33e.jpg",
+      "summary_en": "Archaeologists report 12,000-year-old dice from North America, indicating that dice gaming and probabilistic thinking have deep roots on the continent. The find adds nuance to our view of prehistoric leisure and mathematics, suggesting complex social play was present far earlier than previously thought.",
+      "summary_zh": "考古学家发现北美地区早于一万两千年的骰子，表明该地区早在史前就有掷骰游戏和概率思维。此发现为人们对原始娱乐和数学思维的理解增添新细节，显示在此前人类社会就已进行复杂的共同游戏。",
+      "hn": {
+        "id": 47634422,
+        "type": "story",
+        "by": "delichon",
+        "score": 108,
+        "descendants": 48,
+        "time": 1775264348,
+        "comments_url": "https://news.ycombinator.com/item?id=47634422"
+      },
+      "tags": [
+        "Science",
+        "Culture",
+        "Gaming"
       ],
       "hot_score": 0.02
     },
@@ -1037,60 +1525,83 @@
         "id": 47637665,
         "type": "story",
         "by": "senko",
-        "score": 58,
-        "descendants": 16,
+        "score": 91,
+        "descendants": 32,
         "time": 1775297311,
         "comments_url": "https://news.ycombinator.com/item?id=47637665"
       },
-      "hot_score": 0.02,
       "tags": [
         "Culture"
-      ]
+      ],
+      "hot_score": 0.02
     },
     {
-      "title_en": "Slightly safer vibecoding by adopting old hacker habits",
-      "url": "http://addxorrol.blogspot.com/2026/03/slightly-safer-vibecoding-by-adopting.html",
-      "title_zh": "通过采用老派黑客的做法让 vibecoding 更安全",
-      "created_display": "Created: Apr 02, 2026 / 18:53 PT",
-      "image_url": "https://resources.blogblog.com/img/icon18_edit_allbkg.gif",
-      "summary_en": "Revisits old hacker habits to make vibecoding safer.",
-      "summary_zh": "通过借鉴早期黑客的做法来提升 vibecoding 的安全性。",
+      "title_en": "Hobby CNC machining and resin casting (2015)",
+      "url": "https://lcamtuf.coredump.cx/gcnc/",
+      "title_zh": "业余 CNC 加工与树脂铸造（2015）",
+      "created_display": "Created: Apr 04, 2026 / 14:00 PT",
+      "image_url": null,
+      "summary_en": "A 2015-era hobbyist note detailing CNC milling and resin casting techniques, tools, and projects. It serves as a historical snapshot of DIY fabrication practices and the gap between hobbyist experiments and professional manufacture.",
+      "summary_zh": "2015年的业余笔记，讲述CNC加工与树脂铸造的技巧、工具与项目，为DIY制造实践的历史快照，以及业余尝试与专业制造之间的差距。",
       "hn": {
-        "id": 47622436,
+        "id": 47643326,
         "type": "story",
-        "by": "transpute",
-        "score": 90,
-        "descendants": 43,
-        "time": 1775181195,
-        "comments_url": "https://news.ycombinator.com/item?id=47622436"
+        "by": "achierius",
+        "score": 30,
+        "descendants": 11,
+        "time": 1775336456,
+        "comments_url": "https://news.ycombinator.com/item?id=47643326"
       },
       "hot_score": 0.01,
       "tags": [
-        "Programming",
-        "Security"
+        "Hardware",
+        "Education"
       ]
     },
     {
-      "title_en": "Native Americans had dice 12k years ago",
-      "url": "https://www.nbcnews.com/science/science-news/native-americans-dice-games-probability-study-rcna266426",
-      "title_zh": "美洲原住民1.2万年前已有骰子",
-      "created_display": "Created: Apr 03, 2026 / 17:59 PT",
-      "image_url": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-04/260402-Early-examples-of-Native-American-dice-ew-132p-fbf33e.jpg",
-      "summary_en": "Archaeologists report 12,000-year-old dice from North America, indicating that dice gaming and probabilistic thinking have deep roots on the continent. The find adds nuance to our view of prehistoric leisure and mathematics, suggesting complex social play was present far earlier than previously thought.",
-      "summary_zh": "考古学家发现北美地区早于一万两千年的骰子，表明该地区早在史前就有掷骰游戏和概率思维。此发现为人们对原始娱乐和数学思维的理解增添新细节，显示在此前人类社会就已进行复杂的共同游戏。",
+      "title_en": "The Harvard Library Passport",
+      "url": "https://fi-le.net/stamps/",
+      "title_zh": "哈佛图书馆护照计划",
+      "created_display": "Created: Apr 05, 2026 / 15:32 PT",
+      "image_url": "https://fi-le.net/images/preview.png",
+      "summary_en": "The Harvard Library Passport concept proposes portable tokens or stamps to access resources, balancing open standards with privacy controls. It invites reflection on digital identity in research infrastructure.",
+      "summary_zh": "哈佛图书馆护照计划提出使用便携令牌/凭证来访问资源，力求在开放标准与隐私控制之间取得平衡。引发对研究基础设施中数字身份的思考。",
       "hn": {
-        "id": 47634422,
+        "id": 47654629,
         "type": "story",
-        "by": "delichon",
-        "score": 50,
-        "descendants": 17,
-        "time": 1775264348,
-        "comments_url": "https://news.ycombinator.com/item?id=47634422"
+        "by": "fi-le",
+        "score": 27,
+        "descendants": 7,
+        "time": 1775428337,
+        "comments_url": "https://news.ycombinator.com/item?id=47654629"
       },
       "hot_score": 0.01,
       "tags": [
-        "Science",
-        "Gaming"
+        "Privacy",
+        "Education",
+        "DevOps"
+      ]
+    },
+    {
+      "title_en": "Teardown of unreleased LG Rollable shows why rollable phones aren't a thing",
+      "url": "https://arstechnica.com/gadgets/2026/04/teardown-of-unreleased-lg-rollable-shows-why-rollable-phones-arent-a-thing/",
+      "title_zh": "未发布的LG可卷曲手机拆解：为何可卷曲手机难成气候",
+      "created_display": "Created: Apr 07, 2026 / 08:07 PT",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/LG-rollable-1152x648.jpg",
+      "summary_en": "A teardown of an unreleased LG rollable phone reveals mechanical complexity, reliability concerns, and cost drivers that hinder mainstream adoption. The insights explain why rollables haven't yet taken off in the market.",
+      "summary_zh": "对未发布的LG可卷曲手机进行拆解，显示出机械复杂性、可靠性风险与高成本等因素，解释了为何这类设备还未走向主流。",
+      "hn": {
+        "id": 47676561,
+        "type": "story",
+        "by": "DamnInteresting",
+        "score": 5,
+        "descendants": 0,
+        "time": 1775574465,
+        "comments_url": "https://news.ycombinator.com/item?id=47676561"
+      },
+      "hot_score": 0.01,
+      "tags": [
+        "Hardware"
       ]
     },
     {
@@ -1113,9 +1624,10 @@
       "hot_score": 0.01,
       "tags": [
         "Data",
-        "Energy",
+        "Science",
         "Security",
-        "DevOps"
+        "DevOps",
+        "Energy"
       ]
     },
     {
@@ -1138,6 +1650,7 @@
       "hot_score": 0.0,
       "tags": [
         "Hardware",
+        "Programming",
         "AI"
       ]
     }
