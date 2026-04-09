@@ -20,29 +20,29 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='1042' data-hn-time='1775662800'>
+<div class='hn-top-story-item' data-hn-score='304' data-hn-time='1775694368'>
 <span class='hn-top-story-rank'>1</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/08/top_stories_04082026#story-47697870'>LittleSnitch for Linux</a>
+ <a class='hn-top-story-link' href='https://obdev.at/products/littlesnitch-linux/index.html' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Linux 版 Little Snitch</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 304</span> <span class='hn-top-story-comments'>&#128172; 115</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Open Source</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='1363' data-hn-time='1775662800'>
+<span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/04/08/top_stories_04082026#story-47691730'>I ported Mac OS X to the Nintendo Wii</a>
  <a class='hn-top-story-link' href='https://bryankeller.github.io/2026/04/08/porting-mac-os-x-nintendo-wii.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>我把 Mac OS X 移植到了任天堂 Wii</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 21</span> <span class='hn-top-story-score'>&#9650; 1042</span> <span class='hn-top-story-comments'>&#128172; 194</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Gaming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 1363</span> <span class='hn-top-story-comments'>&#128172; 232</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Gaming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='110' data-hn-time='1775683986'>
-<span class='hn-top-story-rank'>2</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/08/top_stories_04082026#story-47696562'>Show HN: Is Hormuz open yet?</a>
- <a class='hn-top-story-link' href='https://www.ishormuzopenyet.com/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Show HN：Hormuz 开放了吗？</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 15</span> <span class='hn-top-story-score'>&#9650; 110</span> <span class='hn-top-story-comments'>&#128172; 43</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>DevOps</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='1662' data-hn-time='1775638422'>
+<div class='hn-top-story-item' data-hn-score='1882' data-hn-time='1775638422'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -50,84 +50,84 @@ Sort:
  <a class='hn-top-story-link' href='https://piechowski.io/post/git-commands-before-reading-code/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>在读代码前我会执行的 Git 命令</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 1662</span> <span class='hn-top-story-comments'>&#128172; 357</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.5</span> <span class='hn-top-story-score'>&#9650; 1882</span> <span class='hn-top-story-comments'>&#128172; 401</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='416' data-hn-time='1775659575'>
+<div class='hn-top-story-item' data-hn-score='306' data-hn-time='1775683986'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/08/top_stories_04082026#story-47690977'>Microsoft terminates VeraCrypt account, halting Windows updates</a>
- <a class='hn-top-story-link' href='https://www.404media.co/microsoft-abruptly-terminates-veracrypt-account-halting-windows-updates/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/08/top_stories_04082026#story-47696562'>Show HN: Is Hormuz open yet?</a>
+ <a class='hn-top-story-link' href='https://www.ishormuzopenyet.com/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>微软突然终止 VeraCrypt 账户，导致 Windows 更新中断</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.9</span> <span class='hn-top-story-score'>&#9650; 416</span> <span class='hn-top-story-comments'>&#128172; 163</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-zh'>Show HN：Hormuz 开放了吗？</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.9</span> <span class='hn-top-story-score'>&#9650; 306</span> <span class='hn-top-story-comments'>&#128172; 135</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>DevOps</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='214' data-hn-time='1775670265'>
+<div class='hn-top-story-item' data-hn-score='1168' data-hn-time='1775633019'>
 <span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/08/top_stories_04082026#story-47693679'>I've been waiting over a month for Anthropic to respond to my billing issue</a>
- <a class='hn-top-story-link' href='https://nickvecchioni.github.io/thoughts/2026/04/08/anthropic-support-doesnt-exist/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>我等了一个多月，Anthropic 对我的计费问题没有回应</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.8</span> <span class='hn-top-story-score'>&#9650; 214</span> <span class='hn-top-story-comments'>&#128172; 116</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='584' data-hn-time='1775651174'>
-<span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/08/top_stories_04082026#story-47689237'>US cities are axing Flock Safety surveillance technology</a>
- <a class='hn-top-story-link' href='https://www.cnet.com/home/security/when-flock-comes-to-town-why-cities-are-axing-the-controversial-surveillance-technology/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>美国城市正在削减Flock Safety监控技术</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.6</span> <span class='hn-top-story-score'>&#9650; 584</span> <span class='hn-top-story-comments'>&#128172; 336</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1083' data-hn-time='1775633019'>
-<span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/04/08/top_stories_04082026#story-47686549'>Veracrypt project update</a>
  <a class='hn-top-story-link' href='https://sourceforge.net/p/veracrypt/discussion/general/thread/9620d7a4b3/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Veracrypt 项目更新</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.5</span> <span class='hn-top-story-score'>&#9650; 1083</span> <span class='hn-top-story-comments'>&#128172; 406</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.1</span> <span class='hn-top-story-score'>&#9650; 1168</span> <span class='hn-top-story-comments'>&#128172; 432</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='70' data-hn-time='1775681187'>
-<span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='223' data-hn-time='1775681187'>
+<span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/04/08/top_stories_04082026#story-47696035'>John Deere to pay $99M in right-to-repair settlement</a>
  <a class='hn-top-story-link' href='https://www.thedrive.com/news/john-deere-to-pay-99-million-in-monumental-right-to-repair-settlement' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>约翰迪尔就修理权达成9900万美元和解</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.4</span> <span class='hn-top-story-score'>&#9650; 70</span> <span class='hn-top-story-comments'>&#128172; 13</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.7</span> <span class='hn-top-story-score'>&#9650; 223</span> <span class='hn-top-story-comments'>&#128172; 60</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='107' data-hn-time='1775676214'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='664' data-hn-time='1775651174'>
+<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/08/top_stories_04082026#story-47689237'>US cities are axing Flock Safety surveillance technology</a>
+ <a class='hn-top-story-link' href='https://www.cnet.com/home/security/when-flock-comes-to-town-why-cities-are-axing-the-controversial-surveillance-technology/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>美国城市正在削减Flock Safety监控技术</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 664</span> <span class='hn-top-story-comments'>&#128172; 390</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='502' data-hn-time='1775659575'>
+<span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/08/top_stories_04082026#story-47690977'>Microsoft terminates VeraCrypt account, halting Windows updates</a>
+ <a class='hn-top-story-link' href='https://www.404media.co/microsoft-abruptly-terminates-veracrypt-account-halting-windows-updates/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>微软突然终止 VeraCrypt 账户，导致 Windows 更新中断</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 502</span> <span class='hn-top-story-comments'>&#128172; 186</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Open Source</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='71' data-hn-time='1775696146'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/08/top_stories_04082026#story-47695012'>USB for Software Developers: An introduction to writing userspace USB drivers</a>
- <a class='hn-top-story-link' href='https://werwolv.net/posts/usb_for_sw_devs/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/08/top_stories_04082026#story-47698082'>Newly created Polymarket accounts win big on well-timed Iran ceasefire bets</a>
+ <a class='hn-top-story-link' href='https://www.theguardian.com/business/2026/apr/08/polymarket-trump-us-iran-ceasefire' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>面向软件开发者的 USB：用户态 USB 驱动入门</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.6</span> <span class='hn-top-story-score'>&#9650; 107</span> <span class='hn-top-story-comments'>&#128172; 16</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>Polymarket 新账户在伊朗停火预测中大赚一笔</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 71</span> <span class='hn-top-story-comments'>&#128172; 35</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='218' data-hn-time='1775664092'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='307' data-hn-time='1775670265'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/08/top_stories_04082026#story-47692043'>Muse Spark: Scaling towards personal superintelligence</a>
- <a class='hn-top-story-link' href='https://ai.meta.com/blog/introducing-muse-spark-msl/?_fb_noscript=1' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/08/top_stories_04082026#story-47693679'>I've been waiting over a month for Anthropic to respond to my billing issue</a>
+ <a class='hn-top-story-link' href='https://nickvecchioni.github.io/thoughts/2026/04/08/anthropic-support-doesnt-exist/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Muse Spark：向个人超级智能的规模化迈进</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.6</span> <span class='hn-top-story-score'>&#9650; 218</span> <span class='hn-top-story-comments'>&#128172; 258</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>我等了一个多月，Anthropic 对我的计费问题没有回应</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 307</span> <span class='hn-top-story-comments'>&#128172; 149</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -177,7 +177,7 @@ Your browser does not support the audio element.
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/04/08/top_stories_04082026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>25</b> <span class="hn-row-sep">·</span> AI <b>24</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>25</b> <span class="hn-row-sep">·</span> Programming <b>19</b></span>
 </a>
 </div>
 </div>
