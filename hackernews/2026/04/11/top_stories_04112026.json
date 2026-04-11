@@ -4,21 +4,44 @@
     "source": "https://news.ycombinator.com/",
     "api": "https://github.com/HackerNews/API",
     "count_requested": 50,
-    "count_written": 49,
-    "reused_same_day": 0,
-    "reused_cross_day": 36,
-    "new_llm_enriched": 13,
-    "scrape_time_display": "00:09, April 11, 2026 (PDT)",
+    "count_written": 67,
+    "reused_same_day": 31,
+    "reused_cross_day": 0,
+    "new_llm_enriched": 18,
+    "scrape_time_display": "07:36, April 11, 2026 (PDT)",
     "timezone": "America/Los_Angeles",
     "date_dir": "2026/04/11",
     "content_date": "2026-04-11",
-    "run_time_local": "00:09, April 11, 2026 (PDT)",
-    "run_time_utc": "2026-04-11 07:09:12 UTC",
+    "run_time_local": "07:36, April 11, 2026 (PDT)",
+    "run_time_utc": "2026-04-11 14:36:20 UTC",
     "incremental": true,
     "stories_max": 100,
-    "hot_score_time_utc": "2026-04-11 07:10:12 UTC"
+    "hot_score_time_utc": "2026-04-11 14:37:29 UTC"
   },
   "items": [
+    {
+      "title_en": "Bitcoin miners are losing on every coin produced as difficulty drops",
+      "url": "https://www.coindesk.com/markets/2026/03/22/bitcoin-miners-are-losing-usd19-000-on-every-btc-produced-as-difficulty-drops-7-8",
+      "title_zh": "比特币矿工在难度下降时每产出一个币时亏损约 1.9 万美元",
+      "created_display": "Created: Apr 11, 2026 / 06:22 PT",
+      "image_url": "https://cdn.sanity.io/images/s3y3vcno/production/09c7af12c3ed9c083ddc433486f71cdad7b77bfd-2560x1416.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+      "summary_en": "Bitcoin miners are losing around $19,000 on each newly minted BTC as network difficulty falls. The dynamic underscores how energy costs, capital expenditure, and still-present price volatility can erode profitability, raising questions about the economics of large-scale mining in a changing hash-rate regime.",
+      "summary_zh": "尽管难度下降，但矿工在每产出一个 BTC 时的亏损约为 1.9 万美元，凸显能源成本、资本支出以及价格波动仍对盈利造成压力，提出在不断变化的哈希率环境中大规模矿业的经济性问题。",
+      "hn": {
+        "id": 47730370,
+        "type": "story",
+        "by": "PaulHoule",
+        "score": 66,
+        "descendants": 60,
+        "time": 1775913745,
+        "comments_url": "https://news.ycombinator.com/item?id=47730370"
+      },
+      "hot_score": 7.78,
+      "tags": [
+        "Finance",
+        "Energy"
+      ]
+    },
     {
       "title_en": "Artemis II safely splashes down",
       "url": "https://www.cbsnews.com/live-updates/artemis-ii-splashdown-return/",
@@ -31,15 +54,38 @@
         "id": 47725583,
         "type": "story",
         "by": "areoform",
-        "score": 781,
-        "descendants": 259,
+        "score": 1042,
+        "descendants": 335,
         "time": 1775866251,
         "comments_url": "https://news.ycombinator.com/item?id=47725583"
       },
       "tags": [
         "Space"
       ],
-      "hot_score": 14.98
+      "hot_score": 6.74
+    },
+    {
+      "title_en": "Polymarket gamblers betting millions on war",
+      "url": "https://www.theguardian.com/business/2026/apr/11/polymarket-gamblers-betting-iran-war-ukraine-news-truth",
+      "title_zh": "Polymarket gamblers betting millions on war",
+      "created_display": "Created: Apr 11, 2026 / 05:28 PT",
+      "image_url": "https://i.guim.co.uk/img/media/b27de2f58de3e8b2463d2633f9accc372f8bfb4a/0_86_2593_2076/master/2593.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=f10c8036fcbdfa28217edf5466ab5336",
+      "summary_en": "Polymarket markets see millions wagered on war-related outcomes, reflecting broad interest in real-time geopolitical forecasting. The activity underscores both the appeal of crowdsourced predictions and concerns about regulatory risk and market integrity in sensitive topics.",
+      "summary_zh": "Polymarket 的战争相关预测市场吸引了数百万美元的下注，显示出对实时地缘政治预测的广泛兴趣，同时也暴露出在敏感议题上的监管风险与市场完整性问题。",
+      "hn": {
+        "id": 47729994,
+        "type": "story",
+        "by": "sandebert",
+        "score": 88,
+        "descendants": 41,
+        "time": 1775910484,
+        "comments_url": "https://news.ycombinator.com/item?id=47729994"
+      },
+      "hot_score": 6.69,
+      "tags": [
+        "Finance",
+        "Politics"
+      ]
     },
     {
       "title_en": "Filing the corners off my MacBooks",
@@ -53,15 +99,85 @@
         "id": 47724352,
         "type": "story",
         "by": "normanvalentine",
-        "score": 657,
-        "descendants": 342,
+        "score": 1051,
+        "descendants": 489,
         "time": 1775859400,
         "comments_url": "https://news.ycombinator.com/item?id=47724352"
       },
       "tags": [
         "Hardware"
       ],
-      "hot_score": 8.91
+      "hot_score": 5.58
+    },
+    {
+      "title_en": "Cirrus Labs to join OpenAI",
+      "url": "https://cirruslabs.org/",
+      "title_zh": "Cirrus Labs 将加入 OpenAI",
+      "created_display": "Created: Apr 11, 2026 / 06:01 PT",
+      "image_url": "https://cirruslabs.org/assets/cirruslabs-bright-with-bg.png",
+      "summary_en": "Cirrus Labs is joining OpenAI, signaling closer collaboration between an AI-focused research/innovation outfit and the leading platform company. The move could accelerate tooling integration and joint development for developers and enterprises, while illustrating ongoing consolidation in the AI ecosystem.",
+      "summary_zh": "Cirrus Labs 将加入 OpenAI，这一举动可能推动双方在工具链与平台整合方面的深度合作，同时体现 AI 生态系统的持续整合。此举或促进开发者工具与企业级 AI 部署的协同开发。",
+      "hn": {
+        "id": 47730194,
+        "type": "story",
+        "by": "seekdeep",
+        "score": 50,
+        "descendants": 17,
+        "time": 1775912494,
+        "comments_url": "https://news.ycombinator.com/item?id=47730194"
+      },
+      "hot_score": 4.89,
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title_en": "France's government is ditching Windows for Linux, says US tech a strategic risk",
+      "url": "https://www.xda-developers.com/frances-government-ditching-windows-for-linux/",
+      "title_zh": "法国政府放弃 Windows 转向 Linux，被视为对美方的战略风险",
+      "created_display": "Created: Apr 11, 2026 / 01:25 PT",
+      "image_url": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2025/12/linux-and-windows-laptops.jpg?w=1600&h=900&fit=crop",
+      "summary_en": "France is moving its government desktop environment from Windows to Linux, citing sovereignty, security, and cost considerations. The move has become a flashpoint in debates about strategic tech dependencies, potentially reshaping public-sector procurement and software supply chains.",
+      "summary_zh": "法国政府将办公桌面系统从 Windows 转向 Linux，理由包括主权、安全与成本考量。这一举动引发关于对美方技术依赖的战略性争论，可能影响公共部门采购与软件供应链的韧性。",
+      "hn": {
+        "id": 47728653,
+        "type": "story",
+        "by": "pabs3",
+        "score": 175,
+        "descendants": 109,
+        "time": 1775895914,
+        "comments_url": "https://news.ycombinator.com/item?id=47728653"
+      },
+      "hot_score": 3.94,
+      "tags": [
+        "Open Source",
+        "Politics",
+        "Security"
+      ]
+    },
+    {
+      "title_en": "South Korea introduces universal basic mobile data access",
+      "url": "https://www.theregister.com/2026/04/10/south_korea_data_access_universal/",
+      "title_zh": "韩国推出全民基本移动数据接入",
+      "created_display": "Created: Apr 11, 2026 / 06:27 PT",
+      "image_url": "https://regmedia.co.uk/2026/04/10/supplied_korea_data_scheme.jpg",
+      "summary_en": "South Korea announces universal basic mobile data access, ensuring baseline data for all citizens. The policy aims to close the digital divide and spur digital services, while telecoms and regulators work out subsidies, network capacity, and privacy safeguards as it scales.",
+      "summary_zh": "韩国宣布全民基本移动数据接入，确保所有公民拥有基础数据。该政策旨在缩小数字鸿沟、促进数字服务，同时在扩大规模的过程中需要解决补贴、网络容量与隐私保护等挑战。",
+      "hn": {
+        "id": 47730407,
+        "type": "story",
+        "by": "saikatsg",
+        "score": 31,
+        "descendants": 2,
+        "time": 1775914036,
+        "comments_url": "https://news.ycombinator.com/item?id=47730407"
+      },
+      "hot_score": 3.76,
+      "tags": [
+        "Data",
+        "Privacy",
+        "Politics"
+      ]
     },
     {
       "title_en": "20 years on AWS and never not my job",
@@ -75,15 +191,15 @@
         "id": 47727711,
         "type": "story",
         "by": "cperciva",
-        "score": 86,
-        "descendants": 7,
+        "score": 208,
+        "descendants": 49,
         "time": 1775885470,
         "comments_url": "https://news.ycombinator.com/item?id=47727711"
       },
-      "hot_score": 8.26,
       "tags": [
         "DevOps"
-      ]
+      ],
+      "hot_score": 2.72
     },
     {
       "title_en": "1D Chess",
@@ -97,8 +213,8 @@
         "id": 47719740,
         "type": "story",
         "by": "burnt-resistor",
-        "score": 766,
-        "descendants": 138,
+        "score": 884,
+        "descendants": 154,
         "time": 1775835448,
         "comments_url": "https://news.ycombinator.com/item?id=47719740"
       },
@@ -106,7 +222,76 @@
         "Gaming",
         "AI"
       ],
-      "hot_score": 4.41
+      "hot_score": 2.69
+    },
+    {
+      "title_en": "Installing every* Firefox extension",
+      "url": "https://jack.cab/blog/every-firefox-extension",
+      "title_zh": "安装全部 Firefox 扩展",
+      "created_display": "Created: Apr 10, 2026 / 14:56 PT",
+      "image_url": "https://jack.cab/_astro/launch.fuIAiunJ_qq4pe.png",
+      "summary_en": "The author tests the Firefox extension ecosystem by installing every extension, documenting conflicts, performance, and sanity checks. The result reveals that the browser's extension ecosystem is powerful but can become unwieldy, underscoring the need for better extension vetting and performance budgeting.",
+      "summary_zh": "作者尝试安装所有 Firefox 扩展，记录冲突、性能与可用性。结果显示扩展生态强大却易变得难以维护，强调需要更严格的扩展筛选与性能预算。",
+      "hn": {
+        "id": 47724118,
+        "type": "story",
+        "by": "RohanAdwankar",
+        "score": 492,
+        "descendants": 66,
+        "time": 1775858193,
+        "comments_url": "https://news.ycombinator.com/item?id=47724118"
+      },
+      "tags": [
+        "Web"
+      ],
+      "hot_score": 2.53
+    },
+    {
+      "title_en": "Show HN: Pardonned.com – A searchable database of US Pardons",
+      "url": "https://news.ycombinator.com/item?id=47727960",
+      "title_zh": "Show HN: Pardonned.com – 美国赦免案件的可检索数据库",
+      "created_display": "Created: Apr 10, 2026 / 23:19 PT",
+      "image_url": "https://news.ycombinator.com/y18.svg",
+      "summary_en": "Pardonned.com offers a searchable database of U.S. pardons, making an otherwise opaque area of legal history accessible to researchers, journalists, and the public. The project demonstrates how open data approaches can surface important records, with potential for API access and data exports to support analysis.",
+      "summary_zh": "Pardonned.com 提供美国赦免案件的可检索数据库，方便研究者、记者与公众获取这类法律历史数据。该项目展示了开放数据在揭示重要记录方面的价值，同时具备 API 与数据导出以支持分析的潜力。",
+      "hn": {
+        "id": 47727960,
+        "type": "story",
+        "by": "vidluther",
+        "score": 118,
+        "descendants": 40,
+        "time": 1775888365,
+        "comments_url": "https://news.ycombinator.com/item?id=47727960"
+      },
+      "hot_score": 1.76,
+      "tags": [
+        "Show HN",
+        "Data",
+        "Legal"
+      ]
+    },
+    {
+      "title_en": "France to ditch Windows for Linux to reduce reliance on US tech",
+      "url": "https://techcrunch.com/2026/04/10/france-to-ditch-windows-for-linux-to-reduce-reliance-on-us-tech/",
+      "title_zh": "法国将放弃 Windows 改用 Linux，降低对美国科技的依赖",
+      "created_display": "Created: Apr 10, 2026 / 08:20 PT",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/04/france-flag-2233577438.jpg?resize=1200,873",
+      "summary_en": "France plans to replace Windows with Linux on government devices to reduce reliance on US tech and tighten sovereignty. The move signals growing appetite for open-source in public sector procurement and raises questions about migration complexity and vendor ecosystems.",
+      "summary_zh": "法国计划把政府设备从 Windows 切换到 Linux，以减少对美国科技的依赖。这一举措凸显公共部门对开源软件的越来越大兴趣，同时也带来迁移的挑战与生态影响。",
+      "hn": {
+        "id": 47719486,
+        "type": "story",
+        "by": "Teever",
+        "score": 556,
+        "descendants": 662,
+        "time": 1775834448,
+        "comments_url": "https://news.ycombinator.com/item?id=47719486"
+      },
+      "tags": [
+        "Open Source",
+        "Politics"
+      ],
+      "hot_score": 1.66
     },
     {
       "title_en": "Sam Altman's response to Molotov cocktail incident",
@@ -127,55 +312,10 @@
       },
       "tags": [
         "Security",
+        "Politics",
         "AI"
       ],
-      "hot_score": 4.41
-    },
-    {
-      "title_en": "Installing every* Firefox extension",
-      "url": "https://jack.cab/blog/every-firefox-extension",
-      "title_zh": "安装全部 Firefox 扩展",
-      "created_display": "Created: Apr 10, 2026 / 14:56 PT",
-      "image_url": "https://jack.cab/_astro/launch.fuIAiunJ_qq4pe.png",
-      "summary_en": "The author tests the Firefox extension ecosystem by installing every extension, documenting conflicts, performance, and sanity checks. The result reveals that the browser's extension ecosystem is powerful but can become unwieldy, underscoring the need for better extension vetting and performance budgeting.",
-      "summary_zh": "作者尝试安装所有 Firefox 扩展，记录冲突、性能与可用性。结果显示扩展生态强大却易变得难以维护，强调需要更严格的扩展筛选与性能预算。",
-      "hn": {
-        "id": 47724118,
-        "type": "story",
-        "by": "RohanAdwankar",
-        "score": 310,
-        "descendants": 32,
-        "time": 1775858193,
-        "comments_url": "https://news.ycombinator.com/item?id=47724118"
-      },
-      "tags": [
-        "Web",
-        "Open Source"
-      ],
-      "hot_score": 3.98
-    },
-    {
-      "title_en": "France to ditch Windows for Linux to reduce reliance on US tech",
-      "url": "https://techcrunch.com/2026/04/10/france-to-ditch-windows-for-linux-to-reduce-reliance-on-us-tech/",
-      "title_zh": "法国将放弃 Windows 改用 Linux，降低对美国科技的依赖",
-      "created_display": "Created: Apr 10, 2026 / 08:20 PT",
-      "image_url": "https://techcrunch.com/wp-content/uploads/2026/04/france-flag-2233577438.jpg?resize=1200,873",
-      "summary_en": "France plans to replace Windows with Linux on government devices to reduce reliance on US tech and tighten sovereignty. The move signals growing appetite for open-source in public sector procurement and raises questions about migration complexity and vendor ecosystems.",
-      "summary_zh": "法国计划把政府设备从 Windows 切换到 Linux，以减少对美国科技的依赖。这一举措凸显公共部门对开源软件的越来越大兴趣，同时也带来迁移的挑战与生态影响。",
-      "hn": {
-        "id": 47719486,
-        "type": "story",
-        "by": "Teever",
-        "score": 484,
-        "descendants": 623,
-        "time": 1775834448,
-        "comments_url": "https://news.ycombinator.com/item?id=47719486"
-      },
-      "tags": [
-        "Open Source",
-        "Politics"
-      ],
-      "hot_score": 2.7
+      "hot_score": 1.63
     },
     {
       "title_en": "WireGuard makes new Windows release following Microsoft signing resolution",
@@ -189,8 +329,8 @@
         "id": 47719942,
         "type": "story",
         "by": "zx2c4",
-        "score": 451,
-        "descendants": 127,
+        "score": 508,
+        "descendants": 148,
         "time": 1775836192,
         "comments_url": "https://news.ycombinator.com/item?id=47719942"
       },
@@ -198,76 +338,7 @@
         "Open Source",
         "Security"
       ],
-      "hot_score": 2.65
-    },
-    {
-      "title_en": "Chimpanzees in Uganda locked in eight-year 'civil war', say researchers",
-      "url": "https://www.bbc.com/news/articles/cr71lkzv49po",
-      "title_zh": "研究者称乌干达黑猩猩被卷入八年内战",
-      "created_display": "Created: Apr 10, 2026 / 12:10 PT",
-      "image_url": "https://ichef.bbci.co.uk/news/1024/branded_news/2a41/live/068357f0-34fc-11f1-9d5c-8ba507d7dbde.png",
-      "summary_en": "Researchers report long-running coalitions and violence among chimpanzee communities in Uganda, describing it as an eight-year 'civil war.' The findings shed light on primate social dynamics, territory disputes, and conservation challenges in human-influenced habitats.",
-      "summary_zh": "研究者指出乌干达黑猩猩群体存在八年之久的领地争夺与暴力冲突，类似‘内战’的局面。研究揭示灵长类社会结构、资源竞争以及在人类活动密集区域的保护挑战。",
-      "hn": {
-        "id": 47722333,
-        "type": "story",
-        "by": "neversaydie",
-        "score": 303,
-        "descendants": 166,
-        "time": 1775848222,
-        "comments_url": "https://news.ycombinator.com/item?id=47722333"
-      },
-      "tags": [
-        "Science"
-      ],
-      "hot_score": 2.61
-    },
-    {
-      "title_en": "You can't trust macOS Privacy and Security settings",
-      "url": "https://eclecticlight.co/2026/04/10/why-you-cant-trust-privacy-security/",
-      "title_zh": "你不能完全信任 macOS 的隐私与安全设置",
-      "created_display": "Created: Apr 10, 2026 / 08:28 PT",
-      "image_url": "https://eclecticlight.co/wp-content/uploads/2026/04/insenticon.jpg",
-      "summary_en": "macOS privacy and security settings can be misleading: several protections rely on OS-level implementations that apps can bypass or misreport. The piece outlines gaps in how permissions, telemetry, and kernel extensions are enforced and suggests practical hardening steps, including auditing app entitlements and minimizing third-party extensions.",
-      "summary_zh": "macOS 的隐私与安全设置并非全然可靠，其保护往往依赖于系统层面的实现，应用仍有绕过权限和数据收集的可能。文章指出存在的若干缺口，并给出具体做法，如审查应用授权、减少第三方扩展、避免依赖默认设定等。",
-      "hn": {
-        "id": 47719602,
-        "type": "story",
-        "by": "zdw",
-        "score": 457,
-        "descendants": 156,
-        "time": 1775834904,
-        "comments_url": "https://news.ycombinator.com/item?id=47719602"
-      },
-      "tags": [
-        "Security",
-        "Privacy"
-      ],
-      "hot_score": 2.59
-    },
-    {
-      "title_en": "Industrial design files for Keychron keyboards and mice",
-      "url": "https://github.com/Keychron/Keychron-Keyboards-Hardware-Design",
-      "title_zh": "Keychron 键盘和鼠标的工业设计档案公开",
-      "created_display": "Created: Apr 10, 2026 / 09:22 PT",
-      "image_url": "https://repository-images.githubusercontent.com/1200994191/f8c43e0d-d72d-4c2b-91d8-13b0ac462969",
-      "summary_en": "Keychron has open-sourced industrial design files for its keyboards and mice, inviting DIY fabrication, replication, and community-driven hardware tinkering. The move lowers barrier to modification, audits, and transparency, while highlighting how hardware design data can accelerate innovation.",
-      "summary_zh": "Keychron 公开了键盘和鼠标的工业设计档案，降低了自制、改装和硬件透明度的门槛。此举推动开源硬件社区的发展，同时也让设计数据更易于审计与创新。",
-      "hn": {
-        "id": 47720419,
-        "type": "story",
-        "by": "stingraycharles",
-        "score": 351,
-        "descendants": 109,
-        "time": 1775838146,
-        "comments_url": "https://news.ycombinator.com/item?id=47720419"
-      },
-      "tags": [
-        "Open Source",
-        "Hardware",
-        "Design"
-      ],
-      "hot_score": 2.18
+      "hot_score": 1.57
     },
     {
       "title_en": "AI assistance when contributing to the Linux kernel",
@@ -281,15 +352,224 @@
         "id": 47721953,
         "type": "story",
         "by": "hmokiguess",
-        "score": 269,
-        "descendants": 176,
+        "score": 395,
+        "descendants": 281,
         "time": 1775846121,
         "comments_url": "https://news.ycombinator.com/item?id=47721953"
       },
       "tags": [
-        "AI"
+        "AI",
+        "Programming"
       ],
-      "hot_score": 2.15
+      "hot_score": 1.51
+    },
+    {
+      "title_en": "Chimpanzees in Uganda locked in eight-year 'civil war', say researchers",
+      "url": "https://www.bbc.com/news/articles/cr71lkzv49po",
+      "title_zh": "研究者称乌干达黑猩猩被卷入八年内战",
+      "created_display": "Created: Apr 10, 2026 / 12:10 PT",
+      "image_url": "https://ichef.bbci.co.uk/news/1024/branded_news/2a41/live/068357f0-34fc-11f1-9d5c-8ba507d7dbde.png",
+      "summary_en": "Researchers report long-running coalitions and violence among chimpanzee communities in Uganda, describing it as an eight-year 'civil war.' The findings shed light on primate social dynamics, territory disputes, and conservation challenges in human-influenced habitats.",
+      "summary_zh": "研究者指出乌干达黑猩猩群体存在八年之久的领地争夺与暴力冲突，类似‘内战’的局面。研究揭示灵长类社会结构、资源竞争以及在人类活动密集区域的保护挑战。",
+      "hn": {
+        "id": 47722333,
+        "type": "story",
+        "by": "neversaydie",
+        "score": 369,
+        "descendants": 222,
+        "time": 1775848222,
+        "comments_url": "https://news.ycombinator.com/item?id=47722333"
+      },
+      "tags": [
+        "Science"
+      ],
+      "hot_score": 1.48
+    },
+    {
+      "title_en": "You can't trust macOS Privacy and Security settings",
+      "url": "https://eclecticlight.co/2026/04/10/why-you-cant-trust-privacy-security/",
+      "title_zh": "你不能完全信任 macOS 的隐私与安全设置",
+      "created_display": "Created: Apr 10, 2026 / 08:28 PT",
+      "image_url": "https://eclecticlight.co/wp-content/uploads/2026/04/insenticon.jpg",
+      "summary_en": "macOS privacy and security settings can be misleading: several protections rely on OS-level implementations that apps can bypass or misreport. The piece outlines gaps in how permissions, telemetry, and kernel extensions are enforced and suggests practical hardening steps, including auditing app entitlements and minimizing third-party extensions.",
+      "summary_zh": "macOS 的隐私与安全设置并非全然可靠，其保护往往依赖于系统层面的实现，应用仍有绕过权限和数据收集的可能。文章指出存在的若干缺口，并给出具体做法，如审查应用授权、减少第三方扩展、避免依赖默认设定等。",
+      "hn": {
+        "id": 47719602,
+        "type": "story",
+        "by": "zdw",
+        "score": 479,
+        "descendants": 160,
+        "time": 1775834904,
+        "comments_url": "https://news.ycombinator.com/item?id=47719602"
+      },
+      "tags": [
+        "Privacy",
+        "Security"
+      ],
+      "hot_score": 1.44
+    },
+    {
+      "title_en": "Show HN: Hormuz Havoc, a satirical game that got overrun by AI bots in 24 hours",
+      "url": "https://www.hormuz-havoc.com/",
+      "title_zh": "Show HN: Hormuz Havoc，一款讽刺游戏在24小时内被 AI 机器人大规模涌入",
+      "created_display": "Created: Apr 11, 2026 / 03:58 PT",
+      "image_url": "https://hormuz-havoc.com/assets/social/og-burning-oil-drum.svg",
+      "summary_en": "Hormuz Havoc, a satirical game, was overrun by AI bots within 24 hours, illustrating how open platforms can be rapidly flooded by automated agents. The incident spotlights bot resilience in online environments and the need for stronger anti-bot defenses.",
+      "summary_zh": "Hormuz Havoc 这款讽刺性游戏在24小时内就被 AI 机器人席卷，显示开放平台容易被自动化代理迅速占据的风险。此次事件凸显在线环境中对抗机器人攻击的难度与对更强反 bot 措施的需求。",
+      "hn": {
+        "id": 47729477,
+        "type": "story",
+        "by": "kupadapuku",
+        "score": 33,
+        "descendants": 7,
+        "time": 1775905116,
+        "comments_url": "https://news.ycombinator.com/item?id=47729477"
+      },
+      "hot_score": 1.42,
+      "tags": [
+        "Show HN",
+        "Gaming",
+        "AI"
+      ]
+    },
+    {
+      "title_en": "Industrial design files for Keychron keyboards and mice",
+      "url": "https://github.com/Keychron/Keychron-Keyboards-Hardware-Design",
+      "title_zh": "Keychron 键盘和鼠标的工业设计档案公开",
+      "created_display": "Created: Apr 10, 2026 / 09:22 PT",
+      "image_url": "https://repository-images.githubusercontent.com/1200994191/f8c43e0d-d72d-4c2b-91d8-13b0ac462969",
+      "summary_en": "Keychron has open-sourced industrial design files for its keyboards and mice, inviting DIY fabrication, replication, and community-driven hardware tinkering. The move lowers barrier to modification, audits, and transparency, while highlighting how hardware design data can accelerate innovation.",
+      "summary_zh": "Keychron 公开了键盘和鼠标的工业设计档案，降低了自制、改装和硬件透明度的门槛。此举推动开源硬件社区的发展，同时也让设计数据更易于审计与创新。",
+      "hn": {
+        "id": 47720419,
+        "type": "story",
+        "by": "stingraycharles",
+        "score": 408,
+        "descendants": 127,
+        "time": 1775838146,
+        "comments_url": "https://news.ycombinator.com/item?id=47720419"
+      },
+      "tags": [
+        "Open Source",
+        "Hardware"
+      ],
+      "hot_score": 1.31
+    },
+    {
+      "title_en": "Helium is hard to replace",
+      "url": "https://www.construction-physics.com/p/helium-is-hard-to-replace",
+      "title_zh": "氦气很难替代",
+      "created_display": "Created: Apr 10, 2026 / 08:06 PT",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!sAvO!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5ae2519f-6142-44ce-aa4d-0b9b276c12ff_1220x634.png",
+      "summary_en": "Helium's unique properties and global supply constraints mean finding drop-in replacements is nontrivial for tech manufacturing and cryogenics. The piece surveys why alternatives either underperform or introduce new trade-offs, stressing the need for long-term helium stewardship and diversification of suppliers.",
+      "summary_zh": "氦气的独特性质及全球供应限制使得替代品难以直接替代，尤其在冷却与制造领域。文章梳理了可选替代方案的局限性与权衡，强调长期氦气管理与供应多元化的重要性。",
+      "hn": {
+        "id": 47719274,
+        "type": "story",
+        "by": "JumpCrisscross",
+        "score": 334,
+        "descendants": 236,
+        "time": 1775833611,
+        "comments_url": "https://news.ycombinator.com/item?id=47719274"
+      },
+      "tags": [
+        "Science"
+      ],
+      "hot_score": 0.98
+    },
+    {
+      "title_en": "CPU-Z and HWMonitor compromised",
+      "url": "https://www.theregister.com/2026/04/10/cpuid_site_hijacked/",
+      "title_zh": "CPU-Z 和 HWMonitor 被入侵",
+      "created_display": "Created: Apr 10, 2026 / 06:29 PT",
+      "image_url": "https://regmedia.co.uk/2021/04/13/malware.jpg",
+      "summary_en": "CPUID's download infrastructure was hijacked to serve malware, illustrating how supply-chain and mirror compromises can affect trusted tooling. The incident reinforces the need for verified signatures, diverse mirrors, and user vigilance when installing widely-used utilities.",
+      "summary_zh": "CPUID 的下载基础设施被入侵，伪装成恶意软件的镜像分发，暴露供应链和镜像源的风险。事件提醒用户核对签名、使用多源镜像并保持警觉。",
+      "hn": {
+        "id": 47717847,
+        "type": "story",
+        "by": "pashadee",
+        "score": 364,
+        "descendants": 94,
+        "time": 1775827760,
+        "comments_url": "https://news.ycombinator.com/item?id=47717847"
+      },
+      "tags": [
+        "Security",
+        "Hardware",
+        "DevOps"
+      ],
+      "hot_score": 0.95
+    },
+    {
+      "title_en": "JSON formatter Chrome plugin now closed and injecting adware",
+      "url": "https://github.com/callumlocke/json-formatter",
+      "title_zh": "Chrome JSON Formatter 插件现已关闭，且被注入广告软件",
+      "created_display": "Created: Apr 10, 2026 / 11:34 PT",
+      "image_url": "https://opengraph.githubassets.com/26e9707cc8dd3a91189cfeb8028348474b17818d4006183fdcca2313ec80bec5/callumlocke/json-formatter",
+      "summary_en": "The Chrome extension formerly known as JSON Formatter has been shut down after revelations that it injected adware into users' browsers. This underscores ongoing security risks in browser extensions and the need for careful vetting of third-party tools.",
+      "summary_zh": "Chrome JSON Formatter 插件已被关闭，同时被证实注入广告软件，影响用户浏览体验。事件凸显浏览器扩展的安全风险，强调对第三方工具的审查与权限控制。",
+      "hn": {
+        "id": 47721946,
+        "type": "story",
+        "by": "jkl5xx",
+        "score": 242,
+        "descendants": 123,
+        "time": 1775846095,
+        "comments_url": "https://news.ycombinator.com/item?id=47721946"
+      },
+      "tags": [
+        "Security",
+        "Privacy",
+        "Web"
+      ],
+      "hot_score": 0.92
+    },
+    {
+      "title_en": "Meta is set to pay its top AI executives almost a billion each in bonuses",
+      "url": "https://www.msn.com/en-my/news/other/meta-is-set-to-pay-its-top-ai-executives-almost-a-billion-each-in-bonuses-if-they-hit-their-targets/ar-AA1ZszqA",
+      "title_zh": "Meta 将向其顶级 AI 高管支付近十亿美元的奖金",
+      "created_display": "Created: Apr 11, 2026 / 05:25 PT",
+      "image_url": null,
+      "summary_en": "Meta plans nearly $1B in bonuses for its top AI executives if targets are met, underscoring how AI milestones are tying executive compensation to performance. The plan highlights the high-stakes AI race and raises questions about incentive structures and long-term governance.",
+      "summary_zh": "Meta 计划在达成目标的情况下向其顶级 AI 高管支付近 10 亿美元奖金，凸显将 AI 里程碑与高管绩效挂钩的激励机制。此举反映出 AI 竞争的高风险性，同时引发对激励结构与长期治理的思考。",
+      "hn": {
+        "id": 47729975,
+        "type": "story",
+        "by": "seekdeep",
+        "score": 13,
+        "descendants": 7,
+        "time": 1775910302,
+        "comments_url": "https://news.ycombinator.com/item?id=47729975"
+      },
+      "hot_score": 0.9,
+      "tags": [
+        "AI",
+        "Business"
+      ]
+    },
+    {
+      "title_en": "A compelling title that is cryptic enough to get you to take action on it",
+      "url": "https://ericwbailey.website/published/a-compelling-title-that-is-cryptic-enough-to-get-you-to-take-action-on-it/",
+      "title_zh": "一个足够神秘，促使你行动的标题",
+      "created_display": "Created: Apr 10, 2026 / 09:53 PT",
+      "image_url": "https://ericwbailey.website/img/posts/a-compelling-title-that-is-cryptic-enough-to-get-you-to-take-action-on-it/share-image-facebook.png",
+      "summary_en": "This piece discusses how a cryptic yet compelling title can trigger curiosity and action, offering takeaways for creators designing hooks and headlines. It blends psychology with practical guidance on clarity, surface-level intrigue, and setting reader expectations.",
+      "summary_zh": "文章讨论如何用隐秘却足以促使行动的标题吸引读者，结合认知心理与实用建议，帮助创作者设计更具引导力的标题。",
+      "hn": {
+        "id": 47720827,
+        "type": "story",
+        "by": "mooreds",
+        "score": 260,
+        "descendants": 140,
+        "time": 1775840035,
+        "comments_url": "https://news.ycombinator.com/item?id=47720827"
+      },
+      "tags": [
+        "Design",
+        "Culture"
+      ],
+      "hot_score": 0.87
     },
     {
       "title_en": "Molotov cocktail is hurled at home of Sam Altman",
@@ -310,77 +590,55 @@
       },
       "tags": [
         "Security",
+        "Politics",
         "AI"
       ],
-      "hot_score": 1.82
+      "hot_score": 0.86
     },
     {
-      "title_en": "Helium is hard to replace",
-      "url": "https://www.construction-physics.com/p/helium-is-hard-to-replace",
-      "title_zh": "氦气很难替代",
-      "created_display": "Created: Apr 10, 2026 / 08:06 PT",
-      "image_url": "https://substackcdn.com/image/fetch/$s_!sAvO!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5ae2519f-6142-44ce-aa4d-0b9b276c12ff_1220x634.png",
-      "summary_en": "Helium's unique properties and global supply constraints mean finding drop-in replacements is nontrivial for tech manufacturing and cryogenics. The piece surveys why alternatives either underperform or introduce new trade-offs, stressing the need for long-term helium stewardship and diversification of suppliers.",
-      "summary_zh": "氦气的独特性质及全球供应限制使得替代品难以直接替代，尤其在冷却与制造领域。文章梳理了可选替代方案的局限性与权衡，强调长期氦气管理与供应多元化的重要性。",
+      "title_en": "Hungary Is a Laboratory for Illiberal Nationalism. The Results Are In",
+      "url": "https://www.cato.org/commentary/hungary-laboratory-illiberal-nationalism-results-are",
+      "title_zh": "匈牙利是 illiberal nationalism 的实验室，结果已出炉",
+      "created_display": "Created: Apr 11, 2026 / 05:17 PT",
+      "image_url": "https://www.cato.org/sites/cato.org/files/styles/optimized/public/2026-03/Viktor%20Orb%C3%A1n%E2%80%99s%20Hungary%20Updated.png?itok=HKEkgxcR",
+      "summary_en": "An analysis argues Hungary serves as a lab for illiberal nationalism, with evidence of democratic backsliding and centralized power. For tech policy readers, the piece highlights how governance models shape digital rights, platform regulation, and data stewardship across society.",
+      "summary_zh": "分析认为匈牙利是非自由民粹民族主义的试验场，存在民主倒退与权力高度集中等证据。对科技与政策读者而言，该文章强调治理模式如何影响数字权利、平台监管与全社会的数据治理。",
       "hn": {
-        "id": 47719274,
+        "id": 47729926,
         "type": "story",
-        "by": "JumpCrisscross",
-        "score": 294,
-        "descendants": 205,
-        "time": 1775833611,
-        "comments_url": "https://news.ycombinator.com/item?id=47719274"
+        "by": "rwmj",
+        "score": 13,
+        "descendants": 1,
+        "time": 1775909866,
+        "comments_url": "https://news.ycombinator.com/item?id=47729926"
       },
+      "hot_score": 0.86,
       "tags": [
-        "Science"
-      ],
-      "hot_score": 1.6
-    },
-    {
-      "title_en": "JSON formatter Chrome plugin now closed and injecting adware",
-      "url": "https://github.com/callumlocke/json-formatter",
-      "title_zh": "Chrome JSON Formatter 插件现已关闭，且被注入广告软件",
-      "created_display": "Created: Apr 10, 2026 / 11:34 PT",
-      "image_url": "https://opengraph.githubassets.com/26e9707cc8dd3a91189cfeb8028348474b17818d4006183fdcca2313ec80bec5/callumlocke/json-formatter",
-      "summary_en": "The Chrome extension formerly known as JSON Formatter has been shut down after revelations that it injected adware into users' browsers. This underscores ongoing security risks in browser extensions and the need for careful vetting of third-party tools.",
-      "summary_zh": "Chrome JSON Formatter 插件已被关闭，同时被证实注入广告软件，影响用户浏览体验。事件凸显浏览器扩展的安全风险，强调对第三方工具的审查与权限控制。",
-      "hn": {
-        "id": 47721946,
-        "type": "story",
-        "by": "jkl5xx",
-        "score": 197,
-        "descendants": 108,
-        "time": 1775846095,
-        "comments_url": "https://news.ycombinator.com/item?id=47721946"
-      },
-      "tags": [
-        "Security",
-        "Web"
-      ],
-      "hot_score": 1.57
-    },
-    {
-      "title_en": "Tesla's supervised self-driving software gets Dutch okay, first in Europe",
-      "url": "https://www.reuters.com/business/teslas-self-driving-software-gets-dutch-go-ahead-boost-eu-ambitions-2026-04-10/",
-      "title_zh": "荷兰批准特斯拉的受监管自动驾驶，欧洲首例",
-      "created_display": "Created: Apr 10, 2026 / 23:22 PT",
-      "image_url": null,
-      "summary_en": "Dutch regulators give Tesla's supervised self-driving software the green light, marking Europe’s first approval for this kind of system. The move signals regulatory progress toward broader, safer deployment of driver-assistance tech and could influence EU policy.",
-      "summary_zh": "荷兰监管机构批准特斯拉的受监管自动驾驶软件，成为欧洲第一批获批此类系统的市场。这一进展可能推动更广泛且更安全的驾驶辅助技术在欧盟的部署与监管政策。",
-      "hn": {
-        "id": 47727974,
-        "type": "story",
-        "by": "nsoonhui",
-        "score": 11,
-        "descendants": 4,
-        "time": 1775888521,
-        "comments_url": "https://news.ycombinator.com/item?id=47727974"
-      },
-      "hot_score": 1.56,
-      "tags": [
-        "Business",
-        "Politics"
+        "Politics",
+        "Privacy"
       ]
+    },
+    {
+      "title_en": "Productive Procrastination",
+      "url": "https://www.maxvanijsselmuiden.nl/blog/productive-procrastination/",
+      "title_zh": "高效拖延术",
+      "created_display": "Created: Apr 10, 2026 / 22:21 PT",
+      "image_url": "https://www.maxvanijsselmuiden.nl/og/blog-productive-procrastination.png",
+      "summary_en": "Productive Procrastination argues that deliberate, structured delay can yield real progress by pairing low-friction tasks with bigger goals. It offers techniques like structured procrastination, timeboxing, and prioritization to turn distraction into momentum.",
+      "summary_zh": "《高效拖延术》提出通过刻意、结构化的拖延来推动实际产出，将低门槛任务与更大目标绑定。文中介绍结构化拖延、时间盒管理和优先级策略等方法，将分心转化为行动的动力。",
+      "hn": {
+        "id": 47727659,
+        "type": "story",
+        "by": "maxvij",
+        "score": 67,
+        "descendants": 29,
+        "time": 1775884881,
+        "comments_url": "https://news.ycombinator.com/item?id=47727659"
+      },
+      "tags": [
+        "Career"
+      ],
+      "hot_score": 0.84
     },
     {
       "title_en": "Nowhere is safe",
@@ -394,61 +652,15 @@
         "id": 47722562,
         "type": "story",
         "by": "sblank",
-        "score": 174,
-        "descendants": 215,
+        "score": 191,
+        "descendants": 258,
         "time": 1775849278,
         "comments_url": "https://news.ycombinator.com/item?id=47722562"
       },
       "tags": [
         "Security"
       ],
-      "hot_score": 1.55
-    },
-    {
-      "title_en": "CPU-Z and HWMonitor compromised",
-      "url": "https://www.theregister.com/2026/04/10/cpuid_site_hijacked/",
-      "title_zh": "CPU-Z 和 HWMonitor 被入侵",
-      "created_display": "Created: Apr 10, 2026 / 06:29 PT",
-      "image_url": "https://regmedia.co.uk/2021/04/13/malware.jpg",
-      "summary_en": "CPUID's download infrastructure was hijacked to serve malware, illustrating how supply-chain and mirror compromises can affect trusted tooling. The incident reinforces the need for verified signatures, diverse mirrors, and user vigilance when installing widely-used utilities.",
-      "summary_zh": "CPUID 的下载基础设施被入侵，伪装成恶意软件的镜像分发，暴露供应链和镜像源的风险。事件提醒用户核对签名、使用多源镜像并保持警觉。",
-      "hn": {
-        "id": 47717847,
-        "type": "story",
-        "by": "pashadee",
-        "score": 307,
-        "descendants": 88,
-        "time": 1775827760,
-        "comments_url": "https://news.ycombinator.com/item?id=47717847"
-      },
-      "tags": [
-        "Security",
-        "Hardware",
-        "DevOps"
-      ],
-      "hot_score": 1.43
-    },
-    {
-      "title_en": "A compelling title that is cryptic enough to get you to take action on it",
-      "url": "https://ericwbailey.website/published/a-compelling-title-that-is-cryptic-enough-to-get-you-to-take-action-on-it/",
-      "title_zh": "一个足够神秘，促使你行动的标题",
-      "created_display": "Created: Apr 10, 2026 / 09:53 PT",
-      "image_url": "https://ericwbailey.website/img/posts/a-compelling-title-that-is-cryptic-enough-to-get-you-to-take-action-on-it/share-image-facebook.png",
-      "summary_en": "This piece discusses how a cryptic yet compelling title can trigger curiosity and action, offering takeaways for creators designing hooks and headlines. It blends psychology with practical guidance on clarity, surface-level intrigue, and setting reader expectations.",
-      "summary_zh": "文章讨论如何用隐秘却足以促使行动的标题吸引读者，结合认知心理与实用建议，帮助创作者设计更具引导力的标题。",
-      "hn": {
-        "id": 47720827,
-        "type": "story",
-        "by": "mooreds",
-        "score": 207,
-        "descendants": 116,
-        "time": 1775840035,
-        "comments_url": "https://news.ycombinator.com/item?id=47720827"
-      },
-      "tags": [
-        "Design"
-      ],
-      "hot_score": 1.36
+      "hot_score": 0.78
     },
     {
       "title_en": "Italo Calvino: A traveller in a world of uncertainty",
@@ -462,8 +674,8 @@
         "id": 47725403,
         "type": "story",
         "by": "lermontov",
-        "score": 64,
-        "descendants": 13,
+        "score": 105,
+        "descendants": 19,
         "time": 1775864887,
         "comments_url": "https://news.ycombinator.com/item?id=47725403"
       },
@@ -471,32 +683,7 @@
         "Design",
         "Space"
       ],
-      "hot_score": 1.12
-    },
-    {
-      "title_en": "Show HN: FluidCAD – Parametric CAD with JavaScript",
-      "url": "https://fluidcad.io/",
-      "title_zh": "Show HN：FluidCAD 基于 JavaScript 的参数化 CAD",
-      "created_display": "Created: Apr 10, 2026 / 11:39 PT",
-      "image_url": "https://fluidcad.dev/img/docusaurus-social-card.jpg",
-      "summary_en": "FluidCAD offers parametric CAD controlled by JavaScript in the browser, enabling browser-based design and scripting. It shows how web tech can lower barriers to CAD prototyping, though professional-grade capabilities may be limited.",
-      "summary_zh": "FluidCAD 提供基于 JavaScript 的浏览器参数化 CAD，支持脚本化设计与快速原型。展示网页技术降低 CAD 学习门槛的同时，专业级功能可能仍有差距。",
-      "hn": {
-        "id": 47721997,
-        "type": "story",
-        "by": "maouida",
-        "score": 123,
-        "descendants": 28,
-        "time": 1775846359,
-        "comments_url": "https://news.ycombinator.com/item?id=47721997"
-      },
-      "tags": [
-        "Show HN",
-        "Web",
-        "Design",
-        "Programming"
-      ],
-      "hot_score": 0.99
+      "hot_score": 0.65
     },
     {
       "title_en": "Quien – A better WHOIS lookup tool",
@@ -510,40 +697,41 @@
         "id": 47727076,
         "type": "story",
         "by": "bretthopper",
-        "score": 23,
-        "descendants": 5,
+        "score": 61,
+        "descendants": 22,
         "time": 1775878290,
         "comments_url": "https://news.ycombinator.com/item?id=47727076"
       },
-      "hot_score": 0.98,
       "tags": [
         "Programming",
         "Web",
         "Privacy"
-      ]
+      ],
+      "hot_score": 0.58
     },
     {
-      "title_en": "Great at gaming? US air traffic control wants you to apply",
-      "url": "https://www.bbc.com/news/articles/ce84rvx0e6do",
-      "title_zh": "美国空管局：会玩游戏的你也能来申请",
-      "created_display": "Created: Apr 10, 2026 / 22:04 PT",
-      "image_url": "https://ichef.bbci.co.uk/news/1024/branded_news/1e29/live/76a033d0-3512-11f1-9c57-c5b5e13abf36.jpg",
-      "summary_en": "US air traffic control is inviting applicants who excel at gaming, arguing that fast decision-making, pattern recognition, and hand-eye coordination transfer well to radar-based airspace management. The piece outlines the recruitment push, training pathway, and how a gamer mindset can translate into a regulated, high-stakes role.",
-      "summary_zh": "美国空中交通管制部门正在招募擅长游戏的人才，声称快速决策、模式识别和手眼协调可迁移到雷达监控的空域管理工作。文章介绍招募计划、培训路径，以及游戏思维在受监管的高风险岗位中的潜在作用。",
+      "title_en": "Show HN: FluidCAD – Parametric CAD with JavaScript",
+      "url": "https://fluidcad.io/",
+      "title_zh": "Show HN：FluidCAD 基于 JavaScript 的参数化 CAD",
+      "created_display": "Created: Apr 10, 2026 / 11:39 PT",
+      "image_url": "https://fluidcad.dev/img/docusaurus-social-card.jpg",
+      "summary_en": "FluidCAD offers parametric CAD controlled by JavaScript in the browser, enabling browser-based design and scripting. It shows how web tech can lower barriers to CAD prototyping, though professional-grade capabilities may be limited.",
+      "summary_zh": "FluidCAD 提供基于 JavaScript 的浏览器参数化 CAD，支持脚本化设计与快速原型。展示网页技术降低 CAD 学习门槛的同时，专业级功能可能仍有差距。",
       "hn": {
-        "id": 47727575,
+        "id": 47721997,
         "type": "story",
-        "by": "1659447091",
-        "score": 12,
-        "descendants": 9,
-        "time": 1775883857,
-        "comments_url": "https://news.ycombinator.com/item?id=47727575"
+        "by": "maouida",
+        "score": 136,
+        "descendants": 32,
+        "time": 1775846359,
+        "comments_url": "https://news.ycombinator.com/item?id=47721997"
       },
-      "hot_score": 0.87,
       "tags": [
-        "Gaming",
-        "Politics"
-      ]
+        "Show HN",
+        "Programming",
+        "Web"
+      ],
+      "hot_score": 0.52
     },
     {
       "title_en": "OpenClaw’s memory is unreliable, and you don’t know when it will break",
@@ -557,60 +745,38 @@
         "id": 47721955,
         "type": "story",
         "by": "sonink",
-        "score": 98,
-        "descendants": 109,
+        "score": 124,
+        "descendants": 152,
         "time": 1775846129,
         "comments_url": "https://news.ycombinator.com/item?id=47721955"
       },
       "tags": [
         "DevOps"
       ],
-      "hot_score": 0.78
+      "hot_score": 0.47
     },
     {
-      "title_en": "Watgo – A WebAssembly Toolkit for Go",
-      "url": "https://eli.thegreenplace.net/2026/watgo-a-webassembly-toolkit-for-go/",
-      "title_zh": "Watgo——面向 Go 的 WebAssembly 工具包",
-      "created_display": "Created: Apr 10, 2026 / 12:03 PT",
-      "image_url": "https://eli.thegreenplace.net/images/logosmall.png",
-      "summary_en": "Watgo is a WebAssembly toolkit for Go that helps build, compile, and run Go code in the browser or wasm runtimes. It aims to streamline Go-centric WASM workflows and broaden where Go can run.",
-      "summary_zh": "Watgo 是一个面向 Go 的 WebAssembly 工具包，旨在帮助在浏览器或其他 wasm 环境中使用 Go。它意在简化 Go 的 WASM 工作流，扩展 Go 的应用场景。",
+      "title_en": "Researchers used AI to analyze 400k Reddit posts, revealing GLP-1 side effects",
+      "url": "https://www.seas.upenn.edu/stories/penn-researchers-use-ai-to-surface-unreported-glp-1-side-effects-in-reddit-posts/",
+      "title_zh": "研究人员使用 AI 分析 40 万条 Reddit 帖子，揭示 GLP-1 副作用",
+      "created_display": "Created: Apr 11, 2026 / 04:41 PT",
+      "image_url": "https://www.seas.upenn.edu/wp-content/uploads/2026/04/AI-and-Reddit-GLP-1s.jpg",
+      "summary_en": "AI analysis of 400k Reddit posts surfaces unreported GLP-1 drug side effects, offering early signals for pharmacovigilance beyond official reports. The approach shows the potential of social-media mining for real-world safety monitoring, while noting the need for clinical validation.",
+      "summary_zh": "通过 AI 分析 40 万条 Reddit 帖子，揭示 GLP-1 药物的未被官方报道的副作用，提供早期的药物安全信号。该方法展示了利用社交媒体数据进行真实世界安全监测的潜力，同时需进行临床验证。",
       "hn": {
-        "id": 47722262,
+        "id": 47729727,
         "type": "story",
-        "by": "ibobev",
-        "score": 90,
-        "descendants": 6,
-        "time": 1775847819,
-        "comments_url": "https://news.ycombinator.com/item?id=47722262"
+        "by": "giuliomagnifico",
+        "score": 9,
+        "descendants": 1,
+        "time": 1775907717,
+        "comments_url": "https://news.ycombinator.com/item?id=47729727"
       },
+      "hot_score": 0.45,
       "tags": [
-        "Programming",
-        "Web"
-      ],
-      "hot_score": 0.76
-    },
-    {
-      "title_en": "Intel 486 CPU announced April 10, 1989",
-      "url": "https://dfarq.homeip.net/intel-486-cpu-announced-april-10-1989/",
-      "title_zh": "英特尔 80486 处理器于1989年4月10日宣布",
-      "created_display": "Created: Apr 10, 2026 / 05:03 PT",
-      "image_url": "https://i0.wp.com/dfarq.homeip.net/wp-content/uploads/2025/02/intel-486-social.jpg?fit=892%2C502&ssl=1",
-      "summary_en": "The 486 introduced on-chip cache and improved architecture, delivering a substantial speedup over 386 and cementing x86 dominance in PCs. This milestone accelerated desktop software development and hardware innovations for years.",
-      "summary_zh": "486 处理器在1989年4月宣布，带来片上缓存和架构改进，相较于 386 给予显著性能提升，巩固了 x86 在个人电脑中的主导地位。这一里程碑推动了桌面软件和硬件的长线发展。",
-      "hn": {
-        "id": 47716809,
-        "type": "story",
-        "by": "jnord",
-        "score": 160,
-        "descendants": 149,
-        "time": 1775822614,
-        "comments_url": "https://news.ycombinator.com/item?id=47716809"
-      },
-      "tags": [
-        "Hardware"
-      ],
-      "hot_score": 0.66
+        "AI",
+        "Data"
+      ]
     },
     {
       "title_en": "We've raised $17M to build what comes after Git",
@@ -633,29 +799,74 @@
         "Startups",
         "Programming"
       ],
-      "hot_score": 0.63
+      "hot_score": 0.43
     },
     {
-      "title_en": "Productive Procrastination",
-      "url": "https://www.maxvanijsselmuiden.nl/blog/productive-procrastination/",
-      "title_zh": "高效拖延术",
-      "created_display": "Created: Apr 10, 2026 / 22:21 PT",
-      "image_url": "https://www.maxvanijsselmuiden.nl/og/blog-productive-procrastination.png",
-      "summary_en": "Productive Procrastination argues that deliberate, structured delay can yield real progress by pairing low-friction tasks with bigger goals. It offers techniques like structured procrastination, timeboxing, and prioritization to turn distraction into momentum.",
-      "summary_zh": "《高效拖延术》提出通过刻意、结构化的拖延来推动实际产出，将低门槛任务与更大目标绑定。文中介绍结构化拖延、时间盒管理和优先级策略等方法，将分心转化为行动的动力。",
+      "title_en": "Intel 486 CPU announced April 10, 1989",
+      "url": "https://dfarq.homeip.net/intel-486-cpu-announced-april-10-1989/",
+      "title_zh": "英特尔 80486 处理器于1989年4月10日宣布",
+      "created_display": "Created: Apr 10, 2026 / 05:03 PT",
+      "image_url": "https://i0.wp.com/dfarq.homeip.net/wp-content/uploads/2025/02/intel-486-social.jpg?fit=892%2C502&ssl=1",
+      "summary_en": "The 486 introduced on-chip cache and improved architecture, delivering a substantial speedup over 386 and cementing x86 dominance in PCs. This milestone accelerated desktop software development and hardware innovations for years.",
+      "summary_zh": "486 处理器在1989年4月宣布，带来片上缓存和架构改进，相较于 386 给予显著性能提升，巩固了 x86 在个人电脑中的主导地位。这一里程碑推动了桌面软件和硬件的长线发展。",
       "hn": {
-        "id": 47727659,
+        "id": 47716809,
         "type": "story",
-        "by": "maxvij",
-        "score": 8,
-        "descendants": 3,
-        "time": 1775884881,
-        "comments_url": "https://news.ycombinator.com/item?id=47727659"
+        "by": "jnord",
+        "score": 179,
+        "descendants": 161,
+        "time": 1775822614,
+        "comments_url": "https://news.ycombinator.com/item?id=47716809"
       },
-      "hot_score": 0.63,
       "tags": [
-        "Career"
-      ]
+        "Hardware"
+      ],
+      "hot_score": 0.43
+    },
+    {
+      "title_en": "Watgo – A WebAssembly Toolkit for Go",
+      "url": "https://eli.thegreenplace.net/2026/watgo-a-webassembly-toolkit-for-go/",
+      "title_zh": "Watgo——面向 Go 的 WebAssembly 工具包",
+      "created_display": "Created: Apr 10, 2026 / 12:03 PT",
+      "image_url": "https://eli.thegreenplace.net/images/logosmall.png",
+      "summary_en": "Watgo is a WebAssembly toolkit for Go that helps build, compile, and run Go code in the browser or wasm runtimes. It aims to streamline Go-centric WASM workflows and broaden where Go can run.",
+      "summary_zh": "Watgo 是一个面向 Go 的 WebAssembly 工具包，旨在帮助在浏览器或其他 wasm 环境中使用 Go。它意在简化 Go 的 WASM 工作流，扩展 Go 的应用场景。",
+      "hn": {
+        "id": 47722262,
+        "type": "story",
+        "by": "ibobev",
+        "score": 105,
+        "descendants": 7,
+        "time": 1775847819,
+        "comments_url": "https://news.ycombinator.com/item?id=47722262"
+      },
+      "tags": [
+        "Programming",
+        "Web"
+      ],
+      "hot_score": 0.41
+    },
+    {
+      "title_en": "Team from ETH Zurich make high quality quantum swap gate using a geometric phase",
+      "url": "https://ethz.ch/en/news-and-events/eth-news/news/2026/04/a-new-trick-brings-stability-to-quantum-operations.html",
+      "title_zh": "苏黎世联邦理工学院团队用几何相实现高质量量子互换门",
+      "created_display": "Created: Apr 09, 2026 / 21:04 PT",
+      "image_url": "https://ethz.ch/en/news-and-events/eth-news/news/2026/04/a-new-trick-brings-stability-to-quantum-operations/_jcr_content/pageimages/imageCarousel.imageformat.lightbox.1606733906.jpg",
+      "summary_en": "ETH Zurich team demonstrates a high-fidelity quantum swap gate using a geometric phase, contributing to more robust quantum operations. The result highlights how geometric-phase techniques can mitigate certain noise sources.",
+      "summary_zh": "苏黎世联邦理工学院团队利用几何相实现高保真量子互换门，为量子操作的鲁棒性带来新进展，展示了几何相位在抑制部分噪声方面的潜力。",
+      "hn": {
+        "id": 47713495,
+        "type": "story",
+        "by": "joko42",
+        "score": 226,
+        "descendants": 48,
+        "time": 1775793897,
+        "comments_url": "https://news.ycombinator.com/item?id=47713495"
+      },
+      "tags": [
+        "Science"
+      ],
+      "hot_score": 0.35
     },
     {
       "title_en": "Code is run more than read (2023)",
@@ -677,7 +888,7 @@
       "tags": [
         "Programming"
       ],
-      "hot_score": 0.6
+      "hot_score": 0.33
     },
     {
       "title_en": "Show HN: A WYSIWYG word processor in Python",
@@ -700,29 +911,30 @@
         "Show HN",
         "Programming"
       ],
-      "hot_score": 0.56
+      "hot_score": 0.27
     },
     {
-      "title_en": "Team from ETH Zurich make high quality quantum swap gate using a geometric phase",
-      "url": "https://ethz.ch/en/news-and-events/eth-news/news/2026/04/a-new-trick-brings-stability-to-quantum-operations.html",
-      "title_zh": "苏黎世联邦理工学院团队用几何相实现高质量量子互换门",
-      "created_display": "Created: Apr 09, 2026 / 21:04 PT",
-      "image_url": "https://ethz.ch/en/news-and-events/eth-news/news/2026/04/a-new-trick-brings-stability-to-quantum-operations/_jcr_content/pageimages/imageCarousel.imageformat.lightbox.1606733906.jpg",
-      "summary_en": "ETH Zurich team demonstrates a high-fidelity quantum swap gate using a geometric phase, contributing to more robust quantum operations. The result highlights how geometric-phase techniques can mitigate certain noise sources.",
-      "summary_zh": "苏黎世联邦理工学院团队利用几何相实现高保真量子互换门，为量子操作的鲁棒性带来新进展，展示了几何相位在抑制部分噪声方面的潜力。",
+      "title_en": "Penguin 'Toxicologists' Find PFAS Chemicals in Remote Patagonia",
+      "url": "https://www.ucdavis.edu/health/news/penguin-toxicologists-find-pfas-chemicals-remote-patagonia",
+      "title_zh": "企鹅‘毒理学家’在偏远巴塔哥尼亚发现 PFAS 化学物质",
+      "created_display": "Created: Apr 09, 2026 / 23:15 PT",
+      "image_url": "https://www.ucdavis.edu/sites/default/files/styles/sf_landscape_16x9/public/media/images/Penguin%20colony%202%20%28C%29%20Ralph%20Vanstreels.JPG?h=47f8d3d6&itok=1ya16FJB",
+      "summary_en": "Wildlife toxicology teams found PFAS contaminants in penguins in remote Patagonia, indicating widespread environmental contamination. The finding highlights biomonitoring value and potential ecological and human health implications.",
+      "summary_zh": "偏远的巴塔哥尼亚地区企鹅体内发现 PFAS 材料，显示环境污染广泛存在。该发现凸显生物监测的价值，以及对生态与人类健康的潜在影响。",
       "hn": {
-        "id": 47713495,
+        "id": 47714273,
         "type": "story",
-        "by": "joko42",
-        "score": 226,
-        "descendants": 48,
-        "time": 1775793897,
-        "comments_url": "https://news.ycombinator.com/item?id=47713495"
+        "by": "giuliomagnifico",
+        "score": 154,
+        "descendants": 73,
+        "time": 1775801746,
+        "comments_url": "https://news.ycombinator.com/item?id=47714273"
       },
       "tags": [
-        "Science"
+        "Science",
+        "Health"
       ],
-      "hot_score": 0.52
+      "hot_score": 0.26
     },
     {
       "title_en": "Launch HN: Twill.ai (YC S25) – Delegate to cloud agents, get back PRs",
@@ -736,17 +948,18 @@
         "id": 47720418,
         "type": "story",
         "by": "danoandco",
-        "score": 65,
-        "descendants": 61,
+        "score": 74,
+        "descendants": 79,
         "time": 1775838133,
         "comments_url": "https://news.ycombinator.com/item?id=47720418"
       },
       "tags": [
         "AI",
-        "Startups",
-        "Security"
+        "DevOps",
+        "Security",
+        "Startups"
       ],
-      "hot_score": 0.4
+      "hot_score": 0.23
     },
     {
       "title_en": "The difficulty of making sure your website is broken",
@@ -766,33 +979,33 @@
         "comments_url": "https://news.ycombinator.com/item?id=47720719"
       },
       "tags": [
-        "Web",
-        "DevOps"
+        "DevOps",
+        "Web"
       ],
-      "hot_score": 0.4
+      "hot_score": 0.21
     },
     {
-      "title_en": "Penguin 'Toxicologists' Find PFAS Chemicals in Remote Patagonia",
-      "url": "https://www.ucdavis.edu/health/news/penguin-toxicologists-find-pfas-chemicals-remote-patagonia",
-      "title_zh": "企鹅‘毒理学家’在偏远巴塔哥尼亚发现 PFAS 化学物质",
-      "created_display": "Created: Apr 09, 2026 / 23:15 PT",
-      "image_url": "https://www.ucdavis.edu/sites/default/files/styles/sf_landscape_16x9/public/media/images/Penguin%20colony%202%20%28C%29%20Ralph%20Vanstreels.JPG?h=47f8d3d6&itok=1ya16FJB",
-      "summary_en": "Wildlife toxicology teams found PFAS contaminants in penguins in remote Patagonia, indicating widespread environmental contamination. The finding highlights biomonitoring value and potential ecological and human health implications.",
-      "summary_zh": "偏远的巴塔哥尼亚地区企鹅体内发现 PFAS 材料，显示环境污染广泛存在。该发现凸显生物监测的价值，以及对生态与人类健康的潜在影响。",
+      "title_en": "Starfling: A one-tap endless orbital slingshot game in a single HTML file",
+      "url": "https://playstarfling.com",
+      "title_zh": "Starfling：一个 HTML 单文件的无尽轨道弹射游戏",
+      "created_display": "Created: Apr 08, 2026 / 18:52 PT",
+      "image_url": null,
+      "summary_en": "Starfling is a minimalist browser game playable in a single HTML file, using a tap to control orbital slingshots. It showcases how far a tiny, self-contained web app can push interactivity and visuals with pure HTML/JS, without a build or asset pipeline. A fun example of ultra-lightweight game development and portability.",
+      "summary_zh": "Starfling 是一个极简的浏览器游戏，直接在单个 HTML 文件中就能运行，点击一次即可进行轨道弹射。它演示了使用纯 HTML/JS 就能实现丰富交互与流畅画面的极致轻量化游戏，并且无需构建工具即可带来完整体验。",
       "hn": {
-        "id": 47714273,
+        "id": 47698455,
         "type": "story",
-        "by": "giuliomagnifico",
-        "score": 147,
-        "descendants": 72,
-        "time": 1775801746,
-        "comments_url": "https://news.ycombinator.com/item?id=47714273"
+        "by": "iceberger2001",
+        "score": 326,
+        "descendants": 89,
+        "time": 1775699567,
+        "comments_url": "https://news.ycombinator.com/item?id=47698455"
       },
       "tags": [
-        "Health",
-        "Science"
+        "Gaming",
+        "Web"
       ],
-      "hot_score": 0.39
+      "hot_score": 0.19
     },
     {
       "title_en": "Show HN: Eve – Managed OpenClaw for work",
@@ -813,52 +1026,55 @@
       },
       "tags": [
         "Show HN",
-        "AI"
+        "AI",
+        "DevOps"
       ],
-      "hot_score": 0.36
+      "hot_score": 0.18
     },
     {
-      "title_en": "The Seasons Are Wrong",
-      "url": "https://kentwalters.com/posts/seasons/",
-      "title_zh": "季节错位",
-      "created_display": "Created: Apr 10, 2026 / 21:25 PT",
+      "title_en": "Tesla's supervised self-driving software gets Dutch okay, first in Europe",
+      "url": "https://www.reuters.com/business/teslas-self-driving-software-gets-dutch-go-ahead-boost-eu-ambitions-2026-04-10/",
+      "title_zh": "荷兰批准特斯拉的受监管自动驾驶，欧洲首例",
+      "created_display": "Created: Apr 10, 2026 / 23:22 PT",
       "image_url": null,
-      "summary_en": "The Seasons Are Wrong argues that climate variability and shifting patterns challenge traditional seasonal calendars, affecting planning for agriculture, travel, and technology roadmaps. It uses data and historical context to illustrate the practical implications.",
-      "summary_zh": "《季节错位》认为气候变率和季节性模式的变化正在挑战传统的季节日历，对农业、出行和科技路线图的规划产生影响，文中通过数据与历史背景展示其实际含义。",
+      "summary_en": "Dutch regulators give Tesla's supervised self-driving software the green light, marking Europe’s first approval for this kind of system. The move signals regulatory progress toward broader, safer deployment of driver-assistance tech and could influence EU policy.",
+      "summary_zh": "荷兰监管机构批准特斯拉的受监管自动驾驶软件，成为欧洲第一批获批此类系统的市场。这一进展可能推动更广泛且更安全的驾驶辅助技术在欧盟的部署与监管政策。",
       "hn": {
-        "id": 47727387,
+        "id": 47727974,
         "type": "story",
-        "by": "NikxDa",
-        "score": 4,
-        "descendants": 7,
-        "time": 1775881531,
-        "comments_url": "https://news.ycombinator.com/item?id=47727387"
+        "by": "nsoonhui",
+        "score": 11,
+        "descendants": 4,
+        "time": 1775888521,
+        "comments_url": "https://news.ycombinator.com/item?id=47727974"
       },
-      "hot_score": 0.18,
+      "hot_score": 0.15,
       "tags": [
-        "Science"
+        "Politics"
       ]
     },
     {
-      "title_en": "We Only Learn from Error",
-      "url": "https://nathanclonts.com/we-only-learn-from-error/",
-      "title_zh": "我们只从错误中学习",
-      "created_display": "Created: Apr 10, 2026 / 21:05 PT",
-      "image_url": "https://nathanclonts.com/743379bcf3aac440e2bc2f9b3ac22910/oracle-single-face-5s.gif",
-      "summary_en": "Learning is driven by error feedback, with emphasis on rapid iteration, blameless postmortems, and treating mistakes as a path to mastery. The piece advocates embracing failure as a catalyst for growth.",
-      "summary_zh": "学习来自错误的反馈，强调快速迭代、无责备的事后分析，以及将错误视为提升技能的契机。文章主张拥抱失败，推动个人与团队成长。",
+      "title_en": "Great at gaming? US air traffic control wants you to apply",
+      "url": "https://www.bbc.com/news/articles/ce84rvx0e6do",
+      "title_zh": "美国空管局：会玩游戏的你也能来申请",
+      "created_display": "Created: Apr 10, 2026 / 22:04 PT",
+      "image_url": "https://ichef.bbci.co.uk/news/1024/branded_news/1e29/live/76a033d0-3512-11f1-9c57-c5b5e13abf36.jpg",
+      "summary_en": "US air traffic control is inviting applicants who excel at gaming, arguing that fast decision-making, pattern recognition, and hand-eye coordination transfer well to radar-based airspace management. The piece outlines the recruitment push, training pathway, and how a gamer mindset can translate into a regulated, high-stakes role.",
+      "summary_zh": "美国空中交通管制部门正在招募擅长游戏的人才，声称快速决策、模式识别和手眼协调可迁移到雷达监控的空域管理工作。文章介绍招募计划、培训路径，以及游戏思维在受监管的高风险岗位中的潜在作用。",
       "hn": {
-        "id": 47727284,
+        "id": 47727575,
         "type": "story",
-        "by": "kokopelli",
-        "score": 3,
-        "descendants": 1,
-        "time": 1775880340,
-        "comments_url": "https://news.ycombinator.com/item?id=47727284"
+        "by": "1659447091",
+        "score": 12,
+        "descendants": 9,
+        "time": 1775883857,
+        "comments_url": "https://news.ycombinator.com/item?id=47727575"
       },
-      "hot_score": 0.11,
+      "hot_score": 0.13,
       "tags": [
-        "Education"
+        "Career",
+        "Gaming",
+        "Politics"
       ]
     },
     {
@@ -873,8 +1089,8 @@
         "id": 47701769,
         "type": "story",
         "by": "sohkamyung",
-        "score": 78,
-        "descendants": 4,
+        "score": 115,
+        "descendants": 10,
         "time": 1775730508,
         "comments_url": "https://news.ycombinator.com/item?id=47701769"
       },
@@ -882,7 +1098,78 @@
         "Design",
         "Space"
       ],
-      "hot_score": 0.08
+      "hot_score": 0.09
+    },
+    {
+      "title_en": "Volunteers turn a fan's recordings of 10K concerts into an online treasure trove",
+      "url": "https://apnews.com/article/aadam-jacobs-collection-concerts-internet-archive-chicago-b1c9c4466a2db409a83523ad84b79d62",
+      "title_zh": "志愿者将爱好者的 1 万场演唱会录音整理成线上宝库",
+      "created_display": "Created: Apr 08, 2026 / 02:11 PT",
+      "image_url": "https://dims.apnews.com/dims4/default/fcfaa17/2147483647/strip/true/crop/6000x3998+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fb3%2F9e%2F7e5b19fff21453b208c0b6fe7695%2F3a53093431454a4e963f95a114d78b5b",
+      "summary_en": "Volunteers curated and uploaded fan-recorded material from around 10,000 concerts into an online archive, expanding access to live performances. The effort highlights crowd-sourced preservation as a powerful form of cultural memory, while raising questions about copyright and licensing in user-generated archives.",
+      "summary_zh": "志愿者将大约 1 万场演唱会的粉丝录音整理并上传至线上档案，扩大了现场演出的可访问性。此举体现了众包保存的力量，但也带来版权与许可在用户生成档案中的问题。",
+      "hn": {
+        "id": 47687443,
+        "type": "story",
+        "by": "geox",
+        "score": 183,
+        "descendants": 28,
+        "time": 1775639470,
+        "comments_url": "https://news.ycombinator.com/item?id=47687443"
+      },
+      "hot_score": 0.07,
+      "tags": [
+        "Culture",
+        "Data",
+        "Legal"
+      ]
+    },
+    {
+      "title_en": "Optimal Strategy for Connect 4",
+      "url": "https://2swap.github.io/WeakC4/explanation/",
+      "title_zh": "Connect 4 的最优策略",
+      "created_display": "Created: Apr 08, 2026 / 12:37 PT",
+      "image_url": "https://2swap.github.io/WeakC4/sample.png",
+      "summary_en": "An exploration of the exact winning strategy for Connect 4 under perfect play. By enumerating all positions and using retrograde analysis, the piece shows the game’s complete solution and offer takeaways for building game-playing AI and understanding search complexity in simple systems.",
+      "summary_zh": "该分析给出 Connect 4 在完美对局下的完全解，通过穷举与回溯分析确立必胜路线。为构建棋类 AI 与理解简单系统的搜索复杂性提供可操作的启示。",
+      "hn": {
+        "id": 47695213,
+        "type": "story",
+        "by": "marvinborner",
+        "score": 138,
+        "descendants": 21,
+        "time": 1775677070,
+        "comments_url": "https://news.ycombinator.com/item?id=47695213"
+      },
+      "hot_score": 0.07,
+      "tags": [
+        "Gaming",
+        "Programming",
+        "AI"
+      ]
+    },
+    {
+      "title_en": "Bevy game development tutorials and in-depth resources",
+      "url": "https://taintedcoders.com/",
+      "title_zh": "Bevy 游戏开发教程与深入资源",
+      "created_display": "Created: Apr 08, 2026 / 17:58 PT",
+      "image_url": null,
+      "summary_en": "Bevy tutorials and resources provide a structured entry into Rust-based game development, covering ECS architecture, rendering, and tooling. The collection helps both beginners and seasoned developers level up with practical guides and deep-dive materials.",
+      "summary_zh": "Bevy 的游戏开发教程与深度资料为 Rust 游戏开发者提供系统化学习路径，涵盖 ECS 架构、渲染和工具链等要点，适合初学者与有经验者深入学习。",
+      "hn": {
+        "id": 47698111,
+        "type": "story",
+        "by": "GenericCanadian",
+        "score": 109,
+        "descendants": 24,
+        "time": 1775696327,
+        "comments_url": "https://news.ycombinator.com/item?id=47698111"
+      },
+      "tags": [
+        "Programming",
+        "Gaming"
+      ],
+      "hot_score": 0.06
     },
     {
       "title_en": "What is RISC-V and why it matters to Canonical",
@@ -905,7 +1192,53 @@
         "Open Source",
         "Hardware"
       ],
-      "hot_score": 0.06
+      "hot_score": 0.05
+    },
+    {
+      "title_en": "A practical guide for setting up Zettelkasten method in Obsidian",
+      "url": "https://desktopcommander.app/blog/zettelkasten-obsidian/",
+      "title_zh": "在 Obsidian 中落地 Zettelkasten 的实用指南",
+      "created_display": "Created: Apr 09, 2026 / 00:58 PT",
+      "image_url": "https://i0.wp.com/desktopcommander.app/blog/wp-content/uploads/2026/04/Screenshot-2026-04-09-at-10.50.17.png?fit=1642%2C882&ssl=1",
+      "summary_en": "A practical guide for implementing Zettelkasten in Obsidian walks users through setting up note links, indices, structure, daily notes, and tagging to build a navigable knowledge base. The guide emphasizes actionable steps to improve retrieval and long-term knowledge management.",
+      "summary_zh": "本指南面向 Obsidian 用户，讲解如何把 Zettelkasten 笔记法落地：建立笔记链接、索引、结构、每日笔记和标签等，以构建易于导航的知识库并提升检索效率。",
+      "hn": {
+        "id": 47700556,
+        "type": "story",
+        "by": "rkrizanovskis",
+        "score": 78,
+        "descendants": 44,
+        "time": 1775721480,
+        "comments_url": "https://news.ycombinator.com/item?id=47700556"
+      },
+      "tags": [
+        "Education"
+      ],
+      "hot_score": 0.05
+    },
+    {
+      "title_en": "How Passive Radar Works",
+      "url": "https://www.passiveradar.com/how-passive-radar-works/",
+      "title_zh": "被动雷达的工作原理",
+      "created_display": "Created: Apr 09, 2026 / 05:35 PT",
+      "image_url": "https://www.passiveradar.com/content/images/size/w1200/2026/04/Silentium_Defence_-_Passive_Radar_for_Space_Domain_Awareness_-_HIgher_Resolution_3-2-1-1.jpg",
+      "summary_en": "Explains how passive radar uses existing transmissions as illumination sources to detect objects without its own transmitter. By analyzing timing and Doppler shifts in reflections, passive radar enables stealthy or civilian surveillance but trades off resolution and clutter rejection.",
+      "summary_zh": "介绍被动雷达如何利用现有的传输信号作为照射源，在不自建发射的情况下探测目标。通过分析反射的到达时间与多普勒变化，被动雷达具有隐蔽性与较低成本的优势，但在分辨率与对杂波的处理上存在权衡。",
+      "hn": {
+        "id": 47702890,
+        "type": "story",
+        "by": "surprisetalk",
+        "score": 57,
+        "descendants": 22,
+        "time": 1775738124,
+        "comments_url": "https://news.ycombinator.com/item?id=47702890"
+      },
+      "hot_score": 0.05,
+      "tags": [
+        "Science",
+        "Security",
+        "Privacy"
+      ]
     },
     {
       "title_en": "PGLite Evangelism",
@@ -927,53 +1260,7 @@
       "tags": [
         "Programming"
       ],
-      "hot_score": 0.06
-    },
-    {
-      "title_en": "Bevy game development tutorials and in-depth resources",
-      "url": "https://taintedcoders.com/",
-      "title_zh": "Bevy 游戏开发教程与深入资源",
-      "created_display": "Created: Apr 08, 2026 / 17:58 PT",
-      "image_url": null,
-      "summary_en": "Bevy tutorials and resources provide a structured entry into Rust-based game development, covering ECS architecture, rendering, and tooling. The collection helps both beginners and seasoned developers level up with practical guides and deep-dive materials.",
-      "summary_zh": "Bevy 的游戏开发教程与深度资料为 Rust 游戏开发者提供系统化学习路径，涵盖 ECS 架构、渲染和工具链等要点，适合初学者与有经验者深入学习。",
-      "hn": {
-        "id": 47698111,
-        "type": "story",
-        "by": "GenericCanadian",
-        "score": 66,
-        "descendants": 10,
-        "time": 1775696327,
-        "comments_url": "https://news.ycombinator.com/item?id=47698111"
-      },
-      "hot_score": 0.05,
-      "tags": [
-        "Gaming",
-        "Programming"
-      ]
-    },
-    {
-      "title_en": "Starfling: A one-tap endless orbital slingshot game in a single HTML file",
-      "url": "https://playstarfling.com",
-      "title_zh": "Starfling：一个 HTML 单文件的无尽轨道弹射游戏",
-      "created_display": "Created: Apr 08, 2026 / 18:52 PT",
-      "image_url": null,
-      "summary_en": "Starfling is a minimalist browser game playable in a single HTML file, using a tap to control orbital slingshots. It showcases how far a tiny, self-contained web app can push interactivity and visuals with pure HTML/JS, without a build or asset pipeline. A fun example of ultra-lightweight game development and portability.",
-      "summary_zh": "Starfling 是一个极简的浏览器游戏，直接在单个 HTML 文件中就能运行，点击一次即可进行轨道弹射。它演示了使用纯 HTML/JS 就能实现丰富交互与流畅画面的极致轻量化游戏，并且无需构建工具即可带来完整体验。",
-      "hn": {
-        "id": 47698455,
-        "type": "story",
-        "by": "iceberger2001",
-        "score": 58,
-        "descendants": 21,
-        "time": 1775699567,
-        "comments_url": "https://news.ycombinator.com/item?id=47698455"
-      },
-      "hot_score": 0.04,
-      "tags": [
-        "Gaming",
-        "Web"
-      ]
+      "hot_score": 0.05
     },
     {
       "title_en": "Clojure on Fennel Part One: Persistent Data Structures",
@@ -987,13 +1274,14 @@
         "id": 47669923,
         "type": "story",
         "by": "roxolotl",
-        "score": 146,
-        "descendants": 13,
+        "score": 152,
+        "descendants": 16,
         "time": 1775527785,
         "comments_url": "https://news.ycombinator.com/item?id=47669923"
       },
       "tags": [
-        "Programming"
+        "Programming",
+        "Data"
       ],
       "hot_score": 0.03
     },
@@ -1020,25 +1308,26 @@
       "hot_score": 0.03
     },
     {
-      "title_en": "A practical guide for setting up Zettelkasten method in Obsidian",
-      "url": "https://desktopcommander.app/blog/zettelkasten-obsidian/",
-      "title_zh": "在 Obsidian 中落地 Zettelkasten 的实用指南",
-      "created_display": "Created: Apr 09, 2026 / 00:58 PT",
-      "image_url": "https://i0.wp.com/desktopcommander.app/blog/wp-content/uploads/2026/04/Screenshot-2026-04-09-at-10.50.17.png?fit=1642%2C882&ssl=1",
-      "summary_en": "A practical guide for implementing Zettelkasten in Obsidian walks users through setting up note links, indices, structure, daily notes, and tagging to build a navigable knowledge base. The guide emphasizes actionable steps to improve retrieval and long-term knowledge management.",
-      "summary_zh": "本指南面向 Obsidian 用户，讲解如何把 Zettelkasten 笔记法落地：建立笔记链接、索引、结构、每日笔记和标签等，以构建易于导航的知识库并提升检索效率。",
+      "title_en": "The Seasons Are Wrong",
+      "url": "https://kentwalters.com/posts/seasons/",
+      "title_zh": "季节错位",
+      "created_display": "Created: Apr 10, 2026 / 21:25 PT",
+      "image_url": null,
+      "summary_en": "The Seasons Are Wrong argues that climate variability and shifting patterns challenge traditional seasonal calendars, affecting planning for agriculture, travel, and technology roadmaps. It uses data and historical context to illustrate the practical implications.",
+      "summary_zh": "《季节错位》认为气候变率和季节性模式的变化正在挑战传统的季节日历，对农业、出行和科技路线图的规划产生影响，文中通过数据与历史背景展示其实际含义。",
       "hn": {
-        "id": 47700556,
+        "id": 47727387,
         "type": "story",
-        "by": "rkrizanovskis",
-        "score": 35,
-        "descendants": 16,
-        "time": 1775721480,
-        "comments_url": "https://news.ycombinator.com/item?id=47700556"
+        "by": "NikxDa",
+        "score": 4,
+        "descendants": 7,
+        "time": 1775881531,
+        "comments_url": "https://news.ycombinator.com/item?id=47727387"
       },
       "hot_score": 0.03,
       "tags": [
-        "Education"
+        "Science",
+        "Data"
       ]
     },
     {
@@ -1053,15 +1342,15 @@
         "id": 47685984,
         "type": "story",
         "by": "ingve",
-        "score": 50,
-        "descendants": 13,
+        "score": 68,
+        "descendants": 24,
         "time": 1775628379,
         "comments_url": "https://news.ycombinator.com/item?id=47685984"
       },
-      "hot_score": 0.02,
       "tags": [
         "Programming"
-      ]
+      ],
+      "hot_score": 0.02
     },
     {
       "title_en": "Vinyl Cache and Varnish Cache",
@@ -1087,6 +1376,140 @@
       "hot_score": 0.02
     },
     {
+      "title_en": "We Only Learn from Error",
+      "url": "https://nathanclonts.com/we-only-learn-from-error/",
+      "title_zh": "我们只从错误中学习",
+      "created_display": "Created: Apr 10, 2026 / 21:05 PT",
+      "image_url": "https://nathanclonts.com/743379bcf3aac440e2bc2f9b3ac22910/oracle-single-face-5s.gif",
+      "summary_en": "Learning is driven by error feedback, with emphasis on rapid iteration, blameless postmortems, and treating mistakes as a path to mastery. The piece advocates embracing failure as a catalyst for growth.",
+      "summary_zh": "学习来自错误的反馈，强调快速迭代、无责备的事后分析，以及将错误视为提升技能的契机。文章主张拥抱失败，推动个人与团队成长。",
+      "hn": {
+        "id": 47727284,
+        "type": "story",
+        "by": "kokopelli",
+        "score": 3,
+        "descendants": 1,
+        "time": 1775880340,
+        "comments_url": "https://news.ycombinator.com/item?id=47727284"
+      },
+      "hot_score": 0.02,
+      "tags": [
+        "Education"
+      ]
+    },
+    {
+      "title_en": "A New Way to Spray Paint Color",
+      "url": "https://spectrum.ieee.org/spray-paint-color-creator",
+      "title_zh": "一种喷涂颜色的新方法",
+      "created_display": "Created: Apr 09, 2026 / 07:10 PT",
+      "image_url": "https://spectrum.ieee.org/media-library/image.png?id=65404484&width=1200&height=600&coordinates=0%2C481%2C0%2C481",
+      "summary_en": "A new technique for spray-paint color creation delivers finer control of color mixtures and tones, expanding the palette and reducing waste in coating processes. The method uses precise deposition and feedback to achieve stable hues for manufacturing and art.",
+      "summary_zh": "一种喷涂颜色的新技术实现对颜色混合与色调的更精确控制，扩展了调色范围并减少涂覆过程中的浪费。该方法通过精确喷涂和实时反馈来稳定色调，适用于制造与艺术场景。",
+      "hn": {
+        "id": 47704013,
+        "type": "story",
+        "by": "sohkamyung",
+        "score": 16,
+        "descendants": 8,
+        "time": 1775743822,
+        "comments_url": "https://news.ycombinator.com/item?id=47704013"
+      },
+      "hot_score": 0.01,
+      "tags": [
+        "Science",
+        "Design"
+      ]
+    },
+    {
+      "title_en": "How Much Linear Memory Access Is Enough?",
+      "url": "https://solidean.com/blog/2026/how-much-linear-memory-access-is-enough/",
+      "title_zh": "线性内存访问到底需要多少？",
+      "created_display": "Created: Apr 08, 2026 / 06:16 PT",
+      "image_url": "https://solidean.com/images/og/2026/bench-linear-memory-access.jpg",
+      "summary_en": "Questions how much linear memory access a program truly needs, challenging the assumption that more bandwidth always helps. It advocates for data locality, cache-friendly layouts, and practical heuristics to avoid memory bottlenecks in modern software.",
+      "summary_zh": "探讨程序对线性内存访问的真实需求，质疑“带宽越多越好”的普遍观点。强调数据局部性、缓存友好布局与在现代软件中避免内存瓶颈的实用方法。",
+      "hn": {
+        "id": 47689793,
+        "type": "story",
+        "by": "PhilipTrettner",
+        "score": 14,
+        "descendants": 1,
+        "time": 1775654179,
+        "comments_url": "https://news.ycombinator.com/item?id=47689793"
+      },
+      "hot_score": 0.01,
+      "tags": [
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "Cooperative Vectors Introduction",
+      "url": "https://www.evolvebenchmark.com/blog-posts/cooperative-vectors-introduction",
+      "title_zh": "合作向量介绍",
+      "created_display": "Created: Apr 10, 2026 / 06:16 PT",
+      "image_url": "https://cdn.prod.website-files.com/67a3486668d6b97bb69517a5/69a1b1698ac439cae6d3d393_header.jpg",
+      "summary_en": "An introductory piece on cooperative vectors, outlining how vector representations can encode collaboration and coordination in multi-agent settings. The article sketches potential uses in optimization and AI systems, suggesting a framework for studying cooperative behavior in computational contexts.",
+      "summary_zh": "本文对合作向量进行了入门介绍，阐释如何通过向量表示编码多智能体环境中的协作与协同。文章勾勒出在优化与 AI 系统中的潜在应用，并提出用于研究计算场景中合作行为的框架。",
+      "hn": {
+        "id": 47717690,
+        "type": "story",
+        "by": "JasperBekkers",
+        "score": 6,
+        "descendants": 0,
+        "time": 1775826972,
+        "comments_url": "https://news.ycombinator.com/item?id=47717690"
+      },
+      "hot_score": 0.01,
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title_en": "Sybilproof reputation mechanisms (2005) [pdf]",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/1080192.1080202",
+      "title_zh": "防 Sybil 攻击的声誉机制（2005）[PDF]",
+      "created_display": "Created: Apr 07, 2026 / 08:29 PT",
+      "image_url": null,
+      "summary_en": "This classic 2005 paper proposes reputation-based mechanisms to prevent Sybil attacks in distributed systems. It remains influential for understanding how to build trust in decentralized networks and has informed later work in P2P systems and blockchain governance.",
+      "summary_zh": "这篇 2005 年的经典论文提出了基于声誉的机制来防止分布式系统中的 Sybil 攻击。它对在去中心化网络中建立信任的理解影响深远，也为后续的 P2P 与区块链治理研究提供了参考。",
+      "hn": {
+        "id": 47676890,
+        "type": "story",
+        "by": "perfmode",
+        "score": 18,
+        "descendants": 0,
+        "time": 1775575775,
+        "comments_url": "https://news.ycombinator.com/item?id=47676890"
+      },
+      "hot_score": 0.0,
+      "tags": [
+        "Security",
+        "Finance"
+      ]
+    },
+    {
+      "title_en": "Previously unknown verses by Empedocles found on papyrus",
+      "url": "https://www.thehistoryblog.com/archives/75792",
+      "title_zh": "埃姆多克勒斯在纸草卷上发现的未知诗句",
+      "created_display": "Created: Apr 08, 2026 / 17:00 PT",
+      "image_url": null,
+      "summary_en": "A newly discovered papyrus fragment contains verses attributed to the pre-Socratic philosopher Empedocles, offering fresh evidence of his poetry. The find enriches our understanding of ancient Greek thought and the transmission of his work, with possible revisions to readings of his elemental theory.",
+      "summary_zh": "一份新发现的纸草卷证据显示埃姆多克勒斯的未知诗句，为其诗作提供新的证据，丰富了对古希腊思想及其文本传承的理解，可能对其四元素理论的解读产生影响。",
+      "hn": {
+        "id": 47697722,
+        "type": "story",
+        "by": "danielam",
+        "score": 7,
+        "descendants": 0,
+        "time": 1775692833,
+        "comments_url": "https://news.ycombinator.com/item?id=47697722"
+      },
+      "hot_score": 0.0,
+      "tags": [
+        "Culture"
+      ]
+    },
+    {
       "title_en": "Flashback to a time when government reports were works of art",
       "url": "https://www.chicagotribune.com/2026/04/08/transportation-library-northwestern/",
       "title_zh": "政府报告曾是艺术品的回顾",
@@ -1106,7 +1529,6 @@
       "hot_score": 0.0,
       "tags": [
         "Design",
-        "Culture",
         "Politics"
       ]
     },
@@ -1129,8 +1551,7 @@
       },
       "hot_score": 0.0,
       "tags": [
-        "Programming",
-        "DevOps"
+        "Programming"
       ]
     }
   ]
