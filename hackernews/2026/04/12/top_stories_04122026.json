@@ -4,41 +4,197 @@
     "source": "https://news.ycombinator.com/",
     "api": "https://github.com/HackerNews/API",
     "count_requested": 50,
-    "count_written": 50,
-    "reused_same_day": 0,
-    "reused_cross_day": 40,
-    "new_llm_enriched": 10,
-    "scrape_time_display": "00:23, April 12, 2026 (PDT)",
+    "count_written": 75,
+    "reused_same_day": 25,
+    "reused_cross_day": 0,
+    "new_llm_enriched": 22,
+    "scrape_time_display": "07:39, April 12, 2026 (PDT)",
     "timezone": "America/Los_Angeles",
     "date_dir": "2026/04/12",
     "content_date": "2026-04-12",
-    "run_time_local": "00:23, April 12, 2026 (PDT)",
-    "run_time_utc": "2026-04-12 07:23:47 UTC",
+    "run_time_local": "07:39, April 12, 2026 (PDT)",
+    "run_time_utc": "2026-04-12 14:39:17 UTC",
     "incremental": true,
     "stories_max": 100,
-    "hot_score_time_utc": "2026-04-12 07:25:06 UTC"
+    "hot_score_time_utc": "2026-04-12 14:40:38 UTC"
   },
   "items": [
     {
-      "title_en": "US appeals court declares 158-year-old home distilling ban unconstitutional",
-      "url": "https://www.theguardian.com/law/2026/apr/11/appeals-court-ruling-home-distilling-ban-unconstitutional",
-      "title_zh": "美上诉法院裁定158年历史的家庭蒸馏禁令违宪",
-      "created_display": "Created: Apr 11, 2026 / 22:08 PT",
-      "image_url": "https://i.guim.co.uk/img/media/a859b633790bc8805cfd1c9fa2c9cf44ebdacb20/0_0_4074_3261/master/4074.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=9937f75b569c27761a6fdc548bf37e8b",
-      "summary_en": "A federal appeals court struck down a 158-year-old ban on home distilling, ruling it unconstitutional. The decision highlights how legacy regulations can linger in the code and invites reevaluation of other antique restrictions. For makers and hobbyists, it signals potential growth in DIY spirits while underscoring the need to navigate safety and taxation.",
-      "summary_zh": "联邦上诉法院裁定一项158年前的家庭蒸馏禁令违宪。裁决暴露出法规体系中的历史遗留条文，促使人们重新审视其他古旧限制的效力。对家庭蒸馏爱好者而言，这可能扩展DIY烈酒的空间，同时也需关注安全与税务合规。",
+      "title_en": "Pro Max 5x Quota Exhausted in 1.5 Hours Despite Moderate Usage",
+      "url": "https://github.com/anthropics/claude-code/issues/45756",
+      "title_zh": "Pro Max 5x 配额在 1.5 小时内耗尽，使用量中等",
+      "created_display": "Created: Apr 12, 2026 / 06:15 PT",
+      "image_url": "https://opengraph.githubassets.com/70dd4383923158f88ff6fabd83ff028d4bbacc173a71a94580c818b7cf90716d/anthropics/claude-code/issues/45756",
+      "summary_en": "Quotas can throttle heavy workloads far quicker than one might expect, even with moderate activity. This case underscores the importance of understanding rate limits and having fallback or multi-account strategies for critical tasks.",
+      "summary_zh": "在中等使用量下，配额在1.5小时内就被耗尽，暴露了按用户设定的限额在持续工作中的约束。此事提醒开发者在规划工作流时要考虑配额上限、突发流量以及备选方案。",
       "hn": {
-        "id": 47736298,
+        "id": 47739260,
         "type": "story",
-        "by": "Jimmc414",
-        "score": 89,
-        "descendants": 50,
-        "time": 1775970483,
-        "comments_url": "https://news.ycombinator.com/item?id=47736298"
+        "by": "cmaster11",
+        "score": 233,
+        "descendants": 158,
+        "time": 1775999731,
+        "comments_url": "https://news.ycombinator.com/item?id=47739260"
       },
-      "hot_score": 6.41,
+      "hot_score": 25.38,
       "tags": [
-        "Legal",
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "Seven countries now generate 100% of their electricity from renewable energy",
+      "url": "https://www.the-independent.com/tech/renewable-energy-solar-nepal-bhutan-iceland-b2533699.html",
+      "title_zh": "七个国家实现100%可再生能源发电",
+      "created_display": "Created: Apr 12, 2026 / 06:21 PT",
+      "image_url": "https://static.the-independent.com/2024/04/16/11/renewable%20energy%20100%20map%20world.png?width=1200&height=800&crop=1200:800",
+      "summary_en": "Seven countries now generate all of their electricity from renewable sources, demonstrating real-world progress toward decarbonization. The story notes that reliability and grid stability still demand investment in storage and diversification.",
+      "summary_zh": "七个国家现已实现用可再生能源发电的100%，显示出在去碳化方面的切实进展。文章也提醒，可靠性与电网稳定性仍需通过储能和多元化来解决。",
+      "hn": {
+        "id": 47739313,
+        "type": "story",
+        "by": "mpweiher",
+        "score": 60,
+        "descendants": 19,
+        "time": 1776000099,
+        "comments_url": "https://news.ycombinator.com/item?id=47739313"
+      },
+      "hot_score": 6.82,
+      "tags": [
+        "Energy",
+        "Science"
+      ]
+    },
+    {
+      "title_en": "I run multiple $10K MRR companies on a $20/month tech stack",
+      "url": "https://stevehanov.ca/blog/how-i-run-multiple-10k-mrr-companies-on-a-20month-tech-stack",
+      "title_zh": "用20美元/月的技术栈运营多家月订阅收入达一万美元的公司",
+      "created_display": "Created: Apr 11, 2026 / 23:00 PT",
+      "image_url": "https://stevehanov.ca/blog/images/95f16b3dbf861a9156cb2c6d1be39f5e2fcfc1b1f4c5f11ee6f9e182bd4c5f5a.png",
+      "summary_en": "Running several SaaS-like businesses on a $20/month stack is feasible with strong automation and lean operations. The post outlines strategies to maintain roughly $10K MRR per product at tiny ongoing costs, highlighting how a low-cost, automated stack can scale.",
+      "summary_zh": "在极低成本和高度自动化的条件下，仍然能经营多家以订阅为核心的产品并实现可观的月经常性收入。作者分享了将每个项目的月耗控在约20美元、个别产品实现约1万美元MRR的做法，挑战了对高成本技术栈的普遍认知。",
+      "hn": {
+        "id": 47736555,
+        "type": "story",
+        "by": "tradertef",
+        "score": 464,
+        "descendants": 290,
+        "time": 1775973600,
+        "comments_url": "https://news.ycombinator.com/item?id=47736555"
+      },
+      "tags": [
+        "Startups",
+        "Business"
+      ],
+      "hot_score": 6.52
+    },
+    {
+      "title_en": "Apple update looks like Czech mate for locked-out iPhone user",
+      "url": "https://www.theregister.com/2026/04/12/ios_passcode_bug/",
+      "title_zh": "苹果更新为被锁定的 iPhone 用户带来希望",
+      "created_display": "Created: Apr 12, 2026 / 01:38 PT",
+      "image_url": "https://regmedia.co.uk/2024/03/27/passcode_shutterstock.jpg",
+      "summary_en": "Apple pushed a software update that remedies a passcode bug that could lock users out of their devices. The fix helps restore access and reduces long-term risk of permanent lockouts. This incident underscores how critical small software bugs can be on everyday devices and the value of timely patches.",
+      "summary_zh": "苹果发布软件更新修复了一个可能导致用户被锁定在设备之外的密码错误漏洞。修复让用户重新获得访问权限，降低长期被永久锁定的风险。此事凸显了日常设备上微小漏洞的影响以及及时修补的重要性。",
+      "hn": {
+        "id": 47737383,
+        "type": "story",
+        "by": "OuterVale",
+        "score": 274,
+        "descendants": 163,
+        "time": 1775983136,
+        "comments_url": "https://news.ycombinator.com/item?id=47737383"
+      },
+      "tags": [
+        "Security"
+      ],
+      "hot_score": 6.42
+    },
+    {
+      "title_en": "Tell HN: docker pull fails in spain due to football cloudflare block",
+      "url": "https://news.ycombinator.com/item?id=47738883",
+      "title_zh": "西班牙因 Cloudflare 阻断导致 Docker pull 失败",
+      "created_display": "Created: Apr 12, 2026 / 05:28 PT",
+      "image_url": "https://news.ycombinator.com/y18.svg",
+      "summary_en": "A Docker pull failure in Spain is linked to Cloudflare blocking football-related requests, illustrating how regional filtering can disrupt developer workflows. It underscores the need for resilient mirrors and alternative routing.",
+      "summary_zh": "西班牙的 Docker 拉取失败被追踪至 Cloudflare 对足球相关流量的拦截，反映出区域性过滤可能干扰开发工作流。需要更稳健的镜像源与路由策略以缓解。",
+      "hn": {
+        "id": 47738883,
+        "type": "story",
+        "by": "littlecranky67",
+        "score": 77,
+        "descendants": 30,
+        "time": 1775996937,
+        "comments_url": "https://news.ycombinator.com/item?id=47738883"
+      },
+      "hot_score": 5.75,
+      "tags": [
+        "DevOps"
+      ]
+    },
+    {
+      "title_en": "Tell HN: OpenAI silently removed Study Mode from ChatGPT",
+      "url": "https://news.ycombinator.com/item?id=47739305",
+      "title_zh": "OpenAI 悄悄移除了 ChatGPT 的学习模式",
+      "created_display": "Created: Apr 12, 2026 / 06:20 PT",
+      "image_url": "https://news.ycombinator.com/y18.svg",
+      "summary_en": "ChatGPT's Study Mode was quietly removed, affecting users who relied on focused, distraction-free sessions. The change highlights how feature deprecations can occur without fanfare, potentially disrupting study workflows.",
+      "summary_zh": "ChatGPT 的学习模式被悄然移除，影响依赖于专注、免打扰模式的用户。此变更显示出功能下线有时缺乏广泛公告，可能打乱学习流程。",
+      "hn": {
+        "id": 47739305,
+        "type": "story",
+        "by": "smokel",
+        "score": 51,
+        "descendants": 15,
+        "time": 1776000058,
+        "comments_url": "https://news.ycombinator.com/item?id=47739305"
+      },
+      "hot_score": 5.74,
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title_en": "We have a 99% email reputation. Gmail disagrees",
+      "url": "https://blogfontawesome.wpcomstaging.com/we-have-a-99-email-reputation-gmail-disagrees/",
+      "title_zh": "我们有99%的邮件信誉，但 Gmail 不认同",
+      "created_display": "Created: Apr 12, 2026 / 05:42 PT",
+      "image_url": "https://blogfontawesome.wpcomstaging.com/wp-content/uploads/2026/03/email-frustration.png",
+      "summary_en": "High sender reputation does not guarantee inbox placement; Gmail’s filters may override metrics based on other signals. This mismatch underscores the complexity of email deliverability and the need for end-to-end practices beyond reputation scores.",
+      "summary_zh": "即使发送方信誉再高，收件箱投递也不一定可靠，Gmail 的过滤体系可能基于其他信号进行处理。这一不匹配凸显了邮件送达的复杂性，需综合信誉、内容、历史和用户信号等策略。",
+      "hn": {
+        "id": 47738978,
+        "type": "story",
+        "by": "em-bee",
+        "score": 58,
+        "descendants": 39,
+        "time": 1775997745,
+        "comments_url": "https://news.ycombinator.com/item?id=47738978"
+      },
+      "hot_score": 4.76,
+      "tags": [
+        "Data"
+      ]
+    },
+    {
+      "title_en": "AI Will Be Met with Violence, and Nothing Good Will Come of It",
+      "url": "https://www.thealgorithmicbridge.com/p/ai-will-be-met-with-violence-and",
+      "title_zh": "AI 将遭遇暴力对待，且结果不会好",
+      "created_display": "Created: Apr 12, 2026 / 02:16 PT",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!eC5c!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F768f3fea-f270-45f0-ba62-4febc9c32bc2_1344x896.png",
+      "summary_en": "An opinion argues that attempts to regulate or deploy AI will provoke violence or backlash, warning against simplistic technocratic approaches. It calls for thoughtful governance, ethical considerations, and inclusive design to avert harm.",
+      "summary_zh": "观点认为对 AI 的监管与部署可能招致暴力反应和社会抵抗，警惕单一技术治理路径。呼吁在治理、伦理与包容性设计层面综合施策以避免负面后果。",
+      "hn": {
+        "id": 47737563,
+        "type": "story",
+        "by": "gHeadphone",
+        "score": 171,
+        "descendants": 274,
+        "time": 1775985395,
+        "comments_url": "https://news.ycombinator.com/item?id=47737563"
+      },
+      "hot_score": 4.63,
+      "tags": [
+        "AI",
         "Politics"
       ]
     },
@@ -54,8 +210,8 @@
         "id": 47732020,
         "type": "story",
         "by": "dominicq",
-        "score": 1005,
-        "descendants": 273,
+        "score": 1161,
+        "descendants": 313,
         "time": 1775926048,
         "comments_url": "https://news.ycombinator.com/item?id=47732020"
       },
@@ -63,30 +219,214 @@
         "AI",
         "Security"
       ],
-      "hot_score": 6.37
+      "hot_score": 3.84
     },
     {
-      "title_en": "The End of Eleventy",
-      "url": "https://brennan.day/the-end-of-eleventy/",
-      "title_zh": "Eleventy 的终结",
-      "created_display": "Created: Apr 11, 2026 / 18:55 PT",
-      "image_url": "https://brennan.day/assets/images/blog/11ty.jpg",
-      "summary_en": "The piece argues Eleventy may be losing traction as modern front-end stacks demand more dynamic, integrated tooling. It highlights tradeoffs between simplicity and capability in static-site workflows, urging teams to re-evaluate their tooling choices as ecosystems evolve. The author suggests exploring hybrid approaches or newer frameworks that offer better scalability.",
-      "summary_zh": "本文认为 Eleventy 在当今需要动态特性和集成工具的前端生态中可能逐渐失去吸引力。作者讨论静态站点工作流的取舍，建议团队在生态演进中重新评估工具选择，并考虑更具扩展性的混合方案或新框架。",
+      "title_en": "Why AI Sucks at Front End",
+      "url": "https://nerdy.dev/why-ai-sucks-at-front-end",
+      "title_zh": "AI 为什么在前端开发中表现劣势",
+      "created_display": "Created: Apr 12, 2026 / 05:26 PT",
+      "image_url": "https://nerdy.dev/media/why-ai-sucks-at-front-end.jpg",
+      "summary_en": "AI struggles with frontend tasks due to nuanced UI/UX, accessibility, and component composition that require human judgment. The piece argues AI is best used as an assistant rather than a replacement for frontend engineers.",
+      "summary_zh": "AI 在前端开发中难以处理细粒度的用户体验、无障碍与组件组合等问题，易出错。文章认为应将 AI 作为辅助工具，而非试图替代有经验的前端工程师。",
       "hn": {
-        "id": 47735535,
+        "id": 47738864,
         "type": "story",
-        "by": "ValentineC",
-        "score": 135,
-        "descendants": 78,
-        "time": 1775958948,
-        "comments_url": "https://news.ycombinator.com/item?id=47735535"
+        "by": "tobr",
+        "score": 51,
+        "descendants": 44,
+        "time": 1775996769,
+        "comments_url": "https://news.ycombinator.com/item?id=47738864"
+      },
+      "hot_score": 3.71,
+      "tags": [
+        "AI",
+        "Programming",
+        "Web"
+      ]
+    },
+    {
+      "title_en": "Internet outage in Iran reaches 1,008 hours",
+      "url": "https://mastodon.social/@netblocks/116384935123261912",
+      "title_zh": "伊朗互联网中断达 1008 小时",
+      "created_display": "Created: Apr 12, 2026 / 04:38 PT",
+      "image_url": "https://files.mastodon.social/media_attachments/files/116/384/922/620/882/331/original/80c7498bb9af5eb9.png",
+      "summary_en": "Iran experienced a prolonged internet outage exceeding 1,000 hours, affecting economy, communications, and access to information. The outage underscores how dependency on connectivity shapes daily life and highlights resilience challenges.",
+      "summary_zh": "伊朗互联网中断持续超过1000小时，严重影响经济、通讯与信息获取。此事凸显网络连通性对日常生活的重要性以及应对持续性中断的挑战。",
+      "hn": {
+        "id": 47738514,
+        "type": "story",
+        "by": "miadabdi",
+        "score": 66,
+        "descendants": 12,
+        "time": 1775993896,
+        "comments_url": "https://news.ycombinator.com/item?id=47738514"
+      },
+      "hot_score": 3.54,
+      "tags": [
+        "Data"
+      ]
+    },
+    {
+      "title_en": "JVM Options Explorer",
+      "url": "https://chriswhocodes.com/vm-options-explorer.html",
+      "title_zh": "JVM 选项探索器",
+      "created_display": "Created: Apr 12, 2026 / 03:29 PT",
+      "image_url": null,
+      "summary_en": "A web-based explorer for Java Virtual Machine options helps developers discover and compare flags, from GC tuning to JIT and memory settings. It reduces guesswork during JVM tuning and speeds up performance experimentation.",
+      "summary_zh": "这是一个在线的 JVM 参数浏览器，方便开发者查找、对比各类参数及其用途，包括垃圾回收、JIT 和内存设置。能够降低调优中的试错成本，加速性能试验。",
+      "hn": {
+        "id": 47738094,
+        "type": "story",
+        "by": "0x54MUR41",
+        "score": 86,
+        "descendants": 40,
+        "time": 1775989766,
+        "comments_url": "https://news.ycombinator.com/item?id=47738094"
+      },
+      "hot_score": 3.2,
+      "tags": [
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "Anthropic downgraded cache TTL on March 6th",
+      "url": "https://github.com/anthropics/claude-code/issues/46829",
+      "title_zh": "Anthropic 在3月6日下调 Claude 的缓存 TTL",
+      "created_display": "Created: Apr 11, 2026 / 22:45 PT",
+      "image_url": "https://opengraph.githubassets.com/a3bb239fbc861bfa12617c1b184dec172d7c035ad6e01e9ca4c2a2d5448cf9f1/anthropics/claude-code/issues/46829",
+      "summary_en": "Anthropic reduced Claude's cache TTL on March 6, affecting how fresh responses are served to clients. The change increases cache churn, potentially improving freshness at the cost of latency and API throughput. It signals ongoing tuning of balance between speed, cost, and accuracy.",
+      "summary_zh": "3月6日，Anthropic 下调了 Claude 的缓存 TTL，导致返回结果的时效性和新鲜度受到影响。更高的缓存替换率提升了新鲜度，但可能增加延迟与成本，反映出在速度、成本与准确性之间的持续调参。",
+      "hn": {
+        "id": 47736476,
+        "type": "story",
+        "by": "lsdmtme",
+        "score": 213,
+        "descendants": 164,
+        "time": 1775972752,
+        "comments_url": "https://news.ycombinator.com/item?id=47736476"
       },
       "tags": [
-        "Web",
-        "Programming"
+        "AI",
+        "DevOps"
       ],
-      "hot_score": 3.57
+      "hot_score": 2.87
+    },
+    {
+      "title_en": "US appeals court declares 158-year-old home distilling ban unconstitutional",
+      "url": "https://www.theguardian.com/law/2026/apr/11/appeals-court-ruling-home-distilling-ban-unconstitutional",
+      "title_zh": "美上诉法院裁定158年历史的家庭蒸馏禁令违宪",
+      "created_display": "Created: Apr 11, 2026 / 22:08 PT",
+      "image_url": "https://i.guim.co.uk/img/media/a859b633790bc8805cfd1c9fa2c9cf44ebdacb20/0_0_4074_3261/master/4074.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=9937f75b569c27761a6fdc548bf37e8b",
+      "summary_en": "A federal appeals court struck down a 158-year-old ban on home distilling, ruling it unconstitutional. The decision highlights how legacy regulations can linger in the code and invites reevaluation of other antique restrictions. For makers and hobbyists, it signals potential growth in DIY spirits while underscoring the need to navigate safety and taxation.",
+      "summary_zh": "联邦上诉法院裁定一项158年前的家庭蒸馏禁令违宪。裁决暴露出法规体系中的历史遗留条文，促使人们重新审视其他古旧限制的效力。对家庭蒸馏爱好者而言，这可能扩展DIY烈酒的空间，同时也需关注安全与税务合规。",
+      "hn": {
+        "id": 47736298,
+        "type": "story",
+        "by": "Jimmc414",
+        "score": 206,
+        "descendants": 195,
+        "time": 1775970483,
+        "comments_url": "https://news.ycombinator.com/item?id=47736298"
+      },
+      "tags": [
+        "Legal",
+        "Politics"
+      ],
+      "hot_score": 2.51
+    },
+    {
+      "title_en": "Bring Back Idiomatic Design",
+      "url": "https://essays.johnloeber.com/p/4-bring-back-idiomatic-design",
+      "title_zh": "回归地道设计",
+      "created_display": "Created: Apr 12, 2026 / 05:21 PT",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!o7Gx!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1d9c4a86-cb01-4f2c-ab0e-1cf2f0d0a2c8_419x304.png",
+      "summary_en": "The piece argues for designing APIs and UIs that follow the host language's idioms rather than importing external design paradigms. It reinforces how idiomatic design improves readability and safety.",
+      "summary_zh": "文章主张在软件设计中遵循目标语言的习惯用法，而非照搬外部风格。强调地道设计提升可读性、安全性和开发者体验。",
+      "hn": {
+        "id": 47738827,
+        "type": "story",
+        "by": "phil294",
+        "score": 30,
+        "descendants": 13,
+        "time": 1775996486,
+        "comments_url": "https://news.ycombinator.com/item?id=47738827"
+      },
+      "hot_score": 2.08,
+      "tags": [
+        "Design",
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "No one owes you supply-chain security",
+      "url": "https://purplesyringa.moe/blog/no-one-owes-you-supply-chain-security/",
+      "title_zh": "没有人欠你供应链安全",
+      "created_display": "Created: Apr 12, 2026 / 04:49 PT",
+      "image_url": "https://purplesyringa.moe/blog/no-one-owes-you-supply-chain-security/og.png",
+      "summary_en": "Security is a shared responsibility; no single party is solely responsible. The piece advocates proactive measures, verification, and resilience to strengthen supply chains.",
+      "summary_zh": "供应链安全不是某单一方的责任，需各方共同承担。文章倡导主动的安全实践、验证与韧性建设以提升整体安全性。",
+      "hn": {
+        "id": 47738595,
+        "type": "story",
+        "by": "birdculture",
+        "score": 34,
+        "descendants": 21,
+        "time": 1775994573,
+        "comments_url": "https://news.ycombinator.com/item?id=47738595"
+      },
+      "hot_score": 1.92,
+      "tags": [
+        "Security",
+        "Business"
+      ]
+    },
+    {
+      "title_en": "Phyphox – Physical Experiments Using a Smartphone",
+      "url": "https://phyphox.org/",
+      "title_zh": "Phyphox：用智能手机进行物理实验",
+      "created_display": "Created: Apr 12, 2026 / 01:38 PT",
+      "image_url": "https://phyphox.org/wp-content/uploads/2019/06/DSC02490_logo_2161.jpg",
+      "summary_en": "Phyphox enables physical experiments using smartphone sensors, turning everyday devices into lab instruments. It lowers barriers for STEM education and fieldwork by offering ready-made experiments and data collection tools.",
+      "summary_zh": "Phyphox 让智能手机内置传感器成为物理实验工具，降低教育与现场实验的门槛。通过现成的实验和数据采集工具，方便教师与学生进行动手研究。",
+      "hn": {
+        "id": 47737376,
+        "type": "story",
+        "by": "_Microft",
+        "score": 82,
+        "descendants": 17,
+        "time": 1775983091,
+        "comments_url": "https://news.ycombinator.com/item?id=47737376"
+      },
+      "hot_score": 1.9,
+      "tags": [
+        "Education",
+        "Science"
+      ]
+    },
+    {
+      "title_en": "Show HN: Oberon System 3 runs natively on Raspberry Pi 3 (with ready SD card)",
+      "url": "https://github.com/rochus-keller/OberonSystem3Native/releases",
+      "title_zh": "Show HN：Oberon System 3 可原生在 Raspberry Pi 3 上运行（含现成 SD 卡）",
+      "created_display": "Created: Apr 12, 2026 / 06:06 PT",
+      "image_url": "https://opengraph.githubassets.com/e999c0e1052312413ea22e528342a3c6b727a019437920fcd1e30fb018ac7b94/rochus-keller/OberonSystem3Native",
+      "summary_en": "A demo shows Oberon System 3 running natively on Raspberry Pi 3, accompanied by a ready-to-use SD card image. It demonstrates how a compact, single-tasking OS can still be useful for education and experimentation on modern SBCs.",
+      "summary_zh": "演示展示 Oberon System 3 在 Raspberry Pi 3 上原生运行，并提供现成的 SD 卡镜像。此举显示了简约、单任务操作系统在现代单板计算机上的教育与试验潜力。",
+      "hn": {
+        "id": 47739174,
+        "type": "story",
+        "by": "Rochus",
+        "score": 19,
+        "descendants": 1,
+        "time": 1775999204,
+        "comments_url": "https://news.ycombinator.com/item?id=47739174"
+      },
+      "hot_score": 1.83,
+      "tags": [
+        "Show HN",
+        "Hardware",
+        "Education"
+      ]
     },
     {
       "title_en": "How We Broke Top AI Agent Benchmarks: And What Comes Next",
@@ -100,16 +440,17 @@
         "id": 47733217,
         "type": "story",
         "by": "Anon84",
-        "score": 345,
-        "descendants": 88,
+        "score": 434,
+        "descendants": 108,
         "time": 1775934956,
         "comments_url": "https://news.ycombinator.com/item?id=47733217"
       },
       "tags": [
         "AI",
+        "Science",
         "Gaming"
       ],
-      "hot_score": 2.92
+      "hot_score": 1.74
     },
     {
       "title_en": "Filing the corners off my MacBooks",
@@ -123,38 +464,38 @@
         "id": 47724352,
         "type": "story",
         "by": "normanvalentine",
-        "score": 1324,
-        "descendants": 625,
+        "score": 1345,
+        "descendants": 637,
         "time": 1775859400,
         "comments_url": "https://news.ycombinator.com/item?id=47724352"
       },
       "tags": [
         "Hardware"
       ],
-      "hot_score": 2.18
+      "hot_score": 1.58
     },
     {
-      "title_en": "Apple Silicon and Virtual Machines: Beating the 2 VM Limit (2023)",
-      "url": "https://khronokernel.com/macos/2023/08/08/AS-VM.html",
-      "title_zh": "Apple Silicon 与虚拟机：突破两台 VM 的限制（2023）",
-      "created_display": "Created: Apr 11, 2026 / 13:58 PT",
-      "image_url": "https://khronokernel.com/favicon.ico",
-      "summary_en": "Shows practical ways to run more than two virtual machines on Apple Silicon, along with the hardware and software caveats involved. The takeaway is that while feasible with certain hypervisor setups, performance and memory overhead become the main bottlenecks.",
-      "summary_zh": "揭示在 Apple Silicon 上运行多于两台虚拟机的实际做法，以及相关的硬件与软件限制。要点在于，借助特定的虚拟机/仿真工具可以实现，但性能和内存开销将成为主要瓶颈。",
+      "title_en": "The End of Eleventy",
+      "url": "https://brennan.day/the-end-of-eleventy/",
+      "title_zh": "Eleventy 的终结",
+      "created_display": "Created: Apr 11, 2026 / 18:55 PT",
+      "image_url": "https://brennan.day/assets/images/blog/11ty.jpg",
+      "summary_en": "The piece argues Eleventy may be losing traction as modern front-end stacks demand more dynamic, integrated tooling. It highlights tradeoffs between simplicity and capability in static-site workflows, urging teams to re-evaluate their tooling choices as ecosystems evolve. The author suggests exploring hybrid approaches or newer frameworks that offer better scalability.",
+      "summary_zh": "本文认为 Eleventy 在当今需要动态特性和集成工具的前端生态中可能逐渐失去吸引力。作者讨论静态站点工作流的取舍，建议团队在生态演进中重新评估工具选择，并考虑更具扩展性的混合方案或新框架。",
       "hn": {
-        "id": 47733971,
+        "id": 47735535,
         "type": "story",
-        "by": "krackers",
-        "score": 188,
-        "descendants": 128,
-        "time": 1775941128,
-        "comments_url": "https://news.ycombinator.com/item?id=47733971"
+        "by": "ValentineC",
+        "score": 187,
+        "descendants": 150,
+        "time": 1775958948,
+        "comments_url": "https://news.ycombinator.com/item?id=47735535"
       },
       "tags": [
-        "Hardware",
+        "Web",
         "Programming"
       ],
-      "hot_score": 2.0
+      "hot_score": 1.46
     },
     {
       "title_en": "447 TB/cm² at zero retention energy – atomic-scale memory on fluorographane",
@@ -168,16 +509,41 @@
         "id": 47733561,
         "type": "story",
         "by": "iliatoli",
-        "score": 197,
-        "descendants": 99,
+        "score": 236,
+        "descendants": 128,
         "time": 1775938126,
         "comments_url": "https://news.ycombinator.com/item?id=47733561"
       },
       "tags": [
         "Science",
+        "Hardware",
         "Energy"
       ],
-      "hot_score": 1.87
+      "hot_score": 1.02
+    },
+    {
+      "title_en": "Apple Silicon and Virtual Machines: Beating the 2 VM Limit (2023)",
+      "url": "https://khronokernel.com/macos/2023/08/08/AS-VM.html",
+      "title_zh": "Apple Silicon 与虚拟机：突破两台 VM 的限制（2023）",
+      "created_display": "Created: Apr 11, 2026 / 13:58 PT",
+      "image_url": "https://khronokernel.com/favicon.ico",
+      "summary_en": "Shows practical ways to run more than two virtual machines on Apple Silicon, along with the hardware and software caveats involved. The takeaway is that while feasible with certain hypervisor setups, performance and memory overhead become the main bottlenecks.",
+      "summary_zh": "揭示在 Apple Silicon 上运行多于两台虚拟机的实际做法，以及相关的硬件与软件限制。要点在于，借助特定的虚拟机/仿真工具可以实现，但性能和内存开销将成为主要瓶颈。",
+      "hn": {
+        "id": 47733971,
+        "type": "story",
+        "by": "krackers",
+        "score": 213,
+        "descendants": 148,
+        "time": 1775941128,
+        "comments_url": "https://news.ycombinator.com/item?id=47733971"
+      },
+      "tags": [
+        "Programming",
+        "DevOps",
+        "Hardware"
+      ],
+      "hot_score": 0.99
     },
     {
       "title_en": "South Korea introduces universal basic mobile data access",
@@ -200,7 +566,7 @@
         "Politics",
         "Privacy"
       ],
-      "hot_score": 1.67
+      "hot_score": 0.96
     },
     {
       "title_en": "Dark Castle",
@@ -214,16 +580,38 @@
         "id": 47733521,
         "type": "story",
         "by": "evo_9",
-        "score": 175,
-        "descendants": 22,
+        "score": 214,
+        "descendants": 27,
         "time": 1775937719,
         "comments_url": "https://news.ycombinator.com/item?id=47733521"
       },
       "tags": [
-        "Gaming",
-        "Entertainment"
+        "Gaming"
       ],
-      "hot_score": 1.63
+      "hot_score": 0.92
+    },
+    {
+      "title_en": "1D Chess",
+      "url": "https://rowan441.github.io/1dchess/chess.html",
+      "title_zh": "一维棋",
+      "created_display": "Created: Apr 10, 2026 / 08:37 PT",
+      "image_url": "https://rowan441.github.io/1dchess/assets/pieces/white-king.svg",
+      "summary_en": "1D Chess challenges players with a single-line board, forcing rethinking of piece mobility and strategy. It’s a compact exploration of how constraints alter classical chess dynamics and makes for a playful, AI-friendly coding or game-design exercise.",
+      "summary_zh": "一维棋盘上的棋局迫使玩家重新思考移动规则与策略，极简化的设定揭示了约束如何改变经典棋局的动力学。也是一个有趣的 AI 研究/游戏设计练习，便于实现与教学。",
+      "hn": {
+        "id": 47719740,
+        "type": "story",
+        "by": "burnt-resistor",
+        "score": 962,
+        "descendants": 164,
+        "time": 1775835448,
+        "comments_url": "https://news.ycombinator.com/item?id=47719740"
+      },
+      "tags": [
+        "Gaming",
+        "AI"
+      ],
+      "hot_score": 0.87
     },
     {
       "title_en": "France's government is ditching Windows for Linux, says US tech a strategic risk",
@@ -243,11 +631,58 @@
         "comments_url": "https://news.ycombinator.com/item?id=47728653"
       },
       "tags": [
-        "Politics",
         "Open Source",
+        "Politics",
         "Security"
       ],
-      "hot_score": 1.33
+      "hot_score": 0.84
+    },
+    {
+      "title_en": "Doom, Played over Curl",
+      "url": "https://github.com/xsawyerx/curl-doom",
+      "title_zh": "Curl 上的 Doom：用 Curl 玩 Doom",
+      "created_display": "Created: Apr 12, 2026 / 03:01 PT",
+      "image_url": "https://opengraph.githubassets.com/ef5a3212afe2b73b1c1cf1e4b69ae50f227e486294111bddc0573bfb47c03ce0/xsawyerx/curl-doom",
+      "summary_en": "A playful project runs Doom using curl-based tooling, demonstrating creative use of everyday CLI utilities as a game-like experience. It showcases how far developers can push tooling boundaries and what counts as interactive programming.",
+      "summary_zh": "一个有趣的项目用 curl 构建的工作流来运行 Doom，展示了用常见 CLI 工具打造游戏体验的创造力与边界扩展。",
+      "hn": {
+        "id": 47737876,
+        "type": "story",
+        "by": "creaktive",
+        "score": 26,
+        "descendants": 1,
+        "time": 1775988114,
+        "comments_url": "https://news.ycombinator.com/item?id=47737876"
+      },
+      "hot_score": 0.83,
+      "tags": [
+        "Gaming",
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "Show HN: Pardonned.com – A searchable database of US Pardons",
+      "url": "https://news.ycombinator.com/item?id=47727960",
+      "title_zh": "Show HN: Pardonned.com – 美国赦免案件的可检索数据库",
+      "created_display": "Created: Apr 10, 2026 / 23:19 PT",
+      "image_url": "https://news.ycombinator.com/y18.svg",
+      "summary_en": "Pardonned.com offers a searchable database of U.S. pardons, making an otherwise opaque area of legal history accessible to researchers, journalists, and the public. The project demonstrates how open data approaches can surface important records, with potential for API access and data exports to support analysis.",
+      "summary_zh": "Pardonned.com 提供美国赦免案件的可检索数据库，方便研究者、记者与公众获取这类法律历史数据。该项目展示了开放数据在揭示重要记录方面的价值，同时具备 API 与数据导出以支持分析的潜力。",
+      "hn": {
+        "id": 47727960,
+        "type": "story",
+        "by": "vidluther",
+        "score": 453,
+        "descendants": 248,
+        "time": 1775888365,
+        "comments_url": "https://news.ycombinator.com/item?id=47727960"
+      },
+      "tags": [
+        "Show HN",
+        "Data",
+        "Legal"
+      ],
+      "hot_score": 0.78
     },
     {
       "title_en": "Advanced Mac Substitute is an API-level reimplementation of 1980s-era Mac OS",
@@ -261,16 +696,15 @@
         "id": 47731506,
         "type": "story",
         "by": "zdw",
-        "score": 232,
-        "descendants": 60,
+        "score": 254,
+        "descendants": 64,
         "time": 1775921959,
         "comments_url": "https://news.ycombinator.com/item?id=47731506"
       },
       "tags": [
-        "Programming",
-        "Open Source"
+        "Programming"
       ],
-      "hot_score": 1.3
+      "hot_score": 0.77
     },
     {
       "title_en": "The future of everything is lies, I guess – Part 5: Annoyances",
@@ -292,54 +726,7 @@
       "tags": [
         "Culture"
       ],
-      "hot_score": 1.27
-    },
-    {
-      "title_en": "Method to reverse cellular ageing is about to be tested in humans",
-      "url": "https://www.nature.com/articles/d41586-026-01024-7",
-      "title_zh": "反转细胞老化的方法即将进入人体试验",
-      "created_display": "Created: Apr 11, 2026 / 22:06 PT",
-      "image_url": "https://media.nature.com/lw1200/magazine-assets/d41586-026-01024-7/d41586-026-01024-7_52231624.jpg",
-      "summary_en": "A promising anti-aging approach based on cellular reprogramming is headed into human trials. If safe, it could reset cellular aging markers and improve tissue function, but early studies must address safety concerns such as tumor risk.",
-      "summary_zh": "一种基于再编程的抗衰老方法即将进入人体试验，若成功可能重置细胞衰老标记、提升组织功能。但早期研究需要严密评估安全性，如肿瘤风险等问题。",
-      "hn": {
-        "id": 47736289,
-        "type": "story",
-        "by": "jawiggins",
-        "score": 18,
-        "descendants": 1,
-        "time": 1775970371,
-        "comments_url": "https://news.ycombinator.com/item?id=47736289"
-      },
-      "hot_score": 1.22,
-      "tags": [
-        "Science",
-        "Health"
-      ]
-    },
-    {
-      "title_en": "1D Chess",
-      "url": "https://rowan441.github.io/1dchess/chess.html",
-      "title_zh": "一维棋",
-      "created_display": "Created: Apr 10, 2026 / 08:37 PT",
-      "image_url": "https://rowan441.github.io/1dchess/assets/pieces/white-king.svg",
-      "summary_en": "1D Chess challenges players with a single-line board, forcing rethinking of piece mobility and strategy. It’s a compact exploration of how constraints alter classical chess dynamics and makes for a playful, AI-friendly coding or game-design exercise.",
-      "summary_zh": "一维棋盘上的棋局迫使玩家重新思考移动规则与策略，极简化的设定揭示了约束如何改变经典棋局的动力学。也是一个有趣的 AI 研究/游戏设计练习，便于实现与教学。",
-      "hn": {
-        "id": 47719740,
-        "type": "story",
-        "by": "burnt-resistor",
-        "score": 962,
-        "descendants": 164,
-        "time": 1775835448,
-        "comments_url": "https://news.ycombinator.com/item?id=47719740"
-      },
-      "tags": [
-        "Gaming",
-        "Programming",
-        "AI"
-      ],
-      "hot_score": 1.16
+      "hot_score": 0.71
     },
     {
       "title_en": "Cirrus Labs to join OpenAI",
@@ -353,85 +740,16 @@
         "id": 47730194,
         "type": "story",
         "by": "seekdeep",
-        "score": 259,
-        "descendants": 125,
+        "score": 274,
+        "descendants": 132,
         "time": 1775912494,
         "comments_url": "https://news.ycombinator.com/item?id=47730194"
       },
       "tags": [
         "AI",
-        "Business"
+        "Startups"
       ],
-      "hot_score": 1.13
-    },
-    {
-      "title_en": "Show HN: Pardonned.com – A searchable database of US Pardons",
-      "url": "https://news.ycombinator.com/item?id=47727960",
-      "title_zh": "Show HN: Pardonned.com – 美国赦免案件的可检索数据库",
-      "created_display": "Created: Apr 10, 2026 / 23:19 PT",
-      "image_url": "https://news.ycombinator.com/y18.svg",
-      "summary_en": "Pardonned.com offers a searchable database of U.S. pardons, making an otherwise opaque area of legal history accessible to researchers, journalists, and the public. The project demonstrates how open data approaches can surface important records, with potential for API access and data exports to support analysis.",
-      "summary_zh": "Pardonned.com 提供美国赦免案件的可检索数据库，方便研究者、记者与公众获取这类法律历史数据。该项目展示了开放数据在揭示重要记录方面的价值，同时具备 API 与数据导出以支持分析的潜力。",
-      "hn": {
-        "id": 47727960,
-        "type": "story",
-        "by": "vidluther",
-        "score": 420,
-        "descendants": 231,
-        "time": 1775888365,
-        "comments_url": "https://news.ycombinator.com/item?id=47727960"
-      },
-      "tags": [
-        "Show HN",
-        "Data",
-        "Legal"
-      ],
-      "hot_score": 1.1
-    },
-    {
-      "title_en": "How a dancer with ALS used brainwaves to perform live",
-      "url": "https://www.electronicspecifier.com/products/sensors/how-a-dancer-with-als-used-brainwaves-to-perform-live/",
-      "title_zh": "患 ALS 的舞者如何用脑波进行现场表演",
-      "created_display": "Created: Apr 11, 2026 / 19:09 PT",
-      "image_url": "https://www.electronicspecifier.com/wp-content/uploads/2026/04/ALS.jpg",
-      "summary_en": "Describes a breakthrough where a dancer with ALS used brainwave control to perform live, highlighting the EEG-based interface, accessibility implications, and potential for inclusive performance tech.",
-      "summary_zh": "介绍在脑电波控制下实现现场表演的突破性案例，一位患 ALS 的舞者借此实现舞蹈表演。讨论所用的脑机接口、无障碍意义，以及对包容性表演技术的潜在影响。",
-      "hn": {
-        "id": 47735581,
-        "type": "story",
-        "by": "1659447091",
-        "score": 33,
-        "descendants": 3,
-        "time": 1775959753,
-        "comments_url": "https://news.ycombinator.com/item?id=47735581"
-      },
-      "tags": [
-        "Health",
-        "Science"
-      ],
-      "hot_score": 0.9
-    },
-    {
-      "title_en": "Why meaningful days look like nothing while you are living them",
-      "url": "https://pilgrima.ge/p/the-grand-line",
-      "title_zh": "有意义的日子在当下看起来平淡无奇",
-      "created_display": "Created: Apr 11, 2026 / 20:04 PT",
-      "image_url": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/98ef9a0b-4fbb-4981-a27a-3aa1630b0041/og-image.jpg?t=1775960592",
-      "summary_en": "Meaningful days often feel ordinary in real time; significance emerges in hindsight. The piece invites readers to slow down and savor small moments, or capture them to preserve memory, since meaning accrues with reflection rather than immediate awe.",
-      "summary_zh": "有意义的日子在当下常常显得平淡，真正的价值往往在事后回看时才浮现。文章鼓励人们放慢脚步，留意日常中的细小瞬间，或通过记录来保存记忆，因为意义是在反思中积累的。",
-      "hn": {
-        "id": 47735810,
-        "type": "story",
-        "by": "momentmaker",
-        "score": 26,
-        "descendants": 12,
-        "time": 1775963045,
-        "comments_url": "https://news.ycombinator.com/item?id=47735810"
-      },
-      "hot_score": 0.9,
-      "tags": [
-        "Culture"
-      ]
+      "hot_score": 0.69
     },
     {
       "title_en": "How to build a `Git diff` driver",
@@ -445,38 +763,58 @@
         "id": 47732697,
         "type": "story",
         "by": "zdw",
-        "score": 106,
-        "descendants": 12,
+        "score": 122,
+        "descendants": 13,
         "time": 1775930869,
         "comments_url": "https://news.ycombinator.com/item?id=47732697"
       },
       "tags": [
-        "Programming",
-        "DevOps"
+        "Programming"
       ],
-      "hot_score": 0.78
+      "hot_score": 0.44
     },
     {
-      "title_en": "Building a Z-Machine in the worst possible language – Whitebeard's Realm",
-      "url": "https://whitebeard.blog/posts/building-a-z-machine-in-elm/",
-      "title_zh": "在最糟糕的语言中构建 Z-Machine",
-      "created_display": "Created: Apr 11, 2026 / 19:57 PT",
-      "image_url": "https://whitebeard.blog/images/2026/04/elm-frotz-screenshot.png",
-      "summary_en": "A playful project implementing Infocom's Z-Machine in Elm, a deliberately challenging host language, to show how a vintage VM can be implemented in modern functional code. It walks through emulator architecture, memory, instruction decoding, and I/O in a purely functional setting, highlighting how language choice shapes practicality and design.",
-      "summary_zh": "一篇有趣的实践，选用 Elm 这类被视为对该任务不友好的语言来实现 Infocom 的 Z-Machine。文章讲解了仿真器的架构设计、内存与指令处理，以及在纯函数式语言环境中实现的要点，展示语言选择如何影响实现难度。",
+      "title_en": "How a dancer with ALS used brainwaves to perform live",
+      "url": "https://www.electronicspecifier.com/products/sensors/how-a-dancer-with-als-used-brainwaves-to-perform-live/",
+      "title_zh": "患 ALS 的舞者如何用脑波进行现场表演",
+      "created_display": "Created: Apr 11, 2026 / 19:09 PT",
+      "image_url": "https://www.electronicspecifier.com/wp-content/uploads/2026/04/ALS.jpg",
+      "summary_en": "Describes a breakthrough where a dancer with ALS used brainwave control to perform live, highlighting the EEG-based interface, accessibility implications, and potential for inclusive performance tech.",
+      "summary_zh": "介绍在脑电波控制下实现现场表演的突破性案例，一位患 ALS 的舞者借此实现舞蹈表演。讨论所用的脑机接口、无障碍意义，以及对包容性表演技术的潜在影响。",
       "hn": {
-        "id": 47735779,
+        "id": 47735581,
         "type": "story",
-        "by": "techbelly",
-        "score": 21,
-        "descendants": 1,
-        "time": 1775962644,
-        "comments_url": "https://news.ycombinator.com/item?id=47735779"
+        "by": "1659447091",
+        "score": 54,
+        "descendants": 11,
+        "time": 1775959753,
+        "comments_url": "https://news.ycombinator.com/item?id=47735581"
       },
-      "hot_score": 0.7,
       "tags": [
-        "Programming",
-        "Gaming"
+        "Health"
+      ],
+      "hot_score": 0.43
+    },
+    {
+      "title_en": "The Physics of GPS",
+      "url": "https://perthirtysix.com/how-does-gps-work",
+      "title_zh": "GPS 的物理原理",
+      "created_display": "Created: Apr 12, 2026 / 04:10 PT",
+      "image_url": "https://perthirtysix.com/img/gps-cover.png",
+      "summary_en": "Explains how GPS works, including relativistic corrections and signal timing, and shows how geometry and timing enable precise positioning.",
+      "summary_zh": "详细解释 GPS 的工作原理，涵盖相对论修正、信号时序，以及几何与时钟同步如何实现高精度定位。",
+      "hn": {
+        "id": 47738343,
+        "type": "story",
+        "by": "maouida",
+        "score": 10,
+        "descendants": 1,
+        "time": 1775992218,
+        "comments_url": "https://news.ycombinator.com/item?id=47738343"
+      },
+      "hot_score": 0.42,
+      "tags": [
+        "Science"
       ]
     },
     {
@@ -491,16 +829,15 @@
         "id": 47730712,
         "type": "story",
         "by": "ShaggyHotDog",
-        "score": 122,
-        "descendants": 44,
+        "score": 138,
+        "descendants": 45,
         "time": 1775916183,
         "comments_url": "https://news.ycombinator.com/item?id=47730712"
       },
       "tags": [
-        "Hardware",
-        "Science"
+        "Hardware"
       ],
-      "hot_score": 0.58
+      "hot_score": 0.37
     },
     {
       "title_en": "Keeping a Postgres Queue Healthy",
@@ -523,53 +860,73 @@
         "DevOps",
         "Data"
       ],
-      "hot_score": 0.56
+      "hot_score": 0.3
     },
     {
-      "title_en": "Midnight Captain – A midnight commander inspired file manager",
-      "url": "https://github.com/duguyue100/midnight-captain",
-      "title_zh": "Midnight Captain：受 Midnight Commander 启发的文件管理器",
-      "created_display": "Created: Apr 11, 2026 / 16:37 PT",
-      "image_url": "https://opengraph.githubassets.com/a9e3bce496195fa5d851408a1323445305353be799d86a0da808eeeb8123d4d6/duguyue100/midnight-captain",
-      "summary_en": "Introduces Midnight Captain, a terminal file manager inspired by Midnight Commander, and outlines its design goals, dual-pane navigation, and fast, keyboard-centric UX.",
-      "summary_zh": "介绍 Midnight Captain——受 Midnight Commander 启发的终端文件管理器，概述其设计目标、双窗格导航和以键盘为主的快速用户体验。",
+      "title_en": "High-Level Rust: Getting 80% of the Benefits with 20% of the Pain",
+      "url": "https://hamy.xyz/blog/2026-01_high-level-rust",
+      "title_zh": "Rust 高层次用法：用最小痛苦获得80%的收益",
+      "created_display": "Created: Apr 11, 2026 / 16:30 PT",
+      "image_url": "https://hamy.xyz/static/images/hamy-logo-terminal-garden_horizontal_1k_0.png",
+      "summary_en": "A pragmatic guide to reaping most of Rust's benefits with minimal pain. The author highlights practical patterns that deliver about 80% of Rust's safety and performance with relatively light learning, plus caveats when deeper knowledge is needed.",
+      "summary_zh": "该文从实用角度出发，展示在不深入掌握所有高级特性的前提下如何用 Rust 获得大部分收益。通过高效的模式、易用的抽象和安全默认，提供约80%的收益，附带何时需要深入 Unsafe 或低层优化的建议。",
       "hn": {
-        "id": 47734912,
+        "id": 47734878,
         "type": "story",
-        "by": "duguyue100",
-        "score": 30,
-        "descendants": 16,
-        "time": 1775950663,
-        "comments_url": "https://news.ycombinator.com/item?id=47734912"
+        "by": "maxloh",
+        "score": 49,
+        "descendants": 54,
+        "time": 1775950240,
+        "comments_url": "https://news.ycombinator.com/item?id=47734878"
       },
       "tags": [
-        "Programming",
-        "Open Source"
+        "Programming"
       ],
-      "hot_score": 0.48
+      "hot_score": 0.29
     },
     {
-      "title_en": "New synthesis of astronomical measurements shows Hubble tension is real",
-      "url": "https://noirlab.edu/public/news/noirlab2611/?nocache=true&lang=en",
-      "title_zh": "新一轮天文观测综合显示哈勃张力确实存在",
-      "created_display": "Created: Apr 11, 2026 / 11:55 PT",
-      "image_url": "http://storage.noirlab.edu/media/archives/images/screen/noirlab2611a.jpg",
-      "summary_en": "A synthesis of astronomical measurements reinforces the Hubble tension, showing a persistent discrepancy in the universe’s expansion rate across datasets. The result fuels discussions on potential new physics or unaccounted systematics.",
-      "summary_zh": "多项天文观测的综合结果进一步强化了哈勃张力的存在，显示在宇宙膨胀速率的测量中存在持续的不一致。其影响在于引发对新物理学或潜在系统误差的讨论。",
+      "title_en": "The APL programming language source code (2012)",
+      "url": "https://computerhistory.org/blog/the-apl-programming-language-source-code/",
+      "title_zh": "APL 编程语言源代码（2012）",
+      "created_display": "Created: Apr 11, 2026 / 10:34 PT",
+      "image_url": "https://computerhistory.org/wp-content/uploads/2012/10/APLSC_iverson_team.jpg",
+      "summary_en": "Describes the 2012 release of the APL language source code, offering historical insight into this foundational array programming language and how its tooling evolved. Highlights lessons for modern developers from its design and implementation.",
+      "summary_zh": "介绍 2012 年发布的 APL 语言源代码，为这一基础的数组编程语言及其工具的发展提供历史洞见，强调从其设计与实现中对当代开发者的启示。",
       "hn": {
-        "id": 47733066,
+        "id": 47732402,
         "type": "story",
-        "by": "anigbrowl",
-        "score": 57,
-        "descendants": 13,
-        "time": 1775933743,
-        "comments_url": "https://news.ycombinator.com/item?id=47733066"
+        "by": "tosh",
+        "score": 74,
+        "descendants": 24,
+        "time": 1775928850,
+        "comments_url": "https://news.ycombinator.com/item?id=47732402"
       },
       "tags": [
-        "Science",
-        "Space"
+        "Programming"
       ],
-      "hot_score": 0.46
+      "hot_score": 0.26
+    },
+    {
+      "title_en": "Software Preservation Group: C++ History Collection",
+      "url": "https://softwarepreservation.computerhistory.org/c_plus_plus/",
+      "title_zh": "软件保护组：C++ 历史收藏",
+      "created_display": "Created: Apr 11, 2026 / 18:24 PT",
+      "image_url": "https://softwarepreservation.computerhistory.org/logo.jpg",
+      "summary_en": "Introduces the C++ History Collection from the Software Preservation Group, spotlighting artifacts and milestones that chart the language's evolution. The collection offers context for historians and developers interested in how C++ shaped modern software.",
+      "summary_zh": "介绍软件保护组的 C++ 历史收藏，聚焦于记录语言演变的文物与里程碑。该收藏为历史学者和开发者提供背景，帮助理解 C++ 如何塑造了现代软件。",
+      "hn": {
+        "id": 47735405,
+        "type": "story",
+        "by": "quuxplusone",
+        "score": 34,
+        "descendants": 3,
+        "time": 1775957065,
+        "comments_url": "https://news.ycombinator.com/item?id=47735405"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 0.24
     },
     {
       "title_en": "Phone Trips",
@@ -592,97 +949,28 @@
         "Culture",
         "Programming"
       ],
-      "hot_score": 0.44
+      "hot_score": 0.23
     },
     {
-      "title_en": "The APL programming language source code (2012)",
-      "url": "https://computerhistory.org/blog/the-apl-programming-language-source-code/",
-      "title_zh": "APL 编程语言源代码（2012）",
-      "created_display": "Created: Apr 11, 2026 / 10:34 PT",
-      "image_url": "https://computerhistory.org/wp-content/uploads/2012/10/APLSC_iverson_team.jpg",
-      "summary_en": "Describes the 2012 release of the APL language source code, offering historical insight into this foundational array programming language and how its tooling evolved. Highlights lessons for modern developers from its design and implementation.",
-      "summary_zh": "介绍 2012 年发布的 APL 语言源代码，为这一基础的数组编程语言及其工具的发展提供历史洞见，强调从其设计与实现中对当代开发者的启示。",
+      "title_en": "Why meaningful days look like nothing while you are living them",
+      "url": "https://pilgrima.ge/p/the-grand-line",
+      "title_zh": "有意义的日子在当下看起来平淡无奇",
+      "created_display": "Created: Apr 11, 2026 / 20:04 PT",
+      "image_url": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/98ef9a0b-4fbb-4981-a27a-3aa1630b0041/og-image.jpg?t=1775960592",
+      "summary_en": "Meaningful days often feel ordinary in real time; significance emerges in hindsight. The piece invites readers to slow down and savor small moments, or capture them to preserve memory, since meaning accrues with reflection rather than immediate awe.",
+      "summary_zh": "有意义的日子在当下常常显得平淡，真正的价值往往在事后回看时才浮现。文章鼓励人们放慢脚步，留意日常中的细小瞬间，或通过记录来保存记忆，因为意义是在反思中积累的。",
       "hn": {
-        "id": 47732402,
+        "id": 47735810,
         "type": "story",
-        "by": "tosh",
-        "score": 65,
-        "descendants": 22,
-        "time": 1775928850,
-        "comments_url": "https://news.ycombinator.com/item?id=47732402"
+        "by": "momentmaker",
+        "score": 26,
+        "descendants": 12,
+        "time": 1775963045,
+        "comments_url": "https://news.ycombinator.com/item?id=47735810"
       },
+      "hot_score": 0.23,
       "tags": [
-        "Programming",
-        "Open Source"
-      ],
-      "hot_score": 0.44
-    },
-    {
-      "title_en": "Software Preservation Group: C++ History Collection",
-      "url": "https://softwarepreservation.computerhistory.org/c_plus_plus/",
-      "title_zh": "软件保护组：C++ 历史收藏",
-      "created_display": "Created: Apr 11, 2026 / 18:24 PT",
-      "image_url": "https://softwarepreservation.computerhistory.org/logo.jpg",
-      "summary_en": "Introduces the C++ History Collection from the Software Preservation Group, spotlighting artifacts and milestones that chart the language's evolution. The collection offers context for historians and developers interested in how C++ shaped modern software.",
-      "summary_zh": "介绍软件保护组的 C++ 历史收藏，聚焦于记录语言演变的文物与里程碑。该收藏为历史学者和开发者提供背景，帮助理解 C++ 如何塑造了现代软件。",
-      "hn": {
-        "id": 47735405,
-        "type": "story",
-        "by": "quuxplusone",
-        "score": 19,
-        "descendants": 2,
-        "time": 1775957065,
-        "comments_url": "https://news.ycombinator.com/item?id=47735405"
-      },
-      "tags": [
-        "Programming",
-        "Education"
-      ],
-      "hot_score": 0.43
-    },
-    {
-      "title_en": "Emergency Prices: How Private Equity Captured the Ambulance Market",
-      "url": "https://www.thebignewsletter.com/p/code-red-why-your-city-cant-affordor",
-      "title_zh": "紧急价格：私募股权如何掌控救护车市场",
-      "created_display": "Created: Apr 11, 2026 / 21:42 PT",
-      "image_url": null,
-      "summary_en": "Private equity firms have increasingly owned ambulance providers, reshaping pricing and access in emergency services. The piece analyzes the incentives driving consolidation, the impact on city budgets and patient costs, and policy options.",
-      "summary_zh": "私募股权对救护车运营商的控股日益增多，改变了紧急救护服务的定价和可得性。文章分析背后的财政激励、市场整合对城市预算和患者支出造成的影响，以及可能的政策改革路径。",
-      "hn": {
-        "id": 47736217,
-        "type": "story",
-        "by": "walterbell",
-        "score": 8,
-        "descendants": 0,
-        "time": 1775968934,
-        "comments_url": "https://news.ycombinator.com/item?id=47736217"
-      },
-      "hot_score": 0.43,
-      "tags": [
-        "Business",
-        "Finance"
-      ]
-    },
-    {
-      "title_en": "High-Level Rust: Getting 80% of the Benefits with 20% of the Pain",
-      "url": "https://hamy.xyz/blog/2026-01_high-level-rust",
-      "title_zh": "Rust 高层次用法：用最小痛苦获得80%的收益",
-      "created_display": "Created: Apr 11, 2026 / 16:30 PT",
-      "image_url": "https://hamy.xyz/static/images/hamy-logo-terminal-garden_horizontal_1k_0.png",
-      "summary_en": "A pragmatic guide to reaping most of Rust's benefits with minimal pain. The author highlights practical patterns that deliver about 80% of Rust's safety and performance with relatively light learning, plus caveats when deeper knowledge is needed.",
-      "summary_zh": "该文从实用角度出发，展示在不深入掌握所有高级特性的前提下如何用 Rust 获得大部分收益。通过高效的模式、易用的抽象和安全默认，提供约80%的收益，附带何时需要深入 Unsafe 或低层优化的建议。",
-      "hn": {
-        "id": 47734878,
-        "type": "story",
-        "by": "maxloh",
-        "score": 23,
-        "descendants": 8,
-        "time": 1775950240,
-        "comments_url": "https://news.ycombinator.com/item?id=47734878"
-      },
-      "hot_score": 0.35,
-      "tags": [
-        "Programming"
+        "Culture"
       ]
     },
     {
@@ -705,53 +993,53 @@
       "tags": [
         "Career"
       ],
-      "hot_score": 0.34
+      "hot_score": 0.22
     },
     {
-      "title_en": "EPA Moves to Ease Coal Ash Regulations for Power Plants",
-      "url": "https://www.law.com/nationallawjournal/2026/04/10/epa-moves-to-ease-coal-ash-regulations-for-power-plants/",
-      "title_zh": "EPA 放宽燃煤飞灰监管",
-      "created_display": "Created: Apr 11, 2026 / 22:19 PT",
-      "image_url": "https://images.law.com/brightspot/af/79/be7accda43de9866b95cd2ae41c4/coal-power-plant-jpg767x505.jpg",
-      "summary_en": "The EPA proposes loosening regulations on coal ash disposal at power plants, easing permits and enforcement. Advocates say it lowers costs and speeds projects; critics warn it may raise contamination risks to groundwater and nearby communities.",
-      "summary_zh": "环保局拟放松对燃煤飞灰处置的监管，简化许可与执法要求。支持者称这降低成本、加快项目推进；批评者担心可能提高地下水污染及对周边社区的风险。",
+      "title_en": "New synthesis of astronomical measurements shows Hubble tension is real",
+      "url": "https://noirlab.edu/public/news/noirlab2611/?nocache=true&lang=en",
+      "title_zh": "新一轮天文观测综合显示哈勃张力确实存在",
+      "created_display": "Created: Apr 11, 2026 / 11:55 PT",
+      "image_url": "http://storage.noirlab.edu/media/archives/images/screen/noirlab2611a.jpg",
+      "summary_en": "A synthesis of astronomical measurements reinforces the Hubble tension, showing a persistent discrepancy in the universe’s expansion rate across datasets. The result fuels discussions on potential new physics or unaccounted systematics.",
+      "summary_zh": "多项天文观测的综合结果进一步强化了哈勃张力的存在，显示在宇宙膨胀速率的测量中存在持续的不一致。其影响在于引发对新物理学或潜在系统误差的讨论。",
       "hn": {
-        "id": 47736349,
+        "id": 47733066,
         "type": "story",
-        "by": "1vuio0pswjnm7",
-        "score": 5,
-        "descendants": 0,
-        "time": 1775971191,
-        "comments_url": "https://news.ycombinator.com/item?id=47736349"
-      },
-      "hot_score": 0.32,
-      "tags": [
-        "Energy",
-        "Legal",
-        "Politics"
-      ]
-    },
-    {
-      "title_en": "Now is the best time to write code by hand",
-      "url": "https://sitebloom.ch/writing/now-is-the-best-time-to-write-code-by-hand/",
-      "title_zh": "现在是用手写代码的最佳时机",
-      "created_display": "Created: Apr 11, 2026 / 04:24 PT",
-      "image_url": "https://sitebloom.ch/_astro/dandelion.BRgwi9kQ.webp",
-      "summary_en": "Argues that writing code by hand strengthens mental models and aids deeper understanding of algorithms, with practical exercises and scenarios where handwriting enhances craftsmanship.",
-      "summary_zh": "认为手写代码能强化认知模型，帮助更深入理解算法；给出实用练习与情境，说明手写对软件工匠精神的价值。",
-      "hn": {
-        "id": 47729634,
-        "type": "story",
-        "by": "nickgreg",
-        "score": 66,
-        "descendants": 30,
-        "time": 1775906681,
-        "comments_url": "https://news.ycombinator.com/item?id=47729634"
+        "by": "anigbrowl",
+        "score": 57,
+        "descendants": 13,
+        "time": 1775933743,
+        "comments_url": "https://news.ycombinator.com/item?id=47733066"
       },
       "tags": [
-        "Programming"
+        "Science",
+        "Space"
       ],
-      "hot_score": 0.25
+      "hot_score": 0.22
+    },
+    {
+      "title_en": "Method to reverse cellular ageing is about to be tested in humans",
+      "url": "https://www.nature.com/articles/d41586-026-01024-7",
+      "title_zh": "反转细胞老化的方法即将进入人体试验",
+      "created_display": "Created: Apr 11, 2026 / 22:06 PT",
+      "image_url": "https://media.nature.com/lw1200/magazine-assets/d41586-026-01024-7/d41586-026-01024-7_52231624.jpg",
+      "summary_en": "A promising anti-aging approach based on cellular reprogramming is headed into human trials. If safe, it could reset cellular aging markers and improve tissue function, but early studies must address safety concerns such as tumor risk.",
+      "summary_zh": "一种基于再编程的抗衰老方法即将进入人体试验，若成功可能重置细胞衰老标记、提升组织功能。但早期研究需要严密评估安全性，如肿瘤风险等问题。",
+      "hn": {
+        "id": 47736289,
+        "type": "story",
+        "by": "jawiggins",
+        "score": 18,
+        "descendants": 1,
+        "time": 1775970371,
+        "comments_url": "https://news.ycombinator.com/item?id=47736289"
+      },
+      "hot_score": 0.21,
+      "tags": [
+        "Health",
+        "Science"
+      ]
     },
     {
       "title_en": "Starfling: A one-tap endless orbital slingshot game in a single HTML file",
@@ -774,29 +1062,73 @@
         "Gaming",
         "Web"
       ],
-      "hot_score": 0.22
+      "hot_score": 0.19
     },
     {
-      "title_en": "Brocards for Vulnerability Triage",
-      "url": "https://blog.yossarian.net/2026/04/11/Brocards-for-vulnerability-triage",
-      "title_zh": "用于漏洞分级的纸牌方法（Brocards）",
-      "created_display": "Created: Apr 11, 2026 / 11:40 PT",
-      "image_url": null,
-      "summary_en": "Introduces Brocards for vulnerability triage, a card-based approach to standardize prioritization and speed up decision-making in security workflows.",
-      "summary_zh": "介绍用于漏洞分级的纸牌方法（Brocards），通过卡片化标准化优先级排序，加速安全工作流中的决策过程。",
+      "title_en": "Midnight Captain – A midnight commander inspired file manager",
+      "url": "https://github.com/duguyue100/midnight-captain",
+      "title_zh": "Midnight Captain：受 Midnight Commander 启发的文件管理器",
+      "created_display": "Created: Apr 11, 2026 / 16:37 PT",
+      "image_url": "https://opengraph.githubassets.com/a9e3bce496195fa5d851408a1323445305353be799d86a0da808eeeb8123d4d6/duguyue100/midnight-captain",
+      "summary_en": "Introduces Midnight Captain, a terminal file manager inspired by Midnight Commander, and outlines its design goals, dual-pane navigation, and fast, keyboard-centric UX.",
+      "summary_zh": "介绍 Midnight Captain——受 Midnight Commander 启发的终端文件管理器，概述其设计目标、双窗格导航和以键盘为主的快速用户体验。",
       "hn": {
-        "id": 47732945,
+        "id": 47734912,
         "type": "story",
-        "by": "woodruffw",
-        "score": 15,
-        "descendants": 0,
-        "time": 1775932807,
-        "comments_url": "https://news.ycombinator.com/item?id=47732945"
+        "by": "duguyue100",
+        "score": 30,
+        "descendants": 16,
+        "time": 1775950663,
+        "comments_url": "https://news.ycombinator.com/item?id=47734912"
       },
       "tags": [
-        "Security"
+        "Programming"
       ],
-      "hot_score": 0.11
+      "hot_score": 0.18
+    },
+    {
+      "title_en": "Building a Z-Machine in the worst possible language – Whitebeard's Realm",
+      "url": "https://whitebeard.blog/posts/building-a-z-machine-in-elm/",
+      "title_zh": "在最糟糕的语言中构建 Z-Machine",
+      "created_display": "Created: Apr 11, 2026 / 19:57 PT",
+      "image_url": "https://whitebeard.blog/images/2026/04/elm-frotz-screenshot.png",
+      "summary_en": "A playful project implementing Infocom's Z-Machine in Elm, a deliberately challenging host language, to show how a vintage VM can be implemented in modern functional code. It walks through emulator architecture, memory, instruction decoding, and I/O in a purely functional setting, highlighting how language choice shapes practicality and design.",
+      "summary_zh": "一篇有趣的实践，选用 Elm 这类被视为对该任务不友好的语言来实现 Infocom 的 Z-Machine。文章讲解了仿真器的架构设计、内存与指令处理，以及在纯函数式语言环境中实现的要点，展示语言选择如何影响实现难度。",
+      "hn": {
+        "id": 47735779,
+        "type": "story",
+        "by": "techbelly",
+        "score": 21,
+        "descendants": 1,
+        "time": 1775962644,
+        "comments_url": "https://news.ycombinator.com/item?id=47735779"
+      },
+      "hot_score": 0.18,
+      "tags": [
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "Now is the best time to write code by hand",
+      "url": "https://sitebloom.ch/writing/now-is-the-best-time-to-write-code-by-hand/",
+      "title_zh": "现在是用手写代码的最佳时机",
+      "created_display": "Created: Apr 11, 2026 / 04:24 PT",
+      "image_url": "https://sitebloom.ch/_astro/dandelion.BRgwi9kQ.webp",
+      "summary_en": "Argues that writing code by hand strengthens mental models and aids deeper understanding of algorithms, with practical exercises and scenarios where handwriting enhances craftsmanship.",
+      "summary_zh": "认为手写代码能强化认知模型，帮助更深入理解算法；给出实用练习与情境，说明手写对软件工匠精神的价值。",
+      "hn": {
+        "id": 47729634,
+        "type": "story",
+        "by": "nickgreg",
+        "score": 66,
+        "descendants": 30,
+        "time": 1775906681,
+        "comments_url": "https://news.ycombinator.com/item?id=47729634"
+      },
+      "tags": [
+        "Education"
+      ],
+      "hot_score": 0.15
     },
     {
       "title_en": "Every plane you see in the sky – you can now follow it from the cockpit in 3D",
@@ -810,8 +1142,8 @@
         "id": 47694064,
         "type": "story",
         "by": "coolwulf",
-        "score": 317,
-        "descendants": 59,
+        "score": 351,
+        "descendants": 66,
         "time": 1775671852,
         "comments_url": "https://news.ycombinator.com/item?id=47694064"
       },
@@ -833,16 +1165,39 @@
         "id": 47695213,
         "type": "story",
         "by": "marvinborner",
-        "score": 286,
-        "descendants": 31,
+        "score": 304,
+        "descendants": 32,
         "time": 1775677070,
         "comments_url": "https://news.ycombinator.com/item?id=47695213"
       },
       "tags": [
-        "Programming",
+        "Gaming",
         "AI"
       ],
       "hot_score": 0.09
+    },
+    {
+      "title_en": "Emergency Prices: How Private Equity Captured the Ambulance Market",
+      "url": "https://www.thebignewsletter.com/p/code-red-why-your-city-cant-affordor",
+      "title_zh": "紧急价格：私募股权如何掌控救护车市场",
+      "created_display": "Created: Apr 11, 2026 / 21:42 PT",
+      "image_url": null,
+      "summary_en": "Private equity firms have increasingly owned ambulance providers, reshaping pricing and access in emergency services. The piece analyzes the incentives driving consolidation, the impact on city budgets and patient costs, and policy options.",
+      "summary_zh": "私募股权对救护车运营商的控股日益增多，改变了紧急救护服务的定价和可得性。文章分析背后的财政激励、市场整合对城市预算和患者支出造成的影响，以及可能的政策改革路径。",
+      "hn": {
+        "id": 47736217,
+        "type": "story",
+        "by": "walterbell",
+        "score": 8,
+        "descendants": 0,
+        "time": 1775968934,
+        "comments_url": "https://news.ycombinator.com/item?id=47736217"
+      },
+      "hot_score": 0.08,
+      "tags": [
+        "Finance",
+        "Business"
+      ]
     },
     {
       "title_en": "How Passive Radar Works",
@@ -863,9 +1218,10 @@
       },
       "tags": [
         "Science",
+        "Hardware",
         "Privacy"
       ],
-      "hot_score": 0.08
+      "hot_score": 0.07
     },
     {
       "title_en": "Surelock: Deadlock-Free Mutexes for Rust",
@@ -879,8 +1235,8 @@
         "id": 47693559,
         "type": "story",
         "by": "codetheweb",
-        "score": 202,
-        "descendants": 66,
+        "score": 229,
+        "descendants": 72,
         "time": 1775669779,
         "comments_url": "https://news.ycombinator.com/item?id=47693559"
       },
@@ -889,6 +1245,75 @@
         "Business"
       ],
       "hot_score": 0.06
+    },
+    {
+      "title_en": "Brocards for Vulnerability Triage",
+      "url": "https://blog.yossarian.net/2026/04/11/Brocards-for-vulnerability-triage",
+      "title_zh": "用于漏洞分级的纸牌方法（Brocards）",
+      "created_display": "Created: Apr 11, 2026 / 11:40 PT",
+      "image_url": null,
+      "summary_en": "Introduces Brocards for vulnerability triage, a card-based approach to standardize prioritization and speed up decision-making in security workflows.",
+      "summary_zh": "介绍用于漏洞分级的纸牌方法（Brocards），通过卡片化标准化优先级排序，加速安全工作流中的决策过程。",
+      "hn": {
+        "id": 47732945,
+        "type": "story",
+        "by": "woodruffw",
+        "score": 15,
+        "descendants": 0,
+        "time": 1775932807,
+        "comments_url": "https://news.ycombinator.com/item?id=47732945"
+      },
+      "tags": [
+        "Security"
+      ],
+      "hot_score": 0.05
+    },
+    {
+      "title_en": "EPA Moves to Ease Coal Ash Regulations for Power Plants",
+      "url": "https://www.law.com/nationallawjournal/2026/04/10/epa-moves-to-ease-coal-ash-regulations-for-power-plants/",
+      "title_zh": "EPA 放宽燃煤飞灰监管",
+      "created_display": "Created: Apr 11, 2026 / 22:19 PT",
+      "image_url": "https://images.law.com/brightspot/af/79/be7accda43de9866b95cd2ae41c4/coal-power-plant-jpg767x505.jpg",
+      "summary_en": "The EPA proposes loosening regulations on coal ash disposal at power plants, easing permits and enforcement. Advocates say it lowers costs and speeds projects; critics warn it may raise contamination risks to groundwater and nearby communities.",
+      "summary_zh": "环保局拟放松对燃煤飞灰处置的监管，简化许可与执法要求。支持者称这降低成本、加快项目推进；批评者担心可能提高地下水污染及对周边社区的风险。",
+      "hn": {
+        "id": 47736349,
+        "type": "story",
+        "by": "1vuio0pswjnm7",
+        "score": 5,
+        "descendants": 0,
+        "time": 1775971191,
+        "comments_url": "https://news.ycombinator.com/item?id=47736349"
+      },
+      "hot_score": 0.05,
+      "tags": [
+        "Politics",
+        "Legal",
+        "Energy"
+      ]
+    },
+    {
+      "title_en": "Pijul a FOSS distributed version control system",
+      "url": "https://pijul.org/",
+      "title_zh": "Pijul：一个开源分布式版本控制系统",
+      "created_display": "Created: Apr 07, 2026 / 03:16 PT",
+      "image_url": null,
+      "summary_en": "Pijul is an open-source distributed version control system grounded in patch-based history and a functional data model, offering a different approach from Git. It emphasizes composability and formal reasoning about changes, appealing to projects seeking alternative VCS semantics.",
+      "summary_zh": "Pijul 是一个开源分布式版本控制系统，采用基于补丁的历史与函数式数据模型，与 Git 提供了不同的语义。它强调可组合性和对变更的形式化推理，适合寻求替代 VCS 语义的项目。",
+      "hn": {
+        "id": 47672941,
+        "type": "story",
+        "by": "kouosi",
+        "score": 176,
+        "descendants": 25,
+        "time": 1775556998,
+        "comments_url": "https://news.ycombinator.com/item?id=47672941"
+      },
+      "tags": [
+        "Open Source",
+        "Programming"
+      ],
+      "hot_score": 0.03
     },
     {
       "title_en": "Layoff Thinking",
@@ -908,55 +1333,34 @@
         "comments_url": "https://news.ycombinator.com/item?id=47698046"
       },
       "tags": [
+        "Career",
         "Business"
       ],
       "hot_score": 0.03
     },
     {
-      "title_en": "Previously unknown verses by Empedocles found on papyrus",
-      "url": "https://www.thehistoryblog.com/archives/75792",
-      "title_zh": "埃姆多克勒斯在纸草卷上发现的未知诗句",
-      "created_display": "Created: Apr 08, 2026 / 17:00 PT",
+      "title_en": "An Interview with Pat Gelsinger",
+      "url": "https://morethanmoore.substack.com/p/an-interview-with-pat-gelsinger-2026",
+      "title_zh": "帕特·盖尔辛格访谈",
+      "created_display": "Created: Apr 09, 2026 / 10:19 PT",
       "image_url": null,
-      "summary_en": "A newly discovered papyrus fragment contains verses attributed to the pre-Socratic philosopher Empedocles, offering fresh evidence of his poetry. The find enriches our understanding of ancient Greek thought and the transmission of his work, with possible revisions to readings of his elemental theory.",
-      "summary_zh": "一份新发现的纸草卷证据显示埃姆多克勒斯的未知诗句，为其诗作提供新的证据，丰富了对古希腊思想及其文本传承的理解，可能对其四元素理论的解读产生影响。",
+      "summary_en": "Pat Gelsinger shares Intel's strategic outlook on AI workloads, manufacturing, and IDM 2.0, providing candid perspectives on the road ahead for semiconductors. The interview sheds light on how Intel plans to compete in a rapidly evolving chip ecosystem.",
+      "summary_zh": "帕特·盖尔辛格在访谈中谈及英特尔在 AI 工作负载、制造业和 IDM 2.0 的战略展望，提供对半导体行业快速演变格局的直观洞见。",
       "hn": {
-        "id": 47697722,
+        "id": 47706423,
         "type": "story",
-        "by": "danielam",
-        "score": 74,
-        "descendants": 16,
-        "time": 1775692833,
-        "comments_url": "https://news.ycombinator.com/item?id=47697722"
+        "by": "zdw",
+        "score": 76,
+        "descendants": 40,
+        "time": 1775755150,
+        "comments_url": "https://news.ycombinator.com/item?id=47706423"
       },
+      "hot_score": 0.03,
       "tags": [
-        "Culture",
-        "Education"
-      ],
-      "hot_score": 0.03
-    },
-    {
-      "title_en": "Pijul a FOSS distributed version control system",
-      "url": "https://pijul.org/",
-      "title_zh": "Pijul：一个开源分布式版本控制系统",
-      "created_display": "Created: Apr 07, 2026 / 03:16 PT",
-      "image_url": null,
-      "summary_en": "Pijul is an open-source distributed version control system grounded in patch-based history and a functional data model, offering a different approach from Git. It emphasizes composability and formal reasoning about changes, appealing to projects seeking alternative VCS semantics.",
-      "summary_zh": "Pijul 是一个开源分布式版本控制系统，采用基于补丁的历史与函数式数据模型，与 Git 提供了不同的语义。它强调可组合性和对变更的形式化推理，适合寻求替代 VCS 语义的项目。",
-      "hn": {
-        "id": 47672941,
-        "type": "story",
-        "by": "kouosi",
-        "score": 129,
-        "descendants": 22,
-        "time": 1775556998,
-        "comments_url": "https://news.ycombinator.com/item?id=47672941"
-      },
-      "tags": [
-        "Programming",
-        "Open Source"
-      ],
-      "hot_score": 0.02
+        "Business",
+        "AI",
+        "Hardware"
+      ]
     },
     {
       "title_en": "How Complex is my Code?",
@@ -970,12 +1374,35 @@
         "id": 47673171,
         "type": "story",
         "by": "speckx",
-        "score": 96,
-        "descendants": 18,
+        "score": 144,
+        "descendants": 37,
         "time": 1775558695,
         "comments_url": "https://news.ycombinator.com/item?id=47673171"
       },
       "tags": [
+        "Programming"
+      ],
+      "hot_score": 0.02
+    },
+    {
+      "title_en": "Tofolli gates are all you need",
+      "url": "https://www.johndcook.com/blog/2026/04/06/tofolli-gates/",
+      "title_zh": "Toffoli 门才是你需要的全部",
+      "created_display": "Created: Apr 07, 2026 / 02:40 PT",
+      "image_url": "https://www.johndcook.com/blog/wp-content/uploads/2022/05/twittercard.png",
+      "summary_en": "Toffoli gates show that a single gate family is enough to implement any computation when combined with negation, illustrating the elegance of universal gate sets in reversible and quantum circuits.",
+      "summary_zh": "本文主张，在只用 Toffoli 门且可与简单取反结合的前提下，任何计算都可以实现，揭示了可逆与量子电路中统一门集的强大魅力。它还讨论了在硬件实现和教学中的实际意义。",
+      "hn": {
+        "id": 47672718,
+        "type": "story",
+        "by": "ibobev",
+        "score": 95,
+        "descendants": 24,
+        "time": 1775554857,
+        "comments_url": "https://news.ycombinator.com/item?id=47672718"
+      },
+      "tags": [
+        "Science",
         "Programming"
       ],
       "hot_score": 0.02
@@ -1003,6 +1430,51 @@
       "hot_score": 0.02
     },
     {
+      "title_en": "Previously unknown verses by Empedocles found on papyrus",
+      "url": "https://www.thehistoryblog.com/archives/75792",
+      "title_zh": "埃姆多克勒斯在纸草卷上发现的未知诗句",
+      "created_display": "Created: Apr 08, 2026 / 17:00 PT",
+      "image_url": null,
+      "summary_en": "A newly discovered papyrus fragment contains verses attributed to the pre-Socratic philosopher Empedocles, offering fresh evidence of his poetry. The find enriches our understanding of ancient Greek thought and the transmission of his work, with possible revisions to readings of his elemental theory.",
+      "summary_zh": "一份新发现的纸草卷证据显示埃姆多克勒斯的未知诗句，为其诗作提供新的证据，丰富了对古希腊思想及其文本传承的理解，可能对其四元素理论的解读产生影响。",
+      "hn": {
+        "id": 47697722,
+        "type": "story",
+        "by": "danielam",
+        "score": 74,
+        "descendants": 16,
+        "time": 1775692833,
+        "comments_url": "https://news.ycombinator.com/item?id=47697722"
+      },
+      "tags": [
+        "Science"
+      ],
+      "hot_score": 0.02
+    },
+    {
+      "title_en": "Relics of the Heroic Age of Manned Space Flight",
+      "url": "http://heroicrelics.org/index.html",
+      "title_zh": "载人航天英雄时代的遗物",
+      "created_display": "Created: Apr 11, 2026 / 00:23 PT",
+      "image_url": "http://heroicrelics.org/images/console-plaque.png",
+      "summary_en": "A collection of artifacts from the heroic era of crewed spaceflight, offering historical insight into early aerospace engineering and risks. The items illustrate the ingenuity and ambition that shaped modern space exploration.",
+      "summary_zh": "一组来自载人航天黄金时代的遗物，提供对早期航天工程、风险与壮举的历史洞察。展品体现了推动现代太空探索的创造力与雄心。",
+      "hn": {
+        "id": 47728323,
+        "type": "story",
+        "by": "zdgeier",
+        "score": 12,
+        "descendants": 1,
+        "time": 1775892194,
+        "comments_url": "https://news.ycombinator.com/item?id=47728323"
+      },
+      "hot_score": 0.02,
+      "tags": [
+        "Space",
+        "Culture"
+      ]
+    },
+    {
       "title_en": "What is a property?",
       "url": "https://alperenkeles.com/posts/what-is-a-property/",
       "title_zh": "什么是属性？",
@@ -1014,16 +1486,40 @@
         "id": 47674075,
         "type": "story",
         "by": "alpaylan",
-        "score": 70,
-        "descendants": 19,
+        "score": 86,
+        "descendants": 23,
         "time": 1775564187,
         "comments_url": "https://news.ycombinator.com/item?id=47674075"
       },
       "tags": [
-        "Science",
+        "Education",
         "Programming"
       ],
       "hot_score": 0.01
+    },
+    {
+      "title_en": "Happy Map",
+      "url": "https://pudding.cool/2026/02/happy-map/",
+      "title_zh": "幸福地图",
+      "created_display": "Created: Apr 07, 2026 / 06:55 PT",
+      "image_url": "https://pudding.cool/2026/02/happy-map/assets/social-facebook.png",
+      "summary_en": "Happy Map visualizes happiness-related data across regions, highlighting patterns and correlations with income, health, and social factors. The interactive map illustrates how well-being varies and what drives it.",
+      "summary_zh": "幸福地图通过交互式可视化展示不同地区的幸福指标，揭示与收入、健康和社会因素的相关性。它帮助读者直观理解全球幸福的差异与驱动因素。",
+      "hn": {
+        "id": 47675444,
+        "type": "story",
+        "by": "surprisetalk",
+        "score": 76,
+        "descendants": 11,
+        "time": 1775570111,
+        "comments_url": "https://news.ycombinator.com/item?id=47675444"
+      },
+      "hot_score": 0.01,
+      "tags": [
+        "Data",
+        "Design",
+        "Health"
+      ]
     },
     {
       "title_en": "The Soul of an Old Machine",
@@ -1037,15 +1533,61 @@
         "id": 47674273,
         "type": "story",
         "by": "mskalski",
-        "score": 49,
-        "descendants": 10,
+        "score": 66,
+        "descendants": 16,
         "time": 1775565049,
         "comments_url": "https://news.ycombinator.com/item?id=47674273"
       },
       "tags": [
-        "Hardware"
+        "Hardware",
+        "Design"
       ],
       "hot_score": 0.01
+    },
+    {
+      "title_en": "The Miller Principle (2007)",
+      "url": "https://puredanger.github.io/tech.puredanger.com/2007/07/11/miller-principle/",
+      "title_zh": "米勒原则（2007）",
+      "created_display": "Created: Apr 07, 2026 / 06:16 PT",
+      "image_url": "https://puredanger.github.io/tech.puredanger.com/img/logo.jpg",
+      "summary_en": "A concise note from 2007 about the Miller Principle, offering a compact guideline in software development or systems thinking.",
+      "summary_zh": "2007 年的一则简短笔记，阐述米勒原则，提供软件开发或系统思维领域的简要准则。",
+      "hn": {
+        "id": 47674910,
+        "type": "story",
+        "by": "FelipeCortez",
+        "score": 54,
+        "descendants": 45,
+        "time": 1775567796,
+        "comments_url": "https://news.ycombinator.com/item?id=47674910"
+      },
+      "hot_score": 0.01,
+      "tags": [
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "Network Flow Algorithms",
+      "url": "https://www.networkflowalgs.com/",
+      "title_zh": "网络流算法",
+      "created_display": "Created: Apr 07, 2026 / 00:27 PT",
+      "image_url": "https://www.networkflowalgs.com/img/cover.png",
+      "summary_en": "A structured hub of network flow algorithms, including max flow, min cut, and related topics, with explanations and references. A go-to reference for students and professionals.",
+      "summary_zh": "网络流算法的系统资源，覆盖最大流、最小割等核心问题，含解释与参考。是学生与从业者的实用参考。",
+      "hn": {
+        "id": 47671814,
+        "type": "story",
+        "by": "teleforce",
+        "score": 36,
+        "descendants": 1,
+        "time": 1775546834,
+        "comments_url": "https://news.ycombinator.com/item?id=47671814"
+      },
+      "hot_score": 0.01,
+      "tags": [
+        "Programming",
+        "Science"
+      ]
     },
     {
       "title_en": "The Life and Death of the Book Review",
@@ -1071,6 +1613,52 @@
       "hot_score": 0.01
     },
     {
+      "title_en": "A Tour of Oodi",
+      "url": "https://blinry.org/oodi/",
+      "title_zh": "Oodi 图书馆之旅",
+      "created_display": "Created: Apr 09, 2026 / 10:27 PT",
+      "image_url": "https://blinry.org/oodi/4fccc6671b254665.jpg-thumbnail.jpg",
+      "summary_en": "A tour of Oodi, Helsinki's flagship library, highlighting architecture, flexible spaces, and public services enabled by modern design. The piece offers takeaways on how libraries combine culture with digital infrastructure.",
+      "summary_zh": "文章带你走访赫尔辛基 Oodi 图书馆，聚焦建筑风格、灵活公共空间以及现代设计支持的数字化服务。展示图书馆如何在文化与数字基础设施之间取得平衡。",
+      "hn": {
+        "id": 47706560,
+        "type": "story",
+        "by": "zdw",
+        "score": 26,
+        "descendants": 1,
+        "time": 1775755659,
+        "comments_url": "https://news.ycombinator.com/item?id=47706560"
+      },
+      "hot_score": 0.01,
+      "tags": [
+        "Design",
+        "Culture",
+        "DevOps"
+      ]
+    },
+    {
+      "title_en": "Stewart Brand on how progress happens",
+      "url": "https://www.newyorker.com/books/book-currents/stewart-brand-on-how-progress-happens",
+      "title_zh": "斯图尔特·布兰德：进步如何发生",
+      "created_display": "Created: Apr 07, 2026 / 05:47 PT",
+      "image_url": "https://media.newyorker.com/photos/6851c4bc2e50bf4f03899837/16:9/w_1280,c_limit/BookCurrents_SocialSite.jpg",
+      "summary_en": "Brand discusses how progress happens via tinkering, slow adoption, and the social dynamics around technology. The piece offers actionable takeaways for teams aiming to accelerate impact without reckless leaps.",
+      "summary_zh": "布兰德讨论进步如何发生，强调尝试、渐进采用以及科技背后的社会动力。为团队提供在不过度冒险的前提下推动影响力的实用建议。",
+      "hn": {
+        "id": 47674473,
+        "type": "story",
+        "by": "bookofjoe",
+        "score": 28,
+        "descendants": 7,
+        "time": 1775566022,
+        "comments_url": "https://news.ycombinator.com/item?id=47674473"
+      },
+      "hot_score": 0.0,
+      "tags": [
+        "Culture"
+      ]
+    },
+    {
       "title_en": "Simplest Hash Functions",
       "url": "https://purplesyringa.moe/blog/simplest-hash-functions/",
       "title_zh": "最简单的哈希函数",
@@ -1090,29 +1678,6 @@
       "hot_score": 0.0,
       "tags": [
         "Programming"
-      ]
-    },
-    {
-      "title_en": "Tofolli gates are all you need",
-      "url": "https://www.johndcook.com/blog/2026/04/06/tofolli-gates/",
-      "title_zh": "Toffoli 门才是你需要的全部",
-      "created_display": "Created: Apr 07, 2026 / 02:40 PT",
-      "image_url": "https://www.johndcook.com/blog/wp-content/uploads/2022/05/twittercard.png",
-      "summary_en": "Toffoli gates show that a single gate family is enough to implement any computation when combined with negation, illustrating the elegance of universal gate sets in reversible and quantum circuits.",
-      "summary_zh": "本文主张，在只用 Toffoli 门且可与简单取反结合的前提下，任何计算都可以实现，揭示了可逆与量子电路中统一门集的强大魅力。它还讨论了在硬件实现和教学中的实际意义。",
-      "hn": {
-        "id": 47672718,
-        "type": "story",
-        "by": "ibobev",
-        "score": 21,
-        "descendants": 0,
-        "time": 1775554857,
-        "comments_url": "https://news.ycombinator.com/item?id=47672718"
-      },
-      "hot_score": 0.0,
-      "tags": [
-        "Programming",
-        "Science"
       ]
     },
     {

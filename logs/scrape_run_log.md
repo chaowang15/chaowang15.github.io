@@ -499,3 +499,4 @@ Each row records one `run_scrape()` invocation.
 | Time (PST) | Trigger | Mode | Duration | Total Items | New (LLM) | Reused (same-day) | Reused (cross-day) | Tokens | Cost (USD) | Note |
 |------------|---------|------|----------|------------:|----------:|------------------:|-------------------:|------:|-----------:|------|
 | 05:11:50 | schedule | best | 108s | 50 | 14 | 0 | 20 | 21,721 | $0.0064 |  |
+| 06:42:03 | schedule | top | 165s | 75 | 22 | 25 | 0 | 32,234 | $0.0099 |  |
