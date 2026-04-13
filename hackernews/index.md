@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>57</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>8164</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>56</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>55</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-04-13</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>57</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>8183</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>56</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>55</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-04-13</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='300' data-hn-time='1776044972'>
+<div class='hn-top-story-item' data-hn-score='170' data-hn-time='1776083375'>
 <span class='hn-top-story-rank'>1</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/13/top_stories_04132026#story-47751029'>I went to America's worst national parks so you don't have to</a>
+ <a class='hn-top-story-link' href='https://substack.com/home/post/p-193626949' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>我去了美國最差的國家公園，讓你省事</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 10</span> <span class='hn-top-story-score'>&#9650; 170</span> <span class='hn-top-story-comments'>&#128172; 124</span> <span class='hn-top-story-tag'>Culture</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='211' data-hn-time='1776080895'>
+<span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/13/top_stories_04132026#story-47750669'>Android now stops you sharing your location in photos</a>
+ <a class='hn-top-story-link' href='https://shkspr.mobi/blog/2026/04/android-now-stops-you-sharing-your-location-in-photos/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Android 现在阻止你在照片中分享位置信息</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.8</span> <span class='hn-top-story-score'>&#9650; 211</span> <span class='hn-top-story-comments'>&#128172; 136</span> <span class='hn-top-story-tag'>Privacy</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='110' data-hn-time='1776086871'>
+<span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/13/top_stories_04132026#story-47751669'>They See Your Photos</a>
+ <a class='hn-top-story-link' href='https://theyseeyourphotos.com/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>他们能看到你的照片</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.8</span> <span class='hn-top-story-score'>&#9650; 110</span> <span class='hn-top-story-comments'>&#128172; 100</span> <span class='hn-top-story-tag'>Privacy</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='136' data-hn-time='1776083379'>
+<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/13/top_stories_04132026#story-47751032'>AI could be the end of the digital wave, not the next big thing</a>
+ <a class='hn-top-story-link' href='https://thenextwavefutures.wordpress.com/2026/04/07/ai-end-digital-wave-technology-innovation-perez/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>AI 可能是数字浪潮的尽头，而非下一波重大突破</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.1</span> <span class='hn-top-story-score'>&#9650; 136</span> <span class='hn-top-story-comments'>&#128172; 167</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='83' data-hn-time='1776087453'>
+<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/13/top_stories_04132026#story-47751781'>US appeals court declares 158-year-old home distilling ban unconstitutional</a>
+ <a class='hn-top-story-link' href='https://nypost.com/2026/04/11/us-news/us-appeals-court-declares-158-year-old-home-distilling-ban-unconstitutional/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>158年历史的家庭蒸馏禁令被判违宪</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.0</span> <span class='hn-top-story-score'>&#9650; 83</span> <span class='hn-top-story-comments'>&#128172; 9</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Politics</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='144' data-hn-time='1776082342'>
+<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/13/top_stories_04132026#story-47750872'>Servo is now available on crates.io</a>
+ <a class='hn-top-story-link' href='https://servo.org/blog/2026/04/13/servo-0.1.0-release/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Servo 现已在 crates.io 上架</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.7</span> <span class='hn-top-story-score'>&#9650; 144</span> <span class='hn-top-story-comments'>&#128172; 40</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Web</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='636' data-hn-time='1776044972'>
+<span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/04/13/top_stories_04132026#story-47746610'>All elementary functions from a single binary operator</a>
  <a class='hn-top-story-link' href='https://arxiv.org/abs/2603.21852' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>用单一二元运算生成所有初等函数</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.5</span> <span class='hn-top-story-score'>&#9650; 300</span> <span class='hn-top-story-comments'>&#128172; 89</span> <span class='hn-top-story-tag'>Science</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.6</span> <span class='hn-top-story-score'>&#9650; 636</span> <span class='hn-top-story-comments'>&#128172; 174</span> <span class='hn-top-story-tag'>Science</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='91' data-hn-time='1776059132'>
-<span class='hn-top-story-rank'>2</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/13/top_stories_04132026#story-47748064'>The Economics of Software Teams: Why Most Engineering Orgs Are Flying Blind</a>
- <a class='hn-top-story-link' href='https://www.viktorcessan.com/the-economics-of-software-teams/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>软件团队的经济学：为何多数工程组织在盲目运作</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.0</span> <span class='hn-top-story-score'>&#9650; 91</span> <span class='hn-top-story-comments'>&#128172; 44</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Data</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='165' data-hn-time='1776048790'>
-<span class='hn-top-story-rank'>3</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/13/top_stories_04132026#story-47747017'>Apple's accidental moat: How the "AI Loser" may end up winning</a>
- <a class='hn-top-story-link' href='https://adlrocha.substack.com/p/adlrocha-how-the-ai-loser-may-end' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>苹果的意外护城河：AI 落后者也许会赢</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.5</span> <span class='hn-top-story-score'>&#9650; 165</span> <span class='hn-top-story-comments'>&#128172; 150</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='56' data-hn-time='1776058764'>
-<span class='hn-top-story-rank'>4</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/13/top_stories_04132026#story-47748036'>X Randomly Banning Users for "Inauthentic Behavior"</a>
- <a class='hn-top-story-link' href='https://old.reddit.com/r/LinusTechTips/comments/1rsdk7i/anybody_here_talking_about_the_massive/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>X 因“非真实行为”随机封禁用户</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 56</span> <span class='hn-top-story-comments'>&#128172; 56</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Privacy</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='428' data-hn-time='1776023588'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/13/top_stories_04132026#story-47743730'>Google removes "Doki Doki Literature Club" from Google Play</a>
- <a class='hn-top-story-link' href='https://bsky.app/profile/serenityforge.com/post/3mj3r4nbiws2t' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Google 将《Doki Doki Literature Club》从 Google Play 下架</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 428</span> <span class='hn-top-story-comments'>&#128172; 214</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Politics</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='827' data-hn-time='1775996937'>
-<span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/13/top_stories_04132026#story-47738883'>Tell HN: Docker pull fails in Spain due to football Cloudflare block</a>
- <a class='hn-top-story-link' href='https://news.ycombinator.com/item?id=47738883' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>西班牙因 Cloudflare 阻断导致 Docker pull 失败</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 827</span> <span class='hn-top-story-comments'>&#128172; 309</span> <span class='hn-top-story-tag'>DevOps</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='379' data-hn-time='1776023080'>
-<span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/13/top_stories_04132026#story-47743628'>The peril of laziness lost</a>
- <a class='hn-top-story-link' href='https://bcantrill.dtrace.org/2026/04/12/the-peril-of-laziness-lost/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>失去懒惰的危机</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 379</span> <span class='hn-top-story-comments'>&#128172; 128</span> <span class='hn-top-story-tag'>Culture</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='615' data-hn-time='1775999731'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='86' data-hn-time='1776081935'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/13/top_stories_04132026#story-47739260'>Pro Max 5x quota exhausted in 1.5 hours despite moderate usage</a>
- <a class='hn-top-story-link' href='https://github.com/anthropics/claude-code/issues/45756' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/13/top_stories_04132026#story-47750821'>Michigan 'digital age' bills pulled after privacy concerns raised</a>
+ <a class='hn-top-story-link' href='https://www.thecentersquare.com/michigan/article_7ca4e268-4a68-42fb-9042-f9d8604ebd7f.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Pro Max 5x 配额在 1.5 小时内耗尽，使用量中等</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 615</span> <span class='hn-top-story-comments'>&#128172; 551</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>密歇根‘数字时代’法案在隐私担忧后被撤回</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.4</span> <span class='hn-top-story-score'>&#9650; 86</span> <span class='hn-top-story-comments'>&#128172; 37</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='565' data-hn-time='1776000099'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='21' data-hn-time='1776091735'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/13/top_stories_04132026#story-47739313'>Seven countries now generate nearly all their electricity from renewables (2024)</a>
- <a class='hn-top-story-link' href='https://www.the-independent.com/tech/renewable-energy-solar-nepal-bhutan-iceland-b2533699.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/13/top_stories_04132026#story-47752819'>Make Tmux Pretty and Usable</a>
+ <a class='hn-top-story-link' href='https://hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>七个国家2024年几乎用可再生能源发电全部电力</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 565</span> <span class='hn-top-story-comments'>&#128172; 319</span> <span class='hn-top-story-tag'>Energy</span></div>
+<div class='hn-top-story-zh'>让 tmux 更美观、更易用</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 21</span> <span class='hn-top-story-comments'>&#128172; 10</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='400' data-hn-time='1776011923'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='299' data-hn-time='1776059132'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/13/top_stories_04132026#story-47741701'>DIY Soft Drinks</a>
- <a class='hn-top-story-link' href='https://blinry.org/diy-soft-drinks/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/13/top_stories_04132026#story-47748064'>The economics of software teams: Why most engineering orgs are flying blind</a>
+ <a class='hn-top-story-link' href='https://www.viktorcessan.com/the-economics-of-software-teams/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>自制软饮</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.3</span> <span class='hn-top-story-score'>&#9650; 400</span> <span class='hn-top-story-comments'>&#128172; 108</span> <span class='hn-top-story-tag'>Culture</span></div>
+<div class='hn-top-story-zh'>软件团队的经济学：为何多数工程组织在盲目运作</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.7</span> <span class='hn-top-story-score'>&#9650; 299</span> <span class='hn-top-story-comments'>&#128172; 159</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -168,7 +168,7 @@ Your browser does not support the audio element.
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 16 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-04-13 <span class="hn-row-sep">·</span> 49 stories <span class="hn-row-sep">·</span> 1 days</span>
+<span class='hn-week-meta'>2026-04-13 <span class="hn-row-sep">·</span> 68 stories <span class="hn-row-sep">·</span> 1 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -177,7 +177,7 @@ Your browser does not support the audio element.
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/04/13/top_stories_04132026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>49</b> <span class="hn-row-sep">·</span> Programming <b>13</b> <span class="hn-row-sep">·</span> AI <b>12</b></span>
+<span class='hn-row-detail'>All <b>68</b> <span class="hn-row-sep">·</span> AI <b>17</b> <span class="hn-row-sep">·</span> Programming <b>15</b></span>
 </a>
 </div>
 </div>
