@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>59</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>8515</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>58</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>57</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-04-15</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>60</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>8564</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>58</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>58</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-04-16</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,118 +20,118 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='1271' data-hn-time='1776275066'>
+<div class='hn-top-story-item' data-hn-score='290' data-hn-time='1776310511'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/15/top_stories_04152026#story-47782570'>Google broke its promise to me – now ICE has my data</a>
- <a class='hn-top-story-link' href='https://www.eff.org/deeplinks/2026/04/google-broke-its-promise-me-now-ice-has-my-data' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/16/top_stories_04162026#story-47788385'>Stop Using Ollama</a>
+ <a class='hn-top-story-link' href='https://sleepingrobots.com/dreams/stop-using-ollama/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>谷歌违背承诺，现在 ICE 已掌握我的数据</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 1271</span> <span class='hn-top-story-comments'>&#128172; 549</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>停止使用 Ollama</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 10</span> <span class='hn-top-story-score'>&#9650; 290</span> <span class='hn-top-story-comments'>&#128172; 60</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='254' data-hn-time='1776296216'>
+<div class='hn-top-story-item' data-hn-score='1398' data-hn-time='1776275066'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/15/top_stories_04152026#story-47786791'>YouTube users get option to set their Shorts time limit to zero minutes</a>
- <a class='hn-top-story-link' href='https://www.theverge.com/streaming/912898/youtube-shorts-feed-limit-zero-minutes' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/16/top_stories_04162026#story-47782570'>Google broke its promise to me – now ICE has my data</a>
+ <a class='hn-top-story-link' href='https://www.eff.org/deeplinks/2026/04/google-broke-its-promise-me-now-ice-has-my-data' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>YouTube 用户现在可将 Shorts 时长限制设为零分钟</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.2</span> <span class='hn-top-story-score'>&#9650; 254</span> <span class='hn-top-story-comments'>&#128172; 110</span> <span class='hn-top-story-tag'>Web</span></div>
+<div class='hn-top-story-zh'>谷歌违背承诺，现在 ICE 已掌握我的数据</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.2</span> <span class='hn-top-story-score'>&#9650; 1398</span> <span class='hn-top-story-comments'>&#128172; 592</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='305' data-hn-time='1776289698'>
+<div class='hn-top-story-item' data-hn-score='186' data-hn-time='1776312399'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/15/top_stories_04152026#story-47785738'>The buns in McDonald's Japan's burger photos are all slightly askew</a>
- <a class='hn-top-story-link' href='https://www.mcdonalds.co.jp/en/menu/burger/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/16/top_stories_04162026#story-47788542'>Darkbloom – Private inference on idle Macs</a>
+ <a class='hn-top-story-link' href='https://darkbloom.dev' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>日本麥當勞漢堡照片中的麵包略微歪斜</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.8</span> <span class='hn-top-story-score'>&#9650; 305</span> <span class='hn-top-story-comments'>&#128172; 163</span> <span class='hn-top-story-tag'>Design</span></div>
+<div class='hn-top-story-zh'>Darkbloom：在闲置 Mac 上进行私有推断</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.6</span> <span class='hn-top-story-score'>&#9650; 186</span> <span class='hn-top-story-comments'>&#128172; 91</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='469' data-hn-time='1776279999'>
+<div class='hn-top-story-item' data-hn-score='384' data-hn-time='1776289698'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/15/top_stories_04152026#story-47783713'>Live Nation illegally monopolized ticketing market, jury finds</a>
- <a class='hn-top-story-link' href='https://www.bloomberg.com/news/articles/2026-04-15/live-nation-illegally-monopolized-ticketing-market-jury-finds' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/16/top_stories_04162026#story-47785738'>The buns in McDonald's Japan's burger photos are all slightly askew</a>
+ <a class='hn-top-story-link' href='https://www.mcdonalds.co.jp/en/menu/burger/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>陪审团认定 Live Nation 垄断票务市场</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.6</span> <span class='hn-top-story-score'>&#9650; 469</span> <span class='hn-top-story-comments'>&#128172; 140</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Legal</span></div>
+<div class='hn-top-story-zh'>日本麥當勞漢堡照片中的麵包略微歪斜</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 384</span> <span class='hn-top-story-comments'>&#128172; 203</span> <span class='hn-top-story-tag'>Design</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='62' data-hn-time='1776305810'>
+<div class='hn-top-story-item' data-hn-score='115' data-hn-time='1776311078'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/15/top_stories_04152026#story-47787877'>Stealth signals are bypassing Iran’s internet blackout</a>
- <a class='hn-top-story-link' href='https://spectrum.ieee.org/iran-internet-blackout-satellite-tv' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/16/top_stories_04162026#story-47788424'>FSF trying to contact Google about spammer sending 10k+ mails from Gmail account</a>
+ <a class='hn-top-story-link' href='https://daedal.io/@thomzane/116410863009847575' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>隐形信号绕过伊朗互联网封锁</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 62</span> <span class='hn-top-story-comments'>&#128172; 10</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>FSF 向 Google 求助，处理 Gmail 账号滥用</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 115</span> <span class='hn-top-story-comments'>&#128172; 53</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='224' data-hn-time='1776286188'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='277' data-hn-time='1776296216'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/15/top_stories_04152026#story-47785053'>Does Gas Town 'steal' usage from users' LLM credits to improve itself?</a>
- <a class='hn-top-story-link' href='https://github.com/gastownhall/gastown/issues/3649' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/16/top_stories_04162026#story-47786791'>YouTube users get option to set their Shorts time limit to zero minutes</a>
+ <a class='hn-top-story-link' href='https://www.theverge.com/streaming/912898/youtube-shorts-feed-limit-zero-minutes' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Gas Town 會否窃取用戶的 LLM 使用信用以提升自身？</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 224</span> <span class='hn-top-story-comments'>&#128172; 111</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Data</span></div>
+<div class='hn-top-story-zh'>YouTube 用户现在可将 Shorts 时长限制设为零分钟</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.1</span> <span class='hn-top-story-score'>&#9650; 277</span> <span class='hn-top-story-comments'>&#128172; 128</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='54' data-hn-time='1776305603'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='519' data-hn-time='1776279999'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/15/top_stories_04152026#story-47787854'>Arguing with Agents</a>
- <a class='hn-top-story-link' href='https://blowmage.com/2026/04/14/arguing-with-agents/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/16/top_stories_04162026#story-47783713'>Live Nation illegally monopolized ticketing market, jury finds</a>
+ <a class='hn-top-story-link' href='https://www.bloomberg.com/news/articles/2026-04-15/live-nation-illegally-monopolized-ticketing-market-jury-finds' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>与代理的对话</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 54</span> <span class='hn-top-story-comments'>&#128172; 34</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Design</span></div>
+<div class='hn-top-story-zh'>陪审团认定 Live Nation 垄断票务市场</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 519</span> <span class='hn-top-story-comments'>&#128172; 150</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Legal</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='250' data-hn-time='1776280930'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='47' data-hn-time='1776315944'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/15/top_stories_04152026#story-47783940'>Ask HN: Who is using OpenClaw?</a>
- <a class='hn-top-story-link' href='https://news.ycombinator.com/item?id=47783940' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/16/top_stories_04162026#story-47788845'>Sal Khan's AI revolution hasn't happened yet</a>
+ <a class='hn-top-story-link' href='https://www.chalkbeat.org/2026/04/09/sal-khan-reflects-on-ai-in-schools-and-khanmigo/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Ask HN：誰在使用 OpenClaw？</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 250</span> <span class='hn-top-story-comments'>&#128172; 299</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>Sal Khan 的 AI 革命尚未到来</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 47</span> <span class='hn-top-story-comments'>&#128172; 61</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Education</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='493' data-hn-time='1776258490'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='91' data-hn-time='1776305810'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/15/top_stories_04152026#story-47778475'>God sleeps in the minerals</a>
- <a class='hn-top-story-link' href='https://wchambliss.wordpress.com/2026/03/03/god-sleeps-in-the-minerals/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/16/top_stories_04162026#story-47787877'>Stealth signals are bypassing Iran’s internet blackout</a>
+ <a class='hn-top-story-link' href='https://spectrum.ieee.org/iran-internet-blackout-satellite-tv' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>神眠于矿物之中</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 493</span> <span class='hn-top-story-comments'>&#128172; 99</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Energy</span></div>
+<div class='hn-top-story-zh'>隐形信号绕过伊朗互联网封锁</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.3</span> <span class='hn-top-story-score'>&#9650; 91</span> <span class='hn-top-story-comments'>&#128172; 33</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='138' data-hn-time='1776288065'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='58' data-hn-time='1776311661'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/15/top_stories_04152026#story-47785397'>ChatGPT for Excel</a>
- <a class='hn-top-story-link' href='https://chatgpt.com/apps/spreadsheets/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/16/top_stories_04162026#story-47788473'>RedSun: System user access on Win 11/10 and Server with the April 2026 Update</a>
+ <a class='hn-top-story-link' href='https://github.com/Nightmare-Eclipse/RedSun' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Excel 的 ChatGPT</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 138</span> <span class='hn-top-story-comments'>&#128172; 104</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>RedSun：4月2026更新后 Windows 11/10 与 Server 的系统账户访问</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.2</span> <span class='hn-top-story-score'>&#9650; 58</span> <span class='hn-top-story-comments'>&#128172; 11</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
-<a class='hn-top-stories-more' href='/hackernews/2026/04/15/top_stories_04152026'>View all trending stories &rarr;</a>
+<a class='hn-top-stories-more' href='/hackernews/2026/04/16/top_stories_04162026'>View all trending stories &rarr;</a>
 </div>
 </div>
 <div class='hn-index-section hn-podcast-section'>
@@ -168,10 +168,19 @@ Your browser does not support the audio element.
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 16 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-04-13 — 2026-04-15 <span class="hn-row-sep">·</span> 400 stories <span class="hn-row-sep">·</span> 3 days</span>
+<span class='hn-week-meta'>2026-04-13 — 2026-04-16 <span class="hn-row-sep">·</span> 449 stories <span class="hn-row-sep">·</span> 4 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
+<div class='hn-day-row'>
+<div class='hn-day-date'>2026-04-16 <span class='hn-day-weekday'>Thu</span></div>
+<div class='hn-day-stories'>
+<a class='hn-story-link' href='/hackernews/2026/04/16/top_stories_04162026'>
+<span class='hn-row-type hn-type-top'>Trending</span>
+<span class='hn-row-detail'>All <b>49</b> <span class="hn-row-sep">·</span> Programming <b>13</b> <span class="hn-row-sep">·</span> AI <b>8</b></span>
+</a>
+</div>
+</div>
 <div class='hn-day-row'>
 <div class='hn-day-date'>2026-04-15 <span class='hn-day-weekday'>Wed</span></div>
 <div class='hn-day-stories'>
@@ -545,7 +554,7 @@ Your browser does not support the audio element.
 <details class='hn-week-group'>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 12</span>
-<span class='hn-week-meta'>2026-03-17 — 2026-03-22 <span class="hn-row-sep">·</span> 900 stories <span class="hn-row-sep">·</span> 6 days <span class="hn-row-sep">·</span> 📊 Weekly Digest <span class="hn-row-sep">·</span> 🎧</span>
+<span class='hn-week-meta'>2026-03-18 — 2026-03-22 <span class="hn-row-sep">·</span> 750 stories <span class="hn-row-sep">·</span> 5 days <span class="hn-row-sep">·</span> 📊 Weekly Digest <span class="hn-row-sep">·</span> 🎧</span>
 </summary>
 <div class='hn-week-content'>
 <a class='hn-story-link hn-weekly-digest-link' href='/hackernews/weekly/2026-W12'>
@@ -617,19 +626,6 @@ Your browser does not support the audio element.
 <a class='hn-story-link' href='/hackernews/2026/03/18/top_stories_03182026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
 <span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>30</b> <span class="hn-row-sep">·</span> AI <b>20</b></span>
-</a>
-</div>
-</div>
-<div class='hn-day-row'>
-<div class='hn-day-date'>2026-03-17 <span class='hn-day-weekday'>Tue</span></div>
-<div class='hn-day-stories'>
-<a class='hn-story-link' href='/hackernews/2026/03/17/best_stories_03172026'>
-<span class='hn-row-type hn-type-best'>Daily Best</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> Programming <b>14</b> <span class="hn-row-sep">·</span> AI <b>11</b></span>
-</a>
-<a class='hn-story-link' href='/hackernews/2026/03/17/top_stories_03172026'>
-<span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>31</b> <span class="hn-row-sep">·</span> AI <b>17</b></span>
 </a>
 </div>
 </div>
