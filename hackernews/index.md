@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>61</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>8778</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>60</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>59</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-04-17</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>61</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>8800</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>60</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>59</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-04-17</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='281' data-hn-time='1776427279'>
+<div class='hn-top-story-item' data-hn-score='517' data-hn-time='1776438249'>
 <span class='hn-top-story-rank'>1</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/17/top_stories_04172026#story-47806725'>Claude Design</a>
+ <a class='hn-top-story-link' href='https://www.anthropic.com/news/claude-design-anthropic-labs' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Claude 设计</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 21</span> <span class='hn-top-story-score'>&#9650; 517</span> <span class='hn-top-story-comments'>&#128172; 337</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='313' data-hn-time='1776439776'>
+<span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/17/top_stories_04172026#story-47807006'>Claude Opus 4.7 costs 20–30% more per session</a>
+ <a class='hn-top-story-link' href='https://www.claudecodecamp.com/p/i-measured-claude-4-7-s-new-tokenizer-here-s-what-it-costs-you' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Claude Opus 4.7 每次会话的成本上涨 20–30%</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 15</span> <span class='hn-top-story-score'>&#9650; 313</span> <span class='hn-top-story-comments'>&#128172; 179</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='387' data-hn-time='1776435946'>
+<span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/17/top_stories_04172026#story-47806304'>Ban the sale of precise geolocation</a>
+ <a class='hn-top-story-link' href='https://www.lawfaremedia.org/article/it-is-time-to-ban-the-sale-of-precise-geolocation' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>是时候禁止精确地理位置数据的买卖</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 13</span> <span class='hn-top-story-score'>&#9650; 387</span> <span class='hn-top-story-comments'>&#128172; 118</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Legal</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='481' data-hn-time='1776427279'>
+<span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/04/17/top_stories_04172026#story-47804965'>Isaac Asimov: The Last Question (1956)</a>
  <a class='hn-top-story-link' href='https://hex.ooo/library/last_question.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>艾萨克·阿西莫夫：《最后的问题》（1956）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 16</span> <span class='hn-top-story-score'>&#9650; 281</span> <span class='hn-top-story-comments'>&#128172; 96</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.3</span> <span class='hn-top-story-score'>&#9650; 481</span> <span class='hn-top-story-comments'>&#128172; 179</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='49' data-hn-time='1776435946'>
-<span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-item' data-hn-score='131' data-hn-time='1776436909'>
+<span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/17/top_stories_04172026#story-47806304'>It Is Time to Ban the Sale of Precise Geolocation</a>
- <a class='hn-top-story-link' href='https://www.lawfaremedia.org/article/it-is-time-to-ban-the-sale-of-precise-geolocation' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/17/top_stories_04172026#story-47806484'>Middle schooler finds coin from Troy in Berlin</a>
+ <a class='hn-top-story-link' href='https://www.thehistoryblog.com/archives/75848' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>是时候禁止精确地理位置数据的买卖</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.1</span> <span class='hn-top-story-score'>&#9650; 49</span> <span class='hn-top-story-comments'>&#128172; 4</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Data</span></div>
+<div class='hn-top-story-zh'>柏林发现来自特洛伊的硬币的中学生</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.8</span> <span class='hn-top-story-score'>&#9650; 131</span> <span class='hn-top-story-comments'>&#128172; 49</span> <span class='hn-top-story-tag'>Education</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='42' data-hn-time='1776434972'>
-<span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='92' data-hn-time='1776440861'>
+<span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/17/top_stories_04172026#story-47806116'>We Reproduced Anthropic's Mythos Findings with Public Models</a>
- <a class='hn-top-story-link' href='https://blog.vidocsecurity.com/blog/we-reproduced-anthropics-mythos-findings-with-public-models' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/17/top_stories_04172026#story-47807209'>NASA Force</a>
+ <a class='hn-top-story-link' href='https://nasaforce.gov/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>我们用公开模型复现了 Anthropic 的 Mythos 发现</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.4</span> <span class='hn-top-story-score'>&#9650; 42</span> <span class='hn-top-story-comments'>&#128172; 10</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-zh'>NASA Force</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.7</span> <span class='hn-top-story-score'>&#9650; 92</span> <span class='hn-top-story-comments'>&#128172; 116</span> <span class='hn-top-story-tag'>Space</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='1874' data-hn-time='1776349430'>
-<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='100' data-hn-time='1776438554'>
+<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/17/top_stories_04172026#story-47806777'>NIST gives up enriching most CVEs</a>
+ <a class='hn-top-story-link' href='https://risky.biz/risky-bulletin-nist-gives-up-enriching-most-cves/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>NIST 放弃对大多数 CVE 的丰富信息</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 100</span> <span class='hn-top-story-comments'>&#128172; 24</span> <span class='hn-top-story-tag'>Security</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1924' data-hn-time='1776349430'>
+<span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/04/17/top_stories_04172026#story-47793411'>Claude Opus 4.7</a>
  <a class='hn-top-story-link' href='https://www.anthropic.com/news/claude-opus-4-7' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Claude Opus 4.7 版本发布</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.1</span> <span class='hn-top-story-score'>&#9650; 1874</span> <span class='hn-top-story-comments'>&#128172; 1360</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.1</span> <span class='hn-top-story-score'>&#9650; 1924</span> <span class='hn-top-story-comments'>&#128172; 1407</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='171' data-hn-time='1776415898'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/17/top_stories_04172026#story-47803844'>Ada, Its Design, and the Language That Built the Languages</a>
- <a class='hn-top-story-link' href='https://www.iqiipi.com/the-quiet-colossus.html' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Ada：它的设计与催生多种语言的语言</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 171</span> <span class='hn-top-story-comments'>&#128172; 103</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Design</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='26' data-hn-time='1776434125'>
-<span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/17/top_stories_04172026#story-47805998'>Is Your Site Agent-Ready? (By Cloudflare)</a>
- <a class='hn-top-story-link' href='https://isitagentready.com' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>你的网站准备好使用 Site Agent 吗？（Cloudflare）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 26</span> <span class='hn-top-story-comments'>&#128172; 44</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>DevOps</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='940' data-hn-time='1776359539'>
-<span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/17/top_stories_04172026#story-47796469'>Codex for almost everything</a>
- <a class='hn-top-story-link' href='https://openai.com/index/codex-for-almost-everything/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>几乎适用于一切场景的 Codex</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 940</span> <span class='hn-top-story-comments'>&#128172; 498</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='146' data-hn-time='1776414774'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/17/top_stories_04172026#story-47803745'>How Big Tech wrote secrecy into EU law to hide data centres' environmental toll</a>
- <a class='hn-top-story-link' href='https://www.investigate-europe.eu/posts/big-tech-data-centres-secrecy-eu-law-environment-footprint' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>大科技如何在欧盟法中把保密写进法律，以隐藏数据中心的环境代价</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 146</span> <span class='hn-top-story-comments'>&#128172; 55</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Legal</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1193' data-hn-time='1776346587'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='63' data-hn-time='1776443002'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/17/top_stories_04172026#story-47792764'>Qwen3.6-35B-A3B: Agentic coding power, now open to all</a>
- <a class='hn-top-story-link' href='https://qwen.ai/blog?id=qwen3.6-35b-a3b' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/17/top_stories_04172026#story-47807619'>Hyperscalers have already outspent most famous US megaprojects</a>
+ <a class='hn-top-story-link' href='https://twitter.com/finmoorhouse/status/2044933442236776794' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Qwen3.6-35B-A3B：代理编码能力，现向所有人开放</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 1193</span> <span class='hn-top-story-comments'>&#128172; 494</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-zh'>超大规模云服务商已超过美国最著名的 megaprojects 的开支</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 63</span> <span class='hn-top-story-comments'>&#128172; 46</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>DevOps</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='320' data-hn-time='1776394202'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='42' data-hn-time='1776446338'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/17/top_stories_04172026#story-47801991'>US Bill Mandates On-Device Age Verification</a>
- <a class='hn-top-story-link' href='https://reclaimthenet.org/us-bill-mandates-on-device-age-verification' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/17/top_stories_04172026#story-47808268'>Show HN: Smol machines – subsecond coldstart, portable virtual machines</a>
+ <a class='hn-top-story-link' href='https://github.com/smol-machines/smolvm' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>美国法案要求设备端进行年龄验证</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.7</span> <span class='hn-top-story-score'>&#9650; 320</span> <span class='hn-top-story-comments'>&#128172; 227</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Legal</span></div>
+<div class='hn-top-story-zh'>Show HN：Smol 机器——亚秒冷启动、便携式虚拟机</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 42</span> <span class='hn-top-story-comments'>&#128172; 22</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -168,7 +168,7 @@ Your browser does not support the audio element.
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 16 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-04-13 — 2026-04-17 <span class="hn-row-sep">·</span> 663 stories <span class="hn-row-sep">·</span> 5 days</span>
+<span class='hn-week-meta'>2026-04-13 — 2026-04-17 <span class="hn-row-sep">·</span> 685 stories <span class="hn-row-sep">·</span> 5 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -177,7 +177,7 @@ Your browser does not support the audio element.
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/04/17/top_stories_04172026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>63</b> <span class="hn-row-sep">·</span> Programming <b>20</b> <span class="hn-row-sep">·</span> AI <b>17</b></span>
+<span class='hn-row-detail'>All <b>85</b> <span class="hn-row-sep">·</span> AI <b>23</b> <span class="hn-row-sep">·</span> Programming <b>20</b></span>
 </a>
 </div>
 </div>
