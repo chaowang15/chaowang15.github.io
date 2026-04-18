@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>62</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>8864</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>60</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>60</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-04-18</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>62</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>8914</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>61</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>60</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-04-18</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -140,12 +140,12 @@ Sort:
 <div class='hn-podcast-header'>
 <span class='hn-podcast-icon'>🎙</span>
 <div class='hn-podcast-info'>
-<p class='hn-podcast-title'>HN Daily Best (English) — April 16, 2026</p>
-<p class='hn-podcast-meta'>English Podcast · AI Generated · Marin &amp; Cedar</p>
+<p class='hn-podcast-title'>HN Daily Best (English) — April 17, 2026</p>
+<p class='hn-podcast-meta'>English Podcast · AI Generated · Coral &amp; Ash</p>
 </div>
 </div>
 <audio class='hn-podcast-audio' controls preload='metadata'>
-<source src='https://github.com/chaowang15/chaowang15.github.io/releases/download/podcast-2026-04/hn-podcast-en-2026-04-16.mp3' type='audio/mpeg'>
+<source src='https://github.com/chaowang15/chaowang15.github.io/releases/download/podcast-2026-04/hn-podcast-en-2026-04-17.mp3' type='audio/mpeg'>
 Your browser does not support the audio element.
 </audio>
 </div>
@@ -153,12 +153,12 @@ Your browser does not support the audio element.
 <div class='hn-podcast-header'>
 <span class='hn-podcast-icon'>🎙</span>
 <div class='hn-podcast-info'>
-<p class='hn-podcast-title'>HN 每日精选 (中文) — April 16, 2026</p>
-<p class='hn-podcast-meta'>中文播客 · AI 生成 · 晓晓 &amp; 云逸</p>
+<p class='hn-podcast-title'>HN 每日精选 (中文) — April 17, 2026</p>
+<p class='hn-podcast-meta'>中文播客 · AI 生成 · 晓晓 &amp; 云枫</p>
 </div>
 </div>
 <audio class='hn-podcast-audio' controls preload='metadata'>
-<source src='https://github.com/chaowang15/chaowang15.github.io/releases/download/podcast-2026-04/hn-podcast-2026-04-16.mp3' type='audio/mpeg'>
+<source src='https://github.com/chaowang15/chaowang15.github.io/releases/download/podcast-2026-04/hn-podcast-2026-04-17.mp3' type='audio/mpeg'>
 Your browser does not support the audio element.
 </audio>
 </div>
@@ -168,7 +168,7 @@ Your browser does not support the audio element.
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 16 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-04-13 — 2026-04-18 <span class="hn-row-sep">·</span> 749 stories <span class="hn-row-sep">·</span> 6 days</span>
+<span class='hn-week-meta'>2026-04-13 — 2026-04-18 <span class="hn-row-sep">·</span> 799 stories <span class="hn-row-sep">·</span> 6 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -184,6 +184,11 @@ Your browser does not support the audio element.
 <div class='hn-day-row'>
 <div class='hn-day-date'>2026-04-17 <span class='hn-day-weekday'>Fri</span></div>
 <div class='hn-day-stories'>
+<a class='hn-story-link' href='/hackernews/2026/04/17/best_stories_04172026'>
+<span class='hn-row-type hn-type-best'>Daily Best</span>
+<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>15</b> <span class="hn-row-sep">·</span> Programming <b>14</b></span>
+<span class='hn-podcast-badge' title='Podcast available'>&#x1F3A7;</span>
+</a>
 <a class='hn-story-link' href='/hackernews/2026/04/17/top_stories_04172026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
 <span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>26</b> <span class="hn-row-sep">·</span> AI <b>25</b></span>
