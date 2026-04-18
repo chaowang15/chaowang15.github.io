@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>61</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>8815</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>60</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>59</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-04-17</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>62</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>8864</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>60</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>60</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-04-18</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,118 +20,118 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='914' data-hn-time='1776438249'>
+<div class='hn-top-story-item' data-hn-score='995' data-hn-time='1776438249'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/17/top_stories_04172026#story-47806725'>Claude Design</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/18/top_stories_04182026#story-47806725'>Claude Design</a>
  <a class='hn-top-story-link' href='https://www.anthropic.com/news/claude-design-anthropic-labs' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Claude 设计</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.7</span> <span class='hn-top-story-score'>&#9650; 914</span> <span class='hn-top-story-comments'>&#128172; 600</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Design</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.3</span> <span class='hn-top-story-score'>&#9650; 995</span> <span class='hn-top-story-comments'>&#128172; 656</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='647' data-hn-time='1776435946'>
+<div class='hn-top-story-item' data-hn-score='685' data-hn-time='1776435946'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/17/top_stories_04172026#story-47806304'>Ban the sale of precise geolocation</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/18/top_stories_04182026#story-47806304'>Ban the sale of precise geolocation</a>
  <a class='hn-top-story-link' href='https://www.lawfaremedia.org/article/it-is-time-to-ban-the-sale-of-precise-geolocation' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>是时候禁止精确地理位置数据的买卖</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.4</span> <span class='hn-top-story-score'>&#9650; 647</span> <span class='hn-top-story-comments'>&#128172; 168</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Legal</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 685</span> <span class='hn-top-story-comments'>&#128172; 174</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Legal</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='564' data-hn-time='1776439776'>
+<div class='hn-top-story-item' data-hn-score='594' data-hn-time='1776439776'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/17/top_stories_04172026#story-47807006'>Measuring Claude 4.7's tokenizer costs</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/18/top_stories_04182026#story-47807006'>Measuring Claude 4.7's tokenizer costs</a>
  <a class='hn-top-story-link' href='https://www.claudecodecamp.com/p/i-measured-claude-4-7-s-new-tokenizer-here-s-what-it-costs-you' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>测量 Claude 4.7 的分词成本</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.3</span> <span class='hn-top-story-score'>&#9650; 564</span> <span class='hn-top-story-comments'>&#128172; 391</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 594</span> <span class='hn-top-story-comments'>&#128172; 415</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='661' data-hn-time='1776427279'>
+<div class='hn-top-story-item' data-hn-score='699' data-hn-time='1776427279'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/17/top_stories_04172026#story-47804965'>Isaac Asimov: The Last Question (1956)</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/18/top_stories_04182026#story-47804965'>Isaac Asimov: The Last Question (1956)</a>
  <a class='hn-top-story-link' href='https://hex.ooo/library/last_question.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>艾萨克·阿西莫夫：《最后的问题》（1956）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 661</span> <span class='hn-top-story-comments'>&#128172; 270</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 699</span> <span class='hn-top-story-comments'>&#128172; 278</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='273' data-hn-time='1776449821'>
+<div class='hn-top-story-item' data-hn-score='106' data-hn-time='1776474943'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/17/top_stories_04172026#story-47808913'>All 12 moonwalkers had "lunar hay fever" from dust smelling like gunpowder (2018)</a>
- <a class='hn-top-story-link' href='https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/The_toxic_side_of_the_Moon' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/18/top_stories_04182026#story-47812341'>Show HN: I made a calculator that works over disjoint sets of intervals</a>
+ <a class='hn-top-story-link' href='https://victorpoughon.github.io/interval-calculator/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>所有12名登月宇航员因月尘散发的火药味而出现类似花粉热的症状</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 273</span> <span class='hn-top-story-comments'>&#128172; 156</span> <span class='hn-top-story-tag'>Health</span> <span class='hn-top-story-tag'>Space</span></div>
+<div class='hn-top-story-zh'>Show HN：我做了一个在不相交区间集合上运算的计算器</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 106</span> <span class='hn-top-story-comments'>&#128172; 13</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='132' data-hn-time='1776461900'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='311' data-hn-time='1776449821'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/17/top_stories_04172026#story-47810872'>A simplified model of Fil-C</a>
- <a class='hn-top-story-link' href='https://www.corsix.org/content/simplified-model-of-fil-c' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/18/top_stories_04182026#story-47808913'>All 12 moonwalkers had "lunar hay fever" from dust smelling like gunpowder (2018)</a>
+ <a class='hn-top-story-link' href='https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/The_toxic_side_of_the_Moon' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Fil-C 的简化模型</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 132</span> <span class='hn-top-story-comments'>&#128172; 67</span> <span class='hn-top-story-tag'>Science</span></div>
+<div class='hn-top-story-zh'>所有12名登月宇航员因月尘散发的火药味而出现类似花粉热的症状</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 311</span> <span class='hn-top-story-comments'>&#128172; 183</span> <span class='hn-top-story-tag'>Space</span> <span class='hn-top-story-tag'>Health</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='263' data-hn-time='1776446338'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='310' data-hn-time='1776446338'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/17/top_stories_04172026#story-47808268'>Show HN: Smol machines – subsecond coldstart, portable virtual machines</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/18/top_stories_04182026#story-47808268'>Show HN: Smol machines – subsecond coldstart, portable virtual machines</a>
  <a class='hn-top-story-link' href='https://github.com/smol-machines/smolvm' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Show HN：Smol 机器——亚秒冷启动、便携式虚拟机</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 263</span> <span class='hn-top-story-comments'>&#128172; 91</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.1</span> <span class='hn-top-story-score'>&#9650; 310</span> <span class='hn-top-story-comments'>&#128172; 93</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1924' data-hn-time='1776349430'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='159' data-hn-time='1776461900'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/17/top_stories_04172026#story-47793411'>Claude Opus 4.7</a>
- <a class='hn-top-story-link' href='https://www.anthropic.com/news/claude-opus-4-7' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/18/top_stories_04182026#story-47810872'>A simplified model of Fil-C</a>
+ <a class='hn-top-story-link' href='https://www.corsix.org/content/simplified-model-of-fil-c' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Claude Opus 4.7 版本发布</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 1924</span> <span class='hn-top-story-comments'>&#128172; 1407</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>Fil-C 的简化模型</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.9</span> <span class='hn-top-story-score'>&#9650; 159</span> <span class='hn-top-story-comments'>&#128172; 82</span> <span class='hn-top-story-tag'>Science</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='187' data-hn-time='1776452407'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='37' data-hn-time='1776484439'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/17/top_stories_04172026#story-47809347'>Tesla tells HW3 owner to 'be patient' after 7 years of waiting for FSD</a>
- <a class='hn-top-story-link' href='https://electrek.co/2026/04/17/tesla-hw3-owners-be-patient-7-years-fsd/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/18/top_stories_04182026#story-47813001'>The FBI Director Is MIA</a>
+ <a class='hn-top-story-link' href='https://www.theatlantic.com/politics/2026/04/kash-patel-fbi-director-drinking-absences/686839/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>特斯拉让 HW3 用户耐心等待，FSD 等待已7年</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.3</span> <span class='hn-top-story-score'>&#9650; 187</span> <span class='hn-top-story-comments'>&#128172; 134</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>FBI 局长失踪？</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.7</span> <span class='hn-top-story-score'>&#9650; 37</span> <span class='hn-top-story-comments'>&#128172; 1</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='247' data-hn-time='1776440861'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='260' data-hn-time='1776440861'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/17/top_stories_04172026#story-47807209'>NASA Force</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/18/top_stories_04182026#story-47807209'>NASA Force</a>
  <a class='hn-top-story-link' href='https://nasaforce.gov/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>NASA Force</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.9</span> <span class='hn-top-story-score'>&#9650; 247</span> <span class='hn-top-story-comments'>&#128172; 255</span> <span class='hn-top-story-tag'>Space</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.5</span> <span class='hn-top-story-score'>&#9650; 260</span> <span class='hn-top-story-comments'>&#128172; 263</span> <span class='hn-top-story-tag'>Space</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
-<a class='hn-top-stories-more' href='/hackernews/2026/04/17/top_stories_04172026'>View all trending stories &rarr;</a>
+<a class='hn-top-stories-more' href='/hackernews/2026/04/18/top_stories_04182026'>View all trending stories &rarr;</a>
 </div>
 </div>
 <div class='hn-index-section hn-podcast-section'>
@@ -168,10 +168,19 @@ Your browser does not support the audio element.
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 16 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-04-13 — 2026-04-17 <span class="hn-row-sep">·</span> 700 stories <span class="hn-row-sep">·</span> 5 days</span>
+<span class='hn-week-meta'>2026-04-13 — 2026-04-18 <span class="hn-row-sep">·</span> 749 stories <span class="hn-row-sep">·</span> 6 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
+<div class='hn-day-row'>
+<div class='hn-day-date'>2026-04-18 <span class='hn-day-weekday'>Sat</span></div>
+<div class='hn-day-stories'>
+<a class='hn-story-link' href='/hackernews/2026/04/18/top_stories_04182026'>
+<span class='hn-row-type hn-type-top'>Trending</span>
+<span class='hn-row-detail'>All <b>49</b> <span class="hn-row-sep">·</span> Programming <b>17</b> <span class="hn-row-sep">·</span> AI <b>7</b></span>
+</a>
+</div>
+</div>
 <div class='hn-day-row'>
 <div class='hn-day-date'>2026-04-17 <span class='hn-day-weekday'>Fri</span></div>
 <div class='hn-day-stories'>
@@ -573,7 +582,7 @@ Your browser does not support the audio element.
 <details class='hn-week-group'>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 12</span>
-<span class='hn-week-meta'>2026-03-19 — 2026-03-22 <span class="hn-row-sep">·</span> 600 stories <span class="hn-row-sep">·</span> 4 days <span class="hn-row-sep">·</span> 📊 Weekly Digest <span class="hn-row-sep">·</span> 🎧</span>
+<span class='hn-week-meta'>2026-03-20 — 2026-03-22 <span class="hn-row-sep">·</span> 450 stories <span class="hn-row-sep">·</span> 3 days <span class="hn-row-sep">·</span> 📊 Weekly Digest <span class="hn-row-sep">·</span> 🎧</span>
 </summary>
 <div class='hn-week-content'>
 <a class='hn-story-link hn-weekly-digest-link' href='/hackernews/weekly/2026-W12'>
@@ -619,19 +628,6 @@ Your browser does not support the audio element.
 <a class='hn-story-link' href='/hackernews/2026/03/20/top_stories_03202026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
 <span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>21</b> <span class="hn-row-sep">·</span> AI <b>19</b></span>
-</a>
-</div>
-</div>
-<div class='hn-day-row'>
-<div class='hn-day-date'>2026-03-19 <span class='hn-day-weekday'>Thu</span></div>
-<div class='hn-day-stories'>
-<a class='hn-story-link' href='/hackernews/2026/03/19/best_stories_03192026'>
-<span class='hn-row-type hn-type-best'>Daily Best</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>14</b> <span class="hn-row-sep">·</span> Politics <b>10</b></span>
-</a>
-<a class='hn-story-link' href='/hackernews/2026/03/19/top_stories_03192026'>
-<span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>21</b> <span class="hn-row-sep">·</span> AI <b>21</b></span>
 </a>
 </div>
 </div>
