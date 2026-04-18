@@ -4,23 +4,45 @@
     "source": "https://news.ycombinator.com/",
     "api": "https://github.com/HackerNews/API",
     "count_requested": 50,
-    "count_written": 61,
-    "reused_same_day": 36,
+    "count_written": 78,
+    "reused_same_day": 32,
     "reused_cross_day": 0,
-    "new_llm_enriched": 13,
-    "scrape_time_display": "07:39, April 18, 2026 (PDT)",
+    "new_llm_enriched": 17,
+    "scrape_time_display": "11:43, April 18, 2026 (PDT)",
     "timezone": "America/Los_Angeles",
     "date_dir": "2026/04/18",
     "content_date": "2026-04-18",
-    "run_time_local": "07:39, April 18, 2026 (PDT)",
-    "run_time_utc": "2026-04-18 14:39:34 UTC",
+    "run_time_local": "11:43, April 18, 2026 (PDT)",
+    "run_time_utc": "2026-04-18 18:43:12 UTC",
     "incremental": true,
     "stories_max": 100,
-    "hot_score_time_utc": "2026-04-18 14:41:45 UTC"
+    "hot_score_time_utc": "2026-04-18 18:45:05 UTC"
   },
   "items": [
     {
-      "title_en": "Migrating from DigitalOcean to Hetzner: From $1,432 to $233 With Zero Downtime",
+      "title_en": "Opus 4.7 to 4.6 Inflation is ~45%",
+      "url": "https://tokens.billchambers.me/leaderboard",
+      "title_zh": "Opus 4.7 到 4.6 的通胀约为 45%",
+      "created_display": "Created: Apr 18, 2026 / 09:05 PT",
+      "image_url": null,
+      "summary_en": "The post notes a surprising inflation figure when comparing Opus versions 4.7 and 4.6, roughly 45%. It discusses what such an inflation metric means for developers and users, touching on token economics and governance. It flags potential design trade-offs and economic implications of version changes.",
+      "summary_zh": "文中提到将 Opus 从4.7降至4.6时的通胀率约为45%，并探讨这一数值对生态、治理和开发者的意义。讨论点包括版本变动背后的经济设计权衡，以及对社区参与者的潜在影响。",
+      "hn": {
+        "id": 47816960,
+        "type": "story",
+        "by": "anabranch",
+        "score": 232,
+        "descendants": 229,
+        "time": 1776528343,
+        "comments_url": "https://news.ycombinator.com/item?id=47816960"
+      },
+      "hot_score": 14.49,
+      "tags": [
+        "Business"
+      ]
+    },
+    {
+      "title_en": "Migrating from DigitalOcean to Hetzner",
       "url": "https://isayeter.com/posts/digitalocean-to-hetzner-migration/",
       "title_zh": "从 DigitalOcean 迁移到 Hetzner：零停机与成本下降",
       "created_display": "Created: Apr 18, 2026 / 06:29 PT",
@@ -31,37 +53,58 @@
         "id": 47815774,
         "type": "story",
         "by": "yusufusta",
-        "score": 110,
-        "descendants": 46,
+        "score": 479,
+        "descendants": 269,
         "time": 1776518944,
         "comments_url": "https://news.ycombinator.com/item?id=47815774"
       },
-      "hot_score": 13.35,
       "tags": [
-        "DevOps",
-        "Finance"
+        "DevOps"
+      ],
+      "hot_score": 13.46
+    },
+    {
+      "title_en": "The electromechanical angle computer inside the B-52 bomber's star tracker",
+      "url": "https://www.righto.com/2026/04/B-52-star-tracker-angle-computer.html",
+      "title_zh": "B-52 轰炸机星跟踪器内的机电角度计算机",
+      "created_display": "Created: Apr 18, 2026 / 09:26 PT",
+      "image_url": "https://lh3.googleusercontent.com/blogger_img_proxy/AEn0k_vmFHYUqjghwEBcXXqQk6t9f0GwCrEt4K7Ez3BRY3LXmycETDupdWOwhGVceixhmqnsYo-drNWwmNc8QPcroaVoXEewPtfqtEzzA_jsA3kpmf42uVujHuyHFb_WxhGvoFNGu9RaGpf73LCskLt20vYZBd5AmMZRflTC=w1200-h630-p-k-no-nu",
+      "summary_en": "A detailed look at the electromechanical angle computer housed inside the B-52's star tracker. It converts star-field data into aircraft attitude angles with gears and relays, a relic of pre-digital avionics ingenuity. The design shows how engineers built reliable navigation hardware under wartime constraints and hints at the evolution of embedded computing.",
+      "summary_zh": "通过解读B-52轰炸机星跟踪器内的机电角度计算机，这篇文章展示了在没有数字处理器时，如何靠齿轮、继电器等部件实现航向姿态计算。它揭示了早期航电系统在可靠性、响应时效与维护方面的权衡，以及嵌入式计算发展的一个有趣里程碑。",
+      "hn": {
+        "id": 47817132,
+        "type": "story",
+        "by": "NelsonMinar",
+        "score": 85,
+        "descendants": 21,
+        "time": 1776529607,
+        "comments_url": "https://news.ycombinator.com/item?id=47817132"
+      },
+      "hot_score": 6.07,
+      "tags": [
+        "Hardware"
       ]
     },
     {
-      "title_en": "State of Kdenlive",
-      "url": "https://kdenlive.org/news/2026/state-2026/",
-      "title_zh": "Kdenlive现状更新",
-      "created_display": "Created: Apr 18, 2026 / 04:42 PT",
-      "image_url": "https://kdenlive.org/images/logo-colored.svg",
-      "summary_en": "The update outlines the current state of the Kdenlive project, including recent milestones and near-term plans. It highlights how the team is balancing stability with new features, and what this means for users relying on open-source video editing.",
-      "summary_zh": "该更新概述 Kdenlive 项目的当前状态、近期里程碑与未来计划，强调团队在稳定性和新功能之间的权衡。对于依赖开源视频编辑工具的用户而言，这关系到未来的可用性和生态活力。",
+      "title_en": "Amazon is discontinuing Kindle for PC on June 30th",
+      "url": "https://goodereader.com/blog/kindle/amazon-is-discontinuing-kindle-for-pc-on-june-30th",
+      "title_zh": "亚马逊将于6月30日停用 Kindle for PC",
+      "created_display": "Created: Apr 18, 2026 / 08:54 PT",
+      "image_url": "https://media.goodereader.com/blog/uploads/images/2026/04/17000321/download-kindle.jpg",
+      "summary_en": "Amazon is discontinuing Kindle for PC, signaling a shift toward mobile and cloud-based reading experiences. Users are nudged to use Kindle on mobile or web, with library and note features affected. The move reflects broader platform consolidation in digital reading.",
+      "summary_zh": "亚马逊宣布6月30日停止 Kindle for PC 应用，推动向移动端和网页版阅读生态的转型。用户需迁移到移动设备或网页端，书库同步与笔记等功能可能受影响。",
       "hn": {
-        "id": 47815118,
+        "id": 47816878,
         "type": "story",
-        "by": "f_r_d",
-        "score": 124,
-        "descendants": 46,
-        "time": 1776512557,
-        "comments_url": "https://news.ycombinator.com/item?id=47815118"
+        "by": "tech234a",
+        "score": 94,
+        "descendants": 78,
+        "time": 1776527677,
+        "comments_url": "https://news.ycombinator.com/item?id=47816878"
       },
-      "hot_score": 6.82,
+      "hot_score": 5.44,
       "tags": [
-        "Open Source"
+        "Business"
       ]
     },
     {
@@ -76,15 +119,38 @@
         "id": 47815395,
         "type": "story",
         "by": "RickJWagner",
-        "score": 69,
-        "descendants": 54,
+        "score": 210,
+        "descendants": 222,
         "time": 1776515346,
         "comments_url": "https://news.ycombinator.com/item?id=47815395"
       },
-      "hot_score": 5.11,
       "tags": [
-        "Culture"
-      ]
+        "Culture",
+        "Business"
+      ],
+      "hot_score": 4.67
+    },
+    {
+      "title_en": "State of Kdenlive",
+      "url": "https://kdenlive.org/news/2026/state-2026/",
+      "title_zh": "Kdenlive现状更新",
+      "created_display": "Created: Apr 18, 2026 / 04:42 PT",
+      "image_url": "https://kdenlive.org/images/logo-colored.svg",
+      "summary_en": "The update outlines the current state of the Kdenlive project, including recent milestones and near-term plans. It highlights how the team is balancing stability with new features, and what this means for users relying on open-source video editing.",
+      "summary_zh": "该更新概述 Kdenlive 项目的当前状态、近期里程碑与未来计划，强调团队在稳定性和新功能之间的权衡。对于依赖开源视频编辑工具的用户而言，这关系到未来的可用性和生态活力。",
+      "hn": {
+        "id": 47815118,
+        "type": "story",
+        "by": "f_r_d",
+        "score": 240,
+        "descendants": 82,
+        "time": 1776512557,
+        "comments_url": "https://news.ycombinator.com/item?id=47815118"
+      },
+      "tags": [
+        "Open Source"
+      ],
+      "hot_score": 4.54
     },
     {
       "title_en": "Claude Design",
@@ -98,8 +164,8 @@
         "id": 47806725,
         "type": "story",
         "by": "meetpateltech",
-        "score": 1102,
-        "descendants": 722,
+        "score": 1165,
+        "descendants": 730,
         "time": 1776438249,
         "comments_url": "https://news.ycombinator.com/item?id=47806725"
       },
@@ -107,7 +173,53 @@
         "AI",
         "Design"
       ],
-      "hot_score": 3.21
+      "hot_score": 2.6
+    },
+    {
+      "title_en": "The USDA's gardening zones have shifted. (Interactive app and map)",
+      "url": "https://apps.npr.org/plant-hardiness-garden-map/",
+      "title_zh": "USDA 的园艺区因气候变化发生偏移，互动地图帮助可视化变化",
+      "created_display": "Created: Apr 18, 2026 / 09:31 PT",
+      "image_url": "https://apps.npr.org/plant-hardiness-garden-map/assets/synced/promo.jpg",
+      "summary_en": "The USDA hardiness zones are shifting due to climate change, and an interactive map helps users visualize the changes. The tool aids gardeners and farmers in choosing resilient plants and planning future crops, reflecting local climate impacts.",
+      "summary_zh": "USDA 的耐寒区因气候变化发生偏移，互动地图帮助用户直观感知区域变化。园丁与农民可据此选择更具韧性的植物并调整种植策略，反映地方级别的气候影响。",
+      "hn": {
+        "id": 47817179,
+        "type": "story",
+        "by": "nuke-web3",
+        "score": 30,
+        "descendants": 2,
+        "time": 1776529885,
+        "comments_url": "https://news.ycombinator.com/item?id=47817179"
+      },
+      "hot_score": 2.16,
+      "tags": [
+        "Data",
+        "Science"
+      ]
+    },
+    {
+      "title_en": "The quiet disappearance of the free-range childhood",
+      "url": "https://bigthink.com/mind-behavior/the-quiet-disappearance-of-the-free-range-childhood/",
+      "title_zh": "自由放养童年的悄然消失",
+      "created_display": "Created: Apr 18, 2026 / 04:43 PT",
+      "image_url": "https://bigthink.com/wp-content/uploads/2026/03/child-web.jpg?resize=1200,630",
+      "summary_en": "The piece argues that modern parenting, urbanization, and technology have eroded opportunities for kids to roam freely, with safety concerns and structured schedules. It discusses cognitive and social impacts, suggesting ways to reclaim freer, exploratory childhood experiences.",
+      "summary_zh": "文章认为现代生活逐渐剥夺了孩子在自由探索中的成长空间，受城市化、日程安排与科技的共同影响。讨论潜在的认知与社交成本，并提出重拾自由游戏与探索的想法。",
+      "hn": {
+        "id": 47815127,
+        "type": "story",
+        "by": "sylvainkalache",
+        "score": 113,
+        "descendants": 119,
+        "time": 1776512637,
+        "comments_url": "https://news.ycombinator.com/item?id=47815127"
+      },
+      "hot_score": 2.14,
+      "tags": [
+        "Culture",
+        "Education"
+      ]
     },
     {
       "title_en": "Amiga Graphics Archive",
@@ -121,15 +233,15 @@
         "id": 47813566,
         "type": "story",
         "by": "sph",
-        "score": 155,
-        "descendants": 36,
+        "score": 199,
+        "descendants": 51,
         "time": 1776493204,
         "comments_url": "https://news.ycombinator.com/item?id=47813566"
       },
-      "hot_score": 2.29,
       "tags": [
         "Open Source"
-      ]
+      ],
+      "hot_score": 1.62
     },
     {
       "title_en": "Category Theory Illustrated – Orders",
@@ -143,15 +255,40 @@
         "id": 47813668,
         "type": "story",
         "by": "boris_m",
-        "score": 145,
-        "descendants": 40,
+        "score": 189,
+        "descendants": 54,
         "time": 1776494447,
         "comments_url": "https://news.ycombinator.com/item?id=47813668"
       },
       "tags": [
+        "Science",
         "Education"
       ],
-      "hot_score": 2.28
+      "hot_score": 1.61
+    },
+    {
+      "title_en": "Fuzix OS",
+      "url": "https://www.fuzix.org/",
+      "title_zh": "Fuzix 操作系统",
+      "created_display": "Created: Apr 18, 2026 / 08:24 PT",
+      "image_url": null,
+      "summary_en": "Fuzix OS is a tiny Unix-like operating system designed for small devices and retro hardware, emphasizing simplicity and portability. It targets 8- and 16-bit architectures with a POSIX-like userland, enabling hobbyist projects and lightweight embedded uses. The project blends nostalgic hardware tinkering with modern software design.",
+      "summary_zh": "Fuzix OS 是面向小型设备和复古硬件的类 Unix 操作系统，强调简单性与可移植性。目标架构包括8/16位，提供类似 POSIX 的特性，适合爱好者与嵌入式开发使用。",
+      "hn": {
+        "id": 47816625,
+        "type": "story",
+        "by": "DeathArrow",
+        "score": 34,
+        "descendants": 9,
+        "time": 1776525858,
+        "comments_url": "https://news.ycombinator.com/item?id=47816625"
+      },
+      "hot_score": 1.61,
+      "tags": [
+        "Programming",
+        "Open Source",
+        "Hardware"
+      ]
     },
     {
       "title_en": "Ban the sale of precise geolocation",
@@ -165,8 +302,8 @@
         "id": 47806304,
         "type": "story",
         "by": "hn_acker",
-        "score": 716,
-        "descendants": 181,
+        "score": 729,
+        "descendants": 188,
         "time": 1776435946,
         "comments_url": "https://news.ycombinator.com/item?id=47806304"
       },
@@ -174,7 +311,7 @@
         "Privacy",
         "Politics"
       ],
-      "hot_score": 1.99
+      "hot_score": 1.57
     },
     {
       "title_en": "Measuring Claude 4.7's tokenizer costs",
@@ -188,15 +325,16 @@
         "id": 47807006,
         "type": "story",
         "by": "aray07",
-        "score": 642,
-        "descendants": 454,
+        "score": 673,
+        "descendants": 470,
         "time": 1776439776,
         "comments_url": "https://news.ycombinator.com/item?id=47807006"
       },
       "tags": [
-        "AI"
+        "AI",
+        "Finance"
       ],
-      "hot_score": 1.92
+      "hot_score": 1.54
     },
     {
       "title_en": "Isaac Asimov: The Last Question (1956)",
@@ -216,10 +354,57 @@
         "comments_url": "https://news.ycombinator.com/item?id=47804965"
       },
       "tags": [
-        "Entertainment",
+        "Culture",
         "AI"
       ],
-      "hot_score": 1.74
+      "hot_score": 1.37
+    },
+    {
+      "title_en": "Show HN: MDV – a Markdown superset for docs, dashboards, and slides with data",
+      "url": "https://github.com/drasimwagan/mdv",
+      "title_zh": "Show HN: MDV — 用于文档、仪表板和包含数据的幻灯片的 Markdown 超集",
+      "created_display": "Created: Apr 18, 2026 / 08:24 PT",
+      "image_url": "https://opengraph.githubassets.com/4cd1ca2ecb275951aa4cdd2fdb1292777efb8402f73af7a66a5f6b56a4ecbbfe/drasimwagan/mdv",
+      "summary_en": "MDV adds data-aware blocks to Markdown to support docs, dashboards, and data-driven slides, making content both readable and runnable. It aims to unify authoring and presentation for data-heavy work, with tooling to render outputs as dashboards or slide decks. This could streamline workflows for engineers and data scientists.",
+      "summary_zh": "MDV 将 Markdown 扩展为支持文档、仪表板与数据驱动幻灯片的工具，数据块让文档与展示更紧密结合。旨在为数据科学家和开发者提供统一的写作-呈现工作流，并能直接渲染为仪表板或幻灯片。",
+      "hn": {
+        "id": 47816629,
+        "type": "story",
+        "by": "drasim",
+        "score": 29,
+        "descendants": 11,
+        "time": 1776525879,
+        "comments_url": "https://news.ycombinator.com/item?id=47816629"
+      },
+      "hot_score": 1.37,
+      "tags": [
+        "Show HN",
+        "Programming",
+        "Open Source"
+      ]
+    },
+    {
+      "title_en": "IMF says America's $39T national debt is a global problem",
+      "url": "https://finance.yahoo.com/economy/policy/articles/world-going-broke-imf-says-194850050.html",
+      "title_zh": "IMF 称美国 39 万亿美元国债是全球性问题",
+      "created_display": "Created: Apr 18, 2026 / 10:32 PT",
+      "image_url": "https://s.yimg.com/ny/api/res/1.2/Yt9FhapZPZAz1mJUrLxOBQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://media.zenfs.com/en/fortune_175/67a9f2c93f636e5466f53007557e4589",
+      "summary_en": "IMF warns that America's $39T national debt poses global risks, potentially affecting currency stability, rates, and international policy. The piece ties the debt trajectory to macroeconomic headwinds facing tech companies and global markets. It highlights policy choices and their ripple effects for innovation ecosystems.",
+      "summary_zh": "IMF 警告美国约39万亿美元的国家债务对全球金融稳定构成风险，可能影响利率、美元地位及全球借贷成本。文章联系宏观政策与科技行业的潜在冲击，强调创新生态的脆弱性。",
+      "hn": {
+        "id": 47817754,
+        "type": "story",
+        "by": "tcp_handshaker",
+        "score": 12,
+        "descendants": 0,
+        "time": 1776533556,
+        "comments_url": "https://news.ycombinator.com/item?id=47817754"
+      },
+      "hot_score": 1.35,
+      "tags": [
+        "Finance",
+        "Politics"
+      ]
     },
     {
       "title_en": "Show HN: I made a calculator that works over disjoint sets of intervals",
@@ -233,16 +418,16 @@
         "id": 47812341,
         "type": "story",
         "by": "fouronnes3",
-        "score": 221,
-        "descendants": 44,
+        "score": 262,
+        "descendants": 48,
         "time": 1776474943,
         "comments_url": "https://news.ycombinator.com/item?id=47812341"
       },
       "tags": [
-        "Programming",
-        "Show HN"
+        "Show HN",
+        "Programming"
       ],
-      "hot_score": 1.6
+      "hot_score": 1.24
     },
     {
       "title_en": "All 12 moonwalkers had \"lunar hay fever\" from dust smelling like gunpowder (2018)",
@@ -256,8 +441,8 @@
         "id": 47808913,
         "type": "story",
         "by": "cybermango",
-        "score": 386,
-        "descendants": 225,
+        "score": 423,
+        "descendants": 239,
         "time": 1776449821,
         "comments_url": "https://news.ycombinator.com/item?id=47808913"
       },
@@ -265,7 +450,7 @@
         "Space",
         "Health"
       ],
-      "hot_score": 1.43
+      "hot_score": 1.16
     },
     {
       "title_en": "Show HN: Smol machines – subsecond coldstart, portable virtual machines",
@@ -279,62 +464,63 @@
         "id": 47808268,
         "type": "story",
         "by": "binsquare",
-        "score": 378,
-        "descendants": 123,
+        "score": 421,
+        "descendants": 129,
         "time": 1776446338,
         "comments_url": "https://news.ycombinator.com/item?id=47808268"
       },
       "tags": [
-        "Open Source",
+        "Show HN",
         "Programming",
-        "Startups",
-        "Show HN"
+        "Open Source",
+        "Startups"
       ],
-      "hot_score": 1.3
+      "hot_score": 1.08
     },
     {
-      "title_en": "A simplified model of Fil-C",
-      "url": "https://www.corsix.org/content/simplified-model-of-fil-c",
-      "title_zh": "Fil-C 的简化模型",
-      "created_display": "Created: Apr 17, 2026 / 14:38 PT",
-      "image_url": null,
-      "summary_en": "A compact, approachable model of Fil-C is presented, focusing on its essential dynamics and expected behaviors without drowning in details. By isolating core interactions, the piece helps readers reason about Fil-C in simulations and policy contexts. The takeaway is that simplified models can clarify design choices and potential risks.",
-      "summary_zh": "对 Fil-C 给出一个简化、易于理解的模型，聚焦其核心动态与预期行为，避免细枝末节。通过提炼关键交互，帮助读者在仿真与政策分析中更清晰地推演 Fil-C 的可能走向。要点在于简化模型有助于澄清设计取舍与潜在风险。",
+      "title_en": "Graphs That Explain the State of AI in 2026",
+      "url": "https://spectrum.ieee.org/state-of-ai-index-2026",
+      "title_zh": "解释2026年 AI 状态的图表",
+      "created_display": "Created: Apr 18, 2026 / 10:12 PT",
+      "image_url": "https://spectrum.ieee.org/media-library/image.jpg?id=65506010&width=1200&height=600&coordinates=0%2C250%2C0%2C250",
+      "summary_en": "IEEE Spectrum presents a visual snapshot of AI in 2026—compute, investment, deployment, and policy trends. The charts reveal where hype outpaces real capability and highlight gaps between research progress and production systems. The data helps readers gauge the tech's trajectory and policy implications.",
+      "summary_zh": "IEEE Spectrum 的一组图表揭示2026年AI在算力、投资、落地与政策趋势。图示凸显热度与实际能力之间的差距，并指向政府与企业的关注重点及潜在风险。",
       "hn": {
-        "id": 47810872,
+        "id": 47817581,
         "type": "story",
-        "by": "aw1621107",
-        "score": 189,
-        "descendants": 100,
-        "time": 1776461900,
-        "comments_url": "https://news.ycombinator.com/item?id=47810872"
+        "by": "bryanrasmussen",
+        "score": 11,
+        "descendants": 3,
+        "time": 1776532364,
+        "comments_url": "https://news.ycombinator.com/item?id=47817581"
       },
+      "hot_score": 1.03,
       "tags": [
-        "Science"
-      ],
-      "hot_score": 0.93
+        "AI",
+        "Data"
+      ]
     },
     {
-      "title_en": "NASA Force",
-      "url": "https://nasaforce.gov/",
-      "title_zh": "NASA Force",
-      "created_display": "Created: Apr 17, 2026 / 08:47 PT",
-      "image_url": "https://nasaforce.gov/og-image.png",
-      "summary_en": "NASA Force appears to be a newly announced NASA project or initiative with limited public details.",
-      "summary_zh": "NASA Force 似乎是美国国家航空航天局新宣布的一个项目或计划，但公开细节有限。",
+      "title_en": "Sherry Turkle: \"We're losing the raw human part of being with each other\" (2013)",
+      "url": "https://www.theguardian.com/science/2013/may/05/rational-heroes-sherry-turkle-mit",
+      "title_zh": "Sherry Turkle：‘我们正在失去彼此相处的原始人性部分’（2013）",
+      "created_display": "Created: Apr 18, 2026 / 08:13 PT",
+      "image_url": "https://i.guim.co.uk/img/static/sys-images/Observer/Pix/pictures/2013/4/30/1367341087930/sherry-turkle-008.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdG8tYWdlLTIwMTMucG5n&enable=upscale&s=99af049ddd0371f17573cb897d37698b",
+      "summary_en": "In a 2013 interview, Sherry Turkle argues that technology is eroding the raw, human aspects of in-person interaction. The piece resonates with ongoing debates about digital well-being, empathy, and social skills in an always-connected world.",
+      "summary_zh": "2013 年的访谈中，Sherry Turkle 指出科技正在侵蚀人与人面对面交流的原始人性。此观点在关于数字健康、同理心与社交技能的讨论中仍具共鸣。",
       "hn": {
-        "id": 47807209,
+        "id": 47816536,
         "type": "story",
-        "by": "LorenDB",
-        "score": 295,
-        "descendants": 285,
-        "time": 1776440861,
-        "comments_url": "https://news.ycombinator.com/item?id=47807209"
+        "by": "plenched",
+        "score": 23,
+        "descendants": 4,
+        "time": 1776525206,
+        "comments_url": "https://news.ycombinator.com/item?id=47816536"
       },
+      "hot_score": 1.01,
       "tags": [
-        "Space"
-      ],
-      "hot_score": 0.9
+        "Culture"
+      ]
     },
     {
       "title_en": "\"cat readme.txt\" is not safe if you use iTerm2",
@@ -348,15 +534,16 @@
         "id": 47809190,
         "type": "story",
         "by": "arkadiyt",
-        "score": 233,
-        "descendants": 133,
+        "score": 274,
+        "descendants": 165,
         "time": 1776451412,
         "comments_url": "https://news.ycombinator.com/item?id=47809190"
       },
       "tags": [
-        "Security"
+        "Security",
+        "Programming"
       ],
-      "hot_score": 0.89
+      "hot_score": 0.77
     },
     {
       "title_en": "I’m spending months coding the old way",
@@ -370,15 +557,60 @@
         "id": 47807583,
         "type": "story",
         "by": "evakhoury",
-        "score": 252,
-        "descendants": 257,
+        "score": 308,
+        "descendants": 300,
         "time": 1776442793,
         "comments_url": "https://news.ycombinator.com/item?id=47807583"
       },
-      "hot_score": 0.8,
       "tags": [
-        "Programming"
-      ]
+        "Programming",
+        "Career"
+      ],
+      "hot_score": 0.74
+    },
+    {
+      "title_en": "NASA Force",
+      "url": "https://nasaforce.gov/",
+      "title_zh": "NASA Force",
+      "created_display": "Created: Apr 17, 2026 / 08:47 PT",
+      "image_url": "https://nasaforce.gov/og-image.png",
+      "summary_en": "NASA Force appears to be a newly announced NASA project or initiative with limited public details.",
+      "summary_zh": "NASA Force 似乎是美国国家航空航天局新宣布的一个项目或计划，但公开细节有限。",
+      "hn": {
+        "id": 47807209,
+        "type": "story",
+        "by": "LorenDB",
+        "score": 309,
+        "descendants": 303,
+        "time": 1776440861,
+        "comments_url": "https://news.ycombinator.com/item?id=47807209"
+      },
+      "tags": [
+        "Space"
+      ],
+      "hot_score": 0.72
+    },
+    {
+      "title_en": "A simplified model of Fil-C",
+      "url": "https://www.corsix.org/content/simplified-model-of-fil-c",
+      "title_zh": "Fil-C 的简化模型",
+      "created_display": "Created: Apr 17, 2026 / 14:38 PT",
+      "image_url": null,
+      "summary_en": "A compact, approachable model of Fil-C is presented, focusing on its essential dynamics and expected behaviors without drowning in details. By isolating core interactions, the piece helps readers reason about Fil-C in simulations and policy contexts. The takeaway is that simplified models can clarify design choices and potential risks.",
+      "summary_zh": "对 Fil-C 给出一个简化、易于理解的模型，聚焦其核心动态与预期行为，避免细枝末节。通过提炼关键交互，帮助读者在仿真与政策分析中更清晰地推演 Fil-C 的可能走向。要点在于简化模型有助于澄清设计取舍与潜在风险。",
+      "hn": {
+        "id": 47810872,
+        "type": "story",
+        "by": "aw1621107",
+        "score": 199,
+        "descendants": 105,
+        "time": 1776461900,
+        "comments_url": "https://news.ycombinator.com/item?id=47810872"
+      },
+      "tags": [
+        "Science"
+      ],
+      "hot_score": 0.69
     },
     {
       "title_en": "Hyperscalers have already outspent most famous US megaprojects",
@@ -392,40 +624,16 @@
         "id": 47807619,
         "type": "story",
         "by": "nowflux",
-        "score": 239,
-        "descendants": 192,
+        "score": 266,
+        "descendants": 251,
         "time": 1776443002,
         "comments_url": "https://news.ycombinator.com/item?id=47807619"
       },
       "tags": [
         "Business",
-        "Finance",
         "DevOps"
       ],
-      "hot_score": 0.76
-    },
-    {
-      "title_en": "Middle schooler finds coin from Troy in Berlin",
-      "url": "https://www.thehistoryblog.com/archives/75848",
-      "title_zh": "柏林发现来自特洛伊的硬币的中学生",
-      "created_display": "Created: Apr 17, 2026 / 07:41 PT",
-      "image_url": null,
-      "summary_en": "A middle school student uncovered a coin dating to ancient Troy in Berlin, connecting modern classrooms with distant histories. The Trojan origin underscores how artifacts surface in urban contexts and shed light on ancient trade networks. The find also highlights youth involvement in archaeology.",
-      "summary_zh": "一名中学生在柏林发现了一枚来自特洛伊时期的硬币，将现代课堂与遥远历史连接起来。这枚特洛伊来源的硬币凸显文物在都市环境中的出现及对古代贸易网络的启示。此发现也凸显了青少年参与考古学研究的重要性。",
-      "hn": {
-        "id": 47806484,
-        "type": "story",
-        "by": "speckx",
-        "score": 252,
-        "descendants": 116,
-        "time": 1776436909,
-        "comments_url": "https://news.ycombinator.com/item?id=47806484"
-      },
-      "tags": [
-        "Culture",
-        "Education"
-      ],
-      "hot_score": 0.71
+      "hot_score": 0.64
     },
     {
       "title_en": "Show HN: PanicLock – Close your MacBook lid disable TouchID –> password unlock",
@@ -439,41 +647,63 @@
         "id": 47807809,
         "type": "story",
         "by": "seanieb",
-        "score": 219,
-        "descendants": 100,
+        "score": 237,
+        "descendants": 106,
         "time": 1776443924,
         "comments_url": "https://news.ycombinator.com/item?id=47807809"
       },
       "tags": [
-        "Security",
-        "Programming",
-        "Privacy",
-        "Show HN"
+        "Show HN",
+        "Privacy"
       ],
-      "hot_score": 0.71
+      "hot_score": 0.58
     },
     {
-      "title_en": "NIST gives up enriching most CVEs",
-      "url": "https://risky.biz/risky-bulletin-nist-gives-up-enriching-most-cves/",
-      "title_zh": "NIST 放弃对大多数 CVE 的丰富信息",
-      "created_display": "Created: Apr 17, 2026 / 08:09 PT",
-      "image_url": "https://risky.biz/static/img/RB-OG-Social.jpg",
-      "summary_en": "NIST is scaling back its enrichment of CVE entries, reducing depth and metadata for most vulnerabilities. The move could affect security teams relying on richer CVE data for prioritization and risk assessment, nudging practitioners toward alternative sources. This shift may slow some vulnerability workflows but simplify data curation.",
-      "summary_zh": "国家信息安全与技术标准局正在缩减对大多数 CVE 条目的丰富化，降低了漏洞数据的深度与元数据质量。此举可能影响依赖更丰富 CVE 数据进行优先级确定与风险评估的安全团队，促使从业者转向其他数据源。这一变化可能让某些漏洞工作流程变慢，但也简化了数据整理。",
+      "title_en": "Middle schooler finds coin from Troy in Berlin",
+      "url": "https://www.thehistoryblog.com/archives/75848",
+      "title_zh": "柏林发现来自特洛伊的硬币的中学生",
+      "created_display": "Created: Apr 17, 2026 / 07:41 PT",
+      "image_url": null,
+      "summary_en": "A middle school student uncovered a coin dating to ancient Troy in Berlin, connecting modern classrooms with distant histories. The Trojan origin underscores how artifacts surface in urban contexts and shed light on ancient trade networks. The find also highlights youth involvement in archaeology.",
+      "summary_zh": "一名中学生在柏林发现了一枚来自特洛伊时期的硬币，将现代课堂与遥远历史连接起来。这枚特洛伊来源的硬币凸显文物在都市环境中的出现及对古代贸易网络的启示。此发现也凸显了青少年参与考古学研究的重要性。",
       "hn": {
-        "id": 47806777,
+        "id": 47806484,
         "type": "story",
-        "by": "mooreds",
-        "score": 215,
-        "descendants": 51,
-        "time": 1776438554,
-        "comments_url": "https://news.ycombinator.com/item?id=47806777"
+        "by": "speckx",
+        "score": 258,
+        "descendants": 124,
+        "time": 1776436909,
+        "comments_url": "https://news.ycombinator.com/item?id=47806484"
       },
       "tags": [
-        "Security",
-        "Politics"
+        "Culture",
+        "Education"
       ],
-      "hot_score": 0.63
+      "hot_score": 0.56
+    },
+    {
+      "title_en": "Georgia's Voting Technology Blunder",
+      "url": "https://pluralistic.net/2026/04/18/dominion-sucks-actually/",
+      "title_zh": "乔治亚州投票技术失误",
+      "created_display": "Created: Apr 18, 2026 / 09:38 PT",
+      "image_url": "https://i0.wp.com/craphound.com/images/18Apr2026.jpg?w=840&ssl=1",
+      "summary_en": "A critical look at a voting technology failure in Georgia, possibly involving procurement issues, raising concerns about election infrastructure reliability and security.",
+      "summary_zh": "聚焦乔治亚州投票技术失误事件，涉及投票设备与软件的故障，暴露投票系统的脆弱性与采购方面的挑战。分析对选民信任的影响以及可能的监管回应。",
+      "hn": {
+        "id": 47817242,
+        "type": "story",
+        "by": "hn_acker",
+        "score": 8,
+        "descendants": 0,
+        "time": 1776530338,
+        "comments_url": "https://news.ycombinator.com/item?id=47817242"
+      },
+      "hot_score": 0.55,
+      "tags": [
+        "Politics",
+        "Security",
+        "DevOps"
+      ]
     },
     {
       "title_en": "Slop Cop",
@@ -487,15 +717,59 @@
         "id": 47806845,
         "type": "story",
         "by": "ericHosick",
-        "score": 207,
-        "descendants": 131,
+        "score": 223,
+        "descendants": 150,
         "time": 1776438924,
         "comments_url": "https://news.ycombinator.com/item?id=47806845"
       },
       "tags": [
-        "Programming"
+        "Politics"
       ],
-      "hot_score": 0.61
+      "hot_score": 0.5
+    },
+    {
+      "title_en": "Traders placed over $1B in perfectly timed bets on the Iran war",
+      "url": "https://www.theguardian.com/world/2026/apr/18/iran-war-bets-ethics-concerns",
+      "title_zh": "交易员在伊朗战争相关事件中押注超10亿美元",
+      "created_display": "Created: Apr 18, 2026 / 11:36 PT",
+      "image_url": "https://i.guim.co.uk/img/media/a015cbe3cc86bb76b2ae057965890207757e3202/1_0_2999_2400/master/2999.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=89a731d79762167b04fbb1619f67e739",
+      "summary_en": "The Guardian report suggests traders placed more than $1B of bets timed to geopolitical events surrounding Iran, raising questions about ethics and the systemic risks of war-related financial instruments.",
+      "summary_zh": "报道称有交易员在伊朗局势相关事件中押注超10亿美元，关注这类地缘政治相关金融活动的伦理与风险。讨论此类交易对市场流动性与金融稳定性的潜在影响。",
+      "hn": {
+        "id": 47818305,
+        "type": "story",
+        "by": "trocado",
+        "score": 3,
+        "descendants": 0,
+        "time": 1776537367,
+        "comments_url": "https://news.ycombinator.com/item?id=47818305"
+      },
+      "hot_score": 0.5,
+      "tags": [
+        "Finance"
+      ]
+    },
+    {
+      "title_en": "NIST gives up enriching most CVEs",
+      "url": "https://risky.biz/risky-bulletin-nist-gives-up-enriching-most-cves/",
+      "title_zh": "NIST 放弃对大多数 CVE 的丰富信息",
+      "created_display": "Created: Apr 17, 2026 / 08:09 PT",
+      "image_url": "https://risky.biz/static/img/RB-OG-Social.jpg",
+      "summary_en": "NIST is scaling back its enrichment of CVE entries, reducing depth and metadata for most vulnerabilities. The move could affect security teams relying on richer CVE data for prioritization and risk assessment, nudging practitioners toward alternative sources. This shift may slow some vulnerability workflows but simplify data curation.",
+      "summary_zh": "国家信息安全与技术标准局正在缩减对大多数 CVE 条目的丰富化，降低了漏洞数据的深度与元数据质量。此举可能影响依赖更丰富 CVE 数据进行优先级确定与风险评估的安全团队，促使从业者转向其他数据源。这一变化可能让某些漏洞工作流程变慢，但也简化了数据整理。",
+      "hn": {
+        "id": 47806777,
+        "type": "story",
+        "by": "mooreds",
+        "score": 221,
+        "descendants": 52,
+        "time": 1776438554,
+        "comments_url": "https://news.ycombinator.com/item?id=47806777"
+      },
+      "tags": [
+        "Security"
+      ],
+      "hot_score": 0.49
     },
     {
       "title_en": "Ada, its design, and the language that built the languages",
@@ -517,7 +791,31 @@
       "tags": [
         "Programming"
       ],
-      "hot_score": 0.53
+      "hot_score": 0.42
+    },
+    {
+      "title_en": "Apple TV's Upcoming Cyberpunk Series Will Be the Matrix Meets Blade Runner",
+      "url": "https://screenrant.com/neuromancer-apple-tv-matrix-meets-blade-runner/",
+      "title_zh": "苹果电视台即将推出的赛博朋克剧集将是《黑客帝国》遇上《银翼杀手》",
+      "created_display": "Created: Apr 18, 2026 / 10:46 PT",
+      "image_url": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/04/ana-de-armas-joi-in-blade-runner-2049.jpg?w=1600&h=900&fit=crop",
+      "summary_en": "Apple TV is developing a cyberpunk series described as Matrix meets Blade Runner, combining AI, surveillance, and neon-noir aesthetics. Expect an engine of tech-forward, visually dense storytelling that may push new boundaries in streaming sci-fi.",
+      "summary_zh": "苹果电视台正在开发一部赛博朋克题材剧集，被比喻为《黑客帝国》与《银翼杀手》的融合，聚焦人工智能、监控与霓虹 noir 美学。期待它在流媒体科幻领域带来新视角与视觉冲击。",
+      "hn": {
+        "id": 47817884,
+        "type": "story",
+        "by": "mindcrime",
+        "score": 4,
+        "descendants": 0,
+        "time": 1776534419,
+        "comments_url": "https://news.ycombinator.com/item?id=47817884"
+      },
+      "hot_score": 0.42,
+      "tags": [
+        "Entertainment",
+        "AI",
+        "Privacy"
+      ]
     },
     {
       "title_en": "Landmark ancient-genome study shows surprise acceleration of human evolution",
@@ -531,15 +829,15 @@
         "id": 47811283,
         "type": "story",
         "by": "unsuspecting",
-        "score": 97,
-        "descendants": 102,
+        "score": 104,
+        "descendants": 121,
         "time": 1776465028,
         "comments_url": "https://news.ycombinator.com/item?id=47811283"
       },
       "tags": [
         "Science"
       ],
-      "hot_score": 0.52
+      "hot_score": 0.39
     },
     {
       "title_en": "Healthchecks.io now uses self-hosted object storage",
@@ -563,7 +861,7 @@
         "Privacy",
         "Web"
       ],
-      "hot_score": 0.49
+      "hot_score": 0.38
     },
     {
       "title_en": "Casus Belli Engineering",
@@ -577,38 +875,15 @@
         "id": 47812331,
         "type": "story",
         "by": "b-man",
-        "score": 54,
-        "descendants": 14,
+        "score": 59,
+        "descendants": 16,
         "time": 1776474842,
         "comments_url": "https://news.ycombinator.com/item?id=47812331"
       },
       "tags": [
         "Politics"
       ],
-      "hot_score": 0.38
-    },
-    {
-      "title_en": "The FBI Director Is MIA",
-      "url": "https://www.theatlantic.com/politics/2026/04/kash-patel-fbi-director-drinking-absences/686839/",
-      "title_zh": "FBI 局长失踪？",
-      "created_display": "Created: Apr 17, 2026 / 20:53 PT",
-      "image_url": "https://cdn.theatlantic.com/thumbor/TBFB8mPcEzsD30-QGwGo8VO7Xr4=/1x79:3999x2161/1200x625/media/img/mt/2026/04/2026_04_18_The_Night_That_Kash_Patel_Thought_Hed_Been_Fired/original.jpg",
-      "summary_en": "Reports ongoing questions about the FBI director's absence from high-profile duties, fueling political debate over leadership and agency direction.",
-      "summary_zh": "报道关于 FBI 局长在重要职责中的缺席引发关于领导力与机构走向的政治辩论。",
-      "hn": {
-        "id": 47813001,
-        "type": "story",
-        "by": "osnium123",
-        "score": 37,
-        "descendants": 1,
-        "time": 1776484439,
-        "comments_url": "https://news.ycombinator.com/item?id=47813001"
-      },
-      "hot_score": 0.37,
-      "tags": [
-        "Politics",
-        "Security"
-      ]
+      "hot_score": 0.28
     },
     {
       "title_en": "Experiment with ICEYE Open Data",
@@ -628,10 +903,10 @@
         "comments_url": "https://news.ycombinator.com/item?id=47806440"
       },
       "tags": [
-        "Data",
-        "Science"
+        "Open Source",
+        "Data"
       ],
-      "hot_score": 0.32
+      "hot_score": 0.24
     },
     {
       "title_en": "Teddy Roosevelt and Abraham Lincoln in the same photo (2010)",
@@ -653,7 +928,29 @@
       "tags": [
         "Culture"
       ],
-      "hot_score": 0.29
+      "hot_score": 0.23
+    },
+    {
+      "title_en": "The FBI Director Is MIA",
+      "url": "https://www.theatlantic.com/politics/2026/04/kash-patel-fbi-director-drinking-absences/686839/",
+      "title_zh": "FBI 局长失踪？",
+      "created_display": "Created: Apr 17, 2026 / 20:53 PT",
+      "image_url": "https://cdn.theatlantic.com/thumbor/TBFB8mPcEzsD30-QGwGo8VO7Xr4=/1x79:3999x2161/1200x625/media/img/mt/2026/04/2026_04_18_The_Night_That_Kash_Patel_Thought_Hed_Been_Fired/original.jpg",
+      "summary_en": "Reports ongoing questions about the FBI director's absence from high-profile duties, fueling political debate over leadership and agency direction.",
+      "summary_zh": "报道关于 FBI 局长在重要职责中的缺席引发关于领导力与机构走向的政治辩论。",
+      "hn": {
+        "id": 47813001,
+        "type": "story",
+        "by": "osnium123",
+        "score": 37,
+        "descendants": 1,
+        "time": 1776484439,
+        "comments_url": "https://news.ycombinator.com/item?id=47813001"
+      },
+      "hot_score": 0.22,
+      "tags": [
+        "Politics"
+      ]
     },
     {
       "title_en": "FIM – Linux framebuffer image viewer",
@@ -673,10 +970,9 @@
         "comments_url": "https://news.ycombinator.com/item?id=47803323"
       },
       "tags": [
-        "Programming",
-        "Open Source"
+        "Programming"
       ],
-      "hot_score": 0.25
+      "hot_score": 0.2
     },
     {
       "title_en": "Detecting DOSBox from Within the Box",
@@ -696,9 +992,31 @@
         "comments_url": "https://news.ycombinator.com/item?id=47807503"
       },
       "tags": [
-        "Security"
+        "Programming"
       ],
-      "hot_score": 0.22
+      "hot_score": 0.17
+    },
+    {
+      "title_en": "The Gregorio project – GPL tools for typesetting Gregorian chant",
+      "url": "https://gregorio-project.github.io/index.html",
+      "title_zh": "Gregorio 项目——用于格里高利圣咏排版的 GPL 工具",
+      "created_display": "Created: Apr 17, 2026 / 08:20 PT",
+      "image_url": "https://gregorio-project.github.io/illus/harpedroite.png",
+      "summary_en": "The Gregorio project provides GPL-licensed tools for typesetting Gregorian chant, aligning notes with Latin text for liturgical use and scholarly work. By combining music notation with digital typesetting, it makes chant transcription more accessible and shareable.",
+      "summary_zh": "Gregorio 项目提供 GPL 许可证下的排版工具，用于将格里高利圣咏的音符与拉丁文本对齐，用于礼拜仪式与学术研究。通过将音乐记谱与数字排版结合，提升圣咏抄写的可访问性与共享性。",
+      "hn": {
+        "id": 47806899,
+        "type": "story",
+        "by": "mcookly",
+        "score": 63,
+        "descendants": 9,
+        "time": 1776439245,
+        "comments_url": "https://news.ycombinator.com/item?id=47806899"
+      },
+      "tags": [
+        "Open Source"
+      ],
+      "hot_score": 0.14
     },
     {
       "title_en": "Using a USB switch as a full KVM",
@@ -721,29 +1039,51 @@
         "Hardware",
         "Security"
       ],
-      "hot_score": 0.2
+      "hot_score": 0.14
     },
     {
-      "title_en": "The Gregorio project – GPL tools for typesetting Gregorian chant",
-      "url": "https://gregorio-project.github.io/index.html",
-      "title_zh": "Gregorio 项目——用于格里高利圣咏排版的 GPL 工具",
-      "created_display": "Created: Apr 17, 2026 / 08:20 PT",
-      "image_url": "https://gregorio-project.github.io/illus/harpedroite.png",
-      "summary_en": "The Gregorio project provides GPL-licensed tools for typesetting Gregorian chant, aligning notes with Latin text for liturgical use and scholarly work. By combining music notation with digital typesetting, it makes chant transcription more accessible and shareable.",
-      "summary_zh": "Gregorio 项目提供 GPL 许可证下的排版工具，用于将格里高利圣咏的音符与拉丁文本对齐，用于礼拜仪式与学术研究。通过将音乐记谱与数字排版结合，提升圣咏抄写的可访问性与共享性。",
+      "title_en": "Michael Rabin has died",
+      "url": "https://en.wikipedia.org/wiki/Michael_O._Rabin",
+      "title_zh": "迈克尔·O·拉宾逝世",
+      "created_display": "Created: Apr 15, 2026 / 11:07 PT",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/49/M_O_Rabin.jpg",
+      "summary_en": "Obituary of Michael O. Rabin, highlighting his foundational contributions to computer science, including automata theory and cryptographic ideas. His work on algorithms and probabilistic methods helped shape modern CS.",
+      "summary_zh": "迈克尔·O.拉宾逝世，回顾他在计算机科学领域的奠基性贡献，包括自动机理论和相关密码学思想，对现代计算机科学影响深远。",
       "hn": {
-        "id": 47806899,
+        "id": 47782925,
         "type": "story",
-        "by": "mcookly",
-        "score": 63,
-        "descendants": 9,
-        "time": 1776439245,
-        "comments_url": "https://news.ycombinator.com/item?id=47806899"
+        "by": "tkhattra",
+        "score": 313,
+        "descendants": 71,
+        "time": 1776276466,
+        "comments_url": "https://news.ycombinator.com/item?id=47782925"
       },
       "tags": [
-        "Open Source"
+        "Science"
       ],
-      "hot_score": 0.18
+      "hot_score": 0.13
+    },
+    {
+      "title_en": "Are the costs of AI agents also rising exponentially? (2025)",
+      "url": "https://www.tobyord.com/writing/hourly-costs-for-ai-agents",
+      "title_zh": "AI 代理成本是否也在指数级上升？（2025）",
+      "created_display": "Created: Apr 15, 2026 / 06:47 PT",
+      "image_url": "http://static1.squarespace.com/static/562652dbe4b05bbfdc596fd7/t/69498e19a310233e798dfd42/1766428185819/Sweet+Spots.png?format=1500w",
+      "summary_en": "An exploration of whether AI agent costs are growing exponentially, analyzing factors like compute, data, and maintenance, and projecting implications for deployment economics in 2025 and beyond. The takeaway: cost curves matter for long-term planning and may influence adoption, pricing, and governance.",
+      "summary_zh": "探讨 AI 代理成本是否呈指数级增长，分析算力、数据与维护等因素对 2025 年及以后的部署经济性的影响。结论表明成本曲线对长期规划至关重要，可能影响采用节奏、定价与治理策略。",
+      "hn": {
+        "id": 47778922,
+        "type": "story",
+        "by": "louiereederson",
+        "score": 284,
+        "descendants": 112,
+        "time": 1776260878,
+        "comments_url": "https://news.ycombinator.com/item?id=47778922"
+      },
+      "tags": [
+        "AI"
+      ],
+      "hot_score": 0.11
     },
     {
       "title_en": "Show HN: Sfsym – Export Apple SF Symbols as Vector SVG/PDF/PNG",
@@ -762,56 +1102,11 @@
         "time": 1776483894,
         "comments_url": "https://news.ycombinator.com/item?id=47812964"
       },
-      "hot_score": 0.17,
+      "hot_score": 0.1,
       "tags": [
         "Show HN",
         "Design"
       ]
-    },
-    {
-      "title_en": "Why is IPv6 so complicated?",
-      "url": "https://github.com/becarpenter/misc/blob/main/why6why.md",
-      "title_zh": "为什么 IPv6 这么复杂？",
-      "created_display": "Created: Apr 17, 2026 / 23:33 PT",
-      "image_url": "https://opengraph.githubassets.com/6f9a1610a4f2ec67b5b9051186b5ffa79a2a5e9ed7104a54d662e1f7c941d1de/becarpenter/misc",
-      "summary_en": "IPv6 complexity grows from its broad feature set and the pressure to stay compatible with IPv4, plus deployment quirks like autoconfig and extension headers. The result is a steep learning curve and tooling challenges across networks and cloud platforms.",
-      "summary_zh": "IPv6 的复杂性源于其丰富的特性集合、为兼容 IPv4 的压力，以及自配置和扩展头等部署细节。导致网络与云平台的学习曲线陡峭、工具链也较难完善。",
-      "hn": {
-        "id": 47813631,
-        "type": "story",
-        "by": "signa11",
-        "score": 9,
-        "descendants": 0,
-        "time": 1776494009,
-        "comments_url": "https://news.ycombinator.com/item?id=47813631"
-      },
-      "hot_score": 0.12,
-      "tags": [
-        "Programming"
-      ]
-    },
-    {
-      "title_en": "Are the costs of AI agents also rising exponentially? (2025)",
-      "url": "https://www.tobyord.com/writing/hourly-costs-for-ai-agents",
-      "title_zh": "AI 代理成本是否也在指数级上升？（2025）",
-      "created_display": "Created: Apr 15, 2026 / 06:47 PT",
-      "image_url": "http://static1.squarespace.com/static/562652dbe4b05bbfdc596fd7/t/69498e19a310233e798dfd42/1766428185819/Sweet+Spots.png?format=1500w",
-      "summary_en": "An exploration of whether AI agent costs are growing exponentially, analyzing factors like compute, data, and maintenance, and projecting implications for deployment economics in 2025 and beyond. The takeaway: cost curves matter for long-term planning and may influence adoption, pricing, and governance.",
-      "summary_zh": "探讨 AI 代理成本是否呈指数级增长，分析算力、数据与维护等因素对 2025 年及以后的部署经济性的影响。结论表明成本曲线对长期规划至关重要，可能影响采用节奏、定价与治理策略。",
-      "hn": {
-        "id": 47778922,
-        "type": "story",
-        "by": "louiereederson",
-        "score": 251,
-        "descendants": 88,
-        "time": 1776260878,
-        "comments_url": "https://news.ycombinator.com/item?id=47778922"
-      },
-      "tags": [
-        "AI",
-        "Business"
-      ],
-      "hot_score": 0.11
     },
     {
       "title_en": "Show HN: Stage – Putting humans back in control of code review",
@@ -835,52 +1130,74 @@
         "Programming",
         "AI"
       ],
-      "hot_score": 0.11
+      "hot_score": 0.09
     },
     {
-      "title_en": "\"Liberation Day\" at OpenAI as multiple senior executives announce leaving",
-      "url": "https://mas.to/@carnage4life/116422881496195720",
-      "title_zh": "OpenAI 的“解放日”——多位高级主管宣布离职",
-      "created_display": "Created: Apr 17, 2026 / 22:41 PT",
-      "image_url": "https://media.mas.to/media_attachments/files/116/422/880/560/615/111/original/b67d4b3ddbe8e965.jpeg",
-      "summary_en": "Notes several senior OpenAI executives announcing departures, signaling leadership turnover and possible shifts in strategy or governance. The shakeup could influence product direction, risk management, and investor sentiment.",
-      "summary_zh": "报道 OpenAI 多位高级主管宣布离职，预示着领导层变动以及策略或治理方向可能的调整。人事变动可能影响产品路线、风险管理与投资者情绪。",
+      "title_en": "Why is IPv6 so complicated?",
+      "url": "https://github.com/becarpenter/misc/blob/main/why6why.md",
+      "title_zh": "为什么 IPv6 这么复杂？",
+      "created_display": "Created: Apr 17, 2026 / 23:33 PT",
+      "image_url": "https://opengraph.githubassets.com/6f9a1610a4f2ec67b5b9051186b5ffa79a2a5e9ed7104a54d662e1f7c941d1de/becarpenter/misc",
+      "summary_en": "IPv6 complexity grows from its broad feature set and the pressure to stay compatible with IPv4, plus deployment quirks like autoconfig and extension headers. The result is a steep learning curve and tooling challenges across networks and cloud platforms.",
+      "summary_zh": "IPv6 的复杂性源于其丰富的特性集合、为兼容 IPv4 的压力，以及自配置和扩展头等部署细节。导致网络与云平台的学习曲线陡峭、工具链也较难完善。",
       "hn": {
-        "id": 47813428,
+        "id": 47813631,
         "type": "story",
-        "by": "riffraff",
+        "by": "signa11",
         "score": 9,
         "descendants": 0,
-        "time": 1776490875,
-        "comments_url": "https://news.ycombinator.com/item?id=47813428"
+        "time": 1776494009,
+        "comments_url": "https://news.ycombinator.com/item?id=47813631"
       },
-      "hot_score": 0.11,
+      "hot_score": 0.07,
       "tags": [
-        "Business",
-        "AI"
+        "Programming"
       ]
     },
     {
-      "title_en": "Michael Rabin has died",
-      "url": "https://en.wikipedia.org/wiki/Michael_O._Rabin",
-      "title_zh": "迈克尔·O·拉宾逝世",
-      "created_display": "Created: Apr 15, 2026 / 11:07 PT",
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/49/M_O_Rabin.jpg",
-      "summary_en": "Obituary of Michael O. Rabin, highlighting his foundational contributions to computer science, including automata theory and cryptographic ideas. His work on algorithms and probabilistic methods helped shape modern CS.",
-      "summary_zh": "迈克尔·O.拉宾逝世，回顾他在计算机科学领域的奠基性贡献，包括自动机理论和相关密码学思想，对现代计算机科学影响深远。",
+      "title_en": "Towards trust in Emacs",
+      "url": "https://eshelyaron.com/posts/2026-04-15-towards-trust-in-emacs.html",
+      "title_zh": "走向对 Emacs 的信任",
+      "created_display": "Created: Apr 15, 2026 / 06:49 PT",
+      "image_url": "https://eshelyaron.com/home.svg",
+      "summary_en": "Trust in Emacs should be built on verifiable package provenance, signed updates, and reproducible configurations. The write-up outlines practical steps to audit your Emacs setup, manage package sources, and minimize supply-chain risk. Small hygiene changes can significantly reduce the editor's attack surface.",
+      "summary_zh": "信任 Emacs 应建立在可验证的软件来源、签名更新和可重复的配置之上。文中给出审计 Emacs 设置、管理包源、降低供应链风险的实用步骤。微小的安全与使用习惯改进就能显著降低编辑器的攻击面。",
       "hn": {
-        "id": 47782925,
+        "id": 47778938,
         "type": "story",
-        "by": "tkhattra",
-        "score": 220,
-        "descendants": 37,
-        "time": 1776276466,
-        "comments_url": "https://news.ycombinator.com/item?id=47782925"
+        "by": "eshelyaron",
+        "score": 163,
+        "descendants": 25,
+        "time": 1776260955,
+        "comments_url": "https://news.ycombinator.com/item?id=47778938"
       },
-      "hot_score": 0.1,
       "tags": [
-        "Science"
-      ]
+        "Security",
+        "Open Source"
+      ],
+      "hot_score": 0.06
+    },
+    {
+      "title_en": "The simple geometry behind any road",
+      "url": "https://sandboxspirit.com/blog/simple-geometry-of-roads/",
+      "title_zh": "任何道路背后的简单几何",
+      "created_display": "Created: Apr 15, 2026 / 20:09 PT",
+      "image_url": "https://sandboxspirit.com/_astro/og_image.BOu06ZKG.png",
+      "summary_en": "Breaks down the geometric principles governing road design, such as curvature, tangents, and alignment, and shows how simple math governs practical decisions like sightlines and safety margins. The takeaway: geometry scales from intercity highways to local streets.",
+      "summary_zh": "从曲率、切线到线位等，解释了道路设计背后的简单几何原理，并展示这些数学如何影响视距、安全余量等实际决策。要点在于几何概念在城市主干道和街区道路之间具有一致性。",
+      "hn": {
+        "id": 47788207,
+        "type": "story",
+        "by": "azhenley",
+        "score": 105,
+        "descendants": 12,
+        "time": 1776308990,
+        "comments_url": "https://news.ycombinator.com/item?id=47788207"
+      },
+      "tags": [
+        "Design"
+      ],
+      "hot_score": 0.06
     },
     {
       "title_en": "The big business of survival bunkers",
@@ -899,33 +1216,80 @@
         "time": 1776462018,
         "comments_url": "https://news.ycombinator.com/item?id=47810892"
       },
-      "hot_score": 0.08,
+      "hot_score": 0.06,
       "tags": [
         "Business",
         "Privacy"
       ]
     },
     {
-      "title_en": "Towards trust in Emacs",
-      "url": "https://eshelyaron.com/posts/2026-04-15-towards-trust-in-emacs.html",
-      "title_zh": "走向对 Emacs 的信任",
-      "created_display": "Created: Apr 15, 2026 / 06:49 PT",
-      "image_url": "https://eshelyaron.com/home.svg",
-      "summary_en": "Trust in Emacs should be built on verifiable package provenance, signed updates, and reproducible configurations. The write-up outlines practical steps to audit your Emacs setup, manage package sources, and minimize supply-chain risk. Small hygiene changes can significantly reduce the editor's attack surface.",
-      "summary_zh": "信任 Emacs 应建立在可验证的软件来源、签名更新和可重复的配置之上。文中给出审计 Emacs 设置、管理包源、降低供应链风险的实用步骤。微小的安全与使用习惯改进就能显著降低编辑器的攻击面。",
+      "title_en": "\"Liberation Day\" at OpenAI as multiple senior executives announce leaving",
+      "url": "https://mas.to/@carnage4life/116422881496195720",
+      "title_zh": "OpenAI 的“解放日”——多位高级主管宣布离职",
+      "created_display": "Created: Apr 17, 2026 / 22:41 PT",
+      "image_url": "https://media.mas.to/media_attachments/files/116/422/880/560/615/111/original/b67d4b3ddbe8e965.jpeg",
+      "summary_en": "Notes several senior OpenAI executives announcing departures, signaling leadership turnover and possible shifts in strategy or governance. The shakeup could influence product direction, risk management, and investor sentiment.",
+      "summary_zh": "报道 OpenAI 多位高级主管宣布离职，预示着领导层变动以及策略或治理方向可能的调整。人事变动可能影响产品路线、风险管理与投资者情绪。",
       "hn": {
-        "id": 47778938,
+        "id": 47813428,
         "type": "story",
-        "by": "eshelyaron",
-        "score": 148,
-        "descendants": 20,
-        "time": 1776260955,
-        "comments_url": "https://news.ycombinator.com/item?id=47778938"
+        "by": "riffraff",
+        "score": 9,
+        "descendants": 0,
+        "time": 1776490875,
+        "comments_url": "https://news.ycombinator.com/item?id=47813428"
+      },
+      "hot_score": 0.06,
+      "tags": [
+        "Business",
+        "Career",
+        "AI"
+      ]
+    },
+    {
+      "title_en": "I built a 3D printing business and ran it for 8 months",
+      "url": "https://www.wespiser.com/posts/2026-04-12-3D-Printing-Biz.html",
+      "title_zh": "我建立了一个3D打印生意并运营了8个月",
+      "created_display": "Created: Apr 15, 2026 / 06:59 PT",
+      "image_url": "https://wespiser.com/img/home_compress.jpg",
+      "summary_en": "An eight-month narrative of starting and running a 3D printing service business. It covers revenues, operations, tooling decisions, and lessons learned about demand, margins, and fulfillment. Takeaway: practical guidance for makers turning hobby printing into a small business.",
+      "summary_zh": "作者讲述从零开始经营一个 3D 打印服务并持续经营了 8 个月的经历，涉及收入、运营、设备选择及对需求、毛利和交付的经验教训。给出将爱好转化为小规模生意的实用建议。",
+      "hn": {
+        "id": 47779049,
+        "type": "story",
+        "by": "wespiser_2018",
+        "score": 120,
+        "descendants": 102,
+        "time": 1776261547,
+        "comments_url": "https://news.ycombinator.com/item?id=47779049"
       },
       "tags": [
-        "Security"
+        "Business"
       ],
-      "hot_score": 0.06
+      "hot_score": 0.05
+    },
+    {
+      "title_en": "Introducing: ShaderPad",
+      "url": "https://rileyjshaw.com/blog/introducing-shaderpad/",
+      "title_zh": "ShaderPad 介绍",
+      "created_display": "Created: Apr 15, 2026 / 09:59 PT",
+      "image_url": null,
+      "summary_en": "ShaderPad introduces a lightweight environment for writing and testing GPU shaders with immediate feedback. It streamlines iteration, debugging, and profiling of GLSL/HLSL-style code. Takeaway: a developer-friendly scratchpad can speed up shader engineering.",
+      "summary_zh": "ShaderPad 提供一个轻量级的着色器开发环境，支持快速编写和测试 GPU 着色器并获得即时反馈。它简化了 GLSL/HLSL 风格代码的迭代、调试与分析。核心价值在于为开发者提供一个友好的“草稿板”以提升着色器开发效率。",
+      "hn": {
+        "id": 47781889,
+        "type": "story",
+        "by": "evakhoury",
+        "score": 117,
+        "descendants": 20,
+        "time": 1776272348,
+        "comments_url": "https://news.ycombinator.com/item?id=47781889"
+      },
+      "tags": [
+        "Programming",
+        "Hardware"
+      ],
+      "hot_score": 0.05
     },
     {
       "title_en": "Solitaire simulator for finding the best strategy: Current record is 8.590%",
@@ -948,54 +1312,30 @@
         "Programming",
         "AI"
       ],
-      "hot_score": 0.06
-    },
-    {
-      "title_en": "I built a 3D printing business and ran it for 8 months",
-      "url": "https://www.wespiser.com/posts/2026-04-12-3D-Printing-Biz.html",
-      "title_zh": "我建立了一个3D打印生意并运营了8个月",
-      "created_display": "Created: Apr 15, 2026 / 06:59 PT",
-      "image_url": "https://wespiser.com/img/home_compress.jpg",
-      "summary_en": "An eight-month narrative of starting and running a 3D printing service business. It covers revenues, operations, tooling decisions, and lessons learned about demand, margins, and fulfillment. Takeaway: practical guidance for makers turning hobby printing into a small business.",
-      "summary_zh": "作者讲述从零开始经营一个 3D 打印服务并持续经营了 8 个月的经历，涉及收入、运营、设备选择及对需求、毛利和交付的经验教训。给出将爱好转化为小规模生意的实用建议。",
-      "hn": {
-        "id": 47779049,
-        "type": "story",
-        "by": "wespiser_2018",
-        "score": 120,
-        "descendants": 102,
-        "time": 1776261547,
-        "comments_url": "https://news.ycombinator.com/item?id=47779049"
-      },
-      "tags": [
-        "Startups",
-        "Hardware",
-        "Business"
-      ],
       "hot_score": 0.05
     },
     {
-      "title_en": "Introducing: ShaderPad",
-      "url": "https://rileyjshaw.com/blog/introducing-shaderpad/",
-      "title_zh": "ShaderPad 介绍",
-      "created_display": "Created: Apr 15, 2026 / 09:59 PT",
-      "image_url": null,
-      "summary_en": "ShaderPad introduces a lightweight environment for writing and testing GPU shaders with immediate feedback. It streamlines iteration, debugging, and profiling of GLSL/HLSL-style code. Takeaway: a developer-friendly scratchpad can speed up shader engineering.",
-      "summary_zh": "ShaderPad 提供一个轻量级的着色器开发环境，支持快速编写和测试 GPU 着色器并获得即时反馈。它简化了 GLSL/HLSL 风格代码的迭代、调试与分析。核心价值在于为开发者提供一个友好的“草稿板”以提升着色器开发效率。",
+      "title_en": "Sumida Aquarium Posts 2026 Penguin Relationship Chart, with Drama and Breakups",
+      "url": "https://www.sumida-aquarium.com/special/sokanzu/en/2026/",
+      "title_zh": "墨田水族馆2026企鹅关系图：戏剧与分手",
+      "created_display": "Created: Apr 15, 2026 / 12:56 PT",
+      "image_url": "https://www.sumida-aquarium.com/special/sokanzu/en/assets/img/og2026.jpg",
+      "summary_en": "A whimsical 2026 update detailing penguin relationships at Sumida Aquarium, presented as a relationship chart with narrative drama. It blends data visualization with light-hearted storytelling, reflecting the playful side of institutional communications.",
+      "summary_zh": "这是对墨田水族馆 2026 年企鹅关系的趣味更新，以下列关系图呈现并夹带戏剧与分手等情节。将数据可视化与轻松叙事结合，体现机构沟通中的趣味侧面。",
       "hn": {
-        "id": 47781889,
+        "id": 47784395,
         "type": "story",
-        "by": "evakhoury",
-        "score": 111,
-        "descendants": 20,
-        "time": 1776272348,
-        "comments_url": "https://news.ycombinator.com/item?id=47781889"
+        "by": "Lwrless",
+        "score": 96,
+        "descendants": 5,
+        "time": 1776282991,
+        "comments_url": "https://news.ycombinator.com/item?id=47784395"
       },
       "tags": [
-        "Programming",
-        "Hardware"
+        "Data",
+        "Culture"
       ],
-      "hot_score": 0.05
+      "hot_score": 0.04
     },
     {
       "title_en": "The Unix executable as a Smalltalk method (2025) [video]",
@@ -1017,52 +1357,29 @@
       "tags": [
         "Programming"
       ],
-      "hot_score": 0.05
-    },
-    {
-      "title_en": "Connie Converse was a folk-music genius. Then she vanished",
-      "url": "https://www.bbc.com/culture/article/20260413-the-mystery-of-a-missing-folk-music-pioneer",
-      "title_zh": "康妮·康贝斯（Connie Converse）：民谣天才，后突然消失",
-      "created_display": "Created: Apr 15, 2026 / 02:24 PT",
-      "image_url": "https://ychef.files.bbci.co.uk/624x351/p0nd6c8f.jpg",
-      "summary_en": "BBC Culture profiles Connie Converse, an influential early folk-music artist whose career faded after she vanished in the 20th century. Rediscovered recordings and scholarship position her as a precursor to indie folk, reshaping how we understand her influence and a musician's archival mystery.",
-      "summary_zh": "BBC Culture 回顾了 Connie Converse，这位早期民谣音乐人的重要影响力在她于20世纪消失后逐渐淡出。通过重新发现的录音和学界研究，她被视为独立民谣的先驱，这一故事重新塑造了人们对她影响力与艺术家档案之谜的理解。",
-      "hn": {
-        "id": 47776663,
-        "type": "story",
-        "by": "mellosouls",
-        "score": 101,
-        "descendants": 21,
-        "time": 1776245046,
-        "comments_url": "https://news.ycombinator.com/item?id=47776663"
-      },
-      "tags": [
-        "Culture",
-        "Entertainment"
-      ],
       "hot_score": 0.04
     },
     {
-      "title_en": "The simple geometry behind any road",
-      "url": "https://sandboxspirit.com/blog/simple-geometry-of-roads/",
-      "title_zh": "任何道路背后的简单几何",
-      "created_display": "Created: Apr 15, 2026 / 20:09 PT",
-      "image_url": "https://sandboxspirit.com/_astro/og_image.BOu06ZKG.png",
-      "summary_en": "Breaks down the geometric principles governing road design, such as curvature, tangents, and alignment, and shows how simple math governs practical decisions like sightlines and safety margins. The takeaway: geometry scales from intercity highways to local streets.",
-      "summary_zh": "从曲率、切线到线位等，解释了道路设计背后的简单几何原理，并展示这些数学如何影响视距、安全余量等实际决策。要点在于几何概念在城市主干道和街区道路之间具有一致性。",
+      "title_en": "It's OK to compare floating-points for equality",
+      "url": "https://lisyarus.github.io/blog/posts/its-ok-to-compare-floating-points-for-equality.html",
+      "title_zh": "浮点数相等比较是可以的",
+      "created_display": "Created: Apr 14, 2026 / 09:00 PT",
+      "image_url": "https://lisyarus.github.io/blog/media/compare-floating-points/cover.png",
+      "summary_en": "Argues that, in practical computation, direct equality comparisons can be acceptable when numbers are within a small tolerance or from the same computation. Explains concepts like epsilon, ulp, and rounding modes to guide when to rely on exact equality.",
+      "summary_zh": "在实际计算中，直接比较浮点数是否相等在某些情形是可接受的，尤其当数值来自同一运算且容忍度很小。文中介绍 epsilon、ulp 与舍入模式等概念，帮助判断何时应采用近似相等。",
       "hn": {
-        "id": 47788207,
+        "id": 47767398,
         "type": "story",
-        "by": "azhenley",
-        "score": 73,
-        "descendants": 9,
-        "time": 1776308990,
-        "comments_url": "https://news.ycombinator.com/item?id=47788207"
+        "by": "coinfused",
+        "score": 135,
+        "descendants": 88,
+        "time": 1776182449,
+        "comments_url": "https://news.ycombinator.com/item?id=47767398"
       },
-      "hot_score": 0.04,
       "tags": [
         "Science"
-      ]
+      ],
+      "hot_score": 0.03
     },
     {
       "title_en": "The GNU libc atanh is correctly rounded",
@@ -1082,31 +1399,31 @@
         "comments_url": "https://news.ycombinator.com/item?id=47773722"
       },
       "tags": [
-        "Programming"
+        "Science"
       ],
       "hot_score": 0.03
     },
     {
-      "title_en": "It is incorrect to \"normalize\" // in HTTP URL paths",
-      "url": "https://runxiyu.org/comp/doubleslash/",
-      "title_zh": "在 HTTP URL 路径中对 // 进行规范化是不正确的",
-      "created_display": "Created: Apr 17, 2026 / 22:47 PT",
-      "image_url": null,
-      "summary_en": "It argues that normalizing double slashes in URL paths is incorrect due to ambiguity and RFC semantics. Preserving the original path semantics helps avoid subtle bugs and interoperability pitfalls across servers and clients.",
-      "summary_zh": "指出在 HTTP URL 路径中对 // 进行规范化是错误的，因为这会带来歧义并与 RFC 语义不符。保持原始路径语义有助于避免微妙的错误和跨服务器、跨客户端的互操作性问题。",
+      "title_en": "Connie Converse was a folk-music genius. Then she vanished",
+      "url": "https://www.bbc.com/culture/article/20260413-the-mystery-of-a-missing-folk-music-pioneer",
+      "title_zh": "康妮·康贝斯（Connie Converse）：民谣天才，后突然消失",
+      "created_display": "Created: Apr 15, 2026 / 02:24 PT",
+      "image_url": "https://ychef.files.bbci.co.uk/624x351/p0nd6c8f.jpg",
+      "summary_en": "BBC Culture profiles Connie Converse, an influential early folk-music artist whose career faded after she vanished in the 20th century. Rediscovered recordings and scholarship position her as a precursor to indie folk, reshaping how we understand her influence and a musician's archival mystery.",
+      "summary_zh": "BBC Culture 回顾了 Connie Converse，这位早期民谣音乐人的重要影响力在她于20世纪消失后逐渐淡出。通过重新发现的录音和学界研究，她被视为独立民谣的先驱，这一故事重新塑造了人们对她影响力与艺术家档案之谜的理解。",
       "hn": {
-        "id": 47813454,
+        "id": 47776663,
         "type": "story",
-        "by": "pabs3",
-        "score": 3,
-        "descendants": 0,
-        "time": 1776491230,
-        "comments_url": "https://news.ycombinator.com/item?id=47813454"
+        "by": "mellosouls",
+        "score": 101,
+        "descendants": 21,
+        "time": 1776245046,
+        "comments_url": "https://news.ycombinator.com/item?id=47776663"
       },
-      "hot_score": 0.03,
       "tags": [
-        "Web"
-      ]
+        "Culture"
+      ],
+      "hot_score": 0.03
     },
     {
       "title_en": "Brunost: The Nynorsk Programming Language",
@@ -1120,8 +1437,8 @@
         "id": 47756320,
         "type": "story",
         "by": "atomfinger",
-        "score": 105,
-        "descendants": 52,
+        "score": 126,
+        "descendants": 62,
         "time": 1776106195,
         "comments_url": "https://news.ycombinator.com/item?id=47756320"
       },
@@ -1148,31 +1465,32 @@
         "comments_url": "https://news.ycombinator.com/item?id=47754603"
       },
       "tags": [
-        "AI"
+        "Data"
       ],
       "hot_score": 0.02
     },
     {
-      "title_en": "It's OK to compare floating-points for equality",
-      "url": "https://lisyarus.github.io/blog/posts/its-ok-to-compare-floating-points-for-equality.html",
-      "title_zh": "浮点数相等比较是可以的",
-      "created_display": "Created: Apr 14, 2026 / 09:00 PT",
-      "image_url": "https://lisyarus.github.io/blog/media/compare-floating-points/cover.png",
-      "summary_en": "Argues that, in practical computation, direct equality comparisons can be acceptable when numbers are within a small tolerance or from the same computation. Explains concepts like epsilon, ulp, and rounding modes to guide when to rely on exact equality.",
-      "summary_zh": "在实际计算中，直接比较浮点数是否相等在某些情形是可接受的，尤其当数值来自同一运算且容忍度很小。文中介绍 epsilon、ulp 与舍入模式等概念，帮助判断何时应采用近似相等。",
+      "title_en": "Rewriting Every Syscall in a Linux Binary at Load Time",
+      "url": "https://amitlimaye1.substack.com/p/rewriting-every-syscall-in-a-linux",
+      "title_zh": "在加载时对 Linux 二进制中的所有系统调用进行重写",
+      "created_display": "Created: Apr 13, 2026 / 18:26 PT",
+      "image_url": null,
+      "summary_en": "Describes loading Linux binaries with runtime syscall rewrites to intercept or instrument behavior without altering source. The approach enables dynamic analysis and sandboxing, but raises questions about performance, reliability, and compatibility.",
+      "summary_zh": "介绍在加载时对 Linux 二进制进行系统调用重写，以拦截或插桩行为，而无需修改源代码。此方法支持动态分析和沙箱化，但也带来性能、可靠性和兼容性方面的质疑。",
       "hn": {
-        "id": 47767398,
+        "id": 47760135,
         "type": "story",
-        "by": "coinfused",
-        "score": 83,
-        "descendants": 44,
-        "time": 1776182449,
-        "comments_url": "https://news.ycombinator.com/item?id=47767398"
+        "by": "riteshnoronha16",
+        "score": 82,
+        "descendants": 32,
+        "time": 1776129966,
+        "comments_url": "https://news.ycombinator.com/item?id=47760135"
       },
-      "hot_score": 0.02,
       "tags": [
-        "Programming"
-      ]
+        "Programming",
+        "Security"
+      ],
+      "hot_score": 0.02
     },
     {
       "title_en": "Generating a color spectrum for an image",
@@ -1192,55 +1510,54 @@
         "comments_url": "https://news.ycombinator.com/item?id=47783062"
       },
       "tags": [
-        "Science"
+        "Science",
+        "Design"
       ],
       "hot_score": 0.02
     },
     {
-      "title_en": "What the EU Battery Passport Means for Your Devices",
-      "url": "https://holdmybill.com/blog/eu-battery-passport-explained-2027",
-      "title_zh": "欧盟电池护照对你的设备意味着什么",
-      "created_display": "Created: Apr 17, 2026 / 21:49 PT",
-      "image_url": "https://d2mormgl3xzfwd.cloudfront.net/large_eu_battery_passport_explained_2027_ba76136108.jpg",
-      "summary_en": "Describes how the EU Battery Passport will track batteries' origin, components, and lifecycle data to improve sustainability and recycling. For devices, this promises greater transparency, stricter supply-chain compliance, and implications for repairability and resale.",
-      "summary_zh": "介绍欧盟电池护照将追踪电池出处、材料与生命周期数据，以提升可持续性与回收再利用。对设备而言，这意味着更高透明度、严格的供应链合规，以及对可修复性与二次销售的影响。",
+      "title_en": "Scientists discover \"cleaner ants\" that groom giant ants in Arizona desert",
+      "url": "https://www.sciencedaily.com/releases/2026/04/260414075641.htm",
+      "title_zh": "科学家发现会梳理大型蚂蚁的‘清洁蚁’（在亚利桑那沙漠）",
+      "created_display": "Created: Apr 15, 2026 / 12:46 PT",
+      "image_url": "https://www.sciencedaily.com/images/1920/cleaner-ants.webp",
+      "summary_en": "Researchers describe a behavior where ants groom larger conspecifics, effectively acting as a cleaning service within the colony. The grooming likely reduces parasite load and reveals new aspects of social immunity in ants. This finding enriches understanding of mutualistic roles in insect ecosystems.",
+      "summary_zh": "研究者在亚利桑那沙漠观测到会为大型同种蚂蚁清洁梳理的行为，像在蚁群中提供卫生服务。该举动可能降低寄生虫负担，揭示蚂蚁社会免疫与群落互动的新维度。",
       "hn": {
-        "id": 47813223,
+        "id": 47784250,
         "type": "story",
-        "by": "niksmac",
-        "score": 3,
-        "descendants": 0,
-        "time": 1776487778,
-        "comments_url": "https://news.ycombinator.com/item?id=47813223"
+        "by": "t-3",
+        "score": 36,
+        "descendants": 10,
+        "time": 1776282376,
+        "comments_url": "https://news.ycombinator.com/item?id=47784250"
       },
       "hot_score": 0.02,
       "tags": [
-        "Politics",
-        "Energy"
+        "Science"
       ]
     },
     {
-      "title_en": "Rewriting Every Syscall in a Linux Binary at Load Time",
-      "url": "https://amitlimaye1.substack.com/p/rewriting-every-syscall-in-a-linux",
-      "title_zh": "在加载时对 Linux 二进制中的所有系统调用进行重写",
-      "created_display": "Created: Apr 13, 2026 / 18:26 PT",
+      "title_en": "It is incorrect to \"normalize\" // in HTTP URL paths",
+      "url": "https://runxiyu.org/comp/doubleslash/",
+      "title_zh": "在 HTTP URL 路径中对 // 进行规范化是不正确的",
+      "created_display": "Created: Apr 17, 2026 / 22:47 PT",
       "image_url": null,
-      "summary_en": "Describes loading Linux binaries with runtime syscall rewrites to intercept or instrument behavior without altering source. The approach enables dynamic analysis and sandboxing, but raises questions about performance, reliability, and compatibility.",
-      "summary_zh": "介绍在加载时对 Linux 二进制进行系统调用重写，以拦截或插桩行为，而无需修改源代码。此方法支持动态分析和沙箱化，但也带来性能、可靠性和兼容性方面的质疑。",
+      "summary_en": "It argues that normalizing double slashes in URL paths is incorrect due to ambiguity and RFC semantics. Preserving the original path semantics helps avoid subtle bugs and interoperability pitfalls across servers and clients.",
+      "summary_zh": "指出在 HTTP URL 路径中对 // 进行规范化是错误的，因为这会带来歧义并与 RFC 语义不符。保持原始路径语义有助于避免微妙的错误和跨服务器、跨客户端的互操作性问题。",
       "hn": {
-        "id": 47760135,
+        "id": 47813454,
         "type": "story",
-        "by": "riteshnoronha16",
-        "score": 69,
-        "descendants": 26,
-        "time": 1776129966,
-        "comments_url": "https://news.ycombinator.com/item?id=47760135"
+        "by": "pabs3",
+        "score": 3,
+        "descendants": 0,
+        "time": 1776491230,
+        "comments_url": "https://news.ycombinator.com/item?id=47813454"
       },
+      "hot_score": 0.02,
       "tags": [
-        "Programming",
-        "Security"
-      ],
-      "hot_score": 0.01
+        "Web"
+      ]
     },
     {
       "title_en": "Webloc: Analysis of Penlink's Ad-Based Geolocation Surveillance Tech",
@@ -1266,6 +1583,74 @@
       "hot_score": 0.01
     },
     {
+      "title_en": "A Dumb Introduction to Z3 (2025)",
+      "url": "https://ar-ms.me/thoughts/a-gentle-introduction-to-z3/",
+      "title_zh": "Z3 入门（2025）",
+      "created_display": "Created: Apr 13, 2026 / 19:45 PT",
+      "image_url": "https://ar-ms.me/flag.jpg",
+      "summary_en": "A gentle, approachable primer to the Z3 theorem prover updated for 2025, covering basics of SMT solving, logical modeling, and practical examples. Aimed at demystifying symbolic reasoning for newcomers and practitioners.",
+      "summary_zh": "这是一份面向新手的温和入门，更新至 2025 的 Z3 讲解，涵盖 SMT 求解、逻辑建模与实用示例，帮助读者快速掌握符号推理的要点。",
+      "hn": {
+        "id": 47760648,
+        "type": "story",
+        "by": "y1n0",
+        "score": 50,
+        "descendants": 21,
+        "time": 1776134727,
+        "comments_url": "https://news.ycombinator.com/item?id=47760648"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 0.01
+    },
+    {
+      "title_en": "80386 Memory Pipeline",
+      "url": "https://nand2mario.github.io/posts/2026/80386_memory_pipeline/",
+      "title_zh": "80386 内存流水线",
+      "created_display": "Created: Apr 14, 2026 / 09:00 PT",
+      "image_url": "https://nand2mario.github.io/posts/2026/80386_memory_pipeline/address_translation.png",
+      "summary_en": "A technical look at how the 80386 memory subsystem handles caching, prefetching, and bandwidth. It sheds light on the era's architectural choices for memory performance and how constraints shaped processor throughput. The piece blends historical detail with lessons for modern memory hierarchy design.",
+      "summary_zh": "这篇文章详细解读了80386处理器的内存子系统如何处理缓存、预取和流水线阶段。揭示早期超标量CPU的架构设计，以及内存带宽约束如何塑造性能。",
+      "hn": {
+        "id": 47767397,
+        "type": "story",
+        "by": "wicket",
+        "score": 42,
+        "descendants": 7,
+        "time": 1776182449,
+        "comments_url": "https://news.ycombinator.com/item?id=47767397"
+      },
+      "hot_score": 0.01,
+      "tags": [
+        "Hardware"
+      ]
+    },
+    {
+      "title_en": "What the EU Battery Passport Means for Your Devices",
+      "url": "https://holdmybill.com/blog/eu-battery-passport-explained-2027",
+      "title_zh": "欧盟电池护照对你的设备意味着什么",
+      "created_display": "Created: Apr 17, 2026 / 21:49 PT",
+      "image_url": "https://d2mormgl3xzfwd.cloudfront.net/large_eu_battery_passport_explained_2027_ba76136108.jpg",
+      "summary_en": "Describes how the EU Battery Passport will track batteries' origin, components, and lifecycle data to improve sustainability and recycling. For devices, this promises greater transparency, stricter supply-chain compliance, and implications for repairability and resale.",
+      "summary_zh": "介绍欧盟电池护照将追踪电池出处、材料与生命周期数据，以提升可持续性与回收再利用。对设备而言，这意味着更高透明度、严格的供应链合规，以及对可修复性与二次销售的影响。",
+      "hn": {
+        "id": 47813223,
+        "type": "story",
+        "by": "niksmac",
+        "score": 3,
+        "descendants": 0,
+        "time": 1776487778,
+        "comments_url": "https://news.ycombinator.com/item?id=47813223"
+      },
+      "hot_score": 0.01,
+      "tags": [
+        "Politics",
+        "Business",
+        "Energy"
+      ]
+    },
+    {
       "title_en": "Loonies for Loongsons",
       "url": "https://www.leadedsolder.com/2026/04/14/loongson-ls3a5000-debian-linux.html",
       "title_zh": "龙芯粉丝：为 Debian/Linux 提供支持",
@@ -1282,31 +1667,33 @@
         "time": 1776186890,
         "comments_url": "https://news.ycombinator.com/item?id=47768390"
       },
-      "hot_score": 0.01,
+      "hot_score": 0.0,
       "tags": [
-        "Open Source"
+        "Open Source",
+        "Hardware"
       ]
     },
     {
-      "title_en": "A Dumb Introduction to Z3 (2025)",
-      "url": "https://ar-ms.me/thoughts/a-gentle-introduction-to-z3/",
-      "title_zh": "Z3 入门（2025）",
-      "created_display": "Created: Apr 13, 2026 / 19:45 PT",
-      "image_url": "https://ar-ms.me/flag.jpg",
-      "summary_en": "A gentle, approachable primer to the Z3 theorem prover updated for 2025, covering basics of SMT solving, logical modeling, and practical examples. Aimed at demystifying symbolic reasoning for newcomers and practitioners.",
-      "summary_zh": "这是一份面向新手的温和入门，更新至 2025 的 Z3 讲解，涵盖 SMT 求解、逻辑建模与实用示例，帮助读者快速掌握符号推理的要点。",
+      "title_en": "Understanding the FFT Algorithm (2013)",
+      "url": "https://jakevdp.github.io/blog/2013/08/28/understanding-the-fft/",
+      "title_zh": "理解快速傅里叶变换（FFT）算法（2013）",
+      "created_display": "Created: Apr 14, 2026 / 19:29 PT",
+      "image_url": null,
+      "summary_en": "A pedagogical post explaining FFT basics, including how DFT is transformed into efficient divide-and-conquer, and practical tips for implementing FFT in code. It offers intuition about windowing, complexity, and numerical stability. A good refresher for students and developers alike.",
+      "summary_zh": "这篇教程性文章讲解快速傅里叶变换（FFT）的原理与实现要点，涵盖将离散傅里叶变换转化为高效的分治算法，以及代码实现中的数值稳定性与窗函数等实用要点。",
       "hn": {
-        "id": 47760648,
+        "id": 47773969,
         "type": "story",
-        "by": "y1n0",
-        "score": 17,
-        "descendants": 14,
-        "time": 1776134727,
-        "comments_url": "https://news.ycombinator.com/item?id=47760648"
+        "by": "peter_d_sherman",
+        "score": 14,
+        "descendants": 2,
+        "time": 1776220179,
+        "comments_url": "https://news.ycombinator.com/item?id=47773969"
       },
       "hot_score": 0.0,
       "tags": [
-        "Programming"
+        "Programming",
+        "Science"
       ]
     },
     {
@@ -1378,26 +1765,25 @@
       ]
     },
     {
-      "title_en": "Sumida Aquarium Posts 2026 Penguin Relationship Chart, with Drama and Breakups",
-      "url": "https://www.sumida-aquarium.com/special/sokanzu/en/2026/",
-      "title_zh": "墨田水族馆2026企鹅关系图：戏剧与分手",
-      "created_display": "Created: Apr 15, 2026 / 12:56 PT",
-      "image_url": "https://www.sumida-aquarium.com/special/sokanzu/en/assets/img/og2026.jpg",
-      "summary_en": "A whimsical 2026 update detailing penguin relationships at Sumida Aquarium, presented as a relationship chart with narrative drama. It blends data visualization with light-hearted storytelling, reflecting the playful side of institutional communications.",
-      "summary_zh": "这是对墨田水族馆 2026 年企鹅关系的趣味更新，以下列关系图呈现并夹带戏剧与分手等情节。将数据可视化与轻松叙事结合，体现机构沟通中的趣味侧面。",
+      "title_en": "Building a Grow-Only Counter on a Sequentially Consistent KV Store",
+      "url": "https://brunocalza.me/blog/2026/04/13/building-a-grow-only-counter-on-a-sequentially-consistent-kv-store.html",
+      "title_zh": "在顺序一致性的 KV 存储上构建一个 Grow-Only 计数器",
+      "created_display": "Created: Apr 13, 2026 / 11:31 PT",
+      "image_url": null,
+      "summary_en": "Shows how to implement a grow-only counter on a sequentially consistent key-value store, with correctness arguments and benchmarks. A practical guide for building simple, reliable counters in distributed systems.",
+      "summary_zh": "介绍在具备顺序一致性的键值存储上实现一个 grow-only 计数器的设计与正确性分析，含基准测试与实现要点。讨论强一致性与性能之间的权衡，并给出可复用的分布式计数器模式。",
       "hn": {
-        "id": 47784395,
+        "id": 47756108,
         "type": "story",
-        "by": "Lwrless",
-        "score": 3,
-        "descendants": 1,
-        "time": 1776282991,
-        "comments_url": "https://news.ycombinator.com/item?id=47784395"
+        "by": "brunocalza",
+        "score": 4,
+        "descendants": 0,
+        "time": 1776105098,
+        "comments_url": "https://news.ycombinator.com/item?id=47756108"
       },
       "hot_score": 0.0,
       "tags": [
-        "Data",
-        "Design"
+        "Programming"
       ]
     }
   ]
