@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>64</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>9215</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>63</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>62</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-04-20</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>64</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>9242</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>63</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>62</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-04-20</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='721' data-hn-time='1776608078'>
+<div class='hn-top-story-item' data-hn-score='276' data-hn-time='1776692485'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/20/top_stories_04202026#story-47824463'>Vercel April 2026 security incident</a>
- <a class='hn-top-story-link' href='https://www.bleepingcomputer.com/news/security/vercel-confirms-breach-as-hackers-claim-to-be-selling-stolen-data/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/20/top_stories_04202026#story-47834195'>All phones sold in the EU to have replaceable batteries from 2027</a>
+ <a class='hn-top-story-link' href='https://www.theolivepress.es/spain-news/2026/04/20/eu-to-force-replaceable-batteries-in-phones-and-tablets-from-2027/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Vercel 2026 年 4 月安全事件披露</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 721</span> <span class='hn-top-story-comments'>&#128172; 412</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>到2027年，欧盟销售的所有手机将配备可更换电池</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 27</span> <span class='hn-top-story-score'>&#9650; 276</span> <span class='hn-top-story-comments'>&#128172; 118</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='22' data-hn-time='1776668850'>
+<div class='hn-top-story-item' data-hn-score='174' data-hn-time='1776692428'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/20/top_stories_04202026#story-47831205'>How Long Poop Stays in Your Body May Impact Your Health, Study Finds</a>
- <a class='hn-top-story-link' href='https://www.sciencealert.com/how-long-poop-stays-in-your-body-may-impact-your-health-study-finds' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/20/top_stories_04202026#story-47834184'>Show HN: Saunas lower nighttime heart rate more than exercise (n=59,000)</a>
+ <a class='hn-top-story-link' href='https://tryterra.co/research/sauna-effect-on-heart-rate' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>大便在体内停留多久可能影响健康，研究发现</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 22</span> <span class='hn-top-story-comments'>&#128172; 14</span> <span class='hn-top-story-tag'>Health</span></div>
+<div class='hn-top-story-zh'>Show HN：桑拿在夜间降低心率的效果比运动更显著（样本量59,000）</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 17</span> <span class='hn-top-story-score'>&#9650; 174</span> <span class='hn-top-story-comments'>&#128172; 100</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Health</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='151' data-hn-time='1776643636'>
+<div class='hn-top-story-item' data-hn-score='83' data-hn-time='1776693934'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/20/top_stories_04202026#story-47828896'>Show HN: Run TRELLIS.2 Image-to-3D generation natively on Apple Silicon</a>
- <a class='hn-top-story-link' href='https://github.com/shivampkumar/trellis-mac' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/20/top_stories_04202026#story-47834565'>Qwen3.6-Max-Preview: Smarter, Sharper, Still Evolving</a>
+ <a class='hn-top-story-link' href='https://qwen.ai/blog?id=qwen3.6-max-preview' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Show HN：在 Apple Silicon 上原生运行 TRELLIS.2 的图像转3D 生成</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.3</span> <span class='hn-top-story-score'>&#9650; 151</span> <span class='hn-top-story-comments'>&#128172; 24</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>Qwen3.6-Max 预览版：更智能、更敏锐，仍在进化</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 10</span> <span class='hn-top-story-score'>&#9650; 83</span> <span class='hn-top-story-comments'>&#128172; 21</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='170' data-hn-time='1776639347'>
+<div class='hn-top-story-item' data-hn-score='123' data-hn-time='1776689480'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/20/top_stories_04202026#story-47828420'>2,100 Swiss municipalities showing which provider handles their official email</a>
- <a class='hn-top-story-link' href='https://mxmap.ch/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/20/top_stories_04202026#story-47833558'>ggsql: A Grammar of Graphics for SQL</a>
+ <a class='hn-top-story-link' href='https://opensource.posit.co/blog/2026-04-20_ggsql_alpha_release/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>2100 个瑞士自治市政体公开官方邮箱提供商</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.1</span> <span class='hn-top-story-score'>&#9650; 170</span> <span class='hn-top-story-comments'>&#128172; 45</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Data</span></div>
+<div class='hn-top-story-zh'>ggsql：SQL 的图形语法框架（草案版）</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.3</span> <span class='hn-top-story-score'>&#9650; 123</span> <span class='hn-top-story-comments'>&#128172; 32</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Data</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='366' data-hn-time='1776612001'>
+<div class='hn-top-story-item' data-hn-score='417' data-hn-time='1776673612'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/20/top_stories_04202026#story-47824945'>Notion leaks email addresses of all editors of any public page</a>
- <a class='hn-top-story-link' href='https://twitter.com/weezerOSINT/status/2045849358462222720' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/20/top_stories_04202026#story-47831621'>GitHub's Fake Star Economy</a>
+ <a class='hn-top-story-link' href='https://awesomeagents.ai/news/github-fake-stars-investigation/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Notion 泄露公开页面编辑者的邮箱地址</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.8</span> <span class='hn-top-story-score'>&#9650; 366</span> <span class='hn-top-story-comments'>&#128172; 132</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>GitHub 的假星星经济</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.2</span> <span class='hn-top-story-score'>&#9650; 417</span> <span class='hn-top-story-comments'>&#128172; 249</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='190' data-hn-time='1776629349'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='261' data-hn-time='1776679235'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/20/top_stories_04202026#story-47827259'>Stop trying to engineer your way out of listening to people</a>
- <a class='hn-top-story-link' href='https://ashley.rolfmore.com/stop-trying-to-engineer-your-way-out-of-listening-to-people/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/20/top_stories_04202026#story-47832222'>NSA is using Anthropic's Mythos despite blacklist</a>
+ <a class='hn-top-story-link' href='https://www.axios.com/2026/04/19/nsa-anthropic-mythos-pentagon' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>停止用工程手段回避倾听他人</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.6</span> <span class='hn-top-story-score'>&#9650; 190</span> <span class='hn-top-story-comments'>&#128172; 75</span> <span class='hn-top-story-tag'>Design</span> <span class='hn-top-story-tag'>Culture</span></div>
+<div class='hn-top-story-zh'>NSA 尽管在黑名单中仍使用 Anthropic 的 Mythos</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.3</span> <span class='hn-top-story-score'>&#9650; 261</span> <span class='hn-top-story-comments'>&#128172; 213</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='90' data-hn-time='1776646600'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='73' data-hn-time='1776691643'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/20/top_stories_04202026#story-47829178'>Claude Token Counter, now with model comparisons</a>
- <a class='hn-top-story-link' href='https://simonwillison.net/2026/Apr/20/claude-token-counts/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/20/top_stories_04202026#story-47834025'>U.S. banks may soon collect citizenship data from customers</a>
+ <a class='hn-top-story-link' href='https://www.cnbc.com/2026/04/15/banks-citizenship-data-collection-customer-accounts.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Claude Token Counter，现在支持模型对比</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.6</span> <span class='hn-top-story-score'>&#9650; 90</span> <span class='hn-top-story-comments'>&#128172; 30</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>美国银行或将开始收集客户公民身份信息</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.4</span> <span class='hn-top-story-score'>&#9650; 73</span> <span class='hn-top-story-comments'>&#128172; 66</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='29' data-hn-time='1776661543'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='112' data-hn-time='1776687819'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/20/top_stories_04202026#story-47830575'>Stripe's Payment APIs: the first 10 years (2020)</a>
- <a class='hn-top-story-link' href='https://stripe.dev/blog/payment-api-design' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/20/top_stories_04202026#story-47833247'>Atlassian Enables Default Data Collection to Train AI</a>
+ <a class='hn-top-story-link' href='https://letsdatascience.com/news/atlassian-enables-default-data-collection-to-train-ai-f71343d8' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Stripe 的支付 API：自 2020 年起的前十年</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.4</span> <span class='hn-top-story-score'>&#9650; 29</span> <span class='hn-top-story-comments'>&#128172; 7</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>Atlassian 启用默认数据收集以训练 AI</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.4</span> <span class='hn-top-story-score'>&#9650; 112</span> <span class='hn-top-story-comments'>&#128172; 29</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='197' data-hn-time='1776620643'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='152' data-hn-time='1776679480'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/20/top_stories_04202026#story-47826100'>The Bromine Chokepoint</a>
- <a class='hn-top-story-link' href='https://warontherocks.com/cogs-of-war/the-bromine-chokepoint-how-strife-in-the-middle-east-could-halt-production-of-the-worlds-memory-chips/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/20/top_stories_04202026#story-47832248'>M 7.4 earthquake – 100 km ENE of Miyako, Japan</a>
+ <a class='hn-top-story-link' href='https://earthquake.usgs.gov/earthquakes/eventpage/us6000sri7/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>溴资源成为全球记忆芯片生产的瓶颈</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.2</span> <span class='hn-top-story-score'>&#9650; 197</span> <span class='hn-top-story-comments'>&#128172; 99</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>日本宫古以东约100公里发生7.4级地震</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.3</span> <span class='hn-top-story-score'>&#9650; 152</span> <span class='hn-top-story-comments'>&#128172; 66</span> <span class='hn-top-story-tag'>Science</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='216' data-hn-time='1776613720'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='37' data-hn-time='1776692557'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/20/top_stories_04202026#story-47825160'>Turtle WoW classic server announces shutdown after Blizzard wins injunction</a>
- <a class='hn-top-story-link' href='https://www.pcgamer.com/games/world-of-warcraft/turtle-wow-classic-server-announces-shutdown-after-blizzard-wins-injunction/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/20/top_stories_04202026#story-47834213'>Ask HN: How to solve the cold start problem for a two-sided marketplace?</a>
+ <a class='hn-top-story-link' href='https://news.ycombinator.com/item?id=47834213' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>在暴雪胜诉禁令后 Turtle WoW 经典服务器宣布关闭</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.1</span> <span class='hn-top-story-score'>&#9650; 216</span> <span class='hn-top-story-comments'>&#128172; 185</span> <span class='hn-top-story-tag'>Gaming</span></div>
+<div class='hn-top-story-zh'>Ask HN：如何解决双边市场的冷启动问题？</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 37</span> <span class='hn-top-story-comments'>&#128172; 47</span> <span class='hn-top-story-tag'>Startups</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -168,7 +168,7 @@ Your browser does not support the audio element.
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 17 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-04-20 <span class="hn-row-sep">·</span> 50 stories <span class="hn-row-sep">·</span> 1 days</span>
+<span class='hn-week-meta'>2026-04-20 <span class="hn-row-sep">·</span> 77 stories <span class="hn-row-sep">·</span> 1 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -177,7 +177,7 @@ Your browser does not support the audio element.
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/04/20/top_stories_04202026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> Hardware <b>15</b> <span class="hn-row-sep">·</span> Programming <b>12</b></span>
+<span class='hn-row-detail'>All <b>77</b> <span class="hn-row-sep">·</span> Hardware <b>20</b> <span class="hn-row-sep">·</span> Programming <b>18</b></span>
 </a>
 </div>
 </div>
