@@ -20,7 +20,7 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='743' data-hn-time='1776717572'>
+<div class='hn-top-story-item' data-hn-score='1427' data-hn-time='1776717572'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -28,43 +28,43 @@ Sort:
  <a class='hn-top-story-link' href='https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>约翰·特诺斯将任苹果公司 CEO</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 63</span> <span class='hn-top-story-score'>&#9650; 743</span> <span class='hn-top-story-comments'>&#128172; 372</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 22</span> <span class='hn-top-story-score'>&#9650; 1427</span> <span class='hn-top-story-comments'>&#128172; 718</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='254' data-hn-time='1776716353'>
+<div class='hn-top-story-item' data-hn-score='1068' data-hn-time='1776692485'>
 <span class='hn-top-story-rank'>2</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/20/top_stories_04202026#story-47839951'>AI Resistance: some recent anti-AI stuff that’s worth discussing</a>
- <a class='hn-top-story-link' href='https://stephvee.ca/blog/artificial%20intelligence/ai-resistance-is-growing/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>AI 抵抗：一些值得讨论的近期反 AI 动向</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 18</span> <span class='hn-top-story-score'>&#9650; 254</span> <span class='hn-top-story-comments'>&#128172; 235</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Politics</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='520' data-hn-time='1776705838'>
-<span class='hn-top-story-rank'>3</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/20/top_stories_04202026#story-47837611'>At long last, InfoWars is ours</a>
- <a class='hn-top-story-link' href='https://theonion.com/at-long-last-infowars-is-ours/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>InfoWars 终于落入我们手中</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 15</span> <span class='hn-top-story-score'>&#9650; 520</span> <span class='hn-top-story-comments'>&#128172; 253</span> <span class='hn-top-story-tag'>Culture</span> <span class='hn-top-story-tag'>Politics</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='834' data-hn-time='1776692485'>
-<span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/04/20/top_stories_04202026#story-47834195'>All phones sold in the EU to have replaceable batteries from 2027</a>
  <a class='hn-top-story-link' href='https://www.theolivepress.es/spain-news/2026/04/20/eu-to-force-replaceable-batteries-in-phones-and-tablets-from-2027/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>到2027年，欧盟销售的所有手机将配备可更换电池</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 834</span> <span class='hn-top-story-comments'>&#128172; 704</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.5</span> <span class='hn-top-story-score'>&#9650; 1068</span> <span class='hn-top-story-comments'>&#128172; 887</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='507' data-hn-time='1776698893'>
+<div class='hn-top-story-item' data-hn-score='336' data-hn-time='1776716353'>
+<span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/20/top_stories_04202026#story-47839951'>AI Resistance: some recent anti-AI stuff that’s worth discussing</a>
+ <a class='hn-top-story-link' href='https://stephvee.ca/blog/artificial%20intelligence/ai-resistance-is-growing/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>AI 抵抗：一些值得讨论的近期反 AI 动向</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.9</span> <span class='hn-top-story-score'>&#9650; 336</span> <span class='hn-top-story-comments'>&#128172; 330</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Politics</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='520' data-hn-time='1776705838'>
+<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/20/top_stories_04202026#story-47837611'>At long last, InfoWars is ours</a>
+ <a class='hn-top-story-link' href='https://theonion.com/at-long-last-infowars-is-ours/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>InfoWars 终于落入我们手中</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.9</span> <span class='hn-top-story-score'>&#9650; 520</span> <span class='hn-top-story-comments'>&#128172; 253</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Culture</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='617' data-hn-time='1776698893'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -72,62 +72,62 @@ Sort:
  <a class='hn-top-story-link' href='https://www.kimi.com/blog/kimi-k2-6' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Kimi K2.6：推进开源编码</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.4</span> <span class='hn-top-story-score'>&#9650; 507</span> <span class='hn-top-story-comments'>&#128172; 256</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.5</span> <span class='hn-top-story-score'>&#9650; 617</span> <span class='hn-top-story-comments'>&#128172; 327</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='126' data-hn-time='1776715655'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='222' data-hn-time='1776720052'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/20/top_stories_04202026#story-47839835'>F-35 is built for the wrong war</a>
- <a class='hn-top-story-link' href='https://warontherocks.com/cogs-of-war/the-f-35-is-a-masterpiece-built-for-the-wrong-war/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/20/top_stories_04202026#story-47840980'>OpenAI ad partner now selling ChatGPT ad placements based on “prompt relevance”</a>
+ <a class='hn-top-story-link' href='https://www.adweek.com/media/exclusive-leaked-deck-reveals-stackadapts-playbook-for-chatgpt-ads/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>F-35：为错误的战争打造的杰作</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.4</span> <span class='hn-top-story-score'>&#9650; 126</span> <span class='hn-top-story-comments'>&#128172; 157</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>OpenAI 广告合作伙伴现依据“提示相关性”销售 ChatGPT 广告位</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 222</span> <span class='hn-top-story-comments'>&#128172; 105</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='482' data-hn-time='1776693934'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='94' data-hn-time='1776732487'>
 <span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/20/top_stories_04202026#story-47843194'>How to make a fast dynamic language interpreter</a>
+ <a class='hn-top-story-link' href='https://zef-lang.dev/implementation' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>如何打造高效的动态语言解释器</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.7</span> <span class='hn-top-story-score'>&#9650; 94</span> <span class='hn-top-story-comments'>&#128172; 9</span> <span class='hn-top-story-tag'>Programming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='574' data-hn-time='1776693934'>
+<span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/04/20/top_stories_04202026#story-47834565'>Qwen3.6-Max-Preview: Smarter, Sharper, Still Evolving</a>
  <a class='hn-top-story-link' href='https://qwen.ai/blog?id=qwen3.6-max-preview' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Qwen3.6-Max 预览版：更智能、更敏锐，仍在进化</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.0</span> <span class='hn-top-story-score'>&#9650; 482</span> <span class='hn-top-story-comments'>&#128172; 243</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 574</span> <span class='hn-top-story-comments'>&#128172; 303</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='53' data-hn-time='1776720052'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/20/top_stories_04202026#story-47840980'>OpenAI ad partner now selling ChatGPT ad placements based on "prompt relevance"</a>
- <a class='hn-top-story-link' href='https://www.adweek.com/media/exclusive-leaked-deck-reveals-stackadapts-playbook-for-chatgpt-ads/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>OpenAI 广告合作伙伴现依据“提示相关性”销售 ChatGPT 广告位</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.2</span> <span class='hn-top-story-score'>&#9650; 53</span> <span class='hn-top-story-comments'>&#128172; 13</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='260' data-hn-time='1776702865'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='181' data-hn-time='1776720730'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/20/top_stories_04202026#story-47836730'>We accepted surveillance as default</a>
- <a class='hn-top-story-link' href='https://vivianvoss.net/blog/why-we-accepted-surveillance' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/20/top_stories_04202026#story-47841129'>Jujutsu megamerges for fun and profit</a>
+ <a class='hn-top-story-link' href='https://isaaccorbrey.com/notes/jujutsu-megamerges-for-fun-and-profit' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>我们把监控视为默认</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.1</span> <span class='hn-top-story-score'>&#9650; 260</span> <span class='hn-top-story-comments'>&#128172; 110</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>咒术大并购：为了乐趣与利润</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 181</span> <span class='hn-top-story-comments'>&#128172; 63</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='128' data-hn-time='1776710782'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='232' data-hn-time='1776715655'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/20/top_stories_04202026#story-47838788'>We got 207 tok/s with Qwen3.5-27B on an RTX 3090</a>
- <a class='hn-top-story-link' href='https://github.com/Luce-Org/lucebox-hub' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/20/top_stories_04202026#story-47839835'>F-35 is built for the wrong war</a>
+ <a class='hn-top-story-link' href='https://warontherocks.com/cogs-of-war/the-f-35-is-a-masterpiece-built-for-the-wrong-war/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>在 RTX 3090 上用 Qwen3.5-27B 实现 207 tok/s</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.3</span> <span class='hn-top-story-score'>&#9650; 128</span> <span class='hn-top-story-comments'>&#128172; 31</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>F-35：为错误的战争打造的杰作</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 232</span> <span class='hn-top-story-comments'>&#128172; 472</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -177,7 +177,7 @@ Your browser does not support the audio element.
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/04/20/top_stories_04202026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>24</b> <span class="hn-row-sep">·</span> Hardware <b>23</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>30</b> <span class="hn-row-sep">·</span> AI <b>24</b></span>
 </a>
 </div>
 </div>
