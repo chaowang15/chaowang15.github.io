@@ -20,7 +20,7 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='716' data-hn-time='1776794434'>
+<div class='hn-top-story-item' data-hn-score='1043' data-hn-time='1776794434'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -28,84 +28,84 @@ Sort:
  <a class='hn-top-story-link' href='https://frame.work/laptop13pro' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Framework Laptop 13 Pro：模块化可维修笔记本</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 24</span> <span class='hn-top-story-score'>&#9650; 716</span> <span class='hn-top-story-comments'>&#128172; 409</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 1043</span> <span class='hn-top-story-comments'>&#128172; 548</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='225' data-hn-time='1776805384'>
+<div class='hn-top-story-item' data-hn-score='414' data-hn-time='1776809598'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/21/top_stories_04212026#story-47854477'>Claude Code removed from Anthropic's Pro plan</a>
- <a class='hn-top-story-link' href='https://claude.com/pricing' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/21/top_stories_04212026#story-47855293'>SpaceX says it has agreement to acquire Cursor for $60B</a>
+ <a class='hn-top-story-link' href='https://twitter.com/spacex/status/2046713419978453374' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Anthropic 将 Claude Code 从 Pro 计划中移除</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 24</span> <span class='hn-top-story-score'>&#9650; 225</span> <span class='hn-top-story-comments'>&#128172; 139</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>SpaceX宣布以60亿美元收购 Cursor 的协议</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.8</span> <span class='hn-top-story-score'>&#9650; 414</span> <span class='hn-top-story-comments'>&#128172; 524</span> <span class='hn-top-story-tag'>Space</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='150' data-hn-time='1776802900'>
+<div class='hn-top-story-item' data-hn-score='156' data-hn-time='1776820869'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/21/top_stories_04212026#story-47854051'>I don't want your PRs anymore</a>
- <a class='hn-top-story-link' href='https://dpc.pw/posts/i-dont-want-your-prs-anymore/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/21/top_stories_04212026#story-47857477'>San Diego rents declined following surge in supply</a>
+ <a class='hn-top-story-link' href='https://www.kpbs.org/news/economy/2026/03/27/san-diego-rents-declined-more-than-19-of-nations-top-20-markets-following-surge-in-supply' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>我再也不想要你的 PR 了</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 150</span> <span class='hn-top-story-comments'>&#128172; 87</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>圣地亚哥租金在供应激增后下降</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.5</span> <span class='hn-top-story-score'>&#9650; 156</span> <span class='hn-top-story-comments'>&#128172; 111</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='768' data-hn-time='1776769496'>
+<div class='hn-top-story-item' data-hn-score='431' data-hn-time='1776805384'>
 <span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/21/top_stories_04212026#story-47854477'>Claude Code to be removed from Anthropic's Pro plan?</a>
+ <a class='hn-top-story-link' href='https://bsky.app/profile/edzitron.com/post/3mjzxwfx3qs2a' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Anthropic 将 Claude Code 从 Pro 计划中移除？</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.2</span> <span class='hn-top-story-score'>&#9650; 431</span> <span class='hn-top-story-comments'>&#128172; 422</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='597' data-hn-time='1776797400'>
+<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/21/top_stories_04212026#story-47852835'>ChatGPT Images 2.0</a>
+ <a class='hn-top-story-link' href='https://openai.com/index/introducing-chatgpt-images-2-0/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>ChatGPT 图像 2.0</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.9</span> <span class='hn-top-story-score'>&#9650; 597</span> <span class='hn-top-story-comments'>&#128172; 502</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='63' data-hn-time='1776826180'>
+<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/21/top_stories_04212026#story-47858246'>FBI looks into dead or missing scientists tied to NASA, Blue Origin, SpaceX</a>
+ <a class='hn-top-story-link' href='https://fortune.com/2026/04/21/scientists-disappear-die-nasa-space-blue-origin-spacex/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>FBI 调查与 NASA/Blue Origin/SpaceX 相关的死者或失踪科学家</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.3</span> <span class='hn-top-story-score'>&#9650; 63</span> <span class='hn-top-story-comments'>&#128172; 9</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Space</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='885' data-hn-time='1776769496'>
+<span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/04/21/top_stories_04212026#story-47847179'>Laws of Software Engineering</a>
  <a class='hn-top-story-link' href='https://lawsofsoftwareengineering.com' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>软件工程法则</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.1</span> <span class='hn-top-story-score'>&#9650; 768</span> <span class='hn-top-story-comments'>&#128172; 386</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 885</span> <span class='hn-top-story-comments'>&#128172; 443</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='222' data-hn-time='1776791675'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/21/top_stories_04212026#story-47851634'>The Vercel breach: OAuth attack exposes risk in platform environment variables</a>
- <a class='hn-top-story-link' href='https://www.trendmicro.com/en_us/research/26/d/vercel-breach-oauth-supply-chain.html' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Vercel 事件暴露：OAuth 攻击暴露环境变量风险</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.2</span> <span class='hn-top-story-score'>&#9650; 222</span> <span class='hn-top-story-comments'>&#128172; 85</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='183' data-hn-time='1776793239'>
-<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='409' data-hn-time='1776793239'>
+<span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/04/21/top_stories_04212026#story-47851948'>Meta to start capturing employee mouse movements, keystrokes for AI training</a>
  <a class='hn-top-story-link' href='https://www.reuters.com/sustainability/boards-policy-regulation/meta-start-capturing-employee-mouse-movements-keystrokes-ai-training-data-2026-04-21/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Meta 将开始捕获员工鼠标移动与按键用于 AI 训练数据</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.7</span> <span class='hn-top-story-score'>&#9650; 183</span> <span class='hn-top-story-comments'>&#128172; 142</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='71' data-hn-time='1776803337'>
-<span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/21/top_stories_04212026#story-47854125'>California has more money than projected after admin miscalculated state budget</a>
- <a class='hn-top-story-link' href='https://www.kcra.com/article/california-more-money-than-projected-newsom-miscalculated-budget/71056376' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>加州预算因行政计算失误而多出资金</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.6</span> <span class='hn-top-story-score'>&#9650; 71</span> <span class='hn-top-story-comments'>&#128172; 34</span> <span class='hn-top-story-tag'>Finance</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='174' data-hn-time='1776792830'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/21/top_stories_04212026#story-47851885'>Britannica11.org – a structured edition of the 1911 Encyclopædia Britannica</a>
- <a class='hn-top-story-link' href='https://britannica11.org/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Britannica11.org：1911 年版《大英百科全书》的结构化版本</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.2</span> <span class='hn-top-story-score'>&#9650; 174</span> <span class='hn-top-story-comments'>&#128172; 80</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Education</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 409</span> <span class='hn-top-story-comments'>&#128172; 325</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
 <div class='hn-top-story-item hn-top-story-extra' data-hn-score='2056' data-hn-time='1776717572'>
@@ -116,18 +116,18 @@ Sort:
  <a class='hn-top-story-link' href='https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>约翰·特诺斯将任苹果公司 CEO</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.1</span> <span class='hn-top-story-score'>&#9650; 2056</span> <span class='hn-top-story-comments'>&#128172; 1163</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 2056</span> <span class='hn-top-story-comments'>&#128172; 1163</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='115' data-hn-time='1776797400'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='288' data-hn-time='1776791675'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/21/top_stories_04212026#story-47852835'>ChatGPT Images 2.0</a>
- <a class='hn-top-story-link' href='https://openai.com/index/introducing-chatgpt-images-2-0/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/21/top_stories_04212026#story-47851634'>The Vercel breach: OAuth attack exposes risk in platform environment variables</a>
+ <a class='hn-top-story-link' href='https://www.trendmicro.com/en_us/research/26/d/vercel-breach-oauth-supply-chain.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>ChatGPT 图像 2.0</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.0</span> <span class='hn-top-story-score'>&#9650; 115</span> <span class='hn-top-story-comments'>&#128172; 110</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>Vercel 事件暴露：OAuth 攻击暴露环境变量风险</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 288</span> <span class='hn-top-story-comments'>&#128172; 105</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -177,7 +177,7 @@ Your browser does not support the audio element.
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/04/21/top_stories_04212026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>27</b> <span class="hn-row-sep">·</span> Programming <b>26</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>27</b> <span class="hn-row-sep">·</span> Programming <b>24</b></span>
 </a>
 </div>
 </div>
