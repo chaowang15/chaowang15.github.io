@@ -4,23 +4,139 @@
     "source": "https://news.ycombinator.com/",
     "api": "https://github.com/HackerNews/API",
     "count_requested": 50,
-    "count_written": 69,
-    "reused_same_day": 29,
+    "count_written": 84,
+    "reused_same_day": 34,
     "reused_cross_day": 0,
-    "new_llm_enriched": 20,
-    "scrape_time_display": "08:53, April 23, 2026 (PDT)",
+    "new_llm_enriched": 15,
+    "scrape_time_display": "12:03, April 23, 2026 (PDT)",
     "timezone": "America/Los_Angeles",
     "date_dir": "2026/04/23",
     "content_date": "2026-04-23",
-    "run_time_local": "08:53, April 23, 2026 (PDT)",
-    "run_time_utc": "2026-04-23 15:53:20 UTC",
+    "run_time_local": "12:03, April 23, 2026 (PDT)",
+    "run_time_utc": "2026-04-23 19:03:30 UTC",
     "incremental": true,
     "stories_max": 100,
-    "hot_score_time_utc": "2026-04-23 15:54:24 UTC"
+    "hot_score_time_utc": "2026-04-23 19:05:10 UTC"
   },
   "items": [
     {
-      "title_en": "Bitwarden CLI Compromised in Ongoing Checkmarx Supply Chain Campaign",
+      "title_en": "GPT-5.5",
+      "url": "https://openai.com/index/introducing-gpt-5-5/",
+      "title_zh": "GPT-5.5 发布",
+      "created_display": "Created: Apr 23, 2026 / 11:01 PT",
+      "image_url": null,
+      "summary_en": "OpenAI unveils GPT-5.5, the latest mid-cycle upgrade in the GPT-5 family. It emphasizes faster inference, safer defaults, and enhanced developer controls for production deployments, signaling another step in the rapid evolution of foundation models.",
+      "summary_zh": "OpenAI 发布了 GPT-5.5，作为 GPT-5 线的中期升级。新版本强调更快的推理与更安全的默认设置，并为开发者提供更丰富的部署控制，再次推动大型语言模型的迭代速度。",
+      "hn": {
+        "id": 47879092,
+        "type": "story",
+        "by": "rd",
+        "score": 381,
+        "descendants": 137,
+        "time": 1776967299,
+        "comments_url": "https://news.ycombinator.com/item?id=47879092"
+      },
+      "hot_score": 50.79,
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title_en": "An update on recent Claude Code quality reports",
+      "url": "https://www.anthropic.com/engineering/april-23-postmortem",
+      "title_zh": "Claude Code 质量更新",
+      "created_display": "Created: Apr 23, 2026 / 10:48 PT",
+      "image_url": "https://cdn.sanity.io/images/4zrzovbb/website/3f522820d47355885631ebda60e5d1f3e5c0fbc2-2000x1050.heif",
+      "summary_en": "Anthropic provides an update on Claude Code quality, sharing metrics, fixes, and ongoing efforts after recent reports. The update highlights remaining challenges in code-generation reliability and the team's approach to testing and guardrails.",
+      "summary_zh": "Anthropic 发布 Claude Code 质量更新，披露关键指标、已完成的修复以及后续改进计划。报告强调代码生成的可靠性挑战仍在，并介绍团队加强测试和安全措施的措施。",
+      "hn": {
+        "id": 47878905,
+        "type": "story",
+        "by": "mfiguiere",
+        "score": 205,
+        "descendants": 116,
+        "time": 1776966518,
+        "comments_url": "https://news.ycombinator.com/item?id=47878905"
+      },
+      "hot_score": 24.1,
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title_en": "French government agency confirms breach as hacker offers to sell data",
+      "url": "https://www.bleepingcomputer.com/news/security/french-govt-agency-confirms-breach-as-hacker-offers-to-sell-data/",
+      "title_zh": "法国政府机构遭遇数据泄露：黑客提出出售数据",
+      "created_display": "Created: Apr 23, 2026 / 08:59 PT",
+      "image_url": "https://www.bleepstatic.com/content/hl-images/2026/04/21/Titres.jpg",
+      "summary_en": "A French government agency confirms a data breach; a hacker is publicly offering to sell the stolen data. The incident highlights the risk to sensitive citizen data and the ongoing commodification of breached information.",
+      "summary_zh": "法国政府机构确认遭遇数据泄露，攻击者公开提出出售被盗数据。事件暴露了对公民敏感信息的风险，同时凸显被盗数据买卖的普遍性及持续威胁。",
+      "hn": {
+        "id": 47877366,
+        "type": "story",
+        "by": "robtherobber",
+        "score": 293,
+        "descendants": 101,
+        "time": 1776959995,
+        "comments_url": "https://news.ycombinator.com/item?id=47877366"
+      },
+      "hot_score": 15.62,
+      "tags": [
+        "Security",
+        "Privacy",
+        "Politics"
+      ]
+    },
+    {
+      "title_en": "'Hairdryer used to trick weather sensor' to win Polymarket bet",
+      "url": "https://www.telegraph.co.uk/business/2026/04/23/hairdryer-used-trick-weather-sensor-34000-polymarket-bet/",
+      "title_zh": "用吹风机欺骗天气传感器赢得 Polymarket 赌注",
+      "created_display": "Created: Apr 23, 2026 / 10:01 PT",
+      "image_url": "https://www.telegraph.co.uk/content/dam/briefs/2026/04/23/TELEMMGLPICT000449701987_17769343097120_trans_NvBQzQNjv4BqqVzuuqpFlyLIwiB6NTmJwSX5rhseiWKOo9p9OQ-ymek.jpeg?impolicy=OG-Standard",
+      "summary_en": "A hairdryer trick fooled a weather sensor to win a Polymarket bet, illustrating how sensory data and external feeds can be gamed in prediction markets.",
+      "summary_zh": "一位玩家用吹风机干扰天气传感器，从而在 Polymarket 上赢得赌注。这一事件暴露了外部传感数据在预测市场中的易被利用性与安全风险。",
+      "hn": {
+        "id": 47878208,
+        "type": "story",
+        "by": "zdw",
+        "score": 183,
+        "descendants": 181,
+        "time": 1776963661,
+        "comments_url": "https://news.ycombinator.com/item?id=47878208"
+      },
+      "hot_score": 14.55,
+      "tags": [
+        "Security",
+        "Data"
+      ]
+    },
+    {
+      "title_en": "Palantir Employees Are Starting to Wonder If They're the Bad Guys",
+      "url": "https://www.wired.com/story/palantir-employees-are-starting-to-wonder-if-theyre-the-bad-guys/",
+      "title_zh": "Palantir 员工开始质疑自己是否在做坏事",
+      "created_display": "Created: Apr 23, 2026 / 10:30 PT",
+      "image_url": "https://media.wired.com/photos/69d3c62396de4781bbc4cf6e/191:100/w_1280,c_limit/GettyImages-2268833968.jpg",
+      "summary_en": "Palantir employees are starting to question whether their work contributes to harmful surveillance and wrongdoing. As Palantir expands government-facing analytics, staff wrestle with ethical concerns about surveillance, data ethics, and public accountability.",
+      "summary_zh": "Palantir 员工在公司日益扩张的政府数据分析工作中，开始质疑这是否在助长监控与潜在的滥用。伦理、数据治理与公共问责成为内部讨论的焦点。",
+      "hn": {
+        "id": 47878633,
+        "type": "story",
+        "by": "pavel_lishin",
+        "score": 142,
+        "descendants": 93,
+        "time": 1776965405,
+        "comments_url": "https://news.ycombinator.com/item?id=47878633"
+      },
+      "hot_score": 14.16,
+      "tags": [
+        "Privacy",
+        "Culture",
+        "Data",
+        "Politics"
+      ]
+    },
+    {
+      "title_en": "Bitwarden CLI compromised in ongoing Checkmarx supply chain campaign",
       "url": "https://socket.dev/blog/bitwarden-cli-compromised",
       "title_zh": "Bitwarden CLI 在持续的 Checkmarx 供应链攻击中被妥协",
       "created_display": "Created: Apr 23, 2026 / 07:17 PT",
@@ -31,15 +147,63 @@
         "id": 47876043,
         "type": "story",
         "by": "tosh",
-        "score": 155,
-        "descendants": 65,
+        "score": 422,
+        "descendants": 202,
         "time": 1776953828,
         "comments_url": "https://news.ycombinator.com/item?id=47876043"
       },
-      "hot_score": 15.19,
       "tags": [
-        "Security"
+        "Security",
+        "Open Source"
+      ],
+      "hot_score": 13.36
+    },
+    {
+      "title_en": "If America's so rich, how'd it get so sad?",
+      "url": "https://www.derekthompson.org/p/if-americas-so-rich-howd-it-get-so",
+      "title_zh": "美国这么富有，怎会变得如此悲伤？",
+      "created_display": "Created: Apr 23, 2026 / 09:05 PT",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!gAKe!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F16200edd-4e29-4729-8d58-4eefbab120d8_1260x893.png",
+      "summary_en": "Derek Thompson argues that America's wealth hasn't translated into happiness due to inequality, social fragmentation, and policy choices; the piece connects economic growth with wellbeing and the impact of technology like AI.",
+      "summary_zh": "德里克·汤普森认为美国的繁荣并未带来相应的幸福感，原因在于不平等、社会分化和政策选择。文章探讨经济增长、社会福祉之间的错配，以及技术（包括 AI）对这种关系的影响。",
+      "hn": {
+        "id": 47877429,
+        "type": "story",
+        "by": "momentmaker",
+        "score": 209,
+        "descendants": 393,
+        "time": 1776960330,
+        "comments_url": "https://news.ycombinator.com/item?id=47877429"
+      },
+      "hot_score": 11.5,
+      "tags": [
+        "Politics",
+        "Culture",
+        "AI"
       ]
+    },
+    {
+      "title_en": "To Protect and Swerve: NYPD Cop Has 547 Speeding Tickets",
+      "url": "https://nyc.streetsblog.org/2026/04/23/to-protect-and-swerve-nypd-cop-has-527-speeding-tickets-yet-remains-on-the-force",
+      "title_zh": "为保护与规避：一名 NYPD 警员有 547 张超速罚单",
+      "created_display": "Created: Apr 23, 2026 / 08:08 PT",
+      "image_url": "https://nyc.streetsblog.org/wp-content/uploads/sites/9/2026/04/GIOVANSANTI-Greg-Mango-with-filter2.jpg",
+      "summary_en": "An NYPD officer with hundreds of speeding tickets remains on the force, illustrating tensions around accountability, disciplinary processes, and policing culture. The case amplifies questions about privilege, risk, and public trust in law enforcement.",
+      "summary_zh": "一名 NYPD 警员累积了数百张超速罚单却仍在岗位，该事件暴露了问责机制、执法文化以及警务透明度的问题。引发关于特权、风险与公众信任的讨论。",
+      "hn": {
+        "id": 47876647,
+        "type": "story",
+        "by": "greedo",
+        "score": 172,
+        "descendants": 111,
+        "time": 1776956934,
+        "comments_url": "https://news.ycombinator.com/item?id=47876647"
+      },
+      "tags": [
+        "Politics",
+        "Culture"
+      ],
+      "hot_score": 6.93
     },
     {
       "title_en": "Investigation uncovers two sophisticated telecom surveillance campaigns",
@@ -53,16 +217,153 @@
         "id": 47874814,
         "type": "story",
         "by": "mentalgear",
-        "score": 278,
-        "descendants": 86,
+        "score": 342,
+        "descendants": 118,
         "time": 1776946323,
         "comments_url": "https://news.ycombinator.com/item?id=47874814"
       },
-      "hot_score": 12.05,
       "tags": [
-        "Privacy",
-        "Security"
+        "Security",
+        "Privacy"
+      ],
+      "hot_score": 6.69
+    },
+    {
+      "title_en": "Incident with multple GitHub services",
+      "url": "https://www.githubstatus.com/incidents/myrbk7jvvs6p",
+      "title_zh": "GitHub 多项服务故障事件",
+      "created_display": "Created: Apr 23, 2026 / 09:21 PT",
+      "image_url": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png",
+      "summary_en": "GitHub reports an incident affecting multiple services, impacting developers' workflows. The incident underscores the fragility of cloud‑hosted DevOps tools and the importance of robust incident response and contingency planning.",
+      "summary_zh": "GitHub 因多项服务出现故障，影响开发者工作流。这起事件凸显云端开发工具的脆弱性以及健全的应急响应和备份计划的重要性。",
+      "hn": {
+        "id": 47877644,
+        "type": "story",
+        "by": "bwannasek",
+        "score": 106,
+        "descendants": 56,
+        "time": 1776961315,
+        "comments_url": "https://news.ycombinator.com/item?id=47877644"
+      },
+      "hot_score": 6.43,
+      "tags": [
+        "DevOps",
+        "Programming"
       ]
+    },
+    {
+      "title_en": "I am building a cloud",
+      "url": "https://crawshaw.io/blog/building-a-cloud",
+      "title_zh": "我在打造一个云",
+      "created_display": "Created: Apr 22, 2026 / 21:44 PT",
+      "image_url": null,
+      "summary_en": "A personal cloud infrastructure is explored from scratch, detailing architectures, tooling, and practical tradeoffs. It weighs self-hosted storage, compute, and networking against public cloud tradeoffs, offering actionable lessons for readers considering building their own cloud.",
+      "summary_zh": "本文记录从零开始打造个人云端基础设施的过程，探讨存储、计算与网络的权衡以及提高可靠性的设计要点。作者分享了在自建云与公有云之间的取舍，并给出可操作的经验教训。",
+      "hn": {
+        "id": 47872324,
+        "type": "story",
+        "by": "bumbledraven",
+        "score": 864,
+        "descendants": 437,
+        "time": 1776919459,
+        "comments_url": "https://news.ycombinator.com/item?id=47872324"
+      },
+      "tags": [
+        "DevOps"
+      ],
+      "hot_score": 5.65
+    },
+    {
+      "title_en": "Alberta startup sells no-tech tractors for half price",
+      "url": "https://wheelfront.com/this-alberta-startup-sells-no-tech-tractors-for-half-price/",
+      "title_zh": "阿尔伯塔初创以半价销售无科技拖拉机",
+      "created_display": "Created: Apr 22, 2026 / 09:29 PT",
+      "image_url": null,
+      "summary_en": "An Alberta startup is selling traditional, no-tech tractors at half the price of modern models, targeting farmers who value simplicity and repairability. By removing electronics, they cut upfront costs and maintenance headaches, challenging mainstream ag-tech pricing and support models.",
+      "summary_zh": "一家阿尔伯塔初创企业以半价销售无科技的拖拉机，瞄准看重简单与易修的农民。去除电子系统后，制造与维护成本下降，这一做法可能影响主流农业科技的定价和售后模式。",
+      "hn": {
+        "id": 47865868,
+        "type": "story",
+        "by": "Kaibeezy",
+        "score": 2073,
+        "descendants": 709,
+        "time": 1776875365,
+        "comments_url": "https://news.ycombinator.com/item?id=47865868"
+      },
+      "tags": [
+        "Startups"
+      ],
+      "hot_score": 4.95
+    },
+    {
+      "title_en": "MeshCore development team splits over trademark dispute and AI-generated code",
+      "url": "https://blog.meshcore.io/2026/04/23/the-split",
+      "title_zh": "MeshCore 开发团队因商标纠纷与 AI 生成代码分裂",
+      "created_display": "Created: Apr 23, 2026 / 09:55 PT",
+      "image_url": "https://blog.meshcore.io/assets/images/icon.png",
+      "summary_en": "MeshCore's dev team splits amid a trademark dispute and debates over AI-generated code, highlighting tensions between IP ownership and the governance of machine-generated outputs. This quarrel signals how legal questions around branding and code provenance can reshape internal teams and project direction.",
+      "summary_zh": "MeshCore 的开发团队因商标争议与对 AI 生成代码的治理分歧而分裂，反映出知识产权归属与机器生成内容管理之间的紧张关系。此事或将影响团队组织与项目走向，揭示企业需要尽早就品牌与代码来源达成共识。",
+      "hn": {
+        "id": 47878117,
+        "type": "story",
+        "by": "wielebny",
+        "score": 53,
+        "descendants": 29,
+        "time": 1776963313,
+        "comments_url": "https://news.ycombinator.com/item?id=47878117"
+      },
+      "hot_score": 3.99,
+      "tags": [
+        "Legal",
+        "AI"
+      ]
+    },
+    {
+      "title_en": "Show HN: Honker – Postgres NOTIFY/LISTEN Semantics for SQLite",
+      "url": "https://github.com/russellromney/honker",
+      "title_zh": "Honker：SQLite 实现 Postgres NOTIFY/LISTEN 语义",
+      "created_display": "Created: Apr 23, 2026 / 04:53 PT",
+      "image_url": "https://opengraph.githubassets.com/06f24fe7bae4ecc67429ed8fdda67108db8902c2722ac84353ff9b411f871053/russellromney/honker",
+      "summary_en": "Honker brings Postgres NOTIFY/LISTEN semantics to SQLite, enabling real-time event signaling without a full Postgres server. It demonstrates how lightweight, embedded databases can emulate cross-database messaging patterns, useful for event-driven UIs and local apps.",
+      "summary_zh": "Honker 将 PostgreSQL 的 LISTEN/NOTIFY 实时通知语义带到 SQLite，使嵌入式应用能够在不依赖完整 Postgres 的情况下实现事件驱动通信。它为本地应用提供了轻量级的事件总线，适合实现实时 UI 更新等场景。",
+      "hn": {
+        "id": 47874647,
+        "type": "story",
+        "by": "russellthehippo",
+        "score": 189,
+        "descendants": 26,
+        "time": 1776945191,
+        "comments_url": "https://news.ycombinator.com/item?id=47874647"
+      },
+      "tags": [
+        "Show HN",
+        "Data"
+      ],
+      "hot_score": 3.46
+    },
+    {
+      "title_en": "Raylib v6.0",
+      "url": "https://github.com/raysan5/raylib/releases/tag/6.0",
+      "title_zh": "Raylib 6.0 正式发布",
+      "created_display": "Created: Apr 23, 2026 / 05:16 PT",
+      "image_url": "https://opengraph.githubassets.com/0ced67c6358522b6db8a616b36e431bf8c9aa30cab10aeadbce505ac56079579/raysan5/raylib/releases/tag/6.0",
+      "summary_en": "Raylib 6.0 brings a major update with new features, expanded platform support, and API refinements that streamline small-game development and education workflows. The release emphasizes accessibility for newcomers while offering more power for seasoned builders.",
+      "summary_zh": "Raylib 6.0 发布，带来新特性、平台支持扩展和 API 的改进，降低小型游戏开发与教育场景的门槛，同时为有经验的开发者提供更多能力。",
+      "hn": {
+        "id": 47874854,
+        "type": "story",
+        "by": "rydgel",
+        "score": 171,
+        "descendants": 25,
+        "time": 1776946576,
+        "comments_url": "https://news.ycombinator.com/item?id=47874854"
+      },
+      "tags": [
+        "Programming",
+        "Open Source",
+        "Education"
+      ],
+      "hot_score": 3.38
     },
     {
       "title_en": "US Department of Justice has officially reclassified cannabis as less dangerous",
@@ -81,127 +382,32 @@
         "time": 1776951468,
         "comments_url": "https://news.ycombinator.com/item?id=47875629"
       },
-      "hot_score": 8.48,
-      "tags": [
-        "Business",
-        "Legal",
-        "Politics"
-      ]
-    },
-    {
-      "title_en": "I am building a cloud",
-      "url": "https://crawshaw.io/blog/building-a-cloud",
-      "title_zh": "我在打造一个云",
-      "created_display": "Created: Apr 22, 2026 / 21:44 PT",
-      "image_url": null,
-      "summary_en": "A personal cloud infrastructure is explored from scratch, detailing architectures, tooling, and practical tradeoffs. It weighs self-hosted storage, compute, and networking against public cloud tradeoffs, offering actionable lessons for readers considering building their own cloud.",
-      "summary_zh": "本文记录从零开始打造个人云端基础设施的过程，探讨存储、计算与网络的权衡以及提高可靠性的设计要点。作者分享了在自建云与公有云之间的取舍，并给出可操作的经验教训。",
-      "hn": {
-        "id": 47872324,
-        "type": "story",
-        "by": "bumbledraven",
-        "score": 741,
-        "descendants": 385,
-        "time": 1776919459,
-        "comments_url": "https://news.ycombinator.com/item?id=47872324"
-      },
-      "tags": [
-        "DevOps"
-      ],
-      "hot_score": 7.15
-    },
-    {
-      "title_en": "Alberta startup sells no-tech tractors for half price",
-      "url": "https://wheelfront.com/this-alberta-startup-sells-no-tech-tractors-for-half-price/",
-      "title_zh": "阿尔伯塔初创以半价销售无科技拖拉机",
-      "created_display": "Created: Apr 22, 2026 / 09:29 PT",
-      "image_url": null,
-      "summary_en": "An Alberta startup is selling traditional, no-tech tractors at half the price of modern models, targeting farmers who value simplicity and repairability. By removing electronics, they cut upfront costs and maintenance headaches, challenging mainstream ag-tech pricing and support models.",
-      "summary_zh": "一家阿尔伯塔初创企业以半价销售无科技的拖拉机，瞄准看重简单与易修的农民。去除电子系统后，制造与维护成本下降，这一做法可能影响主流农业科技的定价和售后模式。",
-      "hn": {
-        "id": 47865868,
-        "type": "story",
-        "by": "Kaibeezy",
-        "score": 1989,
-        "descendants": 673,
-        "time": 1776875365,
-        "comments_url": "https://news.ycombinator.com/item?id=47865868"
-      },
-      "tags": [
-        "Startups",
-        "Hardware"
-      ],
-      "hot_score": 5.88
-    },
-    {
-      "title_en": "Show HN: Honker – Postgres NOTIFY/LISTEN Semantics for SQLite",
-      "url": "https://github.com/russellromney/honker",
-      "title_zh": "Honker：SQLite 实现 Postgres NOTIFY/LISTEN 语义",
-      "created_display": "Created: Apr 23, 2026 / 04:53 PT",
-      "image_url": "https://opengraph.githubassets.com/06f24fe7bae4ecc67429ed8fdda67108db8902c2722ac84353ff9b411f871053/russellromney/honker",
-      "summary_en": "Honker brings Postgres NOTIFY/LISTEN semantics to SQLite, enabling real-time event signaling without a full Postgres server. It demonstrates how lightweight, embedded databases can emulate cross-database messaging patterns, useful for event-driven UIs and local apps.",
-      "summary_zh": "Honker 将 PostgreSQL 的 LISTEN/NOTIFY 实时通知语义带到 SQLite，使嵌入式应用能够在不依赖完整 Postgres 的情况下实现事件驱动通信。它为本地应用提供了轻量级的事件总线，适合实现实时 UI 更新等场景。",
-      "hn": {
-        "id": 47874647,
-        "type": "story",
-        "by": "russellthehippo",
-        "score": 126,
-        "descendants": 20,
-        "time": 1776945191,
-        "comments_url": "https://news.ycombinator.com/item?id=47874647"
-      },
-      "hot_score": 4.94,
-      "tags": [
-        "Show HN",
-        "Programming",
-        "Open Source",
-        "Data"
-      ]
-    },
-    {
-      "title_en": "Raylib v6.0",
-      "url": "https://github.com/raysan5/raylib/releases/tag/6.0",
-      "title_zh": "Raylib 6.0 正式发布",
-      "created_display": "Created: Apr 23, 2026 / 05:16 PT",
-      "image_url": "https://opengraph.githubassets.com/0ced67c6358522b6db8a616b36e431bf8c9aa30cab10aeadbce505ac56079579/raysan5/raylib/releases/tag/6.0",
-      "summary_en": "Raylib 6.0 brings a major update with new features, expanded platform support, and API refinements that streamline small-game development and education workflows. The release emphasizes accessibility for newcomers while offering more power for seasoned builders.",
-      "summary_zh": "Raylib 6.0 发布，带来新特性、平台支持扩展和 API 的改进，降低小型游戏开发与教育场景的门槛，同时为有经验的开发者提供更多能力。",
-      "hn": {
-        "id": 47874854,
-        "type": "story",
-        "by": "rydgel",
-        "score": 102,
-        "descendants": 10,
-        "time": 1776946576,
-        "comments_url": "https://news.ycombinator.com/item?id=47874854"
-      },
-      "hot_score": 4.49,
-      "tags": [
-        "Programming",
-        "Gaming",
-        "Education"
-      ]
-    },
-    {
-      "title_en": "To Protect and Swerve: NYPD Cop Has 547 Speeding Tickets",
-      "url": "https://nyc.streetsblog.org/2026/04/23/to-protect-and-swerve-nypd-cop-has-527-speeding-tickets-yet-remains-on-the-force",
-      "title_zh": "为保护与规避：一名 NYPD 警员有 547 张超速罚单",
-      "created_display": "Created: Apr 23, 2026 / 08:08 PT",
-      "image_url": "https://nyc.streetsblog.org/wp-content/uploads/sites/9/2026/04/GIOVANSANTI-Greg-Mango-with-filter2.jpg",
-      "summary_en": "An NYPD officer with hundreds of speeding tickets remains on the force, illustrating tensions around accountability, disciplinary processes, and policing culture. The case amplifies questions about privilege, risk, and public trust in law enforcement.",
-      "summary_zh": "一名 NYPD 警员累积了数百张超速罚单却仍在岗位，该事件暴露了问责机制、执法文化以及警务透明度的问题。引发关于特权、风险与公众信任的讨论。",
-      "hn": {
-        "id": 47876647,
-        "type": "story",
-        "by": "greedo",
-        "score": 27,
-        "descendants": 13,
-        "time": 1776956934,
-        "comments_url": "https://news.ycombinator.com/item?id=47876647"
-      },
-      "hot_score": 4.19,
+      "hot_score": 3.12,
       "tags": [
         "Politics",
+        "Business"
+      ]
+    },
+    {
+      "title_en": "People Do Not Yearn for Automation",
+      "url": "https://www.theverge.com/podcast/917029/software-brain-ai-backlash-databases-automation",
+      "title_zh": "人们并不渴望自动化",
+      "created_display": "Created: Apr 23, 2026 / 10:36 PT",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/VRG_DCD_Software_Brain.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+      "summary_en": "The Verge podcast argues that people do not yearn for automation; instead, they seek control and meaningful work, with AI debates focusing on autonomy, job design, and societal impact.",
+      "summary_zh": "这一集播客认为人们并不渴望普遍的自动化，而是追求掌控感和有意义的工作。讨论聚焦自动化对工作设计、自主性与社会影响的权衡。",
+      "hn": {
+        "id": 47878737,
+        "type": "story",
+        "by": "icco",
+        "score": 28,
+        "descendants": 12,
+        "time": 1776965783,
+        "comments_url": "https://news.ycombinator.com/item?id=47878737"
+      },
+      "hot_score": 2.86,
+      "tags": [
+        "AI",
         "Culture"
       ]
     },
@@ -217,8 +423,8 @@
         "id": 47868867,
         "type": "story",
         "by": "cdrnsf",
-        "score": 740,
-        "descendants": 175,
+        "score": 801,
+        "descendants": 179,
         "time": 1776889651,
         "comments_url": "https://news.ycombinator.com/item?id=47868867"
       },
@@ -226,7 +432,100 @@
         "Privacy",
         "Security"
       ],
-      "hot_score": 2.97
+      "hot_score": 2.5
+    },
+    {
+      "title_en": "We found a stable Firefox identifier linking all your private Tor identities",
+      "url": "https://fingerprint.com/blog/firefox-tor-indexeddb-privacy-vulnerability/",
+      "title_zh": "发现 Firefox 的稳定标识符可连接你所有的 Tor 身份",
+      "created_display": "Created: Apr 22, 2026 / 10:35 PT",
+      "image_url": "https://fingerprint.com/static/893bf56cdf5a22443c3b3ace0bb862df/blog_firefox_vulnerability.jpg",
+      "summary_en": "Researchers found a persistent Firefox identifier can link a user's private Tor identities across sessions, undermining anonymity. The finding underscores how browser storage features can erode privacy in privacy-focused tooling and calls for mitigations.",
+      "summary_zh": "研究人员发现 Firefox 的持久标识符可在会话之间关联用户的 Tor 身份，削弱匿名性。这一发现揭示了浏览器存储机制对隐私工具构成的潜在威胁，并需要相应缓解措施。",
+      "hn": {
+        "id": 47866697,
+        "type": "story",
+        "by": "danpinto",
+        "score": 872,
+        "descendants": 263,
+        "time": 1776879303,
+        "comments_url": "https://news.ycombinator.com/item?id=47866697"
+      },
+      "tags": [
+        "Privacy",
+        "Security",
+        "Web"
+      ],
+      "hot_score": 2.23
+    },
+    {
+      "title_en": "Middle Eastern News Sites Are U.S. Government Propaganda Ops",
+      "url": "https://theintercept.com/2026/04/20/pentagon-middle-eastern-news-propaganda-iran/",
+      "title_zh": "中东新闻网站被美国政府宣传行动所驱动？",
+      "created_display": "Created: Apr 23, 2026 / 11:20 PT",
+      "image_url": "https://theintercept.com/wp-content/uploads/2026/04/Propaganda-sites.jpg?fit=2000%2C1000&w=1200&h=800",
+      "summary_en": "The Intercept reports that some Middle Eastern news sites function as propaganda outlets for U.S. government messaging; the piece examines tools, funding, and implications for press freedom.",
+      "summary_zh": "据报道，部分中东新闻网站被视为美国政府宣传渠道，揭示资金与工具来源及对新闻自由的潜在影响。",
+      "hn": {
+        "id": 47879386,
+        "type": "story",
+        "by": "robtherobber",
+        "score": 14,
+        "descendants": 2,
+        "time": 1776968413,
+        "comments_url": "https://news.ycombinator.com/item?id=47879386"
+      },
+      "hot_score": 2.11,
+      "tags": [
+        "Politics",
+        "Culture"
+      ]
+    },
+    {
+      "title_en": "Qwen3.6-27B: Flagship-Level Coding in a 27B Dense Model",
+      "url": "https://qwen.ai/blog?id=qwen3.6-27b",
+      "title_zh": "Qwen3.6-27B：27B密集模型的旗舰级编码能力",
+      "created_display": "Created: Apr 22, 2026 / 06:19 PT",
+      "image_url": "https://img.alicdn.com/imgextra/i1/O1CN013ltlI61OTOnTStXfj_!!6000000001706-55-tps-330-327.svg",
+      "summary_en": "Qwen3.6-27B demonstrates flagship-level coding capabilities in a compact 27-billion-parameter model, suggesting strong performance on programming tasks without massive scale. The result highlights progress in efficient, accessible model sizes for developers.",
+      "summary_zh": "Qwen3.6-27B 在仅27亿参数的紧凑模型上展现旗舰级编码能力，表明在编程任务上已经具备出色性能，而无需大规模模型。此成果凸显了在高效、易获得的模型规模上实现进步。",
+      "hn": {
+        "id": 47863217,
+        "type": "story",
+        "by": "mfiguiere",
+        "score": 929,
+        "descendants": 431,
+        "time": 1776863998,
+        "comments_url": "https://news.ycombinator.com/item?id=47863217"
+      },
+      "tags": [
+        "AI",
+        "Programming"
+      ],
+      "hot_score": 1.84
+    },
+    {
+      "title_en": "Windows 9x Subsystem for Linux",
+      "url": "https://social.hails.org/@hailey/116446826733136456",
+      "title_zh": "面向 Windows 9x 的 Linux 子系统",
+      "created_display": "Created: Apr 22, 2026 / 02:52 PT",
+      "image_url": "https://social.hails.org/system/media_attachments/files/116/446/788/929/856/640/original/51e9df0c2c78e05c.png",
+      "summary_en": "An experimental Linux compatibility layer aims to run Linux userland on Windows 9x-era systems. It demonstrates the ongoing appeal of cross-OS compatibility, even in retro environments, and offers insight into how modern tooling could be adapted for older platforms.",
+      "summary_zh": "一个实验性 Linux 兼容层尝试在 Windows 95/98 等旧系统上运行 Linux 用户空间。它体现了跨操作系统兼容性的持续吸引力，并为将来在老平台上应用现代工具提供了洞见。",
+      "hn": {
+        "id": 47861270,
+        "type": "story",
+        "by": "sohkamyung",
+        "score": 982,
+        "descendants": 236,
+        "time": 1776851572,
+        "comments_url": "https://news.ycombinator.com/item?id=47861270"
+      },
+      "tags": [
+        "Programming",
+        "Open Source"
+      ],
+      "hot_score": 1.61
     },
     {
       "title_en": "Spam in conversational replies to blog posts",
@@ -245,80 +544,34 @@
         "time": 1776945025,
         "comments_url": "https://news.ycombinator.com/item?id=47874631"
       },
-      "hot_score": 2.84,
+      "hot_score": 1.33,
       "tags": [
-        "Security"
+        "Security",
+        "Privacy"
       ]
     },
     {
-      "title_en": "We found a stable Firefox identifier linking all your private Tor identities",
-      "url": "https://fingerprint.com/blog/firefox-tor-indexeddb-privacy-vulnerability/",
-      "title_zh": "发现 Firefox 的稳定标识符可连接你所有的 Tor 身份",
-      "created_display": "Created: Apr 22, 2026 / 10:35 PT",
-      "image_url": "https://fingerprint.com/static/893bf56cdf5a22443c3b3ace0bb862df/blog_firefox_vulnerability.jpg",
-      "summary_en": "Researchers found a persistent Firefox identifier can link a user's private Tor identities across sessions, undermining anonymity. The finding underscores how browser storage features can erode privacy in privacy-focused tooling and calls for mitigations.",
-      "summary_zh": "研究人员发现 Firefox 的持久标识符可在会话之间关联用户的 Tor 身份，削弱匿名性。这一发现揭示了浏览器存储机制对隐私工具构成的潜在威胁，并需要相应缓解措施。",
+      "title_en": "Arch Linux Now Has a Bit-for-Bit Reproducible Docker Image",
+      "url": "https://antiz.fr/blog/archlinux-now-has-a-reproducible-docker-image/",
+      "title_zh": "Arch Linux 现已提供逐位可重现的 Docker 镜像",
+      "created_display": "Created: Apr 22, 2026 / 18:59 PT",
+      "image_url": "https://antiz.fr/images/pfp.jpg",
+      "summary_en": "Arch Linux now ships a bit-for-bit reproducible Docker image, enabling deterministic builds for CI and debugging. This reduces non-determinism in container creation and helps developers reproduce environments exactly.",
+      "summary_zh": "Arch Linux 现已提供逐位可重现的 Docker 镜像，使构建过程在 CI 和调试中具备可重复性。这样可消除镜像创建中的随机差异，帮助开发者精准重现运行环境。",
       "hn": {
-        "id": 47866697,
+        "id": 47871519,
         "type": "story",
-        "by": "danpinto",
-        "score": 827,
-        "descendants": 242,
-        "time": 1776879303,
-        "comments_url": "https://news.ycombinator.com/item?id=47866697"
-      },
-      "tags": [
-        "Privacy",
-        "Security",
-        "Web"
-      ],
-      "hot_score": 2.64
-    },
-    {
-      "title_en": "Qwen3.6-27B: Flagship-Level Coding in a 27B Dense Model",
-      "url": "https://qwen.ai/blog?id=qwen3.6-27b",
-      "title_zh": "Qwen3.6-27B：27B密集模型的旗舰级编码能力",
-      "created_display": "Created: Apr 22, 2026 / 06:19 PT",
-      "image_url": "https://img.alicdn.com/imgextra/i1/O1CN013ltlI61OTOnTStXfj_!!6000000001706-55-tps-330-327.svg",
-      "summary_en": "Qwen3.6-27B demonstrates flagship-level coding capabilities in a compact 27-billion-parameter model, suggesting strong performance on programming tasks without massive scale. The result highlights progress in efficient, accessible model sizes for developers.",
-      "summary_zh": "Qwen3.6-27B 在仅27亿参数的紧凑模型上展现旗舰级编码能力，表明在编程任务上已经具备出色性能，而无需大规模模型。此成果凸显了在高效、易获得的模型规模上实现进步。",
-      "hn": {
-        "id": 47863217,
-        "type": "story",
-        "by": "mfiguiere",
-        "score": 907,
-        "descendants": 421,
-        "time": 1776863998,
-        "comments_url": "https://news.ycombinator.com/item?id=47863217"
-      },
-      "tags": [
-        "AI",
-        "Programming"
-      ],
-      "hot_score": 2.17
-    },
-    {
-      "title_en": "Windows 9x Subsystem for Linux",
-      "url": "https://social.hails.org/@hailey/116446826733136456",
-      "title_zh": "面向 Windows 9x 的 Linux 子系统",
-      "created_display": "Created: Apr 22, 2026 / 02:52 PT",
-      "image_url": "https://social.hails.org/system/media_attachments/files/116/446/788/929/856/640/original/51e9df0c2c78e05c.png",
-      "summary_en": "An experimental Linux compatibility layer aims to run Linux userland on Windows 9x-era systems. It demonstrates the ongoing appeal of cross-OS compatibility, even in retro environments, and offers insight into how modern tooling could be adapted for older platforms.",
-      "summary_zh": "一个实验性 Linux 兼容层尝试在 Windows 95/98 等旧系统上运行 Linux 用户空间。它体现了跨操作系统兼容性的持续吸引力，并为将来在老平台上应用现代工具提供了洞见。",
-      "hn": {
-        "id": 47861270,
-        "type": "story",
-        "by": "sohkamyung",
-        "score": 975,
-        "descendants": 233,
-        "time": 1776851572,
-        "comments_url": "https://news.ycombinator.com/item?id=47861270"
+        "by": "maxloh",
+        "score": 247,
+        "descendants": 87,
+        "time": 1776909548,
+        "comments_url": "https://news.ycombinator.com/item?id=47871519"
       },
       "tags": [
         "Open Source",
-        "Programming"
+        "DevOps"
       ],
-      "hot_score": 1.9
+      "hot_score": 1.22
     },
     {
       "title_en": "Writing a C Compiler, in Zig (2025)",
@@ -332,14 +585,38 @@
         "id": 47873694,
         "type": "story",
         "by": "tosh",
-        "score": 71,
-        "descendants": 22,
+        "score": 100,
+        "descendants": 33,
         "time": 1776936047,
         "comments_url": "https://news.ycombinator.com/item?id=47873694"
       },
-      "hot_score": 1.47,
       "tags": [
         "Programming"
+      ],
+      "hot_score": 1.18
+    },
+    {
+      "title_en": "Canonical Releases Ubuntu 26.04 LTS Resolute Raccoon",
+      "url": "https://ubuntu.com/blog/canonical-releases-ubuntu-26-04-lts-resolute-raccoon",
+      "title_zh": "Canonical 发布 Ubuntu 26.04 LTS Resolute Raccoon",
+      "created_display": "Created: Apr 23, 2026 / 10:25 PT",
+      "image_url": "https://ubuntu.com/wp-content/uploads/3181/Ubuntu-26.04-LTS-Desktop.png",
+      "summary_en": "Canonical releases Ubuntu 26.04 LTS 'Resolute Raccoon,' a long-term support release with updated kernel, desktop, and security features, signaling stability for enterprises and enthusiasts.",
+      "summary_zh": "Canonical 发布 Ubuntu 26.04 LTS（Resolute Raccoon），提供长期支持、更新的内核、桌面环境和安全特性，面向企业及爱好者的稳定性需求。",
+      "hn": {
+        "id": 47878560,
+        "type": "story",
+        "by": "l2dy",
+        "score": 13,
+        "descendants": 1,
+        "time": 1776965137,
+        "comments_url": "https://news.ycombinator.com/item?id=47878560"
+      },
+      "hot_score": 1.16,
+      "tags": [
+        "Open Source",
+        "Business",
+        "Security"
       ]
     },
     {
@@ -354,17 +631,15 @@
         "id": 47872452,
         "type": "story",
         "by": "zdw",
-        "score": 127,
-        "descendants": 92,
+        "score": 165,
+        "descendants": 110,
         "time": 1776921245,
         "comments_url": "https://news.ycombinator.com/item?id=47872452"
       },
       "tags": [
-        "Politics",
-        "Legal",
         "AI"
       ],
-      "hot_score": 1.3
+      "hot_score": 1.13
     },
     {
       "title_en": "Over-editing refers to a model modifying code beyond what is necessary",
@@ -378,39 +653,16 @@
         "id": 47866913,
         "type": "story",
         "by": "pella",
-        "score": 391,
-        "descendants": 232,
+        "score": 409,
+        "descendants": 236,
         "time": 1776880277,
         "comments_url": "https://news.ycombinator.com/item?id=47866913"
       },
       "tags": [
-        "AI",
-        "Programming"
+        "Programming",
+        "AI"
       ],
-      "hot_score": 1.27
-    },
-    {
-      "title_en": "Arch Linux Now Has a Bit-for-Bit Reproducible Docker Image",
-      "url": "https://antiz.fr/blog/archlinux-now-has-a-reproducible-docker-image/",
-      "title_zh": "Arch Linux 现已提供逐位可重现的 Docker 镜像",
-      "created_display": "Created: Apr 22, 2026 / 18:59 PT",
-      "image_url": "https://antiz.fr/images/pfp.jpg",
-      "summary_en": "Arch Linux now ships a bit-for-bit reproducible Docker image, enabling deterministic builds for CI and debugging. This reduces non-determinism in container creation and helps developers reproduce environments exactly.",
-      "summary_zh": "Arch Linux 现已提供逐位可重现的 Docker 镜像，使构建过程在 CI 和调试中具备可重复性。这样可消除镜像创建中的随机差异，帮助开发者精准重现运行环境。",
-      "hn": {
-        "id": 47871519,
-        "type": "story",
-        "by": "maxloh",
-        "score": 184,
-        "descendants": 64,
-        "time": 1776909548,
-        "comments_url": "https://news.ycombinator.com/item?id=47871519"
-      },
-      "tags": [
-        "DevOps",
-        "Open Source"
-      ],
-      "hot_score": 1.26
+      "hot_score": 1.07
     },
     {
       "title_en": "Website streamed live directly from a model",
@@ -424,8 +676,8 @@
         "id": 47867048,
         "type": "story",
         "by": "sethbannon",
-        "score": 366,
-        "descendants": 98,
+        "score": 406,
+        "descendants": 107,
         "time": 1776880878,
         "comments_url": "https://news.ycombinator.com/item?id=47867048"
       },
@@ -433,7 +685,30 @@
         "AI",
         "Web"
       ],
-      "hot_score": 1.21
+      "hot_score": 1.07
+    },
+    {
+      "title_en": "The end of responsive images",
+      "url": "https://piccalil.li/blog/the-end-of-responsive-images/",
+      "title_zh": "响应式图片的终结",
+      "created_display": "Created: Apr 23, 2026 / 06:17 PT",
+      "image_url": "https://piccalil.b-cdn.net/api/og-image?slug=the-end-of-responsive-images/",
+      "summary_en": "Argues that the classic responsive images paradigm is fading as container queries, per-element sizing, and modern image formats redefine how images are served. The post suggests adopting newer primitives and standards to balance performance with quality.",
+      "summary_zh": "文中认为传统的响应式图片思路正在消退，因为容器查询等新标准将重新定义图片的加载与显示。提出在实际开发中采用更新的原语和标准，以在性能和画质之间取得平衡。",
+      "hn": {
+        "id": 47875420,
+        "type": "story",
+        "by": "OuterVale",
+        "score": 38,
+        "descendants": 17,
+        "time": 1776950275,
+        "comments_url": "https://news.ycombinator.com/item?id=47875420"
+      },
+      "tags": [
+        "Design",
+        "Web"
+      ],
+      "hot_score": 0.92
     },
     {
       "title_en": "Our eighth generation TPUs: two chips for the agentic era",
@@ -453,33 +728,10 @@
         "comments_url": "https://news.ycombinator.com/item?id=47862497"
       },
       "tags": [
-        "AI",
-        "Hardware"
+        "Hardware",
+        "AI"
       ],
-      "hot_score": 0.96
-    },
-    {
-      "title_en": "The end of responsive images",
-      "url": "https://piccalil.li/blog/the-end-of-responsive-images/",
-      "title_zh": "响应式图片的终结",
-      "created_display": "Created: Apr 23, 2026 / 06:17 PT",
-      "image_url": "https://piccalil.b-cdn.net/api/og-image?slug=the-end-of-responsive-images/",
-      "summary_en": "Argues that the classic responsive images paradigm is fading as container queries, per-element sizing, and modern image formats redefine how images are served. The post suggests adopting newer primitives and standards to balance performance with quality.",
-      "summary_zh": "文中认为传统的响应式图片思路正在消退，因为容器查询等新标准将重新定义图片的加载与显示。提出在实际开发中采用更新的原语和标准，以在性能和画质之间取得平衡。",
-      "hn": {
-        "id": 47875420,
-        "type": "story",
-        "by": "OuterVale",
-        "score": 15,
-        "descendants": 6,
-        "time": 1776950275,
-        "comments_url": "https://news.ycombinator.com/item?id=47875420"
-      },
-      "hot_score": 0.89,
-      "tags": [
-        "Web",
-        "Design"
-      ]
+      "hot_score": 0.8
     },
     {
       "title_en": "Technical, cognitive, and intent debt",
@@ -493,38 +745,16 @@
         "id": 47865661,
         "type": "story",
         "by": "theorchid",
-        "score": 303,
-        "descendants": 79,
+        "score": 324,
+        "descendants": 86,
         "time": 1776874283,
         "comments_url": "https://news.ycombinator.com/item?id=47865661"
       },
       "tags": [
-        "Programming"
+        "Programming",
+        "Design"
       ],
-      "hot_score": 0.87
-    },
-    {
-      "title_en": "SteamOS now runs on every AMD handheld",
-      "url": "https://www.xda-developers.com/steamos-now-runs-on-every-amd-handheld-and-valve-didnt-even-make-a-big-deal-about-it/",
-      "title_zh": "SteamOS 现已在所有 AMD 手持设备上运行",
-      "created_display": "Created: Apr 23, 2026 / 04:35 PT",
-      "image_url": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2025/07/obsidian-steam-deck-6.jpg?w=1600&h=900&fit=crop",
-      "summary_en": "SteamOS now runs on every AMD handheld, a discovery that Valve quietly enabled across devices. This broadens Linux gaming availability on portable hardware and lowers barriers for developers targeting handheld form factors.",
-      "summary_zh": "SteamOS 现在在所有 AMD 手持设备上可用， Valve 并未做广泛宣传。此举扩大了便携硬件上的 Linux 游戏生态，可能影响独立手持市场和开发者的设备选择。",
-      "hn": {
-        "id": 47874507,
-        "type": "story",
-        "by": "SockThief",
-        "score": 25,
-        "descendants": 1,
-        "time": 1776944138,
-        "comments_url": "https://news.ycombinator.com/item?id=47874507"
-      },
-      "hot_score": 0.87,
-      "tags": [
-        "Gaming",
-        "Hardware"
-      ]
+      "hot_score": 0.76
     },
     {
       "title_en": "Scoring Show HN submissions for AI design patterns",
@@ -538,17 +768,16 @@
         "id": 47864393,
         "type": "story",
         "by": "hubraumhugo",
-        "score": 320,
+        "score": 324,
         "descendants": 231,
         "time": 1776869072,
         "comments_url": "https://news.ycombinator.com/item?id=47864393"
       },
       "tags": [
-        "Show HN",
         "AI",
         "Design"
       ],
-      "hot_score": 0.84
+      "hot_score": 0.69
     },
     {
       "title_en": "Parallel agents in Zed",
@@ -562,8 +791,8 @@
         "id": 47866750,
         "type": "story",
         "by": "ajeetdsouza",
-        "score": 262,
-        "descendants": 148,
+        "score": 268,
+        "descendants": 155,
         "time": 1776879537,
         "comments_url": "https://news.ycombinator.com/item?id=47866750"
       },
@@ -571,53 +800,29 @@
         "AI",
         "Programming"
       ],
-      "hot_score": 0.84
+      "hot_score": 0.69
     },
     {
-      "title_en": "LLM pricing has never made sense",
-      "url": "https://anderegg.ca/2026/04/22/llm-pricing-has-never-made-sense",
-      "title_zh": "LLM 定价从未讲得通",
-      "created_display": "Created: Apr 23, 2026 / 06:43 PT",
-      "image_url": "https://anderegg.ca/img/logo.png",
-      "summary_en": "The article contends that current large language model pricing lacks a coherent rationale, mixing per-token costs, inference vs training, and platform fees in confusing ways. It proposes conceptual fixes or practical guidance for builders and buyers navigating model access.",
-      "summary_zh": "文章认为当前大语言模型的定价缺乏连贯的逻辑，混合了按 token、推理/训练成本和平台费等多种维度，导致定价难以理解。提出了可能的改进思路和对开发者与买家的建议。",
+      "title_en": "The active ingredients: physical activity features linked to healthy brain aging",
+      "url": "https://link.springer.com/article/10.1186/s13195-026-01998-6",
+      "title_zh": "关键因素：身体活动与健康大脑老化的关联",
+      "created_display": "Created: Apr 23, 2026 / 10:07 PT",
+      "image_url": "https://static-content.springer.com/image/art%3A10.1186%2Fs13195-026-01998-6/MediaObjects/13195_2026_1998_Fig1_HTML.png",
+      "summary_en": "A study links specific physical-activity features to healthier brain aging, suggesting that certain movement patterns or routines correlate with cognitive health.",
+      "summary_zh": "研究发现某些身体活动特征与更健康的脑部老化相关，提示特定的运动模式可能有助于维持认知健康。",
       "hn": {
-        "id": 47875694,
+        "id": 47878324,
         "type": "story",
-        "by": "Brajeshwar",
-        "score": 11,
-        "descendants": 9,
-        "time": 1776951831,
-        "comments_url": "https://news.ycombinator.com/item?id=47875694"
+        "by": "PaulHoule",
+        "score": 9,
+        "descendants": 0,
+        "time": 1776964062,
+        "comments_url": "https://news.ycombinator.com/item?id=47878324"
       },
-      "hot_score": 0.76,
+      "hot_score": 0.67,
       "tags": [
-        "Business",
-        "Finance",
-        "AI"
-      ]
-    },
-    {
-      "title_en": "98% of all recent environmental claims can be categorized as \"greenwashing\"",
-      "url": "https://www.eurekalert.org/news-releases/1124525",
-      "title_zh": "近年环境声明的 98% 可归为绿色漂洗",
-      "created_display": "Created: Apr 23, 2026 / 04:25 PT",
-      "image_url": "https://www.eurekalert.org/images/EurekAlert-bluebg_Twitter_601X601.png",
-      "summary_en": "A new analysis argues that about 98% of recent environmental claims are greenwashing, signaling widespread misrepresentation of sustainability efforts. The piece underscores the need for verifiable metrics and stricter regulatory oversight of corporate environmental marketing.",
-      "summary_zh": "一项新研究认为近 98% 的环境声明属于绿色漂洗，揭示企业在可持续性宣传中的广泛歪曲。文章强调需要可核验的指标和更严格的监管来约束企业环境营销。",
-      "hn": {
-        "id": 47874422,
-        "type": "story",
-        "by": "robtherobber",
-        "score": 22,
-        "descendants": 16,
-        "time": 1776943531,
-        "comments_url": "https://news.ycombinator.com/item?id=47874422"
-      },
-      "hot_score": 0.73,
-      "tags": [
-        "Business",
-        "Politics"
+        "Health",
+        "Science"
       ]
     },
     {
@@ -640,7 +845,7 @@
       "tags": [
         "Energy"
       ],
-      "hot_score": 0.68
+      "hot_score": 0.56
     },
     {
       "title_en": "Ultraviolet corona discharges on treetops during storms",
@@ -662,7 +867,7 @@
       "tags": [
         "Science"
       ],
-      "hot_score": 0.6
+      "hot_score": 0.5
     },
     {
       "title_en": "Tempest vs. Tempest: The Making and Remaking of Atari's Iconic Video Game",
@@ -676,17 +881,64 @@
         "id": 47871195,
         "type": "story",
         "by": "mwenge",
-        "score": 97,
-        "descendants": 32,
+        "score": 100,
+        "descendants": 34,
         "time": 1776906152,
         "comments_url": "https://news.ycombinator.com/item?id=47871195"
       },
       "tags": [
         "Gaming",
-        "Design",
+        "Culture",
         "Hardware"
       ],
-      "hot_score": 0.59
+      "hot_score": 0.45
+    },
+    {
+      "title_en": "SteamOS now runs on every AMD handheld",
+      "url": "https://www.xda-developers.com/steamos-now-runs-on-every-amd-handheld-and-valve-didnt-even-make-a-big-deal-about-it/",
+      "title_zh": "SteamOS 现已在所有 AMD 手持设备上运行",
+      "created_display": "Created: Apr 23, 2026 / 04:35 PT",
+      "image_url": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2025/07/obsidian-steam-deck-6.jpg?w=1600&h=900&fit=crop",
+      "summary_en": "SteamOS now runs on every AMD handheld, a discovery that Valve quietly enabled across devices. This broadens Linux gaming availability on portable hardware and lowers barriers for developers targeting handheld form factors.",
+      "summary_zh": "SteamOS 现在在所有 AMD 手持设备上可用， Valve 并未做广泛宣传。此举扩大了便携硬件上的 Linux 游戏生态，可能影响独立手持市场和开发者的设备选择。",
+      "hn": {
+        "id": 47874507,
+        "type": "story",
+        "by": "SockThief",
+        "score": 25,
+        "descendants": 1,
+        "time": 1776944138,
+        "comments_url": "https://news.ycombinator.com/item?id=47874507"
+      },
+      "hot_score": 0.42,
+      "tags": [
+        "Gaming",
+        "Hardware"
+      ]
+    },
+    {
+      "title_en": "Workspace Agents in ChatGPT",
+      "url": "https://openai.com/index/introducing-workspace-agents-in-chatgpt/",
+      "title_zh": "ChatGPT 的工作区代理",
+      "created_display": "Created: Apr 22, 2026 / 10:47 PT",
+      "image_url": null,
+      "summary_en": "ChatGPT adds workspace agents to orchestrate tasks across apps from within the chat interface. This enables cross-tool automation and collaboration, with governance and privacy considerations for enterprise use.",
+      "summary_zh": "ChatGPT 增加工作区代理，可在对话界面内跨应用编排任务，推动跨工具的自动化与协作，同时需关注企业级治理与隐私。",
+      "hn": {
+        "id": 47866860,
+        "type": "story",
+        "by": "mfiguiere",
+        "score": 153,
+        "descendants": 59,
+        "time": 1776880027,
+        "comments_url": "https://news.ycombinator.com/item?id=47866860"
+      },
+      "tags": [
+        "AI",
+        "Business",
+        "Privacy"
+      ],
+      "hot_score": 0.4
     },
     {
       "title_en": "Borrow-checking without type-checking",
@@ -708,54 +960,7 @@
       "tags": [
         "Programming"
       ],
-      "hot_score": 0.56
-    },
-    {
-      "title_en": "OpenAI's response to the Axios developer tool compromise",
-      "url": "https://openai.com/index/axios-developer-tool-compromise/",
-      "title_zh": "OpenAI 对 Axios 开发者工具被入侵事件的回应",
-      "created_display": "Created: Apr 22, 2026 / 17:45 PT",
-      "image_url": null,
-      "summary_en": "OpenAI outlines measures after a security incident involving a popular developer tool from Axios, emphasizing risk mitigation, credential rotation, and monitoring. The response highlights ongoing concerns about supply-chain and third-party tooling in AI workflows.",
-      "summary_zh": "OpenAI 针对涉及 Axios 的开发者工具安全事件给出应对措施，强调风险缓释、密钥轮换与滥用监控等关键步骤，反映出在 AI 工作流中对供应链与第三方工具的持续关注。",
-      "hn": {
-        "id": 47871077,
-        "type": "story",
-        "by": "shpat",
-        "score": 85,
-        "descendants": 57,
-        "time": 1776905101,
-        "comments_url": "https://news.ycombinator.com/item?id=47871077"
-      },
-      "tags": [
-        "Security",
-        "AI"
-      ],
-      "hot_score": 0.5
-    },
-    {
-      "title_en": "Workspace Agents in ChatGPT",
-      "url": "https://openai.com/index/introducing-workspace-agents-in-chatgpt/",
-      "title_zh": "ChatGPT 的工作区代理",
-      "created_display": "Created: Apr 22, 2026 / 10:47 PT",
-      "image_url": null,
-      "summary_en": "ChatGPT adds workspace agents to orchestrate tasks across apps from within the chat interface. This enables cross-tool automation and collaboration, with governance and privacy considerations for enterprise use.",
-      "summary_zh": "ChatGPT 增加工作区代理，可在对话界面内跨应用编排任务，推动跨工具的自动化与协作，同时需关注企业级治理与隐私。",
-      "hn": {
-        "id": 47866860,
-        "type": "story",
-        "by": "mfiguiere",
-        "score": 147,
-        "descendants": 58,
-        "time": 1776880027,
-        "comments_url": "https://news.ycombinator.com/item?id=47866860"
-      },
-      "tags": [
-        "AI",
-        "Business",
-        "Privacy"
-      ],
-      "hot_score": 0.47
+      "hot_score": 0.4
     },
     {
       "title_en": "Ping-pong robot beats top-level human players",
@@ -769,8 +974,8 @@
         "id": 47864785,
         "type": "story",
         "by": "wslh",
-        "score": 156,
-        "descendants": 221,
+        "score": 175,
+        "descendants": 236,
         "time": 1776870828,
         "comments_url": "https://news.ycombinator.com/item?id=47864785"
       },
@@ -778,7 +983,53 @@
         "AI",
         "Hardware"
       ],
-      "hot_score": 0.42
+      "hot_score": 0.39
+    },
+    {
+      "title_en": "OpenAI's response to the Axios developer tool compromise",
+      "url": "https://openai.com/index/axios-developer-tool-compromise/",
+      "title_zh": "OpenAI 对 Axios 开发者工具被入侵事件的回应",
+      "created_display": "Created: Apr 22, 2026 / 17:45 PT",
+      "image_url": null,
+      "summary_en": "OpenAI outlines measures after a security incident involving a popular developer tool from Axios, emphasizing risk mitigation, credential rotation, and monitoring. The response highlights ongoing concerns about supply-chain and third-party tooling in AI workflows.",
+      "summary_zh": "OpenAI 针对涉及 Axios 的开发者工具安全事件给出应对措施，强调风险缓释、密钥轮换与滥用监控等关键步骤，反映出在 AI 工作流中对供应链与第三方工具的持续关注。",
+      "hn": {
+        "id": 47871077,
+        "type": "story",
+        "by": "shpat",
+        "score": 89,
+        "descendants": 58,
+        "time": 1776905101,
+        "comments_url": "https://news.ycombinator.com/item?id=47871077"
+      },
+      "tags": [
+        "Security",
+        "AI"
+      ],
+      "hot_score": 0.39
+    },
+    {
+      "title_en": "98% of all recent environmental claims can be categorized as \"greenwashing\"",
+      "url": "https://www.eurekalert.org/news-releases/1124525",
+      "title_zh": "近年环境声明的 98% 可归为绿色漂洗",
+      "created_display": "Created: Apr 23, 2026 / 04:25 PT",
+      "image_url": "https://www.eurekalert.org/images/EurekAlert-bluebg_Twitter_601X601.png",
+      "summary_en": "A new analysis argues that about 98% of recent environmental claims are greenwashing, signaling widespread misrepresentation of sustainability efforts. The piece underscores the need for verifiable metrics and stricter regulatory oversight of corporate environmental marketing.",
+      "summary_zh": "一项新研究认为近 98% 的环境声明属于绿色漂洗，揭示企业在可持续性宣传中的广泛歪曲。文章强调需要可核验的指标和更严格的监管来约束企业环境营销。",
+      "hn": {
+        "id": 47874422,
+        "type": "story",
+        "by": "robtherobber",
+        "score": 22,
+        "descendants": 16,
+        "time": 1776943531,
+        "comments_url": "https://news.ycombinator.com/item?id=47874422"
+      },
+      "hot_score": 0.35,
+      "tags": [
+        "Science",
+        "Politics"
+      ]
     },
     {
       "title_en": "XOR'ing a register with itself is the idiom for zeroing it out. Why not sub?",
@@ -800,7 +1051,7 @@
       "tags": [
         "Programming"
       ],
-      "hot_score": 0.36
+      "hot_score": 0.3
     },
     {
       "title_en": "New study compares growing corn for energy to solar production",
@@ -820,9 +1071,10 @@
         "comments_url": "https://news.ycombinator.com/item?id=47868063"
       },
       "tags": [
-        "Energy"
+        "Energy",
+        "Science"
       ],
-      "hot_score": 0.36
+      "hot_score": 0.29
     },
     {
       "title_en": "Surveillance Pricing: Exploiting Information Asymmetries",
@@ -842,9 +1094,57 @@
         "comments_url": "https://news.ycombinator.com/item?id=47866395"
       },
       "tags": [
-        "Privacy"
+        "Privacy",
+        "Business"
       ],
-      "hot_score": 0.35
+      "hot_score": 0.28
+    },
+    {
+      "title_en": "LLM pricing has never made sense",
+      "url": "https://anderegg.ca/2026/04/22/llm-pricing-has-never-made-sense",
+      "title_zh": "LLM 定价从未讲得通",
+      "created_display": "Created: Apr 23, 2026 / 06:43 PT",
+      "image_url": "https://anderegg.ca/img/logo.png",
+      "summary_en": "The article contends that current large language model pricing lacks a coherent rationale, mixing per-token costs, inference vs training, and platform fees in confusing ways. It proposes conceptual fixes or practical guidance for builders and buyers navigating model access.",
+      "summary_zh": "文章认为当前大语言模型的定价缺乏连贯的逻辑，混合了按 token、推理/训练成本和平台费等多种维度，导致定价难以理解。提出了可能的改进思路和对开发者与买家的建议。",
+      "hn": {
+        "id": 47875694,
+        "type": "story",
+        "by": "Brajeshwar",
+        "score": 11,
+        "descendants": 9,
+        "time": 1776951831,
+        "comments_url": "https://news.ycombinator.com/item?id=47875694"
+      },
+      "hot_score": 0.28,
+      "tags": [
+        "Business",
+        "Finance",
+        "AI"
+      ]
+    },
+    {
+      "title_en": "Your hex editor should color-code bytes",
+      "url": "https://simonomi.dev/blog/color-code-your-bytes/",
+      "title_zh": "你的十六进制编辑器应对字节进行颜色编码",
+      "created_display": "Created: Apr 21, 2026 / 02:52 PT",
+      "image_url": "https://simonomi.dev/images/color-code-your-bytes/preview.png",
+      "summary_en": "A post argues color-coding bytes in hex editors improves readability and reduces mistakes when inspecting binary data. It discusses schemes for distinguishing text vs binary regions, endianness, and pattern detection.",
+      "summary_zh": "文章主张在十六进制编辑器中对字节进行颜色编码，以提升可读性并降低读错的风险。它提出将 ASCII 区域、二进制数据、常见魔数等用不同颜色标示，以及如何辅助识别模式和字节序等细节。",
+      "hn": {
+        "id": 47846688,
+        "type": "story",
+        "by": "tobr",
+        "score": 413,
+        "descendants": 121,
+        "time": 1776765129,
+        "comments_url": "https://news.ycombinator.com/item?id=47846688"
+      },
+      "tags": [
+        "Programming",
+        "Design"
+      ],
+      "hot_score": 0.27
     },
     {
       "title_en": "Bring Your Agent to Teams",
@@ -863,11 +1163,33 @@
         "time": 1776896728,
         "comments_url": "https://news.ycombinator.com/item?id=47870108"
       },
-      "hot_score": 0.33,
+      "hot_score": 0.25,
       "tags": [
         "AI",
         "Business"
       ]
+    },
+    {
+      "title_en": "The Onion to Take over InfoWars",
+      "url": "https://www.nytimes.com/2026/04/20/business/infowars-alex-jones-the-onion.html",
+      "title_zh": "The Onion 将接管 InfoWars",
+      "created_display": "Created: Apr 20, 2026 / 18:23 PT",
+      "image_url": null,
+      "summary_en": "The Onion is set to take over InfoWars, a move that blends satire with fringe-media economics. The acquisition could reshape audience, advertising, and policy dynamics in an influential, if controversial, media space.",
+      "summary_zh": "讽刺媒体《The Onion》拟接管 InfoWars，这一举动将幽默与边缘媒体的商业生态结合起来。此类整合可能改变受众、广告以及平台政策在相关领域的格局。",
+      "hn": {
+        "id": 47843434,
+        "type": "story",
+        "by": "lxm",
+        "score": 407,
+        "descendants": 177,
+        "time": 1776734603,
+        "comments_url": "https://news.ycombinator.com/item?id=47843434"
+      },
+      "tags": [
+        "Business"
+      ],
+      "hot_score": 0.21
     },
     {
       "title_en": "Columnar Storage Is Normalization",
@@ -889,7 +1211,30 @@
       "tags": [
         "Data"
       ],
-      "hot_score": 0.25
+      "hot_score": 0.21
+    },
+    {
+      "title_en": "I spent years trying to make CSS states predictable",
+      "url": "https://tenphi.me/blog/why-i-spent-years-trying-to-make-css-states-predictable/",
+      "title_zh": "CSS 状态可预测性探索",
+      "created_display": "Created: Apr 23, 2026 / 05:37 PT",
+      "image_url": "https://tenphi.me/og/blog/why-i-spent-years-trying-to-make-css-states-predictable.png",
+      "summary_en": "I spent years trying to make CSS states predictable.",
+      "summary_zh": "作者指出 CSS 状态管理长期充满挑战，难以预测 UI 行为。文中给出模式、工具与思维模型，帮助开发者更好地控制状态变化。",
+      "hn": {
+        "id": 47875025,
+        "type": "story",
+        "by": "tenphi",
+        "score": 11,
+        "descendants": 2,
+        "time": 1776947838,
+        "comments_url": "https://news.ycombinator.com/item?id=47875025"
+      },
+      "hot_score": 0.21,
+      "tags": [
+        "Programming",
+        "Web"
+      ]
     },
     {
       "title_en": "Kernel code removals driven by LLM-created security reports",
@@ -912,29 +1257,52 @@
         "Security",
         "AI"
       ],
-      "hot_score": 0.24
+      "hot_score": 0.2
     },
     {
-      "title_en": "Your hex editor should color-code bytes",
-      "url": "https://simonomi.dev/blog/color-code-your-bytes/",
-      "title_zh": "你的十六进制编辑器应对字节进行颜色编码",
-      "created_display": "Created: Apr 21, 2026 / 02:52 PT",
-      "image_url": "https://simonomi.dev/images/color-code-your-bytes/preview.png",
-      "summary_en": "A post argues color-coding bytes in hex editors improves readability and reduces mistakes when inspecting binary data. It discusses schemes for distinguishing text vs binary regions, endianness, and pattern detection.",
-      "summary_zh": "文章主张在十六进制编辑器中对字节进行颜色编码，以提升可读性并降低读错的风险。它提出将 ASCII 区域、二进制数据、常见魔数等用不同颜色标示，以及如何辅助识别模式和字节序等细节。",
+      "title_en": "Show HN: LocalLLM – Recipes for Running the Local LLM (Need Contributors)",
+      "url": "https://locallllm.fly.dev",
+      "title_zh": "Show HN：LocalLLM——本地运行大模型的方案（征集贡献者）",
+      "created_display": "Created: Apr 23, 2026 / 08:01 PT",
+      "image_url": null,
+      "summary_en": "Show HN: LocalLLM shares recipes for running local LLMs and invites contributors to broaden tooling, benchmarks, and deployment guides.",
+      "summary_zh": "Show HN：LocalLLM 分享运行本地大型语言模型的方案，同时呼吁贡献者一起完善工具、基准与部署指南。",
       "hn": {
-        "id": 47846688,
+        "id": 47876556,
         "type": "story",
-        "by": "tobr",
-        "score": 327,
-        "descendants": 100,
-        "time": 1776765129,
-        "comments_url": "https://news.ycombinator.com/item?id=47846688"
+        "by": "Igor_Wiwi",
+        "score": 6,
+        "descendants": 1,
+        "time": 1776956484,
+        "comments_url": "https://news.ycombinator.com/item?id=47876556"
       },
-      "hot_score": 0.23,
+      "hot_score": 0.2,
       "tags": [
-        "Programming"
+        "Show HN",
+        "AI"
       ]
+    },
+    {
+      "title_en": "5x5 Pixel font for tiny screens",
+      "url": "https://maurycyz.com/projects/mcufont/",
+      "title_zh": "为超小屏幕设计的 5x5 位图字体",
+      "created_display": "Created: Apr 19, 2026 / 08:19 PT",
+      "image_url": "https://maurycyz.com/projects/mcufont/demo.png",
+      "summary_en": "A 5x5 pixel font is released for ultra-tiny screens, enabling legible UI on microcontrollers and tiny displays. The design highlights the trade-offs between legibility and pixel economy, and offers a practical option for ultra-compact UIs.",
+      "summary_zh": "推出了一款为极小屏幕设计的 5x5 位图字体，适用于微控制器和小型显示。该设计展示了清晰度与像素利用之间的权衡，并为超小型界面提供实用方案。",
+      "hn": {
+        "id": 47824943,
+        "type": "story",
+        "by": "zdw",
+        "score": 774,
+        "descendants": 151,
+        "time": 1776611968,
+        "comments_url": "https://news.ycombinator.com/item?id=47824943"
+      },
+      "tags": [
+        "Design"
+      ],
+      "hot_score": 0.19
     },
     {
       "title_en": "You don't need advice from editors on rejected manuscripts",
@@ -956,75 +1324,7 @@
       "tags": [
         "Culture"
       ],
-      "hot_score": 0.23
-    },
-    {
-      "title_en": "Approximating Hyperbolic Tangent",
-      "url": "https://jtomschroeder.com/blog/approximating-tanh/",
-      "title_zh": "近似双曲正切函数（tanh）的实现方法",
-      "created_display": "Created: Apr 22, 2026 / 16:46 PT",
-      "image_url": "https://jtomschroeder.com/processed_images/avatar.84384002e224e74f.webp",
-      "summary_en": "It surveys common approximations and their precision-speed trade-offs.",
-      "summary_zh": "文章介绍在高性能场景下近似双曲正切函数的实用方法，评估不同近似在精度与速度上的取舍，提供可直接应用的实现思路。",
-      "hn": {
-        "id": 47870709,
-        "type": "story",
-        "by": "jtomschroeder",
-        "score": 43,
-        "descendants": 5,
-        "time": 1776901598,
-        "comments_url": "https://news.ycombinator.com/item?id=47870709"
-      },
-      "tags": [
-        "Programming"
-      ],
-      "hot_score": 0.23
-    },
-    {
-      "title_en": "The Onion to Take over InfoWars",
-      "url": "https://www.nytimes.com/2026/04/20/business/infowars-alex-jones-the-onion.html",
-      "title_zh": "The Onion 将接管 InfoWars",
-      "created_display": "Created: Apr 20, 2026 / 18:23 PT",
-      "image_url": null,
-      "summary_en": "The Onion is set to take over InfoWars, a move that blends satire with fringe-media economics. The acquisition could reshape audience, advertising, and policy dynamics in an influential, if controversial, media space.",
-      "summary_zh": "讽刺媒体《The Onion》拟接管 InfoWars，这一举动将幽默与边缘媒体的商业生态结合起来。此类整合可能改变受众、广告以及平台政策在相关领域的格局。",
-      "hn": {
-        "id": 47843434,
-        "type": "story",
-        "by": "lxm",
-        "score": 407,
-        "descendants": 177,
-        "time": 1776734603,
-        "comments_url": "https://news.ycombinator.com/item?id=47843434"
-      },
-      "tags": [
-        "Culture",
-        "Business"
-      ],
-      "hot_score": 0.22
-    },
-    {
-      "title_en": "The Neon King of New Orleans",
-      "url": "https://gardenandgun.com/new-orleans-neon-king",
-      "title_zh": "新奥尔良的霓虹王",
-      "created_display": "Created: Apr 22, 2026 / 14:26 PT",
-      "image_url": "https://gardenandgun.com/wp-content/uploads/2026/04/gg0226-arts-01-1600x1067.jpg",
-      "summary_en": "A profile of a colorful local figure known as the Neon King who anchors New Orleans' neon-lit nightlife and brand. The piece threads history of signage, design, and street culture to show how a single personality can shape a city's glow and memory.",
-      "summary_zh": "文章聚焦新奥尔良一位被称为“霓虹王”的人物，如何塑造城市的霓虹夜景与文化形象。通过讲述灯光设计、街头文化与历史，展现个人魅力如何影响城市记忆。",
-      "hn": {
-        "id": 47869496,
-        "type": "story",
-        "by": "renameme",
-        "score": 51,
-        "descendants": 8,
-        "time": 1776893198,
-        "comments_url": "https://news.ycombinator.com/item?id=47869496"
-      },
-      "tags": [
-        "Culture",
-        "Design"
-      ],
-      "hot_score": 0.22
+      "hot_score": 0.19
     },
     {
       "title_en": "The Illuminated Man: an unconventional portrait of JG Ballard",
@@ -1046,52 +1346,52 @@
       "tags": [
         "Culture"
       ],
-      "hot_score": 0.21
+      "hot_score": 0.17
     },
     {
-      "title_en": "5x5 Pixel font for tiny screens",
-      "url": "https://maurycyz.com/projects/mcufont/",
-      "title_zh": "为超小屏幕设计的 5x5 位图字体",
-      "created_display": "Created: Apr 19, 2026 / 08:19 PT",
-      "image_url": "https://maurycyz.com/projects/mcufont/demo.png",
-      "summary_en": "A 5x5 pixel font is released for ultra-tiny screens, enabling legible UI on microcontrollers and tiny displays. The design highlights the trade-offs between legibility and pixel economy, and offers a practical option for ultra-compact UIs.",
-      "summary_zh": "推出了一款为极小屏幕设计的 5x5 位图字体，适用于微控制器和小型显示。该设计展示了清晰度与像素利用之间的权衡，并为超小型界面提供实用方案。",
+      "title_en": "The Neon King of New Orleans",
+      "url": "https://gardenandgun.com/new-orleans-neon-king",
+      "title_zh": "新奥尔良的霓虹王",
+      "created_display": "Created: Apr 22, 2026 / 14:26 PT",
+      "image_url": "https://gardenandgun.com/wp-content/uploads/2026/04/gg0226-arts-01-1600x1067.jpg",
+      "summary_en": "A profile of a colorful local figure known as the Neon King who anchors New Orleans' neon-lit nightlife and brand. The piece threads history of signage, design, and street culture to show how a single personality can shape a city's glow and memory.",
+      "summary_zh": "文章聚焦新奥尔良一位被称为“霓虹王”的人物，如何塑造城市的霓虹夜景与文化形象。通过讲述灯光设计、街头文化与历史，展现个人魅力如何影响城市记忆。",
       "hn": {
-        "id": 47824943,
+        "id": 47869496,
         "type": "story",
-        "by": "zdw",
-        "score": 734,
-        "descendants": 149,
-        "time": 1776611968,
-        "comments_url": "https://news.ycombinator.com/item?id=47824943"
+        "by": "renameme",
+        "score": 51,
+        "descendants": 8,
+        "time": 1776893198,
+        "comments_url": "https://news.ycombinator.com/item?id=47869496"
       },
       "tags": [
         "Design",
-        "Programming"
+        "Culture"
       ],
-      "hot_score": 0.19
+      "hot_score": 0.17
     },
     {
-      "title_en": "Flow Map Learning via Nongradient Vector Flow [pdf]",
-      "url": "https://openreview.net/pdf?id=C1bkDPqvDW",
-      "title_zh": "通过非梯度向量场进行流图学习（PDF）",
-      "created_display": "Created: Apr 22, 2026 / 19:52 PT",
-      "image_url": null,
-      "summary_en": "Presents a method for learning flow maps from vector fields using nongradient flows, with a PDF available. The approach could advance how researchers model dynamic systems, visualize flows, and infer underlying physics.",
-      "summary_zh": "介绍一种利用非梯度向量场来学习流图的方法，随文附带 PDF。此方法有望推动对动态系统的建模、流动可视化以及潜在物理规律的推断。",
+      "title_en": "Approximating Hyperbolic Tangent",
+      "url": "https://jtomschroeder.com/blog/approximating-tanh/",
+      "title_zh": "近似双曲正切函数（tanh）的实现方法",
+      "created_display": "Created: Apr 22, 2026 / 16:46 PT",
+      "image_url": "https://jtomschroeder.com/processed_images/avatar.84384002e224e74f.webp",
+      "summary_en": "It surveys common approximations and their precision-speed trade-offs.",
+      "summary_zh": "文章介绍在高性能场景下近似双曲正切函数的实用方法，评估不同近似在精度与速度上的取舍，提供可直接应用的实现思路。",
       "hn": {
-        "id": 47871800,
+        "id": 47870709,
         "type": "story",
-        "by": "E-Reverance",
-        "score": 23,
-        "descendants": 0,
-        "time": 1776912720,
-        "comments_url": "https://news.ycombinator.com/item?id=47871800"
+        "by": "jtomschroeder",
+        "score": 43,
+        "descendants": 5,
+        "time": 1776901598,
+        "comments_url": "https://news.ycombinator.com/item?id=47870709"
       },
-      "hot_score": 0.17,
       "tags": [
         "Science"
-      ]
+      ],
+      "hot_score": 0.17
     },
     {
       "title_en": "Show HN: Broccoli, one shot coding agent on the cloud",
@@ -1112,9 +1412,55 @@
       },
       "tags": [
         "Show HN",
-        "AI"
+        "AI",
+        "Programming"
       ],
-      "hot_score": 0.16
+      "hot_score": 0.13
+    },
+    {
+      "title_en": "Flow Map Learning via Nongradient Vector Flow [pdf]",
+      "url": "https://openreview.net/pdf?id=C1bkDPqvDW",
+      "title_zh": "通过非梯度向量场进行流图学习（PDF）",
+      "created_display": "Created: Apr 22, 2026 / 19:52 PT",
+      "image_url": null,
+      "summary_en": "Presents a method for learning flow maps from vector fields using nongradient flows, with a PDF available. The approach could advance how researchers model dynamic systems, visualize flows, and infer underlying physics.",
+      "summary_zh": "介绍一种利用非梯度向量场来学习流图的方法，随文附带 PDF。此方法有望推动对动态系统的建模、流动可视化以及潜在物理规律的推断。",
+      "hn": {
+        "id": 47871800,
+        "type": "story",
+        "by": "E-Reverance",
+        "score": 23,
+        "descendants": 0,
+        "time": 1776912720,
+        "comments_url": "https://news.ycombinator.com/item?id=47871800"
+      },
+      "hot_score": 0.12,
+      "tags": [
+        "Science"
+      ]
+    },
+    {
+      "title_en": "A True Life Hack: What Physical 'Life Force' Turns Biology's Wheels?",
+      "url": "https://www.quantamagazine.org/what-physical-life-force-turns-biologys-wheels-20260420/",
+      "title_zh": "真正的生命力：物理力如何驱动生物的运转？",
+      "created_display": "Created: Apr 21, 2026 / 02:55 PT",
+      "image_url": "https://www.quantamagazine.org/wp-content/uploads/2026/04/FlagellarMotors-crKristinaArmitage-Social.jpg",
+      "summary_en": "Non-equilibrium physics power biology: the article explains how energy gradients and chemical potential drive molecular motors and cellular processes. It connects physical principles to how life moves, grows, and reproduces, highlighting why physics matters to biology.",
+      "summary_zh": "本文阐释非平衡物理能量源如何推动生物机械，如分子马达与细胞过程。通过能量梯度和热力学原理，揭示生命如何获取动力、成长与繁衍。",
+      "hn": {
+        "id": 47846718,
+        "type": "story",
+        "by": "Prof_Sigmund",
+        "score": 171,
+        "descendants": 40,
+        "time": 1776765349,
+        "comments_url": "https://news.ycombinator.com/item?id=47846718"
+      },
+      "tags": [
+        "Science",
+        "Energy"
+      ],
+      "hot_score": 0.11
     },
     {
       "title_en": "OpenAI model for masking personally identifiable information (PII) in text",
@@ -1133,7 +1479,7 @@
         "time": 1776903295,
         "comments_url": "https://news.ycombinator.com/item?id=47870901"
       },
-      "hot_score": 0.14,
+      "hot_score": 0.11,
       "tags": [
         "AI",
         "Privacy"
@@ -1156,54 +1502,9 @@
         "time": 1776924102,
         "comments_url": "https://news.ycombinator.com/item?id=47872660"
       },
-      "hot_score": 0.12,
+      "hot_score": 0.08,
       "tags": [
         "Web"
-      ]
-    },
-    {
-      "title_en": "A True Life Hack: What Physical 'Life Force' Turns Biology's Wheels?",
-      "url": "https://www.quantamagazine.org/what-physical-life-force-turns-biologys-wheels-20260420/",
-      "title_zh": "真正的生命力：物理力如何驱动生物的运转？",
-      "created_display": "Created: Apr 21, 2026 / 02:55 PT",
-      "image_url": "https://www.quantamagazine.org/wp-content/uploads/2026/04/FlagellarMotors-crKristinaArmitage-Social.jpg",
-      "summary_en": "Non-equilibrium physics power biology: the article explains how energy gradients and chemical potential drive molecular motors and cellular processes. It connects physical principles to how life moves, grows, and reproduces, highlighting why physics matters to biology.",
-      "summary_zh": "本文阐释非平衡物理能量源如何推动生物机械，如分子马达与细胞过程。通过能量梯度和热力学原理，揭示生命如何获取动力、成长与繁衍。",
-      "hn": {
-        "id": 47846718,
-        "type": "story",
-        "by": "Prof_Sigmund",
-        "score": 151,
-        "descendants": 29,
-        "time": 1776765349,
-        "comments_url": "https://news.ycombinator.com/item?id=47846718"
-      },
-      "tags": [
-        "Science",
-        "Energy"
-      ],
-      "hot_score": 0.11
-    },
-    {
-      "title_en": "An MCP Server for Fastmail – National Email Day",
-      "url": "https://www.fastmail.com/blog/an-mcp-server-for-fastmail/",
-      "title_zh": "为 Fastmail 构建 MCP 服务器",
-      "created_display": "Created: Apr 22, 2026 / 17:29 PT",
-      "image_url": "https://www.fastmail.com/assets/images/2026-04-22-an-mcp-server-for-fastmail-P6NvWRK3RU-1200.png",
-      "summary_en": "Details a Fastmail MCP server, illuminating improvements to protocol handling or features for their mail service. The piece ties into National Email Day, underscoring ongoing work to enhance email infrastructure and self-hosted options.",
-      "summary_zh": "介绍用于 Fastmail 的 MCP 服务器，聚焦提升邮件协议处理与功能。文中以“全国邮箱日”为背景，强调改进邮件基础设施和自托管能力的持续努力。",
-      "hn": {
-        "id": 47870988,
-        "type": "story",
-        "by": "nmjenkins",
-        "score": 18,
-        "descendants": 7,
-        "time": 1776904155,
-        "comments_url": "https://news.ycombinator.com/item?id=47870988"
-      },
-      "hot_score": 0.1,
-      "tags": [
-        "DevOps"
       ]
     },
     {
@@ -1224,10 +1525,9 @@
         "comments_url": "https://news.ycombinator.com/item?id=47840618"
       },
       "tags": [
-        "Business",
-        "Politics"
+        "Business"
       ],
-      "hot_score": 0.08
+      "hot_score": 0.07
     },
     {
       "title_en": "The handmade beauty of Machine Age data visualizations",
@@ -1246,10 +1546,164 @@
         "time": 1776867344,
         "comments_url": "https://news.ycombinator.com/item?id=47864011"
       },
-      "hot_score": 0.08,
+      "hot_score": 0.07,
       "tags": [
         "Design",
         "Data"
+      ]
+    },
+    {
+      "title_en": "An MCP Server for Fastmail – National Email Day",
+      "url": "https://www.fastmail.com/blog/an-mcp-server-for-fastmail/",
+      "title_zh": "为 Fastmail 构建 MCP 服务器",
+      "created_display": "Created: Apr 22, 2026 / 17:29 PT",
+      "image_url": "https://www.fastmail.com/assets/images/2026-04-22-an-mcp-server-for-fastmail-P6NvWRK3RU-1200.png",
+      "summary_en": "Details a Fastmail MCP server, illuminating improvements to protocol handling or features for their mail service. The piece ties into National Email Day, underscoring ongoing work to enhance email infrastructure and self-hosted options.",
+      "summary_zh": "介绍用于 Fastmail 的 MCP 服务器，聚焦提升邮件协议处理与功能。文中以“全国邮箱日”为背景，强调改进邮件基础设施和自托管能力的持续努力。",
+      "hn": {
+        "id": 47870988,
+        "type": "story",
+        "by": "nmjenkins",
+        "score": 18,
+        "descendants": 7,
+        "time": 1776904155,
+        "comments_url": "https://news.ycombinator.com/item?id=47870988"
+      },
+      "hot_score": 0.07,
+      "tags": [
+        "DevOps"
+      ]
+    },
+    {
+      "title_en": "Highlights from Git 2.54",
+      "url": "https://github.blog/open-source/git/highlights-from-git-2-54/",
+      "title_zh": "Git 2.54 要点",
+      "created_display": "Created: Apr 20, 2026 / 10:29 PT",
+      "image_url": "https://github.blog/wp-content/uploads/2026/04/git254.png",
+      "summary_en": "Summarizes the notable changes in Git 2.54, including performance improvements, new commands, and fixes that affect everyday workflows. The piece helps developers decide whether to upgrade and how to adjust automation to leverage new features.",
+      "summary_zh": "总结了 Git 2.54 的关键变更，包括性能改进、新命令以及修复，帮助开发者评估升级并相应优化自动化流程。",
+      "hn": {
+        "id": 47837698,
+        "type": "story",
+        "by": "ingve",
+        "score": 134,
+        "descendants": 81,
+        "time": 1776706191,
+        "comments_url": "https://news.ycombinator.com/item?id=47837698"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 0.06
+    },
+    {
+      "title_en": "Isopods of the world",
+      "url": "https://isopod.site/",
+      "title_zh": "世界的等足纲动物全览",
+      "created_display": "Created: Apr 20, 2026 / 13:56 PT",
+      "image_url": null,
+      "summary_en": "A comprehensive primer on isopods, covering diversity, habitats, and notable species. It may include taxonomy, ecological roles, and interesting facts about crustaceans found in marine and terrestrial environments.",
+      "summary_zh": "对等足纲动物的多样性、栖息地与代表性物种进行了全面介绍，覆盖海洋与陆地环境中的分类与生态作用，并分享有趣的生物学细节。",
+      "hn": {
+        "id": 47840520,
+        "type": "story",
+        "by": "debesyla",
+        "score": 114,
+        "descendants": 46,
+        "time": 1776718562,
+        "comments_url": "https://news.ycombinator.com/item?id=47840520"
+      },
+      "tags": [
+        "Science"
+      ],
+      "hot_score": 0.05
+    },
+    {
+      "title_en": "An amateur historian's favorite books about the Silk Road",
+      "url": "https://bookdna.com/best-books/silk-road",
+      "title_zh": "一个业余历史学家推荐的丝绸之路书单",
+      "created_display": "Created: Apr 21, 2026 / 04:01 PT",
+      "image_url": "https://bookdna.com/best-books/silk-road/cover",
+      "summary_en": "An amateur historian curates accessible Silk Road reading, spanning archaeology, trade networks, and cross-cultural exchanges. The list helps readers understand how long-distance commerce shaped civilizations and historical narratives.",
+      "summary_zh": "这是一份业余历史学家精心挑选的丝绸之路书单，覆盖考古、贸易网络与跨文化交流。通过多学科视角，帮助读者理解远程贸易如何塑造文明。",
+      "hn": {
+        "id": 47847153,
+        "type": "story",
+        "by": "bwb",
+        "score": 74,
+        "descendants": 30,
+        "time": 1776769297,
+        "comments_url": "https://news.ycombinator.com/item?id=47847153"
+      },
+      "tags": [
+        "Culture"
+      ],
+      "hot_score": 0.05
+    },
+    {
+      "title_en": "A Renaissance gambling dispute spawned probability theory",
+      "url": "https://www.scientificamerican.com/article/how-a-renaissance-gambling-dispute-spawned-probability-theory/",
+      "title_zh": "文艺复兴赌博纠纷催生概率论",
+      "created_display": "Created: Apr 21, 2026 / 05:59 PT",
+      "image_url": "https://static.scientificamerican.com/dam/asset/eb2e8ed0-c13b-4c11-8a4c-afe23c1ed280/points-problem_graphic_leadImage.png?m=1776449332.201&w=1200",
+      "summary_en": "A historical vignette shows how a dispute over gambling odds among Renaissance mathematicians contributed to the development of probability theory. The piece connects early games of chance to foundational ideas of statistics and risk.",
+      "summary_zh": "一场文艺复兴时期关于赌博赔率的争论促进了概率论的发展。该文将早期赌博中的不确定性与统计与风险的基础思想联系起来。",
+      "hn": {
+        "id": 47848162,
+        "type": "story",
+        "by": "sohkamyung",
+        "score": 71,
+        "descendants": 11,
+        "time": 1776776399,
+        "comments_url": "https://news.ycombinator.com/item?id=47848162"
+      },
+      "tags": [
+        "Science"
+      ],
+      "hot_score": 0.05
+    },
+    {
+      "title_en": "Books are not too expensive",
+      "url": "https://www.millersbookreview.com/p/no-books-are-not-remotely-too-expensive",
+      "title_zh": "书并非太贵",
+      "created_display": "Created: Apr 20, 2026 / 08:22 PT",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!hUy8!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe114154a-203e-4f77-8eef-e876e56aff42_2048x1365.jpeg",
+      "summary_en": "Argues that books aren’t prohibitively expensive when you consider value, digital access, and libraries. It emphasizes that a healthy reading habit pays dividends and that price alone shouldn’t deter readers.",
+      "summary_zh": "作者辩称就价值、数字化获取和图书馆资源等因素来看，书籍并非昂贵。阅读的长期收益远超成本，价格不应成为读者的主要障碍。",
+      "hn": {
+        "id": 47835647,
+        "type": "story",
+        "by": "herbertl",
+        "score": 113,
+        "descendants": 166,
+        "time": 1776698528,
+        "comments_url": "https://news.ycombinator.com/item?id=47835647"
+      },
+      "tags": [
+        "Education"
+      ],
+      "hot_score": 0.04
+    },
+    {
+      "title_en": "A DIY Watch You Can Actually Wear",
+      "url": "https://www.hackster.io/news/a-diy-watch-you-can-actually-wear-8f91c2dac682",
+      "title_zh": "可穿戴的 DIY 手表",
+      "created_display": "Created: Apr 21, 2026 / 01:52 PT",
+      "image_url": "https://hackster.imgix.net/uploads/attachments/1949562/_m9gYduHJ0j.blob?auto=compress%2Cformat&w=600&h=450&fit=min",
+      "summary_en": "A DIY wearable watch project demonstrates turning off-the-shelf parts and open firmware into a functional wearable. It showcases accessible hardware hacking and could inspire others to build their own wearables.",
+      "summary_zh": "这个可穿戴 DIY 手表项目展示了如何用现成组件和开源固件组装出一块可佩戴的设备。它体现了硬件黑客的门槛正在降低，或将激发更多人尝试自制可穿戴设备。",
+      "hn": {
+        "id": 47846307,
+        "type": "story",
+        "by": "sarusso",
+        "score": 71,
+        "descendants": 40,
+        "time": 1776761553,
+        "comments_url": "https://news.ycombinator.com/item?id=47846307"
+      },
+      "hot_score": 0.04,
+      "tags": [
+        "Hardware"
       ]
     },
     {
@@ -1269,143 +1723,9 @@
         "time": 1776913999,
         "comments_url": "https://news.ycombinator.com/item?id=47871918"
       },
-      "hot_score": 0.06,
+      "hot_score": 0.04,
       "tags": [
         "AI"
-      ]
-    },
-    {
-      "title_en": "MacBook Neo and How the iPad Should Be",
-      "url": "https://craigmod.com/essays/ipad_neo/",
-      "title_zh": "MacBook Neo 与 iPad 的理想定位",
-      "created_display": "Created: Apr 22, 2026 / 21:40 PT",
-      "image_url": "https://craigmod.com/images/about/craigmod-headshot-2025-small-01.jpg",
-      "summary_en": "Craig Mod envisions MacBook Neo redefining portable computing and suggests iPad should become a more capable companion device. The piece advocates closer integration and a desktop-like workflow for iPad to blur the laptop–tablet divide.",
-      "summary_zh": "Craig Mod 提出 MacBook Neo 应重新定义便携计算，并主张 iPad 应成为更强大的协作设备。文章倡导两者更紧密的集成，为 iPad 打破笔记本与平板的界限。",
-      "hn": {
-        "id": 47872306,
-        "type": "story",
-        "by": "jen729w",
-        "score": 6,
-        "descendants": 1,
-        "time": 1776919231,
-        "comments_url": "https://news.ycombinator.com/item?id=47872306"
-      },
-      "hot_score": 0.05,
-      "tags": [
-        "Hardware"
-      ]
-    },
-    {
-      "title_en": "Books are not too expensive",
-      "url": "https://www.millersbookreview.com/p/no-books-are-not-remotely-too-expensive",
-      "title_zh": "书并非太贵",
-      "created_display": "Created: Apr 20, 2026 / 08:22 PT",
-      "image_url": "https://substackcdn.com/image/fetch/$s_!hUy8!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe114154a-203e-4f77-8eef-e876e56aff42_2048x1365.jpeg",
-      "summary_en": "Argues that books aren’t prohibitively expensive when you consider value, digital access, and libraries. It emphasizes that a healthy reading habit pays dividends and that price alone shouldn’t deter readers.",
-      "summary_zh": "作者辩称就价值、数字化获取和图书馆资源等因素来看，书籍并非昂贵。阅读的长期收益远超成本，价格不应成为读者的主要障碍。",
-      "hn": {
-        "id": 47835647,
-        "type": "story",
-        "by": "herbertl",
-        "score": 97,
-        "descendants": 133,
-        "time": 1776698528,
-        "comments_url": "https://news.ycombinator.com/item?id=47835647"
-      },
-      "hot_score": 0.04,
-      "tags": [
-        "Education",
-        "Culture"
-      ]
-    },
-    {
-      "title_en": "Highlights from Git 2.54",
-      "url": "https://github.blog/open-source/git/highlights-from-git-2-54/",
-      "title_zh": "Git 2.54 要点",
-      "created_display": "Created: Apr 20, 2026 / 10:29 PT",
-      "image_url": "https://github.blog/wp-content/uploads/2026/04/git254.png",
-      "summary_en": "Summarizes the notable changes in Git 2.54, including performance improvements, new commands, and fixes that affect everyday workflows. The piece helps developers decide whether to upgrade and how to adjust automation to leverage new features.",
-      "summary_zh": "总结了 Git 2.54 的关键变更，包括性能改进、新命令以及修复，帮助开发者评估升级并相应优化自动化流程。",
-      "hn": {
-        "id": 47837698,
-        "type": "story",
-        "by": "ingve",
-        "score": 93,
-        "descendants": 48,
-        "time": 1776706191,
-        "comments_url": "https://news.ycombinator.com/item?id=47837698"
-      },
-      "hot_score": 0.04,
-      "tags": [
-        "Programming"
-      ]
-    },
-    {
-      "title_en": "Isopods of the world",
-      "url": "https://isopod.site/",
-      "title_zh": "世界的等足纲动物全览",
-      "created_display": "Created: Apr 20, 2026 / 13:56 PT",
-      "image_url": null,
-      "summary_en": "A comprehensive primer on isopods, covering diversity, habitats, and notable species. It may include taxonomy, ecological roles, and interesting facts about crustaceans found in marine and terrestrial environments.",
-      "summary_zh": "对等足纲动物的多样性、栖息地与代表性物种进行了全面介绍，覆盖海洋与陆地环境中的分类与生态作用，并分享有趣的生物学细节。",
-      "hn": {
-        "id": 47840520,
-        "type": "story",
-        "by": "debesyla",
-        "score": 80,
-        "descendants": 36,
-        "time": 1776718562,
-        "comments_url": "https://news.ycombinator.com/item?id=47840520"
-      },
-      "hot_score": 0.04,
-      "tags": [
-        "Science"
-      ]
-    },
-    {
-      "title_en": "An amateur historian's favorite books about the Silk Road",
-      "url": "https://bookdna.com/best-books/silk-road",
-      "title_zh": "一个业余历史学家推荐的丝绸之路书单",
-      "created_display": "Created: Apr 21, 2026 / 04:01 PT",
-      "image_url": "https://bookdna.com/best-books/silk-road/cover",
-      "summary_en": "An amateur historian curates accessible Silk Road reading, spanning archaeology, trade networks, and cross-cultural exchanges. The list helps readers understand how long-distance commerce shaped civilizations and historical narratives.",
-      "summary_zh": "这是一份业余历史学家精心挑选的丝绸之路书单，覆盖考古、贸易网络与跨文化交流。通过多学科视角，帮助读者理解远程贸易如何塑造文明。",
-      "hn": {
-        "id": 47847153,
-        "type": "story",
-        "by": "bwb",
-        "score": 60,
-        "descendants": 25,
-        "time": 1776769297,
-        "comments_url": "https://news.ycombinator.com/item?id=47847153"
-      },
-      "tags": [
-        "Culture",
-        "Education"
-      ],
-      "hot_score": 0.04
-    },
-    {
-      "title_en": "A Renaissance gambling dispute spawned probability theory",
-      "url": "https://www.scientificamerican.com/article/how-a-renaissance-gambling-dispute-spawned-probability-theory/",
-      "title_zh": "文艺复兴赌博纠纷催生概率论",
-      "created_display": "Created: Apr 21, 2026 / 05:59 PT",
-      "image_url": "https://static.scientificamerican.com/dam/asset/eb2e8ed0-c13b-4c11-8a4c-afe23c1ed280/points-problem_graphic_leadImage.png?m=1776449332.201&w=1200",
-      "summary_en": "A historical vignette shows how a dispute over gambling odds among Renaissance mathematicians contributed to the development of probability theory. The piece connects early games of chance to foundational ideas of statistics and risk.",
-      "summary_zh": "一场文艺复兴时期关于赌博赔率的争论促进了概率论的发展。该文将早期赌博中的不确定性与统计与风险的基础思想联系起来。",
-      "hn": {
-        "id": 47848162,
-        "type": "story",
-        "by": "sohkamyung",
-        "score": 47,
-        "descendants": 3,
-        "time": 1776776399,
-        "comments_url": "https://news.ycombinator.com/item?id=47848162"
-      },
-      "hot_score": 0.04,
-      "tags": [
-        "Science"
       ]
     },
     {
@@ -1420,8 +1740,8 @@
         "id": 47812649,
         "type": "story",
         "by": "zdw",
-        "score": 207,
-        "descendants": 84,
+        "score": 208,
+        "descendants": 87,
         "time": 1776479217,
         "comments_url": "https://news.ycombinator.com/item?id=47812649"
       },
@@ -1449,10 +1769,31 @@
         "comments_url": "https://news.ycombinator.com/item?id=47840252"
       },
       "tags": [
-        "Programming",
-        "Open Source"
+        "Programming"
       ],
       "hot_score": 0.03
+    },
+    {
+      "title_en": "MacBook Neo and How the iPad Should Be",
+      "url": "https://craigmod.com/essays/ipad_neo/",
+      "title_zh": "MacBook Neo 与 iPad 的理想定位",
+      "created_display": "Created: Apr 22, 2026 / 21:40 PT",
+      "image_url": "https://craigmod.com/images/about/craigmod-headshot-2025-small-01.jpg",
+      "summary_en": "Craig Mod envisions MacBook Neo redefining portable computing and suggests iPad should become a more capable companion device. The piece advocates closer integration and a desktop-like workflow for iPad to blur the laptop–tablet divide.",
+      "summary_zh": "Craig Mod 提出 MacBook Neo 应重新定义便携计算，并主张 iPad 应成为更强大的协作设备。文章倡导两者更紧密的集成，为 iPad 打破笔记本与平板的界限。",
+      "hn": {
+        "id": 47872306,
+        "type": "story",
+        "by": "jen729w",
+        "score": 6,
+        "descendants": 1,
+        "time": 1776919231,
+        "comments_url": "https://news.ycombinator.com/item?id=47872306"
+      },
+      "hot_score": 0.03,
+      "tags": [
+        "Hardware"
+      ]
     },
     {
       "title_en": "The great Scouse pasty war",
@@ -1472,7 +1813,8 @@
         "comments_url": "https://news.ycombinator.com/item?id=47831085"
       },
       "tags": [
-        "Culture"
+        "Culture",
+        "Entertainment"
       ],
       "hot_score": 0.02
     },
@@ -1495,6 +1837,7 @@
       },
       "tags": [
         "Open Source",
+        "Programming",
         "Hardware"
       ],
       "hot_score": 0.01
@@ -1518,6 +1861,29 @@
       },
       "tags": [
         "Programming"
+      ],
+      "hot_score": 0.01
+    },
+    {
+      "title_en": "A History of Erasures Learning to Write Like Leylâ Erbil",
+      "url": "https://thepointmag.com/criticism/a-history-of-erasures/",
+      "title_zh": "抹去的历史：向 Leylâ Erbil 学写作",
+      "created_display": "Created: Apr 20, 2026 / 10:39 PT",
+      "image_url": "https://thepointmag.com/wp-content/uploads/2026/04/Aya_Kapi_8709.jpg",
+      "summary_en": "Explores erasures as a literary method and how to write in the style of Leylâ Erbil, a modernist Turkish author. It delves into memory, marginalization, and the politics of language, offering readers a method for engaging with erased histories.",
+      "summary_zh": "本文将抹去作为文学手法进行探讨，并尝试以 Leylâ Erbil 的写作风格进行创作。通过对记忆、边缘化与语言政治的解读，提供理解被抹去历史的路径与写作方法。",
+      "hn": {
+        "id": 47837857,
+        "type": "story",
+        "by": "lermontov",
+        "score": 25,
+        "descendants": 1,
+        "time": 1776706780,
+        "comments_url": "https://news.ycombinator.com/item?id=47837857"
+      },
+      "tags": [
+        "Culture",
+        "Politics"
       ],
       "hot_score": 0.01
     },
@@ -1564,30 +1930,6 @@
       "hot_score": 0.01,
       "tags": [
         "Business",
-        "Politics"
-      ]
-    },
-    {
-      "title_en": "A History of Erasures Learning to Write Like Leylâ Erbil",
-      "url": "https://thepointmag.com/criticism/a-history-of-erasures/",
-      "title_zh": "抹去的历史：向 Leylâ Erbil 学写作",
-      "created_display": "Created: Apr 20, 2026 / 10:39 PT",
-      "image_url": "https://thepointmag.com/wp-content/uploads/2026/04/Aya_Kapi_8709.jpg",
-      "summary_en": "Explores erasures as a literary method and how to write in the style of Leylâ Erbil, a modernist Turkish author. It delves into memory, marginalization, and the politics of language, offering readers a method for engaging with erased histories.",
-      "summary_zh": "本文将抹去作为文学手法进行探讨，并尝试以 Leylâ Erbil 的写作风格进行创作。通过对记忆、边缘化与语言政治的解读，提供理解被抹去历史的路径与写作方法。",
-      "hn": {
-        "id": 47837857,
-        "type": "story",
-        "by": "lermontov",
-        "score": 14,
-        "descendants": 0,
-        "time": 1776706780,
-        "comments_url": "https://news.ycombinator.com/item?id=47837857"
-      },
-      "hot_score": 0.01,
-      "tags": [
-        "Culture",
-        "Education",
         "Politics"
       ]
     }
