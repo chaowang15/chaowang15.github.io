@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>67</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>9715</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>66</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>65</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-04-23</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>68</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>9764</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>66</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>66</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-04-24</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,118 +20,118 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='269' data-hn-time='1776999681'>
+<div class='hn-top-story-item' data-hn-score='774' data-hn-time='1776999681'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/23/top_stories_04232026#story-47884971'>DeepSeek v4</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/24/top_stories_04242026#story-47884971'>DeepSeek v4</a>
  <a class='hn-top-story-link' href='https://api-docs.deepseek.com/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>DeepSeek v4</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 24</span> <span class='hn-top-story-score'>&#9650; 269</span> <span class='hn-top-story-comments'>&#128172; 82</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 22</span> <span class='hn-top-story-score'>&#9650; 774</span> <span class='hn-top-story-comments'>&#128172; 443</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='1205' data-hn-time='1776967299'>
+<div class='hn-top-story-item' data-hn-score='1334' data-hn-time='1776967299'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/23/top_stories_04232026#story-47879092'>GPT-5.5</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/24/top_stories_04242026#story-47879092'>GPT-5.5</a>
  <a class='hn-top-story-link' href='https://openai.com/index/introducing-gpt-5-5/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>GPT-5.5 发布</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 1205</span> <span class='hn-top-story-comments'>&#128172; 819</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.8</span> <span class='hn-top-story-score'>&#9650; 1334</span> <span class='hn-top-story-comments'>&#128172; 879</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='117' data-hn-time='1777000074'>
+<div class='hn-top-story-item' data-hn-score='174' data-hn-time='1777005517'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/23/top_stories_04232026#story-47885014'>DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence</a>
- <a class='hn-top-story-link' href='https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/24/top_stories_04242026#story-47885596'>Ubuntu 26.04</a>
+ <a class='hn-top-story-link' href='https://lwn.net/Articles/1069399/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>DeepSeek-V4：迈向高效百万标记上下文智能</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 117</span> <span class='hn-top-story-comments'>&#128172; 10</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>Ubuntu 26.04 发布</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.8</span> <span class='hn-top-story-score'>&#9650; 174</span> <span class='hn-top-story-comments'>&#128172; 91</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='803' data-hn-time='1776965405'>
+<div class='hn-top-story-item' data-hn-score='833' data-hn-time='1776965405'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/23/top_stories_04232026#story-47878633'>Palantir employees are starting to wonder if they're the bad guys</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/24/top_stories_04242026#story-47878633'>Palantir employees are starting to wonder if they're the bad guys</a>
  <a class='hn-top-story-link' href='https://www.wired.com/story/palantir-employees-are-starting-to-wonder-if-theyre-the-bad-guys/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Palantir 员工开始质疑自己是否在做坏事</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.5</span> <span class='hn-top-story-score'>&#9650; 803</span> <span class='hn-top-story-comments'>&#128172; 556</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.2</span> <span class='hn-top-story-score'>&#9650; 833</span> <span class='hn-top-story-comments'>&#128172; 593</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='616' data-hn-time='1776966518'>
+<div class='hn-top-story-item' data-hn-score='129' data-hn-time='1777003482'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/23/top_stories_04232026#story-47878905'>An update on recent Claude Code quality reports</a>
- <a class='hn-top-story-link' href='https://www.anthropic.com/engineering/april-23-postmortem' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/24/top_stories_04242026#story-47885377'>Habitual coffee intake shapes the microbiome, modifies physiology and cognition</a>
+ <a class='hn-top-story-link' href='https://www.nature.com/articles/s41467-026-71264-8' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Claude Code 质量更新</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.0</span> <span class='hn-top-story-score'>&#9650; 616</span> <span class='hn-top-story-comments'>&#128172; 483</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>日常咖啡摄入改变微生物群、影响生理与认知</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.8</span> <span class='hn-top-story-score'>&#9650; 129</span> <span class='hn-top-story-comments'>&#128172; 63</span> <span class='hn-top-story-tag'>Health</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Energy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='493' data-hn-time='1776970532'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='714' data-hn-time='1776966518'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/23/top_stories_04232026#story-47879986'>Meta tells staff it will cut 10% of jobs</a>
- <a class='hn-top-story-link' href='https://www.bloomberg.com/news/articles/2026-04-23/meta-tells-staff-it-will-cut-10-of-jobs-in-push-for-efficiency' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/24/top_stories_04242026#story-47878905'>An update on recent Claude Code quality reports</a>
+ <a class='hn-top-story-link' href='https://www.anthropic.com/engineering/april-23-postmortem' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Meta 将裁员 10%</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.7</span> <span class='hn-top-story-score'>&#9650; 493</span> <span class='hn-top-story-comments'>&#128172; 464</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>Claude Code 质量更新</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.6</span> <span class='hn-top-story-score'>&#9650; 714</span> <span class='hn-top-story-comments'>&#128172; 528</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='79' data-hn-time='1776997583'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='579' data-hn-time='1776970532'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/23/top_stories_04232026#story-47884768'>Why I Write (1946)</a>
- <a class='hn-top-story-link' href='https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/why-i-write/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/24/top_stories_04242026#story-47879986'>Meta tells staff it will cut 10% of jobs</a>
+ <a class='hn-top-story-link' href='https://www.bloomberg.com/news/articles/2026-04-23/meta-tells-staff-it-will-cut-10-of-jobs-in-push-for-efficiency' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>我为何写作（1946）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.4</span> <span class='hn-top-story-score'>&#9650; 79</span> <span class='hn-top-story-comments'>&#128172; 17</span> <span class='hn-top-story-tag'>Culture</span></div>
+<div class='hn-top-story-zh'>Meta 将裁员 10%</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 579</span> <span class='hn-top-story-comments'>&#128172; 558</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='695' data-hn-time='1776953828'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='148' data-hn-time='1776997583'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/23/top_stories_04232026#story-47876043'>Bitwarden CLI compromised in ongoing Checkmarx supply chain campaign</a>
- <a class='hn-top-story-link' href='https://socket.dev/blog/bitwarden-cli-compromised' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/24/top_stories_04242026#story-47884768'>Why I Write (1946)</a>
+ <a class='hn-top-story-link' href='https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/why-i-write/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Bitwarden CLI 在持续的 Checkmarx 供应链攻击中被妥协</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.4</span> <span class='hn-top-story-score'>&#9650; 695</span> <span class='hn-top-story-comments'>&#128172; 342</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>我为何写作（1946）</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 148</span> <span class='hn-top-story-comments'>&#128172; 29</span> <span class='hn-top-story-tag'>Culture</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='467' data-hn-time='1776960330'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='743' data-hn-time='1776953828'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/23/top_stories_04232026#story-47877429'>If America's so rich, how'd it get so sad?</a>
- <a class='hn-top-story-link' href='https://www.derekthompson.org/p/if-americas-so-rich-howd-it-get-so' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/24/top_stories_04242026#story-47876043'>Bitwarden CLI compromised in ongoing Checkmarx supply chain campaign</a>
+ <a class='hn-top-story-link' href='https://socket.dev/blog/bitwarden-cli-compromised' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>美国这么富有，怎会变得如此悲伤？</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.7</span> <span class='hn-top-story-score'>&#9650; 467</span> <span class='hn-top-story-comments'>&#128172; 873</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>Bitwarden CLI 在持续的 Checkmarx 供应链攻击中被妥协</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 743</span> <span class='hn-top-story-comments'>&#128172; 364</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='2164' data-hn-time='1776875365'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='20' data-hn-time='1777015351'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/23/top_stories_04232026#story-47865868'>Alberta startup sells no-tech tractors for half price</a>
- <a class='hn-top-story-link' href='https://wheelfront.com/this-alberta-startup-sells-no-tech-tractors-for-half-price/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/24/top_stories_04242026#story-47886773'>Composition Shouldn't be this Hard</a>
+ <a class='hn-top-story-link' href='https://www.cambra.dev/blog/announcement/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>阿尔伯塔初创以半价销售无科技拖拉机</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 2164</span> <span class='hn-top-story-comments'>&#128172; 740</span> <span class='hn-top-story-tag'>Startups</span></div>
+<div class='hn-top-story-zh'>组合不应如此困难</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 20</span> <span class='hn-top-story-comments'>&#128172; 12</span> <span class='hn-top-story-tag'>Design</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
-<a class='hn-top-stories-more' href='/hackernews/2026/04/23/top_stories_04232026'>View all trending stories &rarr;</a>
+<a class='hn-top-stories-more' href='/hackernews/2026/04/24/top_stories_04242026'>View all trending stories &rarr;</a>
 </div>
 </div>
 <div class='hn-index-section hn-podcast-section'>
@@ -168,10 +168,19 @@ Your browser does not support the audio element.
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 17 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-04-20 — 2026-04-23 <span class="hn-row-sep">·</span> 550 stories <span class="hn-row-sep">·</span> 4 days</span>
+<span class='hn-week-meta'>2026-04-20 — 2026-04-24 <span class="hn-row-sep">·</span> 599 stories <span class="hn-row-sep">·</span> 5 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
+<div class='hn-day-row'>
+<div class='hn-day-date'>2026-04-24 <span class='hn-day-weekday'>Fri</span></div>
+<div class='hn-day-stories'>
+<a class='hn-story-link' href='/hackernews/2026/04/24/top_stories_04242026'>
+<span class='hn-row-type hn-type-top'>Trending</span>
+<span class='hn-row-detail'>All <b>49</b> <span class="hn-row-sep">·</span> AI <b>13</b> <span class="hn-row-sep">·</span> Programming <b>11</b></span>
+</a>
+</div>
+</div>
 <div class='hn-day-row'>
 <div class='hn-day-date'>2026-04-23 <span class='hn-day-weekday'>Thu</span></div>
 <div class='hn-day-stories'>
@@ -558,7 +567,7 @@ Your browser does not support the audio element.
 <details class='hn-week-group'>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 13</span>
-<span class='hn-week-meta'>2026-03-25 — 2026-03-29 <span class="hn-row-sep">·</span> 750 stories <span class="hn-row-sep">·</span> 5 days <span class="hn-row-sep">·</span> 📊 Weekly Digest <span class="hn-row-sep">·</span> 🎧</span>
+<span class='hn-week-meta'>2026-03-26 — 2026-03-29 <span class="hn-row-sep">·</span> 600 stories <span class="hn-row-sep">·</span> 4 days <span class="hn-row-sep">·</span> 📊 Weekly Digest <span class="hn-row-sep">·</span> 🎧</span>
 </summary>
 <div class='hn-week-content'>
 <a class='hn-story-link hn-weekly-digest-link' href='/hackernews/weekly/2026-W13'>
@@ -618,20 +627,6 @@ Your browser does not support the audio element.
 <a class='hn-story-link' href='/hackernews/2026/03/26/top_stories_03262026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
 <span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>27</b> <span class="hn-row-sep">·</span> Programming <b>25</b></span>
-</a>
-</div>
-</div>
-<div class='hn-day-row'>
-<div class='hn-day-date'>2026-03-25 <span class='hn-day-weekday'>Wed</span></div>
-<div class='hn-day-stories'>
-<a class='hn-story-link' href='/hackernews/2026/03/25/best_stories_03252026'>
-<span class='hn-row-type hn-type-best'>Daily Best</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>14</b> <span class="hn-row-sep">·</span> Politics <b>7</b></span>
-<span class='hn-podcast-badge' title='Podcast available'>&#x1F3A7;</span>
-</a>
-<a class='hn-story-link' href='/hackernews/2026/03/25/top_stories_03252026'>
-<span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>21</b> <span class="hn-row-sep">·</span> AI <b>21</b></span>
 </a>
 </div>
 </div>
