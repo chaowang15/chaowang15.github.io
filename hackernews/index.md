@@ -20,7 +20,7 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='713' data-hn-time='1777046359'>
+<div class='hn-top-story-item' data-hn-score='824' data-hn-time='1777046359'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -28,54 +28,54 @@ Sort:
  <a class='hn-top-story-link' href='https://nickyreinert.de/en/2026/2026-04-24-claude-critics/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>我取消了 Claude：令牌问题、质量下降与支持不足</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 15</span> <span class='hn-top-story-score'>&#9650; 713</span> <span class='hn-top-story-comments'>&#128172; 416</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.6</span> <span class='hn-top-story-score'>&#9650; 824</span> <span class='hn-top-story-comments'>&#128172; 489</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='1765' data-hn-time='1776999681'>
+<div class='hn-top-story-item' data-hn-score='1855' data-hn-time='1776999681'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/04/24/top_stories_04242026#story-47884971'>DeepSeek v4</a>
- <a class='hn-top-story-link' href='https://api-docs.deepseek.com/' target='_blank' title='Read original article'>&#x1F517;</a>
+ <a class='hn-top-story-link' href='https://api-docs.deepseek.com/news/news260424' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>DeepSeek v4</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.0</span> <span class='hn-top-story-score'>&#9650; 1765</span> <span class='hn-top-story-comments'>&#128172; 1357</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.7</span> <span class='hn-top-story-score'>&#9650; 1855</span> <span class='hn-top-story-comments'>&#128172; 1437</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='174' data-hn-time='1777055012'>
+<div class='hn-top-story-item' data-hn-score='67' data-hn-time='1777081653'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/24/top_stories_04242026#story-47894000'>OpenAI releases GPT-5.5 and GPT-5.5 Pro in the API</a>
- <a class='hn-top-story-link' href='https://developers.openai.com/api/docs/changelog' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/24/top_stories_04242026#story-47897891'>Firefox Has Integrated Brave's Adblock Engine</a>
+ <a class='hn-top-story-link' href='https://itsfoss.com/news/firefox-ships-brave-adblock-engine/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>OpenAI 发布 GPT-5.5 与 GPT-5.5 Pro API</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.5</span> <span class='hn-top-story-score'>&#9650; 174</span> <span class='hn-top-story-comments'>&#128172; 105</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>Firefox 已集成 Brave 的广告拦截引擎</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 67</span> <span class='hn-top-story-comments'>&#128172; 27</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='363' data-hn-time='1777041910'>
+<div class='hn-top-story-item' data-hn-score='435' data-hn-time='1777046681'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/24/top_stories_04242026#story-47891019'>Norway set to become latest country to ban social media for under 16s</a>
- <a class='hn-top-story-link' href='https://www.bloomberg.com/news/articles/2026-04-24/norway-wants-kids-to-be-kids-with-social-media-ban-for-under-16s' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/24/top_stories_04242026#story-47892074'>Google plans to invest up to $40B in Anthropic</a>
+ <a class='hn-top-story-link' href='https://www.bloomberg.com/news/articles/2026-04-24/google-plans-to-invest-up-to-40-billion-in-anthropic' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>挪威将成最新禁止未满16岁使用社交媒体的国家</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.9</span> <span class='hn-top-story-score'>&#9650; 363</span> <span class='hn-top-story-comments'>&#128172; 391</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>谷歌拟向 Anthropic 投资最高400亿美元</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 435</span> <span class='hn-top-story-comments'>&#128172; 461</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='100' data-hn-time='1777059046'>
+<div class='hn-top-story-item' data-hn-score='60' data-hn-time='1777078718'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/24/top_stories_04242026#story-47894747'>My audio interface has SSH enabled by default</a>
- <a class='hn-top-story-link' href='https://hhh.hn/rodecaster-duo-fw/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/24/top_stories_04242026#story-47897647'>Replace IBM Quantum back end with /dev/urandom</a>
+ <a class='hn-top-story-link' href='https://github.com/yuvadm/quantumslop/blob/25ad2e76ae58baa96f6219742459407db9dd17f5/URANDOM_DEMO.md' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>我的音频接口默认启用 SSH</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.4</span> <span class='hn-top-story-score'>&#9650; 100</span> <span class='hn-top-story-comments'>&#128172; 19</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>用 /dev/urandom 替换 IBM 量子后端</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 60</span> <span class='hn-top-story-comments'>&#128172; 7</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='333' data-hn-time='1777040932'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='381' data-hn-time='1777040932'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -83,43 +83,43 @@ Sort:
  <a class='hn-top-story-link' href='https://kevinlynagh.com/newsletter/2026_04_overthinking/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>过度思考、范围蠕变与结构性差异对项目的破坏</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.2</span> <span class='hn-top-story-score'>&#9650; 333</span> <span class='hn-top-story-comments'>&#128172; 82</span> <span class='hn-top-story-tag'>Career</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 381</span> <span class='hn-top-story-comments'>&#128172; 96</span> <span class='hn-top-story-tag'>Career</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='109' data-hn-time='1777057269'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='192' data-hn-time='1777059046'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/24/top_stories_04242026#story-47894435'>The Classic American Diner</a>
- <a class='hn-top-story-link' href='https://blogs.loc.gov/picturethis/2026/04/the-classic-american-diner/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/24/top_stories_04242026#story-47894747'>My audio interface has SSH enabled by default</a>
+ <a class='hn-top-story-link' href='https://hhh.hn/rodecaster-duo-fw/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>经典美式餐馆</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.0</span> <span class='hn-top-story-score'>&#9650; 109</span> <span class='hn-top-story-comments'>&#128172; 53</span> <span class='hn-top-story-tag'>Culture</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>我的音频接口默认启用 SSH</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 192</span> <span class='hn-top-story-comments'>&#128172; 53</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='199' data-hn-time='1777047615'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='363' data-hn-time='1777041910'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/24/top_stories_04242026#story-47892291'>SDL Now Supports DOS</a>
- <a class='hn-top-story-link' href='https://github.com/libsdl-org/SDL/pull/15377' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/24/top_stories_04242026#story-47891019'>Norway set to become latest country to ban social media for under 16s</a>
+ <a class='hn-top-story-link' href='https://www.bloomberg.com/news/articles/2026-04-24/norway-wants-kids-to-be-kids-with-social-media-ban-for-under-16s' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>SDL 现已支持 DOS 环境</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.5</span> <span class='hn-top-story-score'>&#9650; 199</span> <span class='hn-top-story-comments'>&#128172; 70</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>挪威将成最新禁止未满16岁使用社交媒体的国家</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 363</span> <span class='hn-top-story-comments'>&#128172; 391</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='106' data-hn-time='1777055393'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='226' data-hn-time='1777055012'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/24/top_stories_04242026#story-47894081'>SFO Quiet Airport (2025)</a>
- <a class='hn-top-story-link' href='https://viewfromthewing.com/san-francisco-airport-removed-90-minutes-of-daily-noise-travelers-say-it-changed-everything/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/24/top_stories_04242026#story-47894000'>OpenAI releases GPT-5.5 and GPT-5.5 Pro in the API</a>
+ <a class='hn-top-story-link' href='https://developers.openai.com/api/docs/changelog' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>SFO 安静机场（2025）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.1</span> <span class='hn-top-story-score'>&#9650; 106</span> <span class='hn-top-story-comments'>&#128172; 56</span> <span class='hn-top-story-tag'>Health</span></div>
+<div class='hn-top-story-zh'>OpenAI 发布 GPT-5.5 与 GPT-5.5 Pro API</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 226</span> <span class='hn-top-story-comments'>&#128172; 124</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1521' data-hn-time='1776967299'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1533' data-hn-time='1776967299'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -127,7 +127,7 @@ Sort:
  <a class='hn-top-story-link' href='https://openai.com/index/introducing-gpt-5-5/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>GPT-5.5 发布</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 1521</span> <span class='hn-top-story-comments'>&#128172; 1016</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 1533</span> <span class='hn-top-story-comments'>&#128172; 1020</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -164,7 +164,7 @@ Your browser does not support the audio element.
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/04/24/top_stories_04242026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>31</b> <span class="hn-row-sep">·</span> Programming <b>27</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>29</b> <span class="hn-row-sep">·</span> Programming <b>24</b></span>
 </a>
 </div>
 </div>
