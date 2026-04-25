@@ -4,21 +4,66 @@
     "source": "https://news.ycombinator.com/",
     "api": "https://github.com/HackerNews/API",
     "count_requested": 50,
-    "count_written": 63,
-    "reused_same_day": 36,
+    "count_written": 78,
+    "reused_same_day": 35,
     "reused_cross_day": 0,
-    "new_llm_enriched": 14,
-    "scrape_time_display": "07:41, April 25, 2026 (PDT)",
+    "new_llm_enriched": 15,
+    "scrape_time_display": "11:44, April 25, 2026 (PDT)",
     "timezone": "America/Los_Angeles",
     "date_dir": "2026/04/25",
     "content_date": "2026-04-25",
-    "run_time_local": "07:41, April 25, 2026 (PDT)",
-    "run_time_utc": "2026-04-25 14:41:45 UTC",
+    "run_time_local": "11:44, April 25, 2026 (PDT)",
+    "run_time_utc": "2026-04-25 18:44:39 UTC",
     "incremental": true,
     "stories_max": 100,
-    "hot_score_time_utc": "2026-04-25 14:43:09 UTC"
+    "hot_score_time_utc": "2026-04-25 18:46:48 UTC"
   },
   "items": [
+    {
+      "title_en": "Niri 26.04: Scrollable-tiling Wayland compositor",
+      "url": "https://github.com/niri-wm/niri/releases/tag/v26.04",
+      "title_zh": "Niri 26.04：可滚动平铺的 Wayland 合成器",
+      "created_display": "Created: Apr 25, 2026 / 08:59 PT",
+      "image_url": "https://opengraph.githubassets.com/0dc9f7d58e6916d9b40354b2f379b6a097d6b52488b18d3cf31f53d4b3d66dba/niri-wm/niri/releases/tag/v26.04",
+      "summary_en": "Release 26.04 adds scrollable tiling to its Wayland compositor, improving navigation for multi-window workspaces. It reflects ongoing experimentation in the Wayland ecosystem toward flexible, keyboard-driven layouts.",
+      "summary_zh": "26.04 版本为 Niri 增添了可滚动的平铺布局，提升多工作区下的导航与灵活性。这一活跃的 Wayland 合成器项目继续推动无助力、可定制的窗口管理创新。",
+      "hn": {
+        "id": 47902416,
+        "type": "story",
+        "by": "nickjj",
+        "score": 132,
+        "descendants": 34,
+        "time": 1777132755,
+        "comments_url": "https://news.ycombinator.com/item?id=47902416"
+      },
+      "hot_score": 7.8,
+      "tags": [
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "Framework Laptop 13 Pro: Major Upgrades and Linux Front and Center",
+      "url": "https://boilingsteam.com/framework-laptop-13-pro-announced/",
+      "title_zh": "Framework Laptop 13 Pro：重大升级，Linux成核心",
+      "created_display": "Created: Apr 25, 2026 / 09:54 PT",
+      "image_url": "https://boilingsteam.com/boilingsteam_header.png",
+      "summary_en": "The Framework Laptop 13 Pro delivers a major hardware refresh, including faster internals and expanded I/O, while Linux support remains a central focus. Its modular design makes it standout for repairability and upgradeability in a market leaning toward sealed laptops.",
+      "summary_zh": "Framework Laptop 13 Pro 提供了重大硬件升级，提升性能与扩展端口，并继续强化对 Linux 的支持。其模块化设计使其在如今多为封装式笔记本的市场中保持可维修与可升级性。",
+      "hn": {
+        "id": 47902816,
+        "type": "story",
+        "by": "ekianjo",
+        "score": 49,
+        "descendants": 12,
+        "time": 1777136068,
+        "comments_url": "https://news.ycombinator.com/item?id=47902816"
+      },
+      "hot_score": 4.2,
+      "tags": [
+        "Hardware",
+        "Open Source"
+      ]
+    },
     {
       "title_en": "New 10 GbE USB adapters are cooler, smaller, cheaper",
       "url": "https://www.jeffgeerling.com/blog/2026/new-10-gbe-usb-adapters-cooler-smaller-cheaper/",
@@ -31,38 +76,81 @@
         "id": 47899053,
         "type": "story",
         "by": "calcifer",
-        "score": 348,
-        "descendants": 195,
+        "score": 448,
+        "descendants": 265,
         "time": 1777096572,
         "comments_url": "https://news.ycombinator.com/item?id=47899053"
       },
       "tags": [
         "Hardware"
       ],
-      "hot_score": 4.8
+      "hot_score": 3.48
     },
     {
-      "title_en": "Show HN: A Karpathy-style LLM wiki your agents maintain (Markdown and Git)",
-      "url": "https://github.com/nex-crm/wuphf",
-      "title_zh": "Show HN 展示一個由代理維護的 Karpathy 風格 LLM 维基，內容以 Markdown 保存並在 Git 中版本化",
-      "created_display": "Created: Apr 25, 2026 / 01:53 PT",
-      "image_url": "https://opengraph.githubassets.com/4b9d2a1572cdb9c928b7b113e0d57fc48b8f61ff3caa75304504f63304cf0363/nex-crm/wuphf",
-      "summary_en": "Show HN introduces a Karpathy-style LLM wiki maintained by agents, with content stored as Markdown and versioned in Git. The approach aims to give autonomous systems a structured knowledge base that is easy to audit, update, and collaborate on.",
-      "summary_zh": "Show HN 展示一個由代理維護的 Karpathy 風格 LLM 維基，內容以 Markdown 保存並在 Git 中版本化。此做法為自主系統提供可審計、易於更新與協作的結構化知識庫。",
+      "title_en": "What's missing in the 'agentic' story: a well-defined user agent role",
+      "url": "https://www.mnot.net/blog/2026/04/24/agents_as_collective_bargains",
+      "title_zh": "“代理性”叙事中的缺失之处：需要明确定义的用户代理角色",
+      "created_display": "Created: Apr 25, 2026 / 08:51 PT",
+      "image_url": "https://www.mnot.net/blog/image/trains.jpeg",
+      "summary_en": "The piece argues that the 'agentic' AI narrative lacks a clearly defined user agent role, clarifying who sets goals, constraints, and responsibility. It calls for organizing agent behavior around explicit user-agent concepts and collective bargaining to manage autonomy and safety.",
+      "summary_zh": "文章认为当前的“代理性”叙事缺乏对用户代理角色的清晰定义，应该明确谁设定目标与约束、谁承担责任。主张将代理行为构建在拥有明确权利与义务的用户代理框架之上，以更好地管理自治与安全。",
       "hn": {
-        "id": 47899844,
+        "id": 47902339,
         "type": "story",
-        "by": "najmuzzaman",
-        "score": 142,
-        "descendants": 66,
-        "time": 1777107233,
-        "comments_url": "https://news.ycombinator.com/item?id=47899844"
+        "by": "ingve",
+        "score": 51,
+        "descendants": 45,
+        "time": 1777132271,
+        "comments_url": "https://news.ycombinator.com/item?id=47902339"
       },
-      "hot_score": 3.48,
+      "hot_score": 2.83,
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title_en": "Jumping into cold water can stop your heart",
+      "url": "https://jorgenmelau.substack.com/p/the-first-sixty-seconds",
+      "title_zh": "跳入冷水可能使心脏停跳",
+      "created_display": "Created: Apr 25, 2026 / 07:42 PT",
+      "image_url": null,
+      "summary_en": "Cold-water immersion can trigger dangerous cardiac responses, especially within the first sixty seconds. The piece explains the physiology of cold shock and offers safety considerations for cold-water exposure.",
+      "summary_zh": "跳入冷水可能引发危险的心脏反应，尤其是在最初的几秒钟内。文中解释了冷水冲击的生理机制，并给出涉水安全建议。",
+      "hn": {
+        "id": 47901884,
+        "type": "story",
+        "by": "fanf2",
+        "score": 69,
+        "descendants": 28,
+        "time": 1777128125,
+        "comments_url": "https://news.ycombinator.com/item?id=47901884"
+      },
+      "hot_score": 2.64,
+      "tags": [
+        "Health"
+      ]
+    },
+    {
+      "title_en": "GPT 5.5 biosafety bounty",
+      "url": "https://openai.com/index/gpt-5-5-bio-bug-bounty/",
+      "title_zh": "GPT-5.5 生物安全漏洞赏金计划",
+      "created_display": "Created: Apr 25, 2026 / 07:17 PT",
+      "image_url": null,
+      "summary_en": "OpenAI launches a GPT-5.5 biosafety bug bounty to crowdsource detection of safety vulnerabilities in the model. The program invites researchers to responsibly disclose issues, signaling a move toward external auditing for safer AI.",
+      "summary_zh": "OpenAI 启动了 GPT-5.5 生物安全漏洞赏金计划，邀请研究者报告系统在生物信息处理上的安全问题。此举标志着向外部审计迈进，以提升 AI 部署的安全性。",
+      "hn": {
+        "id": 47901734,
+        "type": "story",
+        "by": "Murfalo",
+        "score": 74,
+        "descendants": 65,
+        "time": 1777126651,
+        "comments_url": "https://news.ycombinator.com/item?id=47901734"
+      },
+      "hot_score": 2.52,
       "tags": [
         "AI",
-        "Show HN",
-        "Programming"
+        "Security"
       ]
     },
     {
@@ -77,15 +165,41 @@
         "id": 47884971,
         "type": "story",
         "by": "impact_sy",
-        "score": 1986,
-        "descendants": 1515,
+        "score": 2012,
+        "descendants": 1535,
         "time": 1776999681,
         "comments_url": "https://news.ycombinator.com/item?id=47884971"
       },
       "tags": [
-        "AI"
+        "AI",
+        "Data"
       ],
-      "hot_score": 2.89
+      "hot_score": 2.43
+    },
+    {
+      "title_en": "Show HN: A Karpathy-style LLM wiki your agents maintain (Markdown and Git)",
+      "url": "https://github.com/nex-crm/wuphf",
+      "title_zh": "Show HN 展示一個由代理維護的 Karpathy 風格 LLM 维基，內容以 Markdown 保存並在 Git 中版本化",
+      "created_display": "Created: Apr 25, 2026 / 01:53 PT",
+      "image_url": "https://opengraph.githubassets.com/4b9d2a1572cdb9c928b7b113e0d57fc48b8f61ff3caa75304504f63304cf0363/nex-crm/wuphf",
+      "summary_en": "Show HN introduces a Karpathy-style LLM wiki maintained by agents, with content stored as Markdown and versioned in Git. The approach aims to give autonomous systems a structured knowledge base that is easy to audit, update, and collaborate on.",
+      "summary_zh": "Show HN 展示一個由代理維護的 Karpathy 風格 LLM 維基，內容以 Markdown 保存並在 Git 中版本化。此做法為自主系統提供可審計、易於更新與協作的結構化知識庫。",
+      "hn": {
+        "id": 47899844,
+        "type": "story",
+        "by": "najmuzzaman",
+        "score": 194,
+        "descendants": 91,
+        "time": 1777107233,
+        "comments_url": "https://news.ycombinator.com/item?id=47899844"
+      },
+      "tags": [
+        "AI",
+        "Show HN",
+        "Open Source",
+        "Programming"
+      ],
+      "hot_score": 2.24
     },
     {
       "title_en": "I cancelled Claude: Token issues, declining quality, and poor support",
@@ -107,75 +221,7 @@
       "tags": [
         "AI"
       ],
-      "hot_score": 2.81
-    },
-    {
-      "title_en": "Firefox Has Integrated Brave's Adblock Engine",
-      "url": "https://itsfoss.com/news/firefox-ships-brave-adblock-engine/",
-      "title_zh": "Firefox 已集成 Brave 的广告拦截引擎",
-      "created_display": "Created: Apr 24, 2026 / 18:47 PT",
-      "image_url": "https://itsfoss.com/content/images/2026/04/firefox-brave-adblock-rust-banner.png",
-      "summary_en": "Firefox now ships with Brave's ad-blocking engine, enabling more aggressive blocklists and better tracking protection by default. The move improves privacy and performance but raises questions about licensing and how this affects the broader adtech ecosystem.",
-      "summary_zh": "Firefox 现已内置 Brave 的广告拦截引擎，默认提供更强的拦截名单和更好的追踪保护。此举提升了隐私和性能，但也引发关于许可和对更广泛广告技术生态的影响的讨论。",
-      "hn": {
-        "id": 47897891,
-        "type": "story",
-        "by": "nreece",
-        "score": 320,
-        "descendants": 170,
-        "time": 1777081653,
-        "comments_url": "https://news.ycombinator.com/item?id=47897891"
-      },
-      "tags": [
-        "Privacy",
-        "Web"
-      ],
-      "hot_score": 2.46
-    },
-    {
-      "title_en": "Lambda Calculus Benchmark for AI",
-      "url": "https://victortaelin.github.io/lambench/",
-      "title_zh": "面向 AI 的 λ 演算基準測試",
-      "created_display": "Created: Apr 25, 2026 / 04:16 PT",
-      "image_url": null,
-      "summary_en": "A Lambda calculus benchmark for AI evaluating symbolic reasoning capabilities. Lambench provides a suite of tasks that probe reduction, beta/eta normalization, and functional reasoning beyond numerical benchmarks. It helps compare how different models reason about code-like expressions and abstract rules.",
-      "summary_zh": "一個針對 AI 的 λ 演算基準測試，聚焦符號推理與函數式計算能力。Lambench 提供涵蓋化簡、歸約與抽象規則推理的任務，便於比較不同模型在符號推理上的表現。",
-      "hn": {
-        "id": 47900506,
-        "type": "story",
-        "by": "marvinborner",
-        "score": 48,
-        "descendants": 16,
-        "time": 1777115783,
-        "comments_url": "https://news.ycombinator.com/item?id=47900506"
-      },
-      "hot_score": 2.22,
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "title_en": "Google plans to invest up to $40B in Anthropic",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-24/google-plans-to-invest-up-to-40-billion-in-anthropic",
-      "title_zh": "谷歌拟向 Anthropic 投资最高400亿美元",
-      "created_display": "Created: Apr 24, 2026 / 09:04 PT",
-      "image_url": null,
-      "summary_en": "Google plans to invest up to $40B in Anthropic, signaling a deepening strategic partnership and potential equity stake. The move underscores Google's aggressive push in AI and could accelerate Anthropic's work while giving Google access to its models and IP.",
-      "summary_zh": "谷歌计划向 Anthropic 投资最高400亿美元，标志着双方关系进一步紧密，存在潜在股权安排。此举凸显谷歌在AI领域的扩张策略，可能推动 Anthropic 的研究进展，并让谷歌获得对方技术与知识产权的接入。",
-      "hn": {
-        "id": 47892074,
-        "type": "story",
-        "by": "elffjs",
-        "score": 682,
-        "descendants": 672,
-        "time": 1777046681,
-        "comments_url": "https://news.ycombinator.com/item?id=47892074"
-      },
-      "tags": [
-        "Business",
-        "AI"
-      ],
-      "hot_score": 2.13
+      "hot_score": 2.14
     },
     {
       "title_en": "Martin Galway's music source files from 1980's Commodore 64 games",
@@ -189,15 +235,223 @@
         "id": 47900398,
         "type": "story",
         "by": "ingve",
-        "score": 49,
-        "descendants": 6,
+        "score": 121,
+        "descendants": 16,
         "time": 1777113974,
         "comments_url": "https://news.ycombinator.com/item?id=47900398"
       },
-      "hot_score": 1.94,
       "tags": [
         "Entertainment",
+        "Culture",
         "Hardware"
+      ],
+      "hot_score": 1.9
+    },
+    {
+      "title_en": "Google plans to invest up to $40B in Anthropic",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-24/google-plans-to-invest-up-to-40-billion-in-anthropic",
+      "title_zh": "谷歌拟向 Anthropic 投资最高400亿美元",
+      "created_display": "Created: Apr 24, 2026 / 09:04 PT",
+      "image_url": null,
+      "summary_en": "Google plans to invest up to $40B in Anthropic, signaling a deepening strategic partnership and potential equity stake. The move underscores Google's aggressive push in AI and could accelerate Anthropic's work while giving Google access to its models and IP.",
+      "summary_zh": "谷歌计划向 Anthropic 投资最高400亿美元，标志着双方关系进一步紧密，存在潜在股权安排。此举凸显谷歌在AI领域的扩张策略，可能推动 Anthropic 的研究进展，并让谷歌获得对方技术与知识产权的接入。",
+      "hn": {
+        "id": 47892074,
+        "type": "story",
+        "by": "elffjs",
+        "score": 758,
+        "descendants": 729,
+        "time": 1777046681,
+        "comments_url": "https://news.ycombinator.com/item?id=47892074"
+      },
+      "tags": [
+        "Business",
+        "AI",
+        "Finance"
+      ],
+      "hot_score": 1.8
+    },
+    {
+      "title_en": "Firefox Has Integrated Brave's Adblock Engine",
+      "url": "https://itsfoss.com/news/firefox-ships-brave-adblock-engine/",
+      "title_zh": "Firefox 已集成 Brave 的广告拦截引擎",
+      "created_display": "Created: Apr 24, 2026 / 18:47 PT",
+      "image_url": "https://itsfoss.com/content/images/2026/04/firefox-brave-adblock-rust-banner.png",
+      "summary_en": "Firefox now ships with Brave's ad-blocking engine, enabling more aggressive blocklists and better tracking protection by default. The move improves privacy and performance but raises questions about licensing and how this affects the broader adtech ecosystem.",
+      "summary_zh": "Firefox 现已内置 Brave 的广告拦截引擎，默认提供更强的拦截名单和更好的追踪保护。此举提升了隐私和性能，但也引发关于许可和对更广泛广告技术生态的影响的讨论。",
+      "hn": {
+        "id": 47897891,
+        "type": "story",
+        "by": "nreece",
+        "score": 353,
+        "descendants": 197,
+        "time": 1777081653,
+        "comments_url": "https://news.ycombinator.com/item?id=47897891"
+      },
+      "tags": [
+        "Privacy",
+        "Web"
+      ],
+      "hot_score": 1.76
+    },
+    {
+      "title_en": "Lambda Calculus Benchmark for AI",
+      "url": "https://victortaelin.github.io/lambench/",
+      "title_zh": "面向 AI 的 λ 演算基準測試",
+      "created_display": "Created: Apr 25, 2026 / 04:16 PT",
+      "image_url": null,
+      "summary_en": "A Lambda calculus benchmark for AI evaluating symbolic reasoning capabilities. Lambench provides a suite of tasks that probe reduction, beta/eta normalization, and functional reasoning beyond numerical benchmarks. It helps compare how different models reason about code-like expressions and abstract rules.",
+      "summary_zh": "一個針對 AI 的 λ 演算基準測試，聚焦符號推理與函數式計算能力。Lambench 提供涵蓋化簡、歸約與抽象規則推理的任務，便於比較不同模型在符號推理上的表現。",
+      "hn": {
+        "id": 47900506,
+        "type": "story",
+        "by": "marvinborner",
+        "score": 95,
+        "descendants": 31,
+        "time": 1777115783,
+        "comments_url": "https://news.ycombinator.com/item?id=47900506"
+      },
+      "tags": [
+        "AI",
+        "Science"
+      ],
+      "hot_score": 1.63
+    },
+    {
+      "title_en": "Discret 11, the French TV encryption of the 80s",
+      "url": "https://fabiensanglard.net/discret11/",
+      "title_zh": "Discret 11：80年代法国电视加密",
+      "created_display": "Created: Apr 25, 2026 / 04:10 PT",
+      "image_url": "https://fabiensanglard.net/discret11/cplus_anim.gif",
+      "summary_en": "Discret 11 is a vintage French TV encryption scheme from the 1980s examined in depth. The write-up analyzes how the system worked, including its key management and hardware implementation, and why it ultimately failed to stop piracy, highlighting the era's cryptographic limits.",
+      "summary_zh": "Discret 11 是上世纪80年代法国电视的加密方案，文中对其工作原理、密钥管理和实现方式进行了分析。并解释了为何该系统未能有效阻止盗版，反映了当时加密技术的局限。",
+      "hn": {
+        "id": 47900478,
+        "type": "story",
+        "by": "adunk",
+        "score": 79,
+        "descendants": 11,
+        "time": 1777115441,
+        "comments_url": "https://news.ycombinator.com/item?id=47900478"
+      },
+      "hot_score": 1.33,
+      "tags": [
+        "Security",
+        "Hardware"
+      ]
+    },
+    {
+      "title_en": "GPT-5.5",
+      "url": "https://openai.com/index/introducing-gpt-5-5/",
+      "title_zh": "GPT-5.5 发布",
+      "created_display": "Created: Apr 23, 2026 / 11:01 PT",
+      "image_url": null,
+      "summary_en": "OpenAI unveils GPT-5.5, the latest mid-cycle upgrade in the GPT-5 family. It emphasizes faster inference, safer defaults, and enhanced developer controls for production deployments, signaling another step in the rapid evolution of foundation models.",
+      "summary_zh": "OpenAI 发布了 GPT-5.5，作为 GPT-5 线的中期升级。新版本强调更快的推理与更安全的默认设置，并为开发者提供更丰富的部署控制，再次推动大型语言模型的迭代速度。",
+      "hn": {
+        "id": 47879092,
+        "type": "story",
+        "by": "rd",
+        "score": 1556,
+        "descendants": 1033,
+        "time": 1776967299,
+        "comments_url": "https://news.ycombinator.com/item?id=47879092"
+      },
+      "tags": [
+        "AI"
+      ],
+      "hot_score": 1.32
+    },
+    {
+      "title_en": "Hokusai and Tesselations",
+      "url": "https://dl.ndl.go.jp/pid/1899550/1/11/",
+      "title_zh": "北斎与镶嵌图案",
+      "created_display": "Created: Apr 25, 2026 / 10:21 PT",
+      "image_url": null,
+      "summary_en": "This collection explores how Hokusai's prints intersect with tessellation ideas—repeating motifs, grids, and spatial tiling in Edo-era art. It reveals a dialogue between Japanese aesthetics and early geometric thinking that informs both art history and mathematics.",
+      "summary_zh": "本集藏品探讨北斎作品与镶嵌图案之间的关系——重复的几何风格、网格与平铺在他的版画中的应用。通过展现日本美学与早期几何思维之间的对话，带来艺术史与数学的交叉视角。",
+      "hn": {
+        "id": 47902993,
+        "type": "story",
+        "by": "srean",
+        "score": 13,
+        "descendants": 4,
+        "time": 1777137682,
+        "comments_url": "https://news.ycombinator.com/item?id=47902993"
+      },
+      "hot_score": 1.31,
+      "tags": [
+        "Culture",
+        "Design"
+      ]
+    },
+    {
+      "title_en": "A web-based RDP client built with Go WebAssembly and grdp",
+      "url": "https://github.com/nakagami/grdpwasm",
+      "title_zh": "基于 Go WebAssembly 和 grdp 的网页 RDP 客户端",
+      "created_display": "Created: Apr 25, 2026 / 03:59 PT",
+      "image_url": "https://opengraph.githubassets.com/c143f3880e6d7dc2853828cdf33ed65bc154abbbe4f9c5ea27c5f0c849946d93/nakagami/grdpwasm",
+      "summary_en": "Demonstrates a web-based RDP client built with Go WebAssembly and the grdp library, enabling remote desktop access directly in the browser. The project illustrates how WASM can bring near-native UI responsiveness and performance to browser-based remote sessions, with considerations for security and user experience.",
+      "summary_zh": "展示一個以 Go WebAssembly 與 grdp 驅動的網頁 RDP 客戶端，實現在瀏覽器中進行遠端桌面連線的可能性。這類實作顯示 WASM 在網頁端的性能與回應性，並需關注安全性與使用者體驗的取捨。",
+      "hn": {
+        "id": 47900440,
+        "type": "story",
+        "by": "mariuz",
+        "score": 80,
+        "descendants": 34,
+        "time": 1777114769,
+        "comments_url": "https://news.ycombinator.com/item?id=47900440"
+      },
+      "tags": [
+        "Programming",
+        "Web",
+        "Security"
+      ],
+      "hot_score": 1.3
+    },
+    {
+      "title_en": "Replace IBM Quantum back end with /dev/urandom",
+      "url": "https://github.com/yuvadm/quantumslop/blob/25ad2e76ae58baa96f6219742459407db9dd17f5/URANDOM_DEMO.md",
+      "title_zh": "用 /dev/urandom 替换 IBM 量子后端",
+      "created_display": "Created: Apr 24, 2026 / 17:58 PT",
+      "image_url": "https://opengraph.githubassets.com/460e72a8670f397b24aa552afd8d5ead12b14319527c63118f05491147b74f8f/yuvadm/quantumslop",
+      "summary_en": "A playful demo replaces the IBM Quantum backend with /dev/urandom, showing that for some workflows, classical randomness can mimic quantum results well enough to test software. The exercise highlights the importance of trustworthy backends and clear expectations around quantum versus classical randomness.",
+      "summary_zh": "一个有趣的演示用 /dev/urandom 来替代 IBM 量子后端，表明在某些工作流中，经典随机性也能在测试阶段近似量子结果。此举强调信任的后端与区分量子与经典随机性的必要性。",
+      "hn": {
+        "id": 47897647,
+        "type": "story",
+        "by": "pigeons",
+        "score": 279,
+        "descendants": 41,
+        "time": 1777078718,
+        "comments_url": "https://news.ycombinator.com/item?id=47897647"
+      },
+      "tags": [
+        "Science",
+        "Web"
+      ],
+      "hot_score": 1.29
+    },
+    {
+      "title_en": "A Collection of Chronic Medical Conditions Common in Autistic and ADHD Adults [pdf] (2023)",
+      "url": "https://allbrainsbelong.org/wp-content/uploads/2023/08/CLINICIAN-GUIDE-Everything-is-Connected-to-Everything-Project-All-Brains-Belong-VT-8.15.23.pdf",
+      "title_zh": "成年自闭症与 ADHD 患者常见慢性疾病指南（2023）",
+      "created_display": "Created: Apr 25, 2026 / 06:34 PT",
+      "image_url": null,
+      "summary_en": "A 2023 clinician guide consolidates chronic conditions commonly found in autistic and ADHD adults, emphasizing integrated care and awareness of co-morbidity. It highlights conditions like sleep disorders, anxiety, and GI issues, with guidance for holistic management.",
+      "summary_zh": "2023年的临床指南汇总了成年自闭症和 ADHD 患者中常见的慢性疾病，强调需要综合照护并关注共病。内容涵盖睡眠障碍、焦虑、胃肠问题等，并提供整体管理的建议。",
+      "hn": {
+        "id": 47901469,
+        "type": "story",
+        "by": "AndrewDucker",
+        "score": 46,
+        "descendants": 25,
+        "time": 1777124086,
+        "comments_url": "https://news.ycombinator.com/item?id=47901469"
+      },
+      "hot_score": 1.29,
+      "tags": [
+        "Health"
       ]
     },
     {
@@ -212,85 +466,15 @@
         "id": 47898597,
         "type": "story",
         "by": "andsoitis",
-        "score": 170,
-        "descendants": 45,
+        "score": 184,
+        "descendants": 51,
         "time": 1777090681,
         "comments_url": "https://news.ycombinator.com/item?id=47898597"
       },
       "tags": [
-        "Programming",
-        "Open Source"
+        "Programming"
       ],
-      "hot_score": 1.81
-    },
-    {
-      "title_en": "Replace IBM Quantum back end with /dev/urandom",
-      "url": "https://github.com/yuvadm/quantumslop/blob/25ad2e76ae58baa96f6219742459407db9dd17f5/URANDOM_DEMO.md",
-      "title_zh": "用 /dev/urandom 替换 IBM 量子后端",
-      "created_display": "Created: Apr 24, 2026 / 17:58 PT",
-      "image_url": "https://opengraph.githubassets.com/460e72a8670f397b24aa552afd8d5ead12b14319527c63118f05491147b74f8f/yuvadm/quantumslop",
-      "summary_en": "A playful demo replaces the IBM Quantum backend with /dev/urandom, showing that for some workflows, classical randomness can mimic quantum results well enough to test software. The exercise highlights the importance of trustworthy backends and clear expectations around quantum versus classical randomness.",
-      "summary_zh": "一个有趣的演示用 /dev/urandom 来替代 IBM 量子后端，表明在某些工作流中，经典随机性也能在测试阶段近似量子结果。此举强调信任的后端与区分量子与经典随机性的必要性。",
-      "hn": {
-        "id": 47897647,
-        "type": "story",
-        "by": "pigeons",
-        "score": 230,
-        "descendants": 33,
-        "time": 1777078718,
-        "comments_url": "https://news.ycombinator.com/item?id=47897647"
-      },
-      "tags": [
-        "Science",
-        "Web"
-      ],
-      "hot_score": 1.6
-    },
-    {
-      "title_en": "GPT-5.5",
-      "url": "https://openai.com/index/introducing-gpt-5-5/",
-      "title_zh": "GPT-5.5 发布",
-      "created_display": "Created: Apr 23, 2026 / 11:01 PT",
-      "image_url": null,
-      "summary_en": "OpenAI unveils GPT-5.5, the latest mid-cycle upgrade in the GPT-5 family. It emphasizes faster inference, safer defaults, and enhanced developer controls for production deployments, signaling another step in the rapid evolution of foundation models.",
-      "summary_zh": "OpenAI 发布了 GPT-5.5，作为 GPT-5 线的中期升级。新版本强调更快的推理与更安全的默认设置，并为开发者提供更丰富的部署控制，再次推动大型语言模型的迭代速度。",
-      "hn": {
-        "id": 47879092,
-        "type": "story",
-        "by": "rd",
-        "score": 1552,
-        "descendants": 1031,
-        "time": 1776967299,
-        "comments_url": "https://news.ycombinator.com/item?id=47879092"
-      },
-      "tags": [
-        "AI"
-      ],
-      "hot_score": 1.53
-    },
-    {
-      "title_en": "A web-based RDP client built with Go WebAssembly and grdp",
-      "url": "https://github.com/nakagami/grdpwasm",
-      "title_zh": "基于 Go WebAssembly 和 grdp 的网页 RDP 客户端",
-      "created_display": "Created: Apr 25, 2026 / 03:59 PT",
-      "image_url": "https://opengraph.githubassets.com/c143f3880e6d7dc2853828cdf33ed65bc154abbbe4f9c5ea27c5f0c849946d93/nakagami/grdpwasm",
-      "summary_en": "Demonstrates a web-based RDP client built with Go WebAssembly and the grdp library, enabling remote desktop access directly in the browser. The project illustrates how WASM can bring near-native UI responsiveness and performance to browser-based remote sessions, with considerations for security and user experience.",
-      "summary_zh": "展示一個以 Go WebAssembly 與 grdp 驅動的網頁 RDP 客戶端，實現在瀏覽器中進行遠端桌面連線的可能性。這類實作顯示 WASM 在網頁端的性能與回應性，並需關注安全性與使用者體驗的取捨。",
-      "hn": {
-        "id": 47900440,
-        "type": "story",
-        "by": "mariuz",
-        "score": 33,
-        "descendants": 12,
-        "time": 1777114769,
-        "comments_url": "https://news.ycombinator.com/item?id=47900440"
-      },
-      "hot_score": 1.38,
-      "tags": [
-        "Programming",
-        "Web",
-        "Security"
-      ]
+      "hot_score": 1.18
     },
     {
       "title_en": "Sabotaging projects by overthinking, scope creep, and structural diffing",
@@ -304,15 +488,15 @@
         "id": 47890799,
         "type": "story",
         "by": "alcazar",
-        "score": 475,
-        "descendants": 115,
+        "score": 492,
+        "descendants": 121,
         "time": 1777040932,
         "comments_url": "https://news.ycombinator.com/item?id=47890799"
       },
       "tags": [
         "Career"
       ],
-      "hot_score": 1.32
+      "hot_score": 1.06
     },
     {
       "title_en": "Plain text has been around for decades and it’s here to stay",
@@ -326,60 +510,16 @@
         "id": 47897681,
         "type": "story",
         "by": "rbanffy",
-        "score": 174,
-        "descendants": 78,
+        "score": 222,
+        "descendants": 110,
         "time": 1777078989,
         "comments_url": "https://news.ycombinator.com/item?id=47897681"
       },
-      "hot_score": 1.22,
       "tags": [
+        "Data",
         "Culture"
-      ]
-    },
-    {
-      "title_en": "My audio interface has SSH enabled by default",
-      "url": "https://hhh.hn/rodecaster-duo-fw/",
-      "title_zh": "我的音频接口默认启用 SSH",
-      "created_display": "Created: Apr 24, 2026 / 12:30 PT",
-      "image_url": "https://hhh.hn/images/desk.JPG",
-      "summary_en": "Security researchers found that the audio interface ships with SSH enabled by default, exposing remote access on the same network. This kind of vendor-default service can create attack surfaces; users should disable SSH or update firmware.",
-      "summary_zh": "音频接口默认开启 SSH，若设备在同一网络中，攻击者可能取得远程访问权限。这类厂商默认开启的服务暴露了攻击面，用户应禁用 SSH 或尽快升级固件。",
-      "hn": {
-        "id": 47894747,
-        "type": "story",
-        "by": "hhh",
-        "score": 281,
-        "descendants": 84,
-        "time": 1777059046,
-        "comments_url": "https://news.ycombinator.com/item?id=47894747"
-      },
-      "tags": [
-        "Security"
       ],
-      "hot_score": 1.15
-    },
-    {
-      "title_en": "Social media is no longer social",
-      "url": "https://bsky.app/profile/pettertornberg.com/post/3mk64uzhdm22z",
-      "title_zh": "社交媒体已不再是社交",
-      "created_display": "Created: Apr 25, 2026 / 06:45 PT",
-      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:wln4abcehdwgg37snks734l5/bafkreigh4n6bnt43lbtffzhjvg67gpy2rgaji2vccmgqobzdyjx7afolry",
-      "summary_en": "Argues that modern platforms optimize engagement and monetization over human interaction, leading to echo chambers and brittle social graphs. Proposes alternatives or design principles for restoring genuine online community and privacy.",
-      "summary_zh": "認為現代平台將參與度與商業化置於人際互動之上，導致回音室效應與脆弱的社交網絡。提出恢復真實社群與隱私的設計原則與替代方向。",
-      "hn": {
-        "id": 47901535,
-        "type": "story",
-        "by": "frereubu",
-        "score": 9,
-        "descendants": 2,
-        "time": 1777124704,
-        "comments_url": "https://news.ycombinator.com/item?id=47901535"
-      },
-      "hot_score": 1.13,
-      "tags": [
-        "Design",
-        "Privacy"
-      ]
+      "hot_score": 1.03
     },
     {
       "title_en": "There Will Be a Scientific Theory of Deep Learning",
@@ -393,84 +533,61 @@
         "id": 47893779,
         "type": "story",
         "by": "jamie-simon",
-        "score": 293,
-        "descendants": 124,
+        "score": 326,
+        "descendants": 145,
         "time": 1777053965,
         "comments_url": "https://news.ycombinator.com/item?id=47893779"
       },
       "tags": [
+        "AI",
+        "Science"
+      ],
+      "hot_score": 0.88
+    },
+    {
+      "title_en": "My audio interface has SSH enabled by default",
+      "url": "https://hhh.hn/rodecaster-duo-fw/",
+      "title_zh": "我的音频接口默认启用 SSH",
+      "created_display": "Created: Apr 24, 2026 / 12:30 PT",
+      "image_url": "https://hhh.hn/images/desk.JPG",
+      "summary_en": "Security researchers found that the audio interface ships with SSH enabled by default, exposing remote access on the same network. This kind of vendor-default service can create attack surfaces; users should disable SSH or update firmware.",
+      "summary_zh": "音频接口默认开启 SSH，若设备在同一网络中，攻击者可能取得远程访问权限。这类厂商默认开启的服务暴露了攻击面，用户应禁用 SSH 或尽快升级固件。",
+      "hn": {
+        "id": 47894747,
+        "type": "story",
+        "by": "hhh",
+        "score": 296,
+        "descendants": 88,
+        "time": 1777059046,
+        "comments_url": "https://news.ycombinator.com/item?id=47894747"
+      },
+      "tags": [
+        "Security"
+      ],
+      "hot_score": 0.88
+    },
+    {
+      "title_en": "HEALPix",
+      "url": "https://en.wikipedia.org/wiki/HEALPix",
+      "title_zh": "HEALPix：球面均等像素网格",
+      "created_display": "Created: Apr 25, 2026 / 06:11 PT",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/HEALPix_projection_SW.svg/1280px-HEALPix_projection_SW.svg.png",
+      "summary_en": "HEALPix is a spherical pixelization scheme that partitions the sky into equal-area, iso-latitude pixels, enabling efficient storage and analysis of astronomical maps. It’s widely used for CMB and other all-sky surveys, supporting hierarchical refinement and fast transforms.",
+      "summary_zh": "HEALPix 是一种把球面划分为等面积像素的网格方法，具备等纬度特性，便于天球图像的存储和分析。在宇宙学和天文观测地图处理中被广泛使用，支持分层细化和快速变换。",
+      "hn": {
+        "id": 47901312,
+        "type": "story",
+        "by": "hyperific",
+        "score": 32,
+        "descendants": 5,
+        "time": 1777122678,
+        "comments_url": "https://news.ycombinator.com/item?id=47901312"
+      },
+      "hot_score": 0.81,
+      "tags": [
         "Science",
-        "AI"
-      ],
-      "hot_score": 1.07
-    },
-    {
-      "title_en": "The Classic American Diner",
-      "url": "https://blogs.loc.gov/picturethis/2026/04/the-classic-american-diner/",
-      "title_zh": "经典美式餐馆",
-      "created_display": "Created: Apr 24, 2026 / 12:01 PT",
-      "image_url": "https://blogs.loc.gov/picturethis/files/2026/04/service-pnp-mrg-00100-00102v.jpg",
-      "summary_en": "A Library of Congress piece examines the iconography and history of the classic American diner, from stainless interiors to neon signage, and its role in 20th-century American life.",
-      "summary_zh": "本文回顾经典美式餐馆的历史与标志性设计，如不锈钢内饰和霓虹招牌，以及它们在20世纪美国生活中的文化地位。",
-      "hn": {
-        "id": 47894435,
-        "type": "story",
-        "by": "NaOH",
-        "score": 243,
-        "descendants": 149,
-        "time": 1777057269,
-        "comments_url": "https://news.ycombinator.com/item?id=47894435"
-      },
-      "tags": [
-        "Culture",
-        "Politics"
-      ],
-      "hot_score": 0.95
-    },
-    {
-      "title_en": "OpenAI releases GPT-5.5 and GPT-5.5 Pro in the API",
-      "url": "https://developers.openai.com/api/docs/changelog",
-      "title_zh": "OpenAI 发布 GPT-5.5 与 GPT-5.5 Pro API",
-      "created_display": "Created: Apr 24, 2026 / 11:23 PT",
-      "image_url": "https://developers.openai.com/og/api/docs/changelog.png",
-      "summary_en": "OpenAI expands its API with GPT-5.5 and GPT-5.5 Pro, bringing improved capabilities and enterprise features to developers. The update promises better reasoning, safety controls, and more deployment options for applications.",
-      "summary_zh": "OpenAI 在 API 中引入 GPT-5.5 与 Pro 版本，带来更强的推理能力、更完善的安全控制以及更多部署选项，面向开发者。",
-      "hn": {
-        "id": 47894000,
-        "type": "story",
-        "by": "arabicalories",
-        "score": 233,
-        "descendants": 127,
-        "time": 1777055012,
-        "comments_url": "https://news.ycombinator.com/item?id=47894000"
-      },
-      "tags": [
-        "AI"
-      ],
-      "hot_score": 0.87
-    },
-    {
-      "title_en": "SDL Now Supports DOS",
-      "url": "https://github.com/libsdl-org/SDL/pull/15377",
-      "title_zh": "SDL 现已支持 DOS 环境",
-      "created_display": "Created: Apr 24, 2026 / 09:20 PT",
-      "image_url": "https://opengraph.githubassets.com/130a8ef78cb07547e2b2b35f1d127906aa493471d2a583e2c0e4352eb2f1006e/libsdl-org/SDL/pull/15377",
-      "summary_en": "SDL now supports DOS environments, enabling legacy DOS apps to run with modern SDL features. This broadens cross-platform reach for retro games and tooling built on SDL, and could simplify porting older multimedia software.",
-      "summary_zh": "SDL 现已支持 DOS 环境，使基于 SDL 的旧 DOS 应用能够在现代系统上运行。此举拓展了向后兼容性，有助于复兴复古游戏和相关工具的移植与开发。",
-      "hn": {
-        "id": 47892291,
-        "type": "story",
-        "by": "Jayschwa",
-        "score": 267,
-        "descendants": 106,
-        "time": 1777047615,
-        "comments_url": "https://news.ycombinator.com/item?id=47892291"
-      },
-      "tags": [
-        "Programming",
-        "Open Source"
-      ],
-      "hot_score": 0.85
+        "Space"
+      ]
     },
     {
       "title_en": "Only One Side Will Be the True Successor to MS-DOS – Windows 2.x",
@@ -484,39 +601,84 @@
         "id": 47900451,
         "type": "story",
         "by": "keepamovin",
-        "score": 20,
-        "descendants": 16,
+        "score": 47,
+        "descendants": 34,
         "time": 1777114995,
         "comments_url": "https://news.ycombinator.com/item?id=47900451"
       },
-      "hot_score": 0.84,
+      "tags": [
+        "Design",
+        "Programming"
+      ],
+      "hot_score": 0.77
+    },
+    {
+      "title_en": "The Classic American Diner",
+      "url": "https://blogs.loc.gov/picturethis/2026/04/the-classic-american-diner/",
+      "title_zh": "经典美式餐馆",
+      "created_display": "Created: Apr 24, 2026 / 12:01 PT",
+      "image_url": "https://blogs.loc.gov/picturethis/files/2026/04/service-pnp-mrg-00100-00102v.jpg",
+      "summary_en": "A Library of Congress piece examines the iconography and history of the classic American diner, from stainless interiors to neon signage, and its role in 20th-century American life.",
+      "summary_zh": "本文回顾经典美式餐馆的历史与标志性设计，如不锈钢内饰和霓虹招牌，以及它们在20世纪美国生活中的文化地位。",
+      "hn": {
+        "id": 47894435,
+        "type": "story",
+        "by": "NaOH",
+        "score": 254,
+        "descendants": 151,
+        "time": 1777057269,
+        "comments_url": "https://news.ycombinator.com/item?id=47894435"
+      },
+      "tags": [
+        "Culture",
+        "Politics"
+      ],
+      "hot_score": 0.73
+    },
+    {
+      "title_en": "Open source memory layer so any AI agent can do what Claude.ai and ChatGPT do",
+      "url": "https://alash3al.github.io/stash?_v01",
+      "title_zh": "开源记忆层：让任何 AI 代理具备 Claude/ChatGPT 式记忆能力",
+      "created_display": "Created: Apr 24, 2026 / 18:24 PT",
+      "image_url": "https://stash.alash3al.com/og-image.png",
+      "summary_en": "Open source memory layer enabling AI agents to persist and reason across interactions, bridging the gap to Claude/ChatGPT-like capabilities. By providing a reusable memory store and retrieval mechanism, it helps agents maintain context and learn over time. The project aims to democratize persistent AI memory for broader agents.",
+      "summary_zh": "一个开源的记忆层，帮助 AI 代理在对话中持久化上下文并进行长期推理，接近 Claude/ChatGPT 的记忆能力。提供可重用的记忆存储与检索机制，帮助代理保持上下文与持续学习。目标是让更广泛的代理具备持久记忆的能力。",
+      "hn": {
+        "id": 47897790,
+        "type": "story",
+        "by": "alash3al",
+        "score": 150,
+        "descendants": 61,
+        "time": 1777080280,
+        "comments_url": "https://news.ycombinator.com/item?id=47897790"
+      },
+      "tags": [
+        "AI",
+        "Open Source"
+      ],
+      "hot_score": 0.72
+    },
+    {
+      "title_en": "The longest train journey in the EU",
+      "url": "https://jonworth.eu/the-longest-train-journey-in-the-eu/",
+      "title_zh": "欧盟最长的火车旅程",
+      "created_display": "Created: Apr 25, 2026 / 10:42 PT",
+      "image_url": "https://jonworth.eu/content/images/size/w1200/2026/04/tornio.jpg",
+      "summary_en": "The piece outlines the EU's longest train journey, highlighting its route and duration. It uses the journey to reflect on the practicality and romance of cross-border rail travel in Europe.",
+      "summary_zh": "文章讨论欧盟内最长的火车旅程，涉及路线与所需时间，并用此案例探讨欧洲跨境铁路旅行的可行性与体验。",
+      "hn": {
+        "id": 47903137,
+        "type": "story",
+        "by": "fanf2",
+        "score": 6,
+        "descendants": 0,
+        "time": 1777138925,
+        "comments_url": "https://news.ycombinator.com/item?id=47903137"
+      },
+      "hot_score": 0.66,
       "tags": [
         "Culture"
       ]
-    },
-    {
-      "title_en": "Show HN: I've built a nice home server OS",
-      "url": "https://lightwhale.asklandd.dk/",
-      "title_zh": "Show HN：我搭建了一个不错的家庭服务器操作系统",
-      "created_display": "Created: Apr 24, 2026 / 14:42 PT",
-      "image_url": null,
-      "summary_en": "A developer unveils a home server OS designed for hobbyists, emphasizing ease of use, security, and extensibility for home NAS, media servers, and automation. It highlights built-in package management, virtualization options, backups, and community-driven development.",
-      "summary_zh": "作者展示了一个面向家庭服务器的操作系统，定位为易用、注重安全、可扩展，适合家用 NAS、媒体服务器和自动化场景。特色包括自带包管理、虚拟化支持、备份能力以及社区驱动的开发。",
-      "hn": {
-        "id": 47896163,
-        "type": "story",
-        "by": "Zta77",
-        "score": 158,
-        "descendants": 56,
-        "time": 1777066946,
-        "comments_url": "https://news.ycombinator.com/item?id=47896163"
-      },
-      "tags": [
-        "Show HN",
-        "Open Source",
-        "Security"
-      ],
-      "hot_score": 0.78
     },
     {
       "title_en": "US special forces soldier arrested after allegedly winning $400k on Maduro raid",
@@ -539,7 +701,51 @@
         "Security",
         "Politics"
       ],
-      "hot_score": 0.76
+      "hot_score": 0.64
+    },
+    {
+      "title_en": "SDL Now Supports DOS",
+      "url": "https://github.com/libsdl-org/SDL/pull/15377",
+      "title_zh": "SDL 现已支持 DOS 环境",
+      "created_display": "Created: Apr 24, 2026 / 09:20 PT",
+      "image_url": "https://opengraph.githubassets.com/130a8ef78cb07547e2b2b35f1d127906aa493471d2a583e2c0e4352eb2f1006e/libsdl-org/SDL/pull/15377",
+      "summary_en": "SDL now supports DOS environments, enabling legacy DOS apps to run with modern SDL features. This broadens cross-platform reach for retro games and tooling built on SDL, and could simplify porting older multimedia software.",
+      "summary_zh": "SDL 现已支持 DOS 环境，使基于 SDL 的旧 DOS 应用能够在现代系统上运行。此举拓展了向后兼容性，有助于复兴复古游戏和相关工具的移植与开发。",
+      "hn": {
+        "id": 47892291,
+        "type": "story",
+        "by": "Jayschwa",
+        "score": 267,
+        "descendants": 106,
+        "time": 1777047615,
+        "comments_url": "https://news.ycombinator.com/item?id=47892291"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 0.64
+    },
+    {
+      "title_en": "OpenAI releases GPT-5.5 and GPT-5.5 Pro in the API",
+      "url": "https://developers.openai.com/api/docs/changelog",
+      "title_zh": "OpenAI 发布 GPT-5.5 与 GPT-5.5 Pro API",
+      "created_display": "Created: Apr 24, 2026 / 11:23 PT",
+      "image_url": "https://developers.openai.com/og/api/docs/changelog.png",
+      "summary_en": "OpenAI expands its API with GPT-5.5 and GPT-5.5 Pro, bringing improved capabilities and enterprise features to developers. The update promises better reasoning, safety controls, and more deployment options for applications.",
+      "summary_zh": "OpenAI 在 API 中引入 GPT-5.5 与 Pro 版本，带来更强的推理能力、更完善的安全控制以及更多部署选项，面向开发者。",
+      "hn": {
+        "id": 47894000,
+        "type": "story",
+        "by": "arabicalories",
+        "score": 233,
+        "descendants": 127,
+        "time": 1777055012,
+        "comments_url": "https://news.ycombinator.com/item?id=47894000"
+      },
+      "tags": [
+        "AI"
+      ],
+      "hot_score": 0.64
     },
     {
       "title_en": "How to be anti-social – a guide to incoherent and isolating social experiences",
@@ -561,30 +767,31 @@
       "tags": [
         "Culture"
       ],
-      "hot_score": 0.75
+      "hot_score": 0.6
     },
     {
-      "title_en": "Open source memory layer so any AI agent can do what Claude.ai and ChatGPT do",
-      "url": "https://alash3al.github.io/stash?_v01",
-      "title_zh": "开源记忆层：让任何 AI 代理具备 Claude/ChatGPT 式记忆能力",
-      "created_display": "Created: Apr 24, 2026 / 18:24 PT",
-      "image_url": "https://stash.alash3al.com/og-image.png",
-      "summary_en": "Open source memory layer enabling AI agents to persist and reason across interactions, bridging the gap to Claude/ChatGPT-like capabilities. By providing a reusable memory store and retrieval mechanism, it helps agents maintain context and learn over time. The project aims to democratize persistent AI memory for broader agents.",
-      "summary_zh": "一个开源的记忆层，帮助 AI 代理在对话中持久化上下文并进行长期推理，接近 Claude/ChatGPT 的记忆能力。提供可重用的记忆存储与检索机制，帮助代理保持上下文与持续学习。目标是让更广泛的代理具备持久记忆的能力。",
+      "title_en": "Show HN: I've built a nice home server OS",
+      "url": "https://lightwhale.asklandd.dk/",
+      "title_zh": "Show HN：我搭建了一个不错的家庭服务器操作系统",
+      "created_display": "Created: Apr 24, 2026 / 14:42 PT",
+      "image_url": null,
+      "summary_en": "A developer unveils a home server OS designed for hobbyists, emphasizing ease of use, security, and extensibility for home NAS, media servers, and automation. It highlights built-in package management, virtualization options, backups, and community-driven development.",
+      "summary_zh": "作者展示了一个面向家庭服务器的操作系统，定位为易用、注重安全、可扩展，适合家用 NAS、媒体服务器和自动化场景。特色包括自带包管理、虚拟化支持、备份能力以及社区驱动的开发。",
       "hn": {
-        "id": 47897790,
+        "id": 47896163,
         "type": "story",
-        "by": "alash3al",
-        "score": 101,
-        "descendants": 48,
-        "time": 1777080280,
-        "comments_url": "https://news.ycombinator.com/item?id=47897790"
+        "by": "Zta77",
+        "score": 166,
+        "descendants": 59,
+        "time": 1777066946,
+        "comments_url": "https://news.ycombinator.com/item?id=47896163"
       },
       "tags": [
-        "AI",
-        "Open Source"
+        "Show HN",
+        "Open Source",
+        "Security"
       ],
-      "hot_score": 0.74
+      "hot_score": 0.58
     },
     {
       "title_en": "Education must go beyond the mere production of words",
@@ -598,8 +805,8 @@
         "id": 47897349,
         "type": "story",
         "by": "signor_bosco",
-        "score": 97,
-        "descendants": 45,
+        "score": 120,
+        "descendants": 72,
         "time": 1777075903,
         "comments_url": "https://news.ycombinator.com/item?id=47897349"
       },
@@ -607,7 +814,7 @@
         "Education",
         "Programming"
       ],
-      "hot_score": 0.62
+      "hot_score": 0.51
     },
     {
       "title_en": "Cosmology with Geometry Nodes",
@@ -621,16 +828,15 @@
         "id": 47897706,
         "type": "story",
         "by": "shankysingh",
-        "score": 87,
-        "descendants": 2,
+        "score": 98,
+        "descendants": 5,
         "time": 1777079294,
         "comments_url": "https://news.ycombinator.com/item?id=47897706"
       },
       "tags": [
-        "Science",
-        "Open Source"
+        "Science"
       ],
-      "hot_score": 0.61
+      "hot_score": 0.46
     },
     {
       "title_en": "I'm done making desktop applications (2009)",
@@ -644,15 +850,15 @@
         "id": 47891801,
         "type": "story",
         "by": "claxo",
-        "score": 186,
-        "descendants": 193,
+        "score": 192,
+        "descendants": 198,
         "time": 1777045443,
         "comments_url": "https://news.ycombinator.com/item?id=47891801"
       },
       "tags": [
         "Programming"
       ],
-      "hot_score": 0.56
+      "hot_score": 0.44
     },
     {
       "title_en": "SFO Quiet Airport (2025)",
@@ -674,29 +880,7 @@
       "tags": [
         "Business"
       ],
-      "hot_score": 0.53
-    },
-    {
-      "title_en": "Oxford All Souls College General Examination (2025) [pdf]",
-      "url": "https://www.asc.ox.ac.uk/sites/default/files/2025-10/General%202025.pdf",
-      "title_zh": "牛津All Souls学院2025年通用考试（PDF）",
-      "created_display": "Created: Apr 24, 2026 / 21:36 PT",
-      "image_url": null,
-      "summary_en": "Oxford All Souls General Examination 2025 PDF provides the exam framework and sample questions for the college's famously challenging general papers. The document offers a glimpse into the expectations for candidates pursuing research-level scholarship.",
-      "summary_zh": "牛津 All Souls 学院 2025 年通用考试的 PDF 展示了考试框架和常用题型，反映该学院对研究性学术的高度要求。该文件让人一窥考生应对高深学术考核的预期。",
-      "hn": {
-        "id": 47898680,
-        "type": "story",
-        "by": "gregsadetsky",
-        "score": 43,
-        "descendants": 31,
-        "time": 1777091787,
-        "comments_url": "https://news.ycombinator.com/item?id=47898680"
-      },
-      "hot_score": 0.47,
-      "tags": [
-        "Education"
-      ]
+      "hot_score": 0.39
     },
     {
       "title_en": "Hear your agent suffer through your code",
@@ -719,7 +903,7 @@
         "AI",
         "Programming"
       ],
-      "hot_score": 0.45
+      "hot_score": 0.35
     },
     {
       "title_en": "Diatec, known for its mechanical keyboard brand FILCO, has ceased operations",
@@ -733,36 +917,37 @@
         "id": 47892236,
         "type": "story",
         "by": "gslin",
-        "score": 134,
-        "descendants": 47,
+        "score": 137,
+        "descendants": 48,
         "time": 1777047409,
         "comments_url": "https://news.ycombinator.com/item?id=47892236"
       },
       "tags": [
+        "Hardware",
         "Business"
       ],
-      "hot_score": 0.42
+      "hot_score": 0.33
     },
     {
-      "title_en": "Escrow Security for iCloud Keychain",
-      "url": "https://support.apple.com/guide/security/escrow-security-for-icloud-keychain-sec3e341e75d/web",
-      "title_zh": "iCloud 钥匙串托管的安全性",
-      "created_display": "Created: Apr 24, 2026 / 23:56 PT",
-      "image_url": "https://help.apple.com/assets/67A2C2513F5F79B3860B896E/67A2C2543F5F79B3860B8974/en_US/52d714626638d3391623c853be0c593b.png",
-      "summary_en": "Explains escrow security for iCloud Keychain, including how recovery keys work and the trust chain between devices and Apple's servers. Highlights security implications for password recovery, cross-device syncing, and potential attack considerations.",
-      "summary_zh": "解釋 iCloud 钥匙串的托管安全機制，包括恢復密鑰如何運作與設備與伺服器之間的信任鏈。強調對密碼找回、跨設備同步及潛在攻擊面的安全性考量。",
+      "title_en": "Oxford All Souls College General Examination (2025) [pdf]",
+      "url": "https://www.asc.ox.ac.uk/sites/default/files/2025-10/General%202025.pdf",
+      "title_zh": "牛津All Souls学院2025年通用考试（PDF）",
+      "created_display": "Created: Apr 24, 2026 / 21:36 PT",
+      "image_url": null,
+      "summary_en": "Oxford All Souls General Examination 2025 PDF provides the exam framework and sample questions for the college's famously challenging general papers. The document offers a glimpse into the expectations for candidates pursuing research-level scholarship.",
+      "summary_zh": "牛津 All Souls 学院 2025 年通用考试的 PDF 展示了考试框架和常用题型，反映该学院对研究性学术的高度要求。该文件让人一窥考生应对高深学术考核的预期。",
       "hn": {
-        "id": 47899334,
+        "id": 47898680,
         "type": "story",
-        "by": "gurjeet",
-        "score": 26,
-        "descendants": 5,
-        "time": 1777100183,
-        "comments_url": "https://news.ycombinator.com/item?id=47899334"
+        "by": "gregsadetsky",
+        "score": 43,
+        "descendants": 31,
+        "time": 1777091787,
+        "comments_url": "https://news.ycombinator.com/item?id=47898680"
       },
-      "hot_score": 0.41,
+      "hot_score": 0.28,
       "tags": [
-        "Security"
+        "Education"
       ]
     },
     {
@@ -788,30 +973,53 @@
         "AI",
         "Web"
       ],
-      "hot_score": 0.32
+      "hot_score": 0.25
     },
     {
-      "title_en": "Different language models learn similar number representations",
-      "url": "https://arxiv.org/abs/2604.20817",
-      "title_zh": "不同语言模型学习到相似的数字表示",
-      "created_display": "Created: Apr 24, 2026 / 07:34 PT",
-      "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-      "summary_en": "Different language models converge on similar numerical representations despite architectural differences, indicating shared inductive biases in how they process numbers. This alignment may enable cross-model transfer of number-related reasoning and suggests robust numeric grounding across models. The result informs how we probe, compare, and compose AI systems for math-heavy tasks.",
-      "summary_zh": "尽管架构不同，语言模型在数字表示上趋于一致，显示出对数字处理的共性偏置。这种对齐或为跨模型的数值推理迁移带来机会，表明模型在数值理解方面具有更稳定的基础。研究也为在数学相关任务中对AI系统进行比较与组合提供了参考。",
+      "title_en": "Social media is no longer social",
+      "url": "https://bsky.app/profile/pettertornberg.com/post/3mk64uzhdm22z",
+      "title_zh": "社交媒体已不再是社交",
+      "created_display": "Created: Apr 25, 2026 / 06:45 PT",
+      "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:wln4abcehdwgg37snks734l5/bafkreigh4n6bnt43lbtffzhjvg67gpy2rgaji2vccmgqobzdyjx7afolry",
+      "summary_en": "Argues that modern platforms optimize engagement and monetization over human interaction, leading to echo chambers and brittle social graphs. Proposes alternatives or design principles for restoring genuine online community and privacy.",
+      "summary_zh": "認為現代平台將參與度與商業化置於人際互動之上，導致回音室效應與脆弱的社交網絡。提出恢復真實社群與隱私的設計原則與替代方向。",
       "hn": {
-        "id": 47890873,
+        "id": 47901535,
         "type": "story",
-        "by": "Anon84",
-        "score": 95,
-        "descendants": 38,
-        "time": 1777041263,
-        "comments_url": "https://news.ycombinator.com/item?id=47890873"
+        "by": "frereubu",
+        "score": 9,
+        "descendants": 2,
+        "time": 1777124704,
+        "comments_url": "https://news.ycombinator.com/item?id=47901535"
       },
+      "hot_score": 0.24,
       "tags": [
-        "AI",
-        "Science"
-      ],
-      "hot_score": 0.26
+        "Privacy",
+        "Culture"
+      ]
+    },
+    {
+      "title_en": "Escrow Security for iCloud Keychain",
+      "url": "https://support.apple.com/guide/security/escrow-security-for-icloud-keychain-sec3e341e75d/web",
+      "title_zh": "iCloud 钥匙串托管的安全性",
+      "created_display": "Created: Apr 24, 2026 / 23:56 PT",
+      "image_url": "https://help.apple.com/assets/67A2C2513F5F79B3860B896E/67A2C2543F5F79B3860B8974/en_US/52d714626638d3391623c853be0c593b.png",
+      "summary_en": "Explains escrow security for iCloud Keychain, including how recovery keys work and the trust chain between devices and Apple's servers. Highlights security implications for password recovery, cross-device syncing, and potential attack considerations.",
+      "summary_zh": "解釋 iCloud 钥匙串的托管安全機制，包括恢復密鑰如何運作與設備與伺服器之間的信任鏈。強調對密碼找回、跨設備同步及潛在攻擊面的安全性考量。",
+      "hn": {
+        "id": 47899334,
+        "type": "story",
+        "by": "gurjeet",
+        "score": 26,
+        "descendants": 5,
+        "time": 1777100183,
+        "comments_url": "https://news.ycombinator.com/item?id=47899334"
+      },
+      "hot_score": 0.22,
+      "tags": [
+        "Security",
+        "Privacy"
+      ]
     },
     {
       "title_en": "Mounting tar archives as a filesystem in WebAssembly",
@@ -834,7 +1042,30 @@
         "Programming",
         "Web"
       ],
-      "hot_score": 0.25
+      "hot_score": 0.2
+    },
+    {
+      "title_en": "Different language models learn similar number representations",
+      "url": "https://arxiv.org/abs/2604.20817",
+      "title_zh": "不同语言模型学习到相似的数字表示",
+      "created_display": "Created: Apr 24, 2026 / 07:34 PT",
+      "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "summary_en": "Different language models converge on similar numerical representations despite architectural differences, indicating shared inductive biases in how they process numbers. This alignment may enable cross-model transfer of number-related reasoning and suggests robust numeric grounding across models. The result informs how we probe, compare, and compose AI systems for math-heavy tasks.",
+      "summary_zh": "尽管架构不同，语言模型在数字表示上趋于一致，显示出对数字处理的共性偏置。这种对齐或为跨模型的数值推理迁移带来机会，表明模型在数值理解方面具有更稳定的基础。研究也为在数学相关任务中对AI系统进行比较与组合提供了参考。",
+      "hn": {
+        "id": 47890873,
+        "type": "story",
+        "by": "Anon84",
+        "score": 95,
+        "descendants": 38,
+        "time": 1777041263,
+        "comments_url": "https://news.ycombinator.com/item?id=47890873"
+      },
+      "tags": [
+        "AI",
+        "Science"
+      ],
+      "hot_score": 0.2
     },
     {
       "title_en": "CSS as a Query Language",
@@ -857,74 +1088,7 @@
         "Programming",
         "Web"
       ],
-      "hot_score": 0.24
-    },
-    {
-      "title_en": "$8800 house design helps prevent fatal diseases in African children",
-      "url": "https://www.science.org/content/article/simple-house-may-help-prevent-multiple-fatal-diseases-african-children",
-      "title_zh": "8800 美元房屋设计有助于预防非洲儿童致命疾病",
-      "created_display": "Created: Apr 24, 2026 / 15:35 PT",
-      "image_url": null,
-      "summary_en": "An affordable housing design around $8,800 focuses on ventilation, lighting, and sanitation to reduce disease exposure in African children, potentially lowering fatal disease risk. The concept demonstrates how low-cost architecture can improve health outcomes.",
-      "summary_zh": "一款约 8800 美元的低成本房屋设计，着重于通风、光照与卫生条件，以降低非洲儿童暴露于疾病的风险，可能有助于减少致命疾病的发生。该概念展示了低成本建筑如何改善健康结果。",
-      "hn": {
-        "id": 47896664,
-        "type": "story",
-        "by": "gmays",
-        "score": 42,
-        "descendants": 20,
-        "time": 1777070136,
-        "comments_url": "https://news.ycombinator.com/item?id=47896664"
-      },
-      "tags": [
-        "Health",
-        "Design"
-      ],
-      "hot_score": 0.22
-    },
-    {
-      "title_en": "Redesigning the Recurse Center application to inspire curious programmers",
-      "url": "https://www.recurse.com/blog/192-redesigning-the-recurse-center-application",
-      "title_zh": "重新设计 Recurse Center 的申请，激发好奇程序员",
-      "created_display": "Created: Apr 24, 2026 / 09:45 PT",
-      "image_url": "https://d29xw0ra2h4o4u.cloudfront.net/assets/logo_opengraph-2325537a191b8371ffd077b0aacee12e8183069b9997ce069d0ae484f4b8ed8c.png",
-      "summary_en": "Recurse Center redesigned its application to minimize credential bias and emphasize curiosity and learning potential. The update includes new prompts and evaluation criteria intended to surface creative problem solvers rather than résumés.",
-      "summary_zh": "Recurse Center 重新设计申请流程，减弱对资历的依赖，强调好奇心与学习潜力。新流程引入新的问题和评估标准，旨在发现具备创造性解决问题能力的申请者。",
-      "hn": {
-        "id": 47892660,
-        "type": "story",
-        "by": "nicholasjbs",
-        "score": 65,
-        "descendants": 10,
-        "time": 1777049110,
-        "comments_url": "https://news.ycombinator.com/item?id=47892660"
-      },
-      "tags": [
-        "Education"
-      ],
-      "hot_score": 0.21
-    },
-    {
-      "title_en": "CC-Canary: Detect early signs of regressions in Claude Code",
-      "url": "https://github.com/delta-hq/cc-canary",
-      "title_zh": "CC-Canary：在 Claude Code 中检测回归的早期信号",
-      "created_display": "Created: Apr 24, 2026 / 10:53 PT",
-      "image_url": "https://opengraph.githubassets.com/1d421d3c4398fa5bbbe0b3cde0cdafaf4d1cdc24cd6fcd96b51fb0f64270a80a/delta-hq/cc-canary",
-      "summary_en": "CC-Canary is a Canary-like tool to detect early signs of regressions in Claude Code, helping maintain model quality and catch drift before it harms users.",
-      "summary_zh": "CC-Canary 是一个用于在 Claude Code 中发现回归早期信号的工具，有助于维持模型质量并在问题显现前捕捉漂移。",
-      "hn": {
-        "id": 47893620,
-        "type": "story",
-        "by": "tejpalv",
-        "score": 60,
-        "descendants": 28,
-        "time": 1777053217,
-        "comments_url": "https://news.ycombinator.com/item?id=47893620"
-      },
-      "tags": [
-        "AI"
-      ],
-      "hot_score": 0.21
+      "hot_score": 0.18
     },
     {
       "title_en": "MacBook Neo and how the iPad should be",
@@ -947,7 +1111,120 @@
         "Hardware",
         "Design"
       ],
-      "hot_score": 0.18
+      "hot_score": 0.16
+    },
+    {
+      "title_en": "Redesigning the Recurse Center application to inspire curious programmers",
+      "url": "https://www.recurse.com/blog/192-redesigning-the-recurse-center-application",
+      "title_zh": "重新设计 Recurse Center 的申请，激发好奇程序员",
+      "created_display": "Created: Apr 24, 2026 / 09:45 PT",
+      "image_url": "https://d29xw0ra2h4o4u.cloudfront.net/assets/logo_opengraph-2325537a191b8371ffd077b0aacee12e8183069b9997ce069d0ae484f4b8ed8c.png",
+      "summary_en": "Recurse Center redesigned its application to minimize credential bias and emphasize curiosity and learning potential. The update includes new prompts and evaluation criteria intended to surface creative problem solvers rather than résumés.",
+      "summary_zh": "Recurse Center 重新设计申请流程，减弱对资历的依赖，强调好奇心与学习潜力。新流程引入新的问题和评估标准，旨在发现具备创造性解决问题能力的申请者。",
+      "hn": {
+        "id": 47892660,
+        "type": "story",
+        "by": "nicholasjbs",
+        "score": 65,
+        "descendants": 10,
+        "time": 1777049110,
+        "comments_url": "https://news.ycombinator.com/item?id=47892660"
+      },
+      "tags": [
+        "Programming",
+        "Education"
+      ],
+      "hot_score": 0.16
+    },
+    {
+      "title_en": "CC-Canary: Detect early signs of regressions in Claude Code",
+      "url": "https://github.com/delta-hq/cc-canary",
+      "title_zh": "CC-Canary：在 Claude Code 中检测回归的早期信号",
+      "created_display": "Created: Apr 24, 2026 / 10:53 PT",
+      "image_url": "https://opengraph.githubassets.com/1d421d3c4398fa5bbbe0b3cde0cdafaf4d1cdc24cd6fcd96b51fb0f64270a80a/delta-hq/cc-canary",
+      "summary_en": "CC-Canary is a Canary-like tool to detect early signs of regressions in Claude Code, helping maintain model quality and catch drift before it harms users.",
+      "summary_zh": "CC-Canary 是一个用于在 Claude Code 中发现回归早期信号的工具，有助于维持模型质量并在问题显现前捕捉漂移。",
+      "hn": {
+        "id": 47893620,
+        "type": "story",
+        "by": "tejpalv",
+        "score": 60,
+        "descendants": 28,
+        "time": 1777053217,
+        "comments_url": "https://news.ycombinator.com/item?id=47893620"
+      },
+      "tags": [
+        "AI",
+        "Programming"
+      ],
+      "hot_score": 0.16
+    },
+    {
+      "title_en": "$8800 house design helps prevent fatal diseases in African children",
+      "url": "https://www.science.org/content/article/simple-house-may-help-prevent-multiple-fatal-diseases-african-children",
+      "title_zh": "8800 美元房屋设计有助于预防非洲儿童致命疾病",
+      "created_display": "Created: Apr 24, 2026 / 15:35 PT",
+      "image_url": null,
+      "summary_en": "An affordable housing design around $8,800 focuses on ventilation, lighting, and sanitation to reduce disease exposure in African children, potentially lowering fatal disease risk. The concept demonstrates how low-cost architecture can improve health outcomes.",
+      "summary_zh": "一款约 8800 美元的低成本房屋设计，着重于通风、光照与卫生条件，以降低非洲儿童暴露于疾病的风险，可能有助于减少致命疾病的发生。该概念展示了低成本建筑如何改善健康结果。",
+      "hn": {
+        "id": 47896664,
+        "type": "story",
+        "by": "gmays",
+        "score": 42,
+        "descendants": 20,
+        "time": 1777070136,
+        "comments_url": "https://news.ycombinator.com/item?id=47896664"
+      },
+      "tags": [
+        "Design",
+        "Health"
+      ],
+      "hot_score": 0.15
+    },
+    {
+      "title_en": "1-Bit Hokusai's \"The Great Wave\" (2023)",
+      "url": "https://www.hypertalking.com/2023/05/08/1-bit-pixel-art-of-hokusais-the-great-wave-off-kanagawa/",
+      "title_zh": "1 位元像素風格的《神奈川沖浪裏》（2023）",
+      "created_display": "Created: Apr 22, 2026 / 06:46 PT",
+      "image_url": "https://www.hypertalking.com/wp-content/themes/hypertalking/images/james-colour.png",
+      "summary_en": "A 1-bit pixel-art reinterpretation of Hokusai's The Great Wave Off Kanagawa, created in 2023. The piece demonstrates how ultra-minimal digital art can echo a masterwork's motion and drama, pushing the boundaries of what 'low fidelity' can convey. It underscores the enduring appeal of classic images in the era of retro aesthetics and generative art.",
+      "summary_zh": "用1位元像素風格重新詮釋葛飾北斎的《神奈川沖浪裏》，作品於2023年亮相。極簡像素的限制放大波濤的動勢與張力，顯示經典名作在現代數位美學中的再創造力與吸引力。",
+      "hn": {
+        "id": 47863570,
+        "type": "story",
+        "by": "stephen-hill",
+        "score": 355,
+        "descendants": 65,
+        "time": 1776865583,
+        "comments_url": "https://news.ycombinator.com/item?id=47863570"
+      },
+      "tags": [
+        "Entertainment"
+      ],
+      "hot_score": 0.14
+    },
+    {
+      "title_en": "Email could have been X.400 times better",
+      "url": "https://buttondown.com/blog/x400-vs-smtp-email",
+      "title_zh": "邮件本可以比 X.400 更好",
+      "created_display": "Created: Apr 23, 2026 / 01:10 PT",
+      "image_url": "https://marketing.buttondown.com/og/generic?title=Email+could+have+been+X.400+times+better&subtitle=Matthew+Guay&date=April+17%2C+2026",
+      "summary_en": "An exploration argues that X.400 offered architectural benefits over SMTP—such as stronger routing and security—yet failed to gain traction; the post reflects on why SMTP won and what current email protocols could learn.",
+      "summary_zh": "文章认为 X.400 相较于 SMTP 在路由和安全性等方面具备潜在优势，但未被广泛采用。回顾 SMTP 的胜出原因，并讨论当前邮件协议可以从中学习的经验。",
+      "hn": {
+        "id": 47873323,
+        "type": "story",
+        "by": "maguay",
+        "score": 222,
+        "descendants": 187,
+        "time": 1776931809,
+        "comments_url": "https://news.ycombinator.com/item?id=47873323"
+      },
+      "tags": [
+        "Security"
+      ],
+      "hot_score": 0.14
     },
     {
       "title_en": "ML supports existence of unrecognized transient astronomical phenomena",
@@ -970,29 +1247,7 @@
         "AI",
         "Science"
       ],
-      "hot_score": 0.17
-    },
-    {
-      "title_en": "Email could have been X.400 times better",
-      "url": "https://buttondown.com/blog/x400-vs-smtp-email",
-      "title_zh": "邮件本可以比 X.400 更好",
-      "created_display": "Created: Apr 23, 2026 / 01:10 PT",
-      "image_url": "https://marketing.buttondown.com/og/generic?title=Email+could+have+been+X.400+times+better&subtitle=Matthew+Guay&date=April+17%2C+2026",
-      "summary_en": "An exploration argues that X.400 offered architectural benefits over SMTP—such as stronger routing and security—yet failed to gain traction; the post reflects on why SMTP won and what current email protocols could learn.",
-      "summary_zh": "文章认为 X.400 相较于 SMTP 在路由和安全性等方面具备潜在优势，但未被广泛采用。回顾 SMTP 的胜出原因，并讨论当前邮件协议可以从中学习的经验。",
-      "hn": {
-        "id": 47873323,
-        "type": "story",
-        "by": "maguay",
-        "score": 213,
-        "descendants": 174,
-        "time": 1776931809,
-        "comments_url": "https://news.ycombinator.com/item?id=47873323"
-      },
-      "tags": [
-        "Security"
-      ],
-      "hot_score": 0.15
+      "hot_score": 0.13
     },
     {
       "title_en": "Iliad fragment found in Roman-era mummy",
@@ -1006,8 +1261,8 @@
         "id": 47864056,
         "type": "story",
         "by": "wise_blood",
-        "score": 215,
-        "descendants": 69,
+        "score": 233,
+        "descendants": 79,
         "time": 1776867515,
         "comments_url": "https://news.ycombinator.com/item?id=47864056"
       },
@@ -1028,8 +1283,8 @@
         "id": 47858939,
         "type": "story",
         "by": "Ariarule",
-        "score": 237,
-        "descendants": 44,
+        "score": 253,
+        "descendants": 49,
         "time": 1776831427,
         "comments_url": "https://news.ycombinator.com/item?id=47858939"
       },
@@ -1058,7 +1313,29 @@
       "tags": [
         "Science"
       ],
-      "hot_score": 0.08
+      "hot_score": 0.07
+    },
+    {
+      "title_en": "Humpback whales are forming super-groups",
+      "url": "https://www.bbc.com/future/article/20260416-the-humpback-super-groups-swarming-the-seas",
+      "title_zh": "座头鲸正形成超群群体",
+      "created_display": "Created: Apr 21, 2026 / 19:55 PT",
+      "image_url": "https://ychef.files.bbci.co.uk/624x351/p0ndswqp.jpg",
+      "summary_en": "Humpback whales are forming larger 'super-groups' on feeding grounds, aggregating multiple pods into long-lasting social networks. These groups may boost foraging efficiency and info exchange about prey patches, challenging the view of whales as solitary; reveals new social complexity in large marine mammals.",
+      "summary_zh": "座头鲸在某些觅食场所聚成更大的“超群”，由多个群体组成并持续一段时间。这些社交聚集提升了觅食效率和信息交流，揭示了大型海洋哺乳动物中复杂的社会结构。",
+      "hn": {
+        "id": 47858294,
+        "type": "story",
+        "by": "andsoitis",
+        "score": 182,
+        "descendants": 99,
+        "time": 1776826549,
+        "comments_url": "https://news.ycombinator.com/item?id=47858294"
+      },
+      "tags": [
+        "Science"
+      ],
+      "hot_score": 0.06
     },
     {
       "title_en": "FusionCore: ROS 2 sensor fusion (IMU and GPS and encoders)",
@@ -1077,31 +1354,10 @@
         "time": 1777070198,
         "comments_url": "https://news.ycombinator.com/item?id=47896670"
       },
-      "hot_score": 0.08,
+      "hot_score": 0.05,
       "tags": [
+        "Open Source",
         "Programming"
-      ]
-    },
-    {
-      "title_en": "1-Bit Hokusai's \"The Great Wave\" (2023)",
-      "url": "https://www.hypertalking.com/2023/05/08/1-bit-pixel-art-of-hokusais-the-great-wave-off-kanagawa/",
-      "title_zh": "1 位元像素風格的《神奈川沖浪裏》（2023）",
-      "created_display": "Created: Apr 22, 2026 / 06:46 PT",
-      "image_url": "https://www.hypertalking.com/wp-content/themes/hypertalking/images/james-colour.png",
-      "summary_en": "A 1-bit pixel-art reinterpretation of Hokusai's The Great Wave Off Kanagawa, created in 2023. The piece demonstrates how ultra-minimal digital art can echo a masterwork's motion and drama, pushing the boundaries of what 'low fidelity' can convey. It underscores the enduring appeal of classic images in the era of retro aesthetics and generative art.",
-      "summary_zh": "用1位元像素風格重新詮釋葛飾北斎的《神奈川沖浪裏》，作品於2023年亮相。極簡像素的限制放大波濤的動勢與張力，顯示經典名作在現代數位美學中的再創造力與吸引力。",
-      "hn": {
-        "id": 47863570,
-        "type": "story",
-        "by": "stephen-hill",
-        "score": 149,
-        "descendants": 24,
-        "time": 1776865583,
-        "comments_url": "https://news.ycombinator.com/item?id=47863570"
-      },
-      "hot_score": 0.06,
-      "tags": [
-        "Entertainment"
       ]
     },
     {
@@ -1116,37 +1372,15 @@
         "id": 47851613,
         "type": "story",
         "by": "jxmorris12",
-        "score": 174,
-        "descendants": 121,
+        "score": 177,
+        "descendants": 122,
         "time": 1776791609,
         "comments_url": "https://news.ycombinator.com/item?id=47851613"
       },
       "tags": [
         "Privacy"
       ],
-      "hot_score": 0.05
-    },
-    {
-      "title_en": "Humpback whales are forming super-groups",
-      "url": "https://www.bbc.com/future/article/20260416-the-humpback-super-groups-swarming-the-seas",
-      "title_zh": "座头鲸正形成超群群体",
-      "created_display": "Created: Apr 21, 2026 / 19:55 PT",
-      "image_url": "https://ychef.files.bbci.co.uk/624x351/p0ndswqp.jpg",
-      "summary_en": "Humpback whales are forming larger 'super-groups' on feeding grounds, aggregating multiple pods into long-lasting social networks. These groups may boost foraging efficiency and info exchange about prey patches, challenging the view of whales as solitary; reveals new social complexity in large marine mammals.",
-      "summary_zh": "座头鲸在某些觅食场所聚成更大的“超群”，由多个群体组成并持续一段时间。这些社交聚集提升了觅食效率和信息交流，揭示了大型海洋哺乳动物中复杂的社会结构。",
-      "hn": {
-        "id": 47858294,
-        "type": "story",
-        "by": "andsoitis",
-        "score": 159,
-        "descendants": 80,
-        "time": 1776826549,
-        "comments_url": "https://news.ycombinator.com/item?id=47858294"
-      },
-      "tags": [
-        "Science"
-      ],
-      "hot_score": 0.05
+      "hot_score": 0.04
     },
     {
       "title_en": "A 3D Body from Eight Questions – No Photo, No GPU",
@@ -1160,17 +1394,61 @@
         "id": 47862541,
         "type": "story",
         "by": "arkadiuss",
-        "score": 109,
-        "descendants": 18,
+        "score": 121,
+        "descendants": 23,
         "time": 1776860401,
         "comments_url": "https://news.ycombinator.com/item?id=47862541"
       },
       "tags": [
+        "AI",
         "Privacy",
-        "Data",
         "Hardware"
       ],
       "hot_score": 0.04
+    },
+    {
+      "title_en": "Commenting and Approving Pull Requests",
+      "url": "https://www.jakeworth.com/posts/on-commenting-and-approving-pull-requests/",
+      "title_zh": "评论和批准拉取请求",
+      "created_display": "Created: Apr 23, 2026 / 04:47 PT",
+      "image_url": "https://jakeworth.com/twittercard.png",
+      "summary_en": "Offers guidance on constructive code reviews: how to craft helpful comments, when to approve, and strategies to minimize review bottlenecks. Emphasizes respectful tone, actionable feedback, and aligning PRs with project goals.",
+      "summary_zh": "提供對程式碼審查的實用建議：如何給出有用的評論、何時批准，以及減少審查瓶頸的策略。強調禮貌、可執行的回饋，以及確保拉取請求符合專案目標。",
+      "hn": {
+        "id": 47874613,
+        "type": "story",
+        "by": "jwworth",
+        "score": 62,
+        "descendants": 48,
+        "time": 1776944866,
+        "comments_url": "https://news.ycombinator.com/item?id=47874613"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 0.04
+    },
+    {
+      "title_en": "Which one is more important: more parameters or more computation? (2021)",
+      "url": "https://parl.ai/projects/params_vs_compute/",
+      "title_zh": "参数更多还是计算更多：哪个更重要？（2021）",
+      "created_display": "Created: Apr 24, 2026 / 09:44 PT",
+      "image_url": "https://parl.ai/static/img/icon.png",
+      "summary_en": "An analysis of the size- vs compute- trade-off in AI shows that more compute can outperform simply increasing model size under certain conditions. The takeaway challenges the notion that scaling parameters is always the best route to better performance.",
+      "summary_zh": "对 AI 的规模与计算资源之争进行了分析，结果在某些情境下提高计算能力比单纯增大模型参数更有效。结论挑战了‘一味扩展参数即可提升性能’的观点。",
+      "hn": {
+        "id": 47892655,
+        "type": "story",
+        "by": "jxmorris12",
+        "score": 18,
+        "descendants": 1,
+        "time": 1777049097,
+        "comments_url": "https://news.ycombinator.com/item?id=47892655"
+      },
+      "hot_score": 0.04,
+      "tags": [
+        "AI"
+      ]
     },
     {
       "title_en": "How to Implement an FPS Counter",
@@ -1184,35 +1462,13 @@
         "id": 47857563,
         "type": "story",
         "by": "vplesko",
-        "score": 82,
-        "descendants": 15,
+        "score": 115,
+        "descendants": 19,
         "time": 1776821477,
         "comments_url": "https://news.ycombinator.com/item?id=47857563"
       },
-      "hot_score": 0.03,
       "tags": [
         "Programming"
-      ]
-    },
-    {
-      "title_en": "PCR is a surprisingly near-optimal technology",
-      "url": "https://nikomc.com/2026/04/22/pcr/",
-      "title_zh": "PCR竟然是接近最优的技术",
-      "created_display": "Created: Apr 22, 2026 / 09:57 PT",
-      "image_url": "https://nikomc.com/wp-content/uploads/2026/04/pcr.jpg",
-      "summary_en": "PCR is argued to be near-optimal given physical constraints, suggesting there may be limited room for dramatic efficiency gains over current PCR-based diagnostics and amplification methods.",
-      "summary_zh": "文章认为 PCR 在物理约束下接近最优，说明在现有 PCR 基础上的效率提升空间可能有限，尤其在诊断与扩增应用中。讨论了速度、成本和准确性之间的权衡，以及对现场检测的影响。",
-      "hn": {
-        "id": 47866215,
-        "type": "story",
-        "by": "mailyk",
-        "score": 63,
-        "descendants": 10,
-        "time": 1776877055,
-        "comments_url": "https://news.ycombinator.com/item?id=47866215"
-      },
-      "tags": [
-        "Science"
       ],
       "hot_score": 0.03
     },
@@ -1228,17 +1484,38 @@
         "id": 47849455,
         "type": "story",
         "by": "colinprince",
-        "score": 84,
-        "descendants": 1,
+        "score": 108,
+        "descendants": 2,
         "time": 1776782344,
         "comments_url": "https://news.ycombinator.com/item?id=47849455"
       },
       "tags": [
         "Business",
-        "Startups",
         "Gaming"
       ],
-      "hot_score": 0.02
+      "hot_score": 0.03
+    },
+    {
+      "title_en": "PCR is a surprisingly near-optimal technology",
+      "url": "https://nikomc.com/2026/04/22/pcr/",
+      "title_zh": "PCR竟然是接近最优的技术",
+      "created_display": "Created: Apr 22, 2026 / 09:57 PT",
+      "image_url": "https://nikomc.com/wp-content/uploads/2026/04/pcr.jpg",
+      "summary_en": "PCR is argued to be near-optimal given physical constraints, suggesting there may be limited room for dramatic efficiency gains over current PCR-based diagnostics and amplification methods.",
+      "summary_zh": "文章认为 PCR 在物理约束下接近最优，说明在现有 PCR 基础上的效率提升空间可能有限，尤其在诊断与扩增应用中。讨论了速度、成本和准确性之间的权衡，以及对现场检测的影响。",
+      "hn": {
+        "id": 47866215,
+        "type": "story",
+        "by": "mailyk",
+        "score": 75,
+        "descendants": 12,
+        "time": 1776877055,
+        "comments_url": "https://news.ycombinator.com/item?id=47866215"
+      },
+      "tags": [
+        "Science"
+      ],
+      "hot_score": 0.03
     },
     {
       "title_en": "You don't want long-lived keys",
@@ -1263,25 +1540,71 @@
       "hot_score": 0.02
     },
     {
-      "title_en": "A disabled kea parrot is the alpha male of his circus",
-      "url": "https://www.cell.com/current-biology/fulltext/S0960-9822(26)00259-9",
-      "title_zh": "一只残疾的kea鹦鹉成了马戏团的领头鸟",
-      "created_display": "Created: Apr 22, 2026 / 22:07 PT",
-      "image_url": null,
-      "summary_en": "A disabled kea parrot unexpectedly acts as the alpha figure in a circus troupe, offering insights into resilience and social dynamics in intelligent birds. The study highlights how individual variation can redefine roles in a group.",
-      "summary_zh": "一只残疾的kea鹦鹉意外成为马戏团中的领头者，揭示了高智商鸟类的社会动力与韧性。研究强调个体差异如何重塑群体中的角色分工。",
+      "title_en": "What Async Promised and What It Delivered",
+      "url": "https://causality.blog/essays/what-async-promised/",
+      "title_zh": "异步编程：承诺与现实",
+      "created_display": "Created: Apr 21, 2026 / 22:28 PT",
+      "image_url": "https://causality.blog/og-essay-3.png",
+      "summary_en": "Async promised simpler concurrency and scalability but delivered complexity in practice. The piece argues for better mental models and language/runtime design to align promises with real-world trade-offs.",
+      "summary_zh": "关于异步编程的承诺与现实存在差距。文章认为异步更多地解决了 I/O 的扩展性问题，但带来了新的复杂性，并呼吁改进心智模型与语言/运行时设计，以更好地把承诺落地。",
       "hn": {
-        "id": 47872418,
+        "id": 47859442,
         "type": "story",
         "by": "zdw",
-        "score": 27,
-        "descendants": 9,
-        "time": 1776920871,
-        "comments_url": "https://news.ycombinator.com/item?id=47872418"
+        "score": 69,
+        "descendants": 38,
+        "time": 1776835738,
+        "comments_url": "https://news.ycombinator.com/item?id=47859442"
       },
       "hot_score": 0.02,
       "tags": [
-        "Science"
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "The Free Universal Construction Kit",
+      "url": "https://fffff.at/free-universal-construction-kit/",
+      "title_zh": "免费通用构造套件",
+      "created_display": "Created: Apr 22, 2026 / 00:20 PT",
+      "image_url": "https://fffff.at/files/2012/03/kit_optical_comparator_500x333.jpg",
+      "summary_en": "An open hardware project that provides 3D-printable adapters to connect LEGO bricks with other brands, enabling cross-brand construction. The kit includes downloadable files and community-funded components, showcasing practical interoperability and the spirit of open hardware in playful engineering.",
+      "summary_zh": "一个开源的硬件项目，提供将乐高与其他品牌的搭建系统连接的3D打印适配器，使跨品牌拼搭成为可能。套件包含可下载的设计文件与社区资助的组件，展示了实际互操作性在玩具硬件中的应用，以及对封闭品牌生态的挑战。",
+      "hn": {
+        "id": 47860198,
+        "type": "story",
+        "by": "robinhouston",
+        "score": 57,
+        "descendants": 10,
+        "time": 1776842423,
+        "comments_url": "https://news.ycombinator.com/item?id=47860198"
+      },
+      "hot_score": 0.02,
+      "tags": [
+        "Open Source",
+        "Hardware"
+      ]
+    },
+    {
+      "title_en": "Desmond Morris, 98, Dies; Zoologist Saw Links Between Humans and Apes",
+      "url": "https://www.nytimes.com/2026/04/20/science/desmond-morris-dead.html",
+      "title_zh": "Desmond Morris：98岁逝世，揭示人类与猿猴联系的动物学家",
+      "created_display": "Created: Apr 22, 2026 / 16:07 PT",
+      "image_url": null,
+      "summary_en": "Desmond Morris, a zoologist and author of The Naked Ape, died at 98. His work framed human behavior as rooted in primate evolution and highlighted continuities with other apes, influencing popular science and our understanding of biology.",
+      "summary_zh": "动物学家Desmond Morris去世，享年98岁。他的研究将人类行为置于灵长类进化的框架内，强调人与猿猴之间的共性，从而影响了公众对生物学和行为的认知。",
+      "hn": {
+        "id": 47870439,
+        "type": "story",
+        "by": "bookofjoe",
+        "score": 52,
+        "descendants": 4,
+        "time": 1776899267,
+        "comments_url": "https://news.ycombinator.com/item?id=47870439"
+      },
+      "hot_score": 0.02,
+      "tags": [
+        "Science",
+        "Culture"
       ]
     },
     {
@@ -1303,7 +1626,6 @@
       },
       "hot_score": 0.01,
       "tags": [
-        "Science",
         "Culture"
       ]
     },
@@ -1325,8 +1647,7 @@
         "comments_url": "https://news.ycombinator.com/item?id=47858982"
       },
       "tags": [
-        "Security",
-        "Hardware"
+        "Security"
       ],
       "hot_score": 0.01
     },
@@ -1349,10 +1670,55 @@
       },
       "tags": [
         "Hardware",
-        "Culture",
+        "Science",
         "AI"
       ],
       "hot_score": 0.01
+    },
+    {
+      "title_en": "Insights into firewood use by early Middle Pleistocene hominins",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0277379126001824",
+      "title_zh": "早期中更新世人类对柴火使用的洞见",
+      "created_display": "Created: Apr 22, 2026 / 13:42 PT",
+      "image_url": null,
+      "summary_en": "New evidence sheds light on how early Middle Pleistocene hominins used firewood, suggesting fire management and cooked foods influenced diet and energy budgets. The findings have implications for social organization and cognitive evolution.",
+      "summary_zh": "新证据表明早期中更新世人类对柴火有系统性使用，涉及火源管理和烹煮食物。此类活动对能量获取、社会组织与认知演化有重要含义。",
+      "hn": {
+        "id": 47869042,
+        "type": "story",
+        "by": "wslh",
+        "score": 29,
+        "descendants": 6,
+        "time": 1776890526,
+        "comments_url": "https://news.ycombinator.com/item?id=47869042"
+      },
+      "hot_score": 0.01,
+      "tags": [
+        "Science",
+        "Energy"
+      ]
+    },
+    {
+      "title_en": "A disabled kea parrot is the alpha male of his circus",
+      "url": "https://www.cell.com/current-biology/fulltext/S0960-9822(26)00259-9",
+      "title_zh": "一只残疾的kea鹦鹉成了马戏团的领头鸟",
+      "created_display": "Created: Apr 22, 2026 / 22:07 PT",
+      "image_url": null,
+      "summary_en": "A disabled kea parrot unexpectedly acts as the alpha figure in a circus troupe, offering insights into resilience and social dynamics in intelligent birds. The study highlights how individual variation can redefine roles in a group.",
+      "summary_zh": "一只残疾的kea鹦鹉意外成为马戏团中的领头者，揭示了高智商鸟类的社会动力与韧性。研究强调个体差异如何重塑群体中的角色分工。",
+      "hn": {
+        "id": 47872418,
+        "type": "story",
+        "by": "zdw",
+        "score": 27,
+        "descendants": 9,
+        "time": 1776920871,
+        "comments_url": "https://news.ycombinator.com/item?id=47872418"
+      },
+      "hot_score": 0.01,
+      "tags": [
+        "Science"
+      ]
     },
     {
       "title_en": "Panipat: The Rise of the Mughals",
@@ -1373,8 +1739,8 @@
       },
       "hot_score": 0.01,
       "tags": [
-        "Culture",
-        "Politics"
+        "Politics",
+        "Culture"
       ]
     },
     {
@@ -1389,37 +1755,15 @@
         "id": 47863196,
         "type": "story",
         "by": "samclemens",
-        "score": 16,
+        "score": 19,
         "descendants": 1,
         "time": 1776863914,
         "comments_url": "https://news.ycombinator.com/item?id=47863196"
       },
-      "hot_score": 0.01,
       "tags": [
         "Culture"
-      ]
-    },
-    {
-      "title_en": "Commenting and Approving Pull Requests",
-      "url": "https://www.jakeworth.com/posts/on-commenting-and-approving-pull-requests/",
-      "title_zh": "评论和批准拉取请求",
-      "created_display": "Created: Apr 23, 2026 / 04:47 PT",
-      "image_url": "https://jakeworth.com/twittercard.png",
-      "summary_en": "Offers guidance on constructive code reviews: how to craft helpful comments, when to approve, and strategies to minimize review bottlenecks. Emphasizes respectful tone, actionable feedback, and aligning PRs with project goals.",
-      "summary_zh": "提供對程式碼審查的實用建議：如何給出有用的評論、何時批准，以及減少審查瓶頸的策略。強調禮貌、可執行的回饋，以及確保拉取請求符合專案目標。",
-      "hn": {
-        "id": 47874613,
-        "type": "story",
-        "by": "jwworth",
-        "score": 7,
-        "descendants": 6,
-        "time": 1776944866,
-        "comments_url": "https://news.ycombinator.com/item?id=47874613"
-      },
-      "hot_score": 0.0,
-      "tags": [
-        "Programming"
-      ]
+      ],
+      "hot_score": 0.01
     },
     {
       "title_en": "ENIAC's Architects Wove Stories Through Computing",
@@ -1440,8 +1784,7 @@
       },
       "hot_score": 0.0,
       "tags": [
-        "Culture",
-        "Science"
+        "Culture"
       ]
     }
   ]
