@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>68</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>9865</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>67</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>66</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-04-24</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>69</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>9915</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>67</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>67</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-04-25</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,118 +20,118 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='824' data-hn-time='1777046359'>
+<div class='hn-top-story-item' data-hn-score='860' data-hn-time='1777046359'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/24/top_stories_04242026#story-47892019'>I cancelled Claude: Token issues, declining quality, and poor support</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/25/top_stories_04252026#story-47892019'>I cancelled Claude: Token issues, declining quality, and poor support</a>
  <a class='hn-top-story-link' href='https://nickyreinert.de/en/2026/2026-04-24-claude-critics/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>我取消了 Claude：令牌问题、质量下降与支持不足</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.6</span> <span class='hn-top-story-score'>&#9650; 824</span> <span class='hn-top-story-comments'>&#128172; 489</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.9</span> <span class='hn-top-story-score'>&#9650; 860</span> <span class='hn-top-story-comments'>&#128172; 505</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='1855' data-hn-time='1776999681'>
+<div class='hn-top-story-item' data-hn-score='90' data-hn-time='1777090681'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/24/top_stories_04242026#story-47884971'>DeepSeek v4</a>
- <a class='hn-top-story-link' href='https://api-docs.deepseek.com/news/news260424' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/25/top_stories_04252026#story-47898597'>Turbo Vision 2.0 – a modern port</a>
+ <a class='hn-top-story-link' href='https://github.com/magiblot/tvision' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>DeepSeek v4</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.7</span> <span class='hn-top-story-score'>&#9650; 1855</span> <span class='hn-top-story-comments'>&#128172; 1437</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>Turbo Vision 2.0：现代移植</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.3</span> <span class='hn-top-story-score'>&#9650; 90</span> <span class='hn-top-story-comments'>&#128172; 15</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='67' data-hn-time='1777081653'>
+<div class='hn-top-story-item' data-hn-score='174' data-hn-time='1777081653'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/24/top_stories_04242026#story-47897891'>Firefox Has Integrated Brave's Adblock Engine</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/25/top_stories_04252026#story-47897891'>Firefox Has Integrated Brave's Adblock Engine</a>
  <a class='hn-top-story-link' href='https://itsfoss.com/news/firefox-ships-brave-adblock-engine/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Firefox 已集成 Brave 的广告拦截引擎</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 67</span> <span class='hn-top-story-comments'>&#128172; 27</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Web</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 174</span> <span class='hn-top-story-comments'>&#128172; 79</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='435' data-hn-time='1777046681'>
+<div class='hn-top-story-item' data-hn-score='1882' data-hn-time='1776999681'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/24/top_stories_04242026#story-47892074'>Google plans to invest up to $40B in Anthropic</a>
- <a class='hn-top-story-link' href='https://www.bloomberg.com/news/articles/2026-04-24/google-plans-to-invest-up-to-40-billion-in-anthropic' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/25/top_stories_04252026#story-47884971'>DeepSeek v4</a>
+ <a class='hn-top-story-link' href='https://api-docs.deepseek.com/news/news260424' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>谷歌拟向 Anthropic 投资最高400亿美元</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 435</span> <span class='hn-top-story-comments'>&#128172; 461</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>DeepSeek v4</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 1882</span> <span class='hn-top-story-comments'>&#128172; 1467</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='60' data-hn-time='1777078718'>
+<div class='hn-top-story-item' data-hn-score='39' data-hn-time='1777096572'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/24/top_stories_04242026#story-47897647'>Replace IBM Quantum back end with /dev/urandom</a>
- <a class='hn-top-story-link' href='https://github.com/yuvadm/quantumslop/blob/25ad2e76ae58baa96f6219742459407db9dd17f5/URANDOM_DEMO.md' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/25/top_stories_04252026#story-47899053'>New 10 GbE USB adapters are cooler, smaller, cheaper</a>
+ <a class='hn-top-story-link' href='https://www.jeffgeerling.com/blog/2026/new-10-gbe-usb-adapters-cooler-smaller-cheaper/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>用 /dev/urandom 替换 IBM 量子后端</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 60</span> <span class='hn-top-story-comments'>&#128172; 7</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Web</span></div>
+<div class='hn-top-story-zh'>新款 10 GbE USB 适配器更酷更小更便宜</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 39</span> <span class='hn-top-story-comments'>&#128172; 8</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='381' data-hn-time='1777040932'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='534' data-hn-time='1777046681'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/24/top_stories_04242026#story-47890799'>Sabotaging projects by overthinking, scope creep, and structural diffing</a>
- <a class='hn-top-story-link' href='https://kevinlynagh.com/newsletter/2026_04_overthinking/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/25/top_stories_04252026#story-47892074'>Google plans to invest up to $40B in Anthropic</a>
+ <a class='hn-top-story-link' href='https://www.bloomberg.com/news/articles/2026-04-24/google-plans-to-invest-up-to-40-billion-in-anthropic' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>过度思考、范围蠕变与结构性差异对项目的破坏</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 381</span> <span class='hn-top-story-comments'>&#128172; 96</span> <span class='hn-top-story-tag'>Career</span></div>
+<div class='hn-top-story-zh'>谷歌拟向 Anthropic 投资最高400亿美元</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 534</span> <span class='hn-top-story-comments'>&#128172; 524</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Startups</span> <span class='hn-top-story-tag'>Finance</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='192' data-hn-time='1777059046'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='125' data-hn-time='1777078718'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/24/top_stories_04242026#story-47894747'>My audio interface has SSH enabled by default</a>
- <a class='hn-top-story-link' href='https://hhh.hn/rodecaster-duo-fw/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/25/top_stories_04252026#story-47897647'>Replace IBM Quantum back end with /dev/urandom</a>
+ <a class='hn-top-story-link' href='https://github.com/yuvadm/quantumslop/blob/25ad2e76ae58baa96f6219742459407db9dd17f5/URANDOM_DEMO.md' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>我的音频接口默认启用 SSH</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 192</span> <span class='hn-top-story-comments'>&#128172; 53</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>用 /dev/urandom 替换 IBM 量子后端</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 125</span> <span class='hn-top-story-comments'>&#128172; 16</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='363' data-hn-time='1777041910'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='43' data-hn-time='1777091787'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/24/top_stories_04242026#story-47891019'>Norway set to become latest country to ban social media for under 16s</a>
- <a class='hn-top-story-link' href='https://www.bloomberg.com/news/articles/2026-04-24/norway-wants-kids-to-be-kids-with-social-media-ban-for-under-16s' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/25/top_stories_04252026#story-47898680'>Oxford All Souls College General Examination (2025) [pdf]</a>
+ <a class='hn-top-story-link' href='https://www.asc.ox.ac.uk/sites/default/files/2025-10/General%202025.pdf' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>挪威将成最新禁止未满16岁使用社交媒体的国家</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 363</span> <span class='hn-top-story-comments'>&#128172; 391</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>牛津All Souls学院2025年通用考试（PDF）</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.3</span> <span class='hn-top-story-score'>&#9650; 43</span> <span class='hn-top-story-comments'>&#128172; 31</span> <span class='hn-top-story-tag'>Education</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='226' data-hn-time='1777055012'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1540' data-hn-time='1776967299'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/24/top_stories_04242026#story-47894000'>OpenAI releases GPT-5.5 and GPT-5.5 Pro in the API</a>
- <a class='hn-top-story-link' href='https://developers.openai.com/api/docs/changelog' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>OpenAI 发布 GPT-5.5 与 GPT-5.5 Pro API</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 226</span> <span class='hn-top-story-comments'>&#128172; 124</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1533' data-hn-time='1776967299'>
-<span class='hn-top-story-rank'>10</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/24/top_stories_04242026#story-47879092'>GPT-5.5</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/25/top_stories_04252026#story-47879092'>GPT-5.5</a>
  <a class='hn-top-story-link' href='https://openai.com/index/introducing-gpt-5-5/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>GPT-5.5 发布</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 1533</span> <span class='hn-top-story-comments'>&#128172; 1020</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 1540</span> <span class='hn-top-story-comments'>&#128172; 1026</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='412' data-hn-time='1777040932'>
+<span class='hn-top-story-rank'>10</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/25/top_stories_04252026#story-47890799'>Sabotaging projects by overthinking, scope creep, and structural diffing</a>
+ <a class='hn-top-story-link' href='https://kevinlynagh.com/newsletter/2026_04_overthinking/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>过度思考、范围蠕变与结构性差异对项目的破坏</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 412</span> <span class='hn-top-story-comments'>&#128172; 106</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
-<a class='hn-top-stories-more' href='/hackernews/2026/04/24/top_stories_04242026'>View all trending stories &rarr;</a>
+<a class='hn-top-stories-more' href='/hackernews/2026/04/25/top_stories_04252026'>View all trending stories &rarr;</a>
 </div>
 </div>
 <div class='hn-index-section hn-podcast-section'>
@@ -155,10 +155,19 @@ Your browser does not support the audio element.
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 17 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-04-20 — 2026-04-24 <span class="hn-row-sep">·</span> 700 stories <span class="hn-row-sep">·</span> 5 days</span>
+<span class='hn-week-meta'>2026-04-20 — 2026-04-25 <span class="hn-row-sep">·</span> 750 stories <span class="hn-row-sep">·</span> 6 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
+<div class='hn-day-row'>
+<div class='hn-day-date'>2026-04-25 <span class='hn-day-weekday'>Sat</span></div>
+<div class='hn-day-stories'>
+<a class='hn-story-link' href='/hackernews/2026/04/25/top_stories_04252026'>
+<span class='hn-row-type hn-type-top'>Trending</span>
+<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>14</b> <span class="hn-row-sep">·</span> Programming <b>13</b></span>
+</a>
+</div>
+</div>
 <div class='hn-day-row'>
 <div class='hn-day-date'>2026-04-24 <span class='hn-day-weekday'>Fri</span></div>
 <div class='hn-day-stories'>
@@ -559,7 +568,7 @@ Your browser does not support the audio element.
 <details class='hn-week-group'>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 13</span>
-<span class='hn-week-meta'>2026-03-26 — 2026-03-29 <span class="hn-row-sep">·</span> 600 stories <span class="hn-row-sep">·</span> 4 days <span class="hn-row-sep">·</span> 📊 Weekly Digest <span class="hn-row-sep">·</span> 🎧</span>
+<span class='hn-week-meta'>2026-03-27 — 2026-03-29 <span class="hn-row-sep">·</span> 450 stories <span class="hn-row-sep">·</span> 3 days <span class="hn-row-sep">·</span> 📊 Weekly Digest <span class="hn-row-sep">·</span> 🎧</span>
 </summary>
 <div class='hn-week-content'>
 <a class='hn-story-link hn-weekly-digest-link' href='/hackernews/weekly/2026-W13'>
@@ -605,20 +614,6 @@ Your browser does not support the audio element.
 <a class='hn-story-link' href='/hackernews/2026/03/27/top_stories_03272026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
 <span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>25</b> <span class="hn-row-sep">·</span> AI <b>19</b></span>
-</a>
-</div>
-</div>
-<div class='hn-day-row'>
-<div class='hn-day-date'>2026-03-26 <span class='hn-day-weekday'>Thu</span></div>
-<div class='hn-day-stories'>
-<a class='hn-story-link' href='/hackernews/2026/03/26/best_stories_03262026'>
-<span class='hn-row-type hn-type-best'>Daily Best</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>13</b> <span class="hn-row-sep">·</span> Politics <b>11</b></span>
-<span class='hn-podcast-badge' title='Podcast available'>&#x1F3A7;</span>
-</a>
-<a class='hn-story-link' href='/hackernews/2026/03/26/top_stories_03262026'>
-<span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>27</b> <span class="hn-row-sep">·</span> Programming <b>25</b></span>
 </a>
 </div>
 </div>
