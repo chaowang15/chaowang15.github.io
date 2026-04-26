@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>69</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>10007</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>68</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>67</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-04-25</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>69</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>10015</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>68</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>67</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-04-25</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='138' data-hn-time='1777151471'>
+<div class='hn-top-story-item' data-hn-score='140' data-hn-time='1777162367'>
 <span class='hn-top-story-rank'>1</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/25/top_stories_04252026#story-47905984'>Why has there been so little progress on Alzheimer's disease?</a>
+ <a class='hn-top-story-link' href='https://freakonomics.com/podcast/why-has-there-been-so-little-progress-on-alzheimers-disease/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>为何阿尔茨海默病研究进展如此缓慢？</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.5</span> <span class='hn-top-story-score'>&#9650; 140</span> <span class='hn-top-story-comments'>&#128172; 65</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Health</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='213' data-hn-time='1777153878'>
+<span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/25/top_stories_04252026#story-47904876'>USB Cheat Sheet (2022)</a>
+ <a class='hn-top-story-link' href='https://fabiensanglard.net/usbcheat/index.html' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>USB 速查表（2022）</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 213</span> <span class='hn-top-story-comments'>&#128172; 49</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Hardware</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='33' data-hn-time='1777175068'>
+<span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/25/top_stories_04252026#story-47907130'>EU Age Control: The trojan horse for digital IDs</a>
+ <a class='hn-top-story-link' href='https://juraj.bednar.io/en/blog-en/2026/04/17/eu-age-control-the-trojan-horse-for-digital-ids/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>欧盟年龄控制：数字身份的特洛伊木马</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 33</span> <span class='hn-top-story-comments'>&#128172; 3</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='63' data-hn-time='1777164656'>
+<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/25/top_stories_04252026#story-47906253'>Tell HN: An app is silently installing itself on my iPhone every day</a>
+ <a class='hn-top-story-link' href='https://news.ycombinator.com/item?id=47906253' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Tell HN：每天都有应用悄悄在 iPhone 上安装</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 63</span> <span class='hn-top-story-comments'>&#128172; 46</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='138' data-hn-time='1777151471'>
+<span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/04/25/top_stories_04252026#story-47904568'>The AI Industry Is Discovering That the Public Hates It</a>
  <a class='hn-top-story-link' href='https://newrepublic.com/article/209163/ai-industry-discovering-public-backlash' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>AI 行业正在发现公众厌恶它</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 16</span> <span class='hn-top-story-score'>&#9650; 138</span> <span class='hn-top-story-comments'>&#128172; 160</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.3</span> <span class='hn-top-story-score'>&#9650; 138</span> <span class='hn-top-story-comments'>&#128172; 160</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='67' data-hn-time='1777148261'>
-<span class='hn-top-story-rank'>2</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/25/top_stories_04252026#story-47904224'>Can you stop beans from making you gassy?</a>
- <a class='hn-top-story-link' href='https://www.seriouseats.com/how-to-reduce-bean-gas-tested-11883862' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>如何让豆子不再让你放屁？</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.1</span> <span class='hn-top-story-score'>&#9650; 67</span> <span class='hn-top-story-comments'>&#128172; 36</span> <span class='hn-top-story-tag'>Science</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='208' data-hn-time='1777132755'>
-<span class='hn-top-story-rank'>3</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/25/top_stories_04252026#story-47902416'>Niri 26.04: Scrollable-tiling Wayland compositor</a>
- <a class='hn-top-story-link' href='https://github.com/niri-wm/niri/releases/tag/v26.04' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Niri 26.04：可滚动平铺的 Wayland 合成器</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.4</span> <span class='hn-top-story-score'>&#9650; 208</span> <span class='hn-top-story-comments'>&#128172; 63</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Open Source</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='513' data-hn-time='1777096572'>
-<span class='hn-top-story-rank'>4</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/25/top_stories_04252026#story-47899053'>New 10 GbE USB adapters are cooler, smaller, cheaper</a>
- <a class='hn-top-story-link' href='https://www.jeffgeerling.com/blog/2026/new-10-gbe-usb-adapters-cooler-smaller-cheaper/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>新款 10 GbE USB 适配器更酷更小更便宜</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.7</span> <span class='hn-top-story-score'>&#9650; 513</span> <span class='hn-top-story-comments'>&#128172; 303</span> <span class='hn-top-story-tag'>Hardware</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='81' data-hn-time='1777137682'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/25/top_stories_04252026#story-47902993'>Hokusai and Tesselations</a>
- <a class='hn-top-story-link' href='https://dl.ndl.go.jp/pid/1899550/1/11/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>北斎与镶嵌图案</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 81</span> <span class='hn-top-story-comments'>&#128172; 13</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Culture</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='105' data-hn-time='1777133510'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='86' data-hn-time='1777156865'>
 <span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/25/top_stories_04252026#story-47905304'>Colorado Adds Open-Source Exemption to Age-Verification Bill</a>
+ <a class='hn-top-story-link' href='https://fosstodon.org/@carlrichell/116460505717380644' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>科罗拉多州在年龄验证法案中加入开源豁免</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.9</span> <span class='hn-top-story-score'>&#9650; 86</span> <span class='hn-top-story-comments'>&#128172; 27</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='232' data-hn-time='1777133510'>
+<span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/04/25/top_stories_04252026#story-47902525'>Using coding assistance tools to revive projects you never were going to finish</a>
  <a class='hn-top-story-link' href='https://blog.matthewbrunelle.com/its-ok-to-use-coding-assistance-tools-to-revive-the-projects-you-never-were-going-to-finish/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>用编码辅助工具重启那些你原本不打算完成的项目</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.3</span> <span class='hn-top-story-score'>&#9650; 105</span> <span class='hn-top-story-comments'>&#128172; 71</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.8</span> <span class='hn-top-story-score'>&#9650; 232</span> <span class='hn-top-story-comments'>&#128172; 128</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='2026' data-hn-time='1776999681'>
-<span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/25/top_stories_04252026#story-47884971'>DeepSeek v4</a>
- <a class='hn-top-story-link' href='https://api-docs.deepseek.com/news/news260424' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>DeepSeek v4</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.1</span> <span class='hn-top-story-score'>&#9650; 2026</span> <span class='hn-top-story-comments'>&#128172; 1545</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='35' data-hn-time='1777145935'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='127' data-hn-time='1777148261'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/25/top_stories_04252026#story-47903945'>America's Geothermal Breakthrough Could Unlock a 150-Gigawatt Energy Revolution</a>
- <a class='hn-top-story-link' href='https://oilprice.com/Alternative-Energy/Geothermal-Energy/Americas-Geothermal-Breakthrough-Could-Unlock-a-150-Gigawatt-Energy-Revolution.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/25/top_stories_04252026#story-47904224'>Can you stop beans from making you gassy?</a>
+ <a class='hn-top-story-link' href='https://www.seriouseats.com/how-to-reduce-bean-gas-tested-11883862' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>美国地热领域的突破或引发150吉瓦能源革命</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 35</span> <span class='hn-top-story-comments'>&#128172; 20</span> <span class='hn-top-story-tag'>Energy</span></div>
+<div class='hn-top-story-zh'>如何让豆子不再让你放屁？</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.8</span> <span class='hn-top-story-score'>&#9650; 127</span> <span class='hn-top-story-comments'>&#128172; 105</span> <span class='hn-top-story-tag'>Health</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='115' data-hn-time='1777126651'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='184' data-hn-time='1777138838'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/25/top_stories_04252026#story-47901734'>GPT‑5.5 Bio Bug Bounty</a>
- <a class='hn-top-story-link' href='https://openai.com/index/gpt-5-5-bio-bug-bounty/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/25/top_stories_04252026#story-47903126'>Amateur armed with ChatGPT solves an Erdős problem</a>
+ <a class='hn-top-story-link' href='https://www.scientificamerican.com/article/amateur-armed-with-chatgpt-vibe-maths-a-60-year-old-problem/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>GPT‑5.5 生物领域漏洞赏金计划</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.8</span> <span class='hn-top-story-score'>&#9650; 115</span> <span class='hn-top-story-comments'>&#128172; 88</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>业余者借助 ChatGPT 解决 Erdős 问题</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.7</span> <span class='hn-top-story-score'>&#9650; 184</span> <span class='hn-top-story-comments'>&#128172; 120</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Science</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='905' data-hn-time='1777046359'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='562' data-hn-time='1777096572'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/25/top_stories_04252026#story-47892019'>I cancelled Claude: Token issues, declining quality, and poor support</a>
- <a class='hn-top-story-link' href='https://nickyreinert.de/en/2026/2026-04-24-claude-critics/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/25/top_stories_04252026#story-47899053'>New 10 GbE USB adapters are cooler, smaller, cheaper</a>
+ <a class='hn-top-story-link' href='https://www.jeffgeerling.com/blog/2026/new-10-gbe-usb-adapters-cooler-smaller-cheaper/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>我取消了 Claude：令牌问题、质量下降与支持不足</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.7</span> <span class='hn-top-story-score'>&#9650; 905</span> <span class='hn-top-story-comments'>&#128172; 535</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>新款 10 GbE USB 适配器更酷更小更便宜</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.7</span> <span class='hn-top-story-score'>&#9650; 562</span> <span class='hn-top-story-comments'>&#128172; 335</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -155,7 +155,7 @@ Your browser does not support the audio element.
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 17 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-04-20 — 2026-04-25 <span class="hn-row-sep">·</span> 842 stories <span class="hn-row-sep">·</span> 6 days</span>
+<span class='hn-week-meta'>2026-04-20 — 2026-04-25 <span class="hn-row-sep">·</span> 850 stories <span class="hn-row-sep">·</span> 6 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -164,7 +164,7 @@ Your browser does not support the audio element.
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/04/25/top_stories_04252026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>92</b> <span class="hn-row-sep">·</span> AI <b>22</b> <span class="hn-row-sep">·</span> Programming <b>19</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>25</b> <span class="hn-row-sep">·</span> Science <b>21</b></span>
 </a>
 </div>
 </div>
