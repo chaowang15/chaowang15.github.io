@@ -4,117 +4,45 @@
     "source": "https://news.ycombinator.com/",
     "api": "https://github.com/HackerNews/API",
     "count_requested": 50,
-    "count_written": 80,
-    "reused_same_day": 34,
+    "count_written": 99,
+    "reused_same_day": 29,
     "reused_cross_day": 0,
-    "new_llm_enriched": 15,
-    "scrape_time_display": "11:47, April 26, 2026 (PDT)",
+    "new_llm_enriched": 20,
+    "scrape_time_display": "15:27, April 26, 2026 (PDT)",
     "timezone": "America/Los_Angeles",
     "date_dir": "2026/04/26",
     "content_date": "2026-04-26",
-    "run_time_local": "11:47, April 26, 2026 (PDT)",
-    "run_time_utc": "2026-04-26 18:47:19 UTC",
+    "run_time_local": "15:27, April 26, 2026 (PDT)",
+    "run_time_utc": "2026-04-26 22:27:45 UTC",
     "incremental": true,
     "stories_max": 100,
-    "hot_score_time_utc": "2026-04-26 18:48:36 UTC"
+    "hot_score_time_utc": "2026-04-26 22:29:07 UTC"
   },
   "items": [
     {
-      "title_en": "The West forgot how to make things, now it’s forgetting how to code",
-      "url": "https://techtrenches.dev/p/the-west-forgot-how-to-make-things",
-      "title_zh": "西方忘记了如何制造，现在又忘记了如何编码",
-      "created_display": "Created: Apr 25, 2026 / 23:24 PT",
-      "image_url": "https://substackcdn.com/image/fetch/$s_!YrAo!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa56e63d9-5f03-432a-99de-2f46dd286b53_508x340.png",
-      "summary_en": "Western economies have lost touch with making things, and now their coding skills are at risk as software becomes more opaque. The piece argues for a revival of hands-on engineering and practical tech literacy to stay competitive in a hardware-software world.",
-      "summary_zh": "文章指出，西方在动手制造能力方面日益薄弱，如今软件日益复杂也让编程能力面临挑战。强调重建动手工程和实际科技素养，以在硬件与软件高度结合的时代保持竞争力。",
+      "title_en": "Sawe becomes first athlete to run a sub-two-hour marathon in a competitive race",
+      "url": "https://www.bbc.com/sport/athletics/articles/crm1m7e0zwzo",
+      "title_zh": "萨韦在正式比赛中实现马拉松2小时内的里程碑",
+      "created_display": "Created: Apr 26, 2026 / 13:56 PT",
+      "image_url": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/b363/live/5c67a4a0-4163-11f1-8a25-27287a9e092d.jpg",
+      "summary_en": "Sawe reportedly becomes the first athlete to run a sub-two-hour marathon in a competitive race, a landmark that presses the boundaries of human endurance. The feat highlights advances in training, pacing, and data-driven preparation enabled by modern sports tech.",
+      "summary_zh": "据称萨韦在正式比赛中首次实现马拉松两小时内的里程碑，挑战人类极限。此成就反映出训练、 pacing 与数据驱动的备战在当代体育科技中的进步。",
       "hn": {
-        "id": 47907879,
+        "id": 47914350,
         "type": "story",
-        "by": "milkglass",
-        "score": 963,
-        "descendants": 625,
-        "time": 1777184682,
-        "comments_url": "https://news.ycombinator.com/item?id=47907879"
-      },
-      "tags": [
-        "Hardware",
-        "Education"
-      ],
-      "hot_score": 7.91
-    },
-    {
-      "title_en": "Asahi Linux Progress Linux 7.0",
-      "url": "https://asahilinux.org/2026/04/progress-report-7-0/",
-      "title_zh": "Asahi Linux Progress Linux 7.0",
-      "created_display": "Created: Apr 26, 2026 / 03:50 PT",
-      "image_url": "https://asahilinux.org/img/AsahiLinux_logomark_256px.png",
-      "summary_en": "Asahi Linux Progress Linux 7.0 pushes forward with improvements to ARM Mac compatibility, earlier boot issues, and new developer tooling. The project continues narrowing the gap between Apple Silicon hardware and open-source Linux.",
-      "summary_zh": "Asahi Linux Progress Linux 7.0 在 ARM Mac 兼容性、早期启动问题和开发工具方面取得改进，持续缩小 Apple Silicon 与开源 Linux 之间的差距。",
-      "hn": {
-        "id": 47909226,
-        "type": "story",
-        "by": "elisaado",
-        "score": 482,
-        "descendants": 210,
-        "time": 1777200632,
-        "comments_url": "https://news.ycombinator.com/item?id=47909226"
-      },
-      "tags": [
-        "Open Source",
-        "Programming",
-        "Hardware"
-      ],
-      "hot_score": 7.67
-    },
-    {
-      "title_en": "Clay PCB Tutorial",
-      "url": "https://feministhackerspaces.cargo.site/Clay-PCB-Tutorial",
-      "title_zh": "Clay PCB 教程",
-      "created_display": "Created: Apr 26, 2026 / 09:02 PT",
-      "image_url": "https://freight.cargo.site/w/1024/i/023df547c98cc900f7a565ef2c87d8f1442ce22e304533fd0abc0c50f5608d65/7E014D23-1433-4DFB-A66F-2BBE15BB1905_1_105_c.jpeg",
-      "summary_en": "Clay PCB Tutorial offers a DIY approach to making printed circuit boards using clay-based materials, outlining steps, tools, and safety considerations. It demonstrates how hobbyists can prototype circuits on a budget, while noting trade-offs in precision and durability.",
-      "summary_zh": "Clay PCB Tutorial 提供一种用黏土材料制作简易 PCB 的实操指南，涵盖所需工具、步骤与安全注意事项。为爱好者以低成本原型电路提供途径，同时也提醒在精度和耐久性之间的权衡。",
-      "hn": {
-        "id": 47911350,
-        "type": "story",
-        "by": "j0r0b0",
-        "score": 118,
-        "descendants": 80,
-        "time": 1777219334,
-        "comments_url": "https://news.ycombinator.com/item?id=47911350"
-      },
-      "hot_score": 7.02,
-      "tags": [
-        "Hardware",
-        "Design",
-        "Education"
-      ]
-    },
-    {
-      "title_en": "GitHub unwanted UX change: issue links now open in a popup",
-      "url": "https://github.com/orgs/community/discussions/192666",
-      "title_zh": "GitHub 的 UX 变动：问题链接现在在弹窗中打开",
-      "created_display": "Created: Apr 26, 2026 / 07:18 PT",
-      "image_url": "https://opengraph.githubassets.com/a0667e319725fafeb67f9181edbf8d89c109b4778b020c7487b0df0708910788/orgs/community/discussions/192666",
-      "summary_en": "Users report that clicking issue links opens a popup window instead of navigating, disrupting workflow and increasing context-switching. The change showcases how UI decisions in developer platforms can impact productivity and friction, and suggests better ways to surface issue details.",
-      "summary_zh": "用户反馈称点击问题链接会弹出一个对话框，导致无法直接跳转，提高了切换成本。此 UX 改动暴露了开发者平台在功能暴露上的取舍，也提醒改动应更好地兼顾工作流连续性和信息可用性。",
-      "hn": {
-        "id": 47910546,
-        "type": "story",
-        "by": "luckman212",
-        "score": 156,
+        "by": "berkeleyjunk",
+        "score": 122,
         "descendants": 77,
-        "time": 1777213118,
-        "comments_url": "https://news.ycombinator.com/item?id=47910546"
+        "time": 1777236990,
+        "comments_url": "https://news.ycombinator.com/item?id=47914350"
       },
-      "hot_score": 5.34,
+      "hot_score": 12.41,
       "tags": [
-        "Web",
-        "Programming"
+        "Data"
       ]
     },
     {
-      "title_en": "GoDaddy Gave a Domain to a Stranger Without Any Documentation",
+      "title_en": "GoDaddy gave a domain to a stranger without any documentation",
       "url": "https://anchor.host/godaddy-gave-a-domain-to-a-stranger-without-any-documentation/",
       "title_zh": "GoDaddy 未经文档将域名转让给陌生人",
       "created_display": "Created: Apr 26, 2026 / 09:57 PT",
@@ -125,37 +53,35 @@
         "id": 47911780,
         "type": "story",
         "by": "jamesponddotco",
-        "score": 60,
-        "descendants": 14,
+        "score": 469,
+        "descendants": 183,
         "time": 1777222676,
         "comments_url": "https://news.ycombinator.com/item?id=47911780"
       },
-      "hot_score": 5.23,
       "tags": [
-        "Security",
-        "Privacy"
-      ]
+        "Security"
+      ],
+      "hot_score": 12.39
     },
     {
-      "title_en": "Why SWE-bench Verified no longer measures frontier coding capabilities",
-      "url": "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/",
-      "title_zh": "SWE-bench Verified 不再衡量前沿编码能力",
-      "created_display": "Created: Apr 26, 2026 / 06:58 PT",
-      "image_url": null,
-      "summary_en": "SWE-bench Verified no longer measures frontier coding capabilities because the metric diverges from real-world coding tasks and can be gamed. The change signals a shift toward more robust, meaningful benchmarks for AI-assisted coding tools.",
-      "summary_zh": "SWE-bench Verified 不再用于衡量前沿编码能力，因为该指标与实际编码任务脱节且易被操控。此举推动评测向更稳健、具备实际意义的基准转变，影响 AI 辅助编码工具的评估方式。",
+      "title_en": "AI should elevate your thinking, not replace it",
+      "url": "https://www.koshyjohn.com/blog/ai-should-elevate-your-thinking-not-replace-it/",
+      "title_zh": "AI 应提升你的思考，而非替代它",
+      "created_display": "Created: Apr 26, 2026 / 13:03 PT",
+      "image_url": "https://www.koshyjohn.com/blog/ai-should-elevate-your-thinking-not-replace-it/blog_social.jpg",
+      "summary_en": "A thoughtful piece argues that AI should augment human thinking, not replace it, offering practical guidance on using AI as a cognitive partner while preserving critical judgment and accountability.",
+      "summary_zh": "文章主张 AI 应该提升人类思考，而非替代，提供把 AI 当作认知伙伴使用的实用方法，同时保留批判性判断与问责。",
       "hn": {
-        "id": 47910388,
+        "id": 47913650,
         "type": "story",
-        "by": "kmdupree",
-        "score": 142,
-        "descendants": 101,
-        "time": 1777211893,
-        "comments_url": "https://news.ycombinator.com/item?id=47910388"
+        "by": "koshyjohn",
+        "score": 168,
+        "descendants": 143,
+        "time": 1777233792,
+        "comments_url": "https://news.ycombinator.com/item?id=47913650"
       },
-      "hot_score": 4.43,
+      "hot_score": 11.45,
       "tags": [
-        "Programming",
         "AI"
       ]
     },
@@ -171,17 +97,311 @@
         "id": 47911524,
         "type": "story",
         "by": "jeremyccrane",
-        "score": 45,
-        "descendants": 49,
+        "score": 338,
+        "descendants": 440,
         "time": 1777220849,
         "comments_url": "https://news.ycombinator.com/item?id=47911524"
       },
-      "hot_score": 3.12,
+      "tags": [
+        "AI",
+        "Security",
+        "Data"
+      ],
+      "hot_score": 7.93
+    },
+    {
+      "title_en": "Waymo says can't avoid bike lanes because riders want to be dropped off in them",
+      "url": "https://road.cc/news/driverless-taxis-veering-into-cycle-lanes-normal-practice-says-waymo",
+      "title_zh": "Waymo 表示无法完全避开自行车道，因为乘客希望在自行车道附近下车",
+      "created_display": "Created: Apr 26, 2026 / 11:34 PT",
+      "image_url": "https://cdn.road.cc/wp-content/uploads/2026/04/Waymo-London.jpg",
+      "summary_en": "Waymo notes that rider expectations and infrastructure realities may lead AVs to occasionally use bike lanes, highlighting safety, policy, and road design tensions in autonomous taxi deployment.",
+      "summary_zh": "Waymo 指出乘客期望与基础设施现实可能导致自动驾驶车在下车点接近自行车道，引发关于安全、政策及道路设计的矛盾。",
+      "hn": {
+        "id": 47912645,
+        "type": "story",
+        "by": "randycupertino",
+        "score": 185,
+        "descendants": 255,
+        "time": 1777228471,
+        "comments_url": "https://news.ycombinator.com/item?id=47912645"
+      },
+      "hot_score": 7.52,
+      "tags": [
+        "AI",
+        "DevOps"
+      ]
+    },
+    {
+      "title_en": "I bought Friendster for $30k – Here's what I'm doing with it",
+      "url": "https://ca98am79.medium.com/i-bought-friendster-for-30k-heres-what-i-m-doing-with-it-d5e8ddb3991d",
+      "title_zh": "花了3万美元买下 Friendster，我打算怎么用它",
+      "created_display": "Created: Apr 26, 2026 / 13:41 PT",
+      "image_url": null,
+      "summary_en": "A curious digital archaeology move: the buyer purchases Friendster assets for $30k and experiments with reviving or repurposing the site. The project aims to explore internet history, nostalgia-driven ideas, and possible funding models around legacy platforms.",
+      "summary_zh": "花3万美元买下 Friendster 的资产，正在通过复兴或再利用该站点来探索互联网历史、怀旧驱动的创意，以及对遗留平台的潜在商业模式。",
+      "hn": {
+        "id": 47914165,
+        "type": "story",
+        "by": "ca98am79",
+        "score": 75,
+        "descendants": 26,
+        "time": 1777236066,
+        "comments_url": "https://news.ycombinator.com/item?id=47914165"
+      },
+      "hot_score": 6.69,
+      "tags": [
+        "Culture"
+      ]
+    },
+    {
+      "title_en": "Fast16: High-precision software sabotage 5 years before Stuxnet",
+      "url": "https://www.sentinelone.com/labs/fast16-mystery-shadowbrokers-reference-reveals-high-precision-software-sabotage-5-years-before-stuxnet/",
+      "title_zh": "Fast16：比 Stuxnet 早5年的高精度软件破坏",
+      "created_display": "Created: Apr 26, 2026 / 13:18 PT",
+      "image_url": "https://www.sentinelone.com/wp-content/uploads/2026/04/fast16_3.jpg",
+      "summary_en": "New evidence ties Fast16 to a high-precision sabotage capability years before Stuxnet, suggesting sophisticated cyber-physical attack capabilities existed well ahead of that famous incident. The finding underscores long-running threats to industrial control systems and the need for deeper defense in supply chains.",
+      "summary_zh": "新证据将 Fast16 与比 Stuxnet 早现的高精度破坏能力联系起来，表明对工业控制系统的高端攻击能力早已存在。此发现凸显对供应链与控制网络的长期威胁，以及更深层防御的必要性。",
+      "hn": {
+        "id": 47913855,
+        "type": "story",
+        "by": "dd23",
+        "score": 81,
+        "descendants": 22,
+        "time": 1777234717,
+        "comments_url": "https://news.ycombinator.com/item?id=47913855"
+      },
+      "hot_score": 6.11,
+      "tags": [
+        "Security"
+      ]
+    },
+    {
+      "title_en": "Butterflies are in decline across North America, a look at the Western Monarch",
+      "url": "https://www.smithsonianmag.com/science-nature/butterflies-are-in-dramatic-decline-across-north-america-a-close-look-at-the-western-monarch-shows-why-180988582/",
+      "title_zh": "北美蝴蝶数量下降：以西部君蝶为例",
+      "created_display": "Created: Apr 26, 2026 / 14:23 PT",
+      "image_url": "https://th-thumbnailer.cdn-si-edu.com/-pUy-tpdhYEeFuT3-STWXN5xIIc=/fit-in/1600x0/filters:focal(2784x1856:2785x1857)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/f0/cc/f0cccc48-0697-4243-89b0-1e93aa195dc2/dsc_0152.jpg",
+      "summary_en": "Butterflies are in decline across North America, with Western Monarchs emblematic of broader pollinator losses. Habitat loss, pesticide exposure, and climate shifts are central pressures, signaling ecosystem-wide consequences that extend beyond butterflies.",
+      "summary_zh": "北美蝴蝶数量持续下降，西部君蝶成为更广泛传粉者损失的缩影。栖息地消失、农药暴露和气候变化是主要压力，预示着对生态系统的广泛影响。",
+      "hn": {
+        "id": 47914677,
+        "type": "story",
+        "by": "1659447091",
+        "score": 47,
+        "descendants": 8,
+        "time": 1777238600,
+        "comments_url": "https://news.ycombinator.com/item?id=47914677"
+      },
+      "hot_score": 6.01,
+      "tags": [
+        "Science"
+      ]
+    },
+    {
+      "title_en": "The West forgot how to make things, now it’s forgetting how to code",
+      "url": "https://techtrenches.dev/p/the-west-forgot-how-to-make-things",
+      "title_zh": "西方忘记了如何制造，现在又忘记了如何编码",
+      "created_display": "Created: Apr 25, 2026 / 23:24 PT",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!YrAo!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa56e63d9-5f03-432a-99de-2f46dd286b53_508x340.png",
+      "summary_en": "Western economies have lost touch with making things, and now their coding skills are at risk as software becomes more opaque. The piece argues for a revival of hands-on engineering and practical tech literacy to stay competitive in a hardware-software world.",
+      "summary_zh": "文章指出，西方在动手制造能力方面日益薄弱，如今软件日益复杂也让编程能力面临挑战。强调重建动手工程和实际科技素养，以在硬件与软件高度结合的时代保持竞争力。",
+      "hn": {
+        "id": 47907879,
+        "type": "story",
+        "by": "milkglass",
+        "score": 1060,
+        "descendants": 739,
+        "time": 1777184682,
+        "comments_url": "https://news.ycombinator.com/item?id=47907879"
+      },
       "tags": [
         "Programming",
-        "Design",
+        "Hardware"
+      ],
+      "hot_score": 5.78
+    },
+    {
+      "title_en": "Asahi Linux Progress Linux 7.0",
+      "url": "https://asahilinux.org/2026/04/progress-report-7-0/",
+      "title_zh": "Asahi Linux Progress Linux 7.0",
+      "created_display": "Created: Apr 26, 2026 / 03:50 PT",
+      "image_url": "https://asahilinux.org/img/AsahiLinux_logomark_256px.png",
+      "summary_en": "Asahi Linux Progress Linux 7.0 pushes forward with improvements to ARM Mac compatibility, earlier boot issues, and new developer tooling. The project continues narrowing the gap between Apple Silicon hardware and open-source Linux.",
+      "summary_zh": "Asahi Linux Progress Linux 7.0 在 ARM Mac 兼容性、早期启动问题和开发工具方面取得改进，持续缩小 Apple Silicon 与开源 Linux 之间的差距。",
+      "hn": {
+        "id": 47909226,
+        "type": "story",
+        "by": "elisaado",
+        "score": 573,
+        "descendants": 263,
+        "time": 1777200632,
+        "comments_url": "https://news.ycombinator.com/item?id=47909226"
+      },
+      "tags": [
+        "Open Source",
+        "Hardware"
+      ],
+      "hot_score": 5.18
+    },
+    {
+      "title_en": "The 1944 Warsaw Uprising, in Color",
+      "url": "https://www.barwypowstania.pl/",
+      "title_zh": "1944 年华沙起义：彩色影像",
+      "created_display": "Created: Apr 26, 2026 / 12:44 PT",
+      "image_url": "https://cdn.prod.website-files.com/638cbcb09d4abbe84e0cd95d/63a07436caead82db7c2c86e_Rolling-4s-64px.svg",
+      "summary_en": "Colorized footage of the 1944 Warsaw Uprising provides a visceral view of a pivotal World War II event, helping audiences comprehend scale, emotion, and human experience beyond monochrome archives.",
+      "summary_zh": "彩色还原的1944年华沙起义影像为观众带来更直观的战争关键场景、情感与人类经历，超越单色档案的观感。",
+      "hn": {
+        "id": 47913406,
+        "type": "story",
+        "by": "keiferski",
+        "score": 77,
+        "descendants": 28,
+        "time": 1777232675,
+        "comments_url": "https://news.ycombinator.com/item?id=47913406"
+      },
+      "hot_score": 4.61,
+      "tags": [
+        "Culture"
+      ]
+    },
+    {
+      "title_en": "Clay PCB Tutorial",
+      "url": "https://feministhackerspaces.cargo.site/Clay-PCB-Tutorial",
+      "title_zh": "Clay PCB 教程",
+      "created_display": "Created: Apr 26, 2026 / 09:02 PT",
+      "image_url": "https://freight.cargo.site/w/1024/i/023df547c98cc900f7a565ef2c87d8f1442ce22e304533fd0abc0c50f5608d65/7E014D23-1433-4DFB-A66F-2BBE15BB1905_1_105_c.jpeg",
+      "summary_en": "Clay PCB Tutorial offers a DIY approach to making printed circuit boards using clay-based materials, outlining steps, tools, and safety considerations. It demonstrates how hobbyists can prototype circuits on a budget, while noting trade-offs in precision and durability.",
+      "summary_zh": "Clay PCB Tutorial 提供一种用黏土材料制作简易 PCB 的实操指南，涵盖所需工具、步骤与安全注意事项。为爱好者以低成本原型电路提供途径，同时也提醒在精度和耐久性之间的权衡。",
+      "hn": {
+        "id": 47911350,
+        "type": "story",
+        "by": "j0r0b0",
+        "score": 176,
+        "descendants": 111,
+        "time": 1777219334,
+        "comments_url": "https://news.ycombinator.com/item?id=47911350"
+      },
+      "tags": [
+        "Hardware",
+        "Education"
+      ],
+      "hot_score": 3.76
+    },
+    {
+      "title_en": "Dillo Browser Release 3.3.0",
+      "url": "https://dillo-browser.org/release/3.3.0/",
+      "title_zh": "Dillo 浏览器 3.3.0 版本发布",
+      "created_display": "Created: Apr 26, 2026 / 10:18 PT",
+      "image_url": null,
+      "summary_en": "Dillo Browser 3.3.0 brings stability and compatibility updates to the ultra-lightweight browser, with enhancements to HTML/CSS rendering, memory usage, and security fixes. It remains a practical option for embedded devices, kiosks, and retro setups where a minimal footprint matters.",
+      "summary_zh": "Dillo 浏览器 3.3.0 带来稳定性和兼容性改进，增强 HTML/CSS 渲染、内存利用率和安全修复。作为极简浏览器，它在嵌入式设备、信息亭和追求低资源占用的场景中仍具实用性。",
+      "hn": {
+        "id": 47911977,
+        "type": "story",
+        "by": "rodarima",
+        "score": 130,
+        "descendants": 22,
+        "time": 1777223894,
+        "comments_url": "https://news.ycombinator.com/item?id=47911977"
+      },
+      "tags": [
+        "Open Source",
+        "Security",
+        "Web"
+      ],
+      "hot_score": 3.71
+    },
+    {
+      "title_en": "GitHub unwanted UX change: issue links now open in a popup",
+      "url": "https://github.com/orgs/community/discussions/192666",
+      "title_zh": "GitHub 的 UX 变动：问题链接现在在弹窗中打开",
+      "created_display": "Created: Apr 26, 2026 / 07:18 PT",
+      "image_url": "https://opengraph.githubassets.com/a0667e319725fafeb67f9181edbf8d89c109b4778b020c7487b0df0708910788/orgs/community/discussions/192666",
+      "summary_en": "Users report that clicking issue links opens a popup window instead of navigating, disrupting workflow and increasing context-switching. The change showcases how UI decisions in developer platforms can impact productivity and friction, and suggests better ways to surface issue details.",
+      "summary_zh": "用户反馈称点击问题链接会弹出一个对话框，导致无法直接跳转，提高了切换成本。此 UX 改动暴露了开发者平台在功能暴露上的取舍，也提醒改动应更好地兼顾工作流连续性和信息可用性。",
+      "hn": {
+        "id": 47910546,
+        "type": "story",
+        "by": "luckman212",
+        "score": 217,
+        "descendants": 114,
+        "time": 1777213118,
+        "comments_url": "https://news.ycombinator.com/item?id=47910546"
+      },
+      "tags": [
+        "Web",
+        "Programming"
+      ],
+      "hot_score": 3.32
+    },
+    {
+      "title_en": "SWE-bench Verified no longer measures frontier coding capabilities",
+      "url": "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/",
+      "title_zh": "SWE-bench Verified 不再衡量前沿编码能力",
+      "created_display": "Created: Apr 26, 2026 / 06:58 PT",
+      "image_url": null,
+      "summary_en": "SWE-bench Verified no longer measures frontier coding capabilities because the metric diverges from real-world coding tasks and can be gamed. The change signals a shift toward more robust, meaningful benchmarks for AI-assisted coding tools.",
+      "summary_zh": "SWE-bench Verified 不再用于衡量前沿编码能力，因为该指标与实际编码任务脱节且易被操控。此举推动评测向更稳健、具备实际意义的基准转变，影响 AI 辅助编码工具的评估方式。",
+      "hn": {
+        "id": 47910388,
+        "type": "story",
+        "by": "kmdupree",
+        "score": 218,
+        "descendants": 130,
+        "time": 1777211893,
+        "comments_url": "https://news.ycombinator.com/item?id=47910388"
+      },
+      "tags": [
         "AI",
-        "Data"
+        "Programming"
+      ],
+      "hot_score": 3.14
+    },
+    {
+      "title_en": "Plants can sense the sound of rain, a new study finds",
+      "url": "https://news.mit.edu/2026/plants-can-sense-sound-rain-new-study-finds-0422",
+      "title_zh": "植物能感知雨声，一项新研究发现",
+      "created_display": "Created: Apr 26, 2026 / 11:15 PT",
+      "image_url": "https://news.mit.edu/sites/default/files/images/202604/MIT-SeedSound-01-press.jpg",
+      "summary_en": "New research suggests plants can sense rain sounds, pointing to broader sensory capabilities in flora and potential implications for agriculture and plant science.",
+      "summary_zh": "新研究表明植物能够感知雨声，揭示植物可能具备更广泛的感知能力，并对农业与植物科学具有潜在启示。",
+      "hn": {
+        "id": 47912513,
+        "type": "story",
+        "by": "paulpauper",
+        "score": 71,
+        "descendants": 8,
+        "time": 1777227359,
+        "comments_url": "https://news.ycombinator.com/item?id=47912513"
+      },
+      "hot_score": 2.61,
+      "tags": [
+        "Science"
+      ]
+    },
+    {
+      "title_en": "Show HN: AI memory with biological decay (52% recall)",
+      "url": "https://github.com/sachitrafa/YourMemory",
+      "title_zh": "Show HN：具生物衰减的 AI 记忆（52% 召回率）",
+      "created_display": "Created: Apr 26, 2026 / 13:58 PT",
+      "image_url": "https://opengraph.githubassets.com/1fcee88877b35b1e4403aacbef6c9b5c90242051647e199278200f18bf86234c/sachitrafa/YourMemory",
+      "summary_en": "A Show HN project called YourMemory experiments with AI memory that decays over time, achieving about 52% recall. The approach prompts questions about long-term context management and memory-aligned AI behavior.",
+      "summary_zh": "一个名为 YourMemory 的 Show HN 项目在 AI 记忆中引入生物衰减机制，召回率约 52%。这一思路引发关于长期上下文管理与记忆对齐的讨论。",
+      "hn": {
+        "id": 47914367,
+        "type": "story",
+        "by": "SachitRafa",
+        "score": 22,
+        "descendants": 8,
+        "time": 1777237111,
+        "comments_url": "https://news.ycombinator.com/item?id=47914367"
+      },
+      "hot_score": 2.19,
+      "tags": [
+        "Show HN",
+        "AI"
       ]
     },
     {
@@ -196,41 +416,16 @@
         "id": 47908833,
         "type": "story",
         "by": "sph",
-        "score": 231,
-        "descendants": 68,
+        "score": 265,
+        "descendants": 76,
         "time": 1777195942,
         "comments_url": "https://news.ycombinator.com/item?id=47908833"
       },
       "tags": [
-        "Security",
-        "Privacy"
+        "Programming",
+        "Design"
       ],
-      "hot_score": 2.94
-    },
-    {
-      "title_en": "Tell HN: An app is silently installing itself on my iPhone every day",
-      "url": "https://news.ycombinator.com/item?id=47906253",
-      "title_zh": "Tell HN：每天都有应用悄悄在 iPhone 上安装",
-      "created_display": "Created: Apr 25, 2026 / 17:50 PT",
-      "image_url": "https://news.ycombinator.com/y18.svg",
-      "summary_en": "A user reports a mystery app that installs itself daily on iPhone, prompting questions about how apps gain such persistence and what privacy controls failed. The thread highlights gaps in iOS security storytelling and urges stronger app review and user protections.",
-      "summary_zh": "用户报告每天在 iPhone 上悄悄新增安装的应用，引发关于应用如何获得持续权限与隐私控制失效的质疑。讨论聚焦 iOS 安全边界的薄弱点，呼吁加强应用审核和用户保护。",
-      "hn": {
-        "id": 47906253,
-        "type": "story",
-        "by": "_-x-_",
-        "score": 453,
-        "descendants": 169,
-        "time": 1777164656,
-        "comments_url": "https://news.ycombinator.com/item?id=47906253"
-      },
-      "tags": [
-        "Culture",
-        "Entertainment",
-        "Security",
-        "Privacy"
-      ],
-      "hot_score": 2.06
+      "hot_score": 2.03
     },
     {
       "title_en": "The Visible Zorker: Zork 1",
@@ -244,62 +439,127 @@
         "id": 47911644,
         "type": "story",
         "by": "PLenz",
-        "score": 27,
-        "descendants": 0,
+        "score": 73,
+        "descendants": 13,
         "time": 1777221739,
         "comments_url": "https://news.ycombinator.com/item?id=47911644"
       },
-      "hot_score": 2.05,
       "tags": [
-        "Web",
-        "Programming"
-      ]
+        "Entertainment"
+      ],
+      "hot_score": 1.79
     },
     {
-      "title_en": "Dillo Browser Release 3.3.0",
-      "url": "https://dillo-browser.org/release/3.3.0/",
-      "title_zh": "Dillo 浏览器 3.3.0 版本发布",
-      "created_display": "Created: Apr 26, 2026 / 10:18 PT",
-      "image_url": null,
-      "summary_en": "Dillo Browser 3.3.0 brings stability and compatibility updates to the ultra-lightweight browser, with enhancements to HTML/CSS rendering, memory usage, and security fixes. It remains a practical option for embedded devices, kiosks, and retro setups where a minimal footprint matters.",
-      "summary_zh": "Dillo 浏览器 3.3.0 带来稳定性和兼容性改进，增强 HTML/CSS 渲染、内存利用率和安全修复。作为极简浏览器，它在嵌入式设备、信息亭和追求低资源占用的场景中仍具实用性。",
+      "title_en": "Tell HN: An app is silently installing itself on my iPhone every day",
+      "url": "https://news.ycombinator.com/item?id=47906253",
+      "title_zh": "Tell HN：每天都有应用悄悄在 iPhone 上安装",
+      "created_display": "Created: Apr 25, 2026 / 17:50 PT",
+      "image_url": "https://news.ycombinator.com/y18.svg",
+      "summary_en": "A user reports a mystery app that installs itself daily on iPhone, prompting questions about how apps gain such persistence and what privacy controls failed. The thread highlights gaps in iOS security storytelling and urges stronger app review and user protections.",
+      "summary_zh": "用户报告每天在 iPhone 上悄悄新增安装的应用，引发关于应用如何获得持续权限与隐私控制失效的质疑。讨论聚焦 iOS 安全边界的薄弱点，呼吁加强应用审核和用户保护。",
       "hn": {
-        "id": 47911977,
+        "id": 47906253,
         "type": "story",
-        "by": "rodarima",
-        "score": 19,
-        "descendants": 0,
-        "time": 1777223894,
-        "comments_url": "https://news.ycombinator.com/item?id=47911977"
+        "by": "_-x-_",
+        "score": 516,
+        "descendants": 178,
+        "time": 1777164656,
+        "comments_url": "https://news.ycombinator.com/item?id=47906253"
       },
-      "hot_score": 1.88,
       "tags": [
-        "Hardware",
         "Security",
-        "Web"
+        "Privacy"
+      ],
+      "hot_score": 1.74
+    },
+    {
+      "title_en": "Sergey Brin Confronted Gavin Newsom",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-26/how-google-s-sergey-brin-helped-fuel-a-political-war-in-california",
+      "title_zh": "谢尔盖·布林对加州州长 Gavin Newsom 进行当面对质",
+      "created_display": "Created: Apr 26, 2026 / 13:12 PT",
+      "image_url": null,
+      "summary_en": "Sergey Brin publicly confronted Gavin Newsom over tech policy, illustrating how big tech influence intersects with state politics and policy decisions.",
+      "summary_zh": "谢尔盖·布林就科技政策公开质问加州州长 Gavin Newsom，揭示科技巨头对州级政治与政策决策的影响力。",
+      "hn": {
+        "id": 47913782,
+        "type": "story",
+        "by": "arunsivadasan",
+        "score": 23,
+        "descendants": 14,
+        "time": 1777234376,
+        "comments_url": "https://news.ycombinator.com/item?id=47913782"
+      },
+      "hot_score": 1.61,
+      "tags": [
+        "Politics"
       ]
     },
     {
-      "title_en": "At least 10 people tied to sensitive US research have died or disappeared",
-      "url": "https://www.cnn.com/2026/04/21/us/deaths-disappearances-scientists-investigation",
-      "title_zh": "与美国敏感研究相关的至少十人死亡或失踪",
-      "created_display": "Created: Apr 26, 2026 / 05:55 PT",
-      "image_url": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2244381126.jpg?c=16x9&q=w_800,c_fill",
-      "summary_en": "Investigative report notes at least 10 individuals linked to sensitive US research have died or vanished in recent years.",
-      "summary_zh": "至少有10名与敏感美国研究相关的人员死去或失踪的报道暴露出研究安全和人身风险问题。此事引发对科研安全、监督与风险管理的关注。",
+      "title_en": "Amateur armed with ChatGPT solves an Erdős problem",
+      "url": "https://www.scientificamerican.com/article/amateur-armed-with-chatgpt-vibe-maths-a-60-year-old-problem/",
+      "title_zh": "业余者借助 ChatGPT 解决 Erdős 问题",
+      "created_display": "Created: Apr 25, 2026 / 10:40 PT",
+      "image_url": "https://static.scientificamerican.com/dam/asset/124ad289-58c2-4d51-87e8-aee854d10fc7/abstract-rubiks-cube.jpg?m=1777033076.511&w=1200",
+      "summary_en": "An amateur uses ChatGPT to tackle a long-standing Erdős problem and reports a result that some observers find plausible. This episode underscores AI's potential to assist mathematical thinking while highlighting the need for rigorous verification of AI-generated proofs. It also raises questions about the boundary between exploration and formal proof.",
+      "summary_zh": "一位业余爱好者借助 ChatGPT 尝试解决一个长期困扰的 Erdős 问题，称得出一个看似合理的结果。此事件凸显了人工智能在辅助数学思考方面的潜力，同时也强调对 AI 生成证明进行严格验证的必要性。它还引发了关于探索与正式证明边界的讨论。",
       "hn": {
-        "id": 47909942,
+        "id": 47903126,
         "type": "story",
-        "by": "acdanger",
-        "score": 78,
-        "descendants": 51,
-        "time": 1777208126,
-        "comments_url": "https://news.ycombinator.com/item?id=47909942"
+        "by": "pr337h4m",
+        "score": 725,
+        "descendants": 508,
+        "time": 1777138838,
+        "comments_url": "https://news.ycombinator.com/item?id=47903126"
       },
-      "hot_score": 1.87,
       "tags": [
-        "Science",
-        "Politics"
+        "AI",
+        "Science"
+      ],
+      "hot_score": 1.51
+    },
+    {
+      "title_en": "Show HN: Free textbook on engineering thermodynamics",
+      "url": "https://thermodynamicsbook.com/",
+      "title_zh": "工程热力学免费教材",
+      "created_display": "Created: Apr 26, 2026 / 08:17 PT",
+      "image_url": "https://thermodynamicsbook.com/thumbnails/thermodynamics_cleynen_pdf.png",
+      "summary_en": "A comprehensive, open-access textbook on engineering thermodynamics is freely available online, spanning fundamentals, cycles, and practical applications. It can save students money and serve as a reliable reference for courses, labs, and self-study.",
+      "summary_zh": "一部工程热力学的免费电子教材现已在线开放获取，涵盖基础、循环与实际应用等内容。为学生、教师和自学者提供了省钱且可靠的参考资料。",
+      "hn": {
+        "id": 47911013,
+        "type": "story",
+        "by": "2DcAf",
+        "score": 83,
+        "descendants": 27,
+        "time": 1777216654,
+        "comments_url": "https://news.ycombinator.com/item?id=47911013"
+      },
+      "tags": [
+        "Show HN",
+        "Education"
+      ],
+      "hot_score": 1.51
+    },
+    {
+      "title_en": "MoQ Boy",
+      "url": "https://moq.dev/blog/moq-boy/",
+      "title_zh": "MoQ Boy：MoQ 库的一个案例博客",
+      "created_display": "Created: Apr 26, 2026 / 13:40 PT",
+      "image_url": "https://moq.dev/blog/moq-boy/moqboy.png",
+      "summary_en": "MoQ Boy showcases a case study around using the MoQ mocking library for .NET, illustrating common patterns, pitfalls, and testing ergonomics through a narrative design.",
+      "summary_zh": "MoQ Boy 以 MoQ 模拟库在 .NET 中的应用为案例，通过叙事化设计展示常用模式、坑点与测试使用的便利性。",
+      "hn": {
+        "id": 47914161,
+        "type": "story",
+        "by": "mmcclure",
+        "score": 16,
+        "descendants": 1,
+        "time": 1777236050,
+        "comments_url": "https://news.ycombinator.com/item?id=47914161"
+      },
+      "hot_score": 1.35,
+      "tags": [
+        "Programming"
       ]
     },
     {
@@ -321,55 +581,32 @@
       },
       "tags": [
         "Privacy",
-        "Legal"
+        "Politics"
       ],
-      "hot_score": 1.85
+      "hot_score": 1.3
     },
     {
-      "title_en": "Free Textbook on Engineering Thermodynamics",
-      "url": "https://thermodynamicsbook.com/",
-      "title_zh": "工程热力学免费教材",
-      "created_display": "Created: Apr 26, 2026 / 08:17 PT",
-      "image_url": "https://thermodynamicsbook.com/thumbnails/thermodynamics_cleynen_pdf.png",
-      "summary_en": "A comprehensive, open-access textbook on engineering thermodynamics is freely available online, spanning fundamentals, cycles, and practical applications. It can save students money and serve as a reliable reference for courses, labs, and self-study.",
-      "summary_zh": "一部工程热力学的免费电子教材现已在线开放获取，涵盖基础、循环与实际应用等内容。为学生、教师和自学者提供了省钱且可靠的参考资料。",
+      "title_en": "Why has there been so little progress on Alzheimer's disease?",
+      "url": "https://freakonomics.com/podcast/why-has-there-been-so-little-progress-on-alzheimers-disease/",
+      "title_zh": "为何阿尔茨海默病研究进展如此缓慢？",
+      "created_display": "Created: Apr 25, 2026 / 17:12 PT",
+      "image_url": null,
+      "summary_en": "Despite large funding, progress remains limited due to disease complexity, late detection, and trial failures. The episode explores structural bottlenecks in research funding, data sharing, and clinical trial design, and suggests priorities like early biomarkers and smarter trial designs.",
+      "summary_zh": "尽管投入巨资，阿尔茨海默病研究进展仍受疾病复杂性、早期诊断不足以及临床试验设计等结构性瓶颈制约。节目讨论了研究资助、数据共享等体系性问题，并提出通过早期生物标志物和更高效的试验设计等路径来突破。",
       "hn": {
-        "id": 47911013,
+        "id": 47905984,
         "type": "story",
-        "by": "2DcAf",
-        "score": 41,
-        "descendants": 13,
-        "time": 1777216654,
-        "comments_url": "https://news.ycombinator.com/item?id=47911013"
-      },
-      "hot_score": 1.85,
-      "tags": [
-        "Education",
-        "Science"
-      ]
-    },
-    {
-      "title_en": "Amateur armed with ChatGPT solves an Erdős problem",
-      "url": "https://www.scientificamerican.com/article/amateur-armed-with-chatgpt-vibe-maths-a-60-year-old-problem/",
-      "title_zh": "业余者借助 ChatGPT 解决 Erdős 问题",
-      "created_display": "Created: Apr 25, 2026 / 10:40 PT",
-      "image_url": "https://static.scientificamerican.com/dam/asset/124ad289-58c2-4d51-87e8-aee854d10fc7/abstract-rubiks-cube.jpg?m=1777033076.511&w=1200",
-      "summary_en": "An amateur uses ChatGPT to tackle a long-standing Erdős problem and reports a result that some observers find plausible. This episode underscores AI's potential to assist mathematical thinking while highlighting the need for rigorous verification of AI-generated proofs. It also raises questions about the boundary between exploration and formal proof.",
-      "summary_zh": "一位业余爱好者借助 ChatGPT 尝试解决一个长期困扰的 Erdős 问题，称得出一个看似合理的结果。此事件凸显了人工智能在辅助数学思考方面的潜力，同时也强调对 AI 生成证明进行严格验证的必要性。它还引发了关于探索与正式证明边界的讨论。",
-      "hn": {
-        "id": 47903126,
-        "type": "story",
-        "by": "pr337h4m",
-        "score": 653,
-        "descendants": 455,
-        "time": 1777138838,
-        "comments_url": "https://news.ycombinator.com/item?id=47903126"
+        "by": "chiefalchemist",
+        "score": 393,
+        "descendants": 267,
+        "time": 1777162367,
+        "comments_url": "https://news.ycombinator.com/item?id=47905984"
       },
       "tags": [
-        "AI",
+        "Health",
         "Science"
       ],
-      "hot_score": 1.71
+      "hot_score": 1.26
     },
     {
       "title_en": "USB Cheat Sheet (2022)",
@@ -391,30 +628,75 @@
       "tags": [
         "Hardware"
       ],
-      "hot_score": 1.58
+      "hot_score": 1.21
     },
     {
-      "title_en": "Why has there been so little progress on Alzheimer's disease?",
-      "url": "https://freakonomics.com/podcast/why-has-there-been-so-little-progress-on-alzheimers-disease/",
-      "title_zh": "为何阿尔茨海默病研究进展如此缓慢？",
-      "created_display": "Created: Apr 25, 2026 / 17:12 PT",
-      "image_url": null,
-      "summary_en": "Despite large funding, progress remains limited due to disease complexity, late detection, and trial failures. The episode explores structural bottlenecks in research funding, data sharing, and clinical trial design, and suggests priorities like early biomarkers and smarter trial designs.",
-      "summary_zh": "尽管投入巨资，阿尔茨海默病研究进展仍受疾病复杂性、早期诊断不足以及临床试验设计等结构性瓶颈制约。节目讨论了研究资助、数据共享等体系性问题，并提出通过早期生物标志物和更高效的试验设计等路径来突破。",
+      "title_en": "If more than 50% press blue, everyone survives. Red pressers always survive",
+      "url": "https://shankwiler.com/posts/button-survival-hypothetical/",
+      "title_zh": "如果超过一半人按蓝色按钮，大家都能生存；按红色的人总能生存",
+      "created_display": "Created: Apr 26, 2026 / 10:28 PT",
+      "image_url": "https://shankwiler.com/posts/button-survival-hypothetical/prompt.png",
+      "summary_en": "A thought-provoking thought experiment explores how collective action and signaling affect survival in a stylized scenario, revealing surprising dynamics around coordination and information flow.",
+      "summary_zh": "一个发人深省的思维实验，探讨在一个极 simplified 场景中，集体行动与信号传递如何影响生存概率，揭示协作与信息流动的出人意料的动态。",
       "hn": {
-        "id": 47905984,
+        "id": 47912065,
         "type": "story",
-        "by": "chiefalchemist",
-        "score": 360,
-        "descendants": 240,
-        "time": 1777162367,
-        "comments_url": "https://news.ycombinator.com/item?id=47905984"
+        "by": "iuvcaw",
+        "score": 41,
+        "descendants": 181,
+        "time": 1777224538,
+        "comments_url": "https://news.ycombinator.com/item?id=47912065"
       },
+      "hot_score": 1.2,
       "tags": [
-        "Health",
-        "Science"
-      ],
-      "hot_score": 1.55
+        "Culture"
+      ]
+    },
+    {
+      "title_en": "Show HN: Auge Vision from Your Terminal",
+      "url": "https://auge.franzai.com/",
+      "title_zh": "Show HN：从终端实现 Auge Vision",
+      "created_display": "Created: Apr 26, 2026 / 12:40 PT",
+      "image_url": "https://auge.franzai.com/images/bell-labs-transistor.jpg",
+      "summary_en": "Auge Vision from Your Terminal brings AI-enabled vision outputs directly to the command line, illustrating how terminal-first tools can integrate AI into daily workflows.",
+      "summary_zh": "Show HN：从终端实现 Auge Vision，将 AI 视觉输出直接带入命令行，展示了终端优先工具在日常工作流中的应用。",
+      "hn": {
+        "id": 47913349,
+        "type": "story",
+        "by": "franze",
+        "score": 17,
+        "descendants": 2,
+        "time": 1777232455,
+        "comments_url": "https://news.ycombinator.com/item?id=47913349"
+      },
+      "hot_score": 0.95,
+      "tags": [
+        "AI",
+        "Show HN"
+      ]
+    },
+    {
+      "title_en": "At least 10 people tied to sensitive US research have died or disappeared",
+      "url": "https://www.cnn.com/2026/04/21/us/deaths-disappearances-scientists-investigation",
+      "title_zh": "与美国敏感研究相关的至少十人死亡或失踪",
+      "created_display": "Created: Apr 26, 2026 / 05:55 PT",
+      "image_url": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2244381126.jpg?c=16x9&q=w_800,c_fill",
+      "summary_en": "Investigative report notes at least 10 individuals linked to sensitive US research have died or vanished in recent years.",
+      "summary_zh": "至少有10名与敏感美国研究相关的人员死去或失踪的报道暴露出研究安全和人身风险问题。此事引发对科研安全、监督与风险管理的关注。",
+      "hn": {
+        "id": 47909942,
+        "type": "story",
+        "by": "acdanger",
+        "score": 78,
+        "descendants": 51,
+        "time": 1777208126,
+        "comments_url": "https://news.ycombinator.com/item?id=47909942"
+      },
+      "hot_score": 0.94,
+      "tags": [
+        "Science",
+        "Politics"
+      ]
     },
     {
       "title_en": "Eden AI – European Alternative to OpenRouter",
@@ -438,31 +720,29 @@
         "Startups",
         "Privacy"
       ],
-      "hot_score": 1.19
+      "hot_score": 0.75
     },
     {
-      "title_en": "GnuPG – post-quantum crypto landing in mainline",
-      "url": "https://lists.gnupg.org/pipermail/gnupg-announce/2026q2/000504.html",
-      "title_zh": "GnuPG——后量子加密进入主线",
-      "created_display": "Created: Apr 25, 2026 / 20:25 PT",
-      "image_url": null,
-      "summary_en": "GnuPG is incorporating post-quantum cryptography into its mainline, signaling real-world readiness for quantum-era security. This move strengthens open-source crypto and could influence how people securely exchange emails and sign data at scale.",
-      "summary_zh": "GnuPG 的主线代码现已接纳后量子加密算法，标志着量子时代安全的实际落地。此举提升了开源密码学的能力，可能影响大规模邮件加密与数据签名的实际应用。",
+      "title_en": "Chernobyl Wildlife Forty Years On",
+      "url": "https://www.bbc.com/future/article/20260424-chernobyl-wildlife-forty-years-on",
+      "title_zh": "切尔诺贝利四十年：野生动物的现状",
+      "created_display": "Created: Apr 26, 2026 / 12:42 PT",
+      "image_url": "https://ychef.files.bbci.co.uk/624x351/p0ngd8ng.jpg",
+      "summary_en": "Forty years after the disaster, wildlife in and around Chernobyl demonstrates resilience and ecological shifts, offering nuanced insights into radiation's long-term ecological effects.",
+      "summary_zh": "切尔诺贝利灾难四十年后，区域内外的野生动物展现出韧性与生态变迁，为放射性长期影响提供了更细致的解读。",
       "hn": {
-        "id": 47907018,
+        "id": 47913382,
         "type": "story",
-        "by": "zdkaster",
-        "score": 141,
-        "descendants": 40,
-        "time": 1777173902,
-        "comments_url": "https://news.ycombinator.com/item?id=47907018"
+        "by": "reconnecting",
+        "score": 13,
+        "descendants": 0,
+        "time": 1777232579,
+        "comments_url": "https://news.ycombinator.com/item?id=47913382"
       },
+      "hot_score": 0.72,
       "tags": [
-        "Security",
-        "Open Source",
         "Science"
-      ],
-      "hot_score": 0.82
+      ]
     },
     {
       "title_en": "New 10 GbE USB adapters are cooler, smaller, cheaper",
@@ -484,7 +764,31 @@
       "tags": [
         "Hardware"
       ],
-      "hot_score": 0.81
+      "hot_score": 0.69
+    },
+    {
+      "title_en": "GnuPG – post-quantum crypto landing in mainline",
+      "url": "https://lists.gnupg.org/pipermail/gnupg-announce/2026q2/000504.html",
+      "title_zh": "GnuPG——后量子加密进入主线",
+      "created_display": "Created: Apr 25, 2026 / 20:25 PT",
+      "image_url": null,
+      "summary_en": "GnuPG is incorporating post-quantum cryptography into its mainline, signaling real-world readiness for quantum-era security. This move strengthens open-source crypto and could influence how people securely exchange emails and sign data at scale.",
+      "summary_zh": "GnuPG 的主线代码现已接纳后量子加密算法，标志着量子时代安全的实际落地。此举提升了开源密码学的能力，可能影响大规模邮件加密与数据签名的实际应用。",
+      "hn": {
+        "id": 47907018,
+        "type": "story",
+        "by": "zdkaster",
+        "score": 160,
+        "descendants": 53,
+        "time": 1777173902,
+        "comments_url": "https://news.ycombinator.com/item?id=47907018"
+      },
+      "tags": [
+        "Security",
+        "Open Source",
+        "Science"
+      ],
+      "hot_score": 0.66
     },
     {
       "title_en": "Using coding assistance tools to revive projects you never were going to finish",
@@ -506,7 +810,52 @@
       "tags": [
         "Programming"
       ],
-      "hot_score": 0.78
+      "hot_score": 0.63
+    },
+    {
+      "title_en": "Neal Stephenson: The Real Threat Isn't AI, It's Us [video]",
+      "url": "https://www.youtube.com/watch?v=pUSWa5hOCtU",
+      "title_zh": "尼尔·斯蒂芬森：真正的威胁不是 AI，而是我们自己 [视频]",
+      "created_display": "Created: Apr 26, 2026 / 13:40 PT",
+      "image_url": null,
+      "summary_en": "A talk by Neal Stephenson argues that human biases and social dynamics pose greater risks than AI, offering a provocative critique of techno-utopianism and urging ethical vigilance.",
+      "summary_zh": "尼尔·斯蒂芬森在视频中提出，人类偏见与社会動态带来的风险往往超过 AI，挑战技术乐观论并呼吁伦理警觉。",
+      "hn": {
+        "id": 47914159,
+        "type": "story",
+        "by": "mindcrime",
+        "score": 8,
+        "descendants": 0,
+        "time": 1777236032,
+        "comments_url": "https://news.ycombinator.com/item?id=47914159"
+      },
+      "hot_score": 0.63,
+      "tags": [
+        "Culture",
+        "AI"
+      ]
+    },
+    {
+      "title_en": "QNX on the Commodore 900 – Raiders of the lost hard drive [video] (2025)",
+      "url": "https://archive.fosdem.org/2025/schedule/event/fosdem-2025-5479-raiders-of-the-lost-hard-drive/",
+      "title_zh": "Commodore 900 上的 QNX——迷失硬盘的寻踪 [视频]",
+      "created_display": "Created: Apr 26, 2026 / 05:55 PT",
+      "image_url": "https://fosdem.org/2025/assets/style/logo-gear-7204a6874eb0128932db10ff4030910401ac06f4e907f8b4a40da24ba592b252.png",
+      "summary_en": "A retro-computing demonstration ports QNX to the Commodore 900, showcasing how modern OS concepts can run on vintage hardware. The video offers a glimpse into hardware-software porting, bootstrapping challenges, and community curiosity around legacy machines.",
+      "summary_zh": "该视频演示在 Commodore 900 上移植 QNX，展示了把现代操作系统理念应用到老硬件上的可行性。内容涉及端口、引导与维护老机的挑战，以及社区对遗留设备的兴趣。",
+      "hn": {
+        "id": 47909945,
+        "type": "story",
+        "by": "rbanffy",
+        "score": 45,
+        "descendants": 3,
+        "time": 1777208153,
+        "comments_url": "https://news.ycombinator.com/item?id=47909945"
+      },
+      "tags": [
+        "Hardware"
+      ],
+      "hot_score": 0.54
     },
     {
       "title_en": "The Super Nintendo Cartridges (2024)",
@@ -520,8 +869,8 @@
         "id": 47906161,
         "type": "story",
         "by": "offbyone42",
-        "score": 146,
-        "descendants": 19,
+        "score": 158,
+        "descendants": 24,
         "time": 1777163881,
         "comments_url": "https://news.ycombinator.com/item?id=47906161"
       },
@@ -529,31 +878,7 @@
         "Hardware",
         "Gaming"
       ],
-      "hot_score": 0.65
-    },
-    {
-      "title_en": "Why are top university websites serving porn? It comes down to shoddy housekeep",
-      "url": "https://arstechnica.com/security/2026/04/why-are-top-university-websites-serving-porn-it-comes-down-to-shoddy-housekeeping/",
-      "title_zh": "为什么顶尖大学网站会提供色情内容？原因在于维护不善",
-      "created_display": "Created: Apr 26, 2026 / 11:03 PT",
-      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2023/07/GettyImages-1137650996-1152x648.jpg",
-      "summary_en": "Security researchers traced porn-serving behavior to broken housekeeping and misconfigured content filters on university sites, leading to unintended exposure.",
-      "summary_zh": "调查显示顶尖大学网站偶尔提供色情内容，源于维护不善、配置管理不足等问题。报道呼吁加强资产清单、自动化检查与内容治理，以避免此类暴露。",
-      "hn": {
-        "id": 47912392,
-        "type": "story",
-        "by": "joozio",
-        "score": 5,
-        "descendants": 0,
-        "time": 1777226622,
-        "comments_url": "https://news.ycombinator.com/item?id=47912392"
-      },
-      "hot_score": 0.65,
-      "tags": [
-        "Security",
-        "Privacy",
-        "Education"
-      ]
+      "hot_score": 0.52
     },
     {
       "title_en": "Exposing Floating Point – Bartosz Ciechanowski (2019)",
@@ -567,60 +892,15 @@
         "id": 47908139,
         "type": "story",
         "by": "subset",
-        "score": 65,
-        "descendants": 9,
+        "score": 80,
+        "descendants": 11,
         "time": 1777187960,
         "comments_url": "https://news.ycombinator.com/item?id=47908139"
       },
       "tags": [
         "Programming"
       ],
-      "hot_score": 0.59
-    },
-    {
-      "title_en": "QNX on the Commodore 900 – Raiders of the lost hard drive [video]",
-      "url": "https://archive.fosdem.org/2025/schedule/event/fosdem-2025-5479-raiders-of-the-lost-hard-drive/",
-      "title_zh": "Commodore 900 上的 QNX——迷失硬盘的寻踪 [视频]",
-      "created_display": "Created: Apr 26, 2026 / 05:55 PT",
-      "image_url": "https://fosdem.org/2025/assets/style/logo-gear-7204a6874eb0128932db10ff4030910401ac06f4e907f8b4a40da24ba592b252.png",
-      "summary_en": "A retro-computing demonstration ports QNX to the Commodore 900, showcasing how modern OS concepts can run on vintage hardware. The video offers a glimpse into hardware-software porting, bootstrapping challenges, and community curiosity around legacy machines.",
-      "summary_zh": "该视频演示在 Commodore 900 上移植 QNX，展示了把现代操作系统理念应用到老硬件上的可行性。内容涉及端口、引导与维护老机的挑战，以及社区对遗留设备的兴趣。",
-      "hn": {
-        "id": 47909945,
-        "type": "story",
-        "by": "rbanffy",
-        "score": 23,
-        "descendants": 0,
-        "time": 1777208153,
-        "comments_url": "https://news.ycombinator.com/item?id=47909945"
-      },
-      "tags": [
-        "Hardware"
-      ],
-      "hot_score": 0.54
-    },
-    {
-      "title_en": "Maine's governor vetoes data center moratorium",
-      "url": "https://techcrunch.com/2026/04/25/maines-governor-vetoes-data-center-moratorium/",
-      "title_zh": "缅因州州长否决数据中心暂停令",
-      "created_display": "Created: Apr 26, 2026 / 10:43 PT",
-      "image_url": "https://techcrunch.com/wp-content/uploads/2025/06/GettyImages-2217198328.jpeg?resize=1200,800",
-      "summary_en": "The governor vetoed a bill that would place a moratorium on new data centers, potentially to regulate energy usage and local impact. This decision affects local policy and the viability of data-center expansion in the state.",
-      "summary_zh": "州长否决了针对新建数据中心的禁令法案，可能意味着继续推动数据中心扩张并影响能源消耗与地方影响的监管。",
-      "hn": {
-        "id": 47912204,
-        "type": "story",
-        "by": "Brajeshwar",
-        "score": 5,
-        "descendants": 0,
-        "time": 1777225389,
-        "comments_url": "https://news.ycombinator.com/item?id=47912204"
-      },
-      "hot_score": 0.52,
-      "tags": [
-        "Politics",
-        "Energy"
-      ]
+      "hot_score": 0.47
     },
     {
       "title_en": "Simulacrum of Knowledge Work",
@@ -640,10 +920,10 @@
         "comments_url": "https://news.ycombinator.com/item?id=47902987"
       },
       "tags": [
-        "AI",
-        "Culture"
+        "Culture",
+        "AI"
       ],
-      "hot_score": 0.46
+      "hot_score": 0.37
     },
     {
       "title_en": "America's Geothermal Breakthrough",
@@ -657,63 +937,15 @@
         "id": 47903945,
         "type": "story",
         "by": "sleepyguy",
-        "score": 148,
-        "descendants": 159,
+        "score": 155,
+        "descendants": 161,
         "time": 1777145935,
         "comments_url": "https://news.ycombinator.com/item?id=47903945"
       },
       "tags": [
-        "Energy",
-        "Science"
+        "Energy"
       ],
-      "hot_score": 0.44
-    },
-    {
-      "title_en": "AGPLv3§74 Empowers Users to Thwart Badgeware Like OnlyOffice",
-      "url": "https://sfconservancy.org/blog/2026/apr/16/badgeware-onlyoffice-nextcloud-affero-gpl/",
-      "title_zh": "AGPLv3 第74条：让用户有能力抵制徽章化软件，如 OnlyOffice",
-      "created_display": "Created: Apr 25, 2026 / 22:06 PT",
-      "image_url": "https://sfconservancy.org/static/img/conservancy-logo.png",
-      "summary_en": "AGPLv3 Section 74 empowers users to push back against 'badgeware'—excessive branding and tracking in software like OnlyOffice. The post argues this strengthens user rights and free-software norms, potentially reshaping how online services integrate branding.",
-      "summary_zh": "AGPLv3 第74条赋予用户抵制“徽章化”现象的权利，针对像 OnlyOffice 这类软件中过度标识与追踪的问题提供保护。文章认为这加强了用户权利与自由软件准则，或推动线上服务在品牌整合方面的改变。",
-      "hn": {
-        "id": 47907543,
-        "type": "story",
-        "by": "pabs3",
-        "score": 53,
-        "descendants": 9,
-        "time": 1777180018,
-        "comments_url": "https://news.ycombinator.com/item?id=47907543"
-      },
-      "hot_score": 0.37,
-      "tags": [
-        "Open Source",
-        "Legal",
-        "Privacy"
-      ]
-    },
-    {
-      "title_en": "The disappearing AI middle class",
-      "url": "https://thenewstack.io/disappearing-ai-middle-class/",
-      "title_zh": "消失的 AI 中产阶级",
-      "created_display": "Created: Apr 26, 2026 / 10:38 PT",
-      "image_url": "https://cdn.thenewstack.io/media/2026/04/0900cc61-getty-images-l3wbexkdheg-unsplash-scaled.jpg",
-      "summary_en": "It discusses implications for workers, startups, and policy.",
-      "summary_zh": "本文讨论 AI 经济中的中产阶层正在消失的趋势，自动化和平台化让中等技能的 AI 工作岗位变得边缘化，影响工資结构与职业路径。",
-      "hn": {
-        "id": 47912147,
-        "type": "story",
-        "by": "nick217",
-        "score": 4,
-        "descendants": 0,
-        "time": 1777225085,
-        "comments_url": "https://news.ycombinator.com/item?id=47912147"
-      },
-      "hot_score": 0.37,
-      "tags": [
-        "AI",
-        "Startups"
-      ]
+      "hot_score": 0.36
     },
     {
       "title_en": "Colorado Adds Open-Source Exemption to Age-Verification Bill",
@@ -736,53 +968,7 @@
         "Open Source",
         "Privacy"
       ],
-      "hot_score": 0.36
-    },
-    {
-      "title_en": "APL is more French than English",
-      "url": "https://www.jsoftware.com/papers/perlis78.htm",
-      "title_zh": "APL 比英语更偏向法语",
-      "created_display": "Created: Apr 26, 2026 / 00:24 PT",
-      "image_url": null,
-      "summary_en": "The piece revisits APL's cultural lineage, arguing that its history and usage are more rooted in French-speaking communities than English-speaking ones. It sheds light on the sociolinguistic aspects of programming language ecosystems and how design decisions propagate.",
-      "summary_zh": "文章追溯 APL 的文化脉络，认为其历史与使用更深植于法语社群而非英语世界。它揭示了编程语言生态中语言和地区文化的影响，以及设计选择如何在社区中流传。",
-      "hn": {
-        "id": 47908166,
-        "type": "story",
-        "by": "tosh",
-        "score": 40,
-        "descendants": 15,
-        "time": 1777188247,
-        "comments_url": "https://news.ycombinator.com/item?id=47908166"
-      },
-      "tags": [
-        "Programming",
-        "Culture"
-      ],
-      "hot_score": 0.36
-    },
-    {
-      "title_en": "Hokusai and Tesselations",
-      "url": "https://dl.ndl.go.jp/pid/1899550/1/11/",
-      "title_zh": "北斎与镶嵌图案",
-      "created_display": "Created: Apr 25, 2026 / 10:21 PT",
-      "image_url": null,
-      "summary_en": "This collection explores how Hokusai's prints intersect with tessellation ideas—repeating motifs, grids, and spatial tiling in Edo-era art. It reveals a dialogue between Japanese aesthetics and early geometric thinking that informs both art history and mathematics.",
-      "summary_zh": "本集藏品探讨北斎作品与镶嵌图案之间的关系——重复的几何风格、网格与平铺在他的版画中的应用。通过展现日本美学与早期几何思维之间的对话，带来艺术史与数学的交叉视角。",
-      "hn": {
-        "id": 47902993,
-        "type": "story",
-        "by": "srean",
-        "score": 129,
-        "descendants": 15,
-        "time": 1777137682,
-        "comments_url": "https://news.ycombinator.com/item?id=47902993"
-      },
-      "tags": [
-        "Design",
-        "Science"
-      ],
-      "hot_score": 0.33
+      "hot_score": 0.27
     },
     {
       "title_en": "GPT‑5.5 Bio Bug Bounty",
@@ -805,30 +991,30 @@
         "AI",
         "Security"
       ],
-      "hot_score": 0.32
+      "hot_score": 0.26
     },
     {
-      "title_en": "Microsoft Reportedly Looking at Rebasing Azure Linux on Fedora",
-      "url": "https://www.phoronix.com/news/MS-Azure-Linux-Fedora-Based",
-      "title_zh": "微软据称计划将 Azure Linux 的基础改为 Fedora",
-      "created_display": "Created: Apr 26, 2026 / 05:47 PT",
-      "image_url": "https://www.phoronix.net/image.php?id=2026&image=fedora_azure_linux",
-      "summary_en": "Microsoft considering basing Azure Linux on Fedora signals a shift toward a more RHEL-alike, Fedora-family base, which could affect package freshness, compatibility, and cloud image strategy. It reveals strategic openness to community-driven distros for cloud services.",
-      "summary_zh": "微软据传计划将 Azure Linux 的基础改为 Fedora 族发行版，可能影响镜像更新、兼容性与云生态策略。此举体现对开源社区和区域性发行版的依赖与探索。",
+      "title_en": "Hokusai and Tesselations",
+      "url": "https://dl.ndl.go.jp/pid/1899550/1/11/",
+      "title_zh": "北斎与镶嵌图案",
+      "created_display": "Created: Apr 25, 2026 / 10:21 PT",
+      "image_url": null,
+      "summary_en": "This collection explores how Hokusai's prints intersect with tessellation ideas—repeating motifs, grids, and spatial tiling in Edo-era art. It reveals a dialogue between Japanese aesthetics and early geometric thinking that informs both art history and mathematics.",
+      "summary_zh": "本集藏品探讨北斎作品与镶嵌图案之间的关系——重复的几何风格、网格与平铺在他的版画中的应用。通过展现日本美学与早期几何思维之间的对话，带来艺术史与数学的交叉视角。",
       "hn": {
-        "id": 47909898,
+        "id": 47902993,
         "type": "story",
-        "by": "rbanffy",
-        "score": 14,
-        "descendants": 3,
-        "time": 1777207667,
-        "comments_url": "https://news.ycombinator.com/item?id=47909898"
+        "by": "srean",
+        "score": 129,
+        "descendants": 15,
+        "time": 1777137682,
+        "comments_url": "https://news.ycombinator.com/item?id=47902993"
       },
-      "hot_score": 0.31,
       "tags": [
-        "Open Source",
-        "DevOps"
-      ]
+        "Culture",
+        "Science"
+      ],
+      "hot_score": 0.26
     },
     {
       "title_en": "Martin Galway's music source files from 1980's Commodore 64 games",
@@ -848,34 +1034,35 @@
         "comments_url": "https://news.ycombinator.com/item?id=47900398"
       },
       "tags": [
+        "Gaming",
         "Entertainment",
-        "Culture",
         "Hardware"
       ],
-      "hot_score": 0.3
+      "hot_score": 0.25
     },
     {
-      "title_en": "DeepSeek-V4 on Day 0: From Fast Inference to Verified RL with SGLang and Miles",
-      "url": "https://www.lmsys.org/blog/2026-04-25-deepseek-v4/",
-      "title_zh": "DeepSeek-V4 Day 0：从快速推理到使用 SGLang 与 Miles 的验证型强化学习",
-      "created_display": "Created: Apr 25, 2026 / 16:44 PT",
-      "image_url": "https://www.lmsys.org/images/logo-v2.png",
-      "summary_en": "DeepSeek-V4 debuts with fast inference capabilities and a path to verified RL using SGLang and Miles. It showcases how open-source tooling can bridge speed and safety in RL applications, with potential use in instruction following and planning.",
-      "summary_zh": "DeepSeek-V4 首次亮相，提供快速推理能力并通过 SGLang 与 Miles 实现验证型强化学习路径。展示了开源工具如何在 RL 任务中兼顾速度与安全性，并对指令执行与规划等场景具备潜在应用。",
+      "title_en": "AGPLv3§74 Empowers Users to Thwart Badgeware Like OnlyOffice",
+      "url": "https://sfconservancy.org/blog/2026/apr/16/badgeware-onlyoffice-nextcloud-affero-gpl/",
+      "title_zh": "AGPLv3 第74条：让用户有能力抵制徽章化软件，如 OnlyOffice",
+      "created_display": "Created: Apr 25, 2026 / 22:06 PT",
+      "image_url": "https://sfconservancy.org/static/img/conservancy-logo.png",
+      "summary_en": "AGPLv3 Section 74 empowers users to push back against 'badgeware'—excessive branding and tracking in software like OnlyOffice. The post argues this strengthens user rights and free-software norms, potentially reshaping how online services integrate branding.",
+      "summary_zh": "AGPLv3 第74条赋予用户抵制“徽章化”现象的权利，针对像 OnlyOffice 这类软件中过度标识与追踪的问题提供保护。文章认为这加强了用户权利与自由软件准则，或推动线上服务在品牌整合方面的改变。",
       "hn": {
-        "id": 47905768,
+        "id": 47907543,
         "type": "story",
-        "by": "mji",
-        "score": 73,
-        "descendants": 7,
-        "time": 1777160645,
-        "comments_url": "https://news.ycombinator.com/item?id=47905768"
+        "by": "pabs3",
+        "score": 53,
+        "descendants": 9,
+        "time": 1777180018,
+        "comments_url": "https://news.ycombinator.com/item?id=47907543"
       },
+      "hot_score": 0.25,
       "tags": [
-        "AI",
-        "Open Source"
-      ],
-      "hot_score": 0.3
+        "Open Source",
+        "Legal",
+        "Privacy"
+      ]
     },
     {
       "title_en": "Discret 11, the French TV encryption of the 80s (2020)",
@@ -898,7 +1085,29 @@
         "Security",
         "Hardware"
       ],
-      "hot_score": 0.29
+      "hot_score": 0.24
+    },
+    {
+      "title_en": "APL is more French than English",
+      "url": "https://www.jsoftware.com/papers/perlis78.htm",
+      "title_zh": "APL 比英语更偏向法语",
+      "created_display": "Created: Apr 26, 2026 / 00:24 PT",
+      "image_url": null,
+      "summary_en": "The piece revisits APL's cultural lineage, arguing that its history and usage are more rooted in French-speaking communities than English-speaking ones. It sheds light on the sociolinguistic aspects of programming language ecosystems and how design decisions propagate.",
+      "summary_zh": "文章追溯 APL 的文化脉络，认为其历史与使用更深植于法语社群而非英语世界。它揭示了编程语言生态中语言和地区文化的影响，以及设计选择如何在社区中流传。",
+      "hn": {
+        "id": 47908166,
+        "type": "story",
+        "by": "tosh",
+        "score": 40,
+        "descendants": 15,
+        "time": 1777188247,
+        "comments_url": "https://news.ycombinator.com/item?id=47908166"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 0.24
     },
     {
       "title_en": "Mine, an IDE for Coalton and Common Lisp",
@@ -920,53 +1129,30 @@
       "tags": [
         "Programming"
       ],
-      "hot_score": 0.28
+      "hot_score": 0.22
     },
     {
-      "title_en": "Show HN: I remade my blog into a Windows 3.1 environment",
-      "url": "https://passo.uno/",
-      "title_zh": "Show HN：我把博客改造成 Windows 3.1 环境",
-      "created_display": "Created: Apr 26, 2026 / 04:02 PT",
-      "image_url": "https://passo.uno/thumb.png",
-      "summary_en": "A Show HN project recreates a modern blog within a Windows 3.1 environment, using emulation and retro styling to explore constraints and aesthetic choices.",
-      "summary_zh": "Show HN 展示把现代博客改造成 Windows 3.1 环境的尝试，借助仿真与复古界面探索新颖的美学与性能边界。",
+      "title_en": "DeepSeek-V4 on Day 0: From Fast Inference to Verified RL with SGLang and Miles",
+      "url": "https://www.lmsys.org/blog/2026-04-25-deepseek-v4/",
+      "title_zh": "DeepSeek-V4 Day 0：从快速推理到使用 SGLang 与 Miles 的验证型强化学习",
+      "created_display": "Created: Apr 25, 2026 / 16:44 PT",
+      "image_url": "https://www.lmsys.org/images/logo-v2.png",
+      "summary_en": "DeepSeek-V4 debuts with fast inference capabilities and a path to verified RL using SGLang and Miles. It showcases how open-source tooling can bridge speed and safety in RL applications, with potential use in instruction following and planning.",
+      "summary_zh": "DeepSeek-V4 首次亮相，提供快速推理能力并通过 SGLang 与 Miles 实现验证型强化学习路径。展示了开源工具如何在 RL 任务中兼顾速度与安全性，并对指令执行与规划等场景具备潜在应用。",
       "hn": {
-        "id": 47909295,
+        "id": 47905768,
         "type": "story",
-        "by": "theletterf",
-        "score": 17,
-        "descendants": 11,
-        "time": 1777201343,
-        "comments_url": "https://news.ycombinator.com/item?id=47909295"
+        "by": "mji",
+        "score": 73,
+        "descendants": 7,
+        "time": 1777160645,
+        "comments_url": "https://news.ycombinator.com/item?id=47905768"
       },
-      "hot_score": 0.26,
       "tags": [
-        "Show HN",
-        "Web"
-      ]
-    },
-    {
-      "title_en": "Her life savings mysteriously disappeared after a systems glitch",
-      "url": "https://www.nytimes.com/2026/04/25/your-money/fidelity-investments-fraud-alert.html",
-      "title_zh": "系统故障后她的全部积蓄神秘消失",
-      "created_display": "Created: Apr 25, 2026 / 16:32 PT",
-      "image_url": null,
-      "summary_en": "The life savings vanished after a systems glitch, exposing the fragility of automated financial systems and the difficulty of rectifying digital faults. The case highlights the need for stronger consumer protections and robust error-correction processes.",
-      "summary_zh": "系统故障导致她的全部积蓄神秘消失，暴露了自动化金融系统的脆弱性以及纠错的困难。事件凸显了加强用户保护与健全错误纠正机制的必要性。",
-      "hn": {
-        "id": 47905681,
-        "type": "story",
-        "by": "danso",
-        "score": 57,
-        "descendants": 44,
-        "time": 1777159938,
-        "comments_url": "https://news.ycombinator.com/item?id=47905681"
-      },
-      "hot_score": 0.23,
-      "tags": [
-        "Finance",
-        "Security"
-      ]
+        "AI",
+        "Open Source"
+      ],
+      "hot_score": 0.22
     },
     {
       "title_en": "A web-based RDP client built with Go WebAssembly and grdp",
@@ -990,7 +1176,144 @@
         "Web",
         "Security"
       ],
-      "hot_score": 0.22
+      "hot_score": 0.18
+    },
+    {
+      "title_en": "Her life savings mysteriously disappeared after a systems glitch",
+      "url": "https://www.nytimes.com/2026/04/25/your-money/fidelity-investments-fraud-alert.html",
+      "title_zh": "系统故障后她的全部积蓄神秘消失",
+      "created_display": "Created: Apr 25, 2026 / 16:32 PT",
+      "image_url": null,
+      "summary_en": "The life savings vanished after a systems glitch, exposing the fragility of automated financial systems and the difficulty of rectifying digital faults. The case highlights the need for stronger consumer protections and robust error-correction processes.",
+      "summary_zh": "系统故障导致她的全部积蓄神秘消失，暴露了自动化金融系统的脆弱性以及纠错的困难。事件凸显了加强用户保护与健全错误纠正机制的必要性。",
+      "hn": {
+        "id": 47905681,
+        "type": "story",
+        "by": "danso",
+        "score": 57,
+        "descendants": 44,
+        "time": 1777159938,
+        "comments_url": "https://news.ycombinator.com/item?id=47905681"
+      },
+      "hot_score": 0.17,
+      "tags": [
+        "Finance"
+      ]
+    },
+    {
+      "title_en": "Microsoft Reportedly Looking at Rebasing Azure Linux on Fedora",
+      "url": "https://www.phoronix.com/news/MS-Azure-Linux-Fedora-Based",
+      "title_zh": "微软据称计划将 Azure Linux 的基础改为 Fedora",
+      "created_display": "Created: Apr 26, 2026 / 05:47 PT",
+      "image_url": "https://www.phoronix.net/image.php?id=2026&image=fedora_azure_linux",
+      "summary_en": "Microsoft considering basing Azure Linux on Fedora signals a shift toward a more RHEL-alike, Fedora-family base, which could affect package freshness, compatibility, and cloud image strategy. It reveals strategic openness to community-driven distros for cloud services.",
+      "summary_zh": "微软据传计划将 Azure Linux 的基础改为 Fedora 族发行版，可能影响镜像更新、兼容性与云生态策略。此举体现对开源社区和区域性发行版的依赖与探索。",
+      "hn": {
+        "id": 47909898,
+        "type": "story",
+        "by": "rbanffy",
+        "score": 14,
+        "descendants": 3,
+        "time": 1777207667,
+        "comments_url": "https://news.ycombinator.com/item?id=47909898"
+      },
+      "hot_score": 0.16,
+      "tags": [
+        "Open Source",
+        "Business"
+      ]
+    },
+    {
+      "title_en": "Show HN: I remade my blog into a Windows 3.1 environment",
+      "url": "https://passo.uno/",
+      "title_zh": "Show HN：我把博客改造成 Windows 3.1 环境",
+      "created_display": "Created: Apr 26, 2026 / 04:02 PT",
+      "image_url": "https://passo.uno/thumb.png",
+      "summary_en": "A Show HN project recreates a modern blog within a Windows 3.1 environment, using emulation and retro styling to explore constraints and aesthetic choices.",
+      "summary_zh": "Show HN 展示把现代博客改造成 Windows 3.1 环境的尝试，借助仿真与复古界面探索新颖的美学与性能边界。",
+      "hn": {
+        "id": 47909295,
+        "type": "story",
+        "by": "theletterf",
+        "score": 17,
+        "descendants": 11,
+        "time": 1777201343,
+        "comments_url": "https://news.ycombinator.com/item?id=47909295"
+      },
+      "hot_score": 0.15,
+      "tags": [
+        "Show HN",
+        "Web",
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "Why are top university websites serving porn? It comes down to shoddy housekeep",
+      "url": "https://arstechnica.com/security/2026/04/why-are-top-university-websites-serving-porn-it-comes-down-to-shoddy-housekeeping/",
+      "title_zh": "为什么顶尖大学网站会提供色情内容？原因在于维护不善",
+      "created_display": "Created: Apr 26, 2026 / 11:03 PT",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2023/07/GettyImages-1137650996-1152x648.jpg",
+      "summary_en": "Security researchers traced porn-serving behavior to broken housekeeping and misconfigured content filters on university sites, leading to unintended exposure.",
+      "summary_zh": "调查显示顶尖大学网站偶尔提供色情内容，源于维护不善、配置管理不足等问题。报道呼吁加强资产清单、自动化检查与内容治理，以避免此类暴露。",
+      "hn": {
+        "id": 47912392,
+        "type": "story",
+        "by": "joozio",
+        "score": 5,
+        "descendants": 0,
+        "time": 1777226622,
+        "comments_url": "https://news.ycombinator.com/item?id=47912392"
+      },
+      "hot_score": 0.14,
+      "tags": [
+        "Security",
+        "Education"
+      ]
+    },
+    {
+      "title_en": "1-Bit Hokusai's \"The Great Wave\" (2023)",
+      "url": "https://www.hypertalking.com/2023/05/08/1-bit-pixel-art-of-hokusais-the-great-wave-off-kanagawa/",
+      "title_zh": "1 位元像素風格的《神奈川沖浪裏》（2023）",
+      "created_display": "Created: Apr 22, 2026 / 06:46 PT",
+      "image_url": "https://www.hypertalking.com/wp-content/themes/hypertalking/images/james-colour.png",
+      "summary_en": "A 1-bit pixel-art reinterpretation of Hokusai's The Great Wave Off Kanagawa, created in 2023. The piece demonstrates how ultra-minimal digital art can echo a masterwork's motion and drama, pushing the boundaries of what 'low fidelity' can convey. It underscores the enduring appeal of classic images in the era of retro aesthetics and generative art.",
+      "summary_zh": "用1位元像素風格重新詮釋葛飾北斎的《神奈川沖浪裏》，作品於2023年亮相。極簡像素的限制放大波濤的動勢與張力，顯示經典名作在現代數位美學中的再創造力與吸引力。",
+      "hn": {
+        "id": 47863570,
+        "type": "story",
+        "by": "stephen-hill",
+        "score": 588,
+        "descendants": 90,
+        "time": 1776865583,
+        "comments_url": "https://news.ycombinator.com/item?id=47863570"
+      },
+      "tags": [
+        "Entertainment"
+      ],
+      "hot_score": 0.13
+    },
+    {
+      "title_en": "Maine's governor vetoes data center moratorium",
+      "url": "https://techcrunch.com/2026/04/25/maines-governor-vetoes-data-center-moratorium/",
+      "title_zh": "缅因州州长否决数据中心暂停令",
+      "created_display": "Created: Apr 26, 2026 / 10:43 PT",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2025/06/GettyImages-2217198328.jpeg?resize=1200,800",
+      "summary_en": "The governor vetoed a bill that would place a moratorium on new data centers, potentially to regulate energy usage and local impact. This decision affects local policy and the viability of data-center expansion in the state.",
+      "summary_zh": "州长否决了针对新建数据中心的禁令法案，可能意味着继续推动数据中心扩张并影响能源消耗与地方影响的监管。",
+      "hn": {
+        "id": 47912204,
+        "type": "story",
+        "by": "Brajeshwar",
+        "score": 5,
+        "descendants": 0,
+        "time": 1777225389,
+        "comments_url": "https://news.ycombinator.com/item?id=47912204"
+      },
+      "hot_score": 0.13,
+      "tags": [
+        "Politics",
+        "Energy"
+      ]
     },
     {
       "title_en": "Show HN: A free ESG stock screener that publishes its losses and methodology",
@@ -1013,29 +1336,29 @@
         "Show HN",
         "Finance"
       ],
-      "hot_score": 0.2
+      "hot_score": 0.12
     },
     {
-      "title_en": "A populist wave is rising to end the 'captive' repair economy",
-      "url": "https://www.cnbc.com/2026/04/25/right-to-repair-consumer-prices-affordability-economy-elections.html",
-      "title_zh": "一场民粹浪潮正在兴起，旨在终止‘被锁定’的维修经济",
-      "created_display": "Created: Apr 26, 2026 / 05:07 PT",
-      "image_url": "https://image.cnbcfm.com/api/v1/image/108295646-1776884850747-gettyimages-1237115997-US_CAR_SALES.jpeg?v=1776884869&w=1920&h=1080",
-      "summary_en": "The CNBC piece argues that consumer pricing and availability could improve as political pressure presses for right-to-repair reforms. It discusses how a 'captive' repair economy harms affordability and stifles competition.",
-      "summary_zh": "文章指出民粹情绪推动下的“维护自由”议题，主张通过修复权等政策结束被锁定的维修市场。讨论对消费价格、可及性和创新的潜在影响。",
+      "title_en": "What the FCC router ban means for FOSS",
+      "url": "https://sfconservancy.org/blog/2026/apr/02/fcc-router-ban/",
+      "title_zh": "FCC 路由器禁令对自由与开源软件的影响",
+      "created_display": "Created: Apr 25, 2026 / 21:12 PT",
+      "image_url": "https://sfconservancy.org/static/img/conservancy-logo.png",
+      "summary_en": "FCC's router ban could reshape how freely open-source firmware and software can be installed on devices, affecting user control and the viability of projects like OpenWrt. The post analyzes implications for FOSS router ecosystems.",
+      "summary_zh": "FCC 的路由器禁令可能重塑设备上自由开放固件和软件的安装方式，影响用户控制权以及像 OpenWrt 之类项目的可行性。文中分析了对自由软件路由器生态的潜在影响。",
       "hn": {
-        "id": 47909687,
+        "id": 47907271,
         "type": "story",
-        "by": "pseudolus",
-        "score": 10,
-        "descendants": 1,
-        "time": 1777205247,
-        "comments_url": "https://news.ycombinator.com/item?id=47909687"
+        "by": "pabs3",
+        "score": 25,
+        "descendants": 9,
+        "time": 1777176735,
+        "comments_url": "https://news.ycombinator.com/item?id=47907271"
       },
-      "hot_score": 0.18,
+      "hot_score": 0.11,
       "tags": [
-        "Politics",
-        "Business"
+        "Open Source",
+        "Politics"
       ]
     },
     {
@@ -1055,10 +1378,32 @@
         "time": 1777188142,
         "comments_url": "https://news.ycombinator.com/item?id=47908158"
       },
-      "hot_score": 0.17,
+      "hot_score": 0.11,
       "tags": [
         "Programming"
       ]
+    },
+    {
+      "title_en": "Mahjong: A Visual Guide",
+      "url": "https://themahjong.guide/",
+      "title_zh": "麻将：可视化指南",
+      "created_display": "Created: Apr 23, 2026 / 20:41 PT",
+      "image_url": "https://emilyhanyf.github.io/mahjong/cover_page.png",
+      "summary_en": "A visual guide that explains Mahjong basics—tiles, hands, and common winning patterns—through diagrams and annotated illustrations. It serves as a practical quick-start for beginners and a handy reference for players brushing up on rules.",
+      "summary_zh": "这份可视化指南用图解介绍麻将的牌型、和牌模式及常见役种，直观易懂。适合初学者快速入门，也为玩家复习规则提供便捷参考。",
+      "hn": {
+        "id": 47885239,
+        "type": "story",
+        "by": "iamwil",
+        "score": 203,
+        "descendants": 53,
+        "time": 1777002069,
+        "comments_url": "https://news.ycombinator.com/item?id=47885239"
+      },
+      "tags": [
+        "Gaming"
+      ],
+      "hot_score": 0.1
     },
     {
       "title_en": "Reviving BrowserID in 2026",
@@ -1081,76 +1426,99 @@
         "Privacy",
         "Web"
       ],
-      "hot_score": 0.15
+      "hot_score": 0.1
     },
     {
-      "title_en": "What the FCC router ban means for FOSS",
-      "url": "https://sfconservancy.org/blog/2026/apr/02/fcc-router-ban/",
-      "title_zh": "FCC 路由器禁令对自由与开源软件的影响",
-      "created_display": "Created: Apr 25, 2026 / 21:12 PT",
-      "image_url": "https://sfconservancy.org/static/img/conservancy-logo.png",
-      "summary_en": "FCC's router ban could reshape how freely open-source firmware and software can be installed on devices, affecting user control and the viability of projects like OpenWrt. The post analyzes implications for FOSS router ecosystems.",
-      "summary_zh": "FCC 的路由器禁令可能重塑设备上自由开放固件和软件的安装方式，影响用户控制权以及像 OpenWrt 之类项目的可行性。文中分析了对自由软件路由器生态的潜在影响。",
+      "title_en": "A populist wave is rising to end the 'captive' repair economy",
+      "url": "https://www.cnbc.com/2026/04/25/right-to-repair-consumer-prices-affordability-economy-elections.html",
+      "title_zh": "一场民粹浪潮正在兴起，旨在终止‘被锁定’的维修经济",
+      "created_display": "Created: Apr 26, 2026 / 05:07 PT",
+      "image_url": "https://image.cnbcfm.com/api/v1/image/108295646-1776884850747-gettyimages-1237115997-US_CAR_SALES.jpeg?v=1776884869&w=1920&h=1080",
+      "summary_en": "The CNBC piece argues that consumer pricing and availability could improve as political pressure presses for right-to-repair reforms. It discusses how a 'captive' repair economy harms affordability and stifles competition.",
+      "summary_zh": "文章指出民粹情绪推动下的“维护自由”议题，主张通过修复权等政策结束被锁定的维修市场。讨论对消费价格、可及性和创新的潜在影响。",
       "hn": {
-        "id": 47907271,
+        "id": 47909687,
         "type": "story",
-        "by": "pabs3",
-        "score": 25,
-        "descendants": 9,
-        "time": 1777176735,
-        "comments_url": "https://news.ycombinator.com/item?id=47907271"
+        "by": "pseudolus",
+        "score": 10,
+        "descendants": 1,
+        "time": 1777205247,
+        "comments_url": "https://news.ycombinator.com/item?id=47909687"
       },
-      "hot_score": 0.15,
+      "hot_score": 0.1,
       "tags": [
-        "Open Source",
         "Politics"
       ]
     },
     {
-      "title_en": "1-Bit Hokusai's \"The Great Wave\" (2023)",
-      "url": "https://www.hypertalking.com/2023/05/08/1-bit-pixel-art-of-hokusais-the-great-wave-off-kanagawa/",
-      "title_zh": "1 位元像素風格的《神奈川沖浪裏》（2023）",
-      "created_display": "Created: Apr 22, 2026 / 06:46 PT",
-      "image_url": "https://www.hypertalking.com/wp-content/themes/hypertalking/images/james-colour.png",
-      "summary_en": "A 1-bit pixel-art reinterpretation of Hokusai's The Great Wave Off Kanagawa, created in 2023. The piece demonstrates how ultra-minimal digital art can echo a masterwork's motion and drama, pushing the boundaries of what 'low fidelity' can convey. It underscores the enduring appeal of classic images in the era of retro aesthetics and generative art.",
-      "summary_zh": "用1位元像素風格重新詮釋葛飾北斎的《神奈川沖浪裏》，作品於2023年亮相。極簡像素的限制放大波濤的動勢與張力，顯示經典名作在現代數位美學中的再創造力與吸引力。",
+      "title_en": "The disappearing AI middle class",
+      "url": "https://thenewstack.io/disappearing-ai-middle-class/",
+      "title_zh": "消失的 AI 中产阶级",
+      "created_display": "Created: Apr 26, 2026 / 10:38 PT",
+      "image_url": "https://cdn.thenewstack.io/media/2026/04/0900cc61-getty-images-l3wbexkdheg-unsplash-scaled.jpg",
+      "summary_en": "It discusses implications for workers, startups, and policy.",
+      "summary_zh": "本文讨论 AI 经济中的中产阶层正在消失的趋势，自动化和平台化让中等技能的 AI 工作岗位变得边缘化，影响工資结构与职业路径。",
       "hn": {
-        "id": 47863570,
+        "id": 47912147,
         "type": "story",
-        "by": "stephen-hill",
-        "score": 588,
-        "descendants": 90,
-        "time": 1776865583,
-        "comments_url": "https://news.ycombinator.com/item?id=47863570"
+        "by": "nick217",
+        "score": 4,
+        "descendants": 0,
+        "time": 1777225085,
+        "comments_url": "https://news.ycombinator.com/item?id=47912147"
       },
+      "hot_score": 0.09,
       "tags": [
-        "Entertainment",
-        "Culture"
-      ],
-      "hot_score": 0.14
+        "AI",
+        "Startups"
+      ]
     },
     {
-      "title_en": "Mahjong: A Visual Guide",
-      "url": "https://themahjong.guide/",
-      "title_zh": "麻将：可视化指南",
-      "created_display": "Created: Apr 23, 2026 / 20:41 PT",
-      "image_url": "https://emilyhanyf.github.io/mahjong/cover_page.png",
-      "summary_en": "A visual guide that explains Mahjong basics—tiles, hands, and common winning patterns—through diagrams and annotated illustrations. It serves as a practical quick-start for beginners and a handy reference for players brushing up on rules.",
-      "summary_zh": "这份可视化指南用图解介绍麻将的牌型、和牌模式及常见役种，直观易懂。适合初学者快速入门，也为玩家复习规则提供便捷参考。",
+      "title_en": "OpenAI Privacy Filter",
+      "url": "https://openai.com/index/introducing-openai-privacy-filter/",
+      "title_zh": "OpenAI 隐私过滤器",
+      "created_display": "Created: Apr 22, 2026 / 17:14 PT",
+      "image_url": null,
+      "summary_en": "OpenAI introduces a privacy filter designed to scrub personal data from prompts and responses, helping users keep sensitive information out of training data and shared logs. The feature aligns with increasing regulatory and user demand for privacy-preserving AI interactions.",
+      "summary_zh": "OpenAI 推出隐私过滤器，旨在从提示和回复中去除个人敏感信息，帮助用户避免将数据用于训练或公开日志。该功能回应日益增长的隐私合规与用户对隐私保护的需求。",
       "hn": {
-        "id": 47885239,
+        "id": 47870901,
         "type": "story",
-        "by": "iamwil",
-        "score": 176,
-        "descendants": 49,
-        "time": 1777002069,
-        "comments_url": "https://news.ycombinator.com/item?id=47885239"
+        "by": "tanelpoder",
+        "score": 285,
+        "descendants": 63,
+        "time": 1776903295,
+        "comments_url": "https://news.ycombinator.com/item?id=47870901"
       },
       "tags": [
-        "Gaming",
-        "Education"
+        "AI",
+        "Privacy",
+        "Politics"
       ],
-      "hot_score": 0.1
+      "hot_score": 0.08
+    },
+    {
+      "title_en": "Agentic AI systems violate the implicit assumptions of database design",
+      "url": "https://arpitbhayani.me/blogs/defensive-databases/",
+      "title_zh": "代理性 AI 系统违反数据库设计的隐性假设",
+      "created_display": "Created: Apr 24, 2026 / 16:41 PT",
+      "image_url": "https://edge.arpitbhayani.me/img/covers/general-cover.jpg",
+      "summary_en": "Agentic AI systems challenge implicit database design assumptions, raising concerns about data integrity, governance, and accountability as autonomous agents access and modify data.",
+      "summary_zh": "代理性 AI 系统挑战数据库设计中的隐性假设，引发对数据完整性、治理与问责的关注，尤其在自治代理访问和修改数据时。",
+      "hn": {
+        "id": 47897140,
+        "type": "story",
+        "by": "mooreds",
+        "score": 84,
+        "descendants": 82,
+        "time": 1777074098,
+        "comments_url": "https://news.ycombinator.com/item?id=47897140"
+      },
+      "hot_score": 0.08,
+      "tags": [
+        "AI",
+        "Data"
+      ]
     },
     {
       "title_en": "The Free Universal Construction Kit",
@@ -1173,31 +1541,53 @@
         "Hardware",
         "Open Source"
       ],
-      "hot_score": 0.08
+      "hot_score": 0.07
     },
     {
-      "title_en": "OpenAI Privacy Filter",
-      "url": "https://openai.com/index/introducing-openai-privacy-filter/",
-      "title_zh": "OpenAI 隐私过滤器",
-      "created_display": "Created: Apr 22, 2026 / 17:14 PT",
-      "image_url": null,
-      "summary_en": "OpenAI introduces a privacy filter designed to scrub personal data from prompts and responses, helping users keep sensitive information out of training data and shared logs. The feature aligns with increasing regulatory and user demand for privacy-preserving AI interactions.",
-      "summary_zh": "OpenAI 推出隐私过滤器，旨在从提示和回复中去除个人敏感信息，帮助用户避免将数据用于训练或公开日志。该功能回应日益增长的隐私合规与用户对隐私保护的需求。",
+      "title_en": "Flickr: The first and last great photo platform",
+      "url": "https://petapixel.com/2026/04/22/flickr-the-first-and-last-great-photo-platform/",
+      "title_zh": "Flickr：第一代也是最后一代伟大的照片平台",
+      "created_display": "Created: Apr 22, 2026 / 11:34 PT",
+      "image_url": "https://petapixel.com/assets/uploads/2026/04/Flickr-The-First-and-Last-Great-Photo-Platform.jpg",
+      "summary_en": "A retrospective on Flickr's rise as a community-driven photo platform and its decline, drawing lessons about openness, data portability, and the trade-offs between openness and monetization in online communities.",
+      "summary_zh": "回顾 Flickr 在社区驱动的照片平台时代的崛起及其衰落，揭示开放性、数据可移植性，以及开放性与商业化之间在在线社区中的权衡。",
       "hn": {
-        "id": 47870901,
+        "id": 47867473,
         "type": "story",
-        "by": "tanelpoder",
-        "score": 275,
-        "descendants": 59,
-        "time": 1776903295,
-        "comments_url": "https://news.ycombinator.com/item?id=47870901"
+        "by": "Nrbelex",
+        "score": 276,
+        "descendants": 149,
+        "time": 1776882861,
+        "comments_url": "https://news.ycombinator.com/item?id=47867473"
       },
       "tags": [
-        "AI",
-        "Privacy",
-        "Politics"
+        "Culture"
       ],
-      "hot_score": 0.08
+      "hot_score": 0.07
+    },
+    {
+      "title_en": "Show HN: Turning a Gaussian Splat into a videogame",
+      "url": "https://blog.playcanvas.com/turning-a-gaussian-splat-into-a-videogame/",
+      "title_zh": "Show HN：将高斯斑点变成一款电子游戏",
+      "created_display": "Created: Apr 23, 2026 / 07:18 PT",
+      "image_url": "https://blog.playcanvas.com/img/playcanvas-social-card.jpg",
+      "summary_en": "A practical exploration turning 2D Gaussian splats—simple, soft-blurred particles—into a full game aesthetic. The approach highlights how lightweight rendering primitives can yield rich visuals and performance, useful for indie devs and rapid prototyping.",
+      "summary_zh": "通过将简单的高斯斑块用于游戏美术，展示了如何用轻量渲染基元实现丰富的视觉效果与高性能。此做法对独立游戏开发者和快速原型设计具有实用价值。",
+      "hn": {
+        "id": 47876071,
+        "type": "story",
+        "by": "yak32",
+        "score": 192,
+        "descendants": 42,
+        "time": 1776953932,
+        "comments_url": "https://news.ycombinator.com/item?id=47876071"
+      },
+      "tags": [
+        "Show HN",
+        "Programming",
+        "Gaming"
+      ],
+      "hot_score": 0.07
     },
     {
       "title_en": "Mine, a Coalton and Common Lisp IDE",
@@ -1211,8 +1601,8 @@
         "id": 47894014,
         "type": "story",
         "by": "Jach",
-        "score": 77,
-        "descendants": 3,
+        "score": 99,
+        "descendants": 4,
         "time": 1777055082,
         "comments_url": "https://news.ycombinator.com/item?id=47894014"
       },
@@ -1222,27 +1612,26 @@
       "hot_score": 0.07
     },
     {
-      "title_en": "Databases Were Not Designed for This",
-      "url": "https://arpitbhayani.me/blogs/defensive-databases/",
-      "title_zh": "数据库并非为此而设计",
-      "created_display": "Created: Apr 24, 2026 / 16:41 PT",
-      "image_url": "https://edge.arpitbhayani.me/img/covers/general-cover.jpg",
-      "summary_en": "Databases Were Not Designed for This argues for defensive database design in the face of modern data challenges, advocating stricter schemas, better access controls, and resiliency to prevent data leaks and outages.",
-      "summary_zh": "文章认为现代数据库在应对新型数据、安全和规模挑战时并非无所不能，主张采用防御性数据库设计，如严格的模式、访问控制和容错机制，以防数据泄露和宕机。",
+      "title_en": "The Joy of Folding Bikes",
+      "url": "https://blog.korny.info/2026/04/19/the-joy-of-folding-bikes",
+      "title_zh": "折叠自行车的乐趣",
+      "created_display": "Created: Apr 22, 2026 / 09:50 PT",
+      "image_url": "https://blog.korny.info/assets/images/korny-face.png",
+      "summary_en": "Folding bikes excel at portability and urban practicality, letting riders fold, carry, and store bikes easily without sacrificing ride quality. The post celebrates design variety and the growing popularity among city riders.",
+      "summary_zh": "折叠自行车在便携性与骑行体验之间取得平衡，便于多模态通勤与存放。文章赞美其设计变体与在城市骑行中的日益普及。",
       "hn": {
-        "id": 47897140,
+        "id": 47866127,
         "type": "story",
-        "by": "mooreds",
-        "score": 64,
-        "descendants": 59,
-        "time": 1777074098,
-        "comments_url": "https://news.ycombinator.com/item?id=47897140"
+        "by": "pavel_lishin",
+        "score": 249,
+        "descendants": 170,
+        "time": 1776876627,
+        "comments_url": "https://news.ycombinator.com/item?id=47866127"
       },
-      "hot_score": 0.07,
       "tags": [
-        "Data",
-        "Security"
-      ]
+        "Design"
+      ],
+      "hot_score": 0.06
     },
     {
       "title_en": "Quirks of Human Anatomy",
@@ -1264,97 +1653,6 @@
       "tags": [
         "Health",
         "Education"
-      ],
-      "hot_score": 0.07
-    },
-    {
-      "title_en": "Flickr: The first and last great photo platform",
-      "url": "https://petapixel.com/2026/04/22/flickr-the-first-and-last-great-photo-platform/",
-      "title_zh": "Flickr：第一代也是最后一代伟大的照片平台",
-      "created_display": "Created: Apr 22, 2026 / 11:34 PT",
-      "image_url": "https://petapixel.com/assets/uploads/2026/04/Flickr-The-First-and-Last-Great-Photo-Platform.jpg",
-      "summary_en": "A retrospective on Flickr's rise as a community-driven photo platform and its decline, drawing lessons about openness, data portability, and the trade-offs between openness and monetization in online communities.",
-      "summary_zh": "回顾 Flickr 在社区驱动的照片平台时代的崛起及其衰落，揭示开放性、数据可移植性，以及开放性与商业化之间在在线社区中的权衡。",
-      "hn": {
-        "id": 47867473,
-        "type": "story",
-        "by": "Nrbelex",
-        "score": 250,
-        "descendants": 139,
-        "time": 1776882861,
-        "comments_url": "https://news.ycombinator.com/item?id=47867473"
-      },
-      "tags": [
-        "Web",
-        "Culture"
-      ],
-      "hot_score": 0.06
-    },
-    {
-      "title_en": "The Joy of Folding Bikes",
-      "url": "https://blog.korny.info/2026/04/19/the-joy-of-folding-bikes",
-      "title_zh": "折叠自行车的乐趣",
-      "created_display": "Created: Apr 22, 2026 / 09:50 PT",
-      "image_url": "https://blog.korny.info/assets/images/korny-face.png",
-      "summary_en": "Folding bikes excel at portability and urban practicality, letting riders fold, carry, and store bikes easily without sacrificing ride quality. The post celebrates design variety and the growing popularity among city riders.",
-      "summary_zh": "折叠自行车在便携性与骑行体验之间取得平衡，便于多模态通勤与存放。文章赞美其设计变体与在城市骑行中的日益普及。",
-      "hn": {
-        "id": 47866127,
-        "type": "story",
-        "by": "pavel_lishin",
-        "score": 241,
-        "descendants": 167,
-        "time": 1776876627,
-        "comments_url": "https://news.ycombinator.com/item?id=47866127"
-      },
-      "tags": [
-        "Design"
-      ],
-      "hot_score": 0.06
-    },
-    {
-      "title_en": "Show HN: Turning a Gaussian Splat into a videogame",
-      "url": "https://blog.playcanvas.com/turning-a-gaussian-splat-into-a-videogame/",
-      "title_zh": "Show HN：将高斯斑点变成一款电子游戏",
-      "created_display": "Created: Apr 23, 2026 / 07:18 PT",
-      "image_url": "https://blog.playcanvas.com/img/playcanvas-social-card.jpg",
-      "summary_en": "A practical exploration turning 2D Gaussian splats—simple, soft-blurred particles—into a full game aesthetic. The approach highlights how lightweight rendering primitives can yield rich visuals and performance, useful for indie devs and rapid prototyping.",
-      "summary_zh": "通过将简单的高斯斑块用于游戏美术，展示了如何用轻量渲染基元实现丰富的视觉效果与高性能。此做法对独立游戏开发者和快速原型设计具有实用价值。",
-      "hn": {
-        "id": 47876071,
-        "type": "story",
-        "by": "yak32",
-        "score": 148,
-        "descendants": 30,
-        "time": 1776953932,
-        "comments_url": "https://news.ycombinator.com/item?id=47876071"
-      },
-      "tags": [
-        "Show HN",
-        "Programming"
-      ],
-      "hot_score": 0.06
-    },
-    {
-      "title_en": "Math Is Hard – OpenBSD Stories",
-      "url": "http://miod.online.fr/software/openbsd/stories/vaxfp.html",
-      "title_zh": "数学很难——OpenBSD 故事",
-      "created_display": "Created: Apr 23, 2026 / 08:29 PT",
-      "image_url": "http://miod.online.fr/software/openbsd/stories/itsatrap.jpg",
-      "summary_en": "OpenBSD anecdotes reveal the challenges of correctness and reliability in systems software, with math and numeric mishaps illustrating why formal correctness matters. The stories blend humor and depth about low-level programming.",
-      "summary_zh": "OpenBSD 故事揭示了在系统软件中追求正确性与可靠性的挑战，涉及数学与数值错误，凸显形式正确性的重要性。这些故事将幽默与对底层编程的深刻理解结合起来。",
-      "hn": {
-        "id": 47876930,
-        "type": "story",
-        "by": "signa11",
-        "score": 142,
-        "descendants": 20,
-        "time": 1776958190,
-        "comments_url": "https://news.ycombinator.com/item?id=47876930"
-      },
-      "tags": [
-        "Open Source",
-        "Programming"
       ],
       "hot_score": 0.06
     },
@@ -1381,6 +1679,29 @@
       "hot_score": 0.05
     },
     {
+      "title_en": "Math Is Hard – OpenBSD Stories",
+      "url": "http://miod.online.fr/software/openbsd/stories/vaxfp.html",
+      "title_zh": "数学很难——OpenBSD 故事",
+      "created_display": "Created: Apr 23, 2026 / 08:29 PT",
+      "image_url": "http://miod.online.fr/software/openbsd/stories/itsatrap.jpg",
+      "summary_en": "OpenBSD anecdotes reveal the challenges of correctness and reliability in systems software, with math and numeric mishaps illustrating why formal correctness matters. The stories blend humor and depth about low-level programming.",
+      "summary_zh": "OpenBSD 故事揭示了在系统软件中追求正确性与可靠性的挑战，涉及数学与数值错误，凸显形式正确性的重要性。这些故事将幽默与对底层编程的深刻理解结合起来。",
+      "hn": {
+        "id": 47876930,
+        "type": "story",
+        "by": "signa11",
+        "score": 142,
+        "descendants": 20,
+        "time": 1776958190,
+        "comments_url": "https://news.ycombinator.com/item?id=47876930"
+      },
+      "tags": [
+        "Programming",
+        "Security"
+      ],
+      "hot_score": 0.05
+    },
+    {
       "title_en": "The Nintendo Switch Switch (2019)",
       "url": "https://blog.cynthia.re/post/nintendo-switch-ethernet-switch",
       "title_zh": "任天堂 Switch Switch（2019）",
@@ -1398,53 +1719,8 @@
         "comments_url": "https://news.ycombinator.com/item?id=47894124"
       },
       "tags": [
-        "Hardware",
-        "Gaming"
-      ],
-      "hot_score": 0.05
-    },
-    {
-      "title_en": "Show HN: Browse GitHub repos in Emacs without cloning",
-      "url": "https://github.com/agzam/remoto.el",
-      "title_zh": "Show HN：在 Emacs 中浏览 GitHub 仓库，无需克隆",
-      "created_display": "Created: Apr 25, 2026 / 21:36 PT",
-      "image_url": "https://opengraph.githubassets.com/05185c59cf1a0ad7f3d91ced41b10c0ce1d027427ada19cb1b772cf3e0843c0e/agzam/remoto.el",
-      "summary_en": "A Show HN entry presenting a tool to browse GitHub repositories inside Emacs without cloning, streamlining exploration and reference. It demonstrates the value of editor-integrated tools for rapid code discovery.",
-      "summary_zh": "一个 Show HN 工具：在 Emacs 中直接浏览 GitHub 仓库，无需克隆，简化了代码探索与参考。展示了编辑器内置工具在快速发现代码中的价值。",
-      "hn": {
-        "id": 47907388,
-        "type": "story",
-        "by": "iLemming",
-        "score": 9,
-        "descendants": 6,
-        "time": 1777178202,
-        "comments_url": "https://news.ycombinator.com/item?id=47907388"
-      },
-      "hot_score": 0.05,
-      "tags": [
-        "Show HN",
-        "Programming"
-      ]
-    },
-    {
-      "title_en": "How Hard Is It to Open a File?",
-      "url": "https://blog.sebastianwick.net/posts/how-hard-is-it-to-open-a-file/",
-      "title_zh": "打开一个文件有多难？",
-      "created_display": "Created: Apr 23, 2026 / 19:01 PT",
-      "image_url": null,
-      "summary_en": "Open file operations can be surprisingly fiddly across languages and runtimes, with tradeoffs between low-level OS calls and high-level abstractions. The piece dissects how design choices affect reliability, performance, and developer experience, and provides mental models to reason about file access.",
-      "summary_zh": "跨语言和运行时打开文件的过程往往错综复杂，底层系统调用与高层抽象之间存在权衡。本文剖析了设计选择如何影响可靠性、性能与开发体验，并提供理解文件访问的思维模型。",
-      "hn": {
-        "id": 47884625,
-        "type": "story",
-        "by": "ffin",
-        "score": 75,
-        "descendants": 11,
-        "time": 1776996100,
-        "comments_url": "https://news.ycombinator.com/item?id=47884625"
-      },
-      "tags": [
-        "Programming"
+        "Gaming",
+        "Hardware"
       ],
       "hot_score": 0.04
     },
@@ -1471,6 +1747,122 @@
       "hot_score": 0.04
     },
     {
+      "title_en": "Sloppy Copies",
+      "url": "https://www.markround.com/blog/2026/04/19/sloppy-copies/",
+      "title_zh": "马虎的拷贝",
+      "created_display": "Created: Apr 24, 2026 / 06:52 PT",
+      "image_url": "https://www.markround.com/assets/images/tick.png",
+      "summary_en": "A short note exploring the consequences of sloppy copies, including data duplication and issues with reproducibility.",
+      "summary_zh": "简要分析拷贝不慎造成的问题，包括数据重复与可重复性问题。",
+      "hn": {
+        "id": 47890339,
+        "type": "story",
+        "by": "dev_hugepages",
+        "score": 55,
+        "descendants": 13,
+        "time": 1777038778,
+        "comments_url": "https://news.ycombinator.com/item?id=47890339"
+      },
+      "tags": [
+        "Data"
+      ],
+      "hot_score": 0.04
+    },
+    {
+      "title_en": "Show HN: Browse GitHub repos in Emacs without cloning",
+      "url": "https://github.com/agzam/remoto.el",
+      "title_zh": "Show HN：在 Emacs 中浏览 GitHub 仓库，无需克隆",
+      "created_display": "Created: Apr 25, 2026 / 21:36 PT",
+      "image_url": "https://opengraph.githubassets.com/05185c59cf1a0ad7f3d91ced41b10c0ce1d027427ada19cb1b772cf3e0843c0e/agzam/remoto.el",
+      "summary_en": "A Show HN entry presenting a tool to browse GitHub repositories inside Emacs without cloning, streamlining exploration and reference. It demonstrates the value of editor-integrated tools for rapid code discovery.",
+      "summary_zh": "一个 Show HN 工具：在 Emacs 中直接浏览 GitHub 仓库，无需克隆，简化了代码探索与参考。展示了编辑器内置工具在快速发现代码中的价值。",
+      "hn": {
+        "id": 47907388,
+        "type": "story",
+        "by": "iLemming",
+        "score": 9,
+        "descendants": 6,
+        "time": 1777178202,
+        "comments_url": "https://news.ycombinator.com/item?id=47907388"
+      },
+      "hot_score": 0.04,
+      "tags": [
+        "Show HN",
+        "Programming",
+        "Open Source"
+      ]
+    },
+    {
+      "title_en": "How Hard Is It to Open a File?",
+      "url": "https://blog.sebastianwick.net/posts/how-hard-is-it-to-open-a-file/",
+      "title_zh": "打开一个文件有多难？",
+      "created_display": "Created: Apr 23, 2026 / 19:01 PT",
+      "image_url": null,
+      "summary_en": "Open file operations can be surprisingly fiddly across languages and runtimes, with tradeoffs between low-level OS calls and high-level abstractions. The piece dissects how design choices affect reliability, performance, and developer experience, and provides mental models to reason about file access.",
+      "summary_zh": "跨语言和运行时打开文件的过程往往错综复杂，底层系统调用与高层抽象之间存在权衡。本文剖析了设计选择如何影响可靠性、性能与开发体验，并提供理解文件访问的思维模型。",
+      "hn": {
+        "id": 47884625,
+        "type": "story",
+        "by": "ffin",
+        "score": 75,
+        "descendants": 11,
+        "time": 1776996100,
+        "comments_url": "https://news.ycombinator.com/item?id=47884625"
+      },
+      "tags": [
+        "Programming",
+        "Design"
+      ],
+      "hot_score": 0.03
+    },
+    {
+      "title_en": "The route from Prussian military headquarters to Gary Gygax’s basement",
+      "url": "https://asteriskmag.com/issues/14/shall-we-play-a-game",
+      "title_zh": "从普鲁士军事总部到 Gary Gygax 的地下室之路",
+      "created_display": "Created: Apr 23, 2026 / 09:34 PT",
+      "image_url": "https://asteriskmag.com/media/pages/issues/14/shall-we-play-a-game/a08c01c037-1776727502/jon-peterson-wargaming-1600x900-crop-sharpen50.png",
+      "summary_en": "The article traces how military and strategic thinking from Prussian headquarters influenced the origin of modern tabletop gaming, culminating in Gary Gygax’s basement-era creations. It highlights how hierarchical planning and war-gaming culture seeded a hobby that evolved into RPGs and nerd culture.",
+      "summary_zh": "本文追溯普鲁士军事总部的战略思想如何影响现代桌面游戏的起源，最终在 Gary Gygax 的地下室中孕育出早期角色扮演游戏。揭示了等级化的规划与战争博弈文化如何催生这一爱好，并演变成如今的 RPG 与科幻次文化。",
+      "hn": {
+        "id": 47877811,
+        "type": "story",
+        "by": "jger15",
+        "score": 74,
+        "descendants": 14,
+        "time": 1776962080,
+        "comments_url": "https://news.ycombinator.com/item?id=47877811"
+      },
+      "tags": [
+        "Culture",
+        "Entertainment",
+        "Gaming"
+      ],
+      "hot_score": 0.03
+    },
+    {
+      "title_en": "Dear friend, you have built a Kubernetes (2024)",
+      "url": "https://www.macchaffee.com/blog/2024/you-have-built-a-kubernetes/",
+      "title_zh": "亲爱的朋友，你已经构建了一个 Kubernetes（2024）",
+      "created_display": "Created: Apr 23, 2026 / 20:07 PT",
+      "image_url": "https://www.macchaffee.com/static/favicon.png",
+      "summary_en": "A reflective piece about the perception and responsibility of operating Kubernetes-like systems, highlighting the complexity and maintenance costs of Kubernetes and urging simpler architectures or clearer ownership.",
+      "summary_zh": "文章用幽默笔触反思若你自称‘构建了 Kubernetes’的说法背后的责任感，强调 Kubernetes 等系统的复杂性与运维代价。",
+      "hn": {
+        "id": 47885012,
+        "type": "story",
+        "by": "Wingy",
+        "score": 55,
+        "descendants": 87,
+        "time": 1777000065,
+        "comments_url": "https://news.ycombinator.com/item?id=47885012"
+      },
+      "tags": [
+        "DevOps",
+        "Open Source"
+      ],
+      "hot_score": 0.03
+    },
+    {
       "title_en": "CO operating system age-verification open-source exemption doesn't include Linux",
       "url": "https://twitter.com/LundukeJournal/status/2048199650117554678",
       "title_zh": "科罗拉多州对开放源代码的年龄验证豁免未包含 Linux",
@@ -1487,105 +1879,10 @@
         "time": 1777183934,
         "comments_url": "https://news.ycombinator.com/item?id=47907816"
       },
-      "hot_score": 0.04,
-      "tags": [
-        "Legal",
-        "Open Source"
-      ]
-    },
-    {
-      "title_en": "Optimizing Datalog for the GPU",
-      "url": "https://dl.acm.org/doi/10.1145/3669940.3707274",
-      "title_zh": "在 GPU 上优化 Datalog",
-      "created_display": "Created: Apr 23, 2026 / 06:34 PT",
-      "image_url": null,
-      "summary_en": "A research paper detailing methods to map Datalog queries to GPU architectures, achieving parallel dataflow and speedups for logic programming workloads. It highlights the feasibility of GPU acceleration for deductive databases and potential uses in big data reasoning.",
-      "summary_zh": "论文介绍将 Datalog 查询映射到 GPU 架构的方法，通过并行数据流实现对逻辑编程工作负载的加速，展示在推理型数据库和大数据场景中使用 GPU 的可行性与潜在应用。",
-      "hn": {
-        "id": 47875597,
-        "type": "story",
-        "by": "tosh",
-        "score": 70,
-        "descendants": 3,
-        "time": 1776951287,
-        "comments_url": "https://news.ycombinator.com/item?id=47875597"
-      },
-      "tags": [
-        "Data",
-        "Programming",
-        "Science",
-        "Hardware"
-      ],
-      "hot_score": 0.03
-    },
-    {
-      "title_en": "The route from Prussian military headquarters to Gary Gygax’s basement",
-      "url": "https://asteriskmag.com/issues/14/shall-we-play-a-game",
-      "title_zh": "从普鲁士军事总部到 Gary Gygax 的地下室之路",
-      "created_display": "Created: Apr 23, 2026 / 09:34 PT",
-      "image_url": "https://asteriskmag.com/media/pages/issues/14/shall-we-play-a-game/a08c01c037-1776727502/jon-peterson-wargaming-1600x900-crop-sharpen50.png",
-      "summary_en": "The article traces how military and strategic thinking from Prussian headquarters influenced the origin of modern tabletop gaming, culminating in Gary Gygax’s basement-era creations. It highlights how hierarchical planning and war-gaming culture seeded a hobby that evolved into RPGs and nerd culture.",
-      "summary_zh": "本文追溯普鲁士军事总部的战略思想如何影响现代桌面游戏的起源，最终在 Gary Gygax 的地下室中孕育出早期角色扮演游戏。揭示了等级化的规划与战争博弈文化如何催生这一爱好，并演变成如今的 RPG 与科幻次文化。",
-      "hn": {
-        "id": 47877811,
-        "type": "story",
-        "by": "jger15",
-        "score": 69,
-        "descendants": 11,
-        "time": 1776962080,
-        "comments_url": "https://news.ycombinator.com/item?id=47877811"
-      },
-      "tags": [
-        "Culture",
-        "Entertainment",
-        "Gaming"
-      ],
-      "hot_score": 0.03
-    },
-    {
-      "title_en": "Enterprises Are Rethinking Kubernetes",
-      "url": "https://www.infoworld.com/article/4161056/enterprises-are-rethinking-kubernetes.html",
-      "title_zh": "企业正在重新思考 Kubernetes",
-      "created_display": "Created: Apr 25, 2026 / 23:39 PT",
-      "image_url": "https://www.infoworld.com/wp-content/uploads/2026/04/4161056-0-62417700-1776762274-orbtal-media-Esq0ovRY-Zs-unsplash.jpg?quality=50&strip=all&w=1024",
-      "summary_en": "Enterprises are rethinking Kubernetes due to complexity, security concerns, and cost. Many organizations are shifting toward simplified platforms or alternative orchestration models to balance agility with reliability.",
-      "summary_zh": "由于复杂性、安全性与成本等因素，企业正在重新评估 Kubernetes 的使用，许多组织转向简化的平台或替代的编排模型，以在敏捷性与可靠性之间寻求平衡。",
-      "hn": {
-        "id": 47907937,
-        "type": "story",
-        "by": "milkglass",
-        "score": 5,
-        "descendants": 0,
-        "time": 1777185592,
-        "comments_url": "https://news.ycombinator.com/item?id=47907937"
-      },
       "hot_score": 0.03,
       "tags": [
-        "DevOps",
-        "Business",
-        "Security"
-      ]
-    },
-    {
-      "title_en": "iOS 18.7.3-18.7.6 were withheld from most devices; iOS 18.7.7 is enabled for all",
-      "url": "https://support.apple.com/en-us/126793",
-      "title_zh": "iOS 18.7.3-18.7.6 未覆盖大多数设备，18.7.7 已对所有设备启用",
-      "created_display": "Created: Apr 25, 2026 / 21:03 PT",
-      "image_url": null,
-      "summary_en": "Apple quietly staggered security updates: 18.7.3–18.7.6 were not widely deployed, while 18.7.7 rolled out to all devices. The rollout pattern illustrates Apple’s update strategy and the challenges of fleet-wide patch management.",
-      "summary_zh": "苹果悄然分阶段发布安全更新：18.7.3 至 18.7.6 未在大多数设备上部署，18.7.7 已向所有设备开启。这种部署方式揭示了苹果的更新策略及大规模补丁管理的挑战。",
-      "hn": {
-        "id": 47907228,
-        "type": "story",
-        "by": "seam_carver",
-        "score": 5,
-        "descendants": 0,
-        "time": 1777176211,
-        "comments_url": "https://news.ycombinator.com/item?id=47907228"
-      },
-      "hot_score": 0.03,
-      "tags": [
-        "Security"
+        "Open Source",
+        "Legal"
       ]
     },
     {
@@ -1606,7 +1903,32 @@
         "comments_url": "https://news.ycombinator.com/item?id=47870245"
       },
       "tags": [
-        "Programming"
+        "Programming",
+        "Open Source"
+      ],
+      "hot_score": 0.02
+    },
+    {
+      "title_en": "Optimizing Datalog for the GPU",
+      "url": "https://dl.acm.org/doi/10.1145/3669940.3707274",
+      "title_zh": "在 GPU 上优化 Datalog",
+      "created_display": "Created: Apr 23, 2026 / 06:34 PT",
+      "image_url": null,
+      "summary_en": "A research paper detailing methods to map Datalog queries to GPU architectures, achieving parallel dataflow and speedups for logic programming workloads. It highlights the feasibility of GPU acceleration for deductive databases and potential uses in big data reasoning.",
+      "summary_zh": "论文介绍将 Datalog 查询映射到 GPU 架构的方法，通过并行数据流实现对逻辑编程工作负载的加速，展示在推理型数据库和大数据场景中使用 GPU 的可行性与潜在应用。",
+      "hn": {
+        "id": 47875597,
+        "type": "story",
+        "by": "tosh",
+        "score": 70,
+        "descendants": 3,
+        "time": 1776951287,
+        "comments_url": "https://news.ycombinator.com/item?id=47875597"
+      },
+      "tags": [
+        "Programming",
+        "Science",
+        "Hardware"
       ],
       "hot_score": 0.02
     },
@@ -1629,29 +1951,31 @@
       },
       "hot_score": 0.02,
       "tags": [
+        "Programming",
         "DevOps"
       ]
     },
     {
-      "title_en": "Dear friend, you have built a Kubernetes (2024)",
-      "url": "https://www.macchaffee.com/blog/2024/you-have-built-a-kubernetes/",
-      "title_zh": "亲爱的朋友，你已经构建了一个 Kubernetes（2024）",
-      "created_display": "Created: Apr 23, 2026 / 20:07 PT",
-      "image_url": "https://www.macchaffee.com/static/favicon.png",
-      "summary_en": "A reflective piece about the perception and responsibility of operating Kubernetes-like systems, highlighting the complexity and maintenance costs of Kubernetes and urging simpler architectures or clearer ownership.",
-      "summary_zh": "文章用幽默笔触反思若你自称‘构建了 Kubernetes’的说法背后的责任感，强调 Kubernetes 等系统的复杂性与运维代价。",
+      "title_en": "Magic: The Gathering took me from N2 to Japanese fluency",
+      "url": "https://www.tokyodev.com/articles/how-magic-the-gathering-took-me-from-n2-to-japanese-fluency",
+      "title_zh": "魔法风云会让我从日语能力测试 N2 提升到日语流利",
+      "created_display": "Created: Apr 23, 2026 / 17:03 PT",
+      "image_url": null,
+      "summary_en": "A personal narrative shows how Magic: The Gathering communities can accelerate language learning, turning hobby-driven immersion into practical gains. The piece reflects how niche communities foster real-world skill development.",
+      "summary_zh": "一个以 Magic: The Gathering 为线索的语言学习故事，展示爱好驱动的沉浸式体验如何转化为实际的语言能力提升。此文也反映了小众社群在现实世界技能发展中的作用。",
       "hn": {
-        "id": 47885012,
+        "id": 47883839,
         "type": "story",
-        "by": "Wingy",
-        "score": 47,
-        "descendants": 62,
-        "time": 1777000065,
-        "comments_url": "https://news.ycombinator.com/item?id=47885012"
+        "by": "pwim",
+        "score": 55,
+        "descendants": 16,
+        "time": 1776989000,
+        "comments_url": "https://news.ycombinator.com/item?id=47883839"
       },
       "hot_score": 0.02,
       "tags": [
-        "DevOps"
+        "Education",
+        "Culture"
       ]
     },
     {
@@ -1672,7 +1996,8 @@
         "comments_url": "https://news.ycombinator.com/item?id=47880565"
       },
       "tags": [
-        "Culture"
+        "Culture",
+        "Education"
       ],
       "hot_score": 0.02
     },
@@ -1700,48 +2025,49 @@
       "hot_score": 0.02
     },
     {
-      "title_en": "My .config Ship of Theseus",
-      "url": "https://shift1w.com/blog/config-of-theseus/",
-      "title_zh": ".config 的特修斯之船",
-      "created_display": "Created: Apr 23, 2026 / 23:00 PT",
-      "image_url": null,
-      "summary_en": "The author recounts migrating and gradually replacing parts of their ~/.config to achieve a stable, personal setup.",
-      "summary_zh": ".config 的特修斯之船，作者分享在多台机器间逐步替换配置项以实现稳定、个性化环境的过程。文中讨论了配置漂移、可移植性挑战，以及在可复现性与个性化之间的权衡。",
+      "title_en": "Enterprises Are Rethinking Kubernetes",
+      "url": "https://www.infoworld.com/article/4161056/enterprises-are-rethinking-kubernetes.html",
+      "title_zh": "企业正在重新思考 Kubernetes",
+      "created_display": "Created: Apr 25, 2026 / 23:39 PT",
+      "image_url": "https://www.infoworld.com/wp-content/uploads/2026/04/4161056-0-62417700-1776762274-orbtal-media-Esq0ovRY-Zs-unsplash.jpg?quality=50&strip=all&w=1024",
+      "summary_en": "Enterprises are rethinking Kubernetes due to complexity, security concerns, and cost. Many organizations are shifting toward simplified platforms or alternative orchestration models to balance agility with reliability.",
+      "summary_zh": "由于复杂性、安全性与成本等因素，企业正在重新评估 Kubernetes 的使用，许多组织转向简化的平台或替代的编排模型，以在敏捷性与可靠性之间寻求平衡。",
       "hn": {
-        "id": 47886157,
+        "id": 47907937,
         "type": "story",
-        "by": "jacobwiseberg",
-        "score": 28,
-        "descendants": 17,
-        "time": 1777010414,
-        "comments_url": "https://news.ycombinator.com/item?id=47886157"
-      },
-      "tags": [
-        "Programming"
-      ],
-      "hot_score": 0.02
-    },
-    {
-      "title_en": "US is making Europe pay dearly for its half-hearted electrification",
-      "url": "https://www.programmablemutter.com/cp/195461224",
-      "title_zh": "美国在电气化推进上的半心态让欧洲付出高昂代价",
-      "created_display": "Created: Apr 25, 2026 / 23:48 PT",
-      "image_url": "https://substackcdn.com/image/fetch/$s_!lgot!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F21e2fd03-56f4-449c-984c-5dde7967ad8a_772x1148.png",
-      "summary_en": "The piece argues that US half-hearted electrification policies push costs onto Europe in areas like EV supply chains, grid upgrades, and mineral processing. It advocates deeper transatlantic cooperation and investment to accelerate a global clean energy transition.",
-      "summary_zh": "文章认为美国在电气化推进上态度半心，导致欧洲在电动汽车供应链、电网升级与矿产加工等领域承担更高成本。倡导加强跨大西洋合作与投资以加速全球清洁能源转型。",
-      "hn": {
-        "id": 47907984,
-        "type": "story",
-        "by": "hackandthink",
-        "score": 3,
+        "by": "milkglass",
+        "score": 5,
         "descendants": 0,
-        "time": 1777186093,
-        "comments_url": "https://news.ycombinator.com/item?id=47907984"
+        "time": 1777185592,
+        "comments_url": "https://news.ycombinator.com/item?id=47907937"
       },
       "hot_score": 0.02,
       "tags": [
-        "Energy",
-        "Politics"
+        "Business",
+        "DevOps",
+        "Security"
+      ]
+    },
+    {
+      "title_en": "iOS 18.7.3-18.7.6 were withheld from most devices; iOS 18.7.7 is enabled for all",
+      "url": "https://support.apple.com/en-us/126793",
+      "title_zh": "iOS 18.7.3-18.7.6 未覆盖大多数设备，18.7.7 已对所有设备启用",
+      "created_display": "Created: Apr 25, 2026 / 21:03 PT",
+      "image_url": null,
+      "summary_en": "Apple quietly staggered security updates: 18.7.3–18.7.6 were not widely deployed, while 18.7.7 rolled out to all devices. The rollout pattern illustrates Apple’s update strategy and the challenges of fleet-wide patch management.",
+      "summary_zh": "苹果悄然分阶段发布安全更新：18.7.3 至 18.7.6 未在大多数设备上部署，18.7.7 已向所有设备开启。这种部署方式揭示了苹果的更新策略及大规模补丁管理的挑战。",
+      "hn": {
+        "id": 47907228,
+        "type": "story",
+        "by": "seam_carver",
+        "score": 5,
+        "descendants": 0,
+        "time": 1777176211,
+        "comments_url": "https://news.ycombinator.com/item?id=47907228"
+      },
+      "hot_score": 0.02,
+      "tags": [
+        "Security"
       ]
     },
     {
@@ -1756,13 +2082,14 @@
         "id": 47863103,
         "type": "story",
         "by": "t-3",
-        "score": 53,
+        "score": 57,
         "descendants": 20,
         "time": 1776863577,
         "comments_url": "https://news.ycombinator.com/item?id=47863103"
       },
       "tags": [
-        "Gaming"
+        "Entertainment",
+        "Design"
       ],
       "hot_score": 0.01
     },
@@ -1813,25 +2140,93 @@
       "hot_score": 0.01
     },
     {
-      "title_en": "Sloppy Copies",
-      "url": "https://www.markround.com/blog/2026/04/19/sloppy-copies/",
-      "title_zh": "马虎的拷贝",
-      "created_display": "Created: Apr 24, 2026 / 06:52 PT",
-      "image_url": "https://www.markround.com/assets/images/tick.png",
-      "summary_en": "A short note exploring the consequences of sloppy copies, including data duplication and issues with reproducibility.",
-      "summary_zh": "简要分析拷贝不慎造成的问题，包括数据重复与可重复性问题。",
+      "title_en": "Orinoco: Young Generation Garbage Collection",
+      "url": "https://v8.dev/blog/orinoco-parallel-scavenger",
+      "title_zh": "Orinoco：年轻代垃圾回收",
+      "created_display": "Created: Apr 22, 2026 / 20:05 PT",
+      "image_url": "https://v8.dev/_img/orinoco-parallel-scavenger/generational-gc.png",
+      "summary_en": "Orinoco introduces a parallel scavenger for the young generation in V8, enabling faster GC pauses and higher throughput for JavaScript workloads.",
+      "summary_zh": "Orinoco 为 V8 引入年轻代并行清理器，使 JavaScript 工作负载在垃圾回收时的暂停更短、吞吐更高。",
       "hn": {
-        "id": 47890339,
+        "id": 47871877,
         "type": "story",
-        "by": "dev_hugepages",
-        "score": 16,
-        "descendants": 1,
-        "time": 1777038778,
-        "comments_url": "https://news.ycombinator.com/item?id=47890339"
+        "by": "plow-tycoon",
+        "score": 28,
+        "descendants": 4,
+        "time": 1776913513,
+        "comments_url": "https://news.ycombinator.com/item?id=47871877"
       },
       "hot_score": 0.01,
       "tags": [
-        "Data"
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "My .config Ship of Theseus",
+      "url": "https://shift1w.com/blog/config-of-theseus/",
+      "title_zh": ".config 的特修斯之船",
+      "created_display": "Created: Apr 23, 2026 / 23:00 PT",
+      "image_url": null,
+      "summary_en": "The author recounts migrating and gradually replacing parts of their ~/.config to achieve a stable, personal setup.",
+      "summary_zh": ".config 的特修斯之船，作者分享在多台机器间逐步替换配置项以实现稳定、个性化环境的过程。文中讨论了配置漂移、可移植性挑战，以及在可复现性与个性化之间的权衡。",
+      "hn": {
+        "id": 47886157,
+        "type": "story",
+        "by": "jacobwiseberg",
+        "score": 28,
+        "descendants": 17,
+        "time": 1777010414,
+        "comments_url": "https://news.ycombinator.com/item?id=47886157"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 0.01
+    },
+    {
+      "title_en": "XOXO Festival Archive",
+      "url": "https://xoxofest.com/",
+      "title_zh": "XOXO 节档案",
+      "created_display": "Created: Apr 23, 2026 / 19:40 PT",
+      "image_url": "https://xoxofest.com/xoxo-preview.png",
+      "summary_en": "XOXO Festival Archive curates talks and artifacts from the indie tech festival, offering a window into early culture, design experiments, and the community that helped shape modern developer culture.",
+      "summary_zh": "XOXO 节档案整理了独立科技节的演讲与资料，提供了对早期文化、设计实验以及塑造现代开发者文化的社区的洞见。",
+      "hn": {
+        "id": 47884850,
+        "type": "story",
+        "by": "surprisetalk",
+        "score": 17,
+        "descendants": 0,
+        "time": 1776998439,
+        "comments_url": "https://news.ycombinator.com/item?id=47884850"
+      },
+      "hot_score": 0.01,
+      "tags": [
+        "Culture",
+        "Design"
+      ]
+    },
+    {
+      "title_en": "US is making Europe pay dearly for its half-hearted electrification",
+      "url": "https://www.programmablemutter.com/cp/195461224",
+      "title_zh": "美国在电气化推进上的半心态让欧洲付出高昂代价",
+      "created_display": "Created: Apr 25, 2026 / 23:48 PT",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!lgot!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F21e2fd03-56f4-449c-984c-5dde7967ad8a_772x1148.png",
+      "summary_en": "The piece argues that US half-hearted electrification policies push costs onto Europe in areas like EV supply chains, grid upgrades, and mineral processing. It advocates deeper transatlantic cooperation and investment to accelerate a global clean energy transition.",
+      "summary_zh": "文章认为美国在电气化推进上态度半心，导致欧洲在电动汽车供应链、电网升级与矿产加工等领域承担更高成本。倡导加强跨大西洋合作与投资以加速全球清洁能源转型。",
+      "hn": {
+        "id": 47907984,
+        "type": "story",
+        "by": "hackandthink",
+        "score": 3,
+        "descendants": 0,
+        "time": 1777186093,
+        "comments_url": "https://news.ycombinator.com/item?id=47907984"
+      },
+      "hot_score": 0.01,
+      "tags": [
+        "Politics",
+        "Energy"
       ]
     },
     {
@@ -1853,8 +2248,32 @@
       },
       "hot_score": 0.0,
       "tags": [
+        "Science",
         "Data",
         "AI"
+      ]
+    },
+    {
+      "title_en": "Running Bare-Metal Rust Alongside ESP-IDF on the ESP32-S3's Second Core",
+      "url": "https://tingouw.com/blog/embedded/esp32/run_rust_on_app_core",
+      "title_zh": "在 ESP32-S3 的第二核心上并行运行裸机 Rust 与 ESP-IDF",
+      "created_display": "Created: Apr 23, 2026 / 21:57 PT",
+      "image_url": null,
+      "summary_en": "A practical case study demonstrates running Rust bare-metal alongside ESP-IDF on the ESP32-S3’s second core, highlighting how multi-language embedded stacks can co-exist and potentially boost performance.",
+      "summary_zh": "一个实用案例展示在 ESP32-S3 的第二核心上将裸机 Rust 与 ESP-IDF 并行运行，凸显多语言嵌入式栈的共存与潜在性能提升。",
+      "hn": {
+        "id": 47885719,
+        "type": "story",
+        "by": "MrBuddyCasino",
+        "score": 5,
+        "descendants": 0,
+        "time": 1777006636,
+        "comments_url": "https://news.ycombinator.com/item?id=47885719"
+      },
+      "hot_score": 0.0,
+      "tags": [
+        "Programming",
+        "Hardware"
       ]
     }
   ]

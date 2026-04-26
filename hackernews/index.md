@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>70</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>10145</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>69</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>68</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-04-26</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>70</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>10164</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>69</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>68</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-04-26</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='963' data-hn-time='1777184682'>
+<div class='hn-top-story-item' data-hn-score='122' data-hn-time='1777236990'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/26/top_stories_04262026#story-47907879'>The West forgot how to make things, now it’s forgetting how to code</a>
- <a class='hn-top-story-link' href='https://techtrenches.dev/p/the-west-forgot-how-to-make-things' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/26/top_stories_04262026#story-47914350'>Sawe becomes first athlete to run a sub-two-hour marathon in a competitive race</a>
+ <a class='hn-top-story-link' href='https://www.bbc.com/sport/athletics/articles/crm1m7e0zwzo' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>西方忘记了如何制造，现在又忘记了如何编码</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.9</span> <span class='hn-top-story-score'>&#9650; 963</span> <span class='hn-top-story-comments'>&#128172; 625</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Education</span></div>
+<div class='hn-top-story-zh'>萨韦在正式比赛中实现马拉松2小时内的里程碑</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 122</span> <span class='hn-top-story-comments'>&#128172; 77</span> <span class='hn-top-story-tag'>Data</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='482' data-hn-time='1777200632'>
+<div class='hn-top-story-item' data-hn-score='469' data-hn-time='1777222676'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/26/top_stories_04262026#story-47909226'>Asahi Linux Progress Linux 7.0</a>
- <a class='hn-top-story-link' href='https://asahilinux.org/2026/04/progress-report-7-0/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Asahi Linux Progress Linux 7.0</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.7</span> <span class='hn-top-story-score'>&#9650; 482</span> <span class='hn-top-story-comments'>&#128172; 210</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Hardware</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='118' data-hn-time='1777219334'>
-<span class='hn-top-story-rank'>3</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/26/top_stories_04262026#story-47911350'>Clay PCB Tutorial</a>
- <a class='hn-top-story-link' href='https://feministhackerspaces.cargo.site/Clay-PCB-Tutorial' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Clay PCB 教程</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.0</span> <span class='hn-top-story-score'>&#9650; 118</span> <span class='hn-top-story-comments'>&#128172; 80</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Design</span> <span class='hn-top-story-tag'>Education</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='156' data-hn-time='1777213118'>
-<span class='hn-top-story-rank'>4</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/26/top_stories_04262026#story-47910546'>GitHub unwanted UX change: issue links now open in a popup</a>
- <a class='hn-top-story-link' href='https://github.com/orgs/community/discussions/192666' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>GitHub 的 UX 变动：问题链接现在在弹窗中打开</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.3</span> <span class='hn-top-story-score'>&#9650; 156</span> <span class='hn-top-story-comments'>&#128172; 77</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Programming</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='60' data-hn-time='1777222676'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/26/top_stories_04262026#story-47911780'>GoDaddy Gave a Domain to a Stranger Without Any Documentation</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/26/top_stories_04262026#story-47911780'>GoDaddy gave a domain to a stranger without any documentation</a>
  <a class='hn-top-story-link' href='https://anchor.host/godaddy-gave-a-domain-to-a-stranger-without-any-documentation/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>GoDaddy 未经文档将域名转让给陌生人</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.2</span> <span class='hn-top-story-score'>&#9650; 60</span> <span class='hn-top-story-comments'>&#128172; 14</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 469</span> <span class='hn-top-story-comments'>&#128172; 183</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='142' data-hn-time='1777211893'>
-<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-item' data-hn-score='168' data-hn-time='1777233792'>
+<span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/26/top_stories_04262026#story-47910388'>Why SWE-bench Verified no longer measures frontier coding capabilities</a>
- <a class='hn-top-story-link' href='https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/26/top_stories_04262026#story-47913650'>AI should elevate your thinking, not replace it</a>
+ <a class='hn-top-story-link' href='https://www.koshyjohn.com/blog/ai-should-elevate-your-thinking-not-replace-it/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>SWE-bench Verified 不再衡量前沿编码能力</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.4</span> <span class='hn-top-story-score'>&#9650; 142</span> <span class='hn-top-story-comments'>&#128172; 101</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>AI 应提升你的思考，而非替代它</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 168</span> <span class='hn-top-story-comments'>&#128172; 143</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='45' data-hn-time='1777220849'>
-<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-item' data-hn-score='338' data-hn-time='1777220849'>
+<span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/04/26/top_stories_04262026#story-47911524'>An AI agent deleted our production database. The agent's confession is below</a>
  <a class='hn-top-story-link' href='https://twitter.com/lifeof_jer/status/2048103471019434248' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>AI 代理删除生产数据库：代理的自白如下</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 45</span> <span class='hn-top-story-comments'>&#128172; 49</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Design</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.9</span> <span class='hn-top-story-score'>&#9650; 338</span> <span class='hn-top-story-comments'>&#128172; 440</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Data</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='231' data-hn-time='1777195942'>
+<div class='hn-top-story-item' data-hn-score='185' data-hn-time='1777228471'>
+<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/26/top_stories_04262026#story-47912645'>Waymo says can't avoid bike lanes because riders want to be dropped off in them</a>
+ <a class='hn-top-story-link' href='https://road.cc/news/driverless-taxis-veering-into-cycle-lanes-normal-practice-says-waymo' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Waymo 表示无法完全避开自行车道，因为乘客希望在自行车道附近下车</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.5</span> <span class='hn-top-story-score'>&#9650; 185</span> <span class='hn-top-story-comments'>&#128172; 255</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>DevOps</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='75' data-hn-time='1777236066'>
+<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/26/top_stories_04262026#story-47914165'>I bought Friendster for $30k – Here's what I'm doing with it</a>
+ <a class='hn-top-story-link' href='https://ca98am79.medium.com/i-bought-friendster-for-30k-heres-what-i-m-doing-with-it-d5e8ddb3991d' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>花了3万美元买下 Friendster，我打算怎么用它</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.7</span> <span class='hn-top-story-score'>&#9650; 75</span> <span class='hn-top-story-comments'>&#128172; 26</span> <span class='hn-top-story-tag'>Culture</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='81' data-hn-time='1777234717'>
+<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/26/top_stories_04262026#story-47913855'>Fast16: High-precision software sabotage 5 years before Stuxnet</a>
+ <a class='hn-top-story-link' href='https://www.sentinelone.com/labs/fast16-mystery-shadowbrokers-reference-reveals-high-precision-software-sabotage-5-years-before-stuxnet/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Fast16：比 Stuxnet 早5年的高精度软件破坏</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.1</span> <span class='hn-top-story-score'>&#9650; 81</span> <span class='hn-top-story-comments'>&#128172; 22</span> <span class='hn-top-story-tag'>Security</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='47' data-hn-time='1777238600'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/26/top_stories_04262026#story-47908833'>Statecharts: hierarchical state machines</a>
- <a class='hn-top-story-link' href='https://statecharts.dev/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/26/top_stories_04262026#story-47914677'>Butterflies are in decline across North America, a look at the Western Monarch</a>
+ <a class='hn-top-story-link' href='https://www.smithsonianmag.com/science-nature/butterflies-are-in-dramatic-decline-across-north-america-a-close-look-at-the-western-monarch-shows-why-180988582/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>状态图：分层状态机</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 231</span> <span class='hn-top-story-comments'>&#128172; 68</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>北美蝴蝶数量下降：以西部君蝶为例</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.0</span> <span class='hn-top-story-score'>&#9650; 47</span> <span class='hn-top-story-comments'>&#128172; 8</span> <span class='hn-top-story-tag'>Science</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='453' data-hn-time='1777164656'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1060' data-hn-time='1777184682'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/26/top_stories_04262026#story-47906253'>Tell HN: An app is silently installing itself on my iPhone every day</a>
- <a class='hn-top-story-link' href='https://news.ycombinator.com/item?id=47906253' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/26/top_stories_04262026#story-47907879'>The West forgot how to make things, now it’s forgetting how to code</a>
+ <a class='hn-top-story-link' href='https://techtrenches.dev/p/the-west-forgot-how-to-make-things' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Tell HN：每天都有应用悄悄在 iPhone 上安装</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.1</span> <span class='hn-top-story-score'>&#9650; 453</span> <span class='hn-top-story-comments'>&#128172; 169</span> <span class='hn-top-story-tag'>Culture</span> <span class='hn-top-story-tag'>Entertainment</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>西方忘记了如何制造，现在又忘记了如何编码</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.8</span> <span class='hn-top-story-score'>&#9650; 1060</span> <span class='hn-top-story-comments'>&#128172; 739</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='27' data-hn-time='1777221739'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='573' data-hn-time='1777200632'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/26/top_stories_04262026#story-47911644'>The Visible Zorker: Zork 1</a>
- <a class='hn-top-story-link' href='https://eblong.com/infocom/visi/zork1/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/26/top_stories_04262026#story-47909226'>Asahi Linux Progress Linux 7.0</a>
+ <a class='hn-top-story-link' href='https://asahilinux.org/2026/04/progress-report-7-0/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>可视化 Zorker：Zork I</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 27</span> <span class='hn-top-story-comments'>&#128172; 0</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>Asahi Linux Progress Linux 7.0</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.2</span> <span class='hn-top-story-score'>&#9650; 573</span> <span class='hn-top-story-comments'>&#128172; 263</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -155,7 +155,7 @@ Your browser does not support the audio element.
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 17 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-04-20 — 2026-04-26 <span class="hn-row-sep">·</span> 980 stories <span class="hn-row-sep">·</span> 7 days</span>
+<span class='hn-week-meta'>2026-04-20 — 2026-04-26 <span class="hn-row-sep">·</span> 999 stories <span class="hn-row-sep">·</span> 7 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -164,7 +164,7 @@ Your browser does not support the audio element.
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/04/26/top_stories_04262026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>80</b> <span class="hn-row-sep">·</span> Programming <b>20</b> <span class="hn-row-sep">·</span> Hardware <b>13</b></span>
+<span class='hn-row-detail'>All <b>99</b> <span class="hn-row-sep">·</span> Programming <b>24</b> <span class="hn-row-sep">·</span> AI <b>17</b></span>
 </a>
 </div>
 </div>
