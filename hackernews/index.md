@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>71</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>10264</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>70</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>69</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-04-27</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>71</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>10291</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>70</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>69</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-04-27</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='761' data-hn-time='1777236066'>
+<div class='hn-top-story-item' data-hn-score='294' data-hn-time='1777287394'>
 <span class='hn-top-story-rank'>1</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/27/top_stories_04272026#story-47919997'>Pgbackrest is no longer being maintained</a>
+ <a class='hn-top-story-link' href='https://github.com/pgbackrest/pgbackrest' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Pgbackrest 已不再维护</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.0</span> <span class='hn-top-story-score'>&#9650; 294</span> <span class='hn-top-story-comments'>&#128172; 142</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Data</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='125' data-hn-time='1777296162'>
+<span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/27/top_stories_04272026#story-47921248'>Microsoft and OpenAI end their exclusive and revenue-sharing deal</a>
+ <a class='hn-top-story-link' href='https://www.bloomberg.com/news/articles/2026-04-27/microsoft-to-stop-sharing-revenue-with-main-ai-partner-openai' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>微软与 OpenAI 终止独家及分成协议</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.4</span> <span class='hn-top-story-score'>&#9650; 125</span> <span class='hn-top-story-comments'>&#128172; 133</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='72' data-hn-time='1777299893'>
+<span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/27/top_stories_04272026#story-47922079'>"Why not just use Lean?"</a>
+ <a class='hn-top-story-link' href='https://lawrencecpaulson.github.io//2026/04/23/Why_not_Lean.html' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>要不要直接用 Lean？</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.7</span> <span class='hn-top-story-score'>&#9650; 72</span> <span class='hn-top-story-comments'>&#128172; 18</span> <span class='hn-top-story-tag'>Programming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='149' data-hn-time='1777293355'>
+<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/27/top_stories_04272026#story-47920787'>Show HN: OSS Agent I built topped the TerminalBench on Gemini-3-flash-preview</a>
+ <a class='hn-top-story-link' href='https://github.com/dirac-run/dirac' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Show HN：我构建的开源代理在 Gemini-3 快闪预览版的 TerminalBench 上夺冠</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.5</span> <span class='hn-top-story-score'>&#9650; 149</span> <span class='hn-top-story-comments'>&#128172; 57</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Programming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='155' data-hn-time='1777288106'>
+<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/27/top_stories_04272026#story-47920074'>Men Who Stare at Walls</a>
+ <a class='hn-top-story-link' href='https://www.alexselimov.com/posts/men_who_stare_at_walls/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>凝视墙壁的人</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.0</span> <span class='hn-top-story-score'>&#9650; 155</span> <span class='hn-top-story-comments'>&#128172; 81</span> <span class='hn-top-story-tag'>Culture</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='163' data-hn-time='1777284855'>
+<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/27/top_stories_04272026#story-47919725'>France's Mistral Built a $14B AI Empire by Not Being American</a>
+ <a class='hn-top-story-link' href='https://www.forbes.com/sites/iainmartin/2026/04/16/how-frances-mistral-built-a-14-billion-ai-empire-by-not-being-american/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>法国的 Mistral 不靠美国，打造了价值 140 亿美元的 AI 帝国</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 163</span> <span class='hn-top-story-comments'>&#128172; 130</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Business</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='174' data-hn-time='1777283830'>
+<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/27/top_stories_04272026#story-47919630'>4TB of voice samples just stolen from 40k AI contractors at Mercor</a>
+ <a class='hn-top-story-link' href='https://app.oravys.com/blog/mercor-breach-2026' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Mercor 的外包承包商数据泄露：4 TB 语音样本被窃取</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 174</span> <span class='hn-top-story-comments'>&#128172; 68</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='986' data-hn-time='1777236066'>
+<span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/04/27/top_stories_04272026#story-47914165'>I bought Friendster for $30k – Here's what I'm doing with it</a>
  <a class='hn-top-story-link' href='https://ca98am79.medium.com/i-bought-friendster-for-30k-heres-what-i-m-doing-with-it-d5e8ddb3991d' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>花了3万美元买下 Friendster，我打算怎么用它</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.6</span> <span class='hn-top-story-score'>&#9650; 761</span> <span class='hn-top-story-comments'>&#128172; 394</span> <span class='hn-top-story-tag'>Culture</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 986</span> <span class='hn-top-story-comments'>&#128172; 513</span> <span class='hn-top-story-tag'>Startups</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='467' data-hn-time='1777233792'>
-<span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='715' data-hn-time='1777233792'>
+<span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/04/27/top_stories_04272026#story-47913650'>AI should elevate your thinking, not replace it</a>
  <a class='hn-top-story-link' href='https://www.koshyjohn.com/blog/ai-should-elevate-your-thinking-not-replace-it/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>AI 应提升你的思考，而非替代它</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.8</span> <span class='hn-top-story-score'>&#9650; 467</span> <span class='hn-top-story-comments'>&#128172; 336</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 715</span> <span class='hn-top-story-comments'>&#128172; 510</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='651' data-hn-time='1777220849'>
-<span class='hn-top-story-rank'>3</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/27/top_stories_04272026#story-47911524'>An AI agent deleted our production database. The agent's confession is below</a>
- <a class='hn-top-story-link' href='https://twitter.com/lifeof_jer/status/2048103471019434248' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>AI 代理删除生产数据库：代理的自白如下</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 651</span> <span class='hn-top-story-comments'>&#128172; 802</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Data</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='598' data-hn-time='1777222676'>
-<span class='hn-top-story-rank'>4</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/27/top_stories_04272026#story-47911780'>GoDaddy gave a domain to a stranger without any documentation</a>
- <a class='hn-top-story-link' href='https://anchor.host/godaddy-gave-a-domain-to-a-stranger-without-any-documentation/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>GoDaddy 未经文档将域名转让给陌生人</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 598</span> <span class='hn-top-story-comments'>&#128172; 231</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Business</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='375' data-hn-time='1777236990'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/27/top_stories_04272026#story-47914350'>Sawe becomes first athlete to run a sub-two-hour marathon in a competitive race</a>
- <a class='hn-top-story-link' href='https://www.bbc.com/sport/athletics/articles/crm1m7e0zwzo' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>萨韦在正式比赛中实现马拉松2小时内的里程碑</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 375</span> <span class='hn-top-story-comments'>&#128172; 257</span> <span class='hn-top-story-tag'>Science</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='135' data-hn-time='1777254872'>
-<span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/27/top_stories_04272026#story-47916890'>TurboQuant: A first-principles walkthrough</a>
- <a class='hn-top-story-link' href='https://arkaung.github.io/interactive-turboquant/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>TurboQuant：基于第一性原理的完整解析</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.7</span> <span class='hn-top-story-score'>&#9650; 135</span> <span class='hn-top-story-comments'>&#128172; 22</span> <span class='hn-top-story-tag'>Programming</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='21' data-hn-time='1777274477'>
-<span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/27/top_stories_04272026#story-47918657'>The Mushroom That Makes People Have the Exact Same Hallucination</a>
- <a class='hn-top-story-link' href='https://www.vice.com/en/article/meet-the-mushroom-that-make-people-have-the-exact-same-hallucination/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>让人产生完全相同幻觉的蘑菇</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 21</span> <span class='hn-top-story-comments'>&#128172; 7</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Health</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='99' data-hn-time='1777256338'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/27/top_stories_04272026#story-47917026'>The Prompt API</a>
- <a class='hn-top-story-link' href='https://developer.chrome.com/docs/ai/prompt-api' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>提示 API</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.2</span> <span class='hn-top-story-score'>&#9650; 99</span> <span class='hn-top-story-comments'>&#128172; 63</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='618' data-hn-time='1777200632'>
-<span class='hn-top-story-rank'>9</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/27/top_stories_04272026#story-47909226'>Asahi Linux Progress Linux 7.0</a>
- <a class='hn-top-story-link' href='https://asahilinux.org/2026/04/progress-report-7-0/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Asahi Linux Progress Linux 7.0</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.1</span> <span class='hn-top-story-score'>&#9650; 618</span> <span class='hn-top-story-comments'>&#128172; 313</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Hardware</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='239' data-hn-time='1777234717'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='155' data-hn-time='1777277476'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/27/top_stories_04272026#story-47913855'>Fast16: High-precision software sabotage 5 years before Stuxnet</a>
- <a class='hn-top-story-link' href='https://www.sentinelone.com/labs/fast16-mystery-shadowbrokers-reference-reveals-high-precision-software-sabotage-5-years-before-stuxnet/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/27/top_stories_04272026#story-47918961'>It's OK to abandon your side-project (2024)</a>
+ <a class='hn-top-story-link' href='https://robbowen.digital/wrote-about/abandoned-side-projects/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Fast16：比 Stuxnet 早5年的高精度软件破坏</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 239</span> <span class='hn-top-story-comments'>&#128172; 52</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>放弃副项目也没关系</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 155</span> <span class='hn-top-story-comments'>&#128172; 75</span> <span class='hn-top-story-tag'>Career</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -155,7 +155,7 @@ Your browser does not support the audio element.
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 18 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-04-27 <span class="hn-row-sep">·</span> 49 stories <span class="hn-row-sep">·</span> 1 days</span>
+<span class='hn-week-meta'>2026-04-27 <span class="hn-row-sep">·</span> 76 stories <span class="hn-row-sep">·</span> 1 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -164,7 +164,7 @@ Your browser does not support the audio element.
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/04/27/top_stories_04272026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>49</b> <span class="hn-row-sep">·</span> Programming <b>13</b> <span class="hn-row-sep">·</span> AI <b>9</b></span>
+<span class='hn-row-detail'>All <b>76</b> <span class="hn-row-sep">·</span> Programming <b>22</b> <span class="hn-row-sep">·</span> AI <b>18</b></span>
 </a>
 </div>
 </div>
