@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>71</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>10291</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>70</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>69</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-04-27</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>71</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>10308</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>70</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>69</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-04-27</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='294' data-hn-time='1777287394'>
+<div class='hn-top-story-item' data-hn-score='331' data-hn-time='1777305788'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/27/top_stories_04272026#story-47919997'>Pgbackrest is no longer being maintained</a>
- <a class='hn-top-story-link' href='https://github.com/pgbackrest/pgbackrest' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/27/top_stories_04272026#story-47923357'>GitHub Copilot is moving to usage-based billing</a>
+ <a class='hn-top-story-link' href='https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Pgbackrest 已不再维护</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.0</span> <span class='hn-top-story-score'>&#9650; 294</span> <span class='hn-top-story-comments'>&#128172; 142</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Data</span></div>
+<div class='hn-top-story-zh'>GitHub Copilot 将改为按使用量计费</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 17</span> <span class='hn-top-story-score'>&#9650; 331</span> <span class='hn-top-story-comments'>&#128172; 257</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='125' data-hn-time='1777296162'>
+<div class='hn-top-story-item' data-hn-score='157' data-hn-time='1777311739'>
 <span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/27/top_stories_04272026#story-47924775'>GitHub is having issues now</a>
+ <a class='hn-top-story-link' href='https://www.githubstatus.com' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>GitHub 现在出现故障</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 16</span> <span class='hn-top-story-score'>&#9650; 157</span> <span class='hn-top-story-comments'>&#128172; 59</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Programming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='509' data-hn-time='1777296162'>
+<span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/04/27/top_stories_04272026#story-47921248'>Microsoft and OpenAI end their exclusive and revenue-sharing deal</a>
  <a class='hn-top-story-link' href='https://www.bloomberg.com/news/articles/2026-04-27/microsoft-to-stop-sharing-revenue-with-main-ai-partner-openai' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>微软与 OpenAI 终止独家及分成协议</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.4</span> <span class='hn-top-story-score'>&#9650; 125</span> <span class='hn-top-story-comments'>&#128172; 133</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 509</span> <span class='hn-top-story-comments'>&#128172; 440</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='72' data-hn-time='1777299893'>
-<span class='hn-top-story-rank'>3</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/27/top_stories_04272026#story-47922079'>"Why not just use Lean?"</a>
- <a class='hn-top-story-link' href='https://lawrencecpaulson.github.io//2026/04/23/Why_not_Lean.html' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>要不要直接用 Lean？</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.7</span> <span class='hn-top-story-score'>&#9650; 72</span> <span class='hn-top-story-comments'>&#128172; 18</span> <span class='hn-top-story-tag'>Programming</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='149' data-hn-time='1777293355'>
+<div class='hn-top-story-item' data-hn-score='255' data-hn-time='1777302761'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/27/top_stories_04272026#story-47920787'>Show HN: OSS Agent I built topped the TerminalBench on Gemini-3-flash-preview</a>
- <a class='hn-top-story-link' href='https://github.com/dirac-run/dirac' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/27/top_stories_04272026#story-47922712'>Dutch central bank ditches AWS and chooses Lidl for European Cloud</a>
+ <a class='hn-top-story-link' href='https://www.techzine.eu/news/infrastructure/140634/dutch-central-bank-chooses-lidl-for-european-cloud/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Show HN：我构建的开源代理在 Gemini-3 快闪预览版的 TerminalBench 上夺冠</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.5</span> <span class='hn-top-story-score'>&#9650; 149</span> <span class='hn-top-story-comments'>&#128172; 57</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>荷兰央行弃用 AWS，选择 Lidl 的欧洲云</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.9</span> <span class='hn-top-story-score'>&#9650; 255</span> <span class='hn-top-story-comments'>&#128172; 96</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='155' data-hn-time='1777288106'>
+<div class='hn-top-story-item' data-hn-score='118' data-hn-time='1777309081'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/27/top_stories_04272026#story-47920074'>Men Who Stare at Walls</a>
- <a class='hn-top-story-link' href='https://www.alexselimov.com/posts/men_who_stare_at_walls/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/27/top_stories_04272026#story-47924188'>Canada's first sovereign wealth fund</a>
+ <a class='hn-top-story-link' href='https://www.cbc.ca/news/politics/sovereign-wealth-fund-carney-major-projects-9.7178238' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>凝视墙壁的人</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.0</span> <span class='hn-top-story-score'>&#9650; 155</span> <span class='hn-top-story-comments'>&#128172; 81</span> <span class='hn-top-story-tag'>Culture</span></div>
+<div class='hn-top-story-zh'>加拿大设立首个主权财富基金</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.5</span> <span class='hn-top-story-score'>&#9650; 118</span> <span class='hn-top-story-comments'>&#128172; 60</span> <span class='hn-top-story-tag'>Finance</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='163' data-hn-time='1777284855'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='50' data-hn-time='1777314870'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/27/top_stories_04272026#story-47919725'>France's Mistral Built a $14B AI Empire by Not Being American</a>
- <a class='hn-top-story-link' href='https://www.forbes.com/sites/iainmartin/2026/04/16/how-frances-mistral-built-a-14-billion-ai-empire-by-not-being-american/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/27/top_stories_04272026#story-47925425'>United Wizards of the Coast</a>
+ <a class='hn-top-story-link' href='https://unitedwizardsofthecoast.com/news/announcing-united-wizards-coast-cwa' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>法国的 Mistral 不靠美国，打造了价值 140 亿美元的 AI 帝国</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 163</span> <span class='hn-top-story-comments'>&#128172; 130</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-zh'>海岸巫师联合会宣布成立</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.3</span> <span class='hn-top-story-score'>&#9650; 50</span> <span class='hn-top-story-comments'>&#128172; 6</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='174' data-hn-time='1777283830'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='71' data-hn-time='1777312210'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/27/top_stories_04272026#story-47919630'>4TB of voice samples just stolen from 40k AI contractors at Mercor</a>
- <a class='hn-top-story-link' href='https://app.oravys.com/blog/mercor-breach-2026' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/27/top_stories_04272026#story-47924877'>Super ZSNES – GPU Powered SNES Emulator</a>
+ <a class='hn-top-story-link' href='https://zsnes.com/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Mercor 的外包承包商数据泄露：4 TB 语音样本被窃取</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 174</span> <span class='hn-top-story-comments'>&#128172; 68</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>Super ZSNES：基于 GPU 的 SNES 模拟器</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.6</span> <span class='hn-top-story-score'>&#9650; 71</span> <span class='hn-top-story-comments'>&#128172; 16</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='986' data-hn-time='1777236066'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='66' data-hn-time='1777311902'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/27/top_stories_04272026#story-47914165'>I bought Friendster for $30k – Here's what I'm doing with it</a>
- <a class='hn-top-story-link' href='https://ca98am79.medium.com/i-bought-friendster-for-30k-heres-what-i-m-doing-with-it-d5e8ddb3991d' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/27/top_stories_04272026#story-47924813'>Open-Source KiCad PCBs for Common Arduino, ESP32, RP2040 Boards</a>
+ <a class='hn-top-story-link' href='https://github.com/Hanqaqa/Easyduino' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>花了3万美元买下 Friendster，我打算怎么用它</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 986</span> <span class='hn-top-story-comments'>&#128172; 513</span> <span class='hn-top-story-tag'>Startups</span></div>
+<div class='hn-top-story-zh'>覆盖常用 Arduino、ESP32、RP2040 开发板的开源 KiCad PCB 设计</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.8</span> <span class='hn-top-story-score'>&#9650; 66</span> <span class='hn-top-story-comments'>&#128172; 2</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='715' data-hn-time='1777233792'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='188' data-hn-time='1777299893'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/27/top_stories_04272026#story-47913650'>AI should elevate your thinking, not replace it</a>
- <a class='hn-top-story-link' href='https://www.koshyjohn.com/blog/ai-should-elevate-your-thinking-not-replace-it/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/27/top_stories_04272026#story-47922079'>“Why not just use Lean?”</a>
+ <a class='hn-top-story-link' href='https://lawrencecpaulson.github.io//2026/04/23/Why_not_Lean.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>AI 应提升你的思考，而非替代它</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 715</span> <span class='hn-top-story-comments'>&#128172; 510</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>为何不直接用 Lean？</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.9</span> <span class='hn-top-story-score'>&#9650; 188</span> <span class='hn-top-story-comments'>&#128172; 105</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='155' data-hn-time='1777277476'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='135' data-hn-time='1777303781'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/27/top_stories_04272026#story-47918961'>It's OK to abandon your side-project (2024)</a>
- <a class='hn-top-story-link' href='https://robbowen.digital/wrote-about/abandoned-side-projects/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/27/top_stories_04272026#story-47922940'>US Supreme Court reviews police use of cell location data</a>
+ <a class='hn-top-story-link' href='https://www.nytimes.com/2026/04/27/us/politics/supreme-court-cell-data-geofence.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>放弃副项目也没关系</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 155</span> <span class='hn-top-story-comments'>&#128172; 75</span> <span class='hn-top-story-tag'>Career</span></div>
+<div class='hn-top-story-zh'>美国最高法院正在审理警方使用手机定位数据追踪嫌疑人</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.7</span> <span class='hn-top-story-score'>&#9650; 135</span> <span class='hn-top-story-comments'>&#128172; 91</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -155,7 +155,7 @@ Your browser does not support the audio element.
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 18 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-04-27 <span class="hn-row-sep">·</span> 76 stories <span class="hn-row-sep">·</span> 1 days</span>
+<span class='hn-week-meta'>2026-04-27 <span class="hn-row-sep">·</span> 93 stories <span class="hn-row-sep">·</span> 1 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -164,7 +164,7 @@ Your browser does not support the audio element.
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/04/27/top_stories_04272026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>76</b> <span class="hn-row-sep">·</span> Programming <b>22</b> <span class="hn-row-sep">·</span> AI <b>18</b></span>
+<span class='hn-row-detail'>All <b>93</b> <span class="hn-row-sep">·</span> AI <b>23</b> <span class="hn-row-sep">·</span> Programming <b>22</b></span>
 </a>
 </div>
 </div>
