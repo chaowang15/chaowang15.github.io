@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='145' data-hn-time='1777399281'>
+<div class='hn-top-story-item' data-hn-score='1243' data-hn-time='1777405492'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/28/top_stories_04282026#story-47938097'>Claude.ai is unavailable</a>
- <a class='hn-top-story-link' href='https://status.claude.com/incidents/9l93x2ht4s5w' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/28/top_stories_04282026#story-47939579'>Ghostty is leaving GitHub</a>
+ <a class='hn-top-story-link' href='https://mitchellh.com/writing/ghostty-leaving-github' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Claude.ai 不可用</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 15</span> <span class='hn-top-story-score'>&#9650; 145</span> <span class='hn-top-story-comments'>&#128172; 120</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>Ghostty 将离开 GitHub</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 67</span> <span class='hn-top-story-score'>&#9650; 1243</span> <span class='hn-top-story-comments'>&#128172; 357</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='91' data-hn-time='1777402029'>
+<div class='hn-top-story-item' data-hn-score='811' data-hn-time='1777389660'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/28/top_stories_04282026#story-47938756'>Bankruptcies increase 11.9 percent</a>
- <a class='hn-top-story-link' href='https://www.uscourts.gov/data-news/judiciary-news/2026/04/23/bankruptcies-increase-119-percent' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/28/top_stories_04282026#story-47935853'>Your phone is about to stop being yours</a>
+ <a class='hn-top-story-link' href='https://keepandroidopen.org/en/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>破产案件增加 11.9%</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 15</span> <span class='hn-top-story-score'>&#9650; 91</span> <span class='hn-top-story-comments'>&#128172; 40</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>手机快要不再属于你</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 14</span> <span class='hn-top-story-score'>&#9650; 811</span> <span class='hn-top-story-comments'>&#128172; 424</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='116' data-hn-time='1777399693'>
+<div class='hn-top-story-item' data-hn-score='122' data-hn-time='1777411060'>
 <span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/28/top_stories_04282026#story-47940921'>Before GitHub</a>
+ <a class='hn-top-story-link' href='https://lucumr.pocoo.org/2026/4/28/before-github/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>GitHub 之前</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 13</span> <span class='hn-top-story-score'>&#9650; 122</span> <span class='hn-top-story-comments'>&#128172; 23</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Privacy</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='248' data-hn-time='1777399281'>
+<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/28/top_stories_04282026#story-47938097'>Claude.ai unavailable and elevated errors on the API</a>
+ <a class='hn-top-story-link' href='https://status.claude.com/incidents/9l93x2ht4s5w' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Claude.ai 不可用及 API 出错上升</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.9</span> <span class='hn-top-story-score'>&#9650; 248</span> <span class='hn-top-story-comments'>&#128172; 205</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='218' data-hn-time='1777399693'>
+<span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/04/28/top_stories_04282026#story-47938184'>Waymo in Portland</a>
  <a class='hn-top-story-link' href='https://waymo.com/blog/shorts/waymo-in-portland/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Waymo 在波特兰落地</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 13</span> <span class='hn-top-story-score'>&#9650; 116</span> <span class='hn-top-story-comments'>&#128172; 97</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.2</span> <span class='hn-top-story-score'>&#9650; 218</span> <span class='hn-top-story-comments'>&#128172; 306</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='636' data-hn-time='1777377260'>
-<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='99' data-hn-time='1777408235'>
+<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/28/top_stories_04282026#story-47940271'>Drone pilot makes US rescind no-fly zones around unmarked, moving ICE vehicles</a>
+ <a class='hn-top-story-link' href='https://arstechnica.com/gadgets/2026/04/no-fly-zones-around-moving-ice-vehicles-this-drone-pilot-fought-back-and-won/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>无人机飞手促使美国撤销围绕未标记、移动的 ICE 车辆禁飞区</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.1</span> <span class='hn-top-story-score'>&#9650; 99</span> <span class='hn-top-story-comments'>&#128172; 24</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Security</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='712' data-hn-time='1777377260'>
+<span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/04/28/top_stories_04282026#story-47933208'>Localsend: An open-source cross-platform alternative to AirDrop</a>
  <a class='hn-top-story-link' href='https://github.com/localsend/localsend' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Localsend：开源跨平台的 AirDrop 替代</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 636</span> <span class='hn-top-story-comments'>&#128172; 212</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.1</span> <span class='hn-top-story-score'>&#9650; 712</span> <span class='hn-top-story-comments'>&#128172; 225</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='206' data-hn-time='1777392478'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/28/top_stories_04282026#story-47936370'>Anthropic Joins the Blender Development Fund as Corporate Patron</a>
- <a class='hn-top-story-link' href='https://www.blender.org/press/anthropic-joins-the-blender-development-fund-as-corporate-patron/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Anthropic 以企业赞助商身份加入 Blender 开发基金</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 10.0</span> <span class='hn-top-story-score'>&#9650; 206</span> <span class='hn-top-story-comments'>&#128172; 159</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='216' data-hn-time='1777391362'>
-<span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/28/top_stories_04282026#story-47936156'>Google and Pentagon reportedly agree on deal for 'any lawful' use of AI</a>
- <a class='hn-top-story-link' href='https://www.theverge.com/ai-artificial-intelligence/919494/google-pentagon-classified-ai-deal' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>谷歌与美国国防部据称就‘任何合法用途’的AI使用达成协议</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.4</span> <span class='hn-top-story-score'>&#9650; 216</span> <span class='hn-top-story-comments'>&#128172; 207</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Politics</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='141' data-hn-time='1777394393'>
-<span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/28/top_stories_04282026#story-47936867'>AI's Economics Don't Make Sense</a>
- <a class='hn-top-story-link' href='https://www.wheresyoured.at/ais-economics-dont-make-sense/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>AI 的经济学不合逻辑</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.2</span> <span class='hn-top-story-score'>&#9650; 141</span> <span class='hn-top-story-comments'>&#128172; 99</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Health</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='155' data-hn-time='1777391661'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='134' data-hn-time='1777404283'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/28/top_stories_04282026#story-47936210'>FCC Funding Application Notes Paramount Will Be 49.5% Foreign-Owned Post-Merger</a>
- <a class='hn-top-story-link' href='https://deadline.com/2026/04/paramount-fcc-request-wbd-merger-middle-east-1236873732/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/28/top_stories_04282026#story-47939320'>OpenAI models coming to Amazon Bedrock: Interview with OpenAI and AWS CEOs</a>
+ <a class='hn-top-story-link' href='https://stratechery.com/2026/an-interview-with-openai-ceo-sam-altman-and-aws-ceo-matt-garman-about-bedrock-managed-agents/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>FCC 资金申请文件显示，合并后 Paramount 的外国持股将达49.5%</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.0</span> <span class='hn-top-story-score'>&#9650; 155</span> <span class='hn-top-story-comments'>&#128172; 93</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>OpenAI 模型将入驻 Amazon Bedrock：OpenAI 与 AWS 首席执行官访谈</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.4</span> <span class='hn-top-story-score'>&#9650; 134</span> <span class='hn-top-story-comments'>&#128172; 46</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='144' data-hn-time='1777392361'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='162' data-hn-time='1777402029'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/28/top_stories_04282026#story-47936347'>AISLE Discovers 38 CVEs in OpenEMR Healthcare Software</a>
- <a class='hn-top-story-link' href='https://aisle.com/blog/aisle-discovers-38-critical-security-vulnerabilities-in-healthcare-software-used-by-100000-providers' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/28/top_stories_04282026#story-47938756'>Bankruptcies increase 11.9 percent</a>
+ <a class='hn-top-story-link' href='https://www.uscourts.gov/data-news/judiciary-news/2026/04/23/bankruptcies-increase-119-percent' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>AISLE 发现 OpenEMR 医疗软件中的 38 个高危漏洞</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.9</span> <span class='hn-top-story-score'>&#9650; 144</span> <span class='hn-top-story-comments'>&#128172; 90</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Health</span></div>
+<div class='hn-top-story-zh'>破产案件增加 11.9%</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.4</span> <span class='hn-top-story-score'>&#9650; 162</span> <span class='hn-top-story-comments'>&#128172; 99</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='293' data-hn-time='1777382034'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='196' data-hn-time='1777396181'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/28/top_stories_04282026#story-47934120'>UAE Leaves OPEC and OPEC+</a>
- <a class='hn-top-story-link' href='https://www.reuters.com/markets/commodities/uae-says-it-quits-opec-opec-statement-2026-04-28/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/28/top_stories_04282026#story-47937349'>Warp is now Open-Source</a>
+ <a class='hn-top-story-link' href='https://github.com/warpdotdev/warp' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>阿联酋退出欧佩克与欧佩克+</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.5</span> <span class='hn-top-story-score'>&#9650; 293</span> <span class='hn-top-story-comments'>&#128172; 153</span> <span class='hn-top-story-tag'>Energy</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>Warp 现已开源</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.0</span> <span class='hn-top-story-score'>&#9650; 196</span> <span class='hn-top-story-comments'>&#128172; 110</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -164,7 +164,7 @@ Your browser does not support the audio element.
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/04/28/top_stories_04282026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>25</b> <span class="hn-row-sep">·</span> Programming <b>25</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>27</b> <span class="hn-row-sep">·</span> AI <b>24</b></span>
 </a>
 </div>
 </div>
