@@ -20,7 +20,7 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='1243' data-hn-time='1777405492'>
+<div class='hn-top-story-item' data-hn-score='2070' data-hn-time='1777405492'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -28,10 +28,10 @@ Sort:
  <a class='hn-top-story-link' href='https://mitchellh.com/writing/ghostty-leaving-github' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Ghostty 将离开 GitHub</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 67</span> <span class='hn-top-story-score'>&#9650; 1243</span> <span class='hn-top-story-comments'>&#128172; 357</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 25</span> <span class='hn-top-story-score'>&#9650; 2070</span> <span class='hn-top-story-comments'>&#128172; 633</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='811' data-hn-time='1777389660'>
+<div class='hn-top-story-item' data-hn-score='1150' data-hn-time='1777389660'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -39,54 +39,54 @@ Sort:
  <a class='hn-top-story-link' href='https://keepandroidopen.org/en/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>手机快要不再属于你</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 14</span> <span class='hn-top-story-score'>&#9650; 811</span> <span class='hn-top-story-comments'>&#128172; 424</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.8</span> <span class='hn-top-story-score'>&#9650; 1150</span> <span class='hn-top-story-comments'>&#128172; 532</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='122' data-hn-time='1777411060'>
+<div class='hn-top-story-item' data-hn-score='226' data-hn-time='1777420454'>
 <span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/28/top_stories_04282026#story-47942437'>How ChatGPT serves ads</a>
+ <a class='hn-top-story-link' href='https://www.buchodi.com/how-chatgpt-serves-ads-heres-the-full-attribution-loop/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>ChatGPT 如何投放广告</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.0</span> <span class='hn-top-story-score'>&#9650; 226</span> <span class='hn-top-story-comments'>&#128172; 145</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Business</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='350' data-hn-time='1777411060'>
+<span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/04/28/top_stories_04282026#story-47940921'>Before GitHub</a>
  <a class='hn-top-story-link' href='https://lucumr.pocoo.org/2026/4/28/before-github/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>GitHub 之前</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 13</span> <span class='hn-top-story-score'>&#9650; 122</span> <span class='hn-top-story-comments'>&#128172; 23</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.5</span> <span class='hn-top-story-score'>&#9650; 350</span> <span class='hn-top-story-comments'>&#128172; 104</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Culture</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='248' data-hn-time='1777399281'>
-<span class='hn-top-story-rank'>4</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/28/top_stories_04282026#story-47938097'>Claude.ai unavailable and elevated errors on the API</a>
- <a class='hn-top-story-link' href='https://status.claude.com/incidents/9l93x2ht4s5w' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Claude.ai 不可用及 API 出错上升</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.9</span> <span class='hn-top-story-score'>&#9650; 248</span> <span class='hn-top-story-comments'>&#128172; 205</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='218' data-hn-time='1777399693'>
+<div class='hn-top-story-item' data-hn-score='181' data-hn-time='1777420797'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/28/top_stories_04282026#story-47938184'>Waymo in Portland</a>
- <a class='hn-top-story-link' href='https://waymo.com/blog/shorts/waymo-in-portland/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/28/top_stories_04282026#story-47942492'>Regression: malware reminder on every read still causes subagent refusals</a>
+ <a class='hn-top-story-link' href='https://github.com/anthropics/claude-code/issues/49363' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Waymo 在波特兰落地</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.2</span> <span class='hn-top-story-score'>&#9650; 218</span> <span class='hn-top-story-comments'>&#128172; 306</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-zh'>回归：每次读取时的恶意软件提醒仍导致子代理拒绝</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.9</span> <span class='hn-top-story-score'>&#9650; 181</span> <span class='hn-top-story-comments'>&#128172; 75</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='99' data-hn-time='1777408235'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='82' data-hn-time='1777429151'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/28/top_stories_04282026#story-47940271'>Drone pilot makes US rescind no-fly zones around unmarked, moving ICE vehicles</a>
- <a class='hn-top-story-link' href='https://arstechnica.com/gadgets/2026/04/no-fly-zones-around-moving-ice-vehicles-this-drone-pilot-fought-back-and-won/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/28/top_stories_04282026#story-47943499'>Bugs Rust won't catch</a>
+ <a class='hn-top-story-link' href='https://corrode.dev/blog/bugs-rust-wont-catch/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>无人机飞手促使美国撤销围绕未标记、移动的 ICE 车辆禁飞区</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.1</span> <span class='hn-top-story-score'>&#9650; 99</span> <span class='hn-top-story-comments'>&#128172; 24</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>Rust 捕捉不到的漏洞</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.4</span> <span class='hn-top-story-score'>&#9650; 82</span> <span class='hn-top-story-comments'>&#128172; 14</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='712' data-hn-time='1777377260'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='779' data-hn-time='1777377260'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -94,40 +94,40 @@ Sort:
  <a class='hn-top-story-link' href='https://github.com/localsend/localsend' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Localsend：开源跨平台的 AirDrop 替代</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.1</span> <span class='hn-top-story-score'>&#9650; 712</span> <span class='hn-top-story-comments'>&#128172; 225</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.7</span> <span class='hn-top-story-score'>&#9650; 779</span> <span class='hn-top-story-comments'>&#128172; 237</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='134' data-hn-time='1777404283'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='204' data-hn-time='1777408235'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/28/top_stories_04282026#story-47939320'>OpenAI models coming to Amazon Bedrock: Interview with OpenAI and AWS CEOs</a>
- <a class='hn-top-story-link' href='https://stratechery.com/2026/an-interview-with-openai-ceo-sam-altman-and-aws-ceo-matt-garman-about-bedrock-managed-agents/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/28/top_stories_04282026#story-47940271'>Drone pilot makes US rescind no-fly zones around unmarked, moving ICE vehicles</a>
+ <a class='hn-top-story-link' href='https://arstechnica.com/gadgets/2026/04/no-fly-zones-around-moving-ice-vehicles-this-drone-pilot-fought-back-and-won/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>OpenAI 模型将入驻 Amazon Bedrock：OpenAI 与 AWS 首席执行官访谈</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.4</span> <span class='hn-top-story-score'>&#9650; 134</span> <span class='hn-top-story-comments'>&#128172; 46</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>无人机飞手促使美国撤销围绕未标记、移动的 ICE 车辆禁飞区</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 204</span> <span class='hn-top-story-comments'>&#128172; 68</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='162' data-hn-time='1777402029'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='280' data-hn-time='1777399281'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/28/top_stories_04282026#story-47938756'>Bankruptcies increase 11.9 percent</a>
- <a class='hn-top-story-link' href='https://www.uscourts.gov/data-news/judiciary-news/2026/04/23/bankruptcies-increase-119-percent' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/28/top_stories_04282026#story-47938097'>Claude.ai unavailable and elevated errors on the API</a>
+ <a class='hn-top-story-link' href='https://status.claude.com/incidents/9l93x2ht4s5w' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>破产案件增加 11.9%</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.4</span> <span class='hn-top-story-score'>&#9650; 162</span> <span class='hn-top-story-comments'>&#128172; 99</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>Claude.ai 不可用及 API 出错上升</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 280</span> <span class='hn-top-story-comments'>&#128172; 237</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>DevOps</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='196' data-hn-time='1777396181'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='262' data-hn-time='1777399693'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/28/top_stories_04282026#story-47937349'>Warp is now Open-Source</a>
- <a class='hn-top-story-link' href='https://github.com/warpdotdev/warp' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/28/top_stories_04282026#story-47938184'>Waymo in Portland</a>
+ <a class='hn-top-story-link' href='https://waymo.com/blog/shorts/waymo-in-portland/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Warp 现已开源</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.0</span> <span class='hn-top-story-score'>&#9650; 196</span> <span class='hn-top-story-comments'>&#128172; 110</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>Waymo 在波特兰落地</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 262</span> <span class='hn-top-story-comments'>&#128172; 457</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -164,7 +164,7 @@ Your browser does not support the audio element.
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/04/28/top_stories_04282026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>27</b> <span class="hn-row-sep">·</span> AI <b>24</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>27</b> <span class="hn-row-sep">·</span> Programming <b>26</b></span>
 </a>
 </div>
 </div>
