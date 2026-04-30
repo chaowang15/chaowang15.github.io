@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='884' data-hn-time='1777488871'>
+<div class='hn-top-story-item' data-hn-score='254' data-hn-time='1777519264'>
 <span class='hn-top-story-rank'>1</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/29/top_stories_04292026#story-47957688'>Where the goblins came from</a>
+ <a class='hn-top-story-link' href='https://openai.com/index/where-the-goblins-came-from/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>地精来自何方</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 20</span> <span class='hn-top-story-score'>&#9650; 254</span> <span class='hn-top-story-comments'>&#128172; 112</span> <span class='hn-top-story-tag'>Culture</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='1057' data-hn-time='1777488871'>
+<span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/04/29/top_stories_04292026#story-47952722'>HERMES.md in commit messages causes requests to route to extra usage billing</a>
  <a class='hn-top-story-link' href='https://github.com/anthropics/claude-code/issues/53262' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>提交信息中的 HERMES.md 会将请求路由至额外的使用量计费</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 37</span> <span class='hn-top-story-score'>&#9650; 884</span> <span class='hn-top-story-comments'>&#128172; 351</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 1057</span> <span class='hn-top-story-comments'>&#128172; 452</span> <span class='hn-top-story-tag'>Finance</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='1374' data-hn-time='1777473259'>
-<span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-item' data-hn-score='1679' data-hn-time='1777473259'>
+<span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/04/29/top_stories_04292026#story-47949027'>Zed 1.0</a>
  <a class='hn-top-story-link' href='https://zed.dev/blog/zed-1-0' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Zed 1.0 发布</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 21</span> <span class='hn-top-story-score'>&#9650; 1374</span> <span class='hn-top-story-comments'>&#128172; 434</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 10</span> <span class='hn-top-story-score'>&#9650; 1679</span> <span class='hn-top-story-comments'>&#128172; 538</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='396' data-hn-time='1777486433'>
-<span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-item' data-hn-score='761' data-hn-time='1777486433'>
+<span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/29/top_stories_04292026#story-47952181'>Copy Fail – CVE-2026-31431</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/29/top_stories_04292026#story-47952181'>Copy Fail</a>
  <a class='hn-top-story-link' href='https://copy.fail/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Copy Fail：CVE-2026-31431 漏洞</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 13</span> <span class='hn-top-story-score'>&#9650; 396</span> <span class='hn-top-story-comments'>&#128172; 191</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>拷贝失败</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.3</span> <span class='hn-top-story-score'>&#9650; 761</span> <span class='hn-top-story-comments'>&#128172; 304</span> <span class='hn-top-story-tag'>Design</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='646' data-hn-time='1777477797'>
-<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-item' data-hn-score='161' data-hn-time='1777513496'>
+<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/29/top_stories_04292026#story-47957101'>Craig Venter has died</a>
+ <a class='hn-top-story-link' href='https://www.jcvi.org/media-center/j-craig-venter-genomics-pioneer-and-founder-jcvi-and-diploid-genomics-inc-dies-79' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>克雷格·文特纳辞世</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.0</span> <span class='hn-top-story-score'>&#9650; 161</span> <span class='hn-top-story-comments'>&#128172; 32</span> <span class='hn-top-story-tag'>Science</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='853' data-hn-time='1777477797'>
+<span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/04/29/top_stories_04292026#story-47950091'>Online age verification is the hill to die on</a>
  <a class='hn-top-story-link' href='https://x.com/GlennMeder/status/2049088498163216560' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>在线年龄验证是必须坚持的关键议题</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 646</span> <span class='hn-top-story-comments'>&#128172; 419</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.0</span> <span class='hn-top-story-score'>&#9650; 853</span> <span class='hn-top-story-comments'>&#128172; 566</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='472' data-hn-time='1777477183'>
-<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='796' data-hn-time='1777477183'>
+<span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/04/29/top_stories_04292026#story-47949939'>Cursor Camp</a>
  <a class='hn-top-story-link' href='https://neal.fun/cursor-camp/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Cursor Camp（光标营地）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.8</span> <span class='hn-top-story-score'>&#9650; 472</span> <span class='hn-top-story-comments'>&#128172; 86</span> <span class='hn-top-story-tag'>Design</span> <span class='hn-top-story-tag'>Web</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.5</span> <span class='hn-top-story-score'>&#9650; 796</span> <span class='hn-top-story-comments'>&#128172; 132</span> <span class='hn-top-story-tag'>Design</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='167' data-hn-time='1777491156'>
-<span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/29/top_stories_04292026#story-47953275'>Kyoto cherry blossoms now bloom earlier than at any point in 1,200 years</a>
- <a class='hn-top-story-link' href='https://jivx.com/kyoto-bloom' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>京都樱花比1200年以来的任何时候都早盛开</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.4</span> <span class='hn-top-story-score'>&#9650; 167</span> <span class='hn-top-story-comments'>&#128172; 49</span> <span class='hn-top-story-tag'>Science</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='3313' data-hn-time='1777405492'>
-<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='3381' data-hn-time='1777405492'>
+<span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/04/29/top_stories_04292026#story-47939579'>Ghostty is leaving GitHub</a>
  <a class='hn-top-story-link' href='https://mitchellh.com/writing/ghostty-leaving-github' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Ghostty 将离开 GitHub</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.7</span> <span class='hn-top-story-score'>&#9650; 3313</span> <span class='hn-top-story-comments'>&#128172; 975</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.4</span> <span class='hn-top-story-score'>&#9650; 3381</span> <span class='hn-top-story-comments'>&#128172; 1009</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='499' data-hn-time='1777471259'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/29/top_stories_04292026#story-47948603'>We need a federation of forges</a>
- <a class='hn-top-story-link' href='https://blog.tangled.org/federation/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Tangled：我们需要一个联邦制的代码托管平台网络</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.9</span> <span class='hn-top-story-score'>&#9650; 499</span> <span class='hn-top-story-comments'>&#128172; 315</span> <span class='hn-top-story-tag'>Open Source</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='385' data-hn-time='1777475866'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='65' data-hn-time='1777518711'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/29/top_stories_04292026#story-47949642'>Mistral Medium 3.5</a>
- <a class='hn-top-story-link' href='https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/29/top_stories_04292026#story-47957627'>Finetuning Activates Verbatim Recall of Copyrighted Books in LLMs</a>
+ <a class='hn-top-story-link' href='https://github.com/cauchy221/Alignment-Whack-a-Mole-Code' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Mistral Medium 3.5 版发布</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.7</span> <span class='hn-top-story-score'>&#9650; 385</span> <span class='hn-top-story-comments'>&#128172; 182</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>微调激活大模型对受版权保护书籍的逐字回忆</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.7</span> <span class='hn-top-story-score'>&#9650; 65</span> <span class='hn-top-story-comments'>&#128172; 25</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Legal</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='92' data-hn-time='1777494058'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='83' data-hn-time='1777515347'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/29/top_stories_04292026#story-47954024'>Alphabet Announces First Quarter 2026 Results</a>
- <a class='hn-top-story-link' href='https://abc.xyz/investor/news/news-details/2026/Alphabet-Announces-First-Quarter-2026-Results-2026-X-ge4Dm6bf/default.aspx' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/29/top_stories_04292026#story-47957294'>The Zig project's rationale for their firm anti-AI contribution policy</a>
+ <a class='hn-top-story-link' href='https://simonwillison.net/2026/Apr/30/zig-anti-ai/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Alphabet 公布 2026 年第一季度业绩</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.3</span> <span class='hn-top-story-score'>&#9650; 92</span> <span class='hn-top-story-comments'>&#128172; 103</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>Zig 对 AI 贡献的明确反对立场及理由</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 83</span> <span class='hn-top-story-comments'>&#128172; 21</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Legal</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -164,7 +164,7 @@ Your browser does not support the audio element.
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/04/29/top_stories_04292026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>29</b> <span class="hn-row-sep">·</span> AI <b>26</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>28</b> <span class="hn-row-sep">·</span> Programming <b>21</b></span>
 </a>
 </div>
 </div>
