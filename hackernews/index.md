@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='274' data-hn-time='1777580842'>
+<div class='hn-top-story-item' data-hn-score='570' data-hn-time='1777580842'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/30/top_stories_04302026#story-47967786'>Rivian allows you to disable all internet connectivity</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/30/top_stories_04302026#story-47967786'>Can I disable all data collection from my vehicle?</a>
  <a class='hn-top-story-link' href='https://rivian.com/support/article/can-i-disable-all-data-collection-from-my-vehicle' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Rivian 车辆可完全关闭互联网连接</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 20</span> <span class='hn-top-story-score'>&#9650; 274</span> <span class='hn-top-story-comments'>&#128172; 115</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>我能否完全禁用车辆的数据收集？</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.4</span> <span class='hn-top-story-score'>&#9650; 570</span> <span class='hn-top-story-comments'>&#128172; 222</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='245' data-hn-time='1777578153'>
+<div class='hn-top-story-item' data-hn-score='1052' data-hn-time='1777559818'>
 <span class='hn-top-story-rank'>2</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/30/top_stories_04302026#story-47967289'>U.S. Senators Vote to Ban Themselves from Trading on Prediction Markets</a>
- <a class='hn-top-story-link' href='https://www.wsj.com/politics/policy/senators-vote-to-ban-themselves-from-trading-on-prediction-markets-ae4535dd' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>美国参议员投票禁止自己在预测市场交易</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 13</span> <span class='hn-top-story-score'>&#9650; 245</span> <span class='hn-top-story-comments'>&#128172; 91</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Finance</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='247' data-hn-time='1777578020'>
-<span class='hn-top-story-rank'>3</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/30/top_stories_04302026#story-47967262'>LinkedIn scans for 6,278 extensions and encrypts the results into every request</a>
- <a class='hn-top-story-link' href='https://404privacy.com/blog/linkedin-is-scanning-your-browser-extensions-this-is-how-they-use-the-data/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>LinkedIn 对浏览器扩展进行大规模扫描并将结果加密到每次请求中</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 13</span> <span class='hn-top-story-score'>&#9650; 247</span> <span class='hn-top-story-comments'>&#128172; 98</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Data</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='834' data-hn-time='1777559818'>
-<span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/04/30/top_stories_04302026#story-47963204'>Claude Code refuses requests or charges extra if your commits mention "OpenClaw"</a>
  <a class='hn-top-story-link' href='https://twitter.com/theo/status/2049645973350363168' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Claude Code 对提及 OpenClaw 的提交拒绝请求，甚至额外收费</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 13</span> <span class='hn-top-story-score'>&#9650; 834</span> <span class='hn-top-story-comments'>&#128172; 483</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.4</span> <span class='hn-top-story-score'>&#9650; 1052</span> <span class='hn-top-story-comments'>&#128172; 585</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='368' data-hn-time='1777567260'>
-<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-item' data-hn-score='506' data-hn-time='1777567260'>
+<span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/04/30/top_stories_04302026#story-47965060'>How Mark Klein told the EFF about Room 641A [book excerpt]</a>
  <a class='hn-top-story-link' href='https://thereader.mitpress.mit.edu/the-whistleblower-who-uncovered-the-nsas-big-brother-machine/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>马克·克莱因向 EFF 披露641A室内幕的书摘</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.6</span> <span class='hn-top-story-score'>&#9650; 368</span> <span class='hn-top-story-comments'>&#128172; 104</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 506</span> <span class='hn-top-story-comments'>&#128172; 166</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='704' data-hn-time='1777551434'>
-<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-item' data-hn-score='783' data-hn-time='1777551434'>
+<span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/04/30/top_stories_04302026#story-47961319'>Belgium stops decommissioning nuclear power plants</a>
  <a class='hn-top-story-link' href='https://dpa-international.com/general-news/urn:newsml:dpa.com:20090101:260430-930-14717/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>比利时暂停核电站退役计划</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.5</span> <span class='hn-top-story-score'>&#9650; 704</span> <span class='hn-top-story-comments'>&#128172; 646</span> <span class='hn-top-story-tag'>Energy</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.8</span> <span class='hn-top-story-score'>&#9650; 783</span> <span class='hn-top-story-comments'>&#128172; 758</span> <span class='hn-top-story-tag'>Energy</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='301' data-hn-time='1777567427'>
-<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-item' data-hn-score='434' data-hn-time='1777567427'>
+<span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/30/top_stories_04302026#story-47965108'>CopyFail was not disclosed to Gentoo developer</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/30/top_stories_04302026#story-47965108'>For Linux kernel vulnerabilities, there is no heads-up to distributions</a>
  <a class='hn-top-story-link' href='https://www.openwall.com/lists/oss-security/2026/04/30/10' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>CopyFail 未向 Gentoo 开发者披露</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.1</span> <span class='hn-top-story-score'>&#9650; 301</span> <span class='hn-top-story-comments'>&#128172; 225</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>Linux 内核漏洞：对发行版没有事先通知</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 434</span> <span class='hn-top-story-comments'>&#128172; 333</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='364' data-hn-time='1777563100'>
-<span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='443' data-hn-time='1777563100'>
+<span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/04/30/top_stories_04302026#story-47964034'>Spain's parliament will act against massive IP blockages by LaLiga</a>
  <a class='hn-top-story-link' href='https://www.democrata.es/en/politics/congress-and-senate/congress-will-act-against-massive-ip-blockages-by-laliga/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>西班牙议会将对 LaLiga 的大规模 IP 阻断采取行动</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.7</span> <span class='hn-top-story-score'>&#9650; 364</span> <span class='hn-top-story-comments'>&#128172; 162</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 443</span> <span class='hn-top-story-comments'>&#128172; 181</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='289' data-hn-time='1777565366'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='247' data-hn-time='1777578020'>
+<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/30/top_stories_04302026#story-47967262'>LinkedIn scans for 6,278 extensions and encrypts the results into every request</a>
+ <a class='hn-top-story-link' href='https://404privacy.com/blog/linkedin-is-scanning-your-browser-extensions-this-is-how-they-use-the-data/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>LinkedIn 对浏览器扩展进行大规模扫描并将结果加密到每次请求中</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 247</span> <span class='hn-top-story-comments'>&#128172; 98</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Web</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='245' data-hn-time='1777578153'>
+<span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/30/top_stories_04302026#story-47967289'>U.S. Senators Vote to Ban Themselves from Trading on Prediction Markets</a>
+ <a class='hn-top-story-link' href='https://www.wsj.com/politics/policy/senators-vote-to-ban-themselves-from-trading-on-prediction-markets-ae4535dd' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>美国参议员投票禁止自己在预测市场交易</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 245</span> <span class='hn-top-story-comments'>&#128172; 91</span> <span class='hn-top-story-tag'>Politics</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='2069' data-hn-time='1777473259'>
 <span class='hn-top-story-rank'>9</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/04/30/top_stories_04302026#story-47949027'>Zed 1.0</a>
+ <a class='hn-top-story-link' href='https://zed.dev/blog/zed-1-0' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Zed 1.0 发布</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 2069</span> <span class='hn-top-story-comments'>&#128172; 671</span> <span class='hn-top-story-tag'>Programming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='359' data-hn-time='1777565366'>
+<span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/04/30/top_stories_04302026#story-47964617'>Shai-Hulud Themed Malware Found in the PyTorch Lightning AI Training Library</a>
  <a class='hn-top-story-link' href='https://semgrep.dev/blog/2026/malicious-dependency-in-pytorch-lightning-used-for-ai-training/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>在 PyTorch Lightning 训练库中发现以 Shai-Hulud 为主题的恶意依赖</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.0</span> <span class='hn-top-story-score'>&#9650; 289</span> <span class='hn-top-story-comments'>&#128172; 91</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='445' data-hn-time='1777554462'>
-<span class='hn-top-story-rank'>10</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/04/30/top_stories_04302026#story-47961838'>Meta in row after workers who saw smart glasses users having sex lose jobs</a>
- <a class='hn-top-story-link' href='https://www.bbc.com/news/articles/c5y7yvgy0w6o' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Meta 因目睹智能眼镜用户性行为而解雇员工引发争议</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.4</span> <span class='hn-top-story-score'>&#9650; 445</span> <span class='hn-top-story-comments'>&#128172; 339</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Career</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 359</span> <span class='hn-top-story-comments'>&#128172; 123</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -164,7 +164,7 @@ Your browser does not support the audio element.
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/04/30/top_stories_04302026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>24</b> <span class="hn-row-sep">·</span> AI <b>18</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>21</b> <span class="hn-row-sep">·</span> Open Source <b>19</b></span>
 </a>
 </div>
 </div>
