@@ -4,42 +4,137 @@
     "source": "https://news.ycombinator.com/",
     "api": "https://github.com/HackerNews/API",
     "count_requested": 50,
-    "count_written": 50,
-    "reused_same_day": 0,
-    "reused_cross_day": 34,
-    "new_llm_enriched": 16,
-    "scrape_time_display": "01:20, May 01, 2026 (PDT)",
+    "count_written": 68,
+    "reused_same_day": 32,
+    "reused_cross_day": 1,
+    "new_llm_enriched": 15,
+    "scrape_time_display": "07:55, May 01, 2026 (PDT)",
     "timezone": "America/Los_Angeles",
     "date_dir": "2026/05/01",
     "content_date": "2026-05-01",
-    "run_time_local": "01:20, May 01, 2026 (PDT)",
-    "run_time_utc": "2026-05-01 08:20:56 UTC",
+    "run_time_local": "07:55, May 01, 2026 (PDT)",
+    "run_time_utc": "2026-05-01 14:55:38 UTC",
     "incremental": true,
     "stories_max": 100,
-    "hot_score_time_utc": "2026-05-01 08:22:22 UTC"
+    "hot_score_time_utc": "2026-05-01 14:57:03 UTC"
   },
   "items": [
     {
-      "title_en": "Can I disable all data collection from my vehicle?",
-      "url": "https://rivian.com/support/article/can-i-disable-all-data-collection-from-my-vehicle",
-      "title_zh": "我能否完全禁用车辆的数据收集？",
-      "created_display": "Created: Apr 30, 2026 / 13:27 PT",
-      "image_url": "https://media.rivian.com/image/upload/f_auto,q_auto/v1695930282/rivian-com/default-riv-com-sharing-image_gjg8mw.jpg",
-      "summary_en": "Car makers generally allow opting out of some data collection, but completely disabling telemetry is often not possible due to safety, features, and updates. The Rivian guidance illustrates what can be turned off and what remains required for core functions like safety and navigation.",
-      "summary_zh": "多数车企允许关闭某些数据收集，但完全禁用遥测往往因安全性、功能性和更新需求而受限。Rivian 的指南显示哪些数据可以关闭、哪些仍然被收集用于安全与导航等核心功能。",
+      "title_en": "Apple accidentally left Claude.md files Apple Support app",
+      "url": "https://xcancel.com/aaronp613/status/2049986504617820551",
+      "title_zh": "苹果意外在 Apple Support 应用中暴露 Claude.md 文件",
+      "created_display": "Created: May 01, 2026 / 04:08 PT",
+      "image_url": "https://pbs.twimg.com/media/HHMDhzqXEAATAX9.jpg",
+      "summary_en": "Apple left Claude.md files exposed in the Apple Support app, risking exposure of internal docs. The incident points to misconfigurations in asset hosting and the importance of strict access controls in software packaging.",
+      "summary_zh": "苹果支持应用中意外暴露了内部 Claude.md 文件，可能暴露敏感文档。此事件凸显资源配置失误可能带来的信息泄露，以及在应用打包中加强访问控制的必要性。",
       "hn": {
-        "id": 47967786,
+        "id": 47973378,
         "type": "story",
-        "by": "Cider9986",
-        "score": 613,
-        "descendants": 246,
-        "time": 1777580842,
-        "comments_url": "https://news.ycombinator.com/item?id=47967786"
+        "by": "andruby",
+        "score": 226,
+        "descendants": 162,
+        "time": 1777633712,
+        "comments_url": "https://news.ycombinator.com/item?id=47973378"
+      },
+      "hot_score": 9.48,
+      "tags": [
+        "Security",
+        "Privacy",
+        "AI"
+      ]
+    },
+    {
+      "title_en": "Your Website Is Not for You",
+      "url": "https://websmith.studio/blog/your-website-is-not-for-you/",
+      "title_zh": "你的网站不是为你自己设计的",
+      "created_display": "Created: May 01, 2026 / 04:08 PT",
+      "image_url": null,
+      "summary_en": "Design decisions should serve users, not the creator. The piece emphasizes user-centered UX, urging clear content, accessible navigation, and task-focused flows, with practical cues to measure success from a user’s point of view.",
+      "summary_zh": "设计决策应以用户为中心，而非以设计者为中心。文章强调提升可用性、清晰信息结构和以用户任务为导向的体验，并给出从用户角度评估成效的实用建议。",
+      "hn": {
+        "id": 47973376,
+        "type": "story",
+        "by": "pumbaa",
+        "score": 147,
+        "descendants": 98,
+        "time": 1777633700,
+        "comments_url": "https://news.ycombinator.com/item?id=47973376"
+      },
+      "hot_score": 6.15,
+      "tags": [
+        "Design",
+        "Web"
+      ]
+    },
+    {
+      "title_en": "Show HN: WhatCable, a tiny menu bar app for inspecting USB-C cables",
+      "url": "https://github.com/darrylmorley/whatcable",
+      "title_zh": "Show HN：WhatCable——用于查看 USB-C 电缆的小型菜单栏应用",
+      "created_display": "Created: May 01, 2026 / 01:43 PT",
+      "image_url": "https://repository-images.githubusercontent.com/1226286910/faabb9c8-772f-43d0-8643-57d90b45f5b2",
+      "summary_en": "WhatCable is a tiny macOS menu-bar app that inspects USB-C cables to report capabilities like power delivery and alt-mode support. It demonstrates how lightweight utilities can help developers verify hardware compatibility.",
+      "summary_zh": "WhatCable 是一个极简的 macOS 菜单栏应用，可检查 USB-C 电缆的供电、替代模式等能力，帮助开发者快速核对硬件兼容性。",
+      "hn": {
+        "id": 47972511,
+        "type": "story",
+        "by": "sleepingNomad",
+        "score": 240,
+        "descendants": 84,
+        "time": 1777625025,
+        "comments_url": "https://news.ycombinator.com/item?id=47972511"
       },
       "tags": [
-        "Privacy"
+        "Show HN",
+        "Programming",
+        "Hardware"
       ],
-      "hot_score": 5.35
+      "hot_score": 5.39
+    },
+    {
+      "title_en": "Grok 4.3",
+      "url": "https://docs.x.ai/developers/models/grok-4.3",
+      "title_zh": "Grok 4.3",
+      "created_display": "Created: May 01, 2026 / 01:29 PT",
+      "image_url": "https://docs.x.ai/api/og?t=eyJ0aXRsZSI6Ikdyb2sgNC4zIiwidiI6IjMiLCJzY29wZSI6ImRldmVsb3BlcnMiLCJzZWN0aW9uIjoiTW9kZWxzIGFuZCBQcmljaW5nIn0.SMidkHaGudRzuawDgM_H4n4Y3WQgd7xcEmaQjlFarcw",
+      "summary_en": "Grok 4.3 is the latest release of the Grok model family, offering updates to its model API and capabilities for developers building on the platform.",
+      "summary_zh": "Grok 4.3 是 Grok 模型家族的最新版本，为在该平台上构建应用的开发者带来 API 与能力的更新。",
+      "hn": {
+        "id": 47972447,
+        "type": "story",
+        "by": "simianwords",
+        "score": 222,
+        "descendants": 318,
+        "time": 1777624171,
+        "comments_url": "https://news.ycombinator.com/item?id=47972447"
+      },
+      "tags": [
+        "AI",
+        "Programming"
+      ],
+      "hot_score": 4.73
+    },
+    {
+      "title_en": "After dissing Anthropic for limiting Mythos, OpenAI restricts access to Cyber",
+      "url": "https://techcrunch.com/2026/04/30/after-dissing-anthropic-for-limiting-mythos-openai-restricts-access-to-cyber-too/",
+      "title_zh": "在批评 Anthropic 对 Mythos 的限制后，OpenAI 也收紧了 Cyber 的访问",
+      "created_display": "Created: May 01, 2026 / 03:28 PT",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/04/Screenshot-2026-04-14-at-7.00.44-PM.png?resize=1200,783",
+      "summary_en": "OpenAI tightened access to Cyber after publicly criticizing Anthropic over Mythos limits, underscoring how platform-controlled model access shapes competition and developer workflows. The move signals ongoing consolidation of AI tooling access policies.",
+      "summary_zh": "在公开批评 Anthropic 对 Mythos 的限制后，OpenAI 也收紧了 Cyber 的访问权限，凸显平台对模型访问的控制如何影响竞争格局和开发者工作流。此举预示着 AI 工具访问政策的持续收紧。",
+      "hn": {
+        "id": 47973108,
+        "type": "story",
+        "by": "gbourne1",
+        "score": 115,
+        "descendants": 90,
+        "time": 1777631292,
+        "comments_url": "https://news.ycombinator.com/item?id=47973108"
+      },
+      "hot_score": 3.94,
+      "tags": [
+        "AI",
+        "Business"
+      ]
     },
     {
       "title_en": "Claude Code refuses requests or charges extra if your commits mention \"OpenClaw\"",
@@ -53,37 +148,61 @@
         "id": 47963204,
         "type": "story",
         "by": "elmean",
-        "score": 1131,
-        "descendants": 615,
+        "score": 1235,
+        "descendants": 680,
         "time": 1777559818,
         "comments_url": "https://news.ycombinator.com/item?id=47963204"
       },
       "tags": [
-        "AI"
+        "AI",
+        "Programming"
       ],
-      "hot_score": 5.26
+      "hot_score": 3.42
     },
     {
-      "title_en": "Apple Says Mac Studio and Mac Mini Will Be in Short Supply for Months",
-      "url": "https://www.macrumors.com/2026/04/30/mac-studio-mac-mini-constrained-months/",
-      "title_zh": "苹果称 Mac Studio 与 Mac Mini 将在数月内短缺",
-      "created_display": "Created: Apr 30, 2026 / 23:20 PT",
-      "image_url": "https://images.macrumors.com/t/F7gwDgXGoRIlK9uUFsivYREvyZs=/2000x/article-new/2025/11/mac-studio-purple.jpg",
-      "summary_en": "Apple has announced that Mac Studio and Mac Mini will be in short supply for months, signaling ongoing supply-chain constraints despite strong demand. The shortage could affect buyers, developers, and upgrade plans, and hints at broader pressures in the semiconductor and logistics ecosystem. It may impact pacing of new product workflows and budgeting for teams.",
-      "summary_zh": "苹果宣布 Mac Studio 和 Mac Mini 将在数月内短缺，表明需求强劲下供应链仍然受限。缺货可能影响买家、开发者及升级计划，也反映出半导体与物流生态的更广泛压力，或将影响团队的工作节奏与预算分配。",
+      "title_en": "Running Adobe's 1991 PostScript Interpreter in the Browser",
+      "url": "https://www.pagetable.com/?p=1854",
+      "title_zh": "在浏览器中运行 Adobe 的 1991 年 PostScript 解释器",
+      "created_display": "Created: May 01, 2026 / 04:58 PT",
+      "image_url": "https://www.pagetable.com/docs/retro-ps/retro-ps.png",
+      "summary_en": "A project ports Adobe's 1991 PostScript interpreter to run in the browser, allowing faithful rendering of legacy PostScript documents without server-side tooling. It highlights the challenges of porting a vintage interpreter to modern environments and the performance/precision considerations involved. The effort underscores the value of emulation for digital preservation and retro computing.",
+      "summary_zh": "一个将 Adobe 1991 年 PostScript 解释器移植到浏览器的项目，使老旧的 PostScript 文档能够在客户端渲染，避免对服务器端运行时的依赖。展示了把历史解释器带入现代运行时的挑战以及性能与精度的权衡。此工作凸显了在数字保存和复古计算领域，浏览器端仿真的重要性。",
       "hn": {
-        "id": 47971768,
+        "id": 47973755,
         "type": "story",
-        "by": "tosh",
-        "score": 65,
-        "descendants": 40,
-        "time": 1777616433,
-        "comments_url": "https://news.ycombinator.com/item?id=47971768"
+        "by": "ingve",
+        "score": 54,
+        "descendants": 13,
+        "time": 1777636691,
+        "comments_url": "https://news.ycombinator.com/item?id=47973755"
       },
-      "hot_score": 5.21,
+      "hot_score": 2.94,
       "tags": [
-        "Hardware"
+        "Programming",
+        "Web"
       ]
+    },
+    {
+      "title_en": "Can I disable all data collection from my vehicle?",
+      "url": "https://rivian.com/support/article/can-i-disable-all-data-collection-from-my-vehicle",
+      "title_zh": "我能否完全禁用车辆的数据收集？",
+      "created_display": "Created: Apr 30, 2026 / 13:27 PT",
+      "image_url": "https://media.rivian.com/image/upload/f_auto,q_auto/v1695930282/rivian-com/default-riv-com-sharing-image_gjg8mw.jpg",
+      "summary_en": "Car makers generally allow opting out of some data collection, but completely disabling telemetry is often not possible due to safety, features, and updates. The Rivian guidance illustrates what can be turned off and what remains required for core functions like safety and navigation.",
+      "summary_zh": "多数车企允许关闭某些数据收集，但完全禁用遥测往往因安全性、功能性和更新需求而受限。Rivian 的指南显示哪些数据可以关闭、哪些仍然被收集用于安全与导航等核心功能。",
+      "hn": {
+        "id": 47967786,
+        "type": "story",
+        "by": "Cider9986",
+        "score": 668,
+        "descendants": 284,
+        "time": 1777580842,
+        "comments_url": "https://news.ycombinator.com/item?id=47967786"
+      },
+      "tags": [
+        "Privacy"
+      ],
+      "hot_score": 2.91
     },
     {
       "title_en": "How Mark Klein told the EFF about Room 641A [book excerpt]",
@@ -97,16 +216,16 @@
         "id": 47965060,
         "type": "story",
         "by": "the-mitr",
-        "score": 574,
-        "descendants": 188,
+        "score": 655,
+        "descendants": 217,
         "time": 1777567260,
         "comments_url": "https://news.ycombinator.com/item?id=47965060"
       },
       "tags": [
         "Privacy",
-        "Security"
+        "Politics"
       ],
-      "hot_score": 3.25
+      "hot_score": 2.1
     },
     {
       "title_en": "Belgium stops decommissioning nuclear power plants",
@@ -120,83 +239,88 @@
         "id": 47961319,
         "type": "story",
         "by": "mpweiher",
-        "score": 805,
-        "descendants": 810,
+        "score": 839,
+        "descendants": 902,
         "time": 1777551434,
         "comments_url": "https://news.ycombinator.com/item?id=47961319"
       },
       "tags": [
         "Energy",
-        "Security"
-      ],
-      "hot_score": 3.06
-    },
-    {
-      "title_en": "For Linux kernel vulnerabilities, there is no heads-up to distributions",
-      "url": "https://www.openwall.com/lists/oss-security/2026/04/30/10",
-      "title_zh": "Linux 内核漏洞：对发行版没有事先通知",
-      "created_display": "Created: Apr 30, 2026 / 09:43 PT",
-      "image_url": "https://www.openwall.com/logo.png",
-      "summary_en": "Linux kernel vulnerability disclosures often fail to provide a formal heads-up to distributions, delaying patch adoption. The situation highlights gaps in how advisories propagate from researchers to downstream users, affecting enterprise risk management.",
-      "summary_zh": "Linux 内核漏洞的披露往往没有直接向发行版提供正式的事先通知，导致修补落地延迟。这暴露了研究人员、公告渠道与发行版维护之间的信息传递断层，影响企业的风险管理和修补节奏。",
-      "hn": {
-        "id": 47965108,
-        "type": "story",
-        "by": "ori_b",
-        "score": 474,
-        "descendants": 362,
-        "time": 1777567427,
-        "comments_url": "https://news.ycombinator.com/item?id=47965108"
-      },
-      "tags": [
-        "Security"
-      ],
-      "hot_score": 2.7
-    },
-    {
-      "title_en": "Spain's parliament will act against massive IP blockages by LaLiga",
-      "url": "https://www.democrata.es/en/politics/congress-and-senate/congress-will-act-against-massive-ip-blockages-by-laliga/",
-      "title_zh": "西班牙议会将对 LaLiga 的大规模 IP 阻断采取行动",
-      "created_display": "Created: Apr 30, 2026 / 08:31 PT",
-      "image_url": null,
-      "summary_en": "Spain's parliament plans to curb mass IP blockades pushed by La Liga, addressing concerns over overbroad blocks that can affect legitimate sites. The move signals a push for more measured, privacy-respecting enforcement while preserving anti-piracy aims. It highlights the tension between content protection and civil liberties in digital policy.",
-      "summary_zh": "西班牙议会计划限制 La Liga 推动的广泛 IP 阻断措施，纠正对合法站点和服务的过度封锁。此举旨在在实现反盗版目标的同时，推动更克制、尊重隐私的执法方式。",
-      "hn": {
-        "id": 47964034,
-        "type": "story",
-        "by": "akyuu",
-        "score": 479,
-        "descendants": 187,
-        "time": 1777563100,
-        "comments_url": "https://news.ycombinator.com/item?id=47964034"
-      },
-      "tags": [
         "Politics",
-        "Privacy"
+        "Security"
       ],
-      "hot_score": 2.42
+      "hot_score": 2.0
     },
     {
-      "title_en": "It’s Toasted",
-      "url": "https://yadin.com/notes/toasted/",
-      "title_zh": "它已烧焦",
-      "created_display": "Created: Apr 30, 2026 / 23:34 PT",
-      "image_url": "https://yadin.com/notes/wp-content/uploads/2026/05/Lucky_Strike_ad_1926-10-wide-1024x576.jpg",
-      "summary_en": "A short note signaling that something has failed or is irreparably broken.",
-      "summary_zh": "一则简短笔记表示某个项目或系统已失败，无法挽回。",
+      "title_en": "Show HN: Perfect Bluetooth MIDI for Windows",
+      "url": "https://news.ycombinator.com/item?id=47972888",
+      "title_zh": "Show HN：Windows 上的完美蓝牙 MIDI",
+      "created_display": "Created: May 01, 2026 / 02:52 PT",
+      "image_url": "https://news.ycombinator.com/y18.svg",
+      "summary_en": "Windows finally achieves reliable Bluetooth MIDI performance with low latency and stable throughput, comparable to native platforms.",
+      "summary_zh": "Windows 的蓝牙 MIDI 性能实现了稳定低延迟，与原生平台相当。该进展提升了 Windows 上的跨平台音乐工作流，解决长期存在的兼容性难题。",
       "hn": {
-        "id": 47971830,
+        "id": 47972888,
         "type": "story",
-        "by": "dryadin",
-        "score": 27,
-        "descendants": 15,
-        "time": 1777617294,
-        "comments_url": "https://news.ycombinator.com/item?id=47971830"
+        "by": "mayerwin",
+        "score": 68,
+        "descendants": 16,
+        "time": 1777629135,
+        "comments_url": "https://news.ycombinator.com/item?id=47972888"
       },
-      "hot_score": 2.36,
+      "hot_score": 1.98,
       "tags": [
-        "Programming"
+        "Show HN",
+        "Programming",
+        "Hardware"
       ]
+    },
+    {
+      "title_en": "NHS Goes to War Against Open Source",
+      "url": "https://shkspr.mobi/blog/2026/05/nhs-goes-to-war-against-open-source/",
+      "title_zh": "NHS 与开源的一场战争",
+      "created_display": "Created: May 01, 2026 / 04:53 PT",
+      "image_url": "https://shkspr.mobi/blog/wp-content/uploads/2026/04/SDLC-8.webp",
+      "summary_en": "Critiques NHS policies that hinder open-source software adoption, arguing it stifles innovation, vendor neutrality, and security benefits from community-driven tooling. Calls for policy reforms to embrace open-source benefits in healthcare IT.",
+      "summary_zh": "批评 NHS 的做法，认为其对开源软件的限制阻碍创新、供应商中立性以及社区驱动工具的安全收益，呼吁在医疗 IT 中重新评估政策以拥抱开源的潜在好处。",
+      "hn": {
+        "id": 47973710,
+        "type": "story",
+        "by": "edent",
+        "score": 35,
+        "descendants": 3,
+        "time": 1777636402,
+        "comments_url": "https://news.ycombinator.com/item?id=47973710"
+      },
+      "hot_score": 1.84,
+      "tags": [
+        "Open Source",
+        "Security"
+      ]
+    },
+    {
+      "title_en": "Canonical/Ubuntu have been under DDoS for more than 15h",
+      "url": "https://status.canonical.com/#/incident/KNms6QK9ewuzz-7xUsPsNylV20jEt5kyKsd8A-3ptQEHpOd8VQ40ZQs-KD81fboQXeGZB94okNHdHBGlCv58Sw==",
+      "title_zh": "Canonical/Ubuntu 遭遇超过15小时的 DDoS 攻击",
+      "created_display": "Created: May 01, 2026 / 00:44 PT",
+      "image_url": null,
+      "summary_en": "Canonical and Ubuntu infrastructure faced a sustained DDoS attack lasting more than 15 hours, disrupting services and user access. The incident underscores the need for robust DDoS defenses and incident response in high-visibility open-source ecosystems.",
+      "summary_zh": "Canonical 与 Ubuntu 的基础设施遭受持续超过15小时的 DDoS 攻击，影响服务与用户访问。事件凸显在高可见性开源生态中部署强大防护和应急响应能力的重要性。",
+      "hn": {
+        "id": 47972213,
+        "type": "story",
+        "by": "jtlebigot",
+        "score": 100,
+        "descendants": 34,
+        "time": 1777621457,
+        "comments_url": "https://news.ycombinator.com/item?id=47972213"
+      },
+      "tags": [
+        "Security",
+        "Open Source",
+        "DevOps"
+      ],
+      "hot_score": 1.82
     },
     {
       "title_en": "Zed 1.0",
@@ -210,15 +334,130 @@
         "id": 47949027,
         "type": "story",
         "by": "salkahfi",
-        "score": 2077,
-        "descendants": 674,
+        "score": 2094,
+        "descendants": 677,
         "time": 1777473259,
         "comments_url": "https://news.ycombinator.com/item?id=47949027"
       },
       "tags": [
         "Programming"
       ],
-      "hot_score": 2.3
+      "hot_score": 1.81
+    },
+    {
+      "title_en": "For Linux kernel vulnerabilities, there is no heads-up to distributions",
+      "url": "https://www.openwall.com/lists/oss-security/2026/04/30/10",
+      "title_zh": "Linux 内核漏洞：对发行版没有事先通知",
+      "created_display": "Created: Apr 30, 2026 / 09:43 PT",
+      "image_url": "https://www.openwall.com/logo.png",
+      "summary_en": "Linux kernel vulnerability disclosures often fail to provide a formal heads-up to distributions, delaying patch adoption. The situation highlights gaps in how advisories propagate from researchers to downstream users, affecting enterprise risk management.",
+      "summary_zh": "Linux 内核漏洞的披露往往没有直接向发行版提供正式的事先通知，导致修补落地延迟。这暴露了研究人员、公告渠道与发行版维护之间的信息传递断层，影响企业的风险管理和修补节奏。",
+      "hn": {
+        "id": 47965108,
+        "type": "story",
+        "by": "ori_b",
+        "score": 559,
+        "descendants": 471,
+        "time": 1777567427,
+        "comments_url": "https://news.ycombinator.com/item?id=47965108"
+      },
+      "tags": [
+        "Security"
+      ],
+      "hot_score": 1.8
+    },
+    {
+      "title_en": "Spain's parliament will act against massive IP blockages by LaLiga",
+      "url": "https://www.democrata.es/en/politics/congress-and-senate/congress-will-act-against-massive-ip-blockages-by-laliga/",
+      "title_zh": "西班牙议会将对 LaLiga 的大规模 IP 阻断采取行动",
+      "created_display": "Created: Apr 30, 2026 / 08:31 PT",
+      "image_url": null,
+      "summary_en": "Spain's parliament plans to curb mass IP blockades pushed by La Liga, addressing concerns over overbroad blocks that can affect legitimate sites. The move signals a push for more measured, privacy-respecting enforcement while preserving anti-piracy aims. It highlights the tension between content protection and civil liberties in digital policy.",
+      "summary_zh": "西班牙议会计划限制 La Liga 推动的广泛 IP 阻断措施，纠正对合法站点和服务的过度封锁。此举旨在在实现反盗版目标的同时，推动更克制、尊重隐私的执法方式。",
+      "hn": {
+        "id": 47964034,
+        "type": "story",
+        "by": "akyuu",
+        "score": 495,
+        "descendants": 197,
+        "time": 1777563100,
+        "comments_url": "https://news.ycombinator.com/item?id=47964034"
+      },
+      "tags": [
+        "Politics",
+        "Privacy"
+      ],
+      "hot_score": 1.46
+    },
+    {
+      "title_en": "Apple Says Mac Studio and Mac Mini Will Be in Short Supply for Months",
+      "url": "https://www.macrumors.com/2026/04/30/mac-studio-mac-mini-constrained-months/",
+      "title_zh": "苹果称 Mac Studio 与 Mac Mini 将在数月内短缺",
+      "created_display": "Created: Apr 30, 2026 / 23:20 PT",
+      "image_url": "https://images.macrumors.com/t/F7gwDgXGoRIlK9uUFsivYREvyZs=/2000x/article-new/2025/11/mac-studio-purple.jpg",
+      "summary_en": "Apple has announced that Mac Studio and Mac Mini will be in short supply for months, signaling ongoing supply-chain constraints despite strong demand. The shortage could affect buyers, developers, and upgrade plans, and hints at broader pressures in the semiconductor and logistics ecosystem. It may impact pacing of new product workflows and budgeting for teams.",
+      "summary_zh": "苹果宣布 Mac Studio 和 Mac Mini 将在数月内短缺，表明需求强劲下供应链仍然受限。缺货可能影响买家、开发者及升级计划，也反映出半导体与物流生态的更广泛压力，或将影响团队的工作节奏与预算分配。",
+      "hn": {
+        "id": 47971768,
+        "type": "story",
+        "by": "tosh",
+        "score": 103,
+        "descendants": 92,
+        "time": 1777616433,
+        "comments_url": "https://news.ycombinator.com/item?id=47971768"
+      },
+      "tags": [
+        "Business",
+        "Hardware"
+      ],
+      "hot_score": 1.45
+    },
+    {
+      "title_en": "A beginner's guide to Sourcehut (2025)",
+      "url": "https://btxx.org/posts/beginners-guide-sourcehut/",
+      "title_zh": "Sourcehut 初学者指南（2025）",
+      "created_display": "Created: May 01, 2026 / 03:23 PT",
+      "image_url": "https://btxx.org/public/images/sourcehut-patches-list.webp",
+      "summary_en": "A practical tour of Sourcehut's open, lean toolchain for hosting code, builds, and mailing lists, with emphasis on self-hosting and privacy-friendly workflows. The guide contrasts Sourcehut with centralized platforms and offers steps to get started.",
+      "summary_zh": "这份指南介绍 Sourcehut 的开源、简洁的代码托管、构建和邮件列表工具链，强调自托管与隐私友好型工作流，并给出上手步骤。",
+      "hn": {
+        "id": 47973084,
+        "type": "story",
+        "by": "bradley_taunt",
+        "score": 43,
+        "descendants": 13,
+        "time": 1777631032,
+        "comments_url": "https://news.ycombinator.com/item?id=47973084"
+      },
+      "hot_score": 1.42,
+      "tags": [
+        "Open Source",
+        "DevOps",
+        "Privacy"
+      ]
+    },
+    {
+      "title_en": "The Rotary Un-Smartphone (2023)",
+      "url": "https://skysedge.com/telecom/RUSP/index.html",
+      "title_zh": "旋转式无智能手机（2023）",
+      "created_display": "Created: May 01, 2026 / 02:39 PT",
+      "image_url": "https://www.skysedge.us/images/favicon.png",
+      "summary_en": "The Rotary Un-Smartphone project revisits a rotary dial experience as a minimal, privacy-focused device, eschewing modern apps for a tactile, slower form of communication. It examines design choices that prioritize user agency and a lighter digital footprint.",
+      "summary_zh": "通过重新回到拨号轮体验，该项目打造了一款低隐私、极简的设备，放弃大量应用，强调更具触觉和节奏的沟通方式。设计选择聚焦于提升用户自主性与减轻数字足迹。",
+      "hn": {
+        "id": 47972807,
+        "type": "story",
+        "by": "tzury",
+        "score": 51,
+        "descendants": 10,
+        "time": 1777628347,
+        "comments_url": "https://news.ycombinator.com/item?id=47972807"
+      },
+      "hot_score": 1.4,
+      "tags": [
+        "Privacy",
+        "Design"
+      ]
     },
     {
       "title_en": "Shai-Hulud Themed Malware Found in the PyTorch Lightning AI Training Library",
@@ -232,8 +471,8 @@
         "id": 47964617,
         "type": "story",
         "by": "j12y",
-        "score": 389,
-        "descendants": 133,
+        "score": 430,
+        "descendants": 158,
         "time": 1777565366,
         "comments_url": "https://news.ycombinator.com/item?id=47964617"
       },
@@ -241,29 +480,7 @@
         "Security",
         "AI"
       ],
-      "hot_score": 2.09
-    },
-    {
-      "title_en": "OpenWarp",
-      "url": "https://openwarp.zerx.dev",
-      "title_zh": "OpenWarp",
-      "created_display": "Created: Apr 30, 2026 / 19:10 PT",
-      "image_url": null,
-      "summary_en": "OpenWarp appears to be an open-source project focused on warp-themed tooling.",
-      "summary_zh": "OpenWarp 看起来是一个聚焦于 warp 相关工具的开源项目。",
-      "hn": {
-        "id": 47970622,
-        "type": "story",
-        "by": "zero-lab",
-        "score": 81,
-        "descendants": 73,
-        "time": 1777601446,
-        "comments_url": "https://news.ycombinator.com/item?id=47970622"
-      },
-      "tags": [
-        "Open Source"
-      ],
-      "hot_score": 1.81
+      "hot_score": 1.33
     },
     {
       "title_en": "How an oil refinery works",
@@ -277,39 +494,17 @@
         "id": 47962548,
         "type": "story",
         "by": "chmaynard",
-        "score": 408,
-        "descendants": 124,
+        "score": 471,
+        "descendants": 164,
         "time": 1777557260,
         "comments_url": "https://news.ycombinator.com/item?id=47962548"
       },
       "tags": [
         "Energy",
+        "Science",
         "DevOps"
       ],
-      "hot_score": 1.78
-    },
-    {
-      "title_en": "Show HN: Winpodx – run Windows apps on Linux as native windows",
-      "url": "https://github.com/kernalix7/winpodx",
-      "title_zh": "Show HN：Winpodx——在 Linux 上以本地 Windows 窗口运行 Windows 应用",
-      "created_display": "Created: Apr 30, 2026 / 19:23 PT",
-      "image_url": "https://opengraph.githubassets.com/9a66e0c39b00187ada654af245c6f07bd2e828e67ff2099fa7180179622d149f/kernalix7/winpodx",
-      "summary_en": "Show HN: Winpodx enables Windows apps to run on Linux with native-looking Windows windows, illustrating progress in cross-OS app compatibility. The project demonstrates how far toolchains and UI integration have come for Linux users.",
-      "summary_zh": "Show HN：Winpodx 让 Windows 应用在 Linux 上以原生 Windows 窗口显示运行，体现跨操作系统应用兼容性的进展。该项目展示了 Linux 用户在工具链和 UI 集成方面的最新进展。",
-      "hn": {
-        "id": 47970690,
-        "type": "story",
-        "by": "kernalix7",
-        "score": 74,
-        "descendants": 38,
-        "time": 1777602223,
-        "comments_url": "https://news.ycombinator.com/item?id=47970690"
-      },
-      "tags": [
-        "Show HN",
-        "Programming"
-      ],
-      "hot_score": 1.74
+      "hot_score": 1.24
     },
     {
       "title_en": "Mozilla's opposition to Chrome's Prompt API",
@@ -332,7 +527,53 @@
         "Privacy",
         "Web"
       ],
-      "hot_score": 1.67
+      "hot_score": 1.12
+    },
+    {
+      "title_en": "OpenWarp",
+      "url": "https://openwarp.zerx.dev",
+      "title_zh": "OpenWarp",
+      "created_display": "Created: Apr 30, 2026 / 19:10 PT",
+      "image_url": null,
+      "summary_en": "OpenWarp appears to be an open-source project focused on warp-themed tooling.",
+      "summary_zh": "OpenWarp 看起来是一个聚焦于 warp 相关工具的开源项目。",
+      "hn": {
+        "id": 47970622,
+        "type": "story",
+        "by": "zero-lab",
+        "score": 143,
+        "descendants": 105,
+        "time": 1777601446,
+        "comments_url": "https://news.ycombinator.com/item?id=47970622"
+      },
+      "tags": [
+        "Open Source"
+      ],
+      "hot_score": 1.12
+    },
+    {
+      "title_en": "Advanced Quantization Algorithm for LLMs",
+      "url": "https://github.com/intel/auto-round",
+      "title_zh": "面向大语言模型的高级量化算法",
+      "created_display": "Created: May 01, 2026 / 02:10 PT",
+      "image_url": "https://opengraph.githubassets.com/67df602be56917fc94933f6ec25306fc6999e4881d962c672a5b8aa5795a3ca2/intel/auto-round",
+      "summary_en": "Auto-Round introduces a sophisticated quantization approach for large language models, preserving accuracy while shrinking model size and speeding up inference. The technique promises meaningful efficiency gains for CPU/GPU deployment and lowers the cost of running large models.",
+      "summary_zh": "Auto-Round 提出了一种面向大语言模型的高级量化方法，在不显著损失精度的前提下缩小模型规模并加速推理。该技术有望在 CPU/GPU 部署中带来显著的效率提升，降低大模型的运营成本。",
+      "hn": {
+        "id": 47972659,
+        "type": "story",
+        "by": "lastdong",
+        "score": 43,
+        "descendants": 8,
+        "time": 1777626602,
+        "comments_url": "https://news.ycombinator.com/item?id=47972659"
+      },
+      "hot_score": 1.04,
+      "tags": [
+        "AI",
+        "Data",
+        "Hardware"
+      ]
     },
     {
       "title_en": "I built a Game Boy emulator in F#",
@@ -346,39 +587,85 @@
         "id": 47965503,
         "type": "story",
         "by": "elvis70",
-        "score": 270,
-        "descendants": 63,
+        "score": 307,
+        "descendants": 71,
         "time": 1777569261,
         "comments_url": "https://news.ycombinator.com/item?id=47965503"
       },
       "tags": [
-        "Programming",
         "Gaming",
+        "Programming",
         "Hardware"
       ],
-      "hot_score": 1.62
+      "hot_score": 1.03
     },
     {
-      "title_en": "CPanel and WHM Authentication Bypass – CVE-2026-41940",
-      "url": "https://labs.watchtowr.com/the-internet-is-falling-down-falling-down-falling-down-cpanel-whm-authentication-bypass-cve-2026-41940/",
-      "title_zh": "CPanel 与 WHM 身份认证绕过漏洞——CVE-2026-41940",
-      "created_display": "Created: Apr 30, 2026 / 15:48 PT",
-      "image_url": "https://storage.ghost.io/c/a0/dc/a0dcbbe4-0ae7-4d7e-90f7-ebbc3a0f5a84/content/images/size/w1200/2026/04/Group-8730--2-.png",
-      "summary_en": "CPanel/WHM authentication bypass CVE-2026-41940 is a critical flaw affecting millions of servers; attackers can bypass login and gain control. Patching and applying mitigations is essential to protect sites.",
-      "summary_zh": "CPanel/WHM 的 CVE-2026-41940 是一项影响大量服务器的关键漏洞，攻击者可绕过身份验证获得控制权。迅速打补丁并应用缓解措施以保护站点。",
+      "title_en": "For first time since World War II, US national debt now larger than its economy",
+      "url": "https://fortune.com/2026/04/30/national-debt-larger-than-economy-gdp-ratio-100-percent/",
+      "title_zh": "自二战以来首次，美国国债规模超过其经济",
+      "created_display": "Created: May 01, 2026 / 05:09 PT",
+      "image_url": "https://fortune.com/img-assets/wp-content/uploads/2026/04/GettyImages-2273558901-e1777562513664.jpg?resize=1200,600",
+      "summary_en": "For the first time since WWII, the US debt exceeds its annual economic output, hitting 100% of GDP. The milestone signals mounting deficits, debt sustainability concerns, and potential macro implications for interest rates and tech funding.",
+      "summary_zh": "这是自二战以来的一个里程碑，美国国债规模首次达到并超过 GDP 的 100%，反映出日益增长的赤字与债务可持续性担忧，以及对利率和科技投资的潜在宏观影响。",
       "hn": {
-        "id": 47969288,
+        "id": 47973841,
         "type": "story",
-        "by": "zikani_03",
-        "score": 95,
-        "descendants": 32,
-        "time": 1777589331,
-        "comments_url": "https://news.ycombinator.com/item?id=47969288"
+        "by": "Geekette",
+        "score": 16,
+        "descendants": 5,
+        "time": 1777637349,
+        "comments_url": "https://news.ycombinator.com/item?id=47973841"
       },
+      "hot_score": 0.89,
       "tags": [
-        "Security"
-      ],
-      "hot_score": 1.15
+        "Finance",
+        "Business"
+      ]
+    },
+    {
+      "title_en": "Our agent found a bug with WireGuard in Google Kubernetes Engine",
+      "url": "https://lovable.dev/blog/hunting-networking-bugs-in-kubernetes",
+      "title_zh": "我们的代理在 Google Kubernetes Engine 中发现 WireGuard 的一个 bug",
+      "created_display": "Created: May 01, 2026 / 01:14 PT",
+      "image_url": "https://lovable.dev/content/news/covers/blog-hunting-networking-bugs-in-kubernetes.jpg",
+      "summary_en": "Our agent discovered a bug in WireGuard integration within Google Kubernetes Engine, detailing symptoms and the debugging process. The finding illustrates how networking in managed Kubernetes can produce subtle VPN issues that require careful triage.",
+      "summary_zh": "在 Google Kubernetes Engine 中发现了 WireGuard 的一个 bug，描述症状与调试过程。该发现揭示了托管 Kubernetes 的网络层可能出现的微妙 VPN 问题，需要细致的排错。",
+      "hn": {
+        "id": 47972367,
+        "type": "story",
+        "by": "vikeri",
+        "score": 42,
+        "descendants": 20,
+        "time": 1777623247,
+        "comments_url": "https://news.ycombinator.com/item?id=47972367"
+      },
+      "hot_score": 0.83,
+      "tags": [
+        "Programming",
+        "DevOps"
+      ]
+    },
+    {
+      "title_en": "A Letter from Dijkstra on APL",
+      "url": "https://www.jsoftware.com/papers/Dijkstra_Letter.htm",
+      "title_zh": "迪克斯特拉关于 APL 的来信",
+      "created_display": "Created: May 01, 2026 / 04:42 PT",
+      "image_url": null,
+      "summary_en": "Dijkstra offers a thoughtful take on APL, weighing its expressive power against readability and maintainability. The letter context sheds light on how APL influenced early language design and the ongoing debate between conciseness and clarity.",
+      "summary_zh": "迪克斯特拉对 APL 的表达力与可读性之间的权衡提出独到见解，兼具赞赏与批评。此信件为早期编程语言设计的历史提供了洞见，展示简洁性与清晰度之间的张力。",
+      "hn": {
+        "id": 47973635,
+        "type": "story",
+        "by": "tosh",
+        "score": 17,
+        "descendants": 8,
+        "time": 1777635732,
+        "comments_url": "https://news.ycombinator.com/item?id=47973635"
+      },
+      "hot_score": 0.81,
+      "tags": [
+        "Programming"
+      ]
     },
     {
       "title_en": "I aggregated 28 US Government auction sites into one search",
@@ -392,40 +679,62 @@
         "id": 47961378,
         "type": "story",
         "by": "scarsam",
-        "score": 277,
-        "descendants": 77,
+        "score": 291,
+        "descendants": 81,
         "time": 1777551893,
         "comments_url": "https://news.ycombinator.com/item?id=47961378"
       },
       "tags": [
         "Data",
+        "Web",
         "Politics"
       ],
-      "hot_score": 1.06
+      "hot_score": 0.7
     },
     {
-      "title_en": "Canonical/Ubuntu have been under DDoS for more than 15h",
-      "url": "https://status.canonical.com/#/incident/KNms6QK9ewuzz-7xUsPsNylV20jEt5kyKsd8A-3ptQEHpOd8VQ40ZQs-KD81fboQXeGZB94okNHdHBGlCv58Sw==",
-      "title_zh": "Canonical/Ubuntu 遭遇超过15小时的 DDoS 攻击",
-      "created_display": "Created: May 01, 2026 / 00:44 PT",
-      "image_url": null,
-      "summary_en": "Canonical and Ubuntu infrastructure faced a sustained DDoS attack lasting more than 15 hours, disrupting services and user access. The incident underscores the need for robust DDoS defenses and incident response in high-visibility open-source ecosystems.",
-      "summary_zh": "Canonical 与 Ubuntu 的基础设施遭受持续超过15小时的 DDoS 攻击，影响服务与用户访问。事件凸显在高可见性开源生态中部署强大防护和应急响应能力的重要性。",
+      "title_en": "CPanel and WHM Authentication Bypass – CVE-2026-41940",
+      "url": "https://labs.watchtowr.com/the-internet-is-falling-down-falling-down-falling-down-cpanel-whm-authentication-bypass-cve-2026-41940/",
+      "title_zh": "CPanel 与 WHM 身份认证绕过漏洞——CVE-2026-41940",
+      "created_display": "Created: Apr 30, 2026 / 15:48 PT",
+      "image_url": "https://storage.ghost.io/c/a0/dc/a0dcbbe4-0ae7-4d7e-90f7-ebbc3a0f5a84/content/images/size/w1200/2026/04/Group-8730--2-.png",
+      "summary_en": "CPanel/WHM authentication bypass CVE-2026-41940 is a critical flaw affecting millions of servers; attackers can bypass login and gain control. Patching and applying mitigations is essential to protect sites.",
+      "summary_zh": "CPanel/WHM 的 CVE-2026-41940 是一项影响大量服务器的关键漏洞，攻击者可绕过身份验证获得控制权。迅速打补丁并应用缓解措施以保护站点。",
       "hn": {
-        "id": 47972213,
+        "id": 47969288,
         "type": "story",
-        "by": "jtlebigot",
-        "score": 7,
-        "descendants": 0,
-        "time": 1777621457,
-        "comments_url": "https://news.ycombinator.com/item?id=47972213"
+        "by": "zikani_03",
+        "score": 130,
+        "descendants": 50,
+        "time": 1777589331,
+        "comments_url": "https://news.ycombinator.com/item?id=47969288"
       },
-      "hot_score": 1.05,
       "tags": [
-        "Security",
-        "Open Source",
-        "DevOps"
-      ]
+        "Security"
+      ],
+      "hot_score": 0.7
+    },
+    {
+      "title_en": "Granite 4.1: IBM's 8B Model Matching 32B MoE",
+      "url": "https://firethering.com/granite-4-1-ibm-open-source-model-family/",
+      "title_zh": "Granite 4.1：IBM 的 8B 模型与 32B MoE",
+      "created_display": "Created: Apr 30, 2026 / 03:31 PT",
+      "image_url": "https://firethering.com/wp-content/uploads/2026/04/Granite-4.1-IBMs-8B-Model-Is-Competing-With-Models-Four-Times-Its-Size.jpg",
+      "summary_en": "Granite 4.1 introduces open-source tooling for aligning an 8B base model with a 32B MoE (Mixture of Experts) architecture, enabling scalable inference and modular model design. It signals IBM's ongoing push to empower open AI tooling and explore mixture-of-experts approaches for efficiency.",
+      "summary_zh": "Granite 4.1 是一个开源模型家族，展示将一个 8B 基模型与 32B MoE 架构结合的能力，支持可扩展推理与模块化模型设计。体现 IBM 在开源 AI 工具与专家门控混合模型领域的持续探索。",
+      "hn": {
+        "id": 47960507,
+        "type": "story",
+        "by": "steveharing1",
+        "score": 298,
+        "descendants": 194,
+        "time": 1777545077,
+        "comments_url": "https://news.ycombinator.com/item?id=47960507"
+      },
+      "tags": [
+        "AI",
+        "Open Source"
+      ],
+      "hot_score": 0.64
     },
     {
       "title_en": "Honker – Durable queues, streams, pub/sub, and cron scheduler in a SQLite file",
@@ -445,77 +754,10 @@
         "comments_url": "https://news.ycombinator.com/item?id=47963316"
       },
       "tags": [
-        "Data",
-        "Open Source"
-      ],
-      "hot_score": 0.99
-    },
-    {
-      "title_en": "Granite 4.1: IBM's 8B Model Matching 32B MoE",
-      "url": "https://firethering.com/granite-4-1-ibm-open-source-model-family/",
-      "title_zh": "Granite 4.1：IBM 的 8B 模型与 32B MoE",
-      "created_display": "Created: Apr 30, 2026 / 03:31 PT",
-      "image_url": "https://firethering.com/wp-content/uploads/2026/04/Granite-4.1-IBMs-8B-Model-Is-Competing-With-Models-Four-Times-Its-Size.jpg",
-      "summary_en": "Granite 4.1 introduces open-source tooling for aligning an 8B base model with a 32B MoE (Mixture of Experts) architecture, enabling scalable inference and modular model design. It signals IBM's ongoing push to empower open AI tooling and explore mixture-of-experts approaches for efficiency.",
-      "summary_zh": "Granite 4.1 是一个开源模型家族，展示将一个 8B 基模型与 32B MoE 架构结合的能力，支持可扩展推理与模块化模型设计。体现 IBM 在开源 AI 工具与专家门控混合模型领域的持续探索。",
-      "hn": {
-        "id": 47960507,
-        "type": "story",
-        "by": "steveharing1",
-        "score": 289,
-        "descendants": 182,
-        "time": 1777545077,
-        "comments_url": "https://news.ycombinator.com/item?id=47960507"
-      },
-      "tags": [
-        "AI",
-        "Open Source"
-      ],
-      "hot_score": 0.95
-    },
-    {
-      "title_en": "Does Postgres Scale?",
-      "url": "https://www.dbos.dev/blog/benchmarking-workflow-execution-scalability-on-postgres",
-      "title_zh": "PostgreSQL 能否扩展？",
-      "created_display": "Created: Apr 30, 2026 / 11:45 PT",
-      "image_url": "https://cdn.prod.website-files.com/672411cbf038560468c9e68f/69ea2ef1c3fc50d09e3def99_Workflow-Execution-on-Postgres-Benchmark.png",
-      "summary_en": "A benchmark examines how well Postgres scales for workflow execution, testing parallel task handling and throughput under realistic workloads. The results offer guidance for architects choosing database backends for data-heavy automation and pipelines.",
-      "summary_zh": "一项基准测试评估 PostgreSQL 在工作流执行中的可扩展性，测试在现实工作负载下的并行任务处理与吞吐量。结果为在数据密集型自动化与流水线场景下选择数据库后端提供参考。",
-      "hn": {
-        "id": 47966625,
-        "type": "story",
-        "by": "KraftyOne",
-        "score": 126,
-        "descendants": 57,
-        "time": 1777574722,
-        "comments_url": "https://news.ycombinator.com/item?id=47966625"
-      },
-      "tags": [
+        "Programming",
         "Data"
       ],
-      "hot_score": 0.89
-    },
-    {
-      "title_en": "Snowball Earth may hide a far stranger climate cycle than anyone expected",
-      "url": "https://sciencex.com/news/2026-04-snowball-earth-stranger-climate.html",
-      "title_zh": "雪球地球理论可能隐藏比预期更古怪的气候循环",
-      "created_display": "Created: Apr 30, 2026 / 15:18 PT",
-      "image_url": "https://scx2.b-cdn.net/gfx/news/2018/5af0afa4a666b.jpg",
-      "summary_en": "New climate research suggests Snowball Earth could involve more intricate climate cycles than previously imagined, implying a richer set of feedback mechanisms governing global glaciation and deglaciation.",
-      "summary_zh": "最新气候研究表明，雪球地球现象可能包含比以往设想更复杂的气候循环，意味着全球冰川化与退冰过程背后有更丰富的反馈机制。",
-      "hn": {
-        "id": 47968982,
-        "type": "story",
-        "by": "wglb",
-        "score": 77,
-        "descendants": 21,
-        "time": 1777587537,
-        "comments_url": "https://news.ycombinator.com/item?id=47968982"
-      },
-      "tags": [
-        "Science"
-      ],
-      "hot_score": 0.86
+      "hot_score": 0.59
     },
     {
       "title_en": "Full-Text Search with DuckDB",
@@ -529,19 +771,155 @@
         "id": 47966254,
         "type": "story",
         "by": "ethagnawl",
-        "score": 127,
-        "descendants": 30,
+        "score": 163,
+        "descendants": 33,
         "time": 1777572858,
         "comments_url": "https://news.ycombinator.com/item?id=47966254"
       },
       "tags": [
-        "Data",
-        "Open Source"
+        "Programming",
+        "Open Source",
+        "Data"
       ],
-      "hot_score": 0.84
+      "hot_score": 0.59
     },
     {
-      "title_en": "The Hearts of the Super Nintendo",
+      "title_en": "Show HN: Winpodx – run Windows apps on Linux as native windows",
+      "url": "https://github.com/kernalix7/winpodx",
+      "title_zh": "Show HN：Winpodx——在 Linux 上以本地 Windows 窗口运行 Windows 应用",
+      "created_display": "Created: Apr 30, 2026 / 19:23 PT",
+      "image_url": "https://opengraph.githubassets.com/9a66e0c39b00187ada654af245c6f07bd2e828e67ff2099fa7180179622d149f/kernalix7/winpodx",
+      "summary_en": "Show HN: Winpodx enables Windows apps to run on Linux with native-looking Windows windows, illustrating progress in cross-OS app compatibility. The project demonstrates how far toolchains and UI integration have come for Linux users.",
+      "summary_zh": "Show HN：Winpodx 让 Windows 应用在 Linux 上以原生 Windows 窗口显示运行，体现跨操作系统应用兼容性的进展。该项目展示了 Linux 用户在工具链和 UI 集成方面的最新进展。",
+      "hn": {
+        "id": 47970690,
+        "type": "story",
+        "by": "kernalix7",
+        "score": 74,
+        "descendants": 38,
+        "time": 1777602223,
+        "comments_url": "https://news.ycombinator.com/item?id=47970690"
+      },
+      "tags": [
+        "Show HN",
+        "Programming"
+      ],
+      "hot_score": 0.59
+    },
+    {
+      "title_en": "Does Postgres Scale?",
+      "url": "https://www.dbos.dev/blog/benchmarking-workflow-execution-scalability-on-postgres",
+      "title_zh": "PostgreSQL 能否扩展？",
+      "created_display": "Created: Apr 30, 2026 / 11:45 PT",
+      "image_url": "https://cdn.prod.website-files.com/672411cbf038560468c9e68f/69ea2ef1c3fc50d09e3def99_Workflow-Execution-on-Postgres-Benchmark.png",
+      "summary_en": "A benchmark examines how well Postgres scales for workflow execution, testing parallel task handling and throughput under realistic workloads. The results offer guidance for architects choosing database backends for data-heavy automation and pipelines.",
+      "summary_zh": "一项基准测试评估 PostgreSQL 在工作流执行中的可扩展性，测试在现实工作负载下的并行任务处理与吞吐量。结果为在数据密集型自动化与流水线场景下选择数据库后端提供参考。",
+      "hn": {
+        "id": 47966625,
+        "type": "story",
+        "by": "KraftyOne",
+        "score": 153,
+        "descendants": 64,
+        "time": 1777574722,
+        "comments_url": "https://news.ycombinator.com/item?id=47966625"
+      },
+      "tags": [
+        "Programming",
+        "Data"
+      ],
+      "hot_score": 0.57
+    },
+    {
+      "title_en": "Snowball Earth may hide a far stranger climate cycle than anyone expected",
+      "url": "https://sciencex.com/news/2026-04-snowball-earth-stranger-climate.html",
+      "title_zh": "雪球地球理论可能隐藏比预期更古怪的气候循环",
+      "created_display": "Created: Apr 30, 2026 / 15:18 PT",
+      "image_url": "https://scx2.b-cdn.net/gfx/news/2018/5af0afa4a666b.jpg",
+      "summary_en": "New climate research suggests Snowball Earth could involve more intricate climate cycles than previously imagined, implying a richer set of feedback mechanisms governing global glaciation and deglaciation.",
+      "summary_zh": "最新气候研究表明，雪球地球现象可能包含比以往设想更复杂的气候循环，意味着全球冰川化与退冰过程背后有更丰富的反馈机制。",
+      "hn": {
+        "id": 47968982,
+        "type": "story",
+        "by": "wglb",
+        "score": 98,
+        "descendants": 45,
+        "time": 1777587537,
+        "comments_url": "https://news.ycombinator.com/item?id=47968982"
+      },
+      "tags": [
+        "Science"
+      ],
+      "hot_score": 0.5
+    },
+    {
+      "title_en": "American Dads Became the Parents Their Fathers Never Were",
+      "url": "https://www.derekthompson.org/p/why-do-richer-dads-spend-more-time",
+      "title_zh": "美国父亲们：成为了父辈从未成为的父母",
+      "created_display": "Created: Apr 30, 2026 / 09:38 PT",
+      "image_url": "https://images.unsplash.com/photo-1562494855-e008650bb2c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMDAzMzh8MHwxfHNlYXJjaHwxMHx8ZGFkfGVufDB8fHx8MTc3NzQ3MzYzM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "summary_en": "A Derek Thompson piece argues that wealthier dads now take on more parenting roles than their fathers did, reshaping expectations around fatherhood and time investment. It highlights how income, work culture, and policy shape caregiving norms in modern America.",
+      "summary_zh": "Derek Thompson 的文章指出，富裕家庭的父亲如今在育儿中的投入超过父辈，正在重新塑造父亲角色与时间投入的期望。文章分析收入、工作文化与政策如何共同塑造当代美国家庭的育儿规范。",
+      "hn": {
+        "id": 47965027,
+        "type": "story",
+        "by": "ozozozd",
+        "score": 122,
+        "descendants": 155,
+        "time": 1777567094,
+        "comments_url": "https://news.ycombinator.com/item?id=47965027"
+      },
+      "tags": [
+        "Culture"
+      ],
+      "hot_score": 0.39
+    },
+    {
+      "title_en": "It’s Toasted",
+      "url": "https://yadin.com/notes/toasted/",
+      "title_zh": "它已烧焦",
+      "created_display": "Created: Apr 30, 2026 / 23:34 PT",
+      "image_url": "https://yadin.com/notes/wp-content/uploads/2026/05/Lucky_Strike_ad_1926-10-wide-1024x576.jpg",
+      "summary_en": "A short note signaling that something has failed or is irreparably broken.",
+      "summary_zh": "一则简短笔记表示某个项目或系统已失败，无法挽回。",
+      "hn": {
+        "id": 47971830,
+        "type": "story",
+        "by": "dryadin",
+        "score": 27,
+        "descendants": 15,
+        "time": 1777617294,
+        "comments_url": "https://news.ycombinator.com/item?id=47971830"
+      },
+      "hot_score": 0.39,
+      "tags": [
+        "Culture"
+      ]
+    },
+    {
+      "title_en": "Opus 4.7 knows the real Kelsey",
+      "url": "https://www.theargumentmag.com/p/i-can-never-talk-to-an-ai-anonymously",
+      "title_zh": "Opus 4.7 能认出真正的 Kelsey",
+      "created_display": "Created: Apr 29, 2026 / 10:09 PT",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!q0IX!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F830c09c6-06a9-47e6-8552-6ba2cbfd3da5_2121x1414.jpeg",
+      "summary_en": "Opus 4.7 claims to know the real Kelsey, raising questions about identity, privacy, and how AI systems handle sensitive personal information.",
+      "summary_zh": "Opus 4.7 声称识别出真实的 Kelsey，引发关于身份、隐私以及 AI 系统如何处理敏感个人信息的关注。",
+      "hn": {
+        "id": 47951295,
+        "type": "story",
+        "by": "ilamont",
+        "score": 395,
+        "descendants": 216,
+        "time": 1777482543,
+        "comments_url": "https://news.ycombinator.com/item?id=47951295"
+      },
+      "tags": [
+        "AI",
+        "Privacy"
+      ],
+      "hot_score": 0.37
+    },
+    {
+      "title_en": "The Hearts of the Super Nintendo (2024)",
       "url": "https://fabiensanglard.net/snes_hearts/",
       "title_zh": "超级任天堂的心脏",
       "created_display": "Created: Apr 30, 2026 / 19:02 PT",
@@ -552,17 +930,16 @@
         "id": 47970578,
         "type": "story",
         "by": "droppedasbaby",
-        "score": 25,
-        "descendants": 3,
+        "score": 41,
+        "descendants": 5,
         "time": 1777600931,
         "comments_url": "https://news.ycombinator.com/item?id=47970578"
       },
-      "hot_score": 0.53,
       "tags": [
         "Hardware",
-        "Culture",
         "Gaming"
-      ]
+      ],
+      "hot_score": 0.31
     },
     {
       "title_en": "Follow-up to Carrot disclosure: Forgejo",
@@ -585,31 +962,7 @@
         "Security",
         "Open Source"
       ],
-      "hot_score": 0.51
-    },
-    {
-      "title_en": "SoftBank, Intel to develop ZAM memory – new memory designed as lower-power HBM",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/softbank-subsidiary-working-with-intel-to-develop-radical-new-zam-memory-is-now-receiving-japanese-govt-subsidies-new-memory-designed-as-a-lower-power-hbm-for-ai-workloads",
-      "title_zh": "SoftBank、Intel 将开发 ZAM 内存——低功耗HBM 新内存",
-      "created_display": "Created: May 01, 2026 / 00:40 PT",
-      "image_url": "https://cdn.mos.cms.futurecdn.net/u3myfqyQwuDFWsoxGdjM8U-1600-80.jpg",
-      "summary_en": "SoftBank's subsidiary and Intel partner to develop ZAM memory, a low-power High Bandwidth Memory designed for AI workloads. If successful, it could slash energy per operation in data centers while maintaining high bandwidth to meet AI-scale demands.",
-      "summary_zh": "软银旗下单位与英特尔合作开发 ZAM 内存，一种面向 AI 工作负载的低功耗高带宽存储解决方案。若成功，将在数据中心显著降低能耗同时维持高带宽，应对日益增长的 AI 计算需求。",
-      "hn": {
-        "id": 47972187,
-        "type": "story",
-        "by": "rbanffy",
-        "score": 4,
-        "descendants": 0,
-        "time": 1777621249,
-        "comments_url": "https://news.ycombinator.com/item?id=47972187"
-      },
-      "hot_score": 0.5,
-      "tags": [
-        "AI",
-        "Hardware",
-        "Energy"
-      ]
+      "hot_score": 0.27
     },
     {
       "title_en": "A 1960s art school experiment that redefined creativity",
@@ -630,32 +983,54 @@
       },
       "tags": [
         "Education",
-        "Design"
+        "Culture"
       ],
-      "hot_score": 0.45
+      "hot_score": 0.26
     },
     {
-      "title_en": "Opus 4.7 knows the real Kelsey",
-      "url": "https://www.theargumentmag.com/p/i-can-never-talk-to-an-ai-anonymously",
-      "title_zh": "Opus 4.7 能认出真正的 Kelsey",
-      "created_display": "Created: Apr 29, 2026 / 10:09 PT",
-      "image_url": "https://substackcdn.com/image/fetch/$s_!q0IX!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F830c09c6-06a9-47e6-8552-6ba2cbfd3da5_2121x1414.jpeg",
-      "summary_en": "Opus 4.7 claims to know the real Kelsey, raising questions about identity, privacy, and how AI systems handle sensitive personal information.",
-      "summary_zh": "Opus 4.7 声称识别出真实的 Kelsey，引发关于身份、隐私以及 AI 系统如何处理敏感个人信息的关注。",
+      "title_en": "Music with Lyrics Interferes with Cognitive Tasks (2023)",
+      "url": "https://journalofcognition.org/articles/10.5334/joc.273",
+      "title_zh": "带歌词的音乐干扰认知任务（2023）",
+      "created_display": "Created: May 01, 2026 / 00:35 PT",
+      "image_url": null,
+      "summary_en": "A study shows lyrics hinder performance on cognitive tasks like memory and attention, while instrumental music has different effects. The findings help decide when to use music as background and when to focus in work or study.",
+      "summary_zh": "研究表明歌词会削弱记忆、注意力等认知任务的表现，而无词音乐则有不同作用。这为工作或学习时是否听音乐提供了依据。",
       "hn": {
-        "id": 47951295,
+        "id": 47972158,
         "type": "story",
-        "by": "ilamont",
-        "score": 333,
-        "descendants": 169,
-        "time": 1777482543,
-        "comments_url": "https://news.ycombinator.com/item?id=47951295"
+        "by": "XzetaU8",
+        "score": 15,
+        "descendants": 5,
+        "time": 1777620926,
+        "comments_url": "https://news.ycombinator.com/item?id=47972158"
+      },
+      "hot_score": 0.25,
+      "tags": [
+        "Science"
+      ]
+    },
+    {
+      "title_en": "How People ask Claude for personal guidance",
+      "url": "https://www.anthropic.com/research/claude-personal-guidance",
+      "title_zh": "人们如何向 Claude 请求个人化指导",
+      "created_display": "Created: Apr 30, 2026 / 22:35 PT",
+      "image_url": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Knot&backgroundColor=heather",
+      "summary_en": "A study examines how users prompt Claude to provide personal guidance, highlighting how prompt design shapes safety, privacy, and usefulness. The findings suggest design lessons for building trusted AI assistants that offer calibrated, context-aware advice.",
+      "summary_zh": "研究分析用户如何向 Claude 请求个性化指导，强调提示设计对安全性、隐私和实用性的影响。结果为打造可信的、上下文感知的 AI 助手提供了设计启示。",
+      "hn": {
+        "id": 47971585,
+        "type": "story",
+        "by": "pseudolus",
+        "score": 19,
+        "descendants": 6,
+        "time": 1777613749,
+        "comments_url": "https://news.ycombinator.com/item?id=47971585"
       },
       "tags": [
         "AI",
         "Privacy"
       ],
-      "hot_score": 0.41
+      "hot_score": 0.23
     },
     {
       "title_en": "Recovering files from beyond the grave using PhotoRec",
@@ -675,76 +1050,32 @@
         "comments_url": "https://news.ycombinator.com/item?id=47965835"
       },
       "tags": [
-        "Open Source"
+        "Open Source",
+        "Data"
       ],
-      "hot_score": 0.39
+      "hot_score": 0.21
     },
     {
-      "title_en": "Universal patterns emerge across 22 languages, mapping how vocabularies evolve",
-      "url": "https://phys.org/news/2026-04-universal-patterns-emerge-languages-vocabularies.html",
-      "title_zh": "22种语言中的通用模式：词汇演变的映射",
-      "created_display": "Created: Apr 30, 2026 / 16:14 PT",
-      "image_url": "https://scx2.b-cdn.net/gfx/news/hires/2026/universal-patterns-eme.jpg",
-      "summary_en": "Researchers report universal patterns in how vocabularies evolve across 22 languages, suggesting shared underlying dynamics in lexical growth. The finding informs language modeling, cross-linguistic NLP, and cognitive linguistics by revealing scaling laws or common development trajectories.",
-      "summary_zh": "研究表明在22种语言中词汇演化存在普遍模式，揭示词汇增长背后可能的共同驱动机制。这一发现对语言建模、跨语言自然语言处理以及认知语言学具有重要启示，或揭示普遍的扩展规律。",
+      "title_en": "If I could make my own GitHub",
+      "url": "https://matduggan.com/if-i-could-make-my-own-github/",
+      "title_zh": "如果我能做自己的 GitHub",
+      "created_display": "Created: Apr 30, 2026 / 06:38 PT",
+      "image_url": null,
+      "summary_en": "Explores building a GitHub-like platform from scratch, weighing open-source, self-hosting, feature scope, and governance trade-offs. It offers practical design considerations for developers aiming to create developer tooling with community ownership.",
+      "summary_zh": "探讨从零构建一个类似 GitHub 的平台，权衡开源、自托管、功能边界和治理等要点。提供面向开发者工具的实际设计建议，强调社区所有权与可持续性。",
       "hn": {
-        "id": 47969522,
+        "id": 47962269,
         "type": "story",
-        "by": "wglb",
-        "score": 20,
-        "descendants": 1,
-        "time": 1777590897,
-        "comments_url": "https://news.ycombinator.com/item?id=47969522"
+        "by": "matricaria",
+        "score": 72,
+        "descendants": 98,
+        "time": 1777556318,
+        "comments_url": "https://news.ycombinator.com/item?id=47962269"
       },
-      "hot_score": 0.25,
-      "tags": [
-        "Science"
-      ]
-    },
-    {
-      "title_en": "How People ask Claude for personal guidance",
-      "url": "https://www.anthropic.com/research/claude-personal-guidance",
-      "title_zh": "人们如何向 Claude 请求个人化指导",
-      "created_display": "Created: Apr 30, 2026 / 22:35 PT",
-      "image_url": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Knot&backgroundColor=heather",
-      "summary_en": "A study examines how users prompt Claude to provide personal guidance, highlighting how prompt design shapes safety, privacy, and usefulness. The findings suggest design lessons for building trusted AI assistants that offer calibrated, context-aware advice.",
-      "summary_zh": "研究分析用户如何向 Claude 请求个性化指导，强调提示设计对安全性、隐私和实用性的影响。结果为打造可信的、上下文感知的 AI 助手提供了设计启示。",
-      "hn": {
-        "id": 47971585,
-        "type": "story",
-        "by": "pseudolus",
-        "score": 5,
-        "descendants": 1,
-        "time": 1777613749,
-        "comments_url": "https://news.ycombinator.com/item?id=47971585"
-      },
-      "hot_score": 0.24,
-      "tags": [
-        "AI",
-        "Privacy"
-      ]
-    },
-    {
-      "title_en": "SimpleX Channels, SimpleX Network Consortium and Community Crowdfunding",
-      "url": "https://simplex.chat/blog/20260430-simplex-channels-v6-5-consortium-crowdfunding-freedom-of-speech.html",
-      "title_zh": "SimpleX 通道、SimpleX 网络联盟与社区众筹",
-      "created_display": "Created: Apr 30, 2026 / 13:49 PT",
-      "image_url": "https://simplex.chat/blog/images/20260430-home.png",
-      "summary_en": "A post announcing SimpleX Channels v6.5 and a network consortium, with a focus on crowdfunding to support a decentralised, censorship-resistant communications platform. It outlines governance goals and how backers can participate in building an open, privacy-preserving communication layer.",
-      "summary_zh": "社区众筹与 SimpleX Channels 版本 6.5、SimpleX 网络联盟一并推出，旨在资助一个去中心化、抗审查的消息传递网络。文中阐述治理原则以及背书方如何参与建设一个开放、注重隐私的通信层。",
-      "hn": {
-        "id": 47968035,
-        "type": "story",
-        "by": "pmw",
-        "score": 26,
-        "descendants": 2,
-        "time": 1777582161,
-        "comments_url": "https://news.ycombinator.com/item?id=47968035"
-      },
-      "hot_score": 0.23,
+      "hot_score": 0.18,
       "tags": [
         "Open Source",
-        "Privacy"
+        "Programming"
       ]
     },
     {
@@ -759,15 +1090,15 @@
         "id": 47947944,
         "type": "story",
         "by": "gpjt",
-        "score": 197,
-        "descendants": 137,
+        "score": 212,
+        "descendants": 150,
         "time": 1777468546,
         "comments_url": "https://news.ycombinator.com/item?id=47947944"
       },
       "tags": [
         "Hardware"
       ],
-      "hot_score": 0.21
+      "hot_score": 0.17
     },
     {
       "title_en": "1.4 GW: battery storage at former Grohnde nuclear power plant",
@@ -789,29 +1120,97 @@
       "tags": [
         "Energy"
       ],
-      "hot_score": 0.19
+      "hot_score": 0.12
     },
     {
-      "title_en": "If I Could Make My Own GitHub",
-      "url": "https://matduggan.com/if-i-could-make-my-own-github/",
-      "title_zh": "如果我能做出自己的 GitHub",
-      "created_display": "Created: Apr 30, 2026 / 23:21 PT",
-      "image_url": null,
-      "summary_en": "A thoughtful piece on what it would take to build a personal GitHub-like platform, examining repository hosting, authentication, collaboration workflows, and the trade-offs of building in-house versus using existing services.",
-      "summary_zh": "这篇文章探讨若要打造一个类似 GitHub 的自建平台，需要考虑代码托管、身份认证、协作工作流等要点，以及自建与使用现成服务之间的取舍。",
+      "title_en": "SimpleX Channels, SimpleX Network Consortium and Community Crowdfunding",
+      "url": "https://simplex.chat/blog/20260430-simplex-channels-v6-5-consortium-crowdfunding-freedom-of-speech.html",
+      "title_zh": "SimpleX 通道、SimpleX 网络联盟与社区众筹",
+      "created_display": "Created: Apr 30, 2026 / 13:49 PT",
+      "image_url": "https://simplex.chat/blog/images/20260430-home.png",
+      "summary_en": "A post announcing SimpleX Channels v6.5 and a network consortium, with a focus on crowdfunding to support a decentralised, censorship-resistant communications platform. It outlines governance goals and how backers can participate in building an open, privacy-preserving communication layer.",
+      "summary_zh": "社区众筹与 SimpleX Channels 版本 6.5、SimpleX 网络联盟一并推出，旨在资助一个去中心化、抗审查的消息传递网络。文中阐述治理原则以及背书方如何参与建设一个开放、注重隐私的通信层。",
       "hn": {
-        "id": 47971771,
+        "id": 47968035,
         "type": "story",
-        "by": "vinhnx",
-        "score": 3,
-        "descendants": 0,
-        "time": 1777616461,
-        "comments_url": "https://news.ycombinator.com/item?id=47971771"
+        "by": "pmw",
+        "score": 26,
+        "descendants": 2,
+        "time": 1777582161,
+        "comments_url": "https://news.ycombinator.com/item?id=47968035"
       },
-      "hot_score": 0.16,
+      "hot_score": 0.11,
+      "tags": [
+        "Privacy",
+        "Open Source"
+      ]
+    },
+    {
+      "title_en": "Universal patterns emerge across 22 languages, mapping how vocabularies evolve",
+      "url": "https://phys.org/news/2026-04-universal-patterns-emerge-languages-vocabularies.html",
+      "title_zh": "22种语言中的通用模式：词汇演变的映射",
+      "created_display": "Created: Apr 30, 2026 / 16:14 PT",
+      "image_url": "https://scx2.b-cdn.net/gfx/news/hires/2026/universal-patterns-eme.jpg",
+      "summary_en": "Researchers report universal patterns in how vocabularies evolve across 22 languages, suggesting shared underlying dynamics in lexical growth. The finding informs language modeling, cross-linguistic NLP, and cognitive linguistics by revealing scaling laws or common development trajectories.",
+      "summary_zh": "研究表明在22种语言中词汇演化存在普遍模式，揭示词汇增长背后可能的共同驱动机制。这一发现对语言建模、跨语言自然语言处理以及认知语言学具有重要启示，或揭示普遍的扩展规律。",
+      "hn": {
+        "id": 47969522,
+        "type": "story",
+        "by": "wglb",
+        "score": 20,
+        "descendants": 1,
+        "time": 1777590897,
+        "comments_url": "https://news.ycombinator.com/item?id=47969522"
+      },
+      "hot_score": 0.11,
+      "tags": [
+        "Science"
+      ]
+    },
+    {
+      "title_en": "Reverse Engineering SimTower",
+      "url": "https://phulin.me/blog/simtower",
+      "title_zh": "逆向工程 SimTower",
+      "created_display": "Created: Apr 28, 2026 / 10:41 PT",
+      "image_url": "https://phulin.me/assets/og-image.png",
+      "summary_en": "A technical post explores reverse engineering the classic SimTower, revealing how its simulation logic and scheduling work under the hood. The write-up serves as a case study in analyzing legacy sim software and could inspire methods for modern game/tool reverse engineering.",
+      "summary_zh": "技术文章揭秘对经典游戏 SimTower 的逆向工程，揭示其内部仿真逻辑与调度机制。作为对遗留仿真软件分析的案例，或为现代游戏与工具的逆向研究提供思路。",
+      "hn": {
+        "id": 47937814,
+        "type": "story",
+        "by": "patrickhulin",
+        "score": 228,
+        "descendants": 62,
+        "time": 1777398098,
+        "comments_url": "https://news.ycombinator.com/item?id=47937814"
+      },
       "tags": [
         "Programming"
-      ]
+      ],
+      "hot_score": 0.1
+    },
+    {
+      "title_en": "New copy of earliest poem in English, written 1,3k years ago, discovered in Rome",
+      "url": "https://www.tcd.ie/news_events/articles/2026/caedmons-hymn-discovery/",
+      "title_zh": "在罗马发现的最早英语诗新抄本（距今约1300年）",
+      "created_display": "Created: Apr 29, 2026 / 04:35 PT",
+      "image_url": "https://www.tcd.ie/news_events/articles/2026/caedmons-hymn-discovery/media/tcd/news-images/Elisabetta-Magnanti-and-Mark-Faulkner-with-the-Trinity-copy-of-Bedes-Ecclesiastical-History.-To-be-clear-this-is-not-the-manuscript-they-found-in-Rome---.JPG",
+      "summary_en": "A newly discovered copy of Caedmon’s Hymn—one of the oldest known English poems—has been found in Rome. The find expands the manuscript trail of early Old English verse and could yield new insights into linguistic features and performance contexts from the era. It also underscores how medieval texts circulated far beyond their likely origin.",
+      "summary_zh": "在罗马发现的《凯德蒙颂》最早英语诗歌新抄本被揭示。此发现扩展了早期古英语诗歌的手稿传承，为语言特征与表演传统提供新线索，并显示中世纪文本可能的跨地流传。",
+      "hn": {
+        "id": 47946899,
+        "type": "story",
+        "by": "giuliomagnifico",
+        "score": 132,
+        "descendants": 84,
+        "time": 1777462540,
+        "comments_url": "https://news.ycombinator.com/item?id=47946899"
+      },
+      "tags": [
+        "Culture",
+        "Education"
+      ],
+      "hot_score": 0.1
     },
     {
       "title_en": "What can we gain by losing infinity?",
@@ -833,7 +1232,7 @@
       "tags": [
         "Science"
       ],
-      "hot_score": 0.12
+      "hot_score": 0.1
     },
     {
       "title_en": "You can beat the binary search",
@@ -847,61 +1246,60 @@
         "id": 47924912,
         "type": "story",
         "by": "vok",
-        "score": 310,
-        "descendants": 141,
+        "score": 343,
+        "descendants": 151,
         "time": 1777312332,
         "comments_url": "https://news.ycombinator.com/item?id=47924912"
       },
       "tags": [
         "Programming"
       ],
-      "hot_score": 0.1
+      "hot_score": 0.09
     },
     {
-      "title_en": "Reverse Engineering SimTower",
-      "url": "https://phulin.me/blog/simtower",
-      "title_zh": "逆向工程 SimTower",
-      "created_display": "Created: Apr 28, 2026 / 10:41 PT",
-      "image_url": "https://phulin.me/assets/og-image.png",
-      "summary_en": "A technical post explores reverse engineering the classic SimTower, revealing how its simulation logic and scheduling work under the hood. The write-up serves as a case study in analyzing legacy sim software and could inspire methods for modern game/tool reverse engineering.",
-      "summary_zh": "技术文章揭秘对经典游戏 SimTower 的逆向工程，揭示其内部仿真逻辑与调度机制。作为对遗留仿真软件分析的案例，或为现代游戏与工具的逆向研究提供思路。",
+      "title_en": "New mechanical panoramic film camera from Jeff Bridges",
+      "url": "https://wideluxx.com",
+      "title_zh": "Jeff Bridges 推出全新机械式全景胶片相机",
+      "created_display": "Created: Apr 28, 2026 / 09:49 PT",
+      "image_url": "https://wideluxx.com/wp-content/uploads/2024/08/wideluxx-logo-white-red.png",
+      "summary_en": "Jeff Bridges unveils a new mechanical panoramic film camera, a nod to analog photography in the digital era. The release taps into a niche but growing interest in hands-on, artifact-grade gear and could appeal to film enthusiasts seeking unique wide-format shots.",
+      "summary_zh": "演员 Jeff Bridges 推出全新机械式全景胶片相机，凸显在数字时代对纯胶片摄影的热情。此举迎合对手工操作、高品质器材的细分市场，或吸引追求独特大画幅效果的胶片爱好者。",
       "hn": {
-        "id": 47937814,
+        "id": 47937033,
         "type": "story",
-        "by": "patrickhulin",
-        "score": 186,
-        "descendants": 37,
-        "time": 1777398098,
-        "comments_url": "https://news.ycombinator.com/item?id=47937814"
+        "by": "armadsen",
+        "score": 181,
+        "descendants": 85,
+        "time": 1777394952,
+        "comments_url": "https://news.ycombinator.com/item?id=47937033"
       },
       "tags": [
-        "Programming"
+        "Hardware",
+        "Design"
       ],
-      "hot_score": 0.1
+      "hot_score": 0.08
     },
     {
-      "title_en": "C8s: A Confidential Kubernetes Architecture",
-      "url": "https://arxiv.org/abs/2604.26974",
-      "title_zh": "C8s：一个保密的 Kubernetes 架构",
-      "created_display": "Created: Apr 30, 2026 / 21:28 PT",
-      "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-      "summary_en": "C8s proposes a confidential Kubernetes architecture, focusing on security and privacy-preserving features for container orchestration. The paper discusses threat models, architecture design, and potential deployment implications for sensitive workloads.",
-      "summary_zh": "题为 C8s 的保密 Kubernetes 架构，强调对工作负载的机密性与安全性。论文讨论了威胁模型、架构设计和对企业级、注重隐私的容器编排的潜在影响。",
+      "title_en": "Maladaptive Frugality",
+      "url": "https://herbertlui.net/maladaptive-frugality/",
+      "title_zh": "不良的节俭",
+      "created_display": "Created: Apr 28, 2026 / 17:50 PT",
+      "image_url": "https://secure.gravatar.com/avatar/be9fdd2bb0be1f7bf014cffa18f1c9f5?s=32&d=mm&r=g",
+      "summary_en": "Maladaptive frugality argues that extreme thrift can undermine long-term value, quality, and innovation. The piece urges balancing cost control with intentional investment and risk tolerance in tech and product development.",
+      "summary_zh": "不良的节俭观提醒我们，过度节省可能削弱长期价值、质量与创新。文章倡导在成本控制与有意投资、承受风险之间取得平衡，特别是在技术与产品开发领域。",
       "hn": {
-        "id": 47971300,
+        "id": 47942863,
         "type": "story",
-        "by": "badcryptobitch",
-        "score": 3,
-        "descendants": 0,
-        "time": 1777609704,
-        "comments_url": "https://news.ycombinator.com/item?id=47971300"
+        "by": "herbertl",
+        "score": 151,
+        "descendants": 137,
+        "time": 1777423815,
+        "comments_url": "https://news.ycombinator.com/item?id=47942863"
       },
-      "hot_score": 0.08,
       "tags": [
-        "Security",
-        "Privacy",
-        "DevOps"
-      ]
+        "Business"
+      ],
+      "hot_score": 0.08
     },
     {
       "title_en": "A Primer on Bézier Curves – So What Makes a Bézier Curve?",
@@ -923,51 +1321,29 @@
       "tags": [
         "Design"
       ],
-      "hot_score": 0.07
-    },
-    {
-      "title_en": "New mechanical panoramic film camera from Jeff Bridges",
-      "url": "https://wideluxx.com",
-      "title_zh": "Jeff Bridges 推出全新机械式全景胶片相机",
-      "created_display": "Created: Apr 28, 2026 / 09:49 PT",
-      "image_url": "https://wideluxx.com/wp-content/uploads/2024/08/wideluxx-logo-white-red.png",
-      "summary_en": "Jeff Bridges unveils a new mechanical panoramic film camera, a nod to analog photography in the digital era. The release taps into a niche but growing interest in hands-on, artifact-grade gear and could appeal to film enthusiasts seeking unique wide-format shots.",
-      "summary_zh": "演员 Jeff Bridges 推出全新机械式全景胶片相机，凸显在数字时代对纯胶片摄影的热情。此举迎合对手工操作、高品质器材的细分市场，或吸引追求独特大画幅效果的胶片爱好者。",
-      "hn": {
-        "id": 47937033,
-        "type": "story",
-        "by": "armadsen",
-        "score": 132,
-        "descendants": 63,
-        "time": 1777394952,
-        "comments_url": "https://news.ycombinator.com/item?id=47937033"
-      },
-      "tags": [
-        "Hardware"
-      ],
-      "hot_score": 0.07
-    },
-    {
-      "title_en": "Maladaptive Frugality",
-      "url": "https://herbertlui.net/maladaptive-frugality/",
-      "title_zh": "不良的节俭",
-      "created_display": "Created: Apr 28, 2026 / 17:50 PT",
-      "image_url": "https://secure.gravatar.com/avatar/be9fdd2bb0be1f7bf014cffa18f1c9f5?s=32&d=mm&r=g",
-      "summary_en": "Maladaptive frugality argues that extreme thrift can undermine long-term value, quality, and innovation. The piece urges balancing cost control with intentional investment and risk tolerance in tech and product development.",
-      "summary_zh": "不良的节俭观提醒我们，过度节省可能削弱长期价值、质量与创新。文章倡导在成本控制与有意投资、承受风险之间取得平衡，特别是在技术与产品开发领域。",
-      "hn": {
-        "id": 47942863,
-        "type": "story",
-        "by": "herbertl",
-        "score": 89,
-        "descendants": 66,
-        "time": 1777423815,
-        "comments_url": "https://news.ycombinator.com/item?id=47942863"
-      },
-      "tags": [
-        "Business"
-      ],
       "hot_score": 0.06
+    },
+    {
+      "title_en": "I Got Sick of Remembering Port Numbers",
+      "url": "https://gregraiz.com/blog/local-vibe/",
+      "title_zh": "我终于厌倦了记端口号",
+      "created_display": "Created: Apr 28, 2026 / 12:19 PT",
+      "image_url": "https://gregraiz.com/assets/avatar.png",
+      "summary_en": "Port numbers are a hassle; the post shares approaches to avoid memorizing them, such as using service discovery, DNS aliases, or local routing tricks. It argues for more ergonomic development workflows in networked services.",
+      "summary_zh": "端口号记忆麻烦，文中分享通过服务发现、DNS 别名或本地路由等方式来避免记住端口号的方法，主张让开发者在网络服务中拥有更高效的工作流。",
+      "hn": {
+        "id": 47939246,
+        "type": "story",
+        "by": "graiz",
+        "score": 113,
+        "descendants": 109,
+        "time": 1777403946,
+        "comments_url": "https://news.ycombinator.com/item?id=47939246"
+      },
+      "tags": [
+        "DevOps"
+      ],
+      "hot_score": 0.05
     },
     {
       "title_en": "The Church Rock Uranium Mill Spill",
@@ -993,48 +1369,140 @@
       "hot_score": 0.05
     },
     {
-      "title_en": "I Got Sick of Remembering Port Numbers",
-      "url": "https://gregraiz.com/blog/local-vibe/",
-      "title_zh": "我终于厌倦了记端口号",
-      "created_display": "Created: Apr 28, 2026 / 12:19 PT",
-      "image_url": "https://gregraiz.com/assets/avatar.png",
-      "summary_en": "Port numbers are a hassle; the post shares approaches to avoid memorizing them, such as using service discovery, DNS aliases, or local routing tricks. It argues for more ergonomic development workflows in networked services.",
-      "summary_zh": "端口号记忆麻烦，文中分享通过服务发现、DNS 别名或本地路由等方式来避免记住端口号的方法，主张让开发者在网络服务中拥有更高效的工作流。",
+      "title_en": "SoftBank, Intel to develop ZAM memory – new memory designed as lower-power HBM",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/softbank-subsidiary-working-with-intel-to-develop-radical-new-zam-memory-is-now-receiving-japanese-govt-subsidies-new-memory-designed-as-a-lower-power-hbm-for-ai-workloads",
+      "title_zh": "SoftBank、Intel 将开发 ZAM 内存——低功耗HBM 新内存",
+      "created_display": "Created: May 01, 2026 / 00:40 PT",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/u3myfqyQwuDFWsoxGdjM8U-1600-80.jpg",
+      "summary_en": "SoftBank's subsidiary and Intel partner to develop ZAM memory, a low-power High Bandwidth Memory designed for AI workloads. If successful, it could slash energy per operation in data centers while maintaining high bandwidth to meet AI-scale demands.",
+      "summary_zh": "软银旗下单位与英特尔合作开发 ZAM 内存，一种面向 AI 工作负载的低功耗高带宽存储解决方案。若成功，将在数据中心显著降低能耗同时维持高带宽，应对日益增长的 AI 计算需求。",
       "hn": {
-        "id": 47939246,
+        "id": 47972187,
         "type": "story",
-        "by": "graiz",
-        "score": 81,
-        "descendants": 73,
-        "time": 1777403946,
-        "comments_url": "https://news.ycombinator.com/item?id=47939246"
+        "by": "rbanffy",
+        "score": 4,
+        "descendants": 0,
+        "time": 1777621249,
+        "comments_url": "https://news.ycombinator.com/item?id=47972187"
       },
+      "hot_score": 0.05,
       "tags": [
-        "DevOps"
-      ],
-      "hot_score": 0.05
+        "Hardware",
+        "AI",
+        "Energy"
+      ]
     },
     {
-      "title_en": "New copy of earliest poem in English, written 1,3k years ago, discovered in Rome",
-      "url": "https://www.tcd.ie/news_events/articles/2026/caedmons-hymn-discovery/",
-      "title_zh": "在罗马发现的最早英语诗新抄本（距今约1300年）",
-      "created_display": "Created: Apr 29, 2026 / 04:35 PT",
-      "image_url": "https://www.tcd.ie/news_events/articles/2026/caedmons-hymn-discovery/media/tcd/news-images/Elisabetta-Magnanti-and-Mark-Faulkner-with-the-Trinity-copy-of-Bedes-Ecclesiastical-History.-To-be-clear-this-is-not-the-manuscript-they-found-in-Rome---.JPG",
-      "summary_en": "A newly discovered copy of Caedmon’s Hymn—one of the oldest known English poems—has been found in Rome. The find expands the manuscript trail of early Old English verse and could yield new insights into linguistic features and performance contexts from the era. It also underscores how medieval texts circulated far beyond their likely origin.",
-      "summary_zh": "在罗马发现的《凯德蒙颂》最早英语诗歌新抄本被揭示。此发现扩展了早期古英语诗歌的手稿传承，为语言特征与表演传统提供新线索，并显示中世纪文本可能的跨地流传。",
+      "title_en": "Auto Polo",
+      "url": "https://en.wikipedia.org/wiki/Auto_polo",
+      "title_zh": "自动马球",
+      "created_display": "Created: Apr 28, 2026 / 08:51 PT",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Auto_polo_crop1.jpg",
+      "summary_en": "Auto Polo is a historical experiment where drivers control cars on a polo field, blending early automotive tech with sport. The note covers its origins, rules, and why it stands as a curious footnote in the history of vehicles and games.",
+      "summary_zh": "自动马球是一项早期的实验性运动，驾驶员驾驶汽车在马球场上竞技，融合了汽车技术与体育趣味。文中回顾了起源、规则，以及其在汽车史与体育史中的有趣地位。",
       "hn": {
-        "id": 47946899,
+        "id": 47936184,
         "type": "story",
-        "by": "giuliomagnifico",
-        "score": 46,
-        "descendants": 9,
-        "time": 1777462540,
-        "comments_url": "https://news.ycombinator.com/item?id=47946899"
+        "by": "canjobear",
+        "score": 91,
+        "descendants": 23,
+        "time": 1777391497,
+        "comments_url": "https://news.ycombinator.com/item?id=47936184"
       },
       "hot_score": 0.04,
       "tags": [
         "Culture"
       ]
+    },
+    {
+      "title_en": "Roboticist-Turned-Teacher Built a Life-Size Replica of Eniac",
+      "url": "https://spectrum.ieee.org/roboticist-turned-teacher-eniac-replica",
+      "title_zh": "从机器人专家转为教师：打造了 ENIAC 的等身复制品",
+      "created_display": "Created: Apr 29, 2026 / 06:28 PT",
+      "image_url": "https://spectrum.ieee.org/media-library/image.png?id=65575461&width=1200&height=600&coordinates=0%2C281%2C0%2C282",
+      "summary_en": "A robotics-trained educator built a life-size replica of ENIAC, reviving the iconic pre-transistor computer for teaching and public engagement. The project shows how hands-on making and robotics skills can illuminate early computing history and inspire students. It also demonstrates value in interdisciplinary approaches to tech education.",
+      "summary_zh": "一位具备机器人学背景的教师打造了 ENIAC 的等身复制品，用于教学与公众互动。该项目展示了动手制作与机器人技能如何点亮早期计算机历史并激发学生兴趣，同时凸显跨学科方法在科技教育中的价值。",
+      "hn": {
+        "id": 47948152,
+        "type": "story",
+        "by": "oldnetguy",
+        "score": 47,
+        "descendants": 9,
+        "time": 1777469327,
+        "comments_url": "https://news.ycombinator.com/item?id=47948152"
+      },
+      "tags": [
+        "Education"
+      ],
+      "hot_score": 0.04
+    },
+    {
+      "title_en": "If I Could Make My Own GitHub",
+      "url": "https://matduggan.com/if-i-could-make-my-own-github/",
+      "title_zh": "如果我能做出自己的 GitHub",
+      "created_display": "Created: Apr 30, 2026 / 23:21 PT",
+      "image_url": null,
+      "summary_en": "A thoughtful piece on what it would take to build a personal GitHub-like platform, examining repository hosting, authentication, collaboration workflows, and the trade-offs of building in-house versus using existing services.",
+      "summary_zh": "这篇文章探讨若要打造一个类似 GitHub 的自建平台，需要考虑代码托管、身份认证、协作工作流等要点，以及自建与使用现成服务之间的取舍。",
+      "hn": {
+        "id": 47971771,
+        "type": "story",
+        "by": "vinhnx",
+        "score": 3,
+        "descendants": 0,
+        "time": 1777616461,
+        "comments_url": "https://news.ycombinator.com/item?id=47971771"
+      },
+      "hot_score": 0.03,
+      "tags": [
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "Softmax, can you derive the Jacobian? And should you care?",
+      "url": "https://idlemachines.co.uk/essays/softmax",
+      "title_zh": "Softmax：能推导雅可比矩阵吗？是否值得关心？",
+      "created_display": "Created: Apr 27, 2026 / 13:38 PT",
+      "image_url": "https://idlemachines.co.uk/api/og/essay?title=Softmax%2C%20can%20you%20really%20derive%20the%20Jacobian%3F%20And%20should%20you%20care%3F",
+      "summary_en": "The post derives the Jacobian of the Softmax function and discusses its relevance for practical machine learning. While the Jacobian is dense and coupled, understanding it helps diagnose gradient flow in multi-class models and informs numerical implementation choices. The takeaway is that Softmax’s interactions across outputs matter more than they appear at first glance.",
+      "summary_zh": "文章推导了 Softmax 的雅可比矩阵，并讨论其在实际机器学习中的作用。虽然雅可比矩阵很稠密且耦合，但理解它有助于诊断多分类模型的梯度流动，并为数值实现提供指引。要点在于输出之间的耦合关系比初看时更为重要。",
+      "hn": {
+        "id": 47927011,
+        "type": "story",
+        "by": "smaddrellmander",
+        "score": 78,
+        "descendants": 21,
+        "time": 1777322302,
+        "comments_url": "https://news.ycombinator.com/item?id=47927011"
+      },
+      "tags": [
+        "Science",
+        "AI"
+      ],
+      "hot_score": 0.02
+    },
+    {
+      "title_en": "Using a 1978 terminal in 2026 (DEC VT-100)",
+      "url": "https://nikhiljha.com/posts/vt100/",
+      "title_zh": "在2026年使用一台1978年的 DEC VT-100 终端机",
+      "created_display": "Created: Apr 28, 2026 / 12:17 PT",
+      "image_url": "https://nikhiljha.com/images/vt100/Hero.jpg",
+      "summary_en": "A 2026 experiment uses a DEC VT-100 terminal to explore retro computing today, highlighting the charm and limits of 1970s hardware. The setup sheds light on minimal interfaces and resilience trade-offs compared to modern user experiences.",
+      "summary_zh": "用一台 DEC VT-100 终端机在2026年进行实验，展示了1970年代硬件的魅力与局限。该体验凸显极简界面与现代用户体验之间的权衡。",
+      "hn": {
+        "id": 47939227,
+        "type": "story",
+        "by": "ninjha",
+        "score": 39,
+        "descendants": 14,
+        "time": 1777403859,
+        "comments_url": "https://news.ycombinator.com/item?id=47939227"
+      },
+      "tags": [
+        "Culture",
+        "Hardware"
+      ],
+      "hot_score": 0.02
     },
     {
       "title_en": "Compositing and Blending – Exploring the math and intuition behind blend modes",
@@ -1053,31 +1521,9 @@
         "time": 1777463165,
         "comments_url": "https://news.ycombinator.com/item?id=47946990"
       },
-      "hot_score": 0.03,
+      "hot_score": 0.02,
       "tags": [
         "Design"
-      ]
-    },
-    {
-      "title_en": "Roboticist-Turned-Teacher Built a Life-Size Replica of Eniac",
-      "url": "https://spectrum.ieee.org/roboticist-turned-teacher-eniac-replica",
-      "title_zh": "从机器人专家转为教师：打造了 ENIAC 的等身复制品",
-      "created_display": "Created: Apr 29, 2026 / 06:28 PT",
-      "image_url": "https://spectrum.ieee.org/media-library/image.png?id=65575461&width=1200&height=600&coordinates=0%2C281%2C0%2C282",
-      "summary_en": "A robotics-trained educator built a life-size replica of ENIAC, reviving the iconic pre-transistor computer for teaching and public engagement. The project shows how hands-on making and robotics skills can illuminate early computing history and inspire students. It also demonstrates value in interdisciplinary approaches to tech education.",
-      "summary_zh": "一位具备机器人学背景的教师打造了 ENIAC 的等身复制品，用于教学与公众互动。该项目展示了动手制作与机器人技能如何点亮早期计算机历史并激发学生兴趣，同时凸显跨学科方法在科技教育中的价值。",
-      "hn": {
-        "id": 47948152,
-        "type": "story",
-        "by": "oldnetguy",
-        "score": 26,
-        "descendants": 7,
-        "time": 1777469327,
-        "comments_url": "https://news.ycombinator.com/item?id=47948152"
-      },
-      "hot_score": 0.03,
-      "tags": [
-        "Education"
       ]
     },
     {
@@ -1103,47 +1549,27 @@
       ]
     },
     {
-      "title_en": "Softmax, can you derive the Jacobian? And should you care?",
-      "url": "https://idlemachines.co.uk/essays/softmax",
-      "title_zh": "Softmax：能推导雅可比矩阵吗？是否值得关心？",
-      "created_display": "Created: Apr 27, 2026 / 13:38 PT",
-      "image_url": "https://idlemachines.co.uk/api/og/essay?title=Softmax%2C%20can%20you%20really%20derive%20the%20Jacobian%3F%20And%20should%20you%20care%3F",
-      "summary_en": "The post derives the Jacobian of the Softmax function and discusses its relevance for practical machine learning. While the Jacobian is dense and coupled, understanding it helps diagnose gradient flow in multi-class models and informs numerical implementation choices. The takeaway is that Softmax’s interactions across outputs matter more than they appear at first glance.",
-      "summary_zh": "文章推导了 Softmax 的雅可比矩阵，并讨论其在实际机器学习中的作用。虽然雅可比矩阵很稠密且耦合，但理解它有助于诊断多分类模型的梯度流动，并为数值实现提供指引。要点在于输出之间的耦合关系比初看时更为重要。",
+      "title_en": "C8s: A Confidential Kubernetes Architecture",
+      "url": "https://arxiv.org/abs/2604.26974",
+      "title_zh": "C8s：一个保密的 Kubernetes 架构",
+      "created_display": "Created: Apr 30, 2026 / 21:28 PT",
+      "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "summary_en": "C8s proposes a confidential Kubernetes architecture, focusing on security and privacy-preserving features for container orchestration. The paper discusses threat models, architecture design, and potential deployment implications for sensitive workloads.",
+      "summary_zh": "题为 C8s 的保密 Kubernetes 架构，强调对工作负载的机密性与安全性。论文讨论了威胁模型、架构设计和对企业级、注重隐私的容器编排的潜在影响。",
       "hn": {
-        "id": 47927011,
+        "id": 47971300,
         "type": "story",
-        "by": "smaddrellmander",
-        "score": 28,
-        "descendants": 1,
-        "time": 1777322302,
-        "comments_url": "https://news.ycombinator.com/item?id=47927011"
+        "by": "badcryptobitch",
+        "score": 3,
+        "descendants": 0,
+        "time": 1777609704,
+        "comments_url": "https://news.ycombinator.com/item?id=47971300"
       },
-      "hot_score": 0.01,
+      "hot_score": 0.02,
       "tags": [
-        "AI"
-      ]
-    },
-    {
-      "title_en": "Using a 1978 terminal in 2026 (DEC VT-100)",
-      "url": "https://nikhiljha.com/posts/vt100/",
-      "title_zh": "在2026年使用一台1978年的 DEC VT-100 终端机",
-      "created_display": "Created: Apr 28, 2026 / 12:17 PT",
-      "image_url": "https://nikhiljha.com/images/vt100/Hero.jpg",
-      "summary_en": "A 2026 experiment uses a DEC VT-100 terminal to explore retro computing today, highlighting the charm and limits of 1970s hardware. The setup sheds light on minimal interfaces and resilience trade-offs compared to modern user experiences.",
-      "summary_zh": "用一台 DEC VT-100 终端机在2026年进行实验，展示了1970年代硬件的魅力与局限。该体验凸显极简界面与现代用户体验之间的权衡。",
-      "hn": {
-        "id": 47939227,
-        "type": "story",
-        "by": "ninjha",
-        "score": 26,
-        "descendants": 6,
-        "time": 1777403859,
-        "comments_url": "https://news.ycombinator.com/item?id=47939227"
-      },
-      "hot_score": 0.01,
-      "tags": [
-        "Hardware"
+        "Security",
+        "DevOps",
+        "Privacy"
       ]
     }
   ]
