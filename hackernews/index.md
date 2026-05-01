@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>75</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>10909</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>74</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>73</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-05-01</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>75</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>10915</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>74</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>73</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-05-01</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='321' data-hn-time='1777651733'>
+<div class='hn-top-story-item' data-hn-score='132' data-hn-time='1777667184'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/01/top_stories_05012026#story-47976415'>Uber Torches 2026 AI Budget on Claude Code in Four Months</a>
- <a class='hn-top-story-link' href='https://www.briefs.co/news/uber-torches-entire-2026-ai-budget-on-claude-code-in-four-months/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/01/top_stories_05012026#story-47979839'>Credit cards are vulnerable to brute force attacks</a>
+ <a class='hn-top-story-link' href='https://metin.nextc.org/posts/Credit_Cards_Are_Vulnerable_To_Brute_Force_Kind_Attacks.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Uber 四个月内把 2026 年 AI 预算全花在 Claude 代码上</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 17</span> <span class='hn-top-story-score'>&#9650; 321</span> <span class='hn-top-story-comments'>&#128172; 342</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-zh'>信用卡易受暴力破解攻击</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.7</span> <span class='hn-top-story-score'>&#9650; 132</span> <span class='hn-top-story-comments'>&#128172; 112</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='129' data-hn-time='1777656336'>
+<div class='hn-top-story-item' data-hn-score='148' data-hn-time='1777666019'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/01/top_stories_05012026#story-47977450'>Flock cameras keep telling police a man who doesn't have a warrant has a warrant</a>
- <a class='hn-top-story-link' href='https://www.youtube.com/watch?v=nHwxV0Sd9V8' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/01/top_stories_05012026#story-47979583'>Ti-84 Evo</a>
+ <a class='hn-top-story-link' href='https://education.ti.com/en/products/calculators/graphing-calculators/ti-84-evo' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Flock 摄像头在无授权情况下向警察告警，称有搜查令</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 129</span> <span class='hn-top-story-comments'>&#128172; 94</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>Ti-84 Evo 图形计算器</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.5</span> <span class='hn-top-story-score'>&#9650; 148</span> <span class='hn-top-story-comments'>&#128172; 170</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='87' data-hn-time='1777655938'>
+<div class='hn-top-story-item' data-hn-score='231' data-hn-time='1777660667'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/01/top_stories_05012026#story-47977383'>AI Uses Less Water Than the Public Thinks</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/01/top_stories_05012026#story-47978370'>City Learns Flock Accessed Cameras in Children's Gymnastics Room as a Sales Demo</a>
+ <a class='hn-top-story-link' href='https://www.404media.co/city-learns-flock-accessed-cameras-in-childrens-gymnastics-room-as-a-sales-pitch-demo-renews-contract-anyway/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>市政府发现 Flock 摄像头在儿童体操房被用作销售演示时访问摄像头</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.0</span> <span class='hn-top-story-score'>&#9650; 231</span> <span class='hn-top-story-comments'>&#128172; 60</span> <span class='hn-top-story-tag'>Privacy</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='290' data-hn-time='1777655938'>
+<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/01/top_stories_05012026#story-47977383'>AI uses less water than the public thinks</a>
  <a class='hn-top-story-link' href='https://californiawaterblog.com/2026/04/26/ai-water-use-distractions-and-lessons-for-california/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>人工智能用水量低于公众预期</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.5</span> <span class='hn-top-story-score'>&#9650; 87</span> <span class='hn-top-story-comments'>&#128172; 53</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Energy</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.9</span> <span class='hn-top-story-score'>&#9650; 290</span> <span class='hn-top-story-comments'>&#128172; 262</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Energy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='90' data-hn-time='1777654775'>
-<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-item' data-hn-score='289' data-hn-time='1777654775'>
+<span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/05/01/top_stories_05012026#story-47977134'>The Gay Jailbreak Technique</a>
  <a class='hn-top-story-link' href='https://github.com/Exocija/ZetaLib/blob/main/The%20Gay%20Jailbreak/The%20Gay%20Jailbreak.md' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>The Gay Jailbreak 技术</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.7</span> <span class='hn-top-story-score'>&#9650; 90</span> <span class='hn-top-story-comments'>&#128172; 31</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.3</span> <span class='hn-top-story-score'>&#9650; 289</span> <span class='hn-top-story-comments'>&#128172; 98</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='32' data-hn-time='1777660735'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/01/top_stories_05012026#story-47978386'>A statement about why RightsCon 2026 will not take place in Zambia</a>
- <a class='hn-top-story-link' href='https://www.rightscon.org/rc26-statement/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>RightsCon 2026 不在赞比亚举行的声明</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.8</span> <span class='hn-top-story-score'>&#9650; 32</span> <span class='hn-top-story-comments'>&#128172; 2</span> <span class='hn-top-story-tag'>Politics</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='143' data-hn-time='1777648536'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='321' data-hn-time='1777651733'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/01/top_stories_05012026#story-47975785'>An open letter asking NHS England to keep its code open</a>
- <a class='hn-top-story-link' href='https://keepthingsopen.com' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/01/top_stories_05012026#story-47976415'>Uber Torches 2026 AI Budget on Claude Code in Four Months</a>
+ <a class='hn-top-story-link' href='https://www.briefs.co/news/uber-torches-entire-2026-ai-budget-on-claude-code-in-four-months/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>公开信：请英格兰国民保健署保持代码开源</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.8</span> <span class='hn-top-story-score'>&#9650; 143</span> <span class='hn-top-story-comments'>&#128172; 7</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Health</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>Uber 四个月内把 2026 年 AI 预算全花在 Claude 代码上</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.7</span> <span class='hn-top-story-score'>&#9650; 321</span> <span class='hn-top-story-comments'>&#128172; 342</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='144' data-hn-time='1777647607'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='156' data-hn-time='1777657662'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/01/top_stories_05012026#story-47975571'>Ask HN: Who is hiring? (May 2026)</a>
- <a class='hn-top-story-link' href='https://news.ycombinator.com/item?id=47975571' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/01/top_stories_05012026#story-47977748'>New research suggests people can communicate and practice skills while dreaming</a>
+ <a class='hn-top-story-link' href='https://www.newyorker.com/culture/annals-of-inquiry/its-possible-to-learn-in-our-sleep-should-we' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Ask HN：五月 2026 的招聘信息</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.4</span> <span class='hn-top-story-score'>&#9650; 144</span> <span class='hn-top-story-comments'>&#128172; 155</span> <span class='hn-top-story-tag'>Career</span> <span class='hn-top-story-tag'>Startups</span></div>
+<div class='hn-top-story-zh'>新研究表明人们在梦中也能交流并练习技能</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.8</span> <span class='hn-top-story-score'>&#9650; 156</span> <span class='hn-top-story-comments'>&#128172; 84</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Education</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='342' data-hn-time='1777633712'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='144' data-hn-time='1777656889'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/01/top_stories_05012026#story-47973378'>Apple accidentally left Claude.md files Apple Support app</a>
- <a class='hn-top-story-link' href='https://x.com/aaronp613/status/2049986504617820551' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>苹果意外在 Apple Support 应用中暴露 Claude.md 文件</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.4</span> <span class='hn-top-story-score'>&#9650; 342</span> <span class='hn-top-story-comments'>&#128172; 278</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='48' data-hn-time='1777656889'>
-<span class='hn-top-story-rank'>9</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/01/top_stories_05012026#story-47977583'>The X-Files Has Made Me Nostalgic for a Time I Never Experienced</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/01/top_stories_05012026#story-47977583'>The X-Files has made me nostalgic for a time I never experienced</a>
  <a class='hn-top-story-link' href='https://midnightmurmurations.substack.com/p/the-x-files-has-made-me-nostalgic' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>《X档案》让我对一个我从未经历过的时代感到怀旧</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.7</span> <span class='hn-top-story-score'>&#9650; 48</span> <span class='hn-top-story-comments'>&#128172; 13</span> <span class='hn-top-story-tag'>Culture</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 144</span> <span class='hn-top-story-comments'>&#128172; 137</span> <span class='hn-top-story-tag'>Culture</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='42' data-hn-time='1777656525'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='172' data-hn-time='1777653761'>
+<span class='hn-top-story-rank'>9</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/01/top_stories_05012026#story-47976856'>Spotify adds 'Verified' badges to distinguish human artists from AI</a>
+ <a class='hn-top-story-link' href='https://www.bbc.com/news/articles/c5yerr4m1yno' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Spotify 增加 Verified 徽章以区分真人艺人与 AI 创作</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.1</span> <span class='hn-top-story-score'>&#9650; 172</span> <span class='hn-top-story-comments'>&#128172; 194</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Entertainment</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='80' data-hn-time='1777662881'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/01/top_stories_05012026#story-47977498'>AWS stops billing Middle East cloud customers as repairs to war damage drag on</a>
- <a class='hn-top-story-link' href='https://arstechnica.com/gadgets/2026/05/amazon-stuck-with-months-of-repairs-after-drone-strikes-on-data-centers/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/01/top_stories_05012026#story-47978892'>Ubuntu servers taken offline by "sustained, cross-border attack"</a>
+ <a class='hn-top-story-link' href='https://arstechnica.com/security/2026/05/ubuntu-infrastructure-has-been-down-for-more-than-a-day/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>AWS 暂停向中东地区云客户计费</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 42</span> <span class='hn-top-story-comments'>&#128172; 12</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-zh'>Ubuntu 服务器因持续的跨境攻击而离线</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.7</span> <span class='hn-top-story-score'>&#9650; 80</span> <span class='hn-top-story-comments'>&#128172; 13</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>DevOps</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -155,7 +155,7 @@ Your browser does not support the audio element.
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 18 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-04-27 — 2026-05-01 <span class="hn-row-sep">·</span> 694 stories <span class="hn-row-sep">·</span> 5 days</span>
+<span class='hn-week-meta'>2026-04-27 — 2026-05-01 <span class="hn-row-sep">·</span> 700 stories <span class="hn-row-sep">·</span> 5 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -164,7 +164,7 @@ Your browser does not support the audio element.
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/05/01/top_stories_05012026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>94</b> <span class="hn-row-sep">·</span> Programming <b>21</b> <span class="hn-row-sep">·</span> AI <b>18</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>25</b> <span class="hn-row-sep">·</span> AI <b>20</b></span>
 </a>
 </div>
 </div>
