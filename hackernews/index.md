@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>77</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>11201</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>76</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>75</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-05-03</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>77</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>11215</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>76</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>75</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-05-03</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,7 +20,7 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='408' data-hn-time='1777819407'>
+<div class='hn-top-story-item' data-hn-score='549' data-hn-time='1777819407'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -28,43 +28,43 @@ Sort:
  <a class='hn-top-story-link' href='https://www.drive.com.au/news/mercedes-benz-commits-to-bringing-back-phycial-buttons/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>梅赛德斯-奔驰承诺重新回归物理按钮</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 15</span> <span class='hn-top-story-score'>&#9650; 408</span> <span class='hn-top-story-comments'>&#128172; 237</span> <span class='hn-top-story-tag'>Design</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.0</span> <span class='hn-top-story-score'>&#9650; 549</span> <span class='hn-top-story-comments'>&#128172; 322</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='159' data-hn-time='1777823759'>
+<div class='hn-top-story-item' data-hn-score='208' data-hn-time='1777833748'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/03/top_stories_05032026#story-47998225'>For thirty years I programmed with Phish on, every day</a>
- <a class='hn-top-story-link' href='https://christophermeiklejohn.com/ai/personal/phish/flow/agents/2026/05/03/rift.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/03/top_stories_05032026#story-48000028'>Why TUIs Are Back</a>
+ <a class='hn-top-story-link' href='https://wiki.alcidesfonseca.com/blog/why-tuis-are-back/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>三十年里我每天都和 Phish 一起编程</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.7</span> <span class='hn-top-story-score'>&#9650; 159</span> <span class='hn-top-story-comments'>&#128172; 109</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Culture</span></div>
+<div class='hn-top-story-zh'>TUI（可触知用户界面）为何回归</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.7</span> <span class='hn-top-story-score'>&#9650; 208</span> <span class='hn-top-story-comments'>&#128172; 214</span> <span class='hn-top-story-tag'>Design</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='92' data-hn-time='1777827958'>
+<div class='hn-top-story-item' data-hn-score='189' data-hn-time='1777834468'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/03/top_stories_05032026#story-47999006'>How far behind is each major Chromium browser?</a>
- <a class='hn-top-story-link' href='https://chromium-drift.pages.dev/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/03/top_stories_05032026#story-48000152'>Statue of a man blinded by a flag put up by Banksy in central London</a>
+ <a class='hn-top-story-link' href='https://www.smithsonianmag.com/smart-news/attributed-to-banksy-a-new-statue-of-a-suited-man-blinded-by-a-flag-and-walking-off-a-ledge-appeared-in-central-london-180988662/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>各大 Chromium 浏览器的落后程度到底有多远？</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.1</span> <span class='hn-top-story-score'>&#9650; 92</span> <span class='hn-top-story-comments'>&#128172; 33</span> <span class='hn-top-story-tag'>Web</span></div>
+<div class='hn-top-story-zh'>班克西风格雕像在伦敦市中心现身，象征意义颇丰</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.4</span> <span class='hn-top-story-score'>&#9650; 189</span> <span class='hn-top-story-comments'>&#128172; 155</span> <span class='hn-top-story-tag'>Culture</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='74' data-hn-time='1777827733'>
+<div class='hn-top-story-item' data-hn-score='186' data-hn-time='1777831394'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/03/top_stories_05032026#story-47998946'>Southwest Headquarters Tour</a>
- <a class='hn-top-story-link' href='https://katherinemichel.github.io/blog/travel/southwest-headquarters-tour-2026.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/03/top_stories_05032026#story-47999636'>BYOMesh – New LoRa mesh radio offers 100x the bandwidth</a>
+ <a class='hn-top-story-link' href='https://partyon.xyz/@nullagent/116499715071759135' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>西南航空总部参观</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.3</span> <span class='hn-top-story-score'>&#9650; 74</span> <span class='hn-top-story-comments'>&#128172; 7</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Design</span></div>
+<div class='hn-top-story-zh'>BYOMesh：新一代 LoRa 网状无线电带来 100 倍带宽</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.4</span> <span class='hn-top-story-score'>&#9650; 186</span> <span class='hn-top-story-comments'>&#128172; 59</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='80' data-hn-time='1777826891'>
+<div class='hn-top-story-item' data-hn-score='190' data-hn-time='1777826891'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -72,43 +72,43 @@ Sort:
  <a class='hn-top-story-link' href='https://www.thegamer.com/mgs2-hd-edition-source-code-massive-leak/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>4chan 上 Metal Gear Solid 2 源代码泄露</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.1</span> <span class='hn-top-story-score'>&#9650; 80</span> <span class='hn-top-story-comments'>&#128172; 26</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Legal</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.8</span> <span class='hn-top-story-score'>&#9650; 190</span> <span class='hn-top-story-comments'>&#128172; 75</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Legal</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='45' data-hn-time='1777829655'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='200' data-hn-time='1777823759'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/03/top_stories_05032026#story-47999346'>The Oscars just banned AI from winning acting and writing awards</a>
- <a class='hn-top-story-link' href='https://gizmodo.com/the-oscars-just-banned-ai-from-winning-acting-and-writing-awards-2000753740' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/03/top_stories_05032026#story-47998225'>For thirty years I programmed with Phish on, every day</a>
+ <a class='hn-top-story-link' href='https://christophermeiklejohn.com/ai/personal/phish/flow/agents/2026/05/03/rift.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>奥斯卡刚宣布禁止 AI 获得最佳表演与编剧奖项</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.9</span> <span class='hn-top-story-score'>&#9650; 45</span> <span class='hn-top-story-comments'>&#128172; 17</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Entertainment</span></div>
+<div class='hn-top-story-zh'>三十年里我每天都和 Phish 一起编程</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.1</span> <span class='hn-top-story-score'>&#9650; 200</span> <span class='hn-top-story-comments'>&#128172; 160</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='29' data-hn-time='1777831394'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='155' data-hn-time='1777827733'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/03/top_stories_05032026#story-47999636'>BYOMesh – New LoRa mesh radio offers 100x the bandwidth</a>
- <a class='hn-top-story-link' href='https://partyon.xyz/@nullagent/116499715071759135' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/03/top_stories_05032026#story-47998946'>Southwest Headquarters Tour</a>
+ <a class='hn-top-story-link' href='https://katherinemichel.github.io/blog/travel/southwest-headquarters-tour-2026.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>BYOMesh：新一代 LoRa 网状无线电带来 100 倍带宽</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 29</span> <span class='hn-top-story-comments'>&#128172; 6</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>西南航空总部参观</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.1</span> <span class='hn-top-story-score'>&#9650; 155</span> <span class='hn-top-story-comments'>&#128172; 38</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Design</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1345' data-hn-time='1777751846'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='147' data-hn-time='1777827958'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/03/top_stories_05032026#story-47989883'>VS Code inserting 'Co-Authored-by Copilot' into commits regardless of usage</a>
- <a class='hn-top-story-link' href='https://github.com/microsoft/vscode/pull/310226' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/03/top_stories_05032026#story-47999006'>How far behind is each major Chromium browser?</a>
+ <a class='hn-top-story-link' href='https://chromium-drift.pages.dev/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>VS Code 无论是否使用都在提交中插入“Co-Authored-by Copilot”标签</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.1</span> <span class='hn-top-story-score'>&#9650; 1345</span> <span class='hn-top-story-comments'>&#128172; 717</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>各大 Chromium 浏览器的落后程度到底有多远？</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 147</span> <span class='hn-top-story-comments'>&#128172; 53</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='62' data-hn-time='1777822325'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='182' data-hn-time='1777822325'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -116,18 +116,18 @@ Sort:
  <a class='hn-top-story-link' href='https://isene.org/2026/05/Audience-of-One.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>为一个人定制的桌面</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 62</span> <span class='hn-top-story-comments'>&#128172; 31</span> <span class='hn-top-story-tag'>Design</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 182</span> <span class='hn-top-story-comments'>&#128172; 67</span> <span class='hn-top-story-tag'>Design</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='84' data-hn-time='1777817603'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1345' data-hn-time='1777751846'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/03/top_stories_05032026#story-47997138'>Porsche will contest Laguna Seca in historic colors of the Apple Computer livery</a>
- <a class='hn-top-story-link' href='https://newsroom.porsche.com/en_US/2026/motorsport/porsche-will-contest-laguna-seca-in-historic-colors-of-the-apple-computer-livery.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/03/top_stories_05032026#story-47989883'>VS Code inserting 'Co-Authored-by Copilot' into commits regardless of usage</a>
+ <a class='hn-top-story-link' href='https://github.com/microsoft/vscode/pull/310226' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>保时捷将在拉古纳塞卡以 Apple 电脑专属历史涂装参赛</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.7</span> <span class='hn-top-story-score'>&#9650; 84</span> <span class='hn-top-story-comments'>&#128172; 30</span> <span class='hn-top-story-tag'>Design</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-zh'>VS Code 无论是否使用都在提交中插入“Co-Authored-by Copilot”标签</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 1345</span> <span class='hn-top-story-comments'>&#128172; 717</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -155,7 +155,7 @@ Your browser does not support the audio element.
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 18 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-04-27 — 2026-05-03 <span class="hn-row-sep">·</span> 986 stories <span class="hn-row-sep">·</span> 7 days</span>
+<span class='hn-week-meta'>2026-04-27 — 2026-05-03 <span class="hn-row-sep">·</span> 1000 stories <span class="hn-row-sep">·</span> 7 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -164,7 +164,7 @@ Your browser does not support the audio element.
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/05/03/top_stories_05032026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>86</b> <span class="hn-row-sep">·</span> Programming <b>26</b> <span class="hn-row-sep">·</span> AI <b>19</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>25</b> <span class="hn-row-sep">·</span> AI <b>21</b></span>
 </a>
 </div>
 </div>
