@@ -5,7 +5,7 @@
     <link>https://chaowang15.github.io/hackernews/</link>
     <description>Curated daily digest of top Hacker News stories with AI-generated summaries, tags, and bilingual translations.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 03 May 2026 13:21:31 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 03 May 2026 14:52:03 +0000</lastBuildDate>
     <generator>Hacker News Daily RSS Builder</generator>
     <atom:link href="https://chaowang15.github.io/hackernews/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
@@ -59,6 +59,19 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47952181&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/04/30/top_stories_04302026#story-47952181&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>VS Code inserting 'Co-Authored-by Copilot' into commits regardless of usage</title>
+      <link>https://github.com/microsoft/vscode/pull/310226</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47989883</guid>
+      <dc:creator>indrora</dc:creator>
+      <pubDate>Sat, 02 May 2026 19:57:26 +0000</pubDate>
+      <category>AI</category>
+      <category>Programming</category>
+      <description>&lt;p&gt;A bug in the editor causes commits to automatically include a Co-Authored-by: Copilot trailer, even when Copilot wasn't used. The behavior fragments authorship signals in Git metadata and could misattribute work, prompting a patch in the works. This highlights the broader challenge of AI-assisted attribution within developer tooling.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;编辑器存在一个错误，会在提交中自动插入 Co-Authored-by: Copilot 标签，即使未使用 Copilot。该行为会导致 Git 元数据中的署名信息失真，促使相关修复被推进。这凸显了在开发工具中处理 AI 署名的广泛挑战。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 1345 · 💬 717 · AI · Programming&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47989883&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/03/top_stories_05032026#story-47989883&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Claude Code refuses requests or charges extra if your commits mention &quot;OpenClaw&quot;</title>
       <link>https://twitter.com/theo/status/2049645973350363168</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=47963204</guid>
@@ -70,19 +83,6 @@
 &lt;p&gt;&lt;em&gt;报道称 Claude Code 对提及 OpenClaw 的提交拒绝请求，甚至额外收费，体现对特定提示的安全与定价策略在编码助手中的应用。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 1322 · 💬 709 · AI · Programming&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47963204&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/01/top_stories_05012026#story-47963204&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>VS Code inserting 'Co-Authored-by Copilot' into commits regardless of usage</title>
-      <link>https://github.com/microsoft/vscode/pull/310226</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47989883</guid>
-      <dc:creator>indrora</dc:creator>
-      <pubDate>Sat, 02 May 2026 19:57:26 +0000</pubDate>
-      <category>AI</category>
-      <category>Programming</category>
-      <description>&lt;p&gt;A bug in the editor causes commits to automatically include a Co-Authored-by: Copilot trailer, even when Copilot wasn't used. The behavior fragments authorship signals in Git metadata and could misattribute work, prompting a patch in the works. This highlights the broader challenge of AI-assisted attribution within developer tooling.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;编辑器存在一个错误，会在提交中自动插入 Co-Authored-by: Copilot 标签，即使未使用 Copilot。该行为会导致 Git 元数据中的署名信息失真，促使相关修复被推进。这凸显了在开发工具中处理 AI 署名的广泛挑战。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 1293 · 💬 680 · AI · Programming&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47989883&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/02/top_stories_05022026#story-47989883&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>HERMES.md in commit messages causes requests to route to extra usage billing</title>
@@ -239,6 +239,18 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47927903&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/04/30/top_stories_04302026#story-47927903&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Why does it take so long to release black fan versions?</title>
+      <link>https://www.noctua.at/en/expertise/blog/how-can-it-take-so-long-to-release-black-fan-versions</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47983352</guid>
+      <dc:creator>buildbot</dc:creator>
+      <pubDate>Sat, 02 May 2026 04:38:04 +0000</pubDate>
+      <category>Hardware</category>
+      <description>&lt;p&gt;Manufacturing a black edition requires retooling lines, requalifying components, and coordinating color coatings with supply chains, QA, and certification work. That combination slows the release cadence even as base models ship.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;黑色版风扇的推出需要在制造线上进行重新布置、重新进行组件认证，并协调涂层、原料与供应链等环节，再加上严格的质量检测与认证流程。这些综合因素使得新版本的上市节奏明显慢于原厂标准款。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 735 · 💬 294 · Hardware&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47983352&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/03/top_stories_05032026#story-47983352&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Can I disable all data collection from my vehicle?</title>
       <link>https://rivian.com/support/article/can-i-disable-all-data-collection-from-my-vehicle</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=47967786</guid>
@@ -249,18 +261,6 @@
 &lt;p&gt;&lt;em&gt;多数车企允许关闭某些数据收集，但完全禁用遥测往往因安全性、功能性和更新需求而受限。Rivian 的指南显示哪些数据可以关闭、哪些仍然被收集用于安全与导航等核心功能。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 734 · 💬 332 · Privacy&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47967786&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/01/top_stories_05012026#story-47967786&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Why does it take so long to release black fan versions?</title>
-      <link>https://www.noctua.at/en/expertise/blog/how-can-it-take-so-long-to-release-black-fan-versions</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47983352</guid>
-      <dc:creator>buildbot</dc:creator>
-      <pubDate>Sat, 02 May 2026 04:38:04 +0000</pubDate>
-      <category>Hardware</category>
-      <description>&lt;p&gt;Manufacturing a black edition requires retooling lines, requalifying components, and coordinating color coatings with supply chains, QA, and certification work. That combination slows the release cadence even as base models ship.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;黑色版风扇的推出需要在制造线上进行重新布置、重新进行组件认证，并协调涂层、原料与供应链等环节，再加上严格的质量检测与认证流程。这些综合因素使得新版本的上市节奏明显慢于原厂标准款。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 731 · 💬 294 · Hardware&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47983352&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/02/top_stories_05022026#story-47983352&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>How Mark Klein told the EFF about Room 641A [book excerpt]</title>
@@ -447,12 +447,12 @@
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=47977026</guid>
       <dc:creator>indigodaddy</dc:creator>
       <pubDate>Fri, 01 May 2026 16:52:43 +0000</pubDate>
-      <category>Data</category>
       <category>AI</category>
+      <category>Data</category>
       <description>&lt;p&gt;DeepSeek V4 pushes closer to the frontier of data-search tooling, with improvements in indexing speed and user workflow. It frames how this version stacks up against peers and what the next leap in AI-assisted data discovery might look like.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;DeepSeek V4 靠近数据检索工具的前沿，在索引速度和工作流方面有显著改进。它评估了该版本与同类产品的差异以及AI辅助数据发现的下一步可能走向。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 563 · 💬 341 · Data · AI&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47977026&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/02/top_stories_05022026#story-47977026&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;small&gt;▲ 574 · 💬 348 · AI · Data&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47977026&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/03/top_stories_05032026#story-47977026&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Soft launch of open-source code platform for government</title>
@@ -467,6 +467,18 @@
 &lt;p&gt;&lt;em&gt;由政府牵头的开源代码平台进入软启动阶段，邀请开发者参与测试和贡献。此举旨在加速公共部门软件现代化、提升安全性并减少厂商锁定。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 545 · 💬 124 · Open Source · Security · Politics&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47945918&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/04/29/top_stories_04292026#story-47945918&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dav2d</title>
+      <link>https://code.videolan.org/videolan/dav2d</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47988504</guid>
+      <dc:creator>dabinat</dc:creator>
+      <pubDate>Sat, 02 May 2026 17:32:29 +0000</pubDate>
+      <category>Open Source</category>
+      <description>&lt;p&gt;Dav2d is an open-source, high-performance AV1 decoder from VideoLAN designed for speed and portability. It underscores ongoing efforts to improve decoding efficiency for modern codecs across media ecosystems and embedded devices.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Dav2d 是 VideoLAN 推出的开源高性能 AV1 解码库，强调在多平台/嵌入式设备上提升现代编解码效率。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 540 · 💬 151 · Open Source&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47988504&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/03/top_stories_05032026#story-47988504&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Flipdiscs</title>
@@ -495,19 +507,6 @@
 &lt;p&gt;&lt;em&gt;炼油厂通过塔式蒸馏等工艺把原油分离成燃料和化工原料，再经裂解、改质和混合进行深加工。这个过程规模庞大、能耗高，是能源经济的核心，理解其流程有助于把握能源市场的运行。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 527 · 💬 191 · Energy · Science · DevOps&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47962548&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/01/top_stories_05012026#story-47962548&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Dav2d</title>
-      <link>https://code.videolan.org/videolan/dav2d</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47988504</guid>
-      <dc:creator>dabinat</dc:creator>
-      <pubDate>Sat, 02 May 2026 17:32:29 +0000</pubDate>
-      <category>Open Source</category>
-      <category>Programming</category>
-      <description>&lt;p&gt;Dav2d is an open-source, high-performance AV1 decoder from VideoLAN designed for speed and portability. It underscores ongoing efforts to improve decoding efficiency for modern codecs across media ecosystems and embedded devices.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Dav2d 是 VideoLAN 推出的开源高性能 AV1 解码库，强调在多平台/嵌入式设备上提升现代编解码效率。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 522 · 💬 147 · Open Source · Programming&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47988504&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/02/top_stories_05022026#story-47988504&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Meta in row after workers who saw smart glasses users having sex lose jobs</title>
@@ -601,6 +600,18 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47949642&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/04/30/top_stories_04302026#story-47949642&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>NetHack 5.0.0</title>
+      <link>https://nethack.org/v500/release.html</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47988776</guid>
+      <dc:creator>rsaarelm</dc:creator>
+      <pubDate>Sat, 02 May 2026 18:03:42 +0000</pubDate>
+      <category>Gaming</category>
+      <description>&lt;p&gt;NetHack 5.0.0 marks a milestone release for the long-running roguelike, delivering extensive bug fixes, balance tweaks, and quality-of-life improvements. The update stabilizes gameplay across platforms while preserving the game's classic depth, offering newcomers a gentler entry point without sacrificing veteran strategy.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;这是对这款长期运行的roguelike的里程碑式更新，带来大量的错误修正、平衡调整和提升体验的改进。新版本在多平台上稳定玩法，同时保留了原有的深度，为新手和老玩家都提供更友善的入门体验。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 473 · 💬 157 · Gaming&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47988776&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/03/top_stories_05032026#story-47988776&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>UAE to leave OPEC</title>
       <link>https://www.ft.com/content/8c354f2d-3e66-47f1-aad4-9b4aa30e386d</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=47933983</guid>
@@ -612,18 +623,6 @@
 &lt;p&gt;&lt;em&gt;阿联酋将离开欧佩克，可能重塑能源市场格局，影响产量协议、油价与地缘关系的走向。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 470 · 💬 622 · Politics · Energy&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47933983&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/04/29/top_stories_04292026#story-47933983&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>NetHack 5.0.0</title>
-      <link>https://nethack.org/v500/release.html</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47988776</guid>
-      <dc:creator>rsaarelm</dc:creator>
-      <pubDate>Sat, 02 May 2026 18:03:42 +0000</pubDate>
-      <category>Gaming</category>
-      <description>&lt;p&gt;NetHack 5.0.0 marks a milestone release for the long-running roguelike, delivering extensive bug fixes, balance tweaks, and quality-of-life improvements. The update stabilizes gameplay across platforms while preserving the game's classic depth, offering newcomers a gentler entry point without sacrificing veteran strategy.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;这是对这款长期运行的roguelike的里程碑式更新，带来大量的错误修正、平衡调整和提升体验的改进。新版本在多平台上稳定玩法，同时保留了原有的深度，为新手和老玩家都提供更友善的入门体验。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 469 · 💬 155 · Gaming&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47988776&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/02/top_stories_05022026#story-47988776&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>City Learns Flock Accessed Cameras in Children's Gymnastics Room as a Sales Demo</title>
