@@ -5,7 +5,7 @@
     <link>https://chaowang15.github.io/hackernews/</link>
     <description>Curated daily digest of top Hacker News stories with AI-generated summaries, tags, and bilingual translations.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 03 May 2026 08:10:52 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 03 May 2026 13:21:31 +0000</lastBuildDate>
     <generator>Hacker News Daily RSS Builder</generator>
     <atom:link href="https://chaowang15.github.io/hackernews/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
@@ -72,6 +72,19 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47963204&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/01/top_stories_05012026#story-47963204&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>VS Code inserting 'Co-Authored-by Copilot' into commits regardless of usage</title>
+      <link>https://github.com/microsoft/vscode/pull/310226</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47989883</guid>
+      <dc:creator>indrora</dc:creator>
+      <pubDate>Sat, 02 May 2026 19:57:26 +0000</pubDate>
+      <category>AI</category>
+      <category>Programming</category>
+      <description>&lt;p&gt;A bug in the editor causes commits to automatically include a Co-Authored-by: Copilot trailer, even when Copilot wasn't used. The behavior fragments authorship signals in Git metadata and could misattribute work, prompting a patch in the works. This highlights the broader challenge of AI-assisted attribution within developer tooling.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;编辑器存在一个错误，会在提交中自动插入 Co-Authored-by: Copilot 标签，即使未使用 Copilot。该行为会导致 Git 元数据中的署名信息失真，促使相关修复被推进。这凸显了在开发工具中处理 AI 署名的广泛挑战。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 1293 · 💬 680 · AI · Programming&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47989883&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/02/top_stories_05022026#story-47989883&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>HERMES.md in commit messages causes requests to route to extra usage billing</title>
       <link>https://github.com/anthropics/claude-code/issues/53262</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=47952722</guid>
@@ -96,19 +109,6 @@
 &lt;p&gt;&lt;em&gt;Cursor Camp 是 Neal.fun 推出的一款有趣的浏览器演示，聚焦光标交互。通过一个简短的实验，展示了微小的 UX 设计选择如何影响用户参与和直觉。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 1183 · 💬 187 · Design · Web&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47949939&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/04/30/top_stories_04302026#story-47949939&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>VS Code inserting 'Co-Authored-by Copilot' into commits regardless of usage</title>
-      <link>https://github.com/microsoft/vscode/pull/310226</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47989883</guid>
-      <dc:creator>indrora</dc:creator>
-      <pubDate>Sat, 02 May 2026 19:57:26 +0000</pubDate>
-      <category>Programming</category>
-      <category>AI</category>
-      <description>&lt;p&gt;A bug in the editor causes commits to automatically include a Co-Authored-by: Copilot trailer, even when Copilot wasn't used. The behavior fragments authorship signals in Git metadata and could misattribute work, prompting a patch in the works. This highlights the broader challenge of AI-assisted attribution within developer tooling.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;编辑器存在一个错误，会在提交中自动插入 Co-Authored-by: Copilot 标签，即使未使用 Copilot。该行为会导致 Git 元数据中的署名信息失真，促使相关修复被推进。这凸显了在开发工具中处理 AI 署名的广泛挑战。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 1112 · 💬 534 · Programming · AI&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47989883&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/03/top_stories_05032026#story-47989883&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>I bought Friendster for $30k – Here's what I'm doing with it</title>
@@ -259,8 +259,8 @@
       <category>Hardware</category>
       <description>&lt;p&gt;Manufacturing a black edition requires retooling lines, requalifying components, and coordinating color coatings with supply chains, QA, and certification work. That combination slows the release cadence even as base models ship.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;黑色版风扇的推出需要在制造线上进行重新布置、重新进行组件认证，并协调涂层、原料与供应链等环节，再加上严格的质量检测与认证流程。这些综合因素使得新版本的上市节奏明显慢于原厂标准款。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 720 · 💬 292 · Hardware&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47983352&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/03/top_stories_05032026#story-47983352&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;small&gt;▲ 731 · 💬 294 · Hardware&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47983352&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/02/top_stories_05022026#story-47983352&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>How Mark Klein told the EFF about Room 641A [book excerpt]</title>
@@ -351,6 +351,20 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47920074&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/04/27/top_stories_04272026#story-47920074&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>The gay jailbreak technique (2025)</title>
+      <link>https://github.com/Exocija/ZetaLib/blob/main/The%20Gay%20Jailbreak/The%20Gay%20Jailbreak.md</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47977134</guid>
+      <dc:creator>bobsmooth</dc:creator>
+      <pubDate>Fri, 01 May 2026 16:59:35 +0000</pubDate>
+      <category>Security</category>
+      <category>AI</category>
+      <category>Programming</category>
+      <description>&lt;p&gt;A GitHub doc exposes a jailbreak technique named 'The Gay Jailbreak' that demonstrates prompt-injection and safety bypass methods for large language models. It underscores the ongoing arms race between researchers strengthening AI safety and attackers probing guardrails, with implications for defense and policy.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;一份 GitHub 文档披露了名为“The Gay Jailbreak”的越狱技术，展示了通过提示注入绕过大型语言模型安全机制的方法。它凸显了AI 安全研究与对抗之间的博弈，以及对防御与政策的持续影响。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 641 · 💬 251 · Security · AI · Programming&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47977134&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/02/top_stories_05022026#story-47977134&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Mozilla's opposition to Chrome's Prompt API</title>
       <link>https://github.com/mozilla/standards-positions/issues/1213#issuecomment-4347988313</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=47959463</guid>
@@ -375,20 +389,6 @@
 &lt;p&gt;&lt;em&gt;Asahi Linux Progress Linux 7.0 在 ARM Mac 兼容性、早期启动问题和开发工具方面取得改进，持续缩小 Apple Silicon 与开源 Linux 之间的差距。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 618 · 💬 313 · Open Source · Hardware&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47909226&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/04/27/top_stories_04272026#story-47909226&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>The gay jailbreak technique (2025)</title>
-      <link>https://github.com/Exocija/ZetaLib/blob/main/The%20Gay%20Jailbreak/The%20Gay%20Jailbreak.md</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47977134</guid>
-      <dc:creator>bobsmooth</dc:creator>
-      <pubDate>Fri, 01 May 2026 16:59:35 +0000</pubDate>
-      <category>Security</category>
-      <category>AI</category>
-      <category>Programming</category>
-      <description>&lt;p&gt;A GitHub doc exposes a jailbreak technique named 'The Gay Jailbreak' that demonstrates prompt-injection and safety bypass methods for large language models. It underscores the ongoing arms race between researchers strengthening AI safety and attackers probing guardrails, with implications for defense and policy.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;一份 GitHub 文档披露了名为“The Gay Jailbreak”的越狱技术，展示了通过提示注入绕过大型语言模型安全机制的方法。它凸显了AI 安全研究与对抗之间的博弈，以及对防御与政策的持续影响。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 601 · 💬 241 · Security · AI · Programming&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47977134&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/02/top_stories_05022026#story-47977134&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>We need a federation of forges</title>
@@ -416,6 +416,18 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47965108&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/01/top_stories_05012026#story-47965108&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Ti-84 Evo</title>
+      <link>https://education.ti.com/en/products/calculators/graphing-calculators/ti-84-evo</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47979583</guid>
+      <dc:creator>thatxliner</dc:creator>
+      <pubDate>Fri, 01 May 2026 20:06:59 +0000</pubDate>
+      <category>Hardware</category>
+      <description>&lt;p&gt;Texas Instruments unveils the TI-84 Evo, a refreshed TI-84 graphing calculator aimed at students. It aims to deliver a snappier experience and better usability to keep calculators relevant in a classroom with modern devices. The update signals continued refinement of educational hardware rather than a switch to entirely different devices.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;德州仪器推出 TI-84 Evo，作为 TI-84 图形计算器系列的更新版本，瞄准学生市场。新机型力求提升运行体验和可用性，使在使用笔记本和平板的课堂环境中，计算器仍具相关性。此次更新体现了教育硬件的持续改进，而非转向完全依赖其他设备。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 583 · 💬 472 · Hardware&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47979583&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/02/top_stories_05022026#story-47979583&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>4TB of voice samples just stolen from 40k AI contractors at Mercor</title>
       <link>https://app.oravys.com/blog/mercor-breach-2026</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=47919630</guid>
@@ -430,17 +442,17 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47919630&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/04/28/top_stories_04282026#story-47919630&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Ti-84 Evo</title>
-      <link>https://education.ti.com/en/products/calculators/graphing-calculators/ti-84-evo</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47979583</guid>
-      <dc:creator>thatxliner</dc:creator>
-      <pubDate>Fri, 01 May 2026 20:06:59 +0000</pubDate>
-      <category>Hardware</category>
-      <category>Education</category>
-      <description>&lt;p&gt;Texas Instruments unveils the TI-84 Evo, a refreshed TI-84 graphing calculator aimed at students. It aims to deliver a snappier experience and better usability to keep calculators relevant in a classroom with modern devices. The update signals continued refinement of educational hardware rather than a switch to entirely different devices.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;德州仪器推出 TI-84 Evo，作为 TI-84 图形计算器系列的更新版本，瞄准学生市场。新机型力求提升运行体验和可用性，使在使用笔记本和平板的课堂环境中，计算器仍具相关性。此次更新体现了教育硬件的持续改进，而非转向完全依赖其他设备。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 547 · 💬 447 · Hardware · Education&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47979583&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/02/top_stories_05022026#story-47979583&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+      <title>DeepSeek V4 – almost on the frontier</title>
+      <link>https://simonwillison.net/2026/Apr/24/deepseek-v4/</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47977026</guid>
+      <dc:creator>indigodaddy</dc:creator>
+      <pubDate>Fri, 01 May 2026 16:52:43 +0000</pubDate>
+      <category>Data</category>
+      <category>AI</category>
+      <description>&lt;p&gt;DeepSeek V4 pushes closer to the frontier of data-search tooling, with improvements in indexing speed and user workflow. It frames how this version stacks up against peers and what the next leap in AI-assisted data discovery might look like.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;DeepSeek V4 靠近数据检索工具的前沿，在索引速度和工作流方面有显著改进。它评估了该版本与同类产品的差异以及AI辅助数据发现的下一步可能走向。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 563 · 💬 341 · Data · AI&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47977026&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/02/top_stories_05022026#story-47977026&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Soft launch of open-source code platform for government</title>
@@ -471,18 +483,6 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47875795&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/04/27/top_stories_04272026#story-47875795&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>DeepSeek V4—almost on the frontier</title>
-      <link>https://simonwillison.net/2026/Apr/24/deepseek-v4/</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47977026</guid>
-      <dc:creator>indigodaddy</dc:creator>
-      <pubDate>Fri, 01 May 2026 16:52:43 +0000</pubDate>
-      <category>AI</category>
-      <description>&lt;p&gt;DeepSeek V4 pushes closer to the frontier of search tooling, with improvements in indexing, retrieval, and possibly integration with LLMs. It signals ongoing progress in making AI-assisted search more practical and scalable.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;DeepSeek V4 的改进让检索工具更接近技术前沿，涵盖索引、检索及与大模型的潜在整合等方面，推动 AI 辅助搜索的实用化与扩展性。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 533 · 💬 324 · AI&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47977026&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/03/top_stories_05032026#story-47977026&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>How an oil refinery works</title>
       <link>https://www.construction-physics.com/p/how-an-oil-refinery-works</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=47962548</guid>
@@ -495,6 +495,19 @@
 &lt;p&gt;&lt;em&gt;炼油厂通过塔式蒸馏等工艺把原油分离成燃料和化工原料，再经裂解、改质和混合进行深加工。这个过程规模庞大、能耗高，是能源经济的核心，理解其流程有助于把握能源市场的运行。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 527 · 💬 191 · Energy · Science · DevOps&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47962548&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/01/top_stories_05012026#story-47962548&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dav2d</title>
+      <link>https://code.videolan.org/videolan/dav2d</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47988504</guid>
+      <dc:creator>dabinat</dc:creator>
+      <pubDate>Sat, 02 May 2026 17:32:29 +0000</pubDate>
+      <category>Open Source</category>
+      <category>Programming</category>
+      <description>&lt;p&gt;Dav2d is an open-source, high-performance AV1 decoder from VideoLAN designed for speed and portability. It underscores ongoing efforts to improve decoding efficiency for modern codecs across media ecosystems and embedded devices.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Dav2d 是 VideoLAN 推出的开源高性能 AV1 解码库，强调在多平台/嵌入式设备上提升现代编解码效率。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 522 · 💬 147 · Open Source · Programming&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47988504&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/02/top_stories_05022026#story-47988504&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Meta in row after workers who saw smart glasses users having sex lose jobs</title>
@@ -601,6 +614,31 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47933983&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/04/29/top_stories_04292026#story-47933983&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>NetHack 5.0.0</title>
+      <link>https://nethack.org/v500/release.html</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47988776</guid>
+      <dc:creator>rsaarelm</dc:creator>
+      <pubDate>Sat, 02 May 2026 18:03:42 +0000</pubDate>
+      <category>Gaming</category>
+      <description>&lt;p&gt;NetHack 5.0.0 marks a milestone release for the long-running roguelike, delivering extensive bug fixes, balance tweaks, and quality-of-life improvements. The update stabilizes gameplay across platforms while preserving the game's classic depth, offering newcomers a gentler entry point without sacrificing veteran strategy.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;这是对这款长期运行的roguelike的里程碑式更新，带来大量的错误修正、平衡调整和提升体验的改进。新版本在多平台上稳定玩法，同时保留了原有的深度，为新手和老玩家都提供更友善的入门体验。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 469 · 💬 155 · Gaming&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47988776&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/02/top_stories_05022026#story-47988776&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>City Learns Flock Accessed Cameras in Children's Gymnastics Room as a Sales Demo</title>
+      <link>https://www.404media.co/city-learns-flock-accessed-cameras-in-childrens-gymnastics-room-as-a-sales-pitch-demo-renews-contract-anyway/</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47978370</guid>
+      <dc:creator>joshcsimmons</dc:creator>
+      <pubDate>Fri, 01 May 2026 18:37:47 +0000</pubDate>
+      <category>Privacy</category>
+      <category>Security</category>
+      <description>&lt;p&gt;City learned that Flock cameras accessed cameras in a children's gymnastics room as a sales demo, raising privacy and governance concerns for surveillance tech vendors.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;市政府发现 Flock 摄像头在儿童体操房被用作销售演示时访问摄像头，引发对监控技术供应商隐私与治理的担忧。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 459 · 💬 122 · Privacy · Security&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47978370&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/02/top_stories_05022026#story-47978370&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Shai-Hulud Themed Malware Found in the PyTorch Lightning AI Training Library</title>
       <link>https://semgrep.dev/blog/2026/malicious-dependency-in-pytorch-lightning-used-for-ai-training/</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=47964617</guid>
@@ -612,44 +650,6 @@
 &lt;p&gt;&lt;em&gt;研究人员在 PyTorch Lightning 的 AI 训练库中发现了一个带有 Shai-Hulud 主题的恶意依赖。此事件暴露了机器学习工具链的持续供应链风险——核心库可能被劫持或被植入恶意代码。强调对依赖项的严格审查、供应商审核，以及可重复环境的重要性，以确保 ML 工作流安全。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 459 · 💬 177 · Security · AI&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47964617&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/01/top_stories_05012026#story-47964617&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Noctua releases official 3D CAD models for its cooling fans</title>
-      <link>https://www.noctua.at/en/3d-cad-models</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47927627</guid>
-      <dc:creator>embedding-shape</dc:creator>
-      <pubDate>Mon, 27 Apr 2026 21:35:07 +0000</pubDate>
-      <category>Hardware</category>
-      <category>Open Source</category>
-      <description>&lt;p&gt;Noctua releases official 3D CAD models for its cooling fans, enabling engineers to integrate high-quality fans into PC builds and hardware designs with accurate dimensions. The models cover multiple formats and licensing terms, streamlining CAD workflows.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Noctua 发布了官方风扇的 3D CAD 模型，使工程师能够在 PC 构建与硬件设计中准确对接风扇尺寸并无缝集成。提供多种格式与许可条款，简化 CAD 工作流程。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 456 · 💬 99 · Hardware · Open Source&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47927627&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/04/30/top_stories_04302026#story-47927627&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Opus 4.7 knows the real Kelsey</title>
-      <link>https://www.theargumentmag.com/p/i-can-never-talk-to-an-ai-anonymously</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47951295</guid>
-      <dc:creator>ilamont</dc:creator>
-      <pubDate>Wed, 29 Apr 2026 17:09:03 +0000</pubDate>
-      <category>Privacy</category>
-      <category>AI</category>
-      <description>&lt;p&gt;Opus 4.7 claims to know the real Kelsey, raising questions about identity, privacy, and how AI systems handle sensitive personal information.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Opus 4.7 声称识别出真实的 Kelsey，引发关于身份、隐私以及 AI 系统如何处理敏感个人信息的关注。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 455 · 💬 245 · Privacy · AI&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47951295&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/01/top_stories_05012026#story-47951295&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Dav2d</title>
-      <link>https://code.videolan.org/videolan/dav2d</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47988504</guid>
-      <dc:creator>dabinat</dc:creator>
-      <pubDate>Sat, 02 May 2026 17:32:29 +0000</pubDate>
-      <category>Open Source</category>
-      <description>&lt;p&gt;Dav2d is an open-source, high-performance AV1 decoder from VideoLAN designed for speed and portability. It underscores ongoing efforts to improve decoding efficiency for modern codecs across media ecosystems and embedded devices.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Dav2d 是 VideoLAN 推出的开源高性能 AV1 解码库，强调在多平台/嵌入式设备上提升现代编解码效率。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 453 · 💬 122 · Open Source&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47988504&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/03/top_stories_05032026#story-47988504&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
