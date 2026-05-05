@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='319' data-hn-time='1777918962'>
+<div class='hn-top-story-item' data-hn-score='304' data-hn-time='1777943297'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/04/top_stories_05042026#story-48012735'>Microsoft Edge stores all passwords in memory in clear text, even when unused</a>
- <a class='hn-top-story-link' href='https://twitter.com/L1v1ng0ffTh3L4N/status/2051308329880719730' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/04/top_stories_05042026#story-48016880'>Bun is being ported from Zig to Rust</a>
+ <a class='hn-top-story-link' href='https://github.com/oven-sh/bun/commit/46d3bc29f270fa881dd5730ef1549e88407701a5' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Microsoft Edge 将所有密码以明文存储在内存中，即使未使用时也如此</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 319</span> <span class='hn-top-story-comments'>&#128172; 127</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>Bun 正从 Zig 迁移到 Rust</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 13</span> <span class='hn-top-story-score'>&#9650; 304</span> <span class='hn-top-story-comments'>&#128172; 205</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='1013' data-hn-time='1777894862'>
+<div class='hn-top-story-item' data-hn-score='207' data-hn-time='1777939741'>
 <span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/04/top_stories_05042026#story-48016534'>Y Combinator's Stake in OpenAI (0.6%)</a>
+ <a class='hn-top-story-link' href='https://daringfireball.net/2026/05/y_combinators_stake_in_openai' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>YC 对 OpenAI 的持股（0.6%）</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.5</span> <span class='hn-top-story-score'>&#9650; 207</span> <span class='hn-top-story-comments'>&#128172; 18</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='110' data-hn-time='1777946901'>
+<span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/04/top_stories_05042026#story-48017298'>What I'm Hearing About Cognitive Debt (So Far)</a>
+ <a class='hn-top-story-link' href='https://margaretstorey.com/blog/2026/02/18/cognitive-debt-revisited/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>关于认知债务的初步观察</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.4</span> <span class='hn-top-story-score'>&#9650; 110</span> <span class='hn-top-story-comments'>&#128172; 48</span> <span class='hn-top-story-tag'>Education</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='1259' data-hn-time='1777894862'>
+<span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/05/04/top_stories_05042026#story-48007438'>Talking to strangers at the gym</a>
  <a class='hn-top-story-link' href='https://thienantran.com/talking-to-35-strangers-at-the-gym/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>在健身房与35位陌生人交流</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.8</span> <span class='hn-top-story-score'>&#9650; 1013</span> <span class='hn-top-story-comments'>&#128172; 491</span> <span class='hn-top-story-tag'>Culture</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.1</span> <span class='hn-top-story-score'>&#9650; 1259</span> <span class='hn-top-story-comments'>&#128172; 590</span> <span class='hn-top-story-tag'>Culture</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='344' data-hn-time='1777916192'>
-<span class='hn-top-story-rank'>3</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/04/top_stories_05042026#story-48012022'>Days without GitHub incidents</a>
- <a class='hn-top-story-link' href='https://www.dayswithoutgithubincident.com/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Days without GitHub incidents</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.8</span> <span class='hn-top-story-score'>&#9650; 344</span> <span class='hn-top-story-comments'>&#128172; 141</span> <span class='hn-top-story-tag'>DevOps</span> <span class='hn-top-story-tag'>Programming</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='369' data-hn-time='1777914996'>
-<span class='hn-top-story-rank'>4</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/04/top_stories_05042026#story-48011689'>US healthcare marketplaces shared citizenship and race data with ad tech giants</a>
- <a class='hn-top-story-link' href='https://techcrunch.com/2026/05/04/us-healthcare-marketplaces-shared-citizenship-and-race-data-with-ad-tech-giants/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>美国医保市场向广告科技巨头共享公民身份与种族数据</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.7</span> <span class='hn-top-story-score'>&#9650; 369</span> <span class='hn-top-story-comments'>&#128172; 127</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Health</span> <span class='hn-top-story-tag'>Politics</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='161' data-hn-time='1777923767'>
+<div class='hn-top-story-item' data-hn-score='474' data-hn-time='1777918962'>
 <span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/04/top_stories_05042026#story-48012735'>Microsoft Edge stores all passwords in memory in clear text, even when unused</a>
+ <a class='hn-top-story-link' href='https://twitter.com/L1v1ng0ffTh3L4N/status/2051308329880719730' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Microsoft Edge 将所有密码以明文存储在内存中，即使未使用时也如此</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.0</span> <span class='hn-top-story-score'>&#9650; 474</span> <span class='hn-top-story-comments'>&#128172; 165</span> <span class='hn-top-story-tag'>Security</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='340' data-hn-time='1777923767'>
+<span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/05/04/top_stories_05042026#story-48013919'>How OpenAI delivers low-latency voice AI at scale</a>
  <a class='hn-top-story-link' href='https://openai.com/index/delivering-low-latency-voice-ai-at-scale/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>OpenAI 如何在大规模部署中实现低延迟语音 AI</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.5</span> <span class='hn-top-story-score'>&#9650; 161</span> <span class='hn-top-story-comments'>&#128172; 67</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.3</span> <span class='hn-top-story-score'>&#9650; 340</span> <span class='hn-top-story-comments'>&#128172; 110</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='412' data-hn-time='1777910001'>
-<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='460' data-hn-time='1777914996'>
+<span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/04/top_stories_05042026#story-48010301'>Incident with Issues and Webhooks – Resolved</a>
- <a class='hn-top-story-link' href='https://www.githubstatus.com/incidents/72q3n8yxthcy' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/04/top_stories_05042026#story-48011689'>US healthcare marketplaces shared citizenship and race data with ad tech giants</a>
+ <a class='hn-top-story-link' href='https://techcrunch.com/2026/05/04/us-healthcare-marketplaces-shared-citizenship-and-race-data-with-ad-tech-giants/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>问题与 Webhook 相关事件已解决</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.0</span> <span class='hn-top-story-score'>&#9650; 412</span> <span class='hn-top-story-comments'>&#128172; 239</span> <span class='hn-top-story-tag'>DevOps</span></div>
+<div class='hn-top-story-zh'>美国医保市场向广告科技巨头共享公民身份与种族数据</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.1</span> <span class='hn-top-story-score'>&#9650; 460</span> <span class='hn-top-story-comments'>&#128172; 153</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Health</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='331' data-hn-time='1777913100'>
-<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='446' data-hn-time='1777913100'>
+<span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/05/04/top_stories_05042026#story-48011184'>I am worried about Bun</a>
  <a class='hn-top-story-link' href='https://wwj.dev/posts/i-am-worried-about-bun/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>我担心 Bun</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.7</span> <span class='hn-top-story-score'>&#9650; 331</span> <span class='hn-top-story-comments'>&#128172; 237</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.7</span> <span class='hn-top-story-score'>&#9650; 446</span> <span class='hn-top-story-comments'>&#128172; 298</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='179' data-hn-time='1777916115'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/04/top_stories_05042026#story-48012003'>Heat pump sales rise across Europe</a>
- <a class='hn-top-story-link' href='https://www.pv-magazine.com/2026/05/04/heat-pump-sales-rise-17-across-europe-in-q1-as-energy-prices-surge/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>欧洲热泵销量全面上升</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.1</span> <span class='hn-top-story-score'>&#9650; 179</span> <span class='hn-top-story-comments'>&#128172; 96</span> <span class='hn-top-story-tag'>Energy</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='80' data-hn-time='1777925513'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='32' data-hn-time='1777952588'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/04/top_stories_05042026#story-48014325'>Formatting a 25M-line codebase overnight</a>
- <a class='hn-top-story-link' href='https://stripe.dev/blog/formatting-an-entire-25-million-line-codebase-overnight-the-rubyfmt-story' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/04/top_stories_05042026#story-48017813'>CVE-2026-31431: Copy Fail vs. rootless containers</a>
+ <a class='hn-top-story-link' href='https://www.dragonsreach.it/2026/05/04/cve-2026-31431-copy-fail-rootless-containers/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>一夜之间格式化一个2500万行代码库的故事</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.0</span> <span class='hn-top-story-score'>&#9650; 80</span> <span class='hn-top-story-comments'>&#128172; 41</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>CVE-2026-31431：无根容器中的拷贝失败问题</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.7</span> <span class='hn-top-story-score'>&#9650; 32</span> <span class='hn-top-story-comments'>&#128172; 9</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>DevOps</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='191' data-hn-time='1777914657'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='182' data-hn-time='1777930842'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/04/top_stories_05042026#story-48011603'>Stop big tech from making users behave in ways they don't want to</a>
- <a class='hn-top-story-link' href='https://economist.com/by-invitation/2026/04/29/stop-big-tech-from-making-users-behave-in-ways-they-dont-want-to' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/04/top_stories_05042026#story-48015397'>Agent Skills</a>
+ <a class='hn-top-story-link' href='https://addyosmani.com/blog/agent-skills/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>阻止大科技强迫用户按其意愿行事</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.9</span> <span class='hn-top-story-score'>&#9650; 191</span> <span class='hn-top-story-comments'>&#128172; 125</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>代理技能</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 182</span> <span class='hn-top-story-comments'>&#128172; 70</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -164,7 +164,7 @@ Your browser does not support the audio element.
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/05/04/top_stories_05042026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>17</b> <span class="hn-row-sep">·</span> AI <b>16</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>18</b> <span class="hn-row-sep">·</span> Hardware <b>16</b></span>
 </a>
 </div>
 </div>
