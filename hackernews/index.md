@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>79</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>11415</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>77</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>77</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-05-05</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>79</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>11438</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>77</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>77</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-05-05</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,40 +20,40 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='454' data-hn-time='1777943297'>
+<div class='hn-top-story-item' data-hn-score='251' data-hn-time='1777990070'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/05/top_stories_05052026#story-48016880'>Bun is being ported from Zig to Rust</a>
- <a class='hn-top-story-link' href='https://github.com/oven-sh/bun/commit/46d3bc29f270fa881dd5730ef1549e88407701a5' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/05/top_stories_05052026#story-48022742'>AI didn't delete your database, you did</a>
+ <a class='hn-top-story-link' href='https://idiallo.com/blog/ai-didnt-delete-your-database-you-did' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Bun 正从 Zig 迁移到 Rust</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.3</span> <span class='hn-top-story-score'>&#9650; 454</span> <span class='hn-top-story-comments'>&#128172; 325</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-zh'>AI 没有删除你的数据库，是你自己把它弄丢了</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 23</span> <span class='hn-top-story-score'>&#9650; 251</span> <span class='hn-top-story-comments'>&#128172; 114</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Data</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='186' data-hn-time='1777954157'>
+<div class='hn-top-story-item' data-hn-score='201' data-hn-time='1777991364'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/05/top_stories_05052026#story-48017948'>Train Your Own LLM from Scratch</a>
- <a class='hn-top-story-link' href='https://github.com/angelos-p/llm-from-scratch' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/05/top_stories_05052026#story-48022992'>The best is over: The fun has been optimized out of the Internet</a>
+ <a class='hn-top-story-link' href='https://muddy.jprs.me/posts/2026-05-03-the-best-is-over/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>从头训练自己的大语言模型</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.9</span> <span class='hn-top-story-score'>&#9650; 186</span> <span class='hn-top-story-comments'>&#128172; 22</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-zh'>最好的一切已经过去：互联网的乐趣被过度优化</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 22</span> <span class='hn-top-story-score'>&#9650; 201</span> <span class='hn-top-story-comments'>&#128172; 127</span> <span class='hn-top-story-tag'>Design</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='48' data-hn-time='1777965963'>
+<div class='hn-top-story-item' data-hn-score='222' data-hn-time='1777984108'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/05/top_stories_05052026#story-48019163'>Async Rust never left the MVP state</a>
- <a class='hn-top-story-link' href='https://tweedegolf.nl/en/blog/237/async-rust-never-left-the-mvp-state' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/05/top_stories_05052026#story-48021561'>iOS 27 is adding a 'Create a Pass' button to Apple Wallet</a>
+ <a class='hn-top-story-link' href='https://walletwallet.alen.ro/blog/ios-27-wallet-create-pass/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>异步 Rust 仍处于 MVP 阶段</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.8</span> <span class='hn-top-story-score'>&#9650; 48</span> <span class='hn-top-story-comments'>&#128172; 7</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>iOS 27 将在 Apple Wallet 增设“创建凭证”按钮</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 10</span> <span class='hn-top-story-score'>&#9650; 222</span> <span class='hn-top-story-comments'>&#128172; 181</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='38' data-hn-time='1777966495'>
+<div class='hn-top-story-item' data-hn-score='690' data-hn-time='1777966495'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -61,73 +61,73 @@ Sort:
  <a class='hn-top-story-link' href='https://www.thatprivacyguy.com/blog/chrome-silent-nano-install/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>谷歌 Chrome 未经同意在设备上静默下载 4GB AI 模型</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.9</span> <span class='hn-top-story-score'>&#9650; 38</span> <span class='hn-top-story-comments'>&#128172; 21</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 10</span> <span class='hn-top-story-score'>&#9650; 690</span> <span class='hn-top-story-comments'>&#128172; 522</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='129' data-hn-time='1777955602'>
+<div class='hn-top-story-item' data-hn-score='162' data-hn-time='1777986047'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/05/top_stories_05052026#story-48018066'>About 10% of AMC movie showings sell zero tickets. This site finds them</a>
- <a class='hn-top-story-link' href='https://walzr.com/empty-screenings' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/05/top_stories_05052026#story-48021968'>AI Product Graveyard</a>
+ <a class='hn-top-story-link' href='https://tooldirectory.ai/ai-graveyard' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>AMC 放映场次零票：这个站点发现它们</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.4</span> <span class='hn-top-story-score'>&#9650; 129</span> <span class='hn-top-story-comments'>&#128172; 102</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>Web</span></div>
+<div class='hn-top-story-zh'>AI 产品坟场</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.2</span> <span class='hn-top-story-score'>&#9650; 162</span> <span class='hn-top-story-comments'>&#128172; 69</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1327' data-hn-time='1777894862'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='36' data-hn-time='1777993290'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/05/top_stories_05052026#story-48007438'>Talking to strangers at the gym</a>
- <a class='hn-top-story-link' href='https://thienantran.com/talking-to-35-strangers-at-the-gym/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/05/top_stories_05052026#story-48023473'>It's official: Utah is the U.S. state closest to banning VPNs</a>
+ <a class='hn-top-story-link' href='https://tech.yahoo.com/vpn/article/its-official-utah-is-the-us-state-closest-to-banning-vpns-153556814.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>在健身房与35位陌生人交流</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.8</span> <span class='hn-top-story-score'>&#9650; 1327</span> <span class='hn-top-story-comments'>&#128172; 628</span> <span class='hn-top-story-tag'>Culture</span></div>
+<div class='hn-top-story-zh'>官方确认：犹他州是最接近全面禁止 VPN 的美国州</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.2</span> <span class='hn-top-story-score'>&#9650; 36</span> <span class='hn-top-story-comments'>&#128172; 20</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='301' data-hn-time='1777939741'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='338' data-hn-time='1777965963'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/05/top_stories_05052026#story-48016534'>Y Combinator's Stake in OpenAI (0.6%?)</a>
- <a class='hn-top-story-link' href='https://daringfireball.net/2026/05/y_combinators_stake_in_openai' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/05/top_stories_05052026#story-48019163'>Async Rust never left the MVP state</a>
+ <a class='hn-top-story-link' href='https://tweedegolf.nl/en/blog/237/async-rust-never-left-the-mvp-state' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>YC 对 OpenAI 的持股（0.6%）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.6</span> <span class='hn-top-story-score'>&#9650; 301</span> <span class='hn-top-story-comments'>&#128172; 47</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Startups</span></div>
+<div class='hn-top-story-zh'>异步 Rust 仍处于 MVP 阶段</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.9</span> <span class='hn-top-story-score'>&#9650; 338</span> <span class='hn-top-story-comments'>&#128172; 173</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='188' data-hn-time='1777946901'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='665' data-hn-time='1777943297'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/05/top_stories_05052026#story-48017298'>What I'm Hearing About Cognitive Debt (So Far)</a>
- <a class='hn-top-story-link' href='https://margaretstorey.com/blog/2026/02/18/cognitive-debt-revisited/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/05/top_stories_05052026#story-48016880'>Bun is being ported from Zig to Rust</a>
+ <a class='hn-top-story-link' href='https://github.com/oven-sh/bun/commit/46d3bc29f270fa881dd5730ef1549e88407701a5' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>关于认知债务的初步观察</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 188</span> <span class='hn-top-story-comments'>&#128172; 110</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>Bun 正从 Zig 迁移到 Rust</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.1</span> <span class='hn-top-story-score'>&#9650; 665</span> <span class='hn-top-story-comments'>&#128172; 475</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='522' data-hn-time='1777918962'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='160' data-hn-time='1777973422'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/05/top_stories_05052026#story-48012735'>Microsoft Edge stores all passwords in memory in clear text, even when unused</a>
- <a class='hn-top-story-link' href='https://twitter.com/L1v1ng0ffTh3L4N/status/2051308329880719730' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/05/top_stories_05052026#story-48020063'>When everyone has AI and the company still learns nothing</a>
+ <a class='hn-top-story-link' href='https://www.robert-glaser.de/when-everyone-has-ai-and-the-company-still-learns-nothing/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Microsoft Edge 将所有密码以明文存储在内存中，即使未使用时也如此</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 522</span> <span class='hn-top-story-comments'>&#128172; 186</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>当人人都在用 AI，而公司却没有学到任何东西</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 160</span> <span class='hn-top-story-comments'>&#128172; 98</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='75' data-hn-time='1777955784'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='376' data-hn-time='1777954157'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/05/top_stories_05052026#story-48018080'>Kids bypass age verification with fake moustaches</a>
- <a class='hn-top-story-link' href='https://www.theregister.com/2026/05/04/uk_online_safety_act_age_checks_subvert/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/05/top_stories_05052026#story-48017948'>Train Your Own LLM from Scratch</a>
+ <a class='hn-top-story-link' href='https://github.com/angelos-p/llm-from-scratch' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>孩子用假胡须绕过年龄验证</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 75</span> <span class='hn-top-story-comments'>&#128172; 32</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>从头训练自己的大语言模型</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 376</span> <span class='hn-top-story-comments'>&#128172; 43</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -155,7 +155,7 @@ Your browser does not support the audio element.
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 19 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-05-04 — 2026-05-05 <span class="hn-row-sep">·</span> 150 stories <span class="hn-row-sep">·</span> 2 days</span>
+<span class='hn-week-meta'>2026-05-04 — 2026-05-05 <span class="hn-row-sep">·</span> 173 stories <span class="hn-row-sep">·</span> 2 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -164,7 +164,7 @@ Your browser does not support the audio element.
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/05/05/top_stories_05052026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> Programming <b>11</b> <span class="hn-row-sep">·</span> AI <b>11</b></span>
+<span class='hn-row-detail'>All <b>73</b> <span class="hn-row-sep">·</span> AI <b>15</b> <span class="hn-row-sep">·</span> Programming <b>15</b></span>
 </a>
 </div>
 </div>
