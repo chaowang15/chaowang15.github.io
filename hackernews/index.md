@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>79</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>11460</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>77</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>77</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-05-05</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>79</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>11465</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>77</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>77</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-05-05</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,62 +20,62 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='174' data-hn-time='1778002098'>
+<div class='hn-top-story-item' data-hn-score='430' data-hn-time='1778012195'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/05/top_stories_05052026#story-48025687'>IBM didn't want Microsoft to use the Tab key to move between dialog fields</a>
- <a class='hn-top-story-link' href='https://devblogs.microsoft.com/oldnewthing/20260505-00/?p=112298' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/05/top_stories_05052026#story-48027897'>.de TLD offline due to DNSSEC?</a>
+ <a class='hn-top-story-link' href='https://dnssec-analyzer.verisignlabs.com/nic.de' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>IBM 不希望微软在对话框字段间用 Tab 键切换</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 16</span> <span class='hn-top-story-score'>&#9650; 174</span> <span class='hn-top-story-comments'>&#128172; 92</span> <span class='hn-top-story-tag'>Design</span></div>
+<div class='hn-top-story-zh'>.de 顶级域因 DNSSEC 离线？</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 29</span> <span class='hn-top-story-score'>&#9650; 430</span> <span class='hn-top-story-comments'>&#128172; 168</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='427' data-hn-time='1777990070'>
+<div class='hn-top-story-item' data-hn-score='391' data-hn-time='1777997657'>
 <span class='hn-top-story-rank'>2</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/05/top_stories_05052026#story-48022742'>AI didn't delete your database, you did</a>
- <a class='hn-top-story-link' href='https://idiallo.com/blog/ai-didnt-delete-your-database-you-did' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>AI 没有删除你的数据库，是你自己把它弄丢了</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 427</span> <span class='hn-top-story-comments'>&#128172; 226</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='90' data-hn-time='1778004260'>
-<span class='hn-top-story-rank'>3</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/05/top_stories_05052026#story-48026206'>Clarification on the Notepad++ Trademark Issue</a>
- <a class='hn-top-story-link' href='https://notepad-plus-plus.org/news/clarify-npp-trademark-infringement/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Notepad++ 商标争议澄清</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 90</span> <span class='hn-top-story-comments'>&#128172; 34</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Legal</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='199' data-hn-time='1777997657'>
-<span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/05/05/top_stories_05052026#story-48024540'>Accelerating Gemma 4: faster inference with multi-token prediction drafters</a>
  <a class='hn-top-story-link' href='https://blog.google/innovation-and-ai/technology/developers-tools/multi-token-prediction-gemma-4/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>加速 Gemma 4：通过多令牌预测提升推理速度</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 199</span> <span class='hn-top-story-comments'>&#128172; 76</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.2</span> <span class='hn-top-story-score'>&#9650; 391</span> <span class='hn-top-story-comments'>&#128172; 173</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='239' data-hn-time='1777994838'>
+<div class='hn-top-story-item' data-hn-score='268' data-hn-time='1778002098'>
+<span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/05/top_stories_05052026#story-48025687'>IBM didn't want Microsoft to use the Tab key to move between dialog fields</a>
+ <a class='hn-top-story-link' href='https://devblogs.microsoft.com/oldnewthing/20260505-00/?p=112298' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>IBM 不希望微软在对话框字段间用 Tab 键切换</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.4</span> <span class='hn-top-story-score'>&#9650; 268</span> <span class='hn-top-story-comments'>&#128172; 158</span> <span class='hn-top-story-tag'>Design</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='212' data-hn-time='1778004827'>
+<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/05/top_stories_05052026#story-48026349'>California farmers to destroy 420k peach trees following Del Monte bankruptcy</a>
+ <a class='hn-top-story-link' href='https://www.sfgate.com/centralcoast/article/usda-aid-california-farmers-22240694.php' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Del Monte 破产后，加州农民将毁掉42万棵桃树</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.2</span> <span class='hn-top-story-score'>&#9650; 212</span> <span class='hn-top-story-comments'>&#128172; 272</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>Politics</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='49' data-hn-time='1778017821'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/05/top_stories_05052026#story-48023861'>Three Inverse Laws of AI</a>
- <a class='hn-top-story-link' href='https://susam.net/inverse-laws-of-robotics.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/05/top_stories_05052026#story-48029114'>NPR finds "no sign" of Polymarket at its Panama HQ address</a>
+ <a class='hn-top-story-link' href='https://www.npr.org/2026/05/05/nx-s1-5807918/polymarket-panama-prediction-market' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>AI 的三条逆向律</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 10.0</span> <span class='hn-top-story-score'>&#9650; 239</span> <span class='hn-top-story-comments'>&#128172; 159</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>Polymarket在巴拿马总部地址无踪迹</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.9</span> <span class='hn-top-story-score'>&#9650; 49</span> <span class='hn-top-story-comments'>&#128172; 5</span> <span class='hn-top-story-tag'>Startups</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='883' data-hn-time='1777966495'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1147' data-hn-time='1777966495'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -83,51 +83,51 @@ Sort:
  <a class='hn-top-story-link' href='https://www.thatprivacyguy.com/blog/chrome-silent-nano-install/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>谷歌 Chrome 未经同意在设备上静默下载 4GB AI 模型</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.9</span> <span class='hn-top-story-score'>&#9650; 883</span> <span class='hn-top-story-comments'>&#128172; 615</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.8</span> <span class='hn-top-story-score'>&#9650; 1147</span> <span class='hn-top-story-comments'>&#128172; 789</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='58' data-hn-time='1778004827'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='479' data-hn-time='1777990070'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/05/top_stories_05052026#story-48026349'>California farmers to destroy 420k peach trees following Del Monte bankruptcy</a>
- <a class='hn-top-story-link' href='https://www.sfgate.com/centralcoast/article/usda-aid-california-farmers-22240694.php' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/05/top_stories_05052026#story-48022742'>AI didn't delete your database, you did</a>
+ <a class='hn-top-story-link' href='https://idiallo.com/blog/ai-didnt-delete-your-database-you-did' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Del Monte 破产后，加州农民将毁掉42万棵桃树</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.7</span> <span class='hn-top-story-score'>&#9650; 58</span> <span class='hn-top-story-comments'>&#128172; 44</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>AI 没有删除你的数据库，是你自己把它弄丢了</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.8</span> <span class='hn-top-story-score'>&#9650; 479</span> <span class='hn-top-story-comments'>&#128172; 263</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='117' data-hn-time='1777998888'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='325' data-hn-time='1777994838'>
 <span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/05/top_stories_05052026#story-48023861'>Three Inverse Laws of AI</a>
+ <a class='hn-top-story-link' href='https://susam.net/inverse-laws-of-robotics.html' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>AI 的三条逆向律</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.8</span> <span class='hn-top-story-score'>&#9650; 325</span> <span class='hn-top-story-comments'>&#128172; 221</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Politics</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='51' data-hn-time='1778016410'>
+<span class='hn-top-story-rank'>9</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/05/top_stories_05052026#story-48028842'>Write some software, give it away for free</a>
+ <a class='hn-top-story-link' href='https://nonogra.ph/write-some-software-give-it-away-for-free-05-05-2026' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>写点软件，免费开源</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.7</span> <span class='hn-top-story-score'>&#9650; 51</span> <span class='hn-top-story-comments'>&#128172; 29</span> <span class='hn-top-story-tag'>Open Source</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='243' data-hn-time='1777998888'>
+<span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/05/05/top_stories_05052026#story-48024859'>Computer Use is 45x more expensive than structured APIs</a>
  <a class='hn-top-story-link' href='https://reflex.dev/blog/computer-use-is-45x-more-expensive-than-structured-apis/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>计算使用成本比结构化 API 高出 45 倍</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.2</span> <span class='hn-top-story-score'>&#9650; 117</span> <span class='hn-top-story-comments'>&#128172; 77</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='134' data-hn-time='1777996997'>
-<span class='hn-top-story-rank'>9</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/05/top_stories_05052026#story-48024364'>UK: Two millionth electric car registered as market rebounds strongly</a>
- <a class='hn-top-story-link' href='https://www.smmt.co.uk/two-millionth-electric-car-registered-as-market-rebounds-strongly-from-tax-changes/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>英国注册两百万辆电动汽车，市场在税改后反弹</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.8</span> <span class='hn-top-story-score'>&#9650; 134</span> <span class='hn-top-story-comments'>&#128172; 165</span> <span class='hn-top-story-tag'>Energy</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>DevOps</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='201' data-hn-time='1777991364'>
-<span class='hn-top-story-rank'>10</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/05/top_stories_05052026#story-48022992'>The best is over: The fun has been optimized out of the Internet</a>
- <a class='hn-top-story-link' href='https://muddy.jprs.me/posts/2026-05-03-the-best-is-over/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>最好的一切已经过去：互联网的乐趣被过度优化</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.4</span> <span class='hn-top-story-score'>&#9650; 201</span> <span class='hn-top-story-comments'>&#128172; 127</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Design</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.5</span> <span class='hn-top-story-score'>&#9650; 243</span> <span class='hn-top-story-comments'>&#128172; 127</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -155,7 +155,7 @@ Your browser does not support the audio element.
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 19 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-05-04 — 2026-05-05 <span class="hn-row-sep">·</span> 195 stories <span class="hn-row-sep">·</span> 2 days</span>
+<span class='hn-week-meta'>2026-05-04 — 2026-05-05 <span class="hn-row-sep">·</span> 200 stories <span class="hn-row-sep">·</span> 2 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -164,7 +164,7 @@ Your browser does not support the audio element.
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/05/05/top_stories_05052026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>95</b> <span class="hn-row-sep">·</span> AI <b>22</b> <span class="hn-row-sep">·</span> Security <b>17</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>21</b> <span class="hn-row-sep">·</span> Security <b>17</b></span>
 </a>
 </div>
 </div>
