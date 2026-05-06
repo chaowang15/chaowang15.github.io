@@ -5,7 +5,7 @@
     <link>https://chaowang15.github.io/hackernews/</link>
     <description>Curated daily digest of top Hacker News stories with AI-generated summaries, tags, and bilingual translations.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 06 May 2026 14:27:08 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 06 May 2026 16:05:21 +0000</lastBuildDate>
     <generator>Hacker News Daily RSS Builder</generator>
     <atom:link href="https://chaowang15.github.io/hackernews/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
@@ -41,11 +41,12 @@
       <dc:creator>john-doe</dc:creator>
       <pubDate>Tue, 05 May 2026 07:34:55 +0000</pubDate>
       <category>AI</category>
+      <category>Security</category>
       <category>Privacy</category>
       <description>&lt;p&gt;Chrome quietly downloads a 4GB AI model to devices without user consent, raising storage and privacy risks as silent payloads become more common. This underscores the need for transparent controls and clear opt-out options to protect user autonomy.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Chrome 未经用户同意在设备上静默下载一个 4GB 的 AI 模型，增添了存储和隐私方面的潜在风险。此举凸显对静默下载的透明度、可控性以及用户撤销的需求。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 1533 · 💬 1025 · AI · Privacy&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48019219&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/05/top_stories_05052026#story-48019219&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;small&gt;▲ 1570 · 💬 1045 · AI · Security · Privacy&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48019219&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/06/top_stories_05062026#story-48019219&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>VS Code inserting 'Co-Authored-by Copilot' into commits regardless of usage</title>
@@ -221,8 +222,8 @@
       <category>Web</category>
       <description>&lt;p&gt;A DNSSEC validation disruption briefly interrupted secure resolution for .de domains, affecting trust chain verification across German sites. The incident has been resolved; operators are advised to re-validate DNSSEC records and monitor for lingering validation issues. This underscores how crypto-based DNS protections, while powerful, require careful operational hygiene.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;一段 DNSSEC 验证中断曾影响 .de 域名的安全解析，现已解决。事件凸显了基于加密的 DNS 保护需要严格的运维与监控以确保信任链的稳定。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 705 · 💬 372 · Security · Web&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48027897&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/05/top_stories_05052026#story-48027897&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;small&gt;▲ 719 · 💬 378 · Security · Web&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48027897&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/06/top_stories_05062026#story-48027897&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Zig → Rust porting guide</title>
@@ -262,6 +263,20 @@
 &lt;p&gt;&lt;em&gt;据称 GameStop 向 eBay 提出约 555 亿美元的收购要约，这一交易将大幅改变全球大型线上市场格局，并扩展 GameStop 的多元化布局。此举显示了对科技驱动零售领域进行大规模并购的热情，可能引发反垄断审查，并揭示投资者对将社区型市场与规模效应结合的兴趣。若成行，或将重塑收藏品与更广泛商业生态的协同发展。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 688 · 💬 656 · Business · Finance · Legal&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48006402&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/05/top_stories_05052026#story-48006402&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Show HN: Red Squares – GitHub outages as contributions</title>
+      <link>https://red-squares.cian.lol/</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48034587</guid>
+      <dc:creator>cianmm</dc:creator>
+      <pubDate>Wed, 06 May 2026 10:28:40 +0000</pubDate>
+      <category>Show HN</category>
+      <category>Open Source</category>
+      <category>Programming</category>
+      <description>&lt;p&gt;Red Squares turns outage data into contributions, offering a playful, data-driven way to visualize GitHub reliability events in a public project. It sparks ideas for incident-aware dashboards and community-driven reliability metrics.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Red Squares 将故障数据转化为贡献，以数据驱动的方式在公开项目中可视化 GitHub 可靠性事件，激发对基于事件的仪表板和社区驱动的可靠性指标的探索。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 671 · 💬 146 · Show HN · Open Source · Programming&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48034587&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/06/top_stories_05062026#story-48034587&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Zig project's rationale for their anti-AI contribution policy</title>
@@ -304,6 +319,19 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47977026&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/04/top_stories_05042026#story-47977026&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Accelerating Gemma 4: faster inference with multi-token prediction drafters</title>
+      <link>https://blog.google/innovation-and-ai/technology/developers-tools/multi-token-prediction-gemma-4/</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48024540</guid>
+      <dc:creator>amrrs</dc:creator>
+      <pubDate>Tue, 05 May 2026 16:14:17 +0000</pubDate>
+      <category>AI</category>
+      <category>Programming</category>
+      <description>&lt;p&gt;Gemma 4 unlocks faster inference by enabling multi-token prediction drafts. The approach lets the model draft several tokens in parallel, reducing latency on long-context tasks. It signals a shift toward token-level parallelism in scalable AI deployments.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;谷歌的 Gemma 4 通过实现多令牌预测草拟来提升推理速度。该方法允许同时预测若干令牌，从而降低长上下文任务的延迟。标志着在可扩展的 AI 部署中向令牌级并行性的转变。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 633 · 💬 304 · AI · Programming&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48024540&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/06/top_stories_05062026#story-48024540&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Mozilla's opposition to Chrome's Prompt API</title>
       <link>https://github.com/mozilla/standards-positions/issues/1213#issuecomment-4347988313</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=47959463</guid>
@@ -339,18 +367,6 @@
 &lt;p&gt;&lt;em&gt;这暴露了浏览器设计中的安全隐患：Edge 将凭证以明文存储在内存中，即使未被使用时也可能暴露。此设计增加了通过内存转储或恶意进程获取凭据的风险。再次强调从设计层面减少内存中敏感信息的重要性，以及对浏览器安全的长期关注。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 621 · 💬 222 · Security&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48012735&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/05/top_stories_05052026#story-48012735&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Accelerating Gemma 4: faster inference with multi-token prediction drafters</title>
-      <link>https://blog.google/innovation-and-ai/technology/developers-tools/multi-token-prediction-gemma-4/</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48024540</guid>
-      <dc:creator>amrrs</dc:creator>
-      <pubDate>Tue, 05 May 2026 16:14:17 +0000</pubDate>
-      <category>AI</category>
-      <description>&lt;p&gt;Gemma 4 unlocks faster inference by enabling multi-token prediction drafts. The approach lets the model draft several tokens in parallel, reducing latency on long-context tasks. It signals a shift toward token-level parallelism in scalable AI deployments.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;谷歌的 Gemma 4 通过实现多令牌预测草拟来提升推理速度。该方法允许同时预测若干令牌，从而降低长上下文任务的延迟。标志着在可扩展的 AI 部署中向令牌级并行性的转变。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 615 · 💬 298 · AI&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48024540&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/05/top_stories_05052026#story-48024540&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Dav2d</title>
@@ -441,6 +457,20 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48002777&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/04/top_stories_05042026#story-48002777&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>StarFighter 16-Inch</title>
+      <link>https://us.starlabs.systems/pages/starfighter</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48031261</guid>
+      <dc:creator>signa11</dc:creator>
+      <pubDate>Wed, 06 May 2026 02:03:44 +0000</pubDate>
+      <category>Hardware</category>
+      <category>Open Source</category>
+      <category>Energy</category>
+      <description>&lt;p&gt;StarFighter 16-Inch marks Star Labs' new 16-inch Linux-friendly laptop lineup, offering improved display, thermals, and battery life for developers and power users. The device continues Star Labs’ focus on open hardware and Linux-first design, appealing to enthusiasts who want a ready-to-use Linux machine.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;StarFighter 16英寸笔记本展示了 Star Labs 面向 Linux 的新旗舰。新机在显示、散热与续航方面有显著提升，符合开放硬件与 Linux 优先的定位，适合开发者与高阶用户。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 542 · 💬 283 · Hardware · Open Source · Energy&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48031261&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/06/top_stories_05062026#story-48031261&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Soft launch of open-source code platform for government</title>
       <link>https://www.nldigitalgovernment.nl/news/soft-launch-for-government-open-source-code-platform/</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=47945918</guid>
@@ -505,6 +535,19 @@
 &lt;p&gt;&lt;em&gt;据报道，Meta 团队中一些在目睹同事通过智能眼镜观看性行为后被解雇的员工，引发了关于穿戴式监控、举报流程与人力资源政策的争议。这一事件凸显了科技巨头在员工安全与隐私之间的博弈。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 519 · 💬 410 · Privacy · Culture&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47961838&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/01/top_stories_05012026#story-47961838&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Agents can now create Cloudflare accounts, buy domains, and deploy</title>
+      <link>https://blog.cloudflare.com/agents-stripe-projects/</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48031684</guid>
+      <dc:creator>rolph</dc:creator>
+      <pubDate>Wed, 06 May 2026 03:10:33 +0000</pubDate>
+      <category>Programming</category>
+      <category>Security</category>
+      <description>&lt;p&gt;Cloudflare's Agents can now perform end-to-end provisioning: create accounts, buy domains, and deploy projects automatically. This accelerates onboarding for developers and MSP-like workflows, but also raises security and governance questions around automated provisioning.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Cloudflare 的 Agents 现在能够实现端到端的自动化：自动创建账户、购买域名并部署项目。这将加速开发者与托管工作流的上线速度，但也带来自动化权限与域名管理的安全与治理挑战。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 516 · 💬 290 · Programming · Security&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48031684&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/06/top_stories_05062026#story-48031684&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>US healthcare marketplaces shared citizenship and race data with ad tech giants</title>
@@ -573,6 +616,19 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47988776&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/03/top_stories_05032026#story-47988776&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Three Inverse Laws of AI</title>
+      <link>https://susam.net/inverse-laws-of-robotics.html</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48023861</guid>
+      <dc:creator>blenderob</dc:creator>
+      <pubDate>Tue, 05 May 2026 15:27:18 +0000</pubDate>
+      <category>AI</category>
+      <category>Politics</category>
+      <description>&lt;p&gt;Three inverse laws of AI propose that as AI grows more capable, governance should tighten; interpretability remains essential for trust; and expectations should be tempered by practical limits. The piece uses humorous framing to underscore real-world constraints in safety and deployment. It invites readers to rethink AI governance alongside capability gains.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;提出三条 AI 的逆向法则：随着能力提升，治理需要加紧；可解释性对建立信任至关重要；对现实边界应持保留态度。以诙谐的笔法强调了现实世界在安全与落地中的约束，鼓励在能力增长的同时重新审视治理。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 503 · 💬 333 · AI · Politics&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48023861&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/06/top_stories_05062026#story-48023861&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>New statue in London, attributed to Banksy, of a suited man, blinded by a flag</title>
       <link>https://www.smithsonianmag.com/smart-news/attributed-to-banksy-a-new-statue-of-a-suited-man-blinded-by-a-flag-and-walking-off-a-ledge-appeared-in-central-london-180988662/</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=48000152</guid>
@@ -596,57 +652,6 @@
 &lt;p&gt;&lt;em&gt;OpenAI 介绍在大规模场景下实现低延迟语音 AI 的设计思路，涵盖流式推理、优化策略及跨规模部署的要点，为构建可扩展的实时语音应用提供实用洞见。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 498 · 💬 143 · AI · DevOps&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48013919&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/05/top_stories_05052026#story-48013919&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>StarFighter 16-Inch</title>
-      <link>https://us.starlabs.systems/pages/starfighter</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48031261</guid>
-      <dc:creator>signa11</dc:creator>
-      <pubDate>Wed, 06 May 2026 02:03:44 +0000</pubDate>
-      <category>Hardware</category>
-      <category>Open Source</category>
-      <category>Energy</category>
-      <description>&lt;p&gt;StarFighter 16-Inch marks Star Labs' new 16-inch Linux-friendly laptop lineup, offering improved display, thermals, and battery life for developers and power users. The device continues Star Labs’ focus on open hardware and Linux-first design, appealing to enthusiasts who want a ready-to-use Linux machine.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;StarFighter 16英寸笔记本展示了 Star Labs 面向 Linux 的新旗舰。新机在显示、散热与续航方面有显著提升，符合开放硬件与 Linux 优先的定位，适合开发者与高阶用户。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 494 · 💬 242 · Hardware · Open Source · Energy&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48031261&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/05/top_stories_05052026#story-48031261&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>This Month in Ladybird – April 2026</title>
-      <link>https://ladybird.org/newsletter/2026-04-30/</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47990318</guid>
-      <dc:creator>richardboegli</dc:creator>
-      <pubDate>Sat, 02 May 2026 20:46:30 +0000</pubDate>
-      <category>Open Source</category>
-      <description>&lt;p&gt;This April issue highlights progress, features, and milestones from the Ladybird project, reflecting active development and community contributions. It offers a compact view of what's new and what's next for the project.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;四月刊聚焦 Ladybird 项目的进展、新特性与里程碑，体现积极的开发与社区贡献，帮助读者把握最新动向。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 492 · 💬 147 · Open Source&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47990318&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/03/top_stories_05032026#story-47990318&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Mistral Medium 3.5</title>
-      <link>https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=47949642</guid>
-      <dc:creator>meetpateltech</dc:creator>
-      <pubDate>Wed, 29 Apr 2026 15:17:46 +0000</pubDate>
-      <category>AI</category>
-      <category>Open Source</category>
-      <description>&lt;p&gt;Mistral AI releases Mistral Medium 3.5, a new iteration that tightens instruction-following and inference efficiency for practical deployments like remote agents. The update signals growing momentum for open-weight LLMs as an affordable alternative to proprietary models, expanding opportunities for startups and enterprises.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Mistral AI 发布了 Mistral Medium 3.5，提升了对指令的跟随能力与推理效率，适合用于远程代理等实际场景。此举体现了开源权重模型的商业化潜力，为初创企业和企业级应用提供更具性价比的选择。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 492 · 💬 229 · AI · Open Source&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=47949642&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/04/30/top_stories_04302026#story-47949642&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Three Inverse Laws of AI</title>
-      <link>https://susam.net/inverse-laws-of-robotics.html</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48023861</guid>
-      <dc:creator>blenderob</dc:creator>
-      <pubDate>Tue, 05 May 2026 15:27:18 +0000</pubDate>
-      <category>AI</category>
-      <description>&lt;p&gt;Three inverse laws of AI propose that as AI grows more capable, governance should tighten; interpretability remains essential for trust; and expectations should be tempered by practical limits. The piece uses humorous framing to underscore real-world constraints in safety and deployment. It invites readers to rethink AI governance alongside capability gains.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;提出三条 AI 的逆向法则：随着能力提升，治理需要加紧；可解释性对建立信任至关重要；对现实边界应持保留态度。以诙谐的笔法强调了现实世界在安全与落地中的约束，鼓励在能力增长的同时重新审视治理。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 489 · 💬 326 · AI&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48023861&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/05/top_stories_05052026#story-48023861&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

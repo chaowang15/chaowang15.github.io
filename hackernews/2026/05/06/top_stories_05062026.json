@@ -4,21 +4,91 @@
     "source": "https://news.ycombinator.com/",
     "api": "https://github.com/HackerNews/API",
     "count_requested": 50,
-    "count_written": 49,
-    "reused_same_day": 0,
-    "reused_cross_day": 33,
-    "new_llm_enriched": 16,
-    "scrape_time_display": "01:35, May 06, 2026 (PDT)",
+    "count_written": 70,
+    "reused_same_day": 28,
+    "reused_cross_day": 0,
+    "new_llm_enriched": 20,
+    "scrape_time_display": "09:01, May 06, 2026 (PDT)",
     "timezone": "America/Los_Angeles",
     "date_dir": "2026/05/06",
     "content_date": "2026-05-06",
-    "run_time_local": "01:35, May 06, 2026 (PDT)",
-    "run_time_utc": "2026-05-06 08:35:20 UTC",
+    "run_time_local": "09:01, May 06, 2026 (PDT)",
+    "run_time_utc": "2026-05-06 16:01:05 UTC",
     "incremental": true,
     "stories_max": 100,
-    "hot_score_time_utc": "2026-05-06 08:37:39 UTC"
+    "hot_score_time_utc": "2026-05-06 16:03:44 UTC"
   },
   "items": [
+    {
+      "title_en": "Show HN: Red Squares – GitHub outages as contributions",
+      "url": "https://red-squares.cian.lol/",
+      "title_zh": "Show HN：Red Squares 将 GitHub 故障变成贡献",
+      "created_display": "Created: May 06, 2026 / 03:28 PT",
+      "image_url": null,
+      "summary_en": "Red Squares turns outage data into contributions, offering a playful, data-driven way to visualize GitHub reliability events in a public project. It sparks ideas for incident-aware dashboards and community-driven reliability metrics.",
+      "summary_zh": "Red Squares 将故障数据转化为贡献，以数据驱动的方式在公开项目中可视化 GitHub 可靠性事件，激发对基于事件的仪表板和社区驱动的可靠性指标的探索。",
+      "hn": {
+        "id": 48034587,
+        "type": "story",
+        "by": "cianmm",
+        "score": 671,
+        "descendants": 146,
+        "time": 1778063320,
+        "comments_url": "https://news.ycombinator.com/item?id=48034587"
+      },
+      "tags": [
+        "Show HN",
+        "Open Source",
+        "Programming"
+      ],
+      "hot_score": 17.47
+    },
+    {
+      "title_en": "Some kids are bypassing age verification checks with a fake mustache",
+      "url": "https://techcrunch.com/2026/05/06/some-kids-are-bypassing-age-verification-checks-with-a-fake-mustache/",
+      "title_zh": "一些孩子用假胡子绕过年龄验证",
+      "created_display": "Created: May 06, 2026 / 08:36 PT",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/05/mustache-1295262500.jpg?resize=1200,800",
+      "summary_en": "Some kids are bypassing age gates by using a fake mustache to trick visual checks. The report highlights how superficial verification methods can be easily fooled and underscores the need for stronger, multi-factor safeguards on platforms that restrict age-restricted content. The takeaway: age verification remains a vulnerability and requires more robust, privacy-conscious design.",
+      "summary_zh": "一些孩子用假胡子骗过年龄验证，暴露了基于视觉的简单检查的薄弱。报道强调此类验证的易被欺骗，并呼吁在限制年龄内容的平台引入更强的多因素防护。核心要点是：年龄识别仍是个漏洞，需要更稳健且注重隐私的设计。",
+      "hn": {
+        "id": 48037465,
+        "type": "story",
+        "by": "jamdesk",
+        "score": 25,
+        "descendants": 6,
+        "time": 1778081792,
+        "comments_url": "https://news.ycombinator.com/item?id=48037465"
+      },
+      "hot_score": 4.77,
+      "tags": [
+        "Security",
+        "Privacy"
+      ]
+    },
+    {
+      "title_en": "Vibe coding and agentic engineering are getting closer than I'd like",
+      "url": "https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/",
+      "title_zh": "Vibe 编程与代理工程比我想象的更接近",
+      "created_display": "Created: May 06, 2026 / 08:06 PT",
+      "image_url": null,
+      "summary_en": "Vibe coding and agentic engineering are narrowing the gap between intent and autonomous AI action. The piece argues that small UX choices and prompt engineering can push AI toward more capable, goal-driven behavior, raising safety and control concerns for developers. Takeaway: balancing usability with robust safeguards is becoming harder as agents get more capable.",
+      "summary_zh": "Vibe 编程和代理工程让人类意图更易转化为自主AI行动，作者认为微小的用户体验设计和提示工程可能推动 AI 走向更强的目标驱动行为，对开发者的安全与控制提出挑战。要点是：在追求易用性的同时，保持强健的防护越来越困难。",
+      "hn": {
+        "id": 48037128,
+        "type": "story",
+        "by": "e12e",
+        "score": 33,
+        "descendants": 4,
+        "time": 1778079997,
+        "comments_url": "https://news.ycombinator.com/item?id=48037128"
+      },
+      "hot_score": 4.56,
+      "tags": [
+        "AI",
+        "Design"
+      ]
+    },
     {
       "title_en": "Agents can now create Cloudflare accounts, buy domains, and deploy",
       "url": "https://blog.cloudflare.com/agents-stripe-projects/",
@@ -31,38 +101,16 @@
         "id": 48031684,
         "type": "story",
         "by": "rolph",
-        "score": 273,
-        "descendants": 152,
+        "score": 516,
+        "descendants": 290,
         "time": 1778037033,
         "comments_url": "https://news.ycombinator.com/item?id=48031684"
       },
       "tags": [
-        "DevOps",
+        "Programming",
         "Security"
       ],
-      "hot_score": 7.32
-    },
-    {
-      "title_en": "Ombudsman column: The Pentagon is trying to silence me",
-      "url": "https://www.stripes.com/opinion/2026-04-23/stripes-former-ombudsman-pentagon-trying-to-silence-21465037.html",
-      "title_zh": "监察专员专栏：五角大楼试图让我保持沉默",
-      "created_display": "Created: May 05, 2026 / 20:24 PT",
-      "image_url": "https://www.stripes.com/incoming/7rcmey-260326dealsphoto01.jpg/alternates/LANDSCAPE_480/260326DEALSphoto01.jpg",
-      "summary_en": "A Pentagon ombudsman column alleges the department is pressuring him to stay silent, underscoring tensions around whistleblowing, transparency, and oversight in the defense apparatus. The piece adds to ongoing questions about accountability in government.",
-      "summary_zh": "前五角大楼监察专员的专栏声称政府正施压他保持沉默，凸显国防机构的告密、透明度与监督之间的紧张关系。这一说法引发对政府问责制的关注与讨论。",
-      "hn": {
-        "id": 48031769,
-        "type": "story",
-        "by": "petethomas",
-        "score": 203,
-        "descendants": 47,
-        "time": 1778037889,
-        "comments_url": "https://news.ycombinator.com/item?id=48031769"
-      },
-      "tags": [
-        "Politics"
-      ],
-      "hot_score": 5.76
+      "hot_score": 3.99
     },
     {
       "title_en": "StarFighter 16-Inch",
@@ -76,17 +124,63 @@
         "id": 48031261,
         "type": "story",
         "by": "signa11",
-        "score": 271,
-        "descendants": 146,
+        "score": 542,
+        "descendants": 283,
         "time": 1778033024,
         "comments_url": "https://news.ycombinator.com/item?id=48031261"
       },
       "tags": [
-        "Open Source",
         "Hardware",
+        "Open Source",
         "Energy"
       ],
-      "hot_score": 5.65
+      "hot_score": 3.68
+    },
+    {
+      "title_en": "CNN founder Ted Turner, a pioneer of cable TV news, dies at 87",
+      "url": "https://www.cnn.com/2026/05/06/us/ted-turner-death",
+      "title_zh": "CNN 创始人 Ted Turner 去世，享年 87 岁",
+      "created_display": "Created: May 06, 2026 / 07:56 PT",
+      "image_url": "https://media.cnn.com/api/v1/images/stellar/prod/131111212246-16-ted-turner.jpg?c=16x9&q=w_800,c_fill",
+      "summary_en": "Ted Turner, founder of CNN and a pioneer of the 24-hour news era, has died at 87. His vision helped reshape media distribution, from cable networks to global news coverage, but also sparked debates about sensationalism and media consolidation. Takeaway: Turner’s legacy lives on in how we consume and monetize news today.",
+      "summary_zh": "CNN 创始人、有线电视新闻先驱 Ted Turner 去世，享年87岁。他的愿景重塑了新闻传播格局，从有线网络到全球报道，同时也引发关于煽动性报道与媒体整合的讨论。核心是：Turner 的影响延续至今的新闻消费与商业化模式。",
+      "hn": {
+        "id": 48037009,
+        "type": "story",
+        "by": "pseudolus",
+        "score": 29,
+        "descendants": 8,
+        "time": 1778079397,
+        "comments_url": "https://news.ycombinator.com/item?id=48037009"
+      },
+      "hot_score": 3.61,
+      "tags": [
+        "Business",
+        "Culture"
+      ]
+    },
+    {
+      "title_en": "Knitting bullshit",
+      "url": "https://katedaviesdesigns.com/2026/04/29/knitting-bullshit/",
+      "title_zh": "编织圈的胡说八道",
+      "created_display": "Created: May 05, 2026 / 22:13 PT",
+      "image_url": "https://i0.wp.com/katedaviesdesigns.com/wp-content/uploads/2026/04/1950s-52.jpeg?fit=768%2C768&ssl=1",
+      "summary_en": "A sharp critique of hype and marketing language in knitting, highlighting how trend-driven chatter can obscure craft and technique.",
+      "summary_zh": "对编织界 hype 与营销语言进行尖锐批评，指出趋势驱动的讨论往往掩盖了技艺与实操要点。",
+      "hn": {
+        "id": 48032461,
+        "type": "story",
+        "by": "ColinEberhardt",
+        "score": 289,
+        "descendants": 135,
+        "time": 1778044438,
+        "comments_url": "https://news.ycombinator.com/item?id=48032461"
+      },
+      "tags": [
+        "Culture",
+        "Design"
+      ],
+      "hot_score": 2.91
     },
     {
       "title_en": "DNSSEC disruption affecting .de domains – Resolved",
@@ -100,15 +194,16 @@
         "id": 48027897,
         "type": "story",
         "by": "warpspin",
-        "score": 652,
-        "descendants": 319,
+        "score": 719,
+        "descendants": 378,
         "time": 1778012195,
         "comments_url": "https://news.ycombinator.com/item?id=48027897"
       },
-      "hot_score": 5.38,
       "tags": [
-        "Security"
-      ]
+        "Security",
+        "Web"
+      ],
+      "hot_score": 2.8
     },
     {
       "title_en": "Google Chrome silently installs a 4 GB AI model on your device without consent",
@@ -122,16 +217,177 @@
         "id": 48019219,
         "type": "story",
         "by": "john-doe",
-        "score": 1426,
-        "descendants": 937,
+        "score": 1570,
+        "descendants": 1045,
         "time": 1777966495,
         "comments_url": "https://news.ycombinator.com/item?id=48019219"
       },
       "tags": [
         "AI",
+        "Security",
         "Privacy"
       ],
-      "hot_score": 3.77
+      "hot_score": 2.68
+    },
+    {
+      "title_en": "Setting up a Sun Ray server on OpenIndiana Hipster 2025.10",
+      "url": "https://catstret.ch/202605/srss-hipster202510/",
+      "title_zh": "在 OpenIndiana Hipster 2025.10 上搭建 Sun Ray 服务器",
+      "created_display": "Created: May 06, 2026 / 03:53 PT",
+      "image_url": "https://catstret.ch/_app/immutable/assets/202605_oi_pve.BUCu8oUF.png",
+      "summary_en": "This post walks through setting up a Sun Ray server on the OpenIndiana Hipster 2025.10 desktop/OS. It reveals how legacy Sun Ray remote display tech can still be run on modern Free/Open source stacks, with caveats about hardware and compatibility. Takeaway: retro remote-desktop tech can live on in current distros with the right tweaks.",
+      "summary_zh": "本文演示在 OpenIndiana Hipster 2025.10 上搭建 Sun Ray 服务器的步骤，展示传统远程显示技术在现代开源系统中的可行性与注意事项。要点是：通过合适的调整，复古的远程桌面技术仍可在现今发行版中持续使用。",
+      "hn": {
+        "id": 48034762,
+        "type": "story",
+        "by": "jandeboevrie",
+        "score": 85,
+        "descendants": 20,
+        "time": 1778064832,
+        "comments_url": "https://news.ycombinator.com/item?id=48034762"
+      },
+      "hot_score": 2.43,
+      "tags": [
+        "Open Source",
+        "Hardware"
+      ]
+    },
+    {
+      "title_en": "Ombudsman column: The Pentagon is trying to silence me",
+      "url": "https://www.stripes.com/opinion/2026-04-23/stripes-former-ombudsman-pentagon-trying-to-silence-21465037.html",
+      "title_zh": "监察专员专栏：五角大楼试图让我保持沉默",
+      "created_display": "Created: May 05, 2026 / 20:24 PT",
+      "image_url": "https://www.stripes.com/incoming/7rcmey-260326dealsphoto01.jpg/alternates/LANDSCAPE_480/260326DEALSphoto01.jpg",
+      "summary_en": "A Pentagon ombudsman column alleges the department is pressuring him to stay silent, underscoring tensions around whistleblowing, transparency, and oversight in the defense apparatus. The piece adds to ongoing questions about accountability in government.",
+      "summary_zh": "前五角大楼监察专员的专栏声称政府正施压他保持沉默，凸显国防机构的告密、透明度与监督之间的紧张关系。这一说法引发对政府问责制的关注与讨论。",
+      "hn": {
+        "id": 48031769,
+        "type": "story",
+        "by": "petethomas",
+        "score": 297,
+        "descendants": 93,
+        "time": 1778037889,
+        "comments_url": "https://news.ycombinator.com/item?id=48031769"
+      },
+      "tags": [
+        "Politics"
+      ],
+      "hot_score": 2.36
+    },
+    {
+      "title_en": "Our Continuation of MkDocs",
+      "url": "https://github.com/orgs/ProperDocs/discussions/33",
+      "title_zh": "MkDocs 的延续计划",
+      "created_display": "Created: May 06, 2026 / 08:19 PT",
+      "image_url": "https://opengraph.githubassets.com/0f9323755cd10d5269f7bebded539642c51b6f00164e373066314a940e922ba3/orgs/ProperDocs/discussions/33",
+      "summary_en": "ProperDocs discusses continuing MkDocs development, signaling ongoing momentum for docs tooling in the static site ecosystem. The post outlines goals, compatibility considerations, and potential features for a maintained MkDocs path.",
+      "summary_zh": "ProperDocs 讨论对 MkDocs 的延续开发，表明静态站点文档工具生态仍在活跃。文中概述了目标、兼容性考量以及对持续维护的 MkDocs 路线可能的新特性。",
+      "hn": {
+        "id": 48037261,
+        "type": "story",
+        "by": "serhack_",
+        "score": 15,
+        "descendants": 4,
+        "time": 1778080765,
+        "comments_url": "https://news.ycombinator.com/item?id=48037261"
+      },
+      "hot_score": 2.28,
+      "tags": [
+        "Programming",
+        "Open Source"
+      ]
+    },
+    {
+      "title_en": "Shrinkflation Is Quietly Making All Gadgets Worse",
+      "url": "https://gizmodo.com/shrinkflation-is-quietly-making-all-gadgets-worse-2000754565",
+      "title_zh": "缩水现象正在悄然让各类小工具变得更差",
+      "created_display": "Created: May 06, 2026 / 05:50 PT",
+      "image_url": null,
+      "summary_en": "Shrinkflation is reducing physical size, battery capacity, or features while prices stay high, quietly degrading gadget quality. The trend pressures manufacturers to cut costs at the expense of user experience, with broader implications for longevity and e-waste.",
+      "summary_zh": "缩水现象在设备上表现为在价格不变的情况下降低尺寸、容量或功能，悄悄降低了产品体验。此趋势迫使厂商削减成本，影响使用寿命并带来更高的电子垃圾风险。",
+      "hn": {
+        "id": 48035617,
+        "type": "story",
+        "by": "cainxinth",
+        "score": 44,
+        "descendants": 36,
+        "time": 1778071827,
+        "comments_url": "https://news.ycombinator.com/item?id=48035617"
+      },
+      "hot_score": 2.2,
+      "tags": [
+        "Business",
+        "Culture",
+        "Energy"
+      ]
+    },
+    {
+      "title_en": "Reverse-engineering the 1998 Ultima Online demo server",
+      "url": "https://draxinar.github.io/articles/2026-05-01-uodemo-reverse-engineering.html",
+      "title_zh": "逆向工程 1998 年的 Ultima Online 演示服务器",
+      "created_display": "Created: May 05, 2026 / 23:31 PT",
+      "image_url": "https://draxinar.github.io/images/1.png",
+      "summary_en": "Reverse-engineering the 1998 Ultima Online demo server reveals how the game handled networking, state synchronization, and scripting on a late-90s MMO. The project demonstrates modern tooling for preserving game history and provides practical insights into legacy server architectures.",
+      "summary_zh": "揭示 1998 年 Ultima Online 演示服务器的逆向工程过程，解析游戏网络、状态同步与脚本机制等细节。此工作为数字游戏历史的保存提供新方法，并展示了现代工具在遗产分析中的应用。",
+      "hn": {
+        "id": 48032976,
+        "type": "story",
+        "by": "notsentient",
+        "score": 157,
+        "descendants": 32,
+        "time": 1778049089,
+        "comments_url": "https://news.ycombinator.com/item?id=48032976"
+      },
+      "tags": [
+        "Gaming"
+      ],
+      "hot_score": 1.91
+    },
+    {
+      "title_en": "FBI investigating leaks to journalist who wrote explosive article on Kash Pate",
+      "url": "https://www.ms.now/news/fbi-investigating-leaks-to-journalist-who-wrote-explosive-article-on-kash-patel-sources",
+      "title_zh": "FBI 正在调查与 Kash Patel 的记者相关的泄密事件",
+      "created_display": "Created: May 06, 2026 / 08:24 PT",
+      "image_url": "https://www.ms.now/wp-content/uploads/2026/05/260506-kash-patel-zz.webp?w=1200&h=630&crop=1",
+      "summary_en": "The FBI is investigating leaks connected to a journalist who wrote a high-profile article about Kash Patel.",
+      "summary_zh": "联邦调查局正在调查与一名报道 Kash Patel 相关爆炸性报道的记者相关的泄密事件。",
+      "hn": {
+        "id": 48037332,
+        "type": "story",
+        "by": "JumpCrisscross",
+        "score": 12,
+        "descendants": 6,
+        "time": 1778081062,
+        "comments_url": "https://news.ycombinator.com/item?id=48037332"
+      },
+      "hot_score": 1.9,
+      "tags": [
+        "Politics"
+      ]
+    },
+    {
+      "title_en": "Multi-stroke text effect in CSS",
+      "url": "https://yuanchuan.dev/multi-stroke-text-effect-in-css",
+      "title_zh": "CSS 的多笔画文本效果",
+      "created_display": "Created: May 05, 2026 / 21:43 PT",
+      "image_url": "https://yuanchuan.dev/assets/images/kofi.png",
+      "summary_en": "Multi-stroke text effect in CSS demonstrates how to create bold outlined typography purely with CSS by layering shadows or using masks. It empowers frontend designers to craft punchy headings while noting cross-browser caveats and performance considerations.",
+      "summary_zh": "演示如何仅用 CSS 实现多笔画文本效果，通过叠加阴影或遮罩实现轮廓。为前端设计师提供无图片的可移植文本美化方法，同时指出跨浏览器兼容性与性能的取舍。",
+      "hn": {
+        "id": 48032265,
+        "type": "story",
+        "by": "cheeaun",
+        "score": 198,
+        "descendants": 25,
+        "time": 1778042605,
+        "comments_url": "https://news.ycombinator.com/item?id=48032265"
+      },
+      "tags": [
+        "Programming",
+        "Design",
+        "Web"
+      ],
+      "hot_score": 1.86
     },
     {
       "title_en": "Accelerating Gemma 4: faster inference with multi-token prediction drafters",
@@ -145,37 +401,60 @@
         "id": 48024540,
         "type": "story",
         "by": "amrrs",
-        "score": 552,
-        "descendants": 257,
+        "score": 633,
+        "descendants": 304,
         "time": 1777997657,
         "comments_url": "https://news.ycombinator.com/item?id=48024540"
       },
       "tags": [
-        "AI"
+        "AI",
+        "Programming"
       ],
-      "hot_score": 2.92
+      "hot_score": 1.82
     },
     {
-      "title_en": "Telus Uses AI to Alter Call-Agent Accents",
-      "url": "https://letsdatascience.com/news/telus-uses-ai-to-alter-call-agent-accents-a3868f63",
-      "title_zh": "Telus 用 AI 改变呼叫中心客服的口音",
-      "created_display": "Created: May 05, 2026 / 18:38 PT",
-      "image_url": "https://cdn.iphoneincanada.ca/wp-content/uploads/2026/02/telus-5g.jpg",
-      "summary_en": "Telus is piloting AI to adjust call-center agents' accents to suit regional listening preferences, a move that could improve comprehension but also raises concerns about authenticity, bias, and workforce impact. The experiment highlights the tension between automation for customer experience and preserving human variety.",
-      "summary_zh": "Telus 正试点使用 AI 调整呼叫中心客服的口音，以更好地符合地区受众的聆听习惯，这或提升理解度，但也引发真实性、偏见与对员工的影响等担忧。此举凸显了在提升客户体验与保留人类多样性之间的权衡。",
+      "title_en": "B.C. residents baffled as shape floats through night sky",
+      "url": "https://www.cbc.ca/news/canada/british-columbia/strange-light-british-columbia-9.7189267",
+      "title_zh": "不列颠哥伦比亚省居民对夜空形状的困惑",
+      "created_display": "Created: May 06, 2026 / 08:02 PT",
+      "image_url": null,
+      "summary_en": "Residents in British Columbia report a mysterious shape floating across the night sky, sparking speculation about UFOs, drones, or atmospheric phenomena. Local authorities and scientists typically urge caution and await clearer data.",
+      "summary_zh": "不列颠哥伦比亚省民众在夜空中发现一个神秘形状漂浮，引发对不明飞行物、无人机或大气现象的猜想。地方机构通常呼吁保持谨慎并等待更清晰的数据。",
       "hn": {
-        "id": 48031109,
+        "id": 48037072,
         "type": "story",
-        "by": "debo_",
-        "score": 139,
-        "descendants": 89,
-        "time": 1778031524,
-        "comments_url": "https://news.ycombinator.com/item?id=48031109"
+        "by": "empressplay",
+        "score": 14,
+        "descendants": 4,
+        "time": 1778079745,
+        "comments_url": "https://news.ycombinator.com/item?id=48037072"
+      },
+      "hot_score": 1.78,
+      "tags": [
+        "Science"
+      ]
+    },
+    {
+      "title_en": "YouTube, your RSS feeds are broken",
+      "url": "https://openrss.org/blog/youtube-your-feeds-are-broken",
+      "title_zh": "YouTube 的 RSS 订阅源出了问题",
+      "created_display": "Created: May 05, 2026 / 18:15 PT",
+      "image_url": null,
+      "summary_en": "YouTube RSS feeds are experiencing issues that break third-party readers, forcing users to seek workarounds or alternative feeds.",
+      "summary_zh": "YouTube 的 RSS 订阅源出现问题，导致第三方订阅工具无法正常工作。文章分析了现代视频网站对 RSS 的依赖脆弱性，并提出可能的解决思路与替代方案。",
+      "hn": {
+        "id": 48030964,
+        "type": "story",
+        "by": "veeti",
+        "score": 254,
+        "descendants": 94,
+        "time": 1778030131,
+        "comments_url": "https://news.ycombinator.com/item?id=48030964"
       },
       "tags": [
-        "AI"
+        "Web"
       ],
-      "hot_score": 2.65
+      "hot_score": 1.58
     },
     {
       "title_en": "Write some software, give it away for free",
@@ -189,15 +468,110 @@
         "id": 48028842,
         "type": "story",
         "by": "nohell",
-        "score": 254,
-        "descendants": 168,
+        "score": 339,
+        "descendants": 229,
         "time": 1778016410,
         "comments_url": "https://news.ycombinator.com/item?id=48028842"
       },
       "tags": [
-        "Open Source"
+        "Open Source",
+        "Business"
       ],
-      "hot_score": 2.44
+      "hot_score": 1.46
+    },
+    {
+      "title_en": "245TB Micron 6600 ION Data Center SSD Now Shipping",
+      "url": "https://investors.micron.com/news-releases/news-release-details/industry-leading-245tb-micron-6600-ion-data-center-ssd-now",
+      "title_zh": "245TB Micron 6600 ION 数据中心 SSD 现已出货",
+      "created_display": "Created: May 05, 2026 / 20:37 PT",
+      "image_url": null,
+      "summary_en": "Micron's 6600 ION Data Center SSD now ships with a 245TB capacity, delivering ultra-dense NVMe storage for data centers. The high-capacity drive enables denser deployments for bulk data, analytics, and AI workloads, improving space efficiency and TCO. This expansion widens the envelope for hyperscale storage and data-center design.",
+      "summary_zh": "245TB 的 Micron 6600 ION 数据中心固态硬盘已开始出货，提供高密度的 NVMe 存储，适合大规模数据中心的存储密集型工作负载。此举提升了企业存储密度和总拥有成本，对云服务与 AI 数据湖有直接影响。",
+      "hn": {
+        "id": 48031867,
+        "type": "story",
+        "by": "neilfrndes",
+        "score": 175,
+        "descendants": 121,
+        "time": 1778038671,
+        "comments_url": "https://news.ycombinator.com/item?id=48031867"
+      },
+      "tags": [
+        "Hardware",
+        "Data",
+        "AI"
+      ],
+      "hot_score": 1.42
+    },
+    {
+      "title_en": "Three Inverse Laws of AI",
+      "url": "https://susam.net/inverse-laws-of-robotics.html",
+      "title_zh": "AI 的三条逆向律",
+      "created_display": "Created: May 05, 2026 / 08:27 PT",
+      "image_url": null,
+      "summary_en": "Three inverse laws of AI propose that as AI grows more capable, governance should tighten; interpretability remains essential for trust; and expectations should be tempered by practical limits. The piece uses humorous framing to underscore real-world constraints in safety and deployment. It invites readers to rethink AI governance alongside capability gains.",
+      "summary_zh": "提出三条 AI 的逆向法则：随着能力提升，治理需要加紧；可解释性对建立信任至关重要；对现实边界应持保留态度。以诙谐的笔法强调了现实世界在安全与落地中的约束，鼓励在能力增长的同时重新审视治理。",
+      "hn": {
+        "id": 48023861,
+        "type": "story",
+        "by": "blenderob",
+        "score": 503,
+        "descendants": 333,
+        "time": 1777994838,
+        "comments_url": "https://news.ycombinator.com/item?id=48023861"
+      },
+      "tags": [
+        "AI",
+        "Politics"
+      ],
+      "hot_score": 1.37
+    },
+    {
+      "title_en": "Telus Uses AI to Alter Call-Agent Accents",
+      "url": "https://letsdatascience.com/news/telus-uses-ai-to-alter-call-agent-accents-a3868f63",
+      "title_zh": "Telus 用 AI 改变呼叫中心客服的口音",
+      "created_display": "Created: May 05, 2026 / 18:38 PT",
+      "image_url": "https://cdn.iphoneincanada.ca/wp-content/uploads/2026/02/telus-5g.jpg",
+      "summary_en": "Telus is piloting AI to adjust call-center agents' accents to suit regional listening preferences, a move that could improve comprehension but also raises concerns about authenticity, bias, and workforce impact. The experiment highlights the tension between automation for customer experience and preserving human variety.",
+      "summary_zh": "Telus 正试点使用 AI 调整呼叫中心客服的口音，以更好地符合地区受众的聆听习惯，这或提升理解度，但也引发真实性、偏见与对员工的影响等担忧。此举凸显了在提升客户体验与保留人类多样性之间的权衡。",
+      "hn": {
+        "id": 48031109,
+        "type": "story",
+        "by": "debo_",
+        "score": 210,
+        "descendants": 190,
+        "time": 1778031524,
+        "comments_url": "https://news.ycombinator.com/item?id=48031109"
+      },
+      "tags": [
+        "AI",
+        "Privacy"
+      ],
+      "hot_score": 1.36
+    },
+    {
+      "title_en": "Computer Use is 45x more expensive than structured APIs",
+      "url": "https://reflex.dev/blog/computer-use-is-45x-more-expensive-than-structured-apis/",
+      "title_zh": "计算使用成本比结构化 API 高出 45 倍",
+      "created_display": "Created: May 05, 2026 / 09:34 PT",
+      "image_url": "https://web.reflex-assets.dev/blog/computer-use-is-45x-more-expensive-than-structured-apis.webp",
+      "summary_en": "Computing for unstructured tasks can be 45x more expensive than using structured APIs. This highlights the cost benefits of API-based tooling and disciplined data orchestration for AI workloads. It nudges engineers to design pipelines around reliable interfaces rather than ad-hoc compute.",
+      "summary_zh": "一项分析称，处理非结构化任务的计算成本大约比使用结构化 API 高出 45 倍。这凸显了基于 API 的工作流在 AI 负载中的成本优势，促使开发者以稳定接口而非随意计算来设计数据处理管线。",
+      "hn": {
+        "id": 48024859,
+        "type": "story",
+        "by": "palashawas",
+        "score": 452,
+        "descendants": 247,
+        "time": 1777998888,
+        "comments_url": "https://news.ycombinator.com/item?id=48024859"
+      },
+      "tags": [
+        "Programming",
+        "Business",
+        "AI"
+      ],
+      "hot_score": 1.33
     },
     {
       "title_en": "Zuckerberg 'Personally Authorized and Encouraged' Meta's Copyright Infringement",
@@ -220,7 +594,7 @@
         "Legal",
         "AI"
       ],
-      "hot_score": 2.42
+      "hot_score": 1.24
     },
     {
       "title_en": "California farmers to destroy 420k peach trees following Del Monte bankruptcy",
@@ -234,8 +608,8 @@
         "id": 48026349,
         "type": "story",
         "by": "littlexsparkee",
-        "score": 329,
-        "descendants": 383,
+        "score": 359,
+        "descendants": 419,
         "time": 1778004827,
         "comments_url": "https://news.ycombinator.com/item?id=48026349"
       },
@@ -244,76 +618,7 @@
         "Finance",
         "Politics"
       ],
-      "hot_score": 2.13
-    },
-    {
-      "title_en": "Three Inverse Laws of AI",
-      "url": "https://susam.net/inverse-laws-of-robotics.html",
-      "title_zh": "AI 的三条逆向律",
-      "created_display": "Created: May 05, 2026 / 08:27 PT",
-      "image_url": null,
-      "summary_en": "Three inverse laws of AI propose that as AI grows more capable, governance should tighten; interpretability remains essential for trust; and expectations should be tempered by practical limits. The piece uses humorous framing to underscore real-world constraints in safety and deployment. It invites readers to rethink AI governance alongside capability gains.",
-      "summary_zh": "提出三条 AI 的逆向法则：随着能力提升，治理需要加紧；可解释性对建立信任至关重要；对现实边界应持保留态度。以诙谐的笔法强调了现实世界在安全与落地中的约束，鼓励在能力增长的同时重新审视治理。",
-      "hn": {
-        "id": 48023861,
-        "type": "story",
-        "by": "blenderob",
-        "score": 433,
-        "descendants": 304,
-        "time": 1777994838,
-        "comments_url": "https://news.ycombinator.com/item?id=48023861"
-      },
-      "tags": [
-        "AI"
-      ],
-      "hot_score": 2.12
-    },
-    {
-      "title_en": "Computer Use is 45x more expensive than structured APIs",
-      "url": "https://reflex.dev/blog/computer-use-is-45x-more-expensive-than-structured-apis/",
-      "title_zh": "计算使用成本比结构化 API 高出 45 倍",
-      "created_display": "Created: May 05, 2026 / 09:34 PT",
-      "image_url": "https://web.reflex-assets.dev/blog/computer-use-is-45x-more-expensive-than-structured-apis.webp",
-      "summary_en": "Computing for unstructured tasks can be 45x more expensive than using structured APIs. This highlights the cost benefits of API-based tooling and disciplined data orchestration for AI workloads. It nudges engineers to design pipelines around reliable interfaces rather than ad-hoc compute.",
-      "summary_zh": "一项分析称，处理非结构化任务的计算成本大约比使用结构化 API 高出 45 倍。这凸显了基于 API 的工作流在 AI 负载中的成本优势，促使开发者以稳定接口而非随意计算来设计数据处理管线。",
-      "hn": {
-        "id": 48024859,
-        "type": "story",
-        "by": "palashawas",
-        "score": 387,
-        "descendants": 223,
-        "time": 1777998888,
-        "comments_url": "https://news.ycombinator.com/item?id=48024859"
-      },
-      "tags": [
-        "Programming",
-        "AI"
-      ],
-      "hot_score": 2.11
-    },
-    {
-      "title_en": "245TB Micron 6600 ION Data Center SSD Now Shipping",
-      "url": "https://investors.micron.com/news-releases/news-release-details/industry-leading-245tb-micron-6600-ion-data-center-ssd-now",
-      "title_zh": "245TB Micron 6600 ION 数据中心 SSD 现已出货",
-      "created_display": "Created: May 05, 2026 / 20:37 PT",
-      "image_url": null,
-      "summary_en": "Micron's 6600 ION Data Center SSD now ships with a 245TB capacity, delivering ultra-dense NVMe storage for data centers. The high-capacity drive enables denser deployments for bulk data, analytics, and AI workloads, improving space efficiency and TCO. This expansion widens the envelope for hyperscale storage and data-center design.",
-      "summary_zh": "245TB 的 Micron 6600 ION 数据中心固态硬盘已开始出货，提供高密度的 NVMe 存储，适合大规模数据中心的存储密集型工作负载。此举提升了企业存储密度和总拥有成本，对云服务与 AI 数据湖有直接影响。",
-      "hn": {
-        "id": 48031867,
-        "type": "story",
-        "by": "neilfrndes",
-        "score": 70,
-        "descendants": 49,
-        "time": 1778038671,
-        "comments_url": "https://news.ycombinator.com/item?id=48031867"
-      },
-      "hot_score": 2.08,
-      "tags": [
-        "Hardware",
-        "AI",
-        "Data"
-      ]
+      "hot_score": 1.19
     },
     {
       "title_en": "IBM didn't want Microsoft to use the Tab key to move between dialog fields",
@@ -335,49 +640,51 @@
       "tags": [
         "Design"
       ],
-      "hot_score": 2.03
+      "hot_score": 1.06
     },
     {
-      "title_en": "YouTube, your RSS feeds are broken",
-      "url": "https://openrss.org/blog/youtube-your-feeds-are-broken",
-      "title_zh": "YouTube 的 RSS 订阅源出了问题",
-      "created_display": "Created: May 05, 2026 / 18:15 PT",
-      "image_url": null,
-      "summary_en": "YouTube RSS feeds are experiencing issues that break third-party readers, forcing users to seek workarounds or alternative feeds.",
-      "summary_zh": "YouTube 的 RSS 订阅源出现问题，导致第三方订阅工具无法正常工作。文章分析了现代视频网站对 RSS 的依赖脆弱性，并提出可能的解决思路与替代方案。",
+      "title_en": "Today I've made the difficult decision to reduce the size of Coinbase by ~14%",
+      "url": "https://twitter.com/brian_armstrong/status/2051616759145185723",
+      "title_zh": "我决定把 Coinbase 的规模缩减约14%",
+      "created_display": "Created: May 05, 2026 / 05:10 PT",
+      "image_url": "https://pbs.twimg.com/profile_images/1516832438818770944/n77EwnKU_200x200.png",
+      "summary_en": "CEO announces a roughly 14% workforce reduction to streamline operations and refocus on core products. The move signals ongoing consolidation in crypto infrastructure and underscores the cost discipline shaping tech startups.",
+      "summary_zh": "CEO 宣布将 Coinbase 的规模缩减约14%，以精简运营并聚焦核心产品。此举反映了加密基础设施领域持续整合的趋势，以及成本管控在科技初创公司中的作用。",
       "hn": {
-        "id": 48030964,
+        "id": 48021368,
         "type": "story",
-        "by": "veeti",
-        "score": 105,
-        "descendants": 40,
-        "time": 1778030131,
-        "comments_url": "https://news.ycombinator.com/item?id=48030964"
+        "by": "adrianmsmith",
+        "score": 454,
+        "descendants": 710,
+        "time": 1777983024,
+        "comments_url": "https://news.ycombinator.com/item?id=48021368"
       },
       "tags": [
-        "Web"
+        "Business",
+        "DevOps"
       ],
-      "hot_score": 1.85
+      "hot_score": 1.0
     },
     {
-      "title_en": "Mark Cuban: OpenAI Will Never Return the $1T It's Investing [video]",
-      "url": "https://www.youtube.com/watch?v=oEVHNvE_jDw",
-      "title_zh": "马克·库班：OpenAI 将永远不会归还其投资的1万亿美元（视频）",
-      "created_display": "Created: May 06, 2026 / 00:37 PT",
-      "image_url": null,
-      "summary_en": "Mark Cuban argues that OpenAI will not return the $1T it invests, framing the move as a long-term bet on AI rather than a short-term financial return. The video highlights investor skepticism and the tension between hype and durable value in AI platforms.",
-      "summary_zh": "库班认为 OpenAI 投资的资金在短期内难以或不会回本，强调这是一种对 AI 的长期投资而非短期回报。视频揭示了投资者的怀疑态度以及 AI 平台中的 hype 与长期价值之间的矛盾。",
+      "title_en": "Show HN: Adam – An embeddable cross-platform AI agent library",
+      "url": "https://github.com/sqliteai/adam",
+      "title_zh": "Show HN: Adam — 一个可嵌入的跨平台 AI 代理库",
+      "created_display": "Created: May 06, 2026 / 05:56 PT",
+      "image_url": "https://opengraph.githubassets.com/2dd1593acd4aef14049a7934f6bb94bae6473a3a35cc766e9e8c7ab86e2173bd/sqliteai/adam",
+      "summary_en": "Adam is an embeddable AI agent library designed for cross-platform use, enabling developers to ship autonomous agents inside their apps. It emphasizes lightweight integration, tooling for agents, and a plugin-friendly architecture.",
+      "summary_zh": "Adam 是一个可嵌入的跨平台人工智能代理库，便于开发者在应用中集成自主代理。强调轻量级集成、代理工具链和插件式架构。",
       "hn": {
-        "id": 48033381,
+        "id": 48035677,
         "type": "story",
-        "by": "operatingthetan",
-        "score": 13,
-        "descendants": 12,
-        "time": 1778053041,
-        "comments_url": "https://news.ycombinator.com/item?id=48033381"
+        "by": "marcobambini",
+        "score": 20,
+        "descendants": 6,
+        "time": 1778072189,
+        "comments_url": "https://news.ycombinator.com/item?id=48035677"
       },
-      "hot_score": 1.66,
+      "hot_score": 1.0,
       "tags": [
+        "Show HN",
         "AI"
       ]
     },
@@ -399,10 +706,10 @@
         "comments_url": "https://news.ycombinator.com/item?id=48021561"
       },
       "tags": [
-        "Programming",
-        "Security"
+        "Security",
+        "Privacy"
       ],
-      "hot_score": 1.53
+      "hot_score": 0.91
     },
     {
       "title_en": "EEVblog: The 555 Timer is 55 years old [video]",
@@ -416,38 +723,15 @@
         "id": 48024129,
         "type": "story",
         "by": "brudgers",
-        "score": 283,
-        "descendants": 69,
+        "score": 313,
+        "descendants": 83,
         "time": 1777996038,
         "comments_url": "https://news.ycombinator.com/item?id=48024129"
       },
       "tags": [
         "Hardware"
       ],
-      "hot_score": 1.43
-    },
-    {
-      "title_en": "Today I've made the difficult decision to reduce the size of Coinbase by ~14%",
-      "url": "https://twitter.com/brian_armstrong/status/2051616759145185723",
-      "title_zh": "我决定把 Coinbase 的规模缩减约14%",
-      "created_display": "Created: May 05, 2026 / 05:10 PT",
-      "image_url": "https://pbs.twimg.com/profile_images/1516832438818770944/n77EwnKU_200x200.png",
-      "summary_en": "CEO announces a roughly 14% workforce reduction to streamline operations and refocus on core products. The move signals ongoing consolidation in crypto infrastructure and underscores the cost discipline shaping tech startups.",
-      "summary_zh": "CEO 宣布将 Coinbase 的规模缩减约14%，以精简运营并聚焦核心产品。此举反映了加密基础设施领域持续整合的趋势，以及成本管控在科技初创公司中的作用。",
-      "hn": {
-        "id": 48021368,
-        "type": "story",
-        "by": "adrianmsmith",
-        "score": 357,
-        "descendants": 545,
-        "time": 1777983024,
-        "comments_url": "https://news.ycombinator.com/item?id=48021368"
-      },
-      "tags": [
-        "Business",
-        "DevOps"
-      ],
-      "hot_score": 1.32
+      "hot_score": 0.87
     },
     {
       "title_en": "Why most product tours get skipped",
@@ -461,64 +745,62 @@
         "id": 48028546,
         "type": "story",
         "by": "pancomplex",
-        "score": 144,
-        "descendants": 114,
+        "score": 196,
+        "descendants": 170,
         "time": 1778015119,
         "comments_url": "https://news.ycombinator.com/item?id=48028546"
       },
       "tags": [
         "Design"
       ],
-      "hot_score": 1.31
+      "hot_score": 0.81
     },
     {
-      "title_en": "Agents for financial services and insurance",
-      "url": "https://www.anthropic.com/news/finance-agents",
-      "title_zh": "金融服务与保险领域的智能代理",
-      "created_display": "Created: May 05, 2026 / 08:05 PT",
-      "image_url": "https://www.anthropic.com/api/opengraph-illustration?name=Node-GraphChart&backgroundColor=clay",
-      "summary_en": "AI agents tailored for finance and insurance workflows aim to automate and assist regulated processes while meeting compliance and security requirements. They enable faster customer interactions, risk checks, and data analysis with traceability.",
-      "summary_zh": "面向金融与保险场景的智能代理，旨在在合规与安全前提下自动化与协助受监管的流程。它们可加速客户互动、风控检查与数据分析，并实现可追溯。文章强调专业化代理在不牺牲治理的前提下释放价值。",
+      "title_en": "I'm scared about biological computing",
+      "url": "https://kuber.studio/blog/Reflections/I%27m-Scared-About-Biological-Computing",
+      "title_zh": "我对生物计算感到担忧",
+      "created_display": "Created: May 05, 2026 / 09:03 PT",
+      "image_url": "https://kuber.studio/blog/static/social-images/content-Reflections-I'm Scared About Biological Computing.md.webp",
+      "summary_en": "A thoughtful piece raises safety and governance concerns as biology-based computing moves closer to mainstream use. It warns about biosecurity, reproducibility, and ethical risk in wetware-enabled computation. The message calls for careful, responsible research and policy framing.",
+      "summary_zh": "一篇深思熟虑的文章警示生物计算在走向主流计算时的安全、治理与潜在后果。强调生物安全、可重复性与伦理风险，呼吁负责任的研究与政策框架。",
       "hn": {
-        "id": 48023533,
+        "id": 48024358,
         "type": "story",
-        "by": "louiereederson",
-        "score": 236,
-        "descendants": 171,
-        "time": 1777993547,
-        "comments_url": "https://news.ycombinator.com/item?id=48023533"
+        "by": "kuberwastaken",
+        "score": 272,
+        "descendants": 214,
+        "time": 1777996986,
+        "comments_url": "https://news.ycombinator.com/item?id=48024358"
       },
+      "tags": [
+        "Science",
+        "Security"
+      ],
+      "hot_score": 0.77
+    },
+    {
+      "title_en": "Google Chrome silently installs 4 GB Gemini Nano AI model without consent",
+      "url": "https://alternativeto.net/news/2026/5/google-chrome-silently-installs-4-gb-gemini-nano-ai-model-to-user-device-without-consent/",
+      "title_zh": "谷歌浏览器在未征得同意的情况下静默安装 4 GB Gemini Nano AI 模型",
+      "created_display": "Created: May 06, 2026 / 07:27 PT",
+      "image_url": "https://img.alternativeto.net/news/1200x630/jpeg/1778068443307.png",
+      "summary_en": "Chrome reportedly installs a 4 GB Gemini Nano AI model on user devices without explicit consent, raising privacy and data-use concerns. The incident underscores the tension between built-in AI features and user control, and may invite scrutiny of auto-downloads in browsers.",
+      "summary_zh": "据称 Chrome 未经明确同意就在用户设备上安装了 4 GB Gemini Nano AI 模型，触发隐私与数据使用的担忧。这一事件凸显了浏览器内置 AI 功能牵涉的用户控制与自动下载之间的张力，或将引发审查。",
+      "hn": {
+        "id": 48036683,
+        "type": "story",
+        "by": "Gedxx",
+        "score": 8,
+        "descendants": 2,
+        "time": 1778077645,
+        "comments_url": "https://news.ycombinator.com/item?id=48036683"
+      },
+      "hot_score": 0.7,
       "tags": [
         "AI",
-        "Finance",
-        "Security",
-        "Politics"
-      ],
-      "hot_score": 1.12
-    },
-    {
-      "title_en": "Xbox CEO ends Copilot AI development and overhauls leadership",
-      "url": "https://www.dexerto.com/gaming/xbox-ceo-ends-copilot-ai-development-overhauls-leadership-3361353/",
-      "title_zh": "Xbox 结束 Copilot AI 开发并改组领导层",
-      "created_display": "Created: May 05, 2026 / 15:43 PT",
-      "image_url": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/05/05/Copilot-for-gaming.jpg",
-      "summary_en": "Xbox is restructuring its AI roadmap after ending Copilot AI development, with leadership changes signaling a strategic pivot away from this project. The move reshapes how AI features fit into future consoles and services.",
-      "summary_zh": "Xbox 结束 Copilot AI 开发并进行领导层重组，显示在 AI 路线图上的战略转向。此举将影响未来主机和服务中的 AI 功能定位与优先级。",
-      "hn": {
-        "id": 48029753,
-        "type": "story",
-        "by": "gmays",
-        "score": 98,
-        "descendants": 26,
-        "time": 1778021027,
-        "comments_url": "https://news.ycombinator.com/item?id=48029753"
-      },
-      "tags": [
-        "Gaming",
-        "Business",
-        "AI"
-      ],
-      "hot_score": 1.12
+        "Privacy",
+        "Security"
+      ]
     },
     {
       "title_en": "When everyone has AI and the company still learns nothing",
@@ -541,29 +823,32 @@
         "AI",
         "Business"
       ],
-      "hot_score": 1.08
+      "hot_score": 0.68
     },
     {
-      "title_en": "I'm scared about biological computing",
-      "url": "https://kuber.studio/blog/Reflections/I%27m-Scared-About-Biological-Computing",
-      "title_zh": "我对生物计算感到担忧",
-      "created_display": "Created: May 05, 2026 / 09:03 PT",
-      "image_url": "https://kuber.studio/blog/static/social-images/content-Reflections-I'm Scared About Biological Computing.md.webp",
-      "summary_en": "A thoughtful piece raises safety and governance concerns as biology-based computing moves closer to mainstream use. It warns about biosecurity, reproducibility, and ethical risk in wetware-enabled computation. The message calls for careful, responsible research and policy framing.",
-      "summary_zh": "一篇深思熟虑的文章警示生物计算在走向主流计算时的安全、治理与潜在后果。强调生物安全、可重复性与伦理风险，呼吁负责任的研究与政策框架。",
+      "title_en": "Agents for financial services and insurance",
+      "url": "https://www.anthropic.com/news/finance-agents",
+      "title_zh": "金融服务与保险领域的智能代理",
+      "created_display": "Created: May 05, 2026 / 08:05 PT",
+      "image_url": "https://www.anthropic.com/api/opengraph-illustration?name=Node-GraphChart&backgroundColor=clay",
+      "summary_en": "AI agents tailored for finance and insurance workflows aim to automate and assist regulated processes while meeting compliance and security requirements. They enable faster customer interactions, risk checks, and data analysis with traceability.",
+      "summary_zh": "面向金融与保险场景的智能代理，旨在在合规与安全前提下自动化与协助受监管的流程。它们可加速客户互动、风控检查与数据分析，并实现可追溯。文章强调专业化代理在不牺牲治理的前提下释放价值。",
       "hn": {
-        "id": 48024358,
+        "id": 48023533,
         "type": "story",
-        "by": "kuberwastaken",
-        "score": 209,
-        "descendants": 170,
-        "time": 1777996986,
-        "comments_url": "https://news.ycombinator.com/item?id=48024358"
+        "by": "louiereederson",
+        "score": 250,
+        "descendants": 184,
+        "time": 1777993547,
+        "comments_url": "https://news.ycombinator.com/item?id=48023533"
       },
       "tags": [
-        "Science"
+        "AI",
+        "Finance",
+        "Security",
+        "Politics"
       ],
-      "hot_score": 1.08
+      "hot_score": 0.66
     },
     {
       "title_en": "Show HN: Explore color palettes inspired by 3000 master painter artworks",
@@ -577,8 +862,8 @@
         "id": 48026342,
         "type": "story",
         "by": "ouli",
-        "score": 162,
-        "descendants": 58,
+        "score": 198,
+        "descendants": 71,
         "time": 1778004794,
         "comments_url": "https://news.ycombinator.com/item?id=48026342"
       },
@@ -586,28 +871,73 @@
         "Show HN",
         "Design"
       ],
-      "hot_score": 1.05
+      "hot_score": 0.65
     },
     {
-      "title_en": "Reverse-engineering the 1998 Ultima Online demo server",
-      "url": "https://draxinar.github.io/articles/2026-05-01-uodemo-reverse-engineering.html",
-      "title_zh": "逆向工程 1998 年的 Ultima Online 演示服务器",
-      "created_display": "Created: May 05, 2026 / 23:31 PT",
-      "image_url": "https://draxinar.github.io/images/1.png",
-      "summary_en": "Reverse-engineering the 1998 Ultima Online demo server reveals how the game handled networking, state synchronization, and scripting on a late-90s MMO. The project demonstrates modern tooling for preserving game history and provides practical insights into legacy server architectures.",
-      "summary_zh": "揭示 1998 年 Ultima Online 演示服务器的逆向工程过程，解析游戏网络、状态同步与脚本机制等细节。此工作为数字游戏历史的保存提供新方法，并展示了现代工具在遗产分析中的应用。",
+      "title_en": "Building the deployment tool I wish I had",
+      "url": "https://ruuda.nl/2026/deptool",
+      "title_zh": "打造我一直想要的部署工具",
+      "created_display": "Created: May 06, 2026 / 05:49 PT",
+      "image_url": null,
+      "summary_en": "The author shares building a deployment tool tailored to their needs, highlighting practical workflows, repeatability, and failures with existing solutions. The piece offers pragmatic guidance for teams looking to streamline releases and reduce toil.",
+      "summary_zh": "作者分享打造符合自身需求的部署工具，强调实际工作流、可重复性，以及对现有方案的局限。为寻求简化发布、降低工作负担的团队提供实用建议。",
       "hn": {
-        "id": 48032976,
+        "id": 48035607,
         "type": "story",
-        "by": "notsentient",
-        "score": 13,
-        "descendants": 2,
-        "time": 1778049089,
-        "comments_url": "https://news.ycombinator.com/item?id=48032976"
+        "by": "ruuda",
+        "score": 12,
+        "descendants": 3,
+        "time": 1778071744,
+        "comments_url": "https://news.ycombinator.com/item?id=48035607"
       },
-      "hot_score": 0.95,
+      "hot_score": 0.56,
       "tags": [
-        "Gaming"
+        "DevOps"
+      ]
+    },
+    {
+      "title_en": "Behavior-Oriented Concurrency for Python",
+      "url": "https://microsoft.github.io/bocpy/",
+      "title_zh": "Python 的面向行为并发",
+      "created_display": "Created: May 05, 2026 / 22:34 PT",
+      "image_url": "https://microsoft.github.io/bocpy/images/logo-1200.png",
+      "summary_en": "Introduces Behavior-Oriented Concurrency for Python (BocPy), a model that focuses on observable behaviors to structure parallel work rather than low-level threading. The approach aims to simplify Python concurrency and improve maintainability for real-world workloads.",
+      "summary_zh": "介绍 BocPy——一种以行为为核心来组织并发的 Python 框架或概念，意在简化并发编程并提升可维护性。探讨如何让实际工作负载受益于这种模型。",
+      "hn": {
+        "id": 48032617,
+        "type": "story",
+        "by": "mpweiher",
+        "score": 53,
+        "descendants": 6,
+        "time": 1778045688,
+        "comments_url": "https://news.ycombinator.com/item?id=48032617"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 0.55
+    },
+    {
+      "title_en": "TornadoVM",
+      "url": "https://github.com/beehive-lab/TornadoVM",
+      "title_zh": "TornadoVM",
+      "created_display": "Created: May 06, 2026 / 07:59 PT",
+      "image_url": "https://opengraph.githubassets.com/5fa2a956603014c6a92d94b857489a2d0511fdb59a0dc935ea0d32ddc49b89e0/beehive-lab/TornadoVM",
+      "summary_en": "TornadoVM is a runtime that enables dynamic compilation and execution of data-parallel tasks on CPUs and GPUs, bridging high-level languages to heterogeneous hardware. It aims to simplify acceleration of compute-heavy workloads.",
+      "summary_zh": "TornadoVM 是一个运行时框架，支持将数据并行任务动态编译并在 CPU 与 GPU 上执行，连接高级语言与异构硬件，简化计算密集型工作负载的加速。",
+      "hn": {
+        "id": 48037045,
+        "type": "story",
+        "by": "Tomte",
+        "score": 5,
+        "descendants": 0,
+        "time": 1778079573,
+        "comments_url": "https://news.ycombinator.com/item?id=48037045"
+      },
+      "hot_score": 0.53,
+      "tags": [
+        "Programming",
+        "Hardware"
       ]
     },
     {
@@ -622,60 +952,61 @@
         "id": 48026021,
         "type": "story",
         "by": "gmays",
-        "score": 140,
-        "descendants": 28,
+        "score": 157,
+        "descendants": 31,
         "time": 1778003551,
         "comments_url": "https://news.ycombinator.com/item?id=48026021"
       },
       "tags": [
         "AI"
       ],
-      "hot_score": 0.87
+      "hot_score": 0.5
     },
     {
-      "title_en": "Singapore introduces caning for boys who bully others at school",
-      "url": "https://www.theguardian.com/world/2026/may/06/singapore-caning-school-bullies",
-      "title_zh": "新加坡将对校园欺凌者实施鞭笞",
-      "created_display": "Created: May 05, 2026 / 23:29 PT",
-      "image_url": "https://i.guim.co.uk/img/media/86ec731f883bf7323f947a4361cd8e6a97e55906/501_0_5000_4000/master/5000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=79aaafa1086b2db25f6bef3718c1989a",
-      "summary_en": "Singapore's new policy caning bullies at school sparks a debate on deterrence, ethics, and educational outcomes. The move highlights how disciplinary approaches reflect cultural norms and regulatory trade-offs in modern schooling.",
-      "summary_zh": "新加坡将对校园欺凌者实施鞭笞，引发关于威慑效果、伦理与教育结果的讨论。此举凸显纪律策略在现代教育中的文化取向与监管权衡。",
+      "title_en": "Am I Meant to Be Impressed?",
+      "url": "https://www.wheresyoured.at/am-i-meant-to-be-impressed/",
+      "title_zh": "我应该被惊讶吗？",
+      "created_display": "Created: May 06, 2026 / 08:21 PT",
+      "image_url": "https://storage.ghost.io/c/24/d8/24d8fcec-dfba-4f40-a467-823d2941ae46/content/images/2024/01/wyea--1.jpeg",
+      "summary_en": "The piece challenges readers to question hype around AI progress and to calibrate expectations against real-world utility and limits. It invites skepticism about novelty and encourages deeper evaluation of impact.",
+      "summary_zh": "文章质疑对 AI 进展的炒作与期待，提醒读者将新颖性与实际价值和局限性对齐。它鼓励对影响进行更深入的评估，保持理性判断。",
       "hn": {
-        "id": 48032968,
+        "id": 48037279,
         "type": "story",
-        "by": "rustoo",
-        "score": 10,
-        "descendants": 2,
-        "time": 1778048993,
-        "comments_url": "https://news.ycombinator.com/item?id=48032968"
+        "by": "crescit_eundo",
+        "score": 4,
+        "descendants": 0,
+        "time": 1778080868,
+        "comments_url": "https://news.ycombinator.com/item?id=48037279"
       },
-      "hot_score": 0.7,
+      "hot_score": 0.5,
       "tags": [
-        "Politics",
-        "Education"
+        "AI"
       ]
     },
     {
-      "title_en": "Knitting bullshit",
-      "url": "https://katedaviesdesigns.com/2026/04/29/knitting-bullshit/",
-      "title_zh": "编织圈的胡说八道",
-      "created_display": "Created: May 05, 2026 / 22:13 PT",
-      "image_url": "https://i0.wp.com/katedaviesdesigns.com/wp-content/uploads/2026/04/1950s-52.jpeg?fit=768%2C768&ssl=1",
-      "summary_en": "A sharp critique of hype and marketing language in knitting, highlighting how trend-driven chatter can obscure craft and technique.",
-      "summary_zh": "对编织界 hype 与营销语言进行尖锐批评，指出趋势驱动的讨论往往掩盖了技艺与实操要点。",
+      "title_en": "Xbox CEO ends Copilot AI development and overhauls leadership",
+      "url": "https://www.dexerto.com/gaming/xbox-ceo-ends-copilot-ai-development-overhauls-leadership-3361353/",
+      "title_zh": "Xbox 结束 Copilot AI 开发并改组领导层",
+      "created_display": "Created: May 05, 2026 / 15:43 PT",
+      "image_url": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/05/05/Copilot-for-gaming.jpg",
+      "summary_en": "Xbox is restructuring its AI roadmap after ending Copilot AI development, with leadership changes signaling a strategic pivot away from this project. The move reshapes how AI features fit into future consoles and services.",
+      "summary_zh": "Xbox 结束 Copilot AI 开发并进行领导层重组，显示在 AI 路线图上的战略转向。此举将影响未来主机和服务中的 AI 功能定位与优先级。",
       "hn": {
-        "id": 48032461,
+        "id": 48029753,
         "type": "story",
-        "by": "ColinEberhardt",
-        "score": 15,
-        "descendants": 1,
-        "time": 1778044438,
-        "comments_url": "https://news.ycombinator.com/item?id=48032461"
+        "by": "gmays",
+        "score": 98,
+        "descendants": 26,
+        "time": 1778021027,
+        "comments_url": "https://news.ycombinator.com/item?id=48029753"
       },
-      "hot_score": 0.67,
       "tags": [
-        "Culture"
-      ]
+        "AI",
+        "Business",
+        "Gaming"
+      ],
+      "hot_score": 0.47
     },
     {
       "title_en": "Lessons for Agentic Coding: What should we do when code is cheap?",
@@ -695,10 +1026,10 @@
         "comments_url": "https://news.ycombinator.com/item?id=48019025"
       },
       "tags": [
-        "Security",
-        "Programming"
+        "AI",
+        "Security"
       ],
-      "hot_score": 0.61
+      "hot_score": 0.4
     },
     {
       "title_en": "Show HN: Airbyte Agents – context for agents across multiple data sources",
@@ -712,17 +1043,16 @@
         "id": 48023496,
         "type": "story",
         "by": "mtricot",
-        "score": 117,
-        "descendants": 30,
+        "score": 132,
+        "descendants": 35,
         "time": 1777993398,
         "comments_url": "https://news.ycombinator.com/item?id=48023496"
       },
       "tags": [
         "Show HN",
-        "Data",
-        "Open Source"
+        "Data"
       ],
-      "hot_score": 0.55
+      "hot_score": 0.35
     },
     {
       "title_en": "Hand Drawn QR Codes (2025)",
@@ -744,29 +1074,145 @@
       "tags": [
         "Design"
       ],
-      "hot_score": 0.44
+      "hot_score": 0.3
     },
     {
-      "title_en": "Multi-stroke text effect in CSS",
-      "url": "https://yuanchuan.dev/multi-stroke-text-effect-in-css",
-      "title_zh": "CSS 的多笔画文本效果",
-      "created_display": "Created: May 05, 2026 / 21:43 PT",
-      "image_url": "https://yuanchuan.dev/assets/images/kofi.png",
-      "summary_en": "Multi-stroke text effect in CSS demonstrates how to create bold outlined typography purely with CSS by layering shadows or using masks. It empowers frontend designers to craft punchy headings while noting cross-browser caveats and performance considerations.",
-      "summary_zh": "演示如何仅用 CSS 实现多笔画文本效果，通过叠加阴影或遮罩实现轮廓。为前端设计师提供无图片的可移植文本美化方法，同时指出跨浏览器兼容性与性能的取舍。",
+      "title_en": "Visualize Any Hugging Face Model",
+      "url": "https://hfviewer.com/",
+      "title_zh": "可视化任意 Hugging Face 模型",
+      "created_display": "Created: May 06, 2026 / 02:53 PT",
+      "image_url": "https://hfviewer.com/assets/hf_landing_og.png?v=20260505k",
+      "summary_en": "HFViewer lets you visualize any model from Hugging Face, revealing architectures, layers, and weights in a browser-based explorer. It accelerates model debugging, comparison, and education for ML practitioners.",
+      "summary_zh": "HFViewer 让你在浏览器中可视化任意 Hugging Face 模型，展示网络结构、层级和权重，便于调试、对比与教学。",
       "hn": {
-        "id": 48032265,
+        "id": 48034347,
         "type": "story",
-        "by": "cheeaun",
-        "score": 11,
-        "descendants": 1,
-        "time": 1778042605,
-        "comments_url": "https://news.ycombinator.com/item?id=48032265"
+        "by": "rippeltippel",
+        "score": 13,
+        "descendants": 0,
+        "time": 1778061215,
+        "comments_url": "https://news.ycombinator.com/item?id=48034347"
       },
-      "hot_score": 0.41,
+      "hot_score": 0.27,
       "tags": [
-        "Programming",
-        "Web"
+        "AI",
+        "Web",
+        "Education"
+      ]
+    },
+    {
+      "title_en": "CARA 2.0 – “I Built a Better Robot Dog”",
+      "url": "https://www.aaedmusa.com/projects/cara2",
+      "title_zh": "CARA 2.0：我打造了更好的机器人狗",
+      "created_display": "Created: May 03, 2026 / 23:46 PT",
+      "image_url": "http://static1.squarespace.com/static/6418e6d065d3d21e3aa3e096/6418e839f328e66351287e57/69e18ab7cd205017b8810830/1777849366840/1.png?format=1500w",
+      "summary_en": "CARA 2.0 details improvements over the previous version, focusing on more capable locomotion, perception, and autonomous behaviors. It covers the hardware-software stack and practical lessons from building and testing a robot dog, highlighting real-world tradeoffs in power, reliability, and safety. The post serves as a hands-on look at DIY robotics progress and the limits of consumer-grade hardware.",
+      "summary_zh": "CARA 2.0 展示了在实现更高机动性、感知与自主能力方面的进步，分享硬件/软件栈的选择以及测试中的经验教训。通过实际打造机器人狗的案例，揭示商用机器人在电力、可靠性和安全性方面的现实挑战。",
+      "hn": {
+        "id": 48005432,
+        "type": "story",
+        "by": "hakonjdjohnsen",
+        "score": 331,
+        "descendants": 44,
+        "time": 1777877170,
+        "comments_url": "https://news.ycombinator.com/item?id=48005432"
+      },
+      "tags": [
+        "Hardware"
+      ],
+      "hot_score": 0.21
+    },
+    {
+      "title_en": "Academics Need to Wake Up on AI",
+      "url": "https://www.popularbydesign.org/p/academics-need-to-wake-up-on-ai",
+      "title_zh": "学术界应正视 AI",
+      "created_display": "Created: May 05, 2026 / 23:34 PT",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!5wEP!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb64e0a42-2a9d-424e-ae76-34993cab9ecf_1536x1024.png",
+      "summary_en": "The piece urges academia to catch up with AI advances, advocating updated curricula, research ethics, and collaboration with industry. It warns that lagging behind could hinder both scientific rigor and societal impact.",
+      "summary_zh": "文章呼吁学术界尽快跟上 AI 的进展，推动更新课程、研究伦理与产业协作。警告若滞后将削弱科学严谨性与社会影响力。",
+      "hn": {
+        "id": 48032990,
+        "type": "story",
+        "by": "barry-cotter",
+        "score": 17,
+        "descendants": 11,
+        "time": 1778049272,
+        "comments_url": "https://news.ycombinator.com/item?id=48032990"
+      },
+      "hot_score": 0.2,
+      "tags": [
+        "AI",
+        "Education",
+        "Science"
+      ]
+    },
+    {
+      "title_en": "The bottleneck was never the code",
+      "url": "https://www.thetypicalset.com/blog/thoughts-on-coding-agents",
+      "title_zh": "瓶颈从来不是代码",
+      "created_display": "Created: May 04, 2026 / 03:46 PT",
+      "image_url": "https://thetypicalset.com/static/og-image.png",
+      "summary_en": "The article argues that the real bottleneck in building effective AI agents isn’t code but the orchestration, data quality, and decision-making loops that feed them. It stresses that tooling, memory, and integration with real-world data often limit performance more than algorithms. Takeaway: invest in systems design and data pipelines, not just faster code.",
+      "summary_zh": "文章认为构建高效 AI 代理的瓶颈并非代码本身，而是编排、数据质量与决策循环等要素。强调工具链、内存管理以及与真实数据的集成往往比算法本身更能决定成效。要点是：应更多投资于系统设计和数据管线，而非单纯追求更快的代码。",
+      "hn": {
+        "id": 48006967,
+        "type": "story",
+        "by": "Anon84",
+        "score": 258,
+        "descendants": 177,
+        "time": 1777891575,
+        "comments_url": "https://news.ycombinator.com/item?id=48006967"
+      },
+      "hot_score": 0.19,
+      "tags": [
+        "AI",
+        "Data"
+      ]
+    },
+    {
+      "title_en": "Mark Cuban: OpenAI Will Never Return the $1T It's Investing [video]",
+      "url": "https://www.youtube.com/watch?v=oEVHNvE_jDw",
+      "title_zh": "马克·库班：OpenAI 将永远不会归还其投资的1万亿美元（视频）",
+      "created_display": "Created: May 06, 2026 / 00:37 PT",
+      "image_url": null,
+      "summary_en": "Mark Cuban argues that OpenAI will not return the $1T it invests, framing the move as a long-term bet on AI rather than a short-term financial return. The video highlights investor skepticism and the tension between hype and durable value in AI platforms.",
+      "summary_zh": "库班认为 OpenAI 投资的资金在短期内难以或不会回本，强调这是一种对 AI 的长期投资而非短期回报。视频揭示了投资者的怀疑态度以及 AI 平台中的 hype 与长期价值之间的矛盾。",
+      "hn": {
+        "id": 48033381,
+        "type": "story",
+        "by": "operatingthetan",
+        "score": 13,
+        "descendants": 12,
+        "time": 1778053041,
+        "comments_url": "https://news.ycombinator.com/item?id=48033381"
+      },
+      "hot_score": 0.18,
+      "tags": [
+        "AI",
+        "Business"
+      ]
+    },
+    {
+      "title_en": "Singapore introduces caning for boys who bully others at school",
+      "url": "https://www.theguardian.com/world/2026/may/06/singapore-caning-school-bullies",
+      "title_zh": "新加坡将对校园欺凌者实施鞭笞",
+      "created_display": "Created: May 05, 2026 / 23:29 PT",
+      "image_url": "https://i.guim.co.uk/img/media/86ec731f883bf7323f947a4361cd8e6a97e55906/501_0_5000_4000/master/5000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=79aaafa1086b2db25f6bef3718c1989a",
+      "summary_en": "Singapore's new policy caning bullies at school sparks a debate on deterrence, ethics, and educational outcomes. The move highlights how disciplinary approaches reflect cultural norms and regulatory trade-offs in modern schooling.",
+      "summary_zh": "新加坡将对校园欺凌者实施鞭笞，引发关于威慑效果、伦理与教育结果的讨论。此举凸显纪律策略在现代教育中的文化取向与监管权衡。",
+      "hn": {
+        "id": 48032968,
+        "type": "story",
+        "by": "rustoo",
+        "score": 10,
+        "descendants": 2,
+        "time": 1778048993,
+        "comments_url": "https://news.ycombinator.com/item?id=48032968"
+      },
+      "hot_score": 0.11,
+      "tags": [
+        "Education",
+        "Politics"
       ]
     },
     {
@@ -786,76 +1232,56 @@
         "time": 1778009522,
         "comments_url": "https://news.ycombinator.com/item?id=48027369"
       },
-      "hot_score": 0.2,
+      "hot_score": 0.1,
       "tags": [
-        "Programming"
+        "Programming",
+        "Open Source"
       ]
     },
     {
-      "title_en": "The Soul of Maintaining a New Machine",
-      "url": "https://books.worksinprogress.co/book/maintenance-of-everything/communities-of-practice/the-soul-of-maintaining-a-new-machine/3",
-      "title_zh": "新机器维护的灵魂",
-      "created_display": "Created: May 05, 2026 / 21:01 PT",
-      "image_url": "https://books.worksinprogress.co/book/maintenance-of-everything/communities-of-practice/the-soul-of-maintaining-a-new-machine/3/opengraph-image-3a8ls1?8d74b0994d37f358",
-      "summary_en": "The Soul of Maintaining a New Machine discusses the culture of upkeep after a product launches, emphasizing communities of practice, rituals, and shared knowledge. It argues sustainable maintenance comes from collaborative routines and collective responsibility.",
-      "summary_zh": "讨论新产品上线后的维护文化，强调实践社区、日常仪式和知识共享的重要性，相信持续维护来自协作性日常与集体责任。",
+      "title_en": "Wolfenstein 3D for Gameboy Color on custom cartridge (2016)",
+      "url": "https://www.happydaze.se/wolf/",
+      "title_zh": "Game Boy Color 上的 Wolfenstein 3D：用自制卡带实现",
+      "created_display": "Created: May 04, 2026 / 09:39 PT",
+      "image_url": "http://www.happydaze.se/wp-content/uploads/2016/10/rev_c_and_d.jpg",
+      "summary_en": "A homebrew cartridge lets you play Wolfenstein 3D on Game Boy Color, showcasing retro hardware hacking and the challenges of squeezing PC-era games into handheld hardware. It demonstrates how enthusiasts push limits of memory, CPU speed, and cartridge tooling.",
+      "summary_zh": "通过自制卡带在 Game Boy Color 上运行 Wolfenstein 3D，展示了复古硬件黑客技艺以及将 PC 时代游戏塞入掌机的挑战。此项工作体现爱好者在内存、CPU 速度与卡带工具方面的极限探索。",
       "hn": {
-        "id": 48032014,
+        "id": 48011077,
         "type": "story",
-        "by": "akkartik",
-        "score": 7,
-        "descendants": 1,
-        "time": 1778040102,
-        "comments_url": "https://news.ycombinator.com/item?id=48032014"
+        "by": "ksymph",
+        "score": 88,
+        "descendants": 10,
+        "time": 1777912755,
+        "comments_url": "https://news.ycombinator.com/item?id=48011077"
       },
-      "hot_score": 0.2,
-      "tags": [
-        "Culture"
-      ]
-    },
-    {
-      "title_en": "Behavior-Oriented Concurrency for Python",
-      "url": "https://microsoft.github.io/bocpy/",
-      "title_zh": "Python 的面向行为并发",
-      "created_display": "Created: May 05, 2026 / 22:34 PT",
-      "image_url": "https://microsoft.github.io/bocpy/images/logo-1200.png",
-      "summary_en": "Introduces Behavior-Oriented Concurrency for Python (BocPy), a model that focuses on observable behaviors to structure parallel work rather than low-level threading. The approach aims to simplify Python concurrency and improve maintainability for real-world workloads.",
-      "summary_zh": "介绍 BocPy——一种以行为为核心来组织并发的 Python 框架或概念，意在简化并发编程并提升可维护性。探讨如何让实际工作负载受益于这种模型。",
-      "hn": {
-        "id": 48032617,
-        "type": "story",
-        "by": "mpweiher",
-        "score": 4,
-        "descendants": 0,
-        "time": 1778045688,
-        "comments_url": "https://news.ycombinator.com/item?id=48032617"
-      },
-      "hot_score": 0.16,
-      "tags": [
-        "Programming"
-      ]
-    },
-    {
-      "title_en": "CARA 2.0 – “I Built a Better Robot Dog”",
-      "url": "https://www.aaedmusa.com/projects/cara2",
-      "title_zh": "CARA 2.0：我打造了更好的机器人狗",
-      "created_display": "Created: May 03, 2026 / 23:46 PT",
-      "image_url": "http://static1.squarespace.com/static/6418e6d065d3d21e3aa3e096/6418e839f328e66351287e57/69e18ab7cd205017b8810830/1777849366840/1.png?format=1500w",
-      "summary_en": "CARA 2.0 details improvements over the previous version, focusing on more capable locomotion, perception, and autonomous behaviors. It covers the hardware-software stack and practical lessons from building and testing a robot dog, highlighting real-world tradeoffs in power, reliability, and safety. The post serves as a hands-on look at DIY robotics progress and the limits of consumer-grade hardware.",
-      "summary_zh": "CARA 2.0 展示了在实现更高机动性、感知与自主能力方面的进步，分享硬件/软件栈的选择以及测试中的经验教训。通过实际打造机器人狗的案例，揭示商用机器人在电力、可靠性和安全性方面的现实挑战。",
-      "hn": {
-        "id": 48005432,
-        "type": "story",
-        "by": "hakonjdjohnsen",
-        "score": 111,
-        "descendants": 9,
-        "time": 1777877170,
-        "comments_url": "https://news.ycombinator.com/item?id=48005432"
-      },
-      "hot_score": 0.09,
+      "hot_score": 0.08,
       "tags": [
         "Hardware",
-        "Programming"
+        "Gaming"
+      ]
+    },
+    {
+      "title_en": "Batteries Not Included, or Required, for These Smart Home Sensors",
+      "url": "https://coe.gatech.edu/news/2026/04/batteries-not-included-or-required-these-smart-home-sensors",
+      "title_zh": "这些智能家居传感器无需电池也可工作",
+      "created_display": "Created: May 03, 2026 / 09:32 PT",
+      "image_url": "https://coe.gatech.edu/sites/default/files/styles/gtcoe_card/public/news/2026/04/header/SoundOff-smart-home-tags-with-penny-t.jpg?itok=hRRl-3bk",
+      "summary_en": "These smart home sensors operate without regular batteries, using energy harvesting or low-power design to draw power from the environment. The approach enables maintenance-free deployments, especially for remote or hard-to-reach locations, but raises questions about reliability and cost.",
+      "summary_zh": "这些智能家居传感器通过能量收集或低功耗设计实现不需要定期更换电池就能工作。此举可实现对偏远或难以维护位置的免维护部署，但也带来可靠性和成本方面的权衡。",
+      "hn": {
+        "id": 47998638,
+        "type": "story",
+        "by": "gnabgib",
+        "score": 136,
+        "descendants": 52,
+        "time": 1777825954,
+        "comments_url": "https://news.ycombinator.com/item?id=47998638"
+      },
+      "hot_score": 0.06,
+      "tags": [
+        "Energy",
+        "Hardware"
       ]
     },
     {
@@ -881,6 +1307,51 @@
       "hot_score": 0.05
     },
     {
+      "title_en": "Make some art with your phone sensors",
+      "url": "https://tautme.github.io/phone-sensors/sensor-etch.html",
+      "title_zh": "用手机传感器创作艺术",
+      "created_display": "Created: May 03, 2026 / 18:25 PT",
+      "image_url": null,
+      "summary_en": "Make some art with your phone sensors shows how to use accelerometers, gyroscopes, microphones, and cameras to create interactive, accessible art. It demonstrates that compelling sensor-based art doesn't require specialized hardware, inviting readers to experiment.",
+      "summary_zh": "展示如何利用手机传感器创建互动艺术，包括加速计、陀螺仪、麦克风和摄像头的应用。该方法让艺术创作在硬件普及的基础上变得更易入门，鼓励读者自行尝试。",
+      "hn": {
+        "id": 48003549,
+        "type": "story",
+        "by": "adm4",
+        "score": 84,
+        "descendants": 14,
+        "time": 1777857905,
+        "comments_url": "https://news.ycombinator.com/item?id=48003549"
+      },
+      "tags": [
+        "Design",
+        "Hardware"
+      ],
+      "hot_score": 0.05
+    },
+    {
+      "title_en": "The Soul of Maintaining a New Machine",
+      "url": "https://books.worksinprogress.co/book/maintenance-of-everything/communities-of-practice/the-soul-of-maintaining-a-new-machine/3",
+      "title_zh": "新机器维护的灵魂",
+      "created_display": "Created: May 05, 2026 / 21:01 PT",
+      "image_url": "https://books.worksinprogress.co/book/maintenance-of-everything/communities-of-practice/the-soul-of-maintaining-a-new-machine/3/opengraph-image-3a8ls1?8d74b0994d37f358",
+      "summary_en": "The Soul of Maintaining a New Machine discusses the culture of upkeep after a product launches, emphasizing communities of practice, rituals, and shared knowledge. It argues sustainable maintenance comes from collaborative routines and collective responsibility.",
+      "summary_zh": "讨论新产品上线后的维护文化，强调实践社区、日常仪式和知识共享的重要性，相信持续维护来自协作性日常与集体责任。",
+      "hn": {
+        "id": 48032014,
+        "type": "story",
+        "by": "akkartik",
+        "score": 7,
+        "descendants": 1,
+        "time": 1778040102,
+        "comments_url": "https://news.ycombinator.com/item?id=48032014"
+      },
+      "hot_score": 0.05,
+      "tags": [
+        "Culture"
+      ]
+    },
+    {
       "title_en": "Comparing the Z80 and 6502 to Their Relatives",
       "url": "https://bumbershootsoft.wordpress.com/2026/05/02/comparing-the-z80-and-6502-to-their-relatives/",
       "title_zh": "Z80 与 6502 与它们的亲缘处理器对比",
@@ -898,31 +1369,32 @@
         "comments_url": "https://news.ycombinator.com/item?id=47993240"
       },
       "tags": [
-        "Hardware"
+        "Hardware",
+        "Programming"
       ],
-      "hot_score": 0.05
+      "hot_score": 0.04
     },
     {
-      "title_en": "Researchers print structural colour with an inkjet printer",
-      "url": "https://physicsworld.com/a/researchers-print-structural-colour-with-an-inkjet-printer/",
-      "title_zh": "研究人员用喷墨打印机实现结构色",
-      "created_display": "Created: May 03, 2026 / 01:58 PT",
-      "image_url": "https://physicsworld.com/wp-content/uploads/2026/04/1-05-26-sugimoto-inkjet-display-featured.jpg",
-      "summary_en": "Researchers demonstrate printing structural color—colors arising from microstructure rather than pigments—using a standard inkjet printer. This could enable cheap, scalable color engineering for displays and cosmetics, with potential for environmentally friendly pigments.",
-      "summary_zh": "研究人员展示了用普通喷墨打印机实现结构色——颜色来自微结构而非颜料。此技术有望降低成本、提升尺度化颜色工程的应用，且可能更环保。",
+      "title_en": "Wiki Builder: Skill to Build LLM Knowledge Bases",
+      "url": "https://academy.dair.ai/blog/wiki-builder-claude-code-plugin",
+      "title_zh": "Wiki Builder：构建LLM知识库的技巧",
+      "created_display": "Created: May 03, 2026 / 08:28 PT",
+      "image_url": "https://academy.dair.ai/blog/wiki-builder-claude-code-plugin/cover.png",
+      "summary_en": "Wiki Builder helps tailor LLMs by assembling and curating knowledge bases, enabling scalable, searchable references for AI systems. It promotes structured knowledge integration to reduce hallucinations and improve factual accuracy.",
+      "summary_zh": "Wiki Builder 能通过整合和整理知识库，帮助大语言模型更好地获取可信参考。这种结构化的知识整合有助于降低幻觉、提升事实准确性，并支持大规模知识管理。",
       "hn": {
-        "id": 47994946,
+        "id": 47997915,
         "type": "story",
-        "by": "zeristor",
-        "score": 62,
+        "by": "omarsar",
+        "score": 105,
         "descendants": 12,
-        "time": 1777798730,
-        "comments_url": "https://news.ycombinator.com/item?id=47994946"
+        "time": 1777822128,
+        "comments_url": "https://news.ycombinator.com/item?id=47997915"
       },
       "tags": [
-        "Science"
+        "AI"
       ],
-      "hot_score": 0.03
+      "hot_score": 0.04
     },
     {
       "title_en": "Underwater robot tracks sperm whale conversations in real time",
@@ -947,6 +1419,50 @@
       "hot_score": 0.03
     },
     {
+      "title_en": "The Thinking Plant's Man (2025)",
+      "url": "https://www.sciencehistory.org/stories/magazine/the-thinking-plants-man/",
+      "title_zh": "Thinking Plant 的人（2025）",
+      "created_display": "Created: May 04, 2026 / 11:55 PT",
+      "image_url": "https://www.sciencehistory.org/wp-content/uploads/2025/08/Jagadish_Chandra_Bose_1926_at_Sorbonne_hero.jpg",
+      "summary_en": "A 2025 feature exploring the idea of intelligent plants and the researchers who study them, tracing the history of plant cognition.",
+      "summary_zh": "2025 年的一篇特写，探讨植物智慧及研究这一领域的人士，追溯植物认知的历史。",
+      "hn": {
+        "id": 48013234,
+        "type": "story",
+        "by": "benbreen",
+        "score": 34,
+        "descendants": 5,
+        "time": 1777920905,
+        "comments_url": "https://news.ycombinator.com/item?id=48013234"
+      },
+      "hot_score": 0.03,
+      "tags": [
+        "Science"
+      ]
+    },
+    {
+      "title_en": "Researchers print structural colour with an inkjet printer",
+      "url": "https://physicsworld.com/a/researchers-print-structural-colour-with-an-inkjet-printer/",
+      "title_zh": "研究人员用喷墨打印机实现结构色",
+      "created_display": "Created: May 03, 2026 / 01:58 PT",
+      "image_url": "https://physicsworld.com/wp-content/uploads/2026/04/1-05-26-sugimoto-inkjet-display-featured.jpg",
+      "summary_en": "Researchers demonstrate printing structural color—colors arising from microstructure rather than pigments—using a standard inkjet printer. This could enable cheap, scalable color engineering for displays and cosmetics, with potential for environmentally friendly pigments.",
+      "summary_zh": "研究人员展示了用普通喷墨打印机实现结构色——颜色来自微结构而非颜料。此技术有望降低成本、提升尺度化颜色工程的应用，且可能更环保。",
+      "hn": {
+        "id": 47994946,
+        "type": "story",
+        "by": "zeristor",
+        "score": 62,
+        "descendants": 12,
+        "time": 1777798730,
+        "comments_url": "https://news.ycombinator.com/item?id=47994946"
+      },
+      "tags": [
+        "Science"
+      ],
+      "hot_score": 0.02
+    },
+    {
       "title_en": "I completed 100 Days of Java over 5 years and mapped the journey as a graph",
       "url": "https://mohibulsblog.netlify.app/java/100daysofjava/graph/",
       "title_zh": "我用五年完成了 100 天 Java 学习，并将过程绘成图",
@@ -964,54 +1480,31 @@
         "comments_url": "https://news.ycombinator.com/item?id=47996740"
       },
       "tags": [
-        "Education"
+        "Programming"
       ],
-      "hot_score": 0.03
+      "hot_score": 0.02
     },
     {
-      "title_en": "Wiki Builder: Skill to Build LLM Knowledge Bases",
-      "url": "https://academy.dair.ai/blog/wiki-builder-claude-code-plugin",
-      "title_zh": "Wiki Builder：构建LLM知识库的技巧",
-      "created_display": "Created: May 03, 2026 / 08:28 PT",
-      "image_url": "https://academy.dair.ai/blog/wiki-builder-claude-code-plugin/cover.png",
-      "summary_en": "Wiki Builder helps tailor LLMs by assembling and curating knowledge bases, enabling scalable, searchable references for AI systems. It promotes structured knowledge integration to reduce hallucinations and improve factual accuracy.",
-      "summary_zh": "Wiki Builder 能通过整合和整理知识库，帮助大语言模型更好地获取可信参考。这种结构化的知识整合有助于降低幻觉、提升事实准确性，并支持大规模知识管理。",
+      "title_en": "Virtual violin produces realistic sounds",
+      "url": "https://news.mit.edu/2026/mit-engineers-virtual-violin-produces-realistic-sounds-0429",
+      "title_zh": "虚拟小提琴发出逼真声音",
+      "created_display": "Created: May 03, 2026 / 06:16 PT",
+      "image_url": "https://news.mit.edu/sites/default/files/images/202604/MIT-Strad-Model-01-press.jpg",
+      "summary_en": "MIT researchers have created a virtual violin capable of producing highly realistic sounds, blending physical modeling and DSP/AI to capture expressive nuances. This could boost digital instrument libraries, VR/AR experiences, and remote collaborations.",
+      "summary_zh": "麻省理工研究人员开发的虚拟小提琴可产生极其逼真的音色，结合物理建模与数字信号处理，捕捉细腻的情感表达。将推动数字乐器库、VR/AR 体验和远程协作的发展。",
       "hn": {
-        "id": 47997915,
+        "id": 47996668,
         "type": "story",
-        "by": "omarsar",
+        "by": "gmays",
         "score": 52,
-        "descendants": 6,
-        "time": 1777822128,
-        "comments_url": "https://news.ycombinator.com/item?id=47997915"
+        "descendants": 36,
+        "time": 1777814178,
+        "comments_url": "https://news.ycombinator.com/item?id=47996668"
       },
+      "hot_score": 0.02,
       "tags": [
         "AI",
-        "Data"
-      ],
-      "hot_score": 0.03
-    },
-    {
-      "title_en": "Make some art with your phone sensors",
-      "url": "https://tautme.github.io/phone-sensors/sensor-etch.html",
-      "title_zh": "用手机传感器创作艺术",
-      "created_display": "Created: May 03, 2026 / 18:25 PT",
-      "image_url": null,
-      "summary_en": "Make some art with your phone sensors shows how to use accelerometers, gyroscopes, microphones, and cameras to create interactive, accessible art. It demonstrates that compelling sensor-based art doesn't require specialized hardware, inviting readers to experiment.",
-      "summary_zh": "展示如何利用手机传感器创建互动艺术，包括加速计、陀螺仪、麦克风和摄像头的应用。该方法让艺术创作在硬件普及的基础上变得更易入门，鼓励读者自行尝试。",
-      "hn": {
-        "id": 48003549,
-        "type": "story",
-        "by": "adm4",
-        "score": 40,
-        "descendants": 7,
-        "time": 1777857905,
-        "comments_url": "https://news.ycombinator.com/item?id=48003549"
-      },
-      "hot_score": 0.03,
-      "tags": [
-        "Design",
-        "Hardware"
+        "Science"
       ]
     },
     {
@@ -1035,31 +1528,6 @@
         "Science"
       ],
       "hot_score": 0.02
-    },
-    {
-      "title_en": "Feds Fine Durham Energy Efficiency Co $722M",
-      "url": "https://www.theassemblync.com/news/business/american-efficient-ferc-durham-fine/",
-      "title_zh": "联邦监管机构对 Durham 能效公司罚款 7.22 亿美元",
-      "created_display": "Created: May 03, 2026 / 22:32 PT",
-      "image_url": "https://www.theassemblync.com/wp-content/uploads/2026/04/AP25111623944517-scaled.jpg",
-      "summary_en": "Federal regulators fined Durham Energy Efficiency $722 million over alleged compliance issues in an energy efficiency program. The case underscores the importance of accurate efficiency claims and the regulatory risk faced program implementers, with implications for future incentives.",
-      "summary_zh": "联邦监管机构对 Durham 能效公司处以 7.22 亿美元罚款，源于对能效项目合规性与声明真实性的质疑。此案凸显准确宣称效果的重要性，以及项目实施方在未来激励措施中的监管风险。",
-      "hn": {
-        "id": 48004992,
-        "type": "story",
-        "by": "ChuckMcM",
-        "score": 21,
-        "descendants": 13,
-        "time": 1777872741,
-        "comments_url": "https://news.ycombinator.com/item?id=48004992"
-      },
-      "hot_score": 0.02,
-      "tags": [
-        "Business",
-        "Legal",
-        "Energy",
-        "Politics"
-      ]
     },
     {
       "title_en": "The extended predicative Mahlo universe in Martin-Löf type theory (2023)",
@@ -1106,6 +1574,30 @@
       ]
     },
     {
+      "title_en": "Feds Fine Durham Energy Efficiency Co $722M",
+      "url": "https://www.theassemblync.com/news/business/american-efficient-ferc-durham-fine/",
+      "title_zh": "联邦监管机构对 Durham 能效公司罚款 7.22 亿美元",
+      "created_display": "Created: May 03, 2026 / 22:32 PT",
+      "image_url": "https://www.theassemblync.com/wp-content/uploads/2026/04/AP25111623944517-scaled.jpg",
+      "summary_en": "Federal regulators fined Durham Energy Efficiency $722 million over alleged compliance issues in an energy efficiency program. The case underscores the importance of accurate efficiency claims and the regulatory risk faced program implementers, with implications for future incentives.",
+      "summary_zh": "联邦监管机构对 Durham 能效公司处以 7.22 亿美元罚款，源于对能效项目合规性与声明真实性的质疑。此案凸显准确宣称效果的重要性，以及项目实施方在未来激励措施中的监管风险。",
+      "hn": {
+        "id": 48004992,
+        "type": "story",
+        "by": "ChuckMcM",
+        "score": 21,
+        "descendants": 13,
+        "time": 1777872741,
+        "comments_url": "https://news.ycombinator.com/item?id=48004992"
+      },
+      "hot_score": 0.01,
+      "tags": [
+        "Business",
+        "Energy",
+        "Politics"
+      ]
+    },
+    {
       "title_en": "How to organize 3 acquired companies into one coherent website",
       "url": "https://littlelanguagemodels.com/how-to-structure-your-sites-after-a-big-acquisition/",
       "title_zh": "如何把三家被收购公司整合成一个统一网站",
@@ -1124,7 +1616,6 @@
       },
       "hot_score": 0.0,
       "tags": [
-        "Business",
         "Web"
       ]
     }
