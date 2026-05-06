@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>80</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>11606</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>78</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>78</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-05-06</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>80</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>11615</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>78</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>78</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-05-06</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,7 +20,7 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='600' data-hn-time='1778082253'>
+<div class='hn-top-story-item' data-hn-score='879' data-hn-time='1778082253'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -28,32 +28,32 @@ Sort:
  <a class='hn-top-story-link' href='https://www.digitalfoundry.net/news/2026/05/valve-releases-steam-controller-cad-files-under-creative-commons-license' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Valve 将 Steam 控制器 CAD 文件以 Creative Commons 许可发布</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 24</span> <span class='hn-top-story-score'>&#9650; 600</span> <span class='hn-top-story-comments'>&#128172; 191</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 17</span> <span class='hn-top-story-score'>&#9650; 879</span> <span class='hn-top-story-comments'>&#128172; 297</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='118' data-hn-time='1778091906'>
+<div class='hn-top-story-item' data-hn-score='556' data-hn-time='1778084309'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/06/top_stories_05062026#story-48039739'>BYD overtakes Tesla and Kia as the best-selling EV brand in key overseas markets</a>
- <a class='hn-top-story-link' href='https://electrek.co/2026/05/05/byd-overtakes-tesla-kia-best-selling-ev-brand-key-overseas-markets/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>比亚迪在关键海外市场超越特斯拉与起亚，成为最畅销电动车品牌</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 14</span> <span class='hn-top-story-score'>&#9650; 118</span> <span class='hn-top-story-comments'>&#128172; 130</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Energy</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='275' data-hn-time='1778084309'>
-<span class='hn-top-story-rank'>3</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/06/top_stories_05062026#story-48038001'>Appearing Productive in the Workplace</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/06/top_stories_05062026#story-48038001'>Appearing productive in the workplace</a>
  <a class='hn-top-story-link' href='https://nooneshappy.com/article/appearing-productive-in-the-workplace/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>在职场中营造高效形象</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 13</span> <span class='hn-top-story-score'>&#9650; 275</span> <span class='hn-top-story-comments'>&#128172; 90</span> <span class='hn-top-story-tag'>Career</span> <span class='hn-top-story-tag'>Culture</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 556</span> <span class='hn-top-story-comments'>&#128172; 218</span> <span class='hn-top-story-tag'>Culture</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='234' data-hn-time='1778084253'>
+<div class='hn-top-story-item' data-hn-score='154' data-hn-time='1778096005'>
+<span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/06/top_stories_05062026#story-48040622'>Inkscape 1.4.4</a>
+ <a class='hn-top-story-link' href='https://inkscape.org/doc/release_notes/1.4.4/Inkscape_1.4.4.html' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Inkscape 1.4.4</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.1</span> <span class='hn-top-story-score'>&#9650; 154</span> <span class='hn-top-story-comments'>&#128172; 28</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Design</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='315' data-hn-time='1778084253'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -61,7 +61,7 @@ Sort:
  <a class='hn-top-story-link' href='https://www.anthropic.com/news/higher-limits-spacex' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Claude 使用上限提高，并与 SpaceX 达成算力合作</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 234</span> <span class='hn-top-story-comments'>&#128172; 171</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Space</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.8</span> <span class='hn-top-story-score'>&#9650; 315</span> <span class='hn-top-story-comments'>&#128172; 249</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Space</span></div>
 </div>
 </div>
 <div class='hn-top-story-item' data-hn-score='671' data-hn-time='1778063320'>
@@ -72,62 +72,62 @@ Sort:
  <a class='hn-top-story-link' href='https://red-squares.cian.lol/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Show HN：Red Squares 将 GitHub 故障变成贡献</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.6</span> <span class='hn-top-story-score'>&#9650; 671</span> <span class='hn-top-story-comments'>&#128172; 146</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.7</span> <span class='hn-top-story-score'>&#9650; 671</span> <span class='hn-top-story-comments'>&#128172; 146</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='94' data-hn-time='1778087974'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='288' data-hn-time='1778079997'>
 <span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/06/top_stories_05062026#story-48038827'>From Supabase to Clerk to Better Auth</a>
- <a class='hn-top-story-link' href='https://blog.val.town/better-auth' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>从 Supabase 到 Clerk，再到 Better Auth：身份认证演进</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.4</span> <span class='hn-top-story-score'>&#9650; 94</span> <span class='hn-top-story-comments'>&#128172; 36</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Security</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='191' data-hn-time='1778079997'>
-<span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/05/06/top_stories_05062026#story-48037128'>Vibe coding and agentic engineering are getting closer than I'd like</a>
  <a class='hn-top-story-link' href='https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Vibe 编程与代理工程比我想象的更接近</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.3</span> <span class='hn-top-story-score'>&#9650; 191</span> <span class='hn-top-story-comments'>&#128172; 251</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.9</span> <span class='hn-top-story-score'>&#9650; 288</span> <span class='hn-top-story-comments'>&#128172; 306</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='74' data-hn-time='1778088169'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='144' data-hn-time='1778090373'>
+<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/06/top_stories_05062026#story-48039362'>Google Cloud fraud defense, the next evolution of reCAPTCHA</a>
+ <a class='hn-top-story-link' href='https://cloud.google.com/blog/products/identity-security/introducing-google-cloud-fraud-defense-the-next-evolution-of-recaptcha/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Google Cloud Fraud Defense：reCAPTCHA 的新进化</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.7</span> <span class='hn-top-story-score'>&#9650; 144</span> <span class='hn-top-story-comments'>&#128172; 132</span> <span class='hn-top-story-tag'>Security</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='165' data-hn-time='1778087974'>
 <span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/06/top_stories_05062026#story-48038827'>From Supabase to Clerk to Better Auth</a>
+ <a class='hn-top-story-link' href='https://blog.val.town/better-auth' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>从 Supabase 到 Clerk，再到 Better Auth：身份认证演进</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.5</span> <span class='hn-top-story-score'>&#9650; 165</span> <span class='hn-top-story-comments'>&#128172; 95</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Security</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='118' data-hn-time='1778091906'>
+<span class='hn-top-story-rank'>9</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/06/top_stories_05062026#story-48039739'>BYD overtakes Tesla and Kia as the best-selling EV brand in key overseas markets</a>
+ <a class='hn-top-story-link' href='https://electrek.co/2026/05/05/byd-overtakes-tesla-kia-best-selling-ev-brand-key-overseas-markets/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>比亚迪在关键海外市场超越特斯拉与起亚，成为最畅销电动车品牌</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.3</span> <span class='hn-top-story-score'>&#9650; 118</span> <span class='hn-top-story-comments'>&#128172; 130</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Energy</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='142' data-hn-time='1778088169'>
+<span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/05/06/top_stories_05062026#story-48038864'>Going Full Time on Open Source</a>
  <a class='hn-top-story-link' href='https://jdx.dev/posts/2026-04-17-going-full-time-on-open-source/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>全职投身开源事业</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.2</span> <span class='hn-top-story-score'>&#9650; 74</span> <span class='hn-top-story-comments'>&#128172; 7</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Career</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='79' data-hn-time='1778086461'>
-<span class='hn-top-story-rank'>9</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/06/top_stories_05062026#story-48038489'>Colombia hosts talks on exiting fossil fuels as global energy crisis deepens</a>
- <a class='hn-top-story-link' href='https://www.latimes.com/environment/story/2026-04-26/colombia-hosts-talks-on-exiting-fossil-fuels-as-global-energy-crisis-deepens' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>全球能源危机深深之际，哥伦比亚举行退出化石燃料的对话</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.6</span> <span class='hn-top-story-score'>&#9650; 79</span> <span class='hn-top-story-comments'>&#128172; 43</span> <span class='hn-top-story-tag'>Energy</span> <span class='hn-top-story-tag'>Politics</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='123' data-hn-time='1778079397'>
-<span class='hn-top-story-rank'>10</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/06/top_stories_05062026#story-48037009'>CNN founder Ted Turner, a pioneer of cable TV news, dies at 87</a>
- <a class='hn-top-story-link' href='https://www.cnn.com/2026/05/06/us/ted-turner-death' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>CNN 创始人 Ted Turner 去世，享年 87 岁</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 123</span> <span class='hn-top-story-comments'>&#128172; 92</span> <span class='hn-top-story-tag'>Culture</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 142</span> <span class='hn-top-story-comments'>&#128172; 19</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Career</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -155,7 +155,7 @@ Your browser does not support the audio element.
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 19 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-05-04 — 2026-05-06 <span class="hn-row-sep">·</span> 341 stories <span class="hn-row-sep">·</span> 3 days</span>
+<span class='hn-week-meta'>2026-05-04 — 2026-05-06 <span class="hn-row-sep">·</span> 350 stories <span class="hn-row-sep">·</span> 3 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -164,7 +164,7 @@ Your browser does not support the audio element.
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/05/06/top_stories_05062026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>91</b> <span class="hn-row-sep">·</span> AI <b>27</b> <span class="hn-row-sep">·</span> Science <b>14</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>27</b> <span class="hn-row-sep">·</span> Programming <b>18</b></span>
 </a>
 </div>
 </div>
