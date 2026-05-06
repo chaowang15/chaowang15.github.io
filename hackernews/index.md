@@ -20,62 +20,62 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='430' data-hn-time='1778012195'>
+<div class='hn-top-story-item' data-hn-score='116' data-hn-time='1778037033'>
 <span class='hn-top-story-rank'>1</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/05/top_stories_05052026#story-48031684'>Agents can now create Cloudflare accounts, buy domains, and deploy</a>
+ <a class='hn-top-story-link' href='https://blog.cloudflare.com/agents-stripe-projects/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>代理现在可创建 Cloudflare 账户、购买域名并完成部署</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.5</span> <span class='hn-top-story-score'>&#9650; 116</span> <span class='hn-top-story-comments'>&#128172; 49</span> <span class='hn-top-story-tag'>DevOps</span> <span class='hn-top-story-tag'>Security</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='582' data-hn-time='1778012195'>
+<span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/05/05/top_stories_05052026#story-48027897'>.de TLD offline due to DNSSEC?</a>
  <a class='hn-top-story-link' href='https://dnssec-analyzer.verisignlabs.com/nic.de' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>.de 顶级域因 DNSSEC 离线？</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 29</span> <span class='hn-top-story-score'>&#9650; 430</span> <span class='hn-top-story-comments'>&#128172; 168</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.6</span> <span class='hn-top-story-score'>&#9650; 582</span> <span class='hn-top-story-comments'>&#128172; 289</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='391' data-hn-time='1777997657'>
-<span class='hn-top-story-rank'>2</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/05/top_stories_05052026#story-48024540'>Accelerating Gemma 4: faster inference with multi-token prediction drafters</a>
- <a class='hn-top-story-link' href='https://blog.google/innovation-and-ai/technology/developers-tools/multi-token-prediction-gemma-4/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>加速 Gemma 4：通过多令牌预测提升推理速度</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.2</span> <span class='hn-top-story-score'>&#9650; 391</span> <span class='hn-top-story-comments'>&#128172; 173</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='268' data-hn-time='1778002098'>
+<div class='hn-top-story-item' data-hn-score='151' data-hn-time='1778033024'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/05/top_stories_05052026#story-48025687'>IBM didn't want Microsoft to use the Tab key to move between dialog fields</a>
- <a class='hn-top-story-link' href='https://devblogs.microsoft.com/oldnewthing/20260505-00/?p=112298' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/05/top_stories_05052026#story-48031261'>StarFighter 16-Inch</a>
+ <a class='hn-top-story-link' href='https://us.starlabs.systems/pages/starfighter' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>IBM 不希望微软在对话框字段间用 Tab 键切换</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.4</span> <span class='hn-top-story-score'>&#9650; 268</span> <span class='hn-top-story-comments'>&#128172; 158</span> <span class='hn-top-story-tag'>Design</span></div>
+<div class='hn-top-story-zh'>StarFighter 16英寸笔记本</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.3</span> <span class='hn-top-story-score'>&#9650; 151</span> <span class='hn-top-story-comments'>&#128172; 78</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Energy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='212' data-hn-time='1778004827'>
+<div class='hn-top-story-item' data-hn-score='89' data-hn-time='1778037889'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/05/top_stories_05052026#story-48026349'>California farmers to destroy 420k peach trees following Del Monte bankruptcy</a>
- <a class='hn-top-story-link' href='https://www.sfgate.com/centralcoast/article/usda-aid-california-farmers-22240694.php' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/05/top_stories_05052026#story-48031769'>Ombudsman column: The Pentagon is trying to silence me</a>
+ <a class='hn-top-story-link' href='https://www.stripes.com/opinion/2026-04-23/stripes-former-ombudsman-pentagon-trying-to-silence-21465037.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Del Monte 破产后，加州农民将毁掉42万棵桃树</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.2</span> <span class='hn-top-story-score'>&#9650; 212</span> <span class='hn-top-story-comments'>&#128172; 272</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>监察专员专栏：五角大楼试图让我保持沉默</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.2</span> <span class='hn-top-story-score'>&#9650; 89</span> <span class='hn-top-story-comments'>&#128172; 9</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='49' data-hn-time='1778017821'>
+<div class='hn-top-story-item' data-hn-score='65' data-hn-time='1778037305'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/05/top_stories_05052026#story-48029114'>NPR finds "no sign" of Polymarket at its Panama HQ address</a>
- <a class='hn-top-story-link' href='https://www.npr.org/2026/05/05/nx-s1-5807918/polymarket-panama-prediction-market' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/05/top_stories_05052026#story-48031707'>Update on "Co-authored-by: Copilot" in commit messages</a>
+ <a class='hn-top-story-link' href='https://github.com/microsoft/vscode/issues/314311' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Polymarket在巴拿马总部地址无踪迹</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.9</span> <span class='hn-top-story-score'>&#9650; 49</span> <span class='hn-top-story-comments'>&#128172; 5</span> <span class='hn-top-story-tag'>Startups</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>关于在提交信息中添加“Co-authored-by: Copilot”的更新</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.9</span> <span class='hn-top-story-score'>&#9650; 65</span> <span class='hn-top-story-comments'>&#128172; 43</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1147' data-hn-time='1777966495'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1341' data-hn-time='1777966495'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -83,32 +83,32 @@ Sort:
  <a class='hn-top-story-link' href='https://www.thatprivacyguy.com/blog/chrome-silent-nano-install/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>谷歌 Chrome 未经同意在设备上静默下载 4GB AI 模型</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.8</span> <span class='hn-top-story-score'>&#9650; 1147</span> <span class='hn-top-story-comments'>&#128172; 789</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.5</span> <span class='hn-top-story-score'>&#9650; 1341</span> <span class='hn-top-story-comments'>&#128172; 895</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='479' data-hn-time='1777990070'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='506' data-hn-time='1777997657'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/05/top_stories_05052026#story-48022742'>AI didn't delete your database, you did</a>
- <a class='hn-top-story-link' href='https://idiallo.com/blog/ai-didnt-delete-your-database-you-did' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/05/top_stories_05052026#story-48024540'>Accelerating Gemma 4: faster inference with multi-token prediction drafters</a>
+ <a class='hn-top-story-link' href='https://blog.google/innovation-and-ai/technology/developers-tools/multi-token-prediction-gemma-4/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>AI 没有删除你的数据库，是你自己把它弄丢了</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.8</span> <span class='hn-top-story-score'>&#9650; 479</span> <span class='hn-top-story-comments'>&#128172; 263</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>加速 Gemma 4：通过多令牌预测提升推理速度</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.8</span> <span class='hn-top-story-score'>&#9650; 506</span> <span class='hn-top-story-comments'>&#128172; 228</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='325' data-hn-time='1777994838'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='85' data-hn-time='1778031524'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/05/top_stories_05052026#story-48023861'>Three Inverse Laws of AI</a>
- <a class='hn-top-story-link' href='https://susam.net/inverse-laws-of-robotics.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/05/top_stories_05052026#story-48031109'>Telus Uses AI to Alter Call-Agent Accents</a>
+ <a class='hn-top-story-link' href='https://letsdatascience.com/news/telus-uses-ai-to-alter-call-agent-accents-a3868f63' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>AI 的三条逆向律</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.8</span> <span class='hn-top-story-score'>&#9650; 325</span> <span class='hn-top-story-comments'>&#128172; 221</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>Telus 用 AI 改变呼叫中心客服的口音</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 85</span> <span class='hn-top-story-comments'>&#128172; 52</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='51' data-hn-time='1778016410'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='193' data-hn-time='1778016410'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -116,18 +116,18 @@ Sort:
  <a class='hn-top-story-link' href='https://nonogra.ph/write-some-software-give-it-away-for-free-05-05-2026' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>写点软件，免费开源</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.7</span> <span class='hn-top-story-score'>&#9650; 51</span> <span class='hn-top-story-comments'>&#128172; 29</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 193</span> <span class='hn-top-story-comments'>&#128172; 131</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='243' data-hn-time='1777998888'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='323' data-hn-time='1778004265'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/05/top_stories_05052026#story-48024859'>Computer Use is 45x more expensive than structured APIs</a>
- <a class='hn-top-story-link' href='https://reflex.dev/blog/computer-use-is-45x-more-expensive-than-structured-apis/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/05/top_stories_05052026#story-48026207'>Zuckerberg 'Personally Authorized and Encouraged' Meta's Copyright Infringement</a>
+ <a class='hn-top-story-link' href='https://variety.com/2026/digital/news/meta-ai-mark-zuckerberg-copyright-infringement-lawsuit-publishers-scott-turow-1236738383/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>计算使用成本比结构化 API 高出 45 倍</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.5</span> <span class='hn-top-story-score'>&#9650; 243</span> <span class='hn-top-story-comments'>&#128172; 127</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>扎克伯格亲自授权并推动 Meta 的版权侵权</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 323</span> <span class='hn-top-story-comments'>&#128172; 308</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -164,7 +164,7 @@ Your browser does not support the audio element.
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/05/05/top_stories_05052026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>21</b> <span class="hn-row-sep">·</span> Security <b>17</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>24</b> <span class="hn-row-sep">·</span> Security <b>17</b></span>
 </a>
 </div>
 </div>
