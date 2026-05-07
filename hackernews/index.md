@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>80</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>11615</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>78</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>78</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-05-06</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>81</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>11664</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>78</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>79</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-05-07</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,118 +20,118 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='1209' data-hn-time='1778082253'>
+<div class='hn-top-story-item' data-hn-score='1377' data-hn-time='1778082253'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/06/top_stories_05062026#story-48037555'>Valve releases Steam Controller CAD files under Creative Commons license</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/07/top_stories_05072026#story-48037555'>Valve releases Steam Controller CAD files under Creative Commons license</a>
  <a class='hn-top-story-link' href='https://www.digitalfoundry.net/news/2026/05/valve-releases-steam-controller-cad-files-under-creative-commons-license' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Valve 将 Steam 控制器 CAD 文件以 Creative Commons 许可发布</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.5</span> <span class='hn-top-story-score'>&#9650; 1209</span> <span class='hn-top-story-comments'>&#128172; 382</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.9</span> <span class='hn-top-story-score'>&#9650; 1377</span> <span class='hn-top-story-comments'>&#128172; 418</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='876' data-hn-time='1778084309'>
+<div class='hn-top-story-item' data-hn-score='1096' data-hn-time='1778084309'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/06/top_stories_05062026#story-48038001'>Appearing productive in the workplace</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/07/top_stories_05072026#story-48038001'>Appearing productive in the workplace</a>
  <a class='hn-top-story-link' href='https://nooneshappy.com/article/appearing-productive-in-the-workplace/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>在职场中营造高效形象</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.6</span> <span class='hn-top-story-score'>&#9650; 876</span> <span class='hn-top-story-comments'>&#128172; 339</span> <span class='hn-top-story-tag'>Culture</span> <span class='hn-top-story-tag'>Career</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.8</span> <span class='hn-top-story-score'>&#9650; 1096</span> <span class='hn-top-story-comments'>&#128172; 412</span> <span class='hn-top-story-tag'>Career</span> <span class='hn-top-story-tag'>Culture</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='67' data-hn-time='1778120303'>
+<div class='hn-top-story-item' data-hn-score='128' data-hn-time='1778120303'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/06/top_stories_05062026#story-48044638'>Permacomputing Principles</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/07/top_stories_05072026#story-48044638'>Permacomputing Principles</a>
  <a class='hn-top-story-link' href='https://permacomputing.net/principles/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>永续计算原则</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 67</span> <span class='hn-top-story-comments'>&#128172; 7</span> <span class='hn-top-story-tag'>Energy</span> <span class='hn-top-story-tag'>Culture</span> <span class='hn-top-story-tag'>DevOps</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.7</span> <span class='hn-top-story-score'>&#9650; 128</span> <span class='hn-top-story-comments'>&#128172; 60</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Energy</span> <span class='hn-top-story-tag'>DevOps</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='88' data-hn-time='1778117163'>
+<div class='hn-top-story-item' data-hn-score='575' data-hn-time='1778079997'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/06/top_stories_05062026#story-48044311'>The Vatican's Website in Latin</a>
- <a class='hn-top-story-link' href='https://www.vatican.va/latin/latin_index.html' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>梵蒂冈官方网站提供拉丁文版本</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 88</span> <span class='hn-top-story-comments'>&#128172; 57</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Culture</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='436' data-hn-time='1778084253'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/06/top_stories_05062026#story-48037986'>Higher usage limits for Claude and a compute deal with SpaceX</a>
- <a class='hn-top-story-link' href='https://www.anthropic.com/news/higher-limits-spacex' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Claude 使用上限提高，并与 SpaceX 达成算力合作</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 436</span> <span class='hn-top-story-comments'>&#128172; 383</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Space</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='498' data-hn-time='1778079997'>
-<span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/06/top_stories_05062026#story-48037128'>Vibe coding and agentic engineering are getting closer than I'd like</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/07/top_stories_05072026#story-48037128'>Vibe coding and agentic engineering are getting closer than I'd like</a>
  <a class='hn-top-story-link' href='https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Vibe 编程与代理工程比我想象的更接近</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 498</span> <span class='hn-top-story-comments'>&#128172; 538</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.7</span> <span class='hn-top-story-score'>&#9650; 575</span> <span class='hn-top-story-comments'>&#128172; 625</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='256' data-hn-time='1778096005'>
-<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-item' data-hn-score='139' data-hn-time='1778117163'>
+<span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/06/top_stories_05062026#story-48040622'>Inkscape 1.4.4</a>
- <a class='hn-top-story-link' href='https://inkscape.org/doc/release_notes/1.4.4/Inkscape_1.4.4.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/07/top_stories_05072026#story-48044311'>The Vatican's Website in Latin</a>
+ <a class='hn-top-story-link' href='https://www.vatican.va/latin/latin_index.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Inkscape 1.4.4</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 256</span> <span class='hn-top-story-comments'>&#128172; 78</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Design</span></div>
+<div class='hn-top-story-zh'>梵蒂冈官方网站提供拉丁文版本</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 139</span> <span class='hn-top-story-comments'>&#128172; 75</span> <span class='hn-top-story-tag'>Culture</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='671' data-hn-time='1778063320'>
-<span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='348' data-hn-time='1778094401'>
+<span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/06/top_stories_05062026#story-48034587'>Show HN: Red Squares – GitHub outages as contributions</a>
- <a class='hn-top-story-link' href='https://red-squares.cian.lol/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Show HN：Red Squares 将 GitHub 故障变成贡献</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 671</span> <span class='hn-top-story-comments'>&#128172; 146</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>Programming</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='229' data-hn-time='1778094401'>
-<span class='hn-top-story-rank'>9</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/06/top_stories_05062026#story-48040269'>Programming Still Sucks</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/07/top_stories_05072026#story-48040269'>Programming Still Sucks</a>
  <a class='hn-top-story-link' href='https://www.stvn.sh/writing/programming-still-sucks-fqffhyp' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>编程仍然很糟糕</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 229</span> <span class='hn-top-story-comments'>&#128172; 77</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 348</span> <span class='hn-top-story-comments'>&#128172; 160</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='254' data-hn-time='1778090373'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='455' data-hn-time='1778084253'>
+<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/07/top_stories_05072026#story-48037986'>Higher usage limits for Claude and a compute deal with SpaceX</a>
+ <a class='hn-top-story-link' href='https://www.anthropic.com/news/higher-limits-spacex' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Claude 使用上限提高，并与 SpaceX 达成算力合作</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 455</span> <span class='hn-top-story-comments'>&#128172; 413</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Space</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='305' data-hn-time='1778096005'>
+<span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/07/top_stories_05072026#story-48040622'>Inkscape 1.4.4</a>
+ <a class='hn-top-story-link' href='https://inkscape.org/doc/release_notes/1.4.4/Inkscape_1.4.4.html' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Inkscape 1.4.4</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.3</span> <span class='hn-top-story-score'>&#9650; 305</span> <span class='hn-top-story-comments'>&#128172; 89</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Design</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='219' data-hn-time='1778104723'>
+<span class='hn-top-story-rank'>9</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/07/top_stories_05072026#story-48042434'>SQLite Is a Library of Congress Recommended Storage Format</a>
+ <a class='hn-top-story-link' href='https://sqlite.org/locrsf.html' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>SQLite 成为美国国会图书馆推荐的存储格式</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.2</span> <span class='hn-top-story-score'>&#9650; 219</span> <span class='hn-top-story-comments'>&#128172; 58</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>Politics</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='79' data-hn-time='1778123604'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/06/top_stories_05062026#story-48039362'>Google Cloud fraud defense, the next evolution of reCAPTCHA</a>
- <a class='hn-top-story-link' href='https://cloud.google.com/blog/products/identity-security/introducing-google-cloud-fraud-defense-the-next-evolution-of-recaptcha/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/07/top_stories_05072026#story-48045012'>Diskless Linux boot using ZFS, iSCSI and PXE</a>
+ <a class='hn-top-story-link' href='https://aniket.foo/posts/20260505-netboot/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Google Cloud Fraud Defense：reCAPTCHA 的新进化</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 254</span> <span class='hn-top-story-comments'>&#128172; 239</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>无磁盘 Linux 启动：结合 ZFS、iSCSI 与 PXE</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.1</span> <span class='hn-top-story-score'>&#9650; 79</span> <span class='hn-top-story-comments'>&#128172; 35</span> <span class='hn-top-story-tag'>DevOps</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
-<a class='hn-top-stories-more' href='/hackernews/2026/05/06/top_stories_05062026'>View all trending stories &rarr;</a>
+<a class='hn-top-stories-more' href='/hackernews/2026/05/07/top_stories_05072026'>View all trending stories &rarr;</a>
 </div>
 </div>
 <div class='hn-index-section hn-podcast-section'>
@@ -155,10 +155,19 @@ Your browser does not support the audio element.
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 19 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-05-04 — 2026-05-06 <span class="hn-row-sep">·</span> 350 stories <span class="hn-row-sep">·</span> 3 days</span>
+<span class='hn-week-meta'>2026-05-04 — 2026-05-07 <span class="hn-row-sep">·</span> 399 stories <span class="hn-row-sep">·</span> 4 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
+<div class='hn-day-row'>
+<div class='hn-day-date'>2026-05-07 <span class='hn-day-weekday'>Thu</span></div>
+<div class='hn-day-stories'>
+<a class='hn-story-link' href='/hackernews/2026/05/07/top_stories_05072026'>
+<span class='hn-row-type hn-type-top'>Trending</span>
+<span class='hn-row-detail'>All <b>49</b> <span class="hn-row-sep">·</span> AI <b>12</b> <span class="hn-row-sep">·</span> Hardware <b>10</b></span>
+</a>
+</div>
+</div>
 <div class='hn-day-row'>
 <div class='hn-day-date'>2026-05-06 <span class='hn-day-weekday'>Wed</span></div>
 <div class='hn-day-stories'>
@@ -527,7 +536,7 @@ Your browser does not support the audio element.
 <details class='hn-week-group'>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 15</span>
-<span class='hn-week-meta'>2026-04-07 — 2026-04-12 <span class="hn-row-sep">·</span> 900 stories <span class="hn-row-sep">·</span> 6 days <span class="hn-row-sep">·</span> 📊 Weekly Digest <span class="hn-row-sep">·</span> 🎧</span>
+<span class='hn-week-meta'>2026-04-08 — 2026-04-12 <span class="hn-row-sep">·</span> 750 stories <span class="hn-row-sep">·</span> 5 days <span class="hn-row-sep">·</span> 📊 Weekly Digest <span class="hn-row-sep">·</span> 🎧</span>
 </summary>
 <div class='hn-week-content'>
 <a class='hn-story-link hn-weekly-digest-link' href='/hackernews/weekly/2026-W15'>
@@ -601,20 +610,6 @@ Your browser does not support the audio element.
 <a class='hn-story-link' href='/hackernews/2026/04/08/top_stories_04082026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
 <span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>25</b> <span class="hn-row-sep">·</span> Programming <b>19</b></span>
-</a>
-</div>
-</div>
-<div class='hn-day-row'>
-<div class='hn-day-date'>2026-04-07 <span class='hn-day-weekday'>Tue</span></div>
-<div class='hn-day-stories'>
-<a class='hn-story-link' href='/hackernews/2026/04/07/best_stories_04072026'>
-<span class='hn-row-type hn-type-best'>Daily Best</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>15</b> <span class="hn-row-sep">·</span> Security <b>11</b></span>
-<span class='hn-podcast-badge' title='Podcast available'>&#x1F3A7;</span>
-</a>
-<a class='hn-story-link' href='/hackernews/2026/04/07/top_stories_04072026'>
-<span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>24</b> <span class="hn-row-sep">·</span> Programming <b>21</b></span>
 </a>
 </div>
 </div>
