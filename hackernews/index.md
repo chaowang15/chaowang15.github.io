@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>82</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>11864</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>80</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>80</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-05-08</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>82</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>11878</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>80</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>80</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-05-08</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='569' data-hn-time='1778192541'>
+<div class='hn-top-story-item' data-hn-score='451' data-hn-time='1778243405'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/08/top_stories_05082026#story-48055913'>Canvas is down as ShinyHunters threatens to leak schools’ data</a>
- <a class='hn-top-story-link' href='https://www.theverge.com/tech/926458/canvas-shinyhunters-breach' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/08/top_stories_05082026#story-48062117'>Poland is now among the 20 largest economies. How it happened</a>
+ <a class='hn-top-story-link' href='https://apnews.com/article/poland-economy-growth-g20-gdp-26fe06e120398410f8d773ba5661e7aa' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Canvas宕机，ShinyHunters威胁泄露学校数据</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.0</span> <span class='hn-top-story-score'>&#9650; 569</span> <span class='hn-top-story-comments'>&#128172; 349</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Education</span></div>
+<div class='hn-top-story-zh'>波兰现已跻身全球前二十大经济体：原因何在</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 26</span> <span class='hn-top-story-score'>&#9650; 451</span> <span class='hn-top-story-comments'>&#128172; 363</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>Energy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='433' data-hn-time='1778194931'>
+<div class='hn-top-story-item' data-hn-score='91' data-hn-time='1778248712'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/08/top_stories_05082026#story-48056227'>Maybe you shouldn't install new software for a bit</a>
- <a class='hn-top-story-link' href='https://xeiaso.net/blog/2026/abstain-from-install/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/08/top_stories_05082026#story-48063240'>Tesla is recalling its cheaper Cybertruck because the wheels might fall off</a>
+ <a class='hn-top-story-link' href='https://www.theverge.com/transportation/926741/tesla-cybertruck-cheaper-recall' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>也许你暂时不该安装新软件</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.0</span> <span class='hn-top-story-score'>&#9650; 433</span> <span class='hn-top-story-comments'>&#128172; 226</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>DevOps</span></div>
+<div class='hn-top-story-zh'>特斯拉召回更便宜的 Cybertruck：轮子可能脱落</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.9</span> <span class='hn-top-story-score'>&#9650; 91</span> <span class='hn-top-story-comments'>&#128172; 69</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Energy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='627' data-hn-time='1778185417'>
+<div class='hn-top-story-item' data-hn-score='149' data-hn-time='1778239331'>
 <span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/08/top_stories_05082026#story-48061566'>An Introduction to Meshtastic</a>
+ <a class='hn-top-story-link' href='https://meshtastic.org/docs/introduction/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Meshtastic 入门指南</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.9</span> <span class='hn-top-story-score'>&#9650; 149</span> <span class='hn-top-story-comments'>&#128172; 58</span> <span class='hn-top-story-tag'>Open Source</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='1065' data-hn-time='1778185417'>
+<span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/05/08/top_stories_05082026#story-48054423'>Cloudflare to cut about 20% workforce</a>
  <a class='hn-top-story-link' href='https://www.reuters.com/business/world-at-work/cloudflare-cut-over-1100-jobs-2026-05-07/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Cloudflare裁员约20%</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.8</span> <span class='hn-top-story-score'>&#9650; 627</span> <span class='hn-top-story-comments'>&#128172; 382</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.4</span> <span class='hn-top-story-score'>&#9650; 1065</span> <span class='hn-top-story-comments'>&#128172; 721</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='599' data-hn-time='1778181692'>
-<span class='hn-top-story-rank'>4</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/08/top_stories_05082026#story-48053623'>Dirtyfrag: Universal Linux LPE</a>
- <a class='hn-top-story-link' href='https://www.openwall.com/lists/oss-security/2026/05/07/8' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Dirtyfrag：通用 Linux 本地提权漏洞</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.9</span> <span class='hn-top-story-score'>&#9650; 599</span> <span class='hn-top-story-comments'>&#128172; 245</span> <span class='hn-top-story-tag'>Security</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='610' data-hn-time='1778179585'>
+<div class='hn-top-story-item' data-hn-score='835' data-hn-time='1778192541'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/08/top_stories_05082026#story-48053203'>AI slop is killing online communities</a>
- <a class='hn-top-story-link' href='https://rmoff.net/2026/05/06/ai-slop-is-killing-online-communities/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/08/top_stories_05082026#story-48055913'>Canvas is down as ShinyHunters threatens to leak schools’ data</a>
+ <a class='hn-top-story-link' href='https://www.theverge.com/tech/926458/canvas-shinyhunters-breach' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>AI 低质内容正在侵蚀在线社区</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.6</span> <span class='hn-top-story-score'>&#9650; 610</span> <span class='hn-top-story-comments'>&#128172; 540</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Design</span></div>
+<div class='hn-top-story-zh'>Canvas宕机，ShinyHunters威胁泄露学校数据</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 835</span> <span class='hn-top-story-comments'>&#128172; 547</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Education</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='546' data-hn-time='1778169393'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='702' data-hn-time='1778194931'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/08/top_stories_05082026#story-48050964'>Chrome removes claim of On-device Al not sending data to Google Servers</a>
- <a class='hn-top-story-link' href='https://old.reddit.com/r/chrome/comments/1t5qayz/chrome_removes_claim_of_ondevice_al_not_sending/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/08/top_stories_05082026#story-48056227'>Maybe you shouldn't install new software for a bit</a>
+ <a class='hn-top-story-link' href='https://xeiaso.net/blog/2026/abstain-from-install/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Chrome 撤回‘本地 AI 不发送数据给 Google 服务器’的声明</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 546</span> <span class='hn-top-story-comments'>&#128172; 206</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Web</span></div>
+<div class='hn-top-story-zh'>也许你暂时不该安装新软件</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.7</span> <span class='hn-top-story-score'>&#9650; 702</span> <span class='hn-top-story-comments'>&#128172; 375</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>DevOps</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='627' data-hn-time='1778162770'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='62' data-hn-time='1778242801'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/08/top_stories_05082026#story-48049653'>The map that keeps Burning Man honest</a>
- <a class='hn-top-story-link' href='https://www.not-ship.com/burning-man-moop/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/08/top_stories_05082026#story-48062035'>Hackers breach JDownloader's website to serve malware-laced downloads</a>
+ <a class='hn-top-story-link' href='https://www.neowin.net/news/if-you-downloaded-this-popular-software-recently-you-might-have-installed-malware/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>让 Burning Man 公正的 MOOP 地图</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 627</span> <span class='hn-top-story-comments'>&#128172; 310</span> <span class='hn-top-story-tag'>Data</span></div>
+<div class='hn-top-story-zh'>黑客入侵 JDownloader 官网，提供带有恶意软件的下载</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 62</span> <span class='hn-top-story-comments'>&#128172; 19</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='445' data-hn-time='1778172215'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='25' data-hn-time='1778249671'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/08/top_stories_05082026#story-48051562'>Agents need control flow, not more prompts</a>
- <a class='hn-top-story-link' href='https://bsuh.bearblog.dev/agents-need-control-flow/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/08/top_stories_05082026#story-48063521'>PC Engine CPU</a>
+ <a class='hn-top-story-link' href='https://jsgroth.dev/blog/posts/pc-engine-cpu/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>代理需要控制流，而非更多提示</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.7</span> <span class='hn-top-story-score'>&#9650; 445</span> <span class='hn-top-story-comments'>&#128172; 213</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>PC Engine CPU 架构揭秘</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 25</span> <span class='hn-top-story-comments'>&#128172; 2</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='76' data-hn-time='1778208541'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='198' data-hn-time='1778223864'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/08/top_stories_05082026#story-48057901'>Mojo 1.0 Beta</a>
- <a class='hn-top-story-link' href='https://mojolang.org/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/08/top_stories_05082026#story-48059662'>ClojureScript Gets Async/Await</a>
+ <a class='hn-top-story-link' href='https://clojurescript.org/news/2026-05-07-release' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Mojo 1.0 测试版</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.2</span> <span class='hn-top-story-score'>&#9650; 76</span> <span class='hn-top-story-comments'>&#128172; 56</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>ClojureScript 新增 Async/Await 支持</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 198</span> <span class='hn-top-story-comments'>&#128172; 46</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1700' data-hn-time='1778082253'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='191' data-hn-time='1778223373'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/08/top_stories_05082026#story-48037555'>Valve releases Steam Controller CAD files under Creative Commons license</a>
- <a class='hn-top-story-link' href='https://www.digitalfoundry.net/news/2026/05/valve-releases-steam-controller-cad-files-under-creative-commons-license' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/08/top_stories_05082026#story-48059606'>Nintendo announces price increases for Nintendo Switch 2</a>
+ <a class='hn-top-story-link' href='https://www.nintendo.co.jp/corporate/release/en/2026/260508.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Valve 将 Steam 控制器 CAD 文件以 Creative Commons 许可发布</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 1700</span> <span class='hn-top-story-comments'>&#128172; 576</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>任天堂宣布对 Nintendo Switch 2 提价</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 191</span> <span class='hn-top-story-comments'>&#128172; 170</span> <span class='hn-top-story-tag'>Gaming</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -155,7 +155,7 @@ Your browser does not support the audio element.
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 19 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-05-04 — 2026-05-08 <span class="hn-row-sep">·</span> 599 stories <span class="hn-row-sep">·</span> 5 days</span>
+<span class='hn-week-meta'>2026-05-04 — 2026-05-08 <span class="hn-row-sep">·</span> 613 stories <span class="hn-row-sep">·</span> 5 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -164,7 +164,7 @@ Your browser does not support the audio element.
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/05/08/top_stories_05082026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>49</b> <span class="hn-row-sep">·</span> AI <b>14</b> <span class="hn-row-sep">·</span> Programming <b>12</b></span>
+<span class='hn-row-detail'>All <b>63</b> <span class="hn-row-sep">·</span> AI <b>15</b> <span class="hn-row-sep">·</span> Security <b>13</b></span>
 </a>
 </div>
 </div>
