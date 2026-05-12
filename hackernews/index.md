@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='257' data-hn-time='1778533705'>
+<div class='hn-top-story-item' data-hn-score='682' data-hn-time='1778533705'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/11/top_stories_05112026#story-48100706'>TanStack NPM Packages Compromised</a>
- <a class='hn-top-story-link' href='https://github.com/TanStack/router/issues/7383' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/11/top_stories_05112026#story-48100706'>Postmortem: TanStack npm supply-chain compromise</a>
+ <a class='hn-top-story-link' href='https://tanstack.com/blog/npm-supply-chain-compromise-postmortem' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>TanStack 的 NPM 包遭遇入侵</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 25</span> <span class='hn-top-story-score'>&#9650; 257</span> <span class='hn-top-story-comments'>&#128172; 63</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>TanStack npm 供应链安全事后分析</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 10.0</span> <span class='hn-top-story-score'>&#9650; 682</span> <span class='hn-top-story-comments'>&#128172; 255</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='153' data-hn-time='1778532717'>
+<div class='hn-top-story-item' data-hn-score='415' data-hn-time='1778532717'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/11/top_stories_05112026#story-48100500'>GitLab Announces Workforce Reduction and End of Their CREDIT Values</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/11/top_stories_05112026#story-48100500'>GitLab announces workforce reduction and end of their CREDIT values</a>
  <a class='hn-top-story-link' href='https://about.gitlab.com/blog/gitlab-act-2/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>GitLab 宣布裁员并停止其 CREDIT 价值观体系</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 13</span> <span class='hn-top-story-score'>&#9650; 153</span> <span class='hn-top-story-comments'>&#128172; 100</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.8</span> <span class='hn-top-story-score'>&#9650; 415</span> <span class='hn-top-story-comments'>&#128172; 429</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='198' data-hn-time='1778523158'>
+<div class='hn-top-story-item' data-hn-score='321' data-hn-time='1778532355'>
 <span class='hn-top-story-rank'>3</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/11/top_stories_05112026#story-48098537'>Can someone please explain whether Cloudflare blackmailed Canonical?</a>
- <a class='hn-top-story-link' href='https://www.flyingpenguin.com/can-someone-please-explain-whether-cloudflare-blackmailed-canonical/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>有人质疑 Cloudflare 是否敲诈 Canonical？</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.7</span> <span class='hn-top-story-score'>&#9650; 198</span> <span class='hn-top-story-comments'>&#128172; 113</span> <span class='hn-top-story-tag'>Open Source</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='335' data-hn-time='1778514907'>
-<span class='hn-top-story-rank'>4</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/11/top_stories_05112026#story-48096692'>CUDA-oxide: Nvidia's official Rust to CUDA compiler</a>
- <a class='hn-top-story-link' href='https://nvlabs.github.io/cuda-oxide/index.html' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>CUDA-oxide：NVIDIA 官方的 Rust 转 CUDA 编译器</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.6</span> <span class='hn-top-story-score'>&#9650; 335</span> <span class='hn-top-story-comments'>&#128172; 104</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Hardware</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='314' data-hn-time='1778510048'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/11/top_stories_05112026#story-48095550'>Software engineering may no longer be a lifetime career</a>
- <a class='hn-top-story-link' href='https://www.seangoedecke.com/software-engineering-may-no-longer-be-a-lifetime-career/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>软件工程可能不再是终身职业</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.8</span> <span class='hn-top-story-score'>&#9650; 314</span> <span class='hn-top-story-comments'>&#128172; 530</span> <span class='hn-top-story-tag'>Career</span> <span class='hn-top-story-tag'>Education</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='59' data-hn-time='1778532355'>
-<span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/05/11/top_stories_05112026#story-48100433'>If AI writes your code, why use Python?</a>
  <a class='hn-top-story-link' href='https://medium.com/@NMitchem/if-ai-writes-your-code-why-use-python-bf8c4ba1a055' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>如果 AI 编写你的代码，为什么还要用 Python？</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.8</span> <span class='hn-top-story-score'>&#9650; 59</span> <span class='hn-top-story-comments'>&#128172; 57</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.4</span> <span class='hn-top-story-score'>&#9650; 321</span> <span class='hn-top-story-comments'>&#128172; 330</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='584' data-hn-time='1778494384'>
-<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-item' data-hn-score='88' data-hn-time='1778549069'>
+<span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/11/top_stories_05112026#story-48093100'>Ratty – A terminal emulator with inline 3D graphics</a>
- <a class='hn-top-story-link' href='https://ratty-term.org/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/11/top_stories_05112026#story-48103042'>Claude Platform on AWS</a>
+ <a class='hn-top-story-link' href='https://claude.com/blog/claude-platform-on-aws' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Ratty：一个支持内联 3D 图形的终端模拟器</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.7</span> <span class='hn-top-story-score'>&#9650; 584</span> <span class='hn-top-story-comments'>&#128172; 189</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>Claude 平台在 AWS 上上线</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 88</span> <span class='hn-top-story-comments'>&#128172; 43</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='2061' data-hn-time='1778435642'>
-<span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-item' data-hn-score='2098' data-hn-time='1778435642'>
+<span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/05/11/top_stories_05112026#story-48086190'>Hardware Attestation as Monopoly Enabler</a>
  <a class='hn-top-story-link' href='https://grapheneos.social/@GrapheneOS/116550899908879585' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>硬件认证成垄断推动者</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.3</span> <span class='hn-top-story-score'>&#9650; 2061</span> <span class='hn-top-story-comments'>&#128172; 696</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 2098</span> <span class='hn-top-story-comments'>&#128172; 717</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='46' data-hn-time='1778533450'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='94' data-hn-time='1778546274'>
+<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/11/top_stories_05112026#story-48102700'>They Live (1988) inspired Adblocker</a>
+ <a class='hn-top-story-link' href='https://github.com/davmlaw/they_live_adblocker' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>受《他们住着》启发的广告拦截器</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 94</span> <span class='hn-top-story-comments'>&#128172; 11</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Web</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='386' data-hn-time='1778514907'>
+<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/11/top_stories_05112026#story-48096692'>CUDA-oxide: Nvidia's official Rust to CUDA compiler</a>
+ <a class='hn-top-story-link' href='https://nvlabs.github.io/cuda-oxide/index.html' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>CUDA-oxide：NVIDIA 官方的 Rust 转 CUDA 编译器</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.7</span> <span class='hn-top-story-score'>&#9650; 386</span> <span class='hn-top-story-comments'>&#128172; 110</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Hardware</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='632' data-hn-time='1778494384'>
+<span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/11/top_stories_05112026#story-48093100'>Ratty – A terminal emulator with inline 3D graphics</a>
+ <a class='hn-top-story-link' href='https://ratty-term.org/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Ratty：一个支持内联 3D 图形的终端模拟器</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 632</span> <span class='hn-top-story-comments'>&#128172; 207</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Hardware</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='283' data-hn-time='1778521988'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/11/top_stories_05112026#story-48100662'>I let AI build a tool to help me figure out what was waking me up at night</a>
- <a class='hn-top-story-link' href='https://martin.sh/i-let-ai-build-a-tool-to-help-me-figure-out-what-was-waking-me-up-at-night/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/11/top_stories_05112026#story-48098261'>UCLA discovers first stroke rehabilitation drug to repair brain damage (2025)</a>
+ <a class='hn-top-story-link' href='https://stemcell.ucla.edu/news/ucla-discovers-first-stroke-rehabilitation-drug-repair-brain-damage' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>让 AI 构建工具找出夜里醒来的原因</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.3</span> <span class='hn-top-story-score'>&#9650; 46</span> <span class='hn-top-story-comments'>&#128172; 45</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>UCLA 发现首个可修复脑损伤的中风康复药物（2025）</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 283</span> <span class='hn-top-story-comments'>&#128172; 59</span> <span class='hn-top-story-tag'>Health</span> <span class='hn-top-story-tag'>Science</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='81' data-hn-time='1778528011'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1786' data-hn-time='1778433568'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/11/top_stories_05112026#story-48099616'>Library for fast mapping of Java records to native memory</a>
- <a class='hn-top-story-link' href='https://github.com/mamba-studio/TypedMemory' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/11/top_stories_05112026#story-48085821'>Local AI needs to be the norm</a>
+ <a class='hn-top-story-link' href='https://unix.foo/posts/local-ai-needs-to-be-norm/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>用于将 Java 记录快速映射到本机内存的库</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.1</span> <span class='hn-top-story-score'>&#9650; 81</span> <span class='hn-top-story-comments'>&#128172; 21</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>本地 AI 应成为常态</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 1786</span> <span class='hn-top-story-comments'>&#128172; 712</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -164,7 +164,7 @@ Your browser does not support the audio element.
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/05/11/top_stories_05112026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>25</b> <span class="hn-row-sep">·</span> Programming <b>20</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>25</b> <span class="hn-row-sep">·</span> Programming <b>22</b></span>
 </a>
 </div>
 </div>
