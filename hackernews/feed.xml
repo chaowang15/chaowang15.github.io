@@ -5,7 +5,7 @@
     <link>https://chaowang15.github.io/hackernews/</link>
     <description>Curated daily digest of top Hacker News stories with AI-generated summaries, tags, and bilingual translations.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 12 May 2026 16:20:56 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2026 19:48:48 +0000</lastBuildDate>
     <generator>Hacker News Daily RSS Builder</generator>
     <atom:link href="https://chaowang15.github.io/hackernews/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
@@ -15,10 +15,11 @@
       <dc:creator>ChuckMcM</dc:creator>
       <pubDate>Sun, 10 May 2026 17:54:02 +0000</pubDate>
       <category>Security</category>
+      <category>Politics</category>
       <category>Hardware</category>
       <description>&lt;p&gt;Hardware attestation mechanisms verify device state to software and remote services, enabling trusted-environment features. When the attestation is controlled by a single vendor, it can lock users into that ecosystem and hinder competition. The takeaway is a push for interoperable, transparent standards to prevent security from becoming a monopoly lever.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;硬件认证机制用于向软件和远程服务验证设备状态，支持可信执行环境等功能。若认证机制被单一厂商掌控，可能将用户锁定在该生态中，削弱竞争。核心信息是推动互操作、透明的认证标准，以防安全被用于垄断工具。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 2139 · 💬 734 · Security · Hardware&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 2139 · 💬 734 · Security · Politics · Hardware&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48086190&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/12/top_stories_05122026#story-48086190&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
@@ -112,6 +113,19 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48054423&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/09/top_stories_05092026#story-48054423&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Postmortem: TanStack NPM supply-chain compromise</title>
+      <link>https://tanstack.com/blog/npm-supply-chain-compromise-postmortem</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48100706</guid>
+      <dc:creator>varunsharma07</dc:creator>
+      <pubDate>Mon, 11 May 2026 21:08:25 +0000</pubDate>
+      <category>Security</category>
+      <category>Open Source</category>
+      <description>&lt;p&gt;A postmortem documents a TanStack npm supply-chain compromise, showing how a malicious change entered a published package and propagated to downstream projects. It outlines root causes, remediation efforts, and practical lessons for the npm ecosystem—emphasizing stronger access controls, monitoring, and package signing.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;事后分析揭示 TanStack 的 npm 供应链被入侵，显示恶意变更如何进入已发布包并波及下游项目。文中给出根因、纠正措施，以及对 npm 生态的实际教训，强调加强访问控制、监控与包签名的重要性。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 1036 · 💬 433 · Security · Open Source&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48100706&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/12/top_stories_05122026#story-48100706&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Poland is now among the 20 largest economies</title>
       <link>https://apnews.com/article/poland-economy-growth-g20-gdp-26fe06e120398410f8d773ba5661e7aa</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=48062117</guid>
@@ -123,19 +137,6 @@
 &lt;p&gt;&lt;em&gt;波兰凭借国内需求韧性、投资增长以及改革与欧盟资金带来的生产力提升，GDP规模跃入全球前二十。此举重新塑造了欧洲格局，未来在能源、劳动力与科技领域的政策走向值得关注。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 1034 · 💬 837 · Business · Energy&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48062117&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/09/top_stories_05092026#story-48062117&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Postmortem: TanStack NPM supply-chain compromise</title>
-      <link>https://tanstack.com/blog/npm-supply-chain-compromise-postmortem</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48100706</guid>
-      <dc:creator>varunsharma07</dc:creator>
-      <pubDate>Mon, 11 May 2026 21:08:25 +0000</pubDate>
-      <category>Security</category>
-      <category>Open Source</category>
-      <description>&lt;p&gt;A postmortem documents a TanStack npm supply-chain compromise, showing how a malicious change entered a published package and propagated to downstream projects. It outlines root causes, remediation efforts, and practical lessons for the npm ecosystem—emphasizing stronger access controls, monitoring, and package signing.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;事后分析揭示 TanStack 的 npm 供应链被入侵，显示恶意变更如何进入已发布包并波及下游项目。文中给出根因、纠正措施，以及对 npm 生态的实际教训，强调加强访问控制、监控与包签名的重要性。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 979 · 💬 414 · Security · Open Source&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48100706&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/12/top_stories_05122026#story-48100706&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>I'm going back to writing code by hand</title>
@@ -189,6 +190,20 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48056227&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/08/top_stories_05082026#story-48056227&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Bambu Lab is abusing the open source social contract</title>
+      <link>https://www.jeffgeerling.com/blog/2026/bambu-lab-abusing-open-source-social-contract/</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48109224</guid>
+      <dc:creator>rubenbe</dc:creator>
+      <pubDate>Tue, 12 May 2026 14:54:41 +0000</pubDate>
+      <category>Open Source</category>
+      <category>Hardware</category>
+      <category>Health</category>
+      <description>&lt;p&gt;A strong critique argues Bambu Lab is deviating from the open-source social contract by locking down firmware or restricting community access to designs. The post frames this as part of a broader tension between consumer hardware startups and OSS norms, with potential implications for trust and ecosystem health.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;一篇强烈的批评认为 Bambu Lab 偏离了开源社会契约，通过锁定固件或限制社区对设计的获取来压缩开源承诺。文中将此视为消费硬件初创公司与开源规范之间紧张关系的一部分，可能影响信任与生态系统健康。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 825 · 💬 290 · Open Source · Hardware · Health&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48109224&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/12/top_stories_05122026#story-48109224&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>I returned to AWS and was reminded why I left</title>
       <link>http://fourlightyears.blogspot.com/2026/05/i-returned-to-aws-and-was-reminded-hard.html</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=48073201</guid>
@@ -212,6 +227,19 @@
 &lt;p&gt;&lt;em&gt;AI 生成的内容大量涌入论坛和评论区，削弱了信息质量和社区信任。随着自动化发帖越来越像真人，社区治理更具挑战性，呼吁更好的准则、工具和治理机制来维护健康讨论。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 816 · 💬 707 · AI · Culture&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48053203&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/08/top_stories_05082026#story-48053203&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>If AI writes your code, why use Python?</title>
+      <link>https://medium.com/@NMitchem/if-ai-writes-your-code-why-use-python-bf8c4ba1a055</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48100433</guid>
+      <dc:creator>indigodaddy</dc:creator>
+      <pubDate>Mon, 11 May 2026 20:45:55 +0000</pubDate>
+      <category>AI</category>
+      <category>Programming</category>
+      <description>&lt;p&gt;A provocative take argues that if AI can write code, the rationale for choosing Python hinges less on convenience and more on ecosystem, governance, and performance considerations.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;这篇观点文章认为，当 AI 能代写代码时，选择 Python 的理由更多地来自生态系统、治理与性能等因素，而非单纯的开发便利。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 815 · 💬 864 · AI · Programming&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48100433&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/12/top_stories_05122026#story-48100433&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Dirty Frag: Universal Linux LPE</title>
@@ -275,19 +303,6 @@
 &lt;p&gt;&lt;em&gt;一段 DNSSEC 验证中断曾影响 .de 域名的安全解析，现已解决。事件凸显了基于加密的 DNS 保护需要严格的运维与监控以确保信任链的稳定。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 740 · 💬 405 · Security&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48027897&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/06/top_stories_05062026#story-48027897&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>If AI writes your code, why use Python?</title>
-      <link>https://medium.com/@NMitchem/if-ai-writes-your-code-why-use-python-bf8c4ba1a055</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48100433</guid>
-      <dc:creator>indigodaddy</dc:creator>
-      <pubDate>Mon, 11 May 2026 20:45:55 +0000</pubDate>
-      <category>AI</category>
-      <category>Programming</category>
-      <description>&lt;p&gt;A provocative take argues that if AI can write code, the rationale for choosing Python hinges less on convenience and more on ecosystem, governance, and performance considerations.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;这篇观点文章认为，当 AI 能代写代码时，选择 Python 的理由更多地来自生态系统、治理与性能等因素，而非单纯的开发便利。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 733 · 💬 765 · AI · Programming&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48100433&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/12/top_stories_05122026#story-48100433&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>A recent experience with ChatGPT 5.5 Pro</title>
@@ -450,10 +465,9 @@
       <dc:creator>AnonGitLabEmpl</dc:creator>
       <pubDate>Mon, 11 May 2026 20:51:57 +0000</pubDate>
       <category>Business</category>
-      <category>Career</category>
       <description>&lt;p&gt;GitLab disclosed a second round of layoffs and will retire its CREDIT values program as part of ACT 2. The move signals cost-cutting and strategic refocusing as part of ACT 2.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;GitLab 公布第二轮裁员，并将停止其 CREDIT 价值观体系，作为 ACT 2 计划的一部分。此举反映公司在成本控制与战略调整方面的取舍。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 636 · 💬 616 · Business · Career&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 636 · 💬 616 · Business&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48100500&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/12/top_stories_05122026#story-48100500&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
@@ -522,6 +536,19 @@
 &lt;p&gt;&lt;em&gt;法国在打击犯罪和国家安全背景下，拟采取措施削弱或破坏端对端加密通讯，显示出对加密的再度监管压力。这引发对隐私、公共安全和创新的讨论。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 599 · 💬 411 · Privacy · Politics · Security&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48072190&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/10/top_stories_05102026#story-48072190&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Screenshots of Old Desktop OSes</title>
+      <link>http://www.typewritten.org/Media/</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48104428</guid>
+      <dc:creator>adunk</dc:creator>
+      <pubDate>Tue, 12 May 2026 05:11:24 +0000</pubDate>
+      <category>Design</category>
+      <category>Culture</category>
+      <description>&lt;p&gt;A curated gallery of screenshots from classic desktop OSes highlighting UI design evolution, typography, and system chrome across decades. The collection offers quick insights into how desktop interfaces shaped user expectations and influenced modern OS design. A snapshot of how constraints shaped UX decisions and how designers balance clarity, affordances, and readability.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;精选展示了经典桌面操作系统的屏幕截图，呈现跨年代的界面设计演变、排版与系统风格。通过这些历史画面，读者可以直观理解桌面交互如何塑造用户期望，并影响当代操作系统的设计。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 585 · 💬 301 · Design · Culture&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48104428&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/12/top_stories_05122026#story-48104428&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Agents need control flow, not more prompts</title>
@@ -601,16 +628,16 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48023861&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/06/top_stories_05062026#story-48023861&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Screenshots of Old Desktop OSes</title>
-      <link>http://www.typewritten.org/Media/</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48104428</guid>
-      <dc:creator>adunk</dc:creator>
-      <pubDate>Tue, 12 May 2026 05:11:24 +0000</pubDate>
-      <category>Design</category>
-      <description>&lt;p&gt;A curated gallery of screenshots from classic desktop OSes highlighting UI design evolution, typography, and system chrome across decades. The collection offers quick insights into how desktop interfaces shaped user expectations and influenced modern OS design. A snapshot of how constraints shaped UX decisions and how designers balance clarity, affordances, and readability.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;精选展示了经典桌面操作系统的屏幕截图，呈现跨年代的界面设计演变、排版与系统风格。通过这些历史画面，读者可以直观理解桌面交互如何塑造用户期望，并影响当代操作系统的设计。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 509 · 💬 239 · Design&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48104428&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/12/top_stories_05122026#story-48104428&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+      <title>They Live (1988) inspired Adblocker</title>
+      <link>https://github.com/davmlaw/they_live_adblocker</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48102700</guid>
+      <dc:creator>tokenburner</dc:creator>
+      <pubDate>Tue, 12 May 2026 00:37:54 +0000</pubDate>
+      <category>Privacy</category>
+      <description>&lt;p&gt;A new adblocker project draws inspiration from the 1988 film They Live, likely using a visual filter concept to reveal or block ads in a novel way. It illustrates how pop-cultural ideas can spark fresh approaches to online privacy and UX, even if practical effectiveness varies.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;一个受1988年电影《他们住着》启发的广告拦截器项目，以新颖的视觉过滤概念来拦截广告。该创意展示了流行文化如何激发网络隐私和用户体验的新思路，实际效果则需进一步评估。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 508 · 💬 163 · Privacy&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48102700&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/12/top_stories_05122026#story-48102700&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Higher usage limits for Claude and a compute deal with SpaceX</title>
@@ -625,32 +652,6 @@
 &lt;p&gt;&lt;em&gt;Anthropic 提高了 Claude 的使用上限，并与 SpaceX 达成算力合作，旨在支持更大规模的 AI 负载，标志着双方在增长上的战略合作。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 504 · 💬 473 · AI · Business · Space&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48037986&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/07/top_stories_05072026#story-48037986&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Grand Theft Oil Futures: Insider traders keep making a killing at our expense</title>
-      <link>https://paulkrugman.substack.com/p/grand-theft-oil-futures</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48047981</guid>
-      <dc:creator>Qem</dc:creator>
-      <pubDate>Thu, 07 May 2026 11:10:24 +0000</pubDate>
-      <category>Finance</category>
-      <category>Politics</category>
-      <description>&lt;p&gt;Paul Krugman argues that insiders keep profiting from oil futures, extracting wealth at the public's expense due to market structure and regulatory gaps. The essay highlights how information advantages and opaque pricing enable rent extraction, and it calls for policy remedies to curb excess profits.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;保罗·克鲁格曼指出，油价期货市场的内幕交易者持续从中获利，市场结构和监管漏洞使公众承受成本。文章揭示信息优势与定价不透明如何促成利润攫取，并呼吁通过政策改革来遏制这类过度获利。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 499 · 💬 322 · Finance · Politics&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48047981&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/07/top_stories_05072026#story-48047981&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>An Introduction to Meshtastic</title>
-      <link>https://meshtastic.org/docs/introduction/</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48061566</guid>
-      <dc:creator>ColinWright</dc:creator>
-      <pubDate>Fri, 08 May 2026 11:22:11 +0000</pubDate>
-      <category>Open Source</category>
-      <category>Hardware</category>
-      <description>&lt;p&gt;Meshtastic is an open-source mesh-networking project that enables off-grid text messaging using low-power radios like LoRa. This introduction covers core concepts, components, and practical use cases, plus trade-offs in latency and range compared with cellular networks.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Meshtastic 是一个开源网状通信项目，利用低功耗无线电（如 LoRa）在无蜂窝网络的情况下实现短讯传输。本文概述了核心概念、组成部分和典型用例，并讨论了与蜂窝网络相比的延迟和覆盖范围权衡。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 495 · 💬 184 · Open Source · Hardware&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48061566&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/09/top_stories_05092026#story-48061566&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

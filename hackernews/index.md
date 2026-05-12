@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>86</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>12481</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>84</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>84</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-05-12</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>86</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>12503</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>84</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>84</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-05-12</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,7 +20,7 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='333' data-hn-time='1778597681'>
+<div class='hn-top-story-item' data-hn-score='825' data-hn-time='1778597681'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -28,106 +28,106 @@ Sort:
  <a class='hn-top-story-link' href='https://www.jeffgeerling.com/blog/2026/bambu-lab-abusing-open-source-social-contract/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Bambu Lab 滥用开源社会契约</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 36</span> <span class='hn-top-story-score'>&#9650; 333</span> <span class='hn-top-story-comments'>&#128172; 116</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Health</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 26</span> <span class='hn-top-story-score'>&#9650; 825</span> <span class='hn-top-story-comments'>&#128172; 290</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Health</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='185' data-hn-time='1778592406'>
+<div class='hn-top-story-item' data-hn-score='268' data-hn-time='1778607456'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/12/top_stories_05122026#story-48107997'>Rendering the Sky, Sunsets, and Planets</a>
- <a class='hn-top-story-link' href='https://blog.maximeheckel.com/posts/on-rendering-the-sky-sunsets-and-planets/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/12/top_stories_05122026#story-48111545'>Googlebook</a>
+ <a class='hn-top-story-link' href='https://googlebook.google/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>天空、日落与行星的渲染</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 185</span> <span class='hn-top-story-comments'>&#128172; 15</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Design</span></div>
+<div class='hn-top-story-zh'>谷歌书（Googlebook）</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 21</span> <span class='hn-top-story-score'>&#9650; 268</span> <span class='hn-top-story-comments'>&#128172; 351</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='358' data-hn-time='1778583607'>
+<div class='hn-top-story-item' data-hn-score='185' data-hn-time='1778603361'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/12/top_stories_05122026#story-48106534'>EU to crack down on TikTok, Instagram's 'addictive design' targeting kids</a>
- <a class='hn-top-story-link' href='https://www.cnbc.com/2026/05/12/tiktok-instagram-social-media-addictive-eu-crack-down.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/12/top_stories_05122026#story-48110529'>Amazon employees are "tokenmaxxing" due to pressure to use AI tools</a>
+ <a class='hn-top-story-link' href='https://arstechnica.com/ai/2026/05/amazon-employees-are-tokenmaxxing-due-to-pressure-to-use-ai-tools/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>欧盟将打击 TikTok 与 Instagram 面向儿童的成瘾式设计</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.9</span> <span class='hn-top-story-score'>&#9650; 358</span> <span class='hn-top-story-comments'>&#128172; 297</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>因为被迫使用 AI 工具，亚马逊员工出现“tokenmaxxing”现象</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.2</span> <span class='hn-top-story-score'>&#9650; 185</span> <span class='hn-top-story-comments'>&#128172; 163</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='378' data-hn-time='1778578221'>
+<div class='hn-top-story-item' data-hn-score='87' data-hn-time='1778609548'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/12/top_stories_05122026#story-48106024'>Learning Software Architecture</a>
- <a class='hn-top-story-link' href='https://matklad.github.io/2026/05/12/software-architecture.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/12/top_stories_05122026#story-48112042'>CERT is releasing six CVEs for serious security vulnerabilities in dnsmasq</a>
+ <a class='hn-top-story-link' href='https://lists.thekelleys.org.uk/pipermail/dnsmasq-discuss/2026q2/018471.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>学习软件架构</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.5</span> <span class='hn-top-story-score'>&#9650; 378</span> <span class='hn-top-story-comments'>&#128172; 69</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Education</span></div>
+<div class='hn-top-story-zh'>CERT 公布 dnsmasq 的六个严重漏洞 CVE</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.7</span> <span class='hn-top-story-score'>&#9650; 87</span> <span class='hn-top-story-comments'>&#128172; 15</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='45' data-hn-time='1778598781'>
+<div class='hn-top-story-item' data-hn-score='188' data-hn-time='1778600987'>
 <span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/12/top_stories_05122026#story-48109519'>Operation: Epic Furious</a>
- <a class='hn-top-story-link' href='https://www.epicfurious.com/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>行动代号 Epic Furious</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.7</span> <span class='hn-top-story-score'>&#9650; 45</span> <span class='hn-top-story-comments'>&#128172; 7</span> <span class='hn-top-story-tag'>Startups</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='28' data-hn-time='1778600987'>
-<span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/05/12/top_stories_05122026#story-48110021'>eBay Rejects GameStop's $56B Takeover as Not Credible</a>
  <a class='hn-top-story-link' href='https://www.bloomberg.com/news/articles/2026-05-12/ebay-rejects-gamestop-s-56-billion-takeover-as-not-credible' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>eBay 认定 GameStop 560 亿美元收购不可信</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.2</span> <span class='hn-top-story-score'>&#9650; 28</span> <span class='hn-top-story-comments'>&#128172; 9</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.5</span> <span class='hn-top-story-score'>&#9650; 188</span> <span class='hn-top-story-comments'>&#128172; 173</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Finance</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='509' data-hn-time='1778562684'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='325' data-hn-time='1778592406'>
+<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/12/top_stories_05122026#story-48107997'>Rendering the Sky, Sunsets, and Planets</a>
+ <a class='hn-top-story-link' href='https://blog.maximeheckel.com/posts/on-rendering-the-sky-sunsets-and-planets/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>天空、日落与行星的渲染</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.1</span> <span class='hn-top-story-score'>&#9650; 325</span> <span class='hn-top-story-comments'>&#128172; 29</span> <span class='hn-top-story-tag'>Design</span> <span class='hn-top-story-tag'>Web</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='169' data-hn-time='1778600754'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/12/top_stories_05122026#story-48104428'>Screenshots of Old Desktop OSes</a>
- <a class='hn-top-story-link' href='http://www.typewritten.org/Media/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/12/top_stories_05122026#story-48109970'>The Future of Obsidian Plugins</a>
+ <a class='hn-top-story-link' href='https://obsidian.md/blog/future-of-plugins/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>早期桌面操作系统截图</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.9</span> <span class='hn-top-story-score'>&#9650; 509</span> <span class='hn-top-story-comments'>&#128172; 239</span> <span class='hn-top-story-tag'>Design</span></div>
+<div class='hn-top-story-zh'>Obsidian 插件的未来</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.6</span> <span class='hn-top-story-score'>&#9650; 169</span> <span class='hn-top-story-comments'>&#128172; 68</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='93' data-hn-time='1778589525'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='87' data-hn-time='1778607358'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/12/top_stories_05122026#story-48107404'>UnDUNE II</a>
- <a class='hn-top-story-link' href='https://liquidream.itch.io/undune2' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/12/top_stories_05122026#story-48111531'>Canada’s Bill C-22 Is a Repackaged Version of Last Year’s Surveillance Nightmare</a>
+ <a class='hn-top-story-link' href='https://www.eff.org/deeplinks/2026/05/canadas-bill-c-22-repackaged-version-last-years-surveillance-nightmare' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>UnDUNE II</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 93</span> <span class='hn-top-story-comments'>&#128172; 20</span> <span class='hn-top-story-tag'>Gaming</span></div>
+<div class='hn-top-story-zh'>加拿大法案 C-22：再现去年监控噩梦的再包装</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.5</span> <span class='hn-top-story-score'>&#9650; 87</span> <span class='hn-top-story-comments'>&#128172; 28</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Legal</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='979' data-hn-time='1778533705'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='437' data-hn-time='1778583607'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/12/top_stories_05122026#story-48100706'>Postmortem: TanStack NPM supply-chain compromise</a>
- <a class='hn-top-story-link' href='https://tanstack.com/blog/npm-supply-chain-compromise-postmortem' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/12/top_stories_05122026#story-48106534'>EU to crack down on TikTok, Instagram's 'addictive design' targeting kids</a>
+ <a class='hn-top-story-link' href='https://www.cnbc.com/2026/05/12/tiktok-instagram-social-media-addictive-eu-crack-down.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>TanStack npm 供应链安全事后分析</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 979</span> <span class='hn-top-story-comments'>&#128172; 414</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-zh'>欧盟将打击 TikTok 与 Instagram 面向儿童的成瘾式设计</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.0</span> <span class='hn-top-story-score'>&#9650; 437</span> <span class='hn-top-story-comments'>&#128172; 385</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Design</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='137' data-hn-time='1778582264'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='172' data-hn-time='1778598520'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/12/top_stories_05122026#story-48106367'>Coursera and Udemy are now one company</a>
- <a class='hn-top-story-link' href='https://blog.coursera.org/coursera-and-udemy-are-now-one-company-creating-the-worlds-most-comprehensive-skills-platform/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/12/top_stories_05122026#story-48109460'>Why senior developers fail to communicate their expertise</a>
+ <a class='hn-top-story-link' href='https://www.nair.sh/guides-and-opinions/communicating-your-expertise/why-senior-developers-fail-to-communicate-their-expertise' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Coursera 与 Udemy 现合并为同一家公司</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 137</span> <span class='hn-top-story-comments'>&#128172; 59</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Education</span></div>
+<div class='hn-top-story-zh'>资深开发者为何难以传达专业能力</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.7</span> <span class='hn-top-story-score'>&#9650; 172</span> <span class='hn-top-story-comments'>&#128172; 70</span> <span class='hn-top-story-tag'>Career</span> <span class='hn-top-story-tag'>Education</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -155,7 +155,7 @@ Your browser does not support the audio element.
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 20 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-05-11 — 2026-05-12 <span class="hn-row-sep">·</span> 216 stories <span class="hn-row-sep">·</span> 2 days</span>
+<span class='hn-week-meta'>2026-05-11 — 2026-05-12 <span class="hn-row-sep">·</span> 238 stories <span class="hn-row-sep">·</span> 2 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -164,7 +164,7 @@ Your browser does not support the audio element.
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/05/12/top_stories_05122026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>66</b> <span class="hn-row-sep">·</span> Programming <b>16</b> <span class="hn-row-sep">·</span> Hardware <b>15</b></span>
+<span class='hn-row-detail'>All <b>88</b> <span class="hn-row-sep">·</span> Programming <b>25</b> <span class="hn-row-sep">·</span> AI <b>22</b></span>
 </a>
 </div>
 </div>
