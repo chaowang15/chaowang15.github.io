@@ -5,7 +5,7 @@
     <link>https://chaowang15.github.io/hackernews/</link>
     <description>Curated daily digest of top Hacker News stories with AI-generated summaries, tags, and bilingual translations.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 12 May 2026 14:46:57 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2026 16:20:56 +0000</lastBuildDate>
     <generator>Hacker News Daily RSS Builder</generator>
     <atom:link href="https://chaowang15.github.io/hackernews/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
@@ -15,12 +15,11 @@
       <dc:creator>ChuckMcM</dc:creator>
       <pubDate>Sun, 10 May 2026 17:54:02 +0000</pubDate>
       <category>Security</category>
-      <category>Business</category>
       <category>Hardware</category>
       <description>&lt;p&gt;Hardware attestation mechanisms verify device state to software and remote services, enabling trusted-environment features. When the attestation is controlled by a single vendor, it can lock users into that ecosystem and hinder competition. The takeaway is a push for interoperable, transparent standards to prevent security from becoming a monopoly lever.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;硬件认证机制用于向软件和远程服务验证设备状态，支持可信执行环境等功能。若认证机制被单一厂商掌控，可能将用户锁定在该生态中，削弱竞争。核心信息是推动互操作、透明的认证标准，以防安全被用于垄断工具。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 2131 · 💬 733 · Security · Business · Hardware&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48086190&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/11/top_stories_05112026#story-48086190&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;small&gt;▲ 2139 · 💬 734 · Security · Hardware&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48086190&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/12/top_stories_05122026#story-48086190&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Local AI needs to be the norm</title>
@@ -29,12 +28,12 @@
       <dc:creator>cylo</dc:creator>
       <pubDate>Sun, 10 May 2026 17:19:28 +0000</pubDate>
       <category>AI</category>
-      <category>Privacy</category>
       <category>Hardware</category>
+      <category>Privacy</category>
       <description>&lt;p&gt;The push toward on-device, local AI is moving from novelty to necessity as privacy, latency, and data governance become real constraints for organizations. This shift demands tooling and standards for model updates, secure storage, and offline operation across devices and endpoints. Expect more investment in edge hardware, federated learning, and open models that respect user data sovereignty.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;向本地化 AI 迁移正在从新鲜事变成必要趋势，隐私、延迟和数据治理成为现实约束，促使在各设备端部署和离线运行模型。需要完善的更新、安全存储和跨设备协同的工具与标准。这将推动对边缘硬件、联邦学习以及尊重数据主权的开源模型的投入。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 1816 · 💬 725 · AI · Privacy · Hardware&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48085821&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/11/top_stories_05112026#story-48085821&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;small&gt;▲ 1823 · 💬 727 · AI · Hardware · Privacy&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48085821&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/12/top_stories_05122026#story-48085821&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Valve releases Steam Controller CAD files under Creative Commons license</title>
@@ -126,6 +125,19 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48062117&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/09/top_stories_05092026#story-48062117&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Postmortem: TanStack NPM supply-chain compromise</title>
+      <link>https://tanstack.com/blog/npm-supply-chain-compromise-postmortem</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48100706</guid>
+      <dc:creator>varunsharma07</dc:creator>
+      <pubDate>Mon, 11 May 2026 21:08:25 +0000</pubDate>
+      <category>Security</category>
+      <category>Open Source</category>
+      <description>&lt;p&gt;A postmortem documents a TanStack npm supply-chain compromise, showing how a malicious change entered a published package and propagated to downstream projects. It outlines root causes, remediation efforts, and practical lessons for the npm ecosystem—emphasizing stronger access controls, monitoring, and package signing.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;事后分析揭示 TanStack 的 npm 供应链被入侵，显示恶意变更如何进入已发布包并波及下游项目。文中给出根因、纠正措施，以及对 npm 生态的实际教训，强调加强访问控制、监控与包签名的重要性。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 979 · 💬 414 · Security · Open Source&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48100706&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/12/top_stories_05122026#story-48100706&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>I'm going back to writing code by hand</title>
       <link>https://blog.k10s.dev/im-going-back-to-writing-code-by-hand/</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=48090029</guid>
@@ -136,19 +148,6 @@
 &lt;p&gt;&lt;em&gt;作者主张回归手写代码，以提升思维清晰度、减少对工具的依赖，并更早地暴露本质问题。文章给出强调概念清晰度勝于过度自动化的实践建议。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 965 · 💬 589 · Programming&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48090029&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/11/top_stories_05112026#story-48090029&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Postmortem: TanStack NPM supply-chain compromise</title>
-      <link>https://tanstack.com/blog/npm-supply-chain-compromise-postmortem</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48100706</guid>
-      <dc:creator>varunsharma07</dc:creator>
-      <pubDate>Mon, 11 May 2026 21:08:25 +0000</pubDate>
-      <category>Security</category>
-      <category>Open Source</category>
-      <description>&lt;p&gt;A postmortem documents a TanStack npm supply-chain compromise, showing how a malicious change entered a published package and propagated to downstream projects. It outlines root causes, remediation efforts, and practical lessons for the npm ecosystem—emphasizing stronger access controls, monitoring, and package signing.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;事后分析揭示 TanStack 的 npm 供应链被入侵，显示恶意变更如何进入已发布包并波及下游项目。文中给出根因、纠正措施，以及对 npm 生态的实际教训，强调加强访问控制、监控与包签名的重要性。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 946 · 💬 398 · Security · Open Source&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48100706&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/11/top_stories_05112026#story-48100706&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Canvas online again as ShinyHunters threatens to leak schools’ data</title>
@@ -278,6 +277,19 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48027897&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/06/top_stories_05062026#story-48027897&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>If AI writes your code, why use Python?</title>
+      <link>https://medium.com/@NMitchem/if-ai-writes-your-code-why-use-python-bf8c4ba1a055</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48100433</guid>
+      <dc:creator>indigodaddy</dc:creator>
+      <pubDate>Mon, 11 May 2026 20:45:55 +0000</pubDate>
+      <category>AI</category>
+      <category>Programming</category>
+      <description>&lt;p&gt;A provocative take argues that if AI can write code, the rationale for choosing Python hinges less on convenience and more on ecosystem, governance, and performance considerations.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;这篇观点文章认为，当 AI 能代写代码时，选择 Python 的理由更多地来自生态系统、治理与性能等因素，而非单纯的开发便利。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 733 · 💬 765 · AI · Programming&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48100433&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/12/top_stories_05122026#story-48100433&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>A recent experience with ChatGPT 5.5 Pro</title>
       <link>https://gowers.wordpress.com/2026/05/08/a-recent-experience-with-chatgpt-5-5-pro/</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=48071262</guid>
@@ -327,19 +339,6 @@
 &lt;p&gt;&lt;em&gt;Google Cloud Fraud Defence 看似把 Web Environment Integrity 技术打包成云端反欺诈服务。这一动向将浏览器端的认证思想带入云环境，但也引发隐私、跨设备有效性和实际场景落地的质疑。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 695 · 💬 354 · Security · Privacy · Web&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48063199&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/09/top_stories_05092026#story-48063199&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>If AI writes your code, why use Python?</title>
-      <link>https://medium.com/@NMitchem/if-ai-writes-your-code-why-use-python-bf8c4ba1a055</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48100433</guid>
-      <dc:creator>indigodaddy</dc:creator>
-      <pubDate>Mon, 11 May 2026 20:45:55 +0000</pubDate>
-      <category>AI</category>
-      <category>Programming</category>
-      <description>&lt;p&gt;A provocative take argues that if AI can write code, the rationale for choosing Python hinges less on convenience and more on ecosystem, governance, and performance considerations.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;这篇观点文章认为，当 AI 能代写代码时，选择 Python 的理由更多地来自生态系统、治理与性能等因素，而非单纯的开发便利。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 684 · 💬 700 · AI · Programming&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48100433&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/11/top_stories_05112026#story-48100433&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Accelerating Gemma 4: faster inference with multi-token prediction drafters</title>
@@ -414,8 +413,8 @@
       <category>Hardware</category>
       <description>&lt;p&gt;Ratty is a terminal emulator that renders inline 3D graphics, pushing terminal UX beyond plain text. It demonstrates how GPU-accelerated visuals can appear in developer tools, though practical use remains niche. A playful peek at how far terminal interfaces can be stretched.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Ratty 是一款可在终端内直接显示三维图形的终端模拟器，突破了传统文本界面的局限。它展示了基于 GPU 的可视化在开发工具中的潜力，实际应用仍然有限。这个工具也算是一种推动终端界面边界的有趣尝试。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 651 · 💬 228 · Programming · Hardware&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48093100&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/11/top_stories_05112026#story-48093100&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;small&gt;▲ 652 · 💬 230 · Programming · Hardware&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48093100&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/12/top_stories_05122026#story-48093100&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Agents can now create Cloudflare accounts, buy domains, and deploy</title>
@@ -445,6 +444,19 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48042434&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/07/top_stories_05072026#story-48042434&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>GitLab announces workforce reduction and end of their CREDIT values</title>
+      <link>https://about.gitlab.com/blog/gitlab-act-2/</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48100500</guid>
+      <dc:creator>AnonGitLabEmpl</dc:creator>
+      <pubDate>Mon, 11 May 2026 20:51:57 +0000</pubDate>
+      <category>Business</category>
+      <category>Career</category>
+      <description>&lt;p&gt;GitLab disclosed a second round of layoffs and will retire its CREDIT values program as part of ACT 2. The move signals cost-cutting and strategic refocusing as part of ACT 2.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;GitLab 公布第二轮裁员，并将停止其 CREDIT 价值观体系，作为 ACT 2 计划的一部分。此举反映公司在成本控制与战略调整方面的取舍。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 636 · 💬 616 · Business · Career&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48100500&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/12/top_stories_05122026#story-48100500&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Chrome removes claim of On-device Al not sending data to Google Servers</title>
       <link>https://old.reddit.com/r/chrome/comments/1t5qayz/chrome_removes_claim_of_ondevice_al_not_sending/</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=48050964</guid>
@@ -459,16 +471,16 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48050964&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/08/top_stories_05082026#story-48050964&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>GitLab announces workforce reduction and end of their CREDIT values</title>
-      <link>https://about.gitlab.com/blog/gitlab-act-2/</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48100500</guid>
-      <dc:creator>AnonGitLabEmpl</dc:creator>
-      <pubDate>Mon, 11 May 2026 20:51:57 +0000</pubDate>
-      <category>Business</category>
-      <description>&lt;p&gt;GitLab disclosed a second round of layoffs and will retire its CREDIT values program as part of ACT 2. The move signals cost-cutting and strategic refocusing as part of ACT 2.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;GitLab 公布第二轮裁员，并将停止其 CREDIT 价值观体系，作为 ACT 2 计划的一部分。此举反映公司在成本控制与战略调整方面的取舍。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 607 · 💬 590 · Business&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48100500&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/11/top_stories_05112026#story-48100500&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+      <title>Gmail registration now requires scanning a QR code and sending a text message</title>
+      <link>https://discuss.privacyguides.net/t/google-account-registration-now-requires-sending-an-sms-via-phone-instead-of-receiving-an-sms/36082</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48092028</guid>
+      <dc:creator>negura</dc:creator>
+      <pubDate>Mon, 11 May 2026 07:26:54 +0000</pubDate>
+      <category>Privacy</category>
+      <description>&lt;p&gt;New Gmail registration flows require scanning a QR code and sending an SMS to verify accounts. The change adds friction, raises privacy concerns, and may complic onboarding for new users.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Gmail 的注册流程现在要求先扫描二维码再发送短信完成验证。这一改变增加了注册难度，并引发隐私和无障碍方面的担忧，可能让新用户的上手变慢。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 611 · 💬 487 · Privacy&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48092028&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/12/top_stories_05122026#story-48092028&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Louis Rossmann offers to pay legal fees for a threatened OrcaSlicer developer</title>
@@ -483,19 +495,6 @@
 &lt;p&gt;&lt;em&gt;路易斯·罗斯曼愿为遭遇威胁的 OrcaSlicer 开发者支付诉讼费，显示对开放硬件与修理倡议的强力支持。这一举动凸显了厂商诉讼与热衷社区捍卫修理权和独立工具之间的持续紧张关系。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 607 · 💬 325 · Legal · Culture · Hardware&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48084432&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/11/top_stories_05112026#story-48084432&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Gmail registration now requires scanning a QR code and sending a text message</title>
-      <link>https://discuss.privacyguides.net/t/google-account-registration-now-requires-sending-an-sms-via-phone-instead-of-receiving-an-sms/36082</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48092028</guid>
-      <dc:creator>negura</dc:creator>
-      <pubDate>Mon, 11 May 2026 07:26:54 +0000</pubDate>
-      <category>Privacy</category>
-      <category>Security</category>
-      <description>&lt;p&gt;New Gmail registration flows require scanning a QR code and sending an SMS to verify accounts. The change adds friction, raises privacy concerns, and may complic onboarding for new users.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Gmail 的注册流程现在要求先扫描二维码再发送短信完成验证。这一改变增加了注册难度，并引发隐私和无障碍方面的担忧，可能让新用户的上手变慢。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 605 · 💬 483 · Privacy · Security&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48092028&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/11/top_stories_05112026#story-48092028&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>A web page that shows you everything the browser told it without asking</title>
@@ -602,6 +601,18 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48023861&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/06/top_stories_05062026#story-48023861&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Screenshots of Old Desktop OSes</title>
+      <link>http://www.typewritten.org/Media/</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48104428</guid>
+      <dc:creator>adunk</dc:creator>
+      <pubDate>Tue, 12 May 2026 05:11:24 +0000</pubDate>
+      <category>Design</category>
+      <description>&lt;p&gt;A curated gallery of screenshots from classic desktop OSes highlighting UI design evolution, typography, and system chrome across decades. The collection offers quick insights into how desktop interfaces shaped user expectations and influenced modern OS design. A snapshot of how constraints shaped UX decisions and how designers balance clarity, affordances, and readability.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;精选展示了经典桌面操作系统的屏幕截图，呈现跨年代的界面设计演变、排版与系统风格。通过这些历史画面，读者可以直观理解桌面交互如何塑造用户期望，并影响当代操作系统的设计。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 509 · 💬 239 · Design&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48104428&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/12/top_stories_05122026#story-48104428&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Higher usage limits for Claude and a compute deal with SpaceX</title>
       <link>https://www.anthropic.com/news/higher-limits-spacex</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=48037986</guid>
@@ -640,20 +651,6 @@
 &lt;p&gt;&lt;em&gt;Meshtastic 是一个开源网状通信项目，利用低功耗无线电（如 LoRa）在无蜂窝网络的情况下实现短讯传输。本文概述了核心概念、组成部分和典型用例，并讨论了与蜂窝网络相比的延迟和覆盖范围权衡。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 495 · 💬 184 · Open Source · Hardware&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48061566&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/09/top_stories_05092026#story-48061566&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Using Claude Code: The unreasonable effectiveness of HTML</title>
-      <link>https://twitter.com/trq212/status/2052809885763747935</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48071940</guid>
-      <dc:creator>pretext</dc:creator>
-      <pubDate>Sat, 09 May 2026 04:53:52 +0000</pubDate>
-      <category>AI</category>
-      <category>Programming</category>
-      <category>Web</category>
-      <description>&lt;p&gt;Claude Code demonstrates that HTML's simple, deterministic structure can yield reliable, quick wins for AI-assisted frontend tasks. HTML's straightforward nature makes it a practical starting point for AI-driven UI prototyping and code generation. This highlights HTML as a durable substrate for AI copilots in frontend work.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Claude Code 展示了 HTML 的简单、确定性结构在 AI 辅助前端任务中能带来可靠且快速的收益。HTML 的直接性使其成为 AI 驱动的 UI 原型和代码生成的实际起点。此现象凸显了 HTML 在前端工作中作为 AI 协作工具的持久价值。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 489 · 💬 265 · AI · Programming · Web&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48071940&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/10/top_stories_05102026#story-48071940&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
