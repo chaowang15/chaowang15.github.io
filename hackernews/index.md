@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>87</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>12600</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>84</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>85</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-05-17</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>88</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>12650</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>84</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>86</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-05-18</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,118 +20,118 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='220' data-hn-time='1779054035'>
+<div class='hn-top-story-item' data-hn-score='24' data-hn-time='1779095284'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/17/top_stories_05172026#story-48173429'>GenCAD</a>
- <a class='hn-top-story-link' href='https://gencad.github.io/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/18/top_stories_05182026#story-48177086'>Germany goes from labour shortages to hiring freezes</a>
+ <a class='hn-top-story-link' href='https://www.ft.com/content/2a6c1cb9-6c11-41c8-a8ea-a367b8799126' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>GenCAD</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 220</span> <span class='hn-top-story-comments'>&#128172; 47</span> <span class='hn-top-story-tag'>Design</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-zh'>德国由劳动力短缺走向招聘冻结</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 24</span> <span class='hn-top-story-comments'>&#128172; 11</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='76' data-hn-time='1779068370'>
+<div class='hn-top-story-item' data-hn-score='327' data-hn-time='1779054035'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/17/top_stories_05172026#story-48174808'>Most Americans don't trust AI – or the people in charge of it (2025)</a>
- <a class='hn-top-story-link' href='https://www.theverge.com/ai-artificial-intelligence/644853/pew-gallup-data-americans-dont-trust-ai' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/18/top_stories_05182026#story-48173429'>GenCAD</a>
+ <a class='hn-top-story-link' href='https://gencad.github.io/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>大多数美国人不信任AI——以及掌管它的人（2025）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 76</span> <span class='hn-top-story-comments'>&#128172; 67</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>GenCAD</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 327</span> <span class='hn-top-story-comments'>&#128172; 82</span> <span class='hn-top-story-tag'>Design</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='542' data-hn-time='1779020025'>
+<div class='hn-top-story-item' data-hn-score='20' data-hn-time='1779095530'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/17/top_stories_05172026#story-48168221'>I don't think AI will make your processes go faster</a>
- <a class='hn-top-story-link' href='https://frederickvanbrabant.com/blog/2026-05-15-i-dont-think-ai-will-make-your-processes-go-faster/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/18/top_stories_05182026#story-48177107'>Multiple commencement speakers booed for AI comments during graduation speeches</a>
+ <a class='hn-top-story-link' href='https://www.nbcnews.com/video/multiple-commencement-speakers-booed-for-ai-comments-during-graduation-speeches-263486021518' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>我不认为AI会让你的流程更快</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 542</span> <span class='hn-top-story-comments'>&#128172; 376</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>多位毕业典礼演讲者因AI言论被观众嘘声</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 20</span> <span class='hn-top-story-comments'>&#128172; 1</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Education</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='323' data-hn-time='1779037755'>
+<div class='hn-top-story-item' data-hn-score='598' data-hn-time='1779020025'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/17/top_stories_05172026#story-48170798'>Americans Are Smashing Flock Cameras</a>
- <a class='hn-top-story-link' href='https://stateofsurveillance.org/news/flock-cameras-destroyed-nationwide-ice-backlash-2026/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/18/top_stories_05182026#story-48168221'>I don't think AI will make your processes go faster</a>
+ <a class='hn-top-story-link' href='https://frederickvanbrabant.com/blog/2026-05-15-i-dont-think-ai-will-make-your-processes-go-faster/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>美国人全面拆除Flock监控摄像头</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 323</span> <span class='hn-top-story-comments'>&#128172; 242</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>我不认为AI会让你的流程更快</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.9</span> <span class='hn-top-story-score'>&#9650; 598</span> <span class='hn-top-story-comments'>&#128172; 407</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='164' data-hn-time='1779054330'>
+<div class='hn-top-story-item' data-hn-score='11' data-hn-time='1779097251'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/17/top_stories_05172026#story-48173468'>Two EA-18 fighter jets collide at Mountain Home airshow, pilots ejected safely</a>
- <a class='hn-top-story-link' href='https://idahonews.com/news/local/two-f-18-fighter-jets-have-crashed-during-an-airshow-at-mountain-home-air-force-base' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/18/top_stories_05182026#story-48177300'>The foundations of a provably secure operating system (PSOS) (1979) [pdf]</a>
+ <a class='hn-top-story-link' href='http://www.csl.sri.com/users/neumann/psos.pdf' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>山地家园空军基地航空表演中两架 EA-18 战斗机相撞，飞行员均安全弹出</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 164</span> <span class='hn-top-story-comments'>&#128172; 140</span> <span class='hn-top-story-tag'>Science</span></div>
+<div class='hn-top-story-zh'>可证明安全操作系统（PSOS）的奠基</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.8</span> <span class='hn-top-story-score'>&#9650; 11</span> <span class='hn-top-story-comments'>&#128172; 0</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='437' data-hn-time='1779025350'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='22' data-hn-time='1779092361'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/17/top_stories_05172026#story-48168856'>Security researcher says Microsoft built a Bitlocker backdoor, releases exploit</a>
- <a class='hn-top-story-link' href='https://www.techspot.com/news/112410-security-researcher-microsoft-secretly-built-backdoor-bitlocker-releases.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/18/top_stories_05182026#story-48176762'>Why is Google Maps back to showing old satellite images of Altadena?</a>
+ <a class='hn-top-story-link' href='https://www.reddit.com/r/pasadena/s/94BHlkE84r' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>安全研究人员称微软秘密开发了 BitLocker 后门并发布漏洞利用</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.3</span> <span class='hn-top-story-score'>&#9650; 437</span> <span class='hn-top-story-comments'>&#128172; 177</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>谷歌地图为何重新显示 Altadena 的旧卫星影像</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.8</span> <span class='hn-top-story-score'>&#9650; 22</span> <span class='hn-top-story-comments'>&#128172; 7</span> <span class='hn-top-story-tag'>Data</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='689' data-hn-time='1778998646'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='751' data-hn-time='1778998646'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/17/top_stories_05172026#story-48166459'>Mozilla to UK regulators: VPNs are essential privacy and security tools</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/18/top_stories_05182026#story-48166459'>Mozilla to UK regulators: VPNs are essential privacy and security tools</a>
  <a class='hn-top-story-link' href='https://blog.mozilla.org/netpolicy/2026/05/15/mozilla-to-uk-regulators-vpns-are-essential-privacy-and-security-tools-and-should-not-be-undermined/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Mozilla致英国监管机构：VPN是必需的隐私与安全工具</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 689</span> <span class='hn-top-story-comments'>&#128172; 285</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.6</span> <span class='hn-top-story-score'>&#9650; 751</span> <span class='hn-top-story-comments'>&#128172; 318</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='380' data-hn-time='1779023480'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='197' data-hn-time='1779054330'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/17/top_stories_05172026#story-48168626'>AI is a technology not a product</a>
- <a class='hn-top-story-link' href='https://daringfireball.net/2026/05/ai_is_technology_not_a_product' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/18/top_stories_05182026#story-48173468'>Two EA-18 fighter jets collide at Mountain Home airshow, pilots ejected safely</a>
+ <a class='hn-top-story-link' href='https://idahonews.com/news/local/two-f-18-fighter-jets-have-crashed-during-an-airshow-at-mountain-home-air-force-base' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>AI是技术不是产品</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.9</span> <span class='hn-top-story-score'>&#9650; 380</span> <span class='hn-top-story-comments'>&#128172; 165</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>山地家园空军基地航空表演中两架 EA-18 战斗机相撞，飞行员均安全弹出</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.6</span> <span class='hn-top-story-score'>&#9650; 197</span> <span class='hn-top-story-comments'>&#128172; 197</span> <span class='hn-top-story-tag'>Science</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='410' data-hn-time='1779018586'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='88' data-hn-time='1779073174'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/17/top_stories_05172026#story-48168058'>Native all the way, until you need text</a>
- <a class='hn-top-story-link' href='https://justsitandgrin.im/posts/native-all-the-way-until-you-need-text/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/18/top_stories_05182026#story-48175140'>It is time to give up the dualism introduced by the debate on consciousness</a>
+ <a class='hn-top-story-link' href='https://www.noemamag.com/there-is-no-hard-problem-of-consciousness/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>追求原生体验，直到你需要文本输入</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.8</span> <span class='hn-top-story-score'>&#9650; 410</span> <span class='hn-top-story-comments'>&#128172; 274</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Design</span></div>
+<div class='hn-top-story-zh'>放弃意识辩论中引入的二元论</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.6</span> <span class='hn-top-story-score'>&#9650; 88</span> <span class='hn-top-story-comments'>&#128172; 222</span> <span class='hn-top-story-tag'>Culture</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='262' data-hn-time='1779032227'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='411' data-hn-time='1779023480'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/17/top_stories_05172026#story-48169874'>Show HN: Semble – Code search for agents that uses 98% fewer tokens than grep</a>
- <a class='hn-top-story-link' href='https://github.com/MinishLab/semble' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/18/top_stories_05182026#story-48168626'>AI is a technology not a product</a>
+ <a class='hn-top-story-link' href='https://daringfireball.net/2026/05/ai_is_technology_not_a_product' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Show HN: Semble——面向代理的代码搜索，使用的 token 比 grep 少 98%</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.7</span> <span class='hn-top-story-score'>&#9650; 262</span> <span class='hn-top-story-comments'>&#128172; 84</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-zh'>AI是技术不是产品</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.4</span> <span class='hn-top-story-score'>&#9650; 411</span> <span class='hn-top-story-comments'>&#128172; 178</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
-<a class='hn-top-stories-more' href='/hackernews/2026/05/17/top_stories_05172026'>View all trending stories &rarr;</a>
+<a class='hn-top-stories-more' href='/hackernews/2026/05/18/top_stories_05182026'>View all trending stories &rarr;</a>
 </div>
 </div>
 <div class='hn-index-section hn-podcast-section'>
@@ -152,6 +152,25 @@ Your browser does not support the audio element.
 </div>
 <div class='hn-index-section hn-archive-section'>
 <h3 class='hn-section-title'>News Archive <span class='hn-section-zh'>新闻归档</span></h3>
+<details class='hn-week-group' open>
+<summary class='hn-week-summary'>
+<span class='hn-week-title'>2026 Week 21 <span class='hn-this-week-badge'>This Week</span></span>
+<span class='hn-week-meta'>2026-05-18 <span class="hn-row-sep">·</span> 50 stories <span class="hn-row-sep">·</span> 1 days</span>
+</summary>
+<div class='hn-week-content'>
+<div class='hn-grid'>
+<div class='hn-day-row'>
+<div class='hn-day-date'>2026-05-18 <span class='hn-day-weekday'>Mon</span></div>
+<div class='hn-day-stories'>
+<a class='hn-story-link' href='/hackernews/2026/05/18/top_stories_05182026'>
+<span class='hn-row-type hn-type-top'>Trending</span>
+<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> Programming <b>14</b> <span class="hn-row-sep">·</span> Hardware <b>11</b></span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</details>
 <details class='hn-week-group'>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 20</span>
@@ -522,7 +541,7 @@ Your browser does not support the audio element.
 <details class='hn-week-group'>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 16</span>
-<span class='hn-week-meta'>2026-04-14 — 2026-04-19 <span class="hn-row-sep">·</span> 900 stories <span class="hn-row-sep">·</span> 6 days <span class="hn-row-sep">·</span> 📊 Weekly Digest <span class="hn-row-sep">·</span> 🎧</span>
+<span class='hn-week-meta'>2026-04-15 — 2026-04-19 <span class="hn-row-sep">·</span> 750 stories <span class="hn-row-sep">·</span> 5 days <span class="hn-row-sep">·</span> 📊 Weekly Digest <span class="hn-row-sep">·</span> 🎧</span>
 </summary>
 <div class='hn-week-content'>
 <a class='hn-story-link hn-weekly-digest-link' href='/hackernews/weekly/2026-W16'>
@@ -596,20 +615,6 @@ Your browser does not support the audio element.
 <a class='hn-story-link' href='/hackernews/2026/04/15/top_stories_04152026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
 <span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>26</b> <span class="hn-row-sep">·</span> Programming <b>23</b></span>
-</a>
-</div>
-</div>
-<div class='hn-day-row'>
-<div class='hn-day-date'>2026-04-14 <span class='hn-day-weekday'>Tue</span></div>
-<div class='hn-day-stories'>
-<a class='hn-story-link' href='/hackernews/2026/04/14/best_stories_04142026'>
-<span class='hn-row-type hn-type-best'>Daily Best</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> Programming <b>14</b> <span class="hn-row-sep">·</span> Security <b>10</b></span>
-<span class='hn-podcast-badge' title='Podcast available'>&#x1F3A7;</span>
-</a>
-<a class='hn-story-link' href='/hackernews/2026/04/14/top_stories_04142026'>
-<span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>41</b> <span class="hn-row-sep">·</span> AI <b>18</b></span>
 </a>
 </div>
 </div>
