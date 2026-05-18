@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>88</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>12700</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>85</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>86</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-05-18</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>88</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>12727</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>85</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>86</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-05-18</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='24' data-hn-time='1779095284'>
+<div class='hn-top-story-item' data-hn-score='136' data-hn-time='1779117859'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/18/top_stories_05182026#story-48177086'>Germany goes from labour shortages to hiring freezes</a>
- <a class='hn-top-story-link' href='https://www.ft.com/content/2a6c1cb9-6c11-41c8-a8ea-a367b8799126' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/18/top_stories_05182026#story-48181125'>We stopped AI bot spam in our GitHub repo using Git's –author flag</a>
+ <a class='hn-top-story-link' href='https://archestra.ai/blog/only-responsible-ai' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>德国由劳动力短缺走向招聘冻结</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 24</span> <span class='hn-top-story-comments'>&#128172; 11</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-zh'>我们用 Git 的 --author 标志阻止了仓库里的机器人垃圾信息</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 15</span> <span class='hn-top-story-score'>&#9650; 136</span> <span class='hn-top-story-comments'>&#128172; 45</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='327' data-hn-time='1779054035'>
+<div class='hn-top-story-item' data-hn-score='272' data-hn-time='1779111213'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/18/top_stories_05182026#story-48173429'>GenCAD</a>
- <a class='hn-top-story-link' href='https://gencad.github.io/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/18/top_stories_05182026#story-48179677'>Show HN: Files.md – Open-source alternative to Obsidian</a>
+ <a class='hn-top-story-link' href='https://github.com/zakirullin/files.md' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>GenCAD</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 327</span> <span class='hn-top-story-comments'>&#128172; 82</span> <span class='hn-top-story-tag'>Design</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>Show HN：Files.md——Obsidian 的开源替代品</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 14</span> <span class='hn-top-story-score'>&#9650; 272</span> <span class='hn-top-story-comments'>&#128172; 159</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='20' data-hn-time='1779095530'>
+<div class='hn-top-story-item' data-hn-score='300' data-hn-time='1779103962'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/18/top_stories_05182026#story-48177107'>Multiple commencement speakers booed for AI comments during graduation speeches</a>
- <a class='hn-top-story-link' href='https://www.nbcnews.com/video/multiple-commencement-speakers-booed-for-ai-comments-during-graduation-speeches-263486021518' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/18/top_stories_05182026#story-48178184'>Show HN: Auto-identity-remove – Automated data broker opt-out runner for macOS</a>
+ <a class='hn-top-story-link' href='https://github.com/stephenlthorn/auto-identity-remove' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>多位毕业典礼演讲者因AI言论被观众嘘声</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 20</span> <span class='hn-top-story-comments'>&#128172; 1</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Education</span></div>
+<div class='hn-top-story-zh'>Show HN：Auto-identity-remove——用于 macOS 的自动化数据经纪人退出工具</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.4</span> <span class='hn-top-story-score'>&#9650; 300</span> <span class='hn-top-story-comments'>&#128172; 122</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='598' data-hn-time='1779020025'>
+<div class='hn-top-story-item' data-hn-score='122' data-hn-time='1779113066'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/18/top_stories_05182026#story-48168221'>I don't think AI will make your processes go faster</a>
- <a class='hn-top-story-link' href='https://frederickvanbrabant.com/blog/2026-05-15-i-dont-think-ai-will-make-your-processes-go-faster/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/18/top_stories_05182026#story-48180091'>Actually, democracy dies in H.R.</a>
+ <a class='hn-top-story-link' href='https://www.nytimes.com/2026/05/18/world/americas/actually-democracy-dies-in-hr.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>我不认为AI会让你的流程更快</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.9</span> <span class='hn-top-story-score'>&#9650; 598</span> <span class='hn-top-story-comments'>&#128172; 407</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>其实，民主在 HR 中死亡</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.3</span> <span class='hn-top-story-score'>&#9650; 122</span> <span class='hn-top-story-comments'>&#128172; 84</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='11' data-hn-time='1779097251'>
+<div class='hn-top-story-item' data-hn-score='147' data-hn-time='1779108568'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/18/top_stories_05182026#story-48177300'>The foundations of a provably secure operating system (PSOS) (1979) [pdf]</a>
- <a class='hn-top-story-link' href='http://www.csl.sri.com/users/neumann/psos.pdf' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/18/top_stories_05182026#story-48179021'>AI eats the world (Spring 26) [pdf]</a>
+ <a class='hn-top-story-link' href='https://static1.squarespace.com/static/50363cf324ac8e905e7df861/t/6a0af5d0484fbf5fe9a7743e/1779103184855/2026-Spring-AI.pdf' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>可证明安全操作系统（PSOS）的奠基</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.8</span> <span class='hn-top-story-score'>&#9650; 11</span> <span class='hn-top-story-comments'>&#128172; 0</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>AI 吃掉了世界（2026 春季版）[PDF]</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.8</span> <span class='hn-top-story-score'>&#9650; 147</span> <span class='hn-top-story-comments'>&#128172; 77</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='22' data-hn-time='1779092361'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='134' data-hn-time='1779109278'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/18/top_stories_05182026#story-48176762'>Why is Google Maps back to showing old satellite images of Altadena?</a>
- <a class='hn-top-story-link' href='https://www.reddit.com/r/pasadena/s/94BHlkE84r' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/18/top_stories_05182026#story-48179183'>'We mould trees to grow into the shape of chairs'</a>
+ <a class='hn-top-story-link' href='https://www.bbc.co.uk/news/articles/cvg0yy3gp71o' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>谷歌地图为何重新显示 Altadena 的旧卫星影像</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.8</span> <span class='hn-top-story-score'>&#9650; 22</span> <span class='hn-top-story-comments'>&#128172; 7</span> <span class='hn-top-story-tag'>Data</span></div>
+<div class='hn-top-story-zh'>我们把树木塑造成椅子形状</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.6</span> <span class='hn-top-story-score'>&#9650; 134</span> <span class='hn-top-story-comments'>&#128172; 34</span> <span class='hn-top-story-tag'>Design</span> <span class='hn-top-story-tag'>Culture</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='751' data-hn-time='1778998646'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='104' data-hn-time='1779111431'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/18/top_stories_05182026#story-48166459'>Mozilla to UK regulators: VPNs are essential privacy and security tools</a>
- <a class='hn-top-story-link' href='https://blog.mozilla.org/netpolicy/2026/05/15/mozilla-to-uk-regulators-vpns-are-essential-privacy-and-security-tools-and-should-not-be-undermined/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/18/top_stories_05182026#story-48179732'>Project Glasswing: what Mythos showed us</a>
+ <a class='hn-top-story-link' href='https://blog.cloudflare.com/cyber-frontier-models/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Mozilla致英国监管机构：VPN是必需的隐私与安全工具</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.6</span> <span class='hn-top-story-score'>&#9650; 751</span> <span class='hn-top-story-comments'>&#128172; 318</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>Glasswing 项目：Mythos 给我们的启示</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.3</span> <span class='hn-top-story-score'>&#9650; 104</span> <span class='hn-top-story-comments'>&#128172; 27</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='197' data-hn-time='1779054330'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='143' data-hn-time='1779106850'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/18/top_stories_05182026#story-48173468'>Two EA-18 fighter jets collide at Mountain Home airshow, pilots ejected safely</a>
- <a class='hn-top-story-link' href='https://idahonews.com/news/local/two-f-18-fighter-jets-have-crashed-during-an-airshow-at-mountain-home-air-force-base' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/18/top_stories_05182026#story-48178692'>Linux security mailing list 'almost unmanageable'</a>
+ <a class='hn-top-story-link' href='https://www.theregister.com/security/2026/05/18/linus-torvalds-says-ai-powered-bug-hunters-have-made-linux-security-mailing-list-almost-entirely-unmanageable/5241633' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>山地家园空军基地航空表演中两架 EA-18 战斗机相撞，飞行员均安全弹出</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.6</span> <span class='hn-top-story-score'>&#9650; 197</span> <span class='hn-top-story-comments'>&#128172; 197</span> <span class='hn-top-story-tag'>Science</span></div>
+<div class='hn-top-story-zh'>Linux 安全邮件列表几乎难以管理</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.9</span> <span class='hn-top-story-score'>&#9650; 143</span> <span class='hn-top-story-comments'>&#128172; 66</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='88' data-hn-time='1779073174'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='73' data-hn-time='1779113587'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/18/top_stories_05182026#story-48175140'>It is time to give up the dualism introduced by the debate on consciousness</a>
- <a class='hn-top-story-link' href='https://www.noemamag.com/there-is-no-hard-problem-of-consciousness/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/18/top_stories_05182026#story-48180204'>1024000^2 Blocks, 2B2T Minecraft Server World Download Project, and Discoveries</a>
+ <a class='hn-top-story-link' href='https://github.com/2b2tplace/1m_release' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>放弃意识辩论中引入的二元论</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.6</span> <span class='hn-top-story-score'>&#9650; 88</span> <span class='hn-top-story-comments'>&#128172; 222</span> <span class='hn-top-story-tag'>Culture</span></div>
+<div class='hn-top-story-zh'>1024000^2 块、2B2T 世界下载计划及发现</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.6</span> <span class='hn-top-story-score'>&#9650; 73</span> <span class='hn-top-story-comments'>&#128172; 43</span> <span class='hn-top-story-tag'>Gaming</span> <span class='hn-top-story-tag'>Data</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='411' data-hn-time='1779023480'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='114' data-hn-time='1779108594'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/18/top_stories_05182026#story-48168626'>AI is a technology not a product</a>
- <a class='hn-top-story-link' href='https://daringfireball.net/2026/05/ai_is_technology_not_a_product' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/18/top_stories_05182026#story-48179029'>Enough with the AI FOMO, go slow-mo, says Domo CDO</a>
+ <a class='hn-top-story-link' href='https://www.theregister.com/ai-ml/2026/05/17/enough-with-the-ai-fomo-go-slow-mo-says-domo-cdo/5240840' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>AI是技术不是产品</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.4</span> <span class='hn-top-story-score'>&#9650; 411</span> <span class='hn-top-story-comments'>&#128172; 178</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>Domo 的 CDO 要求放慢 AI 的步伐</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.5</span> <span class='hn-top-story-score'>&#9650; 114</span> <span class='hn-top-story-comments'>&#128172; 55</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -155,7 +155,7 @@ Your browser does not support the audio element.
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 21 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-05-18 <span class="hn-row-sep">·</span> 50 stories <span class="hn-row-sep">·</span> 1 days</span>
+<span class='hn-week-meta'>2026-05-18 <span class="hn-row-sep">·</span> 77 stories <span class="hn-row-sep">·</span> 1 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -164,7 +164,7 @@ Your browser does not support the audio element.
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/05/18/top_stories_05182026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> Programming <b>14</b> <span class="hn-row-sep">·</span> Hardware <b>11</b></span>
+<span class='hn-row-detail'>All <b>77</b> <span class="hn-row-sep">·</span> Programming <b>23</b> <span class="hn-row-sep">·</span> AI <b>17</b></span>
 </a>
 </div>
 </div>
