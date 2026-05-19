@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>89</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>12894</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>86</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>87</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-05-19</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>89</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>12900</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>86</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>87</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-05-19</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,29 +20,29 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='890' data-hn-time='1779203265'>
+<div class='hn-top-story-item' data-hn-score='361' data-hn-time='1779220369'>
 <span class='hn-top-story-rank'>1</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/19/top_stories_05192026#story-48198551'>Tesla's lithium refinery discharges 231,000 gallons of polluted wastewater a day</a>
+ <a class='hn-top-story-link' href='https://www.autonocion.com/us/tesla-lithium-refinery-texas/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>特斯拉锂精炼厂每日排放 23.1 万加仑污染废水</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 19</span> <span class='hn-top-story-score'>&#9650; 361</span> <span class='hn-top-story-comments'>&#128172; 174</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Energy</span> <span class='hn-top-story-tag'>Politics</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='1069' data-hn-time='1779203265'>
+<span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/05/19/top_stories_05192026#story-48194352'>I’ve joined Anthropic</a>
  <a class='hn-top-story-link' href='https://twitter.com/karpathy/status/2056753169888334312' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>我已加入 Anthropic</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 29</span> <span class='hn-top-story-score'>&#9650; 890</span> <span class='hn-top-story-comments'>&#128172; 349</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Career</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 17</span> <span class='hn-top-story-score'>&#9650; 1069</span> <span class='hn-top-story-comments'>&#128172; 442</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='379' data-hn-time='1779206018'>
-<span class='hn-top-story-rank'>2</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/19/top_stories_05192026#story-48195009'>I’ve built a virtual museum with nearly every operating system you can think of</a>
- <a class='hn-top-story-link' href='https://virtualosmuseum.org/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>我用几乎所有你能想到的操作系统搭建了一个虚拟博物馆</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 15</span> <span class='hn-top-story-score'>&#9650; 379</span> <span class='hn-top-story-comments'>&#128172; 80</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Education</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='158' data-hn-time='1779212625'>
+<div class='hn-top-story-item' data-hn-score='438' data-hn-time='1779212625'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -50,21 +50,21 @@ Sort:
  <a class='hn-top-story-link' href='https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Gemini 3.5 闪速版</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 158</span> <span class='hn-top-story-comments'>&#128172; 150</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 438</span> <span class='hn-top-story-comments'>&#128172; 353</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='165' data-hn-time='1779210085'>
+<div class='hn-top-story-item' data-hn-score='256' data-hn-time='1779218006'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/19/top_stories_05192026#story-48196020'>Google I/O</a>
- <a class='hn-top-story-link' href='https://io.google/2026/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/19/top_stories_05192026#story-48197980'>Minnesota becomes first state to ban prediction markets</a>
+ <a class='hn-top-story-link' href='https://www.npr.org/2026/05/19/nx-s1-5821265/minnesota-ban-prediction-markets' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Google I/O 大会</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.7</span> <span class='hn-top-story-score'>&#9650; 165</span> <span class='hn-top-story-comments'>&#128172; 220</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>明尼苏达成为首个禁止预测市场的州</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 256</span> <span class='hn-top-story-comments'>&#128172; 96</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='62' data-hn-time='1779216985'>
+<div class='hn-top-story-item' data-hn-score='247' data-hn-time='1779216985'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -72,62 +72,62 @@ Sort:
  <a class='hn-top-story-link' href='https://www.natesilver.net/p/disney-erased-fivethirtyeight' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>迪士尼抹去 FiveThirtyEight</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.0</span> <span class='hn-top-story-score'>&#9650; 62</span> <span class='hn-top-story-comments'>&#128172; 4</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Culture</span> <span class='hn-top-story-tag'>Data</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.7</span> <span class='hn-top-story-score'>&#9650; 247</span> <span class='hn-top-story-comments'>&#128172; 148</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Data</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='497' data-hn-time='1779192258'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='274' data-hn-time='1779215667'>
 <span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/19/top_stories_05192026#story-48192224'>Apple unveils new accessibility features</a>
- <a class='hn-top-story-link' href='https://www.apple.com/newsroom/2026/05/apple-unveils-new-accessibility-features-and-updates-with-apple-intelligence/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>苹果推出全新无障碍功能</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.2</span> <span class='hn-top-story-score'>&#9650; 497</span> <span class='hn-top-story-comments'>&#128172; 264</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Design</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='98' data-hn-time='1779212779'>
-<span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/19/top_stories_05192026#story-48196609'>Gemini Omni</a>
- <a class='hn-top-story-link' href='https://deepmind.google/models/gemini-omni/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Gemini Omni</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.8</span> <span class='hn-top-story-score'>&#9650; 98</span> <span class='hn-top-story-comments'>&#128172; 43</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='65' data-hn-time='1779215667'>
-<span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/05/19/top_stories_05192026#story-48197370'>Google changes its search box</a>
  <a class='hn-top-story-link' href='https://blog.google/products-and-platforms/products/search/search-io-2026/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>谷歌改造搜索框</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.6</span> <span class='hn-top-story-score'>&#9650; 65</span> <span class='hn-top-story-comments'>&#128172; 187</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Web</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.7</span> <span class='hn-top-story-score'>&#9650; 274</span> <span class='hn-top-story-comments'>&#128172; 443</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='313' data-hn-time='1779196311'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='504' data-hn-time='1779206018'>
+<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/19/top_stories_05192026#story-48195009'>I’ve built a virtual museum with nearly every operating system you can think of</a>
+ <a class='hn-top-story-link' href='https://virtualosmuseum.org/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>我用几乎所有你能想到的操作系统搭建了一个虚拟博物馆</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.5</span> <span class='hn-top-story-score'>&#9650; 504</span> <span class='hn-top-story-comments'>&#128172; 110</span> <span class='hn-top-story-tag'>Education</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='214' data-hn-time='1779212779'>
+<span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/19/top_stories_05192026#story-48196609'>Gemini Omni</a>
+ <a class='hn-top-story-link' href='https://deepmind.google/models/gemini-omni/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Gemini Omni</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.1</span> <span class='hn-top-story-score'>&#9650; 214</span> <span class='hn-top-story-comments'>&#128172; 95</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='120' data-hn-time='1779219270'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/19/top_stories_05192026#story-48192882'>OpenBSD 7.9</a>
- <a class='hn-top-story-link' href='https://www.openbsd.org/79.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/19/top_stories_05192026#story-48198291'>OpenAI Adopts Google's SynthID Watermark for AI Images with Verification Tool</a>
+ <a class='hn-top-story-link' href='https://openai.com/index/advancing-content-provenance/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>OpenBSD 7.9 发布</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.4</span> <span class='hn-top-story-score'>&#9650; 313</span> <span class='hn-top-story-comments'>&#128172; 225</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-zh'>OpenAI 采用 Google 的 SynthID 图像水印并提供验证工具</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.7</span> <span class='hn-top-story-score'>&#9650; 120</span> <span class='hn-top-story-comments'>&#128172; 55</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='418' data-hn-time='1779187127'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='553' data-hn-time='1779192258'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/19/top_stories_05192026#story-48191602'>Show HN: Gaussian Splat of a Strawberry</a>
- <a class='hn-top-story-link' href='https://superspl.at/scene/84df8849' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/19/top_stories_05192026#story-48192224'>Apple unveils new accessibility features</a>
+ <a class='hn-top-story-link' href='https://www.apple.com/newsroom/2026/05/apple-unveils-new-accessibility-features-and-updates-with-apple-intelligence/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>草莓的高斯斑点渲染</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.4</span> <span class='hn-top-story-score'>&#9650; 418</span> <span class='hn-top-story-comments'>&#128172; 166</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Design</span></div>
+<div class='hn-top-story-zh'>苹果推出全新无障碍功能</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.5</span> <span class='hn-top-story-score'>&#9650; 553</span> <span class='hn-top-story-comments'>&#128172; 285</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -155,7 +155,7 @@ Your browser does not support the audio element.
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 21 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-05-18 — 2026-05-19 <span class="hn-row-sep">·</span> 244 stories <span class="hn-row-sep">·</span> 2 days</span>
+<span class='hn-week-meta'>2026-05-18 — 2026-05-19 <span class="hn-row-sep">·</span> 250 stories <span class="hn-row-sep">·</span> 2 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -164,7 +164,7 @@ Your browser does not support the audio element.
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/05/19/top_stories_05192026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>94</b> <span class="hn-row-sep">·</span> AI <b>36</b> <span class="hn-row-sep">·</span> Programming <b>23</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>34</b> <span class="hn-row-sep">·</span> Programming <b>26</b></span>
 </a>
 </div>
 </div>
