@@ -4,21 +4,178 @@
     "source": "https://news.ycombinator.com/",
     "api": "https://github.com/HackerNews/API",
     "count_requested": 50,
-    "count_written": 50,
-    "reused_same_day": 0,
-    "reused_cross_day": 35,
-    "new_llm_enriched": 15,
-    "scrape_time_display": "02:57, May 19, 2026 (PDT)",
+    "count_written": 75,
+    "reused_same_day": 25,
+    "reused_cross_day": 1,
+    "new_llm_enriched": 22,
+    "scrape_time_display": "09:50, May 19, 2026 (PDT)",
     "timezone": "America/Los_Angeles",
     "date_dir": "2026/05/19",
     "content_date": "2026-05-19",
-    "run_time_local": "02:57, May 19, 2026 (PDT)",
-    "run_time_utc": "2026-05-19 09:57:35 UTC",
+    "run_time_local": "09:50, May 19, 2026 (PDT)",
+    "run_time_utc": "2026-05-19 16:50:06 UTC",
     "incremental": true,
     "stories_max": 100,
-    "hot_score_time_utc": "2026-05-19 09:58:58 UTC"
+    "hot_score_time_utc": "2026-05-19 16:53:01 UTC"
   },
   "items": [
+    {
+      "title_en": "I’ve joined Anthropic",
+      "url": "https://twitter.com/karpathy/status/2056753169888334312",
+      "title_zh": "我已加入 Anthropic",
+      "created_display": "Created: May 19, 2026 / 08:07 PT",
+      "image_url": "https://pbs.twimg.com/profile_images/1296667294148382721/9Pr6XrPB_200x200.jpg",
+      "summary_en": "Renowned AI researcher Andrej Karpathy announces joining Anthropic, signaling a strengthening push toward safety and alignment work at the company. The move highlights ongoing talent shifts among leading AI labs and could influence future research directions.",
+      "summary_zh": "知名 AI 研究者安德烈·卡帕蒂宣布加入 Anthropic，表明公司在安全与对齐方向的投入在加大。此举反映出顶尖 AI 研究机构之间的人才流动，并可能影响未来的研究方向。",
+      "hn": {
+        "id": 48194352,
+        "type": "story",
+        "by": "dmarcos",
+        "score": 468,
+        "descendants": 187,
+        "time": 1779203265,
+        "comments_url": "https://news.ycombinator.com/item?id=48194352"
+      },
+      "hot_score": 43.16,
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title_en": "I've built a virtual museum with nearly every operating system you can think of",
+      "url": "https://virtualosmuseum.org/",
+      "title_zh": "我用几乎所有你能想到的操作系统搭建了一个虚拟博物馆",
+      "created_display": "Created: May 19, 2026 / 08:53 PT",
+      "image_url": "https://virtualosmuseum.org/images/front_page/0.%20Launcher%20main%20window.png",
+      "summary_en": "A personal project curates a virtual museum of operating systems across history, spanning from legacy to modern platforms. It combines emulation, demos, and documentation to preserve software heritage and let readers compare how OS design evolved.",
+      "summary_zh": "一个个人项目把各式各样的操作系统整理成一个虚拟博物馆。它通过仿真、演示和文档，帮助保存软件历史并让用户比较不同操作系统的设计演进。",
+      "hn": {
+        "id": 48195009,
+        "type": "story",
+        "by": "andreww591",
+        "score": 93,
+        "descendants": 20,
+        "time": 1779206018,
+        "comments_url": "https://news.ycombinator.com/item?id=48195009"
+      },
+      "hot_score": 12.81,
+      "tags": [
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "Apple unveils new accessibility features",
+      "url": "https://www.apple.com/newsroom/2026/05/apple-unveils-new-accessibility-features-and-updates-with-apple-intelligence/",
+      "title_zh": "苹果推出全新无障碍功能",
+      "created_display": "Created: May 19, 2026 / 05:04 PT",
+      "image_url": "https://www.apple.com/newsroom/images/2026/05/apple-unveils-new-accessibility-features-and-updates-with-apple-intelligence/tile/Apple-accessibility-features-VoiceOver-with-Apple-Intelligence-lp.jpg.og.jpg?202605191559",
+      "summary_en": "Apple rolls out a set of accessibility features powered by Apple Intelligence, including on-device improvements to screen readers and real-time captions, plus personalized UI tweaks. The update underscores how AI-enabled tools can make devices more usable for a broad range of people.",
+      "summary_zh": "苹果公布一系列无障碍新功能，由 Apple Intelligence 提供支持，包括对屏幕阅读、实时字幕等的改进，以及更贴合用户需求的个性化界面。此举凸显了 AI 驱动工具在提升无障碍设计方面的潜力。",
+      "hn": {
+        "id": 48192224,
+        "type": "story",
+        "by": "interpol_p",
+        "score": 354,
+        "descendants": 189,
+        "time": 1779192258,
+        "comments_url": "https://news.ycombinator.com/item?id=48192224"
+      },
+      "hot_score": 11.16,
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title_en": "OpenBSD 7.9",
+      "url": "https://www.openbsd.org/79.html",
+      "title_zh": "OpenBSD 7.9 发布",
+      "created_display": "Created: May 19, 2026 / 06:11 PT",
+      "image_url": "https://www.openbsd.org/images/PinkPuffy-s.gif",
+      "summary_en": "OpenBSD 7.9 ships with improved security hardening, updated drivers, and new ports, continuing the project's emphasis on correctness and minimalism. The release also expands platform support and performance improvements.",
+      "summary_zh": "OpenBSD 7.9 发布，带来更强的安全强化、更新的驱动以及新端口，延续对正确性与简约设计的坚持。此次版本还扩展了平台支持并带来性能提升。",
+      "hn": {
+        "id": 48192882,
+        "type": "story",
+        "by": "bradley_taunt",
+        "score": 245,
+        "descendants": 148,
+        "time": 1779196311,
+        "comments_url": "https://news.ycombinator.com/item?id=48192882"
+      },
+      "tags": [
+        "Security",
+        "Open Source"
+      ],
+      "hot_score": 10.68
+    },
+    {
+      "title_en": "AI is too expensive",
+      "url": "https://www.wheresyoured.at/ai-is-too-expensive/",
+      "title_zh": "人工智能成本太高",
+      "created_display": "Created: May 19, 2026 / 08:59 PT",
+      "image_url": "https://storage.ghost.io/c/24/d8/24d8fcec-dfba-4f40-a467-823d2941ae46/content/images/2024/01/wyea--1.jpeg",
+      "summary_en": "A provocative piece argues that AI's true cost extends beyond dollars, including compute, data, energy, and risk, which can impede access. It advocates for efficiency, open models, or shared compute to democratize AI.",
+      "summary_zh": "文章指出人工智能的成本不仅是金钱，还包括计算、数据、能源与潜在风险，这些因素可能限制获取。呼吁提高效率、采用开源模型或共享算力以实现普及。",
+      "hn": {
+        "id": 48195100,
+        "type": "story",
+        "by": "crescit_eundo",
+        "score": 73,
+        "descendants": 53,
+        "time": 1779206343,
+        "comments_url": "https://news.ycombinator.com/item?id=48195100"
+      },
+      "hot_score": 10.59,
+      "tags": [
+        "AI",
+        "Energy"
+      ]
+    },
+    {
+      "title_en": "Gaussian Splat of a Strawberry",
+      "url": "https://superspl.at/scene/84df8849",
+      "title_zh": "草莓的高斯斑点渲染",
+      "created_display": "Created: May 19, 2026 / 03:38 PT",
+      "image_url": "https://s3-eu-west-1.amazonaws.com/images.playcanvas.com/splat/84df8849/v1/xl.webp",
+      "summary_en": "The project showcases a Gaussian splat rendering of a strawberry, producing soft volumetric shading from a point-based approach. It illustrates how advanced rendering techniques are being used in art and experiments, signaling future directions for real-time graphics pipelines.",
+      "summary_zh": "该作品以草莓为例，展示高斯斑点渲染技术，利用点云实现柔和体积光照与纹理效果。它体现了前沿渲染技术在艺术创作中的应用趋势，以及对实时图形管线的潜在影响。",
+      "hn": {
+        "id": 48191602,
+        "type": "story",
+        "by": "danybittel",
+        "score": 341,
+        "descendants": 136,
+        "time": 1779187127,
+        "comments_url": "https://news.ycombinator.com/item?id=48191602"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 7.64
+    },
+    {
+      "title_en": "Gentoo News: Copy Fail, Dirty Frag, and Fragnesia Kernel Vulnerabilities",
+      "url": "https://www.gentoo.org/news/2026/05/19/copy-fail-fragnesia-vulnerabilities.html",
+      "title_zh": "Gentoo 新闻：Copy-Fail、Dirty Frag 与 Fragnesia 内核漏洞",
+      "created_display": "Created: May 19, 2026 / 08:27 PT",
+      "image_url": "https://www.gentoo.org/assets/img/og-image.jpg",
+      "summary_en": "Gentoo Linux warns of multiple kernel vulnerabilities nicknamed Copy-Fail, Dirty Frag, and Fragnesia. Users should apply patches and upgrade affected kernels to mitigate potential exploits.",
+      "summary_zh": "Gentoo Linux 发布关于 Copy-Fail、Dirty Frag 与 Fragnesia 等多项内核漏洞的通告。用户应尽快应用补丁并升级受影响的内核，以降低被利用的风险。",
+      "hn": {
+        "id": 48194614,
+        "type": "story",
+        "by": "akhuettel",
+        "score": 35,
+        "descendants": 3,
+        "time": 1779204473,
+        "comments_url": "https://news.ycombinator.com/item?id=48194614"
+      },
+      "hot_score": 3.72,
+      "tags": [
+        "Security",
+        "Open Source"
+      ]
+    },
     {
       "title_en": "The last six months in LLMs in five minutes",
       "url": "https://simonwillison.net/2026/May/19/5-minute-llms/",
@@ -31,8 +188,8 @@
         "id": 48188183,
         "type": "story",
         "by": "yakkomajuri",
-        "score": 440,
-        "descendants": 304,
+        "score": 621,
+        "descendants": 502,
         "time": 1779154242,
         "comments_url": "https://news.ycombinator.com/item?id=48188183"
       },
@@ -40,7 +197,53 @@
         "AI",
         "Open Source"
       ],
-      "hot_score": 6.4
+      "hot_score": 3.64
+    },
+    {
+      "title_en": "Colonization of Venus",
+      "url": "https://en.wikipedia.org/wiki/Colonization_of_Venus",
+      "title_zh": "金星殖民",
+      "created_display": "Created: May 19, 2026 / 05:26 PT",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/NASA_Cloud_City_on_Venus.jpg/1280px-NASA_Cloud_City_on_Venus.jpg",
+      "summary_en": "An overview of historical and speculative approaches to colonizing Venus, outlining environmental and technological hurdles and what it would take to establish settlements.",
+      "summary_zh": "对金星殖民的历史与设想进行了综述，概述了环境与技术方面的挑战，以及实现定居点需要的条件。",
+      "hn": {
+        "id": 48192410,
+        "type": "story",
+        "by": "simonebrunozzi",
+        "score": 93,
+        "descendants": 58,
+        "time": 1779193605,
+        "comments_url": "https://news.ycombinator.com/item?id=48192410"
+      },
+      "hot_score": 3.22,
+      "tags": [
+        "Space"
+      ]
+    },
+    {
+      "title_en": "U.S. Cybersecurity Agency Leaves Its Digital Keys Out in Public on GitHub",
+      "url": "https://gizmodo.com/the-worst-leak-that-ive-witnessed-u-s-cybersecurity-agency-leaves-its-digital-keys-out-in-public-on-github-2000760330",
+      "title_zh": "美国网络安全与基础设施安全局在 GitHub 上公开数字密钥",
+      "created_display": "Created: May 19, 2026 / 05:24 PT",
+      "image_url": null,
+      "summary_en": "A U.S. cybersecurity agency exposed sensitive credentials on GitHub, highlighting secret management and supply-chain risk, and underscoring the need for swift rotation and governance.",
+      "summary_zh": "美国网络安全与基础设施安全局在 GitHub 上公开敏感凭据，暴露秘密管理和供应链风险，强调需要快速轮换密钥并加强治理。",
+      "hn": {
+        "id": 48192397,
+        "type": "story",
+        "by": "neogodless",
+        "score": 92,
+        "descendants": 16,
+        "time": 1779193495,
+        "comments_url": "https://news.ycombinator.com/item?id=48192397"
+      },
+      "hot_score": 3.16,
+      "tags": [
+        "Security",
+        "Privacy",
+        "Programming"
+      ]
     },
     {
       "title_en": "Elon Musk has lost his lawsuit against Sam Altman and OpenAI",
@@ -54,39 +257,39 @@
         "id": 48182754,
         "type": "story",
         "by": "nycdatasci",
-        "score": 954,
-        "descendants": 471,
+        "score": 1040,
+        "descendants": 529,
         "time": 1779125902,
         "comments_url": "https://news.ycombinator.com/item?id=48182754"
       },
       "tags": [
         "Legal",
-        "Business",
         "AI"
       ],
-      "hot_score": 5.07
+      "hot_score": 3.11
     },
     {
-      "title_en": "Click (2016)",
-      "url": "https://clickclickclick.click/",
-      "title_zh": "《Click》（2016）",
-      "created_display": "Created: May 18, 2026 / 16:03 PT",
-      "image_url": "https://s3-eu-west-1.amazonaws.com/clickclickclick.click/images/OG.png",
-      "summary_en": "A 2016 work centered on click interactions as a lens into human-computer interfaces.",
-      "summary_zh": "一部聚焦点击交互、以此观察人机界面的2016年作品。",
+      "title_en": "CISA Admin Leaked AWS GovCloud Keys on GitHub",
+      "url": "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/",
+      "title_zh": "CISA 管理员在 GitHub 上泄露 AWS GovCloud 密钥",
+      "created_display": "Created: May 19, 2026 / 00:45 PT",
+      "image_url": "https://krebsonsecurity.com/wp-content/uploads/2026/05/privatecisa-filelist.png",
+      "summary_en": "A CISA administrator exposed GovCloud access keys on GitHub, underscoring how careless secret management can create cloud security risks. The incident highlights the need for secret rotation and stricter repository hygiene.",
+      "summary_zh": "CISA 一名管理员在 GitHub 上暴露 GovCloud 访问密钥，凸显秘密管理不小心带来的云安全风险。事件强调需要密钥轮换和更严格的仓库治理。",
       "hn": {
-        "id": 48187054,
+        "id": 48190454,
         "type": "story",
-        "by": "andrewzeno",
-        "score": 302,
-        "descendants": 73,
-        "time": 1779145382,
-        "comments_url": "https://news.ycombinator.com/item?id=48187054"
+        "by": "LelouBil",
+        "score": 193,
+        "descendants": 63,
+        "time": 1779176753,
+        "comments_url": "https://news.ycombinator.com/item?id=48190454"
       },
+      "hot_score": 2.51,
       "tags": [
-        "Design"
-      ],
-      "hot_score": 3.0
+        "Security",
+        "Programming"
+      ]
     },
     {
       "title_en": "Mini Shai-Hulud Strikes Again: 314 npm Packages Compromised",
@@ -100,132 +303,39 @@
         "id": 48189368,
         "type": "story",
         "by": "theanonymousone",
-        "score": 92,
-        "descendants": 44,
+        "score": 281,
+        "descendants": 195,
         "time": 1779167089,
         "comments_url": "https://news.ycombinator.com/item?id=48189368"
       },
-      "hot_score": 2.81,
-      "tags": [
-        "Security"
-      ]
-    },
-    {
-      "title_en": "My domain got abused on GitHub Pages",
-      "url": "https://meertens.dev/blog/github-enables-domain-abuse/",
-      "title_zh": "我的域名在 GitHub Pages 上被滥用",
-      "created_display": "Created: May 19, 2026 / 00:28 PT",
-      "image_url": "https://meertens.dev/blog/images/2026/05/newowner.png",
-      "summary_en": "A case study of domain abuse enabled via GitHub Pages, describing how misconfigurations or policy gaps allowed attackers to host or impersonate domains, with lessons on security and mitigation.",
-      "summary_zh": "作者分享了在 GitHub Pages 上域名滥用的案例，分析了配置和策略缺口如何被利用，以及对安全和防护的启示与对策。",
-      "hn": {
-        "id": 48190348,
-        "type": "story",
-        "by": "rmeertens",
-        "score": 42,
-        "descendants": 14,
-        "time": 1779175739,
-        "comments_url": "https://news.ycombinator.com/item?id=48190348"
-      },
-      "hot_score": 2.74,
       "tags": [
         "Security",
-        "Web",
-        "Programming"
-      ]
-    },
-    {
-      "title_en": "Peter Salus has died",
-      "url": "https://www.tuhs.org/pipermail/tuhs/2026-May/033750.html",
-      "title_zh": "彼得·纽曼去世",
-      "created_display": "Created: May 18, 2026 / 19:56 PT",
-      "image_url": null,
-      "summary_en": "Obituary for Peter Neumann, a renowned computer scientist known for security research and contributions to information safety and policy.",
-      "summary_zh": "纪念在计算机安全与信息风险研究领域具影响力的彼得·纽曼，他的离去被视为对安全科学和社区的一大损失。",
-      "hn": {
-        "id": 48188665,
-        "type": "story",
-        "by": "speckx",
-        "score": 135,
-        "descendants": 11,
-        "time": 1779159402,
-        "comments_url": "https://news.ycombinator.com/item?id=48188665"
-      },
-      "tags": [
-        "Science",
-        "Security"
+        "Open Source"
       ],
-      "hot_score": 2.55
+      "hot_score": 2.48
     },
     {
-      "title_en": "Show HN: Files.md – Open-source alternative to Obsidian",
-      "url": "https://github.com/zakirullin/files.md",
-      "title_zh": "Show HN：Files.md——Obsidian 的开源替代品",
-      "created_display": "Created: May 18, 2026 / 06:33 PT",
-      "image_url": "https://opengraph.githubassets.com/30308ac6761a5ff5c50c73982d8565b8f9aeb568fbd990d650f65b14c762ebad/zakirullin/files.md",
-      "summary_en": "Files.md is an open-source knowledge management app pitched as an Obsidian alternative, focusing on local Markdown files and a lightweight footprint. It appeals to users seeking privacy and ownership of their data.",
-      "summary_zh": "Files.md 是一款开源知识管理应用，被定位为 Obsidian 的替代方案，注重本地 Markdown 文件与轻量化。它吸引那些寻求隐私和对数据拥有权的用户。",
+      "title_en": "Show HN: I made a 3D pose maker for artists",
+      "url": "https://setpose.com/",
+      "title_zh": "Show HN：为艺术家制作的三维姿态生成器",
+      "created_display": "Created: May 19, 2026 / 07:04 PT",
+      "image_url": "https://cdn.setpose.com/imgs/mannequin.png",
+      "summary_en": "A 3D pose maker for artists lets users generate and export poses to speed up figure drawing workflows, illustrating practical use of 3D tech in art.",
+      "summary_zh": "Show HN 展示了一个面向艺术家的三维姿态生成器，能生成并导出姿势，帮助提速人物绘画工作流，体现了 3D 技术在艺术创作中的实用性。",
       "hn": {
-        "id": 48179677,
+        "id": 48193474,
         "type": "story",
-        "by": "zakirullin",
-        "score": 634,
-        "descendants": 309,
-        "time": 1779111213,
-        "comments_url": "https://news.ycombinator.com/item?id=48179677"
+        "by": "augustvdv",
+        "score": 38,
+        "descendants": 17,
+        "time": 1779199459,
+        "comments_url": "https://news.ycombinator.com/item?id=48193474"
       },
+      "hot_score": 2.19,
       "tags": [
         "Show HN",
-        "Open Source",
-        "Privacy"
-      ],
-      "hot_score": 2.34
-    },
-    {
-      "title_en": "Pope Leo XIV’s first encyclical Magnifica humanitas to be published May 25",
-      "url": "https://www.vaticannews.va/en/pope/news/2026-05/pope-leo-xiv-first-encyclical-magnifica-humanitas.html",
-      "title_zh": "教皇利奥十四世的首部通谕 Magnifica humanitas 将于5月25日发布",
-      "created_display": "Created: May 18, 2026 / 16:18 PT",
-      "image_url": "https://www.vaticannews.va/content/dam/vaticannews/agenzie/images/srv/2026/05/06/2026-05-06-udienza-generale/1778056864955.JPG/_jcr_content/renditions/cq5dam.thumbnail.cropped.1500.844.jpeg",
-      "summary_en": "Announces the forthcoming publication of Pope Leo XIV's first encyclical Magnifica humanitas, outlining expected themes around human dignity and social charity.",
-      "summary_zh": "梵蒂冈宣布教皇利奥十四世的首部通谕 Magnifica humanitas 将于5月25日公布，预计聚焦人类尊严与社会慈善等主题。",
-      "hn": {
-        "id": 48187201,
-        "type": "story",
-        "by": "cucho",
-        "score": 227,
-        "descendants": 133,
-        "time": 1779146290,
-        "comments_url": "https://news.ycombinator.com/item?id=48187201"
-      },
-      "tags": [
-        "Culture"
-      ],
-      "hot_score": 2.34
-    },
-    {
-      "title_en": "Anthropic acquires Stainless",
-      "url": "https://www.anthropic.com/news/anthropic-acquires-stainless",
-      "title_zh": "Anthropic 收购 Stainless",
-      "created_display": "Created: May 18, 2026 / 10:01 PT",
-      "image_url": "https://www.anthropic.com/api/opengraph-illustration?name=Node%20Shapes&backgroundColor=coral",
-      "summary_en": "Anthropic has acquired Stainless, a startup focused on safety tooling and governance capabilities. The deal signals Anthropic’s push to broaden enterprise-facing safety features as AI deployments scale. Integration could accelerate productization for customers and strengthen governance tooling.",
-      "summary_zh": "Anthropic 收购 Stainless，一家专注于安全工具与治理能力的初创公司。此举昭示 Anthropic 将进一步扩展面向企业的安全功能，以应对大规模 AI 部署的合规与风险管理需求。并购有望加速对外提供的产品落地，并强化治理能力。",
-      "hn": {
-        "id": 48182281,
-        "type": "story",
-        "by": "tomeraberbach",
-        "score": 452,
-        "descendants": 306,
-        "time": 1779123681,
-        "comments_url": "https://news.ycombinator.com/item?id=48182281"
-      },
-      "tags": [
-        "AI",
-        "Business",
-        "Startups"
-      ],
-      "hot_score": 2.26
+        "Programming"
+      ]
     },
     {
       "title_en": "Peter Neumann has died",
@@ -239,16 +349,199 @@
         "id": 48188787,
         "type": "story",
         "by": "pabs3",
-        "score": 108,
-        "descendants": 6,
+        "score": 259,
+        "descendants": 21,
         "time": 1779160665,
         "comments_url": "https://news.ycombinator.com/item?id=48188787"
       },
-      "hot_score": 2.18,
       "tags": [
-        "Science",
         "Security"
+      ],
+      "hot_score": 1.84
+    },
+    {
+      "title_en": "RuView – See through walls with WiFi",
+      "url": "https://github.com/ruvnet/RuView",
+      "title_zh": "RuView：用 WiFi 看穿墙体",
+      "created_display": "Created: May 19, 2026 / 09:19 PT",
+      "image_url": "https://repository-images.githubusercontent.com/997737944/2860500f-6e90-47c1-a59a-1c83e376e5cf",
+      "summary_en": "RuView demonstrates a WiFi-based imaging technique that can infer scenes behind walls by analyzing channel state information, raising privacy concerns and prompting defensive ideas.",
+      "summary_zh": "RuView 展示了利用 WiFi 信道信息在墙后成像的技术，引发隐私担忧并催生相应的防御思路。",
+      "hn": {
+        "id": 48195387,
+        "type": "story",
+        "by": "Iuz",
+        "score": 11,
+        "descendants": 4,
+        "time": 1779207557,
+        "comments_url": "https://news.ycombinator.com/item?id=48195387"
+      },
+      "hot_score": 1.84,
+      "tags": [
+        "Privacy"
       ]
+    },
+    {
+      "title_en": "Show HN: Superlog (YC P26) – Observability that installs itself and fixes bugs",
+      "url": "https://superlog.sh/",
+      "title_zh": "Show HN：Superlog（YC P26）—— 自动安装的可观测性工具，能修复 Bug",
+      "created_display": "Created: May 19, 2026 / 08:54 PT",
+      "image_url": null,
+      "summary_en": "Show HN presents Superlog, an observability tool that purportedly installs itself and can auto-fix bugs. The project aims to reduce developer toil by providing turnkey instrumentation and remediation guidance.",
+      "summary_zh": "Show HN 介绍了 Superlog，这是一个自带安装的可观测性工具，声称能自动修复 Bug。该项目旨在通过一键化的观测与修复建议，降低开发者的工作负担。",
+      "hn": {
+        "id": 48195021,
+        "type": "story",
+        "by": "Magnanten",
+        "score": 14,
+        "descendants": 4,
+        "time": 1779206046,
+        "comments_url": "https://news.ycombinator.com/item?id=48195021"
+      },
+      "hot_score": 1.82,
+      "tags": [
+        "Show HN",
+        "DevOps",
+        "Startups"
+      ]
+    },
+    {
+      "title_en": "Click (2016)",
+      "url": "https://clickclickclick.click/",
+      "title_zh": "《Click》（2016）",
+      "created_display": "Created: May 18, 2026 / 16:03 PT",
+      "image_url": "https://s3-eu-west-1.amazonaws.com/clickclickclick.click/images/OG.png",
+      "summary_en": "A 2016 work centered on click interactions as a lens into human-computer interfaces.",
+      "summary_zh": "一部聚焦点击交互、以此观察人机界面的2016年作品。",
+      "hn": {
+        "id": 48187054,
+        "type": "story",
+        "by": "andrewzeno",
+        "score": 350,
+        "descendants": 90,
+        "time": 1779145382,
+        "comments_url": "https://news.ycombinator.com/item?id=48187054"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 1.61
+    },
+    {
+      "title_en": "Show HN: Files.md – Open-source alternative to Obsidian",
+      "url": "https://github.com/zakirullin/files.md",
+      "title_zh": "Show HN：Files.md——Obsidian 的开源替代品",
+      "created_display": "Created: May 18, 2026 / 06:33 PT",
+      "image_url": "https://opengraph.githubassets.com/30308ac6761a5ff5c50c73982d8565b8f9aeb568fbd990d650f65b14c762ebad/zakirullin/files.md",
+      "summary_en": "Files.md is an open-source knowledge management app pitched as an Obsidian alternative, focusing on local Markdown files and a lightweight footprint. It appeals to users seeking privacy and ownership of their data.",
+      "summary_zh": "Files.md 是一款开源知识管理应用，被定位为 Obsidian 的替代方案，注重本地 Markdown 文件与轻量化。它吸引那些寻求隐私和对数据拥有权的用户。",
+      "hn": {
+        "id": 48179677,
+        "type": "story",
+        "by": "zakirullin",
+        "score": 674,
+        "descendants": 327,
+        "time": 1779111213,
+        "comments_url": "https://news.ycombinator.com/item?id=48179677"
+      },
+      "tags": [
+        "Show HN",
+        "Open Source",
+        "Privacy"
+      ],
+      "hot_score": 1.54
+    },
+    {
+      "title_en": "Anthropic acquires Stainless",
+      "url": "https://www.anthropic.com/news/anthropic-acquires-stainless",
+      "title_zh": "Anthropic 收购 Stainless",
+      "created_display": "Created: May 18, 2026 / 10:01 PT",
+      "image_url": "https://www.anthropic.com/api/opengraph-illustration?name=Node%20Shapes&backgroundColor=coral",
+      "summary_en": "Anthropic has acquired Stainless, a startup focused on safety tooling and governance capabilities. The deal signals Anthropic’s push to broaden enterprise-facing safety features as AI deployments scale. Integration could accelerate productization for customers and strengthen governance tooling.",
+      "summary_zh": "Anthropic 收购 Stainless，一家专注于安全工具与治理能力的初创公司。此举昭示 Anthropic 将进一步扩展面向企业的安全功能，以应对大规模 AI 部署的合规与风险管理需求。并购有望加速对外提供的产品落地，并强化治理能力。",
+      "hn": {
+        "id": 48182281,
+        "type": "story",
+        "by": "tomeraberbach",
+        "score": 509,
+        "descendants": 357,
+        "time": 1779123681,
+        "comments_url": "https://news.ycombinator.com/item?id=48182281"
+      },
+      "tags": [
+        "AI",
+        "Business",
+        "Startups"
+      ],
+      "hot_score": 1.46
+    },
+    {
+      "title_en": "'You can hear me now or pay me later' Music exec tells graduates booing AI",
+      "url": "https://www.independent.co.uk/tv/news/ai-students-scott-borchetta-middle-tennessee-state-university-video-b2979573.html",
+      "title_zh": "音乐行业高管对毕业生喊话：现在就能听见我，日后再付钱",
+      "created_display": "Created: May 19, 2026 / 09:14 PT",
+      "image_url": "https://cdn.jwplayer.com/v2/media/zJ6pCxPD/poster.jpg?width=720",
+      "summary_en": "A music executive delivers a provocative line about AI-driven music economics to graduates, reflecting tensions around licensing, ownership, and how AI affects the music industry’s business model.",
+      "summary_zh": "一位音乐行业高管在毕业典礼上以挑衅性话语讨论 AI 与音乐经济，揭示 AI 对许可、所有权以及行业商业模式的影响与分歧。",
+      "hn": {
+        "id": 48195320,
+        "type": "story",
+        "by": "cdrnsf",
+        "score": 9,
+        "descendants": 3,
+        "time": 1779207271,
+        "comments_url": "https://news.ycombinator.com/item?id=48195320"
+      },
+      "hot_score": 1.39,
+      "tags": [
+        "AI",
+        "Business",
+        "Entertainment"
+      ]
+    },
+    {
+      "title_en": "Why are most humans right-handed? The answer may lie in how we learned to walk",
+      "url": "https://www.ox.ac.uk/news/2026-05-15-why-is-almost-everyone-right-handed-the-answer-may-lie-in-how-we-learned-to-walk",
+      "title_zh": "为什么大多数人是右手？答案或在于我们学会走路的方式",
+      "created_display": "Created: May 19, 2026 / 07:50 PT",
+      "image_url": null,
+      "summary_en": "A study links the predominance of right-handedness to how humans learn to walk, suggesting locomotion development influenced brain lateralization and motor preferences.",
+      "summary_zh": "研究将大多数人偏好右手的原因与人类如何学习走路联系起来，认为走路的进化对大脑的半球偏侧化和运动偏好有影响。",
+      "hn": {
+        "id": 48194098,
+        "type": "story",
+        "by": "gmays",
+        "score": 18,
+        "descendants": 18,
+        "time": 1779202242,
+        "comments_url": "https://news.ycombinator.com/item?id=48194098"
+      },
+      "hot_score": 1.38,
+      "tags": [
+        "Science"
+      ]
+    },
+    {
+      "title_en": "Pope Leo XIV’s first encyclical Magnifica humanitas to be published May 25",
+      "url": "https://www.vaticannews.va/en/pope/news/2026-05/pope-leo-xiv-first-encyclical-magnifica-humanitas.html",
+      "title_zh": "教皇利奥十四世的首部通谕 Magnifica humanitas 将于5月25日发布",
+      "created_display": "Created: May 18, 2026 / 16:18 PT",
+      "image_url": "https://www.vaticannews.va/content/dam/vaticannews/agenzie/images/srv/2026/05/06/2026-05-06-udienza-generale/1778056864955.JPG/_jcr_content/renditions/cq5dam.thumbnail.cropped.1500.844.jpeg",
+      "summary_en": "Announces the forthcoming publication of Pope Leo XIV's first encyclical Magnifica humanitas, outlining expected themes around human dignity and social charity.",
+      "summary_zh": "梵蒂冈宣布教皇利奥十四世的首部通谕 Magnifica humanitas 将于5月25日公布，预计聚焦人类尊严与社会慈善等主题。",
+      "hn": {
+        "id": 48187201,
+        "type": "story",
+        "by": "cucho",
+        "score": 272,
+        "descendants": 201,
+        "time": 1779146290,
+        "comments_url": "https://news.ycombinator.com/item?id=48187201"
+      },
+      "tags": [
+        "Culture"
+      ],
+      "hot_score": 1.28
     },
     {
       "title_en": "We stopped AI bot spam in our GitHub repo using Git's –author flag",
@@ -272,29 +565,52 @@
         "AI",
         "Programming"
       ],
-      "hot_score": 2.02
+      "hot_score": 1.2
     },
     {
-      "title_en": "Codex-maxxing",
-      "url": "https://jxnl.co/writing/2026/05/10/codex-maxxing/",
-      "title_zh": "Codex-maxxing",
-      "created_display": "Created: May 18, 2026 / 21:24 PT",
-      "image_url": "https://jxnl.co/assets/images/social/writing/2026/05/10/codex-maxxing.png",
-      "summary_en": "An exploration of pushing Codex to its limits, with prompts, workflows, and cost considerations.",
-      "summary_zh": "文章探讨如何充分挖掘 Codex 的能力，包括提示工程、工作流编排，以及对延迟和成本的实际注意事項。",
+      "title_en": "Peter Salus has died",
+      "url": "https://www.tuhs.org/pipermail/tuhs/2026-May/033750.html",
+      "title_zh": "彼得·纽曼去世",
+      "created_display": "Created: May 18, 2026 / 19:56 PT",
+      "image_url": null,
+      "summary_en": "Obituary for Peter Neumann, a renowned computer scientist known for security research and contributions to information safety and policy.",
+      "summary_zh": "纪念在计算机安全与信息风险研究领域具影响力的彼得·纽曼，他的离去被视为对安全科学和社区的一大损失。",
       "hn": {
-        "id": 48189156,
+        "id": 48188665,
         "type": "story",
-        "by": "dnw",
-        "score": 77,
-        "descendants": 58,
-        "time": 1779164685,
-        "comments_url": "https://news.ycombinator.com/item?id=48189156"
+        "by": "speckx",
+        "score": 163,
+        "descendants": 13,
+        "time": 1779159402,
+        "comments_url": "https://news.ycombinator.com/item?id=48188665"
       },
-      "hot_score": 1.99,
       "tags": [
-        "AI"
-      ]
+        "Security"
+      ],
+      "hot_score": 1.11
+    },
+    {
+      "title_en": "We let AIs run radio stations",
+      "url": "https://andonlabs.com/blog/andon-fm",
+      "title_zh": "让 AI 运营广播电台",
+      "created_display": "Created: May 18, 2026 / 11:12 PT",
+      "image_url": "https://andonlabs.com/andon-fm-blog-og.webp",
+      "summary_en": "Andon Labs demonstrates AI-operated radio stations, where AI curates playlists and hosts content with automated narration. The project probes how far automation can go in media, and what remains uniquely human in storytelling and curation.",
+      "summary_zh": "Andon Labs 展示了让 AI 运营广播电台的尝试，AI 负责选曲并进行自动化主持。该项目探索媒体领域自动化的边界，以及在叙事与选曲方面仍需人工介入的部分。",
+      "hn": {
+        "id": 48183301,
+        "type": "story",
+        "by": "lukaspetersson",
+        "score": 338,
+        "descendants": 254,
+        "time": 1779127938,
+        "comments_url": "https://news.ycombinator.com/item?id=48183301"
+      },
+      "tags": [
+        "AI",
+        "Programming"
+      ],
+      "hot_score": 1.05
     },
     {
       "title_en": "The FBI Wants to Buy Nationwide Access to License Plate Readers",
@@ -315,9 +631,10 @@
       },
       "tags": [
         "Privacy",
+        "Security",
         "Politics"
       ],
-      "hot_score": 1.81
+      "hot_score": 0.96
     },
     {
       "title_en": "Iran starts Bitcoin-backed ship insurance for Hormuz strait",
@@ -339,31 +656,29 @@
       "tags": [
         "Finance"
       ],
-      "hot_score": 1.63
+      "hot_score": 0.92
     },
     {
-      "title_en": "We let AIs run radio stations",
-      "url": "https://andonlabs.com/blog/andon-fm",
-      "title_zh": "让 AI 运营广播电台",
-      "created_display": "Created: May 18, 2026 / 11:12 PT",
-      "image_url": "https://andonlabs.com/andon-fm-blog-og.webp",
-      "summary_en": "Andon Labs demonstrates AI-operated radio stations, where AI curates playlists and hosts content with automated narration. The project probes how far automation can go in media, and what remains uniquely human in storytelling and curation.",
-      "summary_zh": "Andon Labs 展示了让 AI 运营广播电台的尝试，AI 负责选曲并进行自动化主持。该项目探索媒体领域自动化的边界，以及在叙事与选曲方面仍需人工介入的部分。",
+      "title_en": "Andrej Karpathy Joins Anthropic",
+      "url": "https://twitter.com/i/status/2056753169888334312",
+      "title_zh": "安德烈·卡帕蒂加入 Anthropic",
+      "created_display": "Created: May 19, 2026 / 09:12 PT",
+      "image_url": "https://pbs.twimg.com/profile_images/1296667294148382721/9Pr6XrPB_200x200.jpg",
+      "summary_en": "Andrej Karpathy joins Anthropic, signaling a notable move toward safety-focused AI research and potentially shaping alignment and product strategy at the company.",
+      "summary_zh": "安德烈·卡帕蒂加盟 Anthropic，标志着在安全导向的 AI 研究方面的重要人事走向，可能影响公司的对齐研究和产品策略。",
       "hn": {
-        "id": 48183301,
+        "id": 48195291,
         "type": "story",
-        "by": "lukaspetersson",
-        "score": 261,
-        "descendants": 209,
-        "time": 1779127938,
-        "comments_url": "https://news.ycombinator.com/item?id=48183301"
+        "by": "kpw94",
+        "score": 6,
+        "descendants": 0,
+        "time": 1779207152,
+        "comments_url": "https://news.ycombinator.com/item?id=48195291"
       },
+      "hot_score": 0.85,
       "tags": [
-        "AI",
-        "Entertainment",
-        "Programming"
-      ],
-      "hot_score": 1.46
+        "AI"
+      ]
     },
     {
       "title_en": "Project Glasswing: what Mythos showed us",
@@ -383,10 +698,33 @@
         "comments_url": "https://news.ycombinator.com/item?id=48179732"
       },
       "tags": [
-        "AI",
-        "Security"
+        "Security",
+        "AI"
       ],
-      "hot_score": 1.22
+      "hot_score": 0.75
+    },
+    {
+      "title_en": "Cursor Introduces Composer 2.5",
+      "url": "https://cursor.com/blog/composer-2-5",
+      "title_zh": "Cursor 推出 Composer 2.5",
+      "created_display": "Created: May 18, 2026 / 10:20 PT",
+      "image_url": "https://pbs.twimg.com/media/HInYLGEbUAMPCxf.png:large",
+      "summary_en": "Cursor released Composer 2.5, adding improvements to the AI agent toolchain, such as better task orchestration, reliability, and debugging. The update helps developers build more capable agents with fewer edge-case issues.",
+      "summary_zh": "Cursor 发布了 Composer 2.5，带来改进的 AI 代理工具链，如更好的任务编排、稳定性与调试能力。更新帮助开发者构建更强大的代理，减少边缘情况问题。",
+      "hn": {
+        "id": 48182516,
+        "type": "story",
+        "by": "asar",
+        "score": 244,
+        "descendants": 183,
+        "time": 1779124843,
+        "comments_url": "https://news.ycombinator.com/item?id=48182516"
+      },
+      "tags": [
+        "Programming",
+        "AI"
+      ],
+      "hot_score": 0.71
     },
     {
       "title_en": "PyTorch Landscape",
@@ -400,16 +738,241 @@
         "id": 48189178,
         "type": "story",
         "by": "salamo",
-        "score": 45,
-        "descendants": 8,
+        "score": 81,
+        "descendants": 20,
         "time": 1779164979,
         "comments_url": "https://news.ycombinator.com/item?id=48189178"
       },
-      "hot_score": 1.17,
       "tags": [
-        "Programming",
-        "Open Source"
+        "Programming"
+      ],
+      "hot_score": 0.66
+    },
+    {
+      "title_en": "Hyperpolyglot Lisp: Common Lisp, Racket, Clojure, Emacs Lisp",
+      "url": "https://hyperpolyglot.org/lisp",
+      "title_zh": "超多 Lisp 方言：Common Lisp、Racket、Clojure 与 Emacs Lisp",
+      "created_display": "Created: May 18, 2026 / 12:27 PT",
+      "image_url": null,
+      "summary_en": "A survey of the main Lisp dialects—Common Lisp, Racket, Clojure, and Emacs Lisp—highlighting where each shines and where they clash. It covers language design, tooling, ecosystems, and practical tips for choosing or bridging between dialects.",
+      "summary_zh": "文章梳理了常用的 Lisp 方言：Common Lisp、Racket、Clojure 与 Emacs Lisp，比较各自的优势与局限。它讨论了语言设计、开发工具和生态系统，并给出在项目中选择或实现跨方言互操作的实用思路。",
+      "hn": {
+        "id": 48184322,
+        "type": "story",
+        "by": "veqq",
+        "score": 183,
+        "descendants": 42,
+        "time": 1779132445,
+        "comments_url": "https://news.ycombinator.com/item?id=48184322"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 0.62
+    },
+    {
+      "title_en": "Codex-maxxing",
+      "url": "https://jxnl.co/writing/2026/05/10/codex-maxxing/",
+      "title_zh": "Codex-maxxing",
+      "created_display": "Created: May 18, 2026 / 21:24 PT",
+      "image_url": "https://jxnl.co/assets/images/social/writing/2026/05/10/codex-maxxing.png",
+      "summary_en": "An exploration of pushing Codex to its limits, with prompts, workflows, and cost considerations.",
+      "summary_zh": "文章探讨如何充分挖掘 Codex 的能力，包括提示工程、工作流编排，以及对延迟和成本的实际注意事項。",
+      "hn": {
+        "id": 48189156,
+        "type": "story",
+        "by": "dnw",
+        "score": 77,
+        "descendants": 58,
+        "time": 1779164685,
+        "comments_url": "https://news.ycombinator.com/item?id=48189156"
+      },
+      "hot_score": 0.62,
+      "tags": [
+        "AI"
       ]
+    },
+    {
+      "title_en": "AI eats the world (Spring 26) [pdf]",
+      "url": "https://static1.squarespace.com/static/50363cf324ac8e905e7df861/t/6a0af5d0484fbf5fe9a7743e/1779103184855/2026-Spring-AI.pdf",
+      "title_zh": "AI 吃掉了世界（2026 春季版）[PDF]",
+      "created_display": "Created: May 18, 2026 / 05:49 PT",
+      "image_url": null,
+      "summary_en": "A 2026 AI landscape report surveying adoption, risks, and policy implications across industries, offering a snapshot of how AI investments are evolving globally.",
+      "summary_zh": "一份2026年 AI 现状报告，梳理各行业的普及、风险与政策含义，提供全球 AI 投资演变的快照。",
+      "hn": {
+        "id": 48179021,
+        "type": "story",
+        "by": "topherjaynes",
+        "score": 279,
+        "descendants": 151,
+        "time": 1779108568,
+        "comments_url": "https://news.ycombinator.com/item?id=48179021"
+      },
+      "tags": [
+        "AI"
+      ],
+      "hot_score": 0.61
+    },
+    {
+      "title_en": "Minnesota passes the nation's first ban on 'nudification' apps",
+      "url": "https://19thnews.org/2026/04/minnesota-nudification-ban-ai-deepfake/",
+      "title_zh": "明尼苏达州通过全美首个针对裸体化应用的禁令",
+      "created_display": "Created: May 19, 2026 / 09:45 PT",
+      "image_url": null,
+      "summary_en": "Minnesota becomes the first state to ban nudification apps that create explicit deepfakes, illustrating regulatory pushback against AI-generated adult imagery and its societal impacts.",
+      "summary_zh": "明尼苏达州成为美国首个禁止裸体化应用的州，针对 AI 生成的露骨影像等内容进行规制，展示了对其社会影响的监管趋势。",
+      "hn": {
+        "id": 48195794,
+        "type": "story",
+        "by": "laurex",
+        "score": 3,
+        "descendants": 0,
+        "time": 1779209154,
+        "comments_url": "https://news.ycombinator.com/item?id=48195794"
+      },
+      "hot_score": 0.52,
+      "tags": [
+        "Politics",
+        "AI"
+      ]
+    },
+    {
+      "title_en": "My domain got abused on GitHub Pages",
+      "url": "https://meertens.dev/blog/github-enables-domain-abuse/",
+      "title_zh": "我的域名在 GitHub Pages 上被滥用",
+      "created_display": "Created: May 19, 2026 / 00:28 PT",
+      "image_url": "https://meertens.dev/blog/images/2026/05/newowner.png",
+      "summary_en": "A case study of domain abuse enabled via GitHub Pages, describing how misconfigurations or policy gaps allowed attackers to host or impersonate domains, with lessons on security and mitigation.",
+      "summary_zh": "作者分享了在 GitHub Pages 上域名滥用的案例，分析了配置和策略缺口如何被利用，以及对安全和防护的启示与对策。",
+      "hn": {
+        "id": 48190348,
+        "type": "story",
+        "by": "rmeertens",
+        "score": 42,
+        "descendants": 14,
+        "time": 1779175739,
+        "comments_url": "https://news.ycombinator.com/item?id=48190348"
+      },
+      "hot_score": 0.51,
+      "tags": [
+        "Security",
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "Congress Wants You to Pay $130 a Year Just to Drive an Electric Car",
+      "url": "https://insideevs.com/news/796222/ev-fee-gas-tax-house-bill-2026/",
+      "title_zh": "国会拟定每年向电动汽车车主征收130美元",
+      "created_display": "Created: May 19, 2026 / 09:09 PT",
+      "image_url": "https://cdn.motor1.com/images/mgl/eo7l6P/s1/2027-chevrolet-bolt-ev-at-a-tesla-supercharger.jpg",
+      "summary_en": "A House bill would levy a $130 annual fee on electric vehicle owners to fund road maintenance, a move critics say stifles EV adoption and undermines climate goals.",
+      "summary_zh": "一项众议院法案拟对电动汽车车主征收每年130美元的费用，用于公路维护，批评者担心这会抑制电动汽车的普及并影响气候目标。",
+      "hn": {
+        "id": 48195237,
+        "type": "story",
+        "by": "01-_-",
+        "score": 4,
+        "descendants": 1,
+        "time": 1779206949,
+        "comments_url": "https://news.ycombinator.com/item?id=48195237"
+      },
+      "hot_score": 0.49,
+      "tags": [
+        "Politics",
+        "Energy"
+      ]
+    },
+    {
+      "title_en": "1024000^2 Blocks, 2B2T Minecraft Server World Download Project, and Discoveries",
+      "url": "https://github.com/2b2tplace/1m_release",
+      "title_zh": "1024000^2 块、2B2T 世界下载计划及发现",
+      "created_display": "Created: May 18, 2026 / 07:13 PT",
+      "image_url": "https://opengraph.githubassets.com/ec5cc26936ec67ce02cd0b900c2ea79e6f9406b835f7cb9c7f748239ae2342e2/2b2tplace/1m_release",
+      "summary_en": "A project attempting to download the entire 2B2T world with a staggering 1.0e12 blocks reveals the scale of Minecraft's procedurally generated terrain and the challenges of data capture. The effort yields insights into storage, chunking, and network transfer, along with surprising finds from the sprawling map. It underscores the tensions between archival ambition and practical limits.",
+      "summary_zh": "一次企图以约 1 万亿方块规模下载 2B2T 世界的工程暴露了 Minecraft 程序化生成地形的规模与数据捕获的挑战。该工作带来了存储、分块和传输方面的见解，并在庞大地图中发现了有趣的结构与遗迹。它凸显了档案化野心与现实极限之间的张力。",
+      "hn": {
+        "id": 48180204,
+        "type": "story",
+        "by": "exploraz",
+        "score": 169,
+        "descendants": 109,
+        "time": 1779113587,
+        "comments_url": "https://news.ycombinator.com/item?id=48180204"
+      },
+      "tags": [
+        "Gaming",
+        "Data"
+      ],
+      "hot_score": 0.4
+    },
+    {
+      "title_en": "It is time to give up the dualism introduced by the debate on consciousness",
+      "url": "https://www.noemamag.com/there-is-no-hard-problem-of-consciousness/",
+      "title_zh": "放弃意识辩论中引入的二元论",
+      "created_display": "Created: May 17, 2026 / 19:59 PT",
+      "image_url": "https://noemamag.imgix.net/2026/05/Noema_FlorianMeissner_2.jpg?fit=crop&fm=pjpg&h=628&ixlib=php-3.3.1&w=1200&wpsize=noema-social-facebook&s=1967d5f91d8af468ce455230916d2bcd",
+      "summary_en": "Philosophical piece urging readers to drop the traditional mind–body dualism invoked by debates about consciousness. It argues for a monist or non-dual framework that treats consciousness as emergent from physical processes, challenging long-standing dichotomies.",
+      "summary_zh": "本文呼吁放弃在意识辩论中常见的二元论思维，主张以更贴近物理过程的单一框架来理解意识。通过将意识视为物理过程的涌现，挑战长期存在的二分法。",
+      "hn": {
+        "id": 48175140,
+        "type": "story",
+        "by": "ahalbert4",
+        "score": 289,
+        "descendants": 710,
+        "time": 1779073174,
+        "comments_url": "https://news.ycombinator.com/item?id=48175140"
+      },
+      "tags": [
+        "Science"
+      ],
+      "hot_score": 0.38
+    },
+    {
+      "title_en": "Show HN: Hsrs – Type-Safe Haskell Bindings Generator for Rust",
+      "url": "https://github.com/harmont-dev/hsrs",
+      "title_zh": "Show HN：Hsrs – 为 Rust 生成类型安全的 Haskell 绑定",
+      "created_display": "Created: May 18, 2026 / 21:06 PT",
+      "image_url": "https://opengraph.githubassets.com/931137f0dddf8b0fa51497a5aeefbb5d8bd608ae5a3ef402f098c8e677f7e23c/harmont-dev/hsrs",
+      "summary_en": "Show HN: Hsrs is a tool that generates type-safe bindings to bridge Haskell and Rust, reducing FFI pitfalls. It helps developers reuse Haskell logic from Rust apps while preserving type guarantees, reflecting ongoing language interoperability efforts.",
+      "summary_zh": "Show HN：Hsrs 是一个生成 Haskell 与 Rust 之间类型安全绑定的工具，降低外部语言接口的风险。它帮助开发者在 Rust 应用中安全调用 Haskell 代码，维持类型保证，体现跨语言互操作的持续进展。",
+      "hn": {
+        "id": 48189044,
+        "type": "story",
+        "by": "suis_siva",
+        "score": 50,
+        "descendants": 4,
+        "time": 1779163569,
+        "comments_url": "https://news.ycombinator.com/item?id=48189044"
+      },
+      "tags": [
+        "Show HN",
+        "Programming"
+      ],
+      "hot_score": 0.38
+    },
+    {
+      "title_en": "War game exposed U.S. vulnerability to low-tech warfare",
+      "url": "https://nsarchive.gwu.edu/news/2024-11-01/rigged-war-game-exposed-us-vulnerability-low-tech-warfare",
+      "title_zh": "战争游戏暴露美国对低技术战争的脆弱性",
+      "created_display": "Created: May 18, 2026 / 19:25 PT",
+      "image_url": "https://nsarchive.gwu.edu/sites/default/files/2024-11/head-image.jpg",
+      "summary_en": "A declassified war game revealed vulnerabilities to low-tech warfare, with implications for defense planning, resilience, and modernization.",
+      "summary_zh": "一场解密的战争模拟揭示了美国在低技术战争方面的脆弱性，对防务规划、韧性建设与现代化路径具有深远影响。",
+      "hn": {
+        "id": 48188506,
+        "type": "story",
+        "by": "KnuthIsGod",
+        "score": 58,
+        "descendants": 66,
+        "time": 1779157529,
+        "comments_url": "https://news.ycombinator.com/item?id=48188506"
+      },
+      "tags": [
+        "Politics",
+        "Security"
+      ],
+      "hot_score": 0.37
     },
     {
       "title_en": "Apple Silicon costs less than OpenRouter",
@@ -428,100 +991,10 @@
         "time": 1779163311,
         "comments_url": "https://news.ycombinator.com/item?id=48189026"
       },
-      "hot_score": 1.13,
+      "hot_score": 0.37,
       "tags": [
         "Hardware",
         "AI"
-      ]
-    },
-    {
-      "title_en": "Hyperpolyglot Lisp: Common Lisp, Racket, Clojure, Emacs Lisp",
-      "url": "https://hyperpolyglot.org/lisp",
-      "title_zh": "超多 Lisp 方言：Common Lisp、Racket、Clojure 与 Emacs Lisp",
-      "created_display": "Created: May 18, 2026 / 12:27 PT",
-      "image_url": null,
-      "summary_en": "A survey of the main Lisp dialects—Common Lisp, Racket, Clojure, and Emacs Lisp—highlighting where each shines and where they clash. It covers language design, tooling, ecosystems, and practical tips for choosing or bridging between dialects.",
-      "summary_zh": "文章梳理了常用的 Lisp 方言：Common Lisp、Racket、Clojure 与 Emacs Lisp，比较各自的优势与局限。它讨论了语言设计、开发工具和生态系统，并给出在项目中选择或实现跨方言互操作的实用思路。",
-      "hn": {
-        "id": 48184322,
-        "type": "story",
-        "by": "veqq",
-        "score": 158,
-        "descendants": 37,
-        "time": 1779132445,
-        "comments_url": "https://news.ycombinator.com/item?id=48184322"
-      },
-      "tags": [
-        "Programming"
-      ],
-      "hot_score": 1.01
-    },
-    {
-      "title_en": "AI eats the world (Spring 26) [pdf]",
-      "url": "https://static1.squarespace.com/static/50363cf324ac8e905e7df861/t/6a0af5d0484fbf5fe9a7743e/1779103184855/2026-Spring-AI.pdf",
-      "title_zh": "AI 吃掉了世界（2026 春季版）[PDF]",
-      "created_display": "Created: May 18, 2026 / 05:49 PT",
-      "image_url": null,
-      "summary_en": "A 2026 AI landscape report surveying adoption, risks, and policy implications across industries, offering a snapshot of how AI investments are evolving globally.",
-      "summary_zh": "一份2026年 AI 现状报告，梳理各行业的普及、风险与政策含义，提供全球 AI 投资演变的快照。",
-      "hn": {
-        "id": 48179021,
-        "type": "story",
-        "by": "topherjaynes",
-        "score": 228,
-        "descendants": 126,
-        "time": 1779108568,
-        "comments_url": "https://news.ycombinator.com/item?id=48179021"
-      },
-      "tags": [
-        "AI"
-      ],
-      "hot_score": 0.79
-    },
-    {
-      "title_en": "Cursor Introduces Composer 2.5",
-      "url": "https://cursor.com/blog/composer-2-5",
-      "title_zh": "Cursor 推出 Composer 2.5",
-      "created_display": "Created: May 18, 2026 / 10:20 PT",
-      "image_url": "https://pbs.twimg.com/media/HInYLGEbUAMPCxf.png:large",
-      "summary_en": "Cursor released Composer 2.5, adding improvements to the AI agent toolchain, such as better task orchestration, reliability, and debugging. The update helps developers build more capable agents with fewer edge-case issues.",
-      "summary_zh": "Cursor 发布了 Composer 2.5，带来改进的 AI 代理工具链，如更好的任务编排、稳定性与调试能力。更新帮助开发者构建更强大的代理，减少边缘情况问题。",
-      "hn": {
-        "id": 48182516,
-        "type": "story",
-        "by": "asar",
-        "score": 145,
-        "descendants": 105,
-        "time": 1779124843,
-        "comments_url": "https://news.ycombinator.com/item?id=48182516"
-      },
-      "tags": [
-        "AI"
-      ],
-      "hot_score": 0.74
-    },
-    {
-      "title_en": "Show HN: Hsrs – Type-Safe Haskell Bindings Generator for Rust",
-      "url": "https://github.com/harmont-dev/hsrs",
-      "title_zh": "Show HN：Hsrs – 为 Rust 生成类型安全的 Haskell 绑定",
-      "created_display": "Created: May 18, 2026 / 21:06 PT",
-      "image_url": "https://opengraph.githubassets.com/931137f0dddf8b0fa51497a5aeefbb5d8bd608ae5a3ef402f098c8e677f7e23c/harmont-dev/hsrs",
-      "summary_en": "Show HN: Hsrs is a tool that generates type-safe bindings to bridge Haskell and Rust, reducing FFI pitfalls. It helps developers reuse Haskell logic from Rust apps while preserving type guarantees, reflecting ongoing language interoperability efforts.",
-      "summary_zh": "Show HN：Hsrs 是一个生成 Haskell 与 Rust 之间类型安全绑定的工具，降低外部语言接口的风险。它帮助开发者在 Rust 应用中安全调用 Haskell 代码，维持类型保证，体现跨语言互操作的持续进展。",
-      "hn": {
-        "id": 48189044,
-        "type": "story",
-        "by": "suis_siva",
-        "score": 31,
-        "descendants": 2,
-        "time": 1779163569,
-        "comments_url": "https://news.ycombinator.com/item?id=48189044"
-      },
-      "hot_score": 0.73,
-      "tags": [
-        "Show HN",
-        "Programming",
-        "Open Source"
       ]
     },
     {
@@ -544,7 +1017,7 @@
       "tags": [
         "AI"
       ],
-      "hot_score": 0.64
+      "hot_score": 0.35
     },
     {
       "title_en": "Loopmaster – Livecoding Music IDE",
@@ -566,51 +1039,29 @@
       "tags": [
         "Programming"
       ],
-      "hot_score": 0.61
+      "hot_score": 0.33
     },
     {
-      "title_en": "1024000^2 Blocks, 2B2T Minecraft Server World Download Project, and Discoveries",
-      "url": "https://github.com/2b2tplace/1m_release",
-      "title_zh": "1024000^2 块、2B2T 世界下载计划及发现",
-      "created_display": "Created: May 18, 2026 / 07:13 PT",
-      "image_url": "https://opengraph.githubassets.com/ec5cc26936ec67ce02cd0b900c2ea79e6f9406b835f7cb9c7f748239ae2342e2/2b2tplace/1m_release",
-      "summary_en": "A project attempting to download the entire 2B2T world with a staggering 1.0e12 blocks reveals the scale of Minecraft's procedurally generated terrain and the challenges of data capture. The effort yields insights into storage, chunking, and network transfer, along with surprising finds from the sprawling map. It underscores the tensions between archival ambition and practical limits.",
-      "summary_zh": "一次企图以约 1 万亿方块规模下载 2B2T 世界的工程暴露了 Minecraft 程序化生成地形的规模与数据捕获的挑战。该工作带来了存储、分块和传输方面的见解，并在庞大地图中发现了有趣的结构与遗迹。它凸显了档案化野心与现实极限之间的张力。",
+      "title_en": "The quiet renovation at Bitwarden",
+      "url": "https://blog.ppb1701.com/the-quiet-renovation-at-bitwarden",
+      "title_zh": "Bitwarden 的悄然改造",
+      "created_display": "Created: May 16, 2026 / 13:13 PT",
+      "image_url": "https://og.pagecord.com/og?accentColor=%234fbd9c&avatar=https%3A%2F%2Fpagecord.com%2Frails%2Factive_storage%2Frepresentations%2Fredirect%2FeyJfcmFpbHMiOnsiZGF0YSI6MTM4MDUsInB1ciI6ImJsb2JfaWQifX0%3D--3ce614a417fd5c9e8f0be054846bdbf731ad325f%2FeyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fbGltaXQiOls5Niw5Nl19LCJwdXIiOiJ2YXJpYXRpb24ifX0%3D--444b9f41a7151c95bdc8af786749430c0d771f80%2FIMG_3010.jpg&bgColor=%23ffffff&blogTitle=ByteHaven+-+Where+I+ramble+about+bytes&signature=2202b19b483e71d265d82c99013fbc8c510334721c81e97fdf10d21e3c7abf65&textColor=%23334155&title=The+Quiet+Renovation+at+Bitwarden",
+      "summary_en": "Bitwarden is quietly undergoing platform modernization focused on security, reliability, and performance, with changes rolled out gradually rather than flashy features. The overhaul aims to strengthen the password manager’s defenses and scalability while preserving user trust. It illustrates the value of steady engineering for critical security tools.",
+      "summary_zh": "Bitwarden 正在悄然进行平台内部改造，重点提升安全性、可靠性和性能，且改动低调分阶段推出，而非追求炫目新特性。此次升级旨在加强密码管理工具的防护与可扩展性，并维持用户信任。这个案例体现了对关键安全工具进行持续性工程投入的重要性。",
       "hn": {
-        "id": 48180204,
+        "id": 48163389,
         "type": "story",
-        "by": "exploraz",
-        "score": 143,
-        "descendants": 87,
-        "time": 1779113587,
-        "comments_url": "https://news.ycombinator.com/item?id=48180204"
+        "by": "DaSHacka",
+        "score": 639,
+        "descendants": 286,
+        "time": 1778962421,
+        "comments_url": "https://news.ycombinator.com/item?id=48163389"
       },
       "tags": [
-        "Gaming"
+        "Security"
       ],
-      "hot_score": 0.56
-    },
-    {
-      "title_en": "It is time to give up the dualism introduced by the debate on consciousness",
-      "url": "https://www.noemamag.com/there-is-no-hard-problem-of-consciousness/",
-      "title_zh": "放弃意识辩论中引入的二元论",
-      "created_display": "Created: May 17, 2026 / 19:59 PT",
-      "image_url": "https://noemamag.imgix.net/2026/05/Noema_FlorianMeissner_2.jpg?fit=crop&fm=pjpg&h=628&ixlib=php-3.3.1&w=1200&wpsize=noema-social-facebook&s=1967d5f91d8af468ce455230916d2bcd",
-      "summary_en": "Philosophical piece urging readers to drop the traditional mind–body dualism invoked by debates about consciousness. It argues for a monist or non-dual framework that treats consciousness as emergent from physical processes, challenging long-standing dichotomies.",
-      "summary_zh": "本文呼吁放弃在意识辩论中常见的二元论思维，主张以更贴近物理过程的单一框架来理解意识。通过将意识视为物理过程的涌现，挑战长期存在的二分法。",
-      "hn": {
-        "id": 48175140,
-        "type": "story",
-        "by": "ahalbert4",
-        "score": 289,
-        "descendants": 710,
-        "time": 1779073174,
-        "comments_url": "https://news.ycombinator.com/item?id=48175140"
-      },
-      "tags": [
-        "Science"
-      ],
-      "hot_score": 0.53
+      "hot_score": 0.3
     },
     {
       "title_en": "Alignment pretraining: AI discourse creates self-fulfilling (mis)alignment",
@@ -624,61 +1075,15 @@
         "id": 48185938,
         "type": "story",
         "by": "anigbrowl",
-        "score": 56,
-        "descendants": 24,
+        "score": 71,
+        "descendants": 27,
         "time": 1779139753,
         "comments_url": "https://news.ycombinator.com/item?id=48185938"
       },
       "tags": [
         "AI"
       ],
-      "hot_score": 0.45
-    },
-    {
-      "title_en": "Cutting inference cold starts by 40x with LP, FUSE, C/R, and CUDA-checkpoint",
-      "url": "https://modal.com/blog/truly-serverless-gpus",
-      "title_zh": "通过 LP、FUSE、C/R 与 CUDA 检点将推理冷启动加速 40 倍",
-      "created_display": "Created: May 18, 2026 / 10:56 PT",
-      "image_url": "https://modal.com/docs/social-image.png?title=Cutting+inference+cold+starts+by+40x+with+LP%2C+FUSE%2C+C%2FR%2C+and+cuda-checkpoint&socialType=blog",
-      "summary_en": "Modal claims to cut inference cold starts by 40x using a mix of persistence, layer fusion (FUSE), checkpoint/reload (C/R), and CUDA checkpointing. The approach reduces latency for serverless GPU inference, enabling faster bursts and lowering cost for sporadic workloads.",
-      "summary_zh": "Modal 声称通过持久化、层融合（FUSE）、检查点/重载（C/R）以及 CUDA 检点等方法，将推理冷启动时间缩短 40 倍。该方法降低了服务器端无服务器 GPU 推理的启动延迟，有助于应对突发工作负载并降低成本。",
-      "hn": {
-        "id": 48183038,
-        "type": "story",
-        "by": "charles_irl",
-        "score": 81,
-        "descendants": 18,
-        "time": 1779126986,
-        "comments_url": "https://news.ycombinator.com/item?id=48183038"
-      },
-      "tags": [
-        "Hardware",
-        "DevOps"
-      ],
-      "hot_score": 0.44
-    },
-    {
-      "title_en": "LLMCap – A proxy that hard-stops LLM API calls when you hit a dollar cap",
-      "url": "https://www.llmcap.io/",
-      "title_zh": "LLMCap：在达到预算上限时强制阻止 LLM API 调用的代理",
-      "created_display": "Created: May 18, 2026 / 20:56 PT",
-      "image_url": null,
-      "summary_en": "LLMCap is a proxy that enforces a hard stop on LLM API calls once a dollar cap is reached. It helps teams control cloud AI spend and prevent runaway costs, with architecture details and integration considerations for developers and ops teams.",
-      "summary_zh": "LLMCap 是一个代理，当预算达到设定的美元上限后会强制停止对 LLM API 的调用，帮助团队控制云端 AI 开支，避免成本失控。文章还讨论了其架构要点和在开发与运维中的集成考虑。",
-      "hn": {
-        "id": 48188996,
-        "type": "story",
-        "by": "cfaruk",
-        "score": 18,
-        "descendants": 15,
-        "time": 1779163017,
-        "comments_url": "https://news.ycombinator.com/item?id=48188996"
-      },
-      "hot_score": 0.4,
-      "tags": [
-        "Finance",
-        "AI"
-      ]
+      "hot_score": 0.28
     },
     {
       "title_en": "Voice AI Systems Are Vulnerable to Hidden Audio Attacks",
@@ -701,30 +1106,166 @@
         "Security",
         "AI"
       ],
-      "hot_score": 0.39
+      "hot_score": 0.25
     },
     {
-      "title_en": "The quiet renovation at Bitwarden",
-      "url": "https://blog.ppb1701.com/the-quiet-renovation-at-bitwarden",
-      "title_zh": "Bitwarden 的悄然改造",
-      "created_display": "Created: May 16, 2026 / 13:13 PT",
-      "image_url": "https://og.pagecord.com/og?accentColor=%234fbd9c&avatar=https%3A%2F%2Fpagecord.com%2Frails%2Factive_storage%2Frepresentations%2Fredirect%2FeyJfcmFpbHMiOnsiZGF0YSI6MTM4MDUsInB1ciI6ImJsb2JfaWQifX0%3D--3ce614a417fd5c9e8f0be054846bdbf731ad325f%2FeyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fbGltaXQiOls5Niw5Nl19LCJwdXIiOiJ2YXJpYXRpb24ifX0%3D--444b9f41a7151c95bdc8af786749430c0d771f80%2FIMG_3010.jpg&bgColor=%23ffffff&blogTitle=ByteHaven+-+Where+I+ramble+about+bytes&signature=2202b19b483e71d265d82c99013fbc8c510334721c81e97fdf10d21e3c7abf65&textColor=%23334155&title=The+Quiet+Renovation+at+Bitwarden",
-      "summary_en": "Bitwarden is quietly undergoing platform modernization focused on security, reliability, and performance, with changes rolled out gradually rather than flashy features. The overhaul aims to strengthen the password manager’s defenses and scalability while preserving user trust. It illustrates the value of steady engineering for critical security tools.",
-      "summary_zh": "Bitwarden 正在悄然进行平台内部改造，重点提升安全性、可靠性和性能，且改动低调分阶段推出，而非追求炫目新特性。此次升级旨在加强密码管理工具的防护与可扩展性，并维持用户信任。这个案例体现了对关键安全工具进行持续性工程投入的重要性。",
+      "title_en": "Cutting inference cold starts by 40x with LP, FUSE, C/R, and CUDA-checkpoint",
+      "url": "https://modal.com/blog/truly-serverless-gpus",
+      "title_zh": "通过 LP、FUSE、C/R 与 CUDA 检点将推理冷启动加速 40 倍",
+      "created_display": "Created: May 18, 2026 / 10:56 PT",
+      "image_url": "https://modal.com/docs/social-image.png?title=Cutting+inference+cold+starts+by+40x+with+LP%2C+FUSE%2C+C%2FR%2C+and+cuda-checkpoint&socialType=blog",
+      "summary_en": "Modal claims to cut inference cold starts by 40x using a mix of persistence, layer fusion (FUSE), checkpoint/reload (C/R), and CUDA checkpointing. The approach reduces latency for serverless GPU inference, enabling faster bursts and lowering cost for sporadic workloads.",
+      "summary_zh": "Modal 声称通过持久化、层融合（FUSE）、检查点/重载（C/R）以及 CUDA 检点等方法，将推理冷启动时间缩短 40 倍。该方法降低了服务器端无服务器 GPU 推理的启动延迟，有助于应对突发工作负载并降低成本。",
       "hn": {
-        "id": 48163389,
+        "id": 48183038,
         "type": "story",
-        "by": "DaSHacka",
-        "score": 639,
-        "descendants": 286,
-        "time": 1778962421,
-        "comments_url": "https://news.ycombinator.com/item?id=48163389"
+        "by": "charles_irl",
+        "score": 81,
+        "descendants": 18,
+        "time": 1779126986,
+        "comments_url": "https://news.ycombinator.com/item?id=48183038"
       },
       "tags": [
-        "Security",
-        "Open Source"
+        "Programming",
+        "Hardware"
       ],
-      "hot_score": 0.36
+      "hot_score": 0.24
+    },
+    {
+      "title_en": "Tagging Blog Posts with BERTopic and LLMs",
+      "url": "https://vickiboykis.com/2026/05/18/tagging-my-blog-posts-with-bertopic-and-llms/",
+      "title_zh": "用 BERTopic 和大模型给博客文章打标签",
+      "created_display": "Created: May 19, 2026 / 04:30 PT",
+      "image_url": "https://vickiboykis.com/images/blogtags/delicious.jpg",
+      "summary_en": "A blog post experiments with BERTopic and LLM prompts to automatically tag posts, showing a practical approach to combining unsupervised topic modeling with AI-assisted tagging.",
+      "summary_zh": "博主尝试用 BERTopic 与大模型提示为博客文章自动打标签，展示了将无监督主题建模与 AI 辅助标注结合的实用方法。",
+      "hn": {
+        "id": 48191961,
+        "type": "story",
+        "by": "mpbart",
+        "score": 8,
+        "descendants": 0,
+        "time": 1779190201,
+        "comments_url": "https://news.ycombinator.com/item?id=48191961"
+      },
+      "hot_score": 0.19,
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title_en": "Hanoi's humble beer glass and the memory of a nation",
+      "url": "https://sundaylongread.com/2026/05/15/hanois-humble-beer-glass-and-the-memory-of-a-nation/",
+      "title_zh": "河内的朴素啤酒杯与民族记忆",
+      "created_display": "Created: May 18, 2026 / 10:45 PT",
+      "image_url": "https://sundaylongread.com/wp-content/uploads/2026/05/18-1-1024x614.jpeg",
+      "summary_en": "A longform piece uses Hanoi's humble beer glass as a lens to explore Vietnamese memory and national identity, showing how everyday objects can embody collective history.",
+      "summary_zh": "一篇长文以河内朴素的啤酒杯为线索，探讨越南的记忆与国家认同。日常物件如何成为集体历史的载体以及在社会记忆中的作用。",
+      "hn": {
+        "id": 48182872,
+        "type": "story",
+        "by": "NaOH",
+        "score": 62,
+        "descendants": 3,
+        "time": 1779126302,
+        "comments_url": "https://news.ycombinator.com/item?id=48182872"
+      },
+      "hot_score": 0.18,
+      "tags": [
+        "Culture"
+      ]
+    },
+    {
+      "title_en": "An Apple (II) for Teacher",
+      "url": "https://technicshistory.com/2026/05/19/an-apple-ii-for-teacher/",
+      "title_zh": "为教师准备的 Apple II",
+      "created_display": "Created: May 18, 2026 / 17:25 PT",
+      "image_url": "https://technicshistory.com/wp-content/uploads/2026/05/apple-ii-teaching.jpg",
+      "summary_en": "A historical piece recounts how the Apple II became a classroom staple, fueling early computer literacy and transforming teaching practices.",
+      "summary_zh": "文章回溯 Apple II 如何成为教师与学生的教室常用工具，推动早期计算素养的发展并改变教学模式。",
+      "hn": {
+        "id": 48187752,
+        "type": "story",
+        "by": "cfmcdonald",
+        "score": 35,
+        "descendants": 10,
+        "time": 1779150350,
+        "comments_url": "https://news.ycombinator.com/item?id=48187752"
+      },
+      "hot_score": 0.18,
+      "tags": [
+        "Education"
+      ]
+    },
+    {
+      "title_en": "LLMCap – A proxy that hard-stops LLM API calls when you hit a dollar cap",
+      "url": "https://www.llmcap.io/",
+      "title_zh": "LLMCap：在达到预算上限时强制阻止 LLM API 调用的代理",
+      "created_display": "Created: May 18, 2026 / 20:56 PT",
+      "image_url": null,
+      "summary_en": "LLMCap is a proxy that enforces a hard stop on LLM API calls once a dollar cap is reached. It helps teams control cloud AI spend and prevent runaway costs, with architecture details and integration considerations for developers and ops teams.",
+      "summary_zh": "LLMCap 是一个代理，当预算达到设定的美元上限后会强制停止对 LLM API 的调用，帮助团队控制云端 AI 开支，避免成本失控。文章还讨论了其架构要点和在开发与运维中的集成考虑。",
+      "hn": {
+        "id": 48188996,
+        "type": "story",
+        "by": "cfaruk",
+        "score": 18,
+        "descendants": 15,
+        "time": 1779163017,
+        "comments_url": "https://news.ycombinator.com/item?id=48188996"
+      },
+      "hot_score": 0.13,
+      "tags": [
+        "Programming",
+        "DevOps",
+        "AI"
+      ]
+    },
+    {
+      "title_en": "Photo GIMP – A Patch for GIMP 3 for Photoshop Users",
+      "url": "https://github.com/Diolinux/PhotoGIMP",
+      "title_zh": "Photo GIMP：面向 Photoshop 用户的 GIMP 3 补丁",
+      "created_display": "Created: May 17, 2026 / 04:18 PT",
+      "image_url": "https://repository-images.githubusercontent.com/273572029/f6123ad8-c71e-4767-844e-f1fae73181b7",
+      "summary_en": "A patch project aims to bring GIMP 3 closer to Photoshop in UI and features, helping Photoshop users migrate with familiar workflows and color management.",
+      "summary_zh": "该补丁项目致力于让 GIMP 3 在界面、工作流和颜色管理等方面更接近 Photoshop，方便 Photoshop 用户迁移并保持熟悉的工作方式。",
+      "hn": {
+        "id": 48167890,
+        "type": "story",
+        "by": "SockThief",
+        "score": 167,
+        "descendants": 133,
+        "time": 1779016724,
+        "comments_url": "https://news.ycombinator.com/item?id=48167890"
+      },
+      "hot_score": 0.12,
+      "tags": [
+        "Open Source",
+        "Design"
+      ]
+    },
+    {
+      "title_en": "Earth's Radio Bubble: Every signal we've ever sent into space",
+      "url": "https://www.thescientificdrop.com/2026/05/earths-radio-bubble-every-signal-weve.html",
+      "title_zh": "地球的无线电气泡：我们向太空发送的每一个信号",
+      "created_display": "Created: May 18, 2026 / 01:36 PT",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjS_jLTx20qckp3tiMhReB4i90r909JeHG_k1tGMGoBqXIkzgH8-FhPNsr6B8MD0Ejg5bJnzmr-_XDzfswj4MM9_TRvyGLQNcNcRaueEPjmdvanorQuITJ_nMgUDaXR9jKE5isLXQLIfrQB338kwprURKur09fkkh25VlwtFlZMZtXvVp8fpBzBgqJYXz0H/w1200-h630-p-k-no-nu/historical_radio_shells.gif",
+      "summary_en": "Explores Earth's cumulative radio emissions as a global signal budget detectable by distant observers, with implications for SETI and how we monitor our own footprint in space.",
+      "summary_zh": "探讨地球所有无线电辐射的总和如何构成一个对远方观察者可检测的信号预算，并讨论对外星生命搜索与我们在太空中的足迹监测的影响。",
+      "hn": {
+        "id": 48176873,
+        "type": "story",
+        "by": "jonbaer",
+        "score": 70,
+        "descendants": 36,
+        "time": 1779093402,
+        "comments_url": "https://news.ycombinator.com/item?id=48176873"
+      },
+      "tags": [
+        "Space",
+        "Science"
+      ],
+      "hot_score": 0.12
     },
     {
       "title_en": "Show HN: InsForge – Open-source Heroku for coding agents",
@@ -748,30 +1289,76 @@
         "Open Source",
         "Programming"
       ],
-      "hot_score": 0.19
+      "hot_score": 0.12
     },
     {
-      "title_en": "Earth's Radio Bubble: Every signal we've ever sent into space",
-      "url": "https://www.thescientificdrop.com/2026/05/earths-radio-bubble-every-signal-weve.html",
-      "title_zh": "地球的无线电气泡：我们向太空发送的每一个信号",
-      "created_display": "Created: May 18, 2026 / 01:36 PT",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjS_jLTx20qckp3tiMhReB4i90r909JeHG_k1tGMGoBqXIkzgH8-FhPNsr6B8MD0Ejg5bJnzmr-_XDzfswj4MM9_TRvyGLQNcNcRaueEPjmdvanorQuITJ_nMgUDaXR9jKE5isLXQLIfrQB338kwprURKur09fkkh25VlwtFlZMZtXvVp8fpBzBgqJYXz0H/w1200-h630-p-k-no-nu/historical_radio_shells.gif",
-      "summary_en": "Explores Earth's cumulative radio emissions as a global signal budget detectable by distant observers, with implications for SETI and how we monitor our own footprint in space.",
-      "summary_zh": "探讨地球所有无线电辐射的总和如何构成一个对远方观察者可检测的信号预算，并讨论对外星生命搜索与我们在太空中的足迹监测的影响。",
+      "title_en": "I Found Ultra-Pure Quantum Crystals in an Abandoned Mine in the Atacama Desert",
+      "url": "https://medium.com/@breid.at/ultra-pure-quantum-crystals-from-an-abandoned-mine-in-a-mysterious-desert-93cc87d12314",
+      "title_zh": "在阿塔卡马沙漠的废弃矿井中发现超纯量子晶体",
+      "created_display": "Created: May 16, 2026 / 20:25 PT",
+      "image_url": "https://miro.medium.com/v2/resize:fit:786/1*ReF3mNjFvvyzz9pw9aOtsw.png",
+      "summary_en": "Ultra-pure quantum crystals were reportedly found in an abandoned mine in the Atacama Desert, raising questions about material provenance for quantum tech. Such crystals could provide stable substrates for quantum experiments and sensors, but their rarity highlights broader supply-chain challenges in quantum hardware.",
+      "summary_zh": "在阿塔卡马沙漠的废弃矿井里发现超纯量子晶体的经历引发了关于量子技术材料来源的讨论。此类晶体若用于量子比特或高纯度基底，可能提升设备稳定性，但也暴露了极端环境下材料获取与证据记录的重要性。",
       "hn": {
-        "id": 48176873,
+        "id": 48165797,
         "type": "story",
-        "by": "jonbaer",
-        "score": 70,
-        "descendants": 36,
-        "time": 1779093402,
-        "comments_url": "https://news.ycombinator.com/item?id=48176873"
+        "by": "vi_sextus_vi",
+        "score": 200,
+        "descendants": 64,
+        "time": 1778988323,
+        "comments_url": "https://news.ycombinator.com/item?id=48165797"
       },
       "tags": [
-        "Space",
-        "Science"
+        "Science",
+        "Hardware"
       ],
-      "hot_score": 0.18
+      "hot_score": 0.11
+    },
+    {
+      "title_en": "Polypad",
+      "url": "https://polypad.amplify.com/",
+      "title_zh": "Polypad：在线数学绘板",
+      "created_display": "Created: May 17, 2026 / 00:20 PT",
+      "image_url": "https://polypad.amplify.com/images/og-tile.png",
+      "summary_en": "Polypad is an online math sandbox that lets users manipulate tiles, shapes, and equations to explore geometry and algebra interactively. It supports collaborative learning and could serve as a versatile classroom or self-study tool.",
+      "summary_zh": "Polypad 是一个在线数学沙盒工具，提供可拖拽的磁砖、几何形状和方程等，便于师生在浏览器中进行协作式、动手式的数学探索。它体现了教育科技在浏览器端提供直观学习体验的趋势。",
+      "hn": {
+        "id": 48166744,
+        "type": "story",
+        "by": "ivank",
+        "score": 174,
+        "descendants": 18,
+        "time": 1779002414,
+        "comments_url": "https://news.ycombinator.com/item?id=48166744"
+      },
+      "tags": [
+        "Education",
+        "Web"
+      ],
+      "hot_score": 0.11
+    },
+    {
+      "title_en": "Two computers, one monitor, zero fiddling (2025)",
+      "url": "https://alexplescan.com/posts/2025/08/16/kvm/",
+      "title_zh": "两台电脑，一块显示器，零干扰切换（2025）",
+      "created_display": "Created: May 15, 2026 / 19:13 PT",
+      "image_url": null,
+      "summary_en": "A KVM-based setup lets you share a single monitor between two computers with seamless switching and minimal fuss.",
+      "summary_zh": "基于 KVM 的设置实现两台电脑共用一个显示器，切换无感、使用成本极低。文章给出优化双机工作流的实用技巧，包括键鼠共享及潜在的延迟权衡。",
+      "hn": {
+        "id": 48156186,
+        "type": "story",
+        "by": "ankitg12",
+        "score": 252,
+        "descendants": 140,
+        "time": 1778897599,
+        "comments_url": "https://news.ycombinator.com/item?id=48156186"
+      },
+      "tags": [
+        "Hardware",
+        "Programming"
+      ],
+      "hot_score": 0.08
     },
     {
       "title_en": "Designing an FPGA Calculator from Scratch",
@@ -792,31 +1379,9 @@
       },
       "tags": [
         "Hardware",
-        "Design"
+        "Programming"
       ],
-      "hot_score": 0.1
-    },
-    {
-      "title_en": "Two computers, one monitor, zero fiddling (2025)",
-      "url": "https://alexplescan.com/posts/2025/08/16/kvm/",
-      "title_zh": "两台电脑，一块显示器，零干扰切换（2025）",
-      "created_display": "Created: May 15, 2026 / 19:13 PT",
-      "image_url": null,
-      "summary_en": "A KVM-based setup lets you share a single monitor between two computers with seamless switching and minimal fuss.",
-      "summary_zh": "基于 KVM 的设置实现两台电脑共用一个显示器，切换无感、使用成本极低。文章给出优化双机工作流的实用技巧，包括键鼠共享及潜在的延迟权衡。",
-      "hn": {
-        "id": 48156186,
-        "type": "story",
-        "by": "ankitg12",
-        "score": 217,
-        "descendants": 127,
-        "time": 1778897599,
-        "comments_url": "https://news.ycombinator.com/item?id=48156186"
-      },
-      "tags": [
-        "Hardware"
-      ],
-      "hot_score": 0.08
+      "hot_score": 0.07
     },
     {
       "title_en": "What Is Date:Italy?",
@@ -836,9 +1401,33 @@
         "comments_url": "https://news.ycombinator.com/item?id=48162157"
       },
       "tags": [
-        "Data"
+        "Data",
+        "Culture"
       ],
-      "hot_score": 0.08
+      "hot_score": 0.06
+    },
+    {
+      "title_en": "Kv4p HT – A homebrew 1W radio (VHF or UHF) that plugs into an Android phone",
+      "url": "https://www.kv4p.com/",
+      "title_zh": "Kv4p HT – 可以插入 Android 手机的自制 1W 无线电（VHF/UHF）",
+      "created_display": "Created: May 16, 2026 / 09:49 PT",
+      "image_url": "https://www.kv4p.com/img/icon-lg-light.png",
+      "summary_en": "Kv4p HT is a DIY handheld transceiver delivering about 1 watt, designed to plug into an Android phone. The project showcases a compact, open hardware approach to mobile amateur radio and raises considerations about licensing, shielding, and usability.",
+      "summary_zh": "Kv4p HT 是一个自制的手持发射机，功率约为 1 瓦，设计为可直接连接 Android 手机使用。该项目体现了面向移动业余无线电的紧凑开放硬件思路，同时引发对许可证、屏蔽与易用性等问题的思考。",
+      "hn": {
+        "id": 48161772,
+        "type": "story",
+        "by": "krupan",
+        "score": 141,
+        "descendants": 59,
+        "time": 1778950155,
+        "comments_url": "https://news.ycombinator.com/item?id=48161772"
+      },
+      "tags": [
+        "Open Source",
+        "Hardware"
+      ],
+      "hot_score": 0.06
     },
     {
       "title_en": "The Fil-C Optimized Calling Convention",
@@ -860,7 +1449,7 @@
       "tags": [
         "Programming"
       ],
-      "hot_score": 0.07
+      "hot_score": 0.06
     },
     {
       "title_en": "Anyone on the Internet Can Ring Your Doorbell",
@@ -874,8 +1463,8 @@
         "id": 48165944,
         "type": "story",
         "by": "jrdres",
-        "score": 103,
-        "descendants": 67,
+        "score": 112,
+        "descendants": 82,
         "time": 1778990362,
         "comments_url": "https://news.ycombinator.com/item?id=48165944"
       },
@@ -883,7 +1472,7 @@
         "Privacy",
         "Security"
       ],
-      "hot_score": 0.07
+      "hot_score": 0.06
     },
     {
       "title_en": "Coding on Paper",
@@ -903,33 +1492,32 @@
         "comments_url": "https://news.ycombinator.com/item?id=48168761"
       },
       "tags": [
-        "Education",
-        "Programming"
+        "Education"
       ],
-      "hot_score": 0.07
+      "hot_score": 0.06
     },
     {
-      "title_en": "Kv4p HT – A homebrew 1W radio (VHF or UHF) that plugs into an Android phone",
-      "url": "https://www.kv4p.com/",
-      "title_zh": "Kv4p HT – 可以插入 Android 手机的自制 1W 无线电（VHF/UHF）",
-      "created_display": "Created: May 16, 2026 / 09:49 PT",
-      "image_url": "https://www.kv4p.com/img/icon-lg-light.png",
-      "summary_en": "Kv4p HT is a DIY handheld transceiver delivering about 1 watt, designed to plug into an Android phone. The project showcases a compact, open hardware approach to mobile amateur radio and raises considerations about licensing, shielding, and usability.",
-      "summary_zh": "Kv4p HT 是一个自制的手持发射机，功率约为 1 瓦，设计为可直接连接 Android 手机使用。该项目体现了面向移动业余无线电的紧凑开放硬件思路，同时引发对许可证、屏蔽与易用性等问题的思考。",
+      "title_en": "The lasting influence of Netscape Time",
+      "url": "https://thehistoryoftheweb.com/the-lasting-influence-of-netscape-time/",
+      "title_zh": "Netscape Time 的持久影响",
+      "created_display": "Created: May 16, 2026 / 18:22 PT",
+      "image_url": "https://ik.imagekit.io/aoi3fgebjgr/wp-content/uploads/2026/05/netscape-navigator-1-0-01.png",
+      "summary_en": "An analysis of how Netscape's early web era set lasting molds for the Internet economy—browser wars, rapid feature cycles, and open web ethos. The piece argues that the Netscape moment seeded practices around product iteration, open standards, and venture-backed scale that still shape tech firms today.",
+      "summary_zh": "文章回顾早期网景时期对互联网经济的长期影响——浏览器之争、快速迭代、开放网络精神等。作者认为这段历史奠定了产品迭代、开放标准和风险资本驱动扩张等做法，至今影响着科技公司的运作方式。",
       "hn": {
-        "id": 48161772,
+        "id": 48165283,
         "type": "story",
-        "by": "krupan",
-        "score": 94,
-        "descendants": 31,
-        "time": 1778950155,
-        "comments_url": "https://news.ycombinator.com/item?id=48161772"
+        "by": "zdw",
+        "score": 85,
+        "descendants": 24,
+        "time": 1778980977,
+        "comments_url": "https://news.ycombinator.com/item?id=48165283"
       },
-      "hot_score": 0.05,
       "tags": [
-        "Hardware",
-        "Open Source"
-      ]
+        "Web",
+        "Business"
+      ],
+      "hot_score": 0.05
     },
     {
       "title_en": "When can the C++ compiler devirtualize a call?",
@@ -951,30 +1539,52 @@
       "tags": [
         "Programming"
       ],
-      "hot_score": 0.05
+      "hot_score": 0.04
     },
     {
-      "title_en": "Polypad",
-      "url": "https://polypad.amplify.com/",
-      "title_zh": "Polypad：在线数学绘板",
-      "created_display": "Created: May 17, 2026 / 00:20 PT",
-      "image_url": "https://polypad.amplify.com/images/og-tile.png",
-      "summary_en": "Polypad is an online math sandbox that lets users manipulate tiles, shapes, and equations to explore geometry and algebra interactively. It supports collaborative learning and could serve as a versatile classroom or self-study tool.",
-      "summary_zh": "Polypad 是一个在线数学沙盒工具，提供可拖拽的磁砖、几何形状和方程等，便于师生在浏览器中进行协作式、动手式的数学探索。它体现了教育科技在浏览器端提供直观学习体验的趋势。",
+      "title_en": "Show HN: Number Gacha, a gacha game distilled to its essence",
+      "url": "https://isabisabel.com/gacha/",
+      "title_zh": "Show HN：Number Gacha，一款被简化到本质的扭蛋游戏",
+      "created_display": "Created: May 13, 2026 / 08:39 PT",
+      "image_url": "https://isabisabel.com/gacha/preview.png",
+      "summary_en": "Showcases Number Gacha, a gacha game distilled to its essence with a focus on numeric mechanics. The project demonstrates how minimalistic design can still deliver engaging gamified behavior.",
+      "summary_zh": "展示了一款以数字为核心、极简设计的扭蛋游戏，强调用最小化的设计实现有趣的玩法。",
       "hn": {
-        "id": 48166744,
+        "id": 48123359,
         "type": "story",
-        "by": "ivank",
-        "score": 58,
-        "descendants": 6,
-        "time": 1779002414,
-        "comments_url": "https://news.ycombinator.com/item?id=48166744"
+        "by": "babel16",
+        "score": 220,
+        "descendants": 110,
+        "time": 1778686781,
+        "comments_url": "https://news.ycombinator.com/item?id=48123359"
       },
-      "hot_score": 0.05,
       "tags": [
-        "Education",
-        "Web"
-      ]
+        "Show HN",
+        "Gaming"
+      ],
+      "hot_score": 0.03
+    },
+    {
+      "title_en": "Regex Chess: A 2-ply minimax chess engine in 84,688 regular expressions",
+      "url": "https://nicholas.carlini.com/writing/2025/regex-chess.html",
+      "title_zh": "正则棋：84,688 个正则表达式实现的两步极小极大棋引擎",
+      "created_display": "Created: May 14, 2026 / 08:30 PT",
+      "image_url": null,
+      "summary_en": "Describes a playful experiment encoding a chess engine's decisions entirely in regular expressions, achieving a 2-ply minimax with a massive base of rules. It highlights creativity at the edge of practicality and invites reflection on representation versus performance.",
+      "summary_zh": "描述一个用大量正则表达式实现棋局决策的玩趣实验，凭借庞大的规则库实现了两步极小极大搜索。此举凸显了创意在实用性边界的边缘，以及对表示法与性能权衡的思考。",
+      "hn": {
+        "id": 48136909,
+        "type": "story",
+        "by": "surprisetalk",
+        "score": 162,
+        "descendants": 46,
+        "time": 1778772636,
+        "comments_url": "https://news.ycombinator.com/item?id=48136909"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 0.03
     },
     {
       "title_en": "The Futility of Lava Lamps: What Random Means",
@@ -996,96 +1606,51 @@
       "tags": [
         "Science"
       ],
-      "hot_score": 0.04
+      "hot_score": 0.03
     },
     {
-      "title_en": "Show HN: Number Gacha, a gacha game distilled to its essence",
-      "url": "https://isabisabel.com/gacha/",
-      "title_zh": "Show HN：Number Gacha，一款被简化到本质的扭蛋游戏",
-      "created_display": "Created: May 13, 2026 / 08:39 PT",
-      "image_url": "https://isabisabel.com/gacha/preview.png",
-      "summary_en": "Showcases Number Gacha, a gacha game distilled to its essence with a focus on numeric mechanics. The project demonstrates how minimalistic design can still deliver engaging gamified behavior.",
-      "summary_zh": "展示了一款以数字为核心、极简设计的扭蛋游戏，强调用最小化的设计实现有趣的玩法。",
+      "title_en": "Nim-Presto – REST API Framework for Nim Language",
+      "url": "https://github.com/status-im/nim-presto",
+      "title_zh": "Nim-Presto：Nim 语言的 REST API 框架",
+      "created_display": "Created: May 17, 2026 / 06:09 PT",
+      "image_url": "https://opengraph.githubassets.com/fbe969384b63fe247877aded56e05df2a2f57a0e1080cceca9dfdc0a1de27766/status-im/nim-presto",
+      "summary_en": "Nim-Presto offers a REST API framework for Nim, aiming to simplify building robust services with Nim while providing middleware support and performance-oriented features.",
+      "summary_zh": "Nim-Presto 提供 Nim 语言的 REST API 框架，目标是让使用 Nim 构建微服务更简单高效，并包含中间件支持和高性能特性。",
       "hn": {
-        "id": 48123359,
+        "id": 48168610,
         "type": "story",
-        "by": "babel16",
-        "score": 151,
-        "descendants": 61,
-        "time": 1778686781,
-        "comments_url": "https://news.ycombinator.com/item?id=48123359"
+        "by": "TheWiggles",
+        "score": 45,
+        "descendants": 8,
+        "time": 1779023360,
+        "comments_url": "https://news.ycombinator.com/item?id=48168610"
       },
-      "tags": [
-        "Show HN",
-        "Gaming"
-      ],
-      "hot_score": 0.02
-    },
-    {
-      "title_en": "Regex Chess: A 2-ply minimax chess engine in 84,688 regular expressions",
-      "url": "https://nicholas.carlini.com/writing/2025/regex-chess.html",
-      "title_zh": "正则棋：84,688 个正则表达式实现的两步极小极大棋引擎",
-      "created_display": "Created: May 14, 2026 / 08:30 PT",
-      "image_url": null,
-      "summary_en": "Describes a playful experiment encoding a chess engine's decisions entirely in regular expressions, achieving a 2-ply minimax with a massive base of rules. It highlights creativity at the edge of practicality and invites reflection on representation versus performance.",
-      "summary_zh": "描述一个用大量正则表达式实现棋局决策的玩趣实验，凭借庞大的规则库实现了两步极小极大搜索。此举凸显了创意在实用性边界的边缘，以及对表示法与性能权衡的思考。",
-      "hn": {
-        "id": 48136909,
-        "type": "story",
-        "by": "surprisetalk",
-        "score": 120,
-        "descendants": 24,
-        "time": 1778772636,
-        "comments_url": "https://news.ycombinator.com/item?id=48136909"
-      },
+      "hot_score": 0.03,
       "tags": [
         "Programming"
-      ],
-      "hot_score": 0.02
-    },
-    {
-      "title_en": "The lasting influence of Netscape Time",
-      "url": "https://thehistoryoftheweb.com/the-lasting-influence-of-netscape-time/",
-      "title_zh": "Netscape Time 的持久影响",
-      "created_display": "Created: May 16, 2026 / 18:22 PT",
-      "image_url": "https://ik.imagekit.io/aoi3fgebjgr/wp-content/uploads/2026/05/netscape-navigator-1-0-01.png",
-      "summary_en": "An analysis of how Netscape's early web era set lasting molds for the Internet economy—browser wars, rapid feature cycles, and open web ethos. The piece argues that the Netscape moment seeded practices around product iteration, open standards, and venture-backed scale that still shape tech firms today.",
-      "summary_zh": "文章回顾早期网景时期对互联网经济的长期影响——浏览器之争、快速迭代、开放网络精神等。作者认为这段历史奠定了产品迭代、开放标准和风险资本驱动扩张等做法，至今影响着科技公司的运作方式。",
-      "hn": {
-        "id": 48165283,
-        "type": "story",
-        "by": "zdw",
-        "score": 25,
-        "descendants": 7,
-        "time": 1778980977,
-        "comments_url": "https://news.ycombinator.com/item?id=48165283"
-      },
-      "hot_score": 0.02,
-      "tags": [
-        "Culture",
-        "Web"
       ]
     },
     {
-      "title_en": "Make ZIP files smaller with ZIP Shrinker",
-      "url": "https://evanhahn.com/make-zip-files-smaller-with-zip-shrinker/",
-      "title_zh": "用 ZIP Shrinker 让 ZIP 文件更小",
-      "created_display": "Created: May 16, 2026 / 17:26 PT",
-      "image_url": "https://evanhahn.com/images/logo_white.png",
-      "summary_en": "ZIP Shrinker is a tool to shrink ZIP archives beyond typical compression by re-packaging and removing metadata, achieving smaller file sizes for backups or distribution. The piece likely covers techniques, trade-offs, and practical tips for preserving data integrity.",
-      "summary_zh": "ZIP Shrinker 是一个通过重新打包与移除元数据等方式，进一步压缩 ZIP 存档的工具，适用于备份与分发。文章讨论了实现原理、取舍以及保持数据完整性的实践建议。",
+      "title_en": "Intro to TLA+ for the LLM Era: Prompt Your Way to Victory",
+      "url": "https://emptysqua.re/blog/intro-to-tla-plus-for-the-llm-era/",
+      "title_zh": "面向 LLM 时代的 TLA+ 入门：通过提示取胜",
+      "created_display": "Created: May 17, 2026 / 08:52 PT",
+      "image_url": "https://emptysqua.re/blog/intro-to-tla-plus-for-the-llm-era/robot-square.jpg",
+      "summary_en": "The piece shows how formal methods like TLA+ can be used with prompts in the LLM era to model and verify correctness properties, helping build more reliable AI-enabled systems.",
+      "summary_zh": "文章介绍在 LLM 时代如何把 TLA+ 等形式化方法与提示相结合，用以建模和验证正确性属性，从而提升 AI 系统的可靠性。",
       "hn": {
-        "id": 48165030,
+        "id": 48170007,
         "type": "story",
         "by": "zdw",
-        "score": 25,
-        "descendants": 8,
-        "time": 1778977564,
-        "comments_url": "https://news.ycombinator.com/item?id=48165030"
+        "score": 39,
+        "descendants": 10,
+        "time": 1779033141,
+        "comments_url": "https://news.ycombinator.com/item?id=48170007"
       },
-      "hot_score": 0.02,
+      "hot_score": 0.03,
       "tags": [
-        "Programming"
+        "Programming",
+        "AI"
       ]
     },
     {
@@ -1111,26 +1676,25 @@
       ]
     },
     {
-      "title_en": "I Found Ultra-Pure Quantum Crystals in an Abandoned Mine in the Atacama Desert",
-      "url": "https://medium.com/@breid.at/ultra-pure-quantum-crystals-from-an-abandoned-mine-in-a-mysterious-desert-93cc87d12314",
-      "title_zh": "在阿塔卡马沙漠的废弃矿井中发现超纯量子晶体",
-      "created_display": "Created: May 16, 2026 / 20:25 PT",
-      "image_url": "https://miro.medium.com/v2/resize:fit:786/1*ReF3mNjFvvyzz9pw9aOtsw.png",
-      "summary_en": "Ultra-pure quantum crystals were reportedly found in an abandoned mine in the Atacama Desert, raising questions about material provenance for quantum tech. Such crystals could provide stable substrates for quantum experiments and sensors, but their rarity highlights broader supply-chain challenges in quantum hardware.",
-      "summary_zh": "在阿塔卡马沙漠的废弃矿井里发现超纯量子晶体的经历引发了关于量子技术材料来源的讨论。此类晶体若用于量子比特或高纯度基底，可能提升设备稳定性，但也暴露了极端环境下材料获取与证据记录的重要性。",
+      "title_en": "Make ZIP files smaller with ZIP Shrinker",
+      "url": "https://evanhahn.com/make-zip-files-smaller-with-zip-shrinker/",
+      "title_zh": "用 ZIP Shrinker 让 ZIP 文件更小",
+      "created_display": "Created: May 16, 2026 / 17:26 PT",
+      "image_url": "https://evanhahn.com/images/logo_white.png",
+      "summary_en": "ZIP Shrinker is a tool to shrink ZIP archives beyond typical compression by re-packaging and removing metadata, achieving smaller file sizes for backups or distribution. The piece likely covers techniques, trade-offs, and practical tips for preserving data integrity.",
+      "summary_zh": "ZIP Shrinker 是一个通过重新打包与移除元数据等方式，进一步压缩 ZIP 存档的工具，适用于备份与分发。文章讨论了实现原理、取舍以及保持数据完整性的实践建议。",
       "hn": {
-        "id": 48165797,
+        "id": 48165030,
         "type": "story",
-        "by": "vi_sextus_vi",
-        "score": 20,
-        "descendants": 1,
-        "time": 1778988323,
-        "comments_url": "https://news.ycombinator.com/item?id=48165797"
+        "by": "zdw",
+        "score": 25,
+        "descendants": 8,
+        "time": 1778977564,
+        "comments_url": "https://news.ycombinator.com/item?id=48165030"
       },
       "hot_score": 0.01,
       "tags": [
-        "Science",
-        "Hardware"
+        "Programming"
       ]
     },
     {
