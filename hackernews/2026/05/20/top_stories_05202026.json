@@ -1,0 +1,1154 @@
+{
+  "meta": {
+    "mode": "top",
+    "source": "https://news.ycombinator.com/",
+    "api": "https://github.com/HackerNews/API",
+    "count_requested": 50,
+    "count_written": 50,
+    "reused_same_day": 0,
+    "reused_cross_day": 34,
+    "new_llm_enriched": 16,
+    "scrape_time_display": "02:46, May 20, 2026 (PDT)",
+    "timezone": "America/Los_Angeles",
+    "date_dir": "2026/05/20",
+    "content_date": "2026-05-20",
+    "run_time_local": "02:46, May 20, 2026 (PDT)",
+    "run_time_utc": "2026-05-20 09:46:46 UTC",
+    "incremental": true,
+    "stories_max": 100,
+    "hot_score_time_utc": "2026-05-20 09:47:58 UTC"
+  },
+  "items": [
+    {
+      "title_en": "Everything in C is undefined behavior",
+      "url": "https://blog.habets.se/2026/05/Everything-in-C-is-undefined-behavior.html",
+      "title_zh": "C 语言中的一切都是未定义行为",
+      "created_display": "Created: May 19, 2026 / 23:07 PT",
+      "image_url": null,
+      "summary_en": "The post argues that C's undefined behavior is pervasive, undermining safety and portability. It explains risk examples and why developers should write safer code or adopt safer languages and tooling.",
+      "summary_zh": "博文指出，C 语言中的未定义行为无处不在，严重影响安全性和可移植性。文章通过实例说明 UB 的风险，建议开发者采用更严格的写法或转向更安全的语言与工具来降低风险。",
+      "hn": {
+        "id": 48203698,
+        "type": "story",
+        "by": "lycopodiopsida",
+        "score": 172,
+        "descendants": 183,
+        "time": 1779257242,
+        "comments_url": "https://news.ycombinator.com/item?id=48203698"
+      },
+      "hot_score": 7.51,
+      "tags": [
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "Incident Report: Railway Blocked by Google Cloud (Resolved)",
+      "url": "https://blog.railway.com/p/incident-report-may-19-2026-gcp-account-outage",
+      "title_zh": "铁路因 Google Cloud 阻塞",
+      "created_display": "Created: May 19, 2026 / 17:23 PT",
+      "image_url": "https://status.railway.com/og.png",
+      "summary_en": "A Google Cloud outage temporarily blocks Railway's platform, disrupting deployments and status visibility for users relying on their hosting services. This incident underscores how dependent development tools and infrastructure are on cloud providers, highlighting the need for resilience strategies like multi-cloud or regional failovers.",
+      "summary_zh": "Google Cloud 的故障暂时阻塞了 Railway 平台，影响使用其托管服务的开发者的部署和状态查询。此事件凸显了开发工具和基础设施对云服务的高度依赖，强调需要通过多云或区域性故障转移等方式提升韧性。",
+      "hn": {
+        "id": 48201484,
+        "type": "story",
+        "by": "aarondf",
+        "score": 474,
+        "descendants": 301,
+        "time": 1779236634,
+        "comments_url": "https://news.ycombinator.com/item?id=48201484"
+      },
+      "tags": [
+        "DevOps"
+      ],
+      "hot_score": 5.92
+    },
+    {
+      "title_en": "I’ve joined Anthropic",
+      "url": "https://twitter.com/karpathy/status/2056753169888334312",
+      "title_zh": "我已加入 Anthropic",
+      "created_display": "Created: May 19, 2026 / 08:07 PT",
+      "image_url": "https://pbs.twimg.com/profile_images/1296667294148382721/9Pr6XrPB_200x200.jpg",
+      "summary_en": "Renowned AI researcher Andrej Karpathy announces joining Anthropic, signaling a strengthening push toward safety and alignment work at the company. The move highlights ongoing talent shifts among leading AI labs and could influence future research directions.",
+      "summary_zh": "知名 AI 研究者安德烈·卡帕蒂宣布加入 Anthropic，表明公司在安全与对齐方向的投入在加大。此举反映出顶尖 AI 研究机构之间的人才流动，并可能影响未来的研究方向。",
+      "hn": {
+        "id": 48194352,
+        "type": "story",
+        "by": "dmarcos",
+        "score": 1317,
+        "descendants": 557,
+        "time": 1779203265,
+        "comments_url": "https://news.ycombinator.com/item?id=48194352"
+      },
+      "tags": [
+        "AI"
+      ],
+      "hot_score": 5.64
+    },
+    {
+      "title_en": "GitHub is investigating unauthorized access to their internal repositories",
+      "url": "https://twitter.com/github/status/2056884788179726685",
+      "title_zh": "GitHub 正在调查对内部仓库的未经授权访问",
+      "created_display": "Created: May 19, 2026 / 17:01 PT",
+      "image_url": "https://pbs.twimg.com/profile_images/2051404708766507008/ATxxTJXO_200x200.jpg",
+      "summary_en": "GitHub is investigating unauthorized access to its internal repositories, with potential exposure of sensitive code. The incident emphasizes ongoing security vigilance and the need for strong access controls and routine secret rotation.",
+      "summary_zh": "GitHub 正在调查对内部仓库的未经授权访问，可能暴露敏感代码。此事凸显持续的安全警戒需求以及强化访问控制与密钥轮换的必要性。",
+      "hn": {
+        "id": 48201316,
+        "type": "story",
+        "by": "splenditer",
+        "score": 437,
+        "descendants": 225,
+        "time": 1779235278,
+        "comments_url": "https://news.ycombinator.com/item?id=48201316"
+      },
+      "tags": [
+        "Security",
+        "Programming"
+      ],
+      "hot_score": 5.15
+    },
+    {
+      "title_en": "Gemini 3.5 Flash",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
+      "title_zh": "Gemini 3.5 闪速版",
+      "created_display": "Created: May 19, 2026 / 10:43 PT",
+      "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-5__keywordstatement__metacard__light.width-1300.png",
+      "summary_en": "Google unveils Gemini 3.5 Flash, a speed-optimized variant in the Gemini family aimed at faster inference and snappier tool use in real-world apps. The update underscores Google's push to edge AI speed and integration, signaling that latency remains a key performance lever even as models grow larger.",
+      "summary_zh": "谷歌推出 Gemini 3.5 闪速版，聚焦推理速度与工具使用体验的优化。此举凸显谷歌在提升 AI 响应性和系统集成方面的持续投入，说明在大模型时代，延迟仍是重要的性能指标。",
+      "hn": {
+        "id": 48196570,
+        "type": "story",
+        "by": "spectraldrift",
+        "score": 778,
+        "descendants": 551,
+        "time": 1779212625,
+        "comments_url": "https://news.ycombinator.com/item?id=48196570"
+      },
+      "tags": [
+        "AI"
+      ],
+      "hot_score": 4.24
+    },
+    {
+      "title_en": "Minnesota becomes first state to ban prediction markets",
+      "url": "https://www.npr.org/2026/05/19/nx-s1-5821265/minnesota-ban-prediction-markets",
+      "title_zh": "明尼苏达成为首个禁止预测市场的州",
+      "created_display": "Created: May 19, 2026 / 12:13 PT",
+      "image_url": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4000x2250+0+170/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F20%2F8e%2Fd3b2b95e482fb859a4662dadf81d%2Fap26048635918644.jpg",
+      "summary_en": "Minnesota becomes the first state to ban prediction markets, raising questions about regulation of forecasting tools and their use in economics, research, and AI-enabled decision making. The move may inspire other states to reconsider such markets.",
+      "summary_zh": "明尼苏达成为首个禁止预测市场的州，引发对预测工具在经济研究和 AI 驱动决策中的监管问题的讨论。此举可能促使其他州重新评估此类市场。",
+      "hn": {
+        "id": 48197980,
+        "type": "story",
+        "by": "ortusdux",
+        "score": 652,
+        "descendants": 200,
+        "time": 1779218006,
+        "comments_url": "https://news.ycombinator.com/item?id=48197980"
+      },
+      "tags": [
+        "Politics",
+        "AI"
+      ],
+      "hot_score": 4.15
+    },
+    {
+      "title_en": "I’ve built a virtual museum with nearly every operating system you can think of",
+      "url": "https://virtualosmuseum.org/",
+      "title_zh": "我用几乎所有你能想到的操作系统搭建了一个虚拟博物馆",
+      "created_display": "Created: May 19, 2026 / 08:53 PT",
+      "image_url": "https://virtualosmuseum.org/images/front_page/0.%20Launcher%20main%20window.png",
+      "summary_en": "A personal project curates a virtual museum of operating systems across history, spanning from legacy to modern platforms. It combines emulation, demos, and documentation to preserve software heritage and let readers compare how OS design evolved.",
+      "summary_zh": "一个个人项目把各式各样的操作系统整理成一个虚拟博物馆。它通过仿真、演示和文档，帮助保存软件历史并让用户比较不同操作系统的设计演进。",
+      "hn": {
+        "id": 48195009,
+        "type": "story",
+        "by": "andreww591",
+        "score": 771,
+        "descendants": 171,
+        "time": 1779206018,
+        "comments_url": "https://news.ycombinator.com/item?id=48195009"
+      },
+      "tags": [
+        "Education"
+      ],
+      "hot_score": 3.53
+    },
+    {
+      "title_en": "Google changes its search box",
+      "url": "https://blog.google/products-and-platforms/products/search/search-io-2026/",
+      "title_zh": "谷歌改造搜索框",
+      "created_display": "Created: May 19, 2026 / 11:34 PT",
+      "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Search_AI_and_search_engine_v46_16x9_1.width-1300.jpg",
+      "summary_en": "Google previews a redesigned search box at IO 2026, signaling a shift toward faster input, cleaner UX, and deeper AI-assisted results. The move could reshape how users interact with search and how developers build on top of Google's search features.",
+      "summary_zh": "谷歌在 IO 2026 展示了重新设计的搜索框，标志着在更快输入、简洁用户体验和更深的 AI 辅助结果方面的改进。此举可能改变用户与搜索的互动方式，也影响开发者在谷歌搜索生态上的构建。",
+      "hn": {
+        "id": 48197370,
+        "type": "story",
+        "by": "berkeleyjunk",
+        "score": 546,
+        "descendants": 722,
+        "time": 1779215667,
+        "comments_url": "https://news.ycombinator.com/item?id=48197370"
+      },
+      "tags": [
+        "Web",
+        "AI"
+      ],
+      "hot_score": 3.25
+    },
+    {
+      "title_en": "FiveThirtyEight articles on the Internet Archive",
+      "url": "https://fivethirtyeightindex.com/",
+      "title_zh": "FiveThirtyEight 的文章被放进互联网档案馆",
+      "created_display": "Created: May 19, 2026 / 18:34 PT",
+      "image_url": "https://fivethirtyeightindex.com/abacus.png",
+      "summary_en": "FiveThirtyEight articles are being archived by the Internet Archive, ensuring long-term access even if the original site changes. This supports reproducibility and historical analysis in data journalism, while raising questions about licensing and reuse.",
+      "summary_zh": "FiveThirtyEight 的文章被互联网档案馆长期存档，即使原站点发生变化也能访问。这有助于数据新闻的可复现性与历史分析，同时引发关于许可与再利用的讨论。",
+      "hn": {
+        "id": 48201973,
+        "type": "story",
+        "by": "ChocMontePy",
+        "score": 200,
+        "descendants": 45,
+        "time": 1779240859,
+        "comments_url": "https://news.ycombinator.com/item?id=48201973"
+      },
+      "tags": [
+        "Data"
+      ],
+      "hot_score": 3.03
+    },
+    {
+      "title_en": "Infomaniak transitions to a foundation model to protect user data privacy",
+      "url": "https://news.infomaniak.com/en/infomaniak-foundation-sovereign-cloud/",
+      "title_zh": "Infomaniak 转向基础模型以保护用户数据隐私",
+      "created_display": "Created: May 19, 2026 / 22:43 PT",
+      "image_url": "https://news.infomaniak.com/wp-content/uploads/2026/05/infomaniak-foundation-banner.jpg",
+      "summary_en": "Infomaniak is adopting a foundation model approach to protect user data privacy. By housing the model stack in its sovereign cloud and tightening data handling controls, the company aims to minimize data exposure and improve user control over AI processing. The move highlights a growing trend of privacy-conscious providers considering foundation models as a way to balance AI usefulness with data governance.",
+      "summary_zh": "Infomaniak 正在采用基础模型策略以提升数据隐私保护。通过将模型堆栈置于自有 souverign 云并强化数据处理控制，该公司旨在降低数据暴露风险并提高用户对 AI 处理的掌控感。这一举措反映出隐私导向的云服务商开始将基础模型用于在确保数据治理的同时发挥 AI 作用。",
+      "hn": {
+        "id": 48203536,
+        "type": "story",
+        "by": "darktoto",
+        "score": 71,
+        "descendants": 13,
+        "time": 1779255831,
+        "comments_url": "https://news.ycombinator.com/item?id=48203536"
+      },
+      "hot_score": 2.73,
+      "tags": [
+        "AI",
+        "Privacy"
+      ]
+    },
+    {
+      "title_en": "Remove–AI–Watermarks – CLI and library for removing AI watermarks from images",
+      "url": "https://github.com/wiltodelta/remove-ai-watermarks",
+      "title_zh": "Remove–AI–Watermarks：用于从图像移除 AI 水印的 CLI 与库",
+      "created_display": "Created: May 19, 2026 / 15:30 PT",
+      "image_url": "https://opengraph.githubassets.com/4615321f2b3bf77b2f5824ed05f50ae2cb3115bfb87b9d4af1a5141fab94f6a8/wiltodelta/remove-ai-watermarks",
+      "summary_en": "Open-source CLI and library that remove AI-generated watermarks from images. While useful for legitimate image editing, it raises ethical questions about watermarking, ownership, and the potential for misuse in denying AI authorship claims.",
+      "summary_zh": "一个开源命令行工具与库，能够从图像中移除 AI 水印。该工具在合法编辑场景有用，但也引发关于水印、所有权及滥用风险的伦理讨论。",
+      "hn": {
+        "id": 48200569,
+        "type": "story",
+        "by": "janalsncm",
+        "score": 279,
+        "descendants": 160,
+        "time": 1779229831,
+        "comments_url": "https://news.ycombinator.com/item?id=48200569"
+      },
+      "tags": [
+        "Open Source",
+        "Programming",
+        "AI"
+      ],
+      "hot_score": 2.64
+    },
+    {
+      "title_en": "Disney erased FiveThirtyEight",
+      "url": "https://www.natesilver.net/p/disney-erased-fivethirtyeight",
+      "title_zh": "迪士尼抹去 FiveThirtyEight",
+      "created_display": "Created: May 19, 2026 / 11:56 PT",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!IsA_!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F15fb1215-5721-4a31-8ba2-c5508fd5be7e_800x433.gif",
+      "summary_en": "Disney reportedly erased FiveThirtyEight from its slate, reflecting a corporate reorganization that sidelines a once-prominent data journalism brand. The move underscores how ownership changes can affect independent analytics reach and public trust.",
+      "summary_zh": "迪士尼据称已从自有资产中移除 FiveThirtyEight，反映出企业在数据新闻品牌上的策略调整。此举凸显所有权变动如何影响独立分析与公众信任的传播范围。",
+      "hn": {
+        "id": 48197703,
+        "type": "story",
+        "by": "7777777phil",
+        "score": 409,
+        "descendants": 218,
+        "time": 1779216985,
+        "comments_url": "https://news.ycombinator.com/item?id=48197703"
+      },
+      "tags": [
+        "Business",
+        "Data"
+      ],
+      "hot_score": 2.53
+    },
+    {
+      "title_en": "Apple unveils new accessibility features",
+      "url": "https://www.apple.com/newsroom/2026/05/apple-unveils-new-accessibility-features-and-updates-with-apple-intelligence/",
+      "title_zh": "苹果推出全新无障碍功能",
+      "created_display": "Created: May 19, 2026 / 05:04 PT",
+      "image_url": "https://www.apple.com/newsroom/images/2026/05/apple-unveils-new-accessibility-features-and-updates-with-apple-intelligence/tile/Apple-accessibility-features-VoiceOver-with-Apple-Intelligence-lp.jpg.og.jpg?202605191559",
+      "summary_en": "Apple rolls out a set of accessibility features powered by Apple Intelligence, including on-device improvements to screen readers and real-time captions, plus personalized UI tweaks. The update underscores how AI-enabled tools can make devices more usable for a broad range of people.",
+      "summary_zh": "苹果公布一系列无障碍新功能，由 Apple Intelligence 提供支持，包括对屏幕阅读、实时字幕等的改进，以及更贴合用户需求的个性化界面。此举凸显了 AI 驱动工具在提升无障碍设计方面的潜力。",
+      "hn": {
+        "id": 48192224,
+        "type": "story",
+        "by": "interpol_p",
+        "score": 673,
+        "descendants": 347,
+        "time": 1779192258,
+        "comments_url": "https://news.ycombinator.com/item?id=48192224"
+      },
+      "tags": [
+        "AI"
+      ],
+      "hot_score": 2.25
+    },
+    {
+      "title_en": "There's no earthly way of knowing which direction we are going",
+      "url": "https://kottke.org/26/05/theres-no-earthly-way-of-knowing-which-direction-we-are-going",
+      "title_zh": "没有人知道我们将走向哪个方向",
+      "created_display": "Created: May 19, 2026 / 22:33 PT",
+      "image_url": "http://kottke.org/plus/misc/images/editor-1779225185-1e599bef.jpg",
+      "summary_en": "An reflective piece pondering uncertainty about the tech industry’s trajectory, citing uncertainty in AI, hardware, and policy. It argues for adaptable thinking and plural paths forward.",
+      "summary_zh": "这是一篇关于科技行业未来方向不确定性的反思，讨论 AI、硬件与政策等因素的未知走向。主张采用更具适应性的思维和多元化的发展路径。",
+      "hn": {
+        "id": 48203484,
+        "type": "story",
+        "by": "tobr",
+        "score": 52,
+        "descendants": 50,
+        "time": 1779255186,
+        "comments_url": "https://news.ycombinator.com/item?id=48203484"
+      },
+      "hot_score": 1.88,
+      "tags": [
+        "Culture",
+        "AI",
+        "Hardware"
+      ]
+    },
+    {
+      "title_en": "OpenAI Adopts Google's SynthID Watermark for AI Images with Verification Tool",
+      "url": "https://openai.com/index/advancing-content-provenance/",
+      "title_zh": "OpenAI 采用 Google 的 SynthID 图像水印并提供验证工具",
+      "created_display": "Created: May 19, 2026 / 12:34 PT",
+      "image_url": "https://images.ctfassets.net/kftzwdyauwt9/7qrOAES4m86YSNSeLjDFI3/2a82d6af71882438b33811ad5c1e5fdc/SEO_Card_-_new_title.png?w=1600&h=900&fit=fill",
+      "summary_en": "OpenAI integrates Google's SynthID watermark into AI-generated images and ships a verification tool to prove AI origin. This marks a shift toward verifiable content provenance and could influence platform policies, authentication tooling, and public trust in AI-generated media.",
+      "summary_zh": "OpenAI 将 Google 的 SynthID 图像水印嵌入 AI 生成的图像，并提供验证工具以证明来源。这标志着对内容可验证出处的重视，有望影响平台策略、认证工具和公众对 AI 生成媒体的信任。",
+      "hn": {
+        "id": 48198291,
+        "type": "story",
+        "by": "smooke",
+        "score": 278,
+        "descendants": 149,
+        "time": 1779219270,
+        "comments_url": "https://news.ycombinator.com/item?id=48198291"
+      },
+      "tags": [
+        "AI"
+      ],
+      "hot_score": 1.84
+    },
+    {
+      "title_en": "Gemini Omni",
+      "url": "https://deepmind.google/models/gemini-omni/",
+      "title_zh": "Gemini Omni",
+      "created_display": "Created: May 19, 2026 / 10:46 PT",
+      "image_url": "https://lh3.googleusercontent.com/g6XDYMJ0QkGEh12oBq849NF0iDxAIJvrdiWHfI1Y7u2kJZF4brhur0dy-Jf_MATTC0TiCfb7YkOlkTjPta1H5eK6Crl_-1j-MnTDCmiCGGHC2oeIOJ4=w1200-h630-n-nu-rw",
+      "summary_en": "Gemini Omni is a versatile, cross-domain model that unifies tools, reasoning, and multi-modal inputs, signaling Google’s effort to provide a single powerful AI assistant across tasks. It emphasizes memory, tool use, and cross-domain capabilities.",
+      "summary_zh": "Gemini Omni 是一个多模态、多领域的通用模型，整合工具、推理与多模态输入，体现谷歌在打造全栈 AI 助手上的努力。它强调记忆、工具使用和跨领域能力。",
+      "hn": {
+        "id": 48196609,
+        "type": "story",
+        "by": "meetpateltech",
+        "score": 306,
+        "descendants": 129,
+        "time": 1779212779,
+        "comments_url": "https://news.ycombinator.com/item?id=48196609"
+      },
+      "tags": [
+        "AI"
+      ],
+      "hot_score": 1.67
+    },
+    {
+      "title_en": "Mistral AI acquires Emmi AI",
+      "url": "https://www.emmi.ai/news/mistral-ai-acquires-emmi-ai",
+      "title_zh": "Mistral AI 收购 Emmi AI 打造领先的 AI 技术栈",
+      "created_display": "Created: May 19, 2026 / 12:14 PT",
+      "image_url": "https://cdn.prod.website-files.com/68dc360c3b01aa9613087f04/6a0b5c38f624fb94a50f6696_News%206%20(1).png",
+      "summary_en": "Mistral AI acquires Emmi AI to assemble an end-to-end AI stack, combining models, tooling, and deployment capabilities to accelerate product development and enterprise use. The acquisition signals consolidation in the AI tooling ecosystem.",
+      "summary_zh": "Mistral AI 收购 Emmi AI，意在打造端到端的 AI 技术栈，整合模型、工具与部署能力，加速产品开发与企业落地。此举标志着 AI 工具生态的整合加速。",
+      "hn": {
+        "id": 48197995,
+        "type": "story",
+        "by": "doener",
+        "score": 261,
+        "descendants": 76,
+        "time": 1779218052,
+        "comments_url": "https://news.ycombinator.com/item?id=48197995"
+      },
+      "tags": [
+        "Business",
+        "AI"
+      ],
+      "hot_score": 1.66
+    },
+    {
+      "title_en": "Show HN: Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks",
+      "url": "https://github.com/antoinezambelli/forge",
+      "title_zh": "Forge：Guardrails 将 8B 模型在代理任务上的表现从 53% 提升到 99%",
+      "created_display": "Created: May 19, 2026 / 05:23 PT",
+      "image_url": "https://opengraph.githubassets.com/2e8281ce757c07df6f44e8e811af3fa2899753caefd21c0678dac54cd60d2053/antoinezambelli/forge",
+      "summary_en": "Forge demonstrates guardrails that lift an 8B-parameter model's performance on agentic tasks from 53% to 99%, illustrating how safety-oriented constraints can dramatically improve reliability in autonomous agents. The result highlights practical gains from architecture and policy design.",
+      "summary_zh": "Forge 展示通过 Guardrails 将一个 8B 参数模型在代理任务上的表现从 53% 提升到 99%，说明以安全约束为导向的设计能显著提升自动代理的可靠性。结果凸显了架构与策略设计的实际收益。",
+      "hn": {
+        "id": 48192383,
+        "type": "story",
+        "by": "zambelli",
+        "score": 478,
+        "descendants": 172,
+        "time": 1779193387,
+        "comments_url": "https://news.ycombinator.com/item?id=48192383"
+      },
+      "tags": [
+        "Show HN",
+        "AI"
+      ],
+      "hot_score": 1.63
+    },
+    {
+      "title_en": "Show HN: Gaussian Splat of a Strawberry",
+      "url": "https://superspl.at/scene/84df8849",
+      "title_zh": "草莓的高斯斑点渲染",
+      "created_display": "Created: May 19, 2026 / 03:38 PT",
+      "image_url": "https://s3-eu-west-1.amazonaws.com/images.playcanvas.com/splat/84df8849/v1/xl.webp",
+      "summary_en": "The project showcases a Gaussian splat rendering of a strawberry, producing soft volumetric shading from a point-based approach. It illustrates how advanced rendering techniques are being used in art and experiments, signaling future directions for real-time graphics pipelines.",
+      "summary_zh": "该作品以草莓为例，展示高斯斑点渲染技术，利用点云实现柔和体积光照与纹理效果。它体现了前沿渲染技术在艺术创作中的应用趋势，以及对实时图形管线的潜在影响。",
+      "hn": {
+        "id": 48191602,
+        "type": "story",
+        "by": "danybittel",
+        "score": 498,
+        "descendants": 190,
+        "time": 1779187127,
+        "comments_url": "https://news.ycombinator.com/item?id=48191602"
+      },
+      "tags": [
+        "Show HN",
+        "Programming"
+      ],
+      "hot_score": 1.5
+    },
+    {
+      "title_en": "OpenBSD 7.9",
+      "url": "https://www.openbsd.org/79.html",
+      "title_zh": "OpenBSD 7.9 发布",
+      "created_display": "Created: May 19, 2026 / 06:11 PT",
+      "image_url": "https://www.openbsd.org/images/PinkPuffy-s.gif",
+      "summary_en": "OpenBSD 7.9 ships with improved security hardening, updated drivers, and new ports, continuing the project's emphasis on correctness and minimalism. The release also expands platform support and performance improvements.",
+      "summary_zh": "OpenBSD 7.9 发布，带来更强的安全强化、更新的驱动以及新端口，延续对正确性与简约设计的坚持。此次版本还扩展了平台支持并带来性能提升。",
+      "hn": {
+        "id": 48192882,
+        "type": "story",
+        "by": "bradley_taunt",
+        "score": 395,
+        "descendants": 286,
+        "time": 1779196311,
+        "comments_url": "https://news.ycombinator.com/item?id=48192882"
+      },
+      "tags": [
+        "Security"
+      ],
+      "hot_score": 1.44
+    },
+    {
+      "title_en": "Japan is gripped by mass allergies. A 1950s project is to blame",
+      "url": "https://www.bbc.com/future/article/20260515-the-1950s-blunder-which-causes-mass-hay-fever-in-japan",
+      "title_zh": "日本大规模花粉过敏归咎于1950年代的一项计划",
+      "created_display": "Created: May 19, 2026 / 18:43 PT",
+      "image_url": "https://ychef.files.bbci.co.uk/624x351/p0nly7ch.jpg",
+      "summary_en": "Decades-old project in the 1950s is linked to today's mass allergy problem in Japan. The article traces how early experiments altered pollen ecosystems or health outcomes and why legacy decisions matter for science policy and public health. It highlights how long tail effects from past research can shape present-day living conditions.",
+      "summary_zh": "日本因1950年代的一项研究计划而引发的花粉过敏问题在今日仍有显著影响。文章追溯早期实验如何改变花粉生态或健康结果，以及历史决策对科学政策和公共卫生的意义，强调过去研究的长期影响会塑造当下的生活环境。",
+      "hn": {
+        "id": 48202047,
+        "type": "story",
+        "by": "ranit",
+        "score": 91,
+        "descendants": 31,
+        "time": 1779241386,
+        "comments_url": "https://news.ycombinator.com/item?id=48202047"
+      },
+      "hot_score": 1.41,
+      "tags": [
+        "Health"
+      ]
+    },
+    {
+      "title_en": "Dumb ways for an open source project to die",
+      "url": "https://nesbitt.io/2026/05/19/dumb-ways-for-an-open-source-project-to-die.html",
+      "title_zh": "让开源项目死去的愚蠢之道",
+      "created_display": "Created: May 19, 2026 / 12:22 PT",
+      "image_url": "https://nesbitt.io/images/boxes.png",
+      "summary_en": "An essay outlining common missteps that doom open-source projects—opaque governance, dwindling maintainer energy, and misaligned incentives. It offers practical reminders for maintainers and communities to design sustainable processes and governance to avoid burnout and abandonment.",
+      "summary_zh": "文章列出导致开源项目夭折的常见误区，如治理不清、维护者热情衰退、激励错位等，并给维护者与社区提出可执行的可持续治理建议，帮助避免倦怠与放弃。",
+      "hn": {
+        "id": 48198127,
+        "type": "story",
+        "by": "chmaynard",
+        "score": 187,
+        "descendants": 121,
+        "time": 1779218576,
+        "comments_url": "https://news.ycombinator.com/item?id=48198127"
+      },
+      "tags": [
+        "Open Source",
+        "Energy"
+      ],
+      "hot_score": 1.21
+    },
+    {
+      "title_en": "Gemini CLI will stop working from June 18, 2026",
+      "url": "https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/",
+      "title_zh": "Gemini CLI 将于 2026 年 6 月 18 日停止工作",
+      "created_display": "Created: May 19, 2026 / 11:03 PT",
+      "image_url": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GeminiCLI-AntigravityCLI_1200x630.2e16d0ba.fill-1200x600.png",
+      "summary_en": "Google announces the Gemini CLI will stop working on a set date, with migration to the Antigravity CLI recommended. It underscores rapid churn in AI tooling ecosystems and the importance of migration planning for automation workflows.",
+      "summary_zh": "Google 宣布 Gemini CLI 将在指定日期停止工作，并建议迁移到 Antigravity CLI。此举显示了 AI 工具生态的快速迭代与迁移规划对自动化工作流的重要性。",
+      "hn": {
+        "id": 48196867,
+        "type": "story",
+        "by": "primaprashant",
+        "score": 212,
+        "descendants": 112,
+        "time": 1779213790,
+        "comments_url": "https://news.ycombinator.com/item?id=48196867"
+      },
+      "tags": [
+        "Programming",
+        "AI"
+      ],
+      "hot_score": 1.19
+    },
+    {
+      "title_en": "CISA Admin Leaked AWS GovCloud Keys on GitHub",
+      "url": "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/",
+      "title_zh": "CISA 管理员在 GitHub 上泄露 AWS GovCloud 密钥",
+      "created_display": "Created: May 19, 2026 / 00:45 PT",
+      "image_url": "https://krebsonsecurity.com/wp-content/uploads/2026/05/privatecisa-filelist.png",
+      "summary_en": "A CISA administrator exposed GovCloud access keys on GitHub, underscoring how careless secret management can create cloud security risks. The incident highlights the need for secret rotation and stricter repository hygiene.",
+      "summary_zh": "CISA 一名管理员在 GitHub 上暴露 GovCloud 访问密钥，凸显秘密管理不小心带来的云安全风险。事件强调需要密钥轮换和更严格的仓库治理。",
+      "hn": {
+        "id": 48190454,
+        "type": "story",
+        "by": "LelouBil",
+        "score": 445,
+        "descendants": 173,
+        "time": 1779176753,
+        "comments_url": "https://news.ycombinator.com/item?id=48190454"
+      },
+      "tags": [
+        "Security",
+        "Programming"
+      ],
+      "hot_score": 1.1
+    },
+    {
+      "title_en": "Testing MiniMax M2.7 via API on three real ML and coding workflows",
+      "url": "https://andlukyane.com//blog/minimax-m27-workflows",
+      "title_zh": "通过 API 在三个真实 ML 与编码工作流上测试 MiniMax M2.7",
+      "created_display": "Created: May 19, 2026 / 21:51 PT",
+      "image_url": "https://andlukyane.com/images/minimax_m27/2026-05-13_06-42-04.jpg",
+      "summary_en": "Testing MiniMax M2.7 through APIs across three real ML and coding workflows evaluates practical performance, latency, and integration friction. The results help practitioners judge whether this device or library fits their production pipelines.",
+      "summary_zh": "通过 API 在三个真实的机器学习与编码工作流中测试 MiniMax M2.7，评估其实践中的性能、延迟与集成难度。测试结果为开发者决定是否将其纳入生产流程提供参考。",
+      "hn": {
+        "id": 48203249,
+        "type": "story",
+        "by": "Artgor",
+        "score": 21,
+        "descendants": 1,
+        "time": 1779252702,
+        "comments_url": "https://news.ycombinator.com/item?id=48203249"
+      },
+      "hot_score": 0.61,
+      "tags": [
+        "AI",
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "Why is almost everyone right-handed? A new study connects it to bipedalism",
+      "url": "https://www.ox.ac.uk/news/2026-05-15-why-is-almost-everyone-right-handed-the-answer-may-lie-in-how-we-learned-to-walk",
+      "title_zh": "几乎所有人都用右手？新研究把这一现象与直立行走的演化联系起来",
+      "created_display": "Created: May 19, 2026 / 07:50 PT",
+      "image_url": null,
+      "summary_en": "A new study links right-handedness to the evolution of bipedalism, suggesting brain lateralization and motor control co-evolved with walking on two legs. The finding adds a biological lens to everyday human behavior.",
+      "summary_zh": "一项新研究将右利手现象与直立行走的演化联系起来，暗示大脑半球化与运动控制在双足行走中共同演化。该发现为日常行为提供了新的生物学视角。",
+      "hn": {
+        "id": 48194098,
+        "type": "story",
+        "by": "gmays",
+        "score": 130,
+        "descendants": 205,
+        "time": 1779202242,
+        "comments_url": "https://news.ycombinator.com/item?id=48194098"
+      },
+      "tags": [
+        "Science"
+      ],
+      "hot_score": 0.54
+    },
+    {
+      "title_en": "Copy Fail, Dirty Frag, and Fragnesia kernel vulnerabilities",
+      "url": "https://www.gentoo.org/news/2026/05/19/copy-fail-fragnesia-vulnerabilities.html",
+      "title_zh": "Gentoo 新闻：Copy-Fail、Dirty Frag 与 Fragnesia 内核漏洞",
+      "created_display": "Created: May 19, 2026 / 08:27 PT",
+      "image_url": "https://www.gentoo.org/assets/img/og-image.jpg",
+      "summary_en": "Gentoo Linux warns of multiple kernel vulnerabilities nicknamed Copy-Fail, Dirty Frag, and Fragnesia. Users should apply patches and upgrade affected kernels to mitigate potential exploits.",
+      "summary_zh": "Gentoo Linux 发布关于 Copy-Fail、Dirty Frag 与 Fragnesia 等多项内核漏洞的通告。用户应尽快应用补丁并升级受影响的内核，以降低被利用的风险。",
+      "hn": {
+        "id": 48194614,
+        "type": "story",
+        "by": "akhuettel",
+        "score": 124,
+        "descendants": 51,
+        "time": 1779204473,
+        "comments_url": "https://news.ycombinator.com/item?id=48194614"
+      },
+      "tags": [
+        "Security"
+      ],
+      "hot_score": 0.54
+    },
+    {
+      "title_en": "HTML-in-Canvas Demos",
+      "url": "https://github.com/GoogleChromeLabs/css-web-ui-demos/blob/main/html-in-canvas/awesome-html-in-canvas.md",
+      "title_zh": "Canvas 中的 HTML 演示",
+      "created_display": "Created: May 19, 2026 / 16:49 PT",
+      "image_url": "https://opengraph.githubassets.com/88d06162d6da21eb37e00be301c46fba4f429a0e4df8209542ef458c28e8c3bf/GoogleChromeLabs/css-web-ui-demos",
+      "summary_en": "Collection of demos showcasing HTML content rendered or integrated within a canvas-based context, exploring creative UI, interaction, and performance considerations.",
+      "summary_zh": "一组展示在画布环境中呈现或嵌入 HTML 内容的示例，探讨在 Canvas 场景下实现创意用户界面、交互和性能要点。",
+      "hn": {
+        "id": 48201222,
+        "type": "story",
+        "by": "simonpure",
+        "score": 41,
+        "descendants": 16,
+        "time": 1779234543,
+        "comments_url": "https://news.ycombinator.com/item?id=48201222"
+      },
+      "hot_score": 0.46,
+      "tags": [
+        "Web"
+      ]
+    },
+    {
+      "title_en": "The TTY Demystified (2008)",
+      "url": "https://www.linusakesson.net/programming/tty/index.php",
+      "title_zh": "TTY 的由来与工作原理详解（2008）",
+      "created_display": "Created: May 19, 2026 / 11:40 PT",
+      "image_url": "https://www.linusakesson.net/img/linus1.png",
+      "summary_en": "A primer on TTY concepts, including line discipline and canonical vs noncanonical IO, and their relevance to modern shells and editors. It helps readers understand low-level I/O shaping practical tooling and user interfaces.",
+      "summary_zh": "对 TTY 的基本概念进行入门讲解，包括行控制、规范输入输出等，以及它们在现代 shell 与编辑器设计中的作用，帮助读者理解底层 I/O 如何影响实际工具与用户界面。",
+      "hn": {
+        "id": 48197445,
+        "type": "story",
+        "by": "20after4",
+        "score": 71,
+        "descendants": 9,
+        "time": 1779216019,
+        "comments_url": "https://news.ycombinator.com/item?id=48197445"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 0.42
+    },
+    {
+      "title_en": "The AI Quant Desk for Onchain Finance",
+      "url": "https://grid.raster.finance/en/portfolio-analytics",
+      "title_zh": "面向链上金融的 AI 量化分析台",
+      "created_display": "Created: May 20, 2026 / 01:49 PT",
+      "image_url": "https://grid.raster.finance/assets/images/og-raster.webp",
+      "summary_en": "The AI Quant Desk provides portfolio analytics for on-chain finance, enabling automated strategy testing and risk assessment using on-chain data. By blending AI with blockchain signals, it aims to lower the barrier to quantitative results in DeFi and smart contract markets. The piece signals growing convergence of AI tooling with crypto-native data.",
+      "summary_zh": "该量化分析台为链上金融提供 AI 驱动的投资组合分析，支持基于链上数据的策略回测与风险评估。通过将 AI 与区块链信号结合，它降低了在 DeFi 与智能合约市场实现量化分析的门槛，反映出 AI 工具与加密市场数据的日益融合。",
+      "hn": {
+        "id": 48204843,
+        "type": "story",
+        "by": "Iwan-Raster",
+        "score": 4,
+        "descendants": 0,
+        "time": 1779266960,
+        "comments_url": "https://news.ycombinator.com/item?id=48204843"
+      },
+      "hot_score": 0.42,
+      "tags": [
+        "AI",
+        "Finance",
+        "Data"
+      ]
+    },
+    {
+      "title_en": "Show HN: Superlog (YC P26) – Observability that installs itself and fixes bugs",
+      "url": "https://superlog.sh/",
+      "title_zh": "Show HN：Superlog（YC P26）—— 自动安装的可观测性工具，能修复 Bug",
+      "created_display": "Created: May 19, 2026 / 08:54 PT",
+      "image_url": null,
+      "summary_en": "Show HN presents Superlog, an observability tool that purportedly installs itself and can auto-fix bugs. The project aims to reduce developer toil by providing turnkey instrumentation and remediation guidance.",
+      "summary_zh": "Show HN 介绍了 Superlog，这是一个自带安装的可观测性工具，声称能自动修复 Bug。该项目旨在通过一键化的观测与修复建议，降低开发者的工作负担。",
+      "hn": {
+        "id": 48195021,
+        "type": "story",
+        "by": "Magnanten",
+        "score": 65,
+        "descendants": 44,
+        "time": 1779206046,
+        "comments_url": "https://news.ycombinator.com/item?id=48195021"
+      },
+      "tags": [
+        "Show HN",
+        "Startups"
+      ],
+      "hot_score": 0.29
+    },
+    {
+      "title_en": "AI, \"Humanity\", and Dr. Manhattan Syndrome: A Communications Intervention",
+      "url": "https://www.personfamiliar.com/p/ai-humanity-and-dr-manhattan-syndrome",
+      "title_zh": "AI、‘人性’与 Dr. Manhattan综合征：一种传播干预",
+      "created_display": "Created: May 19, 2026 / 10:22 PT",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!8ENP!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1fce5d83-3632-4689-a439-e3da185da683_1280x685.jpeg",
+      "summary_en": "An analysis of how AI and the rhetoric of humanity can shape public discourse, invoking a ‘Dr. Manhattan’ syndrome. It proposes interventions to calibrate AI storytelling and manage expectations around intelligence and agency.",
+      "summary_zh": "分析人工智能对“人性”叙事的影响及其对公众话语的影响，借用 Dr. Manhattan 综合征的隐喻。提出通过传播干预来校准 AI 叙事与对智能与自主性的期待。",
+      "hn": {
+        "id": 48196303,
+        "type": "story",
+        "by": "stalfosknight",
+        "score": 47,
+        "descendants": 12,
+        "time": 1779211365,
+        "comments_url": "https://news.ycombinator.com/item?id=48196303"
+      },
+      "tags": [
+        "AI",
+        "Culture"
+      ],
+      "hot_score": 0.24
+    },
+    {
+      "title_en": "Fixing the Most Dangerous Dam in the World",
+      "url": "https://practical.engineering/blog/2026/5/19/fixing-the-most-dangerous-dam-in-the-world",
+      "title_zh": "修复世界上最危险的大坝",
+      "created_display": "Created: May 19, 2026 / 09:42 PT",
+      "image_url": "http://static1.squarespace.com/static/55ac34e4e4b0170ef54be632/55ac3907e4b03d1c8c9deff1/6a0c921035703e317def072d/1779208798427/PREN_Mosul+Dam+2.png?format=1500w",
+      "summary_en": "An engineering piece discusses strategies to fix the world’s most dangerous dam, covering structural risks, monitoring approaches, and remediation methods to reduce catastrophic failure risk.",
+      "summary_zh": "本文探讨修复世界上最危险的大坝的策略，涵盖结构风险、监测方法与治理手段，以降低灾难性崩溃的风险。",
+      "hn": {
+        "id": 48195731,
+        "type": "story",
+        "by": "michaefe",
+        "score": 36,
+        "descendants": 1,
+        "time": 1779208933,
+        "comments_url": "https://news.ycombinator.com/item?id=48195731"
+      },
+      "tags": [
+        "Science"
+      ],
+      "hot_score": 0.17
+    },
+    {
+      "title_en": "Hanoi’s humble beer glass and the memory of a nation",
+      "url": "https://sundaylongread.com/2026/05/15/hanois-humble-beer-glass-and-the-memory-of-a-nation/",
+      "title_zh": "河内的朴素啤酒杯与民族记忆",
+      "created_display": "Created: May 18, 2026 / 10:45 PT",
+      "image_url": "https://sundaylongread.com/wp-content/uploads/2026/05/18-1-1024x614.jpeg",
+      "summary_en": "A longform piece uses Hanoi's humble beer glass as a lens to explore Vietnamese memory and national identity, showing how everyday objects can embody collective history.",
+      "summary_zh": "一篇长文以河内朴素的啤酒杯为线索，探讨越南的记忆与国家认同。日常物件如何成为集体历史的载体以及在社会记忆中的作用。",
+      "hn": {
+        "id": 48182872,
+        "type": "story",
+        "by": "NaOH",
+        "score": 136,
+        "descendants": 40,
+        "time": 1779126302,
+        "comments_url": "https://news.ycombinator.com/item?id=48182872"
+      },
+      "tags": [
+        "Culture"
+      ],
+      "hot_score": 0.16
+    },
+    {
+      "title_en": "Polypad",
+      "url": "https://polypad.amplify.com/",
+      "title_zh": "Polypad：在线数学绘板",
+      "created_display": "Created: May 17, 2026 / 00:20 PT",
+      "image_url": "https://polypad.amplify.com/images/og-tile.png",
+      "summary_en": "Polypad is an online math sandbox that lets users manipulate tiles, shapes, and equations to explore geometry and algebra interactively. It supports collaborative learning and could serve as a versatile classroom or self-study tool.",
+      "summary_zh": "Polypad 是一个在线数学沙盒工具，提供可拖拽的磁砖、几何形状和方程等，便于师生在浏览器中进行协作式、动手式的数学探索。它体现了教育科技在浏览器端提供直观学习体验的趋势。",
+      "hn": {
+        "id": 48166744,
+        "type": "story",
+        "by": "ivank",
+        "score": 212,
+        "descendants": 23,
+        "time": 1779002414,
+        "comments_url": "https://news.ycombinator.com/item?id=48166744"
+      },
+      "tags": [
+        "Education"
+      ],
+      "hot_score": 0.09
+    },
+    {
+      "title_en": "Lisp in Web-Based Applications (2001)",
+      "url": "https://sep.turbifycdn.com/ty/cdn/paulgraham/bbnexcerpts.txt",
+      "title_zh": "网页应用中的 Lisp（2001）",
+      "created_display": "Created: May 18, 2026 / 04:51 PT",
+      "image_url": null,
+      "summary_en": "A retrospective look at using Lisp in web apps around 2001, arguing Lisp’s expressiveness and macro system could outperform traditional web stacks in some scenarios, while practical barriers limited adoption. Provides historical context for language debates in early web development.",
+      "summary_zh": "回顾性论文回顾了 2001 年左右在网页应用中使用 Lisp 的情况，认为 Lisp 的表达力和宏系统在某些场景下可能优于传统网页栈，但现实障碍限制了广泛采用，为早期语言选择的讨论提供了历史视角。",
+      "hn": {
+        "id": 48178390,
+        "type": "story",
+        "by": "bschne",
+        "score": 79,
+        "descendants": 6,
+        "time": 1779105110,
+        "comments_url": "https://news.ycombinator.com/item?id=48178390"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 0.07
+    },
+    {
+      "title_en": "CopyFail: From Pod to Host",
+      "url": "https://xint.io/blog/copy-fail-pod-to-host",
+      "title_zh": "CopyFail：从 Pod 到 Host",
+      "created_display": "Created: May 19, 2026 / 10:25 PT",
+      "image_url": "https://source.inblog.dev/featured_image/2026-05-19T06:29:34.548Z-8cff6d16-1d2b-4c8b-9ea2-d3486d1ecadb",
+      "summary_en": "CopyFail delves into the pitfalls of copying data from a Kubernetes pod to the host. It explains frequent failure modes and practical remedies—covering permissions, mount configurations, and timing—aimed at making container-to-host data transfers more dependable.",
+      "summary_zh": "CopyFail 深入讲解在 Kubernetes 中从 Pod 复制数据到宿主机时常见的失败原因及对策，涵盖权限、挂载配置与时序等问题。给出可操作的修复思路，帮助开发者让容器与宿主机之间的数据传输更可靠。",
+      "hn": {
+        "id": 48196337,
+        "type": "story",
+        "by": "tptacek",
+        "score": 15,
+        "descendants": 0,
+        "time": 1779211533,
+        "comments_url": "https://news.ycombinator.com/item?id=48196337"
+      },
+      "hot_score": 0.07,
+      "tags": [
+        "DevOps"
+      ]
+    },
+    {
+      "title_en": "Intro to TLA+ for the LLM Era: Prompt Your Way to Victory",
+      "url": "https://emptysqua.re/blog/intro-to-tla-plus-for-the-llm-era/",
+      "title_zh": "面向 LLM 时代的 TLA+ 入门：通过提示取胜",
+      "created_display": "Created: May 17, 2026 / 08:52 PT",
+      "image_url": "https://emptysqua.re/blog/intro-to-tla-plus-for-the-llm-era/robot-square.jpg",
+      "summary_en": "The piece shows how formal methods like TLA+ can be used with prompts in the LLM era to model and verify correctness properties, helping build more reliable AI-enabled systems.",
+      "summary_zh": "文章介绍在 LLM 时代如何把 TLA+ 等形式化方法与提示相结合，用以建模和验证正确性属性，从而提升 AI 系统的可靠性。",
+      "hn": {
+        "id": 48170007,
+        "type": "story",
+        "by": "zdw",
+        "score": 128,
+        "descendants": 29,
+        "time": 1779033141,
+        "comments_url": "https://news.ycombinator.com/item?id=48170007"
+      },
+      "tags": [
+        "AI",
+        "Programming"
+      ],
+      "hot_score": 0.06
+    },
+    {
+      "title_en": "Growing Neural Cellular Automata",
+      "url": "https://distill.pub/2020/growing-ca/",
+      "title_zh": "成长型神经元细胞自动机",
+      "created_display": "Created: May 17, 2026 / 12:21 PT",
+      "image_url": "https://distill.pub/2020/growing-ca/thumbnail.jpg",
+      "summary_en": "Growing Neural Cellular Automata extends neural networks to control the growth of cellular automata, enabling shapes to emerge from a single cell and even exhibit self-healing. The work demonstrates robust, emergent design principles with potential implications for biology-inspired computation and scalable hardware-like systems.",
+      "summary_zh": "成长型神经元细胞自动机让神经网络控制细胞自动机的生长，能从单个细胞生成形状，甚至具备自我修复能力。该工作展示了可自发演化的鲁棒设计原理，对生物启发计算和可扩展的硬件式系统具有潜在影响。",
+      "hn": {
+        "id": 48172320,
+        "type": "story",
+        "by": "pulkitsh1234",
+        "score": 111,
+        "descendants": 12,
+        "time": 1779045669,
+        "comments_url": "https://news.ycombinator.com/item?id=48172320"
+      },
+      "tags": [
+        "AI",
+        "Science",
+        "Hardware"
+      ],
+      "hot_score": 0.06
+    },
+    {
+      "title_en": "The Mercury logic programming system",
+      "url": "https://github.com/Mercury-Language/mercury",
+      "title_zh": "Mercury 逻辑编程系统",
+      "created_display": "Created: May 18, 2026 / 00:12 PT",
+      "image_url": "https://opengraph.githubassets.com/b76ea31da04ad20e52906fce18d100e9e79c1a546d248b86365b384f008c5304/Mercury-Language/mercury",
+      "summary_en": "Mercury is a logic programming language and environment emphasizing reliability through a strong type and mode system. It offers a modern take on logic programming with tooling geared toward both research and education.",
+      "summary_zh": "Mercury 是一门强调通过强类型与模式系统提升可靠性的逻辑编程语言及环境。它以现代化工具链为特征，适用于研究与教学场景。",
+      "hn": {
+        "id": 48176384,
+        "type": "story",
+        "by": "Antibabelic",
+        "score": 63,
+        "descendants": 15,
+        "time": 1779088360,
+        "comments_url": "https://news.ycombinator.com/item?id=48176384"
+      },
+      "tags": [
+        "Programming",
+        "Education"
+      ],
+      "hot_score": 0.05
+    },
+    {
+      "title_en": "The two oldest printing presses",
+      "url": "https://museumplantinmoretus.be/en/worlds-two-oldest-printing-presses",
+      "title_zh": "世界上最古老的两台印刷机",
+      "created_display": "Created: May 17, 2026 / 22:01 PT",
+      "image_url": "https://assets.museumplantinmoretus.be/styles/landscape/public/2026-01/%C2%A9LUCID_MPM_12_2025_099.jpg?VersionId=MzXr749X9e0xCLP.EUtlxIaAeY.oRni0&itok=2nNr1qv4",
+      "summary_en": "The two oldest printing presses are preserved at the Plantin-Moretus Museum, offering tangible insight into early typography, craft, and the dissemination of knowledge.",
+      "summary_zh": "植物-莫雷图斯博物馆珍藏着两台最古老的印刷机，为早期字体排印、工艺与知识传播提供直观的材料证据。",
+      "hn": {
+        "id": 48175748,
+        "type": "story",
+        "by": "janpot",
+        "score": 46,
+        "descendants": 18,
+        "time": 1779080479,
+        "comments_url": "https://news.ycombinator.com/item?id=48175748"
+      },
+      "tags": [
+        "Culture"
+      ],
+      "hot_score": 0.03
+    },
+    {
+      "title_en": "Skills in Web, iOS, and Android",
+      "url": "https://x.ai/news/grok-skills",
+      "title_zh": "Web、iOS 与 Android 技能",
+      "created_display": "Created: May 18, 2026 / 13:15 PT",
+      "image_url": "https://x.ai/images/news/grok-skills.webp",
+      "summary_en": "Grok skills highlight a cross-platform skillset spanning web, iOS, and Android, reflecting growth areas for developers building apps that weave native and web tech. The piece profiles what modern developers should learn to ship cohesive experiences across ecosystems.",
+      "summary_zh": "该文章聚焦于 Web、iOS 与 Android 的跨平台技能，反映开发者在构建原生与 Web 融合应用时应掌握的关键能力。介绍当今开发者需学习的要点，以在各生态系统中交付一致的用户体验。",
+      "hn": {
+        "id": 48184941,
+        "type": "story",
+        "by": "surprisetalk",
+        "score": 27,
+        "descendants": 3,
+        "time": 1779135317,
+        "comments_url": "https://news.ycombinator.com/item?id=48184941"
+      },
+      "hot_score": 0.03,
+      "tags": [
+        "Programming",
+        "Career"
+      ]
+    },
+    {
+      "title_en": "Unusual uses of OEIS sequences on GitHub",
+      "url": "https://www.jeremykun.com/shortform/2026-04-13-0700/",
+      "title_zh": "在 GitHub 上 OEIS 序列的非同寻常用法",
+      "created_display": "Created: May 18, 2026 / 06:00 PT",
+      "image_url": null,
+      "summary_en": "GitHub projects leverage OEIS sequences in creative programming, data encoding, or puzzle-like demonstrations, showing how mathematical series inspire code and algorithm design.",
+      "summary_zh": "多项目在 GitHub 上巧妙地将 OEIS 序列用于创意编程、数据编码或解谜型演示，展示数学序列如何启发代码与算法设计。",
+      "hn": {
+        "id": 48179172,
+        "type": "story",
+        "by": "surprisetalk",
+        "score": 27,
+        "descendants": 2,
+        "time": 1779109224,
+        "comments_url": "https://news.ycombinator.com/item?id=48179172"
+      },
+      "hot_score": 0.03,
+      "tags": [
+        "Programming",
+        "Science"
+      ]
+    },
+    {
+      "title_en": "In 1979 engineer Hugh Padgham discovered \"gated reverb\" – by accident",
+      "url": "https://producelikeapro.com/blog/how-one-recording-mistake-created-a-musical-phenomenon-in-the-80s/",
+      "title_zh": "1979年，Hugh Padgham 意外发现了‘门控混响’",
+      "created_display": "Created: May 17, 2026 / 09:00 PT",
+      "image_url": "https://producelikeapro.com/blog/wp-content/uploads/2020/02/4000-B.png",
+      "summary_en": "A studio accident led to the creation of gated reverb, a defining 80s effect that shaped pop and rock production. The piece traces how unintended mistakes in a vocal-gating technique yielded a new tool that influenced mixing, synths, and studio workflow.",
+      "summary_zh": "一次录音现场的偶然失误催生了门控混响，成为80年代流行音乐的重要音效。文章回溯这一发现如何改变混音流程、合成器使用以及录音室的工作方式。",
+      "hn": {
+        "id": 48170096,
+        "type": "story",
+        "by": "bookofjoe",
+        "score": 44,
+        "descendants": 10,
+        "time": 1779033648,
+        "comments_url": "https://news.ycombinator.com/item?id=48170096"
+      },
+      "hot_score": 0.02,
+      "tags": [
+        "Entertainment"
+      ]
+    },
+    {
+      "title_en": "Tool mapping 90 companies in the photonics and CPO supply chain",
+      "url": "https://leonardo-boquillon.com/photonic-cop-supply-chain",
+      "title_zh": "光子学与 CPO 供应链中的 90 家公司的工具映射",
+      "created_display": "Created: May 17, 2026 / 08:22 PT",
+      "image_url": "https://leonardo-boquillon.com/apple-touch-icon.png",
+      "summary_en": "The piece maps tooling across 90 firms in the photonics and CPO supply chain, revealing common platforms, dependencies, and gaps. It offers insights for vendors and engineers on standardization, risk, and ecosystem health in a niche hardware domain.",
+      "summary_zh": "该分析对 90 家光子学与 CPO 供应链公司的工具使用情况进行了映射，揭示行业内的共用平台、依赖关系与潜在短板。为厂商与工程师在该专业硬件领域提供标准化、风险与生态健康方面的洞见。",
+      "hn": {
+        "id": 48169736,
+        "type": "story",
+        "by": "lboquillon",
+        "score": 41,
+        "descendants": 4,
+        "time": 1779031330,
+        "comments_url": "https://news.ycombinator.com/item?id=48169736"
+      },
+      "tags": [
+        "Hardware",
+        "Health"
+      ],
+      "hot_score": 0.02
+    },
+    {
+      "title_en": "Museum of Imaginary Musical Instruments",
+      "url": "https://imaginaryinstruments.org/",
+      "title_zh": "想象中的乐器博物馆",
+      "created_display": "Created: May 17, 2026 / 17:45 PT",
+      "image_url": "https://imaginaryinstruments.org/wp-content/uploads/2013/02/Real-MIMI-logo-without-The2-resized-image-960x100.png",
+      "summary_en": "Online collection of invented or fantastical musical instruments, exploring sound design, experimental interfaces, and how imagination translates into playable sound objects.",
+      "summary_zh": "一个在线收藏，展示虚构或幻想中的乐器，探索声音设计、实验性界面以及想象力如何转化为可演奏的声音对象。",
+      "hn": {
+        "id": 48174516,
+        "type": "story",
+        "by": "bookofjoe",
+        "score": 34,
+        "descendants": 5,
+        "time": 1779065152,
+        "comments_url": "https://news.ycombinator.com/item?id=48174516"
+      },
+      "hot_score": 0.02,
+      "tags": [
+        "Culture"
+      ]
+    },
+    {
+      "title_en": "RISC-V and Floating-Point",
+      "url": "https://fprox.substack.com/p/risc-v-and-floating-point",
+      "title_zh": "RISC‑V 与浮点运算",
+      "created_display": "Created: May 18, 2026 / 06:24 PT",
+      "image_url": null,
+      "summary_en": "RISC-V's approach to floating-point continues to shape performance and software compatibility. The piece surveys current implementations, trade-offs between compact instruction sets and FP support, and what it means for compiler, ML workloads, and hardware vendors.",
+      "summary_zh": "RISC-V 在浮点运算实现上仍存在取舍，直接影响性能、编译器，以及生态系统的成熟度。文章梳理当前的实现状况、各方案的权衡，以及对未来硬件与软件协作的影响。",
+      "hn": {
+        "id": 48179531,
+        "type": "story",
+        "by": "hasheddan",
+        "score": 19,
+        "descendants": 10,
+        "time": 1779110680,
+        "comments_url": "https://news.ycombinator.com/item?id=48179531"
+      },
+      "hot_score": 0.02,
+      "tags": [
+        "Hardware",
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "Nostalgic Kits Central (2024)",
+      "url": "https://www.nostalgickitscentral.com/",
+      "title_zh": "怀旧套件中心（2024）",
+      "created_display": "Created: May 17, 2026 / 10:14 PT",
+      "image_url": "https://www.nostalgickitscentral.com/heath/images/heathlogo3d2.gif",
+      "summary_en": "Nostalgic Kits Central 2024 offers a curated mix of retro-themed electronics kits, summoning memories of classic builds while teaching hands-on hardware skills. It highlights how hobbyists are blending nostalgia with modern microcontrollers, sensors, and open hardware to rekindle tinkering culture.",
+      "summary_zh": "2024 年版的 Nostalgic Kits Central 汇聚了以怀旧为主题的电子套件，带来经典回忆与动手技能的结合。它展示了爱好者如何把怀旧元素与现代微控制器、传感器和开源硬件结合起来，重新点燃动手创作的潮流。",
+      "hn": {
+        "id": 48170855,
+        "type": "story",
+        "by": "cf100clunk",
+        "score": 23,
+        "descendants": 10,
+        "time": 1779038065,
+        "comments_url": "https://news.ycombinator.com/item?id=48170855"
+      },
+      "hot_score": 0.01,
+      "tags": [
+        "Hardware"
+      ]
+    },
+    {
+      "title_en": "Simulated Evolution on the PICO-8",
+      "url": "https://bumbershootsoft.wordpress.com/2026/05/16/simulated-evolution-on-the-pico-8/",
+      "title_zh": "在 PICO-8 上的模拟进化",
+      "created_display": "Created: May 18, 2026 / 06:12 PT",
+      "image_url": "https://bumbershootsoft.wordpress.com/wp-content/uploads/2026/04/p8_simevo.png",
+      "summary_en": "Using the tiny PICO-8 fantasy console to simulate evolutionary processes, the project demonstrates how constrained hardware can still model complex systems and teach programming.",
+      "summary_zh": "在 PICO-8 这款极简幻想游戏机上进行的模拟进化演示，展示了在极小硬件约束下如何建模复杂系统并教授编程思维。",
+      "hn": {
+        "id": 48179348,
+        "type": "story",
+        "by": "ibobev",
+        "score": 6,
+        "descendants": 0,
+        "time": 1779109949,
+        "comments_url": "https://news.ycombinator.com/item?id=48179348"
+      },
+      "hot_score": 0.0,
+      "tags": [
+        "Programming",
+        "Gaming",
+        "Hardware"
+      ]
+    },
+    {
+      "title_en": "Enabling Resizable Bar on RTX 3080 Vbios via GitHub",
+      "url": "https://github.com/danindiana/rtx3080-rebar-vbios/tree/master",
+      "title_zh": "通过 GitHub 在 RTX 3080 的 VBIOS 上启用可变尺寸显存条",
+      "created_display": "Created: May 17, 2026 / 12:26 PT",
+      "image_url": "https://opengraph.githubassets.com/77ecbd6b72d2b288adc202a6f1455b41673643cd3b39a54153f8f4489eaa98a5/danindiana/rtx3080-rebar-vbios",
+      "summary_en": "GitHub-based mod enables Resizable BAR on RTX 3080 by modifying VBIOS, unlocking wider memory access and potential performance gains, with caveats about warranty, stability, and driver support.",
+      "summary_zh": "通过 GitHub 的修改方法，在 RTX 3080 的 VBIOS 上启用可变尺寸显存条，理论上可扩大显存带宽并提升性能。此举存在保修、稳定性和驱动兼容性的潜在风险，需谨慎使用。",
+      "hn": {
+        "id": 48172366,
+        "type": "story",
+        "by": "linux_lorax",
+        "score": 3,
+        "descendants": 2,
+        "time": 1779045982,
+        "comments_url": "https://news.ycombinator.com/item?id=48172366"
+      },
+      "hot_score": 0.0,
+      "tags": [
+        "Hardware",
+        "Programming"
+      ]
+    }
+  ]
+}
