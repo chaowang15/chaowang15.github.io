@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>91</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>13200</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>88</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>89</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-05-21</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>92</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>13249</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>88</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>90</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-05-22</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,118 +20,118 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='199' data-hn-time='1779413445'>
+<div class='hn-top-story-item' data-hn-score='51' data-hn-time='1779436335'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/21/top_stories_05212026#story-48230892'>Samsung chip workers will get an average $340k bonus as AI profits soar</a>
- <a class='hn-top-story-link' href='https://qz.com/samsung-chip-workers-bonus-ai-profits-052126' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/22/top_stories_05222026#story-48233177'>Deepfakes Tore a High School Apart</a>
+ <a class='hn-top-story-link' href='https://www.404media.co/radnor-high-school-pennsylvania-ai-deepfakes-child-sexual-abuse-material/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>AI利润飙升，三星芯片工人将获平均34万美元奖金</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.8</span> <span class='hn-top-story-score'>&#9650; 199</span> <span class='hn-top-story-comments'>&#128172; 139</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>深度伪造撕裂了一所高中</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.5</span> <span class='hn-top-story-score'>&#9650; 51</span> <span class='hn-top-story-comments'>&#128172; 56</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='770' data-hn-time='1779380591'>
+<div class='hn-top-story-item' data-hn-score='900' data-hn-time='1779380591'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/21/top_stories_05212026#story-48225297'>Project Hail Mary – Stellar Navigation Chart</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/22/top_stories_05222026#story-48225297'>Project Hail Mary – Stellar Navigation Chart</a>
  <a class='hn-top-story-link' href='https://valhovey.github.io/gaia-mary/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>海尔麦里计划——恒星导航图</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.5</span> <span class='hn-top-story-score'>&#9650; 770</span> <span class='hn-top-story-comments'>&#128172; 171</span> <span class='hn-top-story-tag'>Space</span> <span class='hn-top-story-tag'>Science</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.4</span> <span class='hn-top-story-score'>&#9650; 900</span> <span class='hn-top-story-comments'>&#128172; 197</span> <span class='hn-top-story-tag'>Space</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='1111' data-hn-time='1779361418'>
+<div class='hn-top-story-item' data-hn-score='1152' data-hn-time='1779361418'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/21/top_stories_05212026#story-48220647'>Flipper One – we need your help</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/22/top_stories_05222026#story-48220647'>Flipper One – we need your help</a>
  <a class='hn-top-story-link' href='https://blog.flipper.net/flipper-one-we-need-your-help/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Flipper One——需要你的帮助</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.7</span> <span class='hn-top-story-score'>&#9650; 1111</span> <span class='hn-top-story-comments'>&#128172; 434</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 1152</span> <span class='hn-top-story-comments'>&#128172; 444</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='445' data-hn-time='1779386158'>
+<div class='hn-top-story-item' data-hn-score='678' data-hn-time='1779371459'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/21/top_stories_05212026#story-48226588'>Seattle Shield, an intelligence-sharing network operated by the Seattle police</a>
- <a class='hn-top-story-link' href='https://prismreports.org/2026/05/20/seattle-shield-private-companies-surveillance/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Seattle Shield：西雅图警方运营的情报共享网络</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.8</span> <span class='hn-top-story-score'>&#9650; 445</span> <span class='hn-top-story-comments'>&#128172; 178</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='694' data-hn-time='1779370692'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/21/top_stories_05212026#story-48222383'>AI is just unauthorised plagiarism at a bigger scale</a>
- <a class='hn-top-story-link' href='https://axelk.ee/ai-is-just-unauthorised-plagiarism-at-a-bigger-scale/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>AI其实是在更大规模上未获授权的抄袭</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.7</span> <span class='hn-top-story-score'>&#9650; 694</span> <span class='hn-top-story-comments'>&#128172; 585</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Legal</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='624' data-hn-time='1779371459'>
-<span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/21/top_stories_05212026#story-48222529'>Google's Antigravity bait and switch</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/22/top_stories_05222026#story-48222529'>Google's Antigravity bait and switch</a>
  <a class='hn-top-story-link' href='https://www.0xsid.com/blog/antigravity-bait-n-switch' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>谷歌的反重力诱饵与切换策略</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 624</span> <span class='hn-top-story-comments'>&#128172; 284</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Web</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 678</span> <span class='hn-top-story-comments'>&#128172; 300</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='145' data-hn-time='1779406210'>
+<div class='hn-top-story-item' data-hn-score='459' data-hn-time='1779386158'>
+<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/22/top_stories_05222026#story-48226588'>Seattle Shield, an intelligence-sharing network operated by the Seattle police</a>
+ <a class='hn-top-story-link' href='https://prismreports.org/2026/05/20/seattle-shield-private-companies-surveillance/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Seattle Shield：西雅图警方运营的情报共享网络</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 459</span> <span class='hn-top-story-comments'>&#128172; 187</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='70' data-hn-time='1779424163'>
+<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/22/top_stories_05222026#story-48231938'>Slumber a TUI HTTP Client</a>
+ <a class='hn-top-story-link' href='https://slumber.lucaspickering.me' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Slumber：一个 TUI HTTP 客户端</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 70</span> <span class='hn-top-story-comments'>&#128172; 28</span> <span class='hn-top-story-tag'>Programming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='174' data-hn-time='1779406210'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/21/top_stories_05212026#story-48230049'>The IBM-ification of Google?</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/22/top_stories_05222026#story-48230049'>The IBM-ification of Google?</a>
  <a class='hn-top-story-link' href='https://zeroshot.bearblog.dev/google-is-shattering-under-its-own-weight-the-ibm-ification-of-google/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>谷歌的 IBM 化？</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 145</span> <span class='hn-top-story-comments'>&#128172; 120</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.9</span> <span class='hn-top-story-score'>&#9650; 174</span> <span class='hn-top-story-comments'>&#128172; 130</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='297' data-hn-time='1779387697'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='61' data-hn-time='1779425673'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/21/top_stories_05212026#story-48226944'>BBEdit 16</a>
- <a class='hn-top-story-link' href='https://www.barebones.com/products/bbedit/bbedit16.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/22/top_stories_05222026#story-48232118'>CODA: Rewriting Transformer Blocks as GEMM-Epilogue Programs</a>
+ <a class='hn-top-story-link' href='https://arxiv.org/abs/2605.19269' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>BBEdit 16 版</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.7</span> <span class='hn-top-story-score'>&#9650; 297</span> <span class='hn-top-story-comments'>&#128172; 88</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>CODA：将 Transformer 块改写为 GEMM-Epilogue 程序</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.9</span> <span class='hn-top-story-score'>&#9650; 61</span> <span class='hn-top-story-comments'>&#128172; 7</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='586' data-hn-time='1779356986'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='96' data-hn-time='1779417354'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/21/top_stories_05212026#story-48220105'>We're testing new ad formats in Search and expanding our Direct Offers pilot</a>
- <a class='hn-top-story-link' href='https://blog.google/products/ads-commerce/google-marketing-live-search-ads/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/22/top_stories_05222026#story-48231319'>Cleve Moler has died</a>
+ <a class='hn-top-story-link' href='https://www.mathworks.com/company/aboutus/founders/clevemoler.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>我们正在测试搜索中的新广告格式，并扩大 Direct Offers 试点</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.2</span> <span class='hn-top-story-score'>&#9650; 586</span> <span class='hn-top-story-comments'>&#128172; 525</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Web</span></div>
+<div class='hn-top-story-zh'>克里夫·莫勒去世</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.8</span> <span class='hn-top-story-score'>&#9650; 96</span> <span class='hn-top-story-comments'>&#128172; 9</span> <span class='hn-top-story-tag'>Education</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='228' data-hn-time='1779389695'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='303' data-hn-time='1779387697'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/21/top_stories_05212026#story-48227397'>Blog ran on Ubuntu 16.04 for 10 years. I migrated it to FreeBSD</a>
- <a class='hn-top-story-link' href='https://crocidb.com/post/this-blog-ran-on-ubuntu-16-04-for-10-years-i-migrated-it-to-freebsd/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/22/top_stories_05222026#story-48226944'>BBEdit 16</a>
+ <a class='hn-top-story-link' href='https://www.barebones.com/products/bbedit/bbedit16.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>博客在 Ubuntu 16.04 上运行了 10 年后迁移到 FreeBSD</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.2</span> <span class='hn-top-story-score'>&#9650; 228</span> <span class='hn-top-story-comments'>&#128172; 122</span> <span class='hn-top-story-tag'>DevOps</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>BBEdit 16 版</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.8</span> <span class='hn-top-story-score'>&#9650; 303</span> <span class='hn-top-story-comments'>&#128172; 93</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
-<a class='hn-top-stories-more' href='/hackernews/2026/05/21/top_stories_05212026'>View all trending stories &rarr;</a>
+<a class='hn-top-stories-more' href='/hackernews/2026/05/22/top_stories_05222026'>View all trending stories &rarr;</a>
 </div>
 </div>
 <div class='hn-index-section hn-podcast-section'>
@@ -155,10 +155,19 @@ Your browser does not support the audio element.
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 21 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-05-18 — 2026-05-21 <span class="hn-row-sep">·</span> 550 stories <span class="hn-row-sep">·</span> 4 days</span>
+<span class='hn-week-meta'>2026-05-18 — 2026-05-22 <span class="hn-row-sep">·</span> 599 stories <span class="hn-row-sep">·</span> 5 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
+<div class='hn-day-row'>
+<div class='hn-day-date'>2026-05-22 <span class='hn-day-weekday'>Fri</span></div>
+<div class='hn-day-stories'>
+<a class='hn-story-link' href='/hackernews/2026/05/22/top_stories_05222026'>
+<span class='hn-row-type hn-type-top'>Trending</span>
+<span class='hn-row-detail'>All <b>49</b> <span class="hn-row-sep">·</span> AI <b>10</b> <span class="hn-row-sep">·</span> Programming <b>10</b></span>
+</a>
+</div>
+</div>
 <div class='hn-day-row'>
 <div class='hn-day-date'>2026-05-21 <span class='hn-day-weekday'>Thu</span></div>
 <div class='hn-day-stories'>
@@ -589,7 +598,7 @@ Your browser does not support the audio element.
 <details class='hn-week-group'>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 16</span>
-<span class='hn-week-meta'>2026-04-18 — 2026-04-19 <span class="hn-row-sep">·</span> 300 stories <span class="hn-row-sep">·</span> 2 days <span class="hn-row-sep">·</span> 📊 Weekly Digest <span class="hn-row-sep">·</span> 🎧</span>
+<span class='hn-week-meta'>2026-04-19 <span class="hn-row-sep">·</span> 150 stories <span class="hn-row-sep">·</span> 1 days <span class="hn-row-sep">·</span> 📊 Weekly Digest <span class="hn-row-sep">·</span> 🎧</span>
 </summary>
 <div class='hn-week-content'>
 <a class='hn-story-link hn-weekly-digest-link' href='/hackernews/weekly/2026-W16'>
@@ -608,19 +617,6 @@ Your browser does not support the audio element.
 <a class='hn-story-link' href='/hackernews/2026/04/19/top_stories_04192026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
 <span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>25</b> <span class="hn-row-sep">·</span> Hardware <b>22</b></span>
-</a>
-</div>
-</div>
-<div class='hn-day-row'>
-<div class='hn-day-date'>2026-04-18 <span class='hn-day-weekday'>Sat</span></div>
-<div class='hn-day-stories'>
-<a class='hn-story-link' href='/hackernews/2026/04/18/best_stories_04182026'>
-<span class='hn-row-type hn-type-best'>Daily Best</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> Programming <b>11</b> <span class="hn-row-sep">·</span> AI <b>8</b></span>
-</a>
-<a class='hn-story-link' href='/hackernews/2026/04/18/top_stories_04182026'>
-<span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>36</b> <span class="hn-row-sep">·</span> Culture <b>15</b></span>
 </a>
 </div>
 </div>
