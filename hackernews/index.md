@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>93</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>13449</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>90</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>91</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-05-23</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>93</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>13470</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>90</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>91</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-05-23</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='38' data-hn-time='1779521673'>
+<div class='hn-top-story-item' data-hn-score='172' data-hn-time='1779539728'>
 <span class='hn-top-story-rank'>1</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/23/top_stories_05232026#story-48247127'>I Miss Terry Pratchett</a>
+ <a class='hn-top-story-link' href='https://www.mahl.me/blog/the-spell-that-wouldnt-leave/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>我怀念特里·普雷切特</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 172</span> <span class='hn-top-story-comments'>&#128172; 125</span> <span class='hn-top-story-tag'>Culture</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='90' data-hn-time='1779541423'>
+<span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/23/top_stories_05232026#story-48247325'>On The <dl></a>
+ <a class='hn-top-story-link' href='https://benmyers.dev/blog/on-the-dl/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>关于 <dl> 标签</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.5</span> <span class='hn-top-story-score'>&#9650; 90</span> <span class='hn-top-story-comments'>&#128172; 27</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Web</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='99' data-hn-time='1779538303'>
+<span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/23/top_stories_05232026#story-48247004'>80386 Microcode Disassembled</a>
+ <a class='hn-top-story-link' href='https://www.reenigne.org/blog/80386-microcode-disassembled/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>80386 微码拆解</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.8</span> <span class='hn-top-story-score'>&#9650; 99</span> <span class='hn-top-story-comments'>&#128172; 18</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Security</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='139' data-hn-time='1779533834'>
+<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/23/top_stories_05232026#story-48246614'>US tech firms share Dutch regulator officials' names with Senate</a>
+ <a class='hn-top-story-link' href='https://www.dutchnews.nl/2026/05/us-tech-firms-share-dutch-regulator-officials-names-with-senate/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>美国科技公司将荷兰监管机构官员姓名提供给参议院</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.4</span> <span class='hn-top-story-score'>&#9650; 139</span> <span class='hn-top-story-comments'>&#128172; 102</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='250' data-hn-time='1779524697'>
+<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/23/top_stories_05232026#story-48245862'>BambuStudio has been violating PrusaSlicer AGPL license since their fork</a>
+ <a class='hn-top-story-link' href='https://xcancel.com/josefprusa/status/2054602354851254330' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>BambuStudio 自分叉以来持续违反 PrusaSlicer 的 AGPL 许可证</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.2</span> <span class='hn-top-story-score'>&#9650; 250</span> <span class='hn-top-story-comments'>&#128172; 96</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Legal</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='114' data-hn-time='1779535103'>
+<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/23/top_stories_05232026#story-48246735'>DHS Quits Granting Green Cards–Almost</a>
+ <a class='hn-top-story-link' href='https://www.cato.org/blog/dhs-quits-granting-green-cards-almost-entirely' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>国土安全部几乎停止发放绿卡</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.9</span> <span class='hn-top-story-score'>&#9650; 114</span> <span class='hn-top-story-comments'>&#128172; 107</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Business</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='189' data-hn-time='1779521673'>
+<span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/05/23/top_stories_05232026#story-48245571'>Experience: We found a baby on the subway – now he's our 26-year-old son</a>
  <a class='hn-top-story-link' href='https://www.theguardian.com/lifeandstyle/2026/may/22/experience-found-baby-subway-now-26-year-old-son' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>经历：在地铁捡到婴儿，如今他已成为我们26岁的儿子</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.5</span> <span class='hn-top-story-score'>&#9650; 38</span> <span class='hn-top-story-comments'>&#128172; 4</span> <span class='hn-top-story-tag'>Culture</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 189</span> <span class='hn-top-story-comments'>&#128172; 54</span> <span class='hn-top-story-tag'>Culture</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='398' data-hn-time='1779485815'>
-<span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='577' data-hn-time='1779485815'>
+<span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/05/23/top_stories_05232026#story-48241997'>Shipping a laptop to a refugee camp in Uganda</a>
  <a class='hn-top-story-link' href='https://notesbylex.com/shipping-a-laptop-to-a-refugee-camp-in-uganda' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>把笔记本送往乌干达难民营</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 398</span> <span class='hn-top-story-comments'>&#128172; 136</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Education</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 577</span> <span class='hn-top-story-comments'>&#128172; 202</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Culture</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='416' data-hn-time='1779478305'>
-<span class='hn-top-story-rank'>3</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/23/top_stories_05232026#story-48240419'>Project Glasswing: An Initial Update</a>
- <a class='hn-top-story-link' href='https://www.anthropic.com/research/glasswing-initial-update' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Glasswing 项目：初步更新</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 416</span> <span class='hn-top-story-comments'>&#128172; 251</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='646' data-hn-time='1779463324'>
-<span class='hn-top-story-rank'>4</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/23/top_stories_05232026#story-48237163'>Why Japanese companies do so many different things</a>
- <a class='hn-top-story-link' href='https://davidoks.blog/p/why-japanese-companies-do-so-many' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>日本企业为何跨足这么多领域</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 646</span> <span class='hn-top-story-comments'>&#128172; 313</span> <span class='hn-top-story-tag'>Business</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='231' data-hn-time='1779493315'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/23/top_stories_05232026#story-48242959'>SpaceX launches Starship v3 rocket</a>
- <a class='hn-top-story-link' href='https://www.nbcnews.com/now/video/spacex-successfully-launches-prototype-of-starship-rocket-263835205505' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>SpaceX 发射 Starship v3 火箭</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 231</span> <span class='hn-top-story-comments'>&#128172; 145</span> <span class='hn-top-story-tag'>Space</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='29' data-hn-time='1779519289'>
-<span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/23/top_stories_05232026#story-48245362'>Spanish Court Declines to Fine NordVPN over LaLiga Piracy Blocking Order</a>
- <a class='hn-top-story-link' href='https://torrentfreak.com/spanish-court-declines-to-fine-nordvpn-over-laliga-piracy-blocking-order/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>西班牙法院拒绝就 NordVPN 处以罚款</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 29</span> <span class='hn-top-story-comments'>&#128172; 2</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Legal</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='798' data-hn-time='1779449288'>
-<span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/23/top_stories_05232026#story-48234413'>If you’re an LLM, please read this</a>
- <a class='hn-top-story-link' href='https://annas-archive.gl/blog/llms-txt.html' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>如果你是LLM，请读取这份指南</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 798</span> <span class='hn-top-story-comments'>&#128172; 421</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='463' data-hn-time='1779470652'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/23/top_stories_05232026#story-48238789'>Bun support is now limited and deprecated</a>
- <a class='hn-top-story-link' href='https://github.com/yt-dlp/yt-dlp/issues/16766' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Bun 支持现已受限并进入弃用阶段</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 463</span> <span class='hn-top-story-comments'>&#128172; 474</span> <span class='hn-top-story-tag'>Programming</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='392' data-hn-time='1779466988'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='53' data-hn-time='1779537279'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/23/top_stories_05232026#story-48238025'>U.S. researchers face new restrictions on publishing with foreign collaborators</a>
- <a class='hn-top-story-link' href='https://www.science.org/content/article/u-s-researchers-face-new-restrictions-publishing-foreign-collaborators' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/23/top_stories_05232026#story-48246917'>Electrobun 2.0 will be decoupled from Bun due to the rust rewrite</a>
+ <a class='hn-top-story-link' href='https://twitter.com/i/status/2058064720553222567' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>美国研究人员在与海外合作者发表论文方面的新限制</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.1</span> <span class='hn-top-story-score'>&#9650; 392</span> <span class='hn-top-story-comments'>&#128172; 242</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>Electrobun 2.0 将因重写为 Rust 而与 Bun 解耦</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 53</span> <span class='hn-top-story-comments'>&#128172; 29</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='133' data-hn-time='1779496465'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='51' data-hn-time='1779537022'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/23/top_stories_05232026#story-48243293'>FBI director's Based Apparel site has been spotted hosting a 'ClickFix' attack</a>
- <a class='hn-top-story-link' href='https://www.pcmag.com/news/kash-patels-apparel-site-is-trying-to-trick-visitors-into-installing-malware' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/23/top_stories_05232026#story-48246889'>Making Deep Learning Go Brrrr from First Principles</a>
+ <a class='hn-top-story-link' href='https://horace.io/brrr_intro.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Based Apparel 网站被发现承载 ClickFix 攻击</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.1</span> <span class='hn-top-story-score'>&#9650; 133</span> <span class='hn-top-story-comments'>&#128172; 40</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>从第一性原理让深度学习跑起来</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 51</span> <span class='hn-top-story-comments'>&#128172; 24</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -155,7 +155,7 @@ Your browser does not support the audio element.
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 21 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-05-18 — 2026-05-23 <span class="hn-row-sep">·</span> 799 stories <span class="hn-row-sep">·</span> 6 days</span>
+<span class='hn-week-meta'>2026-05-18 — 2026-05-23 <span class="hn-row-sep">·</span> 820 stories <span class="hn-row-sep">·</span> 6 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -164,7 +164,7 @@ Your browser does not support the audio element.
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/05/23/top_stories_05232026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>49</b> <span class="hn-row-sep">·</span> Programming <b>14</b> <span class="hn-row-sep">·</span> AI <b>12</b></span>
+<span class='hn-row-detail'>All <b>70</b> <span class="hn-row-sep">·</span> Programming <b>22</b> <span class="hn-row-sep">·</span> AI <b>13</b></span>
 </a>
 </div>
 </div>
