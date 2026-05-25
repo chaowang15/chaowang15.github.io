@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>95</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>13749</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>92</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>93</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-05-25</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>95</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>13768</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>92</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>93</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-05-25</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='332' data-hn-time='1779680844'>
+<div class='hn-top-story-item' data-hn-score='443' data-hn-time='1779712031'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/25/top_stories_05252026#story-48263238'>The Eternal Sloptember</a>
- <a class='hn-top-story-link' href='https://geohot.github.io//blog/jekyll/update/2026/05/24/the-eternal-sloptember.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/25/top_stories_05252026#story-48266051'>Search engines alternatives now that Google isn't Google anymore</a>
+ <a class='hn-top-story-link' href='https://techcrunch.com/2026/05/21/six-search-engines-worth-trying-now-that-google-isnt-really-google-anymore/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>永恒的 Sloptember</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.9</span> <span class='hn-top-story-score'>&#9650; 332</span> <span class='hn-top-story-comments'>&#128172; 265</span> <span class='hn-top-story-tag'>Culture</span></div>
+<div class='hn-top-story-zh'>谷歌不再是谷歌：值得尝试的替代搜索引擎</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 18</span> <span class='hn-top-story-score'>&#9650; 443</span> <span class='hn-top-story-comments'>&#128172; 398</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='177' data-hn-time='1779681254'>
+<div class='hn-top-story-item' data-hn-score='306' data-hn-time='1779715078'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/25/top_stories_05252026#story-48263253'>Jira Is Turing-Complete</a>
- <a class='hn-top-story-link' href='https://seriot.ch/computation/jira.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/25/top_stories_05252026#story-48266485'>Pope Leo XIV says AI must serve humanity, not the powerful few</a>
+ <a class='hn-top-story-link' href='https://religionnews.com/2026/05/25/in-his-first-encyclical-pope-leo-xiv-says-ai-must-serve-humanity-not-the-powerful-few/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Jira 具备图灵完备性</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.8</span> <span class='hn-top-story-score'>&#9650; 177</span> <span class='hn-top-story-comments'>&#128172; 78</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>教皇利奥十四世：AI 应服务于全人类，而非少数强权</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 16</span> <span class='hn-top-story-score'>&#9650; 306</span> <span class='hn-top-story-comments'>&#128172; 136</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='569' data-hn-time='1779627726'>
+<div class='hn-top-story-item' data-hn-score='555' data-hn-time='1779703889'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/25/top_stories_05252026#story-48256953'>DeepSeek reasonix, DeepSeek native coding agent with high caching and low cost</a>
- <a class='hn-top-story-link' href='https://esengine.github.io/DeepSeek-Reasonix/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/25/top_stories_05252026#story-48265206'>Magnifica Humanitas (Encyclical Letter)</a>
+ <a class='hn-top-story-link' href='https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>DeepSeek Reasonix：高缓存、低成本的本地编码代理</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 569</span> <span class='hn-top-story-comments'>&#128172; 233</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>Magnifica Humanitas 通諭</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 13</span> <span class='hn-top-story-score'>&#9650; 555</span> <span class='hn-top-story-comments'>&#128172; 224</span> <span class='hn-top-story-tag'>Culture</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='387' data-hn-time='1779640289'>
+<div class='hn-top-story-item' data-hn-score='213' data-hn-time='1779710634'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/25/top_stories_05252026#story-48258684'>Memory has grown to nearly two-thirds of AI chip component costs</a>
- <a class='hn-top-story-link' href='https://epoch.ai/data-insights/ai-chip-component-cost-shares' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/25/top_stories_05252026#story-48265876'>Leave Me Behind</a>
+ <a class='hn-top-story-link' href='http://androidessence.com/leave-me-behind/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>AI 芯片成本中内存占比近三分之二</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.8</span> <span class='hn-top-story-score'>&#9650; 387</span> <span class='hn-top-story-comments'>&#128172; 402</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>把我落在后面</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.7</span> <span class='hn-top-story-score'>&#9650; 213</span> <span class='hn-top-story-comments'>&#128172; 152</span> <span class='hn-top-story-tag'>Culture</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='286' data-hn-time='1779647502'>
+<div class='hn-top-story-item' data-hn-score='113' data-hn-time='1779717399'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/25/top_stories_05252026#story-48259808'>Migrating from Go to Rust</a>
- <a class='hn-top-story-link' href='https://corrode.dev/learn/migration-guides/go-to-rust/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/25/top_stories_05252026#story-48266906'>Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks</a>
+ <a class='hn-top-story-link' href='https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>从 Go 迁移到 Rust</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.6</span> <span class='hn-top-story-score'>&#9650; 286</span> <span class='hn-top-story-comments'>&#128172; 280</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>荷兰扣押 800 台服务器并逮捕两人以协助网络攻击</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.7</span> <span class='hn-top-story-score'>&#9650; 113</span> <span class='hn-top-story-comments'>&#128172; 14</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>DevOps</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='372' data-hn-time='1779636343'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='140' data-hn-time='1779714760'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/25/top_stories_05252026#story-48258015'>Show HN: Audiomass – a free, open-source multitrack audio editor for the web</a>
- <a class='hn-top-story-link' href='https://audiomass.co/?multitrack=1' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/25/top_stories_05252026#story-48266435'>Pope Leo: opaque AI run by few firms risks "New Forms of Dehumanization"</a>
+ <a class='hn-top-story-link' href='https://variety.com/2026/biz/global/pope-leo-ai-encyclical-algorithms-threaten-dehumanisation-1236758186/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Show HN：Audiomass——一个免费开源的网页多轨音频编辑器</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.6</span> <span class='hn-top-story-score'>&#9650; 372</span> <span class='hn-top-story-comments'>&#128172; 81</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Web</span></div>
+<div class='hn-top-story-zh'>教皇利奥：由少数公司掌控的不透明 AI 会带来新型去人性化风险</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.2</span> <span class='hn-top-story-score'>&#9650; 140</span> <span class='hn-top-story-comments'>&#128172; 13</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='39' data-hn-time='1779687211'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='47' data-hn-time='1779718519'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/25/top_stories_05252026#story-48263711'>Why Do We Sleep Under Blankets, Even on the Hottest Nights? (2017)</a>
- <a class='hn-top-story-link' href='https://www.atlasobscura.com/articles/blankets-summer-hot' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/25/top_stories_05252026#story-48267126'>C extensions, portability, and alternative compilers</a>
+ <a class='hn-top-story-link' href='https://lemon.rip/w/6-c-extensions-compilers/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>为什么在最热的夜晚也要盖毯子睡觉？（2017）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.2</span> <span class='hn-top-story-score'>&#9650; 39</span> <span class='hn-top-story-comments'>&#128172; 23</span> <span class='hn-top-story-tag'>Health</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>C 扩展、可移植性与替代编译器</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 47</span> <span class='hn-top-story-comments'>&#128172; 9</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='167' data-hn-time='1779649826'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='52' data-hn-time='1779717328'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/25/top_stories_05252026#story-48260117'>A fundamental principle of aeronautical engineering has been overturned</a>
- <a class='hn-top-story-link' href='https://www.wired.com/story/a-fundamental-principle-of-aeronautical-engineering-has-been-overturned/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/25/top_stories_05252026#story-48266895'>2026 HIPAA Security Rule Update</a>
+ <a class='hn-top-story-link' href='https://medcurity.com/hipaa-security-rule-2026-update/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>航空工程的一个基本原则被推翻</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.0</span> <span class='hn-top-story-score'>&#9650; 167</span> <span class='hn-top-story-comments'>&#128172; 80</span> <span class='hn-top-story-tag'>Science</span></div>
+<div class='hn-top-story-zh'>2026 年 HIPAA 安全规则更新</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 52</span> <span class='hn-top-story-comments'>&#128172; 40</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Health</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='153' data-hn-time='1779649966'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='65' data-hn-time='1779714593'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/25/top_stories_05252026#story-48260140'>CBP Directive 3340-049B: Border Search of Electronic Devices</a>
- <a class='hn-top-story-link' href='https://www.cbp.gov/document/directives/cbp-directive-no-3340-049b-border-search-electronic-devices' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/25/top_stories_05252026#story-48266422'>Microsoft pulls plug on plans for 244-acre data center in Caledonia</a>
+ <a class='hn-top-story-link' href='https://www.tmj4.com/news/racine-county/microsoft-pulls-plug-on-plans-for-244-acre-data-center-in-caledonia-after-community-pushback' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>CBP 指令 3340-049B：边境对电子设备的搜查</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 0.9</span> <span class='hn-top-story-score'>&#9650; 153</span> <span class='hn-top-story-comments'>&#128172; 106</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>微软取消在 Caledonia 的 244 英亩数据中心计划</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 65</span> <span class='hn-top-story-comments'>&#128172; 49</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>DevOps</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='242' data-hn-time='1779627353'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='33' data-hn-time='1779719392'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/25/top_stories_05252026#story-48256912'>Constraint Decay: The Fragility of LLM Agents in Back End Code Generation</a>
- <a class='hn-top-story-link' href='https://arxiv.org/abs/2605.06445' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/25/top_stories_05252026#story-48267290'>The Cost of Safetyism</a>
+ <a class='hn-top-story-link' href='https://stevemagness.substack.com/p/the-cost-of-safetyism' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>约束衰退：后端代码生成中 LLM 代理的脆弱性</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 0.8</span> <span class='hn-top-story-score'>&#9650; 242</span> <span class='hn-top-story-comments'>&#128172; 136</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Web</span></div>
+<div class='hn-top-story-zh'>安全至上主义的代价</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 33</span> <span class='hn-top-story-comments'>&#128172; 20</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -155,7 +155,7 @@ Your browser does not support the audio element.
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 22 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-05-25 <span class="hn-row-sep">·</span> 49 stories <span class="hn-row-sep">·</span> 1 days</span>
+<span class='hn-week-meta'>2026-05-25 <span class="hn-row-sep">·</span> 68 stories <span class="hn-row-sep">·</span> 1 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -164,7 +164,7 @@ Your browser does not support the audio element.
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/05/25/top_stories_05252026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>49</b> <span class="hn-row-sep">·</span> Programming <b>15</b> <span class="hn-row-sep">·</span> Hardware <b>7</b></span>
+<span class='hn-row-detail'>All <b>68</b> <span class="hn-row-sep">·</span> Programming <b>20</b> <span class="hn-row-sep">·</span> Science <b>11</b></span>
 </a>
 </div>
 </div>
