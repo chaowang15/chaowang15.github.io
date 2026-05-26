@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>95</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>13793</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>92</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>93</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-05-25</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>95</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>13800</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>92</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>93</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-05-25</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='480' data-hn-time='1779733198'>
+<div class='hn-top-story-item' data-hn-score='407' data-hn-time='1779751019'>
 <span class='hn-top-story-rank'>1</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/25/top_stories_05252026#story-48272984'>Using AI to write better code more slowly</a>
+ <a class='hn-top-story-link' href='https://nolanlawson.com/2026/05/25/using-ai-to-write-better-code-more-slowly/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>用 AI 慢下来写出更好的代码</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.2</span> <span class='hn-top-story-score'>&#9650; 407</span> <span class='hn-top-story-comments'>&#128172; 154</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='790' data-hn-time='1779733198'>
+<span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/05/25/top_stories_05252026#story-48269961'>California moves to exempt Linux from its age-verification law after backlash</a>
  <a class='hn-top-story-link' href='https://www.tomshardware.com/software/linux/california-moves-to-exempt-linux-from-its-upcoming-age-verification-law-after-backlash-over-forcing-operating-systems-to-collect-users-ages-amendment-proposed-by-the-same-lawmaker-who-wrote-the-original-law' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>加州拟豁免 Linux 免受年龄验证法约束</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 16</span> <span class='hn-top-story-score'>&#9650; 480</span> <span class='hn-top-story-comments'>&#128172; 220</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Legal</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.1</span> <span class='hn-top-story-score'>&#9650; 790</span> <span class='hn-top-story-comments'>&#128172; 336</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Legal</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='1249' data-hn-time='1779703889'>
-<span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-item' data-hn-score='1385' data-hn-time='1779703889'>
+<span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/05/25/top_stories_05252026#story-48265206'>Magnifica Humanitas</a>
  <a class='hn-top-story-link' href='https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Magnifica Humanitas 通諭</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.9</span> <span class='hn-top-story-score'>&#9650; 1249</span> <span class='hn-top-story-comments'>&#128172; 694</span> <span class='hn-top-story-tag'>Culture</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.4</span> <span class='hn-top-story-score'>&#9650; 1385</span> <span class='hn-top-story-comments'>&#128172; 791</span> <span class='hn-top-story-tag'>Culture</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='65' data-hn-time='1779745557'>
-<span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-item' data-hn-score='41' data-hn-time='1779770729'>
+<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/25/top_stories_05252026#story-48275098'>Notes on Pope Leo XIV's Encyclical on AI</a>
+ <a class='hn-top-story-link' href='https://simonwillison.net/2026/May/25/encyclical-on-ai/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>关于 AI 的教皇利奥十四世通谕的笔记</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.7</span> <span class='hn-top-story-score'>&#9650; 41</span> <span class='hn-top-story-comments'>&#128172; 5</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Politics</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='122' data-hn-time='1779760515'>
+<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/25/top_stories_05252026#story-48274077'>Does anybody like React?</a>
+ <a class='hn-top-story-link' href='https://jsx.lol' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>到底有没有人喜欢 React？</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.6</span> <span class='hn-top-story-score'>&#9650; 122</span> <span class='hn-top-story-comments'>&#128172; 142</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Web</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='54' data-hn-time='1779767769'>
+<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/25/top_stories_05252026#story-48274794'>Motorola phones have started hijacking the Amazon app to insert affiliate codes</a>
+ <a class='hn-top-story-link' href='https://9to5google.com/2026/05/25/motorola-amazon-app-hijacking-behavior/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>摩托罗拉手机开始劫持亚马逊应用以插入联盟代码</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 54</span> <span class='hn-top-story-comments'>&#128172; 18</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='197' data-hn-time='1779748227'>
+<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/25/top_stories_05252026#story-48272670'>Taking a walk may lead to more creativity than sitting, study finds (2014)</a>
+ <a class='hn-top-story-link' href='https://www.apa.org/news/press/releases/2014/04/creativity-walk' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>散步比久坐更能激发创造力（2014 年研究）</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 197</span> <span class='hn-top-story-comments'>&#128172; 71</span> <span class='hn-top-story-tag'>Science</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='218' data-hn-time='1779745557'>
+<span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/05/25/top_stories_05252026#story-48272354'>Microsoft Copilot Cowork Exfiltrates Files</a>
  <a class='hn-top-story-link' href='https://www.promptarmor.com/resources/microsoft-copilot-cowork-exfiltrates-files' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>微软 Copilot Cowork 可能外泄文件</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.3</span> <span class='hn-top-story-score'>&#9650; 65</span> <span class='hn-top-story-comments'>&#128172; 10</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 218</span> <span class='hn-top-story-comments'>&#128172; 46</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='178' data-hn-time='1779734225'>
-<span class='hn-top-story-rank'>4</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/25/top_stories_05252026#story-48270111'>The bootstrapper's EU stack for under €10 per month</a>
- <a class='hn-top-story-link' href='https://eualternative.eu/guides/bootstrapper-free-tier-eu-stack/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>面向初创者的欧盟云端堆栈，月费不足 10 欧元</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.5</span> <span class='hn-top-story-score'>&#9650; 178</span> <span class='hn-top-story-comments'>&#128172; 66</span> <span class='hn-top-story-tag'>Startups</span> <span class='hn-top-story-tag'>Web</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='222' data-hn-time='1779731111'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/25/top_stories_05252026#story-48269580'>Exit IP VPN servers mitigation rollout</a>
- <a class='hn-top-story-link' href='https://mullvad.net/en/help/exit-ip-vpn-servers-mitigation-rollout' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>出口 IP VPN 服务器缓解措施上线</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.5</span> <span class='hn-top-story-score'>&#9650; 222</span> <span class='hn-top-story-comments'>&#128172; 36</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>DevOps</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='108' data-hn-time='1779737877'>
-<span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/25/top_stories_05252026#story-48270770'>Norway's 2 petabytes of Huawei flash storage and LLM training</a>
- <a class='hn-top-story-link' href='https://www.blocksandfiles.com/flash/2026/05/22/norways-2-petabytes-of-huawei-flash-storage-and-llm-training/5244910' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>挪威用2PB华为闪存进行LLM训练</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.4</span> <span class='hn-top-story-score'>&#9650; 108</span> <span class='hn-top-story-comments'>&#128172; 54</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='497' data-hn-time='1779712031'>
-<span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/25/top_stories_05252026#story-48266051'>Search engines alternatives now that Google isn't Google anymore</a>
- <a class='hn-top-story-link' href='https://techcrunch.com/2026/05/21/six-search-engines-worth-trying-now-that-google-isnt-really-google-anymore/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>谷歌不再是谷歌：值得尝试的替代搜索引擎</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.3</span> <span class='hn-top-story-score'>&#9650; 497</span> <span class='hn-top-story-comments'>&#128172; 462</span> <span class='hn-top-story-tag'>Web</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='60' data-hn-time='1779741025'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/25/top_stories_05252026#story-48271327'>Yoti age checks share facial photos and device fingerprints with third parties</a>
- <a class='hn-top-story-link' href='https://techxplore.com/news/2026-05-online-age-pointless-privacy.html' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Yoti 年龄验证共享人脸照片与设备指纹</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 60</span> <span class='hn-top-story-comments'>&#128172; 12</span> <span class='hn-top-story-tag'>Privacy</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='78' data-hn-time='1779738225'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='152' data-hn-time='1779751317'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/25/top_stories_05252026#story-48270812'>Japan's New Hypersonic Engine Could Make 2-Hour Flights to the US a Reality</a>
- <a class='hn-top-story-link' href='https://www.bgr.com/2178211/japan-hypersonic-engine-ramjet-2-hour-flights-to-us/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/25/top_stories_05252026#story-48273030'>Nobody cracks open a programming book anymore</a>
+ <a class='hn-top-story-link' href='https://unix.foo/posts/nobody-cracks-open-a-programming-book/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>日本新型高超声速发动机或将实现美日两小时航班</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 78</span> <span class='hn-top-story-comments'>&#128172; 50</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>没有人再去看编程书了吗？</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 152</span> <span class='hn-top-story-comments'>&#128172; 174</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Education</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='306' data-hn-time='1779715078'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='25' data-hn-time='1779770343'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/25/top_stories_05252026#story-48266485'>Pope Leo XIV says AI must serve humanity, not the powerful few</a>
- <a class='hn-top-story-link' href='https://religionnews.com/2026/05/25/in-his-first-encyclical-pope-leo-xiv-says-ai-must-serve-humanity-not-the-powerful-few/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/25/top_stories_05252026#story-48275059'>The User Is Visibly Frustrated</a>
+ <a class='hn-top-story-link' href='https://pscanf.com/s/354/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>教皇利奥十四世：AI 应服务于全人类，而非少数强权</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.7</span> <span class='hn-top-story-score'>&#9650; 306</span> <span class='hn-top-story-comments'>&#128172; 136</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>用户情绪明显的挫败感</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.7</span> <span class='hn-top-story-score'>&#9650; 25</span> <span class='hn-top-story-comments'>&#128172; 4</span> <span class='hn-top-story-tag'>Design</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -155,7 +155,7 @@ Your browser does not support the audio element.
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 22 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-05-25 <span class="hn-row-sep">·</span> 93 stories <span class="hn-row-sep">·</span> 1 days</span>
+<span class='hn-week-meta'>2026-05-25 <span class="hn-row-sep">·</span> 100 stories <span class="hn-row-sep">·</span> 1 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -164,7 +164,7 @@ Your browser does not support the audio element.
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/05/25/top_stories_05252026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>93</b> <span class="hn-row-sep">·</span> Programming <b>29</b> <span class="hn-row-sep">·</span> Hardware <b>14</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>27</b> <span class="hn-row-sep">·</span> AI <b>16</b></span>
 </a>
 </div>
 </div>
