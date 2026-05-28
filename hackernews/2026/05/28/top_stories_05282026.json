@@ -4,19 +4,19 @@
     "source": "https://news.ycombinator.com/",
     "api": "https://github.com/HackerNews/API",
     "count_requested": 50,
-    "count_written": 71,
-    "reused_same_day": 27,
-    "reused_cross_day": 1,
-    "new_llm_enriched": 20,
-    "scrape_time_display": "10:33, May 28, 2026 (PDT)",
+    "count_written": 95,
+    "reused_same_day": 25,
+    "reused_cross_day": 0,
+    "new_llm_enriched": 24,
+    "scrape_time_display": "13:14, May 28, 2026 (PDT)",
     "timezone": "America/Los_Angeles",
     "date_dir": "2026/05/28",
     "content_date": "2026-05-28",
-    "run_time_local": "10:33, May 28, 2026 (PDT)",
-    "run_time_utc": "2026-05-28 17:33:52 UTC",
+    "run_time_local": "13:14, May 28, 2026 (PDT)",
+    "run_time_utc": "2026-05-28 20:14:11 UTC",
     "incremental": true,
     "stories_max": 100,
-    "hot_score_time_utc": "2026-05-28 17:35:10 UTC"
+    "hot_score_time_utc": "2026-05-28 20:16:24 UTC"
   },
   "items": [
     {
@@ -31,13 +31,60 @@
         "id": 48311647,
         "type": "story",
         "by": "craigmart",
-        "score": 345,
-        "descendants": 216,
+        "score": 860,
+        "descendants": 648,
         "time": 1779986954,
         "comments_url": "https://news.ycombinator.com/item?id=48311647"
       },
-      "hot_score": 55.12,
       "tags": [
+        "AI"
+      ],
+      "hot_score": 40.56
+    },
+    {
+      "title_en": "Just Use Postgres for Durable Workflows",
+      "url": "https://www.dbos.dev/blog/postgres-is-all-you-need-for-durable-execution",
+      "title_zh": "直接用 Postgres 构建持久化工作流",
+      "created_display": "Created: May 28, 2026 / 11:41 PT",
+      "image_url": "https://cdn.prod.website-files.com/672411cbf038560468c9e68f/6a0dd8d2a4cb225be7b5c6c9_Postgres-backed-durable-workflow-execution.png",
+      "summary_en": "Postgres can serve as a durable workflow engine by leveraging transactional guarantees and durable storage. The piece outlines practical patterns for modeling steps as SQL transactions, using event logs, and idempotent workers to ensure reliability without a bespoke orchestrator.",
+      "summary_zh": "Postgres 可以通过事务性保证和持久存储来实现持久化工作流引擎。文中给出将步骤建模为 SQL 事务、使用事件日志和幂等工作流等实用模式，以在无需专门编排工具的情况下确保任务可靠执行。",
+      "hn": {
+        "id": 48313530,
+        "type": "story",
+        "by": "KraftyOne",
+        "score": 118,
+        "descendants": 42,
+        "time": 1779993706,
+        "comments_url": "https://news.ycombinator.com/item?id=48313530"
+      },
+      "hot_score": 11.8,
+      "tags": [
+        "Programming",
+        "Data"
+      ]
+    },
+    {
+      "title_en": "Anthropic raises $65B in Series H funding at $965B post-money valuation",
+      "url": "https://www.anthropic.com/news/series-h",
+      "title_zh": "Anthropic 完成 65 亿美元的 Series H 融资，估值达 9650 亿美元",
+      "created_display": "Created: May 28, 2026 / 11:09 PT",
+      "image_url": "https://www.anthropic.com/api/opengraph-illustration?name=Object%20Growth&backgroundColor=coral",
+      "summary_en": "Anthropic raises 65 billion in Series H, valuing the company at 9650 billion USD post-money. The round signals strong investor confidence in AI safety-centric models and the potential of AI products at scale, with implications for competitive dynamics and funding in the AI space.",
+      "summary_zh": "Anthropic 完成 65 亿美元的 Series H 融资，融资后估值高达 9650 亿美元。此轮融资体现投资者对 AI 安全与商业化潜力的强烈信心，并将影响行业竞争格局及未来的融资环境。",
+      "hn": {
+        "id": 48313048,
+        "type": "story",
+        "by": "meetpateltech",
+        "score": 137,
+        "descendants": 108,
+        "time": 1779991784,
+        "comments_url": "https://news.ycombinator.com/item?id=48313048"
+      },
+      "hot_score": 10.68,
+      "tags": [
+        "Business",
+        "Finance",
         "AI"
       ]
     },
@@ -59,9 +106,10 @@
         "comments_url": "https://news.ycombinator.com/item?id=48309233"
       },
       "tags": [
-        "Education"
+        "Education",
+        "Politics"
       ],
-      "hot_score": 16.75
+      "hot_score": 8.07
     },
     {
       "title_en": "Disagreement among frontier LLMs on real-world fact-checks",
@@ -75,60 +123,15 @@
         "id": 48307887,
         "type": "story",
         "by": "kostaj",
-        "score": 448,
-        "descendants": 307,
+        "score": 464,
+        "descendants": 322,
         "time": 1779970819,
         "comments_url": "https://news.ycombinator.com/item?id=48307887"
       },
-      "hot_score": 12.65,
       "tags": [
         "AI"
-      ]
-    },
-    {
-      "title_en": "New York passes pied-a-terre tax",
-      "url": "https://www.cnbc.com/2026/05/28/new-york-mamdani-pied-a-terre-tax-passes.html",
-      "title_zh": "纽约通过 pied-à-terre 税",
-      "created_display": "Created: May 28, 2026 / 07:37 PT",
-      "image_url": "https://image.cnbcfm.com/api/v1/image/108312660-1779901825216-gettyimages-1087690344-220_CENTRAL_PARK_SOUTH.jpeg?v=1779907100&w=1920&h=1080",
-      "summary_en": "New York approves a pied-à-terre tax aimed at non-primary residences, seeking to boost housing supply and city revenue. The move could reshape high-end real estate demand and prompt landlords and buyers to rethink property use.",
-      "summary_zh": "纽约通过 pied-à-terre 税，针对非主要居所，旨在提升住房供应并增加税收。此举可能改变高端房地产市场的需求格局，促使房东与买家重新考虑房产用途。",
-      "hn": {
-        "id": 48309584,
-        "type": "story",
-        "by": "proofofcontempt",
-        "score": 173,
-        "descendants": 221,
-        "time": 1779979071,
-        "comments_url": "https://news.ycombinator.com/item?id=48309584"
-      },
-      "hot_score": 9.65,
-      "tags": [
-        "Politics",
-        "Business"
-      ]
-    },
-    {
-      "title_en": "We replaced Zendesk",
-      "url": "https://tradecore.com/resources/blog/we-replaced-zendesk-in-48-hours",
-      "title_zh": "我们替换了 Zendesk",
-      "created_display": "Created: May 28, 2026 / 08:42 PT",
-      "image_url": "https://tradecore.com/lovable-uploads/4feb626f-566a-4587-8408-ece31349cd10.png",
-      "summary_en": "A case study on replacing Zendesk with an alternative helpdesk, detailing migration steps, cost considerations, and user experience adjustments. The post offers practical lessons for teams considering a tech stack overhaul.",
-      "summary_zh": "分享用替代方案替换 Zendesk 的实战经验，涵盖迁移步骤、成本考量与用户体验调整。为计划进行技术栈改造的团队提供可借鉴的经验。",
-      "hn": {
-        "id": 48310604,
-        "type": "story",
-        "by": "Liriel",
-        "score": 94,
-        "descendants": 68,
-        "time": 1779982945,
-        "comments_url": "https://news.ycombinator.com/item?id=48310604"
-      },
-      "hot_score": 8.1,
-      "tags": [
-        "Programming"
-      ]
+      ],
+      "hot_score": 7.42
     },
     {
       "title_en": "EU fines Temu €200M for allowing sale of illegal products",
@@ -142,15 +145,39 @@
         "id": 48309302,
         "type": "story",
         "by": "jjp",
-        "score": 162,
-        "descendants": 90,
+        "score": 247,
+        "descendants": 176,
         "time": 1779977898,
         "comments_url": "https://news.ycombinator.com/item?id=48309302"
       },
-      "hot_score": 8.05,
       "tags": [
+        "Business",
         "Legal"
-      ]
+      ],
+      "hot_score": 5.87
+    },
+    {
+      "title_en": "New York passes pied-a-terre tax",
+      "url": "https://www.cnbc.com/2026/05/28/new-york-mamdani-pied-a-terre-tax-passes.html",
+      "title_zh": "纽约通过 pied-à-terre 税",
+      "created_display": "Created: May 28, 2026 / 07:37 PT",
+      "image_url": "https://image.cnbcfm.com/api/v1/image/108312660-1779901825216-gettyimages-1087690344-220_CENTRAL_PARK_SOUTH.jpeg?v=1779907100&w=1920&h=1080",
+      "summary_en": "New York approves a pied-à-terre tax aimed at non-primary residences, seeking to boost housing supply and city revenue. The move could reshape high-end real estate demand and prompt landlords and buyers to rethink property use.",
+      "summary_zh": "纽约通过 pied-à-terre 税，针对非主要居所，旨在提升住房供应并增加税收。此举可能改变高端房地产市场的需求格局，促使房东与买家重新考虑房产用途。",
+      "hn": {
+        "id": 48309584,
+        "type": "story",
+        "by": "proofofcontempt",
+        "score": 227,
+        "descendants": 363,
+        "time": 1779979071,
+        "comments_url": "https://news.ycombinator.com/item?id=48309584"
+      },
+      "tags": [
+        "Politics",
+        "Business"
+      ],
+      "hot_score": 5.81
     },
     {
       "title_en": "Dynamic Workflows in Claude Code",
@@ -164,15 +191,38 @@
         "id": 48311705,
         "type": "story",
         "by": "mil22",
-        "score": 45,
-        "descendants": 26,
+        "score": 105,
+        "descendants": 91,
         "time": 1779987141,
         "comments_url": "https://news.ycombinator.com/item?id=48311705"
       },
-      "hot_score": 7.29,
       "tags": [
-        "Programming",
-        "AI"
+        "AI",
+        "Programming"
+      ],
+      "hot_score": 5.0
+    },
+    {
+      "title_en": "About LLMs at Zig Days",
+      "url": "https://kristoff.it/blog/llms-at-zig-days/",
+      "title_zh": "Zig Days 上的大语言模型",
+      "created_display": "Created: May 28, 2026 / 11:20 PT",
+      "image_url": "https://kristoff.it/logo.png",
+      "summary_en": "At Zig Days, the discussion covers how large language models intersect with the Zig community, including tooling, performance, and safety considerations for language-model-assisted development. The post shares practical takeaways for engineers exploring AI in the Rust/Zig ecosystem.",
+      "summary_zh": "在 Zig Days 会议上，讨论了大语言模型与 Zig 社区的耦合方式、工具链、性能与安全等议题，并给出在 Rust/Zig 生态中探索 AI 的实践要点。",
+      "hn": {
+        "id": 48313219,
+        "type": "story",
+        "by": "kristoff_it",
+        "score": 59,
+        "descendants": 44,
+        "time": 1779992434,
+        "comments_url": "https://news.ycombinator.com/item?id=48313219"
+      },
+      "hot_score": 4.94,
+      "tags": [
+        "AI",
+        "Programming"
       ]
     },
     {
@@ -193,9 +243,10 @@
         "comments_url": "https://news.ycombinator.com/item?id=48302745"
       },
       "tags": [
-        "Culture"
+        "Culture",
+        "Health"
       ],
-      "hot_score": 5.36
+      "hot_score": 4.22
     },
     {
       "title_en": "YouTube to automatically label AI-generated videos",
@@ -209,15 +260,38 @@
         "id": 48299753,
         "type": "story",
         "by": "nopg",
-        "score": 1205,
-        "descendants": 710,
+        "score": 1244,
+        "descendants": 739,
         "time": 1779912051,
         "comments_url": "https://news.ycombinator.com/item?id=48299753"
       },
       "tags": [
-        "AI"
+        "AI",
+        "Web"
       ],
-      "hot_score": 4.08
+      "hot_score": 3.47
+    },
+    {
+      "title_en": "Nitpicking the shell history scene in 'Tron: Legacy'",
+      "url": "https://www.chiark.greenend.org.uk/~sgtatham/quasiblog/tron-legacy/",
+      "title_zh": "对《Tron: Legacy》里 Shell history 场景的挑剔",
+      "created_display": "Created: May 28, 2026 / 12:15 PT",
+      "image_url": "https://www.chiark.greenend.org.uk/~sgtatham/quasiblog/tron-legacy/screenshot.webp",
+      "summary_en": "The post analyzes the shell history scene in Tron: Legacy to illustrate how films misrepresent basic computing concepts. It highlights a few inaccuracies and explains why precise technical details matter to both enthusiasts and professionals.",
+      "summary_zh": "本文分析《Tron: Legacy》中的 shell history 场景，借此揭示科幻电影对基础计算概念的错误呈现。文中指出若干不准确之处，并解释准确的技术细节对爱好者与专业人士的重要性。",
+      "hn": {
+        "id": 48314002,
+        "type": "story",
+        "by": "speckx",
+        "score": 25,
+        "descendants": 1,
+        "time": 1779995754,
+        "comments_url": "https://news.ycombinator.com/item?id=48314002"
+      },
+      "hot_score": 3.31,
+      "tags": [
+        "Entertainment"
+      ]
     },
     {
       "title_en": "The Permanent Upper Crow",
@@ -231,14 +305,37 @@
         "id": 48310280,
         "type": "story",
         "by": "whiteblossom",
-        "score": 44,
-        "descendants": 15,
+        "score": 106,
+        "descendants": 34,
         "time": 1779981784,
         "comments_url": "https://news.ycombinator.com/item?id=48310280"
       },
-      "hot_score": 3.25,
       "tags": [
         "Culture"
+      ],
+      "hot_score": 3.25
+    },
+    {
+      "title_en": "We replaced Zendesk",
+      "url": "https://tradecore.com/resources/blog/we-replaced-zendesk-in-48-hours",
+      "title_zh": "我们替换了 Zendesk",
+      "created_display": "Created: May 28, 2026 / 08:42 PT",
+      "image_url": "https://tradecore.com/lovable-uploads/4feb626f-566a-4587-8408-ece31349cd10.png",
+      "summary_en": "A case study on replacing Zendesk with an alternative helpdesk, detailing migration steps, cost considerations, and user experience adjustments. The post offers practical lessons for teams considering a tech stack overhaul.",
+      "summary_zh": "分享用替代方案替换 Zendesk 的实战经验，涵盖迁移步骤、成本考量与用户体验调整。为计划进行技术栈改造的团队提供可借鉴的经验。",
+      "hn": {
+        "id": 48310604,
+        "type": "story",
+        "by": "Liriel",
+        "score": 94,
+        "descendants": 68,
+        "time": 1779982945,
+        "comments_url": "https://news.ycombinator.com/item?id=48310604"
+      },
+      "hot_score": 3.14,
+      "tags": [
+        "Programming",
+        "DevOps"
       ]
     },
     {
@@ -253,39 +350,84 @@
         "id": 48308376,
         "type": "story",
         "by": "Wirbelwind",
-        "score": 86,
-        "descendants": 45,
+        "score": 164,
+        "descendants": 83,
         "time": 1779973320,
         "comments_url": "https://news.ycombinator.com/item?id=48308376"
       },
-      "hot_score": 2.88,
       "tags": [
         "Show HN",
-        "AI",
-        "Gaming"
+        "AI"
+      ],
+      "hot_score": 2.98
+    },
+    {
+      "title_en": "Legislation Killed Would Have Effectively Blocked Police LPR, Including Flock",
+      "url": "https://ipvm.com/reports/bipartisan-alpr-amendment-killed",
+      "title_zh": "立法未通过 本应有效阻止警方的车牌识别技术",
+      "created_display": "Created: May 28, 2026 / 10:10 PT",
+      "image_url": "https://s.ipvm.com/uploads/embedded_image/10926eaa1ae79efeee6e9d1a930526b360227bd6349abee925b392badbe394c1/cecf445c06066371.png",
+      "summary_en": "A bipartisan amendment to restrict police use of automated license plate readers was killed, leaving LPR deployments and data practices largely unchanged. The episode highlights privacy concerns around law enforcement surveillance and how policy gaps shape vendor deployments.",
+      "summary_zh": "一项两党提案旨在限制警方使用车牌识别等监控技术，但最终被否决。此事凸显了对执法监控的隐私担忧，以及政策缺口对厂商部署和数据使用的影响。",
+      "hn": {
+        "id": 48312082,
+        "type": "story",
+        "by": "jhonovich",
+        "score": 52,
+        "descendants": 33,
+        "time": 1779988205,
+        "comments_url": "https://news.ycombinator.com/item?id=48312082"
+      },
+      "hot_score": 2.71,
+      "tags": [
+        "Privacy",
+        "Legal",
+        "Politics"
       ]
     },
     {
-      "title_en": "Creusot helps you prove your Rust code is correct",
-      "url": "https://github.com/creusot-rs/creusot/tree/master",
-      "title_zh": "Creusot 帮助你证明 Rust 代码的正确性",
-      "created_display": "Created: May 28, 2026 / 07:42 PT",
-      "image_url": "https://repository-images.githubusercontent.com/332798321/59b89300-747b-11eb-8ac2-20555f506939",
-      "summary_en": "Creusot provides Rust formal verification tooling to prove code correctness, enabling stronger guarantees for safety-critical software. The project demonstrates how automated proofs complement testing, potentially reducing bugs in critical systems.",
-      "summary_zh": "Creusot 提供 Rust 的形式化验证工具，帮助证明代码正确性，为关键软件提供更强的安全保障。此类自动证明与测试互为补充，可能降低关键系统中的漏洞数量。",
+      "title_en": "Bricks and Minifigs Stole a Man's $200k Lego Collection",
+      "url": "https://mybricklog.com/blog/bricks-minifigs-corporate-stole-old-mans-200000-lego-collection",
+      "title_zh": "Bricks and Minifigs 偷走了一名男子价值 20 万美元的乐高收藏",
+      "created_display": "Created: May 28, 2026 / 12:24 PT",
+      "image_url": "https://www.mybricklog.com/thumbnail.png",
+      "summary_en": "Bricks and Minifigs, a well-known toy shop, is alleged to have taken a man’s $200k LEGO collection, revealing tensions around provenance, possession, and accountability in collectibles. The incident underscores risks when high-value items pass through small businesses and retailers.",
+      "summary_zh": "Bricks and Minifigs 这家知名玩具店被指控盗走一名男子价值 20 万美元的乐高收藏，暴露了收藏品在流通过程中的所有权、保管与责任等问题。此事凸显高价值物品在小商家手中流转时的风险与挑战。",
       "hn": {
-        "id": 48309645,
+        "id": 48314136,
         "type": "story",
-        "by": "fanf2",
-        "score": 50,
-        "descendants": 5,
-        "time": 1779979324,
-        "comments_url": "https://news.ycombinator.com/item?id=48309645"
+        "by": "philips",
+        "score": 17,
+        "descendants": 1,
+        "time": 1779996249,
+        "comments_url": "https://news.ycombinator.com/item?id=48314136"
       },
-      "hot_score": 2.82,
+      "hot_score": 2.4,
       "tags": [
-        "Programming",
-        "Open Source"
+        "Business",
+        "Legal"
+      ]
+    },
+    {
+      "title_en": "I hated writing–until I learned there's a science to it(2024)",
+      "url": "https://www.science.org/content/article/i-hated-writing-until-i-learned-there-s-science-it",
+      "title_zh": "我曾讨厌写作，直到我发现写作有科学",
+      "created_display": "Created: May 28, 2026 / 10:36 PT",
+      "image_url": null,
+      "summary_en": "Writing is not a mystery but a craft with learnable science.",
+      "summary_zh": "写作不是谜一样的天赋，而是一门可学习的工艺，具备科学支撑。文章指出基于研究的结构、修订循环和反馈机制等要点，帮助忙碌的科技工作者提升表达能力。",
+      "hn": {
+        "id": 48312528,
+        "type": "story",
+        "by": "o4c",
+        "score": 39,
+        "descendants": 13,
+        "time": 1779989807,
+        "comments_url": "https://news.ycombinator.com/item?id=48312528"
+      },
+      "hot_score": 2.38,
+      "tags": [
+        "Science"
       ]
     },
     {
@@ -306,10 +448,10 @@
         "comments_url": "https://news.ycombinator.com/item?id=48296794"
       },
       "tags": [
-        "AI",
-        "Business"
+        "Business",
+        "AI"
       ],
-      "hot_score": 2.8
+      "hot_score": 2.36
     },
     {
       "title_en": "DuckDuckGo search saw 28% more visits after Google said people love AI mode",
@@ -330,33 +472,31 @@
       },
       "tags": [
         "AI",
-        "Business",
+        "Web",
         "Privacy"
       ],
-      "hot_score": 2.69
+      "hot_score": 2.27
     },
     {
-      "title_en": "ICE has spent over $25M on iris scanners in no-bid contracts",
-      "url": "https://www.npr.org/2026/05/27/nx-s1-5822429/ice-buys-iris-scanners-tech-tools",
-      "title_zh": "ICE 已在无竞标合同中花费超 2500 万美元购买虹膜扫描仪",
-      "created_display": "Created: May 28, 2026 / 09:38 PT",
-      "image_url": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x1688+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F28%2Fd9%2Ff09c152c49268db1cb5c789358f4%2Fap25311656720758.jpg",
-      "summary_en": "U.S. Immigration and Customs Enforcement spent more than $25 million on iris scanners through no-bid contracts, prompting questions about procurement transparency and privacy. The findings fuel debates over government vendors and biometric surveillance policy.",
-      "summary_zh": "美国移民与海关执法局通过无招标合同购买虹膜扫描仪花费逾2500万美元，引发对采购透明度与隐私的质疑。此事加剧了对政府供应商选择与生物识别监控政策的讨论。",
+      "title_en": "Sam Altman and Dario Amodei are both walking back AI jobs apocalypse predictions",
+      "url": "https://fortune.com/2026/05/26/sam-altman-dario-amodei-walking-back-ai-jobs-apocalypse-prophecies-ipo/",
+      "title_zh": "萨姆·奥特曼与达里奥·阿莫代伊都在收回 AI 就业末日预言",
+      "created_display": "Created: May 28, 2026 / 12:43 PT",
+      "image_url": "https://fortune.com/img-assets/wp-content/uploads/2026/05/GettyImages-2265445220-e1779827097282.jpg?resize=1200,600",
+      "summary_en": "Both Sam Altman and Dario Amodei are retreating from earlier doomsday predictions about AI destroying jobs, acknowledging uncertainty and the potential for productivity gains. They emphasize measured optimism and the need for thoughtful policy that balances innovation with worker transitions.",
+      "summary_zh": "萨姆·奥特曼与达里奥·阿莫代伊都在收回以往关于 AI 将引发大规模失业的预言，承认不确定性并强调生产力提升的潜力。他们呼吁以审慎的态度看待治理，寻求在鼓励创新和帮助劳动者转型之间取得平衡。",
       "hn": {
-        "id": 48311446,
+        "id": 48314363,
         "type": "story",
-        "by": "ck2",
-        "score": 19,
-        "descendants": 5,
-        "time": 1779986280,
-        "comments_url": "https://news.ycombinator.com/item?id=48311446"
+        "by": "ianrahman",
+        "score": 13,
+        "descendants": 4,
+        "time": 1779997394,
+        "comments_url": "https://news.ycombinator.com/item?id=48314363"
       },
-      "hot_score": 2.56,
+      "hot_score": 2.22,
       "tags": [
-        "Privacy",
-        "Security",
-        "Politics"
+        "AI"
       ]
     },
     {
@@ -371,17 +511,63 @@
         "id": 48304260,
         "type": "story",
         "by": "stagas",
-        "score": 351,
-        "descendants": 153,
+        "score": 376,
+        "descendants": 165,
         "time": 1779940201,
         "comments_url": "https://news.ycombinator.com/item?id=48304260"
       },
       "tags": [
         "Show HN",
-        "Gaming",
+        "Entertainment",
         "Web"
       ],
-      "hot_score": 2.45
+      "hot_score": 1.98
+    },
+    {
+      "title_en": "Bitburner, programming-based incremental game",
+      "url": "https://bitburner-official.github.io/",
+      "title_zh": "Bitburner：一款以编程为核心的增量游戏",
+      "created_display": "Created: May 28, 2026 / 10:43 PT",
+      "image_url": null,
+      "summary_en": "Bitburner blends incremental gameplay with real coding in JavaScript, tasking players with writing scripts to perform simulated hacking and growth. It is a playful way to practice problem solving, learn automation, and explore algorithmic thinking inside a game.",
+      "summary_zh": "Bitburner 将增量式游戏玩法与真实编码结合，玩家需要用 JavaScript 编写脚本来进行模拟的黑客任务并壮大。它把编程练习、自动化学习和算法思维带入游戏之中。",
+      "hn": {
+        "id": 48312616,
+        "type": "story",
+        "by": "agmater",
+        "score": 30,
+        "descendants": 4,
+        "time": 1779990216,
+        "comments_url": "https://news.ycombinator.com/item?id=48312616"
+      },
+      "hot_score": 1.9,
+      "tags": [
+        "Gaming",
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "Creusot helps you prove your Rust code is correct",
+      "url": "https://github.com/creusot-rs/creusot/tree/master",
+      "title_zh": "Creusot 帮助你证明 Rust 代码的正确性",
+      "created_display": "Created: May 28, 2026 / 07:42 PT",
+      "image_url": "https://repository-images.githubusercontent.com/332798321/59b89300-747b-11eb-8ac2-20555f506939",
+      "summary_en": "Creusot provides Rust formal verification tooling to prove code correctness, enabling stronger guarantees for safety-critical software. The project demonstrates how automated proofs complement testing, potentially reducing bugs in critical systems.",
+      "summary_zh": "Creusot 提供 Rust 的形式化验证工具，帮助证明代码正确性，为关键软件提供更强的安全保障。此类自动证明与测试互为补充，可能降低关键系统中的漏洞数量。",
+      "hn": {
+        "id": 48309645,
+        "type": "story",
+        "by": "fanf2",
+        "score": 62,
+        "descendants": 7,
+        "time": 1779979324,
+        "comments_url": "https://news.ycombinator.com/item?id=48309645"
+      },
+      "tags": [
+        "Programming",
+        "Open Source"
+      ],
+      "hot_score": 1.59
     },
     {
       "title_en": "Last.fm is now independent",
@@ -402,9 +588,10 @@
       },
       "tags": [
         "Business",
+        "Culture",
         "Privacy"
       ],
-      "hot_score": 1.85
+      "hot_score": 1.57
     },
     {
       "title_en": "Tech CEOs are apparently suffering from AI psychosis",
@@ -425,33 +612,31 @@
       },
       "tags": [
         "AI",
-        "Business",
         "Web"
       ],
-      "hot_score": 1.59
+      "hot_score": 1.35
     },
     {
-      "title_en": "FBI Arrests CIA Official with $40M in Gold Bars in His Home",
-      "url": "https://www.nytimes.com/2026/05/27/us/politics/fbi-arrest-cia-official-gold-bars.html",
-      "title_zh": "FBI逮捕中情局官员，家中搜出价值 4,000 万美元的金条",
-      "created_display": "Created: May 27, 2026 / 16:23 PT",
-      "image_url": null,
-      "summary_en": "A national-security employee was arrested after authorities found about $40 million in gold bars at his residence, triggering criminal charges and scrutiny over potential financial misconduct. The case raises questions about how intelligence personnel are monitored for unexplained wealth and the intersection of internal security and federal law enforcement.",
-      "summary_zh": "一名情报人员因住所被查获约价值 4,000 万美元的金条而遭逮捕，并面临刑事指控，事件引发对其财务行为的审查。该案凸显了对情报人员无合理解释财富的监管缺口，以及内部安全与联邦执法之间的交集。",
+      "title_en": "Announcing Rust 1.96",
+      "url": "https://blog.rust-lang.org/2026/05/28/Rust-1.96.0/",
+      "title_zh": "Rust 1.96 发布",
+      "created_display": "Created: May 28, 2026 / 12:20 PT",
+      "image_url": "https://www.rust-lang.org/static/images/rust-social-wide.jpg",
+      "summary_en": "Rust 1.96 release introduces new standard library improvements and language enhancements, with incremental improvements to APIs, compiler diagnostics, and stability. The update continues Rust's pattern of steady, practical growth.",
+      "summary_zh": "Rust 1.96 版本带来标准库和语言层面的改进，包含对 API、编译器诊断与稳定性的持续提升，体现了 Rust 稳健、务实的迭代风格。",
       "hn": {
-        "id": 48302151,
+        "id": 48314069,
         "type": "story",
-        "by": "cwwc",
-        "score": 337,
-        "descendants": 221,
-        "time": 1779924209,
-        "comments_url": "https://news.ycombinator.com/item?id=48302151"
+        "by": "adamch",
+        "score": 10,
+        "descendants": 0,
+        "time": 1779996006,
+        "comments_url": "https://news.ycombinator.com/item?id=48314069"
       },
+      "hot_score": 1.29,
       "tags": [
-        "Security",
-        "Legal"
-      ],
-      "hot_score": 1.5
+        "Programming"
+      ]
     },
     {
       "title_en": "Canada to order military plane fleet from Sweden in shift from US suppliers",
@@ -473,7 +658,29 @@
       "tags": [
         "Politics"
       ],
-      "hot_score": 1.49
+      "hot_score": 1.25
+    },
+    {
+      "title_en": "FBI Arrests CIA Official with $40M in Gold Bars in His Home",
+      "url": "https://www.nytimes.com/2026/05/27/us/politics/fbi-arrest-cia-official-gold-bars.html",
+      "title_zh": "FBI逮捕中情局官员，家中搜出价值 4,000 万美元的金条",
+      "created_display": "Created: May 27, 2026 / 16:23 PT",
+      "image_url": null,
+      "summary_en": "A national-security employee was arrested after authorities found about $40 million in gold bars at his residence, triggering criminal charges and scrutiny over potential financial misconduct. The case raises questions about how intelligence personnel are monitored for unexplained wealth and the intersection of internal security and federal law enforcement.",
+      "summary_zh": "一名情报人员因住所被查获约价值 4,000 万美元的金条而遭逮捕，并面临刑事指控，事件引发对其财务行为的审查。该案凸显了对情报人员无合理解释财富的监管缺口，以及内部安全与联邦执法之间的交集。",
+      "hn": {
+        "id": 48302151,
+        "type": "story",
+        "by": "cwwc",
+        "score": 337,
+        "descendants": 221,
+        "time": 1779924209,
+        "comments_url": "https://news.ycombinator.com/item?id=48302151"
+      },
+      "tags": [
+        "Security"
+      ],
+      "hot_score": 1.2
     },
     {
       "title_en": "Google employee charged with $1M Polymarket insider trading bet on search term",
@@ -494,34 +701,10 @@
       },
       "tags": [
         "Finance",
-        "Legal",
         "Privacy",
         "Business"
       ],
-      "hot_score": 1.44
-    },
-    {
-      "title_en": "A Eureka machine that thinks like nature and explores what AI cannot",
-      "url": "https://iisc.ac.in/a-eureka-machine-that-thinks-like-nature-and-explores-what-ai-cannot/",
-      "title_zh": "像自然一样思考的尤里卡机器：探索AI无法胜任的领域",
-      "created_display": "Created: May 27, 2026 / 23:40 PT",
-      "image_url": "https://iisc.ac.in/wp-content/uploads/2018/03/IISc-logo.jpg",
-      "summary_en": "A nature-inspired 'Eureka' machine tackles problems that standard AI struggles with, hinting at new computational paradigms. By borrowing strategies from nature—adaptation, robustness, and self-organization—it reveals limits of current AI and points toward future research directions.",
-      "summary_zh": "一台受自然启发的“尤里卡”机器，尝试解决传统AI难以胜任的问题，揭示了新的计算范式潜力。通过借鉴自然界的适应性、鲁棒性与自我组织等策略，展示了现有AI的局限并指向未来的研究方向。",
-      "hn": {
-        "id": 48305446,
-        "type": "story",
-        "by": "kunalsin9h",
-        "score": 139,
-        "descendants": 40,
-        "time": 1779950431,
-        "comments_url": "https://news.ycombinator.com/item?id=48305446"
-      },
-      "tags": [
-        "AI",
-        "Science"
-      ],
-      "hot_score": 1.38
+      "hot_score": 1.13
     },
     {
       "title_en": "SimCity 3k in 4k (2025)",
@@ -543,7 +726,7 @@
       "tags": [
         "Gaming"
       ],
-      "hot_score": 1.29
+      "hot_score": 1.08
     },
     {
       "title_en": "What Apple and Google are doing to push notifications",
@@ -565,53 +748,73 @@
       "tags": [
         "Privacy"
       ],
-      "hot_score": 1.24
+      "hot_score": 1.02
     },
     {
-      "title_en": "I'm Getting into Mesh Networks (Meshtastic, MeshCore, and Reticulum)",
-      "url": "https://www.jonaharagon.com/posts/im-getting-into-mesh-networks-meshtastic-meshcore-and-reticulum/",
-      "title_zh": "我开始接触网状网络（Meshtastic、MeshCore 与 Reticulum）",
-      "created_display": "Created: May 27, 2026 / 12:52 PT",
-      "image_url": "https://images.unsplash.com/photo-1590859808308-3d2d9c515b1a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDN8fG1lc2h8ZW58MHx8fHwxNzY5NDYwNTA5fDA&ixlib=rb-4.1.0&q=80&w=2000",
-      "summary_en": "The author shares first impressions exploring mesh networking platforms such as Meshtastic, MeshCore, and Reticulum, outlining potential use cases for resilient, off-grid communication.",
-      "summary_zh": "作者分享初步体验，探讨 Meshtastic、MeshCore 与 Reticulum 等网状网络平台的潜在应用，如离网环境下的鲁棒通信，同时指出不同技术栈的部署难点与取舍。",
+      "title_en": "The Lone Lisp Heap",
+      "url": "https://www.matheusmoreira.com/articles/lone-lisp-heap",
+      "title_zh": "孤独的 Lisp 堆",
+      "created_display": "Created: May 28, 2026 / 11:16 PT",
+      "image_url": null,
+      "summary_en": "An exploration of Lisp's memory model, focusing on the heap and how garbage collection interacts with Lisp-era features like macros. The piece links heap design choices to performance and language implementation challenges.",
+      "summary_zh": "本文探讨 Lisp 的内存模型，聚焦堆结构及其与宏等语言特性的垃圾回收关系。将堆设计选择与性能与实现挑战联系起来，提供对实现者的洞见。",
       "hn": {
-        "id": 48299638,
+        "id": 48313142,
         "type": "story",
-        "by": "Panda_",
-        "score": 318,
-        "descendants": 120,
-        "time": 1779911569,
-        "comments_url": "https://news.ycombinator.com/item?id=48299638"
+        "by": "stevekemp",
+        "score": 13,
+        "descendants": 5,
+        "time": 1779992180,
+        "comments_url": "https://news.ycombinator.com/item?id=48313142"
       },
+      "hot_score": 0.99,
       "tags": [
-        "Open Source",
         "Programming"
-      ],
-      "hot_score": 1.06
+      ]
     },
     {
-      "title_en": "I analysed 20 years of my chats",
-      "url": "https://drobinin.com/posts/am-i-a-bad-friend/",
-      "title_zh": "我分析了二十年的聊天记录",
-      "created_display": "Created: May 27, 2026 / 16:31 PT",
-      "image_url": "https://drobinin.com/assets/qs-emotional-register.png",
-      "summary_en": "A long-running look at 20 years of chats reveals patterns in closeness, miscommunication, and evolving friendship dynamics. The analysis raises questions about self-awareness and the privacy costs of preserving intimate digital records.",
-      "summary_zh": "通过二十年的聊天记录，作者揭示了亲密度、沟通误差与友谊关系随时间的演变模式。此分析也引发对自我认知偏差以及保留大量私人对话所带来隐私代价的思考。",
+      "title_en": "A Eureka machine that thinks like nature and explores what AI cannot",
+      "url": "https://iisc.ac.in/a-eureka-machine-that-thinks-like-nature-and-explores-what-ai-cannot/",
+      "title_zh": "像自然一样思考的尤里卡机器：探索AI无法胜任的领域",
+      "created_display": "Created: May 27, 2026 / 23:40 PT",
+      "image_url": "https://iisc.ac.in/wp-content/uploads/2018/03/IISc-logo.jpg",
+      "summary_en": "A nature-inspired 'Eureka' machine tackles problems that standard AI struggles with, hinting at new computational paradigms. By borrowing strategies from nature—adaptation, robustness, and self-organization—it reveals limits of current AI and points toward future research directions.",
+      "summary_zh": "一台受自然启发的“尤里卡”机器，尝试解决传统AI难以胜任的问题，揭示了新的计算范式潜力。通过借鉴自然界的适应性、鲁棒性与自我组织等策略，展示了现有AI的局限并指向未来的研究方向。",
       "hn": {
-        "id": 48302220,
+        "id": 48305446,
         "type": "story",
-        "by": "valzevul",
-        "score": 236,
-        "descendants": 134,
-        "time": 1779924673,
-        "comments_url": "https://news.ycombinator.com/item?id=48302220"
+        "by": "kunalsin9h",
+        "score": 139,
+        "descendants": 40,
+        "time": 1779950431,
+        "comments_url": "https://news.ycombinator.com/item?id=48305446"
       },
       "tags": [
-        "Privacy",
-        "Data"
+        "AI"
       ],
-      "hot_score": 1.06
+      "hot_score": 0.98
+    },
+    {
+      "title_en": "Microsoft's stance on zero day exploits is a dumpster fire of their own making",
+      "url": "https://doublepulsar.com/microsofts-stance-on-zero-day-exploits-is-a-dumpster-fire-of-their-own-making-0946117940a4",
+      "title_zh": "微软对零日漏洞的立场自作自受",
+      "created_display": "Created: May 28, 2026 / 11:08 PT",
+      "image_url": "https://miro.medium.com/v2/resize:fit:931/1*V748lzfIQtPK_ADtkJ0Y7Q.png",
+      "summary_en": "Critiques Microsoft's stance on zero-day exploits, arguing it discourages timely patching and transparency, which undermines overall security. The piece calls for clearer vulnerability disclosure and responsible security policy.",
+      "summary_zh": "批评微软对零日漏洞的立场，认为这会阻碍及时修补和透明度，削弱整体安全性。呼吁对漏洞披露和安全政策采取更清晰、负责任的态度。",
+      "hn": {
+        "id": 48313038,
+        "type": "story",
+        "by": "_tk_",
+        "score": 13,
+        "descendants": 1,
+        "time": 1779991739,
+        "comments_url": "https://news.ycombinator.com/item?id=48313038"
+      },
+      "hot_score": 0.94,
+      "tags": [
+        "Security"
+      ]
     },
     {
       "title_en": "Private equity bought America's essential services",
@@ -631,10 +834,143 @@
         "comments_url": "https://news.ycombinator.com/item?id=48292941"
       },
       "tags": [
-        "Business",
-        "Finance"
+        "Business"
       ],
-      "hot_score": 1.02
+      "hot_score": 0.88
+    },
+    {
+      "title_en": "I'm Getting into Mesh Networks (Meshtastic, MeshCore, and Reticulum)",
+      "url": "https://www.jonaharagon.com/posts/im-getting-into-mesh-networks-meshtastic-meshcore-and-reticulum/",
+      "title_zh": "我开始接触网状网络（Meshtastic、MeshCore 与 Reticulum）",
+      "created_display": "Created: May 27, 2026 / 12:52 PT",
+      "image_url": "https://images.unsplash.com/photo-1590859808308-3d2d9c515b1a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDN8fG1lc2h8ZW58MHx8fHwxNzY5NDYwNTA5fDA&ixlib=rb-4.1.0&q=80&w=2000",
+      "summary_en": "The author shares first impressions exploring mesh networking platforms such as Meshtastic, MeshCore, and Reticulum, outlining potential use cases for resilient, off-grid communication.",
+      "summary_zh": "作者分享初步体验，探讨 Meshtastic、MeshCore 与 Reticulum 等网状网络平台的潜在应用，如离网环境下的鲁棒通信，同时指出不同技术栈的部署难点与取舍。",
+      "hn": {
+        "id": 48299638,
+        "type": "story",
+        "by": "Panda_",
+        "score": 318,
+        "descendants": 120,
+        "time": 1779911569,
+        "comments_url": "https://news.ycombinator.com/item?id=48299638"
+      },
+      "tags": [
+        "Open Source"
+      ],
+      "hot_score": 0.88
+    },
+    {
+      "title_en": "Endive: A JVM native WebAssembly runtime",
+      "url": "https://github.com/bytecodealliance/endive",
+      "title_zh": "Endive：一个面向 JVM 的原生 WebAssembly 运行时",
+      "created_display": "Created: May 28, 2026 / 09:40 PT",
+      "image_url": "https://opengraph.githubassets.com/1db56b41302e92b9c7df88a2cd591c196aaa2242c07ebddefbb71d34027a1f5b/bytecodealliance/endive",
+      "summary_en": "Endive provides a JVM-native WebAssembly runtime, enabling Wasm modules to run with Java interoperability and low overhead. It opens up potential use cases for server-side Wasm and plugin ecosystems within the JVM ecosystem.",
+      "summary_zh": "Endive 提供在 JVM 上原生运行 WebAssembly 的运行时，实现 Wasm 模块与 Java 的互操作与较低开销。它为服务器端 Wasm 和插件生态带来新的实现路径。",
+      "hn": {
+        "id": 48311490,
+        "type": "story",
+        "by": "theanonymousone",
+        "score": 20,
+        "descendants": 4,
+        "time": 1779986433,
+        "comments_url": "https://news.ycombinator.com/item?id=48311490"
+      },
+      "hot_score": 0.86,
+      "tags": [
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "I analysed 20 years of my chats",
+      "url": "https://drobinin.com/posts/am-i-a-bad-friend/",
+      "title_zh": "我分析了二十年的聊天记录",
+      "created_display": "Created: May 27, 2026 / 16:31 PT",
+      "image_url": "https://drobinin.com/assets/qs-emotional-register.png",
+      "summary_en": "A long-running look at 20 years of chats reveals patterns in closeness, miscommunication, and evolving friendship dynamics. The analysis raises questions about self-awareness and the privacy costs of preserving intimate digital records.",
+      "summary_zh": "通过二十年的聊天记录，作者揭示了亲密度、沟通误差与友谊关系随时间的演变模式。此分析也引发对自我认知偏差以及保留大量私人对话所带来隐私代价的思考。",
+      "hn": {
+        "id": 48302220,
+        "type": "story",
+        "by": "valzevul",
+        "score": 236,
+        "descendants": 134,
+        "time": 1779924673,
+        "comments_url": "https://news.ycombinator.com/item?id=48302220"
+      },
+      "tags": [
+        "Privacy"
+      ],
+      "hot_score": 0.85
+    },
+    {
+      "title_en": "Show HN: Ktx – Open-source executable context layer for data agents",
+      "url": "https://github.com/Kaelio/ktx",
+      "title_zh": "Show HN: Ktx – 面向数据代理的开源可执行上下文层",
+      "created_display": "Created: May 28, 2026 / 08:05 PT",
+      "image_url": "https://opengraph.githubassets.com/a6b2881a2839bfe7a1d82a98dfdb5f07b9f2faf137a78fed5e032ae7ab70a333/Kaelio/ktx",
+      "summary_en": "Ktx introduces an open-source executable context layer for data agents, enabling agents to carry executable context across tasks and environments. By formalizing context handling, it aims to simplify building autonomous data workflows and improve reproducibility.",
+      "summary_zh": "Ktx 是一个面向数据代理的开源可执行上下文层，能在任务与环境之间携带可执行上下文。通过对上下文处理的标准化，旨在简化自驱动数据工作流的构建并提升可重复性。",
+      "hn": {
+        "id": 48309986,
+        "type": "story",
+        "by": "lucamrtl",
+        "score": 30,
+        "descendants": 3,
+        "time": 1779980706,
+        "comments_url": "https://news.ycombinator.com/item?id=48309986"
+      },
+      "tags": [
+        "Show HN",
+        "Open Source"
+      ],
+      "hot_score": 0.83
+    },
+    {
+      "title_en": "Separate the Cord from the Device",
+      "url": "https://bookofjoe2.blogspot.com/2026/05/blog-post_27.html",
+      "title_zh": "把线缆与设备分离",
+      "created_display": "Created: May 28, 2026 / 12:14 PT",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwQDWeAhU6vgmc1bT5HE_KUXP7WriUkARFTLEWNbnjsymrO7eJuVVJucepqgKjAg7r3TC2-zTxFXHyXfqCSRlgOC7TKAshCWF19wSdJornAwLGA3JlOwFOArC6LP2fwRPPxruvRgC0Ify7yE6UGvULlZKgtNG0lEt9WzERqCaISYPGP4CpmEMOs8T3Z5CV/w1200-h630-p-k-no-nu/Screenshot%202026-05-23%20at%209.58.34%E2%80%AFAM.png",
+      "summary_en": "Decoupling cords from devices can simplify setups, extend device life, and enable easier upgrades. The post weighs wireless and modular options and offers practical tips for a cleaner, more flexible workspace.",
+      "summary_zh": "将线缆与设备分离可以简化布线、延长设备寿命，并便于升级。文中比较了无线与模块化方案，并给出实现更清爽、灵活工作区的实用建议。",
+      "hn": {
+        "id": 48313990,
+        "type": "story",
+        "by": "bookofjoe",
+        "score": 7,
+        "descendants": 6,
+        "time": 1779995678,
+        "comments_url": "https://news.ycombinator.com/item?id=48313990"
+      },
+      "hot_score": 0.82,
+      "tags": [
+        "Hardware"
+      ]
+    },
+    {
+      "title_en": "ICE has spent over $25M on iris scanners in no-bid contracts",
+      "url": "https://www.npr.org/2026/05/27/nx-s1-5822429/ice-buys-iris-scanners-tech-tools",
+      "title_zh": "ICE 已在无竞标合同中花费超 2500 万美元购买虹膜扫描仪",
+      "created_display": "Created: May 28, 2026 / 09:38 PT",
+      "image_url": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x1688+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F28%2Fd9%2Ff09c152c49268db1cb5c789358f4%2Fap25311656720758.jpg",
+      "summary_en": "U.S. Immigration and Customs Enforcement spent more than $25 million on iris scanners through no-bid contracts, prompting questions about procurement transparency and privacy. The findings fuel debates over government vendors and biometric surveillance policy.",
+      "summary_zh": "美国移民与海关执法局通过无招标合同购买虹膜扫描仪花费逾2500万美元，引发对采购透明度与隐私的质疑。此事加剧了对政府供应商选择与生物识别监控政策的讨论。",
+      "hn": {
+        "id": 48311446,
+        "type": "story",
+        "by": "ck2",
+        "score": 19,
+        "descendants": 5,
+        "time": 1779986280,
+        "comments_url": "https://news.ycombinator.com/item?id=48311446"
+      },
+      "hot_score": 0.8,
+      "tags": [
+        "Privacy",
+        "Politics"
+      ]
     },
     {
       "title_en": "Trivial Pursuits",
@@ -648,39 +984,15 @@
         "id": 48311539,
         "type": "story",
         "by": "diodorus",
-        "score": 6,
-        "descendants": 0,
+        "score": 15,
+        "descendants": 5,
         "time": 1779986604,
         "comments_url": "https://news.ycombinator.com/item?id=48311539"
       },
-      "hot_score": 0.75,
       "tags": [
-        "Culture",
-        "Politics"
-      ]
-    },
-    {
-      "title_en": "Rust (and Slint) on a Jailbroken Kindle",
-      "url": "https://sverre.me/blog/rust-on-kindle/",
-      "title_zh": "在越狱 Kindle 上运行 Rust 与 Slint",
-      "created_display": "Created: May 27, 2026 / 12:51 PT",
-      "image_url": "https://sverre.me/processed_images/kindle_slint.4fe7d110ed3ed9bf.webp",
-      "summary_en": "A maker demonstrates running Rust and the Slint UI toolkit on a jailbroken Kindle, showing that modern language ecosystems can reach constrained devices. The experiment highlights how compact runtimes and cross-compilation enable interactive interfaces on e-readers.",
-      "summary_zh": "一位爱好者在越狱的 Kindle 上演示了 Rust 及 Slint 用户界面工具包的运行，证明紧凑的运行时和跨编译能够把现代语言生态带到受限设备。此类尝试凸显了在低功耗电子书阅读器上实现交互式界面的可行性。",
-      "hn": {
-        "id": 48299623,
-        "type": "story",
-        "by": "homarp",
-        "score": 220,
-        "descendants": 33,
-        "time": 1779911507,
-        "comments_url": "https://news.ycombinator.com/item?id=48299623"
-      },
-      "tags": [
-        "Programming",
-        "Hardware"
+        "Culture"
       ],
-      "hot_score": 0.73
+      "hot_score": 0.64
     },
     {
       "title_en": "All of human cooking compressed into 2 megabytes",
@@ -700,10 +1012,53 @@
         "comments_url": "https://news.ycombinator.com/item?id=48291225"
       },
       "tags": [
-        "Science",
         "Data"
       ],
-      "hot_score": 0.7
+      "hot_score": 0.61
+    },
+    {
+      "title_en": "Rust (and Slint) on a Jailbroken Kindle",
+      "url": "https://sverre.me/blog/rust-on-kindle/",
+      "title_zh": "在越狱 Kindle 上运行 Rust 与 Slint",
+      "created_display": "Created: May 27, 2026 / 12:51 PT",
+      "image_url": "https://sverre.me/processed_images/kindle_slint.4fe7d110ed3ed9bf.webp",
+      "summary_en": "A maker demonstrates running Rust and the Slint UI toolkit on a jailbroken Kindle, showing that modern language ecosystems can reach constrained devices. The experiment highlights how compact runtimes and cross-compilation enable interactive interfaces on e-readers.",
+      "summary_zh": "一位爱好者在越狱的 Kindle 上演示了 Rust 及 Slint 用户界面工具包的运行，证明紧凑的运行时和跨编译能够把现代语言生态带到受限设备。此类尝试凸显了在低功耗电子书阅读器上实现交互式界面的可行性。",
+      "hn": {
+        "id": 48299623,
+        "type": "story",
+        "by": "homarp",
+        "score": 220,
+        "descendants": 33,
+        "time": 1779911507,
+        "comments_url": "https://news.ycombinator.com/item?id=48299623"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 0.6
+    },
+    {
+      "title_en": "Bttf is a command line datetime Swiss army knife",
+      "url": "https://github.com/BurntSushi/bttf",
+      "title_zh": "Biff：命令行日期时间瑞士军刀",
+      "created_display": "Created: May 27, 2026 / 19:58 PT",
+      "image_url": "https://opengraph.githubassets.com/77fa0881a46932fa4b82e2fac2366af8c863945dca1579a10f36190c8a75c5b3/BurntSushi/biff",
+      "summary_en": "Biff bundles date-time parsing, formatting, arithmetic, and other utilities into a single CLI tool. It streamlines scripting and data workflows that repeatedly manipulate timestamps, time zones, and durations.",
+      "summary_zh": "Biff 将日期时间解析、格式化、计算等工具整合到一个命令行工具中，便利需要频繁处理时间戳、时区与时长的脚本与数据工作流。",
+      "hn": {
+        "id": 48303881,
+        "type": "story",
+        "by": "burntsushi",
+        "score": 121,
+        "descendants": 85,
+        "time": 1779937124,
+        "comments_url": "https://news.ycombinator.com/item?id=48303881"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 0.58
     },
     {
       "title_en": "Incident with Pull Requests, Issues, Git Operations and API Requests",
@@ -723,32 +1078,10 @@
         "comments_url": "https://news.ycombinator.com/item?id=48293080"
       },
       "tags": [
-        "Programming",
-        "DevOps"
-      ],
-      "hot_score": 0.66
-    },
-    {
-      "title_en": "Bttf is a command line datetime Swiss army knife",
-      "url": "https://github.com/BurntSushi/bttf",
-      "title_zh": "Biff：命令行日期时间瑞士军刀",
-      "created_display": "Created: May 27, 2026 / 19:58 PT",
-      "image_url": "https://opengraph.githubassets.com/77fa0881a46932fa4b82e2fac2366af8c863945dca1579a10f36190c8a75c5b3/BurntSushi/biff",
-      "summary_en": "Biff bundles date-time parsing, formatting, arithmetic, and other utilities into a single CLI tool. It streamlines scripting and data workflows that repeatedly manipulate timestamps, time zones, and durations.",
-      "summary_zh": "Biff 将日期时间解析、格式化、计算等工具整合到一个命令行工具中，便利需要频繁处理时间戳、时区与时长的脚本与数据工作流。",
-      "hn": {
-        "id": 48303881,
-        "type": "story",
-        "by": "burntsushi",
-        "score": 98,
-        "descendants": 70,
-        "time": 1779937124,
-        "comments_url": "https://news.ycombinator.com/item?id=48303881"
-      },
-      "tags": [
+        "DevOps",
         "Programming"
       ],
-      "hot_score": 0.62
+      "hot_score": 0.57
     },
     {
       "title_en": "Go: Support for Generic Methods",
@@ -770,7 +1103,7 @@
       "tags": [
         "Programming"
       ],
-      "hot_score": 0.5
+      "hot_score": 0.43
     },
     {
       "title_en": "Mini Micro Fantasy Computer",
@@ -790,10 +1123,9 @@
         "comments_url": "https://news.ycombinator.com/item?id=48291947"
       },
       "tags": [
-        "Hardware",
-        "Education"
+        "Hardware"
       ],
-      "hot_score": 0.48
+      "hot_score": 0.42
     },
     {
       "title_en": "Warm up your MacBook (2019)",
@@ -807,15 +1139,15 @@
         "id": 48300342,
         "type": "story",
         "by": "kristianp",
-        "score": 124,
-        "descendants": 118,
+        "score": 126,
+        "descendants": 123,
         "time": 1779914521,
         "comments_url": "https://news.ycombinator.com/item?id=48300342"
       },
       "tags": [
         "Hardware"
       ],
-      "hot_score": 0.44
+      "hot_score": 0.37
     },
     {
       "title_en": "Stress disrupts hippocampal integration of overlapping events, memory inference",
@@ -835,10 +1167,9 @@
         "comments_url": "https://news.ycombinator.com/item?id=48296622"
       },
       "tags": [
-        "Science",
-        "Health"
+        "Science"
       ],
-      "hot_score": 0.42
+      "hot_score": 0.36
     },
     {
       "title_en": "Gemini, Gophers, and Fingers. Oh My Alternative Internets Beyond HTTPS",
@@ -862,30 +1193,50 @@
         "Privacy",
         "AI"
       ],
-      "hot_score": 0.37
+      "hot_score": 0.31
     },
     {
-      "title_en": "Show HN: Ktx – Open-source executable context layer for data agents",
-      "url": "https://github.com/Kaelio/ktx",
-      "title_zh": "Show HN: Ktx – 面向数据代理的开源可执行上下文层",
-      "created_display": "Created: May 28, 2026 / 08:05 PT",
-      "image_url": "https://opengraph.githubassets.com/a6b2881a2839bfe7a1d82a98dfdb5f07b9f2faf137a78fed5e032ae7ab70a333/Kaelio/ktx",
-      "summary_en": "Ktx introduces an open-source executable context layer for data agents, enabling agents to carry executable context across tasks and environments. By formalizing context handling, it aims to simplify building autonomous data workflows and improve reproducibility.",
-      "summary_zh": "Ktx 是一个面向数据代理的开源可执行上下文层，能在任务与环境之间携带可执行上下文。通过对上下文处理的标准化，旨在简化自驱动数据工作流的构建并提升可重复性。",
+      "title_en": "Tuning LLVM's SLP Vectorizer Cost Model",
+      "url": "https://blog.kaving.me/blog/tuning-llvms-slp-vectorizer-cost-model/",
+      "title_zh": "调优 LLVM 的 SLP 向量化器成本模型",
+      "created_display": "Created: May 28, 2026 / 09:44 PT",
+      "image_url": "https://github.com/KavinTheG.png",
+      "summary_en": "A technical dive into tuning the cost model behind LLVM's SLP vectorizer, exploring how changing heuristics can impact vectorization decisions and overall performance. The goal is to improve vectorization quality without sacrificing compilation speed.",
+      "summary_zh": "对 LLVM SLP 向量化器成本模型进行深入调优，探讨调整启发式如何影响向量化决策、代码移动与整体性能。目标是在不牺牲编译速度的前提下提升向量化质量。",
       "hn": {
-        "id": 48309986,
+        "id": 48311551,
         "type": "story",
-        "by": "lucamrtl",
-        "score": 5,
+        "by": "matt_d",
+        "score": 7,
         "descendants": 0,
-        "time": 1779980706,
-        "comments_url": "https://news.ycombinator.com/item?id=48309986"
+        "time": 1779986642,
+        "comments_url": "https://news.ycombinator.com/item?id=48311551"
       },
-      "hot_score": 0.27,
+      "hot_score": 0.28,
       "tags": [
-        "Show HN",
-        "Open Source",
         "Programming"
+      ]
+    },
+    {
+      "title_en": "W3C Leadership Transition",
+      "url": "https://www.w3.org/press-releases/2026/w3c-leadership-transition/",
+      "title_zh": "W3C 领导层交接",
+      "created_display": "Created: May 28, 2026 / 08:32 PT",
+      "image_url": "https://www.w3.org/assets/website-2021/images/w3c-opengraph-image.png",
+      "summary_en": "W3C announces a leadership transition, signaling changes in governance and strategic direction for web standards development. The move could influence standards timelines, community engagement, and how diverse voices are represented.",
+      "summary_zh": "W3C 宣布领导层交接，预示着网络标准制定的治理与战略方向将发生变化。这一变动可能影响标准制定的节奏、社区参与度，以及多元声音的代表性。",
+      "hn": {
+        "id": 48310452,
+        "type": "story",
+        "by": "robin_reala",
+        "score": 9,
+        "descendants": 1,
+        "time": 1779982366,
+        "comments_url": "https://news.ycombinator.com/item?id=48310452"
+      },
+      "hot_score": 0.26,
+      "tags": [
+        "Web"
       ]
     },
     {
@@ -909,7 +1260,31 @@
         "Culture",
         "Design"
       ],
-      "hot_score": 0.26
+      "hot_score": 0.24
+    },
+    {
+      "title_en": "Show HN: Py-SQL-cleaner – format SQL embedded in Python strings",
+      "url": "https://github.com/enumura1/py-sql-cleaner",
+      "title_zh": "Show HN：Py-SQL-cleaner 将 Python 字符串中的 SQL 格式化",
+      "created_display": "Created: May 28, 2026 / 10:30 PT",
+      "image_url": "https://opengraph.githubassets.com/a072180efca0988b7fcca892bc89ef3168edda10dc0b760800e6f6f3ac56af9e/enumura1/py-sql-cleaner",
+      "summary_en": "Py-SQL-cleaner formats SQL contained within Python strings, improving readability and consistency across codebases. It helps reduce errors from ad-hoc string SQL by applying standardized formatting rules.",
+      "summary_zh": "Py-SQL-cleaner 将 Python 字符串中的 SQL 进行格式化，提升代码的一致性与可读性。通过对 SQL 的标准化格式化，帮助减少散乱字符串带来的错误。",
+      "hn": {
+        "id": 48312436,
+        "type": "story",
+        "by": "enumura",
+        "score": 5,
+        "descendants": 0,
+        "time": 1779989429,
+        "comments_url": "https://news.ycombinator.com/item?id=48312436"
+      },
+      "hot_score": 0.24,
+      "tags": [
+        "Programming",
+        "Show HN",
+        "Data"
+      ]
     },
     {
       "title_en": "On Labubu and the Hyperreal",
@@ -929,10 +1304,32 @@
         "comments_url": "https://news.ycombinator.com/item?id=48299335"
       },
       "tags": [
-        "Culture",
-        "Design"
+        "Culture"
       ],
-      "hot_score": 0.26
+      "hot_score": 0.22
+    },
+    {
+      "title_en": "Gradle Is Javamaxxing",
+      "url": "https://blog.gradle.org/gradle-is-javamaxxing",
+      "title_zh": "Gradle 是 Java 的极致构建工具",
+      "created_display": "Created: May 28, 2026 / 08:18 PT",
+      "image_url": "https://blog.gradle.org/images/2026/gradle-is-javamaxxing/javamaxxing-hero.png",
+      "summary_en": "Argues that Gradle is pushing Java projects to new levels of performance and scalability, thanks to features like configuration avoidance, incremental builds, and a JVM-first design.",
+      "summary_zh": "文章称 Gradle 通过配置避免、增量构建以及以 JVM 为核心的设计，将 Java 项目推向更高的性能和可扩展性，对大规模代码库和开发者生产力有重要影响。",
+      "hn": {
+        "id": 48310215,
+        "type": "story",
+        "by": "kassovic",
+        "score": 8,
+        "descendants": 2,
+        "time": 1779981536,
+        "comments_url": "https://news.ycombinator.com/item?id=48310215"
+      },
+      "hot_score": 0.21,
+      "tags": [
+        "Programming",
+        "DevOps"
+      ]
     },
     {
       "title_en": "Show HN: Open-source Workspace (mail,docs,spreadsheet,drive) web/iOS",
@@ -952,58 +1349,101 @@
         "comments_url": "https://news.ycombinator.com/item?id=48295071"
       },
       "tags": [
-        "Show HN",
         "Open Source",
-        "Web",
+        "Show HN",
         "Privacy"
       ],
-      "hot_score": 0.23
+      "hot_score": 0.19
     },
     {
-      "title_en": "Hetzner Price Adjustment",
-      "url": "https://www.hetzner.com/pressroom/standardization-and-price-adjustment-of-our-server-products/",
-      "title_zh": "Hetzner 调整服务器价格",
-      "created_display": "Created: May 28, 2026 / 01:06 PT",
-      "image_url": "https://cdn.hetzner.com/assets/Uploads/icon-hetzner-cloud.svg",
-      "summary_en": "Hetzner announces price adjustments across its server lineup, reflecting broader cost pressures. The update outlines which products are affected and what customers should expect for ongoing hosting expenses.",
-      "summary_zh": "Hetzner 公布了对其服务器产品的价格调整，反映出更广泛的成本压力。更新列出受影响的产品并说明客户在未来托管成本方面的预期。",
-      "hn": {
-        "id": 48306066,
-        "type": "story",
-        "by": "TechTechTech",
-        "score": 14,
-        "descendants": 4,
-        "time": 1779955594,
-        "comments_url": "https://news.ycombinator.com/item?id=48306066"
-      },
-      "hot_score": 0.16,
-      "tags": [
-        "Business",
-        "Finance"
-      ]
-    },
-    {
-      "title_en": "The Problem with the Ferrari Luce EV Offers a Lesson for Every Leader",
-      "url": "https://www.inc.com/connor-jewiss/the-problem-with-the-ferrari-luce-ev-offers-a-lesson-for-every-leader/91351070",
-      "title_zh": "法拉利 Luce 电动车的问题：给每位领导者的教训",
-      "created_display": "Created: May 28, 2026 / 02:36 PT",
+      "title_en": "Adding Reflection to C",
+      "url": "https://www.davidpriver.com/adding-reflection-to-C.html",
+      "title_zh": "为 C 语言添加反射",
+      "created_display": "Created: May 28, 2026 / 07:55 PT",
       "image_url": null,
-      "summary_en": "Ferrari's Luce EV case illustrates how bold product ambitions can outpace execution and internal alignment. It offers leadership takeaways on aligning product strategy, stakeholder expectations, and brand messaging with operational reality.",
-      "summary_zh": "法拉利 Luce 电动车的案例揭示了大胆的产品野心若与执行力、内部对齐及品牌诉求不一致，容易落空。给出在产品战略、利害关系人期望与运营现实之间保持一致的领导力要点。",
+      "summary_en": "Explores approaches to adding reflection to C, weighing compile-time vs runtime options, safety concerns, and potential impact on library design and metaprogramming in C.",
+      "summary_zh": "探讨为 C 语言添加反射能力的方案，比较编译时与运行时反射的取舍、潜在的安全性问题，以及对库设计和元编程的影响。",
       "hn": {
-        "id": 48306675,
+        "id": 48309858,
         "type": "story",
-        "by": "connorjewiss",
-        "score": 10,
-        "descendants": 3,
-        "time": 1779961014,
-        "comments_url": "https://news.ycombinator.com/item?id=48306675"
+        "by": "telotortium",
+        "score": 8,
+        "descendants": 2,
+        "time": 1779980122,
+        "comments_url": "https://news.ycombinator.com/item?id=48309858"
       },
-      "hot_score": 0.14,
+      "hot_score": 0.19,
       "tags": [
-        "Business",
-        "Energy"
+        "Programming"
       ]
+    },
+    {
+      "title_en": "Package managers that package package managers",
+      "url": "https://nesbitt.io/2026/05/28/package-managers-that-package-package-managers.html",
+      "title_zh": "打包打包管理器的包管理器",
+      "created_display": "Created: May 28, 2026 / 07:15 PT",
+      "image_url": "https://nesbitt.io/images/boxes.png",
+      "summary_en": "The piece argues that the tooling ecosystem is moving toward package managers that manage other package managers, highlighting risks of complexity, dependency chains, and inconsistent user experiences across platforms.",
+      "summary_zh": "文章指出工具生态正在演变成由管理其他包管理器的包管理器来驱动，强调复杂性、依赖链以及跨平台体验不一致等风险。",
+      "hn": {
+        "id": 48309266,
+        "type": "story",
+        "by": "chmaynard",
+        "score": 8,
+        "descendants": 0,
+        "time": 1779977752,
+        "comments_url": "https://news.ycombinator.com/item?id=48309266"
+      },
+      "hot_score": 0.17,
+      "tags": [
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "Show HN: Open-Source AI Racing Harness",
+      "url": "https://www.elodin.systems/post/elodin-ai-grand-prix-race-sim-harness",
+      "title_zh": "展示：开源 AI 赛车对接框架",
+      "created_display": "Created: May 27, 2026 / 13:37 PT",
+      "image_url": "https://cdn.prod.website-files.com/65b83ac4cf86c236d2b91487/65bacca1717fa2751d674cef_Logo.svg",
+      "summary_en": "An open-source harness for running AI agents in racing simulations, providing standard interfaces, telemetry logging and tooling to evaluate control policies consistently. It aims to lower the friction for benchmarking autonomous-driving agents and enable reproducible competitions and research comparisons.",
+      "summary_zh": "一个开源对接框架，用于在赛车仿真中运行 AI 代理，提供统一接口、遥测记录和评估工具以实现一致的控制策略测试。它旨在降低基准测试自动驾驶代理的门槛，支持可复现的竞赛与研究比较。",
+      "hn": {
+        "id": 48300280,
+        "type": "story",
+        "by": "danAtElodin",
+        "score": 55,
+        "descendants": 6,
+        "time": 1779914262,
+        "comments_url": "https://news.ycombinator.com/item?id=48300280"
+      },
+      "tags": [
+        "Open Source",
+        "AI",
+        "Show HN"
+      ],
+      "hot_score": 0.16
+    },
+    {
+      "title_en": "Indoor Wi-Fi Roaming with OpenWRT",
+      "url": "https://taoofmac.com/space/blog/2026/05/26/1730",
+      "title_zh": "基于 OpenWrt 的室内 Wi‑Fi 漫游",
+      "created_display": "Created: May 26, 2026 / 09:41 PT",
+      "image_url": "https://taoofmac.com/media/blog/2026/05/26/1730/72f8TO0lWMNK_An34i2tWcTN36w=/snr-2g-weekly.svg",
+      "summary_en": "A practical OpenWrt-based approach to indoor Wi-Fi roaming, leveraging multiple access points to hand off smoothly as you move through a building. The guide covers configuration tips, potential pitfalls like captive portals and roaming hysteresis, and how to optimize for latency-sensitive devices.",
+      "summary_zh": "基于 OpenWrt 的室内 Wi‑Fi 漫游实战方案，利用多 AP 实现移动中的无缝切换。指南涵盖配置要点、可能遇到的陷阱（如 captive portal、漫游迟延），以及如何对高时延敏感设备进行优化。",
+      "hn": {
+        "id": 48282180,
+        "type": "story",
+        "by": "zdw",
+        "score": 167,
+        "descendants": 79,
+        "time": 1779813718,
+        "comments_url": "https://news.ycombinator.com/item?id=48282180"
+      },
+      "tags": [
+        "Open Source"
+      ],
+      "hot_score": 0.13
     },
     {
       "title_en": "Multi-Agent LLM System for Automated Vulnerability Discovery and Reproduction",
@@ -1026,31 +1466,119 @@
         "AI",
         "Security"
       ],
-      "hot_score": 0.13
+      "hot_score": 0.11
     },
     {
-      "title_en": "Show HN: Open-Source AI Racing Harness",
-      "url": "https://www.elodin.systems/post/elodin-ai-grand-prix-race-sim-harness",
-      "title_zh": "展示：开源 AI 赛车对接框架",
-      "created_display": "Created: May 27, 2026 / 13:37 PT",
-      "image_url": "https://cdn.prod.website-files.com/65b83ac4cf86c236d2b91487/65bacca1717fa2751d674cef_Logo.svg",
-      "summary_en": "An open-source harness for running AI agents in racing simulations, providing standard interfaces, telemetry logging and tooling to evaluate control policies consistently. It aims to lower the friction for benchmarking autonomous-driving agents and enable reproducible competitions and research comparisons.",
-      "summary_zh": "一个开源对接框架，用于在赛车仿真中运行 AI 代理，提供统一接口、遥测记录和评估工具以实现一致的控制策略测试。它旨在降低基准测试自动驾驶代理的门槛，支持可复现的竞赛与研究比较。",
+      "title_en": "Hetzner Price Adjustment",
+      "url": "https://www.hetzner.com/pressroom/standardization-and-price-adjustment-of-our-server-products/",
+      "title_zh": "Hetzner 调整服务器价格",
+      "created_display": "Created: May 28, 2026 / 01:06 PT",
+      "image_url": "https://cdn.hetzner.com/assets/Uploads/icon-hetzner-cloud.svg",
+      "summary_en": "Hetzner announces price adjustments across its server lineup, reflecting broader cost pressures. The update outlines which products are affected and what customers should expect for ongoing hosting expenses.",
+      "summary_zh": "Hetzner 公布了对其服务器产品的价格调整，反映出更广泛的成本压力。更新列出受影响的产品并说明客户在未来托管成本方面的预期。",
       "hn": {
-        "id": 48300280,
+        "id": 48306066,
         "type": "story",
-        "by": "danAtElodin",
-        "score": 36,
+        "by": "TechTechTech",
+        "score": 14,
         "descendants": 4,
-        "time": 1779914262,
-        "comments_url": "https://news.ycombinator.com/item?id=48300280"
+        "time": 1779955594,
+        "comments_url": "https://news.ycombinator.com/item?id=48306066"
+      },
+      "hot_score": 0.11,
+      "tags": [
+        "Business"
+      ]
+    },
+    {
+      "title_en": "Data Parallel C++",
+      "url": "https://library.oapen.org/handle/20.500.12657/76704",
+      "title_zh": "数据并行 C++",
+      "created_display": "Created: May 28, 2026 / 09:07 PT",
+      "image_url": null,
+      "summary_en": "An overview of Data Parallel C++, a language for portable heterogeneous computing that targets CPUs and accelerators via oneAPI. The piece situates DPC++ in the broader shift toward cross-platform, high-performance parallelism.",
+      "summary_zh": "概述了数据并行 C++（DPC++），一种面向可移植异构计算的语言，通过 oneAPI 实现对 CPU 与加速器的统一编程。",
+      "hn": {
+        "id": 48310947,
+        "type": "story",
+        "by": "tosh",
+        "score": 4,
+        "descendants": 0,
+        "time": 1779984441,
+        "comments_url": "https://news.ycombinator.com/item?id=48310947"
+      },
+      "hot_score": 0.11,
+      "tags": [
+        "Programming",
+        "Data"
+      ]
+    },
+    {
+      "title_en": "The Problem with the Ferrari Luce EV Offers a Lesson for Every Leader",
+      "url": "https://www.inc.com/connor-jewiss/the-problem-with-the-ferrari-luce-ev-offers-a-lesson-for-every-leader/91351070",
+      "title_zh": "法拉利 Luce 电动车的问题：给每位领导者的教训",
+      "created_display": "Created: May 28, 2026 / 02:36 PT",
+      "image_url": null,
+      "summary_en": "Ferrari's Luce EV case illustrates how bold product ambitions can outpace execution and internal alignment. It offers leadership takeaways on aligning product strategy, stakeholder expectations, and brand messaging with operational reality.",
+      "summary_zh": "法拉利 Luce 电动车的案例揭示了大胆的产品野心若与执行力、内部对齐及品牌诉求不一致，容易落空。给出在产品战略、利害关系人期望与运营现实之间保持一致的领导力要点。",
+      "hn": {
+        "id": 48306675,
+        "type": "story",
+        "by": "connorjewiss",
+        "score": 10,
+        "descendants": 3,
+        "time": 1779961014,
+        "comments_url": "https://news.ycombinator.com/item?id=48306675"
+      },
+      "hot_score": 0.09,
+      "tags": [
+        "Business",
+        "Energy"
+      ]
+    },
+    {
+      "title_en": "Investigating how prompt politeness affects LLM accuracy (2025)",
+      "url": "https://arxiv.org/abs/2510.04950",
+      "title_zh": "研究提示礼貌如何影响大模型准确性（2025）",
+      "created_display": "Created: May 26, 2026 / 00:43 PT",
+      "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "summary_en": "An empirical study tests whether polite phrasing of prompts changes LLM outputs and accuracy across tasks, finding mostly small and task-dependent effects. The paper suggests politeness can alter model calibration or response framing but doesn't consistently boost objective correctness, so prompt tone matters more for user experience than raw accuracy in many cases.",
+      "summary_zh": "一项实证研究检验了礼貌用语是否会改变大模型在不同任务上的输出与准确性，发现影响普遍较小且依赖任务。研究表明礼貌可能影响模型的置信度或回应风格，但并不稳定地提高客观正确率，因此提示语气在用户体验上更有影响，而非始终提升准确性。",
+      "hn": {
+        "id": 48276429,
+        "type": "story",
+        "by": "KnuthIsGod",
+        "score": 135,
+        "descendants": 175,
+        "time": 1779781402,
+        "comments_url": "https://news.ycombinator.com/item?id=48276429"
       },
       "tags": [
-        "Show HN",
-        "Open Source",
         "AI"
       ],
-      "hot_score": 0.12
+      "hot_score": 0.08
+    },
+    {
+      "title_en": "Raft Consensus with a Minority of Nodes",
+      "url": "https://padhye.org/raft-minority/",
+      "title_zh": "少数节点下的 Raft 共识",
+      "created_display": "Created: May 26, 2026 / 03:30 PT",
+      "image_url": "https://padhye.org/raft-minority/SpotIt.jpg",
+      "summary_en": "Explores how Raft behaves when only a minority of nodes are available, highlighting tradeoffs between progress and safety in partitions and resilience. The discussion has practical implications for designing fault-tolerant distributed systems.",
+      "summary_zh": "分析在只有少数节点可用时 Raft 的表现，指出在分区与弹性场景下进展与安全性之间的权衡，对设计容错分布式系统具有实践意义。",
+      "hn": {
+        "id": 48277723,
+        "type": "story",
+        "by": "moarbugs",
+        "score": 132,
+        "descendants": 19,
+        "time": 1779791425,
+        "comments_url": "https://news.ycombinator.com/item?id=48277723"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 0.08
     },
     {
       "title_en": "StumbleTV: Chat Roulette but for Exposed Webcams",
@@ -1069,7 +1597,7 @@
         "time": 1779927738,
         "comments_url": "https://news.ycombinator.com/item?id=48302618"
       },
-      "hot_score": 0.1,
+      "hot_score": 0.08,
       "tags": [
         "Privacy",
         "Web"
@@ -1092,79 +1620,11 @@
         "time": 1779954785,
         "comments_url": "https://news.ycombinator.com/item?id=48305968"
       },
-      "hot_score": 0.1,
-      "tags": [
-        "Career",
-        "AI"
-      ]
-    },
-    {
-      "title_en": "Raft Consensus with a Minority of Nodes",
-      "url": "https://padhye.org/raft-minority/",
-      "title_zh": "少数节点下的 Raft 共识",
-      "created_display": "Created: May 26, 2026 / 03:30 PT",
-      "image_url": "https://padhye.org/raft-minority/SpotIt.jpg",
-      "summary_en": "Explores how Raft behaves when only a minority of nodes are available, highlighting tradeoffs between progress and safety in partitions and resilience. The discussion has practical implications for designing fault-tolerant distributed systems.",
-      "summary_zh": "分析在只有少数节点可用时 Raft 的表现，指出在分区与弹性场景下进展与安全性之间的权衡，对设计容错分布式系统具有实践意义。",
-      "hn": {
-        "id": 48277723,
-        "type": "story",
-        "by": "moarbugs",
-        "score": 132,
-        "descendants": 19,
-        "time": 1779791425,
-        "comments_url": "https://news.ycombinator.com/item?id=48277723"
-      },
-      "tags": [
-        "Programming"
-      ],
-      "hot_score": 0.09
-    },
-    {
-      "title_en": "Indoor Wi-Fi Roaming with OpenWRT",
-      "url": "https://taoofmac.com/space/blog/2026/05/26/1730",
-      "title_zh": "基于 OpenWrt 的室内 Wi‑Fi 漫游",
-      "created_display": "Created: May 26, 2026 / 09:41 PT",
-      "image_url": "https://taoofmac.com/media/blog/2026/05/26/1730/72f8TO0lWMNK_An34i2tWcTN36w=/snr-2g-weekly.svg",
-      "summary_en": "A practical OpenWrt-based approach to indoor Wi-Fi roaming, leveraging multiple access points to hand off smoothly as you move through a building. The guide covers configuration tips, potential pitfalls like captive portals and roaming hysteresis, and how to optimize for latency-sensitive devices.",
-      "summary_zh": "基于 OpenWrt 的室内 Wi‑Fi 漫游实战方案，利用多 AP 实现移动中的无缝切换。指南涵盖配置要点、可能遇到的陷阱（如 captive portal、漫游迟延），以及如何对高时延敏感设备进行优化。",
-      "hn": {
-        "id": 48282180,
-        "type": "story",
-        "by": "zdw",
-        "score": 113,
-        "descendants": 40,
-        "time": 1779813718,
-        "comments_url": "https://news.ycombinator.com/item?id=48282180"
-      },
-      "hot_score": 0.09,
-      "tags": [
-        "Open Source",
-        "Hardware"
-      ]
-    },
-    {
-      "title_en": "Investigating how prompt politeness affects LLM accuracy (2025)",
-      "url": "https://arxiv.org/abs/2510.04950",
-      "title_zh": "研究提示礼貌如何影响大模型准确性（2025）",
-      "created_display": "Created: May 26, 2026 / 00:43 PT",
-      "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-      "summary_en": "An empirical study tests whether polite phrasing of prompts changes LLM outputs and accuracy across tasks, finding mostly small and task-dependent effects. The paper suggests politeness can alter model calibration or response framing but doesn't consistently boost objective correctness, so prompt tone matters more for user experience than raw accuracy in many cases.",
-      "summary_zh": "一项实证研究检验了礼貌用语是否会改变大模型在不同任务上的输出与准确性，发现影响普遍较小且依赖任务。研究表明礼貌可能影响模型的置信度或回应风格，但并不稳定地提高客观正确率，因此提示语气在用户体验上更有影响，而非始终提升准确性。",
-      "hn": {
-        "id": 48276429,
-        "type": "story",
-        "by": "KnuthIsGod",
-        "score": 130,
-        "descendants": 164,
-        "time": 1779781402,
-        "comments_url": "https://news.ycombinator.com/item?id=48276429"
-      },
+      "hot_score": 0.07,
       "tags": [
         "AI",
-        "Science"
-      ],
-      "hot_score": 0.08
+        "Career"
+      ]
     },
     {
       "title_en": "A New Typst Template for Pandoc (2025)",
@@ -1178,8 +1638,8 @@
         "id": 48275255,
         "type": "story",
         "by": "ankitg12",
-        "score": 105,
-        "descendants": 23,
+        "score": 108,
+        "descendants": 29,
         "time": 1779772136,
         "comments_url": "https://news.ycombinator.com/item?id=48275255"
       },
@@ -1200,8 +1660,8 @@
         "id": 48267558,
         "type": "story",
         "by": "digitallogic",
-        "score": 129,
-        "descendants": 86,
+        "score": 137,
+        "descendants": 101,
         "time": 1779720680,
         "comments_url": "https://news.ycombinator.com/item?id=48267558"
       },
@@ -1299,6 +1759,52 @@
       "hot_score": 0.04
     },
     {
+      "title_en": "US's big bet on quantum computing may not be legal",
+      "url": "https://arstechnica.com/tech-policy/2026/05/uss-big-bet-on-quantum-computing-may-not-be-entirely-legal/",
+      "title_zh": "美国在量子计算上的重大赌注可能并不完全合法",
+      "created_display": "Created: May 25, 2026 / 16:11 PT",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/05/image-2-1152x648.jpeg",
+      "summary_en": "The piece questions whether the US's ambitious quantum computing investments align with existing laws and procurement rules. It highlights potential legal and regulatory frictions as policymakers push for rapid tech gains, which could affect timelines and funding.",
+      "summary_zh": "文章质疑美国在量子计算领域的高额投入是否符合现有法律和采购规则。揭示在推动快速技术突破的过程中可能遇到的法律与监管冲突，影响时间表与资金安排。",
+      "hn": {
+        "id": 48272948,
+        "type": "story",
+        "by": "Bender",
+        "score": 82,
+        "descendants": 92,
+        "time": 1779750674,
+        "comments_url": "https://news.ycombinator.com/item?id=48272948"
+      },
+      "tags": [
+        "Legal",
+        "Science",
+        "Politics"
+      ],
+      "hot_score": 0.04
+    },
+    {
+      "title_en": "News about Raspberry Pi 6 and Microcontroller Development",
+      "url": "https://www.jeffgeerling.com/blog/2026/news-about-raspberry-pi-6-and-microcontroller-development/",
+      "title_zh": "关于 Raspberry Pi 6 与微控制器开发的消息",
+      "created_display": "Created: May 26, 2026 / 01:02 PT",
+      "image_url": "https://www.jeffgeerling.com/blog/2026/news-about-raspberry-pi-6-and-microcontroller-development/pi-reddit-ama.jpg",
+      "summary_en": "Jeff Geerling weighs in on Raspberry Pi 6 and microcontroller development, highlighting anticipated features, ecosystem progress, and the impact on hobbyist and educational hardware projects.",
+      "summary_zh": "Jeff Geerling 对 Raspberry Pi 6 与微控制器开发进行了点评，聚焦潜在新特性、生态系统进展，以及对爱好者和教育硬件项目的影响。",
+      "hn": {
+        "id": 48276598,
+        "type": "story",
+        "by": "rbanffy",
+        "score": 74,
+        "descendants": 44,
+        "time": 1779782572,
+        "comments_url": "https://news.ycombinator.com/item?id=48276598"
+      },
+      "tags": [
+        "Hardware"
+      ],
+      "hot_score": 0.04
+    },
+    {
       "title_en": "More Whimsical OEIS Sequences",
       "url": "https://www.jeremykun.com/shortform/2026-05-22-1528/",
       "title_zh": "更多异想天开的 OEIS 数列",
@@ -1310,15 +1816,15 @@
         "id": 48281336,
         "type": "story",
         "by": "surprisetalk",
-        "score": 46,
-        "descendants": 8,
+        "score": 48,
+        "descendants": 9,
         "time": 1779810312,
         "comments_url": "https://news.ycombinator.com/item?id=48281336"
       },
-      "hot_score": 0.04,
       "tags": [
         "Science"
-      ]
+      ],
+      "hot_score": 0.04
     },
     {
       "title_en": "Matrix Multiplications on GPUs Run Faster When Given “Predictable” Data (2024)",
@@ -1388,6 +1894,29 @@
       "hot_score": 0.03
     },
     {
+      "title_en": "Seeing Around Corners Using Smartphone-Grade Lidar",
+      "url": "https://spectrum.ieee.org/smartphone-grade-lidar",
+      "title_zh": "通过手机级激光雷达看见拐角处",
+      "created_display": "Created: May 25, 2026 / 04:32 PT",
+      "image_url": "https://spectrum.ieee.org/media-library/image.jpg?id=66765057&width=1200&height=600&coordinates=0%2C281%2C0%2C219",
+      "summary_en": "Smartphone-grade LiDAR experiments show you can infer geometry beyond line-of-sight by analyzing reflections and timing. The technique has implications for robotics, AR, and privacy, enabling new sensing capabilities while raising safety concerns.",
+      "summary_zh": "通过手机级激光雷达的实验，展示通过分析反射和时间信息可以在视线外推断几何形状。这一技术对机器人、增强现实等领域意义重大，同时也带来隐私与安全方面的担忧。",
+      "hn": {
+        "id": 48265668,
+        "type": "story",
+        "by": "marc__1",
+        "score": 66,
+        "descendants": 18,
+        "time": 1779708776,
+        "comments_url": "https://news.ycombinator.com/item?id=48265668"
+      },
+      "tags": [
+        "Science",
+        "Privacy"
+      ],
+      "hot_score": 0.02
+    },
+    {
       "title_en": "The Green Side of the Lua",
       "url": "https://arxiv.org/abs/2601.16670",
       "title_zh": "Lua 的绿色一面：能效与环境影响",
@@ -1406,29 +1935,6 @@
       },
       "tags": [
         "Energy"
-      ],
-      "hot_score": 0.02
-    },
-    {
-      "title_en": "Seeing Around Corners Using Smartphone-Grade Lidar",
-      "url": "https://spectrum.ieee.org/smartphone-grade-lidar",
-      "title_zh": "通过手机级激光雷达看见拐角处",
-      "created_display": "Created: May 25, 2026 / 04:32 PT",
-      "image_url": "https://spectrum.ieee.org/media-library/image.jpg?id=66765057&width=1200&height=600&coordinates=0%2C281%2C0%2C219",
-      "summary_en": "Smartphone-grade LiDAR experiments show you can infer geometry beyond line-of-sight by analyzing reflections and timing. The technique has implications for robotics, AR, and privacy, enabling new sensing capabilities while raising safety concerns.",
-      "summary_zh": "通过手机级激光雷达的实验，展示通过分析反射和时间信息可以在视线外推断几何形状。这一技术对机器人、增强现实等领域意义重大，同时也带来隐私与安全方面的担忧。",
-      "hn": {
-        "id": 48265668,
-        "type": "story",
-        "by": "marc__1",
-        "score": 61,
-        "descendants": 16,
-        "time": 1779708776,
-        "comments_url": "https://news.ycombinator.com/item?id=48265668"
-      },
-      "tags": [
-        "Science",
-        "Privacy"
       ],
       "hot_score": 0.02
     },
@@ -1476,6 +1982,50 @@
       "tags": [
         "Programming"
       ]
+    },
+    {
+      "title_en": "Boston and Bermuda",
+      "url": "https://askthepilot.com/boston-and-bermuda/",
+      "title_zh": "波士顿与百慕大",
+      "created_display": "Created: May 25, 2026 / 14:50 PT",
+      "image_url": "https://askthepilot.com/wp-content/uploads/2026/05/AA-DC-10-Bermuda-2-.jpg",
+      "summary_en": "A travel-focused deep dive into the Boston–Bermuda corridor, exploring flight options, time zones, and maritime routes—or the quirks of travel between these two hubs. The piece offers practical tips and observations for curious travelers.",
+      "summary_zh": "深入探讨波士顿与百慕大之间的旅程，涵盖航线选择、时区差异与海上交通等要点，并分享对这两地往返旅行的实用建议和观察。",
+      "hn": {
+        "id": 48272402,
+        "type": "story",
+        "by": "dangle1",
+        "score": 37,
+        "descendants": 10,
+        "time": 1779745859,
+        "comments_url": "https://news.ycombinator.com/item?id=48272402"
+      },
+      "tags": [
+        "Culture"
+      ],
+      "hot_score": 0.02
+    },
+    {
+      "title_en": "Thornton Wilder's Last Play Vanished into Thin Air. Or Did It?",
+      "url": "https://www.nytimes.com/2026/05/27/theater/thornton-wilder-emporium-last-play.html",
+      "title_zh": "桑顿·怀德的最后一部剧作是否真的消失？",
+      "created_display": "Created: May 27, 2026 / 11:56 PT",
+      "image_url": null,
+      "summary_en": "A look at the mystery around Thornton Wilder's last play and whether it truly vanished from archives.",
+      "summary_zh": "关于桑顿·怀德最后一部剧作失踪传闻的探讨，以及它是否真的从档案中消失的谜团。",
+      "hn": {
+        "id": 48298819,
+        "type": "story",
+        "by": "lermontov",
+        "score": 7,
+        "descendants": 0,
+        "time": 1779908192,
+        "comments_url": "https://news.ycombinator.com/item?id=48298819"
+      },
+      "tags": [
+        "Entertainment"
+      ],
+      "hot_score": 0.02
     },
     {
       "title_en": "AI Datacenters Were Built for GPUs. What Happens When You Remove the GPUs?",
@@ -1541,97 +2091,75 @@
       },
       "hot_score": 0.01,
       "tags": [
-        "Data"
+        "Programming"
       ]
     },
     {
-      "title_en": "US's big bet on quantum computing may not be legal",
-      "url": "https://arstechnica.com/tech-policy/2026/05/uss-big-bet-on-quantum-computing-may-not-be-entirely-legal/",
-      "title_zh": "美国在量子计算上的重大赌注可能并不完全合法",
-      "created_display": "Created: May 25, 2026 / 16:11 PT",
-      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/05/image-2-1152x648.jpeg",
-      "summary_en": "The piece questions whether the US's ambitious quantum computing investments align with existing laws and procurement rules. It highlights potential legal and regulatory frictions as policymakers push for rapid tech gains, which could affect timelines and funding.",
-      "summary_zh": "文章质疑美国在量子计算领域的高额投入是否符合现有法律和采购规则。揭示在推动快速技术突破的过程中可能遇到的法律与监管冲突，影响时间表与资金安排。",
+      "title_en": "Using Tailscale with an OrbStack VM on macOS",
+      "url": "https://github.com/highpost/tailscale-macos-vm",
+      "title_zh": "在 macOS 的 OrbStack 虚拟机中使用 Tailscale",
+      "created_display": "Created: May 25, 2026 / 15:10 PT",
+      "image_url": "https://opengraph.githubassets.com/808bc9254356ef13afd6f622b38c401d622440db0a954fdfe4863b24f110f2ea/highpost/tailscale-macos-vm",
+      "summary_en": "Tutorial on running Tailscale inside a macOS VM managed by OrbStack, covering networking quirks, IP routing considerations, and how to reach host services from the guest.",
+      "summary_zh": "给出在 OrbStack 管理的 macOS 虚拟机中使用 Tailscale 的步骤，讨论网络路由、IP 分配等要点，以及如何从虚拟机访问宿主机资源。",
       "hn": {
-        "id": 48272948,
+        "id": 48272545,
         "type": "story",
-        "by": "Bender",
-        "score": 30,
-        "descendants": 33,
-        "time": 1779750674,
-        "comments_url": "https://news.ycombinator.com/item?id=48272948"
+        "by": "highpost",
+        "score": 28,
+        "descendants": 6,
+        "time": 1779747008,
+        "comments_url": "https://news.ycombinator.com/item?id=48272545"
       },
       "hot_score": 0.01,
       "tags": [
-        "Legal",
-        "Science",
-        "Politics"
+        "DevOps",
+        "Education"
       ]
     },
     {
-      "title_en": "Boston and Bermuda",
-      "url": "https://askthepilot.com/boston-and-bermuda/",
-      "title_zh": "波士顿与百慕大",
-      "created_display": "Created: May 25, 2026 / 14:50 PT",
-      "image_url": "https://askthepilot.com/wp-content/uploads/2026/05/AA-DC-10-Bermuda-2-.jpg",
-      "summary_en": "A travel-focused deep dive into the Boston–Bermuda corridor, exploring flight options, time zones, and maritime routes—or the quirks of travel between these two hubs. The piece offers practical tips and observations for curious travelers.",
-      "summary_zh": "深入探讨波士顿与百慕大之间的旅程，涵盖航线选择、时区差异与海上交通等要点，并分享对这两地往返旅行的实用建议和观察。",
+      "title_en": "The Most Unlikely School Bag",
+      "url": "https://www.carryology.com/insights/carry-culture/the-tale-of-the-worlds-most-unlikely-school-bag/",
+      "title_zh": "世界上最不可能成为书包的包",
+      "created_display": "Created: May 25, 2026 / 06:45 PT",
+      "image_url": "https://www.carryology.com/wp-content/uploads/2026/03/Randoseru-feature.png",
+      "summary_en": "The piece spotlights unconventional bags that people actually use for school, challenging the notion of a single perfect school bag. By examining design choices, ergonomics, and everyday carry needs, the article shows how bag culture adapts to new lifestyles.",
+      "summary_zh": "文章聚焦那些被人实际用于上学但并非传统的背包，挑战“完美书包”的单一概念。通过分析设计、人体工学和日常携带需求，揭示背包文化如何顺应新生活方式而变化。",
       "hn": {
-        "id": 48272402,
+        "id": 48266757,
         "type": "story",
-        "by": "dangle1",
-        "score": 25,
-        "descendants": 2,
-        "time": 1779745859,
-        "comments_url": "https://news.ycombinator.com/item?id=48272402"
+        "by": "surprisetalk",
+        "score": 21,
+        "descendants": 6,
+        "time": 1779716705,
+        "comments_url": "https://news.ycombinator.com/item?id=48266757"
       },
       "hot_score": 0.01,
       "tags": [
-        "Culture"
+        "Design"
       ]
     },
     {
-      "title_en": "Thornton Wilder's Last Play Vanished into Thin Air. Or Did It?",
-      "url": "https://www.nytimes.com/2026/05/27/theater/thornton-wilder-emporium-last-play.html",
-      "title_zh": "桑顿·怀德的最后一部剧作是否真的消失？",
-      "created_display": "Created: May 27, 2026 / 11:56 PT",
-      "image_url": null,
-      "summary_en": "A look at the mystery around Thornton Wilder's last play and whether it truly vanished from archives.",
-      "summary_zh": "关于桑顿·怀德最后一部剧作失踪传闻的探讨，以及它是否真的从档案中消失的谜团。",
+      "title_en": "Show HN: TapToyPia",
+      "url": "https://memalign.github.io/m/taptoypia/index.html",
+      "title_zh": "Show HN：TapToyPia",
+      "created_display": "Created: May 24, 2026 / 01:17 PT",
+      "image_url": "https://memalign.github.io/m/taptoypia/taptoypia.png",
+      "summary_en": "TapToyPia is presented as a Show HN project, outlining its goals and basic implementation.",
+      "summary_zh": "Show HN 项目 TapToyPia 被展示，概述其目标与实现要点。",
       "hn": {
-        "id": 48298819,
+        "id": 48255525,
         "type": "story",
-        "by": "lermontov",
-        "score": 3,
-        "descendants": 0,
-        "time": 1779908192,
-        "comments_url": "https://news.ycombinator.com/item?id=48298819"
-      },
-      "hot_score": 0.01,
-      "tags": [
-        "Culture"
-      ]
-    },
-    {
-      "title_en": "News about Raspberry Pi 6 and Microcontroller Development – Jeff Geerling",
-      "url": "https://www.jeffgeerling.com/blog/2026/news-about-raspberry-pi-6-and-microcontroller-development/",
-      "title_zh": "关于 Raspberry Pi 6 与微控制器开发的消息",
-      "created_display": "Created: May 26, 2026 / 01:02 PT",
-      "image_url": "https://www.jeffgeerling.com/blog/2026/news-about-raspberry-pi-6-and-microcontroller-development/pi-reddit-ama.jpg",
-      "summary_en": "Jeff Geerling weighs in on Raspberry Pi 6 and microcontroller development, highlighting anticipated features, ecosystem progress, and the impact on hobbyist and educational hardware projects.",
-      "summary_zh": "Jeff Geerling 对 Raspberry Pi 6 与微控制器开发进行了点评，聚焦潜在新特性、生态系统进展，以及对爱好者和教育硬件项目的影响。",
-      "hn": {
-        "id": 48276598,
-        "type": "story",
-        "by": "rbanffy",
-        "score": 8,
-        "descendants": 2,
-        "time": 1779782572,
-        "comments_url": "https://news.ycombinator.com/item?id=48276598"
+        "by": "memalign",
+        "score": 12,
+        "descendants": 5,
+        "time": 1779610648,
+        "comments_url": "https://news.ycombinator.com/item?id=48255525"
       },
       "hot_score": 0.0,
       "tags": [
-        "Hardware"
+        "Show HN",
+        "Programming"
       ]
     }
   ]
