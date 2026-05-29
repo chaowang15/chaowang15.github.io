@@ -20,62 +20,62 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='1103' data-hn-time='1779986954'>
+<div class='hn-top-story-item' data-hn-score='222' data-hn-time='1780023660'>
 <span class='hn-top-story-rank'>1</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/28/top_stories_05282026#story-48318481'>Cars are trying to spy on you, and it's only just the beginning</a>
+ <a class='hn-top-story-link' href='https://www.bbc.com/future/article/20260513-your-car-is-spying-on-you-its-about-to-get-worse' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>汽车在窥探你，才刚刚开始</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 222</span> <span class='hn-top-story-comments'>&#128172; 102</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='1366' data-hn-time='1779986954'>
+<span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/05/28/top_stories_05282026#story-48311647'>Claude Opus 4.8</a>
  <a class='hn-top-story-link' href='https://www.anthropic.com/news/claude-opus-4-8' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Claude Opus 4.8 发布</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 24</span> <span class='hn-top-story-score'>&#9650; 1103</span> <span class='hn-top-story-comments'>&#128172; 877</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 10</span> <span class='hn-top-story-score'>&#9650; 1366</span> <span class='hn-top-story-comments'>&#128172; 1102</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='432' data-hn-time='1779996249'>
-<span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-item' data-hn-score='137' data-hn-time='1780025535'>
+<span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/28/top_stories_05282026#story-48318678'>The most spectacular rocket explosion since N1 just happened in Florida</a>
+ <a class='hn-top-story-link' href='https://arstechnica.com/space/2026/05/blue-origins-new-glenn-rocket-just-exploded-during-a-static-fire-test/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>佛州发生自 N1 以来最壮观的火箭爆炸</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.7</span> <span class='hn-top-story-score'>&#9650; 137</span> <span class='hn-top-story-comments'>&#128172; 70</span> <span class='hn-top-story-tag'>Space</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='783' data-hn-time='1779996249'>
+<span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/05/28/top_stories_05282026#story-48314136'>Bricks and Minifigs Stole a Man's $200k Lego Collection</a>
  <a class='hn-top-story-link' href='https://mybricklog.com/blog/bricks-minifigs-corporate-stole-old-mans-200000-lego-collection' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Bricks and Minifigs 偷走了一名男子价值 20 万美元的乐高收藏</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 19</span> <span class='hn-top-story-score'>&#9650; 432</span> <span class='hn-top-story-comments'>&#128172; 236</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.0</span> <span class='hn-top-story-score'>&#9650; 783</span> <span class='hn-top-story-comments'>&#128172; 392</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='230' data-hn-time='1779993706'>
-<span class='hn-top-story-rank'>3</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/28/top_stories_05282026#story-48313530'>Just Use Postgres for Durable Workflows</a>
- <a class='hn-top-story-link' href='https://www.dbos.dev/blog/postgres-is-all-you-need-for-durable-execution' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>直接用 Postgres 构建持久化工作流</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.0</span> <span class='hn-top-story-score'>&#9650; 230</span> <span class='hn-top-story-comments'>&#128172; 94</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Data</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='138' data-hn-time='1779997394'>
-<span class='hn-top-story-rank'>4</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/28/top_stories_05282026#story-48314363'>Sam Altman and Dario Amodei are both walking back AI jobs apocalypse predictions</a>
- <a class='hn-top-story-link' href='https://fortune.com/2026/05/26/sam-altman-dario-amodei-walking-back-ai-jobs-apocalypse-prophecies-ipo/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>萨姆·奥特曼与达里奥·阿莫代伊都在收回 AI 就业末日预言</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.5</span> <span class='hn-top-story-score'>&#9650; 138</span> <span class='hn-top-story-comments'>&#128172; 117</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='211' data-hn-time='1779991784'>
+<div class='hn-top-story-item' data-hn-score='215' data-hn-time='1780017398'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/28/top_stories_05282026#story-48313048'>Anthropic raises $65B in Series H funding at $965B post-money valuation</a>
- <a class='hn-top-story-link' href='https://www.anthropic.com/news/series-h' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/28/top_stories_05282026#story-48317774'>Blue Origin's New Glenn blows up during static fire test</a>
+ <a class='hn-top-story-link' href='https://twitter.com/nasaspaceflight/status/2060164928472854821' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Anthropic 完成 65 亿美元的 Series H 融资，估值达 9650 亿美元</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.4</span> <span class='hn-top-story-score'>&#9650; 211</span> <span class='hn-top-story-comments'>&#128172; 187</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>Blue Origin 的 New Glenn 静态点火测试爆炸</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.7</span> <span class='hn-top-story-score'>&#9650; 215</span> <span class='hn-top-story-comments'>&#128172; 114</span> <span class='hn-top-story-tag'>Space</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='53' data-hn-time='1780004754'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='294' data-hn-time='1780004754'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -83,51 +83,51 @@ Sort:
  <a class='hn-top-story-link' href='https://www.tomshardware.com/tech-industry/cyber-security/microsofts-github-bans-security-researcher-who-posted-zero-day-windows-exploits-because-company-ruined-their-life-expert-claims-action-is-vindictive-and-promises-further-retaliation' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>GitHub 禁止发布 Windows 零日漏洞的安全研究者</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.8</span> <span class='hn-top-story-score'>&#9650; 53</span> <span class='hn-top-story-comments'>&#128172; 7</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.3</span> <span class='hn-top-story-score'>&#9650; 294</span> <span class='hn-top-story-comments'>&#128172; 137</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='137' data-hn-time='1779994938'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='306' data-hn-time='1779999921'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/28/top_stories_05282026#story-48313810'>Various LLM Smells</a>
- <a class='hn-top-story-link' href='https://shvbsle.in/various-llm-smells/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>各种大语言模型的征兆</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.2</span> <span class='hn-top-story-score'>&#9650; 137</span> <span class='hn-top-story-comments'>&#128172; 99</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='82' data-hn-time='1779999921'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/28/top_stories_05282026#story-48314951'>I Made a Million Dollar Product from My Dorm Room (2025)</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/28/top_stories_05282026#story-48314951'>I made a million dollar product from my dorm room (2025)</a>
  <a class='hn-top-story-link' href='https://nick.winans.io/blog/nice-nano/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>我在宿舍做出百万美元级产品（2025）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.0</span> <span class='hn-top-story-score'>&#9650; 82</span> <span class='hn-top-story-comments'>&#128172; 6</span> <span class='hn-top-story-tag'>Startups</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 306</span> <span class='hn-top-story-comments'>&#128172; 42</span> <span class='hn-top-story-tag'>Startups</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='464' data-hn-time='1779970819'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='168' data-hn-time='1780011767'>
+<span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/28/top_stories_05282026#story-48317093'>SF startup is testing robots in Airbnbs, and trashing them, lawsuit claims</a>
+ <a class='hn-top-story-link' href='https://sfstandard.com/2026/05/28/sf-startup-secretly-testing-robots-airbnbs-trashing-lawsuit-claims/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>旧金山初创公司在 Airbnb 测试机器人，测试中损坏它们，被提起诉讼</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 168</span> <span class='hn-top-story-comments'>&#128172; 80</span> <span class='hn-top-story-tag'>Startups</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Politics</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='300' data-hn-time='1779993706'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/28/top_stories_05282026#story-48307887'>Disagreement among frontier LLMs on real-world fact-checks</a>
- <a class='hn-top-story-link' href='https://lenz.io/research/llm-disagreement' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/28/top_stories_05282026#story-48313530'>Building durable workflows on Postgres</a>
+ <a class='hn-top-story-link' href='https://www.dbos.dev/blog/postgres-is-all-you-need-for-durable-execution' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>前沿大语言模型在现实世界事实核查上的分歧</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.7</span> <span class='hn-top-story-score'>&#9650; 464</span> <span class='hn-top-story-comments'>&#128172; 322</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>在 Postgres 上构建持久化工作流</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 300</span> <span class='hn-top-story-comments'>&#128172; 128</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>DevOps</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='346' data-hn-time='1779977580'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='314' data-hn-time='1779991784'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/28/top_stories_05282026#story-48309233'>Citing 'severe' math deficits, UC faculty demand a return to SAT tests for STEM</a>
- <a class='hn-top-story-link' href='https://www.latimes.com/california/story/2026-05-27/uc-math-professors-demand-return-of-sat-for-stem-admissions' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/28/top_stories_05282026#story-48313048'>Anthropic raises $65B in Series H funding at $965B post-money valuation</a>
+ <a class='hn-top-story-link' href='https://www.anthropic.com/news/series-h' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>因数学能力被认为严重不足，UC 教职员要求在 STEM 招生中恢复 SAT 考试</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.7</span> <span class='hn-top-story-score'>&#9650; 346</span> <span class='hn-top-story-comments'>&#128172; 459</span> <span class='hn-top-story-tag'>Education</span></div>
+<div class='hn-top-story-zh'>Anthropic 完成 65 亿美元的 Series H 融资，估值达 9650 亿美元</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.7</span> <span class='hn-top-story-score'>&#9650; 314</span> <span class='hn-top-story-comments'>&#128172; 323</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Startups</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -148,7 +148,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/05/28/top_stories_05282026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>30</b> <span class="hn-row-sep">·</span> AI <b>22</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>27</b> <span class="hn-row-sep">·</span> AI <b>22</b></span>
 </a>
 </div>
 </div>
