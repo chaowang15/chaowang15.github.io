@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>99</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>14384</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>96</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>97</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-05-29</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>99</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>14400</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>96</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>97</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-05-29</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,7 +20,7 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='455' data-hn-time='1780065647'>
+<div class='hn-top-story-item' data-hn-score='625' data-hn-time='1780065647'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -28,10 +28,10 @@ Sort:
  <a class='hn-top-story-link' href='https://openpath.quest/2026/i-am-retiring-from-tech-to-live-offline/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>我将从科技行业退休，过上离线生活</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 26</span> <span class='hn-top-story-score'>&#9650; 455</span> <span class='hn-top-story-comments'>&#128172; 297</span> <span class='hn-top-story-tag'>Career</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 16</span> <span class='hn-top-story-score'>&#9650; 625</span> <span class='hn-top-story-comments'>&#128172; 432</span> <span class='hn-top-story-tag'>Career</span> <span class='hn-top-story-tag'>Culture</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='227' data-hn-time='1780068775'>
+<div class='hn-top-story-item' data-hn-score='434' data-hn-time='1780068775'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -39,95 +39,95 @@ Sort:
  <a class='hn-top-story-link' href='https://rockstarintel.com/gta-6-developers-announce-rockstar-games-union/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>GTA 6开发者组建工会</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 18</span> <span class='hn-top-story-score'>&#9650; 227</span> <span class='hn-top-story-comments'>&#128172; 112</span> <span class='hn-top-story-tag'>Gaming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 14</span> <span class='hn-top-story-score'>&#9650; 434</span> <span class='hn-top-story-comments'>&#128172; 274</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Entertainment</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='145' data-hn-time='1780069584'>
+<div class='hn-top-story-item' data-hn-score='363' data-hn-time='1780069584'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/29/top_stories_05292026#story-48324712'>The Dead Economy Theory</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/29/top_stories_05292026#story-48324712'>The dead economy theory</a>
  <a class='hn-top-story-link' href='https://www.owenmcgrann.com/p/the-dead-economy-theory' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>死亡经济理论</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 13</span> <span class='hn-top-story-score'>&#9650; 145</span> <span class='hn-top-story-comments'>&#128172; 153</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 363</span> <span class='hn-top-story-comments'>&#128172; 497</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='183' data-hn-time='1780067483'>
+<div class='hn-top-story-item' data-hn-score='156' data-hn-time='1780077290'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/29/top_stories_05292026#story-48324097'>Danish Pension Blacklists SpaceX over 'Catastrophic Governance'</a>
- <a class='hn-top-story-link' href='https://www.bloomberg.com/news/articles/2026-05-29/danish-pension-fund-blacklists-spacex-citing-governance-issues' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/29/top_stories_05292026#story-48326802'>SQLite is all you need for durable workflows</a>
+ <a class='hn-top-story-link' href='https://obeli.sk/blog/sqlite-is-all-you-need-for-durable-workflows/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>丹麦养老金因灾难性治理将 SpaceX 列入黑名单</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 13</span> <span class='hn-top-story-score'>&#9650; 183</span> <span class='hn-top-story-comments'>&#128172; 96</span> <span class='hn-top-story-tag'>Space</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-zh'>SQLite：持久化工作流的全部需求</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 156</span> <span class='hn-top-story-comments'>&#128172; 78</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>DevOps</span> <span class='hn-top-story-tag'>Data</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='127' data-hn-time='1780067012'>
+<div class='hn-top-story-item' data-hn-score='235' data-hn-time='1780071721'>
 <span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/29/top_stories_05292026#story-48323992'>Bijou64: A variable-length integer encoding</a>
- <a class='hn-top-story-link' href='https://www.inkandswitch.com/tangents/bijou64/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Bijou64：一种变长整数编码</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.3</span> <span class='hn-top-story-score'>&#9650; 127</span> <span class='hn-top-story-comments'>&#128172; 49</span> <span class='hn-top-story-tag'>Programming</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='52' data-hn-time='1780071721'>
-<span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/05/29/top_stories_05292026#story-48325340'>Notes from the Mistral AI Now Summit in Paris</a>
  <a class='hn-top-story-link' href='https://koenvangilst.nl/lab/mistral-ai-now-summit' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>巴黎 Mistral AI Now Summit 现场笔记</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.2</span> <span class='hn-top-story-score'>&#9650; 52</span> <span class='hn-top-story-comments'>&#128172; 4</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>DevOps</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.4</span> <span class='hn-top-story-score'>&#9650; 235</span> <span class='hn-top-story-comments'>&#128172; 57</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>DevOps</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1692' data-hn-time='1779986954'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='55' data-hn-time='1780081494'>
+<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/29/top_stories_05292026#story-48327809'>On Rendering Diffs</a>
+ <a class='hn-top-story-link' href='https://pierre.computer/writing/on-rendering-diffs' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>渲染差异的要点</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.5</span> <span class='hn-top-story-score'>&#9650; 55</span> <span class='hn-top-story-comments'>&#128172; 12</span> <span class='hn-top-story-tag'>Programming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='60' data-hn-time='1780079512'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/29/top_stories_05292026#story-48311647'>Claude Opus 4.8</a>
- <a class='hn-top-story-link' href='https://www.anthropic.com/news/claude-opus-4-8' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/29/top_stories_05292026#story-48327367'>Rothko for your current weather conditions</a>
+ <a class='hn-top-story-link' href='https://rothko.joonas.wtf/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Claude Opus 4.8 发布</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.6</span> <span class='hn-top-story-score'>&#9650; 1692</span> <span class='hn-top-story-comments'>&#128172; 1317</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>用你当前天气条件创作的罗斯科风格画作</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.3</span> <span class='hn-top-story-score'>&#9650; 60</span> <span class='hn-top-story-comments'>&#128172; 7</span> <span class='hn-top-story-tag'>Design</span> <span class='hn-top-story-tag'>Data</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='192' data-hn-time='1780052972'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='183' data-hn-time='1780067483'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/29/top_stories_05292026#story-48321631'>Is AI causing a repeat of Front end's Lost Decade?</a>
- <a class='hn-top-story-link' href='https://mastrojs.github.io/blog/2026-05-23-is-AI-causing-a-repeat-of-frontends-lost-decade/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/29/top_stories_05292026#story-48324097'>Danish Pension Blacklists SpaceX over 'Catastrophic Governance'</a>
+ <a class='hn-top-story-link' href='https://www.bloomberg.com/news/articles/2026-05-29/danish-pension-fund-blacklists-spacex-citing-governance-issues' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>AI 是否正在使前端开发陷入失落十年的重演？</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.1</span> <span class='hn-top-story-score'>&#9650; 192</span> <span class='hn-top-story-comments'>&#128172; 186</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Design</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>丹麦养老金因灾难性治理将 SpaceX 列入黑名单</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.3</span> <span class='hn-top-story-score'>&#9650; 183</span> <span class='hn-top-story-comments'>&#128172; 96</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Space</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1235' data-hn-time='1779996249'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='175' data-hn-time='1780067012'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/29/top_stories_05292026#story-48314136'>Bricks and Minifigs Stole a Man's $200k Lego Collection</a>
- <a class='hn-top-story-link' href='https://mybricklog.com/blog/bricks-minifigs-corporate-stole-old-mans-200000-lego-collection' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/29/top_stories_05292026#story-48323992'>Bijou64: A variable-length integer encoding</a>
+ <a class='hn-top-story-link' href='https://www.inkandswitch.com/tangents/bijou64/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Bricks and Minifigs 偷走了一名男子价值 20 万美元的乐高收藏</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 1235</span> <span class='hn-top-story-comments'>&#128172; 552</span> <span class='hn-top-story-tag'>Entertainment</span></div>
+<div class='hn-top-story-zh'>Bijou64：一种变长整数编码</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.9</span> <span class='hn-top-story-score'>&#9650; 175</span> <span class='hn-top-story-comments'>&#128172; 65</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='71' data-hn-time='1780064141'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='23' data-hn-time='1780084556'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/29/top_stories_05292026#story-48323397'>Headway Therapy Patients Forced to Scan Their Faces to Keep Getting Care</a>
- <a class='hn-top-story-link' href='https://www.404media.co/headway-therapy-facial-scan-biometric-data-identity-verification/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/29/top_stories_05292026#story-48328365'>The California State Assembly Has Passed the 'Protect Our Games Act'</a>
+ <a class='hn-top-story-link' href='https://www.invenglobal.com/articles/22330/stop-killing-games-movement-gains-momentum-california-assembly-passes-game-protection-bill' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Headway治疗患者被迫扫描脸部以继续治疗</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 71</span> <span class='hn-top-story-comments'>&#128172; 17</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Health</span></div>
+<div class='hn-top-story-zh'>加州众议院通过“保护我们的游戏法案”</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.6</span> <span class='hn-top-story-score'>&#9650; 23</span> <span class='hn-top-story-comments'>&#128172; 5</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Entertainment</span> <span class='hn-top-story-tag'>Legal</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -139,7 +139,7 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 22 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-05-25 — 2026-05-29 <span class="hn-row-sep">·</span> 684 stories <span class="hn-row-sep">·</span> 5 days</span>
+<span class='hn-week-meta'>2026-05-25 — 2026-05-29 <span class="hn-row-sep">·</span> 700 stories <span class="hn-row-sep">·</span> 5 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -148,7 +148,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/05/29/top_stories_05292026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>84</b> <span class="hn-row-sep">·</span> Programming <b>23</b> <span class="hn-row-sep">·</span> AI <b>22</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>31</b> <span class="hn-row-sep">·</span> AI <b>30</b></span>
 </a>
 </div>
 </div>
