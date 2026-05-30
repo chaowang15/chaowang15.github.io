@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>100</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>14520</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>97</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>98</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-05-30</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>100</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>14533</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>97</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>98</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-05-30</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='144' data-hn-time='1780149394'>
+<div class='hn-top-story-item' data-hn-score='145' data-hn-time='1780162048'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/30/top_stories_05302026#story-48336233'>Anthropic surpasses OpenAI to become most valuable AI startup</a>
- <a class='hn-top-story-link' href='https://qazinform.com/news/anthropic-surpasses-openai-to-become-worlds-most-valuable-ai-startup' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/30/top_stories_05302026#story-48338660'>OpenRouter raises $113M Series B</a>
+ <a class='hn-top-story-link' href='https://openrouter.ai/announcements/series-b' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Anthropic 超越 OpenAI 成为最具价值的人工智能初创公司</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 18</span> <span class='hn-top-story-score'>&#9650; 144</span> <span class='hn-top-story-comments'>&#128172; 122</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Startups</span></div>
+<div class='hn-top-story-zh'>OpenRouter 完成 1.13 亿美元 B 轮融资</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 14</span> <span class='hn-top-story-score'>&#9650; 145</span> <span class='hn-top-story-comments'>&#128172; 58</span> <span class='hn-top-story-tag'>Startups</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='203' data-hn-time='1780141289'>
+<div class='hn-top-story-item' data-hn-score='67' data-hn-time='1780162162'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/30/top_stories_05302026#story-48335135'>Proposed new US funding rules: We can cancel any grant at any time</a>
- <a class='hn-top-story-link' href='https://arstechnica.com/science/2026/05/the-office-of-management-and-budget-tries-again-to-cripple-us-science/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/30/top_stories_05302026#story-48338673'>Zig ELF Linker Improvements Devlog</a>
+ <a class='hn-top-story-link' href='https://ziglang.org/devlog/2026/#2026-05-30' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>拟议的新美国资助规则：可随时取消任何拨款</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.6</span> <span class='hn-top-story-score'>&#9650; 203</span> <span class='hn-top-story-comments'>&#128172; 140</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Legal</span></div>
+<div class='hn-top-story-zh'>Zig ELF 链接器改进开发日志</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.4</span> <span class='hn-top-story-score'>&#9650; 67</span> <span class='hn-top-story-comments'>&#128172; 9</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='352' data-hn-time='1780128020'>
+<div class='hn-top-story-item' data-hn-score='100' data-hn-time='1780158538'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/30/top_stories_05302026#story-48333820'>Danish pension fund excludes SpaceX citing governance and valuation</a>
- <a class='hn-top-story-link' href='https://www.reuters.com/legal/transactional/danish-pension-fund-excludes-spacex-citing-governance-valuation-2026-05-29/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/30/top_stories_05302026#story-48337987'>Downdetector and Speedtest sold to Accenture for $1.2B</a>
+ <a class='hn-top-story-link' href='https://www.theverge.com/tech/889234/downdetector-ookla-speedtest-sold-accenture' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>丹麦养老基金因治理与估值问题排除 SpaceX</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.6</span> <span class='hn-top-story-score'>&#9650; 352</span> <span class='hn-top-story-comments'>&#128172; 277</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Space</span></div>
+<div class='hn-top-story-zh'>Downdetector 与 Speedtest 将以 12 亿美元出售给埃森哲</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.2</span> <span class='hn-top-story-score'>&#9650; 100</span> <span class='hn-top-story-comments'>&#128172; 57</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Finance</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='225' data-hn-time='1780135002'>
+<div class='hn-top-story-item' data-hn-score='181' data-hn-time='1780151150'>
 <span class='hn-top-story-rank'>4</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/30/top_stories_05302026#story-48334515'>Pandoc Templates</a>
- <a class='hn-top-story-link' href='https://pandoc-templates.org/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Pandoc 模板</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.4</span> <span class='hn-top-story-score'>&#9650; 225</span> <span class='hn-top-story-comments'>&#128172; 29</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Web</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='85' data-hn-time='1780143453'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/30/top_stories_05302026#story-48335388'>Corporate America Is Starting to Ration AI as Cost Skyrockets</a>
- <a class='hn-top-story-link' href='https://www.wsj.com/tech/ai/corporate-america-is-starting-to-ration-ai-as-cost-skyrockets-1eb99d7a' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>在成本飙升的背景下，企业界开始对 AI 实施配额以控制开销</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.9</span> <span class='hn-top-story-score'>&#9650; 85</span> <span class='hn-top-story-comments'>&#128172; 78</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Business</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='214' data-hn-time='1780130308'>
-<span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/30/top_stories_05302026#story-48334048'>Zig: Build System Reworked</a>
- <a class='hn-top-story-link' href='https://ziglang.org/devlog/2026/#2026-05-26' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Zig：构建系统重构</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.5</span> <span class='hn-top-story-score'>&#9650; 214</span> <span class='hn-top-story-comments'>&#128172; 113</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>DevOps</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='26' data-hn-time='1780151150'>
-<span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/05/30/top_stories_05302026#story-48336564'>Voxel Space</a>
  <a class='hn-top-story-link' href='https://s-macke.github.io/VoxelSpace/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>体素空间</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 26</span> <span class='hn-top-story-comments'>&#128172; 3</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Web</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.8</span> <span class='hn-top-story-score'>&#9650; 181</span> <span class='hn-top-story-comments'>&#128172; 39</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='100' data-hn-time='1780138308'>
-<span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-item' data-hn-score='144' data-hn-time='1780149394'>
+<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/30/top_stories_05302026#story-48336233'>Anthropic surpasses OpenAI to become most valuable AI startup</a>
+ <a class='hn-top-story-link' href='https://qazinform.com/news/anthropic-surpasses-openai-to-become-worlds-most-valuable-ai-startup' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Anthropic 超越 OpenAI 成为最具价值的人工智能初创公司</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.1</span> <span class='hn-top-story-score'>&#9650; 144</span> <span class='hn-top-story-comments'>&#128172; 122</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Startups</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='305' data-hn-time='1780135002'>
+<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/30/top_stories_05302026#story-48334515'>Pandoc Templates</a>
+ <a class='hn-top-story-link' href='https://pandoc-templates.org/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Pandoc 模板</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 305</span> <span class='hn-top-story-comments'>&#128172; 43</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Web</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='240' data-hn-time='1780138308'>
+<span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/05/30/top_stories_05302026#story-48334854'>Openrsync: An implementation of rsync, by the OpenBSD team</a>
  <a class='hn-top-story-link' href='https://github.com/kristapsdz/openrsync' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Openrsync：OpenBSD 团队实现的 rsync</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 100</span> <span class='hn-top-story-comments'>&#128172; 45</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 240</span> <span class='hn-top-story-comments'>&#128172; 107</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='28' data-hn-time='1780149811'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='203' data-hn-time='1780141289'>
+<span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/30/top_stories_05302026#story-48335135'>Proposed new US funding rules: We can cancel any grant at any time</a>
+ <a class='hn-top-story-link' href='https://arstechnica.com/science/2026/05/the-office-of-management-and-budget-tries-again-to-cripple-us-science/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>拟议的新美国资助规则：可随时取消任何拨款</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 203</span> <span class='hn-top-story-comments'>&#128172; 140</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Legal</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='352' data-hn-time='1780128020'>
 <span class='hn-top-story-rank'>9</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/30/top_stories_05302026#story-48333820'>Danish pension fund excludes SpaceX citing governance and valuation</a>
+ <a class='hn-top-story-link' href='https://www.reuters.com/legal/transactional/danish-pension-fund-excludes-spacex-citing-governance-valuation-2026-05-29/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>丹麦养老基金因治理与估值问题排除 SpaceX</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 352</span> <span class='hn-top-story-comments'>&#128172; 277</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>Space</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='107' data-hn-time='1780149811'>
+<span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/05/30/top_stories_05302026#story-48336312'>Memory decline after menopause linked to loss of estrogen production in brain</a>
  <a class='hn-top-story-link' href='https://news.northwestern.edu/stories/2026/05/memory-decline-after-menopause-linked-to-loss-of-estrogen-production-in-brain-tissue' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>更年期后记忆衰退与大脑雌激素产生减少相关</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 28</span> <span class='hn-top-story-comments'>&#128172; 0</span> <span class='hn-top-story-tag'>Health</span> <span class='hn-top-story-tag'>Science</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1129' data-hn-time='1780069584'>
-<span class='hn-top-story-rank'>10</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/30/top_stories_05302026#story-48324712'>The dead economy theory</a>
- <a class='hn-top-story-link' href='https://www.owenmcgrann.com/p/the-dead-economy-theory' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>死亡经济理论</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 1129</span> <span class='hn-top-story-comments'>&#128172; 1260</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 107</span> <span class='hn-top-story-comments'>&#128172; 48</span> <span class='hn-top-story-tag'>Health</span> <span class='hn-top-story-tag'>Science</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -139,7 +139,7 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 22 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-05-25 — 2026-05-30 <span class="hn-row-sep">·</span> 820 stories <span class="hn-row-sep">·</span> 6 days</span>
+<span class='hn-week-meta'>2026-05-25 — 2026-05-30 <span class="hn-row-sep">·</span> 833 stories <span class="hn-row-sep">·</span> 6 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -148,7 +148,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/05/30/top_stories_05302026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>70</b> <span class="hn-row-sep">·</span> Programming <b>22</b> <span class="hn-row-sep">·</span> AI <b>17</b></span>
+<span class='hn-row-detail'>All <b>83</b> <span class="hn-row-sep">·</span> Programming <b>27</b> <span class="hn-row-sep">·</span> AI <b>18</b></span>
 </a>
 </div>
 </div>
