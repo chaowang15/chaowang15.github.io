@@ -4,19 +4,19 @@
     "source": "https://news.ycombinator.com/",
     "api": "https://github.com/HackerNews/API",
     "count_requested": 50,
-    "count_written": 89,
-    "reused_same_day": 11,
-    "reused_cross_day": 1,
-    "new_llm_enriched": 31,
-    "scrape_time_display": "12:19, June 01, 2026 (PDT)",
+    "count_written": 100,
+    "reused_same_day": 35,
+    "reused_cross_day": 0,
+    "new_llm_enriched": 15,
+    "scrape_time_display": "14:28, June 01, 2026 (PDT)",
     "timezone": "America/Los_Angeles",
     "date_dir": "2026/06/01",
     "content_date": "2026-06-01",
-    "run_time_local": "12:19, June 01, 2026 (PDT)",
-    "run_time_utc": "2026-06-01 19:19:47 UTC",
+    "run_time_local": "14:28, June 01, 2026 (PDT)",
+    "run_time_utc": "2026-06-01 21:28:53 UTC",
     "incremental": true,
     "stories_max": 100,
-    "hot_score_time_utc": "2026-06-01 19:21:22 UTC"
+    "hot_score_time_utc": "2026-06-01 21:30:10 UTC"
   },
   "items": [
     {
@@ -31,15 +31,15 @@
         "id": 48359102,
         "type": "story",
         "by": "ssiddharth",
-        "score": 623,
-        "descendants": 153,
+        "score": 952,
+        "descendants": 232,
         "time": 1780331502,
         "comments_url": "https://news.ycombinator.com/item?id=48359102"
       },
       "tags": [
         "Security"
       ],
-      "hot_score": 36.56
+      "hot_score": 28.83
     },
     {
       "title_en": "Malicious npm packages detected across Red Hat Cloud Services",
@@ -53,40 +53,15 @@
         "id": 48356625,
         "type": "story",
         "by": "kurmiashish",
-        "score": 665,
-        "descendants": 357,
+        "score": 693,
+        "descendants": 379,
         "time": 1780320621,
         "comments_url": "https://news.ycombinator.com/item?id=48356625"
       },
       "tags": [
-        "Security",
-        "Open Source"
+        "Security"
       ],
-      "hot_score": 16.27
-    },
-    {
-      "title_en": "DuckDuckGo makes its 'no-AI' search engine easier to access as its traffic booms",
-      "url": "https://techcrunch.com/2026/06/01/duckduckgo-makes-its-no-ai-search-engine-easier-to-access-as-its-traffic-booms/",
-      "title_zh": "DuckDuckGo 在流量激增时让其无 AI 搜索引擎更易访问",
-      "created_display": "Created: Jun 01, 2026 / 09:33 PT",
-      "image_url": "https://techcrunch.com/wp-content/uploads/2026/05/DuckDuckGo_NoAI.png?resize=1200,784",
-      "summary_en": "DuckDuckGo expands access to its no‑AI search engine as traffic climbs, illustrating demand for privacy-respecting results. The move positions DDG as a counterpoint to AI‑augmented search trends.",
-      "summary_zh": "DuckDuckGo 在流量激增之际让其无 AI 的搜索引擎更易访问，体现用户对隐私、非 AI 助力结果的需求在上升。此举也为以隐私为卖点的搜索方案带来更广阔的触达。",
-      "hn": {
-        "id": 48359130,
-        "type": "story",
-        "by": "jaredwiener",
-        "score": 233,
-        "descendants": 119,
-        "time": 1780331639,
-        "comments_url": "https://news.ycombinator.com/item?id=48359130"
-      },
-      "tags": [
-        "Privacy",
-        "Web",
-        "AI"
-      ],
-      "hot_score": 13.83
+      "hot_score": 10.97
     },
     {
       "title_en": "Anthropic confidentially submits draft S-1 to the SEC",
@@ -100,8 +75,8 @@
         "id": 48358646,
         "type": "story",
         "by": "surprisetalk",
-        "score": 277,
-        "descendants": 184,
+        "score": 356,
+        "descendants": 285,
         "time": 1780329640,
         "comments_url": "https://news.ycombinator.com/item?id=48358646"
       },
@@ -111,7 +86,55 @@
         "AI",
         "Politics"
       ],
-      "hot_score": 13.51
+      "hot_score": 9.46
+    },
+    {
+      "title_en": "GitHub and the crime against software",
+      "url": "https://eblog.fly.dev/githubbad.html",
+      "title_zh": "GitHub 与对软件的犯罪",
+      "created_display": "Created: Jun 01, 2026 / 11:54 PT",
+      "image_url": "https://www.eblog.fly.dev/tt_tt.png",
+      "summary_en": "Argues that GitHub's culture and tooling enable lax licensing and diffusion of copyrighted code, which the author calls a 'crime against software.' The piece calls for clearer licenses, provenance tracking, and stronger attribution practices to restore incentives for proper software stewardship.",
+      "summary_zh": "认为 GitHub 的文化与工具链放任许可宽松、作品代码的扩散，构成对软件的“犯罪行为”。呼吁更清晰的许可、源流跟踪与更强的署名规范，以恢复对软件所有权与治理的正确激励。",
+      "hn": {
+        "id": 48361064,
+        "type": "story",
+        "by": "pplanu",
+        "score": 136,
+        "descendants": 49,
+        "time": 1780340095,
+        "comments_url": "https://news.ycombinator.com/item?id=48361064"
+      },
+      "tags": [
+        "Open Source",
+        "Legal",
+        "Programming",
+        "Privacy"
+      ],
+      "hot_score": 8.7
+    },
+    {
+      "title_en": "DuckDuckGo makes its 'no-AI' search engine easier to access as its traffic booms",
+      "url": "https://techcrunch.com/2026/06/01/duckduckgo-makes-its-no-ai-search-engine-easier-to-access-as-its-traffic-booms/",
+      "title_zh": "DuckDuckGo 在流量激增时让其无 AI 搜索引擎更易访问",
+      "created_display": "Created: Jun 01, 2026 / 09:33 PT",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/05/DuckDuckGo_NoAI.png?resize=1200,784",
+      "summary_en": "DuckDuckGo expands access to its no‑AI search engine as traffic climbs, illustrating demand for privacy-respecting results. The move positions DDG as a counterpoint to AI‑augmented search trends.",
+      "summary_zh": "DuckDuckGo 在流量激增之际让其无 AI 的搜索引擎更易访问，体现用户对隐私、非 AI 助力结果的需求在上升。此举也为以隐私为卖点的搜索方案带来更广阔的触达。",
+      "hn": {
+        "id": 48359130,
+        "type": "story",
+        "by": "jaredwiener",
+        "score": 261,
+        "descendants": 134,
+        "time": 1780331639,
+        "comments_url": "https://news.ycombinator.com/item?id=48359130"
+      },
+      "tags": [
+        "Privacy",
+        "AI"
+      ],
+      "hot_score": 7.96
     },
     {
       "title_en": "The Pirate Bay Remains Resilient, 20 Years After the Raid",
@@ -125,15 +148,41 @@
         "id": 48357154,
         "type": "story",
         "by": "speckx",
-        "score": 359,
-        "descendants": 158,
+        "score": 419,
+        "descendants": 214,
         "time": 1780323401,
         "comments_url": "https://news.ycombinator.com/item?id=48357154"
       },
       "tags": [
         "Culture"
       ],
-      "hot_score": 10.57
+      "hot_score": 7.66
+    },
+    {
+      "title_en": "Alphabet announces $80B equity capital raise to expand AI infra and compute",
+      "url": "https://abc.xyz/investor/news/news-details/2026/Alphabet-Announces-Proposed-80-Billion-Equity-Capital-Raise-to-Expand-AI-Infrastructure-and-Compute-2026-b0myAMewCa/default.aspx",
+      "title_zh": "Alphabet宣布800亿美元股权融资以扩展AI基础设施与算力",
+      "created_display": "Created: Jun 01, 2026 / 13:55 PT",
+      "image_url": "https://s206.q4cdn.com/479360582/files/design/alphabet_logo.png",
+      "summary_en": "Alphabet plans to raise about $80B in equity to fund AI infrastructure and compute capacity, signaling continued scale-up of its AI platforms and data-center footprint. The move highlights the capital-intensive nature of modern AI at scale and could influence strategic investments across cloud and hardware ecosystems. Expect further expansion of Google's AI tooling, services, and partnerships.",
+      "summary_zh": "Alphabet计划筹集约800亿美元股本，以资助AI基础设施与算力扩展，显示其AI平台和数据中心规模化的持续增速。这一举措凸显大规模AI的高资本需求，可能影响云服务和硬件生态圈的战略投资。未来Google的AI工具、服务与合作关系预计将进一步扩张。",
+      "hn": {
+        "id": 48362515,
+        "type": "story",
+        "by": "gregschlom",
+        "score": 41,
+        "descendants": 24,
+        "time": 1780347315,
+        "comments_url": "https://news.ycombinator.com/item?id=48362515"
+      },
+      "hot_score": 7.25,
+      "tags": [
+        "Business",
+        "Finance",
+        "AI",
+        "Hardware",
+        "DevOps"
+      ]
     },
     {
       "title_en": "AI Agent Guidelines for CS336 at Stanford",
@@ -147,15 +196,38 @@
         "id": 48359232,
         "type": "story",
         "by": "prakashqwerty",
-        "score": 145,
-        "descendants": 73,
+        "score": 225,
+        "descendants": 94,
         "time": 1780332109,
         "comments_url": "https://news.ycombinator.com/item?id=48359232"
       },
-      "hot_score": 9.02,
       "tags": [
         "AI",
         "Education"
+      ],
+      "hot_score": 7.1
+    },
+    {
+      "title_en": "My 15-year-old relative was killed for refusing to marry her cousin",
+      "url": "https://www.theguardian.com/global-development/2026/jun/01/kawthar-al-husayjawi-killed-refusing-forced-marriage-marry-family-celebrated-iraq",
+      "title_zh": "因拒绝表亲婚嫁而被杀：一名15岁亲属的遭遇",
+      "created_display": "Created: Jun 01, 2026 / 13:41 PT",
+      "image_url": "https://i.guim.co.uk/img/media/fa997e1991ceef43c77ad68df704b1feb5209982/0_299_835_668/master/835.png?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=b40401eae08b5459b2e6f051e354df44",
+      "summary_en": "A 15-year-old relative was killed for refusing forced marriage to a cousin, highlighting ongoing gender-based violence and failures in child protection. The tragedy underscores human-rights concerns and the need for stronger safeguards for vulnerable girls in affected regions. The case has drawn international attention to local and cultural dynamics surrounding forced marriage.",
+      "summary_zh": "一名15岁亲属因拒绝被迫与表亲结婚而遇害，突显持续的性别暴力与未成年人保护体系的缺失。这一悲剧凸显人权问题和对受影响地区弱势女孩更强保护的需求，引发国际社会对当地文化与强迫婚姻问题的关注。",
+      "hn": {
+        "id": 48362364,
+        "type": "story",
+        "by": "Anon84",
+        "score": 46,
+        "descendants": 13,
+        "time": 1780346475,
+        "comments_url": "https://news.ycombinator.com/item?id=48362364"
+      },
+      "hot_score": 6.98,
+      "tags": [
+        "Politics",
+        "Culture"
       ]
     },
     {
@@ -170,16 +242,103 @@
         "id": 48357075,
         "type": "story",
         "by": "kristianpaul",
-        "score": 215,
-        "descendants": 29,
+        "score": 269,
+        "descendants": 36,
         "time": 1780323032,
         "comments_url": "https://news.ycombinator.com/item?id=48357075"
       },
       "tags": [
-        "AI",
         "Education"
       ],
-      "hot_score": 6.16
+      "hot_score": 4.81
+    },
+    {
+      "title_en": "Should you normalize RGB values by 255 or 256?",
+      "url": "https://30fps.net/pages/255-vs-256-division/",
+      "title_zh": "RGB 值应除以 255 还是 256？",
+      "created_display": "Created: Jun 01, 2026 / 10:37 PT",
+      "image_url": "https://30fps.net/pages/255-vs-256-division/std_vs_alt_numberline.png",
+      "summary_en": "Explains the math behind normalizing 0–255 color channels to a 0–1 range and why dividing by 255 is usually preferable to 256. Highlights practical implications for image processing, neural networks, and color accuracy, including edge-case behavior at 255.",
+      "summary_zh": "解释将 0–255 的颜色通道归一化到 0–1 的数学原理，以及为何通常应使用 255 而非 256 进行除法。强调在图像处理、神经网络与色彩精度方面的实际影响，特别是对 255 的端点处理。",
+      "hn": {
+        "id": 48360054,
+        "type": "story",
+        "by": "pplanu",
+        "score": 116,
+        "descendants": 46,
+        "time": 1780335440,
+        "comments_url": "https://news.ycombinator.com/item?id=48360054"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 4.74
+    },
+    {
+      "title_en": "A 10 year old Xeon is all you need",
+      "url": "https://point.free/blog/gemma-4-on-a-2016-xeon/",
+      "title_zh": "一颗十年前的 Xeon 就足够用",
+      "created_display": "Created: May 31, 2026 / 23:38 PT",
+      "image_url": "https://point.free/processed_images/banner.ebd2671bea295a74.jpg",
+      "summary_en": "A decade-old Xeon can still power modern workloads if software is tuned for efficiency. The post demonstrates competitive results on a 2016-era server CPU, encouraging a rethink of hardware budgets for modest-scale deployments.",
+      "summary_zh": "经过优化的软件仍能让十年前的 Xeon 功能不错地应对现代工作负载。该案例在 2016 年代的服务器 CPU 上展现出具有竞争力的性能，促使小型部署重新考量硬件预算。",
+      "hn": {
+        "id": 48353348,
+        "type": "story",
+        "by": "cafkafk",
+        "score": 639,
+        "descendants": 260,
+        "time": 1780295922,
+        "comments_url": "https://news.ycombinator.com/item?id=48353348"
+      },
+      "tags": [
+        "Hardware"
+      ],
+      "hot_score": 3.95
+    },
+    {
+      "title_en": "Debug Project",
+      "url": "https://debug.com/",
+      "title_zh": "调试项目",
+      "created_display": "Created: Jun 01, 2026 / 13:40 PT",
+      "image_url": "https://lh3.googleusercontent.com/QZRAEZjsf6aNQRBS6ypIqHU4o-nCheTVfMVdpAkYyYKLQDw0WeuxD5XRgboOF_6fkJoZdUxF1xm7aytdKh_ZwITPd-NlTEbXLmseng",
+      "summary_en": "A project centered on debugging software workflows and issues, likely offering new tools or methodologies to diagnose and fix bugs.",
+      "summary_zh": "一个聚焦调试软件工作流与问题的项目，可能提供新工具或方法来诊断并修复错误。",
+      "hn": {
+        "id": 48362347,
+        "type": "story",
+        "by": "Eridanus2",
+        "score": 26,
+        "descendants": 4,
+        "time": 1780346413,
+        "comments_url": "https://news.ycombinator.com/item?id=48362347"
+      },
+      "hot_score": 3.84,
+      "tags": [
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "Superintelligence: The Idea That Eats Smart People (2016)",
+      "url": "https://idlewords.com/talks/superintelligence.htm",
+      "title_zh": "超智能：吞噬聪明人的想法（2016）",
+      "created_display": "Created: Jun 01, 2026 / 10:43 PT",
+      "image_url": "https://static.pinboard.in/si/thumbs/si.001.thumb.jpg",
+      "summary_en": "A compact exploration of the superintelligence concept and its stakes for technologists. It challenges readers to think about control, alignment, and governance as AI capability accelerates.",
+      "summary_zh": "对超智能这一概念及其对技术界的影响进行了紧凑的梳理。文章强调在 AI 能力加速的背景下，控制、对齐与治理的重要性。",
+      "hn": {
+        "id": 48360137,
+        "type": "story",
+        "by": "thoughtpeddler",
+        "score": 84,
+        "descendants": 95,
+        "time": 1780335787,
+        "comments_url": "https://news.ycombinator.com/item?id=48360137"
+      },
+      "tags": [
+        "AI"
+      ],
+      "hot_score": 3.52
     },
     {
       "title_en": "KDE at 30",
@@ -199,98 +358,55 @@
         "comments_url": "https://news.ycombinator.com/item?id=48357355"
       },
       "tags": [
-        "Open Source",
-        "Design"
+        "Open Source"
       ],
-      "hot_score": 5.73
+      "hot_score": 3.5
     },
     {
-      "title_en": "Superintelligence: The Idea That Eats Smart People (2016)",
-      "url": "https://idlewords.com/talks/superintelligence.htm",
-      "title_zh": "超智能：吞噬聪明人的想法（2016）",
-      "created_display": "Created: Jun 01, 2026 / 10:43 PT",
-      "image_url": "https://static.pinboard.in/si/thumbs/si.001.thumb.jpg",
-      "summary_en": "A compact exploration of the superintelligence concept and its stakes for technologists. It challenges readers to think about control, alignment, and governance as AI capability accelerates.",
-      "summary_zh": "对超智能这一概念及其对技术界的影响进行了紧凑的梳理。文章强调在 AI 能力加速的背景下，控制、对齐与治理的重要性。",
-      "hn": {
-        "id": 48360137,
-        "type": "story",
-        "by": "thoughtpeddler",
-        "score": 52,
-        "descendants": 39,
-        "time": 1780335787,
-        "comments_url": "https://news.ycombinator.com/item?id=48360137"
-      },
-      "hot_score": 4.99,
-      "tags": [
-        "AI",
-        "Science"
-      ]
-    },
-    {
-      "title_en": "Lifelike biochemistry continued to unfold in sterilized soil",
+      "title_en": "What appear to be biochemical processes may be a natural feature of geology",
       "url": "https://www.quantamagazine.org/the-dirt-that-refused-to-die-20260601/",
-      "title_zh": "在无菌土壤中继续展开的逼真生物化学",
+      "title_zh": "看似生化过程其实是地质的自然特征",
       "created_display": "Created: Jun 01, 2026 / 08:11 PT",
       "image_url": "https://www.quantamagazine.org/wp-content/uploads/2026/06/Abiotic-metabolism-cr-Samuel-Velasco-Social.jpg",
-      "summary_en": "Reports on lifelike biochemistry research unfolding in sterilized soil environments, highlighting experiments that mimic metabolism and replication outside traditional cells. The work deepens our understanding of prebiotic chemistry and the robustness of life-like chemistry under varied conditions.",
-      "summary_zh": "报道在无菌土壤环境中展开的拟生物化学研究，突出模拟代谢与复制的实验，以及对原生物化学与在多样条件下的“类生命化学”鲁棒性的理解。",
+      "summary_en": "Researchers argue that some biochemical-like processes can arise from geological conditions, complicating interpretations of life signals. The finding urges caution when distinguishing biotic versus abiotic signals in geochemistry and astrobiology, with implications for how we search for life on other worlds. This work underscores the need for robust, multi-faceted evidence when assessing potential biosignatures.",
+      "summary_zh": "研究者认为某些看似生物的化学过程其实来自地质条件，这使对生命信号的解读变得更复杂。在地球化学和天体生物学中区分生物信号与非生物信号需要更谨慎，这对在其他世界寻找生命痕迹具有重要影响。该研究强调在评估潜在生物标志时需依赖多层次证据。",
       "hn": {
         "id": 48357905,
         "type": "story",
         "by": "speckx",
-        "score": 127,
-        "descendants": 31,
+        "score": 152,
+        "descendants": 40,
         "time": 1780326695,
         "comments_url": "https://news.ycombinator.com/item?id=48357905"
       },
-      "hot_score": 4.77,
+      "hot_score": 3.34,
       "tags": [
         "Science"
       ]
     },
     {
-      "title_en": "A 10 year old Xeon is all you need",
-      "url": "https://point.free/blog/gemma-4-on-a-2016-xeon/",
-      "title_zh": "一颗十年前的 Xeon 就足够用",
-      "created_display": "Created: May 31, 2026 / 23:38 PT",
-      "image_url": "https://point.free/processed_images/banner.ebd2671bea295a74.jpg",
-      "summary_en": "A decade-old Xeon can still power modern workloads if software is tuned for efficiency. The post demonstrates competitive results on a 2016-era server CPU, encouraging a rethink of hardware budgets for modest-scale deployments.",
-      "summary_zh": "经过优化的软件仍能让十年前的 Xeon 功能不错地应对现代工作负载。该案例在 2016 年代的服务器 CPU 上展现出具有竞争力的性能，促使小型部署重新考量硬件预算。",
+      "title_en": "Florida sues OpenAI and Sam Altman over AI risks",
+      "url": "https://www.politico.com/news/2026/06/01/openai-hit-with-florida-lawsuit-00944215",
+      "title_zh": "佛州就AI风险起诉OpenAI及Altman",
+      "created_display": "Created: Jun 01, 2026 / 09:02 PT",
+      "image_url": null,
+      "summary_en": "Florida filed a lawsuit against OpenAI and CEO Sam Altman alleging that the company's AI products pose risks and misrepresent safety measures. The case adds to growing regulatory scrutiny of AI technologies and could influence how consumer-protection standards are enforced for AI services. The outcome may set a precedent for accountability in AI safety claims.",
+      "summary_zh": "佛州针对OpenAI及首席执行官萨姆·奥特曼提起诉讼，指控其AI产品存在风险并误导安全承诺。此案反映出日益严厉的AI监管态势，可能影响对AI服务的消费者保护标准执行，并或为AI安全承诺设定先例。",
       "hn": {
-        "id": 48353348,
+        "id": 48358667,
         "type": "story",
-        "by": "cafkafk",
-        "score": 589,
-        "descendants": 246,
-        "time": 1780295922,
-        "comments_url": "https://news.ycombinator.com/item?id=48353348"
+        "by": "cyunker",
+        "score": 119,
+        "descendants": 77,
+        "time": 1780329724,
+        "comments_url": "https://news.ycombinator.com/item?id=48358667"
       },
+      "hot_score": 3.16,
       "tags": [
-        "Hardware"
-      ],
-      "hot_score": 4.65
-    },
-    {
-      "title_en": "Should you normalize RGB values by 255 or 256?",
-      "url": "https://30fps.net/pages/255-vs-256-division/",
-      "title_zh": "RGB 值应除以 255 还是 256？",
-      "created_display": "Created: Jun 01, 2026 / 10:37 PT",
-      "image_url": "https://30fps.net/pages/255-vs-256-division/std_vs_alt_numberline.png",
-      "summary_en": "Explains the math behind normalizing 0–255 color channels to a 0–1 range and why dividing by 255 is usually preferable to 256. Highlights practical implications for image processing, neural networks, and color accuracy, including edge-case behavior at 255.",
-      "summary_zh": "解释将 0–255 的颜色通道归一化到 0–1 的数学原理，以及为何通常应使用 255 而非 256 进行除法。强调在图像处理、神经网络与色彩精度方面的实际影响，特别是对 255 的端点处理。",
-      "hn": {
-        "id": 48360054,
-        "type": "story",
-        "by": "pplanu",
-        "score": 37,
-        "descendants": 8,
-        "time": 1780335440,
-        "comments_url": "https://news.ycombinator.com/item?id=48360054"
-      },
-      "hot_score": 3.36,
-      "tags": [
-        "Programming"
+        "Politics",
+        "Legal",
+        "AI",
+        "Business"
       ]
     },
     {
@@ -305,15 +421,40 @@
         "id": 48357725,
         "type": "story",
         "by": "whoishiring",
-        "score": 93,
-        "descendants": 124,
+        "score": 123,
+        "descendants": 183,
         "time": 1780326048,
         "comments_url": "https://news.ycombinator.com/item?id=48357725"
       },
-      "hot_score": 3.31,
       "tags": [
         "Career"
-      ]
+      ],
+      "hot_score": 2.6
+    },
+    {
+      "title_en": "Florida AG files lawsuit against OpenAI, CEO Sam Altman for deceptive practices",
+      "url": "https://www.myfloridalegal.com/newsrelease/attorney-general-james-uthmeier-files-first-nation-state-led-lawsuit-against-openai-ceo",
+      "title_zh": "佛州检察长对 OpenAI 与高管提起欺诈诉讼",
+      "created_display": "Created: Jun 01, 2026 / 11:44 PT",
+      "image_url": "https://www.myfloridalegal.com/img/oag-seal-left.png",
+      "summary_en": "Florida's AG files a lawsuit against OpenAI and Sam Altman alleging deceptive AI practices, signaling regulatory scrutiny of AI vendors.",
+      "summary_zh": "佛州检察长对 OpenAI 及首席执行官提起欺诈诉讼，指控其存在欺骗性 AI 实践，凸显监管对 AI 供应商的审查。",
+      "hn": {
+        "id": 48360933,
+        "type": "story",
+        "by": "benwen",
+        "score": 39,
+        "descendants": 8,
+        "time": 1780339449,
+        "comments_url": "https://news.ycombinator.com/item?id=48360933"
+      },
+      "tags": [
+        "Legal",
+        "Politics",
+        "AI",
+        "Business"
+      ],
+      "hot_score": 2.29
     },
     {
       "title_en": "Nvidia Cosmos 3",
@@ -327,39 +468,61 @@
         "id": 48356654,
         "type": "story",
         "by": "tosh",
-        "score": 131,
-        "descendants": 23,
+        "score": 138,
+        "descendants": 27,
         "time": 1780320764,
         "comments_url": "https://news.ycombinator.com/item?id=48356654"
       },
-      "hot_score": 3.21,
       "tags": [
         "AI"
+      ],
+      "hot_score": 2.19
+    },
+    {
+      "title_en": "GrapheneOS Speech Services version 2 released",
+      "url": "https://discuss.grapheneos.org/d/36001-grapheneos-speech-services-version-2-released",
+      "title_zh": "GrapheneOS 语音服务 v2 发布",
+      "created_display": "Created: Jun 01, 2026 / 11:39 PT",
+      "image_url": "https://discuss.grapheneos.org/opengraph.png",
+      "summary_en": "GrapheneOS releases Speech Services version 2, likely bringing on-device voice processing improvements, privacy enhancements, and better integration with the OS. The update underscores the project's commitment to privacy-first mobile software and reducing reliance on third-party cloud services. Expect refinements to security features and compatibility with upcoming builds.",
+      "summary_zh": "GrapheneOS 发布了 Speech Services v2，预计提升设备端语音处理、隐私保护，并改善与系统的整合。此更新凸显该项目对隐私优先的移动软件的承诺，并减少对第三方云服务的依赖。预计会包含对安全特性的改进以及与后续系统版本的兼容性提升。",
+      "hn": {
+        "id": 48360871,
+        "type": "story",
+        "by": "pretext",
+        "score": 35,
+        "descendants": 7,
+        "time": 1780339193,
+        "comments_url": "https://news.ycombinator.com/item?id=48360871"
+      },
+      "hot_score": 1.99,
+      "tags": [
+        "Privacy",
+        "Open Source",
+        "Security"
       ]
     },
     {
-      "title_en": "GitHub and the Crime Against Software",
-      "url": "https://eblog.fly.dev/githubbad.html",
-      "title_zh": "GitHub 与对软件的犯罪",
-      "created_display": "Created: Jun 01, 2026 / 11:54 PT",
-      "image_url": "https://www.eblog.fly.dev/tt_tt.png",
-      "summary_en": "Argues that GitHub's culture and tooling enable lax licensing and diffusion of copyrighted code, which the author calls a 'crime against software.' The piece calls for clearer licenses, provenance tracking, and stronger attribution practices to restore incentives for proper software stewardship.",
-      "summary_zh": "认为 GitHub 的文化与工具链放任许可宽松、作品代码的扩散，构成对软件的“犯罪行为”。呼吁更清晰的许可、源流跟踪与更强的署名规范，以恢复对软件所有权与治理的正确激励。",
+      "title_en": "Pogroms, American Style",
+      "url": "https://paulkrugman.substack.com/p/pogroms-american-style",
+      "title_zh": "美式风格的暴乱与大屠杀式暴力",
+      "created_display": "Created: Jun 01, 2026 / 12:44 PT",
+      "image_url": null,
+      "summary_en": "Paul Krugman argues that domestic politics fuel pogrom-like violence in the United States, framing it as a warning about rising intolerance and policy failures. The piece challenges readers to connect economic anxiety, rhetoric, and social harms. It reflects on the societal risks of polarization.",
+      "summary_zh": "保罗·克鲁格曼认为美国国内政治推动了类似于大屠杀式的暴力，警示日益加剧的偏执与政策失败。文章促使读者关注经济焦虑、言论风格与社会伤害之间的联系，以及极化带来的社会风险。",
       "hn": {
-        "id": 48361064,
+        "id": 48361660,
         "type": "story",
-        "by": "pplanu",
-        "score": 16,
-        "descendants": 0,
-        "time": 1780340095,
-        "comments_url": "https://news.ycombinator.com/item?id=48361064"
+        "by": "rbanffy",
+        "score": 21,
+        "descendants": 4,
+        "time": 1780343056,
+        "comments_url": "https://news.ycombinator.com/item?id=48361660"
       },
-      "hot_score": 3.01,
+      "hot_score": 1.84,
       "tags": [
-        "Open Source",
-        "Legal",
-        "Programming",
-        "Privacy"
+        "Politics",
+        "Culture"
       ]
     },
     {
@@ -374,16 +537,15 @@
         "id": 48356603,
         "type": "story",
         "by": "f055",
-        "score": 100,
-        "descendants": 58,
+        "score": 114,
+        "descendants": 68,
         "time": 1780320533,
         "comments_url": "https://news.ycombinator.com/item?id=48356603"
       },
-      "hot_score": 2.41,
       "tags": [
-        "Gaming",
-        "Hardware"
-      ]
+        "Gaming"
+      ],
+      "hot_score": 1.78
     },
     {
       "title_en": "Flipper Zero Zig Template",
@@ -397,16 +559,16 @@
         "id": 48356490,
         "type": "story",
         "by": "Nars088",
-        "score": 96,
-        "descendants": 5,
+        "score": 110,
+        "descendants": 7,
         "time": 1780320054,
         "comments_url": "https://news.ycombinator.com/item?id=48356490"
       },
-      "hot_score": 2.25,
       "tags": [
         "Hardware",
         "Programming"
-      ]
+      ],
+      "hot_score": 1.68
     },
     {
       "title_en": "Linux Basics for Hackers (2019)",
@@ -420,60 +582,37 @@
         "id": 48356468,
         "type": "story",
         "by": "ibobev",
-        "score": 80,
-        "descendants": 16,
+        "score": 103,
+        "descendants": 21,
         "time": 1780319941,
         "comments_url": "https://news.ycombinator.com/item?id=48356468"
       },
-      "hot_score": 1.85,
       "tags": [
-        "Security",
-        "Education"
-      ]
+        "Security"
+      ],
+      "hot_score": 1.56
     },
     {
-      "title_en": "Sysadmining Like It's 2009",
-      "url": "https://lambdacreate.com/posts/sysadmining-like-its-2009",
-      "title_zh": "像 2009 年一样做系统管理员",
-      "created_display": "Created: Jun 01, 2026 / 06:50 PT",
-      "image_url": "https://lambdacreate.com/static/images/og-default.png",
-      "summary_en": "A retrospective look at sysadmin practices that work well with minimal tooling, arguing for pragmatic, low-ops approaches while acknowledging modern automation.",
-      "summary_zh": "对当年的系统运维做法进行回顾，倡导务实、低运维的做法，同时承认现代自动化带来的便利。",
+      "title_en": "Qwen3.7-Plus: Multimodal Agent Intelligence",
+      "url": "https://qwen.ai/blog?id=qwen3.7-plus",
+      "title_zh": "Qwen3.7-Plus：多模态代理智能",
+      "created_display": "Created: Jun 01, 2026 / 10:55 PT",
+      "image_url": "https://img.alicdn.com/imgextra/i1/O1CN013ltlI61OTOnTStXfj_!!6000000001706-55-tps-330-327.svg",
+      "summary_en": "Qwen3.7-Plus extends multimodal agent capabilities, enabling integrated reasoning across text and visuals, and stronger tool-use with potential for real-world tasks.",
+      "summary_zh": "Qwen3.7-Plus 增强了多模态代理能力，实现文本与视觉信息的整合推理，并强化工具使用，具备应用于真实任务的潜力。",
       "hn": {
-        "id": 48356847,
+        "id": 48360313,
         "type": "story",
-        "by": "yacin",
-        "score": 63,
-        "descendants": 20,
-        "time": 1780321814,
-        "comments_url": "https://news.ycombinator.com/item?id=48356847"
+        "by": "meetpateltech",
+        "score": 33,
+        "descendants": 7,
+        "time": 1780336527,
+        "comments_url": "https://news.ycombinator.com/item?id=48360313"
       },
-      "hot_score": 1.64,
       "tags": [
-        "DevOps"
-      ]
-    },
-    {
-      "title_en": "Ask HN: Who wants to be hired? (June 2026)",
-      "url": "https://news.ycombinator.com/item?id=48357724",
-      "title_zh": "Ask HN：谁想被雇佣？（2026 年 6 月）",
-      "created_display": "Created: Jun 01, 2026 / 08:00 PT",
-      "image_url": "https://news.ycombinator.com/y18.svg",
-      "summary_en": "A counterpart thread to hiring announcements focused on job seekers, aggregating openings and tips from the community for those looking for opportunities.",
-      "summary_zh": "面向求职者的问 HN 贴，聚合社区中的职位空缺与求职建议，帮助读者发现机会。",
-      "hn": {
-        "id": 48357724,
-        "type": "story",
-        "by": "whoishiring",
-        "score": 46,
-        "descendants": 150,
-        "time": 1780326048,
-        "comments_url": "https://news.ycombinator.com/item?id=48357724"
-      },
-      "hot_score": 1.62,
-      "tags": [
-        "Career"
-      ]
+        "AI"
+      ],
+      "hot_score": 1.45
     },
     {
       "title_en": "Codex just found a \"workaround\" of not having sudo on my PC",
@@ -493,10 +632,77 @@
         "comments_url": "https://news.ycombinator.com/item?id=48348578"
       },
       "tags": [
-        "AI",
-        "Security"
+        "Security",
+        "AI"
       ],
-      "hot_score": 1.59
+      "hot_score": 1.38
+    },
+    {
+      "title_en": "Nvidia RTX Spark",
+      "url": "https://www.nvidia.com/en-us/products/rtx-spark/",
+      "title_zh": "英伟达 RTX Spark",
+      "created_display": "Created: May 31, 2026 / 22:24 PT",
+      "image_url": "https://www.nvidia.com/content/dam/en-zz/nvidiaweb/products/rtx-spark/nvidia-rtx-spark-og-1200x630.jpg",
+      "summary_en": "NVIDIA unveils RTX Spark, a platform to streamline real-time AI-accelerated graphics and design workflows on RTX GPUs. It emphasizes smoother toolchains, better integration with creator software, and potential boosts in throughput for rendering and AI tasks.",
+      "summary_zh": "英伟达推出 RTX Spark 平台，旨在提升 RTX GPU 上的实时 AI 加速图形与设计工作流的效率。它强调更顺畅的开发工具链、与创作者软件的深度整合，以及在渲染和 AI 任务中的潜在吞吐量提升。",
+      "hn": {
+        "id": 48352939,
+        "type": "story",
+        "by": "shenli3514",
+        "score": 243,
+        "descendants": 209,
+        "time": 1780291480,
+        "comments_url": "https://news.ycombinator.com/item?id=48352939"
+      },
+      "tags": [
+        "Hardware",
+        "AI"
+      ],
+      "hot_score": 1.32
+    },
+    {
+      "title_en": "Sysadmining Like It's 2009",
+      "url": "https://lambdacreate.com/posts/sysadmining-like-its-2009",
+      "title_zh": "像 2009 年一样做系统管理员",
+      "created_display": "Created: Jun 01, 2026 / 06:50 PT",
+      "image_url": "https://lambdacreate.com/static/images/og-default.png",
+      "summary_en": "A retrospective look at sysadmin practices that work well with minimal tooling, arguing for pragmatic, low-ops approaches while acknowledging modern automation.",
+      "summary_zh": "对当年的系统运维做法进行回顾，倡导务实、低运维的做法，同时承认现代自动化带来的便利。",
+      "hn": {
+        "id": 48356847,
+        "type": "story",
+        "by": "yacin",
+        "score": 79,
+        "descendants": 29,
+        "time": 1780321814,
+        "comments_url": "https://news.ycombinator.com/item?id=48356847"
+      },
+      "tags": [
+        "DevOps"
+      ],
+      "hot_score": 1.31
+    },
+    {
+      "title_en": "Ask HN: Who wants to be hired? (June 2026)",
+      "url": "https://news.ycombinator.com/item?id=48357724",
+      "title_zh": "Ask HN：谁想被雇佣？（2026 年 6 月）",
+      "created_display": "Created: Jun 01, 2026 / 08:00 PT",
+      "image_url": "https://news.ycombinator.com/y18.svg",
+      "summary_en": "A counterpart thread to hiring announcements focused on job seekers, aggregating openings and tips from the community for those looking for opportunities.",
+      "summary_zh": "面向求职者的问 HN 贴，聚合社区中的职位空缺与求职建议，帮助读者发现机会。",
+      "hn": {
+        "id": 48357724,
+        "type": "story",
+        "by": "whoishiring",
+        "score": 62,
+        "descendants": 210,
+        "time": 1780326048,
+        "comments_url": "https://news.ycombinator.com/item?id=48357724"
+      },
+      "tags": [
+        "Career"
+      ],
+      "hot_score": 1.3
     },
     {
       "title_en": "Cloudflare Turnstile requiring fingerprintable WebGL",
@@ -517,102 +723,9 @@
       },
       "tags": [
         "Privacy",
-        "Web",
         "Hardware"
-      ],
-      "hot_score": 1.42
-    },
-    {
-      "title_en": "Qwen3.7-Plus: Multimodal Agent Intelligence",
-      "url": "https://qwen.ai/blog?id=qwen3.7-plus",
-      "title_zh": "Qwen3.7-Plus：多模态代理智能",
-      "created_display": "Created: Jun 01, 2026 / 10:55 PT",
-      "image_url": "https://img.alicdn.com/imgextra/i1/O1CN013ltlI61OTOnTStXfj_!!6000000001706-55-tps-330-327.svg",
-      "summary_en": "Qwen3.7-Plus extends multimodal agent capabilities, enabling integrated reasoning across text and visuals, and stronger tool-use with potential for real-world tasks.",
-      "summary_zh": "Qwen3.7-Plus 增强了多模态代理能力，实现文本与视觉信息的整合推理，并强化工具使用，具备应用于真实任务的潜力。",
-      "hn": {
-        "id": 48360313,
-        "type": "story",
-        "by": "meetpateltech",
-        "score": 14,
-        "descendants": 1,
-        "time": 1780336527,
-        "comments_url": "https://news.ycombinator.com/item?id=48360313"
-      },
-      "hot_score": 1.41,
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "title_en": "Nvidia RTX Spark",
-      "url": "https://www.nvidia.com/en-us/products/rtx-spark/",
-      "title_zh": "英伟达 RTX Spark",
-      "created_display": "Created: May 31, 2026 / 22:24 PT",
-      "image_url": "https://www.nvidia.com/content/dam/en-zz/nvidiaweb/products/rtx-spark/nvidia-rtx-spark-og-1200x630.jpg",
-      "summary_en": "NVIDIA unveils RTX Spark, a platform to streamline real-time AI-accelerated graphics and design workflows on RTX GPUs. It emphasizes smoother toolchains, better integration with creator software, and potential boosts in throughput for rendering and AI tasks.",
-      "summary_zh": "英伟达推出 RTX Spark 平台，旨在提升 RTX GPU 上的实时 AI 加速图形与设计工作流的效率。它强调更顺畅的开发工具链、与创作者软件的深度整合，以及在渲染和 AI 任务中的潜在吞吐量提升。",
-      "hn": {
-        "id": 48352939,
-        "type": "story",
-        "by": "shenli3514",
-        "score": 186,
-        "descendants": 145,
-        "time": 1780291480,
-        "comments_url": "https://news.ycombinator.com/item?id=48352939"
-      },
-      "tags": [
-        "AI",
-        "Hardware"
-      ],
-      "hot_score": 1.27
-    },
-    {
-      "title_en": "Cessation of public development of Kefir C compiler",
-      "url": "https://kefir.protopopov.lv/posts/announce2.html",
-      "title_zh": "Kefir C 编译器停止公开开发",
-      "created_display": "Created: Jun 01, 2026 / 01:52 PT",
-      "image_url": null,
-      "summary_en": "Kefir C compiler has ceased public development, signaling a shift in project direction or resources. The move leaves room for community forks or alternative toolchains, and may affect ongoing users.",
-      "summary_zh": "Kefir C 编译器宣布停止公开开发，意味着项目方向和资源分配的转变。此举为社区分支或替代工具链留出空间，可能影响现有用户。",
-      "hn": {
-        "id": 48354224,
-        "type": "story",
-        "by": "f311a",
-        "score": 120,
-        "descendants": 98,
-        "time": 1780303925,
-        "comments_url": "https://news.ycombinator.com/item?id=48354224"
-      },
-      "tags": [
-        "Programming",
-        "Open Source"
       ],
       "hot_score": 1.26
-    },
-    {
-      "title_en": "Launch HN: Expanse (YC P26) – Unlock Wasted GPU Capacity",
-      "url": "https://news.ycombinator.com/item?id=48356312",
-      "title_zh": "Launch HN：Expanse（YC P26）——释放被浪费的 GPU 容量",
-      "created_display": "Created: Jun 01, 2026 / 06:05 PT",
-      "image_url": "https://news.ycombinator.com/y18.svg",
-      "summary_en": "Launch post for Expanse, a YC-backed project that helps utilize idle GPU capacity for AI workloads, enabling cost savings and faster experimentation.",
-      "summary_zh": "Expanse 的上线帖，介绍该项目如何利用闲置的 GPU 资源来加速 AI 工作流，带来成本节省和更快的试验速度。",
-      "hn": {
-        "id": 48356312,
-        "type": "story",
-        "by": "ismaeel_bashir",
-        "score": 54,
-        "descendants": 11,
-        "time": 1780319102,
-        "comments_url": "https://news.ycombinator.com/item?id=48356312"
-      },
-      "hot_score": 1.18,
-      "tags": [
-        "AI",
-        "Startups",
-        "Hardware"
-      ]
     },
     {
       "title_en": "Chuwi Minibook X",
@@ -635,7 +748,77 @@
         "Hardware",
         "Energy"
       ],
-      "hot_score": 1.14
+      "hot_score": 0.97
+    },
+    {
+      "title_en": "Cessation of public development of Kefir C compiler",
+      "url": "https://kefir.protopopov.lv/posts/announce2.html",
+      "title_zh": "Kefir C 编译器停止公开开发",
+      "created_display": "Created: Jun 01, 2026 / 01:52 PT",
+      "image_url": null,
+      "summary_en": "Kefir C compiler has ceased public development, signaling a shift in project direction or resources. The move leaves room for community forks or alternative toolchains, and may affect ongoing users.",
+      "summary_zh": "Kefir C 编译器宣布停止公开开发，意味着项目方向和资源分配的转变。此举为社区分支或替代工具链留出空间，可能影响现有用户。",
+      "hn": {
+        "id": 48354224,
+        "type": "story",
+        "by": "f311a",
+        "score": 123,
+        "descendants": 103,
+        "time": 1780303925,
+        "comments_url": "https://news.ycombinator.com/item?id=48354224"
+      },
+      "tags": [
+        "Open Source",
+        "Programming"
+      ],
+      "hot_score": 0.97
+    },
+    {
+      "title_en": "Microsoft builds MacBook Pro rival with NVIDIA-powered Surface Laptop Ultra",
+      "url": "https://www.windowslatest.com/2026/06/01/microsoft-builds-its-ultimate-macbook-pro-rival-with-the-nvidia-powered-surface-laptop-ultra/",
+      "title_zh": "微软打造搭载 NVIDIA 的 Surface Laptop Ultra，欲挑战 MacBook Pro",
+      "created_display": "Created: Jun 01, 2026 / 05:04 PT",
+      "image_url": "https://www.windowslatest.com/wp-content/uploads/2026/06/Microsoft-announces-the-Surface-Laptop-Ultra-powered-by-NVIDIA-RTX-SPARK.jpg",
+      "summary_en": "Microsoft is developing a premium Surface Laptop Ultra powered by NVIDIA GPUs to compete with the MacBook Pro. The project signals a stronger emphasis on high-end laptops for professional workloads, including graphics and AI-assisted tasks. If successful, it could shift hardware competitiveness in the Windows ecosystem toward creator-focused configurations.",
+      "summary_zh": "微软正在开发搭载 NVIDIA 显卡的高端 Surface Laptop Ultra，以与 MacBook Pro 竞争。该计划凸显对专业工作负载的高端笔记本需求，涵盖图形和 AI 辅助任务。若成型，将可能提升 Windows 生态在面向创作者的硬件配置方面的竞争力。",
+      "hn": {
+        "id": 48355720,
+        "type": "story",
+        "by": "jbk",
+        "score": 76,
+        "descendants": 230,
+        "time": 1780315469,
+        "comments_url": "https://news.ycombinator.com/item?id=48355720"
+      },
+      "hot_score": 0.93,
+      "tags": [
+        "Hardware",
+        "AI"
+      ]
+    },
+    {
+      "title_en": "Launch HN: Expanse (YC P26) – Unlock Wasted GPU Capacity",
+      "url": "https://news.ycombinator.com/item?id=48356312",
+      "title_zh": "Launch HN：Expanse（YC P26）——释放被浪费的 GPU 容量",
+      "created_display": "Created: Jun 01, 2026 / 06:05 PT",
+      "image_url": "https://news.ycombinator.com/y18.svg",
+      "summary_en": "Launch post for Expanse, a YC-backed project that helps utilize idle GPU capacity for AI workloads, enabling cost savings and faster experimentation.",
+      "summary_zh": "Expanse 的上线帖，介绍该项目如何利用闲置的 GPU 资源来加速 AI 工作流，带来成本节省和更快的试验速度。",
+      "hn": {
+        "id": 48356312,
+        "type": "story",
+        "by": "ismaeel_bashir",
+        "score": 61,
+        "descendants": 13,
+        "time": 1780319102,
+        "comments_url": "https://news.ycombinator.com/item?id=48356312"
+      },
+      "tags": [
+        "AI",
+        "Startups",
+        "Hardware"
+      ],
+      "hot_score": 0.88
     },
     {
       "title_en": "Show HN: A CSS 3D Engine (no WebGL)",
@@ -649,61 +832,40 @@
         "id": 48356946,
         "type": "story",
         "by": "rofko",
-        "score": 39,
-        "descendants": 17,
+        "score": 50,
+        "descendants": 21,
         "time": 1780322284,
         "comments_url": "https://news.ycombinator.com/item?id=48356946"
       },
-      "hot_score": 1.04,
       "tags": [
         "Show HN",
         "Programming",
         "Web"
-      ]
+      ],
+      "hot_score": 0.85
     },
     {
-      "title_en": "Macron announces 93B euros in 'Choose France' investments",
-      "url": "https://www.euractiv.com/news/macron-announces-93-bn-euros-in-choose-france-investments/",
-      "title_zh": "马克龙宣布在“Choose France”投资 930 亿欧元",
-      "created_display": "Created: Jun 01, 2026 / 09:11 PT",
-      "image_url": "https://www.euractiv.com/content/uploads/sites/2/2026/06/GettyImages-2278468298.jpg",
-      "summary_en": "France unveils 93 billion euros of investments under Choose France to boost tech, research, and industrial sectors, signaling government support for startups and innovation.",
-      "summary_zh": "法国宣布在 Choose France 框架下投资 930 亿欧元，支持科技、研究和产业，表明政府对初创企业与创新的扶持。",
+      "title_en": "Remote work, not AI, has sidelined recent college graduates, research finds",
+      "url": "https://text.npr.org/nx-s1-5843076",
+      "title_zh": "研究发现：远程工作让新毕业生被边缘化，而非AI",
+      "created_display": "Created: Jun 01, 2026 / 13:27 PT",
+      "image_url": null,
+      "summary_en": "A study finds that remote work dynamics, not AI, have sidelined recent graduates in the job market. The findings suggest entry-level hiring and onboarding challenges persist even as AI advances, influencing how employers design internships and training. The results call for targeted programs to help grads bridge the gap.",
+      "summary_zh": "研究发现，远程工作等因素导致新毕业生在职场处于边缘地位，这并非AI技术主导。研究建议在实习和培训设计上给予更多关注，以帮助毕业生缩小与经验丰富人员的差距。",
       "hn": {
-        "id": 48358795,
+        "id": 48362212,
         "type": "story",
-        "by": "jruohonen",
-        "score": 20,
-        "descendants": 0,
-        "time": 1780330286,
-        "comments_url": "https://news.ycombinator.com/item?id=48358795"
+        "by": "hi41",
+        "score": 7,
+        "descendants": 2,
+        "time": 1780345662,
+        "comments_url": "https://news.ycombinator.com/item?id=48362212"
       },
-      "hot_score": 0.99,
+      "hot_score": 0.81,
       "tags": [
-        "Startups",
-        "Politics"
-      ]
-    },
-    {
-      "title_en": "Radxa Dragon Q8B: A Laptop Cosplaying as an SBC?",
-      "url": "https://bret.dk/radxa-dragon-q8b-a-laptop-cosplaying-as-an-sbc/",
-      "title_zh": "Radxa Dragon Q8B：一台像笔记本的单板计算机？",
-      "created_display": "Created: Jun 01, 2026 / 06:39 PT",
-      "image_url": "https://bret.dk/wp-content/uploads/2026/05/radxa-dragon-q8b-review-top-side-cooler.jpg",
-      "summary_en": "Reviews Radxa Dragon Q8B as a powerful SBC with an unusually laptop-like form factor, weighing portability, thermals, and expandability; raises questions about what constitutes a laptop versus an SBC.",
-      "summary_zh": "评测 Radxa Dragon Q8B，作为功能强大的单板计算机，具备类似笔记本电脑的外形，讨论便携性、散热和扩展性，以及笔记本与 SBC 的边界。",
-      "hn": {
-        "id": 48356741,
-        "type": "story",
-        "by": "gainsurier",
-        "score": 39,
-        "descendants": 30,
-        "time": 1780321178,
-        "comments_url": "https://news.ycombinator.com/item?id=48356741"
-      },
-      "hot_score": 0.97,
-      "tags": [
-        "Hardware"
+        "Career",
+        "Education",
+        "AI"
       ]
     },
     {
@@ -724,59 +886,9 @@
         "comments_url": "https://news.ycombinator.com/item?id=48344961"
       },
       "tags": [
-        "Open Source",
-        "Programming"
+        "Open Source"
       ],
-      "hot_score": 0.9
-    },
-    {
-      "title_en": "Amazon Shuts Down Internal AI Leaderboard After Employees Cheated",
-      "url": "https://www.404media.co/amazon-shuts-down-internal-ai-leaderboard-after-employees-cheated/",
-      "title_zh": "亚马逊因员工舞弊而关闭内部 AI 排行榜",
-      "created_display": "Created: Jun 01, 2026 / 10:31 PT",
-      "image_url": "https://images.unsplash.com/photo-1753044346424-1ba619c33dc0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDI4fHxhbWF6fGVufDB8fHx8MTc4MDMzMjc5Mnww&ixlib=rb-4.1.0&q=80&w=2000",
-      "summary_en": "Amazon shuts down its internal AI leaderboard after employees cheated, raising questions about incentives, data integrity, and governance in corporate AI programs.",
-      "summary_zh": "因员工舞弊，亚马逊关闭内部 AI 排行榜，引发对企业 AI 项目激励、数据完整性与治理的讨论。",
-      "hn": {
-        "id": 48359989,
-        "type": "story",
-        "by": "cdrnsf",
-        "score": 11,
-        "descendants": 7,
-        "time": 1780335117,
-        "comments_url": "https://news.ycombinator.com/item?id=48359989"
-      },
-      "hot_score": 0.89,
-      "tags": [
-        "Security",
-        "Business",
-        "AI"
-      ]
-    },
-    {
-      "title_en": "Florida AG files lawsuit against OpenAI, CEO Sam Altman for deceptive practices",
-      "url": "https://www.myfloridalegal.com/newsrelease/attorney-general-james-uthmeier-files-first-nation-state-led-lawsuit-against-openai-ceo",
-      "title_zh": "佛州检察长对 OpenAI 与高管提起欺诈诉讼",
-      "created_display": "Created: Jun 01, 2026 / 11:44 PT",
-      "image_url": "https://www.myfloridalegal.com/img/oag-seal-left.png",
-      "summary_en": "Florida's AG files a lawsuit against OpenAI and Sam Altman alleging deceptive AI practices, signaling regulatory scrutiny of AI vendors.",
-      "summary_zh": "佛州检察长对 OpenAI 及首席执行官提起欺诈诉讼，指控其存在欺骗性 AI 实践，凸显监管对 AI 供应商的审查。",
-      "hn": {
-        "id": 48360933,
-        "type": "story",
-        "by": "benwen",
-        "score": 6,
-        "descendants": 0,
-        "time": 1780339449,
-        "comments_url": "https://news.ycombinator.com/item?id=48360933"
-      },
-      "hot_score": 0.88,
-      "tags": [
-        "Legal",
-        "Politics",
-        "AI",
-        "Business"
-      ]
+      "hot_score": 0.8
     },
     {
       "title_en": "1-Bit Bonsai Image 4B Image Generation for Local Devices",
@@ -800,53 +912,30 @@
         "Privacy",
         "Hardware"
       ],
-      "hot_score": 0.87
+      "hot_score": 0.77
     },
     {
-      "title_en": "Asserts in Zig",
-      "url": "https://kristoff.it/blog/fix-your-asserts/",
-      "title_zh": "Zig 中的断言",
-      "created_display": "Created: Jun 01, 2026 / 05:00 PT",
-      "image_url": "https://kristoff.it/logo.png",
-      "summary_en": "A discussion on fixing and strengthening asserts in Zig, offering practical patterns to avoid common pitfalls and improve reliability.",
-      "summary_zh": "讨论如何修正和加强 Zig 语言中的断言，提供避免常见错误的实用模式以提升可靠性。",
+      "title_en": "Show HN: Textile – A desktop app for weaving together bits of text",
+      "url": "https://www.gettextile.app",
+      "title_zh": "Show HN：Textile——用于拼接文本片段的桌面应用",
+      "created_display": "Created: Jun 01, 2026 / 11:54 PT",
+      "image_url": "https://www.gettextile.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero.0bbo.2ah.b-af.png&w=3840&q=75",
+      "summary_en": "Textile is a desktop app designed to weave together disparate text snippets into a coherent whole, aiding brainstorming and drafting workflows. It emphasizes a lightweight, local-first approach for organizing fragments of ideas. The app targets writers and developers seeking a tactile, offline text-crafting workflow.",
+      "summary_zh": "Textile 是一款桌面应用，旨在把零散的文本片段拼接成一个连贯的整体，帮助头脑风暴与起草工作流。它强调轻量化、就地存储的文本组织方法，面向需要直观离线文本创作流程的作者与开发者。",
       "hn": {
-        "id": 48355693,
+        "id": 48361054,
         "type": "story",
-        "by": "signa11",
-        "score": 44,
-        "descendants": 10,
-        "time": 1780315245,
-        "comments_url": "https://news.ycombinator.com/item?id=48355693"
+        "by": "stack_framer",
+        "score": 12,
+        "descendants": 3,
+        "time": 1780340052,
+        "comments_url": "https://news.ycombinator.com/item?id=48361054"
       },
-      "hot_score": 0.77,
+      "hot_score": 0.71,
       "tags": [
+        "Show HN",
         "Programming"
       ]
-    },
-    {
-      "title_en": "ChatGPT for Google Sheets exfiltrates workbooks",
-      "url": "https://www.promptarmor.com/resources/gpt-for-google-sheets-data-exfiltration",
-      "title_zh": "Google 表格的 ChatGPT 插件可能外泄工作簿数据",
-      "created_display": "Created: May 31, 2026 / 13:35 PT",
-      "image_url": "https://framerusercontent.com/images/eJKU8yDyAKTNNHfYvQqWDm5e25s.png?width=6679&height=4516",
-      "summary_en": "Running ChatGPT inside Google Sheets can inadvertently expose workbook content to the model, creating data leakage risks. This demonstrates how AI copilots can unintentionally exfiltrate sensitive data via prompts and interactions. It underscores the need for strict data governance and prompt-design safeguards when embedding AI in productivity tools.",
-      "summary_zh": "在 Google 表格中运行 ChatGPT 可能无意间将工作簿内容暴露给模型，带来数据外泄风险。这揭示了 AI 辅助工具在提示与交互中可能无意地外带敏感数据。强调在把 AI 嵌入生产力工具时，需加强数据治理与提示设计的防护。",
-      "hn": {
-        "id": 48349487,
-        "type": "story",
-        "by": "hackerBanana",
-        "score": 241,
-        "descendants": 85,
-        "time": 1780259738,
-        "comments_url": "https://news.ycombinator.com/item?id=48349487"
-      },
-      "tags": [
-        "Privacy",
-        "Security",
-        "AI"
-      ],
-      "hot_score": 0.74
     },
     {
       "title_en": "The Website Specification",
@@ -868,7 +957,52 @@
       "tags": [
         "Web"
       ],
-      "hot_score": 0.72
+      "hot_score": 0.65
+    },
+    {
+      "title_en": "Radxa Dragon Q8B: A Laptop Cosplaying as an SBC?",
+      "url": "https://bret.dk/radxa-dragon-q8b-a-laptop-cosplaying-as-an-sbc/",
+      "title_zh": "Radxa Dragon Q8B：一台像笔记本的单板计算机？",
+      "created_display": "Created: Jun 01, 2026 / 06:39 PT",
+      "image_url": "https://bret.dk/wp-content/uploads/2026/05/radxa-dragon-q8b-review-top-side-cooler.jpg",
+      "summary_en": "Reviews Radxa Dragon Q8B as a powerful SBC with an unusually laptop-like form factor, weighing portability, thermals, and expandability; raises questions about what constitutes a laptop versus an SBC.",
+      "summary_zh": "评测 Radxa Dragon Q8B，作为功能强大的单板计算机，具备类似笔记本电脑的外形，讨论便携性、散热和扩展性，以及笔记本与 SBC 的边界。",
+      "hn": {
+        "id": 48356741,
+        "type": "story",
+        "by": "gainsurier",
+        "score": 41,
+        "descendants": 34,
+        "time": 1780321178,
+        "comments_url": "https://news.ycombinator.com/item?id=48356741"
+      },
+      "tags": [
+        "Hardware"
+      ],
+      "hot_score": 0.65
+    },
+    {
+      "title_en": "ChatGPT for Google Sheets exfiltrates workbooks",
+      "url": "https://www.promptarmor.com/resources/gpt-for-google-sheets-data-exfiltration",
+      "title_zh": "Google 表格的 ChatGPT 插件可能外泄工作簿数据",
+      "created_display": "Created: May 31, 2026 / 13:35 PT",
+      "image_url": "https://framerusercontent.com/images/eJKU8yDyAKTNNHfYvQqWDm5e25s.png?width=6679&height=4516",
+      "summary_en": "Running ChatGPT inside Google Sheets can inadvertently expose workbook content to the model, creating data leakage risks. This demonstrates how AI copilots can unintentionally exfiltrate sensitive data via prompts and interactions. It underscores the need for strict data governance and prompt-design safeguards when embedding AI in productivity tools.",
+      "summary_zh": "在 Google 表格中运行 ChatGPT 可能无意间将工作簿内容暴露给模型，带来数据外泄风险。这揭示了 AI 辅助工具在提示与交互中可能无意地外带敏感数据。强调在把 AI 嵌入生产力工具时，需加强数据治理与提示设计的防护。",
+      "hn": {
+        "id": 48349487,
+        "type": "story",
+        "by": "hackerBanana",
+        "score": 241,
+        "descendants": 85,
+        "time": 1780259738,
+        "comments_url": "https://news.ycombinator.com/item?id=48349487"
+      },
+      "tags": [
+        "AI",
+        "Privacy"
+      ],
+      "hot_score": 0.64
     },
     {
       "title_en": "United Airlines 767 returns to Newark after Bluetooth name sparks alert",
@@ -890,29 +1024,29 @@
       "tags": [
         "Security"
       ],
-      "hot_score": 0.69
+      "hot_score": 0.62
     },
     {
-      "title_en": "Using Git's rerere feature to escape recurring conflict hell",
-      "url": "https://gist.github.com/skipcloud/f1033afb4fa5681d69fa63458cc95928",
-      "title_zh": "使用 Git 的 rerere 功能摆脱反复冲突的地狱",
-      "created_display": "Created: Jun 01, 2026 / 00:06 PT",
-      "image_url": "https://github.githubassets.com/assets/gist-og-image-54fd7dc0713e.png",
-      "summary_en": "Git rerere automates reusing resolved conflict hunks, cutting repetitive manual merges. The guide shows how to enable and leverage it for smoother collaboration.",
-      "summary_zh": "Git 的 rerere 功能可以在多次合并冲突后复用已解决的代码片段，减少重复工作。文章演示如何启用并在协作中充分利用它来提升工作流的顺畅度。",
+      "title_en": "Asserts in Zig",
+      "url": "https://kristoff.it/blog/fix-your-asserts/",
+      "title_zh": "Zig 中的断言",
+      "created_display": "Created: Jun 01, 2026 / 05:00 PT",
+      "image_url": "https://kristoff.it/logo.png",
+      "summary_en": "A discussion on fixing and strengthening asserts in Zig, offering practical patterns to avoid common pitfalls and improve reliability.",
+      "summary_zh": "讨论如何修正和加强 Zig 语言中的断言，提供避免常见错误的实用模式以提升可靠性。",
       "hn": {
-        "id": 48353504,
+        "id": 48355693,
         "type": "story",
-        "by": "ankitg12",
-        "score": 83,
-        "descendants": 35,
-        "time": 1780297581,
-        "comments_url": "https://news.ycombinator.com/item?id=48353504"
+        "by": "signa11",
+        "score": 49,
+        "descendants": 10,
+        "time": 1780315245,
+        "comments_url": "https://news.ycombinator.com/item?id=48355693"
       },
       "tags": [
         "Programming"
       ],
-      "hot_score": 0.69
+      "hot_score": 0.59
     },
     {
       "title_en": "Meta launches Instagram, Facebook, and WhatsApp subscriptions",
@@ -935,7 +1069,74 @@
         "Business",
         "AI"
       ],
-      "hot_score": 0.66
+      "hot_score": 0.58
+    },
+    {
+      "title_en": "Using Git's rerere feature to escape recurring conflict hell",
+      "url": "https://gist.github.com/skipcloud/f1033afb4fa5681d69fa63458cc95928",
+      "title_zh": "使用 Git 的 rerere 功能摆脱反复冲突的地狱",
+      "created_display": "Created: Jun 01, 2026 / 00:06 PT",
+      "image_url": "https://github.githubassets.com/assets/gist-og-image-54fd7dc0713e.png",
+      "summary_en": "Git rerere automates reusing resolved conflict hunks, cutting repetitive manual merges. The guide shows how to enable and leverage it for smoother collaboration.",
+      "summary_zh": "Git 的 rerere 功能可以在多次合并冲突后复用已解决的代码片段，减少重复工作。文章演示如何启用并在协作中充分利用它来提升工作流的顺畅度。",
+      "hn": {
+        "id": 48353504,
+        "type": "story",
+        "by": "ankitg12",
+        "score": 85,
+        "descendants": 40,
+        "time": 1780297581,
+        "comments_url": "https://news.ycombinator.com/item?id=48353504"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 0.55
+    },
+    {
+      "title_en": "Macron announces 93B euros in 'Choose France' investments",
+      "url": "https://www.euractiv.com/news/macron-announces-93-bn-euros-in-choose-france-investments/",
+      "title_zh": "马克龙宣布在“Choose France”投资 930 亿欧元",
+      "created_display": "Created: Jun 01, 2026 / 09:11 PT",
+      "image_url": "https://www.euractiv.com/content/uploads/sites/2/2026/06/GettyImages-2278468298.jpg",
+      "summary_en": "France unveils 93 billion euros of investments under Choose France to boost tech, research, and industrial sectors, signaling government support for startups and innovation.",
+      "summary_zh": "法国宣布在 Choose France 框架下投资 930 亿欧元，支持科技、研究和产业，表明政府对初创企业与创新的扶持。",
+      "hn": {
+        "id": 48358795,
+        "type": "story",
+        "by": "jruohonen",
+        "score": 20,
+        "descendants": 0,
+        "time": 1780330286,
+        "comments_url": "https://news.ycombinator.com/item?id=48358795"
+      },
+      "hot_score": 0.53,
+      "tags": [
+        "Politics",
+        "Startups"
+      ]
+    },
+    {
+      "title_en": "Restartable Sequences",
+      "url": "https://justine.lol/rseq/",
+      "title_zh": "可重启序列（Restartable Sequences）",
+      "created_display": "Created: May 31, 2026 / 07:38 PT",
+      "image_url": "https://worker.jart.workers.dev/rseq/rseq.png",
+      "summary_en": "Restartable Sequences (rseq) is a Linux kernel feature that lets a thread execute a tiny critical section and restart safely if interrupted, reducing costly synchronization. The piece outlines how rseq enables fast-path code and where it fits in performance-sensitive apps, with caveats around portability and safety.",
+      "summary_zh": "Restartable Sequences（rseq）是一个 Linux 内核特性，允许线程在被中断时安全地重启极小的临界区，从而降低同步成本。文章解释了 rseq 如何让快速路径代码更高效，以及在对性能敏感的应用中的适用场景，同时也提示了可移植性与安全性方面的注意。",
+      "hn": {
+        "id": 48346019,
+        "type": "story",
+        "by": "grappler",
+        "score": 236,
+        "descendants": 59,
+        "time": 1780238328,
+        "comments_url": "https://news.ycombinator.com/item?id=48346019"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 0.44
     },
     {
       "title_en": "Blorp Language",
@@ -958,50 +1159,29 @@
         "Programming",
         "Design"
       ],
-      "hot_score": 0.55
+      "hot_score": 0.43
     },
     {
-      "title_en": "Restartable Sequences",
-      "url": "https://justine.lol/rseq/",
-      "title_zh": "可重启序列（Restartable Sequences）",
-      "created_display": "Created: May 31, 2026 / 07:38 PT",
-      "image_url": "https://worker.jart.workers.dev/rseq/rseq.png",
-      "summary_en": "Restartable Sequences (rseq) is a Linux kernel feature that lets a thread execute a tiny critical section and restart safely if interrupted, reducing costly synchronization. The piece outlines how rseq enables fast-path code and where it fits in performance-sensitive apps, with caveats around portability and safety.",
-      "summary_zh": "Restartable Sequences（rseq）是一个 Linux 内核特性，允许线程在被中断时安全地重启极小的临界区，从而降低同步成本。文章解释了 rseq 如何让快速路径代码更高效，以及在对性能敏感的应用中的适用场景，同时也提示了可移植性与安全性方面的注意。",
+      "title_en": "Visa invests in Replit to power agentic payments for developers",
+      "url": "https://techcrunch.com/2026/05/28/visa-invests-in-replit-to-power-agentic-payments-for-developers/",
+      "title_zh": "Visa 投资 Replit：为开发者提供代理支付能力",
+      "created_display": "Created: Jun 01, 2026 / 10:22 PT",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2025/09/Replit-founder-CEO-Amjad-Masad.png?resize=1200,715",
+      "summary_en": "Visa led an investment in Replit to power agentic payments for developers, enabling AI agents and automation to trigger payments within software runs. This signals a broader trend of embedding financial actions into developer tooling and programmable AI workflows. The move could accelerate new monetization patterns in developer platforms.",
+      "summary_zh": "Visa 投资 Replit，推动开发者工具中实现代理支付能力，使 AI 代理在软件执行中触发支付。此举体现了将支付能力嵌入开发工具与可编程 AI 工作流的趋势，可能推动开发者平台的新型盈利模式。",
       "hn": {
-        "id": 48346019,
+        "id": 48359854,
         "type": "story",
-        "by": "grappler",
-        "score": 236,
-        "descendants": 59,
-        "time": 1780238328,
-        "comments_url": "https://news.ycombinator.com/item?id=48346019"
+        "by": "alexreysa",
+        "score": 12,
+        "descendants": 0,
+        "time": 1780334560,
+        "comments_url": "https://news.ycombinator.com/item?id=48359854"
       },
+      "hot_score": 0.42,
       "tags": [
-        "Programming"
-      ],
-      "hot_score": 0.49
-    },
-    {
-      "title_en": "Surface Laptop Ultra",
-      "url": "https://blogs.windows.com/devices/2026/05/31/introducing-surface-laptop-ultra-made-for-world-makers/",
-      "title_zh": "Surface Laptop Ultra",
-      "created_display": "Created: May 31, 2026 / 21:32 PT",
-      "image_url": "https://winblogs.thesourcemediaassets.com/sites/43/2026/05/SLU-Hero-Image-11920.png",
-      "summary_en": "Introductory post about Surface Laptop Ultra, highlighting design goals for makers and creators, and potential performance improvements.",
-      "summary_zh": "介绍 Surface Laptop Ultra 的设计定位，强调面向创作者的性能与特性，以及对开发者与创作工作的潜在影响。",
-      "hn": {
-        "id": 48352627,
-        "type": "story",
-        "by": "berlianta",
-        "score": 79,
-        "descendants": 120,
-        "time": 1780288365,
-        "comments_url": "https://news.ycombinator.com/item?id=48352627"
-      },
-      "hot_score": 0.49,
-      "tags": [
-        "Hardware"
+        "AI",
+        "Business"
       ]
     },
     {
@@ -1024,51 +1204,52 @@
       "tags": [
         "Design"
       ],
-      "hot_score": 0.44
+      "hot_score": 0.4
     },
     {
-      "title_en": "Is Python Becoming Pinyin?",
-      "url": "https://lernerpython.com/2026/05/19/is-python-becoming-pinyin/",
-      "title_zh": "Python 正在变成拼音吗？",
-      "created_display": "Created: Jun 01, 2026 / 01:08 PT",
-      "image_url": "https://lernerpython.com/wp-content/uploads/2025/04/cropped-lerner-favicon-300x300-1.png",
-      "summary_en": "Python's syntax and readability trends are increasingly oriented toward approachability and simplicity, inviting comparisons to Pinyin as a phonetic shorthand for code.",
-      "summary_zh": "Python 的语法和可读性趋势正向更易上手和简约发展，甚至被比喻为代码的拼音。该文探讨这一变化对学习曲线、开发效率和工具生态的影响。",
+      "title_en": "Amazon Shuts Down Internal AI Leaderboard After Employees Cheated",
+      "url": "https://www.404media.co/amazon-shuts-down-internal-ai-leaderboard-after-employees-cheated/",
+      "title_zh": "亚马逊因员工舞弊而关闭内部 AI 排行榜",
+      "created_display": "Created: Jun 01, 2026 / 10:31 PT",
+      "image_url": "https://images.unsplash.com/photo-1753044346424-1ba619c33dc0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDI4fHxhbWF6fGVufDB8fHx8MTc4MDMzMjc5Mnww&ixlib=rb-4.1.0&q=80&w=2000",
+      "summary_en": "Amazon shuts down its internal AI leaderboard after employees cheated, raising questions about incentives, data integrity, and governance in corporate AI programs.",
+      "summary_zh": "因员工舞弊，亚马逊关闭内部 AI 排行榜，引发对企业 AI 项目激励、数据完整性与治理的讨论。",
       "hn": {
-        "id": 48353920,
+        "id": 48359989,
         "type": "story",
-        "by": "reuven",
-        "score": 46,
-        "descendants": 63,
-        "time": 1780301316,
-        "comments_url": "https://news.ycombinator.com/item?id=48353920"
+        "by": "cdrnsf",
+        "score": 11,
+        "descendants": 7,
+        "time": 1780335117,
+        "comments_url": "https://news.ycombinator.com/item?id=48359989"
       },
+      "hot_score": 0.4,
       "tags": [
-        "Programming"
-      ],
-      "hot_score": 0.43
+        "AI",
+        "Business"
+      ]
     },
     {
-      "title_en": "The Infosec Phrasebook",
-      "url": "https://nesbitt.io/2026/06/01/the-infosec-phrasebook.html",
-      "title_zh": "信息安全术语手册",
-      "created_display": "Created: Jun 01, 2026 / 04:40 PT",
-      "image_url": "https://nesbitt.io/images/boxes.png",
-      "summary_en": "A compact lexicon of infosec terms with quick definitions and practical notes to help engineers communicate clearly about security.",
-      "summary_zh": "简短的信息安全术语词汇表，配以实用注释，帮助工程师更清晰地讨论安全话题。",
+      "title_en": "Surface Laptop Ultra",
+      "url": "https://blogs.windows.com/devices/2026/05/31/introducing-surface-laptop-ultra-made-for-world-makers/",
+      "title_zh": "Surface Laptop Ultra",
+      "created_display": "Created: May 31, 2026 / 21:32 PT",
+      "image_url": "https://winblogs.thesourcemediaassets.com/sites/43/2026/05/SLU-Hero-Image-11920.png",
+      "summary_en": "Introductory post about Surface Laptop Ultra, highlighting design goals for makers and creators, and potential performance improvements.",
+      "summary_zh": "介绍 Surface Laptop Ultra 的设计定位，强调面向创作者的性能与特性，以及对开发者与创作工作的潜在影响。",
       "hn": {
-        "id": 48355520,
+        "id": 48352627,
         "type": "story",
-        "by": "progval",
-        "score": 26,
-        "descendants": 4,
-        "time": 1780314002,
-        "comments_url": "https://news.ycombinator.com/item?id=48355520"
+        "by": "berlianta",
+        "score": 79,
+        "descendants": 120,
+        "time": 1780288365,
+        "comments_url": "https://news.ycombinator.com/item?id=48352627"
       },
-      "hot_score": 0.42,
+      "hot_score": 0.39,
       "tags": [
-        "Security",
-        "Education"
+        "Hardware",
+        "Design"
       ]
     },
     {
@@ -1092,7 +1273,7 @@
         "AI",
         "Privacy"
       ],
-      "hot_score": 0.41
+      "hot_score": 0.36
     },
     {
       "title_en": "The Speed of Prototyping in the Age of AI",
@@ -1112,31 +1293,54 @@
         "comments_url": "https://news.ycombinator.com/item?id=48347153"
       },
       "tags": [
-        "AI"
+        "AI",
+        "Programming"
       ],
-      "hot_score": 0.4
+      "hot_score": 0.35
     },
     {
-      "title_en": "Rift: Better Alternative to Git Worktrees",
-      "url": "https://github.com/anomalyco/rift",
-      "title_zh": "Rift：比 Git Worktrees 更好的替代方案",
-      "created_display": "Created: May 31, 2026 / 23:53 PT",
-      "image_url": "https://opengraph.githubassets.com/e3c40b75dc5a068b7dd73e5be08bb2cb5fac5c3209293f8e8374798b6a69565b/anomalyco/rift",
-      "summary_en": "Rift presents a more efficient or flexible approach to managing multiple working trees compared to git worktrees. It discusses design goals and scenarios where Rift shines, such as dependency-heavy projects.",
-      "summary_zh": "Rift 提出一种比 Git worktrees 更简洁、隔离性更好、性能更优的替代方案。文章讨论了在依赖密集型项目中的应用场景及如何降低使用摩擦。",
+      "title_en": "Is Python Becoming Pinyin?",
+      "url": "https://lernerpython.com/2026/05/19/is-python-becoming-pinyin/",
+      "title_zh": "Python 正在变成拼音吗？",
+      "created_display": "Created: Jun 01, 2026 / 01:08 PT",
+      "image_url": "https://lernerpython.com/wp-content/uploads/2025/04/cropped-lerner-favicon-300x300-1.png",
+      "summary_en": "Python's syntax and readability trends are increasingly oriented toward approachability and simplicity, inviting comparisons to Pinyin as a phonetic shorthand for code.",
+      "summary_zh": "Python 的语法和可读性趋势正向更易上手和简约发展，甚至被比喻为代码的拼音。该文探讨这一变化对学习曲线、开发效率和工具生态的影响。",
       "hn": {
-        "id": 48353427,
+        "id": 48353920,
         "type": "story",
-        "by": "f4n4tiX",
-        "score": 45,
-        "descendants": 20,
-        "time": 1780296807,
-        "comments_url": "https://news.ycombinator.com/item?id=48353427"
+        "by": "reuven",
+        "score": 46,
+        "descendants": 63,
+        "time": 1780301316,
+        "comments_url": "https://news.ycombinator.com/item?id=48353920"
       },
-      "hot_score": 0.36,
       "tags": [
-        "Programming",
-        "DevOps"
+        "Programming"
+      ],
+      "hot_score": 0.33
+    },
+    {
+      "title_en": "Build a Basic AI Agent from Scratch: Tools",
+      "url": "https://www.ruxu.dev/articles/ai/build-an-ai-agent-with-tools/",
+      "title_zh": "从零开始用工具构建基本AI代理",
+      "created_display": "Created: Jun 01, 2026 / 10:40 PT",
+      "image_url": "https://ruxu.dev",
+      "summary_en": "A guide showing how to assemble a basic AI agent using readily available tools, covering architecture, action loops, and tool integration. It provides practical steps for building autonomous agents that can perform tasks with external tools. The piece is a hands-on primer for engineers exploring agentic AI.",
+      "summary_zh": "本指南演示如何用现成工具从零构建一个基础AI代理，涵盖架构、行动循环与工具整合，提供可操作的实现步骤，帮助工程师探究具代理能力的AI应用。",
+      "hn": {
+        "id": 48360088,
+        "type": "story",
+        "by": "ruxudev",
+        "score": 9,
+        "descendants": 0,
+        "time": 1780335600,
+        "comments_url": "https://news.ycombinator.com/item?id=48360088"
+      },
+      "hot_score": 0.33,
+      "tags": [
+        "AI",
+        "Programming"
       ]
     },
     {
@@ -1157,9 +1361,77 @@
         "comments_url": "https://news.ycombinator.com/item?id=48345090"
       },
       "tags": [
-        "Data"
+        "Programming",
+        "DevOps"
       ],
-      "hot_score": 0.35
+      "hot_score": 0.31
+    },
+    {
+      "title_en": "Announcing Zstandard in Rust",
+      "url": "https://trifectatech.org/blog/announcing-zstandard-in-rust/",
+      "title_zh": "Rust 中的 Zstandard 实现发布",
+      "created_display": "Created: Jun 01, 2026 / 06:10 PT",
+      "image_url": "https://trifectatech.org/trifecta-tech-foundation-share.png",
+      "summary_en": "A Rust implementation of the Zstandard compression algorithm is announced, offering high performance with Rust's safety guarantees. The project could provide a drop-in replacement for C libraries with safer abstractions and stronger ecosystem integration. It may attract adoption in Rust projects needing fast compression.",
+      "summary_zh": "在 Rust 中实现 Zstandard 压缩算法的公告，结合高性能与 Rust 的内存安全特性。该实现有望为需要快速压缩的 Rust 项目提供更安全、易于集成的替代方案。",
+      "hn": {
+        "id": 48356381,
+        "type": "story",
+        "by": "jmillikin",
+        "score": 22,
+        "descendants": 0,
+        "time": 1780319456,
+        "comments_url": "https://news.ycombinator.com/item?id=48356381"
+      },
+      "hot_score": 0.31,
+      "tags": [
+        "Programming",
+        "Open Source"
+      ]
+    },
+    {
+      "title_en": "The Infosec Phrasebook",
+      "url": "https://nesbitt.io/2026/06/01/the-infosec-phrasebook.html",
+      "title_zh": "信息安全术语手册",
+      "created_display": "Created: Jun 01, 2026 / 04:40 PT",
+      "image_url": "https://nesbitt.io/images/boxes.png",
+      "summary_en": "A compact lexicon of infosec terms with quick definitions and practical notes to help engineers communicate clearly about security.",
+      "summary_zh": "简短的信息安全术语词汇表，配以实用注释，帮助工程师更清晰地讨论安全话题。",
+      "hn": {
+        "id": 48355520,
+        "type": "story",
+        "by": "progval",
+        "score": 26,
+        "descendants": 4,
+        "time": 1780314002,
+        "comments_url": "https://news.ycombinator.com/item?id=48355520"
+      },
+      "hot_score": 0.29,
+      "tags": [
+        "Security"
+      ]
+    },
+    {
+      "title_en": "Rift: Better Alternative to Git Worktrees",
+      "url": "https://github.com/anomalyco/rift",
+      "title_zh": "Rift：比 Git Worktrees 更好的替代方案",
+      "created_display": "Created: May 31, 2026 / 23:53 PT",
+      "image_url": "https://opengraph.githubassets.com/e3c40b75dc5a068b7dd73e5be08bb2cb5fac5c3209293f8e8374798b6a69565b/anomalyco/rift",
+      "summary_en": "Rift presents a more efficient or flexible approach to managing multiple working trees compared to git worktrees. It discusses design goals and scenarios where Rift shines, such as dependency-heavy projects.",
+      "summary_zh": "Rift 提出一种比 Git worktrees 更简洁、隔离性更好、性能更优的替代方案。文章讨论了在依赖密集型项目中的应用场景及如何降低使用摩擦。",
+      "hn": {
+        "id": 48353427,
+        "type": "story",
+        "by": "f4n4tiX",
+        "score": 45,
+        "descendants": 20,
+        "time": 1780296807,
+        "comments_url": "https://news.ycombinator.com/item?id=48353427"
+      },
+      "hot_score": 0.28,
+      "tags": [
+        "Programming"
+      ]
     },
     {
       "title_en": "Show HN: Streambed – Stream Postgres to Iceberg on S3, Supports Postgres Wire",
@@ -1183,7 +1455,7 @@
         "Open Source",
         "Data"
       ],
-      "hot_score": 0.28
+      "hot_score": 0.24
     },
     {
       "title_en": "Why are large language models so terrible at video games?",
@@ -1202,31 +1474,10 @@
         "time": 1780305266,
         "comments_url": "https://news.ycombinator.com/item?id=48354405"
       },
-      "hot_score": 0.27,
+      "hot_score": 0.2,
       "tags": [
-        "AI"
-      ]
-    },
-    {
-      "title_en": "Checking Assembly with Z3",
-      "url": "https://bernsteinbear.com/blog/asm-z3/",
-      "title_zh": "用 Z3 检查汇编代码",
-      "created_display": "Created: Jun 01, 2026 / 09:05 PT",
-      "image_url": "https://bernsteinbear.com/favicon.ico",
-      "summary_en": "Shows how to verify properties of assembly code using the Z3 SMT solver, detailing method, limitations, and illustrative examples.",
-      "summary_zh": "展示如何利用 Z3 SMT 求解器对汇编代码进行性质证明，给出方法、局限与示例。",
-      "hn": {
-        "id": 48358700,
-        "type": "story",
-        "by": "speckx",
-        "score": 6,
-        "descendants": 0,
-        "time": 1780329910,
-        "comments_url": "https://news.ycombinator.com/item?id=48358700"
-      },
-      "hot_score": 0.25,
-      "tags": [
-        "Programming"
+        "AI",
+        "Science"
       ]
     },
     {
@@ -1247,9 +1498,9 @@
         "comments_url": "https://news.ycombinator.com/item?id=48347961"
       },
       "tags": [
-        "DevOps"
+        "Programming"
       ],
-      "hot_score": 0.21
+      "hot_score": 0.19
     },
     {
       "title_en": "Rubin Tracks Skyscraper-Size Asteroids and Failed Supernovas",
@@ -1269,54 +1520,32 @@
         "comments_url": "https://news.ycombinator.com/item?id=48352500"
       },
       "tags": [
-        "Space",
         "Science",
+        "Space",
         "Energy"
       ],
-      "hot_score": 0.19
+      "hot_score": 0.15
     },
     {
-      "title_en": "Homing pigeons navigate via superparamagnetic macrophages when sky is overcast",
-      "url": "https://www.science.org/doi/10.1126/science.ady2486",
-      "title_zh": "当天空阴天时，信鸽通过超顺磁性巨噬细胞导航",
-      "created_display": "Created: Jun 01, 2026 / 08:55 PT",
-      "image_url": null,
-      "summary_en": "Science study reveals that homing pigeons navigate using magnetoreception linked to superparamagnetic macrophages when the sky is overcast, shedding light on how birds sense magnetic fields in low-light.",
-      "summary_zh": "研究发现阴天时，信鸽通过与超顺磁性巨噬细胞相关的磁感知导航，揭示鸟类在弱光条件下的磁场感知机制。",
+      "title_en": "Checking Assembly with Z3",
+      "url": "https://bernsteinbear.com/blog/asm-z3/",
+      "title_zh": "用 Z3 检查汇编代码",
+      "created_display": "Created: Jun 01, 2026 / 09:05 PT",
+      "image_url": "https://bernsteinbear.com/favicon.ico",
+      "summary_en": "Shows how to verify properties of assembly code using the Z3 SMT solver, detailing method, limitations, and illustrative examples.",
+      "summary_zh": "展示如何利用 Z3 SMT 求解器对汇编代码进行性质证明，给出方法、局限与示例。",
       "hn": {
-        "id": 48358580,
+        "id": 48358700,
         "type": "story",
-        "by": "croes",
-        "score": 5,
+        "by": "speckx",
+        "score": 6,
         "descendants": 0,
-        "time": 1780329356,
-        "comments_url": "https://news.ycombinator.com/item?id=48358580"
-      },
-      "hot_score": 0.19,
-      "tags": [
-        "Science"
-      ]
-    },
-    {
-      "title_en": "two strangers. one call. no names",
-      "url": "https://just2voices.com/",
-      "title_zh": "两名陌生人，一次通话，无名",
-      "created_display": "Created: Jun 01, 2026 / 02:15 PT",
-      "image_url": null,
-      "summary_en": "Two strangers engage in a single anonymous voice call, offering a brief peek at how identity and tone shape real-time human interaction.",
-      "summary_zh": "两名陌生人进行一次匿名语音通话，短短对话揭示身份与语气如何影响即时的人际互动。",
-      "hn": {
-        "id": 48354414,
-        "type": "story",
-        "by": "whatis1215",
-        "score": 13,
-        "descendants": 5,
-        "time": 1780305346,
-        "comments_url": "https://news.ycombinator.com/item?id=48354414"
+        "time": 1780329910,
+        "comments_url": "https://news.ycombinator.com/item?id=48358700"
       },
       "hot_score": 0.14,
       "tags": [
-        "Culture"
+        "Programming"
       ]
     },
     {
@@ -1340,7 +1569,7 @@
         "Security",
         "Privacy"
       ],
-      "hot_score": 0.13
+      "hot_score": 0.11
     },
     {
       "title_en": "A powerful new chapter for Windows PCs, accelerated by Nvidia RTX Spark",
@@ -1359,10 +1588,54 @@
         "time": 1780289120,
         "comments_url": "https://news.ycombinator.com/item?id=48352693"
       },
-      "hot_score": 0.12,
+      "hot_score": 0.1,
       "tags": [
         "AI",
         "Hardware"
+      ]
+    },
+    {
+      "title_en": "two strangers. one call. no names",
+      "url": "https://just2voices.com/",
+      "title_zh": "两名陌生人，一次通话，无名",
+      "created_display": "Created: Jun 01, 2026 / 02:15 PT",
+      "image_url": null,
+      "summary_en": "Two strangers engage in a single anonymous voice call, offering a brief peek at how identity and tone shape real-time human interaction.",
+      "summary_zh": "两名陌生人进行一次匿名语音通话，短短对话揭示身份与语气如何影响即时的人际互动。",
+      "hn": {
+        "id": 48354414,
+        "type": "story",
+        "by": "whatis1215",
+        "score": 13,
+        "descendants": 5,
+        "time": 1780305346,
+        "comments_url": "https://news.ycombinator.com/item?id=48354414"
+      },
+      "hot_score": 0.1,
+      "tags": [
+        "Culture"
+      ]
+    },
+    {
+      "title_en": "Homing pigeons navigate via superparamagnetic macrophages when sky is overcast",
+      "url": "https://www.science.org/doi/10.1126/science.ady2486",
+      "title_zh": "当天空阴天时，信鸽通过超顺磁性巨噬细胞导航",
+      "created_display": "Created: Jun 01, 2026 / 08:55 PT",
+      "image_url": null,
+      "summary_en": "Science study reveals that homing pigeons navigate using magnetoreception linked to superparamagnetic macrophages when the sky is overcast, shedding light on how birds sense magnetic fields in low-light.",
+      "summary_zh": "研究发现阴天时，信鸽通过与超顺磁性巨噬细胞相关的磁感知导航，揭示鸟类在弱光条件下的磁场感知机制。",
+      "hn": {
+        "id": 48358580,
+        "type": "story",
+        "by": "croes",
+        "score": 5,
+        "descendants": 0,
+        "time": 1780329356,
+        "comments_url": "https://news.ycombinator.com/item?id=48358580"
+      },
+      "hot_score": 0.1,
+      "tags": [
+        "Science"
       ]
     },
     {
@@ -1377,8 +1650,8 @@
         "id": 48327453,
         "type": "story",
         "by": "rawgabbit",
-        "score": 221,
-        "descendants": 52,
+        "score": 223,
+        "descendants": 53,
         "time": 1780079842,
         "comments_url": "https://news.ycombinator.com/item?id=48327453"
       },
@@ -1406,7 +1679,6 @@
       },
       "tags": [
         "Business",
-        "Career",
         "AI"
       ],
       "hot_score": 0.08
@@ -1428,57 +1700,10 @@
         "time": 1780297870,
         "comments_url": "https://news.ycombinator.com/item?id=48353542"
       },
-      "hot_score": 0.08,
-      "tags": [
-        "DevOps"
-      ]
-    },
-    {
-      "title_en": "Netflix Wiz creates app to slash AI bills, then open sources it",
-      "url": "https://www.theregister.com/ai-ml/2026/05/31/netflix-wiz-creates-app-to-slash-ai-bills-then-open-sources-it/5248702",
-      "title_zh": "Netflix Wiz 开发应用以大幅削减 AI 开销，随后开源",
-      "created_display": "Created: Jun 01, 2026 / 02:51 PT",
-      "image_url": "https://image.theregister.com/5248730.jpg?imageId=5248730&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
-      "summary_en": "Netflix's Wiz builds a tool to slash AI compute costs and then open-sources it, encouraging broader adoption and collaboration. The move signals a trend toward open tooling to reduce AI infrastructure expenses.",
-      "summary_zh": "Netflix 的 Wiz 开发了一款降低 AI 计算成本的工具，随后将其开源，推动更广泛的采用与协作。这一举动体现了降低 AI 基础设施成本的开源趋势。",
-      "hn": {
-        "id": 48354695,
-        "type": "story",
-        "by": "pseudolus",
-        "score": 7,
-        "descendants": 1,
-        "time": 1780307509,
-        "comments_url": "https://news.ycombinator.com/item?id=48354695"
-      },
-      "hot_score": 0.07,
-      "tags": [
-        "AI",
-        "Open Source",
-        "Business",
-        "DevOps"
-      ]
-    },
-    {
-      "title_en": "LLMs Are Closer to Religion Than They Appear",
-      "url": "https://www.theregister.com/ai-ml/2026/06/01/llms-are-closer-to-religion-than-they-appear-watch-out-for-those-who-like-it-that-way/5248189",
-      "title_zh": "LLMs 其实比看起来更像宗教",
-      "created_display": "Created: Jun 01, 2026 / 04:03 PT",
-      "image_url": "https://image.theregister.com/5247306.jpg?imageId=5247306&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
-      "summary_en": "The piece argues that the ecosystem around LLMs—trust, communities, and rituals—resembles religious dynamics, urging skepticism about hype and urging critical evaluation.",
-      "summary_zh": "文章认为大型语言模型的生态圈在信任、社区与仪式等方面更像宗教生态，要对炒作保持警惕并进行批判性评估。",
-      "hn": {
-        "id": 48355229,
-        "type": "story",
-        "by": "sbulaev",
-        "score": 5,
-        "descendants": 0,
-        "time": 1780311818,
-        "comments_url": "https://news.ycombinator.com/item?id=48355229"
-      },
       "hot_score": 0.06,
       "tags": [
-        "AI",
-        "Culture"
+        "Programming",
+        "DevOps"
       ]
     },
     {
@@ -1524,32 +1749,55 @@
       },
       "tags": [
         "Security",
-        "Education",
         "Science"
       ],
       "hot_score": 0.05
     },
     {
-      "title_en": "Weekend trivia: your process' memory is a file",
-      "url": "https://lcamtuf.substack.com/p/weekend-trivia-your-process-memory",
-      "title_zh": "周末冷知识：你的进程内存其实是一个文件",
-      "created_display": "Created: May 31, 2026 / 20:15 PT",
-      "image_url": null,
-      "summary_en": "Operating systems expose process memory as a file-like interface in some environments, enabling interesting debugging and tooling tricks. The note shares practical implications for developers and sysadmins.",
-      "summary_zh": "在某些环境下，操作系统把进程内存以文件形式暴露，方便调试与工具化使用。本文介绍对开发者和系统运维的实际影响。",
+      "title_en": "Netflix Wiz creates app to slash AI bills, then open sources it",
+      "url": "https://www.theregister.com/ai-ml/2026/05/31/netflix-wiz-creates-app-to-slash-ai-bills-then-open-sources-it/5248702",
+      "title_zh": "Netflix Wiz 开发应用以大幅削减 AI 开销，随后开源",
+      "created_display": "Created: Jun 01, 2026 / 02:51 PT",
+      "image_url": "https://image.theregister.com/5248730.jpg?imageId=5248730&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
+      "summary_en": "Netflix's Wiz builds a tool to slash AI compute costs and then open-sources it, encouraging broader adoption and collaboration. The move signals a trend toward open tooling to reduce AI infrastructure expenses.",
+      "summary_zh": "Netflix 的 Wiz 开发了一款降低 AI 计算成本的工具，随后将其开源，推动更广泛的采用与协作。这一举动体现了降低 AI 基础设施成本的开源趋势。",
       "hn": {
-        "id": 48352232,
+        "id": 48354695,
         "type": "story",
-        "by": "surprisetalk",
-        "score": 11,
+        "by": "pseudolus",
+        "score": 7,
         "descendants": 1,
-        "time": 1780283711,
-        "comments_url": "https://news.ycombinator.com/item?id=48352232"
+        "time": 1780307509,
+        "comments_url": "https://news.ycombinator.com/item?id=48354695"
       },
       "hot_score": 0.05,
       "tags": [
-        "Programming"
+        "AI",
+        "Open Source",
+        "DevOps"
       ]
+    },
+    {
+      "title_en": "Only 17% of all 64-bit Integers are products of two 32-bit integers",
+      "url": "https://lemire.me/blog/2026/05/22/only-17-of-all-64-bit-integers-are-products-of-two-32-bit-integers/",
+      "title_zh": "只有 64 位整数中有 17% 可以分解为两个 32 位整数的乘积",
+      "created_display": "Created: May 28, 2026 / 09:11 PT",
+      "image_url": null,
+      "summary_en": "Presents a number-theory result: only about 17% of 64-bit integers admit a factorization into two 32-bit factors; discusses consequences for algorithm design, randomization, and cryptography.",
+      "summary_zh": "给出一个数论结果：约 17% 的 64 位整数可以分解为两个 32 位因子的乘积；讨论对算法设计、随机化以及密码学的影响。",
+      "hn": {
+        "id": 48311003,
+        "type": "story",
+        "by": "sebg",
+        "score": 168,
+        "descendants": 82,
+        "time": 1779984705,
+        "comments_url": "https://news.ycombinator.com/item?id=48311003"
+      },
+      "tags": [
+        "Science"
+      ],
+      "hot_score": 0.04
     },
     {
       "title_en": "Having your insulin pump die while you're on vacation",
@@ -1585,7 +1833,7 @@
         "id": 48311587,
         "type": "story",
         "by": "speckx",
-        "score": 151,
+        "score": 163,
         "descendants": 9,
         "time": 1779986770,
         "comments_url": "https://news.ycombinator.com/item?id=48311587"
@@ -1594,28 +1842,6 @@
         "Programming"
       ],
       "hot_score": 0.04
-    },
-    {
-      "title_en": "Only 17% of all 64-bit Integers are products of two 32-bit integers",
-      "url": "https://lemire.me/blog/2026/05/22/only-17-of-all-64-bit-integers-are-products-of-two-32-bit-integers/",
-      "title_zh": "只有 64 位整数中有 17% 可以分解为两个 32 位整数的乘积",
-      "created_display": "Created: May 28, 2026 / 09:11 PT",
-      "image_url": null,
-      "summary_en": "Presents a number-theory result: only about 17% of 64-bit integers admit a factorization into two 32-bit factors; discusses consequences for algorithm design, randomization, and cryptography.",
-      "summary_zh": "给出一个数论结果：约 17% 的 64 位整数可以分解为两个 32 位因子的乘积；讨论对算法设计、随机化以及密码学的影响。",
-      "hn": {
-        "id": 48311003,
-        "type": "story",
-        "by": "sebg",
-        "score": 147,
-        "descendants": 73,
-        "time": 1779984705,
-        "comments_url": "https://news.ycombinator.com/item?id=48311003"
-      },
-      "hot_score": 0.04,
-      "tags": [
-        "Science"
-      ]
     },
     {
       "title_en": "Linux/M68k",
@@ -1635,8 +1861,7 @@
         "comments_url": "https://news.ycombinator.com/item?id=48321916"
       },
       "tags": [
-        "Open Source",
-        "Hardware"
+        "Open Source"
       ],
       "hot_score": 0.04
     },
@@ -1658,32 +1883,75 @@
         "comments_url": "https://news.ycombinator.com/item?id=48322984"
       },
       "tags": [
-        "Hardware",
-        "Design"
+        "Hardware"
       ],
       "hot_score": 0.04
     },
     {
-      "title_en": "Textbooks in Tokenland",
-      "url": "https://systemsapproach.org/2026/06/01/textbooks-in-tokenland/",
-      "title_zh": "代币世界中的教科书",
-      "created_display": "Created: Jun 01, 2026 / 00:52 PT",
-      "image_url": "https://i0.wp.com/systemsapproach.org/wp-content/uploads/2025/12/Library_of_the_Universtity_of_Coimbra.jpg?fit=680%2C453&ssl=1",
-      "summary_en": "Explores how tokenized systems influence textbooks, access, licensing, and monetization in education or publishing.",
-      "summary_zh": "探讨代币化系统如何影响教科书的获取、许可与货币化，以及在教育与出版领域由此可能带来的变革。",
+      "title_en": "Stealing from Biologists to Compile Haskell Faster",
+      "url": "https://www.iankduncan.com/engineering/2026-05-30-stealing-from-biologists-to-compile-haskell-faster/",
+      "title_zh": "从生物学家那里偷学以加速 Haskell 编译",
+      "created_display": "Created: May 30, 2026 / 10:50 PT",
+      "image_url": "https://iankduncan.com/portrait.jpg",
+      "summary_en": "Describes cross-domain inspiration from biology to speed up Haskell compilation, using nature-inspired heuristics or algorithms.",
+      "summary_zh": "讲述从生物学领域借鉴思路来提升 Haskell 编译速度，采用自然启发式方法等思路。",
       "hn": {
-        "id": 48353802,
+        "id": 48338891,
         "type": "story",
-        "by": "ankitg12",
-        "score": 5,
-        "descendants": 0,
-        "time": 1780300322,
-        "comments_url": "https://news.ycombinator.com/item?id=48353802"
+        "by": "mooreds",
+        "score": 51,
+        "descendants": 2,
+        "time": 1780163421,
+        "comments_url": "https://news.ycombinator.com/item?id=48338891"
+      },
+      "tags": [
+        "Programming",
+        "Science"
+      ],
+      "hot_score": 0.04
+    },
+    {
+      "title_en": "Weekend trivia: your process' memory is a file",
+      "url": "https://lcamtuf.substack.com/p/weekend-trivia-your-process-memory",
+      "title_zh": "周末冷知识：你的进程内存其实是一个文件",
+      "created_display": "Created: May 31, 2026 / 20:15 PT",
+      "image_url": null,
+      "summary_en": "Operating systems expose process memory as a file-like interface in some environments, enabling interesting debugging and tooling tricks. The note shares practical implications for developers and sysadmins.",
+      "summary_zh": "在某些环境下，操作系统把进程内存以文件形式暴露，方便调试与工具化使用。本文介绍对开发者和系统运维的实际影响。",
+      "hn": {
+        "id": 48352232,
+        "type": "story",
+        "by": "surprisetalk",
+        "score": 11,
+        "descendants": 1,
+        "time": 1780283711,
+        "comments_url": "https://news.ycombinator.com/item?id=48352232"
       },
       "hot_score": 0.04,
       "tags": [
-        "Education",
-        "Business"
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "LLMs Are Closer to Religion Than They Appear",
+      "url": "https://www.theregister.com/ai-ml/2026/06/01/llms-are-closer-to-religion-than-they-appear-watch-out-for-those-who-like-it-that-way/5248189",
+      "title_zh": "LLMs 其实比看起来更像宗教",
+      "created_display": "Created: Jun 01, 2026 / 04:03 PT",
+      "image_url": "https://image.theregister.com/5247306.jpg?imageId=5247306&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
+      "summary_en": "The piece argues that the ecosystem around LLMs—trust, communities, and rituals—resembles religious dynamics, urging skepticism about hype and urging critical evaluation.",
+      "summary_zh": "文章认为大型语言模型的生态圈在信任、社区与仪式等方面更像宗教生态，要对炒作保持警惕并进行批判性评估。",
+      "hn": {
+        "id": 48355229,
+        "type": "story",
+        "by": "sbulaev",
+        "score": 5,
+        "descendants": 0,
+        "time": 1780311818,
+        "comments_url": "https://news.ycombinator.com/item?id=48355229"
+      },
+      "hot_score": 0.04,
+      "tags": [
+        "AI"
       ]
     },
     {
@@ -1704,8 +1972,7 @@
         "comments_url": "https://news.ycombinator.com/item?id=48306225"
       },
       "tags": [
-        "Programming",
-        "Career"
+        "Programming"
       ],
       "hot_score": 0.03
     },
@@ -1721,16 +1988,16 @@
         "id": 48312443,
         "type": "story",
         "by": "gcampos",
-        "score": 102,
-        "descendants": 92,
+        "score": 132,
+        "descendants": 113,
         "time": 1779989446,
         "comments_url": "https://news.ycombinator.com/item?id=48312443"
       },
-      "hot_score": 0.03,
       "tags": [
         "Privacy",
         "Energy"
-      ]
+      ],
+      "hot_score": 0.03
     },
     {
       "title_en": "Security Envelope Pattern collection – S.E.C.R.E.T",
@@ -1788,13 +2055,13 @@
         "id": 48323844,
         "type": "story",
         "by": "itsezc",
-        "score": 68,
-        "descendants": 26,
+        "score": 69,
+        "descendants": 27,
         "time": 1780066407,
         "comments_url": "https://news.ycombinator.com/item?id=48323844"
       },
       "tags": [
-        "Data"
+        "Programming"
       ],
       "hot_score": 0.03
     },
@@ -1855,37 +2122,36 @@
         "id": 48331329,
         "type": "story",
         "by": "zdw",
-        "score": 45,
-        "descendants": 6,
+        "score": 46,
+        "descendants": 8,
         "time": 1780103262,
         "comments_url": "https://news.ycombinator.com/item?id=48331329"
       },
-      "hot_score": 0.02,
       "tags": [
         "Programming"
-      ]
+      ],
+      "hot_score": 0.02
     },
     {
-      "title_en": "\"The Apple Boogie\" 1987 Mac Promo Album Cassette Tape [video]",
+      "title_en": "“The Apple Boogie“ 1987 Mac Promo Album Cassette Tape [video]",
       "url": "https://www.youtube.com/watch?v=chJHB-btMNI",
-      "title_zh": "《The Apple Boogie》：1987 年 Mac 推广专辑卡带视频",
+      "title_zh": "《The Apple Boogie》：1987 年 Mac 宣传专辑磁带视频",
       "created_display": "Created: May 29, 2026 / 18:50 PT",
       "image_url": null,
-      "summary_en": "A retro promo video capturing Apple's marketing energy in 1987, offering nostalgia and context for the Macintosh era.",
-      "summary_zh": "回顾性的视频，捕捉 1987 年苹果的推广营销风格，提供对 Mac 时代的怀旧与背景。",
+      "summary_en": "A vintage promo clip from 1987 showcases Apple's marketing style and the Mac era's branding through a promotional album cassette. The video offers a rare glimpse into how Apple marketed the early Mac and the era's tech culture. It serves as a cultural time capsule of Apple's branding language from the era.",
+      "summary_zh": "一段珍贵的1987年苹果Mac宣传磁带视频，展示了当时的营销风格与Mac时代的品牌形象。该视频提供了关于早期Mac的市场推广方式及当时科技文化语境的罕见视角，堪作品牌史的时间胶囊。",
       "hn": {
         "id": 48331587,
         "type": "story",
         "by": "1970-01-01",
-        "score": 36,
-        "descendants": 9,
+        "score": 43,
+        "descendants": 14,
         "time": 1780105852,
         "comments_url": "https://news.ycombinator.com/item?id=48331587"
       },
       "hot_score": 0.02,
       "tags": [
-        "Entertainment",
-        "Energy"
+        "Entertainment"
       ]
     },
     {
@@ -1911,27 +2177,26 @@
       "hot_score": 0.02
     },
     {
-      "title_en": "Stealing from Biologists to Compile Haskell Faster",
-      "url": "https://www.iankduncan.com/engineering/2026-05-30-stealing-from-biologists-to-compile-haskell-faster/",
-      "title_zh": "从生物学家那里偷学以加速 Haskell 编译",
-      "created_display": "Created: May 30, 2026 / 10:50 PT",
-      "image_url": "https://iankduncan.com/portrait.jpg",
-      "summary_en": "Describes cross-domain inspiration from biology to speed up Haskell compilation, using nature-inspired heuristics or algorithms.",
-      "summary_zh": "讲述从生物学领域借鉴思路来提升 Haskell 编译速度，采用自然启发式方法等思路。",
+      "title_en": "Handmade Hawaiian Islands Map",
+      "url": "https://www.notesfromtheroad.com/roam/hawaiian-islands-map.html",
+      "title_zh": "手工绘制的夏威夷群岛地图",
+      "created_display": "Created: May 30, 2026 / 06:02 PT",
+      "image_url": "https://www.notesfromtheroad.com/files/hawaiian-islands-map.jpg",
+      "summary_en": "Showcases a handmade cartographic map of the Hawaiian Islands, detailing the craft, data sources, and artistic choices.",
+      "summary_zh": "展示一张手工绘制的夏威夷群岛地图，介绍制作过程、数据来源与艺术选法。",
       "hn": {
-        "id": 48338891,
+        "id": 48335704,
         "type": "story",
-        "by": "mooreds",
-        "score": 22,
-        "descendants": 2,
-        "time": 1780163421,
-        "comments_url": "https://news.ycombinator.com/item?id=48338891"
+        "by": "bovermyer",
+        "score": 32,
+        "descendants": 14,
+        "time": 1780146176,
+        "comments_url": "https://news.ycombinator.com/item?id=48335704"
       },
-      "hot_score": 0.02,
       "tags": [
-        "Programming",
-        "Science"
-      ]
+        "Design"
+      ],
+      "hot_score": 0.02
     },
     {
       "title_en": "Sony Launches Bravia 9 II and Bravia 7 II with 'True RGB'",
@@ -1997,28 +2262,6 @@
       "hot_score": 0.01,
       "tags": [
         "Data"
-      ]
-    },
-    {
-      "title_en": "Handmade Hawaiian Islands Map",
-      "url": "https://www.notesfromtheroad.com/roam/hawaiian-islands-map.html",
-      "title_zh": "手工绘制的夏威夷群岛地图",
-      "created_display": "Created: May 30, 2026 / 06:02 PT",
-      "image_url": "https://www.notesfromtheroad.com/files/hawaiian-islands-map.jpg",
-      "summary_en": "Showcases a handmade cartographic map of the Hawaiian Islands, detailing the craft, data sources, and artistic choices.",
-      "summary_zh": "展示一张手工绘制的夏威夷群岛地图，介绍制作过程、数据来源与艺术选法。",
-      "hn": {
-        "id": 48335704,
-        "type": "story",
-        "by": "bovermyer",
-        "score": 22,
-        "descendants": 9,
-        "time": 1780146176,
-        "comments_url": "https://news.ycombinator.com/item?id=48335704"
-      },
-      "hot_score": 0.01,
-      "tags": [
-        "Design"
       ]
     },
     {

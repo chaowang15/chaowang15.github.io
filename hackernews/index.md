@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>102</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>14839</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>99</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>100</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-06-01</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>102</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>14850</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>99</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>100</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-06-01</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,7 +20,7 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='623' data-hn-time='1780331502'>
+<div class='hn-top-story-item' data-hn-score='952' data-hn-time='1780331502'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -28,10 +28,10 @@ Sort:
  <a class='hn-top-story-link' href='https://www.0xsid.com/blog/meta-account-takeover-fiasco' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Instagram 最新漏洞是我见过的最离谱的</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 37</span> <span class='hn-top-story-score'>&#9650; 623</span> <span class='hn-top-story-comments'>&#128172; 153</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 29</span> <span class='hn-top-story-score'>&#9650; 952</span> <span class='hn-top-story-comments'>&#128172; 232</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='665' data-hn-time='1780320621'>
+<div class='hn-top-story-item' data-hn-score='693' data-hn-time='1780320621'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -39,95 +39,95 @@ Sort:
  <a class='hn-top-story-link' href='https://github.com/RedHatInsights/javascript-clients/issues/492' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Red Hat 云服务中检测到恶意 npm 包</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 16</span> <span class='hn-top-story-score'>&#9650; 665</span> <span class='hn-top-story-comments'>&#128172; 357</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 693</span> <span class='hn-top-story-comments'>&#128172; 379</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='233' data-hn-time='1780331639'>
+<div class='hn-top-story-item' data-hn-score='356' data-hn-time='1780329640'>
 <span class='hn-top-story-rank'>3</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/01/top_stories_06012026#story-48359130'>DuckDuckGo makes its 'no-AI' search engine easier to access as its traffic booms</a>
- <a class='hn-top-story-link' href='https://techcrunch.com/2026/06/01/duckduckgo-makes-its-no-ai-search-engine-easier-to-access-as-its-traffic-booms/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>DuckDuckGo 在流量激增时让其无 AI 搜索引擎更易访问</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 14</span> <span class='hn-top-story-score'>&#9650; 233</span> <span class='hn-top-story-comments'>&#128172; 119</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='277' data-hn-time='1780329640'>
-<span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/06/01/top_stories_06012026#story-48358646'>Anthropic confidentially submits draft S-1 to the SEC</a>
  <a class='hn-top-story-link' href='https://www.anthropic.com/news/confidential-draft-s1-sec' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Anthropic 向 SEC confidentially 提交 S-1 初稿</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 14</span> <span class='hn-top-story-score'>&#9650; 277</span> <span class='hn-top-story-comments'>&#128172; 184</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.5</span> <span class='hn-top-story-score'>&#9650; 356</span> <span class='hn-top-story-comments'>&#128172; 285</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='359' data-hn-time='1780323401'>
+<div class='hn-top-story-item' data-hn-score='136' data-hn-time='1780340095'>
+<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/01/top_stories_06012026#story-48361064'>GitHub and the crime against software</a>
+ <a class='hn-top-story-link' href='https://eblog.fly.dev/githubbad.html' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>GitHub 与对软件的犯罪</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.7</span> <span class='hn-top-story-score'>&#9650; 136</span> <span class='hn-top-story-comments'>&#128172; 49</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Programming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='261' data-hn-time='1780331639'>
 <span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/01/top_stories_06012026#story-48359130'>DuckDuckGo makes its 'no-AI' search engine easier to access as its traffic booms</a>
+ <a class='hn-top-story-link' href='https://techcrunch.com/2026/06/01/duckduckgo-makes-its-no-ai-search-engine-easier-to-access-as-its-traffic-booms/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>DuckDuckGo 在流量激增时让其无 AI 搜索引擎更易访问</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.0</span> <span class='hn-top-story-score'>&#9650; 261</span> <span class='hn-top-story-comments'>&#128172; 134</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='419' data-hn-time='1780323401'>
+<span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/06/01/top_stories_06012026#story-48357154'>The Pirate Bay Remains Resilient, 20 Years After the Raid</a>
  <a class='hn-top-story-link' href='https://torrentfreak.com/the-pirate-bay-remains-resilient-20-years-after-the-raid/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>海盗湾在遭突袭二十年后仍然顽强</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 359</span> <span class='hn-top-story-comments'>&#128172; 158</span> <span class='hn-top-story-tag'>Culture</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.7</span> <span class='hn-top-story-score'>&#9650; 419</span> <span class='hn-top-story-comments'>&#128172; 214</span> <span class='hn-top-story-tag'>Culture</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='145' data-hn-time='1780332109'>
-<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='41' data-hn-time='1780347315'>
+<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/01/top_stories_06012026#story-48362515'>Alphabet announces $80B equity capital raise to expand AI infra and compute</a>
+ <a class='hn-top-story-link' href='https://abc.xyz/investor/news/news-details/2026/Alphabet-Announces-Proposed-80-Billion-Equity-Capital-Raise-to-Expand-AI-Infrastructure-and-Compute-2026-b0myAMewCa/default.aspx' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Alphabet宣布800亿美元股权融资以扩展AI基础设施与算力</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.2</span> <span class='hn-top-story-score'>&#9650; 41</span> <span class='hn-top-story-comments'>&#128172; 24</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='225' data-hn-time='1780332109'>
+<span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/06/01/top_stories_06012026#story-48359232'>AI Agent Guidelines for CS336 at Stanford</a>
  <a class='hn-top-story-link' href='https://github.com/stanford-cs336/assignment1-basics/blob/main/CLAUDE.md' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>斯坦福 CS336 的 AI 代理指南</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.0</span> <span class='hn-top-story-score'>&#9650; 145</span> <span class='hn-top-story-comments'>&#128172; 73</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Education</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.1</span> <span class='hn-top-story-score'>&#9650; 225</span> <span class='hn-top-story-comments'>&#128172; 94</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Education</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='215' data-hn-time='1780323032'>
-<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='46' data-hn-time='1780346475'>
+<span class='hn-top-story-rank'>9</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/01/top_stories_06012026#story-48362364'>My 15-year-old relative was killed for refusing to marry her cousin</a>
+ <a class='hn-top-story-link' href='https://www.theguardian.com/global-development/2026/jun/01/kawthar-al-husayjawi-killed-refusing-forced-marriage-marry-family-celebrated-iraq' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>因拒绝表亲婚嫁而被杀：一名15岁亲属的遭遇</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.0</span> <span class='hn-top-story-score'>&#9650; 46</span> <span class='hn-top-story-comments'>&#128172; 13</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Culture</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='269' data-hn-time='1780323032'>
+<span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/06/01/top_stories_06012026#story-48357075'>CS336: Language Modeling from Scratch</a>
  <a class='hn-top-story-link' href='https://cs336.stanford.edu/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>CS336：从零开始的语言建模</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.2</span> <span class='hn-top-story-score'>&#9650; 215</span> <span class='hn-top-story-comments'>&#128172; 29</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Education</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='183' data-hn-time='1780324286'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/01/top_stories_06012026#story-48357355'>KDE at 30</a>
- <a class='hn-top-story-link' href='https://kde.org/anniversaries/30/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>KDE 三十周年</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.7</span> <span class='hn-top-story-score'>&#9650; 183</span> <span class='hn-top-story-comments'>&#128172; 82</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Design</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='52' data-hn-time='1780335787'>
-<span class='hn-top-story-rank'>9</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/01/top_stories_06012026#story-48360137'>Superintelligence: The Idea That Eats Smart People (2016)</a>
- <a class='hn-top-story-link' href='https://idlewords.com/talks/superintelligence.htm' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>超智能：吞噬聪明人的想法（2016）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.0</span> <span class='hn-top-story-score'>&#9650; 52</span> <span class='hn-top-story-comments'>&#128172; 39</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Science</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='127' data-hn-time='1780326695'>
-<span class='hn-top-story-rank'>10</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/01/top_stories_06012026#story-48357905'>Lifelike biochemistry continued to unfold in sterilized soil</a>
- <a class='hn-top-story-link' href='https://www.quantamagazine.org/the-dirt-that-refused-to-die-20260601/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>在无菌土壤中继续展开的逼真生物化学</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.8</span> <span class='hn-top-story-score'>&#9650; 127</span> <span class='hn-top-story-comments'>&#128172; 31</span> <span class='hn-top-story-tag'>Science</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.8</span> <span class='hn-top-story-score'>&#9650; 269</span> <span class='hn-top-story-comments'>&#128172; 36</span> <span class='hn-top-story-tag'>Education</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -139,7 +139,7 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 23 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-06-01 <span class="hn-row-sep">·</span> 89 stories <span class="hn-row-sep">·</span> 1 days</span>
+<span class='hn-week-meta'>2026-06-01 <span class="hn-row-sep">·</span> 100 stories <span class="hn-row-sep">·</span> 1 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -148,7 +148,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/06/01/top_stories_06012026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>89</b> <span class="hn-row-sep">·</span> AI <b>22</b> <span class="hn-row-sep">·</span> Programming <b>20</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>28</b> <span class="hn-row-sep">·</span> AI <b>27</b></span>
 </a>
 </div>
 </div>
