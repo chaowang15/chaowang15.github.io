@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>101</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>14699</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>98</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>99</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-05-31</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>101</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>14700</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>98</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>99</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-05-31</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,106 +20,106 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='289' data-hn-time='1780253868'>
+<div class='hn-top-story-item' data-hn-score='44' data-hn-time='1780291480'>
 <span class='hn-top-story-rank'>1</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/31/top_stories_05312026#story-48352939'>Nvidia RTX Spark</a>
+ <a class='hn-top-story-link' href='https://www.nvidia.com/en-us/products/rtx-spark/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>英伟达 RTX Spark</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.7</span> <span class='hn-top-story-score'>&#9650; 44</span> <span class='hn-top-story-comments'>&#128172; 33</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='496' data-hn-time='1780253868'>
+<span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/05/31/top_stories_05312026#story-48348578'>Codex just found a "workaround" of not having sudo on my PC</a>
  <a class='hn-top-story-link' href='https://twitter.com/i/status/2060746160558543217' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Codex 找到一个无需 sudo 就能在我的电脑工作的方法</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 289</span> <span class='hn-top-story-comments'>&#128172; 117</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.4</span> <span class='hn-top-story-score'>&#9650; 496</span> <span class='hn-top-story-comments'>&#128172; 231</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='65' data-hn-time='1780264533'>
-<span class='hn-top-story-rank'>2</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/31/top_stories_05312026#story-48350131'>Atherton spent $145K to delay train electrification. The rest of us paid $400M</a>
- <a class='hn-top-story-link' href='https://peninsulaforeveryone.org/blog/atherton-spent-145k-to-delay-caltrain-electrification-the-rest-of-us-paid-400-million-and-waited-3-extra-years/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>阿瑟顿花费14.5万美元拖延 Caltrain 电气化，其余人却花4亿美元</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.3</span> <span class='hn-top-story-score'>&#9650; 65</span> <span class='hn-top-story-comments'>&#128172; 10</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>DevOps</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='420' data-hn-time='1780244374'>
+<div class='hn-top-story-item' data-hn-score='617' data-hn-time='1780236800'>
 <span class='hn-top-story-rank'>3</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/31/top_stories_05312026#story-48346947'>Creatine raises brain energy levels and slows cognitive decline: study</a>
- <a class='hn-top-story-link' href='https://thesciverse.org/scientists-found-that-the-creatine-supplement-millions-take-for-muscle-gains-is-quietly-raising-brain-energy-levels-and-slowing-early-alzheimers-cognitive-decline-by-30/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>肌酸提升大脑能量并减缓认知衰退：研究</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.9</span> <span class='hn-top-story-score'>&#9650; 420</span> <span class='hn-top-story-comments'>&#128172; 282</span> <span class='hn-top-story-tag'>Health</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Energy</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='450' data-hn-time='1780236800'>
-<span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/05/31/top_stories_05312026#story-48345840'>Cloudflare Turnstile requiring fingerprintable WebGL</a>
  <a class='hn-top-story-link' href='https://hacktivis.me/articles/cloudflare-turnstile-webgl-fingerprinting' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Cloudflare Turnstile 要求可指纹化的 WebGL</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.4</span> <span class='hn-top-story-score'>&#9650; 450</span> <span class='hn-top-story-comments'>&#128172; 246</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 617</span> <span class='hn-top-story-comments'>&#128172; 339</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='111' data-hn-time='1780255664'>
+<div class='hn-top-story-item' data-hn-score='196' data-hn-time='1780268390'>
+<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/31/top_stories_05312026#story-48350598'>Chuwi Minibook X</a>
+ <a class='hn-top-story-link' href='https://tylercipriani.com/blog/2026/05/28/chuwi-minibook-x/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Chuwi Minibook X</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 196</span> <span class='hn-top-story-comments'>&#128172; 145</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Energy</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='420' data-hn-time='1780244374'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/31/top_stories_05312026#story-48348864'>'Backrooms' Stuns with $81M Debut</a>
- <a class='hn-top-story-link' href='https://variety.com/2026/film/box-office/backrooms-box-office-record-opening-weekend-obsession-jumps-star-wars-crumbles-1236763355/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/31/top_stories_05312026#story-48346947'>Creatine raises brain energy levels and slows cognitive decline: study</a>
+ <a class='hn-top-story-link' href='https://thesciverse.org/scientists-found-that-the-creatine-supplement-millions-take-for-muscle-gains-is-quietly-raising-brain-energy-levels-and-slowing-early-alzheimers-cognitive-decline-by-30/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Backrooms：8100万美元首映震撼票房</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.3</span> <span class='hn-top-story-score'>&#9650; 111</span> <span class='hn-top-story-comments'>&#128172; 26</span> <span class='hn-top-story-tag'>Entertainment</span> <span class='hn-top-story-tag'>Energy</span></div>
+<div class='hn-top-story-zh'>肌酸提升大脑能量并减缓认知衰退：研究</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.7</span> <span class='hn-top-story-score'>&#9650; 420</span> <span class='hn-top-story-comments'>&#128172; 282</span> <span class='hn-top-story-tag'>Health</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Energy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='66' data-hn-time='1780259738'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='148' data-hn-time='1780264668'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/31/top_stories_05312026#story-48349487'>ChatGPT for Google Sheets Exfiltrates Workbooks</a>
- <a class='hn-top-story-link' href='https://www.promptarmor.com/resources/gpt-for-google-sheets-data-exfiltration' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/31/top_stories_05312026#story-48350149'>It's Not Just X. It's Y</a>
+ <a class='hn-top-story-link' href='https://mail.cyberneticforests.com/its-not-just-data-its-post-training/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Google 表格的 ChatGPT 插件可能外泄工作簿数据</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.8</span> <span class='hn-top-story-score'>&#9650; 66</span> <span class='hn-top-story-comments'>&#128172; 21</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>不仅是 X，而是 Y：后训练数据的影响</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 148</span> <span class='hn-top-story-comments'>&#128172; 120</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='306' data-hn-time='1780237410'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='63' data-hn-time='1780279383'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/31/top_stories_05312026#story-48345896'>The solution might be cancelling my AI subscription</a>
- <a class='hn-top-story-link' href='https://thoughts.hmmz.org/2026-05-31.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/31/top_stories_05312026#story-48351858'>Shift from a leader-follower to a leader-leader approach</a>
+ <a class='hn-top-story-link' href='https://www.practicalengineering.management/p/shift-from-a-leader-follower-to-a' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>解决方案可能是取消我的 AI 订阅</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.5</span> <span class='hn-top-story-score'>&#9650; 306</span> <span class='hn-top-story-comments'>&#128172; 208</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-zh'>从领导-追随者到领导-领导的转变</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 63</span> <span class='hn-top-story-comments'>&#128172; 33</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='58' data-hn-time='1780260070'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='350' data-hn-time='1780239892'>
 <span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/05/31/top_stories_05312026#story-48349527'>US healthcare still stupidly expensive, with pathetic outcomes, study finds</a>
- <a class='hn-top-story-link' href='https://arstechnica.com/health/2026/05/us-healthcare-still-stupidly-expensive-with-pathetic-outcomes-study-finds/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>美国医疗依然价格昂贵且效果不佳：研究发现</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.4</span> <span class='hn-top-story-score'>&#9650; 58</span> <span class='hn-top-story-comments'>&#128172; 29</span> <span class='hn-top-story-tag'>Health</span> <span class='hn-top-story-tag'>Politics</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='248' data-hn-time='1780239892'>
-<span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/05/31/top_stories_05312026#story-48346257'>1-Bit Bonsai Image 4B Image Generation for Local Devices</a>
  <a class='hn-top-story-link' href='https://prismml.com/news/bonsai-image-4b' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>1-Bit Bonsai：在本地设备上的 4B 图像生成</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.1</span> <span class='hn-top-story-score'>&#9650; 248</span> <span class='hn-top-story-comments'>&#128172; 90</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 350</span> <span class='hn-top-story-comments'>&#128172; 125</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='377' data-hn-time='1780227885'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='170' data-hn-time='1780259738'>
+<span class='hn-top-story-rank'>9</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/05/31/top_stories_05312026#story-48349487'>ChatGPT for Google Sheets exfiltrates workbooks</a>
+ <a class='hn-top-story-link' href='https://www.promptarmor.com/resources/gpt-for-google-sheets-data-exfiltration' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Google 表格的 ChatGPT 插件可能外泄工作簿数据</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.9</span> <span class='hn-top-story-score'>&#9650; 170</span> <span class='hn-top-story-comments'>&#128172; 49</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='444' data-hn-time='1780227885'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -127,7 +127,7 @@ Sort:
  <a class='hn-top-story-link' href='https://jbkempf.com/blog/2026/dav2d/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Dav2d</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.7</span> <span class='hn-top-story-score'>&#9650; 377</span> <span class='hn-top-story-comments'>&#128172; 132</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.8</span> <span class='hn-top-story-score'>&#9650; 444</span> <span class='hn-top-story-comments'>&#128172; 164</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -136,10 +136,10 @@ Sort:
 </div>
 <div class='hn-index-section hn-archive-section'>
 <h3 class='hn-section-title'>News Archive <span class='hn-section-zh'>新闻归档</span></h3>
-<details class='hn-week-group' open>
+<details class='hn-week-group'>
 <summary class='hn-week-summary'>
-<span class='hn-week-title'>2026 Week 22 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-05-25 — 2026-05-31 <span class="hn-row-sep">·</span> 999 stories <span class="hn-row-sep">·</span> 7 days</span>
+<span class='hn-week-title'>2026 Week 22</span>
+<span class='hn-week-meta'>2026-05-25 — 2026-05-31 <span class="hn-row-sep">·</span> 1000 stories <span class="hn-row-sep">·</span> 7 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -148,7 +148,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/05/31/top_stories_05312026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>99</b> <span class="hn-row-sep">·</span> AI <b>24</b> <span class="hn-row-sep">·</span> Programming <b>20</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>21</b> <span class="hn-row-sep">·</span> Programming <b>21</b></span>
 </a>
 </div>
 </div>
