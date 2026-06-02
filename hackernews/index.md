@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>102</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>14850</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>99</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>100</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-06-01</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>103</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>14900</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>99</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>101</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-06-02</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,118 +20,118 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='1584' data-hn-time='1780331502'>
+<div class='hn-top-story-item' data-hn-score='97' data-hn-time='1780392871'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/01/top_stories_06012026#story-48359102'>The newest Instagram “exploit” is the goofiest I've seen</a>
- <a class='hn-top-story-link' href='https://www.0xsid.com/blog/meta-account-takeover-fiasco' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/02/top_stories_06022026#story-48367907'>Why Janet?</a>
+ <a class='hn-top-story-link' href='https://ianthehenry.com/posts/why-janet/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Instagram 最新漏洞是我见过的最离谱的</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 1584</span> <span class='hn-top-story-comments'>&#128172; 370</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>为何是珍妮特？</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 97</span> <span class='hn-top-story-comments'>&#128172; 32</span> <span class='hn-top-story-tag'>Culture</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='181' data-hn-time='1780363714'>
+<div class='hn-top-story-item' data-hn-score='1852' data-hn-time='1780331502'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/01/top_stories_06012026#story-48364800'>macOS needs its grid back</a>
- <a class='hn-top-story-link' href='https://blog.hopefullyuseful.com/blog/macos-needs-its-grid-back/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/02/top_stories_06022026#story-48359102'>The newest Instagram “exploit” is the goofiest I've seen</a>
+ <a class='hn-top-story-link' href='https://www.0xsid.com/blog/meta-account-takeover-fiasco' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>macOS 需要回归网格布局</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.4</span> <span class='hn-top-story-score'>&#9650; 181</span> <span class='hn-top-story-comments'>&#128172; 91</span> <span class='hn-top-story-tag'>Design</span></div>
+<div class='hn-top-story-zh'>Instagram 最新漏洞是我见过的最离谱的</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.2</span> <span class='hn-top-story-score'>&#9650; 1852</span> <span class='hn-top-story-comments'>&#128172; 420</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='254' data-hn-time='1780357546'>
+<div class='hn-top-story-item' data-hn-score='396' data-hn-time='1780357546'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/01/top_stories_06012026#story-48364055'>Can the stockmarket swallow Anthropic, SpaceX and OpenAI?</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/02/top_stories_06022026#story-48364055'>Can the stockmarket swallow Anthropic, SpaceX and OpenAI?</a>
  <a class='hn-top-story-link' href='https://www.economist.com/finance-and-economics/2026/06/01/can-the-stockmarket-swallow-anthropic-spacex-and-openai' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>股市能否容纳Anthropic、SpaceX与OpenAI？</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.1</span> <span class='hn-top-story-score'>&#9650; 254</span> <span class='hn-top-story-comments'>&#128172; 468</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 396</span> <span class='hn-top-story-comments'>&#128172; 680</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='743' data-hn-time='1780320621'>
+<div class='hn-top-story-item' data-hn-score='270' data-hn-time='1780363714'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/01/top_stories_06012026#story-48356625'>Malicious npm packages detected across Red Hat Cloud Services</a>
- <a class='hn-top-story-link' href='https://github.com/RedHatInsights/javascript-clients/issues/492' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/02/top_stories_06022026#story-48364800'>macOS needs its grid back</a>
+ <a class='hn-top-story-link' href='https://blog.hopefullyuseful.com/blog/macos-needs-its-grid-back/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Red Hat 云服务中检测到恶意 npm 包</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.7</span> <span class='hn-top-story-score'>&#9650; 743</span> <span class='hn-top-story-comments'>&#128172; 421</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>macOS 需要回归网格布局</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 270</span> <span class='hn-top-story-comments'>&#128172; 155</span> <span class='hn-top-story-tag'>Design</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='181' data-hn-time='1780356148'>
+<div class='hn-top-story-item' data-hn-score='285' data-hn-time='1780356148'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/01/top_stories_06012026#story-48363882'>Age verification for social media, the beginning of the end for a free internet?</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/02/top_stories_06022026#story-48363882'>Age verification for social media, the beginning of the end for a free internet?</a>
  <a class='hn-top-story-link' href='https://mullvad.net/en/blog/age-verification-for-social-media-the-beginning-of-the-end-for-a-free-internet' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>社交媒体年龄验证：自由互联网的终结之始？</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 181</span> <span class='hn-top-story-comments'>&#128172; 96</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 285</span> <span class='hn-top-story-comments'>&#128172; 175</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='226' data-hn-time='1780350602'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='16' data-hn-time='1780394961'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/01/top_stories_06012026#story-48363132'>OpenAI frontier models and Codex are now available on AWS</a>
- <a class='hn-top-story-link' href='https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/02/top_stories_06022026#story-48368187'>Michael Burry says neither SpaceX nor Anthropic is worth $1T</a>
+ <a class='hn-top-story-link' href='https://www.businessinsider.com/big-short-michael-burry-spacex-anthropic-ipo-ai-bubble-claude-2026-6' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>OpenAI Frontier 模型与 Codex 现已在 AWS 上线</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 226</span> <span class='hn-top-story-comments'>&#128172; 76</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>迈克尔·布里称 SpaceX 与 Anthropic 都不值 1 万亿美元</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 16</span> <span class='hn-top-story-comments'>&#128172; 4</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='477' data-hn-time='1780329640'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='752' data-hn-time='1780320621'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/01/top_stories_06012026#story-48358646'>Anthropic confidentially submits draft S-1 to the SEC</a>
- <a class='hn-top-story-link' href='https://www.anthropic.com/news/confidential-draft-s1-sec' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/02/top_stories_06022026#story-48356625'>Malicious npm packages detected across Red Hat Cloud Services</a>
+ <a class='hn-top-story-link' href='https://github.com/RedHatInsights/javascript-clients/issues/492' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Anthropic 向 SEC confidentially 提交 S-1 初稿</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 477</span> <span class='hn-top-story-comments'>&#128172; 385</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>Red Hat 云服务中检测到恶意 npm 包</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 752</span> <span class='hn-top-story-comments'>&#128172; 429</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='547' data-hn-time='1780323401'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='280' data-hn-time='1780350602'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/01/top_stories_06012026#story-48357154'>The Pirate Bay Remains Resilient, 20 Years After the Raid</a>
- <a class='hn-top-story-link' href='https://torrentfreak.com/the-pirate-bay-remains-resilient-20-years-after-the-raid/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/02/top_stories_06022026#story-48363132'>OpenAI frontier models and Codex are now available on AWS</a>
+ <a class='hn-top-story-link' href='https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>海盗湾在遭突袭二十年后仍然顽强</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 547</span> <span class='hn-top-story-comments'>&#128172; 263</span> <span class='hn-top-story-tag'>Culture</span></div>
+<div class='hn-top-story-zh'>OpenAI Frontier 模型与 Codex 现已在 AWS 上线</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.1</span> <span class='hn-top-story-score'>&#9650; 280</span> <span class='hn-top-story-comments'>&#128172; 96</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='165' data-hn-time='1780355195'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='581' data-hn-time='1780323401'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/01/top_stories_06012026#story-48363765'>Chipotlai Max</a>
- <a class='hn-top-story-link' href='https://github.com/cyberpapiii/chipotlai-max' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/02/top_stories_06022026#story-48357154'>The Pirate Bay Remains Resilient, 20 Years After the Raid</a>
+ <a class='hn-top-story-link' href='https://torrentfreak.com/the-pirate-bay-remains-resilient-20-years-after-the-raid/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Chipotlai Max</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 165</span> <span class='hn-top-story-comments'>&#128172; 28</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>海盗湾在遭突袭二十年后仍然顽强</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.1</span> <span class='hn-top-story-score'>&#9650; 581</span> <span class='hn-top-story-comments'>&#128172; 280</span> <span class='hn-top-story-tag'>Culture</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='380' data-hn-time='1780332109'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='238' data-hn-time='1780355195'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/01/top_stories_06012026#story-48359232'>AI Agent Guidelines for CS336 at Stanford</a>
- <a class='hn-top-story-link' href='https://github.com/stanford-cs336/assignment1-basics/blob/main/CLAUDE.md' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/02/top_stories_06022026#story-48363765'>Chipotlai Max</a>
+ <a class='hn-top-story-link' href='https://github.com/cyberpapiii/chipotlai-max' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>斯坦福 CS336 的 AI 代理指南</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 380</span> <span class='hn-top-story-comments'>&#128172; 124</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Education</span></div>
+<div class='hn-top-story-zh'>Chipotlai Max</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.1</span> <span class='hn-top-story-score'>&#9650; 238</span> <span class='hn-top-story-comments'>&#128172; 38</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
-<a class='hn-top-stories-more' href='/hackernews/2026/06/01/top_stories_06012026'>View all trending stories &rarr;</a>
+<a class='hn-top-stories-more' href='/hackernews/2026/06/02/top_stories_06022026'>View all trending stories &rarr;</a>
 </div>
 </div>
 <div class='hn-index-section hn-archive-section'>
@@ -139,10 +139,19 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 23 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-06-01 <span class="hn-row-sep">·</span> 100 stories <span class="hn-row-sep">·</span> 1 days</span>
+<span class='hn-week-meta'>2026-06-01 — 2026-06-02 <span class="hn-row-sep">·</span> 150 stories <span class="hn-row-sep">·</span> 2 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
+<div class='hn-day-row'>
+<div class='hn-day-date'>2026-06-02 <span class='hn-day-weekday'>Tue</span></div>
+<div class='hn-day-stories'>
+<a class='hn-story-link' href='/hackernews/2026/06/02/top_stories_06022026'>
+<span class='hn-row-type hn-type-top'>Trending</span>
+<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>13</b> <span class="hn-row-sep">·</span> Hardware <b>12</b></span>
+</a>
+</div>
+</div>
 <div class='hn-day-row'>
 <div class='hn-day-date'>2026-06-01 <span class='hn-day-weekday'>Mon</span></div>
 <div class='hn-day-stories'>
@@ -526,7 +535,7 @@ Sort:
 <details class='hn-week-group'>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 18</span>
-<span class='hn-week-meta'>2026-04-29 — 2026-05-03 <span class="hn-row-sep">·</span> 750 stories <span class="hn-row-sep">·</span> 5 days <span class="hn-row-sep">·</span> 📊 Weekly Digest <span class="hn-row-sep">·</span> 🎧</span>
+<span class='hn-week-meta'>2026-04-30 — 2026-05-03 <span class="hn-row-sep">·</span> 600 stories <span class="hn-row-sep">·</span> 4 days <span class="hn-row-sep">·</span> 📊 Weekly Digest <span class="hn-row-sep">·</span> 🎧</span>
 </summary>
 <div class='hn-week-content'>
 <a class='hn-story-link hn-weekly-digest-link' href='/hackernews/weekly/2026-W18'>
@@ -586,20 +595,6 @@ Sort:
 <a class='hn-story-link' href='/hackernews/2026/04/30/top_stories_04302026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
 <span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>21</b> <span class="hn-row-sep">·</span> Open Source <b>19</b></span>
-</a>
-</div>
-</div>
-<div class='hn-day-row'>
-<div class='hn-day-date'>2026-04-29 <span class='hn-day-weekday'>Wed</span></div>
-<div class='hn-day-stories'>
-<a class='hn-story-link' href='/hackernews/2026/04/29/best_stories_04292026'>
-<span class='hn-row-type hn-type-best'>Daily Best</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>13</b> <span class="hn-row-sep">·</span> Programming <b>10</b></span>
-<span class='hn-podcast-badge' title='Podcast available'>&#x1F3A7;</span>
-</a>
-<a class='hn-story-link' href='/hackernews/2026/04/29/top_stories_04292026'>
-<span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>28</b> <span class="hn-row-sep">·</span> Programming <b>21</b></span>
 </a>
 </div>
 </div>
