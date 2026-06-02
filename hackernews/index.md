@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>103</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>14979</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>100</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>101</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-06-02</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>103</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>15000</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>100</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>101</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-06-02</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='68' data-hn-time='1780421650'>
+<div class='hn-top-story-item' data-hn-score='233' data-hn-time='1780428460'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/02/top_stories_06022026#story-48373391'>Larry Ellison: "Citizens will be on their best behavior because we’re recording"</a>
- <a class='hn-top-story-link' href='https://www.techradar.com/pro/quote-of-the-day-by-oracle-co-founder-larry-ellison-citizens-will-be-on-their-best-behavior-because-were-constantly-recording-and-reporting-everything-that-is-going-on-a-dire-warning-on-the-erosion-of-privacy' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/02/top_stories_06022026#story-48375016'>Gmail thinks I'm stupid, so I left</a>
+ <a class='hn-top-story-link' href='https://moddedbear.com/gmail-thinks-im-stupid-so-i-left' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>拉里·埃里森：‘公民会表现最好，因为我们一直在记录’</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 13</span> <span class='hn-top-story-score'>&#9650; 68</span> <span class='hn-top-story-comments'>&#128172; 16</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>Gmail 觉得我很蠢，所以我离开</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 27</span> <span class='hn-top-story-score'>&#9650; 233</span> <span class='hn-top-story-comments'>&#128172; 116</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='93' data-hn-time='1780419311'>
+<div class='hn-top-story-item' data-hn-score='206' data-hn-time='1780426027'>
 <span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/02/top_stories_06022026#story-48374466'>MAI-Code-1-Flash</a>
+ <a class='hn-top-story-link' href='https://microsoft.ai/news/introducingmai-code-1-flash/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>MAI Code-1 快闪</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 17</span> <span class='hn-top-story-score'>&#9650; 206</span> <span class='hn-top-story-comments'>&#128172; 91</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='180' data-hn-time='1780420144'>
+<span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/02/top_stories_06022026#story-48373054'>Three Ways to Get Paid (2018)</a>
+ <a class='hn-top-story-link' href='https://jasonzweig.com/three-ways-to-get-paid/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>三种获得报酬的方式</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.1</span> <span class='hn-top-story-score'>&#9650; 180</span> <span class='hn-top-story-comments'>&#128172; 112</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Finance</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='176' data-hn-time='1780419311'>
+<span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/06/02/top_stories_06022026#story-48372853'>Coreutils for Windows</a>
  <a class='hn-top-story-link' href='https://github.com/microsoft/coreutils' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Windows 版 Coreutils</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 93</span> <span class='hn-top-story-comments'>&#128172; 71</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.3</span> <span class='hn-top-story-score'>&#9650; 176</span> <span class='hn-top-story-comments'>&#128172; 166</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='66' data-hn-time='1780420144'>
-<span class='hn-top-story-rank'>3</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/02/top_stories_06022026#story-48373054'>Three Ways to Get Paid</a>
- <a class='hn-top-story-link' href='https://jasonzweig.com/three-ways-to-get-paid/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>三种获得报酬的方式</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.3</span> <span class='hn-top-story-score'>&#9650; 66</span> <span class='hn-top-story-comments'>&#128172; 42</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>Business</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='472' data-hn-time='1780394456'>
-<span class='hn-top-story-rank'>4</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/02/top_stories_06022026#story-48368121'>Adafruit Receives Demand Letter from Fenwick Legal Counsel on Behalf of Flux.ai</a>
- <a class='hn-top-story-link' href='https://blog.adafruit.com/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Adafruit 收到 Flux.ai 代表的 Fenwick 律师事务所律师函</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.4</span> <span class='hn-top-story-score'>&#9650; 472</span> <span class='hn-top-story-comments'>&#128172; 192</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='209' data-hn-time='1780406672'>
+<div class='hn-top-story-item' data-hn-score='332' data-hn-time='1780406672'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/02/top_stories_06022026#story-48369980'>A walking tour of surveillance infrastructure in Seattle</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/02/top_stories_06022026#story-48369980'>A walking tour of surveillance infrastructure in Seattle (2020)</a>
  <a class='hn-top-story-link' href='https://coveillance.org/a-walking-tour-of-surveillance-infrastructure-in-seattle/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>西雅图监控基础设施步行巡展</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.8</span> <span class='hn-top-story-score'>&#9650; 209</span> <span class='hn-top-story-comments'>&#128172; 99</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>DevOps</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.9</span> <span class='hn-top-story-score'>&#9650; 332</span> <span class='hn-top-story-comments'>&#128172; 188</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>DevOps</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='244' data-hn-time='1780401603'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='46' data-hn-time='1780429165'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/02/top_stories_06022026#story-48369088'>Apple rejected my dictation app for using the accessibility API</a>
- <a class='hn-top-story-link' href='https://www.mitmllc.com/blog/apple-rejected-my-dictation-app/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/02/top_stories_06022026#story-48375175'>The advertising cartel coming to your web browser</a>
+ <a class='hn-top-story-link' href='https://blog.zgp.org/the-advertising-cartel-coming-to-your-web-browser/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>苹果因使用无障碍 API 拒绝了我的听写应用</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.6</span> <span class='hn-top-story-score'>&#9650; 244</span> <span class='hn-top-story-comments'>&#128172; 149</span> <span class='hn-top-story-tag'>Legal</span></div>
+<div class='hn-top-story-zh'>广告寡头将进入你的网页浏览器</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.9</span> <span class='hn-top-story-score'>&#9650; 46</span> <span class='hn-top-story-comments'>&#128172; 10</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='2088' data-hn-time='1780331502'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='73' data-hn-time='1780425574'>
 <span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/02/top_stories_06022026#story-48374362'>MAI-Thinking-1</a>
+ <a class='hn-top-story-link' href='https://microsoft.ai/news/introducing-mai-thinking-1/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>MAI 思维-1</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.7</span> <span class='hn-top-story-score'>&#9650; 73</span> <span class='hn-top-story-comments'>&#128172; 24</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='533' data-hn-time='1780394456'>
+<span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/02/top_stories_06022026#story-48368121'>Adafruit receives demand letter from Fenwick legal counsel on behalf of Flux.ai</a>
+ <a class='hn-top-story-link' href='https://blog.adafruit.com/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Adafruit 收到 Flux.ai 代表的 Fenwick 律师事务所律师函</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.5</span> <span class='hn-top-story-score'>&#9650; 533</span> <span class='hn-top-story-comments'>&#128172; 225</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='2112' data-hn-time='1780331502'>
+<span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/06/02/top_stories_06022026#story-48359102'>The newest Instagram “exploit” is the goofiest I've seen</a>
  <a class='hn-top-story-link' href='https://www.0xsid.com/blog/meta-account-takeover-fiasco' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Instagram 最新漏洞是我见过的最离谱的</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.3</span> <span class='hn-top-story-score'>&#9650; 2088</span> <span class='hn-top-story-comments'>&#128172; 465</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.6</span> <span class='hn-top-story-score'>&#9650; 2112</span> <span class='hn-top-story-comments'>&#128172; 471</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='361' data-hn-time='1780392871'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/02/top_stories_06022026#story-48367907'>Why Janet? (2023)</a>
- <a class='hn-top-story-link' href='https://ianthehenry.com/posts/why-janet/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>为何选择 Janet？（2023）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.2</span> <span class='hn-top-story-score'>&#9650; 361</span> <span class='hn-top-story-comments'>&#128172; 182</span> <span class='hn-top-story-tag'>Programming</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='92' data-hn-time='1780409790'>
-<span class='hn-top-story-rank'>9</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/02/top_stories_06022026#story-48370588'>Preparing for KDE Plasma's Last X11-Supported Release</a>
- <a class='hn-top-story-link' href='https://blog.davidedmundson.co.uk/blog/596/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>为 KDE Plasma 的最后一个支持 X11 的版本做准备</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.8</span> <span class='hn-top-story-score'>&#9650; 92</span> <span class='hn-top-story-comments'>&#128172; 85</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Open Source</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='99' data-hn-time='1780408432'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='106' data-hn-time='1780418416'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/02/top_stories_06022026#story-48370291'>Fidonet: Technology, Use, Tools, and History (1993)</a>
- <a class='hn-top-story-link' href='https://www.fidonet.org/inet92_Randy_Bush.txt' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/02/top_stories_06022026#story-48372628'>Trump signs downsized AI order after weeks of reversals</a>
+ <a class='hn-top-story-link' href='https://www.politico.com/news/2026/06/02/trump-signs-downsized-ai-order-00946389' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Fidonet：1993年的技术、用法、工具与历史</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.7</span> <span class='hn-top-story-score'>&#9650; 99</span> <span class='hn-top-story-comments'>&#128172; 31</span> <span class='hn-top-story-tag'>Education</span></div>
+<div class='hn-top-story-zh'>特朗普在多周变动后签署缩减版 AI 命令</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.1</span> <span class='hn-top-story-score'>&#9650; 106</span> <span class='hn-top-story-comments'>&#128172; 77</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -139,7 +139,7 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 23 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-06-01 — 2026-06-02 <span class="hn-row-sep">·</span> 229 stories <span class="hn-row-sep">·</span> 2 days</span>
+<span class='hn-week-meta'>2026-06-01 — 2026-06-02 <span class="hn-row-sep">·</span> 250 stories <span class="hn-row-sep">·</span> 2 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -148,7 +148,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/06/02/top_stories_06022026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>79</b> <span class="hn-row-sep">·</span> Programming <b>23</b> <span class="hn-row-sep">·</span> AI <b>23</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>32</b> <span class="hn-row-sep">·</span> Programming <b>31</b></span>
 </a>
 </div>
 </div>
