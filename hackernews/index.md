@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>104</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>15145</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>101</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>102</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-06-03</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>104</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>15150</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>101</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>102</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-06-03</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,7 +20,7 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='243' data-hn-time='1780513346'>
+<div class='hn-top-story-item' data-hn-score='446' data-hn-time='1780513346'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -28,10 +28,10 @@ Sort:
  <a class='hn-top-story-link' href='https://elixir-lang.org/blog/2026/06/03/elixir-v1-20-0-released/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Elixir v1.20：逐步类型化语言</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 21</span> <span class='hn-top-story-score'>&#9650; 243</span> <span class='hn-top-story-comments'>&#128172; 68</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 16</span> <span class='hn-top-story-score'>&#9650; 446</span> <span class='hn-top-story-comments'>&#128172; 154</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='515' data-hn-time='1780502682'>
+<div class='hn-top-story-item' data-hn-score='629' data-hn-time='1780502682'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -39,10 +39,10 @@ Sort:
  <a class='hn-top-story-link' href='https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Gemma 4 12B：一个统一的无需编码器的多模态模型</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 16</span> <span class='hn-top-story-score'>&#9650; 515</span> <span class='hn-top-story-comments'>&#128172; 188</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 629</span> <span class='hn-top-story-comments'>&#128172; 255</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='593' data-hn-time='1780490527'>
+<div class='hn-top-story-item' data-hn-score='656' data-hn-time='1780490527'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -50,84 +50,84 @@ Sort:
  <a class='hn-top-story-link' href='https://www.bbc.com/news/articles/c93x0k194yno' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Meta 员工可在工作时最多不被追踪30分钟</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.1</span> <span class='hn-top-story-score'>&#9650; 593</span> <span class='hn-top-story-comments'>&#128172; 553</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Data</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.7</span> <span class='hn-top-story-score'>&#9650; 656</span> <span class='hn-top-story-comments'>&#128172; 621</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Data</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='215' data-hn-time='1780504397'>
+<div class='hn-top-story-item' data-hn-score='305' data-hn-time='1780504397'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/03/top_stories_06032026#story-48386238'>MacBook Neo Is So Popular That Apple Doubled Production</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/03/top_stories_06032026#story-48386238'>MacBook Neo is so popular that Apple doubled production</a>
  <a class='hn-top-story-link' href='https://www.macrumors.com/2026/06/03/macbook-neo-production-doubled-says-kuo/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>MacBook Neo 火爆，苹果将产量翻倍</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.7</span> <span class='hn-top-story-score'>&#9650; 215</span> <span class='hn-top-story-comments'>&#128172; 212</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Energy</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.0</span> <span class='hn-top-story-score'>&#9650; 305</span> <span class='hn-top-story-comments'>&#128172; 329</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Energy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='577' data-hn-time='1780483980'>
+<div class='hn-top-story-item' data-hn-score='437' data-hn-time='1780495806'>
 <span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/03/top_stories_06032026#story-48382310'>Hacking your PC using your speaker without ever touching it</a>
- <a class='hn-top-story-link' href='https://blog.nns.ee/2026/06/03/katana-badusb/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Hacking your PC using your speaker without ever touching it</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.6</span> <span class='hn-top-story-score'>&#9650; 577</span> <span class='hn-top-story-comments'>&#128172; 95</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Hardware</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='203' data-hn-time='1780503025'>
-<span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/03/top_stories_06032026#story-48385965'>ESP32-S31</a>
- <a class='hn-top-story-link' href='https://www.espressif.com/en/products/socs/esp32-s31' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>ESP32-S31 芯片</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.6</span> <span class='hn-top-story-score'>&#9650; 203</span> <span class='hn-top-story-comments'>&#128172; 105</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='160' data-hn-time='1780505919'>
-<span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/03/top_stories_06032026#story-48386551'>The Public Should Own Half of the Big A.I. Companies</a>
- <a class='hn-top-story-link' href='https://www.sanders.senate.gov/op-eds/the-public-should-own-half-of-the-big-a-i-companies/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>公众应该拥有大 AI 公司的一半</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.5</span> <span class='hn-top-story-score'>&#9650; 160</span> <span class='hn-top-story-comments'>&#128172; 208</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='306' data-hn-time='1780496319'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/03/top_stories_06032026#story-48384482'>DaVinci Resolve 21</a>
- <a class='hn-top-story-link' href='https://www.blackmagicdesign.com/products/davinciresolve/whatsnew' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>达芬奇 Resolve 21</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.4</span> <span class='hn-top-story-score'>&#9650; 306</span> <span class='hn-top-story-comments'>&#128172; 142</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='313' data-hn-time='1780495806'>
-<span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/06/03/top_stories_06032026#story-48384355'>I was recently diagnosed with anti-NMDA receptor encephalitis</a>
  <a class='hn-top-story-link' href='https://burntsushi.net/encephalitis/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>我最近被诊断患上抗 NMDA 受体脑炎</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.3</span> <span class='hn-top-story-score'>&#9650; 313</span> <span class='hn-top-story-comments'>&#128172; 82</span> <span class='hn-top-story-tag'>Health</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.6</span> <span class='hn-top-story-score'>&#9650; 437</span> <span class='hn-top-story-comments'>&#128172; 121</span> <span class='hn-top-story-tag'>Health</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='116' data-hn-time='1780508580'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='626' data-hn-time='1780483980'>
+<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/03/top_stories_06032026#story-48382310'>Pwnd Blaster: Hacking your PC using your speaker without ever touching it</a>
+ <a class='hn-top-story-link' href='https://blog.nns.ee/2026/06/03/katana-badusb/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Hacking your PC using your speaker without ever touching it</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.0</span> <span class='hn-top-story-score'>&#9650; 626</span> <span class='hn-top-story-comments'>&#128172; 99</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Hardware</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='358' data-hn-time='1780496319'>
+<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/03/top_stories_06032026#story-48384482'>DaVinci Resolve 21</a>
+ <a class='hn-top-story-link' href='https://www.blackmagicdesign.com/products/davinciresolve/whatsnew' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>达芬奇 Resolve 21</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.7</span> <span class='hn-top-story-score'>&#9650; 358</span> <span class='hn-top-story-comments'>&#128172; 169</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='235' data-hn-time='1780503025'>
+<span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/03/top_stories_06032026#story-48385965'>ESP32-S31</a>
+ <a class='hn-top-story-link' href='https://www.espressif.com/en/products/socs/esp32-s31' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>ESP32-S31 芯片</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 235</span> <span class='hn-top-story-comments'>&#128172; 133</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='367' data-hn-time='1780490623'>
+<span class='hn-top-story-rank'>9</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/03/top_stories_06032026#story-48383241'>32GB of DDR5 now costs $375 – AI shortage continues to squeeze PC building</a>
+ <a class='hn-top-story-link' href='https://www.tomshardware.com/pc-components/ddr5/32gb-of-ddr5-now-costs-usd375-minimum-ai-shortage-continues-to-squeeze-pc-building' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>32GB DDR5现价375美元—AI短缺持续挤压PC组装成本</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.8</span> <span class='hn-top-story-score'>&#9650; 367</span> <span class='hn-top-story-comments'>&#128172; 333</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='137' data-hn-time='1780509097'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/03/top_stories_06032026#story-48387144'>Bot vs human traffic</a>
- <a class='hn-top-story-link' href='https://radar.cloudflare.com/traffic#bot-vs-human' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/03/top_stories_06032026#story-48387270'>Artificial intelligence is not conscious – Ted Chiang</a>
+ <a class='hn-top-story-link' href='https://www.theatlantic.com/philosophy/2026/06/no-artificial-intelligence-is-not-conscious/687378/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>机器人 vs 人类流量</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.0</span> <span class='hn-top-story-score'>&#9650; 116</span> <span class='hn-top-story-comments'>&#128172; 55</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>人工智能并非具备意识——Ted Chiang</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 137</span> <span class='hn-top-story-comments'>&#128172; 184</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -139,7 +139,7 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 23 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-06-01 — 2026-06-03 <span class="hn-row-sep">·</span> 395 stories <span class="hn-row-sep">·</span> 3 days</span>
+<span class='hn-week-meta'>2026-06-01 — 2026-06-03 <span class="hn-row-sep">·</span> 400 stories <span class="hn-row-sep">·</span> 3 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -148,7 +148,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/06/03/top_stories_06032026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>95</b> <span class="hn-row-sep">·</span> AI <b>27</b> <span class="hn-row-sep">·</span> Programming <b>23</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>26</b> <span class="hn-row-sep">·</span> Programming <b>25</b></span>
 </a>
 </div>
 </div>
