@@ -5,7 +5,7 @@
     <link>https://chaowang15.github.io/hackernews/</link>
     <description>Curated daily digest of top Hacker News stories with AI-generated summaries, tags, and bilingual translations.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 Jun 2026 10:07:21 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jun 2026 15:28:47 +0000</lastBuildDate>
     <generator>Hacker News Daily RSS Builder</generator>
     <atom:link href="https://chaowang15.github.io/hackernews/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
@@ -77,11 +77,24 @@
       <dc:creator>speckx</dc:creator>
       <pubDate>Tue, 02 Jun 2026 19:27:40 +0000</pubDate>
       <category>Privacy</category>
+      <category>Web</category>
       <category>AI</category>
       <description>&lt;p&gt;A writer explains leaving Gmail after experiences with AI-powered features and UX choices that felt intrusive.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;作者在体验到 Gmail 的 AI 功能和设计带来的侵入感后选择离开。文章讨论用户对 AI 助手驱动的邮箱服务的抵触情绪，以及隐私、控制权与 UX 设计之间的权衡。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 1119 · 💬 757 · Privacy · AI&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 1169 · 💬 816 · Privacy · Web · AI&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48375016&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/03/top_stories_06032026#story-48375016&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>They’re made out of weights</title>
+      <link>https://maxleiter.com/blog/weights</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48391611</guid>
+      <dc:creator>MaxLeiter</dc:creator>
+      <pubDate>Wed, 03 Jun 2026 23:37:18 +0000</pubDate>
+      <category>AI</category>
+      <description>&lt;p&gt;Some systems are described as being fundamentally built from weights.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;有些系统被描述为本质上由权重构成。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 1057 · 💬 429 · AI&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48391611&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/03/top_stories_06032026#story-48391611&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Microsoft Office 2019 and 2021 for Mac view-only conversion</title>
@@ -109,6 +122,30 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48370330&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/02/top_stories_06022026#story-48370330&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Gemma 4 12B: A unified, encoder-free multimodal model</title>
+      <link>https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48385906</guid>
+      <dc:creator>rvz</dc:creator>
+      <pubDate>Wed, 03 Jun 2026 16:04:42 +0000</pubDate>
+      <category>AI</category>
+      <description>&lt;p&gt;Gemma 4 12B is Google's encoder-free, unified multimodal model designed to handle text, image, and other modalities with a single architecture. By removing dedicated encoders, it aims to simplify training and inference while enabling more flexible cross-modal tasks. This approach could lower engineering friction for developers building multimodal applications.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Gemma 4 12B 是谷歌推出的无编码器、统一的多模态模型，能够用同一架构处理文本、图像等模态。取消独立编码器的设计旨在简化训练和推理，为跨模态任务带来更大的灵活性。此类设计若成熟，可能降低多模态应用的工程门槛。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 943 · 💬 354 · AI&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48385906&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/03/top_stories_06032026#story-48385906&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Elixir v1.20: Now a gradually typed language</title>
+      <link>https://elixir-lang.org/blog/2026/06/03/elixir-v1-20-0-released/</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48388324</guid>
+      <dc:creator>cloud8421</dc:creator>
+      <pubDate>Wed, 03 Jun 2026 19:02:26 +0000</pubDate>
+      <category>Programming</category>
+      <description>&lt;p&gt;Elixir 1.20 introduces gradual typing, letting developers opt into type checks without breaking dynamic code. This enables stronger tooling and safer APIs while preserving Elixir’s flexible, productive vibe.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Elixir 1.20 引入渐进式类型系统，开发者可以在不强制改动现有动态代码的前提下逐步打上类型标记。这提升工具链的准确性，帮助接口设计更安全，同时保留 Elixir 的灵活与高效开发体验。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 882 · 💬 347 · Programming&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48388324&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/03/top_stories_06032026#story-48388324&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Domain expertise has always been the real moat</title>
       <link>https://www.brethorsting.com/blog/2026/05/domain-expertise-has-always-been-the-real-moat/</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=48340411</guid>
@@ -119,18 +156,6 @@
 &lt;p&gt;&lt;em&gt;领域专长长期构成公司竞争壁垒。虽然规模和网络效应重要，但对行业洞察、客户场景的深度理解往往决定了竞争优势的持久性。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 853 · 💬 536 · Business&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48340411&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/31/top_stories_05312026#story-48340411&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Gemma 4 12B: A unified, encoder-free multimodal model</title>
-      <link>https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48385906</guid>
-      <dc:creator>rvz</dc:creator>
-      <pubDate>Wed, 03 Jun 2026 16:04:42 +0000</pubDate>
-      <category>AI</category>
-      <description>&lt;p&gt;Gemma 4 12B is Google's encoder-free, unified multimodal model designed to handle text, image, and other modalities with a single architecture. By removing dedicated encoders, it aims to simplify training and inference while enabling more flexible cross-modal tasks. This approach could lower engineering friction for developers building multimodal applications.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Gemma 4 12B 是谷歌推出的无编码器、统一的多模态模型，能够用同一架构处理文本、图像等模态。取消独立编码器的设计旨在简化训练和推理，为跨模态任务带来更大的灵活性。此类设计若成熟，可能降低多模态应用的工程门槛。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 840 · 💬 326 · AI&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48385906&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/04/top_stories_06042026#story-48385906&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>I am retiring from tech to live offline</title>
@@ -156,19 +181,6 @@
 &lt;p&gt;&lt;em&gt;人工智能在现代工作流程中并非可选项，文章主张积极采用并提供将 AI 负责任地整合到日常工作中的实用建议，强调切实的生产力提升，同时警惕过度依赖，建议设定边界和风控。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 775 · 💬 391 · AI&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48323101&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/30/top_stories_05302026#story-48323101&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Elixir v1.20: Now a gradually typed language</title>
-      <link>https://elixir-lang.org/blog/2026/06/03/elixir-v1-20-0-released/</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48388324</guid>
-      <dc:creator>cloud8421</dc:creator>
-      <pubDate>Wed, 03 Jun 2026 19:02:26 +0000</pubDate>
-      <category>Programming</category>
-      <category>Open Source</category>
-      <description>&lt;p&gt;Elixir 1.20 introduces gradual typing, letting developers opt into type checks without breaking dynamic code. This enables stronger tooling and safer APIs while preserving Elixir’s flexible, productive vibe.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Elixir 1.20 引入渐进式类型系统，开发者可以在不强制改动现有动态代码的前提下逐步打上类型标记。这提升工具链的准确性，帮助接口设计更安全，同时保留 Elixir 的灵活与高效开发体验。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 771 · 💬 280 · Programming · Open Source&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48388324&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/04/top_stories_06042026#story-48388324&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Malicious npm packages detected across Red Hat Cloud Services</title>
@@ -197,6 +209,19 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48345840&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/31/top_stories_05312026#story-48345840&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Meta workers can opt out of being tracked at work up to 30 min</title>
+      <link>https://www.bbc.com/news/articles/c93x0k194yno</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48383220</guid>
+      <dc:creator>reconnecting</dc:creator>
+      <pubDate>Wed, 03 Jun 2026 12:42:07 +0000</pubDate>
+      <category>Privacy</category>
+      <category>Data</category>
+      <description>&lt;p&gt;Meta has updated its employee monitoring policy to allow workers to opt out of being tracked for up to 30 minutes at a time. The change underscores the tension between productivity analytics and employee privacy in big tech.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Meta 更新员工监控政策，允许员工单次最多有30分钟不被追踪。此举凸显了大科技公司在生产力分析与员工隐私之间的权衡。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 746 · 💬 714 · Privacy · Data&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48383220&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/03/top_stories_06032026#story-48383220&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>GTA 6 Developers Unionize</title>
       <link>https://rockstarintel.com/gta-6-developers-announce-rockstar-games-union/</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=48324499</guid>
@@ -208,19 +233,6 @@
 &lt;p&gt;&lt;em&gt;GTA 6 项目团队开始组建工会，标志着高知名度游戏工作室劳动组织的抬头。这一举措可能影响加班文化、薪酬与工作条件，引发业界在与发行商谈判时对员工代表性的讨论。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 743 · 💬 511 · Entertainment · Culture&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48324499&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/30/top_stories_05302026#story-48324499&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Meta workers can opt out of being tracked at work up to 30 min</title>
-      <link>https://www.bbc.com/news/articles/c93x0k194yno</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48383220</guid>
-      <dc:creator>reconnecting</dc:creator>
-      <pubDate>Wed, 03 Jun 2026 12:42:07 +0000</pubDate>
-      <category>Privacy</category>
-      <category>Data</category>
-      <description>&lt;p&gt;Meta has updated its employee monitoring policy to allow workers to opt out of being tracked for up to 30 minutes at a time. The change underscores the tension between productivity analytics and employee privacy in big tech.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Meta 更新员工监控政策，允许员工单次最多有30分钟不被追踪。此举凸显了大科技公司在生产力分析与员工隐私之间的权衡。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 733 · 💬 699 · Privacy · Data&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48383220&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/04/top_stories_06042026#story-48383220&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>A 10 year old Xeon is all you need</title>
@@ -250,18 +262,6 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48364055&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/02/top_stories_06022026#story-48364055&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>They’re made out of weights</title>
-      <link>https://maxleiter.com/blog/weights</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48391611</guid>
-      <dc:creator>MaxLeiter</dc:creator>
-      <pubDate>Wed, 03 Jun 2026 23:37:18 +0000</pubDate>
-      <category>AI</category>
-      <description>&lt;p&gt;Some systems are described as being fundamentally built from weights.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;有些系统被描述为本质上由权重构成。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 693 · 💬 261 · AI&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48391611&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/04/top_stories_06042026#story-48391611&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>SQLite is all you need for durable workflows</title>
       <link>https://obeli.sk/blog/sqlite-is-all-you-need-for-durable-workflows/</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=48326802</guid>
@@ -275,6 +275,18 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48326802&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/30/top_stories_05302026#story-48326802&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>I was recently diagnosed with anti-NMDA receptor encephalitis</title>
+      <link>https://burntsushi.net/encephalitis/</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48384355</guid>
+      <dc:creator>Tomte</dc:creator>
+      <pubDate>Wed, 03 Jun 2026 14:10:06 +0000</pubDate>
+      <category>Health</category>
+      <description>&lt;p&gt;A personal account of being diagnosed with anti-NMDA receptor encephalitis, a rare autoimmune condition that can mimic psychiatric illness. The post emphasizes the difficulty of correct diagnosis and the importance of awareness among clinicians and patients. It sheds light on the intersection of neurology and mental health.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;作者分享罕见的抗 NMDA 受体脑炎诊断经历，这种疾病常因症状类似精神疾病而误诊。文章强调正确诊断的难度，以及提高临床与患者对该病的认知重要性，彰显神经科与精神健康的交叉议题。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 683 · 💬 211 · Health&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48384355&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/03/top_stories_06032026#story-48384355&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Pwnd Blaster: Hacking your PC using your speaker without ever touching it</title>
       <link>https://blog.nns.ee/2026/06/03/katana-badusb/</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=48382310</guid>
@@ -284,8 +296,8 @@
       <category>Hardware</category>
       <description>&lt;p&gt;Researchers demonstrate a BadUSB-style attack that uses a speaker to compromise a PC without any direct user interaction. The technique underlines how trusted hardware can be weaponized through subtle channels, raising concerns about supply chain, peripherals, and device authentication. It highlights the risk of peripheral-based exploits and the need for hardware-level defenses.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;研究人员展示了利用扬声器进行 BadUSB 式攻击、在无需任何直接交互的情况下入侵电脑的可能性。这一技巧暴露了受信任硬件可被通过微妙通道 weaponize 的风险，凸显了外设信任、供应链与硬件认证方面的挑战。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 668 · 💬 109 · Security · Hardware&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48382310&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/04/top_stories_06042026#story-48382310&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;small&gt;▲ 677 · 💬 115 · Security · Hardware&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48382310&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/03/top_stories_06032026#story-48382310&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Adafruit receives demand letter from Fenwick legal counsel on behalf of Flux.ai</title>
@@ -303,6 +315,19 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48368121&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/02/top_stories_06022026#story-48368121&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>1-Click GitHub Token Stealing via a VSCode Bug</title>
+      <link>https://blog.ammaraskar.com/github-token-stealing/</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48371562</guid>
+      <dc:creator>ammar2</dc:creator>
+      <pubDate>Tue, 02 Jun 2026 15:29:05 +0000</pubDate>
+      <category>Security</category>
+      <category>Programming</category>
+      <description>&lt;p&gt;A VSCode bug exposes GitHub tokens with a single click, enabling token theft via the IDE’s authentication flow. The incident underscores the risk of embedded auth in development tools and token-scoping hygiene; users should rotate tokens, enable 2FA, and update to patched versions.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;VSCode 中的一个漏洞使攻击者能够在一次点击中窃取 GitHub 访问令牌，利用集成的认证流程进行攻击。这一事件暴露了开发工具中嵌入式认证的风险以及令牌作用域带来的安全隐患。用户应轮换令牌、启用两步验证并更新到修补版本，同时谨慎管理令牌权限。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 648 · 💬 100 · Security · Programming&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48371562&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/03/top_stories_06032026#story-48371562&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Codex just found a &quot;workaround&quot; of not having sudo on my PC</title>
       <link>https://twitter.com/i/status/2060746160558543217</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=48348578</guid>
@@ -314,31 +339,6 @@
 &lt;p&gt;&lt;em&gt;透露显示通过 Codex 的工作流，可在不使用 sudo 的情况下完成特权任务，提示潜在的特权提升风险。强调在使用 AI 代码时，需依赖安全默认设置和严格权限控制。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 647 · 💬 307 · AI · Security&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48348578&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/01/top_stories_06012026#story-48348578&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>1-Click GitHub Token Stealing via a VSCode Bug</title>
-      <link>https://blog.ammaraskar.com/github-token-stealing/</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48371562</guid>
-      <dc:creator>ammar2</dc:creator>
-      <pubDate>Tue, 02 Jun 2026 15:29:05 +0000</pubDate>
-      <category>Security</category>
-      <category>Programming</category>
-      <description>&lt;p&gt;A VSCode bug exposes GitHub tokens with a single click, enabling token theft via the IDE’s authentication flow. The incident underscores the risk of embedded auth in development tools and token-scoping hygiene; users should rotate tokens, enable 2FA, and update to patched versions.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;VSCode 中的一个漏洞使攻击者能够在一次点击中窃取 GitHub 访问令牌，利用集成的认证流程进行攻击。这一事件暴露了开发工具中嵌入式认证的风险以及令牌作用域带来的安全隐患。用户应轮换令牌、启用两步验证并更新到修补版本，同时谨慎管理令牌权限。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 633 · 💬 95 · Security · Programming&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48371562&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/03/top_stories_06032026#story-48371562&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>I was recently diagnosed with anti-NMDA receptor encephalitis</title>
-      <link>https://burntsushi.net/encephalitis/</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48384355</guid>
-      <dc:creator>Tomte</dc:creator>
-      <pubDate>Wed, 03 Jun 2026 14:10:06 +0000</pubDate>
-      <category>Health</category>
-      <description>&lt;p&gt;A personal account of being diagnosed with anti-NMDA receptor encephalitis, a rare autoimmune condition that can mimic psychiatric illness. The post emphasizes the difficulty of correct diagnosis and the importance of awareness among clinicians and patients. It sheds light on the intersection of neurology and mental health.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;作者分享罕见的抗 NMDA 受体脑炎诊断经历，这种疾病常因症状类似精神疾病而误诊。文章强调正确诊断的难度，以及提高临床与患者对该病的认知重要性，彰显神经科与精神健康的交叉议题。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 619 · 💬 188 · Health&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48384355&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/04/top_stories_06042026#story-48384355&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Citing 'severe' math deficits, UC faculty demand a return to SAT tests for STEM</title>
@@ -366,6 +366,32 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48357154&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/01/top_stories_06012026#story-48357154&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Artificial intelligence is not conscious – Ted Chiang</title>
+      <link>https://www.theatlantic.com/philosophy/2026/06/no-artificial-intelligence-is-not-conscious/687378/</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48387270</guid>
+      <dc:creator>lordleft</dc:creator>
+      <pubDate>Wed, 03 Jun 2026 17:51:37 +0000</pubDate>
+      <category>AI</category>
+      <description>&lt;p&gt;Ted Chiang argues that current AI lacks true consciousness and subjective experience; he distinguishes between sophisticated pattern recognition and genuine sentience. The piece further explores ethical and policy implications, urging careful framing of AI capabilities and responsibilities.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Ted Chiang 认为当前的人工智能并非真正具备意识或主观体验；它们只是高度复杂的模式识别系统。文章还讨论伦理与政策含义，呼吁对 AI 能力与责任进行谨慎界定。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 590 · 💬 964 · AI&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48387270&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/03/top_stories_06032026#story-48387270&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>U.S. to dismantle system tracking Atlantic currents that are at risk of collapse</title>
+      <link>https://e360.yale.edu/digest/trump-ooi-amoc</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48392232</guid>
+      <dc:creator>rguiscard</dc:creator>
+      <pubDate>Thu, 04 Jun 2026 00:44:13 +0000</pubDate>
+      <category>Science</category>
+      <category>Politics</category>
+      <category>Privacy</category>
+      <description>&lt;p&gt;Policy moves to retire the monitoring system tracking Atlantic currents amid concerns about AMOC stability, raising questions about data availability for climate forecasting and research.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;关于美国计划拆除对大西洋环流监测的系统，担忧 AMOC 可能崩溃，数据缺失将影响气候预测与研究。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 570 · 💬 399 · Science · Politics · Privacy&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48392232&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/03/top_stories_06032026#story-48392232&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Age verification for social media, the beginning of the end for a free internet?</title>
       <link>https://mullvad.net/en/blog/age-verification-for-social-media-the-beginning-of-the-end-for-a-free-internet</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=48363882</guid>
@@ -376,6 +402,19 @@
 &lt;p&gt;&lt;em&gt;文章分析社交媒体的年龄验证方案，认为在提升安全性的同时可能侵蚀隐私与互联网的开放性，需要在安全与自由之间取得权衡。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 558 · 💬 472 · Privacy&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48363882&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/02/top_stories_06022026#story-48363882&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Uber's $1,500/month AI limit is a useful signal for AI tool pricing</title>
+      <link>https://simonwillison.net/2026/Jun/3/uber-caps-usage/</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48383056</guid>
+      <dc:creator>pdyc</dc:creator>
+      <pubDate>Wed, 03 Jun 2026 12:25:14 +0000</pubDate>
+      <category>AI</category>
+      <category>Business</category>
+      <description>&lt;p&gt;Uber caps AI tool usage at $1,500 per month, a concrete pricing signal for enterprise AI tooling. The cap affects individual power users and teams alike, influencing how startups and enterprises budget for copilots, assistants, and automation. It underscores the market’s sensitivity to costs and value at scale.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Uber 将 AI 工具使用额度设定为每月 1500 美元，为企业级 AI 工具定价提供了明确信号。该上限影响个人与团队的使用成本，促使初创公司与企业在成本与价值之间权衡。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 553 · 💬 682 · AI · Business&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48383056&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/03/top_stories_06032026#story-48383056&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>GitHub bans security researcher who posted zero-day Windows exploits</title>
@@ -390,6 +429,19 @@
 &lt;p&gt;&lt;em&gt;一名公开披露 Windows 零日漏洞的安全研究者被 GitHub 封禁，引发对平台治理与漏洞披露规范的讨论。事件凸显在提升安全透明度与遵守政策之间的张力，可能抑制研究活力。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 542 · 💬 251 · Security · Legal · Programming&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48315968&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/29/top_stories_05292026#story-48315968&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Failing grades soar with AI usage, dwindling math skills in Berkeley CS classes</title>
+      <link>https://www.dailycal.org/news/campus/academics/failing-grades-soar-as-professors-see-greater-ai-usage-dwindling-math-skills-in-uc-berkeley/article_16fad0bf-02cb-4b8c-8d88-888ffd9f8608.html</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48392004</guid>
+      <dc:creator>littlexsparkee</dc:creator>
+      <pubDate>Thu, 04 Jun 2026 00:18:02 +0000</pubDate>
+      <category>AI</category>
+      <category>Education</category>
+      <description>&lt;p&gt;Berkeley CS instructors report a spike in failing grades as AI usage increases in coursework, accompanied by a perceived decline in math skills among students. The trend underscores a broader tension between AI-assisted learning and mastery of fundamentals, suggesting the need for new assessment methods and curriculum adjustments.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;随着 AI 在课程中的使用增加，伯克利计算机科学课程的不及格率攀升，数学基础能力也在下降。这一现象凸显了 AI 辅助学习与基础知识掌握之间的张力，促使课程设计和评估方式需要改革。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 541 · 💬 491 · AI · Education&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48392004&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/03/top_stories_06032026#story-48392004&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>I made a million dollar product from my dorm room (2025)</title>
@@ -416,6 +468,19 @@
 &lt;p&gt;&lt;em&gt;提出对网站进行正式规范的提案，旨在统一网页结构、语义和相关工具链。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 537 · 💬 213 · Web&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48343683&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/31/top_stories_05312026#story-48343683&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MAI-Code-1-Flash</title>
+      <link>https://microsoft.ai/news/introducingmai-code-1-flash/</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48374466</guid>
+      <dc:creator>EvanZhouDev</dc:creator>
+      <pubDate>Tue, 02 Jun 2026 18:47:07 +0000</pubDate>
+      <category>AI</category>
+      <category>Programming</category>
+      <description>&lt;p&gt;Microsoft unveils MAI Code-1-Flash, a compact addition to the MAI code-generation lineup. The release emphasizes fast, integrated coding assistance designed to fit into developer workflows without overwhelming users. It signals Microsoft’s push toward lightweight, in-editor AI tools for everyday programming.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;微软发布 MAI Code-1-Flash，作为 MAI 代码生成家族的一员，强调在开发者工作流中快速、无缝的编码协助。此举显示微软在将 AI 工具嵌入到日常编码任务中的持续投入，关注轻量化与易用性。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 536 · 💬 253 · AI · Programming&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48374466&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/03/top_stories_06032026#story-48374466&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Dav2d</title>
@@ -484,19 +549,6 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48346947&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/01/top_stories_06012026#story-48346947&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>MAI-Code-1-Flash</title>
-      <link>https://microsoft.ai/news/introducingmai-code-1-flash/</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48374466</guid>
-      <dc:creator>EvanZhouDev</dc:creator>
-      <pubDate>Tue, 02 Jun 2026 18:47:07 +0000</pubDate>
-      <category>AI</category>
-      <category>Programming</category>
-      <description>&lt;p&gt;Microsoft unveils MAI Code-1-Flash, a compact addition to the MAI code-generation lineup. The release emphasizes fast, integrated coding assistance designed to fit into developer workflows without overwhelming users. It signals Microsoft’s push toward lightweight, in-editor AI tools for everyday programming.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;微软发布 MAI Code-1-Flash，作为 MAI 代码生成家族的一员，强调在开发者工作流中快速、无缝的编码协助。此举显示微软在将 AI 工具嵌入到日常编码任务中的持续投入，关注轻量化与易用性。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 520 · 💬 243 · AI · Programming&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48374466&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/03/top_stories_06032026#story-48374466&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Please Do Not Vibe Fuck Up This Software</title>
       <link>https://github.com/RsyncProject/rsync/issues/929</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=48342705</guid>
@@ -508,6 +560,18 @@
 &lt;p&gt;&lt;em&gt;这是一个直接的 GitHub 问题，提醒不要糟蹋这款软件的体验，强调保持可靠性和用户体验的重要性。 它指出粗心的变更或误用可能降低性能。 这一讨论反映了开源社区中直率和有时幽默的沟通风格。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 507 · 💬 460 · Open Source · Programming&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48342705&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/31/top_stories_05312026#story-48342705&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>DaVinci Resolve 21</title>
+      <link>https://www.blackmagicdesign.com/products/davinciresolve/whatsnew</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48384482</guid>
+      <dc:creator>pentagrama</dc:creator>
+      <pubDate>Wed, 03 Jun 2026 14:18:39 +0000</pubDate>
+      <category>AI</category>
+      <description>&lt;p&gt;DaVinci Resolve 21 bundles improved color tools, performance, and cloud-friendly collaboration, with AI-assisted features that appeal to prosumers and studios alike.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;DaVinci Resolve 21 包含更强的色彩工具、性能提升及云端协作功能，并新增 AI 支持特性，适合专业与准专业工作流。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 505 · 💬 223 · AI&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48384482&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/03/top_stories_06032026#story-48384482&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>AI Agent Guidelines for CS336 at Stanford</title>
@@ -536,19 +600,6 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48318481&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/29/top_stories_05292026#story-48318481&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>U.S. to dismantle system tracking Atlantic currents that are at risk of collapse</title>
-      <link>https://e360.yale.edu/digest/trump-ooi-amoc</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48392232</guid>
-      <dc:creator>rguiscard</dc:creator>
-      <pubDate>Thu, 04 Jun 2026 00:44:13 +0000</pubDate>
-      <category>Science</category>
-      <category>Privacy</category>
-      <description>&lt;p&gt;Policy moves to retire the monitoring system tracking Atlantic currents amid concerns about AMOC stability, raising questions about data availability for climate forecasting and research.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;关于美国计划拆除对大西洋环流监测的系统，担忧 AMOC 可能崩溃，数据缺失将影响气候预测与研究。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 487 · 💬 317 · Science · Privacy&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48392232&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/04/top_stories_06042026#story-48392232&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Why Janet? (2023)</title>
       <link>https://ianthehenry.com/posts/why-janet/</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=48367907</guid>
@@ -573,33 +624,6 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48317774&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/29/top_stories_05292026#story-48317774&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Uber's $1,500/month AI limit is a useful signal for AI tool pricing</title>
-      <link>https://simonwillison.net/2026/Jun/3/uber-caps-usage/</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48383056</guid>
-      <dc:creator>pdyc</dc:creator>
-      <pubDate>Wed, 03 Jun 2026 12:25:14 +0000</pubDate>
-      <category>AI</category>
-      <category>Business</category>
-      <description>&lt;p&gt;Uber caps AI tool usage at $1,500 per month, a concrete pricing signal for enterprise AI tooling. The cap affects individual power users and teams alike, influencing how startups and enterprises budget for copilots, assistants, and automation. It underscores the market’s sensitivity to costs and value at scale.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Uber 将 AI 工具使用额度设定为每月 1500 美元，为企业级 AI 工具定价提供了明确信号。该上限影响个人与团队的使用成本，促使初创公司与企业在成本与价值之间权衡。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 485 · 💬 609 · AI · Business&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48383056&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/04/top_stories_06042026#story-48383056&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Notes from the Mistral AI Now Summit</title>
-      <link>https://koenvangilst.nl/lab/mistral-ai-now-summit</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48325340</guid>
-      <dc:creator>vnglst</dc:creator>
-      <pubDate>Fri, 29 May 2026 16:22:01 +0000</pubDate>
-      <category>AI</category>
-      <category>Open Source</category>
-      <category>DevOps</category>
-      <description>&lt;p&gt;Paris hosted the Mistral AI Now Summit with announcements on open-weight models, partnerships, and product roadmaps. The notes capture what leaders envision for European AI tooling and governance in a rapidly evolving ecosystem. This matters for developers building open models and for investors watching AI infrastructure competition.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;巴黎举行的 Mistral AI Now Summit 现场聚焦开放权重模型、伙伴关系和产品路线图。笔记记录了领导者对欧盟AI工具链与治理的展望，以及快速发展的生态带来的影响。对构建开放模型的开发者和关注AI基础设施竞争的投资者都具重要意义。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 461 · 💬 205 · AI · Open Source · DevOps&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48325340&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/30/top_stories_05302026#story-48325340&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>CT scans of BYD car parts</title>
       <link>https://www.lumafield.com/scan-of-the-month/byd</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=48375824</guid>
@@ -608,47 +632,21 @@
       <category>Science</category>
       <description>&lt;p&gt;High-resolution CT scans reveal internal features and potential manufacturing artifacts in BYD car parts, showcasing the power of non-destructive imaging for QA and design. Such scans help engineers verify tolerances and spot hidden defects without disassembly, enabling faster QA and reverse engineering.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;高分辨率的 CT 扫描揭示了比亚迪汽车部件的内部结构与潜在制造缺陷，展现出无损成像在 QA 与设计优化中的作用。此类扫描帮助工程师核验公差、发现隐藏的制造痕迹，并在不拆解部件的情况下推进逆向工程。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 460 · 💬 328 · Science&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48375824&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/02/top_stories_06022026#story-48375824&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;small&gt;▲ 482 · 💬 372 · Science&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48375824&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/03/top_stories_06032026#story-48375824&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Danish pension fund excludes SpaceX citing governance and valuation</title>
-      <link>https://www.reuters.com/legal/transactional/danish-pension-fund-excludes-spacex-citing-governance-valuation-2026-05-29/</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48333820</guid>
-      <dc:creator>vrganj</dc:creator>
-      <pubDate>Sat, 30 May 2026 08:00:20 +0000</pubDate>
-      <category>Business</category>
-      <category>Finance</category>
-      <category>Space</category>
-      <description>&lt;p&gt;A Danish pension fund has excluded SpaceX from its portfolio over governance concerns and high valuation. The move reflects institutional scrutiny of how SpaceX manages oversight and long-term risk, even as the company advances ambitious goals. It could influence SpaceX's access to Nordic capital and similar funds.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;丹麦一家养老金基金因治理问题与估值担忧，决定不投资 SpaceX。这折射出机构投资者对 SpaceX 治理与长期风险的审慎态度，并可能影响其在北欧资本市场的融资前景。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 460 · 💬 12 · Business · Finance · Space&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48333820&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/30/top_stories_05302026#story-48333820&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>DaVinci Resolve 21</title>
-      <link>https://www.blackmagicdesign.com/products/davinciresolve/whatsnew</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48384482</guid>
-      <dc:creator>pentagrama</dc:creator>
-      <pubDate>Wed, 03 Jun 2026 14:18:39 +0000</pubDate>
-      <category>AI</category>
-      <description>&lt;p&gt;DaVinci Resolve 21 bundles improved color tools, performance, and cloud-friendly collaboration, with AI-assisted features that appeal to prosumers and studios alike.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;DaVinci Resolve 21 包含更强的色彩工具、性能提升及云端协作功能，并新增 AI 支持特性，适合专业与准专业工作流。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 457 · 💬 205 · AI&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48384482&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/04/top_stories_06042026#story-48384482&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>OpenRouter raises $113M Series B</title>
-      <link>https://openrouter.ai/announcements/series-b</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48338660</guid>
-      <dc:creator>freeCandy</dc:creator>
-      <pubDate>Sat, 30 May 2026 17:27:28 +0000</pubDate>
-      <category>Startups</category>
-      <category>Programming</category>
-      <description>&lt;p&gt;OpenRouter has raised $113 million in a Series B round, signaling strong investor confidence in its programmable networking platform. The funding should accelerate product expansion, go-to-market, and international scaling as the company competes in the growing edge and cloud networking space.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;OpenRouter 宣布完成 1.13 亿美元的 B 轮融资，体现投资人对其可编程网络平台的信心。资金将推动产品扩张、市场拓展与国际化布局，加速在边缘与云网络领域的竞争力提升。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 456 · 💬 248 · Startups · Programming&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48338660&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/05/31/top_stories_05312026#story-48338660&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+      <title>Use your Nvidia GPU's VRAM as swap space on Linux</title>
+      <link>https://github.com/c0dejedi/nbd-vram</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48377404</guid>
+      <dc:creator>tanelpoder</dc:creator>
+      <pubDate>Tue, 02 Jun 2026 22:55:33 +0000</pubDate>
+      <category>Hardware</category>
+      <category>Open Source</category>
+      <description>&lt;p&gt;A Linux tool exposes Nvidia GPU VRAM as a swap device via NBD, letting systems swap to GPU memory under memory pressure. It's a niche hack that can extend usable RAM on GPUs with large VRAM but performance depends on workload and memory bandwidth. Not a replacement for main RAM, but a clever hack for specific workloads.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;一款 Linux 工具通过 NBD 将 Nvidia GPU 的 VRAM 暂时作为交换空间使用。对于显存较大的显卡来说，在内存压力时可以延迟将数据写入磁盘，但它并非主 RAM 的替代品，性能取决于 workload 与带宽。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 463 · 💬 121 · Hardware · Open Source&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48377404&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/03/top_stories_06032026#story-48377404&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
