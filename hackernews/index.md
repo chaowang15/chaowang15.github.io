@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>105</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>15300</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>102</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>103</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-06-04</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>106</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>15349</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>102</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>104</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-06-05</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,118 +20,118 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='379' data-hn-time='1780613299'>
+<div class='hn-top-story-item' data-hn-score='216' data-hn-time='1780644393'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/04/top_stories_06042026#story-48405718'>SpaceX, Other Mega IPOs Denied Fast Index Entry by S&P</a>
- <a class='hn-top-story-link' href='https://www.bloomberg.com/news/articles/2026-06-04/s-p-dow-jones-keeps-megacap-ipo-rules-as-is-after-consultation' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/05/top_stories_06052026#story-48409191'>Changing How We Develop Ladybird</a>
+ <a class='hn-top-story-link' href='https://ladybird.org/posts/changing-how-we-develop-ladybird/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>SpaceX 与其他 Mega IPO 被 S&P 拒绝快速指数入口</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.6</span> <span class='hn-top-story-score'>&#9650; 379</span> <span class='hn-top-story-comments'>&#128172; 167</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Space</span></div>
+<div class='hn-top-story-zh'>改变我们开发 Ladybird 的方式</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 14</span> <span class='hn-top-story-score'>&#9650; 216</span> <span class='hn-top-story-comments'>&#128172; 119</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>DevOps</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='167' data-hn-time='1780620278'>
+<div class='hn-top-story-item' data-hn-score='572' data-hn-time='1780613299'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/04/top_stories_06042026#story-48406640'>Meta enables ADB on deprecated Portal devices [video]</a>
- <a class='hn-top-story-link' href='https://fb.watch/HxPu0fSyeH/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/05/top_stories_06052026#story-48405718'>SpaceX, Other Mega IPOs Denied Fast Index Entry by S&P</a>
+ <a class='hn-top-story-link' href='https://www.bloomberg.com/news/articles/2026-06-04/s-p-dow-jones-keeps-megacap-ipo-rules-as-is-after-consultation' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Meta 在停用的 Portal 设备上启用 ADB（含视频）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.4</span> <span class='hn-top-story-score'>&#9650; 167</span> <span class='hn-top-story-comments'>&#128172; 39</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>SpaceX 与其他 Mega IPO 被 S&P 拒绝快速指数入口</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.5</span> <span class='hn-top-story-score'>&#9650; 572</span> <span class='hn-top-story-comments'>&#128172; 279</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>Space</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='77' data-hn-time='1780629268'>
+<div class='hn-top-story-item' data-hn-score='156' data-hn-time='1780634221'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/04/top_stories_06042026#story-48407499'>Azure Linux 4.0 is Microsoft's first general-purpose Linux</a>
- <a class='hn-top-story-link' href='https://www.boxofcables.dev/azure-linux-4-0-is-microsofts-first-general-purpose-linux/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/05/top_stories_06052026#story-48408016'>C++: The Documentary</a>
+ <a class='hn-top-story-link' href='https://herbsutter.com/2026/06/04/c-the-documentary-released-today/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Azure Linux 4.0：微软的首个通用用途 Linux</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.1</span> <span class='hn-top-story-score'>&#9650; 77</span> <span class='hn-top-story-comments'>&#128172; 51</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>C++：纪录片</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 156</span> <span class='hn-top-story-comments'>&#128172; 85</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='360' data-hn-time='1780603880'>
+<div class='hn-top-story-item' data-hn-score='422' data-hn-time='1780603880'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/04/top_stories_06042026#story-48403980'>Anthropic's open-source framework for AI-powered vulnerability discovery</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/05/top_stories_06052026#story-48403980'>Anthropic's open-source framework for AI-powered vulnerability discovery</a>
  <a class='hn-top-story-link' href='https://github.com/anthropics/defending-code-reference-harness' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Anthropic 开源框架用于 AI 驱动的漏洞发现</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 360</span> <span class='hn-top-story-comments'>&#128172; 109</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 422</span> <span class='hn-top-story-comments'>&#128172; 119</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='80' data-hn-time='1780628668'>
+<div class='hn-top-story-item' data-hn-score='228' data-hn-time='1780620278'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/04/top_stories_06042026#story-48407451'>The Causes of Long Covid</a>
- <a class='hn-top-story-link' href='https://www.science.org/content/blog-post/causes-long-covid' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/05/top_stories_06052026#story-48406640'>Meta enables ADB on deprecated Portal devices [video]</a>
+ <a class='hn-top-story-link' href='https://fb.watch/HxPu0fSyeH/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>长新冠的成因</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 80</span> <span class='hn-top-story-comments'>&#128172; 29</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Health</span></div>
+<div class='hn-top-story-zh'>Meta 在停用的 Portal 设备上启用 ADB（含视频）</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 228</span> <span class='hn-top-story-comments'>&#128172; 84</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='612' data-hn-time='1780578051'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='67' data-hn-time='1780638366'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/04/top_stories_06042026#story-48398055'>VoidZero Is Joining Cloudflare</a>
- <a class='hn-top-story-link' href='https://blog.cloudflare.com/voidzero-joins-cloudflare/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/05/top_stories_06052026#story-48408442'>Fine-tuning an LLM to write docs like it's 1995</a>
+ <a class='hn-top-story-link' href='https://passo.uno/fine-tuning-docs-llm/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>VoidZero 加入 Cloudflare</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 612</span> <span class='hn-top-story-comments'>&#128172; 268</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>让 LLM 写出1995年的文档：微调</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 67</span> <span class='hn-top-story-comments'>&#128172; 21</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='414' data-hn-time='1780590017'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='638' data-hn-time='1780578051'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/04/top_stories_06042026#story-48400842'>When AI Builds Itself: Our progress toward recursive self-improvement</a>
- <a class='hn-top-story-link' href='https://www.anthropic.com/institute/recursive-self-improvement' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/05/top_stories_06052026#story-48398055'>VoidZero Is Joining Cloudflare</a>
+ <a class='hn-top-story-link' href='https://blog.cloudflare.com/voidzero-joins-cloudflare/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>AI 自我构建：向递归自我提升推进的进展</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 414</span> <span class='hn-top-story-comments'>&#128172; 548</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>VoidZero 加入 Cloudflare</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.2</span> <span class='hn-top-story-score'>&#9650; 638</span> <span class='hn-top-story-comments'>&#128172; 278</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='126' data-hn-time='1780617869'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1451' data-hn-time='1780529838'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/04/top_stories_06042026#story-48406358'>Open Code Review – An AI-powered code review CLI tool</a>
- <a class='hn-top-story-link' href='https://github.com/alibaba/open-code-review' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Open Code Review：一个 AI 驱动的代码评审命令行工具</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 126</span> <span class='hn-top-story-comments'>&#128172; 28</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Programming</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='266' data-hn-time='1780601808'>
-<span class='hn-top-story-rank'>9</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/04/top_stories_06042026#story-48403588'>Meta's ships facial recognition on smart glasses</a>
- <a class='hn-top-story-link' href='https://www.buchodi.com/meta-glasses-facial-recognition/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Meta 的智能眼镜搭载人脸识别</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.7</span> <span class='hn-top-story-score'>&#9650; 266</span> <span class='hn-top-story-comments'>&#128172; 222</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Politics</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1434' data-hn-time='1780529838'>
-<span class='hn-top-story-rank'>10</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/04/top_stories_06042026#story-48391611'>They’re made out of weights</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/05/top_stories_06052026#story-48391611'>They’re made out of weights</a>
  <a class='hn-top-story-link' href='https://maxleiter.com/blog/weights' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>它们是由权重构成的</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.7</span> <span class='hn-top-story-score'>&#9650; 1434</span> <span class='hn-top-story-comments'>&#128172; 635</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.2</span> <span class='hn-top-story-score'>&#9650; 1451</span> <span class='hn-top-story-comments'>&#128172; 641</span> <span class='hn-top-story-tag'>Science</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='111' data-hn-time='1780629268'>
+<span class='hn-top-story-rank'>9</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/05/top_stories_06052026#story-48407499'>Azure Linux 4.0 is Microsoft's first general-purpose Linux</a>
+ <a class='hn-top-story-link' href='https://www.boxofcables.dev/azure-linux-4-0-is-microsofts-first-general-purpose-linux/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Azure Linux 4.0：微软的首个通用用途 Linux</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.2</span> <span class='hn-top-story-score'>&#9650; 111</span> <span class='hn-top-story-comments'>&#128172; 92</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Programming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='22' data-hn-time='1780648336'>
+<span class='hn-top-story-rank'>10</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/05/top_stories_06052026#story-48409664'>Tracing a powerful GNSS interference source over Europe</a>
+ <a class='hn-top-story-link' href='https://arxiv.org/abs/2606.03673' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>追踪欧洲的强力 GNSS 干扰源</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.2</span> <span class='hn-top-story-score'>&#9650; 22</span> <span class='hn-top-story-comments'>&#128172; 4</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Space</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
-<a class='hn-top-stories-more' href='/hackernews/2026/06/04/top_stories_06042026'>View all trending stories &rarr;</a>
+<a class='hn-top-stories-more' href='/hackernews/2026/06/05/top_stories_06052026'>View all trending stories &rarr;</a>
 </div>
 </div>
 <div class='hn-index-section hn-archive-section'>
@@ -139,10 +139,19 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 23 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-06-01 — 2026-06-04 <span class="hn-row-sep">·</span> 550 stories <span class="hn-row-sep">·</span> 4 days</span>
+<span class='hn-week-meta'>2026-06-01 — 2026-06-05 <span class="hn-row-sep">·</span> 599 stories <span class="hn-row-sep">·</span> 5 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
+<div class='hn-day-row'>
+<div class='hn-day-date'>2026-06-05 <span class='hn-day-weekday'>Fri</span></div>
+<div class='hn-day-stories'>
+<a class='hn-story-link' href='/hackernews/2026/06/05/top_stories_06052026'>
+<span class='hn-row-type hn-type-top'>Trending</span>
+<span class='hn-row-detail'>All <b>49</b> <span class="hn-row-sep">·</span> Programming <b>17</b> <span class="hn-row-sep">·</span> AI <b>11</b></span>
+</a>
+</div>
+</div>
 <div class='hn-day-row'>
 <div class='hn-day-date'>2026-06-04 <span class='hn-day-weekday'>Thu</span></div>
 <div class='hn-day-stories'>
@@ -565,7 +574,7 @@ Sort:
 <details class='hn-week-group'>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 18</span>
-<span class='hn-week-meta'>2026-05-02 — 2026-05-03 <span class="hn-row-sep">·</span> 300 stories <span class="hn-row-sep">·</span> 2 days <span class="hn-row-sep">·</span> 📊 Weekly Digest <span class="hn-row-sep">·</span> 🎧</span>
+<span class='hn-week-meta'>2026-05-03 <span class="hn-row-sep">·</span> 150 stories <span class="hn-row-sep">·</span> 1 days <span class="hn-row-sep">·</span> 📊 Weekly Digest <span class="hn-row-sep">·</span> 🎧</span>
 </summary>
 <div class='hn-week-content'>
 <a class='hn-story-link hn-weekly-digest-link' href='/hackernews/weekly/2026-W18'>
@@ -584,19 +593,6 @@ Sort:
 <a class='hn-story-link' href='/hackernews/2026/05/03/top_stories_05032026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
 <span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>26</b> <span class="hn-row-sep">·</span> AI <b>21</b></span>
-</a>
-</div>
-</div>
-<div class='hn-day-row'>
-<div class='hn-day-date'>2026-05-02 <span class='hn-day-weekday'>Sat</span></div>
-<div class='hn-day-stories'>
-<a class='hn-story-link' href='/hackernews/2026/05/02/best_stories_05022026'>
-<span class='hn-row-type hn-type-best'>Daily Best</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>14</b> <span class="hn-row-sep">·</span> Programming <b>11</b></span>
-</a>
-<a class='hn-story-link' href='/hackernews/2026/05/02/top_stories_05022026'>
-<span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>24</b> <span class="hn-row-sep">·</span> AI <b>23</b></span>
 </a>
 </div>
 </div>
