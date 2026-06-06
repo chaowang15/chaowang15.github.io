@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>107</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>15566</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>104</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>105</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-06-06</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>107</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>15584</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>104</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>105</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-06-06</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,29 +20,29 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='937' data-hn-time='1780720716'>
+<div class='hn-top-story-item' data-hn-score='79' data-hn-time='1780770066'>
 <span class='hn-top-story-rank'>1</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/06/top_stories_06062026#story-48427523'>Pentagon raised threat of Israeli spying on U.S. to highest level, sources say</a>
+ <a class='hn-top-story-link' href='https://www.nbcnews.com/politics/national-security/pentagon-raised-threat-israeli-spying-us-highest-level-sources-say-rcna348565' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>五角大楼将以色列对美情报活动的威胁提升至最高级别</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 79</span> <span class='hn-top-story-comments'>&#128172; 6</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Politics</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='1177' data-hn-time='1780720716'>
+<span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/06/06/top_stories_06062026#story-48421442'>S&P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic</a>
  <a class='hn-top-story-link' href='https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>标准普尔500拒绝 SpaceX 入选，也不放行 OpenAI 与 Anthropic</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.7</span> <span class='hn-top-story-score'>&#9650; 937</span> <span class='hn-top-story-comments'>&#128172; 339</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.4</span> <span class='hn-top-story-score'>&#9650; 1177</span> <span class='hn-top-story-comments'>&#128172; 416</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='45' data-hn-time='1780754452'>
-<span class='hn-top-story-rank'>2</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/06/top_stories_06062026#story-48425247'>Benchmarks in Leipzig</a>
- <a class='hn-top-story-link' href='https://arxiv.org/abs/2606.05818' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>莱比锡基准测试</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.2</span> <span class='hn-top-story-score'>&#9650; 45</span> <span class='hn-top-story-comments'>&#128172; 19</span> <span class='hn-top-story-tag'>Science</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='21' data-hn-time='1780756460'>
+<div class='hn-top-story-item' data-hn-score='187' data-hn-time='1780756460'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -50,84 +50,84 @@ Sort:
  <a class='hn-top-story-link' href='https://lwn.net/SubscriberLink/1076018/16f01bbbb8e0d1f0/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>跳出 fork() 与 exec() 的进程创建方法</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 21</span> <span class='hn-top-story-comments'>&#128172; 6</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.0</span> <span class='hn-top-story-score'>&#9650; 187</span> <span class='hn-top-story-comments'>&#128172; 178</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='125' data-hn-time='1780737469'>
+<div class='hn-top-story-item' data-hn-score='286' data-hn-time='1780746375'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/06/top_stories_06062026#story-48422993'>The Smart TV in Your LivingRoom Is a Node in the AIScraping Economy</a>
- <a class='hn-top-story-link' href='https://blog.includesecurity.com/2026/06/the-smart-tv-in-your-livingroom-is-a-node-in-the-aiscraping-economy/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/06/top_stories_06062026#story-48423990'>Google will pay SpaceX $920M per month for compute</a>
+ <a class='hn-top-story-link' href='https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>你客厅的智能电视正成为 AI 抓取经济中的节点</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 125</span> <span class='hn-top-story-comments'>&#128172; 38</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>谷歌每月向 SpaceX 支付 9.2 亿美元用于计算资源</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.9</span> <span class='hn-top-story-score'>&#9650; 286</span> <span class='hn-top-story-comments'>&#128172; 427</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='76' data-hn-time='1780744378'>
+<div class='hn-top-story-item' data-hn-score='99' data-hn-time='1780760149'>
 <span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/06/top_stories_06062026#story-48426022'>Police in England and Wales told to halt AI use in court statements</a>
+ <a class='hn-top-story-link' href='https://www.ft.com/content/229e5949-3ebc-4151-8a86-a01b5e259241' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>英格兰和威尔士警方被要求停止在法庭陈述中使用 AI</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.3</span> <span class='hn-top-story-score'>&#9650; 99</span> <span class='hn-top-story-comments'>&#128172; 33</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='93' data-hn-time='1780757983'>
+<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/06/top_stories_06062026#story-48425723'>Zeroserve: A zero-config web server you can script with eBPF</a>
+ <a class='hn-top-story-link' href='https://su3.io/posts/introducing-zeroserve' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Zeroserve：一个零配置、可用 eBPF 脚本化的 Web 服务器</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 93</span> <span class='hn-top-story-comments'>&#128172; 23</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>DevOps</span> <span class='hn-top-story-tag'>Security</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='79' data-hn-time='1780759809'>
+<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/06/top_stories_06062026#story-48425982'>Python JIT project was asked to pause development</a>
+ <a class='hn-top-story-link' href='https://discuss.python.org/t/an-announcement-from-the-steering-council-regarding-the-jit-project/107638' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Python JIT 项目被要求暂停开发</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 79</span> <span class='hn-top-story-comments'>&#128172; 27</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Open Source</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='181' data-hn-time='1780744378'>
+<span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/06/06/top_stories_06062026#story-48423762'>Pokemon Emerald Ported to WebAssembly (100k FPS)</a>
  <a class='hn-top-story-link' href='https://pokeemerald.com/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>口袋妖怪绿宝石移植到 WebAssembly，帧率破万</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 76</span> <span class='hn-top-story-comments'>&#128172; 23</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 181</span> <span class='hn-top-story-comments'>&#128172; 54</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Gaming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='111' data-hn-time='1780735124'>
-<span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/06/top_stories_06062026#story-48422769'>Zig Zen Update</a>
- <a class='hn-top-story-link' href='https://codeberg.org/ziglang/zig/commit/621844bde551ee1a9b8142d7d146d1fa804247a2' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Zig Zen 更新</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.3</span> <span class='hn-top-story-score'>&#9650; 111</span> <span class='hn-top-story-comments'>&#128172; 47</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Open Source</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='20' data-hn-time='1780753222'>
-<span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/06/top_stories_06062026#story-48425031'>US House lawmakers release draft bill to prohibit state AI rules</a>
- <a class='hn-top-story-link' href='https://www.reuters.com/business/us-house-lawmakers-release-draft-bill-regulate-ai-2026-06-04/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>美国众议院议员发布草案，禁止州级人工智能规则</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.9</span> <span class='hn-top-story-score'>&#9650; 20</span> <span class='hn-top-story-comments'>&#128172; 4</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='223' data-hn-time='1780713111'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/06/top_stories_06062026#story-48420827'>Ask HN: Why is the HN crowd so anti-AI?</a>
- <a class='hn-top-story-link' href='https://news.ycombinator.com/item?id=48420827' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Ask HN：为什么 HN 的人群对 AI 那么反对？</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.8</span> <span class='hn-top-story-score'>&#9650; 223</span> <span class='hn-top-story-comments'>&#128172; 404</span> <span class='hn-top-story-tag'>Culture</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='50' data-hn-time='1780743145'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='129' data-hn-time='1780750338'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/06/top_stories_06062026#story-48423615'>Introduction – Rust for Python Programmers</a>
- <a class='hn-top-story-link' href='https://microsoft.github.io/RustTraining/python-book/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/06/top_stories_06062026#story-48424605'>Nvidia is proposing a beast of a CPU system for Windows PCs</a>
+ <a class='hn-top-story-link' href='https://twitter.com/lemire/status/2062880075117113739' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>简介——面向 Python 程序员的 Rust 入门</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.7</span> <span class='hn-top-story-score'>&#9650; 50</span> <span class='hn-top-story-comments'>&#128172; 20</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Education</span></div>
+<div class='hn-top-story-zh'>NVIDIA 为 Windows PC 提出一款强悍的 CPU 系统</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 129</span> <span class='hn-top-story-comments'>&#128172; 268</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Gaming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='526' data-hn-time='1780678530'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='92' data-hn-time='1780754452'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/06/top_stories_06062026#story-48415217'>Gov.uk has replaced Stripe with Dutch provider Adyen</a>
- <a class='hn-top-story-link' href='https://www.theregister.com/public-sector/2026/06/04/govuk-goes-dutch-on-payments-as-it-dumps-stripe/5250763' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/06/top_stories_06062026#story-48425247'>Benchmarks in Leipzig</a>
+ <a class='hn-top-story-link' href='https://arxiv.org/abs/2606.05818' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>GOV.UK 已用 Adyen 取代 Stripe 的支付服务</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.7</span> <span class='hn-top-story-score'>&#9650; 526</span> <span class='hn-top-story-comments'>&#128172; 200</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>莱比锡基准测试</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 92</span> <span class='hn-top-story-comments'>&#128172; 39</span> <span class='hn-top-story-tag'>Science</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -139,7 +139,7 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 23 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-06-01 — 2026-06-06 <span class="hn-row-sep">·</span> 816 stories <span class="hn-row-sep">·</span> 6 days</span>
+<span class='hn-week-meta'>2026-06-01 — 2026-06-06 <span class="hn-row-sep">·</span> 834 stories <span class="hn-row-sep">·</span> 6 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -148,7 +148,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/06/06/top_stories_06062026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>66</b> <span class="hn-row-sep">·</span> Programming <b>19</b> <span class="hn-row-sep">·</span> AI <b>16</b></span>
+<span class='hn-row-detail'>All <b>84</b> <span class="hn-row-sep">·</span> AI <b>22</b> <span class="hn-row-sep">·</span> Programming <b>22</b></span>
 </a>
 </div>
 </div>
