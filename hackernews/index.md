@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>106</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>15450</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>103</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>104</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-06-05</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>107</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>15499</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>103</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>105</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-06-06</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,118 +20,118 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='65' data-hn-time='1780720716'>
+<div class='hn-top-story-item' data-hn-score='347' data-hn-time='1780720716'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/05/top_stories_06052026#story-48421442'>S&P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/06/top_stories_06062026#story-48421442'>S&P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic</a>
  <a class='hn-top-story-link' href='https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>标准普尔500拒绝 SpaceX 入选，也不放行 OpenAI 与 Anthropic</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.9</span> <span class='hn-top-story-score'>&#9650; 65</span> <span class='hn-top-story-comments'>&#128172; 8</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 13</span> <span class='hn-top-story-score'>&#9650; 347</span> <span class='hn-top-story-comments'>&#128172; 103</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Space</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='76' data-hn-time='1780713111'>
+<div class='hn-top-story-item' data-hn-score='131' data-hn-time='1780713111'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/05/top_stories_06052026#story-48420827'>Ask HN: Why is the HN crowd so anti-AI?</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/06/top_stories_06062026#story-48420827'>Ask HN: Why is the HN crowd so anti-AI?</a>
  <a class='hn-top-story-link' href='https://news.ycombinator.com/item?id=48420827' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Ask HN：为什么 HN 的人群对 AI 那么反对？</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.7</span> <span class='hn-top-story-score'>&#9650; 76</span> <span class='hn-top-story-comments'>&#128172; 139</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Culture</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 131</span> <span class='hn-top-story-comments'>&#128172; 245</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Culture</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='127' data-hn-time='1780706006'>
+<div class='hn-top-story-item' data-hn-score='159' data-hn-time='1780706006'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/05/top_stories_06052026#story-48420148'>The intracies of modern camera lens repair (2024)</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/06/top_stories_06062026#story-48420148'>The intracies of modern camera lens repair (2024)</a>
  <a class='hn-top-story-link' href='https://salvagedcircuitry.com/sigma-45mm.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>现代相机镜头维修的复杂性（2024）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 127</span> <span class='hn-top-story-comments'>&#128172; 39</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 159</span> <span class='hn-top-story-comments'>&#128172; 54</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='49' data-hn-time='1780716227'>
+<div class='hn-top-story-item' data-hn-score='432' data-hn-time='1780678530'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/05/top_stories_06052026#story-48421079'>C++: The Programming Language back cover raises questions not answered by front</a>
- <a class='hn-top-story-link' href='https://devblogs.microsoft.com/oldnewthing/20260605-01/?p=112391' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>C++：书籍封底提出的问题，前页未解答</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 49</span> <span class='hn-top-story-comments'>&#128172; 5</span> <span class='hn-top-story-tag'>Programming</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='397' data-hn-time='1780678530'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/05/top_stories_06052026#story-48415217'>Gov.uk has replaced Stripe with Dutch provider Adyen</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/06/top_stories_06062026#story-48415217'>Gov.uk has replaced Stripe with Dutch provider Adyen</a>
  <a class='hn-top-story-link' href='https://www.theregister.com/public-sector/2026/06/04/govuk-goes-dutch-on-payments-as-it-dumps-stripe/5250763' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>GOV.UK 已用 Adyen 取代 Stripe 的支付服务</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 397</span> <span class='hn-top-story-comments'>&#128172; 136</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 432</span> <span class='hn-top-story-comments'>&#128172; 153</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='822' data-hn-time='1780644393'>
+<div class='hn-top-story-item' data-hn-score='80' data-hn-time='1780716227'>
+<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/06/top_stories_06062026#story-48421079'>The back cover of C++: The Language raises questions not answered by front cover</a>
+ <a class='hn-top-story-link' href='https://devblogs.microsoft.com/oldnewthing/20260605-01/?p=112391' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>C++：书籍封底提出的问题，前页未解答</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.2</span> <span class='hn-top-story-score'>&#9650; 80</span> <span class='hn-top-story-comments'>&#128172; 22</span> <span class='hn-top-story-tag'>Programming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='835' data-hn-time='1780644393'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/05/top_stories_06052026#story-48409191'>Changing how we develop Ladybird</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/06/top_stories_06062026#story-48409191'>Changing how we develop Ladybird</a>
  <a class='hn-top-story-link' href='https://ladybird.org/posts/changing-how-we-develop-ladybird/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>改变我们开发 Ladybird 的方式</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 822</span> <span class='hn-top-story-comments'>&#128172; 522</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.2</span> <span class='hn-top-story-score'>&#9650; 835</span> <span class='hn-top-story-comments'>&#128172; 530</span> <span class='hn-top-story-tag'>DevOps</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='368' data-hn-time='1780675197'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='388' data-hn-time='1780675197'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/05/top_stories_06052026#story-48414367'>pg_durable: Microsoft open sources in-database durable execution</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/06/top_stories_06062026#story-48414367'>pg_durable: Microsoft open sources in-database durable execution</a>
  <a class='hn-top-story-link' href='https://github.com/microsoft/pg_durable' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>pg_durable：微软开源在数据库内的持久执行</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 368</span> <span class='hn-top-story-comments'>&#128172; 84</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Data</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 388</span> <span class='hn-top-story-comments'>&#128172; 88</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Data</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='376' data-hn-time='1780671631'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='64' data-hn-time='1780717292'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/05/top_stories_06052026#story-48413464'>Astronauts told to return to ISS after sheltering over air leak repairs</a>
- <a class='hn-top-story-link' href='https://www.bbc.com/news/live/c4g44ew3g1kt' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>宇航员在修复空气泄漏后被指示返回国际空间站</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.3</span> <span class='hn-top-story-score'>&#9650; 376</span> <span class='hn-top-story-comments'>&#128172; 240</span> <span class='hn-top-story-tag'>Space</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='317' data-hn-time='1780676328'>
-<span class='hn-top-story-rank'>9</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/05/top_stories_06052026#story-48414653'>Gemma 4 QAT models: Optimizing compression for mobile and laptop efficiency</a>
- <a class='hn-top-story-link' href='https://blog.google/innovation-and-ai/technology/developers-tools/quantization-aware-training-gemma-4/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Gemma 4 QAT 模型：为移动端与笔记本优化压缩</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.3</span> <span class='hn-top-story-score'>&#9650; 317</span> <span class='hn-top-story-comments'>&#128172; 96</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Energy</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='30' data-hn-time='1780717292'>
-<span class='hn-top-story-rank'>10</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/05/top_stories_06052026#story-48421171'>Pre-Modern Armies for Worldbuilders, Part I: Why They Fight</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/06/top_stories_06062026#story-48421171'>Pre-Modern Armies for Worldbuilders, Part I: Why They Fight</a>
  <a class='hn-top-story-link' href='https://acoup.blog/2026/06/05/collections-pre-modern-armies-for-worldbuilders-part-i-why-they-fight/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>为世界观创作准备的前现代军队（第一部分）：它们为何战斗</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.2</span> <span class='hn-top-story-score'>&#9650; 30</span> <span class='hn-top-story-comments'>&#128172; 3</span> <span class='hn-top-story-tag'>Culture</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.9</span> <span class='hn-top-story-score'>&#9650; 64</span> <span class='hn-top-story-comments'>&#128172; 19</span> <span class='hn-top-story-tag'>Culture</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='388' data-hn-time='1780671631'>
+<span class='hn-top-story-rank'>9</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/06/top_stories_06062026#story-48413464'>Astronauts told to return to ISS after sheltering over air leak repairs</a>
+ <a class='hn-top-story-link' href='https://www.bbc.com/news/live/c4g44ew3g1kt' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>宇航员在修复空气泄漏后被指示返回国际空间站</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.8</span> <span class='hn-top-story-score'>&#9650; 388</span> <span class='hn-top-story-comments'>&#128172; 249</span> <span class='hn-top-story-tag'>Space</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='344' data-hn-time='1780676328'>
+<span class='hn-top-story-rank'>10</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/06/top_stories_06062026#story-48414653'>Gemma 4 QAT models: Optimizing compression for mobile and laptop efficiency</a>
+ <a class='hn-top-story-link' href='https://blog.google/innovation-and-ai/technology/developers-tools/quantization-aware-training-gemma-4/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Gemma 4 QAT 模型：为移动端与笔记本优化压缩</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.8</span> <span class='hn-top-story-score'>&#9650; 344</span> <span class='hn-top-story-comments'>&#128172; 106</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Energy</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
-<a class='hn-top-stories-more' href='/hackernews/2026/06/05/top_stories_06052026'>View all trending stories &rarr;</a>
+<a class='hn-top-stories-more' href='/hackernews/2026/06/06/top_stories_06062026'>View all trending stories &rarr;</a>
 </div>
 </div>
 <div class='hn-index-section hn-archive-section'>
@@ -139,10 +139,19 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 23 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-06-01 — 2026-06-05 <span class="hn-row-sep">·</span> 700 stories <span class="hn-row-sep">·</span> 5 days</span>
+<span class='hn-week-meta'>2026-06-01 — 2026-06-06 <span class="hn-row-sep">·</span> 749 stories <span class="hn-row-sep">·</span> 6 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
+<div class='hn-day-row'>
+<div class='hn-day-date'>2026-06-06 <span class='hn-day-weekday'>Sat</span></div>
+<div class='hn-day-stories'>
+<a class='hn-story-link' href='/hackernews/2026/06/06/top_stories_06062026'>
+<span class='hn-row-type hn-type-top'>Trending</span>
+<span class='hn-row-detail'>All <b>49</b> <span class="hn-row-sep">·</span> AI <b>13</b> <span class="hn-row-sep">·</span> Programming <b>13</b></span>
+</a>
+</div>
+</div>
 <div class='hn-day-row'>
 <div class='hn-day-date'>2026-06-05 <span class='hn-day-weekday'>Fri</span></div>
 <div class='hn-day-stories'>
@@ -569,34 +578,6 @@ Sort:
 <a class='hn-story-link' href='/hackernews/2026/05/04/top_stories_05042026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
 <span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>18</b> <span class="hn-row-sep">·</span> Hardware <b>16</b></span>
-</a>
-</div>
-</div>
-</div>
-</div>
-</details>
-<details class='hn-week-group'>
-<summary class='hn-week-summary'>
-<span class='hn-week-title'>2026 Week 18</span>
-<span class='hn-week-meta'>2026-05-03 <span class="hn-row-sep">·</span> 150 stories <span class="hn-row-sep">·</span> 1 days <span class="hn-row-sep">·</span> 📊 Weekly Digest <span class="hn-row-sep">·</span> 🎧</span>
-</summary>
-<div class='hn-week-content'>
-<a class='hn-story-link hn-weekly-digest-link' href='/hackernews/weekly/2026-W18'>
-<span class='hn-row-type hn-type-weekly'>Weekly Digest</span>
-<span class='hn-row-detail'>2026-04-27 — 2026-05-03 <span class="hn-row-sep">·</span> All <b>485</b> <span class="hn-row-sep">·</span> Programming <b>115</b> <span class="hn-row-sep">·</span> AI <b>104</b></span>
- <span class='hn-podcast-badge' title='Weekly podcast available'>&#x1F3A7;</span>
-</a>
-<div class='hn-grid'>
-<div class='hn-day-row'>
-<div class='hn-day-date'>2026-05-03 <span class='hn-day-weekday'>Sun</span></div>
-<div class='hn-day-stories'>
-<a class='hn-story-link' href='/hackernews/2026/05/03/best_stories_05032026'>
-<span class='hn-row-type hn-type-best'>Daily Best</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>11</b> <span class="hn-row-sep">·</span> Programming <b>10</b></span>
-</a>
-<a class='hn-story-link' href='/hackernews/2026/05/03/top_stories_05032026'>
-<span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>26</b> <span class="hn-row-sep">·</span> AI <b>21</b></span>
 </a>
 </div>
 </div>
