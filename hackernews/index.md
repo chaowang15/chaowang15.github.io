@@ -20,18 +20,18 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='324' data-hn-time='1780770066'>
+<div class='hn-top-story-item' data-hn-score='95' data-hn-time='1780802512'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/06/top_stories_06062026#story-48427523'>Pentagon raised threat of Israeli spying on U.S. to highest level, sources say</a>
- <a class='hn-top-story-link' href='https://www.nbcnews.com/politics/national-security/pentagon-raised-threat-israeli-spying-us-highest-level-sources-say-rcna348565' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/06/top_stories_06062026#story-48431461'>Valve P2P networking broken for more than 2 months</a>
+ <a class='hn-top-story-link' href='https://github.com/ValveSoftware/GameNetworkingSockets/issues/398' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>五角大楼将以色列对美情报活动的威胁提升至最高级别</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 324</span> <span class='hn-top-story-comments'>&#128172; 221</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>Valve 的 P2P 网络故障已持续超过两个月</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.3</span> <span class='hn-top-story-score'>&#9650; 95</span> <span class='hn-top-story-comments'>&#128172; 42</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='285' data-hn-time='1780770927'>
+<div class='hn-top-story-item' data-hn-score='527' data-hn-time='1780770927'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -39,18 +39,18 @@ Sort:
  <a class='hn-top-story-link' href='https://this.weekinsecurity.com/meta-confirms-thousands-of-instagram-accounts-were-hacked-by-abusing-its-ai-chatbot/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Meta 确认数千 Instagram 账号因滥用其 AI 聊天机器人而被入侵</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 10</span> <span class='hn-top-story-score'>&#9650; 285</span> <span class='hn-top-story-comments'>&#128172; 96</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.7</span> <span class='hn-top-story-score'>&#9650; 527</span> <span class='hn-top-story-comments'>&#128172; 191</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='193' data-hn-time='1780773466'>
+<div class='hn-top-story-item' data-hn-score='490' data-hn-time='1780770066'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/06/top_stories_06062026#story-48428025'>Ntsc-rs – open-source video emulation of analog TV and VHS artifacts</a>
- <a class='hn-top-story-link' href='https://ntsc.rs/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/06/top_stories_06062026#story-48427523'>Pentagon raised threat of Israeli spying on U.S. to highest level, sources say</a>
+ <a class='hn-top-story-link' href='https://www.nbcnews.com/politics/national-security/pentagon-raised-threat-israeli-spying-us-highest-level-sources-say-rcna348565' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>NTSC-rs：开源的模拟电视与VHS伪影视频仿真</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.5</span> <span class='hn-top-story-score'>&#9650; 193</span> <span class='hn-top-story-comments'>&#128172; 33</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>五角大楼将以色列对美情报活动的威胁提升至最高级别</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 490</span> <span class='hn-top-story-comments'>&#128172; 386</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
 <div class='hn-top-story-item' data-hn-score='1317' data-hn-time='1780720716'>
@@ -61,73 +61,73 @@ Sort:
  <a class='hn-top-story-link' href='https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>标准普尔500拒绝 SpaceX 入选，也不放行 OpenAI 与 Anthropic</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.8</span> <span class='hn-top-story-score'>&#9650; 1317</span> <span class='hn-top-story-comments'>&#128172; 453</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Space</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 1317</span> <span class='hn-top-story-comments'>&#128172; 453</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='69' data-hn-time='1780778140'>
+<div class='hn-top-story-item' data-hn-score='316' data-hn-time='1780773466'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/06/top_stories_06062026#story-48428763'>New U.S. college grads now have higher unemployment than the average worker</a>
- <a class='hn-top-story-link' href='https://www.randalolson.com/2026/06/04/recent-grad-unemployment-flip/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/06/top_stories_06062026#story-48428025'>Ntsc-rs – open-source video emulation of analog TV and VHS artifacts</a>
+ <a class='hn-top-story-link' href='https://ntsc.rs/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>新晋美国高校毕业生的失业率现高于全体劳动者平均水平</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.8</span> <span class='hn-top-story-score'>&#9650; 69</span> <span class='hn-top-story-comments'>&#128172; 36</span> <span class='hn-top-story-tag'>Education</span> <span class='hn-top-story-tag'>Career</span></div>
+<div class='hn-top-story-zh'>NTSC-rs：开源的模拟电视与VHS伪影视频仿真</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 316</span> <span class='hn-top-story-comments'>&#128172; 77</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='81' data-hn-time='1780775470'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='28' data-hn-time='1780808222'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/06/top_stories_06062026#story-48428356'>Home alone: Remote work, isolation, and mental health</a>
- <a class='hn-top-story-link' href='https://www.science.org/doi/10.1126/science.aec7671' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/06/top_stories_06062026#story-48431952'>The circus freaks of open source</a>
+ <a class='hn-top-story-link' href='https://drewdevault.com/blog/Circus-freaks-of-FOSS/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>独居时代的远程工作、孤立与心理健康</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.3</span> <span class='hn-top-story-score'>&#9650; 81</span> <span class='hn-top-story-comments'>&#128172; 75</span> <span class='hn-top-story-tag'>Health</span></div>
+<div class='hn-top-story-zh'>开源圈的马戏团怪胎</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 28</span> <span class='hn-top-story-comments'>&#128172; 2</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Culture</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='398' data-hn-time='1780746375'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='24' data-hn-time='1780808664'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/06/top_stories_06062026#story-48423990'>Google will pay SpaceX $920M per month for compute</a>
- <a class='hn-top-story-link' href='https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/06/top_stories_06062026#story-48431981'>I design with Claude more than Figma now</a>
+ <a class='hn-top-story-link' href='https://blog.janestreet.com/i-design-with-claude-code-more-than-figma-now-index/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>谷歌每月向 SpaceX 支付 9.2 亿美元用于计算资源</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.8</span> <span class='hn-top-story-score'>&#9650; 398</span> <span class='hn-top-story-comments'>&#128172; 570</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Space</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>我现在用 Claude 设计多于 Figma</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 24</span> <span class='hn-top-story-comments'>&#128172; 7</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Design</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='213' data-hn-time='1780756460'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='89' data-hn-time='1780795455'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/06/top_stories_06062026#story-48425528'>Moving beyond fork() + exec()</a>
- <a class='hn-top-story-link' href='https://lwn.net/SubscriberLink/1076018/16f01bbbb8e0d1f0/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/06/top_stories_06062026#story-48430860'>An Ohio Valley 100k-Watt FM Signal Is Severed in Broad Daylight – Radio World</a>
+ <a class='hn-top-story-link' href='https://www.radioworld.com/news-and-business/headlines/an-ohio-valley-100000-watt-fm-signal-is-severed-in-broad-daylight' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>跳出 fork() 与 exec() 的进程创建方法</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 213</span> <span class='hn-top-story-comments'>&#128172; 240</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>俄亥俄谷地10万瓦 FM 信号在白天中断</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.7</span> <span class='hn-top-story-score'>&#9650; 89</span> <span class='hn-top-story-comments'>&#128172; 79</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>DevOps</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='161' data-hn-time='1780757983'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='57' data-hn-time='1780800397'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/06/top_stories_06062026#story-48425723'>Zeroserve: A zero-config web server you can script with eBPF</a>
- <a class='hn-top-story-link' href='https://su3.io/posts/introducing-zeroserve' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/06/top_stories_06062026#story-48431286'>Field of clones: How horse replicas came to dominate polo</a>
+ <a class='hn-top-story-link' href='https://knowablemagazine.org/content/article/technology/2026/cloned-polo-horses' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Zeroserve：一个零配置、可用 eBPF 脚本化的 Web 服务器</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 161</span> <span class='hn-top-story-comments'>&#128172; 40</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>克隆马场：克隆马如何主导马球运动</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 57</span> <span class='hn-top-story-comments'>&#128172; 31</span> <span class='hn-top-story-tag'>Science</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='209' data-hn-time='1780750338'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='72' data-hn-time='1780796231'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/06/top_stories_06062026#story-48424605'>Nvidia is proposing a beast of a CPU system for Windows PCs</a>
- <a class='hn-top-story-link' href='https://twitter.com/lemire/status/2062880075117113739' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/06/top_stories_06062026#story-48430923'>Tokenomics: Quantifying Where Tokens Are Used in Agentic Software Engineering</a>
+ <a class='hn-top-story-link' href='https://arxiv.org/abs/2601.14470' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>NVIDIA 为 Windows PC 提出一款强悍的 CPU 系统</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 209</span> <span class='hn-top-story-comments'>&#128172; 383</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Gaming</span></div>
+<div class='hn-top-story-zh'>代币经济学：在具备代理能力的软件工程中令牌的使用位置量化</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.3</span> <span class='hn-top-story-score'>&#9650; 72</span> <span class='hn-top-story-comments'>&#128172; 17</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Data</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -148,7 +148,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/06/06/top_stories_06062026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>27</b> <span class="hn-row-sep">·</span> AI <b>24</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>33</b> <span class="hn-row-sep">·</span> AI <b>26</b></span>
 </a>
 </div>
 </div>
