@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>109</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>15870</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>106</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>107</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-06-08</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>109</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>15892</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>106</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>107</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-06-08</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,18 +20,18 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='210' data-hn-time='1780932453'>
+<div class='hn-top-story-item' data-hn-score='428' data-hn-time='1780938103'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/08/top_stories_06082026#story-48446639'>MiMo-v2.5-Pro-UltraSpeed: 1T model with 1000 tokens per second</a>
- <a class='hn-top-story-link' href='https://mimo.xiaomi.com/blog/mimo-tilert-1000tps' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/08/top_stories_06082026#story-48447935'>Stop the Apple Music app from launching</a>
+ <a class='hn-top-story-link' href='https://lowtechguys.com/musicdecoy/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>MiMo-v2.5-Pro-UltraSpeed：1T 参数模型，吞吐 1000 tokens/秒</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 18</span> <span class='hn-top-story-score'>&#9650; 210</span> <span class='hn-top-story-comments'>&#128172; 153</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>阻止 Apple Music 应用自动启动</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 22</span> <span class='hn-top-story-score'>&#9650; 428</span> <span class='hn-top-story-comments'>&#128172; 169</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Startups</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='355' data-hn-time='1780927516'>
+<div class='hn-top-story-item' data-hn-score='585' data-hn-time='1780927516'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -39,95 +39,95 @@ Sort:
  <a class='hn-top-story-link' href='https://vorpus.github.io/performativeUI/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Show HN：Performative-UI——一个包含常见设计套路的 React 组件库</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 18</span> <span class='hn-top-story-score'>&#9650; 355</span> <span class='hn-top-story-comments'>&#128172; 82</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Web</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 14</span> <span class='hn-top-story-score'>&#9650; 585</span> <span class='hn-top-story-comments'>&#128172; 121</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Design</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='195' data-hn-time='1780931669'>
+<div class='hn-top-story-item' data-hn-score='390' data-hn-time='1780932453'>
 <span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/08/top_stories_06082026#story-48446639'>MiMo-v2.5-Pro-UltraSpeed: 1T model with 1000 tokens per second</a>
+ <a class='hn-top-story-link' href='https://mimo.xiaomi.com/blog/mimo-tilert-1000tps' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>MiMo-v2.5-Pro-UltraSpeed：1T 参数模型，吞吐 1000 tokens/秒</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 13</span> <span class='hn-top-story-score'>&#9650; 390</span> <span class='hn-top-story-comments'>&#128172; 272</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='136' data-hn-time='1780942673'>
+<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/08/top_stories_06082026#story-48449084'>Siri AI</a>
+ <a class='hn-top-story-link' href='https://www.apple.com/apple-intelligence/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Siri AI</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 136</span> <span class='hn-top-story-comments'>&#128172; 117</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='382' data-hn-time='1780931669'>
+<span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/06/08/top_stories_06082026#story-48446439'>A Farmer Donated Land to Turn into a Park. The City Is Building a Data Center</a>
  <a class='hn-top-story-link' href='https://www.404media.co/a-farmer-donated-land-to-turn-into-a-park-the-city-is-building-a-massive-data-center-instead/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>农民捐地建公园，城市却在建数据中心</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 15</span> <span class='hn-top-story-score'>&#9650; 195</span> <span class='hn-top-story-comments'>&#128172; 96</span> <span class='hn-top-story-tag'>Energy</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>DevOps</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 382</span> <span class='hn-top-story-comments'>&#128172; 209</span> <span class='hn-top-story-tag'>Energy</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>DevOps</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='320' data-hn-time='1780919882'>
-<span class='hn-top-story-rank'>4</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/08/top_stories_06082026#story-48444228'>Anti-social: It's fads, not friends, which now dominate social media feeds</a>
- <a class='hn-top-story-link' href='https://www.bbc.com/worklife/article/20260520-how-social-media-ceased-to-be-social' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>反社交：现在主导社媒的是潮流而非朋友</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.6</span> <span class='hn-top-story-score'>&#9650; 320</span> <span class='hn-top-story-comments'>&#128172; 267</span> <span class='hn-top-story-tag'>Design</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='176' data-hn-time='1780923979'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/08/top_stories_06082026#story-48444871'>Zig by Example</a>
- <a class='hn-top-story-link' href='https://github.com/boringcollege/zig-by-example' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Zig by Example：通过示例学习 Zig 语言</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.4</span> <span class='hn-top-story-score'>&#9650; 176</span> <span class='hn-top-story-comments'>&#128172; 83</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Open Source</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='74' data-hn-time='1780932340'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='74' data-hn-time='1780945788'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/08/top_stories_06082026#story-48446611'>I replaced Spotify with a homemade FM radio station</a>
- <a class='hn-top-story-link' href='https://old.reddit.com/r/digitalminimalism/comments/1tes8yu/i_replaced_spotify_with_a_homemade_fm_radio/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/08/top_stories_06082026#story-48450059'>Switzerland wil have a referendum to cap population at 10M</a>
+ <a class='hn-top-story-link' href='https://www.admin.ch/en/sustainability-initiative' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>我用自制的 FM 广播取代了 Spotify</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.1</span> <span class='hn-top-story-score'>&#9650; 74</span> <span class='hn-top-story-comments'>&#128172; 27</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Culture</span></div>
+<div class='hn-top-story-zh'>瑞士将就人口上限定为 1000 万举行公投</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 10.0</span> <span class='hn-top-story-score'>&#9650; 74</span> <span class='hn-top-story-comments'>&#128172; 119</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='60' data-hn-time='1780933680'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='178' data-hn-time='1780938864'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/08/top_stories_06082026#story-48446909'>Why are so many young people getting cancer? What researchers do and don't know</a>
- <a class='hn-top-story-link' href='https://www.nature.com/articles/d41586-026-01780-6' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/08/top_stories_06082026#story-48448106'>Apple WWDC 2026 Livestream</a>
+ <a class='hn-top-story-link' href='https://www.apple.com/apple-events/event-stream/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>为何有这么多年轻人患癌？研究者知道的与未知的</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.9</span> <span class='hn-top-story-score'>&#9650; 60</span> <span class='hn-top-story-comments'>&#128172; 33</span> <span class='hn-top-story-tag'>Health</span> <span class='hn-top-story-tag'>Science</span></div>
+<div class='hn-top-story-zh'>苹果 WWDC 2026 直播</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 10.0</span> <span class='hn-top-story-score'>&#9650; 178</span> <span class='hn-top-story-comments'>&#128172; 348</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='67' data-hn-time='1780931057'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='51' data-hn-time='1780946087'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/08/top_stories_06082026#story-48446310'>Italy's Bending Spoons, Owner of AOL and Vimeo, Files for Nasdaq IPO</a>
- <a class='hn-top-story-link' href='https://www.reuters.com/legal/transactional/italys-bending-spoons-files-us-ipo-2026-06-08/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/08/top_stories_06082026#story-48450142'>Apple reveals new AI architecture built around Google Gemini models</a>
+ <a class='hn-top-story-link' href='https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>意大利公司 Bending Spoons，AOL 与 Vimeo 的拥有者，提交纳斯达克上市申请</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.7</span> <span class='hn-top-story-score'>&#9650; 67</span> <span class='hn-top-story-comments'>&#128172; 60</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Startups</span> <span class='hn-top-story-tag'>Finance</span></div>
+<div class='hn-top-story-zh'>苹果揭示以 Google Gemini 模型为核心的新 AI 架构</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.2</span> <span class='hn-top-story-score'>&#9650; 51</span> <span class='hn-top-story-comments'>&#128172; 7</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='665' data-hn-time='1780886544'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='204' data-hn-time='1780933597'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/08/top_stories_06082026#story-48440792'>Dopamine Fracking</a>
- <a class='hn-top-story-link' href='https://igerman.cc/blog/dopamine-fracking/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/08/top_stories_06082026#story-48446893'>AI Is Slowing Down</a>
+ <a class='hn-top-story-link' href='https://www.wheresyoured.at/ai-is-slowing-down/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>多巴胺开采</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 665</span> <span class='hn-top-story-comments'>&#128172; 337</span> <span class='hn-top-story-tag'>Design</span> <span class='hn-top-story-tag'>Health</span></div>
+<div class='hn-top-story-zh'>AI 发展放缓</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.2</span> <span class='hn-top-story-score'>&#9650; 204</span> <span class='hn-top-story-comments'>&#128172; 237</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='259' data-hn-time='1780907572'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='127' data-hn-time='1780938453'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/08/top_stories_06082026#story-48442725'>The Cypherpunk Library</a>
- <a class='hn-top-story-link' href='https://www.cypherpunkbooks.com' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/08/top_stories_06082026#story-48448012'>Massachusetts bans sale of precise location data in new privacy rights bill</a>
+ <a class='hn-top-story-link' href='https://techcrunch.com/2026/06/08/massachusetts-votes-to-pass-new-privacy-rights-bill-that-bans-sale-of-precise-location-data/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Cypherpunk 图书馆</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 259</span> <span class='hn-top-story-comments'>&#128172; 78</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-zh'>马萨诸塞州通过新隐私法禁止出售精确定位数据</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.8</span> <span class='hn-top-story-score'>&#9650; 127</span> <span class='hn-top-story-comments'>&#128172; 21</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -139,7 +139,7 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 24 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-06-08 <span class="hn-row-sep">·</span> 70 stories <span class="hn-row-sep">·</span> 1 days</span>
+<span class='hn-week-meta'>2026-06-08 <span class="hn-row-sep">·</span> 92 stories <span class="hn-row-sep">·</span> 1 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -148,7 +148,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/06/08/top_stories_06082026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>70</b> <span class="hn-row-sep">·</span> Programming <b>19</b> <span class="hn-row-sep">·</span> AI <b>16</b></span>
+<span class='hn-row-detail'>All <b>92</b> <span class="hn-row-sep">·</span> Programming <b>30</b> <span class="hn-row-sep">·</span> AI <b>20</b></span>
 </a>
 </div>
 </div>
