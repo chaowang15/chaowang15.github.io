@@ -1,5 +1,4 @@
 from typing import List, Dict, Optional
-import os
 import re
 from datetime import datetime, timedelta
 
@@ -46,100 +45,6 @@ def _detect_mode(page_title: str) -> str:
     if "Trending" in page_title:
         return "top"
     return "best"
-
-
-def _parse_podcast_marker(marker_path: str) -> dict:
-    """Parse .podcast marker file and return a dict of key=value pairs."""
-    info = {}
-    try:
-        with open(marker_path, "r") as f:
-            for line in f:
-                line = line.strip()
-                if "=" in line:
-                    k, v = line.split("=", 1)
-                    info[k.strip()] = v.strip()
-    except Exception:
-        pass
-    return info
-
-
-def _build_podcast_player_html(date_str: str, mode: str) -> str:
-    """Build inline podcast player HTML for daily best pages.
-
-    Displays English podcast first, then Chinese podcast.
-    Returns empty string if mode is not 'best', date is invalid,
-    or no .podcast marker file exists for this date.
-    """
-    if mode != "best" or not date_str:
-        return ""
-
-    try:
-        dt = datetime.strptime(date_str, "%Y-%m-%d")
-    except ValueError:
-        return ""
-
-    # Check for .podcast marker file
-    marker_path = os.path.join(
-        "hackernews", dt.strftime("%Y"), dt.strftime("%m"), dt.strftime("%d"), ".podcast"
-    )
-    if not os.path.exists(marker_path):
-        return ""
-
-    repo = "chaowang15/chaowang15.github.io"
-    date_tag = dt.strftime("%Y-%m-%d")
-    release_tag = f"podcast-{dt.strftime('%Y-%m')}"
-    date_display = dt.strftime("%B %d, %Y")
-
-    marker_info = _parse_podcast_marker(marker_path)
-
-    # Read voice names from marker
-    female_name = marker_info.get("female", "\u6653\u6653")
-    male_name = marker_info.get("male", "\u4e91\u5e0c")
-
-    lines = []
-    lines.append("<div class='hn-podcast-inline'>")
-
-    # --- English podcast player (shown first, above Chinese) ---
-    en_mp3_filename = marker_info.get("en_mp3", "")
-    if en_mp3_filename:
-        en_female = marker_info.get("en_female", "Aria")
-        en_male = marker_info.get("en_male", "Davis")
-        en_mp3_url = f"https://github.com/{repo}/releases/download/{release_tag}/{en_mp3_filename}"
-
-        lines.append("<div class='hn-podcast-player'>")
-        lines.append("<div class='hn-podcast-header'>")
-        lines.append("<span class='hn-podcast-icon'>\U0001F399</span>")
-        lines.append("<div class='hn-podcast-info'>")
-        lines.append(f"<p class='hn-podcast-title'>\U0001F3A7 Daily Podcast (English) \u2014 {date_display}</p>")
-        lines.append(f"<p class='hn-podcast-meta'>English Podcast \u00B7 AI Generated \u00B7 {en_female} &amp; {en_male}</p>")
-        lines.append("</div>")
-        lines.append("</div>")
-        lines.append(f"<audio class='hn-podcast-audio' controls preload='metadata'>")
-        lines.append(f"<source src='{en_mp3_url}' type='audio/mpeg'>")
-        lines.append("</audio>")
-        lines.append("</div>")
-
-    # --- Chinese podcast player (single episode) ---
-    # Support both new format (mp3=...) and legacy two-part format (mp3_part1=...)
-    mp3_filename = marker_info.get("mp3", "") or marker_info.get("mp3_part1", "")
-    if mp3_filename:
-        mp3_url = f"https://github.com/{repo}/releases/download/{release_tag}/{mp3_filename}"
-
-        lines.append("<div class='hn-podcast-player'>")
-        lines.append("<div class='hn-podcast-header'>")
-        lines.append("<span class='hn-podcast-icon'>\U0001F399</span>")
-        lines.append("<div class='hn-podcast-info'>")
-        lines.append(f"<p class='hn-podcast-title'>\U0001F3A7 \u6BCF\u65E5\u64AD\u5BA2 (\u4E2D\u6587) \u2014 {date_display}</p>")
-        lines.append(f"<p class='hn-podcast-meta'>\u4E2D\u6587\u64AD\u5BA2 \u00B7 AI \u751F\u6210 \u00B7 {female_name} &amp; {male_name}</p>")
-        lines.append("</div>")
-        lines.append("</div>")
-        lines.append(f"<audio class='hn-podcast-audio' controls preload='metadata'>")
-        lines.append(f"<source src='{mp3_url}' type='audio/mpeg'>")
-        lines.append("</audio>")
-        lines.append("</div>")
-
-    lines.append("</div>")
-    return "\n".join(lines)
 
 
 def render_markdown(
@@ -227,11 +132,6 @@ def render_markdown(
     subtitle = page_subtitle.strip()
     if subtitle:
         lines.append(f"<p class='hn-subtitle'>{subtitle}</p>")
-
-    # Add podcast player for daily best pages
-    podcast_html = _build_podcast_player_html(date_str, mode)
-    if podcast_html:
-        lines.append(podcast_html)
 
     lines.append("<hr class='hn-rule'/>")
     lines.append("<div class='hn-list'>")

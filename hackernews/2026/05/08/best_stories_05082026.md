@@ -4,20 +4,6 @@ title: "Hacker News — Daily Best (2026-05-08)"
 ---
 <h1 class='hn-h1'>Hacker News Daily — 2026-05-08 <span class='hn-mode-badge hn-mode-best'>Daily Best</span></h1>
 <div class='hn-nav'><a class='hn-nav-btn hn-prev' href='/hackernews/2026/05/07/best_stories_05072026'>‹ Prev day</a><a class='hn-nav-btn hn-nav-index' href='/hackernews/'>← Index</a><a class='hn-nav-btn hn-next' href='/hackernews/2026/05/09/best_stories_05092026'>Next day ›</a></div>
-<div class='hn-podcast-inline'>
-<div class='hn-podcast-player'>
-<div class='hn-podcast-header'>
-<span class='hn-podcast-icon'>🎙</span>
-<div class='hn-podcast-info'>
-<p class='hn-podcast-title'>🎧 Daily Podcast (English) — May 08, 2026</p>
-<p class='hn-podcast-meta'>English Podcast · AI Generated · Marin &amp; Cedar</p>
-</div>
-</div>
-<audio class='hn-podcast-audio' controls preload='metadata'>
-<source src='https://github.com/chaowang15/chaowang15.github.io/releases/download/podcast-2026-05/hn-podcast-en-2026-05-08.mp3' type='audio/mpeg'>
-</audio>
-</div>
-</div>
 <hr class='hn-rule'/>
 <div class='hn-list'>
 <div class='hn-card' id='story-48067119' data-tags='Privacy,Security' data-hn-time='1778265958' data-hn-score='1171' data-hot-score='5.01'>

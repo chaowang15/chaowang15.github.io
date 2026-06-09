@@ -4,20 +4,6 @@ title: "Hacker News — Daily Best (2026-04-30)"
 ---
 <h1 class='hn-h1'>Hacker News Daily — 2026-04-30 <span class='hn-mode-badge hn-mode-best'>Daily Best</span></h1>
 <div class='hn-nav'><a class='hn-nav-btn hn-prev' href='/hackernews/2026/04/29/best_stories_04292026'>‹ Prev day</a><a class='hn-nav-btn hn-nav-index' href='/hackernews/'>← Index</a><a class='hn-nav-btn hn-next' href='/hackernews/2026/05/01/best_stories_05012026'>Next day ›</a></div>
-<div class='hn-podcast-inline'>
-<div class='hn-podcast-player'>
-<div class='hn-podcast-header'>
-<span class='hn-podcast-icon'>🎙</span>
-<div class='hn-podcast-info'>
-<p class='hn-podcast-title'>🎧 Daily Podcast (English) — April 30, 2026</p>
-<p class='hn-podcast-meta'>English Podcast · AI Generated · Coral &amp; Ash</p>
-</div>
-</div>
-<audio class='hn-podcast-audio' controls preload='metadata'>
-<source src='https://github.com/chaowang15/chaowang15.github.io/releases/download/podcast-2026-04/hn-podcast-en-2026-04-30.mp3' type='audio/mpeg'>
-</audio>
-</div>
-</div>
 <hr class='hn-rule'/>
 <div class='hn-list'>
 <div class='hn-card' id='story-47973203' data-tags='Show HN,Programming' data-hn-time='1777632091' data-hn-score='237' data-hot-score='14.15'>

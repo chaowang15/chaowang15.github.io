@@ -2,6 +2,7 @@
 layout: hn
 title: "Hacker News Daily"
 ---
+
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
 <div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>109</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>15900</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>106</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>107</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-06-08</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
@@ -132,6 +133,7 @@ Sort:
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
 <a class='hn-top-stories-more' href='/hackernews/2026/06/08/top_stories_06082026'>View all trending stories &rarr;</a>
+<a class='hn-top-stories-more' href='/hackernews/2026/06/07/best_stories_06072026'>Latest Daily Best — 2026-06-07 &rarr;</a>
 </div>
 </div>
 <div class='hn-index-section hn-archive-section'>
@@ -158,13 +160,12 @@ Sort:
 <details class='hn-week-group'>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 23</span>
-<span class='hn-week-meta'>2026-06-01 — 2026-06-07 <span class="hn-row-sep">·</span> 1050 stories <span class="hn-row-sep">·</span> 7 days <span class="hn-row-sep">·</span> 📊 Weekly Digest <span class="hn-row-sep">·</span> 🎧</span>
+<span class='hn-week-meta'>2026-06-01 — 2026-06-07 <span class="hn-row-sep">·</span> 1050 stories <span class="hn-row-sep">·</span> 7 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
 </summary>
 <div class='hn-week-content'>
 <a class='hn-story-link hn-weekly-digest-link' href='/hackernews/weekly/2026-W23'>
 <span class='hn-row-type hn-type-weekly'>Weekly Digest</span>
 <span class='hn-row-detail'>2026-06-01 — 2026-06-07 <span class="hn-row-sep">·</span> All <b>479</b> <span class="hn-row-sep">·</span> Programming <b>126</b> <span class="hn-row-sep">·</span> AI <b>122</b></span>
- <span class='hn-podcast-badge' title='Weekly podcast available'>&#x1F3A7;</span>
 </a>
 <div class='hn-grid'>
 <div class='hn-day-row'>
@@ -264,13 +265,12 @@ Sort:
 <details class='hn-week-group'>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 22</span>
-<span class='hn-week-meta'>2026-05-25 — 2026-05-31 <span class="hn-row-sep">·</span> 1050 stories <span class="hn-row-sep">·</span> 7 days <span class="hn-row-sep">·</span> 📊 Weekly Digest <span class="hn-row-sep">·</span> 🎧</span>
+<span class='hn-week-meta'>2026-05-25 — 2026-05-31 <span class="hn-row-sep">·</span> 1050 stories <span class="hn-row-sep">·</span> 7 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
 </summary>
 <div class='hn-week-content'>
 <a class='hn-story-link hn-weekly-digest-link' href='/hackernews/weekly/2026-W22'>
 <span class='hn-row-type hn-type-weekly'>Weekly Digest</span>
 <span class='hn-row-detail'>2026-05-25 — 2026-05-31 <span class="hn-row-sep">·</span> All <b>478</b> <span class="hn-row-sep">·</span> Programming <b>125</b> <span class="hn-row-sep">·</span> AI <b>102</b></span>
- <span class='hn-podcast-badge' title='Weekly podcast available'>&#x1F3A7;</span>
 </a>
 <div class='hn-grid'>
 <div class='hn-day-row'>
@@ -370,13 +370,12 @@ Sort:
 <details class='hn-week-group'>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 21</span>
-<span class='hn-week-meta'>2026-05-18 — 2026-05-24 <span class="hn-row-sep">·</span> 1050 stories <span class="hn-row-sep">·</span> 7 days <span class="hn-row-sep">·</span> 📊 Weekly Digest <span class="hn-row-sep">·</span> 🎧</span>
+<span class='hn-week-meta'>2026-05-18 — 2026-05-24 <span class="hn-row-sep">·</span> 1050 stories <span class="hn-row-sep">·</span> 7 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
 </summary>
 <div class='hn-week-content'>
 <a class='hn-story-link hn-weekly-digest-link' href='/hackernews/weekly/2026-W21'>
 <span class='hn-row-type hn-type-weekly'>Weekly Digest</span>
 <span class='hn-row-detail'>2026-05-18 — 2026-05-24 <span class="hn-row-sep">·</span> All <b>482</b> <span class="hn-row-sep">·</span> Programming <b>137</b> <span class="hn-row-sep">·</span> AI <b>114</b></span>
- <span class='hn-podcast-badge' title='Weekly podcast available'>&#x1F3A7;</span>
 </a>
 <div class='hn-grid'>
 <div class='hn-day-row'>
@@ -476,13 +475,12 @@ Sort:
 <details class='hn-week-group'>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 20</span>
-<span class='hn-week-meta'>2026-05-11 — 2026-05-17 <span class="hn-row-sep">·</span> 385 stories <span class="hn-row-sep">·</span> 3 days <span class="hn-row-sep">·</span> 📊 Weekly Digest <span class="hn-row-sep">·</span> 🎧</span>
+<span class='hn-week-meta'>2026-05-11 — 2026-05-17 <span class="hn-row-sep">·</span> 385 stories <span class="hn-row-sep">·</span> 3 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
 </summary>
 <div class='hn-week-content'>
 <a class='hn-story-link hn-weekly-digest-link' href='/hackernews/weekly/2026-W20'>
 <span class='hn-row-type hn-type-weekly'>Weekly Digest</span>
 <span class='hn-row-detail'>2026-05-11 — 2026-05-17 <span class="hn-row-sep">·</span> All <b>254</b> <span class="hn-row-sep">·</span> Programming <b>130</b> <span class="hn-row-sep">·</span> AI <b>55</b></span>
- <span class='hn-podcast-badge' title='Weekly podcast available'>&#x1F3A7;</span>
 </a>
 <div class='hn-grid'>
 <div class='hn-day-row'>
@@ -526,13 +524,12 @@ Sort:
 <details class='hn-week-group'>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 19</span>
-<span class='hn-week-meta'>2026-05-06 — 2026-05-10 <span class="hn-row-sep">·</span> 750 stories <span class="hn-row-sep">·</span> 5 days <span class="hn-row-sep">·</span> 📊 Weekly Digest <span class="hn-row-sep">·</span> 🎧</span>
+<span class='hn-week-meta'>2026-05-06 — 2026-05-10 <span class="hn-row-sep">·</span> 750 stories <span class="hn-row-sep">·</span> 5 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
 </summary>
 <div class='hn-week-content'>
 <a class='hn-story-link hn-weekly-digest-link' href='/hackernews/weekly/2026-W19'>
 <span class='hn-row-type hn-type-weekly'>Weekly Digest</span>
 <span class='hn-row-detail'>2026-05-04 — 2026-05-10 <span class="hn-row-sep">·</span> All <b>483</b> <span class="hn-row-sep">·</span> Programming <b>102</b> <span class="hn-row-sep">·</span> AI <b>92</b></span>
- <span class='hn-podcast-badge' title='Weekly podcast available'>&#x1F3A7;</span>
 </a>
 <div class='hn-grid'>
 <div class='hn-day-row'>
@@ -567,7 +564,6 @@ Sort:
 <a class='hn-story-link' href='/hackernews/2026/05/08/best_stories_05082026'>
 <span class='hn-row-type hn-type-best'>Daily Best</span>
 <span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>16</b> <span class="hn-row-sep">·</span> Security <b>12</b></span>
-<span class='hn-podcast-badge' title='Podcast available'>&#x1F3A7;</span>
 </a>
 <a class='hn-story-link' href='/hackernews/2026/05/08/top_stories_05082026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
@@ -581,7 +577,6 @@ Sort:
 <a class='hn-story-link' href='/hackernews/2026/05/07/best_stories_05072026'>
 <span class='hn-row-type hn-type-best'>Daily Best</span>
 <span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>14</b> <span class="hn-row-sep">·</span> Business <b>12</b></span>
-<span class='hn-podcast-badge' title='Podcast available'>&#x1F3A7;</span>
 </a>
 <a class='hn-story-link' href='/hackernews/2026/05/07/top_stories_05072026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
@@ -595,7 +590,6 @@ Sort:
 <a class='hn-story-link' href='/hackernews/2026/05/06/best_stories_05062026'>
 <span class='hn-row-type hn-type-best'>Daily Best</span>
 <span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>13</b> <span class="hn-row-sep">·</span> Politics <b>8</b></span>
-<span class='hn-podcast-badge' title='Podcast available'>&#x1F3A7;</span>
 </a>
 <a class='hn-story-link' href='/hackernews/2026/05/06/top_stories_05062026'>
 <span class='hn-row-type hn-type-top'>Trending</span>

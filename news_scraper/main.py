@@ -43,7 +43,6 @@ from rss_builder import build_rss_feed
 from share_page_builder import build_share_pages
 from backup_io import write_backup_json, read_backup_json
 from tag_generator import tag_json_file
-from podcast_generator import generate_daily_podcast
 
 
 TOP_STORIES_MAX = 100  # Maximum number of top stories to keep per day
@@ -952,70 +951,6 @@ def main():
     # Build share pages for OG previews (needs repo root, not base_dir)
     build_share_pages(".")
 
-
-    # Generate podcast for best stories (only when best mode is included)
-    # Podcast only on Tue(1), Wed(2), Thu(3), Fri(4)
-    if "best" in modes_to_run:
-        podcast_enabled = cfg.get("podcast", {}).get("enabled", True)
-        skip_upload = "--skip-upload" in sys.argv
-        tz_name = cfg["timezone"]
-        content_dt = now_in_tz(tz_name) - timedelta(days=1)
-        weekday = content_dt.weekday()  # 0=Mon, 1=Tue, ..., 6=Sun
-        podcast_days = {1, 2, 3, 4}  # Tue, Wed, Thu, Fri
-        if weekday not in podcast_days:
-            print(f"[PODCAST] Skipping daily podcast — content date {content_dt.strftime('%Y-%m-%d')} "
-                  f"is {content_dt.strftime('%A')} (only Tue–Fri)")
-        elif podcast_enabled:
-            try:
-                podcast_result = generate_daily_podcast(
-                    base_dir=base_dir,
-                    target_date=content_dt,
-                    skip_upload=skip_upload,
-                )
-                if podcast_result:
-                    print(f"[PODCAST] Podcast generated: {podcast_result.get('mp3_url', '')}")
-                else:
-                    print("[PODCAST] Podcast generation returned empty result")
-            except Exception as e:
-                print(f"[WARN] Podcast generation failed (non-fatal): {e}")
-                import traceback
-                traceback.print_exc()
-            print("[EN-PODCAST] Daily English podcast generation is disabled. Weekly English podcast remains enabled.")
-            # --- Re-render best stories page & index to include podcast players ---
-            try:
-                date_dir = content_dt.strftime("%Y/%m/%d")
-                date_suffix = content_dt.strftime("%m%d%Y")
-                json_path_re = os.path.join(base_dir, date_dir, f"best_stories_{date_suffix}.json")
-                out_path_re = os.path.join(base_dir, date_dir, f"best_stories_{date_suffix}.md")
-
-                if os.path.exists(json_path_re):
-                    backup_re = read_backup_json(json_path_re)
-                    items_re = backup_re["items"]
-                    page_title_re = f"Hacker News \u2014 Daily Best ({content_dt.strftime('%Y-%m-%d')})"
-                    md_re = render_markdown(
-                        items_re,
-                        page_title=page_title_re,
-                        page_subtitle="",
-                        html_title=page_title_re,
-                    )
-                    md_re = _clean_hn_markdown(md_re)
-                    with open(out_path_re, "w", encoding="utf-8") as f:
-                        f.write(md_re)
-                    print(f"[POST-PODCAST] Re-rendered best stories page: {out_path_re}")
-
-                # Re-render index page
-                update_hackernews_index(
-                    base_dir=base_dir,
-                    index_path=index_path,
-                    max_items=30,
-                )
-                print(f"[POST-PODCAST] Re-rendered index page: {index_path}")
-            except Exception as e:
-                print(f"[WARN] Post-podcast re-render failed (non-fatal): {e}")
-                import traceback
-                traceback.print_exc()
-        else:
-            print("[PODCAST] Podcast generation disabled in config")
 
     # Clean index page
     try:

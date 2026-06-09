@@ -4,32 +4,6 @@ title: "Hacker News — Daily Best (2026-04-14)"
 ---
 <h1 class='hn-h1'>Hacker News Daily — 2026-04-14 <span class='hn-mode-badge hn-mode-best'>Daily Best</span></h1>
 <div class='hn-nav'><a class='hn-nav-btn hn-prev' href='/hackernews/2026/04/13/best_stories_04132026'>‹ Prev day</a><a class='hn-nav-btn hn-nav-index' href='/hackernews/'>← Index</a><a class='hn-nav-btn hn-next' href='/hackernews/2026/04/15/best_stories_04152026'>Next day ›</a></div>
-<div class='hn-podcast-inline'>
-<div class='hn-podcast-player'>
-<div class='hn-podcast-header'>
-<span class='hn-podcast-icon'>🎙</span>
-<div class='hn-podcast-info'>
-<p class='hn-podcast-title'>🎧 Daily Podcast (English) — April 14, 2026</p>
-<p class='hn-podcast-meta'>English Podcast · AI Generated · Nova &amp; Onyx</p>
-</div>
-</div>
-<audio class='hn-podcast-audio' controls preload='metadata'>
-<source src='https://github.com/chaowang15/chaowang15.github.io/releases/download/podcast-2026-04/hn-podcast-en-2026-04-14.mp3' type='audio/mpeg'>
-</audio>
-</div>
-<div class='hn-podcast-player'>
-<div class='hn-podcast-header'>
-<span class='hn-podcast-icon'>🎙</span>
-<div class='hn-podcast-info'>
-<p class='hn-podcast-title'>🎧 每日播客 (中文) — April 14, 2026</p>
-<p class='hn-podcast-meta'>中文播客 · AI 生成 · 晓悠 &amp; 云健</p>
-</div>
-</div>
-<audio class='hn-podcast-audio' controls preload='metadata'>
-<source src='https://github.com/chaowang15/chaowang15.github.io/releases/download/podcast-2026-04/hn-podcast-2026-04-14.mp3' type='audio/mpeg'>
-</audio>
-</div>
-</div>
 <hr class='hn-rule'/>
 <div class='hn-list'>
 <div class='hn-card' id='story-47776796' data-tags='Programming' data-hn-time='1776246079' data-hn-score='225' data-hot-score='8.57'>

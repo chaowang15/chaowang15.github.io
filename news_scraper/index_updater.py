@@ -4,7 +4,6 @@ import json
 from collections import Counter
 from dataclasses import dataclass, field
 from datetime import datetime
-from pathlib import Path
 from typing import List, Optional, Dict, Tuple
 
 BEST_JSON_RE = re.compile(r"^best_stories_(\d{8})\.json$")   # MMDDYYYY
@@ -361,157 +360,6 @@ def _collect_weekly_entries(base_dir: str) -> List[dict]:
     entries.sort(key=lambda x: x["sort_key"], reverse=True)
     return entries
 
-def _get_podcast_dates(base_dir: str) -> set:
-    """Return a set of date strings (YYYY-MM-DD) that have podcast marker files.
-
-    A podcast marker file is created by the podcast generator after a successful
-    upload: hackernews/YYYY/MM/DD/.podcast
-    """
-    dates = set()
-    for marker in Path(base_dir).rglob(".podcast"):
-        # marker path: hackernews/YYYY/MM/DD/.podcast
-        parts = marker.parts
-        try:
-            # Extract YYYY/MM/DD from path
-            idx = list(parts).index(Path(base_dir).name)
-            y, m, d = parts[idx + 1], parts[idx + 2], parts[idx + 3]
-            dates.add(f"{y}-{m}-{d}")
-        except (ValueError, IndexError):
-            pass
-    return dates
-
-
-def _parse_podcast_marker(marker_path: str) -> dict:
-    """Parse .podcast marker file and return a dict of key=value pairs."""
-    info = {}
-    try:
-        with open(marker_path, "r") as f:
-            for line in f:
-                line = line.strip()
-                if "=" in line:
-                    k, v = line.split("=", 1)
-                    info[k.strip()] = v.strip()
-    except Exception:
-        pass
-    return info
-
-
-def _get_podcast_info(base_dir: str, days: list) -> Optional[dict]:
-    """Find the latest available podcast and return its info.
-
-    Returns info for the most recent date that has a .podcast marker file.
-    Supports English + Chinese single-episode podcasts.
-    Returns dict with date, mp3 URLs, or None.
-    """
-    repo = "chaowang15/chaowang15.github.io"
-    podcast_dates = _get_podcast_dates(base_dir)
-
-    for day in days[:14]:
-        try:
-            dt = datetime.strptime(day.content_date, "%Y-%m-%d")
-        except Exception:
-            continue
-        # Only best stories have podcasts
-        has_best = any(s.story_type == "best" for s in day.stories)
-        if not has_best:
-            continue
-
-        date_tag = dt.strftime("%Y-%m-%d")
-        if date_tag not in podcast_dates:
-            continue
-
-        release_tag = f"podcast-{dt.strftime('%Y-%m')}"
-
-        # Parse marker file
-        marker_path = os.path.join(
-            base_dir, dt.strftime("%Y"), dt.strftime("%m"), dt.strftime("%d"), ".podcast"
-        )
-        marker_info = _parse_podcast_marker(marker_path)
-        female_name = marker_info.get("female", "\u6653\u6653")
-        male_name = marker_info.get("male", "\u4e91\u5e0c")
-
-        result = {
-            "date": day.content_date,
-            "date_display": dt.strftime("%B %d, %Y"),
-            "release_tag": release_tag,
-            "female_name": female_name,
-            "male_name": male_name,
-        }
-
-        # Chinese podcast (support both new single-file and legacy two-part format)
-        mp3_fn = marker_info.get("mp3", "") or marker_info.get("mp3_part1", "")
-        if mp3_fn:
-            result["mp3_url"] = f"https://github.com/{repo}/releases/download/{release_tag}/{mp3_fn}"
-
-        # English podcast
-        en_mp3_fn = marker_info.get("en_mp3", "")
-        if en_mp3_fn:
-            result["en_mp3_url"] = f"https://github.com/{repo}/releases/download/{release_tag}/{en_mp3_fn}"
-            result["en_female"] = marker_info.get("en_female", "Aria")
-            result["en_male"] = marker_info.get("en_male", "Davis")
-
-        return result
-    return None
-
-
-def _add_podcast_section(lines: list, base_dir: str, days: list):
-    """Add podcast player section to the index page.
-
-    Displays English podcast first, then Chinese podcast (single episode each).
-    """
-    podcast = _get_podcast_info(base_dir, days)
-    if not podcast:
-        return
-
-    female_name = podcast.get("female_name", "\u6653\u6653")
-    male_name = podcast.get("male_name", "\u4E91\u5E0C")
-
-    lines.append("<div class='hn-index-section hn-podcast-section'>")
-    lines.append("<h3 class='hn-section-title'>Daily Podcast <span class='hn-section-zh'>\u6BCF\u65E5\u64AD\u5BA2</span></h3>")
-
-    # --- English podcast player (shown first, above Chinese) ---
-    en_mp3_url = podcast.get("en_mp3_url", "")
-    if en_mp3_url:
-        en_female = podcast.get("en_female", "Aria")
-        en_male = podcast.get("en_male", "Davis")
-        en_title = f"HN Daily Best (English) \u2014 {podcast['date_display']}"
-
-        lines.append("<div class='hn-podcast-player'>")
-        lines.append("<div class='hn-podcast-header'>")
-        lines.append("<span class='hn-podcast-icon'>\U0001F399</span>")
-        lines.append("<div class='hn-podcast-info'>")
-        lines.append(f"<p class='hn-podcast-title'>{en_title}</p>")
-        lines.append(f"<p class='hn-podcast-meta'>English Podcast \u00B7 AI Generated \u00B7 {en_female} &amp; {en_male}</p>")
-        lines.append("</div>")
-        lines.append("</div>")
-        lines.append(f"<audio class='hn-podcast-audio' controls preload='metadata'>")
-        lines.append(f"<source src='{en_mp3_url}' type='audio/mpeg'>")
-        lines.append("Your browser does not support the audio element.")
-        lines.append("</audio>")
-        lines.append("</div>")  # hn-podcast-player
-
-    # --- Chinese podcast player (single episode) ---
-    cn_mp3_url = podcast.get("mp3_url", "")
-    if cn_mp3_url:
-        cn_title = f"HN \u6BCF\u65E5\u7CBE\u9009 (\u4E2D\u6587) \u2014 {podcast['date_display']}"
-
-        lines.append("<div class='hn-podcast-player'>")
-        lines.append("<div class='hn-podcast-header'>")
-        lines.append("<span class='hn-podcast-icon'>\U0001F399</span>")
-        lines.append("<div class='hn-podcast-info'>")
-        lines.append(f"<p class='hn-podcast-title'>{cn_title}</p>")
-        lines.append(f"<p class='hn-podcast-meta'>\u4E2D\u6587\u64AD\u5BA2 \u00B7 AI \u751F\u6210 \u00B7 {female_name} &amp; {male_name}</p>")
-        lines.append("</div>")
-        lines.append("</div>")
-        lines.append(f"<audio class='hn-podcast-audio' controls preload='metadata'>")
-        lines.append(f"<source src='{cn_mp3_url}' type='audio/mpeg'>")
-        lines.append("Your browser does not support the audio element.")
-        lines.append("</audio>")
-        lines.append("</div>")  # hn-podcast-player
-
-    lines.append("</div>")  # hn-podcast-section
-
-
 def _group_days_by_week(days: List[DayEntry]) -> List[dict]:
     """Group DayEntry list by ISO week.
 
@@ -556,20 +404,6 @@ def _group_days_by_week(days: List[DayEntry]) -> List[dict]:
     return weeks
 
 
-def _get_weekly_podcast_weeks(base_dir: str) -> set:
-    """Return a set of ISO week strings that have weekly podcast marker files."""
-    weekly_dir = os.path.join(base_dir, "weekly")
-    weeks = set()
-    if not os.path.isdir(weekly_dir):
-        return weeks
-    for fn in os.listdir(weekly_dir):
-        if fn.startswith(".podcast-"):
-            # .podcast-2026-W12 -> 2026-W12
-            iso_week = fn.replace(".podcast-", "")
-            weeks.add(iso_week)
-    return weeks
-
-
 def update_hackernews_index(
     base_dir: str = "hackernews",
     index_path: str = "hackernews/index.md",
@@ -578,12 +412,9 @@ def update_hackernews_index(
     all_days = _collect_day_entries(base_dir)
     stats = _compute_stats(all_days)
     days = all_days[:max_items]
-    _podcast_dates = _get_podcast_dates(base_dir)
-
     # Build weekly data lookups
     weekly_entries_list = _collect_weekly_entries(base_dir)
     weekly_map = {w["iso_week"]: w for w in weekly_entries_list}  # iso_week -> weekly entry
-    weekly_podcast_weeks = _get_weekly_podcast_weeks(base_dir)
 
     # Determine current ISO week
     now = datetime.now()
@@ -632,6 +463,15 @@ def update_hackernews_index(
 
     # Today's Top Stories section
     top_stories = _get_top_stories(base_dir, all_days, n=10)
+    latest_best = next(
+        (
+            (day.content_date, story.rel_url)
+            for day in all_days
+            for story in day.stories
+            if story.story_type == "best"
+        ),
+        None,
+    )
     if top_stories:
         lines.append("<div class='hn-index-section hn-top-stories-section'>")
         lines.append("<h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>\u4eca\u65e5\u5934\u6761</span> <span class='hn-hot-badge'>\U0001F525 HOT</span></h3>")
@@ -681,11 +521,11 @@ def update_hackernews_index(
             lines.append("<button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more \u25BC</button>")
         if top_stories[0].get('daily_url'):
             lines.append(f"<a class='hn-top-stories-more' href='{top_stories[0]['daily_url']}'>View all trending stories &rarr;</a>")
+        if latest_best:
+            best_date, best_url = latest_best
+            lines.append(f"<a class='hn-top-stories-more' href='{best_url}'>Latest Daily Best \u2014 {best_date} &rarr;</a>")
         lines.append("</div>")  # hn-top-stories-list
         lines.append("</div>")  # hn-top-stories-section
-
-    # Podcast section (latest available daily podcast)
-    _add_podcast_section(lines, base_dir, all_days)
 
     # ── News Archive: grouped by ISO week ──
     week_groups = _group_days_by_week(days)
@@ -715,8 +555,6 @@ def update_hackernews_index(
 
             # Check if weekly digest exists
             weekly_entry = weekly_map.get(iso_week)
-            has_weekly_podcast = iso_week in weekly_podcast_weeks
-
             # Build summary line for the <summary> header
             summary_parts = [date_range_str]
             if week_total_stories:
@@ -724,8 +562,6 @@ def update_hackernews_index(
             summary_parts.append(f"{week_day_count} days")
             if weekly_entry:
                 summary_parts.append("\U0001F4CA Weekly Digest")
-            if has_weekly_podcast:
-                summary_parts.append("\U0001F3A7")
             summary_meta = ' <span class="hn-row-sep">\u00B7</span> '.join(summary_parts)
 
             # Use <details> for collapsible; current week open by default
@@ -742,12 +578,9 @@ def update_hackernews_index(
 
             # Weekly digest link (if available)
             if weekly_entry:
-                podcast_badge = " <span class='hn-podcast-badge' title='Weekly podcast available'>&#x1F3A7;</span>" if has_weekly_podcast else ""
                 lines.append(f"<a class='hn-story-link hn-weekly-digest-link' href='{weekly_entry['url']}'>")
                 lines.append(f"<span class='hn-row-type hn-type-weekly'>Weekly Digest</span>")
                 lines.append(f"<span class='hn-row-detail'>{weekly_entry['detail']}</span>")
-                if podcast_badge:
-                    lines.append(podcast_badge)
                 lines.append("</a>")
 
             # Daily rows within this week
@@ -772,10 +605,6 @@ def update_hackernews_index(
                     lines.append(f"<span class='hn-row-type {type_class}'>{type_label}</span>")
                     if detail_html:
                         lines.append(f"<span class='hn-row-detail'>{detail_html}</span>")
-
-                    # Podcast badge for daily best
-                    if s.story_type == "best" and day.content_date in _podcast_dates:
-                        lines.append(f"<span class='hn-podcast-badge' title='Podcast available'>&#x1F3A7;</span>")
 
                     lines.append("</a>")
 
