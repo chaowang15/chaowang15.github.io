@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>111</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>16177</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>108</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>109</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-06-10</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>111</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>16198</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>108</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>109</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-06-10</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,7 +20,7 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='601' data-hn-time='1781095547'>
+<div class='hn-top-story-item' data-hn-score='871' data-hn-time='1781095547'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -28,106 +28,106 @@ Sort:
  <a class='hn-top-story-link' href='https://mohkohn.co.uk/writing/html-first/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>HTML 为先的网站让用户数一夜之间翻倍</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 22</span> <span class='hn-top-story-score'>&#9650; 601</span> <span class='hn-top-story-comments'>&#128172; 269</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Design</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 15</span> <span class='hn-top-story-score'>&#9650; 871</span> <span class='hn-top-story-comments'>&#128172; 394</span> <span class='hn-top-story-tag'>Design</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='170' data-hn-time='1781102872'>
+<div class='hn-top-story-item' data-hn-score='213' data-hn-time='1781111516'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/10/top_stories_06102026#story-48477135'>AMA: I'm Eric Ries (The Lean Startup) & Author of New Bestseller Incorruptible</a>
- <a class='hn-top-story-link' href='https://news.ycombinator.com/item?id=48477135' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/10/top_stories_06102026#story-48479452'>Claude Desktop spins up a VM without no way of stopping it</a>
+ <a class='hn-top-story-link' href='https://github.com/anthropics/claude-code/issues/29045' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>AMA：我是 Eric Ries（《精益创业》作者）及新书《Incorruptible》作者</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 13</span> <span class='hn-top-story-score'>&#9650; 170</span> <span class='hn-top-story-comments'>&#128172; 90</span> <span class='hn-top-story-tag'>Startups</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-zh'>Claude Desktop 启动虚拟机并无法停止</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 213</span> <span class='hn-top-story-comments'>&#128172; 132</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>DevOps</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='141' data-hn-time='1781104240'>
+<div class='hn-top-story-item' data-hn-score='379' data-hn-time='1781102872'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/10/top_stories_06102026#story-48477551'>US Consumer Price Index up 4.2%</a>
- <a class='hn-top-story-link' href='https://www.bls.gov/news.release/cpi.nr0.htm' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/10/top_stories_06102026#story-48477135'>I'm Eric Ries, author of "The Lean Startup" and new book "Incorruptible" – AMA</a>
+ <a class='hn-top-story-link' href='https://news.ycombinator.com/item?id=48477135' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>美国 CPI 上涨 4.2%</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 141</span> <span class='hn-top-story-comments'>&#128172; 114</span> <span class='hn-top-story-tag'>Finance</span></div>
+<div class='hn-top-story-zh'>我是《精益创业》作者 Eric Ries，新书《Incorruptible》— AMA</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.7</span> <span class='hn-top-story-score'>&#9650; 379</span> <span class='hn-top-story-comments'>&#128172; 317</span> <span class='hn-top-story-tag'>Startups</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='166' data-hn-time='1781100179'>
+<div class='hn-top-story-item' data-hn-score='96' data-hn-time='1781117120'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/10/top_stories_06102026#story-48476466'>PgDog is funded and coming to a database near you</a>
- <a class='hn-top-story-link' href='https://pgdog.dev/blog/our-funding-announcement' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/10/top_stories_06102026#story-48480852'>Anthropic's Model Naming, Extrapolated</a>
+ <a class='hn-top-story-link' href='https://samwilkinson.io/posts/2026-06-09-anthropics-model-naming-extrapolated' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>PgDog 获得融资，将进入数据库领域的开发者工具市场</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.2</span> <span class='hn-top-story-score'>&#9650; 166</span> <span class='hn-top-story-comments'>&#128172; 87</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Data</span></div>
+<div class='hn-top-story-zh'>Anthropic 模型命名的外推分析</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.1</span> <span class='hn-top-story-score'>&#9650; 96</span> <span class='hn-top-story-comments'>&#128172; 20</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='2495' data-hn-time='1781024281'>
+<div class='hn-top-story-item' data-hn-score='133' data-hn-time='1781113499'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/10/top_stories_06102026#story-48463808'>Claude Fable 5</a>
- <a class='hn-top-story-link' href='https://www.anthropic.com/news/claude-fable-5-mythos-5' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/10/top_stories_06102026#story-48479947'>Why SpaceX 2040 Revenue FCST $4.3T in highly unlikely</a>
+ <a class='hn-top-story-link' href='https://www.matteast.io/spacex-escape-velocity.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Claude Fable 5 版</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.1</span> <span class='hn-top-story-score'>&#9650; 2495</span> <span class='hn-top-story-comments'>&#128172; 1996</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>SpaceX 2040 年收入预测 4.3 万亿美元极不可能的原因</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.2</span> <span class='hn-top-story-score'>&#9650; 133</span> <span class='hn-top-story-comments'>&#128172; 126</span> <span class='hn-top-story-tag'>Space</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='146' data-hn-time='1781097772'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='204' data-hn-time='1781107777'>
 <span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/10/top_stories_06102026#story-48475938'>I Hate (Most) Keyboard 'Fn' Keys</a>
- <a class='hn-top-story-link' href='https://danq.me/2026/06/09/fn-keys/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>我讨厌（大多数）键盘 Fn 键</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.5</span> <span class='hn-top-story-score'>&#9650; 146</span> <span class='hn-top-story-comments'>&#128172; 158</span> <span class='hn-top-story-tag'>Design</span> <span class='hn-top-story-tag'>Hardware</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='41' data-hn-time='1781107777'>
-<span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/06/10/top_stories_06102026#story-48478471'>DiffusionGemma: 4x Faster Text Generation</a>
  <a class='hn-top-story-link' href='https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>DiffusionGemma：4倍更快的文本生成</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.1</span> <span class='hn-top-story-score'>&#9650; 41</span> <span class='hn-top-story-comments'>&#128172; 5</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.4</span> <span class='hn-top-story-score'>&#9650; 204</span> <span class='hn-top-story-comments'>&#128172; 44</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1072' data-hn-time='1781051341'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='81' data-hn-time='1781116564'>
+<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/10/top_stories_06102026#story-48480719'>Policy on the AI Exponential</a>
+ <a class='hn-top-story-link' href='https://darioamodei.com/post/policy-on-the-ai-exponential' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>关于 AI 指数增长的政策</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.1</span> <span class='hn-top-story-score'>&#9650; 81</span> <span class='hn-top-story-comments'>&#128172; 88</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='298' data-hn-time='1781100179'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/10/top_stories_06102026#story-48469658'>macOS Container Machines</a>
- <a class='hn-top-story-link' href='https://github.com/apple/container/blob/main/docs/container-machine.md' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/10/top_stories_06102026#story-48476466'>PgDog is funded and coming to a database near you</a>
+ <a class='hn-top-story-link' href='https://pgdog.dev/blog/our-funding-announcement' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>macOS 容器机器</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.6</span> <span class='hn-top-story-score'>&#9650; 1072</span> <span class='hn-top-story-comments'>&#128172; 373</span> <span class='hn-top-story-tag'>DevOps</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>PgDog 获得融资，将进入数据库领域的开发者工具市场</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.5</span> <span class='hn-top-story-score'>&#9650; 298</span> <span class='hn-top-story-comments'>&#128172; 159</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Data</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='65' data-hn-time='1781103666'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='2534' data-hn-time='1781024281'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/10/top_stories_06102026#story-48477400'>Apache Burr: Build reliable AI agents and applications</a>
- <a class='hn-top-story-link' href='https://burr.apache.org/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/10/top_stories_06102026#story-48463808'>Claude Fable 5</a>
+ <a class='hn-top-story-link' href='https://www.anthropic.com/news/claude-fable-5-mythos-5' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Apache Burr：构建可靠的 AI 代理与应用</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.3</span> <span class='hn-top-story-score'>&#9650; 65</span> <span class='hn-top-story-comments'>&#128172; 31</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>Claude Fable 5 版</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.7</span> <span class='hn-top-story-score'>&#9650; 2534</span> <span class='hn-top-story-comments'>&#128172; 2051</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='51' data-hn-time='1781105392'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='52' data-hn-time='1781117694'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/10/top_stories_06102026#story-48477851'>GitHub Authentication issues related to API requests</a>
- <a class='hn-top-story-link' href='https://www.githubstatus.com/incidents/fcj3088jg1wx' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/10/top_stories_06102026#story-48480978'>ΠFS</a>
+ <a class='hn-top-story-link' href='https://github.com/philipl/pifs' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>GitHub 认证问题影响 API 请求</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.2</span> <span class='hn-top-story-score'>&#9650; 51</span> <span class='hn-top-story-comments'>&#128172; 12</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>ΠFS</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.3</span> <span class='hn-top-story-score'>&#9650; 52</span> <span class='hn-top-story-comments'>&#128172; 5</span> <span class='hn-top-story-tag'>Science</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -140,7 +140,7 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 24 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-06-08 — 2026-06-10 <span class="hn-row-sep">·</span> 377 stories <span class="hn-row-sep">·</span> 3 days</span>
+<span class='hn-week-meta'>2026-06-08 — 2026-06-10 <span class="hn-row-sep">·</span> 398 stories <span class="hn-row-sep">·</span> 3 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/06/10/top_stories_06102026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>77</b> <span class="hn-row-sep">·</span> Programming <b>26</b> <span class="hn-row-sep">·</span> AI <b>18</b></span>
+<span class='hn-row-detail'>All <b>98</b> <span class="hn-row-sep">·</span> Programming <b>24</b> <span class="hn-row-sep">·</span> AI <b>23</b></span>
 </a>
 </div>
 </div>
