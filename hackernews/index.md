@@ -20,7 +20,7 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='1583' data-hn-time='1781024281'>
+<div class='hn-top-story-item' data-hn-score='2028' data-hn-time='1781024281'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -28,106 +28,106 @@ Sort:
  <a class='hn-top-story-link' href='https://www.anthropic.com/news/claude-fable-5-mythos-5' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Claude Fable 5 版</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 36</span> <span class='hn-top-story-score'>&#9650; 1583</span> <span class='hn-top-story-comments'>&#128172; 1260</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 15</span> <span class='hn-top-story-score'>&#9650; 2028</span> <span class='hn-top-story-comments'>&#128172; 1564</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='210' data-hn-time='1781039951'>
+<div class='hn-top-story-item' data-hn-score='522' data-hn-time='1781051341'>
 <span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/09/top_stories_06092026#story-48469658'>macOS Container Machines</a>
+ <a class='hn-top-story-link' href='https://github.com/apple/container/blob/main/docs/container-machine.md' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>macOS 容器机器</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 13</span> <span class='hn-top-story-score'>&#9650; 522</span> <span class='hn-top-story-comments'>&#128172; 191</span> <span class='hn-top-story-tag'>Programming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='299' data-hn-time='1781055853'>
+<span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/09/top_stories_06092026#story-48470248'>German ruling declares Google liable for false answers in AI Overviews</a>
+ <a class='hn-top-story-link' href='https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>德国法院裁定谷歌对 AI 概览的错误回答承担责任</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 10</span> <span class='hn-top-story-score'>&#9650; 299</span> <span class='hn-top-story-comments'>&#128172; 189</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Legal</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='695' data-hn-time='1781039951'>
+<span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/06/09/top_stories_06092026#story-48467896'>If Claude Fable stops helping you, you'll never know</a>
  <a class='hn-top-story-link' href='https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>如果 Claude Fable 停止帮助你，你将永远不知情</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 18</span> <span class='hn-top-story-score'>&#9650; 210</span> <span class='hn-top-story-comments'>&#128172; 101</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.3</span> <span class='hn-top-story-score'>&#9650; 695</span> <span class='hn-top-story-comments'>&#128172; 351</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='290' data-hn-time='1781030759'>
-<span class='hn-top-story-rank'>3</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/09/top_stories_06092026#story-48465675'>CEOs Who Think AI Replaces Their Employees Are Just Bad CEOs</a>
- <a class='hn-top-story-link' href='https://www.techdirt.com/2026/06/09/ceos-who-think-ai-replaces-their-employees-are-just-bad-ceos/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>认为 AI 会取代员工的 CEO 只是坏 CEO</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 10</span> <span class='hn-top-story-score'>&#9650; 290</span> <span class='hn-top-story-comments'>&#128172; 124</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='244' data-hn-time='1781029303'>
-<span class='hn-top-story-rank'>4</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/09/top_stories_06092026#story-48465269'>GPT-2: Too Dangerous To Release (2019)</a>
- <a class='hn-top-story-link' href='https://naokishibuya.github.io/blog/2022-12-30-gpt-2-2019/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>GPT-2 2019：不适合公开发布</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.6</span> <span class='hn-top-story-score'>&#9650; 244</span> <span class='hn-top-story-comments'>&#128172; 95</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='100' data-hn-time='1781038254'>
+<div class='hn-top-story-item' data-hn-score='573' data-hn-time='1781030759'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/09/top_stories_06092026#story-48467570'>Alpine Linux 3.24.0 Released</a>
- <a class='hn-top-story-link' href='https://alpinelinux.org/posts/Alpine-3.24.0-released.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/09/top_stories_06092026#story-48465675'>CEOs who think AI replaces their employees are just bad CEOs</a>
+ <a class='hn-top-story-link' href='https://www.techdirt.com/2026/06/09/ceos-who-think-ai-replaces-their-employees-are-just-bad-ceos/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Alpine Linux 3.24.0 发布</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.0</span> <span class='hn-top-story-score'>&#9650; 100</span> <span class='hn-top-story-comments'>&#128172; 18</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>DevOps</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>认为 AI 会取代员工的 CEO 只是坏 CEO</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.2</span> <span class='hn-top-story-score'>&#9650; 573</span> <span class='hn-top-story-comments'>&#128172; 225</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='393' data-hn-time='1781018506'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='23' data-hn-time='1781070607'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/09/top_stories_06092026#story-48462308'>FCC wants to kill burner phones by forcing telecoms to get all customers' IDs</a>
- <a class='hn-top-story-link' href='https://www.404media.co/fcc-wants-to-kill-burner-phones-by-forcing-telecoms-to-get-all-customers-ids/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/09/top_stories_06092026#story-48471970'>Google Chrome is killing all uBlock Origin bypasses, Edge, Opera to follow</a>
+ <a class='hn-top-story-link' href='https://www.neowin.net/news/google-chrome-is-killing-all-ublock-origin-bypasses-microsoft-edge-opera-to-follow/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>FCC 想通过强制电信商获取所有用户身份证信息来淘汰 burner phones</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.4</span> <span class='hn-top-story-score'>&#9650; 393</span> <span class='hn-top-story-comments'>&#128172; 243</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>谷歌浏览器将阻断所有 uBlock Origin 绕过方式，Edge 与 Opera 将跟进</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.3</span> <span class='hn-top-story-score'>&#9650; 23</span> <span class='hn-top-story-comments'>&#128172; 12</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='333' data-hn-time='1781021590'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='296' data-hn-time='1781038860'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/09/top_stories_06092026#story-48463024'>Apple decided not to roll out Siri in EU after denied request for exemption</a>
- <a class='hn-top-story-link' href='https://www.reuters.com/business/apple-failed-make-its-ai-tool-comply-eu-regulations-eu-commission-says-2026-06-09/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>苹果因豁免申请被否，决定在欧盟不推出 Siri</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.4</span> <span class='hn-top-story-score'>&#9650; 333</span> <span class='hn-top-story-comments'>&#128172; 558</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='84' data-hn-time='1781038860'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/09/top_stories_06092026#story-48467705'>Upcoming breaking changes for NPM v12</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/09/top_stories_06092026#story-48467705'>Upcoming breaking changes for npm v12</a>
  <a class='hn-top-story-link' href='https://github.blog/changelog/2026-06-09-upcoming-breaking-changes-for-npm-v12/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>NPM v12 即将实施的重大变更</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.3</span> <span class='hn-top-story-score'>&#9650; 84</span> <span class='hn-top-story-comments'>&#128172; 26</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.8</span> <span class='hn-top-story-score'>&#9650; 296</span> <span class='hn-top-story-comments'>&#128172; 99</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='730' data-hn-time='1781001974'>
-<span class='hn-top-story-rank'>9</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='825' data-hn-time='1781001974'>
+<span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/06/09/top_stories_06092026#story-48459294'>Making Graphics Like it's 1993</a>
  <a class='hn-top-story-link' href='https://staniks.github.io/articles/catlantean-3d-blog-1/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>像1993年一样绘制图形</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.0</span> <span class='hn-top-story-score'>&#9650; 730</span> <span class='hn-top-story-comments'>&#128172; 121</span> <span class='hn-top-story-tag'>Design</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 825</span> <span class='hn-top-story-comments'>&#128172; 140</span> <span class='hn-top-story-tag'>Design</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='126' data-hn-time='1781032905'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='155' data-hn-time='1781048656'>
+<span class='hn-top-story-rank'>9</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/09/top_stories_06092026#story-48469347'>It's death</a>
+ <a class='hn-top-story-link' href='https://jesseduffield.com/ITS-DEATH/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>死亡降临</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 155</span> <span class='hn-top-story-comments'>&#128172; 48</span> <span class='hn-top-story-tag'>Programming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='510' data-hn-time='1781018506'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/09/top_stories_06092026#story-48466277'>Ultrafast machine learning on FPGAs via Kolmogorov-Arnold Networks</a>
- <a class='hn-top-story-link' href='https://aarushgupta.io/posts/kan-fpga/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/09/top_stories_06092026#story-48462308'>FCC wants to kill burner phones by forcing telecoms to get all customers' IDs</a>
+ <a class='hn-top-story-link' href='https://www.404media.co/fcc-wants-to-kill-burner-phones-by-forcing-telecoms-to-get-all-customers-ids/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Kolmogorov-Arnold 网络在 FPGA 上的超快 ML</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.2</span> <span class='hn-top-story-score'>&#9650; 126</span> <span class='hn-top-story-comments'>&#128172; 15</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>FCC 想通过强制电信商获取所有用户身份证信息来淘汰 burner phones</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 510</span> <span class='hn-top-story-comments'>&#128172; 325</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/06/09/top_stories_06092026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>30</b> <span class="hn-row-sep">·</span> Programming <b>30</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>32</b> <span class="hn-row-sep">·</span> Programming <b>32</b></span>
 </a>
 </div>
 </div>
