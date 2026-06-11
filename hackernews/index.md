@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='406' data-hn-time='1781117694'>
+<div class='hn-top-story-item' data-hn-score='318' data-hn-time='1781136608'>
 <span class='hn-top-story-rank'>1</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/10/top_stories_06102026#story-48484584'>AI agent runs amok in Fedora and elsewhere</a>
+ <a class='hn-top-story-link' href='https://lwn.net/SubscriberLink/1077035/c7e7c14fbd60fae9/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Fedora 等系统中 AI 代理失控</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.6</span> <span class='hn-top-story-score'>&#9650; 318</span> <span class='hn-top-story-comments'>&#128172; 94</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Open Source</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='671' data-hn-time='1781117694'>
+<span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/06/10/top_stories_06102026#story-48480978'>πFS</a>
  <a class='hn-top-story-link' href='https://github.com/philipl/pifs' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>ΠFS</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 14</span> <span class='hn-top-story-score'>&#9650; 406</span> <span class='hn-top-story-comments'>&#128172; 103</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.9</span> <span class='hn-top-story-score'>&#9650; 671</span> <span class='hn-top-story-comments'>&#128172; 149</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='316' data-hn-time='1781118410'>
-<span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-item' data-hn-score='52' data-hn-time='1781155002'>
+<span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/10/top_stories_06102026#story-48481126'>Farmer donates land for a park, city sells it for $10M as data center land</a>
- <a class='hn-top-story-link' href='https://www.tomshardware.com/tech-industry/farmer-donates-land-for-a-park-city-sells-it-for-data-center-development-usd10-gift-became-usd10m-for-city-government-with-usd30m-tax-expected-over-next-decade' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/10/top_stories_06102026#story-48486486'>OpenAI mulls slashing prices as it competes with Anthropic for users</a>
+ <a class='hn-top-story-link' href='https://www.cnbc.com/2026/06/11/openai-mulls-slashing-prices-ahead-of-competition-from-anthropic-wsj.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>农民捐地建公园，市政府却以 1000 万美元出售给数据中心开发</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 316</span> <span class='hn-top-story-comments'>&#128172; 110</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>OpenAI 评估降价以对抗 Anthropic 的竞争</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.5</span> <span class='hn-top-story-score'>&#9650; 52</span> <span class='hn-top-story-comments'>&#128172; 51</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='955' data-hn-time='1781095547'>
-<span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-item' data-hn-score='1071' data-hn-time='1781095547'>
+<span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/06/10/top_stories_06102026#story-48475483'>Building an HTML-first site doubled our users overnight</a>
  <a class='hn-top-story-link' href='https://mohkohn.co.uk/writing/html-first/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>HTML 为先的网站让用户数一夜之间翻倍</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 10</span> <span class='hn-top-story-score'>&#9650; 955</span> <span class='hn-top-story-comments'>&#128172; 440</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Design</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.9</span> <span class='hn-top-story-score'>&#9650; 1071</span> <span class='hn-top-story-comments'>&#128172; 481</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Design</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='255' data-hn-time='1781117120'>
-<span class='hn-top-story-rank'>4</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/10/top_stories_06102026#story-48480852'>Anthropic's model naming, extrapolated</a>
- <a class='hn-top-story-link' href='https://samwilkinson.io/posts/2026-06-09-anthropics-model-naming-extrapolated' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Anthropic 模型命名的外推分析</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.6</span> <span class='hn-top-story-score'>&#9650; 255</span> <span class='hn-top-story-comments'>&#128172; 72</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='312' data-hn-time='1781111516'>
+<div class='hn-top-story-item' data-hn-score='614' data-hn-time='1781102872'>
 <span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/10/top_stories_06102026#story-48479452'>Claude Desktop spawns 1.8 GB Hyper-V VM on every launch, even for chat-only use</a>
- <a class='hn-top-story-link' href='https://github.com/anthropics/claude-code/issues/29045' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Claude Desktop 启动时会开启一个 1.8 GB 的 Hyper-V 虚拟机</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.2</span> <span class='hn-top-story-score'>&#9650; 312</span> <span class='hn-top-story-comments'>&#128172; 213</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Startups</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='487' data-hn-time='1781102872'>
-<span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/06/10/top_stories_06102026#story-48477135'>I'm Eric Ries, author of "The Lean Startup" and new book "Incorruptible" – AMA</a>
  <a class='hn-top-story-link' href='https://news.ycombinator.com/item?id=48477135' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>我是《精益创业》作者 Eric Ries，新书《Incorruptible》— AMA</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.0</span> <span class='hn-top-story-score'>&#9650; 487</span> <span class='hn-top-story-comments'>&#128172; 385</span> <span class='hn-top-story-tag'>Startups</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 614</span> <span class='hn-top-story-comments'>&#128172; 469</span> <span class='hn-top-story-tag'>Startups</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='121' data-hn-time='1781121921'>
-<span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/10/top_stories_06102026#story-48481857'>Raspberry Pi 5 – 16 GB, $350</a>
- <a class='hn-top-story-link' href='https://www.adafruit.com/product/6125?src=raspberrypi' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>树莓派 5：16GB 内存，售价 350 美元</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.1</span> <span class='hn-top-story-score'>&#9650; 121</span> <span class='hn-top-story-comments'>&#128172; 142</span> <span class='hn-top-story-tag'>Hardware</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='268' data-hn-time='1781107777'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/10/top_stories_06102026#story-48478471'>DiffusionGemma: 4x Faster Text Generation</a>
- <a class='hn-top-story-link' href='https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>DiffusionGemma：4倍更快的文本生成</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.0</span> <span class='hn-top-story-score'>&#9650; 268</span> <span class='hn-top-story-comments'>&#128172; 67</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='2545' data-hn-time='1781024281'>
-<span class='hn-top-story-rank'>9</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='2562' data-hn-time='1781024281'>
+<span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/06/10/top_stories_06102026#story-48463808'>Claude Fable 5</a>
  <a class='hn-top-story-link' href='https://www.anthropic.com/news/claude-fable-5-mythos-5' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Claude Fable 5 版</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.9</span> <span class='hn-top-story-score'>&#9650; 2545</span> <span class='hn-top-story-comments'>&#128172; 2073</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 2562</span> <span class='hn-top-story-comments'>&#128172; 2098</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='361' data-hn-time='1781100179'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='316' data-hn-time='1781118410'>
+<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/10/top_stories_06102026#story-48481126'>Farmer donates land for a park, city sells it for $10M as data center land</a>
+ <a class='hn-top-story-link' href='https://www.tomshardware.com/tech-industry/farmer-donates-land-for-a-park-city-sells-it-for-data-center-development-usd10-gift-became-usd10m-for-city-government-with-usd30m-tax-expected-over-next-decade' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>农民捐地建公园，市政府却以 1000 万美元出售给数据中心开发</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 316</span> <span class='hn-top-story-comments'>&#128172; 110</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Politics</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='393' data-hn-time='1781111516'>
+<span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/10/top_stories_06102026#story-48479452'>Claude Desktop spawns 1.8 GB Hyper-V VM on every launch, even for chat-only use</a>
+ <a class='hn-top-story-link' href='https://github.com/anthropics/claude-code/issues/29045' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Claude Desktop 启动时会开启一个 1.8 GB 的 Hyper-V 虚拟机</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 393</span> <span class='hn-top-story-comments'>&#128172; 276</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Startups</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='299' data-hn-time='1781117120'>
+<span class='hn-top-story-rank'>9</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/10/top_stories_06102026#story-48480852'>Anthropic's model naming, extrapolated</a>
+ <a class='hn-top-story-link' href='https://samwilkinson.io/posts/2026-06-09-anthropics-model-naming-extrapolated' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Anthropic 模型命名的外推分析</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 299</span> <span class='hn-top-story-comments'>&#128172; 87</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='363' data-hn-time='1781109720'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/10/top_stories_06102026#story-48476466'>PgDog is funded and coming to a database near you</a>
- <a class='hn-top-story-link' href='https://pgdog.dev/blog/our-funding-announcement' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/10/top_stories_06102026#story-48478969'>Cybersecurity researchers aren't happy about the guardrails on Anthropic's Fable</a>
+ <a class='hn-top-story-link' href='https://techcrunch.com/2026/06/10/cybersecurity-researchers-arent-happy-about-the-guardrails-on-anthropics-fable/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>PgDog 获得融资，将进入数据库领域的开发者工具市场</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.6</span> <span class='hn-top-story-score'>&#9650; 361</span> <span class='hn-top-story-comments'>&#128172; 182</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Data</span></div>
+<div class='hn-top-story-zh'>网络安全研究人员对 Anthropic 的 Fable 防护边界不满</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 363</span> <span class='hn-top-story-comments'>&#128172; 329</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/06/10/top_stories_06102026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>24</b> <span class="hn-row-sep">·</span> AI <b>24</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>28</b> <span class="hn-row-sep">·</span> Programming <b>25</b></span>
 </a>
 </div>
 </div>
