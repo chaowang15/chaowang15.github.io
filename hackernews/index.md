@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>113</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>16478</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>110</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>111</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-06-12</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>113</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>16499</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>110</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>111</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-06-12</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='207' data-hn-time='1781274809'>
+<div class='hn-top-story-item' data-hn-score='436' data-hn-time='1781277324'>
 <span class='hn-top-story-rank'>1</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/12/top_stories_06122026#story-48504697'>A Call to Action: Stop the FCC's KYC Regime</a>
- <a class='hn-top-story-link' href='https://blog.lopp.net/call-to-action-stop-the-fcc-kyc-regime/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>停止 FCC 的 KYC 制度：行动号召</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 16</span> <span class='hn-top-story-score'>&#9650; 207</span> <span class='hn-top-story-comments'>&#128172; 128</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='1231' data-hn-time='1781239373'>
-<span class='hn-top-story-rank'>2</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/12/top_stories_06122026#story-48500012'>AI agent bankrupted their operator while trying to scan DN42</a>
- <a class='hn-top-story-link' href='https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>AI代理在尝试扫描DN42时让运营商破产</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 1231</span> <span class='hn-top-story-comments'>&#128172; 447</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='155' data-hn-time='1781272275'>
-<span class='hn-top-story-rank'>3</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/12/top_stories_06122026#story-48504063'>WASI 0.3.0 Released</a>
- <a class='hn-top-story-link' href='https://github.com/WebAssembly/WASI/releases/tag/v0.3.0' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>WASI 0.3.0 发布</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.8</span> <span class='hn-top-story-score'>&#9650; 155</span> <span class='hn-top-story-comments'>&#128172; 58</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Security</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='278' data-hn-time='1781260970'>
-<span class='hn-top-story-rank'>4</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/12/top_stories_06122026#story-48502347'>Kimi K2.7-Code: open-source coding model with better token efficiency</a>
- <a class='hn-top-story-link' href='https://huggingface.co/moonshotai/Kimi-K2.7-Code' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Kimi K2.7-Code：开源编码模型，令牌效率更高</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.5</span> <span class='hn-top-story-score'>&#9650; 278</span> <span class='hn-top-story-comments'>&#128172; 141</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Programming</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='61' data-hn-time='1781277324'>
-<span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/06/12/top_stories_06122026#story-48505231'>CRISPR tech selectively shreds cancer cells, including "undruggable" cancers</a>
  <a class='hn-top-story-link' href='https://innovativegenomics.org/news/crispr-technique-selectively-shreds-cancer-cells/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>CRISPR 技术选择性摧毁癌细胞，包括“难以药物治疗”的癌症</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.3</span> <span class='hn-top-story-score'>&#9650; 61</span> <span class='hn-top-story-comments'>&#128172; 11</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Health</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 14</span> <span class='hn-top-story-score'>&#9650; 436</span> <span class='hn-top-story-comments'>&#128172; 116</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Health</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1290' data-hn-time='1781218915'>
+<div class='hn-top-story-item' data-hn-score='135' data-hn-time='1781286800'>
+<span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/12/top_stories_06122026#story-48507282'>I Am Not a Reverse Centaur</a>
+ <a class='hn-top-story-link' href='https://blog.miguelgrinberg.com/post/i-am-not-a-reverse-centaur' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>我不是反向半人马</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 10</span> <span class='hn-top-story-score'>&#9650; 135</span> <span class='hn-top-story-comments'>&#128172; 91</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='113' data-hn-time='1781286766'>
+<span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/12/top_stories_06122026#story-48507278'>"Don't You Just Upload It to ChatGPT?"</a>
+ <a class='hn-top-story-link' href='https://correresmidestino.com/dont-you-just-upload-it-to-chatgpt/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>你难道就把它上传给 ChatGPT 吗？</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.3</span> <span class='hn-top-story-score'>&#9650; 113</span> <span class='hn-top-story-comments'>&#128172; 109</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='1335' data-hn-time='1781239373'>
+<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/12/top_stories_06122026#story-48500012'>AI agent bankrupted their operator while trying to scan DN42</a>
+ <a class='hn-top-story-link' href='https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>AI代理在尝试扫描DN42时让运营商破产</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.8</span> <span class='hn-top-story-score'>&#9650; 1335</span> <span class='hn-top-story-comments'>&#128172; 481</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='278' data-hn-time='1781274809'>
+<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/12/top_stories_06122026#story-48504697'>A Call to Action: Stop the FCC's KYC Regime</a>
+ <a class='hn-top-story-link' href='https://blog.lopp.net/call-to-action-stop-the-fcc-kyc-regime/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>停止 FCC 的 KYC 制度：行动号召</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.3</span> <span class='hn-top-story-score'>&#9650; 278</span> <span class='hn-top-story-comments'>&#128172; 181</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='64' data-hn-time='1781289445'>
 <span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/12/top_stories_06122026#story-48507783'>I Won't Buy You a Coffee</a>
+ <a class='hn-top-story-link' href='https://hakkerman.eu/blog/i-wont-buy-you-a-coffee/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>我不会给你买咖啡</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.6</span> <span class='hn-top-story-score'>&#9650; 64</span> <span class='hn-top-story-comments'>&#128172; 58</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Finance</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='100' data-hn-time='1781285695'>
+<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/12/top_stories_06122026#story-48507020'>How to setup a local coding agent on macOS</a>
+ <a class='hn-top-story-link' href='https://ikyle.me/blog/2026/how-to-setup-a-local-coding-agent-on-macos' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>在 macOS 上设置本地编码代理</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.5</span> <span class='hn-top-story-score'>&#9650; 100</span> <span class='hn-top-story-comments'>&#128172; 35</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='28' data-hn-time='1781293629'>
+<span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/12/top_stories_06122026#story-48508649'>Kagi Magic</a>
+ <a class='hn-top-story-link' href='https://kagi.com/magic' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Kagi Magic</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.9</span> <span class='hn-top-story-score'>&#9650; 28</span> <span class='hn-top-story-comments'>&#128172; 4</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1403' data-hn-time='1781218915'>
+<span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/06/12/top_stories_06122026#story-48497609'>If you are asking for human attention, demonstrate human effort</a>
  <a class='hn-top-story-link' href='https://tombedor.dev/human-attention-and-human-effort/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>如果你需要人类的注意力，就要展示人类的努力</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.0</span> <span class='hn-top-story-score'>&#9650; 1290</span> <span class='hn-top-story-comments'>&#128172; 415</span> <span class='hn-top-story-tag'>Career</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.9</span> <span class='hn-top-story-score'>&#9650; 1403</span> <span class='hn-top-story-comments'>&#128172; 442</span> <span class='hn-top-story-tag'>Design</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='99' data-hn-time='1781271623'>
-<span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/12/top_stories_06122026#story-48503940'>European sunscreens are safer than American (2024)</a>
- <a class='hn-top-story-link' href='https://www.ms.now/opinion/msnbc-opinion/sunscreen-united-states-fda-ingredients-rcna153526' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>欧洲防晒霜比美国更安全（2024）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.2</span> <span class='hn-top-story-score'>&#9650; 99</span> <span class='hn-top-story-comments'>&#128172; 49</span> <span class='hn-top-story-tag'>Health</span> <span class='hn-top-story-tag'>Politics</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='196' data-hn-time='1781262702'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/12/top_stories_06122026#story-48502601'>Ryanair dark UX patterns summer 2026 refresher</a>
- <a class='hn-top-story-link' href='https://blog.osull.com/2026/06/12/ryanair-dark-ux-patterns-summer-2026-refresher/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>瑞安航空夏季 2026 暗黑 UX 模式回顾</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.1</span> <span class='hn-top-story-score'>&#9650; 196</span> <span class='hn-top-story-comments'>&#128172; 157</span> <span class='hn-top-story-tag'>Design</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Politics</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='47' data-hn-time='1781275718'>
-<span class='hn-top-story-rank'>9</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/12/top_stories_06122026#story-48504912'>Slightly reducing the sloppiness of AI generated front end</a>
- <a class='hn-top-story-link' href='https://envs.net/~volpe/blog/posts/reduce-slop.html' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>稍微降低 AI 生成前端的随意性</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 47</span> <span class='hn-top-story-comments'>&#128172; 25</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='679' data-hn-time='1781226411'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='202' data-hn-time='1781272275'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/12/top_stories_06122026#story-48498573'>Claude Fable is relentlessly proactive</a>
- <a class='hn-top-story-link' href='https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/12/top_stories_06122026#story-48504063'>WASI 0.3</a>
+ <a class='hn-top-story-link' href='https://bytecodealliance.org/articles/WASI-0.3' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Claude Fable 的强力主动性</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 679</span> <span class='hn-top-story-comments'>&#128172; 565</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>WASI 0.3 版本</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.5</span> <span class='hn-top-story-score'>&#9650; 202</span> <span class='hn-top-story-comments'>&#128172; 82</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -140,7 +140,7 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 24 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-06-08 — 2026-06-12 <span class="hn-row-sep">·</span> 678 stories <span class="hn-row-sep">·</span> 5 days</span>
+<span class='hn-week-meta'>2026-06-08 — 2026-06-12 <span class="hn-row-sep">·</span> 699 stories <span class="hn-row-sep">·</span> 5 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/06/12/top_stories_06122026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>78</b> <span class="hn-row-sep">·</span> AI <b>17</b> <span class="hn-row-sep">·</span> Programming <b>17</b></span>
+<span class='hn-row-detail'>All <b>99</b> <span class="hn-row-sep">·</span> AI <b>22</b> <span class="hn-row-sep">·</span> Programming <b>21</b></span>
 </a>
 </div>
 </div>
