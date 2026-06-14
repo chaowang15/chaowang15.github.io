@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>115</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>16750</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>112</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>113</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-06-14</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>115</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>16778</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>112</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>113</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-06-14</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='87' data-hn-time='1781417229'>
+<div class='hn-top-story-item' data-hn-score='94' data-hn-time='1781448663'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/14/top_stories_06142026#story-48524620'>Don't trust large context windows</a>
- <a class='hn-top-story-link' href='https://garrit.xyz/posts/2026-05-06-dont-trust-large-context-windows' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/14/top_stories_06142026#story-48527766'>UK set to announce social media ban for under-16s</a>
+ <a class='hn-top-story-link' href='https://www.manchestereveningnews.co.uk/news/uk-news/uk-set-announce-social-media-34119132' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>别信任大型上下文窗口</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.8</span> <span class='hn-top-story-score'>&#9650; 87</span> <span class='hn-top-story-comments'>&#128172; 68</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>英国拟宣布对未满16岁用户的社交媒体使用限制</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 13</span> <span class='hn-top-story-score'>&#9650; 94</span> <span class='hn-top-story-comments'>&#128172; 115</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='265' data-hn-time='1781398186'>
+<div class='hn-top-story-item' data-hn-score='63' data-hn-time='1781448269'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/14/top_stories_06142026#story-48523080'>Honda Civics and the Evil Valet</a>
- <a class='hn-top-story-link' href='https://juniperspring.org/posts/honda-evil-valet/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/14/top_stories_06142026#story-48527700'>No, everyone is not using AI for everything</a>
+ <a class='hn-top-story-link' href='https://gabrielweinberg.com/p/people-are-consuming-ai-like-they' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>本田思域与邪恶的代客泊车</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 265</span> <span class='hn-top-story-comments'>&#128172; 43</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>并非人人都把 AI 用到极致</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.1</span> <span class='hn-top-story-score'>&#9650; 63</span> <span class='hn-top-story-comments'>&#128172; 27</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='687' data-hn-time='1781369869'>
+<div class='hn-top-story-item' data-hn-score='183' data-hn-time='1781437848'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/14/top_stories_06142026#story-48519092'>Amazon CEO's talks with U.S. officials triggered crackdown on Anthropic models</a>
- <a class='hn-top-story-link' href='https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578?st=Yct6gx&reflink=desktopwebshare_permalink' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/14/top_stories_06142026#story-48526360'>How to Earn a Billion Dollars</a>
+ <a class='hn-top-story-link' href='https://paulgraham.com/earn.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>亚马逊 CEO 与美国官员的会谈推动对 Anthropic 模型的打压</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 687</span> <span class='hn-top-story-comments'>&#128172; 501</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-zh'>如何赚取十亿美元</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.3</span> <span class='hn-top-story-score'>&#9650; 183</span> <span class='hn-top-story-comments'>&#128172; 469</span> <span class='hn-top-story-tag'>Startups</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='108' data-hn-time='1781412831'>
+<div class='hn-top-story-item' data-hn-score='56' data-hn-time='1781447917'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/14/top_stories_06142026#story-48524293'>Phoenix LiveView 1.2 Released</a>
- <a class='hn-top-story-link' href='https://phoenixframework.org/blog/phoenix-liveview-1-2-released' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/14/top_stories_06142026#story-48527634'>Rio de Janeiro's city government model Rio3.5 beats Qwen3.7 in recent benchmarks</a>
+ <a class='hn-top-story-link' href='https://twitter.com/zenmagnets/status/2065796012820848699' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Phoenix LiveView 1.2 发布</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 108</span> <span class='hn-top-story-comments'>&#128172; 25</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Web</span></div>
+<div class='hn-top-story-zh'>里约市政府模型 Rio3.5 在基准测试中超越 Qwen3.7</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.8</span> <span class='hn-top-story-score'>&#9650; 56</span> <span class='hn-top-story-comments'>&#128172; 15</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='821' data-hn-time='1781358896'>
+<div class='hn-top-story-item' data-hn-score='55' data-hn-time='1781448033'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/14/top_stories_06142026#story-48517377'>Noise infusion banned from statistical products published by Census Bureau</a>
- <a class='hn-top-story-link' href='https://desfontain.es/blog/banning-noise.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/14/top_stories_06142026#story-48527658'>A 'cold blob' in the Atlantic could be a sign of AMOC shutdown – CNN</a>
+ <a class='hn-top-story-link' href='https://www.cnn.com/2026/06/12/climate/cold-blob-atlantic-amoc-ocean-circulation' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>人口普查局发布的统计产品禁止噪声注入</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 821</span> <span class='hn-top-story-comments'>&#128172; 509</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>大西洋出现‘冷斑’，可能预示 AMOC 关闭</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.8</span> <span class='hn-top-story-score'>&#9650; 55</span> <span class='hn-top-story-comments'>&#128172; 36</span> <span class='hn-top-story-tag'>Science</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='579' data-hn-time='1781367511'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='117' data-hn-time='1781440711'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/14/top_stories_06142026#story-48518684'>GLM 5.2 Is Out</a>
- <a class='hn-top-story-link' href='https://twitter.com/jietang/status/2065784751345287314' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/14/top_stories_06142026#story-48526661'>The Birth and Death of JavaScript (2014)</a>
+ <a class='hn-top-story-link' href='https://www.destroyallsoftware.com/talks/the-birth-and-death-of-javascript' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>GLM 5.2 已发布</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 579</span> <span class='hn-top-story-comments'>&#128172; 314</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>JavaScript 的诞生与消亡（2014）</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.0</span> <span class='hn-top-story-score'>&#9650; 117</span> <span class='hn-top-story-comments'>&#128172; 60</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='117' data-hn-time='1781408610'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='36' data-hn-time='1781447394'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/14/top_stories_06142026#story-48523992'>Free SQL→ER diagram tool, runs in the browser, nothing uploaded</a>
- <a class='hn-top-story-link' href='https://sqltoerdiagram.com/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/14/top_stories_06142026#story-48527533'>Extinction-Level Capitalism</a>
+ <a class='hn-top-story-link' href='https://matthewbutterick.com/extinction-level-capitalism.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>浏览器端免费 SQL→ER 图工具，数据不上传</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.7</span> <span class='hn-top-story-score'>&#9650; 117</span> <span class='hn-top-story-comments'>&#128172; 24</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Data</span></div>
+<div class='hn-top-story-zh'>灭绝级资本主义</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 36</span> <span class='hn-top-story-comments'>&#128172; 11</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='220' data-hn-time='1781392925'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='42' data-hn-time='1781445695'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/14/top_stories_06142026#story-48522486'>ReactOS (FOSS "Windows") achieves 3D-accelerated Half-Life on real hardware</a>
- <a class='hn-top-story-link' href='https://www.phoronix.com/news/ReactOS-Running-Half-Life' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/14/top_stories_06142026#story-48527297'>KPMG pulls report on AI usage due to apparent hallucinations</a>
+ <a class='hn-top-story-link' href='https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>ReactOS 在真实硬件上实现 3D 加速的 Half-Life</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 220</span> <span class='hn-top-story-comments'>&#128172; 31</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Gaming</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>KPMG 因 AI 出现幻觉现象而撤回报告</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.7</span> <span class='hn-top-story-score'>&#9650; 42</span> <span class='hn-top-story-comments'>&#128172; 3</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Legal</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='89' data-hn-time='1781410725'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='48' data-hn-time='1781444588'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/14/top_stories_06142026#story-48524135'>Pac-Man, but you're the ghost</a>
- <a class='hn-top-story-link' href='https://garrit.xyz/posts/2026-06-13-pac-man-but-you-re-the-ghost' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/14/top_stories_06142026#story-48527145'>Caddy compatibility for zeroserve: 3x throughput and 70% lower latency</a>
+ <a class='hn-top-story-link' href='https://su3.io/posts/zeroserve-caddy-compat' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>吃豆人：你来扮演鬼魂</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 89</span> <span class='hn-top-story-comments'>&#128172; 40</span> <span class='hn-top-story-tag'>Gaming</span> <span class='hn-top-story-tag'>Design</span></div>
+<div class='hn-top-story-zh'>Caddy 与 zeroserve 的兼容性提升：吞吐量提升三倍、延迟降低 70%</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.7</span> <span class='hn-top-story-score'>&#9650; 48</span> <span class='hn-top-story-comments'>&#128172; 11</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>DevOps</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='711' data-hn-time='1781350820'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='35' data-hn-time='1781446169'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/14/top_stories_06142026#story-48516251'>Every Frame Perfect</a>
- <a class='hn-top-story-link' href='https://tonsky.me/blog/every-frame-perfect/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/14/top_stories_06142026#story-48527360'>FarOutCompany</a>
+ <a class='hn-top-story-link' href='https://faroutcompany.com/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>每一帧都要完美</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.3</span> <span class='hn-top-story-score'>&#9650; 711</span> <span class='hn-top-story-comments'>&#128172; 230</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Design</span></div>
+<div class='hn-top-story-zh'>FarOutCompany</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 35</span> <span class='hn-top-story-comments'>&#128172; 3</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -140,7 +140,7 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 24 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-06-08 — 2026-06-14 <span class="hn-row-sep">·</span> 950 stories <span class="hn-row-sep">·</span> 7 days</span>
+<span class='hn-week-meta'>2026-06-08 — 2026-06-14 <span class="hn-row-sep">·</span> 978 stories <span class="hn-row-sep">·</span> 7 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/06/14/top_stories_06142026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> Programming <b>15</b> <span class="hn-row-sep">·</span> AI <b>10</b></span>
+<span class='hn-row-detail'>All <b>78</b> <span class="hn-row-sep">·</span> Programming <b>20</b> <span class="hn-row-sep">·</span> AI <b>17</b></span>
 </a>
 </div>
 </div>
