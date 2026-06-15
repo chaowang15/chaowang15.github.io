@@ -4,21 +4,43 @@
     "source": "https://news.ycombinator.com/",
     "api": "https://github.com/HackerNews/API",
     "count_requested": 50,
-    "count_written": 49,
-    "reused_same_day": 0,
-    "reused_cross_day": 32,
-    "new_llm_enriched": 17,
-    "scrape_time_display": "00:11, June 15, 2026 (PDT)",
+    "count_written": 60,
+    "reused_same_day": 38,
+    "reused_cross_day": 0,
+    "new_llm_enriched": 11,
+    "scrape_time_display": "05:30, June 15, 2026 (PDT)",
     "timezone": "America/Los_Angeles",
     "date_dir": "2026/06/15",
     "content_date": "2026-06-15",
-    "run_time_local": "00:11, June 15, 2026 (PDT)",
-    "run_time_utc": "2026-06-15 07:11:14 UTC",
+    "run_time_local": "05:30, June 15, 2026 (PDT)",
+    "run_time_utc": "2026-06-15 12:30:28 UTC",
     "incremental": true,
     "stories_max": 100,
-    "hot_score_time_utc": "2026-06-15 07:12:32 UTC"
+    "hot_score_time_utc": "2026-06-15 12:31:33 UTC"
   },
   "items": [
+    {
+      "title_en": "What the Fuck Happened to Nerds",
+      "url": "https://mrmarket.lol/what-the-fuck-happened-to-nerds/",
+      "title_zh": "书呆子到底怎么了？",
+      "created_display": "Created: Jun 15, 2026 / 01:23 PT",
+      "image_url": "https://mrmarket.lol/static/og-image.png",
+      "summary_en": "A provocative reflection on how traditional nerd culture and technical prowess have evolved—and what it means for developers and technologists in today’s platform-driven economy.",
+      "summary_zh": "本文尖锐地反思传统的书呆子文化和技术能力在如今以平台为驱动的经济中如何演变，以及这对开发者和技术人员意味着什么。",
+      "hn": {
+        "id": 48538229,
+        "type": "story",
+        "by": "vrnvu",
+        "score": 332,
+        "descendants": 217,
+        "time": 1781511832,
+        "comments_url": "https://news.ycombinator.com/item?id=48538229"
+      },
+      "hot_score": 12.67,
+      "tags": [
+        "Culture"
+      ]
+    },
     {
       "title_en": "Curl will not accept vulnerability reports during July 2026",
       "url": "https://daniel.haxx.se/blog/2026/06/15/curl-summer-of-bliss/",
@@ -31,15 +53,38 @@
         "id": 48537165,
         "type": "story",
         "by": "secret-noun",
-        "score": 171,
-        "descendants": 35,
+        "score": 500,
+        "descendants": 199,
         "time": 1781503377,
         "comments_url": "https://news.ycombinator.com/item?id=48537165"
       },
-      "hot_score": 21.43,
       "tags": [
         "Security",
         "Open Source"
+      ],
+      "hot_score": 10.65
+    },
+    {
+      "title_en": "Anthropic's Safety Superpower",
+      "url": "https://stratechery.com/2026/anthropics-safety-superpower/",
+      "title_zh": "Anthropic 的安全护城河",
+      "created_display": "Created: Jun 15, 2026 / 03:06 PT",
+      "image_url": "https://s0.wp.com/_si/?t=eyJpbWciOiJodHRwczpcL1wvaTAud3AuY29tXC9zdHJhdGVjaGVyeS5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMThcLzAzXC9jcm9wcGVkLWFuZHJvaWQtY2hyb21lLTUxMng1MTItMS5wbmc_Zml0PTUxMiUyQzUxMiZzc2w9MSIsInR4dCI6IlN0cmF0ZWNoZXJ5IGJ5IEJlbiBUaG9tcHNvbiIsInRlbXBsYXRlIjoiZWRnZSIsImZvbnQiOiIiLCJibG9nX2lkIjoxODgwNDM0MTV9.5VWck4PcKPWCTPe_HVznn3n3xsgn-G0b3d2OeiNNC7cMQ",
+      "summary_en": "Anthropic bets big on safety as a product differentiator, building guardrails, red-teaming, and policy frameworks into its AI stack. The argument is that safety-focused design may become a sustainable moat as models scale and policy risk increases; enterprises will pay a premium for reliability and governance.",
+      "summary_zh": "Anthropic 将安全性作为产品核心差异化，嵌入模型体系的守护机制、对抗性测试和治理框架。随着模型规模扩大和政策风险上升，安全设计可能成为企业愿意为之付费的护城河，优先考虑可靠性与治理。",
+      "hn": {
+        "id": 48539078,
+        "type": "story",
+        "by": "swolpers",
+        "score": 85,
+        "descendants": 55,
+        "time": 1781517995,
+        "comments_url": "https://news.ycombinator.com/item?id=48539078"
+      },
+      "hot_score": 5.8,
+      "tags": [
+        "AI",
+        "Security"
       ]
     },
     {
@@ -54,15 +99,38 @@
         "id": 48533848,
         "type": "story",
         "by": "sohkamyung",
-        "score": 475,
-        "descendants": 176,
+        "score": 689,
+        "descendants": 229,
         "time": 1781477695,
         "comments_url": "https://news.ycombinator.com/item?id=48533848"
       },
-      "hot_score": 7.13,
       "tags": [
         "Web"
-      ]
+      ],
+      "hot_score": 4.89
+    },
+    {
+      "title_en": "Apple Foundation Models",
+      "url": "https://platform.claude.com/docs/en/cli-sdks-libraries/libraries/apple-foundation-models",
+      "title_zh": "苹果基础模型",
+      "created_display": "Created: Jun 14, 2026 / 21:55 PT",
+      "image_url": "https://platform.claude.com/docs/og?locale=en&path=cli-sdks-libraries/libraries/apple-foundation-models",
+      "summary_en": "Apple releases a suite of foundation models and accompanying SDKs to enable on-device AI workflows, signaling deeper AI integration in the Apple ecosystem. The post outlines available models and APIs, and explains how developers can leverage them for tasks like vision, language, and understanding while prioritizing privacy.",
+      "summary_zh": "苹果推出一系列基础模型及配套的 SDK，旨在在设备端实现 AI 工作流，标志着苹果生态对 AI 的更深度整合。文章列出可用的模型与 API，并解释开发者如何在保护隐私的前提下，利用它们完成视觉、语言和理解等任务。",
+      "hn": {
+        "id": 48536776,
+        "type": "story",
+        "by": "MehrdadKhnzd",
+        "score": 230,
+        "descendants": 92,
+        "time": 1781499334,
+        "comments_url": "https://news.ycombinator.com/item?id=48536776"
+      },
+      "tags": [
+        "AI",
+        "Privacy"
+      ],
+      "hot_score": 3.91
     },
     {
       "title_en": "Even more batteries included with Emacs",
@@ -76,39 +144,16 @@
         "id": 48535886,
         "type": "story",
         "by": "signa11",
-        "score": 142,
-        "descendants": 25,
+        "score": 245,
+        "descendants": 57,
         "time": 1781490625,
         "comments_url": "https://news.ycombinator.com/item?id=48535886"
       },
-      "hot_score": 4.59,
       "tags": [
-        "Programming"
-      ]
-    },
-    {
-      "title_en": "Show HN: Kage – Shadow any website to a single binary for offline viewing",
-      "url": "https://github.com/tamnd/kage",
-      "title_zh": "Show HN：Kage — 将任意网站打包为离线可用的单一二进制文件",
-      "created_display": "Created: Jun 14, 2026 / 10:25 PT",
-      "image_url": "https://opengraph.githubassets.com/f83b8cc479704de4a3c8bbe1bcfd5d564f74bba6dcf58631b629015428c9bc88/tamnd/kage",
-      "summary_en": "Kage bundles a website into a single standalone binary, enabling offline viewing without a browser or network. It makes distribution and archiving of a site trivial for demos, edge devices, or offline access.",
-      "summary_zh": "Kage 将任意网站打包成一个独立的可执行文件，离线也能浏览。提高了便携性，适合离线演示、备份与边缘部署。",
-      "hn": {
-        "id": 48529990,
-        "type": "story",
-        "by": "tamnd",
-        "score": 516,
-        "descendants": 106,
-        "time": 1781457938,
-        "comments_url": "https://news.ycombinator.com/item?id=48529990"
-      },
-      "tags": [
-        "Show HN",
         "Programming",
-        "Web"
+        "Open Source"
       ],
-      "hot_score": 3.59
+      "hot_score": 2.78
     },
     {
       "title_en": "Windows 11 users are tired of MS account requirements creeping into everything",
@@ -122,37 +167,61 @@
         "id": 48533101,
         "type": "story",
         "by": "josephcsible",
-        "score": 241,
-        "descendants": 161,
+        "score": 414,
+        "descendants": 274,
         "time": 1781473332,
         "comments_url": "https://news.ycombinator.com/item?id=48533101"
       },
       "tags": [
-        "Privacy"
+        "Culture"
       ],
-      "hot_score": 2.96
+      "hot_score": 2.57
     },
     {
-      "title_en": "Not everyone is using AI for everything",
-      "url": "https://gabrielweinberg.com/p/people-are-consuming-ai-like-they",
-      "title_zh": "并非人人都把 AI 用到极致",
-      "created_display": "Created: Jun 14, 2026 / 07:44 PT",
-      "image_url": "https://substackcdn.com/image/fetch/$s_!n_r-!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F957dc207-33f4-4e66-a821-66f340c9a623_1424x1404.png",
-      "summary_en": "The piece challenges AI fever by arguing most people are not using AI for everything; adoption remains selective and task-specific. It emphasizes realistic expectations and practical limits of AI in everyday life.",
-      "summary_zh": "这篇文章对 AI 热潮提出质疑，表示大多数人并未把 AI 用来做所有事情，应用仍然是有选择性的。强调对 AI 的实际价值与局限要有清晰判断。",
+      "title_en": "Show HN: Kage – Shadow any website to a single binary for offline viewing",
+      "url": "https://github.com/tamnd/kage",
+      "title_zh": "Show HN：Kage — 将任意网站打包为离线可用的单一二进制文件",
+      "created_display": "Created: Jun 14, 2026 / 10:25 PT",
+      "image_url": "https://opengraph.githubassets.com/f83b8cc479704de4a3c8bbe1bcfd5d564f74bba6dcf58631b629015428c9bc88/tamnd/kage",
+      "summary_en": "Kage bundles a website into a single standalone binary, enabling offline viewing without a browser or network. It makes distribution and archiving of a site trivial for demos, edge devices, or offline access.",
+      "summary_zh": "Kage 将任意网站打包成一个独立的可执行文件，离线也能浏览。提高了便携性，适合离线演示、备份与边缘部署。",
       "hn": {
-        "id": 48527700,
+        "id": 48529990,
         "type": "story",
-        "by": "yegg",
-        "score": 456,
-        "descendants": 488,
-        "time": 1781448269,
-        "comments_url": "https://news.ycombinator.com/item?id=48527700"
+        "by": "tamnd",
+        "score": 594,
+        "descendants": 118,
+        "time": 1781457938,
+        "comments_url": "https://news.ycombinator.com/item?id=48529990"
       },
       "tags": [
-        "AI"
+        "Show HN",
+        "Web"
       ],
-      "hot_score": 2.39
+      "hot_score": 2.45
+    },
+    {
+      "title_en": "Openrouter Fusion API",
+      "url": "https://openrouter.ai/openrouter/fusion",
+      "title_zh": "Openrouter 融合 API",
+      "created_display": "Created: Jun 15, 2026 / 00:10 PT",
+      "image_url": "https://openrouter.ai/openrouter/fusion/opengraph-image-1oizug?6fdbbf65fb5a15d5",
+      "summary_en": "Openrouter releases a Fusion API to orchestrate multiple models and tools in a single, cohesive interface, simplifying multi-model prompts and data routing. This lowers integration friction for developers building AI-powered apps that need to combine strengths of different systems.",
+      "summary_zh": "Openrouter 发布了融合 API，用于在一个统一接口内编排多种模型和工具，简化多模型提示和数据路由。此举降低了将多种系统组合在一起构建 AI 应用的集成难度。",
+      "hn": {
+        "id": 48537641,
+        "type": "story",
+        "by": "tdchaitanya",
+        "score": 69,
+        "descendants": 25,
+        "time": 1781507457,
+        "comments_url": "https://news.ycombinator.com/item?id=48537641"
+      },
+      "hot_score": 1.88,
+      "tags": [
+        "AI",
+        "Programming"
+      ]
     },
     {
       "title_en": "How to earn a billion dollars",
@@ -166,16 +235,62 @@
         "id": 48526360,
         "type": "story",
         "by": "kingstoned",
-        "score": 584,
-        "descendants": 1593,
+        "score": 655,
+        "descendants": 1683,
         "time": 1781437848,
         "comments_url": "https://news.ycombinator.com/item?id=48526360"
       },
       "tags": [
-        "Startups",
-        "Business"
+        "Business",
+        "Startups"
       ],
-      "hot_score": 2.36
+      "hot_score": 1.77
+    },
+    {
+      "title_en": "Not everyone is using AI for everything",
+      "url": "https://gabrielweinberg.com/p/people-are-consuming-ai-like-they",
+      "title_zh": "并非人人都把 AI 用到极致",
+      "created_display": "Created: Jun 14, 2026 / 07:44 PT",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!n_r-!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F957dc207-33f4-4e66-a821-66f340c9a623_1424x1404.png",
+      "summary_en": "The piece challenges AI fever by arguing most people are not using AI for everything; adoption remains selective and task-specific. It emphasizes realistic expectations and practical limits of AI in everyday life.",
+      "summary_zh": "这篇文章对 AI 热潮提出质疑，表示大多数人并未把 AI 用来做所有事情，应用仍然是有选择性的。强调对 AI 的实际价值与局限要有清晰判断。",
+      "hn": {
+        "id": 48527700,
+        "type": "story",
+        "by": "yegg",
+        "score": 473,
+        "descendants": 507,
+        "time": 1781448269,
+        "comments_url": "https://news.ycombinator.com/item?id=48527700"
+      },
+      "tags": [
+        "AI"
+      ],
+      "hot_score": 1.57
+    },
+    {
+      "title_en": "Show HN: I wrote a C++ ray tracer from scratch without AI",
+      "url": "https://github.com/themartiano/luz",
+      "title_zh": "Show HN: 我从零开始用 C++ 写了一个光线追踪器（没有 AI）",
+      "created_display": "Created: Jun 15, 2026 / 02:34 PT",
+      "image_url": "https://repository-images.githubusercontent.com/417039378/c5b0c07d-22b2-4957-b7f9-45485a4f4106",
+      "summary_en": "A hands-on showcase of a pure C++ ray tracer built from zero, likely implementing basic path tracing or ray casting with BVH, demonstrating fundamentals of graphics render pipelines without ML crutches. It’s a reminder that high-performance, readable rendering code remains a valuable craft.",
+      "summary_zh": "这是一个用纯 C++ 从零开始编写光线追踪器的实战演示，可能实现了基本的路径追踪或光线投射和 BVH 等优化，展示无 ML 依赖的渲染管线基础。它提醒人们，高性能、可读的渲染代码依然是一门宝贵的技艺。",
+      "hn": {
+        "id": 48538833,
+        "type": "story",
+        "by": "martiano",
+        "score": 28,
+        "descendants": 5,
+        "time": 1781516050,
+        "comments_url": "https://news.ycombinator.com/item?id=48538833"
+      },
+      "hot_score": 1.51,
+      "tags": [
+        "Show HN",
+        "Programming",
+        "AI"
+      ]
     },
     {
       "title_en": "I indexed 669 GB of my GoPro videos using my M1 Max computer and local ML models",
@@ -189,16 +304,16 @@
         "id": 48528029,
         "type": "story",
         "by": "iliashad",
-        "score": 347,
-        "descendants": 86,
+        "score": 378,
+        "descendants": 96,
         "time": 1781450037,
         "comments_url": "https://news.ycombinator.com/item?id=48528029"
       },
       "tags": [
         "AI",
-        "Hardware"
+        "Data"
       ],
-      "hot_score": 1.91
+      "hot_score": 1.3
     },
     {
       "title_en": "Rio de Janeiro's \"homegrown\" LLM appears to be a merge of an existing model",
@@ -212,8 +327,8 @@
         "id": 48528371,
         "type": "story",
         "by": "unrvl22",
-        "score": 327,
-        "descendants": 181,
+        "score": 366,
+        "descendants": 194,
         "time": 1781451451,
         "comments_url": "https://news.ycombinator.com/item?id=48528371"
       },
@@ -221,7 +336,7 @@
         "AI",
         "Legal"
       ],
-      "hot_score": 1.87
+      "hot_score": 1.3
     },
     {
       "title_en": "Linux 7.1",
@@ -235,38 +350,17 @@
         "id": 48528729,
         "type": "story",
         "by": "berlianta",
-        "score": 278,
-        "descendants": 110,
+        "score": 296,
+        "descendants": 113,
         "time": 1781452890,
         "comments_url": "https://news.ycombinator.com/item?id=48528729"
       },
       "tags": [
+        "Open Source",
         "Security",
         "Hardware"
       ],
-      "hot_score": 1.66
-    },
-    {
-      "title_en": "The hallucinogenic mushroom that contains no known psychedelic",
-      "url": "https://psychedelics.co.uk/news/a-mushroom-genus-that-gets-people-high-but-not-the",
-      "title_zh": "不含已知致幻成分却能致幻的蘑菇",
-      "created_display": "Created: Jun 14, 2026 / 18:07 PT",
-      "image_url": "https://res.cloudinary.com/drkckcqqr/image/upload/w_1019,h_640,c_fill,f_auto,q_auto/w_1019,h_640,c_fill,f_auto,q_auto/w_1019,h_640,c_fill,f_auto,q_auto/w_1019,h_640,c_fill,f_auto,q_auto/v1781449650/psycouk-news/h2uvptbfvdnjkf46txv2.png",
-      "summary_en": "A report highlights a mushroom genus linked to feeling high without containing known psychedelic compounds, prompting questions about misidentification, toxins, or novel chemistry.",
-      "summary_zh": "报道聚焦一种蘑菇属在不含已知致幻成分的情况下仍让人产生幻觉，引发对误认、毒性或新型化学成分的讨论。文章探讨这对公众对致幻剂理解的影响，以及未来研究的可能方向。",
-      "hn": {
-        "id": 48535215,
-        "type": "story",
-        "by": "thunderbong",
-        "score": 62,
-        "descendants": 38,
-        "time": 1781485657,
-        "comments_url": "https://news.ycombinator.com/item?id=48535215"
-      },
-      "hot_score": 1.42,
-      "tags": [
-        "Science"
-      ]
+      "hot_score": 1.09
     },
     {
       "title_en": "Ask HN: What are you working on? (June 2026)",
@@ -280,61 +374,18 @@
         "id": 48528779,
         "type": "story",
         "by": "david927",
-        "score": 209,
-        "descendants": 752,
+        "score": 256,
+        "descendants": 916,
         "time": 1781453128,
         "comments_url": "https://news.ycombinator.com/item?id=48528779"
       },
       "tags": [
+        "Culture",
         "AI",
         "Open Source",
         "DevOps"
       ],
-      "hot_score": 1.25
-    },
-    {
-      "title_en": "AI is code – and can't be prompted into being smarter",
-      "url": "https://www.theregister.com/ai-and-ml/2026/06/14/ai-is-code-and-cant-be-prompted-into-being-smarter/5254141",
-      "title_zh": "AI 是代码，不能靠提示变得更聪明",
-      "created_display": "Created: Jun 14, 2026 / 13:17 PT",
-      "image_url": "https://image.theregister.com/227602.jpg?imageId=227602&x=0&y=11.03&cropw=100&croph=88.97&panox=0&panoy=11.03&panow=100&panoh=88.97&width=1200&height=683",
-      "summary_en": "The piece argues that AI systems are software, and prompting alone cannot create real intelligence gains; improvements require better models, data, and training. It warns against over-reliance on clever prompts and encourages a focus on architecture, safety, and compositional capabilities.",
-      "summary_zh": "文章认为 AI 是软件，单靠提示无法真正提升智能水平；改进需改进模型、数据和训练方式。警示不要过分依赖“聪明的提示”，应关注架构、安全性及系统性能力。",
-      "hn": {
-        "id": 48532178,
-        "type": "story",
-        "by": "wglb",
-        "score": 122,
-        "descendants": 107,
-        "time": 1781468274,
-        "comments_url": "https://news.ycombinator.com/item?id=48532178"
-      },
-      "tags": [
-        "AI"
-      ],
-      "hot_score": 1.21
-    },
-    {
-      "title_en": "21 years and counting of 'eight fallacies of distributed computing' (2025)",
-      "url": "https://blog.apnic.net/2025/12/08/21-years-and-counting-of-eight-fallacies-of-distributed-computing/",
-      "title_zh": "21 年仍在延续的分布式计算八大谬论（2025）",
-      "created_display": "Created: Jun 14, 2026 / 17:07 PT",
-      "image_url": "https://blog.apnic.net/wp-content/uploads/2025/10/2025-10-featured-fallacies.png",
-      "summary_en": "Twenty-one years after the original eight fallacies were popularized, the article argues these myths persist in modern distributed systems, shaping how engineers reason about latency, partitions, and reliability. It offers updated examples and guidance for building resilient cloud-native architectures.",
-      "summary_zh": "距最初提出已有二十多年后，文章认为这八大谬论仍在现代分布式系统中占据影响力，影响工程师对延迟、分区和可靠性的判断。并给出更新的示例与应对思路，帮助构建更具弹性的云原生架构。",
-      "hn": {
-        "id": 48534628,
-        "type": "story",
-        "by": "teleforce",
-        "score": 64,
-        "descendants": 12,
-        "time": 1781482052,
-        "comments_url": "https://news.ycombinator.com/item?id=48534628"
-      },
-      "hot_score": 1.19,
-      "tags": [
-        "Programming"
-      ]
+      "hot_score": 0.94
     },
     {
       "title_en": "Formal methods and the future of programming",
@@ -348,37 +399,37 @@
         "id": 48526633,
         "type": "story",
         "by": "eatonphil",
-        "score": 245,
-        "descendants": 86,
+        "score": 287,
+        "descendants": 96,
         "time": 1781440527,
         "comments_url": "https://news.ycombinator.com/item?id=48526633"
       },
       "tags": [
         "Programming"
       ],
-      "hot_score": 1.05
+      "hot_score": 0.82
     },
     {
-      "title_en": "The Birth and Death of JavaScript (2014)",
-      "url": "https://www.destroyallsoftware.com/talks/the-birth-and-death-of-javascript",
-      "title_zh": "JavaScript 的诞生与消亡（2014）",
-      "created_display": "Created: Jun 14, 2026 / 05:38 PT",
-      "image_url": null,
-      "summary_en": "A retrospective talk tracing JavaScript's origins, design compromises, and how it evolved into a ubiquitous web language despite early flaws. It highlights the discipline of navigating language design trade-offs and the surprising longevity of a language born from constraints.",
-      "summary_zh": "这场回顾演讲梳理了 JavaScript 的起源、设计取舍，以及它如何在早期缺陷的背景下发展成无处不在的网页语言，凸显在语言设计取舍中的执着与长期生命力。",
+      "title_en": "21 years and counting of 'eight fallacies of distributed computing' (2025)",
+      "url": "https://blog.apnic.net/2025/12/08/21-years-and-counting-of-eight-fallacies-of-distributed-computing/",
+      "title_zh": "21 年仍在延续的分布式计算八大谬论（2025）",
+      "created_display": "Created: Jun 14, 2026 / 17:07 PT",
+      "image_url": "https://blog.apnic.net/wp-content/uploads/2025/10/2025-10-featured-fallacies.png",
+      "summary_en": "Twenty-one years after the original eight fallacies were popularized, the article argues these myths persist in modern distributed systems, shaping how engineers reason about latency, partitions, and reliability. It offers updated examples and guidance for building resilient cloud-native architectures.",
+      "summary_zh": "距最初提出已有二十多年后，文章认为这八大谬论仍在现代分布式系统中占据影响力，影响工程师对延迟、分区和可靠性的判断。并给出更新的示例与应对思路，帮助构建更具弹性的云原生架构。",
       "hn": {
-        "id": 48526661,
+        "id": 48534628,
         "type": "story",
-        "by": "subset",
-        "score": 224,
-        "descendants": 128,
-        "time": 1781440711,
-        "comments_url": "https://news.ycombinator.com/item?id=48526661"
+        "by": "teleforce",
+        "score": 100,
+        "descendants": 22,
+        "time": 1781482052,
+        "comments_url": "https://news.ycombinator.com/item?id=48534628"
       },
       "tags": [
         "Programming"
       ],
-      "hot_score": 0.97
+      "hot_score": 0.81
     },
     {
       "title_en": "GLM 5.2 Is Out",
@@ -392,15 +443,16 @@
         "id": 48518684,
         "type": "story",
         "by": "aloknnikhil",
-        "score": 739,
-        "descendants": 464,
+        "score": 751,
+        "descendants": 475,
         "time": 1781367511,
         "comments_url": "https://news.ycombinator.com/item?id=48518684"
       },
       "tags": [
-        "Programming"
+        "Programming",
+        "Open Source"
       ],
-      "hot_score": 0.93
+      "hot_score": 0.76
     },
     {
       "title_en": "Every Frame Perfect",
@@ -422,7 +474,165 @@
       "tags": [
         "Programming"
       ],
-      "hot_score": 0.86
+      "hot_score": 0.7
+    },
+    {
+      "title_en": "The Birth and Death of JavaScript (2014)",
+      "url": "https://www.destroyallsoftware.com/talks/the-birth-and-death-of-javascript",
+      "title_zh": "JavaScript 的诞生与消亡（2014）",
+      "created_display": "Created: Jun 14, 2026 / 05:38 PT",
+      "image_url": null,
+      "summary_en": "A retrospective talk tracing JavaScript's origins, design compromises, and how it evolved into a ubiquitous web language despite early flaws. It highlights the discipline of navigating language design trade-offs and the surprising longevity of a language born from constraints.",
+      "summary_zh": "这场回顾演讲梳理了 JavaScript 的起源、设计取舍，以及它如何在早期缺陷的背景下发展成无处不在的网页语言，凸显在语言设计取舍中的执着与长期生命力。",
+      "hn": {
+        "id": 48526661,
+        "type": "story",
+        "by": "subset",
+        "score": 227,
+        "descendants": 130,
+        "time": 1781440711,
+        "comments_url": "https://news.ycombinator.com/item?id=48526661"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 0.65
+    },
+    {
+      "title_en": "AI is code – and can't be prompted into being smarter",
+      "url": "https://www.theregister.com/ai-and-ml/2026/06/14/ai-is-code-and-cant-be-prompted-into-being-smarter/5254141",
+      "title_zh": "AI 是代码，不能靠提示变得更聪明",
+      "created_display": "Created: Jun 14, 2026 / 13:17 PT",
+      "image_url": "https://image.theregister.com/227602.jpg?imageId=227602&x=0&y=11.03&cropw=100&croph=88.97&panox=0&panoy=11.03&panow=100&panoh=88.97&width=1200&height=683",
+      "summary_en": "The piece argues that AI systems are software, and prompting alone cannot create real intelligence gains; improvements require better models, data, and training. It warns against over-reliance on clever prompts and encourages a focus on architecture, safety, and compositional capabilities.",
+      "summary_zh": "文章认为 AI 是软件，单靠提示无法真正提升智能水平；改进需改进模型、数据和训练方式。警示不要过分依赖“聪明的提示”，应关注架构、安全性及系统性能力。",
+      "hn": {
+        "id": 48532178,
+        "type": "story",
+        "by": "wglb",
+        "score": 122,
+        "descendants": 107,
+        "time": 1781468274,
+        "comments_url": "https://news.ycombinator.com/item?id=48532178"
+      },
+      "tags": [
+        "AI"
+      ],
+      "hot_score": 0.65
+    },
+    {
+      "title_en": "Caddy compatibility for zeroserve: 3x throughput and 70% lower latency",
+      "url": "https://su3.io/posts/zeroserve-caddy-compat",
+      "title_zh": "Caddy 与 zeroserve 的兼容性提升：吞吐量提升三倍、延迟降低 70%",
+      "created_display": "Created: Jun 14, 2026 / 06:43 PT",
+      "image_url": null,
+      "summary_en": "Claims a compatibility setup where Caddy enables zeroserve to achieve roughly 3x throughput and 70% lower latency, with notes on how to configure and optimize.",
+      "summary_zh": "文中描述了 Caddy 与 zeroserve 搭配时带来的性能提升，吞吐量提升约 3 倍、延迟降低约 70%，并给出相关配置要点。",
+      "hn": {
+        "id": 48527145,
+        "type": "story",
+        "by": "losfair",
+        "score": 197,
+        "descendants": 58,
+        "time": 1781444588,
+        "comments_url": "https://news.ycombinator.com/item?id=48527145"
+      },
+      "tags": [
+        "Programming",
+        "DevOps"
+      ],
+      "hot_score": 0.61
+    },
+    {
+      "title_en": "Triple Shockwave from Sun Crossing Rocket",
+      "url": "https://apod.nasa.gov/apod/ap260615.html",
+      "title_zh": "太阳穿越火箭引发的三重冲击波",
+      "created_display": "Created: Jun 15, 2026 / 03:55 PT",
+      "image_url": "https://apod.nasa.gov/apod/image/2606/TripleSunShock_Winkopp_960.jpg",
+      "summary_en": "NASA’s APOD captures a striking triple shockwave phenomenon arising when a rocket traverses near the Sun's environment, illustrating the complex interactions between propulsion plumes and solar wind. The image underscores how fluid dynamics shape spaceflight visuals, not just physics.",
+      "summary_zh": "NASA 天文图像日记展示了一枚火箭穿越太阳环境时产生的三重冲击波，揭示推进器羽流与太阳风之间的复杂相互作用。这一画面凸显流体动力学如何影响太空飞行的视觉效果。",
+      "hn": {
+        "id": 48539454,
+        "type": "story",
+        "by": "xnx",
+        "score": 7,
+        "descendants": 1,
+        "time": 1781520915,
+        "comments_url": "https://news.ycombinator.com/item?id=48539454"
+      },
+      "hot_score": 0.6,
+      "tags": [
+        "Space",
+        "Science",
+        "Energy"
+      ]
+    },
+    {
+      "title_en": "The hallucinogenic mushroom that contains no known psychedelic",
+      "url": "https://psychedelics.co.uk/news/a-mushroom-genus-that-gets-people-high-but-not-the",
+      "title_zh": "不含已知致幻成分却能致幻的蘑菇",
+      "created_display": "Created: Jun 14, 2026 / 18:07 PT",
+      "image_url": "https://res.cloudinary.com/drkckcqqr/image/upload/w_1019,h_640,c_fill,f_auto,q_auto/w_1019,h_640,c_fill,f_auto,q_auto/w_1019,h_640,c_fill,f_auto,q_auto/w_1019,h_640,c_fill,f_auto,q_auto/v1781449650/psycouk-news/h2uvptbfvdnjkf46txv2.png",
+      "summary_en": "A report highlights a mushroom genus linked to feeling high without containing known psychedelic compounds, prompting questions about misidentification, toxins, or novel chemistry.",
+      "summary_zh": "报道聚焦一种蘑菇属在不含已知致幻成分的情况下仍让人产生幻觉，引发对误认、毒性或新型化学成分的讨论。文章探讨这对公众对致幻剂理解的影响，以及未来研究的可能方向。",
+      "hn": {
+        "id": 48535215,
+        "type": "story",
+        "by": "thunderbong",
+        "score": 62,
+        "descendants": 38,
+        "time": 1781485657,
+        "comments_url": "https://news.ycombinator.com/item?id=48535215"
+      },
+      "hot_score": 0.57,
+      "tags": [
+        "Science"
+      ]
+    },
+    {
+      "title_en": "Show HN: Discover Wikipedia articles popular on Hacker News",
+      "url": "https://www.orangecrumbs.com/",
+      "title_zh": "Show HN：发现 Hacker News 上受欢迎的维基百科条目",
+      "created_display": "Created: Jun 14, 2026 / 10:54 PT",
+      "image_url": "https://www.orangecrumbs.com/og/orangecrumbs-home-9e64137cfe.jpg",
+      "summary_en": "A project that surfaces Wikipedia articles that tend to perform well on Hacker News, enabling quick exploration of topics that resonate with tech-focused readers. It provides data-driven insight into what topics drive engagement in developer communities.",
+      "summary_zh": "一个发现 Hacker News 上受欢迎的维基百科条目的项目，方便快速查看与科技读者群体共鸣的话题。它通过数据洞察何种主题在开发者社群中更易获得关注。",
+      "hn": {
+        "id": 48530382,
+        "type": "story",
+        "by": "octopus143",
+        "score": 124,
+        "descendants": 27,
+        "time": 1781459657,
+        "comments_url": "https://news.ycombinator.com/item?id=48530382"
+      },
+      "tags": [
+        "Show HN",
+        "Web"
+      ],
+      "hot_score": 0.53
+    },
+    {
+      "title_en": "Chaosnet (1981)",
+      "url": "https://tumbleweed.nu/r/lm-3/uv/amber.html",
+      "title_zh": "Chaosnet（1981年）",
+      "created_display": "Created: Jun 14, 2026 / 12:14 PT",
+      "image_url": null,
+      "summary_en": "Chaosnet was an early campus network and a before-TCP/IP experiment in network design. This 1981 lookback highlights its protocol choices, goals, and why such projects shaped how researchers thought about interoperability and distributed systems.",
+      "summary_zh": "Chaosnet 是早期校园网络的一次 TCP/IP 之前的实验。本文回顾 1981 年的设计要点、目标及其如何影响研究者对互联互通与分布式系统的思考。",
+      "hn": {
+        "id": 48531449,
+        "type": "story",
+        "by": "RGBCube",
+        "score": 91,
+        "descendants": 12,
+        "time": 1781464461,
+        "comments_url": "https://news.ycombinator.com/item?id=48531449"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 0.44
     },
     {
       "title_en": "Abu Fanous",
@@ -442,122 +652,10 @@
         "comments_url": "https://news.ycombinator.com/item?id=48532722"
       },
       "tags": [
-        "Culture",
+        "Design",
         "Education"
       ],
-      "hot_score": 0.83
-    },
-    {
-      "title_en": "Caddy compatibility for zeroserve: 3x throughput and 70% lower latency",
-      "url": "https://su3.io/posts/zeroserve-caddy-compat",
-      "title_zh": "Caddy 与 zeroserve 的兼容性提升：吞吐量提升三倍、延迟降低 70%",
-      "created_display": "Created: Jun 14, 2026 / 06:43 PT",
-      "image_url": null,
-      "summary_en": "Claims a compatibility setup where Caddy enables zeroserve to achieve roughly 3x throughput and 70% lower latency, with notes on how to configure and optimize.",
-      "summary_zh": "文中描述了 Caddy 与 zeroserve 搭配时带来的性能提升，吞吐量提升约 3 倍、延迟降低约 70%，并给出相关配置要点。",
-      "hn": {
-        "id": 48527145,
-        "type": "story",
-        "by": "losfair",
-        "score": 173,
-        "descendants": 52,
-        "time": 1781444588,
-        "comments_url": "https://news.ycombinator.com/item?id=48527145"
-      },
-      "tags": [
-        "DevOps"
-      ],
-      "hot_score": 0.82
-    },
-    {
-      "title_en": "Apple Foundation Models",
-      "url": "https://platform.claude.com/docs/en/cli-sdks-libraries/libraries/apple-foundation-models",
-      "title_zh": "苹果基础模型",
-      "created_display": "Created: Jun 14, 2026 / 21:55 PT",
-      "image_url": "https://platform.claude.com/docs/og?locale=en&path=cli-sdks-libraries/libraries/apple-foundation-models",
-      "summary_en": "Apple releases a suite of foundation models and accompanying SDKs to enable on-device AI workflows, signaling deeper AI integration in the Apple ecosystem. The post outlines available models and APIs, and explains how developers can leverage them for tasks like vision, language, and understanding while prioritizing privacy.",
-      "summary_zh": "苹果推出一系列基础模型及配套的 SDK，旨在在设备端实现 AI 工作流，标志着苹果生态对 AI 的更深度整合。文章列出可用的模型与 API，并解释开发者如何在保护隐私的前提下，利用它们完成视觉、语言和理解等任务。",
-      "hn": {
-        "id": 48536776,
-        "type": "story",
-        "by": "MehrdadKhnzd",
-        "score": 11,
-        "descendants": 1,
-        "time": 1781499334,
-        "comments_url": "https://news.ycombinator.com/item?id=48536776"
-      },
-      "hot_score": 0.73,
-      "tags": [
-        "AI",
-        "Privacy"
-      ]
-    },
-    {
-      "title_en": "Show HN: Discover Wikipedia articles popular on Hacker News",
-      "url": "https://www.orangecrumbs.com/",
-      "title_zh": "Show HN：发现 Hacker News 上受欢迎的维基百科条目",
-      "created_display": "Created: Jun 14, 2026 / 10:54 PT",
-      "image_url": "https://www.orangecrumbs.com/og/orangecrumbs-home-9e64137cfe.jpg",
-      "summary_en": "A project that surfaces Wikipedia articles that tend to perform well on Hacker News, enabling quick exploration of topics that resonate with tech-focused readers. It provides data-driven insight into what topics drive engagement in developer communities.",
-      "summary_zh": "一个发现 Hacker News 上受欢迎的维基百科条目的项目，方便快速查看与科技读者群体共鸣的话题。它通过数据洞察何种主题在开发者社群中更易获得关注。",
-      "hn": {
-        "id": 48530382,
-        "type": "story",
-        "by": "octopus143",
-        "score": 93,
-        "descendants": 25,
-        "time": 1781459657,
-        "comments_url": "https://news.ycombinator.com/item?id=48530382"
-      },
-      "tags": [
-        "Show HN",
-        "Data"
-      ],
-      "hot_score": 0.68
-    },
-    {
-      "title_en": "Chaosnet (1981)",
-      "url": "https://tumbleweed.nu/r/lm-3/uv/amber.html",
-      "title_zh": "Chaosnet（1981年）",
-      "created_display": "Created: Jun 14, 2026 / 12:14 PT",
-      "image_url": null,
-      "summary_en": "Chaosnet was an early campus network and a before-TCP/IP experiment in network design. This 1981 lookback highlights its protocol choices, goals, and why such projects shaped how researchers thought about interoperability and distributed systems.",
-      "summary_zh": "Chaosnet 是早期校园网络的一次 TCP/IP 之前的实验。本文回顾 1981 年的设计要点、目标及其如何影响研究者对互联互通与分布式系统的思考。",
-      "hn": {
-        "id": 48531449,
-        "type": "story",
-        "by": "RGBCube",
-        "score": 77,
-        "descendants": 9,
-        "time": 1781464461,
-        "comments_url": "https://news.ycombinator.com/item?id=48531449"
-      },
-      "tags": [
-        "Science"
-      ],
-      "hot_score": 0.66
-    },
-    {
-      "title_en": "FarOutCompany",
-      "url": "https://faroutcompany.com/",
-      "title_zh": "FarOutCompany",
-      "created_display": "Created: Jun 14, 2026 / 07:09 PT",
-      "image_url": "https://faroutcompany.com/wp-content/uploads/faroutcompany-1-1.png",
-      "summary_en": "A concise look at FarOutCompany and its latest activities.",
-      "summary_zh": "对 FarOutCompany 的简要介绍及其近期动态。",
-      "hn": {
-        "id": 48527360,
-        "type": "story",
-        "by": "bookofjoe",
-        "score": 117,
-        "descendants": 19,
-        "time": 1781446169,
-        "comments_url": "https://news.ycombinator.com/item?id=48527360"
-      },
-      "tags": [
-        "Startups"
-      ],
-      "hot_score": 0.58
+      "hot_score": 0.43
     },
     {
       "title_en": "Perlisisms (1982)",
@@ -571,15 +669,39 @@
         "id": 48527820,
         "type": "story",
         "by": "tosh",
-        "score": 107,
-        "descendants": 54,
+        "score": 124,
+        "descendants": 59,
         "time": 1781449016,
         "comments_url": "https://news.ycombinator.com/item?id=48527820"
       },
       "tags": [
-        "Programming"
+        "Programming",
+        "Education"
       ],
-      "hot_score": 0.57
+      "hot_score": 0.42
+    },
+    {
+      "title_en": "FarOutCompany",
+      "url": "https://faroutcompany.com/",
+      "title_zh": "FarOutCompany",
+      "created_display": "Created: Jun 14, 2026 / 07:09 PT",
+      "image_url": "https://faroutcompany.com/wp-content/uploads/faroutcompany-1-1.png",
+      "summary_en": "A concise look at FarOutCompany and its latest activities.",
+      "summary_zh": "对 FarOutCompany 的简要介绍及其近期动态。",
+      "hn": {
+        "id": 48527360,
+        "type": "story",
+        "by": "bookofjoe",
+        "score": 119,
+        "descendants": 19,
+        "time": 1781446169,
+        "comments_url": "https://news.ycombinator.com/item?id=48527360"
+      },
+      "tags": [
+        "Business",
+        "Startups"
+      ],
+      "hot_score": 0.38
     },
     {
       "title_en": "Pac-Man, but you're the ghost",
@@ -602,7 +724,122 @@
         "Gaming",
         "Design"
       ],
-      "hot_score": 0.47
+      "hot_score": 0.35
+    },
+    {
+      "title_en": "How did Atari apply side art to Arcade Cabinets?",
+      "url": "https://arcadeblogger.com/2026/06/14/how-did-atari-apply-side-art-to-arcade-cabinets/",
+      "title_zh": "Atari 如何在街机柜上应用侧面艺术",
+      "created_display": "Created: Jun 14, 2026 / 05:57 PT",
+      "image_url": "https://i0.wp.com/arcadeblogger.com/wp-content/uploads/2026/06/millipede-side-art.png?fit=924%2C1200&ssl=1",
+      "summary_en": "Explains the design and production choices for applying side art on classic arcade cabinets, shedding light on how aesthetics shaped arcade culture.",
+      "summary_zh": "揭示了经典街机柜上侧面艺术的设计与制作选择，阐明美学如何塑造街机文化。",
+      "hn": {
+        "id": 48526793,
+        "type": "story",
+        "by": "msephton",
+        "score": 91,
+        "descendants": 25,
+        "time": 1781441853,
+        "comments_url": "https://news.ycombinator.com/item?id=48526793"
+      },
+      "tags": [
+        "Design",
+        "Culture"
+      ],
+      "hot_score": 0.26
+    },
+    {
+      "title_en": "Ponytail – make your AI agent think like the laziest senior dev in the room",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "title_zh": "Ponytail：让 AI 助手像最懒的资深开发者一样思考",
+      "created_display": "Created: Jun 14, 2026 / 08:08 PT",
+      "image_url": "https://repository-images.githubusercontent.com/1266797999/b20d9cb8-11f0-4db8-965a-7e22ab2b6bb6",
+      "summary_en": "Ponytail is a tool to steer AI agents toward the pragmatic, low-effort reasoning style of a senior developer, emphasizing efficient prompts and sensible defaults. It aims to improve reliability and speed of AI-assisted coding.",
+      "summary_zh": "Ponytail 是一个工具，帮助 AI 代理模仿资深开发者的务实、低成本思维方式，强调高效提示与合理默认。目标是提升 AI 辅助编码的可靠性与速度。",
+      "hn": {
+        "id": 48527946,
+        "type": "story",
+        "by": "mellosouls",
+        "score": 67,
+        "descendants": 10,
+        "time": 1781449697,
+        "comments_url": "https://news.ycombinator.com/item?id=48527946"
+      },
+      "tags": [
+        "AI",
+        "Programming"
+      ],
+      "hot_score": 0.23
+    },
+    {
+      "title_en": "Show HN: Trace – Offline Mac meeting transcripts you can flag mid-call",
+      "url": "https://traceapp.info",
+      "title_zh": "Trace – 离线 Mac 会议记录，可在通话中标记要点",
+      "created_display": "Created: Jun 13, 2026 / 13:41 PT",
+      "image_url": "https://traceapp.info/og/landing.png",
+      "summary_en": "Trace is a Mac app that records and transcribes meetings offline, with an in-call flagging feature to mark important moments for later review. This offline-first approach reduces data exposure and enables fast, local search without cloud processing—useful for privacy-conscious teams.",
+      "summary_zh": "Trace 是一款在 Mac 上离线记录并转写会议的应用，通话中就可标记关键时刻便于日后回顾。离线优先的设计降低数据暴露风险，并支持本地快速搜索，适合注重隐私的团队。",
+      "hn": {
+        "id": 48521236,
+        "type": "story",
+        "by": "AG342",
+        "score": 178,
+        "descendants": 65,
+        "time": 1781383318,
+        "comments_url": "https://news.ycombinator.com/item?id=48521236"
+      },
+      "tags": [
+        "Show HN",
+        "Privacy"
+      ],
+      "hot_score": 0.21
+    },
+    {
+      "title_en": "Successful Psilocybin Treatment of Alzheimer",
+      "url": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2026.1813281/full",
+      "title_zh": "阿尔茨海默病的赛洛西宾治疗取得成功",
+      "created_display": "Created: Jun 14, 2026 / 23:52 PT",
+      "image_url": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/27A044CC-44D1-4E5E-A886893A3FE656F4/A72D78D9-73CD-4C75-910FB7C0D04825C0/WebsiteWebP_XL-FNINS_Main Visual_Purple_Website.webp",
+      "summary_en": "Frontiers in Neuroscience reports a case or pilot data where psilocybin therapy coincided with improvements in Alzheimer-related symptoms, suggesting psychedelic-assisted treatment as a potential avenue for neurodegenerative care. The findings are promising but call for larger, controlled trials and careful safety considerations.",
+      "summary_zh": "Frontiers in Neuroscience 报告了一例或初步数据，显示赛洛西宾治疗与阿尔茨海默病相关症状的改善相关，提示迷幻药辅助治疗可能成为神经退行性疾病护理的潜在路径。结果令人鼓舞，但需要更大规模、对照试验并且关注安全性。",
+      "hn": {
+        "id": 48537512,
+        "type": "story",
+        "by": "cl3misch",
+        "score": 7,
+        "descendants": 0,
+        "time": 1781506341,
+        "comments_url": "https://news.ycombinator.com/item?id=48537512"
+      },
+      "hot_score": 0.15,
+      "tags": [
+        "Health",
+        "Science"
+      ]
+    },
+    {
+      "title_en": "Firewood Splitting Simulator",
+      "url": "https://screen.toys/firewood/",
+      "title_zh": "劈柴分裂模拟器",
+      "created_display": "Created: Jun 09, 2026 / 22:01 PT",
+      "image_url": null,
+      "summary_en": "A lighthearted, physics-based simulator that lets you chop virtual firewood, delivering satisfying feedback loops and simple rules. It’s a tiny reminder that well-tuned mechanics can be more engaging than complexity.",
+      "summary_zh": "这是一款以物理为基础的趣味模拟器，玩家通过虚拟劈柴获得直观的反馈与上手简单的玩法。简洁的游戏机制往往比复杂性更具吸引力。",
+      "hn": {
+        "id": 48471638,
+        "type": "story",
+        "by": "memalign",
+        "score": 863,
+        "descendants": 251,
+        "time": 1781067691,
+        "comments_url": "https://news.ycombinator.com/item?id=48471638"
+      },
+      "tags": [
+        "Gaming",
+        "Science"
+      ],
+      "hot_score": 0.14
     },
     {
       "title_en": "Inside the 24 hours that led to pulling Fable 5",
@@ -621,124 +858,11 @@
         "time": 1781492881,
         "comments_url": "https://news.ycombinator.com/item?id=48536112"
       },
-      "hot_score": 0.43,
+      "hot_score": 0.14,
       "tags": [
-        "AI",
-        "Politics"
-      ]
-    },
-    {
-      "title_en": "How did Atari apply side art to Arcade Cabinets?",
-      "url": "https://arcadeblogger.com/2026/06/14/how-did-atari-apply-side-art-to-arcade-cabinets/",
-      "title_zh": "Atari 如何在街机柜上应用侧面艺术",
-      "created_display": "Created: Jun 14, 2026 / 05:57 PT",
-      "image_url": "https://i0.wp.com/arcadeblogger.com/wp-content/uploads/2026/06/millipede-side-art.png?fit=924%2C1200&ssl=1",
-      "summary_en": "Explains the design and production choices for applying side art on classic arcade cabinets, shedding light on how aesthetics shaped arcade culture.",
-      "summary_zh": "揭示了经典街机柜上侧面艺术的设计与制作选择，阐明美学如何塑造街机文化。",
-      "hn": {
-        "id": 48526793,
-        "type": "story",
-        "by": "msephton",
-        "score": 88,
-        "descendants": 24,
-        "time": 1781441853,
-        "comments_url": "https://news.ycombinator.com/item?id=48526793"
-      },
-      "tags": [
-        "Design",
-        "Gaming"
-      ],
-      "hot_score": 0.39
-    },
-    {
-      "title_en": "Ponytail – make your AI agent think like the laziest senior dev in the room",
-      "url": "https://github.com/DietrichGebert/ponytail",
-      "title_zh": "Ponytail：让 AI 助手像最懒的资深开发者一样思考",
-      "created_display": "Created: Jun 14, 2026 / 08:08 PT",
-      "image_url": "https://repository-images.githubusercontent.com/1266797999/b20d9cb8-11f0-4db8-965a-7e22ab2b6bb6",
-      "summary_en": "Ponytail is a tool to steer AI agents toward the pragmatic, low-effort reasoning style of a senior developer, emphasizing efficient prompts and sensible defaults. It aims to improve reliability and speed of AI-assisted coding.",
-      "summary_zh": "Ponytail 是一个工具，帮助 AI 代理模仿资深开发者的务实、低成本思维方式，强调高效提示与合理默认。目标是提升 AI 辅助编码的可靠性与速度。",
-      "hn": {
-        "id": 48527946,
-        "type": "story",
-        "by": "mellosouls",
-        "score": 54,
-        "descendants": 5,
-        "time": 1781449697,
-        "comments_url": "https://news.ycombinator.com/item?id=48527946"
-      },
-      "tags": [
-        "AI",
-        "Programming"
-      ],
-      "hot_score": 0.29
-    },
-    {
-      "title_en": "Show HN: Trace – Offline Mac meeting transcripts you can flag mid-call",
-      "url": "https://traceapp.info",
-      "title_zh": "Trace – 离线 Mac 会议记录，可在通话中标记要点",
-      "created_display": "Created: Jun 13, 2026 / 13:41 PT",
-      "image_url": "https://traceapp.info/og/landing.png",
-      "summary_en": "Trace is a Mac app that records and transcribes meetings offline, with an in-call flagging feature to mark important moments for later review. This offline-first approach reduces data exposure and enables fast, local search without cloud processing—useful for privacy-conscious teams.",
-      "summary_zh": "Trace 是一款在 Mac 上离线记录并转写会议的应用，通话中就可标记关键时刻便于日后回顾。离线优先的设计降低数据暴露风险，并支持本地快速搜索，适合注重隐私的团队。",
-      "hn": {
-        "id": 48521236,
-        "type": "story",
-        "by": "AG342",
-        "score": 146,
-        "descendants": 55,
-        "time": 1781383318,
-        "comments_url": "https://news.ycombinator.com/item?id=48521236"
-      },
-      "tags": [
-        "Show HN",
-        "Privacy"
-      ],
-      "hot_score": 0.22
-    },
-    {
-      "title_en": "Firewood Splitting Simulator",
-      "url": "https://screen.toys/firewood/",
-      "title_zh": "劈柴分裂模拟器",
-      "created_display": "Created: Jun 09, 2026 / 22:01 PT",
-      "image_url": null,
-      "summary_en": "A lighthearted, physics-based simulator that lets you chop virtual firewood, delivering satisfying feedback loops and simple rules. It’s a tiny reminder that well-tuned mechanics can be more engaging than complexity.",
-      "summary_zh": "这是一款以物理为基础的趣味模拟器，玩家通过虚拟劈柴获得直观的反馈与上手简单的玩法。简洁的游戏机制往往比复杂性更具吸引力。",
-      "hn": {
-        "id": 48471638,
-        "type": "story",
-        "by": "memalign",
-        "score": 757,
-        "descendants": 233,
-        "time": 1781067691,
-        "comments_url": "https://news.ycombinator.com/item?id=48471638"
-      },
-      "tags": [
-        "Gaming",
-        "Science"
-      ],
-      "hot_score": 0.13
-    },
-    {
-      "title_en": "Smashed Toilet Phone Web Server",
-      "url": "https://www.offthebricks.com/articles/smashed-toilet-phone-web-server",
-      "title_zh": "砸碎的马桶电话上的 Web 服务器",
-      "created_display": "Created: Jun 14, 2026 / 19:19 PT",
-      "image_url": "https://www.offthebricks.com/articles/HamMenuGrey.png",
-      "summary_en": "A humorous hardware hack demonstrates running a tiny web server from an unconventional device, a smashed toilet phone, illustrating resilience and whimsy in maker culture.",
-      "summary_zh": "一次有趣的硬件 hack 展示如何在一个被砸碎的马桶电话上运行一个小型网页服务器，体现了 Maker 文化中的韧性和趣味性。",
-      "hn": {
-        "id": 48535821,
-        "type": "story",
-        "by": "mircerlancerous",
-        "score": 5,
-        "descendants": 0,
-        "time": 1781489988,
-        "comments_url": "https://news.ycombinator.com/item?id=48535821"
-      },
-      "hot_score": 0.12,
-      "tags": [
-        "Hardware"
+        "Business",
+        "Politics",
+        "AI"
       ]
     },
     {
@@ -753,15 +877,16 @@
         "id": 48507039,
         "type": "story",
         "by": "evakhoury",
-        "score": 185,
-        "descendants": 62,
+        "score": 245,
+        "descendants": 74,
         "time": 1781285770,
         "comments_url": "https://news.ycombinator.com/item?id=48507039"
       },
-      "hot_score": 0.1,
       "tags": [
+        "Design",
         "Culture"
-      ]
+      ],
+      "hot_score": 0.12
     },
     {
       "title_en": "Lisp's Influence on Ruby",
@@ -775,8 +900,8 @@
         "id": 48491048,
         "type": "story",
         "by": "tacoda",
-        "score": 235,
-        "descendants": 72,
+        "score": 244,
+        "descendants": 77,
         "time": 1781188991,
         "comments_url": "https://news.ycombinator.com/item?id=48491048"
       },
@@ -784,6 +909,75 @@
         "Programming"
       ],
       "hot_score": 0.07
+    },
+    {
+      "title_en": "Bitsy",
+      "url": "https://bitsy.org/",
+      "title_zh": "Bitsy",
+      "created_display": "Created: Jun 11, 2026 / 13:56 PT",
+      "image_url": "https://bitsy.org/image/cat.svg",
+      "summary_en": "Bitsy is a browser-based platform for making tiny, retro-style games.",
+      "summary_zh": "Bitsy 是一个基于浏览器的平台，用于制作简易、复古风格的游戏。",
+      "hn": {
+        "id": 48496290,
+        "type": "story",
+        "by": "tosh",
+        "score": 224,
+        "descendants": 6,
+        "time": 1781211390,
+        "comments_url": "https://news.ycombinator.com/item?id=48496290"
+      },
+      "tags": [
+        "Gaming",
+        "Web"
+      ],
+      "hot_score": 0.07
+    },
+    {
+      "title_en": "Why does paper fold so well?",
+      "url": "https://www.bbc.co.uk/programmes/w3ct8k70",
+      "title_zh": "纸为何能折叠得这么好？",
+      "created_display": "Created: Jun 13, 2026 / 12:31 PT",
+      "image_url": "https://ichef.bbci.co.uk/images/ic/1200x675/p0nrcq42.jpg",
+      "summary_en": "An explainer delves into the physics of paper folding, showing how thickness, crease propagation, and layering govern how reliably a crease holds and how many folds you can make. The takeaway for makers is that geometry and material properties, not just technique, determine how a sheet behaves when folded.",
+      "summary_zh": "一则科普解说纸张折叠的物理原理，揭示厚度、皱褶传播与层叠等因素如何影响折痕的稳定性与可折叠次数。对创作者而言，关键在于几何结构与材料特性共同决定折叠时的表现。",
+      "hn": {
+        "id": 48520596,
+        "type": "story",
+        "by": "zeristor",
+        "score": 64,
+        "descendants": 31,
+        "time": 1781379114,
+        "comments_url": "https://news.ycombinator.com/item?id=48520596"
+      },
+      "tags": [
+        "Science",
+        "Education"
+      ],
+      "hot_score": 0.07
+    },
+    {
+      "title_en": "The only scalable delete in Postgres is DROP TABLE",
+      "url": "https://planetscale.com/blog/the-only-scalable-delete",
+      "title_zh": "Postgres 中唯一可扩展的删除操作是 DROP TABLE",
+      "created_display": "Created: Jun 11, 2026 / 09:48 PT",
+      "image_url": "https://planetscale.com/assets/the-only-scalable-delete-social-DZ748lqJ.png",
+      "summary_en": "Argues that deleting vast amounts of data in Postgres scales best with dropping tables rather than row-level DELETEs; discusses implications for archival strategies and schema design.",
+      "summary_zh": "指出在 Postgres 中，海量数据的删除最具可扩展性的做法是 DROP TABLE，而非逐行 DELETE；并探讨归档与模式设计的影响。",
+      "hn": {
+        "id": 48492822,
+        "type": "story",
+        "by": "hollylawly",
+        "score": 181,
+        "descendants": 65,
+        "time": 1781196529,
+        "comments_url": "https://news.ycombinator.com/item?id=48492822"
+      },
+      "tags": [
+        "Data",
+        "Programming"
+      ],
+      "hot_score": 0.05
     },
     {
       "title_en": "Global density and biomass of arbuscular mycorrhizal fungal networks",
@@ -806,75 +1000,29 @@
         "Science",
         "Health"
       ],
-      "hot_score": 0.06
+      "hot_score": 0.04
     },
     {
-      "title_en": "The only scalable delete in Postgres is DROP TABLE",
-      "url": "https://planetscale.com/blog/the-only-scalable-delete",
-      "title_zh": "Postgres 中唯一可扩展的删除操作是 DROP TABLE",
-      "created_display": "Created: Jun 11, 2026 / 09:48 PT",
-      "image_url": "https://planetscale.com/assets/the-only-scalable-delete-social-DZ748lqJ.png",
-      "summary_en": "Argues that deleting vast amounts of data in Postgres scales best with dropping tables rather than row-level DELETEs; discusses implications for archival strategies and schema design.",
-      "summary_zh": "指出在 Postgres 中，海量数据的删除最具可扩展性的做法是 DROP TABLE，而非逐行 DELETE；并探讨归档与模式设计的影响。",
+      "title_en": "Smashed Toilet Phone Web Server",
+      "url": "https://www.offthebricks.com/articles/smashed-toilet-phone-web-server",
+      "title_zh": "砸碎的马桶电话上的 Web 服务器",
+      "created_display": "Created: Jun 14, 2026 / 19:19 PT",
+      "image_url": "https://www.offthebricks.com/articles/HamMenuGrey.png",
+      "summary_en": "A humorous hardware hack demonstrates running a tiny web server from an unconventional device, a smashed toilet phone, illustrating resilience and whimsy in maker culture.",
+      "summary_zh": "一次有趣的硬件 hack 展示如何在一个被砸碎的马桶电话上运行一个小型网页服务器，体现了 Maker 文化中的韧性和趣味性。",
       "hn": {
-        "id": 48492822,
+        "id": 48535821,
         "type": "story",
-        "by": "hollylawly",
-        "score": 156,
-        "descendants": 56,
-        "time": 1781196529,
-        "comments_url": "https://news.ycombinator.com/item?id=48492822"
+        "by": "mircerlancerous",
+        "score": 5,
+        "descendants": 0,
+        "time": 1781489988,
+        "comments_url": "https://news.ycombinator.com/item?id=48535821"
       },
+      "hot_score": 0.04,
       "tags": [
-        "Programming",
-        "Data"
-      ],
-      "hot_score": 0.05
-    },
-    {
-      "title_en": "Bitsy",
-      "url": "https://bitsy.org/",
-      "title_zh": "Bitsy",
-      "created_display": "Created: Jun 11, 2026 / 13:56 PT",
-      "image_url": "https://bitsy.org/image/cat.svg",
-      "summary_en": "Bitsy is a browser-based platform for making tiny, retro-style games.",
-      "summary_zh": "Bitsy 是一个基于浏览器的平台，用于制作简易、复古风格的游戏。",
-      "hn": {
-        "id": 48496290,
-        "type": "story",
-        "by": "tosh",
-        "score": 148,
-        "descendants": 4,
-        "time": 1781211390,
-        "comments_url": "https://news.ycombinator.com/item?id=48496290"
-      },
-      "hot_score": 0.05,
-      "tags": [
-        "Gaming",
+        "Hardware",
         "Web"
-      ]
-    },
-    {
-      "title_en": "Prove you're human by winning a claw machine",
-      "url": "https://feralui.vercel.app/#/captcha",
-      "title_zh": "通过抓娃娃机证明你是人类",
-      "created_display": "Created: Jun 12, 2026 / 06:23 PT",
-      "image_url": null,
-      "summary_en": "A playful CAPTCHA concept replaces traditional challenges with a claw-machine game, letting humans prove themselves by winning a prize. The idea foregrounds gamified verification but raises questions about accessibility and practicality at scale.",
-      "summary_zh": "一个有趣的验证码设想用抓娃娃机游戏取代传统测试，让人类通过赢得奖品来证明身份。该思路强调了游戏化验证的趣味性，同时也提出了无障碍性与规模化应用的现实问题。",
-      "hn": {
-        "id": 48503806,
-        "type": "story",
-        "by": "speckx",
-        "score": 54,
-        "descendants": 42,
-        "time": 1781270628,
-        "comments_url": "https://news.ycombinator.com/item?id=48503806"
-      },
-      "hot_score": 0.03,
-      "tags": [
-        "Security",
-        "Entertainment"
       ]
     },
     {
@@ -900,28 +1048,6 @@
       ]
     },
     {
-      "title_en": "Why does paper fold so well?",
-      "url": "https://www.bbc.co.uk/programmes/w3ct8k70",
-      "title_zh": "纸为何能折叠得这么好？",
-      "created_display": "Created: Jun 13, 2026 / 12:31 PT",
-      "image_url": "https://ichef.bbci.co.uk/images/ic/1200x675/p0nrcq42.jpg",
-      "summary_en": "An explainer delves into the physics of paper folding, showing how thickness, crease propagation, and layering govern how reliably a crease holds and how many folds you can make. The takeaway for makers is that geometry and material properties, not just technique, determine how a sheet behaves when folded.",
-      "summary_zh": "一则科普解说纸张折叠的物理原理，揭示厚度、皱褶传播与层叠等因素如何影响折痕的稳定性与可折叠次数。对创作者而言，关键在于几何结构与材料特性共同决定折叠时的表现。",
-      "hn": {
-        "id": 48520596,
-        "type": "story",
-        "by": "zeristor",
-        "score": 24,
-        "descendants": 3,
-        "time": 1781379114,
-        "comments_url": "https://news.ycombinator.com/item?id=48520596"
-      },
-      "hot_score": 0.03,
-      "tags": [
-        "Science"
-      ]
-    },
-    {
       "title_en": "Segmented type appreciation corner (2018)",
       "url": "https://aresluna.org/segmented-type/",
       "title_zh": "分段字体欣赏角落（2018）",
@@ -933,15 +1059,87 @@
         "id": 48489636,
         "type": "story",
         "by": "unexpectedVCR",
-        "score": 71,
+        "score": 77,
         "descendants": 16,
         "time": 1781182229,
         "comments_url": "https://news.ycombinator.com/item?id=48489636"
       },
       "tags": [
-        "Design"
+        "Design",
+        "Culture"
       ],
       "hot_score": 0.02
+    },
+    {
+      "title_en": "Foreign business owners are scrambling to raise capital to stay in Japan",
+      "url": "https://tokyopaladin.substack.com/p/foreign-business-owners-are-scrambling",
+      "title_zh": "外国企业主正在拼命筹资以留在日本",
+      "created_display": "Created: Jun 11, 2026 / 21:24 PT",
+      "image_url": null,
+      "summary_en": "Foreign business owners in Japan are scrambling to raise capital to stay in the country, signaling tightening funding conditions and regulatory or visa pressures for non-Japanese operators.",
+      "summary_zh": "日本的外国企业主正在拼命筹集资金以留在日本，这反映出融资环境收紧以及对非日籍经营者的签证与监管压力。该文章凸显了外国资本企业的困境及其对日本创业生态的影响。",
+      "hn": {
+        "id": 48499898,
+        "type": "story",
+        "by": "zdw",
+        "score": 63,
+        "descendants": 31,
+        "time": 1781238293,
+        "comments_url": "https://news.ycombinator.com/item?id=48499898"
+      },
+      "hot_score": 0.02,
+      "tags": [
+        "Business",
+        "Finance",
+        "Politics"
+      ]
+    },
+    {
+      "title_en": "Prove you're human by winning a claw machine",
+      "url": "https://feralui.vercel.app/#/captcha",
+      "title_zh": "通过抓娃娃机证明你是人类",
+      "created_display": "Created: Jun 12, 2026 / 06:23 PT",
+      "image_url": null,
+      "summary_en": "A playful CAPTCHA concept replaces traditional challenges with a claw-machine game, letting humans prove themselves by winning a prize. The idea foregrounds gamified verification but raises questions about accessibility and practicality at scale.",
+      "summary_zh": "一个有趣的验证码设想用抓娃娃机游戏取代传统测试，让人类通过赢得奖品来证明身份。该思路强调了游戏化验证的趣味性，同时也提出了无障碍性与规模化应用的现实问题。",
+      "hn": {
+        "id": 48503806,
+        "type": "story",
+        "by": "speckx",
+        "score": 54,
+        "descendants": 42,
+        "time": 1781270628,
+        "comments_url": "https://news.ycombinator.com/item?id=48503806"
+      },
+      "hot_score": 0.02,
+      "tags": [
+        "Security",
+        "Entertainment"
+      ]
+    },
+    {
+      "title_en": "Being an old school web-based sports sim dev in the era of vibe coded games",
+      "url": "https://zengm.com/blog/2026/06/vibecoded-games/",
+      "title_zh": "在 vibe 编码游戏盛行的时代，做老派网页体育模拟开发",
+      "created_display": "Created: Jun 12, 2026 / 11:52 PT",
+      "image_url": "https://zengm.com/files/bootstrap-icons/moon-fill.svg",
+      "summary_en": "The post reflects on building web-based sports simulations in an era driven by vibe-coded games, emphasizing data-driven simulations, deterministic results, and maintainable code over flashy effects. It offers lessons for long‑lived game logic, scaling, and tooling in a browser-first ecosystem.",
+      "summary_zh": "该文回顾在 vibe 编码游戏盛行的时代，如何开发基于网页的体育模拟，强调数据驱动的仿真、确定性结果和可维护的代码，而非炫酷特效。为在浏览器优先的生态中构建长期可扩展的游戏逻辑、工具链提供了经验教训。",
+      "hn": {
+        "id": 48508021,
+        "type": "story",
+        "by": "YesBox",
+        "score": 37,
+        "descendants": 23,
+        "time": 1781290364,
+        "comments_url": "https://news.ycombinator.com/item?id=48508021"
+      },
+      "hot_score": 0.02,
+      "tags": [
+        "Programming",
+        "Web",
+        "Gaming"
+      ]
     },
     {
       "title_en": "Show HN: 3D print Z reinforcement via injected loops",
@@ -955,14 +1153,37 @@
         "id": 48460762,
         "type": "story",
         "by": "mgunlogson",
-        "score": 61,
-        "descendants": 29,
+        "score": 62,
+        "descendants": 34,
         "time": 1781011073,
         "comments_url": "https://news.ycombinator.com/item?id=48460762"
       },
       "tags": [
         "Show HN",
         "Hardware"
+      ],
+      "hot_score": 0.01
+    },
+    {
+      "title_en": "There Is(Ǝ) – Such That (∋)",
+      "url": "https://www.fractalkitty.com/there-is-3-such-that/",
+      "title_zh": "There Is(Ǝ) – Such That (∋)",
+      "created_display": "Created: Jun 11, 2026 / 07:13 PT",
+      "image_url": "https://storage.ghost.io/c/1b/2e/1b2e7dbb-ac74-48f3-b18d-86f3e8bdb643/content/images/size/w1200/2026/06/te-st.png",
+      "summary_en": "Explores how existential quantification and such-that notation appear in logic, offering intuition for how constraints shape reasoning in algorithms and proofs.",
+      "summary_zh": "探讨存在量词（There exists）与“使得”符号在逻辑中的互动，结合例子直观展示约束如何影响算法与证明中的推理。",
+      "hn": {
+        "id": 48490649,
+        "type": "story",
+        "by": "evakhoury",
+        "score": 56,
+        "descendants": 20,
+        "time": 1781187183,
+        "comments_url": "https://news.ycombinator.com/item?id=48490649"
+      },
+      "tags": [
+        "Science",
+        "Education"
       ],
       "hot_score": 0.01
     },
@@ -978,8 +1199,8 @@
         "id": 48489309,
         "type": "story",
         "by": "mooreds",
-        "score": 49,
-        "descendants": 97,
+        "score": 54,
+        "descendants": 105,
         "time": 1781180122,
         "comments_url": "https://news.ycombinator.com/item?id=48489309"
       },
@@ -990,25 +1211,24 @@
       "hot_score": 0.01
     },
     {
-      "title_en": "Quivers: A year of linear algebra by drawing arrows",
-      "url": "https://lisyarus.github.io/blog/posts/quivers-a-year-of-linear-algebra-by-drawing-arrows.html",
-      "title_zh": "Quivers：用画箭头来学习线性代数的一年",
-      "created_display": "Created: Jun 10, 2026 / 04:57 PT",
-      "image_url": "https://lisyarus.github.io/blog/media/quivers-a-year-of-linear-algebra-by-drawing-arrows/cover.png",
-      "summary_en": "Quivers uses arrows and directed graphs to visualize linear algebra concepts over a year-long exploration. The approach aims to build intuition for vector spaces, linear maps, and transformations.",
-      "summary_zh": "通过用箭头和有向图来直观呈现线性代数概念，这是一年中的学习尝试。该方法帮助理解向量空间、线性映射与变换。",
+      "title_en": "A short history of Cerro Torre, the most controversial mountain (2012)",
+      "url": "https://www.markhorrell.com/blog/2012/a-short-history-of-cerro-torre/",
+      "title_zh": "Cerro Torre 的简史：最具争议的山峰（2012）",
+      "created_display": "Created: Jun 10, 2026 / 17:25 PT",
+      "image_url": "https://i0.wp.com/www.markhorrell.com/wp-content/uploads/PICT0277.jpg?fit=1200%2C900&ssl=1",
+      "summary_en": "A concise history of Cerro Torre, the Patagonian peak famed for its dramatic climbs and controversial ascent disputed by climbers and guidebooks, tracing expeditions, contested routes, and the ethics of style in extreme mountaineering.",
+      "summary_zh": "简要回顾巴塔哥尼亚 Cerro Torre 的历史——因极端攀登、被质疑的攀登记录以及对“风格与伦理”的持续辩论而著称。文章梳理了多次探险、被争议的路线，以及极限攀登中的风格问题。",
       "hn": {
-        "id": 48474982,
+        "id": 48484711,
         "type": "story",
-        "by": "ibobev",
-        "score": 47,
-        "descendants": 6,
-        "time": 1781092641,
-        "comments_url": "https://news.ycombinator.com/item?id=48474982"
+        "by": "joebig",
+        "score": 51,
+        "descendants": 27,
+        "time": 1781137505,
+        "comments_url": "https://news.ycombinator.com/item?id=48484711"
       },
       "tags": [
-        "Science",
-        "Education"
+        "Culture"
       ],
       "hot_score": 0.01
     },
@@ -1024,16 +1244,39 @@
         "id": 48476539,
         "type": "story",
         "by": "scott_s",
-        "score": 40,
-        "descendants": 4,
+        "score": 51,
+        "descendants": 6,
         "time": 1781100516,
         "comments_url": "https://news.ycombinator.com/item?id=48476539"
       },
-      "hot_score": 0.01,
       "tags": [
         "Programming",
+        "Open Source",
         "Hardware"
-      ]
+      ],
+      "hot_score": 0.01
+    },
+    {
+      "title_en": "Quivers: A year of linear algebra by drawing arrows",
+      "url": "https://lisyarus.github.io/blog/posts/quivers-a-year-of-linear-algebra-by-drawing-arrows.html",
+      "title_zh": "Quivers：用画箭头来学习线性代数的一年",
+      "created_display": "Created: Jun 10, 2026 / 04:57 PT",
+      "image_url": "https://lisyarus.github.io/blog/media/quivers-a-year-of-linear-algebra-by-drawing-arrows/cover.png",
+      "summary_en": "Quivers uses arrows and directed graphs to visualize linear algebra concepts over a year-long exploration. The approach aims to build intuition for vector spaces, linear maps, and transformations.",
+      "summary_zh": "通过用箭头和有向图来直观呈现线性代数概念，这是一年中的学习尝试。该方法帮助理解向量空间、线性映射与变换。",
+      "hn": {
+        "id": 48474982,
+        "type": "story",
+        "by": "ibobev",
+        "score": 49,
+        "descendants": 6,
+        "time": 1781092641,
+        "comments_url": "https://news.ycombinator.com/item?id=48474982"
+      },
+      "tags": [
+        "Education"
+      ],
+      "hot_score": 0.01
     },
     {
       "title_en": "Chopped, Stored, Secured – The Story of the Hash Function",
@@ -1047,37 +1290,60 @@
         "id": 48482951,
         "type": "story",
         "by": "denismenace",
-        "score": 36,
-        "descendants": 11,
+        "score": 37,
+        "descendants": 13,
         "time": 1781126830,
         "comments_url": "https://news.ycombinator.com/item?id=48482951"
       },
-      "hot_score": 0.01,
       "tags": [
         "Security",
         "Data"
-      ]
+      ],
+      "hot_score": 0.01
     },
     {
-      "title_en": "A short history of Cerro Torre, the most controversial mountain (2012)",
-      "url": "https://www.markhorrell.com/blog/2012/a-short-history-of-cerro-torre/",
-      "title_zh": "Cerro Torre 的简史：最具争议的山峰（2012）",
-      "created_display": "Created: Jun 10, 2026 / 17:25 PT",
-      "image_url": "https://i0.wp.com/www.markhorrell.com/wp-content/uploads/PICT0277.jpg?fit=1200%2C900&ssl=1",
-      "summary_en": "A concise history of Cerro Torre, the Patagonian peak famed for its dramatic climbs and controversial ascent disputed by climbers and guidebooks, tracing expeditions, contested routes, and the ethics of style in extreme mountaineering.",
-      "summary_zh": "简要回顾巴塔哥尼亚 Cerro Torre 的历史——因极端攀登、被质疑的攀登记录以及对“风格与伦理”的持续辩论而著称。文章梳理了多次探险、被争议的路线，以及极限攀登中的风格问题。",
+      "title_en": "Exploring building a tiny FUSE filesystem",
+      "url": "https://www.shayon.dev/post/2026/161/building-a-tiny-fuse-filesystem/",
+      "title_zh": "探索构建一个小型的 FUSE 文件系统",
+      "created_display": "Created: Jun 12, 2026 / 09:38 PT",
+      "image_url": "https://www.shayon.dev/tiny-filesystem.jpg",
+      "summary_en": "A concise journey building a tiny FUSE filesystem, outlining the core interfaces and minimal kernel-user space interactions, plus practical gotchas for performance and reliability. It’s a pragmatic dive into user-space filesystem development for hobbyists and learners.",
+      "summary_zh": "简要记录搭建一个极小的 FUSE 文件系统的过程，梳理核心接口以及最小化的内核–用户空间交互，并给出性能与可靠性方面的实用注意点。适合爱好者与初学者的实用开发指南。",
       "hn": {
-        "id": 48484711,
+        "id": 48506286,
         "type": "story",
-        "by": "joebig",
-        "score": 29,
-        "descendants": 11,
-        "time": 1781137505,
-        "comments_url": "https://news.ycombinator.com/item?id=48484711"
+        "by": "shayonj",
+        "score": 31,
+        "descendants": 6,
+        "time": 1781282290,
+        "comments_url": "https://news.ycombinator.com/item?id=48506286"
       },
       "hot_score": 0.01,
       "tags": [
-        "Culture"
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "Ported my C game to WASM, here's everybug that I hit",
+      "url": "http://ernesernesto.github.io/writes/portingmatchmorphosistowasm/",
+      "title_zh": "把我的 C 游戏移植到 WASM：遇到的所有问题",
+      "created_display": "Created: Jun 12, 2026 / 10:30 PT",
+      "image_url": "http://ernesernesto.github.io/",
+      "summary_en": "A practical tour of porting a C game to WebAssembly, cataloging design gotchas and debugging woes—from memory layout and linking to browser I/O and performance traps. The post offers concrete tips for developers considering WASM for existing C projects and highlights gaps between native and web runtimes.",
+      "summary_zh": "这是一段将 C 游戏移植到 WebAssembly 的实用笔记，记录从内存布局、链接、浏览器 IO 到性能陷阱等一系列要点和调试难题。为考虑将现有 C 项目转到 WASM 的开发者提供了具体建议，并指出了原生与网页环境之间的差距。",
+      "hn": {
+        "id": 48506980,
+        "type": "story",
+        "by": "birdculture",
+        "score": 26,
+        "descendants": 12,
+        "time": 1781285457,
+        "comments_url": "https://news.ycombinator.com/item?id=48506980"
+      },
+      "hot_score": 0.01,
+      "tags": [
+        "Programming",
+        "Web"
       ]
     },
     {
@@ -1098,32 +1364,31 @@
         "comments_url": "https://news.ycombinator.com/item?id=48485277"
       },
       "tags": [
-        "AI",
-        "Science"
+        "AI"
       ],
       "hot_score": 0.01
     },
     {
-      "title_en": "There Is(Ǝ) – Such That (∋)",
-      "url": "https://www.fractalkitty.com/there-is-3-such-that/",
-      "title_zh": "There Is(Ǝ) – Such That (∋)",
-      "created_display": "Created: Jun 11, 2026 / 07:13 PT",
-      "image_url": "https://storage.ghost.io/c/1b/2e/1b2e7dbb-ac74-48f3-b18d-86f3e8bdb643/content/images/size/w1200/2026/06/te-st.png",
-      "summary_en": "Explores how existential quantification and such-that notation appear in logic, offering intuition for how constraints shape reasoning in algorithms and proofs.",
-      "summary_zh": "探讨存在量词（There exists）与“使得”符号在逻辑中的互动，结合例子直观展示约束如何影响算法与证明中的推理。",
+      "title_en": "Asciline – real-time ASCII video rendering engine",
+      "url": "https://github.com/YusufB5/ASCILINE",
+      "title_zh": "Asciline：实时 ASCII 视频渲染引擎",
+      "created_display": "Created: Jun 11, 2026 / 21:39 PT",
+      "image_url": "https://opengraph.githubassets.com/9b4f37080685b51e7b26342fae0a59f6281d480cc5f9d8f8f220637fee055743/YusufB5/ASCILINE",
+      "summary_en": "Asciline is a real-time ASCII video renderer that converts video frames into ASCII art on the fly, enabling lightweight, terminal-friendly previews or retro aesthetics. The project demonstrates efficient streaming and clever text-based rendering techniques that can run with minimal dependencies.",
+      "summary_zh": "Asciline 是一个实时的 ASCII 视频渲染引擎，能够在传输过程中将视频帧转换成 ASCII 艺术，适合轻量级终端预览和复古风格。该项目展示了高效流式处理和文本渲染技术，依赖极少。",
       "hn": {
-        "id": 48490649,
+        "id": 48499993,
         "type": "story",
-        "by": "evakhoury",
-        "score": 4,
-        "descendants": 0,
-        "time": 1781187183,
-        "comments_url": "https://news.ycombinator.com/item?id=48490649"
+        "by": "godot",
+        "score": 14,
+        "descendants": 1,
+        "time": 1781239186,
+        "comments_url": "https://news.ycombinator.com/item?id=48499993"
       },
       "hot_score": 0.0,
       "tags": [
-        "Science",
-        "Education"
+        "Programming",
+        "Open Source"
       ]
     }
   ]
