@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>115</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>16800</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>112</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>113</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-06-14</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>116</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>16849</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>112</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>114</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-06-15</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,118 +20,118 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='75' data-hn-time='1781474641'>
+<div class='hn-top-story-item' data-hn-score='171' data-hn-time='1781503377'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/14/top_stories_06142026#story-48533308'>Why Is Claude Turning into an a**Hole?</a>
- <a class='hn-top-story-link' href='https://bramcohen.com/p/why-is-claude-turning-into-an-asshole' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/15/top_stories_06152026#story-48537165'>Curl will not accept vulnerability reports during July 2026</a>
+ <a class='hn-top-story-link' href='https://daniel.haxx.se/blog/2026/06/15/curl-summer-of-bliss/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>为什么 Claude 正在变成一个混蛋？</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 75</span> <span class='hn-top-story-comments'>&#128172; 89</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>Curl 将在 2026 年 7 月暂停接受漏洞报告</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 21</span> <span class='hn-top-story-score'>&#9650; 171</span> <span class='hn-top-story-comments'>&#128172; 35</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='327' data-hn-time='1781457938'>
+<div class='hn-top-story-item' data-hn-score='475' data-hn-time='1781477695'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/14/top_stories_06142026#story-48529990'>Show HN: Kage – Shadow any website to a single binary for offline viewing</a>
- <a class='hn-top-story-link' href='https://github.com/tamnd/kage' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/15/top_stories_06152026#story-48533848'>Your ePub Is fine</a>
+ <a class='hn-top-story-link' href='https://andreklein.net/your-epub-is-fine-kobo-disagrees-blame-adobe/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Show HN：Kage — 将任意网站打包为离线可用的单一二进制文件</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.5</span> <span class='hn-top-story-score'>&#9650; 327</span> <span class='hn-top-story-comments'>&#128172; 70</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Web</span></div>
+<div class='hn-top-story-zh'>你的 ePub 没问题</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.1</span> <span class='hn-top-story-score'>&#9650; 475</span> <span class='hn-top-story-comments'>&#128172; 176</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='48' data-hn-time='1781475785'>
+<div class='hn-top-story-item' data-hn-score='142' data-hn-time='1781490625'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/14/top_stories_06142026#story-48533504'>Did Anthropic ask for this?</a>
- <a class='hn-top-story-link' href='https://www.verysane.ai/p/did-anthropic-ask-for-this' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/15/top_stories_06152026#story-48535886'>Even more batteries included with Emacs</a>
+ <a class='hn-top-story-link' href='https://karthinks.com/software/even-more-batteries-included-with-emacs/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Anthropic 要这个吗？</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.2</span> <span class='hn-top-story-score'>&#9650; 48</span> <span class='hn-top-story-comments'>&#128172; 11</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>Emacs 内置功能再升级</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.6</span> <span class='hn-top-story-score'>&#9650; 142</span> <span class='hn-top-story-comments'>&#128172; 25</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='394' data-hn-time='1781448269'>
+<div class='hn-top-story-item' data-hn-score='516' data-hn-time='1781457938'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/14/top_stories_06142026#story-48527700'>Not everyone is using AI for everything</a>
- <a class='hn-top-story-link' href='https://gabrielweinberg.com/p/people-are-consuming-ai-like-they' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/15/top_stories_06152026#story-48529990'>Show HN: Kage – Shadow any website to a single binary for offline viewing</a>
+ <a class='hn-top-story-link' href='https://github.com/tamnd/kage' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>并非人人都把 AI 用到极致</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.9</span> <span class='hn-top-story-score'>&#9650; 394</span> <span class='hn-top-story-comments'>&#128172; 430</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>Show HN：Kage — 将任意网站打包为离线可用的单一二进制文件</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 516</span> <span class='hn-top-story-comments'>&#128172; 106</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='247' data-hn-time='1781451451'>
+<div class='hn-top-story-item' data-hn-score='241' data-hn-time='1781473332'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/14/top_stories_06142026#story-48528371'>Rio de Janeiro's "homegrown" LLM appears to be a merge of an existing model</a>
- <a class='hn-top-story-link' href='https://github.com/nex-agi/Nex-N2/issues/4' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/15/top_stories_06152026#story-48533101'>Windows 11 users are tired of MS account requirements creeping into everything</a>
+ <a class='hn-top-story-link' href='https://www.windowscentral.com/microsoft/windows-11/windows-11-users-are-tired-of-microsoft-account-requirements-and-workarounds' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>里约热内卢的‘本土化’大模型似乎是现有模型的合并</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.4</span> <span class='hn-top-story-score'>&#9650; 247</span> <span class='hn-top-story-comments'>&#128172; 130</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>Windows 11 用户厌倦 Microsoft 账户要求渗透到方方面面</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 241</span> <span class='hn-top-story-comments'>&#128172; 161</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='236' data-hn-time='1781450037'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='456' data-hn-time='1781448269'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/14/top_stories_06142026#story-48528029'>I indexed 669 GB of my GoPro videos using my M1 Max computer and local ML models</a>
- <a class='hn-top-story-link' href='https://news.ycombinator.com/item?id=48528029' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/15/top_stories_06152026#story-48527700'>Not everyone is using AI for everything</a>
+ <a class='hn-top-story-link' href='https://gabrielweinberg.com/p/people-are-consuming-ai-like-they' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>我用 M1 Max 和本地 ML 模型对 669 GB 的 GoPro 视频进行索引</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 236</span> <span class='hn-top-story-comments'>&#128172; 52</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>并非人人都把 AI 用到极致</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 456</span> <span class='hn-top-story-comments'>&#128172; 488</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='202' data-hn-time='1781452890'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='584' data-hn-time='1781437848'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/14/top_stories_06142026#story-48528729'>Linux 7.1</a>
- <a class='hn-top-story-link' href='https://lore.kernel.org/lkml/CAHk-=wi4BF4bMhZNZ1tqs+FFV4OuZRe3ZqdWB+LxRLmRweUzQw@mail.gmail.com/T/#u' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Linux 7.1</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 202</span> <span class='hn-top-story-comments'>&#128172; 75</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Hardware</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='398' data-hn-time='1781437848'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/14/top_stories_06142026#story-48526360'>How to earn a billion dollars</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/15/top_stories_06152026#story-48526360'>How to earn a billion dollars</a>
  <a class='hn-top-story-link' href='https://paulgraham.com/earn.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>如何赚取十亿美元</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.8</span> <span class='hn-top-story-score'>&#9650; 398</span> <span class='hn-top-story-comments'>&#128172; 1197</span> <span class='hn-top-story-tag'>Startups</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 584</span> <span class='hn-top-story-comments'>&#128172; 1593</span> <span class='hn-top-story-tag'>Startups</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='109' data-hn-time='1781461753'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='347' data-hn-time='1781450037'>
+<span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/15/top_stories_06152026#story-48528029'>I indexed 669 GB of my GoPro videos using my M1 Max computer and local ML models</a>
+ <a class='hn-top-story-link' href='https://news.ycombinator.com/item?id=48528029' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>我用 M1 Max 和本地 ML 模型对 669 GB 的 GoPro 视频进行索引</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.9</span> <span class='hn-top-story-score'>&#9650; 347</span> <span class='hn-top-story-comments'>&#128172; 86</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='327' data-hn-time='1781451451'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/14/top_stories_06142026#story-48530841'>Rome Fell and Nobody Noticed</a>
- <a class='hn-top-story-link' href='https://friedkielbasa.substack.com/p/rome-fell-and-nobody-noticed' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/15/top_stories_06152026#story-48528371'>Rio de Janeiro's "homegrown" LLM appears to be a merge of an existing model</a>
+ <a class='hn-top-story-link' href='https://github.com/nex-agi/Nex-N2/issues/4' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>罗马的覆灭被人忽视</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.7</span> <span class='hn-top-story-score'>&#9650; 109</span> <span class='hn-top-story-comments'>&#128172; 37</span> <span class='hn-top-story-tag'>Culture</span></div>
+<div class='hn-top-story-zh'>里约热内卢的‘本土化’大模型似乎是现有模型的合并</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.9</span> <span class='hn-top-story-score'>&#9650; 327</span> <span class='hn-top-story-comments'>&#128172; 181</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Legal</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='44' data-hn-time='1781471086'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='278' data-hn-time='1781452890'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/14/top_stories_06142026#story-48532705'>Zinnia: A modular 64-bit Unix-like kernel written in Rust</a>
- <a class='hn-top-story-link' href='https://zinnia-os.org/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/15/top_stories_06152026#story-48528729'>Linux 7.1</a>
+ <a class='hn-top-story-link' href='https://lore.kernel.org/lkml/CAHk-=wi4BF4bMhZNZ1tqs+FFV4OuZRe3ZqdWB+LxRLmRweUzQw@mail.gmail.com/T/#u' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Zinnia：用 Rust 编写的模块化 64 位类 Unix 内核</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 44</span> <span class='hn-top-story-comments'>&#128172; 3</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-zh'>Linux 7.1</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.7</span> <span class='hn-top-story-score'>&#9650; 278</span> <span class='hn-top-story-comments'>&#128172; 110</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
-<a class='hn-top-stories-more' href='/hackernews/2026/06/14/top_stories_06142026'>View all trending stories &rarr;</a>
+<a class='hn-top-stories-more' href='/hackernews/2026/06/15/top_stories_06152026'>View all trending stories &rarr;</a>
 <a class='hn-top-stories-more' href='/hackernews/2026/06/13/best_stories_06132026'>Latest Daily Best — 2026-06-13 &rarr;</a>
 </div>
 </div>
@@ -139,7 +139,26 @@ Sort:
 <h3 class='hn-section-title'>News Archive <span class='hn-section-zh'>新闻归档</span></h3>
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
-<span class='hn-week-title'>2026 Week 24 <span class='hn-this-week-badge'>This Week</span></span>
+<span class='hn-week-title'>2026 Week 25 <span class='hn-this-week-badge'>This Week</span></span>
+<span class='hn-week-meta'>2026-06-15 <span class="hn-row-sep">·</span> 49 stories <span class="hn-row-sep">·</span> 1 days</span>
+</summary>
+<div class='hn-week-content'>
+<div class='hn-grid'>
+<div class='hn-day-row'>
+<div class='hn-day-date'>2026-06-15 <span class='hn-day-weekday'>Mon</span></div>
+<div class='hn-day-stories'>
+<a class='hn-story-link' href='/hackernews/2026/06/15/top_stories_06152026'>
+<span class='hn-row-type hn-type-top'>Trending</span>
+<span class='hn-row-detail'>All <b>49</b> <span class="hn-row-sep">·</span> Programming <b>12</b> <span class="hn-row-sep">·</span> AI <b>9</b></span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</details>
+<details class='hn-week-group'>
+<summary class='hn-week-summary'>
+<span class='hn-week-title'>2026 Week 24</span>
 <span class='hn-week-meta'>2026-06-08 — 2026-06-14 <span class="hn-row-sep">·</span> 1000 stories <span class="hn-row-sep">·</span> 7 days</span>
 </summary>
 <div class='hn-week-content'>
@@ -552,7 +571,7 @@ Sort:
 <details class='hn-week-group'>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 20</span>
-<span class='hn-week-meta'>2026-05-12 — 2026-05-17 <span class="hn-row-sep">·</span> 235 stories <span class="hn-row-sep">·</span> 2 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
+<span class='hn-week-meta'>2026-05-17 <span class="hn-row-sep">·</span> 135 stories <span class="hn-row-sep">·</span> 1 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
 </summary>
 <div class='hn-week-content'>
 <a class='hn-story-link hn-weekly-digest-link' href='/hackernews/weekly/2026-W20'>
@@ -570,15 +589,6 @@ Sort:
 <a class='hn-story-link' href='/hackernews/2026/05/17/top_stories_05172026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
 <span class='hn-row-detail'>All <b>85</b> <span class="hn-row-sep">·</span> AI <b>21</b> <span class="hn-row-sep">·</span> Programming <b>18</b></span>
-</a>
-</div>
-</div>
-<div class='hn-day-row'>
-<div class='hn-day-date'>2026-05-12 <span class='hn-day-weekday'>Tue</span></div>
-<div class='hn-day-stories'>
-<a class='hn-story-link' href='/hackernews/2026/05/12/top_stories_05122026'>
-<span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>100</b> <span class="hn-row-sep">·</span> AI <b>20</b></span>
 </a>
 </div>
 </div>
