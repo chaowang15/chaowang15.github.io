@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>116</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>16940</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>113</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>114</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-06-15</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>116</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>16950</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>113</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>114</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-06-15</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,7 +20,7 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='509' data-hn-time='1781536386'>
+<div class='hn-top-story-item' data-hn-score='755' data-hn-time='1781536386'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -28,106 +28,106 @@ Sort:
  <a class='hn-top-story-link' href='https://www.iroh.computer/blog/v1' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Iroh 1.0</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 26</span> <span class='hn-top-story-score'>&#9650; 509</span> <span class='hn-top-story-comments'>&#128172; 175</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 19</span> <span class='hn-top-story-score'>&#9650; 755</span> <span class='hn-top-story-comments'>&#128172; 246</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='198' data-hn-time='1781540153'>
+<div class='hn-top-story-item' data-hn-score='99' data-hn-time='1781553657'>
 <span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/15/top_stories_06152026#story-48546294'>A backdoor in a LinkedIn job offer</a>
+ <a class='hn-top-story-link' href='https://roman.pt/posts/linkedin-backdoor/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>LinkedIn招聘广告中的后门</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 15</span> <span class='hn-top-story-score'>&#9650; 99</span> <span class='hn-top-story-comments'>&#128172; 19</span> <span class='hn-top-story-tag'>Security</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='419' data-hn-time='1781540153'>
+<span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/06/15/top_stories_06152026#story-48543475'>TinyWind: A pixel pirate sailing game with real wind physics (380k+ kms sailed)</a>
  <a class='hn-top-story-link' href='https://tinywind.io' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>TinyWind：一款具备真实风力物理的像素海盗航海游戏（航行里程超过38万公里）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 15</span> <span class='hn-top-story-score'>&#9650; 198</span> <span class='hn-top-story-comments'>&#128172; 45</span> <span class='hn-top-story-tag'>Gaming</span> <span class='hn-top-story-tag'>Science</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 14</span> <span class='hn-top-story-score'>&#9650; 419</span> <span class='hn-top-story-comments'>&#128172; 86</span> <span class='hn-top-story-tag'>Gaming</span> <span class='hn-top-story-tag'>Science</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='453' data-hn-time='1781529613'>
-<span class='hn-top-story-rank'>3</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/15/top_stories_06152026#story-48540854'>CrankGPT</a>
- <a class='hn-top-story-link' href='https://crankgpt.com' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>CrankGPT</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 13</span> <span class='hn-top-story-score'>&#9650; 453</span> <span class='hn-top-story-comments'>&#128172; 183</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='655' data-hn-time='1781511832'>
+<div class='hn-top-story-item' data-hn-score='409' data-hn-time='1781534813'>
 <span class='hn-top-story-rank'>4</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/15/top_stories_06152026#story-48538229'>What happened to nerds?</a>
- <a class='hn-top-story-link' href='https://mrmarket.lol/what-the-fuck-happened-to-nerds/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Nerds 发生了什么？</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.4</span> <span class='hn-top-story-score'>&#9650; 655</span> <span class='hn-top-story-comments'>&#128172; 442</span> <span class='hn-top-story-tag'>Culture</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='143' data-hn-time='1781534927'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/15/top_stories_06152026#story-48542132'>Copper transport drug restores memory and clears toxic Alzheimer's proteins</a>
- <a class='hn-top-story-link' href='https://www.monash.edu/news/articles/copper-drug-restores-memory-and-clears-toxic-alzheimers-proteins' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>铜运输药物能恢复记忆并清除有毒的阿尔茨海默蛋白</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.3</span> <span class='hn-top-story-score'>&#9650; 143</span> <span class='hn-top-story-comments'>&#128172; 52</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Health</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='134' data-hn-time='1781534813'>
-<span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/06/15/top_stories_06152026#story-48542100'>Ask HN: Has anyone replaced Claude/GPT with a local model for daily coding?</a>
  <a class='hn-top-story-link' href='https://news.ycombinator.com/item?id=48542100' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Ask HN：有没有人用本地模型替代 Claude/GPT 进行日常编码？</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.8</span> <span class='hn-top-story-score'>&#9650; 134</span> <span class='hn-top-story-comments'>&#128172; 91</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.5</span> <span class='hn-top-story-score'>&#9650; 409</span> <span class='hn-top-story-comments'>&#128172; 230</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='700' data-hn-time='1781503377'>
+<div class='hn-top-story-item' data-hn-score='193' data-hn-time='1781544257'>
+<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/15/top_stories_06152026#story-48544396'>Typst 0.15.0</a>
+ <a class='hn-top-story-link' href='https://typst.app/docs/changelog/0.15.0/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Typst 0.15.0 版本发布</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.0</span> <span class='hn-top-story-score'>&#9650; 193</span> <span class='hn-top-story-comments'>&#128172; 45</span> <span class='hn-top-story-tag'>Programming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='508' data-hn-time='1781529613'>
+<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/15/top_stories_06152026#story-48540854'>CrankGPT</a>
+ <a class='hn-top-story-link' href='https://crankgpt.com' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>CrankGPT</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.8</span> <span class='hn-top-story-score'>&#9650; 508</span> <span class='hn-top-story-comments'>&#128172; 208</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='98' data-hn-time='1781548454'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/15/top_stories_06152026#story-48537165'>Curl will not accept vulnerability reports during July 2026</a>
- <a class='hn-top-story-link' href='https://daniel.haxx.se/blog/2026/06/15/curl-summer-of-bliss/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/15/top_stories_06152026#story-48545260'>Around 200 Stanford students walk out as Google CEO takes stage</a>
+ <a class='hn-top-story-link' href='https://www.sfgate.com/tech/article/sundar-pichai-stanford-commencement-22304888.php' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Curl 将在 2026 年 7 月暂停接受漏洞报告</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.7</span> <span class='hn-top-story-score'>&#9650; 700</span> <span class='hn-top-story-comments'>&#128172; 288</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-zh'>斯坦福学生在谷歌CEO登台时约200人退场抗议</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.0</span> <span class='hn-top-story-score'>&#9650; 98</span> <span class='hn-top-story-comments'>&#128172; 13</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Culture</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='228' data-hn-time='1781525339'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='682' data-hn-time='1781511832'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/15/top_stories_06152026#story-48540126'>Salesforce to Acquire Fin (formerly Intercom) for $3.6B</a>
- <a class='hn-top-story-link' href='https://www.salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin/?bc=HL' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/15/top_stories_06152026#story-48538229'>What happened to nerds?</a>
+ <a class='hn-top-story-link' href='https://mrmarket.lol/what-the-fuck-happened-to-nerds/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Salesforce 将以 36 亿美元收购 Fin（前 Intercom）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.0</span> <span class='hn-top-story-score'>&#9650; 228</span> <span class='hn-top-story-comments'>&#128172; 181</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>Nerds 发生了什么？</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.5</span> <span class='hn-top-story-score'>&#9650; 682</span> <span class='hn-top-story-comments'>&#128172; 457</span> <span class='hn-top-story-tag'>Culture</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='99' data-hn-time='1781536180'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='36' data-hn-time='1781553722'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/15/top_stories_06152026#story-48542433'>My Homelab AI Dev Platform</a>
- <a class='hn-top-story-link' href='https://rsgm.dev/post/ai-dev-platform/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/15/top_stories_06152026#story-48546306'>US Air Force B-52 bomber crashes after takeoff, Edwards Air Force Base says</a>
+ <a class='hn-top-story-link' href='https://www.reuters.com/business/aerospace-defense/us-air-force-b-52-bomber-crashes-after-takeoff-edwards-air-force-base-says-2026-06-15/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>我的自家实验室 AI 开发平台</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.9</span> <span class='hn-top-story-score'>&#9650; 99</span> <span class='hn-top-story-comments'>&#128172; 28</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>美空军B-52轰炸机起飞后坠毁，爱德华空军基地称</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.3</span> <span class='hn-top-story-score'>&#9650; 36</span> <span class='hn-top-story-comments'>&#128172; 20</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='167' data-hn-time='1781527803'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='90' data-hn-time='1781545959'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/15/top_stories_06152026#story-48540499'>Fox to buy Roku</a>
- <a class='hn-top-story-link' href='https://www.wsj.com/business/deals/fox-roku-deal-f6e564f9' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/15/top_stories_06152026#story-48544781'>Game Engine White Papers Commander Keen</a>
+ <a class='hn-top-story-link' href='https://forgottenbytes.net/commander_keen.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>福克斯拟收购罗克</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.3</span> <span class='hn-top-story-score'>&#9650; 167</span> <span class='hn-top-story-comments'>&#128172; 225</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>游戏引擎白皮书：Commander Keen</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.9</span> <span class='hn-top-story-score'>&#9650; 90</span> <span class='hn-top-story-comments'>&#128172; 26</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Gaming</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -140,7 +140,7 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 25 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-06-15 <span class="hn-row-sep">·</span> 90 stories <span class="hn-row-sep">·</span> 1 days</span>
+<span class='hn-week-meta'>2026-06-15 <span class="hn-row-sep">·</span> 100 stories <span class="hn-row-sep">·</span> 1 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/06/15/top_stories_06152026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>90</b> <span class="hn-row-sep">·</span> Programming <b>24</b> <span class="hn-row-sep">·</span> AI <b>20</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>29</b> <span class="hn-row-sep">·</span> AI <b>23</b></span>
 </a>
 </div>
 </div>
