@@ -20,7 +20,7 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='263' data-hn-time='1781638925'>
+<div class='hn-top-story-item' data-hn-score='373' data-hn-time='1781638925'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -28,32 +28,32 @@ Sort:
  <a class='hn-top-story-link' href='https://www.timescolonist.com/local-news/us-pulling-ocean-sensors-a-shock-for-canadian-research-as-el-nino-nears-12422874' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>美国撤走海洋传感器对加拿大研究造成冲击，厄尔尼诺逼近</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 35</span> <span class='hn-top-story-score'>&#9650; 263</span> <span class='hn-top-story-comments'>&#128172; 111</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>DevOps</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 17</span> <span class='hn-top-story-score'>&#9650; 373</span> <span class='hn-top-story-comments'>&#128172; 227</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>DevOps</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='756' data-hn-time='1781620617'>
+<div class='hn-top-story-item' data-hn-score='217' data-hn-time='1781642075'>
 <span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/16/top_stories_06162026#story-48561654'>GrapheneOS has been ported to Android 17 and official releases are coming soon</a>
+ <a class='hn-top-story-link' href='https://discuss.grapheneos.org/d/36469-grapheneos-has-been-ported-to-android-17-and-official-releases-are-coming-soon' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>GrapheneOS 已移植至 Android 17，官方发布即将到来</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 13</span> <span class='hn-top-story-score'>&#9650; 217</span> <span class='hn-top-story-comments'>&#128172; 88</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Privacy</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='925' data-hn-time='1781620617'>
+<span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/06/16/top_stories_06162026#story-48555993'>Running local models is good now</a>
  <a class='hn-top-story-link' href='https://vickiboykis.com/2026/06/15/running-local-models-is-good-now/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>本地运行模型现在已经可行</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 17</span> <span class='hn-top-story-score'>&#9650; 756</span> <span class='hn-top-story-comments'>&#128172; 344</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 13</span> <span class='hn-top-story-score'>&#9650; 925</span> <span class='hn-top-story-comments'>&#128172; 395</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='378' data-hn-time='1781626326'>
-<span class='hn-top-story-rank'>3</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/16/top_stories_06162026#story-48557530'>Apple's weird anti-nausea dots cured my car sickness</a>
- <a class='hn-top-story-link' href='https://www.theverge.com/tech/942854/apple-vehicle-motion-cues-review-really-work' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>苹果的抗晕点真的治愈我的车晕</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 13</span> <span class='hn-top-story-score'>&#9650; 378</span> <span class='hn-top-story-comments'>&#128172; 115</span> <span class='hn-top-story-tag'>Design</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='143' data-hn-time='1781635041'>
+<div class='hn-top-story-item' data-hn-score='337' data-hn-time='1781635041'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -61,43 +61,43 @@ Sort:
  <a class='hn-top-story-link' href='https://arseniyshestakov.com/2026/06/16/apple-is-about-to-make-hide-my-email-useless/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>苹果即将让 Hide My Email 失效</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 143</span> <span class='hn-top-story-comments'>&#128172; 58</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 337</span> <span class='hn-top-story-comments'>&#128172; 198</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='255' data-hn-time='1781628152'>
+<div class='hn-top-story-item' data-hn-score='494' data-hn-time='1781626326'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/16/top_stories_06162026#story-48558045'>Why is Meta destroying its engineering organization?</a>
- <a class='hn-top-story-link' href='https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/16/top_stories_06162026#story-48557530'>Apple's weird anti-nausea dots cured my car sickness</a>
+ <a class='hn-top-story-link' href='https://www.theverge.com/tech/942854/apple-vehicle-motion-cues-review-really-work' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>为何 Meta 正在削弱其工程组织？</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.9</span> <span class='hn-top-story-score'>&#9650; 255</span> <span class='hn-top-story-comments'>&#128172; 206</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-zh'>苹果的抗晕点真的治愈我的车晕</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.3</span> <span class='hn-top-story-score'>&#9650; 494</span> <span class='hn-top-story-comments'>&#128172; 159</span> <span class='hn-top-story-tag'>Design</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='166' data-hn-time='1781631030'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='168' data-hn-time='1781640725'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/16/top_stories_06162026#story-48558766'>Claude: Elevated errors across many models</a>
- <a class='hn-top-story-link' href='https://status.claude.com/incidents/xmhsglsz3h3w' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/16/top_stories_06162026#story-48561332'>I've always wondered if anyone used sharing buttons on news sites and blogs</a>
+ <a class='hn-top-story-link' href='https://ankursethi.com/links/nobody-clicks-your-share-buttons/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Claude：多模型普遍出现错误</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.3</span> <span class='hn-top-story-score'>&#9650; 166</span> <span class='hn-top-story-comments'>&#128172; 142</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>我一直在想，新闻站和博客上的分享按钮到底有多少人会用？</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.9</span> <span class='hn-top-story-score'>&#9650; 168</span> <span class='hn-top-story-comments'>&#128172; 88</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='45' data-hn-time='1781640725'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='339' data-hn-time='1781628152'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/16/top_stories_06162026#story-48561332'>Nobody clicks your share buttons</a>
- <a class='hn-top-story-link' href='https://ankursethi.com/links/nobody-clicks-your-share-buttons/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/16/top_stories_06162026#story-48558045'>Is Meta destroying its engineering organization?</a>
+ <a class='hn-top-story-link' href='https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>没有人会点你的分享按钮</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.0</span> <span class='hn-top-story-score'>&#9650; 45</span> <span class='hn-top-story-comments'>&#128172; 14</span> <span class='hn-top-story-tag'>Web</span></div>
+<div class='hn-top-story-zh'>为何 Meta 正在削弱其工程组织？</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.0</span> <span class='hn-top-story-score'>&#9650; 339</span> <span class='hn-top-story-comments'>&#128172; 306</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='681' data-hn-time='1781606664'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='803' data-hn-time='1781606664'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -105,10 +105,10 @@ Sort:
  <a class='hn-top-story-link' href='https://www.reuters.com/legal/transactional/spacex-buy-anysphere-60-billion-2026-06-16/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>SpaceX将以600亿美元收购Cursor</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.7</span> <span class='hn-top-story-score'>&#9650; 681</span> <span class='hn-top-story-comments'>&#128172; 1092</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Space</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.5</span> <span class='hn-top-story-score'>&#9650; 803</span> <span class='hn-top-story-comments'>&#128172; 1225</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Space</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='572' data-hn-time='1781609187'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='606' data-hn-time='1781609187'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -116,18 +116,18 @@ Sort:
  <a class='hn-top-story-link' href='https://ciechanow.ski/mechanical-watch/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>机械表（2022）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.2</span> <span class='hn-top-story-score'>&#9650; 572</span> <span class='hn-top-story-comments'>&#128172; 107</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Energy</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.3</span> <span class='hn-top-story-score'>&#9650; 606</span> <span class='hn-top-story-comments'>&#128172; 113</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Energy</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='157' data-hn-time='1781628058'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='34' data-hn-time='1781648155'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/16/top_stories_06162026#story-48558018'>TIL: You can make HTTP requests without curl using Bash /dev/TCP</a>
- <a class='hn-top-story-link' href='https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/16/top_stories_06162026#story-48562957'>The UK's Teen Social Media Ban Is Political Theater, Not Child Safety Policy</a>
+ <a class='hn-top-story-link' href='https://www.techdirt.com/2026/06/16/the-uks-teen-social-media-ban-is-political-theater-not-child-safety-policy/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>今天学到：可以用 Bash 的 /dev/TCP 发起 HTTP 请求，无需 curl</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.0</span> <span class='hn-top-story-score'>&#9650; 157</span> <span class='hn-top-story-comments'>&#128172; 86</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>英国青少年社交媒体禁令是政治表演，并非儿童安全政策</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.5</span> <span class='hn-top-story-score'>&#9650; 34</span> <span class='hn-top-story-comments'>&#128172; 22</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Health</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/06/16/top_stories_06162026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>27</b> <span class="hn-row-sep">·</span> Programming <b>23</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>27</b> <span class="hn-row-sep">·</span> Programming <b>17</b></span>
 </a>
 </div>
 </div>
