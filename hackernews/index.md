@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>119</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>17381</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>116</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>117</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-06-18</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>119</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>17398</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>116</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>117</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-06-18</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,7 +20,7 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='242' data-hn-time='1781792227'>
+<div class='hn-top-story-item' data-hn-score='522' data-hn-time='1781792227'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -28,98 +28,98 @@ Sort:
  <a class='hn-top-story-link' href='https://www.bluewin.ch/en/news/switzerland/parliament-lifts-ban-on-new-nuclear-power-plants-3257535.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>瑞士议会解除对新核电厂的禁令</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 15</span> <span class='hn-top-story-score'>&#9650; 242</span> <span class='hn-top-story-comments'>&#128172; 124</span> <span class='hn-top-story-tag'>Energy</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 522</span> <span class='hn-top-story-comments'>&#128172; 336</span> <span class='hn-top-story-tag'>Energy</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='326' data-hn-time='1781785145'>
+<div class='hn-top-story-item' data-hn-score='340' data-hn-time='1781795563'>
 <span class='hn-top-story-rank'>2</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/18/top_stories_06182026#story-48584207'>Microsoft new Outlook takes 10 seconds to do what Outlook Classic does instantly</a>
- <a class='hn-top-story-link' href='https://www.windowslatest.com/2026/06/15/microsofts-new-outlook-takes-10-seconds-to-do-what-outlook-classic-does-instantly-on-windows/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>微软新版 Outlook 比经典版慢十秒</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 326</span> <span class='hn-top-story-comments'>&#128172; 236</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Design</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='286' data-hn-time='1781784653'>
-<span class='hn-top-story-rank'>3</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/18/top_stories_06182026#story-48584135'>Emacs 31 is around the corner: The changes I'm daily driving</a>
- <a class='hn-top-story-link' href='https://www.rahuljuliato.com/posts/emacs-31-around-the-corner' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Emacs 31 即将到来：我日常使用中的变更点</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.1</span> <span class='hn-top-story-score'>&#9650; 286</span> <span class='hn-top-story-comments'>&#128172; 134</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Open Source</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='109' data-hn-time='1781793943'>
-<span class='hn-top-story-rank'>4</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/18/top_stories_06182026#story-48586231'>What was nice about the UI of Windows 2000</a>
- <a class='hn-top-story-link' href='https://movq.de/blog/postings/2026-06-16/0/POSTING-en.html' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Windows 2000 的用户界面有哪些值得称道之处</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.2</span> <span class='hn-top-story-score'>&#9650; 109</span> <span class='hn-top-story-comments'>&#128172; 79</span> <span class='hn-top-story-tag'>Design</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='89' data-hn-time='1781795563'>
-<span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/06/18/top_stories_06182026#story-48586631'>A website that lists websites to submit your website to</a>
  <a class='hn-top-story-link' href='https://www.submission.directory/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>一个收录可提交你自己网站的网址的目录站点</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.1</span> <span class='hn-top-story-score'>&#9650; 89</span> <span class='hn-top-story-comments'>&#128172; 21</span> <span class='hn-top-story-tag'>Web</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.8</span> <span class='hn-top-story-score'>&#9650; 340</span> <span class='hn-top-story-comments'>&#128172; 78</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='269' data-hn-time='1781783143'>
-<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-item' data-hn-score='203' data-hn-time='1781801725'>
+<span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/18/top_stories_06182026#story-48588216'>The founder of Craigslist has given away half a billion dollars</a>
+ <a class='hn-top-story-link' href='https://www.independent.co.uk/us/money/craigslist-multimillionaire-craig-newmark-b2980681.html' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Craigslist 创始人捐出 5 亿美元</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.5</span> <span class='hn-top-story-score'>&#9650; 203</span> <span class='hn-top-story-comments'>&#128172; 125</span> <span class='hn-top-story-tag'>Business</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='467' data-hn-time='1781785145'>
+<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/18/top_stories_06182026#story-48584207'>Microsoft new Outlook takes 10 seconds to do what Outlook Classic does instantly</a>
+ <a class='hn-top-story-link' href='https://www.windowslatest.com/2026/06/15/microsofts-new-outlook-takes-10-seconds-to-do-what-outlook-classic-does-instantly-on-windows/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>微软新版 Outlook 比经典版慢十秒</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.3</span> <span class='hn-top-story-score'>&#9650; 467</span> <span class='hn-top-story-comments'>&#128172; 334</span> <span class='hn-top-story-tag'>Design</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='479' data-hn-time='1781783143'>
+<span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/06/18/top_stories_06182026#story-48583928'>I found 10k GitHub repositories distributing Trojan malware</a>
  <a class='hn-top-story-link' href='https://orchidfiles.com/github-repositories-distributing-malware/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>我发现一万多个 GitHub 仓库在分发木马恶意软件</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.7</span> <span class='hn-top-story-score'>&#9650; 269</span> <span class='hn-top-story-comments'>&#128172; 77</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.8</span> <span class='hn-top-story-score'>&#9650; 479</span> <span class='hn-top-story-comments'>&#128172; 121</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1158' data-hn-time='1781747991'>
-<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1244' data-hn-time='1781747991'>
+<span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/06/18/top_stories_06182026#story-48579650'>Midjourney Medical</a>
  <a class='hn-top-story-link' href='https://www.midjourney.com/medical/blogpost' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Midjourney 医疗应用</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.1</span> <span class='hn-top-story-score'>&#9650; 1158</span> <span class='hn-top-story-comments'>&#128172; 782</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Health</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.5</span> <span class='hn-top-story-score'>&#9650; 1244</span> <span class='hn-top-story-comments'>&#128172; 834</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Health</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='107' data-hn-time='1781792670'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='344' data-hn-time='1781784653'>
+<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/18/top_stories_06182026#story-48584135'>Emacs 31 is around the corner: The changes I'm daily driving</a>
+ <a class='hn-top-story-link' href='https://www.rahuljuliato.com/posts/emacs-31-around-the-corner' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Emacs 31 即将到来：我日常使用中的变更点</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.2</span> <span class='hn-top-story-score'>&#9650; 344</span> <span class='hn-top-story-comments'>&#128172; 199</span> <span class='hn-top-story-tag'>Programming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='159' data-hn-time='1781793943'>
 <span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/18/top_stories_06182026#story-48586231'>What was nice about the UI of Windows 2000</a>
+ <a class='hn-top-story-link' href='https://movq.de/blog/postings/2026-06-16/0/POSTING-en.html' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Windows 2000 的用户界面有哪些值得称道之处</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.1</span> <span class='hn-top-story-score'>&#9650; 159</span> <span class='hn-top-story-comments'>&#128172; 147</span> <span class='hn-top-story-tag'>Design</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='169' data-hn-time='1781792670'>
+<span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/06/18/top_stories_06182026#story-48585866'>Ubiquiti: Enterprise NAS, Built on ZFS</a>
  <a class='hn-top-story-link' href='https://blog.ui.com/article/introducing-enterprise-nas' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Ubiquiti：企业级 NAS，基于 ZFS</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.9</span> <span class='hn-top-story-score'>&#9650; 107</span> <span class='hn-top-story-comments'>&#128172; 73</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 169</span> <span class='hn-top-story-comments'>&#128172; 162</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='72' data-hn-time='1781793133'>
-<span class='hn-top-story-rank'>9</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/18/top_stories_06182026#story-48586005'>Migrate from OpenClaw</a>
- <a class='hn-top-story-link' href='https://hermes-agent.nousresearch.com/docs/guides/migrate-from-openclaw' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>从 OpenClaw 向 Hermes Agent 的迁移</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.9</span> <span class='hn-top-story-score'>&#9650; 72</span> <span class='hn-top-story-comments'>&#128172; 58</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>DevOps</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='345' data-hn-time='1781770080'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='398' data-hn-time='1781770080'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -127,7 +127,7 @@ Sort:
  <a class='hn-top-story-link' href='https://www.tomshardware.com/pc-components/cpus/amd-silently-removes-memory-encryption-from-consumer-ryzen-cpus-leaving-users-unaware-that-they-may-be-vulnerable-security-feature-vanishes-after-newer-agesa-firmware-amd-engineers-go-radio-silent-when-pressed-about-the-change' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>AMD悄然移除消费级 Ryzen CPU 的内存加密</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.7</span> <span class='hn-top-story-score'>&#9650; 345</span> <span class='hn-top-story-comments'>&#128172; 171</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 398</span> <span class='hn-top-story-comments'>&#128172; 189</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -140,7 +140,7 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 25 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-06-15 — 2026-06-18 <span class="hn-row-sep">·</span> 531 stories <span class="hn-row-sep">·</span> 4 days</span>
+<span class='hn-week-meta'>2026-06-15 — 2026-06-18 <span class="hn-row-sep">·</span> 548 stories <span class="hn-row-sep">·</span> 4 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/06/18/top_stories_06182026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>81</b> <span class="hn-row-sep">·</span> Programming <b>19</b> <span class="hn-row-sep">·</span> AI <b>17</b></span>
+<span class='hn-row-detail'>All <b>98</b> <span class="hn-row-sep">·</span> AI <b>23</b> <span class="hn-row-sep">·</span> Programming <b>18</b></span>
 </a>
 </div>
 </div>
