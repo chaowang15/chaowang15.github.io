@@ -4,19 +4,19 @@
     "source": "https://news.ycombinator.com/",
     "api": "https://github.com/HackerNews/API",
     "count_requested": 50,
-    "count_written": 98,
-    "reused_same_day": 31,
+    "count_written": 100,
+    "reused_same_day": 39,
     "reused_cross_day": 0,
-    "new_llm_enriched": 19,
-    "scrape_time_display": "13:21, June 18, 2026 (PDT)",
+    "new_llm_enriched": 11,
+    "scrape_time_display": "16:28, June 18, 2026 (PDT)",
     "timezone": "America/Los_Angeles",
     "date_dir": "2026/06/18",
     "content_date": "2026-06-18",
-    "run_time_local": "13:21, June 18, 2026 (PDT)",
-    "run_time_utc": "2026-06-18 20:21:30 UTC",
+    "run_time_local": "16:28, June 18, 2026 (PDT)",
+    "run_time_utc": "2026-06-18 23:28:03 UTC",
     "incremental": true,
     "stories_max": 100,
-    "hot_score_time_utc": "2026-06-18 20:23:13 UTC"
+    "hot_score_time_utc": "2026-06-18 23:30:10 UTC"
   },
   "items": [
     {
@@ -31,8 +31,8 @@
         "id": 48585746,
         "type": "story",
         "by": "leonidasrup",
-        "score": 522,
-        "descendants": 336,
+        "score": 651,
+        "descendants": 500,
         "time": 1781792227,
         "comments_url": "https://news.ycombinator.com/item?id=48585746"
       },
@@ -41,29 +41,31 @@
         "Politics",
         "Security"
       ],
-      "hot_score": 12.06
+      "hot_score": 8.38
     },
     {
-      "title_en": "A website that lists websites to submit your website to",
-      "url": "https://www.submission.directory/",
-      "title_zh": "一个收录可提交你自己网站的网址的目录站点",
-      "created_display": "Created: Jun 18, 2026 / 08:12 PT",
-      "image_url": "https://www.submission.directory/og.png",
-      "summary_en": "A directory-style site curates places you can submit your own site for listing, helping discovery and potential SEO gains. It highlights submission channels, rules, and best practices for website owners and marketers.",
-      "summary_zh": "该目录站点整理了可提交自己网站的入口，帮助被更多人发现并可能提升 SEO。内容覆盖投稿渠道、规则与最佳实践，适合站长和市场人员快速了解外部提交渠道。",
+      "title_en": "Show HN: Are You in the Weights?",
+      "url": "https://www.intheweights.com/",
+      "title_zh": "Show HN：Are You in the Weights?",
+      "created_display": "Created: Jun 18, 2026 / 13:49 PT",
+      "image_url": "https://intheweights.com/og-tappin.png",
+      "summary_en": "Show HN presents a project centered on model weights, inviting the community to explore, audit, or contribute to a weights-focused tool or dataset.",
+      "summary_zh": "Show HN 展示了一个聚焦模型权重的项目，邀请社区参与探索、审阅或为一个权重相关的工具或数据集贡献。",
       "hn": {
-        "id": 48586631,
+        "id": 48591348,
         "type": "story",
-        "by": "azeemkafridi",
-        "score": 340,
-        "descendants": 78,
-        "time": 1781795563,
-        "comments_url": "https://news.ycombinator.com/item?id=48586631"
+        "by": "turtlesoup",
+        "score": 120,
+        "descendants": 87,
+        "time": 1781815743,
+        "comments_url": "https://news.ycombinator.com/item?id=48591348"
       },
+      "hot_score": 7.38,
       "tags": [
-        "Web"
-      ],
-      "hot_score": 9.77
+        "Show HN",
+        "AI",
+        "Data"
+      ]
     },
     {
       "title_en": "The founder of Craigslist has given away half a billion dollars",
@@ -77,15 +79,38 @@
         "id": 48588216,
         "type": "story",
         "by": "Tomte",
-        "score": 203,
-        "descendants": 125,
+        "score": 286,
+        "descendants": 206,
         "time": 1781801725,
         "comments_url": "https://news.ycombinator.com/item?id=48588216"
       },
-      "hot_score": 9.5,
       "tags": [
-        "Business"
-      ]
+        "Business",
+        "Culture"
+      ],
+      "hot_score": 5.95
+    },
+    {
+      "title_en": "A website that lists websites to submit your website to",
+      "url": "https://www.submission.directory/",
+      "title_zh": "一个收录可提交你自己网站的网址的目录站点",
+      "created_display": "Created: Jun 18, 2026 / 08:12 PT",
+      "image_url": "https://www.submission.directory/og.png",
+      "summary_en": "A directory-style site curates places you can submit your own site for listing, helping discovery and potential SEO gains. It highlights submission channels, rules, and best practices for website owners and marketers.",
+      "summary_zh": "该目录站点整理了可提交自己网站的入口，帮助被更多人发现并可能提升 SEO。内容覆盖投稿渠道、规则与最佳实践，适合站长和市场人员快速了解外部提交渠道。",
+      "hn": {
+        "id": 48586631,
+        "type": "story",
+        "by": "azeemkafridi",
+        "score": 382,
+        "descendants": 85,
+        "time": 1781795563,
+        "comments_url": "https://news.ycombinator.com/item?id=48586631"
+      },
+      "tags": [
+        "Web"
+      ],
+      "hot_score": 5.73
     },
     {
       "title_en": "Microsoft new Outlook takes 10 seconds to do what Outlook Classic does instantly",
@@ -99,15 +124,15 @@
         "id": 48584207,
         "type": "story",
         "by": "Adam-Hincu",
-        "score": 467,
-        "descendants": 334,
+        "score": 579,
+        "descendants": 382,
         "time": 1781785145,
         "comments_url": "https://news.ycombinator.com/item?id=48584207"
       },
       "tags": [
         "Design"
       ],
-      "hot_score": 7.29
+      "hot_score": 5.57
     },
     {
       "title_en": "I found 10k GitHub repositories distributing Trojan malware",
@@ -121,8 +146,8 @@
         "id": 48583928,
         "type": "story",
         "by": "theorchid",
-        "score": 479,
-        "descendants": 121,
+        "score": 623,
+        "descendants": 141,
         "time": 1781783143,
         "comments_url": "https://news.ycombinator.com/item?id=48583928"
       },
@@ -130,7 +155,30 @@
         "Security",
         "Programming"
       ],
-      "hot_score": 6.79
+      "hot_score": 5.56
+    },
+    {
+      "title_en": "I told them forced consent was unlawful. 5 years later it cost Elkjop €1.8M",
+      "url": "https://www.thatprivacyguy.com/blog/elkjop-forced-consent-fine/",
+      "title_zh": "我曾告诉他们强制同意违法，5年后 Elkjøp 被罚 180 万欧元",
+      "created_display": "Created: Jun 18, 2026 / 11:31 PT",
+      "image_url": "https://www.thatprivacyguy.com/blog/assets/2026-06-18-001.png",
+      "summary_en": "Forcing user consent is unlawful and can trigger hefty penalties; this case shows a retailer paying €1.8M five years later. The outcome underscores the necessity of informed, freely given, and revocable consent, plus robust privacy-by-design practices.",
+      "summary_zh": "强制获取用户同意违反法律，最终导致高额罚款；该案五年后 Elkjøp 被处以 €180 万罚金，凸显知情、自由且可撤销同意的重要性，以及以隐私为设计核心的合规实践。",
+      "hn": {
+        "id": 48589501,
+        "type": "story",
+        "by": "speckx",
+        "score": 167,
+        "descendants": 59,
+        "time": 1781807483,
+        "comments_url": "https://news.ycombinator.com/item?id=48589501"
+      },
+      "hot_score": 5.03,
+      "tags": [
+        "Privacy",
+        "Legal"
+      ]
     },
     {
       "title_en": "Midjourney Medical",
@@ -144,17 +192,17 @@
         "id": 48579650,
         "type": "story",
         "by": "ricochet11",
-        "score": 1244,
-        "descendants": 834,
+        "score": 1275,
+        "descendants": 839,
         "time": 1781747991,
         "comments_url": "https://news.ycombinator.com/item?id=48579650"
       },
       "tags": [
         "AI",
-        "Privacy",
-        "Health"
+        "Health",
+        "Privacy"
       ],
-      "hot_score": 5.46
+      "hot_score": 4.34
     },
     {
       "title_en": "Emacs 31 is around the corner: The changes I'm daily driving",
@@ -168,37 +216,40 @@
         "id": 48584135,
         "type": "story",
         "by": "frou_dh",
-        "score": 344,
-        "descendants": 199,
+        "score": 403,
+        "descendants": 220,
         "time": 1781784653,
         "comments_url": "https://news.ycombinator.com/item?id=48584135"
       },
       "tags": [
-        "Programming"
+        "Programming",
+        "Open Source"
       ],
-      "hot_score": 5.24
+      "hot_score": 3.8
     },
     {
-      "title_en": "What was nice about the UI of Windows 2000",
-      "url": "https://movq.de/blog/postings/2026-06-16/0/POSTING-en.html",
-      "title_zh": "Windows 2000 的用户界面有哪些值得称道之处",
-      "created_display": "Created: Jun 18, 2026 / 07:45 PT",
-      "image_url": "https://movq.de/blog/postings/2026-06-16/0/t/cd.jpg.jpg",
-      "summary_en": "A retrospective on the Windows 2000 UI highlights its clarity, consistency, and efficiency for professional use, with design choices that influenced later OS interfaces.",
-      "summary_zh": "回顾 Windows 2000 的用户界面，强调其清晰性、一致性和面向专业用户的高效性，这些设计对后续操作系统界面产生了影响。",
+      "title_en": "Everything Is BOM: Bill of Materials Encyclopedia",
+      "url": "https://bomwiki.com/",
+      "title_zh": "一切都是 BOM：物料清单百科全书",
+      "created_display": "Created: Jun 18, 2026 / 14:03 PT",
+      "image_url": "https://bomwiki.com/og-card-v2.png",
+      "summary_en": "Everything Is BOM argues that software and hardware products rely on a comprehensive bill of materials, mapping components, licenses, and provenance. Visible BOMs improve software supply chain security, license compliance, and risk management in modern tech stacks.",
+      "summary_zh": "Everything Is BOM 指出软件和硬件产品背后都依赖完整的物料清单，涵盖组件、许可和溯源信息。对 BOM 的可视化提升了软件供应链安全、许可合规性与风险管理，是现代技术栈的重要组成部分。",
       "hn": {
-        "id": 48586231,
+        "id": 48591562,
         "type": "story",
-        "by": "npongratz",
-        "score": 159,
-        "descendants": 147,
-        "time": 1781793943,
-        "comments_url": "https://news.ycombinator.com/item?id=48586231"
+        "by": "sebg",
+        "score": 48,
+        "descendants": 15,
+        "time": 1781816611,
+        "comments_url": "https://news.ycombinator.com/item?id=48591562"
       },
+      "hot_score": 3.21,
       "tags": [
-        "Design"
-      ],
-      "hot_score": 4.08
+        "Security",
+        "Legal",
+        "Hardware"
+      ]
     },
     {
       "title_en": "Ubiquiti: Enterprise NAS, Built on ZFS",
@@ -212,16 +263,38 @@
         "id": 48585866,
         "type": "story",
         "by": "ksec",
-        "score": 169,
-        "descendants": 162,
+        "score": 231,
+        "descendants": 216,
         "time": 1781792670,
         "comments_url": "https://news.ycombinator.com/item?id=48585866"
       },
       "tags": [
-        "Data",
-        "Hardware"
+        "Hardware",
+        "Open Source"
       ],
-      "hot_score": 4.0
+      "hot_score": 3.02
+    },
+    {
+      "title_en": "What was nice about the UI of Windows 2000",
+      "url": "https://movq.de/blog/postings/2026-06-16/0/POSTING-en.html",
+      "title_zh": "Windows 2000 的用户界面有哪些值得称道之处",
+      "created_display": "Created: Jun 18, 2026 / 07:45 PT",
+      "image_url": "https://movq.de/blog/postings/2026-06-16/0/t/cd.jpg.jpg",
+      "summary_en": "A retrospective on the Windows 2000 UI highlights its clarity, consistency, and efficiency for professional use, with design choices that influenced later OS interfaces.",
+      "summary_zh": "回顾 Windows 2000 的用户界面，强调其清晰性、一致性和面向专业用户的高效性，这些设计对后续操作系统界面产生了影响。",
+      "hn": {
+        "id": 48586231,
+        "type": "story",
+        "by": "npongratz",
+        "score": 186,
+        "descendants": 168,
+        "time": 1781793943,
+        "comments_url": "https://news.ycombinator.com/item?id=48586231"
+      },
+      "tags": [
+        "Design"
+      ],
+      "hot_score": 2.58
     },
     {
       "title_en": "AMD silently removes memory encryption from consumer Ryzen CPUs",
@@ -235,8 +308,8 @@
         "id": 48582320,
         "type": "story",
         "by": "lompad",
-        "score": 398,
-        "descendants": 189,
+        "score": 414,
+        "descendants": 197,
         "time": 1781770080,
         "comments_url": "https://news.ycombinator.com/item?id=48582320"
       },
@@ -244,7 +317,30 @@
         "Security",
         "Hardware"
       ],
-      "hot_score": 3.32
+      "hot_score": 2.42
+    },
+    {
+      "title_en": "Zero-Touch OAuth for MCP",
+      "url": "https://blog.modelcontextprotocol.io/posts/enterprise-managed-auth/",
+      "title_zh": "MCP 的零触控 OAuth",
+      "created_display": "Created: Jun 18, 2026 / 14:54 PT",
+      "image_url": "https://blog.modelcontextprotocol.io/og-image.png",
+      "summary_en": "Zero-Touch OAuth for MCP introduces an enterprise-friendly OAuth flow that provisions tokens and apps with minimal human intervention. It emphasizes automated onboarding, device registration, and policy-driven access controls to reduce friction while preserving security. This approach helps large organizations deploy cloud-native apps faster without compromising governance.",
+      "summary_zh": "零触控 OAuth 为 MCP 提供面向企业的简化认证流程，尽量减少人工配置即可完成令牌和应用的注册。强调自动化的上线流程、设备注册与基于策略的访问控制，在降低运维成本的同时保持安全性。对于需要快速部署云原生应用的大型组织尤为重要。",
+      "hn": {
+        "id": 48592163,
+        "type": "story",
+        "by": "niyikiza",
+        "score": 24,
+        "descendants": 4,
+        "time": 1781819650,
+        "comments_url": "https://news.ycombinator.com/item?id=48592163"
+      },
+      "hot_score": 2.29,
+      "tags": [
+        "Programming",
+        "Security"
+      ]
     },
     {
       "title_en": "CS 6120: Advanced Compilers: The Self-Guided Online Course (2020)",
@@ -258,39 +354,16 @@
         "id": 48583606,
         "type": "story",
         "by": "ibobev",
-        "score": 230,
-        "descendants": 36,
+        "score": 276,
+        "descendants": 42,
         "time": 1781780671,
         "comments_url": "https://news.ycombinator.com/item?id=48583606"
       },
       "tags": [
-        "Programming",
-        "Education"
+        "Education",
+        "Programming"
       ],
-      "hot_score": 2.91
-    },
-    {
-      "title_en": "Hospitals and universities repurposing drugs at lower cost",
-      "url": "https://www.kcl.ac.uk/news/hospitals-and-universities-repurposing-drugs-at-90-lower-cost",
-      "title_zh": "医院与高校以约90%成本进行药物再利用",
-      "created_display": "Created: Jun 18, 2026 / 03:33 PT",
-      "image_url": "https://www.kcl.ac.uk/newimages/folsm/main-article/bmb/immunotherapy.x188e82a2.png",
-      "summary_en": "Hospitals and universities are repurposing existing drugs to cut treatment costs by up to about 90%, enabling broader access and faster deployment of therapies. The approach raises regulatory and safety considerations, but could reshape drug affordability.",
-      "summary_zh": "医院与高校通过对现有药物进行再利用，治疗成本大幅下降，降幅可达约 90%，从而提升治疗可及性。该做法涉及监管与安全考量，但可能改变药物的可负担性。",
-      "hn": {
-        "id": 48583386,
-        "type": "story",
-        "by": "giuliomagnifico",
-        "score": 248,
-        "descendants": 105,
-        "time": 1781778802,
-        "comments_url": "https://news.ycombinator.com/item?id=48583386"
-      },
-      "tags": [
-        "Health",
-        "Politics"
-      ],
-      "hot_score": 2.89
+      "hot_score": 2.25
     },
     {
       "title_en": "DeepSeek Introduces Vision",
@@ -304,82 +377,40 @@
         "id": 48581458,
         "type": "story",
         "by": "RIshabh235",
-        "score": 424,
-        "descendants": 168,
+        "score": 445,
+        "descendants": 181,
         "time": 1781763460,
         "comments_url": "https://news.ycombinator.com/item?id=48581458"
       },
       "tags": [
-        "AI"
+        "AI",
+        "Programming"
       ],
-      "hot_score": 2.85
+      "hot_score": 2.17
     },
     {
-      "title_en": "Migrating from GNU Stow to Chezmoi",
-      "url": "https://rednafi.com/misc/chezmoi/",
-      "title_zh": "从 GNU Stow 到 Chezmoi 的迁移",
-      "created_display": "Created: Jun 18, 2026 / 10:09 PT",
-      "image_url": "https://blob.rednafi.com/static/images/home/cover-84b7bd64087e.png",
-      "summary_en": "The piece walks through migrating from GNU Stow to Chezmoi for managing dotfiles, highlighting Chezmoi's declarative approach, cross-machine syncing, and built‑in encryption. It covers practical steps and benefits like easier templating and safer updates across devices.",
-      "summary_zh": "文章介绍将 dotfiles 的管理工具从 GNU Stow 迁移到 Chezmoi，并比较了它们在跨主机同步、声明式管理和内置加密方面的差异。还给出迁移的实际步骤，以及在多设备环境中实现更安全、可重复配置的好处。",
+      "title_en": "Hospitals and universities repurposing drugs at lower cost",
+      "url": "https://www.kcl.ac.uk/news/hospitals-and-universities-repurposing-drugs-at-90-lower-cost",
+      "title_zh": "医院与高校以约90%成本进行药物再利用",
+      "created_display": "Created: Jun 18, 2026 / 03:33 PT",
+      "image_url": "https://www.kcl.ac.uk/newimages/folsm/main-article/bmb/immunotherapy.x188e82a2.png",
+      "summary_en": "Hospitals and universities are repurposing existing drugs to cut treatment costs by up to about 90%, enabling broader access and faster deployment of therapies. The approach raises regulatory and safety considerations, but could reshape drug affordability.",
+      "summary_zh": "医院与高校通过对现有药物进行再利用，治疗成本大幅下降，降幅可达约 90%，从而提升治疗可及性。该做法涉及监管与安全考量，但可能改变药物的可负担性。",
       "hn": {
-        "id": 48588413,
+        "id": 48583386,
         "type": "story",
-        "by": "speckx",
-        "score": 52,
-        "descendants": 58,
-        "time": 1781802593,
-        "comments_url": "https://news.ycombinator.com/item?id=48588413"
-      },
-      "hot_score": 2.6,
-      "tags": [
-        "DevOps",
-        "Security"
-      ]
-    },
-    {
-      "title_en": "Migrate from OpenClaw",
-      "url": "https://hermes-agent.nousresearch.com/docs/guides/migrate-from-openclaw",
-      "title_zh": "从 OpenClaw 向 Hermes Agent 的迁移",
-      "created_display": "Created: Jun 18, 2026 / 07:32 PT",
-      "image_url": "https://hermes-agent.nousresearch.com/docs/img/hermes-agent-banner.png",
-      "summary_en": "Migration guide from OpenClaw to Hermes Agent outlines compatibility considerations, porting steps, and guidance for achieving similar agent-based workflows.",
-      "summary_zh": "OpenClaw 向 Hermes Agent 的迁移指南列出兼容性注意事项、迁移步骤，以及实现相似代理工作流的建议。",
-      "hn": {
-        "id": 48586005,
-        "type": "story",
-        "by": "JumpCrisscross",
-        "score": 105,
-        "descendants": 80,
-        "time": 1781793133,
-        "comments_url": "https://news.ycombinator.com/item?id=48586005"
+        "by": "giuliomagnifico",
+        "score": 274,
+        "descendants": 116,
+        "time": 1781778802,
+        "comments_url": "https://news.ycombinator.com/item?id=48583386"
       },
       "tags": [
-        "DevOps"
+        "Health",
+        "Science",
+        "Politics"
       ],
-      "hot_score": 2.55
-    },
-    {
-      "title_en": "Modos Color Monitor Pushes E-Paper Displays Further",
-      "url": "https://spectrum.ieee.org/modos-e-paper-monitor",
-      "title_zh": "Modos 彩色显示器推动电子纸显示屏进一步发展",
-      "created_display": "Created: Jun 18, 2026 / 04:41 PT",
-      "image_url": "https://spectrum.ieee.org/media-library/image.jpg?id=66946972&width=1200&height=600&coordinates=0%2C275%2C0%2C975",
-      "summary_en": "Modos Color Monitor introduces a color e-paper display, pushing low-power, high-contrast visuals toward more practical use cases like dashboards and signage. The development widens the scope of e-paper beyond static text.",
-      "summary_zh": "Modos 彩色显示器带来彩色电子纸，实现低功耗、对比度高的显示，拓展了在仪表板和标牌等场景的应用。电子纸的用途因此更加丰富。",
-      "hn": {
-        "id": 48583897,
-        "type": "story",
-        "by": "Vinnl",
-        "score": 173,
-        "descendants": 45,
-        "time": 1781782881,
-        "comments_url": "https://news.ycombinator.com/item?id=48583897"
-      },
-      "tags": [
-        "Hardware"
-      ],
-      "hot_score": 2.41
+      "hot_score": 2.1
     },
     {
       "title_en": "Lore – Open source version control system designed for scalability",
@@ -393,8 +424,8 @@
         "id": 48571081,
         "type": "story",
         "by": "regnerba",
-        "score": 1214,
-        "descendants": 656,
+        "score": 1221,
+        "descendants": 663,
         "time": 1781706627,
         "comments_url": "https://news.ycombinator.com/item?id=48571081"
       },
@@ -402,74 +433,7 @@
         "Open Source",
         "Programming"
       ],
-      "hot_score": 2.39
-    },
-    {
-      "title_en": "W Social, public institutions and the theater of European digital sovereignty",
-      "url": "https://blog.elenarossini.com/w-social-public-institutions-and-the-theater-of-european-digital-sovereignty/",
-      "title_zh": "W Social、公共机构与欧洲数字主权的舞台",
-      "created_display": "Created: Jun 18, 2026 / 05:46 PT",
-      "image_url": "https://blog.elenarossini.com/content/images/size/w1200/2026/06/WSocial-followup-cover-v4.jpg",
-      "summary_en": "The piece argues that public institutions and platforms like W Social shape Europe’s digital sovereignty narrative, highlighting governance, data governance, and the performative politics around sovereignty. It critiques how rhetoric often masks underlying regulatory tensions.",
-      "summary_zh": "本文探讨像 W Social 这样的平台与公共机构在欧洲数字主权话语中的角色，聚焦治理、数据主权以及主权话语背后的张力。作者指出表述往往掩盖了现实中的监管冲突与政治博弈。",
-      "hn": {
-        "id": 48584497,
-        "type": "story",
-        "by": "nemoniac",
-        "score": 141,
-        "descendants": 90,
-        "time": 1781786764,
-        "comments_url": "https://news.ycombinator.com/item?id=48584497"
-      },
-      "hot_score": 2.38,
-      "tags": [
-        "Politics"
-      ]
-    },
-    {
-      "title_en": "TerraPower in deal with Meta for eight Natrium 345 MW nuclear plants",
-      "url": "https://neutronbytes.com/2026/01/09/terrapower-in-mega-deal-with-meta-for-eight-natrium-345-mw-advanced-nuclear-plants/",
-      "title_zh": "TerraPower 与 Meta 就建设八座 Natrium 345 MW 的先进核电厂达成协议",
-      "created_display": "Created: Jun 18, 2026 / 08:13 PT",
-      "image_url": "https://neutronbytes.com/wp-content/uploads/2024/03/natrium.png",
-      "summary_en": "TerraPower and Meta strike a deal to deploy eight Natrium 345 MW advanced nuclear plants, signaling renewed interest in compact, safe nuclear power for data centers and large-scale computing. The collaboration hints at how tech ecosystems may accelerate clean baseload capacity.",
-      "summary_zh": "TerraPower 与 Meta 就部署八座 Natrium 345 MW 的先进核电厂达成协议，表明对紧凑且安全的核电在数据中心与大规模计算中的兴趣回升。此举揭示科技生态系统可能推动清洁基础电力的扩展。",
-      "hn": {
-        "id": 48586648,
-        "type": "story",
-        "by": "mpweiher",
-        "score": 80,
-        "descendants": 77,
-        "time": 1781795606,
-        "comments_url": "https://news.ycombinator.com/item?id=48586648"
-      },
-      "tags": [
-        "Energy",
-        "Business"
-      ],
-      "hot_score": 2.28
-    },
-    {
-      "title_en": "The Harajuku Moment (2024)",
-      "url": "https://tim.blog/2024/02/09/harajuku-moment/",
-      "title_zh": "原宿时刻",
-      "created_display": "Created: Jun 18, 2026 / 09:05 PT",
-      "image_url": "https://tim.blog/wp-content/uploads/2011/01/5406429807_a80ca7e1f2.jpg",
-      "summary_en": "The Harajuku Moment discusses how subcultures and niche aesthetics can drive mainstream innovation, as communities experiment and share ideas quickly. It's a lens on rapid cultural shifts fueling tech and creative cycles.",
-      "summary_zh": "《原宿时刻》探讨了子文化与小众美学如何推动主流创新，社群快速试验并分享创意。它揭示了加速的文化转变如何促发科技与创意的循环。",
-      "hn": {
-        "id": 48587527,
-        "type": "story",
-        "by": "abhaynayar",
-        "score": 63,
-        "descendants": 43,
-        "time": 1781798758,
-        "comments_url": "https://news.ycombinator.com/item?id=48587527"
-      },
-      "tags": [
-        "Culture"
-      ],
-      "hot_score": 2.27
+      "hot_score": 2.03
     },
     {
       "title_en": ".gitignore Isn't the only way to ignore files in Git",
@@ -483,15 +447,84 @@
         "id": 48583356,
         "type": "story",
         "by": "FergusArgyll",
-        "score": 191,
-        "descendants": 63,
+        "score": 266,
+        "descendants": 84,
         "time": 1781778560,
         "comments_url": "https://news.ycombinator.com/item?id=48583356"
       },
       "tags": [
         "Programming"
       ],
-      "hot_score": 2.2
+      "hot_score": 2.02
+    },
+    {
+      "title_en": "Migrating from GNU Stow to Chezmoi",
+      "url": "https://rednafi.com/misc/chezmoi/",
+      "title_zh": "从 GNU Stow 到 Chezmoi 的迁移",
+      "created_display": "Created: Jun 18, 2026 / 10:09 PT",
+      "image_url": "https://blob.rednafi.com/static/images/home/cover-84b7bd64087e.png",
+      "summary_en": "The piece walks through migrating from GNU Stow to Chezmoi for managing dotfiles, highlighting Chezmoi's declarative approach, cross-machine syncing, and built‑in encryption. It covers practical steps and benefits like easier templating and safer updates across devices.",
+      "summary_zh": "文章介绍将 dotfiles 的管理工具从 GNU Stow 迁移到 Chezmoi，并比较了它们在跨主机同步、声明式管理和内置加密方面的差异。还给出迁移的实际步骤，以及在多设备环境中实现更安全、可重复配置的好处。",
+      "hn": {
+        "id": 48588413,
+        "type": "story",
+        "by": "speckx",
+        "score": 89,
+        "descendants": 93,
+        "time": 1781802593,
+        "comments_url": "https://news.ycombinator.com/item?id=48588413"
+      },
+      "tags": [
+        "DevOps",
+        "Programming",
+        "Security"
+      ],
+      "hot_score": 1.93
+    },
+    {
+      "title_en": "Modos Color Monitor Pushes E-Paper Displays Further",
+      "url": "https://spectrum.ieee.org/modos-e-paper-monitor",
+      "title_zh": "Modos 彩色显示器推动电子纸显示屏进一步发展",
+      "created_display": "Created: Jun 18, 2026 / 04:41 PT",
+      "image_url": "https://spectrum.ieee.org/media-library/image.jpg?id=66946972&width=1200&height=600&coordinates=0%2C275%2C0%2C975",
+      "summary_en": "Modos Color Monitor introduces a color e-paper display, pushing low-power, high-contrast visuals toward more practical use cases like dashboards and signage. The development widens the scope of e-paper beyond static text.",
+      "summary_zh": "Modos 彩色显示器带来彩色电子纸，实现低功耗、对比度高的显示，拓展了在仪表板和标牌等场景的应用。电子纸的用途因此更加丰富。",
+      "hn": {
+        "id": 48583897,
+        "type": "story",
+        "by": "Vinnl",
+        "score": 211,
+        "descendants": 60,
+        "time": 1781782881,
+        "comments_url": "https://news.ycombinator.com/item?id=48583897"
+      },
+      "tags": [
+        "Hardware"
+      ],
+      "hot_score": 1.86
+    },
+    {
+      "title_en": "W Social, public institutions and the theater of European digital sovereignty",
+      "url": "https://blog.elenarossini.com/w-social-public-institutions-and-the-theater-of-european-digital-sovereignty/",
+      "title_zh": "W Social、公共机构与欧洲数字主权的舞台",
+      "created_display": "Created: Jun 18, 2026 / 05:46 PT",
+      "image_url": "https://blog.elenarossini.com/content/images/size/w1200/2026/06/WSocial-followup-cover-v4.jpg",
+      "summary_en": "The piece argues that public institutions and platforms like W Social shape Europe’s digital sovereignty narrative, highlighting governance, data governance, and the performative politics around sovereignty. It critiques how rhetoric often masks underlying regulatory tensions.",
+      "summary_zh": "本文探讨像 W Social 这样的平台与公共机构在欧洲数字主权话语中的角色，聚焦治理、数据主权以及主权话语背后的张力。作者指出表述往往掩盖了现实中的监管冲突与政治博弈。",
+      "hn": {
+        "id": 48584497,
+        "type": "story",
+        "by": "nemoniac",
+        "score": 166,
+        "descendants": 115,
+        "time": 1781786764,
+        "comments_url": "https://news.ycombinator.com/item?id=48584497"
+      },
+      "tags": [
+        "Politics",
+        "Privacy"
+      ],
+      "hot_score": 1.69
     },
     {
       "title_en": "Local Qwen isn't a worse Opus, it's a different tool",
@@ -505,39 +538,17 @@
         "id": 48580209,
         "type": "story",
         "by": "alphabettsy",
-        "score": 433,
-        "descendants": 229,
+        "score": 445,
+        "descendants": 239,
         "time": 1781751860,
         "comments_url": "https://news.ycombinator.com/item?id=48580209"
       },
       "tags": [
         "AI",
+        "Programming",
         "Privacy"
       ],
-      "hot_score": 2.09
-    },
-    {
-      "title_en": "Show HN: Gerrymandle - Daily puzzle game where you redraw electoral districts",
-      "url": "https://gerrymandle.cc/",
-      "title_zh": "Show HN：Gerrymandle - 每日拼图游戏，你重新绘制选区",
-      "created_display": "Created: Jun 18, 2026 / 07:16 PT",
-      "image_url": "https://gerrymandle.cc/gerrymandle/wide_yellow_blue.png",
-      "summary_en": "Show HN: Gerrymandle is a daily puzzle game where you redraw electoral districts, combining map geometry with strategic play. It’s a playful exploration of political geography and algorithmic design.",
-      "summary_zh": "Show HN：Gerrymandle 是一款每日拼图游戏，让你重新绘制选区，结合地图几何与策略玩法。它以有趣的方式展现了政治地理与算法设计。",
-      "hn": {
-        "id": 48585739,
-        "type": "story",
-        "by": "realmofthemad",
-        "score": 86,
-        "descendants": 38,
-        "time": 1781792185,
-        "comments_url": "https://news.ycombinator.com/item?id=48585739"
-      },
-      "tags": [
-        "Show HN",
-        "Gaming"
-      ],
-      "hot_score": 1.96
+      "hot_score": 1.64
     },
     {
       "title_en": "The Token Compression Illusion: Why I'm Skeptical of RTK",
@@ -551,39 +562,128 @@
         "id": 48588755,
         "type": "story",
         "by": "lackoftactics",
-        "score": 33,
-        "descendants": 48,
+        "score": 68,
+        "descendants": 76,
         "time": 1781804220,
         "comments_url": "https://news.ycombinator.com/item?id=48588755"
       },
-      "hot_score": 1.92,
       "tags": [
+        "AI"
+      ],
+      "hot_score": 1.63
+    },
+    {
+      "title_en": "Show HN: Gerrymandle - Daily puzzle game where you redraw electoral districts",
+      "url": "https://gerrymandle.cc/",
+      "title_zh": "Show HN：Gerrymandle - 每日拼图游戏，你重新绘制选区",
+      "created_display": "Created: Jun 18, 2026 / 07:16 PT",
+      "image_url": "https://gerrymandle.cc/gerrymandle/wide_yellow_blue.png",
+      "summary_en": "Show HN: Gerrymandle is a daily puzzle game where you redraw electoral districts, combining map geometry with strategic play. It’s a playful exploration of political geography and algorithmic design.",
+      "summary_zh": "Show HN：Gerrymandle 是一款每日拼图游戏，让你重新绘制选区，结合地图几何与策略玩法。它以有趣的方式展现了政治地理与算法设计。",
+      "hn": {
+        "id": 48585739,
+        "type": "story",
+        "by": "realmofthemad",
+        "score": 117,
+        "descendants": 57,
+        "time": 1781792185,
+        "comments_url": "https://news.ycombinator.com/item?id=48585739"
+      },
+      "tags": [
+        "Show HN",
+        "Gaming"
+      ],
+      "hot_score": 1.49
+    },
+    {
+      "title_en": "TerraPower in deal with Meta for eight Natrium 345 MW nuclear plants",
+      "url": "https://neutronbytes.com/2026/01/09/terrapower-in-mega-deal-with-meta-for-eight-natrium-345-mw-advanced-nuclear-plants/",
+      "title_zh": "TerraPower 与 Meta 就建设八座 Natrium 345 MW 的先进核电厂达成协议",
+      "created_display": "Created: Jun 18, 2026 / 08:13 PT",
+      "image_url": "https://neutronbytes.com/wp-content/uploads/2024/03/natrium.png",
+      "summary_en": "TerraPower and Meta strike a deal to deploy eight Natrium 345 MW advanced nuclear plants, signaling renewed interest in compact, safe nuclear power for data centers and large-scale computing. The collaboration hints at how tech ecosystems may accelerate clean baseload capacity.",
+      "summary_zh": "TerraPower 与 Meta 就部署八座 Natrium 345 MW 的先进核电厂达成协议，表明对紧凑且安全的核电在数据中心与大规模计算中的兴趣回升。此举揭示科技生态系统可能推动清洁基础电力的扩展。",
+      "hn": {
+        "id": 48586648,
+        "type": "story",
+        "by": "mpweiher",
+        "score": 99,
+        "descendants": 87,
+        "time": 1781795606,
+        "comments_url": "https://news.ycombinator.com/item?id=48586648"
+      },
+      "tags": [
+        "Energy",
+        "Business"
+      ],
+      "hot_score": 1.48
+    },
+    {
+      "title_en": "Migrate from OpenClaw",
+      "url": "https://hermes-agent.nousresearch.com/docs/guides/migrate-from-openclaw",
+      "title_zh": "从 OpenClaw 向 Hermes Agent 的迁移",
+      "created_display": "Created: Jun 18, 2026 / 07:32 PT",
+      "image_url": "https://hermes-agent.nousresearch.com/docs/img/hermes-agent-banner.png",
+      "summary_en": "Migration guide from OpenClaw to Hermes Agent outlines compatibility considerations, porting steps, and guidance for achieving similar agent-based workflows.",
+      "summary_zh": "OpenClaw 向 Hermes Agent 的迁移指南列出兼容性注意事项、迁移步骤，以及实现相似代理工作流的建议。",
+      "hn": {
+        "id": 48586005,
+        "type": "story",
+        "by": "JumpCrisscross",
+        "score": 110,
+        "descendants": 91,
+        "time": 1781793133,
+        "comments_url": "https://news.ycombinator.com/item?id=48586005"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 1.46
+    },
+    {
+      "title_en": "Amazon investigating engineers who criticized AI data center expansion",
+      "url": "https://www.cnbc.com/2026/06/18/amazon-engineers-ai-data-center-opposition.html",
+      "title_zh": "亚马逊正在调查批评 AI 数据中心扩张的工程师",
+      "created_display": "Created: Jun 18, 2026 / 13:14 PT",
+      "image_url": "https://image.cnbcfm.com/api/v1/image/108217469-1761596968439-gettyimages-2221389323-AFP_63TY9KL.jpeg?v=1761597002&w=1920&h=1080",
+      "summary_en": "Amazon is investigating engineers who publicly criticized its AI data-center expansion, highlighting tensions around internal dissent and enforcement of communications policies. The case may signal a chilling effect on open critique and could influence retention and AI strategy decisions.",
+      "summary_zh": "亚马逊正在调查公开批评其 AI 数据中心扩张的工程师，凸显企业内部异议与内部沟通政策执行之间的紧张关系。这起事件可能对公开批评产生震慑效应，并影响团队留任和 AI 战略决策。",
+      "hn": {
+        "id": 48590891,
+        "type": "story",
+        "by": "hathym",
+        "score": 29,
+        "descendants": 4,
+        "time": 1781813655,
+        "comments_url": "https://news.ycombinator.com/item?id=48590891"
+      },
+      "hot_score": 1.41,
+      "tags": [
+        "Politics",
         "AI"
       ]
     },
     {
-      "title_en": "Launch HN: TesterArmy (YC P26) – Agents that test web and mobile apps",
-      "url": "https://tester.army",
-      "title_zh": "Launch HN: TesterArmy（YC P26）——测试网页和移动应用的代理",
-      "created_display": "Created: Jun 18, 2026 / 07:49 PT",
-      "image_url": "https://tester.army/og-image.png",
-      "summary_en": "TesterArmy offers autonomous agents designed to test web and mobile apps, feeding results into CI pipelines. Backed by Y Combinator, the project exemplifies the shift toward AI-assisted QA and scalable automated testing.",
-      "summary_zh": "TesterArmy 提供用于测试网页和移动应用的自主代理，能将测试结果推送到持续集成管道。作为 YC 支持的项目，展示了向 AI 辅助质量保证与大规模自动化测试的趋势。",
+      "title_en": "Zork name origin got an update on Wikipedia",
+      "url": "https://www.dpolakovic.space/blogs/zork-part2#update",
+      "title_zh": "Zork 名称起源在维基百科获得更新",
+      "created_display": "Created: Jun 18, 2026 / 13:27 PT",
+      "image_url": "https://www.dpolakovic.space/Pictures/dpolakovic.png",
+      "summary_en": "New details have emerged about the origin of the name Zork, with editors adding context and anecdotes. The update sheds light on Infocom’s naming choices and early software culture that helped the game become a retro-technology icon.",
+      "summary_zh": "关于经典文本冒险游戏 Zork 的名称起源出现新信息，条目中增添了背景与趣闻。此次更新帮助人们了解 Infocom 早期的命名选择及游戏文化，如何让这款作品成为复古科技的标志。",
       "hn": {
-        "id": 48586299,
+        "id": 48591066,
         "type": "story",
-        "by": "okwasniewski",
-        "score": 73,
-        "descendants": 33,
-        "time": 1781794184,
-        "comments_url": "https://news.ycombinator.com/item?id=48586299"
+        "by": "dpola",
+        "score": 27,
+        "descendants": 2,
+        "time": 1781814448,
+        "comments_url": "https://news.ycombinator.com/item?id=48591066"
       },
+      "hot_score": 1.41,
       "tags": [
-        "Startups",
-        "DevOps",
-        "AI"
-      ],
-      "hot_score": 1.89
+        "Culture"
+      ]
     },
     {
       "title_en": "How Alberta Eradicated Rats",
@@ -597,16 +697,38 @@
         "id": 48584709,
         "type": "story",
         "by": "tzury",
-        "score": 89,
-        "descendants": 80,
+        "score": 120,
+        "descendants": 89,
         "time": 1781787958,
         "comments_url": "https://news.ycombinator.com/item?id=48584709"
       },
       "tags": [
-        "Science",
         "Health"
       ],
-      "hot_score": 1.59
+      "hot_score": 1.28
+    },
+    {
+      "title_en": "Launch HN: TesterArmy (YC P26) – Agents that test web and mobile apps",
+      "url": "https://tester.army",
+      "title_zh": "Launch HN: TesterArmy（YC P26）——测试网页和移动应用的代理",
+      "created_display": "Created: Jun 18, 2026 / 07:49 PT",
+      "image_url": "https://tester.army/og-image.png",
+      "summary_en": "TesterArmy offers autonomous agents designed to test web and mobile apps, feeding results into CI pipelines. Backed by Y Combinator, the project exemplifies the shift toward AI-assisted QA and scalable automated testing.",
+      "summary_zh": "TesterArmy 提供用于测试网页和移动应用的自主代理，能将测试结果推送到持续集成管道。作为 YC 支持的项目，展示了向 AI 辅助质量保证与大规模自动化测试的趋势。",
+      "hn": {
+        "id": 48586299,
+        "type": "story",
+        "by": "okwasniewski",
+        "score": 91,
+        "descendants": 43,
+        "time": 1781794184,
+        "comments_url": "https://news.ycombinator.com/item?id=48586299"
+      },
+      "tags": [
+        "AI",
+        "Startups"
+      ],
+      "hot_score": 1.27
     },
     {
       "title_en": "Volkswagen started blocking GrapheneOS users",
@@ -629,30 +751,7 @@
         "Privacy",
         "Open Source"
       ],
-      "hot_score": 1.41
-    },
-    {
-      "title_en": "America Is Headed Toward the Infinite Workweek",
-      "url": "https://www.theatlantic.com/technology/2026/06/ai-agents-jobs-exhaustion/687596/",
-      "title_zh": "美国正走向无限工作周",
-      "created_display": "Created: Jun 18, 2026 / 12:12 PT",
-      "image_url": "https://cdn.theatlantic.com/thumbor/9px0o2AdCWsDJmqUvepFK5-EQUw=/0x43:2000x1085/1200x625/media/img/mt/2026/06/2026_06_12_AI_Burnout_24_Hour_Workday/original.jpg",
-      "summary_en": "The Atlantic piece argues that AI agents and the push for automation could lead to an 'infinite workweek' dynamic, eroding boundaries between work and life as agents keep work pressure ongoing. It examines productivity, burnout, and policy implications.",
-      "summary_zh": "文章认为，人工智能代理和自动化趋势可能让工作时间趋向“无限工作周”，模糊工作与生活的界限，并带来生产力、倦怠和政策层面的挑战。",
-      "hn": {
-        "id": 48590084,
-        "type": "story",
-        "by": "Jtsummers",
-        "score": 12,
-        "descendants": 4,
-        "time": 1781809968,
-        "comments_url": "https://news.ycombinator.com/item?id=48590084"
-      },
-      "hot_score": 1.38,
-      "tags": [
-        "AI",
-        "Business"
-      ]
+      "hot_score": 1.19
     },
     {
       "title_en": "GLM-5.2 is the new leading open weights model on Artificial Analysis",
@@ -675,7 +774,29 @@
         "AI",
         "Open Source"
       ],
-      "hot_score": 1.27
+      "hot_score": 1.1
+    },
+    {
+      "title_en": "The Harajuku Moment (2024)",
+      "url": "https://tim.blog/2024/02/09/harajuku-moment/",
+      "title_zh": "原宿时刻",
+      "created_display": "Created: Jun 18, 2026 / 09:05 PT",
+      "image_url": "https://tim.blog/wp-content/uploads/2011/01/5406429807_a80ca7e1f2.jpg",
+      "summary_en": "The Harajuku Moment discusses how subcultures and niche aesthetics can drive mainstream innovation, as communities experiment and share ideas quickly. It's a lens on rapid cultural shifts fueling tech and creative cycles.",
+      "summary_zh": "《原宿时刻》探讨了子文化与小众美学如何推动主流创新，社群快速试验并分享创意。它揭示了加速的文化转变如何促发科技与创意的循环。",
+      "hn": {
+        "id": 48587527,
+        "type": "story",
+        "by": "abhaynayar",
+        "score": 63,
+        "descendants": 43,
+        "time": 1781798758,
+        "comments_url": "https://news.ycombinator.com/item?id=48587527"
+      },
+      "tags": [
+        "Culture"
+      ],
+      "hot_score": 1.1
     },
     {
       "title_en": "U.S. science is in chaos",
@@ -698,53 +819,7 @@
         "Science",
         "Politics"
       ],
-      "hot_score": 1.26
-    },
-    {
-      "title_en": "We built a persistent agent memory layer on Elasticsearch with 0.89 recall",
-      "url": "https://www.elastic.co/search-labs/blog/agent-memory-elasticsearch",
-      "title_zh": "Elastic 在 Elasticsearch 上构建了一个持久化的代理记忆层，召回率 0.89",
-      "created_display": "Created: Jun 18, 2026 / 04:20 PT",
-      "image_url": "https://cdn.sanity.io/images/me0ej585/search-labs-import-testing/15fbc95df401906a7655ad1c9a7194b954bcce05-1280x720.png?rect=0,24,1280,672&w=1200&h=630",
-      "summary_en": "Elastic builds a persistent agent memory layer atop Elasticsearch to improve long-term context retention and recall in AI agents. The approach demonstrates practical memory-augmented search and automation.",
-      "summary_zh": "Elastic 在 Elasticsearch 上构建了一个持久化的代理记忆层，提升 AI 代理的长期上下文保留与召回能力，展示了记忆增强的搜索与自动化的实际应用。",
-      "hn": {
-        "id": 48583703,
-        "type": "story",
-        "by": "showmypost",
-        "score": 89,
-        "descendants": 35,
-        "time": 1781781618,
-        "comments_url": "https://news.ycombinator.com/item?id=48583703"
-      },
-      "tags": [
-        "AI",
-        "Data"
-      ],
-      "hot_score": 1.17
-    },
-    {
-      "title_en": "Want your images back? That'll be $5",
-      "url": "https://www.lutr.dev/want-your-images-back-sure-that-ll-be-5-dollars",
-      "title_zh": "要回你的图片？要收取5美元",
-      "created_display": "Created: Jun 17, 2026 / 06:05 PT",
-      "image_url": "https://lutr.dev/assets/covers/want-your-images-back-sure-that-ll-be-5-dollars.png",
-      "summary_en": "A service charging a flat fee to retrieve your images highlights the economics of data recovery and ownership in an AI-enabled world. It spotlights the friction and costs users face when reclaiming their own media.",
-      "summary_zh": "关于用固定费用（5 美元）来让用户找回自己的图片，折射出数据所有权、隐私与数据恢复成本在 AI 时代的经济性与伦理议题。",
-      "hn": {
-        "id": 48569954,
-        "type": "story",
-        "by": "lutr",
-        "score": 634,
-        "descendants": 263,
-        "time": 1781701503,
-        "comments_url": "https://news.ycombinator.com/item?id=48569954"
-      },
-      "tags": [
-        "Data",
-        "AI"
-      ],
-      "hot_score": 1.15
+      "hot_score": 1.08
     },
     {
       "title_en": "Running local models is good now",
@@ -765,147 +840,57 @@
       },
       "tags": [
         "AI",
-        "Open Source",
         "Privacy",
+        "Open Source",
         "Hardware"
       ],
-      "hot_score": 1.1
+      "hot_score": 1.0
     },
     {
-      "title_en": "Why Meta Suddenly Loves the Kids Online Safety Act",
-      "url": "https://reclaimthenet.org/why-meta-suddenly-loves-the-kids-online-safety-act",
-      "title_zh": "为何 Meta 突然热衷《儿童在线安全法》",
-      "created_display": "Created: Jun 18, 2026 / 12:44 PT",
-      "image_url": "https://media.reclaimthenet.org/2026/06/WZoTF7dsyqmM.jpg",
-      "summary_en": "The piece analyzes Meta's sudden stance on the Kids Online Safety Act, exploring political incentives, platform safety obligations, and potential impacts on product development and moderation policies.",
-      "summary_zh": "文章分析 Meta 突然支持儿童在线安全法背后的动机，讨论法律对平台安全义务、产品开发与内容审核政策的潜在影响，以及监管环境的变化。",
+      "title_en": "Want your images back? That'll be $5",
+      "url": "https://www.lutr.dev/want-your-images-back-sure-that-ll-be-5-dollars",
+      "title_zh": "要回你的图片？要收取5美元",
+      "created_display": "Created: Jun 17, 2026 / 06:05 PT",
+      "image_url": "https://lutr.dev/assets/covers/want-your-images-back-sure-that-ll-be-5-dollars.png",
+      "summary_en": "A service charging a flat fee to retrieve your images highlights the economics of data recovery and ownership in an AI-enabled world. It spotlights the friction and costs users face when reclaiming their own media.",
+      "summary_zh": "关于用固定费用（5 美元）来让用户找回自己的图片，折射出数据所有权、隐私与数据恢复成本在 AI 时代的经济性与伦理议题。",
       "hn": {
-        "id": 48590533,
+        "id": 48569954,
         "type": "story",
-        "by": "Cider9986",
-        "score": 7,
-        "descendants": 0,
-        "time": 1781811863,
-        "comments_url": "https://news.ycombinator.com/item?id=48590533"
+        "by": "lutr",
+        "score": 634,
+        "descendants": 263,
+        "time": 1781701503,
+        "comments_url": "https://news.ycombinator.com/item?id=48569954"
       },
-      "hot_score": 1.04,
       "tags": [
-        "Politics"
-      ]
+        "Privacy",
+        "AI"
+      ],
+      "hot_score": 0.98
     },
     {
-      "title_en": "AI Regulation Should Be Rational, Not Retaliatory",
-      "url": "https://www.eff.org/deeplinks/2026/06/ai-regulation-should-be-rational-not-retaliatory",
-      "title_zh": "AI 监管应理性，而非报复性",
-      "created_display": "Created: Jun 18, 2026 / 12:14 PT",
-      "image_url": "https://www.eff.org/files/banner_library/ai-brain-surgery-banner.jpg",
-      "summary_en": "EFF argues for rational AI regulation focused on accountability and safety, warning against punitive, retaliatory policies that could hinder innovation. It offers principles for risk-based, transparent governance.",
-      "summary_zh": "电子 Frontier 基金会呼吁以可证明责任、可审计性和对创新友好的方式进行 AI 监管，警惕以报复性手段遏制技术进步，并提出基于风险的治理原则。",
+      "title_en": "The Korean telecom giant at the center of Anthropic's Mythos controversy",
+      "url": "https://www.wired.com/story/sk-telecom-anthropic-mythos-export-controls/",
+      "title_zh": "引发 Anthropic Mythos 争议的韩国电信巨头",
+      "created_display": "Created: Jun 18, 2026 / 05:44 PT",
+      "image_url": "https://media.wired.com/photos/6a22ce03ffc48019a74127a3/191:100/w_1280,c_limit/GettyImages-2272066793.jpg",
+      "summary_en": "SK Telecom is positioned at the center of a Mythos export‑controls controversy involving Anthropic, highlighting how regulatory rules and international partnerships influence AI access and deployment. The case exposes the leverage telecoms hold over AI supply chains and regulatory compliance.",
+      "summary_zh": "韩国电信巨头 SK Telecom 处于与 Anthropic 的 Mythos 争议核心，涉及出口管制与跨境合规等议题。此事凸显大型电信运营商在 AI 供应链和监管遵从中的影响力与潜在风险。",
       "hn": {
-        "id": 48590109,
+        "id": 48584484,
         "type": "story",
-        "by": "hn_acker",
-        "score": 9,
-        "descendants": 0,
-        "time": 1781810059,
-        "comments_url": "https://news.ycombinator.com/item?id=48590109"
+        "by": "dstala",
+        "score": 80,
+        "descendants": 43,
+        "time": 1781786649,
+        "comments_url": "https://news.ycombinator.com/item?id=48584484"
       },
-      "hot_score": 1.02,
       "tags": [
         "Politics",
-        "Legal",
         "AI"
-      ]
-    },
-    {
-      "title_en": "Integer Quantization: Deep Dive",
-      "url": "https://hello-fri-end.github.io/2026/06/integer-quantization-deep-dive/",
-      "title_zh": "整数量化：深度解析",
-      "created_display": "Created: Jun 18, 2026 / 12:25 PT",
-      "image_url": "https://hello-fri-end.github.io//assets/images/cover1.jpg",
-      "summary_en": "This deep dive explains integer quantization for neural networks, detailing how using integers can reduce memory and improve throughput on specialized hardware, along with trade-offs in accuracy and dynamic range.",
-      "summary_zh": "本文深入解读神经网络的整数量化，阐述用整数表示权重和激活可以降低内存占用、提升在专用硬件上的吞吐量，同时也揭示了精度和动态范围的权衡。",
-      "hn": {
-        "id": 48590280,
-        "type": "story",
-        "by": "matt_d",
-        "score": 8,
-        "descendants": 1,
-        "time": 1781810746,
-        "comments_url": "https://news.ycombinator.com/item?id=48590280"
-      },
-      "hot_score": 0.99,
-      "tags": [
-        "AI",
-        "Hardware"
-      ]
-    },
-    {
-      "title_en": "I need your clothes, your boots, and your motorcycle",
-      "url": "https://rbelmont.mameworld.info/?p=1725",
-      "title_zh": "我需要你的衣服、你的靴子和你的摩托车",
-      "created_display": "Created: Jun 18, 2026 / 01:28 PT",
-      "image_url": "https://rbelmont.mameworld.info/wipheader.png",
-      "summary_en": "A pop-culture line hints at rising ransomware-style demands targeting individuals and organizations.",
-      "summary_zh": "一个流行文化中的名句，暗示着日益猖獗的勒索式威胁在个人和组织身上的出现。",
-      "hn": {
-        "id": 48582464,
-        "type": "story",
-        "by": "ingve",
-        "score": 112,
-        "descendants": 109,
-        "time": 1781771284,
-        "comments_url": "https://news.ycombinator.com/item?id=48582464"
-      },
-      "tags": [
-        "Security"
       ],
-      "hot_score": 0.97
-    },
-    {
-      "title_en": "Tesco moving 40k server workloads off VMware amid Broadcom's abusive conduct",
-      "url": "https://arstechnica.com/information-technology/2026/06/tesco-moving-40000-server-workloads-off-vmware-amid-broadcoms-abusive-conduct/",
-      "title_zh": "Tesco 将 4 万台服务器工作负载从 VMware 转移，因 Broadcom 的不当行为",
-      "created_display": "Created: Jun 17, 2026 / 14:00 PT",
-      "image_url": null,
-      "summary_en": "Tesco is migrating 40,000 server workloads away from VMware, citing Broadcom’s licensing and conduct as a push factor. The move signals enterprise preference for less punitive licensing and more flexible virtualization or cloud options. It reflects ongoing vendor tensions and cost containment in large retailers.",
-      "summary_zh": "Tesco 将 4 万台服务器工作负载从 VMware 转移，原因指向 Broadcom 的许可策略和行为问题。这一举动透露大型企业对更灵活的虚拟化或云方案的偏好，以及对厂商定价与策略的担忧，折射出行业的成本管控压力。",
-      "hn": {
-        "id": 48576838,
-        "type": "story",
-        "by": "Bender",
-        "score": 324,
-        "descendants": 186,
-        "time": 1781730053,
-        "comments_url": "https://news.ycombinator.com/item?id=48576838"
-      },
-      "tags": [
-        "DevOps",
-        "Business"
-      ],
-      "hot_score": 0.96
-    },
-    {
-      "title_en": "I hate compilers",
-      "url": "https://xeiaso.net/notes/2026/anubis-wasm-vendor-binary/",
-      "title_zh": "我讨厌编译器",
-      "created_display": "Created: Jun 17, 2026 / 22:10 PT",
-      "image_url": "https://xeiaso.net/.within.website/x/cmd/anubis/static/img/pensive.webp?cacheBuster=v1.25.1-0.20260617231326-40d497332ee5",
-      "summary_en": "A provocative take on the pain points of compiler design and toolchains, questioning whether modern compilers help or hinder software development. It also touches on the costs, complexity, and potential alternatives that could ease developers' workflows.",
-      "summary_zh": "对编译器设计与工具链提出挑衅性观点，质疑现代编译器究竟是在帮助还是拖累软件开发。文章还探讨成本、复杂性以及可能缓解开发者工作流的替代方案。",
-      "hn": {
-        "id": 48581070,
-        "type": "story",
-        "by": "xena",
-        "score": 148,
-        "descendants": 147,
-        "time": 1781759428,
-        "comments_url": "https://news.ycombinator.com/item?id=48581070"
-      },
-      "tags": [
-        "Programming"
-      ],
-      "hot_score": 0.88
+      "hot_score": 0.81
     },
     {
       "title_en": "GrapheneOS has been ported to Android 17",
@@ -926,10 +911,120 @@
       },
       "tags": [
         "Privacy",
-        "Open Source",
         "Security"
       ],
-      "hot_score": 0.87
+      "hot_score": 0.78
+    },
+    {
+      "title_en": "Tesco moving 40k server workloads off VMware amid Broadcom's abusive conduct",
+      "url": "https://arstechnica.com/information-technology/2026/06/tesco-moving-40000-server-workloads-off-vmware-amid-broadcoms-abusive-conduct/",
+      "title_zh": "Tesco 将 4 万台服务器工作负载从 VMware 转移，因 Broadcom 的不当行为",
+      "created_display": "Created: Jun 17, 2026 / 14:00 PT",
+      "image_url": null,
+      "summary_en": "Tesco is migrating 40,000 server workloads away from VMware, citing Broadcom’s licensing and conduct as a push factor. The move signals enterprise preference for less punitive licensing and more flexible virtualization or cloud options. It reflects ongoing vendor tensions and cost containment in large retailers.",
+      "summary_zh": "Tesco 将 4 万台服务器工作负载从 VMware 转移，原因指向 Broadcom 的许可策略和行为问题。这一举动透露大型企业对更灵活的虚拟化或云方案的偏好，以及对厂商定价与策略的担忧，折射出行业的成本管控压力。",
+      "hn": {
+        "id": 48576838,
+        "type": "story",
+        "by": "Bender",
+        "score": 324,
+        "descendants": 186,
+        "time": 1781730053,
+        "comments_url": "https://news.ycombinator.com/item?id=48576838"
+      },
+      "tags": [
+        "Business"
+      ],
+      "hot_score": 0.78
+    },
+    {
+      "title_en": "We built a persistent agent memory layer on Elasticsearch with 0.89 recall",
+      "url": "https://www.elastic.co/search-labs/blog/agent-memory-elasticsearch",
+      "title_zh": "Elastic 在 Elasticsearch 上构建了一个持久化的代理记忆层，召回率 0.89",
+      "created_display": "Created: Jun 18, 2026 / 04:20 PT",
+      "image_url": "https://cdn.sanity.io/images/me0ej585/search-labs-import-testing/15fbc95df401906a7655ad1c9a7194b954bcce05-1280x720.png?rect=0,24,1280,672&w=1200&h=630",
+      "summary_en": "Elastic builds a persistent agent memory layer atop Elasticsearch to improve long-term context retention and recall in AI agents. The approach demonstrates practical memory-augmented search and automation.",
+      "summary_zh": "Elastic 在 Elasticsearch 上构建了一个持久化的代理记忆层，提升 AI 代理的长期上下文保留与召回能力，展示了记忆增强的搜索与自动化的实际应用。",
+      "hn": {
+        "id": 48583703,
+        "type": "story",
+        "by": "showmypost",
+        "score": 93,
+        "descendants": 35,
+        "time": 1781781618,
+        "comments_url": "https://news.ycombinator.com/item?id=48583703"
+      },
+      "tags": [
+        "AI",
+        "Data"
+      ],
+      "hot_score": 0.78
+    },
+    {
+      "title_en": "Noam Shazeer Joins OpenAI",
+      "url": "https://twitter.com/NoamShazeer/status/2067400851438932297",
+      "title_zh": "Noam Shazeer 加入 OpenAI",
+      "created_display": "Created: Jun 17, 2026 / 17:26 PT",
+      "image_url": "https://pbs.twimg.com/profile_images/1991028016471027714/bHMv9VwR_200x200.jpg",
+      "summary_en": "Noam Shazeer, a prominent figure in AI, has joined OpenAI, marking another high-profile talent move among leading research labs. The hire signals OpenAI's ongoing effort to attract top researchers to advance its language and AI capabilities.",
+      "summary_zh": "著名 AI 研究者 Noam Shazeer 加入 OpenAI，再次凸显顶尖实验室之间的人才竞逐。此举可能影响团队的研究方向与协作模式，也体现出对更强大语言模型的持续追求。",
+      "hn": {
+        "id": 48578913,
+        "type": "story",
+        "by": "lukasgross",
+        "score": 253,
+        "descendants": 222,
+        "time": 1781742366,
+        "comments_url": "https://news.ycombinator.com/item?id=48578913"
+      },
+      "tags": [
+        "AI"
+      ],
+      "hot_score": 0.76
+    },
+    {
+      "title_en": "I need your clothes, your boots, and your motorcycle",
+      "url": "https://rbelmont.mameworld.info/?p=1725",
+      "title_zh": "我需要你的衣服、你的靴子和你的摩托车",
+      "created_display": "Created: Jun 18, 2026 / 01:28 PT",
+      "image_url": "https://rbelmont.mameworld.info/wipheader.png",
+      "summary_en": "A pop-culture line hints at rising ransomware-style demands targeting individuals and organizations.",
+      "summary_zh": "一个流行文化中的名句，暗示着日益猖獗的勒索式威胁在个人和组织身上的出现。",
+      "hn": {
+        "id": 48582464,
+        "type": "story",
+        "by": "ingve",
+        "score": 126,
+        "descendants": 118,
+        "time": 1781771284,
+        "comments_url": "https://news.ycombinator.com/item?id=48582464"
+      },
+      "tags": [
+        "Security"
+      ],
+      "hot_score": 0.76
+    },
+    {
+      "title_en": "I hate compilers",
+      "url": "https://xeiaso.net/notes/2026/anubis-wasm-vendor-binary/",
+      "title_zh": "我讨厌编译器",
+      "created_display": "Created: Jun 17, 2026 / 22:10 PT",
+      "image_url": "https://xeiaso.net/.within.website/x/cmd/anubis/static/img/pensive.webp?cacheBuster=v1.25.1-0.20260617231326-40d497332ee5",
+      "summary_en": "A provocative take on the pain points of compiler design and toolchains, questioning whether modern compilers help or hinder software development. It also touches on the costs, complexity, and potential alternatives that could ease developers' workflows.",
+      "summary_zh": "对编译器设计与工具链提出挑衅性观点，质疑现代编译器究竟是在帮助还是拖累软件开发。文章还探讨成本、复杂性以及可能缓解开发者工作流的替代方案。",
+      "hn": {
+        "id": 48581070,
+        "type": "story",
+        "by": "xena",
+        "score": 149,
+        "descendants": 152,
+        "time": 1781759428,
+        "comments_url": "https://news.ycombinator.com/item?id=48581070"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 0.65
     },
     {
       "title_en": "SteamOS Linux 3.8 released as stable",
@@ -949,32 +1044,9 @@
         "comments_url": "https://news.ycombinator.com/item?id=48580686"
       },
       "tags": [
-        "Gaming",
-        "Open Source"
+        "Gaming"
       ],
-      "hot_score": 0.83
-    },
-    {
-      "title_en": "Seven Perfect Shuffles Randomize a Deck of Cards. But How Many Sloppy Ones?",
-      "url": "https://www.quantamagazine.org/seven-perfect-shuffles-randomize-a-deck-of-cards-but-how-many-sloppy-ones-20260617/",
-      "title_zh": "七次完整洗牌就能实现充分乱序？但还要多少次粗糙的洗牌才够？",
-      "created_display": "Created: Jun 18, 2026 / 02:08 PT",
-      "image_url": "https://www.quantamagazine.org/wp-content/uploads/2026/06/Shuffling-Math-cr-XXXXX-Social.jpg",
-      "summary_en": "Seven perfect shuffles suffice to randomize a deck; the article questions how many sloppy, imperfect shuffles are needed to achieve true randomness, using entropy and probability.",
-      "summary_zh": "七次完整洗牌就能实现充分乱序？文章用熵与概率探讨需要多少次‘不完美’洗牌才能达到真正的随机性。",
-      "hn": {
-        "id": 48582794,
-        "type": "story",
-        "by": "layer8",
-        "score": 73,
-        "descendants": 45,
-        "time": 1781773684,
-        "comments_url": "https://news.ycombinator.com/item?id=48582794"
-      },
-      "tags": [
-        "Science"
-      ],
-      "hot_score": 0.69
+      "hot_score": 0.62
     },
     {
       "title_en": "Storied Colors – A catalogue of named colors",
@@ -996,97 +1068,7 @@
       "tags": [
         "Design"
       ],
-      "hot_score": 0.67
-    },
-    {
-      "title_en": "The Australian Government to Require SMS/MMS Sender ID Registraion",
-      "url": "https://www.acma.gov.au/sms-sender-id-register",
-      "title_zh": "澳大利亚政府将要求短信/彩信发送方ID注册",
-      "created_display": "Created: Jun 17, 2026 / 23:23 PT",
-      "image_url": null,
-      "summary_en": "The government will require registration of SMS/MMS sender IDs to curb spoofing and fraud. Service providers will need to verify sender identities and update messaging workflows, which could affect marketing campaigns and bulk messaging. The policy aims to improve trust and reduce scams while imposing some compliance overhead.",
-      "summary_zh": "政府将要求短信/彩信发送方ID注册，以打击伪造与欺诈。运营商需验证发送方身份并更新消息工作流，这可能影响营销活动与大规模消息发送。该政策旨在提升信任度、降低诈骗，同时带来合规成本。",
-      "hn": {
-        "id": 48581489,
-        "type": "story",
-        "by": "anitil",
-        "score": 99,
-        "descendants": 57,
-        "time": 1781763804,
-        "comments_url": "https://news.ycombinator.com/item?id=48581489"
-      },
-      "hot_score": 0.67,
-      "tags": [
-        "Politics",
-        "Legal"
-      ]
-    },
-    {
-      "title_en": "Clojure Hosted on Go",
-      "url": "https://github.com/glojurelang/glojure",
-      "title_zh": "Go 上托管的 Clojure",
-      "created_display": "Created: Jun 17, 2026 / 16:14 PT",
-      "image_url": "https://repository-images.githubusercontent.com/570750090/6e70cd38-3c44-4bdb-a204-0ef41d9cb9da",
-      "summary_en": "A project to host Clojure on the Go runtime demonstrates cross-language interoperability and potential performance trade-offs. It shows how language ecosystems can migrate or interoperate to leverage different runtimes.",
-      "summary_zh": "一个在 Go 运行时上托管 Clojure 的项目，展示跨语言互操作性和潜在的性能取舍，体现语言生态可以通过迁移或互操作来利用不同的运行时。",
-      "hn": {
-        "id": 48578326,
-        "type": "story",
-        "by": "dnlo",
-        "score": 189,
-        "descendants": 23,
-        "time": 1781738089,
-        "comments_url": "https://news.ycombinator.com/item?id=48578326"
-      },
-      "tags": [
-        "Programming"
-      ],
-      "hot_score": 0.66
-    },
-    {
-      "title_en": "Taxonomy of the Occlupanida (parasitoids on bread bag tags)",
-      "url": "https://www.horg.com/horg/?page_id=921",
-      "title_zh": "Occlupanida 分类学：面包袋标签上的寄生生物",
-      "created_display": "Created: Jun 17, 2026 / 16:20 PT",
-      "image_url": "https://www.horg.com/horg/wp-content/uploads/2012/02/phyla_01.jpg",
-      "summary_en": "A taxonomy-style look at Occlupanida, tiny creatures associated with bread bag tags, merging biology with tongue-in-cheek nerdiness. The piece delves into naming, classification, and ecological context of these unusual organisms.",
-      "summary_zh": "以分类学笔法介绍 Occlupanida，这群与面包袋标签相关的微小生物，兼具生物学与趣味性。文中探讨了它们的命名、分类以及生态背景。",
-      "hn": {
-        "id": 48578388,
-        "type": "story",
-        "by": "beatthatflight",
-        "score": 182,
-        "descendants": 43,
-        "time": 1781738438,
-        "comments_url": "https://news.ycombinator.com/item?id=48578388"
-      },
-      "tags": [
-        "Science"
-      ],
-      "hot_score": 0.64
-    },
-    {
-      "title_en": "Fable 5 pushed Gemma 4 to 255 tok/s on WebGPU",
-      "url": "https://xcancel.com/xenovacom/status/2067289897111638484",
-      "title_zh": "Fable 5 在 WebGPU 上将 Gemma 4 的吞吐提升至 255 tok/s",
-      "created_display": "Created: Jun 18, 2026 / 07:14 PT",
-      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2067281202113863680/img/8UjGZgfDqbEaaZt7.jpg",
-      "summary_en": "Fable 5 achieves 255 tokens per second on WebGPU for Gemma 4, a notable speedup that showcases the potential of browser-based AI inference.",
-      "summary_zh": "Fable 5 在 WebGPU 上将 Gemma 4 的推理速度提升至 255 tok/s，显示浏览器端 AI 推理的潜力。",
-      "hn": {
-        "id": 48585719,
-        "type": "story",
-        "by": "kirubakaran",
-        "score": 28,
-        "descendants": 7,
-        "time": 1781792098,
-        "comments_url": "https://news.ycombinator.com/item?id=48585719"
-      },
-      "hot_score": 0.62,
-      "tags": [
-        "AI",
-        "Web"
-      ]
+      "hot_score": 0.54
     },
     {
       "title_en": "RFC 10008: The new HTTP Query Method",
@@ -1108,52 +1090,74 @@
       "tags": [
         "Web"
       ],
-      "hot_score": 0.6
+      "hot_score": 0.52
     },
     {
-      "title_en": "Loreline – Tools for writing interactive fiction",
-      "url": "https://loreline.app/en/",
-      "title_zh": "Loreline – 用于创作互动小说的工具",
-      "created_display": "Created: Jun 17, 2026 / 13:29 PT",
-      "image_url": "https://loreline.app/static/img/og-banner.png",
-      "summary_en": "Loreline provides tools to author interactive fiction, including branching narratives, worldbuilding, and AI-assisted drafting. It lowers the barrier to crafting non-linear stories and could accelerate indie storytelling or game development. The takeaway: better tooling for interactive narratives can unlock more creative storytelling.",
-      "summary_zh": "Loreline 提供创作互动小说的工具，涵盖分支叙事、世界观构建以及 AI 辅助写作。它降低了非线性故事创作的门槛，或加速独立作者和游戏开发的流程。核心点在于更强的互动叙事工具能释放更多创意。",
+      "title_en": "Clojure Hosted on Go",
+      "url": "https://github.com/glojurelang/glojure",
+      "title_zh": "Go 上托管的 Clojure",
+      "created_display": "Created: Jun 17, 2026 / 16:14 PT",
+      "image_url": "https://repository-images.githubusercontent.com/570750090/6e70cd38-3c44-4bdb-a204-0ef41d9cb9da",
+      "summary_en": "A project to host Clojure on the Go runtime demonstrates cross-language interoperability and potential performance trade-offs. It shows how language ecosystems can migrate or interoperate to leverage different runtimes.",
+      "summary_zh": "一个在 Go 运行时上托管 Clojure 的项目，展示跨语言互操作性和潜在的性能取舍，体现语言生态可以通过迁移或互操作来利用不同的运行时。",
       "hn": {
-        "id": 48576395,
+        "id": 48578326,
         "type": "story",
-        "by": "smartmic",
-        "score": 203,
-        "descendants": 51,
-        "time": 1781728155,
-        "comments_url": "https://news.ycombinator.com/item?id=48576395"
+        "by": "dnlo",
+        "score": 189,
+        "descendants": 23,
+        "time": 1781738089,
+        "comments_url": "https://news.ycombinator.com/item?id=48578326"
       },
       "tags": [
-        "Entertainment",
-        "AI"
+        "Programming",
+        "Open Source"
       ],
-      "hot_score": 0.58
+      "hot_score": 0.52
     },
     {
-      "title_en": "How Madrid built its metro cheaply (2024)",
-      "url": "https://worksinprogress.co/issue/how-madrid-built-its-metro-cheaply/",
-      "title_zh": "马德里地铁如何以低成本建成（2024）",
-      "created_display": "Created: Jun 17, 2026 / 12:59 PT",
-      "image_url": "https://worksinprogress.co/wip-image/uploads/2024/12/LandscapesOfTheSouth-150RGB.jpg",
-      "summary_en": "A case study of Madrid's 2024 metro project explains how the city achieved lower costs through procurement choices, engineering simplifications, and efficient project management.",
-      "summary_zh": "马德里2024年地铁项目的案例研究，阐释了通过采购策略、工程简化和高效项目管理实现低成本的做法。文中给出面向大型城市基础设施的实用经验。",
+      "title_en": "Taxonomy of the Occlupanida (parasitoids on bread bag tags)",
+      "url": "https://www.horg.com/horg/?page_id=921",
+      "title_zh": "Occlupanida 分类学：面包袋标签上的寄生生物",
+      "created_display": "Created: Jun 17, 2026 / 16:20 PT",
+      "image_url": "https://www.horg.com/horg/wp-content/uploads/2012/02/phyla_01.jpg",
+      "summary_en": "A taxonomy-style look at Occlupanida, tiny creatures associated with bread bag tags, merging biology with tongue-in-cheek nerdiness. The piece delves into naming, classification, and ecological context of these unusual organisms.",
+      "summary_zh": "以分类学笔法介绍 Occlupanida，这群与面包袋标签相关的微小生物，兼具生物学与趣味性。文中探讨了它们的命名、分类以及生态背景。",
       "hn": {
-        "id": 48575997,
+        "id": 48578388,
         "type": "story",
-        "by": "trymas",
-        "score": 202,
-        "descendants": 161,
-        "time": 1781726367,
-        "comments_url": "https://news.ycombinator.com/item?id=48575997"
+        "by": "beatthatflight",
+        "score": 182,
+        "descendants": 43,
+        "time": 1781738438,
+        "comments_url": "https://news.ycombinator.com/item?id=48578388"
       },
       "tags": [
-        "Business"
+        "Science"
       ],
-      "hot_score": 0.56
+      "hot_score": 0.51
+    },
+    {
+      "title_en": "Seven Perfect Shuffles Randomize a Deck of Cards. But How Many Sloppy Ones?",
+      "url": "https://www.quantamagazine.org/seven-perfect-shuffles-randomize-a-deck-of-cards-but-how-many-sloppy-ones-20260617/",
+      "title_zh": "七次完整洗牌就能实现充分乱序？但还要多少次粗糙的洗牌才够？",
+      "created_display": "Created: Jun 18, 2026 / 02:08 PT",
+      "image_url": "https://www.quantamagazine.org/wp-content/uploads/2026/06/Shuffling-Math-cr-XXXXX-Social.jpg",
+      "summary_en": "Seven perfect shuffles suffice to randomize a deck; the article questions how many sloppy, imperfect shuffles are needed to achieve true randomness, using entropy and probability.",
+      "summary_zh": "七次完整洗牌就能实现充分乱序？文章用熵与概率探讨需要多少次‘不完美’洗牌才能达到真正的随机性。",
+      "hn": {
+        "id": 48582794,
+        "type": "story",
+        "by": "layer8",
+        "score": 78,
+        "descendants": 47,
+        "time": 1781773684,
+        "comments_url": "https://news.ycombinator.com/item?id=48582794"
+      },
+      "tags": [
+        "Science"
+      ],
+      "hot_score": 0.5
     },
     {
       "title_en": "US holds off blacklisting DeepSeek, more than 100 firms deemed security risks",
@@ -1175,7 +1179,75 @@
       "tags": [
         "Security"
       ],
-      "hot_score": 0.54
+      "hot_score": 0.48
+    },
+    {
+      "title_en": "The Australian Government to Require SMS/MMS Sender ID Registraion",
+      "url": "https://www.acma.gov.au/sms-sender-id-register",
+      "title_zh": "澳大利亚政府将要求短信/彩信发送方ID注册",
+      "created_display": "Created: Jun 17, 2026 / 23:23 PT",
+      "image_url": null,
+      "summary_en": "The government will require registration of SMS/MMS sender IDs to curb spoofing and fraud. Service providers will need to verify sender identities and update messaging workflows, which could affect marketing campaigns and bulk messaging. The policy aims to improve trust and reduce scams while imposing some compliance overhead.",
+      "summary_zh": "政府将要求短信/彩信发送方ID注册，以打击伪造与欺诈。运营商需验证发送方身份并更新消息工作流，这可能影响营销活动与大规模消息发送。该政策旨在提升信任度、降低诈骗，同时带来合规成本。",
+      "hn": {
+        "id": 48581489,
+        "type": "story",
+        "by": "anitil",
+        "score": 99,
+        "descendants": 57,
+        "time": 1781763804,
+        "comments_url": "https://news.ycombinator.com/item?id=48581489"
+      },
+      "hot_score": 0.48,
+      "tags": [
+        "Security",
+        "Politics"
+      ]
+    },
+    {
+      "title_en": "How Madrid built its metro cheaply (2024)",
+      "url": "https://worksinprogress.co/issue/how-madrid-built-its-metro-cheaply/",
+      "title_zh": "马德里地铁如何以低成本建成（2024）",
+      "created_display": "Created: Jun 17, 2026 / 12:59 PT",
+      "image_url": "https://worksinprogress.co/wip-image/uploads/2024/12/LandscapesOfTheSouth-150RGB.jpg",
+      "summary_en": "A case study of Madrid's 2024 metro project explains how the city achieved lower costs through procurement choices, engineering simplifications, and efficient project management.",
+      "summary_zh": "马德里2024年地铁项目的案例研究，阐释了通过采购策略、工程简化和高效项目管理实现低成本的做法。文中给出面向大型城市基础设施的实用经验。",
+      "hn": {
+        "id": 48575997,
+        "type": "story",
+        "by": "trymas",
+        "score": 208,
+        "descendants": 167,
+        "time": 1781726367,
+        "comments_url": "https://news.ycombinator.com/item?id=48575997"
+      },
+      "tags": [
+        "Business"
+      ],
+      "hot_score": 0.47
+    },
+    {
+      "title_en": "Loreline – Tools for writing interactive fiction",
+      "url": "https://loreline.app/en/",
+      "title_zh": "Loreline – 用于创作互动小说的工具",
+      "created_display": "Created: Jun 17, 2026 / 13:29 PT",
+      "image_url": "https://loreline.app/static/img/og-banner.png",
+      "summary_en": "Loreline provides tools to author interactive fiction, including branching narratives, worldbuilding, and AI-assisted drafting. It lowers the barrier to crafting non-linear stories and could accelerate indie storytelling or game development. The takeaway: better tooling for interactive narratives can unlock more creative storytelling.",
+      "summary_zh": "Loreline 提供创作互动小说的工具，涵盖分支叙事、世界观构建以及 AI 辅助写作。它降低了非线性故事创作的门槛，或加速独立作者和游戏开发的流程。核心点在于更强的互动叙事工具能释放更多创意。",
+      "hn": {
+        "id": 48576395,
+        "type": "story",
+        "by": "smartmic",
+        "score": 203,
+        "descendants": 51,
+        "time": 1781728155,
+        "comments_url": "https://news.ycombinator.com/item?id=48576395"
+      },
+      "tags": [
+        "AI",
+        "Programming"
+      ],
+      "hot_score": 0.47
     },
     {
       "title_en": "Show HN: An 8-bit live gamecast for baseball",
@@ -1196,10 +1268,11 @@
       },
       "tags": [
         "Show HN",
+        "Gaming",
         "Web",
         "DevOps"
       ],
-      "hot_score": 0.52
+      "hot_score": 0.43
     },
     {
       "title_en": "Why thinking out loud with someone beats thinking alone",
@@ -1221,51 +1294,74 @@
       "tags": [
         "Culture"
       ],
-      "hot_score": 0.49
+      "hot_score": 0.42
     },
     {
-      "title_en": "TypeScript 7.0 RC",
-      "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-0-rc/",
-      "title_zh": "TypeScript 7.0 RC",
-      "created_display": "Created: Jun 18, 2026 / 07:31 PT",
-      "image_url": "https://devblogs.microsoft.com/typescript/wp-content/uploads/sites/11/2026/06/ts7-0-rc-1.png",
-      "summary_en": "TypeScript 7.0 RC introduces new language and tooling improvements, with guidance on migration and what it means for the TypeScript ecosystem.",
-      "summary_zh": "TypeScript 7.0 RC 引入新特性与工具链改进，附带迁移指南与对生态系统的影响解读。",
+      "title_en": "America Is Headed Toward the Infinite Workweek",
+      "url": "https://www.theatlantic.com/technology/2026/06/ai-agents-jobs-exhaustion/687596/",
+      "title_zh": "美国正走向无限工作周",
+      "created_display": "Created: Jun 18, 2026 / 12:12 PT",
+      "image_url": "https://cdn.theatlantic.com/thumbor/9px0o2AdCWsDJmqUvepFK5-EQUw=/0x43:2000x1085/1200x625/media/img/mt/2026/06/2026_06_12_AI_Burnout_24_Hour_Workday/original.jpg",
+      "summary_en": "The Atlantic piece argues that AI agents and the push for automation could lead to an 'infinite workweek' dynamic, eroding boundaries between work and life as agents keep work pressure ongoing. It examines productivity, burnout, and policy implications.",
+      "summary_zh": "文章认为，人工智能代理和自动化趋势可能让工作时间趋向“无限工作周”，模糊工作与生活的界限，并带来生产力、倦怠和政策层面的挑战。",
       "hn": {
-        "id": 48586001,
+        "id": 48590084,
         "type": "story",
-        "by": "DanRosenwasser",
-        "score": 21,
-        "descendants": 1,
-        "time": 1781793116,
-        "comments_url": "https://news.ycombinator.com/item?id=48586001"
+        "by": "Jtsummers",
+        "score": 12,
+        "descendants": 4,
+        "time": 1781809968,
+        "comments_url": "https://news.ycombinator.com/item?id=48590084"
       },
-      "hot_score": 0.49,
+      "hot_score": 0.4,
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title_en": "Wiki Spy",
+      "url": "https://neal.fun/wiki-spy/",
+      "title_zh": "Wiki Spy：窥探维基编辑",
+      "created_display": "Created: Jun 18, 2026 / 10:00 PT",
+      "image_url": null,
+      "summary_en": "Wiki Spy is an interactive project that visualizes edits across Wikipedia, revealing patterns in editors, topics, and revision tempo. It offers a playful lens on collaborative knowledge work and raises questions about privacy and trust in open platforms.",
+      "summary_zh": "Wiki Spy 是一个可视化维基百科编辑的互动项目，揭示编辑者行为、话题趋势和修订节奏等模式。它以有趣的方式呈现协作性知识生产，同时引发对开放平台上隐私与信任的思考。",
+      "hn": {
+        "id": 48588304,
+        "type": "story",
+        "by": "irs",
+        "score": 19,
+        "descendants": 0,
+        "time": 1781802040,
+        "comments_url": "https://news.ycombinator.com/item?id=48588304"
+      },
+      "hot_score": 0.38,
+      "tags": [
+        "Privacy",
+        "Open Source"
+      ]
+    },
+    {
+      "title_en": "Ask HN: Is anyone using the A2A protocol?",
+      "url": "https://news.ycombinator.com/item?id=48582679",
+      "title_zh": "询问 HN：有人在使用 A2A 协议吗？",
+      "created_display": "Created: Jun 18, 2026 / 01:52 PT",
+      "image_url": "https://news.ycombinator.com/y18.svg",
+      "summary_en": "A Hacker News post asks whether developers are adopting the A2A protocol, and what benefits or challenges they’ve seen. Responses illuminate practical integration considerations, tooling, and interoperability questions for agent-to-agent communication.",
+      "summary_zh": "HN 上有帖问及开发者是否在使用 A2A 协议，以及遇到的优点和挑战。讨论聚焦于代理间通信的实际集成、工具链和互操作性等问题。",
+      "hn": {
+        "id": 48582679,
+        "type": "story",
+        "by": "asim",
+        "score": 59,
+        "descendants": 30,
+        "time": 1781772765,
+        "comments_url": "https://news.ycombinator.com/item?id=48582679"
+      },
       "tags": [
         "Programming"
-      ]
-    },
-    {
-      "title_en": "McMansions 101: What Makes a McMansion Bad Architecture?",
-      "url": "https://mcmansionhell.com/post/148605513816/mcmansions-101-what-makes-a-mcmansion-bad",
-      "title_zh": "McMansions 101：是什么让 McMansion 成为糟糕的建筑？",
-      "created_display": "Created: Jun 18, 2026 / 13:10 PT",
-      "image_url": "https://64.media.tumblr.com/985ce3af7d99be6789a3d60733d87bdb/tumblr_inline_obrdua0UTB1sppt0x_540.png",
-      "summary_en": "McMansions 101 breaks down architectural flaws of oversized suburban houses, from poor massing to generic ornamentation, and discusses how market incentives reward quantity over quality.",
-      "summary_zh": "McMansions 101 分析了超大郊宅在造型、规模与细节设计上的常见缺陷，讨论为何市场激励更看重数量而非质量，以及这对社区美学的影响。",
-      "hn": {
-        "id": 48590849,
-        "type": "story",
-        "by": "nivethan",
-        "score": 3,
-        "descendants": 0,
-        "time": 1781813439,
-        "comments_url": "https://news.ycombinator.com/item?id=48590849"
-      },
-      "hot_score": 0.48,
-      "tags": [
-        "Design"
-      ]
+      ],
+      "hot_score": 0.37
     },
     {
       "title_en": "Launch HN: Adam (YC W25) – Open-Source AI CAD",
@@ -1289,28 +1385,52 @@
         "Open Source",
         "Startups"
       ],
-      "hot_score": 0.43
+      "hot_score": 0.36
     },
     {
-      "title_en": "Noam Shazeer Joins OpenAI",
-      "url": "https://twitter.com/NoamShazeer/status/2067400851438932297",
-      "title_zh": "Noam Shazeer 加入 OpenAI",
-      "created_display": "Created: Jun 17, 2026 / 17:26 PT",
-      "image_url": "https://pbs.twimg.com/profile_images/1991028016471027714/bHMv9VwR_200x200.jpg",
-      "summary_en": "Noam Shazeer, a prominent figure in AI, has joined OpenAI, marking another high-profile talent move among leading research labs. The hire signals OpenAI's ongoing effort to attract top researchers to advance its language and AI capabilities.",
-      "summary_zh": "著名 AI 研究者 Noam Shazeer 加入 OpenAI，再次凸显顶尖实验室之间的人才竞逐。此举可能影响团队的研究方向与协作模式，也体现出对更强大语言模型的持续追求。",
+      "title_en": "MicroUI – A tiny, portable, immediate-mode UI library written in ANSI C",
+      "url": "https://github.com/rxi/microui",
+      "title_zh": "MicroUI：用 ANSI C 编写的微型、便携即时模式 UI 库",
+      "created_display": "Created: Jun 17, 2026 / 05:04 PT",
+      "image_url": "https://opengraph.githubassets.com/256299c45c9654065dd209907bd4a980e79de677072333b8d99043b7a9f5387f/rxi/microui",
+      "summary_en": "MicroUI is a tiny, portable immediate-mode UI library written in ANSI C. Its small footprint makes it attractive for embedded and cross-platform projects, and immediate-mode style can simplify rendering loops and minimize state management. It's a handy option for lightweight UI when dependencies matter.",
+      "summary_zh": "MicroUI 是一个用 ANSI C 编写的微型、便携的即时模式 UI 库，体积极小、便于嵌入式和跨平台使用。即时模式的实现简化了渲染循环，降低了状态管理复杂性，适合对依赖要求很高的轻量 UI 场景。",
       "hn": {
-        "id": 48578913,
+        "id": 48569205,
         "type": "story",
-        "by": "lukasgross",
-        "score": 112,
-        "descendants": 52,
-        "time": 1781742366,
-        "comments_url": "https://news.ycombinator.com/item?id=48578913"
+        "by": "peter_d_sherman",
+        "score": 239,
+        "descendants": 79,
+        "time": 1781697868,
+        "comments_url": "https://news.ycombinator.com/item?id=48569205"
       },
-      "hot_score": 0.43,
       "tags": [
-        "AI"
+        "Programming",
+        "Open Source"
+      ],
+      "hot_score": 0.35
+    },
+    {
+      "title_en": "Fable 5 pushed Gemma 4 to 255 tok/s on WebGPU",
+      "url": "https://xcancel.com/xenovacom/status/2067289897111638484",
+      "title_zh": "Fable 5 在 WebGPU 上将 Gemma 4 的吞吐提升至 255 tok/s",
+      "created_display": "Created: Jun 18, 2026 / 07:14 PT",
+      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2067281202113863680/img/8UjGZgfDqbEaaZt7.jpg",
+      "summary_en": "Fable 5 achieves 255 tokens per second on WebGPU for Gemma 4, a notable speedup that showcases the potential of browser-based AI inference.",
+      "summary_zh": "Fable 5 在 WebGPU 上将 Gemma 4 的推理速度提升至 255 tok/s，显示浏览器端 AI 推理的潜力。",
+      "hn": {
+        "id": 48585719,
+        "type": "story",
+        "by": "kirubakaran",
+        "score": 28,
+        "descendants": 7,
+        "time": 1781792098,
+        "comments_url": "https://news.ycombinator.com/item?id=48585719"
+      },
+      "hot_score": 0.35,
+      "tags": [
+        "AI",
+        "Web"
       ]
     },
     {
@@ -1331,31 +1451,10 @@
         "comments_url": "https://news.ycombinator.com/item?id=48580466"
       },
       "tags": [
+        "Business",
         "Hardware"
       ],
-      "hot_score": 0.43
-    },
-    {
-      "title_en": "MicroUI – A tiny, portable, immediate-mode UI library written in ANSI C",
-      "url": "https://github.com/rxi/microui",
-      "title_zh": "MicroUI：用 ANSI C 编写的微型、便携即时模式 UI 库",
-      "created_display": "Created: Jun 17, 2026 / 05:04 PT",
-      "image_url": "https://opengraph.githubassets.com/256299c45c9654065dd209907bd4a980e79de677072333b8d99043b7a9f5387f/rxi/microui",
-      "summary_en": "MicroUI is a tiny, portable immediate-mode UI library written in ANSI C. Its small footprint makes it attractive for embedded and cross-platform projects, and immediate-mode style can simplify rendering loops and minimize state management. It's a handy option for lightweight UI when dependencies matter.",
-      "summary_zh": "MicroUI 是一个用 ANSI C 编写的微型、便携的即时模式 UI 库，体积极小、便于嵌入式和跨平台使用。即时模式的实现简化了渲染循环，降低了状态管理复杂性，适合对依赖要求很高的轻量 UI 场景。",
-      "hn": {
-        "id": 48569205,
-        "type": "story",
-        "by": "peter_d_sherman",
-        "score": 239,
-        "descendants": 79,
-        "time": 1781697868,
-        "comments_url": "https://news.ycombinator.com/item?id=48569205"
-      },
-      "tags": [
-        "Programming"
-      ],
-      "hot_score": 0.41
+      "hot_score": 0.33
     },
     {
       "title_en": "ChatGPT's image generator can be manipulated to produce violent, sexual content",
@@ -1375,76 +1474,10 @@
         "comments_url": "https://news.ycombinator.com/item?id=48578894"
       },
       "tags": [
-        "Security",
-        "AI"
+        "AI",
+        "Security"
       ],
-      "hot_score": 0.38
-    },
-    {
-      "title_en": "US Supreme Court drug users cannot be prohibited from firearms [pdf]",
-      "url": "https://www.supremecourt.gov/opinions/25pdf/24-1234_g2bh.pdf",
-      "title_zh": "美国最高法院削弱对大麻使用者持枪禁令",
-      "created_display": "Created: Jun 18, 2026 / 08:13 PT",
-      "image_url": null,
-      "summary_en": "The Supreme Court ruled that drug users cannot be categorically barred from firearm ownership, a decision that narrows gun restrictions based on drug use and raises questions about enforcement and due process.",
-      "summary_zh": "最高法院裁定药物使用者不能被一概禁止持枪，这一判决缩小了基于药物使用的枪支限制，并引发关于执行与程序正当性的讨论。",
-      "hn": {
-        "id": 48586635,
-        "type": "story",
-        "by": "agensaequivocum",
-        "score": 13,
-        "descendants": 9,
-        "time": 1781795584,
-        "comments_url": "https://news.ycombinator.com/item?id=48586635"
-      },
-      "hot_score": 0.35,
-      "tags": [
-        "Legal"
-      ]
-    },
-    {
-      "title_en": "The feedback loops behind Kubernetes",
-      "url": "https://planetscale.com/blog/the-feedback-loops-behind-kubernetes",
-      "title_zh": "Kubernetes 背后的反馈循环",
-      "created_display": "Created: Jun 18, 2026 / 10:33 PT",
-      "image_url": "https://planetscale.com/assets/the-feedback-loops-behind-kubernetes-social-DXEE2U-o.png",
-      "summary_en": "The piece explains how user feedback, operator metrics, and maintainer responses form feedback loops that drive Kubernetes evolution, affecting reliability and community momentum. It highlights the importance of telemetry and governance.",
-      "summary_zh": "文章阐释了用户反馈、运维指标和维护者响应如何共同构成推动 Kubernetes 演化的循环，影响可靠性与社区活力。强调遥测数据与治理在这一过程中的关键作用。",
-      "hn": {
-        "id": 48588722,
-        "type": "story",
-        "by": "ksec",
-        "score": 7,
-        "descendants": 1,
-        "time": 1781803998,
-        "comments_url": "https://news.ycombinator.com/item?id=48588722"
-      },
-      "hot_score": 0.35,
-      "tags": [
-        "DevOps"
-      ]
-    },
-    {
-      "title_en": "GLM-5.2 is probably the most powerful text-only open weights LLM",
-      "url": "https://simonwillison.net/2026/Jun/17/glm-52/",
-      "title_zh": "GLM-5.2 可能是最强大的文本专用开源权重大模型",
-      "created_display": "Created: Jun 18, 2026 / 08:58 PT",
-      "image_url": "https://static.simonwillison.net/static/2026/glm-5.2-pelican-card.jpg",
-      "summary_en": "GLM-5.2 is touted as one of the most powerful text-only open weights LLMs, enabling researchers to run sizable models with open weights. This advances open AI research and reproducibility.",
-      "summary_zh": "GLM-5.2 被认为是最强大的文本专用开源权重大模型之一，能够在本地使用开源权重运行相对规模较大的模型，推动开放 AI 研究与可复现性。",
-      "hn": {
-        "id": 48587383,
-        "type": "story",
-        "by": "Brajeshwar",
-        "score": 10,
-        "descendants": 1,
-        "time": 1781798289,
-        "comments_url": "https://news.ycombinator.com/item?id=48587383"
-      },
-      "hot_score": 0.32,
-      "tags": [
-        "AI"
-      ]
+      "hot_score": 0.3
     },
     {
       "title_en": "The founder's playbook: Building an AI-native startup",
@@ -1464,52 +1497,29 @@
         "comments_url": "https://news.ycombinator.com/item?id=48566832"
       },
       "tags": [
-        "AI",
-        "Startups"
+        "Startups",
+        "AI"
       ],
-      "hot_score": 0.31
+      "hot_score": 0.27
     },
     {
-      "title_en": "The Korean telecom giant at the center of Anthropic's Mythos controversy",
-      "url": "https://www.wired.com/story/sk-telecom-anthropic-mythos-export-controls/",
-      "title_zh": "引发 Anthropic Mythos 争议的韩国电信巨头",
-      "created_display": "Created: Jun 18, 2026 / 05:44 PT",
-      "image_url": "https://media.wired.com/photos/6a22ce03ffc48019a74127a3/191:100/w_1280,c_limit/GettyImages-2272066793.jpg",
-      "summary_en": "SK Telecom is positioned at the center of a Mythos export‑controls controversy involving Anthropic, highlighting how regulatory rules and international partnerships influence AI access and deployment. The case exposes the leverage telecoms hold over AI supply chains and regulatory compliance.",
-      "summary_zh": "韩国电信巨头 SK Telecom 处于与 Anthropic 的 Mythos 争议核心，涉及出口管制与跨境合规等议题。此事凸显大型电信运营商在 AI 供应链和监管遵从中的影响力与潜在风险。",
+      "title_en": "TypeScript 7.0 RC",
+      "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-0-rc/",
+      "title_zh": "TypeScript 7.0 RC",
+      "created_display": "Created: Jun 18, 2026 / 07:31 PT",
+      "image_url": "https://devblogs.microsoft.com/typescript/wp-content/uploads/sites/11/2026/06/ts7-0-rc-1.png",
+      "summary_en": "TypeScript 7.0 RC introduces new language and tooling improvements, with guidance on migration and what it means for the TypeScript ecosystem.",
+      "summary_zh": "TypeScript 7.0 RC 引入新特性与工具链改进，附带迁移指南与对生态系统的影响解读。",
       "hn": {
-        "id": 48584484,
+        "id": 48586001,
         "type": "story",
-        "by": "dstala",
-        "score": 17,
-        "descendants": 4,
-        "time": 1781786649,
-        "comments_url": "https://news.ycombinator.com/item?id=48584484"
+        "by": "DanRosenwasser",
+        "score": 21,
+        "descendants": 1,
+        "time": 1781793116,
+        "comments_url": "https://news.ycombinator.com/item?id=48586001"
       },
       "hot_score": 0.27,
-      "tags": [
-        "AI",
-        "Politics"
-      ]
-    },
-    {
-      "title_en": "Nim Conf 2026 (Online, Sat June 20)",
-      "url": "https://conf.nim-lang.org/",
-      "title_zh": "Nim Conf 2026（线上，6月20日周六）",
-      "created_display": "Created: Jun 17, 2026 / 20:38 PT",
-      "image_url": "https://conf.nim-lang.org/twitter_banner_2026.png",
-      "summary_en": "Online Nim Conf 2026 gathers language enthusiasts for talks on language features, tooling, and ecosystem progress. Expect updates on performance, compile-time improvements, and cross-platform support. The event is a good barometer for where Nim is headed next.",
-      "summary_zh": "线上 Nim Conf 2026 汇聚语言爱好者，讨论语言特性、工具链与生态进展。预计涵盖性能、编译时间改进和跨平台支持等内容，是了解 Nim 未来走向的风向标。",
-      "hn": {
-        "id": 48580504,
-        "type": "story",
-        "by": "pietroppeter",
-        "score": 48,
-        "descendants": 7,
-        "time": 1781753911,
-        "comments_url": "https://news.ycombinator.com/item?id=48580504"
-      },
-      "hot_score": 0.24,
       "tags": [
         "Programming"
       ]
@@ -1535,28 +1545,51 @@
         "DevOps",
         "Web"
       ],
-      "hot_score": 0.23
+      "hot_score": 0.2
     },
     {
-      "title_en": "Uber and Lyft Use Artificial Intelligence to Price Rides",
-      "url": "https://www.consumerreports.org/money/questionable-business-practices/uber-lyft-different-prices-for-same-ride-and-fake-discounts-a1093538909/",
-      "title_zh": "Uber 与 Lyft 使用人工智能来定价乘车",
-      "created_display": "Created: Jun 18, 2026 / 08:07 PT",
-      "image_url": "https://article.images.consumerreports.org/image/upload/t_article_tout/v1781521676/prod/content/dam/CRO-images-2026/Special%20Projects/CR-SP-Uber-Lyft-Investigation-0626",
-      "summary_en": "Uber and Lyft employ AI to price rides, raising questions about fairness and transparency in surge pricing while aiming to improve matching efficiency.",
-      "summary_zh": "Uber 与 Lyft 使用人工智能来定价乘车，旨在提升匹配效率，但也引发对溢价定价公平性与透明度的关注。",
+      "title_en": "Nim Conf 2026 (Online, Sat June 20)",
+      "url": "https://conf.nim-lang.org/",
+      "title_zh": "Nim Conf 2026（线上，6月20日周六）",
+      "created_display": "Created: Jun 17, 2026 / 20:38 PT",
+      "image_url": "https://conf.nim-lang.org/twitter_banner_2026.png",
+      "summary_en": "Online Nim Conf 2026 gathers language enthusiasts for talks on language features, tooling, and ecosystem progress. Expect updates on performance, compile-time improvements, and cross-platform support. The event is a good barometer for where Nim is headed next.",
+      "summary_zh": "线上 Nim Conf 2026 汇聚语言爱好者，讨论语言特性、工具链与生态进展。预计涵盖性能、编译时间改进和跨平台支持等内容，是了解 Nim 未来走向的风向标。",
       "hn": {
-        "id": 48586563,
+        "id": 48580504,
         "type": "story",
-        "by": "gmays",
-        "score": 9,
-        "descendants": 5,
-        "time": 1781795243,
-        "comments_url": "https://news.ycombinator.com/item?id=48586563"
+        "by": "pietroppeter",
+        "score": 48,
+        "descendants": 7,
+        "time": 1781753911,
+        "comments_url": "https://news.ycombinator.com/item?id=48580504"
       },
-      "hot_score": 0.23,
+      "hot_score": 0.18,
       "tags": [
-        "AI"
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "US Supreme Court drug users cannot be prohibited from firearms [pdf]",
+      "url": "https://www.supremecourt.gov/opinions/25pdf/24-1234_g2bh.pdf",
+      "title_zh": "美国最高法院削弱对大麻使用者持枪禁令",
+      "created_display": "Created: Jun 18, 2026 / 08:13 PT",
+      "image_url": null,
+      "summary_en": "The Supreme Court ruled that drug users cannot be categorically barred from firearm ownership, a decision that narrows gun restrictions based on drug use and raises questions about enforcement and due process.",
+      "summary_zh": "最高法院裁定药物使用者不能被一概禁止持枪，这一判决缩小了基于药物使用的枪支限制，并引发关于执行与程序正当性的讨论。",
+      "hn": {
+        "id": 48586635,
+        "type": "story",
+        "by": "agensaequivocum",
+        "score": 13,
+        "descendants": 9,
+        "time": 1781795584,
+        "comments_url": "https://news.ycombinator.com/item?id=48586635"
+      },
+      "hot_score": 0.18,
+      "tags": [
+        "Legal",
+        "Politics"
       ]
     },
     {
@@ -1581,7 +1614,7 @@
         "Security",
         "Politics"
       ],
-      "hot_score": 0.2
+      "hot_score": 0.17
     },
     {
       "title_en": "Why do commercial spaces sit vacant? (2025)",
@@ -1603,7 +1636,30 @@
       "tags": [
         "Business"
       ],
-      "hot_score": 0.19
+      "hot_score": 0.16
+    },
+    {
+      "title_en": "GLM-5.2 is probably the most powerful text-only open weights LLM",
+      "url": "https://simonwillison.net/2026/Jun/17/glm-52/",
+      "title_zh": "GLM-5.2 可能是最强大的文本专用开源权重大模型",
+      "created_display": "Created: Jun 18, 2026 / 08:58 PT",
+      "image_url": "https://static.simonwillison.net/static/2026/glm-5.2-pelican-card.jpg",
+      "summary_en": "GLM-5.2 is touted as one of the most powerful text-only open weights LLMs, enabling researchers to run sizable models with open weights. This advances open AI research and reproducibility.",
+      "summary_zh": "GLM-5.2 被认为是最强大的文本专用开源权重大模型之一，能够在本地使用开源权重运行相对规模较大的模型，推动开放 AI 研究与可复现性。",
+      "hn": {
+        "id": 48587383,
+        "type": "story",
+        "by": "Brajeshwar",
+        "score": 10,
+        "descendants": 1,
+        "time": 1781798289,
+        "comments_url": "https://news.ycombinator.com/item?id=48587383"
+      },
+      "hot_score": 0.16,
+      "tags": [
+        "AI",
+        "Open Source"
+      ]
     },
     {
       "title_en": "Made a free macOS menu bar app that fixes typing in the wrong keyboard layout",
@@ -1623,9 +1679,10 @@
         "comments_url": "https://news.ycombinator.com/item?id=48575878"
       },
       "tags": [
-        "Programming"
+        "Programming",
+        "Open Source"
       ],
-      "hot_score": 0.19
+      "hot_score": 0.15
     },
     {
       "title_en": "The Forge We Deserve",
@@ -1644,31 +1701,10 @@
         "time": 1781768815,
         "comments_url": "https://news.ycombinator.com/item?id=48582147"
       },
-      "hot_score": 0.19,
+      "hot_score": 0.14,
       "tags": [
+        "Programming",
         "DevOps"
-      ]
-    },
-    {
-      "title_en": "Ask HN: Is anyone using the A2A protocol?",
-      "url": "https://news.ycombinator.com/item?id=48582679",
-      "title_zh": "询问 HN：有人在使用 A2A 协议吗？",
-      "created_display": "Created: Jun 18, 2026 / 01:52 PT",
-      "image_url": "https://news.ycombinator.com/y18.svg",
-      "summary_en": "A Hacker News post asks whether developers are adopting the A2A protocol, and what benefits or challenges they’ve seen. Responses illuminate practical integration considerations, tooling, and interoperability questions for agent-to-agent communication.",
-      "summary_zh": "HN 上有帖问及开发者是否在使用 A2A 协议，以及遇到的优点和挑战。讨论聚焦于代理间通信的实际集成、工具链和互操作性等问题。",
-      "hn": {
-        "id": 48582679,
-        "type": "story",
-        "by": "asim",
-        "score": 22,
-        "descendants": 7,
-        "time": 1781772765,
-        "comments_url": "https://news.ycombinator.com/item?id=48582679"
-      },
-      "hot_score": 0.19,
-      "tags": [
-        "Programming"
       ]
     },
     {
@@ -1688,9 +1724,8 @@
         "time": 1781749921,
         "comments_url": "https://news.ycombinator.com/item?id=48579913"
       },
-      "hot_score": 0.17,
+      "hot_score": 0.13,
       "tags": [
-        "Hardware",
         "AI"
       ]
     },
@@ -1711,10 +1746,33 @@
         "time": 1781779917,
         "comments_url": "https://news.ycombinator.com/item?id=48583508"
       },
-      "hot_score": 0.15,
+      "hot_score": 0.1,
       "tags": [
         "DevOps"
       ]
+    },
+    {
+      "title_en": "Notes from tired Egyptian whose job is explaining that humans built the pyramids",
+      "url": "https://www.mcsweeneys.net/articles/notes-from-a-tired-egyptian-guy-whose-job-is-explaining-that-humans-built-the-pyramids",
+      "title_zh": "疲惫的埃及人：解释人类建造金字塔的工作笔记",
+      "created_display": "Created: Jun 16, 2026 / 02:36 PT",
+      "image_url": "http://tendency-prod.nyc3.cdn.digitaloceanspaces.com/hnpkcz7x7yc7n6bjb9sc8uh57sr1",
+      "summary_en": "A satirical MCSweeneys piece riffing on the job of explaining that humans built the pyramids, poking fun at experts who explain obvious things and the absurdity of bureaucratic yet earnest explanations.",
+      "summary_zh": "这篇 MCSweeneys 的讽刺短文以“有人需要解释人类确实建造了金字塔”为梗，讽刺那些解释显而易见事实的专家，以及官僚式又认真的解释风格。",
+      "hn": {
+        "id": 48552767,
+        "type": "story",
+        "by": "Geekette",
+        "score": 164,
+        "descendants": 125,
+        "time": 1781602590,
+        "comments_url": "https://news.ycombinator.com/item?id=48552767"
+      },
+      "tags": [
+        "Culture",
+        "Entertainment"
+      ],
+      "hot_score": 0.09
     },
     {
       "title_en": "War Books: The Marine Corps Commandant's 2026 Reading List",
@@ -1733,97 +1791,76 @@
         "time": 1781769892,
         "comments_url": "https://news.ycombinator.com/item?id=48582293"
       },
-      "hot_score": 0.13,
+      "hot_score": 0.09,
       "tags": [
         "Education"
       ]
     },
     {
-      "title_en": "US Supreme Court limits ban on gun ownership by marijuana users",
-      "url": "https://www.reuters.com/world/us/us-supreme-court-backs-challenge-ban-gun-ownership-by-drug-users-2026-06-18/",
-      "title_zh": "美国最高法院缩小了对大麻使用者持枪禁令的范围",
-      "created_display": "Created: Jun 18, 2026 / 09:16 PT",
+      "title_en": "Agentic Resource Discovery Specification",
+      "url": "https://agenticresourcediscovery.org/introduction/",
+      "title_zh": "代理式资源发现规范",
+      "created_display": "Created: Jun 17, 2026 / 10:03 PT",
       "image_url": null,
-      "summary_en": "The Supreme Court narrows the scope of bans on gun ownership by marijuana users, reflecting ongoing tensions between drug policy and Second Amendment rights.",
-      "summary_zh": "最高法院缩小了对大麻使用者持枪禁令的范围，反映出药物政策与第二修正案权利之间的持续张力。",
+      "summary_en": "A new specification for agentic resource discovery outlines how autonomous agents should locate and reference resources safely and efficiently. It aims to standardize interactions, improving interoperability and reducing risk in multi-agent systems.",
+      "summary_zh": "一份代理式资源发现的新规范提出了自治代理如何安全、高效地定位和引用资源的标准做法，旨在提升跨系统的互操作性并降低多代理环境的风险。",
       "hn": {
-        "id": 48587674,
+        "id": 48573268,
         "type": "story",
-        "by": "helterskelter",
-        "score": 4,
-        "descendants": 0,
-        "time": 1781799377,
-        "comments_url": "https://news.ycombinator.com/item?id=48587674"
+        "by": "damick",
+        "score": 42,
+        "descendants": 11,
+        "time": 1781715797,
+        "comments_url": "https://news.ycombinator.com/item?id=48573268"
       },
-      "hot_score": 0.12,
       "tags": [
-        "Politics",
-        "Legal"
-      ]
+        "AI",
+        "Programming"
+      ],
+      "hot_score": 0.08
     },
     {
-      "title_en": "Notes from Tired Egyptian Whose Job Is Explaining That Humans Built the Pyramids",
-      "url": "https://www.mcsweeneys.net/articles/notes-from-a-tired-egyptian-guy-whose-job-is-explaining-that-humans-built-the-pyramids",
-      "title_zh": "疲惫的埃及人：解释人类建造金字塔的工作笔记",
-      "created_display": "Created: Jun 16, 2026 / 02:36 PT",
-      "image_url": "http://tendency-prod.nyc3.cdn.digitaloceanspaces.com/hnpkcz7x7yc7n6bjb9sc8uh57sr1",
-      "summary_en": "A satirical MCSweeneys piece riffing on the job of explaining that humans built the pyramids, poking fun at experts who explain obvious things and the absurdity of bureaucratic yet earnest explanations.",
-      "summary_zh": "这篇 MCSweeneys 的讽刺短文以“有人需要解释人类确实建造了金字塔”为梗，讽刺那些解释显而易见事实的专家，以及官僚式又认真的解释风格。",
+      "title_en": "Dutch Railways offers unlimited off-peak train travel nationwide for €49/month",
+      "url": "https://www.ns.nl/en/season-tickets/dal-vrij",
+      "title_zh": "荷兰铁路推出49欧/月的全国非高峰期无限乘车",
+      "created_display": "Created: Jun 15, 2026 / 09:44 PT",
+      "image_url": "https://ocp.ns.nl/caas/v1/media/stable/122038/data/landscape_ratio16x9/700/nl-dal-vrij-2-picture.webp",
+      "summary_en": "Nederland's NS unveils a nationwide off-peak unlimited travel pass for 49 euros per month. The plan aims to shift commuting and travel patterns toward off-peak times, potentially easing congestion and boosting productivity, while impacting fare structures.",
+      "summary_zh": "荷兰国家铁路宣布推出全国范围的非高峰期无限乘车月票，价格为49欧元。此举旨在引导公众将出行转向非高峰时段，可能缓解高峰拥堵、提升工作效率，同时对铁路票价结构产生影响。",
       "hn": {
-        "id": 48552767,
+        "id": 48543872,
         "type": "story",
-        "by": "Geekette",
-        "score": 92,
-        "descendants": 75,
-        "time": 1781602590,
-        "comments_url": "https://news.ycombinator.com/item?id=48552767"
+        "by": "felipevb",
+        "score": 174,
+        "descendants": 76,
+        "time": 1781541894,
+        "comments_url": "https://news.ycombinator.com/item?id=48543872"
       },
-      "hot_score": 0.06,
       "tags": [
-        "Culture"
-      ]
+        "Business"
+      ],
+      "hot_score": 0.06
     },
     {
-      "title_en": "Show HN: Run Agent Skills with mistral.rs v0.8.10: /v1/skills support and more",
-      "url": "https://news.ycombinator.com/item?id=48581792",
-      "title_zh": "Show HN：用 mistral.rs 0.8.10 运行 Agent Skills，/v1/skills 支持等",
-      "created_display": "Created: Jun 18, 2026 / 00:03 PT",
-      "image_url": "https://news.ycombinator.com/y18.svg",
-      "summary_en": "Show HN showcases mistral.rs 0.8.10, adding /v1/skills support and other improvements for running agent skills. The update improves the ability to expose and execute skills for autonomous agents.",
-      "summary_zh": "Show HN 展示了 mistral.rs 0.8.10 的更新，其中新增 /v1/skills 支持等功能，提升了在自治代理中加载和执行技能的能力。",
+      "title_en": "Emacs, how it all started for me",
+      "url": "https://xvw.lol/en/articles/emacs-start.html",
+      "title_zh": "Emacs：我的起点",
+      "created_display": "Created: Jun 15, 2026 / 08:32 PT",
+      "image_url": null,
+      "summary_en": "The author shares how Emacs shaped their programming mindset, from initial fascination to long‑term reliance on its extensibility. The piece reflects on openness, community, and the enduring appeal of a powerful editor.",
+      "summary_zh": "作者讲述自己如何被 Emacs 吸引并逐步建立起对编辑器及其可扩展性的依赖，反映了开源社区的影响力与强大工具在长期学习中的价值。",
       "hn": {
-        "id": 48581792,
+        "id": 48542784,
         "type": "story",
-        "by": "ericlbuehler",
-        "score": 9,
-        "descendants": 0,
-        "time": 1781766191,
-        "comments_url": "https://news.ycombinator.com/item?id=48581792"
-      },
-      "hot_score": 0.06,
-      "tags": [
-        "Show HN"
-      ]
-    },
-    {
-      "title_en": "The 2-Year Apartment Rule",
-      "url": "https://tadaima.bearblog.dev/the-2-year-apartment-rule/",
-      "title_zh": "两年公寓规则",
-      "created_display": "Created: Jun 16, 2026 / 05:00 PT",
-      "image_url": "https://tadaima.bearblog.dev/static/og-image.png",
-      "summary_en": "Explores a rule advocating two years in an apartment and discusses the financial and lifestyle trade-offs.",
-      "summary_zh": "探讨在公寓居住两年的规则及其在财务与生活方式上的权衡。",
-      "hn": {
-        "id": 48553876,
-        "type": "story",
-        "by": "surprisetalk",
-        "score": 69,
-        "descendants": 165,
-        "time": 1781611248,
-        "comments_url": "https://news.ycombinator.com/item?id=48553876"
+        "by": "nukifw",
+        "score": 135,
+        "descendants": 56,
+        "time": 1781537527,
+        "comments_url": "https://news.ycombinator.com/item?id=48542784"
       },
       "tags": [
-        "Finance"
+        "Programming",
+        "Open Source"
       ],
       "hot_score": 0.05
     },
@@ -1845,7 +1882,8 @@
         "comments_url": "https://news.ycombinator.com/item?id=48523534"
       },
       "tags": [
-        "Show HN"
+        "Show HN",
+        "Design"
       ],
       "hot_score": 0.04
     },
@@ -1894,48 +1932,26 @@
       "hot_score": 0.04
     },
     {
-      "title_en": "Agentic Resource Discovery Specification",
-      "url": "https://agenticresourcediscovery.org/introduction/",
-      "title_zh": "代理式资源发现规范",
-      "created_display": "Created: Jun 17, 2026 / 10:03 PT",
-      "image_url": null,
-      "summary_en": "A new specification for agentic resource discovery outlines how autonomous agents should locate and reference resources safely and efficiently. It aims to standardize interactions, improving interoperability and reducing risk in multi-agent systems.",
-      "summary_zh": "一份代理式资源发现的新规范提出了自治代理如何安全、高效地定位和引用资源的标准做法，旨在提升跨系统的互操作性并降低多代理环境的风险。",
+      "title_en": "The 2-Year Apartment Rule",
+      "url": "https://tadaima.bearblog.dev/the-2-year-apartment-rule/",
+      "title_zh": "两年公寓规则",
+      "created_display": "Created: Jun 16, 2026 / 05:00 PT",
+      "image_url": "https://tadaima.bearblog.dev/static/og-image.png",
+      "summary_en": "Explores a rule advocating two years in an apartment and discusses the financial and lifestyle trade-offs.",
+      "summary_zh": "探讨在公寓居住两年的规则及其在财务与生活方式上的权衡。",
       "hn": {
-        "id": 48573268,
+        "id": 48553876,
         "type": "story",
-        "by": "damick",
-        "score": 18,
-        "descendants": 5,
-        "time": 1781715797,
-        "comments_url": "https://news.ycombinator.com/item?id=48573268"
+        "by": "surprisetalk",
+        "score": 69,
+        "descendants": 165,
+        "time": 1781611248,
+        "comments_url": "https://news.ycombinator.com/item?id=48553876"
       },
-      "hot_score": 0.04,
       "tags": [
-        "Programming"
-      ]
-    },
-    {
-      "title_en": "Emacs, how it all started for me",
-      "url": "https://xvw.lol/en/articles/emacs-start.html",
-      "title_zh": "Emacs：我的起点",
-      "created_display": "Created: Jun 15, 2026 / 08:32 PT",
-      "image_url": null,
-      "summary_en": "The author shares how Emacs shaped their programming mindset, from initial fascination to long‑term reliance on its extensibility. The piece reflects on openness, community, and the enduring appeal of a powerful editor.",
-      "summary_zh": "作者讲述自己如何被 Emacs 吸引并逐步建立起对编辑器及其可扩展性的依赖，反映了开源社区的影响力与强大工具在长期学习中的价值。",
-      "hn": {
-        "id": 48542784,
-        "type": "story",
-        "by": "nukifw",
-        "score": 90,
-        "descendants": 35,
-        "time": 1781537527,
-        "comments_url": "https://news.ycombinator.com/item?id=48542784"
-      },
-      "hot_score": 0.03,
-      "tags": [
-        "Programming"
-      ]
+        "Finance"
+      ],
+      "hot_score": 0.04
     },
     {
       "title_en": "Show HN: We built an 8-bit CPU as 2nd year EE students",
@@ -1957,6 +1973,7 @@
       "tags": [
         "Show HN",
         "Hardware",
+        "Programming",
         "Education"
       ],
       "hot_score": 0.03
@@ -1974,12 +1991,12 @@
         "type": "story",
         "by": "embedding-shape",
         "score": 76,
-        "descendants": 36,
+        "descendants": 37,
         "time": 1781483544,
         "comments_url": "https://news.ycombinator.com/item?id=48534900"
       },
       "tags": [
-        "DevOps"
+        "Web"
       ],
       "hot_score": 0.02
     },
@@ -2004,6 +2021,28 @@
         "Programming"
       ],
       "hot_score": 0.02
+    },
+    {
+      "title_en": "Cell-based architecture for resilient payment systems",
+      "url": "https://americanexpress.io/cell-based-architecture-for-resilient-payment-systems/",
+      "title_zh": "基于单元格的架构提升支付系统弹性",
+      "created_display": "Created: Jun 15, 2026 / 15:36 PT",
+      "image_url": "https://americanexpress.io/_post_assets/cell-based-architecture-for-resilient-payment-systems/img/main.jpg",
+      "summary_en": "Cell-based architecture is presented as a path to fault isolation and resilient payments. By partitioning state and operations into independent cells, outages in one cell won’t cascade, enabling faster recovery and safer experimentation. The approach aligns with fintech’s demand for 24/7 uptime and scalable, compliant architectures.",
+      "summary_zh": "将系统分割为独立的单元格以实现故障隔离和支付系统弹性。通过对状态和操作进行细粒度划分，单个单元的故障不会蔓延，从而更快恢复并便于安全试验。这一思路符合金融科技对全天候可用性、可扩展性和合规性的要求。",
+      "hn": {
+        "id": 48547969,
+        "type": "story",
+        "by": "birdculture",
+        "score": 60,
+        "descendants": 18,
+        "time": 1781562993,
+        "comments_url": "https://news.ycombinator.com/item?id=48547969"
+      },
+      "hot_score": 0.02,
+      "tags": [
+        "Finance"
+      ]
     },
     {
       "title_en": "The Return of Rigorous Full-System Timing Simulation",
@@ -2046,30 +2085,9 @@
       },
       "hot_score": 0.02,
       "tags": [
-        "Show HN"
+        "Show HN",
+        "Hardware"
       ]
-    },
-    {
-      "title_en": "About ASCII art and Jgs font (2023)",
-      "url": "https://velvetyne.fr/news/about-ascii-art-and-jgs-font/",
-      "title_zh": "关于 ASCII 艺术与 JGS 字体（2023）",
-      "created_display": "Created: Jun 16, 2026 / 03:51 PT",
-      "image_url": "https://velvetyne.fr/site/templates/img/og.gif",
-      "summary_en": "Looks at ASCII art and the JGS font, analyzing how typography choices affect readability and expression in fixed-width art. It highlights design trade-offs and practical tips for creators.",
-      "summary_zh": "评述 ASCII 艺术与 JGS 字体，分析排版选择如何影响等宽艺术的可读性与表达力，指出设计取舍及创作者的实用建议。",
-      "hn": {
-        "id": 48553265,
-        "type": "story",
-        "by": "Luc",
-        "score": 25,
-        "descendants": 3,
-        "time": 1781607074,
-        "comments_url": "https://news.ycombinator.com/item?id=48553265"
-      },
-      "tags": [
-        "Design"
-      ],
-      "hot_score": 0.02
     },
     {
       "title_en": "Unity vs. Floating Point",
@@ -2083,8 +2101,8 @@
         "id": 48539971,
         "type": "story",
         "by": "ibobev",
-        "score": 42,
-        "descendants": 26,
+        "score": 44,
+        "descendants": 33,
         "time": 1781524427,
         "comments_url": "https://news.ycombinator.com/item?id=48539971"
       },
@@ -2113,8 +2131,8 @@
         "comments_url": "https://news.ycombinator.com/item?id=48535821"
       },
       "tags": [
-        "Web",
-        "Hardware"
+        "Hardware",
+        "Programming"
       ],
       "hot_score": 0.01
     },
@@ -2137,7 +2155,6 @@
       },
       "hot_score": 0.01,
       "tags": [
-        "Gaming",
         "Web"
       ]
     },
@@ -2159,31 +2176,32 @@
         "comments_url": "https://news.ycombinator.com/item?id=48534104"
       },
       "tags": [
-        "Open Source"
+        "Open Source",
+        "Programming"
       ],
       "hot_score": 0.01
     },
     {
-      "title_en": "My LSM tree was slower than a B-tree. Then I profiled it",
-      "url": "https://aasheesh.vercel.app/blog/lsm-tree",
-      "title_zh": "我的 LSM 树慢于 B 树：一次性能分析",
-      "created_display": "Created: Jun 15, 2026 / 08:42 PT",
-      "image_url": "https://miro.medium.com/v2/resize:fit:1200/1*-KKt58ZOHOphp55q-gKOOw.png",
-      "summary_en": "The author compares LSM-tree performance to a B-tree, identifies bottlenecks, and profiles to guide optimizations.",
-      "summary_zh": "作者将 LSM 树与 B 树在同一工作负载下进行对比，找出瓶颈并通过性能分析和调优建议提升性能。文章强调实际工作负载、内存层次结构对存储引擎性能的决定性作用。",
+      "title_en": "About ASCII art and Jgs font (2023)",
+      "url": "https://velvetyne.fr/news/about-ascii-art-and-jgs-font/",
+      "title_zh": "关于 ASCII 艺术与 JGS 字体（2023）",
+      "created_display": "Created: Jun 16, 2026 / 03:51 PT",
+      "image_url": "https://velvetyne.fr/site/templates/img/og.gif",
+      "summary_en": "Looks at ASCII art and the JGS font, analyzing how typography choices affect readability and expression in fixed-width art. It highlights design trade-offs and practical tips for creators.",
+      "summary_zh": "评述 ASCII 艺术与 JGS 字体，分析排版选择如何影响等宽艺术的可读性与表达力，指出设计取舍及创作者的实用建议。",
       "hn": {
-        "id": 48542963,
+        "id": 48553265,
         "type": "story",
-        "by": "aasheeshrathour",
-        "score": 14,
-        "descendants": 24,
-        "time": 1781538162,
-        "comments_url": "https://news.ycombinator.com/item?id=48542963"
+        "by": "Luc",
+        "score": 25,
+        "descendants": 3,
+        "time": 1781607074,
+        "comments_url": "https://news.ycombinator.com/item?id=48553265"
       },
-      "hot_score": 0.01,
       "tags": [
-        "Programming"
-      ]
+        "Design"
+      ],
+      "hot_score": 0.01
     },
     {
       "title_en": "Biological evolution and information acquisition",
@@ -2209,25 +2227,69 @@
       ]
     },
     {
-      "title_en": "Dutch Railways offers unlimited off-peak train travel nationwide for €49/month",
-      "url": "https://www.ns.nl/producten/abonnementen/nederland-dal-vrij",
-      "title_zh": "荷兰铁路推出49欧/月的全国非高峰期无限乘车",
-      "created_display": "Created: Jun 15, 2026 / 09:44 PT",
-      "image_url": "https://ocp.ns.nl/caas/v1/media/stable/122038/data/landscape_ratio16x9/700/nl-dal-vrij-2-picture.webp",
-      "summary_en": "Nederland's NS unveils a nationwide off-peak unlimited travel pass for 49 euros per month. The plan aims to shift commuting and travel patterns toward off-peak times, potentially easing congestion and boosting productivity, while impacting fare structures.",
-      "summary_zh": "荷兰国家铁路宣布推出全国范围的非高峰期无限乘车月票，价格为49欧元。此举旨在引导公众将出行转向非高峰时段，可能缓解高峰拥堵、提升工作效率，同时对铁路票价结构产生影响。",
+      "title_en": "My LSM tree was slower than a B-tree. Then I profiled it",
+      "url": "https://aasheesh.vercel.app/blog/lsm-tree",
+      "title_zh": "我的 LSM 树慢于 B 树：一次性能分析",
+      "created_display": "Created: Jun 15, 2026 / 08:42 PT",
+      "image_url": "https://miro.medium.com/v2/resize:fit:1200/1*-KKt58ZOHOphp55q-gKOOw.png",
+      "summary_en": "The author compares LSM-tree performance to a B-tree, identifies bottlenecks, and profiles to guide optimizations.",
+      "summary_zh": "作者将 LSM 树与 B 树在同一工作负载下进行对比，找出瓶颈并通过性能分析和调优建议提升性能。文章强调实际工作负载、内存层次结构对存储引擎性能的决定性作用。",
       "hn": {
-        "id": 48543872,
+        "id": 48542963,
         "type": "story",
-        "by": "felipevb",
+        "by": "aasheeshrathour",
+        "score": 14,
+        "descendants": 24,
+        "time": 1781538162,
+        "comments_url": "https://news.ycombinator.com/item?id=48542963"
+      },
+      "hot_score": 0.0,
+      "tags": [
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "If your product is Great, it doesn't need to be Good (2010)",
+      "url": "http://paulbuchheit.blogspot.com/2010/02/if-your-product-is-great-it-doesnt-need.html",
+      "title_zh": "如果你的产品很棒，它就不需要是“好”（2010）",
+      "created_display": "Created: Jun 15, 2026 / 10:26 PT",
+      "image_url": "https://resources.blogblog.com/img/icon18_edit_allbkg.gif",
+      "summary_en": "Paul Buchheit argues that truly great products can outshine ordinary polish and that teams should focus on delivering extraordinary value rather than chasing generic 'good' improvements. The note offers a counterpoint to feature creep and highlights the importance of a clear product thesis.",
+      "summary_zh": "保罗·布赫特认为真正出色的产品能超越普通的精修，团队应专注于提供非凡的价值，而非追逐泛泛的“好”的改进。这一观点对避免功能膨胀、坚持清晰的产品定位具有重要意义。",
+      "hn": {
+        "id": 48544429,
+        "type": "story",
+        "by": "skogstokig",
         "score": 12,
-        "descendants": 2,
-        "time": 1781541894,
-        "comments_url": "https://news.ycombinator.com/item?id=48543872"
+        "descendants": 7,
+        "time": 1781544412,
+        "comments_url": "https://news.ycombinator.com/item?id=48544429"
       },
       "hot_score": 0.0,
       "tags": [
         "Business"
+      ]
+    },
+    {
+      "title_en": "Flip TABLE: storing arbitrary data in iNaturalist",
+      "url": "https://exclav.es/2026/06/13/flip-table-storing-arbitrary-data-in-inaturalist/",
+      "title_zh": "Flip TABLE：在 iNaturalist 上存储任意数据",
+      "created_display": "Created: Jun 15, 2026 / 12:31 PT",
+      "image_url": "https://exclav.es/2026/06/13/flip-table-storing-arbitrary-data-in-inaturalist/5.jpeg",
+      "summary_en": "Flip TABLE demonstrates a technique to store arbitrary data in iNaturalist by encoding information into its data fields, turning a biodiversity platform into a lightweight data store.",
+      "summary_zh": "Flip TABLE 展示了一种通过在 iNaturalist 的数据字段中编码信息来存储任意数据的技巧，将一个生物多样性平台变成了一个轻量级数据存储设备。",
+      "hn": {
+        "id": 48545935,
+        "type": "story",
+        "by": "evakhoury",
+        "score": 10,
+        "descendants": 0,
+        "time": 1781551871,
+        "comments_url": "https://news.ycombinator.com/item?id=48545935"
+      },
+      "hot_score": 0.0,
+      "tags": [
+        "Data"
       ]
     }
   ]
