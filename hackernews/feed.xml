@@ -5,7 +5,7 @@
     <link>https://chaowang15.github.io/hackernews/</link>
     <description>Curated daily digest of top Hacker News stories with AI-generated summaries, tags, and bilingual translations.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Jun 2026 10:43:28 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2026 15:34:51 +0000</lastBuildDate>
     <generator>Hacker News Daily RSS Builder</generator>
     <atom:link href="https://chaowang15.github.io/hackernews/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
@@ -47,6 +47,21 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48546294&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/16/top_stories_06162026#story-48546294&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Running local models is good now</title>
+      <link>https://vickiboykis.com/2026/06/15/running-local-models-is-good-now/</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48555993</guid>
+      <dc:creator>jfb</dc:creator>
+      <pubDate>Tue, 16 Jun 2026 14:36:57 +0000</pubDate>
+      <category>AI</category>
+      <category>Open Source</category>
+      <category>Privacy</category>
+      <category>Hardware</category>
+      <description>&lt;p&gt;Recent advances in open-source models, tooling, and consumer hardware have made running local models practical again. Local inference offers privacy, lower latency, and offline reliability, though trade-offs in performance and updatability remain.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;近来开源模型、工具链和硬件水平的提升让本地运行模型重新成为现实，带来隐私、更低延迟和离线可用性等优势，同时在性能与可更新性方面仍存在权衡。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 1547 · 💬 595 · AI · Open Source · Privacy · Hardware&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48555993&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/17/top_stories_06172026#story-48555993&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Open source AI must win</title>
       <link>https://opensourceaimustwin.com/?share=v2</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=48511908</guid>
@@ -58,21 +73,6 @@
 &lt;p&gt;&lt;em&gt;主张开源 AI 必须获胜，强调透明性、可复现性和广泛可用性对创新与安全的重要性。文章呼吁建立以开源为基础的生态系统，推动研究者和开发者在公共基础之上协作共建。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 1545 · 💬 467 · AI · Open Source&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48511908&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/13/top_stories_06132026#story-48511908&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Running local models is good now</title>
-      <link>https://vickiboykis.com/2026/06/15/running-local-models-is-good-now/</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48555993</guid>
-      <dc:creator>jfb</dc:creator>
-      <pubDate>Tue, 16 Jun 2026 14:36:57 +0000</pubDate>
-      <category>AI</category>
-      <category>Privacy</category>
-      <category>Open Source</category>
-      <category>Hardware</category>
-      <description>&lt;p&gt;Recent advances in open-source models, tooling, and consumer hardware have made running local models practical again. Local inference offers privacy, lower latency, and offline reliability, though trade-offs in performance and updatability remain.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;近来开源模型、工具链和硬件水平的提升让本地运行模型重新成为现实，带来隐私、更低延迟和离线可用性等优势，同时在性能与可更新性方面仍存在权衡。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 1535 · 💬 591 · AI · Privacy · Open Source · Hardware&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48555993&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/18/top_stories_06182026#story-48555993&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>AI agent bankrupted their operator while trying to scan DN42</title>
@@ -137,8 +137,8 @@
       <category>Programming</category>
       <description>&lt;p&gt;Lore is an open-source version control system built to scale with large codebases and teams. It emphasizes performance and architecture designed to handle millions of files, making collaboration smoother for enterprises and big projects. The takeaway: it positions itself as a scalable alternative to traditional VCS in environments where Git can struggle.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Lore 是一个为大型代码库和团队协作而设计的开源版本控制系统。它强调高性能和可扩展的架构，能够处理海量文件，从而为企业级大项目提供更顺畅的协作。核心在于它试图在 Git 可能吃力的环境中提供一个可扩展的替代方案。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 1151 · 💬 612 · Open Source · Programming&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48571081&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/18/top_stories_06182026#story-48571081&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;small&gt;▲ 1202 · 💬 638 · Open Source · Programming&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48571081&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/17/top_stories_06172026#story-48571081&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>SpaceX to buy Cursor for $60B</title>
@@ -153,6 +153,33 @@
 &lt;p&gt;&lt;em&gt;SpaceX拟以约600亿美元收购Cursor，显示其在AI计算能力和高级软件资产方面扩张的策略性动向。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 1099 · 💬 1630 · Business · Space · AI&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48553224&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/17/top_stories_06172026#story-48553224&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Midjourney Medical</title>
+      <link>https://www.midjourney.com/medical/blogpost</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48579650</guid>
+      <dc:creator>ricochet11</dc:creator>
+      <pubDate>Thu, 18 Jun 2026 01:59:51 +0000</pubDate>
+      <category>AI</category>
+      <category>Health</category>
+      <category>Privacy</category>
+      <description>&lt;p&gt;Midjourney extends its generative AI into medical contexts, exploring potential uses for imaging, diagnostics, and patient communication. The discussion highlights the tradeoffs between creative flexibility and the stringent safety, privacy, and accuracy requirements in healthcare.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Midjourney 将其生成式 AI 引入医疗场景，探索在影像、诊断与病人沟通中的潜在应用。讨论强调在医疗领域对安全、隐私与准确性等高要求与创意灵活性之间的权衡。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 1089 · 💬 752 · AI · Health · Privacy&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48579650&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/17/top_stories_06172026#story-48579650&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sixty percent of US consumers say 'AI' in brand messaging is a turnoff</title>
+      <link>https://wpvip.com/future-of-the-web-2026/</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48569278</guid>
+      <dc:creator>thm</dc:creator>
+      <pubDate>Wed, 17 Jun 2026 12:11:27 +0000</pubDate>
+      <category>Business</category>
+      <category>AI</category>
+      <description>&lt;p&gt;Many US consumers are turned off by AI buzzwords in brand messaging. Brands should emphasize authentic value and real capabilities rather than hype. This trend underscores the need for responsible, outcome-focused AI marketing.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;六成美国消费者对品牌信息中的 AI 概念感到反感，认为这是噱头。品牌应聚焦真实价值与实际能力，而非空洞的技术炒作。此趋势凸显在 AI 营销中避免过度承诺、追求可验证结果的重要性。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 1054 · 💬 564 · Business · AI&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48569278&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/17/top_stories_06172026#story-48569278&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>TinyWind: A pixel pirate sailing game with real wind physics (380k+ kms sailed)</title>
@@ -174,11 +201,12 @@
       <dc:creator>Cider9986</dc:creator>
       <pubDate>Tue, 16 Jun 2026 20:34:35 +0000</pubDate>
       <category>Privacy</category>
+      <category>Open Source</category>
       <category>Security</category>
       <description>&lt;p&gt;GrapheneOS has reached a port to Android 17, bringing its hardened, privacy-first Android fork to the latest base. Expect updated security hardening, better device compatibility, and official builds rolling out soon. This signals ongoing momentum for privacy-focused Android variants as core Android updates proceed.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;GrapheneOS 已实现对 Android 17 的移植，延续其以隐私和安全为核心的 Android 派生系统。官方版本预计不久就会发布，带来更新的安全增强和更广的设备兼容性，标志着隐私取向的 Android 生态持续增长。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 990 · 💬 580 · Privacy · Security&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48561654&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/18/top_stories_06182026#story-48561654&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;small&gt;▲ 999 · 💬 587 · Privacy · Open Source · Security&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48561654&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/17/top_stories_06172026#story-48561654&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>CRISPR tech selectively shreds cancer cells, including &quot;undruggable&quot; cancers</title>
@@ -192,19 +220,6 @@
 &lt;p&gt;&lt;em&gt;研究展示了一种可选择性靶向癌细胞、在不伤害健康组织的前提下使用的 CRISPR 技术，甚至覆盖传统药物难以靶向的癌症。若能规模化应用，可能扩展基因编辑治疗的适用范围并降低副作用风险。当前仍面临递送、安全性和伦理方面的挑战。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 974 · 💬 211 · Science · Health&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48505231&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/13/top_stories_06132026#story-48505231&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Sixty percent of US consumers say 'AI' in brand messaging is a turnoff</title>
-      <link>https://wpvip.com/future-of-the-web-2026/</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48569278</guid>
-      <dc:creator>thm</dc:creator>
-      <pubDate>Wed, 17 Jun 2026 12:11:27 +0000</pubDate>
-      <category>AI</category>
-      <category>Business</category>
-      <description>&lt;p&gt;Many US consumers are turned off by AI buzzwords in brand messaging. Brands should emphasize authentic value and real capabilities rather than hype. This trend underscores the need for responsible, outcome-focused AI marketing.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;六成美国消费者对品牌信息中的 AI 概念感到反感，认为这是噱头。品牌应聚焦真实价值与实际能力，而非空洞的技术炒作。此趋势凸显在 AI 营销中避免过度承诺、追求可验证结果的重要性。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 948 · 💬 485 · AI · Business&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48569278&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/17/top_stories_06172026#story-48569278&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>I admire Fabrice Bellard. He is almost certainly a better overall programmer</title>
@@ -229,6 +244,18 @@
 &lt;p&gt;&lt;em&gt;在围绕 ePub 兼容性的争议中，Kobo 反对把问题归咎于 Adobe，认为该格式本身仍然稳健，渲染问题往往来自具体应用与设备实现。该观点将难题定位为读写器、工具和出版商共同面临的互操作挑战，而非某个厂商的错。此事对开发者和出版方在跨设备兼容性上的决策具有现实意义。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 890 · 💬 304 · Web&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48533848&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/15/top_stories_06152026#story-48533848&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Apple's weird anti-nausea dots cured my car sickness</title>
+      <link>https://www.theverge.com/tech/942854/apple-vehicle-motion-cues-review-really-work</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48557530</guid>
+      <dc:creator>neilfrndes</dc:creator>
+      <pubDate>Tue, 16 Jun 2026 16:12:06 +0000</pubDate>
+      <category>Science</category>
+      <description>&lt;p&gt;User tests indicate Apple's anti-nausea motion cues dramatically reduced car sickness, with a perception of smoother rides. The piece explains the underlying motion cueing concept and discusses whether it foreshadows broader comfort improvements in mobile or AR displays.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;实测显示苹果的抗晕点显著缓解车载晕动，带来更平稳的乘车体验。文中解释了相关的运动提示原理，并讨论它对移动端或 AR 显示的潜在影响。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 880 · 💬 266 · Science&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48557530&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/17/top_stories_06172026#story-48557530&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Noise infusion banned from statistical products published by Census Bureau</title>
@@ -266,20 +293,21 @@
       <category>Open Source</category>
       <description>&lt;p&gt;GLM-5.2 has emerged as the leading open-weight model on the Artificial Analysis index, outperforming its predecessors in benchmark tests. It demonstrates strong generalization with competitive inference speed, illustrating how open-weight ecosystems continue to close the gap with closed models. This trend lowers barriers for researchers to experiment with powerful LLMs at scale.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;GLM-5.2 已成为开源权重模型的领先者，领先于前代模型并在基准测试中表现突出。它在推理速度和泛化能力方面表现有竞争力，标志着开源权重生态的成熟。此趋势降低了研究人员在大模型实验中的门槛。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 856 · 💬 415 · AI · Open Source&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48567759&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/18/top_stories_06182026#story-48567759&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;small&gt;▲ 862 · 💬 424 · AI · Open Source&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48567759&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/17/top_stories_06172026#story-48567759&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Apple's weird anti-nausea dots cured my car sickness</title>
-      <link>https://www.theverge.com/tech/942854/apple-vehicle-motion-cues-review-really-work</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48557530</guid>
-      <dc:creator>neilfrndes</dc:creator>
-      <pubDate>Tue, 16 Jun 2026 16:12:06 +0000</pubDate>
+      <title>U.S. science is in chaos</title>
+      <link>https://www.scientificamerican.com/article/americas-compact-between-science-and-politics-is-broken/</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48568058</guid>
+      <dc:creator>presspot</dc:creator>
+      <pubDate>Wed, 17 Jun 2026 09:54:21 +0000</pubDate>
       <category>Science</category>
-      <description>&lt;p&gt;User tests indicate Apple's anti-nausea motion cues dramatically reduced car sickness, with a perception of smoother rides. The piece explains the underlying motion cueing concept and discusses whether it foreshadows broader comfort improvements in mobile or AR displays.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;实测显示苹果的抗晕点显著缓解车载晕动，带来更平稳的乘车体验。文中解释了相关的运动提示原理，并讨论它对移动端或 AR 显示的潜在影响。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 834 · 💬 248 · Science&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48557530&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/16/top_stories_06162026#story-48557530&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Politics</category>
+      <description>&lt;p&gt;An analysis arguing the U.S. science-politics compact is broken, threatening long-term funding, independent oversight, and scientific consensus.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;一篇分析指出，美国科学与政治之间的默契已破裂，长期资助、独立监督和科学共识受到威胁。文章强调政治极化和短期政策周期削弱了研究生态系统，也影响着科技创新的发展。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 852 · 💬 1038 · Science · Politics&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48568058&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/17/top_stories_06172026#story-48568058&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Every Frame Perfect</title>
@@ -294,19 +322,6 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48516251&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/15/top_stories_06152026#story-48516251&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>U.S. science is in chaos</title>
-      <link>https://www.scientificamerican.com/article/americas-compact-between-science-and-politics-is-broken/</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48568058</guid>
-      <dc:creator>presspot</dc:creator>
-      <pubDate>Wed, 17 Jun 2026 09:54:21 +0000</pubDate>
-      <category>Science</category>
-      <category>Politics</category>
-      <description>&lt;p&gt;An analysis arguing the U.S. science-politics compact is broken, threatening long-term funding, independent oversight, and scientific consensus.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;一篇分析指出，美国科学与政治之间的默契已破裂，长期资助、独立监督和科学共识受到威胁。文章强调政治极化和短期政策周期削弱了研究生态系统，也影响着科技创新的发展。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 815 · 💬 980 · Science · Politics&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48568058&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/18/top_stories_06182026#story-48568058&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Amazon CEO's talks with U.S. officials triggered crackdown on Anthropic models</title>
       <link>https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578?st=Yct6gx&amp;reflink=desktopwebshare_permalink</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=48519092</guid>
@@ -319,20 +334,6 @@
 &lt;p&gt;&lt;em&gt;亚马逊与美国官员的高层会谈推动对 Anthropic 模型的监管升级，凸显政策谈判会影响 AI 部署与获取。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 794 · 💬 596 · AI · Politics · Business&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48519092&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/14/top_stories_06142026#story-48519092&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Midjourney Medical</title>
-      <link>https://www.midjourney.com/medical/blogpost</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48579650</guid>
-      <dc:creator>ricochet11</dc:creator>
-      <pubDate>Thu, 18 Jun 2026 01:59:51 +0000</pubDate>
-      <category>AI</category>
-      <category>Privacy</category>
-      <category>Health</category>
-      <description>&lt;p&gt;Midjourney extends its generative AI into medical contexts, exploring potential uses for imaging, diagnostics, and patient communication. The discussion highlights the tradeoffs between creative flexibility and the stringent safety, privacy, and accuracy requirements in healthcare.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Midjourney 将其生成式 AI 引入医疗场景，探索在影像、诊断与病人沟通中的潜在应用。讨论强调在医疗领域对安全、隐私与准确性等高要求与创意灵活性之间的权衡。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 780 · 💬 528 · AI · Privacy · Health&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48579650&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/18/top_stories_06182026#story-48579650&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Curl will not accept vulnerability reports during July 2026</title>
@@ -384,6 +385,19 @@
 &lt;p&gt;&lt;em&gt;2001 年的论文指出，阻止原本不太可能发生的问题常常得不到认可，从而改变了对预防性工作的激励机制。文章分析了奖励与管理实践如何偏向对可见事故的处理，而非对提高韧性的投入，对软件质量与风险管理具有广泛影响。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 749 · 💬 256 · Science · Education&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48498385&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/12/top_stories_06122026#story-48498385&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Volkswagen started blocking GrapheneOS users</title>
+      <link>https://discuss.grapheneos.org/d/35949-volkswagen-app?page=3</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48571526</guid>
+      <dc:creator>microtonal</dc:creator>
+      <pubDate>Wed, 17 Jun 2026 15:04:47 +0000</pubDate>
+      <category>Privacy</category>
+      <category>Open Source</category>
+      <description>&lt;p&gt;Volkswagen has started blocking GrapheneOS users from its apps. The move highlights ongoing frictions between privacy-focused mobile OS choices and corporate app ecosystems, raising questions about platform-level access and user rights. It underscores how vendor policies can limit privacy-aware users and the ecosystems around open-source mobile OSes.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;大众汽车开始屏蔽 GrapheneOS 用户使用其应用的行为凸显了隐私导向的移动系统与厂商应用生态之间的矛盾。此举引发对平台访问和用户权益的讨论，也提醒隐私友好型操作系统的使用者可能面临被排除的风险。厂商政策对开源移动生态的影响再次成为焦点。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 747 · 💬 440 · Privacy · Open Source&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48571526&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/17/top_stories_06172026#story-48571526&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>What happened to nerds?</title>
@@ -440,19 +454,6 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48510010&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/13/top_stories_06132026#story-48510010&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Volkswagen started blocking GrapheneOS users</title>
-      <link>https://discuss.grapheneos.org/d/35949-volkswagen-app?page=3</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48571526</guid>
-      <dc:creator>microtonal</dc:creator>
-      <pubDate>Wed, 17 Jun 2026 15:04:47 +0000</pubDate>
-      <category>Privacy</category>
-      <category>Open Source</category>
-      <description>&lt;p&gt;Volkswagen has started blocking GrapheneOS users from its apps. The move highlights ongoing frictions between privacy-focused mobile OS choices and corporate app ecosystems, raising questions about platform-level access and user rights. It underscores how vendor policies can limit privacy-aware users and the ecosystems around open-source mobile OSes.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;大众汽车开始屏蔽 GrapheneOS 用户使用其应用的行为凸显了隐私导向的移动系统与厂商应用生态之间的矛盾。此举引发对平台访问和用户权益的讨论，也提醒隐私友好型操作系统的使用者可能面临被排除的风险。厂商政策对开源移动生态的影响再次成为焦点。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 693 · 💬 414 · Privacy · Open Source&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48571526&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/18/top_stories_06182026#story-48571526&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>How to earn a billion dollars</title>
       <link>https://paulgraham.com/earn.html</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=48526360</guid>
@@ -494,19 +495,6 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48514560&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/13/top_stories_06132026#story-48514560&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Want your images back? That'll be $5</title>
-      <link>https://www.lutr.dev/want-your-images-back-sure-that-ll-be-5-dollars</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48569954</guid>
-      <dc:creator>lutr</dc:creator>
-      <pubDate>Wed, 17 Jun 2026 13:05:03 +0000</pubDate>
-      <category>Data</category>
-      <category>AI</category>
-      <description>&lt;p&gt;A service charging a flat fee to retrieve your images highlights the economics of data recovery and ownership in an AI-enabled world. It spotlights the friction and costs users face when reclaiming their own media.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;关于用固定费用（5 美元）来让用户找回自己的图片，折射出数据所有权、隐私与数据恢复成本在 AI 时代的经济性与伦理议题。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 634 · 💬 263 · Data · AI&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48569954&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/18/top_stories_06182026#story-48569954&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Is Meta destroying its engineering organization?</title>
       <link>https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=48558045</guid>
@@ -516,8 +504,21 @@
       <category>Career</category>
       <description>&lt;p&gt;A critical take argues Meta's engineering organization has weakened due to misaligned incentives, staffing changes, and leadership shifts, slowing delivery and harming morale. It offers organizational design lessons for large-scale tech firms.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;观点认为 Meta 的工程组织因激励错配、人事变动和领导层调整而受挫，导致交付变慢、士气下降。文中给出大型科技公司在组织设计方面的教训与建议。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 615 · 💬 568 · Business · Career&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48558045&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/16/top_stories_06162026#story-48558045&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;small&gt;▲ 644 · 💬 598 · Business · Career&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48558045&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/17/top_stories_06172026#story-48558045&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Want your images back? That'll be $5</title>
+      <link>https://www.lutr.dev/want-your-images-back-sure-that-ll-be-5-dollars</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48569954</guid>
+      <dc:creator>lutr</dc:creator>
+      <pubDate>Wed, 17 Jun 2026 13:05:03 +0000</pubDate>
+      <category>Data</category>
+      <category>AI</category>
+      <description>&lt;p&gt;A service charging a flat fee to retrieve your images highlights the economics of data recovery and ownership in an AI-enabled world. It spotlights the friction and costs users face when reclaiming their own media.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;关于用固定费用（5 美元）来让用户找回自己的图片，折射出数据所有权、隐私与数据恢复成本在 AI 时代的经济性与伦理议题。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 642 · 💬 265 · Data · AI&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48569954&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/17/top_stories_06172026#story-48569954&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>CrankGPT</title>
@@ -531,6 +532,19 @@
 &lt;p&gt;&lt;em&gt;CrankGPT 已作为一款新型人工智能产品出现，标志着 AI 聊天代理领域的持续多样化。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 590 · 💬 229 · AI · Startups&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48540854&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/15/top_stories_06152026#story-48540854&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hacker News but for independent blogs</title>
+      <link>https://bubbles.town/</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48567155</guid>
+      <dc:creator>headalgorithm</dc:creator>
+      <pubDate>Wed, 17 Jun 2026 07:49:44 +0000</pubDate>
+      <category>Startups</category>
+      <category>Web</category>
+      <description>&lt;p&gt;A platform proposing Hacker News-like aggregation for independent blogs, offering niche tech writing a dedicated space away from mainstream outlets. By curating quality posts from independent voices, it could diversify discourse and boost visibility for smaller publishers.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;一个面向独立博客的聚合平台，提供类似 Hacker News 的社区化信息流，让非主流媒体的技术写作获得专门的曝光空间。通过精选独立声音的高质量帖子，它有望让讨论更具多样性，并提升小型出版者的能见度。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 586 · 💬 202 · Startups · Web&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48567155&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/17/top_stories_06172026#story-48567155&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Feds freaked over Fable 5 after 'fix this code', not jailbreak, say researchers</title>
@@ -582,6 +596,42 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48490826&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/12/top_stories_06122026#story-48490826&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Calvin and Hobbes and the price of integrity</title>
+      <link>https://therepublicofletters.substack.com/p/calvin-and-hobbes-and-the-price-of</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48557079</guid>
+      <dc:creator>pseudolus</dc:creator>
+      <pubDate>Tue, 16 Jun 2026 15:44:44 +0000</pubDate>
+      <category>Culture</category>
+      <description>&lt;p&gt;A thoughtful essay uses Calvin and Hobbes to reflect on integrity in a world of incentives, exploring what staying true to one's principles costs creators and communities. It illustrates how honesty can shape practice and culture.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;以《卡尔文与霍布斯》为镜，思考在激励驱动的世界中坚持正直的代价，探讨创作者与社区对原则的坚持会带来何种影响。说明诚实如何影响实践与文化。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 537 · 💬 244 · Culture&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48557079&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/17/top_stories_06172026#story-48557079&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>TIL: You can make HTTP requests without curl using Bash /dev/TCP</title>
+      <link>https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48558018</guid>
+      <dc:creator>mrshu</dc:creator>
+      <pubDate>Tue, 16 Jun 2026 16:40:58 +0000</pubDate>
+      <category>Programming</category>
+      <description>&lt;p&gt;Bash can issue HTTP requests by opening a TCP connection with /dev/tcp and writing raw HTTP, avoiding curl. This technique is handy in minimal environments or quick checks, but it's brittle, lacks features like redirects and timeouts, and requires manual response parsing.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;通过打开 /dev/tcp 的 TCP 连接并发送原始 HTTP 请求即可在 Bash 中完成网络请求，无需 curl。适合极简环境和快速诊断，但缺乏如重定向、超时等特性，需要手动解析响应。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 533 · 💬 228 · Programming&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48558018&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/17/top_stories_06172026#story-48558018&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Apple is about to make Hide My Email useless</title>
+      <link>https://arseniyshestakov.com/2026/06/16/apple-is-about-to-make-hide-my-email-useless/</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48559935</guid>
+      <dc:creator>SXX</dc:creator>
+      <pubDate>Tue, 16 Jun 2026 18:37:21 +0000</pubDate>
+      <category>Privacy</category>
+      <description>&lt;p&gt;A forthcoming change could undermine Hide My Email, reducing its ability to shield users’ real addresses when signing up for services. Privacy-focused users may need to adapt or seek alternatives as Apple alters how aliases are exposed.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;传闻称苹果即将改变 Hide My Email 的工作方式，降低该功能对用户隐私的保护，可能使真实邮箱更易暴露。隐私导向的用户需要适应新的使用方式，或寻找替代方案。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 523 · 💬 339 · Privacy&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48559935&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/17/top_stories_06172026#story-48559935&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Hetzner Price Adjustment</title>
       <link>https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/#cloud-servers</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=48540844</guid>
@@ -592,31 +642,6 @@
 &lt;p&gt;&lt;em&gt;Hetzner 调整云服务器及相关服务价格，可能影响小型团队和业余项目的成本计算。用户需要审阅新价格并相应调整预算与工作流。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 522 · 💬 709 · Business&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48540844&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/15/top_stories_06152026#story-48540844&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Calvin and Hobbes and the price of integrity</title>
-      <link>https://therepublicofletters.substack.com/p/calvin-and-hobbes-and-the-price-of</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48557079</guid>
-      <dc:creator>pseudolus</dc:creator>
-      <pubDate>Tue, 16 Jun 2026 15:44:44 +0000</pubDate>
-      <category>Culture</category>
-      <description>&lt;p&gt;A thoughtful essay uses Calvin and Hobbes to reflect on integrity in a world of incentives, exploring what staying true to one's principles costs creators and communities. It illustrates how honesty can shape practice and culture.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;以《卡尔文与霍布斯》为镜，思考在激励驱动的世界中坚持正直的代价，探讨创作者与社区对原则的坚持会带来何种影响。说明诚实如何影响实践与文化。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 520 · 💬 228 · Culture&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48557079&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/17/top_stories_06172026#story-48557079&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Hacker News but for independent blogs</title>
-      <link>https://bubbles.town/</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48567155</guid>
-      <dc:creator>headalgorithm</dc:creator>
-      <pubDate>Wed, 17 Jun 2026 07:49:44 +0000</pubDate>
-      <category>Startups</category>
-      <category>Web</category>
-      <description>&lt;p&gt;A platform proposing Hacker News-like aggregation for independent blogs, offering niche tech writing a dedicated space away from mainstream outlets. By curating quality posts from independent voices, it could diversify discourse and boost visibility for smaller publishers.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;一个面向独立博客的聚合平台，提供类似 Hacker News 的社区化信息流，让非主流媒体的技术写作获得专门的曝光空间。通过精选独立声音的高质量帖子，它有望让讨论更具多样性，并提升小型出版者的能见度。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 514 · 💬 168 · Startups · Web&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48567155&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/17/top_stories_06172026#story-48567155&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Show HN: FablePool – pool money behind a prompt, and Fable builds it in public</title>
@@ -630,30 +655,6 @@
 &lt;p&gt;&lt;em&gt;FablePool 通过众筹资金来支持单一提示词，并公开开发过程。这一做法在测试社区资金是否能加速提示词工程，同时让开发与用户在实时透明的状态下互动。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 513 · 💬 272 · Show HN · AI&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48496539&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/12/top_stories_06122026#story-48496539&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>TIL: You can make HTTP requests without curl using Bash /dev/TCP</title>
-      <link>https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48558018</guid>
-      <dc:creator>mrshu</dc:creator>
-      <pubDate>Tue, 16 Jun 2026 16:40:58 +0000</pubDate>
-      <category>Programming</category>
-      <description>&lt;p&gt;Bash can issue HTTP requests by opening a TCP connection with /dev/tcp and writing raw HTTP, avoiding curl. This technique is handy in minimal environments or quick checks, but it's brittle, lacks features like redirects and timeouts, and requires manual response parsing.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;通过打开 /dev/tcp 的 TCP 连接并发送原始 HTTP 请求即可在 Bash 中完成网络请求，无需 curl。适合极简环境和快速诊断，但缺乏如重定向、超时等特性，需要手动解析响应。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 511 · 💬 222 · Programming&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48558018&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/17/top_stories_06172026#story-48558018&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Apple is about to make Hide My Email useless</title>
-      <link>https://arseniyshestakov.com/2026/06/16/apple-is-about-to-make-hide-my-email-useless/</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48559935</guid>
-      <dc:creator>SXX</dc:creator>
-      <pubDate>Tue, 16 Jun 2026 18:37:21 +0000</pubDate>
-      <category>Privacy</category>
-      <description>&lt;p&gt;A forthcoming change could undermine Hide My Email, reducing its ability to shield users’ real addresses when signing up for services. Privacy-focused users may need to adapt or seek alternatives as Apple alters how aliases are exposed.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;传闻称苹果即将改变 Hide My Email 的工作方式，降低该功能对用户隐私的保护，可能使真实邮箱更易暴露。隐私导向的用户需要适应新的使用方式，或寻找替代方案。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 504 · 💬 315 · Privacy&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48559935&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/16/top_stories_06162026#story-48559935&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
