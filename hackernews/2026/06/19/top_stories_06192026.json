@@ -4,21 +4,159 @@
     "source": "https://news.ycombinator.com/",
     "api": "https://github.com/HackerNews/API",
     "count_requested": 50,
-    "count_written": 58,
-    "reused_same_day": 40,
+    "count_written": 73,
+    "reused_same_day": 34,
     "reused_cross_day": 0,
-    "new_llm_enriched": 8,
-    "scrape_time_display": "09:31, June 19, 2026 (PDT)",
+    "new_llm_enriched": 15,
+    "scrape_time_display": "12:45, June 19, 2026 (PDT)",
     "timezone": "America/Los_Angeles",
     "date_dir": "2026/06/19",
     "content_date": "2026-06-19",
-    "run_time_local": "09:31, June 19, 2026 (PDT)",
-    "run_time_utc": "2026-06-19 16:31:28 UTC",
+    "run_time_local": "12:45, June 19, 2026 (PDT)",
+    "run_time_utc": "2026-06-19 19:45:00 UTC",
     "incremental": true,
     "stories_max": 100,
-    "hot_score_time_utc": "2026-06-19 16:32:30 UTC"
+    "hot_score_time_utc": "2026-06-19 19:46:40 UTC"
   },
   "items": [
+    {
+      "title_en": "Hyundai buys Boston Dynamics",
+      "url": "https://startupfortune.com/hyundai-takes-full-control-of-boston-dynamics-as-softbank-exits-for-325-million/",
+      "title_zh": "现代集团全面控股 Boston Dynamics",
+      "created_display": "Created: Jun 19, 2026 / 09:28 PT",
+      "image_url": "https://startupfortune.com/wp-content/uploads/2026/06/sf-14065-1781845702426.jpg",
+      "summary_en": "Hyundai has completed securing full control of Boston Dynamics, with SoftBank exiting the stake for about $325 million. This move bets big on Hyundai’s robotics ambitions, signaling a push to integrate robot hardware, AI, and mobility platforms across its business units. Boston Dynamics gains a more stable automotive-aligned parent with resources to scale.",
+      "summary_zh": "现代集团完成对 Boston Dynamics 的全面控股，软银退出，交易额约3.25亿美元。这笔交易巩固了现代在机器人领域的长期野心，便于在其业务线里整合机器人硬件、人工智能与智能出行生态。",
+      "hn": {
+        "id": 48600312,
+        "type": "story",
+        "by": "ck2",
+        "score": 312,
+        "descendants": 152,
+        "time": 1781886500,
+        "comments_url": "https://news.ycombinator.com/item?id=48600312"
+      },
+      "hot_score": 15.42,
+      "tags": [
+        "Business",
+        "Hardware",
+        "AI"
+      ]
+    },
+    {
+      "title_en": "Is AI ruining our skills? Early results are in – and they're not good",
+      "url": "https://www.nature.com/articles/d41586-026-01947-1",
+      "title_zh": "AI 会毁掉我们的技能吗？初步结果不乐观",
+      "created_display": "Created: Jun 19, 2026 / 11:00 PT",
+      "image_url": "https://media.nature.com/lw1200/magazine-assets/d41586-026-01947-1/d41586-026-01947-1_52722978.jpg",
+      "summary_en": "Early studies suggest heavy reliance on AI can erode some skills, particularly tasks that AI often handles well. The findings argue for careful design of training, education, and work processes to preserve core competencies, with human-AI collaboration as the intended model.",
+      "summary_zh": "早期研究表明过度依赖 AI 可能侵蚀某些技能，尤其是那些 AI 已擅长完成的任务。这提醒教育与工作流程需要更审慎地设计，以在促进协作的同时保护人类核心能力。",
+      "hn": {
+        "id": 48601286,
+        "type": "story",
+        "by": "Michelangelo11",
+        "score": 133,
+        "descendants": 135,
+        "time": 1781892048,
+        "comments_url": "https://news.ycombinator.com/item?id=48601286"
+      },
+      "hot_score": 12.14,
+      "tags": [
+        "AI",
+        "Education"
+      ]
+    },
+    {
+      "title_en": "Google workspace threatening to block Firefox access",
+      "url": "https://tales.fromprod.com/2026/169/google-workspace-threatening-to-block-firefox.html",
+      "title_zh": "Google Workspace 可能阻止 Firefox 访问",
+      "created_display": "Created: Jun 19, 2026 / 09:30 PT",
+      "image_url": "https://tales.fromprod.com/static/2026-06-18-google-workspace-threatening-to-block-firefox/warning-screen.png",
+      "summary_en": "If true, Google Workspace blocking Firefox would raise questions about browser compatibility and vendor lock-in in enterprise tools. It would push users toward Chromium-based ecosystems and complicate privacy-focused setups. The broader signal is about how much control platforms exert over client access.",
+      "summary_zh": "若属实，Google Workspace 可能阻断 Firefox 访问，将引发对企业工具中的浏览器兼容性与厂商锁定的讨论。这会推动用户转向以 Chromium 为核心的生态，并影响偏好隐私的工作环境。",
+      "hn": {
+        "id": 48600345,
+        "type": "story",
+        "by": "birdculture",
+        "score": 213,
+        "descendants": 75,
+        "time": 1781886649,
+        "comments_url": "https://news.ycombinator.com/item?id=48600345"
+      },
+      "hot_score": 10.66,
+      "tags": [
+        "Web",
+        "Privacy"
+      ]
+    },
+    {
+      "title_en": "Amateur may have cracked Linear A, a 120-year-old puzzle",
+      "url": "https://aiclambake.com/clamtakes/linear-a/",
+      "title_zh": "业余人士可能破解了120年前的线性A文字难题",
+      "created_display": "Created: Jun 19, 2026 / 09:04 PT",
+      "image_url": "https://aiclambake.com/images/og-default.png",
+      "summary_en": "An amateur researcher claims a breakthrough in Linear A using modern computational methods. The result is preliminary and contested by experts, but if validated it could unlock a new window into Bronze Age Aegean scripts and Minoan culture. The claim underscores how AI-assisted analysis can catalyze long-standing decipherment work, even if verification remains essential.",
+      "summary_zh": "一名业余研究者声称借助现代计算方法对线性A文字取得突破，这一说法尚未得到专家广泛验证。若证实，可能为揭示青铜时代爱琴海文明的沟通系统打开新窗口，也凸显 AI 辅助分析在长期破译工作中的潜力与需要严谨的证据。",
+      "hn": {
+        "id": 48600107,
+        "type": "story",
+        "by": "Kosturdistan",
+        "score": 236,
+        "descendants": 101,
+        "time": 1781885082,
+        "comments_url": "https://news.ycombinator.com/item?id=48600107"
+      },
+      "hot_score": 10.25,
+      "tags": [
+        "Science",
+        "AI"
+      ]
+    },
+    {
+      "title_en": "A new bill takes aim at government pressure to silence lawful online speech",
+      "url": "https://www.eff.org/deeplinks/2026/06/new-bill-takes-aim-government-pressure-silence-lawful-online-speech",
+      "title_zh": "新法案瞄准政府压制合法在线言论",
+      "created_display": "Created: Jun 19, 2026 / 10:34 PT",
+      "image_url": "https://www.eff.org/files/banner_library/intermediary-4.jpg",
+      "summary_en": "The proposed bill would curb government pressure on platforms to remove lawful online speech, establishing clearer standards, transparency, and redress. It signals a legislative push to protect free expression online while still addressing harm online through targeted tools and accountability.",
+      "summary_zh": "新法案拟限制政府对平台施压，要求对合法在线言论的删除设定清晰标准并提高透明度和救济途径。此举旨在保护网络表达自由，同时为治理网络有害内容提供更有针对性的工具与问责机制。",
+      "hn": {
+        "id": 48600950,
+        "type": "story",
+        "by": "hn_acker",
+        "score": 107,
+        "descendants": 54,
+        "time": 1781890468,
+        "comments_url": "https://news.ycombinator.com/item?id=48600950"
+      },
+      "hot_score": 7.99,
+      "tags": [
+        "Politics",
+        "Legal"
+      ]
+    },
+    {
+      "title_en": "There Are No Instances in ATProto",
+      "url": "https://overreacted.io/there-are-no-instances-in-atproto/",
+      "title_zh": "ATProto 中不存在实例概念",
+      "created_display": "Created: Jun 19, 2026 / 08:10 PT",
+      "image_url": "https://overreacted.io/there-are-no-instances-in-atproto/opengraph-image?5b0b970dfd19bb8c",
+      "summary_en": "ATProto’s architecture is often misunderstood as having 'instances'. The author argues there are no such isolated 'instances' in ATProto because federation uses accounts and servers differently, emphasizing interoperability and same-identity across servers. This reframes how developers should think about hosting and moderation in ATProto.",
+      "summary_zh": "ATProto 的架构常被误解为‘实例’概念。作者指出在 ATProto 的联邦模型里并不存在真正的‘实例’，强调跨服务器的互操作性和统一身份的重要性，这对开发者在托管与 moderation 上的思路有显著影响。",
+      "hn": {
+        "id": 48599515,
+        "type": "story",
+        "by": "danabramov",
+        "score": 187,
+        "descendants": 118,
+        "time": 1781881802,
+        "comments_url": "https://news.ycombinator.com/item?id=48599515"
+      },
+      "hot_score": 6.21,
+      "tags": [
+        "Programming"
+      ]
+    },
     {
       "title_en": "Project Valhalla, Explained: How a Decade of Work Arrives in JDK 28",
       "url": "https://www.jvm-weekly.com/p/project-valhalla-explained-how-a",
@@ -31,15 +169,37 @@
         "id": 48595511,
         "type": "story",
         "by": "philonoist",
-        "score": 393,
-        "descendants": 228,
+        "score": 486,
+        "descendants": 279,
         "time": 1781850957,
         "comments_url": "https://news.ycombinator.com/item?id=48595511"
       },
       "tags": [
         "Programming"
       ],
-      "hot_score": 4.51
+      "hot_score": 3.63
+    },
+    {
+      "title_en": "Giant Banana Pulled over in Montana Driver Says Cops Have Stopped Him 100s Times",
+      "url": "https://cowboystatedaily.com/2026/06/18/giant-banana-pulled-over-in-montana-driver-says-cops-have-stopped-him-100s-of-times/",
+      "title_zh": "蒙大拿州司机因巨大香蕉道具多次被拦下",
+      "created_display": "Created: Jun 19, 2026 / 11:14 PT",
+      "image_url": "https://cowboystatedaily.imgix.net/banana-montana-highway-patrol-6-18-26.jpg?w=1200&q=75&auto=format%2Ccompress",
+      "summary_en": "A Montana driver with a giant banana prop says police have pulled him over hundreds of times, raising questions about municipal policing quirks and public curiosity. The story highlights how unusual props can become local folklore and trigger repeated enforcement contact.",
+      "summary_zh": "一名蒙大拿州司机称携带巨型香蕉道具数百次被警方拦下，引发对地方警务和公众好奇心的讨论。这起趣闻凸显了异想天开的道具如何成为当地民间传说并引发重复执法接触。",
+      "hn": {
+        "id": 48601420,
+        "type": "story",
+        "by": "Bender",
+        "score": 31,
+        "descendants": 18,
+        "time": 1781892851,
+        "comments_url": "https://news.ycombinator.com/item?id=48601420"
+      },
+      "hot_score": 3.08,
+      "tags": [
+        "Culture"
+      ]
     },
     {
       "title_en": "The room the economy can't see",
@@ -61,31 +221,7 @@
       "tags": [
         "Data"
       ],
-      "hot_score": 4.28
-    },
-    {
-      "title_en": "Norway greenlights first full-scale ship tunnel",
-      "url": "https://eandt.theiet.org/2026/06/18/norway-greenlights-world-s-first-full-scale-ship-tunnel",
-      "title_zh": "挪威批准全球首座全尺度船舶隧道",
-      "created_display": "Created: Jun 19, 2026 / 03:16 PT",
-      "image_url": null,
-      "summary_en": "Norway approves the first full-scale ship tunnel, a massive civil engineering project to re-route maritime traffic inland. The tunnel promises energy and emissions savings, smoother shipping routes, and a case study in large-scale infrastructure.",
-      "summary_zh": "挪威批准全球首座全尺度船舶隧道，这是一个将海上航线部分改造为陆地通道的巨大工程。隧道有望降低能耗与排放、优化航道并成为大型基础设施的实践案例。",
-      "hn": {
-        "id": 48596910,
-        "type": "story",
-        "by": "geox",
-        "score": 100,
-        "descendants": 57,
-        "time": 1781864170,
-        "comments_url": "https://news.ycombinator.com/item?id=48596910"
-      },
-      "tags": [
-        "Energy",
-        "Science",
-        "DevOps"
-      ],
-      "hot_score": 2.21
+      "hot_score": 2.36
     },
     {
       "title_en": "I found 10k GitHub repositories distributing Trojan malware",
@@ -99,16 +235,40 @@
         "id": 48583928,
         "type": "story",
         "by": "theorchid",
-        "score": 891,
-        "descendants": 234,
+        "score": 912,
+        "descendants": 239,
         "time": 1781783143,
         "comments_url": "https://news.ycombinator.com/item?id=48583928"
       },
       "tags": [
         "Security",
+        "Open Source",
         "Programming"
       ],
-      "hot_score": 1.86
+      "hot_score": 1.59
+    },
+    {
+      "title_en": "Norway greenlights first full-scale ship tunnel",
+      "url": "https://eandt.theiet.org/2026/06/18/norway-greenlights-world-s-first-full-scale-ship-tunnel",
+      "title_zh": "挪威批准全球首座全尺度船舶隧道",
+      "created_display": "Created: Jun 19, 2026 / 03:16 PT",
+      "image_url": null,
+      "summary_en": "Norway approves the first full-scale ship tunnel, a massive civil engineering project to re-route maritime traffic inland. The tunnel promises energy and emissions savings, smoother shipping routes, and a case study in large-scale infrastructure.",
+      "summary_zh": "挪威批准全球首座全尺度船舶隧道，这是一个将海上航线部分改造为陆地通道的巨大工程。隧道有望降低能耗与排放、优化航道并成为大型基础设施的实践案例。",
+      "hn": {
+        "id": 48596910,
+        "type": "story",
+        "by": "geox",
+        "score": 129,
+        "descendants": 76,
+        "time": 1781864170,
+        "comments_url": "https://news.ycombinator.com/item?id=48596910"
+      },
+      "tags": [
+        "Energy",
+        "DevOps"
+      ],
+      "hot_score": 1.58
     },
     {
       "title_en": "Swiss parliament lifts ban on new nuclear power plants",
@@ -132,7 +292,30 @@
         "Politics",
         "Security"
       ],
-      "hot_score": 1.85
+      "hot_score": 1.52
+    },
+    {
+      "title_en": "Court Records Should Be Free",
+      "url": "https://www.eff.org/deeplinks/2026/06/court-records-should-be-free",
+      "title_zh": "法院记录应免费开放",
+      "created_display": "Created: Jun 19, 2026 / 10:34 PT",
+      "image_url": "https://www.eff.org/files/banner_library/supreme-court-3b.jpg",
+      "summary_en": "EFF argues that court records should be freely accessible and machine-readable to improve transparency, research, and accountability. The movement pushes for open court data standards and reduces friction for journalists, researchers, and the public.",
+      "summary_zh": "EFF 呼吁法院记录应免费向公众开放并可机器可读，以提升透明度、研究和问责。倡导建立公开的法院数据标准，降低记者、研究者和公众的使用成本。",
+      "hn": {
+        "id": 48600946,
+        "type": "story",
+        "by": "hn_acker",
+        "score": 21,
+        "descendants": 2,
+        "time": 1781890458,
+        "comments_url": "https://news.ycombinator.com/item?id=48600946"
+      },
+      "hot_score": 1.51,
+      "tags": [
+        "Legal",
+        "Politics"
+      ]
     },
     {
       "title_en": "Midjourney Medical",
@@ -146,8 +329,8 @@
         "id": 48579650,
         "type": "story",
         "by": "ricochet11",
-        "score": 1323,
-        "descendants": 856,
+        "score": 1327,
+        "descendants": 860,
         "time": 1781747991,
         "comments_url": "https://news.ycombinator.com/item?id=48579650"
       },
@@ -156,7 +339,7 @@
         "Health",
         "Privacy"
       ],
-      "hot_score": 1.69
+      "hot_score": 1.47
     },
     {
       "title_en": "Show HN: Are You in the Weights?",
@@ -170,16 +353,17 @@
         "id": 48591348,
         "type": "story",
         "by": "turtlesoup",
-        "score": 417,
-        "descendants": 230,
+        "score": 427,
+        "descendants": 234,
         "time": 1781815743,
         "comments_url": "https://news.ycombinator.com/item?id=48591348"
       },
       "tags": [
         "Show HN",
+        "AI",
         "Data"
       ],
-      "hot_score": 1.63
+      "hot_score": 1.3
     },
     {
       "title_en": "Microsoft new Outlook takes 10 seconds to do what Outlook Classic does instantly",
@@ -199,31 +383,34 @@
         "comments_url": "https://news.ycombinator.com/item?id=48584207"
       },
       "tags": [
-        "Design"
+        "Design",
+        "Business"
       ],
-      "hot_score": 1.5
+      "hot_score": 1.25
     },
     {
-      "title_en": "Ice water drowning survival of young patient (2025)",
-      "url": "https://www.jacc.org/doi/10.1016/j.jaccas.2025.104885",
-      "title_zh": "冰水溺水后年轻患者存活病例（2025）",
-      "created_display": "Created: Jun 18, 2026 / 20:50 PT",
-      "image_url": null,
-      "summary_en": "A case report documents a young patient who survived drowning after ice-water immersion with a favorable neurological outcome. It reinforces that cold exposure can extend the window for resuscitation and underscores the importance of rapid CPR and high-quality post-resuscitation care.",
-      "summary_zh": "本病例报道记录了一名年轻溺水者在冰水中生还并获得良好神经功能结果。研究强调寒冷水体的保护性影响可能延长复苏窗口，并凸显快速高质量 CPR 与事后护理的重要性。",
+      "title_en": "The AirPods Effect",
+      "url": "https://www.theescapenewsletter.com/p/the-airpods-effect",
+      "title_zh": "AirPods 效应",
+      "created_display": "Created: Jun 18, 2026 / 16:08 PT",
+      "image_url": "https://images.unsplash.com/photo-1695112956255-8878a4443236?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMDAzMzh8MHwxfHNlYXJjaHwyfHxhaXJwb2RzJTIwd29tYW4lMjBidXN8ZW58MHx8fHwxNzc5MjcwNzA2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "summary_en": "The AirPods effect reshaped consumer expectations around wireless audio, battery life, and device interoperability. It spurred rapid adoption of true wireless design, influenced accessory ecosystems, and shifted how tech brands think about on-device interactions.",
+      "summary_zh": "AirPods 效应改变了消费者对无线音频、续航与设备互操作性的预期，推动了真无线设计的快速普及并影响周边生态。它也促使厂商重新思考设备交互的设计与生态策略。",
       "hn": {
-        "id": 48594592,
+        "id": 48592832,
         "type": "story",
-        "by": "js2",
-        "score": 187,
-        "descendants": 122,
-        "time": 1781841025,
-        "comments_url": "https://news.ycombinator.com/item?id=48594592"
+        "by": "herbertl",
+        "score": 331,
+        "descendants": 594,
+        "time": 1781824115,
+        "comments_url": "https://news.ycombinator.com/item?id=48592832"
       },
       "tags": [
-        "Health"
+        "Culture",
+        "Hardware",
+        "Energy"
       ],
-      "hot_score": 1.47
+      "hot_score": 1.2
     },
     {
       "title_en": "I told them forced consent was unlawful. 5 years later it cost Elkjop €1.8M",
@@ -246,7 +433,52 @@
         "Privacy",
         "Legal"
       ],
-      "hot_score": 1.41
+      "hot_score": 1.13
+    },
+    {
+      "title_en": "John Jumper leaves Google to join Anthropic",
+      "url": "https://twitter.com/JohnJumperSci/status/2068001285173834106",
+      "title_zh": "John Jumper 从谷歌跳槽至 Anthropic",
+      "created_display": "Created: Jun 19, 2026 / 10:53 PT",
+      "image_url": "https://pbs.twimg.com/profile_images/1920152152657342464/4Cv3m4qx_200x200.jpg",
+      "summary_en": "John Jumper, a prominent AI scientist, is moving from Google to Anthropic, signaling ongoing talent mobility in the AI safety space. The move could accelerate safety-focused research and cross-pollination of ideas between leading AI labs.",
+      "summary_zh": "著名 AI 科学家 John Jumper 从谷歌跳槽至 Anthropic，体现 AI 安全领域的人才跨流动。此次转变可能推动安全研究协同与前沿思想在顶尖实验室之间的交流。",
+      "hn": {
+        "id": 48601162,
+        "type": "story",
+        "by": "artninja1988",
+        "score": 14,
+        "descendants": 6,
+        "time": 1781891580,
+        "comments_url": "https://news.ycombinator.com/item?id=48601162"
+      },
+      "hot_score": 1.12,
+      "tags": [
+        "AI",
+        "Career"
+      ]
+    },
+    {
+      "title_en": "Ice water drowning survival of young patient (2025)",
+      "url": "https://www.jacc.org/doi/10.1016/j.jaccas.2025.104885",
+      "title_zh": "冰水溺水后年轻患者存活病例（2025）",
+      "created_display": "Created: Jun 18, 2026 / 20:50 PT",
+      "image_url": null,
+      "summary_en": "A case report documents a young patient who survived drowning after ice-water immersion with a favorable neurological outcome. It reinforces that cold exposure can extend the window for resuscitation and underscores the importance of rapid CPR and high-quality post-resuscitation care.",
+      "summary_zh": "本病例报道记录了一名年轻溺水者在冰水中生还并获得良好神经功能结果。研究强调寒冷水体的保护性影响可能延长复苏窗口，并凸显快速高质量 CPR 与事后护理的重要性。",
+      "hn": {
+        "id": 48594592,
+        "type": "story",
+        "by": "js2",
+        "score": 187,
+        "descendants": 122,
+        "time": 1781841025,
+        "comments_url": "https://news.ycombinator.com/item?id=48594592"
+      },
+      "tags": [
+        "Health"
+      ],
+      "hot_score": 1.03
     },
     {
       "title_en": "So You Want to Define a Well-Known URI",
@@ -260,61 +492,37 @@
         "id": 48595331,
         "type": "story",
         "by": "ingve",
-        "score": 125,
-        "descendants": 74,
+        "score": 131,
+        "descendants": 84,
         "time": 1781849101,
         "comments_url": "https://news.ycombinator.com/item?id=48595331"
       },
       "tags": [
         "Web"
       ],
-      "hot_score": 1.32
+      "hot_score": 0.92
     },
     {
-      "title_en": "The AirPods Effect",
-      "url": "https://www.theescapenewsletter.com/p/the-airpods-effect",
-      "title_zh": "AirPods 效应",
-      "created_display": "Created: Jun 18, 2026 / 16:08 PT",
-      "image_url": "https://images.unsplash.com/photo-1695112956255-8878a4443236?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMDAzMzh8MHwxfHNlYXJjaHwyfHxhaXJwb2RzJTIwd29tYW4lMjBidXN8ZW58MHx8fHwxNzc5MjcwNzA2fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "summary_en": "The AirPods effect reshaped consumer expectations around wireless audio, battery life, and device interoperability. It spurred rapid adoption of true wireless design, influenced accessory ecosystems, and shifted how tech brands think about on-device interactions.",
-      "summary_zh": "AirPods 效应改变了消费者对无线音频、续航与设备互操作性的预期，推动了真无线设计的快速普及并影响周边生态。它也促使厂商重新思考设备交互的设计与生态策略。",
+      "title_en": ".gitignore Isn't the only way to ignore files in Git",
+      "url": "https://nelson.cloud/.gitignore-isnt-the-only-way-to-ignore-files-in-git/",
+      "title_zh": ".gitignore 不是忽略文件的唯一方式",
+      "created_display": "Created: Jun 18, 2026 / 03:29 PT",
+      "image_url": "https://nelson.cloud/.gitignore-isnt-the-only-way-to-ignore-files-in-git/og.png",
+      "summary_en": "There are tactics to ignore files in Git beyond .gitignore, including skip-worktree and assume-unchanged, plus index-level tricks.",
+      "summary_zh": ".gitignore 之外还有忽略文件的办法，如 skip-worktree、assume-unchanged 等。文中介绍了何时使用以及可能的风险。",
       "hn": {
-        "id": 48592832,
+        "id": 48583356,
         "type": "story",
-        "by": "herbertl",
-        "score": 262,
-        "descendants": 470,
-        "time": 1781824115,
-        "comments_url": "https://news.ycombinator.com/item?id=48592832"
+        "by": "FergusArgyll",
+        "score": 541,
+        "descendants": 161,
+        "time": 1781778560,
+        "comments_url": "https://news.ycombinator.com/item?id=48583356"
       },
       "tags": [
-        "Design",
-        "Hardware",
-        "Energy"
+        "Programming"
       ],
-      "hot_score": 1.26
-    },
-    {
-      "title_en": "Many Let's Encrypt renewals had errors today",
-      "url": "https://letsencrypt.status.io/#2026",
-      "title_zh": "今日大量 Let's Encrypt 续期出现错误",
-      "created_display": "Created: Jun 18, 2026 / 21:18 PT",
-      "image_url": "https://image.status.io/ZsUlrVAwD16p.png",
-      "summary_en": "A broad outage of automated certificate renewals caused widespread renewal failures, stressing the importance of monitoring, backup plans, and redundancy in PKI automation. It underscores the fragility of self-signed or automated processes in securing TLS.",
-      "summary_zh": "今日 Let’s Encrypt 自动续期普遍出错，导致大量证书续期失败。事件凸显自动化 PKI 流程的脆弱性，需要更健全的监控、回退策略与冗余设计。",
-      "hn": {
-        "id": 48594715,
-        "type": "story",
-        "by": "widdakay",
-        "score": 144,
-        "descendants": 92,
-        "time": 1781842689,
-        "comments_url": "https://news.ycombinator.com/item?id=48594715"
-      },
-      "tags": [
-        "Security"
-      ],
-      "hot_score": 1.2
+      "hot_score": 0.88
     },
     {
       "title_en": "The founder of Craigslist has given away half a billion dollars",
@@ -336,7 +544,53 @@
       "tags": [
         "Business"
       ],
-      "hot_score": 1.07
+      "hot_score": 0.86
+    },
+    {
+      "title_en": "Many Let's Encrypt renewals had errors today",
+      "url": "https://letsencrypt.status.io/#2026",
+      "title_zh": "今日大量 Let's Encrypt 续期出现错误",
+      "created_display": "Created: Jun 18, 2026 / 21:18 PT",
+      "image_url": "https://image.status.io/ZsUlrVAwD16p.png",
+      "summary_en": "A broad outage of automated certificate renewals caused widespread renewal failures, stressing the importance of monitoring, backup plans, and redundancy in PKI automation. It underscores the fragility of self-signed or automated processes in securing TLS.",
+      "summary_zh": "今日 Let’s Encrypt 自动续期普遍出错，导致大量证书续期失败。事件凸显自动化 PKI 流程的脆弱性，需要更健全的监控、回退策略与冗余设计。",
+      "hn": {
+        "id": 48594715,
+        "type": "story",
+        "by": "widdakay",
+        "score": 144,
+        "descendants": 92,
+        "time": 1781842689,
+        "comments_url": "https://news.ycombinator.com/item?id=48594715"
+      },
+      "tags": [
+        "Security",
+        "Web"
+      ],
+      "hot_score": 0.83
+    },
+    {
+      "title_en": "Zero-Touch OAuth for MCP",
+      "url": "https://blog.modelcontextprotocol.io/posts/enterprise-managed-auth/",
+      "title_zh": "MCP 的零触控 OAuth",
+      "created_display": "Created: Jun 18, 2026 / 14:54 PT",
+      "image_url": "https://blog.modelcontextprotocol.io/og-image.png",
+      "summary_en": "Zero-Touch OAuth for MCP introduces an enterprise-friendly OAuth flow that provisions tokens and apps with minimal human intervention. It emphasizes automated onboarding, device registration, and policy-driven access controls to reduce friction while preserving security. This approach helps large organizations deploy cloud-native apps faster without compromising governance.",
+      "summary_zh": "零触控 OAuth 为 MCP 提供面向企业的简化认证流程，尽量减少人工配置即可完成令牌和应用的注册。强调自动化的上线流程、设备注册与基于策略的访问控制，在降低运维成本的同时保持安全性。对于需要快速部署云原生应用的大型组织尤为重要。",
+      "hn": {
+        "id": 48592163,
+        "type": "story",
+        "by": "niyikiza",
+        "score": 250,
+        "descendants": 97,
+        "time": 1781819650,
+        "comments_url": "https://news.ycombinator.com/item?id=48592163"
+      },
+      "tags": [
+        "Security",
+        "Web"
+      ],
+      "hot_score": 0.82
     },
     {
       "title_en": "Emacs 31 is around the corner: The changes I'm daily driving",
@@ -358,52 +612,7 @@
       "tags": [
         "Programming"
       ],
-      "hot_score": 0.97
-    },
-    {
-      "title_en": "Zero-Touch OAuth for MCP",
-      "url": "https://blog.modelcontextprotocol.io/posts/enterprise-managed-auth/",
-      "title_zh": "MCP 的零触控 OAuth",
-      "created_display": "Created: Jun 18, 2026 / 14:54 PT",
-      "image_url": "https://blog.modelcontextprotocol.io/og-image.png",
-      "summary_en": "Zero-Touch OAuth for MCP introduces an enterprise-friendly OAuth flow that provisions tokens and apps with minimal human intervention. It emphasizes automated onboarding, device registration, and policy-driven access controls to reduce friction while preserving security. This approach helps large organizations deploy cloud-native apps faster without compromising governance.",
-      "summary_zh": "零触控 OAuth 为 MCP 提供面向企业的简化认证流程，尽量减少人工配置即可完成令牌和应用的注册。强调自动化的上线流程、设备注册与基于策略的访问控制，在降低运维成本的同时保持安全性。对于需要快速部署云原生应用的大型组织尤为重要。",
-      "hn": {
-        "id": 48592163,
-        "type": "story",
-        "by": "niyikiza",
-        "score": 226,
-        "descendants": 88,
-        "time": 1781819650,
-        "comments_url": "https://news.ycombinator.com/item?id=48592163"
-      },
-      "tags": [
-        "Security",
-        "Programming"
-      ],
-      "hot_score": 0.97
-    },
-    {
-      "title_en": ".gitignore Isn't the only way to ignore files in Git",
-      "url": "https://nelson.cloud/.gitignore-isnt-the-only-way-to-ignore-files-in-git/",
-      "title_zh": ".gitignore 不是忽略文件的唯一方式",
-      "created_display": "Created: Jun 18, 2026 / 03:29 PT",
-      "image_url": "https://nelson.cloud/.gitignore-isnt-the-only-way-to-ignore-files-in-git/og.png",
-      "summary_en": "There are tactics to ignore files in Git beyond .gitignore, including skip-worktree and assume-unchanged, plus index-level tricks.",
-      "summary_zh": ".gitignore 之外还有忽略文件的办法，如 skip-worktree、assume-unchanged 等。文中介绍了何时使用以及可能的风险。",
-      "hn": {
-        "id": 48583356,
-        "type": "story",
-        "by": "FergusArgyll",
-        "score": 491,
-        "descendants": 155,
-        "time": 1781778560,
-        "comments_url": "https://news.ycombinator.com/item?id=48583356"
-      },
-      "tags": [
-        "Programming"
-      ],
-      "hot_score": 0.95
+      "hot_score": 0.81
     },
     {
       "title_en": "Ubiquiti: Enterprise NAS, Built on ZFS",
@@ -417,16 +626,15 @@
         "id": 48585866,
         "type": "story",
         "by": "ksec",
-        "score": 383,
-        "descendants": 317,
+        "score": 396,
+        "descendants": 334,
         "time": 1781792670,
         "comments_url": "https://news.ycombinator.com/item?id=48585866"
       },
       "tags": [
-        "Hardware",
-        "Open Source"
+        "Hardware"
       ],
-      "hot_score": 0.94
+      "hot_score": 0.8
     },
     {
       "title_en": "CS 6120: Advanced Compilers: The Self-Guided Online Course (2020)",
@@ -440,16 +648,106 @@
         "id": 48583606,
         "type": "story",
         "by": "ibobev",
-        "score": 406,
-        "descendants": 57,
+        "score": 420,
+        "descendants": 59,
         "time": 1781780671,
         "comments_url": "https://news.ycombinator.com/item?id=48583606"
       },
       "tags": [
-        "Education",
-        "Programming"
+        "Programming",
+        "Education"
       ],
-      "hot_score": 0.82
+      "hot_score": 0.71
+    },
+    {
+      "title_en": "Modos Color Monitor Pushes E-Paper Displays Further",
+      "url": "https://spectrum.ieee.org/modos-e-paper-monitor",
+      "title_zh": "Modos 彩色显示器推动电子纸显示屏进一步发展",
+      "created_display": "Created: Jun 18, 2026 / 04:41 PT",
+      "image_url": "https://spectrum.ieee.org/media-library/image.jpg?id=66946972&width=1200&height=600&coordinates=0%2C275%2C0%2C975",
+      "summary_en": "Modos Color Monitor introduces a color e-paper display, pushing low-power, high-contrast visuals toward more practical use cases like dashboards and signage. The development widens the scope of e-paper beyond static text.",
+      "summary_zh": "Modos 彩色显示器带来彩色电子纸，实现低功耗、对比度高的显示，拓展了在仪表板和标牌等场景的应用。电子纸的用途因此更加丰富。",
+      "hn": {
+        "id": 48583897,
+        "type": "story",
+        "by": "Vinnl",
+        "score": 330,
+        "descendants": 78,
+        "time": 1781782881,
+        "comments_url": "https://news.ycombinator.com/item?id=48583897"
+      },
+      "tags": [
+        "Hardware"
+      ],
+      "hot_score": 0.57
+    },
+    {
+      "title_en": "Datasette Apps: Host custom HTML applications inside Datasette",
+      "url": "https://simonwillison.net/2026/Jun/18/datasette-apps/",
+      "title_zh": "Datasette 应用：在 Datasette 内托管自定义 HTML 应用",
+      "created_display": "Created: Jun 18, 2026 / 18:06 PT",
+      "image_url": "https://static.simonwillison.net/static/2026/datasette-apps-card.jpg",
+      "summary_en": "Datasette now supports embedding custom HTML apps within a Datasette instance, enabling richer, self-contained data apps around datasets. This lowers the barrier to building dashboards and tools without separate hosting.",
+      "summary_zh": "Datasette App 让用户在 Datasette 实例中托管自定义 HTML 应用，允许在数据集周围构建更丰富的一体化应用。这降低了搭建仪表板和工具的门槛，无需额外托管。",
+      "hn": {
+        "id": 48593731,
+        "type": "story",
+        "by": "lumpa",
+        "score": 131,
+        "descendants": 59,
+        "time": 1781831187,
+        "comments_url": "https://news.ycombinator.com/item?id=48593731"
+      },
+      "tags": [
+        "Programming",
+        "Web"
+      ],
+      "hot_score": 0.56
+    },
+    {
+      "title_en": "Hospitals and universities repurposing drugs at lower cost",
+      "url": "https://www.kcl.ac.uk/news/hospitals-and-universities-repurposing-drugs-at-90-lower-cost",
+      "title_zh": "医院与高校以约90%成本进行药物再利用",
+      "created_display": "Created: Jun 18, 2026 / 03:33 PT",
+      "image_url": "https://www.kcl.ac.uk/newimages/folsm/main-article/bmb/immunotherapy.x188e82a2.png",
+      "summary_en": "Hospitals and universities are repurposing existing drugs to cut treatment costs by up to about 90%, enabling broader access and faster deployment of therapies. The approach raises regulatory and safety considerations, but could reshape drug affordability.",
+      "summary_zh": "医院与高校通过对现有药物进行再利用，治疗成本大幅下降，降幅可达约 90%，从而提升治疗可及性。该做法涉及监管与安全考量，但可能改变药物的可负担性。",
+      "hn": {
+        "id": 48583386,
+        "type": "story",
+        "by": "giuliomagnifico",
+        "score": 331,
+        "descendants": 162,
+        "time": 1781778802,
+        "comments_url": "https://news.ycombinator.com/item?id=48583386"
+      },
+      "tags": [
+        "Health",
+        "Politics"
+      ],
+      "hot_score": 0.54
+    },
+    {
+      "title_en": "W Social, public institutions and the theater of European digital sovereignty",
+      "url": "https://blog.elenarossini.com/w-social-public-institutions-and-the-theater-of-european-digital-sovereignty/",
+      "title_zh": "W Social、公共机构与欧洲数字主权的舞台",
+      "created_display": "Created: Jun 18, 2026 / 05:46 PT",
+      "image_url": "https://blog.elenarossini.com/content/images/size/w1200/2026/06/WSocial-followup-cover-v4.jpg",
+      "summary_en": "The piece argues that public institutions and platforms like W Social shape Europe’s digital sovereignty narrative, highlighting governance, data governance, and the performative politics around sovereignty. It critiques how rhetoric often masks underlying regulatory tensions.",
+      "summary_zh": "本文探讨像 W Social 这样的平台与公共机构在欧洲数字主权话语中的角色，聚焦治理、数据主权以及主权话语背后的张力。作者指出表述往往掩盖了现实中的监管冲突与政治博弈。",
+      "hn": {
+        "id": 48584497,
+        "type": "story",
+        "by": "nemoniac",
+        "score": 252,
+        "descendants": 157,
+        "time": 1781786764,
+        "comments_url": "https://news.ycombinator.com/item?id=48584497"
+      },
+      "tags": [
+        "Politics"
+      ],
+      "hot_score": 0.46
     },
     {
       "title_en": "EU to soon classify AWS and Azure as gatekeepers under DSA",
@@ -468,148 +766,11 @@
         "time": 1781861302,
         "comments_url": "https://news.ycombinator.com/item?id=48596622"
       },
-      "hot_score": 0.72,
+      "hot_score": 0.41,
       "tags": [
         "Politics",
         "Legal"
       ]
-    },
-    {
-      "title_en": "Why Do So Many Everyday Systems Feel Harder to Use Now?",
-      "url": "https://therealitydrift.substack.com/p/reality-drift-in-everyday-life",
-      "title_zh": "为何日常系统如今越来越难用？",
-      "created_display": "Created: Jun 19, 2026 / 08:33 PT",
-      "image_url": null,
-      "summary_en": "Explores the growing sense that everyday software systems have become harder to use, despite more capable technology. The piece argues that design drift, feature bloat, and changing expectations create misaligned mental models, and suggests ways to restore predictability and usability.",
-      "summary_zh": "作者探讨日常软件系统为何越来越难用，尽管技术更强大。设计漂移、功能臃肿与不断变化的期望打破了人们的心智模型，提出通过更可预测的设计和清晰的导航来提升易用性。",
-      "hn": {
-        "id": 48599776,
-        "type": "story",
-        "by": "realitydrift",
-        "score": 6,
-        "descendants": 6,
-        "time": 1781883219,
-        "comments_url": "https://news.ycombinator.com/item?id=48599776"
-      },
-      "hot_score": 0.7,
-      "tags": [
-        "Design"
-      ]
-    },
-    {
-      "title_en": "Datasette Apps: Host custom HTML applications inside Datasette",
-      "url": "https://simonwillison.net/2026/Jun/18/datasette-apps/",
-      "title_zh": "Datasette 应用：在 Datasette 内托管自定义 HTML 应用",
-      "created_display": "Created: Jun 18, 2026 / 18:06 PT",
-      "image_url": "https://static.simonwillison.net/static/2026/datasette-apps-card.jpg",
-      "summary_en": "Datasette now supports embedding custom HTML apps within a Datasette instance, enabling richer, self-contained data apps around datasets. This lowers the barrier to building dashboards and tools without separate hosting.",
-      "summary_zh": "Datasette App 让用户在 Datasette 实例中托管自定义 HTML 应用，允许在数据集周围构建更丰富的一体化应用。这降低了搭建仪表板和工具的门槛，无需额外托管。",
-      "hn": {
-        "id": 48593731,
-        "type": "story",
-        "by": "lumpa",
-        "score": 118,
-        "descendants": 50,
-        "time": 1781831187,
-        "comments_url": "https://news.ycombinator.com/item?id=48593731"
-      },
-      "tags": [
-        "Data",
-        "Web"
-      ],
-      "hot_score": 0.68
-    },
-    {
-      "title_en": "Modos Color Monitor Pushes E-Paper Displays Further",
-      "url": "https://spectrum.ieee.org/modos-e-paper-monitor",
-      "title_zh": "Modos 彩色显示器推动电子纸显示屏进一步发展",
-      "created_display": "Created: Jun 18, 2026 / 04:41 PT",
-      "image_url": "https://spectrum.ieee.org/media-library/image.jpg?id=66946972&width=1200&height=600&coordinates=0%2C275%2C0%2C975",
-      "summary_en": "Modos Color Monitor introduces a color e-paper display, pushing low-power, high-contrast visuals toward more practical use cases like dashboards and signage. The development widens the scope of e-paper beyond static text.",
-      "summary_zh": "Modos 彩色显示器带来彩色电子纸，实现低功耗、对比度高的显示，拓展了在仪表板和标牌等场景的应用。电子纸的用途因此更加丰富。",
-      "hn": {
-        "id": 48583897,
-        "type": "story",
-        "by": "Vinnl",
-        "score": 321,
-        "descendants": 73,
-        "time": 1781782881,
-        "comments_url": "https://news.ycombinator.com/item?id=48583897"
-      },
-      "tags": [
-        "Hardware"
-      ],
-      "hot_score": 0.67
-    },
-    {
-      "title_en": "Hospitals and universities repurposing drugs at lower cost",
-      "url": "https://www.kcl.ac.uk/news/hospitals-and-universities-repurposing-drugs-at-90-lower-cost",
-      "title_zh": "医院与高校以约90%成本进行药物再利用",
-      "created_display": "Created: Jun 18, 2026 / 03:33 PT",
-      "image_url": "https://www.kcl.ac.uk/newimages/folsm/main-article/bmb/immunotherapy.x188e82a2.png",
-      "summary_en": "Hospitals and universities are repurposing existing drugs to cut treatment costs by up to about 90%, enabling broader access and faster deployment of therapies. The approach raises regulatory and safety considerations, but could reshape drug affordability.",
-      "summary_zh": "医院与高校通过对现有药物进行再利用，治疗成本大幅下降，降幅可达约 90%，从而提升治疗可及性。该做法涉及监管与安全考量，但可能改变药物的可负担性。",
-      "hn": {
-        "id": 48583386,
-        "type": "story",
-        "by": "giuliomagnifico",
-        "score": 323,
-        "descendants": 153,
-        "time": 1781778802,
-        "comments_url": "https://news.ycombinator.com/item?id=48583386"
-      },
-      "tags": [
-        "Health",
-        "Science",
-        "Politics"
-      ],
-      "hot_score": 0.63
-    },
-    {
-      "title_en": "US court rules Ohio can restrict children's use of social media",
-      "url": "https://www.reuters.com/world/us/us-court-rules-ohio-can-restrict-childrens-use-social-media-2026-06-18/",
-      "title_zh": "美国法院裁定俄亥俄州可限制儿童使用社交媒体",
-      "created_display": "Created: Jun 19, 2026 / 04:35 PT",
-      "image_url": null,
-      "summary_en": "An Ohio policy limiting children's access to social media was upheld by a US court, marking a notable endorsement of state-level controls for minors online. The ruling highlights ongoing debates over digital safety, parental authority, and platform responsibilities.",
-      "summary_zh": "法院裁定俄亥俄州可以限制未成年人使用社交媒体，显示出州层面对青少年网络安全的潜在新方向。这一裁决凸显了数字安全、家长监管与平台在年龄限制方面的责任之间的持续辩论。",
-      "hn": {
-        "id": 48597431,
-        "type": "story",
-        "by": "1vuio0pswjnm7",
-        "score": 20,
-        "descendants": 13,
-        "time": 1781868919,
-        "comments_url": "https://news.ycombinator.com/item?id=48597431"
-      },
-      "hot_score": 0.58,
-      "tags": [
-        "Politics",
-        "Legal"
-      ]
-    },
-    {
-      "title_en": "W Social, public institutions and the theater of European digital sovereignty",
-      "url": "https://blog.elenarossini.com/w-social-public-institutions-and-the-theater-of-european-digital-sovereignty/",
-      "title_zh": "W Social、公共机构与欧洲数字主权的舞台",
-      "created_display": "Created: Jun 18, 2026 / 05:46 PT",
-      "image_url": "https://blog.elenarossini.com/content/images/size/w1200/2026/06/WSocial-followup-cover-v4.jpg",
-      "summary_en": "The piece argues that public institutions and platforms like W Social shape Europe’s digital sovereignty narrative, highlighting governance, data governance, and the performative politics around sovereignty. It critiques how rhetoric often masks underlying regulatory tensions.",
-      "summary_zh": "本文探讨像 W Social 这样的平台与公共机构在欧洲数字主权话语中的角色，聚焦治理、数据主权以及主权话语背后的张力。作者指出表述往往掩盖了现实中的监管冲突与政治博弈。",
-      "hn": {
-        "id": 48584497,
-        "type": "story",
-        "by": "nemoniac",
-        "score": 247,
-        "descendants": 153,
-        "time": 1781786764,
-        "comments_url": "https://news.ycombinator.com/item?id=48584497"
-      },
-      "tags": [
-        "Politics",
-        "Data"
-      ],
-      "hot_score": 0.55
     },
     {
       "title_en": "Show HN: Gerrymandle - Daily puzzle game where you redraw electoral districts",
@@ -623,40 +784,17 @@
         "id": 48585739,
         "type": "story",
         "by": "realmofthemad",
-        "score": 189,
+        "score": 195,
         "descendants": 76,
         "time": 1781792185,
         "comments_url": "https://news.ycombinator.com/item?id=48585739"
       },
       "tags": [
         "Show HN",
-        "Gaming"
+        "Gaming",
+        "Politics"
       ],
-      "hot_score": 0.46
-    },
-    {
-      "title_en": "Fable Converted Pylint to Rust",
-      "url": "https://pypi.org/project/prylint/",
-      "title_zh": "Fable 将 Pylint 转换为 Rust",
-      "created_display": "Created: Jun 18, 2026 / 21:21 PT",
-      "image_url": "https://pypi.org/static/images/twitter.abaf4b19.webp",
-      "summary_en": "A Rust rewrite of Pylint by Fable promises dramatically faster Python linting and lower CPU usage on large repos. The project demonstrates how rewriting a core tooling component in Rust can yield significant performance gains while staying compatible with Python tooling.",
-      "summary_zh": "Fable 将 Pylint 重写为 Rust，承诺在大型代码库上实现显著更快的 Python 代码静态分析并降低 CPU 占用。该项目展示了将核心工具组件用 Rust 重实现如何带来可观的性能提升，同时保持与 Python 工具链的兼容性。",
-      "hn": {
-        "id": 48594733,
-        "type": "story",
-        "by": "adamraudonis",
-        "score": 53,
-        "descendants": 47,
-        "time": 1781842867,
-        "comments_url": "https://news.ycombinator.com/item?id=48594733"
-      },
-      "hot_score": 0.44,
-      "tags": [
-        "Programming",
-        "Open Source",
-        "Hardware"
-      ]
+      "hot_score": 0.39
     },
     {
       "title_en": "Noam Shazeer Joins OpenAI",
@@ -676,10 +814,9 @@
         "comments_url": "https://news.ycombinator.com/item?id=48578913"
       },
       "tags": [
-        "AI",
-        "Career"
+        "AI"
       ],
-      "hot_score": 0.41
+      "hot_score": 0.36
     },
     {
       "title_en": "How Alberta Eradicated Rats",
@@ -693,15 +830,15 @@
         "id": 48584709,
         "type": "story",
         "by": "tzury",
-        "score": 183,
-        "descendants": 127,
+        "score": 188,
+        "descendants": 129,
         "time": 1781787958,
         "comments_url": "https://news.ycombinator.com/item?id=48584709"
       },
       "tags": [
         "Health"
       ],
-      "hot_score": 0.41
+      "hot_score": 0.35
     },
     {
       "title_en": "Migrating from GNU Stow to Chezmoi",
@@ -722,10 +859,55 @@
       },
       "tags": [
         "Programming",
-        "Open Source",
         "Security"
       ],
-      "hot_score": 0.39
+      "hot_score": 0.31
+    },
+    {
+      "title_en": "Fable Converted Pylint to Rust",
+      "url": "https://pypi.org/project/prylint/",
+      "title_zh": "Fable 将 Pylint 转换为 Rust",
+      "created_display": "Created: Jun 18, 2026 / 21:21 PT",
+      "image_url": "https://pypi.org/static/images/twitter.abaf4b19.webp",
+      "summary_en": "A Rust rewrite of Pylint by Fable promises dramatically faster Python linting and lower CPU usage on large repos. The project demonstrates how rewriting a core tooling component in Rust can yield significant performance gains while staying compatible with Python tooling.",
+      "summary_zh": "Fable 将 Pylint 重写为 Rust，承诺在大型代码库上实现显著更快的 Python 代码静态分析并降低 CPU 占用。该项目展示了将核心工具组件用 Rust 重实现如何带来可观的性能提升，同时保持与 Python 工具链的兼容性。",
+      "hn": {
+        "id": 48594733,
+        "type": "story",
+        "by": "adamraudonis",
+        "score": 53,
+        "descendants": 47,
+        "time": 1781842867,
+        "comments_url": "https://news.ycombinator.com/item?id=48594733"
+      },
+      "hot_score": 0.3,
+      "tags": [
+        "Programming",
+        "Hardware"
+      ]
+    },
+    {
+      "title_en": "US court rules Ohio can restrict children's use of social media",
+      "url": "https://www.reuters.com/world/us/us-court-rules-ohio-can-restrict-childrens-use-social-media-2026-06-18/",
+      "title_zh": "美国法院裁定俄亥俄州可限制儿童使用社交媒体",
+      "created_display": "Created: Jun 19, 2026 / 04:35 PT",
+      "image_url": null,
+      "summary_en": "An Ohio policy limiting children's access to social media was upheld by a US court, marking a notable endorsement of state-level controls for minors online. The ruling highlights ongoing debates over digital safety, parental authority, and platform responsibilities.",
+      "summary_zh": "法院裁定俄亥俄州可以限制未成年人使用社交媒体，显示出州层面对青少年网络安全的潜在新方向。这一裁决凸显了数字安全、家长监管与平台在年龄限制方面的责任之间的持续辩论。",
+      "hn": {
+        "id": 48597431,
+        "type": "story",
+        "by": "1vuio0pswjnm7",
+        "score": 20,
+        "descendants": 13,
+        "time": 1781868919,
+        "comments_url": "https://news.ycombinator.com/item?id=48597431"
+      },
+      "hot_score": 0.29,
+      "tags": [
+        "Politics",
+        "Legal"
+      ]
     },
     {
       "title_en": "The Token Compression Illusion: Why I'm Skeptical of RTK",
@@ -747,7 +929,31 @@
       "tags": [
         "AI"
       ],
-      "hot_score": 0.32
+      "hot_score": 0.26
+    },
+    {
+      "title_en": "Launch HN: TesterArmy (YC P26) – Agents that test web and mobile apps",
+      "url": "https://tester.army",
+      "title_zh": "Launch HN: TesterArmy（YC P26）——测试网页和移动应用的代理",
+      "created_display": "Created: Jun 18, 2026 / 07:49 PT",
+      "image_url": "https://tester.army/og-image.png",
+      "summary_en": "TesterArmy offers autonomous agents designed to test web and mobile apps, feeding results into CI pipelines. Backed by Y Combinator, the project exemplifies the shift toward AI-assisted QA and scalable automated testing.",
+      "summary_zh": "TesterArmy 提供用于测试网页和移动应用的自主代理，能将测试结果推送到持续集成管道。作为 YC 支持的项目，展示了向 AI 辅助质量保证与大规模自动化测试的趋势。",
+      "hn": {
+        "id": 48586299,
+        "type": "story",
+        "by": "okwasniewski",
+        "score": 123,
+        "descendants": 63,
+        "time": 1781794184,
+        "comments_url": "https://news.ycombinator.com/item?id=48586299"
+      },
+      "tags": [
+        "Programming",
+        "Startups",
+        "AI"
+      ],
+      "hot_score": 0.25
     },
     {
       "title_en": "Zork name origin got an update on Wikipedia",
@@ -767,34 +973,9 @@
         "comments_url": "https://news.ycombinator.com/item?id=48591066"
       },
       "tags": [
-        "Culture"
+        "Gaming"
       ],
-      "hot_score": 0.32
-    },
-    {
-      "title_en": "Launch HN: TesterArmy (YC P26) – Agents that test web and mobile apps",
-      "url": "https://tester.army",
-      "title_zh": "Launch HN: TesterArmy（YC P26）——测试网页和移动应用的代理",
-      "created_display": "Created: Jun 18, 2026 / 07:49 PT",
-      "image_url": "https://tester.army/og-image.png",
-      "summary_en": "TesterArmy offers autonomous agents designed to test web and mobile apps, feeding results into CI pipelines. Backed by Y Combinator, the project exemplifies the shift toward AI-assisted QA and scalable automated testing.",
-      "summary_zh": "TesterArmy 提供用于测试网页和移动应用的自主代理，能将测试结果推送到持续集成管道。作为 YC 支持的项目，展示了向 AI 辅助质量保证与大规模自动化测试的趋势。",
-      "hn": {
-        "id": 48586299,
-        "type": "story",
-        "by": "okwasniewski",
-        "score": 123,
-        "descendants": 62,
-        "time": 1781794184,
-        "comments_url": "https://news.ycombinator.com/item?id=48586299"
-      },
-      "tags": [
-        "AI",
-        "DevOps",
-        "Programming",
-        "Startups"
-      ],
-      "hot_score": 0.31
+      "hot_score": 0.25
     },
     {
       "title_en": "The Korean telecom giant at the center of Anthropic's Mythos controversy",
@@ -808,16 +989,17 @@
         "id": 48584484,
         "type": "story",
         "by": "dstala",
-        "score": 124,
-        "descendants": 121,
+        "score": 129,
+        "descendants": 131,
         "time": 1781786649,
         "comments_url": "https://news.ycombinator.com/item?id=48584484"
       },
       "tags": [
-        "AI",
-        "Politics"
+        "Politics",
+        "Business",
+        "AI"
       ],
-      "hot_score": 0.27
+      "hot_score": 0.24
     },
     {
       "title_en": "Building a robotics research setup that lives next to my desk",
@@ -832,14 +1014,60 @@
         "type": "story",
         "by": "mplappert",
         "score": 105,
-        "descendants": 34,
+        "descendants": 36,
         "time": 1781794313,
         "comments_url": "https://news.ycombinator.com/item?id=48586329"
       },
       "tags": [
         "Hardware"
       ],
-      "hot_score": 0.26
+      "hot_score": 0.22
+    },
+    {
+      "title_en": "Why Do So Many Everyday Systems Feel Harder to Use Now?",
+      "url": "https://therealitydrift.substack.com/p/reality-drift-in-everyday-life",
+      "title_zh": "为何日常系统如今越来越难用？",
+      "created_display": "Created: Jun 19, 2026 / 08:33 PT",
+      "image_url": null,
+      "summary_en": "Explores the growing sense that everyday software systems have become harder to use, despite more capable technology. The piece argues that design drift, feature bloat, and changing expectations create misaligned mental models, and suggests ways to restore predictability and usability.",
+      "summary_zh": "作者探讨日常软件系统为何越来越难用，尽管技术更强大。设计漂移、功能臃肿与不断变化的期望打破了人们的心智模型，提出通过更可预测的设计和清晰的导航来提升易用性。",
+      "hn": {
+        "id": 48599776,
+        "type": "story",
+        "by": "realitydrift",
+        "score": 6,
+        "descendants": 6,
+        "time": 1781883219,
+        "comments_url": "https://news.ycombinator.com/item?id=48599776"
+      },
+      "hot_score": 0.19,
+      "tags": [
+        "Design"
+      ]
+    },
+    {
+      "title_en": "Show HN: Talos – Open-source WASM interpreter for Lean",
+      "url": "https://github.com/cajal-technologies/talos",
+      "title_zh": "Show HN：Talos——基于 Lean 的开源 WASM 解释器",
+      "created_display": "Created: Jun 18, 2026 / 06:10 PT",
+      "image_url": "https://opengraph.githubassets.com/d00ff7482511e6dc1a0c6cd4494dc1d3ec959c7ec0796cbde62232ab0f0a3162/cajal-technologies/talos",
+      "summary_en": "Talos is an open-source WASM interpreter implemented in Lean, emphasizing safety and potential formal verification benefits. It demonstrates a WASM runtime in a functional language and may influence future tooling for verification-focused ecosystems.",
+      "summary_zh": "Talos 是用 Lean 编写的开源 WASM 解释器，强调安全性与潜在的形式化验证优势，展示了在函数式语言中实现 WASM 运行时的可能性。",
+      "hn": {
+        "id": 48584761,
+        "type": "story",
+        "by": "mfornet",
+        "score": 89,
+        "descendants": 22,
+        "time": 1781788244,
+        "comments_url": "https://news.ycombinator.com/item?id=48584761"
+      },
+      "tags": [
+        "Show HN",
+        "Open Source",
+        "Programming"
+      ],
+      "hot_score": 0.17
     },
     {
       "title_en": "The Harajuku Moment (2024)",
@@ -861,7 +1089,7 @@
       "tags": [
         "Culture"
       ],
-      "hot_score": 0.21
+      "hot_score": 0.17
     },
     {
       "title_en": "DARPA Heavy Life Challenge",
@@ -880,35 +1108,10 @@
         "time": 1781845279,
         "comments_url": "https://news.ycombinator.com/item?id=48594933"
       },
-      "hot_score": 0.2,
+      "hot_score": 0.14,
       "tags": [
-        "AI",
-        "Science"
+        "AI"
       ]
-    },
-    {
-      "title_en": "Show HN: Talos – Open-source WASM interpreter for Lean",
-      "url": "https://github.com/cajal-technologies/talos",
-      "title_zh": "Show HN：Talos——基于 Lean 的开源 WASM 解释器",
-      "created_display": "Created: Jun 18, 2026 / 06:10 PT",
-      "image_url": "https://opengraph.githubassets.com/d00ff7482511e6dc1a0c6cd4494dc1d3ec959c7ec0796cbde62232ab0f0a3162/cajal-technologies/talos",
-      "summary_en": "Talos is an open-source WASM interpreter implemented in Lean, emphasizing safety and potential formal verification benefits. It demonstrates a WASM runtime in a functional language and may influence future tooling for verification-focused ecosystems.",
-      "summary_zh": "Talos 是用 Lean 编写的开源 WASM 解释器，强调安全性与潜在的形式化验证优势，展示了在函数式语言中实现 WASM 运行时的可能性。",
-      "hn": {
-        "id": 48584761,
-        "type": "story",
-        "by": "mfornet",
-        "score": 77,
-        "descendants": 19,
-        "time": 1781788244,
-        "comments_url": "https://news.ycombinator.com/item?id=48584761"
-      },
-      "tags": [
-        "Show HN",
-        "Programming",
-        "Open Source"
-      ],
-      "hot_score": 0.17
     },
     {
       "title_en": "DuckDB Internals: Why Is DuckDB Fast? (Part 1)",
@@ -922,15 +1125,13 @@
         "id": 48553388,
         "type": "story",
         "by": "marklit",
-        "score": 337,
-        "descendants": 94,
+        "score": 382,
+        "descendants": 122,
         "time": 1781608028,
         "comments_url": "https://news.ycombinator.com/item?id=48553388"
       },
       "tags": [
-        "Programming",
-        "Data",
-        "Open Source"
+        "Data"
       ],
       "hot_score": 0.13
     },
@@ -946,16 +1147,107 @@
         "id": 48570730,
         "type": "story",
         "by": "ddrmaxgt37",
-        "score": 138,
-        "descendants": 117,
+        "score": 165,
+        "descendants": 129,
         "time": 1781705038,
         "comments_url": "https://news.ycombinator.com/item?id=48570730"
       },
       "tags": [
-        "Politics",
-        "Culture"
+        "Design"
       ],
-      "hot_score": 0.11
+      "hot_score": 0.12
+    },
+    {
+      "title_en": "Show HN: Music from every single country on Earth, generated in Esperanto",
+      "url": "https://elevenexperiments.com/around-the-world?lang=eo&genre=de",
+      "title_zh": "Show HN：以世界语生成的全球各国音乐",
+      "created_display": "Created: Jun 19, 2026 / 06:20 PT",
+      "image_url": null,
+      "summary_en": "A project generates musical pieces representing every country, with interfaces and metadata using Esperanto. It showcases a globally sourced, inclusive approach to data-driven music and language.",
+      "summary_zh": "一个项目用全球各国风格创作音乐，并用世界语呈现元数据与界面，展示以全球化、包容性为导向的数据驱动音乐创作。",
+      "hn": {
+        "id": 48598264,
+        "type": "story",
+        "by": "ktoyame",
+        "score": 6,
+        "descendants": 5,
+        "time": 1781875245,
+        "comments_url": "https://news.ycombinator.com/item?id=48598264"
+      },
+      "hot_score": 0.11,
+      "tags": [
+        "Show HN",
+        "AI"
+      ]
+    },
+    {
+      "title_en": "To study how chips work, MIT researchers built their own operating system",
+      "url": "https://news.mit.edu/2026/to-study-how-chips-really-work-mit-researchers-built-their-own-operating-system-0610",
+      "title_zh": "为研究芯片工作原理，MIT 研究者自建操作系统",
+      "created_display": "Created: Jun 15, 2026 / 09:06 PT",
+      "image_url": "https://news.mit.edu/sites/default/files/images/202605/mit-csail-fractal.jpg",
+      "summary_en": "MIT researchers built a custom OS to observe how chips behave under controlled microarchitectural experiments, removing some vendor constraints. The project serves as a hands-on tool for hardware researchers to test hypotheses about instruction scheduling, caches, and I/O paths.",
+      "summary_zh": "MIT 研究者为在受控条件下研究芯片微架构行为，自己从零搭建了一个操作系统，降低对厂商的依赖。该项目提供了一个直接的硬件研究工具，用于检验指令调度、缓存与 I/O 路径等假设。",
+      "hn": {
+        "id": 48543311,
+        "type": "story",
+        "by": "speckx",
+        "score": 319,
+        "descendants": 49,
+        "time": 1781539582,
+        "comments_url": "https://news.ycombinator.com/item?id=48543311"
+      },
+      "tags": [
+        "Hardware",
+        "Programming"
+      ],
+      "hot_score": 0.08
+    },
+    {
+      "title_en": "Ten years of ClickHouse in open source",
+      "url": "https://clickhouse.com/blog/open-source-10",
+      "title_zh": "ClickHouse 开源十年回顾",
+      "created_display": "Created: Jun 15, 2026 / 13:51 PT",
+      "image_url": "https://clickhouse.com/_next/image?url=%2Fuploads%2Fgithub_c01a760d53.png&w=1200&h=630&q=80",
+      "summary_en": "A decade of open-source development has shaped ClickHouse into a high-performance, columnar analytics engine with a thriving community.",
+      "summary_zh": "十年的开源开发让 ClickHouse 成为高性能的列式分析引擎，并拥有活跃的社区。文章回顾了关键里程碑、治理演变，以及早期架构选择如何推动在各行业的广泛采用。",
+      "hn": {
+        "id": 48546890,
+        "type": "story",
+        "by": "saisrirampur",
+        "score": 235,
+        "descendants": 67,
+        "time": 1781556714,
+        "comments_url": "https://news.ycombinator.com/item?id=48546890"
+      },
+      "tags": [
+        "Open Source",
+        "Data"
+      ],
+      "hot_score": 0.06
+    },
+    {
+      "title_en": "Zen and the Art of Machine Learning Research",
+      "url": "https://blog.jxmo.io/p/zen-and-the-art-of-machine-learning",
+      "title_zh": "机器学习研究的禅意与艺术",
+      "created_display": "Created: Jun 15, 2026 / 17:45 PT",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!gBx6!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6477dc42-dd38-4b92-8fa0-e4e6ab7f2bc1_1918x820.png",
+      "summary_en": "ML research benefits from simplicity, reproducibility, and deliberate iteration rather than hype. This piece argues for a mindful approach to experimentation, open data, and robust evaluation to advance reliable models.",
+      "summary_zh": "机器学习研究应追求简洁、可重复性与有目的的迭代，而非追逐热度。文章主张用心对待实验设计、开放数据与稳健评估，以推动更可靠的模型。",
+      "hn": {
+        "id": 48549118,
+        "type": "story",
+        "by": "jxmorris12",
+        "score": 206,
+        "descendants": 70,
+        "time": 1781570750,
+        "comments_url": "https://news.ycombinator.com/item?id=48549118"
+      },
+      "tags": [
+        "AI",
+        "Science"
+      ],
+      "hot_score": 0.06
     },
     {
       "title_en": "Renting vs. Buying – A case study for Bangalore",
@@ -974,34 +1266,11 @@
         "time": 1781848288,
         "comments_url": "https://news.ycombinator.com/item?id=48595251"
       },
-      "hot_score": 0.09,
+      "hot_score": 0.06,
       "tags": [
-        "Finance",
-        "Business"
+        "Business",
+        "Finance"
       ]
-    },
-    {
-      "title_en": "To study how chips work, MIT researchers built their own operating system",
-      "url": "https://news.mit.edu/2026/to-study-how-chips-really-work-mit-researchers-built-their-own-operating-system-0610",
-      "title_zh": "为研究芯片工作原理，MIT 研究者自建操作系统",
-      "created_display": "Created: Jun 15, 2026 / 09:06 PT",
-      "image_url": "https://news.mit.edu/sites/default/files/images/202605/mit-csail-fractal.jpg",
-      "summary_en": "MIT researchers built a custom OS to observe how chips behave under controlled microarchitectural experiments, removing some vendor constraints. The project serves as a hands-on tool for hardware researchers to test hypotheses about instruction scheduling, caches, and I/O paths.",
-      "summary_zh": "MIT 研究者为在受控条件下研究芯片微架构行为，自己从零搭建了一个操作系统，降低对厂商的依赖。该项目提供了一个直接的硬件研究工具，用于检验指令调度、缓存与 I/O 路径等假设。",
-      "hn": {
-        "id": 48543311,
-        "type": "story",
-        "by": "speckx",
-        "score": 291,
-        "descendants": 43,
-        "time": 1781539582,
-        "comments_url": "https://news.ycombinator.com/item?id=48543311"
-      },
-      "tags": [
-        "Hardware",
-        "Science"
-      ],
-      "hot_score": 0.07
     },
     {
       "title_en": "Agentic Resource Discovery Specification",
@@ -1021,54 +1290,8 @@
         "comments_url": "https://news.ycombinator.com/item?id=48573268"
       },
       "tags": [
-        "AI",
-        "Security"
-      ],
-      "hot_score": 0.06
-    },
-    {
-      "title_en": "Ten years of ClickHouse in open source",
-      "url": "https://clickhouse.com/blog/open-source-10",
-      "title_zh": "ClickHouse 开源十年回顾",
-      "created_display": "Created: Jun 15, 2026 / 13:51 PT",
-      "image_url": "https://clickhouse.com/_next/image?url=%2Fuploads%2Fgithub_c01a760d53.png&w=1200&h=630&q=80",
-      "summary_en": "A decade of open-source development has shaped ClickHouse into a high-performance, columnar analytics engine with a thriving community.",
-      "summary_zh": "十年的开源开发让 ClickHouse 成为高性能的列式分析引擎，并拥有活跃的社区。文章回顾了关键里程碑、治理演变，以及早期架构选择如何推动在各行业的广泛采用。",
-      "hn": {
-        "id": 48546890,
-        "type": "story",
-        "by": "saisrirampur",
-        "score": 186,
-        "descendants": 58,
-        "time": 1781556714,
-        "comments_url": "https://news.ycombinator.com/item?id=48546890"
-      },
-      "tags": [
-        "Open Source",
-        "Data"
-      ],
-      "hot_score": 0.05
-    },
-    {
-      "title_en": "Zen and the Art of Machine Learning Research",
-      "url": "https://blog.jxmo.io/p/zen-and-the-art-of-machine-learning",
-      "title_zh": "机器学习研究的禅意与艺术",
-      "created_display": "Created: Jun 15, 2026 / 17:45 PT",
-      "image_url": "https://substackcdn.com/image/fetch/$s_!gBx6!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6477dc42-dd38-4b92-8fa0-e4e6ab7f2bc1_1918x820.png",
-      "summary_en": "ML research benefits from simplicity, reproducibility, and deliberate iteration rather than hype. This piece argues for a mindful approach to experimentation, open data, and robust evaluation to advance reliable models.",
-      "summary_zh": "机器学习研究应追求简洁、可重复性与有目的的迭代，而非追逐热度。文章主张用心对待实验设计、开放数据与稳健评估，以推动更可靠的模型。",
-      "hn": {
-        "id": 48549118,
-        "type": "story",
-        "by": "jxmorris12",
-        "score": 168,
-        "descendants": 50,
-        "time": 1781570750,
-        "comments_url": "https://news.ycombinator.com/item?id=48549118"
-      },
-      "tags": [
-        "AI",
-        "Science"
+        "Programming",
+        "AI"
       ],
       "hot_score": 0.05
     },
@@ -1084,37 +1307,14 @@
         "id": 48541062,
         "type": "story",
         "by": "mcanouil",
-        "score": 160,
-        "descendants": 59,
+        "score": 191,
+        "descendants": 70,
         "time": 1781530523,
         "comments_url": "https://news.ycombinator.com/item?id=48541062"
       },
       "tags": [
         "Programming",
-        "Open Source"
-      ],
-      "hot_score": 0.04
-    },
-    {
-      "title_en": "Cell-based architecture for resilient payment systems",
-      "url": "https://americanexpress.io/cell-based-architecture-for-resilient-payment-systems/",
-      "title_zh": "基于单元格的架构提升支付系统弹性",
-      "created_display": "Created: Jun 15, 2026 / 15:36 PT",
-      "image_url": "https://americanexpress.io/_post_assets/cell-based-architecture-for-resilient-payment-systems/img/main.jpg",
-      "summary_en": "Cell-based architecture is presented as a path to fault isolation and resilient payments. By partitioning state and operations into independent cells, outages in one cell won’t cascade, enabling faster recovery and safer experimentation. The approach aligns with fintech’s demand for 24/7 uptime and scalable, compliant architectures.",
-      "summary_zh": "将系统分割为独立的单元格以实现故障隔离和支付系统弹性。通过对状态和操作进行细粒度划分，单个单元的故障不会蔓延，从而更快恢复并便于安全试验。这一思路符合金融科技对全天候可用性、可扩展性和合规性的要求。",
-      "hn": {
-        "id": 48547969,
-        "type": "story",
-        "by": "birdculture",
-        "score": 140,
-        "descendants": 57,
-        "time": 1781562993,
-        "comments_url": "https://news.ycombinator.com/item?id=48547969"
-      },
-      "tags": [
-        "Finance",
-        "Security"
+        "Design"
       ],
       "hot_score": 0.04
     },
@@ -1130,15 +1330,61 @@
         "id": 48544429,
         "type": "story",
         "by": "skogstokig",
-        "score": 130,
-        "descendants": 92,
+        "score": 145,
+        "descendants": 100,
         "time": 1781544412,
         "comments_url": "https://news.ycombinator.com/item?id=48544429"
       },
       "tags": [
         "Business"
       ],
-      "hot_score": 0.03
+      "hot_score": 0.04
+    },
+    {
+      "title_en": "Cell-based architecture for resilient payment systems",
+      "url": "https://americanexpress.io/cell-based-architecture-for-resilient-payment-systems/",
+      "title_zh": "基于单元格的架构提升支付系统弹性",
+      "created_display": "Created: Jun 15, 2026 / 15:36 PT",
+      "image_url": "https://americanexpress.io/_post_assets/cell-based-architecture-for-resilient-payment-systems/img/main.jpg",
+      "summary_en": "Cell-based architecture is presented as a path to fault isolation and resilient payments. By partitioning state and operations into independent cells, outages in one cell won’t cascade, enabling faster recovery and safer experimentation. The approach aligns with fintech’s demand for 24/7 uptime and scalable, compliant architectures.",
+      "summary_zh": "将系统分割为独立的单元格以实现故障隔离和支付系统弹性。通过对状态和操作进行细粒度划分，单个单元的故障不会蔓延，从而更快恢复并便于安全试验。这一思路符合金融科技对全天候可用性、可扩展性和合规性的要求。",
+      "hn": {
+        "id": 48547969,
+        "type": "story",
+        "by": "birdculture",
+        "score": 144,
+        "descendants": 58,
+        "time": 1781562993,
+        "comments_url": "https://news.ycombinator.com/item?id=48547969"
+      },
+      "tags": [
+        "Finance",
+        "Security"
+      ],
+      "hot_score": 0.04
+    },
+    {
+      "title_en": "Show HN: Pagecast – Publish Markdown/HTML Reports to Cloudflare Pages",
+      "url": "https://github.com/Amal-David/pagecast",
+      "title_zh": "Show HN：Pagecast——将 Markdown/HTML 报告发布到 Cloudflare Pages",
+      "created_display": "Created: Jun 18, 2026 / 12:42 PT",
+      "image_url": "https://opengraph.githubassets.com/1d2fb5441291060f092c92a5de4c9a7839062024a72f72243a5226baa606ec9e/Amal-David/pagecast",
+      "summary_en": "Pagecast provides a simple workflow to publish Markdown/HTML reports to Cloudflare Pages, enabling quick sharing of docs and dashboards with minimal setup. It emphasizes lightweight, reproducible publishing for small teams or personal projects.",
+      "summary_zh": "Pagecast 提供将 Markdown/HTML 报告发布到 Cloudflare Pages 的简易工作流，便于快速分享文档与仪表板，且设置简单、可重复性强。适合小团队或个人项目。",
+      "hn": {
+        "id": 48590505,
+        "type": "story",
+        "by": "amaldavid",
+        "score": 14,
+        "descendants": 3,
+        "time": 1781811774,
+        "comments_url": "https://news.ycombinator.com/item?id=48590505"
+      },
+      "hot_score": 0.04,
+      "tags": [
+        "Show HN",
+        "Web"
+      ]
     },
     {
       "title_en": "Akse3D – open-source 3D modelling anyone can master",
@@ -1152,8 +1398,8 @@
         "id": 48540779,
         "type": "story",
         "by": "joachimhs",
-        "score": 91,
-        "descendants": 23,
+        "score": 122,
+        "descendants": 35,
         "time": 1781529218,
         "comments_url": "https://news.ycombinator.com/item?id=48540779"
       },
@@ -1161,7 +1407,7 @@
         "Open Source",
         "Design"
       ],
-      "hot_score": 0.02
+      "hot_score": 0.03
     },
     {
       "title_en": "\"No Feigning Surprise\"",
@@ -1182,8 +1428,31 @@
       },
       "hot_score": 0.02,
       "tags": [
-        "Culture"
+        "Entertainment"
       ]
+    },
+    {
+      "title_en": "Telescope Ranchers",
+      "url": "https://kottke.org/26/06/telescope-ranchers",
+      "title_zh": "望远镜牧场主",
+      "created_display": "Created: Jun 16, 2026 / 03:34 PT",
+      "image_url": "https://i.ytimg.com/vi/bN48vEqaQs8/sddefault.jpg",
+      "summary_en": "An evocative look at ranchers who embrace astronomy as a core part of life, showing how wide-open skies and remote environment foster unique stargazing practices. The piece contrasts traditional ranching with modern observational tech, shedding light on how rural communities contribute to science culture.",
+      "summary_zh": "这篇报道讲述把天文学融入牧场生活的牧场主们，辽阔夜空和偏远环境让观星成为独特的日常。文本对比了传统牧场与现代观测技术，揭示偏远社区如何为科学文化添入一抹独特风景。",
+      "hn": {
+        "id": 48553161,
+        "type": "story",
+        "by": "bookofjoe",
+        "score": 57,
+        "descendants": 23,
+        "time": 1781606050,
+        "comments_url": "https://news.ycombinator.com/item?id=48553161"
+      },
+      "tags": [
+        "Culture",
+        "Space"
+      ],
+      "hot_score": 0.02
     },
     {
       "title_en": "Horizons JPL Solar System Data Demo and NASA DSN Updates: Datastar, Common Lisp",
@@ -1204,10 +1473,80 @@
       },
       "tags": [
         "Space",
+        "Data",
         "Programming",
         "Energy"
       ],
       "hot_score": 0.01
+    },
+    {
+      "title_en": "I used sound waves to make espresso. It could cut coffee‑brewing energy use by ¾",
+      "url": "https://theconversation.com/i-used-sound-waves-to-make-espresso-it-could-cut-coffee-brewing-energy-use-by-75-284929",
+      "title_zh": "用声波冲煮浓缩咖啡，或能把冲煮能耗降低约75%",
+      "created_display": "Created: Jun 13, 2026 / 01:21 PT",
+      "image_url": "https://images.theconversation.com/files/740888/original/file-20260609-56-slzgtk.jpg?ixlib=rb-4.1.0&rect=0%2C664%2C4658%2C2329&q=45&auto=format&w=1356&h=668&fit=crop",
+      "summary_en": "A lab-scale demonstration uses acoustic waves to improve espresso extraction, potentially slashing brewing energy by up to 75%. The approach challenges conventional thermal methods and points to broader opportunities for energy-efficient food and beverage processing. Real-world practicality and consumer taste remain questions.",
+      "summary_zh": "一项实验性研究用声波辅助提取浓缩咖啡，理论上可将冲煮能耗降低多达75%。该方法挑战传统的热传导依赖，并提示在食品饮料加工领域的潜在节能机会。实际可用性与口味影响仍待验证。",
+      "hn": {
+        "id": 48514843,
+        "type": "story",
+        "by": "zeristor",
+        "score": 49,
+        "descendants": 34,
+        "time": 1781338905,
+        "comments_url": "https://news.ycombinator.com/item?id=48514843"
+      },
+      "hot_score": 0.01,
+      "tags": [
+        "Energy",
+        "Science"
+      ]
+    },
+    {
+      "title_en": "The Productivity J-Curve [pdf] (2018)",
+      "url": "https://ide.mit.edu/sites/default/files/publications/jcurve.pdf",
+      "title_zh": "生产力 J 曲线 [pdf]（2018）",
+      "created_display": "Created: Jun 15, 2026 / 16:47 PT",
+      "image_url": null,
+      "summary_en": "The J-curve describes a temporary dip in productivity during the initial adoption of a new tool or process, followed by long-term gains as learning and optimization occur. It offers actionable guidance for managers on timing, experimentation, and metrics to distinguish short-term dips from long-run gains.",
+      "summary_zh": "J 曲线揭示在采用新工具或流程初期生产力常常短暂下降，随后随着学习和优化而提升。本文为管理者提供可执行的建议，帮助把握时机、设计试验并用正确的指标区分短期低谷与长期收益。",
+      "hn": {
+        "id": 48548695,
+        "type": "story",
+        "by": "kioku",
+        "score": 44,
+        "descendants": 11,
+        "time": 1781567275,
+        "comments_url": "https://news.ycombinator.com/item?id=48548695"
+      },
+      "tags": [
+        "Business"
+      ],
+      "hot_score": 0.01
+    },
+    {
+      "title_en": "Show HN: Metiq: a real time 3D globe for 100 public datasets",
+      "url": "https://metiq.space",
+      "title_zh": "Show HN：一个实时的三维地球仪，用于可视化100个公开数据集",
+      "created_display": "Created: Jun 16, 2026 / 07:43 PT",
+      "image_url": null,
+      "summary_en": "Metiq offers a real-time 3D globe visualization for a hundred public datasets, enabling fast, immersive exploration of geo-annotated data. Built for developers, it demonstrates how WebGL and streaming data can empower interactive data storytelling.",
+      "summary_zh": "Metiq 提供一个实时的三维地球仪，用于可视化100个公开数据集，便于对地理标注数据进行沉浸式探索。面向开发者的工具展示了 WebGL 与数据流在互动数据讲述中的应用潜力。",
+      "hn": {
+        "id": 48556082,
+        "type": "story",
+        "by": "rakeda",
+        "score": 40,
+        "descendants": 9,
+        "time": 1781621018,
+        "comments_url": "https://news.ycombinator.com/item?id=48556082"
+      },
+      "hot_score": 0.01,
+      "tags": [
+        "Show HN",
+        "Web",
+        "Data"
+      ]
     },
     {
       "title_en": "SMTP Relay with Web Dashboard",
@@ -1227,8 +1566,32 @@
         "comments_url": "https://news.ycombinator.com/item?id=48547658"
       },
       "tags": [
-        "Programming",
+        "Web",
         "Security"
+      ],
+      "hot_score": 0.01
+    },
+    {
+      "title_en": "Show HN: Modeloop – From visual algorithms to microcontroller C code",
+      "url": "https://www.modeloop.app/",
+      "title_zh": "Show HN：Modeloop——从可视化算法到微控制器 C 代码",
+      "created_display": "Created: Jun 15, 2026 / 09:51 PT",
+      "image_url": "https://www.modeloop.app/og-image.png",
+      "summary_en": "Modeloop translates visual, block-based algorithms into microcontroller C code, bridging the gap between design and embedded deployment. It enables rapid prototyping for hardware projects where performance and resource constraints matter. This approach foreshadows a low-code pathway for hardware-software co-design.",
+      "summary_zh": "Modeloop 将可视化的块状算法转换为微控制器的 C 代码，缩短设计到嵌入式实现的距离。它让在资源受限的硬件上进行快速原型开发成为现实，提升性能与效率的权衡。此类低代码路径将推动软硬件协同设计的创新。",
+      "hn": {
+        "id": 48543968,
+        "type": "story",
+        "by": "lucamark",
+        "score": 33,
+        "descendants": 22,
+        "time": 1781542294,
+        "comments_url": "https://news.ycombinator.com/item?id=48543968"
+      },
+      "tags": [
+        "Show HN",
+        "Programming",
+        "Hardware"
       ],
       "hot_score": 0.01
     },
@@ -1251,29 +1614,32 @@
       },
       "hot_score": 0.01,
       "tags": [
-        "Programming"
+        "Programming",
+        "Open Source"
       ]
     },
     {
-      "title_en": "The Productivity J-Curve [pdf] (2018)",
-      "url": "https://ide.mit.edu/sites/default/files/publications/jcurve.pdf",
-      "title_zh": "生产力 J 曲线 [pdf]（2018）",
-      "created_display": "Created: Jun 15, 2026 / 16:47 PT",
-      "image_url": null,
-      "summary_en": "The J-curve describes a temporary dip in productivity during the initial adoption of a new tool or process, followed by long-term gains as learning and optimization occur. It offers actionable guidance for managers on timing, experimentation, and metrics to distinguish short-term dips from long-run gains.",
-      "summary_zh": "J 曲线揭示在采用新工具或流程初期生产力常常短暂下降，随后随着学习和优化而提升。本文为管理者提供可执行的建议，帮助把握时机、设计试验并用正确的指标区分短期低谷与长期收益。",
+      "title_en": "This 1976 University Experiment Spun Up the U.S. Wind Industry",
+      "url": "https://spectrum.ieee.org/william-heronemus-wind-energy",
+      "title_zh": "1976 年的一项大学研究推动了美国现代风能产业",
+      "created_display": "Created: Jun 15, 2026 / 07:25 PT",
+      "image_url": "https://spectrum.ieee.org/media-library/image.jpg?id=66894045&width=1200&height=600&coordinates=0%2C125%2C0%2C125",
+      "summary_en": "A 1976 university study catalyzed the modern U.S. wind industry by highlighting feasibility and policy momentum at the time. It helped attract investment and policy attention during the energy crisis era. The piece underscores how academic work can spark a national-scale clean energy sector.",
+      "summary_zh": "1976 年的一项大学研究推动了美国现代风能产业的发展，凸显了风电的可行性并推动当时的政策与投资热潮。在能源危机背景下，这项工作被视为点燃国家级清洁能源产业的重要催化剂。",
       "hn": {
-        "id": 48548695,
+        "id": 48541777,
         "type": "story",
-        "by": "kioku",
-        "score": 21,
-        "descendants": 6,
-        "time": 1781567275,
-        "comments_url": "https://news.ycombinator.com/item?id=48548695"
+        "by": "pseudolus",
+        "score": 30,
+        "descendants": 1,
+        "time": 1781533551,
+        "comments_url": "https://news.ycombinator.com/item?id=48541777"
       },
       "hot_score": 0.01,
       "tags": [
-        "Business"
+        "Energy",
+        "Science",
+        "Education"
       ]
     },
     {
@@ -1288,62 +1654,38 @@
         "id": 48563083,
         "type": "story",
         "by": "Petiver",
-        "score": 11,
-        "descendants": 1,
+        "score": 30,
+        "descendants": 8,
         "time": 1781648772,
         "comments_url": "https://news.ycombinator.com/item?id=48563083"
       },
-      "hot_score": 0.01,
       "tags": [
-        "Culture"
-      ]
-    },
-    {
-      "title_en": "Show HN: Modeloop – From visual algorithms to microcontroller C code",
-      "url": "https://www.modeloop.app/",
-      "title_zh": "Show HN：Modeloop——从可视化算法到微控制器 C 代码",
-      "created_display": "Created: Jun 15, 2026 / 09:51 PT",
-      "image_url": "https://www.modeloop.app/og-image.png",
-      "summary_en": "Modeloop translates visual, block-based algorithms into microcontroller C code, bridging the gap between design and embedded deployment. It enables rapid prototyping for hardware projects where performance and resource constraints matter. This approach foreshadows a low-code pathway for hardware-software co-design.",
-      "summary_zh": "Modeloop 将可视化的块状算法转换为微控制器的 C 代码，缩短设计到嵌入式实现的距离。它让在资源受限的硬件上进行快速原型开发成为现实，提升性能与效率的权衡。此类低代码路径将推动软硬件协同设计的创新。",
-      "hn": {
-        "id": 48543968,
-        "type": "story",
-        "by": "lucamark",
-        "score": 18,
-        "descendants": 22,
-        "time": 1781542294,
-        "comments_url": "https://news.ycombinator.com/item?id=48543968"
-      },
-      "hot_score": 0.0,
-      "tags": [
-        "Show HN",
-        "Hardware",
-        "Programming"
-      ]
-    },
-    {
-      "title_en": "Telescope Ranchers",
-      "url": "https://kottke.org/26/06/telescope-ranchers",
-      "title_zh": "望远镜牧场主",
-      "created_display": "Created: Jun 16, 2026 / 03:34 PT",
-      "image_url": "https://i.ytimg.com/vi/bN48vEqaQs8/sddefault.jpg",
-      "summary_en": "An evocative look at ranchers who embrace astronomy as a core part of life, showing how wide-open skies and remote environment foster unique stargazing practices. The piece contrasts traditional ranching with modern observational tech, shedding light on how rural communities contribute to science culture.",
-      "summary_zh": "这篇报道讲述把天文学融入牧场生活的牧场主们，辽阔夜空和偏远环境让观星成为独特的日常。文本对比了传统牧场与现代观测技术，揭示偏远社区如何为科学文化添入一抹独特风景。",
-      "hn": {
-        "id": 48553161,
-        "type": "story",
-        "by": "bookofjoe",
-        "score": 6,
-        "descendants": 0,
-        "time": 1781606050,
-        "comments_url": "https://news.ycombinator.com/item?id=48553161"
-      },
-      "hot_score": 0.0,
-      "tags": [
-        "Science",
         "Culture",
-        "Space"
+        "Science"
+      ],
+      "hot_score": 0.01
+    },
+    {
+      "title_en": "Music generation using Algebra, presented as web MIDI shop",
+      "url": "https://monictheory.com",
+      "title_zh": "用代数学生成音乐，并以网页 MIDI 的形式呈现",
+      "created_display": "Created: Jun 14, 2026 / 07:28 PT",
+      "image_url": null,
+      "summary_en": "The project showcases music generation based on algebraic methods, packaged as a web MIDI tool. It offers an alternative to data-hungry ML models and may appeal to composers seeking deterministic, explainable workflows.",
+      "summary_zh": "该项目以代数方法生成音乐，并以网页 MIDI 的形式提供工具，提供了一种不依赖大规模机器学习的数据可解释工作流，可能吸引寻求确定性创作流程的作曲家。",
+      "hn": {
+        "id": 48527520,
+        "type": "story",
+        "by": "midi_finder",
+        "score": 5,
+        "descendants": 1,
+        "time": 1781447286,
+        "comments_url": "https://news.ycombinator.com/item?id=48527520"
+      },
+      "hot_score": 0.0,
+      "tags": [
+        "Web",
+        "Programming"
       ]
     }
   ]
