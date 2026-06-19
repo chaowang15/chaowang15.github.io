@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>119</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>17400</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>116</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>117</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-06-18</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>120</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>17449</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>116</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>118</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-06-19</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,118 +20,118 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='121' data-hn-time='1781842689'>
+<div class='hn-top-story-item' data-hn-score='151' data-hn-time='1781850957'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/18/top_stories_06182026#story-48594715'>Many Let's Encrypt renewals had errors today</a>
- <a class='hn-top-story-link' href='https://letsencrypt.status.io/#2026' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/19/top_stories_06192026#story-48595511'>Project Valhalla, Explained: How a Decade of Work Arrives in JDK 28</a>
+ <a class='hn-top-story-link' href='https://www.jvm-weekly.com/p/project-valhalla-explained-how-a' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>今日大量 Let's Encrypt 续期出现错误</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.4</span> <span class='hn-top-story-score'>&#9650; 121</span> <span class='hn-top-story-comments'>&#128172; 71</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>DevOps</span></div>
+<div class='hn-top-story-zh'>Valhalla 项目解读：十年研发在 JDK 28 落地</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.6</span> <span class='hn-top-story-score'>&#9650; 151</span> <span class='hn-top-story-comments'>&#128172; 69</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='102' data-hn-time='1781841025'>
+<div class='hn-top-story-item' data-hn-score='144' data-hn-time='1781842689'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/18/top_stories_06182026#story-48594592'>Ice water drowning survival of young patient (2025)</a>
- <a class='hn-top-story-link' href='https://www.jacc.org/doi/10.1016/j.jaccas.2025.104885' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/19/top_stories_06192026#story-48594715'>Many Let's Encrypt renewals had errors today</a>
+ <a class='hn-top-story-link' href='https://letsencrypt.status.io/#2026' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>冰水溺水后年轻患者存活病例（2025）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.2</span> <span class='hn-top-story-score'>&#9650; 102</span> <span class='hn-top-story-comments'>&#128172; 51</span> <span class='hn-top-story-tag'>Health</span></div>
+<div class='hn-top-story-zh'>今日大量 Let's Encrypt 续期出现错误</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 144</span> <span class='hn-top-story-comments'>&#128172; 92</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='744' data-hn-time='1781792227'>
+<div class='hn-top-story-item' data-hn-score='155' data-hn-time='1781841025'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/18/top_stories_06182026#story-48585746'>Swiss parliament lifts ban on new nuclear power plants</a>
- <a class='hn-top-story-link' href='https://www.bluewin.ch/en/news/switzerland/parliament-lifts-ban-on-new-nuclear-power-plants-3257535.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/19/top_stories_06192026#story-48594592'>Ice water drowning survival of young patient (2025)</a>
+ <a class='hn-top-story-link' href='https://www.jacc.org/doi/10.1016/j.jaccas.2025.104885' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>瑞士议会解除对新核电厂的禁令</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.8</span> <span class='hn-top-story-score'>&#9650; 744</span> <span class='hn-top-story-comments'>&#128172; 668</span> <span class='hn-top-story-tag'>Energy</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>冰水溺水后年轻患者存活病例（2025）</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 155</span> <span class='hn-top-story-comments'>&#128172; 99</span> <span class='hn-top-story-tag'>Health</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='306' data-hn-time='1781815743'>
+<div class='hn-top-story-item' data-hn-score='759' data-hn-time='1781792227'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/18/top_stories_06182026#story-48591348'>Show HN: Are You in the Weights?</a>
- <a class='hn-top-story-link' href='https://www.intheweights.com/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/19/top_stories_06192026#story-48585746'>Swiss parliament lifts ban on new nuclear power plants</a>
+ <a class='hn-top-story-link' href='https://www.bluewin.ch/en/news/switzerland/parliament-lifts-ban-on-new-nuclear-power-plants-3257535.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Show HN：Are You in the Weights?</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 306</span> <span class='hn-top-story-comments'>&#128172; 164</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Data</span></div>
+<div class='hn-top-story-zh'>瑞士议会解除对新核电厂的禁令</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 759</span> <span class='hn-top-story-comments'>&#128172; 724</span> <span class='hn-top-story-tag'>Energy</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='755' data-hn-time='1781783143'>
+<div class='hn-top-story-item' data-hn-score='809' data-hn-time='1781783143'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/18/top_stories_06182026#story-48583928'>I found 10k GitHub repositories distributing Trojan malware</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/19/top_stories_06192026#story-48583928'>I found 10k GitHub repositories distributing Trojan malware</a>
  <a class='hn-top-story-link' href='https://orchidfiles.com/github-repositories-distributing-malware/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>我发现一万多个 GitHub 仓库在分发木马恶意软件</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 755</span> <span class='hn-top-story-comments'>&#128172; 189</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 809</span> <span class='hn-top-story-comments'>&#128172; 211</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='651' data-hn-time='1781785145'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='352' data-hn-time='1781815743'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/18/top_stories_06182026#story-48584207'>Microsoft new Outlook takes 10 seconds to do what Outlook Classic does instantly</a>
- <a class='hn-top-story-link' href='https://www.windowslatest.com/2026/06/15/microsofts-new-outlook-takes-10-seconds-to-do-what-outlook-classic-does-instantly-on-windows/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/19/top_stories_06192026#story-48591348'>Show HN: Are You in the Weights?</a>
+ <a class='hn-top-story-link' href='https://www.intheweights.com/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>微软新版 Outlook 比经典版慢十秒</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 651</span> <span class='hn-top-story-comments'>&#128172; 427</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Design</span></div>
+<div class='hn-top-story-zh'>Show HN：Are You in the Weights?</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 352</span> <span class='hn-top-story-comments'>&#128172; 206</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Data</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1297' data-hn-time='1781747991'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='70' data-hn-time='1781849101'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/18/top_stories_06182026#story-48579650'>Midjourney Medical</a>
- <a class='hn-top-story-link' href='https://www.midjourney.com/medical/blogpost' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/19/top_stories_06192026#story-48595331'>So You Want to Define a Well-Known URI</a>
+ <a class='hn-top-story-link' href='https://mnot.net/blog/2026/well_known_uris' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Midjourney 医疗应用</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.7</span> <span class='hn-top-story-score'>&#9650; 1297</span> <span class='hn-top-story-comments'>&#128172; 848</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Health</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>如何定义一个 well-known URI</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.2</span> <span class='hn-top-story-score'>&#9650; 70</span> <span class='hn-top-story-comments'>&#128172; 35</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='330' data-hn-time='1781807483'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1307' data-hn-time='1781747991'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/18/top_stories_06182026#story-48589501'>I told them forced consent was unlawful. 5 years later it cost Elkjop €1.8M</a>
- <a class='hn-top-story-link' href='https://www.thatprivacyguy.com/blog/elkjop-forced-consent-fine/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/19/top_stories_06192026#story-48579650'>Midjourney Medical</a>
+ <a class='hn-top-story-link' href='https://www.midjourney.com/medical/blogpost' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>我曾告诉他们强制同意违法，5年后 Elkjøp 被罚 180 万欧元</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.7</span> <span class='hn-top-story-score'>&#9650; 330</span> <span class='hn-top-story-comments'>&#128172; 170</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Legal</span></div>
+<div class='hn-top-story-zh'>Midjourney 医疗应用</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.2</span> <span class='hn-top-story-score'>&#9650; 1307</span> <span class='hn-top-story-comments'>&#128172; 849</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Health</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='355' data-hn-time='1781801725'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='399' data-hn-time='1781807483'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/18/top_stories_06182026#story-48588216'>The founder of Craigslist has given away half a billion dollars</a>
- <a class='hn-top-story-link' href='https://www.independent.co.uk/us/money/craigslist-multimillionaire-craig-newmark-b2980681.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/19/top_stories_06192026#story-48589501'>I told them forced consent was unlawful. 5 years later it cost Elkjop €1.8M</a>
+ <a class='hn-top-story-link' href='https://www.thatprivacyguy.com/blog/elkjop-forced-consent-fine/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Craigslist 创始人捐出 5 亿美元</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 355</span> <span class='hn-top-story-comments'>&#128172; 272</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-zh'>我曾告诉他们强制同意违法，5年后 Elkjøp 被罚 180 万欧元</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.1</span> <span class='hn-top-story-score'>&#9650; 399</span> <span class='hn-top-story-comments'>&#128172; 240</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Legal</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='409' data-hn-time='1781795563'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='669' data-hn-time='1781785145'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/18/top_stories_06182026#story-48586631'>A website that lists websites to submit your website to</a>
- <a class='hn-top-story-link' href='https://www.submission.directory/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/19/top_stories_06192026#story-48584207'>Microsoft new Outlook takes 10 seconds to do what Outlook Classic does instantly</a>
+ <a class='hn-top-story-link' href='https://www.windowslatest.com/2026/06/15/microsofts-new-outlook-takes-10-seconds-to-do-what-outlook-classic-does-instantly-on-windows/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>一个收录可提交你自己网站的网址的目录站点</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.3</span> <span class='hn-top-story-score'>&#9650; 409</span> <span class='hn-top-story-comments'>&#128172; 90</span> <span class='hn-top-story-tag'>Web</span></div>
+<div class='hn-top-story-zh'>微软新版 Outlook 比经典版慢十秒</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.1</span> <span class='hn-top-story-score'>&#9650; 669</span> <span class='hn-top-story-comments'>&#128172; 447</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
-<a class='hn-top-stories-more' href='/hackernews/2026/06/18/top_stories_06182026'>View all trending stories &rarr;</a>
+<a class='hn-top-stories-more' href='/hackernews/2026/06/19/top_stories_06192026'>View all trending stories &rarr;</a>
 <a class='hn-top-stories-more' href='/hackernews/2026/06/17/best_stories_06172026'>Latest Daily Best — 2026-06-17 &rarr;</a>
 </div>
 </div>
@@ -140,10 +140,19 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 25 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-06-15 — 2026-06-18 <span class="hn-row-sep">·</span> 550 stories <span class="hn-row-sep">·</span> 4 days</span>
+<span class='hn-week-meta'>2026-06-15 — 2026-06-19 <span class="hn-row-sep">·</span> 599 stories <span class="hn-row-sep">·</span> 5 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
+<div class='hn-day-row'>
+<div class='hn-day-date'>2026-06-19 <span class='hn-day-weekday'>Fri</span></div>
+<div class='hn-day-stories'>
+<a class='hn-story-link' href='/hackernews/2026/06/19/top_stories_06192026'>
+<span class='hn-row-type hn-type-top'>Trending</span>
+<span class='hn-row-detail'>All <b>49</b> <span class="hn-row-sep">·</span> Programming <b>12</b> <span class="hn-row-sep">·</span> AI <b>8</b></span>
+</a>
+</div>
+</div>
 <div class='hn-day-row'>
 <div class='hn-day-date'>2026-06-18 <span class='hn-day-weekday'>Thu</span></div>
 <div class='hn-day-stories'>
@@ -513,7 +522,7 @@ Sort:
 <details class='hn-week-group'>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 21</span>
-<span class='hn-week-meta'>2026-05-20 — 2026-05-24 <span class="hn-row-sep">·</span> 750 stories <span class="hn-row-sep">·</span> 5 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
+<span class='hn-week-meta'>2026-05-21 — 2026-05-24 <span class="hn-row-sep">·</span> 600 stories <span class="hn-row-sep">·</span> 4 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
 </summary>
 <div class='hn-week-content'>
 <a class='hn-story-link hn-weekly-digest-link' href='/hackernews/weekly/2026-W21'>
@@ -570,19 +579,6 @@ Sort:
 <a class='hn-story-link' href='/hackernews/2026/05/21/top_stories_05212026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
 <span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>28</b> <span class="hn-row-sep">·</span> AI <b>23</b></span>
-</a>
-</div>
-</div>
-<div class='hn-day-row'>
-<div class='hn-day-date'>2026-05-20 <span class='hn-day-weekday'>Wed</span></div>
-<div class='hn-day-stories'>
-<a class='hn-story-link' href='/hackernews/2026/05/20/best_stories_05202026'>
-<span class='hn-row-type hn-type-best'>Daily Best</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>19</b> <span class="hn-row-sep">·</span> Web <b>9</b></span>
-</a>
-<a class='hn-story-link' href='/hackernews/2026/05/20/top_stories_05202026'>
-<span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>35</b> <span class="hn-row-sep">·</span> Programming <b>28</b></span>
 </a>
 </div>
 </div>
