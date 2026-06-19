@@ -4,19 +4,19 @@
     "source": "https://news.ycombinator.com/",
     "api": "https://github.com/HackerNews/API",
     "count_requested": 50,
-    "count_written": 49,
-    "reused_same_day": 0,
-    "reused_cross_day": 37,
-    "new_llm_enriched": 12,
-    "scrape_time_display": "03:47, June 19, 2026 (PDT)",
+    "count_written": 58,
+    "reused_same_day": 40,
+    "reused_cross_day": 0,
+    "new_llm_enriched": 8,
+    "scrape_time_display": "09:31, June 19, 2026 (PDT)",
     "timezone": "America/Los_Angeles",
     "date_dir": "2026/06/19",
     "content_date": "2026-06-19",
-    "run_time_local": "03:47, June 19, 2026 (PDT)",
-    "run_time_utc": "2026-06-19 10:47:22 UTC",
+    "run_time_local": "09:31, June 19, 2026 (PDT)",
+    "run_time_utc": "2026-06-19 16:31:28 UTC",
     "incremental": true,
     "stories_max": 100,
-    "hot_score_time_utc": "2026-06-19 10:48:36 UTC"
+    "hot_score_time_utc": "2026-06-19 16:32:30 UTC"
   },
   "items": [
     {
@@ -31,59 +31,84 @@
         "id": 48595511,
         "type": "story",
         "by": "philonoist",
-        "score": 151,
-        "descendants": 69,
+        "score": 393,
+        "descendants": 228,
         "time": 1781850957,
         "comments_url": "https://news.ycombinator.com/item?id=48595511"
       },
-      "hot_score": 5.6,
       "tags": [
         "Programming"
-      ]
-    },
-    {
-      "title_en": "Many Let's Encrypt renewals had errors today",
-      "url": "https://letsencrypt.status.io/#2026",
-      "title_zh": "今日大量 Let's Encrypt 续期出现错误",
-      "created_display": "Created: Jun 18, 2026 / 21:18 PT",
-      "image_url": "https://image.status.io/ZsUlrVAwD16p.png",
-      "summary_en": "A broad outage of automated certificate renewals caused widespread renewal failures, stressing the importance of monitoring, backup plans, and redundancy in PKI automation. It underscores the fragility of self-signed or automated processes in securing TLS.",
-      "summary_zh": "今日 Let’s Encrypt 自动续期普遍出错，导致大量证书续期失败。事件凸显自动化 PKI 流程的脆弱性，需要更健全的监控、回退策略与冗余设计。",
-      "hn": {
-        "id": 48594715,
-        "type": "story",
-        "by": "widdakay",
-        "score": 144,
-        "descendants": 92,
-        "time": 1781842689,
-        "comments_url": "https://news.ycombinator.com/item?id=48594715"
-      },
-      "tags": [
-        "Security"
       ],
-      "hot_score": 3.03
+      "hot_score": 4.51
     },
     {
-      "title_en": "Ice water drowning survival of young patient (2025)",
-      "url": "https://www.jacc.org/doi/10.1016/j.jaccas.2025.104885",
-      "title_zh": "冰水溺水后年轻患者存活病例（2025）",
-      "created_display": "Created: Jun 18, 2026 / 20:50 PT",
+      "title_en": "The room the economy can't see",
+      "url": "https://wilsoniumite.com/2026/06/19/the-room-the-economy-cant-see/",
+      "title_zh": "经济看不见的角落",
+      "created_display": "Created: Jun 19, 2026 / 03:16 PT",
       "image_url": null,
-      "summary_en": "A case report documents a young patient who survived drowning after ice-water immersion with a favorable neurological outcome. It reinforces that cold exposure can extend the window for resuscitation and underscores the importance of rapid CPR and high-quality post-resuscitation care.",
-      "summary_zh": "本病例报道记录了一名年轻溺水者在冰水中生还并获得良好神经功能结果。研究强调寒冷水体的保护性影响可能延长复苏窗口，并凸显快速高质量 CPR 与事后护理的重要性。",
+      "summary_en": "Explores parts of the economy that traditional metrics fail to capture, such as informal work and shadow activity, arguing for richer data to reveal the true economic landscape. It invites reconsideration of how we measure growth and well-being.",
+      "summary_zh": "讨论传统经济统计无法覆盖的领域，如非正式就业和影子经济，呼吁使用更丰富的数据来描绘真实的经济格局。文章促使人们重新思考经济增长与福利的衡量方式。",
       "hn": {
-        "id": 48594592,
+        "id": 48596911,
         "type": "story",
-        "by": "js2",
-        "score": 155,
-        "descendants": 99,
-        "time": 1781841025,
-        "comments_url": "https://news.ycombinator.com/item?id=48594592"
+        "by": "Wilsoniumite",
+        "score": 193,
+        "descendants": 201,
+        "time": 1781864180,
+        "comments_url": "https://news.ycombinator.com/item?id=48596911"
       },
       "tags": [
-        "Health"
+        "Data"
       ],
-      "hot_score": 2.97
+      "hot_score": 4.28
+    },
+    {
+      "title_en": "Norway greenlights first full-scale ship tunnel",
+      "url": "https://eandt.theiet.org/2026/06/18/norway-greenlights-world-s-first-full-scale-ship-tunnel",
+      "title_zh": "挪威批准全球首座全尺度船舶隧道",
+      "created_display": "Created: Jun 19, 2026 / 03:16 PT",
+      "image_url": null,
+      "summary_en": "Norway approves the first full-scale ship tunnel, a massive civil engineering project to re-route maritime traffic inland. The tunnel promises energy and emissions savings, smoother shipping routes, and a case study in large-scale infrastructure.",
+      "summary_zh": "挪威批准全球首座全尺度船舶隧道，这是一个将海上航线部分改造为陆地通道的巨大工程。隧道有望降低能耗与排放、优化航道并成为大型基础设施的实践案例。",
+      "hn": {
+        "id": 48596910,
+        "type": "story",
+        "by": "geox",
+        "score": 100,
+        "descendants": 57,
+        "time": 1781864170,
+        "comments_url": "https://news.ycombinator.com/item?id=48596910"
+      },
+      "tags": [
+        "Energy",
+        "Science",
+        "DevOps"
+      ],
+      "hot_score": 2.21
+    },
+    {
+      "title_en": "I found 10k GitHub repositories distributing Trojan malware",
+      "url": "https://orchidfiles.com/github-repositories-distributing-malware/",
+      "title_zh": "我发现一万多个 GitHub 仓库在分发木马恶意软件",
+      "created_display": "Created: Jun 18, 2026 / 04:45 PT",
+      "image_url": null,
+      "summary_en": "A collection of about 10,000 GitHub repositories distributing Trojan malware highlights the scale of malware hosted on code platforms. It underscores the importance of supply-chain security and rigorous review of dependencies when building software.",
+      "summary_zh": "大约一万多个 GitHub 仓库被发现用于传播木马恶意软件，揭示代码托管平台上恶意分发的规模。这凸显了在构建软件时加强供应链安全和依赖审查的重要性。",
+      "hn": {
+        "id": 48583928,
+        "type": "story",
+        "by": "theorchid",
+        "score": 891,
+        "descendants": 234,
+        "time": 1781783143,
+        "comments_url": "https://news.ycombinator.com/item?id=48583928"
+      },
+      "tags": [
+        "Security",
+        "Programming"
+      ],
+      "hot_score": 1.86
     },
     {
       "title_en": "Swiss parliament lifts ban on new nuclear power plants",
@@ -107,76 +132,7 @@
         "Politics",
         "Security"
       ],
-      "hot_score": 2.79
-    },
-    {
-      "title_en": "I found 10k GitHub repositories distributing Trojan malware",
-      "url": "https://orchidfiles.com/github-repositories-distributing-malware/",
-      "title_zh": "我发现一万多个 GitHub 仓库在分发木马恶意软件",
-      "created_display": "Created: Jun 18, 2026 / 04:45 PT",
-      "image_url": null,
-      "summary_en": "A collection of about 10,000 GitHub repositories distributing Trojan malware highlights the scale of malware hosted on code platforms. It underscores the importance of supply-chain security and rigorous review of dependencies when building software.",
-      "summary_zh": "大约一万多个 GitHub 仓库被发现用于传播木马恶意软件，揭示代码托管平台上恶意分发的规模。这凸显了在构建软件时加强供应链安全和依赖审查的重要性。",
-      "hn": {
-        "id": 48583928,
-        "type": "story",
-        "by": "theorchid",
-        "score": 809,
-        "descendants": 211,
-        "time": 1781783143,
-        "comments_url": "https://news.ycombinator.com/item?id=48583928"
-      },
-      "tags": [
-        "Security",
-        "Programming"
-      ],
-      "hot_score": 2.45
-    },
-    {
-      "title_en": "Show HN: Are You in the Weights?",
-      "url": "https://www.intheweights.com/",
-      "title_zh": "Show HN：Are You in the Weights?",
-      "created_display": "Created: Jun 18, 2026 / 13:49 PT",
-      "image_url": "https://intheweights.com/og-tappin.png",
-      "summary_en": "Show HN presents a project centered on model weights, inviting the community to explore, audit, or contribute to a weights-focused tool or dataset.",
-      "summary_zh": "Show HN 展示了一个聚焦模型权重的项目，邀请社区参与探索、审阅或为一个权重相关的工具或数据集贡献。",
-      "hn": {
-        "id": 48591348,
-        "type": "story",
-        "by": "turtlesoup",
-        "score": 352,
-        "descendants": 206,
-        "time": 1781815743,
-        "comments_url": "https://news.ycombinator.com/item?id=48591348"
-      },
-      "tags": [
-        "Show HN",
-        "AI",
-        "Data"
-      ],
-      "hot_score": 2.39
-    },
-    {
-      "title_en": "So You Want to Define a Well-Known URI",
-      "url": "https://mnot.net/blog/2026/well_known_uris",
-      "title_zh": "如何定义一个 well-known URI",
-      "created_display": "Created: Jun 18, 2026 / 23:05 PT",
-      "image_url": "https://mnot.net/blog/image/sign.jpeg",
-      "summary_en": "Well-known URIs are standardized endpoints for exposing configuration and metadata across services.",
-      "summary_zh": "well-known URI 是用于在服务间暴露配置与元数据的标准化端点。这篇文章给出实践准则、常见坑点以及在指定和记录这些端点时的安全考量。",
-      "hn": {
-        "id": 48595331,
-        "type": "story",
-        "by": "ingve",
-        "score": 70,
-        "descendants": 35,
-        "time": 1781849101,
-        "comments_url": "https://news.ycombinator.com/item?id=48595331"
-      },
-      "hot_score": 2.23,
-      "tags": [
-        "Web"
-      ]
+      "hot_score": 1.85
     },
     {
       "title_en": "Midjourney Medical",
@@ -190,8 +146,8 @@
         "id": 48579650,
         "type": "story",
         "by": "ricochet11",
-        "score": 1307,
-        "descendants": 849,
+        "score": 1323,
+        "descendants": 856,
         "time": 1781747991,
         "comments_url": "https://news.ycombinator.com/item?id=48579650"
       },
@@ -200,30 +156,30 @@
         "Health",
         "Privacy"
       ],
-      "hot_score": 2.19
+      "hot_score": 1.69
     },
     {
-      "title_en": "I told them forced consent was unlawful. 5 years later it cost Elkjop €1.8M",
-      "url": "https://www.thatprivacyguy.com/blog/elkjop-forced-consent-fine/",
-      "title_zh": "我曾告诉他们强制同意违法，5年后 Elkjøp 被罚 180 万欧元",
-      "created_display": "Created: Jun 18, 2026 / 11:31 PT",
-      "image_url": "https://www.thatprivacyguy.com/blog/assets/2026-06-18-001.png",
-      "summary_en": "Forcing user consent is unlawful and can trigger hefty penalties; this case shows a retailer paying €1.8M five years later. The outcome underscores the necessity of informed, freely given, and revocable consent, plus robust privacy-by-design practices.",
-      "summary_zh": "强制获取用户同意违反法律，最终导致高额罚款；该案五年后 Elkjøp 被处以 €180 万罚金，凸显知情、自由且可撤销同意的重要性，以及以隐私为设计核心的合规实践。",
+      "title_en": "Show HN: Are You in the Weights?",
+      "url": "https://www.intheweights.com/",
+      "title_zh": "Show HN：Are You in the Weights?",
+      "created_display": "Created: Jun 18, 2026 / 13:49 PT",
+      "image_url": "https://intheweights.com/og-tappin.png",
+      "summary_en": "Show HN presents a project centered on model weights, inviting the community to explore, audit, or contribute to a weights-focused tool or dataset.",
+      "summary_zh": "Show HN 展示了一个聚焦模型权重的项目，邀请社区参与探索、审阅或为一个权重相关的工具或数据集贡献。",
       "hn": {
-        "id": 48589501,
+        "id": 48591348,
         "type": "story",
-        "by": "speckx",
-        "score": 399,
-        "descendants": 240,
-        "time": 1781807483,
-        "comments_url": "https://news.ycombinator.com/item?id=48589501"
+        "by": "turtlesoup",
+        "score": 417,
+        "descendants": 230,
+        "time": 1781815743,
+        "comments_url": "https://news.ycombinator.com/item?id=48591348"
       },
       "tags": [
-        "Privacy",
-        "Legal"
+        "Show HN",
+        "Data"
       ],
-      "hot_score": 2.13
+      "hot_score": 1.63
     },
     {
       "title_en": "Microsoft new Outlook takes 10 seconds to do what Outlook Classic does instantly",
@@ -237,15 +193,128 @@
         "id": 48584207,
         "type": "story",
         "by": "Adam-Hincu",
-        "score": 669,
-        "descendants": 447,
+        "score": 696,
+        "descendants": 490,
         "time": 1781785145,
         "comments_url": "https://news.ycombinator.com/item?id=48584207"
       },
       "tags": [
-        "Business"
+        "Design"
       ],
-      "hot_score": 2.11
+      "hot_score": 1.5
+    },
+    {
+      "title_en": "Ice water drowning survival of young patient (2025)",
+      "url": "https://www.jacc.org/doi/10.1016/j.jaccas.2025.104885",
+      "title_zh": "冰水溺水后年轻患者存活病例（2025）",
+      "created_display": "Created: Jun 18, 2026 / 20:50 PT",
+      "image_url": null,
+      "summary_en": "A case report documents a young patient who survived drowning after ice-water immersion with a favorable neurological outcome. It reinforces that cold exposure can extend the window for resuscitation and underscores the importance of rapid CPR and high-quality post-resuscitation care.",
+      "summary_zh": "本病例报道记录了一名年轻溺水者在冰水中生还并获得良好神经功能结果。研究强调寒冷水体的保护性影响可能延长复苏窗口，并凸显快速高质量 CPR 与事后护理的重要性。",
+      "hn": {
+        "id": 48594592,
+        "type": "story",
+        "by": "js2",
+        "score": 187,
+        "descendants": 122,
+        "time": 1781841025,
+        "comments_url": "https://news.ycombinator.com/item?id=48594592"
+      },
+      "tags": [
+        "Health"
+      ],
+      "hot_score": 1.47
+    },
+    {
+      "title_en": "I told them forced consent was unlawful. 5 years later it cost Elkjop €1.8M",
+      "url": "https://www.thatprivacyguy.com/blog/elkjop-forced-consent-fine/",
+      "title_zh": "我曾告诉他们强制同意违法，5年后 Elkjøp 被罚 180 万欧元",
+      "created_display": "Created: Jun 18, 2026 / 11:31 PT",
+      "image_url": "https://www.thatprivacyguy.com/blog/assets/2026-06-18-001.png",
+      "summary_en": "Forcing user consent is unlawful and can trigger hefty penalties; this case shows a retailer paying €1.8M five years later. The outcome underscores the necessity of informed, freely given, and revocable consent, plus robust privacy-by-design practices.",
+      "summary_zh": "强制获取用户同意违反法律，最终导致高额罚款；该案五年后 Elkjøp 被处以 €180 万罚金，凸显知情、自由且可撤销同意的重要性，以及以隐私为设计核心的合规实践。",
+      "hn": {
+        "id": 48589501,
+        "type": "story",
+        "by": "speckx",
+        "score": 433,
+        "descendants": 277,
+        "time": 1781807483,
+        "comments_url": "https://news.ycombinator.com/item?id=48589501"
+      },
+      "tags": [
+        "Privacy",
+        "Legal"
+      ],
+      "hot_score": 1.41
+    },
+    {
+      "title_en": "So You Want to Define a Well-Known URI",
+      "url": "https://mnot.net/blog/2026/well_known_uris",
+      "title_zh": "如何定义一个 well-known URI",
+      "created_display": "Created: Jun 18, 2026 / 23:05 PT",
+      "image_url": "https://mnot.net/blog/image/sign.jpeg",
+      "summary_en": "Well-known URIs are standardized endpoints for exposing configuration and metadata across services.",
+      "summary_zh": "well-known URI 是用于在服务间暴露配置与元数据的标准化端点。这篇文章给出实践准则、常见坑点以及在指定和记录这些端点时的安全考量。",
+      "hn": {
+        "id": 48595331,
+        "type": "story",
+        "by": "ingve",
+        "score": 125,
+        "descendants": 74,
+        "time": 1781849101,
+        "comments_url": "https://news.ycombinator.com/item?id=48595331"
+      },
+      "tags": [
+        "Web"
+      ],
+      "hot_score": 1.32
+    },
+    {
+      "title_en": "The AirPods Effect",
+      "url": "https://www.theescapenewsletter.com/p/the-airpods-effect",
+      "title_zh": "AirPods 效应",
+      "created_display": "Created: Jun 18, 2026 / 16:08 PT",
+      "image_url": "https://images.unsplash.com/photo-1695112956255-8878a4443236?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMDAzMzh8MHwxfHNlYXJjaHwyfHxhaXJwb2RzJTIwd29tYW4lMjBidXN8ZW58MHx8fHwxNzc5MjcwNzA2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "summary_en": "The AirPods effect reshaped consumer expectations around wireless audio, battery life, and device interoperability. It spurred rapid adoption of true wireless design, influenced accessory ecosystems, and shifted how tech brands think about on-device interactions.",
+      "summary_zh": "AirPods 效应改变了消费者对无线音频、续航与设备互操作性的预期，推动了真无线设计的快速普及并影响周边生态。它也促使厂商重新思考设备交互的设计与生态策略。",
+      "hn": {
+        "id": 48592832,
+        "type": "story",
+        "by": "herbertl",
+        "score": 262,
+        "descendants": 470,
+        "time": 1781824115,
+        "comments_url": "https://news.ycombinator.com/item?id=48592832"
+      },
+      "tags": [
+        "Design",
+        "Hardware",
+        "Energy"
+      ],
+      "hot_score": 1.26
+    },
+    {
+      "title_en": "Many Let's Encrypt renewals had errors today",
+      "url": "https://letsencrypt.status.io/#2026",
+      "title_zh": "今日大量 Let's Encrypt 续期出现错误",
+      "created_display": "Created: Jun 18, 2026 / 21:18 PT",
+      "image_url": "https://image.status.io/ZsUlrVAwD16p.png",
+      "summary_en": "A broad outage of automated certificate renewals caused widespread renewal failures, stressing the importance of monitoring, backup plans, and redundancy in PKI automation. It underscores the fragility of self-signed or automated processes in securing TLS.",
+      "summary_zh": "今日 Let’s Encrypt 自动续期普遍出错，导致大量证书续期失败。事件凸显自动化 PKI 流程的脆弱性，需要更健全的监控、回退策略与冗余设计。",
+      "hn": {
+        "id": 48594715,
+        "type": "story",
+        "by": "widdakay",
+        "score": 144,
+        "descendants": 92,
+        "time": 1781842689,
+        "comments_url": "https://news.ycombinator.com/item?id=48594715"
+      },
+      "tags": [
+        "Security"
+      ],
+      "hot_score": 1.2
     },
     {
       "title_en": "The founder of Craigslist has given away half a billion dollars",
@@ -267,30 +336,7 @@
       "tags": [
         "Business"
       ],
-      "hot_score": 1.69
-    },
-    {
-      "title_en": "Zero-Touch OAuth for MCP",
-      "url": "https://blog.modelcontextprotocol.io/posts/enterprise-managed-auth/",
-      "title_zh": "MCP 的零触控 OAuth",
-      "created_display": "Created: Jun 18, 2026 / 14:54 PT",
-      "image_url": "https://blog.modelcontextprotocol.io/og-image.png",
-      "summary_en": "Zero-Touch OAuth for MCP introduces an enterprise-friendly OAuth flow that provisions tokens and apps with minimal human intervention. It emphasizes automated onboarding, device registration, and policy-driven access controls to reduce friction while preserving security. This approach helps large organizations deploy cloud-native apps faster without compromising governance.",
-      "summary_zh": "零触控 OAuth 为 MCP 提供面向企业的简化认证流程，尽量减少人工配置即可完成令牌和应用的注册。强调自动化的上线流程、设备注册与基于策略的访问控制，在降低运维成本的同时保持安全性。对于需要快速部署云原生应用的大型组织尤为重要。",
-      "hn": {
-        "id": 48592163,
-        "type": "story",
-        "by": "niyikiza",
-        "score": 201,
-        "descendants": 66,
-        "time": 1781819650,
-        "comments_url": "https://news.ycombinator.com/item?id=48592163"
-      },
-      "tags": [
-        "Security",
-        "DevOps"
-      ],
-      "hot_score": 1.54
+      "hot_score": 1.07
     },
     {
       "title_en": "Emacs 31 is around the corner: The changes I'm daily driving",
@@ -304,38 +350,38 @@
         "id": 48584135,
         "type": "story",
         "by": "frou_dh",
-        "score": 442,
-        "descendants": 255,
+        "score": 452,
+        "descendants": 264,
         "time": 1781784653,
         "comments_url": "https://news.ycombinator.com/item?id=48584135"
       },
       "tags": [
         "Programming"
       ],
-      "hot_score": 1.38
+      "hot_score": 0.97
     },
     {
-      "title_en": "Ubiquiti: Enterprise NAS, Built on ZFS",
-      "url": "https://blog.ui.com/article/introducing-enterprise-nas",
-      "title_zh": "Ubiquiti：企业级 NAS，基于 ZFS",
-      "created_display": "Created: Jun 18, 2026 / 07:24 PT",
-      "image_url": "https://cdn.blog.svc.ui.com/ENAS_Thumb_5f1852f45c.jpg",
-      "summary_en": "Ubiquiti announces an enterprise NAS built on ZFS, emphasizing data integrity, snapshots, and scalable storage for SMBs. The product signals growing interest in software-defined storage among cost-conscious businesses.",
-      "summary_zh": "Ubiquiti 推出基于 ZFS 的企业级 NAS，强调数据完整性、快照功能与可扩展存储，面向中小企业。此举显示成本敏感型企业对软件定义存储兴趣上升。",
+      "title_en": "Zero-Touch OAuth for MCP",
+      "url": "https://blog.modelcontextprotocol.io/posts/enterprise-managed-auth/",
+      "title_zh": "MCP 的零触控 OAuth",
+      "created_display": "Created: Jun 18, 2026 / 14:54 PT",
+      "image_url": "https://blog.modelcontextprotocol.io/og-image.png",
+      "summary_en": "Zero-Touch OAuth for MCP introduces an enterprise-friendly OAuth flow that provisions tokens and apps with minimal human intervention. It emphasizes automated onboarding, device registration, and policy-driven access controls to reduce friction while preserving security. This approach helps large organizations deploy cloud-native apps faster without compromising governance.",
+      "summary_zh": "零触控 OAuth 为 MCP 提供面向企业的简化认证流程，尽量减少人工配置即可完成令牌和应用的注册。强调自动化的上线流程、设备注册与基于策略的访问控制，在降低运维成本的同时保持安全性。对于需要快速部署云原生应用的大型组织尤为重要。",
       "hn": {
-        "id": 48585866,
+        "id": 48592163,
         "type": "story",
-        "by": "ksec",
-        "score": 345,
-        "descendants": 297,
-        "time": 1781792670,
-        "comments_url": "https://news.ycombinator.com/item?id=48585866"
+        "by": "niyikiza",
+        "score": 226,
+        "descendants": 88,
+        "time": 1781819650,
+        "comments_url": "https://news.ycombinator.com/item?id=48592163"
       },
       "tags": [
-        "Hardware",
-        "Data"
+        "Security",
+        "Programming"
       ],
-      "hot_score": 1.28
+      "hot_score": 0.97
     },
     {
       "title_en": ".gitignore Isn't the only way to ignore files in Git",
@@ -349,15 +395,244 @@
         "id": 48583356,
         "type": "story",
         "by": "FergusArgyll",
-        "score": 428,
-        "descendants": 132,
+        "score": 491,
+        "descendants": 155,
         "time": 1781778560,
         "comments_url": "https://news.ycombinator.com/item?id=48583356"
       },
       "tags": [
         "Programming"
       ],
-      "hot_score": 1.19
+      "hot_score": 0.95
+    },
+    {
+      "title_en": "Ubiquiti: Enterprise NAS, Built on ZFS",
+      "url": "https://blog.ui.com/article/introducing-enterprise-nas",
+      "title_zh": "Ubiquiti：企业级 NAS，基于 ZFS",
+      "created_display": "Created: Jun 18, 2026 / 07:24 PT",
+      "image_url": "https://cdn.blog.svc.ui.com/ENAS_Thumb_5f1852f45c.jpg",
+      "summary_en": "Ubiquiti announces an enterprise NAS built on ZFS, emphasizing data integrity, snapshots, and scalable storage for SMBs. The product signals growing interest in software-defined storage among cost-conscious businesses.",
+      "summary_zh": "Ubiquiti 推出基于 ZFS 的企业级 NAS，强调数据完整性、快照功能与可扩展存储，面向中小企业。此举显示成本敏感型企业对软件定义存储兴趣上升。",
+      "hn": {
+        "id": 48585866,
+        "type": "story",
+        "by": "ksec",
+        "score": 383,
+        "descendants": 317,
+        "time": 1781792670,
+        "comments_url": "https://news.ycombinator.com/item?id=48585866"
+      },
+      "tags": [
+        "Hardware",
+        "Open Source"
+      ],
+      "hot_score": 0.94
+    },
+    {
+      "title_en": "CS 6120: Advanced Compilers: The Self-Guided Online Course (2020)",
+      "url": "https://www.cs.cornell.edu/courses/cs6120/2025fa/self-guided/",
+      "title_zh": "高级编译器：自学在线课程",
+      "created_display": "Created: Jun 18, 2026 / 04:04 PT",
+      "image_url": null,
+      "summary_en": "Cornell's Advanced Compilers self-guided online course offers deep dives into optimization, intermediate representations, and code generation, with hands-on exercises you can tackle at your own pace. It's a solid resource for researchers and senior developers aiming to master modern compiler tech.",
+      "summary_zh": "康奈尔大学的高级编译器自学课程提供对优化、中间表示和代码生成的深入讲解，并配有可自学的动手练习。对于研究人员和资深开发者而言，是掌握现代编译技术的扎实资源。",
+      "hn": {
+        "id": 48583606,
+        "type": "story",
+        "by": "ibobev",
+        "score": 406,
+        "descendants": 57,
+        "time": 1781780671,
+        "comments_url": "https://news.ycombinator.com/item?id=48583606"
+      },
+      "tags": [
+        "Education",
+        "Programming"
+      ],
+      "hot_score": 0.82
+    },
+    {
+      "title_en": "EU to soon classify AWS and Azure as gatekeepers under DSA",
+      "url": "https://www.heise.de/en/news/Report-EU-to-soon-classify-AWS-and-Azure-as-gatekeepers-under-DSA-11337873.html",
+      "title_zh": "欧盟将很快把 AWS 与 Azure 列为 DSA 下的守门人",
+      "created_display": "Created: Jun 19, 2026 / 02:28 PT",
+      "image_url": "https://heise.cloudimg.io/bound/1200x1200/q85.png-lossy-85.webp-lossy-85.foil1/_www-heise-de_/imgs/18/5/1/0/3/2/6/0/shutterstock_1928082863-4c7b8471cf19c749.jpg",
+      "summary_en": "EU regulators are set to classify AWS and Azure as gatekeepers under the DSA, signaling that dominant cloud platforms will face stricter obligations around data access, interoperability, and anti-competitive practices. The move could reshape cloud competition and push major providers toward more open ecosystems.",
+      "summary_zh": "欧盟监管机构拟将 AWS 与 Azure列为 DSA 下的守门人，要求在数据访问、互操作性和反竞争方面承担更严格的义务。此举或将改变云服务市场的竞争格局，推动建立更开放的生态系统。",
+      "hn": {
+        "id": 48596622,
+        "type": "story",
+        "by": "snowpid",
+        "score": 39,
+        "descendants": 15,
+        "time": 1781861302,
+        "comments_url": "https://news.ycombinator.com/item?id=48596622"
+      },
+      "hot_score": 0.72,
+      "tags": [
+        "Politics",
+        "Legal"
+      ]
+    },
+    {
+      "title_en": "Why Do So Many Everyday Systems Feel Harder to Use Now?",
+      "url": "https://therealitydrift.substack.com/p/reality-drift-in-everyday-life",
+      "title_zh": "为何日常系统如今越来越难用？",
+      "created_display": "Created: Jun 19, 2026 / 08:33 PT",
+      "image_url": null,
+      "summary_en": "Explores the growing sense that everyday software systems have become harder to use, despite more capable technology. The piece argues that design drift, feature bloat, and changing expectations create misaligned mental models, and suggests ways to restore predictability and usability.",
+      "summary_zh": "作者探讨日常软件系统为何越来越难用，尽管技术更强大。设计漂移、功能臃肿与不断变化的期望打破了人们的心智模型，提出通过更可预测的设计和清晰的导航来提升易用性。",
+      "hn": {
+        "id": 48599776,
+        "type": "story",
+        "by": "realitydrift",
+        "score": 6,
+        "descendants": 6,
+        "time": 1781883219,
+        "comments_url": "https://news.ycombinator.com/item?id=48599776"
+      },
+      "hot_score": 0.7,
+      "tags": [
+        "Design"
+      ]
+    },
+    {
+      "title_en": "Datasette Apps: Host custom HTML applications inside Datasette",
+      "url": "https://simonwillison.net/2026/Jun/18/datasette-apps/",
+      "title_zh": "Datasette 应用：在 Datasette 内托管自定义 HTML 应用",
+      "created_display": "Created: Jun 18, 2026 / 18:06 PT",
+      "image_url": "https://static.simonwillison.net/static/2026/datasette-apps-card.jpg",
+      "summary_en": "Datasette now supports embedding custom HTML apps within a Datasette instance, enabling richer, self-contained data apps around datasets. This lowers the barrier to building dashboards and tools without separate hosting.",
+      "summary_zh": "Datasette App 让用户在 Datasette 实例中托管自定义 HTML 应用，允许在数据集周围构建更丰富的一体化应用。这降低了搭建仪表板和工具的门槛，无需额外托管。",
+      "hn": {
+        "id": 48593731,
+        "type": "story",
+        "by": "lumpa",
+        "score": 118,
+        "descendants": 50,
+        "time": 1781831187,
+        "comments_url": "https://news.ycombinator.com/item?id=48593731"
+      },
+      "tags": [
+        "Data",
+        "Web"
+      ],
+      "hot_score": 0.68
+    },
+    {
+      "title_en": "Modos Color Monitor Pushes E-Paper Displays Further",
+      "url": "https://spectrum.ieee.org/modos-e-paper-monitor",
+      "title_zh": "Modos 彩色显示器推动电子纸显示屏进一步发展",
+      "created_display": "Created: Jun 18, 2026 / 04:41 PT",
+      "image_url": "https://spectrum.ieee.org/media-library/image.jpg?id=66946972&width=1200&height=600&coordinates=0%2C275%2C0%2C975",
+      "summary_en": "Modos Color Monitor introduces a color e-paper display, pushing low-power, high-contrast visuals toward more practical use cases like dashboards and signage. The development widens the scope of e-paper beyond static text.",
+      "summary_zh": "Modos 彩色显示器带来彩色电子纸，实现低功耗、对比度高的显示，拓展了在仪表板和标牌等场景的应用。电子纸的用途因此更加丰富。",
+      "hn": {
+        "id": 48583897,
+        "type": "story",
+        "by": "Vinnl",
+        "score": 321,
+        "descendants": 73,
+        "time": 1781782881,
+        "comments_url": "https://news.ycombinator.com/item?id=48583897"
+      },
+      "tags": [
+        "Hardware"
+      ],
+      "hot_score": 0.67
+    },
+    {
+      "title_en": "Hospitals and universities repurposing drugs at lower cost",
+      "url": "https://www.kcl.ac.uk/news/hospitals-and-universities-repurposing-drugs-at-90-lower-cost",
+      "title_zh": "医院与高校以约90%成本进行药物再利用",
+      "created_display": "Created: Jun 18, 2026 / 03:33 PT",
+      "image_url": "https://www.kcl.ac.uk/newimages/folsm/main-article/bmb/immunotherapy.x188e82a2.png",
+      "summary_en": "Hospitals and universities are repurposing existing drugs to cut treatment costs by up to about 90%, enabling broader access and faster deployment of therapies. The approach raises regulatory and safety considerations, but could reshape drug affordability.",
+      "summary_zh": "医院与高校通过对现有药物进行再利用，治疗成本大幅下降，降幅可达约 90%，从而提升治疗可及性。该做法涉及监管与安全考量，但可能改变药物的可负担性。",
+      "hn": {
+        "id": 48583386,
+        "type": "story",
+        "by": "giuliomagnifico",
+        "score": 323,
+        "descendants": 153,
+        "time": 1781778802,
+        "comments_url": "https://news.ycombinator.com/item?id=48583386"
+      },
+      "tags": [
+        "Health",
+        "Science",
+        "Politics"
+      ],
+      "hot_score": 0.63
+    },
+    {
+      "title_en": "US court rules Ohio can restrict children's use of social media",
+      "url": "https://www.reuters.com/world/us/us-court-rules-ohio-can-restrict-childrens-use-social-media-2026-06-18/",
+      "title_zh": "美国法院裁定俄亥俄州可限制儿童使用社交媒体",
+      "created_display": "Created: Jun 19, 2026 / 04:35 PT",
+      "image_url": null,
+      "summary_en": "An Ohio policy limiting children's access to social media was upheld by a US court, marking a notable endorsement of state-level controls for minors online. The ruling highlights ongoing debates over digital safety, parental authority, and platform responsibilities.",
+      "summary_zh": "法院裁定俄亥俄州可以限制未成年人使用社交媒体，显示出州层面对青少年网络安全的潜在新方向。这一裁决凸显了数字安全、家长监管与平台在年龄限制方面的责任之间的持续辩论。",
+      "hn": {
+        "id": 48597431,
+        "type": "story",
+        "by": "1vuio0pswjnm7",
+        "score": 20,
+        "descendants": 13,
+        "time": 1781868919,
+        "comments_url": "https://news.ycombinator.com/item?id=48597431"
+      },
+      "hot_score": 0.58,
+      "tags": [
+        "Politics",
+        "Legal"
+      ]
+    },
+    {
+      "title_en": "W Social, public institutions and the theater of European digital sovereignty",
+      "url": "https://blog.elenarossini.com/w-social-public-institutions-and-the-theater-of-european-digital-sovereignty/",
+      "title_zh": "W Social、公共机构与欧洲数字主权的舞台",
+      "created_display": "Created: Jun 18, 2026 / 05:46 PT",
+      "image_url": "https://blog.elenarossini.com/content/images/size/w1200/2026/06/WSocial-followup-cover-v4.jpg",
+      "summary_en": "The piece argues that public institutions and platforms like W Social shape Europe’s digital sovereignty narrative, highlighting governance, data governance, and the performative politics around sovereignty. It critiques how rhetoric often masks underlying regulatory tensions.",
+      "summary_zh": "本文探讨像 W Social 这样的平台与公共机构在欧洲数字主权话语中的角色，聚焦治理、数据主权以及主权话语背后的张力。作者指出表述往往掩盖了现实中的监管冲突与政治博弈。",
+      "hn": {
+        "id": 48584497,
+        "type": "story",
+        "by": "nemoniac",
+        "score": 247,
+        "descendants": 153,
+        "time": 1781786764,
+        "comments_url": "https://news.ycombinator.com/item?id=48584497"
+      },
+      "tags": [
+        "Politics",
+        "Data"
+      ],
+      "hot_score": 0.55
+    },
+    {
+      "title_en": "Show HN: Gerrymandle - Daily puzzle game where you redraw electoral districts",
+      "url": "https://gerrymandle.cc/",
+      "title_zh": "Show HN：Gerrymandle - 每日拼图游戏，你重新绘制选区",
+      "created_display": "Created: Jun 18, 2026 / 07:16 PT",
+      "image_url": "https://gerrymandle.cc/gerrymandle/wide_yellow_blue.png",
+      "summary_en": "Show HN: Gerrymandle is a daily puzzle game where you redraw electoral districts, combining map geometry with strategic play. It’s a playful exploration of political geography and algorithmic design.",
+      "summary_zh": "Show HN：Gerrymandle 是一款每日拼图游戏，让你重新绘制选区，结合地图几何与策略玩法。它以有趣的方式展现了政治地理与算法设计。",
+      "hn": {
+        "id": 48585739,
+        "type": "story",
+        "by": "realmofthemad",
+        "score": 189,
+        "descendants": 76,
+        "time": 1781792185,
+        "comments_url": "https://news.ycombinator.com/item?id=48585739"
+      },
+      "tags": [
+        "Show HN",
+        "Gaming"
+      ],
+      "hot_score": 0.46
     },
     {
       "title_en": "Fable Converted Pylint to Rust",
@@ -376,287 +651,12 @@
         "time": 1781842867,
         "comments_url": "https://news.ycombinator.com/item?id=48594733"
       },
-      "hot_score": 1.11,
+      "hot_score": 0.44,
       "tags": [
         "Programming",
         "Open Source",
         "Hardware"
       ]
-    },
-    {
-      "title_en": "CS 6120: Advanced Compilers: The Self-Guided Online Course (2020)",
-      "url": "https://www.cs.cornell.edu/courses/cs6120/2025fa/self-guided/",
-      "title_zh": "高级编译器：自学在线课程",
-      "created_display": "Created: Jun 18, 2026 / 04:04 PT",
-      "image_url": null,
-      "summary_en": "Cornell's Advanced Compilers self-guided online course offers deep dives into optimization, intermediate representations, and code generation, with hands-on exercises you can tackle at your own pace. It's a solid resource for researchers and senior developers aiming to master modern compiler tech.",
-      "summary_zh": "康奈尔大学的高级编译器自学课程提供对优化、中间表示和代码生成的深入讲解，并配有可自学的动手练习。对于研究人员和资深开发者而言，是掌握现代编译技术的扎实资源。",
-      "hn": {
-        "id": 48583606,
-        "type": "story",
-        "by": "ibobev",
-        "score": 374,
-        "descendants": 51,
-        "time": 1781780671,
-        "comments_url": "https://news.ycombinator.com/item?id=48583606"
-      },
-      "tags": [
-        "Education",
-        "Programming"
-      ],
-      "hot_score": 1.08
-    },
-    {
-      "title_en": "Datasette Apps: Host custom HTML applications inside Datasette",
-      "url": "https://simonwillison.net/2026/Jun/18/datasette-apps/",
-      "title_zh": "Datasette 应用：在 Datasette 内托管自定义 HTML 应用",
-      "created_display": "Created: Jun 18, 2026 / 18:06 PT",
-      "image_url": "https://static.simonwillison.net/static/2026/datasette-apps-card.jpg",
-      "summary_en": "Datasette now supports embedding custom HTML apps within a Datasette instance, enabling richer, self-contained data apps around datasets. This lowers the barrier to building dashboards and tools without separate hosting.",
-      "summary_zh": "Datasette App 让用户在 Datasette 实例中托管自定义 HTML 应用，允许在数据集周围构建更丰富的一体化应用。这降低了搭建仪表板和工具的门槛，无需额外托管。",
-      "hn": {
-        "id": 48593731,
-        "type": "story",
-        "by": "lumpa",
-        "score": 84,
-        "descendants": 29,
-        "time": 1781831187,
-        "comments_url": "https://news.ycombinator.com/item?id=48593731"
-      },
-      "tags": [
-        "Open Source",
-        "Web"
-      ],
-      "hot_score": 0.99
-    },
-    {
-      "title_en": "The AirPods Effect",
-      "url": "https://www.theescapenewsletter.com/p/the-airpods-effect",
-      "title_zh": "AirPods 效应",
-      "created_display": "Created: Jun 18, 2026 / 16:08 PT",
-      "image_url": "https://images.unsplash.com/photo-1695112956255-8878a4443236?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMDAzMzh8MHwxfHNlYXJjaHwyfHxhaXJwb2RzJTIwd29tYW4lMjBidXN8ZW58MHx8fHwxNzc5MjcwNzA2fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "summary_en": "The AirPods effect reshaped consumer expectations around wireless audio, battery life, and device interoperability. It spurred rapid adoption of true wireless design, influenced accessory ecosystems, and shifted how tech brands think about on-device interactions.",
-      "summary_zh": "AirPods 效应改变了消费者对无线音频、续航与设备互操作性的预期，推动了真无线设计的快速普及并影响周边生态。它也促使厂商重新思考设备交互的设计与生态策略。",
-      "hn": {
-        "id": 48592832,
-        "type": "story",
-        "by": "herbertl",
-        "score": 107,
-        "descendants": 210,
-        "time": 1781824115,
-        "comments_url": "https://news.ycombinator.com/item?id=48592832"
-      },
-      "hot_score": 0.96,
-      "tags": [
-        "Hardware",
-        "Design",
-        "Energy"
-      ]
-    },
-    {
-      "title_en": "Hospitals and universities repurposing drugs at lower cost",
-      "url": "https://www.kcl.ac.uk/news/hospitals-and-universities-repurposing-drugs-at-90-lower-cost",
-      "title_zh": "医院与高校以约90%成本进行药物再利用",
-      "created_display": "Created: Jun 18, 2026 / 03:33 PT",
-      "image_url": "https://www.kcl.ac.uk/newimages/folsm/main-article/bmb/immunotherapy.x188e82a2.png",
-      "summary_en": "Hospitals and universities are repurposing existing drugs to cut treatment costs by up to about 90%, enabling broader access and faster deployment of therapies. The approach raises regulatory and safety considerations, but could reshape drug affordability.",
-      "summary_zh": "医院与高校通过对现有药物进行再利用，治疗成本大幅下降，降幅可达约 90%，从而提升治疗可及性。该做法涉及监管与安全考量，但可能改变药物的可负担性。",
-      "hn": {
-        "id": 48583386,
-        "type": "story",
-        "by": "giuliomagnifico",
-        "score": 312,
-        "descendants": 142,
-        "time": 1781778802,
-        "comments_url": "https://news.ycombinator.com/item?id=48583386"
-      },
-      "tags": [
-        "Health",
-        "Science",
-        "Politics"
-      ],
-      "hot_score": 0.87
-    },
-    {
-      "title_en": "Modos Color Monitor Pushes E-Paper Displays Further",
-      "url": "https://spectrum.ieee.org/modos-e-paper-monitor",
-      "title_zh": "Modos 彩色显示器推动电子纸显示屏进一步发展",
-      "created_display": "Created: Jun 18, 2026 / 04:41 PT",
-      "image_url": "https://spectrum.ieee.org/media-library/image.jpg?id=66946972&width=1200&height=600&coordinates=0%2C275%2C0%2C975",
-      "summary_en": "Modos Color Monitor introduces a color e-paper display, pushing low-power, high-contrast visuals toward more practical use cases like dashboards and signage. The development widens the scope of e-paper beyond static text.",
-      "summary_zh": "Modos 彩色显示器带来彩色电子纸，实现低功耗、对比度高的显示，拓展了在仪表板和标牌等场景的应用。电子纸的用途因此更加丰富。",
-      "hn": {
-        "id": 48583897,
-        "type": "story",
-        "by": "Vinnl",
-        "score": 285,
-        "descendants": 68,
-        "time": 1781782881,
-        "comments_url": "https://news.ycombinator.com/item?id=48583897"
-      },
-      "tags": [
-        "Hardware"
-      ],
-      "hot_score": 0.86
-    },
-    {
-      "title_en": "W Social, public institutions and the theater of European digital sovereignty",
-      "url": "https://blog.elenarossini.com/w-social-public-institutions-and-the-theater-of-european-digital-sovereignty/",
-      "title_zh": "W Social、公共机构与欧洲数字主权的舞台",
-      "created_display": "Created: Jun 18, 2026 / 05:46 PT",
-      "image_url": "https://blog.elenarossini.com/content/images/size/w1200/2026/06/WSocial-followup-cover-v4.jpg",
-      "summary_en": "The piece argues that public institutions and platforms like W Social shape Europe’s digital sovereignty narrative, highlighting governance, data governance, and the performative politics around sovereignty. It critiques how rhetoric often masks underlying regulatory tensions.",
-      "summary_zh": "本文探讨像 W Social 这样的平台与公共机构在欧洲数字主权话语中的角色，聚焦治理、数据主权以及主权话语背后的张力。作者指出表述往往掩盖了现实中的监管冲突与政治博弈。",
-      "hn": {
-        "id": 48584497,
-        "type": "story",
-        "by": "nemoniac",
-        "score": 218,
-        "descendants": 141,
-        "time": 1781786764,
-        "comments_url": "https://news.ycombinator.com/item?id=48584497"
-      },
-      "tags": [
-        "Politics",
-        "Culture"
-      ],
-      "hot_score": 0.71
-    },
-    {
-      "title_en": "Show HN: Gerrymandle - Daily puzzle game where you redraw electoral districts",
-      "url": "https://gerrymandle.cc/",
-      "title_zh": "Show HN：Gerrymandle - 每日拼图游戏，你重新绘制选区",
-      "created_display": "Created: Jun 18, 2026 / 07:16 PT",
-      "image_url": "https://gerrymandle.cc/gerrymandle/wide_yellow_blue.png",
-      "summary_en": "Show HN: Gerrymandle is a daily puzzle game where you redraw electoral districts, combining map geometry with strategic play. It’s a playful exploration of political geography and algorithmic design.",
-      "summary_zh": "Show HN：Gerrymandle 是一款每日拼图游戏，让你重新绘制选区，结合地图几何与策略玩法。它以有趣的方式展现了政治地理与算法设计。",
-      "hn": {
-        "id": 48585739,
-        "type": "story",
-        "by": "realmofthemad",
-        "score": 176,
-        "descendants": 70,
-        "time": 1781792185,
-        "comments_url": "https://news.ycombinator.com/item?id=48585739"
-      },
-      "tags": [
-        "Show HN",
-        "Gaming"
-      ],
-      "hot_score": 0.64
-    },
-    {
-      "title_en": "Migrating from GNU Stow to Chezmoi",
-      "url": "https://rednafi.com/misc/chezmoi/",
-      "title_zh": "从 GNU Stow 到 Chezmoi 的迁移",
-      "created_display": "Created: Jun 18, 2026 / 10:09 PT",
-      "image_url": "https://blob.rednafi.com/static/images/home/cover-84b7bd64087e.png",
-      "summary_en": "The piece walks through migrating from GNU Stow to Chezmoi for managing dotfiles, highlighting Chezmoi's declarative approach, cross-machine syncing, and built‑in encryption. It covers practical steps and benefits like easier templating and safer updates across devices.",
-      "summary_zh": "文章介绍将 dotfiles 的管理工具从 GNU Stow 迁移到 Chezmoi，并比较了它们在跨主机同步、声明式管理和内置加密方面的差异。还给出迁移的实际步骤，以及在多设备环境中实现更安全、可重复配置的好处。",
-      "hn": {
-        "id": 48588413,
-        "type": "story",
-        "by": "speckx",
-        "score": 125,
-        "descendants": 117,
-        "time": 1781802593,
-        "comments_url": "https://news.ycombinator.com/item?id=48588413"
-      },
-      "tags": [
-        "Programming",
-        "Open Source",
-        "Security"
-      ],
-      "hot_score": 0.58
-    },
-    {
-      "title_en": "How Alberta Eradicated Rats",
-      "url": "https://worksinprogress.co/issue/albertas-war-on-rats/",
-      "title_zh": "阿尔伯塔省如何根除老鼠",
-      "created_display": "Created: Jun 18, 2026 / 06:05 PT",
-      "image_url": "https://worksinprogress.co/wip-image/uploads/2026/06/alberta-rats-share-card-.jpg",
-      "summary_en": "Alberta's war on rats outlines a comprehensive program blending pest control, public health measures, and community engagement to reduce rodent populations. The piece offers lessons for urban wildlife management.",
-      "summary_zh": "阿尔伯塔省的清除老鼠行动整合了害虫控制、公共卫生与社区参与等措施，显著降低了鼠群规模，为城市野生动物管理提供了经验。",
-      "hn": {
-        "id": 48584709,
-        "type": "story",
-        "by": "tzury",
-        "score": 171,
-        "descendants": 119,
-        "time": 1781787958,
-        "comments_url": "https://news.ycombinator.com/item?id=48584709"
-      },
-      "tags": [
-        "Health"
-      ],
-      "hot_score": 0.57
-    },
-    {
-      "title_en": "Norway greenlights first full-scale ship tunnel",
-      "url": "https://eandt.theiet.org/2026/06/18/norway-greenlights-world-s-first-full-scale-ship-tunnel",
-      "title_zh": "挪威批准全球首座全尺度船舶隧道",
-      "created_display": "Created: Jun 19, 2026 / 03:16 PT",
-      "image_url": null,
-      "summary_en": "Norway approves the first full-scale ship tunnel, a massive civil engineering project to re-route maritime traffic inland. The tunnel promises energy and emissions savings, smoother shipping routes, and a case study in large-scale infrastructure.",
-      "summary_zh": "挪威批准全球首座全尺度船舶隧道，这是一个将海上航线部分改造为陆地通道的巨大工程。隧道有望降低能耗与排放、优化航道并成为大型基础设施的实践案例。",
-      "hn": {
-        "id": 48596910,
-        "type": "story",
-        "by": "geox",
-        "score": 4,
-        "descendants": 0,
-        "time": 1781864170,
-        "comments_url": "https://news.ycombinator.com/item?id=48596910"
-      },
-      "hot_score": 0.56,
-      "tags": [
-        "Energy",
-        "DevOps"
-      ]
-    },
-    {
-      "title_en": "DARPA Heavy Life Challenge",
-      "url": "https://www.darpa.mil/research/challenges/lift",
-      "title_zh": "DARPA 重生命挑战计划",
-      "created_display": "Created: Jun 18, 2026 / 22:01 PT",
-      "image_url": "https://www.darpa.mil/themes/custom/darpa_uswds/assets/js/packages/usa_banner/img/us_flag_small.png",
-      "summary_en": "DARPA's Heavy Life Challenge (LIFT) seeks to push AI and robotics research toward robust, long-horizon learning in dynamic, real-world settings. The program outlines challenges and milestones to accelerate reliable, adaptable systems for critical tasks.",
-      "summary_zh": "DARPA 的重生命挑战计划（LIFT）推动 AI 与机器人研究在动态真实环境中实现长期、稳健的学习与适应能力。该计划设定挑战和里程碑，旨在加速构建可靠、可迁移的关键任务智能系统。",
-      "hn": {
-        "id": 48594933,
-        "type": "story",
-        "by": "mhb",
-        "score": 23,
-        "descendants": 26,
-        "time": 1781845279,
-        "comments_url": "https://news.ycombinator.com/item?id=48594933"
-      },
-      "hot_score": 0.55,
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "title_en": "Zork name origin got an update on Wikipedia",
-      "url": "https://www.dpolakovic.space/blogs/zork-part2#update",
-      "title_zh": "Zork 名称起源在维基百科获得更新",
-      "created_display": "Created: Jun 18, 2026 / 13:27 PT",
-      "image_url": "https://www.dpolakovic.space/Pictures/dpolakovic.png",
-      "summary_en": "New details have emerged about the origin of the name Zork, with editors adding context and anecdotes. The update sheds light on Infocom’s naming choices and early software culture that helped the game become a retro-technology icon.",
-      "summary_zh": "关于经典文本冒险游戏 Zork 的名称起源出现新信息，条目中增添了背景与趣闻。此次更新帮助人们了解 Infocom 早期的命名选择及游戏文化，如何让这款作品成为复古科技的标志。",
-      "hn": {
-        "id": 48591066,
-        "type": "story",
-        "by": "dpola",
-        "score": 80,
-        "descendants": 12,
-        "time": 1781814448,
-        "comments_url": "https://news.ycombinator.com/item?id=48591066"
-      },
-      "tags": [
-        "Culture"
-      ],
-      "hot_score": 0.52
     },
     {
       "title_en": "Noam Shazeer Joins OpenAI",
@@ -670,15 +670,62 @@
         "id": 48578913,
         "type": "story",
         "by": "lukasgross",
-        "score": 330,
-        "descendants": 327,
+        "score": 344,
+        "descendants": 341,
         "time": 1781742366,
         "comments_url": "https://news.ycombinator.com/item?id=48578913"
       },
       "tags": [
-        "AI"
+        "AI",
+        "Career"
       ],
-      "hot_score": 0.51
+      "hot_score": 0.41
+    },
+    {
+      "title_en": "How Alberta Eradicated Rats",
+      "url": "https://worksinprogress.co/issue/albertas-war-on-rats/",
+      "title_zh": "阿尔伯塔省如何根除老鼠",
+      "created_display": "Created: Jun 18, 2026 / 06:05 PT",
+      "image_url": "https://worksinprogress.co/wip-image/uploads/2026/06/alberta-rats-share-card-.jpg",
+      "summary_en": "Alberta's war on rats outlines a comprehensive program blending pest control, public health measures, and community engagement to reduce rodent populations. The piece offers lessons for urban wildlife management.",
+      "summary_zh": "阿尔伯塔省的清除老鼠行动整合了害虫控制、公共卫生与社区参与等措施，显著降低了鼠群规模，为城市野生动物管理提供了经验。",
+      "hn": {
+        "id": 48584709,
+        "type": "story",
+        "by": "tzury",
+        "score": 183,
+        "descendants": 127,
+        "time": 1781787958,
+        "comments_url": "https://news.ycombinator.com/item?id=48584709"
+      },
+      "tags": [
+        "Health"
+      ],
+      "hot_score": 0.41
+    },
+    {
+      "title_en": "Migrating from GNU Stow to Chezmoi",
+      "url": "https://rednafi.com/misc/chezmoi/",
+      "title_zh": "从 GNU Stow 到 Chezmoi 的迁移",
+      "created_display": "Created: Jun 18, 2026 / 10:09 PT",
+      "image_url": "https://blob.rednafi.com/static/images/home/cover-84b7bd64087e.png",
+      "summary_en": "The piece walks through migrating from GNU Stow to Chezmoi for managing dotfiles, highlighting Chezmoi's declarative approach, cross-machine syncing, and built‑in encryption. It covers practical steps and benefits like easier templating and safer updates across devices.",
+      "summary_zh": "文章介绍将 dotfiles 的管理工具从 GNU Stow 迁移到 Chezmoi，并比较了它们在跨主机同步、声明式管理和内置加密方面的差异。还给出迁移的实际步骤，以及在多设备环境中实现更安全、可重复配置的好处。",
+      "hn": {
+        "id": 48588413,
+        "type": "story",
+        "by": "speckx",
+        "score": 132,
+        "descendants": 122,
+        "time": 1781802593,
+        "comments_url": "https://news.ycombinator.com/item?id=48588413"
+      },
+      "tags": [
+        "Programming",
+        "Open Source",
+        "Security"
+      ],
+      "hot_score": 0.39
     },
     {
       "title_en": "The Token Compression Illusion: Why I'm Skeptical of RTK",
@@ -692,15 +739,37 @@
         "id": 48588755,
         "type": "story",
         "by": "lackoftactics",
-        "score": 100,
-        "descendants": 109,
+        "score": 106,
+        "descendants": 110,
         "time": 1781804220,
         "comments_url": "https://news.ycombinator.com/item?id=48588755"
       },
       "tags": [
         "AI"
       ],
-      "hot_score": 0.49
+      "hot_score": 0.32
+    },
+    {
+      "title_en": "Zork name origin got an update on Wikipedia",
+      "url": "https://www.dpolakovic.space/blogs/zork-part2#update",
+      "title_zh": "Zork 名称起源在维基百科获得更新",
+      "created_display": "Created: Jun 18, 2026 / 13:27 PT",
+      "image_url": "https://www.dpolakovic.space/Pictures/dpolakovic.png",
+      "summary_en": "New details have emerged about the origin of the name Zork, with editors adding context and anecdotes. The update sheds light on Infocom’s naming choices and early software culture that helped the game become a retro-technology icon.",
+      "summary_zh": "关于经典文本冒险游戏 Zork 的名称起源出现新信息，条目中增添了背景与趣闻。此次更新帮助人们了解 Infocom 早期的命名选择及游戏文化，如何让这款作品成为复古科技的标志。",
+      "hn": {
+        "id": 48591066,
+        "type": "story",
+        "by": "dpola",
+        "score": 85,
+        "descendants": 16,
+        "time": 1781814448,
+        "comments_url": "https://news.ycombinator.com/item?id=48591066"
+      },
+      "tags": [
+        "Culture"
+      ],
+      "hot_score": 0.32
     },
     {
       "title_en": "Launch HN: TesterArmy (YC P26) – Agents that test web and mobile apps",
@@ -714,17 +783,18 @@
         "id": 48586299,
         "type": "story",
         "by": "okwasniewski",
-        "score": 120,
-        "descendants": 55,
+        "score": 123,
+        "descendants": 62,
         "time": 1781794184,
         "comments_url": "https://news.ycombinator.com/item?id=48586299"
       },
       "tags": [
-        "Programming",
         "AI",
+        "DevOps",
+        "Programming",
         "Startups"
       ],
-      "hot_score": 0.46
+      "hot_score": 0.31
     },
     {
       "title_en": "The Korean telecom giant at the center of Anthropic's Mythos controversy",
@@ -738,16 +808,16 @@
         "id": 48584484,
         "type": "story",
         "by": "dstala",
-        "score": 115,
-        "descendants": 104,
+        "score": 124,
+        "descendants": 121,
         "time": 1781786649,
         "comments_url": "https://news.ycombinator.com/item?id=48584484"
       },
       "tags": [
-        "Politics",
-        "AI"
+        "AI",
+        "Politics"
       ],
-      "hot_score": 0.37
+      "hot_score": 0.27
     },
     {
       "title_en": "Building a robotics research setup that lives next to my desk",
@@ -761,15 +831,15 @@
         "id": 48586329,
         "type": "story",
         "by": "mplappert",
-        "score": 83,
-        "descendants": 27,
+        "score": 105,
+        "descendants": 34,
         "time": 1781794313,
         "comments_url": "https://news.ycombinator.com/item?id=48586329"
       },
       "tags": [
         "Hardware"
       ],
-      "hot_score": 0.32
+      "hot_score": 0.26
     },
     {
       "title_en": "The Harajuku Moment (2024)",
@@ -791,7 +861,101 @@
       "tags": [
         "Culture"
       ],
-      "hot_score": 0.32
+      "hot_score": 0.21
+    },
+    {
+      "title_en": "DARPA Heavy Life Challenge",
+      "url": "https://www.darpa.mil/research/challenges/lift",
+      "title_zh": "DARPA 重生命挑战计划",
+      "created_display": "Created: Jun 18, 2026 / 22:01 PT",
+      "image_url": "https://www.darpa.mil/themes/custom/darpa_uswds/assets/js/packages/usa_banner/img/us_flag_small.png",
+      "summary_en": "DARPA's Heavy Life Challenge (LIFT) seeks to push AI and robotics research toward robust, long-horizon learning in dynamic, real-world settings. The program outlines challenges and milestones to accelerate reliable, adaptable systems for critical tasks.",
+      "summary_zh": "DARPA 的重生命挑战计划（LIFT）推动 AI 与机器人研究在动态真实环境中实现长期、稳健的学习与适应能力。该计划设定挑战和里程碑，旨在加速构建可靠、可迁移的关键任务智能系统。",
+      "hn": {
+        "id": 48594933,
+        "type": "story",
+        "by": "mhb",
+        "score": 23,
+        "descendants": 26,
+        "time": 1781845279,
+        "comments_url": "https://news.ycombinator.com/item?id=48594933"
+      },
+      "hot_score": 0.2,
+      "tags": [
+        "AI",
+        "Science"
+      ]
+    },
+    {
+      "title_en": "Show HN: Talos – Open-source WASM interpreter for Lean",
+      "url": "https://github.com/cajal-technologies/talos",
+      "title_zh": "Show HN：Talos——基于 Lean 的开源 WASM 解释器",
+      "created_display": "Created: Jun 18, 2026 / 06:10 PT",
+      "image_url": "https://opengraph.githubassets.com/d00ff7482511e6dc1a0c6cd4494dc1d3ec959c7ec0796cbde62232ab0f0a3162/cajal-technologies/talos",
+      "summary_en": "Talos is an open-source WASM interpreter implemented in Lean, emphasizing safety and potential formal verification benefits. It demonstrates a WASM runtime in a functional language and may influence future tooling for verification-focused ecosystems.",
+      "summary_zh": "Talos 是用 Lean 编写的开源 WASM 解释器，强调安全性与潜在的形式化验证优势，展示了在函数式语言中实现 WASM 运行时的可能性。",
+      "hn": {
+        "id": 48584761,
+        "type": "story",
+        "by": "mfornet",
+        "score": 77,
+        "descendants": 19,
+        "time": 1781788244,
+        "comments_url": "https://news.ycombinator.com/item?id=48584761"
+      },
+      "tags": [
+        "Show HN",
+        "Programming",
+        "Open Source"
+      ],
+      "hot_score": 0.17
+    },
+    {
+      "title_en": "DuckDB Internals: Why Is DuckDB Fast? (Part 1)",
+      "url": "https://www.greybeam.ai/blog/duckdb-internals-part-1",
+      "title_zh": "DuckDB 内部原理：为何高效？（第一部分）",
+      "created_display": "Created: Jun 16, 2026 / 04:07 PT",
+      "image_url": "https://storage.ghost.io/c/eb/37/eb37738a-77f2-4eaf-9de2-43f9b30fffd5/content/images/2026/05/image--16-.png",
+      "summary_en": "This first installment explains why DuckDB is exceptionally fast, covering vectorized in-process execution, columnar storage, and analytics-oriented optimizations. It argues that tight host integration and data locality are key to its performance edge.",
+      "summary_zh": "本文聚焦 DuckDB 的高性能根源，介绍向量化执行、列式存储和对分析型工作负载的优化等设计要点。核心观点是与宿主进程的紧密集成和数据局部性是实现其性能优势的关键。",
+      "hn": {
+        "id": 48553388,
+        "type": "story",
+        "by": "marklit",
+        "score": 337,
+        "descendants": 94,
+        "time": 1781608028,
+        "comments_url": "https://news.ycombinator.com/item?id=48553388"
+      },
+      "tags": [
+        "Programming",
+        "Data",
+        "Open Source"
+      ],
+      "hot_score": 0.13
+    },
+    {
+      "title_en": "How Japan's railways stayed one while splitting apart",
+      "url": "https://arun.is/blog/jr-logo/",
+      "title_zh": "日本铁路在分拆中如何保持统一",
+      "created_display": "Created: Jun 17, 2026 / 07:03 PT",
+      "image_url": "https://arun.is/_astro/social.CKZ2mAfd.jpg",
+      "summary_en": "An exploration of how Japan's railways preserved a unified national identity despite privatization into independent JR companies. The article delves into branding choices, logo consistency, and cross-network coordination that kept the system feeling cohesive.",
+      "summary_zh": "探讨日本铁路在分拆成多家独立公司后，如何保持统一的国家形象。文章聚焦品牌策略、标志的一致性，以及跨网络协作，维持系统的连贯感。",
+      "hn": {
+        "id": 48570730,
+        "type": "story",
+        "by": "ddrmaxgt37",
+        "score": 138,
+        "descendants": 117,
+        "time": 1781705038,
+        "comments_url": "https://news.ycombinator.com/item?id=48570730"
+      },
+      "tags": [
+        "Politics",
+        "Culture"
+      ],
+      "hot_score": 0.11
     },
     {
       "title_en": "Renting vs. Buying – A case study for Bangalore",
@@ -810,101 +974,11 @@
         "time": 1781848288,
         "comments_url": "https://news.ycombinator.com/item?id=48595251"
       },
-      "hot_score": 0.27,
+      "hot_score": 0.09,
       "tags": [
-        "Finance"
+        "Finance",
+        "Business"
       ]
-    },
-    {
-      "title_en": "Show HN: Talos – Open-source WASM interpreter for Lean",
-      "url": "https://github.com/cajal-technologies/talos",
-      "title_zh": "Show HN：Talos——基于 Lean 的开源 WASM 解释器",
-      "created_display": "Created: Jun 18, 2026 / 06:10 PT",
-      "image_url": "https://opengraph.githubassets.com/d00ff7482511e6dc1a0c6cd4494dc1d3ec959c7ec0796cbde62232ab0f0a3162/cajal-technologies/talos",
-      "summary_en": "Talos is an open-source WASM interpreter implemented in Lean, emphasizing safety and potential formal verification benefits. It demonstrates a WASM runtime in a functional language and may influence future tooling for verification-focused ecosystems.",
-      "summary_zh": "Talos 是用 Lean 编写的开源 WASM 解释器，强调安全性与潜在的形式化验证优势，展示了在函数式语言中实现 WASM 运行时的可能性。",
-      "hn": {
-        "id": 48584761,
-        "type": "story",
-        "by": "mfornet",
-        "score": 54,
-        "descendants": 7,
-        "time": 1781788244,
-        "comments_url": "https://news.ycombinator.com/item?id=48584761"
-      },
-      "tags": [
-        "Show HN",
-        "Open Source",
-        "Programming"
-      ],
-      "hot_score": 0.18
-    },
-    {
-      "title_en": "How Japan's railways stayed one while splitting apart",
-      "url": "https://arun.is/blog/jr-logo/",
-      "title_zh": "日本铁路在分拆中如何保持统一",
-      "created_display": "Created: Jun 17, 2026 / 07:03 PT",
-      "image_url": "https://arun.is/_astro/social.CKZ2mAfd.jpg",
-      "summary_en": "An exploration of how Japan's railways preserved a unified national identity despite privatization into independent JR companies. The article delves into branding choices, logo consistency, and cross-network coordination that kept the system feeling cohesive.",
-      "summary_zh": "探讨日本铁路在分拆成多家独立公司后，如何保持统一的国家形象。文章聚焦品牌策略、标志的一致性，以及跨网络协作，维持系统的连贯感。",
-      "hn": {
-        "id": 48570730,
-        "type": "story",
-        "by": "ddrmaxgt37",
-        "score": 103,
-        "descendants": 86,
-        "time": 1781705038,
-        "comments_url": "https://news.ycombinator.com/item?id=48570730"
-      },
-      "tags": [
-        "Culture"
-      ],
-      "hot_score": 0.1
-    },
-    {
-      "title_en": "DuckDB Internals: Why Is DuckDB Fast? (Part 1)",
-      "url": "https://www.greybeam.ai/blog/duckdb-internals-part-1",
-      "title_zh": "DuckDB 内部原理：为何高效？（第一部分）",
-      "created_display": "Created: Jun 16, 2026 / 04:07 PT",
-      "image_url": "https://storage.ghost.io/c/eb/37/eb37738a-77f2-4eaf-9de2-43f9b30fffd5/content/images/2026/05/image--16-.png",
-      "summary_en": "This first installment explains why DuckDB is exceptionally fast, covering vectorized in-process execution, columnar storage, and analytics-oriented optimizations. It argues that tight host integration and data locality are key to its performance edge.",
-      "summary_zh": "本文聚焦 DuckDB 的高性能根源，介绍向量化执行、列式存储和对分析型工作负载的优化等设计要点。核心观点是与宿主进程的紧密集成和数据局部性是实现其性能优势的关键。",
-      "hn": {
-        "id": 48553388,
-        "type": "story",
-        "by": "marklit",
-        "score": 193,
-        "descendants": 61,
-        "time": 1781608028,
-        "comments_url": "https://news.ycombinator.com/item?id=48553388"
-      },
-      "tags": [
-        "Data",
-        "Programming"
-      ],
-      "hot_score": 0.08
-    },
-    {
-      "title_en": "Agentic Resource Discovery Specification",
-      "url": "https://agenticresourcediscovery.org/introduction/",
-      "title_zh": "代理式资源发现规范",
-      "created_display": "Created: Jun 17, 2026 / 10:03 PT",
-      "image_url": null,
-      "summary_en": "A new specification for agentic resource discovery outlines how autonomous agents should locate and reference resources safely and efficiently. It aims to standardize interactions, improving interoperability and reducing risk in multi-agent systems.",
-      "summary_zh": "一份代理式资源发现的新规范提出了自治代理如何安全、高效地定位和引用资源的标准做法，旨在提升跨系统的互操作性并降低多代理环境的风险。",
-      "hn": {
-        "id": 48573268,
-        "type": "story",
-        "by": "damick",
-        "score": 69,
-        "descendants": 16,
-        "time": 1781715797,
-        "comments_url": "https://news.ycombinator.com/item?id=48573268"
-      },
-      "tags": [
-        "Programming"
-      ],
-      "hot_score": 0.08
     },
     {
       "title_en": "To study how chips work, MIT researchers built their own operating system",
@@ -918,81 +992,62 @@
         "id": 48543311,
         "type": "story",
         "by": "speckx",
-        "score": 197,
-        "descendants": 27,
+        "score": 291,
+        "descendants": 43,
         "time": 1781539582,
         "comments_url": "https://news.ycombinator.com/item?id=48543311"
       },
       "tags": [
-        "Hardware"
+        "Hardware",
+        "Science"
+      ],
+      "hot_score": 0.07
+    },
+    {
+      "title_en": "Agentic Resource Discovery Specification",
+      "url": "https://agenticresourcediscovery.org/introduction/",
+      "title_zh": "代理式资源发现规范",
+      "created_display": "Created: Jun 17, 2026 / 10:03 PT",
+      "image_url": null,
+      "summary_en": "A new specification for agentic resource discovery outlines how autonomous agents should locate and reference resources safely and efficiently. It aims to standardize interactions, improving interoperability and reducing risk in multi-agent systems.",
+      "summary_zh": "一份代理式资源发现的新规范提出了自治代理如何安全、高效地定位和引用资源的标准做法，旨在提升跨系统的互操作性并降低多代理环境的风险。",
+      "hn": {
+        "id": 48573268,
+        "type": "story",
+        "by": "damick",
+        "score": 70,
+        "descendants": 18,
+        "time": 1781715797,
+        "comments_url": "https://news.ycombinator.com/item?id=48573268"
+      },
+      "tags": [
+        "AI",
+        "Security"
       ],
       "hot_score": 0.06
     },
     {
-      "title_en": "Cell-based architecture for resilient payment systems",
-      "url": "https://americanexpress.io/cell-based-architecture-for-resilient-payment-systems/",
-      "title_zh": "基于单元格的架构提升支付系统弹性",
-      "created_display": "Created: Jun 15, 2026 / 15:36 PT",
-      "image_url": "https://americanexpress.io/_post_assets/cell-based-architecture-for-resilient-payment-systems/img/main.jpg",
-      "summary_en": "Cell-based architecture is presented as a path to fault isolation and resilient payments. By partitioning state and operations into independent cells, outages in one cell won’t cascade, enabling faster recovery and safer experimentation. The approach aligns with fintech’s demand for 24/7 uptime and scalable, compliant architectures.",
-      "summary_zh": "将系统分割为独立的单元格以实现故障隔离和支付系统弹性。通过对状态和操作进行细粒度划分，单个单元的故障不会蔓延，从而更快恢复并便于安全试验。这一思路符合金融科技对全天候可用性、可扩展性和合规性的要求。",
+      "title_en": "Ten years of ClickHouse in open source",
+      "url": "https://clickhouse.com/blog/open-source-10",
+      "title_zh": "ClickHouse 开源十年回顾",
+      "created_display": "Created: Jun 15, 2026 / 13:51 PT",
+      "image_url": "https://clickhouse.com/_next/image?url=%2Fuploads%2Fgithub_c01a760d53.png&w=1200&h=630&q=80",
+      "summary_en": "A decade of open-source development has shaped ClickHouse into a high-performance, columnar analytics engine with a thriving community.",
+      "summary_zh": "十年的开源开发让 ClickHouse 成为高性能的列式分析引擎，并拥有活跃的社区。文章回顾了关键里程碑、治理演变，以及早期架构选择如何推动在各行业的广泛采用。",
       "hn": {
-        "id": 48547969,
+        "id": 48546890,
         "type": "story",
-        "by": "birdculture",
-        "score": 127,
-        "descendants": 52,
-        "time": 1781562993,
-        "comments_url": "https://news.ycombinator.com/item?id=48547969"
+        "by": "saisrirampur",
+        "score": 186,
+        "descendants": 58,
+        "time": 1781556714,
+        "comments_url": "https://news.ycombinator.com/item?id=48546890"
       },
       "tags": [
-        "Finance"
+        "Open Source",
+        "Data"
       ],
-      "hot_score": 0.04
-    },
-    {
-      "title_en": "Gribouille 0.3.0: A Grammar of Graphics for Typst",
-      "url": "https://mickael.canouil.fr/posts/2026-06-15-gribouille-0-3/",
-      "title_zh": "Gribouille 0.3.0：Typst 的图形语法",
-      "created_display": "Created: Jun 15, 2026 / 06:35 PT",
-      "image_url": "https://mickael.canouil.fr/posts/2026-06-15-gribouille-0-3/featured.png",
-      "summary_en": "Gribouille 0.3.0 adds a grammar-of-graphics approach to Typst, enabling declarative plotting inside documents. This expands Typst’s data visualization capabilities and makes it easier to produce consistent charts alongside text.",
-      "summary_zh": "Gribouille 0.3.0 为 Typst 引入图形语法，允许在文档中以声明式方式绘制图表。此举拓展了 Typst 的可视化能力，便于在文本中直接生成一致的图形。",
-      "hn": {
-        "id": 48541062,
-        "type": "story",
-        "by": "mcanouil",
-        "score": 97,
-        "descendants": 31,
-        "time": 1781530523,
-        "comments_url": "https://news.ycombinator.com/item?id=48541062"
-      },
-      "tags": [
-        "Design"
-      ],
-      "hot_score": 0.03
-    },
-    {
-      "title_en": "If your product is Great, it doesn't need to be Good (2010)",
-      "url": "http://paulbuchheit.blogspot.com/2010/02/if-your-product-is-great-it-doesnt-need.html",
-      "title_zh": "如果你的产品很棒，它就不需要是“好”（2010）",
-      "created_display": "Created: Jun 15, 2026 / 10:26 PT",
-      "image_url": "https://resources.blogblog.com/img/icon18_edit_allbkg.gif",
-      "summary_en": "Paul Buchheit argues that truly great products can outshine ordinary polish and that teams should focus on delivering extraordinary value rather than chasing generic 'good' improvements. The note offers a counterpoint to feature creep and highlights the importance of a clear product thesis.",
-      "summary_zh": "保罗·布赫特认为真正出色的产品能超越普通的精修，团队应专注于提供非凡的价值，而非追逐泛泛的“好”的改进。这一观点对避免功能膨胀、坚持清晰的产品定位具有重要意义。",
-      "hn": {
-        "id": 48544429,
-        "type": "story",
-        "by": "skogstokig",
-        "score": 87,
-        "descendants": 56,
-        "time": 1781544412,
-        "comments_url": "https://news.ycombinator.com/item?id=48544429"
-      },
-      "tags": [
-        "Business"
-      ],
-      "hot_score": 0.03
+      "hot_score": 0.05
     },
     {
       "title_en": "Zen and the Art of Machine Learning Research",
@@ -1006,15 +1061,128 @@
         "id": 48549118,
         "type": "story",
         "by": "jxmorris12",
-        "score": 60,
-        "descendants": 17,
+        "score": 168,
+        "descendants": 50,
         "time": 1781570750,
         "comments_url": "https://news.ycombinator.com/item?id=48549118"
       },
+      "tags": [
+        "AI",
+        "Science"
+      ],
+      "hot_score": 0.05
+    },
+    {
+      "title_en": "Gribouille 0.3.0: A Grammar of Graphics for Typst",
+      "url": "https://mickael.canouil.fr/posts/2026-06-15-gribouille-0-3/",
+      "title_zh": "Gribouille 0.3.0：Typst 的图形语法",
+      "created_display": "Created: Jun 15, 2026 / 06:35 PT",
+      "image_url": "https://mickael.canouil.fr/posts/2026-06-15-gribouille-0-3/featured.png",
+      "summary_en": "Gribouille 0.3.0 adds a grammar-of-graphics approach to Typst, enabling declarative plotting inside documents. This expands Typst’s data visualization capabilities and makes it easier to produce consistent charts alongside text.",
+      "summary_zh": "Gribouille 0.3.0 为 Typst 引入图形语法，允许在文档中以声明式方式绘制图表。此举拓展了 Typst 的可视化能力，便于在文本中直接生成一致的图形。",
+      "hn": {
+        "id": 48541062,
+        "type": "story",
+        "by": "mcanouil",
+        "score": 160,
+        "descendants": 59,
+        "time": 1781530523,
+        "comments_url": "https://news.ycombinator.com/item?id=48541062"
+      },
+      "tags": [
+        "Programming",
+        "Open Source"
+      ],
+      "hot_score": 0.04
+    },
+    {
+      "title_en": "Cell-based architecture for resilient payment systems",
+      "url": "https://americanexpress.io/cell-based-architecture-for-resilient-payment-systems/",
+      "title_zh": "基于单元格的架构提升支付系统弹性",
+      "created_display": "Created: Jun 15, 2026 / 15:36 PT",
+      "image_url": "https://americanexpress.io/_post_assets/cell-based-architecture-for-resilient-payment-systems/img/main.jpg",
+      "summary_en": "Cell-based architecture is presented as a path to fault isolation and resilient payments. By partitioning state and operations into independent cells, outages in one cell won’t cascade, enabling faster recovery and safer experimentation. The approach aligns with fintech’s demand for 24/7 uptime and scalable, compliant architectures.",
+      "summary_zh": "将系统分割为独立的单元格以实现故障隔离和支付系统弹性。通过对状态和操作进行细粒度划分，单个单元的故障不会蔓延，从而更快恢复并便于安全试验。这一思路符合金融科技对全天候可用性、可扩展性和合规性的要求。",
+      "hn": {
+        "id": 48547969,
+        "type": "story",
+        "by": "birdculture",
+        "score": 140,
+        "descendants": 57,
+        "time": 1781562993,
+        "comments_url": "https://news.ycombinator.com/item?id=48547969"
+      },
+      "tags": [
+        "Finance",
+        "Security"
+      ],
+      "hot_score": 0.04
+    },
+    {
+      "title_en": "If your product is Great, it doesn't need to be Good (2010)",
+      "url": "http://paulbuchheit.blogspot.com/2010/02/if-your-product-is-great-it-doesnt-need.html",
+      "title_zh": "如果你的产品很棒，它就不需要是“好”（2010）",
+      "created_display": "Created: Jun 15, 2026 / 10:26 PT",
+      "image_url": "https://resources.blogblog.com/img/icon18_edit_allbkg.gif",
+      "summary_en": "Paul Buchheit argues that truly great products can outshine ordinary polish and that teams should focus on delivering extraordinary value rather than chasing generic 'good' improvements. The note offers a counterpoint to feature creep and highlights the importance of a clear product thesis.",
+      "summary_zh": "保罗·布赫特认为真正出色的产品能超越普通的精修，团队应专注于提供非凡的价值，而非追逐泛泛的“好”的改进。这一观点对避免功能膨胀、坚持清晰的产品定位具有重要意义。",
+      "hn": {
+        "id": 48544429,
+        "type": "story",
+        "by": "skogstokig",
+        "score": 130,
+        "descendants": 92,
+        "time": 1781544412,
+        "comments_url": "https://news.ycombinator.com/item?id=48544429"
+      },
+      "tags": [
+        "Business"
+      ],
+      "hot_score": 0.03
+    },
+    {
+      "title_en": "Akse3D – open-source 3D modelling anyone can master",
+      "url": "https://akse3d-en.skaperiet.no",
+      "title_zh": "Akse3D：人人可掌握的开源 3D 建模工具",
+      "created_display": "Created: Jun 15, 2026 / 06:13 PT",
+      "image_url": "https://akse3d.com/img/og-bilde.png",
+      "summary_en": "Akse3D positions itself as an accessible, open-source 3D modeling tool designed for newcomers yet capable enough for everyday work. It emphasizes approachable UX, extensibility, and a community-driven roadmap for improving features.",
+      "summary_zh": "Akse3D 致力于成为面向初学者的开源3D建模工具，同时具备日常工作所需的实用性。它强调友好的用户体验、可扩展性，以及以社区为驱动的功能路线图。",
+      "hn": {
+        "id": 48540779,
+        "type": "story",
+        "by": "joachimhs",
+        "score": 91,
+        "descendants": 23,
+        "time": 1781529218,
+        "comments_url": "https://news.ycombinator.com/item?id=48540779"
+      },
+      "tags": [
+        "Open Source",
+        "Design"
+      ],
+      "hot_score": 0.02
+    },
+    {
+      "title_en": "\"No Feigning Surprise\"",
+      "url": "https://wizardzines.com/comics/surprise/",
+      "title_zh": "\"No Feigning Surprise\" 漫画",
+      "created_display": "Created: Jun 15, 2026 / 12:45 PT",
+      "image_url": "https://wizardzines.com/images/main-og-image.png",
+      "summary_en": "An ultra-short comic capturing a crisp, honest reaction to an unexpected moment. The minimalist storytelling leans into humor and skepticism, offering a quick reflection on how we respond to surprises.",
+      "summary_zh": "这部极短的漫画以简洁笔触呈现对突发情景的真诚反应，带有幽默感与克制。通过极简的叙事，探讨我们在面对意外时的情绪与判断力。",
+      "hn": {
+        "id": 48546093,
+        "type": "story",
+        "by": "evakhoury",
+        "score": 66,
+        "descendants": 47,
+        "time": 1781552707,
+        "comments_url": "https://news.ycombinator.com/item?id=48546093"
+      },
       "hot_score": 0.02,
       "tags": [
-        "Science",
-        "AI"
+        "Culture"
       ]
     },
     {
@@ -1036,32 +1204,33 @@
       },
       "tags": [
         "Space",
+        "Programming",
         "Energy"
       ],
       "hot_score": 0.01
     },
     {
-      "title_en": "Ten years of ClickHouse in open source",
-      "url": "https://clickhouse.com/blog/open-source-10",
-      "title_zh": "ClickHouse 开源十年回顾",
-      "created_display": "Created: Jun 15, 2026 / 13:51 PT",
-      "image_url": "https://clickhouse.com/_next/image?url=%2Fuploads%2Fgithub_c01a760d53.png&w=1200&h=630&q=80",
-      "summary_en": "A decade of open-source development has shaped ClickHouse into a high-performance, columnar analytics engine with a thriving community.",
-      "summary_zh": "十年的开源开发让 ClickHouse 成为高性能的列式分析引擎，并拥有活跃的社区。文章回顾了关键里程碑、治理演变，以及早期架构选择如何推动在各行业的广泛采用。",
+      "title_en": "SMTP Relay with Web Dashboard",
+      "url": "https://github.com/toinbox/simplerelay",
+      "title_zh": "带 Web 仪表板的 SMTP 中继",
+      "created_display": "Created: Jun 15, 2026 / 15:06 PT",
+      "image_url": "https://opengraph.githubassets.com/2c6aa09a7314f39fb2e4c7f7d306599847179010e8e4eb1464d9140e8898ebc0/toinbox/simplerelay",
+      "summary_en": "This project provides a self-hosted SMTP relay with a web dashboard for monitoring and management. It appeals to small teams needing simple, observable mail routing, while covering security basics like TLS, authentication, and anti-spam controls.",
+      "summary_zh": "该项目提供一个带 Web 仪表板的自托管 SMTP 中继，便于监控和管理邮箱路由。适合小型团队使用，强调 TLS、认证与反垃圾等安全要点。",
       "hn": {
-        "id": 48546890,
+        "id": 48547658,
         "type": "story",
-        "by": "saisrirampur",
-        "score": 38,
-        "descendants": 7,
-        "time": 1781556714,
-        "comments_url": "https://news.ycombinator.com/item?id=48546890"
+        "by": "toinbox",
+        "score": 36,
+        "descendants": 4,
+        "time": 1781561172,
+        "comments_url": "https://news.ycombinator.com/item?id=48547658"
       },
-      "hot_score": 0.01,
       "tags": [
-        "Open Source",
-        "Data"
-      ]
+        "Programming",
+        "Security"
+      ],
+      "hot_score": 0.01
     },
     {
       "title_en": "The Raku Foundation is born",
@@ -1082,54 +1251,99 @@
       },
       "hot_score": 0.01,
       "tags": [
-        "Open Source"
+        "Programming"
       ]
     },
     {
-      "title_en": "Akse3D – open-source 3D modelling anyone can master",
-      "url": "https://akse3d-en.skaperiet.no",
-      "title_zh": "Akse3D：人人可掌握的开源 3D 建模工具",
-      "created_display": "Created: Jun 15, 2026 / 06:13 PT",
-      "image_url": "https://akse3d.com/img/og-bilde.png",
-      "summary_en": "Akse3D positions itself as an accessible, open-source 3D modeling tool designed for newcomers yet capable enough for everyday work. It emphasizes approachable UX, extensibility, and a community-driven roadmap for improving features.",
-      "summary_zh": "Akse3D 致力于成为面向初学者的开源3D建模工具，同时具备日常工作所需的实用性。它强调友好的用户体验、可扩展性，以及以社区为驱动的功能路线图。",
+      "title_en": "The Productivity J-Curve [pdf] (2018)",
+      "url": "https://ide.mit.edu/sites/default/files/publications/jcurve.pdf",
+      "title_zh": "生产力 J 曲线 [pdf]（2018）",
+      "created_display": "Created: Jun 15, 2026 / 16:47 PT",
+      "image_url": null,
+      "summary_en": "The J-curve describes a temporary dip in productivity during the initial adoption of a new tool or process, followed by long-term gains as learning and optimization occur. It offers actionable guidance for managers on timing, experimentation, and metrics to distinguish short-term dips from long-run gains.",
+      "summary_zh": "J 曲线揭示在采用新工具或流程初期生产力常常短暂下降，随后随着学习和优化而提升。本文为管理者提供可执行的建议，帮助把握时机、设计试验并用正确的指标区分短期低谷与长期收益。",
       "hn": {
-        "id": 48540779,
+        "id": 48548695,
         "type": "story",
-        "by": "joachimhs",
-        "score": 23,
-        "descendants": 2,
-        "time": 1781529218,
-        "comments_url": "https://news.ycombinator.com/item?id=48540779"
+        "by": "kioku",
+        "score": 21,
+        "descendants": 6,
+        "time": 1781567275,
+        "comments_url": "https://news.ycombinator.com/item?id=48548695"
       },
       "hot_score": 0.01,
       "tags": [
-        "Open Source",
-        "Design"
+        "Business"
       ]
     },
     {
-      "title_en": "SMTP Relay with Web Dashboard",
-      "url": "https://github.com/toinbox/simplerelay",
-      "title_zh": "带 Web 仪表板的 SMTP 中继",
-      "created_display": "Created: Jun 15, 2026 / 15:06 PT",
-      "image_url": "https://opengraph.githubassets.com/2c6aa09a7314f39fb2e4c7f7d306599847179010e8e4eb1464d9140e8898ebc0/toinbox/simplerelay",
-      "summary_en": "This project provides a self-hosted SMTP relay with a web dashboard for monitoring and management. It appeals to small teams needing simple, observable mail routing, while covering security basics like TLS, authentication, and anti-spam controls.",
-      "summary_zh": "该项目提供一个带 Web 仪表板的自托管 SMTP 中继，便于监控和管理邮箱路由。适合小型团队使用，强调 TLS、认证与反垃圾等安全要点。",
+      "title_en": "Reinventing the Renaissance",
+      "url": "https://drb.ie/article/reinventing-the-renaissance/",
+      "title_zh": "重新诠释文艺复兴",
+      "created_display": "Created: Jun 16, 2026 / 15:26 PT",
+      "image_url": "https://drb.ie/wp-content/uploads/2026/05/Heaney.jpg",
+      "summary_en": "The piece argues that the idea of a modern Renaissance is being reimagined through cross-disciplinary innovation, digital culture, and new forms of knowledge exchange.",
+      "summary_zh": "作者认为，现代文艺复兴的概念正在通过跨学科创新、数字文化以及新的知识交流形式被重新构想。",
       "hn": {
-        "id": 48547658,
+        "id": 48563083,
         "type": "story",
-        "by": "toinbox",
-        "score": 5,
-        "descendants": 2,
-        "time": 1781561172,
-        "comments_url": "https://news.ycombinator.com/item?id=48547658"
+        "by": "Petiver",
+        "score": 11,
+        "descendants": 1,
+        "time": 1781648772,
+        "comments_url": "https://news.ycombinator.com/item?id=48563083"
+      },
+      "hot_score": 0.01,
+      "tags": [
+        "Culture"
+      ]
+    },
+    {
+      "title_en": "Show HN: Modeloop – From visual algorithms to microcontroller C code",
+      "url": "https://www.modeloop.app/",
+      "title_zh": "Show HN：Modeloop——从可视化算法到微控制器 C 代码",
+      "created_display": "Created: Jun 15, 2026 / 09:51 PT",
+      "image_url": "https://www.modeloop.app/og-image.png",
+      "summary_en": "Modeloop translates visual, block-based algorithms into microcontroller C code, bridging the gap between design and embedded deployment. It enables rapid prototyping for hardware projects where performance and resource constraints matter. This approach foreshadows a low-code pathway for hardware-software co-design.",
+      "summary_zh": "Modeloop 将可视化的块状算法转换为微控制器的 C 代码，缩短设计到嵌入式实现的距离。它让在资源受限的硬件上进行快速原型开发成为现实，提升性能与效率的权衡。此类低代码路径将推动软硬件协同设计的创新。",
+      "hn": {
+        "id": 48543968,
+        "type": "story",
+        "by": "lucamark",
+        "score": 18,
+        "descendants": 22,
+        "time": 1781542294,
+        "comments_url": "https://news.ycombinator.com/item?id=48543968"
       },
       "hot_score": 0.0,
       "tags": [
-        "Programming",
-        "DevOps",
-        "Security"
+        "Show HN",
+        "Hardware",
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "Telescope Ranchers",
+      "url": "https://kottke.org/26/06/telescope-ranchers",
+      "title_zh": "望远镜牧场主",
+      "created_display": "Created: Jun 16, 2026 / 03:34 PT",
+      "image_url": "https://i.ytimg.com/vi/bN48vEqaQs8/sddefault.jpg",
+      "summary_en": "An evocative look at ranchers who embrace astronomy as a core part of life, showing how wide-open skies and remote environment foster unique stargazing practices. The piece contrasts traditional ranching with modern observational tech, shedding light on how rural communities contribute to science culture.",
+      "summary_zh": "这篇报道讲述把天文学融入牧场生活的牧场主们，辽阔夜空和偏远环境让观星成为独特的日常。文本对比了传统牧场与现代观测技术，揭示偏远社区如何为科学文化添入一抹独特风景。",
+      "hn": {
+        "id": 48553161,
+        "type": "story",
+        "by": "bookofjoe",
+        "score": 6,
+        "descendants": 0,
+        "time": 1781606050,
+        "comments_url": "https://news.ycombinator.com/item?id=48553161"
+      },
+      "hot_score": 0.0,
+      "tags": [
+        "Science",
+        "Culture",
+        "Space"
       ]
     }
   ]
