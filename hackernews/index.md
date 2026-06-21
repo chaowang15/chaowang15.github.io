@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>122</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>17800</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>119</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>120</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-06-21</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>122</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>17812</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>119</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>120</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-06-21</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,51 +20,51 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='74' data-hn-time='1782030082'>
+<div class='hn-top-story-item' data-hn-score='219' data-hn-time='1782041881'>
 <span class='hn-top-story-rank'>1</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/21/top_stories_06212026#story-48617990'>Beyond All Reason (Free Total Annihilation Inspired RTS)</a>
+ <a class='hn-top-story-link' href='https://www.beyondallreason.info' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>超越一切理性：免费 Total Annihilation 风格的 RTS</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.1</span> <span class='hn-top-story-score'>&#9650; 219</span> <span class='hn-top-story-comments'>&#128172; 102</span> <span class='hn-top-story-tag'>Gaming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='62' data-hn-time='1782050947'>
+<span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/21/top_stories_06212026#story-48619140'>Who Owns Your ATProto Identity? Hint: It's Probably Not You</a>
+ <a class='hn-top-story-link' href='https://kevinak.se/blog/who-actually-owns-your-atproto-identity-hint-its-probably-not-you' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>你的 ATProto 身份归谁？线索：很可能不是你</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.8</span> <span class='hn-top-story-score'>&#9650; 62</span> <span class='hn-top-story-comments'>&#128172; 43</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='294' data-hn-time='1782030082'>
+<span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/06/21/top_stories_06212026#story-48616800'>Google Hits 50% IPv6</a>
  <a class='hn-top-story-link' href='https://blog.apnic.net/2026/04/28/google-hits-50-ipv6/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>谷歌 IPv6 使用率达到了 50%</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.2</span> <span class='hn-top-story-score'>&#9650; 74</span> <span class='hn-top-story-comments'>&#128172; 47</span> <span class='hn-top-story-tag'>Web</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.1</span> <span class='hn-top-story-score'>&#9650; 294</span> <span class='hn-top-story-comments'>&#128172; 286</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='194' data-hn-time='1782014528'>
-<span class='hn-top-story-rank'>2</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/21/top_stories_06212026#story-48615569'>Your brain was never designed for this much bad news</a>
- <a class='hn-top-story-link' href='https://www.sciencedaily.com/releases/2026/06/260614012006.htm' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>你的大脑从未为如此大量的坏消息而设计</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.6</span> <span class='hn-top-story-score'>&#9650; 194</span> <span class='hn-top-story-comments'>&#128172; 129</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Health</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='108' data-hn-time='1782020721'>
-<span class='hn-top-story-rank'>3</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/21/top_stories_06212026#story-48616017'>The 100k Whys of AI</a>
- <a class='hn-top-story-link' href='https://lcamtuf.substack.com/p/the-100000-whys-of-ai' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>AI 的十万个为什么</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 108</span> <span class='hn-top-story-comments'>&#128172; 56</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='37' data-hn-time='1782029094'>
+<div class='hn-top-story-item' data-hn-score='91' data-hn-time='1782040015'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/21/top_stories_06212026#story-48616713'>A 3D voxel game engine written in APL</a>
- <a class='hn-top-story-link' href='https://github.com/namgyaaal/avoxelgame' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/21/top_stories_06212026#story-48617782'>The case against geometric algebra (2024)</a>
+ <a class='hn-top-story-link' href='https://alexkritchevsky.com/2024/02/28/geometric-algebra.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>用 APL 编写的三维体素游戏引擎</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 37</span> <span class='hn-top-story-comments'>&#128172; 6</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Gaming</span></div>
+<div class='hn-top-story-zh'>反对几何代数的论证（2024）</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 91</span> <span class='hn-top-story-comments'>&#128172; 65</span> <span class='hn-top-story-tag'>Science</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='196' data-hn-time='1782005740'>
+<div class='hn-top-story-item' data-hn-score='278' data-hn-time='1782005740'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -72,62 +72,62 @@ Sort:
  <a class='hn-top-story-link' href='https://fosterelli.co/developers-dont-understand-cors' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>开发者对 CORS 的误解（2019）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 196</span> <span class='hn-top-story-comments'>&#128172; 104</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.8</span> <span class='hn-top-story-score'>&#9650; 278</span> <span class='hn-top-story-comments'>&#128172; 216</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='105' data-hn-time='1782016119'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='194' data-hn-time='1782014528'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/21/top_stories_06212026#story-48615680'>Building reliable agentic AI systems</a>
- <a class='hn-top-story-link' href='https://martinfowler.com/articles/reliable-llm-bayer.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/21/top_stories_06212026#story-48615569'>Your brain was never designed for this much bad news</a>
+ <a class='hn-top-story-link' href='https://www.sciencedaily.com/releases/2026/06/260614012006.htm' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>构建可靠的代理型 AI 系统</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 105</span> <span class='hn-top-story-comments'>&#128172; 21</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>你的大脑从未为如此大量的坏消息而设计</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.7</span> <span class='hn-top-story-score'>&#9650; 194</span> <span class='hn-top-story-comments'>&#128172; 129</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Health</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='180' data-hn-time='1782003493'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='103' data-hn-time='1782029094'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/21/top_stories_06212026#story-48614631'>When I reject AI code even if it works</a>
- <a class='hn-top-story-link' href='https://vinibrasil.com/when-i-reject-ai-code-even-if-it-works/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/21/top_stories_06212026#story-48616713'>A 3D voxel game engine written in APL</a>
+ <a class='hn-top-story-link' href='https://github.com/namgyaaal/avoxelgame' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>即使 AI 代码能工作，我也拒绝使用</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 180</span> <span class='hn-top-story-comments'>&#128172; 99</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>用 APL 编写的三维体素游戏引擎</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.7</span> <span class='hn-top-story-score'>&#9650; 103</span> <span class='hn-top-story-comments'>&#128172; 8</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Gaming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='231' data-hn-time='1781996051'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='8' data-hn-time='1782056193'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/21/top_stories_06212026#story-48613755'>Renting a sewing machine from the library</a>
- <a class='hn-top-story-link' href='https://www.bbc.com/future/article/20260618-the-weird-and-wonderful-libraries-of-finland' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/21/top_stories_06212026#story-48619831'>(How to Write a (Lisp) Interpreter (In Python))</a>
+ <a class='hn-top-story-link' href='https://norvig.com/lispy.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>从图书馆租借缝纫机</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.2</span> <span class='hn-top-story-score'>&#9650; 231</span> <span class='hn-top-story-comments'>&#128172; 121</span> <span class='hn-top-story-tag'>Culture</span></div>
+<div class='hn-top-story-zh'>用 Python 编写 Lisp 解释器（如何实现）</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.6</span> <span class='hn-top-story-score'>&#9650; 8</span> <span class='hn-top-story-comments'>&#128172; 1</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Education</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='370' data-hn-time='1781978731'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='13' data-hn-time='1782052988'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/21/top_stories_06212026#story-48611411'>The Wholesale Plagiarism of Obscure Sorrows</a>
- <a class='hn-top-story-link' href='https://waxy.org/2026/06/the-wholesale-plagiarism-of-obscure-sorrows/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/21/top_stories_06212026#story-48619394'>Fossil Fuels Are 40% of Freight Shipping Tonnage, but Half Its Fuel Use</a>
+ <a class='hn-top-story-link' href='https://cleantechnica.com/2026/06/16/shipping-freight-energy-fossil-cargo/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>《Obscure Sorrows》的大规模抄袭</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 370</span> <span class='hn-top-story-comments'>&#128172; 147</span> <span class='hn-top-story-tag'>Culture</span> <span class='hn-top-story-tag'>Legal</span></div>
+<div class='hn-top-story-zh'>化石燃料占货运吨位的40%，却贡献一半燃料消耗</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.5</span> <span class='hn-top-story-score'>&#9650; 13</span> <span class='hn-top-story-comments'>&#128172; 7</span> <span class='hn-top-story-tag'>Energy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='207' data-hn-time='1781994172'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='19' data-hn-time='1782049891'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/21/top_stories_06212026#story-48613555'>Slow breathing modulates brain function and risk behavior</a>
- <a class='hn-top-story-link' href='https://www.cell.com/neuron/fulltext/S0896-6273(26)00339-9' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/21/top_stories_06212026#story-48619005'>AI Under Trump's Control: Can France Still Avoid Digital Dependence?</a>
+ <a class='hn-top-story-link' href='https://thenewassociationwebmasters.blogspot.com/2026/06/ai-under-american-control-can-france.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>缓慢呼吸调控大脑功能与风险行为</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.9</span> <span class='hn-top-story-score'>&#9650; 207</span> <span class='hn-top-story-comments'>&#128172; 50</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Health</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>在特朗普掌控下的 AI：法国还能避免数字依赖吗？</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.5</span> <span class='hn-top-story-score'>&#9650; 19</span> <span class='hn-top-story-comments'>&#128172; 8</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -140,7 +140,7 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 25 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-06-15 — 2026-06-21 <span class="hn-row-sep">·</span> 950 stories <span class="hn-row-sep">·</span> 7 days</span>
+<span class='hn-week-meta'>2026-06-15 — 2026-06-21 <span class="hn-row-sep">·</span> 962 stories <span class="hn-row-sep">·</span> 7 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/06/21/top_stories_06212026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> Programming <b>15</b> <span class="hn-row-sep">·</span> AI <b>8</b></span>
+<span class='hn-row-detail'>All <b>62</b> <span class="hn-row-sep">·</span> Programming <b>16</b> <span class="hn-row-sep">·</span> Hardware <b>11</b></span>
 </a>
 </div>
 </div>
