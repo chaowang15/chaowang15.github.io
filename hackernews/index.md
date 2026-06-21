@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>121</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>17700</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>118</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>119</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-06-20</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>122</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>17750</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>118</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>120</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-06-21</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,118 +20,118 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='90' data-hn-time='1782014528'>
+<div class='hn-top-story-item' data-hn-score='74' data-hn-time='1782030082'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/20/top_stories_06202026#story-48615569'>Your brain was never designed for this much bad news</a>
- <a class='hn-top-story-link' href='https://www.sciencedaily.com/releases/2026/06/260614012006.htm' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/21/top_stories_06212026#story-48616800'>Google Hits 50% IPv6</a>
+ <a class='hn-top-story-link' href='https://blog.apnic.net/2026/04/28/google-hits-50-ipv6/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>你的大脑从未为如此大量的坏消息而设计</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.4</span> <span class='hn-top-story-score'>&#9650; 90</span> <span class='hn-top-story-comments'>&#128172; 60</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Health</span></div>
+<div class='hn-top-story-zh'>谷歌 IPv6 使用率达到了 50%</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.2</span> <span class='hn-top-story-score'>&#9650; 74</span> <span class='hn-top-story-comments'>&#128172; 47</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='53' data-hn-time='1782016119'>
+<div class='hn-top-story-item' data-hn-score='194' data-hn-time='1782014528'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/20/top_stories_06202026#story-48615680'>Building reliable agentic AI systems</a>
- <a class='hn-top-story-link' href='https://martinfowler.com/articles/reliable-llm-bayer.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/21/top_stories_06212026#story-48615569'>Your brain was never designed for this much bad news</a>
+ <a class='hn-top-story-link' href='https://www.sciencedaily.com/releases/2026/06/260614012006.htm' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>构建可靠的代理型 AI 系统</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.8</span> <span class='hn-top-story-score'>&#9650; 53</span> <span class='hn-top-story-comments'>&#128172; 10</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>你的大脑从未为如此大量的坏消息而设计</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.6</span> <span class='hn-top-story-score'>&#9650; 194</span> <span class='hn-top-story-comments'>&#128172; 129</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Health</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='138' data-hn-time='1782003493'>
+<div class='hn-top-story-item' data-hn-score='108' data-hn-time='1782020721'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/20/top_stories_06202026#story-48614631'>When I reject AI code even if it works</a>
- <a class='hn-top-story-link' href='https://vinibrasil.com/when-i-reject-ai-code-even-if-it-works/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/21/top_stories_06212026#story-48616017'>The 100k Whys of AI</a>
+ <a class='hn-top-story-link' href='https://lcamtuf.substack.com/p/the-100000-whys-of-ai' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>即使 AI 代码能工作，我也拒绝使用</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 138</span> <span class='hn-top-story-comments'>&#128172; 78</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>AI 的十万个为什么</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 108</span> <span class='hn-top-story-comments'>&#128172; 56</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='109' data-hn-time='1782005740'>
+<div class='hn-top-story-item' data-hn-score='37' data-hn-time='1782029094'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/20/top_stories_06202026#story-48614844'>Developers don't understand CORS (2019)</a>
- <a class='hn-top-story-link' href='https://fosterelli.co/developers-dont-understand-cors' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/21/top_stories_06212026#story-48616713'>A 3D voxel game engine written in APL</a>
+ <a class='hn-top-story-link' href='https://github.com/namgyaaal/avoxelgame' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>开发者对 CORS 的误解（2019）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 109</span> <span class='hn-top-story-comments'>&#128172; 45</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>用 APL 编写的三维体素游戏引擎</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 37</span> <span class='hn-top-story-comments'>&#128172; 6</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Gaming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='191' data-hn-time='1781996051'>
+<div class='hn-top-story-item' data-hn-score='196' data-hn-time='1782005740'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/20/top_stories_06202026#story-48613755'>Renting a sewing machine from the library</a>
- <a class='hn-top-story-link' href='https://www.bbc.com/future/article/20260618-the-weird-and-wonderful-libraries-of-finland' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/21/top_stories_06212026#story-48614844'>Developers don't understand CORS (2019)</a>
+ <a class='hn-top-story-link' href='https://fosterelli.co/developers-dont-understand-cors' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>从图书馆租借缝纫机</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 191</span> <span class='hn-top-story-comments'>&#128172; 96</span> <span class='hn-top-story-tag'>Culture</span></div>
+<div class='hn-top-story-zh'>开发者对 CORS 的误解（2019）</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 196</span> <span class='hn-top-story-comments'>&#128172; 104</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='363' data-hn-time='1781978731'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='105' data-hn-time='1782016119'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/20/top_stories_06202026#story-48611411'>The Wholesale Plagiarism of Obscure Sorrows</a>
- <a class='hn-top-story-link' href='https://waxy.org/2026/06/the-wholesale-plagiarism-of-obscure-sorrows/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/21/top_stories_06212026#story-48615680'>Building reliable agentic AI systems</a>
+ <a class='hn-top-story-link' href='https://martinfowler.com/articles/reliable-llm-bayer.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>《Obscure Sorrows》的大规模抄袭</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 363</span> <span class='hn-top-story-comments'>&#128172; 144</span> <span class='hn-top-story-tag'>Culture</span> <span class='hn-top-story-tag'>Legal</span></div>
+<div class='hn-top-story-zh'>构建可靠的代理型 AI 系统</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 105</span> <span class='hn-top-story-comments'>&#128172; 21</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='183' data-hn-time='1781994983'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='180' data-hn-time='1782003493'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/20/top_stories_06202026#story-48613631'>Pre-2022 Books</a>
- <a class='hn-top-story-link' href='https://notes.lorenzogravina.com/musings/pre-2022-books' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/21/top_stories_06212026#story-48614631'>When I reject AI code even if it works</a>
+ <a class='hn-top-story-link' href='https://vinibrasil.com/when-i-reject-ai-code-even-if-it-works/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>2022 年前的书籍</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 183</span> <span class='hn-top-story-comments'>&#128172; 112</span> <span class='hn-top-story-tag'>Culture</span> <span class='hn-top-story-tag'>Education</span> <span class='hn-top-story-tag'>Design</span></div>
+<div class='hn-top-story-zh'>即使 AI 代码能工作，我也拒绝使用</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 180</span> <span class='hn-top-story-comments'>&#128172; 99</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='144' data-hn-time='1781994172'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='231' data-hn-time='1781996051'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/20/top_stories_06202026#story-48613555'>Slow breathing modulates brain function and risk behavior</a>
- <a class='hn-top-story-link' href='https://www.cell.com/neuron/fulltext/S0896-6273(26)00339-9' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/21/top_stories_06212026#story-48613755'>Renting a sewing machine from the library</a>
+ <a class='hn-top-story-link' href='https://www.bbc.com/future/article/20260618-the-weird-and-wonderful-libraries-of-finland' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>缓慢呼吸调控大脑功能与风险行为</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.1</span> <span class='hn-top-story-score'>&#9650; 144</span> <span class='hn-top-story-comments'>&#128172; 31</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Health</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>从图书馆租借缝纫机</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.2</span> <span class='hn-top-story-score'>&#9650; 231</span> <span class='hn-top-story-comments'>&#128172; 121</span> <span class='hn-top-story-tag'>Culture</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='118' data-hn-time='1781996829'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='370' data-hn-time='1781978731'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/20/top_stories_06202026#story-48613872'>Epoll vs. io_uring in Linux</a>
- <a class='hn-top-story-link' href='https://sibexi.co/posts/epoll-vs-io_uring/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/21/top_stories_06212026#story-48611411'>The Wholesale Plagiarism of Obscure Sorrows</a>
+ <a class='hn-top-story-link' href='https://waxy.org/2026/06/the-wholesale-plagiarism-of-obscure-sorrows/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Linux 中的 Epoll 与 io_uring 对比</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 118</span> <span class='hn-top-story-comments'>&#128172; 33</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>DevOps</span></div>
+<div class='hn-top-story-zh'>《Obscure Sorrows》的大规模抄袭</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 370</span> <span class='hn-top-story-comments'>&#128172; 147</span> <span class='hn-top-story-tag'>Culture</span> <span class='hn-top-story-tag'>Legal</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='167' data-hn-time='1781989180'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='207' data-hn-time='1781994172'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/20/top_stories_06202026#story-48612943'>Linux eliminates the strncpy API after six years of work, 360 patches</a>
- <a class='hn-top-story-link' href='https://www.phoronix.com/news/Linux-7.2-Drops-strncpy' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/21/top_stories_06212026#story-48613555'>Slow breathing modulates brain function and risk behavior</a>
+ <a class='hn-top-story-link' href='https://www.cell.com/neuron/fulltext/S0896-6273(26)00339-9' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Linux 在六年工作、完成了 360 次补丁后淘汰 strncpy API</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 167</span> <span class='hn-top-story-comments'>&#128172; 133</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>缓慢呼吸调控大脑功能与风险行为</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.9</span> <span class='hn-top-story-score'>&#9650; 207</span> <span class='hn-top-story-comments'>&#128172; 50</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Health</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
-<a class='hn-top-stories-more' href='/hackernews/2026/06/20/top_stories_06202026'>View all trending stories &rarr;</a>
+<a class='hn-top-stories-more' href='/hackernews/2026/06/21/top_stories_06212026'>View all trending stories &rarr;</a>
 <a class='hn-top-stories-more' href='/hackernews/2026/06/19/best_stories_06192026'>Latest Daily Best — 2026-06-19 &rarr;</a>
 </div>
 </div>
@@ -140,10 +140,19 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 25 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-06-15 — 2026-06-20 <span class="hn-row-sep">·</span> 850 stories <span class="hn-row-sep">·</span> 6 days</span>
+<span class='hn-week-meta'>2026-06-15 — 2026-06-21 <span class="hn-row-sep">·</span> 900 stories <span class="hn-row-sep">·</span> 7 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
+<div class='hn-day-row'>
+<div class='hn-day-date'>2026-06-21 <span class='hn-day-weekday'>Sun</span></div>
+<div class='hn-day-stories'>
+<a class='hn-story-link' href='/hackernews/2026/06/21/top_stories_06212026'>
+<span class='hn-row-type hn-type-top'>Trending</span>
+<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> Programming <b>15</b> <span class="hn-row-sep">·</span> AI <b>8</b></span>
+</a>
+</div>
+</div>
 <div class='hn-day-row'>
 <div class='hn-day-date'>2026-06-20 <span class='hn-day-weekday'>Sat</span></div>
 <div class='hn-day-stories'>
@@ -539,7 +548,7 @@ Sort:
 <details class='hn-week-group'>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 21</span>
-<span class='hn-week-meta'>2026-05-22 — 2026-05-24 <span class="hn-row-sep">·</span> 450 stories <span class="hn-row-sep">·</span> 3 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
+<span class='hn-week-meta'>2026-05-23 — 2026-05-24 <span class="hn-row-sep">·</span> 300 stories <span class="hn-row-sep">·</span> 2 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
 </summary>
 <div class='hn-week-content'>
 <a class='hn-story-link hn-weekly-digest-link' href='/hackernews/weekly/2026-W21'>
@@ -570,19 +579,6 @@ Sort:
 <a class='hn-story-link' href='/hackernews/2026/05/23/top_stories_05232026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
 <span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>33</b> <span class="hn-row-sep">·</span> Science <b>13</b></span>
-</a>
-</div>
-</div>
-<div class='hn-day-row'>
-<div class='hn-day-date'>2026-05-22 <span class='hn-day-weekday'>Fri</span></div>
-<div class='hn-day-stories'>
-<a class='hn-story-link' href='/hackernews/2026/05/22/best_stories_05222026'>
-<span class='hn-row-type hn-type-best'>Daily Best</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>19</b> <span class="hn-row-sep">·</span> Business <b>10</b></span>
-</a>
-<a class='hn-story-link' href='/hackernews/2026/05/22/top_stories_05222026'>
-<span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>27</b> <span class="hn-row-sep">·</span> Programming <b>25</b></span>
 </a>
 </div>
 </div>
