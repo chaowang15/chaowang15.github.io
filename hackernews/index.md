@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>122</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>17826</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>119</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>120</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-06-21</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>122</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>17844</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>119</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>120</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-06-21</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='267' data-hn-time='1782058103'>
+<div class='hn-top-story-item' data-hn-score='90' data-hn-time='1782077383'>
 <span class='hn-top-story-rank'>1</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/21/top_stories_06212026#story-48622778'>Apertus – Open Foundation Model for Sovereign AI</a>
+ <a class='hn-top-story-link' href='https://apertvs.ai/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Apertus：面向主权 AI 的开放基础模型</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.2</span> <span class='hn-top-story-score'>&#9650; 90</span> <span class='hn-top-story-comments'>&#128172; 22</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='397' data-hn-time='1782058103'>
+<span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/06/21/top_stories_06212026#story-48620090'>Prefer duplication over the wrong abstraction (2016)</a>
  <a class='hn-top-story-link' href='https://sandimetz.com/blog/2016/1/20/the-wrong-abstraction' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>宁可重复，也别用错的抽象</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 13</span> <span class='hn-top-story-score'>&#9650; 267</span> <span class='hn-top-story-comments'>&#128172; 186</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.8</span> <span class='hn-top-story-score'>&#9650; 397</span> <span class='hn-top-story-comments'>&#128172; 269</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='334' data-hn-time='1782041881'>
-<span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-item' data-hn-score='59' data-hn-time='1782078053'>
+<span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/21/top_stories_06212026#story-48617990'>Beyond All Reason (Free Total Annihilation Inspired RTS)</a>
- <a class='hn-top-story-link' href='https://www.beyondallreason.info' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/21/top_stories_06212026#story-48622867'>Did my old job only exist because of fraud?</a>
+ <a class='hn-top-story-link' href='https://david.newgas.net/did-my-old-job-only-exist-because-of-fraud/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>超越一切理性：免费 Total Annihilation 风格的 RTS</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.5</span> <span class='hn-top-story-score'>&#9650; 334</span> <span class='hn-top-story-comments'>&#128172; 187</span> <span class='hn-top-story-tag'>Gaming</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-zh'>我的旧工作是不是只是因为欺诈而存在？</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.6</span> <span class='hn-top-story-score'>&#9650; 59</span> <span class='hn-top-story-comments'>&#128172; 8</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Data</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='245' data-hn-time='1782045853'>
-<span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-item' data-hn-score='62' data-hn-time='1782076232'>
+<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/21/top_stories_06212026#story-48622626'>Everything Is Logarithms</a>
+ <a class='hn-top-story-link' href='https://alexkritchevsky.com/2026/05/25/everything-is-logarithms.html' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>一切都是对数</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.4</span> <span class='hn-top-story-score'>&#9650; 62</span> <span class='hn-top-story-comments'>&#128172; 4</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>Science</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='490' data-hn-time='1782045853'>
+<span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/06/21/top_stories_06212026#story-48618455'>Identity verification on Claude</a>
  <a class='hn-top-story-link' href='https://support.claude.com/en/articles/14328960-identity-verification-on-claude' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Claude 的身份验证</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.0</span> <span class='hn-top-story-score'>&#9650; 245</span> <span class='hn-top-story-comments'>&#128172; 209</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.3</span> <span class='hn-top-story-score'>&#9650; 490</span> <span class='hn-top-story-comments'>&#128172; 444</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='74' data-hn-time='1782060978'>
-<span class='hn-top-story-rank'>4</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/21/top_stories_06212026#story-48620462'>Burnout is real for open source maintainers</a>
- <a class='hn-top-story-link' href='https://openjsf.org/blog/burnout-is-real-for-open-source-maintainers' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>开源维护者的倦怠问题</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.9</span> <span class='hn-top-story-score'>&#9650; 74</span> <span class='hn-top-story-comments'>&#128172; 30</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Business</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='97' data-hn-time='1782056193'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/21/top_stories_06212026#story-48619831'>(How to Write a (Lisp) Interpreter (In Python)) (2010)</a>
- <a class='hn-top-story-link' href='https://norvig.com/lispy.html' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>用 Python 编写 Lisp 解释器（如何实现）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 97</span> <span class='hn-top-story-comments'>&#128172; 35</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Education</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='48' data-hn-time='1782062896'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='211' data-hn-time='1782061226'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/21/top_stories_06212026#story-48620776'>Health insurance claim denial rates range from 13% to 35% by insurer</a>
- <a class='hn-top-story-link' href='https://www.randalolson.com/2026/06/16/aca-insurer-claim-denial-rates/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/21/top_stories_06212026#story-48620502'>Tell HN: Happy Fathers Day</a>
+ <a class='hn-top-story-link' href='https://news.ycombinator.com/item?id=48620502' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>不同保险公司健康保险理赔拒付率差异显著</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 48</span> <span class='hn-top-story-comments'>&#128172; 37</span> <span class='hn-top-story-tag'>Health</span> <span class='hn-top-story-tag'>Data</span></div>
+<div class='hn-top-story-zh'>致 HN：父亲节快乐</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.0</span> <span class='hn-top-story-score'>&#9650; 211</span> <span class='hn-top-story-comments'>&#128172; 28</span> <span class='hn-top-story-tag'>Culture</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='131' data-hn-time='1782050947'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='129' data-hn-time='1782067907'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/21/top_stories_06212026#story-48619140'>Who owns your ATProto identity?</a>
- <a class='hn-top-story-link' href='https://kevinak.se/blog/who-actually-owns-your-atproto-identity-hint-its-probably-not-you' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/21/top_stories_06212026#story-48621517'>JSON-LD Explained for Personal Websites</a>
+ <a class='hn-top-story-link' href='https://hawksley.dev/blog/json-ld-explained-for-personal-websites/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>你的 ATProto 身份归谁？线索：很可能不是你</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 131</span> <span class='hn-top-story-comments'>&#128172; 119</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>个人网站的 JSON-LD 讲解</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.9</span> <span class='hn-top-story-score'>&#9650; 129</span> <span class='hn-top-story-comments'>&#128172; 34</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='365' data-hn-time='1782030082'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='46' data-hn-time='1782077425'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/21/top_stories_06212026#story-48616800'>Google Hits 50% IPv6</a>
- <a class='hn-top-story-link' href='https://blog.apnic.net/2026/04/28/google-hits-50-ipv6/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/21/top_stories_06212026#story-48622788'>FDA advisors unanimously vote to approve Moderna's mRNA after agency drama</a>
+ <a class='hn-top-story-link' href='https://arstechnica.com/health/2026/06/fda-advisors-unanimously-vote-to-approve-modernas-mrna-after-agency-drama/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>谷歌 IPv6 使用率达到了 50%</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 365</span> <span class='hn-top-story-comments'>&#128172; 359</span> <span class='hn-top-story-tag'>Web</span></div>
+<div class='hn-top-story-zh'>FDA 顾问因此一致通过 Moderna 的 mRNA 疫苗，经历机构风波</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.7</span> <span class='hn-top-story-score'>&#9650; 46</span> <span class='hn-top-story-comments'>&#128172; 24</span> <span class='hn-top-story-tag'>Health</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='66' data-hn-time='1782058494'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='77' data-hn-time='1782073068'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/21/top_stories_06212026#story-48620142'>The early hiring funnel is now breaking on both ends</a>
- <a class='hn-top-story-link' href='https://hbr.org/2026/06/ai-has-broken-hiring-heres-how-to-fix-it' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/21/top_stories_06212026#story-48622234'>Ask for no, don't ask for yes (2022)</a>
+ <a class='hn-top-story-link' href='https://www.mooreds.com/wordpress/archives/3518' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>早期招聘渠道在两端都崩溃</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 66</span> <span class='hn-top-story-comments'>&#128172; 102</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-zh'>先问不要，再问要不要（2022）</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.7</span> <span class='hn-top-story-score'>&#9650; 77</span> <span class='hn-top-story-comments'>&#128172; 35</span> <span class='hn-top-story-tag'>Career</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='50' data-hn-time='1782060081'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='409' data-hn-time='1782041881'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/21/top_stories_06212026#story-48620342'>The minimum viable unit of saleable software</a>
- <a class='hn-top-story-link' href='https://brandur.org/minimum-viable-unit' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/21/top_stories_06212026#story-48617990'>Beyond All Reason (Free Total Annihilation Inspired RTS)</a>
+ <a class='hn-top-story-link' href='https://www.beyondallreason.info' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>可销售软件的最小单元</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 50</span> <span class='hn-top-story-comments'>&#128172; 18</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-zh'>超越一切理性：免费 Total Annihilation 风格的 RTS</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.8</span> <span class='hn-top-story-score'>&#9650; 409</span> <span class='hn-top-story-comments'>&#128172; 242</span> <span class='hn-top-story-tag'>Gaming</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -140,7 +140,7 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 25 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-06-15 — 2026-06-21 <span class="hn-row-sep">·</span> 976 stories <span class="hn-row-sep">·</span> 7 days</span>
+<span class='hn-week-meta'>2026-06-15 — 2026-06-21 <span class="hn-row-sep">·</span> 994 stories <span class="hn-row-sep">·</span> 7 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/06/21/top_stories_06212026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>76</b> <span class="hn-row-sep">·</span> Programming <b>18</b> <span class="hn-row-sep">·</span> AI <b>15</b></span>
+<span class='hn-row-detail'>All <b>94</b> <span class="hn-row-sep">·</span> Programming <b>21</b> <span class="hn-row-sep">·</span> AI <b>18</b></span>
 </a>
 </div>
 </div>
