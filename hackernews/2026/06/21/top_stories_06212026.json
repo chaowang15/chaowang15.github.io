@@ -4,21 +4,43 @@
     "source": "https://news.ycombinator.com/",
     "api": "https://github.com/HackerNews/API",
     "count_requested": 50,
-    "count_written": 62,
-    "reused_same_day": 38,
+    "count_written": 76,
+    "reused_same_day": 32,
     "reused_cross_day": 0,
-    "new_llm_enriched": 12,
-    "scrape_time_display": "08:51, June 21, 2026 (PDT)",
+    "new_llm_enriched": 17,
+    "scrape_time_display": "12:25, June 21, 2026 (PDT)",
     "timezone": "America/Los_Angeles",
     "date_dir": "2026/06/21",
     "content_date": "2026-06-21",
-    "run_time_local": "08:51, June 21, 2026 (PDT)",
-    "run_time_utc": "2026-06-21 15:51:15 UTC",
+    "run_time_local": "12:25, June 21, 2026 (PDT)",
+    "run_time_utc": "2026-06-21 19:25:18 UTC",
     "incremental": true,
     "stories_max": 100,
-    "hot_score_time_utc": "2026-06-21 15:51:59 UTC"
+    "hot_score_time_utc": "2026-06-21 19:26:24 UTC"
   },
   "items": [
+    {
+      "title_en": "Prefer duplication over the wrong abstraction (2016)",
+      "url": "https://sandimetz.com/blog/2016/1/20/the-wrong-abstraction",
+      "title_zh": "宁可重复，也别用错的抽象",
+      "created_display": "Created: Jun 21, 2026 / 09:08 PT",
+      "image_url": "https://images.squarespace-cdn.com/content/v1/537c0374e4b0f52ed92942e6/1406255585576-8V9OA9Q3VR7LM1P1NCAE/logo-color.png?format=1500w",
+      "summary_en": "Duplicating code can keep intent clear when an abstraction would misfit. Premature, poorly fitting abstractions hurt maintainability; the post argues that clarity beats clever architecture and that refactoring can come later when the need is real.",
+      "summary_zh": "在抽象不合适时，重复实现能保持意图清晰。过早的、与场景不符的抽象会降低可维护性；文章主张清晰胜过花哨的架构，真正需要时再进行重构。",
+      "hn": {
+        "id": 48620090,
+        "type": "story",
+        "by": "rafaepta",
+        "score": 267,
+        "descendants": 186,
+        "time": 1782058103,
+        "comments_url": "https://news.ycombinator.com/item?id=48620090"
+      },
+      "hot_score": 13.22,
+      "tags": [
+        "Programming"
+      ]
+    },
     {
       "title_en": "Beyond All Reason (Free Total Annihilation Inspired RTS)",
       "url": "https://www.beyondallreason.info",
@@ -31,18 +53,111 @@
         "id": 48617990,
         "type": "story",
         "by": "mosiuerbarso",
-        "score": 219,
-        "descendants": 102,
+        "score": 334,
+        "descendants": 187,
         "time": 1782041881,
         "comments_url": "https://news.ycombinator.com/item?id=48617990"
       },
-      "hot_score": 8.09,
       "tags": [
-        "Gaming"
+        "Gaming",
+        "Open Source"
+      ],
+      "hot_score": 5.47
+    },
+    {
+      "title_en": "Identity verification on Claude",
+      "url": "https://support.claude.com/en/articles/14328960-identity-verification-on-claude",
+      "title_zh": "Claude 的身份验证",
+      "created_display": "Created: Jun 21, 2026 / 05:44 PT",
+      "image_url": "https://downloads.intercomcdn.com/i/o/lupk8zyo/792494/717b10d3ebd874823db64841659b/76f3062d78ebbb04863fb1de3ef9cca0.png",
+      "summary_en": "Claude includes an identity verification flow to control access for sensitive features and enterprise usage. The guide covers when verification is required, what methods are supported, and how it affects access privileges.",
+      "summary_zh": "Claude 提供身份验证流程以控制对敏感功能和企业用途的访问。指南说明何时需要验证、支持哪些方法，以及对权限访问的影响。",
+      "hn": {
+        "id": 48618455,
+        "type": "story",
+        "by": "bathory",
+        "score": 245,
+        "descendants": 209,
+        "time": 1782045853,
+        "comments_url": "https://news.ycombinator.com/item?id=48618455"
+      },
+      "hot_score": 4.97,
+      "tags": [
+        "Security",
+        "AI"
       ]
     },
     {
-      "title_en": "Who Owns Your ATProto Identity? Hint: It's Probably Not You",
+      "title_en": "Burnout is real for open source maintainers",
+      "url": "https://openjsf.org/blog/burnout-is-real-for-open-source-maintainers",
+      "title_zh": "开源维护者的倦怠问题",
+      "created_display": "Created: Jun 21, 2026 / 09:56 PT",
+      "image_url": "https://images.prismic.io/openjsf/acRGrpGXnQHGY-L1_BlogPostImagesOpenJS-2-.png?auto=format,compress",
+      "summary_en": "Explores burnout among open-source maintainers driven by sustained workload, volunteer governance, and funding gaps. The piece advocates sustainable funding models, better recognition, and governance practices to keep OSS healthy.",
+      "summary_zh": "探讨开源维护者因长期工作量、志愿治理与资金短缺引发的倦怠。呼吁建立可持续的资助模式、改进对维护者的认可，以及更稳健的治理做法以维持 OSS 健康。",
+      "hn": {
+        "id": 48620462,
+        "type": "story",
+        "by": "theanonymousone",
+        "score": 74,
+        "descendants": 30,
+        "time": 1782060978,
+        "comments_url": "https://news.ycombinator.com/item?id=48620462"
+      },
+      "hot_score": 4.87,
+      "tags": [
+        "Open Source",
+        "Business"
+      ]
+    },
+    {
+      "title_en": "(How to Write a (Lisp) Interpreter (In Python)) (2010)",
+      "url": "https://norvig.com/lispy.html",
+      "title_zh": "用 Python 编写 Lisp 解释器（如何实现）",
+      "created_display": "Created: Jun 21, 2026 / 08:36 PT",
+      "image_url": null,
+      "summary_en": "This classic tutorial shows how to build a Lisp interpreter in Python, from tokenization to evaluation. It reveals core concepts like environments, recursion, and evaluation in a compact, approachable example.",
+      "summary_zh": "这篇经典教程展示了如何用 Python 构建一个 Lisp 解释器，从词法分析到求值的完整实现。通过简洁的示例，揭示环境、递归与求值等解释器核心理念，便于入门学习。",
+      "hn": {
+        "id": 48619831,
+        "type": "story",
+        "by": "tosh",
+        "score": 97,
+        "descendants": 35,
+        "time": 1782056193,
+        "comments_url": "https://news.ycombinator.com/item?id=48619831"
+      },
+      "tags": [
+        "Programming",
+        "Education"
+      ],
+      "hot_score": 4.02
+    },
+    {
+      "title_en": "Health insurance claim denial rates range from 13% to 35% by insurer",
+      "url": "https://www.randalolson.com/2026/06/16/aca-insurer-claim-denial-rates/",
+      "title_zh": "不同保险公司健康保险理赔拒付率差异显著",
+      "created_display": "Created: Jun 21, 2026 / 10:28 PT",
+      "image_url": "https://www.randalolson.com/assets/2026/06/aca-insurer-claim-denial-rates.png",
+      "summary_en": "A look at insurer-by-insurer denial rates reveals wide variation in how often claims are rejected, underscoring administrative complexity in US healthcare. The data invites discussion on transparency, policy reform, and patient impact.",
+      "summary_zh": "对各保险公司拒付率的差异进行观察，发现存在显著变异，这反映出美国医疗账单处理的复杂性。数据引发对透明度、政策改革和患者影响的讨论。",
+      "hn": {
+        "id": 48620776,
+        "type": "story",
+        "by": "brandonb",
+        "score": 48,
+        "descendants": 37,
+        "time": 1782062896,
+        "comments_url": "https://news.ycombinator.com/item?id=48620776"
+      },
+      "hot_score": 3.93,
+      "tags": [
+        "Health",
+        "Data"
+      ]
+    },
+    {
+      "title_en": "Who owns your ATProto identity?",
       "url": "https://kevinak.se/blog/who-actually-owns-your-atproto-identity-hint-its-probably-not-you",
       "title_zh": "你的 ATProto 身份归谁？线索：很可能不是你",
       "created_display": "Created: Jun 21, 2026 / 07:09 PT",
@@ -53,16 +168,15 @@
         "id": 48619140,
         "type": "story",
         "by": "kevinak",
-        "score": 62,
-        "descendants": 43,
+        "score": 131,
+        "descendants": 119,
         "time": 1782050947,
         "comments_url": "https://news.ycombinator.com/item?id=48619140"
       },
-      "hot_score": 5.75,
       "tags": [
-        "Privacy",
-        "Security"
-      ]
+        "Privacy"
+      ],
+      "hot_score": 3.64
     },
     {
       "title_en": "Google Hits 50% IPv6",
@@ -76,129 +190,59 @@
         "id": 48616800,
         "type": "story",
         "by": "barqawiz",
-        "score": 294,
-        "descendants": 286,
+        "score": 365,
+        "descendants": 359,
         "time": 1782030082,
         "comments_url": "https://news.ycombinator.com/item?id=48616800"
       },
       "tags": [
         "Web"
       ],
-      "hot_score": 5.08
+      "hot_score": 3.56
     },
     {
-      "title_en": "The case against geometric algebra (2024)",
-      "url": "https://alexkritchevsky.com/2024/02/28/geometric-algebra.html",
-      "title_zh": "反对几何代数的论证（2024）",
-      "created_display": "Created: Jun 21, 2026 / 04:06 PT",
-      "image_url": null,
-      "summary_en": "A critical take on geometric algebra argues it offers limited practical advantages over conventional vector calculus and can complicate understanding. The piece weighs its claimed unifying power against real-world adoption in physics and engineering.",
-      "summary_zh": "对几何代数的质疑指出，它在实际应用中相较传统向量微积分并无明显优势，反而可能增加理解难度。文章权衡其所宣称的统一性与在物理和工程领域的实际应用证据。",
+      "title_en": "The early hiring funnel is now breaking on both ends",
+      "url": "https://hbr.org/2026/06/ai-has-broken-hiring-heres-how-to-fix-it",
+      "title_zh": "早期招聘渠道在两端都崩溃",
+      "created_display": "Created: Jun 21, 2026 / 09:14 PT",
+      "image_url": "https://hbr.org/resources/images/article_assets/2026/05/Jun26_05_116781636.jpg",
+      "summary_en": "AI-driven changes are disrupting the early hiring funnel, creating bottlenecks on both applicant and assessment sides. The article proposes remedies like structured screening, improved candidate experience, and closer human–machine collaboration to restore flow.",
+      "summary_zh": "AI 驱动的变革正在扰乱早期招聘漏斗，造成申请端与评估端的瓶颈。文章建议通过结构化筛选、提升候选人体验，以及加强人机协作等方式来恢复招聘流程的畅通。",
       "hn": {
-        "id": 48617782,
+        "id": 48620142,
         "type": "story",
-        "by": "Hbruz0",
-        "score": 91,
-        "descendants": 65,
-        "time": 1782040015,
-        "comments_url": "https://news.ycombinator.com/item?id=48617782"
+        "by": "ChrisArchitect",
+        "score": 66,
+        "descendants": 102,
+        "time": 1782058494,
+        "comments_url": "https://news.ycombinator.com/item?id=48620142"
       },
-      "hot_score": 2.89,
+      "hot_score": 3.35,
       "tags": [
-        "Science"
+        "AI",
+        "Business"
       ]
     },
     {
-      "title_en": "Developers don't understand CORS (2019)",
-      "url": "https://fosterelli.co/developers-dont-understand-cors",
-      "title_zh": "开发者对 CORS 的误解（2019）",
-      "created_display": "Created: Jun 20, 2026 / 18:35 PT",
-      "image_url": "https://fosterelli.co/image/social.jpg",
-      "summary_en": "CORS remains a frequent source of confusion for developers; the post clarifies how browsers enforce cross-origin requests and how servers should configure headers to enable safe access. Misconfigurations cause failed fetches and security risks; understanding CORS helps build robust APIs.",
-      "summary_zh": "开发者对 CORS 的误解常见；本文澄清浏览器如何强制跨域请求以及服务器应如何配置响应头以实现安全访问。常见的误配置导致请求失败和潜在的安全风险，理解 CORS 对构建健壮的 API 很有帮助。",
+      "title_en": "The minimum viable unit of saleable software",
+      "url": "https://brandur.org/minimum-viable-unit",
+      "title_zh": "可销售软件的最小单元",
+      "created_display": "Created: Jun 21, 2026 / 09:41 PT",
+      "image_url": "https://brandur.org/assets/images/minimum-viable-unit/twitter@2x.jpg",
+      "summary_en": "Reframes product scope toward selling the smallest units of software rather than chasing a traditional MVP. This helps with pricing, packaging, and avoiding feature creep, guiding teams to ship tangible value sooner.",
+      "summary_zh": "把产品范围聚焦在可销售的最小单位，而不是追求传统 MVP。这样有助于定价、包装、避免功能堆叠，并促使团队尽快交付可验证的价值。",
       "hn": {
-        "id": 48614844,
+        "id": 48620342,
         "type": "story",
-        "by": "toilet",
-        "score": 278,
-        "descendants": 216,
-        "time": 1782005740,
-        "comments_url": "https://news.ycombinator.com/item?id=48614844"
+        "by": "brandur",
+        "score": 50,
+        "descendants": 18,
+        "time": 1782060081,
+        "comments_url": "https://news.ycombinator.com/item?id=48620342"
       },
+      "hot_score": 2.96,
       "tags": [
-        "Programming",
-        "Security"
-      ],
-      "hot_score": 1.83
-    },
-    {
-      "title_en": "Your brain was never designed for this much bad news",
-      "url": "https://www.sciencedaily.com/releases/2026/06/260614012006.htm",
-      "title_zh": "你的大脑从未为如此大量的坏消息而设计",
-      "created_display": "Created: Jun 20, 2026 / 21:02 PT",
-      "image_url": "https://www.sciencedaily.com/images/1920/serious-woman-upset-by-bad-news-on-smartphone.webp",
-      "summary_en": "New research suggests the brain is overwhelmed by ongoing bad news, with potential implications for mental health and information consumption. It highlights cumulative stress effects and the need for strategies to manage exposure.",
-      "summary_zh": "研究表明，持续的坏消息会让大脑超负荷，可能影响心理健康和信息消费方式。强调了持续性压力的累积效应，以及管理暴露程度的策略需求。",
-      "hn": {
-        "id": 48615569,
-        "type": "story",
-        "by": "colinprince",
-        "score": 194,
-        "descendants": 129,
-        "time": 1782014528,
-        "comments_url": "https://news.ycombinator.com/item?id=48615569"
-      },
-      "tags": [
-        "Science",
-        "Health"
-      ],
-      "hot_score": 1.71
-    },
-    {
-      "title_en": "A 3D voxel game engine written in APL",
-      "url": "https://github.com/namgyaaal/avoxelgame",
-      "title_zh": "用 APL 编写的三维体素游戏引擎",
-      "created_display": "Created: Jun 21, 2026 / 01:04 PT",
-      "image_url": "https://opengraph.githubassets.com/23995f78bd2b420f355d372374a0ace748227c616651207b66651c13681dfbcb/namgyaaal/avoxelgame",
-      "summary_en": "An experimental 3D voxel engine implemented in the array-oriented language APL demonstrates how unconventional tools can model space succinctly. It's not a practical game engine, but it highlights creative language design and how data-parallel reasoning can apply to graphics workloads.",
-      "summary_zh": "一个用 APL 实现的三维体素引擎是对极端语言在图形任务中潜力的有趣演示。它并非实用的游戏引擎，但凸显了语言设计的创造性，以及数据并行思维在图形工作负载中的潜在应用。",
-      "hn": {
-        "id": 48616713,
-        "type": "story",
-        "by": "sph",
-        "score": 103,
-        "descendants": 8,
-        "time": 1782029094,
-        "comments_url": "https://news.ycombinator.com/item?id=48616713"
-      },
-      "tags": [
-        "Programming",
-        "Open Source",
-        "Gaming"
-      ],
-      "hot_score": 1.68
-    },
-    {
-      "title_en": "(How to Write a (Lisp) Interpreter (In Python))",
-      "url": "https://norvig.com/lispy.html",
-      "title_zh": "用 Python 编写 Lisp 解释器（如何实现）",
-      "created_display": "Created: Jun 21, 2026 / 08:36 PT",
-      "image_url": null,
-      "summary_en": "This classic tutorial shows how to build a Lisp interpreter in Python, from tokenization to evaluation. It reveals core concepts like environments, recursion, and evaluation in a compact, approachable example.",
-      "summary_zh": "这篇经典教程展示了如何用 Python 构建一个 Lisp 解释器，从词法分析到求值的完整实现。通过简洁的示例，揭示环境、递归与求值等解释器核心理念，便于入门学习。",
-      "hn": {
-        "id": 48619831,
-        "type": "story",
-        "by": "tosh",
-        "score": 8,
-        "descendants": 1,
-        "time": 1782056193,
-        "comments_url": "https://news.ycombinator.com/item?id=48619831"
-      },
-      "hot_score": 1.62,
-      "tags": [
-        "Programming",
-        "Education"
+        "Business"
       ]
     },
     {
@@ -213,61 +257,83 @@
         "id": 48619394,
         "type": "story",
         "by": "choult",
-        "score": 13,
-        "descendants": 7,
+        "score": 92,
+        "descendants": 60,
         "time": 1782052988,
         "comments_url": "https://news.ycombinator.com/item?id=48619394"
       },
-      "hot_score": 1.52,
       "tags": [
         "Energy"
-      ]
+      ],
+      "hot_score": 2.95
     },
     {
-      "title_en": "AI Under Trump's Control: Can France Still Avoid Digital Dependence?",
-      "url": "https://thenewassociationwebmasters.blogspot.com/2026/06/ai-under-american-control-can-france.html",
-      "title_zh": "在特朗普掌控下的 AI：法国还能避免数字依赖吗？",
-      "created_display": "Created: Jun 21, 2026 / 06:51 PT",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEheaAy_w4FMd7UoDBT9SpjCFsAxz-Vbi8d1nYabBaYV21bZm3J-CLfpgM_dnDKGFXHOEOx_YaN4gLErRsOXmpcUWbTQ3joH7XzsmqDQWxiBAP_UGa9D-DvfIrQFaQ0j_xb_6pxEHnlBuomhyphenhyphen7ZrGIA31rQ-LF1yY1_5S7bPS2jYvdPJvkXOXdnqbUqUxRw/w1200-h630-p-k-no-nu/maxresdefault%20(4).jpg",
-      "summary_en": "The piece analyzes AI policy under a Trump-influenced framework and asks whether France can still achieve digital sovereignty, discussing strategies like diversifying suppliers, data localization, and Europe-wide AI initiatives.",
-      "summary_zh": "文章在特朗普影响下的 AI 政策框架下探讨法国能否实现数字自主，提出通过多元化供应、数据本地化和欧洲级 AI 战略等途径来提高自主性。",
+      "title_en": "The brain was not designed for this much bad news",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260614012006.htm",
+      "title_zh": "大脑并非为如此大量的坏消息而设计",
+      "created_display": "Created: Jun 20, 2026 / 21:02 PT",
+      "image_url": "https://www.sciencedaily.com/images/1920/serious-woman-upset-by-bad-news-on-smartphone.webp",
+      "summary_en": "Research shows constant exposure to alarming news can overwhelm attention and degrade mental health.",
+      "summary_zh": "研究显示持续暴露于让人不安的新闻会耗尽注意力并损害心理健康。文中讨论媒体摄取的影响，以及限制暴露、保护认知资源的实际策略。",
       "hn": {
-        "id": 48619005,
+        "id": 48615569,
         "type": "story",
-        "by": "laurentlof",
-        "score": 19,
-        "descendants": 8,
-        "time": 1782049891,
-        "comments_url": "https://news.ycombinator.com/item?id=48619005"
+        "by": "colinprince",
+        "score": 304,
+        "descendants": 262,
+        "time": 1782014528,
+        "comments_url": "https://news.ycombinator.com/item?id=48615569"
       },
-      "hot_score": 1.48,
+      "hot_score": 1.77,
       "tags": [
-        "Politics",
-        "AI"
+        "Science",
+        "Health"
       ]
     },
     {
-      "title_en": "David Ahl's Basic Computer Games Ported to C",
-      "url": "https://github.com/proteanthread/bcg",
-      "title_zh": "David Ahl 的《Basic Computer Games》移植到 C",
-      "created_display": "Created: Jun 21, 2026 / 05:11 PT",
-      "image_url": "https://opengraph.githubassets.com/22d50803b5cd88f3499a0e07fb00af2131363bbb020449de0aa09ac3c9c4d969/proteanthread/bcg",
-      "summary_en": "David Ahl's classic 'Basic Computer Games' has been ported to C, preserving the charm of early text-based titles while adapting them to modern tooling. The project showcases retro programming pedagogy and how BASIC semantics translate into C constructs.",
-      "summary_zh": "David Ahl 的《Basic Computer Games》被移植到 C 语言，保留了早期文字版游戏的魅力，并适配现代工具链。该项目体现了复古编程教育的价值，以及如何将 BASIC 的语义转换为 C 的实现。",
+      "title_en": "The case against geometric algebra (2024)",
+      "url": "https://alexkritchevsky.com/2024/02/28/geometric-algebra.html",
+      "title_zh": "反对几何代数的论证（2024）",
+      "created_display": "Created: Jun 21, 2026 / 04:06 PT",
+      "image_url": null,
+      "summary_en": "A critical take on geometric algebra argues it offers limited practical advantages over conventional vector calculus and can complicate understanding. The piece weighs its claimed unifying power against real-world adoption in physics and engineering.",
+      "summary_zh": "对几何代数的质疑指出，它在实际应用中相较传统向量微积分并无明显优势，反而可能增加理解难度。文章权衡其所宣称的统一性与在物理和工程领域的实际应用证据。",
       "hn": {
-        "id": 48618226,
+        "id": 48617782,
         "type": "story",
-        "by": "theanonymousone",
-        "score": 34,
-        "descendants": 14,
-        "time": 1782043889,
-        "comments_url": "https://news.ycombinator.com/item?id=48618226"
+        "by": "Hbruz0",
+        "score": 111,
+        "descendants": 98,
+        "time": 1782040015,
+        "comments_url": "https://news.ycombinator.com/item?id=48617782"
       },
-      "hot_score": 1.45,
+      "tags": [
+        "Science"
+      ],
+      "hot_score": 1.65
+    },
+    {
+      "title_en": "Developers don't understand CORS (2019)",
+      "url": "https://fosterelli.co/developers-dont-understand-cors",
+      "title_zh": "开发者对 CORS 的误解（2019）",
+      "created_display": "Created: Jun 20, 2026 / 18:35 PT",
+      "image_url": "https://fosterelli.co/image/social.jpg",
+      "summary_en": "CORS remains a frequent source of confusion for developers; the post clarifies how browsers enforce cross-origin requests and how servers should configure headers to enable safe access. Misconfigurations cause failed fetches and security risks; understanding CORS helps build robust APIs.",
+      "summary_zh": "开发者对 CORS 的误解常见；本文澄清浏览器如何强制跨域请求以及服务器应如何配置响应头以实现安全访问。常见的误配置导致请求失败和潜在的安全风险，理解 CORS 对构建健壮的 API 很有帮助。",
+      "hn": {
+        "id": 48614844,
+        "type": "story",
+        "by": "toilet",
+        "score": 310,
+        "descendants": 245,
+        "time": 1782005740,
+        "comments_url": "https://news.ycombinator.com/item?id=48614844"
+      },
       "tags": [
         "Programming",
-        "Education"
-      ]
+        "Security"
+      ],
+      "hot_score": 1.43
     },
     {
       "title_en": "Slow breathing modulates brain function and risk behavior",
@@ -281,17 +347,41 @@
         "id": 48613555,
         "type": "story",
         "by": "croes",
-        "score": 302,
-        "descendants": 84,
+        "score": 341,
+        "descendants": 97,
         "time": 1781994172,
         "comments_url": "https://news.ycombinator.com/item?id=48613555"
       },
       "tags": [
-        "Science",
         "Health",
+        "Science",
         "Politics"
       ],
-      "hot_score": 1.44
+      "hot_score": 1.2
+    },
+    {
+      "title_en": "A 3D voxel game engine written in APL",
+      "url": "https://github.com/namgyaaal/avoxelgame",
+      "title_zh": "用 APL 编写的三维体素游戏引擎",
+      "created_display": "Created: Jun 21, 2026 / 01:04 PT",
+      "image_url": "https://opengraph.githubassets.com/23995f78bd2b420f355d372374a0ace748227c616651207b66651c13681dfbcb/namgyaaal/avoxelgame",
+      "summary_en": "An experimental 3D voxel engine implemented in the array-oriented language APL demonstrates how unconventional tools can model space succinctly. It's not a practical game engine, but it highlights creative language design and how data-parallel reasoning can apply to graphics workloads.",
+      "summary_zh": "一个用 APL 实现的三维体素引擎是对极端语言在图形任务中潜力的有趣演示。它并非实用的游戏引擎，但凸显了语言设计的创造性，以及数据并行思维在图形工作负载中的潜在应用。",
+      "hn": {
+        "id": 48616713,
+        "type": "story",
+        "by": "sph",
+        "score": 124,
+        "descendants": 10,
+        "time": 1782029094,
+        "comments_url": "https://news.ycombinator.com/item?id=48616713"
+      },
+      "tags": [
+        "Programming",
+        "Open Source",
+        "Gaming"
+      ],
+      "hot_score": 1.16
     },
     {
       "title_en": "Renting a sewing machine from the library",
@@ -305,15 +395,15 @@
         "id": 48613755,
         "type": "story",
         "by": "sohkamyung",
-        "score": 289,
-        "descendants": 163,
+        "score": 314,
+        "descendants": 184,
         "time": 1781996051,
         "comments_url": "https://news.ycombinator.com/item?id=48613755"
       },
       "tags": [
         "Culture"
       ],
-      "hot_score": 1.44
+      "hot_score": 1.15
     },
     {
       "title_en": "Building reliable agentic AI systems",
@@ -327,16 +417,37 @@
         "id": 48615680,
         "type": "story",
         "by": "sarangk90",
-        "score": 141,
-        "descendants": 35,
+        "score": 171,
+        "descendants": 41,
         "time": 1782016119,
         "comments_url": "https://news.ycombinator.com/item?id=48615680"
       },
       "tags": [
-        "AI",
-        "DevOps"
+        "AI"
       ],
-      "hot_score": 1.31
+      "hot_score": 1.04
+    },
+    {
+      "title_en": "The 100k whys of AI",
+      "url": "https://lcamtuf.substack.com/p/the-100000-whys-of-ai",
+      "title_zh": "AI 的十万个为什么",
+      "created_display": "Created: Jun 20, 2026 / 22:45 PT",
+      "image_url": null,
+      "summary_en": "The essay surveys big questions about AI, from capabilities and data use to alignment, safety, and societal impact. It blends practical warnings with curiosity-driven questions, urging readers to think critically about AI deployment and governance.",
+      "summary_zh": "文章梳理了关于 AI 的一系列核心问题，包括能力、数据使用、对齐、安全与社会影响。它在提供务实警示的同时提出大量探索性问题，鼓励读者对 AI 的落地应用与治理保持批判性思维。",
+      "hn": {
+        "id": 48616017,
+        "type": "story",
+        "by": "surprisetalk",
+        "score": 149,
+        "descendants": 89,
+        "time": 1782020721,
+        "comments_url": "https://news.ycombinator.com/item?id=48616017"
+      },
+      "tags": [
+        "AI"
+      ],
+      "hot_score": 1.04
     },
     {
       "title_en": "The Wholesale Plagiarism of Obscure Sorrows",
@@ -356,10 +467,9 @@
         "comments_url": "https://news.ycombinator.com/item?id=48611411"
       },
       "tags": [
-        "Legal",
         "Culture"
       ],
-      "hot_score": 1.28
+      "hot_score": 1.0
     },
     {
       "title_en": "Windows UI evolution: Clicking an unassociated file",
@@ -373,106 +483,15 @@
         "id": 48616173,
         "type": "story",
         "by": "jandeboevrie",
-        "score": 99,
-        "descendants": 66,
+        "score": 120,
+        "descendants": 81,
         "time": 1782023092,
         "comments_url": "https://news.ycombinator.com/item?id=48616173"
       },
       "tags": [
         "Design"
       ],
-      "hot_score": 1.22
-    },
-    {
-      "title_en": "The 100k Whys of AI",
-      "url": "https://lcamtuf.substack.com/p/the-100000-whys-of-ai",
-      "title_zh": "AI 的十万个为什么",
-      "created_display": "Created: Jun 20, 2026 / 22:45 PT",
-      "image_url": null,
-      "summary_en": "The essay surveys big questions about AI, from capabilities and data use to alignment, safety, and societal impact. It blends practical warnings with curiosity-driven questions, urging readers to think critically about AI deployment and governance.",
-      "summary_zh": "文章梳理了关于 AI 的一系列核心问题，包括能力、数据使用、对齐、安全与社会影响。它在提供务实警示的同时提出大量探索性问题，鼓励读者对 AI 的落地应用与治理保持批判性思维。",
-      "hn": {
-        "id": 48616017,
-        "type": "story",
-        "by": "surprisetalk",
-        "score": 108,
-        "descendants": 56,
-        "time": 1782020721,
-        "comments_url": "https://news.ycombinator.com/item?id=48616017"
-      },
-      "hot_score": 1.2,
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "title_en": "When I reject AI code even if it works",
-      "url": "https://vinibrasil.com/when-i-reject-ai-code-even-if-it-works/",
-      "title_zh": "即使 AI 代码能工作，我也拒绝使用",
-      "created_display": "Created: Jun 20, 2026 / 17:58 PT",
-      "image_url": "https://vinibrasil.com/og/when-i-reject-ai-code-even-if-it-works.png",
-      "summary_en": "The author argues for rejecting AI-generated code even when it appears to work, citing concerns about reliability, maintainability, and hidden biases. It challenges the tendency to overtrust automated code in production.",
-      "summary_zh": "作者主张即使 AI 生成的代码能工作，也应拒绝采用，原因包括可靠性、可维护性以及隐藏偏见。该观点挑战了在生产环境中过度信任自动化代码的倾向。",
-      "hn": {
-        "id": 48614631,
-        "type": "story",
-        "by": "vnbrs",
-        "score": 180,
-        "descendants": 99,
-        "time": 1782003493,
-        "comments_url": "https://news.ycombinator.com/item?id=48614631"
-      },
-      "tags": [
-        "AI",
-        "Programming"
-      ],
-      "hot_score": 1.1
-    },
-    {
-      "title_en": "Linux eliminates the strncpy API after six years of work, 360 patches",
-      "url": "https://www.phoronix.com/news/Linux-7.2-Drops-strncpy",
-      "title_zh": "Linux 在六年工作、完成了 360 次补丁后淘汰 strncpy API",
-      "created_display": "Created: Jun 20, 2026 / 13:59 PT",
-      "image_url": "https://www.phoronix.net/image.php?id=2026&image=strncpy",
-      "summary_en": "Linux drops the deprecated strncpy API after years of work and hundreds of patches to reduce insecurity and improve safety, guiding developers toward safer alternatives and avoiding common bugs.",
-      "summary_zh": "Linux 终结已废弃的 strncpy API，历时多年并合计数百次补丁以降低安全风险，推动开发者使用更安全的替代方案。",
-      "hn": {
-        "id": 48612943,
-        "type": "story",
-        "by": "simonpure",
-        "score": 259,
-        "descendants": 271,
-        "time": 1781989180,
-        "comments_url": "https://news.ycombinator.com/item?id=48612943"
-      },
-      "tags": [
-        "Programming",
-        "Open Source"
-      ],
-      "hot_score": 1.09
-    },
-    {
-      "title_en": "Epoll vs. io_uring in Linux",
-      "url": "https://sibexi.co/posts/epoll-vs-io_uring/",
-      "title_zh": "Linux 中的 Epoll 与 io_uring 对比",
-      "created_display": "Created: Jun 20, 2026 / 16:07 PT",
-      "image_url": "https://sibexi.co/support.svg",
-      "summary_en": "A comparative look at epoll and io_uring on Linux, examining how traditional event-driven I/O (epoll) stacks up against the newer, coroutine-friendly io_uring interface.",
-      "summary_zh": "对 Linux 中的 Epoll 与 io_uring 进行对比，评估传统事件驱动 I/O（epoll）与新型、协程友好的 io_uring 的性能与复杂度。文章指出两者各自的适用场景和优势。",
-      "hn": {
-        "id": 48613872,
-        "type": "story",
-        "by": "Sibexico",
-        "score": 214,
-        "descendants": 51,
-        "time": 1781996829,
-        "comments_url": "https://news.ycombinator.com/item?id=48613872"
-      },
-      "tags": [
-        "Programming",
-        "DevOps"
-      ],
-      "hot_score": 1.09
+      "hot_score": 0.91
     },
     {
       "title_en": "CSSQuake",
@@ -493,10 +512,32 @@
       },
       "tags": [
         "Web",
-        "Design",
+        "Open Source",
         "Programming"
       ],
-      "hot_score": 1.06
+      "hot_score": 0.88
+    },
+    {
+      "title_en": "Epoll vs. io_uring in Linux",
+      "url": "https://sibexi.co/posts/epoll-vs-io_uring/",
+      "title_zh": "Linux 中的 Epoll 与 io_uring 对比",
+      "created_display": "Created: Jun 20, 2026 / 16:07 PT",
+      "image_url": "https://sibexi.co/support.svg",
+      "summary_en": "A comparative look at epoll and io_uring on Linux, examining how traditional event-driven I/O (epoll) stacks up against the newer, coroutine-friendly io_uring interface.",
+      "summary_zh": "对 Linux 中的 Epoll 与 io_uring 进行对比，评估传统事件驱动 I/O（epoll）与新型、协程友好的 io_uring 的性能与复杂度。文章指出两者各自的适用场景和优势。",
+      "hn": {
+        "id": 48613872,
+        "type": "story",
+        "by": "Sibexico",
+        "score": 233,
+        "descendants": 56,
+        "time": 1781996829,
+        "comments_url": "https://news.ycombinator.com/item?id=48613872"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 0.87
     },
     {
       "title_en": "Loupe – A iOS app that raises awareness about what native apps can see",
@@ -510,15 +551,82 @@
         "id": 48608645,
         "type": "story",
         "by": "Cider9986",
-        "score": 419,
-        "descendants": 167,
+        "score": 473,
+        "descendants": 192,
         "time": 1781957303,
         "comments_url": "https://news.ycombinator.com/item?id=48608645"
       },
       "tags": [
         "Privacy"
       ],
-      "hot_score": 0.93
+      "hot_score": 0.86
+    },
+    {
+      "title_en": "Linux eliminates the strncpy API after six years of work, 360 patches",
+      "url": "https://www.phoronix.com/news/Linux-7.2-Drops-strncpy",
+      "title_zh": "Linux 在六年工作、完成了 360 次补丁后淘汰 strncpy API",
+      "created_display": "Created: Jun 20, 2026 / 13:59 PT",
+      "image_url": "https://www.phoronix.net/image.php?id=2026&image=strncpy",
+      "summary_en": "Linux drops the deprecated strncpy API after years of work and hundreds of patches to reduce insecurity and improve safety, guiding developers toward safer alternatives and avoiding common bugs.",
+      "summary_zh": "Linux 终结已废弃的 strncpy API，历时多年并合计数百次补丁以降低安全风险，推动开发者使用更安全的替代方案。",
+      "hn": {
+        "id": 48612943,
+        "type": "story",
+        "by": "simonpure",
+        "score": 273,
+        "descendants": 288,
+        "time": 1781989180,
+        "comments_url": "https://news.ycombinator.com/item?id=48612943"
+      },
+      "tags": [
+        "Programming",
+        "Security"
+      ],
+      "hot_score": 0.86
+    },
+    {
+      "title_en": "When I reject AI code even if it works",
+      "url": "https://vinibrasil.com/when-i-reject-ai-code-even-if-it-works/",
+      "title_zh": "即使 AI 代码能工作，我也拒绝使用",
+      "created_display": "Created: Jun 20, 2026 / 17:58 PT",
+      "image_url": "https://vinibrasil.com/og/when-i-reject-ai-code-even-if-it-works.png",
+      "summary_en": "The author argues for rejecting AI-generated code even when it appears to work, citing concerns about reliability, maintainability, and hidden biases. It challenges the tendency to overtrust automated code in production.",
+      "summary_zh": "作者主张即使 AI 生成的代码能工作，也应拒绝采用，原因包括可靠性、可维护性以及隐藏偏见。该观点挑战了在生产环境中过度信任自动化代码的倾向。",
+      "hn": {
+        "id": 48614631,
+        "type": "story",
+        "by": "vnbrs",
+        "score": 180,
+        "descendants": 99,
+        "time": 1782003493,
+        "comments_url": "https://news.ycombinator.com/item?id=48614631"
+      },
+      "tags": [
+        "AI"
+      ],
+      "hot_score": 0.78
+    },
+    {
+      "title_en": "JSON-LD Explained for Personal Websites",
+      "url": "https://hawksley.dev/blog/json-ld-explained-for-personal-websites/",
+      "title_zh": "个人网站的 JSON-LD 讲解",
+      "created_display": "Created: Jun 21, 2026 / 11:51 PT",
+      "image_url": "https://hawksley.dev/og/blog/json-ld-explained-for-personal-websites.png",
+      "summary_en": "Shows how to add JSON-LD structured data to personal sites to improve search visibility. The post walks through practical examples for common schemas like Person, Website, and Organization, with implementation tips.",
+      "summary_zh": "展示如何在个人网站中添加 JSON-LD 结构化数据以提升搜索可见性。文章通过 Person、Website、Organization 等常见模式给出实用示例和实现要点。",
+      "hn": {
+        "id": 48621517,
+        "type": "story",
+        "by": "ethanhawksley",
+        "score": 5,
+        "descendants": 0,
+        "time": 1782067907,
+        "comments_url": "https://news.ycombinator.com/item?id=48621517"
+      },
+      "hot_score": 0.73,
+      "tags": [
+        "Web"
+      ]
     },
     {
       "title_en": "SMPTE Makes Its Standards Freely Accessible",
@@ -532,15 +640,37 @@
         "id": 48610827,
         "type": "story",
         "by": "zdw",
-        "score": 276,
-        "descendants": 93,
+        "score": 283,
+        "descendants": 97,
         "time": 1781974896,
         "comments_url": "https://news.ycombinator.com/item?id=48610827"
       },
       "tags": [
         "Open Source"
       ],
-      "hot_score": 0.85
+      "hot_score": 0.68
+    },
+    {
+      "title_en": "David Ahl's Basic Computer Games Ported to C",
+      "url": "https://github.com/proteanthread/bcg",
+      "title_zh": "David Ahl 的《Basic Computer Games》移植到 C",
+      "created_display": "Created: Jun 21, 2026 / 05:11 PT",
+      "image_url": "https://opengraph.githubassets.com/22d50803b5cd88f3499a0e07fb00af2131363bbb020449de0aa09ac3c9c4d969/proteanthread/bcg",
+      "summary_en": "David Ahl's classic 'Basic Computer Games' has been ported to C, preserving the charm of early text-based titles while adapting them to modern tooling. The project showcases retro programming pedagogy and how BASIC semantics translate into C constructs.",
+      "summary_zh": "David Ahl 的《Basic Computer Games》被移植到 C 语言，保留了早期文字版游戏的魅力，并适配现代工具链。该项目体现了复古编程教育的价值，以及如何将 BASIC 的语义转换为 C 的实现。",
+      "hn": {
+        "id": 48618226,
+        "type": "story",
+        "by": "theanonymousone",
+        "score": 34,
+        "descendants": 14,
+        "time": 1782043889,
+        "comments_url": "https://news.ycombinator.com/item?id=48618226"
+      },
+      "hot_score": 0.6,
+      "tags": [
+        "Programming"
+      ]
     },
     {
       "title_en": "DOS Game \"F-15 Strike Eagle II\" reversing project needs DOS test pilots",
@@ -554,60 +684,15 @@
         "id": 48609766,
         "type": "story",
         "by": "LowLevelMahn",
-        "score": 268,
-        "descendants": 69,
+        "score": 275,
+        "descendants": 70,
         "time": 1781968203,
         "comments_url": "https://news.ycombinator.com/item?id=48609766"
       },
       "tags": [
-        "Gaming"
+        "Programming"
       ],
-      "hot_score": 0.72
-    },
-    {
-      "title_en": "UHF X11: X11 Built for VisionOS and Apple Vision Pro",
-      "url": "https://www.lispm.net/apps/uhf-x11/",
-      "title_zh": "UHF X11：为 VisionOS 与 Apple Vision Pro 构建的 X11 实现",
-      "created_display": "Created: Jun 20, 2026 / 10:04 PT",
-      "image_url": "https://www.lispm.net/apps/uhf-x11/screenshot_1.jpeg",
-      "summary_en": "UHF X11 is an X11 implementation built for VisionOS and Apple Vision Pro. It enables running X11 apps in a spatial AR/VR context, lowering the barrier to port legacy Linux/Unix software to immersive devices. This could broaden toolchains for developers targeting Vision Pro.",
-      "summary_zh": "UHF X11 是为 VisionOS 与 Apple Vision Pro 构建的 X11 实现。它使在空间化的 AR/VR 场景中运行 X11 应用成为可能，降低了将遗留的 Linux/Unix 软件迁移到沉浸式设备的门槛，为开发者构建 Vision Pro 的工具链带来可能性。",
-      "hn": {
-        "id": 48610853,
-        "type": "story",
-        "by": "zdw",
-        "score": 218,
-        "descendants": 49,
-        "time": 1781975064,
-        "comments_url": "https://news.ycombinator.com/item?id=48610853"
-      },
-      "tags": [
-        "Programming",
-        "Open Source"
-      ],
-      "hot_score": 0.67
-    },
-    {
-      "title_en": "100 Greatest Bird Names of All Time",
-      "url": "https://birdhistory.substack.com/p/the-100-greatest-bird-names-of-all",
-      "title_zh": "有史以来最伟大的100个鸟名",
-      "created_display": "Created: Jun 21, 2026 / 04:50 PT",
-      "image_url": null,
-      "summary_en": "A whimsical list compiling the 100 greatest bird names, exploring etymology and cultural quirks behind avian monikers. It blends humor with linguistics, making it a delightful read for word nerds and bird enthusiasts.",
-      "summary_zh": "一份关于100个最棒鸟名的趣味清单，探索鸟名背后的词源与文化趣味。兼具幽默与语言学趣味，适合语言爱好者和鸟类爱好者阅读。",
-      "hn": {
-        "id": 48618086,
-        "type": "story",
-        "by": "bookofjoe",
-        "score": 18,
-        "descendants": 4,
-        "time": 1782042637,
-        "comments_url": "https://news.ycombinator.com/item?id=48618086"
-      },
-      "hot_score": 0.67,
-      "tags": [
-        "Culture"
-      ]
+      "hot_score": 0.59
     },
     {
       "title_en": "Unauthorized alert sent to cell phones across Brazil",
@@ -621,8 +706,8 @@
         "id": 48612502,
         "type": "story",
         "by": "zdw",
-        "score": 169,
-        "descendants": 124,
+        "score": 188,
+        "descendants": 129,
         "time": 1781985903,
         "comments_url": "https://news.ycombinator.com/item?id=48612502"
       },
@@ -630,7 +715,29 @@
         "Security",
         "DevOps"
       ],
-      "hot_score": 0.66
+      "hot_score": 0.56
+    },
+    {
+      "title_en": "UHF X11: X11 Built for VisionOS and Apple Vision Pro",
+      "url": "https://www.lispm.net/apps/uhf-x11/",
+      "title_zh": "UHF X11：为 VisionOS 与 Apple Vision Pro 构建的 X11 实现",
+      "created_display": "Created: Jun 20, 2026 / 10:04 PT",
+      "image_url": "https://www.lispm.net/apps/uhf-x11/screenshot_1.jpeg",
+      "summary_en": "UHF X11 is an X11 implementation built for VisionOS and Apple Vision Pro. It enables running X11 apps in a spatial AR/VR context, lowering the barrier to port legacy Linux/Unix software to immersive devices. This could broaden toolchains for developers targeting Vision Pro.",
+      "summary_zh": "UHF X11 是为 VisionOS 与 Apple Vision Pro 构建的 X11 实现。它使在空间化的 AR/VR 场景中运行 X11 应用成为可能，降低了将遗留的 Linux/Unix 软件迁移到沉浸式设备的门槛，为开发者构建 Vision Pro 的工具链带来可能性。",
+      "hn": {
+        "id": 48610853,
+        "type": "story",
+        "by": "zdw",
+        "score": 222,
+        "descendants": 51,
+        "time": 1781975064,
+        "comments_url": "https://news.ycombinator.com/item?id=48610853"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 0.54
     },
     {
       "title_en": "Show HN: StartupWiki – A Free Alternative to Crunchbase",
@@ -651,32 +758,32 @@
       },
       "tags": [
         "Show HN",
-        "Startups",
-        "Data"
+        "Startups"
       ],
-      "hot_score": 0.61
+      "hot_score": 0.48
     },
     {
-      "title_en": "Alice is impatient",
-      "url": "https://brooker.co.za/blog/2026/06/19/waiting.html",
-      "title_zh": "爱丽丝急不可耐",
-      "created_display": "Created: Jun 20, 2026 / 13:32 PT",
-      "image_url": "https://brooker.co.za/blog/images/feed-icon-14x14.png",
-      "summary_en": "一篇关于不耐烦、等待结果如何影响产品工作与个人项目的个人随笔。",
-      "summary_zh": "一篇关于不耐烦、等待结果如何影响产品工作与个人项目的个人随笔。",
+      "title_en": "AI Under Trump's Control: Can France Still Avoid Digital Dependence?",
+      "url": "https://thenewassociationwebmasters.blogspot.com/2026/06/ai-under-american-control-can-france.html",
+      "title_zh": "在特朗普掌控下的 AI：法国还能避免数字依赖吗？",
+      "created_display": "Created: Jun 21, 2026 / 06:51 PT",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEheaAy_w4FMd7UoDBT9SpjCFsAxz-Vbi8d1nYabBaYV21bZm3J-CLfpgM_dnDKGFXHOEOx_YaN4gLErRsOXmpcUWbTQ3joH7XzsmqDQWxiBAP_UGa9D-DvfIrQFaQ0j_xb_6pxEHnlBuomhyphenhyphen7ZrGIA31rQ-LF1yY1_5S7bPS2jYvdPJvkXOXdnqbUqUxRw/w1200-h630-p-k-no-nu/maxresdefault%20(4).jpg",
+      "summary_en": "The piece analyzes AI policy under a Trump-influenced framework and asks whether France can still achieve digital sovereignty, discussing strategies like diversifying suppliers, data localization, and Europe-wide AI initiatives.",
+      "summary_zh": "文章在特朗普影响下的 AI 政策框架下探讨法国能否实现数字自主，提出通过多元化供应、数据本地化和欧洲级 AI 战略等途径来提高自主性。",
       "hn": {
-        "id": 48612740,
+        "id": 48619005,
         "type": "story",
-        "by": "birdculture",
-        "score": 135,
-        "descendants": 36,
-        "time": 1781987574,
-        "comments_url": "https://news.ycombinator.com/item?id=48612740"
+        "by": "laurentlof",
+        "score": 19,
+        "descendants": 8,
+        "time": 1782049891,
+        "comments_url": "https://news.ycombinator.com/item?id=48619005"
       },
+      "hot_score": 0.47,
       "tags": [
-        "Career"
-      ],
-      "hot_score": 0.54
+        "Politics",
+        "AI"
+      ]
     },
     {
       "title_en": "GPT-5.5 hallucinates 3x more than MIT-licensed GLM-5.2",
@@ -690,15 +797,60 @@
         "id": 48600167,
         "type": "story",
         "by": "oshrimpton",
-        "score": 540,
-        "descendants": 272,
+        "score": 548,
+        "descendants": 280,
         "time": 1781885485,
         "comments_url": "https://news.ycombinator.com/item?id=48600167"
       },
       "tags": [
         "AI"
       ],
-      "hot_score": 0.48
+      "hot_score": 0.43
+    },
+    {
+      "title_en": "Alice is impatient",
+      "url": "https://brooker.co.za/blog/2026/06/19/waiting.html",
+      "title_zh": "爱丽丝急不可耐",
+      "created_display": "Created: Jun 20, 2026 / 13:32 PT",
+      "image_url": "https://brooker.co.za/blog/images/feed-icon-14x14.png",
+      "summary_en": "一篇关于不耐烦、等待结果如何影响产品工作与个人项目的个人随笔。",
+      "summary_zh": "一篇关于不耐烦、等待结果如何影响产品工作与个人项目的个人随笔。",
+      "hn": {
+        "id": 48612740,
+        "type": "story",
+        "by": "birdculture",
+        "score": 140,
+        "descendants": 38,
+        "time": 1781987574,
+        "comments_url": "https://news.ycombinator.com/item?id=48612740"
+      },
+      "tags": [
+        "Culture"
+      ],
+      "hot_score": 0.43
+    },
+    {
+      "title_en": "NSA director: 'Mythos \"broke into almost all of our classified systems in hours\"",
+      "url": "https://www.economist.com/briefing/2026/06/14/donald-trumps-blocking-of-anthropic-is-capricious-and-chaotic",
+      "title_zh": "NSA 局长：Mythos 在数小时内就闯入了几乎所有机密系统",
+      "created_display": "Created: Jun 21, 2026 / 02:45 PT",
+      "image_url": null,
+      "summary_en": "NSA leadership warns that AI-enabled tools like Mythos could infiltrate classified networks within hours, underscoring the need for stronger security, auditing, and policy responses.",
+      "summary_zh": "NSA 领导层警告称，像 Mythos 这样的 AI 工具可能在数小时内侵入机密网络，强调需要强化安全、审计与相关政策应对，对国家安全和防御研究影响深远。",
+      "hn": {
+        "id": 48617278,
+        "type": "story",
+        "by": "ricksunny",
+        "score": 36,
+        "descendants": 37,
+        "time": 1782035106,
+        "comments_url": "https://news.ycombinator.com/item?id=48617278"
+      },
+      "hot_score": 0.42,
+      "tags": [
+        "Security",
+        "AI"
+      ]
     },
     {
       "title_en": "Show HN: TownSquare, a tiny presence layer for websites",
@@ -712,41 +864,15 @@
         "id": 48608570,
         "type": "story",
         "by": "cauenapier",
-        "score": 218,
-        "descendants": 123,
+        "score": 225,
+        "descendants": 130,
         "time": 1781956503,
         "comments_url": "https://news.ycombinator.com/item?id=48608570"
       },
       "tags": [
-        "Show HN",
-        "Web"
+        "Show HN"
       ],
-      "hot_score": 0.48
-    },
-    {
-      "title_en": "Show HN: Make PDFs look scanned (CLI or in the browser via WASM)",
-      "url": "https://github.com/overflowy/make-look-scanned",
-      "title_zh": "Show HN：让 PDF 看起来像扫描件（CLI 或 WASM 浏览器实现）",
-      "created_display": "Created: Jun 20, 2026 / 11:17 PT",
-      "image_url": "https://opengraph.githubassets.com/231665a86f46443c4fba2122eca4ccba38f19d61771fc0cc00bb0a970111b18f/overflowy/make-look-scanned",
-      "summary_en": "Introducing a tool that renders PDFs with a scanned appearance, usable from CLI or in-browser via WebAssembly. It can help with document privacy, archiving, or design experiments.",
-      "summary_zh": "推出一个能让 PDF 看起来像扫描件的工具，支持命令行使用或在浏览器中通过 WASM 运行，适用于隐私保护、归档或设计实验。",
-      "hn": {
-        "id": 48611513,
-        "type": "story",
-        "by": "overflowy",
-        "score": 135,
-        "descendants": 58,
-        "time": 1781979478,
-        "comments_url": "https://news.ycombinator.com/item?id=48611513"
-      },
-      "tags": [
-        "Show HN",
-        "Programming",
-        "Privacy",
-        "Web"
-      ],
-      "hot_score": 0.45
+      "hot_score": 0.4
     },
     {
       "title_en": "Temporary Cloudflare accounts for AI agents",
@@ -767,9 +893,34 @@
       },
       "tags": [
         "Security",
+        "DevOps",
         "AI"
       ],
-      "hot_score": 0.44
+      "hot_score": 0.36
+    },
+    {
+      "title_en": "Show HN: Make PDFs look scanned (CLI or in the browser via WASM)",
+      "url": "https://github.com/overflowy/make-look-scanned",
+      "title_zh": "Show HN：让 PDF 看起来像扫描件（CLI 或 WASM 浏览器实现）",
+      "created_display": "Created: Jun 20, 2026 / 11:17 PT",
+      "image_url": "https://opengraph.githubassets.com/231665a86f46443c4fba2122eca4ccba38f19d61771fc0cc00bb0a970111b18f/overflowy/make-look-scanned",
+      "summary_en": "Introducing a tool that renders PDFs with a scanned appearance, usable from CLI or in-browser via WebAssembly. It can help with document privacy, archiving, or design experiments.",
+      "summary_zh": "推出一个能让 PDF 看起来像扫描件的工具，支持命令行使用或在浏览器中通过 WASM 运行，适用于隐私保护、归档或设计实验。",
+      "hn": {
+        "id": 48611513,
+        "type": "story",
+        "by": "overflowy",
+        "score": 135,
+        "descendants": 58,
+        "time": 1781979478,
+        "comments_url": "https://news.ycombinator.com/item?id=48611513"
+      },
+      "tags": [
+        "Show HN",
+        "Privacy",
+        "Web"
+      ],
+      "hot_score": 0.35
     },
     {
       "title_en": "Bun has an open PR adding shared-memory threads to JavaScriptCore",
@@ -792,7 +943,74 @@
         "Programming",
         "Hardware"
       ],
-      "hot_score": 0.42
+      "hot_score": 0.33
+    },
+    {
+      "title_en": "PostgresBench: A Reproducible Benchmark for Postgres Services",
+      "url": "https://clickhouse.com/blog/postgresbench",
+      "title_zh": "PostgresBench：可复现的 Postgres 服务基准测试",
+      "created_display": "Created: Jun 20, 2026 / 12:01 PT",
+      "image_url": "https://clickhouse.com/_next/image?url=%2Fuploads%2Fpostgres_bench_banner_48e7472b90.jpg&w=1200&h=630&q=80",
+      "summary_en": "Public benchmark suite PostgresBench offers a reproducible framework to compare Postgres deployments across services and environments. It standardizes workloads and metrics, making it easier to isolate performance differences and optimize configurations.",
+      "summary_zh": "PostgresBench 提供一个可复现的基准框架，用于在不同服务和环境中对 Postgres 部署进行对比。它标准化工作负载和指标，便于定位性能差异并优化配置。",
+      "hn": {
+        "id": 48611942,
+        "type": "story",
+        "by": "saisrirampur",
+        "score": 107,
+        "descendants": 22,
+        "time": 1781982070,
+        "comments_url": "https://news.ycombinator.com/item?id=48611942"
+      },
+      "tags": [
+        "Data"
+      ],
+      "hot_score": 0.29
+    },
+    {
+      "title_en": "Don’t use AI to write things that you present as your own work",
+      "url": "https://www.satisfice.com/blog/archives/488148",
+      "title_zh": "别把 AI 写作当作自己的作品来展示",
+      "created_display": "Created: Jun 20, 2026 / 21:50 PT",
+      "image_url": "https://www.satisfice.com/wp-content/uploads/2025/08/ttscopy2.jpg",
+      "summary_en": "Argues against presenting AI-generated text as one’s own work, outlining ethical guidelines and potential plagiarism risks. Encourages attribution and transparency when using AI for writing tasks.",
+      "summary_zh": "反对将 AI 生成的文本当作自己的作品来展示，提出使用 AI 写作时的伦理准则与潜在的抄袭风险，鼓励在写作任务中保持署名与透明。",
+      "hn": {
+        "id": 48615776,
+        "type": "story",
+        "by": "satisfice",
+        "score": 47,
+        "descendants": 54,
+        "time": 1782017446,
+        "comments_url": "https://news.ycombinator.com/item?id=48615776"
+      },
+      "hot_score": 0.29,
+      "tags": [
+        "Culture",
+        "AI"
+      ]
+    },
+    {
+      "title_en": "100 Greatest Bird Names of All Time",
+      "url": "https://birdhistory.substack.com/p/the-100-greatest-bird-names-of-all",
+      "title_zh": "有史以来最伟大的100个鸟名",
+      "created_display": "Created: Jun 21, 2026 / 04:50 PT",
+      "image_url": null,
+      "summary_en": "A whimsical list compiling the 100 greatest bird names, exploring etymology and cultural quirks behind avian monikers. It blends humor with linguistics, making it a delightful read for word nerds and bird enthusiasts.",
+      "summary_zh": "一份关于100个最棒鸟名的趣味清单，探索鸟名背后的词源与文化趣味。兼具幽默与语言学趣味，适合语言爱好者和鸟类爱好者阅读。",
+      "hn": {
+        "id": 48618086,
+        "type": "story",
+        "by": "bookofjoe",
+        "score": 18,
+        "descendants": 4,
+        "time": 1782042637,
+        "comments_url": "https://news.ycombinator.com/item?id=48618086"
+      },
+      "hot_score": 0.29,
+      "tags": [
+        "Culture"
+      ]
     },
     {
       "title_en": "Project Fetch: Phase Two",
@@ -814,51 +1032,7 @@
       "tags": [
         "AI"
       ],
-      "hot_score": 0.39
-    },
-    {
-      "title_en": "PostgresBench: A Reproducible Benchmark for Postgres Services",
-      "url": "https://clickhouse.com/blog/postgresbench",
-      "title_zh": "PostgresBench：可复现的 Postgres 服务基准测试",
-      "created_display": "Created: Jun 20, 2026 / 12:01 PT",
-      "image_url": "https://clickhouse.com/_next/image?url=%2Fuploads%2Fpostgres_bench_banner_48e7472b90.jpg&w=1200&h=630&q=80",
-      "summary_en": "Public benchmark suite PostgresBench offers a reproducible framework to compare Postgres deployments across services and environments. It standardizes workloads and metrics, making it easier to isolate performance differences and optimize configurations.",
-      "summary_zh": "PostgresBench 提供一个可复现的基准框架，用于在不同服务和环境中对 Postgres 部署进行对比。它标准化工作负载和指标，便于定位性能差异并优化配置。",
-      "hn": {
-        "id": 48611942,
-        "type": "story",
-        "by": "saisrirampur",
-        "score": 107,
-        "descendants": 22,
-        "time": 1781982070,
-        "comments_url": "https://news.ycombinator.com/item?id=48611942"
-      },
-      "tags": [
-        "DevOps"
-      ],
-      "hot_score": 0.38
-    },
-    {
-      "title_en": "Armstrong Effect",
-      "url": "https://en.wikipedia.org/wiki/Armstrong_effect",
-      "title_zh": "阿姆斯特朗效应",
-      "created_display": "Created: Jun 20, 2026 / 20:54 PT",
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Meyers_b5_s0529_b3.png",
-      "summary_en": "In electronics and radio history, the Armstrong effect refers to positive feedback in regenerative circuits that enables oscillation, a foundational concept behind early radios. The note highlights how such effects shaped design choices in RF amplifiers and receivers.",
-      "summary_zh": "在电子学和无线电史上，阿姆斯特朗效应指的是再生电路中的正反馈，使振荡成为可能，是早期无线电的基础概念之一。该文点出这一效应如何影响射频放大器与接收机的设计。",
-      "hn": {
-        "id": 48615529,
-        "type": "story",
-        "by": "userbinator",
-        "score": 39,
-        "descendants": 2,
-        "time": 1782014062,
-        "comments_url": "https://news.ycombinator.com/item?id=48615529"
-      },
-      "tags": [
-        "Hardware"
-      ],
-      "hot_score": 0.33
+      "hot_score": 0.28
     },
     {
       "title_en": "The rise of South Korea’s weapons business",
@@ -878,54 +1052,31 @@
         "comments_url": "https://news.ycombinator.com/item?id=48608515"
       },
       "tags": [
-        "Politics",
         "Business"
       ],
-      "hot_score": 0.31
+      "hot_score": 0.26
     },
     {
-      "title_en": "Safe SIMD in Rust, Even on the Inside – By Sergey \"Shnatsel\" Davidoff",
-      "url": "https://shnatsel.medium.com/safe-simd-in-rust-even-on-the-inside-c6f1ff381828",
-      "title_zh": "Rust 的安全 SIMD：内部实现也能保持内存安全",
-      "created_display": "Created: Jun 21, 2026 / 05:40 PT",
-      "image_url": "https://miro.medium.com/v2/da:true/bc1f8416df0cad099e43cda2872716e5864f18a73bda2a7547ea082aca9b5632",
-      "summary_en": "A deep dive into safe SIMD usage in Rust by Sergey Davidoff explains how to use SIMD without compromising safety, including architectural caveats and compiler-friendly patterns. It shows practical ways to keep performance gains while preserving correctness.",
-      "summary_zh": "Shnatsel（Sergey Davidoff）深入讲解在 Rust 中如何安全使用 SIMD，包括架构注意事项与对编译器友好的实现模式。提供保持高性能同时确保正确性的实用做法。",
+      "title_en": "Armstrong Effect",
+      "url": "https://en.wikipedia.org/wiki/Armstrong_effect",
+      "title_zh": "阿姆斯特朗效应",
+      "created_display": "Created: Jun 20, 2026 / 20:54 PT",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Meyers_b5_s0529_b3.png",
+      "summary_en": "In electronics and radio history, the Armstrong effect refers to positive feedback in regenerative circuits that enables oscillation, a foundational concept behind early radios. The note highlights how such effects shaped design choices in RF amplifiers and receivers.",
+      "summary_zh": "在电子学和无线电史上，阿姆斯特朗效应指的是再生电路中的正反馈，使振荡成为可能，是早期无线电的基础概念之一。该文点出这一效应如何影响射频放大器与接收机的设计。",
       "hn": {
-        "id": 48618427,
+        "id": 48615529,
         "type": "story",
-        "by": "rbanffy",
-        "score": 7,
-        "descendants": 0,
-        "time": 1782045655,
-        "comments_url": "https://news.ycombinator.com/item?id=48618427"
-      },
-      "hot_score": 0.31,
-      "tags": [
-        "Programming"
-      ]
-    },
-    {
-      "title_en": "The Lost Story of Alan Turing's \"Delilah\" Project (2025)",
-      "url": "https://spectrum.ieee.org/alan-turings-delilah",
-      "title_zh": "阿兰·图灵的“Delilah”计划的失落故事",
-      "created_display": "Created: Jun 20, 2026 / 22:15 PT",
-      "image_url": "https://spectrum.ieee.org/media-library/image.jpg?id=56152253&width=1200&height=600&coordinates=0%2C15%2C0%2C15",
-      "summary_en": "The piece uncovers a forgotten wartime project code-named Delilah, shedding light on Turing-era attempts at cryptanalytic or computational work amid WWII. It situates the project within Turing's broader legacy and early computing history, offering a nuanced glimpse into speculative wartime research.",
-      "summary_zh": "文章揭示了一个被遗忘的二战项目，代号 Delilah，揭示图灵时代在密码分析或计算研究方面的尝试。它将该项目置于图灵总体遗产与早期计算史的语境中，提供对战时研究的细致观察。",
-      "hn": {
-        "id": 48615890,
-        "type": "story",
-        "by": "asdefghyk",
-        "score": 28,
-        "descendants": 1,
-        "time": 1782018933,
-        "comments_url": "https://news.ycombinator.com/item?id=48615890"
+        "by": "userbinator",
+        "score": 39,
+        "descendants": 2,
+        "time": 1782014062,
+        "comments_url": "https://news.ycombinator.com/item?id=48615529"
       },
       "tags": [
         "Science"
       ],
-      "hot_score": 0.28
+      "hot_score": 0.22
     },
     {
       "title_en": "Bootimus – A Self-Contained PXE and HTTP Boot Server",
@@ -947,7 +1098,29 @@
       "tags": [
         "DevOps"
       ],
-      "hot_score": 0.24
+      "hot_score": 0.2
+    },
+    {
+      "title_en": "The Lost Story of Alan Turing's \"Delilah\" Project (2025)",
+      "url": "https://spectrum.ieee.org/alan-turings-delilah",
+      "title_zh": "阿兰·图灵的“Delilah”计划的失落故事",
+      "created_display": "Created: Jun 20, 2026 / 22:15 PT",
+      "image_url": "https://spectrum.ieee.org/media-library/image.jpg?id=56152253&width=1200&height=600&coordinates=0%2C15%2C0%2C15",
+      "summary_en": "The piece uncovers a forgotten wartime project code-named Delilah, shedding light on Turing-era attempts at cryptanalytic or computational work amid WWII. It situates the project within Turing's broader legacy and early computing history, offering a nuanced glimpse into speculative wartime research.",
+      "summary_zh": "文章揭示了一个被遗忘的二战项目，代号 Delilah，揭示图灵时代在密码分析或计算研究方面的尝试。它将该项目置于图灵总体遗产与早期计算史的语境中，提供对战时研究的细致观察。",
+      "hn": {
+        "id": 48615890,
+        "type": "story",
+        "by": "asdefghyk",
+        "score": 28,
+        "descendants": 1,
+        "time": 1782018933,
+        "comments_url": "https://news.ycombinator.com/item?id=48615890"
+      },
+      "tags": [
+        "Science"
+      ],
+      "hot_score": 0.18
     },
     {
       "title_en": "Show HN: My Windows XP portfolio with working Game Boy and iPod",
@@ -970,29 +1143,7 @@
         "Show HN",
         "Hardware"
       ],
-      "hot_score": 0.22
-    },
-    {
-      "title_en": "Millimeter wave technology drills 100 meters into granite",
-      "url": "https://www.thinkgeoenergy.com/quaise-energy-achieves-100-meters-of-drilling-using-millimeter-wave-technology/",
-      "title_zh": "毫米波技术将钻探深度推至花岗岩100米",
-      "created_display": "Created: Jun 20, 2026 / 11:24 PT",
-      "image_url": null,
-      "summary_en": "Millimeter-wave drilling pushes to 100 meters into granite, showcasing ultra-high-frequency drilling methods with potential implications for subsurface resource exploration and geothermal applications.",
-      "summary_zh": "毫米波钻探将钻深推至花岗岩 100 米，展示超高频钻探方法，对地下资源勘探和地热应用具有潜在影响。",
-      "hn": {
-        "id": 48611585,
-        "type": "story",
-        "by": "Jimmc414",
-        "score": 61,
-        "descendants": 8,
-        "time": 1781979895,
-        "comments_url": "https://news.ycombinator.com/item?id=48611585"
-      },
-      "tags": [
-        "Hardware"
-      ],
-      "hot_score": 0.21
+      "hot_score": 0.17
     },
     {
       "title_en": "Show HN: We post-trained a model that pen tests instead of refusing",
@@ -1016,7 +1167,29 @@
         "AI",
         "Security"
       ],
-      "hot_score": 0.2
+      "hot_score": 0.16
+    },
+    {
+      "title_en": "Millimeter wave technology drills 100 meters into granite",
+      "url": "https://www.thinkgeoenergy.com/quaise-energy-achieves-100-meters-of-drilling-using-millimeter-wave-technology/",
+      "title_zh": "毫米波技术将钻探深度推至花岗岩100米",
+      "created_display": "Created: Jun 20, 2026 / 11:24 PT",
+      "image_url": null,
+      "summary_en": "Millimeter-wave drilling pushes to 100 meters into granite, showcasing ultra-high-frequency drilling methods with potential implications for subsurface resource exploration and geothermal applications.",
+      "summary_zh": "毫米波钻探将钻深推至花岗岩 100 米，展示超高频钻探方法，对地下资源勘探和地热应用具有潜在影响。",
+      "hn": {
+        "id": 48611585,
+        "type": "story",
+        "by": "Jimmc414",
+        "score": 61,
+        "descendants": 8,
+        "time": 1781979895,
+        "comments_url": "https://news.ycombinator.com/item?id=48611585"
+      },
+      "tags": [
+        "Science"
+      ],
+      "hot_score": 0.16
     },
     {
       "title_en": "Running MicroVMs in Proxmox VE, the Easy Way",
@@ -1030,8 +1203,8 @@
         "id": 48599555,
         "type": "story",
         "by": "zdw",
-        "score": 139,
-        "descendants": 17,
+        "score": 180,
+        "descendants": 26,
         "time": 1781881991,
         "comments_url": "https://news.ycombinator.com/item?id=48599555"
       },
@@ -1039,7 +1212,29 @@
         "DevOps",
         "Startups"
       ],
-      "hot_score": 0.12
+      "hot_score": 0.14
+    },
+    {
+      "title_en": "Safe SIMD in Rust, Even on the Inside – By Sergey \"Shnatsel\" Davidoff",
+      "url": "https://shnatsel.medium.com/safe-simd-in-rust-even-on-the-inside-c6f1ff381828",
+      "title_zh": "Rust 的安全 SIMD：内部实现也能保持内存安全",
+      "created_display": "Created: Jun 21, 2026 / 05:40 PT",
+      "image_url": "https://miro.medium.com/v2/da:true/bc1f8416df0cad099e43cda2872716e5864f18a73bda2a7547ea082aca9b5632",
+      "summary_en": "A deep dive into safe SIMD usage in Rust by Sergey Davidoff explains how to use SIMD without compromising safety, including architectural caveats and compiler-friendly patterns. It shows practical ways to keep performance gains while preserving correctness.",
+      "summary_zh": "Shnatsel（Sergey Davidoff）深入讲解在 Rust 中如何安全使用 SIMD，包括架构注意事项与对编译器友好的实现模式。提供保持高性能同时确保正确性的实用做法。",
+      "hn": {
+        "id": 48618427,
+        "type": "story",
+        "by": "rbanffy",
+        "score": 7,
+        "descendants": 0,
+        "time": 1782045655,
+        "comments_url": "https://news.ycombinator.com/item?id=48618427"
+      },
+      "hot_score": 0.12,
+      "tags": [
+        "Programming"
+      ]
     },
     {
       "title_en": "15-minute at-home Lyme disease tick test",
@@ -1053,8 +1248,8 @@
         "id": 48584261,
         "type": "story",
         "by": "bookofjoe",
-        "score": 167,
-        "descendants": 122,
+        "score": 195,
+        "descendants": 139,
         "time": 1781785356,
         "comments_url": "https://news.ycombinator.com/item?id=48584261"
       },
@@ -1081,9 +1276,166 @@
         "comments_url": "https://news.ycombinator.com/item?id=48605310"
       },
       "tags": [
-        "Design"
+        "Design",
+        "Culture"
       ],
-      "hot_score": 0.07
+      "hot_score": 0.06
+    },
+    {
+      "title_en": "Proportional-Integral-Derivative (PID) controllers",
+      "url": "https://en.wikipedia.org/wiki/PID_controller",
+      "title_zh": "比例-积分-微分（PID）控制器",
+      "created_display": "Created: Jun 19, 2026 / 09:28 PT",
+      "image_url": "https://en.wikipedia.org/static/images/icons/enwiki-25.svg",
+      "summary_en": "Provides an overview of PID controllers, showing how proportional, integral, and derivative terms work together to regulate systems. Includes common tuning methods and examples across robotics and process control.",
+      "summary_zh": "概述 PID 控制器，解释比例、积分、微分三项如何协同作用以稳定系统，并介绍常见的调参方法及在机器人和过程控制中的应用示例。",
+      "hn": {
+        "id": 48600311,
+        "type": "story",
+        "by": "dhorthy",
+        "score": 67,
+        "descendants": 42,
+        "time": 1781886499,
+        "comments_url": "https://news.ycombinator.com/item?id=48600311"
+      },
+      "hot_score": 0.05,
+      "tags": [
+        "Science",
+        "Politics"
+      ]
+    },
+    {
+      "title_en": "Show HN: Pulse – Dashboard for Claude Code, approve tool calls from your phone",
+      "url": "https://github.com/nikitadoudikov/claude-pulse",
+      "title_zh": "Show HN：Pulse—— Claude Code 的仪表板，手机即可批准工具调用",
+      "created_display": "Created: Jun 20, 2026 / 13:46 PT",
+      "image_url": "https://opengraph.githubassets.com/bbc3c11483dd8aba50e919779735534130706b7166217aa0175ca75fee5d0236/nikitadoudikov/claude-pulse",
+      "summary_en": "Presents Pulse, a mobile dashboard for Claude Code that lets you approve tool calls from your phone, streamlining AI-assisted coding workflows. A practical productivity boost for developers integrating Claude Code into their workflow.",
+      "summary_zh": "介绍 Pulse，这是一个用于 Claude Code 的手机仪表板，允许从手机批准工具调用，简化 AI 辅助编码的工作流。为将 Claude Code 集成到工作流中的开发者带来实用的生产力提升。",
+      "hn": {
+        "id": 48612844,
+        "type": "story",
+        "by": "nikitadvd",
+        "score": 16,
+        "descendants": 7,
+        "time": 1781988410,
+        "comments_url": "https://news.ycombinator.com/item?id=48612844"
+      },
+      "hot_score": 0.05,
+      "tags": [
+        "Show HN",
+        "AI"
+      ]
+    },
+    {
+      "title_en": "Whole cross-sectional human ultrasound tomography",
+      "url": "https://www.nature.com/articles/s41551-026-01660-4",
+      "title_zh": "全横截面人体超声层析成像",
+      "created_display": "Created: Jun 18, 2026 / 02:23 PT",
+      "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41551-026-01660-4/MediaObjects/41551_2026_1660_Fig1_HTML.png",
+      "summary_en": "A breakthrough in ultrasound imaging enabling whole cross-sectional tomography of the human body, offering non-invasive, high-resolution views that could aid in diagnostics.",
+      "summary_zh": "在超声成像方面取得突破，能够对人体整幅横截面进行层析成像，提供非侵入性且高分辨率的影像，有助于诊断。",
+      "hn": {
+        "id": 48582894,
+        "type": "story",
+        "by": "lnyan",
+        "score": 105,
+        "descendants": 21,
+        "time": 1781774596,
+        "comments_url": "https://news.ycombinator.com/item?id=48582894"
+      },
+      "tags": [
+        "Science"
+      ],
+      "hot_score": 0.04
+    },
+    {
+      "title_en": "The Commodore Callback 8020 smart flip phone",
+      "url": "https://www.wired.me/story/commodore-made-a-digital-detox-phone-that-isnt-dumb",
+      "title_zh": "Commodore 的 Callback 8020 智能翻盖手机",
+      "created_display": "Created: Jun 18, 2026 / 09:12 PT",
+      "image_url": "https://media.wired.me/photos/6a328ee00a168f349242f18e/191:100/w_1280,c_limit/Commodore%20Callback%208020%20-%20ProtoPET%20005.jpg",
+      "summary_en": "Spotlights Commodore's retro-styled 'Callback 8020' flip phone pitched as a digital detox device with modern capabilities. It exemplifies nostalgia-driven hardware that emphasizes simplicity over feature bloat.",
+      "summary_zh": "聚焦 Commodore 推出的复古风格翻盖手机 Callback 8020，定位为数字戒断设备并具备现代功能。体现了以简化为卖点的怀旧硬件趋势及其市场动机。",
+      "hn": {
+        "id": 48587619,
+        "type": "story",
+        "by": "Audiophilip",
+        "score": 94,
+        "descendants": 69,
+        "time": 1781799141,
+        "comments_url": "https://news.ycombinator.com/item?id=48587619"
+      },
+      "hot_score": 0.04,
+      "tags": [
+        "Hardware"
+      ]
+    },
+    {
+      "title_en": "Zigzag Decoding with AVX-512",
+      "url": "https://zeux.io/2026/06/17/zigzag-decoding-avx512/",
+      "title_zh": "使用 AVX-512 的 Zigzag 解码",
+      "created_display": "Created: Jun 17, 2026 / 10:43 PT",
+      "image_url": "https://zeux.io/images/avatar.jpg",
+      "summary_en": "A vectorized zigzag decoding routine built with AVX-512 delivers meaningful speedups over scalar code, demonstrating how wide SIMD can accelerate data-reordering steps in codecs. The post emphasizes careful data layout and alignment to squeeze throughput.",
+      "summary_zh": "基于 AVX-512 的 Zigzag 解码实现对标量版本实现了显著加速，展示了宽 SIMD 如何提升编解码中数据重排步骤的吞吐量。文中强调通过对齐和数据布局来最大化向量化性能。",
+      "hn": {
+        "id": 48573902,
+        "type": "story",
+        "by": "luu",
+        "score": 119,
+        "descendants": 21,
+        "time": 1781718202,
+        "comments_url": "https://news.ycombinator.com/item?id=48573902"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 0.03
+    },
+    {
+      "title_en": "Two Qwen3 models on one DGX Spark: the residency math",
+      "url": "https://www.devashish.me/p/two-qwen3-models-on-one-dgx-spark",
+      "title_zh": "在同一 DGX Spark 上部署两个 Qwen3 模型：驻留成本研究",
+      "created_display": "Created: Jun 18, 2026 / 09:29 PT",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!wZwx!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3e38eb27-f62d-407f-a4a0-26b740272793_1024x559.png",
+      "summary_en": "Two Qwen3 models on a single DGX Spark explores memory sharing between models, including latency, throughput, and batch size tradeoffs.",
+      "summary_zh": "在同一台 DGX Spark 上运行两个 Qwen3 模型，探讨模型间的显存共享、以及延迟、吞吐与批量大小等权衡。文章聚焦单一加速器上部署多模型的实际限制。",
+      "hn": {
+        "id": 48587865,
+        "type": "story",
+        "by": "devashish86",
+        "score": 73,
+        "descendants": 34,
+        "time": 1781800192,
+        "comments_url": "https://news.ycombinator.com/item?id=48587865"
+      },
+      "tags": [
+        "AI"
+      ],
+      "hot_score": 0.03
+    },
+    {
+      "title_en": "Guide to the TD4 4-bit DIY CPU",
+      "url": "https://www.philipzucker.com/td4-4bit-cpu/",
+      "title_zh": "TD4 四位 DIY CPU 指南",
+      "created_display": "Created: Jun 18, 2026 / 13:44 PT",
+      "image_url": "https://www.philipzucker.com/assets/logo.png",
+      "summary_en": "The TD4 4-bit CPU guide walks through a tiny processor design, including instruction set basics and construction hints for hobbyists. It serves as a hands-on primer on how simple CPUs operate and why architectural decisions matter even at small scales.",
+      "summary_zh": "TD4 是一个4位处理器：本指南介绍基础指令集、架构要点与爱好者搭建的实用建议。通过动手实践，帮助读者理解简单 CPU 的工作原理，以及为何小型规模的架构决策也很关键。",
+      "hn": {
+        "id": 48591276,
+        "type": "story",
+        "by": "andrewstuart",
+        "score": 60,
+        "descendants": 6,
+        "time": 1781815440,
+        "comments_url": "https://news.ycombinator.com/item?id=48591276"
+      },
+      "tags": [
+        "Hardware"
+      ],
+      "hot_score": 0.03
     },
     {
       "title_en": "Nothing's co-founder says CMF can't build a phone 'at a price that makes sense'",
@@ -1102,101 +1454,11 @@
         "time": 1782033002,
         "comments_url": "https://news.ycombinator.com/item?id=48617059"
       },
-      "hot_score": 0.06,
+      "hot_score": 0.03,
       "tags": [
         "Hardware",
-        "Business"
+        "Startups"
       ]
-    },
-    {
-      "title_en": "Proportional-Integral-Derivative Controllers",
-      "url": "https://en.wikipedia.org/wiki/PID_controller",
-      "title_zh": "PID 控制器（比例-积分-微分控制器）",
-      "created_display": "Created: Jun 19, 2026 / 09:28 PT",
-      "image_url": "https://en.wikipedia.org/static/images/icons/enwiki-25.svg",
-      "summary_en": "PID controllers remain the workhorse for feedback control, combining proportional, integral, and derivative terms to balance speed and stability. The note highlights core tuning ideas and common pitfalls, such as integral windup and noisy measurements, with quick heuristics for practical settings.",
-      "summary_zh": "PID 控制器仍是反馈控制的主力，通过比例、积分和微分三要素来在响应速度与稳定性之间取舍。文中概述了核心的整定思路以及常见问题，如积分饱和和测量噪声，并给出实用的调参要点。",
-      "hn": {
-        "id": 48600311,
-        "type": "story",
-        "by": "dhorthy",
-        "score": 58,
-        "descendants": 30,
-        "time": 1781886499,
-        "comments_url": "https://news.ycombinator.com/item?id=48600311"
-      },
-      "tags": [
-        "Science"
-      ],
-      "hot_score": 0.05
-    },
-    {
-      "title_en": "Whole cross-sectional human ultrasound tomography",
-      "url": "https://www.nature.com/articles/s41551-026-01660-4",
-      "title_zh": "全横截面人体超声层析成像",
-      "created_display": "Created: Jun 18, 2026 / 02:23 PT",
-      "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41551-026-01660-4/MediaObjects/41551_2026_1660_Fig1_HTML.png",
-      "summary_en": "A breakthrough in ultrasound imaging enabling whole cross-sectional tomography of the human body, offering non-invasive, high-resolution views that could aid in diagnostics.",
-      "summary_zh": "在超声成像方面取得突破，能够对人体整幅横截面进行层析成像，提供非侵入性且高分辨率的影像，有助于诊断。",
-      "hn": {
-        "id": 48582894,
-        "type": "story",
-        "by": "lnyan",
-        "score": 97,
-        "descendants": 19,
-        "time": 1781774596,
-        "comments_url": "https://news.ycombinator.com/item?id=48582894"
-      },
-      "tags": [
-        "Science"
-      ],
-      "hot_score": 0.04
-    },
-    {
-      "title_en": "Zigzag Decoding with AVX-512",
-      "url": "https://zeux.io/2026/06/17/zigzag-decoding-avx512/",
-      "title_zh": "使用 AVX-512 的 Zigzag 解码",
-      "created_display": "Created: Jun 17, 2026 / 10:43 PT",
-      "image_url": "https://zeux.io/images/avatar.jpg",
-      "summary_en": "A vectorized zigzag decoding routine built with AVX-512 delivers meaningful speedups over scalar code, demonstrating how wide SIMD can accelerate data-reordering steps in codecs. The post emphasizes careful data layout and alignment to squeeze throughput.",
-      "summary_zh": "基于 AVX-512 的 Zigzag 解码实现对标量版本实现了显著加速，展示了宽 SIMD 如何提升编解码中数据重排步骤的吞吐量。文中强调通过对齐和数据布局来最大化向量化性能。",
-      "hn": {
-        "id": 48573902,
-        "type": "story",
-        "by": "luu",
-        "score": 105,
-        "descendants": 21,
-        "time": 1781718202,
-        "comments_url": "https://news.ycombinator.com/item?id=48573902"
-      },
-      "tags": [
-        "Programming",
-        "Hardware"
-      ],
-      "hot_score": 0.03
-    },
-    {
-      "title_en": "Guide to the TD4 4-bit DIY CPU",
-      "url": "https://www.philipzucker.com/td4-4bit-cpu/",
-      "title_zh": "TD4 四位 DIY CPU 指南",
-      "created_display": "Created: Jun 18, 2026 / 13:44 PT",
-      "image_url": "https://www.philipzucker.com/assets/logo.png",
-      "summary_en": "The TD4 4-bit CPU guide walks through a tiny processor design, including instruction set basics and construction hints for hobbyists. It serves as a hands-on primer on how simple CPUs operate and why architectural decisions matter even at small scales.",
-      "summary_zh": "TD4 是一个4位处理器：本指南介绍基础指令集、架构要点与爱好者搭建的实用建议。通过动手实践，帮助读者理解简单 CPU 的工作原理，以及为何小型规模的架构决策也很关键。",
-      "hn": {
-        "id": 48591276,
-        "type": "story",
-        "by": "andrewstuart",
-        "score": 56,
-        "descendants": 6,
-        "time": 1781815440,
-        "comments_url": "https://news.ycombinator.com/item?id=48591276"
-      },
-      "tags": [
-        "Hardware",
-        "Education"
-      ],
-      "hot_score": 0.03
     },
     {
       "title_en": "Show HN: Microcrad – Micrograd Reimplemented in C",
@@ -1217,8 +1479,29 @@
       },
       "tags": [
         "Show HN",
-        "Programming",
-        "Open Source"
+        "Programming"
+      ],
+      "hot_score": 0.02
+    },
+    {
+      "title_en": "Excessive nil pointer checks in Go",
+      "url": "https://konradreiche.com/blog/excessive-nil-pointer-checks-in-go/",
+      "title_zh": "Go 语言中过度 nil 指针检查",
+      "created_display": "Created: Jun 18, 2026 / 03:36 PT",
+      "image_url": null,
+      "summary_en": "The post argues that overusing nil-pointer checks in Go can bloat code and obscure logic, recommending a balance between defensive checks and relying on proper nil-safe patterns or error handling. Practical tips include leveraging early returns and natural zero values to reduce noise.",
+      "summary_zh": "文章认为在 Go 语言中过度使用 nil 指针检查会让代码臃肿、降低可读性，建议在防御性检查和使用正确的 nil 安全模式或错误处理之间取得平衡。实用建议包括提前返回、利用零值自然避免冗余检查等。",
+      "hn": {
+        "id": 48583407,
+        "type": "story",
+        "by": "ingve",
+        "score": 67,
+        "descendants": 56,
+        "time": 1781778992,
+        "comments_url": "https://news.ycombinator.com/item?id=48583407"
+      },
+      "tags": [
+        "Programming"
       ],
       "hot_score": 0.02
     },
@@ -1241,7 +1524,6 @@
       },
       "tags": [
         "AI",
-        "Finance",
         "Hardware"
       ],
       "hot_score": 0.01
@@ -1280,14 +1562,13 @@
         "id": 48568181,
         "type": "story",
         "by": "dbaupp",
-        "score": 48,
-        "descendants": 16,
+        "score": 61,
+        "descendants": 23,
         "time": 1781691293,
         "comments_url": "https://news.ycombinator.com/item?id=48568181"
       },
       "tags": [
-        "Programming",
-        "Design"
+        "Programming"
       ],
       "hot_score": 0.01
     },
@@ -1309,78 +1590,10 @@
         "comments_url": "https://news.ycombinator.com/item?id=48564763"
       },
       "tags": [
-        "Design",
-        "Culture"
+        "Culture",
+        "Design"
       ],
       "hot_score": 0.01
-    },
-    {
-      "title_en": "Excessive nil pointer checks in Go",
-      "url": "https://konradreiche.com/blog/excessive-nil-pointer-checks-in-go/",
-      "title_zh": "Go 语言中过度 nil 指针检查",
-      "created_display": "Created: Jun 18, 2026 / 03:36 PT",
-      "image_url": null,
-      "summary_en": "The post argues that overusing nil-pointer checks in Go can bloat code and obscure logic, recommending a balance between defensive checks and relying on proper nil-safe patterns or error handling. Practical tips include leveraging early returns and natural zero values to reduce noise.",
-      "summary_zh": "文章认为在 Go 语言中过度使用 nil 指针检查会让代码臃肿、降低可读性，建议在防御性检查和使用正确的 nil 安全模式或错误处理之间取得平衡。实用建议包括提前返回、利用零值自然避免冗余检查等。",
-      "hn": {
-        "id": 48583407,
-        "type": "story",
-        "by": "ingve",
-        "score": 38,
-        "descendants": 29,
-        "time": 1781778992,
-        "comments_url": "https://news.ycombinator.com/item?id=48583407"
-      },
-      "hot_score": 0.01,
-      "tags": [
-        "Programming"
-      ]
-    },
-    {
-      "title_en": "Two Qwen3 models on one DGX Spark: the residency math",
-      "url": "https://www.devashish.me/p/two-qwen3-models-on-one-dgx-spark",
-      "title_zh": "在同一 DGX Spark 上部署两个 Qwen3 模型：驻留成本研究",
-      "created_display": "Created: Jun 18, 2026 / 09:29 PT",
-      "image_url": "https://substackcdn.com/image/fetch/$s_!wZwx!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3e38eb27-f62d-407f-a4a0-26b740272793_1024x559.png",
-      "summary_en": "Two Qwen3 models on a single DGX Spark explores memory sharing between models, including latency, throughput, and batch size tradeoffs.",
-      "summary_zh": "在同一台 DGX Spark 上运行两个 Qwen3 模型，探讨模型间的显存共享、以及延迟、吞吐与批量大小等权衡。文章聚焦单一加速器上部署多模型的实际限制。",
-      "hn": {
-        "id": 48587865,
-        "type": "story",
-        "by": "devashish86",
-        "score": 35,
-        "descendants": 21,
-        "time": 1781800192,
-        "comments_url": "https://news.ycombinator.com/item?id=48587865"
-      },
-      "hot_score": 0.01,
-      "tags": [
-        "AI",
-        "Hardware"
-      ]
-    },
-    {
-      "title_en": "Commodore Made a Digital Detox Phone That Isn't Dumb",
-      "url": "https://www.wired.me/story/commodore-made-a-digital-detox-phone-that-isnt-dumb",
-      "title_zh": "Commodore 推出一款数字排毒手机，设计并不愚蠢",
-      "created_display": "Created: Jun 18, 2026 / 09:12 PT",
-      "image_url": "https://media.wired.me/photos/6a328ee00a168f349242f18e/191:100/w_1280,c_limit/Commodore%20Callback%208020%20-%20ProtoPET%20005.jpg",
-      "summary_en": "Commodore unveils a digital detox phone that avoids typical distraction traps with privacy-conscious defaults and a straightforward UI. The project highlights a balance between nostalgic hardware and sensible software limits in a crowded market.",
-      "summary_zh": "Commodore 推出一款数字排毒手机，强调隐私安全与简洁界面，避免常见的分心陷阱。该产品体现了在拥挤市场中对硬件怀旧与理性软件约束之间的平衡。",
-      "hn": {
-        "id": 48587619,
-        "type": "story",
-        "by": "Audiophilip",
-        "score": 30,
-        "descendants": 17,
-        "time": 1781799141,
-        "comments_url": "https://news.ycombinator.com/item?id=48587619"
-      },
-      "hot_score": 0.01,
-      "tags": [
-        "Hardware",
-        "Privacy"
-      ]
     },
     {
       "title_en": "Rare medieval bookmark exceeds expectations at auction",
@@ -1394,14 +1607,81 @@
         "id": 48560050,
         "type": "story",
         "by": "speckx",
-        "score": 29,
-        "descendants": 9,
+        "score": 40,
+        "descendants": 15,
         "time": 1781635570,
         "comments_url": "https://news.ycombinator.com/item?id=48560050"
       },
-      "hot_score": 0.01,
       "tags": [
         "Culture"
+      ],
+      "hot_score": 0.01
+    },
+    {
+      "title_en": "Occupancy Math on the AMD MI355X: A From-First-Principles Guide",
+      "url": "https://indianspeedster.github.io/blog/occupancy-math-mi355x/",
+      "title_zh": "基于第一性原理的 AMD MI355X 占用率计算指南",
+      "created_display": "Created: Jun 17, 2026 / 07:35 PT",
+      "image_url": "https://indianspeedster.github.io/blog/occupancy-mi355x/mi355x_01_chip_hierarchy.svg",
+      "summary_en": "Defines occupancy as a core metric for kernel performance on the AMD MI355X and walks through a first-principles approach to computing it. The piece shows how occupancy informs kernel design and tuning decisions.",
+      "summary_zh": "将占用率定义为 AMD MI355X 核心性能的关键指标，并以第一性原理的方法讲解如何计算。内容展示占用率如何影响核函数设计与调优决策。",
+      "hn": {
+        "id": 48571136,
+        "type": "story",
+        "by": "skidrow",
+        "score": 26,
+        "descendants": 0,
+        "time": 1781706923,
+        "comments_url": "https://news.ycombinator.com/item?id=48571136"
+      },
+      "hot_score": 0.01,
+      "tags": [
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "An Embedded Linux on a Single Floppy",
+      "url": "https://github.com/w84death/floppinux",
+      "title_zh": "单一软盘上的嵌入式 Linux",
+      "created_display": "Created: Jun 18, 2026 / 19:10 PT",
+      "image_url": "https://opengraph.githubassets.com/93e6f28b7f0b6e1f956a7edb19f5f13ca9806725064f5fad79494367a9c09b94/w84death/floppinux",
+      "summary_en": "Demonstrates a tiny embedded Linux that can run from a single floppy disk, illustrating constraints-driven design and the feasibility of ultra-small systems. A useful reference for retro computing and constrained environments.",
+      "summary_zh": "展示可从单张软盘启动的极小型嵌入式 Linux，体现了在资源受限环境下的设计可行性。对复古计算和约束驱动的嵌入式项目具有参考意义。",
+      "hn": {
+        "id": 48594090,
+        "type": "story",
+        "by": "modinfo",
+        "score": 16,
+        "descendants": 10,
+        "time": 1781835016,
+        "comments_url": "https://news.ycombinator.com/item?id=48594090"
+      },
+      "hot_score": 0.01,
+      "tags": [
+        "Hardware",
+        "Open Source"
+      ]
+    },
+    {
+      "title_en": "System call instrumentation on Linux/x86‑64 using memory‑indirect calls, part I",
+      "url": "https://www.humprog.org/~stephen/blog/2026/06/15/#system-call-instrumentation-on-intel-negative-result",
+      "title_zh": "在 Linux/x86-64 上使用内存间接调用进行系统调用插桩（第一部分）",
+      "created_display": "Created: Jun 17, 2026 / 00:03 PT",
+      "image_url": "https://www.humprog.org/~stephen/blog/pb_blosxom.gif",
+      "summary_en": "Reports on an attempt to instrument Linux system calls using memory-indirect calls, including what worked and what didn’t. Highlights the practical challenges of low-level instrumentation and the lessons learned for researchers.",
+      "summary_zh": "记录了尝试在 Linux/x86-64 上使用内存间接调用对系统调用进行插桩的过程，包括成功与失败之处。强调低级插桩的实际挑战，以及研究者应从中吸取的经验教训。",
+      "hn": {
+        "id": 48566824,
+        "type": "story",
+        "by": "matt_d",
+        "score": 23,
+        "descendants": 12,
+        "time": 1781679839,
+        "comments_url": "https://news.ycombinator.com/item?id=48566824"
+      },
+      "hot_score": 0.0,
+      "tags": [
+        "Programming"
       ]
     },
     {
@@ -1424,6 +1704,28 @@
       "hot_score": 0.0,
       "tags": [
         "Culture"
+      ]
+    },
+    {
+      "title_en": "Ocient Database Sandbox",
+      "url": "https://ociforge.com",
+      "title_zh": "Ocient 数据库沙箱",
+      "created_display": "Created: Jun 17, 2026 / 05:57 PT",
+      "image_url": "https://ociforge.com/icon-512.png",
+      "summary_en": "Ocient's Database Sandbox provides a safe, configurable environment to explore hyperscale database features without risking production data. Useful for developers testing workloads and DB admins evaluating new capabilities.",
+      "summary_zh": "Ocient 的数据库沙箱提供一个安全、可配置的环境，帮助开发者在不影响生产数据的前提下试验海量数据库特性与工作负载。",
+      "hn": {
+        "id": 48569843,
+        "type": "story",
+        "by": "boutcher",
+        "score": 5,
+        "descendants": 1,
+        "time": 1781701023,
+        "comments_url": "https://news.ycombinator.com/item?id=48569843"
+      },
+      "hot_score": 0.0,
+      "tags": [
+        "Data"
       ]
     }
   ]
