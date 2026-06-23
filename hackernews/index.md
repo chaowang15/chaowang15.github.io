@@ -20,7 +20,7 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='1029' data-hn-time='1782148191'>
+<div class='hn-top-story-item' data-hn-score='1403' data-hn-time='1782148191'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -28,106 +28,106 @@ Sort:
  <a class='hn-top-story-link' href='https://store.steampowered.com/news/group/45479024/view/685257114654870245' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Steam 机器</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 24</span> <span class='hn-top-story-score'>&#9650; 1029</span> <span class='hn-top-story-comments'>&#128172; 910</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Gaming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 1403</span> <span class='hn-top-story-comments'>&#128172; 1260</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Gaming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='253' data-hn-time='1782157672'>
+<div class='hn-top-story-item' data-hn-score='73' data-hn-time='1782188104'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/22/top_stories_06222026#story-48635112'>Jobs and Software Is Fucked</a>
- <a class='hn-top-story-link' href='https://urflow.bearblog.dev/jobs-and-software-is-fucked/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/22/top_stories_06222026#story-48640196'>Will It Mythos?</a>
+ <a class='hn-top-story-link' href='https://swelljoe.com/post/will-it-mythos/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>就业与软件业已完蛋</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 253</span> <span class='hn-top-story-comments'>&#128172; 205</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Career</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>它会成就 Mythos 吗？</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.5</span> <span class='hn-top-story-score'>&#9650; 73</span> <span class='hn-top-story-comments'>&#128172; 39</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='219' data-hn-time='1782155626'>
+<div class='hn-top-story-item' data-hn-score='133' data-hn-time='1782179678'>
 <span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/22/top_stories_06222026#story-48639184'>1,700 free online courses from top universities</a>
+ <a class='hn-top-story-link' href='https://www.openculture.com/freeonlinecourses' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>来自顶尖大学的1700门免费在线课程</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.0</span> <span class='hn-top-story-score'>&#9650; 133</span> <span class='hn-top-story-comments'>&#128172; 26</span> <span class='hn-top-story-tag'>Education</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='462' data-hn-time='1782155626'>
+<span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/06/22/top_stories_06222026#story-48634694'>Flock-Powered Police Chiefs Stalking Women Shows Why Warrants Are Needed</a>
  <a class='hn-top-story-link' href='https://ipvm.com/reports/police-chiefs-track' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Flock 监控网络让警察追踪女性，凸显为何需要搜令</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.7</span> <span class='hn-top-story-score'>&#9650; 219</span> <span class='hn-top-story-comments'>&#128172; 69</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.7</span> <span class='hn-top-story-score'>&#9650; 462</span> <span class='hn-top-story-comments'>&#128172; 191</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='696' data-hn-time='1782135781'>
-<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-item' data-hn-score='295' data-hn-time='1782163261'>
+<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/22/top_stories_06222026#story-48636377'>GLM-5.2 – How to Run Locally</a>
+ <a class='hn-top-story-link' href='https://unsloth.ai/docs/models/glm-5.2' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Unsloth GLM-5.2：如何在本地运行</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.1</span> <span class='hn-top-story-score'>&#9650; 295</span> <span class='hn-top-story-comments'>&#128172; 138</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Hardware</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='410' data-hn-time='1782155208'>
+<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/22/top_stories_06222026#story-48634585'>Canada plans 'nuclear renaissance' with up to 10 reactors built by 2040</a>
+ <a class='hn-top-story-link' href='https://www.cbc.ca/news/politics/federal-nuclear-strategy-9.7244509' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>加拿大计划到2040年建设多达10座核反应堆，开启核能复兴</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.1</span> <span class='hn-top-story-score'>&#9650; 410</span> <span class='hn-top-story-comments'>&#128172; 255</span> <span class='hn-top-story-tag'>Energy</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Security</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='764' data-hn-time='1782135781'>
+<span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/06/22/top_stories_06222026#story-48630020'>Pledging another $400k to the Zig software foundation</a>
  <a class='hn-top-story-link' href='https://mitchellh.com/writing/zig-donation-2026' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>再向 Zig 软件基金会捐赠40万美元</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.6</span> <span class='hn-top-story-score'>&#9650; 696</span> <span class='hn-top-story-comments'>&#128172; 233</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.1</span> <span class='hn-top-story-score'>&#9650; 764</span> <span class='hn-top-story-comments'>&#128172; 255</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='115' data-hn-time='1782161310'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/22/top_stories_06222026#story-48635954'>Nearly Half of LG Smart TV Apps Contain Residential Proxy SDKs</a>
- <a class='hn-top-story-link' href='https://spur.us/blog/smart-tv-apps-residential-proxy-sdks' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>近半数 LG 智能电视应用含住宅代理 SDK</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.9</span> <span class='hn-top-story-score'>&#9650; 115</span> <span class='hn-top-story-comments'>&#128172; 63</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='191' data-hn-time='1782155208'>
-<span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/22/top_stories_06222026#story-48634585'>Canada is looking to build up to 10 new nuclear reactors over the next 15 years</a>
- <a class='hn-top-story-link' href='https://www.cbc.ca/news/politics/federal-nuclear-strategy-9.7244509' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>加拿大计划在未来 15 年内新建多达 10 座核反应堆</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.3</span> <span class='hn-top-story-score'>&#9650; 191</span> <span class='hn-top-story-comments'>&#128172; 80</span> <span class='hn-top-story-tag'>Energy</span> <span class='hn-top-story-tag'>Politics</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='56' data-hn-time='1782163261'>
-<span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/22/top_stories_06222026#story-48636377'>Unsloth GLM-5.2 – How to Run Locally</a>
- <a class='hn-top-story-link' href='https://unsloth.ai/docs/models/glm-5.2' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Unsloth GLM-5.2：如何在本地运行</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.8</span> <span class='hn-top-story-score'>&#9650; 56</span> <span class='hn-top-story-comments'>&#128172; 15</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Hardware</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='998' data-hn-time='1782106720'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='97' data-hn-time='1782180085'>
 <span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/22/top_stories_06222026#story-48639240'>VibeThinker: 3B param model that beats Opus 4.5 on reasoning with novel SFT+GRPO</a>
+ <a class='hn-top-story-link' href='https://arxiv.org/abs/2606.16140' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>VibeThinker：3B 参数模型在推理方面击败 Opus 4.5，采用新颖的 SFT+GRPO</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.8</span> <span class='hn-top-story-score'>&#9650; 97</span> <span class='hn-top-story-comments'>&#128172; 31</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Science</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='104' data-hn-time='1782177305'>
+<span class='hn-top-story-rank'>9</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/22/top_stories_06222026#story-48638886'>In praise of memcached</a>
+ <a class='hn-top-story-link' href='https://jchri.st/blog/in-praise-of-memcached/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>致敬 memcached</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 104</span> <span class='hn-top-story-comments'>&#128172; 40</span> <span class='hn-top-story-tag'>Programming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1050' data-hn-time='1782106720'>
+<span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/06/22/top_stories_06222026#story-48626137'>Deno Desktop</a>
  <a class='hn-top-story-link' href='https://docs.deno.com/runtime/desktop/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Deno 桌面版</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.7</span> <span class='hn-top-story-score'>&#9650; 998</span> <span class='hn-top-story-comments'>&#128172; 365</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Open Source</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='164' data-hn-time='1782146925'>
-<span class='hn-top-story-rank'>9</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/22/top_stories_06222026#story-48632652'>Mexican government unveils a prototype for a new homegrown, ultra-affordable EV</a>
- <a class='hn-top-story-link' href='https://gizmodo.com/mexico-just-showed-off-a-new-extremely-cheap-government-backed-ev-2000769080' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>墨西哥政府公布新款极低价电动车原型</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 164</span> <span class='hn-top-story-comments'>&#128172; 148</span> <span class='hn-top-story-tag'>Energy</span> <span class='hn-top-story-tag'>Politics</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='254' data-hn-time='1782138166'>
-<span class='hn-top-story-rank'>10</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/22/top_stories_06222026#story-48630535'>The text in Claude Code’s “Extended Thinking” output</a>
- <a class='hn-top-story-link' href='https://patrickmccanna.net/the-text-in-claude-codes-extended-thinking-output-is-not-authentic/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Claude Code 的“扩展思考”输出中的文本并非真实思考</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 254</span> <span class='hn-top-story-comments'>&#128172; 181</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 1050</span> <span class='hn-top-story-comments'>&#128172; 380</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/06/22/top_stories_06222026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>24</b> <span class="hn-row-sep">·</span> AI <b>22</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>22</b> <span class="hn-row-sep">·</span> Programming <b>22</b></span>
 </a>
 </div>
 </div>
