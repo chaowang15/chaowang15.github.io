@@ -150,6 +150,76 @@ a {
   border-radius: 6px;
 }
 
+.note-zoomable-image {
+  cursor: zoom-in;
+  transition: box-shadow 160ms ease, transform 160ms ease;
+}
+
+.note-zoomable-image:hover,
+.note-zoomable-image:focus-visible {
+  box-shadow: 0 10px 28px rgba(15, 23, 42, 0.16);
+  outline: none;
+  transform: translateY(-1px);
+}
+
+.note-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: grid;
+  place-items: center;
+  padding: 72px 28px 32px;
+  background: rgba(13, 17, 23, 0.88);
+  opacity: 0;
+  transition: opacity 160ms ease;
+}
+
+.note-lightbox.is-open {
+  opacity: 1;
+}
+
+.note-lightbox[hidden] {
+  display: none;
+}
+
+.note-lightbox img {
+  max-width: min(96vw, 1320px);
+  max-height: calc(100vh - 112px);
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.42);
+  object-fit: contain;
+}
+
+.note-lightbox-close {
+  position: fixed;
+  top: 22px;
+  right: 24px;
+  display: grid;
+  width: 42px;
+  height: 42px;
+  place-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  border-radius: 50%;
+  background: rgba(17, 24, 39, 0.72);
+  color: #ffffff;
+  cursor: pointer;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 28px;
+  line-height: 1;
+}
+
+.note-lightbox-close:hover,
+.note-lightbox-close:focus-visible {
+  background: rgba(17, 24, 39, 0.92);
+  outline: 2px solid rgba(255, 255, 255, 0.66);
+  outline-offset: 2px;
+}
+
+.note-lightbox-open {
+  overflow: hidden;
+}
+
 .note-figure-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -489,5 +559,22 @@ a {
     width: 40px;
     height: 40px;
     font-size: 20px;
+  }
+
+  .note-lightbox {
+    padding: 64px 14px 22px;
+  }
+
+  .note-lightbox img {
+    max-width: 96vw;
+    max-height: calc(100vh - 92px);
+  }
+
+  .note-lightbox-close {
+    top: 14px;
+    right: 14px;
+    width: 38px;
+    height: 38px;
+    font-size: 25px;
   }
 }
