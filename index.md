@@ -27,3 +27,4 @@ Before joining Meta, I was a research engineer in the Intelligent Creation Lab a
 ## Side Projects
 
 - **[Hacker News Daily](https://chaowang15.github.io/hackernews/)**: An automated daily digest of Hacker News best stories, powered by the official HN API and GPT for bilingual (English & Chinese) summaries. Each story includes AI-generated briefs, metadata, and preview images — updated every day via GitHub Actions.
+- **[Deep Learning Study Notes](/deep-learning/)**: A Chinese-first technical blog for deep learning study notes, covering mathematical foundations, generative models, VAE/GAN, Transformer architecture, formulas, diagrams, and implementation details.
