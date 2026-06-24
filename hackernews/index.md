@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>125</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>18243</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>122</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>123</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-06-24</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>125</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>18272</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>122</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>123</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-06-24</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='218' data-hn-time='1782267819'>
+<div class='hn-top-story-item' data-hn-score='395' data-hn-time='1782304303'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/24/top_stories_06242026#story-48654367'>The war on terror primed America for autocracy</a>
- <a class='hn-top-story-link' href='https://www.economist.com/by-invitation/2026/06/02/how-the-war-on-terror-primed-america-for-autocracy' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/24/top_stories_06242026#story-48658718'>Founding a company in Germany: €9600, 152 days and I still can't send an invoice</a>
+ <a class='hn-top-story-link' href='https://paolino.me/founding-a-company-in-germany/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>恐怖主义战争为美国铺路走向专制</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 218</span> <span class='hn-top-story-comments'>&#128172; 181</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>在德国创办公司：9600欧元、152天，仍然无法开具发票</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 16</span> <span class='hn-top-story-score'>&#9650; 395</span> <span class='hn-top-story-comments'>&#128172; 446</span> <span class='hn-top-story-tag'>Startups</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='243' data-hn-time='1782260921'>
+<div class='hn-top-story-item' data-hn-score='130' data-hn-time='1782312101'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/24/top_stories_06242026#story-48653575'>Meta Pauses Employee-Tracking Program Following Internal Data Leak</a>
- <a class='hn-top-story-link' href='https://www.wired.com/story/meta-pauses-employee-tracking-program-following-internal-security-breach/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/24/top_stories_06242026#story-48660711'>RubyLLM: A Ruby framework for all major AI providers</a>
+ <a class='hn-top-story-link' href='https://rubyllm.com/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Meta 暂停员工跟踪计划，因内部数据泄露</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 243</span> <span class='hn-top-story-comments'>&#128172; 168</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>RubyLLM：面向所有主流 AI 提供商的 Ruby 框架</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 130</span> <span class='hn-top-story-comments'>&#128172; 17</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='532' data-hn-time='1782238420'>
+<div class='hn-top-story-item' data-hn-score='608' data-hn-time='1782291041'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/24/top_stories_06242026#story-48649011'>Fired by Google for creating the Google workspace CLI</a>
- <a class='hn-top-story-link' href='https://twitter.com/JPoehnelt/status/2069482265953087602' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/24/top_stories_06242026#story-48657030'>We’re making Bunny DNS free</a>
+ <a class='hn-top-story-link' href='https://bunny.net/blog/were-making-bunny-dns-free/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>因为创建 Google Workspace CLI 而被解雇</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 532</span> <span class='hn-top-story-comments'>&#128172; 306</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-zh'>Bunny DNS 免费开放</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 10</span> <span class='hn-top-story-score'>&#9650; 608</span> <span class='hn-top-story-comments'>&#128172; 199</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='269' data-hn-time='1782258166'>
+<div class='hn-top-story-item' data-hn-score='50' data-hn-time='1782316579'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/24/top_stories_06242026#story-48653216'>Vulnerability reports are not special anymore</a>
- <a class='hn-top-story-link' href='https://words.filippo.io/vuln-reports/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/24/top_stories_06242026#story-48661825'>John Carmack on the mistakes around Quake that ruined id software</a>
+ <a class='hn-top-story-link' href='https://twitter.com/ID_AA_Carmack/status/2069799283369345247' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>漏洞报告已不再特殊</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 269</span> <span class='hn-top-story-comments'>&#128172; 150</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>约翰·卡马克谈《Quake》相关的错误如何毁掉了 id Software</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.6</span> <span class='hn-top-story-score'>&#9650; 50</span> <span class='hn-top-story-comments'>&#128172; 3</span> <span class='hn-top-story-tag'>Gaming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='538' data-hn-time='1782237022'>
+<div class='hn-top-story-item' data-hn-score='195' data-hn-time='1782303839'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/24/top_stories_06242026#story-48648619'>FUTO Swipe – A new swipe typing model</a>
- <a class='hn-top-story-link' href='https://swipe.futo.tech/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/24/top_stories_06242026#story-48658647'>Reid Hoffman says SpaceX 'not an AI company', xAI 'complete train wreck'</a>
+ <a class='hn-top-story-link' href='https://fortune.com/2026/06/24/reid-hoffman-spacex-musk-openai-anthropic-gen-z-mistake/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>FUTO Swipe 轻扫输入模型</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 538</span> <span class='hn-top-story-comments'>&#128172; 169</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>Reid Hoffman 指出 SpaceX 不是 AI 公司，xAI 彻底灾难</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.7</span> <span class='hn-top-story-score'>&#9650; 195</span> <span class='hn-top-story-comments'>&#128172; 221</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Space</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='132' data-hn-time='1782271067'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='61' data-hn-time='1782313541'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/24/top_stories_06242026#story-48654676'>Raspberry Pi Pico W as USB Wi-Fi Adapter</a>
- <a class='hn-top-story-link' href='https://gitlab.com/baiyibai/pico-usb-wifi' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/24/top_stories_06242026#story-48661095'>Venezuela reveals $240B in debt it cannot pay (~$100B more than expected)</a>
+ <a class='hn-top-story-link' href='https://www.euronews.com/business/2026/06/24/venezuela-plans-biggest-debt-restructuring-in-history-after-maduros-fall' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>将 Raspberry Pi Pico W 作为 USB 无线网卡</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 132</span> <span class='hn-top-story-comments'>&#128172; 43</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>委内瑞拉披露无法偿付的 2400 亿美元债务</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.0</span> <span class='hn-top-story-score'>&#9650; 61</span> <span class='hn-top-story-comments'>&#128172; 55</span> <span class='hn-top-story-tag'>Finance</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='463' data-hn-time='1782240022'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='76' data-hn-time='1782310458'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/24/top_stories_06242026#story-48649435'>Jerry's Map</a>
- <a class='hn-top-story-link' href='http://www.jerrysmap.com/the-map' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/24/top_stories_06242026#story-48660267'>Show HN: Nub – A Bun-like all-in-one toolkit for Node.js</a>
+ <a class='hn-top-story-link' href='https://github.com/nubjs/nub' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Jerry 的地图</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 463</span> <span class='hn-top-story-comments'>&#128172; 54</span> <span class='hn-top-story-tag'>Web</span></div>
+<div class='hn-top-story-zh'>Show HN：Nub——一个 Bun 风格的 Node.js 全能工具包</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.8</span> <span class='hn-top-story-score'>&#9650; 76</span> <span class='hn-top-story-comments'>&#128172; 13</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1888' data-hn-time='1782148191'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='32' data-hn-time='1782315438'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/24/top_stories_06242026#story-48632884'>Steam Machine launches today</a>
- <a class='hn-top-story-link' href='https://store.steampowered.com/news/group/45479024/view/685257114654870245' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/24/top_stories_06242026#story-48661535'>Boffin claims Microsoft's "quantum leap" is invalid due to "basic Python errors"</a>
+ <a class='hn-top-story-link' href='https://www.theregister.com/research/2026/06/24/boffin-claims-microsofts-supposed-quantum-leap-does-not-compute-due-to-basic-python-errors/5260489' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Steam 机器</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.2</span> <span class='hn-top-story-score'>&#9650; 1888</span> <span class='hn-top-story-comments'>&#128172; 1661</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Gaming</span></div>
+<div class='hn-top-story-zh'>自称微软‘量子跃迁’的说法因‘基本 Python 错误’而不成立</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.9</span> <span class='hn-top-story-score'>&#9650; 32</span> <span class='hn-top-story-comments'>&#128172; 22</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Science</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='371' data-hn-time='1782238247'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='153' data-hn-time='1782300680'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/24/top_stories_06242026#story-48648959'>In memory of the man who put red and green squiggles under words</a>
- <a class='hn-top-story-link' href='https://devblogs.microsoft.com/oldnewthing/20260622-00/?p=112451' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/24/top_stories_06242026#story-48658186'>A deadly fungus that can infect cats and people is spreading</a>
+ <a class='hn-top-story-link' href='https://www.sciencenews.org/article/deadly-fungus-cats-people-spreading' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>纪念在文本下方标出红色和绿色波浪线的工程师</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.1</span> <span class='hn-top-story-score'>&#9650; 371</span> <span class='hn-top-story-comments'>&#128172; 62</span> <span class='hn-top-story-tag'>Design</span></div>
+<div class='hn-top-story-zh'>一种能感染猫和人类的致命真菌正在传播</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.7</span> <span class='hn-top-story-score'>&#9650; 153</span> <span class='hn-top-story-comments'>&#128172; 113</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Health</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='103' data-hn-time='1782267707'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='30' data-hn-time='1782315440'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/24/top_stories_06242026#story-48654351'>Qwen-AgentWorld: Language World Models for General Agents</a>
- <a class='hn-top-story-link' href='https://arxiv.org/abs/2606.24597' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/24/top_stories_06242026#story-48661536'>Quebec town recognizes trees as living beings with rights</a>
+ <a class='hn-top-story-link' href='https://www.cbc.ca/news/canada/montreal/terrasse-vaudreil-quebec-tree-rights-9.7243634' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Qwen-AgentWorld：用于通用代理的语言世界模型</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.8</span> <span class='hn-top-story-score'>&#9650; 103</span> <span class='hn-top-story-comments'>&#128172; 28</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>魁北克小镇承认树木拥有法律权利</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.6</span> <span class='hn-top-story-score'>&#9650; 30</span> <span class='hn-top-story-comments'>&#128172; 15</span> <span class='hn-top-story-tag'>Legal</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -140,7 +140,7 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 26 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-06-22 — 2026-06-24 <span class="hn-row-sep">·</span> 349 stories <span class="hn-row-sep">·</span> 3 days</span>
+<span class='hn-week-meta'>2026-06-22 — 2026-06-24 <span class="hn-row-sep">·</span> 378 stories <span class="hn-row-sep">·</span> 3 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/06/24/top_stories_06242026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>49</b> <span class="hn-row-sep">·</span> Programming <b>17</b> <span class="hn-row-sep">·</span> Hardware <b>9</b></span>
+<span class='hn-row-detail'>All <b>78</b> <span class="hn-row-sep">·</span> Programming <b>24</b> <span class="hn-row-sep">·</span> AI <b>15</b></span>
 </a>
 </div>
 </div>
