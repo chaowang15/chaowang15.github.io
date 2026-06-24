@@ -31,7 +31,9 @@
     <a class="note-brand" href="/">Chao Wang</a>
     <div class="note-current-title" aria-current="page">{{ page.title }}</div>
     <nav class="note-nav" aria-label="Section navigation">
-      <a href="/deep-learning/">Deep Learning Notes</a>
+      {% unless page.url == "/deep-learning/" %}
+      <a href="/deep-learning/">Deep Learning学习笔记</a>
+      {% endunless %}
     </nav>
   </header>
 
