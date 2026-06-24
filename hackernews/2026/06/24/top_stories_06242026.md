@@ -4,133 +4,198 @@ title: "Hacker News — Trending (2026-06-24)"
 ---
 <h1 class='hn-h1'>Hacker News Daily — 2026-06-24 <span class='hn-mode-badge hn-mode-top'>Trending</span></h1>
 <div class='hn-nav'><a class='hn-nav-btn hn-prev' href='/hackernews/2026/06/23/top_stories_06232026'>‹ Prev day</a><a class='hn-nav-btn hn-nav-index' href='/hackernews/'>← Index</a><a class='hn-nav-btn hn-next' href='/hackernews/2026/06/25/top_stories_06252026'>Next day ›</a></div>
-<p class='hn-subtitle'>Scraped at 12:41, June 24, 2026 (PDT)</p>
+<p class='hn-subtitle'>Scraped at 15:58, June 24, 2026 (PDT)</p>
 <hr class='hn-rule'/>
 <div class='hn-list'>
-<div class='hn-card' id='story-48663324' data-tags='Hardware,AI' data-hn-time='1782323220' data-hn-score='207' data-hot-score='17.48'>
+<div class='hn-card' id='story-48663324' data-tags='AI,Hardware' data-hn-time='1782323220' data-hn-score='420' data-hot-score='11.96'>
 <div class='hn-body'>
 <p class='hn-title'>(1) <a href='https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/' target='_blank' rel='noopener noreferrer'>OpenAI unveils its first custom chip, built by Broadcom</a></p>
 <p class='hn-meta'>OpenAI 发布首个定制芯片，由 Broadcom 打造</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 10:47 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48663324' target='_blank' rel='noopener noreferrer'>&#9650; 207</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48663324' target='_blank' rel='noopener noreferrer'>&#128172; 163</a> <span class='hn-tag hn-tag--slate' data-tag='Hardware'>Hardware</span> <span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span></div>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48663324' target='_blank' rel='noopener noreferrer'>&#9650; 420</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48663324' target='_blank' rel='noopener noreferrer'>&#128172; 278</a> <span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span> <span class='hn-tag hn-tag--slate' data-tag='Hardware'>Hardware</span></div>
 <img class='hn-img' src='https://techcrunch.com/wp-content/uploads/2026/06/Screenshot-2026-06-24-at-9.49.59-AM.jpg?resize=1200,670' data-full='https://techcrunch.com/wp-content/uploads/2026/06/Screenshot-2026-06-24-at-9.49.59-AM.jpg?resize=1200,670' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>OpenAI has unveiled its first custom silicon, built in partnership with Broadcom. The move signals a shift toward owning more of the hardware stack to optimize model serving and efficiency, potentially reducing reliance on Nvidia GPUs. If successful, it could reshape cloud economics and push competitors to accelerate in-house hardware efforts.</p>
 <p class='hn-text-zh'>OpenAI 公布了首款定制芯片，与 Broadcom 合作打造，旨在优化自家模型的推理与训练性能。此举标志对硬件环节更深度掌控，可能降低对外部供应商的依赖，并影响云端成本与定价竞争。</p>
 </div>
 </div>
-<div class='hn-card' id='story-48661825' data-tags='Programming' data-hn-time='1782316579' data-hn-score='385' data-hot-score='16.31'>
+<div class='hn-card' id='story-48661825' data-tags='Programming,Career' data-hn-time='1782316579' data-hn-score='460' data-hot-score='8.69'>
 <div class='hn-body'>
 <p class='hn-title'>(2) <a href='https://twitter.com/ID_AA_Carmack/status/2069799283369345247' target='_blank' rel='noopener noreferrer'>There are a few things that I look back on as my mistakes in the early days</a></p>
 <p class='hn-meta'>我早年的几件错误回顾</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 08:56 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48661825' target='_blank' rel='noopener noreferrer'>&#9650; 385</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48661825' target='_blank' rel='noopener noreferrer'>&#128172; 193</a> <span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span></div>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48661825' target='_blank' rel='noopener noreferrer'>&#9650; 460</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48661825' target='_blank' rel='noopener noreferrer'>&#128172; 231</a> <span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span> <span class='hn-tag hn-tag--sky' data-tag='Career'>Career</span></div>
 <img class='hn-img' src='https://pbs.twimg.com/profile_images/1560764938083352577/B1X3m4NN_200x200.jpg' data-full='https://pbs.twimg.com/profile_images/1560764938083352577/B1X3m4NN_200x200.jpg' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>John Carmack looks back on a handful of early-career mistakes and distills practical lessons for builders. He emphasizes shipping over perfection, staying disciplined, and learning from feedback to move faster. The reflections offer candid, actionable guidance for ambitious developers.</p>
 <p class='hn-text-zh'>Carmack 回顾早期的几次错误，并总结给开发者的可执行教训：要先落地、避免因追求完美而拖延，并从反馈中快速迭代。这样的分享为野心勃勃的开发者提供了朴实且实用的指导。</p>
 </div>
 </div>
-<div class='hn-card' id='story-48658718' data-tags='Startups' data-hn-time='1782304303' data-hn-score='515' data-hot-score='9.48'>
+<div class='hn-card' id='story-48664384' data-tags='Legal,Hardware' data-hn-time='1782328102' data-hn-score='163' data-hot-score='6.72'>
 <div class='hn-body'>
-<p class='hn-title'>(3) <a href='https://paolino.me/founding-a-company-in-germany/' target='_blank' rel='noopener noreferrer'>Founding a company in Germany: €9600, 152 days and I still can't send an invoice</a></p>
-<p class='hn-meta'>在德国创办公司：9600欧元、152天，仍然无法开具发票</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 05:31 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48658718' target='_blank' rel='noopener noreferrer'>&#9650; 515</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48658718' target='_blank' rel='noopener noreferrer'>&#128172; 618</a> <span class='hn-tag hn-tag--amber' data-tag='Startups'>Startups</span></div>
-<img class='hn-img' src='https://paolino.me/assets/images/og/posts/founding-a-company-in-germany.png' data-full='https://paolino.me/assets/images/og/posts/founding-a-company-in-germany.png' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>The post recounts the experience of starting a company in Germany, highlighting costs and bureaucracy: €9,600 and 152 days, yet still unable to issue invoices due to local constraints. The ordeal underscores startup friction in EU jurisdictions.</p>
-<p class='hn-text-zh'>博主讲述在德国创办公司的经历，成本高、手续繁琐（约9600欧元、152天），甚至无法开具正式发票，暴露出初创阶段的制度瓶颈。此类经验凸显在德经商和创业环境中的现实挑战。</p>
-</div>
-</div>
-<div class='hn-card' id='story-48660711' data-tags='Programming,AI' data-hn-time='1782312101' data-hn-score='264' data-hot-score='7.87'>
-<div class='hn-body'>
-<p class='hn-title'>(4) <a href='https://rubyllm.com/' target='_blank' rel='noopener noreferrer'>RubyLLM: A Ruby framework for all major AI providers</a></p>
-<p class='hn-meta'>RubyLLM：面向所有主流 AI 提供商的 Ruby 框架</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 07:41 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48660711' target='_blank' rel='noopener noreferrer'>&#9650; 264</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48660711' target='_blank' rel='noopener noreferrer'>&#128172; 39</a> <span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span> <span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span></div>
-<img class='hn-img' src='https://rubyllm.com/assets/images/og/pages/rubyllm.png' data-full='https://rubyllm.com/assets/images/og/pages/rubyllm.png' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>RubyLLM provides a unified Ruby framework for major AI providers, letting developers write provider-agnostic code and swap backends with minimal changes. The move highlights how language ecosystems are competing on developer ergonomics as AI tooling expands.</p>
-<p class='hn-text-zh'>RubyLLM 提供一个统一接口，让 Ruby 开发者在不同主要 AI 提供商之间切换时无需重写代码。通过消除厂商绑定，它可能加速 Ruby 在 AI 应用的落地，并反映出各语言生态在开发者体验上的竞争。</p>
-</div>
-</div>
-<div class='hn-card' id='story-48657030' data-tags='Web' data-hn-time='1782291041' data-hn-score='723' data-hot-score='7.26'>
-<div class='hn-body'>
-<p class='hn-title'>(5) <a href='https://bunny.net/blog/were-making-bunny-dns-free/' target='_blank' rel='noopener noreferrer'>We’re making Bunny DNS free</a></p>
-<p class='hn-meta'>Bunny DNS 免费开放</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 01:50 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48657030' target='_blank' rel='noopener noreferrer'>&#9650; 723</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48657030' target='_blank' rel='noopener noreferrer'>&#128172; 235</a> <span class='hn-tag hn-tag--cyan' data-tag='Web'>Web</span></div>
-<img class='hn-img' src='https://bunny.net/blog/content/images/2026/06/DNS_-Free-DNS-blog-post--1-.png' data-full='https://bunny.net/blog/content/images/2026/06/DNS_-Free-DNS-blog-post--1-.png' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>Bunny DNS announces it will make its domain name system service free, lowering the barrier for personal sites and startups to adopt fast, resilient DNS. The move could pressure competitors to offer similar free tiers and raises questions about sustainability and future monetization.</p>
-<p class='hn-text-zh'>Bunny DNS 将其域名解析服务免费化，降低个人站点和初创企业采用高效 DNS 的门槛。此举可能对竞争对手施压，促使行业普遍提供免费层，但也引发对未来盈利模式与可持续性的担忧。</p>
-</div>
-</div>
-<div class='hn-card' id='story-48662999' data-tags='AI,Privacy' data-hn-time='1782321694' data-hn-score='78' data-hot-score='5.43'>
-<div class='hn-body'>
-<p class='hn-title'>(6) <a href='https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/' target='_blank' rel='noopener noreferrer'>Computer use in Gemini 3.5 Flash</a></p>
-<p class='hn-meta'>Gemini 3.5 Flash 引入“计算机使用”能力</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 10:21 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48662999' target='_blank' rel='noopener noreferrer'>&#9650; 78</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48662999' target='_blank' rel='noopener noreferrer'>&#128172; 35</a> <span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span> <span class='hn-tag hn-tag--red' data-tag='Privacy'>Privacy</span></div>
-<img class='hn-img' src='https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-5__keyword__blog-header__light_7VsKV.width-1300.png' data-full='https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-5__keyword__blog-header__light_7VsKV.width-1300.png' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>Google's Gemini 3.5 Flash adds a 'computer use' capability, letting the model interact with a host environment to run commands, access files, and call tools. This expands AI agents from theory to action, boosting productivity while expanding safety and privacy considerations. It signals a broader trend toward tool-using assistants.</p>
-<p class='hn-text-zh'>Gemini 3.5 Flash 增强了“使用计算机”的能力，使模型能够在宿主环境中运行命令、访问文件和调用工具。这让 AI 代理从单纯的推理走向对外部世界的实际行动，同时也带来安全与隐私方面的新挑战。这标志着更强大、能调用外部工具的 AI 助手正成为趋势。</p>
-</div>
-</div>
-<div class='hn-card' id='story-48661535' data-tags='Programming,Science' data-hn-time='1782315438' data-hn-score='119' data-hot-score='4.55'>
-<div class='hn-body'>
-<p class='hn-title'>(7) <a href='https://www.theregister.com/research/2026/06/24/boffin-claims-microsofts-supposed-quantum-leap-does-not-compute-due-to-basic-python-errors/5260489' target='_blank' rel='noopener noreferrer'>Boffin claims Microsoft’s “quantum leap” is invalid due to “basic Python errors”</a></p>
-<p class='hn-meta'>自称微软的“量子跃迁”因“基本 Python 错误”而被质疑</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 08:37 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48661535' target='_blank' rel='noopener noreferrer'>&#9650; 119</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48661535' target='_blank' rel='noopener noreferrer'>&#128172; 45</a> <span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span> <span class='hn-tag hn-tag--teal' data-tag='Science'>Science</span></div>
-<img class='hn-img' src='https://image.theregister.com/225000.jpg?imageId=225000&x=0&y=28.33&cropw=100&croph=71.67&panox=0&panoy=28.33&panow=100&panoh=71.67&width=1200&height=683' data-full='https://image.theregister.com/225000.jpg?imageId=225000&x=0&y=28.33&cropw=100&croph=71.67&panox=0&panoy=28.33&panow=100&panoh=71.67&width=1200&height=683' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>A researcher claims that Microsoft's reported quantum leap is flawed due to basic Python errors and misinterpretations. The critique highlights how sensational claims around quantum computing require careful validation and independent tooling.</p>
-<p class='hn-text-zh'>一位研究者质疑微软的所谓“量子跃迁”因存在“基本 Python 错误”而不成立。该批评强调对量子计算相关声明进行谨慎核验，以及独立工具的必要性。</p>
-</div>
-</div>
-<div class='hn-card' id='story-48664384' data-tags='Legal,Business,Hardware' data-hn-time='1782328102' data-hn-score='26' data-hot-score='4.53'>
-<div class='hn-body'>
-<p class='hn-title'>(8) <a href='https://www.thomann.de/blog/en/inside/thomann-takes-legal-action-against-fender/' target='_blank' rel='noopener noreferrer'>Thomann takes legal action against Fender</a></p>
+<p class='hn-title'>(3) <a href='https://www.thomann.de/blog/en/inside/thomann-takes-legal-action-against-fender/' target='_blank' rel='noopener noreferrer'>Thomann takes legal action against Fender</a></p>
 <p class='hn-meta'>Thomann 就 Fender 提出法律诉讼</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 12:08 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48664384' target='_blank' rel='noopener noreferrer'>&#9650; 26</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48664384' target='_blank' rel='noopener noreferrer'>&#128172; 5</a> <span class='hn-tag hn-tag--orange' data-tag='Legal'>Legal</span> <span class='hn-tag hn-tag--amber' data-tag='Business'>Business</span> <span class='hn-tag hn-tag--slate' data-tag='Hardware'>Hardware</span></div>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48664384' target='_blank' rel='noopener noreferrer'>&#9650; 163</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48664384' target='_blank' rel='noopener noreferrer'>&#128172; 100</a> <span class='hn-tag hn-tag--orange' data-tag='Legal'>Legal</span> <span class='hn-tag hn-tag--slate' data-tag='Hardware'>Hardware</span></div>
 <img class='hn-img' src='https://www.thomann.de/blog/app/uploads/sites/3/2026/06/Strat-Header-6a.png' data-full='https://www.thomann.de/blog/app/uploads/sites/3/2026/06/Strat-Header-6a.png' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>Thomann, a leading European music retailer, has filed a legal action against Fender. The dispute highlights licensing and IP frictions in the guitar market and could influence how brands and retailers negotiate rights, pricing, and distribution. The outcome may affect both manufacturers and third-party sellers in specialized hardware ecosystems.</p>
 <p class='hn-text-zh'>欧洲最大乐器零售商 Thomann 对 Fender 提出诉讼，聚焦许可、知识产权及渠道分发方面的纠纷。此案或影响品牌与零售商在吉他行业的权利谈判、定价和合作模式。</p>
 </div>
 </div>
-<div class='hn-card' id='story-48660839' data-tags='Open Source,AI' data-hn-time='1782312622' data-hn-score='143' data-hot-score='4.41'>
+<div class='hn-card' id='story-48666100' data-tags='Business' data-hn-time='1782338250' data-hn-score='48' data-hot-score='6.36'>
 <div class='hn-body'>
-<p class='hn-title'>(9) <a href='https://techstrong.ai/articles/for-most-of-the-world-open-source-ai-is-the-only-way-forward/' target='_blank' rel='noopener noreferrer'>For Most of the World, Open-Source AI Is the Only Way Forward</a></p>
+<p class='hn-title'>(4) <a href='https://www.elastic.co/blog/ceo-ash-kulkarni-announcement-to-elastic-employees' target='_blank' rel='noopener noreferrer'>Elastic lays off 7% of employees</a></p>
+<p class='hn-meta'>Elastic宣布裁员7%</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 14:57 PT</span></p>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48666100' target='_blank' rel='noopener noreferrer'>&#9650; 48</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48666100' target='_blank' rel='noopener noreferrer'>&#128172; 14</a> <span class='hn-tag hn-tag--amber' data-tag='Business'>Business</span></div>
+<img class='hn-img' src='https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blta938e80fc038a16f/6a3c068485bc9cd31bc21ab7/Elastic-dark-header_(1).png' data-full='https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blta938e80fc038a16f/6a3c068485bc9cd31bc21ab7/Elastic-dark-header_(1).png' alt='preview image' loading='lazy'/>
+<p class='hn-text-en'>Elastic announced layoffs totaling about 7% of its employees as it reshapes the company toward profitability and cloud-centric growth. The leadership aims to reduce operating costs, simplify the org, and accelerate product delivery, with some roles impacted across functions.</p>
+<p class='hn-text-zh'>Elastic 宣布裁减约 7% 的员工，以重塑为更偏向云端的增长模式并提升盈利能力。管理层表示将精简运营、加速产品交付，裁员涉及多个职能领域的岗位。</p>
+</div>
+</div>
+<div class='hn-card' id='story-48658718' data-tags='Startups,Business' data-hn-time='1782304303' data-hn-score='515' data-hot-score='5.48'>
+<div class='hn-body'>
+<p class='hn-title'>(5) <a href='https://paolino.me/founding-a-company-in-germany/' target='_blank' rel='noopener noreferrer'>Founding a company in Germany: €9600, 152 days and I still can't send an invoice</a></p>
+<p class='hn-meta'>在德国创办公司：9600欧元、152天，仍然无法开具发票</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 05:31 PT</span></p>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48658718' target='_blank' rel='noopener noreferrer'>&#9650; 515</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48658718' target='_blank' rel='noopener noreferrer'>&#128172; 618</a> <span class='hn-tag hn-tag--amber' data-tag='Startups'>Startups</span> <span class='hn-tag hn-tag--amber' data-tag='Business'>Business</span></div>
+<img class='hn-img' src='https://paolino.me/assets/images/og/posts/founding-a-company-in-germany.png' data-full='https://paolino.me/assets/images/og/posts/founding-a-company-in-germany.png' alt='preview image' loading='lazy'/>
+<p class='hn-text-en'>The post recounts the experience of starting a company in Germany, highlighting costs and bureaucracy: €9,600 and 152 days, yet still unable to issue invoices due to local constraints. The ordeal underscores startup friction in EU jurisdictions.</p>
+<p class='hn-text-zh'>博主讲述在德国创办公司的经历，成本高、手续繁琐（约9600欧元、152天），甚至无法开具正式发票，暴露出初创阶段的制度瓶颈。此类经验凸显在德经商和创业环境中的现实挑战。</p>
+</div>
+</div>
+<div class='hn-card' id='story-48657030' data-tags='Business,Web' data-hn-time='1782291041' data-hn-score='817' data-hot-score='5.46'>
+<div class='hn-body'>
+<p class='hn-title'>(6) <a href='https://bunny.net/blog/were-making-bunny-dns-free/' target='_blank' rel='noopener noreferrer'>We’re making Bunny DNS free</a></p>
+<p class='hn-meta'>Bunny DNS 免费开放</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 01:50 PT</span></p>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48657030' target='_blank' rel='noopener noreferrer'>&#9650; 817</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48657030' target='_blank' rel='noopener noreferrer'>&#128172; 250</a> <span class='hn-tag hn-tag--amber' data-tag='Business'>Business</span> <span class='hn-tag hn-tag--cyan' data-tag='Web'>Web</span></div>
+<img class='hn-img' src='https://bunny.net/blog/content/images/2026/06/DNS_-Free-DNS-blog-post--1-.png' data-full='https://bunny.net/blog/content/images/2026/06/DNS_-Free-DNS-blog-post--1-.png' alt='preview image' loading='lazy'/>
+<p class='hn-text-en'>Bunny DNS announces it will make its domain name system service free, lowering the barrier for personal sites and startups to adopt fast, resilient DNS. The move could pressure competitors to offer similar free tiers and raises questions about sustainability and future monetization.</p>
+<p class='hn-text-zh'>Bunny DNS 将其域名解析服务免费化，降低个人站点和初创企业采用高效 DNS 的门槛。此举可能对竞争对手施压，促使行业普遍提供免费层，但也引发对未来盈利模式与可持续性的担忧。</p>
+</div>
+</div>
+<div class='hn-card' id='story-48664733' data-tags='Programming,Open Source,Security' data-hn-time='1782330011' data-hn-score='102' data-hot-score='4.97'>
+<div class='hn-body'>
+<p class='hn-title'>(7) <a href='https://infosec.exchange/@mttaggart/116806641273303255' target='_blank' rel='noopener noreferrer'>GitHub shouldn't be a dependency for publishing Rust on crates.io</a></p>
+<p class='hn-meta'>crates.io 发布 Rust 不应再以 GitHub 为依赖</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 12:40 PT</span></p>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48664733' target='_blank' rel='noopener noreferrer'>&#9650; 102</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48664733' target='_blank' rel='noopener noreferrer'>&#128172; 38</a> <span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span> <span class='hn-tag hn-tag--green' data-tag='Open Source'>Open Source</span> <span class='hn-tag hn-tag--red' data-tag='Security'>Security</span></div>
+<img class='hn-img' src='https://infosec.exchange/packs/assets/logo-DoPHobHA.svg' data-full='https://infosec.exchange/packs/assets/logo-DoPHobHA.svg' alt='preview image' loading='lazy'/>
+<p class='hn-text-en'>A discussion argues that crates.io should not depend on GitHub for publishing Rust crates, citing outages and security concerns. Proposals include decoupling from GitHub, using alternative registries, and improving tooling to ensure resilience for Rust's ecosystem.</p>
+<p class='hn-text-zh'>该观点认为 crates.io 发布 Rust crate 不应再依赖 GitHub，理由包括故障停摆与安全风险。建议将发布流程与 GitHub 解耦，使用替代注册表并改进工具链，以提升 Rust 生态的鲁棒性。</p>
+</div>
+</div>
+<div class='hn-card' id='story-48660711' data-tags='Programming,AI' data-hn-time='1782312101' data-hn-score='324' data-hot-score='4.85'>
+<div class='hn-body'>
+<p class='hn-title'>(8) <a href='https://rubyllm.com/' target='_blank' rel='noopener noreferrer'>RubyLLM: A Ruby framework for all major AI providers</a></p>
+<p class='hn-meta'>RubyLLM：面向所有主流 AI 提供商的 Ruby 框架</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 07:41 PT</span></p>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48660711' target='_blank' rel='noopener noreferrer'>&#9650; 324</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48660711' target='_blank' rel='noopener noreferrer'>&#128172; 50</a> <span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span> <span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span></div>
+<img class='hn-img' src='https://rubyllm.com/assets/images/og/pages/rubyllm.png' data-full='https://rubyllm.com/assets/images/og/pages/rubyllm.png' alt='preview image' loading='lazy'/>
+<p class='hn-text-en'>RubyLLM provides a unified Ruby framework for major AI providers, letting developers write provider-agnostic code and swap backends with minimal changes. The move highlights how language ecosystems are competing on developer ergonomics as AI tooling expands.</p>
+<p class='hn-text-zh'>RubyLLM 提供一个统一接口，让 Ruby 开发者在不同主要 AI 提供商之间切换时无需重写代码。通过消除厂商绑定，它可能加速 Ruby 在 AI 应用的落地，并反映出各语言生态在开发者体验上的竞争。</p>
+</div>
+</div>
+<div class='hn-card' id='story-48662999' data-tags='AI,Privacy' data-hn-time='1782321694' data-hn-score='131' data-hot-score='3.35'>
+<div class='hn-body'>
+<p class='hn-title'>(9) <a href='https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/' target='_blank' rel='noopener noreferrer'>Computer use in Gemini 3.5 Flash</a></p>
+<p class='hn-meta'>Gemini 3.5 Flash 引入“计算机使用”能力</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 10:21 PT</span></p>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48662999' target='_blank' rel='noopener noreferrer'>&#9650; 131</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48662999' target='_blank' rel='noopener noreferrer'>&#128172; 83</a> <span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span> <span class='hn-tag hn-tag--red' data-tag='Privacy'>Privacy</span></div>
+<img class='hn-img' src='https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-5__keyword__blog-header__light_7VsKV.width-1300.png' data-full='https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-5__keyword__blog-header__light_7VsKV.width-1300.png' alt='preview image' loading='lazy'/>
+<p class='hn-text-en'>Google's Gemini 3.5 Flash adds a 'computer use' capability, letting the model interact with a host environment to run commands, access files, and call tools. This expands AI agents from theory to action, boosting productivity while expanding safety and privacy considerations. It signals a broader trend toward tool-using assistants.</p>
+<p class='hn-text-zh'>Gemini 3.5 Flash 增强了“使用计算机”的能力，使模型能够在宿主环境中运行命令、访问文件和调用工具。这让 AI 代理从单纯的推理走向对外部世界的实际行动，同时也带来安全与隐私方面的新挑战。这标志着更强大、能调用外部工具的 AI 助手正成为趋势。</p>
+</div>
+</div>
+<div class='hn-card' id='story-48660839' data-tags='Open Source,AI' data-hn-time='1782312622' data-hn-score='187' data-hot-score='2.87'>
+<div class='hn-body'>
+<p class='hn-title'>(10) <a href='https://techstrong.ai/articles/for-most-of-the-world-open-source-ai-is-the-only-way-forward/' target='_blank' rel='noopener noreferrer'>For Most of the World, Open-Source AI Is the Only Way Forward</a></p>
 <p class='hn-meta'>For Most of the World, Open-Source AI Is the Only Way Forward</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 07:50 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48660839' target='_blank' rel='noopener noreferrer'>&#9650; 143</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48660839' target='_blank' rel='noopener noreferrer'>&#128172; 96</a> <span class='hn-tag hn-tag--green' data-tag='Open Source'>Open Source</span> <span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span></div>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48660839' target='_blank' rel='noopener noreferrer'>&#9650; 187</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48660839' target='_blank' rel='noopener noreferrer'>&#128172; 128</a> <span class='hn-tag hn-tag--green' data-tag='Open Source'>Open Source</span> <span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span></div>
 <img class='hn-img' src='https://techstrong.ai/wp-content/uploads/2026/06/open_source_ai_global_connectivity_770x330.jpg' data-full='https://techstrong.ai/wp-content/uploads/2026/06/open_source_ai_global_connectivity_770x330.jpg' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>Open-source AI is framed as essential for broad access, local relevance, and governance, especially outside well-funded regions. The piece argues that open models and transparent ecosystems are necessary to avoid reliance on a few tech giants.</p>
 <p class='hn-text-zh'>文章认为，开源 AI 对广泛获取、地区本地化与治理至关重要，尤其在资源有限的地区。观点强调开放模型与透明生态系统是避免过度依赖少数科技巨头的关键。</p>
 </div>
 </div>
-<div class='hn-card' id='story-48662381' data-tags='Hardware,Design' data-hn-time='1782318956' data-hn-score='82' data-hot-score='4.28'>
+<div class='hn-card' id='story-48663544' data-tags='Programming,Data' data-hn-time='1782324333' data-hn-score='94' data-hot-score='2.87'>
 <div class='hn-body'>
-<p class='hn-title'>(10) <a href='https://blog.omgmog.net/post/xteink-x4-e-ink-reader/' target='_blank' rel='noopener noreferrer'>The Xteink X4 E-Ink Reader</a></p>
+<p class='hn-title'>(11) <a href='https://posthog.com/blog/sql-parser' target='_blank' rel='noopener noreferrer'>I rewrote PostHog's SQL parser, 70x faster, while barely looking at the code</a></p>
+<p class='hn-meta'>我在几乎不看代码的情况下把 PostHog 的 SQL 解析器重写，提速 70 倍</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 11:05 PT</span></p>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48663544' target='_blank' rel='noopener noreferrer'>&#9650; 94</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48663544' target='_blank' rel='noopener noreferrer'>&#128172; 51</a> <span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span> <span class='hn-tag hn-tag--violet' data-tag='Data'>Data</span></div>
+<img class='hn-img' src='https://d36j3rcgc2qfsv.cloudfront.net/blogsql-parser.jpeg' data-full='https://d36j3rcgc2qfsv.cloudfront.net/blogsql-parser.jpeg' alt='preview image' loading='lazy'/>
+<p class='hn-text-en'>A post describes rewriting PostHog's SQL parser to achieve 70x speedups with minimal code review. The work illustrates how thoughtful parser design and targeted optimizations can unlock outsized performance gains in analytics tooling. It serves as a reminder that small architectural shifts can have large payoffs.</p>
+<p class='hn-text-zh'>一篇文章描述在几乎不看代码的前提下重写 PostHog 的 SQL 解析器，使其速度提升约 70 倍。此成就展示了解析器设计和算法优化在分析工具链中的巨大潜力，也提醒开发者关注架构层面的长期收益。</p>
+</div>
+</div>
+<div class='hn-card' id='story-48662381' data-tags='Hardware' data-hn-time='1782318956' data-hn-score='131' data-hot-score='2.82'>
+<div class='hn-body'>
+<p class='hn-title'>(12) <a href='https://blog.omgmog.net/post/xteink-x4-e-ink-reader/' target='_blank' rel='noopener noreferrer'>The Xteink X4 E-Ink Reader</a></p>
 <p class='hn-meta'>The Xteink X4 电子墨水阅读器</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 09:35 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48662381' target='_blank' rel='noopener noreferrer'>&#9650; 82</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48662381' target='_blank' rel='noopener noreferrer'>&#128172; 64</a> <span class='hn-tag hn-tag--slate' data-tag='Hardware'>Hardware</span> <span class='hn-tag hn-tag--pink' data-tag='Design'>Design</span></div>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48662381' target='_blank' rel='noopener noreferrer'>&#9650; 131</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48662381' target='_blank' rel='noopener noreferrer'>&#128172; 99</a> <span class='hn-tag hn-tag--slate' data-tag='Hardware'>Hardware</span></div>
 <img class='hn-img' src='https://blog.omgmog.net/assets/ogimage-generic.png' data-full='https://blog.omgmog.net/assets/ogimage-generic.png' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>Xteink's new X4 e-ink reader aims to deliver improved contrast and usability for long-form reading, with low power consumption and potential note-taking features. It exemplifies ongoing viability and breadth of e-ink devices in a market increasingly dominated by tablets.</p>
 <p class='hn-text-zh'>Xteink 的新款 X4 电子墨水阅读器致力于提升对比度与可读性，兼具低功耗与潜在的笔记功能，展示了电子纸设备在平板主导的市场中的持续可行性与广度。</p>
 </div>
 </div>
-<div class='hn-card' id='story-48660267' data-tags='Show HN,Programming' data-hn-time='1782310458' data-hn-score='148' data-hot-score='3.93'>
+<div class='hn-card' id='story-48661535' data-tags='Science,Programming' data-hn-time='1782315438' data-hn-score='153' data-hot-score='2.71'>
 <div class='hn-body'>
-<p class='hn-title'>(11) <a href='https://github.com/nubjs/nub' target='_blank' rel='noopener noreferrer'>Show HN: Nub – A Bun-like all-in-one toolkit for Node.js</a></p>
+<p class='hn-title'>(13) <a href='https://www.theregister.com/research/2026/06/24/boffin-claims-microsofts-supposed-quantum-leap-does-not-compute-due-to-basic-python-errors/5260489' target='_blank' rel='noopener noreferrer'>Boffin claims Microsoft’s “quantum leap” is invalid due to “basic Python errors”</a></p>
+<p class='hn-meta'>自称微软的“量子跃迁”因“基本 Python 错误”而被质疑</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 08:37 PT</span></p>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48661535' target='_blank' rel='noopener noreferrer'>&#9650; 153</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48661535' target='_blank' rel='noopener noreferrer'>&#128172; 51</a> <span class='hn-tag hn-tag--teal' data-tag='Science'>Science</span> <span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span></div>
+<img class='hn-img' src='https://image.theregister.com/225000.jpg?imageId=225000&x=0&y=28.33&cropw=100&croph=71.67&panox=0&panoy=28.33&panow=100&panoh=71.67&width=1200&height=683' data-full='https://image.theregister.com/225000.jpg?imageId=225000&x=0&y=28.33&cropw=100&croph=71.67&panox=0&panoy=28.33&panow=100&panoh=71.67&width=1200&height=683' alt='preview image' loading='lazy'/>
+<p class='hn-text-en'>A researcher claims that Microsoft's reported quantum leap is flawed due to basic Python errors and misinterpretations. The critique highlights how sensational claims around quantum computing require careful validation and independent tooling.</p>
+<p class='hn-text-zh'>一位研究者质疑微软的所谓“量子跃迁”因存在“基本 Python 错误”而不成立。该批评强调对量子计算相关声明进行谨慎核验，以及独立工具的必要性。</p>
+</div>
+</div>
+<div class='hn-card' id='story-48660267' data-tags='Show HN,Programming' data-hn-time='1782310458' data-hn-score='182' data-hot-score='2.52'>
+<div class='hn-body'>
+<p class='hn-title'>(14) <a href='https://github.com/nubjs/nub' target='_blank' rel='noopener noreferrer'>Show HN: Nub – A Bun-like all-in-one toolkit for Node.js</a></p>
 <p class='hn-meta'>Show HN：Nub——一个 Bun 风格的 Node.js 全能工具包</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 07:14 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48660267' target='_blank' rel='noopener noreferrer'>&#9650; 148</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48660267' target='_blank' rel='noopener noreferrer'>&#128172; 38</a> <span class='hn-tag hn-tag--green' data-tag='Show HN'>Show HN</span> <span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span></div>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48660267' target='_blank' rel='noopener noreferrer'>&#9650; 182</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48660267' target='_blank' rel='noopener noreferrer'>&#128172; 51</a> <span class='hn-tag hn-tag--green' data-tag='Show HN'>Show HN</span> <span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span></div>
 <img class='hn-img' src='https://opengraph.githubassets.com/4131c5af915fb12c608755b345dfa0aea315d3d12c6fc8656dfd8a880a4427d0/nubjs/nub' data-full='https://opengraph.githubassets.com/4131c5af915fb12c608755b345dfa0aea315d3d12c6fc8656dfd8a880a4427d0/nubjs/nub' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>Nub is a Bun-like toolkit for Node.js, providing a single binary with ecosystem utilities, bundling, package management, and more. If adopted, it could reshape local dev environments and reduce dependency friction for Node developers.</p>
 <p class='hn-text-zh'>Nub 将 Node.js 开发环境整合成一个 Bun 风格的工具包，包含运行时、包管理和常用开发工具，简化本地环境。若获得广泛采用，可能降低依赖冲突、提升上手速度，并推动 Node 生态的工具链整合。</p>
 </div>
 </div>
-<div class='hn-card' id='story-48658647' data-tags='AI,Business,Space' data-hn-time='1782303839' data-hn-score='195' data-hot-score='3.49'>
+<div class='hn-card' id='story-48660579' data-tags='Business' data-hn-time='1782311532' data-hn-score='158' data-hot-score='2.29'>
 <div class='hn-body'>
-<p class='hn-title'>(12) <a href='https://fortune.com/2026/06/24/reid-hoffman-spacex-musk-openai-anthropic-gen-z-mistake/' target='_blank' rel='noopener noreferrer'>Reid Hoffman says SpaceX 'not an AI company', xAI 'complete train wreck'</a></p>
+<p class='hn-title'>(15) <a href='https://www.greptile.com/blog/prs-on-openclaw' target='_blank' rel='noopener noreferrer'>PR spam today looks like email spam in the early 2000s</a></p>
+<p class='hn-meta'>PR 垃圾邮件如今看起来像 2000 年代初的邮件垃圾</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 07:32 PT</span></p>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48660579' target='_blank' rel='noopener noreferrer'>&#9650; 158</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48660579' target='_blank' rel='noopener noreferrer'>&#128172; 90</a> <span class='hn-tag hn-tag--amber' data-tag='Business'>Business</span></div>
+<img class='hn-img' src='https://greptile.com/opengraph/greptile-blog.png' data-full='https://greptile.com/opengraph/greptile-blog.png' alt='preview image' loading='lazy'/>
+<p class='hn-text-en'>PR outreach today mirrors early-2000s email spam, with generic, mass-targeted pitches and clickbait subject lines. The piece argues that quality, relevance, and user respect in PR is eroding, creating noise that developers and journalists skip.</p>
+<p class='hn-text-zh'>如今的公关推送像上世纪初的邮件垃圾一样泛滥、缺乏针对性，充满低质的标题与大规模群发。文章指出，PR 的质量与对用户的尊重正在下降，造成开发者和记者对信息的忽略。</p>
+</div>
+</div>
+<div class='hn-card' id='story-48659165' data-tags='Security' data-hn-time='1782306532' data-hn-score='192' data-hot-score='2.23'>
+<div class='hn-body'>
+<p class='hn-title'>(16) <a href='https://ben-mini.com/2026/stealing-is-a-skill' target='_blank' rel='noopener noreferrer'>Stealing Is a Skill</a></p>
+<p class='hn-meta'>盗窃是一门技能</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 06:08 PT</span></p>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48659165' target='_blank' rel='noopener noreferrer'>&#9650; 192</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48659165' target='_blank' rel='noopener noreferrer'>&#128172; 120</a> <span class='hn-tag hn-tag--red' data-tag='Security'>Security</span></div>
+<img class='hn-img' src='https://ben-mini.com/assets/images/logo-square.png' data-full='https://ben-mini.com/assets/images/logo-square.png' alt='preview image' loading='lazy'/>
+<p class='hn-text-en'>Reflects on the craft of stealing as a skill, analyzing how attackers cultivate methods and how defenders can adapt. The piece emphasizes practical lessons for security professionals and the importance of empathy to understand attacker mindset.</p>
+<p class='hn-text-zh'>文章从攻击者角度探讨盗窃这门技能，分析他们如何培养手段以及防守方如何应对。强调对安全从业者的现实教训以及理解攻击者思维的重要性。</p>
+</div>
+</div>
+<div class='hn-card' id='story-48662452' data-tags='AI,Politics' data-hn-time='1782319213' data-hn-score='96' data-hot-score='2.09'>
+<div class='hn-body'>
+<p class='hn-title'>(17) <a href='https://www.economist.com/science-and-technology/2026/06/24/why-big-ai-labs-are-hiring-so-many-philosophers' target='_blank' rel='noopener noreferrer'>Big AI labs are hiring philosophers</a></p>
+<p class='hn-meta'>Big AI labs are hiring philosophers</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 09:40 PT</span></p>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48662452' target='_blank' rel='noopener noreferrer'>&#9650; 96</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48662452' target='_blank' rel='noopener noreferrer'>&#128172; 85</a> <span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span> <span class='hn-tag hn-tag--orange' data-tag='Politics'>Politics</span></div>
+<p class='hn-text-en'>AI labs are hiring philosophers to grapple with ethics, alignment, and long-term governance. This trend signals a growing emphasis on interdisciplinary thinking to address safety, policy, and societal impact as AI systems scale.</p>
+<p class='hn-text-zh'>AI 实验室正在招聘哲学家以应对伦理、对齐与长期治理等议题。这一趋势表明，随着 AI 系统规模扩大，跨学科思维在安全、政策与社会影响方面的重要性日益增强。</p>
+</div>
+</div>
+<div class='hn-card' id='story-48658647' data-tags='AI,Business,Space' data-hn-time='1782303839' data-hn-score='195' data-hot-score='2.03'>
+<div class='hn-body'>
+<p class='hn-title'>(18) <a href='https://fortune.com/2026/06/24/reid-hoffman-spacex-musk-openai-anthropic-gen-z-mistake/' target='_blank' rel='noopener noreferrer'>Reid Hoffman says SpaceX 'not an AI company', xAI 'complete train wreck'</a></p>
 <p class='hn-meta'>Reid Hoffman 指出 SpaceX 不是 AI 公司，xAI 彻底灾难</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 05:23 PT</span></p>
 <div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48658647' target='_blank' rel='noopener noreferrer'>&#9650; 195</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48658647' target='_blank' rel='noopener noreferrer'>&#128172; 221</a> <span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span> <span class='hn-tag hn-tag--amber' data-tag='Business'>Business</span> <span class='hn-tag hn-tag--teal' data-tag='Space'>Space</span></div>
@@ -139,74 +204,40 @@ title: "Hacker News — Trending (2026-06-24)"
 <p class='hn-text-zh'>投资人里德·霍夫曼对 SpaceX 的 AI 事业表示质疑，认为其不是一家 AI 公司，并称 xAI 是一场彻底的灾难。此言论揭示品牌定位与实际能力差异对投资者情绪的影响。</p>
 </div>
 </div>
-<div class='hn-card' id='story-48661536' data-tags='Legal,Culture' data-hn-time='1782315440' data-hn-score='90' data-hot-score='3.44'>
+<div class='hn-card' id='story-48658300' data-tags='Security,Legal,AI,Politics' data-hn-time='1782301547' data-hn-score='197' data-hot-score='1.88'>
 <div class='hn-body'>
-<p class='hn-title'>(13) <a href='https://www.cbc.ca/news/canada/montreal/terrasse-vaudreil-quebec-tree-rights-9.7243634' target='_blank' rel='noopener noreferrer'>Quebec town recognizes trees as living beings with rights</a></p>
+<p class='hn-title'>(19) <a href='https://www.nytimes.com/2026/06/23/us/politics/nsa-lost-access-anthropic-tool.html' target='_blank' rel='noopener noreferrer'>NSA lost access to Mythos amid Anthropic dispute</a></p>
+<p class='hn-meta'>NSA 在与 Anthropic 的纠纷中失去 Mythos 的访问权限</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 04:45 PT</span></p>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48658300' target='_blank' rel='noopener noreferrer'>&#9650; 197</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48658300' target='_blank' rel='noopener noreferrer'>&#128172; 173</a> <span class='hn-tag hn-tag--red' data-tag='Security'>Security</span> <span class='hn-tag hn-tag--orange' data-tag='Legal'>Legal</span> <span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span> <span class='hn-tag hn-tag--orange' data-tag='Politics'>Politics</span></div>
+<p class='hn-text-en'>NSA reportedly lost access to Mythos amid a dispute with Anthropic, spotlighting tensions over government access to private AI tools. The incident underscores how licensing and governance disputes can affect security research and national AI programs.</p>
+<p class='hn-text-zh'>据报道，NSA 因与 Anthropic 的争议而失去 Mythos 的访问权限，凸显政府对私有 AI 工具的获取与使用的紧张关系。这一事件反映出许可与治理在国家安全领域的现实影响。</p>
+</div>
+</div>
+<div class='hn-card' id='story-48661536' data-tags='Legal,Politics' data-hn-time='1782315440' data-hn-score='90' data-hot-score='1.58'>
+<div class='hn-body'>
+<p class='hn-title'>(20) <a href='https://www.cbc.ca/news/canada/montreal/terrasse-vaudreil-quebec-tree-rights-9.7243634' target='_blank' rel='noopener noreferrer'>Quebec town recognizes trees as living beings with rights</a></p>
 <p class='hn-meta'>魁北克小镇承认树木拥有法律权利</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 08:37 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48661536' target='_blank' rel='noopener noreferrer'>&#9650; 90</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48661536' target='_blank' rel='noopener noreferrer'>&#128172; 82</a> <span class='hn-tag hn-tag--orange' data-tag='Legal'>Legal</span> <span class='hn-tag hn-tag--rose' data-tag='Culture'>Culture</span></div>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48661536' target='_blank' rel='noopener noreferrer'>&#9650; 90</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48661536' target='_blank' rel='noopener noreferrer'>&#128172; 82</a> <span class='hn-tag hn-tag--orange' data-tag='Legal'>Legal</span> <span class='hn-tag hn-tag--orange' data-tag='Politics'>Politics</span></div>
 <p class='hn-text-en'>A Quebec town recognizes trees as living beings with legal rights, granting them protection in municipal decisions. The move raises questions about environmental ethics, governance, and how such rights interact with development.</p>
 <p class='hn-text-zh'>魁北克小镇将树木视为具法律权利的存在，在城政决策中给予保护。这一举措引发关于环境伦理、治理以及树木权利与发展之间关系的讨论。</p>
 </div>
 </div>
-<div class='hn-card' id='story-48659165' data-tags='Security,Education' data-hn-time='1782306532' data-hn-score='155' data-hot-score='3.22'>
+<div class='hn-card' id='story-48660178' data-tags='Hardware,Energy,AI,DevOps' data-hn-time='1782310211' data-hn-score='113' data-hot-score='1.54'>
 <div class='hn-body'>
-<p class='hn-title'>(14) <a href='https://ben-mini.com/2026/stealing-is-a-skill' target='_blank' rel='noopener noreferrer'>Stealing Is a Skill</a></p>
-<p class='hn-meta'>盗窃是一门技能</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 06:08 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48659165' target='_blank' rel='noopener noreferrer'>&#9650; 155</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48659165' target='_blank' rel='noopener noreferrer'>&#128172; 97</a> <span class='hn-tag hn-tag--red' data-tag='Security'>Security</span> <span class='hn-tag hn-tag--sky' data-tag='Education'>Education</span></div>
-<img class='hn-img' src='https://ben-mini.com/assets/images/logo-square.png' data-full='https://ben-mini.com/assets/images/logo-square.png' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>Reflects on the craft of stealing as a skill, analyzing how attackers cultivate methods and how defenders can adapt. The piece emphasizes practical lessons for security professionals and the importance of empathy to understand attacker mindset.</p>
-<p class='hn-text-zh'>文章从攻击者角度探讨盗窃这门技能，分析他们如何培养手段以及防守方如何应对。强调对安全从业者的现实教训以及理解攻击者思维的重要性。</p>
+<p class='hn-title'>(21) <a href='https://blogs.nvidia.com/blog/liquid-cooling-ai-factories/' target='_blank' rel='noopener noreferrer'>45°C cooling design cuts data center water use to near zero</a></p>
+<p class='hn-meta'>英伟达的 45°C 冷却设计将数据中心用水量降至近零</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 07:10 PT</span></p>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48660178' target='_blank' rel='noopener noreferrer'>&#9650; 113</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48660178' target='_blank' rel='noopener noreferrer'>&#128172; 77</a> <span class='hn-tag hn-tag--slate' data-tag='Hardware'>Hardware</span> <span class='hn-tag hn-tag--emerald' data-tag='Energy'>Energy</span> <span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span> <span class='hn-tag hn-tag--indigo' data-tag='DevOps'>DevOps</span></div>
+<img class='hn-img' src='https://blogs.nvidia.com/wp-content/uploads/2026/06/45CLiquidCooling.jpg' data-full='https://blogs.nvidia.com/wp-content/uploads/2026/06/45CLiquidCooling.jpg' alt='preview image' loading='lazy'/>
+<p class='hn-text-en'>NVIDIA outlines a cooling strategy that uses 45°C water to remove heat, dramatically cutting data center water use and enabling simpler plumbing. The approach could lower OPEX for AI/data workloads and influence future data center infrastructure.</p>
+<p class='hn-text-zh'>英伟达介绍了一种使用 45°C 的热水进行散热的设计，显著降低数据中心的用水量并简化管路。该方案有望降低 AI/数据工作负载的数据中心运营成本，并可能影响未来的基础设施设计。</p>
 </div>
 </div>
-<div class='hn-card' id='story-48663544' data-tags='Programming,Data' data-hn-time='1782324333' data-hn-score='32' data-hot-score='3.05'>
+<div class='hn-card' id='story-48658186' data-tags='Science,Health,Privacy' data-hn-time='1782300680' data-hn-score='153' data-hot-score='1.41'>
 <div class='hn-body'>
-<p class='hn-title'>(15) <a href='https://posthog.com/blog/sql-parser' target='_blank' rel='noopener noreferrer'>I rewrote PostHog's SQL parser, 70x faster, while barely looking at the code</a></p>
-<p class='hn-meta'>我在几乎不看代码的情况下把 PostHog 的 SQL 解析器重写，提速 70 倍</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 11:05 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48663544' target='_blank' rel='noopener noreferrer'>&#9650; 32</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48663544' target='_blank' rel='noopener noreferrer'>&#128172; 4</a> <span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span> <span class='hn-tag hn-tag--violet' data-tag='Data'>Data</span></div>
-<img class='hn-img' src='https://d36j3rcgc2qfsv.cloudfront.net/blogsql-parser.jpeg' data-full='https://d36j3rcgc2qfsv.cloudfront.net/blogsql-parser.jpeg' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>A post describes rewriting PostHog's SQL parser to achieve 70x speedups with minimal code review. The work illustrates how thoughtful parser design and targeted optimizations can unlock outsized performance gains in analytics tooling. It serves as a reminder that small architectural shifts can have large payoffs.</p>
-<p class='hn-text-zh'>一篇文章描述在几乎不看代码的前提下重写 PostHog 的 SQL 解析器，使其速度提升约 70 倍。此成就展示了解析器设计和算法优化在分析工具链中的巨大潜力，也提醒开发者关注架构层面的长期收益。</p>
-</div>
-</div>
-<div class='hn-card' id='story-48660579' data-tags='Business' data-hn-time='1782311532' data-hn-score='91' data-hot-score='2.59'>
-<div class='hn-body'>
-<p class='hn-title'>(16) <a href='https://www.greptile.com/blog/prs-on-openclaw' target='_blank' rel='noopener noreferrer'>PR spam today looks like email spam in the early 2000s</a></p>
-<p class='hn-meta'>PR 垃圾邮件如今看起来像 2000 年代初的邮件垃圾</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 07:32 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48660579' target='_blank' rel='noopener noreferrer'>&#9650; 91</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48660579' target='_blank' rel='noopener noreferrer'>&#128172; 60</a> <span class='hn-tag hn-tag--amber' data-tag='Business'>Business</span></div>
-<img class='hn-img' src='https://greptile.com/opengraph/greptile-blog.png' data-full='https://greptile.com/opengraph/greptile-blog.png' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>PR outreach today mirrors early-2000s email spam, with generic, mass-targeted pitches and clickbait subject lines. The piece argues that quality, relevance, and user respect in PR is eroding, creating noise that developers and journalists skip.</p>
-<p class='hn-text-zh'>如今的公关推送像上世纪初的邮件垃圾一样泛滥、缺乏针对性，充满低质的标题与大规模群发。文章指出，PR 的质量与对用户的尊重正在下降，造成开发者和记者对信息的忽略。</p>
-</div>
-</div>
-<div class='hn-card' id='story-48661911' data-tags='Security,Web' data-hn-time='1782316952' data-hn-score='59' data-hot-score='2.55'>
-<div class='hn-body'>
-<p class='hn-title'>(17) <a href='https://www.browserbase.com/blog/why-captchas-are-getting-harder' target='_blank' rel='noopener noreferrer'>CAPTCHAs have failed for 20 years</a></p>
-<p class='hn-meta'>CAPTCHAs 已经失败了二十年</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 09:02 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48661911' target='_blank' rel='noopener noreferrer'>&#9650; 59</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48661911' target='_blank' rel='noopener noreferrer'>&#128172; 48</a> <span class='hn-tag hn-tag--red' data-tag='Security'>Security</span> <span class='hn-tag hn-tag--cyan' data-tag='Web'>Web</span></div>
-<img class='hn-img' src='https://cdn.sanity.io/images/yd6zslid/production/cd3a1c87bc3f777a2a15455ef582259e571d2432-856x579.png?rect=0,67,856,447&w=1200&h=627&fit=crop' data-full='https://cdn.sanity.io/images/yd6zslid/production/cd3a1c87bc3f777a2a15455ef582259e571d2432-856x579.png?rect=0,67,856,447&w=1200&h=627&fit=crop' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>CAPTCHAs have failed to reliably block automated abuse for two decades, according to the piece. It argues for alternative approaches—passwordless authentication, behavior-based verification, and risk-based access control—while noting accessibility concerns.</p>
-<p class='hn-text-zh'>文章指出 CAPTCHA 二十年来在阻挡自动滥用方面效果不佳，主张采用无密码认证、基于行为的验证与分层风险控制等新方法，同时关注无障碍性问题。</p>
-</div>
-</div>
-<div class='hn-card' id='story-48661938' data-tags='Programming' data-hn-time='1782317066' data-hn-score='56' data-hot-score='2.44'>
-<div class='hn-body'>
-<p class='hn-title'>(18) <a href='https://www.tigrisdata.com/blog/objgit/' target='_blank' rel='noopener noreferrer'>I taught a bucket to speak Git</a></p>
-<p class='hn-meta'>我教一个桶说 Git</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 09:04 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48661938' target='_blank' rel='noopener noreferrer'>&#9650; 56</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48661938' target='_blank' rel='noopener noreferrer'>&#128172; 12</a> <span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span></div>
-<img class='hn-img' src='https://www.tigrisdata.com/blog/assets/images/hero-image-baf7c5edcab708543188e76e67d3a0ef.webp' data-full='https://www.tigrisdata.com/blog/assets/images/hero-image-baf7c5edcab708543188e76e67d3a0ef.webp' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>An experiment where a storage bucket is taught to understand and respond in Git terms, enabling version-like interactions with object storage. It demonstrates how familiar interfaces can bridge data stores with developer workflows, hinting at new ways to manage versioning and collaboration.</p>
-<p class='hn-text-zh'>一个将对象存储桶教会“说 Git”的实验，使其能以 Git 的语言与存储交互，产生类似版本控制的工作流。此举证明熟悉的接口可以桥接数据存储与开发者工作流，暗示对版本控制和协作的新可能。</p>
-</div>
-</div>
-<div class='hn-card' id='story-48658186' data-tags='Science,Health,Privacy' data-hn-time='1782300680' data-hn-score='153' data-hot-score='2.33'>
-<div class='hn-body'>
-<p class='hn-title'>(19) <a href='https://www.sciencenews.org/article/deadly-fungus-cats-people-spreading' target='_blank' rel='noopener noreferrer'>A deadly fungus that can infect cats and people is spreading</a></p>
+<p class='hn-title'>(22) <a href='https://www.sciencenews.org/article/deadly-fungus-cats-people-spreading' target='_blank' rel='noopener noreferrer'>A deadly fungus that can infect cats and people is spreading</a></p>
 <p class='hn-meta'>一种能感染猫和人类的致命真菌正在传播</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 04:31 PT</span></p>
 <div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48658186' target='_blank' rel='noopener noreferrer'>&#9650; 153</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48658186' target='_blank' rel='noopener noreferrer'>&#128172; 113</a> <span class='hn-tag hn-tag--teal' data-tag='Science'>Science</span> <span class='hn-tag hn-tag--emerald' data-tag='Health'>Health</span> <span class='hn-tag hn-tag--red' data-tag='Privacy'>Privacy</span></div>
@@ -215,85 +246,9 @@ title: "Hacker News — Trending (2026-06-24)"
 <p class='hn-text-zh'>一种能够同时感染猫和人类的致命真菌正在蔓延，引发对人畜共患病传播和治疗选择的担忧。文章强调监测、兽医卫生和跨物种病原体意识的重要性。</p>
 </div>
 </div>
-<div class='hn-card' id='story-48658300' data-tags='Security,Politics,AI' data-hn-time='1782301547' data-hn-score='140' data-hot-score='2.22'>
+<div class='hn-card' id='story-48632884' data-tags='Hardware,Gaming' data-hn-time='1782148191' data-hn-score='1888' data-hot-score='1.35'>
 <div class='hn-body'>
-<p class='hn-title'>(20) <a href='https://www.nytimes.com/2026/06/23/us/politics/nsa-lost-access-anthropic-tool.html' target='_blank' rel='noopener noreferrer'>NSA lost access to Mythos amid Anthropic dispute</a></p>
-<p class='hn-meta'>NSA 在与 Anthropic 的纠纷中失去 Mythos 的访问权限</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 04:45 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48658300' target='_blank' rel='noopener noreferrer'>&#9650; 140</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48658300' target='_blank' rel='noopener noreferrer'>&#128172; 100</a> <span class='hn-tag hn-tag--red' data-tag='Security'>Security</span> <span class='hn-tag hn-tag--orange' data-tag='Politics'>Politics</span> <span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span></div>
-<p class='hn-text-en'>NSA reportedly lost access to Mythos amid a dispute with Anthropic, spotlighting tensions over government access to private AI tools. The incident underscores how licensing and governance disputes can affect security research and national AI programs.</p>
-<p class='hn-text-zh'>据报道，NSA 因与 Anthropic 的争议而失去 Mythos 的访问权限，凸显政府对私有 AI 工具的获取与使用的紧张关系。这一事件反映出许可与治理在国家安全领域的现实影响。</p>
-</div>
-</div>
-<div class='hn-card' id='story-48660671' data-tags='Programming,Open Source,Hardware,Gaming' data-hn-time='1782311910' data-hn-score='69' data-hot-score='2.01'>
-<div class='hn-body'>
-<p class='hn-title'>(21) <a href='https://astral-os.org/posts/2026/04/03/wine-on-astral.html' target='_blank' rel='noopener noreferrer'>Running Windows Games on a Hobby OS with Wine</a></p>
-<p class='hn-meta'>在业余操作系统上用 Wine 运行 Windows 游戏</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 07:38 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48660671' target='_blank' rel='noopener noreferrer'>&#9650; 69</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48660671' target='_blank' rel='noopener noreferrer'>&#128172; 20</a> <span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span> <span class='hn-tag hn-tag--green' data-tag='Open Source'>Open Source</span> <span class='hn-tag hn-tag--slate' data-tag='Hardware'>Hardware</span> <span class='hn-tag hn-tag--purple' data-tag='Gaming'>Gaming</span></div>
-<img class='hn-img' src='https://astral-os.org/images/posts/astral_wine.png' data-full='https://astral-os.org/images/posts/astral_wine.png' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>A hobby OS runs Windows games via Wine, with notes on compatibility and performance versus native tooling. It demonstrates how open-source ecosystems push practical cross-platform gaming, even on niche hardware.</p>
-<p class='hn-text-zh'>该项目演示在业余操作系统上通过 Wine 运行 Windows 游戏，并给出兼容性与性能的综合评估。体现开源生态在跨平台游戏体验中的实际应用潜力。</p>
-</div>
-</div>
-<div class='hn-card' id='story-48661095' data-tags='Finance,Business' data-hn-time='1782313541' data-hn-score='61' data-hot-score='1.99'>
-<div class='hn-body'>
-<p class='hn-title'>(22) <a href='https://www.euronews.com/business/2026/06/24/venezuela-plans-biggest-debt-restructuring-in-history-after-maduros-fall' target='_blank' rel='noopener noreferrer'>Venezuela reveals $240B in debt it cannot pay (~$100B more than expected)</a></p>
-<p class='hn-meta'>委内瑞拉披露无法偿付的 2400 亿美元债务</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 08:05 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48661095' target='_blank' rel='noopener noreferrer'>&#9650; 61</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48661095' target='_blank' rel='noopener noreferrer'>&#128172; 55</a> <span class='hn-tag hn-tag--amber' data-tag='Finance'>Finance</span> <span class='hn-tag hn-tag--amber' data-tag='Business'>Business</span></div>
-<img class='hn-img' src='https://images.euronews.com/articles/stories/09/81/14/90/1200x675_cmsv2_25ec8703-e7f0-5d9b-9c57-816ef752fbde-9811490.jpg' data-full='https://images.euronews.com/articles/stories/09/81/14/90/1200x675_cmsv2_25ec8703-e7f0-5d9b-9c57-816ef752fbde-9811490.jpg' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>Venezuela reveals a debt load of roughly $240B that it cannot pay, far exceeding prior estimates. The plan to restructure debt marks a historic fiscal move, with potential implications for oil revenues, sovereign risk, and international lenders.</p>
-<p class='hn-text-zh'>该国披露无法按现有能力偿付的约 2400 亿美元债务，远超此前预期。计划进行历史上最大规模的债务重组，可能影响石油收入、主权风险及国际债权人关系。</p>
-</div>
-</div>
-<div class='hn-card' id='story-48658361' data-tags='Open Source' data-hn-time='1782301932' data-hn-score='111' data-hot-score='1.79'>
-<div class='hn-body'>
-<p class='hn-title'>(23) <a href='https://images.minimus.io/' target='_blank' rel='noopener noreferrer'>Minimus container images are now free</a></p>
-<p class='hn-meta'>Minimus 容器镜像免费开放</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 04:52 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48658361' target='_blank' rel='noopener noreferrer'>&#9650; 111</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48658361' target='_blank' rel='noopener noreferrer'>&#128172; 71</a> <span class='hn-tag hn-tag--green' data-tag='Open Source'>Open Source</span></div>
-<img class='hn-img' src='https://images.minimus.io/synced/logos/nginx.svg' data-full='https://images.minimus.io/synced/logos/nginx.svg' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>Minimus announces free access to its ultra-small container images, lowering barriers for startups and edge deployments to ship minimal, faster containers. The move may accelerate adoption in CI/test workloads and push other minimal image providers to emulate free tiers.</p>
-<p class='hn-text-zh'>Minimus 宣布其超小型容器镜像免费开放，降低初创和边缘部署的成本与门槛。此举可能推动在 CI/测试工作负载中的采用，并促使其他极简镜像提供商效仿免费策略。</p>
-</div>
-</div>
-<div class='hn-card' id='story-48659257' data-tags='Hardware,AI' data-hn-time='1782306879' data-hn-score='79' data-hot-score='1.66'>
-<div class='hn-body'>
-<p class='hn-title'>(24) <a href='https://openai.com/index/openai-broadcom-jalapeno-inference-chip/' target='_blank' rel='noopener noreferrer'>OpenAI and Broadcom unveil LLM-optimized inference chip</a></p>
-<p class='hn-meta'>OpenAI 与 Broadcom 公布面向大语言模型的推理芯片</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 06:14 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48659257' target='_blank' rel='noopener noreferrer'>&#9650; 79</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48659257' target='_blank' rel='noopener noreferrer'>&#128172; 25</a> <span class='hn-tag hn-tag--slate' data-tag='Hardware'>Hardware</span> <span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span></div>
-<img class='hn-img' src='https://images.ctfassets.net/kftzwdyauwt9/4DeZq8e24W4qgIrtAu4Xmg/54189176ae1c6150d94cac02fb104f79/openai-broadcom-jalapeno-inference-chip-image-16_9.png?w=1600&h=900&fit=fill' data-full='https://images.ctfassets.net/kftzwdyauwt9/4DeZq8e24W4qgIrtAu4Xmg/54189176ae1c6150d94cac02fb104f79/openai-broadcom-jalapeno-inference-chip-image-16_9.png?w=1600&h=900&fit=fill' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>OpenAI and Broadcom unveil an inference chip optimized for large language models, aiming to accelerate and reduce the cost of LLM deployments. The collaboration signals how chipmakers are aligning hardware to AI workloads and could influence data-center architectures.</p>
-<p class='hn-text-zh'>OpenAI 与 Broadcom 推出面向大语言模型推理的定制芯片，目标是加速并降低成本，提升数据中心对 AI 工作负载的适配。此举反映了硬件厂商正围绕 AI 任务进行更紧密的软硬件协同。</p>
-</div>
-</div>
-<div class='hn-card' id='story-48649011' data-tags='Programming,Culture,Open Source' data-hn-time='1782238420' data-hn-score='635' data-hot-score='1.63'>
-<div class='hn-body'>
-<p class='hn-title'>(25) <a href='https://twitter.com/JPoehnelt/status/2069482265953087602' target='_blank' rel='noopener noreferrer'>Fired by Google for creating the Google workspace CLI</a></p>
-<p class='hn-meta'>因为创建 Google Workspace CLI 而被解雇</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 23, 2026 / 11:13 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48649011' target='_blank' rel='noopener noreferrer'>&#9650; 635</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48649011' target='_blank' rel='noopener noreferrer'>&#128172; 376</a> <span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span> <span class='hn-tag hn-tag--rose' data-tag='Culture'>Culture</span> <span class='hn-tag hn-tag--green' data-tag='Open Source'>Open Source</span></div>
-<img class='hn-img' src='https://pbs.twimg.com/media/HLhHJvWaoAEBgxd.jpg:large' data-full='https://pbs.twimg.com/media/HLhHJvWaoAEBgxd.jpg:large' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>A former Google employee reports being fired for building the Google Workspace CLI, raising questions about internal policies toward external tooling and open-source contributions.</p>
-<p class='hn-text-zh'>据称一名前 Google 员工因开发 Google Workspace CLI 而被解雇，引发关于内部政策对外部工具和开源贡献态度的讨论。</p>
-</div>
-</div>
-<div class='hn-card' id='story-48648619' data-tags='AI' data-hn-time='1782237022' data-hn-score='649' data-hot-score='1.62'>
-<div class='hn-body'>
-<p class='hn-title'>(26) <a href='https://swipe.futo.tech/' target='_blank' rel='noopener noreferrer'>FUTO Swipe – A new swipe typing model</a></p>
-<p class='hn-meta'>FUTO Swipe 轻扫输入模型</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 23, 2026 / 10:50 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48648619' target='_blank' rel='noopener noreferrer'>&#9650; 649</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48648619' target='_blank' rel='noopener noreferrer'>&#128172; 229</a> <span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span></div>
-<img class='hn-img' src='https://swipe.futo.tech/hero-2.webp' data-full='https://swipe.futo.tech/hero-2.webp' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>FUTO Swipe introduces a new swipe-typing model designed to improve accuracy and speed on mobile keyboards. The model promises smarter prediction and resilience across layouts, with a public demo at the project site.</p>
-<p class='hn-text-zh'>FUTO Swipe 推出全新的滑动输入模型，旨在提升移动端键盘的准确性与输入速度。该模型声称在不同布局下都具备更智能的预测能力，公开演示在项目站点可见。</p>
-</div>
-</div>
-<div class='hn-card' id='story-48632884' data-tags='Hardware,Gaming' data-hn-time='1782148191' data-hn-score='1888' data-hot-score='1.51'>
-<div class='hn-body'>
-<p class='hn-title'>(27) <a href='https://store.steampowered.com/news/group/45479024/view/685257114654870245' target='_blank' rel='noopener noreferrer'>Steam Machine launches today</a></p>
+<p class='hn-title'>(23) <a href='https://store.steampowered.com/news/group/45479024/view/685257114654870245' target='_blank' rel='noopener noreferrer'>Steam Machine launches today</a></p>
 <p class='hn-meta'>Steam 机器</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 22, 2026 / 10:09 PT</span></p>
 <div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48632884' target='_blank' rel='noopener noreferrer'>&#9650; 1888</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48632884' target='_blank' rel='noopener noreferrer'>&#128172; 1661</a> <span class='hn-tag hn-tag--slate' data-tag='Hardware'>Hardware</span> <span class='hn-tag hn-tag--purple' data-tag='Gaming'>Gaming</span></div>
@@ -302,9 +257,64 @@ title: "Hacker News — Trending (2026-06-24)"
 <p class='hn-text-zh'>Valve 在 Steam 机器硬件页再次出现，展示其将 PC 游戏带入客厅的长期尝试，强调性能、易用性与生态系统控制之间的权衡。此举反映出游戏硬件在家庭娱乐中的定位与挑战。</p>
 </div>
 </div>
-<div class='hn-card' id='story-48649435' data-tags='Data,Web' data-hn-time='1782240022' data-hn-score='555' data-hot-score='1.46'>
+<div class='hn-card' id='story-48661938' data-tags='Programming,DevOps' data-hn-time='1782317066' data-hn-score='70' data-hot-score='1.34'>
 <div class='hn-body'>
-<p class='hn-title'>(28) <a href='http://www.jerrysmap.com/the-map' target='_blank' rel='noopener noreferrer'>Jerry's Map</a></p>
+<p class='hn-title'>(24) <a href='https://www.tigrisdata.com/blog/objgit/' target='_blank' rel='noopener noreferrer'>I taught a bucket to speak Git</a></p>
+<p class='hn-meta'>我教一个桶说 Git</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 09:04 PT</span></p>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48661938' target='_blank' rel='noopener noreferrer'>&#9650; 70</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48661938' target='_blank' rel='noopener noreferrer'>&#128172; 16</a> <span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span> <span class='hn-tag hn-tag--indigo' data-tag='DevOps'>DevOps</span></div>
+<img class='hn-img' src='https://www.tigrisdata.com/blog/assets/images/hero-image-baf7c5edcab708543188e76e67d3a0ef.webp' data-full='https://www.tigrisdata.com/blog/assets/images/hero-image-baf7c5edcab708543188e76e67d3a0ef.webp' alt='preview image' loading='lazy'/>
+<p class='hn-text-en'>An experiment where a storage bucket is taught to understand and respond in Git terms, enabling version-like interactions with object storage. It demonstrates how familiar interfaces can bridge data stores with developer workflows, hinting at new ways to manage versioning and collaboration.</p>
+<p class='hn-text-zh'>一个将对象存储桶教会“说 Git”的实验，使其能以 Git 的语言与存储交互，产生类似版本控制的工作流。此举证明熟悉的接口可以桥接数据存储与开发者工作流，暗示对版本控制和协作的新可能。</p>
+</div>
+</div>
+<div class='hn-card' id='story-48648619' data-tags='AI' data-hn-time='1782237022' data-hn-score='649' data-hot-score='1.33'>
+<div class='hn-body'>
+<p class='hn-title'>(25) <a href='https://swipe.futo.tech/' target='_blank' rel='noopener noreferrer'>FUTO Swipe – A new swipe typing model</a></p>
+<p class='hn-meta'>FUTO Swipe 轻扫输入模型</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 23, 2026 / 10:50 PT</span></p>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48648619' target='_blank' rel='noopener noreferrer'>&#9650; 649</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48648619' target='_blank' rel='noopener noreferrer'>&#128172; 229</a> <span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span></div>
+<img class='hn-img' src='https://swipe.futo.tech/hero-2.webp' data-full='https://swipe.futo.tech/hero-2.webp' alt='preview image' loading='lazy'/>
+<p class='hn-text-en'>FUTO Swipe introduces a new swipe-typing model designed to improve accuracy and speed on mobile keyboards. The model promises smarter prediction and resilience across layouts, with a public demo at the project site.</p>
+<p class='hn-text-zh'>FUTO Swipe 推出全新的滑动输入模型，旨在提升移动端键盘的准确性与输入速度。该模型声称在不同布局下都具备更智能的预测能力，公开演示在项目站点可见。</p>
+</div>
+</div>
+<div class='hn-card' id='story-48649011' data-tags='Programming,Open Source' data-hn-time='1782238420' data-hn-score='635' data-hot-score='1.33'>
+<div class='hn-body'>
+<p class='hn-title'>(26) <a href='https://twitter.com/JPoehnelt/status/2069482265953087602' target='_blank' rel='noopener noreferrer'>Fired by Google for creating the Google workspace CLI</a></p>
+<p class='hn-meta'>因为创建 Google Workspace CLI 而被解雇</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 23, 2026 / 11:13 PT</span></p>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48649011' target='_blank' rel='noopener noreferrer'>&#9650; 635</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48649011' target='_blank' rel='noopener noreferrer'>&#128172; 376</a> <span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span> <span class='hn-tag hn-tag--green' data-tag='Open Source'>Open Source</span></div>
+<img class='hn-img' src='https://pbs.twimg.com/media/HLhHJvWaoAEBgxd.jpg:large' data-full='https://pbs.twimg.com/media/HLhHJvWaoAEBgxd.jpg:large' alt='preview image' loading='lazy'/>
+<p class='hn-text-en'>A former Google employee reports being fired for building the Google Workspace CLI, raising questions about internal policies toward external tooling and open-source contributions.</p>
+<p class='hn-text-zh'>据称一名前 Google 员工因开发 Google Workspace CLI 而被解雇，引发关于内部政策对外部工具和开源贡献态度的讨论。</p>
+</div>
+</div>
+<div class='hn-card' id='story-48660671' data-tags='Open Source,Gaming,Hardware' data-hn-time='1782311910' data-hn-score='90' data-hot-score='1.32'>
+<div class='hn-body'>
+<p class='hn-title'>(27) <a href='https://astral-os.org/posts/2026/04/03/wine-on-astral.html' target='_blank' rel='noopener noreferrer'>Running Windows Games on a Hobby OS with Wine</a></p>
+<p class='hn-meta'>在业余操作系统上用 Wine 运行 Windows 游戏</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 07:38 PT</span></p>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48660671' target='_blank' rel='noopener noreferrer'>&#9650; 90</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48660671' target='_blank' rel='noopener noreferrer'>&#128172; 28</a> <span class='hn-tag hn-tag--green' data-tag='Open Source'>Open Source</span> <span class='hn-tag hn-tag--purple' data-tag='Gaming'>Gaming</span> <span class='hn-tag hn-tag--slate' data-tag='Hardware'>Hardware</span></div>
+<img class='hn-img' src='https://astral-os.org/images/posts/astral_wine.png' data-full='https://astral-os.org/images/posts/astral_wine.png' alt='preview image' loading='lazy'/>
+<p class='hn-text-en'>A hobby OS runs Windows games via Wine, with notes on compatibility and performance versus native tooling. It demonstrates how open-source ecosystems push practical cross-platform gaming, even on niche hardware.</p>
+<p class='hn-text-zh'>该项目演示在业余操作系统上通过 Wine 运行 Windows 游戏，并给出兼容性与性能的综合评估。体现开源生态在跨平台游戏体验中的实际应用潜力。</p>
+</div>
+</div>
+<div class='hn-card' id='story-48661911' data-tags='Security,Privacy,Web' data-hn-time='1782316952' data-hn-score='64' data-hot-score='1.22'>
+<div class='hn-body'>
+<p class='hn-title'>(28) <a href='https://www.browserbase.com/blog/why-captchas-are-getting-harder' target='_blank' rel='noopener noreferrer'>The CAPTCHA arms race: from distorted text to browser identity</a></p>
+<p class='hn-meta'>验证码军备竞赛：从扭曲文本到浏览器身份识别</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 09:02 PT</span></p>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48661911' target='_blank' rel='noopener noreferrer'>&#9650; 64</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48661911' target='_blank' rel='noopener noreferrer'>&#128172; 55</a> <span class='hn-tag hn-tag--red' data-tag='Security'>Security</span> <span class='hn-tag hn-tag--red' data-tag='Privacy'>Privacy</span> <span class='hn-tag hn-tag--cyan' data-tag='Web'>Web</span></div>
+<img class='hn-img' src='https://cdn.sanity.io/images/yd6zslid/production/cd3a1c87bc3f777a2a15455ef582259e571d2432-856x579.png?rect=0,67,856,447&w=1200&h=627&fit=crop' data-full='https://cdn.sanity.io/images/yd6zslid/production/cd3a1c87bc3f777a2a15455ef582259e571d2432-856x579.png?rect=0,67,856,447&w=1200&h=627&fit=crop' alt='preview image' loading='lazy'/>
+<p class='hn-text-en'>The CAPTCHA arms race has evolved from distorted text to browser identity and behavior-based challenges, raising questions about privacy and accessibility. Developers and defenders push for stronger bot resistance, while attackers adapt with sophisticated automation.</p>
+<p class='hn-text-zh'>验证码军备竞赛已从扭曲文本演进为基于浏览器身份与行为的挑战，涉及隐私与无障碍性问题。安全团队持续改进抵御能力，攻击者也在用更高水平的自动化进行对抗。</p>
+</div>
+</div>
+<div class='hn-card' id='story-48649435' data-tags='Data,Web' data-hn-time='1782240022' data-hn-score='555' data-hot-score='1.19'>
+<div class='hn-body'>
+<p class='hn-title'>(29) <a href='http://www.jerrysmap.com/the-map' target='_blank' rel='noopener noreferrer'>Jerry's Map</a></p>
 <p class='hn-meta'>Jerry 的地图</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 23, 2026 / 11:40 PT</span></p>
 <div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48649435' target='_blank' rel='noopener noreferrer'>&#9650; 555</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48649435' target='_blank' rel='noopener noreferrer'>&#128172; 60</a> <span class='hn-tag hn-tag--violet' data-tag='Data'>Data</span> <span class='hn-tag hn-tag--cyan' data-tag='Web'>Web</span></div>
@@ -313,20 +323,41 @@ title: "Hacker News — Trending (2026-06-24)"
 <p class='hn-text-zh'>Jerry's Map 看起来是一个用于可视化地理数据的交互式地图项目。</p>
 </div>
 </div>
-<div class='hn-card' id='story-48648959' data-tags='Design' data-hn-time='1782238247' data-hn-score='549' data-hot-score='1.4'>
+<div class='hn-card' id='story-48648959' data-tags='Design,Programming' data-hn-time='1782238247' data-hn-score='549' data-hot-score='1.15'>
 <div class='hn-body'>
-<p class='hn-title'>(29) <a href='https://devblogs.microsoft.com/oldnewthing/20260622-00/?p=112451' target='_blank' rel='noopener noreferrer'>In memory of the man who put red and green squiggles under words</a></p>
+<p class='hn-title'>(30) <a href='https://devblogs.microsoft.com/oldnewthing/20260622-00/?p=112451' target='_blank' rel='noopener noreferrer'>In memory of the man who put red and green squiggles under words</a></p>
 <p class='hn-meta'>纪念在文本下方标出红色和绿色波浪线的工程师</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 23, 2026 / 11:10 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48648959' target='_blank' rel='noopener noreferrer'>&#9650; 549</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48648959' target='_blank' rel='noopener noreferrer'>&#128172; 96</a> <span class='hn-tag hn-tag--pink' data-tag='Design'>Design</span></div>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48648959' target='_blank' rel='noopener noreferrer'>&#9650; 549</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48648959' target='_blank' rel='noopener noreferrer'>&#128172; 96</a> <span class='hn-tag hn-tag--pink' data-tag='Design'>Design</span> <span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span></div>
 <img class='hn-img' src='https://devblogs.microsoft.com/oldnewthing/wp-content/uploads/sites/38/2019/02/ShowCover.jpg' data-full='https://devblogs.microsoft.com/oldnewthing/wp-content/uploads/sites/38/2019/02/ShowCover.jpg' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>A memorial piece recalls the engineer who introduced red and green squiggles under words in text editors, highlighting how tiny UX cues shaped modern editing and software behavior.</p>
 <p class='hn-text-zh'>追忆在文本编辑器中首次引入“红色/绿色下划线”提示的工程师，文章强调这类细微的用户体验信号对现代文本编辑和软件行为的深远影响。</p>
 </div>
 </div>
-<div class='hn-card' id='story-48653216' data-tags='Security' data-hn-time='1782258166' data-hn-score='357' data-hot-score='1.36'>
+<div class='hn-card' id='story-48659798' data-tags='AI,Business,Hardware,Startups' data-hn-time='1782308956' data-hn-score='90' data-hot-score='1.15'>
 <div class='hn-body'>
-<p class='hn-title'>(30) <a href='https://words.filippo.io/vuln-reports/' target='_blank' rel='noopener noreferrer'>Vulnerability reports are not special anymore</a></p>
+<p class='hn-title'>(31) <a href='https://www.reuters.com/business/qualcomm-buy-ai-startup-modular-2026-06-24/' target='_blank' rel='noopener noreferrer'>Qualcomm to Acquire Modular</a></p>
+<p class='hn-meta'>高通将收购 Modular</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 06:49 PT</span></p>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48659798' target='_blank' rel='noopener noreferrer'>&#9650; 90</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48659798' target='_blank' rel='noopener noreferrer'>&#128172; 24</a> <span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span> <span class='hn-tag hn-tag--amber' data-tag='Business'>Business</span> <span class='hn-tag hn-tag--slate' data-tag='Hardware'>Hardware</span> <span class='hn-tag hn-tag--amber' data-tag='Startups'>Startups</span></div>
+<p class='hn-text-en'>Qualcomm plans to acquire Modular, an AI startup focused on modular software for on-device or edge AI. The deal expands Qualcomm's AI software and hardware stack, aiming to boost on-device inference and system integration. It underscores a trend of chipmakers consolidating to offer end-to-end edge AI solutions.</p>
+<p class='hn-text-zh'>高通计划收购专注于在设备端运行的模组化 AI 软件的初创公司 Modular。此次交易扩展了高通在 AI 软件与硬件的整合能力，旨在提升设备端推理性能和系统协同。此举反映芯片厂商在边缘 AI 解决方案上的并购整合趋势。</p>
+</div>
+</div>
+<div class='hn-card' id='story-48658361' data-tags='DevOps,Startups' data-hn-time='1782301932' data-hn-score='111' data-hot-score='1.07'>
+<div class='hn-body'>
+<p class='hn-title'>(32) <a href='https://images.minimus.io/' target='_blank' rel='noopener noreferrer'>Minimus container images are now free</a></p>
+<p class='hn-meta'>Minimus 容器镜像免费开放</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 04:52 PT</span></p>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48658361' target='_blank' rel='noopener noreferrer'>&#9650; 111</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48658361' target='_blank' rel='noopener noreferrer'>&#128172; 71</a> <span class='hn-tag hn-tag--indigo' data-tag='DevOps'>DevOps</span> <span class='hn-tag hn-tag--amber' data-tag='Startups'>Startups</span></div>
+<img class='hn-img' src='https://images.minimus.io/synced/logos/nginx.svg' data-full='https://images.minimus.io/synced/logos/nginx.svg' alt='preview image' loading='lazy'/>
+<p class='hn-text-en'>Minimus announces free access to its ultra-small container images, lowering barriers for startups and edge deployments to ship minimal, faster containers. The move may accelerate adoption in CI/test workloads and push other minimal image providers to emulate free tiers.</p>
+<p class='hn-text-zh'>Minimus 宣布其超小型容器镜像免费开放，降低初创和边缘部署的成本与门槛。此举可能推动在 CI/测试工作负载中的采用，并促使其他极简镜像提供商效仿免费策略。</p>
+</div>
+</div>
+<div class='hn-card' id='story-48653216' data-tags='Security' data-hn-time='1782258166' data-hn-score='357' data-hot-score='1.06'>
+<div class='hn-body'>
+<p class='hn-title'>(33) <a href='https://words.filippo.io/vuln-reports/' target='_blank' rel='noopener noreferrer'>Vulnerability reports are not special anymore</a></p>
 <p class='hn-meta'>漏洞报告已不再特殊</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 23, 2026 / 16:42 PT</span></p>
 <div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48653216' target='_blank' rel='noopener noreferrer'>&#9650; 357</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48653216' target='_blank' rel='noopener noreferrer'>&#128172; 204</a> <span class='hn-tag hn-tag--red' data-tag='Security'>Security</span></div>
@@ -335,9 +366,31 @@ title: "Hacker News — Trending (2026-06-24)"
 <p class='hn-text-zh'>漏洞报告如今大量涌现，已不再具有稀缺性和紧迫性。文章主张需要更高效的分流、明确的披露流程，以及将报告转化为可执行信号的激励机制。若不改进，负责任披露的价值可能受损。</p>
 </div>
 </div>
-<div class='hn-card' id='story-48654676' data-tags='Hardware' data-hn-time='1782271067' data-hn-score='238' data-hot-score='1.25'>
+<div class='hn-card' id='story-48661095' data-tags='Finance,Business' data-hn-time='1782313541' data-hn-score='61' data-hot-score='0.97'>
 <div class='hn-body'>
-<p class='hn-title'>(31) <a href='https://gitlab.com/baiyibai/pico-usb-wifi' target='_blank' rel='noopener noreferrer'>Raspberry Pi Pico W as USB Wi-Fi Adapter</a></p>
+<p class='hn-title'>(34) <a href='https://www.euronews.com/business/2026/06/24/venezuela-plans-biggest-debt-restructuring-in-history-after-maduros-fall' target='_blank' rel='noopener noreferrer'>Venezuela reveals $240B in debt it cannot pay (~$100B more than expected)</a></p>
+<p class='hn-meta'>委内瑞拉披露无法偿付的 2400 亿美元债务</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 08:05 PT</span></p>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48661095' target='_blank' rel='noopener noreferrer'>&#9650; 61</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48661095' target='_blank' rel='noopener noreferrer'>&#128172; 55</a> <span class='hn-tag hn-tag--amber' data-tag='Finance'>Finance</span> <span class='hn-tag hn-tag--amber' data-tag='Business'>Business</span></div>
+<img class='hn-img' src='https://images.euronews.com/articles/stories/09/81/14/90/1200x675_cmsv2_25ec8703-e7f0-5d9b-9c57-816ef752fbde-9811490.jpg' data-full='https://images.euronews.com/articles/stories/09/81/14/90/1200x675_cmsv2_25ec8703-e7f0-5d9b-9c57-816ef752fbde-9811490.jpg' alt='preview image' loading='lazy'/>
+<p class='hn-text-en'>Venezuela reveals a debt load of roughly $240B that it cannot pay, far exceeding prior estimates. The plan to restructure debt marks a historic fiscal move, with potential implications for oil revenues, sovereign risk, and international lenders.</p>
+<p class='hn-text-zh'>该国披露无法按现有能力偿付的约 2400 亿美元债务，远超此前预期。计划进行历史上最大规模的债务重组，可能影响石油收入、主权风险及国际债权人关系。</p>
+</div>
+</div>
+<div class='hn-card' id='story-48662347' data-tags='Security,Health' data-hn-time='1782318828' data-hn-score='46' data-hot-score='0.97'>
+<div class='hn-body'>
+<p class='hn-title'>(35) <a href='https://eaton-works.com/2026/06/24/jnj-webapp-hacks/' target='_blank' rel='noopener noreferrer'>Exploiting vulnerabilities in Johnson and Johnson web apps</a></p>
+<p class='hn-meta'>Exploiting vulnerabilities in Johnson and Johnson web apps</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 09:33 PT</span></p>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48662347' target='_blank' rel='noopener noreferrer'>&#9650; 46</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48662347' target='_blank' rel='noopener noreferrer'>&#128172; 1</a> <span class='hn-tag hn-tag--red' data-tag='Security'>Security</span> <span class='hn-tag hn-tag--emerald' data-tag='Health'>Health</span></div>
+<img class='hn-img' src='https://eaton-works.com/jnj-webapp-og.png' data-full='https://eaton-works.com/jnj-webapp-og.png' alt='preview image' loading='lazy'/>
+<p class='hn-text-en'>Security researchers describe vulnerabilities in Johnson & Johnson's web apps, illustrating healthcare IT risk and the urgency of timely patching and secure development practices. The disclosure underscores the fragile surface of consumer health platforms.</p>
+<p class='hn-text-zh'>安全研究人员揭示强生网页应用中的漏洞，凸显医疗健康 IT 的风险以及及时打补丁与安全开发实践的紧迫性。此类披露强调了消费者健康平台易受攻击的脆弱面。</p>
+</div>
+</div>
+<div class='hn-card' id='story-48654676' data-tags='Hardware' data-hn-time='1782271067' data-hn-score='238' data-hot-score='0.93'>
+<div class='hn-body'>
+<p class='hn-title'>(36) <a href='https://gitlab.com/baiyibai/pico-usb-wifi' target='_blank' rel='noopener noreferrer'>Raspberry Pi Pico W as USB Wi-Fi Adapter</a></p>
 <p class='hn-meta'>将 Raspberry Pi Pico W 作为 USB 无线网卡</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 23, 2026 / 20:17 PT</span></p>
 <div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48654676' target='_blank' rel='noopener noreferrer'>&#9650; 238</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48654676' target='_blank' rel='noopener noreferrer'>&#128172; 114</a> <span class='hn-tag hn-tag--slate' data-tag='Hardware'>Hardware</span></div>
@@ -346,53 +399,20 @@ title: "Hacker News — Trending (2026-06-24)"
 <p class='hn-text-zh'>该项目展示了 Pico W 作为 USB 无线网卡工作，使主机可以通过 Pico 的 USB 端口获得网络接口。展示了 RP2040 的 USB gadget 能力，为便携网络和离线共享等场景提供 DIY 方案。</p>
 </div>
 </div>
-<div class='hn-card' id='story-48661415' data-tags='Business' data-hn-time='1782314884' data-hn-score='32' data-hot-score='1.14'>
+<div class='hn-card' id='story-48659257' data-tags='AI,Hardware' data-hn-time='1782306879' data-hn-score='79' data-hot-score='0.92'>
 <div class='hn-body'>
-<p class='hn-title'>(32) <a href='https://werd.io/journalism-is-rearranging-the-deckchairs-it-needs-to-reinvent-itself/' target='_blank' rel='noopener noreferrer'>Journalism is rearranging the deckchairs. It needs to reinvent itself</a></p>
-<p class='hn-meta'>新闻业正在挪动桌椅，需要彻底自我革新</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 08:28 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48661415' target='_blank' rel='noopener noreferrer'>&#9650; 32</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48661415' target='_blank' rel='noopener noreferrer'>&#128172; 37</a> <span class='hn-tag hn-tag--amber' data-tag='Business'>Business</span></div>
-<img class='hn-img' src='https://images.unsplash.com/photo-1548192746-dd526f154ed9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDJ8fGluZGllfGVufDB8fHx8MTc0OTY5ODcxM3ww&ixlib=rb-4.1.0&q=80&w=2000' data-full='https://images.unsplash.com/photo-1548192746-dd526f154ed9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDJ8fGluZGllfGVufDB8fHx8MTc0OTY5ODcxM3ww&ixlib=rb-4.1.0&q=80&w=2000' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>The piece argues journalism isn't solving structural issues with superficial tweaks; it needs to reinvent business models and workflows to stay relevant in the digital age. It suggests combining investigative rigor with new tech-enabled distribution and transparency.</p>
-<p class='hn-text-zh'>文章认为新闻行业未能通过表面的改动解决结构性问题，需在数字时代重新设计商业模式与工作流程以保持相关性，同时倡导结合深入调查与新技术驱动的传播与透明度。</p>
+<p class='hn-title'>(37) <a href='https://openai.com/index/openai-broadcom-jalapeno-inference-chip/' target='_blank' rel='noopener noreferrer'>OpenAI and Broadcom unveil LLM-optimized inference chip</a></p>
+<p class='hn-meta'>OpenAI 与 Broadcom 公布面向大语言模型的推理芯片</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 06:14 PT</span></p>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48659257' target='_blank' rel='noopener noreferrer'>&#9650; 79</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48659257' target='_blank' rel='noopener noreferrer'>&#128172; 25</a> <span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span> <span class='hn-tag hn-tag--slate' data-tag='Hardware'>Hardware</span></div>
+<img class='hn-img' src='https://images.ctfassets.net/kftzwdyauwt9/4DeZq8e24W4qgIrtAu4Xmg/54189176ae1c6150d94cac02fb104f79/openai-broadcom-jalapeno-inference-chip-image-16_9.png?w=1600&h=900&fit=fill' data-full='https://images.ctfassets.net/kftzwdyauwt9/4DeZq8e24W4qgIrtAu4Xmg/54189176ae1c6150d94cac02fb104f79/openai-broadcom-jalapeno-inference-chip-image-16_9.png?w=1600&h=900&fit=fill' alt='preview image' loading='lazy'/>
+<p class='hn-text-en'>OpenAI and Broadcom unveil an inference chip optimized for large language models, aiming to accelerate and reduce the cost of LLM deployments. The collaboration signals how chipmakers are aligning hardware to AI workloads and could influence data-center architectures.</p>
+<p class='hn-text-zh'>OpenAI 与 Broadcom 推出面向大语言模型推理的定制芯片，目标是加速并降低成本，提升数据中心对 AI 工作负载的适配。此举反映了硬件厂商正围绕 AI 任务进行更紧密的软硬件协同。</p>
 </div>
 </div>
-<div class='hn-card' id='story-48657940' data-tags='Programming,Open Source' data-hn-time='1782298799' data-hn-score='82' data-hot-score='1.13'>
+<div class='hn-card' id='story-48654367' data-tags='Politics,Security' data-hn-time='1782267819' data-hn-score='218' data-hot-score='0.79'>
 <div class='hn-body'>
-<p class='hn-title'>(33) <a href='https://rworks.dev/posts/too-many-R-packages/' target='_blank' rel='noopener noreferrer'>Too many R packages: CRAN is inundated with submissions</a></p>
-<p class='hn-meta'>CRAN 收到的 R 包提交过多</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 03:59 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48657940' target='_blank' rel='noopener noreferrer'>&#9650; 82</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48657940' target='_blank' rel='noopener noreferrer'>&#128172; 65</a> <span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span> <span class='hn-tag hn-tag--green' data-tag='Open Source'>Open Source</span></div>
-<img class='hn-img' src='https://rworks.dev/posts/too-many-R-packages/index_files/figure-html/unnamed-chunk-1-1.png' data-full='https://rworks.dev/posts/too-many-R-packages/index_files/figure-html/unnamed-chunk-1-1.png' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>CRAN is inundated with package submissions, creating backlogs and strained maintenance pipelines.</p>
-<p class='hn-text-zh'>CRAN 的包提交量激增，致使审核与维护流程承压，出现积压。文章探讨了质量保证、可重复性，以及可能的自动化审查或替代托管方案。</p>
-</div>
-</div>
-<div class='hn-card' id='story-48658095' data-tags='AI,Open Source' data-hn-time='1782300092' data-hn-score='77' data-hot-score='1.13'>
-<div class='hn-body'>
-<p class='hn-title'>(34) <a href='https://haystack.deepset.ai/' target='_blank' rel='noopener noreferrer'>Haystack: Open-Source AI Framework for Production Ready Agents, RAG</a></p>
-<p class='hn-meta'>Haystack：面向生产就绪代理与 RAG 的开源 AI 框架</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 04:21 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48658095' target='_blank' rel='noopener noreferrer'>&#9650; 77</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48658095' target='_blank' rel='noopener noreferrer'>&#128172; 21</a> <span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span> <span class='hn-tag hn-tag--green' data-tag='Open Source'>Open Source</span></div>
-<img class='hn-img' src='https://haystack.deepset.ai/images/haystack-ogimage.png' data-full='https://haystack.deepset.ai/images/haystack-ogimage.png' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>Haystack provides a production-focused AI framework for building agents and RAG pipelines, with components for orchestrating prompts, memory, and retrieval. It helps teams move from prototype to deployment with tested connectors and evaluation tools.</p>
-<p class='hn-text-zh'>Haystack 提供一个面向生产的 AI 框架，专注于构建代理与检索增强生成（RAG）管线，包含编排、记忆与检索等组件，帮助团队从原型过渡到生产部署。</p>
-</div>
-</div>
-<div class='hn-card' id='story-48661179' data-tags='Science' data-hn-time='1782313827' data-hn-score='33' data-hot-score='1.09'>
-<div class='hn-body'>
-<p class='hn-title'>(35) <a href='https://www.dijkstrascry.com/inventory' target='_blank' rel='noopener noreferrer'>Edsger Dijkstra's Library (Housed and Archived in Leuven, Belgium)</a></p>
-<p class='hn-meta'>埃斯格·迪克斯特拉的藏书在比利时鲁汶被收藏与归档</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 08:10 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48661179' target='_blank' rel='noopener noreferrer'>&#9650; 33</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48661179' target='_blank' rel='noopener noreferrer'>&#128172; 9</a> <span class='hn-tag hn-tag--teal' data-tag='Science'>Science</span></div>
-<img class='hn-img' src='https://www.dijkstrascry.com/sites/default/files/P1020478less_0.jpg' data-full='https://www.dijkstrascry.com/sites/default/files/P1020478less_0.jpg' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>The library of Edsger Dijkstra is housed and archived in Leuven, Belgium, preserving his papers, notes, and correspondence. This archive provides insight into the history of algorithms and formal methods that shaped modern computing.</p>
-<p class='hn-text-zh'>迪克斯特拉的藏书与手稿在比利时鲁汶被妥善保存与归档，展现了算法和形式化方法的发展脉络。此类档案有助于理解现代计算的理论基础及其演变。</p>
-</div>
-</div>
-<div class='hn-card' id='story-48654367' data-tags='Politics,Security' data-hn-time='1782267819' data-hn-score='218' data-hot-score='1.05'>
-<div class='hn-body'>
-<p class='hn-title'>(36) <a href='https://www.economist.com/by-invitation/2026/06/02/how-the-war-on-terror-primed-america-for-autocracy' target='_blank' rel='noopener noreferrer'>The war on terror primed America for autocracy</a></p>
+<p class='hn-title'>(38) <a href='https://www.economist.com/by-invitation/2026/06/02/how-the-war-on-terror-primed-america-for-autocracy' target='_blank' rel='noopener noreferrer'>The war on terror primed America for autocracy</a></p>
 <p class='hn-meta'>恐怖主义战争为美国铺路走向专制</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 23, 2026 / 19:23 PT</span></p>
 <div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48654367' target='_blank' rel='noopener noreferrer'>&#9650; 218</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48654367' target='_blank' rel='noopener noreferrer'>&#128172; 181</a> <span class='hn-tag hn-tag--orange' data-tag='Politics'>Politics</span> <span class='hn-tag hn-tag--red' data-tag='Security'>Security</span></div>
@@ -400,28 +420,7 @@ title: "Hacker News — Trending (2026-06-24)"
 <p class='hn-text-zh'>文章将恐怖主义战争视为推动美国走向专制的因素，讨论对公民自由与政府权力的长期影响。作者认为安全体制强化了集中的权力，影响超越前线战争的政策走向。</p>
 </div>
 </div>
-<div class='hn-card' id='story-48662452' data-tags='AI' data-hn-time='1782319213' data-hn-score='20' data-hot-score='1.03'>
-<div class='hn-body'>
-<p class='hn-title'>(37) <a href='https://www.economist.com/science-and-technology/2026/06/24/why-big-ai-labs-are-hiring-so-many-philosophers' target='_blank' rel='noopener noreferrer'>Big AI labs are hiring philosophers</a></p>
-<p class='hn-meta'>Big AI labs are hiring philosophers</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 09:40 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48662452' target='_blank' rel='noopener noreferrer'>&#9650; 20</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48662452' target='_blank' rel='noopener noreferrer'>&#128172; 11</a> <span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span></div>
-<p class='hn-text-en'>AI labs are hiring philosophers to grapple with ethics, alignment, and long-term governance. This trend signals a growing emphasis on interdisciplinary thinking to address safety, policy, and societal impact as AI systems scale.</p>
-<p class='hn-text-zh'>AI 实验室正在招聘哲学家以应对伦理、对齐与长期治理等议题。这一趋势表明，随着 AI 系统规模扩大，跨学科思维在安全、政策与社会影响方面的重要性日益增强。</p>
-</div>
-</div>
-<div class='hn-card' id='story-48658464' data-tags='Business,Hardware,AI' data-hn-time='1782302686' data-hn-score='61' data-hot-score='1.02'>
-<div class='hn-body'>
-<p class='hn-title'>(38) <a href='https://www.modular.com/blog/qualcomm-to-acquire-modular' target='_blank' rel='noopener noreferrer'>Qualcomm to Acquire Modular</a></p>
-<p class='hn-meta'>Qualcomm 将收购 Modular</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 05:04 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48658464' target='_blank' rel='noopener noreferrer'>&#9650; 61</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48658464' target='_blank' rel='noopener noreferrer'>&#128172; 14</a> <span class='hn-tag hn-tag--amber' data-tag='Business'>Business</span> <span class='hn-tag hn-tag--slate' data-tag='Hardware'>Hardware</span> <span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span></div>
-<img class='hn-img' src='https://cdn.prod.website-files.com/68c9c3107effc2ea46e1a82c/6a3bc6374d277b30cca94273_image.png' data-full='https://cdn.prod.website-files.com/68c9c3107effc2ea46e1a82c/6a3bc6374d277b30cca94273_image.png' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>Qualcomm announces plans to acquire Modular, broadening its hardware and software ecosystem with modular platform capabilities. The deal could accelerate a more versatile device stack across mobility, AR/VR, or edge AI, depending on Modular's technology.</p>
-<p class='hn-text-zh'>高通宣布收购 Modular，意在通过模块化平台能力扩展其硬件与软件生态系统。此次交易有望加速移动、AR/VR 或边缘 AI 等领域的设备栈多样化，前提是 Modular 的技术能有效落地。</p>
-</div>
-</div>
-<div class='hn-card' id='story-48653575' data-tags='Privacy,Security' data-hn-time='1782260921' data-hn-score='243' data-hot-score='0.99'>
+<div class='hn-card' id='story-48653575' data-tags='Privacy,Security' data-hn-time='1782260921' data-hn-score='243' data-hot-score='0.76'>
 <div class='hn-body'>
 <p class='hn-title'>(39) <a href='https://www.wired.com/story/meta-pauses-employee-tracking-program-following-internal-security-breach/' target='_blank' rel='noopener noreferrer'>Meta Pauses Employee-Tracking Program Following Internal Data Leak</a></p>
 <p class='hn-meta'>Meta 暂停员工跟踪计划，因内部数据泄露</p>
@@ -432,51 +431,51 @@ title: "Hacker News — Trending (2026-06-24)"
 <p class='hn-text-zh'>Meta 因内部数据泄露而暂停了员工跟踪计划，体现公司在隐私与数据治理方面的权衡。这次事件凸显安全事故如何推动监控政策与数据访问的调整。</p>
 </div>
 </div>
-<div class='hn-card' id='story-48654465' data-tags='Programming,Hardware' data-hn-time='1782268727' data-hn-score='198' data-hot-score='0.98'>
+<div class='hn-card' id='story-48654465' data-tags='Programming,Hardware' data-hn-time='1782268727' data-hn-score='206' data-hot-score='0.76'>
 <div class='hn-body'>
 <p class='hn-title'>(40) <a href='https://gist.github.com/retroplasma/ec21767d0a8380c7ea9c2fbee1c7d6bf' target='_blank' rel='noopener noreferrer'>"Fix" MacBook Neo Cursor Lag: Record 1 Pixel of the Screen Every 10 Seconds</a></p>
 <p class='hn-meta'>修复 MacBook Neo 光标延迟：每 10 秒记录屏幕一个像素</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 23, 2026 / 19:38 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48654465' target='_blank' rel='noopener noreferrer'>&#9650; 198</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48654465' target='_blank' rel='noopener noreferrer'>&#128172; 85</a> <span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span> <span class='hn-tag hn-tag--slate' data-tag='Hardware'>Hardware</span></div>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48654465' target='_blank' rel='noopener noreferrer'>&#9650; 206</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48654465' target='_blank' rel='noopener noreferrer'>&#128172; 89</a> <span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span> <span class='hn-tag hn-tag--slate' data-tag='Hardware'>Hardware</span></div>
 <img class='hn-img' src='https://github.githubassets.com/assets/gist-og-image-54fd7dc0713e.png' data-full='https://github.githubassets.com/assets/gist-og-image-54fd7dc0713e.png' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>A playful workaround for MacBook Neo cursor lag suggests recording a single screen pixel every ten seconds to trigger a system refresh, a reminder that tiny engineering quirks often require clever, low-risk hacks. The post showcases how developers share pragmatic fixes for fringe hardware behaviors.</p>
 <p class='hn-text-zh'>提出一个有趣的变通方案来缓解 MacBook Neo 的光标延迟，即每十秒记录屏幕中的一个像素来触发系统刷新，显示了边缘硬件问题常需巧妙且低风险的解决方案。展示开发者如何分享实用的、针对边缘情况的修复方法。</p>
 </div>
 </div>
-<div class='hn-card' id='story-48654351' data-tags='AI' data-hn-time='1782267707' data-hn-score='185' data-hot-score='0.89'>
+<div class='hn-card' id='story-48657940' data-tags='Programming' data-hn-time='1782298799' data-hn-score='89' data-hot-score='0.76'>
 <div class='hn-body'>
-<p class='hn-title'>(41) <a href='https://arxiv.org/abs/2606.24597' target='_blank' rel='noopener noreferrer'>Qwen-AgentWorld: Language World Models for General Agents</a></p>
+<p class='hn-title'>(41) <a href='https://rworks.dev/posts/too-many-R-packages/' target='_blank' rel='noopener noreferrer'>Too many R packages: CRAN is inundated with submissions</a></p>
+<p class='hn-meta'>CRAN 收到的 R 包提交过多</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 03:59 PT</span></p>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48657940' target='_blank' rel='noopener noreferrer'>&#9650; 89</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48657940' target='_blank' rel='noopener noreferrer'>&#128172; 74</a> <span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span></div>
+<img class='hn-img' src='https://rworks.dev/posts/too-many-R-packages/index_files/figure-html/unnamed-chunk-1-1.png' data-full='https://rworks.dev/posts/too-many-R-packages/index_files/figure-html/unnamed-chunk-1-1.png' alt='preview image' loading='lazy'/>
+<p class='hn-text-en'>CRAN is inundated with package submissions, creating backlogs and strained maintenance pipelines.</p>
+<p class='hn-text-zh'>CRAN 的包提交量激增，致使审核与维护流程承压，出现积压。文章探讨了质量保证、可重复性，以及可能的自动化审查或替代托管方案。</p>
+</div>
+</div>
+<div class='hn-card' id='story-48654351' data-tags='AI' data-hn-time='1782267707' data-hn-score='194' data-hot-score='0.7'>
+<div class='hn-body'>
+<p class='hn-title'>(42) <a href='https://arxiv.org/abs/2606.24597' target='_blank' rel='noopener noreferrer'>Qwen-AgentWorld: Language World Models for General Agents</a></p>
 <p class='hn-meta'>Qwen-AgentWorld：用于通用代理的语言世界模型</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 23, 2026 / 19:21 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48654351' target='_blank' rel='noopener noreferrer'>&#9650; 185</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48654351' target='_blank' rel='noopener noreferrer'>&#128172; 50</a> <span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span></div>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48654351' target='_blank' rel='noopener noreferrer'>&#9650; 194</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48654351' target='_blank' rel='noopener noreferrer'>&#128172; 51</a> <span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span></div>
 <img class='hn-img' src='https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png' data-full='https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>Introduces Qwen-AgentWorld, a framework for language-based world models that empower general agents to plan, reason, and interact with tools across domains. The work emphasizes integrating language capabilities with world-model loops and presents benchmarks showing broad adaptability.</p>
 <p class='hn-text-zh'>提出 Qwen-AgentWorld 框架，将语言模型与世界模型结合，让通用代理具备跨领域的规划、推理与工具使用能力。强调将语言能力融入世界模型循环，并给出多领域适应性基准。</p>
 </div>
 </div>
-<div class='hn-card' id='story-48662310' data-tags='Education,Programming,AI' data-hn-time='1782318673' data-hn-score='18' data-hot-score='0.87'>
+<div class='hn-card' id='story-48658095' data-tags='AI,Open Source' data-hn-time='1782300092' data-hn-score='77' data-hot-score='0.69'>
 <div class='hn-body'>
-<p class='hn-title'>(42) <a href='https://news.ycombinator.com/item?id=48662310' target='_blank' rel='noopener noreferrer'>Ask HN: How much coding should beginners learn in the AI era?</a></p>
-<p class='hn-meta'>Ask HN：在 AI 时代，初学者应学多少编程？</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 09:31 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48662310' target='_blank' rel='noopener noreferrer'>&#9650; 18</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48662310' target='_blank' rel='noopener noreferrer'>&#128172; 22</a> <span class='hn-tag hn-tag--sky' data-tag='Education'>Education</span> <span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span> <span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span></div>
-<img class='hn-img' src='https://news.ycombinator.com/y18.svg' data-full='https://news.ycombinator.com/y18.svg' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>A discussion explores how much programming beginners should learn as AI tools become more capable. Advice emphasizes problem solving, data literacy, and learning to collaborate with AI copilots rather than chasing syntax alone.</p>
-<p class='hn-text-zh'>Ask HN 讨论在 AI 时代初学者应掌握多少编程技能。观点强调解决问题的能力、数据素养，以及学会与 AI 助手协作，而非仅追求语法细巧。</p>
+<p class='hn-title'>(43) <a href='https://haystack.deepset.ai/' target='_blank' rel='noopener noreferrer'>Haystack: Open-Source AI Framework for Production Ready Agents, RAG</a></p>
+<p class='hn-meta'>Haystack：面向生产就绪代理与 RAG 的开源 AI 框架</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 04:21 PT</span></p>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48658095' target='_blank' rel='noopener noreferrer'>&#9650; 77</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48658095' target='_blank' rel='noopener noreferrer'>&#128172; 21</a> <span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span> <span class='hn-tag hn-tag--green' data-tag='Open Source'>Open Source</span></div>
+<img class='hn-img' src='https://haystack.deepset.ai/images/haystack-ogimage.png' data-full='https://haystack.deepset.ai/images/haystack-ogimage.png' alt='preview image' loading='lazy'/>
+<p class='hn-text-en'>Haystack provides a production-focused AI framework for building agents and RAG pipelines, with components for orchestrating prompts, memory, and retrieval. It helps teams move from prototype to deployment with tested connectors and evaluation tools.</p>
+<p class='hn-text-zh'>Haystack 提供一个面向生产的 AI 框架，专注于构建代理与检索增强生成（RAG）管线，包含编排、记忆与检索等组件，帮助团队从原型过渡到生产部署。</p>
 </div>
 </div>
-<div class='hn-card' id='story-48664533' data-tags='AI,Politics' data-hn-time='1782328929' data-hn-score='5' data-hot-score='0.86'>
-<div class='hn-body'>
-<p class='hn-title'>(43) <a href='https://twitter.com/ianbremmer/status/2069744192230764723' target='_blank' rel='noopener noreferrer'>Are AI chatbots politically biased?</a></p>
-<p class='hn-meta'>Are AI chatbots politically biased?</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 12:22 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48664533' target='_blank' rel='noopener noreferrer'>&#9650; 5</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48664533' target='_blank' rel='noopener noreferrer'>&#128172; 2</a> <span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span> <span class='hn-tag hn-tag--orange' data-tag='Politics'>Politics</span></div>
-<img class='hn-img' src='https://pbs.twimg.com/media/HLk1XsdXwAAlNh-.jpg:large' data-full='https://pbs.twimg.com/media/HLk1XsdXwAAlNh-.jpg:large' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>Debate over whether AI chatbots show political bias, driven by training data and alignment choices. The discussion calls for better benchmarks, transparency, and governance to ensure fair and predictable behavior.</p>
-<p class='hn-text-zh'>关于 AI 聊天机器人是否存在政治偏见的讨论，源于训练数据和对齐选择。该辩论呼吁建立更完善的基准、提高透明度并加强治理，以确保行为的公平与可预测性。</p>
-</div>
-</div>
-<div class='hn-card' id='story-48645437' data-tags='Show HN,Programming' data-hn-time='1782224661' data-hn-score='390' data-hot-score='0.79'>
+<div class='hn-card' id='story-48645437' data-tags='Show HN,Programming' data-hn-time='1782224661' data-hn-score='390' data-hot-score='0.66'>
 <div class='hn-body'>
 <p class='hn-title'>(44) <a href='https://tikz.dev/editor/' target='_blank' rel='noopener noreferrer'>Show HN: TikZ Editor – WYSIWYG editor for figures in LaTeX</a></p>
 <p class='hn-meta'>Show HN: TikZ 编辑器——LaTeX 图形的所见即所得编辑器</p>
@@ -487,20 +486,31 @@ title: "Hacker News — Trending (2026-06-24)"
 <p class='hn-text-zh'>该工具提供可视化编辑 TikZ 的界面，直接绘制并导出整洁的 TikZ 代码与预览。对科研写作者而言，降低图形制作门槛，提升文档可视化表达效率，缩短从草图到成品的时间。</p>
 </div>
 </div>
-<div class='hn-card' id='story-48647486' data-tags='Health' data-hn-time='1782232218' data-hn-score='294' data-hot-score='0.67'>
+<div class='hn-card' id='story-48663819' data-tags='Startups,Business' data-hn-time='1782325484' data-hn-score='20' data-hot-score='0.64'>
 <div class='hn-body'>
-<p class='hn-title'>(45) <a href='https://dynomight.net/vitamin-d/' target='_blank' rel='noopener noreferrer'>The worthlessness of Vitamin D is mildly exaggerated</a></p>
-<p class='hn-meta'>维生素D的作用被略微夸大</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 23, 2026 / 09:30 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48647486' target='_blank' rel='noopener noreferrer'>&#9650; 294</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48647486' target='_blank' rel='noopener noreferrer'>&#128172; 207</a> <span class='hn-tag hn-tag--emerald' data-tag='Health'>Health</span></div>
-<img class='hn-img' src='https://dynomight.net/img/vitamin-d/ap74.37.jpg' data-full='https://dynomight.net/img/vitamin-d/ap74.37.jpg' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>A data-driven analysis argues that while severe Vitamin D deficiency matters, sweeping claims about supplements' health benefits are overstated. The article suggests benefits are modest at best and mostly confined to those with clear deficiencies, with sunlight and balanced diet as the primary sources.</p>
-<p class='hn-text-zh'>一篇基于证据的分析指出，虽然严重缺乏维生素D 的风险值得关注，但关于补充剂的普遍健康效益的夸大说法并不成立。研究显示，除了明确缺乏的人群，补充维生素D 的收益通常有限，日晒和均衡饮食才是关键。</p>
+<p class='hn-title'>(45) <a href='https://www.ycombinator.com/library/SF-how-to-get-your-first-10-customers' target='_blank' rel='noopener noreferrer'>How to Get Your First 10 Customers</a></p>
+<p class='hn-meta'>如何获得前10位客户</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 11:24 PT</span></p>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48663819' target='_blank' rel='noopener noreferrer'>&#9650; 20</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48663819' target='_blank' rel='noopener noreferrer'>&#128172; 1</a> <span class='hn-tag hn-tag--amber' data-tag='Startups'>Startups</span> <span class='hn-tag hn-tag--amber' data-tag='Business'>Business</span></div>
+<img class='hn-img' src='https://img.youtube.com/vi/_FBivfgOvuE/maxresdefault.jpg' data-full='https://img.youtube.com/vi/_FBivfgOvuE/maxresdefault.jpg' alt='preview image' loading='lazy'/>
+<p class='hn-text-en'>YC's practical guide distills tactics to land your first 10 customers: define a narrow ICP, run targeted outreach, run pilots, and collect real feedback to iterate. The goal is to validate product-market fit quickly and build momentum with early adopters.</p>
+<p class='hn-text-zh'>YC 的实用指南总结了获取前10位客户的要点：界定目标客户群、进行精准 outreach、开展试点并快速收集反馈。通过早期用户的验证与口碑实现产品市场契合，推动初期增长。</p>
 </div>
 </div>
-<div class='hn-card' id='story-48643180' data-tags='Programming' data-hn-time='1782212801' data-hn-score='387' data-hot-score='0.65'>
+<div class='hn-card' id='story-48658464' data-tags='AI,Business,Hardware' data-hn-time='1782302686' data-hn-score='61' data-hot-score='0.6'>
 <div class='hn-body'>
-<p class='hn-title'>(46) <a href='https://lucumr.pocoo.org/2026/6/23/the-coming-loop/' target='_blank' rel='noopener noreferrer'>The Coming Loop</a></p>
+<p class='hn-title'>(46) <a href='https://www.modular.com/blog/qualcomm-to-acquire-modular' target='_blank' rel='noopener noreferrer'>Qualcomm to Acquire Modular</a></p>
+<p class='hn-meta'>Qualcomm 将收购 Modular</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 05:04 PT</span></p>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48658464' target='_blank' rel='noopener noreferrer'>&#9650; 61</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48658464' target='_blank' rel='noopener noreferrer'>&#128172; 14</a> <span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span> <span class='hn-tag hn-tag--amber' data-tag='Business'>Business</span> <span class='hn-tag hn-tag--slate' data-tag='Hardware'>Hardware</span></div>
+<img class='hn-img' src='https://cdn.prod.website-files.com/68c9c3107effc2ea46e1a82c/6a3bc6374d277b30cca94273_image.png' data-full='https://cdn.prod.website-files.com/68c9c3107effc2ea46e1a82c/6a3bc6374d277b30cca94273_image.png' alt='preview image' loading='lazy'/>
+<p class='hn-text-en'>Qualcomm announces plans to acquire Modular, broadening its hardware and software ecosystem with modular platform capabilities. The deal could accelerate a more versatile device stack across mobility, AR/VR, or edge AI, depending on Modular's technology.</p>
+<p class='hn-text-zh'>高通宣布收购 Modular，意在通过模块化平台能力扩展其硬件与软件生态系统。此次交易有望加速移动、AR/VR 或边缘 AI 等领域的设备栈多样化，前提是 Modular 的技术能有效落地。</p>
+</div>
+</div>
+<div class='hn-card' id='story-48643180' data-tags='Programming' data-hn-time='1782212801' data-hn-score='387' data-hot-score='0.56'>
+<div class='hn-body'>
+<p class='hn-title'>(47) <a href='https://lucumr.pocoo.org/2026/6/23/the-coming-loop/' target='_blank' rel='noopener noreferrer'>The Coming Loop</a></p>
 <p class='hn-meta'>来临的循环</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 23, 2026 / 04:06 PT</span></p>
 <div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48643180' target='_blank' rel='noopener noreferrer'>&#9650; 387</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48643180' target='_blank' rel='noopener noreferrer'>&#128172; 270</a> <span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span></div>
@@ -509,9 +519,53 @@ title: "Hacker News — Trending (2026-06-24)"
 <p class='hn-text-zh'>《来临的循环》是一篇关于即将到来的编程与工具链变革的反思性文章，探讨软件开发的下一个时代可能带来的变化。</p>
 </div>
 </div>
-<div class='hn-card' id='story-48646276' data-tags='AI,Business,Hardware,DevOps' data-hn-time='1782227477' data-hn-score='287' data-hot-score='0.61'>
+<div class='hn-card' id='story-48647486' data-tags='Health' data-hn-time='1782232218' data-hn-score='294' data-hot-score='0.56'>
 <div class='hn-body'>
-<p class='hn-title'>(47) <a href='https://blog.dshr.org/2026/06/ais-affordability-crisis.html' target='_blank' rel='noopener noreferrer'>AI's Affordability Crisis</a></p>
+<p class='hn-title'>(48) <a href='https://dynomight.net/vitamin-d/' target='_blank' rel='noopener noreferrer'>The worthlessness of Vitamin D is mildly exaggerated</a></p>
+<p class='hn-meta'>维生素D的作用被略微夸大</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 23, 2026 / 09:30 PT</span></p>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48647486' target='_blank' rel='noopener noreferrer'>&#9650; 294</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48647486' target='_blank' rel='noopener noreferrer'>&#128172; 207</a> <span class='hn-tag hn-tag--emerald' data-tag='Health'>Health</span></div>
+<img class='hn-img' src='https://dynomight.net/img/vitamin-d/ap74.37.jpg' data-full='https://dynomight.net/img/vitamin-d/ap74.37.jpg' alt='preview image' loading='lazy'/>
+<p class='hn-text-en'>A data-driven analysis argues that while severe Vitamin D deficiency matters, sweeping claims about supplements' health benefits are overstated. The article suggests benefits are modest at best and mostly confined to those with clear deficiencies, with sunlight and balanced diet as the primary sources.</p>
+<p class='hn-text-zh'>一篇基于证据的分析指出，虽然严重缺乏维生素D 的风险值得关注，但关于补充剂的普遍健康效益的夸大说法并不成立。研究显示，除了明确缺乏的人群，补充维生素D 的收益通常有限，日晒和均衡饮食才是关键。</p>
+</div>
+</div>
+<div class='hn-card' id='story-48646659' data-tags='AI,Open Source' data-hn-time='1782228681' data-hn-score='308' data-hot-score='0.55'>
+<div class='hn-body'>
+<p class='hn-title'>(49) <a href='https://www.krea.ai/blog/krea-2-technical-report' target='_blank' rel='noopener noreferrer'>Krea 2: SOTA open-weights 12B image model</a></p>
+<p class='hn-meta'>Krea 2：12B 开源权重的图像模型达到 SOTA</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 23, 2026 / 08:31 PT</span></p>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48646659' target='_blank' rel='noopener noreferrer'>&#9650; 308</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48646659' target='_blank' rel='noopener noreferrer'>&#128172; 35</a> <span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span> <span class='hn-tag hn-tag--green' data-tag='Open Source'>Open Source</span></div>
+<img class='hn-img' src='https://s.krea.ai/blog-posts/krea-2-technical-report/agent/1782227962641-krea2-hero-new.jpg' data-full='https://s.krea.ai/blog-posts/krea-2-technical-report/agent/1782227962641-krea2-hero-new.jpg' alt='preview image' loading='lazy'/>
+<p class='hn-text-en'>Krea 2 releases an open-weight 12B image model that achieves state-of-the-art results on several benchmarks. The open weights lower barriers to experimentation and allow researchers and startups to fine-tune and deploy more freely. The development underscores the rapid progress and growing impact of open-model ecosystems.</p>
+<p class='hn-text-zh'>Krea 2 发布了具开源权重的 12B 图像模型，在多个基准上达到最新性能。开源权重降低了实验门槛，研究人员和初创企业可以更自由地微调与部署。该进展凸显了开放模型生态的快速成长及影响力。</p>
+</div>
+</div>
+<div class='hn-card' id='story-48661415' data-tags='Business,Culture' data-hn-time='1782314884' data-hn-score='32' data-hot-score='0.54'>
+<div class='hn-body'>
+<p class='hn-title'>(50) <a href='https://werd.io/journalism-is-rearranging-the-deckchairs-it-needs-to-reinvent-itself/' target='_blank' rel='noopener noreferrer'>Journalism is rearranging the deckchairs. It needs to reinvent itself</a></p>
+<p class='hn-meta'>新闻业正在挪动桌椅，需要彻底自我革新</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 08:28 PT</span></p>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48661415' target='_blank' rel='noopener noreferrer'>&#9650; 32</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48661415' target='_blank' rel='noopener noreferrer'>&#128172; 37</a> <span class='hn-tag hn-tag--amber' data-tag='Business'>Business</span> <span class='hn-tag hn-tag--rose' data-tag='Culture'>Culture</span></div>
+<img class='hn-img' src='https://images.unsplash.com/photo-1548192746-dd526f154ed9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDJ8fGluZGllfGVufDB8fHx8MTc0OTY5ODcxM3ww&ixlib=rb-4.1.0&q=80&w=2000' data-full='https://images.unsplash.com/photo-1548192746-dd526f154ed9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDJ8fGluZGllfGVufDB8fHx8MTc0OTY5ODcxM3ww&ixlib=rb-4.1.0&q=80&w=2000' alt='preview image' loading='lazy'/>
+<p class='hn-text-en'>The piece argues journalism isn't solving structural issues with superficial tweaks; it needs to reinvent business models and workflows to stay relevant in the digital age. It suggests combining investigative rigor with new tech-enabled distribution and transparency.</p>
+<p class='hn-text-zh'>文章认为新闻行业未能通过表面的改动解决结构性问题，需在数字时代重新设计商业模式与工作流程以保持相关性，同时倡导结合深入调查与新技术驱动的传播与透明度。</p>
+</div>
+</div>
+<div class='hn-card' id='story-48661179' data-tags='Science' data-hn-time='1782313827' data-hn-score='33' data-hot-score='0.52'>
+<div class='hn-body'>
+<p class='hn-title'>(51) <a href='https://www.dijkstrascry.com/inventory' target='_blank' rel='noopener noreferrer'>Edsger Dijkstra's Library (Housed and Archived in Leuven, Belgium)</a></p>
+<p class='hn-meta'>埃斯格·迪克斯特拉的藏书在比利时鲁汶被收藏与归档</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 08:10 PT</span></p>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48661179' target='_blank' rel='noopener noreferrer'>&#9650; 33</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48661179' target='_blank' rel='noopener noreferrer'>&#128172; 9</a> <span class='hn-tag hn-tag--teal' data-tag='Science'>Science</span></div>
+<img class='hn-img' src='https://www.dijkstrascry.com/sites/default/files/P1020478less_0.jpg' data-full='https://www.dijkstrascry.com/sites/default/files/P1020478less_0.jpg' alt='preview image' loading='lazy'/>
+<p class='hn-text-en'>The library of Edsger Dijkstra is housed and archived in Leuven, Belgium, preserving his papers, notes, and correspondence. This archive provides insight into the history of algorithms and formal methods that shaped modern computing.</p>
+<p class='hn-text-zh'>迪克斯特拉的藏书与手稿在比利时鲁汶被妥善保存与归档，展现了算法和形式化方法的发展脉络。此类档案有助于理解现代计算的理论基础及其演变。</p>
+</div>
+</div>
+<div class='hn-card' id='story-48646276' data-tags='AI,Business,Hardware,DevOps' data-hn-time='1782227477' data-hn-score='287' data-hot-score='0.51'>
+<div class='hn-body'>
+<p class='hn-title'>(52) <a href='https://blog.dshr.org/2026/06/ais-affordability-crisis.html' target='_blank' rel='noopener noreferrer'>AI's Affordability Crisis</a></p>
 <p class='hn-meta'>AI 的可负担性危机</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 23, 2026 / 08:11 PT</span></p>
 <div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48646276' target='_blank' rel='noopener noreferrer'>&#9650; 287</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48646276' target='_blank' rel='noopener noreferrer'>&#128172; 379</a> <span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span> <span class='hn-tag hn-tag--amber' data-tag='Business'>Business</span> <span class='hn-tag hn-tag--slate' data-tag='Hardware'>Hardware</span> <span class='hn-tag hn-tag--indigo' data-tag='DevOps'>DevOps</span></div>
@@ -520,114 +574,60 @@ title: "Hacker News — Trending (2026-06-24)"
 <p class='hn-text-zh'>文章指出模型规模增大、基础设施成本上升正在拉高 AI 的使用成本，威胁到普及和创新。呼吁通过更高效的模型、开源权重和硬件优化来保持可负担性。</p>
 </div>
 </div>
-<div class='hn-card' id='story-48648779' data-tags='Programming,Open Source' data-hn-time='1782237658' data-hn-score='230' data-hot-score='0.58'>
+<div class='hn-card' id='story-48659483' data-tags='Show HN' data-hn-time='1782307758' data-hn-score='42' data-hot-score='0.5'>
 <div class='hn-body'>
-<p class='hn-title'>(48) <a href='https://swiftpackageindex.com/blog/swift-package-index-joins-apple' target='_blank' rel='noopener noreferrer'>Swift Package Index joins Apple</a></p>
+<p class='hn-title'>(53) <a href='https://lookaway.com' target='_blank' rel='noopener noreferrer'>Show HN: LookAway, a Mac break reminder that knows when not to interrupt</a></p>
+<p class='hn-meta'>Show HN：LookAway，一款懂得何时不打断你的 Mac 休息提醒应用</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 06:29 PT</span></p>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48659483' target='_blank' rel='noopener noreferrer'>&#9650; 42</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48659483' target='_blank' rel='noopener noreferrer'>&#128172; 5</a> <span class='hn-tag hn-tag--green' data-tag='Show HN'>Show HN</span></div>
+<img class='hn-img' src='https://lookaway.com/images/social-card.png?v=2' data-full='https://lookaway.com/images/social-card.png?v=2' alt='preview image' loading='lazy'/>
+<p class='hn-text-en'>LookAway is a Mac break reminder that avoids interrupting the user at critical moments by intelligently detecting focus and app usage. By integrating with macOS Focus and system signals, it reduces friction when taking breaks, helping maintain productivity.</p>
+<p class='hn-text-zh'>LookAway 是一款面向 Mac 的休息提醒应用，能够智能判定何时不打断用户以避免干扰。它借助 macOS 的专注模式和系统信号，减少打断的时机，提高工作效率。</p>
+</div>
+</div>
+<div class='hn-card' id='story-48648779' data-tags='Programming' data-hn-time='1782237658' data-hn-score='230' data-hot-score='0.47'>
+<div class='hn-body'>
+<p class='hn-title'>(54) <a href='https://swiftpackageindex.com/blog/swift-package-index-joins-apple' target='_blank' rel='noopener noreferrer'>Swift Package Index joins Apple</a></p>
 <p class='hn-meta'>Swift Package Index 与 Apple 合作</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 23, 2026 / 11:00 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48648779' target='_blank' rel='noopener noreferrer'>&#9650; 230</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48648779' target='_blank' rel='noopener noreferrer'>&#128172; 77</a> <span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span> <span class='hn-tag hn-tag--green' data-tag='Open Source'>Open Source</span></div>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48648779' target='_blank' rel='noopener noreferrer'>&#9650; 230</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48648779' target='_blank' rel='noopener noreferrer'>&#128172; 77</a> <span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span></div>
 <p class='hn-text-en'>Swift Package Index, a community-maintained registry of Swift packages, has joined Apple to broaden its integration with Apple developer tooling. The move could streamline package discovery and consistency across the Swift ecosystem, accelerating adoption on Apple platforms and easing maintenance for package authors.</p>
 <p class='hn-text-zh'>作为社区维护的 Swift 包注册表，Swift Package Index 宣布加入苹果，旨在加强与苹果开发工具链的整合。此举可能提升包的发现性和跨生态的一致性，帮助开发者在苹果平台上更快采用 Swift，并简化包作者的维护工作。</p>
 </div>
 </div>
-<div class='hn-card' id='story-48664707' data-tags='Privacy,Security' data-hn-time='1782329839' data-hn-score='3' data-hot-score='0.53'>
+<div class='hn-card' id='story-48650837' data-tags='Privacy' data-hn-time='1782246229' data-hn-score='175' data-hot-score='0.42'>
 <div class='hn-body'>
-<p class='hn-title'>(49) <a href='https://cyberinsider.com/50-of-lg-and-samsung-smart-tv-apps-embed-residential-proxies/' target='_blank' rel='noopener noreferrer'>50% of LG and Samsung smart TV apps embed residential proxies</a></p>
-<p class='hn-meta'>50% 的 LG 与三星智能电视应用嵌入住宅代理</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 12:37 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48664707' target='_blank' rel='noopener noreferrer'>&#9650; 3</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48664707' target='_blank' rel='noopener noreferrer'>&#128172; 0</a> <span class='hn-tag hn-tag--red' data-tag='Privacy'>Privacy</span> <span class='hn-tag hn-tag--red' data-tag='Security'>Security</span></div>
-<img class='hn-img' src='https://cyberinsider.com/wp-content/uploads/2026/06/50-of-LG-and-Samsung-smart-TV-apps-embed-residential-proxies.jpg' data-full='https://cyberinsider.com/wp-content/uploads/2026/06/50-of-LG-and-Samsung-smart-TV-apps-embed-residential-proxies.jpg' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>A survey claims half of LG and Samsung smart TV apps embed residential proxies, enabling traffic routing that can mask user activity and facilitate data harvesting. The finding raises privacy, security, and vendor trust concerns for smart TV ecosystems.</p>
-<p class='hn-text-zh'>一项调查称约 50% 的 LG 与 Samsung 智能电视应用嵌入住宅代理，可能用于流量路由、隐藏用户活动或数据收集。这一发现引发对隐私与安全的担忧，并对电视生态中的厂商信任提出质疑。</p>
-</div>
-</div>
-<div class='hn-card' id='story-48646659' data-tags='AI,Open Source' data-hn-time='1782228681' data-hn-score='241' data-hot-score='0.52'>
-<div class='hn-body'>
-<p class='hn-title'>(50) <a href='https://www.krea.ai/blog/krea-2-technical-report' target='_blank' rel='noopener noreferrer'>Krea 2: SOTA open-weights 12B image model</a></p>
-<p class='hn-meta'>Krea 2：12B 开源权重的图像模型达到 SOTA</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 23, 2026 / 08:31 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48646659' target='_blank' rel='noopener noreferrer'>&#9650; 241</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48646659' target='_blank' rel='noopener noreferrer'>&#128172; 32</a> <span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span> <span class='hn-tag hn-tag--green' data-tag='Open Source'>Open Source</span></div>
-<img class='hn-img' src='https://s.krea.ai/blog-posts/krea-2-technical-report/agent/1782227962641-krea2-hero-new.jpg' data-full='https://s.krea.ai/blog-posts/krea-2-technical-report/agent/1782227962641-krea2-hero-new.jpg' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>Krea 2 releases an open-weight 12B image model that achieves state-of-the-art results on several benchmarks. The open weights lower barriers to experimentation and allow researchers and startups to fine-tune and deploy more freely. The development underscores the rapid progress and growing impact of open-model ecosystems.</p>
-<p class='hn-text-zh'>Krea 2 发布了具开源权重的 12B 图像模型，在多个基准上达到最新性能。开源权重降低了实验门槛，研究人员和初创企业可以更自由地微调与部署。该进展凸显了开放模型生态的快速成长及影响力。</p>
-</div>
-</div>
-<div class='hn-card' id='story-48650837' data-tags='Privacy,Web' data-hn-time='1782246229' data-hn-score='175' data-hot-score='0.52'>
-<div class='hn-body'>
-<p class='hn-title'>(51) <a href='https://milek7.pl/mailverifyspam/' target='_blank' rel='noopener noreferrer'>Don't verify email addresses by sending spam to them</a></p>
+<p class='hn-title'>(55) <a href='https://milek7.pl/mailverifyspam/' target='_blank' rel='noopener noreferrer'>Don't verify email addresses by sending spam to them</a></p>
 <p class='hn-meta'>不要通过向邮箱发送垃圾邮件来验证地址</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 23, 2026 / 13:23 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48650837' target='_blank' rel='noopener noreferrer'>&#9650; 175</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48650837' target='_blank' rel='noopener noreferrer'>&#128172; 52</a> <span class='hn-tag hn-tag--red' data-tag='Privacy'>Privacy</span> <span class='hn-tag hn-tag--cyan' data-tag='Web'>Web</span></div>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48650837' target='_blank' rel='noopener noreferrer'>&#9650; 175</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48650837' target='_blank' rel='noopener noreferrer'>&#128172; 52</a> <span class='hn-tag hn-tag--red' data-tag='Privacy'>Privacy</span></div>
 <p class='hn-text-en'>A stance against verifying email addresses by spamming recipients is discussed; safer approaches like double opt-in, verified emails, and controlled verification flows are recommended to avoid harassment and deliverability issues.</p>
 <p class='hn-text-zh'>文章批评通过向目标邮箱发送垃圾邮件来验证地址的做法，强调应采用更安全的验证流程，例如双重确认、受控的邮箱验证，以及在不骚扰用户的前提下完成验证。</p>
 </div>
 </div>
-<div class='hn-card' id='story-48660178' data-tags='Hardware,Energy,AI,DevOps' data-hn-time='1782310211' data-hn-score='20' data-hot-score='0.5'>
+<div class='hn-card' id='story-48662310' data-tags='Education,AI' data-hn-time='1782318673' data-hn-score='18' data-hot-score='0.36'>
 <div class='hn-body'>
-<p class='hn-title'>(52) <a href='https://blogs.nvidia.com/blog/liquid-cooling-ai-factories/' target='_blank' rel='noopener noreferrer'>Nvidia's 45°C cooling design cuts data center water use to near zero</a></p>
-<p class='hn-meta'>英伟达的 45°C 冷却设计将数据中心用水量降至近零</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 07:10 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48660178' target='_blank' rel='noopener noreferrer'>&#9650; 20</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48660178' target='_blank' rel='noopener noreferrer'>&#128172; 18</a> <span class='hn-tag hn-tag--slate' data-tag='Hardware'>Hardware</span> <span class='hn-tag hn-tag--emerald' data-tag='Energy'>Energy</span> <span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span> <span class='hn-tag hn-tag--indigo' data-tag='DevOps'>DevOps</span></div>
-<img class='hn-img' src='https://blogs.nvidia.com/wp-content/uploads/2026/06/45CLiquidCooling.jpg' data-full='https://blogs.nvidia.com/wp-content/uploads/2026/06/45CLiquidCooling.jpg' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>NVIDIA outlines a cooling strategy that uses 45°C water to remove heat, dramatically cutting data center water use and enabling simpler plumbing. The approach could lower OPEX for AI/data workloads and influence future data center infrastructure.</p>
-<p class='hn-text-zh'>英伟达介绍了一种使用 45°C 的热水进行散热的设计，显著降低数据中心的用水量并简化管路。该方案有望降低 AI/数据工作负载的数据中心运营成本，并可能影响未来的基础设施设计。</p>
+<p class='hn-title'>(56) <a href='https://news.ycombinator.com/item?id=48662310' target='_blank' rel='noopener noreferrer'>Ask HN: How much coding should beginners learn in the AI era?</a></p>
+<p class='hn-meta'>Ask HN：在 AI 时代，初学者应学多少编程？</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 09:31 PT</span></p>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48662310' target='_blank' rel='noopener noreferrer'>&#9650; 18</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48662310' target='_blank' rel='noopener noreferrer'>&#128172; 22</a> <span class='hn-tag hn-tag--sky' data-tag='Education'>Education</span> <span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span></div>
+<img class='hn-img' src='https://news.ycombinator.com/y18.svg' data-full='https://news.ycombinator.com/y18.svg' alt='preview image' loading='lazy'/>
+<p class='hn-text-en'>A discussion explores how much programming beginners should learn as AI tools become more capable. Advice emphasizes problem solving, data literacy, and learning to collaborate with AI copilots rather than chasing syntax alone.</p>
+<p class='hn-text-zh'>Ask HN 讨论在 AI 时代初学者应掌握多少编程技能。观点强调解决问题的能力、数据素养，以及学会与 AI 助手协作，而非仅追求语法细巧。</p>
 </div>
 </div>
-<div class='hn-card' id='story-48659040' data-tags='DevOps' data-hn-time='1782305851' data-hn-score='24' data-hot-score='0.46'>
+<div class='hn-card' id='story-48659040' data-tags='DevOps' data-hn-time='1782305851' data-hn-score='27' data-hot-score='0.3'>
 <div class='hn-body'>
-<p class='hn-title'>(53) <a href='https://ucbskyadrs.github.io/blog/levi/' target='_blank' rel='noopener noreferrer'>Systems optimization should be part of CI/CD</a></p>
+<p class='hn-title'>(57) <a href='https://ucbskyadrs.github.io/blog/levi/' target='_blank' rel='noopener noreferrer'>Systems optimization should be part of CI/CD</a></p>
 <p class='hn-meta'>系统优化应纳入 CI/CD 流程</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 05:57 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48659040' target='_blank' rel='noopener noreferrer'>&#9650; 24</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48659040' target='_blank' rel='noopener noreferrer'>&#128172; 3</a> <span class='hn-tag hn-tag--indigo' data-tag='DevOps'>DevOps</span></div>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48659040' target='_blank' rel='noopener noreferrer'>&#9650; 27</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48659040' target='_blank' rel='noopener noreferrer'>&#128172; 3</a> <span class='hn-tag hn-tag--indigo' data-tag='DevOps'>DevOps</span></div>
 <img class='hn-img' src='https://ucbskyadrs.github.io/levi.svg' data-full='https://ucbskyadrs.github.io/levi.svg' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>Argues that systems optimization—like tuning, observability, and bottleneck removal—belongs in CI/CD workflows, not as afterthoughts. Embedding these practices can prevent regressions, improve reliability, and accelerate iteration for production-grade software.</p>
 <p class='hn-text-zh'>主张将系统优化（性能调优、可观测性、瓶颈消除等）放进 CI/CD 流程，而不是事后才去做。将这些实践嵌入工作流有助于防止回归、提升可靠性，并加速面向生产的软件迭代。</p>
 </div>
 </div>
-<div class='hn-card' id='story-48660146' data-tags='Politics,Legal' data-hn-time='1782310107' data-hn-score='15' data-hot-score='0.37'>
-<div class='hn-body'>
-<p class='hn-title'>(54) <a href='https://ballsandstrikes.org/scotus/landor-supreme-court-opinion-recap/' target='_blank' rel='noopener noreferrer'>Supreme Court Empowers Prison Guards to Violate Religious Rights with Impunity</a></p>
-<p class='hn-meta'>最高法院赋权监狱警察，肆意侵犯宗教权利且不受追责</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 07:08 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48660146' target='_blank' rel='noopener noreferrer'>&#9650; 15</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48660146' target='_blank' rel='noopener noreferrer'>&#128172; 2</a> <span class='hn-tag hn-tag--orange' data-tag='Politics'>Politics</span> <span class='hn-tag hn-tag--orange' data-tag='Legal'>Legal</span></div>
-<img class='hn-img' src='http://ballsandstrikes.org/wp-content/uploads/2022/02/GettyImages-1204098864-scaled.jpg' data-full='http://ballsandstrikes.org/wp-content/uploads/2022/02/GettyImages-1204098864-scaled.jpg' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>A Supreme Court ruling broadens the ability of prison guards to infringe on inmates' religious rights with limited oversight or remedy. This has implications for civil liberties, constitutional law, and how institutions are monitored.</p>
-<p class='hn-text-zh'>最高法院的裁决扩大了监狱警察在侵犯囚犯宗教权利时的免除问责空间，几乎不受约束。此举对公民自由、宪法法理以及机构监督机制的透明度具有深远影响。</p>
-</div>
-</div>
-<div class='hn-card' id='story-48662903' data-tags='Gaming,Web' data-hn-time='1782321339' data-hn-score='6' data-hot-score='0.34'>
-<div class='hn-body'>
-<p class='hn-title'>(55) <a href='https://windage.online/' target='_blank' rel='noopener noreferrer'>Windage – free browser remake of Scorched Earth</a></p>
-<p class='hn-meta'>Windage：免费的浏览器版《Scorched Earth》</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 10:15 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48662903' target='_blank' rel='noopener noreferrer'>&#9650; 6</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48662903' target='_blank' rel='noopener noreferrer'>&#128172; 1</a> <span class='hn-tag hn-tag--purple' data-tag='Gaming'>Gaming</span> <span class='hn-tag hn-tag--cyan' data-tag='Web'>Web</span></div>
-<img class='hn-img' src='https://windage.online/og.jpg' data-full='https://windage.online/og.jpg' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>Windage is a free browser-based remake of the classic Scorched Earth game, bringing a retro artillery strategy to the web with no download. It highlights how browser games keep classic titles accessible and enjoyable across devices.</p>
-<p class='hn-text-zh'>Windage 是一款免费的浏览器端《Scorched Earth》复刻游戏，将经典的炮战战略带入网页，无需下载。它展示了浏览器游戏如何让经典作品在各设备上保持可访问和有趣。</p>
-</div>
-</div>
-<div class='hn-card' id='story-48659535' data-tags='Business,Hardware,AI' data-hn-time='1782307959' data-hn-score='14' data-hot-score='0.3'>
-<div class='hn-body'>
-<p class='hn-title'>(56) <a href='https://twitter.com/clattner_llvm/status/2069769232477192354' target='_blank' rel='noopener noreferrer'>Qualcomm Is Acquiring Modular</a></p>
-<p class='hn-meta'>高通收购 Modular</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 06:32 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48659535' target='_blank' rel='noopener noreferrer'>&#9650; 14</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48659535' target='_blank' rel='noopener noreferrer'>&#128172; 1</a> <span class='hn-tag hn-tag--amber' data-tag='Business'>Business</span> <span class='hn-tag hn-tag--slate' data-tag='Hardware'>Hardware</span> <span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span></div>
-<img class='hn-img' src='https://pbs.twimg.com/profile_images/1484209565788897285/1n6Viahb_200x200.jpg' data-full='https://pbs.twimg.com/profile_images/1484209565788897285/1n6Viahb_200x200.jpg' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>Qualcomm announces the acquisition of Modular, signaling another push into specialized AI hardware and software cross-ecosystem integration. The deal could accelerate on-device AI capabilities and reshape the competitive landscape for mobile and edge accelerators.</p>
-<p class='hn-text-zh'>高通宣布收购 Modular，标志其在 AI 硬件与软件生态整合方面再度发力。交易有望提升设备端的 AI 能力，并可能重塑移动与边缘加速器领域的竞争格局。</p>
-</div>
-</div>
-<div class='hn-card' id='story-48654411' data-tags='Programming,Hardware' data-hn-time='1782268213' data-hn-score='57' data-hot-score='0.27'>
-<div class='hn-body'>
-<p class='hn-title'>(57) <a href='https://www.muppetlabs.com/~breadbox/software/tiny/revisit.html' target='_blank' rel='noopener noreferrer'>The Teensy Executable Revisited</a></p>
-<p class='hn-meta'>Teensy 可执行文件再探</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 23, 2026 / 19:30 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48654411' target='_blank' rel='noopener noreferrer'>&#9650; 57</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48654411' target='_blank' rel='noopener noreferrer'>&#128172; 2</a> <span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span> <span class='hn-tag hn-tag--slate' data-tag='Hardware'>Hardware</span></div>
-<p class='hn-text-en'>The Teensy Executable Revisited revisits compact binaries and executable strategies for the Teensy microcontroller line. It delves into size, performance, and tooling considerations for tiny embedded apps, useful for hobbyists and system programmers.</p>
-<p class='hn-text-zh'>回顾 Teensy 微控制器系列上极小可执行文件的设计与实现策略，探讨尺寸、性能与工具链在嵌入式应用中的取舍。对爱好者和系统编程人员具有参考价值。</p>
-</div>
-</div>
-<div class='hn-card' id='story-48643489' data-tags='AI,Gaming' data-hn-time='1782214850' data-hn-score='148' data-hot-score='0.26'>
+<div class='hn-card' id='story-48643489' data-tags='AI,Gaming' data-hn-time='1782214850' data-hn-score='148' data-hot-score='0.22'>
 <div class='hn-body'>
 <p class='hn-title'>(58) <a href='https://nega.tv/posts/low-tech-ai-of-elden-ring.html' target='_blank' rel='noopener noreferrer'>The Low-Tech AI of Elden Ring</a></p>
 <p class='hn-meta'>《艾尔登法环》的低技术 AI</p>
@@ -637,18 +637,17 @@ title: "Hacker News — Trending (2026-06-24)"
 <p class='hn-text-zh'>文章指出《艾尔登法环》中的 AI 实现其实相对简单，却能提供逼真的对手行为，显示低复杂度 AI 也能在大规模游戏中带来出色的玩法体验。</p>
 </div>
 </div>
-<div class='hn-card' id='story-48662347' data-tags='Security,Health' data-hn-time='1782318828' data-hn-score='6' data-hot-score='0.26'>
+<div class='hn-card' id='story-48654411' data-tags='Hardware,Programming' data-hn-time='1782268213' data-hn-score='57' data-hot-score='0.21'>
 <div class='hn-body'>
-<p class='hn-title'>(59) <a href='https://eaton-works.com/2026/06/24/jnj-webapp-hacks/' target='_blank' rel='noopener noreferrer'>Exploiting vulnerabilities in Johnson and Johnson web apps</a></p>
-<p class='hn-meta'>Exploiting vulnerabilities in Johnson and Johnson web apps</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 09:33 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48662347' target='_blank' rel='noopener noreferrer'>&#9650; 6</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48662347' target='_blank' rel='noopener noreferrer'>&#128172; 0</a> <span class='hn-tag hn-tag--red' data-tag='Security'>Security</span> <span class='hn-tag hn-tag--emerald' data-tag='Health'>Health</span></div>
-<img class='hn-img' src='https://eaton-works.com/jnj-webapp-og.png' data-full='https://eaton-works.com/jnj-webapp-og.png' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>Security researchers describe vulnerabilities in Johnson & Johnson's web apps, illustrating healthcare IT risk and the urgency of timely patching and secure development practices. The disclosure underscores the fragile surface of consumer health platforms.</p>
-<p class='hn-text-zh'>安全研究人员揭示强生网页应用中的漏洞，凸显医疗健康 IT 的风险以及及时打补丁与安全开发实践的紧迫性。此类披露强调了消费者健康平台易受攻击的脆弱面。</p>
+<p class='hn-title'>(59) <a href='https://www.muppetlabs.com/~breadbox/software/tiny/revisit.html' target='_blank' rel='noopener noreferrer'>The Teensy Executable Revisited</a></p>
+<p class='hn-meta'>Teensy 可执行文件再探</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 23, 2026 / 19:30 PT</span></p>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48654411' target='_blank' rel='noopener noreferrer'>&#9650; 57</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48654411' target='_blank' rel='noopener noreferrer'>&#128172; 2</a> <span class='hn-tag hn-tag--slate' data-tag='Hardware'>Hardware</span> <span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span></div>
+<p class='hn-text-en'>The Teensy Executable Revisited revisits compact binaries and executable strategies for the Teensy microcontroller line. It delves into size, performance, and tooling considerations for tiny embedded apps, useful for hobbyists and system programmers.</p>
+<p class='hn-text-zh'>回顾 Teensy 微控制器系列上极小可执行文件的设计与实现策略，探讨尺寸、性能与工具链在嵌入式应用中的取舍。对爱好者和系统编程人员具有参考价值。</p>
 </div>
 </div>
-<div class='hn-card' id='story-48645721' data-tags='Science' data-hn-time='1782225617' data-hn-score='110' data-hot-score='0.22'>
+<div class='hn-card' id='story-48645721' data-tags='Science' data-hn-time='1782225617' data-hn-score='110' data-hot-score='0.19'>
 <div class='hn-body'>
 <p class='hn-title'>(60) <a href='https://lift4d.github.io/' target='_blank' rel='noopener noreferrer'>Lift4D: Harmonizing Single-View 3D Estimation for 4D Reconstruction In-the-Wild</a></p>
 <p class='hn-meta'>Lift4D：将单视角3D估计整合以实现野外场景的4D重建</p>
@@ -659,9 +658,20 @@ title: "Hacker News — Trending (2026-06-24)"
 <p class='hn-text-zh'>Lift4D 将单视角 3D 估计协调起来，实现对未受控场景的时序一致的 4D 重建。利用单目线索在时间上保持一致，能够从自由拍摄的素材中构建动态场景模型，推动 AR/VR、机器人和影视工作流的发展。</p>
 </div>
 </div>
-<div class='hn-card' id='story-48623347' data-tags='Politics' data-hn-time='1782081752' data-hn-score='429' data-hot-score='0.2'>
+<div class='hn-card' id='story-48660146' data-tags='Legal,Politics' data-hn-time='1782310107' data-hn-score='15' data-hot-score='0.19'>
 <div class='hn-body'>
-<p class='hn-title'>(61) <a href='https://www.nytimes.com/interactive/2026/06/21/us/trucks-suv-pedestrian-crashes.html' target='_blank' rel='noopener noreferrer'>The deadly rise of giant trucks and SUVs</a></p>
+<p class='hn-title'>(61) <a href='https://ballsandstrikes.org/scotus/landor-supreme-court-opinion-recap/' target='_blank' rel='noopener noreferrer'>Supreme Court Empowers Prison Guards to Violate Religious Rights with Impunity</a></p>
+<p class='hn-meta'>最高法院赋权监狱警察，肆意侵犯宗教权利且不受追责</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 07:08 PT</span></p>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48660146' target='_blank' rel='noopener noreferrer'>&#9650; 15</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48660146' target='_blank' rel='noopener noreferrer'>&#128172; 2</a> <span class='hn-tag hn-tag--orange' data-tag='Legal'>Legal</span> <span class='hn-tag hn-tag--orange' data-tag='Politics'>Politics</span></div>
+<img class='hn-img' src='http://ballsandstrikes.org/wp-content/uploads/2022/02/GettyImages-1204098864-scaled.jpg' data-full='http://ballsandstrikes.org/wp-content/uploads/2022/02/GettyImages-1204098864-scaled.jpg' alt='preview image' loading='lazy'/>
+<p class='hn-text-en'>A Supreme Court ruling broadens the ability of prison guards to infringe on inmates' religious rights with limited oversight or remedy. This has implications for civil liberties, constitutional law, and how institutions are monitored.</p>
+<p class='hn-text-zh'>最高法院的裁决扩大了监狱警察在侵犯囚犯宗教权利时的免除问责空间，几乎不受约束。此举对公民自由、宪法法理以及机构监督机制的透明度具有深远影响。</p>
+</div>
+</div>
+<div class='hn-card' id='story-48623347' data-tags='Politics' data-hn-time='1782081752' data-hn-score='429' data-hot-score='0.18'>
+<div class='hn-body'>
+<p class='hn-title'>(62) <a href='https://www.nytimes.com/interactive/2026/06/21/us/trucks-suv-pedestrian-crashes.html' target='_blank' rel='noopener noreferrer'>The deadly rise of giant trucks and SUVs</a></p>
 <p class='hn-meta'>巨型卡车与SUV日益猖獗带来的致命风险</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 21, 2026 / 15:42 PT</span></p>
 <div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48623347' target='_blank' rel='noopener noreferrer'>&#9650; 429</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48623347' target='_blank' rel='noopener noreferrer'>&#128172; 692</a> <span class='hn-tag hn-tag--orange' data-tag='Politics'>Politics</span></div>
@@ -670,9 +680,9 @@ title: "Hacker News — Trending (2026-06-24)"
 <p class='hn-text-zh'>对巨型卡车与SUV日益增多与行人事故严重性上升之间的关系进行了深入分析。研究指出车辆体积对可见性和碰撞后果的影响，呼吁在设计、安全标准和监管方面做出调整。</p>
 </div>
 </div>
-<div class='hn-card' id='story-48633473' data-tags='Programming,Education' data-hn-time='1782150640' data-hn-score='225' data-hot-score='0.18'>
+<div class='hn-card' id='story-48633473' data-tags='Programming,Education' data-hn-time='1782150640' data-hn-score='225' data-hot-score='0.16'>
 <div class='hn-body'>
-<p class='hn-title'>(62) <a href='https://blog.racket-lang.org/2026/06/rhombus-v1.0.html' target='_blank' rel='noopener noreferrer'>Rhombus Language 1.0</a></p>
+<p class='hn-title'>(63) <a href='https://blog.racket-lang.org/2026/06/rhombus-v1.0.html' target='_blank' rel='noopener noreferrer'>Rhombus Language 1.0</a></p>
 <p class='hn-meta'>Rhombus 语言 1.0</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 22, 2026 / 10:50 PT</span></p>
 <div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48633473' target='_blank' rel='noopener noreferrer'>&#9650; 225</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48633473' target='_blank' rel='noopener noreferrer'>&#128172; 89</a> <span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span> <span class='hn-tag hn-tag--sky' data-tag='Education'>Education</span></div>
@@ -681,20 +691,20 @@ title: "Hacker News — Trending (2026-06-24)"
 <p class='hn-text-zh'>Rhombus 语言 1.0 发布，提供对编程语言家族的新观点，强调简洁语法与宏友好设计，融合在 Racket 生态中的定位。文章介绍核心特性与设计目标，以及在教育与试验中的定位。</p>
 </div>
 </div>
-<div class='hn-card' id='story-48633643' data-tags='Culture,Security' data-hn-time='1782151383' data-hn-score='212' data-hot-score='0.17'>
+<div class='hn-card' id='story-48633643' data-tags='Security' data-hn-time='1782151383' data-hn-score='212' data-hot-score='0.16'>
 <div class='hn-body'>
-<p class='hn-title'>(63) <a href='https://www.thedrive.com/news/this-man-was-gifted-his-dream-car-by-the-notorious-hacker-he-put-in-prison' target='_blank' rel='noopener noreferrer'>A man was gifted his dream car by Kevin Mitnick, who he helped put in prison</a></p>
+<p class='hn-title'>(64) <a href='https://www.thedrive.com/news/this-man-was-gifted-his-dream-car-by-the-notorious-hacker-he-put-in-prison' target='_blank' rel='noopener noreferrer'>A man was gifted his dream car by Kevin Mitnick, who he helped put in prison</a></p>
 <p class='hn-meta'>一名男子被凯文·米特尼克送上梦想之车，米特尼克曾让他入狱</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 22, 2026 / 11:03 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48633643' target='_blank' rel='noopener noreferrer'>&#9650; 212</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48633643' target='_blank' rel='noopener noreferrer'>&#128172; 139</a> <span class='hn-tag hn-tag--rose' data-tag='Culture'>Culture</span> <span class='hn-tag hn-tag--red' data-tag='Security'>Security</span></div>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48633643' target='_blank' rel='noopener noreferrer'>&#9650; 212</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48633643' target='_blank' rel='noopener noreferrer'>&#128172; 139</a> <span class='hn-tag hn-tag--red' data-tag='Security'>Security</span></div>
 <img class='hn-img' src='https://www.thedrive.com/wp-content/uploads/2026/06/nun-hero.jpg?w=1200' data-full='https://www.thedrive.com/wp-content/uploads/2026/06/nun-hero.jpg?w=1200' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>A man who helped put Kevin Mitnick behind bars is later gifted his long-desired car by Mitnick himself. The story sits at the intersection of hacker lore and personal reconciliation, highlighting the complex history between activists and cybersecurity influencers.</p>
 <p class='hn-text-zh'>一名曾帮助将凯文·米特尼克送进监狱的男子，后来收到了米特尼克送出的梦想之车。这则故事处在黑客传说与个人和解的交汇点，折射出活动家与网络安全影响者之间复杂的历史。</p>
 </div>
 </div>
-<div class='hn-card' id='story-48643079' data-tags='Business' data-hn-time='1782212096' data-hn-score='105' data-hot-score='0.17'>
+<div class='hn-card' id='story-48643079' data-tags='Business' data-hn-time='1782212096' data-hn-score='105' data-hot-score='0.15'>
 <div class='hn-body'>
-<p class='hn-title'>(64) <a href='https://daringfireball.net/linked/2026/06/22/apple-device-prices-when' target='_blank' rel='noopener noreferrer'>Apple is going to raise device prices, but when?</a></p>
+<p class='hn-title'>(65) <a href='https://daringfireball.net/linked/2026/06/22/apple-device-prices-when' target='_blank' rel='noopener noreferrer'>Apple is going to raise device prices, but when?</a></p>
 <p class='hn-meta'>苹果设备价格即将上涨？何时涨价</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 23, 2026 / 03:54 PT</span></p>
 <div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48643079' target='_blank' rel='noopener noreferrer'>&#9650; 105</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48643079' target='_blank' rel='noopener noreferrer'>&#128172; 82</a> <span class='hn-tag hn-tag--amber' data-tag='Business'>Business</span></div>
@@ -703,39 +713,28 @@ title: "Hacker News — Trending (2026-06-24)"
 <p class='hn-text-zh'>分析人士指出苹果设备价格可能上涨，涨幅与产品周期和宏观条件相关，暗示未来新品发布时价格将提高。</p>
 </div>
 </div>
-<div class='hn-card' id='story-48654274' data-tags='AI,Data' data-hn-time='1782267151' data-hn-score='34' data-hot-score='0.16'>
+<div class='hn-card' id='story-48618481' data-tags='Design' data-hn-time='1782046142' data-hn-score='357' data-hot-score='0.12'>
 <div class='hn-body'>
-<p class='hn-title'>(65) <a href='https://github.com/End2End-Diffusion/diffusion-bench' target='_blank' rel='noopener noreferrer'>DiffusionBench: Towards Holistic Evaluation of Generative Diffusion Transformers</a></p>
+<p class='hn-title'>(66) <a href='https://www.patreon.com/DanyBittel/posts/printing-splats-161333338' target='_blank' rel='noopener noreferrer'>Printing Gaussian Splats</a></p>
+<p class='hn-meta'>打印高斯斑点（Gaussian Splats）</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 21, 2026 / 05:49 PT</span></p>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48618481' target='_blank' rel='noopener noreferrer'>&#9650; 357</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48618481' target='_blank' rel='noopener noreferrer'>&#128172; 44</a> <span class='hn-tag hn-tag--pink' data-tag='Design'>Design</span></div>
+<p class='hn-text-en'>A creative demonstration of 3D printing Gaussian splats—soft, blob-like shapes based on Gaussian distributions. The project covers generation techniques and practical tips for printing, useful for generative art and data visualization.</p>
+<p class='hn-text-zh'>一个展示如何用3D打印实现高斯斑点（Gaussian splats）的创意项目，斑点呈现出柔和的 blob 形状，基于高斯分布生成。文中分享了生成方法和打印技巧，适合生成艺术与数据可视化的应用。</p>
+</div>
+</div>
+<div class='hn-card' id='story-48654274' data-tags='AI' data-hn-time='1782267151' data-hn-score='34' data-hot-score='0.12'>
+<div class='hn-body'>
+<p class='hn-title'>(67) <a href='https://github.com/End2End-Diffusion/diffusion-bench' target='_blank' rel='noopener noreferrer'>DiffusionBench: Towards Holistic Evaluation of Generative Diffusion Transformers</a></p>
 <p class='hn-meta'>DiffusionBench：推动对生成性扩散变换器的全面评估</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 23, 2026 / 19:12 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48654274' target='_blank' rel='noopener noreferrer'>&#9650; 34</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48654274' target='_blank' rel='noopener noreferrer'>&#128172; 1</a> <span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span> <span class='hn-tag hn-tag--violet' data-tag='Data'>Data</span></div>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48654274' target='_blank' rel='noopener noreferrer'>&#9650; 34</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48654274' target='_blank' rel='noopener noreferrer'>&#128172; 1</a> <span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span></div>
 <img class='hn-img' src='https://opengraph.githubassets.com/820166b3bcbcf0609c73a7f614eb738fcfdee1ef6692611ccdca15657bc1b6c3/End2End-Diffusion/diffusion-bench' data-full='https://opengraph.githubassets.com/820166b3bcbcf0609c73a7f614eb738fcfdee1ef6692611ccdca15657bc1b6c3/End2End-Diffusion/diffusion-bench' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>DiffusionBench introduces a framework to holistically evaluate generative diffusion transformers, aiming to standardize metrics for sample quality, speed, memory, and alignment with prompts. It highlights the need for comprehensive benchmarks in rapidly evolving diffusion-based models.</p>
 <p class='hn-text-zh'>DiffusionBench 提出一套全面评估生成性扩散变换器的框架，力求将样本质量、速度、内存占用和对提示的对齐等指标标准化。强调在快速发展的扩散模型领域需要完善的基准。</p>
 </div>
 </div>
-<div class='hn-card' id='story-48618481' data-tags='Hardware,Design' data-hn-time='1782046142' data-hn-score='357' data-hot-score='0.13'>
-<div class='hn-body'>
-<p class='hn-title'>(66) <a href='https://www.patreon.com/DanyBittel/posts/printing-splats-161333338' target='_blank' rel='noopener noreferrer'>Printing Gaussian Splats</a></p>
-<p class='hn-meta'>打印高斯斑点（Gaussian Splats）</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 21, 2026 / 05:49 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48618481' target='_blank' rel='noopener noreferrer'>&#9650; 357</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48618481' target='_blank' rel='noopener noreferrer'>&#128172; 44</a> <span class='hn-tag hn-tag--slate' data-tag='Hardware'>Hardware</span> <span class='hn-tag hn-tag--pink' data-tag='Design'>Design</span></div>
-<p class='hn-text-en'>A creative demonstration of 3D printing Gaussian splats—soft, blob-like shapes based on Gaussian distributions. The project covers generation techniques and practical tips for printing, useful for generative art and data visualization.</p>
-<p class='hn-text-zh'>一个展示如何用3D打印实现高斯斑点（Gaussian splats）的创意项目，斑点呈现出柔和的 blob 形状，基于高斯分布生成。文中分享了生成方法和打印技巧，适合生成艺术与数据可视化的应用。</p>
-</div>
-</div>
-<div class='hn-card' id='story-48651727' data-tags='Privacy,Legal' data-hn-time='1782250160' data-hn-score='38' data-hot-score='0.12'>
-<div class='hn-body'>
-<p class='hn-title'>(67) <a href='https://github.com/bluesky-social/proposals/pull/94' target='_blank' rel='noopener noreferrer'>ATProto Permissioned Data Proposal Draft</a></p>
-<p class='hn-meta'>ATProto 权限化数据提案草案</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 23, 2026 / 14:29 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48651727' target='_blank' rel='noopener noreferrer'>&#9650; 38</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48651727' target='_blank' rel='noopener noreferrer'>&#128172; 4</a> <span class='hn-tag hn-tag--red' data-tag='Privacy'>Privacy</span> <span class='hn-tag hn-tag--orange' data-tag='Legal'>Legal</span></div>
-<img class='hn-img' src='https://opengraph.githubassets.com/2c3b0b4e4a869e7bc94725eaba48b409dc2de46956a70fe733bb6d213e05203e/bluesky-social/proposals/pull/94' data-full='https://opengraph.githubassets.com/2c3b0b4e4a869e7bc94725eaba48b409dc2de46956a70fe733bb6d213e05203e/bluesky-social/proposals/pull/94' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>ATProto Permissioned Data Proposal Draft outlines a proposal for controlled, permissioned data access within the Bluesky-powered ATProto ecosystem, balancing openness with governance. It discusses implications for data provenance, access control, and developer ecosystems.</p>
-<p class='hn-text-zh'>ATProto 权限化数据提案草案在 Bluesky 支撑的 ATProto 生态系统内探讨受控数据访问的可能性，力求在开放性与治理之间取得平衡。讨论数据溯源、访问控制及对开发者生态的影响。</p>
-</div>
-</div>
-<div class='hn-card' id='story-48633410' data-tags='Data,Education' data-hn-time='1782150408' data-hn-score='133' data-hot-score='0.11'>
+<div class='hn-card' id='story-48633410' data-tags='Data,Education' data-hn-time='1782150408' data-hn-score='133' data-hot-score='0.1'>
 <div class='hn-body'>
 <p class='hn-title'>(68) <a href='https://www.wespiser.com/posts/2026-06-19-best-dog-treat.html' target='_blank' rel='noopener noreferrer'>Finding the best dog treat with statistics</a></p>
 <p class='hn-meta'>用统计找出最佳狗零食</p>
@@ -746,63 +745,74 @@ title: "Hacker News — Trending (2026-06-24)"
 <p class='hn-text-zh'>以数据驱动的方法评估狗狗零食，展示了如何通过实验设计、样本量和基本统计量来量化口味和营养之间的权衡。这一案例把宠物护理问题变成了可落地的统计小教程。</p>
 </div>
 </div>
-<div class='hn-card' id='story-48661381' data-tags='Culture,Design,AI' data-hn-time='1782314712' data-hn-score='4' data-hot-score='0.11'>
+<div class='hn-card' id='story-48630318' data-tags='Show HN,Design' data-hn-time='1782137123' data-hn-score='146' data-hot-score='0.09'>
 <div class='hn-body'>
-<p class='hn-title'>(69) <a href='https://blog.jgc.org/2026/06/the-eerie-interface-of-man-and-machine.html' target='_blank' rel='noopener noreferrer'>The eerie interface of man and machine (Life Magazine, October 1967)</a></p>
-<p class='hn-meta'>人机界面的诡异界面（1967 年 Life 杂志）</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 24, 2026 / 08:25 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48661381' target='_blank' rel='noopener noreferrer'>&#9650; 4</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48661381' target='_blank' rel='noopener noreferrer'>&#128172; 0</a> <span class='hn-tag hn-tag--rose' data-tag='Culture'>Culture</span> <span class='hn-tag hn-tag--pink' data-tag='Design'>Design</span> <span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span></div>
-<img class='hn-img' src='https://blogger.googleusercontent.com/img/a/AVvXsEg3bAOGt0L1GVBtGqU2QNOOC94EH6hLlr03hkB2frgZQHukGHx5GtFTrE5_7X0kZ9YCwcx1wNddkJDTlbL_4AeyJycMSgdmeoa5As6QPni7yRmS1Q0u6z7x_DhzHCA6DYjNa4d9hwlN_ARJZywMo5x1ZI88v8i1BOv4HV1lqGvyzuaGBxcqVATP7g=w1200-h630-p-k-no-nu' data-full='https://blogger.googleusercontent.com/img/a/AVvXsEg3bAOGt0L1GVBtGqU2QNOOC94EH6hLlr03hkB2frgZQHukGHx5GtFTrE5_7X0kZ9YCwcx1wNddkJDTlbL_4AeyJycMSgdmeoa5As6QPni7yRmS1Q0u6z7x_DhzHCA6DYjNa4d9hwlN_ARJZywMo5x1ZI88v8i1BOv4HV1lqGvyzuaGBxcqVATP7g=w1200-h630-p-k-no-nu' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>Revisits a 1967 Life Magazine piece that visualizes an eerie human-machine interface, offering a historical lens on early UI imagination and anxieties around automation. The post draws lines to modern AI UI design, reminding us that design culture has long shaped tech adoption.</p>
-<p class='hn-text-zh'>回顾 1967 年 Life 杂志的一幅描绘人机界面的诡异图像，为早期 UI 想象与对自动化的焦虑提供历史视角。文章将当代 AI 界面设计联系起来，提醒设计文化长期影响着技术采用。</p>
-</div>
-</div>
-<div class='hn-card' id='story-48634187' data-tags='Hardware' data-hn-time='1782153562' data-hn-score='123' data-hot-score='0.1'>
-<div class='hn-body'>
-<p class='hn-title'>(70) <a href='https://www.youtube.com/watch?v=ul5hC3PY1Yg' target='_blank' rel='noopener noreferrer'>Five monitors on a Commodore 128 [video]</a></p>
-<p class='hn-meta'>在 Commodore 128 上实现五屏显示 [视频]</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 22, 2026 / 11:39 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48634187' target='_blank' rel='noopener noreferrer'>&#9650; 123</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48634187' target='_blank' rel='noopener noreferrer'>&#128172; 22</a> <span class='hn-tag hn-tag--slate' data-tag='Hardware'>Hardware</span></div>
-<p class='hn-text-en'>A retro-computing showcase where a Commodore 128 drives five monitors, pushing hardware hacks and display tiling to the extreme. It highlights enduring hobbyist ingenuity and the quirks of vintage systems.</p>
-<p class='hn-text-zh'>这段视频展示一台 Commodore 128 驱动五个显示器，凸显极致的硬件改造与显示分割技术，以及对复古系统的持续热情与创造力。</p>
-</div>
-</div>
-<div class='hn-card' id='story-48630318' data-tags='Show HN,Design' data-hn-time='1782137123' data-hn-score='120' data-hot-score='0.09'>
-<div class='hn-body'>
-<p class='hn-title'>(71) <a href='https://www.monolisa.dev/' target='_blank' rel='noopener noreferrer'>Show HN: Monolisa v3 – a typeface for developers and creatives</a></p>
+<p class='hn-title'>(69) <a href='https://www.monolisa.dev/' target='_blank' rel='noopener noreferrer'>Show HN: Monolisa v3 – a typeface for developers and creatives</a></p>
 <p class='hn-meta'>Show HN：Monolisa v3 — 面向开发者与创意工作者的字体</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 22, 2026 / 07:05 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48630318' target='_blank' rel='noopener noreferrer'>&#9650; 120</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48630318' target='_blank' rel='noopener noreferrer'>&#128172; 36</a> <span class='hn-tag hn-tag--green' data-tag='Show HN'>Show HN</span> <span class='hn-tag hn-tag--pink' data-tag='Design'>Design</span></div>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48630318' target='_blank' rel='noopener noreferrer'>&#9650; 146</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48630318' target='_blank' rel='noopener noreferrer'>&#128172; 49</a> <span class='hn-tag hn-tag--green' data-tag='Show HN'>Show HN</span> <span class='hn-tag hn-tag--pink' data-tag='Design'>Design</span></div>
 <img class='hn-img' src='https://www.monolisa.dev/static/opengraph.png' data-full='https://www.monolisa.dev/static/opengraph.png' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>Show HN: Monolisa v3 – a typeface for developers and creatives introduces a new font optimized for code editors and design work. It highlights typography choices tailored to readability and aesthetics for tech users.</p>
 <p class='hn-text-zh'>Show HN：Monolisa v3——为开发者与创意工作者设计的新字体，强调在代码编辑与设计工作中的可读性与美感的字体选择。</p>
 </div>
 </div>
-<div class='hn-card' id='story-48629810' data-tags='Programming,Data' data-hn-time='1782134715' data-hn-score='117' data-hot-score='0.08'>
+<div class='hn-card' id='story-48634187' data-tags='Hardware,Entertainment' data-hn-time='1782153562' data-hn-score='123' data-hot-score='0.09'>
 <div class='hn-body'>
-<p class='hn-title'>(72) <a href='https://kolistat.com/blog/the-stats-duck-v0-6-0/' target='_blank' rel='noopener noreferrer'>Statistics that live in your SQL</a></p>
-<p class='hn-meta'>存在于 SQL 的统计数据</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 22, 2026 / 06:25 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48629810' target='_blank' rel='noopener noreferrer'>&#9650; 117</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48629810' target='_blank' rel='noopener noreferrer'>&#128172; 16</a> <span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span> <span class='hn-tag hn-tag--violet' data-tag='Data'>Data</span></div>
-<img class='hn-img' src='https://kolistat.com/favicon.png' data-full='https://kolistat.com/favicon.png' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>Kolistat v0.6.0 discusses embedding statistical summaries directly in SQL, enabling faster analytics without moving data into external stores. The approach can improve performance for BI workloads and reduce ETL complexity.</p>
-<p class='hn-text-zh'>Kolistat v0.6.0 讨论将统计信息直接嵌入 SQL，使分析无需将数据移出数据库。该方法有望提升 BI 工作负载的性能并简化 ETL 过程。</p>
+<p class='hn-title'>(70) <a href='https://www.youtube.com/watch?v=ul5hC3PY1Yg' target='_blank' rel='noopener noreferrer'>Five monitors on a Commodore 128 [video]</a></p>
+<p class='hn-meta'>在 Commodore 128 上实现五屏显示 [视频]</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 22, 2026 / 11:39 PT</span></p>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48634187' target='_blank' rel='noopener noreferrer'>&#9650; 123</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48634187' target='_blank' rel='noopener noreferrer'>&#128172; 22</a> <span class='hn-tag hn-tag--slate' data-tag='Hardware'>Hardware</span> <span class='hn-tag hn-tag--purple' data-tag='Entertainment'>Entertainment</span></div>
+<p class='hn-text-en'>A retro-computing showcase where a Commodore 128 drives five monitors, pushing hardware hacks and display tiling to the extreme. It highlights enduring hobbyist ingenuity and the quirks of vintage systems.</p>
+<p class='hn-text-zh'>这段视频展示一台 Commodore 128 驱动五个显示器，凸显极致的硬件改造与显示分割技术，以及对复古系统的持续热情与创造力。</p>
 </div>
 </div>
-<div class='hn-card' id='story-48646165' data-tags='Show HN,AI,Web,Security' data-hn-time='1782227100' data-hn-score='37' data-hot-score='0.08'>
+<div class='hn-card' id='story-48646165' data-tags='AI,Show HN,Security,Web' data-hn-time='1782227100' data-hn-score='53' data-hot-score='0.09'>
 <div class='hn-body'>
-<p class='hn-title'>(73) <a href='https://github.com/NotASithLord/peerd' target='_blank' rel='noopener noreferrer'>Show HN: peerd – AI agent harness that runs entirely in your browser</a></p>
+<p class='hn-title'>(71) <a href='https://github.com/NotASithLord/peerd' target='_blank' rel='noopener noreferrer'>Show HN: peerd – AI agent harness that runs entirely in your browser</a></p>
 <p class='hn-meta'>Show HN: peerd——在浏览器中完全运行的 AI 代理 Harness</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 23, 2026 / 08:05 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48646165' target='_blank' rel='noopener noreferrer'>&#9650; 37</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48646165' target='_blank' rel='noopener noreferrer'>&#128172; 16</a> <span class='hn-tag hn-tag--green' data-tag='Show HN'>Show HN</span> <span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span> <span class='hn-tag hn-tag--cyan' data-tag='Web'>Web</span> <span class='hn-tag hn-tag--red' data-tag='Security'>Security</span></div>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48646165' target='_blank' rel='noopener noreferrer'>&#9650; 53</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48646165' target='_blank' rel='noopener noreferrer'>&#128172; 18</a> <span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span> <span class='hn-tag hn-tag--green' data-tag='Show HN'>Show HN</span> <span class='hn-tag hn-tag--red' data-tag='Security'>Security</span> <span class='hn-tag hn-tag--cyan' data-tag='Web'>Web</span></div>
 <img class='hn-img' src='https://opengraph.githubassets.com/690976bec190393ae6c5b48868f4724f7a6377a043b0fb96c2d4bc54e2158a2d/NotASithLord/peerd' data-full='https://opengraph.githubassets.com/690976bec190393ae6c5b48868f4724f7a6377a043b0fb96c2d4bc54e2158a2d/NotASithLord/peerd' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>peerd runs an AI agent harness fully in the browser, enabling private, client-side decision making without server round-trips. It demonstrates how powerful AI workloads can move to the client, with tradeoffs in performance and security.</p>
 <p class='hn-text-zh'>peerd 在浏览器内完全运行 AI 代理，客户端就能完成推理与决策，无需服务器交互。这一设计展示了将强大 AI 工作负载下沉到前端的潜力，同时也带来性能和安全方面的权衡。</p>
 </div>
 </div>
+<div class='hn-card' id='story-48651727' data-tags='Data,Open Source' data-hn-time='1782250160' data-hn-score='38' data-hot-score='0.09'>
+<div class='hn-body'>
+<p class='hn-title'>(72) <a href='https://github.com/bluesky-social/proposals/pull/94' target='_blank' rel='noopener noreferrer'>ATProto Permissioned Data Proposal Draft</a></p>
+<p class='hn-meta'>ATProto 权限化数据提案草案</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 23, 2026 / 14:29 PT</span></p>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48651727' target='_blank' rel='noopener noreferrer'>&#9650; 38</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48651727' target='_blank' rel='noopener noreferrer'>&#128172; 4</a> <span class='hn-tag hn-tag--violet' data-tag='Data'>Data</span> <span class='hn-tag hn-tag--green' data-tag='Open Source'>Open Source</span></div>
+<img class='hn-img' src='https://opengraph.githubassets.com/2c3b0b4e4a869e7bc94725eaba48b409dc2de46956a70fe733bb6d213e05203e/bluesky-social/proposals/pull/94' data-full='https://opengraph.githubassets.com/2c3b0b4e4a869e7bc94725eaba48b409dc2de46956a70fe733bb6d213e05203e/bluesky-social/proposals/pull/94' alt='preview image' loading='lazy'/>
+<p class='hn-text-en'>ATProto Permissioned Data Proposal Draft outlines a proposal for controlled, permissioned data access within the Bluesky-powered ATProto ecosystem, balancing openness with governance. It discusses implications for data provenance, access control, and developer ecosystems.</p>
+<p class='hn-text-zh'>ATProto 权限化数据提案草案在 Bluesky 支撑的 ATProto 生态系统内探讨受控数据访问的可能性，力求在开放性与治理之间取得平衡。讨论数据溯源、访问控制及对开发者生态的影响。</p>
+</div>
+</div>
+<div class='hn-card' id='story-48629810' data-tags='Data' data-hn-time='1782134715' data-hn-score='124' data-hot-score='0.08'>
+<div class='hn-body'>
+<p class='hn-title'>(73) <a href='https://kolistat.com/blog/the-stats-duck-v0-6-0/' target='_blank' rel='noopener noreferrer'>Statistics that live in your SQL</a></p>
+<p class='hn-meta'>存在于 SQL 的统计数据</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 22, 2026 / 06:25 PT</span></p>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48629810' target='_blank' rel='noopener noreferrer'>&#9650; 124</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48629810' target='_blank' rel='noopener noreferrer'>&#128172; 16</a> <span class='hn-tag hn-tag--violet' data-tag='Data'>Data</span></div>
+<img class='hn-img' src='https://kolistat.com/favicon.png' data-full='https://kolistat.com/favicon.png' alt='preview image' loading='lazy'/>
+<p class='hn-text-en'>Kolistat v0.6.0 discusses embedding statistical summaries directly in SQL, enabling faster analytics without moving data into external stores. The approach can improve performance for BI workloads and reduce ETL complexity.</p>
+<p class='hn-text-zh'>Kolistat v0.6.0 讨论将统计信息直接嵌入 SQL，使分析无需将数据移出数据库。该方法有望提升 BI 工作负载的性能并简化 ETL 过程。</p>
+</div>
+</div>
+<div class='hn-card' id='story-48637868' data-tags='Startups,Business,Programming' data-hn-time='1782170453' data-hn-score='92' data-hot-score='0.08'>
+<div class='hn-body'>
+<p class='hn-title'>(74) <a href='https://thomasliao.com/eval-startups' target='_blank' rel='noopener noreferrer'>Why eval startups fail (2025)</a></p>
+<p class='hn-meta'>评估型初创企业为何失败（2025）</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 22, 2026 / 16:20 PT</span></p>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48637868' target='_blank' rel='noopener noreferrer'>&#9650; 92</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48637868' target='_blank' rel='noopener noreferrer'>&#128172; 51</a> <span class='hn-tag hn-tag--amber' data-tag='Startups'>Startups</span> <span class='hn-tag hn-tag--amber' data-tag='Business'>Business</span> <span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span></div>
+<img class='hn-img' src='https://thomasliao.com/images/toucan_seal_2.png' data-full='https://thomasliao.com/images/toucan_seal_2.png' alt='preview image' loading='lazy'/>
+<p class='hn-text-en'>Examines why evaluation-focused startups struggle to scale in 2025, highlighting issues like ambiguous value propositions, high customer acquisition costs, and data or compliance hurdles. It distills actionable lessons for founders, investors, and ecosystem builders to improve go-to-market discipline and unit economics.</p>
+<p class='hn-text-zh'>分析了2025年以评估服务为核心的初创企业为何难以扩张，指出价值定位不清、获客成本高、数据与合规风险等常见问题。提供对创始人、投资人和生态建设者的可操作建议，帮助提升市场定位与单位经济效益。</p>
+</div>
+</div>
 <div class='hn-card' id='story-48631511' data-tags='Programming,Hardware' data-hn-time='1782141880' data-hn-score='100' data-hot-score='0.07'>
 <div class='hn-body'>
-<p class='hn-title'>(74) <a href='https://www.patrickdomanico.com/bpm/2026/06/16/inventing-the-future-one-lisp-machine-at-a-time/' target='_blank' rel='noopener noreferrer'>Inventing the Future, One Lisp Machine at a Time</a></p>
+<p class='hn-title'>(75) <a href='https://www.patrickdomanico.com/bpm/2026/06/16/inventing-the-future-one-lisp-machine-at-a-time/' target='_blank' rel='noopener noreferrer'>Inventing the Future, One Lisp Machine at a Time</a></p>
 <p class='hn-meta'>逐步用 Lisp 机器重塑未来</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 22, 2026 / 08:24 PT</span></p>
 <div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48631511' target='_blank' rel='noopener noreferrer'>&#9650; 100</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48631511' target='_blank' rel='noopener noreferrer'>&#128172; 14</a> <span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span> <span class='hn-tag hn-tag--slate' data-tag='Hardware'>Hardware</span></div>
@@ -811,20 +821,31 @@ title: "Hacker News — Trending (2026-06-24)"
 <p class='hn-text-zh'>通过 Lisp 机器的历史回顾，将对过去的情感融入对现代计算的思考，探讨语言与体系结构的价值，以及专业化架构在未来中的角色。</p>
 </div>
 </div>
-<div class='hn-card' id='story-48637868' data-tags='Business,Startups,Programming' data-hn-time='1782170453' data-hn-score='75' data-hot-score='0.07'>
+<div class='hn-card' id='story-48639840' data-tags='AI' data-hn-time='1782185008' data-hn-score='72' data-hot-score='0.07'>
 <div class='hn-body'>
-<p class='hn-title'>(75) <a href='https://thomasliao.com/eval-startups' target='_blank' rel='noopener noreferrer'>Why eval startups fail (2025)</a></p>
-<p class='hn-meta'>评估型初创企业为何失败（2025）</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 22, 2026 / 16:20 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48637868' target='_blank' rel='noopener noreferrer'>&#9650; 75</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48637868' target='_blank' rel='noopener noreferrer'>&#128172; 50</a> <span class='hn-tag hn-tag--amber' data-tag='Business'>Business</span> <span class='hn-tag hn-tag--amber' data-tag='Startups'>Startups</span> <span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span></div>
-<img class='hn-img' src='https://thomasliao.com/images/toucan_seal_2.png' data-full='https://thomasliao.com/images/toucan_seal_2.png' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>Examines why evaluation-focused startups struggle to scale in 2025, highlighting issues like ambiguous value propositions, high customer acquisition costs, and data or compliance hurdles. It distills actionable lessons for founders, investors, and ecosystem builders to improve go-to-market discipline and unit economics.</p>
-<p class='hn-text-zh'>分析了2025年以评估服务为核心的初创企业为何难以扩张，指出价值定位不清、获客成本高、数据与合规风险等常见问题。提供对创始人、投资人和生态建设者的可操作建议，帮助提升市场定位与单位经济效益。</p>
+<p class='hn-title'>(76) <a href='https://www.interconnects.ai/p/glm-52-is-the-step-change-for-open' target='_blank' rel='noopener noreferrer'>GLM-5.2 is a step change for open agents</a></p>
+<p class='hn-meta'>GLM-5.2：开放代理的质变</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 22, 2026 / 20:23 PT</span></p>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48639840' target='_blank' rel='noopener noreferrer'>&#9650; 72</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48639840' target='_blank' rel='noopener noreferrer'>&#128172; 24</a> <span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span></div>
+<img class='hn-img' src='https://substackcdn.com/image/fetch/$s_!Of7h!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F267cdc82-6fbc-4f68-bcba-160091396dfd_3182x1790.png' data-full='https://substackcdn.com/image/fetch/$s_!Of7h!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F267cdc82-6fbc-4f68-bcba-160091396dfd_3182x1790.png' alt='preview image' loading='lazy'/>
+<p class='hn-text-en'>GLM-5.2 represents a significant leap for open AI agents, improving reasoning, planning, and tool-use capabilities in open-weight models. This advancement lowers the barrier to building capable open agents and accelerates community experimentation and innovation.</p>
+<p class='hn-text-zh'>GLM-5.2 对开放代理来说是一次显著跃升，提升了推理、计划和工具使用能力的开放模型。这一进步降低了构建强大开放代理的门槛，推动社区在实验与创新方面的进展。</p>
+</div>
+</div>
+<div class='hn-card' id='story-48606222' data-tags='Programming' data-hn-time='1781927719' data-hn-score='244' data-hot-score='0.05'>
+<div class='hn-body'>
+<p class='hn-title'>(77) <a href='https://labs.iximiuz.com/tutorials/ssh-tunnels' target='_blank' rel='noopener noreferrer'>A Practical Guide to SSH Tunnels: Local and Remote Port Forwarding</a></p>
+<p class='hn-meta'>SSH 隧道实用指南：本地与远程端口转发</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 19, 2026 / 20:55 PT</span></p>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48606222' target='_blank' rel='noopener noreferrer'>&#9650; 244</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48606222' target='_blank' rel='noopener noreferrer'>&#128172; 52</a> <span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span></div>
+<img class='hn-img' src='https://labs.iximiuz.com/content/files/tutorials/ssh-tunnels/__static__/ssh-tunnels-cheat-sheet.png' data-full='https://labs.iximiuz.com/content/files/tutorials/ssh-tunnels/__static__/ssh-tunnels-cheat-sheet.png' alt='preview image' loading='lazy'/>
+<p class='hn-text-en'>Offers a hands-on walkthrough of SSH local and remote port forwarding, with real-world use cases from secure access to services behind firewalls. Includes concrete command examples and tips to avoid common pitfalls.</p>
+<p class='hn-text-zh'>提供 SSH 本地与远程端口转发的实用指南，涵盖穿透防火墙、通过跳板机访问受限服务等场景，并给出具体命令示例与常见坑点提示。</p>
 </div>
 </div>
 <div class='hn-card' id='story-48611585' data-tags='Science,Energy' data-hn-time='1781979895' data-hn-score='207' data-hot-score='0.05'>
 <div class='hn-body'>
-<p class='hn-title'>(76) <a href='https://www.thinkgeoenergy.com/quaise-energy-achieves-100-meters-of-drilling-using-millimeter-wave-technology/' target='_blank' rel='noopener noreferrer'>Millimeter wave technology drills 100 meters into granite</a></p>
+<p class='hn-title'>(78) <a href='https://www.thinkgeoenergy.com/quaise-energy-achieves-100-meters-of-drilling-using-millimeter-wave-technology/' target='_blank' rel='noopener noreferrer'>Millimeter wave technology drills 100 meters into granite</a></p>
 <p class='hn-meta'>毫米波技术钻探花岗岩 100 米</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 20, 2026 / 11:24 PT</span></p>
 <div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48611585' target='_blank' rel='noopener noreferrer'>&#9650; 207</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48611585' target='_blank' rel='noopener noreferrer'>&#128172; 103</a> <span class='hn-tag hn-tag--teal' data-tag='Science'>Science</span> <span class='hn-tag hn-tag--emerald' data-tag='Energy'>Energy</span></div>
@@ -832,42 +853,31 @@ title: "Hacker News — Trending (2026-06-24)"
 <p class='hn-text-zh'>毫米波技术声称能在花岗岩上钻探到 100 米深度，这是对资源勘探和地质调查的一个重要进展。该成果展示了高频能量在非传统钻探方法中的应用潜力。</p>
 </div>
 </div>
-<div class='hn-card' id='story-48630254' data-tags='Science' data-hn-time='1782136835' data-hn-score='68' data-hot-score='0.05'>
+<div class='hn-card' id='story-48630254' data-tags='Science' data-hn-time='1782136835' data-hn-score='76' data-hot-score='0.05'>
 <div class='hn-body'>
-<p class='hn-title'>(77) <a href='https://svpow.com/2026/06/04/genuinely-my-all-time-favourite-image-mamenchisaurus-hochuanensis/' target='_blank' rel='noopener noreferrer'>Genuinely, my all-time favourite image: Mamenchisaurus hochuanensis</a></p>
+<p class='hn-title'>(79) <a href='https://svpow.com/2026/06/04/genuinely-my-all-time-favourite-image-mamenchisaurus-hochuanensis/' target='_blank' rel='noopener noreferrer'>Genuinely, my all-time favourite image: Mamenchisaurus hochuanensis</a></p>
 <p class='hn-meta'>我心中的最爱图片：Mamenchisaurus hochuanensis</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 22, 2026 / 07:00 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48630254' target='_blank' rel='noopener noreferrer'>&#9650; 68</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48630254' target='_blank' rel='noopener noreferrer'>&#128172; 26</a> <span class='hn-tag hn-tag--teal' data-tag='Science'>Science</span></div>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48630254' target='_blank' rel='noopener noreferrer'>&#9650; 76</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48630254' target='_blank' rel='noopener noreferrer'>&#128172; 26</a> <span class='hn-tag hn-tag--teal' data-tag='Science'>Science</span></div>
 <img class='hn-img' src='https://svpow.com/wp-content/uploads/2026/06/mamenchi_stitch.jpg' data-full='https://svpow.com/wp-content/uploads/2026/06/mamenchi_stitch.jpg' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>A paleontology blog highlights its all-time favourite image of Mamenchisaurus hochuanensis, likely a striking fossil photo or illustration. The post spotlights the enduring appeal of long-neck sauropods and how visual artifacts shape science communication.</p>
 <p class='hn-text-zh'>博主分享心中最喜欢的恐龙图像——脊龙 Mamenchisaurus hochuanensis，可能是一张引人注目的化石照片或插画。文章强调长颈龙在科普传播中的独特魅力及视觉材料对科学传播的影响。</p>
 </div>
 </div>
-<div class='hn-card' id='story-48649137' data-tags='Show HN,AI,Programming' data-hn-time='1782238912' data-hn-score='19' data-hot-score='0.05'>
+<div class='hn-card' id='story-48635075' data-tags='AI' data-hn-time='1782157505' data-hn-score='68' data-hot-score='0.05'>
 <div class='hn-body'>
-<p class='hn-title'>(78) <a href='https://github.com/context-labs/halo' target='_blank' rel='noopener noreferrer'>Show HN: RLM-based local debugger for AI agent traces</a></p>
-<p class='hn-meta'>Show HN：基于 RLM 的本地 AI 代理轨迹调试器</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 23, 2026 / 11:21 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48649137' target='_blank' rel='noopener noreferrer'>&#9650; 19</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48649137' target='_blank' rel='noopener noreferrer'>&#128172; 7</a> <span class='hn-tag hn-tag--green' data-tag='Show HN'>Show HN</span> <span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span> <span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span></div>
-<img class='hn-img' src='https://opengraph.githubassets.com/8f231459df65f031742fdeb2a05298c9fc5392aebcc3e0aca330fb75a3f14de0/context-labs/HALO' data-full='https://opengraph.githubassets.com/8f231459df65f031742fdeb2a05298c9fc5392aebcc3e0aca330fb75a3f14de0/context-labs/HALO' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>RLM-based local debugger for AI agent traces presents a tool to inspect and debug AI agent decisions locally, leveraging RLM-based models for trace interpretation. It highlights how local tooling can aid reproducibility and safety in agent-driven workflows.</p>
-<p class='hn-text-zh'>Show HN 展示了一个基于 RLM 的本地 AI 代理轨迹调试器，用于在本地环境中检查与调试代理决策，利用 RLM 模型进行轨迹解释。强调本地工具在提高重复性与安全性方面的作用。</p>
-</div>
-</div>
-<div class='hn-card' id='story-48606222' data-tags='DevOps' data-hn-time='1781927719' data-hn-score='193' data-hot-score='0.04'>
-<div class='hn-body'>
-<p class='hn-title'>(79) <a href='https://labs.iximiuz.com/tutorials/ssh-tunnels' target='_blank' rel='noopener noreferrer'>A Practical Guide to SSH Tunnels: Local and Remote Port Forwarding</a></p>
-<p class='hn-meta'>SSH 隧道实用指南：本地与远程端口转发</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 19, 2026 / 20:55 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48606222' target='_blank' rel='noopener noreferrer'>&#9650; 193</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48606222' target='_blank' rel='noopener noreferrer'>&#128172; 46</a> <span class='hn-tag hn-tag--indigo' data-tag='DevOps'>DevOps</span></div>
-<img class='hn-img' src='https://labs.iximiuz.com/content/files/tutorials/ssh-tunnels/__static__/ssh-tunnels-cheat-sheet.png' data-full='https://labs.iximiuz.com/content/files/tutorials/ssh-tunnels/__static__/ssh-tunnels-cheat-sheet.png' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>Offers a hands-on walkthrough of SSH local and remote port forwarding, with real-world use cases from secure access to services behind firewalls. Includes concrete command examples and tips to avoid common pitfalls.</p>
-<p class='hn-text-zh'>提供 SSH 本地与远程端口转发的实用指南，涵盖穿透防火墙、通过跳板机访问受限服务等场景，并给出具体命令示例与常见坑点提示。</p>
+<p class='hn-title'>(80) <a href='https://arxiv.org/abs/2606.09498' target='_blank' rel='noopener noreferrer'>Self-Harness: Harnesses That Improve Themselves</a></p>
+<p class='hn-meta'>自我增强的 Harnesses：能够自行改进的 Harness</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 22, 2026 / 12:45 PT</span></p>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48635075' target='_blank' rel='noopener noreferrer'>&#9650; 68</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48635075' target='_blank' rel='noopener noreferrer'>&#128172; 3</a> <span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span></div>
+<img class='hn-img' src='https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png' data-full='https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png' alt='preview image' loading='lazy'/>
+<p class='hn-text-en'>Paper proposes Self-Harness: harnesses that can improve themselves via self-feedback loops, enabling autonomous optimization of their own behavior. If practical, this could accelerate agent capability, though it raises safety and control challenges.</p>
+<p class='hn-text-zh'>论文提出自我增强的 Harnesses，通过自我反馈循环自行改进自身行为，以实现自主优化。若落地，可能提升代理能力，但也带来安全与控制方面的挑战。</p>
 </div>
 </div>
 <div class='hn-card' id='story-48611896' data-tags='Design' data-hn-time='1781981894' data-hn-score='159' data-hot-score='0.04'>
 <div class='hn-body'>
-<p class='hn-title'>(80) <a href='https://dirtylittlezine.com/' target='_blank' rel='noopener noreferrer'>Dirty Little Zine – a tool for making an 8 page printable Zine</a></p>
+<p class='hn-title'>(81) <a href='https://dirtylittlezine.com/' target='_blank' rel='noopener noreferrer'>Dirty Little Zine – a tool for making an 8 page printable Zine</a></p>
 <p class='hn-meta'>Dirty Little Zine：制作 8 页可打印 Zine 的工具</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 20, 2026 / 11:58 PT</span></p>
 <div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48611896' target='_blank' rel='noopener noreferrer'>&#9650; 159</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48611896' target='_blank' rel='noopener noreferrer'>&#128172; 35</a> <span class='hn-tag hn-tag--pink' data-tag='Design'>Design</span></div>
@@ -876,25 +886,15 @@ title: "Hacker News — Trending (2026-06-24)"
 <p class='hn-text-zh'>Dirty Little Zine 提供一个生成 8 页可打印 zine 的工具，降低自出版的门槛。它将创客文化与易用的排版工具结合，便于快速离线分发。</p>
 </div>
 </div>
-<div class='hn-card' id='story-48622433' data-tags='Security,Programming' data-hn-time='1782074673' data-hn-score='99' data-hot-score='0.04'>
+<div class='hn-card' id='story-48622433' data-tags='Programming,Security' data-hn-time='1782074673' data-hn-score='99' data-hot-score='0.04'>
 <div class='hn-body'>
-<p class='hn-title'>(81) <a href='https://github.com/dmtrKovalenko/ffs' target='_blank' rel='noopener noreferrer'>F* file system – file search that reads SSD directly bypassing OS kernel</a></p>
+<p class='hn-title'>(82) <a href='https://github.com/dmtrKovalenko/ffs' target='_blank' rel='noopener noreferrer'>F* file system – file search that reads SSD directly bypassing OS kernel</a></p>
 <p class='hn-meta'>F* 文件系统——直接读取SSD以绕过内核的文件搜索</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 21, 2026 / 13:44 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48622433' target='_blank' rel='noopener noreferrer'>&#9650; 99</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48622433' target='_blank' rel='noopener noreferrer'>&#128172; 46</a> <span class='hn-tag hn-tag--red' data-tag='Security'>Security</span> <span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span></div>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48622433' target='_blank' rel='noopener noreferrer'>&#9650; 99</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48622433' target='_blank' rel='noopener noreferrer'>&#128172; 46</a> <span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span> <span class='hn-tag hn-tag--red' data-tag='Security'>Security</span></div>
 <img class='hn-img' src='https://opengraph.githubassets.com/e88c4f5b439ece17139e20e334c47931f717db763a725c46cfdc464969eba4ce/dmtrKovalenko/ffs' data-full='https://opengraph.githubassets.com/e88c4f5b439ece17139e20e334c47931f717db763a725c46cfdc464969eba4ce/dmtrKovalenko/ffs' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>F* is a file system project that reads SSDs directly to perform fast searches, bypassing the OS kernel. It trades portability and broad compatibility for speed and custom indexing, raising questions about stability and security.</p>
 <p class='hn-text-zh'>F* 文件系统通过直接读取 SSD 来实现快速搜索，绕过操作系统内核。它以提升速度和自定义索引为代价，牺牲了一定的可移植性与安全性，引发对稳定性与安全性的讨论。</p>
-</div>
-</div>
-<div class='hn-card' id='story-48624462' data-tags='Education' data-hn-time='1782091226' data-hn-score='72' data-hot-score='0.04'>
-<div class='hn-body'>
-<p class='hn-title'>(82) <a href='https://www.youtube.com/watch?v=U_6HxPkrgcg' target='_blank' rel='noopener noreferrer'>Remaking BBC test cards to teach you video processing</a></p>
-<p class='hn-meta'>重新制作BBC测试卡，教你视频处理</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 21, 2026 / 18:20 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48624462' target='_blank' rel='noopener noreferrer'>&#9650; 72</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48624462' target='_blank' rel='noopener noreferrer'>&#128172; 4</a> <span class='hn-tag hn-tag--sky' data-tag='Education'>Education</span></div>
-<p class='hn-text-en'>BBC test cards are being remade as educational visuals to teach video processing concepts—color spaces, monochrome vs color, and compression artifacts—through hands-on demonstrations. The project provides a approachable, historical context for understanding modern video pipelines.</p>
-<p class='hn-text-zh'>将 BBC 测试卡改造成教学可视化材料，通过实际演示讲解色彩空间、黑白与彩色以及压缩伪影等视频处理概念，为理解现代视频管线提供友好且具历史背景的资料。</p>
 </div>
 </div>
 <div class='hn-card' id='story-48636188' data-tags='Programming' data-hn-time='1782162344' data-hn-score='48' data-hot-score='0.04'>
@@ -908,46 +908,45 @@ title: "Hacker News — Trending (2026-06-24)"
 <p class='hn-text-zh'>展示在 Lil 语言中实现矢量图形的思路，探讨用小型语言进行可声明的图形绘制的紧凑方法。内容涉及实现可缩放形状与效果所需的数学与工具链，为 DSL 和图形教育提供了实用思路。</p>
 </div>
 </div>
-<div class='hn-card' id='story-48612025' data-tags='Show HN,Programming,Hardware' data-hn-time='1781982641' data-hn-score='126' data-hot-score='0.03'>
+<div class='hn-card' id='story-48649137' data-tags='AI,Programming,Show HN' data-hn-time='1782238912' data-hn-score='19' data-hot-score='0.04'>
 <div class='hn-body'>
-<p class='hn-title'>(84) <a href='https://glyphcss.com' target='_blank' rel='noopener noreferrer'>Show HN: An ASCII 3D Rendering Engine</a></p>
+<p class='hn-title'>(84) <a href='https://github.com/context-labs/halo' target='_blank' rel='noopener noreferrer'>Show HN: RLM-based local debugger for AI agent traces</a></p>
+<p class='hn-meta'>Show HN：基于 RLM 的本地 AI 代理轨迹调试器</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 23, 2026 / 11:21 PT</span></p>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48649137' target='_blank' rel='noopener noreferrer'>&#9650; 19</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48649137' target='_blank' rel='noopener noreferrer'>&#128172; 7</a> <span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span> <span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span> <span class='hn-tag hn-tag--green' data-tag='Show HN'>Show HN</span></div>
+<img class='hn-img' src='https://opengraph.githubassets.com/8f231459df65f031742fdeb2a05298c9fc5392aebcc3e0aca330fb75a3f14de0/context-labs/HALO' data-full='https://opengraph.githubassets.com/8f231459df65f031742fdeb2a05298c9fc5392aebcc3e0aca330fb75a3f14de0/context-labs/HALO' alt='preview image' loading='lazy'/>
+<p class='hn-text-en'>RLM-based local debugger for AI agent traces presents a tool to inspect and debug AI agent decisions locally, leveraging RLM-based models for trace interpretation. It highlights how local tooling can aid reproducibility and safety in agent-driven workflows.</p>
+<p class='hn-text-zh'>Show HN 展示了一个基于 RLM 的本地 AI 代理轨迹调试器，用于在本地环境中检查与调试代理决策，利用 RLM 模型进行轨迹解释。强调本地工具在提高重复性与安全性方面的作用。</p>
+</div>
+</div>
+<div class='hn-card' id='story-48612025' data-tags='Programming,Show HN,Hardware' data-hn-time='1781982641' data-hn-score='126' data-hot-score='0.03'>
+<div class='hn-body'>
+<p class='hn-title'>(85) <a href='https://glyphcss.com' target='_blank' rel='noopener noreferrer'>Show HN: An ASCII 3D Rendering Engine</a></p>
 <p class='hn-meta'>Show HN：一个 ASCII 3D 渲染引擎</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 20, 2026 / 12:10 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48612025' target='_blank' rel='noopener noreferrer'>&#9650; 126</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48612025' target='_blank' rel='noopener noreferrer'>&#128172; 37</a> <span class='hn-tag hn-tag--green' data-tag='Show HN'>Show HN</span> <span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span> <span class='hn-tag hn-tag--slate' data-tag='Hardware'>Hardware</span></div>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48612025' target='_blank' rel='noopener noreferrer'>&#9650; 126</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48612025' target='_blank' rel='noopener noreferrer'>&#128172; 37</a> <span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span> <span class='hn-tag hn-tag--green' data-tag='Show HN'>Show HN</span> <span class='hn-tag hn-tag--slate' data-tag='Hardware'>Hardware</span></div>
 <p class='hn-text-en'>An ASCII 3D rendering engine demonstrates a pure CPU pipeline that outputs 3D scenes as ASCII art in real time. It showcases techniques like ray marching or voxel rendering adapted to character grids, offering a playful baseline for terminals and low-res displays. It is a striking example of creative coding that runs without a GPU.</p>
 <p class='hn-text-zh'>一个纯 CPU 渲染管线的 ASCII 3D 引擎把 3D 场景实时输出为字符画，适合在终端或低分辨率显示上使用。它展示了将光线行进、体素渲染等技术适配到字符网格的实现方式，提供了一个有趣的创意编码基线。</p>
 </div>
 </div>
+<div class='hn-card' id='story-48624462' data-tags='Education' data-hn-time='1782091226' data-hn-score='72' data-hot-score='0.03'>
+<div class='hn-body'>
+<p class='hn-title'>(86) <a href='https://www.youtube.com/watch?v=U_6HxPkrgcg' target='_blank' rel='noopener noreferrer'>Remaking BBC test cards to teach you video processing</a></p>
+<p class='hn-meta'>重新制作BBC测试卡，教你视频处理</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 21, 2026 / 18:20 PT</span></p>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48624462' target='_blank' rel='noopener noreferrer'>&#9650; 72</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48624462' target='_blank' rel='noopener noreferrer'>&#128172; 4</a> <span class='hn-tag hn-tag--sky' data-tag='Education'>Education</span></div>
+<p class='hn-text-en'>BBC test cards are being remade as educational visuals to teach video processing concepts—color spaces, monochrome vs color, and compression artifacts—through hands-on demonstrations. The project provides a approachable, historical context for understanding modern video pipelines.</p>
+<p class='hn-text-zh'>将 BBC 测试卡改造成教学可视化材料，通过实际演示讲解色彩空间、黑白与彩色以及压缩伪影等视频处理概念，为理解现代视频管线提供友好且具历史背景的资料。</p>
+</div>
+</div>
 <div class='hn-card' id='story-48630085' data-tags='Programming,Security' data-hn-time='1782136017' data-hn-score='40' data-hot-score='0.03'>
 <div class='hn-body'>
-<p class='hn-title'>(85) <a href='https://qsoe-dev.blogspot.com/2026/06/qsoe-project-v01-is-released.html' target='_blank' rel='noopener noreferrer'>QSOE: QNX-inspired OS with dual-kernel architecture</a></p>
+<p class='hn-title'>(87) <a href='https://qsoe-dev.blogspot.com/2026/06/qsoe-project-v01-is-released.html' target='_blank' rel='noopener noreferrer'>QSOE: QNX-inspired OS with dual-kernel architecture</a></p>
 <p class='hn-meta'>QSOE：受 QNX 启发的双内核操作系统</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 22, 2026 / 06:46 PT</span></p>
 <div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48630085' target='_blank' rel='noopener noreferrer'>&#9650; 40</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48630085' target='_blank' rel='noopener noreferrer'>&#128172; 24</a> <span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span> <span class='hn-tag hn-tag--red' data-tag='Security'>Security</span></div>
 <p class='hn-text-en'>QSOE is a QNX-inspired OS with a dual-kernel architecture designed for isolation and real-time performance, exploring a bold approach to secure, dependable system design. The project outlines architectural goals and the trade-offs of a dual-kernel design.</p>
 <p class='hn-text-zh'>QSOE 是一个受 QNX 启发的双内核操作系统，旨在实现隔离性和实时性能之间的权衡，探讨在安全、可靠系统设计中的大胆思路。文中概述了架构目标及双内核设计的取舍。</p>
-</div>
-</div>
-<div class='hn-card' id='story-48631681' data-tags='Show HN,Data' data-hn-time='1782142474' data-hn-score='37' data-hot-score='0.03'>
-<div class='hn-body'>
-<p class='hn-title'>(86) <a href='https://fastubu.com/' target='_blank' rel='noopener noreferrer'>Show HN: FastUbu – An Ultrafast Video Archive</a></p>
-<p class='hn-meta'>Show HN：FastUbu——极快的视频档案</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 22, 2026 / 08:34 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48631681' target='_blank' rel='noopener noreferrer'>&#9650; 37</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48631681' target='_blank' rel='noopener noreferrer'>&#128172; 4</a> <span class='hn-tag hn-tag--green' data-tag='Show HN'>Show HN</span> <span class='hn-tag hn-tag--violet' data-tag='Data'>Data</span></div>
-<img class='hn-img' src='https://fastubu.com/og-home.jpg?v=4' data-full='https://fastubu.com/og-home.jpg?v=4' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>FastUbu is an ultrafast video archive and search engine, focusing on rapid indexing, streaming, and retrieval of large video collections. The project demonstrates state-of-the-art performance tricks for media asset management and user-facing speed.</p>
-<p class='hn-text-zh'>FastUbu 是一个极快的视频档案与检索引擎，专注于对大规模视频集合的快速索引、流式传输和检索。展示了媒体资产管理与用户感知速度方面的前沿性能技巧。</p>
-</div>
-</div>
-<div class='hn-card' id='story-48635075' data-tags='AI' data-hn-time='1782157505' data-hn-score='34' data-hot-score='0.03'>
-<div class='hn-body'>
-<p class='hn-title'>(87) <a href='https://arxiv.org/abs/2606.09498' target='_blank' rel='noopener noreferrer'>Self-Harness: Harnesses That Improve Themselves</a></p>
-<p class='hn-meta'>自我增强的 Harnesses：能够自行改进的 Harness</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 22, 2026 / 12:45 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48635075' target='_blank' rel='noopener noreferrer'>&#9650; 34</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48635075' target='_blank' rel='noopener noreferrer'>&#128172; 0</a> <span class='hn-tag hn-tag--blue' data-tag='AI'>AI</span></div>
-<img class='hn-img' src='https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png' data-full='https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>Paper proposes Self-Harness: harnesses that can improve themselves via self-feedback loops, enabling autonomous optimization of their own behavior. If practical, this could accelerate agent capability, though it raises safety and control challenges.</p>
-<p class='hn-text-zh'>论文提出自我增强的 Harnesses，通过自我反馈循环自行改进自身行为，以实现自主优化。若落地，可能提升代理能力，但也带来安全与控制方面的挑战。</p>
 </div>
 </div>
 <div class='hn-card' id='story-48585852' data-tags='Security' data-hn-time='1781792618' data-hn-score='180' data-hot-score='0.02'>
@@ -972,52 +971,95 @@ title: "Hacker News — Trending (2026-06-24)"
 <p class='hn-text-zh'>三星在 42nm 制程上展示了采用三纳米片通道的3D 堆叠晶体管，显示出通过 3D 架构推动晶体管密度与性能提升的前景。</p>
 </div>
 </div>
-<div class='hn-card' id='story-48613336' data-tags='Science' data-hn-time='1781992281' data-hn-score='59' data-hot-score='0.02'>
+<div class='hn-card' id='story-48613336' data-tags='Science' data-hn-time='1781992281' data-hn-score='62' data-hot-score='0.02'>
 <div class='hn-body'>
 <p class='hn-title'>(90) <a href='https://home.cern/francois-englert-1932-2026/' target='_blank' rel='noopener noreferrer'>François Englert (1932 – 2026)</a></p>
 <p class='hn-meta'>弗朗索瓦·恩格勒（1932–2026）</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 20, 2026 / 14:51 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48613336' target='_blank' rel='noopener noreferrer'>&#9650; 59</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48613336' target='_blank' rel='noopener noreferrer'>&#128172; 4</a> <span class='hn-tag hn-tag--teal' data-tag='Science'>Science</span></div>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48613336' target='_blank' rel='noopener noreferrer'>&#9650; 62</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48613336' target='_blank' rel='noopener noreferrer'>&#128172; 4</a> <span class='hn-tag hn-tag--teal' data-tag='Science'>Science</span></div>
 <img class='hn-img' src='https://home.cern/wp-content/themes/cern/public/images/logo-white.svg' data-full='https://home.cern/wp-content/themes/cern/public/images/logo-white.svg' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>Francois Englert, Nobel laureate who co-formulated the Higgs mechanism, has passed away. The note reflects on his contributions to quantum field theory and the standard model, and how the Higgs field shaped modern physics.</p>
 <p class='hn-text-zh'>诺贝尔奖得主、共同提出希格斯机制的物理学家弗朗索瓦·恩格勒去世，文章回顾他在量子场论和标准模型中的贡献，以及希格斯场对现代物理的影响。</p>
 </div>
 </div>
-<div class='hn-card' id='story-48620848' data-tags='Show HN,Programming,Data' data-hn-time='1782063383' data-hn-score='48' data-hot-score='0.02'>
+<div class='hn-card' id='story-48620848' data-tags='Programming,Show HN,Data' data-hn-time='1782063383' data-hn-score='51' data-hot-score='0.02'>
 <div class='hn-body'>
 <p class='hn-title'>(91) <a href='https://pure-effect.org' target='_blank' rel='noopener noreferrer'>Show HN: Pure Effect – Reproduce production bugs on your laptop without a DB</a></p>
 <p class='hn-meta'>Show HN：Pure Effect——在没有数据库的情况下在笔记本复现生产环境中的错误</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 21, 2026 / 10:36 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48620848' target='_blank' rel='noopener noreferrer'>&#9650; 48</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48620848' target='_blank' rel='noopener noreferrer'>&#128172; 10</a> <span class='hn-tag hn-tag--green' data-tag='Show HN'>Show HN</span> <span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span> <span class='hn-tag hn-tag--violet' data-tag='Data'>Data</span></div>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48620848' target='_blank' rel='noopener noreferrer'>&#9650; 51</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48620848' target='_blank' rel='noopener noreferrer'>&#128172; 13</a> <span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span> <span class='hn-tag hn-tag--green' data-tag='Show HN'>Show HN</span> <span class='hn-tag hn-tag--violet' data-tag='Data'>Data</span></div>
 <p class='hn-text-en'>Pure Effect is a lightweight tool that reproduces production bugs on a laptop without a database, simulating real-world failures and performance quirks. It aids debugging, regression testing, and reliability work by letting teams isolate issues before deployment.</p>
 <p class='hn-text-zh'>Pure Effect 是一个轻量级工具，可以在本地笔记本上复现生产环境中的错误而无需数据库，模拟真实世界的故障与性能异常。帮助开发者在上线前进行调试、回归测试与可靠性工作。</p>
 </div>
 </div>
-<div class='hn-card' id='story-48596834' data-tags='Open Source,DevOps' data-hn-time='1781863390' data-hn-score='39' data-hot-score='0.01'>
+<div class='hn-card' id='story-48631681' data-tags='Programming,Show HN' data-hn-time='1782142474' data-hn-score='37' data-hot-score='0.02'>
 <div class='hn-body'>
-<p class='hn-title'>(92) <a href='https://github.blog/open-source/maintainers/how-pull-request-limits-are-cutting-down-the-noise/' target='_blank' rel='noopener noreferrer'>Pull request limits are cutting down the noise</a></p>
+<p class='hn-title'>(92) <a href='https://fastubu.com/' target='_blank' rel='noopener noreferrer'>Show HN: FastUbu – An Ultrafast Video Archive</a></p>
+<p class='hn-meta'>Show HN：FastUbu——极快的视频档案</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 22, 2026 / 08:34 PT</span></p>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48631681' target='_blank' rel='noopener noreferrer'>&#9650; 37</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48631681' target='_blank' rel='noopener noreferrer'>&#128172; 4</a> <span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span> <span class='hn-tag hn-tag--green' data-tag='Show HN'>Show HN</span></div>
+<img class='hn-img' src='https://fastubu.com/og-home.jpg?v=4' data-full='https://fastubu.com/og-home.jpg?v=4' alt='preview image' loading='lazy'/>
+<p class='hn-text-en'>FastUbu is an ultrafast video archive and search engine, focusing on rapid indexing, streaming, and retrieval of large video collections. The project demonstrates state-of-the-art performance tricks for media asset management and user-facing speed.</p>
+<p class='hn-text-zh'>FastUbu 是一个极快的视频档案与检索引擎，专注于对大规模视频集合的快速索引、流式传输和检索。展示了媒体资产管理与用户感知速度方面的前沿性能技巧。</p>
+</div>
+</div>
+<div class='hn-card' id='story-48596834' data-tags='DevOps' data-hn-time='1781863390' data-hn-score='66' data-hot-score='0.01'>
+<div class='hn-body'>
+<p class='hn-title'>(93) <a href='https://github.blog/open-source/maintainers/how-pull-request-limits-are-cutting-down-the-noise/' target='_blank' rel='noopener noreferrer'>Pull request limits are cutting down the noise</a></p>
 <p class='hn-meta'>Pull request 限制正在降低噪声</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 19, 2026 / 03:03 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48596834' target='_blank' rel='noopener noreferrer'>&#9650; 39</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48596834' target='_blank' rel='noopener noreferrer'>&#128172; 27</a> <span class='hn-tag hn-tag--green' data-tag='Open Source'>Open Source</span> <span class='hn-tag hn-tag--indigo' data-tag='DevOps'>DevOps</span></div>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48596834' target='_blank' rel='noopener noreferrer'>&#9650; 66</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48596834' target='_blank' rel='noopener noreferrer'>&#128172; 40</a> <span class='hn-tag hn-tag--indigo' data-tag='DevOps'>DevOps</span></div>
 <img class='hn-img' src='https://github.blog/wp-content/uploads/2026/01/generic-mona-invertocat-logo.png?fit=1920%2C1080' data-full='https://github.blog/wp-content/uploads/2026/01/generic-mona-invertocat-logo.png?fit=1920%2C1080' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>Raising PR limits helps maintainers focus on meaningful changes and reduces review fatigue. By throttling contributed changes, teams can speed up CI cycles and improve code quality. The piece shares practical guidelines for applying limits without stifling collaboration.</p>
 <p class='hn-text-zh'>提升拉取请求限制有助于维护者专注于有意义的改动，降低评审疲劳。通过对提交数量设限，团队可以加快持续集成循环并提升代码质量。文章给出在不扼杀协作的前提下落实现限的方法与要点。</p>
 </div>
 </div>
-<div class='hn-card' id='story-48603726' data-tags='Open Source' data-hn-time='1781906124' data-hn-score='37' data-hot-score='0.01'>
+<div class='hn-card' id='story-48603726' data-tags='Open Source' data-hn-time='1781906124' data-hn-score='61' data-hot-score='0.01'>
 <div class='hn-body'>
-<p class='hn-title'>(93) <a href='https://natkr.com/2026-06-19-nixos-but-smol/' target='_blank' rel='noopener noreferrer'>I can haz smoller NixOS ISOs?</a></p>
+<p class='hn-title'>(94) <a href='https://natkr.com/2026-06-19-nixos-but-smol/' target='_blank' rel='noopener noreferrer'>I can haz smoller NixOS ISOs?</a></p>
 <p class='hn-meta'>我能得到更小的 NixOS ISO？</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 19, 2026 / 14:55 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48603726' target='_blank' rel='noopener noreferrer'>&#9650; 37</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48603726' target='_blank' rel='noopener noreferrer'>&#128172; 12</a> <span class='hn-tag hn-tag--green' data-tag='Open Source'>Open Source</span></div>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48603726' target='_blank' rel='noopener noreferrer'>&#9650; 61</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48603726' target='_blank' rel='noopener noreferrer'>&#128172; 20</a> <span class='hn-tag hn-tag--green' data-tag='Open Source'>Open Source</span></div>
 <img class='hn-img' src='https://natkr.com/favicon.png' data-full='https://natkr.com/favicon.png' alt='preview image' loading='lazy'/>
 <p class='hn-text-en'>I can haz smoller NixOS ISOs? discusses efforts to produce smaller installation images for NixOS, focusing on reducing image size and footprint, and the trade-offs with feature completeness and build configurations.</p>
 <p class='hn-text-zh'>讨论为 NixOS 制作更小的安装镜像的尝试，聚焦于减小镜像体积与保留核心功能之间的权衡，以及可能的构建配置与实现路径。</p>
 </div>
 </div>
+<div class='hn-card' id='story-48611940' data-tags='Finance' data-hn-time='1781982065' data-hn-score='39' data-hot-score='0.01'>
+<div class='hn-body'>
+<p class='hn-title'>(95) <a href='https://sebastiangarren.com/2026/06/17/lending-is-meritorious-and-should-be-praised-how-the-fifth-lateran-council-unlocked-financial-theory/' target='_blank' rel='noopener noreferrer'>How the Fifth Lateran Council unlocked financial theory</a></p>
+<p class='hn-meta'>第五次拉特兰公会议如何影响金融理论的发展</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 20, 2026 / 12:01 PT</span></p>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48611940' target='_blank' rel='noopener noreferrer'>&#9650; 39</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48611940' target='_blank' rel='noopener noreferrer'>&#128172; 4</a> <span class='hn-tag hn-tag--amber' data-tag='Finance'>Finance</span></div>
+<img class='hn-img' src='https://sebastiangarren.com/wp-content/uploads/2026/06/cathedral-exterior-angle.png' data-full='https://sebastiangarren.com/wp-content/uploads/2026/06/cathedral-exterior-angle.png' alt='preview image' loading='lazy'/>
+<p class='hn-text-en'>The Fifth Lateran Council reframed lending as a virtuous activity, shaping early modern financial thinking by legitimizing debt and interest. This historical shift helped pave the way for later financial theory and economic innovation.</p>
+<p class='hn-text-zh'>第五次拉特兰公会议将放贷视为德行行为，改变了对利息和债务的道德评判，推动早期现代金融思想的发展。这一历史转折为后来的金融理论与经济创新铺平了道路。</p>
+</div>
+</div>
+<div class='hn-card' id='story-48614309' data-tags='Privacy,DevOps' data-hn-time='1782000018' data-hn-score='39' data-hot-score='0.01'>
+<div class='hn-body'>
+<p class='hn-title'>(96) <a href='https://neilzone.co.uk/2026/06/pondering-routing-more-of-my-traffic-via-nodes-outside-the-uk-because-of-the-direction-of-uk-online-safety-policy/' target='_blank' rel='noopener noreferrer'>Pondering routing more of my traffic via nodes outside the UK</a></p>
+<p class='hn-meta'>我在考虑将更多流量通过英国以外的节点路由</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 20, 2026 / 17:00 PT</span></p>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48614309' target='_blank' rel='noopener noreferrer'>&#9650; 39</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48614309' target='_blank' rel='noopener noreferrer'>&#128172; 30</a> <span class='hn-tag hn-tag--red' data-tag='Privacy'>Privacy</span> <span class='hn-tag hn-tag--indigo' data-tag='DevOps'>DevOps</span></div>
+<img class='hn-img' src='https://neilzone.co.uk/content/images/2024-10-17_neil.jpg' data-full='https://neilzone.co.uk/content/images/2024-10-17_neil.jpg' alt='preview image' loading='lazy'/>
+<p class='hn-text-en'>Author contemplates routing more traffic through nodes outside the UK in response to online safety policy changes. The piece weighs latency, privacy, and compliance tradeoffs as digital infrastructure choices affect users.</p>
+<p class='hn-text-zh'>作者在英国在线安全政策变化的背景下，思考将更多流量路由到英国以外的节点。此举涉及延迟、隐私和合规性的权衡，以及对用户体验和网络拓扑的潜在影响。</p>
+</div>
+</div>
+<div class='hn-card' id='story-48619159' data-tags='Data,Privacy,Business' data-hn-time='1782051168' data-hn-score='34' data-hot-score='0.01'>
+<div class='hn-body'>
+<p class='hn-title'>(97) <a href='https://www.usenix.org/legacy/event/woot10/tech/full_papers/Wolchok.pdf' target='_blank' rel='noopener noreferrer'>Crawling BitTorrent DHTs for Fun and Profit [pdf]</a></p>
+<p class='hn-meta'>为乐与利润：对 BitTorrent DHT 的爬取研究</p>
+<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 21, 2026 / 07:12 PT</span></p>
+<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48619159' target='_blank' rel='noopener noreferrer'>&#9650; 34</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48619159' target='_blank' rel='noopener noreferrer'>&#128172; 16</a> <span class='hn-tag hn-tag--violet' data-tag='Data'>Data</span> <span class='hn-tag hn-tag--red' data-tag='Privacy'>Privacy</span> <span class='hn-tag hn-tag--amber' data-tag='Business'>Business</span></div>
+<p class='hn-text-en'>Researchers describe scalable techniques for crawling BitTorrent's DHT to map peers and content, enabling large-scale measurement of decentralized file sharing. While providing valuable insights into network dynamics and resilience, the work also raises privacy and abuse concerns.</p>
+<p class='hn-text-zh'>这篇研究论文提出对 BitTorrent DHT 进行大规模爬取的技术方法，用以观测对等节点、内容分布和网络动态。研究提供了对去中心化文件分享的可观测性与鲁棒性见解，同时也暴露了隐私与滥用的风险。</p>
+</div>
+</div>
 <div class='hn-card' id='story-48621018' data-tags='Science' data-hn-time='1782064729' data-hn-score='24' data-hot-score='0.01'>
 <div class='hn-body'>
-<p class='hn-title'>(94) <a href='https://primecrunch.com/blog/2/hunting-million-digit-primes-from-my-loft' target='_blank' rel='noopener noreferrer'>Hunting Million-Digit Primes from My Loft</a></p>
+<p class='hn-title'>(98) <a href='https://primecrunch.com/blog/2/hunting-million-digit-primes-from-my-loft' target='_blank' rel='noopener noreferrer'>Hunting Million-Digit Primes from My Loft</a></p>
 <p class='hn-meta'>从我的阁楼猎取百万位素数</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 21, 2026 / 10:58 PT</span></p>
 <div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48621018' target='_blank' rel='noopener noreferrer'>&#9650; 24</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48621018' target='_blank' rel='noopener noreferrer'>&#128172; 3</a> <span class='hn-tag hn-tag--teal' data-tag='Science'>Science</span></div>
@@ -1028,7 +1070,7 @@ title: "Hacker News — Trending (2026-06-24)"
 </div>
 <div class='hn-card' id='story-48623650' data-tags='Programming' data-hn-time='1782084187' data-hn-score='20' data-hot-score='0.01'>
 <div class='hn-body'>
-<p class='hn-title'>(95) <a href='https://fogus.me/fun/lithp/' target='_blank' rel='noopener noreferrer'>Lithp.py (~2008)</a></p>
+<p class='hn-title'>(99) <a href='https://fogus.me/fun/lithp/' target='_blank' rel='noopener noreferrer'>Lithp.py (~2008)</a></p>
 <p class='hn-meta'>Lithp.py（约 2008 年）</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 21, 2026 / 16:23 PT</span></p>
 <div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48623650' target='_blank' rel='noopener noreferrer'>&#9650; 20</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48623650' target='_blank' rel='noopener noreferrer'>&#128172; 4</a> <span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span></div>
@@ -1038,34 +1080,12 @@ title: "Hacker News — Trending (2026-06-24)"
 </div>
 <div class='hn-card' id='story-48609515' data-tags='Science,Politics' data-hn-time='1781965997' data-hn-score='17' data-hot-score='0.0'>
 <div class='hn-body'>
-<p class='hn-title'>(96) <a href='https://www.cbc.ca/news/canada/hamilton/moving-marineland-beluga-whales-9.7233160' target='_blank' rel='noopener noreferrer'>How to move a beluga across the world</a></p>
+<p class='hn-title'>(100) <a href='https://www.cbc.ca/news/canada/hamilton/moving-marineland-beluga-whales-9.7233160' target='_blank' rel='noopener noreferrer'>How to move a beluga across the world</a></p>
 <p class='hn-meta'>如何把白鲸搬运到全球各地</p>
 <p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 20, 2026 / 07:33 PT</span></p>
 <div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48609515' target='_blank' rel='noopener noreferrer'>&#9650; 17</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48609515' target='_blank' rel='noopener noreferrer'>&#128172; 2</a> <span class='hn-tag hn-tag--teal' data-tag='Science'>Science</span> <span class='hn-tag hn-tag--orange' data-tag='Politics'>Politics</span></div>
 <p class='hn-text-en'>Relocation of a beluga reveals the logistical, welfare, and regulatory hurdles of moving a large marine mammal across long distances, including transport arrangements, quarantine, and coordination with authorities. The story highlights the complexity of wildlife logistics in captivity.</p>
 <p class='hn-text-zh'>报道了把一头白鲸从一个地方搬运到全球其他地区所涉及的物流、福利与监管难题，包括运输安排、隔离与与监管部门的协调。凸显了圈养环境下野生动物运输的复杂性。</p>
-</div>
-</div>
-<div class='hn-card' id='story-48619434' data-tags='Finance' data-hn-time='1782053290' data-hn-score='12' data-hot-score='0.0'>
-<div class='hn-body'>
-<p class='hn-title'>(97) <a href='https://www.philadelphiafed.org/the-economy/cointegration-and-long-horizon-forecasting' target='_blank' rel='noopener noreferrer'>Cointegration and Long-Horizon Forecasting (2025)</a></p>
-<p class='hn-meta'>协整与长期预测（2025）</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 21, 2026 / 07:48 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48619434' target='_blank' rel='noopener noreferrer'>&#9650; 12</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48619434' target='_blank' rel='noopener noreferrer'>&#128172; 2</a> <span class='hn-tag hn-tag--amber' data-tag='Finance'>Finance</span></div>
-<img class='hn-img' src='https://www.philadelphiafed.org/-/media/FRBP/Assets/Images/social/frbp-logo-LI-share.jpg' data-full='https://www.philadelphiafed.org/-/media/FRBP/Assets/Images/social/frbp-logo-LI-share.jpg' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>The Philadelphia Fed paper surveys cointegration methods and their application to long-horizon forecasting, highlighting how integrating variables over time can improve predictive accuracy for macro series. It also covers practical pitfalls and computational considerations.</p>
-<p class='hn-text-zh'>费城联储的研究介绍协整方法及其在长期预测中的应用，强调将变量跨时间整合以提升宏观数据预测精度，并讨论实际应用中的陷阱与计算要点。</p>
-</div>
-</div>
-<div class='hn-card' id='story-48627283' data-tags='Show HN,Programming,Data' data-hn-time='1782116331' data-hn-score='9' data-hot-score='0.0'>
-<div class='hn-body'>
-<p class='hn-title'>(98) <a href='https://github.com/webofmarius/SQLJoiner' target='_blank' rel='noopener noreferrer'>Show HN: Graphical SQL Builder and Debugger</a></p>
-<p class='hn-meta'>Show HN：图形化 SQL 构建器与调试器</p>
-<p class='hn-meta2'><span class='hn-meta2-created'>Created: Jun 22, 2026 / 01:18 PT</span></p>
-<div class='hn-tags'><a class='hn-stat hn-stat-score' href='https://news.ycombinator.com/item?id=48627283' target='_blank' rel='noopener noreferrer'>&#9650; 9</a> <a class='hn-stat hn-stat-comments' href='https://news.ycombinator.com/item?id=48627283' target='_blank' rel='noopener noreferrer'>&#128172; 2</a> <span class='hn-tag hn-tag--green' data-tag='Show HN'>Show HN</span> <span class='hn-tag hn-tag--indigo' data-tag='Programming'>Programming</span> <span class='hn-tag hn-tag--violet' data-tag='Data'>Data</span></div>
-<img class='hn-img' src='https://opengraph.githubassets.com/145cd4887bf74d72602f9347dc87cb098a63efe9716b93dd634be2df94deec73/webofmarius/SQLJoiner' data-full='https://opengraph.githubassets.com/145cd4887bf74d72602f9347dc87cb098a63efe9716b93dd634be2df94deec73/webofmarius/SQLJoiner' alt='preview image' loading='lazy'/>
-<p class='hn-text-en'>Graphical SQL Builder and Debugger is a Show HN project that provides a visual interface for composing complex SQL queries and debugging queries. It emphasizes intuitive query construction, visual joins, and transparent execution insight for developers and DBAs.</p>
-<p class='hn-text-zh'>Show HN 项目提供一个可视化界面，用于拼接复杂SQL查询并进行调试，强调直观的查询构建、可视化连接以及对执行过程的透明洞察，方便开发者与数据库管理员使用。</p>
 </div>
 </div>
 </div>
