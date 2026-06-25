@@ -35,6 +35,14 @@ description: "Deep learning technical notes and study blog."
     <span class="note-index-keywords">GAN intuition, adversarial objectives, alternating training, generator/discriminator structure, and implementation flow.</span>
     <span class="note-index-summary">这篇关注 GAN 的核心思想：Generator 和 Discriminator 如何通过 adversarial training 相互推动。内容包括目标函数直觉、训练不稳定的原因、Generator/Discriminator 的代码结构，以及 alternating training 的实现细节。</span>
   </a>
+  <a class="note-index-card" href="/deep-learning/diffusion-study/">
+    <span class="note-index-card-head">
+      <strong>Diffusion Models 扩散模型学习</strong>
+      <time datetime="2026-06">2026.06</time>
+    </span>
+    <span class="note-index-keywords">DDPM, forward process, reverse process, ELBO, beta schedule, training loss, and sampling.</span>
+    <span class="note-index-summary">这篇笔记整理 Diffusion Models 和 DDPM 的核心流程，从 forward process 如何逐步加噪，到 reverse process 如何学习去噪分布，再展开 ELBO 推导、training loss、beta schedule 与 sampling 过程。内容更偏公式推导和直觉解释结合，适合作为生成模型笔记中 diffusion 部分的专题页。</span>
+  </a>
   <a class="note-index-card" href="/deep-learning/transformer-study/">
     <span class="note-index-card-head">
       <strong>Transformer 学习 / Transformer Study</strong>
