@@ -4,21 +4,135 @@
     "source": "https://news.ycombinator.com/",
     "api": "https://github.com/HackerNews/API",
     "count_requested": 50,
-    "count_written": 50,
-    "reused_same_day": 0,
-    "reused_cross_day": 33,
-    "new_llm_enriched": 17,
-    "scrape_time_display": "02:33, June 25, 2026 (PDT)",
+    "count_written": 74,
+    "reused_same_day": 26,
+    "reused_cross_day": 0,
+    "new_llm_enriched": 23,
+    "scrape_time_display": "09:23, June 25, 2026 (PDT)",
     "timezone": "America/Los_Angeles",
     "date_dir": "2026/06/25",
     "content_date": "2026-06-25",
-    "run_time_local": "02:33, June 25, 2026 (PDT)",
-    "run_time_utc": "2026-06-25 09:33:46 UTC",
+    "run_time_local": "09:23, June 25, 2026 (PDT)",
+    "run_time_utc": "2026-06-25 16:23:55 UTC",
     "incremental": true,
     "stories_max": 100,
-    "hot_score_time_utc": "2026-06-25 09:35:41 UTC"
+    "hot_score_time_utc": "2026-06-25 16:25:54 UTC"
   },
   "items": [
+    {
+      "title_en": "Ford rehires 350 engineers after AI fails to preserve expertise or train juniors",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-25/ford-has-been-rehiring-quality-inspectors-after-ai-fell-short",
+      "title_zh": "福特在 AI 未能保留专业知识或培训新人后重新雇用 350 名工程师",
+      "created_display": "Created: Jun 25, 2026 / 07:58 PT",
+      "image_url": null,
+      "summary_en": "Ford is rehiring about 350 engineers after AI systems didn't preserve expertise or effectively train junior staff. The episode highlights how AI can’t substitute hands-on know-how in complex manufacturing, and underscores the risk of relying on automation to transfer tacit knowledge. It also shows how shortfalls in automation can force costly backfills.",
+      "summary_zh": "福特在尝试让 AI 保留专业知识和培训新人后，重新雇用了约 350 名工程师。这一事件凸显了在复杂制造场景中，AI 无法取代人类的实际经验；同时也揭示了将隐性知识完全依赖于自动化传承的风险，以及因此产生的人力成本上升。",
+      "hn": {
+        "id": 48674446,
+        "type": "story",
+        "by": "alanwreath",
+        "score": 286,
+        "descendants": 141,
+        "time": 1782399530,
+        "comments_url": "https://news.ycombinator.com/item?id=48674446"
+      },
+      "hot_score": 30.65,
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title_en": "Show HN: I made Google Trends for Hacker News by indexing 18 years of comments",
+      "url": "https://hackernewstrends.com",
+      "title_zh": "Show HN：用 18 年评论做成 Hacker News 的 Google 趋势",
+      "created_display": "Created: Jun 25, 2026 / 07:08 PT",
+      "image_url": "https://hackernewstrends.com/opengraph-image?72011d0134607af3",
+      "summary_en": "A hobbyist built a Google Trends-style tool for Hacker News by indexing 18 years of HN comments. It lets you track topic popularity, spikes around events, and compare keywords over time. Demonstrates how public datasets can be mined for long-term trend analysis without official APIs.",
+      "summary_zh": "一位热爱者通过对 18 年 Hacker News 评论进行索引，打造了一个类似 Google Trends 的趋势分析工具。它可以追踪话题热度、事件引发的峰值，并对比不同关键词在时间轴上的变化，展示了在没有官方 API 的情况下对公开数据进行长期趋势分析的可行性。",
+      "hn": {
+        "id": 48673671,
+        "type": "story",
+        "by": "ytkimirti",
+        "score": 234,
+        "descendants": 62,
+        "time": 1782396535,
+        "comments_url": "https://news.ycombinator.com/item?id=48673671"
+      },
+      "hot_score": 16.99,
+      "tags": [
+        "Show HN",
+        "Data"
+      ]
+    },
+    {
+      "title_en": "Countries are competing to see which can carry out mass surveillance the best",
+      "url": "https://mullvad.net/en/why-privacy-matters/state-mass-surveillance",
+      "title_zh": "各国竞相展开大规模监控，看谁做得最好",
+      "created_display": "Created: Jun 25, 2026 / 06:07 PT",
+      "image_url": "https://mullvad.net/press/MullvadVPN_logo_Round_RGB_Color_positive.png",
+      "summary_en": "A Mullvad piece argues that countries are competing to deploy and expand mass surveillance capabilities, often under the banner of national security. It highlights the privacy costs, regulatory gaps, and the need for resilient privacy protections and oversight.",
+      "summary_zh": "《Mullvad》文章指出各国正在竞相扩展大规模监控能力，常以国家安全为名。文中强调隐私成本与监管缺口，以及加强隐私保护与监督的必要性。",
+      "hn": {
+        "id": 48672764,
+        "type": "story",
+        "by": "Cider9986",
+        "score": 249,
+        "descendants": 96,
+        "time": 1782392827,
+        "comments_url": "https://news.ycombinator.com/item?id=48672764"
+      },
+      "hot_score": 12.27,
+      "tags": [
+        "Privacy",
+        "Security",
+        "Politics"
+      ]
+    },
+    {
+      "title_en": "Apple increases MacBook and iPad prices by 20%",
+      "url": "https://www.ft.com/content/0f067265-2baf-4b6e-8fb2-ed56daef6f3c",
+      "title_zh": "苹果将 MacBook 与 iPad 价格大幅上调约 20%",
+      "created_display": "Created: Jun 25, 2026 / 07:37 PT",
+      "image_url": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F10ccfde3-e441-47a1-b78c-58c8d5da34c0.jpg?source=next-barrier-page",
+      "summary_en": "Apple raised prices across MacBook and iPad by about 20%, signaling ongoing pricing power as demand remains robust. The move comes amid inflationary pressures and stronger premium segments, potentially boosting margins but risking slower consumer uptake and competitiveness.",
+      "summary_zh": "苹果在 MacBook 与 iPad 上调约 20% 的价格，显示出在需求仍然强劲的环境中对定价的掌控力增强。此举可能提高毛利，但也可能抬升价格对消费意愿的影响并影响竞争力。",
+      "hn": {
+        "id": 48674096,
+        "type": "story",
+        "by": "bazzmt",
+        "score": 126,
+        "descendants": 89,
+        "time": 1782398235,
+        "comments_url": "https://news.ycombinator.com/item?id=48674096"
+      },
+      "hot_score": 11.25,
+      "tags": [
+        "Business"
+      ]
+    },
+    {
+      "title_en": "LastPass notifies users of yet another data breach",
+      "url": "https://9to5mac.com/2026/06/23/lastpass-notifies-users-of-yet-another-data-breach/",
+      "title_zh": "LastPass 再次通知用户数据泄露",
+      "created_display": "Created: Jun 25, 2026 / 03:28 PT",
+      "image_url": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2024/03/lastpass-outage.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+      "summary_en": "LastPass alerts users to another data breach, underscoring the enduring security risks in credential managers. The update reinforces the case for enabling multi-factor authentication, using device-based security keys, and adopting zero-trust practices for sensitive accounts.",
+      "summary_zh": "LastPass 再次警示用户发生数据泄露，凸显凭证管理工具持续存在的安全风险。此次更新强调开启多因素认证、使用基于设备的安全密钥，以及对敏感账户实行零信任策略的重要性。",
+      "hn": {
+        "id": 48671468,
+        "type": "story",
+        "by": "mooreds",
+        "score": 302,
+        "descendants": 137,
+        "time": 1782383296,
+        "comments_url": "https://news.ycombinator.com/item?id=48671468"
+      },
+      "tags": [
+        "Security",
+        "Privacy"
+      ],
+      "hot_score": 7.19
+    },
     {
       "title_en": "Half-Life 2 in a Browser",
       "url": "https://hl2.slqnt.dev/",
@@ -31,38 +145,108 @@
         "id": 48669534,
         "type": "story",
         "by": "panza",
-        "score": 214,
-        "descendants": 78,
+        "score": 519,
+        "descendants": 213,
         "time": 1782367204,
         "comments_url": "https://news.ycombinator.com/item?id=48669534"
       },
-      "hot_score": 9.61,
       "tags": [
         "Gaming",
+        "Web"
+      ],
+      "hot_score": 5.55
+    },
+    {
+      "title_en": "Zig's New BitCast Semantics and LLVM Back End Improvements",
+      "url": "https://ziglang.org/devlog/2026/#2026-06-25",
+      "title_zh": "Zig 的 BitCast 语义与 LLVM 后端改进",
+      "created_display": "Created: Jun 25, 2026 / 07:19 PT",
+      "image_url": null,
+      "summary_en": "The Zig language project updates BitCast semantics and LLVM backend. The changes aim to make bit-level casts safer and more predictable while improving code generation and optimization on the LLVM backend, helping Zig reach more production-grade use cases.",
+      "summary_zh": "开发团队对 Zig 的 BitCast 语义进行了更新，并对 LLVM 后端进行了改进。修改旨在让位运算强制转换更安全、行为更可预测，同时提升 LLVM 后端的代码生成和优化能力，推动 Zig 在生产环境中的应用。",
+      "hn": {
+        "id": 48673825,
+        "type": "story",
+        "by": "kouosi",
+        "score": 66,
+        "descendants": 15,
+        "time": 1782397168,
+        "comments_url": "https://news.ycombinator.com/item?id=48673825"
+      },
+      "hot_score": 5.11,
+      "tags": [
+        "Programming",
         "Web"
       ]
     },
     {
-      "title_en": "Wikipedia Workers in Britain set global first by seeking union recognition",
-      "url": "https://utaw.tech/news/wikipedia-recognition",
-      "title_zh": "英国维基百科员工寻求工会承认，成全球首例",
-      "created_display": "Created: Jun 25, 2026 / 00:02 PT",
-      "image_url": "https://utaw.tech/assets/images/utaw-color-logo.svg",
-      "summary_en": "UK Wikipedia workers are seeking union recognition, marking a global first in this context. The move signals growing momentum for labor organizing within tech-enabled knowledge platforms and could influence working conditions, pay, and remote-work policies across related organizations.",
-      "summary_zh": "英国维基百科工作人员寻求承认工会地位，成为这一领域的全球首例。此举反映出科技驱动知识平台中劳动组织的日益增长势头，可能影响工作条件、薪酬和远程工作等政策。",
+      "title_en": "Ask HN: What surprised you about Estonia e-Residency and running an Estonian OÜ?",
+      "url": "https://news.ycombinator.com/item?id=48673801",
+      "title_zh": "Ask HN：对爱沙尼亚电子居留与在爱沙尼亚注册公司有哪些惊喜？",
+      "created_display": "Created: Jun 25, 2026 / 07:17 PT",
+      "image_url": "https://news.ycombinator.com/y18.svg",
+      "summary_en": "Community responses discuss the practical realities of Estonia's e-Residency and running an Estonian OÜ, including onboarding, banking, taxation, and regulatory burdens. The thread surfaces surprising pros and cons, like ease of international business but complexities around banking and EU rules.",
+      "summary_zh": "社区讨论爱沙尼亚电子居留与在爱沙尼亚注册公司（OÜ）的实际情况，包括开户、银行、税务与监管负担等。讨论揭示了一些出人意料的利弊，例如跨境经营的便利性与银行及欧盟规则的复杂性。",
       "hn": {
-        "id": 48669932,
+        "id": 48673801,
         "type": "story",
-        "by": "chobeat",
+        "by": "jvilalta",
         "score": 64,
-        "descendants": 54,
-        "time": 1782370957,
-        "comments_url": "https://news.ycombinator.com/item?id=48669932"
+        "descendants": 53,
+        "time": 1782397046,
+        "comments_url": "https://news.ycombinator.com/item?id=48673801"
       },
-      "hot_score": 4.12,
+      "hot_score": 4.88,
       "tags": [
-        "Politics",
-        "Business"
+        "Business",
+        "Legal",
+        "Politics"
+      ]
+    },
+    {
+      "title_en": "Tell HN: OpenAI has started putting ads on paid programs",
+      "url": "https://news.ycombinator.com/item?id=48673194",
+      "title_zh": "Tell HN：OpenAI 已在付费计划中投放广告",
+      "created_display": "Created: Jun 25, 2026 / 06:37 PT",
+      "image_url": "https://news.ycombinator.com/y18.svg",
+      "summary_en": "OpenAI reportedly started showing ads in some paid programs, prompting criticism about monetization and user experience. The move raises questions about how AI companies balance revenue with value, and potential conflicts of interest.",
+      "summary_zh": "据报道，OpenAI 在部分付费计划中开始投放广告，引发关于商业化与用户体验的争议。此举将引发对 AI 公司在创收与用户价值之间平衡的质疑，以及潜在的利益冲突。",
+      "hn": {
+        "id": 48673194,
+        "type": "story",
+        "by": "shantnutiwari",
+        "score": 80,
+        "descendants": 36,
+        "time": 1782394656,
+        "comments_url": "https://news.ycombinator.com/item?id=48673194"
+      },
+      "hot_score": 4.68,
+      "tags": [
+        "Business",
+        "AI"
+      ]
+    },
+    {
+      "title_en": "Dolphin Emulator Progress Release 2606",
+      "url": "https://dolphin-emu.org/blog/2026/06/25/dolphin-progress-report-release-2606/",
+      "title_zh": "Dolphin 模拟器进展发布 2606",
+      "created_display": "Created: Jun 25, 2026 / 03:20 PT",
+      "image_url": null,
+      "summary_en": "Dolphin Emulator's 2606 progress release brings improved compatibility, performance tweaks, and bug fixes for various GameCube/Wii titles. The update highlights ongoing maintenance and community-driven progress in open-source emulation.",
+      "summary_zh": "Dolphin 模拟器 2606 版在兼容性、性能调整和若干 bug 修复方面取得进展，覆盖多款 GameCube/Wii 游戏。此更新体现了开源仿真项目的持续维护与社区驱动的进步。",
+      "hn": {
+        "id": 48671392,
+        "type": "story",
+        "by": "exploraz",
+        "score": 189,
+        "descendants": 26,
+        "time": 1782382807,
+        "comments_url": "https://news.ycombinator.com/item?id=48671392"
+      },
+      "hot_score": 4.36,
+      "tags": [
+        "Open Source",
+        "Gaming"
       ]
     },
     {
@@ -77,8 +261,8 @@
         "id": 48663324,
         "type": "story",
         "by": "jamdesk",
-        "score": 700,
-        "descendants": 392,
+        "score": 778,
+        "descendants": 447,
         "time": 1782323220,
         "comments_url": "https://news.ycombinator.com/item?id=48663324"
       },
@@ -86,30 +270,7 @@
         "Hardware",
         "AI"
       ],
-      "hot_score": 3.92
-    },
-    {
-      "title_en": "Cloudflare launched self-managed OAuth for all",
-      "url": "https://blog.cloudflare.com/oauth-for-all/",
-      "title_zh": "Cloudflare推出面向所有人的自托管OAuth",
-      "created_display": "Created: Jun 24, 2026 / 19:18 PT",
-      "image_url": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/6fEPzehWZ8mfroJDIf30mC/636b651767a7cc41dd8b4e7093490a11/OG_Share_2024-2025-2026__40_.png",
-      "summary_en": "Cloudflare announces a self-managed OAuth offering deployable on customers' own infra, enabling organizations to run their own OAuth provider without relying on Cloudflare-hosted services. This reduces vendor lock-in and lets teams apply their own security controls while preserving standard OAuth flows. It signals a trend toward more self-contained identity infrastructure in the SaaS era.",
-      "summary_zh": "Cloudflare 推出可在客户自有基础设施上部署的自托管 OAuth 方案，企业无须依赖 Cloudflare 托管的服务即可搭建自己的认证提供者。此举有助于降低对单一厂商的依赖，并让团队把安全策略掌控在自己手中，同时保持标准的 OAuth 流程。它体现了在 SaaS 时代对更自主身份基础设施的需求。",
-      "hn": {
-        "id": 48668033,
-        "type": "story",
-        "by": "terryds",
-        "score": 159,
-        "descendants": 72,
-        "time": 1782353890,
-        "comments_url": "https://news.ycombinator.com/item?id=48668033"
-      },
-      "tags": [
-        "Security",
-        "DevOps"
-      ],
-      "hot_score": 2.86
+      "hot_score": 2.43
     },
     {
       "title_en": "Anthropic says Alibaba illicitly extracted Claude AI model capabilities",
@@ -123,18 +284,64 @@
         "id": 48664814,
         "type": "story",
         "by": "htrp",
-        "score": 409,
-        "descendants": 706,
+        "score": 665,
+        "descendants": 1088,
         "time": 1782330481,
         "comments_url": "https://news.ycombinator.com/item?id=48664814"
       },
       "tags": [
         "Security",
-        "AI",
         "Legal",
+        "AI",
         "Politics"
       ],
-      "hot_score": 2.84
+      "hot_score": 2.42
+    },
+    {
+      "title_en": "Wikipedia Workers in Britain set global first by seeking union recognition",
+      "url": "https://utaw.tech/news/wikipedia-recognition",
+      "title_zh": "英国维基百科员工寻求工会承认，成全球首例",
+      "created_display": "Created: Jun 25, 2026 / 00:02 PT",
+      "image_url": "https://utaw.tech/assets/images/utaw-color-logo.svg",
+      "summary_en": "UK Wikipedia workers are seeking union recognition, marking a global first in this context. The move signals growing momentum for labor organizing within tech-enabled knowledge platforms and could influence working conditions, pay, and remote-work policies across related organizations.",
+      "summary_zh": "英国维基百科工作人员寻求承认工会地位，成为这一领域的全球首例。此举反映出科技驱动知识平台中劳动组织的日益增长势头，可能影响工作条件、薪酬和远程工作等政策。",
+      "hn": {
+        "id": 48669932,
+        "type": "story",
+        "by": "chobeat",
+        "score": 186,
+        "descendants": 172,
+        "time": 1782370957,
+        "comments_url": "https://news.ycombinator.com/item?id=48669932"
+      },
+      "tags": [
+        "Career",
+        "Legal"
+      ],
+      "hot_score": 2.32
+    },
+    {
+      "title_en": "As banks close accounts, experts point to immigration crackdown",
+      "url": "https://www.americanbanker.com/news/as-banks-close-accounts-experts-point-to-immigration-crackdown",
+      "title_zh": "银行关闭账户？专家指向移民打击",
+      "created_display": "Created: Jun 25, 2026 / 08:33 PT",
+      "image_url": "https://arizent.brightspotcdn.com/dims4/default/a84b7d6/2147483647/strip/true/crop/1020x536+0+19/resize/1200x630!/quality/90/?url=https%3A%2F%2Fsource-media-brightspot.s3.us-east-1.amazonaws.com%2F20%2F29%2F9206281f4237893c9d8e24c92a3f%2Fcfpb-complaint-data-on-debanking-16x9.png",
+      "summary_en": "Experts say bank account closures are increasingly tied to broader immigration enforcement, with banks wary of customers' residency status.",
+      "summary_zh": "专家指出，银行关闭账户与更广泛的移民执法日益相关，银行对客户居留身份保持警惕。文章强调这对移民和依赖金融服务的小型企业造成的影响，并提出对合规负担的质疑。",
+      "hn": {
+        "id": 48674968,
+        "type": "story",
+        "by": "petethomas",
+        "score": 16,
+        "descendants": 7,
+        "time": 1782401617,
+        "comments_url": "https://news.ycombinator.com/item?id=48674968"
+      },
+      "hot_score": 2.25,
+      "tags": [
+        "Politics",
+        "Finance"
+      ]
     },
     {
       "title_en": "Blogging can just be stating the obvious",
@@ -148,15 +355,83 @@
         "id": 48666927,
         "type": "story",
         "by": "Curiositry",
-        "score": 228,
-        "descendants": 80,
+        "score": 373,
+        "descendants": 112,
         "time": 1782344797,
         "comments_url": "https://news.ycombinator.com/item?id=48666927"
       },
       "tags": [
         "Culture"
       ],
-      "hot_score": 2.66
+      "hot_score": 1.92
+    },
+    {
+      "title_en": "Cloudflare launched self-managed OAuth for all",
+      "url": "https://blog.cloudflare.com/oauth-for-all/",
+      "title_zh": "Cloudflare推出面向所有人的自托管OAuth",
+      "created_display": "Created: Jun 24, 2026 / 19:18 PT",
+      "image_url": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/6fEPzehWZ8mfroJDIf30mC/636b651767a7cc41dd8b4e7093490a11/OG_Share_2024-2025-2026__40_.png",
+      "summary_en": "Cloudflare announces a self-managed OAuth offering deployable on customers' own infra, enabling organizations to run their own OAuth provider without relying on Cloudflare-hosted services. This reduces vendor lock-in and lets teams apply their own security controls while preserving standard OAuth flows. It signals a trend toward more self-contained identity infrastructure in the SaaS era.",
+      "summary_zh": "Cloudflare 推出可在客户自有基础设施上部署的自托管 OAuth 方案，企业无须依赖 Cloudflare 托管的服务即可搭建自己的认证提供者。此举有助于降低对单一厂商的依赖，并让团队把安全策略掌控在自己手中，同时保持标准的 OAuth 流程。它体现了在 SaaS 时代对更自主身份基础设施的需求。",
+      "hn": {
+        "id": 48668033,
+        "type": "story",
+        "by": "terryds",
+        "score": 288,
+        "descendants": 125,
+        "time": 1782353890,
+        "comments_url": "https://news.ycombinator.com/item?id=48668033"
+      },
+      "tags": [
+        "DevOps",
+        "Web",
+        "Security"
+      ],
+      "hot_score": 1.92
+    },
+    {
+      "title_en": "We’re making Bunny DNS free",
+      "url": "https://bunny.net/blog/were-making-bunny-dns-free/",
+      "title_zh": "Bunny DNS 免费开放",
+      "created_display": "Created: Jun 24, 2026 / 01:50 PT",
+      "image_url": "https://bunny.net/blog/content/images/2026/06/DNS_-Free-DNS-blog-post--1-.png",
+      "summary_en": "Bunny DNS announces it will make its domain name system service free, lowering the barrier for personal sites and startups to adopt fast, resilient DNS. The move could pressure competitors to offer similar free tiers and raises questions about sustainability and future monetization.",
+      "summary_zh": "Bunny DNS 将其域名解析服务免费化，降低个人站点和初创企业采用高效 DNS 的门槛。此举可能对竞争对手施压，促使行业普遍提供免费层，但也引发对未来盈利模式与可持续性的担忧。",
+      "hn": {
+        "id": 48657030,
+        "type": "story",
+        "by": "dabinat",
+        "score": 894,
+        "descendants": 264,
+        "time": 1782291041,
+        "comments_url": "https://news.ycombinator.com/item?id=48657030"
+      },
+      "tags": [
+        "Web"
+      ],
+      "hot_score": 1.6
+    },
+    {
+      "title_en": "Apple just Increased Prices: here’s what’s changed",
+      "url": "https://www.macrumors.com/2026/06/25/apple-just-increased-prices/",
+      "title_zh": "苹果再涨价：具体变化一览",
+      "created_display": "Created: Jun 25, 2026 / 05:52 PT",
+      "image_url": "https://images.macrumors.com/t/b-krbYrUDlPHGrpWjLBf-xoJXSE=/1600x/article-new/2023/09/Apple-Logo-Spotlight.jpg",
+      "summary_en": "MacRumors outlines exactly what Apple changed in its pricing, which SKUs were affected and by how much. The piece helps consumers and retailers understand the real impact of the price uptick across devices and regions.",
+      "summary_zh": "MacRumors 详细梳理了苹果价格调整的具体变化、受影响的型号及涨价幅度，帮助消费者和零售商理解此次涨价在各设备与区域上的实际影响。",
+      "hn": {
+        "id": 48672612,
+        "type": "story",
+        "by": "jaimebuelta",
+        "score": 36,
+        "descendants": 10,
+        "time": 1782391976,
+        "comments_url": "https://news.ycombinator.com/item?id=48672612"
+      },
+      "hot_score": 1.6,
+      "tags": [
+        "Business"
+      ]
     },
     {
       "title_en": "There are a few things that I look back on as my mistakes in the early days",
@@ -176,33 +451,124 @@
         "comments_url": "https://news.ycombinator.com/item?id=48661825"
       },
       "tags": [
-        "Programming",
         "Career"
       ],
-      "hot_score": 2.48
+      "hot_score": 1.45
     },
     {
-      "title_en": "We’re making Bunny DNS free",
-      "url": "https://bunny.net/blog/were-making-bunny-dns-free/",
-      "title_zh": "Bunny DNS 免费开放",
-      "created_display": "Created: Jun 24, 2026 / 01:50 PT",
-      "image_url": "https://bunny.net/blog/content/images/2026/06/DNS_-Free-DNS-blog-post--1-.png",
-      "summary_en": "Bunny DNS announces it will make its domain name system service free, lowering the barrier for personal sites and startups to adopt fast, resilient DNS. The move could pressure competitors to offer similar free tiers and raises questions about sustainability and future monetization.",
-      "summary_zh": "Bunny DNS 将其域名解析服务免费化，降低个人站点和初创企业采用高效 DNS 的门槛。此举可能对竞争对手施压，促使行业普遍提供免费层，但也引发对未来盈利模式与可持续性的担忧。",
+      "title_en": "Show HN: Turn native language audio into flashcards and shadowing practice",
+      "url": "https://lingochunk.com/try",
+      "title_zh": "Show HN：将母语音频转化为单词卡和跟读练习",
+      "created_display": "Created: Jun 25, 2026 / 04:29 PT",
+      "image_url": null,
+      "summary_en": "Lingochunk offers a tool that converts native-language audio into flashcards and shadowing prompts for language learning. It enables rapid creation of practice material from real conversations, lowering barrier to immersion.",
+      "summary_zh": "Lingochunk 提供的工具可将母语对话音频转化为单词卡和跟读练习材料，使学习者能够从真实对话中快速生成练习内容，降低沉浸式学习的门槛。",
       "hn": {
-        "id": 48657030,
+        "id": 48671886,
         "type": "story",
-        "by": "dabinat",
-        "score": 881,
-        "descendants": 261,
-        "time": 1782291041,
-        "comments_url": "https://news.ycombinator.com/item?id=48657030"
+        "by": "alder",
+        "score": 40,
+        "descendants": 21,
+        "time": 1782386953,
+        "comments_url": "https://news.ycombinator.com/item?id=48671886"
+      },
+      "hot_score": 1.19,
+      "tags": [
+        "Show HN",
+        "Education"
+      ]
+    },
+    {
+      "title_en": "LuaJIT 3.0 proposed syntax extensions",
+      "url": "https://github.com/LuaJIT/LuaJIT/issues/1475",
+      "title_zh": "LuaJIT 3.0 的语法扩展提议",
+      "created_display": "Created: Jun 24, 2026 / 17:41 PT",
+      "image_url": "https://opengraph.githubassets.com/2096f96103889846b894ebadfd63ecf0b79300e098f749b5c6f035a0fb0a6633/LuaJIT/LuaJIT/issues/1475",
+      "summary_en": "Proposed syntax extensions for LuaJIT 3.0 aim to improve ergonomics and performance, potentially adding new syntactic sugar while staying compatible. The discussion shows ongoing effort to evolve LuaJIT without sacrificing its speed-focused niche.",
+      "summary_zh": "LuaJIT 3.0 的社区提出语法扩展的提案，旨在提升可用性和性能，可能加入新的语法糖，同时保持向后兼容。这一讨论体现了在不牺牲高性能的前提下，对 LuaJIT 生态的持续演化。",
+      "hn": {
+        "id": 48667336,
+        "type": "story",
+        "by": "phreddypharkus",
+        "score": 206,
+        "descendants": 126,
+        "time": 1782348103,
+        "comments_url": "https://news.ycombinator.com/item?id=48667336"
       },
       "tags": [
-        "Startups",
-        "Business"
+        "Programming"
       ],
-      "hot_score": 2.37
+      "hot_score": 1.16
+    },
+    {
+      "title_en": "RubyLLM: A Ruby framework for all major AI providers",
+      "url": "https://rubyllm.com/",
+      "title_zh": "RubyLLM：面向所有主流 AI 提供商的 Ruby 框架",
+      "created_display": "Created: Jun 24, 2026 / 07:41 PT",
+      "image_url": "https://rubyllm.com/assets/images/og/pages/rubyllm.png",
+      "summary_en": "RubyLLM provides a unified Ruby framework for major AI providers, letting developers write provider-agnostic code and swap backends with minimal changes. The move highlights how language ecosystems are competing on developer ergonomics as AI tooling expands.",
+      "summary_zh": "RubyLLM 提供一个统一接口，让 Ruby 开发者在不同主要 AI 提供商之间切换时无需重写代码。通过消除厂商绑定，它可能加速 Ruby 在 AI 应用的落地，并反映出各语言生态在开发者体验上的竞争。",
+      "hn": {
+        "id": 48660711,
+        "type": "story",
+        "by": "doener",
+        "score": 431,
+        "descendants": 74,
+        "time": 1782312101,
+        "comments_url": "https://news.ycombinator.com/item?id=48660711"
+      },
+      "tags": [
+        "Programming",
+        "AI"
+      ],
+      "hot_score": 1.09
+    },
+    {
+      "title_en": "45°C cooling design cuts data center water use to near zero",
+      "url": "https://blogs.nvidia.com/blog/liquid-cooling-ai-factories/",
+      "title_zh": "英伟达的 45°C 冷却设计将数据中心用水量降至近零",
+      "created_display": "Created: Jun 24, 2026 / 07:10 PT",
+      "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/06/45CLiquidCooling.jpg",
+      "summary_en": "NVIDIA outlines a cooling strategy that uses 45°C water to remove heat, dramatically cutting data center water use and enabling simpler plumbing. The approach could lower OPEX for AI/data workloads and influence future data center infrastructure.",
+      "summary_zh": "英伟达介绍了一种使用 45°C 的热水进行散热的设计，显著降低数据中心的用水量并简化管路。该方案有望降低 AI/数据工作负载的数据中心运营成本，并可能影响未来的基础设施设计。",
+      "hn": {
+        "id": 48660178,
+        "type": "story",
+        "by": "nitin_flanker",
+        "score": 436,
+        "descendants": 372,
+        "time": 1782310211,
+        "comments_url": "https://news.ycombinator.com/item?id=48660178"
+      },
+      "tags": [
+        "Energy",
+        "AI",
+        "DevOps"
+      ],
+      "hot_score": 1.06
+    },
+    {
+      "title_en": "Windows 10 quietly gets one more year of support and updates",
+      "url": "https://www.neowin.net/news/windows-10-quietly-gets-one-more-year-of-support-and-updates/",
+      "title_zh": "Windows 10 静默再获得一年支持与更新",
+      "created_display": "Created: Jun 25, 2026 / 08:59 PT",
+      "image_url": "https://cdn.neowin.com/news/images/uploaded/2025/06/1750766875_windows_10_story.webp",
+      "summary_en": "Microsoft extends Windows 10 support by another year, meaning ongoing security updates and bug fixes despite Windows 11's dominance.",
+      "summary_zh": "微软宣布 Windows 10 将再获一年官方支持与更新，尽管 Windows 11 处于主导地位，仍可获得安全更新与错误修复。",
+      "hn": {
+        "id": 48675369,
+        "type": "story",
+        "by": "bundie",
+        "score": 6,
+        "descendants": 1,
+        "time": 1782403194,
+        "comments_url": "https://news.ycombinator.com/item?id=48675369"
+      },
+      "hot_score": 1.01,
+      "tags": [
+        "Business",
+        "Security"
+      ]
     },
     {
       "title_en": "Ending respiratory infections",
@@ -225,52 +591,80 @@
         "Health",
         "Privacy"
       ],
-      "hot_score": 2.37
+      "hot_score": 0.95
     },
     {
-      "title_en": "LuaJIT 3.0 proposed syntax extensions",
-      "url": "https://github.com/LuaJIT/LuaJIT/issues/1475",
-      "title_zh": "LuaJIT 3.0 的语法扩展提议",
-      "created_display": "Created: Jun 24, 2026 / 17:41 PT",
-      "image_url": "https://opengraph.githubassets.com/2096f96103889846b894ebadfd63ecf0b79300e098f749b5c6f035a0fb0a6633/LuaJIT/LuaJIT/issues/1475",
-      "summary_en": "Proposed syntax extensions for LuaJIT 3.0 aim to improve ergonomics and performance, potentially adding new syntactic sugar while staying compatible. The discussion shows ongoing effort to evolve LuaJIT without sacrificing its speed-focused niche.",
-      "summary_zh": "LuaJIT 3.0 的社区提出语法扩展的提案，旨在提升可用性和性能，可能加入新的语法糖，同时保持向后兼容。这一讨论体现了在不牺牲高性能的前提下，对 LuaJIT 生态的持续演化。",
-      "hn": {
-        "id": 48667336,
-        "type": "story",
-        "by": "phreddypharkus",
-        "score": 155,
-        "descendants": 87,
-        "time": 1782348103,
-        "comments_url": "https://news.ycombinator.com/item?id=48667336"
-      },
-      "tags": [
-        "Programming"
-      ],
-      "hot_score": 2.09
-    },
-    {
-      "title_en": "Zombie unicorns are haunting Silicon Valley",
-      "url": "https://www.economist.com/business/2026/06/21/zombie-unicorns-are-haunting-silicon-valley",
-      "title_zh": "僵尸独角兽正在困扰硅谷",
-      "created_display": "Created: Jun 24, 2026 / 19:16 PT",
+      "title_en": "SoftBank 2026 AGM [pdf]",
+      "url": "https://group.softbank/media/Project/sbg/sbg/pdf/ir/investors/shareholders/2026/shareholders-meeting_46_05_en.pdf",
+      "title_zh": "软银 2026 年股东大会材料（PDF）",
+      "created_display": "Created: Jun 25, 2026 / 05:42 PT",
       "image_url": null,
-      "summary_en": "Zombie unicorns refer to startups that retain billion-dollar valuations while burning cash and showing weak fundamentals, propped up by a late-stage funding appetite. The piece argues this dynamic distorts capital markets and may force a reckoning in Silicon Valley as funding conditions tighten.",
-      "summary_zh": "所谓‘僵尸独角兽’指在资金持续支撑下仍维持十亿美元级估值、但基本面薄弱的初创企业。此现象扭曲资本市场，随着融资环境收紧，硅谷可能面临重新定价与投资谨慎的局面。",
+      "summary_en": "SoftBank released its 2026 AGM materials, outlining strategy and performance across the group. The document highlights how SoftBank plans to manage the Vision Fund, AI bets, and portfolio diversification, with emphasis on growth sectors and financial discipline.",
+      "summary_zh": "SoftBank 公布了 2026 年股东大会材料，概述集团层面的战略与业绩。材料聚焦 Vision Fund 的投资方向、对 AI 领域的布局，以及投资组合的多元化与财务纪律。",
       "hn": {
-        "id": 48668020,
+        "id": 48672506,
         "type": "story",
-        "by": "andsoitis",
-        "score": 98,
-        "descendants": 47,
-        "time": 1782353775,
-        "comments_url": "https://news.ycombinator.com/item?id=48668020"
+        "by": "dmmalam",
+        "score": 23,
+        "descendants": 7,
+        "time": 1782391375,
+        "comments_url": "https://news.ycombinator.com/item?id=48672506"
       },
+      "hot_score": 0.95,
       "tags": [
+        "AI",
         "Business",
         "Finance"
+      ]
+    },
+    {
+      "title_en": "The Xteink X4 E-Ink Reader",
+      "url": "https://blog.omgmog.net/post/xteink-x4-e-ink-reader/",
+      "title_zh": "The Xteink X4 电子墨水阅读器",
+      "created_display": "Created: Jun 24, 2026 / 09:35 PT",
+      "image_url": "https://blog.omgmog.net/assets/ogimage-generic.png",
+      "summary_en": "Xteink's new X4 e-ink reader aims to deliver improved contrast and usability for long-form reading, with low power consumption and potential note-taking features. It exemplifies ongoing viability and breadth of e-ink devices in a market increasingly dominated by tablets.",
+      "summary_zh": "Xteink 的新款 X4 电子墨水阅读器致力于提升对比度与可读性，兼具低功耗与潜在的笔记功能，展示了电子纸设备在平板主导的市场中的持续可行性与广度。",
+      "hn": {
+        "id": 48662381,
+        "type": "story",
+        "by": "felixdoerp",
+        "score": 292,
+        "descendants": 176,
+        "time": 1782318956,
+        "comments_url": "https://news.ycombinator.com/item?id=48662381"
+      },
+      "tags": [
+        "Hardware",
+        "Design"
       ],
-      "hot_score": 1.74
+      "hot_score": 0.84
+    },
+    {
+      "title_en": "Medical students are using popular research tool to pump out misleading studies",
+      "url": "https://www.science.org/content/article/medical-students-are-using-popular-research-tool-pump-out-misleading-studies",
+      "title_zh": "医学生利用热门研究工具炮制误导性研究",
+      "created_display": "Created: Jun 24, 2026 / 19:30 PT",
+      "image_url": null,
+      "summary_en": "Medical students are allegedly using a popular research tool to generate misleading studies, exposing vulnerabilities in how easily AI-assisted or automated tools can distort medical literature. The incident underscores the need for stronger verification, education, and safeguards in research workflows.",
+      "summary_zh": "据称医学生在流行的研究工具中快速生成误导性研究，暴露了 AI 辅助工具对医学文献造成扭曲的风险。此事强调需要加强核查、教育与研究工作流中的安全防护。",
+      "hn": {
+        "id": 48668119,
+        "type": "story",
+        "by": "rndsignals",
+        "score": 124,
+        "descendants": 71,
+        "time": 1782354618,
+        "comments_url": "https://news.ycombinator.com/item?id=48668119"
+      },
+      "tags": [
+        "AI",
+        "Science",
+        "Security",
+        "Health",
+        "Education"
+      ],
+      "hot_score": 0.84
     },
     {
       "title_en": "Elastic lays off 7% of employees",
@@ -290,105 +684,10 @@
         "comments_url": "https://news.ycombinator.com/item?id=48666100"
       },
       "tags": [
-        "Business"
+        "Business",
+        "Career"
       ],
-      "hot_score": 1.7
-    },
-    {
-      "title_en": "RubyLLM: A Ruby framework for all major AI providers",
-      "url": "https://rubyllm.com/",
-      "title_zh": "RubyLLM：面向所有主流 AI 提供商的 Ruby 框架",
-      "created_display": "Created: Jun 24, 2026 / 07:41 PT",
-      "image_url": "https://rubyllm.com/assets/images/og/pages/rubyllm.png",
-      "summary_en": "RubyLLM provides a unified Ruby framework for major AI providers, letting developers write provider-agnostic code and swap backends with minimal changes. The move highlights how language ecosystems are competing on developer ergonomics as AI tooling expands.",
-      "summary_zh": "RubyLLM 提供一个统一接口，让 Ruby 开发者在不同主要 AI 提供商之间切换时无需重写代码。通过消除厂商绑定，它可能加速 Ruby 在 AI 应用的落地，并反映出各语言生态在开发者体验上的竞争。",
-      "hn": {
-        "id": 48660711,
-        "type": "story",
-        "by": "doener",
-        "score": 387,
-        "descendants": 68,
-        "time": 1782312101,
-        "comments_url": "https://news.ycombinator.com/item?id=48660711"
-      },
-      "tags": [
-        "Programming",
-        "AI",
-        "Open Source"
-      ],
-      "hot_score": 1.62
-    },
-    {
-      "title_en": "45°C cooling design cuts data center water use to near zero",
-      "url": "https://blogs.nvidia.com/blog/liquid-cooling-ai-factories/",
-      "title_zh": "英伟达的 45°C 冷却设计将数据中心用水量降至近零",
-      "created_display": "Created: Jun 24, 2026 / 07:10 PT",
-      "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/06/45CLiquidCooling.jpg",
-      "summary_en": "NVIDIA outlines a cooling strategy that uses 45°C water to remove heat, dramatically cutting data center water use and enabling simpler plumbing. The approach could lower OPEX for AI/data workloads and influence future data center infrastructure.",
-      "summary_zh": "英伟达介绍了一种使用 45°C 的热水进行散热的设计，显著降低数据中心的用水量并简化管路。该方案有望降低 AI/数据工作负载的数据中心运营成本，并可能影响未来的基础设施设计。",
-      "hn": {
-        "id": 48660178,
-        "type": "story",
-        "by": "nitin_flanker",
-        "score": 328,
-        "descendants": 219,
-        "time": 1782310211,
-        "comments_url": "https://news.ycombinator.com/item?id=48660178"
-      },
-      "tags": [
-        "Hardware",
-        "Energy",
-        "AI",
-        "DevOps"
-      ],
-      "hot_score": 1.31
-    },
-    {
-      "title_en": "The Unbearable Cheapness of Open Weight Models",
-      "url": "https://jamesoclaire.com/2026/06/25/the-unbearable-cheapness-of-open-weight-models/",
-      "title_zh": "开源权重模型的难以承受的便宜",
-      "created_display": "Created: Jun 24, 2026 / 19:51 PT",
-      "image_url": "https://jamesoclaire.com/wp-content/uploads/2026/06/Screenshot-From-2026-06-25-10-14-52-850x291.png",
-      "summary_en": "The Unbearable Cheapness of Open Weight Models argues that while open-weight LLMs dramatically reduce runtime API costs and vendor lock-in, there are hidden costs in compute, energy, governance, and safety. Open weights enable experimentation but shift responsibility to maintain and secure models.",
-      "summary_zh": "《开源权重模型的难以承受的便宜》指出，开源权重模型虽然显著降低运行成本和对供应商的依赖，但也带来计算、能耗、治理与安全等隐性成本。开放权重促成更多实验，却把维护与安全责任转移到用户端。",
-      "hn": {
-        "id": 48668255,
-        "type": "story",
-        "by": "ddxv",
-        "score": 65,
-        "descendants": 45,
-        "time": 1782355889,
-        "comments_url": "https://news.ycombinator.com/item?id=48668255"
-      },
-      "hot_score": 1.29,
-      "tags": [
-        "AI",
-        "Open Source",
-        "Energy"
-      ]
-    },
-    {
-      "title_en": "The Xteink X4 E-Ink Reader",
-      "url": "https://blog.omgmog.net/post/xteink-x4-e-ink-reader/",
-      "title_zh": "The Xteink X4 电子墨水阅读器",
-      "created_display": "Created: Jun 24, 2026 / 09:35 PT",
-      "image_url": "https://blog.omgmog.net/assets/ogimage-generic.png",
-      "summary_en": "Xteink's new X4 e-ink reader aims to deliver improved contrast and usability for long-form reading, with low power consumption and potential note-taking features. It exemplifies ongoing viability and breadth of e-ink devices in a market increasingly dominated by tablets.",
-      "summary_zh": "Xteink 的新款 X4 电子墨水阅读器致力于提升对比度与可读性，兼具低功耗与潜在的笔记功能，展示了电子纸设备在平板主导的市场中的持续可行性与广度。",
-      "hn": {
-        "id": 48662381,
-        "type": "story",
-        "by": "felixdoerp",
-        "score": 249,
-        "descendants": 140,
-        "time": 1782318956,
-        "comments_url": "https://news.ycombinator.com/item?id=48662381"
-      },
-      "tags": [
-        "Hardware",
-        "Design"
-      ],
-      "hot_score": 1.24
+      "hot_score": 0.82
     },
     {
       "title_en": "Computer use in Gemini 3.5 Flash",
@@ -402,17 +701,65 @@
         "id": 48662999,
         "type": "story",
         "by": "swolpers",
-        "score": 217,
-        "descendants": 138,
+        "score": 236,
+        "descendants": 158,
         "time": 1782321694,
         "comments_url": "https://news.ycombinator.com/item?id=48662999"
       },
       "tags": [
         "AI",
-        "Privacy",
-        "Security"
+        "Security",
+        "Privacy"
       ],
-      "hot_score": 1.16
+      "hot_score": 0.71
+    },
+    {
+      "title_en": "Zombie unicorns are haunting Silicon Valley",
+      "url": "https://www.economist.com/business/2026/06/21/zombie-unicorns-are-haunting-silicon-valley",
+      "title_zh": "僵尸独角兽正在困扰硅谷",
+      "created_display": "Created: Jun 24, 2026 / 19:16 PT",
+      "image_url": null,
+      "summary_en": "Zombie unicorns refer to startups that retain billion-dollar valuations while burning cash and showing weak fundamentals, propped up by a late-stage funding appetite. The piece argues this dynamic distorts capital markets and may force a reckoning in Silicon Valley as funding conditions tighten.",
+      "summary_zh": "所谓‘僵尸独角兽’指在资金持续支撑下仍维持十亿美元级估值、但基本面薄弱的初创企业。此现象扭曲资本市场，随着融资环境收紧，硅谷可能面临重新定价与投资谨慎的局面。",
+      "hn": {
+        "id": 48668020,
+        "type": "story",
+        "by": "andsoitis",
+        "score": 98,
+        "descendants": 47,
+        "time": 1782353775,
+        "comments_url": "https://news.ycombinator.com/item?id=48668020"
+      },
+      "tags": [
+        "Startups",
+        "Business"
+      ],
+      "hot_score": 0.65
+    },
+    {
+      "title_en": "Show HN: Secs-man, a secrets manager you can (not) rely on",
+      "url": "https://github.com/Fran314/secrets-manager-rs",
+      "title_zh": "Show HN：Secs-man——一个你不能（也不应）依赖的密钥管理器",
+      "created_display": "Created: Jun 25, 2026 / 05:30 PT",
+      "image_url": "https://opengraph.githubassets.com/69f0a604850e54695e2c8b55ba70d1cc5ffa024a70e72c10e1567eb0c0242d58/Fran314/secrets-manager-rs",
+      "summary_en": "Secs-man is a Rust-based secrets manager designed as a cautionary example about the fragility of secrets handling. It surface flaws and risk scenarios to help developers think more critically about security, auditability, and supply chain.",
+      "summary_zh": "Secs-man 是一个用 Rust 编写的秘密管理器，作为对秘密管理脆弱性的警示性示例。它揭示了潜在缺陷与风险情景，促使开发者在安全性、可审计性以及供应链方面进行更细致的思考。",
+      "hn": {
+        "id": 48672389,
+        "type": "story",
+        "by": "Fran314",
+        "score": 17,
+        "descendants": 12,
+        "time": 1782390636,
+        "comments_url": "https://news.ycombinator.com/item?id=48672389"
+      },
+      "hot_score": 0.65,
+      "tags": [
+        "Show HN",
+        "Security",
+        "Open Source",
+        "Programming"
+      ]
     },
     {
       "title_en": "Show HN: Nub – A Bun-like all-in-one toolkit for Node.js",
@@ -426,42 +773,17 @@
         "id": 48660267,
         "type": "story",
         "by": "colinmcd",
-        "score": 240,
-        "descendants": 66,
+        "score": 260,
+        "descendants": 73,
         "time": 1782310458,
         "comments_url": "https://news.ycombinator.com/item?id=48660267"
       },
       "tags": [
         "Show HN",
-        "Programming"
+        "Programming",
+        "Open Source"
       ],
-      "hot_score": 0.97
-    },
-    {
-      "title_en": "Medical students are using popular research tool to pump out misleading studies",
-      "url": "https://www.science.org/content/article/medical-students-are-using-popular-research-tool-pump-out-misleading-studies",
-      "title_zh": "医学生利用热门研究工具炮制误导性研究",
-      "created_display": "Created: Jun 24, 2026 / 19:30 PT",
-      "image_url": null,
-      "summary_en": "Medical students are allegedly using a popular research tool to generate misleading studies, exposing vulnerabilities in how easily AI-assisted or automated tools can distort medical literature. The incident underscores the need for stronger verification, education, and safeguards in research workflows.",
-      "summary_zh": "据称医学生在流行的研究工具中快速生成误导性研究，暴露了 AI 辅助工具对医学文献造成扭曲的风险。此事强调需要加强核查、教育与研究工作流中的安全防护。",
-      "hn": {
-        "id": 48668119,
-        "type": "story",
-        "by": "rndsignals",
-        "score": 51,
-        "descendants": 25,
-        "time": 1782354618,
-        "comments_url": "https://news.ycombinator.com/item?id=48668119"
-      },
-      "hot_score": 0.94,
-      "tags": [
-        "Science",
-        "Education",
-        "AI",
-        "Security",
-        "Health"
-      ]
+      "hot_score": 0.64
     },
     {
       "title_en": "PR spam today looks like email spam in the early 2000s",
@@ -475,8 +797,8 @@
         "id": 48660579,
         "type": "story",
         "by": "dakshgupta",
-        "score": 220,
-        "descendants": 129,
+        "score": 249,
+        "descendants": 145,
         "time": 1782311532,
         "comments_url": "https://news.ycombinator.com/item?id=48660579"
       },
@@ -484,7 +806,32 @@
         "Business",
         "Culture"
       ],
-      "hot_score": 0.91
+      "hot_score": 0.62
+    },
+    {
+      "title_en": "Qualcomm to Acquire Modular",
+      "url": "https://www.reuters.com/business/qualcomm-buy-ai-startup-modular-2026-06-24/",
+      "title_zh": "高通将收购 Modular",
+      "created_display": "Created: Jun 24, 2026 / 06:49 PT",
+      "image_url": null,
+      "summary_en": "Qualcomm plans to acquire Modular, an AI startup focused on modular software for on-device or edge AI. The deal expands Qualcomm's AI software and hardware stack, aiming to boost on-device inference and system integration. It underscores a trend of chipmakers consolidating to offer end-to-end edge AI solutions.",
+      "summary_zh": "高通计划收购专注于在设备端运行的模组化 AI 软件的初创公司 Modular。此次交易扩展了高通在 AI 软件与硬件的整合能力，旨在提升设备端推理性能和系统协同。此举反映芯片厂商在边缘 AI 解决方案上的并购整合趋势。",
+      "hn": {
+        "id": 48659798,
+        "type": "story",
+        "by": "timmyd",
+        "score": 229,
+        "descendants": 87,
+        "time": 1782308956,
+        "comments_url": "https://news.ycombinator.com/item?id=48659798"
+      },
+      "tags": [
+        "AI",
+        "Business",
+        "Hardware",
+        "Startups"
+      ],
+      "hot_score": 0.54
     },
     {
       "title_en": "Stealing Is a Skill",
@@ -504,56 +851,33 @@
         "comments_url": "https://news.ycombinator.com/item?id=48659165"
       },
       "tags": [
-        "Security"
-      ],
-      "hot_score": 0.85
-    },
-    {
-      "title_en": "Qualcomm to Acquire Modular",
-      "url": "https://www.reuters.com/business/qualcomm-buy-ai-startup-modular-2026-06-24/",
-      "title_zh": "高通将收购 Modular",
-      "created_display": "Created: Jun 24, 2026 / 06:49 PT",
-      "image_url": null,
-      "summary_en": "Qualcomm plans to acquire Modular, an AI startup focused on modular software for on-device or edge AI. The deal expands Qualcomm's AI software and hardware stack, aiming to boost on-device inference and system integration. It underscores a trend of chipmakers consolidating to offer end-to-end edge AI solutions.",
-      "summary_zh": "高通计划收购专注于在设备端运行的模组化 AI 软件的初创公司 Modular。此次交易扩展了高通在 AI 软件与硬件的整合能力，旨在提升设备端推理性能和系统协同。此举反映芯片厂商在边缘 AI 解决方案上的并购整合趋势。",
-      "hn": {
-        "id": 48659798,
-        "type": "story",
-        "by": "timmyd",
-        "score": 197,
-        "descendants": 65,
-        "time": 1782308956,
-        "comments_url": "https://news.ycombinator.com/item?id=48659798"
-      },
-      "tags": [
-        "Business",
-        "Startups",
-        "AI",
-        "Hardware"
-      ],
-      "hot_score": 0.77
-    },
-    {
-      "title_en": "Aisle Discovers 6 New CVEs in Curl, Including the Oldest Issue Ever Reported",
-      "url": "https://aisle.com/blog/aisle-discovers-6-new-cves-in-curl-including-the-oldest-issue-ever-reported",
-      "title_zh": "Aisle 发现 Curl 的六个新 CVE，其中包含史上最早的问题",
-      "created_display": "Created: Jun 25, 2026 / 01:07 PT",
-      "image_url": null,
-      "summary_en": "Aisle discovers six new CVEs in curl, including an issue reportedly the oldest ever recorded. The disclosure highlights the ongoing need to patch foundational libraries and the challenges of maintaining security across broad-dependency ecosystems.",
-      "summary_zh": "Aisle 发现 Curl 的六个新 CVE，其中还包括被认为是有史以来最早的漏洞。这一披露凸显了对基础库持续打补丁的需求，以及维护庞大依赖生态系统安全的挑战。",
-      "hn": {
-        "id": 48670411,
-        "type": "story",
-        "by": "ragebol",
-        "score": 8,
-        "descendants": 0,
-        "time": 1782374874,
-        "comments_url": "https://news.ycombinator.com/item?id=48670411"
-      },
-      "hot_score": 0.75,
-      "tags": [
         "Security",
-        "Open Source"
+        "Education"
+      ],
+      "hot_score": 0.53
+    },
+    {
+      "title_en": "The Unbearable Cheapness of Open Weight Models",
+      "url": "https://jamesoclaire.com/2026/06/25/the-unbearable-cheapness-of-open-weight-models/",
+      "title_zh": "开源权重模型的难以承受的便宜",
+      "created_display": "Created: Jun 24, 2026 / 19:51 PT",
+      "image_url": "https://jamesoclaire.com/wp-content/uploads/2026/06/Screenshot-From-2026-06-25-10-14-52-850x291.png",
+      "summary_en": "The Unbearable Cheapness of Open Weight Models argues that while open-weight LLMs dramatically reduce runtime API costs and vendor lock-in, there are hidden costs in compute, energy, governance, and safety. Open weights enable experimentation but shift responsibility to maintain and secure models.",
+      "summary_zh": "《开源权重模型的难以承受的便宜》指出，开源权重模型虽然显著降低运行成本和对供应商的依赖，但也带来计算、能耗、治理与安全等隐性成本。开放权重促成更多实验，却把维护与安全责任转移到用户端。",
+      "hn": {
+        "id": 48668255,
+        "type": "story",
+        "by": "ddxv",
+        "score": 65,
+        "descendants": 45,
+        "time": 1782355889,
+        "comments_url": "https://news.ycombinator.com/item?id=48668255"
+      },
+      "hot_score": 0.46,
+      "tags": [
+        "AI",
+        "Open Source",
+        "Energy"
       ]
     },
     {
@@ -568,8 +892,8 @@
         "id": 48667560,
         "type": "story",
         "by": "doppioandante",
-        "score": 49,
-        "descendants": 18,
+        "score": 60,
+        "descendants": 40,
         "time": 1782349870,
         "comments_url": "https://news.ycombinator.com/item?id=48667560"
       },
@@ -577,7 +901,53 @@
         "Programming",
         "Design"
       ],
-      "hot_score": 0.71
+      "hot_score": 0.35
+    },
+    {
+      "title_en": "Krea 2: SOTA open-weights 12B image model",
+      "url": "https://www.krea.ai/blog/krea-2-technical-report",
+      "title_zh": "Krea 2：12B 开源权重的图像模型达到 SOTA",
+      "created_display": "Created: Jun 23, 2026 / 08:31 PT",
+      "image_url": "https://s.krea.ai/blog-posts/krea-2-technical-report/agent/1782227962641-krea2-hero-new.jpg",
+      "summary_en": "Krea 2 releases an open-weight 12B image model that achieves state-of-the-art results on several benchmarks. The open weights lower barriers to experimentation and allow researchers and startups to fine-tune and deploy more freely. The development underscores the rapid progress and growing impact of open-model ecosystems.",
+      "summary_zh": "Krea 2 发布了具开源权重的 12B 图像模型，在多个基准上达到最新性能。开源权重降低了实验门槛，研究人员和初创企业可以更自由地微调与部署。该进展凸显了开放模型生态的快速成长及影响力。",
+      "hn": {
+        "id": 48646659,
+        "type": "story",
+        "by": "mattnewton",
+        "score": 406,
+        "descendants": 44,
+        "time": 1782228681,
+        "comments_url": "https://news.ycombinator.com/item?id=48646659"
+      },
+      "tags": [
+        "AI",
+        "Open Source"
+      ],
+      "hot_score": 0.34
+    },
+    {
+      "title_en": "You can't unit test for taste",
+      "url": "https://dev.karltryggvason.com/you-cant-unit-test-for-taste/",
+      "title_zh": "你不能用单元测试来评估口味",
+      "created_display": "Created: Jun 24, 2026 / 01:54 PT",
+      "image_url": "https://dev.karltryggvason.com/you-cant-unit-test-for-taste/itlr-poi-screenshot.png",
+      "summary_en": "A provocative take arguing that taste is subjective and utterly not amenable to unit tests. The piece suggests focusing on objective signals and user outcomes instead of chasing 'favorable' taste in software design, as taste evolves with context.",
+      "summary_zh": "文章直指口味本质的主观性，认为无法通过单元测试来衡量。作者建议在软件设计中以客观信号和用户实际效果为核心，而不是去追求所谓的“好口味”，因为口味会随情境改变。",
+      "hn": {
+        "id": 48657049,
+        "type": "story",
+        "by": "kalli",
+        "score": 151,
+        "descendants": 63,
+        "time": 1782291252,
+        "comments_url": "https://news.ycombinator.com/item?id=48657049"
+      },
+      "hot_score": 0.27,
+      "tags": [
+        "Programming",
+        "Design"
+      ]
     },
     {
       "title_en": "Running Windows Games on a Hobby OS with Wine",
@@ -597,57 +967,34 @@
         "comments_url": "https://news.ycombinator.com/item?id=48660671"
       },
       "tags": [
-        "Gaming",
         "Open Source",
+        "Gaming",
         "Hardware"
       ],
-      "hot_score": 0.43
+      "hot_score": 0.26
     },
     {
-      "title_en": "What I'm Finding About LLM Code Style and Token Costs",
-      "url": "https://www.jimmont.com/llm-style-token-costs",
-      "title_zh": "我在 LLM 代码风格与令牌成本方面的发现",
-      "created_display": "Created: Jun 24, 2026 / 17:52 PT",
-      "image_url": null,
-      "summary_en": "What I'm Finding About LLM Code Style and Token Costs discusses observations about code style in LLM-generated code and the token costs associated with generating or editing code. It offers tips for writing prompts, caching results, and structuring code to reduce tokens while preserving readability and correctness.",
-      "summary_zh": "记录了在使用大语言模型生成代码时对风格的一些观察以及与令牌成本相关的经验。给出将风格标准化、精简提示和重复代码以降低令牌数量的实用建议。",
+      "title_en": "The A.I.-Design Aesthetic That's Taking over the Internet",
+      "url": "https://www.newyorker.com/culture/infinite-scroll/the-ai-design-aesthetic-thats-taking-over-the-internet",
+      "title_zh": "席卷全网的人工智能设计美学",
+      "created_display": "Created: Jun 25, 2026 / 03:59 PT",
+      "image_url": "https://media.newyorker.com/photos/6a3ae16b5eec11497a6c6242/16:9/w_1280,c_limit/NewYorker_ClaudeWebDesign_final2%20(5)%20(1).jpg",
+      "summary_en": "The New Yorker article argues that an AI-driven design aesthetic—with vibrant gradients, abstract shapes, and machine-generated textures—has become ubiquitous online. It analyzes how this aesthetic shapes interfaces, branding, and user expectations, for better or worse.",
+      "summary_zh": "《纽约客》指出，AI 驱动的设计美学正普遍渗透网络，以鲜艳渐变、抽象形状和机器生成纹理为特征。文章分析了这一美学如何影响界面设计、品牌形象与用户期望，其利弊各有侧重。",
       "hn": {
-        "id": 48667409,
+        "id": 48671684,
         "type": "story",
-        "by": "jimmont",
-        "score": 32,
-        "descendants": 12,
-        "time": 1782348760,
-        "comments_url": "https://news.ycombinator.com/item?id=48667409"
+        "by": "Michelangelo11",
+        "score": 10,
+        "descendants": 4,
+        "time": 1782385179,
+        "comments_url": "https://news.ycombinator.com/item?id=48671684"
       },
-      "hot_score": 0.43,
+      "hot_score": 0.24,
       "tags": [
         "AI",
-        "Programming"
+        "Design"
       ]
-    },
-    {
-      "title_en": "Krea 2: SOTA open-weights 12B image model",
-      "url": "https://www.krea.ai/blog/krea-2-technical-report",
-      "title_zh": "Krea 2：12B 开源权重的图像模型达到 SOTA",
-      "created_display": "Created: Jun 23, 2026 / 08:31 PT",
-      "image_url": "https://s.krea.ai/blog-posts/krea-2-technical-report/agent/1782227962641-krea2-hero-new.jpg",
-      "summary_en": "Krea 2 releases an open-weight 12B image model that achieves state-of-the-art results on several benchmarks. The open weights lower barriers to experimentation and allow researchers and startups to fine-tune and deploy more freely. The development underscores the rapid progress and growing impact of open-model ecosystems.",
-      "summary_zh": "Krea 2 发布了具开源权重的 12B 图像模型，在多个基准上达到最新性能。开源权重降低了实验门槛，研究人员和初创企业可以更自由地微调与部署。该进展凸显了开放模型生态的快速成长及影响力。",
-      "hn": {
-        "id": 48646659,
-        "type": "story",
-        "by": "mattnewton",
-        "score": 380,
-        "descendants": 41,
-        "time": 1782228681,
-        "comments_url": "https://news.ycombinator.com/item?id=48646659"
-      },
-      "tags": [
-        "AI",
-        "Open Source"
-      ],
-      "hot_score": 0.42
     },
     {
       "title_en": "Exploiting vulnerabilities in Johnson and Johnson web apps",
@@ -670,7 +1017,7 @@
         "Security",
         "Health"
       ],
-      "hot_score": 0.41
+      "hot_score": 0.23
     },
     {
       "title_en": "Zero-Downtime Deployments with Docker Compose – No Kubernetes Required",
@@ -693,28 +1040,52 @@
         "DevOps",
         "Health"
       ],
-      "hot_score": 0.39
+      "hot_score": 0.2
     },
     {
-      "title_en": "AWS Lambda Introduces MicroVMs",
-      "url": "https://aws.amazon.com/blogs/aws/run-isolated-sandboxes-with-full-lifecycle-control-aws-lambda-introduces-microvms/",
-      "title_zh": "AWS Lambda 推出 MicroVMs",
-      "created_display": "Created: Jun 25, 2026 / 01:57 PT",
-      "image_url": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/06/22/AdobeStock_44802230-1260x630.jpeg",
-      "summary_en": "AWS Lambda now supports MicroVMs, providing isolated sandboxes with full lifecycle control for serverless workloads. The move could improve security, performance predictability, and allow user-custom runtimes, marking a step toward more flexible serverless architectures.",
-      "summary_zh": "AWS Lambda 推出 MicroVMs，提供具备完整生命周期控制的隔离沙箱，用于无服务器工作负载。此举有望提升安全性、性能可预测性，并支持自定义运行时。",
+      "title_en": "GLM-5.2 is a step change for open agents",
+      "url": "https://www.interconnects.ai/p/glm-52-is-the-step-change-for-open",
+      "title_zh": "GLM-5.2：开放代理的质变",
+      "created_display": "Created: Jun 22, 2026 / 20:23 PT",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!Of7h!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F267cdc82-6fbc-4f68-bcba-160091396dfd_3182x1790.png",
+      "summary_en": "GLM-5.2 represents a significant leap for open AI agents, improving reasoning, planning, and tool-use capabilities in open-weight models. This advancement lowers the barrier to building capable open agents and accelerates community experimentation and innovation.",
+      "summary_zh": "GLM-5.2 对开放代理来说是一次显著跃升，提升了推理、计划和工具使用能力的开放模型。这一进步降低了构建强大开放代理的门槛，推动社区在实验与创新方面的进展。",
       "hn": {
-        "id": 48670836,
+        "id": 48639840,
         "type": "story",
-        "by": "root-parent",
-        "score": 3,
-        "descendants": 0,
-        "time": 1782377836,
-        "comments_url": "https://news.ycombinator.com/item?id=48670836"
+        "by": "vantareed",
+        "score": 334,
+        "descendants": 190,
+        "time": 1782185008,
+        "comments_url": "https://news.ycombinator.com/item?id=48639840"
       },
-      "hot_score": 0.35,
       "tags": [
-        "Security"
+        "AI",
+        "Open Source"
+      ],
+      "hot_score": 0.19
+    },
+    {
+      "title_en": "What I'm Finding About LLM Code Style and Token Costs",
+      "url": "https://www.jimmont.com/llm-style-token-costs",
+      "title_zh": "我在 LLM 代码风格与令牌成本方面的发现",
+      "created_display": "Created: Jun 24, 2026 / 17:52 PT",
+      "image_url": null,
+      "summary_en": "What I'm Finding About LLM Code Style and Token Costs discusses observations about code style in LLM-generated code and the token costs associated with generating or editing code. It offers tips for writing prompts, caching results, and structuring code to reduce tokens while preserving readability and correctness.",
+      "summary_zh": "记录了在使用大语言模型生成代码时对风格的一些观察以及与令牌成本相关的经验。给出将风格标准化、精简提示和重复代码以降低令牌数量的实用建议。",
+      "hn": {
+        "id": 48667409,
+        "type": "story",
+        "by": "jimmont",
+        "score": 32,
+        "descendants": 12,
+        "time": 1782348760,
+        "comments_url": "https://news.ycombinator.com/item?id=48667409"
+      },
+      "hot_score": 0.18,
+      "tags": [
+        "Programming",
+        "AI"
       ]
     },
     {
@@ -734,7 +1105,7 @@
         "time": 1782352201,
         "comments_url": "https://news.ycombinator.com/item?id=48667853"
       },
-      "hot_score": 0.33,
+      "hot_score": 0.13,
       "tags": [
         "Health",
         "Culture",
@@ -742,27 +1113,96 @@
       ]
     },
     {
-      "title_en": "GLM-5.2 is a step change for open agents",
-      "url": "https://www.interconnects.ai/p/glm-52-is-the-step-change-for-open",
-      "title_zh": "GLM-5.2：开放代理的质变",
-      "created_display": "Created: Jun 22, 2026 / 20:23 PT",
-      "image_url": "https://substackcdn.com/image/fetch/$s_!Of7h!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F267cdc82-6fbc-4f68-bcba-160091396dfd_3182x1790.png",
-      "summary_en": "GLM-5.2 represents a significant leap for open AI agents, improving reasoning, planning, and tool-use capabilities in open-weight models. This advancement lowers the barrier to building capable open agents and accelerates community experimentation and innovation.",
-      "summary_zh": "GLM-5.2 对开放代理来说是一次显著跃升，提升了推理、计划和工具使用能力的开放模型。这一进步降低了构建强大开放代理的门槛，推动社区在实验与创新方面的进展。",
+      "title_en": "Aisle Discovers 6 New CVEs in Curl, Including the Oldest Issue Ever Reported",
+      "url": "https://aisle.com/blog/aisle-discovers-6-new-cves-in-curl-including-the-oldest-issue-ever-reported",
+      "title_zh": "Aisle 发现 Curl 的六个新 CVE，其中包含史上最早的问题",
+      "created_display": "Created: Jun 25, 2026 / 01:07 PT",
+      "image_url": null,
+      "summary_en": "Aisle discovers six new CVEs in curl, including an issue reportedly the oldest ever recorded. The disclosure highlights the ongoing need to patch foundational libraries and the challenges of maintaining security across broad-dependency ecosystems.",
+      "summary_zh": "Aisle 发现 Curl 的六个新 CVE，其中还包括被认为是有史以来最早的漏洞。这一披露凸显了对基础库持续打补丁的需求，以及维护庞大依赖生态系统安全的挑战。",
       "hn": {
-        "id": 48639840,
+        "id": 48670411,
         "type": "story",
-        "by": "vantareed",
-        "score": 233,
-        "descendants": 129,
-        "time": 1782185008,
-        "comments_url": "https://news.ycombinator.com/item?id=48639840"
+        "by": "ragebol",
+        "score": 8,
+        "descendants": 0,
+        "time": 1782374874,
+        "comments_url": "https://news.ycombinator.com/item?id=48670411"
+      },
+      "hot_score": 0.11,
+      "tags": [
+        "Security",
+        "Open Source"
+      ]
+    },
+    {
+      "title_en": "Dostoyevsky isn't difficult",
+      "url": "https://www.autodidacts.io/dostoyevsky-isnt-difficult/",
+      "title_zh": "《陀思妥耶夫斯基》其实并不难读",
+      "created_display": "Created: Jun 22, 2026 / 08:15 PT",
+      "image_url": null,
+      "summary_en": "The author argues Dostoyevsky isn't as hard to read as common wisdom suggests, offering practical reading approaches, translation choices, and pacing to make the novels approachable. The piece lowers barriers for readers and students to tackle classic literature.",
+      "summary_zh": "作者主张《陀思妥耶夫斯基》其实并不如人们想象中那么难读，提供可行的阅读策略、译本选择与节奏建议，帮助读者更易接触经典文学。文章旨在降低门槛，鼓励读者和学生去阅读。",
+      "hn": {
+        "id": 48631366,
+        "type": "story",
+        "by": "surprisetalk",
+        "score": 208,
+        "descendants": 262,
+        "time": 1782141338,
+        "comments_url": "https://news.ycombinator.com/item?id=48631366"
       },
       "tags": [
-        "AI",
-        "Open Source"
+        "Culture",
+        "Education"
       ],
-      "hot_score": 0.16
+      "hot_score": 0.09
+    },
+    {
+      "title_en": "Bohemia Interactive: Cold War Assault Remastered Source Code on GitHub",
+      "url": "https://github.com/BohemiaInteractive/CWR",
+      "title_zh": "Bohemia Interactive：Cold War Assault Remastered 源代码在 GitHub 开源",
+      "created_display": "Created: Jun 22, 2026 / 14:52 PT",
+      "image_url": "https://opengraph.githubassets.com/e742ff1bc169af3653262e73eb4b93408509b5908406d6587f2fc9f562baef43/BohemiaInteractive/CWR",
+      "summary_en": "Bohemia Interactive released the Cold War Assault Remastered source code on GitHub, inviting modders and researchers to examine the engine and tools. This mirrors a broader trend of open-sourcing legacy game code to spur experimentation, while raising questions about licensing and attribution.",
+      "summary_zh": "Bohemia Interactive 将 Cold War Assault Remastered 的源代码发布到 GitHub，供社区研究引擎与工具。此举反映了开源遗留游戏代码以推动探索的趋势，同时也引发版权与署名方面的讨论。",
+      "hn": {
+        "id": 48636753,
+        "type": "story",
+        "by": "dewey",
+        "score": 165,
+        "descendants": 39,
+        "time": 1782165174,
+        "comments_url": "https://news.ycombinator.com/item?id=48636753"
+      },
+      "tags": [
+        "Open Source",
+        "Gaming",
+        "Programming"
+      ],
+      "hot_score": 0.08
+    },
+    {
+      "title_en": "Markdy: Like Mermaid Diagrams, but for Motion",
+      "url": "https://markdy.com",
+      "title_zh": "Markdy：像 Mermaid 图一样处理运动",
+      "created_display": "Created: Jun 23, 2026 / 08:00 PT",
+      "image_url": "https://markdy.com/og-image.png",
+      "summary_en": "Markdy offers a textual DSL resembling Mermaid diagrams but focused on motion and animation workflows. It lets creators describe timing, transitions, and dependencies in a readable format, producing diagrams that aid planning and collaboration on complex motion systems.",
+      "summary_zh": "Markdy 提供一种类似 Mermaid 的文本语言，专注于运动与动画工作流。它让创作者用易读的格式描述时序、过渡和依赖，生成的图表有助于规划与协同处理复杂的运动系统。",
+      "hn": {
+        "id": 48646077,
+        "type": "story",
+        "by": "surprisetalk",
+        "score": 102,
+        "descendants": 61,
+        "time": 1782226802,
+        "comments_url": "https://news.ycombinator.com/item?id=48646077"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 0.08
     },
     {
       "title_en": "Show HN: Monolisa v3 – a typeface for developers and creatives",
@@ -785,30 +1225,52 @@
         "Show HN",
         "Design"
       ],
-      "hot_score": 0.08
+      "hot_score": 0.07
     },
     {
-      "title_en": "Dostoyevsky isn't difficult",
-      "url": "https://www.autodidacts.io/dostoyevsky-isnt-difficult/",
-      "title_zh": "《陀思妥耶夫斯基》其实并不难读",
-      "created_display": "Created: Jun 22, 2026 / 08:15 PT",
-      "image_url": null,
-      "summary_en": "The author argues Dostoyevsky isn't as hard to read as common wisdom suggests, offering practical reading approaches, translation choices, and pacing to make the novels approachable. The piece lowers barriers for readers and students to tackle classic literature.",
-      "summary_zh": "作者主张《陀思妥耶夫斯基》其实并不如人们想象中那么难读，提供可行的阅读策略、译本选择与节奏建议，帮助读者更易接触经典文学。文章旨在降低门槛，鼓励读者和学生去阅读。",
+      "title_en": "Puzzling Success of Overparameterization: Lottery Tickets or Escape Dimensions?",
+      "url": "https://infoscience.epfl.ch/entities/publication/9a49779b-f9f8-448d-b3d1-737c78455309",
+      "title_zh": "过参数化的成功之谜：乐透票理论还是维度逃逸？",
+      "created_display": "Created: Jun 24, 2026 / 02:50 PT",
+      "image_url": "https://infoscience.epfl.ch/bitstreams/6a8e7561-2fa3-4d0f-822b-f2084046f98f/download",
+      "summary_en": "An EPFL study investigates why overparameterized models train so well, weighing lottery ticket explanations against the idea of escaping to low-dimensional manifolds. The work suggests multiple mechanisms may underpin success, with implications for pruning, architecture design, and generalization.",
+      "summary_zh": "EPFL 的研究探讨了为何过参数化模型能训练得如此出色，权衡乐透票假说与“逃逸到低维流形”的解释。研究表明可能存在多种机制共同作用，这对剪枝、网络结构设计和泛化能力具有重要启示。",
       "hn": {
-        "id": 48631366,
+        "id": 48657481,
         "type": "story",
-        "by": "surprisetalk",
-        "score": 149,
-        "descendants": 155,
-        "time": 1782141338,
-        "comments_url": "https://news.ycombinator.com/item?id=48631366"
+        "by": "rbanffy",
+        "score": 37,
+        "descendants": 7,
+        "time": 1782294658,
+        "comments_url": "https://news.ycombinator.com/item?id=48657481"
+      },
+      "hot_score": 0.07,
+      "tags": [
+        "Science"
+      ]
+    },
+    {
+      "title_en": "A Practical Guide to SSH Tunnels: Local and Remote Port Forwarding",
+      "url": "https://labs.iximiuz.com/tutorials/ssh-tunnels",
+      "title_zh": "SSH 隧道实用指南：本地与远程端口转发",
+      "created_display": "Created: Jun 19, 2026 / 20:55 PT",
+      "image_url": "https://labs.iximiuz.com/content/files/tutorials/ssh-tunnels/__static__/ssh-tunnels-cheat-sheet.png",
+      "summary_en": "Offers a hands-on walkthrough of SSH local and remote port forwarding, with real-world use cases from secure access to services behind firewalls. Includes concrete command examples and tips to avoid common pitfalls.",
+      "summary_zh": "提供 SSH 本地与远程端口转发的实用指南，涵盖穿透防火墙、通过跳板机访问受限服务等场景，并给出具体命令示例与常见坑点提示。",
+      "hn": {
+        "id": 48606222,
+        "type": "story",
+        "by": "signa11",
+        "score": 364,
+        "descendants": 72,
+        "time": 1781927719,
+        "comments_url": "https://news.ycombinator.com/item?id=48606222"
       },
       "tags": [
-        "Education",
-        "Culture"
+        "Programming",
+        "DevOps"
       ],
-      "hot_score": 0.07
+      "hot_score": 0.05
     },
     {
       "title_en": "Why eval startups fail (2025)",
@@ -832,51 +1294,99 @@
         "Business",
         "Programming"
       ],
-      "hot_score": 0.06
+      "hot_score": 0.05
     },
     {
-      "title_en": "Markdy: Like Mermaid Diagrams, but for Motion",
-      "url": "https://markdy.com",
-      "title_zh": "Markdy：像 Mermaid 图一样处理运动",
-      "created_display": "Created: Jun 23, 2026 / 08:00 PT",
-      "image_url": "https://markdy.com/og-image.png",
-      "summary_en": "Markdy offers a textual DSL resembling Mermaid diagrams but focused on motion and animation workflows. It lets creators describe timing, transitions, and dependencies in a readable format, producing diagrams that aid planning and collaboration on complex motion systems.",
-      "summary_zh": "Markdy 提供一种类似 Mermaid 的文本语言，专注于运动与动画工作流。它让创作者用易读的格式描述时序、过渡和依赖，生成的图表有助于规划与协同处理复杂的运动系统。",
+      "title_en": "Matt's Script Archive: The Scripts That Reshaped the Web",
+      "url": "https://tedium.co/2026/06/22/matts-script-archive-retrospective/",
+      "title_zh": "Matt's Script Archive：改变了网页的脚本",
+      "created_display": "Created: Jun 22, 2026 / 18:30 PT",
+      "image_url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Ftedium.co%2Fog-images%2F2026%2F06%2F22%2Fmatts-script-archive-retrospective%2F/opengraph/?v=1782233134",
+      "summary_en": "Tedium looks back at Matt's Script Archive, a collection of early 1990s web scripts that popularized client-side effects like hit counters, blinking text, and image rollovers, shaping web design culture.",
+      "summary_zh": "特刊回顾 Matt's Script Archive，这批1990年代初的网页脚本推动了客户端效果（如计数器、闪烁文本、图像翻转等），深刻影响了早期的网站设计与开发者文化。",
       "hn": {
-        "id": 48646077,
+        "id": 48639018,
         "type": "story",
-        "by": "surprisetalk",
-        "score": 57,
-        "descendants": 18,
-        "time": 1782226802,
-        "comments_url": "https://news.ycombinator.com/item?id=48646077"
+        "by": "1317",
+        "score": 74,
+        "descendants": 19,
+        "time": 1782178259,
+        "comments_url": "https://news.ycombinator.com/item?id=48639018"
       },
-      "hot_score": 0.06,
       "tags": [
-        "Design"
+        "Web",
+        "Culture"
+      ],
+      "hot_score": 0.04
+    },
+    {
+      "title_en": "Lies, Damn Lies and Database Benchmarks",
+      "url": "https://questdb.com/blog/lies-damn-lies-and-database-benchmarks/",
+      "title_zh": "数据库基准测试的谎言与真相",
+      "created_display": "Created: Jun 22, 2026 / 19:27 PT",
+      "image_url": "https://questdb.com/images/blog/2026-06-18/banner.webp",
+      "summary_en": "QuestDB argues benchmarks for databases are often misleading without transparent workloads and representative data. The post unpacks pitfalls like cherry-picked tests, hardware bias, and the gap between synthetic metrics and real-world performance.",
+      "summary_zh": "QuestDB 指出数据库基准测试若缺乏透明的工作负载与真实数据代表性，往往会产生误导。文中揭示了挑选性测试、硬件偏差，以及合成指标与实际场景性能之间的差距等问题。",
+      "hn": {
+        "id": 48639429,
+        "type": "story",
+        "by": "eigenBasis",
+        "score": 46,
+        "descendants": 18,
+        "time": 1782181640,
+        "comments_url": "https://news.ycombinator.com/item?id=48639429"
+      },
+      "hot_score": 0.03,
+      "tags": [
+        "Data",
+        "Hardware"
       ]
     },
     {
-      "title_en": "A Practical Guide to SSH Tunnels: Local and Remote Port Forwarding",
-      "url": "https://labs.iximiuz.com/tutorials/ssh-tunnels",
-      "title_zh": "SSH 隧道实用指南：本地与远程端口转发",
-      "created_display": "Created: Jun 19, 2026 / 20:55 PT",
-      "image_url": "https://labs.iximiuz.com/content/files/tutorials/ssh-tunnels/__static__/ssh-tunnels-cheat-sheet.png",
-      "summary_en": "Offers a hands-on walkthrough of SSH local and remote port forwarding, with real-world use cases from secure access to services behind firewalls. Includes concrete command examples and tips to avoid common pitfalls.",
-      "summary_zh": "提供 SSH 本地与远程端口转发的实用指南，涵盖穿透防火墙、通过跳板机访问受限服务等场景，并给出具体命令示例与常见坑点提示。",
+      "title_en": "Show HN: Nimic – Pure Python as a systems language with AOT compilation",
+      "url": "https://github.com/dima-quant/nimic",
+      "title_zh": "Show HN：Nimic——带 AOT 编译的纯 Python 系统语言",
+      "created_display": "Created: Jun 23, 2026 / 08:09 PT",
+      "image_url": "https://opengraph.githubassets.com/3a30e9d9c61de70871da1c126b7d79742671b048602cee2ca5cde19ba2bc5feb/dima-quant/nimic",
+      "summary_en": "Nimic presents pure Python as a systems language with ahead-of-time compilation, aiming to marry Python's simplicity with lower-level performance. It demonstrates an approach where Python-like syntax compiles to efficient, systems-level code, potentially broadening options for performance-critical projects.",
+      "summary_zh": "Nimic 将 Python 作为系统语言并提供 AOT 编译，旨在将 Python 的简洁性与更接近底层的性能相结合。它展示了用类似 Python 的语法编译成高效的系统级代码的路径，可能为对性能敏感的项目带来新选项。",
       "hn": {
-        "id": 48606222,
+        "id": 48646239,
         "type": "story",
-        "by": "signa11",
-        "score": 333,
-        "descendants": 62,
-        "time": 1781927719,
-        "comments_url": "https://news.ycombinator.com/item?id=48606222"
+        "by": "dima-quant",
+        "score": 32,
+        "descendants": 22,
+        "time": 1782227355,
+        "comments_url": "https://news.ycombinator.com/item?id=48646239"
       },
       "tags": [
+        "Show HN",
         "Programming"
       ],
-      "hot_score": 0.05
+      "hot_score": 0.03
+    },
+    {
+      "title_en": "AWS Lambda Introduces MicroVMs",
+      "url": "https://aws.amazon.com/blogs/aws/run-isolated-sandboxes-with-full-lifecycle-control-aws-lambda-introduces-microvms/",
+      "title_zh": "AWS Lambda 推出 MicroVMs",
+      "created_display": "Created: Jun 25, 2026 / 01:57 PT",
+      "image_url": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/06/22/AdobeStock_44802230-1260x630.jpeg",
+      "summary_en": "AWS Lambda now supports MicroVMs, providing isolated sandboxes with full lifecycle control for serverless workloads. The move could improve security, performance predictability, and allow user-custom runtimes, marking a step toward more flexible serverless architectures.",
+      "summary_zh": "AWS Lambda 推出 MicroVMs，提供具备完整生命周期控制的隔离沙箱，用于无服务器工作负载。此举有望提升安全性、性能可预测性，并支持自定义运行时。",
+      "hn": {
+        "id": 48670836,
+        "type": "story",
+        "by": "root-parent",
+        "score": 3,
+        "descendants": 0,
+        "time": 1782377836,
+        "comments_url": "https://news.ycombinator.com/item?id=48670836"
+      },
+      "hot_score": 0.03,
+      "tags": [
+        "DevOps",
+        "Security"
+      ]
     },
     {
       "title_en": "Crawling BitTorrent DHTs for Fun and Profit [pdf]",
@@ -896,81 +1406,11 @@
         "comments_url": "https://news.ycombinator.com/item?id=48619159"
       },
       "tags": [
-        "Science",
+        "Security",
         "Privacy",
         "Business"
       ],
-      "hot_score": 0.03
-    },
-    {
-      "title_en": "Bohemia Interactive: Cold War Assault Remastered Source Code on GitHub",
-      "url": "https://github.com/BohemiaInteractive/CWR",
-      "title_zh": "Bohemia Interactive：Cold War Assault Remastered 源代码在 GitHub 开源",
-      "created_display": "Created: Jun 22, 2026 / 14:52 PT",
-      "image_url": "https://opengraph.githubassets.com/e742ff1bc169af3653262e73eb4b93408509b5908406d6587f2fc9f562baef43/BohemiaInteractive/CWR",
-      "summary_en": "Bohemia Interactive released the Cold War Assault Remastered source code on GitHub, inviting modders and researchers to examine the engine and tools. This mirrors a broader trend of open-sourcing legacy game code to spur experimentation, while raising questions about licensing and attribution.",
-      "summary_zh": "Bohemia Interactive 将 Cold War Assault Remastered 的源代码发布到 GitHub，供社区研究引擎与工具。此举反映了开源遗留游戏代码以推动探索的趋势，同时也引发版权与署名方面的讨论。",
-      "hn": {
-        "id": 48636753,
-        "type": "story",
-        "by": "dewey",
-        "score": 58,
-        "descendants": 7,
-        "time": 1782165174,
-        "comments_url": "https://news.ycombinator.com/item?id=48636753"
-      },
-      "hot_score": 0.03,
-      "tags": [
-        "Open Source",
-        "Gaming",
-        "Programming"
-      ]
-    },
-    {
-      "title_en": "Matt's Script Archive: The Scripts That Reshaped the Web",
-      "url": "https://tedium.co/2026/06/22/matts-script-archive-retrospective/",
-      "title_zh": "Matt's Script Archive：改变了网页的脚本",
-      "created_display": "Created: Jun 22, 2026 / 18:30 PT",
-      "image_url": "https://v1.screenshot.11ty.dev/https%3A%2F%2Ftedium.co%2Fog-images%2F2026%2F06%2F22%2Fmatts-script-archive-retrospective%2F/opengraph/?v=1782233134",
-      "summary_en": "Tedium looks back at Matt's Script Archive, a collection of early 1990s web scripts that popularized client-side effects like hit counters, blinking text, and image rollovers, shaping web design culture.",
-      "summary_zh": "特刊回顾 Matt's Script Archive，这批1990年代初的网页脚本推动了客户端效果（如计数器、闪烁文本、图像翻转等），深刻影响了早期的网站设计与开发者文化。",
-      "hn": {
-        "id": 48639018,
-        "type": "story",
-        "by": "1317",
-        "score": 47,
-        "descendants": 12,
-        "time": 1782178259,
-        "comments_url": "https://news.ycombinator.com/item?id=48639018"
-      },
-      "tags": [
-        "Web",
-        "Culture"
-      ],
-      "hot_score": 0.03
-    },
-    {
-      "title_en": "Show HN: Wordit – Change One Letter, Keep the Chain Going",
-      "url": "https://victorribeiro.com/wordit/",
-      "title_zh": "Show HN：Wordit – 只改一个字母，保持单词链条",
-      "created_display": "Created: Jun 23, 2026 / 11:57 PT",
-      "image_url": null,
-      "summary_en": "Wordit is a puzzle game where each move changes one letter while keeping the chain valid, offering a lightweight, engaging challenge for word-lovers and algorithm enthusiasts.",
-      "summary_zh": "Wordit 是一款游戏：每步只改一个字母，且新词仍然合法，提供轻量但富有挑战性的词谜体验，吸引爱好文字和算法的人士。",
-      "hn": {
-        "id": 48649697,
-        "type": "story",
-        "by": "atum47",
-        "score": 25,
-        "descendants": 14,
-        "time": 1782241056,
-        "comments_url": "https://news.ycombinator.com/item?id=48649697"
-      },
-      "hot_score": 0.03,
-      "tags": [
-        "Show HN",
-        "Gaming"
-      ]
+      "hot_score": 0.02
     },
     {
       "title_en": "15 sorting algorithms in 6 minutes (2013) [video]",
@@ -991,7 +1431,54 @@
       },
       "hot_score": 0.02,
       "tags": [
-        "Programming"
+        "Programming",
+        "Education"
+      ]
+    },
+    {
+      "title_en": "Words, Words, Words",
+      "url": "https://aeon.co/essays/literature-fans-should-welcome-ai-as-a-fellow-wordsmith",
+      "title_zh": "文字，文字，文字：AI 与文学的共作者观",
+      "created_display": "Created: Jun 22, 2026 / 22:58 PT",
+      "image_url": null,
+      "summary_en": "An essay arguing that AI can be a fellow wordsmith and complement human authors in literature, not a rival. It envisions AI assisting with writing, editing, and world-building, while preserving human creativity.",
+      "summary_zh": "一篇论述认为 AI 可以成为文学领域的同道词匠，帮助写作、编辑和世界观构建，而不是人类创作者的对手，同时保留人类的创造力。",
+      "hn": {
+        "id": 48640919,
+        "type": "story",
+        "by": "benbreen",
+        "score": 29,
+        "descendants": 12,
+        "time": 1782194319,
+        "comments_url": "https://news.ycombinator.com/item?id=48640919"
+      },
+      "hot_score": 0.02,
+      "tags": [
+        "AI",
+        "Culture"
+      ]
+    },
+    {
+      "title_en": "Show HN: Wordit – Change One Letter, Keep the Chain Going",
+      "url": "https://victorribeiro.com/wordit/",
+      "title_zh": "Show HN：Wordit – 只改一个字母，保持单词链条",
+      "created_display": "Created: Jun 23, 2026 / 11:57 PT",
+      "image_url": null,
+      "summary_en": "Wordit is a puzzle game where each move changes one letter while keeping the chain valid, offering a lightweight, engaging challenge for word-lovers and algorithm enthusiasts.",
+      "summary_zh": "Wordit 是一款游戏：每步只改一个字母，且新词仍然合法，提供轻量但富有挑战性的词谜体验，吸引爱好文字和算法的人士。",
+      "hn": {
+        "id": 48649697,
+        "type": "story",
+        "by": "atum47",
+        "score": 25,
+        "descendants": 14,
+        "time": 1782241056,
+        "comments_url": "https://news.ycombinator.com/item?id=48649697"
+      },
+      "hot_score": 0.02,
+      "tags": [
+        "Show HN",
+        "Gaming"
       ]
     },
     {
@@ -1012,8 +1499,7 @@
         "comments_url": "https://news.ycombinator.com/item?id=48603726"
       },
       "tags": [
-        "Open Source",
-        "Programming"
+        "Open Source"
       ],
       "hot_score": 0.01
     },
@@ -1035,8 +1521,31 @@
         "comments_url": "https://news.ycombinator.com/item?id=48596834"
       },
       "tags": [
-        "DevOps",
-        "Open Source"
+        "Open Source",
+        "DevOps"
+      ],
+      "hot_score": 0.01
+    },
+    {
+      "title_en": "Show HN: Write SaaS apps where users control where their data is stored",
+      "url": "https://github.com/wolfoo2931/linkedrecords/",
+      "title_zh": "Show HN：让用户决定数据存放位置的 SaaS 应用",
+      "created_display": "Created: Jun 19, 2026 / 00:37 PT",
+      "image_url": "https://opengraph.githubassets.com/c388199c5f721168cec6240b7c71993c209016a6d411884df2dcb42b42ff9156/wolfoo2931/linkedrecords",
+      "summary_en": "Show HN presents Write SaaS apps where users control where their data is stored, showcasing architectural approaches to support data residency. The approach helps satisfy compliance and data sovereignty needs while offering flexibility and potential performance trade-offs.",
+      "summary_zh": "Show HN 展示了让用户决定数据存放地点的 SaaS 应用设计思路，体现支持数据居留的架构方法。该方案有利于满足合规与数据主权需求，同时带来灵活性和潜在的性能权衡。",
+      "hn": {
+        "id": 48595882,
+        "type": "story",
+        "by": "WolfOliver",
+        "score": 66,
+        "descendants": 30,
+        "time": 1781854634,
+        "comments_url": "https://news.ycombinator.com/item?id=48595882"
+      },
+      "tags": [
+        "Show HN",
+        "Privacy"
       ],
       "hot_score": 0.01
     },
@@ -1063,71 +1572,95 @@
       "hot_score": 0.01
     },
     {
-      "title_en": "Show HN: Write SaaS apps where users control where their data is stored",
-      "url": "https://github.com/wolfoo2931/linkedrecords/",
-      "title_zh": "Show HN：让用户决定数据存放位置的 SaaS 应用",
-      "created_display": "Created: Jun 19, 2026 / 00:37 PT",
-      "image_url": "https://opengraph.githubassets.com/c388199c5f721168cec6240b7c71993c209016a6d411884df2dcb42b42ff9156/wolfoo2931/linkedrecords",
-      "summary_en": "Show HN presents Write SaaS apps where users control where their data is stored, showcasing architectural approaches to support data residency. The approach helps satisfy compliance and data sovereignty needs while offering flexibility and potential performance trade-offs.",
-      "summary_zh": "Show HN 展示了让用户决定数据存放地点的 SaaS 应用设计思路，体现支持数据居留的架构方法。该方案有利于满足合规与数据主权需求，同时带来灵活性和潜在的性能权衡。",
-      "hn": {
-        "id": 48595882,
-        "type": "story",
-        "by": "WolfOliver",
-        "score": 47,
-        "descendants": 24,
-        "time": 1781854634,
-        "comments_url": "https://news.ycombinator.com/item?id=48595882"
-      },
-      "hot_score": 0.01,
-      "tags": [
-        "Show HN",
-        "Privacy"
-      ]
-    },
-    {
-      "title_en": "Optimizing [sqlx:test] rebuild time",
-      "url": "https://kobzol.github.io/rust/2026/06/21/optimizing-sqlx-test-rebuild-time.html",
-      "title_zh": "优化 [sqlx:test] 重建时间",
-      "created_display": "Created: Jun 22, 2026 / 01:39 PT",
+      "title_en": "The Disappearance of Japan's Animators",
+      "url": "https://economist.com/interactive/1843/2026/06/19/the-strange-disappearance-of-japans-animators",
+      "title_zh": "日本动画师的消失",
+      "created_display": "Created: Jun 21, 2026 / 09:51 PT",
       "image_url": null,
-      "summary_en": "Optimizing [sqlx:test] rebuild time describes techniques to speed up test rebuilds in Rust projects using sqlx, likely caching codegen results, avoiding unnecessary rebuilds, and parallelizing tests.",
-      "summary_zh": "介绍在 Rust 项目中针对 sqlx:test 的重建时间进行优化的做法，涵盖缓存代码生成、避免无谓重建以及并行化测试等技巧，以缩短 CI 与开发迭代时间。",
+      "summary_en": "The Economist reports a troubling exodus of Japan's animators driven by low pay, long hours, and outsourcing pressures. The piece maps how talent drain threatens production pace, quality, and the future of domestic animation.",
+      "summary_zh": "《经济学人》报道日本动画师大量流失，原因包括低薪、长工时和外包压力。文章分析了人才外流对产出速度、质量以及日本动漫产业未来的影响。",
       "hn": {
-        "id": 48627471,
+        "id": 48620422,
         "type": "story",
-        "by": "ibobev",
-        "score": 13,
-        "descendants": 1,
-        "time": 1782117589,
-        "comments_url": "https://news.ycombinator.com/item?id=48627471"
+        "by": "andsoitis",
+        "score": 56,
+        "descendants": 53,
+        "time": 1782060707,
+        "comments_url": "https://news.ycombinator.com/item?id=48620422"
       },
       "hot_score": 0.01,
       "tags": [
-        "Programming"
+        "Business",
+        "Culture"
       ]
     },
     {
-      "title_en": "Show HN: Nimic – Pure Python as a systems language with AOT compilation",
-      "url": "https://github.com/dima-quant/nimic",
-      "title_zh": "Show HN：Nimic——带 AOT 编译的纯 Python 系统语言",
-      "created_display": "Created: Jun 23, 2026 / 08:09 PT",
-      "image_url": "https://opengraph.githubassets.com/3a30e9d9c61de70871da1c126b7d79742671b048602cee2ca5cde19ba2bc5feb/dima-quant/nimic",
-      "summary_en": "Nimic presents pure Python as a systems language with ahead-of-time compilation, aiming to marry Python's simplicity with lower-level performance. It demonstrates an approach where Python-like syntax compiles to efficient, systems-level code, potentially broadening options for performance-critical projects.",
-      "summary_zh": "Nimic 将 Python 作为系统语言并提供 AOT 编译，旨在将 Python 的简洁性与更接近底层的性能相结合。它展示了用类似 Python 的语法编译成高效的系统级代码的路径，可能为对性能敏感的项目带来新选项。",
+      "title_en": "Show HN: StartupsBR – A map of Brazilian startups",
+      "url": "https://www.startupsbr.com/sao-paulo",
+      "title_zh": "Show HN：StartupsBR——巴西初创企业地图",
+      "created_display": "Created: Jun 19, 2026 / 09:33 PT",
+      "image_url": "https://deskmatelive.com/assets/desktop-logo-Db47erwQ.png",
+      "summary_en": "StartupsBR visualizes the Brazilian startup ecosystem with a map, highlighting clusters, funding rounds, and sectors. Useful for founders and investors exploring LATAM opportunities.",
+      "summary_zh": "StartupsBR 用地图直观呈现巴西初创企业生态，标注聚集区、融资阶段与行业分布等信息，为希望把握拉美创新机会的创始人和投资者提供洞察。",
       "hn": {
-        "id": 48646239,
+        "id": 48600369,
         "type": "story",
-        "by": "dima-quant",
-        "score": 11,
-        "descendants": 4,
-        "time": 1782227355,
-        "comments_url": "https://news.ycombinator.com/item?id=48646239"
+        "by": "leonagano",
+        "score": 49,
+        "descendants": 22,
+        "time": 1781886782,
+        "comments_url": "https://news.ycombinator.com/item?id=48600369"
       },
       "hot_score": 0.01,
       "tags": [
         "Show HN",
-        "Programming"
+        "Startups"
+      ]
+    },
+    {
+      "title_en": "Tw-fade: pure CSS scroll-driven edge masking",
+      "url": "https://pete.design/tw-fade",
+      "title_zh": "Tw-fade：纯 CSS 滚动驱动的边缘遮罩",
+      "created_display": "Created: Jun 22, 2026 / 08:12 PT",
+      "image_url": "https://pete.design/tw-fade/og-image.png",
+      "summary_en": "Tw-fade demonstrates a pure CSS technique for scroll-driven edge masking, enabling subtle fade effects on scroll without JavaScript. It showcases how CSS variables and lightweight techniques can deliver dynamic UI polish with zero script.",
+      "summary_zh": "Tw-fade 展示了一种纯 CSS 的滚动驱动边缘遮罩实现，滚动时可以实现微妙的渐变效果，无需 JavaScript。通过 CSS 变量等轻量化方法，展示了无需脚本即可实现的动态 UI 优雅度。",
+      "hn": {
+        "id": 48631302,
+        "type": "story",
+        "by": "petekp",
+        "score": 13,
+        "descendants": 3,
+        "time": 1782141156,
+        "comments_url": "https://news.ycombinator.com/item?id=48631302"
+      },
+      "hot_score": 0.01,
+      "tags": [
+        "Programming",
+        "Design",
+        "Web"
+      ]
+    },
+    {
+      "title_en": "Lianda and the Long March",
+      "url": "https://blog.georeactor.com/books-06-26b",
+      "title_zh": "连大与长征：历史与科技的启示",
+      "created_display": "Created: Jun 23, 2026 / 20:46 PT",
+      "image_url": "https://blog.georeactor.com/blog-images/marchers.jpg",
+      "summary_en": "A reflective piece pairing the Lianda and Long March narratives, drawing lessons for perseverance and distributed effort in modern tech projects.",
+      "summary_zh": "这篇博客把“连大”和“长征”的历史故事结合起来，强调在现代科技项目中坚持与分布式协作的启示。",
+      "hn": {
+        "id": 48654837,
+        "type": "story",
+        "by": "mapmeld",
+        "score": 8,
+        "descendants": 0,
+        "time": 1782272808,
+        "comments_url": "https://news.ycombinator.com/item?id=48654837"
+      },
+      "hot_score": 0.01,
+      "tags": [
+        "Culture"
       ]
     },
     {
@@ -1154,6 +1687,29 @@
       ]
     },
     {
+      "title_en": "Optimizing [sqlx:test] rebuild time",
+      "url": "https://kobzol.github.io/rust/2026/06/21/optimizing-sqlx-test-rebuild-time.html",
+      "title_zh": "优化 [sqlx:test] 重建时间",
+      "created_display": "Created: Jun 22, 2026 / 01:39 PT",
+      "image_url": null,
+      "summary_en": "Optimizing [sqlx:test] rebuild time describes techniques to speed up test rebuilds in Rust projects using sqlx, likely caching codegen results, avoiding unnecessary rebuilds, and parallelizing tests.",
+      "summary_zh": "介绍在 Rust 项目中针对 sqlx:test 的重建时间进行优化的做法，涵盖缓存代码生成、避免无谓重建以及并行化测试等技巧，以缩短 CI 与开发迭代时间。",
+      "hn": {
+        "id": 48627471,
+        "type": "story",
+        "by": "ibobev",
+        "score": 13,
+        "descendants": 1,
+        "time": 1782117589,
+        "comments_url": "https://news.ycombinator.com/item?id=48627471"
+      },
+      "hot_score": 0.0,
+      "tags": [
+        "Programming",
+        "DevOps"
+      ]
+    },
+    {
       "title_en": "Shall We Play a Coordination Game?",
       "url": "https://kellyshortridge.com/blog/posts/shall-we-play-a-coordination-game/",
       "title_zh": "我们来玩一次协调博弈吗？",
@@ -1173,7 +1729,7 @@
       "hot_score": 0.0,
       "tags": [
         "Culture",
-        "Business",
+        "Politics",
         "Security"
       ]
     }
