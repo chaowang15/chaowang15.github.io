@@ -20,7 +20,7 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='420' data-hn-time='1782323220'>
+<div class='hn-top-story-item' data-hn-score='640' data-hn-time='1782323220'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -28,106 +28,106 @@ Sort:
  <a class='hn-top-story-link' href='https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>OpenAI 发布首个定制芯片，由 Broadcom 打造</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 420</span> <span class='hn-top-story-comments'>&#128172; 278</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.3</span> <span class='hn-top-story-score'>&#9650; 640</span> <span class='hn-top-story-comments'>&#128172; 363</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='460' data-hn-time='1782316579'>
+<div class='hn-top-story-item' data-hn-score='123' data-hn-time='1782350063'>
 <span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/24/top_stories_06242026#story-48667588'>Ending respiratory infections</a>
+ <a class='hn-top-story-link' href='https://blog.interceptfund.com/p/ending-respiratory-infections' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>结束呼吸道感染的综合策略</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 123</span> <span class='hn-top-story-comments'>&#128172; 55</span> <span class='hn-top-story-tag'>Health</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Privacy</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='89' data-hn-time='1782353890'>
+<span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/24/top_stories_06242026#story-48668033'>Cloudflare launched self-managed OAuth for all</a>
+ <a class='hn-top-story-link' href='https://blog.cloudflare.com/oauth-for-all/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Cloudflare推出面向所有人的自托管OAuth</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.8</span> <span class='hn-top-story-score'>&#9650; 89</span> <span class='hn-top-story-comments'>&#128172; 25</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>DevOps</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='157' data-hn-time='1782344797'>
+<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/24/top_stories_06242026#story-48666927'>Blogging can just be stating the obvious</a>
+ <a class='hn-top-story-link' href='https://blog.jim-nielsen.com/2026/blogging-stating-the-obvious/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>博客也可以只是把显而易见的事情说清楚</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 157</span> <span class='hn-top-story-comments'>&#128172; 52</span> <span class='hn-top-story-tag'>Culture</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='514' data-hn-time='1782316579'>
+<span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/06/24/top_stories_06242026#story-48661825'>There are a few things that I look back on as my mistakes in the early days</a>
  <a class='hn-top-story-link' href='https://twitter.com/ID_AA_Carmack/status/2069799283369345247' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>我早年的几件错误回顾</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.7</span> <span class='hn-top-story-score'>&#9650; 460</span> <span class='hn-top-story-comments'>&#128172; 231</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Career</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 514</span> <span class='hn-top-story-comments'>&#128172; 257</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Career</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='163' data-hn-time='1782328102'>
-<span class='hn-top-story-rank'>3</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/24/top_stories_06242026#story-48664384'>Thomann takes legal action against Fender</a>
- <a class='hn-top-story-link' href='https://www.thomann.de/blog/en/inside/thomann-takes-legal-action-against-fender/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Thomann 就 Fender 提出法律诉讼</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.7</span> <span class='hn-top-story-score'>&#9650; 163</span> <span class='hn-top-story-comments'>&#128172; 100</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Hardware</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='48' data-hn-time='1782338250'>
-<span class='hn-top-story-rank'>4</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/24/top_stories_06242026#story-48666100'>Elastic lays off 7% of employees</a>
- <a class='hn-top-story-link' href='https://www.elastic.co/blog/ceo-ash-kulkarni-announcement-to-elastic-employees' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Elastic宣布裁员7%</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.4</span> <span class='hn-top-story-score'>&#9650; 48</span> <span class='hn-top-story-comments'>&#128172; 14</span> <span class='hn-top-story-tag'>Business</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='515' data-hn-time='1782304303'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/24/top_stories_06242026#story-48658718'>Founding a company in Germany: €9600, 152 days and I still can't send an invoice</a>
- <a class='hn-top-story-link' href='https://paolino.me/founding-a-company-in-germany/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>在德国创办公司：9600欧元、152天，仍然无法开具发票</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.5</span> <span class='hn-top-story-score'>&#9650; 515</span> <span class='hn-top-story-comments'>&#128172; 618</span> <span class='hn-top-story-tag'>Startups</span> <span class='hn-top-story-tag'>Business</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='817' data-hn-time='1782291041'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='115' data-hn-time='1782348103'>
 <span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/24/top_stories_06242026#story-48667336'>LuaJIT 3.0 proposed syntax extensions</a>
+ <a class='hn-top-story-link' href='https://github.com/LuaJIT/LuaJIT/issues/1475' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>LuaJIT 3.0 的语法扩展提议</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 115</span> <span class='hn-top-story-comments'>&#128172; 63</span> <span class='hn-top-story-tag'>Programming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='873' data-hn-time='1782291041'>
+<span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/06/24/top_stories_06242026#story-48657030'>We’re making Bunny DNS free</a>
  <a class='hn-top-story-link' href='https://bunny.net/blog/were-making-bunny-dns-free/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Bunny DNS 免费开放</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.5</span> <span class='hn-top-story-score'>&#9650; 817</span> <span class='hn-top-story-comments'>&#128172; 250</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Web</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 873</span> <span class='hn-top-story-comments'>&#128172; 258</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='102' data-hn-time='1782330011'>
-<span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/24/top_stories_06242026#story-48664733'>GitHub shouldn't be a dependency for publishing Rust on crates.io</a>
- <a class='hn-top-story-link' href='https://infosec.exchange/@mttaggart/116806641273303255' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>crates.io 发布 Rust 不应再以 GitHub 为依赖</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.0</span> <span class='hn-top-story-score'>&#9650; 102</span> <span class='hn-top-story-comments'>&#128172; 38</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Security</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='324' data-hn-time='1782312101'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='265' data-hn-time='1782330481'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/24/top_stories_06242026#story-48660711'>RubyLLM: A Ruby framework for all major AI providers</a>
- <a class='hn-top-story-link' href='https://rubyllm.com/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/24/top_stories_06242026#story-48664814'>Anthropic says Alibaba illicitly extracted Claude AI model capabilities</a>
+ <a class='hn-top-story-link' href='https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>RubyLLM：面向所有主流 AI 提供商的 Ruby 框架</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.8</span> <span class='hn-top-story-score'>&#9650; 324</span> <span class='hn-top-story-comments'>&#128172; 50</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>Anthropic称阿里巴巴非法提取Claude AI模型能力</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 265</span> <span class='hn-top-story-comments'>&#128172; 450</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Legal</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='131' data-hn-time='1782321694'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='80' data-hn-time='1782351775'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/24/top_stories_06242026#story-48662999'>Computer use in Gemini 3.5 Flash</a>
- <a class='hn-top-story-link' href='https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/24/top_stories_06242026#story-48667807'>Bible as RAG Database</a>
+ <a class='hn-top-story-link' href='https://www.crosscanon.com/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Gemini 3.5 Flash 引入“计算机使用”能力</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 131</span> <span class='hn-top-story-comments'>&#128172; 83</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>圣经作为 RAG 数据库</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 80</span> <span class='hn-top-story-comments'>&#128172; 45</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='187' data-hn-time='1782312622'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='175' data-hn-time='1782338250'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/24/top_stories_06242026#story-48660839'>For Most of the World, Open-Source AI Is the Only Way Forward</a>
- <a class='hn-top-story-link' href='https://techstrong.ai/articles/for-most-of-the-world-open-source-ai-is-the-only-way-forward/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/24/top_stories_06242026#story-48666100'>Elastic lays off 7% of employees</a>
+ <a class='hn-top-story-link' href='https://www.elastic.co/blog/ceo-ash-kulkarni-announcement-to-elastic-employees' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>For Most of the World, Open-Source AI Is the Only Way Forward</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 187</span> <span class='hn-top-story-comments'>&#128172; 128</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>Elastic宣布裁员7%</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.7</span> <span class='hn-top-story-score'>&#9650; 175</span> <span class='hn-top-story-comments'>&#128172; 151</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/06/24/top_stories_06242026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>27</b> <span class="hn-row-sep">·</span> AI <b>24</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>29</b> <span class="hn-row-sep">·</span> AI <b>22</b></span>
 </a>
 </div>
 </div>
