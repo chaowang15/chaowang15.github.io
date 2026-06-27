@@ -20,7 +20,7 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='663' data-hn-time='1782498194'>
+<div class='hn-top-story-item' data-hn-score='935' data-hn-time='1782498194'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -28,10 +28,10 @@ Sort:
  <a class='hn-top-story-link' href='https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>美国政府将决定谁能使用 GPT‑5.6</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 22</span> <span class='hn-top-story-score'>&#9650; 663</span> <span class='hn-top-story-comments'>&#128172; 807</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.7</span> <span class='hn-top-story-score'>&#9650; 935</span> <span class='hn-top-story-comments'>&#128172; 1001</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='719' data-hn-time='1782493615'>
+<div class='hn-top-story-item' data-hn-score='924' data-hn-time='1782493615'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -39,95 +39,95 @@ Sort:
  <a class='hn-top-story-link' href='https://openai.com/index/previewing-gpt-5-6-sol/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>预览 GPT‑5.6 Sol：下一代模型</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 17</span> <span class='hn-top-story-score'>&#9650; 719</span> <span class='hn-top-story-comments'>&#128172; 447</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.3</span> <span class='hn-top-story-score'>&#9650; 924</span> <span class='hn-top-story-comments'>&#128172; 562</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='85' data-hn-time='1782508430'>
+<div class='hn-top-story-item' data-hn-score='334' data-hn-time='1782514108'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/26/top_stories_06262026#story-48692051'>We Can Still Stop California's 3D Printer Surveillance Scheme</a>
- <a class='hn-top-story-link' href='https://www.eff.org/deeplinks/2026/06/we-can-still-stop-californias-3d-printer-surveillance-scheme' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/26/top_stories_06262026#story-48692995'>U.S. allows Anthropic to release Mythos AI to ‘trusted’ US organizations</a>
+ <a class='hn-top-story-link' href='https://www.semafor.com/article/06/27/2026/us-releases-powerful-anthropic-model-mythos-to-some-us-companies' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>我们仍有机会阻止加州的3D 打印监控计划</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.7</span> <span class='hn-top-story-score'>&#9650; 85</span> <span class='hn-top-story-comments'>&#128172; 8</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>美国允许 Anthropic 将 Mythos AI 提供给“可信”的美国机构</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.4</span> <span class='hn-top-story-score'>&#9650; 334</span> <span class='hn-top-story-comments'>&#128172; 333</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='68' data-hn-time='1782508487'>
+<div class='hn-top-story-item' data-hn-score='253' data-hn-time='1782516826'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/26/top_stories_06262026#story-48692058'>The gap between open weights LLMs and closed source LLMs</a>
- <a class='hn-top-story-link' href='https://blog.doubleword.ai/frontier-os-llm' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/26/top_stories_06262026#story-48693391'>Om</a>
+ <a class='hn-top-story-link' href='https://daringfireball.net/2026/06/om' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>开源权重大模型与闭源大模型之间的差距</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.2</span> <span class='hn-top-story-score'>&#9650; 68</span> <span class='hn-top-story-comments'>&#128172; 41</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-zh'>Om</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.6</span> <span class='hn-top-story-score'>&#9650; 253</span> <span class='hn-top-story-comments'>&#128172; 15</span> <span class='hn-top-story-tag'>Design</span> <span class='hn-top-story-tag'>Culture</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='498' data-hn-time='1782478687'>
+<div class='hn-top-story-item' data-hn-score='316' data-hn-time='1782508430'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/26/top_stories_06262026#story-48686093'>Incident CVE-2026-LGTM</a>
- <a class='hn-top-story-link' href='https://nesbitt.io/2026/06/26/incident-report-cve-2026-lgtm.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/26/top_stories_06262026#story-48692051'>We can still stop California's 3D printer surveillance scheme</a>
+ <a class='hn-top-story-link' href='https://www.eff.org/deeplinks/2026/06/we-can-still-stop-californias-3d-printer-surveillance-scheme' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>事件 CVE-2026-LGTM</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.6</span> <span class='hn-top-story-score'>&#9650; 498</span> <span class='hn-top-story-comments'>&#128172; 82</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>我们仍有机会阻止加州的3D 打印监控计划</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.5</span> <span class='hn-top-story-score'>&#9650; 316</span> <span class='hn-top-story-comments'>&#128172; 114</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='84' data-hn-time='1782504438'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='173' data-hn-time='1782513809'>
 <span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/26/top_stories_06262026#story-48692946'>Why does kinetic energy increase quadratically, not linearly, with speed? (2011)</a>
+ <a class='hn-top-story-link' href='https://physics.stackexchange.com/questions/535/why-does-kinetic-energy-increase-quadratically-not-linearly-with-speed' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>为什么动能随速度的增加呈二次方增长，而不是线性？（2011）</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 173</span> <span class='hn-top-story-comments'>&#128172; 83</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Energy</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='238' data-hn-time='1782504438'>
+<span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/06/26/top_stories_06262026#story-48691346'>PlayStation Is Deleting 551 Movies from Customers' Accounts</a>
  <a class='hn-top-story-link' href='https://kotaku.com/playstation-store-movies-digital-studio-canal-terminator-2000711013' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>PlayStation 将账户中的551部电影删除</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.8</span> <span class='hn-top-story-score'>&#9650; 84</span> <span class='hn-top-story-comments'>&#128172; 29</span> <span class='hn-top-story-tag'>Entertainment</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Gaming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 238</span> <span class='hn-top-story-comments'>&#128172; 132</span> <span class='hn-top-story-tag'>Entertainment</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Gaming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='332' data-hn-time='1782483026'>
-<span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/26/top_stories_06262026#story-48686834'>Springer Nature has removed two studies by Max Planck</a>
- <a class='hn-top-story-link' href='https://www.science.org/content/article/why-have-papers-one-history-s-most-famous-physicists-been-retracted' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Springer Nature 已撤下两项马克斯·普朗克相关研究</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.5</span> <span class='hn-top-story-score'>&#9650; 332</span> <span class='hn-top-story-comments'>&#128172; 163</span> <span class='hn-top-story-tag'>Science</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='272' data-hn-time='1782485160'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='528' data-hn-time='1782478687'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/26/top_stories_06262026#story-48687272'>Jolla Phone (October 2026)</a>
- <a class='hn-top-story-link' href='https://commerce.jolla.com/products/jolla-phone-october-2026' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/26/top_stories_06262026#story-48686093'>Incident CVE-2026-LGTM</a>
+ <a class='hn-top-story-link' href='https://nesbitt.io/2026/06/26/incident-report-cve-2026-lgtm.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Jolla Phone（2026 年 10 月上市）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.1</span> <span class='hn-top-story-score'>&#9650; 272</span> <span class='hn-top-story-comments'>&#128172; 147</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>事件 CVE-2026-LGTM</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.7</span> <span class='hn-top-story-score'>&#9650; 528</span> <span class='hn-top-story-comments'>&#128172; 86</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='41' data-hn-time='1782508760'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='172' data-hn-time='1782508487'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/26/top_stories_06262026#story-48692098'>The National Parks Were Reportedly Told to Stay Silent on Deaths</a>
- <a class='hn-top-story-link' href='https://www.outsideonline.com/outdoor-adventure/environment/nps-internal-memo-deaths/?link_source=ta_first_comment&taid=6a3dae4f4d2dce00016deef8&utm_content=trueanthem&utm_medium=social&utm_source=facebook' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/26/top_stories_06262026#story-48692058'>The gap between open weights LLMs and closed source LLMs</a>
+ <a class='hn-top-story-link' href='https://blog.doubleword.ai/frontier-os-llm' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>国家公园被要求就死亡事件保持沉默</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.8</span> <span class='hn-top-story-score'>&#9650; 41</span> <span class='hn-top-story-comments'>&#128172; 7</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>开源权重大模型与闭源大模型之间的差距</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 172</span> <span class='hn-top-story-comments'>&#128172; 140</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='135' data-hn-time='1782494661'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1643' data-hn-time='1782402487'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/26/top_stories_06262026#story-48689275'>Data centers trigger voter backlash</a>
- <a class='hn-top-story-link' href='https://www.newsweek.com/cost-me-the-election-data-centers-trigger-voter-backlash-12118327' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/26/top_stories_06262026#story-48675179'>An entire Herculaneum scroll has been read for the first time</a>
+ <a class='hn-top-story-link' href='https://scrollprize.org/firstscroll' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>数据中心引发选民反对情绪，或影响选举</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 135</span> <span class='hn-top-story-comments'>&#128172; 243</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Energy</span> <span class='hn-top-story-tag'>DevOps</span></div>
+<div class='hn-top-story-zh'>整卷赫库伦尼亚卷轴首次被解读</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.1</span> <span class='hn-top-story-score'>&#9650; 1643</span> <span class='hn-top-story-comments'>&#128172; 359</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Culture</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/06/26/top_stories_06262026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>21</b> <span class="hn-row-sep">·</span> Programming <b>20</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>27</b> <span class="hn-row-sep">·</span> AI <b>21</b></span>
 </a>
 </div>
 </div>
