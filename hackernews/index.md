@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>128</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>18643</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>124</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>126</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-06-27</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>128</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>18693</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>125</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>126</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-06-27</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -132,7 +132,7 @@ Sort:
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
 <a class='hn-top-stories-more' href='/hackernews/2026/06/27/top_stories_06272026'>View all trending stories &rarr;</a>
-<a class='hn-top-stories-more' href='/hackernews/2026/06/25/best_stories_06252026'>Latest Daily Best — 2026-06-25 &rarr;</a>
+<a class='hn-top-stories-more' href='/hackernews/2026/06/26/best_stories_06262026'>Latest Daily Best — 2026-06-26 &rarr;</a>
 </div>
 </div>
 <div class='hn-index-section hn-archive-section'>
@@ -140,7 +140,7 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 26 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-06-22 — 2026-06-27 <span class="hn-row-sep">·</span> 749 stories <span class="hn-row-sep">·</span> 6 days</span>
+<span class='hn-week-meta'>2026-06-22 — 2026-06-27 <span class="hn-row-sep">·</span> 799 stories <span class="hn-row-sep">·</span> 6 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -156,6 +156,10 @@ Sort:
 <div class='hn-day-row'>
 <div class='hn-day-date'>2026-06-26 <span class='hn-day-weekday'>Fri</span></div>
 <div class='hn-day-stories'>
+<a class='hn-story-link' href='/hackernews/2026/06/26/best_stories_06262026'>
+<span class='hn-row-type hn-type-best'>Daily Best</span>
+<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>17</b> <span class="hn-row-sep">·</span> Politics <b>10</b></span>
+</a>
 <a class='hn-story-link' href='/hackernews/2026/06/26/top_stories_06262026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
 <span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>27</b> <span class="hn-row-sep">·</span> AI <b>21</b></span>
