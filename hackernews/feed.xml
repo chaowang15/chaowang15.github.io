@@ -5,7 +5,7 @@
     <link>https://chaowang15.github.io/hackernews/</link>
     <description>Curated daily digest of top Hacker News stories with AI-generated summaries, tags, and bilingual translations.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 28 Jun 2026 06:14:25 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jun 2026 09:23:24 +0000</lastBuildDate>
     <generator>Hacker News Daily RSS Builder</generator>
     <atom:link href="https://chaowang15.github.io/hackernews/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
@@ -77,10 +77,11 @@
       <dc:creator>minimaxir</dc:creator>
       <pubDate>Fri, 26 Jun 2026 17:06:55 +0000</pubDate>
       <category>AI</category>
+      <category>Business</category>
       <description>&lt;p&gt;A preview of GPT-5.6 Sol hints at a next‑generation model with stronger reasoning and more reliable tool use. It emphasizes speed and safety controls, and sheds light on deployment tradeoffs for developers building assistant-powered apps. The preview signals growing importance of governance and cost management as models scale.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;GPT‑5.6 Sol 的预览揭示了一个更强推理和更可靠工具调用的下一代模型。其强调速度和安全控制，并揭示开发者在构建智能助手时的部署取舍与成本管理。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 1109 · 💬 722 · AI&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48689028&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/27/top_stories_06272026#story-48689028&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;small&gt;▲ 1112 · 💬 723 · AI · Business&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48689028&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/28/top_stories_06282026#story-48689028&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Deno Desktop</title>
@@ -120,19 +121,6 @@
 &lt;p&gt;&lt;em&gt;Bunny DNS 将其域名解析服务免费化，降低个人站点和初创企业采用高效 DNS 的门槛。此举可能对竞争对手施压，促使行业普遍提供免费层，但也引发对未来盈利模式与可持续性的担忧。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 894 · 💬 264 · Startups · Business&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48657030&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/25/top_stories_06252026#story-48657030&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Identity verification on Claude</title>
-      <link>https://support.claude.com/en/articles/14328960-identity-verification-on-claude</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48618455</guid>
-      <dc:creator>bathory</dc:creator>
-      <pubDate>Sun, 21 Jun 2026 12:44:13 +0000</pubDate>
-      <category>Security</category>
-      <category>AI</category>
-      <description>&lt;p&gt;Claude includes an identity verification flow to control access for sensitive features and enterprise usage. The guide covers when verification is required, what methods are supported, and how it affects access privileges.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Claude 提供身份验证流程以控制对敏感功能和企业用途的访问。指南说明何时需要验证、支持哪些方法，以及对权限访问的影响。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 835 · 💬 691 · Security · AI&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48618455&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/21/top_stories_06212026#story-48618455&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Apple raises prices of MacBooks, iPads</title>
@@ -184,6 +172,32 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48630020&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/23/top_stories_06232026#story-48630020&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Anonymous GitHub account mass-dropping undisclosed 0-days</title>
+      <link>https://github.com/bikini/exploitarium</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48698617</guid>
+      <dc:creator>binyu</dc:creator>
+      <pubDate>Sat, 27 Jun 2026 14:31:00 +0000</pubDate>
+      <category>Security</category>
+      <category>Programming</category>
+      <description>&lt;p&gt;An anonymous GitHub account is dropping a flood of undisclosed zero-day exploits, with no vendor disclosure. This creates an elevated risk surface for downstream developers and security teams, who must assume exploits exist in the wild until patched. The incident highlights ongoing tensions in vulnerability disclosure norms and the difficulty of policing zero-day leaks in public repos.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;一个匿名的 GitHub 账户大量公开尚未披露的零日漏洞，且未向厂商通报。此举扩大了开发者和安全团队的攻击面，迫使他们尽快修补并加强威胁情报共享。事件暴露了漏洞披露规范的不足，以及在公开环境中对待零日漏洞的挑战。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 797 · 💬 312 · Security · Programming&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48698617&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/28/top_stories_06282026#story-48698617&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Identity verification on Claude</title>
+      <link>https://support.claude.com/en/articles/14328960-identity-verification-on-claude</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48618455</guid>
+      <dc:creator>bathory</dc:creator>
+      <pubDate>Sun, 21 Jun 2026 12:44:13 +0000</pubDate>
+      <category>AI</category>
+      <category>Security</category>
+      <description>&lt;p&gt;Claude includes an identity verification flow to control access for sensitive features and enterprise usage. The guide covers when verification is required, what methods are supported, and how it affects access privileges.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Claude 提供身份验证流程以控制对敏感功能和企业用途的访问。指南说明何时需要验证、支持哪些方法，以及对权限访问的影响。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 791 · 💬 661 · AI · Security&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48618455&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/22/top_stories_06222026#story-48618455&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Show HN: I made Google Trends for Hacker News by indexing 18 years of comments</title>
       <link>https://hackernewstrends.com</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=48673671</guid>
@@ -219,21 +233,8 @@
       <category>AI</category>
       <description>&lt;p&gt;DSpark introduces speculative decoding to speed up LLM inference, presenting a method to trade a bit of accuracy for substantial gains in throughput. The paper includes benchmarks and comparisons against baseline decoding strategies, highlighting practical implications for deploying faster AI services.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;DSpark 提出一种推测解码方法以加速大语言模型推理，在保持精度损失可控的前提下提升吞吐量。论文给出基准测试和与常规解码的对比，展示在部署更快的 AI 服务时的实际影响。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 750 · 💬 312 · AI&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48696585&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/27/top_stories_06272026#story-48696585&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Anonymous GitHub account mass-dropping undisclosed 0-days</title>
-      <link>https://github.com/bikini/exploitarium</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48698617</guid>
-      <dc:creator>binyu</dc:creator>
-      <pubDate>Sat, 27 Jun 2026 14:31:00 +0000</pubDate>
-      <category>Security</category>
-      <category>Programming</category>
-      <description>&lt;p&gt;An anonymous GitHub account is dropping a flood of undisclosed zero-day exploits, with no vendor disclosure. This creates an elevated risk surface for downstream developers and security teams, who must assume exploits exist in the wild until patched. The incident highlights ongoing tensions in vulnerability disclosure norms and the difficulty of policing zero-day leaks in public repos.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;一个匿名的 GitHub 账户大量公开尚未披露的零日漏洞，且未向厂商通报。此举扩大了开发者和安全团队的攻击面，迫使他们尽快修补并加强威胁情报共享。事件暴露了漏洞披露规范的不足，以及在公开环境中对待零日漏洞的挑战。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 749 · 💬 297 · Security · Programming&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48698617&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/27/top_stories_06272026#story-48698617&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;small&gt;▲ 760 · 💬 320 · AI&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48696585&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/28/top_stories_06282026#story-48696585&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Never Give Them Your Face</title>
@@ -246,6 +247,19 @@
 &lt;p&gt;&lt;em&gt;这篇文章聚焦生物识别隐私，主张避免向服务提供脸部数据，因为一旦暴露难以撤回。文中给出实际步骤以降低面部识别数据的泄露风险，并探讨在身份设计中应考虑的隐私治理要点。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 741 · 💬 439 · Privacy&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48630066&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/23/top_stories_06232026#story-48630066&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>OpenRA</title>
+      <link>https://www.openra.net/</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48697560</guid>
+      <dc:creator>tosh</dc:creator>
+      <pubDate>Sat, 27 Jun 2026 12:10:27 +0000</pubDate>
+      <category>Open Source</category>
+      <category>Gaming</category>
+      <description>&lt;p&gt;OpenRA remains a vibrant open-source platform that reimagines classic Command &amp; Conquer titles with a modern engine, cross-platform play, and active modding support. It illustrates how community-driven game projects keep retro favorites accessible and extensible long after the original releases.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;OpenRA 作为一个开源平台，持续以现代引擎重新演绎经典指挥与征服系列，支持跨平台对战与活跃的模组生态。该项目证明了社区驱动的游戏项目如何让怀旧游戏在当代保持可访问与可扩展。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 705 · 💬 132 · Open Source · Gaming&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48697560&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/28/top_stories_06282026#story-48697560&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Fired by Google for creating the Google workspace CLI</title>
@@ -279,11 +293,11 @@
       <dc:creator>HotGarbage</dc:creator>
       <pubDate>Sat, 27 Jun 2026 14:38:05 +0000</pubDate>
       <category>Legal</category>
-      <category>Politics</category>
+      <category>Business</category>
       <description>&lt;p&gt;A critique of how Meta handles whistleblowers, including legal tactics and public messaging that factions describe as aggressive suppression. The piece surveys the implications for corporate accountability, transparency, and whistleblower protections.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;评估 Meta 对吹哨人的应对策略，涉及法律手段与公共叙事，被指控为对吹哨人进行压制。讨论对企业问责、透明度以及吹哨人保护的影响。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 673 · 💬 241 · Legal · Politics&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48698684&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/27/top_stories_06272026#story-48698684&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;small&gt;▲ 693 · 💬 246 · Legal · Business&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48698684&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/28/top_stories_06282026#story-48698684&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Half-Life 2 in a Browser</title>
@@ -309,19 +323,6 @@
 &lt;p&gt;&lt;em&gt;F3 将推出一种面向未来的新型文件格式，强调简单、可扩展和向后兼容性，旨在提高数据交换的鲁棒性。该项目体现了对自描述数据格式和跨工具互操作性的重视。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 648 · 💬 133 · Data&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48647799&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/24/top_stories_06242026#story-48647799&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>OpenRA</title>
-      <link>https://www.openra.net/</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48697560</guid>
-      <dc:creator>tosh</dc:creator>
-      <pubDate>Sat, 27 Jun 2026 12:10:27 +0000</pubDate>
-      <category>Open Source</category>
-      <category>Gaming</category>
-      <description>&lt;p&gt;OpenRA remains a vibrant open-source platform that reimagines classic Command &amp; Conquer titles with a modern engine, cross-platform play, and active modding support. It illustrates how community-driven game projects keep retro favorites accessible and extensible long after the original releases.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;OpenRA 作为一个开源平台，持续以现代引擎重新演绎经典指挥与征服系列，支持跨平台对战与活跃的模组生态。该项目证明了社区驱动的游戏项目如何让怀旧游戏在当代保持可访问与可扩展。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 642 · 💬 127 · Open Source · Gaming&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48697560&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/27/top_stories_06272026#story-48697560&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Flock-Powered Police Chiefs Stalking Women Shows Why Warrants Are Needed</title>
@@ -428,6 +429,20 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48661825&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/25/top_stories_06252026#story-48661825&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Fintech Engineering Handbook</title>
+      <link>https://w.pitula.me/fintech-engineering-handbook/</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48696982</guid>
+      <dc:creator>signa11</dc:creator>
+      <pubDate>Sat, 27 Jun 2026 10:28:53 +0000</pubDate>
+      <category>Finance</category>
+      <category>Education</category>
+      <category>Security</category>
+      <description>&lt;p&gt;A newly compiled handbook covering fintech engineering fundamentals, including architecture patterns, security considerations, and deployment practices tailored for financial software. It serves as a practical reference for building resilient, compliant fintech systems.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;一本新整理的金融科技工程手册，涵盖架构模式、安全要点与面向金融软件的部署实践等内容。为构建高可用、合规的金融科技系统提供实用参考。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 559 · 💬 173 · Finance · Education · Security&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48696982&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/28/top_stories_06282026#story-48696982&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Incident CVE-2026-LGTM</title>
       <link>https://nesbitt.io/2026/06/26/incident-report-cve-2026-lgtm.html</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=48686093</guid>
@@ -451,18 +466,6 @@
 &lt;p&gt;&lt;em&gt;一个有趣的失误揭示了 wigglegram（由多帧拼接成的动画）是如何生成的，以及如何无意中发布带有动效的图片。文中解析了这类效果的制作要点，并给出修正或避免意外动效的建议。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 553 · 💬 126 · Entertainment · Design&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48605561&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/23/top_stories_06232026#story-48605561&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>GPT-5.5 hallucinates 3x more than MIT-licensed GLM-5.2</title>
-      <link>https://arrowtsx.dev/bigger-models/</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48600167</guid>
-      <dc:creator>oshrimpton</dc:creator>
-      <pubDate>Fri, 19 Jun 2026 16:11:25 +0000</pubDate>
-      <category>AI</category>
-      <description>&lt;p&gt;A practical comparison shows GPT-5.5 hallucinates far more than GLM-5.2, raising reliability concerns for next-gen models.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;评测显示，在相同条件下，GPT-5.5 的幻觉率比 MIT 许可的 GLM-5.2 高出约三倍，这让人担忧大模型的可靠性。文中讨论可能的原因，以及这对依赖对话型助手的开发者意味着什么。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 548 · 💬 280 · AI&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48600167&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/21/top_stories_06212026#story-48600167&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>U.S. allows Anthropic to release Mythos AI to ‘trusted’ US organizations</title>
@@ -517,34 +520,6 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48622778&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/22/top_stories_06222026#story-48622778&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Fintech Engineering Handbook</title>
-      <link>https://w.pitula.me/fintech-engineering-handbook/</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48696982</guid>
-      <dc:creator>signa11</dc:creator>
-      <pubDate>Sat, 27 Jun 2026 10:28:53 +0000</pubDate>
-      <category>Finance</category>
-      <category>Education</category>
-      <category>Security</category>
-      <description>&lt;p&gt;A newly compiled handbook covering fintech engineering fundamentals, including architecture patterns, security considerations, and deployment practices tailored for financial software. It serves as a practical reference for building resilient, compliant fintech systems.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;一本新整理的金融科技工程手册，涵盖架构模式、安全要点与面向金融软件的部署实践等内容。为构建高可用、合规的金融科技系统提供实用参考。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 518 · 💬 166 · Finance · Education · Security&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48696982&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/27/top_stories_06272026#story-48696982&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>CSSQuake</title>
-      <link>https://cssquake.com/</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48608223</guid>
-      <dc:creator>msalsas</dc:creator>
-      <pubDate>Sat, 20 Jun 2026 10:49:53 +0000</pubDate>
-      <category>Web</category>
-      <category>Design</category>
-      <category>Programming</category>
-      <description>&lt;p&gt;CSSQuake is a browser-based project that demonstrates CSS-driven visuals in a quake-inspired demo. It showcases how far CSS alone can push interactive, game-like experiences without heavy JavaScript.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;CSSQuake 是一个在浏览器中展示 CSS 驱动视觉效果的 quake 风格演示。它展示了仅用 CSS 就能实现接近游戏体验的交互能力。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 517 · 💬 110 · Web · Design · Programming&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48608223&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/21/top_stories_06212026#story-48608223&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>GLM 5.2 vs. Opus</title>
       <link>https://techstackups.com/comparisons/glm-5.2-vs-opus/</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=48626866</guid>
@@ -568,18 +543,6 @@
 &lt;p&gt;&lt;em&gt;LastPass 再次警示用户发生数据泄露，凸显凭证管理工具持续存在的安全风险。此次更新强调开启多因素认证、使用基于设备的安全密钥，以及对敏感账户实行零信任策略的重要性。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 508 · 💬 223 · Security · Privacy&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48671468&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/25/top_stories_06252026#story-48671468&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Loupe – A iOS app that raises awareness about what native apps can see</title>
-      <link>https://github.com/mysk-research/loupe</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48608645</guid>
-      <dc:creator>Cider9986</dc:creator>
-      <pubDate>Sat, 20 Jun 2026 12:08:23 +0000</pubDate>
-      <category>Privacy</category>
-      <description>&lt;p&gt;Loupe is an iOS app that visually demonstrates what native apps can access on-device, helping users understand app permissions and data exposure. The project underscores the importance of privacy transparency in mobile ecosystems.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Loupe 是一款用来直观展示原生应用能访问哪些数据的 iOS 应用，帮助用户理解应用权限与数据暴露。该项目凸显了移动生态系统中隐私透明度的重要性。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 505 · 💬 214 · Privacy&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48608645&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/21/top_stories_06212026#story-48608645&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Mistral OCR 4</title>
@@ -608,19 +571,6 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48626930&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/22/top_stories_06222026#story-48626930&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Beyond All Reason (Free Total Annihilation Inspired RTS)</title>
-      <link>https://www.beyondallreason.info</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48617990</guid>
-      <dc:creator>mosiuerbarso</dc:creator>
-      <pubDate>Sun, 21 Jun 2026 11:38:01 +0000</pubDate>
-      <category>Gaming</category>
-      <category>Open Source</category>
-      <description>&lt;p&gt;Beyond All Reason is a free, community-driven RTS inspired by Total Annihilation, offering large-scale battles and classic resource economics. Built with modern, mod-friendly architecture, it emphasizes open development and cross-platform play, sustaining retro RTS enthusiasm.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Beyond All Reason 是一款免费、由社区驱动的实时策略游戏，受《Total Annihilation》启发，提供大规模战斗与经典资源系统。它采用现代化、便于修改的架构，强调开源开发与跨平台对战，延续对经典 RTS 的热爱。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 490 · 💬 297 · Gaming · Open Source&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48617990&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/21/top_stories_06212026#story-48617990&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Israel targeted Gaza children resulting in genocide, UN inquiry says</title>
       <link>https://www.reuters.com/world/middle-east/israel-targeted-gaza-children-resulting-genocide-un-inquiry-says-2026-06-23/</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=48642784</guid>
@@ -645,6 +595,60 @@
 &lt;p&gt;&lt;em&gt;对符号 Om 的简短反思，讨论其在科技文化中的专注、正念或设计相关含义。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 482 · 💬 22 · Design · Culture&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48693391&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/27/top_stories_06272026#story-48693391&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Beyond All Reason (Free Total Annihilation Inspired RTS)</title>
+      <link>https://www.beyondallreason.info</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48617990</guid>
+      <dc:creator>mosiuerbarso</dc:creator>
+      <pubDate>Sun, 21 Jun 2026 11:38:01 +0000</pubDate>
+      <category>Gaming</category>
+      <description>&lt;p&gt;Beyond All Reason is a free, community-driven RTS inspired by Total Annihilation, offering large-scale battles and classic resource economics. Built with modern, mod-friendly architecture, it emphasizes open development and cross-platform play, sustaining retro RTS enthusiasm.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Beyond All Reason 是一款免费、由社区驱动的实时策略游戏，受《Total Annihilation》启发，提供大规模战斗与经典资源系统。它采用现代化、便于修改的架构，强调开源开发与跨平台对战，延续对经典 RTS 的热爱。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 482 · 💬 288 · Gaming&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48617990&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/22/top_stories_06222026#story-48617990&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Unlimited OCR: One-shot long-horizon parsing</title>
+      <link>https://github.com/baidu/Unlimited-OCR</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48643426</guid>
+      <dc:creator>ingve</dc:creator>
+      <pubDate>Tue, 23 Jun 2026 11:35:05 +0000</pubDate>
+      <category>AI</category>
+      <description>&lt;p&gt;Unlimited OCR introduces one-shot long-horizon parsing for documents, enabling robust recognition and parsing over long content in a single pass. This advancement improves efficiency for enterprise document processing and hints at broader capabilities for scalable OCR in long-form workflows.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Unlimited OCR 提出一次性对长篇文档进行解析的能力，提升单次完成对长文本的识别与解析的鲁棒性与效率。该进展有望显著优化企业级文档处理，并推动长文档工作流中的 OCR 能力扩展。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 478 · 💬 108 · AI&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48643426&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/23/top_stories_06232026#story-48643426&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>45°C cooling design cuts data center water use to near zero</title>
+      <link>https://blogs.nvidia.com/blog/liquid-cooling-ai-factories/</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48660178</guid>
+      <dc:creator>nitin_flanker</dc:creator>
+      <pubDate>Wed, 24 Jun 2026 14:10:11 +0000</pubDate>
+      <category>Hardware</category>
+      <category>Energy</category>
+      <category>AI</category>
+      <category>DevOps</category>
+      <description>&lt;p&gt;NVIDIA outlines a cooling strategy that uses 45°C water to remove heat, dramatically cutting data center water use and enabling simpler plumbing. The approach could lower OPEX for AI/data workloads and influence future data center infrastructure.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;英伟达介绍了一种使用 45°C 的热水进行散热的设计，显著降低数据中心的用水量并简化管路。该方案有望降低 AI/数据工作负载的数据中心运营成本，并可能影响未来的基础设施设计。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 471 · 💬 412 · Hardware · Energy · AI · DevOps&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48660178&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/25/top_stories_06252026#story-48660178&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>We can still stop California's 3D printer surveillance scheme</title>
+      <link>https://www.eff.org/deeplinks/2026/06/we-can-still-stop-californias-3d-printer-surveillance-scheme</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48692051</guid>
+      <dc:creator>hn_acker</dc:creator>
+      <pubDate>Fri, 26 Jun 2026 21:13:50 +0000</pubDate>
+      <category>Privacy</category>
+      <category>Legal</category>
+      <category>Hardware</category>
+      <category>Politics</category>
+      <description>&lt;p&gt;Describes ongoing efforts to derail California's proposed 3D printer surveillance regime, citing civil liberties concerns, policy pathways, and legal challenges. The piece frames maker freedoms and open hardware as a battleground in digital fabrication governance, with organizers mobilizing public pressure and legislative action.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;阐述阻止加州拟议的3D打印监控计划的努力，强调公民自由与开源硬件的相关性，以及通过法律与公共动员寻求改变的路径。文章指出监管举措对创客与数字制造的影响以及未来政策走向的博弈。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 455 · 💬 162 · Privacy · Legal · Hardware · Politics&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48692051&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/27/top_stories_06272026#story-48692051&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
