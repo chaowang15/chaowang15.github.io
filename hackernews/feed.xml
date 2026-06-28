@@ -5,7 +5,7 @@
     <link>https://chaowang15.github.io/hackernews/</link>
     <description>Curated daily digest of top Hacker News stories with AI-generated summaries, tags, and bilingual translations.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 27 Jun 2026 22:57:07 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jun 2026 06:14:25 +0000</lastBuildDate>
     <generator>Hacker News Daily RSS Builder</generator>
     <atom:link href="https://chaowang15.github.io/hackernews/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
@@ -79,7 +79,7 @@
       <category>AI</category>
       <description>&lt;p&gt;A preview of GPT-5.6 Sol hints at a next‑generation model with stronger reasoning and more reliable tool use. It emphasizes speed and safety controls, and sheds light on deployment tradeoffs for developers building assistant-powered apps. The preview signals growing importance of governance and cost management as models scale.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;GPT‑5.6 Sol 的预览揭示了一个更强推理和更可靠工具调用的下一代模型。其强调速度和安全控制，并揭示开发者在构建智能助手时的部署取舍与成本管理。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 1101 · 💬 711 · AI&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 1109 · 💬 722 · AI&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48689028&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/27/top_stories_06272026#story-48689028&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
@@ -211,6 +211,31 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48664814&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/25/top_stories_06252026#story-48664814&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>DSpark: Speculative decoding accelerates LLM inference [pdf]</title>
+      <link>https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48696585</guid>
+      <dc:creator>aurenvale</dc:creator>
+      <pubDate>Sat, 27 Jun 2026 09:18:52 +0000</pubDate>
+      <category>AI</category>
+      <description>&lt;p&gt;DSpark introduces speculative decoding to speed up LLM inference, presenting a method to trade a bit of accuracy for substantial gains in throughput. The paper includes benchmarks and comparisons against baseline decoding strategies, highlighting practical implications for deploying faster AI services.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;DSpark 提出一种推测解码方法以加速大语言模型推理，在保持精度损失可控的前提下提升吞吐量。论文给出基准测试和与常规解码的对比，展示在部署更快的 AI 服务时的实际影响。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 750 · 💬 312 · AI&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48696585&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/27/top_stories_06272026#story-48696585&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Anonymous GitHub account mass-dropping undisclosed 0-days</title>
+      <link>https://github.com/bikini/exploitarium</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48698617</guid>
+      <dc:creator>binyu</dc:creator>
+      <pubDate>Sat, 27 Jun 2026 14:31:00 +0000</pubDate>
+      <category>Security</category>
+      <category>Programming</category>
+      <description>&lt;p&gt;An anonymous GitHub account is dropping a flood of undisclosed zero-day exploits, with no vendor disclosure. This creates an elevated risk surface for downstream developers and security teams, who must assume exploits exist in the wild until patched. The incident highlights ongoing tensions in vulnerability disclosure norms and the difficulty of policing zero-day leaks in public repos.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;一个匿名的 GitHub 账户大量公开尚未披露的零日漏洞，且未向厂商通报。此举扩大了开发者和安全团队的攻击面，迫使他们尽快修补并加强威胁情报共享。事件暴露了漏洞披露规范的不足，以及在公开环境中对待零日漏洞的挑战。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 749 · 💬 297 · Security · Programming&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48698617&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/27/top_stories_06272026#story-48698617&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Never Give Them Your Face</title>
       <link>https://nevergivethemyourface.com/</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=48630066</guid>
@@ -221,18 +246,6 @@
 &lt;p&gt;&lt;em&gt;这篇文章聚焦生物识别隐私，主张避免向服务提供脸部数据，因为一旦暴露难以撤回。文中给出实际步骤以降低面部识别数据的泄露风险，并探讨在身份设计中应考虑的隐私治理要点。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 741 · 💬 439 · Privacy&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48630066&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/23/top_stories_06232026#story-48630066&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>DSpark: Speculative decoding accelerates LLM inference [pdf]</title>
-      <link>https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48696585</guid>
-      <dc:creator>aurenvale</dc:creator>
-      <pubDate>Sat, 27 Jun 2026 09:18:52 +0000</pubDate>
-      <category>AI</category>
-      <description>&lt;p&gt;DSpark introduces speculative decoding to speed up LLM inference, presenting a method to trade a bit of accuracy for substantial gains in throughput. The paper includes benchmarks and comparisons against baseline decoding strategies, highlighting practical implications for deploying faster AI services.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;DSpark 提出一种推测解码方法以加速大语言模型推理，在保持精度损失可控的前提下提升吞吐量。论文给出基准测试和与常规解码的对比，展示在部署更快的 AI 服务时的实际影响。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 706 · 💬 292 · AI&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48696585&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/27/top_stories_06272026#story-48696585&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Fired by Google for creating the Google workspace CLI</title>
@@ -260,6 +273,19 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48648619&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/24/top_stories_06242026#story-48648619&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Zuckerberg's war on whistleblowers</title>
+      <link>https://pluralistic.net/2026/06/27/zuckerstreisand-2/</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48698684</guid>
+      <dc:creator>HotGarbage</dc:creator>
+      <pubDate>Sat, 27 Jun 2026 14:38:05 +0000</pubDate>
+      <category>Legal</category>
+      <category>Politics</category>
+      <description>&lt;p&gt;A critique of how Meta handles whistleblowers, including legal tactics and public messaging that factions describe as aggressive suppression. The piece surveys the implications for corporate accountability, transparency, and whistleblower protections.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;评估 Meta 对吹哨人的应对策略，涉及法律手段与公共叙事，被指控为对吹哨人进行压制。讨论对企业问责、透明度以及吹哨人保护的影响。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 673 · 💬 241 · Legal · Politics&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48698684&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/27/top_stories_06272026#story-48698684&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Half-Life 2 in a Browser</title>
       <link>https://hl2.slqnt.dev/</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=48669534</guid>
@@ -283,6 +309,19 @@
 &lt;p&gt;&lt;em&gt;F3 将推出一种面向未来的新型文件格式，强调简单、可扩展和向后兼容性，旨在提高数据交换的鲁棒性。该项目体现了对自描述数据格式和跨工具互操作性的重视。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 648 · 💬 133 · Data&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48647799&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/24/top_stories_06242026#story-48647799&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>OpenRA</title>
+      <link>https://www.openra.net/</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48697560</guid>
+      <dc:creator>tosh</dc:creator>
+      <pubDate>Sat, 27 Jun 2026 12:10:27 +0000</pubDate>
+      <category>Open Source</category>
+      <category>Gaming</category>
+      <description>&lt;p&gt;OpenRA remains a vibrant open-source platform that reimagines classic Command &amp; Conquer titles with a modern engine, cross-platform play, and active modding support. It illustrates how community-driven game projects keep retro favorites accessible and extensible long after the original releases.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;OpenRA 作为一个开源平台，持续以现代引擎重新演绎经典指挥与征服系列，支持跨平台对战与活跃的模组生态。该项目证明了社区驱动的游戏项目如何让怀旧游戏在当代保持可访问与可扩展。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 642 · 💬 127 · Open Source · Gaming&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48697560&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/27/top_stories_06272026#story-48697560&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Flock-Powered Police Chiefs Stalking Women Shows Why Warrants Are Needed</title>
@@ -337,19 +376,6 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48648959&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/24/top_stories_06242026#story-48648959&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Anonymous GitHub account mass-dropping undisclosed 0-days</title>
-      <link>https://github.com/bikini/exploitarium</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48698617</guid>
-      <dc:creator>binyu</dc:creator>
-      <pubDate>Sat, 27 Jun 2026 14:31:00 +0000</pubDate>
-      <category>Security</category>
-      <category>Programming</category>
-      <description>&lt;p&gt;An anonymous GitHub account is dropping a flood of undisclosed zero-day exploits, with no vendor disclosure. This creates an elevated risk surface for downstream developers and security teams, who must assume exploits exist in the wild until patched. The incident highlights ongoing tensions in vulnerability disclosure norms and the difficulty of policing zero-day leaks in public repos.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;一个匿名的 GitHub 账户大量公开尚未披露的零日漏洞，且未向厂商通报。此举扩大了开发者和安全团队的攻击面，迫使他们尽快修补并加强威胁情报共享。事件暴露了漏洞披露规范的不足，以及在公开环境中对待零日漏洞的挑战。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 589 · 💬 232 · Security · Programming&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48698617&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/27/top_stories_06272026#story-48698617&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Founding a company in Germany: €9600, 152 days and I still can't send an invoice</title>
       <link>https://paolino.me/founding-a-company-in-germany/</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=48658718</guid>
@@ -387,19 +413,6 @@
 &lt;p&gt;&lt;em&gt;Jerry's Map 看起来是一个用于可视化地理数据的交互式地图项目。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 574 · 💬 65 · Data · Web&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48649435&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/24/top_stories_06242026#story-48649435&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Zuckerberg's war on whistleblowers</title>
-      <link>https://pluralistic.net/2026/06/27/zuckerstreisand-2/</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48698684</guid>
-      <dc:creator>HotGarbage</dc:creator>
-      <pubDate>Sat, 27 Jun 2026 14:38:05 +0000</pubDate>
-      <category>Business</category>
-      <category>Legal</category>
-      <description>&lt;p&gt;A critique of how Meta handles whistleblowers, including legal tactics and public messaging that factions describe as aggressive suppression. The piece surveys the implications for corporate accountability, transparency, and whistleblower protections.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;评估 Meta 对吹哨人的应对策略，涉及法律手段与公共叙事，被指控为对吹哨人进行压制。讨论对企业问责、透明度以及吹哨人保护的影响。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 573 · 💬 203 · Business · Legal&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48698684&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/27/top_stories_06272026#story-48698684&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>There are a few things that I look back on as my mistakes in the early days</title>
@@ -504,17 +517,18 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48622778&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/22/top_stories_06222026#story-48622778&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>OpenRA</title>
-      <link>https://www.openra.net/</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48697560</guid>
-      <dc:creator>tosh</dc:creator>
-      <pubDate>Sat, 27 Jun 2026 12:10:27 +0000</pubDate>
-      <category>Open Source</category>
-      <category>Gaming</category>
-      <description>&lt;p&gt;OpenRA remains a vibrant open-source platform that reimagines classic Command &amp; Conquer titles with a modern engine, cross-platform play, and active modding support. It illustrates how community-driven game projects keep retro favorites accessible and extensible long after the original releases.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;OpenRA 作为一个开源平台，持续以现代引擎重新演绎经典指挥与征服系列，支持跨平台对战与活跃的模组生态。该项目证明了社区驱动的游戏项目如何让怀旧游戏在当代保持可访问与可扩展。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 522 · 💬 95 · Open Source · Gaming&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48697560&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/27/top_stories_06272026#story-48697560&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+      <title>Fintech Engineering Handbook</title>
+      <link>https://w.pitula.me/fintech-engineering-handbook/</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48696982</guid>
+      <dc:creator>signa11</dc:creator>
+      <pubDate>Sat, 27 Jun 2026 10:28:53 +0000</pubDate>
+      <category>Finance</category>
+      <category>Education</category>
+      <category>Security</category>
+      <description>&lt;p&gt;A newly compiled handbook covering fintech engineering fundamentals, including architecture patterns, security considerations, and deployment practices tailored for financial software. It serves as a practical reference for building resilient, compliant fintech systems.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;一本新整理的金融科技工程手册，涵盖架构模式、安全要点与面向金融软件的部署实践等内容。为构建高可用、合规的金融科技系统提供实用参考。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 518 · 💬 166 · Finance · Education · Security&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48696982&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/27/top_stories_06272026#story-48696982&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>CSSQuake</title>
@@ -625,23 +639,12 @@
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=48693391</guid>
       <dc:creator>throw0101a</dc:creator>
       <pubDate>Fri, 26 Jun 2026 23:33:46 +0000</pubDate>
+      <category>Design</category>
       <category>Culture</category>
       <description>&lt;p&gt;A brief reflection centered on the symbol Om and its relevance to focus, mindfulness, or design in technology culture.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;对符号 Om 的简短反思，讨论其在科技文化中的专注、正念或设计相关含义。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 482 · 💬 22 · Culture&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 482 · 💬 22 · Design · Culture&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48693391&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/27/top_stories_06272026#story-48693391&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Unlimited OCR: One-shot long-horizon parsing</title>
-      <link>https://github.com/baidu/Unlimited-OCR</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=48643426</guid>
-      <dc:creator>ingve</dc:creator>
-      <pubDate>Tue, 23 Jun 2026 11:35:05 +0000</pubDate>
-      <category>AI</category>
-      <description>&lt;p&gt;Unlimited OCR introduces one-shot long-horizon parsing for documents, enabling robust recognition and parsing over long content in a single pass. This advancement improves efficiency for enterprise document processing and hints at broader capabilities for scalable OCR in long-form workflows.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Unlimited OCR 提出一次性对长篇文档进行解析的能力，提升单次完成对长文本的识别与解析的鲁棒性与效率。该进展有望显著优化企业级文档处理，并推动长文档工作流中的 OCR 能力扩展。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 478 · 💬 108 · AI&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=48643426&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/06/23/top_stories_06232026#story-48643426&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
