@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>131</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>19144</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>128</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>129</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-06-30</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>131</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>19169</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>128</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>129</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-06-30</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='182' data-hn-time='1782796622'>
+<div class='hn-top-story-item' data-hn-score='204' data-hn-time='1782833704'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/30/top_stories_06302026#story-48728740'>US Supreme Court Just Blew Up EU-US Data Transfers</a>
- <a class='hn-top-story-link' href='https://noyb.eu/en/us-supreme-court-just-blew-eu-us-data-transfers' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/30/top_stories_06302026#story-48734234'>The labor share of income in the US is at its lowest post-war level</a>
+ <a class='hn-top-story-link' href='https://libertystreeteconomics.newyorkfed.org/2026/06/the-post-covid-decline-in-the-labor-share/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>美国最高法院刚刚瓦解欧盟-美国数据传输规则</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.0</span> <span class='hn-top-story-score'>&#9650; 182</span> <span class='hn-top-story-comments'>&#128172; 125</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Legal</span></div>
+<div class='hn-top-story-zh'>美国劳动收入份额降至战后最低水平</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 31</span> <span class='hn-top-story-score'>&#9650; 204</span> <span class='hn-top-story-comments'>&#128172; 95</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Health</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='921' data-hn-time='1782752716'>
+<div class='hn-top-story-item' data-hn-score='171' data-hn-time='1782834264'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/30/top_stories_06302026#story-48721903'>Qwen 3.6 27B is the sweet spot for local development</a>
- <a class='hn-top-story-link' href='https://quesma.com/blog/qwen-36-is-awesome/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/30/top_stories_06302026#story-48734373'>Claude Code Is Steganographically Marking Requests</a>
+ <a class='hn-top-story-link' href='https://thereallo.dev/blog/claude-code-prompt-steganography' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Qwen 3.6 27B：本地开发的最佳平衡点</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.7</span> <span class='hn-top-story-score'>&#9650; 921</span> <span class='hn-top-story-comments'>&#128172; 615</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>Claude Code 以隐写方式标记请求</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 29</span> <span class='hn-top-story-score'>&#9650; 171</span> <span class='hn-top-story-comments'>&#128172; 36</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='130' data-hn-time='1782796475'>
+<div class='hn-top-story-item' data-hn-score='569' data-hn-time='1782815783'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/30/top_stories_06302026#story-48728729'>Popping the GPU Bubble</a>
- <a class='hn-top-story-link' href='https://moondream.ai/blog/popping-the-gpu-bubble' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/30/top_stories_06302026#story-48730729'>European digital ID wallets rely on safety services of Google and Apple</a>
+ <a class='hn-top-story-link' href='https://waag.org/en/article/european-digital-id-wallets-are-gift-google-and-apple/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>戳破GPU泡沫</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.3</span> <span class='hn-top-story-score'>&#9650; 130</span> <span class='hn-top-story-comments'>&#128172; 32</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>欧洲数字身份证钱包依赖谷歌和苹果的安全服务</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 14</span> <span class='hn-top-story-score'>&#9650; 569</span> <span class='hn-top-story-comments'>&#128172; 238</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='514' data-hn-time='1782762568'>
+<div class='hn-top-story-item' data-hn-score='606' data-hn-time='1782814515'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/30/top_stories_06302026#story-48724230'>.self: A new top-level domain designed to support self-hosting</a>
- <a class='hn-top-story-link' href='https://hccf.onmy.cloud/2026/06/21/reclaiming-our-digital-selves-hccfs-vision-for-a-human-centered-top-level-domain/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/30/top_stories_06302026#story-48730608'>The US ambassador had Belgian police stop our reporting</a>
+ <a class='hn-top-story-link' href='https://europeancorrespondent.com/en/r/the-us-ambassador-had-belgian-police-stop-our-reporting' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>.self：为自托管设计的新顶级域名</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 514</span> <span class='hn-top-story-comments'>&#128172; 294</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>美大使让比利时警方叫停报道</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 14</span> <span class='hn-top-story-score'>&#9650; 606</span> <span class='hn-top-story-comments'>&#128172; 247</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Legal</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='526' data-hn-time='1782748464'>
+<div class='hn-top-story-item' data-hn-score='111' data-hn-time='1782828869'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/30/top_stories_06302026#story-48720924'>US Supreme Court rules geofence warrants require constitutional protections</a>
- <a class='hn-top-story-link' href='https://www.theguardian.com/us-news/2026/jun/29/supreme-court-geofence-warrants-case-decision' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/30/top_stories_06302026#story-48733031'>Looking Ahead to Postgres 19</a>
+ <a class='hn-top-story-link' href='https://www.snowflake.com/en/blog/engineering/postgresql-19-features-beta/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>美国最高法院裁定地理围栏检 warrants 需宪法保护</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 526</span> <span class='hn-top-story-comments'>&#128172; 247</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Legal</span></div>
+<div class='hn-top-story-zh'>展望 PostgreSQL 19</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.4</span> <span class='hn-top-story-score'>&#9650; 111</span> <span class='hn-top-story-comments'>&#128172; 67</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Data</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='225' data-hn-time='1782771660'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='43' data-hn-time='1782832634'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/30/top_stories_06302026#story-48726102'>South Korea to spend $1T on more memory chip production and humanoid robots</a>
- <a class='hn-top-story-link' href='https://arstechnica.com/ai/2026/06/south-korea-to-spend-1t-on-more-memory-chip-production-and-humanoid-robots/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/30/top_stories_06302026#story-48733937'>We moved our Bluesky data to Eurosky</a>
+ <a class='hn-top-story-link' href='https://waag.org/en/article/why-we-moved-our-bluesky-data-eurosky/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>韩国拟斥资1万亿美元扩产内存芯片并推进人形机器人</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.1</span> <span class='hn-top-story-score'>&#9650; 225</span> <span class='hn-top-story-comments'>&#128172; 153</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>我们把 Bluesky 数据迁移到 Eurosky</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.4</span> <span class='hn-top-story-score'>&#9650; 43</span> <span class='hn-top-story-comments'>&#128172; 25</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='146' data-hn-time='1782779411'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='24' data-hn-time='1782835546'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/30/top_stories_06302026#story-48727116'>LongCat-2.0, a large-scale MoE model with 1.6T total and 48B Active</a>
- <a class='hn-top-story-link' href='https://longcat.chat/blog/longcat-2.0/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/30/top_stories_06302026#story-48734699'>County with 37 Data Centers Asks Schools to 'Conserve Electricity'</a>
+ <a class='hn-top-story-link' href='https://www.404media.co/henrico-virginia-datacenter-energy-cost-email/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>LongCat-2.0：总参数1.6万亿、活跃参数48亿的超大规模MoE模型</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.8</span> <span class='hn-top-story-score'>&#9650; 146</span> <span class='hn-top-story-comments'>&#128172; 42</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>拥有37座数据中心的郡要求学校节电</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.1</span> <span class='hn-top-story-score'>&#9650; 24</span> <span class='hn-top-story-comments'>&#128172; 9</span> <span class='hn-top-story-tag'>Energy</span> <span class='hn-top-story-tag'>DevOps</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='383' data-hn-time='1782749235'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='99' data-hn-time='1782823671'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/30/top_stories_06302026#story-48721072'>European ISPs Want Rightsholders Held Accountable for Overblocking Damage</a>
- <a class='hn-top-story-link' href='https://torrentfreak.com/european-isps-want-rightsholders-held-accountable-for-overblocking-damage/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/30/top_stories_06302026#story-48731989'>Memoirs of Extraordinary Popular Delusions and the Madness of Crowds (1852)</a>
+ <a class='hn-top-story-link' href='https://www.gutenberg.org/ebooks/24518' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>欧洲 ISP 希望权利方对过度拦截造成的损害负责</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.8</span> <span class='hn-top-story-score'>&#9650; 383</span> <span class='hn-top-story-comments'>&#128172; 112</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>《群体的非凡错觉与众人的疯狂》（1852）</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.4</span> <span class='hn-top-story-score'>&#9650; 99</span> <span class='hn-top-story-comments'>&#128172; 24</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Culture</span> <span class='hn-top-story-tag'>Finance</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='128' data-hn-time='1782779899'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='146' data-hn-time='1782815462'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/30/top_stories_06302026#story-48727177'>Memory Safe Context Switching</a>
- <a class='hn-top-story-link' href='https://fil-c.org/context_switches' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/30/top_stories_06302026#story-48730694'>Exercise intensity influences body composition in healthy older adults (2025)</a>
+ <a class='hn-top-story-link' href='https://www.maturitas.org/article/S0378-5122(25)00571-7/fulltext' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>内存安全的上下文切换</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.6</span> <span class='hn-top-story-score'>&#9650; 128</span> <span class='hn-top-story-comments'>&#128172; 25</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>运动强度影响健康老年人身体组成（2025）</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 146</span> <span class='hn-top-story-comments'>&#128172; 124</span> <span class='hn-top-story-tag'>Health</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='413' data-hn-time='1782742164'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='73' data-hn-time='1782824041'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/06/30/top_stories_06302026#story-48719485'>Rocketlab acquires Iridium</a>
- <a class='hn-top-story-link' href='https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-acquire-iridium-historic-deal-creating-fully' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/06/30/top_stories_06302026#story-48732056'>Knoppix</a>
+ <a class='hn-top-story-link' href='https://www.knopper.net/knoppix/index-en.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Rocket Lab 收购 Iridium：历史性交易</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.6</span> <span class='hn-top-story-score'>&#9650; 413</span> <span class='hn-top-story-comments'>&#128172; 275</span> <span class='hn-top-story-tag'>Space</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-zh'>Knoppix</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 73</span> <span class='hn-top-story-comments'>&#128172; 39</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -140,7 +140,7 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 27 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-06-29 — 2026-06-30 <span class="hn-row-sep">·</span> 200 stories <span class="hn-row-sep">·</span> 2 days</span>
+<span class='hn-week-meta'>2026-06-29 — 2026-06-30 <span class="hn-row-sep">·</span> 225 stories <span class="hn-row-sep">·</span> 2 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/06/30/top_stories_06302026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> Hardware <b>13</b> <span class="hn-row-sep">·</span> Programming <b>12</b></span>
+<span class='hn-row-detail'>All <b>75</b> <span class="hn-row-sep">·</span> Programming <b>19</b> <span class="hn-row-sep">·</span> Hardware <b>18</b></span>
 </a>
 </div>
 </div>
