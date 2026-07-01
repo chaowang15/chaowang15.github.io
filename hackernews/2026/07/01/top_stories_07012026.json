@@ -1,0 +1,1143 @@
+{
+  "meta": {
+    "mode": "top",
+    "source": "https://news.ycombinator.com/",
+    "api": "https://github.com/HackerNews/API",
+    "count_requested": 50,
+    "count_written": 49,
+    "reused_same_day": 0,
+    "reused_cross_day": 36,
+    "new_llm_enriched": 13,
+    "scrape_time_display": "03:00, July 01, 2026 (PDT)",
+    "timezone": "America/Los_Angeles",
+    "date_dir": "2026/07/01",
+    "content_date": "2026-07-01",
+    "run_time_local": "03:00, July 01, 2026 (PDT)",
+    "run_time_utc": "2026-07-01 10:00:48 UTC",
+    "incremental": true,
+    "stories_max": 100,
+    "hot_score_time_utc": "2026-07-01 10:01:52 UTC"
+  },
+  "items": [
+    {
+      "title_en": "Godot will no longer accept AI-authored code contributions",
+      "url": "https://www.pcgamer.com/gaming-industry/open-source-game-engine-godot-will-no-longer-accept-ai-authored-code-contributions-we-cant-trust-heavy-users-of-ai-to-understand-their-code-enough-to-fix-it/",
+      "title_zh": "Godot 将不再接受 AI 编写的代码贡献",
+      "created_display": "Created: Jul 01, 2026 / 00:43 PT",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/9fe6i3bvMxcRA6sb2TJAS-1600-80.jpg",
+      "summary_en": "The Godot Foundation bans AI-authored code contributions to the core, citing concerns about reliability and maintainability. The policy underscores the ongoing tension in OSS between AI-assisted tooling and the need for human oversight in critical code.",
+      "summary_zh": "Godot 基金会宣布不再接受 AI 编写的代码提交，理由是对可靠性和可维护性的担忧。此举凸显开源社区在 AI 辅助编码和人类审阅之间的持续张力。",
+      "hn": {
+        "id": 48743472,
+        "type": "story",
+        "by": "pjmlp",
+        "score": 144,
+        "descendants": 72,
+        "time": 1782891802,
+        "comments_url": "https://news.ycombinator.com/item?id=48743472"
+      },
+      "hot_score": 10.32,
+      "tags": [
+        "Open Source",
+        "AI"
+      ]
+    },
+    {
+      "title_en": "Claude Code is steganographically marking requests",
+      "url": "https://thereallo.dev/blog/claude-code-prompt-steganography",
+      "title_zh": "Claude Code 以隐写方式标记请求",
+      "created_display": "Created: Jun 30, 2026 / 08:44 PT",
+      "image_url": null,
+      "summary_en": "Researchers demonstrate how Claude Code can embed hidden signals in prompts, enabling steganographic tagging of requests. This raises questions about model privacy, misuse, and provenance in AI-assisted workflows. The finding highlights the need for robust controls around prompt encoding.",
+      "summary_zh": "研究者展示了 Claude Code 如何在提示中嵌入隐写信号，给请求标记隐藏标识。这引发对模型隐私、滥用和工作流可追溯性的担忧，凸显了对提示编码的鲁棒控制的必要性。",
+      "hn": {
+        "id": 48734373,
+        "type": "story",
+        "by": "kirushik",
+        "score": 2026,
+        "descendants": 587,
+        "time": 1782834264,
+        "comments_url": "https://news.ycombinator.com/item?id=48734373"
+      },
+      "tags": [
+        "AI",
+        "Security",
+        "Privacy"
+      ],
+      "hot_score": 8.98
+    },
+    {
+      "title_en": "Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5",
+      "url": "https://twitter.com/AnthropicAI/status/2072106151890809341",
+      "title_zh": "商务部取消对 Claude Fable 5 与 Mythos 5 的出口管制",
+      "created_display": "Created: Jun 30, 2026 / 16:55 PT",
+      "image_url": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_200x200.jpg",
+      "summary_en": "The Department of Commerce has eased export controls on Claude Fable 5 and Mythos 5, enabling broader international distribution. The move could accelerate global AI deployment and competition, while inviting regulatory and security considerations.",
+      "summary_zh": "商务部放松了对 Claude Fable 5 和 Mythos 5 的出口管制，使其在全球范围内的分发更为广泛。这一举措可能加速全球 AI 的部署与竞争，同时带来监管与安全方面的考量。",
+      "hn": {
+        "id": 48740771,
+        "type": "story",
+        "by": "Pragmata",
+        "score": 689,
+        "descendants": 397,
+        "time": 1782863712,
+        "comments_url": "https://news.ycombinator.com/item?id=48740771"
+      },
+      "tags": [
+        "AI",
+        "Business",
+        "Security",
+        "Politics"
+      ],
+      "hot_score": 7.72
+    },
+    {
+      "title_en": "Claude Sonnet 5",
+      "url": "https://www.anthropic.com/news/claude-sonnet-5",
+      "title_zh": "Claude Sonnet 5",
+      "created_display": "Created: Jun 30, 2026 / 10:59 PT",
+      "image_url": "https://cdn.sanity.io/images/4zrzovbb/website/458ea645ef6b729f6847cba16932716e6b547f2f-2880x1620.png",
+      "summary_en": "Anthropic released Claude Sonnet 5, the newest member of its Claude family. The update emphasizes stronger reasoning capabilities and tighter safety controls for enterprise AI deployments.",
+      "summary_zh": "Anthropic 发布 Claude Sonnet 5，这是 Claude 家族的最新成员，强调改进的推理能力与企业部署的安全控制。它面向企业场景，优化推理质量并提升对安全约束的可控性。",
+      "hn": {
+        "id": 48736605,
+        "type": "story",
+        "by": "marinesebastian",
+        "score": 1133,
+        "descendants": 669,
+        "time": 1782842392,
+        "comments_url": "https://news.ycombinator.com/item?id=48736605"
+      },
+      "tags": [
+        "AI"
+      ],
+      "hot_score": 6.21
+    },
+    {
+      "title_en": "The first early human eggs from stem cells",
+      "url": "https://www.conception.bio/science-and-updates/the-first-early-human-eggs-from-stem-cells",
+      "title_zh": "首批由干细胞培育的早期人类卵子",
+      "created_display": "Created: Jun 30, 2026 / 22:09 PT",
+      "image_url": "https://framerusercontent.com/images/PfCSS8URInnpMrqsd5bQlDQBac.png",
+      "summary_en": "Lab researchers have produced early-stage human eggs from stem cells, marking a milestone in reproductive biology. The capability could accelerate study of human gametogenesis and infertility therapies, but ethical and safety questions will shape how quickly such work translates to clinics.",
+      "summary_zh": "研究人员在实验室用干细胞培育出早期人类卵子，标志着生殖生物学的一个里程碑。这一能力可能加速对人类生殖发生和不孕治疗的研究，但伦理与安全问题将影响其向临床的转化速度。",
+      "hn": {
+        "id": 48742483,
+        "type": "story",
+        "by": "dsr12",
+        "score": 116,
+        "descendants": 68,
+        "time": 1782882570,
+        "comments_url": "https://news.ycombinator.com/item?id=48742483"
+      },
+      "tags": [
+        "Science"
+      ],
+      "hot_score": 3.58
+    },
+    {
+      "title_en": "Claude Science",
+      "url": "https://claude.com/product/claude-science",
+      "title_zh": "Claude Science",
+      "created_display": "Created: Jun 30, 2026 / 10:07 PT",
+      "image_url": "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6a429b9909aa1b063a203021_life-sciences-tn.jpg",
+      "summary_en": "Claude Science is a new product focused on scientific workloads, offering specialized reasoning and data-handling features for researchers. It aims to speed up literature review, modeling, and experimentation workflows for scientists.",
+      "summary_zh": "Claude Science 是面向科学工作负载的新产品，提供专门的推理和数据处理能力，帮助研究人员加速分析与建模。面向研究人员和数据科学家，旨在优化文献综述、实验设计与数据分析的工作流。",
+      "hn": {
+        "id": 48735770,
+        "type": "story",
+        "by": "lebovic",
+        "score": 494,
+        "descendants": 146,
+        "time": 1782839261,
+        "comments_url": "https://news.ycombinator.com/item?id=48735770"
+      },
+      "tags": [
+        "AI",
+        "Science"
+      ],
+      "hot_score": 2.48
+    },
+    {
+      "title_en": "Google copybara: moving code between repositories",
+      "url": "https://github.com/google/copybara",
+      "title_zh": "Google Copybara：跨代码库迁移代码的工具",
+      "created_display": "Created: Jun 30, 2026 / 16:45 PT",
+      "image_url": "https://repository-images.githubusercontent.com/67722017/76fcc500-525b-11ea-85e2-37c7b18c893c",
+      "summary_en": "Copybara automates code migration across repositories with customizable transformations and history preservation. It helps teams maintain consistent workflows when moving assets, enabling cleaner separation of projects and easier collaboration.",
+      "summary_zh": "Copybara 能在不同代码库之间自动迁移代码，支持自定义转换并保留提交历史。它帮助团队在跨仓库迁移时保持工作流的一致性，使项目分离更清晰、协作更高效。",
+      "hn": {
+        "id": 48740698,
+        "type": "story",
+        "by": "reconnecting",
+        "score": 209,
+        "descendants": 36,
+        "time": 1782863139,
+        "comments_url": "https://news.ycombinator.com/item?id=48740698"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 2.28
+    },
+    {
+      "title_en": "ArXiv's Next Chapter",
+      "url": "https://blog.arxiv.org/2026/06/30/arxivs-next-chapter/",
+      "title_zh": "ArXiv 的下一章",
+      "created_display": "Created: Jun 30, 2026 / 19:51 PT",
+      "image_url": "https://blog.arxiv.org/files/2021/02/arxiv-logo-1.png",
+      "summary_en": "ArXiv outlines its plan for the next chapter, focusing on governance, tooling improvements, and sustainable operations. The post emphasizes scaling moderation, API enhancements, and community governance to support open-access research.",
+      "summary_zh": "ArXiv 公布未来发展路线，聚焦治理、工具改进与长期可持续运营。文章强调扩大内容审查与元数据/API 的改进，以及社区治理，以支持开放获取的研究。",
+      "hn": {
+        "id": 48741748,
+        "type": "story",
+        "by": "subset",
+        "score": 118,
+        "descendants": 40,
+        "time": 1782874296,
+        "comments_url": "https://news.ycombinator.com/item?id=48741748"
+      },
+      "hot_score": 2.17,
+      "tags": [
+        "Science"
+      ]
+    },
+    {
+      "title_en": "I ported Kubernetes to the browser",
+      "url": "https://ngrok.com/blog/i-ported-kubernetes-to-the-browser",
+      "title_zh": "我把 Kubernetes 移植到了浏览器",
+      "created_display": "Created: Jun 30, 2026 / 13:48 PT",
+      "image_url": "https://ngrok.com/blog-assets/images/2026-06-26-i-ported-kubernetes-to-the-browser/og.jpg",
+      "summary_en": "Porting Kubernetes to the browser demonstrates running components in WebAssembly or similar in-browser runtimes, enabling offline demos or teaching orchestration concepts. It surfaces challenges around networking, storage, and security when moving cluster infrastructure into the client.",
+      "summary_zh": "把 Kubernetes 移植到浏览器演示了在浏览器运行组件的可能性，便于离线演示和教学编排概念。也暴露了将集群基础设施移至客户端时在网络、存储和安全方面的挑战。",
+      "hn": {
+        "id": 48738985,
+        "type": "story",
+        "by": "peterdemin",
+        "score": 265,
+        "descendants": 80,
+        "time": 1782852516,
+        "comments_url": "https://news.ycombinator.com/item?id=48738985"
+      },
+      "tags": [
+        "Programming",
+        "Web",
+        "Security",
+        "DevOps"
+      ],
+      "hot_score": 1.96
+    },
+    {
+      "title_en": "Nano Banana 2 Lite",
+      "url": "https://deepmind.google/models/gemini-image/flash-lite/",
+      "title_zh": "Nano Banana 2 Lite",
+      "created_display": "Created: Jun 30, 2026 / 09:48 PT",
+      "image_url": "https://lh3.googleusercontent.com/lb-MMov_96xz_rXSHcC3fOU91ehheRSkXmiGudc3PWnLtmB5YN1-NInY5Le9JOmY2LBIIeAUwBhlhcskmv90eSFxz8gNh2TvWcnegYoq98NmuOEL=w1200-h630-n-nu-rw",
+      "summary_en": "Nano Banana 2 Lite is a lightweight image model in the Gemini image lineup designed for fast, on-device inference with a smaller compute footprint. It enables faster prototyping and on-device AI work without cloud latency.",
+      "summary_zh": "Nano Banana 2 Lite 是 Gemini 图像模型家族的轻量版本，设计用于快速推理并降低计算开销。它是一款面向快速推理的轻量级图像模型，适合在本地设备上使用，减小算力需求。",
+      "hn": {
+        "id": 48735444,
+        "type": "story",
+        "by": "minimaxir",
+        "score": 382,
+        "descendants": 152,
+        "time": 1782838117,
+        "comments_url": "https://news.ycombinator.com/item?id=48735444"
+      },
+      "tags": [
+        "AI",
+        "Hardware"
+      ],
+      "hot_score": 1.86
+    },
+    {
+      "title_en": "Leanstral 1.5",
+      "url": "https://docs.mistral.ai/models/model-cards/leanstral-1-5-26-06",
+      "title_zh": "Leanstral 1.5",
+      "created_display": "Created: Jun 30, 2026 / 13:44 PT",
+      "image_url": "https://docs.mistral.ai//api/og?title=Leanstral+1.5&description=An+updated+Lean+4+formal+proof+engineering+model+optimised+for+automated+theorem+proving+and+autoformalization.+119B+total+parameters%2C+6.5B+active.&eyebraw=v1.5&image=&type=model&v=35fa871c487ea09cad5c2bf7ae6044c6b93b2bd0",
+      "summary_en": "Leanstral 1.5 updates bring performance improvements and expanded capabilities for more practical, instruction-following use in lightweight language-model deployments.",
+      "summary_zh": "Leanstral 1.5 更新带来性能提升与扩展功能，使其在轻量级语言模型部署中更易于执行指令式任务。",
+      "hn": {
+        "id": 48738938,
+        "type": "story",
+        "by": "vetronauta",
+        "score": 225,
+        "descendants": 78,
+        "time": 1782852296,
+        "comments_url": "https://news.ycombinator.com/item?id=48738938"
+      },
+      "tags": [
+        "AI"
+      ],
+      "hot_score": 1.65
+    },
+    {
+      "title_en": "Meta is adding rate limits and soft paywall to smart glasses",
+      "url": "https://www.theverge.com/gadgets/959899/meta-ai-glasses-paywall-rate-limit",
+      "title_zh": "Meta 将对智能眼镜添加速率限制和软性付费墙",
+      "created_display": "Created: Jun 30, 2026 / 22:43 PT",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/257980_Meta_Ray-Ban_Display_AKrales_0129.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+      "summary_en": "Meta is imposing rate limits and a soft paywall on features accessed via its AI-enabled smart glasses. The move affects developers and users relying on AI capabilities in wearable devices, signaling tighter access control and monetization.",
+      "summary_zh": "Meta 将对其智能眼镜中的 AI 功能实施速率限制并引入软性付费墙。此举将影响开发者与用户对可访问性与成本的权衡，可能推动更高效的使用和新的商业模式。",
+      "hn": {
+        "id": 48742717,
+        "type": "story",
+        "by": "Exoristos",
+        "score": 39,
+        "descendants": 29,
+        "time": 1782884624,
+        "comments_url": "https://news.ycombinator.com/item?id=48742717"
+      },
+      "hot_score": 1.38,
+      "tags": [
+        "AI",
+        "Business"
+      ]
+    },
+    {
+      "title_en": "From brain waves to words: a new path to communication without surgery",
+      "url": "https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/?_fb_noscript=1",
+      "title_zh": "脑波到文字：无需手术的全新沟通路径",
+      "created_display": "Created: Jun 30, 2026 / 14:29 PT",
+      "image_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.2365-6/731147471_987177500749005_1892166673921917145_n.gif?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=kt4rIA7tiyMQ7kNvwET_ibV&_nc_oc=AdqBndvWlZGV3QeLon4nsnhhaCgwFDk6Ev_I12sEZ6OqJRjLIE60d6TD3vGOTHxnwS8&_nc_zt=14&_nc_ht=scontent-iad3-1.xx&_nc_gid=0QZ0-RiA-QG5HbcxlAeIQA&_nc_ss=7820f&oh=00_AQByZw_hxM-cBLWwPBK3wN2cSyzaxZ0amuDyWK5RG9HtPg&oe=6A5E8CAD",
+      "summary_en": "Researchers are turning brain activity into text without surgery by decoding brain signals with AI. The approach promises new communication options for people with paralysis or severe speech impairment, but faces accuracy, speed, and privacy challenges.",
+      "summary_zh": "研究人员通过人工智能解码脑信号，在不进行手术的情况下将脑波转写为文字。这一路径为瘫痪或语言受限者带来新的沟通方式，但在准确性、速度与隐私方面仍存在挑战。",
+      "hn": {
+        "id": 48739466,
+        "type": "story",
+        "by": "alok-g",
+        "score": 158,
+        "descendants": 82,
+        "time": 1782854953,
+        "comments_url": "https://news.ycombinator.com/item?id=48739466"
+      },
+      "tags": [
+        "AI",
+        "Science",
+        "Health",
+        "Privacy"
+      ],
+      "hot_score": 1.27
+    },
+    {
+      "title_en": "Matrix Orthogonalization Improves Memory in Recurrent Models",
+      "url": "https://ayushtambde.com/blog/matrix-orthogonalization-improves-memory-in-recurrent-models/",
+      "title_zh": "矩阵正交化提升循环模型的内存利用率",
+      "created_display": "Created: Jun 30, 2026 / 22:13 PT",
+      "image_url": "https://ayushtambde.com/matrix-orthogonalization/algorithm.png",
+      "summary_en": "Orthogonalizing recurrent weight matrices reduces memory usage and stabilizes training, enabling larger or longer-sequence models with less memory pressure. This technique helps maintain gradient flow and can improve training efficiency for RNNs.",
+      "summary_zh": "对循环网络的权重矩阵进行正交化可在训练时降低内存占用并稳定梯度，从而让模型规模和序列长度更大。该方法有望提升递归模型的可扩展性和训练效率。",
+      "hn": {
+        "id": 48742514,
+        "type": "story",
+        "by": "at2005",
+        "score": 40,
+        "descendants": 2,
+        "time": 1782882802,
+        "comments_url": "https://news.ycombinator.com/item?id=48742514"
+      },
+      "hot_score": 1.23,
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title_en": "How employment changes when firms adopt generative AI",
+      "url": "https://ramp.com/data/ai-jobs-impact",
+      "title_zh": "当企业采用生成式 AI 时就业如何改变",
+      "created_display": "Created: Jun 30, 2026 / 21:14 PT",
+      "image_url": "https://next.ramp.com/assets/images/data/EconomicsLabOG.webp",
+      "summary_en": "Generative AI adoption shifts job roles, increasing demand for prompt engineering, data handling, and system integration, while potentially reducing demand for routine tasks. The change underscores new skill requirements and organizational adaptation.",
+      "summary_zh": "当企业引入生成式 AI 时，岗位结构发生变化，对提示工程、数据处理和系统集成等能力的需求上升，部分例行性工作可能被替代。",
+      "hn": {
+        "id": 48742176,
+        "type": "story",
+        "by": "nreece",
+        "score": 45,
+        "descendants": 37,
+        "time": 1782879251,
+        "comments_url": "https://news.ycombinator.com/item?id=48742176"
+      },
+      "hot_score": 1.09,
+      "tags": [
+        "AI",
+        "Career"
+      ]
+    },
+    {
+      "title_en": "Knoppix",
+      "url": "https://www.knopper.net/knoppix/index-en.html",
+      "title_zh": "Knoppix",
+      "created_display": "Created: Jun 30, 2026 / 05:54 PT",
+      "image_url": "https://www.knopper.net/pics/de.gif",
+      "summary_en": "Knoppix, the pioneer live Linux distribution, is surveyed—its approach to hardware autodetection and running from removable media influenced modern portability and recovery workflows. The piece traces why Knoppix mattered for the era of live CDs and USB booting. It offers context for current portable Linux tools.",
+      "summary_zh": "Knoppix 作为开创性实时/现场运行的 Linux 发行版的概览，展示其硬件自检测与从可移动介质启动的理念如何影响现代便携与救援场景。",
+      "hn": {
+        "id": 48732056,
+        "type": "story",
+        "by": "hoangvmpc",
+        "score": 309,
+        "descendants": 111,
+        "time": 1782824041,
+        "comments_url": "https://news.ycombinator.com/item?id=48732056"
+      },
+      "tags": [
+        "Open Source",
+        "Programming",
+        "Hardware"
+      ],
+      "hot_score": 1.08
+    },
+    {
+      "title_en": "I built a mmWave material classification radar (2025)",
+      "url": "https://gauthier-lechevalier.com/radar",
+      "title_zh": "I built a mmWave material classification radar",
+      "created_display": "Created: Jun 30, 2026 / 10:29 PT",
+      "image_url": "https://gauthier-lechevalier.com/manual/radar_page/product_inside.jpeg",
+      "summary_en": "A hands-on look at using millimeter-wave radar to distinguish materials by their dielectric signatures. The approach has practical implications for robotics, security, and industrial sensing.",
+      "summary_zh": "作者展示了用毫米波雷达对材料进行分类的实现，材料在雷达信号中的介电特性差异帮助识别。此方法对机器人、安防和工业传感等领域有实际应用潜力。",
+      "hn": {
+        "id": 48736137,
+        "type": "story",
+        "by": "GL26",
+        "score": 183,
+        "descendants": 49,
+        "time": 1782840576,
+        "comments_url": "https://news.ycombinator.com/item?id=48736137"
+      },
+      "tags": [
+        "Hardware",
+        "Science",
+        "Security"
+      ],
+      "hot_score": 0.95
+    },
+    {
+      "title_en": "Forestiere Underground Gardens",
+      "url": "https://en.wikipedia.org/wiki/Forestiere_Underground_Gardens",
+      "title_zh": "Forestiere 地下花园",
+      "created_display": "Created: Jun 30, 2026 / 18:23 PT",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Forestiere_Underground_Gardens_at_5021_West_Shaw_Avenue%2C_Fresno%2C_California_LCCN2013634990.jpg/1280px-Forestiere_Underground_Gardens_at_5021_West_Shaw_Avenue%2C_Fresno%2C_California_LCCN2013634990.jpg",
+      "summary_en": "A sprawling network of cave-like rooms and gardens carved by hand, Forestiere Underground Gardens is a striking example of early 20th-century subterranean architecture. Visitors experience a self-contained oasis with a climate-controlled interior carved from local rock.",
+      "summary_zh": "Forestiere 地下花园是一组由人工开凿的洞室和庭园的庞大网络，是20世纪早期地下建筑的引人注目案例。游客在内部体验由本地岩石打造、实现自给自足的气候调控的“世外桃源”。",
+      "hn": {
+        "id": 48741359,
+        "type": "story",
+        "by": "onemoresoop",
+        "score": 68,
+        "descendants": 15,
+        "time": 1782868989,
+        "comments_url": "https://news.ycombinator.com/item?id=48741359"
+      },
+      "tags": [
+        "Culture"
+      ],
+      "hot_score": 0.95
+    },
+    {
+      "title_en": "Tokyo has only two barley tea makers, we visited one to see how mugicha is made",
+      "url": "https://soranews24.com/2026/06/30/tokyo-has-only-two-barley-tea-makers-and-we-visited-one-to-see-how-mugicha-is-made/",
+      "title_zh": "东京仅有两家麦茶厂，我们参访其中一家了解麦茶的制作",
+      "created_display": "Created: Jun 30, 2026 / 12:47 PT",
+      "image_url": "https://soranews24.com/wp-content/uploads/sites/3/2026/06/1_546951.jpg?w=1000&h=525&crop=1",
+      "summary_en": "A micro-insight into Tokyo's mugicha production, exploring small-scale makers, traditional brewing techniques, and how consumer demand shapes the process.",
+      "summary_zh": "对东京麦茶制作的微观观察，探讨小型制造商、传统酿制工艺以及消费者需求对工艺的影响。",
+      "hn": {
+        "id": 48738262,
+        "type": "story",
+        "by": "zdw",
+        "score": 137,
+        "descendants": 31,
+        "time": 1782848844,
+        "comments_url": "https://news.ycombinator.com/item?id=48738262"
+      },
+      "tags": [
+        "Culture"
+      ],
+      "hot_score": 0.9
+    },
+    {
+      "title_en": "Have you restarted your computer this week?",
+      "url": "https://taonaw.com/2026/06/27/have-you-restarted-your-computer.html",
+      "title_zh": "Have You Restarted Your Computer This Week?",
+      "created_display": "Created: Jun 30, 2026 / 07:15 PT",
+      "image_url": "https://s3.amazonaws.com/micro.blog/opengraph/2026/06/27/5926914.png",
+      "summary_en": "A reflective piece on the role of restarts in modern systems, arguing that periodic reboots remain valuable for stability, helping clear memory and reset stuck processes.",
+      "summary_zh": "本文主张即使现代系统改用热更新，定期重启仍有助于清理内存、解决卡死进程并提升稳定性。",
+      "hn": {
+        "id": 48733043,
+        "type": "story",
+        "by": "surprisetalk",
+        "score": 185,
+        "descendants": 326,
+        "time": 1782828929,
+        "comments_url": "https://news.ycombinator.com/item?id=48733043"
+      },
+      "tags": [
+        "DevOps"
+      ],
+      "hot_score": 0.72
+    },
+    {
+      "title_en": "TabFM: A zero-shot foundation model for tabular data",
+      "url": "https://research.google/blog/introducing-tabfm-a-zero-shot-foundation-model-for-tabular-data/",
+      "title_zh": "TabFM：面向表格数据的零-shot 基础模型",
+      "created_display": "Created: Jun 30, 2026 / 15:08 PT",
+      "image_url": "https://storage.googleapis.com/gweb-research2023-media/images/HO_previewImage1.width-800.format-jpeg.jpg",
+      "summary_en": "TabFM is a zero-shot foundation model designed for tabular data, enabling predictions without task-specific fine-tuning. It promises simpler deployment for analytics pipelines, while evaluating how it stacks up against task-specialized approaches.",
+      "summary_zh": "TabFM 是一个面向表格数据的零-shot 基础模型，在不进行特定任务微调的情况下也能进行预测。它有望 simplif y analytics 流程的部署，同时需要评估其与专门任务模型的性能比较。",
+      "hn": {
+        "id": 48739919,
+        "type": "story",
+        "by": "brandonb",
+        "score": 79,
+        "descendants": 10,
+        "time": 1782857318,
+        "comments_url": "https://news.ycombinator.com/item?id=48739919"
+      },
+      "tags": [
+        "AI",
+        "Data"
+      ],
+      "hot_score": 0.68
+    },
+    {
+      "title_en": "Single header Parser Combinators for C",
+      "url": "https://github.com/steve-chavez/CParseC",
+      "title_zh": "C 语言的单头文件解析器组合器",
+      "created_display": "Created: Jun 30, 2026 / 20:52 PT",
+      "image_url": "https://opengraph.githubassets.com/a96c69dd06064c6d951eba99bee15c279a92ad573603180d3d3da918b1a21b90/steve-chavez/CParseC",
+      "summary_en": "A header-only library for C that provides parser combinators, enabling concise, modular parsing without external dependencies. It reduces boilerplate and dependency footprint for C projects needing simple grammars.",
+      "summary_zh": "一个用于 C 语言的单头文件解析器组合器库，提供模块化的解析能力，无需外部依赖。CParseC 让解析器实现更简洁，适合对体积和依赖要求较低的项目。",
+      "hn": {
+        "id": 48742049,
+        "type": "story",
+        "by": "steve-chavez",
+        "score": 30,
+        "descendants": 3,
+        "time": 1782877975,
+        "comments_url": "https://news.ycombinator.com/item?id=48742049"
+      },
+      "hot_score": 0.66,
+      "tags": [
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "Hatari – Online Atari ST/STE/TT/Falcon Emulator",
+      "url": "https://hatari.frama.io/hatari/online/hatari.html",
+      "title_zh": "Hatari 在线 Atari ST/STE/TT/Falcon 模拟器",
+      "created_display": "Created: Jun 30, 2026 / 15:34 PT",
+      "image_url": null,
+      "summary_en": "Hatari now runs in the browser, letting users emulate Atari ST family machines online without local setup. The browser-based emulator leverages WebAssembly to bring classic systems to modern devices.",
+      "summary_zh": "Hatari 现已支持在浏览器中运行，用户无需本地安装即可模拟 Atari ST 家族的机器。基于浏览器的模拟借助 WebAssembly 将经典系统带到现代设备上。",
+      "hn": {
+        "id": 48740135,
+        "type": "story",
+        "by": "gregsadetsky",
+        "score": 69,
+        "descendants": 9,
+        "time": 1782858863,
+        "comments_url": "https://news.ycombinator.com/item?id=48740135"
+      },
+      "tags": [
+        "Web",
+        "Open Source"
+      ],
+      "hot_score": 0.63
+    },
+    {
+      "title_en": "Memoirs of Extraordinary Popular Delusions and the Madness of Crowds (1852)",
+      "url": "https://www.gutenberg.org/ebooks/24518",
+      "title_zh": "《群体的非凡错觉与众人的疯狂》（1852）",
+      "created_display": "Created: Jun 30, 2026 / 05:47 PT",
+      "image_url": "https://www.gutenberg.org/cache/epub/24518/pg24518.cover.medium.jpg",
+      "summary_en": "An 1852 classic on crowd psychology that catalogs famous delusions and speculative manias. Though old, it helps readers recognize how hype and groupthink shape technology and finance today. The work remains a useful lens for analyzing bubbles and social dynamics in tech.",
+      "summary_zh": "1852 年的经典著作，系统梳理群体心理与历史上的共识错判与群体狂热。即使年代久远，它也为理解科技与金融领域的牛熊逻辑提供洞见，帮助读者识别泡沫与群体行为对创新的影响。",
+      "hn": {
+        "id": 48731989,
+        "type": "story",
+        "by": "lstodd",
+        "score": 178,
+        "descendants": 59,
+        "time": 1782823671,
+        "comments_url": "https://news.ycombinator.com/item?id=48731989"
+      },
+      "tags": [
+        "Culture",
+        "Finance"
+      ],
+      "hot_score": 0.62
+    },
+    {
+      "title_en": "Register Korea's First PC 'SE-8001' as a National Important Material",
+      "url": "https://www.dongascience.com/en/news/30374",
+      "title_zh": "韩国首台个人计算机 SE-8001 被列为国家重要材料",
+      "created_display": "Created: Jul 01, 2026 / 01:12 PT",
+      "image_url": "https://image.dongascience.com/Photo/2019/08/15649787250472.png",
+      "summary_en": "South Korea designated its first personal computer, the SE-8001, as a National Important Material. The designation highlights the historical significance of early computing hardware and supports preservation, funding, and public education around Korea's tech heritage.",
+      "summary_zh": "韩国将其第一台个人计算机 SE-8001 列为国家重要材料，凸显早期计算硬件的历史意义，并有助于相关文物的保护、资助与公众科普。",
+      "hn": {
+        "id": 48743655,
+        "type": "story",
+        "by": "mushstory",
+        "score": 7,
+        "descendants": 3,
+        "time": 1782893560,
+        "comments_url": "https://news.ycombinator.com/item?id=48743655"
+      },
+      "hot_score": 0.54,
+      "tags": [
+        "Hardware",
+        "Culture",
+        "Education"
+      ]
+    },
+    {
+      "title_en": "Zluda 6 release (run unmodified CUDA applications on non-Nvidia GPUs)",
+      "url": "https://vosen.github.io/ZLUDA/blog/zluda-update-q1q2-2026/",
+      "title_zh": "Zluda 6 发布：在非 Nvidia GPU 上运行未修改的 CUDA 应用",
+      "created_display": "Created: Jun 30, 2026 / 03:34 PT",
+      "image_url": "https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white",
+      "summary_en": "Zluda 6 releases material to run unmodified CUDA apps on non-NVIDIA GPUs, bridging CUDA software to AMD/Intel GPUs. The update expands hardware freedom for AI and HPC workloads and challenges vendor lock-in. It signals progress toward more diverse GPU ecosystems.",
+      "summary_zh": "Zluda 6 发布实现将未修改的 CUDA 应用在非 NVIDIA GPU 上运行，打破了对 CUDA 专属硬件的依赖边界。对 AI 与 HPC 工作负载的硬件选择带来更多自由，也是在推动多厂商生态的发展。",
+      "hn": {
+        "id": 48730713,
+        "type": "story",
+        "by": "Tiberium",
+        "score": 150,
+        "descendants": 14,
+        "time": 1782815665,
+        "comments_url": "https://news.ycombinator.com/item?id=48730713"
+      },
+      "tags": [
+        "Hardware",
+        "AI"
+      ],
+      "hot_score": 0.44
+    },
+    {
+      "title_en": "Show HN: My 13-year-old built an ant colony tracker",
+      "url": "https://formicarium.es",
+      "title_zh": "Show HN: My 13-year-old built an ant colony tracker",
+      "created_display": "Created: Jun 30, 2026 / 09:48 PT",
+      "image_url": "https://formicarium.es/opengraph-image?735303218c04de2a",
+      "summary_en": "A Show HN entry about a 13-year-old building an ant colony tracker, highlighting hands-on biology hardware tinkering and data visualization.",
+      "summary_zh": "Show HN：我的13岁孩子自制了蚁群跟踪器，展示青少年在传感硬件和数据可视化方面的潜力。",
+      "hn": {
+        "id": 48735446,
+        "type": "story",
+        "by": "abelgvidal",
+        "score": 62,
+        "descendants": 43,
+        "time": 1782838127,
+        "comments_url": "https://news.ycombinator.com/item?id=48735446"
+      },
+      "tags": [
+        "Show HN",
+        "Hardware",
+        "Data",
+        "Science"
+      ],
+      "hot_score": 0.3
+    },
+    {
+      "title_en": "CERN bids farewell to the LHC and enters Long Shutdown 3",
+      "url": "https://home.cern/cern-bids-farewell-to-the-lhc-and-enters-long-shutdown-3/",
+      "title_zh": "CERN 向大型强子对撞机道别，进入长期停机3阶段",
+      "created_display": "Created: Jun 29, 2026 / 11:52 PT",
+      "image_url": "https://home.cern/wp-content/themes/cern/public/images/logo-white.svg",
+      "summary_en": "CERN begins Long Shutdown 3, a multi-year maintenance and upgrades window for the LHC; essential for addressing hardware aging and enabling next-gen experiments.",
+      "summary_zh": "CERN 开始长期停机3阶段，进行 LHC 的维护和升级，旨在解决硬件老化并为下一轮实验做准备。",
+      "hn": {
+        "id": 48723484,
+        "type": "story",
+        "by": "HelloUsername",
+        "score": 233,
+        "descendants": 69,
+        "time": 1782759145,
+        "comments_url": "https://news.ycombinator.com/item?id=48723484"
+      },
+      "tags": [
+        "Science",
+        "Hardware"
+      ],
+      "hot_score": 0.29
+    },
+    {
+      "title_en": "The end of my AArch64 desktop experiment",
+      "url": "https://marcin.juszkiewicz.com.pl/2026/06/26/the-end-of-the-aarch64-desktop-experiment/",
+      "title_zh": "AArch64 桌面实验的终结",
+      "created_display": "Created: Jun 29, 2026 / 21:51 PT",
+      "image_url": "https://marcin.juszkiewicz.com.pl/files/images/hrw-192.jpg",
+      "summary_en": "An engineer explains why the long-running AArch64 desktop experiment is winding down, citing software ecosystem maturity, driver gaps, and performance constraints. The piece signals a shift away from ARM-based desktop hopes toward server or embedded roles. It frames the decision as a pragmatic reallocation of resources.",
+      "summary_zh": "作者表明 AArch64 桌面实验逐渐走向尽头，原因包括生态系统不成熟、驱动与兼容性不足以及性能瓶颈。这意味着将 ARM 桌面的尝试转向服务器或嵌入式场景的现实需求。文章将其视为资源重新分配的务实选择。",
+      "hn": {
+        "id": 48728599,
+        "type": "story",
+        "by": "signa11",
+        "score": 92,
+        "descendants": 77,
+        "time": 1782795072,
+        "comments_url": "https://news.ycombinator.com/item?id=48728599"
+      },
+      "tags": [
+        "Programming",
+        "Hardware"
+      ],
+      "hot_score": 0.19
+    },
+    {
+      "title_en": "Building a custom octocopter from scratch with no prior hardware experience",
+      "url": "https://karolina.mgdubiel.com/drone/",
+      "title_zh": "零基础自制八旋翼无人机",
+      "created_display": "Created: Jun 27, 2026 / 21:17 PT",
+      "image_url": null,
+      "summary_en": "A novice documents building an octocopter from scratch, covering parts selection, assembly, and flight testing. The project underscores learning curve, safety considerations, and the importance of modular hardware and flight controllers for beginners. A hands-on blueprint for amateur drones.",
+      "summary_zh": "新手完整记录从零开始组装八轴无人机的过程，涵盖部件选择、组装与测试。突出学习曲线、安全性以及飞控集成的重要性，为爱好者提供动手蓝图。",
+      "hn": {
+        "id": 48704289,
+        "type": "story",
+        "by": "noleary",
+        "score": 370,
+        "descendants": 78,
+        "time": 1782620264,
+        "comments_url": "https://news.ycombinator.com/item?id=48704289"
+      },
+      "tags": [
+        "Hardware",
+        "Education"
+      ],
+      "hot_score": 0.14
+    },
+    {
+      "title_en": "How does a pull-back car work? Illustrated teardown",
+      "url": "https://mechanical-pencil.com/products/car",
+      "title_zh": "拉回式玩具车如何工作？图解拆解",
+      "created_display": "Created: Jun 28, 2026 / 15:16 PT",
+      "image_url": "https://framerusercontent.com/images/5O3rU7bwpuOpLUdBe6aEsQxPKA.png",
+      "summary_en": "Pull-back cars use a spring-loaded motor and simple gears; the teardown reveals how stored energy translates into rolling propulsion. The illustrated breakdown highlights the elegance and limits of toy engineering, plus how small parts coordinate to make the car move.",
+      "summary_zh": "拉回式玩具车通过弹簧驱动的马达和简单齿轮实现推进。图解拆解揭示了玩具工程的简洁性与局限，以及小零件如何协同作用让玩具起作用。",
+      "hn": {
+        "id": 48712289,
+        "type": "story",
+        "by": "Muhammad523",
+        "score": 195,
+        "descendants": 37,
+        "time": 1782684980,
+        "comments_url": "https://news.ycombinator.com/item?id=48712289"
+      },
+      "tags": [
+        "Hardware",
+        "Design",
+        "Energy"
+      ],
+      "hot_score": 0.12
+    },
+    {
+      "title_en": "Reading the internals of Postgres: Database cluster, databases, and tables",
+      "url": "https://www.buraksen.dev/articles/internals-of-postgresql-db-cluster-and-tables",
+      "title_zh": "解剖 PostgreSQL 内部：数据库集群、数据库与表",
+      "created_display": "Created: Jun 29, 2026 / 05:59 PT",
+      "image_url": "https://www.buraksen.dev/articles/internals-of-postgresql-db-cluster-and-tables/og.png",
+      "summary_en": "A digest of Postgres architecture focusing on the cluster, databases, and tables, clarifying how data is organized and accessed across multiple layers.",
+      "summary_zh": "对 PostgreSQL 架构的要点梳理，聚焦集群、数据库和表，解释数据如何在多层之间组织与访问。",
+      "hn": {
+        "id": 48718716,
+        "type": "story",
+        "by": "buraksen",
+        "score": 79,
+        "descendants": 1,
+        "time": 1782737989,
+        "comments_url": "https://news.ycombinator.com/item?id=48718716"
+      },
+      "tags": [
+        "Data",
+        "Programming"
+      ],
+      "hot_score": 0.08
+    },
+    {
+      "title_en": "Ante: A new way to blend borrow checking and reference counting",
+      "url": "https://verdagon.dev/blog/ante-blending-borrowing-rc",
+      "title_zh": "Ante：一种混合借用检查与引用计数的新方法",
+      "created_display": "Created: Jun 28, 2026 / 12:37 PT",
+      "image_url": null,
+      "summary_en": "Ante proposes a hybrid approach that blends compile-time borrow checking with runtime reference counting to improve memory safety and flexibility. By combining the strengths of both models, it aims to reduce common pitfalls in systems programming.",
+      "summary_zh": "Ante 提出把编译时借用检查与运行时引用计数融合的混合方案，以提升内存安全性与灵活性。通过结合两种模型的优势，旨在减少系统编程中的常见风险。",
+      "hn": {
+        "id": 48710770,
+        "type": "story",
+        "by": "g0xA52A2A",
+        "score": 92,
+        "descendants": 21,
+        "time": 1782675465,
+        "comments_url": "https://news.ycombinator.com/item?id=48710770"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 0.05
+    },
+    {
+      "title_en": "1.38 Millimeter Microcontroller",
+      "url": "https://www.ti.com/product/MSPM0C1104",
+      "title_zh": "1.38 毫米封装的微控制器",
+      "created_display": "Created: Jun 26, 2026 / 09:38 PT",
+      "image_url": null,
+      "summary_en": "TI's MSPM0C1104 microcontroller ships in an ultra-tiny 1.38-mm package, enabling ultra-compact devices with integrated peripherals and low power needs.",
+      "summary_zh": "TI 的 MSPM0C1104 微控制器采用极小的 1.38 毫米封装，助力超小型设备实现低功耗与集成外设的需求。",
+      "hn": {
+        "id": 48688685,
+        "type": "story",
+        "by": "kristianpaul",
+        "score": 153,
+        "descendants": 97,
+        "time": 1782491935,
+        "comments_url": "https://news.ycombinator.com/item?id=48688685"
+      },
+      "tags": [
+        "Hardware"
+      ],
+      "hot_score": 0.03
+    },
+    {
+      "title_en": "A peek into Reddit's anti-spam internals",
+      "url": "https://lyra.horse/blog/2026/06/reddit-spam-internals/",
+      "title_zh": "窥探 Reddit 反垃圾内部机制",
+      "created_display": "Created: Jun 27, 2026 / 08:18 PT",
+      "image_url": null,
+      "summary_en": "An exploration of Reddit's anti-spam backend, including heuristics, moderation pipelines, and the ongoing balance between openness and safety.",
+      "summary_zh": "对 Reddit 反垃圾后台的探索，涵盖启发式算法、审核流程，以及开放性与安全的权衡。",
+      "hn": {
+        "id": 48699010,
+        "type": "story",
+        "by": "OuterVale",
+        "score": 107,
+        "descendants": 28,
+        "time": 1782573483,
+        "comments_url": "https://news.ycombinator.com/item?id=48699010"
+      },
+      "tags": [
+        "Security",
+        "Web"
+      ],
+      "hot_score": 0.03
+    },
+    {
+      "title_en": "Stroustrup's Rule (2024)",
+      "url": "https://buttondown.com/hillelwayne/archive/stroustrups-rule/",
+      "title_zh": "斯特劳斯特鲁普规则（2024）",
+      "created_display": "Created: Jun 27, 2026 / 14:01 PT",
+      "image_url": "https://image-generator.buttondown.email/api/emphasize-subject?subject=Stroustrup%27s%20Rule&author=Computer%20Things&date=2024-12-11&img=",
+      "summary_en": "A concise rule from Bjarne Stroustrup on software design in 2024.",
+      "summary_zh": "来自巴纳尼•斯特劳斯特鲁普在2024年的一条简短设计原则。",
+      "hn": {
+        "id": 48701721,
+        "type": "story",
+        "by": "bmacho",
+        "score": 102,
+        "descendants": 27,
+        "time": 1782594103,
+        "comments_url": "https://news.ycombinator.com/item?id=48701721"
+      },
+      "tags": [
+        "Design"
+      ],
+      "hot_score": 0.03
+    },
+    {
+      "title_en": "I built a 10 inch mini rack from aluminium extrusions",
+      "url": "https://louwrentius.com/i-build-a-10-inch-mini-rack-from-aluminium-extrusions.html",
+      "title_zh": "用铝型材自制的10英寸机架",
+      "created_display": "Created: Jun 27, 2026 / 16:45 PT",
+      "image_url": "https://louwrentius.com/static/images/rack/10inchrack01_l.webp",
+      "summary_en": "A hands-on build of a 10-inch aluminum-extrusion rack, detailing rigidity considerations, hardware choices, and space-efficient lab setups.",
+      "summary_zh": "用铝型材自制的10英寸机架的动手建造，讲解刚性、配件选择和紧凑实验室布置。",
+      "hn": {
+        "id": 48702917,
+        "type": "story",
+        "by": "louwrentius",
+        "score": 86,
+        "descendants": 46,
+        "time": 1782603945,
+        "comments_url": "https://news.ycombinator.com/item?id=48702917"
+      },
+      "tags": [
+        "Hardware",
+        "Design"
+      ],
+      "hot_score": 0.03
+    },
+    {
+      "title_en": "Set up your own DoH (DNS over HTTPS) service",
+      "url": "https://nochan.net/b/Internet-Crap/20260602-Set-Up-Your-Own-DoH-Service/",
+      "title_zh": "搭建你自己的 DoH（DNS over HTTPS）服务",
+      "created_display": "Created: Jun 27, 2026 / 15:24 PT",
+      "image_url": null,
+      "summary_en": "A practical guide to running your own DNS over HTTPS service, covering privacy benefits, operational considerations, and common pitfalls.",
+      "summary_zh": "提供搭建 DoH 服务的实用指南，涵盖隐私收益、运维要点与常见坑点。",
+      "hn": {
+        "id": 48702361,
+        "type": "story",
+        "by": "Bender",
+        "score": 74,
+        "descendants": 24,
+        "time": 1782599075,
+        "comments_url": "https://news.ycombinator.com/item?id=48702361"
+      },
+      "tags": [
+        "Privacy",
+        "DevOps"
+      ],
+      "hot_score": 0.02
+    },
+    {
+      "title_en": "Hengefinder",
+      "url": "https://hengefinder.com/",
+      "title_zh": "Hengefinder",
+      "created_display": "Created: Jun 28, 2026 / 07:24 PT",
+      "image_url": null,
+      "summary_en": "Hengefinder appears to be a project aimed at locating and mapping ancient henge monuments.",
+      "summary_zh": "Hengefinder 似乎是一个用于定位和绘制古代圆环遗址的项目。",
+      "hn": {
+        "id": 48707558,
+        "type": "story",
+        "by": "bookofjoe",
+        "score": 33,
+        "descendants": 12,
+        "time": 1782656646,
+        "comments_url": "https://news.ycombinator.com/item?id=48707558"
+      },
+      "hot_score": 0.02,
+      "tags": [
+        "Science"
+      ]
+    },
+    {
+      "title_en": "Segmenting Robot Video into Actionable Subtasks",
+      "url": "https://macrodata.co/blog/annotating-robot-video-subtasks",
+      "title_zh": "将机器人视频分割为可执行子任务",
+      "created_display": "Created: Jun 29, 2026 / 12:52 PT",
+      "image_url": "https://macrodata.co/blog-assets/annotating-robot-video-subtasks/assets/thumbnail-11s.jpg",
+      "summary_en": "A blog outlines annotating robot videos by dividing tasks into actionable subtasks, enabling better learning signals for imitation and planning. This structured approach helps improve robotic learning datasets and evaluation.",
+      "summary_zh": "文章介绍将机器人视频分割为可执行的子任务，以便为模仿学习和计划提供更清晰的学习信号。该方法提升了数据质量和对复杂操作的标注结构性。",
+      "hn": {
+        "id": 48724274,
+        "type": "story",
+        "by": "tomaspduarte",
+        "score": 14,
+        "descendants": 2,
+        "time": 1782762771,
+        "comments_url": "https://news.ycombinator.com/item?id=48724274"
+      },
+      "hot_score": 0.02,
+      "tags": [
+        "Data",
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "Long Island's decommissioned nuclear power plant",
+      "url": "https://nickcarr.com/scouting-a-decommissioned-nuclear-power-plant/",
+      "title_zh": "长岛退役核电站探访",
+      "created_display": "Created: Jun 24, 2026 / 14:41 PT",
+      "image_url": "https://nickcarr.com/wp-content/uploads/2014/02/IMG_6180-1-1024x683.webp",
+      "summary_en": "A visit to a decommissioned nuclear plant on Long Island reveals dismantling work, lessons on waste management, and the realities of winding down aging reactors.",
+      "summary_zh": "对长岛退役核电站的参观揭示了拆除工作、废物管理的经验，以及处理老旧反应堆退役的现实挑战。",
+      "hn": {
+        "id": 48665958,
+        "type": "story",
+        "by": "mkmk",
+        "score": 132,
+        "descendants": 67,
+        "time": 1782337289,
+        "comments_url": "https://news.ycombinator.com/item?id=48665958"
+      },
+      "tags": [
+        "Energy"
+      ],
+      "hot_score": 0.01
+    },
+    {
+      "title_en": "Scaling Laws, Carefully",
+      "url": "https://lilianweng.github.io/posts/2026-06-24-scaling-laws/",
+      "title_zh": "谨慎对待扩展规律",
+      "created_display": "Created: Jun 26, 2026 / 10:55 PT",
+      "image_url": "https://lilianweng.github.io/posts/2026-06-24-scaling-laws/hestness-1.png",
+      "summary_en": "A nuanced look at scaling laws for AI emphasizes that bigger models alone aren’t sufficient. It argues for attention to data quality, architecture, and efficient compute, while urging careful experimentation to avoid overclaiming gains.",
+      "summary_zh": "对 AI 扩展规律的细致分析强调，单靠更大模型并不能保证进展。应关注数据质量、架构和高效计算，并通过谨慎的实验避免对收益的空泛夸大。",
+      "hn": {
+        "id": 48689744,
+        "type": "story",
+        "by": "tehnub",
+        "score": 63,
+        "descendants": 16,
+        "time": 1782496550,
+        "comments_url": "https://news.ycombinator.com/item?id=48689744"
+      },
+      "tags": [
+        "AI",
+        "Data"
+      ],
+      "hot_score": 0.01
+    },
+    {
+      "title_en": "Matrix URIs, a URL syntax from Tim Berners-Lee that never shipped (1996)",
+      "url": "https://www.w3.org/DesignIssues/MatrixURIs.html",
+      "title_zh": "Matrix URIs, a URL syntax from Tim Berners-Lee that never shipped (1996)",
+      "created_display": "Created: Jun 26, 2026 / 08:15 PT",
+      "image_url": null,
+      "summary_en": "A retrospective on Matrix URIs, Tim Berners-Lee's proposed URL syntax from 1996 that never shipped.",
+      "summary_zh": "回顾 Tim Berners-Lee 提出但未落地的 Matrix URIs 语法，1996 年的设计尝试揭示了早期网页架构的权衡。",
+      "hn": {
+        "id": 48687640,
+        "type": "story",
+        "by": "napolux",
+        "score": 61,
+        "descendants": 29,
+        "time": 1782486933,
+        "comments_url": "https://news.ycombinator.com/item?id=48687640"
+      },
+      "tags": [
+        "Web"
+      ],
+      "hot_score": 0.01
+    },
+    {
+      "title_en": "RF hacking my cloud-controlled ceiling fan",
+      "url": "https://samwilkinson.io/posts/2026-06-24-rf-hacking-dreo",
+      "title_zh": "用 RF 入侵云控吊扇的安全研究",
+      "created_display": "Created: Jun 24, 2026 / 07:13 PT",
+      "image_url": null,
+      "summary_en": "A security-focused experiment shows how RF signals control a cloud-connected ceiling fan, exposing potential IoT vulnerabilities and how to mitigate them.",
+      "summary_zh": "一项安全实验揭示了云控吊扇的射频遥控漏洞，暴露物联网安全隐患并给出缓解思路。",
+      "hn": {
+        "id": 48660258,
+        "type": "story",
+        "by": "sammycdubs",
+        "score": 58,
+        "descendants": 18,
+        "time": 1782310427,
+        "comments_url": "https://news.ycombinator.com/item?id=48660258"
+      },
+      "tags": [
+        "Security"
+      ],
+      "hot_score": 0.01
+    },
+    {
+      "title_en": "6 years and 360 patches to clean all instances of strnpy out of the Linux kernel",
+      "url": "https://smist08.wordpress.com/2026/06/25/linux-kills-strncpy/",
+      "title_zh": "6 年和 360 个补丁，清除 Linux 内核中的 strncpy 实例",
+      "created_display": "Created: Jun 25, 2026 / 23:19 PT",
+      "image_url": "https://i0.wp.com/smist08.wordpress.com/wp-content/uploads/2026/06/image-2.png?fit=1200%2C800&ssl=1",
+      "summary_en": "A long-running patch effort finally removes all strncpy uses from the kernel, citing safety concerns and a rewrite to safer strncpy-like behavior; demonstrates incremental code quality improvements.",
+      "summary_zh": "通过长期努力，彻底移除 Linux 内核中所有 strncpy 的使用，强调安全性与向更安全实现的改写，展示代码质量的渐进改进。",
+      "hn": {
+        "id": 48682979,
+        "type": "story",
+        "by": "ingve",
+        "score": 56,
+        "descendants": 34,
+        "time": 1782454779,
+        "comments_url": "https://news.ycombinator.com/item?id=48682979"
+      },
+      "tags": [
+        "Programming",
+        "Open Source"
+      ],
+      "hot_score": 0.01
+    },
+    {
+      "title_en": "Pystd, similar-ish functionality with a fraction of the compile time",
+      "url": "https://nibblestew.blogspot.com/2026/06/pystd-standard-library-similar-ish.html",
+      "title_zh": "Pystd：功能相近，编译时间大幅缩短",
+      "created_display": "Created: Jun 26, 2026 / 14:34 PT",
+      "image_url": "https://resources.blogblog.com/img/icon18_edit_allbkg.gif",
+      "summary_en": "Pystd offers a Python standard library-like experience with substantially reduced compile-time. It targets environments where startup time matters, enabling faster iterations without sacrificing core functionality.",
+      "summary_zh": "Pystd 提供类似 Python 标准库的功能，但编译时间大幅缩短，适用于对启动时间敏感的场景。该项目旨在在不牺牲核心功能的前提下提升开发与部署速度。",
+      "hn": {
+        "id": 48692274,
+        "type": "story",
+        "by": "ibobev",
+        "score": 28,
+        "descendants": 25,
+        "time": 1782509647,
+        "comments_url": "https://news.ycombinator.com/item?id=48692274"
+      },
+      "hot_score": 0.01,
+      "tags": [
+        "Programming",
+        "Startups"
+      ]
+    },
+    {
+      "title_en": "Newly discovered spider builds spring loaded snare to catch ants",
+      "url": "https://phys.org/news/2026-06-newly-australian-ballista-spider-snare.html",
+      "title_zh": "新发现的蜘蛛用弹簧陷阱捕蚁",
+      "created_display": "Created: Jun 28, 2026 / 13:05 PT",
+      "image_url": "https://scx2.b-cdn.net/gfx/news/hires/2026/newly-described-austra.jpg",
+      "summary_en": "A newly documented spider uses a spring-loaded snare to catch ants, showcasing a novel predation strategy in arachnids. The rapid, mechanical trap highlights evolved specialization and could inspire bio-inspired trap design in engineering.",
+      "summary_zh": "研究人员发现一种新蜘蛛，利用弹簧式陷阱捕捉蚂蚁，这是一种罕见的捕食策略。其快速的机械捕捉机制体现了进化的专业化，并可能为生物启发的捕捉装置提供灵感。",
+      "hn": {
+        "id": 48711052,
+        "type": "story",
+        "by": "chimpanzee",
+        "score": 19,
+        "descendants": 1,
+        "time": 1782677156,
+        "comments_url": "https://news.ycombinator.com/item?id=48711052"
+      },
+      "hot_score": 0.01,
+      "tags": [
+        "Science"
+      ]
+    },
+    {
+      "title_en": "How information theory saved my word game",
+      "url": "https://motplot.app/helloworld",
+      "title_zh": "信息理论如何拯救了我的文字游戏",
+      "created_display": "Created: Jun 28, 2026 / 14:22 PT",
+      "image_url": "https://motplot.app/banner.jpg",
+      "summary_en": "Entropy-based strategies dramatically improved a word game's guessing and decision-making, showing practical value of information theory in game design. The approach demonstrates how theoretical ideas can directly boost playability.",
+      "summary_zh": "作者在字谜游戏中应用信息理论优化信息增益与决策过程，显著提升玩法效率和玩家体验，展示信息理论在游戏设计中的实用价值。",
+      "hn": {
+        "id": 48711788,
+        "type": "story",
+        "by": "jamwise",
+        "score": 18,
+        "descendants": 19,
+        "time": 1782681769,
+        "comments_url": "https://news.ycombinator.com/item?id=48711788"
+      },
+      "hot_score": 0.01,
+      "tags": [
+        "Gaming"
+      ]
+    },
+    {
+      "title_en": "Homemade Transistor from Cadmium Sulfide Photocell (2009)",
+      "url": "http://sparkbangbuzz.com/cds-fet/cds-fet.htm",
+      "title_zh": "用镉硫化物光电池自制晶体管（2009）",
+      "created_display": "Created: Jun 29, 2026 / 09:47 PT",
+      "image_url": "http://www.google.com/logos/Logo_25wht.gif",
+      "summary_en": "A 2009 project documents building a crude transistor from a CdS photocell, illustrating early DIY semiconductor experimentation and educational value.",
+      "summary_zh": "2009 年的一个项目记录了用镉硫化物光电池自制晶体管的尝试，展示了早期业余半导体实验的实践性与教育意义。",
+      "hn": {
+        "id": 48721617,
+        "type": "story",
+        "by": "thenthenthen",
+        "score": 7,
+        "descendants": 5,
+        "time": 1782751660,
+        "comments_url": "https://news.ycombinator.com/item?id=48721617"
+      },
+      "hot_score": 0.01,
+      "tags": [
+        "Hardware"
+      ]
+    }
+  ]
+}
