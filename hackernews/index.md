@@ -20,84 +20,84 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='530' data-hn-time='1782915652'>
+<div class='hn-top-story-item' data-hn-score='257' data-hn-time='1782934557'>
 <span class='hn-top-story-rank'>1</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/01/top_stories_07012026#story-48747304'>For first time, a cell built from scratch grows and divides</a>
- <a class='hn-top-story-link' href='https://www.quantamagazine.org/for-the-first-time-a-cell-built-from-scratch-grows-and-divides-20260701/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>首次从零构建的细胞能够生长并分裂</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 14</span> <span class='hn-top-story-score'>&#9650; 530</span> <span class='hn-top-story-comments'>&#128172; 181</span> <span class='hn-top-story-tag'>Science</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='602' data-hn-time='1782912569'>
-<span class='hn-top-story-rank'>2</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/01/top_stories_07012026#story-48746445'>Most arguments are about ego, not ideas</a>
- <a class='hn-top-story-link' href='https://wangcong.org/2026-06-30-why-i-stopped-arguing-with-people.html' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>大多数争论源于自尊心而非观点</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 13</span> <span class='hn-top-story-score'>&#9650; 602</span> <span class='hn-top-story-comments'>&#128172; 475</span> <span class='hn-top-story-tag'>Culture</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='58' data-hn-time='1782933098'>
-<span class='hn-top-story-rank'>3</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/01/top_stories_07012026#story-48751752'>ZCode: Claude Code from the Makers of GLM</a>
- <a class='hn-top-story-link' href='https://zcode.z.ai/cn' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>ZCode：GLM 团队推出 Claude 风格的代码模型</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.8</span> <span class='hn-top-story-score'>&#9650; 58</span> <span class='hn-top-story-comments'>&#128172; 9</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='43' data-hn-time='1782934557'>
-<span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/07/01/top_stories_07012026#story-48752030'>Fable 5 Is Back</a>
  <a class='hn-top-story-link' href='https://twitter.com/claudeai/status/2072402636813607381' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Fable 5 又回来了</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.7</span> <span class='hn-top-story-score'>&#9650; 43</span> <span class='hn-top-story-comments'>&#128172; 5</span> <span class='hn-top-story-tag'>Entertainment</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 257</span> <span class='hn-top-story-comments'>&#128172; 231</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='337' data-hn-time='1782915967'>
+<div class='hn-top-story-item' data-hn-score='78' data-hn-time='1782943416'>
+<span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/01/top_stories_07012026#story-48753715'>ZCode – Harness for GLM-5.2</a>
+ <a class='hn-top-story-link' href='https://zcode.z.ai/en' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>ZCode：GLM-5.2 的测试套件</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 78</span> <span class='hn-top-story-comments'>&#128172; 168</span> <span class='hn-top-story-tag'>Programming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='659' data-hn-time='1782915652'>
+<span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/01/top_stories_07012026#story-48747304'>For first time, a cell built from scratch grows and divides</a>
+ <a class='hn-top-story-link' href='https://www.quantamagazine.org/for-the-first-time-a-cell-built-from-scratch-grows-and-divides-20260701/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>首次从零构建的细胞能够生长并分裂</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.2</span> <span class='hn-top-story-score'>&#9650; 659</span> <span class='hn-top-story-comments'>&#128172; 223</span> <span class='hn-top-story-tag'>Science</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='602' data-hn-time='1782912569'>
+<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/01/top_stories_07012026#story-48746445'>Most arguments are about ego, not ideas</a>
+ <a class='hn-top-story-link' href='https://wangcong.org/2026-06-30-why-i-stopped-arguing-with-people.html' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>大多数争论源于自尊心而非观点</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.3</span> <span class='hn-top-story-score'>&#9650; 602</span> <span class='hn-top-story-comments'>&#128172; 475</span> <span class='hn-top-story-tag'>Culture</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='101' data-hn-time='1782938861'>
 <span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/01/top_stories_07012026#story-48752905'>Show HN: Searchable directory of 22k+ products from worker-owned co-ops</a>
+ <a class='hn-top-story-link' href='https://www.workerowned.info/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Show HN：员工共同所有制合作社的2.2万+件产品可检索目录</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.3</span> <span class='hn-top-story-score'>&#9650; 101</span> <span class='hn-top-story-comments'>&#128172; 20</span> <span class='hn-top-story-tag'>Show HN</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='492' data-hn-time='1782915967'>
+<span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/07/01/top_stories_07012026#story-48747389'>Sony Deletes 551 Movies PlayStation Owners Paid For</a>
  <a class='hn-top-story-link' href='https://reclaimthenet.org/sony-deletes-551-studiocanal-movies-playstation-owners-paid-for' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>索尼删除了 PlayStation 用户购买的 551 部电影</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.1</span> <span class='hn-top-story-score'>&#9650; 337</span> <span class='hn-top-story-comments'>&#128172; 168</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Gaming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.0</span> <span class='hn-top-story-score'>&#9650; 492</span> <span class='hn-top-story-comments'>&#128172; 218</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Gaming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='91' data-hn-time='1782928424'>
-<span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/01/top_stories_07012026#story-48750710'>What to Learn to Be a Graphics Programmer</a>
- <a class='hn-top-story-link' href='https://blog.demofox.org/2026/07/01/what-to-learn-to-be-a-graphics-programmer/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>成为图形程序员要学什么</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.6</span> <span class='hn-top-story-score'>&#9650; 91</span> <span class='hn-top-story-comments'>&#128172; 35</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Education</span> <span class='hn-top-story-tag'>Hardware</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='451' data-hn-time='1782905720'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='29' data-hn-time='1782945941'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/01/top_stories_07012026#story-48745113'>Nintendo has raised its employees base salary by 10%</a>
- <a class='hn-top-story-link' href='https://mynintendonews.com/2026/06/26/nintendo-has-raised-its-employees-base-salary-by-10/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/01/top_stories_07012026#story-48754128'>US feds are actively hiring "person who decides which models to ban"</a>
+ <a class='hn-top-story-link' href='https://www.usajobs.gov/job/856265200' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>任天堂将员工基本薪资提高10%</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.8</span> <span class='hn-top-story-score'>&#9650; 451</span> <span class='hn-top-story-comments'>&#128172; 274</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Gaming</span></div>
+<div class='hn-top-story-zh'>美国联邦政府正在招聘“决定禁用哪些模型”的职位</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.2</span> <span class='hn-top-story-score'>&#9650; 29</span> <span class='hn-top-story-comments'>&#128172; 15</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='391' data-hn-time='1782908014'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='534' data-hn-time='1782908014'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -105,29 +105,29 @@ Sort:
  <a class='hn-top-story-link' href='https://blog.playstation.com/2026/07/01/physical-disc-production-ending-in-january-2028-for-new-games-releasing-on-playstation-consoles/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>PlayStation 将于 2028 年 1 月停止新作实体光盘生产</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.6</span> <span class='hn-top-story-score'>&#9650; 391</span> <span class='hn-top-story-comments'>&#128172; 466</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Gaming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.4</span> <span class='hn-top-story-score'>&#9650; 534</span> <span class='hn-top-story-comments'>&#128172; 572</span> <span class='hn-top-story-tag'>Entertainment</span> <span class='hn-top-story-tag'>Gaming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='483' data-hn-time='1782900424'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='187' data-hn-time='1782928424'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/01/top_stories_07012026#story-48744518'>Asahi Linux 7.1 Progress Report</a>
- <a class='hn-top-story-link' href='https://asahilinux.org/2026/06/progress-report-7-1/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/01/top_stories_07012026#story-48750710'>What to learn to be a graphics programmer</a>
+ <a class='hn-top-story-link' href='https://blog.demofox.org/2026/07/01/what-to-learn-to-be-a-graphics-programmer/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Asahi Linux 7.1 进展报告</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.7</span> <span class='hn-top-story-score'>&#9650; 483</span> <span class='hn-top-story-comments'>&#128172; 171</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>成为图形程序员要学什么</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.3</span> <span class='hn-top-story-score'>&#9650; 187</span> <span class='hn-top-story-comments'>&#128172; 94</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Education</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='314' data-hn-time='1782907937'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='484' data-hn-time='1782905720'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/01/top_stories_07012026#story-48745445'>Box3D, an open source 3D physics engine</a>
- <a class='hn-top-story-link' href='https://box2d.org/posts/2026/06/announcing-box3d/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/01/top_stories_07012026#story-48745113'>Nintendo has raised its employees base salary by 10%</a>
+ <a class='hn-top-story-link' href='https://mynintendonews.com/2026/06/26/nintendo-has-raised-its-employees-base-salary-by-10/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>宣布发布 Box3D：开源的 3D 物理引擎</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.3</span> <span class='hn-top-story-score'>&#9650; 314</span> <span class='hn-top-story-comments'>&#128172; 66</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Gaming</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>任天堂将员工基本薪资提高10%</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.5</span> <span class='hn-top-story-score'>&#9650; 484</span> <span class='hn-top-story-comments'>&#128172; 300</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Gaming</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/07/01/top_stories_07012026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>30</b> <span class="hn-row-sep">·</span> AI <b>26</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>25</b> <span class="hn-row-sep">·</span> AI <b>23</b></span>
 </a>
 </div>
 </div>
