@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>133</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>19443</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>130</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>131</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-07-02</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>133</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>19472</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>130</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>131</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-07-02</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='377' data-hn-time='1782961215'>
+<div class='hn-top-story-item' data-hn-score='311' data-hn-time='1782994653'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/02/top_stories_07022026#story-48755965'>A new Android malware from Google</a>
- <a class='hn-top-story-link' href='https://f-droid.org/2026/07/01/adv-malware.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/02/top_stories_07022026#story-48760289'>This blog is written in en-GB</a>
+ <a class='hn-top-story-link' href='https://shkspr.mobi/blog/2026/07/this-blog-is-written-in-en-gb/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>来自谷歌的新型 Android 恶意软件</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.1</span> <span class='hn-top-story-score'>&#9650; 377</span> <span class='hn-top-story-comments'>&#128172; 175</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>本博客以英式英语（en-GB）撰写</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 13</span> <span class='hn-top-story-score'>&#9650; 311</span> <span class='hn-top-story-comments'>&#128172; 307</span> <span class='hn-top-story-tag'>Culture</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='39' data-hn-time='1782980769'>
+<div class='hn-top-story-item' data-hn-score='138' data-hn-time='1782999821'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/02/top_stories_07022026#story-48758242'>We Don't Have to Be This Bad at Improving Society</a>
- <a class='hn-top-story-link' href='https://kasperjunge.com/blog/we-dont-have-to-be-this-bad-at-improving-society/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/02/top_stories_07022026#story-48761536'>AI can't be listed as inventor on patent applications, Japan's top court rules</a>
+ <a class='hn-top-story-link' href='https://japannews.yomiuri.co.jp/science-nature/technology/20260306-314930/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>改善社会不必如此糟糕</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.3</span> <span class='hn-top-story-score'>&#9650; 39</span> <span class='hn-top-story-comments'>&#128172; 32</span> <span class='hn-top-story-tag'>Culture</span></div>
+<div class='hn-top-story-zh'>日本最高法院裁定 AI 不能作为发明人列入专利申请</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.5</span> <span class='hn-top-story-score'>&#9650; 138</span> <span class='hn-top-story-comments'>&#128172; 55</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Legal</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='252' data-hn-time='1782959416'>
+<div class='hn-top-story-item' data-hn-score='1250' data-hn-time='1782961215'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/02/top_stories_07022026#story-48755731'>Bring back crappy forums</a>
- <a class='hn-top-story-link' href='https://tedium.co/2026/07/01/online-web-forums-retrospective/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/02/top_stories_07022026#story-48755965'>Android Developer Verification: Threat masquerading as protection</a>
+ <a class='hn-top-story-link' href='https://f-droid.org/2026/07/01/adv-malware.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>让糟糕论坛卷土重来</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.9</span> <span class='hn-top-story-score'>&#9650; 252</span> <span class='hn-top-story-comments'>&#128172; 150</span> <span class='hn-top-story-tag'>Web</span></div>
+<div class='hn-top-story-zh'>Android 开发者验证：伪装成保护的威胁</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.4</span> <span class='hn-top-story-score'>&#9650; 1250</span> <span class='hn-top-story-comments'>&#128172; 511</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='138' data-hn-time='1782966761'>
+<div class='hn-top-story-item' data-hn-score='130' data-hn-time='1782996036'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/02/top_stories_07022026#story-48756602'>Kimi K2.7 Code is generally available in GitHub Copilot</a>
- <a class='hn-top-story-link' href='https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/02/top_stories_07022026#story-48760598'>AI fake news complaining about how AI fake news is the death of real news</a>
+ <a class='hn-top-story-link' href='https://www.niemanlab.org/2026/07/now-were-getting-ai-fake-news-complaining-about-how-ai-fake-news-is-the-death-of-real-news/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Kimi K2.7 代码现已在 GitHub Copilot 中广泛可用</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.3</span> <span class='hn-top-story-score'>&#9650; 138</span> <span class='hn-top-story-comments'>&#128172; 47</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>AI 假新闻抱怨 AI 假新闻才是现实新闻的死亡</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.1</span> <span class='hn-top-story-score'>&#9650; 130</span> <span class='hn-top-story-comments'>&#128172; 42</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='27' data-hn-time='1782981253'>
+<div class='hn-top-story-item' data-hn-score='172' data-hn-time='1782992487'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/02/top_stories_07022026#story-48758309'>Google loses fight over record $4.7B EU antitrust fine</a>
- <a class='hn-top-story-link' href='https://www.cnbc.com/2026/07/02/alphabet-google-android-eu-antitrust-fine-4-1-billion-euro-appeal.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/02/top_stories_07022026#story-48759870'>The primary purpose of code review is to find code that will be hard to maintain</a>
+ <a class='hn-top-story-link' href='https://mathstodon.xyz/@mjd/115096720350507897' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>谷歌就欧盟创纪录的47亿欧元反垄断罚款上诉败诉</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 27</span> <span class='hn-top-story-comments'>&#128172; 3</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>代码评审的主要目的是发现难以维护的代码</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.0</span> <span class='hn-top-story-score'>&#9650; 172</span> <span class='hn-top-story-comments'>&#128172; 99</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='278' data-hn-time='1782953281'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='98' data-hn-time='1782998725'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/02/top_stories_07022026#story-48755005'>Oomwoo, an open-source robot vacuum you build yourself</a>
- <a class='hn-top-story-link' href='https://makerspet.com/blog/building-an-open-source-robot-vacuum-meet-oomwoo/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/02/top_stories_07022026#story-48761229'>The Egg Bandits Made a Thousand Times the Fine They Just Paid for Price Fixing</a>
+ <a class='hn-top-story-link' href='https://www.thebignewsletter.com/p/crime-pays-the-egg-bandits-made-a' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Oomwoo：一个你自己组装的开源机器人吸尘器</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 278</span> <span class='hn-top-story-comments'>&#128172; 53</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>蛋商价格操纵案：罚款远不及利润</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.0</span> <span class='hn-top-story-score'>&#9650; 98</span> <span class='hn-top-story-comments'>&#128172; 22</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Legal</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='391' data-hn-time='1782943416'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='166' data-hn-time='1782991801'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/02/top_stories_07022026#story-48753715'>ZCode – Harness for GLM-5.2</a>
- <a class='hn-top-story-link' href='https://zcode.z.ai/en' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/02/top_stories_07022026#story-48759761'>Vite+ Beta</a>
+ <a class='hn-top-story-link' href='https://voidzero.dev/posts/announcing-vite-plus-beta' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>ZCode：GLM-5.2 的测试套件</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.7</span> <span class='hn-top-story-score'>&#9650; 391</span> <span class='hn-top-story-comments'>&#128172; 290</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>Vite+ Beta 版</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.5</span> <span class='hn-top-story-score'>&#9650; 166</span> <span class='hn-top-story-comments'>&#128172; 95</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='854' data-hn-time='1782915652'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='34' data-hn-time='1783005080'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/02/top_stories_07022026#story-48747304'>For first time, a cell built from scratch grows and divides</a>
- <a class='hn-top-story-link' href='https://www.quantamagazine.org/for-the-first-time-a-cell-built-from-scratch-grows-and-divides-20260701/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/02/top_stories_07022026#story-48762862'>Launch HN: Manufact (YC S25) – MCP Cloud</a>
+ <a class='hn-top-story-link' href='https://manufact.com' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>首次从零构建的细胞能够生长并分裂</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 854</span> <span class='hn-top-story-comments'>&#128172; 276</span> <span class='hn-top-story-tag'>Science</span></div>
+<div class='hn-top-story-zh'>Launch HN：Manufact（YC S25）—— MCP Cloud</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.8</span> <span class='hn-top-story-score'>&#9650; 34</span> <span class='hn-top-story-comments'>&#128172; 18</span> <span class='hn-top-story-tag'>Startups</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='344' data-hn-time='1782938861'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='66' data-hn-time='1782999671'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/02/top_stories_07022026#story-48752905'>Show HN: Searchable directory of 22k+ products from worker-owned co-ops</a>
- <a class='hn-top-story-link' href='https://www.workerowned.info/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/02/top_stories_07022026#story-48761493'>Show HN: ZeroFS – A log-structured filesystem for S3</a>
+ <a class='hn-top-story-link' href='https://www.zerofs.net/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Show HN：员工共同所有制合作社的2.2万+件产品可检索目录</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.7</span> <span class='hn-top-story-score'>&#9650; 344</span> <span class='hn-top-story-comments'>&#128172; 67</span> <span class='hn-top-story-tag'>Show HN</span></div>
+<div class='hn-top-story-zh'>Show HN：ZeroFS——面向 S3 的日志结构文件系统</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.5</span> <span class='hn-top-story-score'>&#9650; 66</span> <span class='hn-top-story-comments'>&#128172; 34</span> <span class='hn-top-story-tag'>Show HN</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='2387' data-hn-time='1782834264'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='86' data-hn-time='1782996391'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/02/top_stories_07022026#story-48734373'>Claude Code is steganographically marking requests</a>
- <a class='hn-top-story-link' href='https://thereallo.dev/blog/claude-code-prompt-steganography' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/02/top_stories_07022026#story-48760669'>Germany’s Infineon opens major chip plant as EU seeks tech autonomy</a>
+ <a class='hn-top-story-link' href='https://www.rfi.fr/en/international-news/20260702-germany-s-infineon-opens-major-chip-plant-as-eu-seeks-tech-autonomy' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Claude Code 以隐写方式标记请求</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.7</span> <span class='hn-top-story-score'>&#9650; 2387</span> <span class='hn-top-story-comments'>&#128172; 726</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>德国英飞凌在欧盟推动科技自主之际开设大型芯片工厂</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 86</span> <span class='hn-top-story-comments'>&#128172; 20</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -140,7 +140,7 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 27 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-06-29 — 2026-07-02 <span class="hn-row-sep">·</span> 499 stories <span class="hn-row-sep">·</span> 4 days</span>
+<span class='hn-week-meta'>2026-06-29 — 2026-07-02 <span class="hn-row-sep">·</span> 528 stories <span class="hn-row-sep">·</span> 4 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/07/02/top_stories_07022026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>49</b> <span class="hn-row-sep">·</span> Programming <b>10</b> <span class="hn-row-sep">·</span> AI <b>9</b></span>
+<span class='hn-row-detail'>All <b>78</b> <span class="hn-row-sep">·</span> Programming <b>19</b> <span class="hn-row-sep">·</span> AI <b>15</b></span>
 </a>
 </div>
 </div>
