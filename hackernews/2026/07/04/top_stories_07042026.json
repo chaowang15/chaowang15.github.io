@@ -4,19 +4,19 @@
     "source": "https://news.ycombinator.com/",
     "api": "https://github.com/HackerNews/API",
     "count_requested": 50,
-    "count_written": 49,
-    "reused_same_day": 0,
-    "reused_cross_day": 36,
-    "new_llm_enriched": 13,
-    "scrape_time_display": "01:45, July 04, 2026 (PDT)",
+    "count_written": 64,
+    "reused_same_day": 34,
+    "reused_cross_day": 1,
+    "new_llm_enriched": 14,
+    "scrape_time_display": "08:05, July 04, 2026 (PDT)",
     "timezone": "America/Los_Angeles",
     "date_dir": "2026/07/04",
     "content_date": "2026-07-04",
-    "run_time_local": "01:45, July 04, 2026 (PDT)",
-    "run_time_utc": "2026-07-04 08:45:36 UTC",
+    "run_time_local": "08:05, July 04, 2026 (PDT)",
+    "run_time_utc": "2026-07-04 15:05:03 UTC",
     "incremental": true,
     "stories_max": 100,
-    "hot_score_time_utc": "2026-07-04 08:46:37 UTC"
+    "hot_score_time_utc": "2026-07-04 15:06:20 UTC"
   },
   "items": [
     {
@@ -31,37 +31,85 @@
         "id": 48783117,
         "type": "story",
         "by": "gslin",
-        "score": 141,
-        "descendants": 72,
+        "score": 533,
+        "descendants": 324,
         "time": 1783146748,
         "comments_url": "https://news.ycombinator.com/item?id=48783117"
       },
-      "hot_score": 10.41,
       "tags": [
-        "Health",
-        "Science"
+        "Science",
+        "Health"
+      ],
+      "hot_score": 7.64
+    },
+    {
+      "title_en": "Potential session/cache leakage between workspace instances or consumer accounts",
+      "url": "https://github.com/anthropics/claude-code/issues/74066",
+      "title_zh": "工作区实例或消费账户间的会话/缓存泄漏潜在风险",
+      "created_display": "Created: Jul 04, 2026 / 07:03 PT",
+      "image_url": "https://opengraph.githubassets.com/2cdc39bbb7c20b8648c2761682b6515313e35bc73132ba817d448163fd3a49ec/anthropics/claude-code/issues/74066",
+      "summary_en": "A bug report highlights potential session or cache leakage across Claude Code workspace instances or consumer accounts, threatening data isolation in multi-tenant deployments. If real, it could let one user access another's session data or cached prompts. Mitigations focus on stricter tenant isolation, scoped caching, shorter TTLs, and robust audit trails.",
+      "summary_zh": "关于 Claude Code 的工作区实例之间或消费账户之间可能出现会话/缓存泄漏的问题报道，暴露多租户环境的数据隔离风险。若属实，可能让一个用户访问到另一用户的会话数据或缓存提示。应对措施包括更严格的租户隔离、缓存作用域控制、缩短生存期以及完善的审计日志。",
+      "hn": {
+        "id": 48785485,
+        "type": "story",
+        "by": "chatmasta",
+        "score": 56,
+        "descendants": 14,
+        "time": 1783173820,
+        "comments_url": "https://news.ycombinator.com/item?id=48785485"
+      },
+      "hot_score": 7.41,
+      "tags": [
+        "Security",
+        "Data",
+        "AI"
       ]
     },
     {
-      "title_en": "David Beazley – Programming Courses",
-      "url": "https://www.dabeaz.com/courses.html",
-      "title_zh": "David Beazley 的编程课程",
-      "created_display": "Created: Jul 03, 2026 / 22:43 PT",
-      "image_url": null,
-      "summary_en": "Beazley offers practical programming courses renowned in the Python and systems community, covering topics from language internals to tooling. These courses provide deep, hands-on instruction that appeals to developers seeking mastery and better debugging and design skills.",
-      "summary_zh": "Beazley 的编程课程在 Python 与系统领域广受好评，覆盖从语言内部实现到工具链的内容。课程强调以实操驱动的深度学习，帮助开发者提升掌握度、调试与设计能力。",
+      "title_en": "Explanation of everything you can see in htop/top on Linux",
+      "url": "https://peteris.rocks/blog/htop/",
+      "title_zh": "Linux 中 htop/top 的全部字段解读",
+      "created_display": "Created: Jul 04, 2026 / 05:00 PT",
+      "image_url": "https://peteris.rocks/blog/htop/canyoukillit-before.png",
+      "summary_en": "A comprehensive guide decodes every field in htop and top on Linux, explaining what each metric means and how to interpret them in practice. It helps practitioners diagnose performance bottlenecks beyond surface readings. Includes tips on CPU/memory usage, process states, and how sampling affects observations.",
+      "summary_zh": "这篇详尽指南逐一解释 Linux 上 htop/top 的每个字段和指标，以及如何据此解读性能信号、定位瓶颈。提供实用建议，帮助读者理解 CPU/内存、进程状态和 I/O 等数据在监控中的含义及刷新对观察的影响。",
       "hn": {
-        "id": 48782918,
+        "id": 48784777,
         "type": "story",
-        "by": "gregsadetsky",
-        "score": 66,
-        "descendants": 21,
-        "time": 1783143781,
-        "comments_url": "https://news.ycombinator.com/item?id=48782918"
+        "by": "theanonymousone",
+        "score": 99,
+        "descendants": 14,
+        "time": 1783166457,
+        "comments_url": "https://news.ycombinator.com/item?id=48784777"
       },
-      "hot_score": 3.51,
+      "hot_score": 5.24,
       "tags": [
-        "Programming"
+        "Programming",
+        "Hardware"
+      ]
+    },
+    {
+      "title_en": "Astrophysicists Puzzle over Webb’s New Universe",
+      "url": "https://www.quantamagazine.org/astrophysicists-puzzle-over-webbs-new-universe-20260702/",
+      "title_zh": "韦伯望远镜的新宇宙让天体物理学家困惑",
+      "created_display": "Created: Jul 04, 2026 / 02:08 PT",
+      "image_url": "https://www.quantamagazine.org/wp-content/uploads/2026/07/JWSTUpdate-crKristinaArmitage-Social.jpg",
+      "summary_en": "Webb's latest observations raise puzzling questions for astrophysicists about the early universe, prompting debate over data interpretation, calibration, and possible new physics. The results stress-test prevailing models of galaxy formation and cosmic timeline and highlight the challenge of extracting reliable signal from complex data.",
+      "summary_zh": "韦伯望远镜的最新观测数据给早期宇宙的模型带来一些难以解释的新迹象，引发对数据解读、标定与潜在新物理的讨论。研究者正在重新评估星系形成与宇宙时间线的假设，以应对这些出乎意料的信号。",
+      "hn": {
+        "id": 48783948,
+        "type": "story",
+        "by": "jnord",
+        "score": 110,
+        "descendants": 56,
+        "time": 1783156089,
+        "comments_url": "https://news.ycombinator.com/item?id=48783948"
+      },
+      "hot_score": 2.6,
+      "tags": [
+        "Science",
+        "Space"
       ]
     },
     {
@@ -76,15 +124,38 @@
         "id": 48772388,
         "type": "story",
         "by": "weli",
-        "score": 1263,
-        "descendants": 382,
+        "score": 1297,
+        "descendants": 387,
         "time": 1783067012,
         "comments_url": "https://news.ycombinator.com/item?id=48772388"
       },
       "tags": [
         "Design"
       ],
-      "hot_score": 3.49
+      "hot_score": 2.43
+    },
+    {
+      "title_en": "Maybe you should learn something",
+      "url": "https://www.marginalia.nu/log/a_135_learn/",
+      "title_zh": "也许你应该学点东西",
+      "created_display": "Created: Jul 03, 2026 / 20:36 PT",
+      "image_url": null,
+      "summary_en": "A quick nudge toward lifelong learning as a driver of career resilience and innovation. The piece advocates picking up new skills or domains to stay adaptable in rapidly changing tech landscapes.",
+      "summary_zh": "鼓励以终身学习驱动职业韧性与创新，强调在快速变化的科技领域不断学习新技能的重要性。建议从新领域入手，提升跨领域适应能力。",
+      "hn": {
+        "id": 48782435,
+        "type": "story",
+        "by": "tylerdane",
+        "score": 253,
+        "descendants": 122,
+        "time": 1783136163,
+        "comments_url": "https://news.ycombinator.com/item?id=48782435"
+      },
+      "tags": [
+        "Education",
+        "Career"
+      ],
+      "hot_score": 2.33
     },
     {
       "title_en": "Espionage Against the European Parliament",
@@ -98,39 +169,39 @@
         "id": 48779683,
         "type": "story",
         "by": "ledoge",
-        "score": 359,
-        "descendants": 87,
+        "score": 399,
+        "descendants": 107,
         "time": 1783111106,
         "comments_url": "https://news.ycombinator.com/item?id=48779683"
       },
       "tags": [
         "Security",
+        "Politics",
         "Privacy"
       ],
-      "hot_score": 3.04
+      "hot_score": 1.74
     },
     {
-      "title_en": "Agentic coding notes from Galapagos Island",
-      "url": "https://danluu.com/ai-coding/#appendix-agentic-loops-and-writing-this-post",
-      "title_zh": "来自加拉帕戈斯群岛的代理性编码笔记",
-      "created_display": "Created: Jul 03, 2026 / 21:37 PT",
-      "image_url": null,
-      "summary_en": "Notes on agentic loops in AI-guided coding and what they imply for building autonomous coding assistants. It blends practical observations with guidance on safety, control, and evaluation.",
-      "summary_zh": "讨论 AI 辅助编码中的代理性循环及其对构建自主编码助手的含义，结合实践观察给出安全、控制与评估的要点。",
+      "title_en": "How working memory could give rise to consciousness",
+      "url": "https://www.scientificamerican.com/article/how-working-memory-could-give-rise-to-consciousness/",
+      "title_zh": "工作记忆如何促成意识的产生",
+      "created_display": "Created: Jul 04, 2026 / 07:02 PT",
+      "image_url": "https://static.scientificamerican.com/dam/m/285f89e9e222c787/original/Vector-illustration-of-human-head-on-starry-space-background-Artificial-intelligence-or-cosmic-consciousness-concept-stock-illustration.jpg?m=1772748168.259&w=1200",
+      "summary_en": "Scientific American discusses how working memory processes may scaffold conscious experience, proposing that the contents we hold in mind form the substrate of awareness. The piece surveys neural mechanisms linking memory, attention, and phenomenology.",
+      "summary_zh": "工作记忆可能支撑着意识体验的形成，脑中的内容与觉知之间存在紧密联系。文章梳理了记忆、注意力与现象学之间的神经机制，探讨记忆在塑造意识中的作用。",
       "hn": {
-        "id": 48782671,
+        "id": 48785478,
         "type": "story",
-        "by": "gm678",
-        "score": 74,
-        "descendants": 29,
-        "time": 1783139835,
-        "comments_url": "https://news.ycombinator.com/item?id=48782671"
+        "by": "bookofjoe",
+        "score": 13,
+        "descendants": 12,
+        "time": 1783173779,
+        "comments_url": "https://news.ycombinator.com/item?id=48785478"
       },
+      "hot_score": 1.61,
       "tags": [
-        "AI",
-        "Programming"
-      ],
-      "hot_score": 2.77
+        "Science"
+      ]
     },
     {
       "title_en": "Leanstral 1.5: Proof abundance for all",
@@ -144,15 +215,38 @@
         "id": 48780801,
         "type": "story",
         "by": "programLyrique",
-        "score": 214,
-        "descendants": 51,
+        "score": 303,
+        "descendants": 86,
         "time": 1783117990,
         "comments_url": "https://news.ycombinator.com/item?id=48780801"
       },
       "tags": [
-        "Science"
+        "Programming"
       ],
-      "hot_score": 2.35
+      "hot_score": 1.57
+    },
+    {
+      "title_en": "David Beazley – Programming Courses",
+      "url": "https://www.dabeaz.com/courses.html",
+      "title_zh": "David Beazley 的编程课程",
+      "created_display": "Created: Jul 03, 2026 / 22:43 PT",
+      "image_url": null,
+      "summary_en": "Beazley offers practical programming courses renowned in the Python and systems community, covering topics from language internals to tooling. These courses provide deep, hands-on instruction that appeals to developers seeking mastery and better debugging and design skills.",
+      "summary_zh": "Beazley 的编程课程在 Python 与系统领域广受好评，覆盖从语言内部实现到工具链的内容。课程强调以实操驱动的深度学习，帮助开发者提升掌握度、调试与设计能力。",
+      "hn": {
+        "id": 48782918,
+        "type": "story",
+        "by": "gregsadetsky",
+        "score": 121,
+        "descendants": 31,
+        "time": 1783143781,
+        "comments_url": "https://news.ycombinator.com/item?id=48782918"
+      },
+      "tags": [
+        "Programming",
+        "Education"
+      ],
+      "hot_score": 1.5
     },
     {
       "title_en": "Performance per dollar is getting faster and cheaper",
@@ -166,16 +260,39 @@
         "id": 48780417,
         "type": "story",
         "by": "latchkey",
-        "score": 230,
-        "descendants": 74,
+        "score": 303,
+        "descendants": 120,
         "time": 1783115346,
         "comments_url": "https://news.ycombinator.com/item?id=48780417"
       },
-      "hot_score": 2.28,
+      "tags": [
+        "Hardware",
+        "AI"
+      ],
+      "hot_score": 1.47
+    },
+    {
+      "title_en": "Agentic coding notes from Galapagos Island",
+      "url": "https://danluu.com/ai-coding/#appendix-agentic-loops-and-writing-this-post",
+      "title_zh": "来自加拉帕戈斯群岛的代理性编码笔记",
+      "created_display": "Created: Jul 03, 2026 / 21:37 PT",
+      "image_url": null,
+      "summary_en": "Notes on agentic loops in AI-guided coding and what they imply for building autonomous coding assistants. It blends practical observations with guidance on safety, control, and evaluation.",
+      "summary_zh": "讨论 AI 辅助编码中的代理性循环及其对构建自主编码助手的含义，结合实践观察给出安全、控制与评估的要点。",
+      "hn": {
+        "id": 48782671,
+        "type": "story",
+        "by": "gm678",
+        "score": 139,
+        "descendants": 63,
+        "time": 1783139835,
+        "comments_url": "https://news.ycombinator.com/item?id=48782671"
+      },
       "tags": [
         "AI",
-        "Hardware"
-      ]
+        "Programming"
+      ],
+      "hot_score": 1.47
     },
     {
       "title_en": "Valve open-source the Steam Machine e-ink screen so you can make your own",
@@ -198,29 +315,7 @@
         "Open Source",
         "Hardware"
       ],
-      "hot_score": 2.17
-    },
-    {
-      "title_en": "Giant trees have no trouble pumping water to top branches: new research",
-      "url": "https://news.exeter.ac.uk/faculty-of-environment-science-and-economy/giant-trees-have-no-trouble-pumping-water-to-top-branches/",
-      "title_zh": "巨树向最高枝条输送水分毫不吃力：最新研究",
-      "created_display": "Created: Jul 03, 2026 / 15:40 PT",
-      "image_url": "https://news.exeter.ac.uk/wp-content/uploads/2026/07/A-57m-tall-Dipterocarp-tree-with-a-double-rope-technique-DRT-rigged-for-canopy-access.-Credit-Palasiah-Jotan-x.jpg",
-      "summary_en": "New research shows giant trees can efficiently pump water to the highest branches, revealing surprising tree hydraulics. The findings inform models of forest resilience and carbon cycling.",
-      "summary_zh": "最新研究显示巨树能高效将水输送到最高枝条，揭示树木水力系统的惊人能力。研究结果有助于改进对森林干旱韧性和碳循环的建模。",
-      "hn": {
-        "id": 48780870,
-        "type": "story",
-        "by": "hhs",
-        "score": 191,
-        "descendants": 89,
-        "time": 1783118429,
-        "comments_url": "https://news.ycombinator.com/item?id=48780870"
-      },
-      "tags": [
-        "Science"
-      ],
-      "hot_score": 2.14
+      "hot_score": 1.37
     },
     {
       "title_en": "Costco is the anti-Amazon",
@@ -234,38 +329,37 @@
         "id": 48776044,
         "type": "story",
         "by": "bookofjoe",
-        "score": 395,
-        "descendants": 367,
+        "score": 472,
+        "descendants": 438,
         "time": 1783091695,
         "comments_url": "https://news.ycombinator.com/item?id=48776044"
       },
       "tags": [
         "Business"
       ],
-      "hot_score": 1.87
+      "hot_score": 1.35
     },
     {
-      "title_en": "Synthesis is harder than analysis",
-      "url": "https://surfingcomplexity.blog/2026/07/03/synthesis-is-harder-than-analysis/",
-      "title_zh": "合成比分析更难",
-      "created_display": "Created: Jul 03, 2026 / 19:45 PT",
-      "image_url": "https://surfingcomplexity.blog/wp-content/uploads/2026/07/image-6.png",
-      "summary_en": "Synthesis is harder than analysis, arguing that building correct solutions from specifications is more challenging than analyzing existing ones. The piece touches on implications for AI-assisted programming and where tooling needs to evolve.",
-      "summary_zh": "作者认为从规格中进行合成比分析现有实现更具挑战性，这对 AI 辅助编程和软件工程都意义重大。文中讨论了关键瓶颈并给出改进工具的方向。",
+      "title_en": "Giant trees have no trouble pumping water to top branches: new research",
+      "url": "https://news.exeter.ac.uk/faculty-of-environment-science-and-economy/giant-trees-have-no-trouble-pumping-water-to-top-branches/",
+      "title_zh": "巨树向最高枝条输送水分毫不吃力：最新研究",
+      "created_display": "Created: Jul 03, 2026 / 15:40 PT",
+      "image_url": "https://news.exeter.ac.uk/wp-content/uploads/2026/07/A-57m-tall-Dipterocarp-tree-with-a-double-rope-technique-DRT-rigged-for-canopy-access.-Credit-Palasiah-Jotan-x.jpg",
+      "summary_en": "New research shows giant trees can efficiently pump water to the highest branches, revealing surprising tree hydraulics. The findings inform models of forest resilience and carbon cycling.",
+      "summary_zh": "最新研究显示巨树能高效将水输送到最高枝条，揭示树木水力系统的惊人能力。研究结果有助于改进对森林干旱韧性和碳循环的建模。",
       "hn": {
-        "id": 48782219,
+        "id": 48780870,
         "type": "story",
-        "by": "azhenley",
-        "score": 76,
-        "descendants": 13,
-        "time": 1783133124,
-        "comments_url": "https://news.ycombinator.com/item?id=48782219"
+        "by": "hhs",
+        "score": 235,
+        "descendants": 105,
+        "time": 1783118429,
+        "comments_url": "https://news.ycombinator.com/item?id=48780870"
       },
       "tags": [
-        "AI",
-        "Programming"
+        "Science"
       ],
-      "hot_score": 1.77
+      "hot_score": 1.23
     },
     {
       "title_en": "Odin, Wikipedia and engagement farming",
@@ -279,63 +373,15 @@
         "id": 48781196,
         "type": "story",
         "by": "stock_toaster",
-        "score": 134,
-        "descendants": 184,
+        "score": 200,
+        "descendants": 277,
         "time": 1783121075,
         "comments_url": "https://news.ycombinator.com/item?id=48781196"
       },
       "tags": [
-        "Privacy",
         "Politics"
       ],
-      "hot_score": 1.67
-    },
-    {
-      "title_en": "SearXNG: A free internet metasearch engine",
-      "url": "https://github.com/searxng/searxng",
-      "title_zh": "SearXNG：一个免费的互联网元搜索引擎",
-      "created_display": "Created: Jul 03, 2026 / 13:15 PT",
-      "image_url": "https://opengraph.githubassets.com/f6a680d5206b6eb3a9a07f46c686877f51616131619e261f17ba8afd8e9780f6/searxng/searxng",
-      "summary_en": "SearXNG is a free, open source metasearch engine that aggregates results from multiple sources while preserving user privacy. It is a modern fork with improved privacy defaults and straightforward self hosting, appealing to privacy minded researchers and admins.",
-      "summary_zh": "SearXNG 是一个免费且开源的元搜索引擎，汇聚多家源端结果并强调用户隐私。作为现代分支，它提供更严格的隐私默认和便于自托管的架构，适合注重隐私的研究者与系统管理员。",
-      "hn": {
-        "id": 48779454,
-        "type": "story",
-        "by": "theanonymousone",
-        "score": 206,
-        "descendants": 55,
-        "time": 1783109749,
-        "comments_url": "https://news.ycombinator.com/item?id=48779454"
-      },
-      "tags": [
-        "Open Source",
-        "Privacy",
-        "Web"
-      ],
-      "hot_score": 1.66
-    },
-    {
-      "title_en": "Maybe you should learn something",
-      "url": "https://www.marginalia.nu/log/a_135_learn/",
-      "title_zh": "也许你应该学点东西",
-      "created_display": "Created: Jul 03, 2026 / 20:36 PT",
-      "image_url": null,
-      "summary_en": "A quick nudge toward lifelong learning as a driver of career resilience and innovation. The piece advocates picking up new skills or domains to stay adaptable in rapidly changing tech landscapes.",
-      "summary_zh": "鼓励以终身学习驱动职业韧性与创新，强调在快速变化的科技领域不断学习新技能的重要性。建议从新领域入手，提升跨领域适应能力。",
-      "hn": {
-        "id": 48782435,
-        "type": "story",
-        "by": "tylerdane",
-        "score": 56,
-        "descendants": 24,
-        "time": 1783136163,
-        "comments_url": "https://news.ycombinator.com/item?id=48782435"
-      },
-      "hot_score": 1.58,
-      "tags": [
-        "Education",
-        "Career"
-      ]
+      "hot_score": 1.13
     },
     {
       "title_en": "Jamesob's guide to running SOTA LLMs locally",
@@ -349,8 +395,8 @@
         "id": 48775921,
         "type": "story",
         "by": "livestyle",
-        "score": 334,
-        "descendants": 151,
+        "score": 377,
+        "descendants": 169,
         "time": 1783091023,
         "comments_url": "https://news.ycombinator.com/item?id=48775921"
       },
@@ -359,7 +405,99 @@
         "Programming",
         "Hardware"
       ],
-      "hot_score": 1.56
+      "hot_score": 1.06
+    },
+    {
+      "title_en": "SearXNG: A free internet metasearch engine",
+      "url": "https://github.com/searxng/searxng",
+      "title_zh": "SearXNG：一个免费的互联网元搜索引擎",
+      "created_display": "Created: Jul 03, 2026 / 13:15 PT",
+      "image_url": "https://opengraph.githubassets.com/f6a680d5206b6eb3a9a07f46c686877f51616131619e261f17ba8afd8e9780f6/searxng/searxng",
+      "summary_en": "SearXNG is a free, open source metasearch engine that aggregates results from multiple sources while preserving user privacy. It is a modern fork with improved privacy defaults and straightforward self hosting, appealing to privacy minded researchers and admins.",
+      "summary_zh": "SearXNG 是一个免费且开源的元搜索引擎，汇聚多家源端结果并强调用户隐私。作为现代分支，它提供更严格的隐私默认和便于自托管的架构，适合注重隐私的研究者与系统管理员。",
+      "hn": {
+        "id": 48779454,
+        "type": "story",
+        "by": "theanonymousone",
+        "score": 246,
+        "descendants": 68,
+        "time": 1783109749,
+        "comments_url": "https://news.ycombinator.com/item?id=48779454"
+      },
+      "tags": [
+        "Open Source",
+        "Privacy"
+      ],
+      "hot_score": 1.04
+    },
+    {
+      "title_en": "A martian rock has lots of carbon on it, and it's not clear why",
+      "url": "https://arstechnica.com/science/2026/07/a-martian-rock-has-lots-of-carbon-on-it-and-its-not-clear-why/",
+      "title_zh": "一块火星岩含碳量很高，原因尚不清楚",
+      "created_display": "Created: Jul 04, 2026 / 07:00 PT",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/image-1152x648.png",
+      "summary_en": "Ars Technica reports a Martian rock with unusually high carbon content; scientists are investigating whether the carbon derives from the rock itself, past volcanic activity, or atmospheric processes, with implications for Mars geology and history.",
+      "summary_zh": "一块火星岩样本显示碳含量异常高，科学家尚未弄清碳的来源，是来自岩石自身、历史火山活动还是大气过程。此发现对理解火星地质与历史具有重要意义。",
+      "hn": {
+        "id": 48785459,
+        "type": "story",
+        "by": "Brajeshwar",
+        "score": 9,
+        "descendants": 0,
+        "time": 1783173603,
+        "comments_url": "https://news.ycombinator.com/item?id=48785459"
+      },
+      "hot_score": 1.04,
+      "tags": [
+        "Science",
+        "Space"
+      ]
+    },
+    {
+      "title_en": "Synthesis is harder than analysis",
+      "url": "https://surfingcomplexity.blog/2026/07/03/synthesis-is-harder-than-analysis/",
+      "title_zh": "合成比分析更难",
+      "created_display": "Created: Jul 03, 2026 / 19:45 PT",
+      "image_url": "https://surfingcomplexity.blog/wp-content/uploads/2026/07/image-6.png",
+      "summary_en": "Synthesis is harder than analysis, arguing that building correct solutions from specifications is more challenging than analyzing existing ones. The piece touches on implications for AI-assisted programming and where tooling needs to evolve.",
+      "summary_zh": "作者认为从规格中进行合成比分析现有实现更具挑战性，这对 AI 辅助编程和软件工程都意义重大。文中讨论了关键瓶颈并给出改进工具的方向。",
+      "hn": {
+        "id": 48782219,
+        "type": "story",
+        "by": "azhenley",
+        "score": 119,
+        "descendants": 30,
+        "time": 1783133124,
+        "comments_url": "https://news.ycombinator.com/item?id=48782219"
+      },
+      "tags": [
+        "AI",
+        "Programming"
+      ],
+      "hot_score": 0.98
+    },
+    {
+      "title_en": "'All men are created equal': America has lost its values. It's time to go back",
+      "url": "https://www.theguardian.com/us-news/ng-interactive/2026/jul/04/250-years-declaration-of-independence",
+      "title_zh": "“万物平等”美国价值流逝？是时候回归",
+      "created_display": "Created: Jul 04, 2026 / 07:15 PT",
+      "image_url": "https://i.guim.co.uk/img/media/57e2d01cefcbc7ae7428c406456fe5e997ade2a5/316_1040_2786_2227/master/2786.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=7e64c4b440237c1a2f1fab973b592060",
+      "summary_en": "An opinion piece argues that America has drifted from its founding values and urges a return to core principles in a forward-looking way. It challenges readers to reconsider national identity, liberty, and equality in the current political climate.",
+      "summary_zh": "这篇观点文章认为美国正背离建国之初的价值观，呼吁以更清晰、面向未来的方式重新回归核心原则，促使读者重新审视当代政治中的国家认同、自由与平等。",
+      "hn": {
+        "id": 48785573,
+        "type": "story",
+        "by": "hkhn",
+        "score": 7,
+        "descendants": 1,
+        "time": 1783174522,
+        "comments_url": "https://news.ycombinator.com/item?id=48785573"
+      },
+      "hot_score": 0.91,
+      "tags": [
+        "Politics",
+        "Programming"
+      ]
     },
     {
       "title_en": "Steam Controller Auto-Charge – pilot to magnetic charging puck using CV",
@@ -373,15 +511,127 @@
         "id": 48780865,
         "type": "story",
         "by": "zdw",
-        "score": 130,
-        "descendants": 27,
+        "score": 170,
+        "descendants": 38,
         "time": 1783118390,
         "comments_url": "https://news.ycombinator.com/item?id=48780865"
       },
       "tags": [
-        "Hardware"
+        "Hardware",
+        "Programming"
       ],
-      "hot_score": 1.45
+      "hot_score": 0.89
+    },
+    {
+      "title_en": "MSI Center – How to gain SYSTEM privileges in seconds",
+      "url": "https://mrbruh.com/msicenter/",
+      "title_zh": "MSI Center：几秒钟就能获取 SYSTEM 权限",
+      "created_display": "Created: Jul 03, 2026 / 17:57 PT",
+      "image_url": "https://mrbruh.com/msicenter/msicenter_die.avif",
+      "summary_en": "MSI Center vulnerability enables SYSTEM privileges within seconds, illustrating how vendor software can become an attack surface on Windows. The write-up underscores patching and defensive steps.",
+      "summary_zh": "MSI Center 存在本地权限提升漏洞，能让攻击者在数秒内获得 SYSTEM 权限，暴露 Windows 安全风险。文中给出修补与缓解建议，强调及时更新。",
+      "hn": {
+        "id": 48781688,
+        "type": "story",
+        "by": "MrBruh",
+        "score": 120,
+        "descendants": 49,
+        "time": 1783126664,
+        "comments_url": "https://news.ycombinator.com/item?id=48781688"
+      },
+      "tags": [
+        "Security"
+      ],
+      "hot_score": 0.8
+    },
+    {
+      "title_en": "60% Fable cost cut by converting code to images and having the model OCR it",
+      "url": "https://github.com/teamchong/pxpipe",
+      "title_zh": "通过将代码转换为图像并让模型进行 OCR，Fable 成本降低 60%",
+      "created_display": "Created: Jul 03, 2026 / 08:50 PT",
+      "image_url": "https://opengraph.githubassets.com/23eb39244f071f14d64e6d0e113921c5bc8a1adfa0b90f9831f0deaa203053c8/teamchong/pxpipe",
+      "summary_en": "A cost-cutting experiment shows that encoding code as images and using OCR can dramatically reduce token usage in Fable, cutting costs by about 60%. The approach highlights an unusual, input-format hack to optimize model usage, with trade-offs in accuracy and workflow.",
+      "summary_zh": "在 Fable 的成本优化尝试中，將代码转成图像再用模型 OCR，大约降低 60% 的成本。这一做法揭示了通过输入形式的创新来降低模型成本的潜在可能性，同时也伴随准确性和工作流的权衡。",
+      "hn": {
+        "id": 48776464,
+        "type": "story",
+        "by": "dimitropoulos",
+        "score": 265,
+        "descendants": 89,
+        "time": 1783093849,
+        "comments_url": "https://news.ycombinator.com/item?id=48776464"
+      },
+      "tags": [
+        "AI",
+        "Programming"
+      ],
+      "hot_score": 0.79
+    },
+    {
+      "title_en": "Factories are just rooms",
+      "url": "https://interconnected.org/home/2026/07/03/factories",
+      "title_zh": "工厂不过是空间",
+      "created_display": "Created: Jul 03, 2026 / 08:13 PT",
+      "image_url": "https://interconnected.org/home/2026/07/03/factories.png?v=1",
+      "summary_en": "A provocative reframing: factories as simple spaces where work happens. Efficiency, the piece argues, comes from layout, processes, and people rather than flashy machinery.",
+      "summary_zh": "本文将工厂重新理解为仅仅是工作场所，作者认为效率来自空间布置、工序流程和人员协调，而非炫目的新设备。它促使人们重新思考制造业，把问题放在布局与约束上，而非技术噱头。",
+      "hn": {
+        "id": 48776035,
+        "type": "story",
+        "by": "arbesman",
+        "score": 264,
+        "descendants": 111,
+        "time": 1783091623,
+        "comments_url": "https://news.ycombinator.com/item?id=48776035"
+      },
+      "tags": [
+        "Business"
+      ],
+      "hot_score": 0.75
+    },
+    {
+      "title_en": "Holes",
+      "url": "https://xkcd.com/3266/large/",
+      "title_zh": "洞",
+      "created_display": "Created: Jul 03, 2026 / 10:54 PT",
+      "image_url": "https://imgs.xkcd.com/comics/holes_large.png",
+      "summary_en": "XKCD's Holes offers a witty exploration of holes in everyday reasoning and objects, turning a simple concept into a playful meditation on measurement, geometry, and absurdity.",
+      "summary_zh": "XKCD 的《洞》以幽默方式探讨日常生活和推理中的“洞”，以测量、几何和荒诞性为线索，带来轻松而发人深省的漫画体验。",
+      "hn": {
+        "id": 48777832,
+        "type": "story",
+        "by": "caminanteblanco",
+        "score": 216,
+        "descendants": 37,
+        "time": 1783101265,
+        "comments_url": "https://news.ycombinator.com/item?id=48777832"
+      },
+      "tags": [
+        "Science"
+      ],
+      "hot_score": 0.75
+    },
+    {
+      "title_en": "Soatok's Informal Guide to Threat Models",
+      "url": "https://soatok.blog/2026/06/30/soatoks-informal-guide-to-threat-models/",
+      "title_zh": "Soatok 的非正式威胁建模指南",
+      "created_display": "Created: Jul 03, 2026 / 17:35 PT",
+      "image_url": "https://i0.wp.com/soatok.blog/wp-content/uploads/2026/06/BlogHeader-2026-ThreatModel-Guide.png?fit=1200%2C675&ssl=1",
+      "summary_en": "Soatok's informal guide distills threat modeling into approachable steps, covering assets, attacker goals, attack surfaces, and mitigations with practical examples.",
+      "summary_zh": "以通俗方式梳理威胁建模的核心要点，涵盖资产、攻击者目标、攻击面及缓解策略，并配有实践示例。",
+      "hn": {
+        "id": 48781597,
+        "type": "story",
+        "by": "zdw",
+        "score": 116,
+        "descendants": 28,
+        "time": 1783125349,
+        "comments_url": "https://news.ycombinator.com/item?id=48781597"
+      },
+      "tags": [
+        "Security"
+      ],
+      "hot_score": 0.74
     },
     {
       "title_en": "Africans Are Turning to Starlink",
@@ -402,99 +652,10 @@
       },
       "tags": [
         "Space",
-        "Business",
         "Education",
         "Politics"
       ],
-      "hot_score": 1.34
-    },
-    {
-      "title_en": "60% Fable cost cut by converting code to images and having the model OCR it",
-      "url": "https://github.com/teamchong/pxpipe",
-      "title_zh": "通过将代码转换为图像并让模型进行 OCR，Fable 成本降低 60%",
-      "created_display": "Created: Jul 03, 2026 / 08:50 PT",
-      "image_url": "https://opengraph.githubassets.com/23eb39244f071f14d64e6d0e113921c5bc8a1adfa0b90f9831f0deaa203053c8/teamchong/pxpipe",
-      "summary_en": "A cost-cutting experiment shows that encoding code as images and using OCR can dramatically reduce token usage in Fable, cutting costs by about 60%. The approach highlights an unusual, input-format hack to optimize model usage, with trade-offs in accuracy and workflow.",
-      "summary_zh": "在 Fable 的成本优化尝试中，將代码转成图像再用模型 OCR，大约降低 60% 的成本。这一做法揭示了通过输入形式的创新来降低模型成本的潜在可能性，同时也伴随准确性和工作流的权衡。",
-      "hn": {
-        "id": 48776464,
-        "type": "story",
-        "by": "dimitropoulos",
-        "score": 265,
-        "descendants": 89,
-        "time": 1783093849,
-        "comments_url": "https://news.ycombinator.com/item?id=48776464"
-      },
-      "tags": [
-        "AI"
-      ],
-      "hot_score": 1.33
-    },
-    {
-      "title_en": "Holes",
-      "url": "https://xkcd.com/3266/large/",
-      "title_zh": "洞",
-      "created_display": "Created: Jul 03, 2026 / 10:54 PT",
-      "image_url": "https://imgs.xkcd.com/comics/holes_large.png",
-      "summary_en": "XKCD's Holes offers a witty exploration of holes in everyday reasoning and objects, turning a simple concept into a playful meditation on measurement, geometry, and absurdity.",
-      "summary_zh": "XKCD 的《洞》以幽默方式探讨日常生活和推理中的“洞”，以测量、几何和荒诞性为线索，带来轻松而发人深省的漫画体验。",
-      "hn": {
-        "id": 48777832,
-        "type": "story",
-        "by": "caminanteblanco",
-        "score": 216,
-        "descendants": 37,
-        "time": 1783101265,
-        "comments_url": "https://news.ycombinator.com/item?id=48777832"
-      },
-      "tags": [
-        "Entertainment"
-      ],
-      "hot_score": 1.33
-    },
-    {
-      "title_en": "MSI Center – How to gain SYSTEM privileges in seconds",
-      "url": "https://mrbruh.com/msicenter/",
-      "title_zh": "MSI Center：几秒钟就能获取 SYSTEM 权限",
-      "created_display": "Created: Jul 03, 2026 / 17:57 PT",
-      "image_url": "https://mrbruh.com/msicenter/msicenter_die.avif",
-      "summary_en": "MSI Center vulnerability enables SYSTEM privileges within seconds, illustrating how vendor software can become an attack surface on Windows. The write-up underscores patching and defensive steps.",
-      "summary_zh": "MSI Center 存在本地权限提升漏洞，能让攻击者在数秒内获得 SYSTEM 权限，暴露 Windows 安全风险。文中给出修补与缓解建议，强调及时更新。",
-      "hn": {
-        "id": 48781688,
-        "type": "story",
-        "by": "MrBruh",
-        "score": 80,
-        "descendants": 25,
-        "time": 1783126664,
-        "comments_url": "https://news.ycombinator.com/item?id=48781688"
-      },
-      "tags": [
-        "Security"
-      ],
-      "hot_score": 1.29
-    },
-    {
-      "title_en": "Soatok's Informal Guide to Threat Models",
-      "url": "https://soatok.blog/2026/06/30/soatoks-informal-guide-to-threat-models/",
-      "title_zh": "Soatok 的非正式威胁建模指南",
-      "created_display": "Created: Jul 03, 2026 / 17:35 PT",
-      "image_url": "https://i0.wp.com/soatok.blog/wp-content/uploads/2026/06/BlogHeader-2026-ThreatModel-Guide.png?fit=1200%2C675&ssl=1",
-      "summary_en": "Soatok's informal guide distills threat modeling into approachable steps, covering assets, attacker goals, attack surfaces, and mitigations with practical examples.",
-      "summary_zh": "以通俗方式梳理威胁建模的核心要点，涵盖资产、攻击者目标、攻击面及缓解策略，并配有实践示例。",
-      "hn": {
-        "id": 48781597,
-        "type": "story",
-        "by": "zdw",
-        "score": 80,
-        "descendants": 10,
-        "time": 1783125349,
-        "comments_url": "https://news.ycombinator.com/item?id=48781597"
-      },
-      "tags": [
-        "Security"
-      ],
-      "hot_score": 1.21
+      "hot_score": 0.68
     },
     {
       "title_en": "I Wasn't Allowed Prompting ChatGPT During My Chalk Talk: This Is Discrimination (2025)",
@@ -514,54 +675,9 @@
         "comments_url": "https://news.ycombinator.com/item?id=48777728"
       },
       "tags": [
-        "AI",
-        "Politics"
+        "AI"
       ],
-      "hot_score": 1.16
-    },
-    {
-      "title_en": "Factories are just rooms",
-      "url": "https://interconnected.org/home/2026/07/03/factories",
-      "title_zh": "工厂不过是空间",
-      "created_display": "Created: Jul 03, 2026 / 08:13 PT",
-      "image_url": "https://interconnected.org/home/2026/07/03/factories.png?v=1",
-      "summary_en": "A provocative reframing: factories as simple spaces where work happens. Efficiency, the piece argues, comes from layout, processes, and people rather than flashy machinery.",
-      "summary_zh": "本文将工厂重新理解为仅仅是工作场所，作者认为效率来自空间布置、工序流程和人员协调，而非炫目的新设备。它促使人们重新思考制造业，把问题放在布局与约束上，而非技术噱头。",
-      "hn": {
-        "id": 48776035,
-        "type": "story",
-        "by": "arbesman",
-        "score": 240,
-        "descendants": 98,
-        "time": 1783091623,
-        "comments_url": "https://news.ycombinator.com/item?id=48776035"
-      },
-      "tags": [
-        "Design"
-      ],
-      "hot_score": 1.13
-    },
-    {
-      "title_en": "The firefighting system of the Van der Heyden brothers in 17th century Amsterdam",
-      "url": "https://worksinprogress.co/issue/how-amsterdam-invented-the-fire-department/",
-      "title_zh": "17 世纪阿姆斯特丹 Van der Heyden 兄弟的消防系统",
-      "created_display": "Created: Jul 03, 2026 / 15:46 PT",
-      "image_url": "https://worksinprogress.co/wip-image/uploads/2026/07/firefighting-share-card-.jpg",
-      "summary_en": "A historical account of the firefighting system developed by the Van der Heyden brothers in 17th-century Amsterdam, illustrating early municipal organization and firefighting technology.",
-      "summary_zh": "讲述 17 世纪阿姆斯特丹 Van der Heyden 兄弟建立的消防系统，展现早期城市公共安全机构和技术组织的演进。",
-      "hn": {
-        "id": 48780913,
-        "type": "story",
-        "by": "zdw",
-        "score": 88,
-        "descendants": 15,
-        "time": 1783118778,
-        "comments_url": "https://news.ycombinator.com/item?id=48780913"
-      },
-      "tags": [
-        "Culture"
-      ],
-      "hot_score": 0.99
+      "hot_score": 0.66
     },
     {
       "title_en": "FreeBSD ate my RAM",
@@ -575,39 +691,15 @@
         "id": 48778757,
         "type": "story",
         "by": "theanonymousone",
-        "score": 133,
-        "descendants": 45,
+        "score": 169,
+        "descendants": 69,
         "time": 1783105711,
         "comments_url": "https://news.ycombinator.com/item?id=48778757"
       },
       "tags": [
-        "DevOps",
-        "Open Source"
-      ],
-      "hot_score": 0.94
-    },
-    {
-      "title_en": "Applied Category Theory Course (2018)",
-      "url": "https://math.ucr.edu/home/baez/act_course/index.html",
-      "title_zh": "应用范畴理论课程（2018）",
-      "created_display": "Created: Jul 03, 2026 / 13:42 PT",
-      "image_url": null,
-      "summary_en": "An introductory set of notes from a 2018 Applied Category Theory course, showing how abstract structures map to concrete problems in programming and systems design. The material helps readers develop a vocabulary for thinking about composition, processes, and interoperability in software.",
-      "summary_zh": "这份来自 2018 年的应用范畴理论课程笔记，展示了抽象结构如何映射到编程与系统设计中的具体问题。通过学习组合、过程与互操作性的概念，读者能建立更清晰的软件架构思维。",
-      "hn": {
-        "id": 48779723,
-        "type": "story",
-        "by": "measurablefunc",
-        "score": 105,
-        "descendants": 7,
-        "time": 1783111320,
-        "comments_url": "https://news.ycombinator.com/item?id=48779723"
-      },
-      "tags": [
-        "Education",
         "Programming"
       ],
-      "hot_score": 0.89
+      "hot_score": 0.65
     },
     {
       "title_en": "New serious vulnerabilities spiked around release of Claude Mythos Preview",
@@ -621,8 +713,8 @@
         "id": 48780056,
         "type": "story",
         "by": "cubefox",
-        "score": 95,
-        "descendants": 32,
+        "score": 134,
+        "descendants": 58,
         "time": 1783113376,
         "comments_url": "https://news.ycombinator.com/item?id=48780056"
       },
@@ -630,7 +722,97 @@
         "AI",
         "Security"
       ],
-      "hot_score": 0.87
+      "hot_score": 0.61
+    },
+    {
+      "title_en": "The firefighting system of the Van der Heyden brothers in 17th century Amsterdam",
+      "url": "https://worksinprogress.co/issue/how-amsterdam-invented-the-fire-department/",
+      "title_zh": "17 世纪阿姆斯特丹 Van der Heyden 兄弟的消防系统",
+      "created_display": "Created: Jul 03, 2026 / 15:46 PT",
+      "image_url": "https://worksinprogress.co/wip-image/uploads/2026/07/firefighting-share-card-.jpg",
+      "summary_en": "A historical account of the firefighting system developed by the Van der Heyden brothers in 17th-century Amsterdam, illustrating early municipal organization and firefighting technology.",
+      "summary_zh": "讲述 17 世纪阿姆斯特丹 Van der Heyden 兄弟建立的消防系统，展现早期城市公共安全机构和技术组织的演进。",
+      "hn": {
+        "id": 48780913,
+        "type": "story",
+        "by": "zdw",
+        "score": 115,
+        "descendants": 21,
+        "time": 1783118778,
+        "comments_url": "https://news.ycombinator.com/item?id=48780913"
+      },
+      "tags": [
+        "Culture"
+      ],
+      "hot_score": 0.61
+    },
+    {
+      "title_en": "Wordgard: In-browser rich-text editor from the creator of ProseMirror",
+      "url": "https://wordgard.net/",
+      "title_zh": "WordGard：来自 ProseMirror 创作者的新浏览器端富文本编辑器",
+      "created_display": "Created: Jul 03, 2026 / 01:50 PT",
+      "image_url": "http://wordgard.net/style/logo.svg",
+      "summary_en": "WordGard is a new in-browser rich-text editor by the ProseMirror creator, aiming to streamline building modern editing experiences with collaboration and formatting features. It promises a modular architecture and ergonomic APIs that could accelerate web-based content tools.",
+      "summary_zh": "WordGard 是 ProseMirror 作者推出的全新浏览器端富文本编辑器，旨在简化现代协作与排版功能的编辑体验开发。它承诺模块化架构与易用 API，可能加速网页内容工具的开发。",
+      "hn": {
+        "id": 48772573,
+        "type": "story",
+        "by": "indy",
+        "score": 307,
+        "descendants": 102,
+        "time": 1783068647,
+        "comments_url": "https://news.ycombinator.com/item?id=48772573"
+      },
+      "tags": [
+        "Programming",
+        "Web"
+      ],
+      "hot_score": 0.59
+    },
+    {
+      "title_en": "Applied Category Theory Course (2018)",
+      "url": "https://math.ucr.edu/home/baez/act_course/index.html",
+      "title_zh": "应用范畴理论课程（2018）",
+      "created_display": "Created: Jul 03, 2026 / 13:42 PT",
+      "image_url": null,
+      "summary_en": "An introductory set of notes from a 2018 Applied Category Theory course, showing how abstract structures map to concrete problems in programming and systems design. The material helps readers develop a vocabulary for thinking about composition, processes, and interoperability in software.",
+      "summary_zh": "这份来自 2018 年的应用范畴理论课程笔记，展示了抽象结构如何映射到编程与系统设计中的具体问题。通过学习组合、过程与互操作性的概念，读者能建立更清晰的软件架构思维。",
+      "hn": {
+        "id": 48779723,
+        "type": "story",
+        "by": "measurablefunc",
+        "score": 133,
+        "descendants": 11,
+        "time": 1783111320,
+        "comments_url": "https://news.ycombinator.com/item?id=48779723"
+      },
+      "tags": [
+        "Education",
+        "Programming"
+      ],
+      "hot_score": 0.58
+    },
+    {
+      "title_en": "Does average person understand that all disc media dies too?",
+      "url": "https://news.ycombinator.com/item?id=48785525",
+      "title_zh": "普通人也知道所有光盘媒体都会消亡吗？",
+      "created_display": "Created: Jul 04, 2026 / 07:08 PT",
+      "image_url": "https://news.ycombinator.com/y18.svg",
+      "summary_en": "A Hacker News discussion questions whether the average person appreciates that disc-based media degrade over time and data can fade. It underscores the importance of backups, data migration, and long-term storage planning.",
+      "summary_zh": "一段 Hacker News 讨论质疑普通人是否意识到光盘等介质会随时间退化、数据会逐渐丢失。文章强调备份、冗余和定期迁移到新存储的重要性，揭示数据长期存储的挑战。",
+      "hn": {
+        "id": 48785525,
+        "type": "story",
+        "by": "kingleopold",
+        "score": 5,
+        "descendants": 2,
+        "time": 1783174135,
+        "comments_url": "https://news.ycombinator.com/item?id=48785525"
+      },
+      "hot_score": 0.57,
+      "tags": [
+        "Data"
+      ]
     },
     {
       "title_en": "International chess federation sanctions Kramnik",
@@ -644,15 +826,108 @@
         "id": 48777266,
         "type": "story",
         "by": "DarkContinent",
-        "score": 151,
-        "descendants": 89,
+        "score": 157,
+        "descendants": 95,
         "time": 1783098248,
         "comments_url": "https://news.ycombinator.com/item?id=48777266"
       },
       "tags": [
         "Politics"
       ],
-      "hot_score": 0.85
+      "hot_score": 0.51
+    },
+    {
+      "title_en": "2026 Unslop AI-Written Fiction Contest Results",
+      "url": "https://www.hyperstitionai.com/unslop-results",
+      "title_zh": "2026 Unslop AI写作小说比赛结果",
+      "created_display": "Created: Jul 03, 2026 / 22:37 PT",
+      "image_url": null,
+      "summary_en": "Results from the 2026 Unslop AI-Written Fiction Contest showcase how AI-generated narratives performed, highlighting strengths and potential biases in machine-authored fiction. The results portend evolving collaboration between creators and AI tools.",
+      "summary_zh": "2026 年的 Unslop AI 写作小说比赛结果展示了 AI 生成叙事的水平，凸显了机器创作的优势与潜在偏见。赛事也预示着创作者与 AI 工具在未来创作流程中的协作前景。",
+      "hn": {
+        "id": 48782890,
+        "type": "story",
+        "by": "networked",
+        "score": 37,
+        "descendants": 103,
+        "time": 1783143445,
+        "comments_url": "https://news.ycombinator.com/item?id=48782890"
+      },
+      "hot_score": 0.44,
+      "tags": [
+        "AI",
+        "Entertainment"
+      ]
+    },
+    {
+      "title_en": "PostgreSQL and the OOM killer: Why we use strict memory overcommit",
+      "url": "https://www.ubicloud.com/blog/postgresql-and-the-oom-killer-why-we-use-strict-memory-overcommit",
+      "title_zh": "PostgreSQL 与 OOM Killer：为何采用严格的内存超分配",
+      "created_display": "Created: Jul 03, 2026 / 06:00 PT",
+      "image_url": "https://cdn.prod.website-files.com/64f9d9b4e737e7b37d4e39a4/69e8a268046b54c24dff01c2_OOM%20Killer%20(1).jpg",
+      "summary_en": "PostgreSQL deployments rely on strict memory overcommit settings to prevent unpredictable OOM conditions. This approach improves stability in containerized and cloud environments, but can lead to memory inefficiency if not tuned carefully. The piece offers practical guidance for memory budgeting, swap behavior, and kernel parameters to balance safety and performance.",
+      "summary_zh": "PostgreSQL 部署常通过严格的内存超分配设置来避免不可预测的内存不足。该方法在容器化和云环境中提升了稳定性，但若未作充分调优，可能导致内存资源浪费。文中给出内存预算、swap 行为与内核参数等实用建议，帮助在安全和性能之间取得平衡。",
+      "hn": {
+        "id": 48774509,
+        "type": "story",
+        "by": "furkansahin",
+        "score": 177,
+        "descendants": 110,
+        "time": 1783083631,
+        "comments_url": "https://news.ycombinator.com/item?id=48774509"
+      },
+      "tags": [
+        "Programming",
+        "DevOps",
+        "Data"
+      ],
+      "hot_score": 0.43
+    },
+    {
+      "title_en": "Farmer, marketer at odds over sales of white nectarines",
+      "url": "https://apnews.com/article/california-farmer-nectarines-lawsuit-patent-4f7bc8ab185e8b9cbdd6d6ad4f2aabd1",
+      "title_zh": "白肉油桃销售之争",
+      "created_display": "Created: Jul 03, 2026 / 11:11 PT",
+      "image_url": "https://dims.apnews.com/dims4/default/d7bb3a4/2147483647/strip/true/crop/6755x4501+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fb6%2F14%2F985c371f3f4aeb1974eae79f6b32%2Fca1474869f4e45e2bd8d1de39762c477",
+      "summary_en": "A dispute between a California farmer and marketers over the sale of white nectarines involves agricultural business, IP, or licensing. The case touches on commodity markets, branding, and potential patent or variety rights.",
+      "summary_zh": "加州农民与市场方在白肉油桃销售上存在分歧，涉及市场运作、品牌与品种权等议题，折射出农产品市场中的知识产权与商业模式挑战。",
+      "hn": {
+        "id": 48778031,
+        "type": "story",
+        "by": "djoldman",
+        "score": 120,
+        "descendants": 119,
+        "time": 1783102292,
+        "comments_url": "https://news.ycombinator.com/item?id=48778031"
+      },
+      "tags": [
+        "Business",
+        "Legal"
+      ],
+      "hot_score": 0.42
+    },
+    {
+      "title_en": "Software, from First Principles",
+      "url": "https://fazamhd.com/mental-models/software/",
+      "title_zh": "软件：从第一性原理出发",
+      "created_display": "Created: Jul 03, 2026 / 14:28 PT",
+      "image_url": "https://fazamhd.com/og/mental-models/software.png",
+      "summary_en": "Software from First Principles argues for building software grounded in foundational principles, clarifying mental models, correctness, and maintainability.",
+      "summary_zh": "从第一性原理出发，提出软件开发应基于基础原则，强调正确性、可维护性和简化设计。",
+      "hn": {
+        "id": 48780224,
+        "type": "story",
+        "by": "faza",
+        "score": 89,
+        "descendants": 15,
+        "time": 1783114135,
+        "comments_url": "https://news.ycombinator.com/item?id=48780224"
+      },
+      "tags": [
+        "Programming",
+        "Education"
+      ],
+      "hot_score": 0.41
     },
     {
       "title_en": "The circuit that lets your brain think and see",
@@ -676,76 +951,7 @@
         "Science",
         "AI"
       ],
-      "hot_score": 0.85
-    },
-    {
-      "title_en": "Wordgard: In-browser rich-text editor from the creator of ProseMirror",
-      "url": "https://wordgard.net/",
-      "title_zh": "WordGard：来自 ProseMirror 创作者的新浏览器端富文本编辑器",
-      "created_display": "Created: Jul 03, 2026 / 01:50 PT",
-      "image_url": "http://wordgard.net/style/logo.svg",
-      "summary_en": "WordGard is a new in-browser rich-text editor by the ProseMirror creator, aiming to streamline building modern editing experiences with collaboration and formatting features. It promises a modular architecture and ergonomic APIs that could accelerate web-based content tools.",
-      "summary_zh": "WordGard 是 ProseMirror 作者推出的全新浏览器端富文本编辑器，旨在简化现代协作与排版功能的编辑体验开发。它承诺模块化架构与易用 API，可能加速网页内容工具的开发。",
-      "hn": {
-        "id": 48772573,
-        "type": "story",
-        "by": "indy",
-        "score": 295,
-        "descendants": 97,
-        "time": 1783068647,
-        "comments_url": "https://news.ycombinator.com/item?id=48772573"
-      },
-      "tags": [
-        "Web",
-        "Programming"
-      ],
-      "hot_score": 0.84
-    },
-    {
-      "title_en": "Software, from First Principles",
-      "url": "https://fazamhd.com/mental-models/software/",
-      "title_zh": "软件：从第一性原理出发",
-      "created_display": "Created: Jul 03, 2026 / 14:28 PT",
-      "image_url": "https://fazamhd.com/og/mental-models/software.png",
-      "summary_en": "Software from First Principles argues for building software grounded in foundational principles, clarifying mental models, correctness, and maintainability.",
-      "summary_zh": "从第一性原理出发，提出软件开发应基于基础原则，强调正确性、可维护性和简化设计。",
-      "hn": {
-        "id": 48780224,
-        "type": "story",
-        "by": "faza",
-        "score": 89,
-        "descendants": 15,
-        "time": 1783114135,
-        "comments_url": "https://news.ycombinator.com/item?id=48780224"
-      },
-      "tags": [
-        "Programming",
-        "Education"
-      ],
-      "hot_score": 0.84
-    },
-    {
-      "title_en": "PostgreSQL and the OOM killer: Why we use strict memory overcommit",
-      "url": "https://www.ubicloud.com/blog/postgresql-and-the-oom-killer-why-we-use-strict-memory-overcommit",
-      "title_zh": "PostgreSQL 与 OOM Killer：为何采用严格的内存超分配",
-      "created_display": "Created: Jul 03, 2026 / 06:00 PT",
-      "image_url": "https://cdn.prod.website-files.com/64f9d9b4e737e7b37d4e39a4/69e8a268046b54c24dff01c2_OOM%20Killer%20(1).jpg",
-      "summary_en": "PostgreSQL deployments rely on strict memory overcommit settings to prevent unpredictable OOM conditions. This approach improves stability in containerized and cloud environments, but can lead to memory inefficiency if not tuned carefully. The piece offers practical guidance for memory budgeting, swap behavior, and kernel parameters to balance safety and performance.",
-      "summary_zh": "PostgreSQL 部署常通过严格的内存超分配设置来避免不可预测的内存不足。该方法在容器化和云环境中提升了稳定性，但若未作充分调优，可能导致内存资源浪费。文中给出内存预算、swap 行为与内核参数等实用建议，帮助在安全和性能之间取得平衡。",
-      "hn": {
-        "id": 48774509,
-        "type": "story",
-        "by": "furkansahin",
-        "score": 168,
-        "descendants": 102,
-        "time": 1783083631,
-        "comments_url": "https://news.ycombinator.com/item?id=48774509"
-      },
-      "tags": [
-        "DevOps",
-        "Data"
-      ],
-      "hot_score": 0.65
+      "hot_score": 0.39
     },
     {
       "title_en": "GitFut – Your GitHub stats turned into a World-Cup-style player card",
@@ -766,32 +972,9 @@
       },
       "tags": [
         "Data",
-        "Web",
         "Programming"
       ],
-      "hot_score": 0.58
-    },
-    {
-      "title_en": "Dispersion loss counteracts embedding condensation in small language models",
-      "url": "https://chenliu-1996.github.io/projects/LM-Dispersion/",
-      "title_zh": "色散损失抵消小型语言模型中的嵌入收缩",
-      "created_display": "Created: Jul 03, 2026 / 15:35 PT",
-      "image_url": "https://chenliu-1996.github.io/projects/LM-Dispersion/Dispersion_demo.gif",
-      "summary_en": "Dispersion loss helps prevent embedding condensation in small language models, preserving richer token representations. The approach improves robustness and performance when data or compute is limited.",
-      "summary_zh": "色散损失有助于防止小型语言模型中的嵌入收缩，保留更丰富的标记表征。该方法在数据或计算资源受限时提升鲁棒性和性能。",
-      "hn": {
-        "id": 48780826,
-        "type": "story",
-        "by": "E-Reverance",
-        "score": 34,
-        "descendants": 8,
-        "time": 1783118147,
-        "comments_url": "https://news.ycombinator.com/item?id=48780826"
-      },
-      "hot_score": 0.37,
-      "tags": [
-        "AI"
-      ]
+      "hot_score": 0.27
     },
     {
       "title_en": "Ask HN: Is anyone experimenting with different ways of using LLMs for coding?",
@@ -814,7 +997,7 @@
         "Programming",
         "AI"
       ],
-      "hot_score": 0.36
+      "hot_score": 0.25
     },
     {
       "title_en": "Show HN: Mcpsnoop – Wireshark for MCP (transparent proxy and live TUI)",
@@ -835,31 +1018,29 @@
       },
       "tags": [
         "Show HN",
-        "Open Source",
-        "Web"
+        "Open Source"
       ],
-      "hot_score": 0.31
+      "hot_score": 0.18
     },
     {
-      "title_en": "Scientists discover guidance system for migratory songbirds",
-      "url": "https://news.exeter.ac.uk/faculty-of-environment-science-and-economy/scientists-discover-guidance-system-for-migratory-songbirds/",
-      "title_zh": "科学家发现候鸟迁徙的导航系统",
-      "created_display": "Created: Jul 03, 2026 / 16:36 PT",
-      "image_url": "https://news.exeter.ac.uk/wp-content/uploads/2026/06/Flycatcher.jpg",
-      "summary_en": "Researchers identify a guiding mechanism behind migratory songbirds' routes, shedding light on how birds navigate across continents. The finding has implications for neuroscience, compass-like navigation models, and biomimetic AI ideas.",
-      "summary_zh": "研究人员揭示候鸟在跨洲迁徙时的导航机制，为鸟类跨大陆的导航提供新线索。该发现对神经科学、类指南针的导航模型以及仿生人工智能具有启示。",
+      "title_en": "Dispersion loss counteracts embedding condensation in small language models",
+      "url": "https://chenliu-1996.github.io/projects/LM-Dispersion/",
+      "title_zh": "色散损失抵消小型语言模型中的嵌入收缩",
+      "created_display": "Created: Jul 03, 2026 / 15:35 PT",
+      "image_url": "https://chenliu-1996.github.io/projects/LM-Dispersion/Dispersion_demo.gif",
+      "summary_en": "Dispersion loss helps prevent embedding condensation in small language models, preserving richer token representations. The approach improves robustness and performance when data or compute is limited.",
+      "summary_zh": "色散损失有助于防止小型语言模型中的嵌入收缩，保留更丰富的标记表征。该方法在数据或计算资源受限时提升鲁棒性和性能。",
       "hn": {
-        "id": 48781274,
+        "id": 48780826,
         "type": "story",
-        "by": "bit_economist",
-        "score": 21,
-        "descendants": 5,
-        "time": 1783121806,
-        "comments_url": "https://news.ycombinator.com/item?id=48781274"
+        "by": "E-Reverance",
+        "score": 34,
+        "descendants": 8,
+        "time": 1783118147,
+        "comments_url": "https://news.ycombinator.com/item?id=48780826"
       },
-      "hot_score": 0.26,
+      "hot_score": 0.17,
       "tags": [
-        "Science",
         "AI"
       ]
     },
@@ -882,10 +1063,32 @@
       },
       "tags": [
         "Show HN",
-        "Privacy",
-        "Security"
+        "Privacy"
       ],
-      "hot_score": 0.16
+      "hot_score": 0.12
+    },
+    {
+      "title_en": "Scientists discover guidance system for migratory songbirds",
+      "url": "https://news.exeter.ac.uk/faculty-of-environment-science-and-economy/scientists-discover-guidance-system-for-migratory-songbirds/",
+      "title_zh": "科学家发现候鸟迁徙的导航系统",
+      "created_display": "Created: Jul 03, 2026 / 16:36 PT",
+      "image_url": "https://news.exeter.ac.uk/wp-content/uploads/2026/06/Flycatcher.jpg",
+      "summary_en": "Researchers identify a guiding mechanism behind migratory songbirds' routes, shedding light on how birds navigate across continents. The finding has implications for neuroscience, compass-like navigation models, and biomimetic AI ideas.",
+      "summary_zh": "研究人员揭示候鸟在跨洲迁徙时的导航机制，为鸟类跨大陆的导航提供新线索。该发现对神经科学、类指南针的导航模型以及仿生人工智能具有启示。",
+      "hn": {
+        "id": 48781274,
+        "type": "story",
+        "by": "bit_economist",
+        "score": 21,
+        "descendants": 5,
+        "time": 1783121806,
+        "comments_url": "https://news.ycombinator.com/item?id=48781274"
+      },
+      "hot_score": 0.12,
+      "tags": [
+        "Science",
+        "AI"
+      ]
     },
     {
       "title_en": "Hunting a 16-year-old SQLite WAL bug with TLA+",
@@ -899,8 +1102,8 @@
         "id": 48730953,
         "type": "story",
         "by": "peterparker204",
-        "score": 206,
-        "descendants": 22,
+        "score": 225,
+        "descendants": 28,
         "time": 1782817658,
         "comments_url": "https://news.ycombinator.com/item?id=48730953"
       },
@@ -908,51 +1111,7 @@
         "Programming",
         "Data"
       ],
-      "hot_score": 0.06
-    },
-    {
-      "title_en": "A peek into Reddit's anti-spam internals",
-      "url": "https://lyra.horse/blog/2026/06/reddit-spam-internals/",
-      "title_zh": "深入了解 Reddit 的反垃圾邮件体系",
-      "created_display": "Created: Jun 27, 2026 / 08:18 PT",
-      "image_url": null,
-      "summary_en": "A deep dive into Reddit's anti spam internals reveals how moderation, heuristics, and reputation systems work together to curb spam.",
-      "summary_zh": "对 Reddit 反垃圾邮件内部机制的深度解析揭示了版主流程、启发式规则与声誉体系如何协同压制垃圾信息。文章还讨论了自动化与人工审核之间的协作与挑战。",
-      "hn": {
-        "id": 48699010,
-        "type": "story",
-        "by": "OuterVale",
-        "score": 170,
-        "descendants": 63,
-        "time": 1782573483,
-        "comments_url": "https://news.ycombinator.com/item?id=48699010"
-      },
-      "tags": [
-        "Security"
-      ],
-      "hot_score": 0.02
-    },
-    {
-      "title_en": "Gone but Not Forgotten: Recovering the Dead Web",
-      "url": "https://blog.archive.org/2026/04/23/gone-but-not-forgotten-recovering-the-dead-web/",
-      "title_zh": "逝去的网站仍可找回：恢复死网内容",
-      "created_display": "Created: Jun 30, 2026 / 14:48 PT",
-      "image_url": "https://blog.archive.org/wp-content/uploads/2026/04/image-4-1024x512.png",
-      "summary_en": "Gone but Not Forgotten surveys efforts to recover the dead web, detailing techniques and challenges in preserving vanished online content for future research.",
-      "summary_zh": "回顾恢复‘死网’内容的工作，介绍保存已消失网页的技术与挑战，以及对研究和历史保存的重要性。",
-      "hn": {
-        "id": 48739682,
-        "type": "story",
-        "by": "wslh",
-        "score": 64,
-        "descendants": 18,
-        "time": 1782856123,
-        "comments_url": "https://news.ycombinator.com/item?id=48739682"
-      },
-      "tags": [
-        "Web"
-      ],
-      "hot_score": 0.02
+      "hot_score": 0.05
     },
     {
       "title_en": "Mir Books – Books from the Soviet Era",
@@ -966,15 +1125,103 @@
         "id": 48739018,
         "type": "story",
         "by": "clmul",
-        "score": 55,
-        "descendants": 22,
+        "score": 127,
+        "descendants": 63,
         "time": 1782852658,
         "comments_url": "https://news.ycombinator.com/item?id=48739018"
       },
-      "hot_score": 0.02,
       "tags": [
         "Culture"
+      ],
+      "hot_score": 0.04
+    },
+    {
+      "title_en": "Postgres data stored in Parquet on S3: LTAP architecture explained",
+      "url": "https://www.databricks.com/blog/lakebase-ltap-rethinking-database-storage",
+      "title_zh": "Postgres 数据以 Parquet 存储在 S3：LTAP 架构解读",
+      "created_display": "Created: Jul 01, 2026 / 05:48 PT",
+      "image_url": "https://www.databricks.com/sites/default/files/2026-06/Frame-1-1.png",
+      "summary_en": "The LTAP approach stores relational data in Parquet on S3 to combine SQL capabilities with cloud object storage scalability. The post outlines how this architecture enables scalable analytics while preserving some transactional semantics, and discusses trade-offs.",
+      "summary_zh": "LTAP 架构将关系数据以 Parquet 方式存入 S3，结合了 SQL 能力与云对象存储的可扩展性。文中解释了在保持部分事务语义的同时实现可扩展分析的要点及权衡。",
+      "hn": {
+        "id": 48745855,
+        "type": "story",
+        "by": "andrenotgiant",
+        "score": 93,
+        "descendants": 25,
+        "time": 1782910136,
+        "comments_url": "https://news.ycombinator.com/item?id=48745855"
+      },
+      "tags": [
+        "Data"
+      ],
+      "hot_score": 0.04
+    },
+    {
+      "title_en": "Gone but Not Forgotten: Recovering the Dead Web",
+      "url": "https://blog.archive.org/2026/04/23/gone-but-not-forgotten-recovering-the-dead-web/",
+      "title_zh": "逝去的网站仍可找回：恢复死网内容",
+      "created_display": "Created: Jun 30, 2026 / 14:48 PT",
+      "image_url": "https://blog.archive.org/wp-content/uploads/2026/04/image-4-1024x512.png",
+      "summary_en": "Gone but Not Forgotten surveys efforts to recover the dead web, detailing techniques and challenges in preserving vanished online content for future research.",
+      "summary_zh": "回顾恢复‘死网’内容的工作，介绍保存已消失网页的技术与挑战，以及对研究和历史保存的重要性。",
+      "hn": {
+        "id": 48739682,
+        "type": "story",
+        "by": "wslh",
+        "score": 91,
+        "descendants": 36,
+        "time": 1782856123,
+        "comments_url": "https://news.ycombinator.com/item?id=48739682"
+      },
+      "tags": [
+        "Web"
+      ],
+      "hot_score": 0.03
+    },
+    {
+      "title_en": "The Vespa at 80: Why the Italian scooter remains the coolest thing on 2 wheels",
+      "url": "https://www.cbc.ca/news/world/vespa-italy-postwar-design-9.7252641",
+      "title_zh": "Vespa 80周年：意大利机车为何仍是两轮界的酷物",
+      "created_display": "Created: Jul 01, 2026 / 06:22 PT",
+      "image_url": null,
+      "summary_en": "Vespa marks 80 years as an enduring icon of Italian design and urban mobility. Its timeless form and cultural resonance help explain why the scooter remains a staple of stylish, practical two-wheeled transport, with modern updates preserving nostalgia while improving efficiency.",
+      "summary_zh": "Vespa 已迎来80周年，被视为意大利设计的经典标志。其标志性造型与实用性使其在战后复兴的城市出行中占据独特地位，直到今天仍以复古风格与现代更新并存的方式保持魅力。",
+      "hn": {
+        "id": 48746327,
+        "type": "story",
+        "by": "cf100clunk",
+        "score": 68,
+        "descendants": 63,
+        "time": 1782912139,
+        "comments_url": "https://news.ycombinator.com/item?id=48746327"
+      },
+      "hot_score": 0.03,
+      "tags": [
+        "Design"
       ]
+    },
+    {
+      "title_en": "A peek into Reddit's anti-spam internals",
+      "url": "https://lyra.horse/blog/2026/06/reddit-spam-internals/",
+      "title_zh": "深入了解 Reddit 的反垃圾邮件体系",
+      "created_display": "Created: Jun 27, 2026 / 08:18 PT",
+      "image_url": null,
+      "summary_en": "A deep dive into Reddit's anti spam internals reveals how moderation, heuristics, and reputation systems work together to curb spam.",
+      "summary_zh": "对 Reddit 反垃圾邮件内部机制的深度解析揭示了版主流程、启发式规则与声誉体系如何协同压制垃圾信息。文章还讨论了自动化与人工审核之间的协作与挑战。",
+      "hn": {
+        "id": 48699010,
+        "type": "story",
+        "by": "OuterVale",
+        "score": 178,
+        "descendants": 68,
+        "time": 1782573483,
+        "comments_url": "https://news.ycombinator.com/item?id=48699010"
+      },
+      "tags": [
+        "Security"
+      ],
+      "hot_score": 0.02
     },
     {
       "title_en": "Quake in 13 Kilobytes (2021)",
@@ -994,9 +1241,32 @@
         "comments_url": "https://news.ycombinator.com/item?id=48693428"
       },
       "tags": [
+        "Programming",
         "Gaming"
       ],
       "hot_score": 0.01
+    },
+    {
+      "title_en": "Night Witches – all-female Soviet aviator regiment WW2",
+      "url": "https://en.wikipedia.org/wiki/Night_Witches",
+      "title_zh": "夜色女巫：二战时苏联女飞行大队",
+      "created_display": "Created: Jun 30, 2026 / 11:24 PT",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Po-2.jpg/1280px-Po-2.jpg",
+      "summary_en": "Night Witches were an all-female Soviet WWII night-bomber regiment known for their daring low-altitude raids and endurance. The story highlights gender barriers in wartime aviation and reveals a unique facet of Soviet air warfare tactics.",
+      "summary_zh": "“夜色女巫”是二战时期苏联的全女性夜间轰炸机大队，以低空突袭和顽强耐力闻名。她们的故事挑战了当时对女性在航空领域的刻板印象，也揭示了苏联空战战术的独特性。",
+      "hn": {
+        "id": 48737068,
+        "type": "story",
+        "by": "gverrilla",
+        "score": 41,
+        "descendants": 13,
+        "time": 1782843892,
+        "comments_url": "https://news.ycombinator.com/item?id=48737068"
+      },
+      "hot_score": 0.01,
+      "tags": [
+        "Culture"
+      ]
     },
     {
       "title_en": "Show HN: A statically typed, cross-platform, easily bootstrappable build system",
@@ -1010,17 +1280,40 @@
         "id": 48735097,
         "type": "story",
         "by": "Rochus",
-        "score": 33,
-        "descendants": 11,
+        "score": 40,
+        "descendants": 15,
         "time": 1782836935,
         "comments_url": "https://news.ycombinator.com/item?id=48735097"
       },
-      "hot_score": 0.01,
       "tags": [
         "Show HN",
-        "Open Source",
-        "Programming"
-      ]
+        "Programming",
+        "Open Source"
+      ],
+      "hot_score": 0.01
+    },
+    {
+      "title_en": "Show HN: Classify mechanical faults using Contrastive Language-Audio Pretraining",
+      "url": "https://github.com/adam-s/car-diagnosis",
+      "title_zh": "Show HN：用对比语言-音频预训练来分类机械故障",
+      "created_display": "Created: Jul 01, 2026 / 09:57 PT",
+      "image_url": "https://opengraph.githubassets.com/739c8a49b8c0e392b0b9c09cf0021e5e42b19d4f450d9eefbd313a2d5dc6b250/adam-s/car-diagnosis",
+      "summary_en": "A lightweight demonstration shows how Contrastive Language-Audio Pretraining (CLAP) can classify mechanical faults from audio signals using simple prompts. It highlights a practical path toward data-efficient fault diagnosis that can reduce downtime and maintenance costs.",
+      "summary_zh": "一个简短的示例展示利用对比语言-音频预训练（CLAP）从声音信号中分类机械故障，并通过简单提示实现。该方案体现了数据高效的故障诊断潜力，有望降低停机时间与维护成本。",
+      "hn": {
+        "id": 48749868,
+        "type": "story",
+        "by": "dataviz1000",
+        "score": 31,
+        "descendants": 2,
+        "time": 1782925040,
+        "comments_url": "https://news.ycombinator.com/item?id=48749868"
+      },
+      "tags": [
+        "Show HN",
+        "AI"
+      ],
+      "hot_score": 0.01
     },
     {
       "title_en": "We put a Redis server inside our runtime",
@@ -1042,30 +1335,29 @@
       "hot_score": 0.01,
       "tags": [
         "DevOps",
-        "Web"
+        "Programming"
       ]
     },
     {
-      "title_en": "Show HN: Classify mechanical faults using Contrastive Language-Audio Pretraining",
-      "url": "https://github.com/adam-s/car-diagnosis",
-      "title_zh": "Show HN：用对比语言-音频预训练来分类机械故障",
-      "created_display": "Created: Jul 01, 2026 / 09:57 PT",
-      "image_url": "https://opengraph.githubassets.com/739c8a49b8c0e392b0b9c09cf0021e5e42b19d4f450d9eefbd313a2d5dc6b250/adam-s/car-diagnosis",
-      "summary_en": "A lightweight demonstration shows how Contrastive Language-Audio Pretraining (CLAP) can classify mechanical faults from audio signals using simple prompts. It highlights a practical path toward data-efficient fault diagnosis that can reduce downtime and maintenance costs.",
-      "summary_zh": "一个简短的示例展示利用对比语言-音频预训练（CLAP）从声音信号中分类机械故障，并通过简单提示实现。该方案体现了数据高效的故障诊断潜力，有望降低停机时间与维护成本。",
+      "title_en": "The Scanline Sweeper: A Glyph Rendering Algorithm [pdf]",
+      "url": "https://rookandpossum.com/papers/scanline_sweeper_preprint.pdf",
+      "title_zh": "扫描线清扫者：一种 Glyph 渲染算法 [pdf]",
+      "created_display": "Created: Jul 01, 2026 / 06:28 PT",
+      "image_url": null,
+      "summary_en": "A preprint introduces Scanline Sweeper, a glyph rendering algorithm that improves rasterization of vector outlines, potentially delivering crisper text with lower rendering cost. The paper includes mathematical approach and performance comparisons.",
+      "summary_zh": "Scanline Sweeper 提出一种字形渲染算法，改进向量轮廓的光栅化，理论上能获得更清晰的文本显示且计算成本更低。预印本给出数学思路与性能对比。",
       "hn": {
-        "id": 48749868,
+        "id": 48746429,
         "type": "story",
-        "by": "dataviz1000",
-        "score": 12,
-        "descendants": 0,
-        "time": 1782925040,
-        "comments_url": "https://news.ycombinator.com/item?id=48749868"
+        "by": "kouosi",
+        "score": 26,
+        "descendants": 2,
+        "time": 1782912498,
+        "comments_url": "https://news.ycombinator.com/item?id=48746429"
       },
       "hot_score": 0.01,
       "tags": [
-        "Show HN",
-        "AI"
+        "Programming"
       ]
     },
     {
@@ -1080,38 +1372,15 @@
         "id": 48735811,
         "type": "story",
         "by": "davidslv",
-        "score": 17,
-        "descendants": 4,
+        "score": 22,
+        "descendants": 5,
         "time": 1782839426,
         "comments_url": "https://news.ycombinator.com/item?id=48735811"
       },
-      "hot_score": 0.0,
       "tags": [
         "Programming"
-      ]
-    },
-    {
-      "title_en": "Postgres data stored in Parquet on S3: LTAP architecture explained",
-      "url": "https://www.databricks.com/blog/lakebase-ltap-rethinking-database-storage",
-      "title_zh": "Postgres 数据以 Parquet 存储在 S3：LTAP 架构解读",
-      "created_display": "Created: Jul 01, 2026 / 05:48 PT",
-      "image_url": "https://www.databricks.com/sites/default/files/2026-06/Frame-1-1.png",
-      "summary_en": "The LTAP approach stores relational data in Parquet on S3 to combine SQL capabilities with cloud object storage scalability. The post outlines how this architecture enables scalable analytics while preserving some transactional semantics, and discusses trade-offs.",
-      "summary_zh": "LTAP 架构将关系数据以 Parquet 方式存入 S3，结合了 SQL 能力与云对象存储的可扩展性。文中解释了在保持部分事务语义的同时实现可扩展分析的要点及权衡。",
-      "hn": {
-        "id": 48745855,
-        "type": "story",
-        "by": "andrenotgiant",
-        "score": 9,
-        "descendants": 1,
-        "time": 1782910136,
-        "comments_url": "https://news.ycombinator.com/item?id=48745855"
-      },
-      "hot_score": 0.0,
-      "tags": [
-        "Data",
-        "DevOps"
-      ]
+      ],
+      "hot_score": 0.01
     },
     {
       "title_en": "Study reveals what people see when they read lips",
@@ -1125,15 +1394,83 @@
         "id": 48742566,
         "type": "story",
         "by": "giuliomagnifico",
-        "score": 8,
-        "descendants": 0,
+        "score": 21,
+        "descendants": 8,
         "time": 1782883263,
         "comments_url": "https://news.ycombinator.com/item?id=48742566"
       },
-      "hot_score": 0.0,
       "tags": [
         "Science",
         "Education"
+      ],
+      "hot_score": 0.01
+    },
+    {
+      "title_en": "Show HN: Morph Reflexes – Multi-head classifiers for agent traces",
+      "url": "https://news.ycombinator.com/item?id=48739038",
+      "title_zh": "Show HN：Morph Reflexes——多头分类器用于代理痕迹",
+      "created_display": "Created: Jun 30, 2026 / 13:52 PT",
+      "image_url": "https://news.ycombinator.com/y18.svg",
+      "summary_en": "Morph Reflexes presents multi-head classifiers for agent traces, enabling modular interpretation of agent behavior. The tool supports debugging, monitoring, and alignment work by isolating traces into interpretable components.",
+      "summary_zh": "Morph Reflexes 推出面向代理痕迹的多头分类器，支持对代理行为进行分模块分类，便于调试、监控和对齐工作，把痕迹拆分成可解释的组件。",
+      "hn": {
+        "id": 48739038,
+        "type": "story",
+        "by": "bhaktatejas922",
+        "score": 20,
+        "descendants": 2,
+        "time": 1782852724,
+        "comments_url": "https://news.ycombinator.com/item?id=48739038"
+      },
+      "hot_score": 0.01,
+      "tags": [
+        "Show HN",
+        "AI",
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "Ship traces journey Spanish Armada sailors made in 1588",
+      "url": "https://www.irishtimes.com/ireland/2026/06/30/it-is-a-huge-honour-ship-traces-journey-spanish-armada-sailors-made-in-1588/",
+      "title_zh": "巨匠之旅：1588年的西班牙无敌舰队水手航线追踪",
+      "created_display": "Created: Jun 30, 2026 / 14:45 PT",
+      "image_url": "https://www.irishtimes.com/resizer/v2/WGPQB5LSQZHL5INPHF6SKOWD4E.JPG?smart=true&auth=6ec3c0bc45b26af1dbbddceefbc8c96f87cea7fefe07c3293a3bd24d732655ec&width=1200&height=630",
+      "summary_en": "Ship traces the voyage of Spanish Armada sailors in 1588, offering new historical routes and navigational data. The piece underscores maritime archaeology's ability to reframe famous events through rediscovered logs and ship tracks.",
+      "summary_zh": "对1588年西班牙无敌舰队水手航线的再追踪提供了新的航线线索与航行数据。海事考古通过重新发现的日志和航线，帮助重构这一历史事件的细节。",
+      "hn": {
+        "id": 48739644,
+        "type": "story",
+        "by": "austinallegro",
+        "score": 17,
+        "descendants": 9,
+        "time": 1782855922,
+        "comments_url": "https://news.ycombinator.com/item?id=48739644"
+      },
+      "hot_score": 0.0,
+      "tags": [
+        "Culture"
+      ]
+    },
+    {
+      "title_en": "Breaking the Bird Barrier: Scientist Decodes Zebra Finch Language",
+      "url": "https://www.freepressjournal.in/education/breaking-the-bird-barrier-scientist-decodes-zebra-finch-language",
+      "title_zh": "打破鸟类语言障碍：科学家解码斑胸草雀语言",
+      "created_display": "Created: Jun 30, 2026 / 14:27 PT",
+      "image_url": "https://media.assettype.com/freepressjournal/2023-09/605b24d1-d492-4881-9a96-8ee22760b4e1/CA_Berkeley_UniversityOfCaliforniaAtBerkeley_byCharlieNguyen_Flickr_2008_001_Sig.jpg",
+      "summary_en": "Researchers claim progress in decoding zebra finch vocalizations, suggesting structure in their communication that could illuminate how non-human brains encode meaning. The work adds to the debate on animal language and has implications for neuroscience and linguistics.",
+      "summary_zh": "研究者在解码斑胸草雀鸣声方面取得进展，暗示它们的交流可能具有结构，能在非人脑中编码意义。这一发现推动动物沟通研究，也引发关于语言学与神经科学的讨论。",
+      "hn": {
+        "id": 48739446,
+        "type": "story",
+        "by": "yyyk",
+        "score": 15,
+        "descendants": 2,
+        "time": 1782854835,
+        "comments_url": "https://news.ycombinator.com/item?id=48739446"
+      },
+      "hot_score": 0.0,
+      "tags": [
+        "Science"
       ]
     }
   ]
