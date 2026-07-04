@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>134</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>19644</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>131</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>132</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-07-03</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>135</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>19693</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>131</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>133</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-07-04</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,118 +20,118 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='1229' data-hn-time='1783067012'>
+<div class='hn-top-story-item' data-hn-score='141' data-hn-time='1783146748'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/03/top_stories_07032026#story-48772388'>Half-Baked Product</a>
- <a class='hn-top-story-link' href='https://weli.dev/blog/half-baked-product/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/04/top_stories_07042026#story-48783117'>The bottleneck might be the air in the room</a>
+ <a class='hn-top-story-link' href='https://blog.mikebowler.ca/2026/07/03/co2-and-decision-making/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>半成品化的产品</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 1229</span> <span class='hn-top-story-comments'>&#128172; 373</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Design</span></div>
+<div class='hn-top-story-zh'>瓶颈可能在房间里的空气</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 10</span> <span class='hn-top-story-score'>&#9650; 141</span> <span class='hn-top-story-comments'>&#128172; 72</span> <span class='hn-top-story-tag'>Health</span> <span class='hn-top-story-tag'>Science</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='314' data-hn-time='1783111106'>
+<div class='hn-top-story-item' data-hn-score='66' data-hn-time='1783143781'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/03/top_stories_07032026#story-48779683'>Espionage Against the European Parliament</a>
- <a class='hn-top-story-link' href='https://citizenlab.ca/research/member-of-committee-investigating-spyware-hacked-with-pegasus/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/04/top_stories_07042026#story-48782918'>David Beazley – Programming Courses</a>
+ <a class='hn-top-story-link' href='https://www.dabeaz.com/courses.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>针对欧洲议会的间谍活动</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 314</span> <span class='hn-top-story-comments'>&#128172; 72</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>David Beazley 的编程课程</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 66</span> <span class='hn-top-story-comments'>&#128172; 21</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='30' data-hn-time='1783139835'>
+<div class='hn-top-story-item' data-hn-score='1263' data-hn-time='1783067012'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/03/top_stories_07032026#story-48782671'>Agentic coding notes from Galapogos Island</a>
- <a class='hn-top-story-link' href='https://danluu.com/ai-coding/#appendix-agentic-loops-and-writing-this-post' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/04/top_stories_07042026#story-48772388'>Half-Baked Product</a>
+ <a class='hn-top-story-link' href='https://weli.dev/blog/half-baked-product/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>来自加拉帕戈斯群岛的代理性编码笔记</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 30</span> <span class='hn-top-story-comments'>&#128172; 9</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>半成品化的产品</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 1263</span> <span class='hn-top-story-comments'>&#128172; 382</span> <span class='hn-top-story-tag'>Design</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='154' data-hn-time='1783118429'>
+<div class='hn-top-story-item' data-hn-score='359' data-hn-time='1783111106'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/03/top_stories_07032026#story-48780870'>Giant trees have no trouble pumping water to top branches: new research</a>
- <a class='hn-top-story-link' href='https://news.exeter.ac.uk/faculty-of-environment-science-and-economy/giant-trees-have-no-trouble-pumping-water-to-top-branches/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/04/top_stories_07042026#story-48779683'>Espionage Against the European Parliament</a>
+ <a class='hn-top-story-link' href='https://citizenlab.ca/research/member-of-committee-investigating-spyware-hacked-with-pegasus/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>巨树向最高枝条输送水分毫不吃力：最新研究</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 154</span> <span class='hn-top-story-comments'>&#128172; 78</span> <span class='hn-top-story-tag'>Science</span></div>
+<div class='hn-top-story-zh'>针对欧洲议会的间谍活动</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 359</span> <span class='hn-top-story-comments'>&#128172; 87</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='180' data-hn-time='1783115346'>
+<div class='hn-top-story-item' data-hn-score='74' data-hn-time='1783139835'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/03/top_stories_07032026#story-48780417'>GLM5.2 on AMD MI355X at 2626 tok/s/node at over 2x lower cost than Blackwell</a>
- <a class='hn-top-story-link' href='https://www.wafer.ai/blog/glm52-amd' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/04/top_stories_07042026#story-48782671'>Agentic coding notes from Galapagos Island</a>
+ <a class='hn-top-story-link' href='https://danluu.com/ai-coding/#appendix-agentic-loops-and-writing-this-post' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>GLM5.2 在 AMD MI355X 上实现 2626 tok/s/节点，成本比 Blackwell 低两倍多</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 180</span> <span class='hn-top-story-comments'>&#128172; 51</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>来自加拉帕戈斯群岛的代理性编码笔记</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 74</span> <span class='hn-top-story-comments'>&#128172; 29</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='544' data-hn-time='1783083709'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='214' data-hn-time='1783117990'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/03/top_stories_07032026#story-48774518'>Valve open-source the Steam Machine e-ink screen so you can make your own</a>
- <a class='hn-top-story-link' href='https://www.gamingonlinux.com/2026/07/valve-open-source-the-steam-machine-e-ink-screen-so-you-can-make-your-own/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Valve 将 Steam Machine 的电子墨水屏开源，教你自制</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 544</span> <span class='hn-top-story-comments'>&#128172; 100</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Hardware</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='150' data-hn-time='1783117990'>
-<span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/03/top_stories_07032026#story-48780801'>Leanstral 1.5: Proof abundance for all</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/04/top_stories_07042026#story-48780801'>Leanstral 1.5: Proof abundance for all</a>
  <a class='hn-top-story-link' href='https://mistral.ai/news/leanstral-1-5/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Leanstral 1.5：证明能力普及化</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 150</span> <span class='hn-top-story-comments'>&#128172; 35</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 214</span> <span class='hn-top-story-comments'>&#128172; 51</span> <span class='hn-top-story-tag'>Science</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='358' data-hn-time='1783091695'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='230' data-hn-time='1783115346'>
+<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/04/top_stories_07042026#story-48780417'>Performance per dollar is getting faster and cheaper</a>
+ <a class='hn-top-story-link' href='https://www.wafer.ai/blog/glm52-amd' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>性价比提升：性能越来越快、成本越来越低</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.3</span> <span class='hn-top-story-score'>&#9650; 230</span> <span class='hn-top-story-comments'>&#128172; 74</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='555' data-hn-time='1783083709'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/03/top_stories_07032026#story-48776044'>Costco is the anti-Amazon</a>
- <a class='hn-top-story-link' href='https://phenomenalworld.org/analysis/the-anti-amazon/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/04/top_stories_07042026#story-48774518'>Valve open-source the Steam Machine e-ink screen so you can make your own</a>
+ <a class='hn-top-story-link' href='https://www.gamingonlinux.com/2026/07/valve-open-source-the-steam-machine-e-ink-screen-so-you-can-make-your-own/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Costco：与亚马逊截然不同的商业模式</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.3</span> <span class='hn-top-story-score'>&#9650; 358</span> <span class='hn-top-story-comments'>&#128172; 345</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-zh'>Valve 将 Steam Machine 的电子墨水屏开源，教你自制</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.2</span> <span class='hn-top-story-score'>&#9650; 555</span> <span class='hn-top-story-comments'>&#128172; 102</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='178' data-hn-time='1783109749'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='191' data-hn-time='1783118429'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/03/top_stories_07032026#story-48779454'>SearXNG: A free internet metasearch engine</a>
- <a class='hn-top-story-link' href='https://github.com/searxng/searxng' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/04/top_stories_07042026#story-48780870'>Giant trees have no trouble pumping water to top branches: new research</a>
+ <a class='hn-top-story-link' href='https://news.exeter.ac.uk/faculty-of-environment-science-and-economy/giant-trees-have-no-trouble-pumping-water-to-top-branches/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>SearXNG：一个免费的互联网元搜索引擎</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.2</span> <span class='hn-top-story-score'>&#9650; 178</span> <span class='hn-top-story-comments'>&#128172; 49</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>巨树向最高枝条输送水分毫不吃力：最新研究</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.1</span> <span class='hn-top-story-score'>&#9650; 191</span> <span class='hn-top-story-comments'>&#128172; 89</span> <span class='hn-top-story-tag'>Science</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='142' data-hn-time='1783112917'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='395' data-hn-time='1783091695'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/03/top_stories_07032026#story-48779977'>Africans Are Turning to Starlink</a>
- <a class='hn-top-story-link' href='https://www.economist.com/middle-east-and-africa/2026/07/02/africans-are-turning-to-starlink' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/04/top_stories_07042026#story-48776044'>Costco is the anti-Amazon</a>
+ <a class='hn-top-story-link' href='https://phenomenalworld.org/analysis/the-anti-amazon/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>非洲人正转向星链</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 142</span> <span class='hn-top-story-comments'>&#128172; 154</span> <span class='hn-top-story-tag'>Space</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Education</span></div>
+<div class='hn-top-story-zh'>Costco：与亚马逊截然不同的商业模式</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.9</span> <span class='hn-top-story-score'>&#9650; 395</span> <span class='hn-top-story-comments'>&#128172; 367</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
-<a class='hn-top-stories-more' href='/hackernews/2026/07/03/top_stories_07032026'>View all trending stories &rarr;</a>
+<a class='hn-top-stories-more' href='/hackernews/2026/07/04/top_stories_07042026'>View all trending stories &rarr;</a>
 <a class='hn-top-stories-more' href='/hackernews/2026/07/02/best_stories_07022026'>Latest Daily Best — 2026-07-02 &rarr;</a>
 </div>
 </div>
@@ -140,10 +140,19 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 27 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-06-29 — 2026-07-03 <span class="hn-row-sep">·</span> 700 stories <span class="hn-row-sep">·</span> 5 days</span>
+<span class='hn-week-meta'>2026-06-29 — 2026-07-04 <span class="hn-row-sep">·</span> 749 stories <span class="hn-row-sep">·</span> 6 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
+<div class='hn-day-row'>
+<div class='hn-day-date'>2026-07-04 <span class='hn-day-weekday'>Sat</span></div>
+<div class='hn-day-stories'>
+<a class='hn-story-link' href='/hackernews/2026/07/04/top_stories_07042026'>
+<span class='hn-row-type hn-type-top'>Trending</span>
+<span class='hn-row-detail'>All <b>49</b> <span class="hn-row-sep">·</span> Programming <b>12</b> <span class="hn-row-sep">·</span> AI <b>12</b></span>
+</a>
+</div>
+</div>
 <div class='hn-day-row'>
 <div class='hn-day-date'>2026-07-03 <span class='hn-day-weekday'>Fri</span></div>
 <div class='hn-day-stories'>
@@ -526,7 +535,7 @@ Sort:
 <details class='hn-week-group'>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 23</span>
-<span class='hn-week-meta'>2026-06-04 — 2026-06-07 <span class="hn-row-sep">·</span> 600 stories <span class="hn-row-sep">·</span> 4 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
+<span class='hn-week-meta'>2026-06-05 — 2026-06-07 <span class="hn-row-sep">·</span> 450 stories <span class="hn-row-sep">·</span> 3 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
 </summary>
 <div class='hn-week-content'>
 <a class='hn-story-link hn-weekly-digest-link' href='/hackernews/weekly/2026-W23'>
@@ -570,19 +579,6 @@ Sort:
 <a class='hn-story-link' href='/hackernews/2026/06/05/top_stories_06052026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
 <span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>26</b> <span class="hn-row-sep">·</span> Programming <b>25</b></span>
-</a>
-</div>
-</div>
-<div class='hn-day-row'>
-<div class='hn-day-date'>2026-06-04 <span class='hn-day-weekday'>Thu</span></div>
-<div class='hn-day-stories'>
-<a class='hn-story-link' href='/hackernews/2026/06/04/best_stories_06042026'>
-<span class='hn-row-type hn-type-best'>Daily Best</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>17</b> <span class="hn-row-sep">·</span> Security <b>11</b></span>
-</a>
-<a class='hn-story-link' href='/hackernews/2026/06/04/top_stories_06042026'>
-<span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>27</b> <span class="hn-row-sep">·</span> Programming <b>25</b></span>
 </a>
 </div>
 </div>
