@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>135</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>19794</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>132</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>133</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-07-04</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>136</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>19844</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>132</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>134</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-07-05</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,118 +20,118 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='468' data-hn-time='1783194070'>
+<div class='hn-top-story-item' data-hn-score='558' data-hn-time='1783194070'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/04/top_stories_07042026#story-48788283'>Command and Conquer Generals natively ported to macOS, iPhone, iPad using Fable</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/05/top_stories_07052026#story-48788283'>Command and Conquer Generals natively ported to macOS, iPhone, iPad using Fable</a>
  <a class='hn-top-story-link' href='https://github.com/ammaarreshi/Generals-Mac-iOS-iPad/tree/main' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>使用 Fable 将《Command & Conquer: Generals》原生移植到 macOS、iPhone、iPad</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.1</span> <span class='hn-top-story-score'>&#9650; 468</span> <span class='hn-top-story-comments'>&#128172; 183</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 558</span> <span class='hn-top-story-comments'>&#128172; 227</span> <span class='hn-top-story-tag'>Gaming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='552' data-hn-time='1783183510'>
+<div class='hn-top-story-item' data-hn-score='111' data-hn-time='1783226768'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/04/top_stories_07042026#story-48786781'>Leaking YouTube creators' private videos</a>
- <a class='hn-top-story-link' href='https://javoriuski.com/post/youtube' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>泄露 YouTube 创作者的私人视频</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.1</span> <span class='hn-top-story-score'>&#9650; 552</span> <span class='hn-top-story-comments'>&#128172; 313</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='34' data-hn-time='1783226768'>
-<span class='hn-top-story-rank'>3</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/04/top_stories_07042026#story-48791328'>Shadcn/UI now defaults to Base UI instead of Radix</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/05/top_stories_07052026#story-48791328'>Shadcn/UI now defaults to Base UI instead of Radix</a>
  <a class='hn-top-story-link' href='https://ui.shadcn.com/docs/changelog' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Shadcn/UI 现已把默认使用 Base UI，而非 Radix</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 34</span> <span class='hn-top-story-comments'>&#128172; 2</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.8</span> <span class='hn-top-story-score'>&#9650; 111</span> <span class='hn-top-story-comments'>&#128172; 34</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='99' data-hn-time='1783216863'>
-<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-item' data-hn-score='188' data-hn-time='1783216863'>
+<span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/04/top_stories_07042026#story-48790689'>If you're a button, you have one job</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/05/top_stories_07052026#story-48790689'>If you're a button, you have one job</a>
  <a class='hn-top-story-link' href='https://unsung.aresluna.org/if-youre-a-button-you-have-one-job/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>按钮只有一个职责</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 99</span> <span class='hn-top-story-comments'>&#128172; 26</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Design</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 188</span> <span class='hn-top-story-comments'>&#128172; 93</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='213' data-hn-time='1783201869'>
+<div class='hn-top-story-item' data-hn-score='606' data-hn-time='1783183510'>
+<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/05/top_stories_07052026#story-48786781'>Leaking YouTube creators' private videos</a>
+ <a class='hn-top-story-link' href='https://javoriuski.com/post/youtube' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>泄露 YouTube 创作者的私人视频</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 606</span> <span class='hn-top-story-comments'>&#128172; 331</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='263' data-hn-time='1783201869'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/04/top_stories_07042026#story-48789428'>GPT-5.5 Codex reasoning-token clustering may be leading to degraded performance</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/05/top_stories_07052026#story-48789428'>GPT-5.5 Codex reasoning-token clustering may be leading to degraded performance</a>
  <a class='hn-top-story-link' href='https://github.com/openai/codex/issues/30364' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>GPT-5.5 Codex 推理令牌聚类可能导致性能下降</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 213</span> <span class='hn-top-story-comments'>&#128172; 75</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 263</span> <span class='hn-top-story-comments'>&#128172; 98</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='43' data-hn-time='1783223094'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='458' data-hn-time='1783183886'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/04/top_stories_07042026#story-48791091'>President pardons 9 for Clean Air violations for 'fixing their car'</a>
- <a class='hn-top-story-link' href='https://www.msn.com/en-us/news/crime/trump-pardons-9-for-clean-air-violations-for-fixing-their-car/ar-AA27cSkT' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>总统因“修车”而赦免9起清洁空气违规案</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 43</span> <span class='hn-top-story-comments'>&#128172; 10</span> <span class='hn-top-story-tag'>Politics</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='406' data-hn-time='1783183886'>
-<span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/04/top_stories_07042026#story-48786838'>Google Books (or similar) all book scans – $200k bounty (2025)</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/05/top_stories_07052026#story-48786838'>Google Books (or similar) all book scans – $200k bounty (2025)</a>
  <a class='hn-top-story-link' href='https://software.annas-archive.gl/AnnaArchivist/annas-archive/-/work_items/234' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>谷歌图书（或同类）对完整书籍扫描的20万美元悬赏（2025）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 406</span> <span class='hn-top-story-comments'>&#128172; 221</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 458</span> <span class='hn-top-story-comments'>&#128172; 244</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='46' data-hn-time='1783220272'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='38' data-hn-time='1783233040'>
+<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/05/top_stories_07052026#story-48791755'>EV Batteries Are Defying Expectations After Miles</a>
+ <a class='hn-top-story-link' href='https://www.wsj.com/business/autos/ev-batteries-are-defying-expectations-after-hundreds-of-thousands-of-miles-8579de13' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>电动汽车电池在里程考验后仍超出预期</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.2</span> <span class='hn-top-story-score'>&#9650; 38</span> <span class='hn-top-story-comments'>&#128172; 31</span> <span class='hn-top-story-tag'>Energy</span> <span class='hn-top-story-tag'>Science</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='40' data-hn-time='1783232374'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/04/top_stories_07042026#story-48790913'>University of Oxford Is Older Than the Aztec Empire and Other Facts of History (2013)</a>
- <a class='hn-top-story-link' href='https://www.smithsonianmag.com/smart-news/university-oxford-older-than-aztec-empire-other-facts-will-change-your-perspective-history-1529607/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/05/top_stories_07052026#story-48791708'>sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25)</a>
+ <a class='hn-top-story-link' href='https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>牛津大学比 Aztec 帝国更古老，以及其他历史事实（2013）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 46</span> <span class='hn-top-story-comments'>&#128172; 9</span> <span class='hn-top-story-tag'>Education</span> <span class='hn-top-story-tag'>Culture</span></div>
+<div class='hn-top-story-zh'>sqlite-utils 4.0rc2：大多由 Claude Fable 完成（捐助约 149.25 美元）</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.2</span> <span class='hn-top-story-score'>&#9650; 40</span> <span class='hn-top-story-comments'>&#128172; 41</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='730' data-hn-time='1783146748'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='469' data-hn-time='1783166457'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/04/top_stories_07042026#story-48783117'>The bottleneck might be the air in the room</a>
- <a class='hn-top-story-link' href='https://blog.mikebowler.ca/2026/07/03/co2-and-decision-making/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>瓶颈可能在房间里的空气</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.1</span> <span class='hn-top-story-score'>&#9650; 730</span> <span class='hn-top-story-comments'>&#128172; 415</span> <span class='hn-top-story-tag'>Health</span> <span class='hn-top-story-tag'>Science</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='451' data-hn-time='1783166457'>
-<span class='hn-top-story-rank'>10</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/04/top_stories_07042026#story-48784777'>Explanation of everything you can see in htop/top on Linux (2019)</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/05/top_stories_07052026#story-48784777'>Explanation of everything you can see in htop/top on Linux (2019)</a>
  <a class='hn-top-story-link' href='https://peteris.rocks/blog/htop/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Linux 中 htop/top 的全部字段解读</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 451</span> <span class='hn-top-story-comments'>&#128172; 55</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>DevOps</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.6</span> <span class='hn-top-story-score'>&#9650; 469</span> <span class='hn-top-story-comments'>&#128172; 58</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Hardware</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='25' data-hn-time='1783233605'>
+<span class='hn-top-story-rank'>10</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/05/top_stories_07052026#story-48791799'>Is The Economist Always Wrong?</a>
+ <a class='hn-top-story-link' href='https://economist.com/interactive/finance-and-economics/2026/07/02/is-the-economist-always-wrong' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>《经济学人》总是错吗？</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.5</span> <span class='hn-top-story-score'>&#9650; 25</span> <span class='hn-top-story-comments'>&#128172; 27</span> <span class='hn-top-story-tag'>Finance</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
-<a class='hn-top-stories-more' href='/hackernews/2026/07/04/top_stories_07042026'>View all trending stories &rarr;</a>
+<a class='hn-top-stories-more' href='/hackernews/2026/07/05/top_stories_07052026'>View all trending stories &rarr;</a>
 <a class='hn-top-stories-more' href='/hackernews/2026/07/03/best_stories_07032026'>Latest Daily Best — 2026-07-03 &rarr;</a>
 </div>
 </div>
@@ -140,10 +140,19 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 27 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-06-29 — 2026-07-04 <span class="hn-row-sep">·</span> 850 stories <span class="hn-row-sep">·</span> 6 days</span>
+<span class='hn-week-meta'>2026-06-29 — 2026-07-05 <span class="hn-row-sep">·</span> 900 stories <span class="hn-row-sep">·</span> 7 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
+<div class='hn-day-row'>
+<div class='hn-day-date'>2026-07-05 <span class='hn-day-weekday'>Sun</span></div>
+<div class='hn-day-stories'>
+<a class='hn-story-link' href='/hackernews/2026/07/05/top_stories_07052026'>
+<span class='hn-row-type hn-type-top'>Trending</span>
+<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> Programming <b>11</b> <span class="hn-row-sep">·</span> AI <b>9</b></span>
+</a>
+</div>
+</div>
 <div class='hn-day-row'>
 <div class='hn-day-date'>2026-07-04 <span class='hn-day-weekday'>Sat</span></div>
 <div class='hn-day-stories'>
@@ -539,7 +548,7 @@ Sort:
 <details class='hn-week-group'>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 23</span>
-<span class='hn-week-meta'>2026-06-05 — 2026-06-07 <span class="hn-row-sep">·</span> 450 stories <span class="hn-row-sep">·</span> 3 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
+<span class='hn-week-meta'>2026-06-06 — 2026-06-07 <span class="hn-row-sep">·</span> 300 stories <span class="hn-row-sep">·</span> 2 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
 </summary>
 <div class='hn-week-content'>
 <a class='hn-story-link hn-weekly-digest-link' href='/hackernews/weekly/2026-W23'>
@@ -570,19 +579,6 @@ Sort:
 <a class='hn-story-link' href='/hackernews/2026/06/06/top_stories_06062026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
 <span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>33</b> <span class="hn-row-sep">·</span> AI <b>26</b></span>
-</a>
-</div>
-</div>
-<div class='hn-day-row'>
-<div class='hn-day-date'>2026-06-05 <span class='hn-day-weekday'>Fri</span></div>
-<div class='hn-day-stories'>
-<a class='hn-story-link' href='/hackernews/2026/06/05/best_stories_06052026'>
-<span class='hn-row-type hn-type-best'>Daily Best</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>17</b> <span class="hn-row-sep">·</span> Programming <b>10</b></span>
-</a>
-<a class='hn-story-link' href='/hackernews/2026/06/05/top_stories_06052026'>
-<span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>26</b> <span class="hn-row-sep">·</span> Programming <b>25</b></span>
 </a>
 </div>
 </div>
