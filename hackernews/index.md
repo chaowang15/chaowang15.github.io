@@ -20,84 +20,84 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='168' data-hn-time='1783285386'>
+<div class='hn-top-story-item' data-hn-score='651' data-hn-time='1783285386'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/05/top_stories_07052026#story-48797916'>Reparaible and open source paper printer</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/05/top_stories_07052026#story-48797916'>OpenPrinter</a>
  <a class='hn-top-story-link' href='https://www.opentools.studio/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>可修复的开源纸张打印机</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 15</span> <span class='hn-top-story-score'>&#9650; 168</span> <span class='hn-top-story-comments'>&#128172; 50</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>OpenPrinter：开放打印机项目</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.2</span> <span class='hn-top-story-score'>&#9650; 651</span> <span class='hn-top-story-comments'>&#128172; 159</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='725' data-hn-time='1783260870'>
+<div class='hn-top-story-item' data-hn-score='188' data-hn-time='1783299843'>
 <span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/05/top_stories_07052026#story-48799614'>GPT-5.6 Sol Ultra will be in Codex</a>
+ <a class='hn-top-story-link' href='https://twitter.com/thsottiaux/status/2073933490513752151' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>GPT-5.6 Sol Ultra 将嵌入 Codex</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.2</span> <span class='hn-top-story-score'>&#9650; 188</span> <span class='hn-top-story-comments'>&#128172; 121</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='888' data-hn-time='1783260870'>
+<span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/07/05/top_stories_07052026#story-48794446'>Organic Maps</a>
  <a class='hn-top-story-link' href='https://organicmaps.app/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Organic Maps 地图应用</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 10</span> <span class='hn-top-story-score'>&#9650; 725</span> <span class='hn-top-story-comments'>&#128172; 207</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.8</span> <span class='hn-top-story-score'>&#9650; 888</span> <span class='hn-top-story-comments'>&#128172; 264</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='179' data-hn-time='1783275720'>
-<span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-item' data-hn-score='181' data-hn-time='1783295340'>
+<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/05/top_stories_07052026#story-48799155'>Has_not_been_viewed_much</a>
+ <a class='hn-top-story-link' href='https://iamwillwang.com/notes/has-not-been-viewed-much/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>未被广泛观看的内容</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.8</span> <span class='hn-top-story-score'>&#9650; 181</span> <span class='hn-top-story-comments'>&#128172; 46</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Culture</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='133' data-hn-time='1783296288'>
+<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/05/top_stories_07052026#story-48799256'>Al Vigier: Canada's AI strategy shouldn't include secret Palantir bills</a>
+ <a class='hn-top-story-link' href='https://www.readtheline.ca/p/al-vigier-canadas-ai-strategy-shouldnt' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Al Vigier：加拿大的 AI 战略应避免秘密的 Palantir 账单</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 133</span> <span class='hn-top-story-comments'>&#128172; 56</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Politics</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='70' data-hn-time='1783303609'>
+<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/05/top_stories_07052026#story-48799929'>Building relationships with customers through support didn't turn out as hoped</a>
+ <a class='hn-top-story-link' href='https://www.uncommonapps.nyc/p/castro-podcasts-things-i-got-wrong-support' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>通过支持建立客户关系的尝试未如期望</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 70</span> <span class='hn-top-story-comments'>&#128172; 44</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Startups</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='279' data-hn-time='1783275720'>
+<span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/07/05/top_stories_07052026#story-48796552'>The future of Flipper Zero development</a>
  <a class='hn-top-story-link' href='https://blog.flipper.net/future-of-flipper-zero-development/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Flipper Zero 开发的未来</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.1</span> <span class='hn-top-story-score'>&#9650; 179</span> <span class='hn-top-story-comments'>&#128172; 46</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 279</span> <span class='hn-top-story-comments'>&#128172; 116</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='51' data-hn-time='1783286449'>
-<span class='hn-top-story-rank'>4</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/05/top_stories_07052026#story-48798061'>Completing a Computer Science Degree on Coursera</a>
- <a class='hn-top-story-link' href='https://notesbylex.com/completing-a-computer-science-degree-on-coursera' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>在 Coursera 完成计算机科学学位</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.1</span> <span class='hn-top-story-score'>&#9650; 51</span> <span class='hn-top-story-comments'>&#128172; 20</span> <span class='hn-top-story-tag'>Education</span> <span class='hn-top-story-tag'>Career</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='110' data-hn-time='1783278518'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/05/top_stories_07052026#story-48797015'>Small Penis Rule</a>
- <a class='hn-top-story-link' href='https://en.wikipedia.org/wiki/Small_penis_rule' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>小阴茎规则</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.7</span> <span class='hn-top-story-score'>&#9650; 110</span> <span class='hn-top-story-comments'>&#128172; 48</span> <span class='hn-top-story-tag'>Legal</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='41' data-hn-time='1783287164'>
-<span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/05/top_stories_07052026#story-48798153'>Show HN: Homegames. An open-source game platform I've been making for 8 years</a>
- <a class='hn-top-story-link' href='https://homegames.io' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Show HN：Homegames——我8年来在打造的开源游戏平台</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.5</span> <span class='hn-top-story-score'>&#9650; 41</span> <span class='hn-top-story-comments'>&#128172; 9</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Open Source</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='105' data-hn-time='1783277263'>
-<span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/05/top_stories_07052026#story-48796817'>New AI tutor achieves 0.71-1.30 SD effect size in Dartmouth course [pdf]</a>
- <a class='hn-top-story-link' href='https://intextbooks.science.uu.nl/workshop2026/files/itb26_s1s2.pdf' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>达特茅斯课程中的新AI辅导取得0.71–1.30标准差的效应量</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 105</span> <span class='hn-top-story-comments'>&#128172; 71</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Education</span> <span class='hn-top-story-tag'>Privacy</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='247' data-hn-time='1783263375'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='389' data-hn-time='1783263375'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -105,29 +105,29 @@ Sort:
  <a class='hn-top-story-link' href='https://popcar.bearblog.dev/its-about-ownership/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>不是实体/数字游戏之争，而是关于所有权的问题</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 247</span> <span class='hn-top-story-comments'>&#128172; 194</span> <span class='hn-top-story-tag'>Gaming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.3</span> <span class='hn-top-story-score'>&#9650; 389</span> <span class='hn-top-story-comments'>&#128172; 291</span> <span class='hn-top-story-tag'>Gaming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='139' data-hn-time='1783272784'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='157' data-hn-time='1783286449'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/05/top_stories_07052026#story-48796093'>Starring the Computer</a>
- <a class='hn-top-story-link' href='https://www.starringthecomputer.com/computers.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/05/top_stories_07052026#story-48798061'>Completing a computer science degree on Coursera</a>
+ <a class='hn-top-story-link' href='https://notesbylex.com/completing-a-computer-science-degree-on-coursera' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>让计算机成为主角</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.8</span> <span class='hn-top-story-score'>&#9650; 139</span> <span class='hn-top-story-comments'>&#128172; 32</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Science</span></div>
+<div class='hn-top-story-zh'>在 Coursera 完成计算机科学学位</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.1</span> <span class='hn-top-story-score'>&#9650; 157</span> <span class='hn-top-story-comments'>&#128172; 112</span> <span class='hn-top-story-tag'>Education</span> <span class='hn-top-story-tag'>Career</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='374' data-hn-time='1783251844'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='133' data-hn-time='1783287164'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/05/top_stories_07052026#story-48793393'>EU Council forces Chat Control via fast-track</a>
- <a class='hn-top-story-link' href='https://www.heise.de/en/news/Chat-Control-1-0-EU-Council-forces-messenger-scans-via-fast-track-11353659.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/05/top_stories_07052026#story-48798153'>Show HN: Homegames. An open-source game platform I've been making for 8 years</a>
+ <a class='hn-top-story-link' href='https://homegames.io' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>欧盟理事会通过快速程序强制推行聊天监控</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 374</span> <span class='hn-top-story-comments'>&#128172; 209</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>Show HN：Homegames——我8年来在打造的开源游戏平台</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.8</span> <span class='hn-top-story-score'>&#9650; 133</span> <span class='hn-top-story-comments'>&#128172; 35</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Gaming</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -137,9 +137,9 @@ Sort:
 </div>
 <div class='hn-index-section hn-archive-section'>
 <h3 class='hn-section-title'>News Archive <span class='hn-section-zh'>新闻归档</span></h3>
-<details class='hn-week-group' open>
+<details class='hn-week-group'>
 <summary class='hn-week-summary'>
-<span class='hn-week-title'>2026 Week 27 <span class='hn-this-week-badge'>This Week</span></span>
+<span class='hn-week-title'>2026 Week 27</span>
 <span class='hn-week-meta'>2026-06-29 — 2026-07-05 <span class="hn-row-sep">·</span> 1000 stories <span class="hn-row-sep">·</span> 7 days</span>
 </summary>
 <div class='hn-week-content'>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/07/05/top_stories_07052026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>28</b> <span class="hn-row-sep">·</span> Security <b>18</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>21</b> <span class="hn-row-sep">·</span> AI <b>17</b></span>
 </a>
 </div>
 </div>
