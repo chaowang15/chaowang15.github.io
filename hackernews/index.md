@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>137</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>20044</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>134</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>135</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-07-06</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>137</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>20080</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>134</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>135</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-07-06</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='69' data-hn-time='1783330716'>
+<div class='hn-top-story-item' data-hn-score='100' data-hn-time='1783349131'>
 <span class='hn-top-story-rank'>1</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/06/top_stories_07062026#story-48805401'>Emily Bender Sets the Record Straight on "Stochastic Parrots"</a>
+ <a class='hn-top-story-link' href='https://spectrum.ieee.org/stochastic-parrot' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Emily Bender 澄清关于《Stochastic Parrots》观点</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.7</span> <span class='hn-top-story-score'>&#9650; 100</span> <span class='hn-top-story-comments'>&#128172; 113</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='171' data-hn-time='1783343896'>
+<span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/06/top_stories_07062026#story-48804193'>Nintendo announces new product revisions in Europe with replaceable batteries</a>
+ <a class='hn-top-story-link' href='https://www.nintendo.com/en-gb/Support/Nintendo-Switch-2/Information-about-upcoming-battery-related-revisions-to-some-Nintendo-products-3132901.html' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>任天堂在欧洲推出可替换电池的新产品修订</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.7</span> <span class='hn-top-story-score'>&#9650; 171</span> <span class='hn-top-story-comments'>&#128172; 117</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Gaming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='177' data-hn-time='1783342971'>
+<span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/06/top_stories_07062026#story-48804014'>Workers Cache</a>
+ <a class='hn-top-story-link' href='https://blog.cloudflare.com/workers-cache/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Cloudflare Workers 缓存机制</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.4</span> <span class='hn-top-story-score'>&#9650; 177</span> <span class='hn-top-story-comments'>&#128172; 75</span> <span class='hn-top-story-tag'>Programming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='84' data-hn-time='1783349825'>
+<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/06/top_stories_07062026#story-48805564'>Do you need separate systems when you already have Postgres?</a>
+ <a class='hn-top-story-link' href='https://postgresisenough.dev/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>当你已经有 Postgres 时，还需要分离的系统吗？</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.1</span> <span class='hn-top-story-score'>&#9650; 84</span> <span class='hn-top-story-comments'>&#128172; 47</span> <span class='hn-top-story-tag'>Data</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='146' data-hn-time='1783343572'>
+<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/06/top_stories_07062026#story-48804123'>How Kalshi Infects the News</a>
+ <a class='hn-top-story-link' href='https://www.publicnotice.co/p/kalshi-cnn-cnbc' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Kalshi 如何影响新闻报道</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.4</span> <span class='hn-top-story-score'>&#9650; 146</span> <span class='hn-top-story-comments'>&#128172; 102</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>Business</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='69' data-hn-time='1783350078'>
+<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/06/top_stories_07062026#story-48805624'>AMD Ryzen AI Halo – $4k AI Dev Kit</a>
+ <a class='hn-top-story-link' href='https://www.lttlabs.com/articles/2026/07/06/amd-ryzen-ai-halo' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>AMD Ryzen AI Halo：4 千美元 AI 开发套件</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.0</span> <span class='hn-top-story-score'>&#9650; 69</span> <span class='hn-top-story-comments'>&#128172; 66</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='52' data-hn-time='1783352093'>
+<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/06/top_stories_07062026#story-48806151'>Car touchscreens are cheap, not good</a>
+ <a class='hn-top-story-link' href='https://ben.stolovitz.com/posts/car-touchscreens-are-cheap-not-good/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>车载触控屏：便宜却不够好</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.0</span> <span class='hn-top-story-score'>&#9650; 52</span> <span class='hn-top-story-comments'>&#128172; 43</span> <span class='hn-top-story-tag'>Design</span> <span class='hn-top-story-tag'>Hardware</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='201' data-hn-time='1783338457'>
+<span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/06/top_stories_07062026#story-48803364'>Road to Elm 1.0</a>
+ <a class='hn-top-story-link' href='https://elm-lang.org/news/faster-builds' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Elm 1.0 之路</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.9</span> <span class='hn-top-story-score'>&#9650; 201</span> <span class='hn-top-story-comments'>&#128172; 86</span> <span class='hn-top-story-tag'>Programming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='309' data-hn-time='1783330716'>
+<span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/07/06/top_stories_07062026#story-48802535'>Real-time map of Great Britain's rail network</a>
  <a class='hn-top-story-link' href='https://www.map.signalbox.io' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>英国铁路网实时地图</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.3</span> <span class='hn-top-story-score'>&#9650; 69</span> <span class='hn-top-story-comments'>&#128172; 27</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>DevOps</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.6</span> <span class='hn-top-story-score'>&#9650; 309</span> <span class='hn-top-story-comments'>&#128172; 122</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>DevOps</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='883' data-hn-time='1783285386'>
-<span class='hn-top-story-rank'>2</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/06/top_stories_07062026#story-48797916'>OpenPrinter</a>
- <a class='hn-top-story-link' href='https://www.opentools.studio/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>OpenPrinter：开放打印机项目</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.1</span> <span class='hn-top-story-score'>&#9650; 883</span> <span class='hn-top-story-comments'>&#128172; 224</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Hardware</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='97' data-hn-time='1783321525'>
-<span class='hn-top-story-rank'>3</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/06/top_stories_07062026#story-48801493'>When AI Costs More Than the Engineer</a>
- <a class='hn-top-story-link' href='https://tomtunguz.com/ai-spend-breakeven-2029/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>AI 成本何时会超过工程师成本</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.1</span> <span class='hn-top-story-score'>&#9650; 97</span> <span class='hn-top-story-comments'>&#128172; 85</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='1020' data-hn-time='1783260870'>
-<span class='hn-top-story-rank'>4</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/06/top_stories_07062026#story-48794446'>Organic Maps</a>
- <a class='hn-top-story-link' href='https://organicmaps.app/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Organic Maps 地图应用</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.7</span> <span class='hn-top-story-score'>&#9650; 1020</span> <span class='hn-top-story-comments'>&#128172; 316</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Privacy</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='300' data-hn-time='1783299843'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/06/top_stories_07062026#story-48799614'>GPT-5.6 Sol Ultra will be in Codex</a>
- <a class='hn-top-story-link' href='https://twitter.com/thsottiaux/status/2073933490513752151' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>GPT-5.6 Sol Ultra 将嵌入 Codex</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 300</span> <span class='hn-top-story-comments'>&#128172; 240</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='320' data-hn-time='1783295340'>
-<span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/06/top_stories_07062026#story-48799155'>Has_not_been_viewed_much</a>
- <a class='hn-top-story-link' href='https://iamwillwang.com/notes/has-not-been-viewed-much/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>未被广泛观看的内容</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 320</span> <span class='hn-top-story-comments'>&#128172; 82</span> <span class='hn-top-story-tag'>Culture</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='148' data-hn-time='1783303609'>
-<span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/06/top_stories_07062026#story-48799929'>Building relationships with customers through support didn't turn out as hoped</a>
- <a class='hn-top-story-link' href='https://www.uncommonapps.nyc/p/castro-podcasts-things-i-got-wrong-support' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>通过支持建立客户关系的尝试未如期望</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 148</span> <span class='hn-top-story-comments'>&#128172; 95</span> <span class='hn-top-story-tag'>Startups</span> <span class='hn-top-story-tag'>Business</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='517' data-hn-time='1783263375'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/06/top_stories_07062026#story-48794750'>It's not about physical vs. digital games, it's about ownership</a>
- <a class='hn-top-story-link' href='https://popcar.bearblog.dev/its-about-ownership/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>不是实体/数字游戏之争，而是关于所有权的问题</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 517</span> <span class='hn-top-story-comments'>&#128172; 382</span> <span class='hn-top-story-tag'>Gaming</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='340' data-hn-time='1783275720'>
-<span class='hn-top-story-rank'>9</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/06/top_stories_07062026#story-48796552'>The future of Flipper Zero development</a>
- <a class='hn-top-story-link' href='https://blog.flipper.net/future-of-flipper-zero-development/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Flipper Zero 开发的未来</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.8</span> <span class='hn-top-story-score'>&#9650; 340</span> <span class='hn-top-story-comments'>&#128172; 146</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Security</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='219' data-hn-time='1783286449'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='114' data-hn-time='1783344537'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/06/top_stories_07062026#story-48798061'>Completing a computer science degree on Coursera</a>
- <a class='hn-top-story-link' href='https://notesbylex.com/completing-a-computer-science-degree-on-coursera' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/06/top_stories_07062026#story-48804297'>Aluminum foil (2021)</a>
+ <a class='hn-top-story-link' href='https://dernocua.github.io/notes/aluminum-foil.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>在 Coursera 完成计算机科学学位</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.6</span> <span class='hn-top-story-score'>&#9650; 219</span> <span class='hn-top-story-comments'>&#128172; 135</span> <span class='hn-top-story-tag'>Education</span> <span class='hn-top-story-tag'>Career</span></div>
+<div class='hn-top-story-zh'>铝箔（2021）</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.4</span> <span class='hn-top-story-score'>&#9650; 114</span> <span class='hn-top-story-comments'>&#128172; 41</span> <span class='hn-top-story-tag'>Science</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -140,7 +140,7 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 28 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-07-06 <span class="hn-row-sep">·</span> 50 stories <span class="hn-row-sep">·</span> 1 days</span>
+<span class='hn-week-meta'>2026-07-06 <span class="hn-row-sep">·</span> 86 stories <span class="hn-row-sep">·</span> 1 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/07/06/top_stories_07062026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> Programming <b>11</b> <span class="hn-row-sep">·</span> Culture <b>10</b></span>
+<span class='hn-row-detail'>All <b>86</b> <span class="hn-row-sep">·</span> AI <b>16</b> <span class="hn-row-sep">·</span> Programming <b>15</b></span>
 </a>
 </div>
 </div>
