@@ -4,21 +4,87 @@
     "source": "https://news.ycombinator.com/",
     "api": "https://github.com/HackerNews/API",
     "count_requested": 50,
-    "count_written": 69,
-    "reused_same_day": 30,
+    "count_written": 82,
+    "reused_same_day": 37,
     "reused_cross_day": 0,
-    "new_llm_enriched": 19,
-    "scrape_time_display": "09:01, July 08, 2026 (PDT)",
+    "new_llm_enriched": 13,
+    "scrape_time_display": "12:19, July 08, 2026 (PDT)",
     "timezone": "America/Los_Angeles",
     "date_dir": "2026/07/08",
     "content_date": "2026-07-08",
-    "run_time_local": "09:01, July 08, 2026 (PDT)",
-    "run_time_utc": "2026-07-08 16:01:36 UTC",
+    "run_time_local": "12:19, July 08, 2026 (PDT)",
+    "run_time_utc": "2026-07-08 19:19:39 UTC",
     "incremental": true,
     "stories_max": 100,
-    "hot_score_time_utc": "2026-07-08 16:03:54 UTC"
+    "hot_score_time_utc": "2026-07-08 19:20:41 UTC"
   },
   "items": [
+    {
+      "title_en": "GPT‑Live",
+      "url": "https://openai.com/index/introducing-gpt-live/",
+      "title_zh": "GPT-Live",
+      "created_display": "Created: Jul 08, 2026 / 10:03 PT",
+      "image_url": "https://images.ctfassets.net/kftzwdyauwt9/54glGpDpS58mKdx6Y3GobW/6ea5121851a36b8cf0505a96be2de994/bidi-art-card_16_9__1_.png?w=1600&h=900&fit=fill",
+      "summary_en": "GPT-Live introduces live, real-time interactions with updated data and external tools, enabling more dynamic conversations. It signals a shift toward apps that continuously consume streams of information rather than static prompts.",
+      "summary_zh": "GPT-Live 引入实时、动态的数据和外部工具交互，使对话具有更即时的更新能力。此举推动应用从静态提示向持续获取信息的对话体验转变。",
+      "hn": {
+        "id": 48834405,
+        "type": "story",
+        "by": "logickkk1",
+        "score": 367,
+        "descendants": 257,
+        "time": 1783530199,
+        "comments_url": "https://news.ycombinator.com/item?id=48834405"
+      },
+      "hot_score": 26.62,
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title_en": "Grok 4.5",
+      "url": "https://x.ai/news/grok-4-5",
+      "title_zh": "Grok 4.5",
+      "created_display": "Created: Jul 08, 2026 / 11:00 PT",
+      "image_url": "https://x.ai/images/news/grok-4-5-og.png",
+      "summary_en": "Grok 4.5 extends the AI assistant's capabilities with better memory, smarter task planning, and improved tool integration. The release emphasizes more reliable automation and streamlined workflows for building AI-powered assistants.",
+      "summary_zh": "Grok 4.5 在记忆、任务规划及对外部工具接入方面有显著提升，提升了自动化的可靠性。此次更新聚焦为构建 AI 助手提供更顺畅的工作流和更高的可用性。",
+      "hn": {
+        "id": 48835111,
+        "type": "story",
+        "by": "BoumTAC",
+        "score": 194,
+        "descendants": 121,
+        "time": 1783533632,
+        "comments_url": "https://news.ycombinator.com/item?id=48835111"
+      },
+      "hot_score": 22.07,
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title_en": "Chatto is now Open Source",
+      "url": "https://www.hmans.dev/blog/chatto-is-open-source",
+      "title_zh": "Chatto 现已开源",
+      "created_display": "Created: Jul 08, 2026 / 08:19 PT",
+      "image_url": "https://hmans.dev/blog/chatto-is-open-source/banner.png",
+      "summary_en": "Chatto has been released as open source, inviting developers to inspect, contribute, and deploy its chat tooling. The move could spur community-driven improvements, faster adoption, and broader experimentation with chat-powered interfaces.",
+      "summary_zh": "Chatto 已开源，开发者可以审阅、贡献并部署其聊天工具。这一举措有望推动社区协作、加速落地应用并促成更多基于聊天界面的创新。",
+      "hn": {
+        "id": 48833116,
+        "type": "story",
+        "by": "speckx",
+        "score": 401,
+        "descendants": 110,
+        "time": 1783523990,
+        "comments_url": "https://news.ycombinator.com/item?id=48833116"
+      },
+      "tags": [
+        "Open Source"
+      ],
+      "hot_score": 15.83
+    },
     {
       "title_en": "Decoding the obfuscated bash script on a Uniqlo t-shirt",
       "url": "https://tris.sherliker.net/blog/obfuscated-self-evaluating-bash-script-by-cdn-akamai-being-supplied-to-consumers-via-retail-stores/",
@@ -31,16 +97,59 @@
         "id": 48829312,
         "type": "story",
         "by": "speerer",
-        "score": 910,
-        "descendants": 165,
+        "score": 1124,
+        "descendants": 187,
         "time": 1783500366,
         "comments_url": "https://news.ycombinator.com/item?id=48829312"
       },
       "tags": [
-        "Security",
-        "Programming"
+        "Security"
       ],
-      "hot_score": 16.43
+      "hot_score": 11.78
+    },
+    {
+      "title_en": "TypeScript 7",
+      "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/",
+      "title_zh": "TypeScript 7",
+      "created_display": "Created: Jul 08, 2026 / 09:06 PT",
+      "image_url": "https://devblogs.microsoft.com/typescript/wp-content/uploads/sites/11/2026/07/ts7-0-stable-1-1.png",
+      "summary_en": "TypeScript 7 brings major improvements to the type system, smarter inference, and faster builds, plus new compiler features that reduce runtime errors. It also updates project configuration and editor tooling.",
+      "summary_zh": "TypeScript 7 对类型系统、推断能力和构建速度带来重大改进，并引入新的编译器特性以降低运行时错误。此次发布还对项目配置和编辑器工具链进行了更新。",
+      "hn": {
+        "id": 48833715,
+        "type": "story",
+        "by": "DanRosenwasser",
+        "score": 226,
+        "descendants": 72,
+        "time": 1783526795,
+        "comments_url": "https://news.ycombinator.com/item?id=48833715"
+      },
+      "hot_score": 11.43,
+      "tags": [
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "EU now one step away from reviving private message scanning rules",
+      "url": "https://cyberinsider.com/eu-now-one-step-away-from-reviving-private-message-scanning-rules/",
+      "title_zh": "欧盟只差一步就能重新启用私信扫描规则",
+      "created_display": "Created: Jul 08, 2026 / 09:53 PT",
+      "image_url": "https://cyberinsider.com/wp-content/uploads/2026/07/EU-now-one-step-away-from-reviving-private-message-scanning-rules.jpg",
+      "summary_en": "The EU is nearing revival of private-message scanning rules, aiming to mandate messaging platforms to scan private content for illegal activity. The move would reshape safety vs. privacy dynamics, pressuring platforms to deploy more aggressive monitoring and data processing.",
+      "summary_zh": "欧盟正在推动重新启用对私信的内容扫描规则，拟要求通讯平台对私人内容进行非法活动的检测。此举将重新定义安全与隐私的平衡，推动更大规模的监控与数据处理，并引发隐私担忧。",
+      "hn": {
+        "id": 48834296,
+        "type": "story",
+        "by": "ggirelli",
+        "score": 163,
+        "descendants": 52,
+        "time": 1783529586,
+        "comments_url": "https://news.ycombinator.com/item?id=48834296"
+      },
+      "hot_score": 10.98,
+      "tags": [
+        "Privacy"
+      ]
     },
     {
       "title_en": "Mistral's Robostral Navigate: a state of the art robotics navigation model",
@@ -54,16 +163,153 @@
         "id": 48832212,
         "type": "story",
         "by": "ottomengis",
-        "score": 132,
-        "descendants": 25,
+        "score": 309,
+        "descendants": 70,
         "time": 1783519757,
         "comments_url": "https://news.ycombinator.com/item?id=48832212"
       },
-      "hot_score": 11.25,
       "tags": [
-        "AI",
+        "AI"
+      ],
+      "hot_score": 8.84
+    },
+    {
+      "title_en": "What Do We Know About the Microplastics Inside Us?",
+      "url": "https://e360.yale.edu/features/cassandra-rauert-interview",
+      "title_zh": "我们体内的微塑料到底有多少？",
+      "created_display": "Created: Jul 08, 2026 / 10:43 PT",
+      "image_url": "https://yale-threesixty.transforms.svdcdn.com/production/Plastic-Fingertips_Getty-HEADER.jpg?w=1200&q=60&auto=format&fit=max&dm=1783439743&s=6ae88795970a9e9a134849ba859c0c1a",
+      "summary_en": "Researchers are mapping how microplastics permeate the human body, from ingestion to inhalation, and where they accumulate. Evidence of direct health effects remains uncertain, but measurements and exposure pathways are actively being standardized. The interview highlights what we know and what we still need to learn to assess risk.",
+      "summary_zh": "微塑料已在人体多处被检测，但与健康影响之间的因果关系尚未明确。暴露途径与测量方法的差异性仍是挑战，研究界正努力标准化方法并开展长期追踪。访谈梳理了已有证据与亟待澄清的关键问题，以及未来风险评估的方向。",
+      "hn": {
+        "id": 48834898,
+        "type": "story",
+        "by": "speckx",
+        "score": 78,
+        "descendants": 12,
+        "time": 1783532617,
+        "comments_url": "https://news.ycombinator.com/item?id=48834898"
+      },
+      "hot_score": 7.61,
+      "tags": [
+        "Health",
         "Science"
       ]
+    },
+    {
+      "title_en": "SWE-1.7 Reach Near GPT 5.5 and Opus Intelligence",
+      "url": "https://cognition.com/blog/swe-1-7",
+      "title_zh": "SWE-1.7 接近 GPT‑5.5 与 Opus Intelligence",
+      "created_display": "Created: Jul 08, 2026 / 09:19 PT",
+      "image_url": "https://cognition.com/images/swe-1-7/swe-1-7-og.png",
+      "summary_en": "SWE-1.7 pushes software-engineering AI features toward parity with GPT-5.5 and the Opus Intelligence framework, signaling how AI copilots may soon assist developers more deeply. The discussion covers implications for coding workflows, tool integration, and how teams should architect AI-powered systems. Expect faster prototyping and smarter automation as these capabilities mature.",
+      "summary_zh": "SWE-1.7 的进展让软件工程领域的 AI 辅助能力接近 GPT-5.5 水平与 Opus Intelligence 框架的表现，意味着 AI 助手在编码工作流中的作用将更深。文章探讨了对代码工作流、工具整合以及构建 AI 驱动系统的影响。随着能力成熟，原型设计和自动化水平将显著提升。",
+      "hn": {
+        "id": 48833866,
+        "type": "story",
+        "by": "mekpro",
+        "score": 138,
+        "descendants": 86,
+        "time": 1783527576,
+        "comments_url": "https://news.ycombinator.com/item?id=48833866"
+      },
+      "hot_score": 7.51,
+      "tags": [
+        "AI",
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "PlayStation can delete all your digital games after 3 years of inactivity (EU)",
+      "url": "https://www.flatpanelshd.com/news.php?subaction=showfull&id=1783340582",
+      "title_zh": "欧盟地区三年不活跃即删除数字游戏库",
+      "created_display": "Created: Jul 08, 2026 / 10:45 PT",
+      "image_url": "https://www.flatpanelshd.com/pictures/pslimits_small.jpg",
+      "summary_en": "In the EU, PlayStation may automatically delete a user's digital game library after three years of inactivity, raising questions about ownership and access. The move highlights the fragility of digital libraries and the need for clear inactivity policies and backup options.",
+      "summary_zh": "在欧盟，PlayStation 可能在三年不活跃后自动删除用户的数字游戏库，这引发关于所有权、许可与数据保留的讨论。此举凸显数字藏库的脆弱性，并强调需要明确的不活跃策略与备份选项。玩家应审查不活跃设置并考虑备份方案。",
+      "hn": {
+        "id": 48834919,
+        "type": "story",
+        "by": "thewebguyd",
+        "score": 69,
+        "descendants": 25,
+        "time": 1783532726,
+        "comments_url": "https://news.ycombinator.com/item?id=48834919"
+      },
+      "hot_score": 6.82,
+      "tags": [
+        "Privacy",
+        "Gaming"
+      ]
+    },
+    {
+      "title_en": "Show HN: Microsoft releases Flint, a visualization language for AI agents",
+      "url": "https://microsoft.github.io/flint-chart/#/",
+      "title_zh": "Show HN：微软发布 Flint——用于 AI 代理的可视化语言",
+      "created_display": "Created: Jul 08, 2026 / 10:46 PT",
+      "image_url": null,
+      "summary_en": "Flint provides a visual language to model data flows, decisions, and actions for AI agents, enabling rapid prototyping without heavy coding. By graphically mapping agent behavior, teams can design, test, and debug multi-step workflows more efficiently.",
+      "summary_zh": "Flint 提供一种用于 AI 代理的数据流、决策点和执行动作的可视化语言，使团队可以在不写大量代码的情况下快速原型。通过图形化表示代理行为，设计、测试和调试多步骤工作流的效率将显著提升。",
+      "hn": {
+        "id": 48834924,
+        "type": "story",
+        "by": "chenglong-hn",
+        "score": 54,
+        "descendants": 23,
+        "time": 1783532772,
+        "comments_url": "https://news.ycombinator.com/item?id=48834924"
+      },
+      "hot_score": 5.35,
+      "tags": [
+        "Show HN",
+        "AI",
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "OpenBSD has a use-after-free allowing local privilege escalation to root",
+      "url": "https://nvd.nist.gov/vuln/detail/cve-2026-57589",
+      "title_zh": "OpenBSD 存在使用后释放漏洞，可能本地提权至 root",
+      "created_display": "Created: Jul 08, 2026 / 06:24 PT",
+      "image_url": "https://nvd.nist.gov/site-media/images/usbanner/us_flag_small.png",
+      "summary_en": "OpenBSD fixes a use-after-free vulnerability that could allow a local user to escalate privileges to root. The flaw highlights the importance of memory-safety in OS kernels and will drive users to apply patches promptly.",
+      "summary_zh": "OpenBSD 发现一个使用后释放漏洞，可能使本地用户提权至 root。相关补丁即将发布，这再次凸显内存安全在内核中的重要性，促使运行中的系统尽快更新。",
+      "hn": {
+        "id": 48831658,
+        "type": "story",
+        "by": "linggen",
+        "score": 184,
+        "descendants": 87,
+        "time": 1783517092,
+        "comments_url": "https://news.ycombinator.com/item?id=48831658"
+      },
+      "tags": [
+        "Security"
+      ],
+      "hot_score": 4.4
+    },
+    {
+      "title_en": "Apple to increase spend with Broadcom to produce billions more U.S. chips",
+      "url": "https://www.apple.com/newsroom/2026/07/apple-to-increase-spend-with-broadcom-to-produce-billions-more-us-chips/",
+      "title_zh": "苹果将增加与 Broadcom 的支出在美国生产更多芯片",
+      "created_display": "Created: Jul 08, 2026 / 04:30 PT",
+      "image_url": "https://www.apple.com/newsroom/images/default/apple-logo-og.jpg?202607081002",
+      "summary_en": "Apple plans to increase spend with Broadcom to produce billions more chips in the U.S., expanding domestic manufacturing capacity. The move signals a push to bolster supply chain resilience and create more onshore semiconductor work, aligning with national policy goals.",
+      "summary_zh": "苹果宣布将增加与 Broadcom 的支出，在美国生产更多芯片，扩大全球供应链的本土化能力。这一举措提升了国内半导体产能并有望带来本地就业与供应链韧性，符合国家产业目标。",
+      "hn": {
+        "id": 48830565,
+        "type": "story",
+        "by": "soheilpro",
+        "score": 257,
+        "descendants": 213,
+        "time": 1783510256,
+        "comments_url": "https://news.ycombinator.com/item?id=48830565"
+      },
+      "tags": [
+        "Business",
+        "Hardware"
+      ],
+      "hot_score": 4.19
     },
     {
       "title_en": "US Food and Drug Administration rejects petition to set PFAS limits in food",
@@ -82,78 +328,10 @@
         "time": 1783517759,
         "comments_url": "https://news.ycombinator.com/item?id=48831785"
       },
-      "hot_score": 10.69,
+      "hot_score": 3.97,
       "tags": [
-        "Science",
-        "Politics",
-        "Health"
-      ]
-    },
-    {
-      "title_en": "Chatto is now Open Source",
-      "url": "https://www.hmans.dev/blog/chatto-is-open-source",
-      "title_zh": "Chatto 现已开源",
-      "created_display": "Created: Jul 08, 2026 / 08:19 PT",
-      "image_url": "https://hmans.dev/blog/chatto-is-open-source/banner.png",
-      "summary_en": "Chatto has been released as open source, inviting developers to inspect, contribute, and deploy its chat tooling. The move could spur community-driven improvements, faster adoption, and broader experimentation with chat-powered interfaces.",
-      "summary_zh": "Chatto 已开源，开发者可以审阅、贡献并部署其聊天工具。这一举措有望推动社区协作、加速落地应用并促成更多基于聊天界面的创新。",
-      "hn": {
-        "id": 48833116,
-        "type": "story",
-        "by": "speckx",
-        "score": 50,
-        "descendants": 7,
-        "time": 1783523990,
-        "comments_url": "https://news.ycombinator.com/item?id=48833116"
-      },
-      "hot_score": 8.01,
-      "tags": [
-        "Open Source"
-      ]
-    },
-    {
-      "title_en": "Apple to increase spend with Broadcom to produce billions more U.S. chips",
-      "url": "https://www.apple.com/newsroom/2026/07/apple-to-increase-spend-with-broadcom-to-produce-billions-more-us-chips/",
-      "title_zh": "苹果将增加与 Broadcom 的支出在美国生产更多芯片",
-      "created_display": "Created: Jul 08, 2026 / 04:30 PT",
-      "image_url": "https://www.apple.com/newsroom/images/default/apple-logo-og.jpg?202607081002",
-      "summary_en": "Apple plans to increase spend with Broadcom to produce billions more chips in the U.S., expanding domestic manufacturing capacity. The move signals a push to bolster supply chain resilience and create more onshore semiconductor work, aligning with national policy goals.",
-      "summary_zh": "苹果宣布将增加与 Broadcom 的支出，在美国生产更多芯片，扩大全球供应链的本土化能力。这一举措提升了国内半导体产能并有望带来本地就业与供应链韧性，符合国家产业目标。",
-      "hn": {
-        "id": 48830565,
-        "type": "story",
-        "by": "soheilpro",
-        "score": 193,
-        "descendants": 149,
-        "time": 1783510256,
-        "comments_url": "https://news.ycombinator.com/item?id=48830565"
-      },
-      "hot_score": 6.52,
-      "tags": [
-        "Business",
-        "Hardware"
-      ]
-    },
-    {
-      "title_en": "OpenBSD has a use-after-free allowing local privilege escalation to root",
-      "url": "https://nvd.nist.gov/vuln/detail/cve-2026-57589",
-      "title_zh": "OpenBSD 存在使用后释放漏洞，可能本地提权至 root",
-      "created_display": "Created: Jul 08, 2026 / 06:24 PT",
-      "image_url": "https://nvd.nist.gov/site-media/images/usbanner/us_flag_small.png",
-      "summary_en": "OpenBSD fixes a use-after-free vulnerability that could allow a local user to escalate privileges to root. The flaw highlights the importance of memory-safety in OS kernels and will drive users to apply patches promptly.",
-      "summary_zh": "OpenBSD 发现一个使用后释放漏洞，可能使本地用户提权至 root。相关补丁即将发布，这再次凸显内存安全在内核中的重要性，促使运行中的系统尽快更新。",
-      "hn": {
-        "id": 48831658,
-        "type": "story",
-        "by": "linggen",
-        "score": 99,
-        "descendants": 36,
-        "time": 1783517092,
-        "comments_url": "https://news.ycombinator.com/item?id=48831658"
-      },
-      "hot_score": 6.16,
-      "tags": [
-        "Security"
+        "Health",
+        "Politics"
       ]
     },
     {
@@ -168,15 +346,15 @@
         "id": 48831565,
         "type": "story",
         "by": "bobnamob",
-        "score": 84,
-        "descendants": 13,
+        "score": 158,
+        "descendants": 36,
         "time": 1783516683,
         "comments_url": "https://news.ycombinator.com/item?id=48831565"
       },
-      "hot_score": 5.0,
       "tags": [
-        "Data"
-      ]
+        "DevOps"
+      ],
+      "hot_score": 3.68
     },
     {
       "title_en": "GitLost: We Tricked GitHub's AI Agent into Leaking Private Repos",
@@ -190,8 +368,8 @@
         "id": 48827858,
         "type": "story",
         "by": "ColinEberhardt",
-        "score": 386,
-        "descendants": 155,
+        "score": 467,
+        "descendants": 178,
         "time": 1783488335,
         "comments_url": "https://news.ycombinator.com/item?id=48827858"
       },
@@ -201,29 +379,30 @@
         "AI",
         "Programming"
       ],
-      "hot_score": 4.0
+      "hot_score": 3.2
     },
     {
-      "title_en": "Windows Drops Under 60% in Global Desktop OS Share for the First Time in Years",
-      "url": "https://linuxiac.com/windows-drops-under-60-in-global-desktop-os-share-for-the-first-time-in-years/",
-      "title_zh": "Windows 全球桌面操作系统市场份额首次跌破 60%",
-      "created_display": "Created: Jul 08, 2026 / 06:43 PT",
-      "image_url": "https://linuxiac.com/wp-content/uploads/2026/07/windows-market-share-drops.jpg",
-      "summary_en": "Windows desktop OS share falls below 60% globally for the first time in years, as macOS, Linux, and alternative platforms gain traction. The shift could influence enterprise IT, software ecosystems, and vendor competition.",
-      "summary_zh": "Windows 桌面操作系统全球市场份额首次跌破 60%，MacOS、Linux 等平台开始获得市场份额回升。此趋势可能影响企业 IT、软件生态和厂商竞争格局。",
+      "title_en": "It seems that the age of reading might be a short anomaly in human history",
+      "url": "https://www.theatlantic.com/magazine/2026/08/reading-crisis-postliterate-age/687618/",
+      "title_zh": "阅读时代可能只是人类历史中的短暂异常",
+      "created_display": "Created: Jul 08, 2026 / 05:08 PT",
+      "image_url": "https://cdn.theatlantic.com/thumbor/TaSgM_kXEyiXXBzlvXfpi1XeN5c=/0x43:2000x1085/1200x625/media/img/2026/07/WEL_HorowitchOpenerHP-1/original.png",
+      "summary_en": "The article argues that the era of widespread reading may be a temporary anomaly in a postliterate age, discussing cognitive, educational, and societal implications as digital media evolve. It challenges assumptions about literacy's central role in the future.",
+      "summary_zh": "这篇文章认为大众阅读的时代可能只是人类进入后读写时代的一个短暂异常，探讨数字媒介演进对认知、教育和社会的影响，挑战未来对识字地位的普遍假设。",
       "hn": {
-        "id": 48831886,
+        "id": 48830868,
         "type": "story",
-        "by": "hkmaxpro",
-        "score": 44,
-        "descendants": 9,
-        "time": 1783518216,
-        "comments_url": "https://news.ycombinator.com/item?id=48831886"
+        "by": "0in",
+        "score": 128,
+        "descendants": 266,
+        "time": 1783512517,
+        "comments_url": "https://news.ycombinator.com/item?id=48830868"
       },
-      "hot_score": 3.06,
       "tags": [
-        "Business"
-      ]
+        "Culture",
+        "Science"
+      ],
+      "hot_score": 2.34
     },
     {
       "title_en": "Every new car sold in the European Union must include a driver monitoring camera",
@@ -247,31 +426,29 @@
         "Politics",
         "Data"
       ],
-      "hot_score": 2.95
+      "hot_score": 2.28
     },
     {
-      "title_en": "It seems that the age of reading might be a short anomaly in human history",
-      "url": "https://www.theatlantic.com/magazine/2026/08/reading-crisis-postliterate-age/687618/",
-      "title_zh": "阅读时代可能只是人类历史中的短暂异常",
-      "created_display": "Created: Jul 08, 2026 / 05:08 PT",
-      "image_url": "https://cdn.theatlantic.com/thumbor/TaSgM_kXEyiXXBzlvXfpi1XeN5c=/0x43:2000x1085/1200x625/media/img/2026/07/WEL_HorowitchOpenerHP-1/original.png",
-      "summary_en": "The article argues that the era of widespread reading may be a temporary anomaly in a postliterate age, discussing cognitive, educational, and societal implications as digital media evolve. It challenges assumptions about literacy's central role in the future.",
-      "summary_zh": "这篇文章认为大众阅读的时代可能只是人类进入后读写时代的一个短暂异常，探讨数字媒介演进对认知、教育和社会的影响，挑战未来对识字地位的普遍假设。",
+      "title_en": "Windows Drops Under 60% in Global Desktop OS Share for the First Time in Years",
+      "url": "https://linuxiac.com/windows-drops-under-60-in-global-desktop-os-share-for-the-first-time-in-years/",
+      "title_zh": "Windows 全球桌面操作系统市场份额首次跌破 60%",
+      "created_display": "Created: Jul 08, 2026 / 06:43 PT",
+      "image_url": "https://linuxiac.com/wp-content/uploads/2026/07/windows-market-share-drops.jpg",
+      "summary_en": "Windows desktop OS share falls below 60% globally for the first time in years, as macOS, Linux, and alternative platforms gain traction. The shift could influence enterprise IT, software ecosystems, and vendor competition.",
+      "summary_zh": "Windows 桌面操作系统全球市场份额首次跌破 60%，MacOS、Linux 等平台开始获得市场份额回升。此趋势可能影响企业 IT、软件生态和厂商竞争格局。",
       "hn": {
-        "id": 48830868,
+        "id": 48831886,
         "type": "story",
-        "by": "0in",
-        "score": 67,
-        "descendants": 128,
-        "time": 1783512517,
-        "comments_url": "https://news.ycombinator.com/item?id=48830868"
+        "by": "hkmaxpro",
+        "score": 74,
+        "descendants": 21,
+        "time": 1783518216,
+        "comments_url": "https://news.ycombinator.com/item?id=48831886"
       },
-      "hot_score": 2.69,
       "tags": [
-        "Education",
-        "Culture",
-        "Science"
-      ]
+        "Business"
+      ],
+      "hot_score": 1.89
     },
     {
       "title_en": "How to Build a Minimal ZFS NAS Without Synology, QNAP, TrueNAS (2024)",
@@ -285,16 +462,15 @@
         "id": 48827325,
         "type": "story",
         "by": "4diii",
-        "score": 278,
-        "descendants": 195,
+        "score": 316,
+        "descendants": 213,
         "time": 1783483175,
         "comments_url": "https://news.ycombinator.com/item?id=48827325"
       },
       "tags": [
-        "Hardware",
-        "Open Source"
+        "Hardware"
       ],
-      "hot_score": 2.37
+      "hot_score": 1.85
     },
     {
       "title_en": "Chat Control 1.0 and 2.0 Explained",
@@ -308,39 +484,15 @@
         "id": 48818311,
         "type": "story",
         "by": "gasull",
-        "score": 830,
-        "descendants": 313,
+        "score": 873,
+        "descendants": 328,
         "time": 1783434195,
         "comments_url": "https://news.ycombinator.com/item?id=48818311"
       },
       "tags": [
-        "Politics",
-        "Privacy",
-        "Legal"
+        "Politics"
       ],
-      "hot_score": 2.1
-    },
-    {
-      "title_en": "Answering \"why do you want to relocate?\" during interviews",
-      "url": "https://relocateme.substack.com/p/a-mistake-to-avoid-during-relocation",
-      "title_zh": "面试时如何回答“你为什么想搬迁？”",
-      "created_display": "Created: Jul 08, 2026 / 08:16 PT",
-      "image_url": null,
-      "summary_en": "Relocation questions in interviews can derail the process; propose a concise, role-focused rationale showing how relocation enables better contribution and fit. Prepare specifics about location, timing, and work commitments to avoid generic answers.",
-      "summary_zh": "面试时遇到关于搬迁的问题时，给出聚焦角色的原因，说明搬迁如何帮助你更好地贡献和契合岗位。准备具体的地理位置、时间安排和工作承诺，避免空泛回答。",
-      "hn": {
-        "id": 48833071,
-        "type": "story",
-        "by": "andrewstetsenko",
-        "score": 14,
-        "descendants": 10,
-        "time": 1783523777,
-        "comments_url": "https://news.ycombinator.com/item?id=48833071"
-      },
-      "hot_score": 2.05,
-      "tags": [
-        "Career"
-      ]
+      "hot_score": 1.81
     },
     {
       "title_en": "StreetComplete: Fixing OpenStreetMap, one tiny quest at a time",
@@ -354,8 +506,8 @@
         "id": 48816883,
         "type": "story",
         "by": "kls0e",
-        "score": 794,
-        "descendants": 201,
+        "score": 800,
+        "descendants": 204,
         "time": 1783427915,
         "comments_url": "https://news.ycombinator.com/item?id=48816883"
       },
@@ -363,7 +515,7 @@
         "Open Source",
         "Data"
       ],
-      "hot_score": 1.8
+      "hot_score": 1.5
     },
     {
       "title_en": "30papers.com – Ilya's 30 essential ML papers, in a beginner friendly format",
@@ -383,9 +535,10 @@
         "comments_url": "https://news.ycombinator.com/item?id=48819608"
       },
       "tags": [
-        "Education"
+        "Education",
+        "AI"
       ],
-      "hot_score": 1.68
+      "hot_score": 1.36
     },
     {
       "title_en": "Tenda firmware (multiple versions) contains hidden authentication backdoor",
@@ -399,15 +552,38 @@
         "id": 48825749,
         "type": "story",
         "by": "miniBill",
-        "score": 295,
-        "descendants": 101,
+        "score": 328,
+        "descendants": 113,
         "time": 1783469331,
         "comments_url": "https://news.ycombinator.com/item?id=48825749"
       },
       "tags": [
         "Security"
       ],
-      "hot_score": 1.63
+      "hot_score": 1.34
+    },
+    {
+      "title_en": "Local, CPU-Friendly, High-Quality TTS (Text-to-Speech) with Kokoro",
+      "url": "https://ariya.io/2026/03/local-cpu-friendly-high-quality-tts-text-to-speech-with-kokoro/",
+      "title_zh": "本地化、CPU友好且高质量的 Kokoro TTS",
+      "created_display": "Created: Jul 07, 2026 / 11:24 PT",
+      "image_url": "https://ariya.io//images/2026/03/kokoro.png",
+      "summary_en": "A local, CPU-friendly TTS approach using Kokoro enables high-quality speech synthesis on consumer hardware without relying on cloud services. It highlights a shift toward private, on-device AI that scales with CPUs rather than GPUs.",
+      "summary_zh": "在本地使用 Kokoro 的高质量文本转语音实现，无需云端支持即可在普通硬件上完成语音合成。凸显了将 AI 放在设备端、以 CPU 为主的机会，提升隐私与可离线工作的可能性。",
+      "hn": {
+        "id": 48821576,
+        "type": "story",
+        "by": "speckx",
+        "score": 501,
+        "descendants": 92,
+        "time": 1783448650,
+        "comments_url": "https://news.ycombinator.com/item?id=48821576"
+      },
+      "tags": [
+        "AI",
+        "Hardware"
+      ],
+      "hot_score": 1.33
     },
     {
       "title_en": "Microsoft fire idTech team at Id software",
@@ -430,30 +606,30 @@
         "Business",
         "Gaming"
       ],
-      "hot_score": 1.62
+      "hot_score": 1.31
     },
     {
-      "title_en": "Local, CPU-Friendly, High-Quality TTS (Text-to-Speech) with Kokoro",
-      "url": "https://ariya.io/2026/03/local-cpu-friendly-high-quality-tts-text-to-speech-with-kokoro/",
-      "title_zh": "本地化、CPU友好且高质量的 Kokoro TTS",
-      "created_display": "Created: Jul 07, 2026 / 11:24 PT",
-      "image_url": "https://ariya.io//images/2026/03/kokoro.png",
-      "summary_en": "A local, CPU-friendly TTS approach using Kokoro enables high-quality speech synthesis on consumer hardware without relying on cloud services. It highlights a shift toward private, on-device AI that scales with CPUs rather than GPUs.",
-      "summary_zh": "在本地使用 Kokoro 的高质量文本转语音实现，无需云端支持即可在普通硬件上完成语音合成。凸显了将 AI 放在设备端、以 CPU 为主的机会，提升隐私与可离线工作的可能性。",
+      "title_en": "Structure and Interpretation of Computer Programs Video Lectures (1986)",
+      "url": "https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video_galleries/video-lectures/",
+      "title_zh": "《计算机程序的结构与解释》1986 年视频讲座",
+      "created_display": "Created: Jul 07, 2026 / 16:57 PT",
+      "image_url": "https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/ad40b7bc2fd8fcd95f535c77aeeafde3_6-001s05.jpg",
+      "summary_en": "MIT's 1986 SICP video lectures on programming education emphasize abstraction and recursion, shaping how software design is taught and understood. The lectures remain a foundational reference for thinking about problem-solving and building robust software.",
+      "summary_zh": "MIT 的 1986 年《计算机程序的结构与解释》视频讲座强调抽象与递归等核心理念，深刻影响了计算机科学的教学与软件设计思维。至今仍被视为理解问题求解与构建健壮软件的基础参考。",
       "hn": {
-        "id": 48821576,
+        "id": 48825664,
         "type": "story",
-        "by": "speckx",
-        "score": 474,
-        "descendants": 88,
-        "time": 1783448650,
-        "comments_url": "https://news.ycombinator.com/item?id=48821576"
+        "by": "gjvc",
+        "score": 317,
+        "descendants": 42,
+        "time": 1783468649,
+        "comments_url": "https://news.ycombinator.com/item?id=48825664"
       },
       "tags": [
-        "AI",
-        "Hardware"
+        "Programming",
+        "Education"
       ],
-      "hot_score": 1.59
+      "hot_score": 1.27
     },
     {
       "title_en": "Chat Control passed first round in EU Parliament",
@@ -475,10 +651,56 @@
       "tags": [
         "Politics",
         "Privacy",
-        "Legal",
         "Security"
       ],
-      "hot_score": 1.52
+      "hot_score": 1.23
+    },
+    {
+      "title_en": "Show HN: Kastor – Terraform-style specs for AI agents",
+      "url": "https://github.com/weirdGuy/kastor",
+      "title_zh": "Show HN: Kastor — 面向 AI 代理的 Terraform 风格规格",
+      "created_display": "Created: Jul 08, 2026 / 08:25 PT",
+      "image_url": "https://opengraph.githubassets.com/1d63484f0f8caff7ed94452864b651945244d33562c26bf4893099dd49c8e067/weirdGuy/kastor",
+      "summary_en": "Kastor offers Terraform-style specifications for composing AI agents, enabling declarative definitions of agent capabilities and workflows. This approach could simplify building and coordinating complex AI systems, improving reproducibility and collaboration.",
+      "summary_zh": "Kastor 提供了面向 AI 代理的 Terraform 风格规格，使代理能力与工作流的声明性定义成为可能。此做法或将简化复杂 AI 系统的构建与协作，提升可重复性与模块化程度。",
+      "hn": {
+        "id": 48833183,
+        "type": "story",
+        "by": "weirdguy",
+        "score": 29,
+        "descendants": 17,
+        "time": 1783524309,
+        "comments_url": "https://news.ycombinator.com/item?id=48833183"
+      },
+      "tags": [
+        "Show HN",
+        "AI",
+        "DevOps"
+      ],
+      "hot_score": 1.14
+    },
+    {
+      "title_en": "Geosql: A Claude/Codex skill for geospatial data",
+      "url": "https://github.com/dekart-xyz/geosql",
+      "title_zh": "Geosql：用于地理空间数据的 Claude/Codex 技能",
+      "created_display": "Created: Jul 08, 2026 / 01:37 PT",
+      "image_url": "https://opengraph.githubassets.com/f9130fc5eda749d758327b4ec999b2eb87223f1ec6ad3429f6123c80c5859693/dekart-xyz/geosql",
+      "summary_en": "Geosql provides a Claude/Codex skill for geospatial data, enabling LLMs to query maps, coordinates, and spatial relationships more effectively. This helps automate geo-enabled reasoning, map-based data extraction, and location-aware AI tasks.",
+      "summary_zh": "Geosql 提供了一套用于地理空间数据的 Claude/Codex 技能，使大语言模型能够更高效地查询地图、坐标和空间关系，提升地理推理与定位任务的自动化水平。",
+      "hn": {
+        "id": 48829242,
+        "type": "story",
+        "by": "rzk",
+        "score": 108,
+        "descendants": 13,
+        "time": 1783499846,
+        "comments_url": "https://news.ycombinator.com/item?id=48829242"
+      },
+      "tags": [
+        "AI",
+        "Data"
+      ],
+      "hot_score": 1.1
     },
     {
       "title_en": "GPT-5.6 Sol, along with Terra and Luna, will launch publicly this Thursday",
@@ -500,51 +722,7 @@
       "tags": [
         "AI"
       ],
-      "hot_score": 1.51
-    },
-    {
-      "title_en": "Structure and Interpretation of Computer Programs Video Lectures (1986)",
-      "url": "https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video_galleries/video-lectures/",
-      "title_zh": "《计算机程序的结构与解释》1986 年视频讲座",
-      "created_display": "Created: Jul 07, 2026 / 16:57 PT",
-      "image_url": "https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/ad40b7bc2fd8fcd95f535c77aeeafde3_6-001s05.jpg",
-      "summary_en": "MIT's 1986 SICP video lectures on programming education emphasize abstraction and recursion, shaping how software design is taught and understood. The lectures remain a foundational reference for thinking about problem-solving and building robust software.",
-      "summary_zh": "MIT 的 1986 年《计算机程序的结构与解释》视频讲座强调抽象与递归等核心理念，深刻影响了计算机科学的教学与软件设计思维。至今仍被视为理解问题求解与构建健壮软件的基础参考。",
-      "hn": {
-        "id": 48825664,
-        "type": "story",
-        "by": "gjvc",
-        "score": 273,
-        "descendants": 36,
-        "time": 1783468649,
-        "comments_url": "https://news.ycombinator.com/item?id=48825664"
-      },
-      "tags": [
-        "Education"
-      ],
-      "hot_score": 1.48
-    },
-    {
-      "title_en": "Geosql: A Claude/Codex skill for geospatial data",
-      "url": "https://github.com/dekart-xyz/geosql",
-      "title_zh": "Geosql：用于地理空间数据的 Claude/Codex 技能",
-      "created_display": "Created: Jul 08, 2026 / 01:37 PT",
-      "image_url": "https://opengraph.githubassets.com/f9130fc5eda749d758327b4ec999b2eb87223f1ec6ad3429f6123c80c5859693/dekart-xyz/geosql",
-      "summary_en": "Geosql provides a Claude/Codex skill for geospatial data, enabling LLMs to query maps, coordinates, and spatial relationships more effectively. This helps automate geo-enabled reasoning, map-based data extraction, and location-aware AI tasks.",
-      "summary_zh": "Geosql 提供了一套用于地理空间数据的 Claude/Codex 技能，使大语言模型能够更高效地查询地图、坐标和空间关系，提升地理推理与定位任务的自动化水平。",
-      "hn": {
-        "id": 48829242,
-        "type": "story",
-        "by": "rzk",
-        "score": 80,
-        "descendants": 11,
-        "time": 1783499846,
-        "comments_url": "https://news.ycombinator.com/item?id=48829242"
-      },
-      "hot_score": 1.39,
-      "tags": [
-        "AI"
-      ]
+      "hot_score": 1.03
     },
     {
       "title_en": "Show HN: Davit, a Apple Containers UI",
@@ -558,41 +736,18 @@
         "id": 48821848,
         "type": "story",
         "by": "xinit",
-        "score": 362,
-        "descendants": 92,
+        "score": 374,
+        "descendants": 95,
         "time": 1783449869,
         "comments_url": "https://news.ycombinator.com/item?id=48821848"
       },
       "tags": [
         "Show HN",
         "Open Source",
+        "Programming",
         "Privacy"
       ],
-      "hot_score": 1.25
-    },
-    {
-      "title_en": "GAO: DOE Is Prematurely Excluding Less Expensive Options for Nuclear Cleanup",
-      "url": "https://www.gao.gov/products/gao-26-108193",
-      "title_zh": "DOE 在核清理中过早排除更便宜的选项",
-      "created_display": "Created: Jul 07, 2026 / 15:23 PT",
-      "image_url": null,
-      "summary_en": "GAO finds DOE is prematurely narrowing nuclear cleanup options, risking higher lifecycle costs and delays. The report urges a broader, risk-informed evaluation of alternatives and earlier consideration of cheaper, proven methods. This matters for taxpayers and cleanup timelines.",
-      "summary_zh": "GAO 指出能源部在核废物清理选项的评估上过早做出排除，可能推高全生命周期成本、延误项目。报告建议采用更广泛、以风险为基础的备选方案评估，并尽早考量更便宜、经验证的方法。这对纳税人和清理时间线至关重要。",
-      "hn": {
-        "id": 48824826,
-        "type": "story",
-        "by": "Jimmc414",
-        "score": 248,
-        "descendants": 127,
-        "time": 1783463038,
-        "comments_url": "https://news.ycombinator.com/item?id=48824826"
-      },
-      "tags": [
-        "Politics",
-        "Finance",
-        "Energy"
-      ],
-      "hot_score": 1.16
+      "hot_score": 1.02
     },
     {
       "title_en": "A better way to tie gym shorts (or any drawstring) [video]",
@@ -612,9 +767,31 @@
         "comments_url": "https://news.ycombinator.com/item?id=48816956"
       },
       "tags": [
-        "Education"
+        "Entertainment"
       ],
-      "hot_score": 1.15
+      "hot_score": 0.95
+    },
+    {
+      "title_en": "GAO: DOE Is Prematurely Excluding Less Expensive Options for Nuclear Cleanup",
+      "url": "https://www.gao.gov/products/gao-26-108193",
+      "title_zh": "DOE 在核清理中过早排除更便宜的选项",
+      "created_display": "Created: Jul 07, 2026 / 15:23 PT",
+      "image_url": null,
+      "summary_en": "GAO finds DOE is prematurely narrowing nuclear cleanup options, risking higher lifecycle costs and delays. The report urges a broader, risk-informed evaluation of alternatives and earlier consideration of cheaper, proven methods. This matters for taxpayers and cleanup timelines.",
+      "summary_zh": "GAO 指出能源部在核废物清理选项的评估上过早做出排除，可能推高全生命周期成本、延误项目。报告建议采用更广泛、以风险为基础的备选方案评估，并尽早考量更便宜、经验证的方法。这对纳税人和清理时间线至关重要。",
+      "hn": {
+        "id": 48824826,
+        "type": "story",
+        "by": "Jimmc414",
+        "score": 265,
+        "descendants": 141,
+        "time": 1783463038,
+        "comments_url": "https://news.ycombinator.com/item?id=48824826"
+      },
+      "tags": [
+        "Energy"
+      ],
+      "hot_score": 0.94
     },
     {
       "title_en": "98% isn't much",
@@ -634,32 +811,9 @@
         "comments_url": "https://news.ycombinator.com/item?id=48816959"
       },
       "tags": [
-        "Data",
-        "Science"
+        "Data"
       ],
-      "hot_score": 1.13
-    },
-    {
-      "title_en": "Collapse of Atlantic Currents May Already Be 'Locked In'",
-      "url": "https://e360.yale.edu/digest/amoc-collapse-10-percent",
-      "title_zh": "大西洋环流崩溃可能已‘锁定’",
-      "created_display": "Created: Jul 08, 2026 / 07:30 PT",
-      "image_url": "https://yale-threesixty.transforms.svdcdn.com/production/AMOC_NASA.jpg?w=1200&q=60&auto=format&fit=max&dm=1783420012&s=78fbab76cf026ae395c5c6a703d45d12",
-      "summary_en": "New analyses suggest the Atlantic Meridional Overturning Circulation (AMOC) collapse could be already locked in, raising the probability of abrupt climate shifts and regional changes in Europe and North America. The finding underscores climate tipping points and urgency for mitigation.",
-      "summary_zh": "新分析表明大西洋环流可能已处于不可逆崩溃的“锁定”状态，增加了突发性气候转变及对欧洲和北美区域的影响的可能性。此发现凸显气候临界点和减缓日益紧迫的必要性。",
-      "hn": {
-        "id": 48832477,
-        "type": "story",
-        "by": "Brajeshwar",
-        "score": 12,
-        "descendants": 3,
-        "time": 1783521044,
-        "comments_url": "https://news.ycombinator.com/item?id=48832477"
-      },
-      "hot_score": 1.12,
-      "tags": [
-        "Science"
-      ]
+      "hot_score": 0.93
     },
     {
       "title_en": "Copy That Floppy – Cambridge guide for preserving data from fragile floppy disks",
@@ -673,15 +827,15 @@
         "id": 48827092,
         "type": "story",
         "by": "whiteblossom",
-        "score": 139,
-        "descendants": 50,
+        "score": 165,
+        "descendants": 63,
         "time": 1783480951,
         "comments_url": "https://news.ycombinator.com/item?id=48827092"
       },
       "tags": [
         "Data"
       ],
-      "hot_score": 1.09
+      "hot_score": 0.91
     },
     {
       "title_en": "LineageOS Statistics",
@@ -695,8 +849,8 @@
         "id": 48826329,
         "type": "story",
         "by": "pentagrama",
-        "score": 165,
-        "descendants": 92,
+        "score": 176,
+        "descendants": 102,
         "time": 1783474059,
         "comments_url": "https://news.ycombinator.com/item?id=48826329"
       },
@@ -705,32 +859,7 @@
         "Data",
         "Health"
       ],
-      "hot_score": 1.04
-    },
-    {
-      "title_en": "Show HN: Kastor – Terraform-style specs for AI agents",
-      "url": "https://github.com/weirdGuy/kastor",
-      "title_zh": "Show HN: Kastor — 面向 AI 代理的 Terraform 风格规格",
-      "created_display": "Created: Jul 08, 2026 / 08:25 PT",
-      "image_url": "https://opengraph.githubassets.com/1d63484f0f8caff7ed94452864b651945244d33562c26bf4893099dd49c8e067/weirdGuy/kastor",
-      "summary_en": "Kastor offers Terraform-style specifications for composing AI agents, enabling declarative definitions of agent capabilities and workflows. This approach could simplify building and coordinating complex AI systems, improving reproducibility and collaboration.",
-      "summary_zh": "Kastor 提供了面向 AI 代理的 Terraform 风格规格，使代理能力与工作流的声明性定义成为可能。此做法或将简化复杂 AI 系统的构建与协作，提升可重复性与模块化程度。",
-      "hn": {
-        "id": 48833183,
-        "type": "story",
-        "by": "weirdguy",
-        "score": 7,
-        "descendants": 2,
-        "time": 1783524309,
-        "comments_url": "https://news.ycombinator.com/item?id=48833183"
-      },
-      "hot_score": 1.04,
-      "tags": [
-        "Show HN",
-        "AI",
-        "Programming",
-        "DevOps"
-      ]
+      "hot_score": 0.8
     },
     {
       "title_en": "Is The Economist Always Wrong?",
@@ -750,9 +879,9 @@
         "comments_url": "https://news.ycombinator.com/item?id=48826703"
       },
       "tags": [
-        "Finance"
+        "Business"
       ],
-      "hot_score": 0.86
+      "hot_score": 0.61
     },
     {
       "title_en": "Why we built yet another Postgres connection pooler",
@@ -766,16 +895,62 @@
         "id": 48819308,
         "type": "story",
         "by": "levkk",
-        "score": 239,
-        "descendants": 60,
+        "score": 247,
+        "descendants": 62,
         "time": 1783438609,
         "comments_url": "https://news.ycombinator.com/item?id=48819308"
       },
       "tags": [
-        "Programming",
-        "DevOps"
+        "Programming"
       ],
-      "hot_score": 0.65
+      "hot_score": 0.55
+    },
+    {
+      "title_en": "Answering \"why do you want to relocate?\" during interviews",
+      "url": "https://relocateme.substack.com/p/a-mistake-to-avoid-during-relocation",
+      "title_zh": "面试时如何回答“你为什么想搬迁？”",
+      "created_display": "Created: Jul 08, 2026 / 08:16 PT",
+      "image_url": null,
+      "summary_en": "Relocation questions in interviews can derail the process; propose a concise, role-focused rationale showing how relocation enables better contribution and fit. Prepare specifics about location, timing, and work commitments to avoid generic answers.",
+      "summary_zh": "面试时遇到关于搬迁的问题时，给出聚焦角色的原因，说明搬迁如何帮助你更好地贡献和契合岗位。准备具体的地理位置、时间安排和工作承诺，避免空泛回答。",
+      "hn": {
+        "id": 48833071,
+        "type": "story",
+        "by": "andrewstetsenko",
+        "score": 14,
+        "descendants": 10,
+        "time": 1783523777,
+        "comments_url": "https://news.ycombinator.com/item?id=48833071"
+      },
+      "hot_score": 0.51,
+      "tags": [
+        "Career"
+      ]
+    },
+    {
+      "title_en": "Show HN: Rowboat – Open-source, local-first alternative to Claude Desktop",
+      "url": "https://github.com/rowboatlabs/rowboat",
+      "title_zh": "Rowboat：开源、本地优先的 Claude Desktop 替代品",
+      "created_display": "Created: Jul 07, 2026 / 09:10 PT",
+      "image_url": "https://opengraph.githubassets.com/745b077fb0a48840f604ccc0e7ace7c5127072e7310164cda4f5dbf8672c7786/rowboatlabs/rowboat",
+      "summary_en": "Rowboat offers an open-source, local-first alternative to Claude Desktop, prioritizing privacy and offline operation. It signals a broader move toward on-device AI tooling that respects user data.",
+      "summary_zh": "Rowboat 提供一个开源、本地优先的 Claude Desktop 替代方案，强调隐私与离线运行，代表向本地化 AI 工具的持续转变。",
+      "hn": {
+        "id": 48819808,
+        "type": "story",
+        "by": "segmenta",
+        "score": 209,
+        "descendants": 90,
+        "time": 1783440644,
+        "comments_url": "https://news.ycombinator.com/item?id=48819808"
+      },
+      "tags": [
+        "Show HN",
+        "Open Source",
+        "AI",
+        "Privacy"
+      ],
+      "hot_score": 0.48
     },
     {
       "title_en": "Jim's TrueType QR Code Font",
@@ -795,35 +970,10 @@
         "comments_url": "https://news.ycombinator.com/item?id=48820119"
       },
       "tags": [
-        "Programming",
-        "Design"
+        "Design",
+        "Programming"
       ],
-      "hot_score": 0.6
-    },
-    {
-      "title_en": "Show HN: Rowboat – Open-source, local-first alternative to Claude Desktop",
-      "url": "https://github.com/rowboatlabs/rowboat",
-      "title_zh": "Rowboat：开源、本地优先的 Claude Desktop 替代品",
-      "created_display": "Created: Jul 07, 2026 / 09:10 PT",
-      "image_url": "https://opengraph.githubassets.com/745b077fb0a48840f604ccc0e7ace7c5127072e7310164cda4f5dbf8672c7786/rowboatlabs/rowboat",
-      "summary_en": "Rowboat offers an open-source, local-first alternative to Claude Desktop, prioritizing privacy and offline operation. It signals a broader move toward on-device AI tooling that respects user data.",
-      "summary_zh": "Rowboat 提供一个开源、本地优先的 Claude Desktop 替代方案，强调隐私与离线运行，代表向本地化 AI 工具的持续转变。",
-      "hn": {
-        "id": 48819808,
-        "type": "story",
-        "by": "segmenta",
-        "score": 205,
-        "descendants": 86,
-        "time": 1783440644,
-        "comments_url": "https://news.ycombinator.com/item?id=48819808"
-      },
-      "tags": [
-        "Show HN",
-        "AI",
-        "Open Source",
-        "Privacy"
-      ],
-      "hot_score": 0.58
+      "hot_score": 0.48
     },
     {
       "title_en": "We're extending access to Fable 5 on all paid plans through July 12",
@@ -843,34 +993,9 @@
         "comments_url": "https://news.ycombinator.com/item?id=48821102"
       },
       "tags": [
-        "AI",
-        "Business"
+        "AI"
       ],
-      "hot_score": 0.57
-    },
-    {
-      "title_en": "l: A new runtime for k and q",
-      "url": "https://lv1.sh/",
-      "title_zh": "l：面向 k 与 q 的新运行时",
-      "created_display": "Created: Jul 07, 2026 / 11:08 PT",
-      "image_url": "https://lv1.sh/og-image.png",
-      "summary_en": "A new runtime named 'l' is introduced for k and q languages, expanding how analysts deploy and run kdb+-based workloads. The runtime promises streamlined execution, portability across platforms, and potential performance gains for time-series workloads. If adoption grows, it could simplify deploying analytics stacks in cloud and edge environments.",
-      "summary_zh": "'l' 作为针对 k 和 q 语言的新运行时推出，扩展了对 kdb+ 时序分析任务的执行方式。该运行时承诺实现更简洁的执行、跨平台可移植性，以及可能的性能提升，有助于在云端与边缘环境部署分析工作负载。",
-      "hn": {
-        "id": 48821378,
-        "type": "story",
-        "by": "skruger",
-        "score": 164,
-        "descendants": 106,
-        "time": 1783447709,
-        "comments_url": "https://news.ycombinator.com/item?id=48821378"
-      },
-      "tags": [
-        "Programming",
-        "DevOps",
-        "Data"
-      ],
-      "hot_score": 0.54
+      "hot_score": 0.46
     },
     {
       "title_en": "Why skilled workers come to Germany and then leave again",
@@ -890,9 +1015,56 @@
         "comments_url": "https://news.ycombinator.com/item?id=48815982"
       },
       "tags": [
-        "Politics"
+        "Politics",
+        "Business"
       ],
-      "hot_score": 0.51
+      "hot_score": 0.43
+    },
+    {
+      "title_en": "l: A new runtime for k and q",
+      "url": "https://lv1.sh/",
+      "title_zh": "l：面向 k 与 q 的新运行时",
+      "created_display": "Created: Jul 07, 2026 / 11:08 PT",
+      "image_url": "https://lv1.sh/og-image.png",
+      "summary_en": "A new runtime named 'l' is introduced for k and q languages, expanding how analysts deploy and run kdb+-based workloads. The runtime promises streamlined execution, portability across platforms, and potential performance gains for time-series workloads. If adoption grows, it could simplify deploying analytics stacks in cloud and edge environments.",
+      "summary_zh": "'l' 作为针对 k 和 q 语言的新运行时推出，扩展了对 kdb+ 时序分析任务的执行方式。该运行时承诺实现更简洁的执行、跨平台可移植性，以及可能的性能提升，有助于在云端与边缘环境部署分析工作负载。",
+      "hn": {
+        "id": 48821378,
+        "type": "story",
+        "by": "skruger",
+        "score": 166,
+        "descendants": 107,
+        "time": 1783447709,
+        "comments_url": "https://news.ycombinator.com/item?id=48821378"
+      },
+      "tags": [
+        "Programming",
+        "Data"
+      ],
+      "hot_score": 0.43
+    },
+    {
+      "title_en": "OpenMandriva: Statement regarding attempted distribution sabotage",
+      "url": "https://forum.openmandriva.org/t/statement-regarding-attempted-distribution-sabotage/8997",
+      "title_zh": "OpenMandriva：关于尝试分发破坏的声明",
+      "created_display": "Created: Jul 08, 2026 / 11:21 PT",
+      "image_url": "https://forum.openmandriva.org/uploads/default/original/2X/e/eb6bc6e5e60da2e909cb97a086c16d0a7c130855.jpeg",
+      "summary_en": "OpenMandriva issued a statement about an attempted sabotage targeting its distribution, outlining affected packages and the security measures taken. The post emphasizes vigilance across mirrors and builds, and invites users to verify integrity.",
+      "summary_zh": "OpenMandriva 就对其发行版的破坏企图公开说明，概述发生了什么以及已采取的安全措施。声明强调对镜像和构建过程的警惕，并敦促用户核对完整性。",
+      "hn": {
+        "id": 48835439,
+        "type": "story",
+        "by": "workethics",
+        "score": 4,
+        "descendants": 0,
+        "time": 1783534913,
+        "comments_url": "https://news.ycombinator.com/item?id=48835439"
+      },
+      "hot_score": 0.42,
+      "tags": [
+        "Security",
+        "Open Source"
+      ]
     },
     {
       "title_en": "Notes on Software Quality",
@@ -914,31 +1086,29 @@
       "tags": [
         "Programming"
       ],
-      "hot_score": 0.5
+      "hot_score": 0.39
     },
     {
-      "title_en": "Show HN: Chiptune Radio",
-      "url": "https://chiptune-radio.alephvoid.com/",
-      "title_zh": "Show HN：Chiptune Radio 电台",
-      "created_display": "Created: Jul 07, 2026 / 17:55 PT",
-      "image_url": "https://chiptune-radio.alephvoid.com/assets/logo.png",
-      "summary_en": "Show HN project presenting a dedicated online radio for chiptune music, blending retro game music aesthetics with streaming. It showcases an accessible platform for indie musicians and fans.",
-      "summary_zh": "Show HN：Chiptune Radio 提供一个专门的线上电台，播放像素风电子乐。该项目展示了一个聚焦小众音乐的平台如何在浏览器环境中实现简洁而易用的体验。",
+      "title_en": "Collapse of Atlantic Currents May Already Be 'Locked In'",
+      "url": "https://e360.yale.edu/digest/amoc-collapse-10-percent",
+      "title_zh": "大西洋环流崩溃可能已‘锁定’",
+      "created_display": "Created: Jul 08, 2026 / 07:30 PT",
+      "image_url": "https://yale-threesixty.transforms.svdcdn.com/production/AMOC_NASA.jpg?w=1200&q=60&auto=format&fit=max&dm=1783420012&s=78fbab76cf026ae395c5c6a703d45d12",
+      "summary_en": "New analyses suggest the Atlantic Meridional Overturning Circulation (AMOC) collapse could be already locked in, raising the probability of abrupt climate shifts and regional changes in Europe and North America. The finding underscores climate tipping points and urgency for mitigation.",
+      "summary_zh": "新分析表明大西洋环流可能已处于不可逆崩溃的“锁定”状态，增加了突发性气候转变及对欧洲和北美区域的影响的可能性。此发现凸显气候临界点和减缓日益紧迫的必要性。",
       "hn": {
-        "id": 48826094,
+        "id": 48832477,
         "type": "story",
-        "by": "bootbloopers",
-        "score": 65,
-        "descendants": 15,
-        "time": 1783472119,
-        "comments_url": "https://news.ycombinator.com/item?id=48826094"
+        "by": "Brajeshwar",
+        "score": 12,
+        "descendants": 3,
+        "time": 1783521044,
+        "comments_url": "https://news.ycombinator.com/item?id=48832477"
       },
+      "hot_score": 0.35,
       "tags": [
-        "Show HN",
-        "Entertainment",
-        "Web"
-      ],
-      "hot_score": 0.38
+        "Science"
+      ]
     },
     {
       "title_en": "AI Meets Cryptography 1: What AI Found in Cloudflare's Circl",
@@ -961,7 +1131,30 @@
         "AI",
         "Security"
       ],
-      "hot_score": 0.37
+      "hot_score": 0.29
+    },
+    {
+      "title_en": "Show HN: Chiptune Radio",
+      "url": "https://chiptune-radio.alephvoid.com/",
+      "title_zh": "Show HN：Chiptune Radio 电台",
+      "created_display": "Created: Jul 07, 2026 / 17:55 PT",
+      "image_url": "https://chiptune-radio.alephvoid.com/assets/logo.png",
+      "summary_en": "Show HN project presenting a dedicated online radio for chiptune music, blending retro game music aesthetics with streaming. It showcases an accessible platform for indie musicians and fans.",
+      "summary_zh": "Show HN：Chiptune Radio 提供一个专门的线上电台，播放像素风电子乐。该项目展示了一个聚焦小众音乐的平台如何在浏览器环境中实现简洁而易用的体验。",
+      "hn": {
+        "id": 48826094,
+        "type": "story",
+        "by": "bootbloopers",
+        "score": 65,
+        "descendants": 15,
+        "time": 1783472119,
+        "comments_url": "https://news.ycombinator.com/item?id=48826094"
+      },
+      "tags": [
+        "Show HN",
+        "Entertainment"
+      ],
+      "hot_score": 0.28
     },
     {
       "title_en": "Automating AI Away",
@@ -981,35 +1174,33 @@
         "comments_url": "https://news.ycombinator.com/item?id=48818937"
       },
       "tags": [
-        "AI",
-        "DevOps"
+        "AI"
       ],
-      "hot_score": 0.3
+      "hot_score": 0.25
     },
     {
-      "title_en": "Show HN: Pug.sh – open-source product analytics",
-      "url": "https://pug.sh/",
-      "title_zh": "Show HN: Pug.sh — 开源的产品分析工具",
-      "created_display": "Created: Jul 08, 2026 / 06:07 PT",
-      "image_url": "https://pug.sh/og/index.png",
-      "summary_en": "Pug.sh opensource product analytics enables private, self-hosted analytics with a simple API; it helps teams track usage and funnel data without relying on SaaS. The project emphasizes privacy and developer-friendly workflows.",
-      "summary_zh": "Show HN：Pug.sh 是一个开源的产品分析工具，支持私有化自托管和简易 API。它帮助团队在不依赖 SaaS 的情况下追踪使用数据与转化漏斗，强调隐私与开发友好性。",
+      "title_en": "MacSurf 1.68 – NetSurf on OS 9 Released",
+      "url": "https://github.com/mplsllc/macsurf/releases/tag/v1.86",
+      "title_zh": "MacSurf 1.68——在 OS 9 上发布 NetSurf",
+      "created_display": "Created: Jul 07, 2026 / 09:24 PT",
+      "image_url": "https://opengraph.githubassets.com/0f5c67d45345af9af01bcabd576994ce03c56b157c6226a8abb6e2fbdbf24aeb/mplsllc/macsurf/releases/tag/v1.86",
+      "summary_en": "NetSurf lands on classic Mac OS 9 as MacSurf 1.68, enabling a modern-looking browser on vintage hardware. It demonstrates passionate preservation efforts and the constraints of running contemporary software on legacy systems.",
+      "summary_zh": "NetSurf 在经典 Mac OS 9 上以 MacSurf 1.68 版本实现，带来在老旧硬件上运行的现代浏览体验，体现了对遗留系统的热情保护与现实约束。",
       "hn": {
-        "id": 48831459,
+        "id": 48820022,
         "type": "story",
-        "by": "BajajScooter",
-        "score": 6,
-        "descendants": 2,
-        "time": 1783516020,
-        "comments_url": "https://news.ycombinator.com/item?id=48831459"
+        "by": "mplsllc",
+        "score": 76,
+        "descendants": 17,
+        "time": 1783441480,
+        "comments_url": "https://news.ycombinator.com/item?id=48820022"
       },
-      "hot_score": 0.28,
       "tags": [
-        "Show HN",
+        "Hardware",
         "Open Source",
-        "Data",
-        "Privacy"
-      ]
+        "Web"
+      ],
+      "hot_score": 0.18
     },
     {
       "title_en": "How did Windows 95 decide that a setup program ran?",
@@ -1031,54 +1222,27 @@
       "tags": [
         "Programming"
       ],
-      "hot_score": 0.23
+      "hot_score": 0.17
     },
     {
-      "title_en": "MacSurf 1.68 – NetSurf on OS 9 Released",
-      "url": "https://github.com/mplsllc/macsurf/releases/tag/v1.86",
-      "title_zh": "MacSurf 1.68——在 OS 9 上发布 NetSurf",
-      "created_display": "Created: Jul 07, 2026 / 09:24 PT",
-      "image_url": "https://opengraph.githubassets.com/0f5c67d45345af9af01bcabd576994ce03c56b157c6226a8abb6e2fbdbf24aeb/mplsllc/macsurf/releases/tag/v1.86",
-      "summary_en": "NetSurf lands on classic Mac OS 9 as MacSurf 1.68, enabling a modern-looking browser on vintage hardware. It demonstrates passionate preservation efforts and the constraints of running contemporary software on legacy systems.",
-      "summary_zh": "NetSurf 在经典 Mac OS 9 上以 MacSurf 1.68 版本实现，带来在老旧硬件上运行的现代浏览体验，体现了对遗留系统的热情保护与现实约束。",
+      "title_en": "A bug which affected only left handed users",
+      "url": "https://shkspr.mobi/blog/2026/07/a-bug-which-only-affected-left-handed-users/",
+      "title_zh": "仅影响左撇子用户的漏洞",
+      "created_display": "Created: Jul 08, 2026 / 06:20 PT",
+      "image_url": "https://shkspr.mobi/blog/wp-content/uploads/2017/08/WordPress-Logo-Square.png",
+      "summary_en": "A quirky bug affected only left-handed users, revealing design gaps where user handedness wasn't considered. The incident underscores the importance of inclusive testing and considering diverse interaction patterns.",
+      "summary_zh": "一个仅影响左撇子用户的有趣漏洞暴露了设计阶段对使用习惯考虑不足。此事凸显了进行包容性测试和覆盖边缘用法的重要性，也提醒开发者在界面布局和交互设计时考虑不同用户群体。",
       "hn": {
-        "id": 48820022,
+        "id": 48831587,
         "type": "story",
-        "by": "mplsllc",
-        "score": 76,
-        "descendants": 17,
-        "time": 1783441480,
-        "comments_url": "https://news.ycombinator.com/item?id=48820022"
+        "by": "sixhobbits",
+        "score": 7,
+        "descendants": 0,
+        "time": 1783516805,
+        "comments_url": "https://news.ycombinator.com/item?id=48831587"
       },
+      "hot_score": 0.14,
       "tags": [
-        "Open Source",
-        "Programming",
-        "Hardware",
-        "Web"
-      ],
-      "hot_score": 0.22
-    },
-    {
-      "title_en": "Show HN: Free Mermaid Diagram Editor",
-      "url": "https://moxiedocs.com/mermaid-diagram-editor",
-      "title_zh": "Show HN：免费的 Mermaid 图表编辑器",
-      "created_display": "Created: Jul 07, 2026 / 16:29 PT",
-      "image_url": "https://moxiedocs.com/opengraph-image",
-      "summary_en": "A Show HN project offering a free Mermaid diagram editor, enabling quick creation of flowcharts and diagrams in workflows and docs. It demonstrates demand for accessible, open-source diagram tooling without vendor lock-in.",
-      "summary_zh": "Show HN 项目提供一个免费的 Mermaid 图表编辑器，便于在工作流和文档中快速创建流程图与图表，体现了对易获取、开源绘图工具的需求。",
-      "hn": {
-        "id": 48825430,
-        "type": "story",
-        "by": "ghosts_",
-        "score": 33,
-        "descendants": 8,
-        "time": 1783466976,
-        "comments_url": "https://news.ycombinator.com/item?id=48825430"
-      },
-      "hot_score": 0.17,
-      "tags": [
-        "Show HN",
-        "Open Source",
         "Design"
       ]
     },
@@ -1099,11 +1263,58 @@
         "time": 1783469919,
         "comments_url": "https://news.ycombinator.com/item?id=48825816"
       },
-      "hot_score": 0.17,
+      "hot_score": 0.13,
       "tags": [
         "Data",
-        "Science",
         "Finance"
+      ]
+    },
+    {
+      "title_en": "Show HN: Free Mermaid Diagram Editor",
+      "url": "https://moxiedocs.com/mermaid-diagram-editor",
+      "title_zh": "Show HN：免费的 Mermaid 图表编辑器",
+      "created_display": "Created: Jul 07, 2026 / 16:29 PT",
+      "image_url": "https://moxiedocs.com/opengraph-image",
+      "summary_en": "A Show HN project offering a free Mermaid diagram editor, enabling quick creation of flowcharts and diagrams in workflows and docs. It demonstrates demand for accessible, open-source diagram tooling without vendor lock-in.",
+      "summary_zh": "Show HN 项目提供一个免费的 Mermaid 图表编辑器，便于在工作流和文档中快速创建流程图与图表，体现了对易获取、开源绘图工具的需求。",
+      "hn": {
+        "id": 48825430,
+        "type": "story",
+        "by": "ghosts_",
+        "score": 33,
+        "descendants": 8,
+        "time": 1783466976,
+        "comments_url": "https://news.ycombinator.com/item?id=48825430"
+      },
+      "hot_score": 0.12,
+      "tags": [
+        "Show HN",
+        "Open Source"
+      ]
+    },
+    {
+      "title_en": "Show HN: Pug.sh – open-source product analytics",
+      "url": "https://pug.sh/",
+      "title_zh": "Show HN: Pug.sh — 开源的产品分析工具",
+      "created_display": "Created: Jul 08, 2026 / 06:07 PT",
+      "image_url": "https://pug.sh/og/index.png",
+      "summary_en": "Pug.sh opensource product analytics enables private, self-hosted analytics with a simple API; it helps teams track usage and funnel data without relying on SaaS. The project emphasizes privacy and developer-friendly workflows.",
+      "summary_zh": "Show HN：Pug.sh 是一个开源的产品分析工具，支持私有化自托管和简易 API。它帮助团队在不依赖 SaaS 的情况下追踪使用数据与转化漏斗，强调隐私与开发友好性。",
+      "hn": {
+        "id": 48831459,
+        "type": "story",
+        "by": "BajajScooter",
+        "score": 6,
+        "descendants": 2,
+        "time": 1783516020,
+        "comments_url": "https://news.ycombinator.com/item?id=48831459"
+      },
+      "hot_score": 0.11,
+      "tags": [
+        "Show HN",
+        "Open Source",
+        "Privacy",
+        "Data"
       ]
     },
     {
@@ -1123,11 +1334,11 @@
         "time": 1783495106,
         "comments_url": "https://news.ycombinator.com/item?id=48828648"
       },
-      "hot_score": 0.17,
+      "hot_score": 0.1,
       "tags": [
-        "Space",
+        "Business",
         "Finance",
-        "Business"
+        "Space"
       ]
     },
     {
@@ -1142,16 +1353,16 @@
         "id": 48780387,
         "type": "story",
         "by": "Stevvo",
-        "score": 241,
-        "descendants": 79,
+        "score": 325,
+        "descendants": 116,
         "time": 1783115167,
         "comments_url": "https://news.ycombinator.com/item?id=48780387"
       },
-      "hot_score": 0.05,
       "tags": [
         "Open Source",
         "Gaming"
-      ]
+      ],
+      "hot_score": 0.06
     },
     {
       "title_en": "Canada's only watchmaking school still ticking after 80 years",
@@ -1165,15 +1376,15 @@
         "id": 48786789,
         "type": "story",
         "by": "throw0101a",
-        "score": 197,
-        "descendants": 113,
+        "score": 234,
+        "descendants": 134,
         "time": 1783183584,
         "comments_url": "https://news.ycombinator.com/item?id=48786789"
       },
       "tags": [
         "Education"
       ],
-      "hot_score": 0.05
+      "hot_score": 0.06
     },
     {
       "title_en": "Home made GPU escalated quickly [video]",
@@ -1187,14 +1398,57 @@
         "id": 48793805,
         "type": "story",
         "by": "erichocean",
-        "score": 125,
-        "descendants": 42,
+        "score": 162,
+        "descendants": 53,
         "time": 1783255148,
         "comments_url": "https://news.ycombinator.com/item?id=48793805"
       },
       "tags": [
-        "Hardware",
+        "Hardware"
+      ],
+      "hot_score": 0.06
+    },
+    {
+      "title_en": "NoiseLang: Where N = 5 is a Dirac delta",
+      "url": "https://manualmeida.dev/articles/noiselang/",
+      "title_zh": "NoiseLang：当 N = 5 时成为 Dirac Delta 的语言",
+      "created_display": "Created: Jul 06, 2026 / 05:40 PT",
+      "image_url": "https://manualmeida.dev/og/noiselang.png",
+      "summary_en": "NoiseLang presents a construction where a parameter choice (N=5) yields a Dirac delta, illustrating a playful connection between discrete parameterization and continuous functions in a toy language. It offers a curious glimpse into symbolic computation and language design.",
+      "summary_zh": "NoiseLang 展示了一个设定，在参数 N=5 时会得到 Dirac Delta，揭示离散参数与连续函数之间的有趣联系。这个小型语言为符号计算与语言设计提供了有趣的直观案例。",
+      "hn": {
+        "id": 48803791,
+        "type": "story",
+        "by": "manucorporat",
+        "score": 91,
+        "descendants": 47,
+        "time": 1783341624,
+        "comments_url": "https://news.ycombinator.com/item?id=48803791"
+      },
+      "tags": [
         "Programming"
+      ],
+      "hot_score": 0.06
+    },
+    {
+      "title_en": "Japan's Hayabusa2 probe to conduct flyby of Torifune asteroid",
+      "url": "https://www3.nhk.or.jp/nhkworld/en/news/20260705_01/",
+      "title_zh": "日本的 Hayabusa2 探测器将对 Torifune 小行星进行掠过",
+      "created_display": "Created: Jul 05, 2026 / 03:33 PT",
+      "image_url": "https://www3.nhk.or.jp/nhkworld/upld/thumbnails/en/news/20260705_01_1668653_L.jpg",
+      "summary_en": "Japan's Hayabusa2 probe will perform a flyby of the Torifune asteroid, expanding its reconnaissance of near-Earth objects. The mission builds on Hayabusa2's heritage of sample collection, contributing data about asteroid composition and evolution.",
+      "summary_zh": "日本的隼鸟2号探测器将对 Torifune 小行星进行掠过，继续对近地小行星进行探测。该任务延续了 Hayabusa2 的样本返回传统，为了解小行星组成和演化提供新数据。",
+      "hn": {
+        "id": 48792980,
+        "type": "story",
+        "by": "dvh",
+        "score": 138,
+        "descendants": 17,
+        "time": 1783247625,
+        "comments_url": "https://news.ycombinator.com/item?id=48792980"
+      },
+      "tags": [
+        "Space"
       ],
       "hot_score": 0.05
     },
@@ -1216,31 +1470,10 @@
         "comments_url": "https://news.ycombinator.com/item?id=48794049"
       },
       "tags": [
-        "Programming"
+        "Programming",
+        "Design"
       ],
       "hot_score": 0.05
-    },
-    {
-      "title_en": "NoiseLang: Where N = 5 is a Dirac delta",
-      "url": "https://manualmeida.dev/articles/noiselang/",
-      "title_zh": "NoiseLang：当 N = 5 时成为 Dirac Delta 的语言",
-      "created_display": "Created: Jul 06, 2026 / 05:40 PT",
-      "image_url": "https://manualmeida.dev/og/noiselang.png",
-      "summary_en": "NoiseLang presents a construction where a parameter choice (N=5) yields a Dirac delta, illustrating a playful connection between discrete parameterization and continuous functions in a toy language. It offers a curious glimpse into symbolic computation and language design.",
-      "summary_zh": "NoiseLang 展示了一个设定，在参数 N=5 时会得到 Dirac Delta，揭示离散参数与连续函数之间的有趣联系。这个小型语言为符号计算与语言设计提供了有趣的直观案例。",
-      "hn": {
-        "id": 48803791,
-        "type": "story",
-        "by": "manucorporat",
-        "score": 65,
-        "descendants": 28,
-        "time": 1783341624,
-        "comments_url": "https://news.ycombinator.com/item?id=48803791"
-      },
-      "hot_score": 0.05,
-      "tags": [
-        "Programming"
-      ]
     },
     {
       "title_en": "Herdr: One terminal to rule them all",
@@ -1254,14 +1487,13 @@
         "id": 48756578,
         "type": "story",
         "by": "handfuloflight",
-        "score": 361,
-        "descendants": 151,
+        "score": 377,
+        "descendants": 165,
         "time": 1782966519,
         "comments_url": "https://news.ycombinator.com/item?id=48756578"
       },
       "tags": [
-        "Programming",
-        "DevOps"
+        "Programming"
       ],
       "hot_score": 0.04
     },
@@ -1285,29 +1517,7 @@
       "tags": [
         "Hardware"
       ],
-      "hot_score": 0.04
-    },
-    {
-      "title_en": "Japan's Hayabusa2 probe to conduct flyby of Torifune asteroid",
-      "url": "https://www3.nhk.or.jp/nhkworld/en/news/20260705_01/",
-      "title_zh": "日本的 Hayabusa2 探测器将对 Torifune 小行星进行掠过",
-      "created_display": "Created: Jul 05, 2026 / 03:33 PT",
-      "image_url": "https://www3.nhk.or.jp/nhkworld/upld/thumbnails/en/news/20260705_01_1668653_L.jpg",
-      "summary_en": "Japan's Hayabusa2 probe will perform a flyby of the Torifune asteroid, expanding its reconnaissance of near-Earth objects. The mission builds on Hayabusa2's heritage of sample collection, contributing data about asteroid composition and evolution.",
-      "summary_zh": "日本的隼鸟2号探测器将对 Torifune 小行星进行掠过，继续对近地小行星进行探测。该任务延续了 Hayabusa2 的样本返回传统，为了解小行星组成和演化提供新数据。",
-      "hn": {
-        "id": 48792980,
-        "type": "story",
-        "by": "dvh",
-        "score": 82,
-        "descendants": 10,
-        "time": 1783247625,
-        "comments_url": "https://news.ycombinator.com/item?id=48792980"
-      },
-      "hot_score": 0.03,
-      "tags": [
-        "Space"
-      ]
+      "hot_score": 0.03
     },
     {
       "title_en": "Show HN: Neil the Seal Game",
@@ -1321,8 +1531,8 @@
         "id": 48794042,
         "type": "story",
         "by": "dalemhurley",
-        "score": 69,
-        "descendants": 62,
+        "score": 80,
+        "descendants": 65,
         "time": 1783257090,
         "comments_url": "https://news.ycombinator.com/item?id=48794042"
       },
@@ -1332,6 +1542,97 @@
         "Web"
       ],
       "hot_score": 0.03
+    },
+    {
+      "title_en": "The difference between \"today's task\" and \"accretive work\"",
+      "url": "https://pluralistic.net/2026/07/02/canonization/",
+      "title_zh": "“今日任务”与“累积性工作”的区别",
+      "created_display": "Created: Jul 02, 2026 / 07:07 PT",
+      "image_url": "https://i0.wp.com/craphound.com/images/02Jul2026.jpg?w=840&ssl=1",
+      "summary_en": "The piece contrasts finishing a single, isolated task with pursuing accretive work that compounds value over time. It argues that focusing only on short-term tasks can erode long-run impact unless you invest in infrastructure, documentation, and repeatable processes. For builders and researchers, the takeaway is to balance sprint work with durable foundations.",
+      "summary_zh": "文中将单次、孤立任务与会带来复利效应的累积性工作进行对比。仅追求短期任务会削弱长期影响，需投入基础设施、文档和可重复的流程。对开发者和研究者而言，平衡短期冲刺与长期基础建设是关键。",
+      "hn": {
+        "id": 48761868,
+        "type": "story",
+        "by": "hn_acker",
+        "score": 130,
+        "descendants": 70,
+        "time": 1783001276,
+        "comments_url": "https://news.ycombinator.com/item?id=48761868"
+      },
+      "tags": [
+        "Career",
+        "DevOps"
+      ],
+      "hot_score": 0.02
+    },
+    {
+      "title_en": "Ants: Who looks after the injured in a colony?",
+      "url": "https://www.uni-wuerzburg.de/en/news-and-events/news/detail/news/ameisen-kolonie-verletzte-pflegt/",
+      "title_zh": "蚂蚁：蚁群里谁照看受伤者？",
+      "created_display": "Created: Jul 03, 2026 / 15:46 PT",
+      "image_url": "https://www.uni-wuerzburg.de/fileadmin/_processed_/e/e/csm_0702Ameisen-Pflegerinnen-www_d16a620736.jpg",
+      "summary_en": "Researchers show ants nurse injured nestmates, revealing social care behaviors and a form of collective immunity in colonies. The findings highlight how simple local rules yield robust colony-level care and could inspire swarm robotics.",
+      "summary_zh": "研究表明蚂蚁会照顾受伤的同巢成员，揭示群体内的社会照护与集体免疫现象。简单的局部规则能促成蚁群级别的可靠关爱，这对群体机器人也有启发。",
+      "hn": {
+        "id": 48780915,
+        "type": "story",
+        "by": "hhs",
+        "score": 98,
+        "descendants": 47,
+        "time": 1783118783,
+        "comments_url": "https://news.ycombinator.com/item?id=48780915"
+      },
+      "tags": [
+        "Science"
+      ],
+      "hot_score": 0.02
+    },
+    {
+      "title_en": "Show HN: Follow London Trains in 3D",
+      "url": "https://ride.nexttrain.london/",
+      "title_zh": "Show HN: 用 3D 跟踪伦敦列车",
+      "created_display": "Created: Jul 04, 2026 / 09:11 PT",
+      "image_url": null,
+      "summary_en": "Follow London Trains in 3D provides a 3D visualization of London's rail network, offering real-time tracking or replay-style insights. It could be useful for urban planning, transit enthusiasts, or accessibility-focused mapping.",
+      "summary_zh": "Show HN: 用 3D 跟踪伦敦列车提供了伦敦铁路线的三维可视化，可能展示实时轨迹或历史数据。对城市规划、出行爱好者以及无障碍地图等场景都有潜在价值。",
+      "hn": {
+        "id": 48786455,
+        "type": "story",
+        "by": "mgranados",
+        "score": 97,
+        "descendants": 43,
+        "time": 1783181466,
+        "comments_url": "https://news.ycombinator.com/item?id=48786455"
+      },
+      "tags": [
+        "Show HN",
+        "Web",
+        "Privacy"
+      ],
+      "hot_score": 0.02
+    },
+    {
+      "title_en": "TabFont – guitar tabs rendered as you type",
+      "url": "https://philatype.com/tabfont/",
+      "title_zh": "TabFont：打字时实时渲染吉他和弦谱",
+      "created_display": "Created: Jul 05, 2026 / 06:13 PT",
+      "image_url": "https://philatype.com/img/close.svg?ffffff",
+      "summary_en": "TabFont renders guitar tabs in real time as you type, giving musicians an immediate visual preview of fingerings. The project shows how live, domain-specific visualization can improve learning and practice workflows.",
+      "summary_zh": "TabFont 能在你输入时实时渲染吉他和弦谱，立刻给出指法预览。此项目展示了领域专用的实时可视化在学习和练习中的潜力。",
+      "hn": {
+        "id": 48794062,
+        "type": "story",
+        "by": "ChrisArchitect",
+        "score": 48,
+        "descendants": 14,
+        "time": 1783257234,
+        "comments_url": "https://news.ycombinator.com/item?id=48794062"
+      },
+      "hot_score": 0.02,
+      "tags": [
+        "Programming"
+      ]
     },
     {
       "title_en": "Syntropy: A Web Framework for Ruby",
@@ -1350,7 +1651,7 @@
         "time": 1783498860,
         "comments_url": "https://news.ycombinator.com/item?id=48829124"
       },
-      "hot_score": 0.03,
+      "hot_score": 0.02,
       "tags": [
         "Programming",
         "Web"
@@ -1373,33 +1674,10 @@
         "time": 1783498621,
         "comments_url": "https://news.ycombinator.com/item?id=48829092"
       },
-      "hot_score": 0.03,
+      "hot_score": 0.02,
       "tags": [
         "Politics"
       ]
-    },
-    {
-      "title_en": "The difference between \"today's task\" and \"accretive work\"",
-      "url": "https://pluralistic.net/2026/07/02/canonization/",
-      "title_zh": "“今日任务”与“累积性工作”的区别",
-      "created_display": "Created: Jul 02, 2026 / 07:07 PT",
-      "image_url": "https://i0.wp.com/craphound.com/images/02Jul2026.jpg?w=840&ssl=1",
-      "summary_en": "The piece contrasts finishing a single, isolated task with pursuing accretive work that compounds value over time. It argues that focusing only on short-term tasks can erode long-run impact unless you invest in infrastructure, documentation, and repeatable processes. For builders and researchers, the takeaway is to balance sprint work with durable foundations.",
-      "summary_zh": "文中将单次、孤立任务与会带来复利效应的累积性工作进行对比。仅追求短期任务会削弱长期影响，需投入基础设施、文档和可重复的流程。对开发者和研究者而言，平衡短期冲刺与长期基础建设是关键。",
-      "hn": {
-        "id": 48761868,
-        "type": "story",
-        "by": "hn_acker",
-        "score": 110,
-        "descendants": 59,
-        "time": 1783001276,
-        "comments_url": "https://news.ycombinator.com/item?id=48761868"
-      },
-      "tags": [
-        "Career",
-        "DevOps"
-      ],
-      "hot_score": 0.01
     },
     {
       "title_en": "IEEE Rolls Out Large Language Models Training Course",
@@ -1413,8 +1691,8 @@
         "id": 48742703,
         "type": "story",
         "by": "JeanKage",
-        "score": 99,
-        "descendants": 17,
+        "score": 103,
+        "descendants": 21,
         "time": 1782884482,
         "comments_url": "https://news.ycombinator.com/item?id=48742703"
       },
@@ -1423,28 +1701,6 @@
         "AI"
       ],
       "hot_score": 0.01
-    },
-    {
-      "title_en": "Ants: Who looks after the injured in a colony?",
-      "url": "https://www.uni-wuerzburg.de/en/news-and-events/news/detail/news/ameisen-kolonie-verletzte-pflegt/",
-      "title_zh": "蚂蚁：蚁群里谁照看受伤者？",
-      "created_display": "Created: Jul 03, 2026 / 15:46 PT",
-      "image_url": "https://www.uni-wuerzburg.de/fileadmin/_processed_/e/e/csm_0702Ameisen-Pflegerinnen-www_d16a620736.jpg",
-      "summary_en": "Researchers show ants nurse injured nestmates, revealing social care behaviors and a form of collective immunity in colonies. The findings highlight how simple local rules yield robust colony-level care and could inspire swarm robotics.",
-      "summary_zh": "研究表明蚂蚁会照顾受伤的同巢成员，揭示群体内的社会照护与集体免疫现象。简单的局部规则能促成蚁群级别的可靠关爱，这对群体机器人也有启发。",
-      "hn": {
-        "id": 48780915,
-        "type": "story",
-        "by": "hhs",
-        "score": 69,
-        "descendants": 31,
-        "time": 1783118783,
-        "comments_url": "https://news.ycombinator.com/item?id=48780915"
-      },
-      "hot_score": 0.01,
-      "tags": [
-        "Science"
-      ]
     },
     {
       "title_en": "Automate Excel with Python: From manual grind to one-click workflow",
@@ -1458,13 +1714,14 @@
         "id": 48789625,
         "type": "story",
         "by": "teleforce",
-        "score": 42,
-        "descendants": 19,
+        "score": 46,
+        "descendants": 23,
         "time": 1783203851,
         "comments_url": "https://news.ycombinator.com/item?id=48789625"
       },
       "tags": [
-        "Programming"
+        "Programming",
+        "Data"
       ],
       "hot_score": 0.01
     },
@@ -1486,34 +1743,10 @@
         "comments_url": "https://news.ycombinator.com/item?id=48771200"
       },
       "tags": [
-        "Programming",
+        "AI",
         "Privacy"
       ],
       "hot_score": 0.01
-    },
-    {
-      "title_en": "Show HN: Follow London Trains in 3D",
-      "url": "https://ride.nexttrain.london/",
-      "title_zh": "Show HN: 用 3D 跟踪伦敦列车",
-      "created_display": "Created: Jul 04, 2026 / 09:11 PT",
-      "image_url": null,
-      "summary_en": "Follow London Trains in 3D provides a 3D visualization of London's rail network, offering real-time tracking or replay-style insights. It could be useful for urban planning, transit enthusiasts, or accessibility-focused mapping.",
-      "summary_zh": "Show HN: 用 3D 跟踪伦敦列车提供了伦敦铁路线的三维可视化，可能展示实时轨迹或历史数据。对城市规划、出行爱好者以及无障碍地图等场景都有潜在价值。",
-      "hn": {
-        "id": 48786455,
-        "type": "story",
-        "by": "mgranados",
-        "score": 38,
-        "descendants": 13,
-        "time": 1783181466,
-        "comments_url": "https://news.ycombinator.com/item?id=48786455"
-      },
-      "hot_score": 0.01,
-      "tags": [
-        "Show HN",
-        "Web",
-        "Privacy"
-      ]
     },
     {
       "title_en": "Every postcard tells a story",
@@ -1527,14 +1760,36 @@
         "id": 48796473,
         "type": "story",
         "by": "NaOH",
-        "score": 17,
-        "descendants": 12,
+        "score": 30,
+        "descendants": 21,
         "time": 1783275282,
         "comments_url": "https://news.ycombinator.com/item?id=48796473"
       },
-      "hot_score": 0.01,
       "tags": [
         "Culture"
+      ],
+      "hot_score": 0.01
+    },
+    {
+      "title_en": "Catastrophe theory; geniuses and maniacs (2011)",
+      "url": "http://glassbottomblog.blogspot.com/2011/01/catastrophe-theory-geniuses-and-maniacs.html",
+      "title_zh": "灾变理论：天才与疯子（2011）",
+      "created_display": "Created: Jul 05, 2026 / 06:35 PT",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUxspfccHDlmwznv_A8mdVhsr0PBNjSCUvXc4b62tfhHhNHluF04KbdFDRGo5TSY1hHLreXzHMYL0fxlN3mwHVGMWP2YBKD0GbsxAhHY-Ic1m-GULcpfbPcVNCydY3saveU5NSEv029W4/w1200-h630-p-k-no-nu/geniusmaniac.jpg",
+      "summary_en": "Catastrophe theory, a mathematical field describing sudden shifts in systems, is examined alongside the cultural myth of genius and madness. The piece reflects on how breakthroughs often straddle the line between rigorous insight and eccentricity.",
+      "summary_zh": "灾变理论描述了系统中突然跃迁的数学现象。文中探讨了天才与疯子之间的文化神话，指出突破往往介于严谨洞见与怪癖之间。",
+      "hn": {
+        "id": 48794227,
+        "type": "story",
+        "by": "mbustamanter",
+        "score": 17,
+        "descendants": 1,
+        "time": 1783258532,
+        "comments_url": "https://news.ycombinator.com/item?id=48794227"
+      },
+      "hot_score": 0.01,
+      "tags": [
+        "Science"
       ]
     },
     {
@@ -1579,8 +1834,31 @@
       "hot_score": 0.0,
       "tags": [
         "AI",
-        "Science",
-        "Programming"
+        "Programming",
+        "Science"
+      ]
+    },
+    {
+      "title_en": "Understanding B-Tree Indexes in PostgreSQL: A Comprehensive Guide– Part 1",
+      "url": "https://medium.com/@devli0/b-tree-indexes-in-postgresql-part-1-theory-eb2668c52520",
+      "title_zh": "PostgreSQL 中的 B-Tree 索引详解（第一部分）",
+      "created_display": "Created: Jul 05, 2026 / 12:55 PT",
+      "image_url": "https://miro.medium.com/v2/resize:fit:1024/1*PnoPiIkHMkqby1RZY_xlCA.jpeg",
+      "summary_en": "Part 1 introduces B-tree index theory, structure, and how PostgreSQL uses them to speed lookups. It discusses maintenance costs, vacuum implications, and when to choose B-trees over other index types.",
+      "summary_zh": "第一部分介绍 B-tree 索引的理论基础、结构以及 PostgreSQL 如何利用它们来加速查询。还讨论了维护成本、清理对性能的影响，以及在 PostgreSQL 中何时选择 B-tree 而非其他索引。",
+      "hn": {
+        "id": 48797443,
+        "type": "story",
+        "by": "corvus-cornix",
+        "score": 11,
+        "descendants": 0,
+        "time": 1783281358,
+        "comments_url": "https://news.ycombinator.com/item?id=48797443"
+      },
+      "hot_score": 0.0,
+      "tags": [
+        "Programming",
+        "Data"
       ]
     },
     {

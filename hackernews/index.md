@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>139</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>20363</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>136</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>137</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-07-08</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>139</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>20376</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>136</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>137</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-07-08</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='910' data-hn-time='1783500366'>
+<div class='hn-top-story-item' data-hn-score='367' data-hn-time='1783530199'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/08/top_stories_07082026#story-48829312'>Decoding the obfuscated bash script on a Uniqlo t-shirt</a>
- <a class='hn-top-story-link' href='https://tris.sherliker.net/blog/obfuscated-self-evaluating-bash-script-by-cdn-akamai-being-supplied-to-consumers-via-retail-stores/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/08/top_stories_07082026#story-48834405'>GPT‑Live</a>
+ <a class='hn-top-story-link' href='https://openai.com/index/introducing-gpt-live/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>解码优衣库 T 恤上的混淆 Bash 脚本</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 16</span> <span class='hn-top-story-score'>&#9650; 910</span> <span class='hn-top-story-comments'>&#128172; 165</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>GPT-Live</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 27</span> <span class='hn-top-story-score'>&#9650; 367</span> <span class='hn-top-story-comments'>&#128172; 257</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='132' data-hn-time='1783519757'>
+<div class='hn-top-story-item' data-hn-score='194' data-hn-time='1783533632'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/08/top_stories_07082026#story-48832212'>Mistral's Robostral Navigate: a state of the art robotics navigation model</a>
- <a class='hn-top-story-link' href='https://mistral.ai/news/robostral-navigate/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/08/top_stories_07082026#story-48835111'>Grok 4.5</a>
+ <a class='hn-top-story-link' href='https://x.ai/news/grok-4-5' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Mistral 的 Robostral Navigate：前沿机器人导航模型</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 132</span> <span class='hn-top-story-comments'>&#128172; 25</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Science</span></div>
+<div class='hn-top-story-zh'>Grok 4.5</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 22</span> <span class='hn-top-story-score'>&#9650; 194</span> <span class='hn-top-story-comments'>&#128172; 121</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='159' data-hn-time='1783517759'>
+<div class='hn-top-story-item' data-hn-score='401' data-hn-time='1783523990'>
 <span class='hn-top-story-rank'>3</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/08/top_stories_07082026#story-48831785'>US Food and Drug Administration rejects petition to set PFAS limits in food</a>
- <a class='hn-top-story-link' href='https://www.theguardian.com/us-news/2026/jul/08/us-food-and-drug-administration-rejects-petition-to-set-pfas-limits-in-food' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>美国 FDA 拒绝就食品中设定 PFAS 限制的请愿</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 159</span> <span class='hn-top-story-comments'>&#128172; 111</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Health</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='50' data-hn-time='1783523990'>
-<span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/07/08/top_stories_07082026#story-48833116'>Chatto is now Open Source</a>
  <a class='hn-top-story-link' href='https://www.hmans.dev/blog/chatto-is-open-source' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Chatto 现已开源</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.0</span> <span class='hn-top-story-score'>&#9650; 50</span> <span class='hn-top-story-comments'>&#128172; 7</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 16</span> <span class='hn-top-story-score'>&#9650; 401</span> <span class='hn-top-story-comments'>&#128172; 110</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='193' data-hn-time='1783510256'>
+<div class='hn-top-story-item' data-hn-score='1124' data-hn-time='1783500366'>
+<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/08/top_stories_07082026#story-48829312'>Decoding the obfuscated bash script on a Uniqlo t-shirt</a>
+ <a class='hn-top-story-link' href='https://tris.sherliker.net/blog/obfuscated-self-evaluating-bash-script-by-cdn-akamai-being-supplied-to-consumers-via-retail-stores/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>解码优衣库 T 恤上的混淆 Bash 脚本</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 1124</span> <span class='hn-top-story-comments'>&#128172; 187</span> <span class='hn-top-story-tag'>Security</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='226' data-hn-time='1783526795'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/08/top_stories_07082026#story-48830565'>Apple to increase spend with Broadcom to produce billions more U.S. chips</a>
- <a class='hn-top-story-link' href='https://www.apple.com/newsroom/2026/07/apple-to-increase-spend-with-broadcom-to-produce-billions-more-us-chips/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/08/top_stories_07082026#story-48833715'>TypeScript 7</a>
+ <a class='hn-top-story-link' href='https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>苹果将增加与 Broadcom 的支出在美国生产更多芯片</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.5</span> <span class='hn-top-story-score'>&#9650; 193</span> <span class='hn-top-story-comments'>&#128172; 149</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>TypeScript 7</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 226</span> <span class='hn-top-story-comments'>&#128172; 72</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='99' data-hn-time='1783517092'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='163' data-hn-time='1783529586'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/08/top_stories_07082026#story-48831658'>OpenBSD has a use-after-free allowing local privilege escalation to root</a>
- <a class='hn-top-story-link' href='https://nvd.nist.gov/vuln/detail/cve-2026-57589' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/08/top_stories_07082026#story-48834296'>EU now one step away from reviving private message scanning rules</a>
+ <a class='hn-top-story-link' href='https://cyberinsider.com/eu-now-one-step-away-from-reviving-private-message-scanning-rules/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>OpenBSD 存在使用后释放漏洞，可能本地提权至 root</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.2</span> <span class='hn-top-story-score'>&#9650; 99</span> <span class='hn-top-story-comments'>&#128172; 36</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>欧盟只差一步就能重新启用私信扫描规则</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 163</span> <span class='hn-top-story-comments'>&#128172; 52</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='84' data-hn-time='1783516683'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='309' data-hn-time='1783519757'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/08/top_stories_07082026#story-48831565'>Cloudflare Meerkat - Globally distributed consensus</a>
- <a class='hn-top-story-link' href='https://blog.cloudflare.com/meerkat-introduction/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/08/top_stories_07082026#story-48832212'>Mistral's Robostral Navigate: a state of the art robotics navigation model</a>
+ <a class='hn-top-story-link' href='https://mistral.ai/news/robostral-navigate/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Cloudflare Meerkat：全球分布式共识</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.0</span> <span class='hn-top-story-score'>&#9650; 84</span> <span class='hn-top-story-comments'>&#128172; 13</span> <span class='hn-top-story-tag'>Data</span></div>
+<div class='hn-top-story-zh'>Mistral 的 Robostral Navigate：前沿机器人导航模型</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.8</span> <span class='hn-top-story-score'>&#9650; 309</span> <span class='hn-top-story-comments'>&#128172; 70</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='386' data-hn-time='1783488335'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='78' data-hn-time='1783532617'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/08/top_stories_07082026#story-48827858'>GitLost: We Tricked GitHub's AI Agent into Leaking Private Repos</a>
- <a class='hn-top-story-link' href='https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/08/top_stories_07082026#story-48834898'>What Do We Know About the Microplastics Inside Us?</a>
+ <a class='hn-top-story-link' href='https://e360.yale.edu/features/cassandra-rauert-interview' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>GitLost：我们欺骗 GitHub 的 AI 代理泄露私有仓库</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 386</span> <span class='hn-top-story-comments'>&#128172; 155</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>我们体内的微塑料到底有多少？</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.6</span> <span class='hn-top-story-score'>&#9650; 78</span> <span class='hn-top-story-comments'>&#128172; 12</span> <span class='hn-top-story-tag'>Health</span> <span class='hn-top-story-tag'>Science</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='44' data-hn-time='1783518216'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='138' data-hn-time='1783527576'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/08/top_stories_07082026#story-48831886'>Windows Drops Under 60% in Global Desktop OS Share for the First Time in Years</a>
- <a class='hn-top-story-link' href='https://linuxiac.com/windows-drops-under-60-in-global-desktop-os-share-for-the-first-time-in-years/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/08/top_stories_07082026#story-48833866'>SWE-1.7 Reach Near GPT 5.5 and Opus Intelligence</a>
+ <a class='hn-top-story-link' href='https://cognition.com/blog/swe-1-7' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Windows 全球桌面操作系统市场份额首次跌破 60%</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 44</span> <span class='hn-top-story-comments'>&#128172; 9</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-zh'>SWE-1.7 接近 GPT‑5.5 与 Opus Intelligence</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.5</span> <span class='hn-top-story-score'>&#9650; 138</span> <span class='hn-top-story-comments'>&#128172; 86</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='722' data-hn-time='1783457446'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='69' data-hn-time='1783532726'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/08/top_stories_07082026#story-48823557'>Every new car sold in the European Union must include a driver monitoring camera</a>
- <a class='hn-top-story-link' href='https://allaboutcookies.org/eu-mandatory-distracted-driver-system' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/08/top_stories_07082026#story-48834919'>PlayStation can delete all your digital games after 3 years of inactivity (EU)</a>
+ <a class='hn-top-story-link' href='https://www.flatpanelshd.com/news.php?subaction=showfull&id=1783340582' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>欧盟规定所有新车必须装配驾驶员监控摄像头</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 722</span> <span class='hn-top-story-comments'>&#128172; 936</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Data</span></div>
+<div class='hn-top-story-zh'>欧盟地区三年不活跃即删除数字游戏库</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.8</span> <span class='hn-top-story-score'>&#9650; 69</span> <span class='hn-top-story-comments'>&#128172; 25</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Gaming</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -140,7 +140,7 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 28 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-07-06 — 2026-07-08 <span class="hn-row-sep">·</span> 369 stories <span class="hn-row-sep">·</span> 3 days</span>
+<span class='hn-week-meta'>2026-07-06 — 2026-07-08 <span class="hn-row-sep">·</span> 382 stories <span class="hn-row-sep">·</span> 3 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/07/08/top_stories_07082026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>69</b> <span class="hn-row-sep">·</span> Programming <b>17</b> <span class="hn-row-sep">·</span> AI <b>12</b></span>
+<span class='hn-row-detail'>All <b>82</b> <span class="hn-row-sep">·</span> Programming <b>19</b> <span class="hn-row-sep">·</span> AI <b>18</b></span>
 </a>
 </div>
 </div>
