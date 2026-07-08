@@ -20,7 +20,7 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='297' data-hn-time='1783457446'>
+<div class='hn-top-story-item' data-hn-score='506' data-hn-time='1783457446'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -28,106 +28,106 @@ Sort:
  <a class='hn-top-story-link' href='https://allaboutcookies.org/eu-mandatory-distracted-driver-system' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>欧盟规定所有新车必须装配驾驶员监控摄像头</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 24</span> <span class='hn-top-story-score'>&#9650; 297</span> <span class='hn-top-story-comments'>&#128172; 357</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Data</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.4</span> <span class='hn-top-story-score'>&#9650; 506</span> <span class='hn-top-story-comments'>&#128172; 663</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Data</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='511' data-hn-time='1783437375'>
+<div class='hn-top-story-item' data-hn-score='57' data-hn-time='1783483175'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/07/top_stories_07072026#story-48819008'>Chat Control passed first round in EU Parliament</a>
- <a class='hn-top-story-link' href='https://www.heise.de/en/news/Showdown-in-Strasbourg-The-unexpected-return-of-Chat-Control-1-0-11356680.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/07/top_stories_07072026#story-48827325'>How to Build a Minimal ZFS NAS Without Synology, QNAP, TrueNAS</a>
+ <a class='hn-top-story-link' href='https://neil.computer/notes/how-to-setup-minimal-zfs-nas-without-truenas/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>欧盟议会完成对‘聊天控制’提案的首轮表决</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.7</span> <span class='hn-top-story-score'>&#9650; 511</span> <span class='hn-top-story-comments'>&#128172; 221</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>无需 Synology、QNAP、TrueNAS 的极简 ZFS NAS 构建指南</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.5</span> <span class='hn-top-story-score'>&#9650; 57</span> <span class='hn-top-story-comments'>&#128172; 19</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='475' data-hn-time='1783438400'>
+<div class='hn-top-story-item' data-hn-score='38' data-hn-time='1783483933'>
 <span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/07/top_stories_07072026#story-48827402'>GPT-5.6 Sol, along with Terra and Luna, will launch publicly this Thursday</a>
+ <a class='hn-top-story-link' href='https://twitter.com/OpenAI/status/2074704958419792299' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>GPT-5.6 Sol 将公开发布， Terra 与 Luna 同步上市</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.9</span> <span class='hn-top-story-score'>&#9650; 38</span> <span class='hn-top-story-comments'>&#128172; 1</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='88' data-hn-time='1783477021'>
+<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/07/top_stories_07072026#story-48826703'>Is The Economist Always Wrong?</a>
+ <a class='hn-top-story-link' href='https://www.economist.com/interactive/finance-and-economics/2026/07/02/is-the-economist-always-wrong' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>经济学家总是错的吗？</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.8</span> <span class='hn-top-story-score'>&#9650; 88</span> <span class='hn-top-story-comments'>&#128172; 62</span> <span class='hn-top-story-tag'>Finance</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='572' data-hn-time='1783438400'>
+<span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/07/07/top_stories_07072026#story-48819244'>Microsoft fire idTech team at Id software</a>
  <a class='hn-top-story-link' href='https://gamefromscratch.com/microsoft-fire-idtech-team-at-id-software/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>微软解雇 Id Software 的 IdTech 团队</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.5</span> <span class='hn-top-story-score'>&#9650; 475</span> <span class='hn-top-story-comments'>&#128172; 444</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 572</span> <span class='hn-top-story-comments'>&#128172; 513</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='644' data-hn-time='1783427915'>
-<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='727' data-hn-time='1783427915'>
+<span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/07/07/top_stories_07072026#story-48816883'>StreetComplete: Fixing OpenStreetMap, one tiny quest at a time</a>
  <a class='hn-top-story-link' href='https://streetcomplete.app/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>StreetComplete：通过一个个小任务修复 OpenStreetMap</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.1</span> <span class='hn-top-story-score'>&#9650; 644</span> <span class='hn-top-story-comments'>&#128172; 158</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Data</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.8</span> <span class='hn-top-story-score'>&#9650; 727</span> <span class='hn-top-story-comments'>&#128172; 173</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Data</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='194' data-hn-time='1783448650'>
-<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='545' data-hn-time='1783437375'>
+<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/07/top_stories_07072026#story-48819008'>Chat Control passed first round in EU Parliament</a>
+ <a class='hn-top-story-link' href='https://www.heise.de/en/news/Showdown-in-Strasbourg-The-unexpected-return-of-Chat-Control-1-0-11356680.html' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>欧盟议会完成对‘聊天控制’提案的首轮表决</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.7</span> <span class='hn-top-story-score'>&#9650; 545</span> <span class='hn-top-story-comments'>&#128172; 239</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Security</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='352' data-hn-time='1783448650'>
+<span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/07/07/top_stories_07072026#story-48821576'>Local, CPU-Friendly, High-Quality TTS (Text-to-Speech) with Kokoro</a>
  <a class='hn-top-story-link' href='https://ariya.io/2026/03/local-cpu-friendly-high-quality-tts-text-to-speech-with-kokoro/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>本地化、CPU友好且高质量的 Kokoro TTS</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.7</span> <span class='hn-top-story-score'>&#9650; 194</span> <span class='hn-top-story-comments'>&#128172; 37</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 352</span> <span class='hn-top-story-comments'>&#128172; 72</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='159' data-hn-time='1783449002'>
-<span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/07/top_stories_07072026#story-48821653'>Astro 7.0</a>
- <a class='hn-top-story-link' href='https://astro.build/blog/astro-7/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Astro 7.0 发布</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.6</span> <span class='hn-top-story-score'>&#9650; 159</span> <span class='hn-top-story-comments'>&#128172; 40</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Programming</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='283' data-hn-time='1783439893'>
-<span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/07/top_stories_07072026#story-48819608'>30papers.com – Ilya's 30 essential ML papers, in a beginner friendly format</a>
- <a class='hn-top-story-link' href='https://30papers.com/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>30papers.com——Ilya 的 30 篇核心 ML 论文，面向初学者</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.5</span> <span class='hn-top-story-score'>&#9650; 283</span> <span class='hn-top-story-comments'>&#128172; 49</span> <span class='hn-top-story-tag'>Education</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='242' data-hn-time='1783442288'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/07/top_stories_07072026#story-48820220'>China sentences official to death for taking $325M in bribes</a>
- <a class='hn-top-story-link' href='https://www.bbc.com/news/articles/c33y0n1v1xjo' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>中国官员因受贿 3.25 亿美元被判处死刑</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.4</span> <span class='hn-top-story-score'>&#9650; 242</span> <span class='hn-top-story-comments'>&#128172; 285</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Legal</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='364' data-hn-time='1783434195'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='166' data-hn-time='1783463038'>
 <span class='hn-top-story-rank'>9</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/07/top_stories_07072026#story-48824826'>GAO: DOE Is Prematurely Excluding Less Expensive Options for Nuclear Cleanup</a>
+ <a class='hn-top-story-link' href='https://www.gao.gov/products/gao-26-108193' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>DOE 在核清理中过早排除更便宜的选项</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 166</span> <span class='hn-top-story-comments'>&#128172; 72</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>Energy</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='519' data-hn-time='1783434195'>
+<span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/07/07/top_stories_07072026#story-48818311'>Chat Control 1.0 and 2.0 Explained</a>
  <a class='hn-top-story-link' href='https://fightchatcontrol.eu/chat-control-overview' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Chat Control 1.0 与 2.0 的解读</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.3</span> <span class='hn-top-story-score'>&#9650; 364</span> <span class='hn-top-story-comments'>&#128172; 115</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='450' data-hn-time='1783428314'>
-<span class='hn-top-story-rank'>10</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/07/top_stories_07072026#story-48816959'>98% isn't much</a>
- <a class='hn-top-story-link' href='https://whynothugo.nl/journal/2026/07/03/98-isnt-very-much/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>98% 并不算多</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.0</span> <span class='hn-top-story-score'>&#9650; 450</span> <span class='hn-top-story-comments'>&#128172; 293</span> <span class='hn-top-story-tag'>Data</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 519</span> <span class='hn-top-story-comments'>&#128172; 169</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/07/07/top_stories_07072026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>25</b> <span class="hn-row-sep">·</span> Programming <b>23</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>25</b> <span class="hn-row-sep">·</span> AI <b>24</b></span>
 </a>
 </div>
 </div>
