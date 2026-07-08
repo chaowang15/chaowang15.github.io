@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>139</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>20376</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>136</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>137</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-07-08</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>139</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>20394</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>136</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>137</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-07-08</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,7 +20,7 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='367' data-hn-time='1783530199'>
+<div class='hn-top-story-item' data-hn-score='545' data-hn-time='1783530199'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -28,106 +28,106 @@ Sort:
  <a class='hn-top-story-link' href='https://openai.com/index/introducing-gpt-live/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>GPT-Live</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 27</span> <span class='hn-top-story-score'>&#9650; 367</span> <span class='hn-top-story-comments'>&#128172; 257</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 13</span> <span class='hn-top-story-score'>&#9650; 545</span> <span class='hn-top-story-comments'>&#128172; 369</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='194' data-hn-time='1783533632'>
+<div class='hn-top-story-item' data-hn-score='166' data-hn-time='1783543293'>
 <span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/08/top_stories_07082026#story-48837162'>The classifiers Anthropic puts in front of Fable are too zealous</a>
+ <a class='hn-top-story-link' href='https://combine-lab.github.io/blog/2026/07/07/fable-is-not-a-useful-model.html' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Anthropic 在 Fable 前置的分类器过于严格</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 166</span> <span class='hn-top-story-comments'>&#128172; 149</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='396' data-hn-time='1783533632'>
+<span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/07/08/top_stories_07082026#story-48835111'>Grok 4.5</a>
  <a class='hn-top-story-link' href='https://x.ai/news/grok-4-5' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Grok 4.5</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 22</span> <span class='hn-top-story-score'>&#9650; 194</span> <span class='hn-top-story-comments'>&#128172; 121</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 396</span> <span class='hn-top-story-comments'>&#128172; 343</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='401' data-hn-time='1783523990'>
-<span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-item' data-hn-score='628' data-hn-time='1783523990'>
+<span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/08/top_stories_07082026#story-48833116'>Chatto is now Open Source</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/08/top_stories_07082026#story-48833116'>Chatto is now open source</a>
  <a class='hn-top-story-link' href='https://www.hmans.dev/blog/chatto-is-open-source' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Chatto 现已开源</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 16</span> <span class='hn-top-story-score'>&#9650; 401</span> <span class='hn-top-story-comments'>&#128172; 110</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 628</span> <span class='hn-top-story-comments'>&#128172; 175</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='1124' data-hn-time='1783500366'>
-<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-item' data-hn-score='106' data-hn-time='1783544631'>
+<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/08/top_stories_07082026#story-48837396'>Separating signal from noise in coding evaluations</a>
+ <a class='hn-top-story-link' href='https://openai.com/index/separating-signal-from-noise-coding-evaluations/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>在编码评估中分辨信号与噪声</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.2</span> <span class='hn-top-story-score'>&#9650; 106</span> <span class='hn-top-story-comments'>&#128172; 43</span> <span class='hn-top-story-tag'>Programming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1246' data-hn-time='1783500366'>
+<span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/07/08/top_stories_07082026#story-48829312'>Decoding the obfuscated bash script on a Uniqlo t-shirt</a>
  <a class='hn-top-story-link' href='https://tris.sherliker.net/blog/obfuscated-self-evaluating-bash-script-by-cdn-akamai-being-supplied-to-consumers-via-retail-stores/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>解码优衣库 T 恤上的混淆 Bash 脚本</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 1124</span> <span class='hn-top-story-comments'>&#128172; 187</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.3</span> <span class='hn-top-story-score'>&#9650; 1246</span> <span class='hn-top-story-comments'>&#128172; 200</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='226' data-hn-time='1783526795'>
-<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='409' data-hn-time='1783526795'>
+<span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/07/08/top_stories_07082026#story-48833715'>TypeScript 7</a>
  <a class='hn-top-story-link' href='https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>TypeScript 7</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 226</span> <span class='hn-top-story-comments'>&#128172; 72</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.1</span> <span class='hn-top-story-score'>&#9650; 409</span> <span class='hn-top-story-comments'>&#128172; 150</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='163' data-hn-time='1783529586'>
-<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='138' data-hn-time='1783541142'>
+<span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/08/top_stories_07082026#story-48836778'>FAANG Simulator</a>
+ <a class='hn-top-story-link' href='https://www.abeyk.com/escape-the-rat-race/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>FAANG 模拟器</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.0</span> <span class='hn-top-story-score'>&#9650; 138</span> <span class='hn-top-story-comments'>&#128172; 51</span> <span class='hn-top-story-tag'>Career</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='59' data-hn-time='1783547399'>
+<span class='hn-top-story-rank'>9</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/08/top_stories_07082026#story-48837877'>Rewriting Bun in Rust</a>
+ <a class='hn-top-story-link' href='https://bun.com/blog/bun-in-rust' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>用 Rust 重写 Bun</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.5</span> <span class='hn-top-story-score'>&#9650; 59</span> <span class='hn-top-story-comments'>&#128172; 10</span> <span class='hn-top-story-tag'>Programming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='318' data-hn-time='1783529586'>
+<span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/07/08/top_stories_07082026#story-48834296'>EU now one step away from reviving private message scanning rules</a>
  <a class='hn-top-story-link' href='https://cyberinsider.com/eu-now-one-step-away-from-reviving-private-message-scanning-rules/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>欧盟只差一步就能重新启用私信扫描规则</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 163</span> <span class='hn-top-story-comments'>&#128172; 52</span> <span class='hn-top-story-tag'>Privacy</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='309' data-hn-time='1783519757'>
-<span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/08/top_stories_07082026#story-48832212'>Mistral's Robostral Navigate: a state of the art robotics navigation model</a>
- <a class='hn-top-story-link' href='https://mistral.ai/news/robostral-navigate/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Mistral 的 Robostral Navigate：前沿机器人导航模型</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.8</span> <span class='hn-top-story-score'>&#9650; 309</span> <span class='hn-top-story-comments'>&#128172; 70</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='78' data-hn-time='1783532617'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/08/top_stories_07082026#story-48834898'>What Do We Know About the Microplastics Inside Us?</a>
- <a class='hn-top-story-link' href='https://e360.yale.edu/features/cassandra-rauert-interview' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>我们体内的微塑料到底有多少？</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.6</span> <span class='hn-top-story-score'>&#9650; 78</span> <span class='hn-top-story-comments'>&#128172; 12</span> <span class='hn-top-story-tag'>Health</span> <span class='hn-top-story-tag'>Science</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='138' data-hn-time='1783527576'>
-<span class='hn-top-story-rank'>9</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/08/top_stories_07082026#story-48833866'>SWE-1.7 Reach Near GPT 5.5 and Opus Intelligence</a>
- <a class='hn-top-story-link' href='https://cognition.com/blog/swe-1-7' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>SWE-1.7 接近 GPT‑5.5 与 Opus Intelligence</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.5</span> <span class='hn-top-story-score'>&#9650; 138</span> <span class='hn-top-story-comments'>&#128172; 86</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='69' data-hn-time='1783532726'>
-<span class='hn-top-story-rank'>10</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/08/top_stories_07082026#story-48834919'>PlayStation can delete all your digital games after 3 years of inactivity (EU)</a>
- <a class='hn-top-story-link' href='https://www.flatpanelshd.com/news.php?subaction=showfull&id=1783340582' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>欧盟地区三年不活跃即删除数字游戏库</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.8</span> <span class='hn-top-story-score'>&#9650; 69</span> <span class='hn-top-story-comments'>&#128172; 25</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Gaming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.4</span> <span class='hn-top-story-score'>&#9650; 318</span> <span class='hn-top-story-comments'>&#128172; 126</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -140,7 +140,7 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 28 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-07-06 — 2026-07-08 <span class="hn-row-sep">·</span> 382 stories <span class="hn-row-sep">·</span> 3 days</span>
+<span class='hn-week-meta'>2026-07-06 — 2026-07-08 <span class="hn-row-sep">·</span> 400 stories <span class="hn-row-sep">·</span> 3 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/07/08/top_stories_07082026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>82</b> <span class="hn-row-sep">·</span> Programming <b>19</b> <span class="hn-row-sep">·</span> AI <b>18</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>25</b> <span class="hn-row-sep">·</span> AI <b>23</b></span>
 </a>
 </div>
 </div>
