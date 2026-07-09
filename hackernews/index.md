@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>140</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>20534</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>137</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>138</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-07-09</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>140</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>20544</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>137</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>138</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-07-09</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='462' data-hn-time='1783601332'>
+<div class='hn-top-story-item' data-hn-score='640' data-hn-time='1783616654'>
 <span class='hn-top-story-rank'>1</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/09/top_stories_07092026#story-48849066'>GPT-5.6</a>
+ <a class='hn-top-story-link' href='https://openai.com/index/gpt-5-6/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>GPT-5.6 版本</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 41</span> <span class='hn-top-story-score'>&#9650; 640</span> <span class='hn-top-story-comments'>&#128172; 442</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='231' data-hn-time='1783616633'>
+<span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/09/top_stories_07092026#story-48849059'>ChatGPT Work</a>
+ <a class='hn-top-story-link' href='https://openai.com/index/chatgpt-for-your-most-ambitious-work/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>ChatGPT 在工作中的应用</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 15</span> <span class='hn-top-story-score'>&#9650; 231</span> <span class='hn-top-story-comments'>&#128172; 94</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='656' data-hn-time='1783601332'>
+<span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/07/09/top_stories_07092026#story-48845049'>Show HN: 18 Words</a>
  <a class='hn-top-story-link' href='https://18words.com/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Show HN: 18 Words</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 20</span> <span class='hn-top-story-score'>&#9650; 462</span> <span class='hn-top-story-comments'>&#128172; 187</span> <span class='hn-top-story-tag'>Show HN</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 13</span> <span class='hn-top-story-score'>&#9650; 656</span> <span class='hn-top-story-comments'>&#128172; 242</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Design</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='432' data-hn-time='1783595034'>
-<span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-item' data-hn-score='687' data-hn-time='1783595034'>
+<span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/07/09/top_stories_07092026#story-48843923'>EU Parliament greenlights Chat Control 1.0</a>
  <a class='hn-top-story-link' href='https://www.patrick-breyer.de/en/eu-parliament-greenlights-chat-control-1-0-breyer-our-children-lose-out/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>欧盟议会通过聊天监控1.0，Breyer：我们的孩子要吃亏</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 432</span> <span class='hn-top-story-comments'>&#128172; 241</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.8</span> <span class='hn-top-story-score'>&#9650; 687</span> <span class='hn-top-story-comments'>&#128172; 350</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='153' data-hn-time='1783606222'>
-<span class='hn-top-story-rank'>3</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/09/top_stories_07092026#story-48846184'>Introducing Muse Spark 1.1</a>
- <a class='hn-top-story-link' href='https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/?_fb_noscript=1' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Muse Spark 1.1 推出</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 153</span> <span class='hn-top-story-comments'>&#128172; 99</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='479' data-hn-time='1783590448'>
-<span class='hn-top-story-rank'>4</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/09/top_stories_07092026#story-48843352'>My thoughts on the Bun Rust rewrite</a>
- <a class='hn-top-story-link' href='https://andrewkelley.me/post/my-thoughts-bun-rust-rewrite.html' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>我对 Bun 的 Rust 重写的一些看法</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.8</span> <span class='hn-top-story-score'>&#9650; 479</span> <span class='hn-top-story-comments'>&#128172; 436</span> <span class='hn-top-story-tag'>Programming</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='115' data-hn-time='1783606594'>
+<div class='hn-top-story-item' data-hn-score='223' data-hn-time='1783610868'>
 <span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/09/top_stories_07092026#story-48846281'>No leap second will be introduced at the end of December 2026</a>
- <a class='hn-top-story-link' href='https://datacenter.iers.org/data/latestVersion/bulletinC.txt' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>2026 年底将不再加入闰秒</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.6</span> <span class='hn-top-story-score'>&#9650; 115</span> <span class='hn-top-story-comments'>&#128172; 86</span> <span class='hn-top-story-tag'>Science</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='147' data-hn-time='1783603771'>
-<span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/09/top_stories_07092026#story-48845514'>US seeks cheaper hunter-killer drones after Iran destroys $1B worth of Reapers</a>
- <a class='hn-top-story-link' href='https://arstechnica.com/gadgets/2026/07/us-seeks-cheaper-hunter-killer-drones-after-iran-destroys-1b-worth-of-reapers/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>在伊朗摧毁 10 亿美元 Reapers 之后，美国寻求更便宜的猎杀无人机</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.1</span> <span class='hn-top-story-score'>&#9650; 147</span> <span class='hn-top-story-comments'>&#128172; 184</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Politics</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='291' data-hn-time='1783591353'>
-<span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/09/top_stories_07092026#story-48843438'>Bonnie Tyler has died</a>
- <a class='hn-top-story-link' href='https://www.bbc.com/news/articles/cg5pd9z2487o' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Bonnie Tyler 去世</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.2</span> <span class='hn-top-story-score'>&#9650; 291</span> <span class='hn-top-story-comments'>&#128172; 112</span> <span class='hn-top-story-tag'>Entertainment</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1223' data-hn-time='1783553863'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/09/top_stories_07092026#story-48838876'>John Deere owners will get the right to repair equipment under FTC settlement</a>
- <a class='hn-top-story-link' href='https://apnews.com/article/john-deere-right-to-repair-agriculture-equipment-cb7514ffedb95c130a976af661f2bc02' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>FTC和解赋予约翰迪尔设备的修理权</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.2</span> <span class='hn-top-story-score'>&#9650; 1223</span> <span class='hn-top-story-comments'>&#128172; 252</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Legal</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='36' data-hn-time='1783612209'>
-<span class='hn-top-story-rank'>9</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/09/top_stories_07092026#story-48847940'>AI Content Is Everywhere on Social Media, Especially LinkedIn</a>
- <a class='hn-top-story-link' href='https://www.pangram.com/blog/ai-in-your-feed' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>社交媒体上的 AI 内容无处不在，LinkedIn 尤为明显</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.1</span> <span class='hn-top-story-score'>&#9650; 36</span> <span class='hn-top-story-comments'>&#128172; 11</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='41' data-hn-time='1783610868'>
-<span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/07/09/top_stories_07092026#story-48847552'>Hy3</a>
  <a class='hn-top-story-link' href='https://hy.tencent.com/research/hy3' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Hy3</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.5</span> <span class='hn-top-story-score'>&#9650; 41</span> <span class='hn-top-story-comments'>&#128172; 16</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.3</span> <span class='hn-top-story-score'>&#9650; 223</span> <span class='hn-top-story-comments'>&#128172; 62</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='564' data-hn-time='1783590448'>
+<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/09/top_stories_07092026#story-48843352'>My thoughts on the Bun Rust rewrite</a>
+ <a class='hn-top-story-link' href='https://andrewkelley.me/post/my-thoughts-bun-rust-rewrite.html' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>我对 Bun 的 Rust 重写的一些看法</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.5</span> <span class='hn-top-story-score'>&#9650; 564</span> <span class='hn-top-story-comments'>&#128172; 490</span> <span class='hn-top-story-tag'>Programming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='243' data-hn-time='1783606222'>
+<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/09/top_stories_07092026#story-48846184'>Muse Spark 1.1</a>
+ <a class='hn-top-story-link' href='https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Muse Spark 1.1 推出</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.4</span> <span class='hn-top-story-score'>&#9650; 243</span> <span class='hn-top-story-comments'>&#128172; 144</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>DevOps</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='52' data-hn-time='1783621781'>
+<span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/09/top_stories_07092026#story-48850414'>GLM 5.2 is nearly as accurate as a human book keeper</a>
+ <a class='hn-top-story-link' href='https://toot-books.pages.dev/blog/glm-5-2-vat-benchmark' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>GLM 5.2 的准确度几乎达到人类簿记员水平</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.4</span> <span class='hn-top-story-score'>&#9650; 52</span> <span class='hn-top-story-comments'>&#128172; 24</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Finance</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='136' data-hn-time='1783610725'>
+<span class='hn-top-story-rank'>9</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/09/top_stories_07092026#story-48847511'>A possible future for Damn Interesting</a>
+ <a class='hn-top-story-link' href='https://www.damninteresting.com/a-possible-future/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Damn Interesting 的未来可能走向</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.0</span> <span class='hn-top-story-score'>&#9650; 136</span> <span class='hn-top-story-comments'>&#128172; 12</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Science</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='120' data-hn-time='1783612209'>
+<span class='hn-top-story-rank'>10</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/09/top_stories_07092026#story-48847940'>AI content is everywhere on social media, especially LinkedIn</a>
+ <a class='hn-top-story-link' href='https://www.pangram.com/blog/ai-in-your-feed' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>社交媒体上的 AI 内容无处不在，LinkedIn 尤为明显</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.0</span> <span class='hn-top-story-score'>&#9650; 120</span> <span class='hn-top-story-comments'>&#128172; 101</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -140,7 +140,7 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 28 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-07-06 — 2026-07-09 <span class="hn-row-sep">·</span> 540 stories <span class="hn-row-sep">·</span> 4 days</span>
+<span class='hn-week-meta'>2026-07-06 — 2026-07-09 <span class="hn-row-sep">·</span> 550 stories <span class="hn-row-sep">·</span> 4 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/07/09/top_stories_07092026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>90</b> <span class="hn-row-sep">·</span> Programming <b>24</b> <span class="hn-row-sep">·</span> AI <b>20</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>24</b> <span class="hn-row-sep">·</span> Programming <b>24</b></span>
 </a>
 </div>
 </div>
