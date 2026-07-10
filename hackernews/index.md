@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>141</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>20643</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>138</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>139</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-07-10</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>141</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>20667</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>138</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>139</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-07-10</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='1267' data-hn-time='1783616654'>
+<div class='hn-top-story-item' data-hn-score='193' data-hn-time='1783690380'>
 <span class='hn-top-story-rank'>1</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/10/top_stories_07102026#story-48859701'>Write code like a human will maintain it</a>
+ <a class='hn-top-story-link' href='https://unstack.io/write-code-like-a-human-will-maintain-it' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>写出人类也能维护的代码</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 193</span> <span class='hn-top-story-comments'>&#128172; 160</span> <span class='hn-top-story-tag'>Programming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='119' data-hn-time='1783690219'>
+<span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/10/top_stories_07102026#story-48859671'>Punk, or why I don't stream anymore</a>
+ <a class='hn-top-story-link' href='https://geohot.github.io//blog/jekyll/update/2026/05/03/punk-or-why-i-dont-stream.html' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>朋克，或者为什么我不再直播</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.7</span> <span class='hn-top-story-score'>&#9650; 119</span> <span class='hn-top-story-comments'>&#128172; 137</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Culture</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='184' data-hn-time='1783684795'>
+<span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/10/top_stories_07102026#story-48858737'>Late Bronze Age Collapse</a>
+ <a class='hn-top-story-link' href='https://acoup.blog/2026/01/30/collections-the-late-bronze-age-collapse-a-very-brief-introduction/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>晚青铜时代崩溃</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.4</span> <span class='hn-top-story-score'>&#9650; 184</span> <span class='hn-top-story-comments'>&#128172; 96</span> <span class='hn-top-story-tag'>Science</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='173' data-hn-time='1783681215'>
+<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/10/top_stories_07102026#story-48858292'>EU Commission: addictive design Instagram and Facebook in breach of the DSA</a>
+ <a class='hn-top-story-link' href='https://ec.europa.eu/commission/presscorner/home/en' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>欧盟委员会：Instagram 与 Facebook 的成瘾设计违反 DSA</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.7</span> <span class='hn-top-story-score'>&#9650; 173</span> <span class='hn-top-story-comments'>&#128172; 127</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Legal</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='24' data-hn-time='1783699193'>
+<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/10/top_stories_07102026#story-48861717'>QuadRF can spot drones and see WiFi through my wall</a>
+ <a class='hn-top-story-link' href='https://www.jeffgeerling.com/blog/2026/quadrf-can-spot-drones-and-see-wifi-through-my-wall/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>QuadRF 能侦测无人机并穿墙探测 WiFi 信号</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.6</span> <span class='hn-top-story-score'>&#9650; 24</span> <span class='hn-top-story-comments'>&#128172; 3</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Legal</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1461' data-hn-time='1783616654'>
+<span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/07/10/top_stories_07102026#story-48849066'>GPT-5.6</a>
  <a class='hn-top-story-link' href='https://openai.com/index/gpt-5-6/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>GPT-5.6 版本</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.5</span> <span class='hn-top-story-score'>&#9650; 1267</span> <span class='hn-top-story-comments'>&#128172; 904</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.3</span> <span class='hn-top-story-score'>&#9650; 1461</span> <span class='hn-top-story-comments'>&#128172; 1028</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='1383' data-hn-time='1783595034'>
-<span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='30' data-hn-time='1783697444'>
+<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/10/top_stories_07102026#story-48861319'>A Love Letter to Flashcards</a>
+ <a class='hn-top-story-link' href='https://lesleylai.info/en/flashcards/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>致敬抽认卡</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 30</span> <span class='hn-top-story-comments'>&#128172; 5</span> <span class='hn-top-story-tag'>Education</span> <span class='hn-top-story-tag'>Design</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='154' data-hn-time='1783679561'>
+<span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/10/top_stories_07102026#story-48858121'>Good Tools Are Invisible</a>
+ <a class='hn-top-story-link' href='https://www.gingerbill.org/article/2026/07/10/good-tools-are-invisible/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>好工具往往无形</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.7</span> <span class='hn-top-story-score'>&#9650; 154</span> <span class='hn-top-story-comments'>&#128172; 97</span> <span class='hn-top-story-tag'>Design</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='66' data-hn-time='1783690268'>
+<span class='hn-top-story-rank'>9</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/10/top_stories_07102026#story-48859678'>Successful Companies Go Blind</a>
+ <a class='hn-top-story-link' href='https://ianreppel.org/how-successful-companies-go-blind/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>成功的公司会变得盲目</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.7</span> <span class='hn-top-story-score'>&#9650; 66</span> <span class='hn-top-story-comments'>&#128172; 27</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Programming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1537' data-hn-time='1783595034'>
+<span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/07/10/top_stories_07102026#story-48843923'>EU Parliament greenlights Chat Control 1.0</a>
  <a class='hn-top-story-link' href='https://www.patrick-breyer.de/en/eu-parliament-greenlights-chat-control-1-0-breyer-our-children-lose-out/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>欧盟议会通过聊天监控1.0，Breyer：我们的孩子要吃亏</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.3</span> <span class='hn-top-story-score'>&#9650; 1383</span> <span class='hn-top-story-comments'>&#128172; 655</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='49' data-hn-time='1783669151'>
-<span class='hn-top-story-rank'>3</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/10/top_stories_07102026#story-48856904'>AI-generated videos to maximally drive a target brain region</a>
- <a class='hn-top-story-link' href='https://nevo-project.epfl.ch/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>AI 生成视频以最大化激活目标脑区</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.7</span> <span class='hn-top-story-score'>&#9650; 49</span> <span class='hn-top-story-comments'>&#128172; 48</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Science</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='992' data-hn-time='1783601332'>
-<span class='hn-top-story-rank'>4</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/10/top_stories_07102026#story-48845049'>Show HN: 18 Words</a>
- <a class='hn-top-story-link' href='https://18words.com/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Show HN: 18 Words</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 992</span> <span class='hn-top-story-comments'>&#128172; 317</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Design</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='475' data-hn-time='1783610868'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/10/top_stories_07102026#story-48847552'>Hy3</a>
- <a class='hn-top-story-link' href='https://hy.tencent.com/research/hy3' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Hy3</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.1</span> <span class='hn-top-story-score'>&#9650; 475</span> <span class='hn-top-story-comments'>&#128172; 95</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1322' data-hn-time='1783553863'>
-<span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/10/top_stories_07102026#story-48838876'>John Deere owners will get the right to repair equipment under FTC settlement</a>
- <a class='hn-top-story-link' href='https://apnews.com/article/john-deere-right-to-repair-agriculture-equipment-cb7514ffedb95c130a976af661f2bc02' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>FTC和解赋予约翰迪尔设备的修理权</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.1</span> <span class='hn-top-story-score'>&#9650; 1322</span> <span class='hn-top-story-comments'>&#128172; 278</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Legal</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='213' data-hn-time='1783635356'>
-<span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/10/top_stories_07102026#story-48853091'>Why American ambulance rides are so expensive</a>
- <a class='hn-top-story-link' href='https://davidoks.blog/p/why-american-ambulance-rides-are' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>美国救护车收费为何如此昂贵</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.9</span> <span class='hn-top-story-score'>&#9650; 213</span> <span class='hn-top-story-comments'>&#128172; 281</span> <span class='hn-top-story-tag'>Health</span> <span class='hn-top-story-tag'>Finance</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='336' data-hn-time='1783616633'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/10/top_stories_07102026#story-48849059'>ChatGPT Work</a>
- <a class='hn-top-story-link' href='https://openai.com/index/chatgpt-for-your-most-ambitious-work/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>ChatGPT 在工作中的应用</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.7</span> <span class='hn-top-story-score'>&#9650; 336</span> <span class='hn-top-story-comments'>&#128172; 173</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Business</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='673' data-hn-time='1783584304'>
-<span class='hn-top-story-rank'>9</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/10/top_stories_07102026#story-48842459'>Show HN: Getting GLM 5.2 running on my slow computer</a>
- <a class='hn-top-story-link' href='https://github.com/JustVugg/colibri' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Show HN：在慢速电脑上让 GLM 5.2 运行起来</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.7</span> <span class='hn-top-story-score'>&#9650; 673</span> <span class='hn-top-story-comments'>&#128172; 158</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Hardware</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='127' data-hn-time='1783642828'>
-<span class='hn-top-story-rank'>10</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/10/top_stories_07102026#story-48854247'>Parental device use and the adolescent-caregiver attachment bond</a>
- <a class='hn-top-story-link' href='https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1766665/full' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>父母设备使用与青少年-照护者依恋关系</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.6</span> <span class='hn-top-story-score'>&#9650; 127</span> <span class='hn-top-story-comments'>&#128172; 103</span> <span class='hn-top-story-tag'>Health</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 1537</span> <span class='hn-top-story-comments'>&#128172; 776</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -140,7 +140,7 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 28 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-07-06 — 2026-07-10 <span class="hn-row-sep">·</span> 649 stories <span class="hn-row-sep">·</span> 5 days</span>
+<span class='hn-week-meta'>2026-07-06 — 2026-07-10 <span class="hn-row-sep">·</span> 673 stories <span class="hn-row-sep">·</span> 5 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/07/10/top_stories_07102026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>49</b> <span class="hn-row-sep">·</span> AI <b>13</b> <span class="hn-row-sep">·</span> Programming <b>12</b></span>
+<span class='hn-row-detail'>All <b>73</b> <span class="hn-row-sep">·</span> Programming <b>16</b> <span class="hn-row-sep">·</span> Science <b>15</b></span>
 </a>
 </div>
 </div>
