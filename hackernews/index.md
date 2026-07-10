@@ -20,7 +20,7 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='922' data-hn-time='1783616654'>
+<div class='hn-top-story-item' data-hn-score='1170' data-hn-time='1783616654'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -28,106 +28,106 @@ Sort:
  <a class='hn-top-story-link' href='https://openai.com/index/gpt-5-6/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>GPT-5.6 版本</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 22</span> <span class='hn-top-story-score'>&#9650; 922</span> <span class='hn-top-story-comments'>&#128172; 687</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.0</span> <span class='hn-top-story-score'>&#9650; 1170</span> <span class='hn-top-story-comments'>&#128172; 831</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='761' data-hn-time='1783601332'>
+<div class='hn-top-story-item' data-hn-score='1164' data-hn-time='1783595034'>
 <span class='hn-top-story-rank'>2</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/09/top_stories_07092026#story-48845049'>Show HN: 18 Words</a>
- <a class='hn-top-story-link' href='https://18words.com/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Show HN: 18 Words</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.4</span> <span class='hn-top-story-score'>&#9650; 761</span> <span class='hn-top-story-comments'>&#128172; 273</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Design</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='895' data-hn-time='1783595034'>
-<span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/07/09/top_stories_07092026#story-48843923'>EU Parliament greenlights Chat Control 1.0</a>
  <a class='hn-top-story-link' href='https://www.patrick-breyer.de/en/eu-parliament-greenlights-chat-control-1-0-breyer-our-children-lose-out/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>欧盟议会通过聊天监控1.0，Breyer：我们的孩子要吃亏</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.7</span> <span class='hn-top-story-score'>&#9650; 895</span> <span class='hn-top-story-comments'>&#128172; 434</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.9</span> <span class='hn-top-story-score'>&#9650; 1164</span> <span class='hn-top-story-comments'>&#128172; 563</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='304' data-hn-time='1783616633'>
-<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-item' data-hn-score='908' data-hn-time='1783601332'>
+<span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/09/top_stories_07092026#story-48849059'>ChatGPT Work</a>
- <a class='hn-top-story-link' href='https://openai.com/index/chatgpt-for-your-most-ambitious-work/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/09/top_stories_07092026#story-48845049'>Show HN: 18 Words</a>
+ <a class='hn-top-story-link' href='https://18words.com/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>ChatGPT 在工作中的应用</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.2</span> <span class='hn-top-story-score'>&#9650; 304</span> <span class='hn-top-story-comments'>&#128172; 147</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-zh'>Show HN: 18 Words</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.5</span> <span class='hn-top-story-score'>&#9650; 908</span> <span class='hn-top-story-comments'>&#128172; 299</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Design</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='339' data-hn-time='1783610868'>
-<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-item' data-hn-score='433' data-hn-time='1783610868'>
+<span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/07/09/top_stories_07092026#story-48847552'>Hy3</a>
  <a class='hn-top-story-link' href='https://hy.tencent.com/research/hy3' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Hy3</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.8</span> <span class='hn-top-story-score'>&#9650; 339</span> <span class='hn-top-story-comments'>&#128172; 75</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 433</span> <span class='hn-top-story-comments'>&#128172; 89</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='162' data-hn-time='1783621781'>
+<div class='hn-top-story-item' data-hn-score='56' data-hn-time='1783651147'>
+<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/09/top_stories_07092026#story-48855112'>Ben Bernanke Joins Anthropic Oversight Trust</a>
+ <a class='hn-top-story-link' href='https://www.anthropic.com/news/ben-bernanke' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>本·伯南克加入 Anthropic 监督信托</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.7</span> <span class='hn-top-story-score'>&#9650; 56</span> <span class='hn-top-story-comments'>&#128172; 45</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='158' data-hn-time='1783635356'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/09/top_stories_07092026#story-48850414'>GLM 5.2 is nearly as accurate as a human book keeper</a>
- <a class='hn-top-story-link' href='https://toot-books.pages.dev/blog/glm-5-2-vat-benchmark' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/09/top_stories_07092026#story-48853091'>Why American ambulance rides are so expensive</a>
+ <a class='hn-top-story-link' href='https://davidoks.blog/p/why-american-ambulance-rides-are' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>GLM 5.2 的准确度几乎达到人类簿记员水平</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.4</span> <span class='hn-top-story-score'>&#9650; 162</span> <span class='hn-top-story-comments'>&#128172; 97</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Finance</span></div>
+<div class='hn-top-story-zh'>美国救护车收费为何如此昂贵</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 158</span> <span class='hn-top-story-comments'>&#128172; 198</span> <span class='hn-top-story-tag'>Health</span> <span class='hn-top-story-tag'>Finance</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='564' data-hn-time='1783590448'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='332' data-hn-time='1783616633'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/09/top_stories_07092026#story-48843352'>My thoughts on the Bun Rust rewrite</a>
- <a class='hn-top-story-link' href='https://andrewkelley.me/post/my-thoughts-bun-rust-rewrite.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/09/top_stories_07092026#story-48849059'>ChatGPT Work</a>
+ <a class='hn-top-story-link' href='https://openai.com/index/chatgpt-for-your-most-ambitious-work/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>我对 Bun 的 Rust 重写的一些看法</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 564</span> <span class='hn-top-story-comments'>&#128172; 490</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-zh'>ChatGPT 在工作中的应用</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 332</span> <span class='hn-top-story-comments'>&#128172; 171</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='300' data-hn-time='1783606222'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1300' data-hn-time='1783553863'>
 <span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/09/top_stories_07092026#story-48846184'>Muse Spark 1.1</a>
- <a class='hn-top-story-link' href='https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Muse Spark 1.1 推出</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.1</span> <span class='hn-top-story-score'>&#9650; 300</span> <span class='hn-top-story-comments'>&#128172; 164</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1285' data-hn-time='1783553863'>
-<span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/07/09/top_stories_07092026#story-48838876'>John Deere owners will get the right to repair equipment under FTC settlement</a>
  <a class='hn-top-story-link' href='https://apnews.com/article/john-deere-right-to-repair-agriculture-equipment-cb7514ffedb95c130a976af661f2bc02' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>FTC和解赋予约翰迪尔设备的修理权</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.8</span> <span class='hn-top-story-score'>&#9650; 1285</span> <span class='hn-top-story-comments'>&#128172; 267</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Legal</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 1300</span> <span class='hn-top-story-comments'>&#128172; 274</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='204' data-hn-time='1783610725'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='87' data-hn-time='1783644033'>
+<span class='hn-top-story-rank'>9</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/09/top_stories_07092026#story-48854363'>Focus</a>
+ <a class='hn-top-story-link' href='https://boz.com/articles/focus' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>专注</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 87</span> <span class='hn-top-story-comments'>&#128172; 48</span> <span class='hn-top-story-tag'>Education</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='564' data-hn-time='1783590448'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/09/top_stories_07092026#story-48847511'>A possible future for Damn Interesting</a>
- <a class='hn-top-story-link' href='https://www.damninteresting.com/a-possible-future/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/09/top_stories_07092026#story-48843352'>My thoughts on the Bun Rust rewrite</a>
+ <a class='hn-top-story-link' href='https://andrewkelley.me/post/my-thoughts-bun-rust-rewrite.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Damn Interesting 的未来可能走向</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 204</span> <span class='hn-top-story-comments'>&#128172; 23</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>我对 Bun 的 Rust 重写的一些看法</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.1</span> <span class='hn-top-story-score'>&#9650; 564</span> <span class='hn-top-story-comments'>&#128172; 490</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/07/09/top_stories_07092026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>35</b> <span class="hn-row-sep">·</span> AI <b>24</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>26</b> <span class="hn-row-sep">·</span> Programming <b>26</b></span>
 </a>
 </div>
 </div>
