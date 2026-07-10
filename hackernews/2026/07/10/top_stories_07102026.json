@@ -4,21 +4,67 @@
     "source": "https://news.ycombinator.com/",
     "api": "https://github.com/HackerNews/API",
     "count_requested": 50,
-    "count_written": 73,
-    "reused_same_day": 25,
-    "reused_cross_day": 0,
-    "new_llm_enriched": 23,
-    "scrape_time_display": "09:24, July 10, 2026 (PDT)",
+    "count_written": 90,
+    "reused_same_day": 32,
+    "reused_cross_day": 1,
+    "new_llm_enriched": 16,
+    "scrape_time_display": "12:22, July 10, 2026 (PDT)",
     "timezone": "America/Los_Angeles",
     "date_dir": "2026/07/10",
     "content_date": "2026-07-10",
-    "run_time_local": "09:24, July 10, 2026 (PDT)",
-    "run_time_utc": "2026-07-10 16:24:33 UTC",
+    "run_time_local": "12:22, July 10, 2026 (PDT)",
+    "run_time_utc": "2026-07-10 19:22:05 UTC",
     "incremental": true,
     "stories_max": 100,
-    "hot_score_time_utc": "2026-07-10 16:26:22 UTC"
+    "hot_score_time_utc": "2026-07-10 19:23:14 UTC"
   },
   "items": [
+    {
+      "title_en": "QuadRF can spot drones and see WiFi through my wall",
+      "url": "https://www.jeffgeerling.com/blog/2026/quadrf-can-spot-drones-and-see-wifi-through-my-wall/",
+      "title_zh": "QuadRF 能侦测无人机并穿墙探测 WiFi 信号",
+      "created_display": "Created: Jul 10, 2026 / 08:59 PT",
+      "image_url": "https://www.jeffgeerling.com/blog/2026/quadrf-can-spot-drones-and-see-wifi-through-my-wall/quadrf-antennna-array.jpeg",
+      "summary_en": "QuadRF demonstrates that RF sensing can reveal both drone activity and WiFi signals through walls. This kind of passive observation highlights security and privacy implications for home networks and aerial devices, even when devices aren't in visible sight. It also underscores practical limits like range, clutter, and legal boundaries.",
+      "summary_zh": "QuadRF 展示了射频探测可以在墙后揭示无人机活动和 WiFi 信号。这类被动观测引发对家庭网络和无人机安全与隐私的担忧，同时也暴露出覆盖范围、信号干扰和法律边界等局限。",
+      "hn": {
+        "id": 48861717,
+        "type": "story",
+        "by": "speckx",
+        "score": 241,
+        "descendants": 86,
+        "time": 1783699193,
+        "comments_url": "https://news.ycombinator.com/item?id=48861717"
+      },
+      "tags": [
+        "Security",
+        "Privacy",
+        "Legal"
+      ],
+      "hot_score": 11.57
+    },
+    {
+      "title_en": "GPT-5.6 Sol Ultra produces proof of the Cycle Double Cover Conjecture [pdf]",
+      "url": "https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf",
+      "title_zh": "GPT-5.6 Sol Ultra 产出循环双覆盖猜想的证明（PDF）",
+      "created_display": "Created: Jul 10, 2026 / 11:29 PT",
+      "image_url": null,
+      "summary_en": "GPT-5.6 Sol Ultra has produced a proof of the Cycle Double Cover Conjecture, with a PDF provided. If verified, this would mark a notable milestone in AI-assisted formal proofs and could accelerate future mathematical work, but the proof will be rigorously scrutinized by the community. The episode highlights AI's potential to aid deep mathematics while underscoring the need for careful validation.",
+      "summary_zh": "GPT-5.6 Sol Ultra 似乎给出了循环双覆盖猜想的证明，并附有 PDF。若经同行验证，这一成果可能标志着 AI 辅助形式化证明迈出重要一步，或加速后续的数学研究，但证明将接受严格审查。此事凸显 AI 在高深数学领域的潜力，同时也强调需要谨慎验证。",
+      "hn": {
+        "id": 48863490,
+        "type": "story",
+        "by": "scrlk",
+        "score": 67,
+        "descendants": 18,
+        "time": 1783708159,
+        "comments_url": "https://news.ycombinator.com/item?id=48863490"
+      },
+      "hot_score": 9.72,
+      "tags": [
+        "AI"
+      ]
+    },
     {
       "title_en": "Write code like a human will maintain it",
       "url": "https://unstack.io/write-code-like-a-human-will-maintain-it",
@@ -31,13 +77,237 @@
         "id": 48859701,
         "type": "story",
         "by": "ScottWRobinson",
-        "score": 193,
-        "descendants": 160,
+        "score": 269,
+        "descendants": 229,
         "time": 1783690380,
         "comments_url": "https://news.ycombinator.com/item?id=48859701"
       },
-      "hot_score": 11.03,
       "tags": [
+        "Programming"
+      ],
+      "hot_score": 6.59
+    },
+    {
+      "title_en": "New York City to become first in US to ban deceptive subscription practices",
+      "url": "https://www.theguardian.com/us-news/2026/jul/10/new-york-city-deceptive-subscriptions-ban",
+      "title_zh": "纽约市将成为美国首个禁止误导性订阅行为的城市",
+      "created_display": "Created: Jul 10, 2026 / 11:26 PT",
+      "image_url": "https://i.guim.co.uk/img/media/b522a4563292b5972c9443aa2001a8637f1266b5/72_226_2591_2073/master/2591.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=8576dc8571bc0efaa7b0ef0eb44b88fa",
+      "summary_en": "New York City plans to ban deceptive subscription practices, targeting tricks like hidden auto-renewals and opaque pricing. The crackdown could pressure platforms to simplify terms and improve consumer protections, with potential ripple effects beyond the city. It signals increasing policy focus on user-friendly subscription models.",
+      "summary_zh": "纽约市拟禁止欺骗性的订阅行为，打击隐藏自动续订和不透明定价等做法。此举可能促使平台简化条款、提升消费者保护，或在其他地区产生连锁影响，显示出对用户友好订阅模式日益增强的监管关注。",
+      "hn": {
+        "id": 48863464,
+        "type": "story",
+        "by": "randycupertino",
+        "score": 43,
+        "descendants": 10,
+        "time": 1783707984,
+        "comments_url": "https://news.ycombinator.com/item?id=48863464"
+      },
+      "hot_score": 6.0,
+      "tags": [
+        "Politics"
+      ]
+    },
+    {
+      "title_en": "Snails' Teeth Beats Spider Silk as Nature's Strongest Material (2015)",
+      "url": "https://www.smithsonianmag.com/smart-news/spider-silk-loses-top-spot-natures-strongest-material-snails-teeth-180954346/",
+      "title_zh": "蜗牛牙齿成自然界最强材料，超越蜘蛛丝（2015）",
+      "created_display": "Created: Jul 10, 2026 / 09:37 PT",
+      "image_url": "https://th-thumbnailer.cdn-si-edu.com/uJ3_0X-O9Zw4wRJ-4uPA6-8sY-8=/fit-in/1600x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/b6/2c/b62c97f3-8cc5-4351-9f3d-1641f48255cf/42-33773725.jpg",
+      "summary_en": "A 2015 study found that snail teeth are among the strongest natural materials, outmatching spider silk due to their mineralized structure. This reshapes assumptions about how biology builds tough materials and inspires bio-inspired engineering approaches. The finding continues to influence materials science discussions today.",
+      "summary_zh": "2015年的研究发现，蜗牛牙齿因矿化结构而具备极高强度，甚至超过蜘蛛丝。这一发现改变了对自然材料强度的直觉，并为生物启发式材料设计提供新思路，成为材料科学讨论的经典案例。",
+      "hn": {
+        "id": 48862252,
+        "type": "story",
+        "by": "simonebrunozzi",
+        "score": 86,
+        "descendants": 54,
+        "time": 1783701472,
+        "comments_url": "https://news.ycombinator.com/item?id=48862252"
+      },
+      "hot_score": 5.13,
+      "tags": [
+        "Science"
+      ]
+    },
+    {
+      "title_en": "The tech of 'Terminator 2' – an oral history (2017)",
+      "url": "https://vfxblog.com/2017/08/23/the-tech-of-terminator-2-an-oral-history/",
+      "title_zh": "《终结者2》技术：口述史（2017）",
+      "created_display": "Created: Jul 10, 2026 / 09:48 PT",
+      "image_url": "https://vfxblog.com/wp-content/uploads/2017/08/death1.jpg",
+      "summary_en": "An oral history revisits the technical feats behind Terminator 2, highlighting practical effects, model work, and the early balance between analog and digital tricks. It shows how teams solved filmic challenges with ingenuity under tight budgets and time pressures. The piece illuminates a pivotal moment in visual effects history.",
+      "summary_zh": "这部《终结者2》技术口述史回顾了特效背后的硬件与软件成就，强调实拍特效、模型工作以及早期的数字与模拟技术的结合。作者揭示了团队在预算和时间压力下如何凭借创造力解决难题，塑造了影像特效的历史转折点。",
+      "hn": {
+        "id": 48862365,
+        "type": "story",
+        "by": "markus_zhang",
+        "score": 78,
+        "descendants": 36,
+        "time": 1783702121,
+        "comments_url": "https://news.ycombinator.com/item?id=48862365"
+      },
+      "hot_score": 4.98,
+      "tags": [
+        "Entertainment"
+      ]
+    },
+    {
+      "title_en": "Late Bronze Age Collapse",
+      "url": "https://acoup.blog/2026/01/30/collections-the-late-bronze-age-collapse-a-very-brief-introduction/",
+      "title_zh": "晚青铜时代崩溃",
+      "created_display": "Created: Jul 10, 2026 / 04:59 PT",
+      "image_url": "https://i0.wp.com/acoup.blog/wp-content/uploads/2026/01/Medinet_Habu_Ramses_III._Tempel_Nordostwand_Abzeichnung_01.jpg?fit=1200%2C595&ssl=1",
+      "summary_en": "The Late Bronze Age collapse refers to a complex, multi-state disruption around 1200 BCE. The post offers a concise introduction to prevailing theories—from drought and famine to invasions and trade breakdown. It matters because it informs how interconnected civilizations can fail, a topic with resonance for modern supply chains and risk management.",
+      "summary_zh": "晚青铜时代崩溃指的是公元前约1200年的多国共同性崩溃，理论包括干旱、饥荒、入侵与贸易网络破裂等。该简介帮助理解为何高度互联的文明体系会崩溃，这对当今的供应链与风险管理仍具启示意义。",
+      "hn": {
+        "id": 48858737,
+        "type": "story",
+        "by": "dmonay",
+        "score": 253,
+        "descendants": 164,
+        "time": 1783684795,
+        "comments_url": "https://news.ycombinator.com/item?id=48858737"
+      },
+      "tags": [
+        "Education"
+      ],
+      "hot_score": 4.47
+    },
+    {
+      "title_en": "A Love Letter to Flashcards",
+      "url": "https://lesleylai.info/en/flashcards/",
+      "title_zh": "致敬抽认卡",
+      "created_display": "Created: Jul 10, 2026 / 08:30 PT",
+      "image_url": "https://lesleylai.info/_astro/rotation_as_two_reflection.DUOfpCFn_Z2wydEN.webp",
+      "summary_en": "A Love Letter to Flashcards praises flashcards as a learning tool, emphasizing spaced repetition and concise prompts. It discusses design choices that make flashcards effective and enduring in modern study workflows.",
+      "summary_zh": "这篇文章以情感笔触赞扬抽认卡在学习中的作用，强调分散性重复和简短提示的重要性。还讨论了让抽认卡在现代学习流程中高效持久的设计要点。",
+      "hn": {
+        "id": 48861319,
+        "type": "story",
+        "by": "surprisetalk",
+        "score": 93,
+        "descendants": 51,
+        "time": 1783697444,
+        "comments_url": "https://news.ycombinator.com/item?id=48861319"
+      },
+      "tags": [
+        "Education"
+      ],
+      "hot_score": 3.8
+    },
+    {
+      "title_en": "GPT-5.6",
+      "url": "https://openai.com/index/gpt-5-6/",
+      "title_zh": "GPT-5.6 版本",
+      "created_display": "Created: Jul 09, 2026 / 10:04 PT",
+      "image_url": "https://images.ctfassets.net/kftzwdyauwt9/3T0kxQLJk1VcXVxMwXF97J/4345df401f2b08ed6a1eef88c9588d2e/OAI_ChatGPTWork_ModelBlog_OpenGraph_16x9_1200x630.png?w=1600&h=900&fit=fill",
+      "summary_en": "A new GPT-5.6 model appears, signaling continued iteration on the GPT-5 family. Expect refinements in reasoning, safety, and efficiency, reflecting the ongoing cadence of large language model updates.",
+      "summary_zh": "GPT-5.6 版正逐步进入，表示 GPT-5 系列的持续迭代。预计在推理、安全与效率方面有改进，体现大语言模型更新的持续节奏。",
+      "hn": {
+        "id": 48849066,
+        "type": "story",
+        "by": "logickkk1",
+        "score": 1500,
+        "descendants": 1058,
+        "time": 1783616654,
+        "comments_url": "https://news.ycombinator.com/item?id=48849066"
+      },
+      "tags": [
+        "AI"
+      ],
+      "hot_score": 3.65
+    },
+    {
+      "title_en": "Successful Companies Go Blind",
+      "url": "https://ianreppel.org/how-successful-companies-go-blind/",
+      "title_zh": "成功的公司会变得盲目",
+      "created_display": "Created: Jul 10, 2026 / 06:31 PT",
+      "image_url": "https://ianreppel.org/images/2026-07-09-cavefish.jpeg",
+      "summary_en": "As companies scale, they can lose sight of fundamentals like customer needs and product quality. The article argues for deliberate checks—maintaining a 'healthy paranoia' about risk, investing in reliability, and keeping feedback loops intact.",
+      "summary_zh": "企业在快速成长后容易忽视基本面，如客户需求和产品质量。文章提倡保持对风险的健康警觉、加强可靠性建设，并维护有效的反馈循环。",
+      "hn": {
+        "id": 48859678,
+        "type": "story",
+        "by": "speckx",
+        "score": 136,
+        "descendants": 52,
+        "time": 1783690268,
+        "comments_url": "https://news.ycombinator.com/item?id=48859678"
+      },
+      "tags": [
+        "Business",
+        "Programming"
+      ],
+      "hot_score": 3.29
+    },
+    {
+      "title_en": "Good Tools Are Invisible",
+      "url": "https://www.gingerbill.org/article/2026/07/10/good-tools-are-invisible/",
+      "title_zh": "好工具往往无形",
+      "created_display": "Created: Jul 10, 2026 / 03:32 PT",
+      "image_url": null,
+      "summary_en": "Great tools fade into the background by design, reducing cognitive load and letting people focus on what matters. The piece cautions that invisibility should not hide value from teams and argues for clear outcomes and good integration.",
+      "summary_zh": "优秀的工具被设计为在工作流中隐形，降低认知负担，让人专注于核心任务。文章提醒不要让它们的价值被忽视，并强调要有清晰的成效与良好的集成。",
+      "hn": {
+        "id": 48858121,
+        "type": "story",
+        "by": "theanonymousone",
+        "score": 238,
+        "descendants": 127,
+        "time": 1783679561,
+        "comments_url": "https://news.ycombinator.com/item?id=48858121"
+      },
+      "tags": [
+        "Design"
+      ],
+      "hot_score": 3.25
+    },
+    {
+      "title_en": "EU Commission: addictive design Instagram and Facebook in breach of the DSA",
+      "url": "https://ec.europa.eu/commission/presscorner/home/en",
+      "title_zh": "欧盟委员会：Instagram 与 Facebook 的成瘾设计违反 DSA",
+      "created_display": "Created: Jul 10, 2026 / 04:00 PT",
+      "image_url": "https://ec.europa.eu/commission/presscorner/assets/framework/images/logo/ec_logo.png",
+      "summary_en": "The European Commission finds addictive design elements in Instagram and Facebook to breach the Digital Services Act, signaling a regulatory push against design choices that encourage prolonged use. The decision could push product teams to rethink engagement tactics and algorithmic incentives.",
+      "summary_zh": "欧盟委员会认定 Instagram 与 Facebook 的成瘾性设计违反《数字服务法》，标志着对促成长期使用的设计做法的监管加强。此举可能促使产品团队重新审视黏性设计与算法激励策略。",
+      "hn": {
+        "id": 48858292,
+        "type": "story",
+        "by": "jeroenhd",
+        "score": 217,
+        "descendants": 148,
+        "time": 1783681215,
+        "comments_url": "https://news.ycombinator.com/item?id=48858292"
+      },
+      "tags": [
+        "Politics",
+        "Privacy"
+      ],
+      "hot_score": 3.2
+    },
+    {
+      "title_en": "Anyone else get a vague GitHub shakedown notice?",
+      "url": "https://lists.osgeo.org/pipermail/qgis-developer/2026-July/068430.html",
+      "title_zh": "还有人收到模糊的 GitHub 要价通知吗？",
+      "created_display": "Created: Jul 10, 2026 / 09:57 PT",
+      "image_url": null,
+      "summary_en": "People report receiving vague enforcement or policy notices from GitHub about project requirements, creating uncertainty for maintainers and contributors. The thread underscores tensions between platform governance and robust open-source workflows, and the need for clearer guidance. It’s a heads-up for teams relying on GitHub for collaboration.",
+      "summary_zh": "有网友反映收到来自 GitHub 的模糊执法/政策通知，关于项目要求，给维护者与贡献者带来不确定性。这一讨论凸显平台治理与开源工作流之间的紧张关系，以及对更清晰指引的需求。提醒依赖 GitHub 进行协作的团队注意。",
+      "hn": {
+        "id": 48862467,
+        "type": "story",
+        "by": "jjgreen",
+        "score": 43,
+        "descendants": 38,
+        "time": 1783702655,
+        "comments_url": "https://news.ycombinator.com/item?id=48862467"
+      },
+      "hot_score": 2.88,
+      "tags": [
+        "Open Source",
+        "DevOps",
         "Programming"
       ]
     },
@@ -58,169 +328,10 @@
         "time": 1783690219,
         "comments_url": "https://news.ycombinator.com/item?id=48859671"
       },
-      "hot_score": 6.67,
+      "hot_score": 2.87,
       "tags": [
         "Privacy",
         "Culture"
-      ]
-    },
-    {
-      "title_en": "Late Bronze Age Collapse",
-      "url": "https://acoup.blog/2026/01/30/collections-the-late-bronze-age-collapse-a-very-brief-introduction/",
-      "title_zh": "晚青铜时代崩溃",
-      "created_display": "Created: Jul 10, 2026 / 04:59 PT",
-      "image_url": "https://i0.wp.com/acoup.blog/wp-content/uploads/2026/01/Medinet_Habu_Ramses_III._Tempel_Nordostwand_Abzeichnung_01.jpg?fit=1200%2C595&ssl=1",
-      "summary_en": "The Late Bronze Age collapse refers to a complex, multi-state disruption around 1200 BCE. The post offers a concise introduction to prevailing theories—from drought and famine to invasions and trade breakdown. It matters because it informs how interconnected civilizations can fail, a topic with resonance for modern supply chains and risk management.",
-      "summary_zh": "晚青铜时代崩溃指的是公元前约1200年的多国共同性崩溃，理论包括干旱、饥荒、入侵与贸易网络破裂等。该简介帮助理解为何高度互联的文明体系会崩溃，这对当今的供应链与风险管理仍具启示意义。",
-      "hn": {
-        "id": 48858737,
-        "type": "story",
-        "by": "dmonay",
-        "score": 184,
-        "descendants": 96,
-        "time": 1783684795,
-        "comments_url": "https://news.ycombinator.com/item?id=48858737"
-      },
-      "hot_score": 6.4,
-      "tags": [
-        "Science"
-      ]
-    },
-    {
-      "title_en": "EU Commission: addictive design Instagram and Facebook in breach of the DSA",
-      "url": "https://ec.europa.eu/commission/presscorner/home/en",
-      "title_zh": "欧盟委员会：Instagram 与 Facebook 的成瘾设计违反 DSA",
-      "created_display": "Created: Jul 10, 2026 / 04:00 PT",
-      "image_url": "https://ec.europa.eu/commission/presscorner/assets/framework/images/logo/ec_logo.png",
-      "summary_en": "The European Commission finds addictive design elements in Instagram and Facebook to breach the Digital Services Act, signaling a regulatory push against design choices that encourage prolonged use. The decision could push product teams to rethink engagement tactics and algorithmic incentives.",
-      "summary_zh": "欧盟委员会认定 Instagram 与 Facebook 的成瘾性设计违反《数字服务法》，标志着对促成长期使用的设计做法的监管加强。此举可能促使产品团队重新审视黏性设计与算法激励策略。",
-      "hn": {
-        "id": 48858292,
-        "type": "story",
-        "by": "jeroenhd",
-        "score": 173,
-        "descendants": 127,
-        "time": 1783681215,
-        "comments_url": "https://news.ycombinator.com/item?id=48858292"
-      },
-      "tags": [
-        "Politics",
-        "Legal"
-      ],
-      "hot_score": 4.65
-    },
-    {
-      "title_en": "QuadRF can spot drones and see WiFi through my wall",
-      "url": "https://www.jeffgeerling.com/blog/2026/quadrf-can-spot-drones-and-see-wifi-through-my-wall/",
-      "title_zh": "QuadRF 能侦测无人机并穿墙探测 WiFi 信号",
-      "created_display": "Created: Jul 10, 2026 / 08:59 PT",
-      "image_url": "https://www.jeffgeerling.com/blog/2026/quadrf-can-spot-drones-and-see-wifi-through-my-wall/quadrf-antennna-array.jpeg",
-      "summary_en": "QuadRF demonstrates that RF sensing can reveal both drone activity and WiFi signals through walls. This kind of passive observation highlights security and privacy implications for home networks and aerial devices, even when devices aren't in visible sight. It also underscores practical limits like range, clutter, and legal boundaries.",
-      "summary_zh": "QuadRF 展示了射频探测可以在墙后揭示无人机活动和 WiFi 信号。这类被动观测引发对家庭网络和无人机安全与隐私的担忧，同时也暴露出覆盖范围、信号干扰和法律边界等局限。",
-      "hn": {
-        "id": 48861717,
-        "type": "story",
-        "by": "speckx",
-        "score": 24,
-        "descendants": 3,
-        "time": 1783699193,
-        "comments_url": "https://news.ycombinator.com/item?id=48861717"
-      },
-      "hot_score": 4.61,
-      "tags": [
-        "Security",
-        "Privacy",
-        "Legal"
-      ]
-    },
-    {
-      "title_en": "GPT-5.6",
-      "url": "https://openai.com/index/gpt-5-6/",
-      "title_zh": "GPT-5.6 版本",
-      "created_display": "Created: Jul 09, 2026 / 10:04 PT",
-      "image_url": "https://images.ctfassets.net/kftzwdyauwt9/3T0kxQLJk1VcXVxMwXF97J/4345df401f2b08ed6a1eef88c9588d2e/OAI_ChatGPTWork_ModelBlog_OpenGraph_16x9_1200x630.png?w=1600&h=900&fit=fill",
-      "summary_en": "A new GPT-5.6 model appears, signaling continued iteration on the GPT-5 family. Expect refinements in reasoning, safety, and efficiency, reflecting the ongoing cadence of large language model updates.",
-      "summary_zh": "GPT-5.6 版正逐步进入，表示 GPT-5 系列的持续迭代。预计在推理、安全与效率方面有改进，体现大语言模型更新的持续节奏。",
-      "hn": {
-        "id": 48849066,
-        "type": "story",
-        "by": "logickkk1",
-        "score": 1461,
-        "descendants": 1028,
-        "time": 1783616654,
-        "comments_url": "https://news.ycombinator.com/item?id=48849066"
-      },
-      "tags": [
-        "AI"
-      ],
-      "hot_score": 4.33
-    },
-    {
-      "title_en": "A Love Letter to Flashcards",
-      "url": "https://lesleylai.info/en/flashcards/",
-      "title_zh": "致敬抽认卡",
-      "created_display": "Created: Jul 10, 2026 / 08:30 PT",
-      "image_url": "https://lesleylai.info/_astro/rotation_as_two_reflection.DUOfpCFn_Z2wydEN.webp",
-      "summary_en": "A Love Letter to Flashcards praises flashcards as a learning tool, emphasizing spaced repetition and concise prompts. It discusses design choices that make flashcards effective and enduring in modern study workflows.",
-      "summary_zh": "这篇文章以情感笔触赞扬抽认卡在学习中的作用，强调分散性重复和简短提示的重要性。还讨论了让抽认卡在现代学习流程中高效持久的设计要点。",
-      "hn": {
-        "id": 48861319,
-        "type": "story",
-        "by": "surprisetalk",
-        "score": 30,
-        "descendants": 5,
-        "time": 1783697444,
-        "comments_url": "https://news.ycombinator.com/item?id=48861319"
-      },
-      "hot_score": 4.2,
-      "tags": [
-        "Education",
-        "Design"
-      ]
-    },
-    {
-      "title_en": "Good Tools Are Invisible",
-      "url": "https://www.gingerbill.org/article/2026/07/10/good-tools-are-invisible/",
-      "title_zh": "好工具往往无形",
-      "created_display": "Created: Jul 10, 2026 / 03:32 PT",
-      "image_url": null,
-      "summary_en": "Great tools fade into the background by design, reducing cognitive load and letting people focus on what matters. The piece cautions that invisibility should not hide value from teams and argues for clear outcomes and good integration.",
-      "summary_zh": "优秀的工具被设计为在工作流中隐形，降低认知负担，让人专注于核心任务。文章提醒不要让它们的价值被忽视，并强调要有清晰的成效与良好的集成。",
-      "hn": {
-        "id": 48858121,
-        "type": "story",
-        "by": "theanonymousone",
-        "score": 154,
-        "descendants": 97,
-        "time": 1783679561,
-        "comments_url": "https://news.ycombinator.com/item?id=48858121"
-      },
-      "hot_score": 3.71,
-      "tags": [
-        "Design"
-      ]
-    },
-    {
-      "title_en": "Successful Companies Go Blind",
-      "url": "https://ianreppel.org/how-successful-companies-go-blind/",
-      "title_zh": "成功的公司会变得盲目",
-      "created_display": "Created: Jul 10, 2026 / 06:31 PT",
-      "image_url": "https://ianreppel.org/images/2026-07-09-cavefish.jpeg",
-      "summary_en": "As companies scale, they can lose sight of fundamentals like customer needs and product quality. The article argues for deliberate checks—maintaining a 'healthy paranoia' about risk, investing in reliability, and keeping feedback loops intact.",
-      "summary_zh": "企业在快速成长后容易忽视基本面，如客户需求和产品质量。文章提倡保持对风险的健康警觉、加强可靠性建设，并维护有效的反馈循环。",
-      "hn": {
-        "id": 48859678,
-        "type": "story",
-        "by": "speckx",
-        "score": 66,
-        "descendants": 27,
-        "time": 1783690268,
-        "comments_url": "https://news.ycombinator.com/item?id=48859678"
-      },
-      "hot_score": 3.69,
-      "tags": [
-        "Business",
-        "Programming"
       ]
     },
     {
@@ -235,8 +346,8 @@
         "id": 48843923,
         "type": "story",
         "by": "rapnie",
-        "score": 1537,
-        "descendants": 776,
+        "score": 1572,
+        "descendants": 796,
         "time": 1783595034,
         "comments_url": "https://news.ycombinator.com/item?id=48843923"
       },
@@ -244,7 +355,211 @@
         "Politics",
         "Privacy"
       ],
-      "hot_score": 3.11
+      "hot_score": 2.7
+    },
+    {
+      "title_en": "War Atlas: An interactive cartography of every named war in human history",
+      "url": "https://waratlas.org",
+      "title_zh": "战争地图集：互动呈现人类历史上的所有命名战争",
+      "created_display": "Created: Jul 10, 2026 / 10:52 PT",
+      "image_url": "https://waratlas.org/og-card.png",
+      "summary_en": "War Atlas offers an interactive map of named wars across history, letting users explore when and where conflicts happened and how large they were. The visualization helps researchers, educators, and curious readers grasp the scale and geography of conflict over time. It’s a compelling data-driven lens on world history.",
+      "summary_zh": "War Atlas 提供跨历史的命名战争互动地图，便于用户查看战争发生的时间、地点及规模。该可视化工具对研究者、教育工作者与好奇读者理解冲突的时空分布具有帮助，提供了以数据驱动的历史视角。",
+      "hn": {
+        "id": 48863080,
+        "type": "story",
+        "by": "NaOH",
+        "score": 26,
+        "descendants": 9,
+        "time": 1783705968,
+        "comments_url": "https://news.ycombinator.com/item?id=48863080"
+      },
+      "hot_score": 2.61,
+      "tags": [
+        "Data",
+        "Education"
+      ]
+    },
+    {
+      "title_en": "How the Terrorist Group Boko Haram Uses Frontier AI",
+      "url": "https://casp.ac/reports/ai-enabled-terrorism",
+      "title_zh": "恐怖组织博科圣地如何利用前沿人工智能",
+      "created_display": "Created: Jul 10, 2026 / 11:49 PT",
+      "image_url": "https://storage.googleapis.com/gpt-engineer-file-uploads/AwmrFUJUl1Miu5dNMpFBx8P372K3/social-images/social-1783516958074-CASP_Social_Logos_White.webp",
+      "summary_en": "A CASP report documents how Boko Haram leverages frontier AI to plan and execute operations, illustrating the evolving threat of AI-enabled extremism. The findings underscore the need for monitoring, safeguards, and countermeasures to prevent misuse. It also highlights the broader risk landscape as AI technologies spread.",
+      "summary_zh": "一份 CASP 报告揭示博科圣地利用前沿 AI 进行作战计划与行动，体现了 AI 助力极端主义的新演变。研究强调需要加强监控、建立防护措施并制定对策以防止滥用，同时也反映出随着 AI 技术普及，风险格局正在扩大。",
+      "hn": {
+        "id": 48863707,
+        "type": "story",
+        "by": "imustachyou",
+        "score": 14,
+        "descendants": 2,
+        "time": 1783709366,
+        "comments_url": "https://news.ycombinator.com/item?id=48863707"
+      },
+      "hot_score": 2.39,
+      "tags": [
+        "AI",
+        "Security"
+      ]
+    },
+    {
+      "title_en": "AI-generated videos to maximally drive a target brain region",
+      "url": "https://nevo-project.epfl.ch/",
+      "title_zh": "AI 生成视频以最大化激活目标脑区",
+      "created_display": "Created: Jul 10, 2026 / 00:39 PT",
+      "image_url": null,
+      "summary_en": "Researchers are using AI-generated videos to selectively stimulate a target brain region, aiming to drive neural activity more efficiently with visual input. The approach could advance noninvasive brain stimulation and brain–computer interfaces, but it also raises questions about safety, biases in generative models, and ethical implications of neural manipulation.",
+      "summary_zh": "研究人员利用 AI 生成的视频来有选择地激活某一脑区，试图通过视觉刺激更高效地驱动神经活动。该技术若成熟可推动非侵入性脑刺激和脑机接口的发展，同时也引发关于安全、生成模型偏差与神经操控伦理等问题的讨论。",
+      "hn": {
+        "id": 48856904,
+        "type": "story",
+        "by": "smusamashah",
+        "score": 243,
+        "descendants": 210,
+        "time": 1783669151,
+        "comments_url": "https://news.ycombinator.com/item?id=48856904"
+      },
+      "tags": [
+        "AI",
+        "Health"
+      ],
+      "hot_score": 2.17
+    },
+    {
+      "title_en": "Show HN: 18 Words",
+      "url": "https://18words.com/",
+      "title_zh": "Show HN: 18 Words",
+      "created_display": "Created: Jul 09, 2026 / 05:48 PT",
+      "image_url": "https://18words.com/og-image.png",
+      "summary_en": "Show HN: 18 Words introduces a minimal writing tool that limits posts to 18 words, prioritizing brevity and speed. It exemplifies a design philosophy where constraints drive clarity and reduce noise.",
+      "summary_zh": "Show HN: 18 Words 展示了一个极简写作工具，帖子被限制为18个单词，强调简洁与快速分享。此举体现了通过约束提升表达清晰度、降低噪声的设计理念。",
+      "hn": {
+        "id": 48845049,
+        "type": "story",
+        "by": "pompomsheep",
+        "score": 1076,
+        "descendants": 342,
+        "time": 1783601332,
+        "comments_url": "https://news.ycombinator.com/item?id=48845049"
+      },
+      "tags": [
+        "Show HN"
+      ],
+      "hot_score": 2.03
+    },
+    {
+      "title_en": "Computation as a Universal and Fundamental Concept",
+      "url": "https://ergo.org/courses/computation-as-a-universal-and-fundamental-concept",
+      "title_zh": "计算被视为普遍且基本的概念",
+      "created_display": "Created: Jul 10, 2026 / 08:23 PT",
+      "image_url": "https://www.ergo.org/assets/computation-as-a-fundamental-and-universal-concept-art-lg.webp",
+      "summary_en": "A discussion framing computation as a universal, fundamental idea that underpins sciences, math, and engineering. It promotes computational thinking as a cross-disciplinary literacy.",
+      "summary_zh": "讨论将计算视为跨科普与工程等领域的普遍、基础的概念，倡导计算思维作为跨学科的基础素养。",
+      "hn": {
+        "id": 48861213,
+        "type": "story",
+        "by": "simonpure",
+        "score": 39,
+        "descendants": 37,
+        "time": 1783697022,
+        "comments_url": "https://news.ycombinator.com/item?id=48861213"
+      },
+      "tags": [
+        "Science",
+        "Education"
+      ],
+      "hot_score": 1.51
+    },
+    {
+      "title_en": "Ask HN: What was the last task where only a frontier model could do it?",
+      "url": "https://news.ycombinator.com/item?id=48863171",
+      "title_zh": "Ask HN：上一次只有前沿模型才能完成的任务是什么？",
+      "created_display": "Created: Jul 10, 2026 / 11:02 PT",
+      "image_url": "https://news.ycombinator.com/y18.svg",
+      "summary_en": "A discussion about tasks that only frontier models can now perform, exploring new capabilities, limits, and potential applications unlocked by cutting-edge AI. It invites concrete examples and invites comparison with earlier model generations. A snapshot of the AI frontier in practice.",
+      "summary_zh": "关于“上一次只有前沿模型能完成的任务”的讨论，聚焦新能力、局限与前沿 AI 带来的潜在应用。邀请给出具体案例并与早期模型进行对比，折射人工智能前沿在实际中的表现。",
+      "hn": {
+        "id": 48863171,
+        "type": "story",
+        "by": "thedebuglife",
+        "score": 14,
+        "descendants": 14,
+        "time": 1783706522,
+        "comments_url": "https://news.ycombinator.com/item?id=48863171"
+      },
+      "hot_score": 1.47,
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title_en": "In Emacs, Everything Looks Like a Service",
+      "url": "http://yummymelon.com/devnull/in-emacs-everything-looks-like-a-service.html",
+      "title_zh": "在 Emacs 中，一切看起来像服务",
+      "created_display": "Created: Jul 10, 2026 / 01:21 PT",
+      "image_url": "http://yummymelon.com/devnull/images/opengraph-default.jpg",
+      "summary_en": "An essay arguing for modular, service-like abstractions in Emacs customization to improve composability and testability. It discusses trade-offs between simplicity and modularity and offers practical guidance.",
+      "summary_zh": "作者主张在 Emacs 的扩展中采用类似服务的模块化抽象，以提升组合性和测试性。讨论了简化与模块化之间的取舍，并给出实际建议。",
+      "hn": {
+        "id": 48857230,
+        "type": "story",
+        "by": "kickingvegas",
+        "score": 145,
+        "descendants": 82,
+        "time": 1783671670,
+        "comments_url": "https://news.ycombinator.com/item?id=48857230"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 1.42
+    },
+    {
+      "title_en": "John Deere owners will get the right to repair equipment under FTC settlement",
+      "url": "https://apnews.com/article/john-deere-right-to-repair-agriculture-equipment-cb7514ffedb95c130a976af661f2bc02",
+      "title_zh": "FTC和解赋予约翰迪尔设备的修理权",
+      "created_display": "Created: Jul 08, 2026 / 16:37 PT",
+      "image_url": "https://dims.apnews.com/dims4/default/eb2d449/2147483647/strip/true/crop/4513x3007+0+162/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fca%2Fc8%2F5fff3b3e7c95ef4bbd4696383598%2F674e975157b745d28967fa953a18c3d4",
+      "summary_en": "An FTC settlement grants John Deere equipment owners the right to repair, potentially lowering downtime and repair costs. It signals a shift toward repairability by nudging OEMs to share tools, manuals, and parts, and could boost independent repair shops. This case could influence broader right-to-repair momentum in tech-enabled farming.",
+      "summary_zh": "FTC与约翰迪尔设备修理权的和解，可能降低停机时间与维修成本，推动制造商提供维修工具、手册与零件。此举或促成独立修理商的兴起，或对农业科技领域的修理权运动产生示范效应。",
+      "hn": {
+        "id": 48838876,
+        "type": "story",
+        "by": "djoldman",
+        "score": 1355,
+        "descendants": 294,
+        "time": 1783553863,
+        "comments_url": "https://news.ycombinator.com/item?id=48838876"
+      },
+      "tags": [
+        "Legal",
+        "Business"
+      ],
+      "hot_score": 1.39
+    },
+    {
+      "title_en": "ActivityPub over ATProto (2023)",
+      "url": "https://berjon.com/ap-at/",
+      "title_zh": "ActivityPub 在 ATProto 上的实现",
+      "created_display": "Created: Jul 10, 2026 / 06:40 PT",
+      "image_url": "https://berjon.com/ap-at/chimera.jpg",
+      "summary_en": "Discusses interoperability by running ActivityPub over ATProto, exploring how federated networks could interconnect and what UX implications this would entail.",
+      "summary_zh": "探讨在 ATProto 上实现 ActivityPub 的互通性，研究联邦网络如何互联以及可能带来的用户体验影响。",
+      "hn": {
+        "id": 48859784,
+        "type": "story",
+        "by": "albuic",
+        "score": 52,
+        "descendants": 32,
+        "time": 1783690801,
+        "comments_url": "https://news.ycombinator.com/item?id=48859784"
+      },
+      "tags": [
+        "Web",
+        "Open Source"
+      ],
+      "hot_score": 1.29
     },
     {
       "title_en": "Europe's Largest Unions Demand Right to Cancel Work on Days Above 30C",
@@ -263,124 +578,35 @@
         "time": 1783688389,
         "comments_url": "https://news.ycombinator.com/item?id=48859298"
       },
-      "hot_score": 2.75,
+      "hot_score": 1.26,
       "tags": [
-        "Politics"
+        "Politics",
+        "Health"
       ]
     },
     {
-      "title_en": "AI-generated videos to maximally drive a target brain region",
-      "url": "https://nevo-project.epfl.ch/",
-      "title_zh": "AI 生成视频以最大化激活目标脑区",
-      "created_display": "Created: Jul 10, 2026 / 00:39 PT",
-      "image_url": null,
-      "summary_en": "Researchers are using AI-generated videos to selectively stimulate a target brain region, aiming to drive neural activity more efficiently with visual input. The approach could advance noninvasive brain stimulation and brain–computer interfaces, but it also raises questions about safety, biases in generative models, and ethical implications of neural manipulation.",
-      "summary_zh": "研究人员利用 AI 生成的视频来有选择地激活某一脑区，试图通过视觉刺激更高效地驱动神经活动。该技术若成熟可推动非侵入性脑刺激和脑机接口的发展，同时也引发关于安全、生成模型偏差与神经操控伦理等问题的讨论。",
+      "title_en": "Show HN: Getting GLM 5.2 running on my slow computer",
+      "url": "https://github.com/JustVugg/colibri",
+      "title_zh": "Show HN：在慢速电脑上让 GLM 5.2 运行起来",
+      "created_display": "Created: Jul 09, 2026 / 01:05 PT",
+      "image_url": "https://opengraph.githubassets.com/920a5778591423aba16f21b7a1a444d2ef57f5460bb706bc62cbb50652f0c112/JustVugg/colibri",
+      "summary_en": "A developer documents getting GLM 5.2 to run on a slow machine, sharing practical steps, constraints, and tweaks. It shows how lightweight inference paths and community tooling can unlock usable performance on modest hardware.",
+      "summary_zh": "开发者记录在慢速计算机上运行 GLM 5.2 的过程，提供具体步骤、限制与调整方法。展示了通过轻量化推理路径和社区工具在中等硬件上也能获得可用性能的可能。",
       "hn": {
-        "id": 48856904,
+        "id": 48842459,
         "type": "story",
-        "by": "smusamashah",
-        "score": 189,
-        "descendants": 192,
-        "time": 1783669151,
-        "comments_url": "https://news.ycombinator.com/item?id=48856904"
+        "by": "vforno",
+        "score": 819,
+        "descendants": 201,
+        "time": 1783584304,
+        "comments_url": "https://news.ycombinator.com/item?id=48842459"
       },
       "tags": [
         "AI",
-        "Science"
+        "Show HN",
+        "Hardware"
       ],
-      "hot_score": 2.6
-    },
-    {
-      "title_en": "Show HN: 18 Words",
-      "url": "https://18words.com/",
-      "title_zh": "Show HN: 18 Words",
-      "created_display": "Created: Jul 09, 2026 / 05:48 PT",
-      "image_url": "https://18words.com/og-image.png",
-      "summary_en": "Show HN: 18 Words introduces a minimal writing tool that limits posts to 18 words, prioritizing brevity and speed. It exemplifies a design philosophy where constraints drive clarity and reduce noise.",
-      "summary_zh": "Show HN: 18 Words 展示了一个极简写作工具，帖子被限制为18个单词，强调简洁与快速分享。此举体现了通过约束提升表达清晰度、降低噪声的设计理念。",
-      "hn": {
-        "id": 48845049,
-        "type": "story",
-        "by": "pompomsheep",
-        "score": 1063,
-        "descendants": 340,
-        "time": 1783601332,
-        "comments_url": "https://news.ycombinator.com/item?id=48845049"
-      },
-      "tags": [
-        "Show HN"
-      ],
-      "hot_score": 2.38
-    },
-    {
-      "title_en": "ActivityPub over ATProto",
-      "url": "https://berjon.com/ap-at/",
-      "title_zh": "ActivityPub 在 ATProto 上的实现",
-      "created_display": "Created: Jul 10, 2026 / 06:40 PT",
-      "image_url": "https://berjon.com/ap-at/chimera.jpg",
-      "summary_en": "Discusses interoperability by running ActivityPub over ATProto, exploring how federated networks could interconnect and what UX implications this would entail.",
-      "summary_zh": "探讨在 ATProto 上实现 ActivityPub 的互通性，研究联邦网络如何互联以及可能带来的用户体验影响。",
-      "hn": {
-        "id": 48859784,
-        "type": "story",
-        "by": "albuic",
-        "score": 37,
-        "descendants": 16,
-        "time": 1783690801,
-        "comments_url": "https://news.ycombinator.com/item?id=48859784"
-      },
-      "hot_score": 2.16,
-      "tags": [
-        "Web",
-        "Open Source"
-      ]
-    },
-    {
-      "title_en": "In Emacs, Everything Looks Like a Service",
-      "url": "http://yummymelon.com/devnull/in-emacs-everything-looks-like-a-service.html",
-      "title_zh": "在 Emacs 中，一切看起来像服务",
-      "created_display": "Created: Jul 10, 2026 / 01:21 PT",
-      "image_url": "http://yummymelon.com/devnull/images/opengraph-default.jpg",
-      "summary_en": "An essay arguing for modular, service-like abstractions in Emacs customization to improve composability and testability. It discusses trade-offs between simplicity and modularity and offers practical guidance.",
-      "summary_zh": "作者主张在 Emacs 的扩展中采用类似服务的模块化抽象，以提升组合性和测试性。讨论了简化与模块化之间的取舍，并给出实际建议。",
-      "hn": {
-        "id": 48857230,
-        "type": "story",
-        "by": "kickingvegas",
-        "score": 110,
-        "descendants": 64,
-        "time": 1783671670,
-        "comments_url": "https://news.ycombinator.com/item?id=48857230"
-      },
-      "hot_score": 1.7,
-      "tags": [
-        "Programming",
-        "Design"
-      ]
-    },
-    {
-      "title_en": "John Deere owners will get the right to repair equipment under FTC settlement",
-      "url": "https://apnews.com/article/john-deere-right-to-repair-agriculture-equipment-cb7514ffedb95c130a976af661f2bc02",
-      "title_zh": "FTC和解赋予约翰迪尔设备的修理权",
-      "created_display": "Created: Jul 08, 2026 / 16:37 PT",
-      "image_url": "https://dims.apnews.com/dims4/default/eb2d449/2147483647/strip/true/crop/4513x3007+0+162/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fca%2Fc8%2F5fff3b3e7c95ef4bbd4696383598%2F674e975157b745d28967fa953a18c3d4",
-      "summary_en": "An FTC settlement grants John Deere equipment owners the right to repair, potentially lowering downtime and repair costs. It signals a shift toward repairability by nudging OEMs to share tools, manuals, and parts, and could boost independent repair shops. This case could influence broader right-to-repair momentum in tech-enabled farming.",
-      "summary_zh": "FTC与约翰迪尔设备修理权的和解，可能降低停机时间与维修成本，推动制造商提供维修工具、手册与零件。此举或促成独立修理商的兴起，或对农业科技领域的修理权运动产生示范效应。",
-      "hn": {
-        "id": 48838876,
-        "type": "story",
-        "by": "djoldman",
-        "score": 1346,
-        "descendants": 292,
-        "time": 1783553863,
-        "comments_url": "https://news.ycombinator.com/item?id=48838876"
-      },
-      "tags": [
-        "Politics",
-        "Legal"
-      ],
-      "hot_score": 1.56
+      "hot_score": 1.21
     },
     {
       "title_en": "Hy3",
@@ -402,54 +628,78 @@
       "tags": [
         "AI"
       ],
-      "hot_score": 1.41
+      "hot_score": 1.17
     },
     {
-      "title_en": "Show HN: Getting GLM 5.2 running on my slow computer",
-      "url": "https://github.com/JustVugg/colibri",
-      "title_zh": "Show HN：在慢速电脑上让 GLM 5.2 运行起来",
-      "created_display": "Created: Jul 09, 2026 / 01:05 PT",
-      "image_url": "https://opengraph.githubassets.com/920a5778591423aba16f21b7a1a444d2ef57f5460bb706bc62cbb50652f0c112/JustVugg/colibri",
-      "summary_en": "A developer documents getting GLM 5.2 to run on a slow machine, sharing practical steps, constraints, and tweaks. It shows how lightweight inference paths and community tooling can unlock usable performance on modest hardware.",
-      "summary_zh": "开发者记录在慢速计算机上运行 GLM 5.2 的过程，提供具体步骤、限制与调整方法。展示了通过轻量化推理路径和社区工具在中等硬件上也能获得可用性能的可能。",
+      "title_en": "Hands-On with the AMD Ryzen AI Halo",
+      "url": "https://www.microcenter.com/site/mc-news/article/amd-ryzen-ai-halo-review.aspx",
+      "title_zh": "AMD Ryzen AI Halo 实测",
+      "created_display": "Created: Jul 10, 2026 / 09:06 PT",
+      "image_url": null,
+      "summary_en": "Hands-on coverage of AMD Ryzen AI Halo examines its AI acceleration capabilities, performance, and integration with workflows. The review weighs real-world benefits and potential bottlenecks for developers and researchers considering AMD hardware for AI tasks. It sheds light on how hardware-software synergy shapes practical AI work.",
+      "summary_zh": "对 AMD Ryzen AI Halo 的实测评测关注其 AI 加速能力、性能表现及与工作流的整合。评测评估在实际 AI 任务中带来的收益与潜在瓶颈，为考虑使用该硬件的开发者与研究者提供参考。",
       "hn": {
-        "id": 48842459,
+        "id": 48861833,
         "type": "story",
-        "by": "vforno",
-        "score": 801,
-        "descendants": 198,
-        "time": 1783584304,
-        "comments_url": "https://news.ycombinator.com/item?id=48842459"
+        "by": "bdcravens",
+        "score": 23,
+        "descendants": 26,
+        "time": 1783699598,
+        "comments_url": "https://news.ycombinator.com/item?id=48861833"
+      },
+      "hot_score": 1.1,
+      "tags": [
+        "AI",
+        "Hardware"
+      ]
+    },
+    {
+      "title_en": "Filipino virtual assistants behind LinkedIn's \"thought leadership\" content mill",
+      "url": "https://restofworld.org/2026/virtual-assistant-linkedin-engagement/",
+      "title_zh": "菲律宾虚拟助理推动 LinkedIn 的“思想领袖”内容工厂",
+      "created_display": "Created: Jul 10, 2026 / 10:58 PT",
+      "image_url": "https://restofworld.org/wp-content/uploads/2026/05/illo_linkflluencers_final-1600x900.jpg",
+      "summary_en": "A report reveals that a large portion of LinkedIn's ‘thought leadership’ content is produced by Filipino virtual assistants, highlighting outsourcing dynamics in professional content creation. The piece prompts questions about authenticity, labor practices, and the role of human editors in an AI-influenced workflow. It paints a nuanced picture of modern content economics.",
+      "summary_zh": "报道揭示 LinkedIn 的“思想领袖”内容很大比例由菲律宾虚拟助理撰写，凸显专业内容创作中的外包模式。引发关于真实性、劳动实践以及在 AI 影响下的编辑角色等问题，呈现现代内容经济的复杂图景。",
+      "hn": {
+        "id": 48863130,
+        "type": "story",
+        "by": "_tk_",
+        "score": 11,
+        "descendants": 1,
+        "time": 1783706309,
+        "comments_url": "https://news.ycombinator.com/item?id=48863130"
+      },
+      "hot_score": 1.1,
+      "tags": [
+        "Business",
+        "Culture",
+        "AI"
+      ]
+    },
+    {
+      "title_en": "Postgres rewritten in Rust, now passing 100% of the Postgres regression tests",
+      "url": "https://github.com/malisper/pgrust",
+      "title_zh": "用 Rust 重写 PostgreSQL，现已通过 100% 回归测试",
+      "created_display": "Created: Jul 08, 2026 / 23:18 PT",
+      "image_url": "https://opengraph.githubassets.com/a59ef3a90431cd3a74201544f1dcdb2c538a81e916a327bfd0c589ffc9b5582f/malisper/pgrust",
+      "summary_en": "A project to rewrite PostgreSQL components in Rust reports passing all regression tests, signaling Rust's viability for safety-critical system software. While not a drop-in replacement, the effort demonstrates how safer memory management and modern tooling could influence database internals.",
+      "summary_zh": "用 Rust 重写 PostgreSQL 组件的尝试声称已通过全部回归测试，显示 Rust 在安全性关键系统中的潜力。虽然不是直接的替代，但这项工作展示了更安全的内存管理与现代工具链对数据库内部实现的潜在影响。",
+      "hn": {
+        "id": 48841676,
+        "type": "story",
+        "by": "SweetSoftPillow",
+        "score": 776,
+        "descendants": 678,
+        "time": 1783577899,
+        "comments_url": "https://news.ycombinator.com/item?id=48841676"
       },
       "tags": [
-        "Show HN",
         "Programming",
         "Open Source",
-        "Hardware"
+        "Data"
       ],
-      "hot_score": 1.38
-    },
-    {
-      "title_en": "Proton AG Services is currently experiencing some issues",
-      "url": "https://status.proton.me/incidents/01lxtcq155lc",
-      "title_zh": "Proton AG 服务当前出现问题",
-      "created_display": "Created: Jul 10, 2026 / 06:36 PT",
-      "image_url": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png",
-      "summary_en": "Proton AG reports service issues affecting core offerings; outages may impact mail, VPN, and related services. The status page indicates incident details and ETA.",
-      "summary_zh": "Proton AG 相关服务当前出现故障，可能影响 Proton Mail、VPN 等核心服务。状态页公布事故详情及预计修复时间。",
-      "hn": {
-        "id": 48859752,
-        "type": "story",
-        "by": "exploraz",
-        "score": 24,
-        "descendants": 23,
-        "time": 1783690616,
-        "comments_url": "https://news.ycombinator.com/item?id=48859752"
-      },
-      "hot_score": 1.35,
-      "tags": [
-        "Web"
-      ]
+      "hot_score": 1.06
     },
     {
       "title_en": "Why American ambulance rides are so expensive",
@@ -472,31 +722,75 @@
         "Health",
         "Politics"
       ],
-      "hot_score": 1.23
+      "hot_score": 0.96
     },
     {
-      "title_en": "Postgres rewritten in Rust, now passing 100% of the Postgres regression tests",
-      "url": "https://github.com/malisper/pgrust",
-      "title_zh": "用 Rust 重写 PostgreSQL，现已通过 100% 回归测试",
-      "created_display": "Created: Jul 08, 2026 / 23:18 PT",
-      "image_url": "https://opengraph.githubassets.com/a59ef3a90431cd3a74201544f1dcdb2c538a81e916a327bfd0c589ffc9b5582f/malisper/pgrust",
-      "summary_en": "A project to rewrite PostgreSQL components in Rust reports passing all regression tests, signaling Rust's viability for safety-critical system software. While not a drop-in replacement, the effort demonstrates how safer memory management and modern tooling could influence database internals.",
-      "summary_zh": "用 Rust 重写 PostgreSQL 组件的尝试声称已通过全部回归测试，显示 Rust 在安全性关键系统中的潜力。虽然不是直接的替代，但这项工作展示了更安全的内存管理与现代工具链对数据库内部实现的潜在影响。",
+      "title_en": "The Annotated JEPA",
+      "url": "https://elonlit.com/scrivings/the-annotated-jepa/",
+      "title_zh": "JEPA 的注解版",
+      "created_display": "Created: Jul 10, 2026 / 06:45 PT",
+      "image_url": "https://elonlit.com/images/flowers3.webp",
+      "summary_en": "Annotated JEPA provides commentary to help readers understand the original text, with clarifications and context for modern audiences.",
+      "summary_zh": "JEPA 的注释版为读者提供额外的注释与背景，帮助现代读者理解原文内容。",
       "hn": {
-        "id": 48841676,
+        "id": 48859835,
         "type": "story",
-        "by": "SweetSoftPillow",
-        "score": 764,
-        "descendants": 662,
-        "time": 1783577899,
-        "comments_url": "https://news.ycombinator.com/item?id=48841676"
+        "by": "surprisetalk",
+        "score": 38,
+        "descendants": 6,
+        "time": 1783691105,
+        "comments_url": "https://news.ycombinator.com/item?id=48859835"
+      },
+      "tags": [
+        "Education"
+      ],
+      "hot_score": 0.95
+    },
+    {
+      "title_en": "Disable autoplay and infinite scroll or risk fines, EU tells Meta",
+      "url": "https://arstechnica.com/tech-policy/2026/07/disable-auto-play-and-infinite-scroll-or-risk-massive-fines-eu-tells-meta/",
+      "title_zh": "欧盟要求 Meta 禁用自动播放与无限滚动，否则罚款",
+      "created_display": "Created: Jul 10, 2026 / 10:40 PT",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2284791473-1024x648.jpg",
+      "summary_en": "EU regulators order Meta to disable autoplay and infinite scrolling to improve user control and privacy, with significant fines for non-compliance. The move signals growing regulatory attention to how large platforms shape user experience and data handling. It could push broader changes across the industry.",
+      "summary_zh": "欧盟监管机构要求 Meta 禁用自动播放和无限滚动，以提升用户控制和隐私，并对不合规者处以高额罚款。这一举措标志着监管对大型平台用户体验与数据处理方式的关注日益加强，可能推动行业向更广泛的变革。",
+      "hn": {
+        "id": 48862916,
+        "type": "story",
+        "by": "OptionOfT",
+        "score": 11,
+        "descendants": 0,
+        "time": 1783705242,
+        "comments_url": "https://news.ycombinator.com/item?id=48862916"
+      },
+      "hot_score": 0.94,
+      "tags": [
+        "Privacy",
+        "Politics"
+      ]
+    },
+    {
+      "title_en": "Interview with Mitchell Hashimoto about Ghostty and Zig",
+      "url": "https://alexalejandre.com/programming/interview-with-mitchell-hashimoto/",
+      "title_zh": "Mitchell Hashimoto 对 Ghostty 与 Zig 的访谈",
+      "created_display": "Created: Jul 09, 2026 / 10:17 PT",
+      "image_url": "https://alexalejandre.com//logo100.webp",
+      "summary_en": "Mitchell Hashimoto discusses the Ghostty project and the Zig language, focusing on design decisions, safety, and how these tools fit into modern DevOps and systems work. It offers perspective on building resilient tooling outside mainstream ecosystems.",
+      "summary_zh": "与 Mitchell Hashimoto 就 Ghostty 项目与 Zig 语言进行对话，聚焦设计抉择、安全性以及在现代开发运维和系统工作中的应用前景，提供对打造稳健工具生态的观点。",
+      "hn": {
+        "id": 48849292,
+        "type": "story",
+        "by": "veqq",
+        "score": 362,
+        "descendants": 203,
+        "time": 1783617436,
+        "comments_url": "https://news.ycombinator.com/item?id=48849292"
       },
       "tags": [
         "Programming",
-        "Open Source",
-        "Data"
+        "DevOps"
       ],
-      "hot_score": 1.2
+      "hot_score": 0.89
     },
     {
       "title_en": "The glass backbone: Why the Army's logistics will break in the next war",
@@ -516,9 +810,33 @@
         "comments_url": "https://news.ycombinator.com/item?id=48845442"
       },
       "tags": [
+        "Security",
         "Politics"
       ],
-      "hot_score": 1.0
+      "hot_score": 0.84
+    },
+    {
+      "title_en": "Show HN: Runloom – Go-style coroutines for Python free-threaded",
+      "url": "https://github.com/robertsdotpm/runloom",
+      "title_zh": "Show HN: Runloom——为 Python 提供 Go 风格的协程",
+      "created_display": "Created: Jul 10, 2026 / 06:07 PT",
+      "image_url": "https://opengraph.githubassets.com/deb828c74057951a24814d50e76a85970d5088db51c7e5f74d521bb8e8ac8d95/robertsdotpm/runloom",
+      "summary_en": "Runloom brings Go-style coroutines to Python, enabling more approachable concurrency without heavy threading. It could ease async programming for Python developers and spark new patterns for parallel tasks.",
+      "summary_zh": "Runloom 将 Go 风格的协程带进 Python，使并发编程更加友好，减少对多线程的痛点。对 Python 开发者的异步编程或将带来更易用的新范式。",
+      "hn": {
+        "id": 48859387,
+        "type": "story",
+        "by": "Uptrenda",
+        "score": 38,
+        "descendants": 15,
+        "time": 1783688858,
+        "comments_url": "https://news.ycombinator.com/item?id=48859387"
+      },
+      "tags": [
+        "Show HN",
+        "Programming"
+      ],
+      "hot_score": 0.83
     },
     {
       "title_en": "ChatGPT Work",
@@ -541,54 +859,7 @@
         "AI",
         "Business"
       ],
-      "hot_score": 0.99
-    },
-    {
-      "title_en": "Interview with Mitchell Hashimoto about Ghostty and Zig",
-      "url": "https://alexalejandre.com/programming/interview-with-mitchell-hashimoto/",
-      "title_zh": "Mitchell Hashimoto 对 Ghostty 与 Zig 的访谈",
-      "created_display": "Created: Jul 09, 2026 / 10:17 PT",
-      "image_url": "https://alexalejandre.com//logo100.webp",
-      "summary_en": "Mitchell Hashimoto discusses the Ghostty project and the Zig language, focusing on design decisions, safety, and how these tools fit into modern DevOps and systems work. It offers perspective on building resilient tooling outside mainstream ecosystems.",
-      "summary_zh": "与 Mitchell Hashimoto 就 Ghostty 项目与 Zig 语言进行对话，聚焦设计抉择、安全性以及在现代开发运维和系统工作中的应用前景，提供对打造稳健工具生态的观点。",
-      "hn": {
-        "id": 48849292,
-        "type": "story",
-        "by": "veqq",
-        "score": 329,
-        "descendants": 177,
-        "time": 1783617436,
-        "comments_url": "https://news.ycombinator.com/item?id=48849292"
-      },
-      "tags": [
-        "Programming",
-        "DevOps"
-      ],
-      "hot_score": 0.99
-    },
-    {
-      "title_en": "Show HN: Runloom – Go-style coroutines for Python free-threaded",
-      "url": "https://github.com/robertsdotpm/runloom",
-      "title_zh": "Show HN: Runloom——为 Python 提供 Go 风格的协程",
-      "created_display": "Created: Jul 10, 2026 / 06:07 PT",
-      "image_url": "https://opengraph.githubassets.com/deb828c74057951a24814d50e76a85970d5088db51c7e5f74d521bb8e8ac8d95/robertsdotpm/runloom",
-      "summary_en": "Runloom brings Go-style coroutines to Python, enabling more approachable concurrency without heavy threading. It could ease async programming for Python developers and spark new patterns for parallel tasks.",
-      "summary_zh": "Runloom 将 Go 风格的协程带进 Python，使并发编程更加友好，减少对多线程的痛点。对 Python 开发者的异步编程或将带来更易用的新范式。",
-      "hn": {
-        "id": 48859387,
-        "type": "story",
-        "by": "Uptrenda",
-        "score": 21,
-        "descendants": 9,
-        "time": 1783688858,
-        "comments_url": "https://news.ycombinator.com/item?id=48859387"
-      },
-      "hot_score": 0.99,
-      "tags": [
-        "Show HN",
-        "Programming",
-        "Open Source"
-      ]
+      "hot_score": 0.82
     },
     {
       "title_en": "Muse Spark 1.1",
@@ -608,54 +879,10 @@
         "comments_url": "https://news.ycombinator.com/item?id=48846184"
       },
       "tags": [
-        "AI"
-      ],
-      "hot_score": 0.96
-    },
-    {
-      "title_en": "Unified Memory, Explained: Why Mini PCs Can Run 70B Models a Big GPU Can't",
-      "url": "https://vettedconsumer.com/unified-memory-explained-why-mini-pcs-can-run-70b-models-a-big-gpu-cant-and-where-they-slow-down/",
-      "title_zh": "统一内存解析：为何小型 PC 能跑 70B 参数模型，而大型GPU 做不到",
-      "created_display": "Created: Jul 10, 2026 / 03:40 PT",
-      "image_url": "https://vettedconsumer.com/content/images/size/w1200/2026/07/minipc-card.png",
-      "summary_en": "Explains how unified memory architectures enable small form-factor PCs to run very large models, while GPUs face memory and bandwidth bottlenecks. Also discusses practical edge-AI implications and trade-offs.",
-      "summary_zh": "解释统一内存架构如何让小型 PC 也能运行极大模型，而 GPU 则受制于显存和带宽瓶颈，并讨论在边缘 AI 场景的权衡。",
-      "hn": {
-        "id": 48858171,
-        "type": "story",
-        "by": "ermantrout",
-        "score": 37,
-        "descendants": 32,
-        "time": 1783680026,
-        "comments_url": "https://news.ycombinator.com/item?id=48858171"
-      },
-      "hot_score": 0.9,
-      "tags": [
         "AI",
-        "Hardware"
-      ]
-    },
-    {
-      "title_en": "Parental device use and the adolescent-caregiver attachment bond",
-      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1766665/full",
-      "title_zh": "父母设备使用与青少年-照护者依恋关系",
-      "created_display": "Created: Jul 09, 2026 / 17:20 PT",
-      "image_url": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/0F39389F-DE2D-4BF1-AFE71BA9B6F25024/918D96DB-F484-4EC1-8FBF9AB5F74B20F4/WebsiteWebP_XL-FPSYG_Main Visual_Green_Website.webp",
-      "summary_en": "The study investigates how parental device usage during interactions relates to the adolescent-caregiver attachment bond, finding that higher screen usage is linked to weaker attachment quality and less responsive parenting. The findings highlight the fragility of the parent-child bond in the digital era and suggest strategies for mindful tech use at home.",
-      "summary_zh": "研究探讨了父母在互动中使用电子设备对青少年照护者依恋关系的影响，结果显示高屏幕使用与依恋质量下降和反应性下降相关。研究强调数字时代家庭关系的脆弱性，并提出在家庭中实行更有意识的科技使用的策略。",
-      "hn": {
-        "id": 48854247,
-        "type": "story",
-        "by": "hbcondo714",
-        "score": 160,
-        "descendants": 143,
-        "time": 1783642828,
-        "comments_url": "https://news.ycombinator.com/item?id=48854247"
-      },
-      "tags": [
-        "Health"
+        "Programming"
       ],
-      "hot_score": 0.87
+      "hot_score": 0.81
     },
     {
       "title_en": "A possible future for Damn Interesting",
@@ -675,32 +902,55 @@
         "comments_url": "https://news.ycombinator.com/item?id=48847511"
       },
       "tags": [
-        "Science",
-        "AI"
+        "AI",
+        "Culture"
       ],
-      "hot_score": 0.82
+      "hot_score": 0.68
     },
     {
-      "title_en": "Garnix Is Joining Shopify",
-      "url": "https://garnix.io/blog/shutting-down/",
-      "title_zh": "Garnix 将加入 Shopify",
-      "created_display": "Created: Jul 10, 2026 / 09:21 PT",
-      "image_url": "https://garnix.io/images/oxherding-pictures.png",
-      "summary_en": "Garnix joining Shopify signals a move to deepen Shopify's ecosystem with external tooling. This could streamline automation and AI workflows for merchants and reduce integration friction for developers.",
-      "summary_zh": "Garnix 加入 Shopify，表示 Shopify 将通过外部工具扩展生态系统。这可能帮助商家实现更高效的自动化与 AI 工作流，并降低开发者的集成成本。",
+      "title_en": "Parental device use and the adolescent-caregiver attachment bond",
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1766665/full",
+      "title_zh": "父母设备使用与青少年-照护者依恋关系",
+      "created_display": "Created: Jul 09, 2026 / 17:20 PT",
+      "image_url": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/0F39389F-DE2D-4BF1-AFE71BA9B6F25024/918D96DB-F484-4EC1-8FBF9AB5F74B20F4/WebsiteWebP_XL-FPSYG_Main Visual_Green_Website.webp",
+      "summary_en": "The study investigates how parental device usage during interactions relates to the adolescent-caregiver attachment bond, finding that higher screen usage is linked to weaker attachment quality and less responsive parenting. The findings highlight the fragility of the parent-child bond in the digital era and suggest strategies for mindful tech use at home.",
+      "summary_zh": "研究探讨了父母在互动中使用电子设备对青少年照护者依恋关系的影响，结果显示高屏幕使用与依恋质量下降和反应性下降相关。研究强调数字时代家庭关系的脆弱性，并提出在家庭中实行更有意识的科技使用的策略。",
       "hn": {
-        "id": 48862035,
+        "id": 48854247,
         "type": "story",
-        "by": "l2dy",
-        "score": 4,
-        "descendants": 0,
-        "time": 1783700478,
-        "comments_url": "https://news.ycombinator.com/item?id=48862035"
+        "by": "hbcondo714",
+        "score": 163,
+        "descendants": 147,
+        "time": 1783642828,
+        "comments_url": "https://news.ycombinator.com/item?id=48854247"
       },
-      "hot_score": 0.79,
       "tags": [
-        "Business",
-        "AI"
+        "Health"
+      ],
+      "hot_score": 0.67
+    },
+    {
+      "title_en": "Auburn California Flock Surveillance Cameras Stolen and Dumped in a Canal",
+      "url": "https://www.gadgetreview.com/auburn-california-flock-surveillance-cameras-stolen-and-dumped-in-a-canal",
+      "title_zh": "奥本市的群体监控摄像头被盗并扔进运河",
+      "created_display": "Created: Jul 10, 2026 / 11:40 PT",
+      "image_url": "https://www.gadgetreview.com/wp-content/uploads/4f88a86f-8379-4bd0-8e4b-e65fb9a0600b_1920x1080.jpg",
+      "summary_en": "A batch of Flock surveillance cameras was stolen in Auburn, California and dumped into a canal, raising concerns about privacy and security of public surveillance infrastructure. The incident underscores risks to critical city surveillance networks and the need for better physical security. It may prompt policy discussions on public safety and data governance.",
+      "summary_zh": "加州奥本市一批 Flock 监控摄像头被盗并弃入运河，引发对公共监控基础设施隐私与安全的担忧。这一事件凸显对关键城市监控网络的物理安全风险，需要强化防护并推动相关数据治理与政策讨论。",
+      "hn": {
+        "id": 48863591,
+        "type": "story",
+        "by": "01-_-",
+        "score": 5,
+        "descendants": 0,
+        "time": 1783708816,
+        "comments_url": "https://news.ycombinator.com/item?id=48863591"
+      },
+      "hot_score": 0.66,
+      "tags": [
+        "Privacy",
+        "Security",
+        "DevOps"
       ]
     },
     {
@@ -723,7 +973,29 @@
       "tags": [
         "Science"
       ],
-      "hot_score": 0.75
+      "hot_score": 0.62
+    },
+    {
+      "title_en": "Proton AG Services is currently experiencing some issues",
+      "url": "https://status.proton.me/incidents/01lxtcq155lc",
+      "title_zh": "Proton AG 服务当前出现问题",
+      "created_display": "Created: Jul 10, 2026 / 06:36 PT",
+      "image_url": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png",
+      "summary_en": "Proton AG reports service issues affecting core offerings; outages may impact mail, VPN, and related services. The status page indicates incident details and ETA.",
+      "summary_zh": "Proton AG 相关服务当前出现故障，可能影响 Proton Mail、VPN 等核心服务。状态页公布事故详情及预计修复时间。",
+      "hn": {
+        "id": 48859752,
+        "type": "story",
+        "by": "exploraz",
+        "score": 24,
+        "descendants": 23,
+        "time": 1783690616,
+        "comments_url": "https://news.ycombinator.com/item?id=48859752"
+      },
+      "hot_score": 0.57,
+      "tags": [
+        "DevOps"
+      ]
     },
     {
       "title_en": "GLM 5.2 is nearly as accurate as a human book keeper",
@@ -746,7 +1018,7 @@
         "AI",
         "Finance"
       ],
-      "hot_score": 0.66
+      "hot_score": 0.54
     },
     {
       "title_en": "A road to Lisp: Why Lisp",
@@ -768,7 +1040,30 @@
       "tags": [
         "Programming"
       ],
-      "hot_score": 0.63
+      "hot_score": 0.53
+    },
+    {
+      "title_en": "Unified Memory, Explained: Why Mini PCs Can Run 70B Models a Big GPU Can't",
+      "url": "https://vettedconsumer.com/unified-memory-explained-why-mini-pcs-can-run-70b-models-a-big-gpu-cant-and-where-they-slow-down/",
+      "title_zh": "统一内存解析：为何小型 PC 能跑 70B 参数模型，而大型GPU 做不到",
+      "created_display": "Created: Jul 10, 2026 / 03:40 PT",
+      "image_url": "https://vettedconsumer.com/content/images/size/w1200/2026/07/minipc-card.png",
+      "summary_en": "Explains how unified memory architectures enable small form-factor PCs to run very large models, while GPUs face memory and bandwidth bottlenecks. Also discusses practical edge-AI implications and trade-offs.",
+      "summary_zh": "解释统一内存架构如何让小型 PC 也能运行极大模型，而 GPU 则受制于显存和带宽瓶颈，并讨论在边缘 AI 场景的权衡。",
+      "hn": {
+        "id": 48858171,
+        "type": "story",
+        "by": "ermantrout",
+        "score": 37,
+        "descendants": 32,
+        "time": 1783680026,
+        "comments_url": "https://news.ycombinator.com/item?id=48858171"
+      },
+      "hot_score": 0.5,
+      "tags": [
+        "AI",
+        "Hardware"
+      ]
     },
     {
       "title_en": "AI content is everywhere on social media, especially LinkedIn",
@@ -788,31 +1083,33 @@
         "comments_url": "https://news.ycombinator.com/item?id=48847940"
       },
       "tags": [
-        "AI"
+        "AI",
+        "Business"
       ],
-      "hot_score": 0.59
+      "hot_score": 0.49
     },
     {
-      "title_en": "Computation as a Universal and Fundamental Concept",
-      "url": "https://ergo.org/courses/computation-as-a-universal-and-fundamental-concept",
-      "title_zh": "计算被视为普遍且基本的概念",
-      "created_display": "Created: Jul 10, 2026 / 08:23 PT",
-      "image_url": "https://www.ergo.org/assets/computation-as-a-fundamental-and-universal-concept-art-lg.webp",
-      "summary_en": "A discussion framing computation as a universal, fundamental idea that underpins sciences, math, and engineering. It promotes computational thinking as a cross-disciplinary literacy.",
-      "summary_zh": "讨论将计算视为跨科普与工程等领域的普遍、基础的概念，倡导计算思维作为跨学科的基础素养。",
+      "title_en": "Building a real-time AI tutor for 5-year-olds",
+      "url": "https://www.ello.com/blog/teaching-a-child-in-1000-ms",
+      "title_zh": "为5岁儿童构建实时 AI 导师",
+      "created_display": "Created: Jul 09, 2026 / 13:51 PT",
+      "image_url": "https://cdn.sanity.io/images/syk5spr9/production/ec494ad4e15d0f28ec8b04d522147735034ba902-1200x630.webp",
+      "summary_en": "Describes building a real-time AI tutor for five-year-olds with sub-second response times, focusing on safety, age-appropriate guidance, and engaging interactions. The project highlights latency-aware UX and the challenges of teaching preschoolers with AI under developmental safeguards.",
+      "summary_zh": "介绍为5岁儿童构建实时 AI 导师的尝试，关注安全、年龄适宜的引导以及互动性，强调对低延迟用户体验的追求和在发展阶段设限的挑战。",
       "hn": {
-        "id": 48861213,
+        "id": 48852199,
         "type": "story",
-        "by": "simonpure",
-        "score": 5,
-        "descendants": 0,
-        "time": 1783697022,
-        "comments_url": "https://news.ycombinator.com/item?id=48861213"
+        "by": "catalinvoss",
+        "score": 132,
+        "descendants": 346,
+        "time": 1783630266,
+        "comments_url": "https://news.ycombinator.com/item?id=48852199"
       },
-      "hot_score": 0.54,
       "tags": [
-        "Science"
-      ]
+        "AI",
+        "Education"
+      ],
+      "hot_score": 0.41
     },
     {
       "title_en": "Focus",
@@ -832,32 +1129,9 @@
         "comments_url": "https://news.ycombinator.com/item?id=48854363"
       },
       "tags": [
-        "Education"
+        "Career"
       ],
-      "hot_score": 0.52
-    },
-    {
-      "title_en": "Building a real-time AI tutor for 5-year-olds",
-      "url": "https://www.ello.com/blog/teaching-a-child-in-1000-ms",
-      "title_zh": "为5岁儿童构建实时 AI 导师",
-      "created_display": "Created: Jul 09, 2026 / 13:51 PT",
-      "image_url": "https://cdn.sanity.io/images/syk5spr9/production/ec494ad4e15d0f28ec8b04d522147735034ba902-1200x630.webp",
-      "summary_en": "Describes building a real-time AI tutor for five-year-olds with sub-second response times, focusing on safety, age-appropriate guidance, and engaging interactions. The project highlights latency-aware UX and the challenges of teaching preschoolers with AI under developmental safeguards.",
-      "summary_zh": "介绍为5岁儿童构建实时 AI 导师的尝试，关注安全、年龄适宜的引导以及互动性，强调对低延迟用户体验的追求和在发展阶段设限的挑战。",
-      "hn": {
-        "id": 48852199,
-        "type": "story",
-        "by": "catalinvoss",
-        "score": 128,
-        "descendants": 297,
-        "time": 1783630266,
-        "comments_url": "https://news.ycombinator.com/item?id=48852199"
-      },
-      "tags": [
-        "AI",
-        "Education"
-      ],
-      "hot_score": 0.5
+      "hot_score": 0.4
     },
     {
       "title_en": "TLS certificates for internal services done right",
@@ -871,8 +1145,8 @@
         "id": 48846995,
         "type": "story",
         "by": "mrl5",
-        "score": 173,
-        "descendants": 131,
+        "score": 175,
+        "descendants": 136,
         "time": 1783609022,
         "comments_url": "https://news.ycombinator.com/item?id=48846995"
       },
@@ -880,7 +1154,30 @@
         "Security",
         "DevOps"
       ],
-      "hot_score": 0.44
+      "hot_score": 0.37
+    },
+    {
+      "title_en": "Cpp2Rust: Translates C++ to safe Rust automatically",
+      "url": "https://github.com/Cpp2Rust/cpp2rust",
+      "title_zh": "Cpp2Rust：自动将 C++ 转换为安全 Rust",
+      "created_display": "Created: Jul 10, 2026 / 09:24 PT",
+      "image_url": "https://opengraph.githubassets.com/d9dfea1fc5acacb3711309f37b7d648aa88ab21d70fdb97eed52f52cfd7de498/Cpp2Rust/cpp2rust",
+      "summary_en": "Cpp2Rust automatically translates C++ code to Rust with safety guarantees, easing migration of legacy codebases. While it promises safer memory management, developers should scrutinize correctness and performance post-migration and plan for integration challenges. It opens a path to safer reimplementations of old code.",
+      "summary_zh": "Cpp2Rust 能自动将 C++ 代码转换为具有安全性保证的 Rust，帮助遗留代码的迁移。虽然承诺更安全的内存管理，但迁移后仍需对正确性和性能进行审查，并考虑集成中的挑战。为旧代码提供了更安全的重实现路径。",
+      "hn": {
+        "id": 48862086,
+        "type": "story",
+        "by": "signa11",
+        "score": 7,
+        "descendants": 0,
+        "time": 1783700660,
+        "comments_url": "https://news.ycombinator.com/item?id=48862086"
+      },
+      "hot_score": 0.33,
+      "tags": [
+        "Programming",
+        "Open Source"
+      ]
     },
     {
       "title_en": "Ben Bernanke Joins Anthropic Oversight Trust",
@@ -903,7 +1200,7 @@
         "AI",
         "Politics"
       ],
-      "hot_score": 0.44
+      "hot_score": 0.32
     },
     {
       "title_en": "Opinionated and easy Pi.dev configuration",
@@ -925,7 +1222,7 @@
       "tags": [
         "Programming"
       ],
-      "hot_score": 0.34
+      "hot_score": 0.29
     },
     {
       "title_en": "Launch HN: Context.dev (YC S26) – API to get structured data from any website",
@@ -940,16 +1237,16 @@
         "type": "story",
         "by": "TheYahiaBakour",
         "score": 108,
-        "descendants": 76,
+        "descendants": 82,
         "time": 1783610919,
         "comments_url": "https://news.ycombinator.com/item?id=48847562"
       },
       "tags": [
-        "Programming",
+        "Web",
         "Data",
         "Startups"
       ],
-      "hot_score": 0.28
+      "hot_score": 0.24
     },
     {
       "title_en": "Build your own vulnerability harness",
@@ -971,7 +1268,7 @@
       "tags": [
         "Security"
       ],
-      "hot_score": 0.27
+      "hot_score": 0.2
     },
     {
       "title_en": "Show HN: Analog Watch",
@@ -994,7 +1291,7 @@
         "Show HN",
         "Hardware"
       ],
-      "hot_score": 0.23
+      "hot_score": 0.19
     },
     {
       "title_en": "SimPolitics: America’s quest to solve politics with computers",
@@ -1017,7 +1314,31 @@
         "Politics",
         "Science"
       ],
-      "hot_score": 0.22
+      "hot_score": 0.19
+    },
+    {
+      "title_en": "Garnix Is Joining Shopify",
+      "url": "https://garnix.io/blog/shutting-down/",
+      "title_zh": "Garnix 将加入 Shopify",
+      "created_display": "Created: Jul 10, 2026 / 09:21 PT",
+      "image_url": "https://garnix.io/images/oxherding-pictures.png",
+      "summary_en": "Garnix joining Shopify signals a move to deepen Shopify's ecosystem with external tooling. This could streamline automation and AI workflows for merchants and reduce integration friction for developers.",
+      "summary_zh": "Garnix 加入 Shopify，表示 Shopify 将通过外部工具扩展生态系统。这可能帮助商家实现更高效的自动化与 AI 工作流，并降低开发者的集成成本。",
+      "hn": {
+        "id": 48862035,
+        "type": "story",
+        "by": "l2dy",
+        "score": 4,
+        "descendants": 0,
+        "time": 1783700478,
+        "comments_url": "https://news.ycombinator.com/item?id=48862035"
+      },
+      "hot_score": 0.16,
+      "tags": [
+        "Business",
+        "Startups",
+        "AI"
+      ]
     },
     {
       "title_en": "Star Just Ate a Planet, and It's Not Done Yet",
@@ -1036,10 +1357,33 @@
         "time": 1783646416,
         "comments_url": "https://news.ycombinator.com/item?id=48854638"
       },
-      "hot_score": 0.18,
+      "hot_score": 0.14,
       "tags": [
-        "Space"
+        "Space",
+        "Science"
       ]
+    },
+    {
+      "title_en": "Train sim created by just one person is being called the best ever made",
+      "url": "https://kotaku.com/a-train-sim-created-by-just-one-person-is-being-called-the-best-ever-made-2000699429",
+      "title_zh": "单人开发的铁路模拟游戏被誉为最出色的作品",
+      "created_display": "Created: Jul 05, 2026 / 01:40 PT",
+      "image_url": "https://kotaku.com/app/uploads/2026/05/06-running-train-1200x675.jpg",
+      "summary_en": "A solo developer's train simulator has earned near-universal praise, illustrating how focused scope and polish can rival big studio productions. It underscores indie grit and the potential of passion-driven, high-quality simulations.",
+      "summary_zh": "一名独立开发者打造的铁路模拟游戏获得广泛赞誉，显示出专注与打磨同样能与大厂作品竞争，凸显独立开发者的韧性与高质量仿真潜力。",
+      "hn": {
+        "id": 48792383,
+        "type": "story",
+        "by": "oumua_don17",
+        "score": 804,
+        "descendants": 333,
+        "time": 1783240827,
+        "comments_url": "https://news.ycombinator.com/item?id=48792383"
+      },
+      "tags": [
+        "Gaming"
+      ],
+      "hot_score": 0.12
     },
     {
       "title_en": "DeepSeek aims to make its own AI chip",
@@ -1062,51 +1406,32 @@
         "AI",
         "Hardware"
       ],
-      "hot_score": 0.14
-    },
-    {
-      "title_en": "Train sim created by just one person is being called the best ever made",
-      "url": "https://kotaku.com/a-train-sim-created-by-just-one-person-is-being-called-the-best-ever-made-2000699429",
-      "title_zh": "单人开发的铁路模拟游戏被誉为最出色的作品",
-      "created_display": "Created: Jul 05, 2026 / 01:40 PT",
-      "image_url": "https://kotaku.com/app/uploads/2026/05/06-running-train-1200x675.jpg",
-      "summary_en": "A solo developer's train simulator has earned near-universal praise, illustrating how focused scope and polish can rival big studio productions. It underscores indie grit and the potential of passion-driven, high-quality simulations.",
-      "summary_zh": "一名独立开发者打造的铁路模拟游戏获得广泛赞誉，显示出专注与打磨同样能与大厂作品竞争，凸显独立开发者的韧性与高质量仿真潜力。",
-      "hn": {
-        "id": 48792383,
-        "type": "story",
-        "by": "oumua_don17",
-        "score": 771,
-        "descendants": 326,
-        "time": 1783240827,
-        "comments_url": "https://news.ycombinator.com/item?id=48792383"
-      },
-      "tags": [
-        "Gaming"
-      ],
       "hot_score": 0.12
     },
     {
-      "title_en": "The Annotated JEPA",
-      "url": "https://elonlit.com/scrivings/the-annotated-jepa/",
-      "title_zh": "JEPA 的注解版",
-      "created_display": "Created: Jul 10, 2026 / 06:45 PT",
-      "image_url": "https://elonlit.com/images/flowers3.webp",
-      "summary_en": "Annotated JEPA provides commentary to help readers understand the original text, with clarifications and context for modern audiences.",
-      "summary_zh": "JEPA 的注释版为读者提供额外的注释与背景，帮助现代读者理解原文内容。",
+      "title_en": "Show HN: Reverse-engineering web apps into agent tools",
+      "url": "https://news.ycombinator.com/item?id=48847834",
+      "title_zh": "Show HN: 将网页应用反向工程为代理工具",
+      "created_display": "Created: Jul 09, 2026 / 08:45 PT",
+      "image_url": "https://news.ycombinator.com/y18.svg",
+      "summary_en": "Show HN describes turning existing web apps into agent tools, enabling automation and composition, while weighing security and reliability implications.",
+      "summary_zh": "Show HN 展示了将现有网页应用转化为代理工具的思路，便于自动化与组合使用，但也需权衡安全性与可靠性问题。",
       "hn": {
-        "id": 48859835,
+        "id": 48847834,
         "type": "story",
-        "by": "surprisetalk",
-        "score": 3,
-        "descendants": 0,
-        "time": 1783691105,
-        "comments_url": "https://news.ycombinator.com/item?id=48859835"
+        "by": "pancomplex",
+        "score": 54,
+        "descendants": 21,
+        "time": 1783611917,
+        "comments_url": "https://news.ycombinator.com/item?id=48847834"
       },
-      "hot_score": 0.12,
       "tags": [
-        "Education"
-      ]
+        "Show HN",
+        "Web",
+        "Programming",
+        "Security"
+      ],
+      "hot_score": 0.12
     },
     {
       "title_en": "What's slowing down the AI buildout",
@@ -1131,7 +1456,29 @@
         "Hardware",
         "DevOps"
       ],
-      "hot_score": 0.1
+      "hot_score": 0.09
+    },
+    {
+      "title_en": "Buried Apple feature turns an iPhone into the perfect kids' dumb phone",
+      "url": "https://www.wired.com/story/this-buried-apple-feature-turns-an-iphone-into-the-perfect-kids-dumb-phone/",
+      "title_zh": "隐藏的苹果功能将 iPhone 变为理想的儿童简易机",
+      "created_display": "Created: Jul 06, 2026 / 03:53 PT",
+      "image_url": "https://media.wired.com/photos/6a4648c1a27d0fa93c83a1c7/191:100/w_1280,c_limit/070226_iPhone-Dum-Phone.jpg",
+      "summary_en": "A hidden iOS feature lets parents limit calls, messages, and apps to turn an iPhone into a simple device for kids. The move highlights ongoing consumer control and parental safety tradeoffs as smartphones become everyday tools.",
+      "summary_zh": "隐藏的 iOS 功能允许家长限制通话、信息和应用，将 iPhone 打造成简单的儿童设备。这一举措凸显了在智能手机日益普及的同时，用户控制与安全的权衡。",
+      "hn": {
+        "id": 48803004,
+        "type": "story",
+        "by": "PotatoNinja",
+        "score": 344,
+        "descendants": 223,
+        "time": 1783335231,
+        "comments_url": "https://news.ycombinator.com/item?id=48803004"
+      },
+      "tags": [
+        "Privacy"
+      ],
+      "hot_score": 0.08
     },
     {
       "title_en": "Show HN: I mapped 8.5M research papers into an interactive atlas",
@@ -1152,9 +1499,10 @@
       },
       "tags": [
         "Show HN",
-        "Data"
+        "Data",
+        "Web"
       ],
-      "hot_score": 0.09
+      "hot_score": 0.08
     },
     {
       "title_en": "My burner email blocklist blocked me",
@@ -1173,34 +1521,35 @@
         "time": 1783608874,
         "comments_url": "https://news.ycombinator.com/item?id=48846941"
       },
-      "hot_score": 0.09,
+      "hot_score": 0.08,
       "tags": [
         "Security",
         "Privacy"
       ]
     },
     {
-      "title_en": "Buried Apple feature turns an iPhone into the perfect kids' dumb phone",
-      "url": "https://www.wired.com/story/this-buried-apple-feature-turns-an-iphone-into-the-perfect-kids-dumb-phone/",
-      "title_zh": "隐藏的苹果功能将 iPhone 变为理想的儿童简易机",
-      "created_display": "Created: Jul 06, 2026 / 03:53 PT",
-      "image_url": "https://media.wired.com/photos/6a4648c1a27d0fa93c83a1c7/191:100/w_1280,c_limit/070226_iPhone-Dum-Phone.jpg",
-      "summary_en": "A hidden iOS feature lets parents limit calls, messages, and apps to turn an iPhone into a simple device for kids. The move highlights ongoing consumer control and parental safety tradeoffs as smartphones become everyday tools.",
-      "summary_zh": "隐藏的 iOS 功能允许家长限制通话、信息和应用，将 iPhone 打造成简单的儿童设备。这一举措凸显了在智能手机日益普及的同时，用户控制与安全的权衡。",
+      "title_en": "Show HN: Reviving my 2001 college band with AI",
+      "url": "https://www.fadingmaize.com",
+      "title_zh": "Show HN：用 AI 复活我2001年的大学乐队",
+      "created_display": "Created: Jul 09, 2026 / 12:49 PT",
+      "image_url": "https://www.fadingmaize.com/images/fading-maize-og.jpg",
+      "summary_en": "A developer uses AI to revive a college band from 2001, sharing the creative process and newly generated tracks. The project demonstrates AI's ability to reinterpret past sounds and produce fresh material, inviting discussion on authorship and tooling. It’s a personal, tech-forward take on musical resurrection.",
+      "summary_zh": "作者利用 AI 复活了自己2001年的大学乐队，分享了创作过程和新生成的音乐作品。这一尝试展示了 AI 重塑往日声音并创作新素材的能力，同时引发关于作者权与工具使用的讨论。",
       "hn": {
-        "id": 48803004,
+        "id": 48851476,
         "type": "story",
-        "by": "PotatoNinja",
-        "score": 344,
-        "descendants": 223,
-        "time": 1783335231,
-        "comments_url": "https://news.ycombinator.com/item?id=48803004"
+        "by": "jacobgraf",
+        "score": 30,
+        "descendants": 42,
+        "time": 1783626577,
+        "comments_url": "https://news.ycombinator.com/item?id=48851476"
       },
+      "hot_score": 0.08,
       "tags": [
-        "Privacy",
-        "Design"
-      ],
-      "hot_score": 0.08
+        "Show HN",
+        "AI",
+        "Entertainment"
+      ]
     },
     {
       "title_en": "Show HN: Rubiks Cube Solver",
@@ -1219,56 +1568,11 @@
         "time": 1783631345,
         "comments_url": "https://news.ycombinator.com/item?id=48852403"
       },
-      "hot_score": 0.08,
+      "hot_score": 0.06,
       "tags": [
         "Show HN",
         "Programming"
       ]
-    },
-    {
-      "title_en": "I Built the Only 2026 WWII Jeep",
-      "url": "https://www.theautopian.com/i-bet-my-company-on-an-impossible-jeep-build-then-a-miracle-happened/",
-      "title_zh": "我打造了唯一的2026年款二战吉普",
-      "created_display": "Created: Jul 06, 2026 / 22:38 PT",
-      "image_url": "https://images-stag.jazelc.com/uploads/theautopian-m2en/jeep_brandnew_top_pp.jpg",
-      "summary_en": "A single-minded build documents a audacious project: a 2026-era WWII Jeep constructed against steep odds, including supply-chain and safety challenges. The effort shows how modern fabrication methods and entrepreneurial risk intersect in ambitious hardware projects.",
-      "summary_zh": "一位热衷构建者记录了一项极具野心的尝试：打造一辆2026年款的二战吉普，面对供应链、安全性和历史还原等重重挑战。此举展示了现代制造工艺、原型开发与企业级硬件项目风险如何交织。",
-      "hn": {
-        "id": 48814023,
-        "type": "story",
-        "by": "martey",
-        "score": 170,
-        "descendants": 58,
-        "time": 1783402706,
-        "comments_url": "https://news.ycombinator.com/item?id=48814023"
-      },
-      "tags": [
-        "Hardware",
-        "Startups"
-      ],
-      "hot_score": 0.06
-    },
-    {
-      "title_en": "Almost Always Unsigned",
-      "url": "https://graphitemaster.github.io/aau/",
-      "title_zh": "几乎总是未签名",
-      "created_display": "Created: Jul 08, 2026 / 12:35 PT",
-      "image_url": "https://graphitemaster.github.io/aau/svg/menu.svg",
-      "summary_en": "A concise meditation on when unsigned data types or unsigned contexts are the right default in software, highlighting why unsigned values are often used in practice.",
-      "summary_zh": "对在软件中何时默认使用未签名数据类型或上下文的一种简短思考，强调在实际场景中未签名数值为何常被采用。",
-      "hn": {
-        "id": 48836431,
-        "type": "story",
-        "by": "gavide",
-        "score": 60,
-        "descendants": 74,
-        "time": 1783539307,
-        "comments_url": "https://news.ycombinator.com/item?id=48836431"
-      },
-      "tags": [
-        "Programming"
-      ],
-      "hot_score": 0.06
     },
     {
       "title_en": "Girls just wanna have fast MPMC queues with bounded waiting",
@@ -1293,6 +1597,72 @@
       "hot_score": 0.05
     },
     {
+      "title_en": "I Built the Only 2026 WWII Jeep",
+      "url": "https://www.theautopian.com/i-bet-my-company-on-an-impossible-jeep-build-then-a-miracle-happened/",
+      "title_zh": "我打造了唯一的2026年款二战吉普",
+      "created_display": "Created: Jul 06, 2026 / 22:38 PT",
+      "image_url": "https://images-stag.jazelc.com/uploads/theautopian-m2en/jeep_brandnew_top_pp.jpg",
+      "summary_en": "A single-minded build documents a audacious project: a 2026-era WWII Jeep constructed against steep odds, including supply-chain and safety challenges. The effort shows how modern fabrication methods and entrepreneurial risk intersect in ambitious hardware projects.",
+      "summary_zh": "一位热衷构建者记录了一项极具野心的尝试：打造一辆2026年款的二战吉普，面对供应链、安全性和历史还原等重重挑战。此举展示了现代制造工艺、原型开发与企业级硬件项目风险如何交织。",
+      "hn": {
+        "id": 48814023,
+        "type": "story",
+        "by": "martey",
+        "score": 170,
+        "descendants": 58,
+        "time": 1783402706,
+        "comments_url": "https://news.ycombinator.com/item?id=48814023"
+      },
+      "tags": [
+        "Hardware"
+      ],
+      "hot_score": 0.05
+    },
+    {
+      "title_en": "Almost Always Unsigned",
+      "url": "https://graphitemaster.github.io/aau/",
+      "title_zh": "几乎总是未签名",
+      "created_display": "Created: Jul 08, 2026 / 12:35 PT",
+      "image_url": "https://graphitemaster.github.io/aau/svg/menu.svg",
+      "summary_en": "A concise meditation on when unsigned data types or unsigned contexts are the right default in software, highlighting why unsigned values are often used in practice.",
+      "summary_zh": "对在软件中何时默认使用未签名数据类型或上下文的一种简短思考，强调在实际场景中未签名数值为何常被采用。",
+      "hn": {
+        "id": 48836431,
+        "type": "story",
+        "by": "gavide",
+        "score": 60,
+        "descendants": 74,
+        "time": 1783539307,
+        "comments_url": "https://news.ycombinator.com/item?id=48836431"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 0.05
+    },
+    {
+      "title_en": "How RCA Victor sold Sound Service to classrooms in 1939",
+      "url": "https://pncnmnp.github.io/blogs/rca-victor-education.html",
+      "title_zh": "1939 年 RCA Victor 将声音服务推广到课堂",
+      "created_display": "Created: Jul 09, 2026 / 13:37 PT",
+      "image_url": "https://pncnmnp.github.io/blogs/pics/rca-victor/poster.jpeg",
+      "summary_en": "A look at RCA Victor's 1939 Sound Service program, detailing how audio technology and curated content were introduced into classrooms. The historical note shows early educational tech evangelism and the challenges of scale.",
+      "summary_zh": "回顾 1939 年 RCA Victor 的 Sound Service 项目，描述音频技术及课程内容如何走进课堂，反映教育科技普及的早期尝试与规模化挑战。",
+      "hn": {
+        "id": 48852048,
+        "type": "story",
+        "by": "pncnmnp",
+        "score": 17,
+        "descendants": 5,
+        "time": 1783629463,
+        "comments_url": "https://news.ycombinator.com/item?id=48852048"
+      },
+      "tags": [
+        "Education"
+      ],
+      "hot_score": 0.05
+    },
+    {
       "title_en": "Apple Silicon Exec Explains Mac Mini AI Demand and On-Device Future",
       "url": "https://www.macrumors.com/2026/07/06/apple-silicon-exec-explains-mac-mini-ai-demand/",
       "title_zh": "苹果芯片高管解读 Mac mini 的 AI 需求与设备端未来",
@@ -1304,13 +1674,14 @@
         "id": 48805598,
         "type": "story",
         "by": "tosh",
-        "score": 158,
-        "descendants": 223,
+        "score": 182,
+        "descendants": 262,
         "time": 1783349961,
         "comments_url": "https://news.ycombinator.com/item?id=48805598"
       },
       "tags": [
         "AI",
+        "Hardware",
         "Privacy"
       ],
       "hot_score": 0.04
@@ -1334,31 +1705,32 @@
       },
       "tags": [
         "Hardware",
-        "Business"
+        "DevOps"
       ],
       "hot_score": 0.03
     },
     {
-      "title_en": "How RCA Victor sold Sound Service to classrooms in 1939",
-      "url": "https://pncnmnp.github.io/blogs/rca-victor-education.html",
-      "title_zh": "1939 年 RCA Victor 将声音服务推广到课堂",
-      "created_display": "Created: Jul 09, 2026 / 13:37 PT",
-      "image_url": "https://pncnmnp.github.io/blogs/pics/rca-victor/poster.jpeg",
-      "summary_en": "A look at RCA Victor's 1939 Sound Service program, detailing how audio technology and curated content were introduced into classrooms. The historical note shows early educational tech evangelism and the challenges of scale.",
-      "summary_zh": "回顾 1939 年 RCA Victor 的 Sound Service 项目，描述音频技术及课程内容如何走进课堂，反映教育科技普及的早期尝试与规模化挑战。",
+      "title_en": "Lost city discovered beneath Egypt's desert with ancient church",
+      "url": "https://www.dailymail.com/sciencetech/article-15956159/Incredible-lost-city-discovered-Egypts-desert.html",
+      "title_zh": "埃及沙漠下发现失落城市与古教堂",
+      "created_display": "Created: Jul 06, 2026 / 05:32 PT",
+      "image_url": null,
+      "summary_en": "Archaeologists have uncovered a previously unknown city buried beneath the Egyptian desert, along with an ancient church. The find sheds light on urban life and early Christian presence in the region, illustrating how desert geology can preserve antiquities for study. It also hints at trade routes and cultural exchange in ancient Egypt.",
+      "summary_zh": "考古学家在埃及沙漠下发现一座未知的失落城市，以及一座古老教堂。此发现揭示了该地区早期城市生活与基督教早期足迹，说明沙漠地质对文物保存的重要性，同时也指向古代埃及的贸易网络与文化交流。",
       "hn": {
-        "id": 48852048,
+        "id": 48803707,
         "type": "story",
-        "by": "pncnmnp",
-        "score": 8,
-        "descendants": 3,
-        "time": 1783629463,
-        "comments_url": "https://news.ycombinator.com/item?id=48852048"
+        "by": "Bender",
+        "score": 100,
+        "descendants": 41,
+        "time": 1783341177,
+        "comments_url": "https://news.ycombinator.com/item?id=48803707"
       },
-      "hot_score": 0.03,
       "tags": [
-        "Education"
-      ]
+        "Science",
+        "Culture"
+      ],
+      "hot_score": 0.02
     },
     {
       "title_en": "Ditching Vagrant: VMs with KVM and Virsh on Debian",
@@ -1372,15 +1744,38 @@
         "id": 48805342,
         "type": "story",
         "by": "fanf2",
-        "score": 62,
-        "descendants": 25,
+        "score": 75,
+        "descendants": 36,
         "time": 1783348924,
         "comments_url": "https://news.ycombinator.com/item?id=48805342"
       },
-      "hot_score": 0.02,
       "tags": [
-        "Programming"
-      ]
+        "DevOps"
+      ],
+      "hot_score": 0.02
+    },
+    {
+      "title_en": "The mathematical secrets of Barcelona's Sagrada Familia",
+      "url": "https://mappingignorance.org/2026/06/30/sagrada-familia/",
+      "title_zh": "巴塞罗那圣家堂的数学秘密",
+      "created_display": "Created: Jul 03, 2026 / 01:43 PT",
+      "image_url": "https://mappingignorance.org/app/uploads/2026/06/file-20260604-85-o7omkw.jpg",
+      "summary_en": "The Sagrada Família showcases sophisticated geometry and proportional systems that guided Gaudí’s design. From curved surfaces to structural strategies, the article highlights how math underpins iconic architecture.",
+      "summary_zh": "圣家堂的设计大量使用复杂几何与比例体系，指引了高难度曲面与结构策略。文章揭示了数学在标志性建筑中的核心作用。",
+      "hn": {
+        "id": 48772528,
+        "type": "story",
+        "by": "Gedxx",
+        "score": 99,
+        "descendants": 26,
+        "time": 1783068198,
+        "comments_url": "https://news.ycombinator.com/item?id=48772528"
+      },
+      "tags": [
+        "Science",
+        "Design"
+      ],
+      "hot_score": 0.01
     },
     {
       "title_en": "My Story of 3D Realms / Apogee Part I (2020)",
@@ -1403,29 +1798,6 @@
         "Gaming"
       ],
       "hot_score": 0.01
-    },
-    {
-      "title_en": "The mathematical secrets of Barcelona's Sagrada Familia",
-      "url": "https://mappingignorance.org/2026/06/30/sagrada-familia/",
-      "title_zh": "巴塞罗那圣家堂的数学秘密",
-      "created_display": "Created: Jul 03, 2026 / 01:43 PT",
-      "image_url": "https://mappingignorance.org/app/uploads/2026/06/file-20260604-85-o7omkw.jpg",
-      "summary_en": "The Sagrada Família showcases sophisticated geometry and proportional systems that guided Gaudí’s design. From curved surfaces to structural strategies, the article highlights how math underpins iconic architecture.",
-      "summary_zh": "圣家堂的设计大量使用复杂几何与比例体系，指引了高难度曲面与结构策略。文章揭示了数学在标志性建筑中的核心作用。",
-      "hn": {
-        "id": 48772528,
-        "type": "story",
-        "by": "Gedxx",
-        "score": 74,
-        "descendants": 15,
-        "time": 1783068198,
-        "comments_url": "https://news.ycombinator.com/item?id=48772528"
-      },
-      "hot_score": 0.01,
-      "tags": [
-        "Science",
-        "Design"
-      ]
     },
     {
       "title_en": "What is Bending Spoons? The little-known AOL and Vimeo owner that's now public",
@@ -1468,8 +1840,31 @@
         "comments_url": "https://news.ycombinator.com/item?id=48806305"
       },
       "tags": [
-        "Science",
-        "Health"
+        "Health",
+        "Science"
+      ],
+      "hot_score": 0.01
+    },
+    {
+      "title_en": "Alternate Clock Designs and Time Systems",
+      "url": "https://serialc.github.io/altClocks/",
+      "title_zh": "替代时钟设计与时间系统",
+      "created_display": "Created: Jul 06, 2026 / 14:09 PT",
+      "image_url": null,
+      "summary_en": "The piece surveys unconventional clock designs and timekeeping ideas, weighing pros and cons of decimal time or alternative calendars. It shows how time design shapes software, culture, and human routines.",
+      "summary_zh": "文章概览了非传统的时钟设计与时间系统，评估十进制时间等替代日历的利弊，展示时间设计如何影响软件、文化和日常生活。",
+      "hn": {
+        "id": 48810543,
+        "type": "story",
+        "by": "ethanpil",
+        "score": 54,
+        "descendants": 31,
+        "time": 1783372196,
+        "comments_url": "https://news.ycombinator.com/item?id=48810543"
+      },
+      "tags": [
+        "Design",
+        "Science"
       ],
       "hot_score": 0.01
     },
@@ -1491,8 +1886,8 @@
         "comments_url": "https://news.ycombinator.com/item?id=48800930"
       },
       "tags": [
-        "Open Source",
-        "Science"
+        "Programming",
+        "Open Source"
       ],
       "hot_score": 0.01
     },
@@ -1518,28 +1913,6 @@
         "Design"
       ],
       "hot_score": 0.01
-    },
-    {
-      "title_en": "Lost city discovered beneath Egypt's desert with ancient church",
-      "url": "https://www.dailymail.com/sciencetech/article-15956159/Incredible-lost-city-discovered-Egypts-desert.html",
-      "title_zh": "埃及沙漠下发现失落城市与古教堂",
-      "created_display": "Created: Jul 06, 2026 / 05:32 PT",
-      "image_url": null,
-      "summary_en": "Archaeologists have uncovered a previously unknown city buried beneath the Egyptian desert, along with an ancient church. The find sheds light on urban life and early Christian presence in the region, illustrating how desert geology can preserve antiquities for study. It also hints at trade routes and cultural exchange in ancient Egypt.",
-      "summary_zh": "考古学家在埃及沙漠下发现一座未知的失落城市，以及一座古老教堂。此发现揭示了该地区早期城市生活与基督教早期足迹，说明沙漠地质对文物保存的重要性，同时也指向古代埃及的贸易网络与文化交流。",
-      "hn": {
-        "id": 48803707,
-        "type": "story",
-        "by": "Bender",
-        "score": 43,
-        "descendants": 8,
-        "time": 1783341177,
-        "comments_url": "https://news.ycombinator.com/item?id=48803707"
-      },
-      "hot_score": 0.01,
-      "tags": [
-        "Science"
-      ]
     },
     {
       "title_en": "Common prefix skipping, adaptive sort",
@@ -1586,27 +1959,50 @@
       ]
     },
     {
-      "title_en": "Alternate Clock Designs and Time Systems",
-      "url": "https://serialc.github.io/altClocks/",
-      "title_zh": "替代时钟设计与时间系统",
-      "created_display": "Created: Jul 06, 2026 / 14:09 PT",
+      "title_en": "Combustion Engine Web-Based Simulator",
+      "url": "https://combustionlab.net",
+      "title_zh": "基于网页的燃烧引擎模拟器",
+      "created_display": "Created: Jul 05, 2026 / 10:11 PT",
       "image_url": null,
-      "summary_en": "The piece surveys unconventional clock designs and timekeeping ideas, weighing pros and cons of decimal time or alternative calendars. It shows how time design shapes software, culture, and human routines.",
-      "summary_zh": "文章概览了非传统的时钟设计与时间系统，评估十进制时间等替代日历的利弊，展示时间设计如何影响软件、文化和日常生活。",
+      "summary_en": "A web-based simulator lets learners explore combustion engine behavior directly in the browser, enabling hands-on thermodynamics experiments without hardware. It’s a useful educational tool for students and hobbyists to test concepts and ideas quickly. The project lowers barriers to understanding engine dynamics.",
+      "summary_zh": "一个基于网页的模拟器允许学习者直接在浏览器中研究燃烧发动机的行为，免去硬件需求，便于做热力学的动手实验。对学生和爱好者来说，这是一个快速测试概念与想法的有用教育工具。",
       "hn": {
-        "id": 48810543,
+        "id": 48795900,
         "type": "story",
-        "by": "ethanpil",
-        "score": 20,
-        "descendants": 7,
-        "time": 1783372196,
-        "comments_url": "https://news.ycombinator.com/item?id=48810543"
+        "by": "mytuny",
+        "score": 30,
+        "descendants": 10,
+        "time": 1783271498,
+        "comments_url": "https://news.ycombinator.com/item?id=48795900"
       },
-      "hot_score": 0.01,
+      "hot_score": 0.0,
       "tags": [
-        "Science",
-        "Culture"
+        "Education",
+        "Web",
+        "Hardware"
       ]
+    },
+    {
+      "title_en": "Ancient Coins: What About Spartan Coins?",
+      "url": "https://coinweek.com/ancient-spartan-coins/",
+      "title_zh": "古代硬币：斯巴达币制何物",
+      "created_display": "Created: Jul 04, 2026 / 19:23 PT",
+      "image_url": "https://coinweek.com/wp-content/uploads/2018/09/spartan_coin.jpg",
+      "summary_en": "Examines Spartan coinage, its metallurgy, and political messaging, offering insight into how coin design reflected power and trade in ancient Greece.",
+      "summary_zh": "分析斯巴达的铸币制度、金属成分与政治宣示，揭示币制如何映射古希腊的权力结构与贸易网络。",
+      "hn": {
+        "id": 48790791,
+        "type": "story",
+        "by": "thunderbong",
+        "score": 18,
+        "descendants": 4,
+        "time": 1783218229,
+        "comments_url": "https://news.ycombinator.com/item?id=48790791"
+      },
+      "tags": [
+        "Culture"
+      ],
+      "hot_score": 0.0
     },
     {
       "title_en": "Harman and Dr. Sean Olive are reshaping headphone sound (2025)",
@@ -1627,8 +2023,30 @@
       },
       "hot_score": 0.0,
       "tags": [
-        "Design",
-        "Science"
+        "Science",
+        "Design"
+      ]
+    },
+    {
+      "title_en": "Ask HN: Are systems ready for the first negative leap second?",
+      "url": "https://news.ycombinator.com/item?id=48807108",
+      "title_zh": "Ask HN：系统是否已为首个负闰秒做好准备？",
+      "created_display": "Created: Jul 06, 2026 / 09:41 PT",
+      "image_url": "https://news.ycombinator.com/y18.svg",
+      "summary_en": "The question asks whether existing systems can handle a negative leap second, a hypothetical situation that would subtract time from a day. It highlights concerns about timekeeping, clock synchronization, and time APIs, inviting engineers to share preparedness, mitigations, and past experiences. A reminder of the fragility of digital timekeeping.",
+      "summary_zh": "这个提问探讨若出现首个负闰秒，现有系统是否能够承受在一天中“减去时间”的情景，涉及时钟同步、时间 API 与时间管理的鲁棒性。邀请工程师分享应对策略、缓解措施和相关经验，提醒数字时间管理的脆弱性。",
+      "hn": {
+        "id": 48807108,
+        "type": "story",
+        "by": "Asmod4n",
+        "score": 12,
+        "descendants": 16,
+        "time": 1783356086,
+        "comments_url": "https://news.ycombinator.com/item?id=48807108"
+      },
+      "hot_score": 0.0,
+      "tags": [
+        "DevOps"
       ]
     },
     {
@@ -1647,29 +2065,6 @@
         "descendants": 1,
         "time": 1783358295,
         "comments_url": "https://news.ycombinator.com/item?id=48807673"
-      },
-      "hot_score": 0.0,
-      "tags": [
-        "Science",
-        "Culture"
-      ]
-    },
-    {
-      "title_en": "Ancient Coins: What About Spartan Coins?",
-      "url": "https://coinweek.com/ancient-spartan-coins/",
-      "title_zh": "古代硬币：斯巴达币制何物",
-      "created_display": "Created: Jul 04, 2026 / 19:23 PT",
-      "image_url": "https://coinweek.com/wp-content/uploads/2018/09/spartan_coin.jpg",
-      "summary_en": "Examines Spartan coinage, its metallurgy, and political messaging, offering insight into how coin design reflected power and trade in ancient Greece.",
-      "summary_zh": "分析斯巴达的铸币制度、金属成分与政治宣示，揭示币制如何映射古希腊的权力结构与贸易网络。",
-      "hn": {
-        "id": 48790791,
-        "type": "story",
-        "by": "thunderbong",
-        "score": 9,
-        "descendants": 3,
-        "time": 1783218229,
-        "comments_url": "https://news.ycombinator.com/item?id=48790791"
       },
       "hot_score": 0.0,
       "tags": [
