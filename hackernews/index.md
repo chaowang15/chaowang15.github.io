@@ -20,29 +20,29 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='310' data-hn-time='1783707984'>
+<div class='hn-top-story-item' data-hn-score='767' data-hn-time='1783716429'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/10/top_stories_07102026#story-48863464'>New York City to to ban deceptive subscription practices</a>
- <a class='hn-top-story-link' href='https://www.theguardian.com/us-news/2026/jul/10/new-york-city-deceptive-subscriptions-ban' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/10/top_stories_07102026#story-48865019'>Apple sues OpenAI, accuses ex-employees of stealing trade secrets</a>
+ <a class='hn-top-story-link' href='https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>纽约市将禁止欺骗性订阅行为</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 310</span> <span class='hn-top-story-comments'>&#128172; 177</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Legal</span></div>
+<div class='hn-top-story-zh'>苹果控告 OpenAI，指控前员工窃取商业机密</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 767</span> <span class='hn-top-story-comments'>&#128172; 382</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='116' data-hn-time='1783716748'>
+<div class='hn-top-story-item' data-hn-score='472' data-hn-time='1783707984'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/10/top_stories_07102026#story-48865093'>GPT-5.6, Grok 4.5, Claude, and Muse Spark build the same 4 apps</a>
- <a class='hn-top-story-link' href='https://www.tryai.dev/blog/gpt-5.6-build-off-12-models' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/10/top_stories_07102026#story-48863464'>New York City to ban deceptive subscription practices</a>
+ <a class='hn-top-story-link' href='https://www.theguardian.com/us-news/2026/jul/10/new-york-city-deceptive-subscriptions-ban' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>GPT-5.6、Grok 4.5、Claude 与 Muse Spark 同步构建同样的四个应用</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.5</span> <span class='hn-top-story-score'>&#9650; 116</span> <span class='hn-top-story-comments'>&#128172; 71</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>纽约市将禁止欺骗性订阅行为</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.0</span> <span class='hn-top-story-score'>&#9650; 472</span> <span class='hn-top-story-comments'>&#128172; 234</span> <span class='hn-top-story-tag'>Legal</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='255' data-hn-time='1783708159'>
+<div class='hn-top-story-item' data-hn-score='396' data-hn-time='1783708159'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -50,10 +50,10 @@ Sort:
  <a class='hn-top-story-link' href='https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>GPT-5.6 Sol Ultra 产出循环双覆盖猜想的证明（PDF）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.0</span> <span class='hn-top-story-score'>&#9650; 255</span> <span class='hn-top-story-comments'>&#128172; 223</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Science</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 396</span> <span class='hn-top-story-comments'>&#128172; 308</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='378' data-hn-time='1783699193'>
+<div class='hn-top-story-item' data-hn-score='507' data-hn-time='1783699193'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -61,32 +61,32 @@ Sort:
  <a class='hn-top-story-link' href='https://www.jeffgeerling.com/blog/2026/quadrf-can-spot-drones-and-see-wifi-through-my-wall/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>QuadRF 能侦测无人机并穿墙探测 WiFi 信号</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.4</span> <span class='hn-top-story-score'>&#9650; 378</span> <span class='hn-top-story-comments'>&#128172; 150</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Legal</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 507</span> <span class='hn-top-story-comments'>&#128172; 182</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Legal</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='77' data-hn-time='1783716429'>
+<div class='hn-top-story-item' data-hn-score='160' data-hn-time='1783722644'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/10/top_stories_07102026#story-48865019'>Apple sues OpenAI, accuses ex-employees of stealing trade secrets</a>
- <a class='hn-top-story-link' href='https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/10/top_stories_07102026#story-48866134'>Einstein's relativity rules chemical bonds in heavy elements, new research shows</a>
+ <a class='hn-top-story-link' href='https://www.brown.edu/news/2026-07-09/chemical-bonds-relativity' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>苹果控告 OpenAI，指控前员工窃取商业机密</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.0</span> <span class='hn-top-story-score'>&#9650; 77</span> <span class='hn-top-story-comments'>&#128172; 35</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>新研究称相对论决定重元素的化学键</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 160</span> <span class='hn-top-story-comments'>&#128172; 54</span> <span class='hn-top-story-tag'>Science</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='93' data-hn-time='1783713628'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1521' data-hn-time='1783616654'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/10/top_stories_07102026#story-48864507'>Please don't discontinue Gemini 2.5 Flash</a>
- <a class='hn-top-story-link' href='https://discuss.ai.google.dev/t/please-dont-discontinue-gemini-2-5-flash/174246' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/10/top_stories_07102026#story-48849066'>GPT-5.6</a>
+ <a class='hn-top-story-link' href='https://openai.com/index/gpt-5-6/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>请不要停止 Gemini 2.5 Flash</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.3</span> <span class='hn-top-story-score'>&#9650; 93</span> <span class='hn-top-story-comments'>&#128172; 62</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>GPT-5.6 版本</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.2</span> <span class='hn-top-story-score'>&#9650; 1521</span> <span class='hn-top-story-comments'>&#128172; 1082</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='137' data-hn-time='1783709366'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='196' data-hn-time='1783709366'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -94,7 +94,7 @@ Sort:
  <a class='hn-top-story-link' href='https://casp.ac/reports/ai-enabled-terrorism' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>恐怖组织博科圣地如何利用前沿人工智能</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.3</span> <span class='hn-top-story-score'>&#9650; 137</span> <span class='hn-top-story-comments'>&#128172; 114</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.2</span> <span class='hn-top-story-score'>&#9650; 196</span> <span class='hn-top-story-comments'>&#128172; 163</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
 <div class='hn-top-story-item hn-top-story-extra' data-hn-score='318' data-hn-time='1783690380'>
@@ -105,29 +105,29 @@ Sort:
  <a class='hn-top-story-link' href='https://unstack.io/write-code-like-a-human-will-maintain-it' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>写出人类也能维护的代码</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 318</span> <span class='hn-top-story-comments'>&#128172; 260</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Design</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.8</span> <span class='hn-top-story-score'>&#9650; 318</span> <span class='hn-top-story-comments'>&#128172; 260</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='137' data-hn-time='1783702121'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='116' data-hn-time='1783716748'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/10/top_stories_07102026#story-48862365'>The tech of 'Terminator 2' – an oral history (2017)</a>
- <a class='hn-top-story-link' href='https://vfxblog.com/2017/08/23/the-tech-of-terminator-2-an-oral-history/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/10/top_stories_07102026#story-48865093'>GPT-5.6, Grok 4.5, Claude, and Muse Spark build the same 4 apps</a>
+ <a class='hn-top-story-link' href='https://www.tryai.dev/blog/gpt-5.6-build-off-12-models' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>《终结者2》技术：口述史（2017）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 137</span> <span class='hn-top-story-comments'>&#128172; 52</span> <span class='hn-top-story-tag'>Entertainment</span> <span class='hn-top-story-tag'>Design</span></div>
+<div class='hn-top-story-zh'>GPT-5.6、Grok 4.5、Claude 与 Muse Spark 同步构建同样的四个应用</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.8</span> <span class='hn-top-story-score'>&#9650; 116</span> <span class='hn-top-story-comments'>&#128172; 71</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='138' data-hn-time='1783701472'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1589' data-hn-time='1783595034'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/10/top_stories_07102026#story-48862252'>Snails' teeth beats spider silk as nature's strongest material (2015)</a>
- <a class='hn-top-story-link' href='https://www.smithsonianmag.com/smart-news/spider-silk-loses-top-spot-natures-strongest-material-snails-teeth-180954346/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/10/top_stories_07102026#story-48843923'>EU Parliament greenlights Chat Control 1.0</a>
+ <a class='hn-top-story-link' href='https://www.patrick-breyer.de/en/eu-parliament-greenlights-chat-control-1-0-breyer-our-children-lose-out/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>蜗牛牙齿成自然界最强材料，超越蜘蛛丝（2015）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 138</span> <span class='hn-top-story-comments'>&#128172; 111</span> <span class='hn-top-story-tag'>Science</span></div>
+<div class='hn-top-story-zh'>欧盟议会通过聊天监控1.0，Breyer：我们的孩子要吃亏</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.8</span> <span class='hn-top-story-score'>&#9650; 1589</span> <span class='hn-top-story-comments'>&#128172; 814</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/07/10/top_stories_07102026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>27</b> <span class="hn-row-sep">·</span> Programming <b>21</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>25</b> <span class="hn-row-sep">·</span> Programming <b>18</b></span>
 </a>
 </div>
 </div>
