@@ -4,21 +4,156 @@
     "source": "https://news.ycombinator.com/",
     "api": "https://github.com/HackerNews/API",
     "count_requested": 50,
-    "count_written": 49,
-    "reused_same_day": 0,
-    "reused_cross_day": 30,
+    "count_written": 69,
+    "reused_same_day": 28,
+    "reused_cross_day": 1,
     "new_llm_enriched": 19,
-    "scrape_time_display": "01:26, July 12, 2026 (PDT)",
+    "scrape_time_display": "07:56, July 12, 2026 (PDT)",
     "timezone": "America/Los_Angeles",
     "date_dir": "2026/07/12",
     "content_date": "2026-07-12",
-    "run_time_local": "01:26, July 12, 2026 (PDT)",
-    "run_time_utc": "2026-07-12 08:26:05 UTC",
+    "run_time_local": "07:56, July 12, 2026 (PDT)",
+    "run_time_utc": "2026-07-12 14:56:20 UTC",
     "incremental": true,
     "stories_max": 100,
-    "hot_score_time_utc": "2026-07-12 08:27:15 UTC"
+    "hot_score_time_utc": "2026-07-12 14:58:03 UTC"
   },
   "items": [
+    {
+      "title_en": "Old and new apps, via modern coding agents by Terry Tao",
+      "url": "https://terrytao.wordpress.com/2026/07/11/old-and-new-apps-via-modern-coding-agents/",
+      "title_zh": "通过现代编码代理看待旧有应用与新应用",
+      "created_display": "Created: Jul 12, 2026 / 04:09 PT",
+      "image_url": "https://terrytao.wordpress.com/wp-content/uploads/2026/07/image-2.png",
+      "summary_en": "Terry Tao discusses how modern coding agents reshape app development, potentially unifying approaches for legacy and new apps. Highlights how AI-assisted coding could affect maintenance, migration paths, and software ecosystems.",
+      "summary_zh": "Terry Tao 探讨现代编码代理如何改变应用开发，或为遗留与新应用提供统一的开发路径。强调人工智能辅助编码对维护、迁移和软件生态的影响。",
+      "hn": {
+        "id": 48880170,
+        "type": "story",
+        "by": "subset",
+        "score": 167,
+        "descendants": 34,
+        "time": 1783854582,
+        "comments_url": "https://news.ycombinator.com/item?id=48880170"
+      },
+      "tags": [
+        "AI",
+        "Programming"
+      ],
+      "hot_score": 7.0
+    },
+    {
+      "title_en": "Yt-Dlp Sequence Diagrams",
+      "url": "https://app.ilograph.com/demo.ilograph.yt-dlp/Download%2520a%2520YouTube%2520Video",
+      "title_zh": "Yt-Dlp 的序列图解",
+      "created_display": "Created: Jul 12, 2026 / 04:49 PT",
+      "image_url": "https://app.ilograph.com/img/diagram2.png",
+      "summary_en": "Sequence diagrams for yt-dlp reveal the precise choreography of a video-download pipeline—from metadata retrieval to segment selection and download retries. The visuals highlight edge cases, error handling, and potential optimization points for contributors and users. They provide a blueprint for building robust download tooling in networked environments.",
+      "summary_zh": "Yt-dlp 的序列图揭示视频下载管线的精确流程，从元数据获取到区段选择与重试。图示呈现边界情况、错误处理与潜在优化点，便于贡献者和用户改进工具。为在网络环境中构建稳健下载工具提供蓝图。",
+      "hn": {
+        "id": 48880384,
+        "type": "story",
+        "by": "billyp-rva",
+        "score": 78,
+        "descendants": 17,
+        "time": 1783856978,
+        "comments_url": "https://news.ycombinator.com/item?id=48880384"
+      },
+      "hot_score": 4.04,
+      "tags": [
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "Understanding the Odin Programming Language",
+      "url": "https://odinbook.com/",
+      "title_zh": "理解 Odin 编程语言",
+      "created_display": "Created: Jul 12, 2026 / 05:08 PT",
+      "image_url": "https://odinbook.com/og_img_new.jpg",
+      "summary_en": "Odin is a small, pragmatic systems language designed for clarity and performance, with explicit memory management and a simple toolchain. It aims to give comparable control to C or Zig without some of their complexity, making it attractive for performance-critical tasks. This overview highlights where Odin shines and where it fits in the systems-programming landscape.",
+      "summary_zh": "Odin 是一个简洁实用的系统级语言，强调清晰度与性能，具备显式内存管理和简化的工具链。它在避免某些复杂性的同时提供与 C/ Zig 相当的控制力，适合对性能敏感的任务。本文聚焦 Odin 的优势领域及其在系统编程中的定位。",
+      "hn": {
+        "id": 48880499,
+        "type": "story",
+        "by": "AlexeyBrin",
+        "score": 50,
+        "descendants": 15,
+        "time": 1783858087,
+        "comments_url": "https://news.ycombinator.com/item?id=48880499"
+      },
+      "hot_score": 2.88,
+      "tags": [
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "AI Boosts Research Careers but Flattens Scientific Discovery",
+      "url": "https://spectrum.ieee.org/ai-science-research-flattens-discovery",
+      "title_zh": "AI 提升研究职业却压缩科学发现的多样性",
+      "created_display": "Created: Jul 12, 2026 / 06:26 PT",
+      "image_url": "https://spectrum.ieee.org/media-library/image.jpg?id=62826557&width=1200&height=600&coordinates=0%2C1189%2C0%2C61",
+      "summary_en": "AI accelerates researchers’ productivity and career progression by enabling faster data analysis and writeups. Critics warn it also flattens scientific discovery by nudging work toward familiar patterns and safe bets, risking fewer breakthroughs. The takeaway is a call for governance and practices that preserve novelty while leveraging AI’s scale.",
+      "summary_zh": "AI 正加速研究人员的产出与晋升，提升分析和写作速度；但也可能推动研究趋同，减少意外突破，压缩科学发现的多样性。需要在放大能力与保留创新之间找到平衡，制定治理和实践以维持新颖性。",
+      "hn": {
+        "id": 48881043,
+        "type": "story",
+        "by": "zaikunzhang",
+        "score": 27,
+        "descendants": 13,
+        "time": 1783862773,
+        "comments_url": "https://news.ycombinator.com/item?id=48881043"
+      },
+      "hot_score": 2.68,
+      "tags": [
+        "AI",
+        "Science"
+      ]
+    },
+    {
+      "title_en": "Ghostel.el: Terminal emulator powered by libghostty",
+      "url": "https://dakra.github.io/ghostel/",
+      "title_zh": "Ghostel.el：由 libghostty 驱动的终端模拟器",
+      "created_display": "Created: Jul 12, 2026 / 01:52 PT",
+      "image_url": "https://melpa.org/packages/ghostel-badge.svg",
+      "summary_en": "Ghostel.el demonstrates a terminal emulator built inside Emacs powered by libghostty, aiming for fast, responsive performance and solid VT support. It shows how a native library can supercharge a Lisp environment without leaving the editor. For power users, it represents a compelling option for integrated terminal workflows.",
+      "summary_zh": "Ghostel.el 展示了在 Emacs 内部、利用 libghostty 驱动的终端模拟器，目标是实现快速、高响应和完善的 VT 支持。它展示了原生库如何在不离开编辑器的前提下提升 Lisp 环境的性能。对于重度用户，这是一个集成终端工作流的有力选择。",
+      "hn": {
+        "id": 48879504,
+        "type": "story",
+        "by": "signa11",
+        "score": 101,
+        "descendants": 5,
+        "time": 1783846379,
+        "comments_url": "https://news.ycombinator.com/item?id=48879504"
+      },
+      "hot_score": 2.32,
+      "tags": [
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "Datacentres drive up big tech's carbon emissions to a third of those of France",
+      "url": "https://www.theguardian.com/us-news/2026/jul/11/microsoft-amazon-google-datacentre-carbon-emissions-france",
+      "title_zh": "数据中心让大型科技公司的碳排放达到法国的三分之一",
+      "created_display": "Created: Jul 12, 2026 / 03:23 PT",
+      "image_url": "https://i.guim.co.uk/img/media/759518978daf02dee0d450e98f9f76de047cf552/0_0_3333_2667/master/3333.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=5378afed81a42b8da30c8e1561edeb6f",
+      "summary_en": "Datacenters push big tech’s carbon footprint to roughly one third of France’s total emissions. The data-center energy profile, cooling needs, and efficiency improvements shape policy, pricing, and business strategies for cloud providers. This underscores the climate impact of on-demand computing at scale.",
+      "summary_zh": "数据中心将大型科技公司的碳排放推升至大约等于法国总排放量的三分之一。数据中心的能源结构、冷却需求及效率提升将影响云服务的政策、定价与商业策略，凸显大规模按需计算的气候影响。",
+      "hn": {
+        "id": 48879950,
+        "type": "story",
+        "by": "YeGoblynQueenne",
+        "score": 65,
+        "descendants": 86,
+        "time": 1783851805,
+        "comments_url": "https://news.ycombinator.com/item?id=48879950"
+      },
+      "hot_score": 2.16,
+      "tags": [
+        "Energy",
+        "Business"
+      ]
+    },
     {
       "title_en": "What xAI's Grok Build CLI Actually Sends to xAI",
       "url": "https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547",
@@ -37,10 +172,54 @@
         "comments_url": "https://news.ycombinator.com/item?id=48877371"
       },
       "tags": [
-        "AI",
-        "Privacy"
+        "Privacy",
+        "Data"
       ],
-      "hot_score": 4.74
+      "hot_score": 1.82
+    },
+    {
+      "title_en": "Making Crash Bandicoot (2011)",
+      "url": "https://all-things-andy-gavin.com/2011/02/02/making-crash-bandicoot-part-1/",
+      "title_zh": "制作《Crash Bandicoot》（2011）幕后揭秘",
+      "created_display": "Created: Jul 12, 2026 / 06:18 PT",
+      "image_url": "https://all-things-andy-gavin.com/wp-content/uploads/2011/02/crash_bandicoot_crash_bandicoot-s250x304-24499-580.jpg",
+      "summary_en": "Andy Gavin’s retrospective peels back the making of Crash Bandicoot (2011), detailing engine choices, design pivots, and production hurdles behind the revival. The narrative offers practical lessons on reviving beloved franchises while balancing creative and technical constraints. It’s a behind-the-scenes look at game development craft.",
+      "summary_zh": "Andy Gavin 回顾性地揭示了《Crash Bandicoot》（2011）背后的制作过程，涵盖引擎选择、设计转折与复兴过程中的挑战。叙事提供在保留经典的同时平衡创意与技术约束的实用经验，是对游戏开发工艺的幕后观察。",
+      "hn": {
+        "id": 48880987,
+        "type": "story",
+        "by": "alexpls",
+        "score": 19,
+        "descendants": 1,
+        "time": 1783862316,
+        "comments_url": "https://news.ycombinator.com/item?id=48880987"
+      },
+      "hot_score": 1.74,
+      "tags": [
+        "Gaming"
+      ]
+    },
+    {
+      "title_en": "Unauthenticated RCE in Motorola's MR2600 Router",
+      "url": "https://mrbruh.com/motorola/",
+      "title_zh": "摩托罗拉 MR2600 路由器存在未授权远程代码执行漏洞",
+      "created_display": "Created: Jul 12, 2026 / 04:52 PT",
+      "image_url": "https://mrbruh.com/motorola/motorola_advert.avif",
+      "summary_en": "Researchers found an unauthenticated remote code execution flaw in Motorola MR2600 routers, enabling attackers to take control without credentials. The issue spotlights consumer routers as persistent attack surfaces and the importance of firmware updates. Users should patch promptly and consider upgrading devices with better security guarantees.",
+      "summary_zh": "研究发现摩托罗拉 MR2600 路由器存在未授权远程代码执行漏洞，攻击者无需凭证即可控制设备。这暴露了消费级路由器作为持续的攻击面，以及固件更新的重要性。用户应尽快打补丁，并考虑升级到更具安全保障的设备。",
+      "hn": {
+        "id": 48880406,
+        "type": "story",
+        "by": "MrBruh",
+        "score": 32,
+        "descendants": 9,
+        "time": 1783857141,
+        "comments_url": "https://news.ycombinator.com/item?id=48880406"
+      },
+      "hot_score": 1.65,
+      "tags": [
+        "Security"
+      ]
     },
     {
       "title_en": "Mesh LLM: distributed AI computing on iroh",
@@ -54,8 +233,8 @@
         "id": 48876505,
         "type": "story",
         "by": "tionis",
-        "score": 232,
-        "descendants": 51,
+        "score": 298,
+        "descendants": 71,
         "time": 1783809537,
         "comments_url": "https://news.ycombinator.com/item?id=48876505"
       },
@@ -63,7 +242,7 @@
         "AI",
         "Hardware"
       ],
-      "hot_score": 2.72
+      "hot_score": 1.58
     },
     {
       "title_en": "Under federal rule, colleges must leave grads better off or lose financial aid",
@@ -77,8 +256,8 @@
         "id": 48878126,
         "type": "story",
         "by": "nradov",
-        "score": 67,
-        "descendants": 111,
+        "score": 160,
+        "descendants": 341,
         "time": 1783828814,
         "comments_url": "https://news.ycombinator.com/item?id=48878126"
       },
@@ -86,7 +265,31 @@
         "Education",
         "Politics"
       ],
-      "hot_score": 2.3
+      "hot_score": 1.58
+    },
+    {
+      "title_en": "Show HN: Mindwalk – Replay coding-agent sessions on a 3D map of your codebase",
+      "url": "https://github.com/cosmtrek/mindwalk",
+      "title_zh": "Show HN: Mindwalk——在代码库的3D地图上回放编码代理会话",
+      "created_display": "Created: Jul 11, 2026 / 22:51 PT",
+      "image_url": "https://opengraph.githubassets.com/b6022dd06e7c54653de46496100b30b77d85b4147acfc71c90c2f67265bf6139/cosmtrek/mindwalk",
+      "summary_en": "Mindwalk lets you replay coding-agent sessions on a 3D map of your codebase, helping you trace decisions and debugging. The visualization could accelerate understanding of model behavior across large repos and improve collaboration. This is especially useful for teams building AI-assisted coding tools.",
+      "summary_zh": "Mindwalk 允许在代码库的三维地图上回放编码代理会话，帮助追踪决策与调试。可视化有助于理解大型代码库中模型行为，提升协作效率，尤其对开发 AI 辅助编码工具的团队有明显帮助。",
+      "hn": {
+        "id": 48878682,
+        "type": "story",
+        "by": "cosmtrek",
+        "score": 113,
+        "descendants": 47,
+        "time": 1783835492,
+        "comments_url": "https://news.ycombinator.com/item?id=48878682"
+      },
+      "tags": [
+        "Show HN",
+        "Programming",
+        "AI"
+      ],
+      "hot_score": 1.47
     },
     {
       "title_en": "Show HN: Ant – A JavaScript runtime and ecosystem",
@@ -100,8 +303,8 @@
         "id": 48875377,
         "type": "story",
         "by": "theMackabu",
-        "score": 256,
-        "descendants": 108,
+        "score": 303,
+        "descendants": 134,
         "time": 1783800438,
         "comments_url": "https://news.ycombinator.com/item?id=48875377"
       },
@@ -110,7 +313,7 @@
         "Programming",
         "Web"
       ],
-      "hot_score": 2.11
+      "hot_score": 1.28
     },
     {
       "title_en": "How Doctors die. It’s not like the rest of us (2016)",
@@ -124,61 +327,16 @@
         "id": 48876741,
         "type": "story",
         "by": "downbad_",
-        "score": 155,
-        "descendants": 82,
+        "score": 215,
+        "descendants": 124,
         "time": 1783811706,
         "comments_url": "https://news.ycombinator.com/item?id=48876741"
       },
-      "hot_score": 1.99,
       "tags": [
         "Health",
         "Culture"
-      ]
-    },
-    {
-      "title_en": "Unexpected Solidlike Fracture in Simple Liquids",
-      "url": "https://www.quantamagazine.org/we-know-simple-fluids-can-flow-turns-out-some-can-fracture-20260710/",
-      "title_zh": "简单液体的意外固态断裂",
-      "created_display": "Created: Jul 11, 2026 / 19:13 PT",
-      "image_url": "https://www.quantamagazine.org/wp-content/uploads/2026/07/CrackingLiquids-cr-Adapted-with-permission-from-Phys.-Rev.-Lett.-136-124002.-Copyrighted-by-the-American-Physical-Society.-Social.jpg",
-      "summary_en": "Some simple liquids can fracture in a solid-like manner under certain conditions, challenging the conventional view that fluids always flow. The finding informs material science, phase transitions, and potential novel fluids with tunable fracture behavior.",
-      "summary_zh": "一些简单液体在特定条件下会呈现与流体不同的固态断裂行为，挑战了“流动就会流”的直觉。此发现有助于理解相变、材料科学，以及具可控断裂特性的新型流体。",
-      "hn": {
-        "id": 48877668,
-        "type": "story",
-        "by": "Anon84",
-        "score": 87,
-        "descendants": 44,
-        "time": 1783822426,
-        "comments_url": "https://news.ycombinator.com/item?id=48877668"
-      },
-      "hot_score": 1.94,
-      "tags": [
-        "Science"
-      ]
-    },
-    {
-      "title_en": "Why Write Code in 2026",
-      "url": "https://softwaredoug.com/blog/2026/07/09/write-code.html",
-      "title_zh": "为什么在 2026 年写代码",
-      "created_display": "Created: Jul 11, 2026 / 21:15 PT",
-      "image_url": "https://softwaredoug.com//assets/media/2026/write-code/image1.png",
-      "summary_en": "The piece argues that writing code remains essential in 2026, but expectations shift toward embracing AI copilots, higher-level tooling, and sustainable software practices. It emphasizes choosing problems that truly benefit from code and designing systems around maintainability.",
-      "summary_zh": "文章认为在 2026 年写代码依然重要，但趋势指向使用 AI 助手、提高抽象层级的工具以及可持续的软件实践。应选择真正需要编码的问题，并围绕可维护性来设计系统。",
-      "hn": {
-        "id": 48878195,
-        "type": "story",
-        "by": "zdw",
-        "score": 47,
-        "descendants": 27,
-        "time": 1783829727,
-        "comments_url": "https://news.ycombinator.com/item?id=48878195"
-      },
-      "hot_score": 1.73,
-      "tags": [
-        "Programming",
-        "AI"
-      ]
+      ],
+      "hot_score": 1.21
     },
     {
       "title_en": "Prefer strict tables in SQLite",
@@ -192,15 +350,62 @@
         "id": 48873940,
         "type": "story",
         "by": "ingve",
-        "score": 278,
-        "descendants": 131,
+        "score": 319,
+        "descendants": 161,
         "time": 1783791235,
         "comments_url": "https://news.ycombinator.com/item?id=48873940"
       },
       "tags": [
         "Programming"
       ],
-      "hot_score": 1.71
+      "hot_score": 1.09
+    },
+    {
+      "title_en": "Nvidia, CoreWeave, and Nebius: Inside the Circular Financing of the GPU Boom",
+      "url": "https://io-fund.com/ai-stocks/nvidia-coreweave-nebius-circular-financing-gpu-boom",
+      "title_zh": "Nvidia、CoreWeave 与 Nebius：GPU 热潮的循环融资内幕",
+      "created_display": "Created: Jul 11, 2026 / 10:21 PT",
+      "image_url": "https://images.prismic.io/bethtechnology/aitsR6lQnVZVEPNy_Nvidia%2CCoreWeave%2CandNebius%E2%80%93InsidetheCircularFinancingoftheGPUBoom.png?auto=format,compress",
+      "summary_en": "Explains circular financing used by GPU-focused players to recycle capital across rounds, accelerating equipment deployment for AI workloads; discusses players' roles and financial tactics.",
+      "summary_zh": "揭示围绕 GPU 行业的循环融资如何在多轮融资中回流资本，加速 AI 工作负载的显卡部署。分析参与方的角色和财务策略。",
+      "hn": {
+        "id": 48873836,
+        "type": "story",
+        "by": "adletbalzhanov",
+        "score": 319,
+        "descendants": 135,
+        "time": 1783790509,
+        "comments_url": "https://news.ycombinator.com/item?id=48873836"
+      },
+      "tags": [
+        "Finance",
+        "Business",
+        "AI",
+        "Hardware"
+      ],
+      "hot_score": 1.07
+    },
+    {
+      "title_en": "Mystery behind Moana: After 1,700 years, why did Polynesians suddenly sail east?",
+      "url": "https://theconversation.com/the-real-mystery-behind-moana-after-1-700-years-why-did-polynesians-suddenly-sail-east-287226",
+      "title_zh": "莫阿娜背后的谜团：1700多年后，波利尼西亚人为何突然向东航行？",
+      "created_display": "Created: Jul 12, 2026 / 05:17 PT",
+      "image_url": "https://images.theconversation.com/files/746935/original/file-20260709-85-t9y9m.jpg?ixlib=rb-4.1.0&rect=239%2C0%2C2471%2C1235&q=45&auto=format&w=1356&h=668&fit=crop",
+      "summary_en": "The article reframes Moana’s maritime mystery by tying eastward Polynesian voyaging after 1,700 years to navigational innovations and collective seafaring knowledge. It highlights how new data and methods illuminate long-standing questions about exploration and cultural exchange. The takeaway is that seafaring technology and knowledge diffusion helped unlock ambitious voyages.",
+      "summary_zh": "文章通过将波利尼西亚人一千七百多年后向东航行的现象，与导航创新和集体航海知识联系起来，重新解读了莫阿娜时期的海上谜团。新数据和方法揭示了关于探索与文化交流的长期问题，强调航海技术与知识扩散推动了这些远航的实现。",
+      "hn": {
+        "id": 48880564,
+        "type": "story",
+        "by": "pseudolus",
+        "score": 17,
+        "descendants": 2,
+        "time": 1783858646,
+        "comments_url": "https://news.ycombinator.com/item?id=48880564"
+      },
+      "hot_score": 1.0,
+      "tags": [
+        "Science"
+      ]
     },
     {
       "title_en": "Female US rower completes historic solo journey from California to Hawaii",
@@ -222,55 +427,30 @@
       "tags": [
         "Culture"
       ],
-      "hot_score": 1.68
+      "hot_score": 0.95
     },
     {
-      "title_en": "A pure scheme web programming tool",
-      "url": "https://goeteia.dev",
-      "title_zh": "一个纯 Scheme 的网页编程工具",
-      "created_display": "Created: Jul 11, 2026 / 17:57 PT",
-      "image_url": null,
-      "summary_en": "A minimal, pure Scheme toolchain for web development, avoiding other languages. It showcases how functional programming can handle frontend and backend tasks with a small, coherent toolset.",
-      "summary_zh": "一个纯 Scheme 的网页编程工具，尝试用最小的工具链完成前后端开发。强调函数式编程在网页开发中的表达力和简洁性。",
+      "title_en": "Show HN: Only 1 of 4,356 reachable MCP servers is ready for the 2026-07-28 spec",
+      "url": "https://github.com/Roee-Tsur/mcp-spec-check",
+      "title_zh": "Show HN：4,356 台可访问的 MCP 服务器中仅 1 台符合 2026-07-28 规范",
+      "created_display": "Created: Jul 12, 2026 / 06:21 PT",
+      "image_url": "https://opengraph.githubassets.com/b05e116c62387806f3735bd57fcb6d076348d00a2fc8bdd5a0db28600a835a1b/Roee-Tsur/mcp-spec-check",
+      "summary_en": "Only 1 of 4,356 reachable MCP servers is ready for the upcoming spec, exposing a broad gap in interoperability across the ecosystem. The stat underscores how large-scale protocol changes hit real-world deployments first, requiring tooling and migration support. For developers, it’s a reminder that specs alone don’t ensure compatibility.",
+      "summary_zh": "在 4,356 台可访问的 MCP 服务器中，只有 1 台符合即将到来的规范，暴露了生态系统的可互操作性差距。此数据强调大规模协议变更在实际部署中首先暴露的挑战，需要相应的工具与迁移支持。对开发者而言，这提醒我们仅有规范不足以保证兼容性。",
       "hn": {
-        "id": 48877314,
+        "id": 48881009,
         "type": "story",
-        "by": "guenchi",
-        "score": 88,
-        "descendants": 21,
-        "time": 1783817838,
-        "comments_url": "https://news.ycombinator.com/item?id=48877314"
+        "by": "roee_tsur",
+        "score": 10,
+        "descendants": 1,
+        "time": 1783862461,
+        "comments_url": "https://news.ycombinator.com/item?id=48881009"
       },
+      "hot_score": 0.89,
       "tags": [
-        "Programming",
-        "Web"
-      ],
-      "hot_score": 1.51
-    },
-    {
-      "title_en": "Nvidia, CoreWeave, and Nebius: Inside the Circular Financing of the GPU Boom",
-      "url": "https://io-fund.com/ai-stocks/nvidia-coreweave-nebius-circular-financing-gpu-boom",
-      "title_zh": "Nvidia、CoreWeave 与 Nebius：GPU 热潮的循环融资内幕",
-      "created_display": "Created: Jul 11, 2026 / 10:21 PT",
-      "image_url": "https://images.prismic.io/bethtechnology/aitsR6lQnVZVEPNy_Nvidia%2CCoreWeave%2CandNebius%E2%80%93InsidetheCircularFinancingoftheGPUBoom.png?auto=format,compress",
-      "summary_en": "Explains circular financing used by GPU-focused players to recycle capital across rounds, accelerating equipment deployment for AI workloads; discusses players' roles and financial tactics.",
-      "summary_zh": "揭示围绕 GPU 行业的循环融资如何在多轮融资中回流资本，加速 AI 工作负载的显卡部署。分析参与方的角色和财务策略。",
-      "hn": {
-        "id": 48873836,
-        "type": "story",
-        "by": "adletbalzhanov",
-        "score": 248,
-        "descendants": 83,
-        "time": 1783790509,
-        "comments_url": "https://news.ycombinator.com/item?id=48873836"
-      },
-      "tags": [
-        "Finance",
-        "Business",
-        "AI",
-        "Hardware"
-      ],
-      "hot_score": 1.49
+        "Show HN",
+        "Programming"
+      ]
     },
     {
       "title_en": "RISCBoy is an open-source portable games console, designed from scratch",
@@ -284,153 +464,106 @@
         "id": 48876245,
         "type": "story",
         "by": "mariuz",
-        "score": 132,
-        "descendants": 19,
+        "score": 177,
+        "descendants": 24,
         "time": 1783807080,
         "comments_url": "https://news.ycombinator.com/item?id=48876245"
       },
       "tags": [
         "Open Source",
-        "Hardware",
-        "Gaming"
-      ],
-      "hot_score": 1.39
-    },
-    {
-      "title_en": "Martha Lillard, last US polio patient using iron lung, dies at 78 in Oklahoma",
-      "url": "https://abcnews.com/US/wireStory/martha-lillard-us-polio-patient-iron-lung-dies-134668491",
-      "title_zh": "美国最后一位使用铁肺的脊髓灰质炎患者在俄克拉荷马去世",
-      "created_display": "Created: Jul 11, 2026 / 17:32 PT",
-      "image_url": "https://i.abcnewsfe.com/a/8835e7b2-65e3-4a45-b2f3-4acfec9712ea/wirestory_41e5b4da4f4e710344dd0872d7fcf987_16x9.jpg?w=1600",
-      "summary_en": "Martha Lillard, the last U.S. polio patient using an iron lung, dies at 78 in Oklahoma, marking the end of an era in medical history. The obituary reflects on polio, medical technology, and societal changes.",
-      "summary_zh": "美国最后一位使用铁肺的脊髓灰质炎患者玛莎·利拉德在俄克拉荷马州去世，享年78岁，标志着一个医疗历史时代的结束。对脊髓灰质炎、医疗技术及社会变迁的反思。",
-      "hn": {
-        "id": 48877178,
-        "type": "story",
-        "by": "daniel_iversen",
-        "score": 76,
-        "descendants": 22,
-        "time": 1783816335,
-        "comments_url": "https://news.ycombinator.com/item?id=48877178"
-      },
-      "tags": [
-        "Health"
-      ],
-      "hot_score": 1.21
-    },
-    {
-      "title_en": "A dock that wakes up reliably",
-      "url": "https://fabiensanglard.net/tb4/index.html",
-      "title_zh": "一个能可靠唤醒的扩展坞",
-      "created_display": "Created: Jul 11, 2026 / 17:48 PT",
-      "image_url": "https://fabiensanglard.net/tb4/tb4_vs_others.webp",
-      "summary_en": "A USB-C/Thunderbolt dock that reliably wakes a host from sleep, addressing a common UX pain point. The write-up outlines hardware choices, wake signaling, and implications for laptop docking ecosystems.",
-      "summary_zh": "一个扩展坞，能在休眠后可靠唤醒主机，解决常见的唤醒体验问题。文中讨论了硬件选择、唤醒信号及其对笔记本扩展生态的影响。",
-      "hn": {
-        "id": 48877269,
-        "type": "story",
-        "by": "ingve",
-        "score": 70,
-        "descendants": 43,
-        "time": 1783817290,
-        "comments_url": "https://news.ycombinator.com/item?id=48877269"
-      },
-      "tags": [
         "Hardware"
       ],
-      "hot_score": 1.17
+      "hot_score": 0.88
     },
     {
-      "title_en": "Show HN: Mindwalk – Replay coding-agent sessions on a 3D map of your codebase",
-      "url": "https://github.com/cosmtrek/mindwalk",
-      "title_zh": "Show HN: Mindwalk——在代码库的3D地图上回放编码代理会话",
-      "created_display": "Created: Jul 11, 2026 / 22:51 PT",
-      "image_url": "https://opengraph.githubassets.com/b6022dd06e7c54653de46496100b30b77d85b4147acfc71c90c2f67265bf6139/cosmtrek/mindwalk",
-      "summary_en": "Mindwalk lets you replay coding-agent sessions on a 3D map of your codebase, helping you trace decisions and debugging. The visualization could accelerate understanding of model behavior across large repos and improve collaboration. This is especially useful for teams building AI-assisted coding tools.",
-      "summary_zh": "Mindwalk 允许在代码库的三维地图上回放编码代理会话，帮助追踪决策与调试。可视化有助于理解大型代码库中模型行为，提升协作效率，尤其对开发 AI 辅助编码工具的团队有明显帮助。",
+      "title_en": "Death of the Status Update: Why 55% of Americans Stopped Posting on Social Media",
+      "url": "https://ca.pcmag.com/social-media/16790/the-death-of-the-status-update-why-55-of-americans-stopped-posting-on-social-media",
+      "title_zh": "状态更新的时代结束：为何55%的美国人停止在社交媒体发帖",
+      "created_display": "Created: Jul 12, 2026 / 03:14 PT",
+      "image_url": "https://sm.pcmag.com/t/pcmag_ca/news/t/the-death-/the-death-of-the-status-update-why-55-of-americans-stopped-p_esbq.1200.png",
+      "summary_en": "Demographics, platform changes, and privacy fatigue help explain why 55% of Americans stopped posting on social media. The trend has implications for marketers, content creators, and platform design as attention shifts and new formats emerge. It underscores a pivot point in social communication patterns.",
+      "summary_zh": "人口结构变化、平台演变与隐私疲劳共同解释了为何约55%的美国人停止在社交媒体发帖。这一趋势将影响营销、内容创作者与平台设计，因为受众重心正在转移，新格式也在兴起，揭示社交沟通模式的转折点。",
       "hn": {
-        "id": 48878682,
+        "id": 48879902,
         "type": "story",
-        "by": "cosmtrek",
-        "score": 18,
-        "descendants": 2,
-        "time": 1783835492,
-        "comments_url": "https://news.ycombinator.com/item?id=48878682"
+        "by": "thunderbong",
+        "score": 28,
+        "descendants": 30,
+        "time": 1783851280,
+        "comments_url": "https://news.ycombinator.com/item?id=48879902"
       },
-      "hot_score": 1.09,
+      "hot_score": 0.87,
       "tags": [
-        "Show HN",
-        "Programming",
-        "AI"
+        "Privacy",
+        "Culture"
       ]
     },
     {
-      "title_en": "Vinod Khosla to Buy Seattle Seahawks for $9.6B",
-      "url": "https://www.sportico.com/business/team-sales/2026/seattle-seahawks-sale-vinod-khosla-owner-billions-1234938616/",
-      "title_zh": "Vinod Khosla 将以 96 亿美元收购西雅图海鹰队",
-      "created_display": "Created: Jul 11, 2026 / 22:48 PT",
-      "image_url": "https://www.sportico.com/wp-content/uploads/2026/07/seahawks-sale-close.png?w=1024",
-      "summary_en": "Vinod Khosla is set to purchase the Seattle Seahawks for $9.6 billion, marking a tech-backed ownership transition in professional sports. The move could influence franchise strategy, sponsorships, and technology-driven fan engagement.",
-      "summary_zh": "Vinod Khosla 将以 96 亿美元收购西雅图海鹰队，标志科技界投资者进入职业体育的所有权转变。此举可能影响球队治理、赞助与以科技驱动的球迷互动。",
+      "title_en": "Unexpected Solidlike Fracture in Simple Liquids",
+      "url": "https://www.quantamagazine.org/we-know-simple-fluids-can-flow-turns-out-some-can-fracture-20260710/",
+      "title_zh": "简单液体的意外固态断裂",
+      "created_display": "Created: Jul 11, 2026 / 19:13 PT",
+      "image_url": "https://www.quantamagazine.org/wp-content/uploads/2026/07/CrackingLiquids-cr-Adapted-with-permission-from-Phys.-Rev.-Lett.-136-124002.-Copyrighted-by-the-American-Physical-Society.-Social.jpg",
+      "summary_en": "Some simple liquids can fracture in a solid-like manner under certain conditions, challenging the conventional view that fluids always flow. The finding informs material science, phase transitions, and potential novel fluids with tunable fracture behavior.",
+      "summary_zh": "一些简单液体在特定条件下会呈现与流体不同的固态断裂行为，挑战了“流动就会流”的直觉。此发现有助于理解相变、材料科学，以及具可控断裂特性的新型流体。",
       "hn": {
-        "id": 48878666,
+        "id": 48877668,
         "type": "story",
-        "by": "kpw94",
-        "score": 18,
-        "descendants": 7,
-        "time": 1783835339,
-        "comments_url": "https://news.ycombinator.com/item?id=48878666"
+        "by": "Anon84",
+        "score": 97,
+        "descendants": 51,
+        "time": 1783822426,
+        "comments_url": "https://news.ycombinator.com/item?id=48877668"
       },
-      "hot_score": 1.07,
       "tags": [
-        "Business"
-      ]
+        "Science"
+      ],
+      "hot_score": 0.76
     },
     {
-      "title_en": "A Erlang style pure Scheme Webserver and further",
-      "url": "https://igropyr.com",
-      "title_zh": "一种 Erlang 风格的纯 Scheme Web 服务器及后续",
-      "created_display": "Created: Jul 11, 2026 / 18:03 PT",
-      "image_url": "https://igropyr.com/chez-icon.png",
-      "summary_en": "An Erlang-style pure Scheme web server demonstrates actor-like concurrency in a minimal Scheme environment, with follow-on improvements. It’s a playful take on merging concurrency models with a functional Lisp dialect.",
-      "summary_zh": "介绍一种 Erlang 风格的纯 Scheme Web 服务器，展示在纯 Scheme 环境中实现类似 actor 的并发，以及后续改进。",
+      "title_en": "Modern decor may be straining people's brains",
+      "url": "https://studyfinds.com/modern-decor-may-be-straining-peoples-brains/",
+      "title_zh": "现代装饰可能增加大脑负担",
+      "created_display": "Created: Jul 11, 2026 / 09:28 PT",
+      "image_url": "https://studyfinds.com/wp-content/uploads/2026/07/Modern-office-scaled.jpeg",
+      "summary_en": "Cites studies suggesting modern decor increases cognitive load and reduces focus, with implications for workplace design and user interfaces.",
+      "summary_zh": "研究显示某些现代装饰风格会增加认知负荷、降低专注度，对工作场所设计和用户界面有启示。",
       "hn": {
-        "id": 48877344,
+        "id": 48873424,
         "type": "story",
-        "by": "guenchi",
-        "score": 60,
-        "descendants": 6,
-        "time": 1783818209,
-        "comments_url": "https://news.ycombinator.com/item?id=48877344"
+        "by": "downwithdisease",
+        "score": 238,
+        "descendants": 231,
+        "time": 1783787328,
+        "comments_url": "https://news.ycombinator.com/item?id=48873424"
       },
       "tags": [
-        "Programming"
+        "Design"
       ],
-      "hot_score": 1.05
+      "hot_score": 0.75
     },
     {
-      "title_en": "We scaled PgBouncer to 4x throughput",
-      "url": "https://clickhouse.com/blog/pgbouncer-clickhouse-managed-postgres",
-      "title_zh": "PgBouncer 吞吐量提升四倍",
-      "created_display": "Created: Jul 11, 2026 / 08:28 PT",
-      "image_url": "https://clickhouse.com/_next/image?url=%2Fuploads%2FScaling_Pgbouncer_in_Click_House_ed1f77793f.jpg&w=1200&h=630&q=75",
-      "summary_en": "Shows how to push PgBouncer-based connection pooling to four times the throughput for PostgreSQL workloads, with practical tuning tips and pooling-mode considerations. Demonstrates integration with a managed Postgres stack to reduce connection overhead and latency.",
-      "summary_zh": "展示如何将 PgBouncer 基于连接池的吞吐量提升至四倍，给出实际的参数调整和池模式选择要点。展示在 ClickHouse 管理的 Postgres 场景中降低连接开销、提升延迟表现的做法。",
+      "title_en": "Autopsy Study Finds Replicating SARS-CoV-2 in the Hearts of Long Covid",
+      "url": "https://my.uscap.org/uscap/program/S0tc675/index.cfm?pgid=5167&sid=14770&abid=51228",
+      "title_zh": "尸检研究发现长年新冠患者心脏中存在 SARS‑CoV‑2",
+      "created_display": "Created: Jul 11, 2026 / 17:38 PT",
+      "image_url": "https://my.uscap.org/uscap/images/2026AnnualMeeting/header_1_v1.png?v=261207132703",
+      "summary_en": "An autopsy study finds SARS-CoV-2 replication in the hearts of some long-COVID patients, shedding light on cardiac involvement and potential mechanisms behind lingering symptoms. The result underscores long-COVID's potential organ-specific effects and the need for ongoing cardiovascular monitoring.",
+      "summary_zh": "尸检研究发现部分长期新冠患者的心脏中存在 SARS‑CoV‑2 的复制，揭示心脏受累及长期症状的潜在机制。结果强调长期新冠对心血管健康的潜在影响，需持续监测。",
       "hn": {
-        "id": 48872874,
+        "id": 48877214,
         "type": "story",
-        "by": "saisrirampur",
-        "score": 204,
-        "descendants": 44,
-        "time": 1783783682,
-        "comments_url": "https://news.ycombinator.com/item?id=48872874"
+        "by": "thenerdhead",
+        "score": 108,
+        "descendants": 27,
+        "time": 1783816682,
+        "comments_url": "https://news.ycombinator.com/item?id=48877214"
       },
       "tags": [
-        "DevOps",
-        "Programming",
-        "Data"
+        "Health",
+        "Science"
       ],
-      "hot_score": 1.01
+      "hot_score": 0.7
     },
     {
       "title_en": "UPI: Anatomy of a Payment Transaction",
@@ -444,8 +577,8 @@
         "id": 48873457,
         "type": "story",
         "by": "prtk25",
-        "score": 176,
-        "descendants": 63,
+        "score": 217,
+        "descendants": 103,
         "time": 1783787622,
         "comments_url": "https://news.ycombinator.com/item?id=48873457"
       },
@@ -454,7 +587,7 @@
         "Business",
         "Security"
       ],
-      "hot_score": 0.97
+      "hot_score": 0.69
     },
     {
       "title_en": "QuadRF can spot drones and see WiFi through my wall",
@@ -478,7 +611,119 @@
         "Privacy",
         "Legal"
       ],
-      "hot_score": 0.86
+      "hot_score": 0.67
+    },
+    {
+      "title_en": "We scaled PgBouncer to 4x throughput",
+      "url": "https://clickhouse.com/blog/pgbouncer-clickhouse-managed-postgres",
+      "title_zh": "PgBouncer 吞吐量提升四倍",
+      "created_display": "Created: Jul 11, 2026 / 08:28 PT",
+      "image_url": "https://clickhouse.com/_next/image?url=%2Fuploads%2FScaling_Pgbouncer_in_Click_House_ed1f77793f.jpg&w=1200&h=630&q=75",
+      "summary_en": "Shows how to push PgBouncer-based connection pooling to four times the throughput for PostgreSQL workloads, with practical tuning tips and pooling-mode considerations. Demonstrates integration with a managed Postgres stack to reduce connection overhead and latency.",
+      "summary_zh": "展示如何将 PgBouncer 基于连接池的吞吐量提升至四倍，给出实际的参数调整和池模式选择要点。展示在 ClickHouse 管理的 Postgres 场景中降低连接开销、提升延迟表现的做法。",
+      "hn": {
+        "id": 48872874,
+        "type": "story",
+        "by": "saisrirampur",
+        "score": 228,
+        "descendants": 54,
+        "time": 1783783682,
+        "comments_url": "https://news.ycombinator.com/item?id=48872874"
+      },
+      "tags": [
+        "Programming",
+        "Data"
+      ],
+      "hot_score": 0.67
+    },
+    {
+      "title_en": "A dock that wakes up reliably",
+      "url": "https://fabiensanglard.net/tb4/index.html",
+      "title_zh": "一个能可靠唤醒的扩展坞",
+      "created_display": "Created: Jul 11, 2026 / 17:48 PT",
+      "image_url": "https://fabiensanglard.net/tb4/tb4_vs_others.webp",
+      "summary_en": "A USB-C/Thunderbolt dock that reliably wakes a host from sleep, addressing a common UX pain point. The write-up outlines hardware choices, wake signaling, and implications for laptop docking ecosystems.",
+      "summary_zh": "一个扩展坞，能在休眠后可靠唤醒主机，解决常见的唤醒体验问题。文中讨论了硬件选择、唤醒信号及其对笔记本扩展生态的影响。",
+      "hn": {
+        "id": 48877269,
+        "type": "story",
+        "by": "ingve",
+        "score": 94,
+        "descendants": 58,
+        "time": 1783817290,
+        "comments_url": "https://news.ycombinator.com/item?id=48877269"
+      },
+      "tags": [
+        "Hardware"
+      ],
+      "hot_score": 0.62
+    },
+    {
+      "title_en": "A pure scheme web programming tool",
+      "url": "https://goeteia.dev",
+      "title_zh": "一个纯 Scheme 的网页编程工具",
+      "created_display": "Created: Jul 11, 2026 / 17:57 PT",
+      "image_url": null,
+      "summary_en": "A minimal, pure Scheme toolchain for web development, avoiding other languages. It showcases how functional programming can handle frontend and backend tasks with a small, coherent toolset.",
+      "summary_zh": "一个纯 Scheme 的网页编程工具，尝试用最小的工具链完成前后端开发。强调函数式编程在网页开发中的表达力和简洁性。",
+      "hn": {
+        "id": 48877314,
+        "type": "story",
+        "by": "guenchi",
+        "score": 88,
+        "descendants": 21,
+        "time": 1783817838,
+        "comments_url": "https://news.ycombinator.com/item?id=48877314"
+      },
+      "tags": [
+        "Programming",
+        "Web"
+      ],
+      "hot_score": 0.59
+    },
+    {
+      "title_en": "Martha Lillard, last US polio patient using iron lung, dies at 78 in Oklahoma",
+      "url": "https://abcnews.com/US/wireStory/martha-lillard-us-polio-patient-iron-lung-dies-134668491",
+      "title_zh": "美国最后一位使用铁肺的脊髓灰质炎患者在俄克拉荷马去世",
+      "created_display": "Created: Jul 11, 2026 / 17:32 PT",
+      "image_url": "https://i.abcnewsfe.com/a/8835e7b2-65e3-4a45-b2f3-4acfec9712ea/wirestory_41e5b4da4f4e710344dd0872d7fcf987_16x9.jpg?w=1600",
+      "summary_en": "Martha Lillard, the last U.S. polio patient using an iron lung, dies at 78 in Oklahoma, marking the end of an era in medical history. The obituary reflects on polio, medical technology, and societal changes.",
+      "summary_zh": "美国最后一位使用铁肺的脊髓灰质炎患者玛莎·利拉德在俄克拉荷马州去世，享年78岁，标志着一个医疗历史时代的结束。对脊髓灰质炎、医疗技术及社会变迁的反思。",
+      "hn": {
+        "id": 48877178,
+        "type": "story",
+        "by": "daniel_iversen",
+        "score": 76,
+        "descendants": 22,
+        "time": 1783816335,
+        "comments_url": "https://news.ycombinator.com/item?id=48877178"
+      },
+      "tags": [
+        "Health"
+      ],
+      "hot_score": 0.49
+    },
+    {
+      "title_en": "Gina Gallery of International Naive Art",
+      "url": "https://www.ginagallery.com/",
+      "title_zh": "Gina Gallery：国际天真艺术画廊",
+      "created_display": "Created: Jul 12, 2026 / 06:18 PT",
+      "image_url": "https://www.ginagallery.com/wp-content/uploads/2024/03/GINA-logo-copy-scaled.jpg",
+      "summary_en": "Gina Gallery presents international naive art, highlighting self-taught artists and unpolished, expressive works. The platform broadens representation and provides a global audience for a genre often overlooked by mainstream galleries. It’s a reminder of how online spaces unlock niche art communities.",
+      "summary_zh": "Gina Gallery 展示国际天真艺术，聚焦自学艺术家与质朴、富有表达性的作品。该平台拓展了 representation，为这一常被主流画廊忽视的流派带来全球观众，凸显在线空间能连接小众艺术社群。",
+      "hn": {
+        "id": 48880985,
+        "type": "story",
+        "by": "o4c",
+        "score": 6,
+        "descendants": 0,
+        "time": 1783862314,
+        "comments_url": "https://news.ycombinator.com/item?id=48880985"
+      },
+      "hot_score": 0.48,
+      "tags": [
+        "Culture"
+      ]
     },
     {
       "title_en": "Show HN: Learn by rebuilding Redis, Git, a database from scratch",
@@ -492,8 +737,8 @@
         "id": 48871973,
         "type": "story",
         "by": "acley",
-        "score": 164,
-        "descendants": 43,
+        "score": 183,
+        "descendants": 60,
         "time": 1783777227,
         "comments_url": "https://news.ycombinator.com/item?id=48871973"
       },
@@ -502,30 +747,52 @@
         "Programming",
         "Data"
       ],
-      "hot_score": 0.69
+      "hot_score": 0.47
     },
     {
-      "title_en": "Fixed three bugs that made Qwen3.5-122B a daily driver on Mac Studio",
-      "url": "https://mrzk.io/posts/qmlx-maximising-ai-psychosis-minmaxing-mac-studio/",
-      "title_zh": "修复三个错误，使 Qwen3.5-122B 成为 Mac Studio 的日常驱动",
-      "created_display": "Created: Jul 11, 2026 / 15:54 PT",
-      "image_url": "https://mrzk.io/posts/qmlx-maximising-ai-psychosis-minmaxing-mac-studio/cover.png",
-      "summary_en": "Three bugs were fixed to stabilize Qwen3.5-122B on Mac Studio, turning it into a reliable daily driver for local AI workloads. The updates address stability and compatibility issues that previously hindered performance on Apple Silicon.",
-      "summary_zh": "修复了三个错误，使 Qwen3.5-122B 在 Mac Studio 上成为稳定的日常使用对象。更新提升了稳定性和与 Apple Silicon 的兼容性，使本地 AI 使用更可靠。",
+      "title_en": "Why Write Code in 2026",
+      "url": "https://softwaredoug.com/blog/2026/07/09/write-code.html",
+      "title_zh": "为什么在 2026 年写代码",
+      "created_display": "Created: Jul 11, 2026 / 21:15 PT",
+      "image_url": "https://softwaredoug.com//assets/media/2026/write-code/image1.png",
+      "summary_en": "The piece argues that writing code remains essential in 2026, but expectations shift toward embracing AI copilots, higher-level tooling, and sustainable software practices. It emphasizes choosing problems that truly benefit from code and designing systems around maintainability.",
+      "summary_zh": "文章认为在 2026 年写代码依然重要，但趋势指向使用 AI 助手、提高抽象层级的工具以及可持续的软件实践。应选择真正需要编码的问题，并围绕可维护性来设计系统。",
       "hn": {
-        "id": 48876619,
+        "id": 48878195,
         "type": "story",
-        "by": "marzukia",
-        "score": 55,
-        "descendants": 22,
-        "time": 1783810446,
-        "comments_url": "https://news.ycombinator.com/item?id=48876619"
+        "by": "zdw",
+        "score": 47,
+        "descendants": 27,
+        "time": 1783829727,
+        "comments_url": "https://news.ycombinator.com/item?id=48878195"
       },
-      "hot_score": 0.66,
+      "hot_score": 0.47,
       "tags": [
         "AI",
         "Programming"
       ]
+    },
+    {
+      "title_en": "A Erlang style pure Scheme Webserver and further",
+      "url": "https://igropyr.com",
+      "title_zh": "一种 Erlang 风格的纯 Scheme Web 服务器及后续",
+      "created_display": "Created: Jul 11, 2026 / 18:03 PT",
+      "image_url": "https://igropyr.com/chez-icon.png",
+      "summary_en": "An Erlang-style pure Scheme web server demonstrates actor-like concurrency in a minimal Scheme environment, with follow-on improvements. It’s a playful take on merging concurrency models with a functional Lisp dialect.",
+      "summary_zh": "介绍一种 Erlang 风格的纯 Scheme Web 服务器，展示在纯 Scheme 环境中实现类似 actor 的并发，以及后续改进。",
+      "hn": {
+        "id": 48877344,
+        "type": "story",
+        "by": "guenchi",
+        "score": 60,
+        "descendants": 6,
+        "time": 1783818209,
+        "comments_url": "https://news.ycombinator.com/item?id=48877344"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 0.41
     },
     {
       "title_en": "The early History of the Singular Value Decomposition (1993) [pdf]",
@@ -539,8 +806,8 @@
         "id": 48872858,
         "type": "story",
         "by": "wolfi1",
-        "score": 113,
-        "descendants": 63,
+        "score": 135,
+        "descendants": 74,
         "time": 1783783572,
         "comments_url": "https://news.ycombinator.com/item?id=48872858"
       },
@@ -548,120 +815,28 @@
         "Science",
         "AI"
       ],
-      "hot_score": 0.56
+      "hot_score": 0.39
     },
     {
-      "title_en": "ZeroFS vs. Amazon S3 Files",
-      "url": "https://www.zerofs.net/blog/zerofs-vs-aws-s3-files/",
-      "title_zh": "ZeroFS 与 Amazon S3 文件系统的对比",
-      "created_display": "Created: Jul 11, 2026 / 11:15 PT",
-      "image_url": "https://www.zerofs.net/assets/og-card.jpg",
-      "summary_en": "ZeroFS contrasts its filesystem approach with Amazon S3's object storage, discussing trade-offs in semantics, performance, and usability.",
-      "summary_zh": "ZeroFS 与 Amazon S3 的文件模型对比，讨论语义、性能与易用性等权衡。文章强调在某些用例中，ZeroFS 提供更接近本地文件系统的语义和更顺畅的开发体验。",
+      "title_en": "Atari ST Advertising – By Paul Lefebvre",
+      "url": "https://www.goto10retro.com/p/atari-st-advertising",
+      "title_zh": "Atari ST 广告回顾——Paul Lefebvre",
+      "created_display": "Created: Jul 12, 2026 / 05:38 PT",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!ofLA!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc52abe67-2372-4d2b-b7f7-08f83a326335_1600x1200.jpeg",
+      "summary_en": "Paul Lefebvre curates or analyzes Atari ST advertisements, illustrating how marketing framed early personal computing and spurred a generation of enthusiasts. The collection highlights design trends, messaging, and the enduring nostalgia of the era.",
+      "summary_zh": "Paul Lefebvre 汇编/分析了 Atari ST 的广告，展示早期个人计算机如何被市场营销塑造，并推动了一代爱好者的兴起。该收藏凸显设计趋势、传播信息与那个时代的永恒怀旧感。",
       "hn": {
-        "id": 48874297,
+        "id": 48880702,
         "type": "story",
-        "by": "cbrewster",
-        "score": 76,
-        "descendants": 18,
-        "time": 1783793735,
-        "comments_url": "https://news.ycombinator.com/item?id=48874297"
-      },
-      "tags": [
-        "Data"
-      ],
-      "hot_score": 0.5
-    },
-    {
-      "title_en": "Autopsy Study Finds Replicating SARS-CoV-2 in the Hearts of Long Covid",
-      "url": "https://my.uscap.org/uscap/program/S0tc675/index.cfm?pgid=5167&sid=14770&abid=51228",
-      "title_zh": "尸检研究发现长年新冠患者心脏中存在 SARS‑CoV‑2",
-      "created_display": "Created: Jul 11, 2026 / 17:38 PT",
-      "image_url": "https://my.uscap.org/uscap/images/2026AnnualMeeting/header_1_v1.png?v=261207132703",
-      "summary_en": "An autopsy study finds SARS-CoV-2 replication in the hearts of some long-COVID patients, shedding light on cardiac involvement and potential mechanisms behind lingering symptoms. The result underscores long-COVID's potential organ-specific effects and the need for ongoing cardiovascular monitoring.",
-      "summary_zh": "尸检研究发现部分长期新冠患者的心脏中存在 SARS‑CoV‑2 的复制，揭示心脏受累及长期症状的潜在机制。结果强调长期新冠对心血管健康的潜在影响，需持续监测。",
-      "hn": {
-        "id": 48877214,
-        "type": "story",
-        "by": "thenerdhead",
-        "score": 30,
-        "descendants": 1,
-        "time": 1783816682,
-        "comments_url": "https://news.ycombinator.com/item?id=48877214"
-      },
-      "hot_score": 0.47,
-      "tags": [
-        "Health",
-        "Science"
-      ]
-    },
-    {
-      "title_en": "6× faster binary search: from compiled code to mechanical sympathy",
-      "url": "https://pythonspeed.com/articles/branchless-binary-search/",
-      "title_zh": "六倍更快的二分搜索：从编译代码到对硬件的理解",
-      "created_display": "Created: Jul 12, 2026 / 00:00 PT",
-      "image_url": "https://pythonspeed.com/assets/titles/branchless-binary-search.png",
-      "summary_en": "A set of optimizations—branchless code, vectorization, and architecture-aware tricks—achieve roughly sixfold speedups for binary search, illustrating how hardware-aware micro-optimizations can materially affect logarithmic-time algorithms.",
-      "summary_zh": "通过分支最小化、向量化及与体系结构相关的技巧，二分查找实现约六倍加速，展示了基于硬件的微观优化如何显著提升对数时间算法的性能。",
-      "hn": {
-        "id": 48878996,
-        "type": "story",
-        "by": "enz",
-        "score": 5,
+        "by": "rbanffy",
+        "score": 6,
         "descendants": 0,
-        "time": 1783839624,
-        "comments_url": "https://news.ycombinator.com/item?id=48878996"
+        "time": 1783859902,
+        "comments_url": "https://news.ycombinator.com/item?id=48880702"
       },
-      "hot_score": 0.43,
+      "hot_score": 0.36,
       "tags": [
-        "Programming",
-        "Hardware"
-      ]
-    },
-    {
-      "title_en": "Show HN: Orbit – AR satellite tracker, watch 15k+ objects",
-      "url": "https://nagylukas.github.io/orbit.html",
-      "title_zh": "Show HN: Orbit – AR 卫星追踪器，监视 15k+ 颗对象",
-      "created_display": "Created: Jul 11, 2026 / 09:39 PT",
-      "image_url": "https://nagylukas.github.io/images/orbit_sky.webp",
-      "summary_en": "Presents Orbit, an AR satellite tracker that visualizes 15k+ objects in real time; demonstrates how AR can augment space awareness and educate users.",
-      "summary_zh": "介绍 Orbit，这款 AR 卫星追踪器可在现实世界中实时可视 15k+ 颗对象，展示了 AR 在提升空间认知方面的潜力。",
-      "hn": {
-        "id": 48873501,
-        "type": "story",
-        "by": "lukas9",
-        "score": 74,
-        "descendants": 19,
-        "time": 1783787942,
-        "comments_url": "https://news.ycombinator.com/item?id=48873501"
-      },
-      "tags": [
-        "Show HN",
-        "Space"
-      ],
-      "hot_score": 0.41
-    },
-    {
-      "title_en": "The Energetic Costs of Cellular Computation (2012)",
-      "url": "https://arxiv.org/abs/1203.5426",
-      "title_zh": "细胞计算的能量成本（2012）",
-      "created_display": "Created: Jul 11, 2026 / 18:59 PT",
-      "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-      "summary_en": "An early 2012 study quantifies the energy budget of cellular information processing, framing computing in biological systems in terms of metabolic costs per bit. The work foreshadows energy-aware design for bio-computing and helps benchmarks energy efficiency in neuromorphic ideas.",
-      "summary_zh": "这篇 2012 年的研究量化了细胞信息处理的能量预算，将代谢成本与每比特的能耗联系起来。工作为生物计算的能效设计提供基准，并为类脑计算的能耗研究奠定基础。",
-      "hn": {
-        "id": 48877613,
-        "type": "story",
-        "by": "lioeters",
-        "score": 20,
-        "descendants": 1,
-        "time": 1783821575,
-        "comments_url": "https://news.ycombinator.com/item?id=48877613"
-      },
-      "hot_score": 0.41,
-      "tags": [
-        "Science",
-        "Energy"
+        "Culture"
       ]
     },
     {
@@ -683,11 +858,123 @@
       },
       "tags": [
         "Show HN",
-        "Programming",
-        "Open Source",
+        "AI",
         "Hardware"
       ],
-      "hot_score": 0.38
+      "hot_score": 0.33
+    },
+    {
+      "title_en": "Fixed three bugs that made Qwen3.5-122B a daily driver on Mac Studio",
+      "url": "https://mrzk.io/posts/qmlx-maximising-ai-psychosis-minmaxing-mac-studio/",
+      "title_zh": "修复三个错误，使 Qwen3.5-122B 成为 Mac Studio 的日常驱动",
+      "created_display": "Created: Jul 11, 2026 / 15:54 PT",
+      "image_url": "https://mrzk.io/posts/qmlx-maximising-ai-psychosis-minmaxing-mac-studio/cover.png",
+      "summary_en": "Three bugs were fixed to stabilize Qwen3.5-122B on Mac Studio, turning it into a reliable daily driver for local AI workloads. The updates address stability and compatibility issues that previously hindered performance on Apple Silicon.",
+      "summary_zh": "修复了三个错误，使 Qwen3.5-122B 在 Mac Studio 上成为稳定的日常使用对象。更新提升了稳定性和与 Apple Silicon 的兼容性，使本地 AI 使用更可靠。",
+      "hn": {
+        "id": 48876619,
+        "type": "story",
+        "by": "marzukia",
+        "score": 55,
+        "descendants": 22,
+        "time": 1783810446,
+        "comments_url": "https://news.ycombinator.com/item?id=48876619"
+      },
+      "hot_score": 0.3,
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title_en": "ZeroFS vs. Amazon S3 Files",
+      "url": "https://www.zerofs.net/blog/zerofs-vs-aws-s3-files/",
+      "title_zh": "ZeroFS 与 Amazon S3 文件系统的对比",
+      "created_display": "Created: Jul 11, 2026 / 11:15 PT",
+      "image_url": "https://www.zerofs.net/assets/og-card.jpg",
+      "summary_en": "ZeroFS contrasts its filesystem approach with Amazon S3's object storage, discussing trade-offs in semantics, performance, and usability.",
+      "summary_zh": "ZeroFS 与 Amazon S3 的文件模型对比，讨论语义、性能与易用性等权衡。文章强调在某些用例中，ZeroFS 提供更接近本地文件系统的语义和更顺畅的开发体验。",
+      "hn": {
+        "id": 48874297,
+        "type": "story",
+        "by": "cbrewster",
+        "score": 76,
+        "descendants": 18,
+        "time": 1783793735,
+        "comments_url": "https://news.ycombinator.com/item?id=48874297"
+      },
+      "tags": [
+        "Data"
+      ],
+      "hot_score": 0.27
+    },
+    {
+      "title_en": "Show HN: Orbit – AR satellite tracker, watch 15k+ objects",
+      "url": "https://nagylukas.github.io/orbit.html",
+      "title_zh": "Show HN: Orbit – AR 卫星追踪器，监视 15k+ 颗对象",
+      "created_display": "Created: Jul 11, 2026 / 09:39 PT",
+      "image_url": "https://nagylukas.github.io/images/orbit_sky.webp",
+      "summary_en": "Presents Orbit, an AR satellite tracker that visualizes 15k+ objects in real time; demonstrates how AR can augment space awareness and educate users.",
+      "summary_zh": "介绍 Orbit，这款 AR 卫星追踪器可在现实世界中实时可视 15k+ 颗对象，展示了 AR 在提升空间认知方面的潜力。",
+      "hn": {
+        "id": 48873501,
+        "type": "story",
+        "by": "lukas9",
+        "score": 83,
+        "descendants": 19,
+        "time": 1783787942,
+        "comments_url": "https://news.ycombinator.com/item?id=48873501"
+      },
+      "tags": [
+        "Show HN",
+        "Space"
+      ],
+      "hot_score": 0.26
+    },
+    {
+      "title_en": "Vinod Khosla to Buy Seattle Seahawks for $9.6B",
+      "url": "https://www.sportico.com/business/team-sales/2026/seattle-seahawks-sale-vinod-khosla-owner-billions-1234938616/",
+      "title_zh": "Vinod Khosla 将以 96 亿美元收购西雅图海鹰队",
+      "created_display": "Created: Jul 11, 2026 / 22:48 PT",
+      "image_url": "https://www.sportico.com/wp-content/uploads/2026/07/seahawks-sale-close.png?w=1024",
+      "summary_en": "Vinod Khosla is set to purchase the Seattle Seahawks for $9.6 billion, marking a tech-backed ownership transition in professional sports. The move could influence franchise strategy, sponsorships, and technology-driven fan engagement.",
+      "summary_zh": "Vinod Khosla 将以 96 亿美元收购西雅图海鹰队，标志科技界投资者进入职业体育的所有权转变。此举可能影响球队治理、赞助与以科技驱动的球迷互动。",
+      "hn": {
+        "id": 48878666,
+        "type": "story",
+        "by": "kpw94",
+        "score": 18,
+        "descendants": 7,
+        "time": 1783835339,
+        "comments_url": "https://news.ycombinator.com/item?id=48878666"
+      },
+      "hot_score": 0.22,
+      "tags": [
+        "Business",
+        "Finance"
+      ]
+    },
+    {
+      "title_en": "The Energetic Costs of Cellular Computation (2012)",
+      "url": "https://arxiv.org/abs/1203.5426",
+      "title_zh": "细胞计算的能量成本（2012）",
+      "created_display": "Created: Jul 11, 2026 / 18:59 PT",
+      "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "summary_en": "An early 2012 study quantifies the energy budget of cellular information processing, framing computing in biological systems in terms of metabolic costs per bit. The work foreshadows energy-aware design for bio-computing and helps benchmarks energy efficiency in neuromorphic ideas.",
+      "summary_zh": "这篇 2012 年的研究量化了细胞信息处理的能量预算，将代谢成本与每比特的能耗联系起来。工作为生物计算的能效设计提供基准，并为类脑计算的能耗研究奠定基础。",
+      "hn": {
+        "id": 48877613,
+        "type": "story",
+        "by": "lioeters",
+        "score": 28,
+        "descendants": 3,
+        "time": 1783821575,
+        "comments_url": "https://news.ycombinator.com/item?id=48877613"
+      },
+      "tags": [
+        "Science",
+        "Energy"
+      ],
+      "hot_score": 0.21
     },
     {
       "title_en": "Show HN: Reame – a CPU inference server that gets faster as it runs",
@@ -707,37 +994,11 @@
         "comments_url": "https://news.ycombinator.com/item?id=48873417"
       },
       "tags": [
+        "Show HN",
         "AI",
-        "Open Source",
-        "Hardware",
-        "Show HN"
+        "Hardware"
       ],
-      "hot_score": 0.27
-    },
-    {
-      "title_en": "Show HN: Sqlsure – deterministic semantic checks for AI-generated SQL",
-      "url": "https://github.com/sqlsure/sqlsure",
-      "title_zh": "Show HN: Sqlsure——用于 AI 生成 SQL 的确定性语义检查",
-      "created_display": "Created: Jul 11, 2026 / 13:03 PT",
-      "image_url": "https://opengraph.githubassets.com/7b44936f63670bae062c740ff17973c175653a591285f55d3128e27c8cf24a4c/sqlsure/sqlsure",
-      "summary_en": "Sqlsure provides deterministic semantic checks for AI-generated SQL, helping ensure queries preserve semantics and safety across deterministic inputs. It supports reproducible testing and auditing of AI-produced SQL.",
-      "summary_zh": "Sqlsure 提供对 AI 生成 SQL 的确定性语义检查，帮助确保查询在语义与安全性方面的一致性。支持对 AI 产出 SQL 进行可重复的测试与审计。",
-      "hn": {
-        "id": 48875342,
-        "type": "story",
-        "by": "tejusarora",
-        "score": 30,
-        "descendants": 6,
-        "time": 1783800222,
-        "comments_url": "https://news.ycombinator.com/item?id=48875342"
-      },
-      "hot_score": 0.24,
-      "tags": [
-        "AI",
-        "Open Source",
-        "Data",
-        "Show HN"
-      ]
+      "hot_score": 0.15
     },
     {
       "title_en": "Show HN: Earth Game – An offline CLI for turning life goals into quests",
@@ -757,11 +1018,56 @@
         "comments_url": "https://news.ycombinator.com/item?id=48873486"
       },
       "tags": [
-        "Programming",
-        "Open Source",
-        "Show HN"
+        "Show HN",
+        "Programming"
       ],
-      "hot_score": 0.21
+      "hot_score": 0.12
+    },
+    {
+      "title_en": "Show HN: Sqlsure – deterministic semantic checks for AI-generated SQL",
+      "url": "https://github.com/sqlsure/sqlsure",
+      "title_zh": "Show HN: Sqlsure——用于 AI 生成 SQL 的确定性语义检查",
+      "created_display": "Created: Jul 11, 2026 / 13:03 PT",
+      "image_url": "https://opengraph.githubassets.com/7b44936f63670bae062c740ff17973c175653a591285f55d3128e27c8cf24a4c/sqlsure/sqlsure",
+      "summary_en": "Sqlsure provides deterministic semantic checks for AI-generated SQL, helping ensure queries preserve semantics and safety across deterministic inputs. It supports reproducible testing and auditing of AI-produced SQL.",
+      "summary_zh": "Sqlsure 提供对 AI 生成 SQL 的确定性语义检查，帮助确保查询在语义与安全性方面的一致性。支持对 AI 产出 SQL 进行可重复的测试与审计。",
+      "hn": {
+        "id": 48875342,
+        "type": "story",
+        "by": "tejusarora",
+        "score": 30,
+        "descendants": 6,
+        "time": 1783800222,
+        "comments_url": "https://news.ycombinator.com/item?id=48875342"
+      },
+      "hot_score": 0.12,
+      "tags": [
+        "Show HN",
+        "AI",
+        "Data"
+      ]
+    },
+    {
+      "title_en": "Vint Cerf, a “father of the Internet”, is retiring",
+      "url": "https://techcrunch.com/2026/06/30/the-father-of-the-internet-is-finally-retiring/",
+      "title_zh": "互联网之父 Vint Cerf 将退休",
+      "created_display": "Created: Jul 09, 2026 / 17:06 PT",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2023/05/vint-cerf-GettyImages-454796419.jpg?resize=1200,723",
+      "summary_en": "Vint Cerf, a founding figure of the Internet and a long-time advocate for open standards, is stepping away from public roles. His retirement signals a generational shift in Internet governance as new platforms and threats emerge. Cerf’s career underscores the enduring link between protocol design, policy, and global connectivity.",
+      "summary_zh": "互联网之父、长期倡导开放标准的 Vint Cerf 将从公开岗位退下。此举标志着互联网治理的世代转变，面对新平台与新威胁，行业将迎来新的领导力。 Cerf 的职业生涯强调了协议设计、政策制定与全球互联的持久联系。",
+      "hn": {
+        "id": 48854168,
+        "type": "story",
+        "by": "compiler-guy",
+        "score": 187,
+        "descendants": 107,
+        "time": 1783642019,
+        "comments_url": "https://news.ycombinator.com/item?id=48854168"
+      },
+      "hot_score": 0.1,
+      "tags": [
+        "Politics"
+      ]
     },
     {
       "title_en": "G#: A modern .NET language with Go, Kotlin, and Swift ergonomics",
@@ -780,10 +1086,9 @@
         "time": 1783809544,
         "comments_url": "https://news.ycombinator.com/item?id=48876506"
       },
-      "hot_score": 0.2,
+      "hot_score": 0.09,
       "tags": [
-        "Programming",
-        "Design"
+        "Programming"
       ]
     },
     {
@@ -803,12 +1108,37 @@
         "time": 1783802706,
         "comments_url": "https://news.ycombinator.com/item?id=48875678"
       },
-      "hot_score": 0.15,
+      "hot_score": 0.08,
       "tags": [
         "AI",
         "Open Source",
         "Privacy"
       ]
+    },
+    {
+      "title_en": "Billions of Sketches Reveal Hidden Cultural Variation in Human Concepts",
+      "url": "https://arxiv.org/abs/2607.07267",
+      "title_zh": "数十亿幅素描揭示人类概念的隐藏文化差异",
+      "created_display": "Created: Jul 09, 2026 / 10:44 PT",
+      "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "summary_en": "Researchers analyze billions of sketches to show that concept representations vary across cultures, challenging universal assumptions in AI and cognitive science. The findings imply that AI systems trained on a single cultural dataset may misinterpret concepts in diverse user groups.",
+      "summary_zh": "研究者对数十亿幅素描进行分析，揭示人类概念在不同文化中存在显著差异，质疑AI与认知科学中的普遍性假设。结果意味着以单一文化数据集训练的AI系统在不同群体中的概念理解可能存在偏差。",
+      "hn": {
+        "id": 48849744,
+        "type": "story",
+        "by": "Anon84",
+        "score": 120,
+        "descendants": 19,
+        "time": 1783619060,
+        "comments_url": "https://news.ycombinator.com/item?id=48849744"
+      },
+      "tags": [
+        "Science",
+        "Culture",
+        "AI",
+        "Data"
+      ],
+      "hot_score": 0.06
     },
     {
       "title_en": "Using PowerShell over SSH, Twenty Years Later",
@@ -827,59 +1157,34 @@
         "time": 1783812689,
         "comments_url": "https://news.ycombinator.com/item?id=48876843"
       },
-      "hot_score": 0.15,
+      "hot_score": 0.06,
       "tags": [
         "DevOps",
         "Programming"
       ]
     },
     {
-      "title_en": "Book: RISC-V System-on-Chip Design",
-      "url": "https://www.amazon.com/RISC-V-Microprocessor-System-Chip-Design/dp/0323994989",
-      "title_zh": "RISC-V 系统芯片设计（书籍）",
-      "created_display": "Created: Jul 08, 2026 / 22:28 PT",
-      "image_url": "https://m.media-amazon.com/images/G/01/social_share/amazon_logo._CB635397845_.png",
-      "summary_en": "This book surveys how to design Systems-on-Chip around the RISC-V ISA, covering architecture, verification, toolchains, and ecosystem considerations. It helps engineers reason about open ISA advantages and practical design trade-offs for modern SoCs.",
-      "summary_zh": "本书系统介绍在 RISC-V 指令集上的系统芯片设计，包括架构、验证、工具链与生态等方面，帮助工程师理解开源 ISA 在现代硬件设计中的应用与取舍。",
+      "title_en": "6× faster binary search: from compiled code to mechanical sympathy",
+      "url": "https://pythonspeed.com/articles/branchless-binary-search/",
+      "title_zh": "六倍更快的二分搜索：从编译代码到对硬件的理解",
+      "created_display": "Created: Jul 12, 2026 / 00:00 PT",
+      "image_url": "https://pythonspeed.com/assets/titles/branchless-binary-search.png",
+      "summary_en": "A set of optimizations—branchless code, vectorization, and architecture-aware tricks—achieve roughly sixfold speedups for binary search, illustrating how hardware-aware micro-optimizations can materially affect logarithmic-time algorithms.",
+      "summary_zh": "通过分支最小化、向量化及与体系结构相关的技巧，二分查找实现约六倍加速，展示了基于硬件的微观优化如何显著提升对数时间算法的性能。",
       "hn": {
-        "id": 48841348,
+        "id": 48878996,
         "type": "story",
-        "by": "xlmnxp",
-        "score": 120,
-        "descendants": 56,
-        "time": 1783574922,
-        "comments_url": "https://news.ycombinator.com/item?id=48841348"
+        "by": "enz",
+        "score": 5,
+        "descendants": 0,
+        "time": 1783839624,
+        "comments_url": "https://news.ycombinator.com/item?id=48878996"
       },
+      "hot_score": 0.06,
       "tags": [
-        "Hardware",
-        "Open Source"
-      ],
-      "hot_score": 0.05
-    },
-    {
-      "title_en": "Billions of Sketches Reveal Hidden Cultural Variation in Human Concepts",
-      "url": "https://arxiv.org/abs/2607.07267",
-      "title_zh": "数十亿幅素描揭示人类概念的隐藏文化差异",
-      "created_display": "Created: Jul 09, 2026 / 10:44 PT",
-      "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-      "summary_en": "Researchers analyze billions of sketches to show that concept representations vary across cultures, challenging universal assumptions in AI and cognitive science. The findings imply that AI systems trained on a single cultural dataset may misinterpret concepts in diverse user groups.",
-      "summary_zh": "研究者对数十亿幅素描进行分析，揭示人类概念在不同文化中存在显著差异，质疑AI与认知科学中的普遍性假设。结果意味着以单一文化数据集训练的AI系统在不同群体中的概念理解可能存在偏差。",
-      "hn": {
-        "id": 48849744,
-        "type": "story",
-        "by": "Anon84",
-        "score": 90,
-        "descendants": 13,
-        "time": 1783619060,
-        "comments_url": "https://news.ycombinator.com/item?id=48849744"
-      },
-      "tags": [
-        "Science",
-        "Culture",
-        "AI",
-        "Data"
-      ],
-      "hot_score": 0.05
+        "Programming",
+        "Hardware"
+      ]
     },
     {
       "title_en": "An agent in 100 lines of Lisp",
@@ -893,16 +1198,63 @@
         "id": 48823981,
         "type": "story",
         "by": "jamiebeach",
-        "score": 132,
-        "descendants": 14,
+        "score": 190,
+        "descendants": 54,
         "time": 1783459269,
         "comments_url": "https://news.ycombinator.com/item?id=48823981"
       },
       "tags": [
-        "Programming",
-        "AI"
+        "AI",
+        "Programming"
       ],
-      "hot_score": 0.03
+      "hot_score": 0.04
+    },
+    {
+      "title_en": "Book: RISC-V System-on-Chip Design",
+      "url": "https://www.amazon.com/RISC-V-Microprocessor-System-Chip-Design/dp/0323994989",
+      "title_zh": "RISC-V 系统芯片设计（书籍）",
+      "created_display": "Created: Jul 08, 2026 / 22:28 PT",
+      "image_url": "https://m.media-amazon.com/images/G/01/social_share/amazon_logo._CB635397845_.png",
+      "summary_en": "This book surveys how to design Systems-on-Chip around the RISC-V ISA, covering architecture, verification, toolchains, and ecosystem considerations. It helps engineers reason about open ISA advantages and practical design trade-offs for modern SoCs.",
+      "summary_zh": "本书系统介绍在 RISC-V 指令集上的系统芯片设计，包括架构、验证、工具链与生态等方面，帮助工程师理解开源 ISA 在现代硬件设计中的应用与取舍。",
+      "hn": {
+        "id": 48841348,
+        "type": "story",
+        "by": "xlmnxp",
+        "score": 130,
+        "descendants": 64,
+        "time": 1783574922,
+        "comments_url": "https://news.ycombinator.com/item?id=48841348"
+      },
+      "tags": [
+        "Hardware",
+        "Open Source",
+        "Design"
+      ],
+      "hot_score": 0.04
+    },
+    {
+      "title_en": "I Did Not Kill Stanley Lieber: How to Draw (With 9front)",
+      "url": "https://triapul.cz/automa/i_did_not_kill_stanley_lieber",
+      "title_zh": "我没有杀死斯坦利·李：用 9front 绘画",
+      "created_display": "Created: Jul 09, 2026 / 07:10 PT",
+      "image_url": "https://img.triapul.cz/brdzor.png",
+      "summary_en": "A quirky exploration of drawing with 9front, a Plan 9-inspired OS, through a Stanley Lieber reference. The piece uses retro tooling to show how constraints can inspire creative programming experiments.",
+      "summary_zh": "以 9front 为背景的绘画实验，借用斯坦利·李的名字制造幽默参照，展示用 Plan 9 式系统进行图形创作的乐趣。通过受限工具链，体现了约束也能激发创作。",
+      "hn": {
+        "id": 48846177,
+        "type": "story",
+        "by": "c-c-c-c-c",
+        "score": 92,
+        "descendants": 32,
+        "time": 1783606204,
+        "comments_url": "https://news.ycombinator.com/item?id=48846177"
+      },
+      "tags": [
+        "Programming",
+        "Open Source"
+      ],
+      "hot_score": 0.04
     },
     {
       "title_en": "Biff.graph: structure your Clojure codebase as a queryable graph",
@@ -916,8 +1268,8 @@
         "id": 48820361,
         "type": "story",
         "by": "jacobobryant",
-        "score": 127,
-        "descendants": 15,
+        "score": 145,
+        "descendants": 16,
         "time": 1783442928,
         "comments_url": "https://news.ycombinator.com/item?id=48820361"
       },
@@ -926,6 +1278,29 @@
         "Open Source"
       ],
       "hot_score": 0.03
+    },
+    {
+      "title_en": "Protobuf-py: Protobuf for Python, without compromises",
+      "url": "https://buf.build/blog/protobuf-py",
+      "title_zh": "Protobuf-py：Python 版 Protobuf，毫不妥协",
+      "created_display": "Created: Jul 07, 2026 / 20:16 PT",
+      "image_url": "https://buf.build/images/buf-og-image-v1.png",
+      "summary_en": "Protobuf-py provides a Python-native Protobuf runtime with minimal compromises, ensuring seamless cross-language data interchange and performance. It enables efficient wire-format handling and smoother integration with services across languages.",
+      "summary_zh": "Protobuf-py 提供了一个 Python 原生的 Protobuf 运行时，强调兼容性和性能，避免妥协。它使跨语言的数据序列化/反序列化更加高效，便于与其他语言的服务对接。",
+      "hn": {
+        "id": 48827058,
+        "type": "story",
+        "by": "ming13",
+        "score": 103,
+        "descendants": 28,
+        "time": 1783480598,
+        "comments_url": "https://news.ycombinator.com/item?id=48827058"
+      },
+      "tags": [
+        "Programming",
+        "Data"
+      ],
+      "hot_score": 0.02
     },
     {
       "title_en": "Otary – Image and Geometry Python Library Now Has Tutorials",
@@ -947,30 +1322,73 @@
       "tags": [
         "Programming"
       ],
-      "hot_score": 0.03
+      "hot_score": 0.02
     },
     {
-      "title_en": "I Did Not Kill Stanley Lieber: How to Draw (With 9front)",
-      "url": "https://triapul.cz/automa/i_did_not_kill_stanley_lieber",
-      "title_zh": "我没有杀死斯坦利·李：用 9front 绘画",
-      "created_display": "Created: Jul 09, 2026 / 07:10 PT",
-      "image_url": "https://img.triapul.cz/brdzor.png",
-      "summary_en": "A quirky exploration of drawing with 9front, a Plan 9-inspired OS, through a Stanley Lieber reference. The piece uses retro tooling to show how constraints can inspire creative programming experiments.",
-      "summary_zh": "以 9front 为背景的绘画实验，借用斯坦利·李的名字制造幽默参照，展示用 Plan 9 式系统进行图形创作的乐趣。通过受限工具链，体现了约束也能激发创作。",
+      "title_en": "Amber the programming language compiled to Bash/Ksh/Zsh",
+      "url": "https://amber-lang.com/",
+      "title_zh": "Amber：编译成 Bash/Ksh/Zsh 的编程语言",
+      "created_display": "Created: Jul 07, 2026 / 12:22 PT",
+      "image_url": "https://amber-lang.com/og.jpg",
+      "summary_en": "Describes a language that compiles to shell scripts, enabling rapid automation and scripting; discusses trade-offs like portability and readability.",
+      "summary_zh": "介绍一种可编译为 Bash/Ksh/Zsh 脚本的编程语言，强调在自动化与快速原型中的应用，同时也讨论可移植性和可读性等权衡。",
       "hn": {
-        "id": 48846177,
+        "id": 48822441,
         "type": "story",
-        "by": "c-c-c-c-c",
-        "score": 61,
-        "descendants": 18,
-        "time": 1783606204,
-        "comments_url": "https://news.ycombinator.com/item?id=48846177"
+        "by": "_superposition_",
+        "score": 85,
+        "descendants": 65,
+        "time": 1783452176,
+        "comments_url": "https://news.ycombinator.com/item?id=48822441"
       },
       "tags": [
-        "Programming",
-        "Culture"
+        "Programming"
       ],
-      "hot_score": 0.03
+      "hot_score": 0.02
+    },
+    {
+      "title_en": "Text art tools",
+      "url": "https://hlnet.notion.site/text-art-tools",
+      "title_zh": "文本艺术工具",
+      "created_display": "Created: Jul 08, 2026 / 06:00 PT",
+      "image_url": "https://hlnet.notion.site/image/attachment%3Ac10c9b4b-29f9-4b5b-a2de-8600a80f188a%3ASocialMediaPreviewImage.png?table=block&id=1ca05bd1-61e4-80bf-8f4b-e7ea023f457a&spaceId=03611389-444e-42a7-83af-fb9c90f91a7e&width=2000&userId=&cache=v2&imgBuildSrc=pageMetadataCover",
+      "summary_en": "A curated collection of text-art tools for ASCII art, diagrams, and stylized headers; enhances docs and READMEs with lightweight visuals without images.",
+      "summary_zh": "这是一个收集文本艺术工具的集合，涵盖 ASCII 艺术、图表和风格化标题等。为文档和 README 提供轻量化的可视化效果，无需图片即可美化内容。",
+      "hn": {
+        "id": 48831384,
+        "type": "story",
+        "by": "surprisetalk",
+        "score": 76,
+        "descendants": 19,
+        "time": 1783515643,
+        "comments_url": "https://news.ycombinator.com/item?id=48831384"
+      },
+      "tags": [
+        "Design"
+      ],
+      "hot_score": 0.02
+    },
+    {
+      "title_en": "Jellyfish Undersea Roundabout",
+      "url": "https://visitfaroeislands.com/en/plan-your-stay/getting-around/world-first-under-sea-roundabout",
+      "title_zh": "海底水母环形路口",
+      "created_display": "Created: Jul 08, 2026 / 19:17 PT",
+      "image_url": "https://visitfaroeislands.com/download/faroephototunnil_large.jpg",
+      "summary_en": "Faroe Islands unveils the world's first undersea roundabout dubbed Jellyfish, a novel underwater traffic junction linking island routes. The project showcases ambitious civil engineering and interdisciplinary design challenges in extreme environments.",
+      "summary_zh": "法罗群岛推出全球首个海底环形路口，名为 Jellyfish，作为新型水下交通交汇点。该项目展示了在极端环境下的工程与跨学科设计挑战。",
+      "hn": {
+        "id": 48840152,
+        "type": "story",
+        "by": "hydrogen7800",
+        "score": 68,
+        "descendants": 24,
+        "time": 1783563479,
+        "comments_url": "https://news.ycombinator.com/item?id=48840152"
+      },
+      "tags": [
+        "Design"
+      ],
+      "hot_score": 0.02
     },
     {
       "title_en": "Digital Deli, 1984 book by early PC hackers and enthusiasts",
@@ -995,50 +1413,6 @@
       "hot_score": 0.02
     },
     {
-      "title_en": "Vint Cerf will step down from his role at Google next week",
-      "url": "https://techcrunch.com/2026/06/30/the-father-of-the-internet-is-finally-retiring/",
-      "title_zh": "Vint Cerf 将于下周从 Google 辞任",
-      "created_display": "Created: Jul 09, 2026 / 17:06 PT",
-      "image_url": "https://techcrunch.com/wp-content/uploads/2023/05/vint-cerf-GettyImages-454796419.jpg?resize=1200,723",
-      "summary_en": "Vint Cerf, a pioneering Internet architect, will step down from his Google role next week after years shaping policy and public engagement. His leadership helped advance core Internet protocols and interoperability, and his exit marks a notable shift in Google's external-innovation posture.",
-      "summary_zh": "互联网奠基人 Vint Cerf 将于下周从 Google 辞任，长期在政策与公共参与方面发挥影响力。他推动了核心互联网协议与互操作性的发展，其离任标志 Google 对外部创新战略的显著变化。",
-      "hn": {
-        "id": 48854168,
-        "type": "story",
-        "by": "compiler-guy",
-        "score": 38,
-        "descendants": 13,
-        "time": 1783642019,
-        "comments_url": "https://news.ycombinator.com/item?id=48854168"
-      },
-      "hot_score": 0.02,
-      "tags": [
-        "Business"
-      ]
-    },
-    {
-      "title_en": "Amber the programming language compiled to Bash/Ksh/Zsh",
-      "url": "https://amber-lang.com/",
-      "title_zh": "Amber：编译成 Bash/Ksh/Zsh 的编程语言",
-      "created_display": "Created: Jul 07, 2026 / 12:22 PT",
-      "image_url": "https://amber-lang.com/og.jpg",
-      "summary_en": "Describes a language that compiles to shell scripts, enabling rapid automation and scripting; discusses trade-offs like portability and readability.",
-      "summary_zh": "介绍一种可编译为 Bash/Ksh/Zsh 脚本的编程语言，强调在自动化与快速原型中的应用，同时也讨论可移植性和可读性等权衡。",
-      "hn": {
-        "id": 48822441,
-        "type": "story",
-        "by": "_superposition_",
-        "score": 71,
-        "descendants": 57,
-        "time": 1783452176,
-        "comments_url": "https://news.ycombinator.com/item?id=48822441"
-      },
-      "tags": [
-        "Programming"
-      ],
-      "hot_score": 0.01
-    },
-    {
       "title_en": "Optimization Solver as a Service",
       "url": "https://www.quicopt.com/developer/getting-started/",
       "title_zh": "将优化求解器作为服务",
@@ -1050,60 +1424,36 @@
         "id": 48830664,
         "type": "story",
         "by": "paddi91",
-        "score": 36,
-        "descendants": 28,
+        "score": 46,
+        "descendants": 38,
         "time": 1783511065,
         "comments_url": "https://news.ycombinator.com/item?id=48830664"
       },
-      "hot_score": 0.01,
       "tags": [
-        "DevOps",
         "Business"
-      ]
+      ],
+      "hot_score": 0.01
     },
     {
-      "title_en": "Jellyfish Undersea Roundabout",
-      "url": "https://visitfaroeislands.com/en/plan-your-stay/getting-around/world-first-under-sea-roundabout",
-      "title_zh": "海底水母环形路口",
-      "created_display": "Created: Jul 08, 2026 / 19:17 PT",
-      "image_url": "https://visitfaroeislands.com/download/faroephototunnil_large.jpg",
-      "summary_en": "Faroe Islands unveils the world's first undersea roundabout dubbed Jellyfish, a novel underwater traffic junction linking island routes. The project showcases ambitious civil engineering and interdisciplinary design challenges in extreme environments.",
-      "summary_zh": "法罗群岛推出全球首个海底环形路口，名为 Jellyfish，作为新型水下交通交汇点。该项目展示了在极端环境下的工程与跨学科设计挑战。",
+      "title_en": "Handsum: An LQIP Image File Format",
+      "url": "https://nigeltao.github.io/blog/2026/handsum.html",
+      "title_zh": "Handsum：一种 LQIP 图像文件格式",
+      "created_display": "Created: Jul 08, 2026 / 05:07 PT",
+      "image_url": "https://nigeltao.github.io/blog/2026/handsum-wasm.png",
+      "summary_en": "Handsum proposes a new image file format optimized for fast low-quality image previews, enabling quicker page paints and smoother progressive loading. The format emphasizes efficient decoding and streaming-friendly buffers to accelerate first paint. If adopted, it could influence how sites balance quality and speed.",
+      "summary_zh": "Handsum 提出了一种用于快速低质量预览的新图像格式，助力提升首屏加载与渐进加载的流畅性。该格式强调高效解码与适合流式缓冲，有望优化网页在质高与速度之间的平衡。",
       "hn": {
-        "id": 48840152,
+        "id": 48830860,
         "type": "story",
-        "by": "hydrogen7800",
-        "score": 34,
+        "by": "dmit",
+        "score": 35,
         "descendants": 4,
-        "time": 1783563479,
-        "comments_url": "https://news.ycombinator.com/item?id=48840152"
+        "time": 1783512479,
+        "comments_url": "https://news.ycombinator.com/item?id=48830860"
       },
       "hot_score": 0.01,
       "tags": [
-        "Design"
-      ]
-    },
-    {
-      "title_en": "Text art tools",
-      "url": "https://hlnet.notion.site/text-art-tools",
-      "title_zh": "文本艺术工具",
-      "created_display": "Created: Jul 08, 2026 / 06:00 PT",
-      "image_url": "https://hlnet.notion.site/image/attachment%3Ac10c9b4b-29f9-4b5b-a2de-8600a80f188a%3ASocialMediaPreviewImage.png?table=block&id=1ca05bd1-61e4-80bf-8f4b-e7ea023f457a&spaceId=03611389-444e-42a7-83af-fb9c90f91a7e&width=2000&userId=&cache=v2&imgBuildSrc=pageMetadataCover",
-      "summary_en": "A curated collection of text-art tools for ASCII art, diagrams, and stylized headers; enhances docs and READMEs with lightweight visuals without images.",
-      "summary_zh": "这是一个收集文本艺术工具的集合，涵盖 ASCII 艺术、图表和风格化标题等。为文档和 README 提供轻量化的可视化效果，无需图片即可美化内容。",
-      "hn": {
-        "id": 48831384,
-        "type": "story",
-        "by": "surprisetalk",
-        "score": 27,
-        "descendants": 9,
-        "time": 1783515643,
-        "comments_url": "https://news.ycombinator.com/item?id=48831384"
-      },
-      "hot_score": 0.01,
-      "tags": [
-        "Programming",
-        "Design"
+        "Web"
       ]
     },
     {
@@ -1118,37 +1468,128 @@
         "id": 48785102,
         "type": "story",
         "by": "rellem",
-        "score": 36,
-        "descendants": 5,
+        "score": 57,
+        "descendants": 28,
         "time": 1783169858,
         "comments_url": "https://news.ycombinator.com/item?id=48785102"
+      },
+      "tags": [
+        "Data"
+      ],
+      "hot_score": 0.0
+    },
+    {
+      "title_en": "Xbox 'OG' Adventures",
+      "url": "https://mamoniem.com/xbox-og-adventures/",
+      "title_zh": "Xbox 原版机的冒险之旅",
+      "created_display": "Created: Jul 06, 2026 / 21:35 PT",
+      "image_url": null,
+      "summary_en": "An exploration of original Xbox hardware and homebrew projects reveals why retro gaming hardware remains compelling for enthusiasts. It’s a case study in community-driven preservation and learning-by-doing.",
+      "summary_zh": "对原版 Xbox 硬件和自制项目的探索揭示了为何复古游戏硬件仍然吸引爱好者。文章讨论了硬件怪癖、改造工作和仿真努力，帮助该平台保持相关性，成为社区驱动的保存与边做边学的案例。",
+      "hn": {
+        "id": 48813702,
+        "type": "story",
+        "by": "davikr",
+        "score": 29,
+        "descendants": 3,
+        "time": 1783398955,
+        "comments_url": "https://news.ycombinator.com/item?id=48813702"
+      },
+      "hot_score": 0.0,
+      "tags": [
+        "Gaming",
+        "Hardware"
+      ]
+    },
+    {
+      "title_en": "Fibonacci's Real Mathematical Legacy",
+      "url": "https://blogs.nature.com/aviewfromthebridge/2017/04/20/fibonaccis-mathematical-legacy/",
+      "title_zh": "斐波那契真实的数学遗产",
+      "created_display": "Created: Jul 08, 2026 / 02:31 PT",
+      "image_url": "https://blogs.nature.com/aviewfromthebridge/files/2026/03/a-view-from-the-bridge-header.jpg",
+      "summary_en": "Nature’s piece challenges simplistic legends about Fibonacci, arguing his role was to popularize Hindu-Arabic numerals and early combinatorics in Europe rather than founding a new theory. It revises how we credit medieval pre-modern mathematicians and shows the diffusion of techniques across cultures. The story reframes the history of math more than the numbers he introduced.",
+      "summary_zh": "Nature 的文章挑战对斐波那契的简单化神话，认为他在把印度-阿拉伯数字和早期组合理论带入欧洲方面发挥了推动作用，而非创立新理论。文章修订了我们对中世纪数学家的评价，展示了跨文化技术传播的过程。它更改了人们对数学史的理解，而不仅仅是对他所引入数字的看法。",
+      "hn": {
+        "id": 48829697,
+        "type": "story",
+        "by": "ColinWright",
+        "score": 19,
+        "descendants": 6,
+        "time": 1783503070,
+        "comments_url": "https://news.ycombinator.com/item?id=48829697"
+      },
+      "hot_score": 0.0,
+      "tags": [
+        "Science",
+        "Culture"
+      ]
+    },
+    {
+      "title_en": "Ditching Zotero for a Text File",
+      "url": "https://atthis.link/blog/2026/57207.html",
+      "title_zh": "放弃 Zotero，改用文本文件管理参考文献",
+      "created_display": "Created: Jul 06, 2026 / 13:17 PT",
+      "image_url": "https://atthis.link/social.jpg",
+      "summary_en": "An academic writer documents ditching Zotero in favor of plain text references to regain portability, privacy, and long-term access. The approach favors lightweight tools, markdown workflows, and BibTeX over centralized databases. It highlights a growing trend toward plaintext-first bibliography management.",
+      "summary_zh": "一位学者记录放弃 Zotero，改用纯文本引用以提升可移植性、隐私和长期访问性。此做法倾向使用轻量工具、Markdown 工作流与 BibTeX，而非集中数据库。反映出向文本优先的参考文献管理的日益趋势。",
+      "hn": {
+        "id": 48809916,
+        "type": "story",
+        "by": "speckx",
+        "score": 18,
+        "descendants": 19,
+        "time": 1783369039,
+        "comments_url": "https://news.ycombinator.com/item?id=48809916"
+      },
+      "hot_score": 0.0,
+      "tags": [
+        "Privacy"
+      ]
+    },
+    {
+      "title_en": "Lessons from the Vasa Shipwreck",
+      "url": "https://www.ft.com/content/200a6c44-9b66-4af3-82eb-98acb53898e4",
+      "title_zh": "瓦萨沉船的教训",
+      "created_display": "Created: Jul 08, 2026 / 15:07 PT",
+      "image_url": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fimages.ft.com%2Fv3%2Fimage%2Fraw%2Fhttps%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F4922473c-45fd-4412-b5b5-e067845d0f2f.jpg%3Fsource%3Dnext-barrier-page%26fit%3Dscale-down%26quality%3Dhighest%26width%3D700%26dpr%3D1?source=next-barrier-page",
+      "summary_en": "The Vasa tragedy—its maiden voyage ending in a capsize due to a top-heavy design—serves as a classic engineering cautionary tale. Modern analysts extract lessons on stability, testing, and the limits of planning under political pressure. The story remains a reminder that data-quality and iterative validation matter before ships are built.",
+      "summary_zh": "瓦萨号在首航中因设计过高、稳定性不足而倾覆，成为典型的工程教训。现代分析者从中提取关于稳定性、测试与在政治压力下进行充分验证的重要性。这个故事提醒我们在建造前务必重视数据质量与迭代验证。",
+      "hn": {
+        "id": 48838027,
+        "type": "story",
+        "by": "bookofjoe",
+        "score": 9,
+        "descendants": 6,
+        "time": 1783548425,
+        "comments_url": "https://news.ycombinator.com/item?id=48838027"
+      },
+      "hot_score": 0.0,
+      "tags": [
+        "Design",
+        "Science"
+      ]
+    },
+    {
+      "title_en": "Satteri: A Markdown pipeline forged in Rust for the JavaScript world",
+      "url": "https://satteri.bruits.org/",
+      "title_zh": "Satteri：用 Rust 为 JavaScript 世界打造的 Markdown 流水线",
+      "created_display": "Created: Jul 07, 2026 / 14:09 PT",
+      "image_url": null,
+      "summary_en": "Satteri is a Rust-powered Markdown pipeline designed for the JavaScript world, offering fast, safe parsing and transformation for JS tooling. By bridging Rust performance with JS ecosystems, it aims to speed up builds and improve reliability of content pipelines. It highlights a broader trend of polyglot tooling in developer workflows.",
+      "summary_zh": "Satteri 是一个用 Rust 构建的 Markdown 流水线，面向 JavaScript 生态，提供快速且安全的解析与转换，提升 JS 工具链的性能与可靠性。通过把 Rust 的性能与 JS 生态融合，旨在加速构建流程并提升内容管线的稳定性，体现了开发工作流中日益增多的多语言工具趋势。",
+      "hn": {
+        "id": 48823803,
+        "type": "story",
+        "by": "nateb2022",
+        "score": 8,
+        "descendants": 0,
+        "time": 1783458548,
+        "comments_url": "https://news.ycombinator.com/item?id=48823803"
       },
       "hot_score": 0.0,
       "tags": [
         "Programming",
-        "Data"
-      ]
-    },
-    {
-      "title_en": "Protobuf-py: Protobuf for Python, without compromises",
-      "url": "https://buf.build/blog/protobuf-py",
-      "title_zh": "Protobuf-py：Python 版 Protobuf，毫不妥协",
-      "created_display": "Created: Jul 07, 2026 / 20:16 PT",
-      "image_url": "https://buf.build/images/buf-og-image-v1.png",
-      "summary_en": "Protobuf-py provides a Python-native Protobuf runtime with minimal compromises, ensuring seamless cross-language data interchange and performance. It enables efficient wire-format handling and smoother integration with services across languages.",
-      "summary_zh": "Protobuf-py 提供了一个 Python 原生的 Protobuf 运行时，强调兼容性和性能，避免妥协。它使跨语言的数据序列化/反序列化更加高效，便于与其他语言的服务对接。",
-      "hn": {
-        "id": 48827058,
-        "type": "story",
-        "by": "ming13",
-        "score": 20,
-        "descendants": 1,
-        "time": 1783480598,
-        "comments_url": "https://news.ycombinator.com/item?id=48827058"
-      },
-      "hot_score": 0.0,
-      "tags": [
-        "Programming"
+        "Open Source"
       ]
     }
   ]
