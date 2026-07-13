@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>144</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>21137</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>141</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>142</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-07-13</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>144</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>21144</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>141</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>142</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-07-13</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='150' data-hn-time='1783965232'>
+<div class='hn-top-story-item' data-hn-score='327' data-hn-time='1783972675'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/13/top_stories_07132026#story-48896286'>Show HN: Super Dario</a>
- <a class='hn-top-story-link' href='https://superdario.pawb.de' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/13/top_stories_07132026#story-48897945'>Climate.gov was destroyed. Open data saved it</a>
+ <a class='hn-top-story-link' href='https://werd.io/climate-gov-was-destroyed-open-data-saved-it/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Show HN：超级达里奥</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 16</span> <span class='hn-top-story-score'>&#9650; 150</span> <span class='hn-top-story-comments'>&#128172; 40</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Gaming</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-zh'>Climate.gov 被毁，开放数据救回了它</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 19</span> <span class='hn-top-story-score'>&#9650; 327</span> <span class='hn-top-story-comments'>&#128172; 130</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>Politics</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='192' data-hn-time='1783972345'>
+<span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/13/top_stories_07132026#story-48897878'>Telegram's t.me domain has been suspended</a>
+ <a class='hn-top-story-link' href='https://www.whois.com/whois/t.me' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Telegram 的 t.me 短链域名已被暂停</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 192</span> <span class='hn-top-story-comments'>&#128172; 103</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='180' data-hn-time='1783972903'>
+<span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/13/top_stories_07132026#story-48897991'>Samsung Health app threatens data deletion if users opt out AI training</a>
+ <a class='hn-top-story-link' href='https://neow.in/cWsyMTV3' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>三星 Health 应用若用户不参与 AI 训练将删除其数据</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 180</span> <span class='hn-top-story-comments'>&#128172; 52</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Health</span></div>
 </div>
 </div>
 <div class='hn-top-story-item' data-hn-score='1288' data-hn-time='1783931979'>
-<span class='hn-top-story-rank'>2</span>
+<span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/07/13/top_stories_07132026#story-48889637'>Zig Creator Calls Spade a Spade, Anthropic Blows Smoke</a>
  <a class='hn-top-story-link' href='https://raymyers.org/post/zed-creator-calls-spade-a-spade/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Zig 创作者直言不讳，Anthropic 敷衍其词</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 13</span> <span class='hn-top-story-score'>&#9650; 1288</span> <span class='hn-top-story-comments'>&#128172; 648</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.7</span> <span class='hn-top-story-score'>&#9650; 1288</span> <span class='hn-top-story-comments'>&#128172; 648</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='247' data-hn-time='1783958768'>
-<span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-item' data-hn-score='383' data-hn-time='1783958768'>
+<span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/07/13/top_stories_07132026#story-48894752'>Apple's new SpeechAnalyzer API, benchmarked against Whisper and its predecessor</a>
  <a class='hn-top-story-link' href='https://get-inscribe.com/blog/apple-speech-api-benchmark.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>苹果新 SpeechAnalyzer API 与 Whisper 对比基准</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 247</span> <span class='hn-top-story-comments'>&#128172; 119</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.8</span> <span class='hn-top-story-score'>&#9650; 383</span> <span class='hn-top-story-comments'>&#128172; 164</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='299' data-hn-time='1783955510'>
-<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='202' data-hn-time='1783966936'>
+<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/13/top_stories_07132026#story-48896665'>Building and Shipping Mac and iOS Apps Without Ever Opening Xcode</a>
+ <a class='hn-top-story-link' href='https://scottwillsey.com/building-and-shipping-mac-and-ios-apps-without-ever-opening-xcode/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>无需打开 Xcode 就能构建与发布 Mac 与 iOS 应用</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.1</span> <span class='hn-top-story-score'>&#9650; 202</span> <span class='hn-top-story-comments'>&#128172; 93</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>DevOps</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='414' data-hn-time='1783955510'>
+<span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/07/13/top_stories_07132026#story-48893947'>LAPD lets contract with surveillance giant Flock expire</a>
  <a class='hn-top-story-link' href='https://techcrunch.com/2026/07/13/lapd-lets-contract-with-surveillance-giant-flock-expire-citing-serious-concerns-over-civil-liberties-and-privacy/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>LAPD 与 Flock 合同到期</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 299</span> <span class='hn-top-story-comments'>&#128172; 215</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.1</span> <span class='hn-top-story-score'>&#9650; 414</span> <span class='hn-top-story-comments'>&#128172; 334</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='388' data-hn-time='1783949999'>
-<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='388' data-hn-time='1783949999'>
+<span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/07/13/top_stories_07132026#story-48892512'>Grok uploaded my user directory to xAI's servers</a>
  <a class='hn-top-story-link' href='https://twitter.com/a_green_being/status/2076598897779020159' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Grok 将我的用户目录上传至 xAI 的服务器</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.8</span> <span class='hn-top-story-score'>&#9650; 388</span> <span class='hn-top-story-comments'>&#128172; 204</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.1</span> <span class='hn-top-story-score'>&#9650; 388</span> <span class='hn-top-story-comments'>&#128172; 204</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='320' data-hn-time='1783949732'>
-<span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/13/top_stories_07132026#story-48892468'>Grok CLI uploaded the whole home directory to GCS</a>
- <a class='hn-top-story-link' href='https://twitter.com/a_green_being/status/2076598897779020159' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Grok CLI 将整个主目录上传至 GCS</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.0</span> <span class='hn-top-story-score'>&#9650; 320</span> <span class='hn-top-story-comments'>&#128172; 367</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='156' data-hn-time='1783954353'>
-<span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/13/top_stories_07132026#story-48893639'>The art and engineering of Sega CD Silpheed</a>
- <a class='hn-top-story-link' href='https://fabiensanglard.net/silpheed/index.html' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>世嘉CD《Silpheed》背后的艺术与工程</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.3</span> <span class='hn-top-story-score'>&#9650; 156</span> <span class='hn-top-story-comments'>&#128172; 31</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Gaming</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='102' data-hn-time='1783958199'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/13/top_stories_07132026#story-48894641'>DOGE is done. What happened to its records?</a>
- <a class='hn-top-story-link' href='https://www.ms.now/opinion/doge-government-efficiency-records-job-cuts-elon-musk-foia' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>DOGE 完了？它的记录到底去哪儿了？</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.8</span> <span class='hn-top-story-score'>&#9650; 102</span> <span class='hn-top-story-comments'>&#128172; 34</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>Culture</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='284' data-hn-time='1783941510'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='127' data-hn-time='1783967547'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/13/top_stories_07132026#story-48890959'>A voxel Tokyo in real Japan time – ride the Yamanote line and study Japanese</a>
- <a class='hn-top-story-link' href='https://jivx.com/densha' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/13/top_stories_07132026#story-48896800'>The real prices of frontier models. Tokens * Price, right?</a>
+ <a class='hn-top-story-link' href='https://playcode.io/blog/real-price-of-frontier-models' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>实时像素化的东京：乘坐山手线学习日语的沉浸式体验</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.4</span> <span class='hn-top-story-score'>&#9650; 284</span> <span class='hn-top-story-comments'>&#128172; 49</span> <span class='hn-top-story-tag'>Education</span></div>
+<div class='hn-top-story-zh'>前沿模型的真实价格：代币×价格，对吗？</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.7</span> <span class='hn-top-story-score'>&#9650; 127</span> <span class='hn-top-story-comments'>&#128172; 59</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='964' data-hn-time='1783905860'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='150' data-hn-time='1783965232'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/13/top_stories_07132026#story-48886741'>Ask HN: Add flag for AI-generated articles</a>
- <a class='hn-top-story-link' href='https://news.ycombinator.com/item?id=48886741' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/13/top_stories_07132026#story-48896286'>Show HN: Super Dario</a>
+ <a class='hn-top-story-link' href='https://superdario.pawb.de' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Ask HN：为 AI 生成的文章加上标记</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.4</span> <span class='hn-top-story-score'>&#9650; 964</span> <span class='hn-top-story-comments'>&#128172; 419</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>Show HN：超级达里奥</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.6</span> <span class='hn-top-story-score'>&#9650; 150</span> <span class='hn-top-story-comments'>&#128172; 40</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Gaming</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -140,7 +140,7 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 29 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-07-13 <span class="hn-row-sep">·</span> 93 stories <span class="hn-row-sep">·</span> 1 days</span>
+<span class='hn-week-meta'>2026-07-13 <span class="hn-row-sep">·</span> 100 stories <span class="hn-row-sep">·</span> 1 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/07/13/top_stories_07132026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>93</b> <span class="hn-row-sep">·</span> AI <b>22</b> <span class="hn-row-sep">·</span> Programming <b>19</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>26</b> <span class="hn-row-sep">·</span> Programming <b>26</b></span>
 </a>
 </div>
 </div>
