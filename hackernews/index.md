@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>145</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>21243</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>142</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>143</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-07-14</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>145</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>21279</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>142</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>143</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-07-14</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='392' data-hn-time='1783996040'>
+<div class='hn-top-story-item' data-hn-score='340' data-hn-time='1784028092'>
 <span class='hn-top-story-rank'>1</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/14/top_stories_07142026#story-48905028'>Codex starts encrypting sub-agent prompts</a>
+ <a class='hn-top-story-link' href='https://github.com/openai/codex/issues/28058' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Codex 开始对子代理提示进行加密</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 13</span> <span class='hn-top-story-score'>&#9650; 340</span> <span class='hn-top-story-comments'>&#128172; 214</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='167' data-hn-time='1784029788'>
+<span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/14/top_stories_07142026#story-48905290'>Germany set to restrict its Freedom of Information Act</a>
+ <a class='hn-top-story-link' href='https://www.dw.com/en/germany-freedom-of-information-act/a-77939695' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>德国拟限制其信息自由法</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.5</span> <span class='hn-top-story-score'>&#9650; 167</span> <span class='hn-top-story-comments'>&#128172; 102</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='110' data-hn-time='1784033785'>
+<span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/14/top_stories_07142026#story-48906125'>Proof of Care in the Age of A.I</a>
+ <a class='hn-top-story-link' href='https://jacobfilipp.com/care/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>AI 时代的关怀证明</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.4</span> <span class='hn-top-story-score'>&#9650; 110</span> <span class='hn-top-story-comments'>&#128172; 61</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='44' data-hn-time='1784038674'>
+<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/14/top_stories_07142026#story-48907296'>New York becomes the first state to impose a data center moratorium</a>
+ <a class='hn-top-story-link' href='https://www.reuters.com/world/new-york-becomes-first-state-impose-data-center-moratorium-2026-07-14/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>纽约成为首个对数据中心实施暂停令的州</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.6</span> <span class='hn-top-story-score'>&#9650; 44</span> <span class='hn-top-story-comments'>&#128172; 18</span> <span class='hn-top-story-tag'>Energy</span> <span class='hn-top-story-tag'>Politics</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='132' data-hn-time='1784028636'>
+<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/14/top_stories_07142026#story-48905091'>Codex scraped the ICM website and discovered 2026 Fields Medal winner list</a>
+ <a class='hn-top-story-link' href='https://phemex.com/news/article/2026-fields-medal-winners-list-leaked-includes-two-peking-university-alumni-92948' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Codex 抓取 ICM 网站，发现 2026 年菲尔兹奖得主名单</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.4</span> <span class='hn-top-story-score'>&#9650; 132</span> <span class='hn-top-story-comments'>&#128172; 97</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='672' data-hn-time='1783996040'>
+<span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/07/14/top_stories_07142026#story-48901569'>Japan develops a method to recover up to 90% of lithium from used EV batteries</a>
  <a class='hn-top-story-link' href='https://tech.supercarblondie.com/japan-recovers-up-to-90-of-lithium-from-used-ev-batteries/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>日本开发可从废旧新能源汽车电池回收高达90%的锂</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.5</span> <span class='hn-top-story-score'>&#9650; 392</span> <span class='hn-top-story-comments'>&#128172; 94</span> <span class='hn-top-story-tag'>Energy</span> <span class='hn-top-story-tag'>Science</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.2</span> <span class='hn-top-story-score'>&#9650; 672</span> <span class='hn-top-story-comments'>&#128172; 176</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Energy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='258' data-hn-time='1783990631'>
-<span class='hn-top-story-rank'>2</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/14/top_stories_07142026#story-48901010'>The Git history command deserves more attention</a>
- <a class='hn-top-story-link' href='https://lalitm.com/post/git-history/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>x86 是否准备好大显身手？</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.6</span> <span class='hn-top-story-score'>&#9650; 258</span> <span class='hn-top-story-comments'>&#128172; 146</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='492' data-hn-time='1783972675'>
-<span class='hn-top-story-rank'>3</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/14/top_stories_07142026#story-48897945'>Former NOAA employees built Climate.us to preserve climate data and resources</a>
- <a class='hn-top-story-link' href='https://19thnews.org/2026/07/noaa-climate-data-website/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>前 NOAA 员工创建 Climate.us 以保存气候数据与资源</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.1</span> <span class='hn-top-story-score'>&#9650; 492</span> <span class='hn-top-story-comments'>&#128172; 182</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Data</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='100' data-hn-time='1784000395'>
-<span class='hn-top-story-rank'>4</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/14/top_stories_07142026#story-48902026'>YouTrackDB is a general-use object-oriented graph database</a>
- <a class='hn-top-story-link' href='https://github.com/JetBrains/youtrackdb' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>YouTrackDB：通用型面向对象图数据库</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 100</span> <span class='hn-top-story-comments'>&#128172; 28</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Data</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='447' data-hn-time='1783966936'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/14/top_stories_07142026#story-48896665'>Building and shipping Mac and iOS apps without opening Xcode</a>
- <a class='hn-top-story-link' href='https://scottwillsey.com/building-and-shipping-mac-and-ios-apps-without-ever-opening-xcode/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>无需打开 Xcode 就能构建与发布 Mac 与 iOS 应用</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 447</span> <span class='hn-top-story-comments'>&#128172; 196</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>DevOps</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='529' data-hn-time='1783958768'>
-<span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/14/top_stories_07142026#story-48894752'>Apple's new SpeechAnalyzer API, benchmarked against Whisper and its predecessor</a>
- <a class='hn-top-story-link' href='https://get-inscribe.com/blog/apple-speech-api-benchmark.html' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>苹果新 SpeechAnalyzer API 与 Whisper 对比基准</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 529</span> <span class='hn-top-story-comments'>&#128172; 211</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='119' data-hn-time='1783995019'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='38' data-hn-time='1784038359'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/14/top_stories_07142026#story-48901454'>Fundamentals of Wireless Communication (2005)</a>
- <a class='hn-top-story-link' href='https://web.stanford.edu/~dntse/wireless_book.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/14/top_stories_07142026#story-48907214'>OpenAI mandates hardware-backed passkeys for Trusted Access Cyber members</a>
+ <a class='hn-top-story-link' href='https://www.yubico.com/blog/openai-mandates-hardware-backed-passkeys-for-trusted-access-cyber-members-to-log-into-chatgpt-accounts/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>无线通信基础</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.7</span> <span class='hn-top-story-score'>&#9650; 119</span> <span class='hn-top-story-comments'>&#128172; 4</span> <span class='hn-top-story-tag'>Education</span> <span class='hn-top-story-tag'>Science</span></div>
+<div class='hn-top-story-zh'>OpenAI 要求 Trusted Access Cyber 成员使用硬件背书的通行密钥</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.6</span> <span class='hn-top-story-score'>&#9650; 38</span> <span class='hn-top-story-comments'>&#128172; 18</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='311' data-hn-time='1783972903'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='35' data-hn-time='1784038659'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/14/top_stories_07142026#story-48897991'>Samsung Health app threatens data deletion if users opt out AI training</a>
- <a class='hn-top-story-link' href='https://neow.in/cWsyMTV3' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/14/top_stories_07142026#story-48907290'>Agnes Callard’s theory of the uni-context</a>
+ <a class='hn-top-story-link' href='https://www.derekthompson.org/p/a-philosophers-one-word-theory-to' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>三星 Health 应用若用户不参与 AI 训练将删除其数据</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 311</span> <span class='hn-top-story-comments'>&#128172; 84</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Health</span></div>
+<div class='hn-top-story-zh'>阿格尼斯·卡拉德的统一情境理论</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.4</span> <span class='hn-top-story-score'>&#9650; 35</span> <span class='hn-top-story-comments'>&#128172; 23</span> <span class='hn-top-story-tag'>Culture</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='309' data-hn-time='1783972345'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='84' data-hn-time='1784028799'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/14/top_stories_07142026#story-48897878'>Telegram's t.me domain has been suspended</a>
- <a class='hn-top-story-link' href='https://www.whois.com/whois/t.me' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/14/top_stories_07142026#story-48905118'>Punch yourself in the face with reality</a>
+ <a class='hn-top-story-link' href='https://adi.bio/reality' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Telegram 的 t.me 短链域名已被暂停</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 309</span> <span class='hn-top-story-comments'>&#128172; 226</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Web</span></div>
+<div class='hn-top-story-zh'>用现实狠狠打醒自己</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 84</span> <span class='hn-top-story-comments'>&#128172; 40</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='119' data-hn-time='1783993480'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='62' data-hn-time='1784032089'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/14/top_stories_07142026#story-48901292'>What will be left for us to work on?</a>
- <a class='hn-top-story-link' href='https://www.normaltech.ai/p/what-will-be-left-for-us-to-work' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/14/top_stories_07142026#story-48905764'>Coding agents think ahead of time</a>
+ <a class='hn-top-story-link' href='https://arxiv.org/abs/2607.05188' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>我们还能从事哪些工作？</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 119</span> <span class='hn-top-story-comments'>&#128172; 127</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Career</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>编码代理的前瞻性思考</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 62</span> <span class='hn-top-story-comments'>&#128172; 45</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -140,7 +140,7 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 29 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-07-13 — 2026-07-14 <span class="hn-row-sep">·</span> 199 stories <span class="hn-row-sep">·</span> 2 days</span>
+<span class='hn-week-meta'>2026-07-13 — 2026-07-14 <span class="hn-row-sep">·</span> 235 stories <span class="hn-row-sep">·</span> 2 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/07/14/top_stories_07142026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>49</b> <span class="hn-row-sep">·</span> AI <b>14</b> <span class="hn-row-sep">·</span> Programming <b>13</b></span>
+<span class='hn-row-detail'>All <b>85</b> <span class="hn-row-sep">·</span> AI <b>25</b> <span class="hn-row-sep">·</span> Programming <b>21</b></span>
 </a>
 </div>
 </div>
