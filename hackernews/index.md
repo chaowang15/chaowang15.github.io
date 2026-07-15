@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='322' data-hn-time='1784051448'>
+<div class='hn-top-story-item' data-hn-score='98' data-hn-time='1784084267'>
 <span class='hn-top-story-rank'>1</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/14/top_stories_07142026#story-48915709'>Jurassic Park computers in excruciating detail</a>
+ <a class='hn-top-story-link' href='https://fabiensanglard.net/jurrasic_park_computers/index.html' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>《侏罗纪公园》中的计算机：详尽到极致</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.7</span> <span class='hn-top-story-score'>&#9650; 98</span> <span class='hn-top-story-comments'>&#128172; 22</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Design</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='190' data-hn-time='1784074553'>
+<span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/14/top_stories_07142026#story-48914644'>Vancouver PD website features Quick Escape button that wipes itself from history</a>
+ <a class='hn-top-story-link' href='https://vpd.ca/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>温哥华警察局网站设有“快速逃离”按钮，可从历史记录中自行移除</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.5</span> <span class='hn-top-story-score'>&#9650; 190</span> <span class='hn-top-story-comments'>&#128172; 70</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Web</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='497' data-hn-time='1784051448'>
+<span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/07/14/top_stories_07142026#story-48910545'>Bonsai 27B: A 27B-Class model that runs on a phone</a>
  <a class='hn-top-story-link' href='https://prismml.com/news/bonsai-27b' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Bonsai 27B：能在手机上运行的27B级模型</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.8</span> <span class='hn-top-story-score'>&#9650; 322</span> <span class='hn-top-story-comments'>&#128172; 112</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.0</span> <span class='hn-top-story-score'>&#9650; 497</span> <span class='hn-top-story-comments'>&#128172; 184</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='330' data-hn-time='1784046966'>
-<span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-item' data-hn-score='129' data-hn-time='1784074831'>
+<span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/14/top_stories_07142026#story-48909424'>Measuring Input Latency on Linux: X11 vs. Wayland, VRR, and DXVK</a>
- <a class='hn-top-story-link' href='https://marco-nett.de/blog/measuring-input-latency-on-linux-x11-vs-wayland-vrr-dxvk/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/14/top_stories_07142026#story-48914683'>Data centers have hiked electricity prices on the public by $23B</a>
+ <a class='hn-top-story-link' href='https://fortune.com/2026/07/14/data-centers-23-billion-electricity-bills/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>在 Linux 上测量输入延迟：X11 与 Wayland、VRR 与 DXVK 的比较</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.5</span> <span class='hn-top-story-score'>&#9650; 330</span> <span class='hn-top-story-comments'>&#128172; 205</span> <span class='hn-top-story-tag'>Gaming</span></div>
+<div class='hn-top-story-zh'>数据中心的电费上涨让公众多付约230亿美元</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.5</span> <span class='hn-top-story-score'>&#9650; 129</span> <span class='hn-top-story-comments'>&#128172; 69</span> <span class='hn-top-story-tag'>Energy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='287' data-hn-time='1784048274'>
-<span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-item' data-hn-score='79' data-hn-time='1784079829'>
+<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/14/top_stories_07142026#story-48915244'>Global Warming at 3 °C by 2050? What's Behind the New German Climate Warning</a>
+ <a class='hn-top-story-link' href='https://worldcrunch.com/focus/green-or-gone/global-warming-at-3c-by-2050-what-s-behind-the-new-german-climate-warning/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>德国新气候警告背后的原因：2050 年可能升至 3℃</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 79</span> <span class='hn-top-story-comments'>&#128172; 87</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Politics</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='397' data-hn-time='1784048274'>
+<span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/07/14/top_stories_07142026#story-48909785'>The Tower Keeps Rising</a>
  <a class='hn-top-story-link' href='https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>塔楼仍在不断升高</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.0</span> <span class='hn-top-story-score'>&#9650; 287</span> <span class='hn-top-story-comments'>&#128172; 141</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 397</span> <span class='hn-top-story-comments'>&#128172; 177</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>DevOps</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='343' data-hn-time='1784042293'>
-<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='76' data-hn-time='1784077706'>
+<span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/14/top_stories_07142026#story-48908178'>Are we offloading too much of our thinking to AI?</a>
- <a class='hn-top-story-link' href='https://www.artfish.ai/p/offloading-thinking-to-ai' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/14/top_stories_07142026#story-48915004'>TS-2026-009: Insecure argument handling in Tailscale SSH permitted root access</a>
+ <a class='hn-top-story-link' href='https://tailscale.com/security-bulletins' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>我们是不是把太多思考交给 AI？</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.0</span> <span class='hn-top-story-score'>&#9650; 343</span> <span class='hn-top-story-comments'>&#128172; 333</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='233' data-hn-time='1784048208'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/14/top_stories_07142026#story-48909768'>S&P downgrades Oracle to BBB – only one notch above junk level</a>
- <a class='hn-top-story-link' href='https://www.heise.de/en/news/S-P-downgrades-Oracle-to-BBB-only-one-notch-above-junk-level-11363472.html' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>S&P 将 Oracle 降级至 BBB：仅高于垃圾级一个档次</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.7</span> <span class='hn-top-story-score'>&#9650; 233</span> <span class='hn-top-story-comments'>&#128172; 192</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>TS-2026-009：Tailscale SSH 的参数处理不安全，可能使攻击方获得 root 权限</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 76</span> <span class='hn-top-story-comments'>&#128172; 33</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='178' data-hn-time='1784051915'>
-<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='300' data-hn-time='1784051915'>
+<span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/07/14/top_stories_07142026#story-48910676'>Cursor 0day: When Full Disclosure Becomes the Only Protection Left</a>
  <a class='hn-top-story-link' href='https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Cursor 0day：当完全披露成为唯一的保护时</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.6</span> <span class='hn-top-story-score'>&#9650; 178</span> <span class='hn-top-story-comments'>&#128172; 71</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 300</span> <span class='hn-top-story-comments'>&#128172; 143</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='40' data-hn-time='1784064952'>
-<span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/14/top_stories_07142026#story-48913220'>Microsoft Deletes User's 25-Year-Old Account with Thousands Spent on Games</a>
- <a class='hn-top-story-link' href='https://xcancel.com/JoshuaKhane/status/2076918699248803977' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>微软删除了一个25年账户，数千美元游戏随之消失</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.8</span> <span class='hn-top-story-score'>&#9650; 40</span> <span class='hn-top-story-comments'>&#128172; 12</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='39' data-hn-time='1784063751'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/14/top_stories_07142026#story-48913050'>Dependabot version updates introduce default package cooldown</a>
- <a class='hn-top-story-link' href='https://github.blog/changelog/2026-07-14-dependabot-version-updates-introduce-default-package-cooldown/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Dependabot 版本更新引入默认软件包冷却期</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 39</span> <span class='hn-top-story-comments'>&#128172; 17</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>DevOps</span> <span class='hn-top-story-tag'>Security</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='71' data-hn-time='1784058516'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='354' data-hn-time='1784046966'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/14/top_stories_07142026#story-48912100'>StubHub, CEO hit with ‘deceptive practices’ class action over mass scalping</a>
- <a class='hn-top-story-link' href='https://www.cbc.ca/news/world/stubhub-ceo-class-action-scalping-9.7268987' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/14/top_stories_07142026#story-48909424'>Measuring Input Latency on Linux: X11 vs. Wayland, VRR, and DXVK</a>
+ <a class='hn-top-story-link' href='https://marco-nett.de/blog/measuring-input-latency-on-linux-x11-vs-wayland-vrr-dxvk/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>StubHub 与 CEO 因大规模倒卖被起诉：欺骗性行为的集体诉讼</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 71</span> <span class='hn-top-story-comments'>&#128172; 30</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-zh'>在 Linux 上测量输入延迟：X11 与 Wayland、VRR 与 DXVK 的比较</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 354</span> <span class='hn-top-story-comments'>&#128172; 232</span> <span class='hn-top-story-tag'>Gaming</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='393' data-hn-time='1784029562'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='405' data-hn-time='1784042293'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/14/top_stories_07142026#story-48905248'>How to stop Claude from saying load-bearing</a>
- <a class='hn-top-story-link' href='https://jola.dev/posts/how-to-stop-claude-from-saying-load-bearing' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/14/top_stories_07142026#story-48908178'>Are we offloading too much of our thinking to AI?</a>
+ <a class='hn-top-story-link' href='https://www.artfish.ai/p/offloading-thinking-to-ai' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>如何让 Claude 不再说‘承重’</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 393</span> <span class='hn-top-story-comments'>&#128172; 447</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>我们是不是把太多思考交给 AI？</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 405</span> <span class='hn-top-story-comments'>&#128172; 404</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/07/14/top_stories_07142026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>32</b> <span class="hn-row-sep">·</span> Programming <b>26</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>30</b> <span class="hn-row-sep">·</span> Science <b>16</b></span>
 </a>
 </div>
 </div>
