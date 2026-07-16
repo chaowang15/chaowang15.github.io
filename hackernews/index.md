@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>146</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>21444</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>143</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>144</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-07-15</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>147</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>21493</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>143</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>145</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-07-16</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,118 +20,118 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='819' data-hn-time='1784139165'>
+<div class='hn-top-story-item' data-hn-score='227' data-hn-time='1784177181'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/15/top_stories_07152026#story-48924912'>Inkling: Our Open-Weights Model</a>
- <a class='hn-top-story-link' href='https://thinkingmachines.ai/news/introducing-inkling/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/16/top_stories_07162026#story-48930454'>The lost joy of music piracy</a>
+ <a class='hn-top-story-link' href='https://www.pigeonsandplanes.com/read/music-piracy-what-cd-oink-nine-inch-nails-streaming' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Inkling：我们的开源权重模型</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.4</span> <span class='hn-top-story-score'>&#9650; 819</span> <span class='hn-top-story-comments'>&#128172; 211</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>音乐盗版的逝去乐趣</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 10</span> <span class='hn-top-story-score'>&#9650; 227</span> <span class='hn-top-story-comments'>&#128172; 109</span> <span class='hn-top-story-tag'>Entertainment</span> <span class='hn-top-story-tag'>Culture</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='82' data-hn-time='1784172265'>
+<div class='hn-top-story-item' data-hn-score='934' data-hn-time='1784139165'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/15/top_stories_07152026#story-48930011'>Guerrilla London Bus Ads Mock Kylie Jenner's Meta Glasses Campaign</a>
- <a class='hn-top-story-link' href='https://hyperallergic.com/guerrilla-london-bus-ads-mock-kylie-jenners-meta-glasses-campaign/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/16/top_stories_07162026#story-48924912'>Inkling: Our Open-Weights Model</a>
+ <a class='hn-top-story-link' href='https://thinkingmachines.ai/news/introducing-inkling/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>伦敦游击公交广告模仿凯莉·詹娜的 Meta 眼镜宣传</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.4</span> <span class='hn-top-story-score'>&#9650; 82</span> <span class='hn-top-story-comments'>&#128172; 44</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Culture</span></div>
+<div class='hn-top-story-zh'>Inkling：我们的开源权重模型</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.2</span> <span class='hn-top-story-score'>&#9650; 934</span> <span class='hn-top-story-comments'>&#128172; 229</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='341' data-hn-time='1784147098'>
+<div class='hn-top-story-item' data-hn-score='424' data-hn-time='1784147098'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/15/top_stories_07152026#story-48926590'>Grok Build is open source</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/16/top_stories_07162026#story-48926590'>Grok Build is open source</a>
  <a class='hn-top-story-link' href='https://github.com/xai-org/grok-build' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Grok Build 开源</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.9</span> <span class='hn-top-story-score'>&#9650; 341</span> <span class='hn-top-story-comments'>&#128172; 372</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.7</span> <span class='hn-top-story-score'>&#9650; 424</span> <span class='hn-top-story-comments'>&#128172; 441</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='171' data-hn-time='1784155378'>
+<div class='hn-top-story-item' data-hn-score='78' data-hn-time='1784176261'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/15/top_stories_07152026#story-48928135'>SQLite should have (Rust-style) editions</a>
- <a class='hn-top-story-link' href='https://mort.coffee/home/sqlite-editions/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/16/top_stories_07162026#story-48930363'>Stop saying that AI is just a tool and it only matters how it is used</a>
+ <a class='hn-top-story-link' href='https://www.frank.computer/blog/2025/05/just-a-tool.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>SQLite 应该有（像 Rust 那样的） Edition</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.8</span> <span class='hn-top-story-score'>&#9650; 171</span> <span class='hn-top-story-comments'>&#128172; 69</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>别再说 AI 只是工具，使用方式才是关键</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 78</span> <span class='hn-top-story-comments'>&#128172; 61</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='676' data-hn-time='1784115966'>
+<div class='hn-top-story-item' data-hn-score='92' data-hn-time='1784173723'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/15/top_stories_07152026#story-48919363'>Sleep regularity is a stronger predictor of mortality risk than sleep duration (2023)</a>
- <a class='hn-top-story-link' href='https://academic.oup.com/sleep/article/47/1/zsad253/7280269' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/16/top_stories_07162026#story-48930136'>If you want to create a button from scratch, you must first create the universe</a>
+ <a class='hn-top-story-link' href='https://madcampos.dev/blog/2026/07/accessibility-from-scratch/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>睡眠规律性比睡眠时长更能预测死亡风险</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 676</span> <span class='hn-top-story-comments'>&#128172; 350</span> <span class='hn-top-story-tag'>Health</span> <span class='hn-top-story-tag'>Science</span></div>
+<div class='hn-top-story-zh'>如果你想从零开始设计一个按钮，首先要创造宇宙</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 92</span> <span class='hn-top-story-comments'>&#128172; 42</span> <span class='hn-top-story-tag'>Design</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='164' data-hn-time='1784149217'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='248' data-hn-time='1784155378'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/15/top_stories_07152026#story-48926939'>Show HN: Firefox in WebAssembly</a>
- <a class='hn-top-story-link' href='https://developer.puter.com/labs/firefox-wasm/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/16/top_stories_07162026#story-48928135'>SQLite should have (Rust-style) editions</a>
+ <a class='hn-top-story-link' href='https://mort.coffee/home/sqlite-editions/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Show HN：WebAssembly 实现的 Firefox</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 164</span> <span class='hn-top-story-comments'>&#128172; 86</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Web</span></div>
+<div class='hn-top-story-zh'>SQLite 应该有（像 Rust 那样的） Edition</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 248</span> <span class='hn-top-story-comments'>&#128172; 97</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='861' data-hn-time='1784084267'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='690' data-hn-time='1784115966'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/15/top_stories_07152026#story-48915709'>Jurassic Park computers in excruciating detail</a>
- <a class='hn-top-story-link' href='https://fabiensanglard.net/jurrasic_park_computers/index.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/16/top_stories_07162026#story-48919363'>Sleep regularity is a stronger predictor of mortality risk than sleep duration (2023)</a>
+ <a class='hn-top-story-link' href='https://academic.oup.com/sleep/article/47/1/zsad253/7280269' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>《侏罗纪公园》中的计算机：详尽到极致</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.1</span> <span class='hn-top-story-score'>&#9650; 861</span> <span class='hn-top-story-comments'>&#128172; 227</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Design</span> <span class='hn-top-story-tag'>Culture</span></div>
+<div class='hn-top-story-zh'>睡眠规律性比睡眠时长更能预测死亡风险</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 690</span> <span class='hn-top-story-comments'>&#128172; 367</span> <span class='hn-top-story-tag'>Health</span> <span class='hn-top-story-tag'>Science</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='127' data-hn-time='1784150196'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='70' data-hn-time='1784173002'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/15/top_stories_07152026#story-48927095'>Governments, companies, nonprofits should invest in free, open source AI [pdf]</a>
- <a class='hn-top-story-link' href='https://www.siegelendowment.org/wp-content/uploads/2026/07/fortune-david-siegel-open-source-ai.pdf' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/16/top_stories_07162026#story-48930075'>Making 768 servers look like 1</a>
+ <a class='hn-top-story-link' href='https://planetscale.com/blog/making-768-servers-look-like-1' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>政府、企业、非营利组织应投资免费、开源的 AI</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.1</span> <span class='hn-top-story-score'>&#9650; 127</span> <span class='hn-top-story-comments'>&#128172; 50</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>让768台服务器看起来像一台</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.2</span> <span class='hn-top-story-score'>&#9650; 70</span> <span class='hn-top-story-comments'>&#128172; 10</span> <span class='hn-top-story-tag'>DevOps</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='249' data-hn-time='1784131978'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='73' data-hn-time='1784171567'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/15/top_stories_07152026#story-48923079'>Codex Micro</a>
- <a class='hn-top-story-link' href='https://openai.com/supply/co-lab/work-louder/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/16/top_stories_07162026#story-48929945'>1,300 Beautiful Wildlife Illustrations from the 19th Century Now Restored</a>
+ <a class='hn-top-story-link' href='https://www.openculture.com/2026/07/explore-1300-beautiful-wildlife-illustrations-from-the-19th-century.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Codex Micro</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 249</span> <span class='hn-top-story-comments'>&#128172; 215</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>19世纪1300幅美丽野生动物插图现已修复</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.1</span> <span class='hn-top-story-score'>&#9650; 73</span> <span class='hn-top-story-comments'>&#128172; 10</span> <span class='hn-top-story-tag'>Culture</span> <span class='hn-top-story-tag'>Education</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='43' data-hn-time='1784164864'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='186' data-hn-time='1784149217'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/15/top_stories_07152026#story-48929351'>Bluesky Trademarks ATProto</a>
- <a class='hn-top-story-link' href='https://atproto.com/blog/at-protocol-trademark' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/16/top_stories_07162026#story-48926939'>Show HN: Firefox in WebAssembly</a>
+ <a class='hn-top-story-link' href='https://developer.puter.com/labs/firefox-wasm/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Bluesky 为 ATProto 注册商标</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.9</span> <span class='hn-top-story-score'>&#9650; 43</span> <span class='hn-top-story-comments'>&#128172; 17</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-zh'>Show HN：WebAssembly 实现的 Firefox</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.7</span> <span class='hn-top-story-score'>&#9650; 186</span> <span class='hn-top-story-comments'>&#128172; 97</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
-<a class='hn-top-stories-more' href='/hackernews/2026/07/15/top_stories_07152026'>View all trending stories &rarr;</a>
+<a class='hn-top-stories-more' href='/hackernews/2026/07/16/top_stories_07162026'>View all trending stories &rarr;</a>
 <a class='hn-top-stories-more' href='/hackernews/2026/07/14/best_stories_07142026'>Latest Daily Best — 2026-07-14 &rarr;</a>
 </div>
 </div>
@@ -140,10 +140,19 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 29 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-07-13 — 2026-07-15 <span class="hn-row-sep">·</span> 400 stories <span class="hn-row-sep">·</span> 3 days</span>
+<span class='hn-week-meta'>2026-07-13 — 2026-07-16 <span class="hn-row-sep">·</span> 449 stories <span class="hn-row-sep">·</span> 4 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
+<div class='hn-day-row'>
+<div class='hn-day-date'>2026-07-16 <span class='hn-day-weekday'>Thu</span></div>
+<div class='hn-day-stories'>
+<a class='hn-story-link' href='/hackernews/2026/07/16/top_stories_07162026'>
+<span class='hn-row-type hn-type-top'>Trending</span>
+<span class='hn-row-detail'>All <b>49</b> <span class="hn-row-sep">·</span> Programming <b>16</b> <span class="hn-row-sep">·</span> AI <b>11</b></span>
+</a>
+</div>
+</div>
 <div class='hn-day-row'>
 <div class='hn-day-date'>2026-07-15 <span class='hn-day-weekday'>Wed</span></div>
 <div class='hn-day-stories'>
@@ -500,7 +509,7 @@ Sort:
 <details class='hn-week-group'>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 25</span>
-<span class='hn-week-meta'>2026-06-16 — 2026-06-21 <span class="hn-row-sep">·</span> 894 stories <span class="hn-row-sep">·</span> 6 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
+<span class='hn-week-meta'>2026-06-17 — 2026-06-21 <span class="hn-row-sep">·</span> 744 stories <span class="hn-row-sep">·</span> 5 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
 </summary>
 <div class='hn-week-content'>
 <a class='hn-story-link hn-weekly-digest-link' href='/hackernews/weekly/2026-W25'>
@@ -570,19 +579,6 @@ Sort:
 <a class='hn-story-link' href='/hackernews/2026/06/17/top_stories_06172026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
 <span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>30</b> <span class="hn-row-sep">·</span> Programming <b>23</b></span>
-</a>
-</div>
-</div>
-<div class='hn-day-row'>
-<div class='hn-day-date'>2026-06-16 <span class='hn-day-weekday'>Tue</span></div>
-<div class='hn-day-stories'>
-<a class='hn-story-link' href='/hackernews/2026/06/16/best_stories_06162026'>
-<span class='hn-row-type hn-type-best'>Daily Best</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>15</b> <span class="hn-row-sep">·</span> Programming <b>10</b></span>
-</a>
-<a class='hn-story-link' href='/hackernews/2026/06/16/top_stories_06162026'>
-<span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>27</b> <span class="hn-row-sep">·</span> Programming <b>17</b></span>
 </a>
 </div>
 </div>
