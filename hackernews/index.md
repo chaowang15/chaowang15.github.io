@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>147</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>21593</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>144</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>145</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-07-16</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>147</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>21594</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>144</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>145</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-07-16</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,18 +20,18 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='560' data-hn-time='1784213165'>
+<div class='hn-top-story-item' data-hn-score='967' data-hn-time='1784213165'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/16/top_stories_07162026#story-48935342'>Kimi K3 is now live</a>
- <a class='hn-top-story-link' href='https://www.kimi.com/en' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/16/top_stories_07162026#story-48935342'>Kimi K3: Open Frontier Intelligence</a>
+ <a class='hn-top-story-link' href='https://www.kimi.com/blog/kimi-k3' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Kimi K3 现已上线</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 20</span> <span class='hn-top-story-score'>&#9650; 560</span> <span class='hn-top-story-comments'>&#128172; 285</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>Kimi K3：开放前沿情报</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 15</span> <span class='hn-top-story-score'>&#9650; 967</span> <span class='hn-top-story-comments'>&#128172; 591</span> <span class='hn-top-story-tag'>Data</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='237' data-hn-time='1784217987'>
+<div class='hn-top-story-item' data-hn-score='451' data-hn-time='1784217987'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -39,10 +39,10 @@ Sort:
  <a class='hn-top-story-link' href='https://opensource.microsoft.com/blog/2026/07/16/microsoft-comic-chat-is-now-open-source/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>微软 Comic Chat 现已开源</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 13</span> <span class='hn-top-story-score'>&#9650; 237</span> <span class='hn-top-story-comments'>&#128172; 66</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.1</span> <span class='hn-top-story-score'>&#9650; 451</span> <span class='hn-top-story-comments'>&#128172; 102</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='145' data-hn-time='1784218701'>
+<div class='hn-top-story-item' data-hn-score='334' data-hn-time='1784218701'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -50,10 +50,10 @@ Sort:
  <a class='hn-top-story-link' href='https://www.mixfont.com/experiments/decoy-font' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Decoy 字体</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.6</span> <span class='hn-top-story-score'>&#9650; 145</span> <span class='hn-top-story-comments'>&#128172; 52</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Design</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.0</span> <span class='hn-top-story-score'>&#9650; 334</span> <span class='hn-top-story-comments'>&#128172; 86</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Design</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='419' data-hn-time='1784204023'>
+<div class='hn-top-story-item' data-hn-score='566' data-hn-time='1784204023'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -61,73 +61,73 @@ Sort:
  <a class='hn-top-story-link' href='https://www.techdirt.com/2026/07/15/sony-deletes-a-bunch-more-movies-from-the-accounts-of-people-who-bought-them/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>索尼再次从购买者账户中删除多部电影</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.2</span> <span class='hn-top-story-score'>&#9650; 419</span> <span class='hn-top-story-comments'>&#128172; 262</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Entertainment</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.9</span> <span class='hn-top-story-score'>&#9650; 566</span> <span class='hn-top-story-comments'>&#128172; 350</span> <span class='hn-top-story-tag'>Legal</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='444' data-hn-time='1784196844'>
+<div class='hn-top-story-item' data-hn-score='86' data-hn-time='1784233095'>
 <span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/16/top_stories_07162026#story-48939662'>LM Studio Bionic: the AI agent for open models</a>
+ <a class='hn-top-story-link' href='https://lmstudio.ai/blog/introducing-lm-studio-bionic' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>LM Studio Bionic：面向开放模型的AI代理</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.6</span> <span class='hn-top-story-score'>&#9650; 86</span> <span class='hn-top-story-comments'>&#128172; 29</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='80' data-hn-time='1784232203'>
+<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/16/top_stories_07162026#story-48939524'>$100 AI Music Video: Claude Fable 5 vs. GPT-5.6 Sol</a>
+ <a class='hn-top-story-link' href='https://www.tryai.dev/blog/ai-music-video-arena-claude-vs-gpt-5.6' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>100美元AI音乐视频：Claude Fable 5 与 GPT-5.6 Sol</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.7</span> <span class='hn-top-story-score'>&#9650; 80</span> <span class='hn-top-story-comments'>&#128172; 80</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Entertainment</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='507' data-hn-time='1784196844'>
+<span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/07/16/top_stories_07162026#story-48932539'>OnePlus halts operations in USA and Europe</a>
  <a class='hn-top-story-link' href='https://community.oneplus.com/thread/2170715118587871237' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>OnePlus 在美国与欧洲暂停运营</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.0</span> <span class='hn-top-story-score'>&#9650; 444</span> <span class='hn-top-story-comments'>&#128172; 245</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Health</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.1</span> <span class='hn-top-story-score'>&#9650; 507</span> <span class='hn-top-story-comments'>&#128172; 302</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Health</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='69' data-hn-time='1784221918'>
-<span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/16/top_stories_07162026#story-48937288'>42% of adults rely on their parents for financial support</a>
- <a class='hn-top-story-link' href='https://www.cnbc.com/2026/07/16/42percent-of-adults-rely-on-their-parents-for-financial-supportthere-are-no-bad-guys-here-says-financial-therapist.html' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>有 42% 的成年人依赖父母提供经济支持</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.9</span> <span class='hn-top-story-score'>&#9650; 69</span> <span class='hn-top-story-comments'>&#128172; 65</span> <span class='hn-top-story-tag'>Finance</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='71' data-hn-time='1784220097'>
-<span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/16/top_stories_07162026#story-48936880'>Detecting LLM-Generated Texts with “Classical” Machine Learning</a>
- <a class='hn-top-story-link' href='https://blog.lyc8503.net/en/post/llm-classifier/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>用传统机器学习检测大语言模型生成文本</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.9</span> <span class='hn-top-story-score'>&#9650; 71</span> <span class='hn-top-story-comments'>&#128172; 36</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='271' data-hn-time='1784201967'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='196' data-hn-time='1784218093'>
 <span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/16/top_stories_07162026#story-48933149'>How Our Rust-to-Zig Rewrite Is Going</a>
- <a class='hn-top-story-link' href='https://rtfeldman.com/rust-to-zig' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>我们的 Rust 转 Zig 重写进展</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.8</span> <span class='hn-top-story-score'>&#9650; 271</span> <span class='hn-top-story-comments'>&#128172; 143</span> <span class='hn-top-story-tag'>Programming</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='85' data-hn-time='1784218093'>
-<span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/07/16/top_stories_07162026#story-48936451'>NotebookLM is now Gemini Notebook</a>
  <a class='hn-top-story-link' href='https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>NotebookLM 现名为 Gemini Notebook</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.7</span> <span class='hn-top-story-score'>&#9650; 85</span> <span class='hn-top-story-comments'>&#128172; 62</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 196</span> <span class='hn-top-story-comments'>&#128172; 112</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='702' data-hn-time='1784177181'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='50' data-hn-time='1784234328'>
+<span class='hn-top-story-rank'>9</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/16/top_stories_07162026#story-48939896'>Mathematics of Data Science</a>
+ <a class='hn-top-story-link' href='https://arxiv.org/abs/2607.11938' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>数据科学的数学基础</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.7</span> <span class='hn-top-story-score'>&#9650; 50</span> <span class='hn-top-story-comments'>&#128172; 1</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Data</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='369' data-hn-time='1784201967'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/16/top_stories_07162026#story-48930454'>The lost joy of music piracy</a>
- <a class='hn-top-story-link' href='https://www.pigeonsandplanes.com/read/music-piracy-what-cd-oink-nine-inch-nails-streaming' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/16/top_stories_07162026#story-48933149'>How Our Rust-to-Zig Rewrite Is Going</a>
+ <a class='hn-top-story-link' href='https://rtfeldman.com/rust-to-zig' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>音乐盗版的逝去乐趣</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.6</span> <span class='hn-top-story-score'>&#9650; 702</span> <span class='hn-top-story-comments'>&#128172; 468</span> <span class='hn-top-story-tag'>Culture</span> <span class='hn-top-story-tag'>Entertainment</span></div>
+<div class='hn-top-story-zh'>我们的 Rust 转 Zig 重写进展</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 369</span> <span class='hn-top-story-comments'>&#128172; 204</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -140,7 +140,7 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 29 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-07-13 — 2026-07-16 <span class="hn-row-sep">·</span> 549 stories <span class="hn-row-sep">·</span> 4 days</span>
+<span class='hn-week-meta'>2026-07-13 — 2026-07-16 <span class="hn-row-sep">·</span> 550 stories <span class="hn-row-sep">·</span> 4 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/07/16/top_stories_07162026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>99</b> <span class="hn-row-sep">·</span> Programming <b>35</b> <span class="hn-row-sep">·</span> AI <b>22</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>25</b> <span class="hn-row-sep">·</span> Programming <b>23</b></span>
 </a>
 </div>
 </div>
