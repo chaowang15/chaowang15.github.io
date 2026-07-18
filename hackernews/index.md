@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='966' data-hn-time='1784281325'>
+<div class='hn-top-story-item' data-hn-score='385' data-hn-time='1784327190'>
 <span class='hn-top-story-rank'>1</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/17/top_stories_07172026#story-48952880'>Kaiser nurses say AI, workplace surveillance are making their jobs, care worse</a>
+ <a class='hn-top-story-link' href='https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>凯撒医疗的护士称人工智能与工作场所监控让工作与护理变差</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.5</span> <span class='hn-top-story-score'>&#9650; 385</span> <span class='hn-top-story-comments'>&#128172; 261</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='1098' data-hn-time='1784281325'>
+<span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/07/17/top_stories_07172026#story-48945241'>AWS: Inaccurate Estimated Billing Data – $1.7 billion</a>
  <a class='hn-top-story-link' href='https://news.ycombinator.com/item?id=48945241' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>AWS：估算账单数据不准确，涉额17亿美元</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.4</span> <span class='hn-top-story-score'>&#9650; 966</span> <span class='hn-top-story-comments'>&#128172; 611</span> <span class='hn-top-story-tag'>Finance</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.6</span> <span class='hn-top-story-score'>&#9650; 1098</span> <span class='hn-top-story-comments'>&#128172; 662</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='122' data-hn-time='1784317262'>
-<span class='hn-top-story-rank'>2</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/17/top_stories_07172026#story-48951461'>The Zilog Z80 has turned 50</a>
- <a class='hn-top-story-link' href='https://goliath32.com/blog/z80.html' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Zilog Z80 已迎来50周年</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.7</span> <span class='hn-top-story-score'>&#9650; 122</span> <span class='hn-top-story-comments'>&#128172; 31</span> <span class='hn-top-story-tag'>Hardware</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='53' data-hn-time='1784323373'>
+<div class='hn-top-story-item' data-hn-score='443' data-hn-time='1784307447'>
 <span class='hn-top-story-rank'>3</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/17/top_stories_07172026#story-48952439'>FAA lets Boeing sign off on 737 MAX, 787 airworthiness certificates again</a>
- <a class='hn-top-story-link' href='https://www.cnbc.com/2026/07/17/faa-boeing-737-max-787.html' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>FAA 再次允许波音就 737 MAX 与 787 发放适航证书</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.1</span> <span class='hn-top-story-score'>&#9650; 53</span> <span class='hn-top-story-comments'>&#128172; 21</span> <span class='hn-top-story-tag'>Politics</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='344' data-hn-time='1784298670'>
-<span class='hn-top-story-rank'>4</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/17/top_stories_07172026#story-48947825'>The state of open source AI</a>
- <a class='hn-top-story-link' href='https://stateofopensource.ai/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Mozilla：开源 AI 的现状</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.3</span> <span class='hn-top-story-score'>&#9650; 344</span> <span class='hn-top-story-comments'>&#128172; 242</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='322' data-hn-time='1784297173'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/17/top_stories_07172026#story-48947560'>First atmosphere found on Earth-like planet in habitable zone of distant star</a>
- <a class='hn-top-story-link' href='https://www.bbc.com/news/articles/cy4kdd1e0ejo' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>在遥远恒星的宜居带首次发现地球样行星的大气</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.6</span> <span class='hn-top-story-score'>&#9650; 322</span> <span class='hn-top-story-comments'>&#128172; 214</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Space</span> <span class='hn-top-story-tag'>Energy</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='416' data-hn-time='1784287800'>
-<span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/17/top_stories_07172026#story-48946010'>Evidence of inconsistencies in evaluation process and selection of winners</a>
- <a class='hn-top-story-link' href='https://www.kaggle.com/competitions/kaggle-measuring-agi/discussion/724918#3498423' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>评估过程与获胜者选择中的不一致证据</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 416</span> <span class='hn-top-story-comments'>&#128172; 254</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>Science</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='364' data-hn-time='1784289759'>
-<span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/17/top_stories_07172026#story-48946303'>Apple targets dozens of OpenAI employees with legal letters</a>
- <a class='hn-top-story-link' href='https://www.ft.com/content/1b8c9d52-88a9-426b-ba47-f1811f859166' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>苹果致函多名 OpenAI 员工</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.8</span> <span class='hn-top-story-score'>&#9650; 364</span> <span class='hn-top-story-comments'>&#128172; 308</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Legal</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='146' data-hn-time='1784307447'>
-<span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/07/17/top_stories_07172026#story-48949551'>Thanks HN for 15 years of support and helping me find my life's work</a>
  <a class='hn-top-story-link' href='https://news.ycombinator.com/item?id=48949551' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>感谢 HN 15 年的支持，帮助我找到毕生事业</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.7</span> <span class='hn-top-story-score'>&#9650; 146</span> <span class='hn-top-story-comments'>&#128172; 8</span> <span class='hn-top-story-tag'>Culture</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 443</span> <span class='hn-top-story-comments'>&#128172; 48</span> <span class='hn-top-story-tag'>Career</span> <span class='hn-top-story-tag'>Culture</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='116' data-hn-time='1784310341'>
-<span class='hn-top-story-rank'>9</span>
+<div class='hn-top-story-item' data-hn-score='163' data-hn-time='1784327755'>
+<span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/17/top_stories_07172026#story-48950122'>Learning a few things about running SQLite</a>
- <a class='hn-top-story-link' href='https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/17/top_stories_07172026#story-48952939'>Texas wins court order to suspend domain name for violating age-verification law</a>
+ <a class='hn-top-story-link' href='https://www.texasattorneygeneral.gov/news/releases/attorney-general-ken-paxton-secures-landmark-legal-victory-lock-pornographic-website-domain-and' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>学习关于运行 SQLite 的一些事情</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 116</span> <span class='hn-top-story-comments'>&#128172; 27</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>德州法院裁定暂停因年龄验证法违规的域名</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.7</span> <span class='hn-top-story-score'>&#9650; 163</span> <span class='hn-top-story-comments'>&#128172; 192</span> <span class='hn-top-story-tag'>Legal</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1987' data-hn-time='1784213165'>
-<span class='hn-top-story-rank'>10</span>
+<div class='hn-top-story-item' data-hn-score='151' data-hn-time='1784323373'>
+<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/17/top_stories_07172026#story-48952439'>FAA lets Boeing sign off on 737 MAX, 787 airworthiness certificates again</a>
+ <a class='hn-top-story-link' href='https://www.cnbc.com/2026/07/17/faa-boeing-737-max-787.html' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>FAA 再次允许波音就 737 MAX 与 787 发放适航证书</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.7</span> <span class='hn-top-story-score'>&#9650; 151</span> <span class='hn-top-story-comments'>&#128172; 79</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Politics</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='399' data-hn-time='1784298670'>
+<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/17/top_stories_07172026#story-48947825'>The state of open source AI</a>
+ <a class='hn-top-story-link' href='https://stateofopensource.ai/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Mozilla：开源 AI 的现状</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 399</span> <span class='hn-top-story-comments'>&#128172; 293</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='2006' data-hn-time='1784213165'>
+<span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/07/17/top_stories_07172026#story-48935342'>Kimi K3: Open Frontier Intelligence</a>
  <a class='hn-top-story-link' href='https://www.kimi.com/blog/kimi-k3' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Kimi K3：开放前沿情报</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 1987</span> <span class='hn-top-story-comments'>&#128172; 1155</span> <span class='hn-top-story-tag'>Data</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 2006</span> <span class='hn-top-story-comments'>&#128172; 1168</span> <span class='hn-top-story-tag'>Data</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='402' data-hn-time='1784297173'>
+<span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/17/top_stories_07172026#story-48947560'>First atmosphere found on Earth-like planet in habitable zone of distant star</a>
+ <a class='hn-top-story-link' href='https://www.bbc.com/news/articles/cy4kdd1e0ejo' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>在遥远恒星的宜居带首次发现地球样行星的大气</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 402</span> <span class='hn-top-story-comments'>&#128172; 247</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Space</span> <span class='hn-top-story-tag'>Energy</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='188' data-hn-time='1784317262'>
+<span class='hn-top-story-rank'>9</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/17/top_stories_07172026#story-48951461'>The Zilog Z80 has turned 50</a>
+ <a class='hn-top-story-link' href='https://goliath32.com/blog/z80.html' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Zilog Z80 已迎来50周年</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 188</span> <span class='hn-top-story-comments'>&#128172; 56</span> <span class='hn-top-story-tag'>Hardware</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='451' data-hn-time='1784287800'>
+<span class='hn-top-story-rank'>10</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/17/top_stories_07172026#story-48946010'>Evidence of inconsistencies in evaluation process and selection of winners</a>
+ <a class='hn-top-story-link' href='https://www.kaggle.com/competitions/kaggle-measuring-agi/discussion/724918#3498423' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>评估过程与获胜者选择中的不一致证据</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.2</span> <span class='hn-top-story-score'>&#9650; 451</span> <span class='hn-top-story-comments'>&#128172; 278</span> <span class='hn-top-story-tag'>Data</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/07/17/top_stories_07172026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>26</b> <span class="hn-row-sep">·</span> Programming <b>18</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>26</b> <span class="hn-row-sep">·</span> Programming <b>23</b></span>
 </a>
 </div>
 </div>
