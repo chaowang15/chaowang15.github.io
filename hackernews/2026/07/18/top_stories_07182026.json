@@ -4,19 +4,19 @@
     "source": "https://news.ycombinator.com/",
     "api": "https://github.com/HackerNews/API",
     "count_requested": 50,
-    "count_written": 85,
-    "reused_same_day": 29,
+    "count_written": 99,
+    "reused_same_day": 35,
     "reused_cross_day": 0,
-    "new_llm_enriched": 20,
-    "scrape_time_display": "11:57, July 18, 2026 (PDT)",
+    "new_llm_enriched": 14,
+    "scrape_time_display": "15:37, July 18, 2026 (PDT)",
     "timezone": "America/Los_Angeles",
     "date_dir": "2026/07/18",
     "content_date": "2026-07-18",
-    "run_time_local": "11:57, July 18, 2026 (PDT)",
-    "run_time_utc": "2026-07-18 18:57:57 UTC",
+    "run_time_local": "15:37, July 18, 2026 (PDT)",
+    "run_time_utc": "2026-07-18 22:37:59 UTC",
     "incremental": true,
     "stories_max": 100,
-    "hot_score_time_utc": "2026-07-18 18:59:27 UTC"
+    "hot_score_time_utc": "2026-07-18 22:38:59 UTC"
   },
   "items": [
     {
@@ -31,16 +31,38 @@
         "id": 48956688,
         "type": "story",
         "by": "baranul",
-        "score": 782,
-        "descendants": 390,
+        "score": 927,
+        "descendants": 473,
         "time": 1784370079,
         "comments_url": "https://news.ycombinator.com/item?id=48956688"
       },
       "tags": [
-        "Privacy",
-        "Security"
+        "Security",
+        "Privacy"
       ],
-      "hot_score": 11.08
+      "hot_score": 7.71
+    },
+    {
+      "title_en": "The Kimi K3 Moment",
+      "url": "https://stephen.bochinski.dev/blog/2026/07/18/the-kimi-k3-moment/",
+      "title_zh": "Kimi K3 突破时刻",
+      "created_display": "Created: Jul 18, 2026 / 10:32 PT",
+      "image_url": "https://stephen.bochinski.dev/assets/posts/2026-07-18-the-kimi-k3-moment.png",
+      "summary_en": "A pivotal moment around the Kimi K3 marks a turning point in the author's project.",
+      "summary_zh": "关于 Kimi K3 的一个关键时刻，成为作者项目的转折点。",
+      "hn": {
+        "id": 48960218,
+        "type": "story",
+        "by": "sbochins",
+        "score": 230,
+        "descendants": 247,
+        "time": 1784395960,
+        "comments_url": "https://news.ycombinator.com/item?id=48960218"
+      },
+      "tags": [
+        "Startups"
+      ],
+      "hot_score": 6.71
     },
     {
       "title_en": "GPT-5.6 used a prompt to close a 30-year gap in convex optimization",
@@ -54,15 +76,15 @@
         "id": 48957779,
         "type": "story",
         "by": "mbustamanter",
-        "score": 357,
-        "descendants": 212,
+        "score": 472,
+        "descendants": 302,
         "time": 1784379652,
         "comments_url": "https://news.ycombinator.com/item?id=48957779"
       },
       "tags": [
         "AI"
       ],
-      "hot_score": 8.48
+      "hot_score": 5.68
     },
     {
       "title_en": "Goodbye, and Thanks for All the Bikesheds",
@@ -76,15 +98,37 @@
         "id": 48960155,
         "type": "story",
         "by": "Ygg2",
-        "score": 75,
-        "descendants": 48,
+        "score": 165,
+        "descendants": 168,
         "time": 1784395644,
         "comments_url": "https://news.ycombinator.com/item?id=48960155"
       },
-      "hot_score": 7.63,
       "tags": [
         "Design"
-      ]
+      ],
+      "hot_score": 4.7
+    },
+    {
+      "title_en": "If You Build It, They Will Come",
+      "url": "https://www.benlandautaylor.com/p/if-you-build-it-they-will-come",
+      "title_zh": "若你建好，他们就会来",
+      "created_display": "Created: Jul 18, 2026 / 08:37 PT",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!L0xO!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbb128a68-b1f1-44c9-8d42-a01d689ca8c8_1554x908.png",
+      "summary_en": "Challenging the adage 'If you build it, they will come,' the piece argues that building without a clear distribution and engagement plan often fails. It emphasizes the need for user research, onboarding, and active community-building to ensure product adoption. Without these, even great software may struggle to find its audience.",
+      "summary_zh": "这篇文章挑战‘建好就有人来’的格言，认为若没有清晰的推广与用户获取计划，产品往往难以成功。强调需要用户研究、良好引导和积极的社区建设来推动采用。否则再优秀的软件也可能找不到受众。",
+      "hn": {
+        "id": 48959090,
+        "type": "story",
+        "by": "barry-cotter",
+        "score": 200,
+        "descendants": 69,
+        "time": 1784389021,
+        "comments_url": "https://news.ycombinator.com/item?id=48959090"
+      },
+      "tags": [
+        "Business"
+      ],
+      "hot_score": 3.79
     },
     {
       "title_en": "EU ban on destruction of unsold clothes and shoes enters into application",
@@ -98,16 +142,104 @@
         "id": 48958269,
         "type": "story",
         "by": "robtherobber",
-        "score": 195,
-        "descendants": 173,
+        "score": 260,
+        "descendants": 255,
         "time": 1784383482,
         "comments_url": "https://news.ycombinator.com/item?id=48958269"
       },
       "tags": [
-        "Business",
-        "Legal"
+        "Politics"
       ],
-      "hot_score": 5.98
+      "hot_score": 3.71
+    },
+    {
+      "title_en": "Gleam Is Now on Tangled",
+      "url": "https://tangled.org/gleam.run/gleam",
+      "title_zh": "Gleam 现已在 Tangled 上线",
+      "created_display": "Created: Jul 18, 2026 / 08:44 PT",
+      "image_url": "https://tangled.org/gleam.run/gleam/opengraph",
+      "summary_en": "Gleam, a lightweight language/tool for BEAM, is now available on Tangled, broadening where developers can experiment with it. The move expands the Gleam ecosystem by enabling another platform to host and run Gleam projects. This kind of platform expansion helps smaller runtimes reach a bigger developer base.",
+      "summary_zh": "Gleam 这门适用于 BEAM 的轻量级语言/工具如今已在 Tangled 平台上线，扩展了开发者的实验场景。此举将 Gleam 的生态带到新的平台，方便在不同环境中运行 Gleam 项目。平台层面的扩展有助于小型运行时触及更多开发者。",
+      "hn": {
+        "id": 48959143,
+        "type": "story",
+        "by": "nerdypepper",
+        "score": 174,
+        "descendants": 119,
+        "time": 1784389444,
+        "comments_url": "https://news.ycombinator.com/item?id=48959143"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 3.37
+    },
+    {
+      "title_en": "Typing Speed Test, but for Developers",
+      "url": "https://haxxorwpm.0s.is/",
+      "title_zh": "為開發者量身定制的打字速度測試",
+      "created_display": "Created: Jul 18, 2026 / 12:38 PT",
+      "image_url": null,
+      "summary_en": "A typing test designed for developers, likely using code-like prompts and symbols to measure real-world programmer typing speed. It helps quantify how fast developers can type code, which correlates with coding velocity and productivity; a niche but practical benchmark for engineering teams.",
+      "summary_zh": "為開發者量身定制的打字測試，透過代碼風格的提示與符號來衡量程式設計師的打字速度。這項指標與編碼效率和生產力相關，是工程團隊實用的專屬基準。",
+      "hn": {
+        "id": 48961504,
+        "type": "story",
+        "by": "hronecviktor",
+        "score": 62,
+        "descendants": 34,
+        "time": 1784403501,
+        "comments_url": "https://news.ycombinator.com/item?id=48961504"
+      },
+      "hot_score": 3.35,
+      "tags": [
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "Setting up your spare Mac for Claude Code to control, a step-by-step guide",
+      "url": "https://ykdojo.github.io/claude-controls-mac/",
+      "title_zh": "用备用 Mac 设置 Claude Code 控制的分步指南",
+      "created_display": "Created: Jul 18, 2026 / 09:12 PT",
+      "image_url": null,
+      "summary_en": "Follow a step-by-step guide to configure a spare Mac to control Claude Code, enabling automation and smoother coding workflows. The setup covers prerequisites, installation, and binding Claude Code to macOS tooling for hands-off operations. A dedicated control Mac can streamline experiments and batch tasks.",
+      "summary_zh": "本指南逐步教你将备用 Mac 配置为控制 Claude Code，以实现自动化和更高效的编码工作流。覆盖前提条件、安装步骤，以及将 Claude Code 与 macOS 工具整合的设置。使用专门的控制机可以简化实验与批量任务。",
+      "hn": {
+        "id": 48959392,
+        "type": "story",
+        "by": "ykev",
+        "score": 152,
+        "descendants": 110,
+        "time": 1784391128,
+        "comments_url": "https://news.ycombinator.com/item?id=48959392"
+      },
+      "tags": [
+        "Programming",
+        "AI"
+      ],
+      "hot_score": 3.24
+    },
+    {
+      "title_en": "What AI did to stackoverflow in a graph",
+      "url": "https://data.stackexchange.com/stackoverflow/query/1953768#graph",
+      "title_zh": "AI 对 Stack Overflow 的影响：以图展示",
+      "created_display": "Created: Jul 18, 2026 / 04:12 PT",
+      "image_url": null,
+      "summary_en": "A data visualization chronicles how AI involvement has reshaped Stack Overflow, showing shifts in question types, answer volumes, and answer quality. The graph highlights AI's dual role as amplifier of productivity and potential source of noise, prompting platform governance discussions.",
+      "summary_zh": "一张数据可视化图揭示人工智能参与对 Stack Overflow 的影响：提问类型、回答数量和质量的变化。图表显示 AI 既提升生产力又可能带来噪音，促使对社区治理与质量控制的讨论。",
+      "hn": {
+        "id": 48956949,
+        "type": "story",
+        "by": "secretslol",
+        "score": 342,
+        "descendants": 397,
+        "time": 1784373166,
+        "comments_url": "https://news.ycombinator.com/item?id=48956949"
+      },
+      "tags": [
+        "AI"
+      ],
+      "hot_score": 3.18
     },
     {
       "title_en": "Why do AI company logos look like buttholes? (2025)",
@@ -130,75 +262,30 @@
         "Design",
         "AI"
       ],
-      "hot_score": 5.57
+      "hot_score": 3.16
     },
     {
-      "title_en": "Gleam Is Now on Tangled",
-      "url": "https://tangled.org/gleam.run/gleam",
-      "title_zh": "Gleam 现已在 Tangled 上线",
-      "created_display": "Created: Jul 18, 2026 / 08:44 PT",
-      "image_url": "https://tangled.org/gleam.run/gleam/opengraph",
-      "summary_en": "Gleam, a lightweight language/tool for BEAM, is now available on Tangled, broadening where developers can experiment with it. The move expands the Gleam ecosystem by enabling another platform to host and run Gleam projects. This kind of platform expansion helps smaller runtimes reach a bigger developer base.",
-      "summary_zh": "Gleam 这门适用于 BEAM 的轻量级语言/工具如今已在 Tangled 平台上线，扩展了开发者的实验场景。此举将 Gleam 的生态带到新的平台，方便在不同环境中运行 Gleam 项目。平台层面的扩展有助于小型运行时触及更多开发者。",
+      "title_en": "Mayor Mamdani Says Landlords Can't Use AI Images to Advertise",
+      "url": "https://petapixel.com/2026/07/16/mayor-mamdani-says-landlords-cant-secretly-use-ai-images-to-advertise-properties/",
+      "title_zh": "马姆丹尼市长：房东不得使用 AI 图像进行广告",
+      "created_display": "Created: Jul 18, 2026 / 15:13 PT",
+      "image_url": "https://petapixel.com/assets/uploads/2026/07/mamdani-copy.jpg",
+      "summary_en": "A local policy stance against landlords using AI-generated imagery to advertise properties, addressing deception and transparency in listing visuals. The move signals growing regulatory scrutiny of AI-generated media in real estate and consumer trust.",
+      "summary_zh": "地方政策規定房東不得用 AI 生成的影像宣傳物件，著眼於上市視覺的誤導性與透明度。這一舉措顯示對科技生成影像在房地產與用戶信任領域的監管日益增加。",
       "hn": {
-        "id": 48959143,
+        "id": 48962983,
         "type": "story",
-        "by": "nerdypepper",
-        "score": 111,
-        "descendants": 62,
-        "time": 1784389444,
-        "comments_url": "https://news.ycombinator.com/item?id=48959143"
+        "by": "gnabgib",
+        "score": 15,
+        "descendants": 1,
+        "time": 1784412819,
+        "comments_url": "https://news.ycombinator.com/item?id=48962983"
       },
-      "hot_score": 5.55,
+      "hot_score": 2.85,
       "tags": [
-        "Programming"
-      ]
-    },
-    {
-      "title_en": "Setting up your spare Mac for Claude Code to control, a step-by-step guide",
-      "url": "https://ykdojo.github.io/claude-controls-mac/",
-      "title_zh": "用备用 Mac 设置 Claude Code 控制的分步指南",
-      "created_display": "Created: Jul 18, 2026 / 09:12 PT",
-      "image_url": null,
-      "summary_en": "Follow a step-by-step guide to configure a spare Mac to control Claude Code, enabling automation and smoother coding workflows. The setup covers prerequisites, installation, and binding Claude Code to macOS tooling for hands-off operations. A dedicated control Mac can streamline experiments and batch tasks.",
-      "summary_zh": "本指南逐步教你将备用 Mac 配置为控制 Claude Code，以实现自动化和更高效的编码工作流。覆盖前提条件、安装步骤，以及将 Claude Code 与 macOS 工具整合的设置。使用专门的控制机可以简化实验与批量任务。",
-      "hn": {
-        "id": 48959392,
-        "type": "story",
-        "by": "ykev",
-        "score": 89,
-        "descendants": 65,
-        "time": 1784391128,
-        "comments_url": "https://news.ycombinator.com/item?id=48959392"
-      },
-      "hot_score": 5.25,
-      "tags": [
-        "Programming",
+        "Politics",
         "AI"
       ]
-    },
-    {
-      "title_en": "What AI did to stackoverflow in a graph",
-      "url": "https://data.stackexchange.com/stackoverflow/query/1953768#graph",
-      "title_zh": "AI 对 Stack Overflow 的影响：以图展示",
-      "created_display": "Created: Jul 18, 2026 / 04:12 PT",
-      "image_url": null,
-      "summary_en": "A data visualization chronicles how AI involvement has reshaped Stack Overflow, showing shifts in question types, answer volumes, and answer quality. The graph highlights AI's dual role as amplifier of productivity and potential source of noise, prompting platform governance discussions.",
-      "summary_zh": "一张数据可视化图揭示人工智能参与对 Stack Overflow 的影响：提问类型、回答数量和质量的变化。图表显示 AI 既提升生产力又可能带来噪音，促使对社区治理与质量控制的讨论。",
-      "hn": {
-        "id": 48956949,
-        "type": "story",
-        "by": "secretslol",
-        "score": 293,
-        "descendants": 339,
-        "time": 1784373166,
-        "comments_url": "https://news.ycombinator.com/item?id=48956949"
-      },
-      "tags": [
-        "AI",
-        "Data"
-      ],
-      "hot_score": 4.82
     },
     {
       "title_en": "Elixir-lang.org has a new design",
@@ -212,59 +299,15 @@
         "id": 48959042,
         "type": "story",
         "by": "bbg2401",
-        "score": 88,
-        "descendants": 56,
+        "score": 144,
+        "descendants": 91,
         "time": 1784388724,
         "comments_url": "https://news.ycombinator.com/item?id=48959042"
       },
-      "hot_score": 4.1,
       "tags": [
         "Design"
-      ]
-    },
-    {
-      "title_en": "If You Build It, They Will Come",
-      "url": "https://www.benlandautaylor.com/p/if-you-build-it-they-will-come",
-      "title_zh": "若你建好，他们就会来",
-      "created_display": "Created: Jul 18, 2026 / 08:37 PT",
-      "image_url": "https://substackcdn.com/image/fetch/$s_!L0xO!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbb128a68-b1f1-44c9-8d42-a01d689ca8c8_1554x908.png",
-      "summary_en": "Challenging the adage 'If you build it, they will come,' the piece argues that building without a clear distribution and engagement plan often fails. It emphasizes the need for user research, onboarding, and active community-building to ensure product adoption. Without these, even great software may struggle to find its audience.",
-      "summary_zh": "这篇文章挑战‘建好就有人来’的格言，认为若没有清晰的推广与用户获取计划，产品往往难以成功。强调需要用户研究、良好引导和积极的社区建设来推动采用。否则再优秀的软件也可能找不到受众。",
-      "hn": {
-        "id": 48959090,
-        "type": "story",
-        "by": "barry-cotter",
-        "score": 73,
-        "descendants": 24,
-        "time": 1784389021,
-        "comments_url": "https://news.ycombinator.com/item?id=48959090"
-      },
-      "hot_score": 3.49,
-      "tags": [
-        "Business"
-      ]
-    },
-    {
-      "title_en": "REO Trucks I4 4WD Pickup Truck Starts at $21,500",
-      "url": "https://reotrucks.com",
-      "title_zh": "REO Trucks I4 4WD皮卡起价21,500美元",
-      "created_display": "Created: Jul 18, 2026 / 11:13 PT",
-      "image_url": "https://reotrucks.com/opengraph-image?2c37889503466c53",
-      "summary_en": "REO Trucks introduces the I4 4WD pickup with a starting price of $21,500, targeting budget-minded buyers. The entry price underscores the market’s demand for affordable, capable work trucks and could pressure incumbents to rethink value in the segment. This launch signals continued competition in the low-cost pickup space.",
-      "summary_zh": "REO Trucks 推出 I4 4WD 皮卡，起价为$21,500，瞄准预算有限的买家。这个定价凸显市场对价格友好、实用皮卡的需求，可能促使传统厂商重新思考低端价值。该产品进入低成本皮卡市场，意味着竞争将更激烈。",
-      "hn": {
-        "id": 48960607,
-        "type": "story",
-        "by": "b_mc2",
-        "score": 22,
-        "descendants": 17,
-        "time": 1784398385,
-        "comments_url": "https://news.ycombinator.com/item?id=48960607"
-      },
-      "hot_score": 3.35,
-      "tags": [
-        "Business"
-      ]
+      ],
+      "hot_score": 2.68
     },
     {
       "title_en": "Regressive JPEGs",
@@ -278,15 +321,38 @@
         "id": 48954851,
         "type": "story",
         "by": "vitaut",
-        "score": 583,
-        "descendants": 62,
+        "score": 640,
+        "descendants": 65,
         "time": 1784344460,
         "comments_url": "https://news.ycombinator.com/item?id=48954851"
       },
       "tags": [
         "Science"
       ],
-      "hot_score": 3.28
+      "hot_score": 2.57
+    },
+    {
+      "title_en": "SpaceX and the myth of independent Wall St research",
+      "url": "https://www.ft.com/content/ce345155-d897-4f49-b7c8-13680e3b5434",
+      "title_zh": "SpaceX 与独立华尔街研究的神话",
+      "created_display": "Created: Jul 18, 2026 / 13:13 PT",
+      "image_url": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fimages.ft.com%2Fv3%2Fimage%2Fraw%2Fhttps%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fe975bb85-0d5c-41cd-a4f2-ed5b21f73307.jpg%3Fsource%3Dnext-barrier-page%26fit%3Dscale-down%26quality%3Dhighest%26width%3D700%26dpr%3D1?source=next-barrier-page",
+      "summary_en": "A Financial Times piece questions whether SpaceX enjoys truly independent Wall Street research, likely arguing that funding, sponsorship, or conflicts of interest influence coverage. It highlights the broader issue of transparency in tech-sector analysis.",
+      "summary_zh": "金融时报质疑 SpaceX 是否真的拥有独立的华尔街研究，可能指出资金来源、赞助或利益冲突会影响报道。文章凸显科技领域分析中的透明度与独立性问题。",
+      "hn": {
+        "id": 48961864,
+        "type": "story",
+        "by": "JumpCrisscross",
+        "score": 34,
+        "descendants": 15,
+        "time": 1784405636,
+        "comments_url": "https://news.ycombinator.com/item?id=48961864"
+      },
+      "hot_score": 2.28,
+      "tags": [
+        "Finance",
+        "Space"
+      ]
     },
     {
       "title_en": "Fake food delivery site for the dopamine",
@@ -300,37 +366,15 @@
         "id": 48959355,
         "type": "story",
         "by": "guerrilla",
-        "score": 51,
-        "descendants": 18,
+        "score": 90,
+        "descendants": 53,
         "time": 1784390918,
         "comments_url": "https://news.ycombinator.com/item?id=48959355"
       },
-      "hot_score": 2.92,
       "tags": [
         "Design"
-      ]
-    },
-    {
-      "title_en": "British runner Josh Kerr breaks world record for mile which stood for 27 years",
-      "url": "https://news.sky.com/story/british-runner-josh-kerr-breaks-world-record-for-mile-which-had-stood-for-27-years-13564688",
-      "title_zh": "英国选手 Josh Kerr 打破27年未改写的一英里世界纪录",
-      "created_display": "Created: Jul 18, 2026 / 08:08 PT",
-      "image_url": null,
-      "summary_en": "Josh Kerr shattered a 27-year-old mile world record, underscoring the ongoing progression in elite middle-distance running. The achievement reflects advances in training, biomechanics, and race strategy.",
-      "summary_zh": "乔什·科尔打破27年未改写的一英里世界纪录，凸显中长跑领域的持续进步。成就归功于训练、生物力学与比赛策略的综合进步。",
-      "hn": {
-        "id": 48958814,
-        "type": "story",
-        "by": "austinallegro",
-        "score": 64,
-        "descendants": 46,
-        "time": 1784387312,
-        "comments_url": "https://news.ycombinator.com/item?id=48958814"
-      },
-      "hot_score": 2.62,
-      "tags": [
-        "Culture"
-      ]
+      ],
+      "hot_score": 1.89
     },
     {
       "title_en": "Fable 5 vs. GPT-5.6 Sol on an NP-Hard Problem: Does /goal help?",
@@ -344,15 +388,15 @@
         "id": 48956879,
         "type": "story",
         "by": "couAUIA",
-        "score": 163,
-        "descendants": 82,
+        "score": 197,
+        "descendants": 100,
         "time": 1784372429,
         "comments_url": "https://news.ycombinator.com/item?id=48956879"
       },
       "tags": [
         "AI"
       ],
-      "hot_score": 2.58
+      "hot_score": 1.78
     },
     {
       "title_en": "AWS: Inaccurate Estimated Billing Data – $1.7 billion",
@@ -366,38 +410,59 @@
         "id": 48945241,
         "type": "story",
         "by": "nprateem",
-        "score": 1255,
-        "descendants": 729,
+        "score": 1265,
+        "descendants": 732,
         "time": 1784281325,
         "comments_url": "https://news.ycombinator.com/item?id=48945241"
       },
       "tags": [
-        "Business",
-        "Finance"
+        "Business"
       ],
-      "hot_score": 2.05
+      "hot_score": 1.73
     },
     {
-      "title_en": "No link between acetaminophen use during pregnancy and adverse birth outcomes",
-      "url": "https://sph.unc.edu/sph-news/no-link-between-acetaminophen-use-during-pregnancy-and-adverse-birth-outcomes-study-finds/",
-      "title_zh": "孕期使用对乙酰氨基酚与不良出生结局无显著相关",
-      "created_display": "Created: Jul 18, 2026 / 09:03 PT",
+      "title_en": "British runner Josh Kerr breaks world record for mile which stood for 27 years",
+      "url": "https://news.sky.com/story/british-runner-josh-kerr-breaks-world-record-for-mile-which-had-stood-for-27-years-13564688",
+      "title_zh": "英国选手 Josh Kerr 打破27年未改写的一英里世界纪录",
+      "created_display": "Created: Jul 18, 2026 / 08:08 PT",
       "image_url": null,
-      "summary_en": "A new study finds no link between acetaminophen use during pregnancy and adverse birth outcomes, easing concerns for expectant parents and clinicians.",
-      "summary_zh": "最新研究显示孕期使用对乙酰氨基酚与不良出生结局之间无显著相关，为准父母与医生带来安慰。",
+      "summary_en": "Josh Kerr shattered a 27-year-old mile world record, underscoring the ongoing progression in elite middle-distance running. The achievement reflects advances in training, biomechanics, and race strategy.",
+      "summary_zh": "乔什·科尔打破27年未改写的一英里世界纪录，凸显中长跑领域的持续进步。成就归功于训练、生物力学与比赛策略的综合进步。",
       "hn": {
-        "id": 48959302,
+        "id": 48958814,
         "type": "story",
-        "by": "geox",
-        "score": 37,
-        "descendants": 18,
-        "time": 1784390589,
-        "comments_url": "https://news.ycombinator.com/item?id=48959302"
+        "by": "austinallegro",
+        "score": 95,
+        "descendants": 57,
+        "time": 1784387312,
+        "comments_url": "https://news.ycombinator.com/item?id=48958814"
       },
-      "hot_score": 2.03,
       "tags": [
-        "Health"
-      ]
+        "Entertainment"
+      ],
+      "hot_score": 1.63
+    },
+    {
+      "title_en": "Thanks HN for 15 years of support and helping me find my life's work",
+      "url": "https://news.ycombinator.com/item?id=48949551",
+      "title_zh": "感谢 HN 15 年的支持，帮助我找到毕生事业",
+      "created_display": "Created: Jul 17, 2026 / 09:57 PT",
+      "image_url": "https://news.ycombinator.com/y18.svg",
+      "summary_en": "A personal reflection on how Hacker News shaped the writer’s career and life’s work. The post credits the community’s thoughtful feedback and diverse perspectives for guiding important decisions and helping uncover a vocation.",
+      "summary_zh": "这是一篇关于 Hacker News 如何影响作者职业与人生方向的个人反思。作者感谢社区的深思熟虑评论与多元观点，帮助自己找到真正热爱的事业并做出关键决定。",
+      "hn": {
+        "id": 48949551,
+        "type": "story",
+        "by": "nicholasjbs",
+        "score": 785,
+        "descendants": 99,
+        "time": 1784307447,
+        "comments_url": "https://news.ycombinator.com/item?id=48949551"
+      },
+      "tags": [
+        "Culture"
+      ],
+      "hot_score": 1.56
     },
     {
       "title_en": "Kaiser nurses say AI, surveillance are making their jobs and patient care worse",
@@ -421,75 +486,7 @@
         "Health",
         "Privacy"
       ],
-      "hot_score": 1.93
-    },
-    {
-      "title_en": "Thanks HN for 15 years of support and helping me find my life's work",
-      "url": "https://news.ycombinator.com/item?id=48949551",
-      "title_zh": "感谢 HN 15 年的支持，帮助我找到毕生事业",
-      "created_display": "Created: Jul 17, 2026 / 09:57 PT",
-      "image_url": "https://news.ycombinator.com/y18.svg",
-      "summary_en": "A personal reflection on how Hacker News shaped the writer’s career and life’s work. The post credits the community’s thoughtful feedback and diverse perspectives for guiding important decisions and helping uncover a vocation.",
-      "summary_zh": "这是一篇关于 Hacker News 如何影响作者职业与人生方向的个人反思。作者感谢社区的深思熟虑评论与多元观点，帮助自己找到真正热爱的事业并做出关键决定。",
-      "hn": {
-        "id": 48949551,
-        "type": "story",
-        "by": "nicholasjbs",
-        "score": 760,
-        "descendants": 97,
-        "time": 1784307447,
-        "comments_url": "https://news.ycombinator.com/item?id=48949551"
-      },
-      "tags": [
-        "Career"
-      ],
-      "hot_score": 1.88
-    },
-    {
-      "title_en": "Our Approach to Bioresilience: Isomorphic Labs and Google DeepMind",
-      "url": "https://deepmind.google/blog/our-approach-to-bioresilience/",
-      "title_zh": "生物韧性之路：Isomorphic Labs 与 Google DeepMind 的方法",
-      "created_display": "Created: Jul 18, 2026 / 09:02 PT",
-      "image_url": "https://lh3.googleusercontent.com/ZRyQg91pjea8kXXaGSlnZIJF90-VwnKHSBxo22e2RedCvCCszsurR8W9NHw80e1V6HtWXccbU1MI27Rtjjf963rD673XgkWK7cZe_1ekfruPgdHHVEc=w1200-h630-n-nu-rw",
-      "summary_en": "Isomorphic Labs and Google DeepMind outline a joint approach to bioresilience, blending AI with wet-lab biology to accelerate discovery while prioritizing safety and governance. They discuss scalable AI models, modular workflows, and responsible research practices to reduce risk in biotech innovation.",
-      "summary_zh": "Isomorphic Labs 与 Google DeepMind 共同提出面向生物韧性的研发路线，将 AI 与湿实验室生物学相结合，以加速创新并优先考虑安全与治理。文章讨论可扩展的 AI 模型、模块化工作流，以及在生物技术研究中降低风险的负责任实践。",
-      "hn": {
-        "id": 48959297,
-        "type": "story",
-        "by": "bookofjoe",
-        "score": 31,
-        "descendants": 17,
-        "time": 1784390565,
-        "comments_url": "https://news.ycombinator.com/item?id=48959297"
-      },
-      "hot_score": 1.69,
-      "tags": [
-        "AI",
-        "Science"
-      ]
-    },
-    {
-      "title_en": "Show HN: Get alerts for good seats at 70mm IMAX showings of The Odyssey",
-      "url": "https://imaxxing.io/",
-      "title_zh": "Show HN：70mm IMAX《奥德赛》场次好座位提醒工具",
-      "created_display": "Created: Jul 18, 2026 / 11:06 PT",
-      "image_url": "https://imaxxing.io/og.png",
-      "summary_en": "Show HN: Get alerts for good seats at 70mm IMAX showings of The Odyssey. A lightweight tool that watches 70mm IMAX showings for The Odyssey and notifies you when seats with good visibility become available. It demonstrates practical, user-facing automation for niche cinema-going experiences.",
-      "summary_zh": "Show HN：70mm IMAX《奥德赛》场次好座位提醒工具，透过轻量化的监控与通知，帮助用户在特定场次抢到理想座位，体现了对小众观影体验的实用自动化。",
-      "hn": {
-        "id": 48960551,
-        "type": "story",
-        "by": "andrewtorkbaker",
-        "score": 12,
-        "descendants": 6,
-        "time": 1784397983,
-        "comments_url": "https://news.ycombinator.com/item?id=48960551"
-      },
-      "hot_score": 1.63,
-      "tags": [
-        "Show HN",
-        "Programming"
-      ]
+      "hot_score": 1.47
     },
     {
       "title_en": "Kimi K3: Open Frontier Intelligence",
@@ -509,10 +506,98 @@
         "comments_url": "https://news.ycombinator.com/item?id=48935342"
       },
       "tags": [
-        "Data",
-        "Open Source"
+        "AI"
       ],
-      "hot_score": 1.55
+      "hot_score": 1.38
+    },
+    {
+      "title_en": "No link between acetaminophen use during pregnancy and adverse birth outcomes",
+      "url": "https://sph.unc.edu/sph-news/no-link-between-acetaminophen-use-during-pregnancy-and-adverse-birth-outcomes-study-finds/",
+      "title_zh": "孕期使用对乙酰氨基酚与不良出生结局无显著相关",
+      "created_display": "Created: Jul 18, 2026 / 09:03 PT",
+      "image_url": null,
+      "summary_en": "A new study finds no link between acetaminophen use during pregnancy and adverse birth outcomes, easing concerns for expectant parents and clinicians.",
+      "summary_zh": "最新研究显示孕期使用对乙酰氨基酚与不良出生结局之间无显著相关，为准父母与医生带来安慰。",
+      "hn": {
+        "id": 48959302,
+        "type": "story",
+        "by": "geox",
+        "score": 59,
+        "descendants": 36,
+        "time": 1784390589,
+        "comments_url": "https://news.ycombinator.com/item?id=48959302"
+      },
+      "tags": [
+        "Science"
+      ],
+      "hot_score": 1.21
+    },
+    {
+      "title_en": "Our Approach to Bioresilience: Isomorphic Labs and Google DeepMind",
+      "url": "https://deepmind.google/blog/our-approach-to-bioresilience/",
+      "title_zh": "生物韧性之路：Isomorphic Labs 与 Google DeepMind 的方法",
+      "created_display": "Created: Jul 18, 2026 / 09:02 PT",
+      "image_url": "https://lh3.googleusercontent.com/ZRyQg91pjea8kXXaGSlnZIJF90-VwnKHSBxo22e2RedCvCCszsurR8W9NHw80e1V6HtWXccbU1MI27Rtjjf963rD673XgkWK7cZe_1ekfruPgdHHVEc=w1200-h630-n-nu-rw",
+      "summary_en": "Isomorphic Labs and Google DeepMind outline a joint approach to bioresilience, blending AI with wet-lab biology to accelerate discovery while prioritizing safety and governance. They discuss scalable AI models, modular workflows, and responsible research practices to reduce risk in biotech innovation.",
+      "summary_zh": "Isomorphic Labs 与 Google DeepMind 共同提出面向生物韧性的研发路线，将 AI 与湿实验室生物学相结合，以加速创新并优先考虑安全与治理。文章讨论可扩展的 AI 模型、模块化工作流，以及在生物技术研究中降低风险的负责任实践。",
+      "hn": {
+        "id": 48959297,
+        "type": "story",
+        "by": "bookofjoe",
+        "score": 53,
+        "descendants": 21,
+        "time": 1784390565,
+        "comments_url": "https://news.ycombinator.com/item?id=48959297"
+      },
+      "tags": [
+        "AI",
+        "Science"
+      ],
+      "hot_score": 1.08
+    },
+    {
+      "title_en": "Judge a book by its first pages",
+      "url": "https://uncovered.ink",
+      "title_zh": "从前几页就能判断一本书吗",
+      "created_display": "Created: Jul 18, 2026 / 15:02 PT",
+      "image_url": "https://uncovered.ink/og.png",
+      "summary_en": "An exploration of whether the opening pages predict a book's overall quality or appeal. The piece critiques or supports the idea with examples or data and offers guidance on evaluating openings for readers and editors.",
+      "summary_zh": "探討前幾頁是否能預示一本書的整體質量與吸引力。文章提供案例與數據支持或反駁這一觀點，並給出讀者與編輯在評估開篇時的實用建議。",
+      "hn": {
+        "id": 48962893,
+        "type": "story",
+        "by": "bookofjoe",
+        "score": 7,
+        "descendants": 5,
+        "time": 1784412151,
+        "comments_url": "https://news.ycombinator.com/item?id=48962893"
+      },
+      "hot_score": 1.07,
+      "tags": [
+        "Education"
+      ]
+    },
+    {
+      "title_en": "Hardcore IndieWeb: Run your own website 100% independently for only $0.01/day",
+      "url": "https://www.neatnik.net/hardcore-indieweb",
+      "title_zh": "每天仅0.01美元就能完全独立运行你的网站",
+      "created_display": "Created: Jul 18, 2026 / 14:45 PT",
+      "image_url": "https://www.neatnik.net/hardcore-indieweb/og.png",
+      "summary_en": "A guide to running your own site 100% independently on a shoestring budget of a dime per day. It likely discusses hosting options, minimal tooling, and the trade-offs of DIY self-hosting.",
+      "summary_zh": "教你用每天0.01美元的極低成本，實現網站的100%自托管與自主運作。內容涵蓋主機選項、最小工具組合，以及自托管的取捨與風險。",
+      "hn": {
+        "id": 48962758,
+        "type": "story",
+        "by": "cdrnsf",
+        "score": 8,
+        "descendants": 2,
+        "time": 1784411112,
+        "comments_url": "https://news.ycombinator.com/item?id=48962758"
+      },
+      "hot_score": 1.03,
+      "tags": [
+        "Web"
+      ]
     },
     {
       "title_en": "Show HN: Q3Edit – Edit and play Quake 3 maps in the browser",
@@ -526,17 +611,17 @@
         "id": 48958854,
         "type": "story",
         "by": "drdator",
-        "score": 31,
-        "descendants": 7,
+        "score": 58,
+        "descendants": 11,
         "time": 1784387560,
         "comments_url": "https://news.ycombinator.com/item?id=48958854"
       },
-      "hot_score": 1.28,
       "tags": [
         "Show HN",
-        "Programming",
+        "Gaming",
         "Web"
-      ]
+      ],
+      "hot_score": 1.0
     },
     {
       "title_en": "The Computer at the Bottom of a Canal",
@@ -550,8 +635,8 @@
         "id": 48956231,
         "type": "story",
         "by": "Kudos",
-        "score": 114,
-        "descendants": 24,
+        "score": 131,
+        "descendants": 33,
         "time": 1784363611,
         "comments_url": "https://news.ycombinator.com/item?id=48956231"
       },
@@ -559,29 +644,7 @@
         "Hardware",
         "Data"
       ],
-      "hot_score": 1.21
-    },
-    {
-      "title_en": "The Kimi K3 Moment",
-      "url": "https://stephen.bochinski.dev/blog/2026/07/18/the-kimi-k3-moment/",
-      "title_zh": "Kimi K3 突破时刻",
-      "created_display": "Created: Jul 18, 2026 / 10:32 PT",
-      "image_url": "https://stephen.bochinski.dev/assets/posts/2026-07-18-the-kimi-k3-moment.png",
-      "summary_en": "A pivotal moment around the Kimi K3 marks a turning point in the author's project.",
-      "summary_zh": "关于 Kimi K3 的一个关键时刻，成为作者项目的转折点。",
-      "hn": {
-        "id": 48960218,
-        "type": "story",
-        "by": "sbochins",
-        "score": 12,
-        "descendants": 4,
-        "time": 1784395960,
-        "comments_url": "https://news.ycombinator.com/item?id=48960218"
-      },
-      "hot_score": 1.19,
-      "tags": [
-        "Startups"
-      ]
+      "hot_score": 0.88
     },
     {
       "title_en": "First atmosphere found on Earth-like planet in habitable zone of distant star",
@@ -601,36 +664,11 @@
         "comments_url": "https://news.ycombinator.com/item?id=48947560"
       },
       "tags": [
-        "Science",
         "Space",
+        "Science",
         "Energy"
       ],
-      "hot_score": 1.05
-    },
-    {
-      "title_en": "Steam Machine: Between 12k and 15k Units Sold per week",
-      "url": "https://boilingsteam.com/steam-machine-between-10k-and-15k-sold-per-week/",
-      "title_zh": "Steam Machine：每周销量在 1.2 万至 1.5 万台之间",
-      "created_display": "Created: Jul 18, 2026 / 03:56 PT",
-      "image_url": "https://boilingsteam.com/boilingsteam_header.png",
-      "summary_en": "Steam Machine is reportedly moving 12k–15k units weekly, indicating a modest but steady demand for Valve's hardware initiative, despite tough competition in the living room and PC gaming. The numbers offer clues about hardware adoption, supply chain stability, and the broader health of the Steam ecosystem.",
-      "summary_zh": "Steam Machine 的周销量约为 1.2万至 1.5万台，显示 Valve 硬件计划在激烈的家用娱乐与 PC 游戏市场竞争中的相对稳定需求。此数据可揭示硬件采用、供应链稳健性以及 Steam 生态的整体健康状况。",
-      "hn": {
-        "id": 48956852,
-        "type": "story",
-        "by": "ekianjo",
-        "score": 65,
-        "descendants": 47,
-        "time": 1784372169,
-        "comments_url": "https://news.ycombinator.com/item?id=48956852"
-      },
-      "hot_score": 1.0,
-      "tags": [
-        "Hardware",
-        "Business",
-        "Health",
-        "Gaming"
-      ]
+      "hot_score": 0.86
     },
     {
       "title_en": "The state of open source AI",
@@ -653,7 +691,74 @@
         "AI",
         "Open Source"
       ],
-      "hot_score": 0.99
+      "hot_score": 0.81
+    },
+    {
+      "title_en": "REO Trucks I4 4WD Pickup Truck Starts at $21,500",
+      "url": "https://reotrucks.com",
+      "title_zh": "REO Trucks I4 4WD皮卡起价21,500美元",
+      "created_display": "Created: Jul 18, 2026 / 11:13 PT",
+      "image_url": "https://reotrucks.com/opengraph-image?2c37889503466c53",
+      "summary_en": "REO Trucks introduces the I4 4WD pickup with a starting price of $21,500, targeting budget-minded buyers. The entry price underscores the market’s demand for affordable, capable work trucks and could pressure incumbents to rethink value in the segment. This launch signals continued competition in the low-cost pickup space.",
+      "summary_zh": "REO Trucks 推出 I4 4WD 皮卡，起价为$21,500，瞄准预算有限的买家。这个定价凸显市场对价格友好、实用皮卡的需求，可能促使传统厂商重新思考低端价值。该产品进入低成本皮卡市场，意味着竞争将更激烈。",
+      "hn": {
+        "id": 48960607,
+        "type": "story",
+        "by": "b_mc2",
+        "score": 22,
+        "descendants": 17,
+        "time": 1784398385,
+        "comments_url": "https://news.ycombinator.com/item?id=48960607"
+      },
+      "hot_score": 0.74,
+      "tags": [
+        "Business",
+        "Hardware"
+      ]
+    },
+    {
+      "title_en": "curl can be used to send emails with SMTP",
+      "url": "https://mastodon.social/@chr1stian/116924759058231144",
+      "title_zh": "curl 现在可用于通过 SMTP 发送邮件",
+      "created_display": "Created: Jul 18, 2026 / 15:05 PT",
+      "image_url": "https://files.mastodon.social/media_attachments/files/116/924/751/602/456/833/original/c4de7a252157f53c.png",
+      "summary_en": "Curl can be used to send emails via SMTP, enabling simple, scriptable mail sending from various environments. This lowers the barrier to building lightweight automation or testing pipelines that need email notifications.",
+      "summary_zh": "curl 现已支持通过 SMTP 发送邮件，使在不同环境中进行简单、可脚本化的邮件发送成为可能，便于构建需要邮件通知的轻量化自动化与测试管线。",
+      "hn": {
+        "id": 48962922,
+        "type": "story",
+        "by": "21sys",
+        "score": 5,
+        "descendants": 0,
+        "time": 1784412337,
+        "comments_url": "https://news.ycombinator.com/item?id=48962922"
+      },
+      "hot_score": 0.74,
+      "tags": [
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "Pico W firmware creates driverless USB WiFi bridge (Layer-2)",
+      "url": "https://www.cnx-software.com/2026/07/16/pico-usb-wifi-converts-the-raspberry-pi-pico-w-into-a-driverless-usb-wifi-adapter/",
+      "title_zh": "Pico W 固件实现无驱动的USB WiFi 桥接（第2层）",
+      "created_display": "Created: Jul 18, 2026 / 14:40 PT",
+      "image_url": "https://www.cnx-software.com/wp-content/uploads/2026/07/raspberrypi-pico-usb-wifi-adapter.jpg",
+      "summary_en": "Firmware on the Pico W enables a driverless USB-to-WiFi bridge at the link-layer, turning the microcontroller into a transparent network adapter. It opens up lightweight, standalone network bridging for projects without host driver support.",
+      "summary_zh": "Pico W 的固件实现了一个基于链路层的无驱动 USB-WiFi 桥接，使微控制器成为透明的网络适配器。为没有主机驱动支持的项目提供了轻量级、独立的网络桥接方案。",
+      "hn": {
+        "id": 48962718,
+        "type": "story",
+        "by": "whiteblossom",
+        "score": 6,
+        "descendants": 0,
+        "time": 1784410823,
+        "comments_url": "https://news.ycombinator.com/item?id=48962718"
+      },
+      "hot_score": 0.7,
+      "tags": [
+        "Hardware"
+      ]
     },
     {
       "title_en": "Evidence of inconsistencies in evaluation process and selection of winners",
@@ -675,7 +780,7 @@
       "tags": [
         "Data"
       ],
-      "hot_score": 0.83
+      "hot_score": 0.69
     },
     {
       "title_en": "Kimi K3, and what we can still learn from the pelican benchmark",
@@ -695,10 +800,9 @@
         "comments_url": "https://news.ycombinator.com/item?id=48947717"
       },
       "tags": [
-        "Programming",
         "Data"
       ],
-      "hot_score": 0.82
+      "hot_score": 0.67
     },
     {
       "title_en": "Learning a few things about running SQLite",
@@ -721,7 +825,7 @@
         "Programming",
         "Data"
       ],
-      "hot_score": 0.81
+      "hot_score": 0.65
     },
     {
       "title_en": "The Zilog Z80 has turned 50",
@@ -735,39 +839,16 @@
         "id": 48951461,
         "type": "story",
         "by": "st_goliath",
-        "score": 262,
-        "descendants": 105,
+        "score": 271,
+        "descendants": 106,
         "time": 1784317262,
         "comments_url": "https://news.ycombinator.com/item?id=48951461"
       },
       "tags": [
-        "Hardware"
+        "Hardware",
+        "Culture"
       ],
-      "hot_score": 0.78
-    },
-    {
-      "title_en": "Show HN: IKEA Complexity Index",
-      "url": "https://ikea.greg.technology/",
-      "title_zh": "Show HN：IKEA 复杂度指数",
-      "created_display": "Created: Jul 17, 2026 / 20:51 PT",
-      "image_url": null,
-      "summary_en": "Show HN presenting a metric called the IKEA Complexity Index that quantifies how hard it is to assemble or understand different IKEA products. The project likely includes data visualizations and discussion of how product design affects assembly time, cost, and user experience.",
-      "summary_zh": "Show HN 展示了一个名为“ IKEA 复杂度指数 ”的度量，用于量化不同家具产品的组装难度。该项目可能包含数据可视化，并讨论设计复杂性如何影响组装时间、成本和用户体验。",
-      "hn": {
-        "id": 48955042,
-        "type": "story",
-        "by": "gregsadetsky",
-        "score": 129,
-        "descendants": 74,
-        "time": 1784346702,
-        "comments_url": "https://news.ycombinator.com/item?id=48955042"
-      },
-      "tags": [
-        "Show HN",
-        "Data",
-        "Design"
-      ],
-      "hot_score": 0.77
+      "hot_score": 0.63
     },
     {
       "title_en": "Apple targets dozens of OpenAI employees with legal letters",
@@ -791,7 +872,30 @@
         "Business",
         "AI"
       ],
-      "hot_score": 0.72
+      "hot_score": 0.6
+    },
+    {
+      "title_en": "Show HN: IKEA Complexity Index",
+      "url": "https://ikea.greg.technology/",
+      "title_zh": "Show HN：IKEA 复杂度指数",
+      "created_display": "Created: Jul 17, 2026 / 20:51 PT",
+      "image_url": null,
+      "summary_en": "Show HN presenting a metric called the IKEA Complexity Index that quantifies how hard it is to assemble or understand different IKEA products. The project likely includes data visualizations and discussion of how product design affects assembly time, cost, and user experience.",
+      "summary_zh": "Show HN 展示了一个名为“ IKEA 复杂度指数 ”的度量，用于量化不同家具产品的组装难度。该项目可能包含数据可视化，并讨论设计复杂性如何影响组装时间、成本和用户体验。",
+      "hn": {
+        "id": 48955042,
+        "type": "story",
+        "by": "gregsadetsky",
+        "score": 137,
+        "descendants": 78,
+        "time": 1784346702,
+        "comments_url": "https://news.ycombinator.com/item?id=48955042"
+      },
+      "tags": [
+        "Show HN",
+        "Data"
+      ],
+      "hot_score": 0.58
     },
     {
       "title_en": "TP-Link Kasa cameras leaked home GPS via unauthenticated UDP for 6 years",
@@ -805,8 +909,8 @@
         "id": 48952565,
         "type": "story",
         "by": "BadChemical",
-        "score": 198,
-        "descendants": 80,
+        "score": 215,
+        "descendants": 87,
         "time": 1784324563,
         "comments_url": "https://news.ycombinator.com/item?id=48952565"
       },
@@ -814,7 +918,55 @@
         "Security",
         "Privacy"
       ],
-      "hot_score": 0.68
+      "hot_score": 0.57
+    },
+    {
+      "title_en": "Steam Machine: Between 12k and 15k Units Sold per week",
+      "url": "https://boilingsteam.com/steam-machine-between-10k-and-15k-sold-per-week/",
+      "title_zh": "Steam Machine：每周销量在 1.2 万至 1.5 万台之间",
+      "created_display": "Created: Jul 18, 2026 / 03:56 PT",
+      "image_url": "https://boilingsteam.com/boilingsteam_header.png",
+      "summary_en": "Steam Machine is reportedly moving 12k–15k units weekly, indicating a modest but steady demand for Valve's hardware initiative, despite tough competition in the living room and PC gaming. The numbers offer clues about hardware adoption, supply chain stability, and the broader health of the Steam ecosystem.",
+      "summary_zh": "Steam Machine 的周销量约为 1.2万至 1.5万台，显示 Valve 硬件计划在激烈的家用娱乐与 PC 游戏市场竞争中的相对稳定需求。此数据可揭示硬件采用、供应链稳健性以及 Steam 生态的整体健康状况。",
+      "hn": {
+        "id": 48956852,
+        "type": "story",
+        "by": "ekianjo",
+        "score": 65,
+        "descendants": 47,
+        "time": 1784372169,
+        "comments_url": "https://news.ycombinator.com/item?id=48956852"
+      },
+      "hot_score": 0.57,
+      "tags": [
+        "Business",
+        "Hardware",
+        "Health",
+        "Gaming"
+      ]
+    },
+    {
+      "title_en": "Fable 5 finds major bugs in 10 year old open source game networking libraries",
+      "url": "https://www.patreon.com/MasBandwidth/posts/important-news-164199395",
+      "title_zh": "Fable 5 在十年前的开源游戏网络库中发现重大漏洞",
+      "created_display": "Created: Jul 18, 2026 / 14:40 PT",
+      "image_url": null,
+      "summary_en": "Fable 5 uncovers major bugs in decade-old open-source game networking libraries, underscoring the fragility of long-lived dependencies. The discovery prompts a reassessment of toolchains and dependency maintenance in game development.",
+      "summary_zh": "Fable 5 在十年前的开源游戏网络库中发现重大漏洞，凸显长期依赖的脆弱性。此发现促使游戏开发者重新评估工具链与依赖的维护策略。",
+      "hn": {
+        "id": 48962724,
+        "type": "story",
+        "by": "gafferongames",
+        "score": 5,
+        "descendants": 0,
+        "time": 1784410857,
+        "comments_url": "https://news.ycombinator.com/item?id=48962724"
+      },
+      "hot_score": 0.56,
+      "tags": [
+        "Open Source",
+        "Gaming"
+      ]
     },
     {
       "title_en": "Qubes OS Security in the Public Record",
@@ -828,39 +980,15 @@
         "id": 48956307,
         "type": "story",
         "by": "sciences44",
-        "score": 61,
-        "descendants": 9,
+        "score": 75,
+        "descendants": 12,
         "time": 1784364607,
         "comments_url": "https://news.ycombinator.com/item?id=48956307"
       },
       "tags": [
-        "Security",
-        "Open Source"
+        "Security"
       ],
-      "hot_score": 0.67
-    },
-    {
-      "title_en": "AI's new political donor class is outspending Big Tech's last one",
-      "url": "https://sfstandard.com/2026/07/18/ai-s-new-political-donor-class-already-outspending-big-tech-s-last-one/",
-      "title_zh": "AI 新的政治捐赠阶层已超越科技巨头上一轮捐赠",
-      "created_display": "Created: Jul 18, 2026 / 10:18 PT",
-      "image_url": "https://assets.sfstandard.com/image/994911177489/image_m7bd3l893p0pjarrhhp8fg8m1t/-S1200x630-FPNG",
-      "summary_en": "AI's new political donor class is already outspending Big Tech's last one, signaling a shift in who funds policy around AI.",
-      "summary_zh": "人工智能领域崛起的政治捐赠新阶层已超越科技巨头上一轮的捐款规模，显示对 AI 政策议程影响力的转变。",
-      "hn": {
-        "id": 48960051,
-        "type": "story",
-        "by": "roddylindsay",
-        "score": 8,
-        "descendants": 0,
-        "time": 1784395084,
-        "comments_url": "https://news.ycombinator.com/item?id=48960051"
-      },
-      "hot_score": 0.67,
-      "tags": [
-        "AI",
-        "Politics"
-      ]
+      "hot_score": 0.51
     },
     {
       "title_en": "Texas wins court order to suspend domain name for violating age-verification law",
@@ -883,52 +1011,7 @@
         "Legal",
         "Politics"
       ],
-      "hot_score": 0.64
-    },
-    {
-      "title_en": "The Fermi Paradox, Percolation, and Inbreeding",
-      "url": "https://reactormag.com/the-fermi-paradox-percolation-and-inbreeding/",
-      "title_zh": "费米悖论、渗流理论与近亲繁殖",
-      "created_display": "Created: Jul 18, 2026 / 08:38 PT",
-      "image_url": "https://reactormag.com/wp-content/uploads/2026/07/Kepler-K2-138-System.jpg",
-      "summary_en": "An interdisciplinary piece ties the Fermi Paradox to percolation theory and possible implications for genetic or societal spread, offering a fresh mathematical lens on civilization's fate.",
-      "summary_zh": "这篇跨学科文章将费米悖论与渗流理论联系起来，探讨可能影响文明命运的扩散与遗传因素，提供了新的数学视角。",
-      "hn": {
-        "id": 48959102,
-        "type": "story",
-        "by": "bryanrasmussen",
-        "score": 13,
-        "descendants": 22,
-        "time": 1784389116,
-        "comments_url": "https://news.ycombinator.com/item?id=48959102"
-      },
-      "hot_score": 0.59,
-      "tags": [
-        "Science"
-      ]
-    },
-    {
-      "title_en": "FAA lets Boeing sign off on 737 MAX, 787 airworthiness certificates again",
-      "url": "https://www.cnbc.com/2026/07/17/faa-boeing-737-max-787.html",
-      "title_zh": "FAA 再次允许波音就 737 MAX 与 787 发放适航证书",
-      "created_display": "Created: Jul 17, 2026 / 14:22 PT",
-      "image_url": "https://image.cnbcfm.com/api/v1/image/108250215-1767906239901-gettyimages-2249102626-BOEING_737_MAX.jpeg?v=1768321273&w=1920&h=1080",
-      "summary_en": "Regulatory oversight has allowed Boeing to sign off on airworthiness certificates for the 737 MAX and 787 again, signaling a normalization after extensive safety reviews. The move underscores how certification processes can rebound after high-profile scrutiny.",
-      "summary_zh": "监管机构允许波音再次就 737 MAX 和 787 发放适航证书，标志着在广泛安全审查后的规范化过程重新开始。此举凸显了在高关注度调查后，认证流程有望回归常态。",
-      "hn": {
-        "id": 48952439,
-        "type": "story",
-        "by": "hmm37",
-        "score": 171,
-        "descendants": 97,
-        "time": 1784323373,
-        "comments_url": "https://news.ycombinator.com/item?id=48952439"
-      },
-      "tags": [
-        "Business",
-        "Politics"
-      ],
-      "hot_score": 0.57
+      "hot_score": 0.48
     },
     {
       "title_en": "Three ways people respond to a problem (other than solving it)",
@@ -950,7 +1033,29 @@
       "tags": [
         "Culture"
       ],
-      "hot_score": 0.54
+      "hot_score": 0.44
+    },
+    {
+      "title_en": "FAA lets Boeing sign off on 737 MAX, 787 airworthiness certificates again",
+      "url": "https://www.cnbc.com/2026/07/17/faa-boeing-737-max-787.html",
+      "title_zh": "FAA 再次允许波音就 737 MAX 与 787 发放适航证书",
+      "created_display": "Created: Jul 17, 2026 / 14:22 PT",
+      "image_url": "https://image.cnbcfm.com/api/v1/image/108250215-1767906239901-gettyimages-2249102626-BOEING_737_MAX.jpeg?v=1768321273&w=1920&h=1080",
+      "summary_en": "Regulatory oversight has allowed Boeing to sign off on airworthiness certificates for the 737 MAX and 787 again, signaling a normalization after extensive safety reviews. The move underscores how certification processes can rebound after high-profile scrutiny.",
+      "summary_zh": "监管机构允许波音再次就 737 MAX 和 787 发放适航证书，标志着在广泛安全审查后的规范化过程重新开始。此举凸显了在高关注度调查后，认证流程有望回归常态。",
+      "hn": {
+        "id": 48952439,
+        "type": "story",
+        "by": "hmm37",
+        "score": 171,
+        "descendants": 97,
+        "time": 1784323373,
+        "comments_url": "https://news.ycombinator.com/item?id=48952439"
+      },
+      "tags": [
+        "Politics"
+      ],
+      "hot_score": 0.44
     },
     {
       "title_en": "Static search trees: 40x faster than binary search (2024)",
@@ -964,15 +1069,15 @@
         "id": 48951898,
         "type": "story",
         "by": "lalitmaganti",
-        "score": 170,
-        "descendants": 13,
+        "score": 173,
+        "descendants": 15,
         "time": 1784319895,
         "comments_url": "https://news.ycombinator.com/item?id=48951898"
       },
       "tags": [
         "Programming"
       ],
-      "hot_score": 0.53
+      "hot_score": 0.42
     },
     {
       "title_en": "Open Book Touch: open-source e-reader",
@@ -996,7 +1101,30 @@
         "Hardware",
         "Privacy"
       ],
-      "hot_score": 0.49
+      "hot_score": 0.38
+    },
+    {
+      "title_en": "Show HN: Get alerts for good seats at 70mm IMAX showings of The Odyssey",
+      "url": "https://imaxxing.io/",
+      "title_zh": "Show HN：70mm IMAX《奥德赛》场次好座位提醒工具",
+      "created_display": "Created: Jul 18, 2026 / 11:06 PT",
+      "image_url": "https://imaxxing.io/og.png",
+      "summary_en": "Show HN: Get alerts for good seats at 70mm IMAX showings of The Odyssey. A lightweight tool that watches 70mm IMAX showings for The Odyssey and notifies you when seats with good visibility become available. It demonstrates practical, user-facing automation for niche cinema-going experiences.",
+      "summary_zh": "Show HN：70mm IMAX《奥德赛》场次好座位提醒工具，透过轻量化的监控与通知，帮助用户在特定场次抢到理想座位，体现了对小众观影体验的实用自动化。",
+      "hn": {
+        "id": 48960551,
+        "type": "story",
+        "by": "andrewtorkbaker",
+        "score": 12,
+        "descendants": 6,
+        "time": 1784397983,
+        "comments_url": "https://news.ycombinator.com/item?id=48960551"
+      },
+      "hot_score": 0.37,
+      "tags": [
+        "Show HN",
+        "Entertainment"
+      ]
     },
     {
       "title_en": "I started a “dirt notebook”",
@@ -1010,16 +1138,16 @@
         "id": 48954149,
         "type": "story",
         "by": "herbertl",
-        "score": 97,
-        "descendants": 86,
+        "score": 102,
+        "descendants": 87,
         "time": 1784337133,
         "comments_url": "https://news.ycombinator.com/item?id=48954149"
       },
       "tags": [
-        "Data",
-        "Science"
+        "Science",
+        "Data"
       ],
-      "hot_score": 0.45
+      "hot_score": 0.35
     },
     {
       "title_en": "Lego building instructions through time",
@@ -1039,9 +1167,9 @@
         "comments_url": "https://news.ycombinator.com/item?id=48950518"
       },
       "tags": [
-        "Design"
+        "Education"
       ],
-      "hot_score": 0.4
+      "hot_score": 0.32
     },
     {
       "title_en": "Painting the sides of railroad rails white to reduce derailment",
@@ -1063,28 +1191,51 @@
       "tags": [
         "Science"
       ],
-      "hot_score": 0.4
+      "hot_score": 0.31
     },
     {
-      "title_en": "British runner Josh Kerr smashes 27-year-old men's mile record",
-      "url": "https://www.espn.com/olympics/story/_/id/49391430/british-runner-josh-kerr-smashes-27-year-old-men-mile-record",
-      "title_zh": "英国选手 Josh Kerr 再次打破27年纪录的男子一英里",
-      "created_display": "Created: Jul 18, 2026 / 10:46 PT",
-      "image_url": null,
-      "summary_en": "Josh Kerr follows up by smashing another 27-year mile record, further cementing his status in the sport; the coverage discusses training, conditions, and implications for British athletics.",
-      "summary_zh": "乔什·科尔再次打破27年纪录的男子一英里记录，进一步巩固其在田径界的地位。报道分析了训练、比赛条件及对英国田径的影响。",
+      "title_en": "Co-evolution of self-replication and function in a digital primordial soup",
+      "url": "https://arxiv.org/abs/2607.09211",
+      "title_zh": "数字原始汤中自我复制与功能的共同进化",
+      "created_display": "Created: Jul 18, 2026 / 14:09 PT",
+      "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "summary_en": "A study showing how self-replication and functional complexity co-evolve in a digital primordial soup, shedding light on how life-like behavior can emerge in artificial systems. The results inform both artificial life research and algorithm design.",
+      "summary_zh": "研究顯示在數字原始湯中，自我複製與功能複雜性共同進化，揭示了類生命行為如何在人工系統中出現。結論為人工生命研究與演算法設計提供新見解。",
       "hn": {
-        "id": 48960358,
+        "id": 48962429,
         "type": "story",
-        "by": "linuxfan2718",
+        "by": "vicgalle_",
+        "score": 4,
+        "descendants": 1,
+        "time": 1784408941,
+        "comments_url": "https://news.ycombinator.com/item?id=48962429"
+      },
+      "hot_score": 0.31,
+      "tags": [
+        "Science"
+      ]
+    },
+    {
+      "title_en": "Ada: An AI business intelligence software from CSV and Excel(yes LLMs but more)",
+      "url": "https://github.com/saineshnakra/automated-data-analyst",
+      "title_zh": "Ada：基于 CSV/Excel 的 AI 商业智能软件（不仅是 LLMs，还更多功能）",
+      "created_display": "Created: Jul 18, 2026 / 14:06 PT",
+      "image_url": "https://opengraph.githubassets.com/5b73cd05205a27a8ac89fd1ddb2af349a1c927dbf65e5ccf57b1da61340139b9/saineshnakra/automated-data-analyst",
+      "summary_en": "Ada offers AI-powered BI by analyzing data directly from CSV and Excel, with more capabilities than just LLMs. It aims to automate data wrangling, insights, and dashboards, helping non-data scientists derive value from spreadsheets.",
+      "summary_zh": "Ada 提供 AI 驅動的商業智能，直接從 CSV/Excel 分析數據，功能不只限於大型語言模型。它致力於自動化資料清理、洞察與儀表板，讓非資料科學家也能從表格中取得價值。",
+      "hn": {
+        "id": 48962405,
+        "type": "story",
+        "by": "saineshnakra",
         "score": 4,
         "descendants": 0,
-        "time": 1784396806,
-        "comments_url": "https://news.ycombinator.com/item?id=48960358"
+        "time": 1784408809,
+        "comments_url": "https://news.ycombinator.com/item?id=48962405"
       },
-      "hot_score": 0.37,
+      "hot_score": 0.31,
       "tags": [
-        "Culture"
+        "AI",
+        "Business"
       ]
     },
     {
@@ -1108,7 +1259,7 @@
         "Show HN",
         "Security"
       ],
-      "hot_score": 0.34
+      "hot_score": 0.28
     },
     {
       "title_en": "Topcoat: The full full-stack framework for Rust",
@@ -1129,9 +1280,9 @@
       },
       "tags": [
         "Programming",
-        "Open Source"
+        "Web"
       ],
-      "hot_score": 0.33
+      "hot_score": 0.26
     },
     {
       "title_en": "Stenchill: 3D Printable Solder Paste Stencil Generator",
@@ -1153,7 +1304,52 @@
       "tags": [
         "Hardware"
       ],
-      "hot_score": 0.33
+      "hot_score": 0.24
+    },
+    {
+      "title_en": "The Fermi Paradox, Percolation, and Inbreeding",
+      "url": "https://reactormag.com/the-fermi-paradox-percolation-and-inbreeding/",
+      "title_zh": "费米悖论、渗流理论与近亲繁殖",
+      "created_display": "Created: Jul 18, 2026 / 08:38 PT",
+      "image_url": "https://reactormag.com/wp-content/uploads/2026/07/Kepler-K2-138-System.jpg",
+      "summary_en": "An interdisciplinary piece ties the Fermi Paradox to percolation theory and possible implications for genetic or societal spread, offering a fresh mathematical lens on civilization's fate.",
+      "summary_zh": "这篇跨学科文章将费米悖论与渗流理论联系起来，探讨可能影响文明命运的扩散与遗传因素，提供了新的数学视角。",
+      "hn": {
+        "id": 48959102,
+        "type": "story",
+        "by": "bryanrasmussen",
+        "score": 13,
+        "descendants": 22,
+        "time": 1784389116,
+        "comments_url": "https://news.ycombinator.com/item?id=48959102"
+      },
+      "hot_score": 0.23,
+      "tags": [
+        "Science"
+      ]
+    },
+    {
+      "title_en": "More Bounce to the Ounce",
+      "url": "https://mceglowski.substack.com/p/more-bounce-to-the-ounce",
+      "title_zh": "More Bounce to the Ounce — Maciej Cegłowski 的回顾",
+      "created_display": "Created: Jul 17, 2026 / 06:32 PT",
+      "image_url": null,
+      "summary_en": "Maciej Cegłowski delivers a provocative take on the web’s future, privacy, and governance, challenging readers to rethink surveillance capitalism and digital resilience. The essay blends tech critique with a call to action for sustainable online ecosystems.",
+      "summary_zh": "Maciej Cegłowski 对网络未来、隐私与治理提出挑衅性观点，促使读者重新思考监控资本主义与数字韧性。文章将技术批评与对可持续网络生态的行动呼吁结合在一起。",
+      "hn": {
+        "id": 48947201,
+        "type": "story",
+        "by": "pavel_lishin",
+        "score": 132,
+        "descendants": 54,
+        "time": 1784295131,
+        "comments_url": "https://news.ycombinator.com/item?id=48947201"
+      },
+      "tags": [
+        "Privacy",
+        "Politics"
+      ],
+      "hot_score": 0.22
     },
     {
       "title_en": "Show HN: A zoomable timeline of 4M Wikipedia events",
@@ -1176,7 +1372,7 @@
         "Show HN",
         "Data"
       ],
-      "hot_score": 0.28
+      "hot_score": 0.22
     },
     {
       "title_en": "The Isomorphic Labs Drug Design Engine unlocks a new frontier beyond AlphaFold",
@@ -1197,32 +1393,33 @@
       },
       "tags": [
         "AI",
+        "Health",
         "Science"
       ],
-      "hot_score": 0.27
+      "hot_score": 0.21
     },
     {
-      "title_en": "More Bounce to the Ounce",
-      "url": "https://mceglowski.substack.com/p/more-bounce-to-the-ounce",
-      "title_zh": "More Bounce to the Ounce — Maciej Cegłowski 的回顾",
-      "created_display": "Created: Jul 17, 2026 / 06:32 PT",
-      "image_url": null,
-      "summary_en": "Maciej Cegłowski delivers a provocative take on the web’s future, privacy, and governance, challenging readers to rethink surveillance capitalism and digital resilience. The essay blends tech critique with a call to action for sustainable online ecosystems.",
-      "summary_zh": "Maciej Cegłowski 对网络未来、隐私与治理提出挑衅性观点，促使读者重新思考监控资本主义与数字韧性。文章将技术批评与对可持续网络生态的行动呼吁结合在一起。",
+      "title_en": "AI's new political donor class is outspending Big Tech's last one",
+      "url": "https://sfstandard.com/2026/07/18/ai-s-new-political-donor-class-already-outspending-big-tech-s-last-one/",
+      "title_zh": "AI 新的政治捐赠阶层已超越科技巨头上一轮捐赠",
+      "created_display": "Created: Jul 18, 2026 / 10:18 PT",
+      "image_url": "https://assets.sfstandard.com/image/994911177489/image_m7bd3l893p0pjarrhhp8fg8m1t/-S1200x630-FPNG",
+      "summary_en": "AI's new political donor class is already outspending Big Tech's last one, signaling a shift in who funds policy around AI.",
+      "summary_zh": "人工智能领域崛起的政治捐赠新阶层已超越科技巨头上一轮的捐款规模，显示对 AI 政策议程影响力的转变。",
       "hn": {
-        "id": 48947201,
+        "id": 48960051,
         "type": "story",
-        "by": "pavel_lishin",
-        "score": 132,
-        "descendants": 54,
-        "time": 1784295131,
-        "comments_url": "https://news.ycombinator.com/item?id=48947201"
+        "by": "roddylindsay",
+        "score": 8,
+        "descendants": 0,
+        "time": 1784395084,
+        "comments_url": "https://news.ycombinator.com/item?id=48960051"
       },
+      "hot_score": 0.19,
       "tags": [
-        "Privacy",
-        "Culture"
-      ],
-      "hot_score": 0.26
+        "AI",
+        "Politics"
+      ]
     },
     {
       "title_en": "Moonstone: Modern, cross-platform Lua runtime and package manager written in Zig",
@@ -1243,34 +1440,9 @@
       },
       "tags": [
         "Programming",
-        "Open Source",
         "Startups"
       ],
-      "hot_score": 0.23
-    },
-    {
-      "title_en": "LG ThinQ Terms of Use",
-      "url": "https://news.ycombinator.com/item?id=48958273",
-      "title_zh": "LG ThinQ 使用条款",
-      "created_display": "Created: Jul 18, 2026 / 07:04 PT",
-      "image_url": "https://news.ycombinator.com/y18.svg",
-      "summary_en": "LG ThinQ's terms outline data collection and processing, device interoperability, and user privacy expectations for AI-enabled devices. The terms trigger broader debates about IoT data governance and regional consent.",
-      "summary_zh": "LG ThinQ 使用条款列出数据收集与处理、设备互操作性以及用户隐私等方面的要求，凸显物联网数据治理与区域性同意等更广泛议题。",
-      "hn": {
-        "id": 48958273,
-        "type": "story",
-        "by": "tedggh",
-        "score": 8,
-        "descendants": 3,
-        "time": 1784383495,
-        "comments_url": "https://news.ycombinator.com/item?id=48958273"
-      },
-      "hot_score": 0.22,
-      "tags": [
-        "Privacy",
-        "Data",
-        "AI"
-      ]
+      "hot_score": 0.17
     },
     {
       "title_en": "AI Meets Cryptography 2: What AI Found in OpenVM's ZkVM",
@@ -1293,7 +1465,7 @@
         "AI",
         "Security"
       ],
-      "hot_score": 0.19
+      "hot_score": 0.16
     },
     {
       "title_en": "Workspaces – Explore the workspaces of modern creators",
@@ -1313,10 +1485,9 @@
         "comments_url": "https://news.ycombinator.com/item?id=48948693"
       },
       "tags": [
-        "Design",
-        "Culture"
+        "Design"
       ],
-      "hot_score": 0.19
+      "hot_score": 0.16
     },
     {
       "title_en": "Homomorphically encrypted CIFAR-10 inference in 200ms",
@@ -1337,10 +1508,32 @@
       },
       "tags": [
         "AI",
-        "Security",
-        "Privacy"
+        "Privacy",
+        "Security"
       ],
-      "hot_score": 0.18
+      "hot_score": 0.14
+    },
+    {
+      "title_en": "Tech note: making your own V-I plots at home",
+      "url": "https://lcamtuf.substack.com/p/tech-note-making-your-own-v-i-plots",
+      "title_zh": "技术笔记：在家制作 V-I 曲线图",
+      "created_display": "Created: Jul 17, 2026 / 13:10 PT",
+      "image_url": null,
+      "summary_en": "A practical guide showing how to assemble a DIY setup to generate current-voltage plots. It covers measurement basics, plotting strategies, and how to interpret data, while noting limits around accuracy and safety.",
+      "summary_zh": "提供在家搭建的实用方法，用来生成电流-电压（V-I）曲线。内容涵盖测量基础、绘制策略与数据解读，同时强调精度与安全性的局限。",
+      "hn": {
+        "id": 48951756,
+        "type": "story",
+        "by": "zdw",
+        "score": 56,
+        "descendants": 8,
+        "time": 1784319002,
+        "comments_url": "https://news.ycombinator.com/item?id=48951756"
+      },
+      "tags": [
+        "Hardware"
+      ],
+      "hot_score": 0.13
     },
     {
       "title_en": "Designing emoji for the way we communicate today",
@@ -1360,33 +1553,55 @@
         "comments_url": "https://news.ycombinator.com/item?id=48949184"
       },
       "tags": [
-        "Design",
-        "Culture"
+        "Design"
       ],
-      "hot_score": 0.15
+      "hot_score": 0.12
     },
     {
-      "title_en": "Tech note: making your own V-I plots at home",
-      "url": "https://lcamtuf.substack.com/p/tech-note-making-your-own-v-i-plots",
-      "title_zh": "技术笔记：在家制作 V-I 曲线图",
-      "created_display": "Created: Jul 17, 2026 / 13:10 PT",
-      "image_url": null,
-      "summary_en": "A practical guide showing how to assemble a DIY setup to generate current-voltage plots. It covers measurement basics, plotting strategies, and how to interpret data, while noting limits around accuracy and safety.",
-      "summary_zh": "提供在家搭建的实用方法，用来生成电流-电压（V-I）曲线。内容涵盖测量基础、绘制策略与数据解读，同时强调精度与安全性的局限。",
+      "title_en": "LG ThinQ Terms of Use",
+      "url": "https://news.ycombinator.com/item?id=48958273",
+      "title_zh": "LG ThinQ 使用条款",
+      "created_display": "Created: Jul 18, 2026 / 07:04 PT",
+      "image_url": "https://news.ycombinator.com/y18.svg",
+      "summary_en": "LG ThinQ's terms outline data collection and processing, device interoperability, and user privacy expectations for AI-enabled devices. The terms trigger broader debates about IoT data governance and regional consent.",
+      "summary_zh": "LG ThinQ 使用条款列出数据收集与处理、设备互操作性以及用户隐私等方面的要求，凸显物联网数据治理与区域性同意等更广泛议题。",
       "hn": {
-        "id": 48951756,
+        "id": 48958273,
         "type": "story",
-        "by": "zdw",
-        "score": 44,
-        "descendants": 6,
-        "time": 1784319002,
-        "comments_url": "https://news.ycombinator.com/item?id=48951756"
+        "by": "tedggh",
+        "score": 8,
+        "descendants": 3,
+        "time": 1784383495,
+        "comments_url": "https://news.ycombinator.com/item?id=48958273"
       },
+      "hot_score": 0.1,
       "tags": [
-        "Hardware",
-        "Education"
-      ],
-      "hot_score": 0.13
+        "Privacy",
+        "Politics",
+        "AI"
+      ]
+    },
+    {
+      "title_en": "British runner Josh Kerr smashes 27-year-old men's mile record",
+      "url": "https://www.espn.com/olympics/story/_/id/49391430/british-runner-josh-kerr-smashes-27-year-old-men-mile-record",
+      "title_zh": "英国选手 Josh Kerr 再次打破27年纪录的男子一英里",
+      "created_display": "Created: Jul 18, 2026 / 10:46 PT",
+      "image_url": null,
+      "summary_en": "Josh Kerr follows up by smashing another 27-year mile record, further cementing his status in the sport; the coverage discusses training, conditions, and implications for British athletics.",
+      "summary_zh": "乔什·科尔再次打破27年纪录的男子一英里记录，进一步巩固其在田径界的地位。报道分析了训练、比赛条件及对英国田径的影响。",
+      "hn": {
+        "id": 48960358,
+        "type": "story",
+        "by": "linuxfan2718",
+        "score": 4,
+        "descendants": 0,
+        "time": 1784396806,
+        "comments_url": "https://news.ycombinator.com/item?id=48960358"
+      },
+      "hot_score": 0.09,
+      "tags": [
+        "Culture"
+      ]
     },
     {
       "title_en": "In-toto: A framework to secure the integrity of software supply chains",
@@ -1400,8 +1615,8 @@
         "id": 48942603,
         "type": "story",
         "by": "Erenay09",
-        "score": 55,
-        "descendants": 12,
+        "score": 59,
+        "descendants": 13,
         "time": 1784253638,
         "comments_url": "https://news.ycombinator.com/item?id=48942603"
       },
@@ -1410,6 +1625,51 @@
         "DevOps"
       ],
       "hot_score": 0.06
+    },
+    {
+      "title_en": "Reviving a 15-year-old netbook with Arch Linux",
+      "url": "https://parksb.github.io/en/article/41.html",
+      "title_zh": "用 Arch Linux 复活一台 15 年的上网本",
+      "created_display": "Created: Jul 14, 2026 / 07:02 PT",
+      "image_url": "https://og-image.parksb.vercel.app/api/parksb-github-io?title=Reviving%20a%2015-year-old%20netbook%20with%20Arch%20Linux&subtitle=Arch%20Linux%2032%20on%20an%20Eee%20PC%201000HE&date=2026-07-04",
+      "summary_en": "A 15-year-old netbook gets a new lease on life by installing Arch Linux, illustrating how lightweight Linux setups can revive aging hardware.",
+      "summary_zh": "一台15年的上网本通过安装 Arch Linux 获得新生，展示了轻量级 Linux 发行版如何让老旧硬件继续使用。文中介绍了使用轻量窗口管理器、电源优化和软件选择等实用调整，使设备保持可用。",
+      "hn": {
+        "id": 48907063,
+        "type": "story",
+        "by": "parksb",
+        "score": 208,
+        "descendants": 149,
+        "time": 1784037756,
+        "comments_url": "https://news.ycombinator.com/item?id=48907063"
+      },
+      "tags": [
+        "Programming",
+        "Hardware"
+      ],
+      "hot_score": 0.05
+    },
+    {
+      "title_en": "Is this the end of the once-mighty GoPro?",
+      "url": "https://amateurphotographer.com/latest/photo-news/going-going-gone-is-this-the-end-of-the-once-mighty-gopro/",
+      "title_zh": "昔日强势的 GoPro 会走向尽头吗？",
+      "created_display": "Created: Jul 14, 2026 / 20:46 PT",
+      "image_url": "https://amateurphotographer.com/wp-content/uploads/sites/7/2025/02/GoPro-HERO-2.jpg",
+      "summary_en": "GoPro faces an uncertain future as action-camera demand wanes and smartphones erode its moat. The piece considers whether the company can reinvent through services, software, or new business models to stay relevant.",
+      "summary_zh": "随着行动相机需求下降、智能手机分流，GoPro 的前景变得不确定。文章讨论公司是否能通过服务化、软件或新商业模式来重新定位并保持竞争力。",
+      "hn": {
+        "id": 48916044,
+        "type": "story",
+        "by": "aanet",
+        "score": 173,
+        "descendants": 348,
+        "time": 1784087195,
+        "comments_url": "https://news.ycombinator.com/item?id=48916044"
+      },
+      "tags": [
+        "Business"
+      ],
+      "hot_score": 0.05
     },
     {
       "title_en": "Claude Code(Fable) refused my slow down instruction",
@@ -1428,56 +1688,11 @@
         "time": 1784331596,
         "comments_url": "https://news.ycombinator.com/item?id=48953519"
       },
-      "hot_score": 0.06,
+      "hot_score": 0.05,
       "tags": [
         "AI",
         "Security"
       ]
-    },
-    {
-      "title_en": "Reviving a 15-year-old netbook with Arch Linux",
-      "url": "https://parksb.github.io/en/article/41.html",
-      "title_zh": "用 Arch Linux 复活一台 15 年的上网本",
-      "created_display": "Created: Jul 14, 2026 / 07:02 PT",
-      "image_url": "https://og-image.parksb.vercel.app/api/parksb-github-io?title=Reviving%20a%2015-year-old%20netbook%20with%20Arch%20Linux&subtitle=Arch%20Linux%2032%20on%20an%20Eee%20PC%201000HE&date=2026-07-04",
-      "summary_en": "A 15-year-old netbook gets a new lease on life by installing Arch Linux, illustrating how lightweight Linux setups can revive aging hardware.",
-      "summary_zh": "一台15年的上网本通过安装 Arch Linux 获得新生，展示了轻量级 Linux 发行版如何让老旧硬件继续使用。文中介绍了使用轻量窗口管理器、电源优化和软件选择等实用调整，使设备保持可用。",
-      "hn": {
-        "id": 48907063,
-        "type": "story",
-        "by": "parksb",
-        "score": 197,
-        "descendants": 134,
-        "time": 1784037756,
-        "comments_url": "https://news.ycombinator.com/item?id=48907063"
-      },
-      "tags": [
-        "Open Source",
-        "Hardware"
-      ],
-      "hot_score": 0.05
-    },
-    {
-      "title_en": "Is this the end of the once-mighty GoPro?",
-      "url": "https://amateurphotographer.com/latest/photo-news/going-going-gone-is-this-the-end-of-the-once-mighty-gopro/",
-      "title_zh": "昔日强势的 GoPro 会走向尽头吗？",
-      "created_display": "Created: Jul 14, 2026 / 20:46 PT",
-      "image_url": "https://amateurphotographer.com/wp-content/uploads/sites/7/2025/02/GoPro-HERO-2.jpg",
-      "summary_en": "GoPro faces an uncertain future as action-camera demand wanes and smartphones erode its moat. The piece considers whether the company can reinvent through services, software, or new business models to stay relevant.",
-      "summary_zh": "随着行动相机需求下降、智能手机分流，GoPro 的前景变得不确定。文章讨论公司是否能通过服务化、软件或新商业模式来重新定位并保持竞争力。",
-      "hn": {
-        "id": 48916044,
-        "type": "story",
-        "by": "aanet",
-        "score": 138,
-        "descendants": 226,
-        "time": 1784087195,
-        "comments_url": "https://news.ycombinator.com/item?id=48916044"
-      },
-      "tags": [
-        "Business"
-      ],
-      "hot_score": 0.04
     },
     {
       "title_en": "Battery packs: Let's talk about crates, baby",
@@ -1521,8 +1736,8 @@
         "comments_url": "https://news.ycombinator.com/item?id=48896149"
       },
       "tags": [
+        "AI",
         "Open Source",
-        "Culture",
         "Education"
       ],
       "hot_score": 0.03
@@ -1545,34 +1760,58 @@
         "comments_url": "https://news.ycombinator.com/item?id=48899847"
       },
       "tags": [
-        "Open Source",
+        "Programming",
         "Web",
         "Data"
       ],
       "hot_score": 0.03
     },
     {
-      "title_en": "Camera Chase Vehicle",
-      "url": "https://transistor-man.com/gimbal_camera_rover.html",
-      "title_zh": "Camera Chase Vehicle",
-      "created_display": "Created: Jul 09, 2026 / 19:17 PT",
-      "image_url": "https://transistor-man.com/PhotoSet/header/01.jpg",
-      "summary_en": "A hardware concept featuring a gimbal-enabled rover-like device designed to chase or follow subjects for filming or robotics experiments, outlining hardware specs, control software, and potential use cases.",
-      "summary_zh": "介绍一个配备云台的追踪式摄像设备的硬件概念，类似于能追随目标的轮式探测载具，涵盖硬件规格、控制软件与潜在应用场景。",
+      "title_en": "Speech Recognition and TTS in less than 500kb",
+      "url": "https://github.com/moonshine-ai/moonshine/tree/main/micro",
+      "title_zh": "不到500KB的語音識別與文字轉語音",
+      "created_display": "Created: Jul 14, 2026 / 12:25 PT",
+      "image_url": "https://repository-images.githubusercontent.com/867866058/0fd49719-61f4-4a3d-bb6f-eda467526a0c",
+      "summary_en": "Ultra-low-footprint speech recognition and TTS can run in under 500KB, enabling offline voice interfaces on microcontrollers and other constrained devices. The project highlights design choices that trade off accuracy for size, with potential uses in privacy-preserving, edge AI.",
+      "summary_zh": "極低資源的語音識別與文字轉語音能在不足500KB內運行，使微控制器和受限設備具備離線語音輸入/輸出能力。該項目展示了為了縮小尺寸而進行的設計取捨，對注重隱私的邊緣AI場景尤具吸引力。",
       "hn": {
-        "id": 48854988,
+        "id": 48911793,
         "type": "story",
-        "by": "geerlingguy",
-        "score": 236,
-        "descendants": 22,
-        "time": 1783649875,
-        "comments_url": "https://news.ycombinator.com/item?id=48854988"
+        "by": "petewarden",
+        "score": 138,
+        "descendants": 17,
+        "time": 1784057110,
+        "comments_url": "https://news.ycombinator.com/item?id=48911793"
+      },
+      "hot_score": 0.03,
+      "tags": [
+        "AI",
+        "Hardware",
+        "Privacy"
+      ]
+    },
+    {
+      "title_en": "GTX 1080s: Testing a Legend",
+      "url": "https://www.lttlabs.com/articles/2026/07/15/gtx-1080s-revisiting-legends",
+      "title_zh": "GTX 1080 系列：再探传说",
+      "created_display": "Created: Jul 15, 2026 / 13:25 PT",
+      "image_url": "https://storage.ghost.io/c/68/2d/682dc4d0-6daf-426a-b3d4-9f443976d0d8/content/images/2026/07/GPU-Photo-Template---April-18--2025-at-10.58.28-5-Back-of-the-card--Board-Design---1-.png",
+      "summary_en": "Linus Tech Tips revisits GTX 1080 GPUs to see how they perform years later, offering perspective on value in vintage GPUs for retro builds or budget upgrades. The test highlights aging hardware realities and how drivers and games handle older architectures.",
+      "summary_zh": "Linus Tech Tips 重新评测 GTX 1080 系列显卡，看看多年后的表现如何，为复古装机或预算升级提供参考。评测揭示硬件老化现实，以及驱动与游戏对旧架构的兼容性。",
+      "hn": {
+        "id": 48926594,
+        "type": "story",
+        "by": "LabsLucas",
+        "score": 77,
+        "descendants": 34,
+        "time": 1784147141,
+        "comments_url": "https://news.ycombinator.com/item?id=48926594"
       },
       "tags": [
         "Hardware",
-        "Programming"
+        "Gaming"
       ],
-      "hot_score": 0.02
+      "hot_score": 0.03
     },
     {
       "title_en": "Latent Space as a New Medium",
@@ -1639,31 +1878,10 @@
         "comments_url": "https://news.ycombinator.com/item?id=48917755"
       },
       "tags": [
-        "Programming"
+        "Programming",
+        "AI"
       ],
       "hot_score": 0.02
-    },
-    {
-      "title_en": "GTX 1080s: Testing a Legend",
-      "url": "https://www.lttlabs.com/articles/2026/07/15/gtx-1080s-revisiting-legends",
-      "title_zh": "GTX 1080 系列：再探传说",
-      "created_display": "Created: Jul 15, 2026 / 13:25 PT",
-      "image_url": "https://storage.ghost.io/c/68/2d/682dc4d0-6daf-426a-b3d4-9f443976d0d8/content/images/2026/07/GPU-Photo-Template---April-18--2025-at-10.58.28-5-Back-of-the-card--Board-Design---1-.png",
-      "summary_en": "Linus Tech Tips revisits GTX 1080 GPUs to see how they perform years later, offering perspective on value in vintage GPUs for retro builds or budget upgrades. The test highlights aging hardware realities and how drivers and games handle older architectures.",
-      "summary_zh": "Linus Tech Tips 重新评测 GTX 1080 系列显卡，看看多年后的表现如何，为复古装机或预算升级提供参考。评测揭示硬件老化现实，以及驱动与游戏对旧架构的兼容性。",
-      "hn": {
-        "id": 48926594,
-        "type": "story",
-        "by": "LabsLucas",
-        "score": 48,
-        "descendants": 15,
-        "time": 1784147141,
-        "comments_url": "https://news.ycombinator.com/item?id=48926594"
-      },
-      "hot_score": 0.02,
-      "tags": [
-        "Hardware"
-      ]
     },
     {
       "title_en": "Funny item co-occurrences in 3.2M Instacart orders",
@@ -1688,26 +1906,26 @@
       "hot_score": 0.02
     },
     {
-      "title_en": "ASCII Art",
-      "url": "https://github.com/doctorfree/Asciiville",
-      "title_zh": "ASCII 艺术",
-      "created_display": "Created: Jul 17, 2026 / 20:17 PT",
-      "image_url": "https://opengraph.githubassets.com/512053ce7b36ccbe5c472040e46ea4095c4664e5e13f2ffa7221ae044039d742/doctorfree/Asciiville",
-      "summary_en": "Explores ASCII art as a playful intersection of code and art, perhaps showing tooling or techniques to render images as ASCII.",
-      "summary_zh": "探讨 ASCII 艺术作为代码与艺术的趣味交汇，可能展示将图像转化为 ASCII 的工具与技巧。文章强调简简单单的文本艺术也能传达创意，激发开发者的创造力。",
+      "title_en": "Camera Chase Vehicle",
+      "url": "https://transistor-man.com/gimbal_camera_rover.html",
+      "title_zh": "Camera Chase Vehicle",
+      "created_display": "Created: Jul 09, 2026 / 19:17 PT",
+      "image_url": "https://transistor-man.com/PhotoSet/header/01.jpg",
+      "summary_en": "A hardware concept featuring a gimbal-enabled rover-like device designed to chase or follow subjects for filming or robotics experiments, outlining hardware specs, control software, and potential use cases.",
+      "summary_zh": "介绍一个配备云台的追踪式摄像设备的硬件概念，类似于能追随目标的轮式探测载具，涵盖硬件规格、控制软件与潜在应用场景。",
       "hn": {
-        "id": 48954859,
+        "id": 48854988,
         "type": "story",
-        "by": "audreyfei",
-        "score": 4,
-        "descendants": 0,
-        "time": 1784344620,
-        "comments_url": "https://news.ycombinator.com/item?id=48954859"
+        "by": "geerlingguy",
+        "score": 236,
+        "descendants": 22,
+        "time": 1783649875,
+        "comments_url": "https://news.ycombinator.com/item?id=48854988"
       },
-      "hot_score": 0.02,
       "tags": [
-        "Culture"
-      ]
+        "Hardware"
+      ],
+      "hot_score": 0.01
     },
     {
       "title_en": "Frank Lloyd Wright’s first home",
@@ -1727,8 +1945,7 @@
         "comments_url": "https://news.ycombinator.com/item?id=48887102"
       },
       "tags": [
-        "Design",
-        "Culture"
+        "Design"
       ],
       "hot_score": 0.01
     },
@@ -1773,10 +1990,55 @@
         "comments_url": "https://news.ycombinator.com/item?id=48906171"
       },
       "tags": [
-        "Web",
-        "Open Source"
+        "Web"
       ],
       "hot_score": 0.01
+    },
+    {
+      "title_en": "A Second-Grade Teacher Revived a Beloved Video Game",
+      "url": "https://www.nytimes.com/2026/07/13/style/backyard-baseball-video-game-teacher.html",
+      "title_zh": "一位二年级教师让一款备受喜爱的电子游戏重生",
+      "created_display": "Created: Jul 13, 2026 / 10:13 PT",
+      "image_url": null,
+      "summary_en": "A second-grade teacher revived a beloved video game in class, blending nostalgia with learning. The story shows how classic games can engage students and spark curiosity about technology, illustrating education’s timeless appeal.",
+      "summary_zh": "一位二年级教师在课堂中重新引入一款深受喜爱的电子游戏，将怀旧与学习结合起来。此举显示经典游戏在教育中的吸引力以及激发对科技兴趣的潜力。",
+      "hn": {
+        "id": 48895763,
+        "type": "story",
+        "by": "danso",
+        "score": 61,
+        "descendants": 23,
+        "time": 1783962802,
+        "comments_url": "https://news.ycombinator.com/item?id=48895763"
+      },
+      "tags": [
+        "Education",
+        "Gaming"
+      ],
+      "hot_score": 0.01
+    },
+    {
+      "title_en": "I'm Making Strandfall, a Solarpunk Orienteering Larp",
+      "url": "https://mssv.net/2026/04/29/im-making-strandfall-a-solarpunk-orienteering-larp/",
+      "title_zh": "我在制作 Strandfall：一場太陽能朋克定向尋路 LARP",
+      "created_display": "Created: Jul 13, 2026 / 06:00 PT",
+      "image_url": "https://i0.wp.com/mssv.net/wp-content/uploads/2026/04/assembled-no-case.webp?fit=1200%2C900&ssl=1",
+      "summary_en": "Detail on Strandfall, a solarpunk-themed orienteering LARP in development. It leverages maps, navigation challenges, and eco-conscious aesthetics to prototype a participatory storytelling experience.",
+      "summary_zh": "介紹正在開發中的 Strandfall，一場太陽能朋克題材的定向尋路角色扮演活動。它藉由地圖、導航挑戰與環保美學，試圖原型化一種參與式的敘事體驗。",
+      "hn": {
+        "id": 48892021,
+        "type": "story",
+        "by": "surprisetalk",
+        "score": 58,
+        "descendants": 13,
+        "time": 1783947635,
+        "comments_url": "https://news.ycombinator.com/item?id=48892021"
+      },
+      "hot_score": 0.01,
+      "tags": [
+        "Culture",
+        "Entertainment"
+      ]
     },
     {
       "title_en": "Waldi: A quiet place to write, and to be read",
@@ -1790,13 +2052,13 @@
         "id": 48880258,
         "type": "story",
         "by": "waaldev",
-        "score": 54,
-        "descendants": 26,
+        "score": 58,
+        "descendants": 30,
         "time": 1783855606,
         "comments_url": "https://news.ycombinator.com/item?id=48880258"
       },
       "tags": [
-        "Design"
+        "Programming"
       ],
       "hot_score": 0.01
     },
@@ -1824,29 +2086,6 @@
       "hot_score": 0.01
     },
     {
-      "title_en": "A Second-Grade Teacher Revived a Beloved Video Game",
-      "url": "https://www.nytimes.com/2026/07/13/style/backyard-baseball-video-game-teacher.html",
-      "title_zh": "一位二年级教师让一款备受喜爱的电子游戏重生",
-      "created_display": "Created: Jul 13, 2026 / 10:13 PT",
-      "image_url": null,
-      "summary_en": "A second-grade teacher revived a beloved video game in class, blending nostalgia with learning. The story shows how classic games can engage students and spark curiosity about technology, illustrating education’s timeless appeal.",
-      "summary_zh": "一位二年级教师在课堂中重新引入一款深受喜爱的电子游戏，将怀旧与学习结合起来。此举显示经典游戏在教育中的吸引力以及激发对科技兴趣的潜力。",
-      "hn": {
-        "id": 48895763,
-        "type": "story",
-        "by": "danso",
-        "score": 38,
-        "descendants": 14,
-        "time": 1783962802,
-        "comments_url": "https://news.ycombinator.com/item?id=48895763"
-      },
-      "hot_score": 0.01,
-      "tags": [
-        "Education",
-        "Gaming"
-      ]
-    },
-    {
       "title_en": "Revisiting Yliluoma's ordered dither algorithm",
       "url": "https://30fps.net/pages/revisiting-yliluoma-2/",
       "title_zh": "重新审视 Yliluoma 的有序抖动算法",
@@ -1858,7 +2097,7 @@
         "id": 48893081,
         "type": "story",
         "by": "ibobev",
-        "score": 32,
+        "score": 37,
         "descendants": 8,
         "time": 1783952114,
         "comments_url": "https://news.ycombinator.com/item?id=48893081"
@@ -1867,6 +2106,75 @@
         "Programming"
       ],
       "hot_score": 0.01
+    },
+    {
+      "title_en": "Show HN: Rejourney – Open-source revenue leak prediction for web and mobile apps",
+      "url": "https://github.com/rejourneyco/rejourney",
+      "title_zh": "Show HN: Rejourney 開源的網頁/移動應用營收流失預測工具",
+      "created_display": "Created: Jul 14, 2026 / 04:06 PT",
+      "image_url": "https://opengraph.githubassets.com/8762fd4148d1fbc0025b442a70815fed807b5486021f88c429ede7ccc8477348/rejourneyco/rejourney",
+      "summary_en": "Rejourney is an open-source tool that predicts revenue leakage for web and mobile apps, helping teams pinpoint where money slips away in funnels. Its open-source nature invites community contributions and rapid iteration on monetization models.",
+      "summary_zh": "Rejourney 是一個開源工具，用於預測網頁與行動應用的營收流失，協助團隊找出漏失收入的環節。其開源特性促使社群貢獻與快速迭代在變現模型上的改進。",
+      "hn": {
+        "id": 48904912,
+        "type": "story",
+        "by": "mrr7337",
+        "score": 32,
+        "descendants": 6,
+        "time": 1784027169,
+        "comments_url": "https://news.ycombinator.com/item?id=48904912"
+      },
+      "hot_score": 0.01,
+      "tags": [
+        "Show HN",
+        "Open Source",
+        "Business"
+      ]
+    },
+    {
+      "title_en": "ASCII Art",
+      "url": "https://github.com/doctorfree/Asciiville",
+      "title_zh": "ASCII 艺术",
+      "created_display": "Created: Jul 17, 2026 / 20:17 PT",
+      "image_url": "https://opengraph.githubassets.com/512053ce7b36ccbe5c472040e46ea4095c4664e5e13f2ffa7221ae044039d742/doctorfree/Asciiville",
+      "summary_en": "Explores ASCII art as a playful intersection of code and art, perhaps showing tooling or techniques to render images as ASCII.",
+      "summary_zh": "探讨 ASCII 艺术作为代码与艺术的趣味交汇，可能展示将图像转化为 ASCII 的工具与技巧。文章强调简简单单的文本艺术也能传达创意，激发开发者的创造力。",
+      "hn": {
+        "id": 48954859,
+        "type": "story",
+        "by": "audreyfei",
+        "score": 4,
+        "descendants": 0,
+        "time": 1784344620,
+        "comments_url": "https://news.ycombinator.com/item?id=48954859"
+      },
+      "hot_score": 0.01,
+      "tags": [
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "How GitHub gave every repository a durable owner",
+      "url": "https://github.blog/security/application-security/how-github-gave-every-repository-a-durable-owner/",
+      "title_zh": "GitHub 如何为每个仓库确立长期所有者",
+      "created_display": "Created: Jul 09, 2026 / 13:47 PT",
+      "image_url": "https://github.blog/wp-content/uploads/2026/01/generic-github-invertocat-mona-logo.png",
+      "summary_en": "GitHub introduced a durable owner model to ensure repositories always have a reliable owner, even as teams reorganize. The change improves security and governance by preventing ownership drift and orphaned repositories.",
+      "summary_zh": "GitHub 引入一种确保每个仓库始终拥有稳定所有者的机制，即使团队重组也不易丢失所有权。此举通过防止所有权漂移和仓库无人接管来提升安全性与治理水平。",
+      "hn": {
+        "id": 48852151,
+        "type": "story",
+        "by": "ascertain",
+        "score": 60,
+        "descendants": 19,
+        "time": 1783630029,
+        "comments_url": "https://news.ycombinator.com/item?id=48852151"
+      },
+      "tags": [
+        "Security",
+        "Programming"
+      ],
+      "hot_score": 0.0
     },
     {
       "title_en": "Shipping OpenStrike: A Counter-Strike-Shaped FPS on a 2004 Handheld",
@@ -1887,31 +2195,8 @@
       },
       "hot_score": 0.0,
       "tags": [
-        "Gaming",
-        "Hardware"
-      ]
-    },
-    {
-      "title_en": "How GitHub gave every repository a durable owner",
-      "url": "https://github.blog/security/application-security/how-github-gave-every-repository-a-durable-owner/",
-      "title_zh": "GitHub 如何为每个仓库确立长期所有者",
-      "created_display": "Created: Jul 09, 2026 / 13:47 PT",
-      "image_url": "https://github.blog/wp-content/uploads/2026/01/generic-github-invertocat-mona-logo.png",
-      "summary_en": "GitHub introduced a durable owner model to ensure repositories always have a reliable owner, even as teams reorganize. The change improves security and governance by preventing ownership drift and orphaned repositories.",
-      "summary_zh": "GitHub 引入一种确保每个仓库始终拥有稳定所有者的机制，即使团队重组也不易丢失所有权。此举通过防止所有权漂移和仓库无人接管来提升安全性与治理水平。",
-      "hn": {
-        "id": 48852151,
-        "type": "story",
-        "by": "ascertain",
-        "score": 32,
-        "descendants": 5,
-        "time": 1783630029,
-        "comments_url": "https://news.ycombinator.com/item?id=48852151"
-      },
-      "hot_score": 0.0,
-      "tags": [
-        "Security",
-        "Programming"
+        "Hardware",
+        "Gaming"
       ]
     },
     {
@@ -1955,7 +2240,30 @@
       },
       "hot_score": 0.0,
       "tags": [
-        "Science"
+        "Education"
+      ]
+    },
+    {
+      "title_en": "From Sawdust to Paw Patrol: The Spin Master Story (With Ronnen Harary) [audio]",
+      "url": "https://www.econtalk.org/from-sawdust-to-paw-patrol-the-spin-master-story-with-ronnen-harary/",
+      "title_zh": "从木屑到汪汪队：Spin Master 的故事（对谈 Ronnen Harary）",
+      "created_display": "Created: Jul 14, 2026 / 20:35 PT",
+      "image_url": "https://www.econlib.org/wp-content/uploads/2026/07/ThumbsUpBuildingBlocks_Depositphotos_248916610_S.jpg",
+      "summary_en": "A podcast recounts Spin Master’s rise from humble beginnings to a global toy powerhouse, with insights from co-founder Ronnen Harary. It covers entrepreneurship, product development, licensing, and the toy industry’s dynamics.",
+      "summary_zh": "播客回顾 Spin Master 從樹屑起家成為全球玩具巨頭的旅程，主持人與共同創辦人 Ronnen Harary 分享創業、產品開發、授權與玩具產業的運作動態。",
+      "hn": {
+        "id": 48915977,
+        "type": "story",
+        "by": "mooreds",
+        "score": 3,
+        "descendants": 0,
+        "time": 1784086544,
+        "comments_url": "https://news.ycombinator.com/item?id=48915977"
+      },
+      "hot_score": 0.0,
+      "tags": [
+        "Business",
+        "Startups"
       ]
     }
   ]
