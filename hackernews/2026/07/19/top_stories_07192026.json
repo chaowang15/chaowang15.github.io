@@ -4,44 +4,66 @@
     "source": "https://news.ycombinator.com/",
     "api": "https://github.com/HackerNews/API",
     "count_requested": 50,
-    "count_written": 72,
-    "reused_same_day": 28,
+    "count_written": 89,
+    "reused_same_day": 32,
     "reused_cross_day": 0,
-    "new_llm_enriched": 20,
-    "scrape_time_display": "07:55, July 19, 2026 (PDT)",
+    "new_llm_enriched": 18,
+    "scrape_time_display": "12:00, July 19, 2026 (PDT)",
     "timezone": "America/Los_Angeles",
     "date_dir": "2026/07/19",
     "content_date": "2026-07-19",
-    "run_time_local": "07:55, July 19, 2026 (PDT)",
-    "run_time_utc": "2026-07-19 14:55:07 UTC",
+    "run_time_local": "12:00, July 19, 2026 (PDT)",
+    "run_time_utc": "2026-07-19 19:00:43 UTC",
     "incremental": true,
     "stories_max": 100,
-    "hot_score_time_utc": "2026-07-19 14:56:12 UTC"
+    "hot_score_time_utc": "2026-07-19 19:02:27 UTC"
   },
   "items": [
     {
-      "title_en": "Qwen3.8 is launching and going open-weight soon",
+      "title_en": "Show HN: I replaced a $120k bowling center system with $1,600 in ESP32s",
+      "url": "https://news.ycombinator.com/item?id=48968606",
+      "title_zh": "Show HN：用 1,600 美元的 ESP32 替代 12 万美元的保龄球馆系统",
+      "created_display": "Created: Jul 19, 2026 / 07:41 PT",
+      "image_url": "https://news.ycombinator.com/y18.svg",
+      "summary_en": "An engineer documents swapping a $120k bowling center control system for an ESP32-based setup costing about $1.6k. The project demonstrates how commodity microcontrollers and open-source software can replace expensive, vendor-locked solutions in real-world venues. It also invites evaluation of trade-offs around reliability, maintenance, and support in commercial deployments.",
+      "summary_zh": "一位工程师记录用约 1600 美元的 ESP32 方案替代原本价值约 12 万美元的保龄球馆控制系统。此项目展示了商用场景中，普通微控制器与开源软件仍有能力替代昂贵的、厂商绑定的解决方案。亦需权衡可靠性、维护与售后支持等现实挑战。",
+      "hn": {
+        "id": 48968606,
+        "type": "story",
+        "by": "section33",
+        "score": 243,
+        "descendants": 19,
+        "time": 1784472076,
+        "comments_url": "https://news.ycombinator.com/item?id=48968606"
+      },
+      "hot_score": 8.68,
+      "tags": [
+        "Show HN",
+        "Hardware",
+        "Open Source"
+      ]
+    },
+    {
+      "title_en": "Qwen 3.8",
       "url": "https://twitter.com/Alibaba_Qwen/status/2078759124914098291",
-      "title_zh": "Qwen3.8 将发布并开放权重",
+      "title_zh": "Qwen 3.8 版本",
       "created_display": "Created: Jul 19, 2026 / 01:44 PT",
       "image_url": "https://pbs.twimg.com/media/HNk8XP_aoAAUShj.jpg:large",
-      "summary_en": "Alibaba's Qwen3.8 is launching with open-weight availability, enabling developers to download and run the model locally or in their own infrastructure. The move signals a push toward more open, auditable AI tooling and could spur customization and faster iteration by startups and researchers. Expect more community experimentation around prompt engineering and deployment strategies.",
-      "summary_zh": "阿里巴巴宣布 Qwen3.8 即将发布，权重将向公众开放，便于开发者在本地或自有基础设施上部署。此举推动更开放、可审计的 AI 工具，可能促进初创公司和研究者的定制与迭代。社区在提示工程和部署策略方面的试验或将加速。",
+      "summary_en": "Alibaba's Qwen 3.8 is the latest release in its Qwen family, aiming to improve instruction-following and response quality. The update underscores a continued push by Chinese tech firms to scale capable LLMs for both consumer apps and enterprise use. As with similar releases, safety, guardrails, and domain-specific tuning are likely key focus areas.",
+      "summary_zh": "阿里巴巴推出 Qwen 3.8，作为 Qwen 系列的最新版本，力求提升指令遵循能力与输出质量。此举反映中国厂商在大模型领域继续扩张的趋势，覆盖消费者应用与企业场景。与其他厂商的更新一样，安全性、约束机制和领域定制将成为核心关注点。",
       "hn": {
         "id": 48966120,
         "type": "story",
         "by": "nh43215rgb",
-        "score": 334,
-        "descendants": 176,
+        "score": 610,
+        "descendants": 445,
         "time": 1784450697,
         "comments_url": "https://news.ycombinator.com/item?id=48966120"
       },
+      "hot_score": 6.66,
       "tags": [
-        "AI",
-        "Open Source",
-        "DevOps"
-      ],
-      "hot_score": 7.56
+        "AI"
+      ]
     },
     {
       "title_en": "What I learned selling 2,500 MIDI recorders: Hardware is not so hard",
@@ -55,37 +77,37 @@
         "id": 48966713,
         "type": "story",
         "by": "chipweinberger",
-        "score": 171,
-        "descendants": 84,
+        "score": 320,
+        "descendants": 149,
         "time": 1784457298,
         "comments_url": "https://news.ycombinator.com/item?id=48966713"
       },
-      "hot_score": 6.09,
       "tags": [
-        "Hardware",
-        "Startups"
-      ]
+        "Hardware"
+      ],
+      "hot_score": 4.66
     },
     {
-      "title_en": "Minecraft: Java Edition now uses SDL3",
-      "url": "https://www.minecraft.net/en-us/article/minecraft-26-3-snapshot-4",
-      "title_zh": "Minecraft Java 版现已采用 SDL3",
-      "created_display": "Created: Jul 19, 2026 / 04:48 PT",
-      "image_url": null,
-      "summary_en": "Minecraft Java Edition has migrated its core to SDL3, replacing the previous multimedia layer. The shift modernizes the cross-platform stack and may reduce platform-specific bugs while enabling newer graphics and input features. This upgrade could pave the way for future performance improvements across Windows, macOS, and Linux.",
-      "summary_zh": "Minecraft Java 版将核心迁移至 SDL3，替代旧的多媒体层。这一变更让跨平台栈更现代化，可能减少各平台的兼容性错误，并为引入新图形与输入特性创造条件。这或为 Windows、macOS 与 Linux 的后续性能优化铺路。",
+      "title_en": "Texas Police Spent $4.5M on Four Chevy Tahoes",
+      "url": "https://www.thedrive.com/news/how-texas-police-spent-4-5-million-on-four-chevy-tahoes",
+      "title_zh": "德州警察花费 450 万美元购买四辆 Chevy Tahoe",
+      "created_display": "Created: Jul 19, 2026 / 09:38 PT",
+      "image_url": "https://www.thedrive.com/wp-content/uploads/2026/07/police-tahoe.jpg?w=1200",
+      "summary_en": "A look at a large spending on just four vehicles by Texas police, raising questions about procurement efficiency and cost control in public safety fleets. The piece prompts reflection on budgeting, maintenance, and transparency in government purchases.",
+      "summary_zh": "报道聚焦德州警方在四辆 Chevy Tahoe 上耗资约 450 万美元的采购，质疑公共安全车队的采购效率与成本控制。文章引发对政府采购透明度、维护成本和预算分配的讨论。",
       "hn": {
-        "id": 48967256,
+        "id": 48969582,
         "type": "story",
-        "by": "ObviouslyFlamer",
-        "score": 81,
-        "descendants": 46,
-        "time": 1784461698,
-        "comments_url": "https://news.ycombinator.com/item?id=48967256"
+        "by": "randycupertino",
+        "score": 56,
+        "descendants": 24,
+        "time": 1784479116,
+        "comments_url": "https://news.ycombinator.com/item?id=48969582"
       },
-      "hot_score": 4.21,
+      "hot_score": 3.82,
       "tags": [
-        "Programming"
+        "Politics",
+        "Business"
       ]
     },
     {
@@ -100,17 +122,85 @@
         "id": 48966569,
         "type": "story",
         "by": "tosh",
-        "score": 134,
-        "descendants": 192,
+        "score": 281,
+        "descendants": 364,
         "time": 1784455403,
         "comments_url": "https://news.ycombinator.com/item?id=48966569"
       },
       "tags": [
-        "AI",
         "Programming",
+        "AI",
         "Startups"
       ],
-      "hot_score": 4.13
+      "hot_score": 3.75
+    },
+    {
+      "title_en": "Moonshot AI suspends new subscriptions due to Kimi K3 demand",
+      "url": "https://twitter.com/kimi_moonshot/status/2078855608565207130",
+      "title_zh": "Moonshot AI 因 Kimi K3 需求而暂停新订阅",
+      "created_display": "Created: Jul 19, 2026 / 09:02 PT",
+      "image_url": "https://pbs.twimg.com/profile_images/1910294000927645696/QseOV0uF_200x200.png",
+      "summary_en": "Moonshot AI pauses taking new subscriptions to meet demand for its Kimi K3, hinting at strong market interest in their AI accelerator or product. The move underscores supply constraints in specialized AI hardware/software ecosystems and the challenge of scaling.",
+      "summary_zh": "Moonshot AI 因 Kimi K3 的高需求暂停接收新订阅，显示市场对其 AI 加速器/产品的强烈兴趣。此举也凸显在专业 AI 硬件与软件生态中扩产与供给的挑战。",
+      "hn": {
+        "id": 48969291,
+        "type": "story",
+        "by": "serialx",
+        "score": 66,
+        "descendants": 15,
+        "time": 1784476945,
+        "comments_url": "https://news.ycombinator.com/item?id=48969291"
+      },
+      "hot_score": 3.59,
+      "tags": [
+        "AI",
+        "Hardware"
+      ]
+    },
+    {
+      "title_en": "Minecraft: Java Edition now uses SDL3",
+      "url": "https://www.minecraft.net/en-us/article/minecraft-26-3-snapshot-4",
+      "title_zh": "Minecraft Java 版现已采用 SDL3",
+      "created_display": "Created: Jul 19, 2026 / 04:48 PT",
+      "image_url": null,
+      "summary_en": "Minecraft Java Edition has migrated its core to SDL3, replacing the previous multimedia layer. The shift modernizes the cross-platform stack and may reduce platform-specific bugs while enabling newer graphics and input features. This upgrade could pave the way for future performance improvements across Windows, macOS, and Linux.",
+      "summary_zh": "Minecraft Java 版将核心迁移至 SDL3，替代旧的多媒体层。这一变更让跨平台栈更现代化，可能减少各平台的兼容性错误，并为引入新图形与输入特性创造条件。这或为 Windows、macOS 与 Linux 的后续性能优化铺路。",
+      "hn": {
+        "id": 48967256,
+        "type": "story",
+        "by": "ObviouslyFlamer",
+        "score": 190,
+        "descendants": 138,
+        "time": 1784461698,
+        "comments_url": "https://news.ycombinator.com/item?id=48967256"
+      },
+      "tags": [
+        "Gaming"
+      ],
+      "hot_score": 3.46
+    },
+    {
+      "title_en": "The Last MPEG-4 Visual Patent Has Expired",
+      "url": "https://www.phoronix.com/news/Last-MPEG-4-Patent-Expired",
+      "title_zh": "最后一个 MPEG-4 Visual 专利已到期",
+      "created_display": "Created: Jul 19, 2026 / 09:45 PT",
+      "image_url": "https://www.phoronix.net/image.php?id=2026&image=mpeg4_last_patent",
+      "summary_en": "With the last MPEG-4 Visual patent expiration, licensing barriers ease for developers and hardware makers, potentially boosting open implementations and lower-cost codecs. The change could influence licensing models and drive broader adoption of MPEG-4 Visual technologies.",
+      "summary_zh": "随着最后一个 MPEG-4 Visual 专利到期，开发者与硬件厂商在许可方面的障碍将减少，可能推动开源实现与成本更低的编解码方案。此变动或促使对 MPEG-4 Visual 技术的更广泛采用。",
+      "hn": {
+        "id": 48969635,
+        "type": "story",
+        "by": "LorenDB",
+        "score": 47,
+        "descendants": 12,
+        "time": 1784479517,
+        "comments_url": "https://news.ycombinator.com/item?id=48969635"
+      },
+      "hot_score": 3.35,
+      "tags": [
+        "Legal",
+        "Hardware"
+      ]
     },
     {
       "title_en": "Transcribe.cpp",
@@ -124,38 +214,59 @@
         "id": 48963879,
         "type": "story",
         "by": "sebjones",
-        "score": 624,
-        "descendants": 131,
+        "score": 680,
+        "descendants": 140,
         "time": 1784421506,
         "comments_url": "https://news.ycombinator.com/item?id=48963879"
       },
       "tags": [
         "Programming"
       ],
-      "hot_score": 4.1
+      "hot_score": 2.98
     },
     {
-      "title_en": "I burned all my tokens researching how to save tokens",
-      "url": "https://quesma.com/blog/custom-deep-research-pipeline/",
-      "title_zh": "我在研究如何节省代币时烧掉了所有代币",
-      "created_display": "Created: Jul 19, 2026 / 05:01 PT",
-      "image_url": "https://quesma.com/_astro/wiki-preview.Ds4TSUAH.png",
-      "summary_en": "A deep dive into token economy strategies for LLM usage, exploring prompt optimization, caching, and workflow design to minimize token consumption without sacrificing quality.",
-      "summary_zh": "深入探讨大模型使用中的代币经济策略，研究提示优化、结果缓存与工作流设计，以在不牺牲质量的前提下降低代币消耗。",
+      "title_en": "HMD Touch 4G",
+      "url": "https://www.hmd.com/en_int/hmd-touch-4g",
+      "title_zh": "HMD Touch 4G",
+      "created_display": "Created: Jul 19, 2026 / 10:25 PT",
+      "image_url": "https://images.ctfassets.net/wcfotm6rrl7u/7wl5L7zEvmxcSEk731SC8r/9f41629703d9f243ca23ab22fc73ec71/HMD_Touch_4G-OG_Image.jpg?w=1200",
+      "summary_en": "HMD Global releases information about a device called Touch 4G, signaling continued hardware development beyond smartphones. If real, the product would align with 4G-era positioning and show how vendors balance modern connectivity with legacy branding.",
+      "summary_zh": "HMD Global 公布了名为 Touch 4G 的设备，揭示其在 4G 时代定位的硬件产品线。当前信息有限，但此举反映了诺基亚品牌在硬件生态上的持续投入与多样化布局。",
       "hn": {
-        "id": 48967355,
+        "id": 48969983,
         "type": "story",
-        "by": "bkotrys",
-        "score": 61,
-        "descendants": 57,
-        "time": 1784462513,
-        "comments_url": "https://news.ycombinator.com/item?id=48967355"
+        "by": "thisislife2",
+        "score": 27,
+        "descendants": 28,
+        "time": 1784481903,
+        "comments_url": "https://news.ycombinator.com/item?id=48969983"
       },
-      "hot_score": 3.43,
+      "hot_score": 2.56,
       "tags": [
-        "AI",
-        "Data"
+        "Hardware"
       ]
+    },
+    {
+      "title_en": "OpenAI reduces Codex Model Context Size from 372k to 272k",
+      "url": "https://github.com/openai/codex/pull/33972/files",
+      "title_zh": "OpenAI 将 Codex 的上下文大小从 372k 减少到 272k",
+      "created_display": "Created: Jul 19, 2026 / 00:54 PT",
+      "image_url": "https://avatars.githubusercontent.com/u/244841968?s=400&v=4",
+      "summary_en": "Codex context window has been reduced from 372k to 272k tokens, impacting long codebases and prompts. Developers may need to restructure inputs or chunk code to preserve context, potentially affecting large-scale code generation tasks.",
+      "summary_zh": "Codex 的上下文窗口从 372k 减少到 272k token，这将影响处理较大代码库的场景。开发者可能需要重新组织输入或将代码拆分成块以维持上下文，进而影响大规模代码生成的任务。",
+      "hn": {
+        "id": 48965850,
+        "type": "story",
+        "by": "AmazingTurtle",
+        "score": 233,
+        "descendants": 104,
+        "time": 1784447679,
+        "comments_url": "https://news.ycombinator.com/item?id=48965850"
+      },
+      "tags": [
+        "AI"
+      ],
+      "hot_score": 2.25
     },
     {
       "title_en": "NYC may require landlords and realtors to disclose the use of AI in listings",
@@ -169,8 +280,8 @@
         "id": 48962983,
         "type": "story",
         "by": "gnabgib",
-        "score": 531,
-        "descendants": 230,
+        "score": 554,
+        "descendants": 256,
         "time": 1784412819,
         "comments_url": "https://news.ycombinator.com/item?id=48962983"
       },
@@ -178,7 +289,7 @@
         "AI",
         "Politics"
       ],
-      "hot_score": 2.72
+      "hot_score": 1.99
     },
     {
       "title_en": "LG monitors silently install software through Windows Update without consent",
@@ -201,7 +312,29 @@
         "Privacy",
         "Security"
       ],
-      "hot_score": 2.36
+      "hot_score": 1.88
+    },
+    {
+      "title_en": "Bananas sprout in Rayleigh Garden UK after 15 years",
+      "url": "https://www.bbc.com/news/articles/cvg8edqq5g5o",
+      "title_zh": "Rayleigh Garden 英国的香蕉在 15 年后萌芽",
+      "created_display": "Created: Jul 19, 2026 / 06:29 PT",
+      "image_url": "https://ichef.bbci.co.uk/news/1024/branded_news/945a/live/453b2d10-8132-11f1-b525-63787292c170.jpg",
+      "summary_en": "Unseasonably warm conditions trigger banana plants to fruit in the UK after years of dormancy, highlighting how climate variability can enable surprising agricultural outcomes. The anecdote underscores evolving plant behavior in temperate regions.",
+      "summary_zh": "异常温暖的天气让英国雷利花园的香蕉在多年休眠后结果实，凸显气候变动带来的意外农作物现象。这一趣闻反映在温带地区植物生长行为的变化。",
+      "hn": {
+        "id": 48968063,
+        "type": "story",
+        "by": "teleforce",
+        "score": 70,
+        "descendants": 51,
+        "time": 1784467769,
+        "comments_url": "https://news.ycombinator.com/item?id=48968063"
+      },
+      "tags": [
+        "Science"
+      ],
+      "hot_score": 1.81
     },
     {
       "title_en": "AI Mania Is Eviscerating Global Decision-Making",
@@ -215,8 +348,8 @@
         "id": 48964185,
         "type": "story",
         "by": "subset",
-        "score": 306,
-        "descendants": 153,
+        "score": 354,
+        "descendants": 195,
         "time": 1784424559,
         "comments_url": "https://news.ycombinator.com/item?id=48964185"
       },
@@ -224,51 +357,95 @@
         "AI",
         "Politics"
       ],
-      "hot_score": 2.21
+      "hot_score": 1.67
     },
     {
-      "title_en": "OpenAI reduces Codex Model Context Size from 372k to 272k",
-      "url": "https://github.com/openai/codex/pull/33972/files",
-      "title_zh": "OpenAI 将 Codex 的上下文大小从 372k 减少到 272k",
-      "created_display": "Created: Jul 19, 2026 / 00:54 PT",
-      "image_url": "https://avatars.githubusercontent.com/u/244841968?s=400&v=4",
-      "summary_en": "Codex context window has been reduced from 372k to 272k tokens, impacting long codebases and prompts. Developers may need to restructure inputs or chunk code to preserve context, potentially affecting large-scale code generation tasks.",
-      "summary_zh": "Codex 的上下文窗口从 372k 减少到 272k token，这将影响处理较大代码库的场景。开发者可能需要重新组织输入或将代码拆分成块以维持上下文，进而影响大规模代码生成的任务。",
+      "title_en": "Clever hacker fits 537,000 domains in a $5 ESP32 ad-blocking dongle",
+      "url": "https://www.tomshardware.com/networking/clever-hacker-fits-537-000-domains-in-a-tiny-usd5-esp32-ad-blocking-dongle-firmware-uses-only-around-50kb-of-ram-and-can-answer-blocked-lookups-in-10-milliseconds",
+      "title_zh": "巧妙黑客用 5 美元 ESP32 广告拦截 dongle 容纳 537,000 域名",
+      "created_display": "Created: Jul 19, 2026 / 07:07 PT",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/gGjEqwLsURFSUzVANwnYQZ-1280-80.jpg",
+      "summary_en": "A clever hack fits 537,000 domain entries into a ~$5 ESP32-based ad-blocking dongle, with around 50KB RAM usage and near-instant lookups. It demonstrates how small devices can perform substantial DNS-like filtering with efficient data structures.",
+      "summary_zh": "一名巧妙的黑客将 537,000 条域名信息塞进约 5 美元的 ESP32 广告拦截 dongle，RAM 约 50KB，查询在 10 毫秒级。此举展示了小型设备也能通过高效数据结构实现大规模的域名过滤。",
       "hn": {
-        "id": 48965850,
+        "id": 48968348,
         "type": "story",
-        "by": "AmazingTurtle",
-        "score": 114,
-        "descendants": 49,
-        "time": 1784447679,
-        "comments_url": "https://news.ycombinator.com/item?id=48965850"
+        "by": "sbulaev",
+        "score": 55,
+        "descendants": 20,
+        "time": 1784470027,
+        "comments_url": "https://news.ycombinator.com/item?id=48968348"
       },
-      "hot_score": 2.15,
+      "hot_score": 1.66,
       "tags": [
-        "AI",
+        "Hardware"
+      ]
+    },
+    {
+      "title_en": "Neither GCC nor Clang are compliant with standard C++",
+      "url": "https://sebsite.pw/w/20260708-badstdcxx.html",
+      "title_zh": "GCC 与 Clang 都不符合标准 C++",
+      "created_display": "Created: Jul 19, 2026 / 10:32 PT",
+      "image_url": null,
+      "summary_en": "A provocative take arguing that neither GCC nor Clang fully conforms to the C++ standard, highlighting gaps and ongoing divergence. The takeaway is to test across compilers and rely on portable, standard-conforming code where possible.",
+      "summary_zh": "作者主张 GCC 与 Clang 都未能完全遵循 C++ 标准，指出实现中的差距与分歧。要点是对跨编译器测试保持警惕，并尽量编写可移植、符合标准的代码。",
+      "hn": {
+        "id": 48970039,
+        "type": "story",
+        "by": "birdculture",
+        "score": 16,
+        "descendants": 11,
+        "time": 1784482361,
+        "comments_url": "https://news.ycombinator.com/item?id=48970039"
+      },
+      "hot_score": 1.58,
+      "tags": [
         "Programming"
       ]
     },
     {
-      "title_en": "The death and rebirth of my home server",
-      "url": "https://sgt.hootr.club/blog/home-server-rebirth/",
-      "title_zh": "我家里服务器的生死与重生",
-      "created_display": "Created: Jul 19, 2026 / 03:44 PT",
-      "image_url": "https://sgt.hootr.club/blog/home-server-rebirth/popillia-japonica.jpg",
-      "summary_en": "A personal narrative about a home server's failure, downtime, and the rebuild that followed. It distills lessons on backups, automation, and maintainable infrastructure for self-hosting in a reliable, hands-on way.",
-      "summary_zh": "这是一篇关于家用服务器崩溃、停机与重建的个人记录。文章总结了备份、自动化与可维护的自托管基础设施的要点，强调在现实环境中的实际可行性。",
+      "title_en": "I joined the IndieWeb, here's what I learned",
+      "url": "https://en.andros.dev/blog/0b8e451e/i-joined-the-indieweb-heres-what-i-learned/",
+      "title_zh": "我加入独立网页生态圈，我学到了什么",
+      "created_display": "Created: Jul 19, 2026 / 04:14 PT",
+      "image_url": "https://img.andros.dev/yzCsfEYO8dKYjakeL7mkshKOE7o=/600x0/filters:format(avif):quality(85)/https://andros.dev/media/thumbnails/jurian-kersten-nZI4q-nmzjU-unsplash.jpg",
+      "summary_en": "Joining the IndieWeb, the author reflects on ownership, portability, and interoperability of web content, as well as practical steps to start hosting your own site. The piece offers insights for readers curious about a more self-sovereign online presence.",
+      "summary_zh": "加入 IndieWeb 后，作者反思了网页内容的所有权、可移植性与互操作性，以及自建站点的实际步骤。文中给出对追求更自主在线存在感的读者有用的见解。",
       "hn": {
-        "id": 48966769,
+        "id": 48966984,
         "type": "story",
-        "by": "steinuil",
-        "score": 53,
-        "descendants": 27,
-        "time": 1784457871,
-        "comments_url": "https://news.ycombinator.com/item?id=48966769"
+        "by": "andros",
+        "score": 94,
+        "descendants": 63,
+        "time": 1784459678,
+        "comments_url": "https://news.ycombinator.com/item?id=48966984"
       },
-      "hot_score": 1.95,
       "tags": [
-        "DevOps"
+        "Web"
+      ],
+      "hot_score": 1.53
+    },
+    {
+      "title_en": "Terence McKenna's Mega Bad Trip",
+      "url": "https://psychedelics.community/cultural-icons/terence-mckennas-mega-bad-trip",
+      "title_zh": "特伦斯·麦肯纳的 Mega Bad Trip",
+      "created_display": "Created: Jul 19, 2026 / 07:30 PT",
+      "image_url": "https://psychedelics.community/storage/images/image-697101af8c9f0-seo.webp",
+      "summary_en": "This piece revisits Terence McKenna's infamous 'Mega Bad Trip' and its lasting impact on psychedelic discourse and pop culture around his ideas. It illustrates how intense psychedelic experiences shape narratives and reputations in subcultures.",
+      "summary_zh": "本文回顾了特伦斯·麦肯纳著名的“Mega Bad Trip”以及它对迷幻文化和他思想公众形象的持续影响。内容揭示了强烈的迷幻体验如何塑造子文化中的叙事与声誉。",
+      "hn": {
+        "id": 48968515,
+        "type": "story",
+        "by": "Dimmiwoah",
+        "score": 45,
+        "descendants": 32,
+        "time": 1784471431,
+        "comments_url": "https://news.ycombinator.com/item?id=48968515"
+      },
+      "hot_score": 1.5,
+      "tags": [
+        "Culture",
+        "Entertainment"
       ]
     },
     {
@@ -283,15 +460,37 @@
         "id": 48960218,
         "type": "story",
         "by": "sbochins",
-        "score": 533,
-        "descendants": 509,
+        "score": 569,
+        "descendants": 546,
         "time": 1784395960,
         "comments_url": "https://news.ycombinator.com/item?id=48960218"
       },
       "tags": [
-        "Programming"
+        "AI"
       ],
-      "hot_score": 1.83
+      "hot_score": 1.46
+    },
+    {
+      "title_en": "Less Is More: Why Audio on SoundCloud Looks Different",
+      "url": "https://developers.soundcloud.com/blog/less-is-more-why-soundcloud-low-passes-its-aac-transcodings/",
+      "title_zh": "少即是多：SoundCloud 的音频为何转码后听起来不同",
+      "created_display": "Created: Jul 19, 2026 / 11:10 PT",
+      "image_url": "https://developers.soundcloud.com/blog/static/c3deaa707b26e3482cc95abb9bbd9e16/8ff1e/native_vs_fdk_256k.png",
+      "summary_en": "SoundCloud explains its approach to AAC transcoding, showing that lower-pass processing can reduce artifacts and bandwidth use while preserving perceived quality.",
+      "summary_zh": "SoundCloud 解释了其 AAC 转码策略，指出通过更低的处理强度可以减少伪影和带宽需求，同时维持感知音质。在大规模平台上，编码效率与音质之间存在权衡。",
+      "hn": {
+        "id": 48970372,
+        "type": "story",
+        "by": "1317",
+        "score": 10,
+        "descendants": 1,
+        "time": 1784484612,
+        "comments_url": "https://news.ycombinator.com/item?id=48970372"
+      },
+      "hot_score": 1.35,
+      "tags": [
+        "Web"
+      ]
     },
     {
       "title_en": "Better and Cheaper Than IPTV",
@@ -305,8 +504,8 @@
         "id": 48964015,
         "type": "story",
         "by": "xonery",
-        "score": 256,
-        "descendants": 72,
+        "score": 293,
+        "descendants": 91,
         "time": 1784422795,
         "comments_url": "https://news.ycombinator.com/item?id=48964015"
       },
@@ -314,29 +513,51 @@
         "Open Source",
         "Web"
       ],
-      "hot_score": 1.75
+      "hot_score": 1.32
     },
     {
-      "title_en": "I joined the IndieWeb, here's what I learned",
-      "url": "https://en.andros.dev/blog/0b8e451e/i-joined-the-indieweb-heres-what-i-learned/",
-      "title_zh": "我加入独立网页生态圈，我学到了什么",
-      "created_display": "Created: Jul 19, 2026 / 04:14 PT",
-      "image_url": "https://img.andros.dev/yzCsfEYO8dKYjakeL7mkshKOE7o=/600x0/filters:format(avif):quality(85)/https://andros.dev/media/thumbnails/jurian-kersten-nZI4q-nmzjU-unsplash.jpg",
-      "summary_en": "Joining the IndieWeb, the author reflects on ownership, portability, and interoperability of web content, as well as practical steps to start hosting your own site. The piece offers insights for readers curious about a more self-sovereign online presence.",
-      "summary_zh": "加入 IndieWeb 后，作者反思了网页内容的所有权、可移植性与互操作性，以及自建站点的实际步骤。文中给出对追求更自主在线存在感的读者有用的见解。",
+      "title_en": "The death and rebirth of my home server",
+      "url": "https://sgt.hootr.club/blog/home-server-rebirth/",
+      "title_zh": "我家里服务器的生死与重生",
+      "created_display": "Created: Jul 19, 2026 / 03:44 PT",
+      "image_url": "https://sgt.hootr.club/blog/home-server-rebirth/popillia-japonica.jpg",
+      "summary_en": "A personal narrative about a home server's failure, downtime, and the rebuild that followed. It distills lessons on backups, automation, and maintainable infrastructure for self-hosting in a reliable, hands-on way.",
+      "summary_zh": "这是一篇关于家用服务器崩溃、停机与重建的个人记录。文章总结了备份、自动化与可维护的自托管基础设施的要点，强调在现实环境中的实际可行性。",
       "hn": {
-        "id": 48966984,
+        "id": 48966769,
         "type": "story",
-        "by": "andros",
-        "score": 40,
-        "descendants": 21,
-        "time": 1784459678,
-        "comments_url": "https://news.ycombinator.com/item?id=48966984"
+        "by": "steinuil",
+        "score": 87,
+        "descendants": 60,
+        "time": 1784457871,
+        "comments_url": "https://news.ycombinator.com/item?id=48966769"
       },
-      "hot_score": 1.7,
       "tags": [
-        "Web",
-        "Open Source"
+        "DevOps"
+      ],
+      "hot_score": 1.29
+    },
+    {
+      "title_en": "I burned all my tokens researching how to save tokens",
+      "url": "https://quesma.com/blog/custom-deep-research-pipeline/",
+      "title_zh": "我在研究如何节省代币时烧掉了所有代币",
+      "created_display": "Created: Jul 19, 2026 / 05:01 PT",
+      "image_url": "https://quesma.com/_astro/wiki-preview.Ds4TSUAH.png",
+      "summary_en": "A deep dive into token economy strategies for LLM usage, exploring prompt optimization, caching, and workflow design to minimize token consumption without sacrificing quality.",
+      "summary_zh": "深入探讨大模型使用中的代币经济策略，研究提示优化、结果缓存与工作流设计，以在不牺牲质量的前提下降低代币消耗。",
+      "hn": {
+        "id": 48967355,
+        "type": "story",
+        "by": "bkotrys",
+        "score": 61,
+        "descendants": 57,
+        "time": 1784462513,
+        "comments_url": "https://news.ycombinator.com/item?id=48967355"
+      },
+      "hot_score": 1.15,
+      "tags": [
+        "Data",
+        "AI"
       ]
     },
     {
@@ -351,16 +572,15 @@
         "id": 48957779,
         "type": "story",
         "by": "mbustamanter",
-        "score": 574,
-        "descendants": 370,
+        "score": 580,
+        "descendants": 380,
         "time": 1784379652,
         "comments_url": "https://news.ycombinator.com/item?id=48957779"
       },
       "tags": [
-        "AI",
-        "Science"
+        "AI"
       ],
-      "hot_score": 1.43
+      "hot_score": 1.13
     },
     {
       "title_en": "Codex Resets",
@@ -374,16 +594,15 @@
         "id": 48963465,
         "type": "story",
         "by": "denysvitali",
-        "score": 234,
-        "descendants": 158,
+        "score": 263,
+        "descendants": 173,
         "time": 1784417066,
         "comments_url": "https://news.ycombinator.com/item?id=48963465"
       },
       "tags": [
-        "AI",
-        "Programming"
+        "AI"
       ],
-      "hot_score": 1.34
+      "hot_score": 1.04
     },
     {
       "title_en": "If You Build It, They Will Come",
@@ -403,31 +622,30 @@
         "comments_url": "https://news.ycombinator.com/item?id=48959090"
       },
       "tags": [
-        "Startups",
         "Business"
       ],
-      "hot_score": 1.28
+      "hot_score": 0.98
     },
     {
-      "title_en": "Bananas sprout in Rayleigh Garden UK after 15 years",
-      "url": "https://www.bbc.com/news/articles/cvg8edqq5g5o",
-      "title_zh": "Rayleigh Garden 英国的香蕉在 15 年后萌芽",
-      "created_display": "Created: Jul 19, 2026 / 06:29 PT",
-      "image_url": "https://ichef.bbci.co.uk/news/1024/branded_news/945a/live/453b2d10-8132-11f1-b525-63787292c170.jpg",
-      "summary_en": "Unseasonably warm conditions trigger banana plants to fruit in the UK after years of dormancy, highlighting how climate variability can enable surprising agricultural outcomes. The anecdote underscores evolving plant behavior in temperate regions.",
-      "summary_zh": "异常温暖的天气让英国雷利花园的香蕉在多年休眠后结果实，凸显气候变动带来的意外农作物现象。这一趣闻反映在温带地区植物生长行为的变化。",
+      "title_en": "C64 Basic Dungeon Crawler: Goblin Attack (C64 Basic Part 8)",
+      "url": "https://retrogamecoders.com/c64-basic-dungeon-part8/",
+      "title_zh": "C64 BASIC 地城探险：Goblin Attack（C64 BASIC 第8部分）",
+      "created_display": "Created: Jul 19, 2026 / 08:20 PT",
+      "image_url": null,
+      "summary_en": "Part 8 of a C64 BASIC dungeon crawler shows continued implementation—likely movement, combat, and map rendering within the constraints of 8-bit BASIC. The series demonstrates how retro platforms remain a fertile ground for learning and creativity.",
+      "summary_zh": "这是 C64 BASIC 地下城探险游戏 Goblin Attack 的第 8 部分，继续在 8 位 BASIC 的限制下实现角色移动、战斗与地图渲染等机制。该系列证明复古平台仍是学习与创作的沃土。",
       "hn": {
-        "id": 48968063,
+        "id": 48968949,
         "type": "story",
-        "by": "teleforce",
-        "score": 12,
-        "descendants": 6,
-        "time": 1784467769,
-        "comments_url": "https://news.ycombinator.com/item?id=48968063"
+        "by": "ibobev",
+        "score": 23,
+        "descendants": 0,
+        "time": 1784474422,
+        "comments_url": "https://news.ycombinator.com/item?id=48968949"
       },
-      "hot_score": 1.19,
+      "hot_score": 0.96,
       "tags": [
-        "Science"
+        "Programming"
       ]
     },
     {
@@ -448,9 +666,9 @@
         "comments_url": "https://news.ycombinator.com/item?id=48954851"
       },
       "tags": [
-        "Data"
+        "Science"
       ],
-      "hot_score": 0.98
+      "hot_score": 0.81
     },
     {
       "title_en": "Hardcore IndieWeb: Run your own website 100% independently for only $0.01/day",
@@ -464,8 +682,8 @@
         "id": 48962758,
         "type": "story",
         "by": "cdrnsf",
-        "score": 201,
-        "descendants": 167,
+        "score": 228,
+        "descendants": 182,
         "time": 1784411112,
         "comments_url": "https://news.ycombinator.com/item?id=48962758"
       },
@@ -473,28 +691,29 @@
         "Web",
         "Open Source"
       ],
-      "hot_score": 0.98
+      "hot_score": 0.79
     },
     {
-      "title_en": "DRIVE – Operational Excellence for AI-accelerated engineering",
-      "url": "https://www.cortex.io/drive",
-      "title_zh": "DRIVE – AI 加速工程的运营卓越",
-      "created_display": "Created: Jul 19, 2026 / 06:30 PT",
-      "image_url": "https://a-us.storyblok.com/f/1021527/1200x600/b5d7e1f131/framework_meta_image.webp",
-      "summary_en": "DRIVE is Cortex’s initiative to orchestrate AI-accelerated engineering workflows with emphasis on governance, reproducibility, and observability. It aims to make AI-assisted engineering more scalable, auditable, and reliable across teams.",
-      "summary_zh": "DRIVE 是 Cortex 推出的一套用于编排 AI 加速的工程工作流的方案，聚焦治理、可复现性与可观测性。旨在让 AI 辅助的工程工作更具可扩展性、可审计性和可靠性。",
+      "title_en": "Data center opponents stage 142 protests across 42 US states",
+      "url": "https://www.reuters.com/business/retail-consumer/us-data-center-protests-go-national-backlash-grows-2026-07-18/",
+      "title_zh": "数据中心反对者在 42 个州发起 142 场抗议",
+      "created_display": "Created: Jul 19, 2026 / 07:50 PT",
+      "image_url": null,
+      "summary_en": "Activists opposing data centers staged 142 protests across 42 states, signaling a national backlash against energy-intensive infrastructure. The protests reflect concerns about local impact, energy use, and community resistance to large-scale deployments.",
+      "summary_zh": "反对数据中心的活动人士在全美 42 个州组织了 142 场抗议，显示出对高能耗基础设施的全国性抵制情绪。示威聚焦地方影响、能源消耗以及对大型部署的社区反应。",
       "hn": {
-        "id": 48968067,
+        "id": 48968690,
         "type": "story",
-        "by": "backlit4034",
-        "score": 10,
-        "descendants": 2,
-        "time": 1784467801,
-        "comments_url": "https://news.ycombinator.com/item?id=48968067"
+        "by": "1vuio0pswjnm7",
+        "score": 22,
+        "descendants": 7,
+        "time": 1784472602,
+        "comments_url": "https://news.ycombinator.com/item?id=48968690"
       },
-      "hot_score": 0.98,
+      "hot_score": 0.79,
       "tags": [
-        "AI",
+        "Energy",
+        "Politics",
         "DevOps"
       ]
     },
@@ -519,7 +738,7 @@
         "AI",
         "Data"
       ],
-      "hot_score": 0.9
+      "hot_score": 0.71
     },
     {
       "title_en": "Goodbye, and Thanks for All the Bikesheds",
@@ -533,15 +752,15 @@
         "id": 48960155,
         "type": "story",
         "by": "Ygg2",
-        "score": 252,
-        "descendants": 229,
+        "score": 271,
+        "descendants": 245,
         "time": 1784395644,
         "comments_url": "https://news.ycombinator.com/item?id=48960155"
       },
       "tags": [
         "Design"
       ],
-      "hot_score": 0.86
+      "hot_score": 0.69
     },
     {
       "title_en": "Classic Amiga titles, free to download",
@@ -555,39 +774,15 @@
         "id": 48962838,
         "type": "story",
         "by": "doener",
-        "score": 147,
-        "descendants": 20,
+        "score": 168,
+        "descendants": 21,
         "time": 1784411727,
         "comments_url": "https://news.ycombinator.com/item?id=48962838"
       },
       "tags": [
-        "Gaming",
-        "Entertainment"
+        "Gaming"
       ],
-      "hot_score": 0.73
-    },
-    {
-      "title_en": "Setting up your spare Mac for Claude Code to control, a step-by-step guide",
-      "url": "https://ykdojo.github.io/claude-controls-mac/",
-      "title_zh": "用备用 Mac 设置 Claude Code 控制的分步指南",
-      "created_display": "Created: Jul 18, 2026 / 09:12 PT",
-      "image_url": null,
-      "summary_en": "Follow a step-by-step guide to configure a spare Mac to control Claude Code, enabling automation and smoother coding workflows. The setup covers prerequisites, installation, and binding Claude Code to macOS tooling for hands-off operations. A dedicated control Mac can streamline experiments and batch tasks.",
-      "summary_zh": "本指南逐步教你将备用 Mac 配置为控制 Claude Code，以实现自动化和更高效的编码工作流。覆盖前提条件、安装步骤，以及将 Claude Code 与 macOS 工具整合的设置。使用专门的控制机可以简化实验与批量任务。",
-      "hn": {
-        "id": 48959392,
-        "type": "story",
-        "by": "ykev",
-        "score": 226,
-        "descendants": 154,
-        "time": 1784391128,
-        "comments_url": "https://news.ycombinator.com/item?id=48959392"
-      },
-      "tags": [
-        "AI",
-        "Programming"
-      ],
-      "hot_score": 0.7
+      "hot_score": 0.59
     },
     {
       "title_en": "Gleam Is Now on Tangled",
@@ -609,53 +804,54 @@
       "tags": [
         "Programming"
       ],
-      "hot_score": 0.69
+      "hot_score": 0.53
     },
     {
-      "title_en": "Dumber Mini: A Nokia-Style Phone with WhatsApp and Maps",
-      "url": "https://dumbermini.com/",
-      "title_zh": "Dumber Mini：诺基亚风格的手机，内置 WhatsApp 与地图",
-      "created_display": "Created: Jul 19, 2026 / 02:02 PT",
-      "image_url": "http://dumbermini.com/cdn/shop/files/doov_pic.png?v=1750750180",
-      "summary_en": "Dumber Mini resurrects a Nokia-style feature phone with essential apps like WhatsApp and Maps, prioritizing simplicity, long battery life, and privacy-conscious usage.",
-      "summary_zh": "Dumber Mini 以诺基亚风格的功能机为灵感，内置 WhatsApp 与地图等必需应用，强调简洁、长续航与隐私友好使用。",
+      "title_en": "Setting up your spare Mac for Claude Code to control, a step-by-step guide",
+      "url": "https://ykdojo.github.io/claude-controls-mac/",
+      "title_zh": "用备用 Mac 设置 Claude Code 控制的分步指南",
+      "created_display": "Created: Jul 18, 2026 / 09:12 PT",
+      "image_url": null,
+      "summary_en": "Follow a step-by-step guide to configure a spare Mac to control Claude Code, enabling automation and smoother coding workflows. The setup covers prerequisites, installation, and binding Claude Code to macOS tooling for hands-off operations. A dedicated control Mac can streamline experiments and batch tasks.",
+      "summary_zh": "本指南逐步教你将备用 Mac 配置为控制 Claude Code，以实现自动化和更高效的编码工作流。覆盖前提条件、安装步骤，以及将 Claude Code 与 macOS 工具整合的设置。使用专门的控制机可以简化实验与批量任务。",
       "hn": {
-        "id": 48966219,
+        "id": 48959392,
         "type": "story",
-        "by": "thunderbong",
-        "score": 29,
-        "descendants": 9,
-        "time": 1784451734,
-        "comments_url": "https://news.ycombinator.com/item?id=48966219"
-      },
-      "hot_score": 0.68,
-      "tags": [
-        "Privacy",
-        "Hardware",
-        "Energy"
-      ]
-    },
-    {
-      "title_en": "FDA approves new kind of cholesterol pill",
-      "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-oral-pcsk9-inhibitor-lower-ldl-cholesterol-adults-high-cholesterol",
-      "title_zh": "FDA 批准首款口服 PCSK9 抑制剂降胆固醇",
-      "created_display": "Created: Jul 18, 2026 / 19:40 PT",
-      "image_url": "https://www.fda.gov/themes/custom/preview/img/FDA-Social-Graphic.png",
-      "summary_en": "The FDA has approved the first oral PCSK9 inhibitor to lower LDL cholesterol in adults with high cholesterol. This pill could broaden access to PCSK9 therapy by offering a convenient alternative to injections, though questions remain about long-term safety and cost.",
-      "summary_zh": "FDA 批准了首款口服 PCSK9 抑制剂，用于降低高胆固醇成人的 LDL 水平。这一药物可能通过提供注射药物的便捷替代方案来扩展治疗覆盖面，但关于长期安全性与成本仍存疑问。",
-      "hn": {
-        "id": 48964536,
-        "type": "story",
-        "by": "mgh2",
-        "score": 81,
-        "descendants": 45,
-        "time": 1784428822,
-        "comments_url": "https://news.ycombinator.com/item?id=48964536"
+        "by": "ykev",
+        "score": 226,
+        "descendants": 154,
+        "time": 1784391128,
+        "comments_url": "https://news.ycombinator.com/item?id=48959392"
       },
       "tags": [
-        "Health"
+        "Programming",
+        "DevOps",
+        "AI"
       ],
-      "hot_score": 0.67
+      "hot_score": 0.53
+    },
+    {
+      "title_en": "The Art of Insight in Science and Engineering – Mastering Complexity(2014) [pdf]",
+      "url": "https://ocw.mit.edu/courses/res-6-011-the-art-of-insight-in-science-and-engineering-mastering-complexity-fall-2014/3bca850386a3005c22134fa62fb3bad5_MITRES_6-011F14_art_insfin.pdf",
+      "title_zh": "科学与工程中的洞察艺术 – 掌握复杂性（2014）[pdf]",
+      "created_display": "Created: Jul 19, 2026 / 00:27 PT",
+      "image_url": null,
+      "summary_en": "MIT's The Art of Insight in Science and Engineering (2014) presents approaches to mastering complexity through disciplined modeling, clear thinking, and effective communication of ideas.",
+      "summary_zh": "MIT 的《科学与工程中的洞察艺术》（2014）介绍通过严谨建模、清晰思维和有效传达来掌握复杂性的方法。",
+      "hn": {
+        "id": 48965719,
+        "type": "story",
+        "by": "nill0",
+        "score": 59,
+        "descendants": 3,
+        "time": 1784446057,
+        "comments_url": "https://news.ycombinator.com/item?id=48965719"
+      },
+      "tags": [
+        "Science",
+        "Education"
+      ],
+      "hot_score": 0.53
     },
     {
       "title_en": "Elixir-lang.org has a new design",
@@ -678,7 +874,29 @@
         "Design",
         "Web"
       ],
-      "hot_score": 0.66
+      "hot_score": 0.5
+    },
+    {
+      "title_en": "FDA approves new kind of cholesterol pill",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-oral-pcsk9-inhibitor-lower-ldl-cholesterol-adults-high-cholesterol",
+      "title_zh": "FDA 批准首款口服 PCSK9 抑制剂降胆固醇",
+      "created_display": "Created: Jul 18, 2026 / 19:40 PT",
+      "image_url": "https://www.fda.gov/themes/custom/preview/img/FDA-Social-Graphic.png",
+      "summary_en": "The FDA has approved the first oral PCSK9 inhibitor to lower LDL cholesterol in adults with high cholesterol. This pill could broaden access to PCSK9 therapy by offering a convenient alternative to injections, though questions remain about long-term safety and cost.",
+      "summary_zh": "FDA 批准了首款口服 PCSK9 抑制剂，用于降低高胆固醇成人的 LDL 水平。这一药物可能通过提供注射药物的便捷替代方案来扩展治疗覆盖面，但关于长期安全性与成本仍存疑问。",
+      "hn": {
+        "id": 48964536,
+        "type": "story",
+        "by": "mgh2",
+        "score": 81,
+        "descendants": 45,
+        "time": 1784428822,
+        "comments_url": "https://news.ycombinator.com/item?id=48964536"
+      },
+      "tags": [
+        "Health"
+      ],
+      "hot_score": 0.42
     },
     {
       "title_en": "Fable 5 vs. GPT-5.6 Sol on an NP-Hard Problem: Does /goal help?",
@@ -700,7 +918,7 @@
       "tags": [
         "AI"
       ],
-      "hot_score": 0.52
+      "hot_score": 0.41
     },
     {
       "title_en": "Scrying the AMD GFX1250 LLVM Tea Leaves",
@@ -714,8 +932,8 @@
         "id": 48965161,
         "type": "story",
         "by": "mfiguiere",
-        "score": 43,
-        "descendants": 1,
+        "score": 56,
+        "descendants": 5,
         "time": 1784437628,
         "comments_url": "https://news.ycombinator.com/item?id=48965161"
       },
@@ -723,51 +941,30 @@
         "Programming",
         "Hardware"
       ],
-      "hot_score": 0.49
+      "hot_score": 0.38
     },
     {
-      "title_en": "The Art of Insight in Science and Engineering – Mastering Complexity(2014) [pdf]",
-      "url": "https://ocw.mit.edu/courses/res-6-011-the-art-of-insight-in-science-and-engineering-mastering-complexity-fall-2014/3bca850386a3005c22134fa62fb3bad5_MITRES_6-011F14_art_insfin.pdf",
-      "title_zh": "科学与工程中的洞察艺术 – 掌握复杂性（2014）[pdf]",
-      "created_display": "Created: Jul 19, 2026 / 00:27 PT",
-      "image_url": null,
-      "summary_en": "MIT's The Art of Insight in Science and Engineering (2014) presents approaches to mastering complexity through disciplined modeling, clear thinking, and effective communication of ideas.",
-      "summary_zh": "MIT 的《科学与工程中的洞察艺术》（2014）介绍通过严谨建模、清晰思维和有效传达来掌握复杂性的方法。",
+      "title_en": "Dumber Mini: A Nokia-Style Phone with WhatsApp and Maps",
+      "url": "https://dumbermini.com/",
+      "title_zh": "Dumber Mini：诺基亚风格的手机，内置 WhatsApp 与地图",
+      "created_display": "Created: Jul 19, 2026 / 02:02 PT",
+      "image_url": "http://dumbermini.com/cdn/shop/files/doov_pic.png?v=1750750180",
+      "summary_en": "Dumber Mini resurrects a Nokia-style feature phone with essential apps like WhatsApp and Maps, prioritizing simplicity, long battery life, and privacy-conscious usage.",
+      "summary_zh": "Dumber Mini 以诺基亚风格的功能机为灵感，内置 WhatsApp 与地图等必需应用，强调简洁、长续航与隐私友好使用。",
       "hn": {
-        "id": 48965719,
+        "id": 48966219,
         "type": "story",
-        "by": "nill0",
+        "by": "thunderbong",
         "score": 29,
-        "descendants": 2,
-        "time": 1784446057,
-        "comments_url": "https://news.ycombinator.com/item?id=48965719"
+        "descendants": 9,
+        "time": 1784451734,
+        "comments_url": "https://news.ycombinator.com/item?id=48966219"
       },
-      "hot_score": 0.49,
+      "hot_score": 0.32,
       "tags": [
-        "Education",
-        "Science"
-      ]
-    },
-    {
-      "title_en": "The Mighty Big Array of Finn Jensen LA8YB",
-      "url": "https://la0by.darc.de/LA8YB_EME_MBA.htm",
-      "title_zh": "Finn Jensen LA8YB 的庞大天线阵列",
-      "created_display": "Created: Jul 19, 2026 / 01:05 PT",
-      "image_url": "https://la0by.darc.de/LA8YB_Finn.jpg",
-      "summary_en": "A showcase of Finn Jensen LA8YB’s impressive antenna array, detailing design choices, assembly, and observed performance. The piece offers practical takeaways for amateur radio enthusiasts building large RF systems.",
-      "summary_zh": "展示 Finn Jensen LA8YB 的庞大天线阵列，介绍设计选择、组装过程与实际性能。为业余无线电爱好者搭建大型射频系统提供可操作的经验。",
-      "hn": {
-        "id": 48965914,
-        "type": "story",
-        "by": "kalehmann",
-        "score": 23,
-        "descendants": 6,
-        "time": 1784448346,
-        "comments_url": "https://news.ycombinator.com/item?id=48965914"
-      },
-      "hot_score": 0.44,
-      "tags": [
-        "Hardware"
+        "Hardware",
+        "Privacy",
+        "Energy"
       ]
     },
     {
@@ -790,31 +987,51 @@
       "tags": [
         "Programming"
       ],
-      "hot_score": 0.41
+      "hot_score": 0.3
     },
     {
-      "title_en": "Ollama: All Aboard Open Models",
-      "url": "https://ollama.com/blog/all-aboard-open-models",
-      "title_zh": "Ollama：开启开放模型的全流程",
-      "created_display": "Created: Jul 19, 2026 / 00:59 PT",
-      "image_url": "https://ollama.com/public/og.png",
-      "summary_en": "Ollama positions itself as a toolkit for running open-weight models locally, focusing on ease of use, model management, and privacy-aware deployments.",
-      "summary_zh": "Ollama 将本地运行开源权重模型定位为一个易用的工具包，强调模型管理与隐私友好部署。",
+      "title_en": "The Mighty Big Array of Finn Jensen LA8YB",
+      "url": "https://la0by.darc.de/LA8YB_EME_MBA.htm",
+      "title_zh": "Finn Jensen LA8YB 的庞大天线阵列",
+      "created_display": "Created: Jul 19, 2026 / 01:05 PT",
+      "image_url": "https://la0by.darc.de/LA8YB_Finn.jpg",
+      "summary_en": "A showcase of Finn Jensen LA8YB’s impressive antenna array, detailing design choices, assembly, and observed performance. The piece offers practical takeaways for amateur radio enthusiasts building large RF systems.",
+      "summary_zh": "展示 Finn Jensen LA8YB 的庞大天线阵列，介绍设计选择、组装过程与实际性能。为业余无线电爱好者搭建大型射频系统提供可操作的经验。",
       "hn": {
-        "id": 48965880,
+        "id": 48965914,
         "type": "story",
-        "by": "inferhaven",
-        "score": 21,
-        "descendants": 5,
-        "time": 1784447984,
-        "comments_url": "https://news.ycombinator.com/item?id=48965880"
+        "by": "kalehmann",
+        "score": 29,
+        "descendants": 7,
+        "time": 1784448346,
+        "comments_url": "https://news.ycombinator.com/item?id=48965914"
       },
-      "hot_score": 0.39,
       "tags": [
-        "AI",
-        "Open Source",
-        "Privacy"
-      ]
+        "Hardware"
+      ],
+      "hot_score": 0.28
+    },
+    {
+      "title_en": "REO Trucks I4 4WD Pickup Truck Starts at $21,500",
+      "url": "https://reotrucks.com",
+      "title_zh": "REO Trucks I4 4WD皮卡起价21,500美元",
+      "created_display": "Created: Jul 18, 2026 / 11:13 PT",
+      "image_url": "https://reotrucks.com/opengraph-image?2c37889503466c53",
+      "summary_en": "REO Trucks introduces the I4 4WD pickup with a starting price of $21,500, targeting budget-minded buyers. The entry price underscores the market’s demand for affordable, capable work trucks and could pressure incumbents to rethink value in the segment. This launch signals continued competition in the low-cost pickup space.",
+      "summary_zh": "REO Trucks 推出 I4 4WD 皮卡，起价为$21,500，瞄准预算有限的买家。这个定价凸显市场对价格友好、实用皮卡的需求，可能促使传统厂商重新思考低端价值。该产品进入低成本皮卡市场，意味着竞争将更激烈。",
+      "hn": {
+        "id": 48960607,
+        "type": "story",
+        "by": "b_mc2",
+        "score": 102,
+        "descendants": 205,
+        "time": 1784398385,
+        "comments_url": "https://news.ycombinator.com/item?id=48960607"
+      },
+      "tags": [
+        "Business"
+      ],
+      "hot_score": 0.27
     },
     {
       "title_en": "Co-evolution of self-replication and function in a digital primordial soup",
@@ -836,96 +1053,7 @@
       "tags": [
         "Science"
       ],
-      "hot_score": 0.37
-    },
-    {
-      "title_en": "What Did We Lose When We Lost the Stars",
-      "url": "https://theconvivialsociety.substack.com/p/what-did-we-lose-when-we-lost-the-c3b",
-      "title_zh": "我们在失去星星时究竟失去了什么",
-      "created_display": "Created: Jul 19, 2026 / 06:42 PT",
-      "image_url": null,
-      "summary_en": "A reflective piece on what we lose when we metaphorically lose the stars—be it in science, culture, or exploration—and what we gain by renewing curiosity and ambition.",
-      "summary_zh": "这是一篇关于在科学生态、文化或探索中的“失去星星”所带来的损失与反思，以及重新点燃好奇心和野心能带来的收获。",
-      "hn": {
-        "id": 48968149,
-        "type": "story",
-        "by": "longdefeat",
-        "score": 4,
-        "descendants": 1,
-        "time": 1784468536,
-        "comments_url": "https://news.ycombinator.com/item?id=48968149"
-      },
-      "hot_score": 0.36,
-      "tags": [
-        "Culture"
-      ]
-    },
-    {
-      "title_en": "REO Trucks I4 4WD Pickup Truck Starts at $21,500",
-      "url": "https://reotrucks.com",
-      "title_zh": "REO Trucks I4 4WD皮卡起价21,500美元",
-      "created_display": "Created: Jul 18, 2026 / 11:13 PT",
-      "image_url": "https://reotrucks.com/opengraph-image?2c37889503466c53",
-      "summary_en": "REO Trucks introduces the I4 4WD pickup with a starting price of $21,500, targeting budget-minded buyers. The entry price underscores the market’s demand for affordable, capable work trucks and could pressure incumbents to rethink value in the segment. This launch signals continued competition in the low-cost pickup space.",
-      "summary_zh": "REO Trucks 推出 I4 4WD 皮卡，起价为$21,500，瞄准预算有限的买家。这个定价凸显市场对价格友好、实用皮卡的需求，可能促使传统厂商重新思考低端价值。该产品进入低成本皮卡市场，意味着竞争将更激烈。",
-      "hn": {
-        "id": 48960607,
-        "type": "story",
-        "by": "b_mc2",
-        "score": 97,
-        "descendants": 182,
-        "time": 1784398385,
-        "comments_url": "https://news.ycombinator.com/item?id=48960607"
-      },
-      "tags": [
-        "Business"
-      ],
-      "hot_score": 0.35
-    },
-    {
-      "title_en": "Harness Engineering",
-      "url": "https://github.com/lopopolo/harness-engineering",
-      "title_zh": "Harness 工程",
-      "created_display": "Created: Jul 18, 2026 / 16:27 PT",
-      "image_url": "https://repository-images.githubusercontent.com/1305243497/a143bb0a-1d9f-4f6a-b931-7dd4f0a87c26",
-      "summary_en": "Harness Engineering presents a framework or collection of practices for building and using harnesses to test, benchmark, or orchestrate experiments in software and ML systems.",
-      "summary_zh": "Harness Engineering 提供构建与使用“工具箱/对接”以测试、基准测试或编排软件与机器学习系统实验的实践框架。",
-      "hn": {
-        "id": 48963483,
-        "type": "story",
-        "by": "handfuloflight",
-        "score": 61,
-        "descendants": 23,
-        "time": 1784417256,
-        "comments_url": "https://news.ycombinator.com/item?id=48963483"
-      },
-      "tags": [
-        "DevOps",
-        "Open Source"
-      ],
-      "hot_score": 0.35
-    },
-    {
-      "title_en": "Deepsec",
-      "url": "https://github.com/vercel-labs/deepsec",
-      "title_zh": "DeepSec 安全大会",
-      "created_display": "Created: Jul 18, 2026 / 18:33 PT",
-      "image_url": "https://opengraph.githubassets.com/b4232ca640901c14b106ce2ece29ac01e3d3813041f9953eb4dc29f4af7a4634/vercel-labs/deepsec",
-      "summary_en": "DeepSec is a security conference; the repository collects talks, materials, and potentially talks on threat intelligence, security research, and defense techniques. It serves as a hub for researchers to share findings and for practitioners to stay updated on emerging attack surfaces.",
-      "summary_zh": "DeepSec 是一场安全大会，该仓库汇集了演讲、材料和研究成果，涵盖威胁情报、漏洞研究与防御技术等主题。它为研究者分享发现、从业者了解新兴攻击面提供了一个集中的资源入口。",
-      "hn": {
-        "id": 48964215,
-        "type": "story",
-        "by": "handfuloflight",
-        "score": 49,
-        "descendants": 5,
-        "time": 1784424812,
-        "comments_url": "https://news.ycombinator.com/item?id=48964215"
-      },
-      "tags": [
-        "Security"
-      ],
-      "hot_score": 0.35
+      "hot_score": 0.26
     },
     {
       "title_en": "The Zilog Z80 has turned 50",
@@ -947,7 +1075,7 @@
       "tags": [
         "Hardware"
       ],
-      "hot_score": 0.29
+      "hot_score": 0.25
     },
     {
       "title_en": "The Computer at the Bottom of a Canal",
@@ -970,76 +1098,74 @@
         "Hardware",
         "Data"
       ],
-      "hot_score": 0.29
+      "hot_score": 0.24
     },
     {
-      "title_en": "Judge a book by its first pages",
-      "url": "https://uncovered.ink",
-      "title_zh": "先读前几页就能判断一本书吗？",
-      "created_display": "Created: Jul 18, 2026 / 15:02 PT",
-      "image_url": "https://uncovered.ink/og.png",
-      "summary_en": "Opening pages can reveal a book’s voice, pacing, and overall quality more quickly than the rest.",
-      "summary_zh": "前几页往往能揭示一本书的风格、节奏与质量，快速判断是否值得继续阅读。",
+      "title_en": "Harness Engineering",
+      "url": "https://github.com/lopopolo/harness-engineering",
+      "title_zh": "Harness 工程",
+      "created_display": "Created: Jul 18, 2026 / 16:27 PT",
+      "image_url": "https://repository-images.githubusercontent.com/1305243497/a143bb0a-1d9f-4f6a-b931-7dd4f0a87c26",
+      "summary_en": "Harness Engineering presents a framework or collection of practices for building and using harnesses to test, benchmark, or orchestrate experiments in software and ML systems.",
+      "summary_zh": "Harness Engineering 提供构建与使用“工具箱/对接”以测试、基准测试或编排软件与机器学习系统实验的实践框架。",
       "hn": {
-        "id": 48962893,
+        "id": 48963483,
         "type": "story",
-        "by": "bookofjoe",
-        "score": 56,
-        "descendants": 40,
-        "time": 1784412151,
-        "comments_url": "https://news.ycombinator.com/item?id=48962893"
+        "by": "handfuloflight",
+        "score": 61,
+        "descendants": 23,
+        "time": 1784417256,
+        "comments_url": "https://news.ycombinator.com/item?id=48963483"
       },
-      "hot_score": 0.28,
       "tags": [
-        "Culture"
+        "DevOps"
+      ],
+      "hot_score": 0.24
+    },
+    {
+      "title_en": "DRIVE – Operational Excellence for AI-accelerated engineering",
+      "url": "https://www.cortex.io/drive",
+      "title_zh": "DRIVE – AI 加速工程的运营卓越",
+      "created_display": "Created: Jul 19, 2026 / 06:30 PT",
+      "image_url": "https://a-us.storyblok.com/f/1021527/1200x600/b5d7e1f131/framework_meta_image.webp",
+      "summary_en": "DRIVE is Cortex’s initiative to orchestrate AI-accelerated engineering workflows with emphasis on governance, reproducibility, and observability. It aims to make AI-assisted engineering more scalable, auditable, and reliable across teams.",
+      "summary_zh": "DRIVE 是 Cortex 推出的一套用于编排 AI 加速的工程工作流的方案，聚焦治理、可复现性与可观测性。旨在让 AI 辅助的工程工作更具可扩展性、可审计性和可靠性。",
+      "hn": {
+        "id": 48968067,
+        "type": "story",
+        "by": "backlit4034",
+        "score": 10,
+        "descendants": 2,
+        "time": 1784467801,
+        "comments_url": "https://news.ycombinator.com/item?id=48968067"
+      },
+      "hot_score": 0.24,
+      "tags": [
+        "AI",
+        "DevOps"
       ]
     },
     {
-      "title_en": "Real-Time LuaTeX: Recompiling Large Documents in 1ms [pdf]",
-      "url": "https://www.tug.org/tug2026/preprints/lode-realtime.pdf",
-      "title_zh": "实时 LuaTeX：大文档可在 1 ms 内重新编译",
-      "created_display": "Created: Jul 18, 2026 / 15:09 PT",
-      "image_url": null,
-      "summary_en": "A preprint describing techniques for real-time LuaTeX incremental recompilation, enabling near-instant feedback when editing large LaTeX documents. The work showcases caching and dependency-tracking improvements.",
-      "summary_zh": "预印本介绍了 LuaTeX 的实时增量重新编译技术，在编辑大文档时实现近乎瞬时的反馈。该工作展示了缓存和依赖追踪等改进。",
+      "title_en": "Deepsec",
+      "url": "https://github.com/vercel-labs/deepsec",
+      "title_zh": "DeepSec 安全大会",
+      "created_display": "Created: Jul 18, 2026 / 18:33 PT",
+      "image_url": "https://opengraph.githubassets.com/b4232ca640901c14b106ce2ece29ac01e3d3813041f9953eb4dc29f4af7a4634/vercel-labs/deepsec",
+      "summary_en": "DeepSec is a security conference; the repository collects talks, materials, and potentially talks on threat intelligence, security research, and defense techniques. It serves as a hub for researchers to share findings and for practitioners to stay updated on emerging attack surfaces.",
+      "summary_zh": "DeepSec 是一场安全大会，该仓库汇集了演讲、材料和研究成果，涵盖威胁情报、漏洞研究与防御技术等主题。它为研究者分享发现、从业者了解新兴攻击面提供了一个集中的资源入口。",
       "hn": {
-        "id": 48962944,
+        "id": 48964215,
         "type": "story",
-        "by": "amichail",
-        "score": 52,
-        "descendants": 13,
-        "time": 1784412547,
-        "comments_url": "https://news.ycombinator.com/item?id=48962944"
+        "by": "handfuloflight",
+        "score": 49,
+        "descendants": 5,
+        "time": 1784424812,
+        "comments_url": "https://news.ycombinator.com/item?id=48964215"
       },
       "tags": [
-        "Programming",
-        "Privacy"
+        "Security"
       ],
-      "hot_score": 0.26
-    },
-    {
-      "title_en": "I built a browser-based P2P file transfer tool using WebRTC",
-      "url": "https://airdows.com/",
-      "title_zh": "我用浏览器实现的基于 WebRTC 的点对点文件传输工具",
-      "created_display": "Created: Jul 18, 2026 / 19:17 PT",
-      "image_url": "https://airdows.com/assets/og-airdows.jpg",
-      "summary_en": "Built a browser-based P2P file transfer tool using WebRTC to enable direct, serverless file sharing between peers. The project tackles NAT traversal, browser security, and user experience trade-offs, showing how WebRTC can enable practical, private transfers without backend infrastructure.",
-      "summary_zh": "该浏览器端点对端文件传输工具基于 WebRTC 实现，允许对等方直接在浏览器中传输文件，避免依赖服务端。实现过程涉及 NAT 穿透、浏览器安全与用户体验权衡，展示了 WebRTC 在隐私友好传输中的实际应用。",
-      "hn": {
-        "id": 48964424,
-        "type": "story",
-        "by": "SamOkampo",
-        "score": 34,
-        "descendants": 16,
-        "time": 1784427423,
-        "comments_url": "https://news.ycombinator.com/item?id=48964424"
-      },
-      "tags": [
-        "Web",
-        "Security",
-        "DevOps"
-      ],
-      "hot_score": 0.26
+      "hot_score": 0.23
     },
     {
       "title_en": "TP-Link Kasa cameras leaked home GPS via unauthenticated UDP for 6 years",
@@ -1062,7 +1188,53 @@
         "Security",
         "Privacy"
       ],
-      "hot_score": 0.25
+      "hot_score": 0.22
+    },
+    {
+      "title_en": "What's the deal with all the random weekly quota resets for agents lately?",
+      "url": "https://minimaxir.com/2026/07/agent-quota-reset/",
+      "title_zh": "代理（agent）最近频繁的每周配额重置是怎么回事？",
+      "created_display": "Created: Jul 18, 2026 / 12:06 PT",
+      "image_url": "https://minimaxir.com/2026/07/agent-quota-reset/featured.png",
+      "summary_en": "The post investigates why some AI agent platforms reset quotas on a weekly basis at seemingly random times, discussing implications for calibration, experimentation, and reproducibility. It explores potential bugs or design choices and offers tips for developers to manage quotas or plan around resets.",
+      "summary_zh": "文章分析了一些 AI Agent 平台为何以看似随机的时间每周重置配额，对实验可重复性和调参造成影响。探讨了可能的漏洞或设计取舍，并给开发者在应对重置时的策略与建议。",
+      "hn": {
+        "id": 48961157,
+        "type": "story",
+        "by": "minimaxir",
+        "score": 70,
+        "descendants": 77,
+        "time": 1784401583,
+        "comments_url": "https://news.ycombinator.com/item?id=48961157"
+      },
+      "tags": [
+        "AI"
+      ],
+      "hot_score": 0.2
+    },
+    {
+      "title_en": "Ollama: All Aboard Open Models",
+      "url": "https://ollama.com/blog/all-aboard-open-models",
+      "title_zh": "Ollama：开启开放模型的全流程",
+      "created_display": "Created: Jul 19, 2026 / 00:59 PT",
+      "image_url": "https://ollama.com/public/og.png",
+      "summary_en": "Ollama positions itself as a toolkit for running open-weight models locally, focusing on ease of use, model management, and privacy-aware deployments.",
+      "summary_zh": "Ollama 将本地运行开源权重模型定位为一个易用的工具包，强调模型管理与隐私友好部署。",
+      "hn": {
+        "id": 48965880,
+        "type": "story",
+        "by": "inferhaven",
+        "score": 21,
+        "descendants": 5,
+        "time": 1784447984,
+        "comments_url": "https://news.ycombinator.com/item?id=48965880"
+      },
+      "hot_score": 0.2,
+      "tags": [
+        "AI",
+        "Open Source",
+        "Privacy"
+      ]
     },
     {
       "title_en": "Show HN: Q3Edit – Edit and play Quake 3 maps in the browser",
@@ -1085,52 +1257,29 @@
         "Show HN",
         "Web"
       ],
-      "hot_score": 0.25
+      "hot_score": 0.19
     },
     {
-      "title_en": "LLM-Integrated Multivariable Calculus Course",
-      "url": "https://calculus.academa.ai/",
-      "title_zh": "将大模型融入的多变量微积分课程",
-      "created_display": "Created: Jul 18, 2026 / 19:55 PT",
-      "image_url": "https://calculus.academa.ai/og/vectors?locale=en",
-      "summary_en": "An experimental calculus course augmented with a language-model interface to provide explanations, hints, and feedback. The integration aims to personalize learning and reduce friction in tackling multivariable problems.",
-      "summary_zh": "一个将大型语言模型整合进多变量微积分课程的教学实验，提供解释、提示与反馈，旨在个性化学习并降低解决多变量问题的门槛。",
+      "title_en": "Judge a book by its first pages",
+      "url": "https://uncovered.ink",
+      "title_zh": "先读前几页就能判断一本书吗？",
+      "created_display": "Created: Jul 18, 2026 / 15:02 PT",
+      "image_url": "https://uncovered.ink/og.png",
+      "summary_en": "Opening pages can reveal a book’s voice, pacing, and overall quality more quickly than the rest.",
+      "summary_zh": "前几页往往能揭示一本书的风格、节奏与质量，快速判断是否值得继续阅读。",
       "hn": {
-        "id": 48964585,
+        "id": 48962893,
         "type": "story",
-        "by": "sinaatalay",
-        "score": 30,
-        "descendants": 42,
-        "time": 1784429743,
-        "comments_url": "https://news.ycombinator.com/item?id=48964585"
+        "by": "bookofjoe",
+        "score": 56,
+        "descendants": 40,
+        "time": 1784412151,
+        "comments_url": "https://news.ycombinator.com/item?id=48962893"
       },
+      "hot_score": 0.19,
       "tags": [
-        "AI",
-        "Education"
-      ],
-      "hot_score": 0.25
-    },
-    {
-      "title_en": "What's the deal with all the random weekly quota resets for agents lately?",
-      "url": "https://minimaxir.com/2026/07/agent-quota-reset/",
-      "title_zh": "代理（agent）最近频繁的每周配额重置是怎么回事？",
-      "created_display": "Created: Jul 18, 2026 / 12:06 PT",
-      "image_url": "https://minimaxir.com/2026/07/agent-quota-reset/featured.png",
-      "summary_en": "The post investigates why some AI agent platforms reset quotas on a weekly basis at seemingly random times, discussing implications for calibration, experimentation, and reproducibility. It explores potential bugs or design choices and offers tips for developers to manage quotas or plan around resets.",
-      "summary_zh": "文章分析了一些 AI Agent 平台为何以看似随机的时间每周重置配额，对实验可重复性和调参造成影响。探讨了可能的漏洞或设计取舍，并给开发者在应对重置时的策略与建议。",
-      "hn": {
-        "id": 48961157,
-        "type": "story",
-        "by": "minimaxir",
-        "score": 63,
-        "descendants": 67,
-        "time": 1784401583,
-        "comments_url": "https://news.ycombinator.com/item?id=48961157"
-      },
-      "tags": [
-        "AI"
-      ],
-      "hot_score": 0.24
+        "Culture"
+      ]
     },
     {
       "title_en": "Our Approach to Bioresilience: Isomorphic Labs and Google DeepMind",
@@ -1153,7 +1302,145 @@
         "AI",
         "Science"
       ],
-      "hot_score": 0.23
+      "hot_score": 0.18
+    },
+    {
+      "title_en": "Real-Time LuaTeX: Recompiling Large Documents in 1ms [pdf]",
+      "url": "https://www.tug.org/tug2026/preprints/lode-realtime.pdf",
+      "title_zh": "实时 LuaTeX：大文档可在 1 ms 内重新编译",
+      "created_display": "Created: Jul 18, 2026 / 15:09 PT",
+      "image_url": null,
+      "summary_en": "A preprint describing techniques for real-time LuaTeX incremental recompilation, enabling near-instant feedback when editing large LaTeX documents. The work showcases caching and dependency-tracking improvements.",
+      "summary_zh": "预印本介绍了 LuaTeX 的实时增量重新编译技术，在编辑大文档时实现近乎瞬时的反馈。该工作展示了缓存和依赖追踪等改进。",
+      "hn": {
+        "id": 48962944,
+        "type": "story",
+        "by": "amichail",
+        "score": 52,
+        "descendants": 13,
+        "time": 1784412547,
+        "comments_url": "https://news.ycombinator.com/item?id=48962944"
+      },
+      "tags": [
+        "Programming",
+        "Privacy"
+      ],
+      "hot_score": 0.18
+    },
+    {
+      "title_en": "I built a browser-based P2P file transfer tool using WebRTC",
+      "url": "https://airdows.com/",
+      "title_zh": "我用浏览器实现的基于 WebRTC 的点对点文件传输工具",
+      "created_display": "Created: Jul 18, 2026 / 19:17 PT",
+      "image_url": "https://airdows.com/assets/og-airdows.jpg",
+      "summary_en": "Built a browser-based P2P file transfer tool using WebRTC to enable direct, serverless file sharing between peers. The project tackles NAT traversal, browser security, and user experience trade-offs, showing how WebRTC can enable practical, private transfers without backend infrastructure.",
+      "summary_zh": "该浏览器端点对端文件传输工具基于 WebRTC 实现，允许对等方直接在浏览器中传输文件，避免依赖服务端。实现过程涉及 NAT 穿透、浏览器安全与用户体验权衡，展示了 WebRTC 在隐私友好传输中的实际应用。",
+      "hn": {
+        "id": 48964424,
+        "type": "story",
+        "by": "SamOkampo",
+        "score": 34,
+        "descendants": 16,
+        "time": 1784427423,
+        "comments_url": "https://news.ycombinator.com/item?id=48964424"
+      },
+      "tags": [
+        "Programming",
+        "Web",
+        "Security",
+        "DevOps"
+      ],
+      "hot_score": 0.17
+    },
+    {
+      "title_en": "Anthropic runs large-scale code migrations with Claude Code",
+      "url": "https://claude.com/blog/ai-code-migration",
+      "title_zh": "Anthropic 使用 Claude Code 进行大规模代码迁移",
+      "created_display": "Created: Jul 19, 2026 / 01:31 PT",
+      "image_url": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a5909b6d772e7da001ff28f_og_ai-code-migration.jpg",
+      "summary_en": "Anthropic employed Claude Code to perform large-scale code migrations, highlighting AI-assisted refactoring, automated porting, and the reliability gains from code migration at scale.",
+      "summary_zh": "Anthropic 使用 Claude Code 实现了大规模代码迁移，突出了 AI 辅助重构、自动化移植以及在大规模代码迁移中的可靠性提升。",
+      "hn": {
+        "id": 48966044,
+        "type": "story",
+        "by": "vinhnx",
+        "score": 17,
+        "descendants": 16,
+        "time": 1784449875,
+        "comments_url": "https://news.ycombinator.com/item?id=48966044"
+      },
+      "tags": [
+        "AI"
+      ],
+      "hot_score": 0.17
+    },
+    {
+      "title_en": "UnifiedIR for Julia",
+      "url": "https://github.com/JuliaLang/julia/pull/62334",
+      "title_zh": "Julia 的 UnifiedIR（统一中间表示）",
+      "created_display": "Created: Jul 18, 2026 / 14:28 PT",
+      "image_url": "https://opengraph.githubassets.com/73f470841062a9a5582d13df88bca37782aff2c2213fa48c14a785cc95e454b0/JuliaLang/julia/pull/62334",
+      "summary_en": "A proposal to add a UnifiedIR to Julia aims to centralize backends under one intermediate representation, enabling cross-backend optimizations and future language features. If merged, this could simplify compiler maintenance and speed up experimentation with new targets.",
+      "summary_zh": "为 Julia 引入统一的 UnifiedIR，意在把后端统一到同一个中间表示上，以支持跨后端优化和未来特性。若合并，将简化编译器维护并加速对新目标的尝试。",
+      "hn": {
+        "id": 48962600,
+        "type": "story",
+        "by": "vimarsh6739",
+        "score": 47,
+        "descendants": 12,
+        "time": 1784410118,
+        "comments_url": "https://news.ycombinator.com/item?id=48962600"
+      },
+      "hot_score": 0.16,
+      "tags": [
+        "Programming",
+        "Web"
+      ]
+    },
+    {
+      "title_en": "LLM-Integrated Multivariable Calculus Course",
+      "url": "https://calculus.academa.ai/",
+      "title_zh": "将大模型融入的多变量微积分课程",
+      "created_display": "Created: Jul 18, 2026 / 19:55 PT",
+      "image_url": "https://calculus.academa.ai/og/vectors?locale=en",
+      "summary_en": "An experimental calculus course augmented with a language-model interface to provide explanations, hints, and feedback. The integration aims to personalize learning and reduce friction in tackling multivariable problems.",
+      "summary_zh": "一个将大型语言模型整合进多变量微积分课程的教学实验，提供解释、提示与反馈，旨在个性化学习并降低解决多变量问题的门槛。",
+      "hn": {
+        "id": 48964585,
+        "type": "story",
+        "by": "sinaatalay",
+        "score": 30,
+        "descendants": 42,
+        "time": 1784429743,
+        "comments_url": "https://news.ycombinator.com/item?id=48964585"
+      },
+      "tags": [
+        "AI",
+        "Education"
+      ],
+      "hot_score": 0.16
+    },
+    {
+      "title_en": "Natural experiments prove phytoplankton carbon removal works",
+      "url": "https://www.onepercentbrighter.com/p/natural-experiments-prove-feeding",
+      "title_zh": "自然实验证明浮游植物碳去除有效",
+      "created_display": "Created: Jul 19, 2026 / 07:51 PT",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!lkgi!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5ff70833-3885-4a99-8295-94f0951945de_2416x1724.jpeg",
+      "summary_en": "Natural experiments provide evidence that phytoplankton-driven carbon removal works, suggesting a viable nature-based approach to climate mitigation. The findings support pursuing ocean-based carbon sequestration while noting uncertainties around scale and ecological side effects.",
+      "summary_zh": "自然实验显示浮游植物通过光合作用实现碳去除，支持以海洋为基础的气候缓解策略。研究强调海洋碳汇的潜力，但在规模化、成本与生态副作用方面仍存在不确定性。",
+      "hn": {
+        "id": 48968701,
+        "type": "story",
+        "by": "getnormality",
+        "score": 5,
+        "descendants": 0,
+        "time": 1784472717,
+        "comments_url": "https://news.ycombinator.com/item?id=48968701"
+      },
+      "hot_score": 0.15,
+      "tags": [
+        "Science"
+      ]
     },
     {
       "title_en": "IceCream – Never use print() to debug again",
@@ -1175,30 +1462,7 @@
       "tags": [
         "Programming"
       ],
-      "hot_score": 0.2
-    },
-    {
-      "title_en": "Anthropic runs large-scale code migrations with Claude Code",
-      "url": "https://claude.com/blog/ai-code-migration",
-      "title_zh": "Anthropic 使用 Claude Code 进行大规模代码迁移",
-      "created_display": "Created: Jul 19, 2026 / 01:31 PT",
-      "image_url": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a5909b6d772e7da001ff28f_og_ai-code-migration.jpg",
-      "summary_en": "Anthropic employed Claude Code to perform large-scale code migrations, highlighting AI-assisted refactoring, automated porting, and the reliability gains from code migration at scale.",
-      "summary_zh": "Anthropic 使用 Claude Code 实现了大规模代码迁移，突出了 AI 辅助重构、自动化移植以及在大规模代码迁移中的可靠性提升。",
-      "hn": {
-        "id": 48966044,
-        "type": "story",
-        "by": "vinhnx",
-        "score": 6,
-        "descendants": 1,
-        "time": 1784449875,
-        "comments_url": "https://news.ycombinator.com/item?id=48966044"
-      },
-      "hot_score": 0.11,
-      "tags": [
-        "AI",
-        "Programming"
-      ]
+      "hot_score": 0.13
     },
     {
       "title_en": "Speech Recognition and TTS in less than 500kb",
@@ -1212,17 +1476,61 @@
         "id": 48911793,
         "type": "story",
         "by": "petewarden",
-        "score": 499,
-        "descendants": 69,
+        "score": 533,
+        "descendants": 77,
         "time": 1784057110,
         "comments_url": "https://news.ycombinator.com/item?id=48911793"
       },
       "tags": [
         "AI",
-        "Hardware",
         "Privacy"
       ],
       "hot_score": 0.09
+    },
+    {
+      "title_en": "Study: Single-crystal nanowires of niobium arsenide may replace copper wires",
+      "url": "https://news.cornell.edu/stories/2026/07/too-thin-fail-alternative-copper-microchip-interconnects",
+      "title_zh": "铌砷 NbAs 的单晶纳米线可能取代铜线",
+      "created_display": "Created: Jul 19, 2026 / 05:08 PT",
+      "image_url": "https://news.cornell.edu/sites/default/files/styles/story_thumbnail_lg/public/2026-07/0716_nanowires.jpg?itok=2uhAptMH",
+      "summary_en": "Researchers report single-crystal niobium arsenide (NbAs) nanowires with potential for interconnect replacements in microchips. If scalable, these nanowires could offer superior conductivity and smaller cross-sections, potentially reducing resistive losses and heat in chip wiring.",
+      "summary_zh": "研究人员发现铌砷 NbAs 的单晶纳米线在互连材料方面有替代铜线的潜力。若实现大规模制造，这种纳米线或提供更高导电性和更小的截面积，降低电阻损耗和芯片发热。",
+      "hn": {
+        "id": 48967406,
+        "type": "story",
+        "by": "giuliomagnifico",
+        "score": 5,
+        "descendants": 1,
+        "time": 1784462892,
+        "comments_url": "https://news.ycombinator.com/item?id=48967406"
+      },
+      "hot_score": 0.08,
+      "tags": [
+        "Science",
+        "Hardware"
+      ]
+    },
+    {
+      "title_en": "What Did We Lose When We Lost the Stars",
+      "url": "https://theconvivialsociety.substack.com/p/what-did-we-lose-when-we-lost-the-c3b",
+      "title_zh": "我们在失去星星时究竟失去了什么",
+      "created_display": "Created: Jul 19, 2026 / 06:42 PT",
+      "image_url": null,
+      "summary_en": "A reflective piece on what we lose when we metaphorically lose the stars—be it in science, culture, or exploration—and what we gain by renewing curiosity and ambition.",
+      "summary_zh": "这是一篇关于在科学生态、文化或探索中的“失去星星”所带来的损失与反思，以及重新点燃好奇心和野心能带来的收获。",
+      "hn": {
+        "id": 48968149,
+        "type": "story",
+        "by": "longdefeat",
+        "score": 4,
+        "descendants": 1,
+        "time": 1784468536,
+        "comments_url": "https://news.ycombinator.com/item?id=48968149"
+      },
+      "hot_score": 0.08,
+      "tags": [
+        "Culture"
+      ]
     },
     {
       "title_en": "Tech note: making your own V-I plots at home",
@@ -1242,29 +1550,31 @@
         "comments_url": "https://news.ycombinator.com/item?id=48951756"
       },
       "tags": [
-        "Science"
+        "Hardware"
       ],
-      "hot_score": 0.08
+      "hot_score": 0.07
     },
     {
-      "title_en": "Is this the end of the once-mighty GoPro?",
-      "url": "https://amateurphotographer.com/latest/photo-news/going-going-gone-is-this-the-end-of-the-once-mighty-gopro/",
-      "title_zh": "昔日强势的 GoPro 会走向尽头吗？",
-      "created_display": "Created: Jul 14, 2026 / 20:46 PT",
-      "image_url": "https://amateurphotographer.com/wp-content/uploads/sites/7/2025/02/GoPro-HERO-2.jpg",
-      "summary_en": "GoPro faces an uncertain future as action-camera demand wanes and smartphones erode its moat. The piece considers whether the company can reinvent through services, software, or new business models to stay relevant.",
-      "summary_zh": "随着行动相机需求下降、智能手机分流，GoPro 的前景变得不确定。文章讨论公司是否能通过服务化、软件或新商业模式来重新定位并保持竞争力。",
+      "title_en": "Blender 5.2 LTS",
+      "url": "https://www.blender.org/download/releases/5-2/",
+      "title_zh": "Blender 5.2 LTS",
+      "created_display": "Created: Jul 14, 2026 / 11:22 PT",
+      "image_url": "https://www.blender.org/wp-content/uploads/2026/06/splash5_2.webp",
+      "summary_en": "Blender 5.2 LTS marks the newest long-term support release, prioritizing stability for studios and creators who rely on consistent updates. It brings refinements across rendering, animation tooling, and the Python API, with ongoing bug fixes and security updates planned for years.",
+      "summary_zh": "Blender 5.2 LTS 发布，面向需要长期稳定更新的工作室与创作者。该版本在渲染、动画工具与 Python API 等方面带来改进，并承诺多年的错误修复与安全更新。",
       "hn": {
-        "id": 48916044,
+        "id": 48911021,
         "type": "story",
-        "by": "aanet",
-        "score": 215,
-        "descendants": 473,
-        "time": 1784087195,
-        "comments_url": "https://news.ycombinator.com/item?id=48916044"
+        "by": "makizar",
+        "score": 266,
+        "descendants": 105,
+        "time": 1784053367,
+        "comments_url": "https://news.ycombinator.com/item?id=48911021"
       },
       "tags": [
-        "Business"
+        "Open Source",
+        "Programming",
+        "Security"
       ],
       "hot_score": 0.05
     },
@@ -1286,34 +1596,32 @@
         "comments_url": "https://news.ycombinator.com/item?id=48907063"
       },
       "tags": [
-        "Hardware",
-        "Open Source"
+        "Open Source",
+        "Hardware"
       ],
       "hot_score": 0.04
     },
     {
-      "title_en": "Blender 5.2 LTS",
-      "url": "https://www.blender.org/download/releases/5-2/",
-      "title_zh": "Blender 5.2 LTS",
-      "created_display": "Created: Jul 14, 2026 / 11:22 PT",
-      "image_url": "https://www.blender.org/wp-content/uploads/2026/06/splash5_2.webp",
-      "summary_en": "Blender 5.2 LTS marks the newest long-term support release, prioritizing stability for studios and creators who rely on consistent updates. It brings refinements across rendering, animation tooling, and the Python API, with ongoing bug fixes and security updates planned for years.",
-      "summary_zh": "Blender 5.2 LTS 发布，面向需要长期稳定更新的工作室与创作者。该版本在渲染、动画工具与 Python API 等方面带来改进，并承诺多年的错误修复与安全更新。",
+      "title_en": "Is this the end of the once-mighty GoPro?",
+      "url": "https://amateurphotographer.com/latest/photo-news/going-going-gone-is-this-the-end-of-the-once-mighty-gopro/",
+      "title_zh": "昔日强势的 GoPro 会走向尽头吗？",
+      "created_display": "Created: Jul 14, 2026 / 20:46 PT",
+      "image_url": "https://amateurphotographer.com/wp-content/uploads/sites/7/2025/02/GoPro-HERO-2.jpg",
+      "summary_en": "GoPro faces an uncertain future as action-camera demand wanes and smartphones erode its moat. The piece considers whether the company can reinvent through services, software, or new business models to stay relevant.",
+      "summary_zh": "随着行动相机需求下降、智能手机分流，GoPro 的前景变得不确定。文章讨论公司是否能通过服务化、软件或新商业模式来重新定位并保持竞争力。",
       "hn": {
-        "id": 48911021,
+        "id": 48916044,
         "type": "story",
-        "by": "makizar",
-        "score": 150,
-        "descendants": 68,
-        "time": 1784053367,
-        "comments_url": "https://news.ycombinator.com/item?id=48911021"
+        "by": "aanet",
+        "score": 215,
+        "descendants": 473,
+        "time": 1784087195,
+        "comments_url": "https://news.ycombinator.com/item?id=48916044"
       },
-      "hot_score": 0.03,
       "tags": [
-        "Open Source",
-        "Programming",
-        "Security"
-      ]
+        "Business"
+      ],
+      "hot_score": 0.04
     },
     {
       "title_en": "Mathematicians still don't know the fastest way to multiply numbers",
@@ -1327,8 +1635,8 @@
         "id": 48895861,
         "type": "story",
         "by": "beardyw",
-        "score": 152,
-        "descendants": 91,
+        "score": 194,
+        "descendants": 107,
         "time": 1783963270,
         "comments_url": "https://news.ycombinator.com/item?id=48895861"
       },
@@ -1356,8 +1664,8 @@
         "comments_url": "https://news.ycombinator.com/item?id=48892021"
       },
       "tags": [
-        "Entertainment",
-        "Culture"
+        "Culture",
+        "Entertainment"
       ],
       "hot_score": 0.02
     },
@@ -1396,8 +1704,8 @@
         "id": 48904269,
         "type": "story",
         "by": "Garbage",
-        "score": 64,
-        "descendants": 10,
+        "score": 86,
+        "descendants": 13,
         "time": 1784022089,
         "comments_url": "https://news.ycombinator.com/item?id=48904269"
       },
@@ -1418,13 +1726,38 @@
         "id": 48877124,
         "type": "story",
         "by": "zdw",
-        "score": 63,
-        "descendants": 6,
+        "score": 74,
+        "descendants": 7,
         "time": 1783815734,
         "comments_url": "https://news.ycombinator.com/item?id=48877124"
       },
       "tags": [
-        "Culture"
+        "Web",
+        "Data"
+      ],
+      "hot_score": 0.01
+    },
+    {
+      "title_en": "Using self-hosted Umami for iOS app analytics",
+      "url": "https://hjerpbakk.com/blog/2026/07/14/umami-for-apps",
+      "title_zh": "在本地托管的 Umami 上做 iOS 应用分析",
+      "created_display": "Created: Jul 14, 2026 / 05:34 PT",
+      "image_url": "https://hjerpbakk.com/img/umami-for-apps/app-analytics.png",
+      "summary_en": "Umami, an open-source analytics platform, can be self-hosted to track iOS app usage while avoiding third-party trackers. The post explains how to integrate the client, collect events, and analyze privacy-respecting metrics, giving developers ownership over data.",
+      "summary_zh": "开源分析工具 Umami 可以自托管，用于跟踪 iOS 应用的使用情况，同时避免依赖第三方跟踪。文中介绍了如何集成客户端、发送事件并分析隐私友好型指标，让开发者掌握数据所有权。",
+      "hn": {
+        "id": 48905836,
+        "type": "story",
+        "by": "Sankra",
+        "score": 55,
+        "descendants": 8,
+        "time": 1784032481,
+        "comments_url": "https://news.ycombinator.com/item?id=48905836"
+      },
+      "tags": [
+        "Open Source",
+        "Privacy",
+        "Data"
       ],
       "hot_score": 0.01
     },
@@ -1447,30 +1780,29 @@
       },
       "hot_score": 0.01,
       "tags": [
-        "Culture"
+        "Culture",
+        "Business"
       ]
     },
     {
-      "title_en": "Using self-hosted Umami for iOS app analytics",
-      "url": "https://hjerpbakk.com/blog/2026/07/14/umami-for-apps",
-      "title_zh": "在本地托管的 Umami 上做 iOS 应用分析",
-      "created_display": "Created: Jul 14, 2026 / 05:34 PT",
-      "image_url": "https://hjerpbakk.com/img/umami-for-apps/app-analytics.png",
-      "summary_en": "Umami, an open-source analytics platform, can be self-hosted to track iOS app usage while avoiding third-party trackers. The post explains how to integrate the client, collect events, and analyze privacy-respecting metrics, giving developers ownership over data.",
-      "summary_zh": "开源分析工具 Umami 可以自托管，用于跟踪 iOS 应用的使用情况，同时避免依赖第三方跟踪。文中介绍了如何集成客户端、发送事件并分析隐私友好型指标，让开发者掌握数据所有权。",
+      "title_en": "Infinities, impossibilities, and the man in the white linen suit",
+      "url": "https://iain.so/infinities-impossibilities-and-the-man-in-the-white-linen-suit",
+      "title_zh": "无穷、可能性与白色亚麻西装中的人",
+      "created_display": "Created: Jul 14, 2026 / 01:24 PT",
+      "image_url": "https://i.snap.as/xrsjsR08.png",
+      "summary_en": "A contemplative exploration of infinities and impossibilities in science, using a fictional figure to illustrate how humans grapple with abstract concepts and the limits of intuition in understanding the universe.",
+      "summary_zh": "这是一篇关于无穷与不可能性的思考性探讨，借助一个虚构人物来展示人类如何处理抽象概念以及在理解宇宙时直觉的极限。",
       "hn": {
-        "id": 48905836,
+        "id": 48903717,
         "type": "story",
-        "by": "Sankra",
-        "score": 36,
-        "descendants": 4,
-        "time": 1784032481,
-        "comments_url": "https://news.ycombinator.com/item?id=48905836"
+        "by": "iainharper",
+        "score": 42,
+        "descendants": 34,
+        "time": 1784017494,
+        "comments_url": "https://news.ycombinator.com/item?id=48903717"
       },
       "tags": [
-        "Privacy",
-        "Open Source",
-        "Data"
+        "Science"
       ],
       "hot_score": 0.01
     },
@@ -1493,8 +1825,9 @@
       },
       "hot_score": 0.01,
       "tags": [
+        "Security",
         "Privacy",
-        "Security"
+        "Data"
       ]
     },
     {
@@ -1538,10 +1871,31 @@
       },
       "tags": [
         "Security",
-        "Web",
         "Programming"
       ],
       "hot_score": 0.0
+    },
+    {
+      "title_en": "Cagire: Live Coding in Forth",
+      "url": "https://cagire.raphaelforment.fr",
+      "title_zh": "Cagire：在 Forth 中进行实时编码",
+      "created_display": "Created: Jul 10, 2026 / 07:45 PT",
+      "image_url": "https://cagire.raphaelforment.fr/Cagire.png",
+      "summary_en": "Cagire is a live-coding environment for the Forth language, enabling interactive editing and immediate feedback on Forth code. It showcases how vintage stack-based languages can be taught and explored with modern tooling, lowering the barrier to experimentation.",
+      "summary_zh": "Cagire 是一个用于 Forth 的实时编码环境，支持交互式编写并即时看到结果。它展示了在现代工具下学习和探索这类堆栈式语言的可行性，降低了实验门槛。",
+      "hn": {
+        "id": 48860719,
+        "type": "story",
+        "by": "surprisetalk",
+        "score": 47,
+        "descendants": 6,
+        "time": 1783694733,
+        "comments_url": "https://news.ycombinator.com/item?id=48860719"
+      },
+      "hot_score": 0.0,
+      "tags": [
+        "Programming"
+      ]
     },
     {
       "title_en": "Restoring and Demoing 1960s Vintage Computers at the Computer History Museum [pdf]",
@@ -1555,15 +1909,39 @@
         "id": 48875738,
         "type": "story",
         "by": "rbanffy",
-        "score": 26,
+        "score": 35,
         "descendants": 3,
         "time": 1783803088,
         "comments_url": "https://news.ycombinator.com/item?id=48875738"
       },
-      "hot_score": 0.0,
       "tags": [
+        "Hardware",
         "Culture"
-      ]
+      ],
+      "hot_score": 0.0
+    },
+    {
+      "title_en": "Land Atlas – soil, farmability, and crop analysis for land listings",
+      "url": "https://land-atlas-production.up.railway.app/welcome",
+      "title_zh": "Land Atlas：土地挂牌的土壤、耕作潜力与作物分析",
+      "created_display": "Created: Jul 13, 2026 / 04:58 PT",
+      "image_url": null,
+      "summary_en": "Land Atlas provides soil data, farmability scores, and crop analysis for land listings, helping buyers assess agricultural potential. It blends soil science with market data to guide investment decisions in rural real estate.",
+      "summary_zh": "Land Atlas 提供土地挂牌的土壤数据、耕作潜力评分与作物分析，帮助买家评估农业潜力。它将土壤科学与市场数据结合，指引农村地产投资决策。",
+      "hn": {
+        "id": 48891334,
+        "type": "story",
+        "by": "L3dge",
+        "score": 31,
+        "descendants": 11,
+        "time": 1783943912,
+        "comments_url": "https://news.ycombinator.com/item?id=48891334"
+      },
+      "tags": [
+        "Data",
+        "Business"
+      ],
+      "hot_score": 0.0
     },
     {
       "title_en": "Parsoid",
@@ -1589,6 +1967,29 @@
       "hot_score": 0.0
     },
     {
+      "title_en": "Dupes (product clones) took over the world",
+      "url": "https://www.vox.com/podcasts/493930/dupe-culture-fender-ugg-quince-tiktok-amazon-online-shopping",
+      "title_zh": "山寨品横行全球",
+      "created_display": "Created: Jul 14, 2026 / 08:33 PT",
+      "image_url": "https://platform.vox.com/wp-content/uploads/sites/2/2026/07/gettyimages-2160341306.jpg?quality=90&strip=all&crop=0%2C10.755178452135%2C100%2C78.48964309573&w=1200",
+      "summary_en": "Vox's podcast traces how dupes have permeated consumer culture, from fashion to tech, shaping price expectations and access. It examines how clone culture challenges brand value, supplier diversity, and consumer trust.",
+      "summary_zh": "Vox 的播客追溯山寨品如何渗透从时尚到科技等各领域的消费文化，影响定价期望与获取渠道。讨论了仿品文化对品牌价值、供应链多元化与消费者信任的冲击。",
+      "hn": {
+        "id": 48908433,
+        "type": "story",
+        "by": "gumby",
+        "score": 24,
+        "descendants": 20,
+        "time": 1784043222,
+        "comments_url": "https://news.ycombinator.com/item?id=48908433"
+      },
+      "hot_score": 0.0,
+      "tags": [
+        "Culture",
+        "Business"
+      ]
+    },
+    {
       "title_en": "Show HN: LoopGain – Stop agent loops with control theory, not max_iterations",
       "url": "https://github.com/loopgain-ai/loopgain",
       "title_zh": "Show HN: LoopGain – 用控制理论停止代理循环，而非靠最大迭代次数",
@@ -1608,52 +2009,30 @@
       "hot_score": 0.0,
       "tags": [
         "Show HN",
+        "Programming",
         "AI"
       ]
     },
     {
-      "title_en": "Infinities, impossibilities, and the man in the white linen suit",
-      "url": "https://iain.so/infinities-impossibilities-and-the-man-in-the-white-linen-suit",
-      "title_zh": "无穷、可能性与白色亚麻西装中的人",
-      "created_display": "Created: Jul 14, 2026 / 01:24 PT",
-      "image_url": "https://i.snap.as/xrsjsR08.png",
-      "summary_en": "A contemplative exploration of infinities and impossibilities in science, using a fictional figure to illustrate how humans grapple with abstract concepts and the limits of intuition in understanding the universe.",
-      "summary_zh": "这是一篇关于无穷与不可能性的思考性探讨，借助一个虚构人物来展示人类如何处理抽象概念以及在理解宇宙时直觉的极限。",
+      "title_en": "The Zen of Parallel Programming",
+      "url": "https://smolnero.com/posts/the-zen-of-parallel-programming",
+      "title_zh": "并行编程的禅意",
+      "created_display": "Created: Jul 14, 2026 / 07:23 PT",
+      "image_url": "https://smolnero.com/social_previews/posts/the-zen-of-parallel-programming.png",
+      "summary_en": "A thoughtful take on parallel programming, balancing theory with practical guidelines to build scalable concurrent software. It emphasizes avoiding common pitfalls like data races and synchronization bottlenecks while designing for composability.",
+      "summary_zh": "对并行编程进行深思熟虑的论述，结合理论与实用准则，帮助构建可扩展的并发软件。强调避免数据竞争、同步瓶颈等常见陷阱，同时关注可组合性的设计。",
       "hn": {
-        "id": 48903717,
+        "id": 48907390,
         "type": "story",
-        "by": "iainharper",
-        "score": 13,
-        "descendants": 9,
-        "time": 1784017494,
-        "comments_url": "https://news.ycombinator.com/item?id=48903717"
+        "by": "edgar_ortega",
+        "score": 3,
+        "descendants": 0,
+        "time": 1784039006,
+        "comments_url": "https://news.ycombinator.com/item?id=48907390"
       },
       "hot_score": 0.0,
       "tags": [
-        "Science"
-      ]
-    },
-    {
-      "title_en": "Land Atlas – soil, farmability, and crop analysis for land listings",
-      "url": "https://land-atlas-production.up.railway.app/welcome",
-      "title_zh": "Land Atlas：土地挂牌的土壤、耕作潜力与作物分析",
-      "created_display": "Created: Jul 13, 2026 / 04:58 PT",
-      "image_url": null,
-      "summary_en": "Land Atlas provides soil data, farmability scores, and crop analysis for land listings, helping buyers assess agricultural potential. It blends soil science with market data to guide investment decisions in rural real estate.",
-      "summary_zh": "Land Atlas 提供土地挂牌的土壤数据、耕作潜力评分与作物分析，帮助买家评估农业潜力。它将土壤科学与市场数据结合，指引农村地产投资决策。",
-      "hn": {
-        "id": 48891334,
-        "type": "story",
-        "by": "L3dge",
-        "score": 5,
-        "descendants": 1,
-        "time": 1783943912,
-        "comments_url": "https://news.ycombinator.com/item?id=48891334"
-      },
-      "hot_score": 0.0,
-      "tags": [
-        "Data",
-        "Business"
+        "Programming"
       ]
     }
   ]
