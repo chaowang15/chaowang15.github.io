@@ -20,7 +20,7 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='1063' data-hn-time='1784472076'>
+<div class='hn-top-story-item' data-hn-score='1900' data-hn-time='1784472076'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -28,54 +28,54 @@ Sort:
  <a class='hn-top-story-link' href='https://news.ycombinator.com/item?id=48968606' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Show HN：用 1,600 美元的 ESP32 替代 12 万美元的保龄球馆系统</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 17</span> <span class='hn-top-story-score'>&#9650; 1063</span> <span class='hn-top-story-comments'>&#128172; 113</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 1900</span> <span class='hn-top-story-comments'>&#128172; 200</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='72' data-hn-time='1784495890'>
+<div class='hn-top-story-item' data-hn-score='188' data-hn-time='1784515876'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/19/top_stories_07192026#story-48971738'>AI advice made people 3x less accurate but 2x confident, researchers found</a>
- <a class='hn-top-story-link' href='https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/19/top_stories_07192026#story-48973869'>Claude Fable produced a counterexample to the Jacobian Conjecture</a>
+ <a class='hn-top-story-link' href='https://xcancel.com/__alpoge__/status/2079028340955197566' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>AI 建议使准确性降至原来的三分之一，但自信心提高两倍，研究发现</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.9</span> <span class='hn-top-story-score'>&#9650; 72</span> <span class='hn-top-story-comments'>&#128172; 28</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>Claude Fable 提出雅可比猜想的反例</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 188</span> <span class='hn-top-story-comments'>&#128172; 97</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='82' data-hn-time='1784492758'>
+<div class='hn-top-story-item' data-hn-score='316' data-hn-time='1784495890'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/19/top_stories_07192026#story-48971418'>Heavy TV watching associated with smaller brain structures, study finds</a>
- <a class='hn-top-story-link' href='https://dornsife.usc.edu/news/stories/heavy-tv-watching-associated-with-smaller-brain-structures/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/19/top_stories_07192026#story-48971738'>AI advice made people less accurate but more confident – sudy</a>
+ <a class='hn-top-story-link' href='https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>大量看电视与脑部结构变小相关，研究发现</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.0</span> <span class='hn-top-story-score'>&#9650; 82</span> <span class='hn-top-story-comments'>&#128172; 51</span> <span class='hn-top-story-tag'>Science</span></div>
+<div class='hn-top-story-zh'>AI 助言让人更自信却更不准？研究指出</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.8</span> <span class='hn-top-story-score'>&#9650; 316</span> <span class='hn-top-story-comments'>&#128172; 179</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='729' data-hn-time='1784450697'>
+<div class='hn-top-story-item' data-hn-score='39' data-hn-time='1784521162'>
 <span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/19/top_stories_07192026#story-48974292'>Power companies are using eminent domain to seize land for data centers</a>
+ <a class='hn-top-story-link' href='https://fortune.com/2026/07/19/data-center-eminent-domain-public-use/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>电力公司濒用征收权为数据中心征地</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.5</span> <span class='hn-top-story-score'>&#9650; 39</span> <span class='hn-top-story-comments'>&#128172; 6</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>DevOps</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='828' data-hn-time='1784450697'>
+<span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/07/19/top_stories_07192026#story-48966120'>Qwen 3.8</a>
  <a class='hn-top-story-link' href='https://twitter.com/Alibaba_Qwen/status/2078759124914098291' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Qwen 3.8 版本</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.0</span> <span class='hn-top-story-score'>&#9650; 729</span> <span class='hn-top-story-comments'>&#128172; 514</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 828</span> <span class='hn-top-story-comments'>&#128172; 573</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='166' data-hn-time='1784476945'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/19/top_stories_07192026#story-48969291'>Moonshot AI suspends new subscriptions due to Kimi K3 demand</a>
- <a class='hn-top-story-link' href='https://twitter.com/kimi_moonshot/status/2078855608565207130' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Moonshot AI 因 Kimi K3 需求而暂停新订阅</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 166</span> <span class='hn-top-story-comments'>&#128172; 57</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Startups</span> <span class='hn-top-story-tag'>Hardware</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='20' data-hn-time='1784498591'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='164' data-hn-time='1784498591'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -83,10 +83,10 @@ Sort:
  <a class='hn-top-story-link' href='https://www.eff.org/deeplinks/2026/07/we-want-texans-know-their-rights-qa-mayday-health-impact-surveillance-abortion' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>我们希望德州人知道自己的权利</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 20</span> <span class='hn-top-story-comments'>&#128172; 5</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Health</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 164</span> <span class='hn-top-story-comments'>&#128172; 54</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Health</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='379' data-hn-time='1784457298'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='447' data-hn-time='1784457298'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -94,40 +94,40 @@ Sort:
  <a class='hn-top-story-link' href='https://chipweinberger.com/articles/20260719-hardware-is-not-so-hard' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>卖出2500个 MIDI 记录器让我明白硬件并不难</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 379</span> <span class='hn-top-story-comments'>&#128172; 181</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.9</span> <span class='hn-top-story-score'>&#9650; 447</span> <span class='hn-top-story-comments'>&#128172; 207</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='124' data-hn-time='1784479517'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='448' data-hn-time='1784455403'>
 <span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/19/top_stories_07192026#story-48969635'>The Last MPEG-4 Visual Patent Has Expired</a>
- <a class='hn-top-story-link' href='https://www.phoronix.com/news/Last-MPEG-4-Patent-Expired' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>最后一个 MPEG-4 Visual 专利已到期</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 124</span> <span class='hn-top-story-comments'>&#128172; 29</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Hardware</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='358' data-hn-time='1784455403'>
-<span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/07/19/top_stories_07192026#story-48966569'>Claude Code uses Bun written in Rust now</a>
  <a class='hn-top-story-link' href='https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Claude Code 现已在 Bun 上运行，核心以 Rust 编写</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 358</span> <span class='hn-top-story-comments'>&#128172; 479</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Startups</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.8</span> <span class='hn-top-story-score'>&#9650; 448</span> <span class='hn-top-story-comments'>&#128172; 610</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Startups</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='51' data-hn-time='1784489236'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='246' data-hn-time='1784476945'>
+<span class='hn-top-story-rank'>9</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/19/top_stories_07192026#story-48969291'>Moonshot AI suspends new subscriptions due to Kimi K3 demand</a>
+ <a class='hn-top-story-link' href='https://twitter.com/kimi_moonshot/status/2078855608565207130' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Moonshot AI 因 Kimi K3 需求而暂停新订阅</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.8</span> <span class='hn-top-story-score'>&#9650; 246</span> <span class='hn-top-story-comments'>&#128172; 103</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Startups</span> <span class='hn-top-story-tag'>Hardware</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='30' data-hn-time='1784514858'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/19/top_stories_07192026#story-48970991'>Modder Runs GTA III Inside GTA: San Andreas on an In-Game TV</a>
- <a class='hn-top-story-link' href='https://videocardz.com/newz/modder-runs-gta-iii-inside-gta-san-andreas-on-an-in-game-tv' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/19/top_stories_07192026#story-48973782'>Big Tech Is Now Targeting Native American Land for Data Centers</a>
+ <a class='hn-top-story-link' href='https://www.nytimes.com/2026/07/09/us/data-centers-native-american-tribes.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Modder 在《侏罗纪公园》内的电视上运行《GTA III》</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 51</span> <span class='hn-top-story-comments'>&#128172; 11</span> <span class='hn-top-story-tag'>Gaming</span></div>
+<div class='hn-top-story-zh'>大科技如今瞄向美洲原住民土地部署数据中心</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.6</span> <span class='hn-top-story-score'>&#9650; 30</span> <span class='hn-top-story-comments'>&#128172; 7</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -137,9 +137,9 @@ Sort:
 </div>
 <div class='hn-index-section hn-archive-section'>
 <h3 class='hn-section-title'>News Archive <span class='hn-section-zh'>新闻归档</span></h3>
-<details class='hn-week-group' open>
+<details class='hn-week-group'>
 <summary class='hn-week-summary'>
-<span class='hn-week-title'>2026 Week 29 <span class='hn-this-week-badge'>This Week</span></span>
+<span class='hn-week-title'>2026 Week 29</span>
 <span class='hn-week-meta'>2026-07-13 — 2026-07-19 <span class="hn-row-sep">·</span> 1000 stories <span class="hn-row-sep">·</span> 7 days</span>
 </summary>
 <div class='hn-week-content'>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/07/19/top_stories_07192026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>25</b> <span class="hn-row-sep">·</span> AI <b>22</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>22</b> <span class="hn-row-sep">·</span> Programming <b>21</b></span>
 </a>
 </div>
 </div>
