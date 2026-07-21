@@ -20,81 +20,81 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='856' data-hn-time='1784557307'>
+<div class='hn-top-story-item' data-hn-score='259' data-hn-time='1784594033'>
 <span class='hn-top-story-rank'>1</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/20/top_stories_07202026#story-48986731'>Flock Credibility Lost as It Repeatedly Lies to City Councils, Police, & Public</a>
+ <a class='hn-top-story-link' href='https://www.aclu.org/news/privacy-technology/tracking-alpr-cameras/flock-safety-credibility-lost-as-it-repeatedly-lies-to-city-councils-police-departments-and-public-across-the-country' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Flock 公信力崩塌：多次向市议会、警察与公众撒谎</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.3</span> <span class='hn-top-story-score'>&#9650; 259</span> <span class='hn-top-story-comments'>&#128172; 40</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Politics</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='73' data-hn-time='1784606163'>
+<span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/20/top_stories_07202026#story-48987863'>Five US tech giants' hidden debts soar to $1.65T on opaque AI funding</a>
+ <a class='hn-top-story-link' href='https://asia.nikkei.com/business/technology/five-us-tech-giants-hidden-debts-soar-to-1.65tn-on-opaque-ai-funding' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>五大美企在不透明 AI 融资下隐藏债务达 1.65 万亿美元</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.1</span> <span class='hn-top-story-score'>&#9650; 73</span> <span class='hn-top-story-comments'>&#128172; 10</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='1026' data-hn-time='1784557307'>
+<span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/07/20/top_stories_07202026#story-48979269'>China’s open-weights AI strategy is winning</a>
  <a class='hn-top-story-link' href='https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>中国的开放权重AI策略正在取得胜利</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 13</span> <span class='hn-top-story-score'>&#9650; 856</span> <span class='hn-top-story-comments'>&#128172; 692</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.3</span> <span class='hn-top-story-score'>&#9650; 1026</span> <span class='hn-top-story-comments'>&#128172; 816</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='300' data-hn-time='1784567603'>
-<span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-item' data-hn-score='56' data-hn-time='1784603830'>
+<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/20/top_stories_07202026#story-48987634'>Is surveillance risk chilling your online speech?</a>
+ <a class='hn-top-story-link' href='https://news.ycombinator.com/item?id=48987634' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>监控风险正在抑制你的在线发言吗？</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.5</span> <span class='hn-top-story-score'>&#9650; 56</span> <span class='hn-top-story-comments'>&#128172; 42</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='42' data-hn-time='1784605853'>
+<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/20/top_stories_07202026#story-48987822'>Jane Street: Incremental</a>
+ <a class='hn-top-story-link' href='https://github.com/janestreet/incremental' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Jane Street 的 Incremental</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.4</span> <span class='hn-top-story-score'>&#9650; 42</span> <span class='hn-top-story-comments'>&#128172; 8</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Open Source</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='181' data-hn-time='1784589341'>
+<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/20/top_stories_07202026#story-48986091'>Jellyfin founder Andrew leaves team</a>
+ <a class='hn-top-story-link' href='https://forum.jellyfin.org/t-project-leadership-changes' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Jellyfin 创始人 Andrew 退出团队</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 181</span> <span class='hn-top-story-comments'>&#128172; 112</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Culture</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='464' data-hn-time='1784567603'>
+<span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/07/20/top_stories_07202026#story-48981703'>Kimi Work</a>
  <a class='hn-top-story-link' href='https://www.kimi.com/products/kimi-work' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Kimi Work</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.8</span> <span class='hn-top-story-score'>&#9650; 300</span> <span class='hn-top-story-comments'>&#128172; 141</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='265' data-hn-time='1784567259'>
-<span class='hn-top-story-rank'>3</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/20/top_stories_07202026#story-48981620'>Jelly UI: Soft-body physics for native HTML form controls</a>
- <a class='hn-top-story-link' href='https://jelly-ui.com/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Jelly UI：原生 HTML 表单控件的软体物理</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.8</span> <span class='hn-top-story-score'>&#9650; 265</span> <span class='hn-top-story-comments'>&#128172; 107</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Design</span> <span class='hn-top-story-tag'>Science</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='533' data-hn-time='1784554113'>
-<span class='hn-top-story-rank'>4</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/20/top_stories_07202026#story-48978605'>Hacker wipes Romania's land registry database</a>
- <a class='hn-top-story-link' href='https://news.risky.biz/risky-bulletin-hacker-wipes-romanias-entire-land-registry-database/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>黑客抹除罗马尼亚土地登记数据库</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.8</span> <span class='hn-top-story-score'>&#9650; 533</span> <span class='hn-top-story-comments'>&#128172; 298</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Data</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='638' data-hn-time='1784543440'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/20/top_stories_07202026#story-48976846'>Airport Simulator</a>
- <a class='hn-top-story-link' href='https://airport.apunen.com/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>机场模拟器</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.3</span> <span class='hn-top-story-score'>&#9650; 638</span> <span class='hn-top-story-comments'>&#128172; 127</span> <span class='hn-top-story-tag'>Education</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='121' data-hn-time='1784574217'>
-<span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/20/top_stories_07202026#story-48983382'>Human mathematicians are being outcounterexampled</a>
- <a class='hn-top-story-link' href='https://xenaproject.wordpress.com/2026/07/20/human-mathematicians-are-being-outcounterexampled/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>人类数学家正被反例发现所超越</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.2</span> <span class='hn-top-story-score'>&#9650; 121</span> <span class='hn-top-story-comments'>&#128172; 42</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Science</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='462' data-hn-time='1784549648'>
-<span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/20/top_stories_07202026#story-48977711'>The EU is about to sell our most sensitive data to the US for visa-free travel</a>
- <a class='hn-top-story-link' href='https://edri.org/our-work/the-eu-is-about-to-sell-our-most-sensitive-data-to-the-us-for-visa-free-travel/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>欧盟将把最敏感数据共享给美国以实现免签旅行</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.9</span> <span class='hn-top-story-score'>&#9650; 462</span> <span class='hn-top-story-comments'>&#128172; 266</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 464</span> <span class='hn-top-story-comments'>&#128172; 201</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
 <div class='hn-top-story-item hn-top-story-extra' data-hn-score='2773' data-hn-time='1784472076'>
@@ -105,29 +105,29 @@ Sort:
  <a class='hn-top-story-link' href='https://news.ycombinator.com/item?id=48968606' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Show HN：用 1,600 美元的 ESP32 替代 12 万美元的保龄球馆系统</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.8</span> <span class='hn-top-story-score'>&#9650; 2773</span> <span class='hn-top-story-comments'>&#128172; 325</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 2773</span> <span class='hn-top-story-comments'>&#128172; 325</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='256' data-hn-time='1784560422'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='411' data-hn-time='1784567259'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/20/top_stories_07202026#story-48980019'>Kimi K3, Qwen 3.8, and Anthropic's (Potential) Unravelling</a>
- <a class='hn-top-story-link' href='https://www.emergingtrajectories.com/lh/frontier-lab-economics/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/20/top_stories_07202026#story-48981620'>Jelly UI: Soft-body physics for native HTML form controls</a>
+ <a class='hn-top-story-link' href='https://jelly-ui.com/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Kimi K3、Qwen 3.8 与 Anthropic 的（潜在）瓦解</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.4</span> <span class='hn-top-story-score'>&#9650; 256</span> <span class='hn-top-story-comments'>&#128172; 254</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-zh'>Jelly UI：原生 HTML 表单控件的软体物理</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 411</span> <span class='hn-top-story-comments'>&#128172; 143</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Design</span> <span class='hn-top-story-tag'>Science</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='38' data-hn-time='1784583056'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='613' data-hn-time='1784554113'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/20/top_stories_07202026#story-48985140'>My falling-out with the rationalist community</a>
- <a class='hn-top-story-link' href='https://lcamtuf.substack.com/p/my-falling-out-with-the-rationalist' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/20/top_stories_07202026#story-48978605'>Hacker wipes Romania's land registry database</a>
+ <a class='hn-top-story-link' href='https://news.risky.biz/risky-bulletin-hacker-wipes-romanias-entire-land-registry-database/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>我与理性社区的分歧</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.4</span> <span class='hn-top-story-score'>&#9650; 38</span> <span class='hn-top-story-comments'>&#128172; 18</span> <span class='hn-top-story-tag'>Culture</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>黑客抹除罗马尼亚土地登记数据库</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 613</span> <span class='hn-top-story-comments'>&#128172; 340</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Data</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/07/20/top_stories_07202026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>29</b> <span class="hn-row-sep">·</span> Programming <b>18</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>26</b> <span class="hn-row-sep">·</span> Programming <b>17</b></span>
 </a>
 </div>
 </div>
