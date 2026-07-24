@@ -20,7 +20,7 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='729' data-hn-time='1784912261'>
+<div class='hn-top-story-item' data-hn-score='1149' data-hn-time='1784912261'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -28,10 +28,10 @@ Sort:
  <a class='hn-top-story-link' href='https://www.anthropic.com/news/claude-opus-5' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Claude Opus 5 发布</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 51</span> <span class='hn-top-story-score'>&#9650; 729</span> <span class='hn-top-story-comments'>&#128172; 411</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 27</span> <span class='hn-top-story-score'>&#9650; 1149</span> <span class='hn-top-story-comments'>&#128172; 622</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='232' data-hn-time='1784910811'>
+<div class='hn-top-story-item' data-hn-score='361' data-hn-time='1784910811'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -39,95 +39,95 @@ Sort:
  <a class='hn-top-story-link' href='https://www.theguardian.com/technology/2026/jul/24/openai-rogue-hacker' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>对 OpenAI 的 rogue hacker agent 故事保持怀疑</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 14</span> <span class='hn-top-story-score'>&#9650; 232</span> <span class='hn-top-story-comments'>&#128172; 88</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.8</span> <span class='hn-top-story-score'>&#9650; 361</span> <span class='hn-top-story-comments'>&#128172; 191</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='271' data-hn-time='1784904119'>
+<div class='hn-top-story-item' data-hn-score='147' data-hn-time='1784919953'>
 <span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/24/top_stories_07242026#story-49040296'>Postgres LISTEN/NOTIFY actually scales</a>
+ <a class='hn-top-story-link' href='https://www.dbos.dev/blog/postgres-listen-notify-scalability' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Postgres LISTEN/NOTIFY 真正具备可扩展性</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.1</span> <span class='hn-top-story-score'>&#9650; 147</span> <span class='hn-top-story-comments'>&#128172; 28</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Data</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='433' data-hn-time='1784899950'>
+<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/24/top_stories_07242026#story-49035303'>Nvidia, Microsoft, Meta warn against overregulating open-weight models</a>
+ <a class='hn-top-story-link' href='https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>英伟达、微软、Meta 警告勿过度监管开放权重模型</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.4</span> <span class='hn-top-story-score'>&#9650; 433</span> <span class='hn-top-story-comments'>&#128172; 206</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Politics</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='331' data-hn-time='1784904119'>
+<span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/07/24/top_stories_07242026#story-49036433'>Government orders GitHub to remove Bluetooth-based chat app Bitchat: Jack Dorsey</a>
  <a class='hn-top-story-link' href='https://www.thehindu.com/news/national/government-orders-github-to-remove-bluetooth-based-chat-app-bitchat-over-security-concerns-jack-dorsey/article71262049.ece' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>政府要求 GitHub 下架蓝牙聊天应用 Bitchat，涉及安全担忧</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.9</span> <span class='hn-top-story-score'>&#9650; 271</span> <span class='hn-top-story-comments'>&#128172; 199</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.0</span> <span class='hn-top-story-score'>&#9650; 331</span> <span class='hn-top-story-comments'>&#128172; 251</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='396' data-hn-time='1784894081'>
-<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='473' data-hn-time='1784894081'>
+<span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/07/24/top_stories_07242026#story-49034292'>My security camera shipped a GitHub admin token in its login page</a>
  <a class='hn-top-story-link' href='https://hhh.hn/hanwha-github-token/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>我的安防摄像头在登录页暴露了一个 GitHub 管理员令牌</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.9</span> <span class='hn-top-story-score'>&#9650; 396</span> <span class='hn-top-story-comments'>&#128172; 148</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.7</span> <span class='hn-top-story-score'>&#9650; 473</span> <span class='hn-top-story-comments'>&#128172; 165</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='613' data-hn-time='1784881110'>
-<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='613' data-hn-time='1784881110'>
+<span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/07/24/top_stories_07242026#story-49032660'>It's getting harder to focus every day</a>
  <a class='hn-top-story-link' href='https://glyphack.com/attention/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>专注力每天都在下降</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.0</span> <span class='hn-top-story-score'>&#9650; 613</span> <span class='hn-top-story-comments'>&#128172; 349</span> <span class='hn-top-story-tag'>Culture</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 613</span> <span class='hn-top-story-comments'>&#128172; 349</span> <span class='hn-top-story-tag'>Culture</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='52' data-hn-time='1784916202'>
-<span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/24/top_stories_07242026#story-49039448'>I got into YC by hacking it</a>
- <a class='hn-top-story-link' href='https://obaid.wtf/jotbook/2026/07/18/how-i-got-into-yc-by-hacking-it.html' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>我靠黑客手段进了 YC</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.9</span> <span class='hn-top-story-score'>&#9650; 52</span> <span class='hn-top-story-comments'>&#128172; 19</span> <span class='hn-top-story-tag'>Startups</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='287' data-hn-time='1784896827'>
-<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='320' data-hn-time='1784896827'>
+<span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/07/24/top_stories_07242026#story-49034747'>Em dashes are amazing</a>
  <a class='hn-top-story-link' href='https://psychotechnology.substack.com/p/em-dashes-are-fucking-amazing' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>破折号真的很棒</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.8</span> <span class='hn-top-story-score'>&#9650; 287</span> <span class='hn-top-story-comments'>&#128172; 251</span> <span class='hn-top-story-tag'>Design</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 320</span> <span class='hn-top-story-comments'>&#128172; 274</span> <span class='hn-top-story-tag'>Design</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='84' data-hn-time='1784911953'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/24/top_stories_07242026#story-49038352'>JEP 541: Deprecate the macOS/x64 Port for Removal</a>
- <a class='hn-top-story-link' href='https://openjdk.org/jeps/541' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>JEP 541：弃用 macOS/x64 端口</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.6</span> <span class='hn-top-story-score'>&#9650; 84</span> <span class='hn-top-story-comments'>&#128172; 78</span> <span class='hn-top-story-tag'>Programming</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='194' data-hn-time='1784897639'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='90' data-hn-time='1784916202'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/24/top_stories_07242026#story-49034868'>Half-Life 2 running natively on HaikuOS</a>
- <a class='hn-top-story-link' href='https://discuss.haiku-os.org/t/haiku-nvidia-porting-nvidia-driver-for-turing-gpus/16520?page=18' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/24/top_stories_07242026#story-49039448'>I got into YC Startup School by hacking it</a>
+ <a class='hn-top-story-link' href='https://obaid.wtf/jotbook/2026/07/18/how-i-got-into-yc-by-hacking-it.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>HaikuOS 上 Half-Life 2 原生运行</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.1</span> <span class='hn-top-story-score'>&#9650; 194</span> <span class='hn-top-story-comments'>&#128172; 29</span> <span class='hn-top-story-tag'>Gaming</span></div>
+<div class='hn-top-story-zh'>靠 hack 进入 YC Startup School</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 90</span> <span class='hn-top-story-comments'>&#128172; 55</span> <span class='hn-top-story-tag'>Startups</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='526' data-hn-time='1784873828'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='397' data-hn-time='1784884097'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/24/top_stories_07242026#story-49031796'>Flux 3</a>
- <a class='hn-top-story-link' href='https://bfl.ai/blog/flux-3' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/24/top_stories_07242026#story-49033004'>If coding has been solved, why does software keep getting worse?</a>
+ <a class='hn-top-story-link' href='https://ptrchm.com/posts/nothing-works-and-everyone-is-euphoric/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Flux 3 版本更新</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 526</span> <span class='hn-top-story-comments'>&#128172; 125</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>如果编码已被解决，软件为何还在变坏？</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 397</span> <span class='hn-top-story-comments'>&#128172; 327</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/07/24/top_stories_07242026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>34</b> <span class="hn-row-sep">·</span> AI <b>24</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>36</b> <span class="hn-row-sep">·</span> AI <b>25</b></span>
 </a>
 </div>
 </div>
