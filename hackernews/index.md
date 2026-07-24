@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>155</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>22744</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>152</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>153</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-07-24</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>155</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>22786</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>152</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>153</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-07-24</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='174' data-hn-time='1784873828'>
+<div class='hn-top-story-item' data-hn-score='156' data-hn-time='1784896827'>
 <span class='hn-top-story-rank'>1</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/24/top_stories_07242026#story-49034747'>Em dashes are fucking amazing</a>
+ <a class='hn-top-story-link' href='https://psychotechnology.substack.com/p/em-dashes-are-fucking-amazing' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>破折号真的很神奇</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.3</span> <span class='hn-top-story-score'>&#9650; 156</span> <span class='hn-top-story-comments'>&#128172; 132</span> <span class='hn-top-story-tag'>Design</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='194' data-hn-time='1784894081'>
+<span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/24/top_stories_07242026#story-49034292'>My security camera shipped a GitHub admin token in its login page</a>
+ <a class='hn-top-story-link' href='https://hhh.hn/hanwha-github-token/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>我的安防摄像头在登录页暴露了一个 GitHub 管理员令牌</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.8</span> <span class='hn-top-story-score'>&#9650; 194</span> <span class='hn-top-story-comments'>&#128172; 64</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Programming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='125' data-hn-time='1784898169'>
+<span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/24/top_stories_07242026#story-49034948'>Patreon laying off 20% of staff</a>
+ <a class='hn-top-story-link' href='https://www.patreon.com/jackconte/posts/painful-update-164628951' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Patreon 宣布裁员 20%</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.6</span> <span class='hn-top-story-score'>&#9650; 125</span> <span class='hn-top-story-comments'>&#128172; 205</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Startups</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='432' data-hn-time='1784881110'>
+<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/24/top_stories_07242026#story-49032660'>It's getting harder to focus every day</a>
+ <a class='hn-top-story-link' href='https://glyphack.com/attention/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>专注力每天都在下降</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.0</span> <span class='hn-top-story-score'>&#9650; 432</span> <span class='hn-top-story-comments'>&#128172; 231</span> <span class='hn-top-story-tag'>Career</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='466' data-hn-time='1784873828'>
+<span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/07/24/top_stories_07242026#story-49031796'>Flux 3</a>
  <a class='hn-top-story-link' href='https://bfl.ai/blog/flux-3' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Flux 3 版本更新</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 174</span> <span class='hn-top-story-comments'>&#128172; 44</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.0</span> <span class='hn-top-story-score'>&#9650; 466</span> <span class='hn-top-story-comments'>&#128172; 113</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='1274' data-hn-time='1784816683'>
-<span class='hn-top-story-rank'>2</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/24/top_stories_07242026#story-49022152'>Writing by hand is good for your brain</a>
- <a class='hn-top-story-link' href='https://nealstephenson.substack.com/p/writing-by-hand-is-good-for-your' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>手写对大脑有益</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.7</span> <span class='hn-top-story-score'>&#9650; 1274</span> <span class='hn-top-story-comments'>&#128172; 573</span> <span class='hn-top-story-tag'>Education</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='453' data-hn-time='1784845829'>
-<span class='hn-top-story-rank'>3</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/24/top_stories_07242026#story-49028927'>98.css</a>
- <a class='hn-top-story-link' href='https://jdan.github.io/98.css/#status-bar' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>98.css：让网页重现 Windows 98 风格的 CSS 框架</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.1</span> <span class='hn-top-story-score'>&#9650; 453</span> <span class='hn-top-story-comments'>&#128172; 107</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Open Source</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='902' data-hn-time='1784819920'>
-<span class='hn-top-story-rank'>4</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/24/top_stories_07242026#story-49023016'>Startup founders urge U.S. government not to shut off Chinese open weight AI</a>
- <a class='hn-top-story-link' href='https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>创业者敦促特朗普不要切断对中国开源权重 AI 的访问</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.4</span> <span class='hn-top-story-score'>&#9650; 902</span> <span class='hn-top-story-comments'>&#128172; 757</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Startups</span> <span class='hn-top-story-tag'>Politics</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='31' data-hn-time='1784876563'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/24/top_stories_07242026#story-49032095'>The PImpl idiom and the C++26 std:indirect type</a>
- <a class='hn-top-story-link' href='https://mariusbancila.ro/blog/2026/07/23/the-pimpl-idiom-and-the-cpp26-stdindirect-type/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>PImpl 习语与 C++26 的 std::indirect 类型</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 31</span> <span class='hn-top-story-comments'>&#128172; 25</span> <span class='hn-top-story-tag'>Programming</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='327' data-hn-time='1784839939'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='254' data-hn-time='1784884097'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/24/top_stories_07242026#story-49027892'>Couple pay >$800k for a gene-editing therapy for their daughter. She died.</a>
- <a class='hn-top-story-link' href='https://www.science.org/content/article/exclusive-death-girl-chinese-gene-editing-trial-was-never-made-public' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/24/top_stories_07242026#story-49033004'>Nothing works and everyone is euphoric</a>
+ <a class='hn-top-story-link' href='https://ptrchm.com/posts/nothing-works-and-everyone-is-euphoric/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>夫妻为女儿的基因编辑治疗花费超80万美元，最终去世</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 327</span> <span class='hn-top-story-comments'>&#128172; 193</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Health</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>没有什么能用，但人人都很欣喜</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.6</span> <span class='hn-top-story-score'>&#9650; 254</span> <span class='hn-top-story-comments'>&#128172; 206</span> <span class='hn-top-story-tag'>Culture</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='372' data-hn-time='1784834761'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='231' data-hn-time='1784885508'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/24/top_stories_07242026#story-49026810'>Show HN: Echo – Fable-level results at 1/3 the cost using open-weight models</a>
- <a class='hn-top-story-link' href='https://news.ycombinator.com/item?id=49026810' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/24/top_stories_07242026#story-49033127'>Flux 3 X Mimic: The Next Generation of Video-Action Models</a>
+ <a class='hn-top-story-link' href='https://bfl.ai/blog/flux-3-mimic' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Show HN：Echo——用开放权重模型以三分之一成本获得同级别结果</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 372</span> <span class='hn-top-story-comments'>&#128172; 176</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-zh'>Flux 3 X Mimic：视频动作模型的下一代</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.5</span> <span class='hn-top-story-score'>&#9650; 231</span> <span class='hn-top-story-comments'>&#128172; 30</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='646' data-hn-time='1784812150'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='51' data-hn-time='1784901492'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/24/top_stories_07242026#story-49020999'>AI Companies Are Trying to Hide a Staggering Amount of Debt</a>
- <a class='hn-top-story-link' href='https://futurism.com/artificial-intelligence/ai-companies-hide-debt-off-balance-sheet' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/24/top_stories_07242026#story-49035751'>Open Weights and American AI Leadership [pdf]</a>
+ <a class='hn-top-story-link' href='https://images.nvidia.com/pdf/Open-Weights-and-American-AI-Leadership.pdf' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>AI 公司正隐藏巨额债务</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 646</span> <span class='hn-top-story-comments'>&#128172; 341</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>Health</span></div>
+<div class='hn-top-story-zh'>Open Weights 与美国 AI 领导力 [PDF]</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.3</span> <span class='hn-top-story-score'>&#9650; 51</span> <span class='hn-top-story-comments'>&#128172; 22</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='365' data-hn-time='1784825613'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='59' data-hn-time='1784899992'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/24/top_stories_07242026#story-49024691'>What happened to TheNumbers.com</a>
- <a class='hn-top-story-link' href='https://stephenfollows.com/p/what-just-happened-to-thenumberscom-should-worry-us-all' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/24/top_stories_07242026#story-49035314'>Oracle fires 21,000 employees to fund AI spending</a>
+ <a class='hn-top-story-link' href='https://www.jpost.com/business-and-innovation/tech-and-start-ups/article-903442' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>TheNumbers.com 究竟发生了什么？</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.1</span> <span class='hn-top-story-score'>&#9650; 365</span> <span class='hn-top-story-comments'>&#128172; 166</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>Entertainment</span></div>
+<div class='hn-top-story-zh'>Oracle 解雇 2.1 万员工以资助 AI 开支</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.0</span> <span class='hn-top-story-score'>&#9650; 59</span> <span class='hn-top-story-comments'>&#128172; 9</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='265' data-hn-time='1784825397'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='30' data-hn-time='1784904119'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/24/top_stories_07242026#story-49024643'>The arguments against open source AI are bad</a>
- <a class='hn-top-story-link' href='https://tombedor.dev/arguments-against-open-source-ai-are-very-bad/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/24/top_stories_07242026#story-49036433'>Government orders GitHub to remove Bluetooth-based chat app Bitchat: Jack Dorsey</a>
+ <a class='hn-top-story-link' href='https://www.thehindu.com/news/national/government-orders-github-to-remove-bluetooth-based-chat-app-bitchat-over-security-concerns-jack-dorsey/article71262049.ece' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>反对开源 AI 的论点很糟糕</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.5</span> <span class='hn-top-story-score'>&#9650; 265</span> <span class='hn-top-story-comments'>&#128172; 186</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-zh'>政府要求 GitHub 下架蓝牙聊天应用 Bitchat，涉及安全担忧</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.7</span> <span class='hn-top-story-score'>&#9650; 30</span> <span class='hn-top-story-comments'>&#128172; 10</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -140,7 +140,7 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 30 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-07-20 — 2026-07-24 <span class="hn-row-sep">·</span> 650 stories <span class="hn-row-sep">·</span> 5 days</span>
+<span class='hn-week-meta'>2026-07-20 — 2026-07-24 <span class="hn-row-sep">·</span> 692 stories <span class="hn-row-sep">·</span> 5 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/07/24/top_stories_07242026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> Programming <b>16</b> <span class="hn-row-sep">·</span> AI <b>14</b></span>
+<span class='hn-row-detail'>All <b>92</b> <span class="hn-row-sep">·</span> Programming <b>29</b> <span class="hn-row-sep">·</span> AI <b>22</b></span>
 </a>
 </div>
 </div>
