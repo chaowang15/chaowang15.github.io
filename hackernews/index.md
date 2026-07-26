@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>157</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>23059</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>154</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>155</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-07-26</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>157</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>23087</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>154</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>155</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-07-26</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='149' data-hn-time='1785069801'>
+<div class='hn-top-story-item' data-hn-score='52' data-hn-time='1785090936'>
 <span class='hn-top-story-rank'>1</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/26/top_stories_07262026#story-49060978'>The Strongest El Niño Ever</a>
+ <a class='hn-top-story-link' href='https://www.theclimatebrink.com/p/the-strongest-el-nino-ever' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>有史以来最强的厄尔尼诺现象</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.7</span> <span class='hn-top-story-score'>&#9650; 52</span> <span class='hn-top-story-comments'>&#128172; 13</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Energy</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='454' data-hn-time='1785066797'>
+<span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/26/top_stories_07262026#story-49057175'>Kill The Cookie Banner</a>
+ <a class='hn-top-story-link' href='https://killthecookiebanner.eu/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>抵制 Cookie 横幅计划</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.3</span> <span class='hn-top-story-score'>&#9650; 454</span> <span class='hn-top-story-comments'>&#128172; 242</span> <span class='hn-top-story-tag'>Privacy</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='212' data-hn-time='1785076827'>
+<span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/26/top_stories_07262026#story-49058669'>London Gatwick has launched a robotic airport parking service</a>
+ <a class='hn-top-story-link' href='https://aerospaceglobalnews.com/news/gatwick-airport-robotic-parking-stanley-robotics/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>伦敦盖特威克机场推出机器人停车服务</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.4</span> <span class='hn-top-story-score'>&#9650; 212</span> <span class='hn-top-story-comments'>&#128172; 147</span> <span class='hn-top-story-tag'>Hardware</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='251' data-hn-time='1785069801'>
+<span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/07/26/top_stories_07262026#story-49057574'>Google Discloses $94.1B in SpaceX Stock, Marking 6% Stake</a>
  <a class='hn-top-story-link' href='https://www.wsj.com/tech/google-discloses-94-1-billion-in-spacex-stock-marking-6-stake-91655d7c' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>谷歌披露持有 SpaceX 股票总值 941 亿美元，占股 6%</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 10</span> <span class='hn-top-story-score'>&#9650; 149</span> <span class='hn-top-story-comments'>&#128172; 74</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Space</span> <span class='hn-top-story-tag'>DevOps</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.5</span> <span class='hn-top-story-score'>&#9650; 251</span> <span class='hn-top-story-comments'>&#128172; 198</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Space</span> <span class='hn-top-story-tag'>DevOps</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='150' data-hn-time='1785067242'>
-<span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-item' data-hn-score='91' data-hn-time='1785081072'>
+<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/26/top_stories_07262026#story-49059367'>Design is compromise</a>
+ <a class='hn-top-story-link' href='https://stephango.com/design-is-compromise' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>设计就是妥协</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.5</span> <span class='hn-top-story-score'>&#9650; 91</span> <span class='hn-top-story-comments'>&#128172; 38</span> <span class='hn-top-story-tag'>Design</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='208' data-hn-time='1785067242'>
+<span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/07/26/top_stories_07262026#story-49057248'>Third Drone Shot Down in Three Days in Romanian Territory</a>
  <a class='hn-top-story-link' href='https://english.mapn.ro/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>罗马尼亚领土连续三天击落第三架无人机</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.0</span> <span class='hn-top-story-score'>&#9650; 150</span> <span class='hn-top-story-comments'>&#128172; 143</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 208</span> <span class='hn-top-story-comments'>&#128172; 241</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='222' data-hn-time='1785056499'>
-<span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='88' data-hn-time='1785079026'>
+<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/26/top_stories_07262026#story-49058993'>An Inside Look at the Token Reseller Market</a>
+ <a class='hn-top-story-link' href='https://vectoral.com/blog/token-relay-market' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>代币转售市场内幕</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.7</span> <span class='hn-top-story-score'>&#9650; 88</span> <span class='hn-top-story-comments'>&#128172; 44</span> <span class='hn-top-story-tag'>Finance</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='315' data-hn-time='1785056499'>
+<span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/07/26/top_stories_07262026#story-49056112'>Ruff v0.16.0 – Significant new updates – 413 default rules up from 59</a>
  <a class='hn-top-story-link' href='https://astral.sh/blog/ruff-v0.16.0' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Ruff v0.16.0：重大更新，默认规则从59增至413</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.2</span> <span class='hn-top-story-score'>&#9650; 222</span> <span class='hn-top-story-comments'>&#128172; 128</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 315</span> <span class='hn-top-story-comments'>&#128172; 192</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='70' data-hn-time='1785068486'>
-<span class='hn-top-story-rank'>4</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/26/top_stories_07262026#story-49057398'>Go Analysis Framework: modular static analysis by go team</a>
- <a class='hn-top-story-link' href='https://pkg.go.dev/golang.org/x/tools/go/analysis' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Go Analysis 框架：Go 团队的模块化静态分析工具</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 70</span> <span class='hn-top-story-comments'>&#128172; 6</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Open Source</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='232' data-hn-time='1785045442'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/26/top_stories_07262026#story-49055169'>GrapheneOS protections against data extraction from locked devices</a>
- <a class='hn-top-story-link' href='https://discuss.grapheneos.org/d/40700-grapheneos-protections-against-data-extraction-from-locked-devices' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>GrapheneOS 对锁定设备数据提取的保护机制</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 232</span> <span class='hn-top-story-comments'>&#128172; 118</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='233' data-hn-time='1785034550'>
-<span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/26/top_stories_07262026#story-49054224'>JetZero</a>
- <a class='hn-top-story-link' href='https://www.jetzero.aero' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>JetZero</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 233</span> <span class='hn-top-story-comments'>&#128172; 218</span> <span class='hn-top-story-tag'>Startups</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='428' data-hn-time='1785010683'>
-<span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/26/top_stories_07262026#story-49051120'>Did they ghost you?</a>
- <a class='hn-top-story-link' href='https://didtheyghostyou.com/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>他们真的把你甩了吗？</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.8</span> <span class='hn-top-story-score'>&#9650; 428</span> <span class='hn-top-story-comments'>&#128172; 191</span> <span class='hn-top-story-tag'>Culture</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='406' data-hn-time='1785012155'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/26/top_stories_07262026#story-49051361'>The new rules of context engineering for Claude 5 generation models</a>
- <a class='hn-top-story-link' href='https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Claude 5 代模型的上下文工程新规则</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.8</span> <span class='hn-top-story-score'>&#9650; 406</span> <span class='hn-top-story-comments'>&#128172; 296</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='212' data-hn-time='1785033343'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='184' data-hn-time='1785067211'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/26/top_stories_07262026#story-49054107'>An ESP32 based plane radar for my desk</a>
- <a class='hn-top-story-link' href='https://blog.ktz.me/esp32-plane-radar/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/26/top_stories_07262026#story-49057241'>Htmx 4.0, the first JavaScript library to release exclusively on the Game Boy</a>
+ <a class='hn-top-story-link' href='https://swag.htmx.org/en-cad/products/htmx-4-the-game' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>基于 ESP32 的桌面飞机雷达</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.7</span> <span class='hn-top-story-score'>&#9650; 212</span> <span class='hn-top-story-comments'>&#128172; 42</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Education</span></div>
+<div class='hn-top-story-zh'>Htmx 4.0：首个仅在 Game Boy 上发布的 JavaScript 库</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 184</span> <span class='hn-top-story-comments'>&#128172; 57</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='955' data-hn-time='1784962634'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='29' data-hn-time='1785088184'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/26/top_stories_07262026#story-49045159'>Android may soon restrict on-device ADB</a>
- <a class='hn-top-story-link' href='https://kitsumed.github.io/blog/posts/android-may-soon-restrict-on-device-adb/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/26/top_stories_07262026#story-49060495'>French firefighters face 'pyrocumulonimbus' for first time</a>
+ <a class='hn-top-story-link' href='https://www.france24.com/en/live-news/20260726-french-firefighters-face-pyrocumulonimbus-for-first-time' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Android 可能很快限制设备端 ADB</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.7</span> <span class='hn-top-story-score'>&#9650; 955</span> <span class='hn-top-story-comments'>&#128172; 470</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>法国消防员首次面对 Pyrocumulonimbus（火山云）</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 29</span> <span class='hn-top-story-comments'>&#128172; 13</span> <span class='hn-top-story-tag'>Science</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -140,7 +140,7 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 30 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-07-20 — 2026-07-26 <span class="hn-row-sep">·</span> 965 stories <span class="hn-row-sep">·</span> 7 days</span>
+<span class='hn-week-meta'>2026-07-20 — 2026-07-26 <span class="hn-row-sep">·</span> 993 stories <span class="hn-row-sep">·</span> 7 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/07/26/top_stories_07262026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>65</b> <span class="hn-row-sep">·</span> Programming <b>19</b> <span class="hn-row-sep">·</span> AI <b>15</b></span>
+<span class='hn-row-detail'>All <b>93</b> <span class="hn-row-sep">·</span> Programming <b>22</b> <span class="hn-row-sep">·</span> Hardware <b>18</b></span>
 </a>
 </div>
 </div>
