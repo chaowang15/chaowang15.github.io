@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>157</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>23094</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>154</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>155</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-07-26</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>158</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>23144</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>154</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>156</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-07-27</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,123 +20,142 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='339' data-hn-time='1785111544'>
+<div class='hn-top-story-item' data-hn-score='303' data-hn-time='1785133090'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/26/top_stories_07262026#story-49063754'>PGSimCity - How PostgreSQL Works</a>
- <a class='hn-top-story-link' href='https://nikolays.github.io/PGSimCity/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/27/top_stories_07272026#story-49065752'>Kimi-K3 Releases on HuggingFace 7/27</a>
+ <a class='hn-top-story-link' href='https://huggingface.co/moonshotai/Kimi-K3' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>PGSimCity：PostgreSQL 的工作原理</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.2</span> <span class='hn-top-story-score'>&#9650; 339</span> <span class='hn-top-story-comments'>&#128172; 39</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Data</span></div>
+<div class='hn-top-story-zh'>Kimi-K3 将在 HuggingFace 上线</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 13</span> <span class='hn-top-story-score'>&#9650; 303</span> <span class='hn-top-story-comments'>&#128172; 120</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='455' data-hn-time='1785104501'>
+<div class='hn-top-story-item' data-hn-score='594' data-hn-time='1785111544'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/26/top_stories_07262026#story-49063022'>US citizen charged after GrapheneOS phone wipes during airport search</a>
- <a class='hn-top-story-link' href='https://www.techspot.com/news/113236-us-prosecutors-charge-atlanta-man-after-grapheneos-phone.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/27/top_stories_07272026#story-49063754'>PGSimCity - How PostgreSQL Works</a>
+ <a class='hn-top-story-link' href='https://nikolays.github.io/PGSimCity/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>美国公民在机场安检时因 GrapheneOS 自动清除数据而被起诉</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.1</span> <span class='hn-top-story-score'>&#9650; 455</span> <span class='hn-top-story-comments'>&#128172; 290</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Legal</span></div>
+<div class='hn-top-story-zh'>PGSimCity：PostgreSQL 的工作原理</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.0</span> <span class='hn-top-story-score'>&#9650; 594</span> <span class='hn-top-story-comments'>&#128172; 59</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Data</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='899' data-hn-time='1785066797'>
+<div class='hn-top-story-item' data-hn-score='770' data-hn-time='1785104501'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/26/top_stories_07262026#story-49057175'>Kill The Cookie Banner</a>
- <a class='hn-top-story-link' href='https://killthecookiebanner.eu/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/27/top_stories_07272026#story-49063022'>US citizen charged after GrapheneOS phone wipes during airport search</a>
+ <a class='hn-top-story-link' href='https://www.techspot.com/news/113236-us-prosecutors-charge-atlanta-man-after-grapheneos-phone.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>抵制 Cookie 横幅计划</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.1</span> <span class='hn-top-story-score'>&#9650; 899</span> <span class='hn-top-story-comments'>&#128172; 439</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Web</span></div>
+<div class='hn-top-story-zh'>美国公民在机场安检时因 GrapheneOS 自动清除数据而被起诉</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.9</span> <span class='hn-top-story-score'>&#9650; 770</span> <span class='hn-top-story-comments'>&#128172; 553</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Legal</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='272' data-hn-time='1785090186'>
+<div class='hn-top-story-item' data-hn-score='1021' data-hn-time='1785066797'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/26/top_stories_07262026#story-49060856'>Decker, a platform that builds on the legacy of Hypercard and classic macOS</a>
- <a class='hn-top-story-link' href='https://beyondloom.com/decker/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/27/top_stories_07272026#story-49057175'>Kill The Cookie Banner</a>
+ <a class='hn-top-story-link' href='https://killthecookiebanner.eu/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Decker：在 HyperCard 与经典 macOS 基础上构建的平台</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 272</span> <span class='hn-top-story-comments'>&#128172; 69</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Design</span></div>
+<div class='hn-top-story-zh'>抵制 Cookie 横幅计划</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 1021</span> <span class='hn-top-story-comments'>&#128172; 488</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Design</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='235' data-hn-time='1785090936'>
+<div class='hn-top-story-item' data-hn-score='75' data-hn-time='1785130293'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/26/top_stories_07262026#story-49060978'>The Strongest El Niño Ever</a>
- <a class='hn-top-story-link' href='https://www.theclimatebrink.com/p/the-strongest-el-nino-ever' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/27/top_stories_07272026#story-49065498'>EU Fines Google $1.02B for Favoring Its Own Services</a>
+ <a class='hn-top-story-link' href='https://www.wsj.com/tech/google-fined-1-02-billion-under-eus-tech-antitrust-rules-7e8ae1fb' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>有史以来最强的厄尔尼诺现象</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.3</span> <span class='hn-top-story-score'>&#9650; 235</span> <span class='hn-top-story-comments'>&#128172; 244</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Energy</span></div>
+<div class='hn-top-story-zh'>欧盟因谷歌偏袒自家服务罚款 10.2 亿美元</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 75</span> <span class='hn-top-story-comments'>&#128172; 84</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='258' data-hn-time='1785088184'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='380' data-hn-time='1785088184'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/26/top_stories_07262026#story-49060495'>French firefighters face 'pyrocumulonimbus' for first time</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/27/top_stories_07272026#story-49060495'>French firefighters face 'pyrocumulonimbus' for first time</a>
  <a class='hn-top-story-link' href='https://www.france24.com/en/live-news/20260726-french-firefighters-face-pyrocumulonimbus-for-first-time' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>法国消防员首次面对 Pyrocumulonimbus（火山云）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.2</span> <span class='hn-top-story-score'>&#9650; 258</span> <span class='hn-top-story-comments'>&#128172; 150</span> <span class='hn-top-story-tag'>Science</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 380</span> <span class='hn-top-story-comments'>&#128172; 249</span> <span class='hn-top-story-tag'>Science</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='395' data-hn-time='1785067211'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='315' data-hn-time='1785090186'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/26/top_stories_07262026#story-49057241'>Htmx 4.0, the first JavaScript library to release exclusively on the Game Boy</a>
- <a class='hn-top-story-link' href='https://swag.htmx.org/en-cad/products/htmx-4-the-game' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/27/top_stories_07272026#story-49060856'>Decker, a platform that builds on the legacy of Hypercard and classic macOS</a>
+ <a class='hn-top-story-link' href='https://beyondloom.com/decker/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Htmx 4.0：首个仅在 Game Boy 上发布的 JavaScript 库</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.8</span> <span class='hn-top-story-score'>&#9650; 395</span> <span class='hn-top-story-comments'>&#128172; 138</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>Decker：在 HyperCard 与经典 macOS 基础上构建的平台</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.8</span> <span class='hn-top-story-score'>&#9650; 315</span> <span class='hn-top-story-comments'>&#128172; 74</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='133' data-hn-time='1785099206'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='16' data-hn-time='1785141791'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/26/top_stories_07262026#story-49062291'>We have proof automation now</a>
- <a class='hn-top-story-link' href='https://www.imperialviolet.org/2026/07/26/zstd-lean.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/27/top_stories_07272026#story-49066750'>How Unix spell ran in 64 kB of RAM</a>
+ <a class='hn-top-story-link' href='https://blog.codingconfessions.com/p/how-unix-spell-ran-in-64kb-ram' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>我们现在有证明自动化了</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.8</span> <span class='hn-top-story-score'>&#9650; 133</span> <span class='hn-top-story-comments'>&#128172; 29</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>DevOps</span></div>
+<div class='hn-top-story-zh'>Unix 如何在 64KB RAM 下运行</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.7</span> <span class='hn-top-story-score'>&#9650; 16</span> <span class='hn-top-story-comments'>&#128172; 0</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='191' data-hn-time='1785088682'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='178' data-hn-time='1785105970'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/26/top_stories_07262026#story-49060592'>It's not empowering to hand off the details</a>
- <a class='hn-top-story-link' href='https://davidnicholaswilliams.com/its-not-empowering-to-hand-off-the-details/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/27/top_stories_07272026#story-49063175'>Scriptc by Vercel: TypeScript-to-Native compiler, no JavaScript engine in binary</a>
+ <a class='hn-top-story-link' href='https://github.com/vercel-labs/scriptc' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>把细节交给他人并不等于赋能</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.7</span> <span class='hn-top-story-score'>&#9650; 191</span> <span class='hn-top-story-comments'>&#128172; 114</span> <span class='hn-top-story-tag'>Design</span></div>
+<div class='hn-top-story-zh'>Vercel 的 Scriptc：TypeScript 转原生编译器，二进制中不含 JavaScript 引擎</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.7</span> <span class='hn-top-story-score'>&#9650; 178</span> <span class='hn-top-story-comments'>&#128172; 92</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Startups</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='275' data-hn-time='1785076827'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='454' data-hn-time='1785067211'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/26/top_stories_07262026#story-49058669'>London Gatwick has launched a robotic airport parking service</a>
- <a class='hn-top-story-link' href='https://aerospaceglobalnews.com/news/gatwick-airport-robotic-parking-stanley-robotics/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/27/top_stories_07272026#story-49057241'>Htmx 4.0, the first JavaScript library to release exclusively on the Game Boy</a>
+ <a class='hn-top-story-link' href='https://swag.htmx.org/en-cad/products/htmx-4-the-game' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>伦敦盖特威克机场推出机器人停车服务</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.7</span> <span class='hn-top-story-score'>&#9650; 275</span> <span class='hn-top-story-comments'>&#128172; 239</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-zh'>Htmx 4.0：首个仅在 Game Boy 上发布的 JavaScript 库</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.5</span> <span class='hn-top-story-score'>&#9650; 454</span> <span class='hn-top-story-comments'>&#128172; 151</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Gaming</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
-<a class='hn-top-stories-more' href='/hackernews/2026/07/26/top_stories_07262026'>View all trending stories &rarr;</a>
+<a class='hn-top-stories-more' href='/hackernews/2026/07/27/top_stories_07272026'>View all trending stories &rarr;</a>
 <a class='hn-top-stories-more' href='/hackernews/2026/07/25/best_stories_07252026'>Latest Daily Best — 2026-07-25 &rarr;</a>
 </div>
 </div>
 <div class='hn-index-section hn-archive-section'>
 <h3 class='hn-section-title'>News Archive <span class='hn-section-zh'>新闻归档</span></h3>
+<details class='hn-week-group' open>
+<summary class='hn-week-summary'>
+<span class='hn-week-title'>2026 Week 31 <span class='hn-this-week-badge'>This Week</span></span>
+<span class='hn-week-meta'>2026-07-27 <span class="hn-row-sep">·</span> 50 stories <span class="hn-row-sep">·</span> 1 days</span>
+</summary>
+<div class='hn-week-content'>
+<div class='hn-grid'>
+<div class='hn-day-row'>
+<div class='hn-day-date'>2026-07-27 <span class='hn-day-weekday'>Mon</span></div>
+<div class='hn-day-stories'>
+<a class='hn-story-link' href='/hackernews/2026/07/27/top_stories_07272026'>
+<span class='hn-row-type hn-type-top'>Trending</span>
+<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> Programming <b>16</b> <span class="hn-row-sep">·</span> Science <b>9</b></span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</details>
 <details class='hn-week-group'>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 30</span>
@@ -552,7 +571,7 @@ Sort:
 <details class='hn-week-group'>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 26</span>
-<span class='hn-week-meta'>2026-06-27 — 2026-06-28 <span class="hn-row-sep">·</span> 300 stories <span class="hn-row-sep">·</span> 2 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
+<span class='hn-week-meta'>2026-06-28 <span class="hn-row-sep">·</span> 150 stories <span class="hn-row-sep">·</span> 1 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
 </summary>
 <div class='hn-week-content'>
 <a class='hn-story-link hn-weekly-digest-link' href='/hackernews/weekly/2026-W26'>
@@ -570,19 +589,6 @@ Sort:
 <a class='hn-story-link' href='/hackernews/2026/06/28/top_stories_06282026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
 <span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>27</b> <span class="hn-row-sep">·</span> Programming <b>25</b></span>
-</a>
-</div>
-</div>
-<div class='hn-day-row'>
-<div class='hn-day-date'>2026-06-27 <span class='hn-day-weekday'>Sat</span></div>
-<div class='hn-day-stories'>
-<a class='hn-story-link' href='/hackernews/2026/06/27/best_stories_06272026'>
-<span class='hn-row-type hn-type-best'>Daily Best</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>13</b> <span class="hn-row-sep">·</span> Politics <b>11</b></span>
-</a>
-<a class='hn-story-link' href='/hackernews/2026/06/27/top_stories_06272026'>
-<span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>25</b> <span class="hn-row-sep">·</span> Culture <b>17</b></span>
 </a>
 </div>
 </div>
