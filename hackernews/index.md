@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='70' data-hn-time='1785264108'>
+<div class='hn-top-story-item' data-hn-score='217' data-hn-time='1785271975'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/28/top_stories_07282026#story-49088148'>Deflock Casa Grande</a>
- <a class='hn-top-story-link' href='https://deflockcg.com/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/28/top_stories_07282026#story-49089755'>OpenAI just open-sourced Codex Security</a>
+ <a class='hn-top-story-link' href='https://github.com/openai/codex-security' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Deflock Casa Grande</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 70</span> <span class='hn-top-story-comments'>&#128172; 7</span> <span class='hn-top-story-tag'>Startups</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-zh'>OpenAI 将 Codex Security 开源</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 18</span> <span class='hn-top-story-score'>&#9650; 217</span> <span class='hn-top-story-comments'>&#128172; 45</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='244' data-hn-time='1785254527'>
+<div class='hn-top-story-item' data-hn-score='353' data-hn-time='1785257911'>
 <span class='hn-top-story-rank'>2</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/28/top_stories_07282026#story-49085909'>A walk through of the DeltaNet family of linear attention variants</a>
- <a class='hn-top-story-link' href='https://blog.doubleword.ai/you-could-have-come-up-with-kimi-delta-attention' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>DeltaNet 家族的线性注意力变体全览</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 244</span> <span class='hn-top-story-comments'>&#128172; 100</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='414' data-hn-time='1785244321'>
-<span class='hn-top-story-rank'>3</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/28/top_stories_07282026#story-49083314'>New HIV vaccine shows unprecedented success in preclinical study</a>
- <a class='hn-top-story-link' href='https://www.lji.org/news-events/news/post/new-hiv-vaccine-shows-unprecedented-success-in-preclinical-study/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>新型HIV疫苗在前临床研究中取得前所未有的成功</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.5</span> <span class='hn-top-story-score'>&#9650; 414</span> <span class='hn-top-story-comments'>&#128172; 197</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Health</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='258' data-hn-time='1785250695'>
-<span class='hn-top-story-rank'>4</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/28/top_stories_07282026#story-49084938'>Stop Killing the Internet: No Digital ID and No Age Verification</a>
- <a class='hn-top-story-link' href='https://citizens-initiative.europa.eu/initiatives/details/2026/000011_en' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>停止肆意‘杀死互联网’：拒绝数字身份与年龄验证</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.2</span> <span class='hn-top-story-score'>&#9650; 258</span> <span class='hn-top-story-comments'>&#128172; 79</span> <span class='hn-top-story-tag'>Privacy</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='108' data-hn-time='1785257911'>
-<span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/07/28/top_stories_07282026#story-49086788'>Substack writers, you need a website</a>
  <a class='hn-top-story-link' href='https://elizabethtai.com/2026/06/10/substack-writers-you-need-a-website/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Substack 作家，你需要拥有一个个人网站</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.6</span> <span class='hn-top-story-score'>&#9650; 108</span> <span class='hn-top-story-comments'>&#128172; 97</span> <span class='hn-top-story-tag'>Career</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.6</span> <span class='hn-top-story-score'>&#9650; 353</span> <span class='hn-top-story-comments'>&#128172; 189</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='735' data-hn-time='1785224664'>
+<div class='hn-top-story-item' data-hn-score='472' data-hn-time='1785250695'>
+<span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/28/top_stories_07282026#story-49084938'>Stop Killing the Internet: No Digital ID and No Age Verification</a>
+ <a class='hn-top-story-link' href='https://citizens-initiative.europa.eu/initiatives/details/2026/000011_en' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>停止肆意‘杀死互联网’：拒绝数字身份与年龄验证</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.6</span> <span class='hn-top-story-score'>&#9650; 472</span> <span class='hn-top-story-comments'>&#128172; 165</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='56' data-hn-time='1785274519'>
+<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/28/top_stories_07282026#story-49090233'>Running Kimi K3 on a M1 Max</a>
+ <a class='hn-top-story-link' href='https://github.com/gavamedia/deltafin' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>在 M1 Max 上运行 Kimi K3</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.5</span> <span class='hn-top-story-score'>&#9650; 56</span> <span class='hn-top-story-comments'>&#128172; 37</span> <span class='hn-top-story-tag'>Programming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='513' data-hn-time='1785244321'>
+<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/28/top_stories_07282026#story-49083314'>New HIV vaccine shows unprecedented success in preclinical study</a>
+ <a class='hn-top-story-link' href='https://www.lji.org/news-events/news/post/new-hiv-vaccine-shows-unprecedented-success-in-preclinical-study/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>新型HIV疫苗在前临床研究中取得前所未有的成功</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.2</span> <span class='hn-top-story-score'>&#9650; 513</span> <span class='hn-top-story-comments'>&#128172; 228</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Health</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='278' data-hn-time='1785254527'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/28/top_stories_07282026#story-49080664'>7.1 Earthquake in Japan</a>
- <a class='hn-top-story-link' href='https://www.data.jma.go.jp/multi/quake/quake_detail.html?eventID=20260728163528&lang=en' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/28/top_stories_07282026#story-49085909'>A walk through of the DeltaNet family of linear attention variants</a>
+ <a class='hn-top-story-link' href='https://blog.doubleword.ai/you-could-have-come-up-with-kimi-delta-attention' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>日本发生7.1级地震</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.7</span> <span class='hn-top-story-score'>&#9650; 735</span> <span class='hn-top-story-comments'>&#128172; 195</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>DevOps</span></div>
+<div class='hn-top-story-zh'>DeltaNet 家族的线性注意力变体全览</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.5</span> <span class='hn-top-story-score'>&#9650; 278</span> <span class='hn-top-story-comments'>&#128172; 115</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Science</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='86' data-hn-time='1785258714'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='63' data-hn-time='1785272319'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/28/top_stories_07282026#story-49086971'>Steel Bank Common Lisp version 2.6.7</a>
- <a class='hn-top-story-link' href='https://sbcl.org/all-news.html?2.6.7' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/28/top_stories_07282026#story-49089814'>Half-Life ported to Mac OS 9</a>
+ <a class='hn-top-story-link' href='https://mac-classic.com/news/half-life-ported-to-mac-os-9/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Steel Bank Common Lisp 2.6.7 版本发布</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.7</span> <span class='hn-top-story-score'>&#9650; 86</span> <span class='hn-top-story-comments'>&#128172; 16</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>《半条命》移植到 Mac OS 9</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.4</span> <span class='hn-top-story-score'>&#9650; 63</span> <span class='hn-top-story-comments'>&#128172; 22</span> <span class='hn-top-story-tag'>Gaming</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='78' data-hn-time='1785259336'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='103' data-hn-time='1785267693'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/28/top_stories_07282026#story-49087091'>Discovering Cryptographic Weaknesses with Claude</a>
- <a class='hn-top-story-link' href='https://www.anthropic.com/research/discovering-cryptographic-weaknesses' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/28/top_stories_07282026#story-49088887'>Uv 0.12.0</a>
+ <a class='hn-top-story-link' href='https://github.com/astral-sh/uv/releases/tag/0.12.0' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>用 Claude 发掘加密弱点</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.5</span> <span class='hn-top-story-score'>&#9650; 78</span> <span class='hn-top-story-comments'>&#128172; 29</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>Uv 0.12.0 版本发布</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.3</span> <span class='hn-top-story-score'>&#9650; 103</span> <span class='hn-top-story-comments'>&#128172; 39</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='131' data-hn-time='1785253838'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='245' data-hn-time='1785253714'>
 <span class='hn-top-story-rank'>9</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/28/top_stories_07282026#story-49085731'>Delayed Gratification – Proud to Be 'Last to Breaking News'</a>
- <a class='hn-top-story-link' href='https://www.slow-journalism.com/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>延迟满足：骄傲地做‘最后才爆出新闻’</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.1</span> <span class='hn-top-story-score'>&#9650; 131</span> <span class='hn-top-story-comments'>&#128172; 63</span> <span class='hn-top-story-tag'>Culture</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='122' data-hn-time='1785253714'>
-<span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/07/28/top_stories_07282026#story-49085698'>Kimi K3 Architecture Overview and Notes</a>
  <a class='hn-top-story-link' href='https://sebastianraschka.com/blog/2026/kimi-k3-architecture-notes.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Kimi K3 架构总览与笔记</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.6</span> <span class='hn-top-story-score'>&#9650; 122</span> <span class='hn-top-story-comments'>&#128172; 14</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.6</span> <span class='hn-top-story-score'>&#9650; 245</span> <span class='hn-top-story-comments'>&#128172; 31</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Science</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='761' data-hn-time='1785224664'>
+<span class='hn-top-story-rank'>10</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/28/top_stories_07282026#story-49080664'>7.1 Earthquake in Japan</a>
+ <a class='hn-top-story-link' href='https://www.data.jma.go.jp/multi/quake/quake_detail.html?eventID=20260728163528&lang=en' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>日本发生7.1级地震</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.6</span> <span class='hn-top-story-score'>&#9650; 761</span> <span class='hn-top-story-comments'>&#128172; 199</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>DevOps</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
