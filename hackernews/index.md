@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>160</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>23494</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>157</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>158</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-07-29</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>160</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>23538</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>157</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>158</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-07-29</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='157' data-hn-time='1785301126'>
+<div class='hn-top-story-item' data-hn-score='425' data-hn-time='1785323108'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/29/top_stories_07292026#story-49093569'>More Tailscale tricks for your jailbroken Kindle</a>
- <a class='hn-top-story-link' href='https://tailscale.com/blog/jailbroken-kindle-proxy-tun-modes' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/29/top_stories_07292026#story-49095865'>KOReader</a>
+ <a class='hn-top-story-link' href='https://koreader.rocks/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>为越狱 Kindle 的更多 Tailscale 技巧</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.5</span> <span class='hn-top-story-score'>&#9650; 157</span> <span class='hn-top-story-comments'>&#128172; 47</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>KOReader：跨平台的开源电子书阅读器</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 14</span> <span class='hn-top-story-score'>&#9650; 425</span> <span class='hn-top-story-comments'>&#128172; 136</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='147' data-hn-time='1785299436'>
+<div class='hn-top-story-item' data-hn-score='70' data-hn-time='1785337543'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/29/top_stories_07292026#story-49093434'>User Interfaces of the Demo Scene</a>
- <a class='hn-top-story-link' href='https://www.datagubbe.se/scenegui/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/29/top_stories_07292026#story-49098510'>Show HN: Open-source engine running Gemma 4 26B in 2 GB RAM on any M-series Mac</a>
+ <a class='hn-top-story-link' href='https://github.com/drumih/turbo-fieldfare' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Demo Scene 的用户界面设计</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.2</span> <span class='hn-top-story-score'>&#9650; 147</span> <span class='hn-top-story-comments'>&#128172; 24</span> <span class='hn-top-story-tag'>Design</span> <span class='hn-top-story-tag'>Culture</span></div>
+<div class='hn-top-story-zh'>Show HN：在任意 M-series Mac 的 2GB RAM 上运行 Gemma 4 26B 的开源引擎</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 70</span> <span class='hn-top-story-comments'>&#128172; 17</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='489' data-hn-time='1785271975'>
+<div class='hn-top-story-item' data-hn-score='258' data-hn-time='1785326077'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/29/top_stories_07292026#story-49089755'>Codex Security</a>
- <a class='hn-top-story-link' href='https://github.com/openai/codex-security' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/29/top_stories_07292026#story-49096290'>French musician Kavinsky found dead</a>
+ <a class='hn-top-story-link' href='https://www.euronews.com/culture/2026/07/29/dj-kavinsky-known-for-his-track-nightcall-found-dead-at-his-paris-home' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>OpenAI 将 Codex Security 开源</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 489</span> <span class='hn-top-story-comments'>&#128172; 161</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>法国音乐人 Kavinsky 去世</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 10</span> <span class='hn-top-story-score'>&#9650; 258</span> <span class='hn-top-story-comments'>&#128172; 57</span> <span class='hn-top-story-tag'>Entertainment</span> <span class='hn-top-story-tag'>Culture</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='173' data-hn-time='1785289759'>
+<div class='hn-top-story-item' data-hn-score='144' data-hn-time='1785330117'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/29/top_stories_07292026#story-49092499'>LearnVector – Andrew Ng's AI company building one‑to‑one learning experiences</a>
- <a class='hn-top-story-link' href='https://learnvector.ai/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/29/top_stories_07292026#story-49096969'>Handbook.md shows that long policy documents do not reliably govern agents</a>
+ <a class='hn-top-story-link' href='https://arxiv.org/abs/2607.25398' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>LearnVector：吴恩达的 AI 公司，打造一对一学习体验</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 173</span> <span class='hn-top-story-comments'>&#128172; 100</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Education</span> <span class='hn-top-story-tag'>Startups</span></div>
+<div class='hn-top-story-zh'>Handbook.md 表明長篇政策文件並不能可靠地規範代理行為</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.4</span> <span class='hn-top-story-score'>&#9650; 144</span> <span class='hn-top-story-comments'>&#128172; 90</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Science</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='300' data-hn-time='1785276546'>
+<div class='hn-top-story-item' data-hn-score='188' data-hn-time='1785325473'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/29/top_stories_07292026#story-49090607'>Show HN: I was tired of opening 2 tabs for every HN link, so I made a userscript</a>
- <a class='hn-top-story-link' href='https://github.com/twalichiewicz/HNewhere' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/29/top_stories_07292026#story-49096188'>Document-borne AI worms can self-propagate through Copilot for Word</a>
+ <a class='hn-top-story-link' href='https://enklypesalt.com/posts/context-collapse-part3-ai-worming-through-word/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Show HN：为避免为每个 Hacker News 链接打开两个标签页，我写了一个用户脚本</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 300</span> <span class='hn-top-story-comments'>&#128172; 78</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>文档载体的 AI 蠕虫可通过 Copilot for Word 自我传播</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.2</span> <span class='hn-top-story-score'>&#9650; 188</span> <span class='hn-top-story-comments'>&#128172; 164</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='522' data-hn-time='1785257911'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='78' data-hn-time='1785333940'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/29/top_stories_07292026#story-49086788'>Substack writers, you need a website</a>
- <a class='hn-top-story-link' href='https://elizabethtai.com/2026/06/10/substack-writers-you-need-a-website/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/29/top_stories_07292026#story-49097730'>Choose DuckDB rather than SQLite</a>
+ <a class='hn-top-story-link' href='https://tracewayapp.com/blog/sqlite-vs-duckdb' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Substack 作家，你需要拥有一个个人网站</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 522</span> <span class='hn-top-story-comments'>&#128172; 262</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Web</span></div>
+<div class='hn-top-story-zh'>DuckDB 优于 SQLite？还是选择 DuckDB？</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.1</span> <span class='hn-top-story-score'>&#9650; 78</span> <span class='hn-top-story-comments'>&#128172; 40</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Data</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='592' data-hn-time='1785250695'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='108' data-hn-time='1785328382'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/29/top_stories_07292026#story-49084938'>Stop Killing the Internet: No Digital ID and No Age Verification</a>
- <a class='hn-top-story-link' href='https://citizens-initiative.europa.eu/initiatives/details/2026/000011_en' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/29/top_stories_07292026#story-49096654'>Darktable</a>
+ <a class='hn-top-story-link' href='https://www.darktable.org/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>停止肆意‘杀死互联网’：拒绝数字身份与年龄验证</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.7</span> <span class='hn-top-story-score'>&#9650; 592</span> <span class='hn-top-story-comments'>&#128172; 208</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>Darktable 开源照片工作流程软件</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.3</span> <span class='hn-top-story-score'>&#9650; 108</span> <span class='hn-top-story-comments'>&#128172; 49</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='788' data-hn-time='1785224664'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='60' data-hn-time='1785331485'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/29/top_stories_07292026#story-49080664'>7.1 Earthquake in Japan</a>
- <a class='hn-top-story-link' href='https://www.data.jma.go.jp/multi/quake/quake_detail.html?eventID=20260728163528&lang=en' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/29/top_stories_07292026#story-49097209'>Kalshi attacks a Wisconsin law banning election bets as 'voter suppression'</a>
+ <a class='hn-top-story-link' href='https://www.npr.org/2026/07/27/nx-s1-5905360/kalshi-wisconsin-election-betting-prediction-markets' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>日本发生7.1级地震</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.1</span> <span class='hn-top-story-score'>&#9650; 788</span> <span class='hn-top-story-comments'>&#128172; 214</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>DevOps</span></div>
+<div class='hn-top-story-zh'>Kalshi 将威斯康星州禁止选举赌注的法律视为‘选民压制’</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 60</span> <span class='hn-top-story-comments'>&#128172; 19</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Finance</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='234' data-hn-time='1785272319'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='69' data-hn-time='1785329750'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/29/top_stories_07292026#story-49089814'>Half-Life ported to Mac OS 9</a>
- <a class='hn-top-story-link' href='https://mac-classic.com/news/half-life-ported-to-mac-os-9/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/29/top_stories_07292026#story-49096885'>San Francisco: Don't Fall for Industry Defense of Surveillance Pricing</a>
+ <a class='hn-top-story-link' href='https://www.eff.org/deeplinks/2026/07/san-francisco-dont-fall-industry-defense-surveillance-pricing' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>《半条命》移植到 Mac OS 9</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 234</span> <span class='hn-top-story-comments'>&#128172; 109</span> <span class='hn-top-story-tag'>Gaming</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>旧金山：勿相信行业对监控定价的辩护</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 69</span> <span class='hn-top-story-comments'>&#128172; 18</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='408' data-hn-time='1785253714'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='30' data-hn-time='1785336227'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/29/top_stories_07292026#story-49085698'>Kimi K3 Architecture Overview and Notes</a>
- <a class='hn-top-story-link' href='https://sebastianraschka.com/blog/2026/kimi-k3-architecture-notes.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/29/top_stories_07292026#story-49098198'>A.I. Companies Are Recruiting Electricians and Carpenters by the Thousands</a>
+ <a class='hn-top-story-link' href='https://www.nytimes.com/2026/07/29/business/economy/data-center-electricians-training.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Kimi K3 架构总览与笔记</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 408</span> <span class='hn-top-story-comments'>&#128172; 72</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>AI 公司正在大规模招募电工和木匠</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.7</span> <span class='hn-top-story-score'>&#9650; 30</span> <span class='hn-top-story-comments'>&#128172; 10</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Career</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -140,7 +140,7 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 31 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-07-27 — 2026-07-29 <span class="hn-row-sep">·</span> 350 stories <span class="hn-row-sep">·</span> 3 days</span>
+<span class='hn-week-meta'>2026-07-27 — 2026-07-29 <span class="hn-row-sep">·</span> 394 stories <span class="hn-row-sep">·</span> 3 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/07/29/top_stories_07292026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> Programming <b>16</b> <span class="hn-row-sep">·</span> AI <b>12</b></span>
+<span class='hn-row-detail'>All <b>94</b> <span class="hn-row-sep">·</span> Programming <b>28</b> <span class="hn-row-sep">·</span> AI <b>26</b></span>
 </a>
 </div>
 </div>
