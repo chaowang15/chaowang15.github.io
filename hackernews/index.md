@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='308' data-hn-time='1785431751'>
+<div class='hn-top-story-item' data-hn-score='622' data-hn-time='1785436852'>
 <span class='hn-top-story-rank'>1</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/30/top_stories_07302026#story-49112867'>Advancing the price-performance frontier with GPT‑5.6</a>
- <a class='hn-top-story-link' href='https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>以 GPT‑5.6 提升性价比前沿</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 24</span> <span class='hn-top-story-score'>&#9650; 308</span> <span class='hn-top-story-comments'>&#128172; 191</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='137' data-hn-time='1785436852'>
-<span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/07/30/top_stories_07302026#story-49113929'>UEFA and its national associations will not participate in FIFA competitions</a>
  <a class='hn-top-story-link' href='https://www.uefa.com/news-media/news/02a7-213a92896eb0-54dfbf454e3b-1000--statement-on-behalf-of-uefa-and-its-55-national-associations/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>欧足联及55个成员协会宣布退出FIFA赛事</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 23</span> <span class='hn-top-story-score'>&#9650; 137</span> <span class='hn-top-story-comments'>&#128172; 52</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 23</span> <span class='hn-top-story-score'>&#9650; 622</span> <span class='hn-top-story-comments'>&#128172; 346</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='176' data-hn-time='1785431093'>
+<div class='hn-top-story-item' data-hn-score='449' data-hn-time='1785431751'>
+<span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/30/top_stories_07302026#story-49112867'>Advancing the price-performance frontier with GPT‑5.6</a>
+ <a class='hn-top-story-link' href='https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>以 GPT‑5.6 提升性价比前沿</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 449</span> <span class='hn-top-story-comments'>&#128172; 281</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='440' data-hn-time='1785431093'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/30/top_stories_07302026#story-49112744'>Read This Before You Buy That TV Streaming Stick</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/30/top_stories_07302026#story-49112744'>Read this before you buy that TV streaming stick</a>
  <a class='hn-top-story-link' href='https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>买电视流媒体棒前该知道的事</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 13</span> <span class='hn-top-story-score'>&#9650; 176</span> <span class='hn-top-story-comments'>&#128172; 77</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 440</span> <span class='hn-top-story-comments'>&#128172; 255</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='315' data-hn-time='1785424548'>
+<div class='hn-top-story-item' data-hn-score='379' data-hn-time='1785428776'>
 <span class='hn-top-story-rank'>4</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/30/top_stories_07302026#story-49111237'>Gemini Robotics 2 brings whole body intelligence to robots</a>
- <a class='hn-top-story-link' href='https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Gemini Robotics 2 将整身智能引入机器人</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 315</span> <span class='hn-top-story-comments'>&#128172; 295</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Science</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='132' data-hn-time='1785432667'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/30/top_stories_07302026#story-49113059'>We Gave GPT 5.6 Sol a Real Business. It Lied, Spammed, and Lost $447</a>
- <a class='hn-top-story-link' href='https://www.bottlenecklabs.com/blog/autonomously-run-businesses' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>我们让 GPT‑5.6 Sol 做真实生意：它撒谎、发送垃圾信息，损失 447 美元</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 132</span> <span class='hn-top-story-comments'>&#128172; 78</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Business</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='137' data-hn-time='1785428776'>
-<span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/07/30/top_stories_07302026#story-49112232'>Stacked PRs are now live on GitHub</a>
  <a class='hn-top-story-link' href='https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>GitHub 现已上线堆叠 PR（Stacked PRs）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.7</span> <span class='hn-top-story-score'>&#9650; 137</span> <span class='hn-top-story-comments'>&#128172; 49</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.0</span> <span class='hn-top-story-score'>&#9650; 379</span> <span class='hn-top-story-comments'>&#128172; 132</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='129' data-hn-time='1785424227'>
+<div class='hn-top-story-item' data-hn-score='427' data-hn-time='1785424548'>
+<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/30/top_stories_07302026#story-49111237'>Gemini Robotics 2 brings whole body intelligence to robots</a>
+ <a class='hn-top-story-link' href='https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Gemini Robotics 2 将整身智能引入机器人</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.2</span> <span class='hn-top-story-score'>&#9650; 427</span> <span class='hn-top-story-comments'>&#128172; 379</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='255' data-hn-time='1785432667'>
+<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/30/top_stories_07302026#story-49113059'>We Gave GPT 5.6 Sol a Real Business. It Lied, Spammed, and Lost $447</a>
+ <a class='hn-top-story-link' href='https://www.bottlenecklabs.com/blog/autonomously-run-businesses' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>我们让 GPT‑5.6 Sol 做真实生意：它撒谎、发送垃圾信息，损失 447 美元</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.9</span> <span class='hn-top-story-score'>&#9650; 255</span> <span class='hn-top-story-comments'>&#128172; 155</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Business</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='98' data-hn-time='1785440067'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/30/top_stories_07302026#story-49111176'>The Economic Benefit of Refactoring</a>
- <a class='hn-top-story-link' href='https://martinfowler.com/articles/exploring-gen-ai/refactoring-economic-benefit.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/30/top_stories_07302026#story-49114639'>Agent Skill to Force Docs in ASD-STE100 Simplified Technical English</a>
+ <a class='hn-top-story-link' href='https://github.com/AminBlg/SimpleEnglish' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>重构的经济效益</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.8</span> <span class='hn-top-story-score'>&#9650; 129</span> <span class='hn-top-story-comments'>&#128172; 54</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>让代理具备将文档改写为 ASD-STE100 简化技术英语的能力</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.7</span> <span class='hn-top-story-score'>&#9650; 98</span> <span class='hn-top-story-comments'>&#128172; 36</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='109' data-hn-time='1785424966'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='101' data-hn-time='1785436262'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/30/top_stories_07302026#story-49111305'>Physicists Solve a Muon Mystery. Now, Old Results Don't Add Up</a>
- <a class='hn-top-story-link' href='https://www.quantamagazine.org/physicists-solve-a-muon-mystery-now-old-results-dont-add-up-20260729/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/30/top_stories_07302026#story-49113801'>So you want to use plants to reduce CO₂</a>
+ <a class='hn-top-story-link' href='https://dynomight.net/plants/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>物理学家解决了缪子之谜，旧结果不再成立</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.3</span> <span class='hn-top-story-score'>&#9650; 109</span> <span class='hn-top-story-comments'>&#128172; 53</span> <span class='hn-top-story-tag'>Science</span></div>
+<div class='hn-top-story-zh'>想用植物来降低二氧化碳排放吗？</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 101</span> <span class='hn-top-story-comments'>&#128172; 83</span> <span class='hn-top-story-tag'>Science</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='23' data-hn-time='1785436772'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='94' data-hn-time='1785436772'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/30/top_stories_07302026#story-49113913'>Postgres Queues Actually Scale</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/30/top_stories_07302026#story-49113913'>Making Postgres queues scale</a>
  <a class='hn-top-story-link' href='https://www.dbos.dev/blog/making-postgres-queues-scale' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Postgres 队列其实可以扩展</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 23</span> <span class='hn-top-story-comments'>&#128172; 1</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>DevOps</span> <span class='hn-top-story-tag'>Data</span></div>
+<div class='hn-top-story-zh'>让 PostgreSQL 队列实现可扩展性</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 94</span> <span class='hn-top-story-comments'>&#128172; 21</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Data</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='247' data-hn-time='1785406426'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='105' data-hn-time='1785433971'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/30/top_stories_07302026#story-49107950'>Google will expand age checks on Android worldwide till the end of the year</a>
- <a class='hn-top-story-link' href='https://android-developers.googleblog.com/2026/07/google-play-age-signals-api-safer-experiences.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/30/top_stories_07302026#story-49113338'>CodePen 2.0</a>
+ <a class='hn-top-story-link' href='https://chriscoyier.net/2026/07/30/codepen-2-0/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>谷歌将把 Android 的年龄验证扩展至全球，直至今年年底</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 247</span> <span class='hn-top-story-comments'>&#128172; 279</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>CodePen 2.0 发布</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 105</span> <span class='hn-top-story-comments'>&#128172; 27</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/07/30/top_stories_07302026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>31</b> <span class="hn-row-sep">·</span> AI <b>28</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>31</b> <span class="hn-row-sep">·</span> Programming <b>28</b></span>
 </a>
 </div>
 </div>
