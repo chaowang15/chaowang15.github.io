@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>161</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>23694</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>158</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>159</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-07-30</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>162</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>23743</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>158</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>160</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-07-31</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,118 +20,118 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='78' data-hn-time='1785471304'>
+<div class='hn-top-story-item' data-hn-score='211' data-hn-time='1785478116'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/30/top_stories_07302026#story-49118933'>The AI trade now runs on borrowed money, and the lenders are repricing it</a>
- <a class='hn-top-story-link' href='https://greyswansignals.com/?theme=dark' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/31/top_stories_07312026#story-49119559'>DeepSeek-V4-Flash Update</a>
+ <a class='hn-top-story-link' href='https://api-docs.deepseek.com/updates/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>AI 投资如今靠借贷支撑，放贷方正在重新定价</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.2</span> <span class='hn-top-story-score'>&#9650; 78</span> <span class='hn-top-story-comments'>&#128172; 24</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Finance</span></div>
+<div class='hn-top-story-zh'>DeepSeek-V4-Flash 更新</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 211</span> <span class='hn-top-story-comments'>&#128172; 86</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Data</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='889' data-hn-time='1785436852'>
+<div class='hn-top-story-item' data-hn-score='289' data-hn-time='1785469679'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/30/top_stories_07302026#story-49113929'>UEFA and its national associations will not participate in FIFA competitions</a>
- <a class='hn-top-story-link' href='https://www.uefa.com/news-media/news/02a7-213a92896eb0-54dfbf454e3b-1000--statement-on-behalf-of-uefa-and-its-55-national-associations/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/31/top_stories_07312026#story-49118781'>The session you cannot take with you</a>
+ <a class='hn-top-story-link' href='https://earendil.com/posts/session-portability/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>欧足联及55个成员协会宣布退出FIFA赛事</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.0</span> <span class='hn-top-story-score'>&#9650; 889</span> <span class='hn-top-story-comments'>&#128172; 486</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>你带不走的会话</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.9</span> <span class='hn-top-story-score'>&#9650; 289</span> <span class='hn-top-story-comments'>&#128172; 61</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='101' data-hn-time='1785468456'>
+<div class='hn-top-story-item' data-hn-score='1010' data-hn-time='1785436852'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/30/top_stories_07302026#story-49118663'>A California aquifer may have crossed the point of no return</a>
- <a class='hn-top-story-link' href='https://www.science.org/content/article/california-aquifer-may-have-crossed-point-no-return' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/31/top_stories_07312026#story-49113929'>UEFA and its national associations will not participate in FIFA competitions</a>
+ <a class='hn-top-story-link' href='https://www.uefa.com/news-media/news/02a7-213a92896eb0-54dfbf454e3b-1000--statement-on-behalf-of-uefa-and-its-55-national-associations/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>加州一处含水层或已越过不可逆点</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.1</span> <span class='hn-top-story-score'>&#9650; 101</span> <span class='hn-top-story-comments'>&#128172; 81</span> <span class='hn-top-story-tag'>Science</span></div>
+<div class='hn-top-story-zh'>欧足联及55个成员协会宣布退出FIFA赛事</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.5</span> <span class='hn-top-story-score'>&#9650; 1010</span> <span class='hn-top-story-comments'>&#128172; 546</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='81' data-hn-time='1785468741'>
+<div class='hn-top-story-item' data-hn-score='705' data-hn-time='1785431093'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/30/top_stories_07302026#story-49118696'>The bond market isn't buying what Fed Chair Warsh is selling</a>
- <a class='hn-top-story-link' href='https://www.reuters.com/commentary/reuters-open-interest/bond-market-isnt-buying-what-fed-chair-warsh-is-selling-2026-07-30/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>债市不买联储主席 Warsh 的说法</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.7</span> <span class='hn-top-story-score'>&#9650; 81</span> <span class='hn-top-story-comments'>&#128172; 13</span> <span class='hn-top-story-tag'>Finance</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='237' data-hn-time='1785453736'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/30/top_stories_07302026#story-49117099'>The AI Aesthetic</a>
- <a class='hn-top-story-link' href='https://blog.jim-nielsen.com/2026/ai-aesthetic/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>人工智能美学</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.4</span> <span class='hn-top-story-score'>&#9650; 237</span> <span class='hn-top-story-comments'>&#128172; 113</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Design</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='646' data-hn-time='1785431093'>
-<span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/30/top_stories_07302026#story-49112744'>Read this before you buy that TV streaming stick</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/31/top_stories_07312026#story-49112744'>Read this before you buy that TV streaming stick</a>
  <a class='hn-top-story-link' href='https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>买电视流媒体棒前该知道的事</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.3</span> <span class='hn-top-story-score'>&#9650; 646</span> <span class='hn-top-story-comments'>&#128172; 368</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.8</span> <span class='hn-top-story-score'>&#9650; 705</span> <span class='hn-top-story-comments'>&#128172; 401</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='537' data-hn-time='1785431751'>
+<div class='hn-top-story-item' data-hn-score='300' data-hn-time='1785453736'>
+<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/31/top_stories_07312026#story-49117099'>The AI Aesthetic</a>
+ <a class='hn-top-story-link' href='https://blog.jim-nielsen.com/2026/ai-aesthetic/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>人工智能美学</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 300</span> <span class='hn-top-story-comments'>&#128172; 131</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Design</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='137' data-hn-time='1785468456'>
+<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/31/top_stories_07312026#story-49118663'>A California aquifer may have crossed the point of no return</a>
+ <a class='hn-top-story-link' href='https://www.science.org/content/article/california-aquifer-may-have-crossed-point-no-return' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>加州一处含水层或已越过不可逆点</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 137</span> <span class='hn-top-story-comments'>&#128172; 112</span> <span class='hn-top-story-tag'>Science</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='632' data-hn-time='1785428776'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/30/top_stories_07302026#story-49112867'>Advancing the price-performance frontier with GPT‑5.6</a>
- <a class='hn-top-story-link' href='https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>以 GPT‑5.6 提升性价比前沿</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.5</span> <span class='hn-top-story-score'>&#9650; 537</span> <span class='hn-top-story-comments'>&#128172; 352</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='548' data-hn-time='1785428776'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/30/top_stories_07302026#story-49112232'>Stacked PRs are now live on GitHub</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/31/top_stories_07312026#story-49112232'>Stacked PRs are now live on GitHub</a>
  <a class='hn-top-story-link' href='https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>GitHub 现已上线堆叠 PR（Stacked PRs）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.1</span> <span class='hn-top-story-score'>&#9650; 548</span> <span class='hn-top-story-comments'>&#128172; 188</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 632</span> <span class='hn-top-story-comments'>&#128172; 219</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='516' data-hn-time='1785424548'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='96' data-hn-time='1785472699'>
+<span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/31/top_stories_07312026#story-49119063'>JEP 401: Value Objects (Preview) merged to OpenJDK master</a>
+ <a class='hn-top-story-link' href='https://github.com/openjdk/jdk/pull/31120' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>JEP 401：值对象（预览版）已合并到 OpenJDK 主分支</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 96</span> <span class='hn-top-story-comments'>&#128172; 36</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Open Source</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='572' data-hn-time='1785431751'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/30/top_stories_07302026#story-49111237'>Gemini Robotics 2 brings whole body intelligence to robots</a>
- <a class='hn-top-story-link' href='https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/31/top_stories_07312026#story-49112867'>Advancing the price-performance frontier with GPT‑5.6</a>
+ <a class='hn-top-story-link' href='https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Gemini Robotics 2 将整身智能引入机器人</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 516</span> <span class='hn-top-story-comments'>&#128172; 415</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>以 GPT‑5.6 提升性价比前沿</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 572</span> <span class='hn-top-story-comments'>&#128172; 373</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='147' data-hn-time='1785452451'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='554' data-hn-time='1785424548'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/30/top_stories_07302026#story-49116922'>Investigating three real-world incidents in our cybersecurity evaluations</a>
- <a class='hn-top-story-link' href='https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/31/top_stories_07312026#story-49111237'>Gemini Robotics 2 brings whole body intelligence to robots</a>
+ <a class='hn-top-story-link' href='https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>我们在网络安全评估中对三起真实事件进行调查</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 147</span> <span class='hn-top-story-comments'>&#128172; 103</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>Gemini Robotics 2 将整身智能引入机器人</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 554</span> <span class='hn-top-story-comments'>&#128172; 442</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
-<a class='hn-top-stories-more' href='/hackernews/2026/07/30/top_stories_07302026'>View all trending stories &rarr;</a>
+<a class='hn-top-stories-more' href='/hackernews/2026/07/31/top_stories_07312026'>View all trending stories &rarr;</a>
 <a class='hn-top-stories-more' href='/hackernews/2026/07/29/best_stories_07292026'>Latest Daily Best — 2026-07-29 &rarr;</a>
 </div>
 </div>
@@ -140,10 +140,19 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 31 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-07-27 — 2026-07-30 <span class="hn-row-sep">·</span> 550 stories <span class="hn-row-sep">·</span> 4 days</span>
+<span class='hn-week-meta'>2026-07-27 — 2026-07-31 <span class="hn-row-sep">·</span> 599 stories <span class="hn-row-sep">·</span> 5 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
+<div class='hn-day-row'>
+<div class='hn-day-date'>2026-07-31 <span class='hn-day-weekday'>Fri</span></div>
+<div class='hn-day-stories'>
+<a class='hn-story-link' href='/hackernews/2026/07/31/top_stories_07312026'>
+<span class='hn-row-type hn-type-top'>Trending</span>
+<span class='hn-row-detail'>All <b>49</b> <span class="hn-row-sep">·</span> AI <b>13</b> <span class="hn-row-sep">·</span> Programming <b>12</b></span>
+</a>
+</div>
+</div>
 <div class='hn-day-row'>
 <div class='hn-day-date'>2026-07-30 <span class='hn-day-weekday'>Thu</span></div>
 <div class='hn-day-stories'>
@@ -513,7 +522,7 @@ Sort:
 <details class='hn-week-group'>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 27</span>
-<span class='hn-week-meta'>2026-07-01 — 2026-07-05 <span class="hn-row-sep">·</span> 750 stories <span class="hn-row-sep">·</span> 5 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
+<span class='hn-week-meta'>2026-07-02 — 2026-07-05 <span class="hn-row-sep">·</span> 600 stories <span class="hn-row-sep">·</span> 4 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
 </summary>
 <div class='hn-week-content'>
 <a class='hn-story-link hn-weekly-digest-link' href='/hackernews/weekly/2026-W27'>
@@ -570,19 +579,6 @@ Sort:
 <a class='hn-story-link' href='/hackernews/2026/07/02/top_stories_07022026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
 <span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>23</b> <span class="hn-row-sep">·</span> AI <b>19</b></span>
-</a>
-</div>
-</div>
-<div class='hn-day-row'>
-<div class='hn-day-date'>2026-07-01 <span class='hn-day-weekday'>Wed</span></div>
-<div class='hn-day-stories'>
-<a class='hn-story-link' href='/hackernews/2026/07/01/best_stories_07012026'>
-<span class='hn-row-type hn-type-best'>Daily Best</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>13</b> <span class="hn-row-sep">·</span> Programming <b>11</b></span>
-</a>
-<a class='hn-story-link' href='/hackernews/2026/07/01/top_stories_07012026'>
-<span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>25</b> <span class="hn-row-sep">·</span> AI <b>21</b></span>
 </a>
 </div>
 </div>
