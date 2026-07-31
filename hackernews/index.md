@@ -20,7 +20,7 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='530' data-hn-time='1785511048'>
+<div class='hn-top-story-item' data-hn-score='758' data-hn-time='1785511048'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -28,106 +28,106 @@ Sort:
  <a class='hn-top-story-link' href='https://john.fun/elevators' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>电梯</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 21</span> <span class='hn-top-story-score'>&#9650; 530</span> <span class='hn-top-story-comments'>&#128172; 152</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>DevOps</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 13</span> <span class='hn-top-story-score'>&#9650; 758</span> <span class='hn-top-story-comments'>&#128172; 196</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>DevOps</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='82' data-hn-time='1785521098'>
+<div class='hn-top-story-item' data-hn-score='305' data-hn-time='1785524625'>
 <span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/31/top_stories_07312026#story-49127306'>Tailscale didn't stop the Hugging Face intrusion</a>
+ <a class='hn-top-story-link' href='https://tailscale.com/blog/hugging-face-intrusion' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Tailscale 未阻止 Hugging Face 入侵</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 13</span> <span class='hn-top-story-score'>&#9650; 305</span> <span class='hn-top-story-comments'>&#128172; 123</span> <span class='hn-top-story-tag'>Security</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='343' data-hn-time='1785521098'>
+<span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/07/31/top_stories_07312026#story-49126604'>qm</a>
  <a class='hn-top-story-link' href='https://github.com/yc-software/qm' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>qm</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.6</span> <span class='hn-top-story-score'>&#9650; 82</span> <span class='hn-top-story-comments'>&#128172; 30</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 343</span> <span class='hn-top-story-comments'>&#128172; 77</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='337' data-hn-time='1785498706'>
-<span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-item' data-hn-score='175' data-hn-time='1785518109'>
+<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/31/top_stories_07312026#story-49125971'>Severance</a>
+ <a class='hn-top-story-link' href='https://lcamtuf.substack.com/p/severance' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Severance（离职补偿的思考）</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.5</span> <span class='hn-top-story-score'>&#9650; 175</span> <span class='hn-top-story-comments'>&#128172; 54</span> <span class='hn-top-story-tag'>Career</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='377' data-hn-time='1785498706'>
+<span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/07/31/top_stories_07312026#story-49121980'>The End of an Era</a>
  <a class='hn-top-story-link' href='https://hughhowey.com/the-end-of-an-era/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>一个时代的终结</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.8</span> <span class='hn-top-story-score'>&#9650; 337</span> <span class='hn-top-story-comments'>&#128172; 379</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.7</span> <span class='hn-top-story-score'>&#9650; 377</span> <span class='hn-top-story-comments'>&#128172; 416</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='114' data-hn-time='1785513872'>
-<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='94' data-hn-time='1785523187'>
+<span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/31/top_stories_07312026#story-49124858'>Big Food vs. the People</a>
- <a class='hn-top-story-link' href='https://www.lighthousereports.com/investigation/big-food-vs-the-people/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/31/top_stories_07312026#story-49127031'>Golang proposal: container/: generic collection types</a>
+ <a class='hn-top-story-link' href='https://github.com/golang/go/issues/80590' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>大食品与公众的博弈</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.6</span> <span class='hn-top-story-score'>&#9650; 114</span> <span class='hn-top-story-comments'>&#128172; 64</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-zh'>Go 提案：container/ 包中的泛型集合类型</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 94</span> <span class='hn-top-story-comments'>&#128172; 50</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='609' data-hn-time='1785478116'>
-<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='663' data-hn-time='1785478116'>
+<span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/07/31/top_stories_07312026#story-49119559'>DeepSeek-V4-Flash Update</a>
  <a class='hn-top-story-link' href='https://api-docs.deepseek.com/updates/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>DeepSeek-V4-Flash 更新</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.5</span> <span class='hn-top-story-score'>&#9650; 609</span> <span class='hn-top-story-comments'>&#128172; 295</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 663</span> <span class='hn-top-story-comments'>&#128172; 319</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Data</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='460' data-hn-time='1785484751'>
-<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='165' data-hn-time='1785513872'>
+<span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/07/31/top_stories_07312026#story-49124858'>Big Food vs. the People</a>
+ <a class='hn-top-story-link' href='https://www.lighthousereports.com/investigation/big-food-vs-the-people/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>大食品与公众的博弈</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 165</span> <span class='hn-top-story-comments'>&#128172; 114</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Business</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='506' data-hn-time='1785484751'>
+<span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/07/31/top_stories_07312026#story-49120299'>DeepSeek V4 Flash 0731 Intelligence, Performance and Price Analysis</a>
  <a class='hn-top-story-link' href='https://artificialanalysis.ai/models/deepseek-v4-flash' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>DeepSeek V4 Flash 0731：智能、性能与性价比分析</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.3</span> <span class='hn-top-story-score'>&#9650; 460</span> <span class='hn-top-story-comments'>&#128172; 247</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Data</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 506</span> <span class='hn-top-story-comments'>&#128172; 278</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
 <div class='hn-top-story-item hn-top-story-extra' data-hn-score='708' data-hn-time='1785469679'>
-<span class='hn-top-story-rank'>7</span>
+<span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/07/31/top_stories_07312026#story-49118781'>The session you cannot take with you</a>
  <a class='hn-top-story-link' href='https://earendil.com/posts/session-portability/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>你带不走的会话</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.1</span> <span class='hn-top-story-score'>&#9650; 708</span> <span class='hn-top-story-comments'>&#128172; 203</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='445' data-hn-time='1785482962'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/31/top_stories_07312026#story-49120097'>Google fixed more Chrome bugs in June than over the past two years, thanks to AI</a>
- <a class='hn-top-story-link' href='https://blog.google/security/chrome-stronger-with-every-update/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>谷歌靠 AI，在六月修复的 Chrome 漏洞数量超过过去两年总和</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 445</span> <span class='hn-top-story-comments'>&#128172; 446</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Web</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='72' data-hn-time='1785514531'>
-<span class='hn-top-story-rank'>9</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/31/top_stories_07312026#story-49125034'>Getting 25 Gbps Thunderbolt Ethernet on My Mac Studio</a>
- <a class='hn-top-story-link' href='https://www.jeffgeerling.com/blog/2026/getting-25g-ethernet-mac-thunderbolt/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>在 Mac Studio 上实现 25 Gbps Thunderbolt 以太网</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.8</span> <span class='hn-top-story-score'>&#9650; 72</span> <span class='hn-top-story-comments'>&#128172; 42</span> <span class='hn-top-story-tag'>Hardware</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1171' data-hn-time='1785436852'>
-<span class='hn-top-story-rank'>10</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/07/31/top_stories_07312026#story-49113929'>UEFA and its national associations will not participate in FIFA competitions</a>
- <a class='hn-top-story-link' href='https://www.uefa.com/news-media/news/02a7-213a92896eb0-54dfbf454e3b-1000--statement-on-behalf-of-uefa-and-its-55-national-associations/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>欧足联及55个成员协会宣布退出FIFA赛事</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 1171</span> <span class='hn-top-story-comments'>&#128172; 627</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 708</span> <span class='hn-top-story-comments'>&#128172; 203</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/07/31/top_stories_07312026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>26</b> <span class="hn-row-sep">·</span> Programming <b>25</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>26</b> <span class="hn-row-sep">·</span> AI <b>25</b></span>
 </a>
 </div>
 </div>
