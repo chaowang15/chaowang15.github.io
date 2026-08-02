@@ -4,42 +4,180 @@
     "source": "https://news.ycombinator.com/",
     "api": "https://github.com/HackerNews/API",
     "count_requested": 50,
-    "count_written": 49,
-    "reused_same_day": 0,
-    "reused_cross_day": 31,
-    "new_llm_enriched": 18,
-    "scrape_time_display": "01:31, August 02, 2026 (PDT)",
+    "count_written": 74,
+    "reused_same_day": 24,
+    "reused_cross_day": 0,
+    "new_llm_enriched": 24,
+    "scrape_time_display": "08:02, August 02, 2026 (PDT)",
     "timezone": "America/Los_Angeles",
     "date_dir": "2026/08/02",
     "content_date": "2026-08-02",
-    "run_time_local": "01:31, August 02, 2026 (PDT)",
-    "run_time_utc": "2026-08-02 08:31:34 UTC",
+    "run_time_local": "08:02, August 02, 2026 (PDT)",
+    "run_time_utc": "2026-08-02 15:02:01 UTC",
     "incremental": true,
     "stories_max": 100,
-    "hot_score_time_utc": "2026-08-02 08:32:33 UTC"
+    "hot_score_time_utc": "2026-08-02 15:03:24 UTC"
   },
   "items": [
     {
-      "title_en": "Running Kimi K3 on MI355X at Better Performance per Dollar Than B300",
-      "url": "https://www.wafer.ai/blog/kimi-k3-mi355x",
-      "title_zh": "在 MI355X 上运行 Kimi K3：性价比高于 B300",
-      "created_display": "Created: Aug 01, 2026 / 21:21 PT",
-      "image_url": "https://www.wafer.ai/assets/images/og-image.png",
-      "summary_en": "Benchmarking Kimi K3 on the MI355X shows a better performance-per-dollar than the B300, signaling an attractive option for edge AI or compact compute. The setup highlights how hardware choice and optimization can materially shift cost-effectiveness.",
-      "summary_zh": "在 MI355X 上对 Kimi K3 的基准测试显示其性价比优于 B300，成为边缘AI或小型计算的更具性价比的选项。该结果强调了硬件选择与优化对成本效益的实质性影响。",
+      "title_en": "Wikimedia Foundation refuses union recognition, hires union-busting law firm",
+      "url": "https://en.wikipedia.org/wiki/Wikipedia:Wikipedia_Signpost/2026-08-02/News_and_notes",
+      "title_zh": "维基媒体基金会拒绝承认工会并雇用打压工会的律师事务所",
+      "created_display": "Created: Aug 02, 2026 / 04:24 PT",
+      "image_url": "https://en.wikipedia.org/static/images/icons/enwiki-25.svg",
+      "summary_en": "Wikimedia Foundation declined to recognize a union and hired a law firm known for anti-union work. The decision intensifies worker organizing questions at Wikimedia and may affect governance and labor relations.",
+      "summary_zh": "维基媒体基金会拒绝承认工会，并雇佣了以反工会著称的律师事务所。此举放大了在维基媒体内部的工会组织问题，并可能影响治理结构与劳资关系。",
       "hn": {
-        "id": 49141073,
+        "id": 49143414,
         "type": "story",
-        "by": "ilreb",
-        "score": 114,
-        "descendants": 21,
-        "time": 1785644474,
-        "comments_url": "https://news.ycombinator.com/item?id=49141073"
+        "by": "akolbe",
+        "score": 206,
+        "descendants": 183,
+        "time": 1785669860,
+        "comments_url": "https://news.ycombinator.com/item?id=49143414"
       },
-      "hot_score": 4.25,
+      "tags": [
+        "Legal",
+        "Politics"
+      ],
+      "hot_score": 9.08
+    },
+    {
+      "title_en": "Meshdiff – visually compare two STL versions in the browser, client-side",
+      "url": "https://meshdiff.com/",
+      "title_zh": "Meshdiff：在浏览器端可视化对比两个 STL 版本",
+      "created_display": "Created: Aug 02, 2026 / 04:34 PT",
+      "image_url": "https://meshdiff.com/og-image.png",
+      "summary_en": "Meshdiff lets you visually diff two STL mesh versions directly in the browser, without servers. It’s a handy tool for 3D designers to spot geometric changes between revisions and review modifications quickly.",
+      "summary_zh": "Meshdiff 允许在浏览器中直观对比两个 STL 网格版本，无需服务器。对 3D 设计师来说，能快速发现修订中的几何变化并回顾修改。",
+      "hn": {
+        "id": 49143479,
+        "type": "story",
+        "by": "projscope",
+        "score": 96,
+        "descendants": 11,
+        "time": 1785670481,
+        "comments_url": "https://news.ycombinator.com/item?id=49143479"
+      },
+      "hot_score": 4.45,
+      "tags": [
+        "Programming",
+        "Web"
+      ]
+    },
+    {
+      "title_en": "Twenty Years of RISC OS Open",
+      "url": "https://www.riscosopen.org/news/articles/2026/06/20/twenty-years-of-risc-os-open",
+      "title_zh": "RISC OS Open 二十周年",
+      "created_display": "Created: Aug 02, 2026 / 05:36 PT",
+      "image_url": "https://www.riscosopen.org/hub/account/login_indication.png",
+      "summary_en": "Two decades after RISC OS Open began, the project has grown through community contributions, new ports, and ongoing maintenance of a historic operating system. The anniversary underscores how open governance can sustain niche platforms on modern hardware and keep a loyal user base engaged.",
+      "summary_zh": "自 RISC OS Open 推出以来已走过二十年，社区贡献、新移植与持续维护让这套历史操作系统在现代硬件上仍活跃。周年庆凸显开源治理如何支撑小众平台长期发展与社区活跃度。",
+      "hn": {
+        "id": 49143967,
+        "type": "story",
+        "by": "AlexeyBrin",
+        "score": 57,
+        "descendants": 9,
+        "time": 1785674167,
+        "comments_url": "https://news.ycombinator.com/item?id=49143967"
+      },
+      "hot_score": 3.8,
+      "tags": [
+        "Open Source",
+        "Hardware"
+      ]
+    },
+    {
+      "title_en": "US Treasury undertakes historic intervention in yen market",
+      "url": "https://www.ft.com/content/0f9b2fe7-bde4-4f5f-b49e-93ccb5da9ea8",
+      "title_zh": "美国财政部对日元市场进行历史性干预",
+      "created_display": "Created: Aug 02, 2026 / 03:46 PT",
+      "image_url": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fadbea357-95b1-4765-91aa-3c5c68c60959.jpg?source=next-barrier-page&fit=scale-down&quality=highest&width=700&dpr=1",
+      "summary_en": "The U.S. Treasury’s intervention in the yen market marks a rare direct action in currency markets, signaling heightened concern about volatility and potential policy coordination with other central banks. The move could influence FX liquidity, risk premia, and global funding dynamics.",
+      "summary_zh": "美财政部对日元市场的干预是罕见的直接行动，体现对波动的担忧及可能与其他央行的协同。此举可能影响外汇流动性、风险溢价及全球融资格局。",
+      "hn": {
+        "id": 49143188,
+        "type": "story",
+        "by": "23pointsNorth",
+        "score": 102,
+        "descendants": 60,
+        "time": 1785667588,
+        "comments_url": "https://news.ycombinator.com/item?id=49143188"
+      },
+      "hot_score": 3.7,
+      "tags": [
+        "Finance"
+      ]
+    },
+    {
+      "title_en": "Show HN: Bor – Open-source policy management for Linux desktops",
+      "url": "https://getbor.dev/blog/2026-08-02-bor-v080-release/",
+      "title_zh": "Bor：Linux 桌面开源策略管理工具",
+      "created_display": "Created: Aug 02, 2026 / 02:06 PT",
+      "image_url": "https://getbor.dev/images/bor-start.png",
+      "summary_en": "Bor is an open-source policy management tool for Linux desktops, aimed at standardizing security and user settings across devices. It provides policy templates and a centralized approach to desktop administration for teams.",
+      "summary_zh": "Bor 是一个面向 Linux 桌面端的开源策略管理工具，旨在在多设备之间统一安全与用户设置。它提供策略模板与集中化的桌面管理。",
+      "hn": {
+        "id": 49142569,
+        "type": "story",
+        "by": "eniac111",
+        "score": 103,
+        "descendants": 17,
+        "time": 1785661593,
+        "comments_url": "https://news.ycombinator.com/item?id=49142569"
+      },
+      "hot_score": 2.44,
+      "tags": [
+        "Show HN",
+        "Open Source",
+        "Security"
+      ]
+    },
+    {
+      "title_en": "Artificial Intelligence: Ars Notoria and the Promise of Instant Knowledge",
+      "url": "https://publicdomainreview.org/essay/ars-notoria/",
+      "title_zh": "人工智能：Ars Notoria 与即时知识的承诺",
+      "created_display": "Created: Aug 02, 2026 / 03:18 PT",
+      "image_url": "https://pdr-assets.b-cdn.net/essays/ars-notoria/dedupmrg1191555822_IE4927965_FL5354893-edit-thumb.jpg",
+      "summary_en": "Ars Notoria is a medieval manuscript about memory and rapid knowledge acquisition, contrasted with modern AI promises of instant expertise. The piece reflects on historical quests for quick learning and cautions against shortcuts to understanding.",
+      "summary_zh": "《Ars Notoria》是关于记忆与快速获取知识的中世纪手稿，与现代人工智能的即时知识承诺形成对照。本文反思人类对快速学习的历史追求，并警示对理解的捷径风险。",
+      "hn": {
+        "id": 49143001,
+        "type": "story",
+        "by": "jruohonen",
+        "score": 69,
+        "descendants": 9,
+        "time": 1785665904,
+        "comments_url": "https://news.ycombinator.com/item?id=49143001"
+      },
+      "hot_score": 2.19,
       "tags": [
         "AI",
-        "Hardware"
+        "Business"
+      ]
+    },
+    {
+      "title_en": "F*: A general-purpose proof-oriented programming language",
+      "url": "https://fstar-lang.org/",
+      "title_zh": "F*：通用的、以证明为导向的编程语言",
+      "created_display": "Created: Aug 02, 2026 / 05:31 PT",
+      "image_url": "https://fstar-lang.org/i/fstar-new.png",
+      "summary_en": "F* is a general-purpose, proof-oriented programming language with a ML-like syntax and dependent types. It enables writing verifiable software, with abilities to extract code to OCaml or F#, making it relevant for security-critical applications and formal verification efforts.",
+      "summary_zh": "F* 是一种通用、以证明为导向的编程语言，采用 ML 风格语法并支持依赖类型。它可编写可验证的软件，并能提取为 OCaml/F#，在安全关键应用与形式化验证领域具有价值。",
+      "hn": {
+        "id": 49143925,
+        "type": "story",
+        "by": "ducktective",
+        "score": 34,
+        "descendants": 8,
+        "time": 1785673876,
+        "comments_url": "https://news.ycombinator.com/item?id=49143925"
+      },
+      "hot_score": 2.17,
+      "tags": [
+        "Programming",
+        "Security"
       ]
     },
     {
@@ -54,8 +192,8 @@
         "id": 49140218,
         "type": "story",
         "by": "Hixon10",
-        "score": 185,
-        "descendants": 62,
+        "score": 283,
+        "descendants": 133,
         "time": 1785634551,
         "comments_url": "https://news.ycombinator.com/item?id=49140218"
       },
@@ -63,7 +201,7 @@
         "Programming",
         "Web"
       ],
-      "hot_score": 3.56
+      "hot_score": 2.04
     },
     {
       "title_en": "How Google helped destroy adoption of RSS feeds (2023)",
@@ -77,15 +215,152 @@
         "id": 49136821,
         "type": "story",
         "by": "pudgywalsh",
-        "score": 513,
-        "descendants": 177,
+        "score": 564,
+        "descendants": 198,
         "time": 1785607627,
         "comments_url": "https://news.ycombinator.com/item?id=49136821"
       },
       "tags": [
-        "Open Source"
+        "Web"
       ],
-      "hot_score": 3.32
+      "hot_score": 2.0
+    },
+    {
+      "title_en": "Diátaxis",
+      "url": "https://diataxis.fr/",
+      "title_zh": "Diátaxis 框架",
+      "created_display": "Created: Aug 01, 2026 / 13:33 PT",
+      "image_url": "https://diataxis.fr/_static/diataxis-white-416.png",
+      "summary_en": "Diátaxis provides four content types to cover different reader needs: tutorials, how-tos, references, and explanations. By aligning information to these categories, teams can craft documentation that supports both learning and practical use, improving overall clarity.",
+      "summary_zh": "Diátaxis 将文档分成教程、使用方法、参考手册和讲解四类，以满足不同读者的需求。按这四种用途组织内容，有助于新手学习、老手快速查阅，并提升整份文档的一致性。",
+      "hn": {
+        "id": 49138188,
+        "type": "story",
+        "by": "ryanseys",
+        "score": 422,
+        "descendants": 50,
+        "time": 1785616407,
+        "comments_url": "https://news.ycombinator.com/item?id=49138188"
+      },
+      "tags": [
+        "Education"
+      ],
+      "hot_score": 1.83
+    },
+    {
+      "title_en": "Show HN: Fuse – statically typed functional programming language",
+      "url": "https://fuselang.org",
+      "title_zh": "Fuse：静态类型的函数式编程语言",
+      "created_display": "Created: Aug 02, 2026 / 04:23 PT",
+      "image_url": "https://fuselang.org/fuse-icon_hu_db4cf4be1a7fd488.png",
+      "summary_en": "Fuse is a new statically typed functional programming language focused on simplicity and reliable type systems. It provides a fresh entry point for experimenting with safe, purely functional code and learning functional paradigms.",
+      "summary_zh": "Fuse 是一种新兴的静态类型函数式编程语言，强调简洁性与可靠的类型系统。它为安全、纯函数式代码的探索提供了新的入口。",
+      "hn": {
+        "id": 49143412,
+        "type": "story",
+        "by": "the_unproven",
+        "score": 41,
+        "descendants": 6,
+        "time": 1785669836,
+        "comments_url": "https://news.ycombinator.com/item?id=49143412"
+      },
+      "hot_score": 1.77,
+      "tags": [
+        "Show HN",
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "Seedance 2.5",
+      "url": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
+      "title_zh": "Seedance 2.5",
+      "created_display": "Created: Aug 01, 2026 / 13:45 PT",
+      "image_url": "https://lf-flow-web-cdn.doubao.com/obj/flow-doubao/deploy/flow/ai_official_website/88329/static/image/new_qr_code.949b4782.png",
+      "summary_en": "Seedance 2.5 updates a content creation workflow with flexible referencing and one-take creation. It enables creators to fluidly link assets and references, reducing friction in long-form production.",
+      "summary_zh": "Seedance 2.5 为内容创作工作流带来灵活的引用和一镜到底式的创作能力，使创作者能够更自然地在作品中嵌入可重用的素材与引用，降低制作摩擦。",
+      "hn": {
+        "id": 49138302,
+        "type": "story",
+        "by": "njaremko",
+        "score": 395,
+        "descendants": 211,
+        "time": 1785617112,
+        "comments_url": "https://news.ycombinator.com/item?id=49138302"
+      },
+      "tags": [
+        "Business"
+      ],
+      "hot_score": 1.75
+    },
+    {
+      "title_en": "Show HN: I'm a 15 Year Old Wannabe Engineer, This Is a Cycloidal Gearbox I Built",
+      "url": "https://github.com/tom-ilan/cycloidal_gearbox",
+      "title_zh": "Show HN：我是个15岁的准工程师，这就是我做的摆线齿轮箱",
+      "created_display": "Created: Aug 01, 2026 / 19:07 PT",
+      "image_url": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1273630842/ba5b1ec0-8a28-46a3-8cf1-5c6983b3c336?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260802%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260802T052211Z&X-Amz-Expires=300&X-Amz-Signature=94b4c478cf6f79db05c37728eee0be2a92922abb166e9b6e4783c2d1ca25a919&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTY0ODQzMSwibmJmIjoxNzg1NjQ4MTMxLCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.eX0OG7Zzh--9H-rxY2M3SgRELEk4oI1l7sW_WbZjot8",
+      "summary_en": "A 15-year-old builds and documents a cycloidal gear gearbox, sharing design choices, fabrication steps, and lessons learned. It demonstrates how ambitious hobbyist projects can accelerate learning and showcase practical engineering skills.",
+      "summary_zh": "一位15岁的准工程师分享自己设计并制造的摆线齿轮箱，记录了设计、加工与经验教训。展示了热情型的硬件项目如何促进学习并磨炼实际动手能力。",
+      "hn": {
+        "id": 49140396,
+        "type": "story",
+        "by": "tomilan",
+        "score": 228,
+        "descendants": 74,
+        "time": 1785636429,
+        "comments_url": "https://news.ycombinator.com/item?id=49140396"
+      },
+      "tags": [
+        "Show HN",
+        "Hardware"
+      ],
+      "hot_score": 1.75
+    },
+    {
+      "title_en": "Running Kimi K3 on MI355X at Better Performance per Dollar Than B300",
+      "url": "https://www.wafer.ai/blog/kimi-k3-mi355x",
+      "title_zh": "在 MI355X 上运行 Kimi K3：性价比高于 B300",
+      "created_display": "Created: Aug 01, 2026 / 21:21 PT",
+      "image_url": "https://www.wafer.ai/assets/images/og-image.png",
+      "summary_en": "Benchmarking Kimi K3 on the MI355X shows a better performance-per-dollar than the B300, signaling an attractive option for edge AI or compact compute. The setup highlights how hardware choice and optimization can materially shift cost-effectiveness.",
+      "summary_zh": "在 MI355X 上对 Kimi K3 的基准测试显示其性价比优于 B300，成为边缘AI或小型计算的更具性价比的选项。该结果强调了硬件选择与优化对成本效益的实质性影响。",
+      "hn": {
+        "id": 49141073,
+        "type": "story",
+        "by": "ilreb",
+        "score": 170,
+        "descendants": 88,
+        "time": 1785644474,
+        "comments_url": "https://news.ycombinator.com/item?id=49141073"
+      },
+      "tags": [
+        "Hardware",
+        "Business",
+        "AI"
+      ],
+      "hot_score": 1.74
+    },
+    {
+      "title_en": "The Seinfeld Chronicles: Digital Edition",
+      "url": "https://seinfeld.visualisingdata.com/",
+      "title_zh": "Seinfeld Chronicles 数字版",
+      "created_display": "Created: Aug 02, 2026 / 07:17 PT",
+      "image_url": "https://seinfeld.visualisingdata.com/og-image.jpg",
+      "summary_en": "The Seinfeld Chronicles: Digital Edition turns the pilot episode into an interactive data-visualization experience, blending narrative with data insights. It showcases how storytelling and data can intersect to deepen engagement with a classic show.",
+      "summary_zh": "《Seinfeld Chronicles：数字版》将首集转化为互动数据可视化体验，结合叙事与数据洞察，展示了讲故事与数据结合在经典剧集中的应用。",
+      "hn": {
+        "id": 49144946,
+        "type": "story",
+        "by": "wallflower",
+        "score": 11,
+        "descendants": 2,
+        "time": 1785680263,
+        "comments_url": "https://news.ycombinator.com/item?id=49144946"
+      },
+      "hot_score": 1.61,
+      "tags": [
+        "Data",
+        "Entertainment"
+      ]
     },
     {
       "title_en": "AI financial advice is surprisingly good, especially if you ask right questions",
@@ -108,74 +383,101 @@
         "AI",
         "Finance"
       ],
-      "hot_score": 3.26
+      "hot_score": 1.5
     },
     {
-      "title_en": "Show HN: I'm a 15 Year Old Wannabe Engineer, This Is a Cycloidal Gearbox I Built",
-      "url": "https://github.com/tom-ilan/cycloidal_gearbox",
-      "title_zh": "Show HN：我是个15岁的准工程师，这就是我做的摆线齿轮箱",
-      "created_display": "Created: Aug 01, 2026 / 19:07 PT",
-      "image_url": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1273630842/ba5b1ec0-8a28-46a3-8cf1-5c6983b3c336?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260802%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260802T052211Z&X-Amz-Expires=300&X-Amz-Signature=94b4c478cf6f79db05c37728eee0be2a92922abb166e9b6e4783c2d1ca25a919&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTY0ODQzMSwibmJmIjoxNzg1NjQ4MTMxLCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.eX0OG7Zzh--9H-rxY2M3SgRELEk4oI1l7sW_WbZjot8",
-      "summary_en": "A 15-year-old builds and documents a cycloidal gear gearbox, sharing design choices, fabrication steps, and lessons learned. It demonstrates how ambitious hobbyist projects can accelerate learning and showcase practical engineering skills.",
-      "summary_zh": "一位15岁的准工程师分享自己设计并制造的摆线齿轮箱，记录了设计、加工与经验教训。展示了热情型的硬件项目如何促进学习并磨炼实际动手能力。",
+      "title_en": "Show HN: Elevators",
+      "url": "https://john.fun/elevators",
+      "title_zh": "Show HN：Elevators",
+      "created_display": "Created: Jul 31, 2026 / 08:17 PT",
+      "image_url": "https://john.fun/metadata/elevator/twitter-card.png",
+      "summary_en": "Show HN project called Elevators presents a novel approach or tool related to elevator systems—either scheduling, simulation, or a microservice concept—demonstrating practical, small-scale engineering work. It invites community feedback and iteration.",
+      "summary_zh": "Show HN：Elevators 项目展示了一个与电梯相关的工具/演示，可能是调度、仿真或小型工程原型，欢迎社区反馈与迭代。",
       "hn": {
-        "id": 49140396,
+        "id": 49124218,
         "type": "story",
-        "by": "tomilan",
-        "score": 137,
-        "descendants": 26,
-        "time": 1785636429,
-        "comments_url": "https://news.ycombinator.com/item?id=49140396"
+        "by": "Jrh0203",
+        "score": 1610,
+        "descendants": 396,
+        "time": 1785511048,
+        "comments_url": "https://news.ycombinator.com/item?id=49124218"
       },
       "tags": [
         "Show HN",
         "Hardware"
       ],
-      "hot_score": 2.94
+      "hot_score": 1.42
     },
     {
-      "title_en": "Seedance 2.5",
-      "url": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
-      "title_zh": "Seedance 2.5",
-      "created_display": "Created: Aug 01, 2026 / 13:45 PT",
-      "image_url": "https://lf-flow-web-cdn.doubao.com/obj/flow-doubao/deploy/flow/ai_official_website/88329/static/image/new_qr_code.949b4782.png",
-      "summary_en": "Seedance 2.5 updates a content creation workflow with flexible referencing and one-take creation. It enables creators to fluidly link assets and references, reducing friction in long-form production.",
-      "summary_zh": "Seedance 2.5 为内容创作工作流带来灵活的引用和一镜到底式的创作能力，使创作者能够更自然地在作品中嵌入可重用的素材与引用，降低制作摩擦。",
+      "title_en": "Show HN: Syncular – offline-first SQL sync with TypeScript and Rust cores",
+      "url": "https://github.com/syncular/syncular",
+      "title_zh": "Syncular：离线优先的 SQL 同步，TypeScript 与 Rust 内核",
+      "created_display": "Created: Aug 02, 2026 / 02:48 PT",
+      "image_url": "https://opengraph.githubassets.com/0418e9959fcadb2ae1abb783900dd47f285f1ecd402d6496e0b5e64602e9936b/syncular/syncular",
+      "summary_en": "Syncular offers offline-first SQL synchronization with TypeScript and Rust cores, aiming to deliver robust, locally-first data apps. It highlights hybrid JS/Rust architectures for performance and safety in data-sync workloads.",
+      "summary_zh": "Syncular 提供离线优先的 SQL 同步，核心由 TypeScript 与 Rust 实现，力求在数据同步工作负载中实现性能与安全性的结合，适合本地优先的数据应用。",
       "hn": {
-        "id": 49138302,
+        "id": 49142794,
         "type": "story",
-        "by": "njaremko",
-        "score": 317,
-        "descendants": 166,
-        "time": 1785617112,
-        "comments_url": "https://news.ycombinator.com/item?id=49138302"
+        "by": "quambo",
+        "score": 51,
+        "descendants": 20,
+        "time": 1785664088,
+        "comments_url": "https://news.ycombinator.com/item?id=49142794"
+      },
+      "hot_score": 1.41,
+      "tags": [
+        "Show HN",
+        "Programming",
+        "Data"
+      ]
+    },
+    {
+      "title_en": "NetBSD 11.0",
+      "url": "https://blog.netbsd.org/tnf/entry/netbsd_11_0_released",
+      "title_zh": "NetBSD 11.0 发布",
+      "created_display": "Created: Aug 01, 2026 / 10:56 PT",
+      "image_url": "https://blog.netbsd.org/tnf/resource/NetBSD-headerlogo.png",
+      "summary_en": "NetBSD 11.0 ships with updated kernel and userland, broader hardware support, and a refreshed toolchain with security hardening. The release underscores NetBSD's continued focus on portability across diverse platforms and architectures, appealing to developers who deploy on uncommon hardware.",
+      "summary_zh": "NetBSD 11.0 发布，内核和用户空间更新，硬件支持范围扩展，工具链也进行了升级并加强了安全性。此版本再次强调了 NetBSD 在跨平台与小众硬件上的可移植性，对需要稳定方案的开发者具有吸引力。",
+      "hn": {
+        "id": 49136736,
+        "type": "story",
+        "by": "jaypatelani",
+        "score": 298,
+        "descendants": 140,
+        "time": 1785607001,
+        "comments_url": "https://news.ycombinator.com/item?id=49136736"
       },
       "tags": [
-        "Design"
+        "Open Source",
+        "Security",
+        "Hardware"
       ],
-      "hot_score": 2.81
+      "hot_score": 1.04
     },
     {
-      "title_en": "Diátaxis",
-      "url": "https://diataxis.fr/",
-      "title_zh": "Diátaxis 框架",
-      "created_display": "Created: Aug 01, 2026 / 13:33 PT",
-      "image_url": "https://diataxis.fr/_static/diataxis-white-416.png",
-      "summary_en": "Diátaxis provides four content types to cover different reader needs: tutorials, how-tos, references, and explanations. By aligning information to these categories, teams can craft documentation that supports both learning and practical use, improving overall clarity.",
-      "summary_zh": "Diátaxis 将文档分成教程、使用方法、参考手册和讲解四类，以满足不同读者的需求。按这四种用途组织内容，有助于新手学习、老手快速查阅，并提升整份文档的一致性。",
+      "title_en": "Cursor removed cost information from the usage page and CSV export",
+      "url": "https://forum.cursor.com/t/usage-page-to-token-amount-what/167153",
+      "title_zh": "Cursor 从用量页面和 CSV 导出中移除成本信息",
+      "created_display": "Created: Aug 01, 2026 / 08:25 PT",
+      "image_url": "https://us1.discourse-cdn.com/cursor1/original/3X/3/7/3718fc94d3c996fb60ac40aa8a689003c970b23b.png",
+      "summary_en": "Cursor removed cost information from the usage page and CSV export, raising pricing-transparency concerns for developers tracking spend. The move invites questions about how users should monitor costs and what future pricing signals will look like.",
+      "summary_zh": "Cursor 从用量页面和 CSV 导出中移除了成本信息，引发开发者对定价透明度的关注。此举让用户更难监控支出，并引发对未来定价信号的猜想。",
       "hn": {
-        "id": 49138188,
+        "id": 49135257,
         "type": "story",
-        "by": "ryanseys",
+        "by": "EugeneOZ",
         "score": 324,
-        "descendants": 40,
-        "time": 1785616407,
-        "comments_url": "https://news.ycombinator.com/item?id=49138188"
+        "descendants": 147,
+        "time": 1785597921,
+        "comments_url": "https://news.ycombinator.com/item?id=49135257"
       },
       "tags": [
-        "Education"
+        "Finance",
+        "Privacy"
       ],
-      "hot_score": 2.8
+      "hot_score": 0.94
     },
     {
       "title_en": "Anime User Interfaces",
@@ -197,100 +499,52 @@
       "tags": [
         "Design"
       ],
-      "hot_score": 1.88
+      "hot_score": 0.85
     },
     {
-      "title_en": "Show HN: Elevators",
-      "url": "https://john.fun/elevators",
-      "title_zh": "Show HN：Elevators",
-      "created_display": "Created: Jul 31, 2026 / 08:17 PT",
-      "image_url": "https://john.fun/metadata/elevator/twitter-card.png",
-      "summary_en": "Show HN project called Elevators presents a novel approach or tool related to elevator systems—either scheduling, simulation, or a microservice concept—demonstrating practical, small-scale engineering work. It invites community feedback and iteration.",
-      "summary_zh": "Show HN：Elevators 项目展示了一个与电梯相关的工具/演示，可能是调度、仿真或小型工程原型，欢迎社区反馈与迭代。",
+      "title_en": "Impro is a handbook for running a cult",
+      "url": "https://www.seangoedecke.com/impro/",
+      "title_zh": "Impro：经营邪教的手册",
+      "created_display": "Created: Aug 02, 2026 / 04:11 PT",
+      "image_url": "https://www.seangoedecke.com/og-image.jpg",
+      "summary_en": "Impro is described as a handbook for running a cult, offering analysis or critique of cult-like dynamics in organizational or tech contexts. It serves as a cautionary read about control and manipulation.",
+      "summary_zh": "《Impro》被描述为一本关于如何运营邪教的手册，揭示了组织或科技环境中可能出现的控制与操纵的动力，具有警示意义。",
       "hn": {
-        "id": 49124218,
+        "id": 49143330,
         "type": "story",
-        "by": "Jrh0203",
-        "score": 1594,
-        "descendants": 392,
-        "time": 1785511048,
-        "comments_url": "https://news.ycombinator.com/item?id=49124218"
+        "by": "swah",
+        "score": 21,
+        "descendants": 3,
+        "time": 1785669075,
+        "comments_url": "https://news.ycombinator.com/item?id=49143330"
       },
+      "hot_score": 0.83,
       "tags": [
-        "Show HN",
-        "Programming"
-      ],
-      "hot_score": 1.81
+        "Culture"
+      ]
     },
     {
-      "title_en": "NetBSD 11.0",
-      "url": "https://blog.netbsd.org/tnf/entry/netbsd_11_0_released",
-      "title_zh": "NetBSD 11.0 发布",
-      "created_display": "Created: Aug 01, 2026 / 10:56 PT",
-      "image_url": "https://blog.netbsd.org/tnf/resource/NetBSD-headerlogo.png",
-      "summary_en": "NetBSD 11.0 ships with updated kernel and userland, broader hardware support, and a refreshed toolchain with security hardening. The release underscores NetBSD's continued focus on portability across diverse platforms and architectures, appealing to developers who deploy on uncommon hardware.",
-      "summary_zh": "NetBSD 11.0 发布，内核和用户空间更新，硬件支持范围扩展，工具链也进行了升级并加强了安全性。此版本再次强调了 NetBSD 在跨平台与小众硬件上的可移植性，对需要稳定方案的开发者具有吸引力。",
+      "title_en": "GPUs could explode to multiple TB with new storage-inspired memory tech",
+      "url": "https://www.theregister.com/storage/2026/07/30/gpus-could-explode-to-multiple-tb-with-new-storage-inspired-memory-tech/5281363",
+      "title_zh": "新型存储启发的内存技术可能让 GPU 内存达到 TB 级别",
+      "created_display": "Created: Aug 02, 2026 / 05:06 PT",
+      "image_url": "https://image.theregister.com/263191.jpg?imageId=263191&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
+      "summary_en": "A storage-inspired memory technology could push GPU memory capacities into the terabytes, potentially enabling larger models and longer training runs without swapping. This shifts the economics and design of AI hardware.",
+      "summary_zh": "一种受存储技术启发的内存新技术可能将 GPU 显存推向 TB 级别，使更大规模的模型训练在不依赖交换区的情况下成为现实，从而改变 AI 硬件的成本结构与设计思路。",
       "hn": {
-        "id": 49136736,
+        "id": 49143719,
         "type": "story",
-        "by": "jaypatelani",
-        "score": 273,
-        "descendants": 121,
-        "time": 1785607001,
-        "comments_url": "https://news.ycombinator.com/item?id=49136736"
+        "by": "jacquesm",
+        "score": 15,
+        "descendants": 3,
+        "time": 1785672383,
+        "comments_url": "https://news.ycombinator.com/item?id=49143719"
       },
+      "hot_score": 0.79,
       "tags": [
-        "Open Source",
-        "Security",
-        "Hardware"
-      ],
-      "hot_score": 1.73
-    },
-    {
-      "title_en": "Cursor removed cost information from the usage page and CSV export",
-      "url": "https://forum.cursor.com/t/usage-page-to-token-amount-what/167153",
-      "title_zh": "Cursor 从用量页面和 CSV 导出中移除成本信息",
-      "created_display": "Created: Aug 01, 2026 / 08:25 PT",
-      "image_url": "https://us1.discourse-cdn.com/cursor1/original/3X/3/7/3718fc94d3c996fb60ac40aa8a689003c970b23b.png",
-      "summary_en": "Cursor removed cost information from the usage page and CSV export, raising pricing-transparency concerns for developers tracking spend. The move invites questions about how users should monitor costs and what future pricing signals will look like.",
-      "summary_zh": "Cursor 从用量页面和 CSV 导出中移除了成本信息，引发开发者对定价透明度的关注。此举让用户更难监控支出，并引发对未来定价信号的猜想。",
-      "hn": {
-        "id": 49135257,
-        "type": "story",
-        "by": "EugeneOZ",
-        "score": 324,
-        "descendants": 147,
-        "time": 1785597921,
-        "comments_url": "https://news.ycombinator.com/item?id=49135257"
-      },
-      "tags": [
-        "Business",
-        "Privacy"
-      ],
-      "hot_score": 1.59
-    },
-    {
-      "title_en": "MkLinux and the pimped-out Apple Workgroup Server 9150",
-      "url": "http://oldvcr.blogspot.com/2026/08/mklinux-and-pimped-out-apple-workgroup.html",
-      "title_zh": "MkLinux 与改装后的 Apple Workgroup Server 9150",
-      "created_display": "Created: Aug 01, 2026 / 20:12 PT",
-      "image_url": null,
-      "summary_en": "A retrospective on MkLinux running on the Apple Workgroup Server 9150, detailing how enthusiasts repurposed a PPC Mac into a Linux box, including hardware mods and integration quirks. It's a nostalgic look at early cross-platform enthusiasm that foreshadowed modern open ecosystems.",
-      "summary_zh": "回顾 MkLinux 在 Apple Workgroup Server 9150 上的实现，讲述爱好者如何把 PPC Mac 改造成 Linux 盒子、遇到的硬件改装与兼容性挑战。展现早期跨平台热情，以及对如今开放生态的先行影响。",
-      "hn": {
-        "id": 49140702,
-        "type": "story",
-        "by": "goldenskye",
-        "score": 50,
-        "descendants": 2,
-        "time": 1785640372,
-        "comments_url": "https://news.ycombinator.com/item?id=49140702"
-      },
-      "tags": [
-        "Open Source",
-        "Hardware"
-      ],
-      "hot_score": 1.36
+        "Hardware",
+        "AI"
+      ]
     },
     {
       "title_en": "A Surveillance Treaty in Disguise: Canada Signs UN Cybercrime Convention",
@@ -310,31 +564,54 @@
         "comments_url": "https://news.ycombinator.com/item?id=49134694"
       },
       "tags": [
-        "Politics",
         "Privacy",
+        "Politics",
         "Legal"
       ],
-      "hot_score": 1.29
+      "hot_score": 0.78
     },
     {
-      "title_en": "Nerd culture is murdering intellectuals",
-      "url": "https://www.theintrinsicperspective.com/p/nerd-culture-is-murdering-intellectuals",
-      "title_zh": "书呆子文化正在吞噬知识分子",
-      "created_display": "Created: Aug 02, 2026 / 00:57 PT",
-      "image_url": "https://substackcdn.com/image/fetch/$s_!rjXc!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F397a6c3a-20a7-4d37-ad3d-c68797838606_1200x630.png",
-      "summary_en": "The piece argues that certain nerd culture dynamics suppress intellectual risk-taking and nuanced discourse, fueling conformity and sensationalism in tech and academia. It traces social pressures that chill critical thought and long-form analysis.",
-      "summary_zh": "文章认为某些书呆子文化的动态抹杀了知识分子对风险的承担和深度讨论，助长了科技圈和学术界的从众和喧嚣。它分析了社会压力如何压抑批判性思考与长篇分析。",
+      "title_en": "Cyberscript",
+      "url": "https://cyberscript.dev",
+      "title_zh": "Cyberscript",
+      "created_display": "Created: Aug 02, 2026 / 00:58 PT",
+      "image_url": "https://cyberscript.dev/logo-card.png",
+      "summary_en": "Cyberscript is a project name listed here with no further details provided.",
+      "summary_zh": "Cyberscript 是一个项目名，当前未提供进一步信息。",
       "hn": {
-        "id": 49142128,
+        "id": 49142130,
         "type": "story",
-        "by": "mockerell",
-        "score": 8,
-        "descendants": 3,
-        "time": 1785657472,
-        "comments_url": "https://news.ycombinator.com/item?id=49142128"
+        "by": "dtj1123",
+        "score": 40,
+        "descendants": 41,
+        "time": 1785657510,
+        "comments_url": "https://news.ycombinator.com/item?id=49142130"
       },
-      "hot_score": 1.27,
+      "hot_score": 0.74,
       "tags": [
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "Ursula K. Le Guin: A Rant About \"Technology\" (2005)",
+      "url": "https://www.ursulakleguin.com/a-rant-about-technology",
+      "title_zh": "乌尔苏拉·K·勒古恩：关于“技术”的咆哮（2005）",
+      "created_display": "Created: Aug 02, 2026 / 07:51 PT",
+      "image_url": "http://static1.squarespace.com/static/5cad42ef90f904e520359371/t/61c1853628a5544251cbdc88/1640072502771/image-asset.jpeg?format=1500w",
+      "summary_en": "Le Guin’s essay argues that technology is not neutral and reflects political choices; she urges humanistic, culturally aware use of tech. The piece remains a frequently cited critique in discussions about tech ethics and design.",
+      "summary_zh": "勒古恩的这篇散文主张技术并非中立，而是体现政治选择；她呼吁在设计与使用技术时纳入人文关怀与文化认知。这一观点在技术伦理与设计讨论中依然具有影响力。",
+      "hn": {
+        "id": 49145201,
+        "type": "story",
+        "by": "jamesgill",
+        "score": 4,
+        "descendants": 0,
+        "time": 1785682278,
+        "comments_url": "https://news.ycombinator.com/item?id=49145201"
+      },
+      "hot_score": 0.72,
+      "tags": [
+        "Design",
         "Culture"
       ]
     },
@@ -350,37 +627,38 @@
         "id": 49140599,
         "type": "story",
         "by": "pkaeding",
-        "score": 46,
-        "descendants": 18,
+        "score": 85,
+        "descendants": 41,
         "time": 1785639075,
         "comments_url": "https://news.ycombinator.com/item?id=49140599"
       },
       "tags": [
-        "Science"
+        "Science",
+        "Hardware"
       ],
-      "hot_score": 1.14
+      "hot_score": 0.71
     },
     {
-      "title_en": "I don't recommend Tailwind CSS",
-      "url": "https://en.andros.dev/blog/af3ee191/why-i-dont-recommend-tailwind-css/",
-      "title_zh": "我不推荐 Tailwind CSS",
-      "created_display": "Created: Aug 02, 2026 / 00:09 PT",
-      "image_url": "https://img.andros.dev/2v0BIVF4Nhf-We11Un2zAvL4xJM=/600x0/filters:format(avif):quality(85)/https://andros.dev/media/thumbnails/ai_thumbnail_8a4eed17.png",
-      "summary_en": "A critical look at Tailwind CSS argues that utility-first CSS can complicate maintenance and hinder scalable design decisions. The author proposes tradeoffs and alternatives, helping readers weigh whether Tailwind fits their team's workflow.",
-      "summary_zh": "这篇文章从维护成本、可扩展性等角度质疑 Tailwind CSS 的适用性。作者提出权衡要点和替代方案，帮助开发者评估其对团队工作流的影响。",
+      "title_en": "IBM i (OS/400) the Database Operating System",
+      "url": "https://osadmins.com/en/ibm-i-os-400-the-database-operating-system/",
+      "title_zh": "IBM i（OS/400）：数据库操作系统",
+      "created_display": "Created: Aug 02, 2026 / 00:17 PT",
+      "image_url": "http://osadmins.com/wp-content/uploads/2026/02/PXL_20260224_222931802-1-scaled.jpg",
+      "summary_en": "IBM i, formerly OS/400, is known as a database operating system that tightly integrates the DB2 database with the OS, offering high reliability and a single-stack development experience for enterprise workloads.",
+      "summary_zh": "IBM i（前身为 OS/400）被视为数据库操作系统，将 DB2 数据库与操作系统紧密集成，提供高可靠性与面向企业工作负载的一体化开发体验。",
       "hn": {
-        "id": 49141891,
+        "id": 49141937,
         "type": "story",
-        "by": "andros",
-        "score": 11,
-        "descendants": 5,
-        "time": 1785654578,
-        "comments_url": "https://news.ycombinator.com/item?id=49141891"
+        "by": "naves",
+        "score": 44,
+        "descendants": 23,
+        "time": 1785655069,
+        "comments_url": "https://news.ycombinator.com/item?id=49141937"
       },
-      "hot_score": 1.12,
+      "hot_score": 0.71,
       "tags": [
-        "Programming",
-        "Web"
+        "Business",
+        "Data"
       ]
     },
     {
@@ -395,16 +673,39 @@
         "id": 49140213,
         "type": "story",
         "by": "plug_world",
-        "score": 55,
-        "descendants": 15,
+        "score": 93,
+        "descendants": 36,
         "time": 1785634511,
         "comments_url": "https://news.ycombinator.com/item?id=49140213"
       },
       "tags": [
-        "Hardware",
-        "Gaming"
+        "Gaming",
+        "Hardware"
       ],
-      "hot_score": 1.04
+      "hot_score": 0.66
+    },
+    {
+      "title_en": "MkLinux and the pimped-out Apple Workgroup Server 9150",
+      "url": "http://oldvcr.blogspot.com/2026/08/mklinux-and-pimped-out-apple-workgroup.html",
+      "title_zh": "MkLinux 与改装后的 Apple Workgroup Server 9150",
+      "created_display": "Created: Aug 01, 2026 / 20:12 PT",
+      "image_url": null,
+      "summary_en": "A retrospective on MkLinux running on the Apple Workgroup Server 9150, detailing how enthusiasts repurposed a PPC Mac into a Linux box, including hardware mods and integration quirks. It's a nostalgic look at early cross-platform enthusiasm that foreshadowed modern open ecosystems.",
+      "summary_zh": "回顾 MkLinux 在 Apple Workgroup Server 9150 上的实现，讲述爱好者如何把 PPC Mac 改造成 Linux 盒子、遇到的硬件改装与兼容性挑战。展现早期跨平台热情，以及对如今开放生态的先行影响。",
+      "hn": {
+        "id": 49140702,
+        "type": "story",
+        "by": "goldenskye",
+        "score": 76,
+        "descendants": 6,
+        "time": 1785640372,
+        "comments_url": "https://news.ycombinator.com/item?id=49140702"
+      },
+      "tags": [
+        "Open Source",
+        "Hardware"
+      ],
+      "hot_score": 0.66
     },
     {
       "title_en": "The Art of 64-bit Assembly",
@@ -427,7 +728,7 @@
         "Programming",
         "Hardware"
       ],
-      "hot_score": 0.97
+      "hot_score": 0.59
     },
     {
       "title_en": "Postmortem for Kernel Soundness Bug #14576",
@@ -441,8 +742,8 @@
         "id": 49137060,
         "type": "story",
         "by": "juhopitk",
-        "score": 144,
-        "descendants": 55,
+        "score": 158,
+        "descendants": 59,
         "time": 1785609140,
         "comments_url": "https://news.ycombinator.com/item?id=49137060"
       },
@@ -450,120 +751,7 @@
         "Programming",
         "Security"
       ],
-      "hot_score": 0.97
-    },
-    {
-      "title_en": "Unraveling the mysteries of habit formation",
-      "url": "https://www.kyoto-u.ac.jp/en/research-news/2026-07-28",
-      "title_zh": "揭开习惯形成的奥秘",
-      "created_display": "Created: Aug 01, 2026 / 15:55 PT",
-      "image_url": "https://www.kyoto-u.ac.jp/sites/default/files/styles/ogp_image/public/2026-07/2607-eye-Asaoka_habit-forming-mice---image-1-7011e68b62539ecfa31f2bf8de58add5.jpg?itok=WWSJVTrW",
-      "summary_en": "Reviews habit formation research, outlining cues, routines, rewards, and environment shaping behavior, and translates neuroscience into practical guidance for designers and individuals aiming to form or break habits.",
-      "summary_zh": "综述习惯形成的最新研究，解析线索、例行程序、奖励与环境如何塑造行为，并给产品设计与个人改造带来可落地的启示。",
-      "hn": {
-        "id": 49139383,
-        "type": "story",
-        "by": "hhs",
-        "score": 73,
-        "descendants": 26,
-        "time": 1785624952,
-        "comments_url": "https://news.ycombinator.com/item?id=49139383"
-      },
-      "tags": [
-        "Education",
-        "Science"
-      ],
-      "hot_score": 0.87
-    },
-    {
-      "title_en": "RFC 10015: Deprecating Obsolete Key Exchange Methods in TLS 1.2 and DTLS 1.2",
-      "url": "https://www.rfc-editor.org/rfc/rfc10015.html",
-      "title_zh": "RFC 10015：在 TLS 1.2/DTLS 1.2 中弃用过时的密钥交换方法",
-      "created_display": "Created: Aug 01, 2026 / 16:44 PT",
-      "image_url": null,
-      "summary_en": "RFC 10015 recommends deprecating older TLS/DTLS key exchange methods to improve security posture as older ciphers and DH groups fall out of favor. It provides migration guidance for administrators to ensure safer handshakes.",
-      "summary_zh": "RFC 10015 建议在 TLS 1.2/DTLS 1.2 中弃用过时的密钥交换方法，以提升安全性。文中给出服务器和客户端迁移的具体步骤与注意事项。",
-      "hn": {
-        "id": 49139711,
-        "type": "story",
-        "by": "Jimmc414",
-        "score": 55,
-        "descendants": 12,
-        "time": 1785627895,
-        "comments_url": "https://news.ycombinator.com/item?id=49139711"
-      },
-      "tags": [
-        "Security"
-      ],
-      "hot_score": 0.75
-    },
-    {
-      "title_en": "But can your calculator run Linux?",
-      "url": "https://raymii.org/s/articles/But_can_your_calculator_run_Linux.html",
-      "title_zh": "你的计算器能跑Linux吗？",
-      "created_display": "Created: Aug 01, 2026 / 12:44 PT",
-      "image_url": null,
-      "summary_en": "Explores how some calculators can boot Linux or Linux-like environments, highlighting the surprising versatility of handheld devices.",
-      "summary_zh": "揭示部分计算器已能够运行 Linux 或类 Linux 环境，显示手持设备的意外灵活性。文章讨论实现细节、硬件要求及对开源硬件爱好者的启示。",
-      "hn": {
-        "id": 49137713,
-        "type": "story",
-        "by": "jandeboevrie",
-        "score": 93,
-        "descendants": 9,
-        "time": 1785613488,
-        "comments_url": "https://news.ycombinator.com/item?id=49137713"
-      },
-      "tags": [
-        "Hardware",
-        "Programming"
-      ],
-      "hot_score": 0.72
-    },
-    {
-      "title_en": "CRM: An open-source, agentic-first CRM",
-      "url": "https://github.com/trycompai/crm",
-      "title_zh": "CRM：一个开源、以代理为先的客户关系管理系统",
-      "created_display": "Created: Aug 01, 2026 / 23:59 PT",
-      "image_url": "https://opengraph.githubassets.com/9e30986d1ca9790d3716a7a8fe5b1d353304addd9c1f2301abc935d537b91df7/trycompai/crm",
-      "summary_en": "CRM is an open-source CRM focused on an agent-first workflow, emphasizing automation, extensibility, and human-in-the-loop processes. The project aims to offer a transparent, moddable platform for sales and support teams.",
-      "summary_zh": "这款 CRM 强调以代理为先的工作流，支持自动化、可扩展性与人工协作。作为开源项目，它为销售和支持团队提供一个透明、可自定义的平台。",
-      "hn": {
-        "id": 49141847,
-        "type": "story",
-        "by": "handfuloflight",
-        "score": 8,
-        "descendants": 0,
-        "time": 1785653968,
-        "comments_url": "https://news.ycombinator.com/item?id=49141847"
-      },
-      "hot_score": 0.72,
-      "tags": [
-        "Open Source",
-        "Business"
-      ]
-    },
-    {
-      "title_en": "Kenji/Serious Eats – 30-Min Pressure Cooker Pho Ga",
-      "url": "https://www.seriouseats.com/30-minute-pressure-cooker-pho-ga-recipe",
-      "title_zh": "Kenji/Serious Eats – 30分钟压力锅越南鸡肉河粉",
-      "created_display": "Created: Aug 01, 2026 / 08:46 PT",
-      "image_url": "https://www.seriouseats.com/thmb/_5QHejAJ6Y3ZjV_T_XFWG3kwBSo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2015__01__20140108-pressure-cooker-pho-ga-vietnamese-chicken-noodle-soup-06-16a750a314f7453084da70c4ba982ee2.jpg",
-      "summary_en": "A practical 30-minute Pho Ga recipe using a pressure cooker, with clear steps and tips to extract authentic aroma and depth in half the time.",
-      "summary_zh": "30分钟压力锅越南鸡肉河粉（Pho Ga）实用食谱，包含清晰步骤与要点，帮助在更短时间内做出正宗风味。",
-      "hn": {
-        "id": 49135426,
-        "type": "story",
-        "by": "stasomatic",
-        "score": 140,
-        "descendants": 80,
-        "time": 1785599214,
-        "comments_url": "https://news.ycombinator.com/item?id=49135426"
-      },
-      "tags": [
-        "Culture"
-      ],
-      "hot_score": 0.71
+      "hot_score": 0.58
     },
     {
       "title_en": "Atom is better than RSS, in ways that matter",
@@ -577,15 +765,16 @@
         "id": 49138897,
         "type": "story",
         "by": "frizlab",
-        "score": 66,
-        "descendants": 26,
+        "score": 113,
+        "descendants": 73,
         "time": 1785621616,
         "comments_url": "https://news.ycombinator.com/item?id=49138897"
       },
       "tags": [
-        "Open Source"
+        "Web",
+        "Design"
       ],
-      "hot_score": 0.69
+      "hot_score": 0.56
     },
     {
       "title_en": "When random.bytes() runs but doesn't work",
@@ -599,37 +788,172 @@
         "id": 49140405,
         "type": "story",
         "by": "Funes-",
-        "score": 33,
-        "descendants": 12,
+        "score": 73,
+        "descendants": 36,
         "time": 1785636506,
         "comments_url": "https://news.ycombinator.com/item?id=49140405"
       },
-      "hot_score": 0.69,
       "tags": [
+        "Programming"
+      ],
+      "hot_score": 0.56
+    },
+    {
+      "title_en": "Rust All Hands 2026 Retrospective",
+      "url": "https://blog.rust-lang.org/inside-rust/2026/07/31/all-hands-2026-retrospective/",
+      "title_zh": "Rust All Hands 2026 回顾",
+      "created_display": "Created: Aug 02, 2026 / 03:33 PT",
+      "image_url": "https://www.rust-lang.org/static/images/rust-social-wide.jpg",
+      "summary_en": "Rust All Hands 2026 retrospective highlights roadmap decisions, compiler and library progress, and community health signals. The event underscores the language’s ongoing evolution and the collective effort shaping its future.",
+      "summary_zh": "Rust All Hands 2026 的回顾聚焦路线图、编译器与库的进展，以及社区健康状况，凸显语言的持续演进与共同体对未来的塑造。",
+      "hn": {
+        "id": 49143096,
+        "type": "story",
+        "by": "dcminter",
+        "score": 17,
+        "descendants": 4,
+        "time": 1785666806,
+        "comments_url": "https://news.ycombinator.com/item?id=49143096"
+      },
+      "hot_score": 0.55,
+      "tags": [
+        "Programming",
+        "Open Source",
+        "Health"
+      ]
+    },
+    {
+      "title_en": "Show HN: Katharos Functional programming and CSP-style concurrency for Python",
+      "url": "https://github.com/kamalfarahani/katharos",
+      "title_zh": "Katharos：面向 Python 的 CSP 风格并发",
+      "created_display": "Created: Aug 02, 2026 / 03:45 PT",
+      "image_url": "https://opengraph.githubassets.com/6f99cdad80df1a5bb11c614af769bd985d675c8d574615f723182cbfb5bc292e/kamalfarahani/katharos",
+      "summary_en": "Katharos introduces CSP-style concurrency to Python, offering channels and safer primitives for building concurrent applications. It’s a notable approach for Python developers seeking safer, structured concurrency models.",
+      "summary_zh": "Katharos 将 CSP 风格的并发引入 Python，提供通道等安全原语，帮助构建更安全、结构化的并发应用。对于寻求更稳健并发模型的 Python 开发者具有参考意义。",
+      "hn": {
+        "id": 49143179,
+        "type": "story",
+        "by": "kamalf",
+        "score": 16,
+        "descendants": 2,
+        "time": 1785667511,
+        "comments_url": "https://news.ycombinator.com/item?id=49143179"
+      },
+      "hot_score": 0.55,
+      "tags": [
+        "Show HN",
         "Programming"
       ]
     },
     {
-      "title_en": "Show HN: Tone Generator",
-      "url": "https://soundtonegenerator.com/",
-      "title_zh": "Show HN：音调生成器",
-      "created_display": "Created: Aug 02, 2026 / 00:31 PT",
-      "image_url": "https://soundtonegenerator.com/assets/image/og-image.jpg",
-      "summary_en": "A lightweight web app that generates audio tones with adjustable frequency, waveform, and duration. It's a handy tool for testing audio chains, calibration, and quick sonic experiments, showcased as a clean, accessible project.",
-      "summary_zh": "一个轻量级网页应用，提供可调频率、波形和时长的音调生成功能。对测试音频链路、设备校准和快速声音实验很有帮助，展示简洁易用的实现。",
+      "title_en": "Unraveling the mysteries of habit formation",
+      "url": "https://www.kyoto-u.ac.jp/en/research-news/2026-07-28",
+      "title_zh": "揭开习惯形成的奥秘",
+      "created_display": "Created: Aug 01, 2026 / 15:55 PT",
+      "image_url": "https://www.kyoto-u.ac.jp/sites/default/files/styles/ogp_image/public/2026-07/2607-eye-Asaoka_habit-forming-mice---image-1-7011e68b62539ecfa31f2bf8de58add5.jpg?itok=WWSJVTrW",
+      "summary_en": "Reviews habit formation research, outlining cues, routines, rewards, and environment shaping behavior, and translates neuroscience into practical guidance for designers and individuals aiming to form or break habits.",
+      "summary_zh": "综述习惯形成的最新研究，解析线索、例行程序、奖励与环境如何塑造行为，并给产品设计与个人改造带来可落地的启示。",
       "hn": {
-        "id": 49142002,
+        "id": 49139383,
         "type": "story",
-        "by": "artiomyak",
-        "score": 6,
-        "descendants": 0,
-        "time": 1785655900,
-        "comments_url": "https://news.ycombinator.com/item?id=49142002"
+        "by": "hhs",
+        "score": 96,
+        "descendants": 38,
+        "time": 1785624952,
+        "comments_url": "https://news.ycombinator.com/item?id=49139383"
       },
-      "hot_score": 0.69,
       "tags": [
-        "Show HN",
-        "Web"
+        "Science",
+        "Design"
+      ],
+      "hot_score": 0.52
+    },
+    {
+      "title_en": "Kenji/Serious Eats – 30-Min Pressure Cooker Pho Ga",
+      "url": "https://www.seriouseats.com/30-minute-pressure-cooker-pho-ga-recipe",
+      "title_zh": "Kenji/Serious Eats – 30分钟压力锅越南鸡肉河粉",
+      "created_display": "Created: Aug 01, 2026 / 08:46 PT",
+      "image_url": "https://www.seriouseats.com/thmb/_5QHejAJ6Y3ZjV_T_XFWG3kwBSo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2015__01__20140108-pressure-cooker-pho-ga-vietnamese-chicken-noodle-soup-06-16a750a314f7453084da70c4ba982ee2.jpg",
+      "summary_en": "A practical 30-minute Pho Ga recipe using a pressure cooker, with clear steps and tips to extract authentic aroma and depth in half the time.",
+      "summary_zh": "30分钟压力锅越南鸡肉河粉（Pho Ga）实用食谱，包含清晰步骤与要点，帮助在更短时间内做出正宗风味。",
+      "hn": {
+        "id": 49135426,
+        "type": "story",
+        "by": "stasomatic",
+        "score": 150,
+        "descendants": 88,
+        "time": 1785599214,
+        "comments_url": "https://news.ycombinator.com/item?id=49135426"
+      },
+      "tags": [
+        "Culture"
+      ],
+      "hot_score": 0.44
+    },
+    {
+      "title_en": "But can your calculator run Linux?",
+      "url": "https://raymii.org/s/articles/But_can_your_calculator_run_Linux.html",
+      "title_zh": "你的计算器能跑Linux吗？",
+      "created_display": "Created: Aug 01, 2026 / 12:44 PT",
+      "image_url": null,
+      "summary_en": "Explores how some calculators can boot Linux or Linux-like environments, highlighting the surprising versatility of handheld devices.",
+      "summary_zh": "揭示部分计算器已能够运行 Linux 或类 Linux 环境，显示手持设备的意外灵活性。文章讨论实现细节、硬件要求及对开源硬件爱好者的启示。",
+      "hn": {
+        "id": 49137713,
+        "type": "story",
+        "by": "jandeboevrie",
+        "score": 104,
+        "descendants": 9,
+        "time": 1785613488,
+        "comments_url": "https://news.ycombinator.com/item?id=49137713"
+      },
+      "tags": [
+        "Hardware"
+      ],
+      "hot_score": 0.42
+    },
+    {
+      "title_en": "RFC 10015: Deprecating Obsolete Key Exchange Methods in TLS 1.2 and DTLS 1.2",
+      "url": "https://www.rfc-editor.org/rfc/rfc10015.html",
+      "title_zh": "RFC 10015：在 TLS 1.2/DTLS 1.2 中弃用过时的密钥交换方法",
+      "created_display": "Created: Aug 01, 2026 / 16:44 PT",
+      "image_url": null,
+      "summary_en": "RFC 10015 recommends deprecating older TLS/DTLS key exchange methods to improve security posture as older ciphers and DH groups fall out of favor. It provides migration guidance for administrators to ensure safer handshakes.",
+      "summary_zh": "RFC 10015 建议在 TLS 1.2/DTLS 1.2 中弃用过时的密钥交换方法，以提升安全性。文中给出服务器和客户端迁移的具体步骤与注意事项。",
+      "hn": {
+        "id": 49139711,
+        "type": "story",
+        "by": "Jimmc414",
+        "score": 72,
+        "descendants": 17,
+        "time": 1785627895,
+        "comments_url": "https://news.ycombinator.com/item?id=49139711"
+      },
+      "tags": [
+        "Security"
+      ],
+      "hot_score": 0.42
+    },
+    {
+      "title_en": "ESP32-C3 SuperMini antenna modification",
+      "url": "https://peterneufeld.wordpress.com/2025/03/04/esp32-c3-supermini-antenna-modification/",
+      "title_zh": "ESP32-C3 SuperMini 天线修改",
+      "created_display": "Created: Aug 01, 2026 / 23:56 PT",
+      "image_url": "https://peterneufeld.wordpress.com/wp-content/uploads/2025/03/esp_c3_animated.gif",
+      "summary_en": "This guide documents practical antenna modifications for the ESP32-C3 SuperMini module to improve range and signal quality, including measurements and caveats for hobbyists and embedded developers.",
+      "summary_zh": "本指南记录了对 ESP32-C3 SuperMini 模组天线的实际修改方法，以提升覆盖范围与信号质量，并给出测量数据与注意事项，适合爱好者与嵌入式开发者。",
+      "hn": {
+        "id": 49141828,
+        "type": "story",
+        "by": "ta988",
+        "score": 24,
+        "descendants": 4,
+        "time": 1785653798,
+        "comments_url": "https://news.ycombinator.com/item?id=49141828"
+      },
+      "hot_score": 0.36,
+      "tags": [
+        "Hardware"
       ]
     },
     {
@@ -652,28 +976,29 @@
       "tags": [
         "Security"
       ],
-      "hot_score": 0.63
+      "hot_score": 0.34
     },
     {
-      "title_en": "Four Time Scales for Technology Development and Deployment",
-      "url": "https://rodneybrooks.com/four-time-scales-for-technology-development-and-deployment/",
-      "title_zh": "科技发展与部署的四个时间尺度",
-      "created_display": "Created: Aug 01, 2026 / 19:26 PT",
-      "image_url": "https://rodneybrooks.com/wp-content/themes/rab/images/robots.jpg",
-      "summary_en": "Rodney Brooks outlines four intertwined time scales for technology development and deployment, from rapid prototyping to long-term systemic change. The piece helps engineers and managers align research, product cycles, and policy considerations.",
-      "summary_zh": "罗德尼·布鲁克斯阐述了科技开发与部署中的四个互相关联的时间尺度，从快速原型到长期的系统性变革。该文帮助工程师和管理者将研究、产品周期与政策考量对齐。",
+      "title_en": "I made a Promise-aware debounce and throttle library for TypeScript",
+      "url": "https://github.com/nyvexis1/temporize",
+      "title_zh": "我做了一个 Promise 兼容的防抖与节流库，适用于 TypeScript",
+      "created_display": "Created: Aug 02, 2026 / 04:07 PT",
+      "image_url": "https://opengraph.githubassets.com/9bc23a8fc3df6006ca455a747cc1311d7698e73d23ea0d3f93e7668b44b8395e/nyvexis1/temporize",
+      "summary_en": "This TypeScript library treats promises as first-class in debounce and throttle utilities, ensuring async handlers integrate safely and predictably. It reduces race conditions in UI-heavy apps dealing with asynchronous events.",
+      "summary_zh": "这是一个对 TypeScript 的防抖与节流库，Promise 作为一等公民进行处理，确保异步处理更安全、可预测，适合大量异步事件的 UI 应用。",
       "hn": {
-        "id": 49140487,
+        "id": 49143304,
         "type": "story",
-        "by": "jeffreyrogers",
-        "score": 26,
+        "by": "slimy74",
+        "score": 9,
         "descendants": 4,
-        "time": 1785637612,
-        "comments_url": "https://news.ycombinator.com/item?id=49140487"
+        "time": 1785668876,
+        "comments_url": "https://news.ycombinator.com/item?id=49143304"
       },
-      "hot_score": 0.58,
+      "hot_score": 0.33,
       "tags": [
-        "DevOps"
+        "Programming",
+        "Open Source"
       ]
     },
     {
@@ -694,9 +1019,76 @@
         "comments_url": "https://news.ycombinator.com/item?id=49135245"
       },
       "tags": [
-        "AI"
+        "Data",
+        "Science"
       ],
-      "hot_score": 0.48
+      "hot_score": 0.28
+    },
+    {
+      "title_en": "The Prospects for 128 Bit Processors ( John Mashey SGI 1995)",
+      "url": "https://yarchive.net/comp/128bit.html",
+      "title_zh": "128 位处理器的前景（John Mashey，SGI 1995）",
+      "created_display": "Created: Aug 01, 2026 / 18:26 PT",
+      "image_url": null,
+      "summary_en": "A look back at 1995-era predictions about 128-bit processors, weighing whether wider word sizes would yield practical gains and what actually materialized in future hardware. It offers historical perspective on processor design tradeoffs.",
+      "summary_zh": "回顾 1995 年对128位处理器的预测，评估更宽的字长度是否带来实际收益，以及未来硬件的发展走向。为处理器设计取舍提供历史视角。",
+      "hn": {
+        "id": 49140174,
+        "type": "story",
+        "by": "Alien1Being",
+        "score": 31,
+        "descendants": 18,
+        "time": 1785633972,
+        "comments_url": "https://news.ycombinator.com/item?id=49140174"
+      },
+      "tags": [
+        "Hardware"
+      ],
+      "hot_score": 0.21
+    },
+    {
+      "title_en": "Sizeof is surprisingly difficult to parse in C",
+      "url": "https://sebsite.pw/w/20260802-sizeof.html",
+      "title_zh": "Sizeof 在 C 语言中解析起来出乎意料的困难",
+      "created_display": "Created: Aug 01, 2026 / 23:02 PT",
+      "image_url": null,
+      "summary_en": "Parsing sizeof in C reveals subtle complexities due to type categories, incomplete types, and compiler behaviors, complicating tooling that analyzes or transforms C code.",
+      "summary_zh": "C 语言中 sizeof 的解析因类型类别、 incomplete type、编译器行为等原因而变得复杂，给分析或转换 C 代码的工具带来挑战。",
+      "hn": {
+        "id": 49141562,
+        "type": "story",
+        "by": "jandeboevrie",
+        "score": 17,
+        "descendants": 2,
+        "time": 1785650521,
+        "comments_url": "https://news.ycombinator.com/item?id=49141562"
+      },
+      "hot_score": 0.21,
+      "tags": [
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "Four Time Scales for Technology Development and Deployment",
+      "url": "https://rodneybrooks.com/four-time-scales-for-technology-development-and-deployment/",
+      "title_zh": "科技发展与部署的四个时间尺度",
+      "created_display": "Created: Aug 01, 2026 / 19:26 PT",
+      "image_url": "https://rodneybrooks.com/wp-content/themes/rab/images/robots.jpg",
+      "summary_en": "Rodney Brooks outlines four intertwined time scales for technology development and deployment, from rapid prototyping to long-term systemic change. The piece helps engineers and managers align research, product cycles, and policy considerations.",
+      "summary_zh": "罗德尼·布鲁克斯阐述了科技开发与部署中的四个互相关联的时间尺度，从快速原型到长期的系统性变革。该文帮助工程师和管理者将研究、产品周期与政策考量对齐。",
+      "hn": {
+        "id": 49140487,
+        "type": "story",
+        "by": "jeffreyrogers",
+        "score": 26,
+        "descendants": 4,
+        "time": 1785637612,
+        "comments_url": "https://news.ycombinator.com/item?id=49140487"
+      },
+      "hot_score": 0.2,
+      "tags": [
+        "Business"
+      ]
     },
     {
       "title_en": "Kaisel – Routes as Values. Dart 3 Native Router for Flutter",
@@ -718,50 +1110,96 @@
       "tags": [
         "Programming"
       ],
-      "hot_score": 0.31
+      "hot_score": 0.18
     },
     {
-      "title_en": "Dark Hours",
-      "url": "https://darkhours.io",
-      "title_zh": "Dark Hours",
-      "created_display": "Created: Aug 01, 2026 / 17:40 PT",
-      "image_url": "http://localhost:3000/opengraph-image?1befe9c88a6e3344",
-      "summary_en": "Dark Hours examines a period of downtime or challenge in tech culture, highlighting the fragility of systems and the lessons learned from outages.",
-      "summary_zh": "Dark Hours 探讨技术系统在停机时刻的脆弱性与所教给我们的教训。",
+      "title_en": "A big win for Android interoperability",
+      "url": "https://www.openhomefoundation.org/blog/a-big-win-for-android-interoperability/",
+      "title_zh": "Android 互操作性取得重大进展",
+      "created_display": "Created: Jul 31, 2026 / 08:01 PT",
+      "image_url": "https://assets.openhomefoundation.org/opengraph?url=https://www.openhomefoundation.org/blog/a-big-win-for-android-interoperability/",
+      "summary_en": "These improvements reduce integration friction for developers and users.",
+      "summary_zh": "文章阐述了 Android 互操作性方面的重大进展，介绍了新的 API、标准和工具，帮助应用和设备在 Android 生态间更无缝协作。对开发者和用户来说，降低了集成难度。",
       "hn": {
-        "id": 49139994,
+        "id": 49124051,
         "type": "story",
-        "by": "jparise",
-        "score": 17,
-        "descendants": 2,
-        "time": 1785631253,
-        "comments_url": "https://news.ycombinator.com/item?id=49139994"
+        "by": "soheilpro",
+        "score": 182,
+        "descendants": 137,
+        "time": 1785510067,
+        "comments_url": "https://news.ycombinator.com/item?id=49124051"
       },
-      "hot_score": 0.26,
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 0.16
+    },
+    {
+      "title_en": "I don't recommend Tailwind CSS",
+      "url": "https://en.andros.dev/blog/af3ee191/why-i-dont-recommend-tailwind-css/",
+      "title_zh": "我不推荐 Tailwind CSS",
+      "created_display": "Created: Aug 02, 2026 / 00:09 PT",
+      "image_url": "https://img.andros.dev/2v0BIVF4Nhf-We11Un2zAvL4xJM=/600x0/filters:format(avif):quality(85)/https://andros.dev/media/thumbnails/ai_thumbnail_8a4eed17.png",
+      "summary_en": "A critical look at Tailwind CSS argues that utility-first CSS can complicate maintenance and hinder scalable design decisions. The author proposes tradeoffs and alternatives, helping readers weigh whether Tailwind fits their team's workflow.",
+      "summary_zh": "这篇文章从维护成本、可扩展性等角度质疑 Tailwind CSS 的适用性。作者提出权衡要点和替代方案，帮助开发者评估其对团队工作流的影响。",
+      "hn": {
+        "id": 49141891,
+        "type": "story",
+        "by": "andros",
+        "score": 11,
+        "descendants": 5,
+        "time": 1785654578,
+        "comments_url": "https://news.ycombinator.com/item?id=49141891"
+      },
+      "hot_score": 0.16,
+      "tags": [
+        "Programming",
+        "Web"
+      ]
+    },
+    {
+      "title_en": "Nerd culture is murdering intellectuals",
+      "url": "https://www.theintrinsicperspective.com/p/nerd-culture-is-murdering-intellectuals",
+      "title_zh": "书呆子文化正在吞噬知识分子",
+      "created_display": "Created: Aug 02, 2026 / 00:57 PT",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!rjXc!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F397a6c3a-20a7-4d37-ad3d-c68797838606_1200x630.png",
+      "summary_en": "The piece argues that certain nerd culture dynamics suppress intellectual risk-taking and nuanced discourse, fueling conformity and sensationalism in tech and academia. It traces social pressures that chill critical thought and long-form analysis.",
+      "summary_zh": "文章认为某些书呆子文化的动态抹杀了知识分子对风险的承担和深度讨论，助长了科技圈和学术界的从众和喧嚣。它分析了社会压力如何压抑批判性思考与长篇分析。",
+      "hn": {
+        "id": 49142128,
+        "type": "story",
+        "by": "mockerell",
+        "score": 8,
+        "descendants": 3,
+        "time": 1785657472,
+        "comments_url": "https://news.ycombinator.com/item?id=49142128"
+      },
+      "hot_score": 0.13,
       "tags": [
         "Culture"
       ]
     },
     {
-      "title_en": "The Prospects for 128 Bit Processors ( John Mashey SGI 1995)",
-      "url": "https://yarchive.net/comp/128bit.html",
-      "title_zh": "128 位处理器的前景（John Mashey，SGI 1995）",
-      "created_display": "Created: Aug 01, 2026 / 18:26 PT",
-      "image_url": null,
-      "summary_en": "A look back at 1995-era predictions about 128-bit processors, weighing whether wider word sizes would yield practical gains and what actually materialized in future hardware. It offers historical perspective on processor design tradeoffs.",
-      "summary_zh": "回顾 1995 年对128位处理器的预测，评估更宽的字长度是否带来实际收益，以及未来硬件的发展走向。为处理器设计取舍提供历史视角。",
+      "title_en": "CRM: An open-source, agentic-first CRM",
+      "url": "https://github.com/trycompai/crm",
+      "title_zh": "CRM：一个开源、以代理为先的客户关系管理系统",
+      "created_display": "Created: Aug 01, 2026 / 23:59 PT",
+      "image_url": "https://opengraph.githubassets.com/9e30986d1ca9790d3716a7a8fe5b1d353304addd9c1f2301abc935d537b91df7/trycompai/crm",
+      "summary_en": "CRM is an open-source CRM focused on an agent-first workflow, emphasizing automation, extensibility, and human-in-the-loop processes. The project aims to offer a transparent, moddable platform for sales and support teams.",
+      "summary_zh": "这款 CRM 强调以代理为先的工作流，支持自动化、可扩展性与人工协作。作为开源项目，它为销售和支持团队提供一个透明、可自定义的平台。",
       "hn": {
-        "id": 49140174,
+        "id": 49141847,
         "type": "story",
-        "by": "Alien1Being",
-        "score": 15,
-        "descendants": 3,
-        "time": 1785633972,
-        "comments_url": "https://news.ycombinator.com/item?id=49140174"
+        "by": "handfuloflight",
+        "score": 8,
+        "descendants": 0,
+        "time": 1785653968,
+        "comments_url": "https://news.ycombinator.com/item?id=49141847"
       },
-      "hot_score": 0.26,
+      "hot_score": 0.11,
       "tags": [
-        "Hardware"
+        "Open Source",
+        "Business"
       ]
     },
     {
@@ -781,9 +1219,55 @@
         "time": 1785622821,
         "comments_url": "https://news.ycombinator.com/item?id=49139052"
       },
-      "hot_score": 0.22,
+      "hot_score": 0.1,
       "tags": [
+        "Science",
         "Health"
+      ]
+    },
+    {
+      "title_en": "Dark Hours",
+      "url": "https://darkhours.io",
+      "title_zh": "Dark Hours",
+      "created_display": "Created: Aug 01, 2026 / 17:40 PT",
+      "image_url": "http://localhost:3000/opengraph-image?1befe9c88a6e3344",
+      "summary_en": "Dark Hours examines a period of downtime or challenge in tech culture, highlighting the fragility of systems and the lessons learned from outages.",
+      "summary_zh": "Dark Hours 探讨技术系统在停机时刻的脆弱性与所教给我们的教训。",
+      "hn": {
+        "id": 49139994,
+        "type": "story",
+        "by": "jparise",
+        "score": 17,
+        "descendants": 2,
+        "time": 1785631253,
+        "comments_url": "https://news.ycombinator.com/item?id=49139994"
+      },
+      "hot_score": 0.1,
+      "tags": [
+        "Culture"
+      ]
+    },
+    {
+      "title_en": "Show HN: Tone Generator",
+      "url": "https://soundtonegenerator.com/",
+      "title_zh": "Show HN：音调生成器",
+      "created_display": "Created: Aug 02, 2026 / 00:31 PT",
+      "image_url": "https://soundtonegenerator.com/assets/image/og-image.jpg",
+      "summary_en": "A lightweight web app that generates audio tones with adjustable frequency, waveform, and duration. It's a handy tool for testing audio chains, calibration, and quick sonic experiments, showcased as a clean, accessible project.",
+      "summary_zh": "一个轻量级网页应用，提供可调频率、波形和时长的音调生成功能。对测试音频链路、设备校准和快速声音实验很有帮助，展示简洁易用的实现。",
+      "hn": {
+        "id": 49142002,
+        "type": "story",
+        "by": "artiomyak",
+        "score": 6,
+        "descendants": 0,
+        "time": 1785655900,
+        "comments_url": "https://news.ycombinator.com/item?id=49142002"
+      },
+      "hot_score": 0.09,
+      "tags": [
+        "Show HN",
+        "Web"
       ]
     },
     {
@@ -803,9 +1287,10 @@
         "time": 1785624022,
         "comments_url": "https://news.ycombinator.com/item?id=49139232"
       },
-      "hot_score": 0.17,
+      "hot_score": 0.08,
       "tags": [
         "AI",
+        "Science",
         "Privacy"
       ]
     },
@@ -826,9 +1311,31 @@
         "time": 1785625065,
         "comments_url": "https://news.ycombinator.com/item?id=49139402"
       },
-      "hot_score": 0.17,
+      "hot_score": 0.08,
       "tags": [
         "Career"
+      ]
+    },
+    {
+      "title_en": "The Apple Network Server's all-too-secret weapon (featuring PPC Toolbox)",
+      "url": "http://oldvcr.blogspot.com/2023/11/the-apple-network-servers-all-too.html",
+      "title_zh": "苹果 Network Server 的隐藏武器（含 PPC Toolbox）",
+      "created_display": "Created: Aug 02, 2026 / 01:21 PT",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpXhjafEOb7fQe9Xfw5e3ZJuiGHvA9YBQF5clc5wAmz_xJvE-qsPbBcz6LYLP5Cas_b0LyhXqGvCbKZnsDNoQd-le8S75-CyXv6SS8EK8dwPoqmwHjxmgvrfQ4HRcQ9bzSX4RzvT8_O8tfJjsWF9MLmdeA2MLqEaMRWcKMkyKvQVkpKDf6J-w7tzqid4A/w1200-h630-p-k-no-nu/PXL_20231104_223157360.jpg",
+      "summary_en": "The Apple Network Server piece reveals a little-known toolchain asset, the PPC Toolbox, that empowered development on early Apple network servers. It highlights how legacy tooling underpinned early PowerPC-era work.",
+      "summary_zh": "文章揭示了苹果早期网络服务器上的一个鲜为人知的工具链资产 PPC Toolbox，展示了该时期遗留工具如何支撑 PowerPC 时代的软件开发。",
+      "hn": {
+        "id": 49142263,
+        "type": "story",
+        "by": "rbanffy",
+        "score": 5,
+        "descendants": 1,
+        "time": 1785658881,
+        "comments_url": "https://news.ycombinator.com/item?id=49142263"
+      },
+      "hot_score": 0.08,
+      "tags": [
+        "Hardware"
       ]
     },
     {
@@ -848,9 +1355,9 @@
         "time": 1785628906,
         "comments_url": "https://news.ycombinator.com/item?id=49139796"
       },
-      "hot_score": 0.14,
+      "hot_score": 0.06,
       "tags": [
-        "Programming"
+        "DevOps"
       ]
     },
     {
@@ -871,9 +1378,9 @@
         "comments_url": "https://news.ycombinator.com/item?id=49091614"
       },
       "tags": [
-        "Culture"
+        "Design"
       ],
-      "hot_score": 0.05
+      "hot_score": 0.04
     },
     {
       "title_en": "Manual: •.,:;…!?·",
@@ -898,25 +1405,25 @@
       "hot_score": 0.04
     },
     {
-      "title_en": "A big win for Android interoperability",
-      "url": "https://www.openhomefoundation.org/blog/a-big-win-for-android-interoperability/",
-      "title_zh": "Android 互操作性取得重大进展",
-      "created_display": "Created: Jul 31, 2026 / 08:01 PT",
-      "image_url": "https://assets.openhomefoundation.org/opengraph?url=https://www.openhomefoundation.org/blog/a-big-win-for-android-interoperability/",
-      "summary_en": "These improvements reduce integration friction for developers and users.",
-      "summary_zh": "文章阐述了 Android 互操作性方面的重大进展，介绍了新的 API、标准和工具，帮助应用和设备在 Android 生态间更无缝协作。对开发者和用户来说，降低了集成难度。",
+      "title_en": "Holocloth",
+      "url": "https://holocloth.vercel.app",
+      "title_zh": "Holocloth",
+      "created_display": "Created: Jul 30, 2026 / 15:59 PT",
+      "image_url": null,
+      "summary_en": "Holocloth is a project name referenced here, but no further details are provided.",
+      "summary_zh": "Holocloth 是一个被提及的项目名，但没有提供更多细节。",
       "hn": {
-        "id": 49124051,
+        "id": 49116917,
         "type": "story",
-        "by": "soheilpro",
-        "score": 38,
-        "descendants": 3,
-        "time": 1785510067,
-        "comments_url": "https://news.ycombinator.com/item?id=49124051"
+        "by": "ingve",
+        "score": 67,
+        "descendants": 14,
+        "time": 1785452367,
+        "comments_url": "https://news.ycombinator.com/item?id=49116917"
       },
-      "hot_score": 0.04,
+      "hot_score": 0.03,
       "tags": [
-        "Programming"
+        "Web"
       ]
     },
     {
@@ -931,8 +1438,8 @@
         "id": 49117303,
         "type": "story",
         "by": "infinitewalk",
-        "score": 40,
-        "descendants": 12,
+        "score": 53,
+        "descendants": 16,
         "time": 1785455165,
         "comments_url": "https://news.ycombinator.com/item?id=49117303"
       },
@@ -953,13 +1460,14 @@
         "id": 49087499,
         "type": "story",
         "by": "boveyking",
-        "score": 116,
-        "descendants": 39,
+        "score": 122,
+        "descendants": 44,
         "time": 1785261120,
         "comments_url": "https://news.ycombinator.com/item?id=49087499"
       },
       "tags": [
-        "Hardware"
+        "Hardware",
+        "Open Source"
       ],
       "hot_score": 0.02
     },
@@ -975,14 +1483,37 @@
         "id": 49085065,
         "type": "story",
         "by": "microflash",
-        "score": 82,
-        "descendants": 12,
+        "score": 91,
+        "descendants": 13,
         "time": 1785251198,
         "comments_url": "https://news.ycombinator.com/item?id=49085065"
       },
       "tags": [
         "Design",
         "Programming"
+      ],
+      "hot_score": 0.02
+    },
+    {
+      "title_en": "Elena, a library for building Progressive Web Components",
+      "url": "https://elenajs.com/",
+      "title_zh": "Elena：用于构建渐进式网页组件的库",
+      "created_display": "Created: Jul 30, 2026 / 06:31 PT",
+      "image_url": "https://elenajs.com/social.png",
+      "summary_en": "Elena is a library designed for building Progressive Web Components, offering a concise API for composing custom elements with templating and reactive state. It aims to streamline component-based web apps without heavy boilerplate.",
+      "summary_zh": "Elena 提供简洁 API 的库，用于构建渐进式网页组件，支持模板化和响应式状态管理，目标是用更少的样板代码实现组件化的网页应用。",
+      "hn": {
+        "id": 49109759,
+        "type": "story",
+        "by": "brianzelip",
+        "score": 53,
+        "descendants": 4,
+        "time": 1785418316,
+        "comments_url": "https://news.ycombinator.com/item?id=49109759"
+      },
+      "tags": [
+        "Web",
+        "Open Source"
       ],
       "hot_score": 0.02
     },
@@ -1004,7 +1535,7 @@
         "comments_url": "https://news.ycombinator.com/item?id=49081851"
       },
       "tags": [
-        "Science"
+        "Culture"
       ],
       "hot_score": 0.01
     },
@@ -1031,26 +1562,71 @@
       "hot_score": 0.01
     },
     {
-      "title_en": "Elena, a library for building Progressive Web Components",
-      "url": "https://elenajs.com/",
-      "title_zh": "Elena：用于构建渐进式网页组件的库",
-      "created_display": "Created: Jul 30, 2026 / 06:31 PT",
-      "image_url": "https://elenajs.com/social.png",
-      "summary_en": "Elena is a library designed for building Progressive Web Components, offering a concise API for composing custom elements with templating and reactive state. It aims to streamline component-based web apps without heavy boilerplate.",
-      "summary_zh": "Elena 提供简洁 API 的库，用于构建渐进式网页组件，支持模板化和响应式状态管理，目标是用更少的样板代码实现组件化的网页应用。",
+      "title_en": "Folding Paper Globes",
+      "url": "https://foldingglobes.com/globes",
+      "title_zh": "折叠纸球",
+      "created_display": "Created: Jul 28, 2026 / 22:53 PT",
+      "image_url": "https://foldingglobes.com/globes/sun.png",
+      "summary_en": "Folding Paper Globes demonstrates constructing spherical globes through paper folding, blending geometric insight with hands-on craft. It’s a neat intersection of math, art, and education.",
+      "summary_zh": "《折叠纸球》通过折纸技术展示如何用纸张折出球体地球仪，兼具几何直觉与动手工艺。是数学、艺术与教育的有趣交汇。",
       "hn": {
-        "id": 49109759,
+        "id": 49093845,
         "type": "story",
-        "by": "brianzelip",
-        "score": 26,
-        "descendants": 1,
-        "time": 1785418316,
-        "comments_url": "https://news.ycombinator.com/item?id=49109759"
+        "by": "dango2506",
+        "score": 35,
+        "descendants": 2,
+        "time": 1785304380,
+        "comments_url": "https://news.ycombinator.com/item?id=49093845"
       },
       "hot_score": 0.01,
       "tags": [
+        "Education"
+      ]
+    },
+    {
+      "title_en": "Show HN: Logan Basic v2.1 - An online BASIC interpreter.",
+      "url": "https://sinusoft.com/loganbasic/",
+      "title_zh": "Show HN：Logan Basic v2.1——一个在线 BASIC 解释器",
+      "created_display": "Created: Jul 30, 2026 / 13:36 PT",
+      "image_url": null,
+      "summary_en": "Logan Basic v2.1 is an online BASIC interpreter that runs in the browser, lowering the barrier to learning and experimenting with BASIC without local setup. It’s a neat demo of browser-based language execution.",
+      "summary_zh": "Logan Basic v2.1 是一个在浏览器中运行的在线 BASIC 解释器，降低学习与试验 BASIC 的门槛，无需本地环境。是浏览器端语言执行的有趣演示。",
+      "hn": {
+        "id": 49115423,
+        "type": "story",
+        "by": "Sinusoid314",
+        "score": 21,
+        "descendants": 3,
+        "time": 1785443813,
+        "comments_url": "https://news.ycombinator.com/item?id=49115423"
+      },
+      "hot_score": 0.01,
+      "tags": [
+        "Show HN",
         "Programming",
-        "Open Source"
+        "Web"
+      ]
+    },
+    {
+      "title_en": "Fasttracker II clone in C using SDL 2",
+      "url": "https://16-bits.org/ft2.php",
+      "title_zh": "用 SDL2 的 C 实现的 Fasttracker II 克隆",
+      "created_display": "Created: Jul 28, 2026 / 23:47 PT",
+      "image_url": "https://16-bits.org/i/contact.gif",
+      "summary_en": "This is a C-based clone of the classic Fasttracker II using SDL2, illustrating how retro audio software can be recreated with modern toolchains. It serves as a case study in faithful reproduction and performance considerations.",
+      "summary_zh": "这是一个用 SDL2 实现的经典 Fasttracker II 的克隆，展示了如何用现代工具链重现怀旧音频软件，并带来实现风格与性能的权衡。",
+      "hn": {
+        "id": 49094151,
+        "type": "story",
+        "by": "andsoitis",
+        "score": 16,
+        "descendants": 3,
+        "time": 1785307642,
+        "comments_url": "https://news.ycombinator.com/item?id=49094151"
+      },
+      "hot_score": 0.0,
+      "tags": [
+        "Programming"
       ]
     },
     {
@@ -1070,7 +1646,7 @@
         "time": 1785439134,
         "comments_url": "https://news.ycombinator.com/item?id=49114441"
       },
-      "hot_score": 0.01,
+      "hot_score": 0.0,
       "tags": [
         "Hardware",
         "Data"
