@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>165</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>24265</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>162</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>163</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-08-03</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>165</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>24282</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>162</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>163</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-08-03</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,40 +20,40 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='546' data-hn-time='1785756534'>
+<div class='hn-top-story-item' data-hn-score='1539' data-hn-time='1785738481'>
 <span class='hn-top-story-rank'>1</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/03/top_stories_08032026#story-49154332'>Critical CVE issued for hallucinated SQLite vulnerability</a>
- <a class='hn-top-story-link' href='https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>针对“幻觉式”SQLite漏洞的关键 CVE 发布</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 17</span> <span class='hn-top-story-score'>&#9650; 546</span> <span class='hn-top-story-comments'>&#128172; 183</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='1349' data-hn-time='1785738481'>
-<span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/08/03/top_stories_08032026#story-49151933'>Don't be a meat proxy</a>
  <a class='hn-top-story-link' href='https://gruhn.me/blog/2026-08-03/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>别做肉身代理</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 15</span> <span class='hn-top-story-score'>&#9650; 1349</span> <span class='hn-top-story-comments'>&#128172; 566</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 1539</span> <span class='hn-top-story-comments'>&#128172; 644</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='100' data-hn-time='1785771092'>
+<div class='hn-top-story-item' data-hn-score='668' data-hn-time='1785756534'>
+<span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/03/top_stories_08032026#story-49154332'>SQLite Critical CVEs or LLM Slop?</a>
+ <a class='hn-top-story-link' href='https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>SQLite 关键 CVEs 或 LLM 漏洞？</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 668</span> <span class='hn-top-story-comments'>&#128172; 299</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='259' data-hn-time='1785771092'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/03/top_stories_08032026#story-49157128'>Taylor Farms Has Rewritten Its Cyclospora Statement Four Times in Sixteen Days</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/03/top_stories_08032026#story-49157128'>Taylor Farms has rewritten its cyclospora statement four times in sixteen days</a>
  <a class='hn-top-story-link' href='https://www.marlerblog.com/case-news/taylor-farms-has-rewritten-its-cyclospora-statement-four-times-in-sixteen-days-it-still-has-not-said-what-changed-at-that-plant-after-2013-or-why-two-thousand-negative-tests-should-mean-an/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>泰勒农场在16天内四次修改其轮孢子虫声明</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 14</span> <span class='hn-top-story-score'>&#9650; 100</span> <span class='hn-top-story-comments'>&#128172; 35</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 10</span> <span class='hn-top-story-score'>&#9650; 259</span> <span class='hn-top-story-comments'>&#128172; 180</span> <span class='hn-top-story-tag'>Health</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='123' data-hn-time='1785766547'>
+<div class='hn-top-story-item' data-hn-score='337' data-hn-time='1785766547'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -61,73 +61,73 @@ Sort:
  <a class='hn-top-story-link' href='https://blog.exe.dev/devtools-must-be-open-source' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>开发者工具必须开源</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.3</span> <span class='hn-top-story-score'>&#9650; 123</span> <span class='hn-top-story-comments'>&#128172; 41</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.7</span> <span class='hn-top-story-score'>&#9650; 337</span> <span class='hn-top-story-comments'>&#128172; 126</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='120' data-hn-time='1785764083'>
+<div class='hn-top-story-item' data-hn-score='172' data-hn-time='1785774432'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/03/top_stories_08032026#story-49155629'>MiniMax H3 Day-0 Support in ComfyUI: Open Weights, Native Audio, and 2K Video</a>
- <a class='hn-top-story-link' href='https://blog.comfy.org/p/minimax-h3-day-0-support-in-comfyui' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/03/top_stories_08032026#story-49157930'>Ten advances in mathematics and theoretical computer science</a>
+ <a class='hn-top-story-link' href='https://openai.com/index/ten-advances-in-mathematics/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>ComfyUI 的 MiniMax H3 Day-0 支持：开放权重、原生音频与 2K 视频</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.9</span> <span class='hn-top-story-score'>&#9650; 120</span> <span class='hn-top-story-comments'>&#128172; 43</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>数学与理论计算机科学的十项进展</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.5</span> <span class='hn-top-story-score'>&#9650; 172</span> <span class='hn-top-story-comments'>&#128172; 456</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='904' data-hn-time='1785723369'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='183' data-hn-time='1785766140'>
 <span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/03/top_stories_08032026#story-49156011'>Andy Pavlo joins ClickHouse to establish ClickHouse Labs</a>
+ <a class='hn-top-story-link' href='https://clickhouse.com/blog/andy-pavlo-joins-clickhouse' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Andy Pavlo 加入 ClickHouse，设立 ClickHouse Labs</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.1</span> <span class='hn-top-story-score'>&#9650; 183</span> <span class='hn-top-story-comments'>&#128172; 41</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Data</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='223' data-hn-time='1785762782'>
+<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/03/top_stories_08032026#story-49155359'>Wind and solar overtake fossil fuels in Germany for the first time</a>
+ <a class='hn-top-story-link' href='https://www.intellinews.com/wind-and-solar-overtake-fossil-fuels-in-germany-for-the-first-time-ever-458379/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>德国首次用风能和太阳能超越化石燃料</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.0</span> <span class='hn-top-story-score'>&#9650; 223</span> <span class='hn-top-story-comments'>&#128172; 120</span> <span class='hn-top-story-tag'>Energy</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='992' data-hn-time='1785723369'>
+<span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/08/03/top_stories_08032026#story-49150470'>Qwen3.8-Max: A New Bar for Coding and Cowork</a>
  <a class='hn-top-story-link' href='https://qwen.ai/blog?id=qwen3.8' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Qwen3.8-Max：编码与协作的新标杆</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.0</span> <span class='hn-top-story-score'>&#9650; 904</span> <span class='hn-top-story-comments'>&#128172; 464</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.9</span> <span class='hn-top-story-score'>&#9650; 992</span> <span class='hn-top-story-comments'>&#128172; 526</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='80' data-hn-time='1785766140'>
-<span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/03/top_stories_08032026#story-49156011'>Andy Pavlo Joins ClickHouse to Establish ClickHouse Labs</a>
- <a class='hn-top-story-link' href='https://clickhouse.com/blog/andy-pavlo-joins-clickhouse' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Andy Pavlo 加入 ClickHouse，设立 ClickHouse Labs</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.7</span> <span class='hn-top-story-score'>&#9650; 80</span> <span class='hn-top-story-comments'>&#128172; 18</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Data</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='263' data-hn-time='1785749527'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/03/top_stories_08032026#story-49153374'>Prevent cognitive debt by manually retyping LLM-generated code</a>
- <a class='hn-top-story-link' href='https://ankursethi.com/blog/prevent-cognitive-debt-by-manually-retyping-llm-generated-code/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>通过手动重新输入LLM生成的代码以避免认知负债</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.1</span> <span class='hn-top-story-score'>&#9650; 263</span> <span class='hn-top-story-comments'>&#128172; 225</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='48' data-hn-time='1785767391'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='196' data-hn-time='1785764083'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/03/top_stories_08032026#story-49156299'>Why does Mail app contact iCloud when sending a non-iCloud email?</a>
- <a class='hn-top-story-link' href='https://lapcatsoftware.com/articles/2026/8/2.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/03/top_stories_08032026#story-49155629'>MiniMax H3 Day-0 Support in ComfyUI: Open Weights, Native Audio, and 2K Video</a>
+ <a class='hn-top-story-link' href='https://blog.comfy.org/p/minimax-h3-day-0-support-in-comfyui' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>为什么邮件应用在发送非 iCloud 邮件时也会联系 iCloud？</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 48</span> <span class='hn-top-story-comments'>&#128172; 9</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>ComfyUI 的 MiniMax H3 Day-0 支持：开放权重、原生音频与 2K 视频</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.8</span> <span class='hn-top-story-score'>&#9650; 196</span> <span class='hn-top-story-comments'>&#128172; 56</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='50' data-hn-time='1785766404'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='66' data-hn-time='1785776530'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/03/top_stories_08032026#story-49156071'>Utah produced more power from solar than any other source in May, a new first</a>
- <a class='hn-top-story-link' href='https://www.sltrib.com/news/environment/2026/08/03/utah-sets-solar-power-record/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/03/top_stories_08032026#story-49158474'>Celebrating 45 Years of Kermit with the First New C-Kermit Release in 15 Years</a>
+ <a class='hn-top-story-link' href='https://changelog.complete.org/archives/44456-celebrating-45-years-of-kermit-with-the-first-new-c-kermit-release-in-15-years-and-working-with-a-decades-old-c-codebase' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>五月份太阳能发电首次超越其他任何发电来源</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.7</span> <span class='hn-top-story-score'>&#9650; 50</span> <span class='hn-top-story-comments'>&#128172; 16</span> <span class='hn-top-story-tag'>Energy</span></div>
+<div class='hn-top-story-zh'>庆祝 Kermit 45 年：15 年来首次发布 C-Kermit 的新版本</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.5</span> <span class='hn-top-story-score'>&#9650; 66</span> <span class='hn-top-story-comments'>&#128172; 18</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Culture</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -140,7 +140,7 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 32 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-08-03 <span class="hn-row-sep">·</span> 71 stories <span class="hn-row-sep">·</span> 1 days</span>
+<span class='hn-week-meta'>2026-08-03 <span class="hn-row-sep">·</span> 88 stories <span class="hn-row-sep">·</span> 1 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/08/03/top_stories_08032026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>71</b> <span class="hn-row-sep">·</span> Programming <b>23</b> <span class="hn-row-sep">·</span> AI <b>15</b></span>
+<span class='hn-row-detail'>All <b>88</b> <span class="hn-row-sep">·</span> Programming <b>28</b> <span class="hn-row-sep">·</span> AI <b>18</b></span>
 </a>
 </div>
 </div>
