@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>165</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>24294</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>162</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>163</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-08-03</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>166</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>24343</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>162</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>164</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-08-04</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,118 +20,118 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='640' data-hn-time='1785791633'>
+<div class='hn-top-story-item' data-hn-score='76' data-hn-time='1785832022'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/03/top_stories_08032026#story-49161518'>LLMs reward expertise</a>
- <a class='hn-top-story-link' href='https://www.seangoedecke.com/llms-reward-expertise/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/04/top_stories_08042026#story-49165775'>NHS apologises and admits Palantir have access to identifiable patient data</a>
+ <a class='hn-top-story-link' href='https://www.publictechnology.net/2026/08/03/health-and-social-care/nhs-apologises-and-admits-palantir-engineers-have-access-to-identifiable-patient-data/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>大模型奖励专业知识</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 640</span> <span class='hn-top-story-comments'>&#128172; 265</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>NHS道歉并承认 Palantir 访问可识别患者数据</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 16</span> <span class='hn-top-story-score'>&#9650; 76</span> <span class='hn-top-story-comments'>&#128172; 2</span> <span class='hn-top-story-tag'>Health</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='1674' data-hn-time='1785738481'>
+<div class='hn-top-story-item' data-hn-score='163' data-hn-time='1785821533'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/03/top_stories_08032026#story-49151933'>Don't be a meat proxy</a>
- <a class='hn-top-story-link' href='https://gruhn.me/blog/2026-08-03/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/04/top_stories_08042026#story-49164649'>Apple is getting this wrong</a>
+ <a class='hn-top-story-link' href='https://openai.com/index/apple-is-getting-this-wrong/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>别做肉身代理</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.3</span> <span class='hn-top-story-score'>&#9650; 1674</span> <span class='hn-top-story-comments'>&#128172; 679</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>苹果在这点上做错了</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.1</span> <span class='hn-top-story-score'>&#9650; 163</span> <span class='hn-top-story-comments'>&#128172; 159</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='493' data-hn-time='1785774432'>
+<div class='hn-top-story-item' data-hn-score='888' data-hn-time='1785791633'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/03/top_stories_08032026#story-49157930'>Ten advances in mathematics and theoretical computer science</a>
- <a class='hn-top-story-link' href='https://openai.com/index/ten-advances-in-mathematics/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/04/top_stories_08042026#story-49161518'>LLMs reward expertise</a>
+ <a class='hn-top-story-link' href='https://www.seangoedecke.com/llms-reward-expertise/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>数学与理论计算机科学的十项进展</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 493</span> <span class='hn-top-story-comments'>&#128172; 761</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>大模型奖励专业知识</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.1</span> <span class='hn-top-story-score'>&#9650; 888</span> <span class='hn-top-story-comments'>&#128172; 364</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Data</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='545' data-hn-time='1785766547'>
+<div class='hn-top-story-item' data-hn-score='532' data-hn-time='1785774432'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/03/top_stories_08032026#story-49156111'>Devtools must be open source</a>
- <a class='hn-top-story-link' href='https://blog.exe.dev/devtools-must-be-open-source' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/04/top_stories_08042026#story-49157930'>Ten advances in mathematics and theoretical computer science</a>
+ <a class='hn-top-story-link' href='https://openai.com/index/ten-advances-in-mathematics/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>开发者工具必须开源</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 545</span> <span class='hn-top-story-comments'>&#128172; 190</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>数学与理论计算机科学的十项进展</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 532</span> <span class='hn-top-story-comments'>&#128172; 811</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='706' data-hn-time='1785756534'>
+<div class='hn-top-story-item' data-hn-score='595' data-hn-time='1785766547'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/03/top_stories_08032026#story-49154332'>SQLite Critical CVEs or LLM Slop?</a>
- <a class='hn-top-story-link' href='https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/04/top_stories_08042026#story-49156111'>Devtools must be open source</a>
+ <a class='hn-top-story-link' href='https://blog.exe.dev/devtools-must-be-open-source' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>SQLite 关键 CVEs 或 LLM 漏洞？</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 706</span> <span class='hn-top-story-comments'>&#128172; 352</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>开发者工具必须开源</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 595</span> <span class='hn-top-story-comments'>&#128172; 199</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1064' data-hn-time='1785723369'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='709' data-hn-time='1785756534'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/03/top_stories_08032026#story-49150470'>Qwen3.8-Max: A New Bar for Coding and Cowork</a>
- <a class='hn-top-story-link' href='https://qwen.ai/blog?id=qwen3.8' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/04/top_stories_08042026#story-49154332'>SQLite Critical CVEs or LLM Slop?</a>
+ <a class='hn-top-story-link' href='https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Qwen3.8-Max：编码与协作的新标杆</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 1064</span> <span class='hn-top-story-comments'>&#128172; 575</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>SQLite 关键 CVEs 或 LLM 漏洞？</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 709</span> <span class='hn-top-story-comments'>&#128172; 362</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='259' data-hn-time='1785771092'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1072' data-hn-time='1785723369'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/03/top_stories_08032026#story-49157128'>Taylor Farms has rewritten its cyclospora statement four times in sixteen days</a>
- <a class='hn-top-story-link' href='https://www.marlerblog.com/case-news/taylor-farms-has-rewritten-its-cyclospora-statement-four-times-in-sixteen-days-it-still-has-not-said-what-changed-at-that-plant-after-2013-or-why-two-thousand-negative-tests-should-mean-an/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/04/top_stories_08042026#story-49150470'>Qwen3.8-Max: A New Bar for Coding and Cowork</a>
+ <a class='hn-top-story-link' href='https://qwen.ai/blog?id=qwen3.8' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>泰勒农场在16天内四次修改其轮孢子虫声明</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.9</span> <span class='hn-top-story-score'>&#9650; 259</span> <span class='hn-top-story-comments'>&#128172; 180</span> <span class='hn-top-story-tag'>Health</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>Qwen3.8-Max：编码与协作的新标杆</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 1072</span> <span class='hn-top-story-comments'>&#128172; 579</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='72' data-hn-time='1785799493'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='147' data-hn-time='1785799493'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/03/top_stories_08032026#story-49162653'>There Will Come Soft Rains (1950) [pdf]</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/04/top_stories_08042026#story-49162653'>There Will Come Soft Rains (1950) [pdf]</a>
  <a class='hn-top-story-link' href='https://users.wpi.edu/~zrbutzke/Docs/BradburyStories(1).pdf' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>《软雨将至》 (1950) [PDF]</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.9</span> <span class='hn-top-story-score'>&#9650; 72</span> <span class='hn-top-story-comments'>&#128172; 28</span> <span class='hn-top-story-tag'>Entertainment</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.8</span> <span class='hn-top-story-score'>&#9650; 147</span> <span class='hn-top-story-comments'>&#128172; 55</span> <span class='hn-top-story-tag'>Entertainment</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='292' data-hn-time='1785766140'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='473' data-hn-time='1785749527'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/03/top_stories_08032026#story-49156011'>Andy Pavlo joins ClickHouse to establish ClickHouse Labs</a>
- <a class='hn-top-story-link' href='https://clickhouse.com/blog/andy-pavlo-joins-clickhouse' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/04/top_stories_08042026#story-49153374'>Prevent cognitive debt by manually retyping LLM-generated code</a>
+ <a class='hn-top-story-link' href='https://ankursethi.com/blog/prevent-cognitive-debt-by-manually-retyping-llm-generated-code/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Andy Pavlo 加入 ClickHouse，设立 ClickHouse Labs</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.8</span> <span class='hn-top-story-score'>&#9650; 292</span> <span class='hn-top-story-comments'>&#128172; 61</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Data</span></div>
+<div class='hn-top-story-zh'>通过手动重新输入LLM生成的代码以避免认知负债</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.4</span> <span class='hn-top-story-score'>&#9650; 473</span> <span class='hn-top-story-comments'>&#128172; 382</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='139' data-hn-time='1785785974'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='308' data-hn-time='1785766140'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/03/top_stories_08032026#story-49160437'>The Dunning-Kruger effect may just be a data artefact (2020)</a>
- <a class='hn-top-story-link' href='https://www.mcgill.ca/oss/article/critical-thinking/dunning-kruger-effect-probably-not-real' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/04/top_stories_08042026#story-49156011'>Andy Pavlo joins ClickHouse to establish ClickHouse Labs</a>
+ <a class='hn-top-story-link' href='https://clickhouse.com/blog/andy-pavlo-joins-clickhouse' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>邓宁-克鲁格效应可能只是数据伪影（2020）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.8</span> <span class='hn-top-story-score'>&#9650; 139</span> <span class='hn-top-story-comments'>&#128172; 153</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Data</span></div>
+<div class='hn-top-story-zh'>Andy Pavlo 加入 ClickHouse，设立 ClickHouse Labs</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.3</span> <span class='hn-top-story-score'>&#9650; 308</span> <span class='hn-top-story-comments'>&#128172; 65</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Data</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
-<a class='hn-top-stories-more' href='/hackernews/2026/08/03/top_stories_08032026'>View all trending stories &rarr;</a>
+<a class='hn-top-stories-more' href='/hackernews/2026/08/04/top_stories_08042026'>View all trending stories &rarr;</a>
 <a class='hn-top-stories-more' href='/hackernews/2026/08/02/best_stories_08022026'>Latest Daily Best — 2026-08-02 &rarr;</a>
 </div>
 </div>
@@ -140,10 +140,19 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 32 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-08-03 <span class="hn-row-sep">·</span> 100 stories <span class="hn-row-sep">·</span> 1 days</span>
+<span class='hn-week-meta'>2026-08-03 — 2026-08-04 <span class="hn-row-sep">·</span> 149 stories <span class="hn-row-sep">·</span> 2 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
+<div class='hn-day-row'>
+<div class='hn-day-date'>2026-08-04 <span class='hn-day-weekday'>Tue</span></div>
+<div class='hn-day-stories'>
+<a class='hn-story-link' href='/hackernews/2026/08/04/top_stories_08042026'>
+<span class='hn-row-type hn-type-top'>Trending</span>
+<span class='hn-row-detail'>All <b>49</b> <span class="hn-row-sep">·</span> AI <b>12</b> <span class="hn-row-sep">·</span> Open Source <b>10</b></span>
+</a>
+</div>
+</div>
 <div class='hn-day-row'>
 <div class='hn-day-date'>2026-08-03 <span class='hn-day-weekday'>Mon</span></div>
 <div class='hn-day-stories'>
@@ -570,33 +579,6 @@ Sort:
 <a class='hn-story-link' href='/hackernews/2026/07/06/top_stories_07062026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
 <span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>23</b> <span class="hn-row-sep">·</span> Hardware <b>20</b></span>
-</a>
-</div>
-</div>
-</div>
-</div>
-</details>
-<details class='hn-week-group'>
-<summary class='hn-week-summary'>
-<span class='hn-week-title'>2026 Week 27</span>
-<span class='hn-week-meta'>2026-07-05 <span class="hn-row-sep">·</span> 150 stories <span class="hn-row-sep">·</span> 1 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
-</summary>
-<div class='hn-week-content'>
-<a class='hn-story-link hn-weekly-digest-link' href='/hackernews/weekly/2026-W27'>
-<span class='hn-row-type hn-type-weekly'>Weekly Digest</span>
-<span class='hn-row-detail'>2026-06-29 — 2026-07-05 <span class="hn-row-sep">·</span> All <b>497</b> <span class="hn-row-sep">·</span> Programming <b>114</b> <span class="hn-row-sep">·</span> AI <b>95</b></span>
-</a>
-<div class='hn-grid'>
-<div class='hn-day-row'>
-<div class='hn-day-date'>2026-07-05 <span class='hn-day-weekday'>Sun</span></div>
-<div class='hn-day-stories'>
-<a class='hn-story-link' href='/hackernews/2026/07/05/best_stories_07052026'>
-<span class='hn-row-type hn-type-best'>Daily Best</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> Programming <b>13</b> <span class="hn-row-sep">·</span> AI <b>10</b></span>
-</a>
-<a class='hn-story-link' href='/hackernews/2026/07/05/top_stories_07052026'>
-<span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>21</b> <span class="hn-row-sep">·</span> AI <b>17</b></span>
 </a>
 </div>
 </div>
