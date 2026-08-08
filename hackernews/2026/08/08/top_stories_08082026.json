@@ -4,64 +4,161 @@
     "source": "https://news.ycombinator.com/",
     "api": "https://github.com/HackerNews/API",
     "count_requested": 50,
-    "count_written": 50,
-    "reused_same_day": 0,
-    "reused_cross_day": 42,
-    "new_llm_enriched": 8,
-    "scrape_time_display": "00:02, August 08, 2026 (PDT)",
+    "count_written": 68,
+    "reused_same_day": 30,
+    "reused_cross_day": 0,
+    "new_llm_enriched": 18,
+    "scrape_time_display": "07:31, August 08, 2026 (PDT)",
     "timezone": "America/Los_Angeles",
     "date_dir": "2026/08/08",
     "content_date": "2026-08-08",
-    "run_time_local": "00:02, August 08, 2026 (PDT)",
-    "run_time_utc": "2026-08-08 07:02:06 UTC",
+    "run_time_local": "07:31, August 08, 2026 (PDT)",
+    "run_time_utc": "2026-08-08 14:31:08 UTC",
     "incremental": true,
     "stories_max": 100,
-    "hot_score_time_utc": "2026-08-08 07:02:51 UTC"
+    "hot_score_time_utc": "2026-08-08 14:32:13 UTC"
   },
   "items": [
     {
-      "title_en": "The Nixpkgs core team has disbanded",
-      "url": "https://discourse.nixos.org/t/the-nixpkgs-core-team-has-disbanded/79413",
-      "title_zh": "Nixpkgs 核心团队解散",
-      "created_display": "Created: Aug 07, 2026 / 18:12 PT",
-      "image_url": "https://discourse.nixos.org/uploads/default/original/3X/a/5/a5e0d7873e3d34aecf874c577c91a1c06490f436.svg",
-      "summary_en": "The Nixpkgs core team has disbanded, marking a rare governance shift for the NixOS packaging ecosystem. The move signals a transition toward a more community-driven maintenance model, with potential changes in how contributions are reviewed and released. For users, this could mean slower patches in the short term but more distributed leadership in the long run.",
-      "summary_zh": "Nixpkgs 核心团队解散，预示 NixOS 软件包生态的治理将转向更依赖社区的模式。短期内可能影响修复速度，但长期将出现更分散的维护权力与新治理路径。",
+      "title_en": "New Amazon Data Center Is Set to Have the Most Polluting Power Plant in the U.S.",
+      "url": "https://www.nytimes.com/2026/08/08/climate/amazon-data-center-texas-pollution.html",
+      "title_zh": "新建的亚马逊数据中心将由美国污染最严重的发电厂供电",
+      "created_display": "Created: Aug 08, 2026 / 03:07 PT",
+      "image_url": null,
+      "summary_en": "Amazon's new data center in Texas is reportedly powered by one of the most polluting coal plants in the US, sparking criticism over corporate energy choices and climate impact. The decision highlights tensions between cloud infrastructure expansion and environmental responsibility.",
+      "summary_zh": "位于德州的新数据中心据称将由美国污染最严重的煤电厂供电，这引发对企业能源选择与气候影响的批评。这一决定凸显了云基础设施扩张与环境责任之间的紧张关系。",
       "hn": {
-        "id": 49217993,
+        "id": 49220350,
         "type": "story",
-        "by": "Meleagris",
-        "score": 263,
-        "descendants": 114,
-        "time": 1786151565,
-        "comments_url": "https://news.ycombinator.com/item?id=49217993"
+        "by": "sbulaev",
+        "score": 160,
+        "descendants": 182,
+        "time": 1786183626,
+        "comments_url": "https://news.ycombinator.com/item?id=49220350"
       },
+      "hot_score": 5.6,
       "tags": [
-        "Open Source"
-      ],
-      "hot_score": 6.44
+        "Energy",
+        "Business",
+        "DevOps"
+      ]
     },
     {
-      "title_en": "NASA to keep its 48-year-old Voyager 2 probe running for yet another year",
-      "url": "https://www.space.com/space-exploration/voyager/nasa-figured-out-how-to-keep-its-48-year-old-voyager-2-probe-running-for-yet-another-year",
-      "title_zh": "NASA 将让其 48 年历史的 Voyager 2 探测器再运行一年",
-      "created_display": "Created: Aug 07, 2026 / 18:49 PT",
-      "image_url": "https://cdn.mos.cms.futurecdn.net/THvP2fXPd8rkVuYiU2LB97-2000-80.jpg",
-      "summary_en": "NASA will keep Voyager 2 running for another year, using careful power management to extend its mission despite aging systems. The extension showcases how aging deep-space probes can outlive their planned lifespans with engineering ingenuity and autonomous operation, even as power dwindles. This move preserves a critical data relay and a historic legacy of interstellar exploration.",
-      "summary_zh": "NASA 将让其 48 年历史的 Voyager 2 探测器再运行一年，靠精细的电力管理延长任务。即便电力日渐稀缺，老化探测器仍能在工程巧思与自主运作下超越原定寿命，延续关键数据与探索历史。",
+      "title_en": "Now we have a timeline of the OpenAI accidental attack against Hugging Face",
+      "url": "https://simonwillison.net/2026/Aug/7/openai-timeline/",
+      "title_zh": "OpenAI 对 Hugging Face 的意外攻击时间线公开",
+      "created_display": "Created: Aug 08, 2026 / 03:57 PT",
+      "image_url": "https://img.youtube.com/vi/87DyyMV0kCY/maxresdefault.jpg",
+      "summary_en": "A timeline release details an OpenAI incident that inadvertently affected Hugging Face, highlighting missteps in model sharing and cross-company trust in AI tooling. The account sheds light on how collaborative AI ecosystems can go awry.",
+      "summary_zh": "时间线披露 OpenAI 对 Hugging Face 的意外影响事件，暴露在模型共享与跨公司信任方面的处置失误。这一细节揭示了 AI 生态中的协作风险。",
       "hn": {
-        "id": 49218179,
+        "id": 49220609,
         "type": "story",
-        "by": "wglb",
-        "score": 187,
-        "descendants": 34,
-        "time": 1786153751,
-        "comments_url": "https://news.ycombinator.com/item?id=49218179"
+        "by": "882542F3884314B",
+        "score": 102,
+        "descendants": 125,
+        "time": 1786186664,
+        "comments_url": "https://news.ycombinator.com/item?id=49220609"
+      },
+      "hot_score": 4.58,
+      "tags": [
+        "AI",
+        "Security",
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "DeepMind's WeatherNext model achieves breakthrough forecasting cyclones",
+      "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
+      "title_zh": "DeepMind 的 WeatherNext 在气旋预报上取得突破",
+      "created_display": "Created: Aug 08, 2026 / 02:18 PT",
+      "image_url": "https://lh3.googleusercontent.com/Mj8GyJnsjROScr1hYl7PL_QCAaLGukliPCTMUlpKiQtZuVkmh2ouydYh80ibejg9vWgKkg2dYPx2jCJOOohKid5P-dLzwvIyB4-fZjWXYIx0ImZd=w1200-h630-n-nu-rw",
+      "summary_en": "DeepMind's WeatherNext reportedly achieves breakthrough cyclone forecasting, improving accuracy and potentially lead times for storms. The model leverages advanced AI to simulate atmospheric dynamics at scale, with real-world potential for disaster response.",
+      "summary_zh": "DeepMind 的 WeatherNext 在气旋预报方面取得突破，提升了准确性并可能缩短信号到袭来的时间窗。该模型利用大规模的气象动力学建模，若落地将对灾害应对产生实际影响。",
+      "hn": {
+        "id": 49220126,
+        "type": "story",
+        "by": "bhavansig",
+        "score": 155,
+        "descendants": 45,
+        "time": 1786180730,
+        "comments_url": "https://news.ycombinator.com/item?id=49220126"
+      },
+      "hot_score": 4.38,
+      "tags": [
+        "AI",
+        "Science"
+      ]
+    },
+    {
+      "title_en": "Hardware backdoors in some x86 CPUs",
+      "url": "https://github.com/xoreaxeaxeax/rosenbridge",
+      "title_zh": "某些 x86 CPU 可能存在硬件后门",
+      "created_display": "Created: Aug 08, 2026 / 00:04 PT",
+      "image_url": "https://opengraph.githubassets.com/43826bf9cc71979cf6a25681411cb4df54b4b13e32faed4ed166302441c1f1bb/xoreaxeaxeax/rosenbridge",
+      "summary_en": "A Rosenbridge project points to potential hardware backdoors in certain x86 CPUs, illustrating how microarchitectural features could be misused. The finding underscores supply-chain security risks and the importance of firmware and chipset transparency.",
+      "summary_zh": "Rosenbridge 项目指出某些 x86 CPU 可能存在硬件后门，说明微架构层面的特征可能被滥用。此发现强调了供应链安全风险，以及固件与芯片组透明度的重要性。",
+      "hn": {
+        "id": 49219508,
+        "type": "story",
+        "by": "epestr",
+        "score": 218,
+        "descendants": 64,
+        "time": 1786172691,
+        "comments_url": "https://news.ycombinator.com/item?id=49219508"
       },
       "tags": [
-        "Space"
+        "Security",
+        "Hardware"
       ],
-      "hot_score": 5.29
+      "hot_score": 3.8
+    },
+    {
+      "title_en": "A domain can now say it is for sale, in DNS",
+      "url": "https://specification.website/spec/foundations/for-sale-dns/",
+      "title_zh": "域名现在可在 DNS 中标注待售",
+      "created_display": "Created: Aug 08, 2026 / 06:26 PT",
+      "image_url": "https://specification.website/og/spec/foundations/for-sale-dns.png",
+      "summary_en": "A new DNS capability lets domains publish a 'for sale' status directly in DNS records, enabling automated listings and easier marketplace integration. This could streamline domain trading, but may raise privacy and spoofing concerns.",
+      "summary_zh": "新的 DNS 功能允许域名在 DNS 记录中直接标注“待售”，实现自动化挂牌和市场对接。这将简化域名交易流程，但也可能带来隐私与伪造风险。",
+      "hn": {
+        "id": 49221668,
+        "type": "story",
+        "by": "shaunpud",
+        "score": 29,
+        "descendants": 11,
+        "time": 1786195611,
+        "comments_url": "https://news.ycombinator.com/item?id=49221668"
+      },
+      "hot_score": 3.68,
+      "tags": [
+        "Web",
+        "Privacy"
+      ]
+    },
+    {
+      "title_en": "Europe's free satellite service just made it easier to track wildfires",
+      "url": "https://arstechnica.com/gadgets/2026/08/europes-free-satellite-service-just-made-it-easier-to-track-wildfires/",
+      "title_zh": "欧洲的免费卫星服务让野火跟踪更容易",
+      "created_display": "Created: Aug 08, 2026 / 02:58 PT",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/2026-08-03-00_00_2026-08-03-23_59_Sentinel-2_L2A_Wildfires-1-2560x1440.jpg",
+      "summary_en": "Europe's free satellite service enhances wildfire tracking with higher-resolution data and wider coverage, enabling earlier detection and better situational awareness. This can improve response times and resource allocation during fires.",
+      "summary_zh": "欧洲的免费卫星服务提升了野火监测的分辨率和覆盖范围，使得更早发现和态势感知更可靠，从而提升扑灭与资源调度的响应速度。",
+      "hn": {
+        "id": 49220313,
+        "type": "story",
+        "by": "01-_-",
+        "score": 88,
+        "descendants": 9,
+        "time": 1786183121,
+        "comments_url": "https://news.ycombinator.com/item?id=49220313"
+      },
+      "hot_score": 2.95,
+      "tags": [
+        "Space",
+        "Data",
+        "Privacy"
+      ]
     },
     {
       "title_en": "DeepSeek V4 Flash 0731",
@@ -75,62 +172,60 @@
         "id": 49214008,
         "type": "story",
         "by": "tosh",
-        "score": 564,
-        "descendants": 340,
+        "score": 693,
+        "descendants": 418,
         "time": 1786125380,
         "comments_url": "https://news.ycombinator.com/item?id=49214008"
       },
       "tags": [
         "Programming"
       ],
-      "hot_score": 4.25
+      "hot_score": 2.53
     },
     {
-      "title_en": "Oracle bans AI-generated code from OpenJDK",
-      "url": "https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code",
-      "title_zh": "Oracle 禁止 OpenJDK 使用 AI 生成的代码",
-      "created_display": "Created: Aug 07, 2026 / 10:36 PT",
-      "image_url": "https://webshotter.dealroom.co/?width=1600&height=800&wait_until=networkidle0&url=https%3A%2F%2Fapp.dealroom.co%2Fnews%2Ffeed%2Foracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code%3Fscreenshot%3Dtrue",
-      "summary_en": "Oracle bans AI-generated code from OpenJDK. The policy signals a firm stance on machine-produced software and licensing risk, potentially complicating AI-assisted development in the Java ecosystem. It could force contributors to audit code provenance more carefully.",
-      "summary_zh": "甲骨文宣布禁止把 AI 生成的代码用于 OpenJDK。此举表明其在机器生成软件方面的严格治理，可能影响 Java 生态中对 AI 辅助编码的使用和许可安排，并促使开发者更加审查代码来源。",
+      "title_en": "The Nixpkgs core team has disbanded",
+      "url": "https://discourse.nixos.org/t/the-nixpkgs-core-team-has-disbanded/79413",
+      "title_zh": "Nixpkgs 核心团队解散",
+      "created_display": "Created: Aug 07, 2026 / 18:12 PT",
+      "image_url": "https://discourse.nixos.org/uploads/default/original/3X/a/5/a5e0d7873e3d34aecf874c577c91a1c06490f436.svg",
+      "summary_en": "The Nixpkgs core team has disbanded, marking a rare governance shift for the NixOS packaging ecosystem. The move signals a transition toward a more community-driven maintenance model, with potential changes in how contributions are reviewed and released. For users, this could mean slower patches in the short term but more distributed leadership in the long run.",
+      "summary_zh": "Nixpkgs 核心团队解散，预示 NixOS 软件包生态的治理将转向更依赖社区的模式。短期内可能影响修复速度，但长期将出现更分散的维护权力与新治理路径。",
       "hn": {
-        "id": 49213754,
+        "id": 49217993,
         "type": "story",
-        "by": "delduca",
-        "score": 445,
-        "descendants": 307,
-        "time": 1786124190,
-        "comments_url": "https://news.ycombinator.com/item?id=49213754"
+        "by": "Meleagris",
+        "score": 341,
+        "descendants": 167,
+        "time": 1786151565,
+        "comments_url": "https://news.ycombinator.com/item?id=49217993"
       },
       "tags": [
-        "AI",
-        "Legal"
+        "Open Source"
       ],
-      "hot_score": 3.22
+      "hot_score": 2.5
     },
     {
-      "title_en": "U.S. Department of Energy Launches the Genesis Open Models Initiative",
-      "url": "https://genesisopenmodels.anl.gov/",
-      "title_zh": "美国能源部启动 Genesis Open Models Initiative",
-      "created_display": "Created: Aug 07, 2026 / 15:24 PT",
-      "image_url": "https://genesisopenmodels.anl.gov/wp-content/uploads/sites/134/2026/07/Logo-lockup-transparent.png",
-      "summary_en": "The Genesis Open Models Initiative aims to develop and openly share foundational AI models for energy research, fostering collaboration across national labs, academia, and industry. The program emphasizes responsible AI practices and provides benchmarks to evaluate model performance in energy-centric tasks.",
-      "summary_zh": "美国能源部启动 Genesis Open Models Initiative，致力于开发并公开共享用于能源研究的基础 AI 模型，促进国家实验室、学界与产业界的协作，并强调负责任的 AI 实践与评估基准。",
+      "title_en": "NASA figured out how to keep its Voyager 2 probe running for another year",
+      "url": "https://www.space.com/space-exploration/voyager/nasa-figured-out-how-to-keep-its-48-year-old-voyager-2-probe-running-for-yet-another-year",
+      "title_zh": "NASA 找到让 Voyager 2 探测器再运行一年的方法",
+      "created_display": "Created: Aug 07, 2026 / 18:49 PT",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/THvP2fXPd8rkVuYiU2LB97-2000-80.jpg",
+      "summary_en": "NASA has tweaked power and software systems to extend Voyager 2’s life by about another year. The move demonstrates how long-range missions survive on conservative engineering and small, cost-efficient upgrades as hardware ages.",
+      "summary_zh": "NASA 通过调整供电与软件系统，使 Voyager 2 再续航约一年。这体现了在硬件老化的情况下，长期探测任务如何依靠保守设计与小幅高性价比改进来延长寿命。",
       "hn": {
-        "id": 49216946,
+        "id": 49218179,
         "type": "story",
-        "by": "moelf",
-        "score": 199,
-        "descendants": 66,
-        "time": 1786141467,
-        "comments_url": "https://news.ycombinator.com/item?id=49216946"
+        "by": "wglb",
+        "score": 301,
+        "descendants": 61,
+        "time": 1786153751,
+        "comments_url": "https://news.ycombinator.com/item?id=49218179"
       },
       "tags": [
-        "AI",
-        "Open Source",
-        "Energy"
+        "Space",
+        "Hardware"
       ],
-      "hot_score": 2.81
+      "hot_score": 2.37
     },
     {
       "title_en": "What happens if an entire class of workers loses faith in their careers",
@@ -144,15 +239,108 @@
         "id": 49209539,
         "type": "story",
         "by": "RickJWagner",
-        "score": 549,
-        "descendants": 641,
+        "score": 810,
+        "descendants": 900,
         "time": 1786106547,
         "comments_url": "https://news.ycombinator.com/item?id=49209539"
       },
       "tags": [
         "Career"
       ],
-      "hot_score": 2.42
+      "hot_score": 2.03
+    },
+    {
+      "title_en": "Gentoo bugzilla closed due AI bot scraper overload",
+      "url": "https://social.treehouse.systems/@mgorny/117058483039362779",
+      "title_zh": "Gentoo 的 Bugzilla 因 AI 机器人爬虫过载而关闭",
+      "created_display": "Created: Aug 08, 2026 / 06:55 PT",
+      "image_url": "https://social.treehouse.systems/packs/assets/logo-DXQkHAe5.svg",
+      "summary_en": "Gentoo bugzilla was shut down after an AI bot scraper overloaded the site, prompting discussion on anti-bot, rate limits and the fragility of open-source issue trackers. The incident underscores the balance between openness and maintainability.",
+      "summary_zh": "Gentoo 的 Bugzilla 因 AI 爬虫过载而被关闭，引发关于反爬虫、速率限制以及开源问题追踪系统脆弱性的讨论。这一事件凸显了开放性与可维护性之间的平衡。",
+      "hn": {
+        "id": 49221864,
+        "type": "story",
+        "by": "happosai",
+        "score": 12,
+        "descendants": 0,
+        "time": 1786197342,
+        "comments_url": "https://news.ycombinator.com/item?id=49221864"
+      },
+      "hot_score": 1.96,
+      "tags": [
+        "Open Source",
+        "Security",
+        "AI"
+      ]
+    },
+    {
+      "title_en": "Oracle bans AI-generated code from OpenJDK",
+      "url": "https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code",
+      "title_zh": "Oracle 禁止 OpenJDK 使用 AI 生成的代码",
+      "created_display": "Created: Aug 07, 2026 / 10:36 PT",
+      "image_url": "https://webshotter.dealroom.co/?width=1600&height=800&wait_until=networkidle0&url=https%3A%2F%2Fapp.dealroom.co%2Fnews%2Ffeed%2Foracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code%3Fscreenshot%3Dtrue",
+      "summary_en": "Oracle bans AI-generated code from OpenJDK. The policy signals a firm stance on machine-produced software and licensing risk, potentially complicating AI-assisted development in the Java ecosystem. It could force contributors to audit code provenance more carefully.",
+      "summary_zh": "甲骨文宣布禁止把 AI 生成的代码用于 OpenJDK。此举表明其在机器生成软件方面的严格治理，可能影响 Java 生态中对 AI 辅助编码的使用和许可安排，并促使开发者更加审查代码来源。",
+      "hn": {
+        "id": 49213754,
+        "type": "story",
+        "by": "delduca",
+        "score": 498,
+        "descendants": 358,
+        "time": 1786124190,
+        "comments_url": "https://news.ycombinator.com/item?id=49213754"
+      },
+      "tags": [
+        "AI",
+        "Programming",
+        "Legal"
+      ],
+      "hot_score": 1.77
+    },
+    {
+      "title_en": "Microsoft Edge is about to lock out older ad blockers, just like Chrome did",
+      "url": "https://www.theverge.com/tech/976880/microsoft-edge-extensions-ad-blockers-mv2-mv3",
+      "title_zh": "Edge 将像 Chrome 一样锁定较旧的广告拦截器",
+      "created_display": "Created: Aug 08, 2026 / 03:16 PT",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24385268/STK148_Microsoft_Edge_1.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+      "summary_en": "Edge is adopting MV3, ending support for older ad-blocking extensions, which will reduce the effectiveness of ad blockers and push developers toward new extension APIs. The move aligns with broader browser extension API tightening.",
+      "summary_zh": "Edge 将采用 MV3，停止对较旧广告拦截扩展的支持，导致拦截效果下降并促使开发者转向新的扩展 API。这一举措与浏览器扩展 API 收紧的趋势相吻合。",
+      "hn": {
+        "id": 49220392,
+        "type": "story",
+        "by": "eternalreturn",
+        "score": 48,
+        "descendants": 38,
+        "time": 1786184167,
+        "comments_url": "https://news.ycombinator.com/item?id=49220392"
+      },
+      "hot_score": 1.73,
+      "tags": [
+        "Web"
+      ]
+    },
+    {
+      "title_en": "U.S. Department of Energy Launches the Genesis Open Models Initiative",
+      "url": "https://genesisopenmodels.anl.gov/",
+      "title_zh": "美国能源部启动 Genesis Open Models Initiative",
+      "created_display": "Created: Aug 07, 2026 / 15:24 PT",
+      "image_url": "https://genesisopenmodels.anl.gov/wp-content/uploads/sites/134/2026/07/Logo-lockup-transparent.png",
+      "summary_en": "The Genesis Open Models Initiative aims to develop and openly share foundational AI models for energy research, fostering collaboration across national labs, academia, and industry. The program emphasizes responsible AI practices and provides benchmarks to evaluate model performance in energy-centric tasks.",
+      "summary_zh": "美国能源部启动 Genesis Open Models Initiative，致力于开发并公开共享用于能源研究的基础 AI 模型，促进国家实验室、学界与产业界的协作，并强调负责任的 AI 实践与评估基准。",
+      "hn": {
+        "id": 49216946,
+        "type": "story",
+        "by": "moelf",
+        "score": 286,
+        "descendants": 107,
+        "time": 1786141467,
+        "comments_url": "https://news.ycombinator.com/item?id=49216946"
+      },
+      "tags": [
+        "AI",
+        "Energy"
+      ],
+      "hot_score": 1.55
     },
     {
       "title_en": "Assembly Hall of Shame",
@@ -166,15 +354,16 @@
         "id": 49214098,
         "type": "story",
         "by": "piotrgrabowski",
-        "score": 308,
-        "descendants": 74,
+        "score": 379,
+        "descendants": 93,
         "time": 1786125690,
         "comments_url": "https://news.ycombinator.com/item?id=49214098"
       },
       "tags": [
-        "Programming"
+        "Programming",
+        "Open Source"
       ],
-      "hot_score": 2.34
+      "hot_score": 1.39
     },
     {
       "title_en": "A year of fighting scrapers on my 1.5 million-page website",
@@ -194,31 +383,10 @@
         "comments_url": "https://news.ycombinator.com/item?id=49211386"
       },
       "tags": [
+        "Web",
         "Security"
       ],
-      "hot_score": 2.22
-    },
-    {
-      "title_en": "Mythos social engineering AISI INC-2026-07-28-01",
-      "url": "https://web.archive.org/web/20260731053721/http://github.com/ancaferro/myNetwork/pull/3",
-      "title_zh": "Mythos 社会工程学 AISI INC-2026-07-28-01",
-      "created_display": "Created: Aug 07, 2026 / 20:41 PT",
-      "image_url": "https://web.archive.org/web/20260731053721im_/https://opengraph.githubassets.com/c4cfaaf58841bcfc90a77f07078889128ca99f4f54e0597c9207f09fe0e27534/ancaferro/myNetwork/pull/3",
-      "summary_en": "Details a Mythos social engineering incident labeled AISI INC-2026-07-28-01. The note examines how attackers exploit human psychology and social trust. It emphasizes practical defenses like verification steps, training, and incident response.",
-      "summary_zh": "文档揭示一起标注为 Mythos 的社会工程案例，涉及特定事件标识。强调攻击者如何利用人性弱点进行欺骗，以及加强培训、验证和事件响应的重要性。",
-      "hn": {
-        "id": 49218707,
-        "type": "story",
-        "by": "dnnehgf",
-        "score": 45,
-        "descendants": 17,
-        "time": 1786160516,
-        "comments_url": "https://news.ycombinator.com/item?id=49218707"
-      },
-      "hot_score": 2.15,
-      "tags": [
-        "Security"
-      ]
+      "hot_score": 1.19
     },
     {
       "title_en": "Water system controllers don't belong on the internet, says ex-NSA chief",
@@ -232,8 +400,8 @@
         "id": 49216362,
         "type": "story",
         "by": "Bender",
-        "score": 173,
-        "descendants": 114,
+        "score": 219,
+        "descendants": 142,
         "time": 1786137597,
         "comments_url": "https://news.ycombinator.com/item?id=49216362"
       },
@@ -241,7 +409,7 @@
         "Security",
         "DevOps"
       ],
-      "hot_score": 2.05
+      "hot_score": 1.07
     },
     {
       "title_en": "Managing AI Coding Costs at Scale",
@@ -255,62 +423,39 @@
         "id": 49214468,
         "type": "story",
         "by": "moonikakiss",
-        "score": 215,
-        "descendants": 194,
+        "score": 270,
+        "descendants": 228,
         "time": 1786127117,
         "comments_url": "https://news.ycombinator.com/item?id=49214468"
       },
       "tags": [
-        "Business",
-        "AI"
+        "AI",
+        "Business"
       ],
-      "hot_score": 1.71
+      "hot_score": 1.02
     },
     {
-      "title_en": "Ancient Library – 1,060 Greek/Latin texts, click any word to parse it",
-      "url": "https://ancientlibrary.net/",
-      "title_zh": "古代图书馆：1060篇希腊语/拉丁语文本，点击任意单词即可解析",
-      "created_display": "Created: Aug 07, 2026 / 11:51 PT",
-      "image_url": "https://ancientlibrary.net/wp-content/uploads/ancientlibrary/og-default.png",
-      "summary_en": "Ancient Library offers 1,060 Greek and Latin texts with an interactive word-level parser: click any word to see its form, lemma, and grammar. This makes classical language study easier for learners and researchers, accelerating analysis and cross-text comparisons.",
-      "summary_zh": "古代图书馆提供1060篇希腊语和拉丁语文本，支持逐词解析：点击任意单词即可查看形式、词源和语法信息。该工具降低学习门槛，提升古典语言研究与教学的效率。",
+      "title_en": "Don't use your phone while you poop",
+      "url": "https://nate.spot/no-phone-while-poop/",
+      "title_zh": "别在如厕时玩手机",
+      "created_display": "Created: Aug 08, 2026 / 07:05 PT",
+      "image_url": "https://nate.spot/static/og-image.png",
+      "summary_en": "A cautionary piece warns against using your phone in the bathroom due to privacy, hygiene, and distraction risks. It suggests keeping devices out of the restroom to reduce data exposure and promote healthier routines.",
+      "summary_zh": "文章警示在如厕时使用手机的隐私、卫生和分心风险，建议将设备留出卫生间以降低数据暴露并促进更健康的日常习惯。",
       "hn": {
-        "id": 49214770,
+        "id": 49221939,
         "type": "story",
-        "by": "aagha",
-        "score": 189,
-        "descendants": 58,
-        "time": 1786128674,
-        "comments_url": "https://news.ycombinator.com/item?id=49214770"
+        "by": "ExMachina73",
+        "score": 6,
+        "descendants": 5,
+        "time": 1786197956,
+        "comments_url": "https://news.ycombinator.com/item?id=49221939"
       },
+      "hot_score": 1.01,
       "tags": [
-        "Education"
-      ],
-      "hot_score": 1.59
-    },
-    {
-      "title_en": "New Mexico court orders Meta to pay $567m over harms to children’s mental health",
-      "url": "https://www.theguardian.com/technology/2026/aug/06/new-mexico-court-meta",
-      "title_zh": "新墨西哥法院判决 Meta 因对未成年人心理健康造成伤害，需要赔偿 5.67 亿美元",
-      "created_display": "Created: Aug 06, 2026 / 17:06 PT",
-      "image_url": "https://i.guim.co.uk/img/media/6e9c72f1d4d1541ee16137214046b3255b6a1981/410_0_6827_5464/master/6827.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=bde32639cfe3328257ea8f512bc97b88",
-      "summary_en": "A New Mexico court has ordered Meta to pay $567 million after finding that its platforms harmed children’s mental health. The ruling adds to growing regulatory pressure on social media companies and could push Meta to adjust safety measures and user protections, even as enforcement costs rise.",
-      "summary_zh": "新墨西哥法院判决 Meta 因对未成年人的心理健康造成伤害，需要赔偿 5.67 亿美元。此案加剧了对社交媒体平台在青少年福祉方面的监管压力，并可能促使 Meta 在安全措施和用户保护方面做出更多调整，监管成本也在上升。",
-      "hn": {
-        "id": 49204352,
-        "type": "story",
-        "by": "boplicity",
-        "score": 754,
-        "descendants": 403,
-        "time": 1786061188,
-        "comments_url": "https://news.ycombinator.com/item?id=49204352"
-      },
-      "tags": [
-        "Legal",
-        "Health",
-        "Politics"
-      ],
-      "hot_score": 1.4
+        "Privacy",
+        "Health"
+      ]
     },
     {
       "title_en": "AMD acquires Taalas to boost inference performance by etching models in silicon",
@@ -324,8 +469,8 @@
         "id": 49201970,
         "type": "story",
         "by": "itvision",
-        "score": 898,
-        "descendants": 674,
+        "score": 912,
+        "descendants": 687,
         "time": 1786047791,
         "comments_url": "https://news.ycombinator.com/item?id=49201970"
       },
@@ -335,7 +480,31 @@
         "Energy",
         "Startups"
       ],
-      "hot_score": 1.37
+      "hot_score": 1.0
+    },
+    {
+      "title_en": "New Mexico court orders Meta to pay $567m over harms to children’s mental health",
+      "url": "https://www.theguardian.com/technology/2026/aug/06/new-mexico-court-meta",
+      "title_zh": "新墨西哥法院判决 Meta 因对未成年人心理健康造成伤害，需要赔偿 5.67 亿美元",
+      "created_display": "Created: Aug 06, 2026 / 17:06 PT",
+      "image_url": "https://i.guim.co.uk/img/media/6e9c72f1d4d1541ee16137214046b3255b6a1981/410_0_6827_5464/master/6827.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=bde32639cfe3328257ea8f512bc97b88",
+      "summary_en": "A New Mexico court has ordered Meta to pay $567 million after finding that its platforms harmed children’s mental health. The ruling adds to growing regulatory pressure on social media companies and could push Meta to adjust safety measures and user protections, even as enforcement costs rise.",
+      "summary_zh": "新墨西哥法院判决 Meta 因对未成年人的心理健康造成伤害，需要赔偿 5.67 亿美元。此案加剧了对社交媒体平台在青少年福祉方面的监管压力，并可能促使 Meta 在安全措施和用户保护方面做出更多调整，监管成本也在上升。",
+      "hn": {
+        "id": 49204352,
+        "type": "story",
+        "by": "boplicity",
+        "score": 777,
+        "descendants": 413,
+        "time": 1786061188,
+        "comments_url": "https://news.ycombinator.com/item?id=49204352"
+      },
+      "tags": [
+        "Legal",
+        "Health",
+        "Politics"
+      ],
+      "hot_score": 0.99
     },
     {
       "title_en": "Mario Meets Pareto",
@@ -349,7 +518,7 @@
         "id": 49195231,
         "type": "story",
         "by": "theanonymousone",
-        "score": 1147,
+        "score": 1162,
         "descendants": 165,
         "time": 1786015493,
         "comments_url": "https://news.ycombinator.com/item?id=49195231"
@@ -358,54 +527,29 @@
         "Science",
         "AI"
       ],
-      "hot_score": 1.18
+      "hot_score": 0.91
     },
     {
-      "title_en": "Responding to the next frontier of critical cyber capabilities",
-      "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/",
-      "title_zh": "应对关键网络能力的下一前沿",
-      "created_display": "Created: Aug 07, 2026 / 09:39 PT",
-      "image_url": "https://images.ctfassets.net/kftzwdyauwt9/2OqBX7eh31rmzCVTZrZgb6/8c852b5a1f787c1fea8ac9de5a33d2db/Frame.png?w=1600&h=900&fit=fill",
-      "summary_en": "OpenAI outlines how to respond to evolving cyber capabilities, emphasizing collaboration with policymakers and safety measures to mitigate risks.",
-      "summary_zh": "OpenAI 讨论如何应对日益发展的关键网络能力，强调与政策制定者协作与安全措施以降低风险。",
+      "title_en": "Ancient Library – 1,060 Greek/Latin texts, click any word to parse it",
+      "url": "https://ancientlibrary.net/",
+      "title_zh": "古代图书馆：1060篇希腊语/拉丁语文本，点击任意单词即可解析",
+      "created_display": "Created: Aug 07, 2026 / 11:51 PT",
+      "image_url": "https://ancientlibrary.net/wp-content/uploads/ancientlibrary/og-default.png",
+      "summary_en": "Ancient Library offers 1,060 Greek and Latin texts with an interactive word-level parser: click any word to see its form, lemma, and grammar. This makes classical language study easier for learners and researchers, accelerating analysis and cross-text comparisons.",
+      "summary_zh": "古代图书馆提供1060篇希腊语和拉丁语文本，支持逐词解析：点击任意单词即可查看形式、词源和语法信息。该工具降低学习门槛，提升古典语言研究与教学的效率。",
       "hn": {
-        "id": 49213029,
+        "id": 49214770,
         "type": "story",
-        "by": "artninja1988",
-        "score": 177,
-        "descendants": 173,
-        "time": 1786120776,
-        "comments_url": "https://news.ycombinator.com/item?id=49213029"
+        "by": "aagha",
+        "score": 227,
+        "descendants": 72,
+        "time": 1786128674,
+        "comments_url": "https://news.ycombinator.com/item?id=49214770"
       },
       "tags": [
-        "Security",
-        "Politics",
-        "AI"
+        "Education"
       ],
-      "hot_score": 1.15
-    },
-    {
-      "title_en": "Making Postgres 300x faster for analytics: batching, operator fusion, and SIMD",
-      "url": "https://malisper.me/how-we-made-postgres-hundreds-of-times-faster-the-query-engine/",
-      "title_zh": "通过批处理、算子融合和 SIMD 将 Postgres 的分析性能提升约300倍",
-      "created_display": "Created: Aug 07, 2026 / 04:00 PT",
-      "image_url": "https://malisper.me/wp-content/uploads/2026/08/image.png",
-      "summary_en": "Describe how a data-intensive PostgreSQL optimization leverages batching, operator fusion, and SIMD to accelerate analytic queries by hundreds of times, including practical implications for OLAP workloads. It shows the potential of rethinking query execution with retrofits rather than full engine rewrite.",
-      "summary_zh": "通过对批处理、算子融合与 SIMD 的应用，将 PostgreSQL 的分析查询性能提高到原来的数百倍。这些技术实现对 OLAP 场景具有显著意义，也展示了在不重写引擎的情况下提升性能的可行路径。",
-      "hn": {
-        "id": 49208535,
-        "type": "story",
-        "by": "poly2it",
-        "score": 270,
-        "descendants": 136,
-        "time": 1786100435,
-        "comments_url": "https://news.ycombinator.com/item?id=49208535"
-      },
-      "tags": [
-        "Programming",
-        "Data"
-      ],
-      "hot_score": 1.03
+      "hot_score": 0.89
     },
     {
       "title_en": "2027 memory capacity is reportedly sold out",
@@ -419,8 +563,8 @@
         "id": 49207236,
         "type": "story",
         "by": "inigyou",
-        "score": 320,
-        "descendants": 291,
+        "score": 424,
+        "descendants": 406,
         "time": 1786089504,
         "comments_url": "https://news.ycombinator.com/item?id=49207236"
       },
@@ -428,31 +572,76 @@
         "Hardware",
         "AI"
       ],
-      "hot_score": 0.97
+      "hot_score": 0.8
     },
     {
-      "title_en": "An all-sky map of half a million supermassive black holes",
-      "url": "https://www.sdss.org/black-hole-mapper-release-20/",
-      "title_zh": "覆盖全天空的50万颗超大质量黑洞分布图",
-      "created_display": "Created: Aug 07, 2026 / 08:24 PT",
-      "image_url": "https://www.sdss.org/wp-content/uploads/2022/09/sdss-new-logo-72dpi.png",
-      "summary_en": "The SDSS Black Hole Mapper Release 2.0 presents an all-sky catalog of about 500,000 supermassive black holes, enabling statistical studies of AGN populations and galaxy evolution. The dataset helps cross-match SMBH demographics with host galaxies and cosmic structure.",
-      "summary_zh": "SDSS 的黑洞映射器在 Release 2.0 中公布覆盖全天空的约50万颗超大质量黑洞目录，便于对活跃星系核和星系演化进行大规模统计研究。该数据集方便将黑洞人口与宿主星系及宇宙结构进行对比分析。",
+      "title_en": "Gateway 2000's hilariously bad ads in the 90s (Part II)",
+      "url": "https://buttondown.com/suchbadtechads/archive/gateway-2000-part-2/",
+      "title_zh": "Gateway 2000 90年代广告（第II部分）",
+      "created_display": "Created: Aug 08, 2026 / 05:31 PT",
+      "image_url": "https://assets.buttondown.email/images/4b50f07a-a564-4d8c-bb2e-09e73d3624ec.png?w=960&fit=max",
+      "summary_en": "A retrospective round-up of Gateway 2000's 90s ads, highlighting their bold claims and humorous tone that stand out in tech marketing history. The collection offers a glimpse into how PC brands tried to grab attention in a crowded market.",
+      "summary_zh": "回顾 Gateway 2000 在 90 年代的广告，突出其大胆的夸张宣传和幽默风格，这在科技营销史上颇具特色。合集呈现了当时电脑品牌如何在竞争激烈的市场中抢眼。",
       "hn": {
-        "id": 49211921,
+        "id": 49221220,
         "type": "story",
-        "by": "MarcoDewey",
-        "score": 159,
-        "descendants": 37,
-        "time": 1786116293,
-        "comments_url": "https://news.ycombinator.com/item?id=49211921"
+        "by": "rfarley04",
+        "score": 10,
+        "descendants": 0,
+        "time": 1786192271,
+        "comments_url": "https://news.ycombinator.com/item?id=49221220"
+      },
+      "hot_score": 0.74,
+      "tags": [
+        "Culture"
+      ]
+    },
+    {
+      "title_en": "Making Postgres 300x faster for analytics: batching, operator fusion, and SIMD",
+      "url": "https://malisper.me/how-we-made-postgres-hundreds-of-times-faster-the-query-engine/",
+      "title_zh": "通过批处理、算子融合和 SIMD 将 Postgres 的分析性能提升约300倍",
+      "created_display": "Created: Aug 07, 2026 / 04:00 PT",
+      "image_url": "https://malisper.me/wp-content/uploads/2026/08/image.png",
+      "summary_en": "Describe how a data-intensive PostgreSQL optimization leverages batching, operator fusion, and SIMD to accelerate analytic queries by hundreds of times, including practical implications for OLAP workloads. It shows the potential of rethinking query execution with retrofits rather than full engine rewrite.",
+      "summary_zh": "通过对批处理、算子融合与 SIMD 的应用，将 PostgreSQL 的分析查询性能提高到原来的数百倍。这些技术实现对 OLAP 场景具有显著意义，也展示了在不重写引擎的情况下提升性能的可行路径。",
+      "hn": {
+        "id": 49208535,
+        "type": "story",
+        "by": "poly2it",
+        "score": 305,
+        "descendants": 156,
+        "time": 1786100435,
+        "comments_url": "https://news.ycombinator.com/item?id=49208535"
       },
       "tags": [
-        "Space",
-        "Science",
-        "Data"
+        "Data",
+        "Programming"
       ],
-      "hot_score": 0.9
+      "hot_score": 0.69
+    },
+    {
+      "title_en": "Voyager 1 FDS Computer Emulator",
+      "url": "https://zaneham.github.io/voyager-fds-emulator/",
+      "title_zh": "Voyager 1 的 FDS 计算机仿真器",
+      "created_display": "Created: Aug 08, 2026 / 06:28 PT",
+      "image_url": null,
+      "summary_en": "A software emulator recreates Voyager 1's Flight Data System, letting researchers run and test the original software stack on modern hardware. This preserves a critical slice of deep-space missions and aids education and experimentation.",
+      "summary_zh": "一个软件仿真器重现 Voyager 1 的飞行数据系统，允许在现代硬件上运行并测试原始软件栈。这为深空任务遗产保护以及教育和实验提供了平台。",
+      "hn": {
+        "id": 49221679,
+        "type": "story",
+        "by": "rahen",
+        "score": 6,
+        "descendants": 0,
+        "time": 1786195718,
+        "comments_url": "https://news.ycombinator.com/item?id=49221679"
+      },
+      "hot_score": 0.67,
+      "tags": [
+        "Space",
+        "Education",
+        "Hardware"
+      ]
     },
     {
       "title_en": "Taste Is All That's Left",
@@ -474,7 +663,55 @@
       "tags": [
         "Design"
       ],
-      "hot_score": 0.86
+      "hot_score": 0.63
+    },
+    {
+      "title_en": "Responding to the next frontier of critical cyber capabilities",
+      "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/",
+      "title_zh": "应对关键网络能力的下一前沿",
+      "created_display": "Created: Aug 07, 2026 / 09:39 PT",
+      "image_url": "https://images.ctfassets.net/kftzwdyauwt9/2OqBX7eh31rmzCVTZrZgb6/8c852b5a1f787c1fea8ac9de5a33d2db/Frame.png?w=1600&h=900&fit=fill",
+      "summary_en": "OpenAI outlines how to respond to evolving cyber capabilities, emphasizing collaboration with policymakers and safety measures to mitigate risks.",
+      "summary_zh": "OpenAI 讨论如何应对日益发展的关键网络能力，强调与政策制定者协作与安全措施以降低风险。",
+      "hn": {
+        "id": 49213029,
+        "type": "story",
+        "by": "artninja1988",
+        "score": 191,
+        "descendants": 185,
+        "time": 1786120776,
+        "comments_url": "https://news.ycombinator.com/item?id=49213029"
+      },
+      "tags": [
+        "Security",
+        "Politics",
+        "AI"
+      ],
+      "hot_score": 0.63
+    },
+    {
+      "title_en": "An all-sky map of half a million supermassive black holes",
+      "url": "https://www.sdss.org/black-hole-mapper-release-20/",
+      "title_zh": "覆盖全天空的50万颗超大质量黑洞分布图",
+      "created_display": "Created: Aug 07, 2026 / 08:24 PT",
+      "image_url": "https://www.sdss.org/wp-content/uploads/2022/09/sdss-new-logo-72dpi.png",
+      "summary_en": "The SDSS Black Hole Mapper Release 2.0 presents an all-sky catalog of about 500,000 supermassive black holes, enabling statistical studies of AGN populations and galaxy evolution. The dataset helps cross-match SMBH demographics with host galaxies and cosmic structure.",
+      "summary_zh": "SDSS 的黑洞映射器在 Release 2.0 中公布覆盖全天空的约50万颗超大质量黑洞目录，便于对活跃星系核和星系演化进行大规模统计研究。该数据集方便将黑洞人口与宿主星系及宇宙结构进行对比分析。",
+      "hn": {
+        "id": 49211921,
+        "type": "story",
+        "by": "MarcoDewey",
+        "score": 180,
+        "descendants": 40,
+        "time": 1786116293,
+        "comments_url": "https://news.ycombinator.com/item?id=49211921"
+      },
+      "tags": [
+        "Space",
+        "Science",
+        "Data"
+      ],
+      "hot_score": 0.54
     },
     {
       "title_en": "Show HN: Wyzer Programming Language",
@@ -488,8 +725,8 @@
         "id": 49209385,
         "type": "story",
         "by": "v0id_isgood",
-        "score": 190,
-        "descendants": 106,
+        "score": 206,
+        "descendants": 109,
         "time": 1786105735,
         "comments_url": "https://news.ycombinator.com/item?id=49209385"
       },
@@ -498,7 +735,7 @@
         "Programming",
         "Open Source"
       ],
-      "hot_score": 0.82
+      "hot_score": 0.51
     },
     {
       "title_en": "Kitesurf: Agent-first browser that runs in V8 isolates",
@@ -512,42 +749,39 @@
         "id": 49208393,
         "type": "story",
         "by": "m3h",
-        "score": 185,
-        "descendants": 48,
+        "score": 202,
+        "descendants": 57,
         "time": 1786099327,
         "comments_url": "https://news.ycombinator.com/item?id=49208393"
       },
       "tags": [
-        "Web",
-        "Security"
+        "Security",
+        "Web"
       ],
-      "hot_score": 0.69
+      "hot_score": 0.45
     },
     {
-      "title_en": "Show HN: textlog – A quiet, text-only microblogging platform, open-source, no JS",
-      "url": "https://textlog.cc/about",
-      "title_zh": "Show HN：textlog——一个文本为主、无前端依赖的开源微博客",
-      "created_display": "Created: Aug 07, 2026 / 03:52 PT",
-      "image_url": "https://textlog.cc/og.png?v=2",
-      "summary_en": "Textlog offers a quiet, text-only microblogging experience with no JavaScript, emphasizing simplicity and privacy. The project shows how a minimal, open-source platform can support social interaction without web app complexity.",
-      "summary_zh": "textlog 提供极简的文字微博客体验，无需 JavaScript，强调隐私与带宽效率。该开源项目展示了在保持轻量的前提下实现社交功能的可能性。",
+      "title_en": "Auto Mode will be the default in Claude Code – because humans can't be trusted",
+      "url": "https://thenewstack.io/claude-code-auto-mode/",
+      "title_zh": "Claude Code 将默认启用 Auto Mode——因为人类不可信",
+      "created_display": "Created: Aug 08, 2026 / 04:35 PT",
+      "image_url": "https://cdn.thenewstack.io/media/2026/08/54ffa374-hpi2quja8aaun3e.jpeg",
+      "summary_en": "Claude Code will default to Auto Mode to reduce human error, a shift that raises questions about control and safety in AI-assisted coding. The change reflects ongoing debates over automation versus human oversight in software development.",
+      "summary_zh": "Claude Code 将默认开启 Auto Mode，以减少人为错误，这一变化引发关于 AI 辅助编码中的控制权与安全性的讨论。此举体现了在软件开发中自动化与人工监督之间的持续辩论。",
       "hn": {
-        "id": 49208458,
+        "id": 49220827,
         "type": "story",
-        "by": "stagas",
-        "score": 159,
-        "descendants": 65,
-        "time": 1786099941,
-        "comments_url": "https://news.ycombinator.com/item?id=49208458"
+        "by": "maxloh",
+        "score": 9,
+        "descendants": 0,
+        "time": 1786188906,
+        "comments_url": "https://news.ycombinator.com/item?id=49220827"
       },
+      "hot_score": 0.45,
       "tags": [
-        "Show HN",
-        "Open Source",
-        "Web",
-        "Programming",
-        "Privacy"
-      ],
-      "hot_score": 0.6
+        "AI",
+        "Programming"
+      ]
     },
     {
       "title_en": "Radical Study Suggests Life on Earth Arose Twice",
@@ -561,15 +795,63 @@
         "id": 49209572,
         "type": "story",
         "by": "jnord",
-        "score": 132,
-        "descendants": 94,
+        "score": 175,
+        "descendants": 110,
         "time": 1786106708,
         "comments_url": "https://news.ycombinator.com/item?id=49209572"
       },
       "tags": [
         "Science"
       ],
-      "hot_score": 0.58
+      "hot_score": 0.44
+    },
+    {
+      "title_en": "Mythos social engineering AISI INC-2026-07-28-01",
+      "url": "https://web.archive.org/web/20260731053721/http://github.com/ancaferro/myNetwork/pull/3",
+      "title_zh": "Mythos 社会工程学 AISI INC-2026-07-28-01",
+      "created_display": "Created: Aug 07, 2026 / 20:41 PT",
+      "image_url": "https://web.archive.org/web/20260731053721im_/https://opengraph.githubassets.com/c4cfaaf58841bcfc90a77f07078889128ca99f4f54e0597c9207f09fe0e27534/ancaferro/myNetwork/pull/3",
+      "summary_en": "Details a Mythos social engineering incident labeled AISI INC-2026-07-28-01. The note examines how attackers exploit human psychology and social trust. It emphasizes practical defenses like verification steps, training, and incident response.",
+      "summary_zh": "文档揭示一起标注为 Mythos 的社会工程案例，涉及特定事件标识。强调攻击者如何利用人性弱点进行欺骗，以及加强培训、验证和事件响应的重要性。",
+      "hn": {
+        "id": 49218707,
+        "type": "story",
+        "by": "dnnehgf",
+        "score": 45,
+        "descendants": 17,
+        "time": 1786160516,
+        "comments_url": "https://news.ycombinator.com/item?id=49218707"
+      },
+      "hot_score": 0.44,
+      "tags": [
+        "Security"
+      ]
+    },
+    {
+      "title_en": "Show HN: textlog – A quiet, text-only microblogging platform, open-source, no JS",
+      "url": "https://textlog.cc/about",
+      "title_zh": "Show HN：textlog——一个文本为主、无前端依赖的开源微博客",
+      "created_display": "Created: Aug 07, 2026 / 03:52 PT",
+      "image_url": "https://textlog.cc/og.png?v=2",
+      "summary_en": "Textlog offers a quiet, text-only microblogging experience with no JavaScript, emphasizing simplicity and privacy. The project shows how a minimal, open-source platform can support social interaction without web app complexity.",
+      "summary_zh": "textlog 提供极简的文字微博客体验，无需 JavaScript，强调隐私与带宽效率。该开源项目展示了在保持轻量的前提下实现社交功能的可能性。",
+      "hn": {
+        "id": 49208458,
+        "type": "story",
+        "by": "stagas",
+        "score": 176,
+        "descendants": 72,
+        "time": 1786099941,
+        "comments_url": "https://news.ycombinator.com/item?id=49208458"
+      },
+      "tags": [
+        "Show HN",
+        "Open Source",
+        "Privacy",
+        "Programming",
+        "Web"
+      ],
+      "hot_score": 0.39
     },
     {
       "title_en": "Psychological Warfare in Reverse Engineering (2015)",
@@ -583,60 +865,15 @@
         "id": 49214775,
         "type": "story",
         "by": "theanonymousone",
-        "score": 62,
-        "descendants": 3,
+        "score": 77,
+        "descendants": 4,
         "time": 1786128705,
         "comments_url": "https://news.ycombinator.com/item?id=49214775"
       },
       "tags": [
         "Security"
       ],
-      "hot_score": 0.52
-    },
-    {
-      "title_en": "Facing 474 GW of interconnection requests, Texas hits pause on data centers",
-      "url": "https://www.utilitydive.com/news/texas-hits-pause-data-center-interconnections/827046/",
-      "title_zh": "德州暂停数据中心并网接入，因面临 474吉瓦的并网请求",
-      "created_display": "Created: Aug 07, 2026 / 21:07 PT",
-      "image_url": "https://imgproxy.divecdn.com/ru-tKRaiZKYcqVP3c8o06RsKQAHVi1E7Xh7cfNnG6wI/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HcmVnQWJib3R0LmpwZw==.webp",
-      "summary_en": "Texas paused accepting new data center interconnection requests after a flood of proposals could overwhelm the grid. The move underscores the tension between digital infrastructure growth and energy reliability, and hints at policy and infrastructure needs.",
-      "summary_zh": "德州在面临大量数据中心并网请求，担心冲击电网承载能力，因此暂停新接入申请。此举凸显数字基础设施扩张与能源可靠性之间的矛盾，并指向对相关政策和基础设施升级的需求。",
-      "hn": {
-        "id": 49218817,
-        "type": "story",
-        "by": "geox",
-        "score": 9,
-        "descendants": 2,
-        "time": 1786162038,
-        "comments_url": "https://news.ycombinator.com/item?id=49218817"
-      },
-      "hot_score": 0.45,
-      "tags": [
-        "Energy",
-        "DevOps"
-      ]
-    },
-    {
-      "title_en": "Möbius-Strip Crosswords",
-      "url": "https://quuxplusone.github.io/blog/2026/08/04/mobius-crossword/",
-      "title_zh": "莫比乌斯带填字游戏",
-      "created_display": "Created: Aug 07, 2026 / 08:10 PT",
-      "image_url": "https://raw.githubusercontent.com/Quuxplusone/blog/master/images/pumpkin-toss.jpg",
-      "summary_en": "Explores crosswords designed on a Möbius strip or inspired by its twists, offering a playful take on puzzle construction and symmetry.",
-      "summary_zh": "介绍以莫比乌斯带为灵感的填字游戏，展示其在构造与对称性上的趣味创新，并提供解谜的全新视角。",
-      "hn": {
-        "id": 49211660,
-        "type": "story",
-        "by": "ibobev",
-        "score": 66,
-        "descendants": 10,
-        "time": 1786115434,
-        "comments_url": "https://news.ycombinator.com/item?id=49211660"
-      },
-      "tags": [
-        "Design"
-      ],
-      "hot_score": 0.36
+      "hot_score": 0.3
     },
     {
       "title_en": "Welcoming the Nepalese Government to Have I Been Pwned",
@@ -658,10 +895,31 @@
       "tags": [
         "Security",
         "Privacy",
-        "Data",
         "Politics"
       ],
-      "hot_score": 0.34
+      "hot_score": 0.24
+    },
+    {
+      "title_en": "Möbius-Strip Crosswords",
+      "url": "https://quuxplusone.github.io/blog/2026/08/04/mobius-crossword/",
+      "title_zh": "莫比乌斯带填字游戏",
+      "created_display": "Created: Aug 07, 2026 / 08:10 PT",
+      "image_url": "https://raw.githubusercontent.com/Quuxplusone/blog/master/images/pumpkin-toss.jpg",
+      "summary_en": "Explores crosswords designed on a Möbius strip or inspired by its twists, offering a playful take on puzzle construction and symmetry.",
+      "summary_zh": "介绍以莫比乌斯带为灵感的填字游戏，展示其在构造与对称性上的趣味创新，并提供解谜的全新视角。",
+      "hn": {
+        "id": 49211660,
+        "type": "story",
+        "by": "ibobev",
+        "score": 75,
+        "descendants": 10,
+        "time": 1786115434,
+        "comments_url": "https://news.ycombinator.com/item?id=49211660"
+      },
+      "tags": [
+        "Entertainment"
+      ],
+      "hot_score": 0.22
     },
     {
       "title_en": "Launch HN: ProvenMetal (YC S26) delivers circuit boards in days instead of weeks",
@@ -684,7 +942,29 @@
         "Hardware",
         "Startups"
       ],
-      "hot_score": 0.28
+      "hot_score": 0.21
+    },
+    {
+      "title_en": "A Physicist Rigged His Pet Hamster’s Wheel to Upload to Strava",
+      "url": "https://www.runnersworld.com/news/a73355106/hamster-wheel-strava-running/",
+      "title_zh": "物理学家把仓鼠轮改装并上传到 Strava",
+      "created_display": "Created: Aug 05, 2026 / 14:44 PT",
+      "image_url": "https://hips.hearstapps.com/hmg-prod/images/88dcdb12-99d6-4f27-b6f5-c55b47133641.jpg?crop=1xw:1.0xh;center,top&resize=1200:*",
+      "summary_en": "A physicist rigged a hamster wheel to upload running data to Strava, creating a quirky example of data capture and the ease of turning real-world activity into digital metrics. It highlights how everyday objects can become data sources and prompts reflection on data provenance.",
+      "summary_zh": "一位物理学家把仓鼠轮改装，实现跑步数据上传到 Strava，成为一个有趣的关于数据采集的示例，凸显日常物品也能成为数据源并促使人们思考数据溯源。",
+      "hn": {
+        "id": 49189457,
+        "type": "story",
+        "by": "aanet",
+        "score": 326,
+        "descendants": 73,
+        "time": 1785966282,
+        "comments_url": "https://news.ycombinator.com/item?id=49189457"
+      },
+      "hot_score": 0.17,
+      "tags": [
+        "Data"
+      ]
     },
     {
       "title_en": "What is a product?",
@@ -706,7 +986,31 @@
       "tags": [
         "Business"
       ],
-      "hot_score": 0.16
+      "hot_score": 0.11
+    },
+    {
+      "title_en": "Facing 474 GW of interconnection requests, Texas hits pause on data centers",
+      "url": "https://www.utilitydive.com/news/texas-hits-pause-data-center-interconnections/827046/",
+      "title_zh": "德州暂停数据中心并网接入，因面临 474吉瓦的并网请求",
+      "created_display": "Created: Aug 07, 2026 / 21:07 PT",
+      "image_url": "https://imgproxy.divecdn.com/ru-tKRaiZKYcqVP3c8o06RsKQAHVi1E7Xh7cfNnG6wI/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HcmVnQWJib3R0LmpwZw==.webp",
+      "summary_en": "Texas paused accepting new data center interconnection requests after a flood of proposals could overwhelm the grid. The move underscores the tension between digital infrastructure growth and energy reliability, and hints at policy and infrastructure needs.",
+      "summary_zh": "德州在面临大量数据中心并网请求，担心冲击电网承载能力，因此暂停新接入申请。此举凸显数字基础设施扩张与能源可靠性之间的矛盾，并指向对相关政策和基础设施升级的需求。",
+      "hn": {
+        "id": 49218817,
+        "type": "story",
+        "by": "geox",
+        "score": 9,
+        "descendants": 2,
+        "time": 1786162038,
+        "comments_url": "https://news.ycombinator.com/item?id=49218817"
+      },
+      "hot_score": 0.09,
+      "tags": [
+        "Energy",
+        "Politics",
+        "DevOps"
+      ]
     },
     {
       "title_en": "Working on Economics with Fable 5",
@@ -725,32 +1029,10 @@
         "time": 1786141797,
         "comments_url": "https://news.ycombinator.com/item?id=49217001"
       },
-      "hot_score": 0.14,
+      "hot_score": 0.05,
       "tags": [
-        "Gaming"
-      ]
-    },
-    {
-      "title_en": "Physicist Rigged His Pet Hamster's Wheel to Strava. It Runs Far Every Night",
-      "url": "https://www.runnersworld.com/news/a73355106/hamster-wheel-strava-running/",
-      "title_zh": "物理学家把仓鼠跑轮接入 Strava，让它每晚跑出很远的距离",
-      "created_display": "Created: Aug 05, 2026 / 14:44 PT",
-      "image_url": "https://hips.hearstapps.com/hmg-prod/images/88dcdb12-99d6-4f27-b6f5-c55b47133641.jpg?crop=1xw:1.0xh;center,top&resize=1200:*",
-      "summary_en": "Physicist rigged his pet hamster's wheel to Strava, logging long nightly runs. The stunt demonstrates how consumer fitness platforms can be repurposed by quirky hardware, raising questions about data provenance and what counts as 'activity'.",
-      "summary_zh": "一位物理学家把仓鼠跑轮接入 Strava，记录它每晚的长距离跑步。这个玩笑暴露了消费级健身平台可能被非传统传感器利用，同时引发对数据来源可信度和“活动”边界的讨论。",
-      "hn": {
-        "id": 49189457,
-        "type": "story",
-        "by": "aanet",
-        "score": 102,
-        "descendants": 17,
-        "time": 1785966282,
-        "comments_url": "https://news.ycombinator.com/item?id=49189457"
-      },
-      "hot_score": 0.06,
-      "tags": [
-        "Data",
-        "Hardware"
+        "Gaming",
+        "Business"
       ]
     },
     {
@@ -773,7 +1055,29 @@
       "tags": [
         "Culture"
       ],
-      "hot_score": 0.04
+      "hot_score": 0.03
+    },
+    {
+      "title_en": "Workers Drilling in Romania Broke into a Cave Sealed for 5.5M Years",
+      "url": "https://travelandtannins.com/workers-drilling-in-romania-broke-into-a-cave-sealed-for-5-5-million-years-and-found-an-entire-living-world-that-has-never-seen-the-sun/",
+      "title_zh": "罗马尼亚工人钻探闯入被封存 550 万年的洞穴",
+      "created_display": "Created: Aug 04, 2026 / 09:32 PT",
+      "image_url": "https://travelandtannins.com/wp-content/uploads/2026/08/image-67.png",
+      "summary_en": "Romanian drilling crews accidentally breached a cave sealed for 5.5 million years, revealing a near-pristine underground ecosystem. The discovery underscores how construction can uncover ancient biology and raises questions about preservation during development.",
+      "summary_zh": "罗马尼亚工人钻探意外闯入被封存 550 万年的洞穴，发现几乎未被打扰的地下生态系统，引发关于开发过程中如何保护此类发现的讨论。",
+      "hn": {
+        "id": 49171223,
+        "type": "story",
+        "by": "yk",
+        "score": 115,
+        "descendants": 57,
+        "time": 1785861128,
+        "comments_url": "https://news.ycombinator.com/item?id=49171223"
+      },
+      "tags": [
+        "Science"
+      ],
+      "hot_score": 0.03
     },
     {
       "title_en": "Carl's Required Reading",
@@ -787,14 +1091,14 @@
         "id": 49135457,
         "type": "story",
         "by": "cckolon",
-        "score": 145,
-        "descendants": 20,
+        "score": 203,
+        "descendants": 26,
         "time": 1785599475,
         "comments_url": "https://news.ycombinator.com/item?id=49135457"
       },
       "tags": [
-        "Programming",
-        "Education"
+        "Education",
+        "Programming"
       ],
       "hot_score": 0.02
     },
@@ -817,7 +1121,6 @@
       },
       "hot_score": 0.02,
       "tags": [
-        "Programming",
         "Design",
         "Security"
       ]
@@ -857,13 +1160,35 @@
         "id": 49135261,
         "type": "story",
         "by": "zdw",
-        "score": 81,
-        "descendants": 14,
+        "score": 134,
+        "descendants": 28,
         "time": 1785597989,
         "comments_url": "https://news.ycombinator.com/item?id=49135261"
       },
       "tags": [
-        "DevOps"
+        "Open Source"
+      ],
+      "hot_score": 0.01
+    },
+    {
+      "title_en": "Guarded Methods in OCaml (2025)",
+      "url": "https://xvw.lol/en/articles/oop-refl.html",
+      "title_zh": "OCaml 的受保护方法",
+      "created_display": "Created: Aug 03, 2026 / 09:15 PT",
+      "image_url": null,
+      "summary_en": "This piece examines how to implement guarded methods within OCaml’s object system, balancing safety with OCaml’s functional roots. It presents patterns for maintaining invariants and preventing runtime errors in OO code.",
+      "summary_zh": "本文探讨在 OCaml 的对象系统中实现受保护的方法，兼顾安全性与函数式特性。提出通过设计模式维护不变性、避免运行时错误的做法。",
+      "hn": {
+        "id": 49157770,
+        "type": "story",
+        "by": "birdculture",
+        "score": 75,
+        "descendants": 7,
+        "time": 1785773744,
+        "comments_url": "https://news.ycombinator.com/item?id=49157770"
+      },
+      "tags": [
+        "Programming"
       ],
       "hot_score": 0.01
     },
@@ -907,29 +1232,7 @@
         "comments_url": "https://news.ycombinator.com/item?id=49158934"
       },
       "tags": [
-        "Programming"
-      ],
-      "hot_score": 0.01
-    },
-    {
-      "title_en": "Guarded Methods in OCaml (2025)",
-      "url": "https://xvw.lol/en/articles/oop-refl.html",
-      "title_zh": "OCaml 的受保护方法",
-      "created_display": "Created: Aug 03, 2026 / 09:15 PT",
-      "image_url": null,
-      "summary_en": "This piece examines how to implement guarded methods within OCaml’s object system, balancing safety with OCaml’s functional roots. It presents patterns for maintaining invariants and preventing runtime errors in OO code.",
-      "summary_zh": "本文探讨在 OCaml 的对象系统中实现受保护的方法，兼顾安全性与函数式特性。提出通过设计模式维护不变性、避免运行时错误的做法。",
-      "hn": {
-        "id": 49157770,
-        "type": "story",
-        "by": "birdculture",
-        "score": 62,
-        "descendants": 5,
-        "time": 1785773744,
-        "comments_url": "https://news.ycombinator.com/item?id=49157770"
-      },
-      "tags": [
-        "Programming"
+        "Science"
       ],
       "hot_score": 0.01
     },
@@ -945,35 +1248,13 @@
         "id": 49158302,
         "type": "story",
         "by": "bookofjoe",
-        "score": 58,
-        "descendants": 34,
+        "score": 61,
+        "descendants": 40,
         "time": 1785775956,
         "comments_url": "https://news.ycombinator.com/item?id=49158302"
       },
       "tags": [
         "Culture"
-      ],
-      "hot_score": 0.01
-    },
-    {
-      "title_en": "Workers Drilling in Romania Broke into a Cave Sealed for 5.5M Years",
-      "url": "https://travelandtannins.com/workers-drilling-in-romania-broke-into-a-cave-sealed-for-5-5-million-years-and-found-an-entire-living-world-that-has-never-seen-the-sun/",
-      "title_zh": "罗马尼亚工人钻探闯入被封存 550 万年的洞穴",
-      "created_display": "Created: Aug 04, 2026 / 09:32 PT",
-      "image_url": "https://travelandtannins.com/wp-content/uploads/2026/08/image-67.png",
-      "summary_en": "Romanian drilling crews accidentally breached a cave sealed for 5.5 million years, revealing a near-pristine underground ecosystem. The discovery underscores how construction can uncover ancient biology and raises questions about preservation during development.",
-      "summary_zh": "罗马尼亚工人钻探意外闯入被封存 550 万年的洞穴，发现几乎未被打扰的地下生态系统，引发关于开发过程中如何保护此类发现的讨论。",
-      "hn": {
-        "id": 49171223,
-        "type": "story",
-        "by": "yk",
-        "score": 44,
-        "descendants": 18,
-        "time": 1785861128,
-        "comments_url": "https://news.ycombinator.com/item?id=49171223"
-      },
-      "tags": [
-        "Science"
       ],
       "hot_score": 0.01
     },
@@ -1000,6 +1281,52 @@
       "hot_score": 0.01
     },
     {
+      "title_en": "From One Seed to a Thousand Leaves – Merkle's Authentication Tree",
+      "url": "https://0xkrt26.github.io/math_behind_security/2026/08/03/merkle-tree.html",
+      "title_zh": "从一个种子到千叶：梅克尔树的身份认证",
+      "created_display": "Created: Aug 04, 2026 / 07:21 PT",
+      "image_url": null,
+      "summary_en": "Merkle trees enable compact proofs that a data element is part of a larger dataset, scaling verification from a single root to thousands of leaves. The piece uses the seed-to-leaf metaphor to illustrate this concept, which underpins blockchain integrity and distributed systems.",
+      "summary_zh": "梅克尔树通过短小的证明来验证某个叶子在大数据结构中的成员资格，便于数据增长时的可扩展性。文章以“一个种子到千叶”的比喻说明单一根节点如何保障成千上万元素的完整性，这一原理是区块链和分布式系统的核心。",
+      "hn": {
+        "id": 49169417,
+        "type": "story",
+        "by": "denismenace",
+        "score": 31,
+        "descendants": 2,
+        "time": 1785853310,
+        "comments_url": "https://news.ycombinator.com/item?id=49169417"
+      },
+      "tags": [
+        "Security",
+        "Finance",
+        "Data"
+      ],
+      "hot_score": 0.01
+    },
+    {
+      "title_en": "No One Can Afford to Make Myst Games Anymore",
+      "url": "https://www.wired.com/story/no-one-can-afford-to-make-myst-games-anymore/",
+      "title_zh": "没有人愿意再花钱做 Myst 式的游戏",
+      "created_display": "Created: Aug 05, 2026 / 15:09 PT",
+      "image_url": "https://media.wired.com/photos/6a710474676aed0a72807008/191:100/w_1280,c_limit/Culture_Anglerfish's%20Failure%20and%20the%20Collapse%20of%20Gaming%E2%80%99s%20Middle%20Market_v3.jpg",
+      "summary_en": "The piece argues that modern production budgets make Myst-style puzzle adventures economically unviable, even for beloved franchises. It explores pressure on designers to deliver high production values and the potential shift toward indie reboots or smaller scope projects.",
+      "summary_zh": "文章认为如今制作 Myst 风格的解谜游戏成本高昂，盈利空间受限，即便是受欢迎的系列也难以负担高额制作预算。探讨设计师在追求高制作水准压力下，向独立重启或缩小规模的转变。",
+      "hn": {
+        "id": 49189726,
+        "type": "story",
+        "by": "littlexsparkee",
+        "score": 26,
+        "descendants": 19,
+        "time": 1785967786,
+        "comments_url": "https://news.ycombinator.com/item?id=49189726"
+      },
+      "hot_score": 0.01,
+      "tags": [
+        "Business"
+      ]
+    },
+    {
       "title_en": "TypeStax: A type scale generator with vintage audio hardware interface",
       "url": "https://www.typestax.com/",
       "title_zh": "TypeStax：带复古音频硬件界面的字体尺度生成器",
@@ -1021,6 +1348,30 @@
         "Hardware"
       ],
       "hot_score": 0.0
+    },
+    {
+      "title_en": "ao486: x86-compatible Verilog core implementing all features of a 486 SX (2014)",
+      "url": "https://github.com/alfikpl/ao486",
+      "title_zh": "ao486：实现 486 SX 全特性的 x86 兼容 Verilog 核",
+      "created_display": "Created: Aug 01, 2026 / 21:53 PT",
+      "image_url": "https://opengraph.githubassets.com/37f561ec0476248f02b1ecf9638e555ca9bc54fc0790240809ba78a87f34dade/alfikpl/ao486",
+      "summary_en": "ao486 is an open-source Verilog core that implements the full 486 SX ISA, offering a hardware recreation of late-80s/early-90s PC CPUs for education and emulation. It serves as a teaching tool and a platform for retro-computing experiments.",
+      "summary_zh": "ao486 是一个开源 Verilog 核，完整实现 486 SX 指令集，提供对晚80年代/早90年代 PC CPU 的硬件再现，适合作为教学工具与复古计算实验的平台。",
+      "hn": {
+        "id": 49141236,
+        "type": "story",
+        "by": "csmantle",
+        "score": 40,
+        "descendants": 6,
+        "time": 1785646404,
+        "comments_url": "https://news.ycombinator.com/item?id=49141236"
+      },
+      "hot_score": 0.0,
+      "tags": [
+        "Hardware",
+        "Open Source",
+        "Education"
+      ]
     },
     {
       "title_en": "Why are all the amounts values negative?",
@@ -1056,15 +1407,36 @@
         "id": 49147907,
         "type": "story",
         "by": "msephton",
-        "score": 29,
+        "score": 34,
         "descendants": 9,
         "time": 1785701956,
         "comments_url": "https://news.ycombinator.com/item?id=49147907"
       },
+      "tags": [
+        "Hardware"
+      ],
+      "hot_score": 0.0
+    },
+    {
+      "title_en": "k-Coloring is Faster than Computing the Chromatic Number",
+      "url": "https://arxiv.org/abs/2607.25973",
+      "title_zh": "k-着色比求解色数更快",
+      "created_display": "Created: Jul 30, 2026 / 23:00 PT",
+      "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "summary_en": "Researchers show that determining k-colorability of a graph can be faster than computing the exact chromatic number, revealing nuanced gaps between decision problems and optimization; implications for graph algorithms.",
+      "summary_zh": "研究表明，判定一个图是否可被 k 着色的时间可以比精确求解色数更短，这揭示了判定问题与优化问题之间的细微差异，对图算法有重要启示。",
+      "hn": {
+        "id": 49119508,
+        "type": "story",
+        "by": "matt_d",
+        "score": 27,
+        "descendants": 3,
+        "time": 1785477634,
+        "comments_url": "https://news.ycombinator.com/item?id=49119508"
+      },
       "hot_score": 0.0,
       "tags": [
-        "Gaming",
-        "Hardware"
+        "Science"
       ]
     },
     {
@@ -1085,7 +1457,6 @@
         "comments_url": "https://news.ycombinator.com/item?id=49146540"
       },
       "tags": [
-        "Programming",
         "Security"
       ],
       "hot_score": 0.0
@@ -1113,6 +1484,28 @@
       "hot_score": 0.0
     },
     {
+      "title_en": "Tell Abu Hureyra (prehistoric archaeological site)",
+      "url": "https://en.wikipedia.org/wiki/Tell_Abu_Hureyra",
+      "title_zh": "Tell Abu Hureyra：史前考古遗址",
+      "created_display": "Created: Aug 03, 2026 / 10:11 PT",
+      "image_url": "https://en.wikipedia.org/static/images/icons/enwiki-25.svg",
+      "summary_en": "Tell Abu Hureyra is an early Neolithic site in Syria showing one of the earliest transitions to farming, with telltale evidence of domestication and settled life. The site offers crucial insights into the origins of agriculture and sedentary communities.",
+      "summary_zh": "Tell Abu Hureyra 是叙利亚的早期新石器时代遗址，见证了最早向农业转变的证据，揭示定居生活与 domestication 的早期迹象，为理解农业起源提供重要线索。",
+      "hn": {
+        "id": 49158626,
+        "type": "story",
+        "by": "dieselgate",
+        "score": 20,
+        "descendants": 1,
+        "time": 1785777111,
+        "comments_url": "https://news.ycombinator.com/item?id=49158626"
+      },
+      "hot_score": 0.0,
+      "tags": [
+        "Science"
+      ]
+    },
+    {
       "title_en": "Curlese, Five Years Later",
       "url": "https://www.hypertesto.me/en/blog/2026/08/curlese-five-years-later",
       "title_zh": "Curlese，五年后",
@@ -1135,27 +1528,47 @@
       ]
     },
     {
-      "title_en": "From One Seed to a Thousand Leaves – Merkle's Authentication Tree",
-      "url": "https://0xkrt26.github.io/math_behind_security/2026/08/03/merkle-tree.html",
-      "title_zh": "从一个种子到千叶：梅克尔树的身份认证",
-      "created_display": "Created: Aug 04, 2026 / 07:21 PT",
-      "image_url": null,
-      "summary_en": "Merkle trees enable compact proofs that a data element is part of a larger dataset, scaling verification from a single root to thousands of leaves. The piece uses the seed-to-leaf metaphor to illustrate this concept, which underpins blockchain integrity and distributed systems.",
-      "summary_zh": "梅克尔树通过短小的证明来验证某个叶子在大数据结构中的成员资格，便于数据增长时的可扩展性。文章以“一个种子到千叶”的比喻说明单一根节点如何保障成千上万元素的完整性，这一原理是区块链和分布式系统的核心。",
+      "title_en": "Show HN: Sign language translation with smart glasses",
+      "url": "https://github.com/aadisang/hand-wave",
+      "title_zh": "Show HN：带智能眼镜的手语翻译",
+      "created_display": "Created: Aug 04, 2026 / 14:58 PT",
+      "image_url": "https://opengraph.githubassets.com/a749ae61c0960cd8a576e18d2f3e66d493b732ee8f7e6c1d72a9a3e86ccd6f4a/aadisang/hand-wave",
+      "summary_en": "A Show HN project uses smart glasses to translate sign language in real time, improving accessibility but facing challenges in accuracy and latency. It showcases progress toward hands-free, inclusive communication.",
+      "summary_zh": "Show HN 项目利用智能眼镜实现实时手语翻译，提升无障碍沟通的潜力，但在准确性与延迟方面仍有挑战。",
       "hn": {
-        "id": 49169417,
+        "id": 49175774,
         "type": "story",
-        "by": "denismenace",
-        "score": 5,
-        "descendants": 0,
-        "time": 1785853310,
-        "comments_url": "https://news.ycombinator.com/item?id=49169417"
+        "by": "aadisang",
+        "score": 15,
+        "descendants": 6,
+        "time": 1785880708,
+        "comments_url": "https://news.ycombinator.com/item?id=49175774"
       },
       "hot_score": 0.0,
       "tags": [
-        "Security",
-        "Data",
-        "Finance"
+        "Show HN"
+      ]
+    },
+    {
+      "title_en": "Show HN: Rotating torus in terminal (but with kitty graphics protocol)",
+      "url": "https://andreadimatteo.com/torus-v0-5.html",
+      "title_zh": "Show HN：在终端中用 kitty 图形协议渲染的旋转环",
+      "created_display": "Created: Aug 01, 2026 / 23:18 PT",
+      "image_url": "https://andreadimatteo.com/static/torus.gif",
+      "summary_en": "A Show HN project renders a rotating 3D torus in the terminal using Kitty's graphics protocol, showcasing impressive terminal graphics capabilities and the potential for lite demos.",
+      "summary_zh": "Show HN 项目在终端中使用 Kitty 图形协议渲染旋转的三维环，展示了终端图形的出色能力与轻量演示的潜力。",
+      "hn": {
+        "id": 49141642,
+        "type": "story",
+        "by": "deotman",
+        "score": 8,
+        "descendants": 2,
+        "time": 1785651522,
+        "comments_url": "https://news.ycombinator.com/item?id=49141642"
+      },
+      "hot_score": 0.0,
+      "tags": [
+        "Show HN"
       ]
     }
   ]
