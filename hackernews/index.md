@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>170</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>25012</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>167</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>168</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-08-08</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>170</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>25029</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>167</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>168</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-08-08</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='160' data-hn-time='1786183626'>
+<div class='hn-top-story-item' data-hn-score='109' data-hn-time='1786205091'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/08/top_stories_08082026#story-49220350'>New Amazon Data Center Is Set to Have the Most Polluting Power Plant in the U.S.</a>
- <a class='hn-top-story-link' href='https://www.nytimes.com/2026/08/08/climate/amazon-data-center-texas-pollution.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/08/top_stories_08082026#story-49223082'>Fastmail offers EU data region</a>
+ <a class='hn-top-story-link' href='https://www.fastmail.com/blog/fastmail-offers-eu-data-region/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>新建的亚马逊数据中心将由美国污染最严重的发电厂供电</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.6</span> <span class='hn-top-story-score'>&#9650; 160</span> <span class='hn-top-story-comments'>&#128172; 182</span> <span class='hn-top-story-tag'>Energy</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>DevOps</span></div>
+<div class='hn-top-story-zh'>Fastmail 推出欧盟数据区域</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.3</span> <span class='hn-top-story-score'>&#9650; 109</span> <span class='hn-top-story-comments'>&#128172; 50</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='102' data-hn-time='1786186664'>
+<div class='hn-top-story-item' data-hn-score='223' data-hn-time='1786195611'>
 <span class='hn-top-story-rank'>2</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/08/top_stories_08082026#story-49220609'>Now we have a timeline of the OpenAI accidental attack against Hugging Face</a>
- <a class='hn-top-story-link' href='https://simonwillison.net/2026/Aug/7/openai-timeline/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>OpenAI 对 Hugging Face 的意外攻击时间线公开</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.6</span> <span class='hn-top-story-score'>&#9650; 102</span> <span class='hn-top-story-comments'>&#128172; 125</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Programming</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='155' data-hn-time='1786180730'>
-<span class='hn-top-story-rank'>3</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/08/top_stories_08082026#story-49220126'>DeepMind's WeatherNext model achieves breakthrough forecasting cyclones</a>
- <a class='hn-top-story-link' href='https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>DeepMind 的 WeatherNext 在气旋预报上取得突破</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.4</span> <span class='hn-top-story-score'>&#9650; 155</span> <span class='hn-top-story-comments'>&#128172; 45</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Science</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='218' data-hn-time='1786172691'>
-<span class='hn-top-story-rank'>4</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/08/top_stories_08082026#story-49219508'>Hardware backdoors in some x86 CPUs</a>
- <a class='hn-top-story-link' href='https://github.com/xoreaxeaxeax/rosenbridge' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>某些 x86 CPU 可能存在硬件后门</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.8</span> <span class='hn-top-story-score'>&#9650; 218</span> <span class='hn-top-story-comments'>&#128172; 64</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Hardware</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='29' data-hn-time='1786195611'>
-<span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/08/08/top_stories_08082026#story-49221668'>A domain can now say it is for sale, in DNS</a>
  <a class='hn-top-story-link' href='https://specification.website/spec/foundations/for-sale-dns/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>域名现在可在 DNS 中标注待售</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.7</span> <span class='hn-top-story-score'>&#9650; 29</span> <span class='hn-top-story-comments'>&#128172; 11</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.5</span> <span class='hn-top-story-score'>&#9650; 223</span> <span class='hn-top-story-comments'>&#128172; 98</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='88' data-hn-time='1786183121'>
+<div class='hn-top-story-item' data-hn-score='49' data-hn-time='1786207747'>
+<span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/08/top_stories_08082026#story-49223475'>LinkedIn Feed Blocker</a>
+ <a class='hn-top-story-link' href='https://github.com/andrewpollack/linkedin-feed-blocker' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>LinkedIn 信息流屏蔽工具</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.5</span> <span class='hn-top-story-score'>&#9650; 49</span> <span class='hn-top-story-comments'>&#128172; 35</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Web</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='294' data-hn-time='1786180730'>
+<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/08/top_stories_08082026#story-49220126'>DeepMind's WeatherNext model achieves breakthrough forecasting cyclones</a>
+ <a class='hn-top-story-link' href='https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>DeepMind 的 WeatherNext 在气旋预报上取得突破</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.8</span> <span class='hn-top-story-score'>&#9650; 294</span> <span class='hn-top-story-comments'>&#128172; 94</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='108' data-hn-time='1786197342'>
+<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/08/top_stories_08082026#story-49221864'>Gentoo bugzilla closed due AI bot scraper overload</a>
+ <a class='hn-top-story-link' href='https://social.treehouse.systems/@mgorny/117058483039362779' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Gentoo 的 Bugzilla 因 AI 机器人爬虫过载而关闭</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 108</span> <span class='hn-top-story-comments'>&#128172; 72</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='206' data-hn-time='1786186664'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/08/top_stories_08082026#story-49220313'>Europe's free satellite service just made it easier to track wildfires</a>
- <a class='hn-top-story-link' href='https://arstechnica.com/gadgets/2026/08/europes-free-satellite-service-just-made-it-easier-to-track-wildfires/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/08/top_stories_08082026#story-49220609'>Timeline of the OpenAI accidental attack against Hugging Face</a>
+ <a class='hn-top-story-link' href='https://simonwillison.net/2026/Aug/7/openai-timeline/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>欧洲的免费卫星服务让野火跟踪更容易</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 88</span> <span class='hn-top-story-comments'>&#128172; 9</span> <span class='hn-top-story-tag'>Space</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>OpenAI 对 Hugging Face 的意外攻击时间线公开</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 206</span> <span class='hn-top-story-comments'>&#128172; 221</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='693' data-hn-time='1786125380'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='82' data-hn-time='1786199553'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/08/top_stories_08082026#story-49214008'>DeepSeek V4 Flash 0731</a>
- <a class='hn-top-story-link' href='https://arcprize.org/results/deepseek-v4-flash-0731' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/08/top_stories_08082026#story-49222189'>"Code was never the hard part" is an insult to all programmers</a>
+ <a class='hn-top-story-link' href='https://blog.senko.net/code-was-never-the-hard-part-is-an-insult-to-all-programmers' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>DeepSeek V4 Flash 0731 发布</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 693</span> <span class='hn-top-story-comments'>&#128172; 418</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>"Code was never the hard part" 对所有程序员都是侮辱</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 82</span> <span class='hn-top-story-comments'>&#128172; 57</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='341' data-hn-time='1786151565'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='16' data-hn-time='1786212571'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/08/top_stories_08082026#story-49217993'>The Nixpkgs core team has disbanded</a>
- <a class='hn-top-story-link' href='https://discourse.nixos.org/t/the-nixpkgs-core-team-has-disbanded/79413' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/08/top_stories_08082026#story-49224294'>Denmark Requires Oral Defenses for Students' Written Work to Counter AI Cheating</a>
+ <a class='hn-top-story-link' href='https://mezha.net/eng/bukvy/ca117584_denmark_requires_oral/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Nixpkgs 核心团队解散</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 341</span> <span class='hn-top-story-comments'>&#128172; 167</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-zh'>丹麦要求学生书面作业需进行口头答辩以遏制 AI 作弊</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 16</span> <span class='hn-top-story-comments'>&#128172; 2</span> <span class='hn-top-story-tag'>Education</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='301' data-hn-time='1786153751'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='281' data-hn-time='1786172691'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/08/top_stories_08082026#story-49218179'>NASA figured out how to keep its Voyager 2 probe running for another year</a>
- <a class='hn-top-story-link' href='https://www.space.com/space-exploration/voyager/nasa-figured-out-how-to-keep-its-48-year-old-voyager-2-probe-running-for-yet-another-year' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/08/top_stories_08082026#story-49219508'>Hardware backdoors in some x86 CPUs</a>
+ <a class='hn-top-story-link' href='https://github.com/xoreaxeaxeax/rosenbridge' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>NASA 找到让 Voyager 2 探测器再运行一年的方法</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 301</span> <span class='hn-top-story-comments'>&#128172; 61</span> <span class='hn-top-story-tag'>Space</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>某些 x86 CPU 可能存在硬件后门</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 281</span> <span class='hn-top-story-comments'>&#128172; 87</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='810' data-hn-time='1786106547'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='160' data-hn-time='1786183626'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/08/top_stories_08082026#story-49209539'>What happens if an entire class of workers loses faith in their careers</a>
- <a class='hn-top-story-link' href='https://www.noemamag.com/why-is-everyone-in-tech-so-sad/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/08/top_stories_08082026#story-49220350'>New Amazon Data Center Is Set to Have the Most Polluting Power Plant in the U.S.</a>
+ <a class='hn-top-story-link' href='https://www.nytimes.com/2026/08/08/climate/amazon-data-center-texas-pollution.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>当整类工人对职业失去信心时会怎样</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 810</span> <span class='hn-top-story-comments'>&#128172; 900</span> <span class='hn-top-story-tag'>Career</span></div>
+<div class='hn-top-story-zh'>新建的亚马逊数据中心将由美国污染最严重的发电厂供电</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.3</span> <span class='hn-top-story-score'>&#9650; 160</span> <span class='hn-top-story-comments'>&#128172; 182</span> <span class='hn-top-story-tag'>Energy</span> <span class='hn-top-story-tag'>DevOps</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -140,7 +140,7 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 32 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-08-03 — 2026-08-08 <span class="hn-row-sep">·</span> 818 stories <span class="hn-row-sep">·</span> 6 days</span>
+<span class='hn-week-meta'>2026-08-03 — 2026-08-08 <span class="hn-row-sep">·</span> 835 stories <span class="hn-row-sep">·</span> 6 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/08/08/top_stories_08082026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>68</b> <span class="hn-row-sep">·</span> Security <b>13</b> <span class="hn-row-sep">·</span> AI <b>11</b></span>
+<span class='hn-row-detail'>All <b>85</b> <span class="hn-row-sep">·</span> Programming <b>18</b> <span class="hn-row-sep">·</span> AI <b>16</b></span>
 </a>
 </div>
 </div>
