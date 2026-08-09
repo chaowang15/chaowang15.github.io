@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>171</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>25164</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>168</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>169</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-08-09</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>171</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>25192</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>168</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>169</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-08-09</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,7 +20,7 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='96' data-hn-time='1786281643'>
+<div class='hn-top-story-item' data-hn-score='384' data-hn-time='1786281643'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -28,106 +28,106 @@ Sort:
  <a class='hn-top-story-link' href='https://blog.terrygodier.com/2026/08/09/mea-culpa-dark-hours.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>致歉信：黑暗时刻</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 96</span> <span class='hn-top-story-comments'>&#128172; 40</span> <span class='hn-top-story-tag'>Culture</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 384</span> <span class='hn-top-story-comments'>&#128172; 171</span> <span class='hn-top-story-tag'>Culture</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='91' data-hn-time='1786275048'>
+<div class='hn-top-story-item' data-hn-score='162' data-hn-time='1786288705'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/09/top_stories_08092026#story-49230477'>Everything You Do Is Being Recorded</a>
- <a class='hn-top-story-link' href='https://www.theatlantic.com/technology/2026/05/ai-wearable-surveillance-countermeasures/687203/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/09/top_stories_08092026#story-49232221'>Silicon Valley misreads science fiction and undermines democracy</a>
+ <a class='hn-top-story-link' href='https://techcrunch.com/2026/08/09/historian-jill-lepore-says-the-tech-industry-is-led-by-bad-readers-who-are-undermining-democracy/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>你所做的一切都在被记录</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.8</span> <span class='hn-top-story-score'>&#9650; 91</span> <span class='hn-top-story-comments'>&#128172; 77</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>硅谷误读科幻，削弱民主</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.0</span> <span class='hn-top-story-score'>&#9650; 162</span> <span class='hn-top-story-comments'>&#128172; 122</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='61' data-hn-time='1786275565'>
+<div class='hn-top-story-item' data-hn-score='139' data-hn-time='1786288280'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/09/top_stories_08092026#story-49230514'>Reviving a four year old reMarkable 2</a>
- <a class='hn-top-story-link' href='https://oskrim.github.io/hardware/2026/08/09/remarkable-over-ssh.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/09/top_stories_08092026#story-49232138'>Windows 11's built-in Weather app wastes more than 1 GB of RAM</a>
+ <a class='hn-top-story-link' href='https://www.notebookcheck.net/Windows-11-s-built-in-Weather-app-wastes-more-than-1-GB-of-RAM.1364205.0.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>让四年前的 reMarkable 2 再焕发活力</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 61</span> <span class='hn-top-story-comments'>&#128172; 49</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-zh'>Windows 11 内置天气应用耗费超过 1GB RAM</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.6</span> <span class='hn-top-story-score'>&#9650; 139</span> <span class='hn-top-story-comments'>&#128172; 119</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='261' data-hn-time='1786245960'>
+<div class='hn-top-story-item' data-hn-score='118' data-hn-time='1786289205'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/09/top_stories_08092026#story-49228166'>Retraction: The App Store Rejection of the Week That Was a Correct Rejection</a>
- <a class='hn-top-story-link' href='https://daringfireball.net/2026/08/retraction_app_store_rejection_of_the_week' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/09/top_stories_08092026#story-49232318'>Criminal Deception in Silicon Valley</a>
+ <a class='hn-top-story-link' href='https://pubsonline.informs.org/doi/full/10.1287/orsc.2024.19981' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>撤回：本周关于 App Store 拒绝的说法已被撤回</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 261</span> <span class='hn-top-story-comments'>&#128172; 49</span> <span class='hn-top-story-tag'>Legal</span></div>
+<div class='hn-top-story-zh'>硅谷的刑事欺骗</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.1</span> <span class='hn-top-story-score'>&#9650; 118</span> <span class='hn-top-story-comments'>&#128172; 52</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='408' data-hn-time='1786229363'>
+<div class='hn-top-story-item' data-hn-score='103' data-hn-time='1786288131'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/09/top_stories_08092026#story-49226636'>My server is a phone now</a>
- <a class='hn-top-story-link' href='https://seg6.space/posts/phone-server/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/09/top_stories_08092026#story-49232110'>Tom Stanton's supersonic trebuchet breaks sound barrier with gravity alone</a>
+ <a class='hn-top-story-link' href='https://www.techeblog.com/tom-stanton-supersonic-trebuchet/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>我的服务器现在是一部手机</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.3</span> <span class='hn-top-story-score'>&#9650; 408</span> <span class='hn-top-story-comments'>&#128172; 182</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>DevOps</span></div>
+<div class='hn-top-story-zh'>汤姆·斯坦顿的超音速投石机仅靠重力突破声障</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.8</span> <span class='hn-top-story-score'>&#9650; 103</span> <span class='hn-top-story-comments'>&#128172; 32</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Energy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='36' data-hn-time='1786276899'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='38' data-hn-time='1786296202'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/09/top_stories_08092026#story-49230630'>Why Wall Street Is Ignoring Big Tech's Debt</a>
- <a class='hn-top-story-link' href='https://www.youtube.com/watch?v=NufJ7g63KSY' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/09/top_stories_08092026#story-49233423'>Ask HN: What are you working on? (August 2026)</a>
+ <a class='hn-top-story-link' href='https://news.ycombinator.com/item?id=49233423' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>华尔街为何忽视科技巨头的债务</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.3</span> <span class='hn-top-story-score'>&#9650; 36</span> <span class='hn-top-story-comments'>&#128172; 13</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>Ask HN：你在做什么？（2026年8月）</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.5</span> <span class='hn-top-story-score'>&#9650; 38</span> <span class='hn-top-story-comments'>&#128172; 113</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>DevOps</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='800' data-hn-time='1786199553'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='44' data-hn-time='1786292699'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/09/top_stories_08092026#story-49222189'>“Code was never the hard part” is an insult to all programmers</a>
- <a class='hn-top-story-link' href='https://blog.senko.net/code-was-never-the-hard-part-is-an-insult-to-all-programmers' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/09/top_stories_08092026#story-49232857'>FCC moves to ban Lidar-equipped foreign drones from US</a>
+ <a class='hn-top-story-link' href='https://www.tomshardware.com/tech-industry/drones/fcc-moves-to-ban-lidar-equipped-foreign-drones-from-us-classifies-the-technology-as-military-grade-in-a-proposal-that-could-also-hit-thermal-models-and-the-swarms-used-drone-light-shows' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>"Code was never the hard part" 对所有程序员都是侮辱</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.3</span> <span class='hn-top-story-score'>&#9650; 800</span> <span class='hn-top-story-comments'>&#128172; 481</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Design</span></div>
+<div class='hn-top-story-zh'>FCC拟禁用搭载激光雷达的外国无人机入美</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 44</span> <span class='hn-top-story-comments'>&#128172; 26</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='559' data-hn-time='1786212571'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='28' data-hn-time='1786295988'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/09/top_stories_08092026#story-49224294'>Danish high schoolers will have to verbally defend written assignments</a>
- <a class='hn-top-story-link' href='https://mezha.net/eng/bukvy/ca117584_denmark_requires_oral/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/09/top_stories_08092026#story-49233394'>Production Imminent: 40 Solar-Charging Aptera EVs Coming Soon</a>
+ <a class='hn-top-story-link' href='https://frequal.com/aptera/ProductionImminent.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>丹麦高中生将被要求口头辩护书面作业</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.1</span> <span class='hn-top-story-score'>&#9650; 559</span> <span class='hn-top-story-comments'>&#128172; 251</span> <span class='hn-top-story-tag'>Education</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>DevOps</span></div>
+<div class='hn-top-story-zh'>生产在即：40 辆太阳能充电的 Aptera 电动车即将量产</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 28</span> <span class='hn-top-story-comments'>&#128172; 15</span> <span class='hn-top-story-tag'>Energy</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='110' data-hn-time='1786259998'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='56' data-hn-time='1786288906'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/09/top_stories_08092026#story-49229174'>There Are Magic Hexagons of Every Order</a>
- <a class='hn-top-story-link' href='https://gukov.dev/math/2026/08/02/new-magic-hexagons.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/09/top_stories_08092026#story-49232253'>Taxi drivers rarely die of Alzheimer's</a>
+ <a class='hn-top-story-link' href='https://theconversation.com/taxi-drivers-rarely-die-of-alzheimers-how-complex-mental-maps-and-spatial-reasoning-protect-your-brain-286650' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>存在着各种阶数的神奇六边形</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 110</span> <span class='hn-top-story-comments'>&#128172; 19</span> <span class='hn-top-story-tag'>Science</span></div>
+<div class='hn-top-story-zh'>出租车司机罹患阿尔茨海默病的风险较低</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 56</span> <span class='hn-top-story-comments'>&#128172; 39</span> <span class='hn-top-story-tag'>Health</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='176' data-hn-time='1786249826'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='23' data-hn-time='1786296436'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/09/top_stories_08092026#story-49228458'>The original URL for this prediction will no longer be available in 11 years (2011)</a>
- <a class='hn-top-story-link' href='http://longbets.org/601/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/09/top_stories_08092026#story-49233448'>OpenChamber: An Agentic Development Environment</a>
+ <a class='hn-top-story-link' href='https://openchamber.dev/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>这项预测的原始链接将在11年后不可用（2011）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 176</span> <span class='hn-top-story-comments'>&#128172; 82</span> <span class='hn-top-story-tag'>Web</span></div>
+<div class='hn-top-story-zh'>OpenChamber：一个具代理能力的开发环境</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 23</span> <span class='hn-top-story-comments'>&#128172; 5</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -140,7 +140,7 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 32 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-08-03 — 2026-08-09 <span class="hn-row-sep">·</span> 970 stories <span class="hn-row-sep">·</span> 7 days</span>
+<span class='hn-week-meta'>2026-08-03 — 2026-08-09 <span class="hn-row-sep">·</span> 998 stories <span class="hn-row-sep">·</span> 7 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/08/09/top_stories_08092026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>70</b> <span class="hn-row-sep">·</span> Programming <b>17</b> <span class="hn-row-sep">·</span> AI <b>13</b></span>
+<span class='hn-row-detail'>All <b>98</b> <span class="hn-row-sep">·</span> Programming <b>23</b> <span class="hn-row-sep">·</span> AI <b>20</b></span>
 </a>
 </div>
 </div>
