@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>172</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>25316</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>169</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>170</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-08-10</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>172</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>25344</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>169</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>170</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-08-10</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='490' data-hn-time='1786356602'>
+<div class='hn-top-story-item' data-hn-score='814' data-hn-time='1786356602'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/10/top_stories_08102026#story-49241679'>Meta Muse Glimmer – open weights 30B local coding model</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/10/top_stories_08102026#story-49241679'>Muse Glimmer: 30B-parameter model optimized for always-on local agent workflows</a>
  <a class='hn-top-story-link' href='https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Meta Muse Glimmer：30B 参数的本地化开源权重模型</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 15</span> <span class='hn-top-story-score'>&#9650; 490</span> <span class='hn-top-story-comments'>&#128172; 258</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>Muse Glimmer：面向持续本地代理工作流优化的30B参数模型</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 814</span> <span class='hn-top-story-comments'>&#128172; 454</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='197' data-hn-time='1786364765'>
+<div class='hn-top-story-item' data-hn-score='204' data-hn-time='1786375924'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/10/top_stories_08102026#story-49242739'>Over 181,000 AI meeting recordings left wide open in note taking app</a>
- <a class='hn-top-story-link' href='https://bobdahacker.com/blog/tldv-hack' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/10/top_stories_08102026#story-49245023'>Mars Bar from 1991 found – and it's 20g bigger than today's</a>
+ <a class='hn-top-story-link' href='https://www.bbc.com/news/articles/c1j1kjy7gewo' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>超过18万条 AI 会议记录在笔记应用中暴露</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 13</span> <span class='hn-top-story-score'>&#9650; 197</span> <span class='hn-top-story-comments'>&#128172; 67</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>1991 年 Mars Bar 的新发现：重量比现今多 20 克</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.9</span> <span class='hn-top-story-score'>&#9650; 204</span> <span class='hn-top-story-comments'>&#128172; 283</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Space</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='73' data-hn-time='1786368552'>
+<div class='hn-top-story-item' data-hn-score='397' data-hn-time='1786364765'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/10/top_stories_08102026#story-49243397'>Mistral Patent for "Code implemented tool calls"</a>
- <a class='hn-top-story-link' href='https://patentsgazette.uspto.gov/week26/OG/html/1547-5/US12670045-20260630.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/10/top_stories_08102026#story-49242739'>Tl;dv: Over 180k meetings left wide open</a>
+ <a class='hn-top-story-link' href='https://bobdahacker.com/blog/tldv-hack' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Mistral 的代码实现的工具调用专利</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.5</span> <span class='hn-top-story-score'>&#9650; 73</span> <span class='hn-top-story-comments'>&#128172; 73</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Legal</span></div>
+<div class='hn-top-story-zh'>Tl;dv：超过18万次会议被暴露</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.5</span> <span class='hn-top-story-score'>&#9650; 397</span> <span class='hn-top-story-comments'>&#128172; 134</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='397' data-hn-time='1786341758'>
+<div class='hn-top-story-item' data-hn-score='64' data-hn-time='1786383673'>
 <span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/10/top_stories_08102026#story-49247070'>Learning more about Claude's mathematical capabilities</a>
+ <a class='hn-top-story-link' href='https://www.anthropic.com/research/riemann-zeta' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>进一步了解 Claude 的数学能力</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.8</span> <span class='hn-top-story-score'>&#9650; 64</span> <span class='hn-top-story-comments'>&#128172; 28</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='113' data-hn-time='1786376988'>
+<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/10/top_stories_08102026#story-49245251'>Magnitude 7.4 Earthquake – 5 km S of San José del Palmar, Colombia</a>
+ <a class='hn-top-story-link' href='https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjl2/executive' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>哥伦比亚圣何塞德尔帕尔马尔以南5公里发生7.4级地震</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.0</span> <span class='hn-top-story-score'>&#9650; 113</span> <span class='hn-top-story-comments'>&#128172; 32</span> <span class='hn-top-story-tag'>Science</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='98' data-hn-time='1786377754'>
+<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/10/top_stories_08102026#story-49245487'>Study links GLP-1 drugs to bigger jump in women's employment than a degree</a>
+ <a class='hn-top-story-link' href='https://finance.yahoo.com/healthcare/articles/harvard-study-links-glp-1-123000637.html' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>研究显示 GLP-1 药物对女性就业的影响大于获得学位</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.7</span> <span class='hn-top-story-score'>&#9650; 98</span> <span class='hn-top-story-comments'>&#128172; 135</span> <span class='hn-top-story-tag'>Health</span> <span class='hn-top-story-tag'>Business</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='78' data-hn-time='1786377563'>
+<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/10/top_stories_08102026#story-49245437'>Show HN: Ante, a coding agent in a single binary that runs offline</a>
+ <a class='hn-top-story-link' href='https://github.com/AntigmaLabs/ante' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Ante：离线单二进制的编程代理</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.4</span> <span class='hn-top-story-score'>&#9650; 78</span> <span class='hn-top-story-comments'>&#128172; 50</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Privacy</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='537' data-hn-time='1786341758'>
+<span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/08/10/top_stories_08102026#story-49239751'>Docker Sandboxes – Disposable, isolated sandboxes for AI agents</a>
  <a class='hn-top-story-link' href='https://www.docker.com/products/docker-sandboxes/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Docker 沙盒：面向 AI 代理的一次性隔离沙箱</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.3</span> <span class='hn-top-story-score'>&#9650; 397</span> <span class='hn-top-story-comments'>&#128172; 255</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>DevOps</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 537</span> <span class='hn-top-story-comments'>&#128172; 317</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>DevOps</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='54' data-hn-time='1786368009'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/10/top_stories_08102026#story-49243269'>Defending my own brain against enshittification</a>
- <a class='hn-top-story-link' href='https://mrmarket.lol/how-i-feel-calmin-control-of-my-life-in-the-time-of-enshittification/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>捍卫我的大脑，抵御平台堕落时代的影响</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.1</span> <span class='hn-top-story-score'>&#9650; 54</span> <span class='hn-top-story-comments'>&#128172; 36</span> <span class='hn-top-story-tag'>Culture</span> <span class='hn-top-story-tag'>Privacy</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='61' data-hn-time='1786366696'>
-<span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/10/top_stories_08102026#story-49243029'>50k Boat Names</a>
- <a class='hn-top-story-link' href='https://www.beautifulpublicdata.com/boat-names/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>5万条船名数据集</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.9</span> <span class='hn-top-story-score'>&#9650; 61</span> <span class='hn-top-story-comments'>&#128172; 30</span> <span class='hn-top-story-tag'>Data</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='65' data-hn-time='1786364153'>
-<span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/10/top_stories_08102026#story-49242653'>Squeak/Smalltalk 6.1 Release Notes</a>
- <a class='hn-top-story-link' href='https://squeak.org/release_notes/6.1/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Squeak/Smalltalk 6.1 发行说明</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 65</span> <span class='hn-top-story-comments'>&#128172; 19</span> <span class='hn-top-story-tag'>Programming</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='79' data-hn-time='1786361267'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/10/top_stories_08102026#story-49242245'>Because It's Not Fun Enough: why languages fail</a>
- <a class='hn-top-story-link' href='https://bytecode.news/posts/2026/08/because-it-s-not-fun-enough' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>因为它不够有趣：语言为何会失败</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 79</span> <span class='hn-top-story-comments'>&#128172; 90</span> <span class='hn-top-story-tag'>Programming</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='22' data-hn-time='1786370782'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='102' data-hn-time='1786373792'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/10/top_stories_08102026#story-49243880'>Mark Zuckerberg attacks 'closed' AI rivals as Meta returns to open models</a>
- <a class='hn-top-story-link' href='https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/10/top_stories_08102026#story-49244569'>Kinney Drugs pulls back AI phone assistant after hundreds of customer complaints</a>
+ <a class='hn-top-story-link' href='https://www.wcax.com/2026/08/07/kinney-drugs-pulls-back-ai-phone-assistant-after-hundreds-customer-complaints/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>扎克伯格抨击封闭 AI 对手，Meta 重回开放模型</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 22</span> <span class='hn-top-story-comments'>&#128172; 13</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-zh'>Kinney Drugs 在百余起顾客投诉后撤回 AI 电话助手</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.1</span> <span class='hn-top-story-score'>&#9650; 102</span> <span class='hn-top-story-comments'>&#128172; 112</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='65' data-hn-time='1786361680'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='147' data-hn-time='1786368552'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/10/top_stories_08102026#story-49242297'>Tail-call optimization in C is relatively recent</a>
- <a class='hn-top-story-link' href='https://lwn.net/Articles/1034703/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/10/top_stories_08102026#story-49243397'>Mistral Patent for “Code implemented tool calls”</a>
+ <a class='hn-top-story-link' href='https://patentsgazette.uspto.gov/week26/OG/html/1547-5/US12670045-20260630.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>C 语言尾调用优化实现相对较新</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 65</span> <span class='hn-top-story-comments'>&#128172; 32</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>Mistral 专利：‘代码实现的工具调用’</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 147</span> <span class='hn-top-story-comments'>&#128172; 126</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Legal</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -140,7 +140,7 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 33 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-08-10 <span class="hn-row-sep">·</span> 72 stories <span class="hn-row-sep">·</span> 1 days</span>
+<span class='hn-week-meta'>2026-08-10 <span class="hn-row-sep">·</span> 100 stories <span class="hn-row-sep">·</span> 1 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/08/10/top_stories_08102026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>72</b> <span class="hn-row-sep">·</span> AI <b>23</b> <span class="hn-row-sep">·</span> Programming <b>16</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>32</b> <span class="hn-row-sep">·</span> Programming <b>20</b></span>
 </a>
 </div>
 </div>
