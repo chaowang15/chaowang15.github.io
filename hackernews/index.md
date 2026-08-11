@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='207' data-hn-time='1786393206'>
+<div class='hn-top-story-item' data-hn-score='326' data-hn-time='1786405550'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/10/top_stories_08102026#story-49249150'>Illinois Just Passed a Law That Puts Linux on the Hook for Age Verification</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/10/top_stories_08102026#story-49251411'>The UK's War on Anonymity Has Come to America</a>
+ <a class='hn-top-story-link' href='https://www.effort.news/uk-lobby' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>英国对匿名性的打压蔓延至美国</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 14</span> <span class='hn-top-story-score'>&#9650; 326</span> <span class='hn-top-story-comments'>&#128172; 212</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='298' data-hn-time='1786393206'>
+<span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/10/top_stories_08102026#story-49249150'>Illinois just passed a law that puts Linux on the hook for age verification</a>
  <a class='hn-top-story-link' href='https://linuxstans.com/illinois-hb5511-operating-system-age-verification/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>伊利诺伊州通过一项法案，将操作系统纳入年龄验证责任</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 16</span> <span class='hn-top-story-score'>&#9650; 207</span> <span class='hn-top-story-comments'>&#128172; 255</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Legal</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.5</span> <span class='hn-top-story-score'>&#9650; 298</span> <span class='hn-top-story-comments'>&#128172; 418</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='953' data-hn-time='1786356602'>
-<span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-item' data-hn-score='1058' data-hn-time='1786356602'>
+<span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/08/10/top_stories_08102026#story-49241679'>Muse Glimmer: 30B-parameter model optimized for always-on local agent workflows</a>
  <a class='hn-top-story-link' href='https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Muse Glimmer：面向持续本地代理工作流优化的30B参数模型</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.9</span> <span class='hn-top-story-score'>&#9650; 953</span> <span class='hn-top-story-comments'>&#128172; 538</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.1</span> <span class='hn-top-story-score'>&#9650; 1058</span> <span class='hn-top-story-comments'>&#128172; 585</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='50' data-hn-time='1786397176'>
-<span class='hn-top-story-rank'>3</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/10/top_stories_08102026#story-49249971'>Amazon backs power plant that may become top source of US climate pollution</a>
- <a class='hn-top-story-link' href='https://arstechnica.com/tech-policy/2026/08/amazon-funds-biggest-gas-power-plant-in-us-despite-climate-pledge/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>亚马逊支持的燃气发电厂可能成为美国最大的碳排放源</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.7</span> <span class='hn-top-story-score'>&#9650; 50</span> <span class='hn-top-story-comments'>&#128172; 28</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Energy</span> <span class='hn-top-story-tag'>DevOps</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='493' data-hn-time='1786364765'>
+<div class='hn-top-story-item' data-hn-score='60' data-hn-time='1786411329'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/10/top_stories_08102026#story-49242739'>Tl;dv: Over 180k meetings left wide open</a>
- <a class='hn-top-story-link' href='https://bobdahacker.com/blog/tldv-hack' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/10/top_stories_08102026#story-49252179'>Antirez/h3.c: MiniMax H3 inference engine for Mac computers</a>
+ <a class='hn-top-story-link' href='https://github.com/antirez/h3.c' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Tl;dv：超过18万次会议被暴露</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.6</span> <span class='hn-top-story-score'>&#9650; 493</span> <span class='hn-top-story-comments'>&#128172; 167</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>Antirez/h3.c：用于 Mac 的 MiniMax H3 推理引擎</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.6</span> <span class='hn-top-story-score'>&#9650; 60</span> <span class='hn-top-story-comments'>&#128172; 6</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='37' data-hn-time='1786397816'>
+<div class='hn-top-story-item' data-hn-score='82' data-hn-time='1786407855'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/10/top_stories_08102026#story-49250109'>How Claude marks AI-generated content</a>
- <a class='hn-top-story-link' href='https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/10/top_stories_08102026#story-49251702'>Chicken Scheme 6.0</a>
+ <a class='hn-top-story-link' href='https://code.call-cc.org/releases/6.0.0/NEWS' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Claude 如何标注 AI 生成的内容</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.5</span> <span class='hn-top-story-score'>&#9650; 37</span> <span class='hn-top-story-comments'>&#128172; 30</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>Chicken Scheme 6.0 发布</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.3</span> <span class='hn-top-story-score'>&#9650; 82</span> <span class='hn-top-story-comments'>&#128172; 9</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='265' data-hn-time='1786375924'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='210' data-hn-time='1786394833'>
 <span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/10/top_stories_08102026#story-49245023'>Mars Bar from 1991 found – and it's 20g bigger than today's</a>
- <a class='hn-top-story-link' href='https://www.bbc.com/news/articles/c1j1kjy7gewo' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>1991 年 Mars Bar 的新发现：重量比现今多 20 克</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.1</span> <span class='hn-top-story-score'>&#9650; 265</span> <span class='hn-top-story-comments'>&#128172; 415</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Space</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='141' data-hn-time='1786383673'>
-<span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/10/top_stories_08102026#story-49247070'>Learning more about Claude's mathematical capabilities</a>
- <a class='hn-top-story-link' href='https://www.anthropic.com/research/riemann-zeta' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>进一步了解 Claude 的数学能力</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.5</span> <span class='hn-top-story-score'>&#9650; 141</span> <span class='hn-top-story-comments'>&#128172; 106</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='272' data-hn-time='1786370782'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/10/top_stories_08102026#story-49243880'>Mark Zuckerberg attacks 'closed' AI rivals as Meta returns to open models</a>
- <a class='hn-top-story-link' href='https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>扎克伯格抨击封闭 AI 对手，Meta 重回开放模型</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 272</span> <span class='hn-top-story-comments'>&#128172; 324</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='43' data-hn-time='1786394833'>
-<span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/08/10/top_stories_08102026#story-49249481'>Stop Killing Games: It's time to sue Sony, join us</a>
  <a class='hn-top-story-link' href='https://www.massaschadeconsument.nl/collectieve-acties/playstation/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>停止扼杀游戏：是时候起诉索尼，加入我们的行动</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 43</span> <span class='hn-top-story-comments'>&#128172; 11</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Gaming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 210</span> <span class='hn-top-story-comments'>&#128172; 90</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Gaming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='612' data-hn-time='1786341758'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='98' data-hn-time='1786403785'>
+<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/10/top_stories_08102026#story-49251179'>Show HN: Scroll through all 43252003274489856000 Rubik's Cube states</a>
+ <a class='hn-top-story-link' href='https://everycube.alen.is/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Show HN：滚动浏览全部 43,252,003,274,489,856,000 种魔方状态</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 98</span> <span class='hn-top-story-comments'>&#128172; 24</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Data</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='116' data-hn-time='1786401390'>
+<span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/10/top_stories_08102026#story-49250836'>Google Search Is Dying. What Comes Next Is Worse</a>
+ <a class='hn-top-story-link' href='https://thewalrus.ca/google-search-is-dying/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>谷歌搜索正在走向衰落，接下来会更糟</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 116</span> <span class='hn-top-story-comments'>&#128172; 102</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='550' data-hn-time='1786364765'>
+<span class='hn-top-story-rank'>9</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/10/top_stories_08102026#story-49242739'>Tl;dv: Over 180k meetings left wide open</a>
+ <a class='hn-top-story-link' href='https://bobdahacker.com/blog/tldv-hack' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Tl;dv：超过18万次会议被暴露</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 550</span> <span class='hn-top-story-comments'>&#128172; 179</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='407' data-hn-time='1786370782'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/10/top_stories_08102026#story-49239751'>Docker Sandboxes – Disposable, isolated sandboxes for AI agents</a>
- <a class='hn-top-story-link' href='https://www.docker.com/products/docker-sandboxes/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/10/top_stories_08102026#story-49243880'>Mark Zuckerberg attacks 'closed' AI rivals as Meta returns to open models</a>
+ <a class='hn-top-story-link' href='https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Docker 沙盒：面向 AI 代理的一次性隔离沙箱</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 612</span> <span class='hn-top-story-comments'>&#128172; 340</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>DevOps</span></div>
+<div class='hn-top-story-zh'>扎克伯格抨击封闭 AI 对手，Meta 重回开放模型</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 407</span> <span class='hn-top-story-comments'>&#128172; 399</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/08/10/top_stories_08102026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>33</b> <span class="hn-row-sep">·</span> Programming <b>19</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>32</b> <span class="hn-row-sep">·</span> Programming <b>19</b></span>
 </a>
 </div>
 </div>
