@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>173</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>25444</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>170</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>171</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-08-11</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>173</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>25461</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>170</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>171</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-08-11</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='439' data-hn-time='1786405550'>
+<div class='hn-top-story-item' data-hn-score='692' data-hn-time='1786436146'>
 <span class='hn-top-story-rank'>1</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/11/top_stories_08112026#story-49254880'>France to ban unsolicited telemarketing calls</a>
+ <a class='hn-top-story-link' href='https://www.lemonde.fr/en/france/article/2026/08/06/france-to-ban-unsolicited-telemarketing-calls-from-august-11_6756208_7.html' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>法国将全面禁止未经同意的电话推销</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 14</span> <span class='hn-top-story-score'>&#9650; 692</span> <span class='hn-top-story-comments'>&#128172; 358</span> <span class='hn-top-story-tag'>Privacy</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='161' data-hn-time='1786452119'>
+<span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/11/top_stories_08112026#story-49257377'>England set to be one of the first countries to eliminate hepatitis C</a>
+ <a class='hn-top-story-link' href='https://www.bbc.com/news/articles/c75gk620r22o' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>英格兰有望成为首批根除丙型肝炎的国家之一</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 161</span> <span class='hn-top-story-comments'>&#128172; 87</span> <span class='hn-top-story-tag'>Health</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='48' data-hn-time='1786457347'>
+<span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/11/top_stories_08112026#story-49258687'>Greenland issues "strong warning" as American oil firm illegally drills wells</a>
+ <a class='hn-top-story-link' href='https://www.theguardian.com/world/2026/aug/08/greenland-iwarning-trump-linked-oil-firm-prepares-drill' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>格陵兰对美国石油公司非法钻探提出强烈警告</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.3</span> <span class='hn-top-story-score'>&#9650; 48</span> <span class='hn-top-story-comments'>&#128172; 42</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Energy</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='173' data-hn-time='1786442234'>
+<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/11/top_stories_08112026#story-49255672'>More than 10 firms pay up to $100k a month for access to Truth Social posts</a>
+ <a class='hn-top-story-link' href='https://www.bbc.com/news/articles/ce3q5nxpgk1o' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>超过十家公司按月支付高达十万美元以获取 Truth Social 帖子访问权</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.2</span> <span class='hn-top-story-score'>&#9650; 173</span> <span class='hn-top-story-comments'>&#128172; 206</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>Privacy</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='585' data-hn-time='1786405550'>
+<span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/08/11/top_stories_08112026#story-49251411'>The UK's war on anonymity has come to America</a>
  <a class='hn-top-story-link' href='https://www.effort.news/uk-lobby' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>英国对匿名性的打压蔓延至美国</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.5</span> <span class='hn-top-story-score'>&#9650; 439</span> <span class='hn-top-story-comments'>&#128172; 327</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Design</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 585</span> <span class='hn-top-story-comments'>&#128172; 623</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='202' data-hn-time='1786411329'>
-<span class='hn-top-story-rank'>2</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/11/top_stories_08112026#story-49252179'>H3-metal – Native MiniMax-H3 inference for Apple Silicon</a>
- <a class='hn-top-story-link' href='https://github.com/antirez/h3.c' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>H3-metal — 面向 Apple Silicon 的本地 MiniMax-H3 推理</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.8</span> <span class='hn-top-story-score'>&#9650; 202</span> <span class='hn-top-story-comments'>&#128172; 26</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='1098' data-hn-time='1786356602'>
-<span class='hn-top-story-rank'>3</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/11/top_stories_08112026#story-49241679'>Muse Glimmer: 30B-parameter model optimized for always-on local agent workflows</a>
- <a class='hn-top-story-link' href='https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Muse Glimmer：面向持续本地代理工作流优化的30B参数模型</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.8</span> <span class='hn-top-story-score'>&#9650; 1098</span> <span class='hn-top-story-comments'>&#128172; 600</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='153' data-hn-time='1786407855'>
-<span class='hn-top-story-rank'>4</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/11/top_stories_08112026#story-49251702'>Chicken Scheme 6.0</a>
- <a class='hn-top-story-link' href='https://code.call-cc.org/releases/6.0.0/NEWS' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Chicken Scheme 6.0 发布</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 153</span> <span class='hn-top-story-comments'>&#128172; 17</span> <span class='hn-top-story-tag'>Programming</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='165' data-hn-time='1786403785'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/11/top_stories_08112026#story-49251179'>Show HN: Scroll through all 43252003274489856000 Rubik's Cube states</a>
- <a class='hn-top-story-link' href='https://everycube.alen.is/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Show HN：滚动浏览全部 43,252,003,274,489,856,000 种魔方状态</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 165</span> <span class='hn-top-story-comments'>&#128172; 52</span> <span class='hn-top-story-tag'>Show HN</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='572' data-hn-time='1786364765'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='34' data-hn-time='1786454762'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/11/top_stories_08112026#story-49242739'>Tl;dv: Over 180k meetings left wide open</a>
- <a class='hn-top-story-link' href='https://bobdahacker.com/blog/tldv-hack' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/11/top_stories_08112026#story-49257947'>Nvidia Nemotron 3.5 Lightning</a>
+ <a class='hn-top-story-link' href='https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Tl;dv：超过18万次会议被暴露</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 572</span> <span class='hn-top-story-comments'>&#128172; 188</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>英伟达 Nemotron 3.5 Lightning</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 34</span> <span class='hn-top-story-comments'>&#128172; 9</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='476' data-hn-time='1786370782'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='578' data-hn-time='1786401390'>
 <span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/11/top_stories_08112026#story-49243880'>Mark Zuckerberg attacks 'closed' AI rivals as Meta returns to open models</a>
- <a class='hn-top-story-link' href='https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>扎克伯格抨击封闭 AI 对手，Meta 重回开放模型</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.3</span> <span class='hn-top-story-score'>&#9650; 476</span> <span class='hn-top-story-comments'>&#128172; 436</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='27' data-hn-time='1786426018'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/11/top_stories_08112026#story-49253721'>Show HN: Mcptoon – Token-efficient MCP CLI client</a>
- <a class='hn-top-story-link' href='https://github.com/activeing123/mcptoon' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Show HN: Mcptoon – 令牌高效的 MCP CLI 客户端</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.3</span> <span class='hn-top-story-score'>&#9650; 27</span> <span class='hn-top-story-comments'>&#128172; 15</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Programming</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='154' data-hn-time='1786401390'>
-<span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/08/11/top_stories_08112026#story-49250836'>As AI eats the web, the internet’s collective memory is disappearing</a>
  <a class='hn-top-story-link' href='https://thewalrus.ca/google-search-is-dying/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>随着 AI 吃掉网络，互联网的集体记忆正在消失</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.1</span> <span class='hn-top-story-score'>&#9650; 154</span> <span class='hn-top-story-comments'>&#128172; 133</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Data</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 578</span> <span class='hn-top-story-comments'>&#128172; 660</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Data</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='293' data-hn-time='1786382527'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='19' data-hn-time='1786456998'>
+<span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/11/top_stories_08112026#story-49258581'>Why Did OpenAI's Head of Ethics Chloé Bakalar Leave?</a>
+ <a class='hn-top-story-link' href='https://aimagazine.com/news/why-did-openai-head-of-ethics-chloe-bakalar-leave' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>OpenAI 伦理主管 Chloé Bakalar 离职原因</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 19</span> <span class='hn-top-story-comments'>&#128172; 12</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='367' data-hn-time='1786411329'>
+<span class='hn-top-story-rank'>9</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/11/top_stories_08112026#story-49252179'>H3-metal – Native MiniMax-H3 inference for Apple Silicon</a>
+ <a class='hn-top-story-link' href='https://github.com/antirez/h3.c' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>H3-metal — 面向 Apple Silicon 的本地 MiniMax-H3 推理</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 367</span> <span class='hn-top-story-comments'>&#128172; 78</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Hardware</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1152' data-hn-time='1786356602'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/11/top_stories_08112026#story-49246804'>Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots</a>
- <a class='hn-top-story-link' href='https://cactuscompute.com/needle' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/11/top_stories_08112026#story-49241679'>Muse Glimmer: 30B-parameter model optimized for always-on local agent workflows</a>
+ <a class='hn-top-story-link' href='https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Needle2：14MB 的设备端智能代理型大模型</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 293</span> <span class='hn-top-story-comments'>&#128172; 108</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>Muse Glimmer：面向持续本地代理工作流优化的30B参数模型</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 1152</span> <span class='hn-top-story-comments'>&#128172; 620</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -140,7 +140,7 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 33 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-08-10 — 2026-08-11 <span class="hn-row-sep">·</span> 200 stories <span class="hn-row-sep">·</span> 2 days</span>
+<span class='hn-week-meta'>2026-08-10 — 2026-08-11 <span class="hn-row-sep">·</span> 217 stories <span class="hn-row-sep">·</span> 2 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/08/11/top_stories_08112026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>16</b> <span class="hn-row-sep">·</span> Programming <b>10</b></span>
+<span class='hn-row-detail'>All <b>67</b> <span class="hn-row-sep">·</span> AI <b>21</b> <span class="hn-row-sep">·</span> Programming <b>17</b></span>
 </a>
 </div>
 </div>
