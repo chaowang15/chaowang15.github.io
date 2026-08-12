@@ -20,7 +20,7 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='382' data-hn-time='1786550690'>
+<div class='hn-top-story-item' data-hn-score='635' data-hn-time='1786550690'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -28,106 +28,106 @@ Sort:
  <a class='hn-top-story-link' href='https://openrouter.ai/deepseek/deepseek-v4-pro-0813' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>DeepSeek V4 Pro 0813</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 22</span> <span class='hn-top-story-score'>&#9650; 382</span> <span class='hn-top-story-comments'>&#128172; 133</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 14</span> <span class='hn-top-story-score'>&#9650; 635</span> <span class='hn-top-story-comments'>&#128172; 227</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='495' data-hn-time='1786544550'>
+<div class='hn-top-story-item' data-hn-score='285' data-hn-time='1786558799'>
 <span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/12/top_stories_08122026#story-49276574'>Delta</a>
+ <a class='hn-top-story-link' href='https://zed.dev/blog/introducing-delta' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Delta</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 285</span> <span class='hn-top-story-comments'>&#128172; 94</span> <span class='hn-top-story-tag'>Data</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='691' data-hn-time='1786544550'>
+<span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/08/12/top_stories_08122026#story-49272832'>Tailscale Traces Database Corruption to 16y/o SQLite WAL-Reset Bug</a>
  <a class='hn-top-story-link' href='https://tailscale.com/blog/sqlite-wal-reset-bug' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Tailscale 将 SQLite 的 WAL 重置 Bug 追溯到 16 年前的问题</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 17</span> <span class='hn-top-story-score'>&#9650; 495</span> <span class='hn-top-story-comments'>&#128172; 80</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Data</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 691</span> <span class='hn-top-story-comments'>&#128172; 112</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Data</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='386' data-hn-time='1786545819'>
-<span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-item' data-hn-score='645' data-hn-time='1786540805'>
+<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/12/top_stories_08122026#story-49271994'>AI is removing the middle class of software engineering?</a>
+ <a class='hn-top-story-link' href='https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>AI 正在吞并软件工程的中产阶层</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.3</span> <span class='hn-top-story-score'>&#9650; 645</span> <span class='hn-top-story-comments'>&#128172; 546</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Career</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='495' data-hn-time='1786545819'>
+<span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/08/12/top_stories_08122026#story-49273165'>License plate reader searches should require a warrant</a>
  <a class='hn-top-story-link' href='https://andrewpwheeler.com/2026/08/12/license-plate-reader-searches-should-require-a-warrant/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>车牌识别搜索应当获得授权才可进行</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 14</span> <span class='hn-top-story-score'>&#9650; 386</span> <span class='hn-top-story-comments'>&#128172; 239</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Legal</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.1</span> <span class='hn-top-story-score'>&#9650; 495</span> <span class='hn-top-story-comments'>&#128172; 305</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Legal</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='167' data-hn-time='1786553665'>
-<span class='hn-top-story-rank'>4</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/12/top_stories_08122026#story-49275385'>SpaceXAI's Grok 4.6 Scores 61 on the Artificial Analysis Intelligence Index</a>
- <a class='hn-top-story-link' href='https://artificialanalysis.ai/articles/grok-4-6-benchmarks-and-analysis' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>SpaceXAI 的 Grok 4.6 在人工分析智能指数上得分 61</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 13</span> <span class='hn-top-story-score'>&#9650; 167</span> <span class='hn-top-story-comments'>&#128172; 136</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='478' data-hn-time='1786540805'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/12/top_stories_08122026#story-49271994'>AI is removing the middle class of software engineering</a>
- <a class='hn-top-story-link' href='https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>AI 正在吞并软件工程的中产阶层</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 478</span> <span class='hn-top-story-comments'>&#128172; 396</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Career</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='235' data-hn-time='1786546877'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='288' data-hn-time='1786553665'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/12/top_stories_08122026#story-49273478'>Qwen/Qwen3.8-2.4T-A95B</a>
- <a class='hn-top-story-link' href='https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/12/top_stories_08122026#story-49275385'>Grok 4.6 scores 61 on the Artificial Analysis Intelligence Index</a>
+ <a class='hn-top-story-link' href='https://artificialanalysis.ai/articles/grok-4-6-benchmarks-and-analysis' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Qwen3.8-2.4T-A95B 模型</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.4</span> <span class='hn-top-story-score'>&#9650; 235</span> <span class='hn-top-story-comments'>&#128172; 65</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>SpaceXAI 的 Grok 4.6 在人工分析智能指数上得分 61</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.4</span> <span class='hn-top-story-score'>&#9650; 288</span> <span class='hn-top-story-comments'>&#128172; 278</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='49' data-hn-time='1786558799'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='416' data-hn-time='1786546877'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/12/top_stories_08122026#story-49276574'>Zed: Delta</a>
- <a class='hn-top-story-link' href='https://zed.dev/blog/introducing-delta' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/12/top_stories_08122026#story-49273478'>Qwen3.8-2.4T</a>
+ <a class='hn-top-story-link' href='https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Zed：Delta</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.4</span> <span class='hn-top-story-score'>&#9650; 49</span> <span class='hn-top-story-comments'>&#128172; 5</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>DevOps</span></div>
+<div class='hn-top-story-zh'>Qwen3.8-2.4T-A95B 模型</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.2</span> <span class='hn-top-story-score'>&#9650; 416</span> <span class='hn-top-story-comments'>&#128172; 87</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='405' data-hn-time='1786535581'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='327' data-hn-time='1786548770'>
 <span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/12/top_stories_08122026#story-49274027'>Grok 4.6</a>
+ <a class='hn-top-story-link' href='https://x.ai/news/grok-4-6' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Grok 4.6</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.3</span> <span class='hn-top-story-score'>&#9650; 327</span> <span class='hn-top-story-comments'>&#128172; 335</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='446' data-hn-time='1786535581'>
+<span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/08/12/top_stories_08122026#story-49270953'>2026 Eclipse Webcams</a>
  <a class='hn-top-story-link' href='https://jonty.github.io/2026_eclipse_webcams/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>2026 年日食网络摄像头</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.6</span> <span class='hn-top-story-score'>&#9650; 405</span> <span class='hn-top-story-comments'>&#128172; 104</span> <span class='hn-top-story-tag'>Space</span> <span class='hn-top-story-tag'>Science</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.6</span> <span class='hn-top-story-score'>&#9650; 446</span> <span class='hn-top-story-comments'>&#128172; 121</span> <span class='hn-top-story-tag'>Science</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='452' data-hn-time='1786527330'>
-<span class='hn-top-story-rank'>9</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/12/top_stories_08122026#story-49269818'>Controversial creators are benefiting from monetization programs run by Meta</a>
- <a class='hn-top-story-link' href='https://www.abc.net.au/news/2026-08-06/ragebait-how-facebook-is-paying-controversial-creators/106940696' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>有争议的创作者正在从 Meta 的货币化计划中获益</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.7</span> <span class='hn-top-story-score'>&#9650; 452</span> <span class='hn-top-story-comments'>&#128172; 298</span> <span class='hn-top-story-tag'>Business</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='173' data-hn-time='1786543254'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='102' data-hn-time='1786558623'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/12/top_stories_08122026#story-49272549'>Why Tiny JPEGs Look Different in Chrome</a>
- <a class='hn-top-story-link' href='https://guillaumetech.github.io/posts/jpg-scaling-chrome/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/12/top_stories_08122026#story-49276534'>People who grew up with high economic connectedness earn more</a>
+ <a class='hn-top-story-link' href='https://julienreszka.com/blog/your-key-to-success-isn-t-more-luck-or-hard-work/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Chrome 中小尺寸 JPEG 的显示差异原因</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.2</span> <span class='hn-top-story-score'>&#9650; 173</span> <span class='hn-top-story-comments'>&#128172; 35</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Design</span></div>
+<div class='hn-top-story-zh'>成长在高经济连接环境中的人收入更高</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.8</span> <span class='hn-top-story-score'>&#9650; 102</span> <span class='hn-top-story-comments'>&#128172; 100</span> <span class='hn-top-story-tag'>Education</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/08/12/top_stories_08122026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>31</b> <span class="hn-row-sep">·</span> Programming <b>20</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>27</b> <span class="hn-row-sep">·</span> Programming <b>21</b></span>
 </a>
 </div>
 </div>
