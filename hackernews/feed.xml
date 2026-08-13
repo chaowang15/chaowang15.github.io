@@ -5,7 +5,7 @@
     <link>https://chaowang15.github.io/hackernews/</link>
     <description>Curated daily digest of top Hacker News stories with AI-generated summaries, tags, and bilingual translations.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Aug 2026 13:20:20 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2026 14:59:24 +0000</lastBuildDate>
     <generator>Hacker News Daily RSS Builder</generator>
     <atom:link href="https://chaowang15.github.io/hackernews/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
@@ -42,11 +42,12 @@
       <dc:creator>ropbear</dc:creator>
       <pubDate>Wed, 12 Aug 2026 14:22:30 +0000</pubDate>
       <category>Programming</category>
+      <category>Data</category>
       <category>Privacy</category>
       <description>&lt;p&gt;Researchers zero in on a long-standing SQLite WAL reset bug that has persisted for 16 years. The issue can cause data integrity problems when the write-ahead logging file resets under certain conditions, impacting apps using WAL mode. The takeaway is to test WAL edge cases and ensure robust backup/restore paths, highlighting SQLite quirks in real-world apps.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;研究人员锁定一宗持续了16年的 SQLite WAL 重置漏洞。该问题在特定条件下会导致写入前日志文件重置时的数据完整性问题，影响使用 WAL 模式的应用程序。建议开发者测试 WAL 的边界情况，并确保备份/恢复路径健全，凸显实际应用中 SQLite 的潜在坑点。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 1115 · 💬 207 · Programming · Privacy&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49272832&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/12/top_stories_08122026#story-49272832&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;small&gt;▲ 1131 · 💬 216 · Programming · Data · Privacy&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49272832&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/13/top_stories_08132026#story-49272832&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>France to ban unsolicited telemarketing calls</title>
@@ -84,8 +85,8 @@
       <category>Privacy</category>
       <description>&lt;p&gt;DeepSeek releases V4 Pro 0813, a major update that enhances on-device AI performance and search speed. The release focuses on faster indexing, improved privacy controls, and enterprise-friendly features for large-scale data workflows.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;DeepSeek 发布 V4 Pro 0813，显著提升本地 AI 性能与检索速度，强调更快的索引与更强的隐私控制，并为大规模数据工作流提供企业级特性。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 979 · 💬 422 · AI · Privacy&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49274600&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/12/top_stories_08122026#story-49274600&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;small&gt;▲ 998 · 💬 428 · AI · Privacy&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49274600&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/13/top_stories_08132026#story-49274600&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>AI is removing the middle class of software engineering?</title>
@@ -207,6 +208,19 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49214008&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/08/top_stories_08082026#story-49214008&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Qwen3.8-2.4T</title>
+      <link>https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49273478</guid>
+      <dc:creator>Philpax</dc:creator>
+      <pubDate>Wed, 12 Aug 2026 15:01:17 +0000</pubDate>
+      <category>AI</category>
+      <category>Hardware</category>
+      <description>&lt;p&gt;Qwen3.8-2.4T-A95B is a large language model configured for 2.4 trillion parameters, optimized for inference on A95B hardware. The release underscores ongoing scaling and hardware-specific optimizations in modern LLMs.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Qwen3.8-2.4T-A95B 是一个 2.4 万亿参数的语言模型，针对 A95B 硬件进行推理优化，凸显了当下大模型的规模化与硬件定制优化。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 689 · 💬 161 · AI · Hardware&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49273478&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/13/top_stories_08132026#story-49273478&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Stealing Reasoning Traces from Proprietary LLM APIs</title>
       <link>https://stolen-thoughts.com/</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=49257876</guid>
@@ -219,19 +233,6 @@
 &lt;p&gt;&lt;em&gt;研究者展示了专有大语言模型 API 可能泄露推理痕迹，暴露中间提示和推理步骤。这对使用托管模型的隐私与安全构成挑战，凸显防止信息泄露的必要性。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 686 · 💬 301 · Security · Privacy · AI&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49257876&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/12/top_stories_08122026#story-49257876&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Qwen3.8-2.4T</title>
-      <link>https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49273478</guid>
-      <dc:creator>Philpax</dc:creator>
-      <pubDate>Wed, 12 Aug 2026 15:01:17 +0000</pubDate>
-      <category>AI</category>
-      <category>Hardware</category>
-      <description>&lt;p&gt;Qwen3.8-2.4T-A95B is a large language model configured for 2.4 trillion parameters, optimized for inference on A95B hardware. The release underscores ongoing scaling and hardware-specific optimizations in modern LLMs.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Qwen3.8-2.4T-A95B 是一个 2.4 万亿参数的语言模型，针对 A95B 硬件进行推理优化，凸显了当下大模型的规模化与硬件定制优化。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 674 · 💬 156 · AI · Hardware&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49273478&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/12/top_stories_08122026#story-49273478&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Taste Is All That's Left</title>
@@ -336,6 +337,18 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49243880&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/11/top_stories_08112026#story-49243880&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Delta</title>
+      <link>https://zed.dev/blog/introducing-delta</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49276574</guid>
+      <dc:creator>khy</dc:creator>
+      <pubDate>Wed, 12 Aug 2026 18:19:59 +0000</pubDate>
+      <category>Startups</category>
+      <description>&lt;p&gt;Delta introduces a new concept or product in the project's lineup, signaling a potential shift in how it handles data or workflows. The announcement invites readers to anticipate more details on capabilities, integrations, and use cases.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Delta 引入了该项目的新概念/产品，可能改变数据处理或工作流方式。公告预计将提供更多关于功能、集成与应用场景的细节。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 623 · 💬 227 · Startups&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49276574&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/13/top_stories_08132026#story-49276574&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Tl;dv: Over 180k meetings left wide open</title>
       <link>https://bobdahacker.com/blog/tldv-hack</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=49242739</guid>
@@ -362,16 +375,16 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49270726&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/12/top_stories_08122026#story-49270726&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Delta</title>
-      <link>https://zed.dev/blog/introducing-delta</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49276574</guid>
-      <dc:creator>khy</dc:creator>
-      <pubDate>Wed, 12 Aug 2026 18:19:59 +0000</pubDate>
-      <category>Startups</category>
-      <description>&lt;p&gt;Delta introduces a new concept or product in the project's lineup, signaling a potential shift in how it handles data or workflows. The announcement invites readers to anticipate more details on capabilities, integrations, and use cases.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Delta 引入了该项目的新概念/产品，可能改变数据处理或工作流方式。公告预计将提供更多关于功能、集成与应用场景的细节。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 602 · 💬 220 · Startups&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49276574&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/12/top_stories_08122026#story-49276574&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+      <title>Grok 4.6</title>
+      <link>https://x.ai/news/grok-4-6</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49274027</guid>
+      <dc:creator>iLuddite</dc:creator>
+      <pubDate>Wed, 12 Aug 2026 15:32:50 +0000</pubDate>
+      <category>AI</category>
+      <description>&lt;p&gt;Grok 4.6 updates the AI assistant with refinements to conversational ability, integration options, and developer-facing tooling. The release highlights ongoing efforts to evolve AI assistants into more capable, context-aware productivity partners.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Grok 4.6 对AI助手进行了若干改进，提升对话能力并扩展集成与开发工具。此次发布凸显了让AI助手成为更具情境感知的高效生产力伙伴的持续努力。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 607 · 💬 568 · AI&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49274027&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/13/top_stories_08132026#story-49274027&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Mea Culpa – Dark Hours</title>
@@ -384,18 +397,6 @@
 &lt;p&gt;&lt;em&gt;这是一篇在艰难时期写就的坦诚自我批评。文中承认了错误及其后果，并提出今后将采取的具体改进措施，强调对所发生事件的负责与从中学习的重要性。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 602 · 💬 279 · Culture&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49231154&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/10/top_stories_08102026#story-49231154&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Grok 4.6</title>
-      <link>https://x.ai/news/grok-4-6</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49274027</guid>
-      <dc:creator>iLuddite</dc:creator>
-      <pubDate>Wed, 12 Aug 2026 15:32:50 +0000</pubDate>
-      <category>AI</category>
-      <description>&lt;p&gt;Grok 4.6 updates the AI assistant with refinements to conversational ability, integration options, and developer-facing tooling. The release highlights ongoing efforts to evolve AI assistants into more capable, context-aware productivity partners.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Grok 4.6 对AI助手进行了若干改进，提升对话能力并扩展集成与开发工具。此次发布凸显了让AI助手成为更具情境感知的高效生产力伙伴的持续努力。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 594 · 💬 546 · AI&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49274027&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/12/top_stories_08122026#story-49274027&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>License plate reader searches should require a warrant</title>
