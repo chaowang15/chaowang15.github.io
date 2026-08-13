@@ -20,7 +20,7 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='635' data-hn-time='1786550690'>
+<div class='hn-top-story-item' data-hn-score='799' data-hn-time='1786550690'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -28,32 +28,32 @@ Sort:
  <a class='hn-top-story-link' href='https://openrouter.ai/deepseek/deepseek-v4-pro-0813' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>DeepSeek V4 Pro 0813</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 14</span> <span class='hn-top-story-score'>&#9650; 635</span> <span class='hn-top-story-comments'>&#128172; 227</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.9</span> <span class='hn-top-story-score'>&#9650; 799</span> <span class='hn-top-story-comments'>&#128172; 312</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='285' data-hn-time='1786558799'>
+<div class='hn-top-story-item' data-hn-score='869' data-hn-time='1786544550'>
 <span class='hn-top-story-rank'>2</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/12/top_stories_08122026#story-49276574'>Delta</a>
- <a class='hn-top-story-link' href='https://zed.dev/blog/introducing-delta' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Delta</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 285</span> <span class='hn-top-story-comments'>&#128172; 94</span> <span class='hn-top-story-tag'>Data</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='691' data-hn-time='1786544550'>
-<span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/08/12/top_stories_08122026#story-49272832'>Tailscale Traces Database Corruption to 16y/o SQLite WAL-Reset Bug</a>
  <a class='hn-top-story-link' href='https://tailscale.com/blog/sqlite-wal-reset-bug' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Tailscale 将 SQLite 的 WAL 重置 Bug 追溯到 16 年前的问题</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 691</span> <span class='hn-top-story-comments'>&#128172; 112</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Data</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.1</span> <span class='hn-top-story-score'>&#9650; 869</span> <span class='hn-top-story-comments'>&#128172; 168</span> <span class='hn-top-story-tag'>Data</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='645' data-hn-time='1786540805'>
+<div class='hn-top-story-item' data-hn-score='446' data-hn-time='1786558799'>
+<span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/12/top_stories_08122026#story-49276574'>Delta</a>
+ <a class='hn-top-story-link' href='https://zed.dev/blog/introducing-delta' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Delta</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.3</span> <span class='hn-top-story-score'>&#9650; 446</span> <span class='hn-top-story-comments'>&#128172; 152</span> <span class='hn-top-story-tag'>Startups</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='774' data-hn-time='1786540805'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -61,10 +61,10 @@ Sort:
  <a class='hn-top-story-link' href='https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>AI 正在吞并软件工程的中产阶层</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.3</span> <span class='hn-top-story-score'>&#9650; 645</span> <span class='hn-top-story-comments'>&#128172; 546</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Career</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.8</span> <span class='hn-top-story-score'>&#9650; 774</span> <span class='hn-top-story-comments'>&#128172; 719</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Career</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='495' data-hn-time='1786545819'>
+<div class='hn-top-story-item' data-hn-score='560' data-hn-time='1786545819'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -72,62 +72,62 @@ Sort:
  <a class='hn-top-story-link' href='https://andrewpwheeler.com/2026/08/12/license-plate-reader-searches-should-require-a-warrant/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>车牌识别搜索应当获得授权才可进行</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.1</span> <span class='hn-top-story-score'>&#9650; 495</span> <span class='hn-top-story-comments'>&#128172; 305</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Legal</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.1</span> <span class='hn-top-story-score'>&#9650; 560</span> <span class='hn-top-story-comments'>&#128172; 334</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Legal</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='288' data-hn-time='1786553665'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='526' data-hn-time='1786546877'>
 <span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/12/top_stories_08122026#story-49275385'>Grok 4.6 scores 61 on the Artificial Analysis Intelligence Index</a>
- <a class='hn-top-story-link' href='https://artificialanalysis.ai/articles/grok-4-6-benchmarks-and-analysis' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>SpaceXAI 的 Grok 4.6 在人工分析智能指数上得分 61</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.4</span> <span class='hn-top-story-score'>&#9650; 288</span> <span class='hn-top-story-comments'>&#128172; 278</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='416' data-hn-time='1786546877'>
-<span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/08/12/top_stories_08122026#story-49273478'>Qwen3.8-2.4T</a>
  <a class='hn-top-story-link' href='https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Qwen3.8-2.4T-A95B 模型</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.2</span> <span class='hn-top-story-score'>&#9650; 416</span> <span class='hn-top-story-comments'>&#128172; 87</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 526</span> <span class='hn-top-story-comments'>&#128172; 116</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='327' data-hn-time='1786548770'>
-<span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='447' data-hn-time='1786548770'>
+<span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/08/12/top_stories_08122026#story-49274027'>Grok 4.6</a>
  <a class='hn-top-story-link' href='https://x.ai/news/grok-4-6' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Grok 4.6</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.3</span> <span class='hn-top-story-score'>&#9650; 327</span> <span class='hn-top-story-comments'>&#128172; 335</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 447</span> <span class='hn-top-story-comments'>&#128172; 430</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='446' data-hn-time='1786535581'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='288' data-hn-time='1786553665'>
+<span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/12/top_stories_08122026#story-49275385'>Grok 4.6 scores 61 on the Artificial Analysis Intelligence Index</a>
+ <a class='hn-top-story-link' href='https://artificialanalysis.ai/articles/grok-4-6-benchmarks-and-analysis' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>SpaceXAI 的 Grok 4.6 在人工分析智能指数上得分 61</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 288</span> <span class='hn-top-story-comments'>&#128172; 278</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='79' data-hn-time='1786577181'>
 <span class='hn-top-story-rank'>9</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/12/top_stories_08122026#story-49279928'>Principia Mathematica is modern and insightful</a>
+ <a class='hn-top-story-link' href='https://okmij.org/ftp/Computation/Impressions/PrincipiaMathematica.html' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>《Principia Mathematica》现代且富有洞见</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 79</span> <span class='hn-top-story-comments'>&#128172; 30</span> <span class='hn-top-story-tag'>Science</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='461' data-hn-time='1786535581'>
+<span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/08/12/top_stories_08122026#story-49270953'>2026 Eclipse Webcams</a>
  <a class='hn-top-story-link' href='https://jonty.github.io/2026_eclipse_webcams/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>2026 年日食网络摄像头</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.6</span> <span class='hn-top-story-score'>&#9650; 446</span> <span class='hn-top-story-comments'>&#128172; 121</span> <span class='hn-top-story-tag'>Science</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='102' data-hn-time='1786558623'>
-<span class='hn-top-story-rank'>10</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/12/top_stories_08122026#story-49276534'>People who grew up with high economic connectedness earn more</a>
- <a class='hn-top-story-link' href='https://julienreszka.com/blog/your-key-to-success-isn-t-more-luck-or-hard-work/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>成长在高经济连接环境中的人收入更高</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.8</span> <span class='hn-top-story-score'>&#9650; 102</span> <span class='hn-top-story-comments'>&#128172; 100</span> <span class='hn-top-story-tag'>Education</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 461</span> <span class='hn-top-story-comments'>&#128172; 124</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/08/12/top_stories_08122026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>27</b> <span class="hn-row-sep">·</span> Programming <b>21</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>27</b> <span class="hn-row-sep">·</span> Programming <b>20</b></span>
 </a>
 </div>
 </div>
