@@ -5,9 +5,22 @@
     <link>https://chaowang15.github.io/hackernews/</link>
     <description>Curated daily digest of top Hacker News stories with AI-generated summaries, tags, and bilingual translations.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 14 Aug 2026 07:42:16 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2026 13:14:33 +0000</lastBuildDate>
     <generator>Hacker News Daily RSS Builder</generator>
     <atom:link href="https://chaowang15.github.io/hackernews/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Tracking down the 16-year-old WAL-reset SQLite bug</title>
+      <link>https://tailscale.com/blog/sqlite-wal-reset-bug</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49272832</guid>
+      <dc:creator>ropbear</dc:creator>
+      <pubDate>Wed, 12 Aug 2026 14:22:30 +0000</pubDate>
+      <category>Programming</category>
+      <category>Privacy</category>
+      <description>&lt;p&gt;Researchers zero in on a long-standing SQLite WAL reset bug that has persisted for 16 years. The issue can cause data integrity problems when the write-ahead logging file resets under certain conditions, impacting apps using WAL mode. The takeaway is to test WAL edge cases and ensure robust backup/restore paths, highlighting SQLite quirks in real-world apps.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;研究人员锁定一宗持续了16年的 SQLite WAL 重置漏洞。该问题在特定条件下会导致写入前日志文件重置时的数据完整性问题，影响使用 WAL 模式的应用程序。建议开发者测试 WAL 的边界情况，并确保备份/恢复路径健全，凸显实际应用中 SQLite 的潜在坑点。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 1188 · 💬 229 · Programming · Privacy&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49272832&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/13/top_stories_08132026#story-49272832&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Muse Glimmer: 30B-parameter model optimized for always-on local agent workflows</title>
       <link>https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model</link>
@@ -36,20 +49,6 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49195231&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/08/top_stories_08082026#story-49195231&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Tracking down the 16-year-old WAL-reset SQLite bug</title>
-      <link>https://tailscale.com/blog/sqlite-wal-reset-bug</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49272832</guid>
-      <dc:creator>ropbear</dc:creator>
-      <pubDate>Wed, 12 Aug 2026 14:22:30 +0000</pubDate>
-      <category>Programming</category>
-      <category>Data</category>
-      <category>Privacy</category>
-      <description>&lt;p&gt;Researchers zero in on a long-standing SQLite WAL reset bug that has persisted for 16 years. The issue can cause data integrity problems when the write-ahead logging file resets under certain conditions, impacting apps using WAL mode. The takeaway is to test WAL edge cases and ensure robust backup/restore paths, highlighting SQLite quirks in real-world apps.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;研究人员锁定一宗持续了16年的 SQLite WAL 重置漏洞。该问题在特定条件下会导致写入前日志文件重置时的数据完整性问题，影响使用 WAL 模式的应用程序。建议开发者测试 WAL 的边界情况，并确保备份/恢复路径健全，凸显实际应用中 SQLite 的潜在坑点。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 1131 · 💬 216 · Programming · Data · Privacy&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49272832&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/13/top_stories_08132026#story-49272832&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>France to ban unsolicited telemarketing calls</title>
       <link>https://www.lemonde.fr/en/france/article/2026/08/06/france-to-ban-unsolicited-telemarketing-calls-from-august-11_6756208_7.html</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=49254880</guid>
@@ -61,6 +60,19 @@
 &lt;p&gt;&lt;em&gt;法国将于11日起全面禁止未经请求的电话推销，强化对消费者隐私的保护。该举措可能促使企业转向获同意的联系渠道，并影响营销行业的电话营销策略。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 1035 · 💬 487 · Politics · Privacy&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49254880&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/11/top_stories_08112026#story-49254880&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>DeepSeek V4 Pro 0813</title>
+      <link>https://openrouter.ai/deepseek/deepseek-v4-pro-0813</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49274600</guid>
+      <dc:creator>explosion-s</dc:creator>
+      <pubDate>Wed, 12 Aug 2026 16:04:50 +0000</pubDate>
+      <category>AI</category>
+      <category>Privacy</category>
+      <description>&lt;p&gt;DeepSeek releases V4 Pro 0813, a major update that enhances on-device AI performance and search speed. The release focuses on faster indexing, improved privacy controls, and enterprise-friendly features for large-scale data workflows.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;DeepSeek 发布 V4 Pro 0813，显著提升本地 AI 性能与检索速度，强调更快的索引与更强的隐私控制，并为大规模数据工作流提供企业级特性。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 1025 · 💬 443 · AI · Privacy&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49274600&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/13/top_stories_08132026#story-49274600&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>What happens if an entire class of workers loses faith in their careers</title>
@@ -76,19 +88,6 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49209539&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/08/top_stories_08082026#story-49209539&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>DeepSeek V4 Pro 0813</title>
-      <link>https://openrouter.ai/deepseek/deepseek-v4-pro-0813</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49274600</guid>
-      <dc:creator>explosion-s</dc:creator>
-      <pubDate>Wed, 12 Aug 2026 16:04:50 +0000</pubDate>
-      <category>AI</category>
-      <category>Privacy</category>
-      <description>&lt;p&gt;DeepSeek releases V4 Pro 0813, a major update that enhances on-device AI performance and search speed. The release focuses on faster indexing, improved privacy controls, and enterprise-friendly features for large-scale data workflows.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;DeepSeek 发布 V4 Pro 0813，显著提升本地 AI 性能与检索速度，强调更快的索引与更强的隐私控制，并为大规模数据工作流提供企业级特性。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 1014 · 💬 439 · AI · Privacy&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49274600&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/13/top_stories_08132026#story-49274600&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>AI is removing the middle class of software engineering?</title>
       <link>https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=49271994</guid>
@@ -98,8 +97,8 @@
       <category>Career</category>
       <description>&lt;p&gt;A viewpoint argues that AI is eroding the middle tier of software engineering by automating routine tasks and raising productivity. It questions career ladders and suggests that engineers must adapt by focusing on higher-level design, system architecture, and AI-augmented workflows.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;观点认为 AI 正通过自动化日常任务和提高生产率，削弱软件工程的中层岗位。文章讨论职业晋升路径的变化，建议工程师在高层设计、系统架构以及与 AI 协作的工作流中寻找新机会。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 918 · 💬 824 · AI · Career&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49271994&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/12/top_stories_08122026#story-49271994&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;small&gt;▲ 976 · 💬 904 · AI · Career&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49271994&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/13/top_stories_08132026#story-49271994&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>AMD acquires Taalas to boost inference performance by etching models in silicon</title>
@@ -143,6 +142,18 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49222189&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/09/top_stories_08092026#story-49222189&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Gemini 3.7 Flash</title>
+      <link>https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49289112</guid>
+      <dc:creator>thisisauserid</dc:creator>
+      <pubDate>Thu, 13 Aug 2026 17:23:22 +0000</pubDate>
+      <category>AI</category>
+      <description>&lt;p&gt;Gemini 3.7 Flash extends the Gemini line with a lighter, faster variant optimized for low latency and smaller memory usage. It underscores Google’s ongoing push to edge-ready AI and developer-friendly tooling for large models.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Gemini 3.7 快闪版在保持核心能力的同时，提供更轻量、低延迟的推理性能，降低内存占用，便于边缘部署。此举显示谷歌在大模型的边缘化与开发者工具方面的持续推进。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 896 · 💬 451 · AI&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49289112&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/13/top_stories_08132026#story-49289112&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>How I use LLMs to learn complex topics</title>
       <link>https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=49234675</guid>
@@ -154,18 +165,6 @@
 &lt;p&gt;&lt;em&gt;将学习分成阶段使用模型：用它勾勒大纲、生成简明解释、再通过有针对性的提问检验理解。把模型当作高效的学习辅导工具，帮助建立稳固的认知模型并暴露薄弱点。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 804 · 💬 531 · AI · Education&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49234675&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/10/top_stories_08102026#story-49234675&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Gemini 3.7 Flash</title>
-      <link>https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49289112</guid>
-      <dc:creator>thisisauserid</dc:creator>
-      <pubDate>Thu, 13 Aug 2026 17:23:22 +0000</pubDate>
-      <category>AI</category>
-      <description>&lt;p&gt;Gemini 3.7 Flash extends the Gemini line with a lighter, faster variant optimized for low latency and smaller memory usage. It underscores Google’s ongoing push to edge-ready AI and developer-friendly tooling for large models.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Gemini 3.7 快闪版在保持核心能力的同时，提供更轻量、低延迟的推理性能，降低内存占用，便于边缘部署。此举显示谷歌在大模型的边缘化与开发者工具方面的持续推进。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 783 · 💬 409 · AI&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49289112&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/14/top_stories_08142026#story-49289112&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>New Mexico court orders Meta to pay $567m over harms to children’s mental health</title>
@@ -203,8 +202,21 @@
       <category>Hardware</category>
       <description>&lt;p&gt;Qwen3.8-2.4T-A95B is a large language model configured for 2.4 trillion parameters, optimized for inference on A95B hardware. The release underscores ongoing scaling and hardware-specific optimizations in modern LLMs.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Qwen3.8-2.4T-A95B 是一个 2.4 万亿参数的语言模型，针对 A95B 硬件进行推理优化，凸显了当下大模型的规模化与硬件定制优化。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 689 · 💬 161 · AI · Hardware&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 707 · 💬 170 · AI · Hardware&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49273478&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/13/top_stories_08132026#story-49273478&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>DeepSeek Harness developer preview</title>
+      <link>https://deepseek.com/harness/en/</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49285244</guid>
+      <dc:creator>bjin</dc:creator>
+      <pubDate>Thu, 13 Aug 2026 12:58:02 +0000</pubDate>
+      <category>AI</category>
+      <category>DevOps</category>
+      <description>&lt;p&gt;DeepSeek Harness appears to be a framework around DeepSeek AI to run experiments and benchmark performance. It could help teams standardize evaluation, compare model behavior, and improve reproducibility in AI workflows. This development comes at a time when measurable benchmarks are increasingly important for agent-powered systems.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;DeepSeek Harness 似乎是围绕 DeepSeek AI 的一个用于实验运行与性能基准的框架。它有助于团队标准化评估、对比模型行为，并提升 AI 工作流的可重复性。随着对代理系统的基准衡量需求提升，这类工具的重要性也在上升。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 691 · 💬 281 · AI · DevOps&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49285244&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/13/top_stories_08132026#story-49285244&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Stealing Reasoning Traces from Proprietary LLM APIs</title>
@@ -219,6 +231,44 @@
 &lt;p&gt;&lt;em&gt;研究者展示了专有大语言模型 API 可能泄露推理痕迹，暴露中间提示和推理步骤。这对使用托管模型的隐私与安全构成挑战，凸显防止信息泄露的必要性。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 686 · 💬 301 · Security · Privacy · AI&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49257876&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/12/top_stories_08122026#story-49257876&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>GLM-5.3: Frontier coding with emergent cyber capabilities</title>
+      <link>https://z.ai/blog/glm-5.3</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49294997</guid>
+      <dc:creator>pella</dc:creator>
+      <pubDate>Fri, 14 Aug 2026 05:19:59 +0000</pubDate>
+      <category>AI</category>
+      <category>Programming</category>
+      <category>Security</category>
+      <description>&lt;p&gt;GLM-5.3 expands the frontier of AI-assisted coding by showcasing emergent cyber capabilities that go beyond standard copilots. It hints at advanced code generation, reasoning, and integration skills that could reshape developer workflows and security tooling.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;GLM-5.3 展示了超越常规编码助手的涌现性网络能力，推动代码生成、推理与系统集成等方面的进步。此举可能重新定义开发者工作流以及相关的安全工具链。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 681 · 💬 333 · AI · Programming · Security&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49294997&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/13/top_stories_08132026#story-49294997&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Delta</title>
+      <link>https://zed.dev/blog/introducing-delta</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49276574</guid>
+      <dc:creator>khy</dc:creator>
+      <pubDate>Wed, 12 Aug 2026 18:19:59 +0000</pubDate>
+      <category>Business</category>
+      <description>&lt;p&gt;Delta introduces a new concept or product in the project's lineup, signaling a potential shift in how it handles data or workflows. The announcement invites readers to anticipate more details on capabilities, integrations, and use cases.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Delta 引入了该项目的新概念/产品，可能改变数据处理或工作流方式。公告预计将提供更多关于功能、集成与应用场景的细节。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 667 · 💬 249 · Business&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49276574&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/13/top_stories_08132026#story-49276574&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Spaghettifying DRAM</title>
+      <link>https://github.com/xoreaxeaxeax/skitter-creek-bath-salts</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49286341</guid>
+      <dc:creator>matt_d</dc:creator>
+      <pubDate>Thu, 13 Aug 2026 14:17:13 +0000</pubDate>
+      <category>Hardware</category>
+      <description>&lt;p&gt;Spaghettifying DRAM examines how unusual or chaotic memory layouts can affect latency, bandwidth, and reliability. The discussion highlights the ongoing tension between memory hardware complexity and software efficiency, suggesting approaches for hardware-aware optimization.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Spaghettifying DRAM 探讨了非传统、混乱的内存布局如何影响延迟、带宽与可靠性。该讨论凸显了内存硬件复杂性与软件效率之间的矛盾，并提出面向硬件的优化思路。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 663 · 💬 167 · Hardware&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49286341&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/13/top_stories_08132026#story-49286341&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Docker Sandboxes – Disposable, isolated sandboxes for AI agents</title>
@@ -283,6 +333,19 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49263497&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/12/top_stories_08122026#story-49263497&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Accelerating GPT-5.6 Sol Ultrafast</title>
+      <link>https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49289844</guid>
+      <dc:creator>pr337h4m</dc:creator>
+      <pubDate>Thu, 13 Aug 2026 18:10:02 +0000</pubDate>
+      <category>AI</category>
+      <category>Hardware</category>
+      <description>&lt;p&gt;Cerebras details substantial speedups for GPT-5.6 on its Sol Ultrafast platform, combining specialized hardware with software optimizations to accelerate inference. The result underscores how hardware-software co-design can dramatically shrink response times for cutting-edge LLMs.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Cerebras 在 Sol Ultrafast 平台上为 GPT‑5.6 提供显著加速，结合定制硬件与软件优化以缩短推理时间。硬件与软件的协同设计再次推动下一代大模型的实用性。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 650 · 💬 253 · AI · Hardware&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49289844&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/13/top_stories_08132026#story-49289844&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Danish high schoolers will have to verbally defend written assignments</title>
       <link>https://mezha.net/eng/bukvy/ca117584_denmark_requires_oral/</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=49224294</guid>
@@ -295,18 +358,6 @@
 &lt;p&gt;&lt;em&gt;丹麦新规要求学生对书面作业进行口头辩护，增加评估的维度并降低偏见。这对考试基础设施和在线/AI 辅助评估提出新挑战与需求。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 642 · 💬 277 · Education · AI · DevOps&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49224294&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/09/top_stories_08092026#story-49224294&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>DeepSeek Harness developer preview</title>
-      <link>https://deepseek.com/harness/en/</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49285244</guid>
-      <dc:creator>bjin</dc:creator>
-      <pubDate>Thu, 13 Aug 2026 12:58:02 +0000</pubDate>
-      <category>AI</category>
-      <description>&lt;p&gt;DeepSeek Harness appears to be a framework around DeepSeek AI to run experiments and benchmark performance. It could help teams standardize evaluation, compare model behavior, and improve reproducibility in AI workflows. This development comes at a time when measurable benchmarks are increasingly important for agent-powered systems.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;DeepSeek Harness 似乎是围绕 DeepSeek AI 的一个用于实验运行与性能基准的框架。它有助于团队标准化评估、对比模型行为，并提升 AI 工作流的可重复性。随着对代理系统的基准衡量需求提升，这类工具的重要性也在上升。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 636 · 💬 263 · AI&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49285244&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/14/top_stories_08142026#story-49285244&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Mark Zuckerberg attacks 'closed' AI rivals as Meta returns to open models</title>
@@ -322,16 +373,29 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49243880&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/11/top_stories_08112026#story-49243880&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Delta</title>
-      <link>https://zed.dev/blog/introducing-delta</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49276574</guid>
-      <dc:creator>khy</dc:creator>
-      <pubDate>Wed, 12 Aug 2026 18:19:59 +0000</pubDate>
-      <category>Data</category>
-      <description>&lt;p&gt;Delta introduces a new concept or product in the project's lineup, signaling a potential shift in how it handles data or workflows. The announcement invites readers to anticipate more details on capabilities, integrations, and use cases.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Delta 引入了该项目的新概念/产品，可能改变数据处理或工作流方式。公告预计将提供更多关于功能、集成与应用场景的细节。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 623 · 💬 227 · Data&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49276574&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/13/top_stories_08132026#story-49276574&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+      <title>Grok 4.6</title>
+      <link>https://x.ai/news/grok-4-6</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49274027</guid>
+      <dc:creator>iLuddite</dc:creator>
+      <pubDate>Wed, 12 Aug 2026 15:32:50 +0000</pubDate>
+      <category>AI</category>
+      <description>&lt;p&gt;Grok 4.6 updates the AI assistant with refinements to conversational ability, integration options, and developer-facing tooling. The release highlights ongoing efforts to evolve AI assistants into more capable, context-aware productivity partners.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Grok 4.6 对AI助手进行了若干改进，提升对话能力并扩展集成与开发工具。此次发布凸显了让AI助手成为更具情境感知的高效生产力伙伴的持续努力。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 627 · 💬 606 · AI&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49274027&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/13/top_stories_08132026#story-49274027&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>License plate reader searches should require a warrant</title>
+      <link>https://andrewpwheeler.com/2026/08/12/license-plate-reader-searches-should-require-a-warrant/</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49273165</guid>
+      <dc:creator>apwheele</dc:creator>
+      <pubDate>Wed, 12 Aug 2026 14:43:39 +0000</pubDate>
+      <category>Privacy</category>
+      <category>Legal</category>
+      <description>&lt;p&gt;Policy arguments are made for requiring warrants to search license plate data collected by LPR systems. It argues targeted, lawfully justified access over generic bulk surveillance.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;提出在使用车牌识别（LPR）系统检索数据时应当获得搜查令的政策主张。文章强调公民自由与滥用风险、数据保留与共享的隐私边界，以及应优先实现有针对性且合法授权的访问，而非大规模监控。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 627 · 💬 380 · Privacy · Legal&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49273165&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/13/top_stories_08132026#story-49273165&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tl;dv: Over 180k meetings left wide open</title>
@@ -360,19 +424,6 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49270726&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/12/top_stories_08122026#story-49270726&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Grok 4.6</title>
-      <link>https://x.ai/news/grok-4-6</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49274027</guid>
-      <dc:creator>iLuddite</dc:creator>
-      <pubDate>Wed, 12 Aug 2026 15:32:50 +0000</pubDate>
-      <category>AI</category>
-      <category>Programming</category>
-      <description>&lt;p&gt;Grok 4.6 updates the AI assistant with refinements to conversational ability, integration options, and developer-facing tooling. The release highlights ongoing efforts to evolve AI assistants into more capable, context-aware productivity partners.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Grok 4.6 对AI助手进行了若干改进，提升对话能力并扩展集成与开发工具。此次发布凸显了让AI助手成为更具情境感知的高效生产力伙伴的持续努力。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 607 · 💬 568 · AI · Programming&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49274027&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/13/top_stories_08132026#story-49274027&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Mea Culpa – Dark Hours</title>
       <link>https://blog.terrygodier.com/2026/08/09/mea-culpa-dark-hours.html</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=49231154</guid>
@@ -383,31 +434,6 @@
 &lt;p&gt;&lt;em&gt;这是一篇在艰难时期写就的坦诚自我批评。文中承认了错误及其后果，并提出今后将采取的具体改进措施，强调对所发生事件的负责与从中学习的重要性。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 602 · 💬 279 · Culture&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49231154&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/10/top_stories_08102026#story-49231154&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>License plate reader searches should require a warrant</title>
-      <link>https://andrewpwheeler.com/2026/08/12/license-plate-reader-searches-should-require-a-warrant/</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49273165</guid>
-      <dc:creator>apwheele</dc:creator>
-      <pubDate>Wed, 12 Aug 2026 14:43:39 +0000</pubDate>
-      <category>Privacy</category>
-      <category>Legal</category>
-      <description>&lt;p&gt;Policy arguments are made for requiring warrants to search license plate data collected by LPR systems. It argues targeted, lawfully justified access over generic bulk surveillance.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;提出在使用车牌识别（LPR）系统检索数据时应当获得搜查令的政策主张。文章强调公民自由与滥用风险、数据保留与共享的隐私边界，以及应优先实现有针对性且合法授权的访问，而非大规模监控。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 593 · 💬 357 · Privacy · Legal&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49273165&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/12/top_stories_08122026#story-49273165&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Spaghettifying DRAM</title>
-      <link>https://github.com/xoreaxeaxeax/skitter-creek-bath-salts</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49286341</guid>
-      <dc:creator>matt_d</dc:creator>
-      <pubDate>Thu, 13 Aug 2026 14:17:13 +0000</pubDate>
-      <category>Hardware</category>
-      <description>&lt;p&gt;Spaghettifying DRAM examines how unusual or chaotic memory layouts can affect latency, bandwidth, and reliability. The discussion highlights the ongoing tension between memory hardware complexity and software efficiency, suggesting approaches for hardware-aware optimization.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Spaghettifying DRAM 探讨了非传统、混乱的内存布局如何影响延迟、带宽与可靠性。该讨论凸显了内存硬件复杂性与软件效率之间的矛盾，并提出面向硬件的优化思路。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 591 · 💬 153 · Hardware&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49286341&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/14/top_stories_08142026#story-49286341&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>England set to be one of the first countries to eliminate hepatitis C</title>
@@ -421,19 +447,6 @@
 &lt;p&gt;&lt;em&gt;英格兰有望成为首批根除丙型肝炎的国家之一，这一成就依赖广泛筛查和高效抗病毒治疗的组合。若实现，将验证可复制的公共卫生策略，并可能激励其他国家设定相似目标。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 559 · 💬 400 · Health · Science&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49257377&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/12/top_stories_08122026#story-49257377&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Accelerating GPT-5.6 Sol Ultrafast</title>
-      <link>https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49289844</guid>
-      <dc:creator>pr337h4m</dc:creator>
-      <pubDate>Thu, 13 Aug 2026 18:10:02 +0000</pubDate>
-      <category>AI</category>
-      <category>Hardware</category>
-      <description>&lt;p&gt;Cerebras details substantial speedups for GPT-5.6 on its Sol Ultrafast platform, combining specialized hardware with software optimizations to accelerate inference. The result underscores how hardware-software co-design can dramatically shrink response times for cutting-edge LLMs.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Cerebras 在 Sol Ultrafast 平台上为 GPT‑5.6 提供显著加速，结合定制硬件与软件优化以缩短推理时间。硬件与软件的协同设计再次推动下一代大模型的实用性。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 550 · 💬 231 · AI · Hardware&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49289844&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/14/top_stories_08142026#story-49289844&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Oracle bans AI-generated code from OpenJDK</title>
@@ -553,6 +566,19 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49268564&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/12/top_stories_08122026#story-49268564&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Codex in ChatGPT desktop app for Linux is now in preview</title>
+      <link>https://community.openai.com/t/codex-in-chatgpt-desktop-app-for-linux-is-now-in-preview/1390027</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49281916</guid>
+      <dc:creator>allanrbo</dc:creator>
+      <pubDate>Thu, 13 Aug 2026 04:53:41 +0000</pubDate>
+      <category>AI</category>
+      <category>Programming</category>
+      <description>&lt;p&gt;Codex is now available in preview inside the Linux version of the ChatGPT desktop app, enabling code-focused assistance in the local environment. This marks a step toward broader Codex integration across desktop platforms and could speed up coding tasks for Linux users. Expect refinements as feedback rolls in during the preview.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;OpenAI 将 Codex 能力带入 Linux 版 ChatGPT 桌面应用，现已进入预览阶段。这让 Linux 用户在桌面环境中体验代码生成功能，标志着桌面端 AI 工具生态的扩展。随着反馈迭代，后续版本将进一步完善。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 458 · 💬 311 · AI · Programming&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49281916&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/13/top_stories_08132026#story-49281916&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>A year of fighting scrapers on my 1.5 million-page website</title>
       <link>https://patronview.com/news/99-percent-of-my-website-traffic-is-bots/</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=49211386</guid>
@@ -576,19 +602,6 @@
 &lt;p&gt;&lt;em&gt;Claude 将 AI 生成的内容以明确标签标注，帮助用户区分人类与机器作者。这种透明度有助于提高信任度，并在混合工作流中为内容审核提供指引。要点是：关注 Claude 输出中的 AI 来源标记。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 438 · 💬 399 · AI&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49250109&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/11/top_stories_08112026#story-49250109&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Codex in ChatGPT desktop app for Linux is now in preview</title>
-      <link>https://community.openai.com/t/codex-in-chatgpt-desktop-app-for-linux-is-now-in-preview/1390027</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49281916</guid>
-      <dc:creator>allanrbo</dc:creator>
-      <pubDate>Thu, 13 Aug 2026 04:53:41 +0000</pubDate>
-      <category>AI</category>
-      <category>Programming</category>
-      <description>&lt;p&gt;Codex support lands in the Linux desktop ChatGPT app, now in preview, enabling coding assistance directly from the desktop—offering faster iteration and offline-friendly workflows.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Linux 桌面端的 ChatGPT 已加入 Codex 预览，意味着在本地就可获得代码生成与辅助的体验，提升开发迭代速度并增强离线工作能力。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 437 · 💬 297 · AI · Programming&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49281916&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/13/top_stories_08132026#story-49281916&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>_for-sale DNS records</title>
@@ -641,19 +654,6 @@
 &lt;p&gt;&lt;em&gt;一位物理学家把仓鼠轮改装，实现跑步数据上传到 Strava，成为一个有趣的关于数据采集的示例，凸显日常物品也能成为数据源并促使人们思考数据溯源。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 429 · 💬 97 · Data · Science&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49189457&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/09/top_stories_08092026#story-49189457&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Mojo 1.0</title>
-      <link>https://www.modular.com/blog/modular-26-5-mojo-1-0-is-here</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49261128</guid>
-      <dc:creator>dayanruben</dc:creator>
-      <pubDate>Tue, 11 Aug 2026 16:56:46 +0000</pubDate>
-      <category>Programming</category>
-      <category>AI</category>
-      <description>&lt;p&gt;Modular announces Mojo 1.0, marking the language's transition from preview to a stable release. Mojo combines Python-like ergonomics with a systems-level performance model, targeting AI/ML workloads and high-throughput apps, with a growing toolchain and libraries.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Modular 宣布 Mojo 1.0 正式发布，标志着这门面向 AI/ML 及高吞吐场景的系统编程语言进入稳定阶段。Mojo 将 Python 式易用性与系统级性能结合，伴随逐步完善的工具链与库，旨在提升开发效率与运行效率。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 426 · 💬 236 · Programming · AI&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49261128&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/12/top_stories_08122026#story-49261128&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
