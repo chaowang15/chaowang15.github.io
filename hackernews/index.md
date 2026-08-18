@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>179</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>26441</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>177</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>177</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-08-17</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>180</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>26491</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>177</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>178</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-08-18</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,118 +20,118 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='782' data-hn-time='1786996035'>
+<div class='hn-top-story-item' data-hn-score='318' data-hn-time='1787048008'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/17/top_stories_08172026#story-49336573'>AI;DR (AI; Didn't Read)</a>
- <a class='hn-top-story-link' href='https://www.rickmanelius.com/p/aidr-ai-didnt-read' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/18/top_stories_08182026#story-49343559'>Google buys crashed airline Spirit's data at auction, because AI</a>
+ <a class='hn-top-story-link' href='https://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>AI；DR（AI 未读）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.6</span> <span class='hn-top-story-score'>&#9650; 782</span> <span class='hn-top-story-comments'>&#128172; 495</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>Google 在拍卖中买下 Spirit 航空的灾难数据，用于 AI</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 318</span> <span class='hn-top-story-comments'>&#128172; 206</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Data</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='407' data-hn-time='1787005240'>
+<div class='hn-top-story-item' data-hn-score='121' data-hn-time='1787057034'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/17/top_stories_08172026#story-49338459'>How Bluesky draws its logo on screenshots</a>
- <a class='hn-top-story-link' href='https://timmarinin.net/2026/bluesky-screenshots/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/18/top_stories_08182026#story-49344825'>Using the railway network as a flatbed scanner</a>
+ <a class='hn-top-story-link' href='https://philo.gay/linecam/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Bluesky 在截图上绘制徽标的机制</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.8</span> <span class='hn-top-story-score'>&#9650; 407</span> <span class='hn-top-story-comments'>&#128172; 276</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Design</span></div>
+<div class='hn-top-story-zh'>把铁路网当成平板扫描仪</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 121</span> <span class='hn-top-story-comments'>&#128172; 22</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>DevOps</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='349' data-hn-time='1787000598'>
+<div class='hn-top-story-item' data-hn-score='109' data-hn-time='1787056973'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/17/top_stories_08172026#story-49337602'>GPT-5.6 Sol Pricing Cut by 50%</a>
- <a class='hn-top-story-link' href='https://openrouter.ai/openai/gpt-5.6-sol' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/18/top_stories_08182026#story-49344811'>Fairphone is now officially available in the United States</a>
+ <a class='hn-top-story-link' href='https://www.fairphone.com/nl/stories/the-fairphone-gen-6-is-all-about-giving-you-more' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>GPT-5.6 Sol 定价降幅50%</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.1</span> <span class='hn-top-story-score'>&#9650; 349</span> <span class='hn-top-story-comments'>&#128172; 183</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-zh'>Fairphone 已在美国正式发售</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.5</span> <span class='hn-top-story-score'>&#9650; 109</span> <span class='hn-top-story-comments'>&#128172; 31</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='353' data-hn-time='1786999570'>
+<div class='hn-top-story-item' data-hn-score='71' data-hn-time='1787059358'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/17/top_stories_08172026#story-49337392'>Israel creates fake think tank in likely attempt to dupe AI chatbots</a>
- <a class='hn-top-story-link' href='https://responsiblestatecraft.org/israel-influence-chatgpt/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/18/top_stories_08182026#story-49345263'>The Amazon Tax</a>
+ <a class='hn-top-story-link' href='https://seths.blog/2026/08/the-amazon-tax/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>以色列设立假冒智库以误导 AI 聊天机器人</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 353</span> <span class='hn-top-story-comments'>&#128172; 221</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>亚马逊税</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.6</span> <span class='hn-top-story-score'>&#9650; 71</span> <span class='hn-top-story-comments'>&#128172; 32</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='278' data-hn-time='1787004374'>
+<div class='hn-top-story-item' data-hn-score='345' data-hn-time='1787039510'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/17/top_stories_08172026#story-49338328'>Quake Shareware, a CD-ROM just a little too full</a>
- <a class='hn-top-story-link' href='https://fabiensanglard.net/quake_shareware_cd/index.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/18/top_stories_08182026#story-49342719'>Linux 7.3 improves performance when running out of vRAM</a>
+ <a class='hn-top-story-link' href='https://pixelcluster.dev/VRAM-Overcommit/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Quake 共享版：光碟容量略显紧张导致的取舍</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.8</span> <span class='hn-top-story-score'>&#9650; 278</span> <span class='hn-top-story-comments'>&#128172; 119</span> <span class='hn-top-story-tag'>Gaming</span></div>
+<div class='hn-top-story-zh'>Linux 7.3 在虚拟内存不足时提升性能</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.0</span> <span class='hn-top-story-score'>&#9650; 345</span> <span class='hn-top-story-comments'>&#128172; 116</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='601' data-hn-time='1786974387'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='88' data-hn-time='1787055835'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/17/top_stories_08172026#story-49330781'>A Preview of DuckDB v2.0</a>
- <a class='hn-top-story-link' href='https://duckdb.org/2026/08/17/duckdb-20-highlights' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/18/top_stories_08182026#story-49344654'>Meta Files Patent for Facial Recognition, Automatic Recording of People</a>
+ <a class='hn-top-story-link' href='https://www.privacyguides.org/news/2026/08/17/meta-files-patent-for-facial-recognition-automatic-recording-of-people/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>DuckDB v2.0 预览</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 601</span> <span class='hn-top-story-comments'>&#128172; 110</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-zh'>Meta 在面向隐私与监控伦理方面的专利：面部识别与自动记录</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.6</span> <span class='hn-top-story-score'>&#9650; 88</span> <span class='hn-top-story-comments'>&#128172; 43</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Legal</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='565' data-hn-time='1786975157'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='52' data-hn-time='1787059120'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/17/top_stories_08172026#story-49331033'>Ask HN: Alternatives to GitHub</a>
- <a class='hn-top-story-link' href='https://news.ycombinator.com/item?id=49331033' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/18/top_stories_08182026#story-49345220'>Fixing a Bricked Framework Laptop</a>
+ <a class='hn-top-story-link' href='https://quantum5.ca/2026/08/16/fixing-bricked-amd-7040-series-framework-13-laptop-with-20-tools/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Ask HN：GitHub 的替代方案</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 565</span> <span class='hn-top-story-comments'>&#128172; 359</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>修复砖化的 Framework 笔记本电脑</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.0</span> <span class='hn-top-story-score'>&#9650; 52</span> <span class='hn-top-story-comments'>&#128172; 13</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Education</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='333' data-hn-time='1786987517'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='55' data-hn-time='1787058384'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/17/top_stories_08172026#story-49334544'>Qwen3.8 27B scores 52 on Artificial Analysis</a>
- <a class='hn-top-story-link' href='https://artificialanalysis.ai/models/qwen3-8-27b' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/18/top_stories_08182026#story-49345070'>Deus Ex creator Warren Spector is retiring from game development</a>
+ <a class='hn-top-story-link' href='https://www.videogameschronicle.com/news/its-just-not-as-much-fun-for-me-anymore-deus-ex-creator-warren-spector-is-retiring-from-game-development/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Qwen3.8 27B 在 Artificial Analysis 基准测试中得分52</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 333</span> <span class='hn-top-story-comments'>&#128172; 147</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>Deus Ex 创作者 Warren Spector 将退休</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.7</span> <span class='hn-top-story-score'>&#9650; 55</span> <span class='hn-top-story-comments'>&#128172; 28</span> <span class='hn-top-story-tag'>Gaming</span> <span class='hn-top-story-tag'>Culture</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='463' data-hn-time='1786973706'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='64' data-hn-time='1787055778'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/17/top_stories_08172026#story-49330597'>Incident with Github.com</a>
- <a class='hn-top-story-link' href='https://www.githubstatus.com/incidents/zkxwbgr0cnmx' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/18/top_stories_08182026#story-49344643'>Claude writing a macOS driver for my obscure HP printer built only for Windows</a>
+ <a class='hn-top-story-link' href='https://twitter.com/kuberwastaken/status/2089377982536388964' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>GitHub.com 服务中断事件</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.2</span> <span class='hn-top-story-score'>&#9650; 463</span> <span class='hn-top-story-comments'>&#128172; 838</span> <span class='hn-top-story-tag'>DevOps</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>Claude 为我那台仅 Windows 构建的冷门 HP 打印机写 macOS 驱动</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.8</span> <span class='hn-top-story-score'>&#9650; 64</span> <span class='hn-top-story-comments'>&#128172; 14</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='63' data-hn-time='1787019062'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='991' data-hn-time='1786996035'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/17/top_stories_08172026#story-49340299'>The Benchmarkpocalypse</a>
- <a class='hn-top-story-link' href='https://danluu.com/benchpocalypse/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/18/top_stories_08182026#story-49336573'>AI;DR (AI; Didn't Read)</a>
+ <a class='hn-top-story-link' href='https://www.rickmanelius.com/p/aidr-ai-didnt-read' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>基准灾难</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 63</span> <span class='hn-top-story-comments'>&#128172; 8</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>AI；DR（AI 未读）</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 991</span> <span class='hn-top-story-comments'>&#128172; 607</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
-<a class='hn-top-stories-more' href='/hackernews/2026/08/17/top_stories_08172026'>View all trending stories &rarr;</a>
+<a class='hn-top-stories-more' href='/hackernews/2026/08/18/top_stories_08182026'>View all trending stories &rarr;</a>
 <a class='hn-top-stories-more' href='/hackernews/2026/08/17/best_stories_08172026'>Latest Daily Best — 2026-08-17 &rarr;</a>
 </div>
 </div>
@@ -140,10 +140,19 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 34 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-08-17 <span class="hn-row-sep">·</span> 150 stories <span class="hn-row-sep">·</span> 1 days</span>
+<span class='hn-week-meta'>2026-08-17 — 2026-08-18 <span class="hn-row-sep">·</span> 200 stories <span class="hn-row-sep">·</span> 2 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
+<div class='hn-day-row'>
+<div class='hn-day-date'>2026-08-18 <span class='hn-day-weekday'>Tue</span></div>
+<div class='hn-day-stories'>
+<a class='hn-story-link' href='/hackernews/2026/08/18/top_stories_08182026'>
+<span class='hn-row-type hn-type-top'>Trending</span>
+<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>13</b> <span class="hn-row-sep">·</span> Programming <b>11</b></span>
+</a>
+</div>
+</div>
 <div class='hn-day-row'>
 <div class='hn-day-date'>2026-08-17 <span class='hn-day-weekday'>Mon</span></div>
 <div class='hn-day-stories'>
@@ -574,33 +583,6 @@ Sort:
 <a class='hn-story-link' href='/hackernews/2026/07/20/top_stories_07202026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
 <span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>26</b> <span class="hn-row-sep">·</span> Programming <b>17</b></span>
-</a>
-</div>
-</div>
-</div>
-</div>
-</details>
-<details class='hn-week-group'>
-<summary class='hn-week-summary'>
-<span class='hn-week-title'>2026 Week 29</span>
-<span class='hn-week-meta'>2026-07-19 <span class="hn-row-sep">·</span> 150 stories <span class="hn-row-sep">·</span> 1 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
-</summary>
-<div class='hn-week-content'>
-<a class='hn-story-link hn-weekly-digest-link' href='/hackernews/weekly/2026-W29'>
-<span class='hn-row-type hn-type-weekly'>Weekly Digest</span>
-<span class='hn-row-detail'>2026-07-13 — 2026-07-19 <span class="hn-row-sep">·</span> All <b>492</b> <span class="hn-row-sep">·</span> AI <b>128</b> <span class="hn-row-sep">·</span> Programming <b>104</b></span>
-</a>
-<div class='hn-grid'>
-<div class='hn-day-row'>
-<div class='hn-day-date'>2026-07-19 <span class='hn-day-weekday'>Sun</span></div>
-<div class='hn-day-stories'>
-<a class='hn-story-link' href='/hackernews/2026/07/19/best_stories_07192026'>
-<span class='hn-row-type hn-type-best'>Daily Best</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>14</b> <span class="hn-row-sep">·</span> Hardware <b>8</b></span>
-</a>
-<a class='hn-story-link' href='/hackernews/2026/07/19/top_stories_07192026'>
-<span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>22</b> <span class="hn-row-sep">·</span> Programming <b>21</b></span>
 </a>
 </div>
 </div>
