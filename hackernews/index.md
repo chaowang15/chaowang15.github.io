@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>180</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>26591</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>178</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>178</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-08-18</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>181</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>26641</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>178</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>179</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-08-19</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,118 +20,118 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='324' data-hn-time='1787104708'>
+<div class='hn-top-story-item' data-hn-score='284' data-hn-time='1787140018'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/18/top_stories_08182026#story-49355606'>OpenLogi</a>
- <a class='hn-top-story-link' href='https://openlogi.org/en' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/19/top_stories_08192026#story-49360242'>GrapheneOS in 2027 available on high-end Motorola phones</a>
+ <a class='hn-top-story-link' href='https://grapheneos.social/@GrapheneOS/117078064184215730' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>OpenLogi：开放物流</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.9</span> <span class='hn-top-story-score'>&#9650; 324</span> <span class='hn-top-story-comments'>&#128172; 63</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-zh'>GrapheneOS 将在 2027 年登陆 Motorola 高端机型</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 17</span> <span class='hn-top-story-score'>&#9650; 284</span> <span class='hn-top-story-comments'>&#128172; 160</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='71' data-hn-time='1787118677'>
+<div class='hn-top-story-item' data-hn-score='1131' data-hn-time='1787104708'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/18/top_stories_08182026#story-49357401'>Bun 1.4 Rust rewrite is not looking good</a>
- <a class='hn-top-story-link' href='https://tipiirai.com/writing/bun-rust-rewrite-worries' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/19/top_stories_08192026#story-49355606'>OpenLogi</a>
+ <a class='hn-top-story-link' href='https://openlogi.org/en' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Bun 1.4 Rust 重写看起来不太乐观</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.3</span> <span class='hn-top-story-score'>&#9650; 71</span> <span class='hn-top-story-comments'>&#128172; 41</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>OpenLogi：开放物流</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.1</span> <span class='hn-top-story-score'>&#9650; 1131</span> <span class='hn-top-story-comments'>&#128172; 320</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='346' data-hn-time='1787100831'>
+<div class='hn-top-story-item' data-hn-score='66' data-hn-time='1787146415'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/18/top_stories_08182026#story-49355142'>Sticky wage norms and the real wage cost of unexpected inflation</a>
- <a class='hn-top-story-link' href='https://bfi.uchicago.edu/wp-content/uploads/2026/08/BFI_WP_2026-108-1.pdf' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/19/top_stories_08192026#story-49361395'>Moderna reports first positive Phase 3 for mRNA neoantigen therapy in melanoma</a>
+ <a class='hn-top-story-link' href='https://twitter.com/NoubarAfeyan/status/2090050162441752787' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>粘性工资规范与意外通胀的实际工资成本</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.1</span> <span class='hn-top-story-score'>&#9650; 346</span> <span class='hn-top-story-comments'>&#128172; 201</span> <span class='hn-top-story-tag'>Finance</span></div>
+<div class='hn-top-story-zh'>Moderna 与 Merck 联合推进的 mRNA 癌症疫苗在黑色素瘤三期试验取得积极结果</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.9</span> <span class='hn-top-story-score'>&#9650; 66</span> <span class='hn-top-story-comments'>&#128172; 9</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Health</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='191' data-hn-time='1787106274'>
+<div class='hn-top-story-item' data-hn-score='115' data-hn-time='1787141992'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/18/top_stories_08182026#story-49355825'>Meta's blockbuster trial draws parallels to big tobacco</a>
- <a class='hn-top-story-link' href='https://www.economist.com/business/2026/08/18/metas-blockbuster-trial-draws-parallels-to-big-tobacco' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/19/top_stories_08192026#story-49360545'>Geolocating a random island using geometry and CUDA programming</a>
+ <a class='hn-top-story-link' href='https://yassa9.github.io/osint/gralhix-004/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Meta 的重磅诉讼被拿来与大烟草案比较</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.5</span> <span class='hn-top-story-score'>&#9650; 191</span> <span class='hn-top-story-comments'>&#128172; 139</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Health</span></div>
+<div class='hn-top-story-zh'>用几何与 CUDA 编程定位随机岛屿的地理位置</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.4</span> <span class='hn-top-story-score'>&#9650; 115</span> <span class='hn-top-story-comments'>&#128172; 28</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='1108' data-hn-time='1787059358'>
+<div class='hn-top-story-item' data-hn-score='60' data-hn-time='1787145681'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/18/top_stories_08182026#story-49345263'>The Amazon tax</a>
- <a class='hn-top-story-link' href='https://seths.blog/2026/08/the-amazon-tax/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/19/top_stories_08192026#story-49361279'>PostgreSQL for Everything</a>
+ <a class='hn-top-story-link' href='https://www.raphaelbauer.com:443/posts/postgresql-everything/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>亚马逊税</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.2</span> <span class='hn-top-story-score'>&#9650; 1108</span> <span class='hn-top-story-comments'>&#128172; 610</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-zh'>PostgreSQL 的万能应用</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.2</span> <span class='hn-top-story-score'>&#9650; 60</span> <span class='hn-top-story-comments'>&#128172; 32</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='514' data-hn-time='1787081391'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='117' data-hn-time='1787138510'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/18/top_stories_08182026#story-49351324'>Beware Management Consultants</a>
- <a class='hn-top-story-link' href='https://about.iceland.co.uk/our-story/the-dark-ages/beware-management-consultants/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/19/top_stories_08192026#story-49360015'>A joke domain purchase turned in geopolitical warfare</a>
+ <a class='hn-top-story-link' href='https://sprocketfox.io/xssfox/2026/08/19/sondehub-and-war/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>警惕管理咨询顾问</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.8</span> <span class='hn-top-story-score'>&#9650; 514</span> <span class='hn-top-story-comments'>&#128172; 128</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-zh'>一个玩笑域名购买引发的地缘政治冲突</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.9</span> <span class='hn-top-story-score'>&#9650; 117</span> <span class='hn-top-story-comments'>&#128172; 11</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>DevOps</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='205' data-hn-time='1787099298'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='119' data-hn-time='1787134500'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/18/top_stories_08182026#story-49354949'>Cerebras CS-4</a>
- <a class='hn-top-story-link' href='https://www.cerebras.ai/cs4' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/19/top_stories_08192026#story-49359425'>Air Theremin – a browser theremin you play by waving at your webcam</a>
+ <a class='hn-top-story-link' href='https://theremin.bizibah.com/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Cerebras CS-4 新一代AI加速器</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.4</span> <span class='hn-top-story-score'>&#9650; 205</span> <span class='hn-top-story-comments'>&#128172; 145</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>Air Theremin：通过摄像头在浏览器中挥手演奏的 Theremin</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.3</span> <span class='hn-top-story-score'>&#9650; 119</span> <span class='hn-top-story-comments'>&#128172; 57</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Entertainment</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='150' data-hn-time='1787100503'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1278' data-hn-time='1787059358'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/18/top_stories_08182026#story-49355105'>Scientists stunned by children's lung recovery in ultra low emission zone</a>
- <a class='hn-top-story-link' href='https://www.bbc.com/news/articles/c1l1r1zne1ro' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/19/top_stories_08192026#story-49345263'>The Amazon tax</a>
+ <a class='hn-top-story-link' href='https://seths.blog/2026/08/the-amazon-tax/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>超低排放区使儿童肺部康复，科学家感到震惊</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 150</span> <span class='hn-top-story-comments'>&#128172; 93</span> <span class='hn-top-story-tag'>Health</span></div>
+<div class='hn-top-story-zh'>亚马逊税</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 1278</span> <span class='hn-top-story-comments'>&#128172; 649</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='239' data-hn-time='1787089833'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='146' data-hn-time='1787125639'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/18/top_stories_08182026#story-49353221'>A 3D fruit fly on macOS desktop powered by the real FlyWire connectome</a>
- <a class='hn-top-story-link' href='https://github.com/DenisSergeevitch/desktop-fly' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/19/top_stories_08192026#story-49358327'>The Mojo language (by Modular, now Qualcomm) is now open-source</a>
+ <a class='hn-top-story-link' href='https://www.modular.com/blog/modcon-announcements' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>基于真实 FlyWire 连接组的 macOS 桌面 3D 果蝇可视化</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 239</span> <span class='hn-top-story-comments'>&#128172; 81</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Science</span></div>
+<div class='hn-top-story-zh'>Mojo 语言现已开源（Modular/Qualcomm）</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 146</span> <span class='hn-top-story-comments'>&#128172; 56</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='307' data-hn-time='1787076713'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='372' data-hn-time='1787100831'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/18/top_stories_08182026#story-49349984'>How does IKEA come up with names for its products?</a>
- <a class='hn-top-story-link' href='https://www.ikea.com/se/en/customer-service/knowledge/articles/6f564c4d-2ccc-46de-b643-545a3948dc79.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/19/top_stories_08192026#story-49355142'>Sticky wage norms and the real wage cost of unexpected inflation</a>
+ <a class='hn-top-story-link' href='https://bfi.uchicago.edu/wp-content/uploads/2026/08/BFI_WP_2026-108-1.pdf' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>IKEA 产品名是怎么起的？</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 307</span> <span class='hn-top-story-comments'>&#128172; 182</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Design</span></div>
+<div class='hn-top-story-zh'>粘性工资规范与意外通胀的实际工资成本</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 372</span> <span class='hn-top-story-comments'>&#128172; 236</span> <span class='hn-top-story-tag'>Finance</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
-<a class='hn-top-stories-more' href='/hackernews/2026/08/18/top_stories_08182026'>View all trending stories &rarr;</a>
+<a class='hn-top-stories-more' href='/hackernews/2026/08/19/top_stories_08192026'>View all trending stories &rarr;</a>
 <a class='hn-top-stories-more' href='/hackernews/2026/08/18/best_stories_08182026'>Latest Daily Best — 2026-08-18 &rarr;</a>
 </div>
 </div>
@@ -140,10 +140,19 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 34 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-08-17 — 2026-08-18 <span class="hn-row-sep">·</span> 300 stories <span class="hn-row-sep">·</span> 2 days</span>
+<span class='hn-week-meta'>2026-08-17 — 2026-08-19 <span class="hn-row-sep">·</span> 350 stories <span class="hn-row-sep">·</span> 3 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
+<div class='hn-day-row'>
+<div class='hn-day-date'>2026-08-19 <span class='hn-day-weekday'>Wed</span></div>
+<div class='hn-day-stories'>
+<a class='hn-story-link' href='/hackernews/2026/08/19/top_stories_08192026'>
+<span class='hn-row-type hn-type-top'>Trending</span>
+<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> Programming <b>14</b> <span class="hn-row-sep">·</span> Science <b>11</b></span>
+</a>
+</div>
+</div>
 <div class='hn-day-row'>
 <div class='hn-day-date'>2026-08-18 <span class='hn-day-weekday'>Tue</span></div>
 <div class='hn-day-stories'>
@@ -491,7 +500,7 @@ Sort:
 <details class='hn-week-group'>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 30</span>
-<span class='hn-week-meta'>2026-07-20 — 2026-07-26 <span class="hn-row-sep">·</span> 1050 stories <span class="hn-row-sep">·</span> 7 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
+<span class='hn-week-meta'>2026-07-21 — 2026-07-26 <span class="hn-row-sep">·</span> 900 stories <span class="hn-row-sep">·</span> 6 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
 </summary>
 <div class='hn-week-content'>
 <a class='hn-story-link hn-weekly-digest-link' href='/hackernews/weekly/2026-W30'>
@@ -574,19 +583,6 @@ Sort:
 <a class='hn-story-link' href='/hackernews/2026/07/21/top_stories_07212026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
 <span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>29</b> <span class="hn-row-sep">·</span> Programming <b>19</b></span>
-</a>
-</div>
-</div>
-<div class='hn-day-row'>
-<div class='hn-day-date'>2026-07-20 <span class='hn-day-weekday'>Mon</span></div>
-<div class='hn-day-stories'>
-<a class='hn-story-link' href='/hackernews/2026/07/20/best_stories_07202026'>
-<span class='hn-row-type hn-type-best'>Daily Best</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>17</b> <span class="hn-row-sep">·</span> Hardware <b>10</b></span>
-</a>
-<a class='hn-story-link' href='/hackernews/2026/07/20/top_stories_07202026'>
-<span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>26</b> <span class="hn-row-sep">·</span> Programming <b>17</b></span>
 </a>
 </div>
 </div>
