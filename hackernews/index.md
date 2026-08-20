@@ -20,7 +20,7 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='669' data-hn-time='1787160758'>
+<div class='hn-top-story-item' data-hn-score='793' data-hn-time='1787160758'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -28,10 +28,10 @@ Sort:
  <a class='hn-top-story-link' href='https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>OpenRouter 加入 Stripe</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.5</span> <span class='hn-top-story-score'>&#9650; 669</span> <span class='hn-top-story-comments'>&#128172; 354</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.8</span> <span class='hn-top-story-score'>&#9650; 793</span> <span class='hn-top-story-comments'>&#128172; 400</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='473' data-hn-time='1787164429'>
+<div class='hn-top-story-item' data-hn-score='580' data-hn-time='1787164429'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -39,21 +39,21 @@ Sort:
  <a class='hn-top-story-link' href='https://go.dev/blog/go1.27' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Go 1.27 发布</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.1</span> <span class='hn-top-story-score'>&#9650; 473</span> <span class='hn-top-story-comments'>&#128172; 125</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.8</span> <span class='hn-top-story-score'>&#9650; 580</span> <span class='hn-top-story-comments'>&#128172; 150</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='516' data-hn-time='1787153528'>
+<div class='hn-top-story-item' data-hn-score='144' data-hn-time='1787189352'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/19/top_stories_08192026#story-49362934'>Remote workers report the highest well-being in study of 7,700 employees</a>
- <a class='hn-top-story-link' href='https://www.colorado.edu/today/2026/08/12/remote-workers-report-highest-well-being-study-7700-employees' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/19/top_stories_08192026#story-49369408'>Turns are Better than Radians (2022)</a>
+ <a class='hn-top-story-link' href='https://www.computerenhance.com/p/turns-are-better-than-radians' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>远程工作者在7700名员工研究中报告最高幸福感</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.9</span> <span class='hn-top-story-score'>&#9650; 516</span> <span class='hn-top-story-comments'>&#128172; 251</span> <span class='hn-top-story-tag'>Health</span></div>
+<div class='hn-top-story-zh'>转数胜过弧度</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 144</span> <span class='hn-top-story-comments'>&#128172; 59</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='779' data-hn-time='1787138510'>
+<div class='hn-top-story-item' data-hn-score='845' data-hn-time='1787138510'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -61,73 +61,73 @@ Sort:
  <a class='hn-top-story-link' href='https://sprocketfox.io/xssfox/2026/08/19/sondehub-and-war/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>一个玩笑域名购买引发的地缘政治冲突</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.5</span> <span class='hn-top-story-score'>&#9650; 779</span> <span class='hn-top-story-comments'>&#128172; 120</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>DevOps</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 845</span> <span class='hn-top-story-comments'>&#128172; 129</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>DevOps</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='318' data-hn-time='1787161649'>
+<div class='hn-top-story-item' data-hn-score='443' data-hn-time='1787161649'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/19/top_stories_08192026#story-49364745'>Google replaced Git tags for certain source code with obtaining via Google Drive</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/19/top_stories_08192026#story-49364745'>Google has stopped pushing Git tags for some Android source code</a>
  <a class='hn-top-story-link' href='https://grapheneos.social/@GrapheneOS/117057099753905023' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Google 将部分源码的 Git 标签替换为通过 Google Drive 获取</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 318</span> <span class='hn-top-story-comments'>&#128172; 133</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>谷歌停止为部分 Android 源码推送 Git 标签</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 443</span> <span class='hn-top-story-comments'>&#128172; 184</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1517' data-hn-time='1787104708'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='556' data-hn-time='1787153528'>
 <span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/19/top_stories_08192026#story-49362934'>Remote workers report the highest well-being in study of 7,700 employees</a>
+ <a class='hn-top-story-link' href='https://www.colorado.edu/today/2026/08/12/remote-workers-report-highest-well-being-study-7700-employees' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>远程工作者在7700名员工研究中报告最高幸福感</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 556</span> <span class='hn-top-story-comments'>&#128172; 281</span> <span class='hn-top-story-tag'>Business</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1541' data-hn-time='1787104708'>
+<span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/08/19/top_stories_08192026#story-49355606'>OpenLogi</a>
  <a class='hn-top-story-link' href='https://openlogi.org/en' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>OpenLogi：开放物流</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 1517</span> <span class='hn-top-story-comments'>&#128172; 405</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 1541</span> <span class='hn-top-story-comments'>&#128172; 409</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='525' data-hn-time='1787146415'>
-<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='39' data-hn-time='1787200922'>
+<span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/19/top_stories_08192026#story-49370440'>Why Microsoft Entertainment Pack had a sticker announcing that it had Tetris?</a>
+ <a class='hn-top-story-link' href='https://devblogs.microsoft.com/oldnewthing/20260818-00/?p=112621' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>为什么 Microsoft Entertainment Pack 会贴“含 Tetris” 的标签</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 39</span> <span class='hn-top-story-comments'>&#128172; 11</span> <span class='hn-top-story-tag'>Legal</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='549' data-hn-time='1787146415'>
+<span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/08/19/top_stories_08192026#story-49361395'>Moderna reports first positive Phase 3 for mRNA neoantigen therapy in melanoma</a>
  <a class='hn-top-story-link' href='https://twitter.com/NoubarAfeyan/status/2090050162441752787' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Moderna 与 Merck 联合推进的 mRNA 癌症疫苗在黑色素瘤三期试验取得积极结果</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 525</span> <span class='hn-top-story-comments'>&#128172; 252</span> <span class='hn-top-story-tag'>Health</span> <span class='hn-top-story-tag'>Science</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 549</span> <span class='hn-top-story-comments'>&#128172; 257</span> <span class='hn-top-story-tag'>Health</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='143' data-hn-time='1787174390'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/19/top_stories_08192026#story-49367350'>Feature Request: Support AGENTS.md</a>
- <a class='hn-top-story-link' href='https://github.com/anthropics/claude-code/issues/6235' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>功能请求：支持 AGENTS.md</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.8</span> <span class='hn-top-story-score'>&#9650; 143</span> <span class='hn-top-story-comments'>&#128172; 78</span> <span class='hn-top-story-tag'>Programming</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='347' data-hn-time='1787155634'>
-<span class='hn-top-story-rank'>9</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/19/top_stories_08192026#story-49363433'>Civic Hygiene – avoid building technologies that could be used by a police state (2013)</a>
- <a class='hn-top-story-link' href='https://shkspr.mobi/blog/2013/11/civic-hygiene/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>公民卫生学——避免打造会被警察国家利用的技术（2013）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 347</span> <span class='hn-top-story-comments'>&#128172; 236</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Design</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='576' data-hn-time='1787140018'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='56' data-hn-time='1787196716'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/19/top_stories_08192026#story-49360242'>Devices with GrapheneOS support should be available in 2027</a>
- <a class='hn-top-story-link' href='https://grapheneos.social/@GrapheneOS/117078064184215730' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/19/top_stories_08192026#story-49370083'>Zuckerberg encouraged growth over child safety, ex-Meta executive testifies</a>
+ <a class='hn-top-story-link' href='https://www.reuters.com/legal/litigation/former-meta-engineer-resumes-testimony-landmark-trial-over-social-medias-harm-2026-08-19/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>GrapheneOS 支持设备预计 2027 年可用</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 576</span> <span class='hn-top-story-comments'>&#128172; 366</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>扎克伯格推动增长大于儿童安全？前 Meta 高管作证</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 56</span> <span class='hn-top-story-comments'>&#128172; 3</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/08/19/top_stories_08192026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>32</b> <span class="hn-row-sep">·</span> AI <b>22</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>27</b> <span class="hn-row-sep">·</span> AI <b>21</b></span>
 </a>
 </div>
 </div>
