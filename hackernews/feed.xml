@@ -5,7 +5,7 @@
     <link>https://chaowang15.github.io/hackernews/</link>
     <description>Curated daily digest of top Hacker News stories with AI-generated summaries, tags, and bilingual translations.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Aug 2026 12:57:33 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 14:40:11 +0000</lastBuildDate>
     <generator>Hacker News Daily RSS Builder</generator>
     <atom:link href="https://chaowang15.github.io/hackernews/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
@@ -60,19 +60,6 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49345263&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/19/top_stories_08192026#story-49345263&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Tracking down the 16-year-old WAL-reset SQLite bug</title>
-      <link>https://tailscale.com/blog/sqlite-wal-reset-bug</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49272832</guid>
-      <dc:creator>ropbear</dc:creator>
-      <pubDate>Wed, 12 Aug 2026 14:22:30 +0000</pubDate>
-      <category>Programming</category>
-      <category>Privacy</category>
-      <description>&lt;p&gt;Researchers zero in on a long-standing SQLite WAL reset bug that has persisted for 16 years. The issue can cause data integrity problems when the write-ahead logging file resets under certain conditions, impacting apps using WAL mode. The takeaway is to test WAL edge cases and ensure robust backup/restore paths, highlighting SQLite quirks in real-world apps.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;研究人员锁定一宗持续了16年的 SQLite WAL 重置漏洞。该问题在特定条件下会导致写入前日志文件重置时的数据完整性问题，影响使用 WAL 模式的应用程序。建议开发者测试 WAL 的边界情况，并确保备份/恢复路径健全，凸显实际应用中 SQLite 的潜在坑点。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 1188 · 💬 229 · Programming · Privacy&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49272832&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/13/top_stories_08132026#story-49272832&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>GLM-5.3: Frontier coding with emergent cyber capabilities</title>
       <link>https://z.ai/blog/glm-5.3</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=49294997</guid>
@@ -113,30 +100,18 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49337392&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/18/top_stories_08182026#story-49337392&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>DeepSeek V4 Pro 0813</title>
-      <link>https://openrouter.ai/deepseek/deepseek-v4-pro-0813</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49274600</guid>
-      <dc:creator>explosion-s</dc:creator>
-      <pubDate>Wed, 12 Aug 2026 16:04:50 +0000</pubDate>
-      <category>AI</category>
-      <category>Privacy</category>
-      <description>&lt;p&gt;DeepSeek releases V4 Pro 0813, a major update that enhances on-device AI performance and search speed. The release focuses on faster indexing, improved privacy controls, and enterprise-friendly features for large-scale data workflows.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;DeepSeek 发布 V4 Pro 0813，显著提升本地 AI 性能与检索速度，强调更快的索引与更强的隐私控制，并为大规模数据工作流提供企业级特性。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 1025 · 💬 443 · AI · Privacy&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49274600&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/13/top_stories_08132026#story-49274600&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>AI is removing the middle class of software engineering?</title>
-      <link>https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49271994</guid>
-      <dc:creator>florianherrengt</dc:creator>
-      <pubDate>Wed, 12 Aug 2026 13:20:05 +0000</pubDate>
-      <category>AI</category>
-      <category>Career</category>
-      <description>&lt;p&gt;A viewpoint argues that AI is eroding the middle tier of software engineering by automating routine tasks and raising productivity. It questions career ladders and suggests that engineers must adapt by focusing on higher-level design, system architecture, and AI-augmented workflows.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;观点认为 AI 正通过自动化日常任务和提高生产率，削弱软件工程的中层岗位。文章讨论职业晋升路径的变化，建议工程师在高层设计、系统架构以及与 AI 协作的工作流中寻找新机会。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 976 · 💬 904 · AI · Career&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49271994&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/13/top_stories_08132026#story-49271994&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+      <title>A joke domain purchase turned in geopolitical warfare</title>
+      <link>https://sprocketfox.io/xssfox/2026/08/19/sondehub-and-war/</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49360015</guid>
+      <dc:creator>kareiva</dc:creator>
+      <pubDate>Wed, 19 Aug 2026 11:21:50 +0000</pubDate>
+      <category>Politics</category>
+      <category>Culture</category>
+      <category>DevOps</category>
+      <description>&lt;p&gt;A whimsical domain-name purchase spirals into geopolitical warfare, illustrating how digital assets can become leverage in information and power struggles. The tale underscores the political fragility and strategic significance of internet infrastructure and branding in a global context.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;一个玩笑性质的域名购买竟演变成地缘政治对抗，说明数字资产可以成为信息与权力博弈中的筹码。此事凸显网络基础设施与品牌在全球格局中的政治敏感性与战略意义。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 980 · 💬 158 · Politics · Culture · DevOps&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49360015&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/20/top_stories_08202026#story-49360015&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gemini 3.7 Flash</title>
@@ -151,17 +126,17 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49289112&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/14/top_stories_08142026#story-49289112&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>A joke domain purchase turned in geopolitical warfare</title>
-      <link>https://sprocketfox.io/xssfox/2026/08/19/sondehub-and-war/</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49360015</guid>
-      <dc:creator>kareiva</dc:creator>
-      <pubDate>Wed, 19 Aug 2026 11:21:50 +0000</pubDate>
-      <category>Politics</category>
-      <category>Web</category>
-      <description>&lt;p&gt;A playful domain purchase spirals into a geopolitical clash, illustrating how digital assets can be weaponized in real-world power dynamics. The episode underscores how memes, branding, and domain ownership can unexpectedly influence diplomacy and national interest.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;一个玩笑域名的购买竟演变为地缘政治对抗，展示了数字资产如何在现实权力博弈中被武化。此事凸显了梗图、品牌与域名所有权如何在外交和国家利益层面产生意想不到的影响。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 948 · 💬 152 · Politics · Web&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49360015&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/19/top_stories_08192026#story-49360015&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+      <title>OpenRouter is joining Stripe</title>
+      <link>https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe/</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49364559</guid>
+      <dc:creator>rvz</dc:creator>
+      <pubDate>Wed, 19 Aug 2026 17:32:38 +0000</pubDate>
+      <category>Business</category>
+      <category>Startups</category>
+      <description>&lt;p&gt;OpenRouter is partnering with Stripe to embed Stripe's payments rails into its platform. The collaboration broadens OpenRouter's reach for developers and merchants and signals Stripe's appetite for fintech partnerships beyond its own ecosystem. For practitioners, this could translate into easier payments integration, improved compliance tooling, and a more cohesive developer experience.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;OpenRouter 宣布加入 Stripe，嵌入 Stripe 的支付能力到其平台。此举扩大了 OpenRouter 的覆盖范围，也体现 Stripe 在 fintech 生态之外寻求合作的策略。对开发者来说，意味着更便捷的支付集成、合规工具以及更一致的开发者体验。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 924 · 💬 472 · Business · Startups&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49364559&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/20/top_stories_08202026#story-49364559&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Why does Opus 5 feel worse to work with?</title>
@@ -177,18 +152,17 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49296740&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/15/top_stories_08152026#story-49296740&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>OpenRouter is joining Stripe</title>
-      <link>https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe/</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49364559</guid>
-      <dc:creator>rvz</dc:creator>
-      <pubDate>Wed, 19 Aug 2026 17:32:38 +0000</pubDate>
-      <category>Business</category>
-      <category>Web</category>
-      <category>DevOps</category>
-      <description>&lt;p&gt;OpenRouter announces a strategic move to join Stripe, expanding its payments infrastructure for developers. The collaboration signals Stripe’s continued push into developer platforms and fintech-enabled services.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;OpenRouter 宣布将加入 Stripe，扩展其面向开发者的支付基础设施。此举反映 Stripe 在开发者生态和金融科技服务领域的持续扩张。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 895 · 💬 458 · Business · Web · DevOps&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49364559&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/19/top_stories_08192026#story-49364559&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+      <title>Don't paste the AI, please</title>
+      <link>https://dontpastetheai.com/</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49371857</guid>
+      <dc:creator>pjerem</dc:creator>
+      <pubDate>Thu, 20 Aug 2026 08:20:44 +0000</pubDate>
+      <category>AI</category>
+      <category>Privacy</category>
+      <description>&lt;p&gt;An open campaign promoting better AI data handling and privacy, urging users not to paste prompts or model outputs into public chat interfaces. It highlights the growing need for policy and tooling to protect prompts, training data, and personal information. It also advocates for private or local prompt workflows.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;一个倡导更好 AI 数据处理与隐私的公开运动，敦促用户不要把提示或模型输出粘贴到公开的对话界面。强调保护提示、训练数据与个人信息的必要性，并倡导私有或本地化的提示工作流。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 870 · 💬 442 · AI · Privacy&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49371857&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/20/top_stories_08202026#story-49371857&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Universal health coverage could save $1T and 114k lives a year: study</title>
@@ -264,6 +238,19 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49319556&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/17/top_stories_08172026#story-49319556&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Google has stopped pushing Git tags for some Android source code</title>
+      <link>https://grapheneos.social/@GrapheneOS/117057099753905023</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49364745</guid>
+      <dc:creator>Animux</dc:creator>
+      <pubDate>Wed, 19 Aug 2026 17:47:29 +0000</pubDate>
+      <category>Programming</category>
+      <category>Open Source</category>
+      <description>&lt;p&gt;Google has stopped pushing Git tags for some Android source trees, complicating reproducibility for developers who need exact historical versions. The change affects version-pin reliability and may reflect a broader shift in how Android sources are distributed.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;谷歌对部分 Android 源码停止推送 Git 标签，增加了开发者按版本精确检出历史版本的难度。此举影响可重复构建性，可能反映了 Android 源码分发策略的调整。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 732 · 💬 282 · Programming · Open Source&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49364745&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/20/top_stories_08202026#story-49364745&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>DeepSeek Harness developer preview</title>
       <link>https://deepseek.com/harness/en/</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=49285244</guid>
@@ -277,6 +264,18 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49285244&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/14/top_stories_08142026#story-49285244&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Go 1.27</title>
+      <link>https://go.dev/blog/go1.27</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49365405</guid>
+      <dc:creator>database64128</dc:creator>
+      <pubDate>Wed, 19 Aug 2026 18:33:49 +0000</pubDate>
+      <category>Programming</category>
+      <description>&lt;p&gt;Go 1.27 arrives with incremental improvements across the language, toolchain, and standard library. It emphasizes faster builds, improved module support, and better diagnostics, helping teams ship production Go apps with less friction.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Go 1.27 发布带来语言、工具链和标准库的持续改进，提升构建速度、模块支持和诊断能力，帮助团队更顺畅地交付生产应用。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 724 · 💬 222 · Programming&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49365405&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/20/top_stories_08202026#story-49365405&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Incident with Github.com</title>
       <link>https://www.githubstatus.com/incidents/zkxwbgr0cnmx</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=49330684</guid>
@@ -288,19 +287,6 @@
 &lt;p&gt;&lt;em&gt;GitHub 遭遇服务故障，核心功能如仓库访问和拉取请求受到影响。工程团队进行了排查、修复并恢复正常服务。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 718 · 💬 2 · DevOps · Programming&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49330684&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/18/top_stories_08182026#story-49330684&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Qwen3.8-2.4T</title>
-      <link>https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49273478</guid>
-      <dc:creator>Philpax</dc:creator>
-      <pubDate>Wed, 12 Aug 2026 15:01:17 +0000</pubDate>
-      <category>AI</category>
-      <category>Hardware</category>
-      <description>&lt;p&gt;Qwen3.8-2.4T-A95B is a large language model configured for 2.4 trillion parameters, optimized for inference on A95B hardware. The release underscores ongoing scaling and hardware-specific optimizations in modern LLMs.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Qwen3.8-2.4T-A95B 是一个 2.4 万亿参数的语言模型，针对 A95B 硬件进行推理优化，凸显了当下大模型的规模化与硬件定制优化。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 707 · 💬 170 · AI · Hardware&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49273478&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/13/top_stories_08132026#story-49273478&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>A Preview of DuckDB v2.0</title>
@@ -367,44 +353,6 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49338459&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/18/top_stories_08182026#story-49338459&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Go 1.27</title>
-      <link>https://go.dev/blog/go1.27</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49365405</guid>
-      <dc:creator>database64128</dc:creator>
-      <pubDate>Wed, 19 Aug 2026 18:33:49 +0000</pubDate>
-      <category>Programming</category>
-      <description>&lt;p&gt;Go 1.27 marks the language’s ongoing evolution with refinements to the toolchain and runtime. Expect incremental performance improvements, better module handling, and reliability fixes that affect a broad set of Go projects.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Go 1.27 代表语言持续演进，带来对工具链与运行时的细化改进。预计在性能、模块处理和稳定性方面带来渐进提升，惠及大量 Go 项目。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 695 · 💬 211 · Programming&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49365405&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/19/top_stories_08192026#story-49365405&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Google has stopped pushing Git tags for some Android source code</title>
-      <link>https://grapheneos.social/@GrapheneOS/117057099753905023</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49364745</guid>
-      <dc:creator>Animux</dc:creator>
-      <pubDate>Wed, 19 Aug 2026 17:47:29 +0000</pubDate>
-      <category>Programming</category>
-      <category>Security</category>
-      <category>Open Source</category>
-      <description>&lt;p&gt;Google has stopped pushing Git tags on parts of Android's source code, complicating reproducible builds and historical references for developers and downstream forks. The move underscores the fragility of automated versioning in large, evolving codebases and could affect security audits and CI pipelines.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;谷歌不再为部分 Android 源代码推送 Git 标签，给开发者、下游分支的可复现构建与版本追溯带来挑战。这一举动凸显在大型、持续演进的代码库中自动化版本控制的脆弱性，可能影响安全审计和持续集成流程。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 682 · 💬 265 · Programming · Security · Open Source&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49364745&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/19/top_stories_08192026#story-49364745&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Delta</title>
-      <link>https://zed.dev/blog/introducing-delta</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49276574</guid>
-      <dc:creator>khy</dc:creator>
-      <pubDate>Wed, 12 Aug 2026 18:19:59 +0000</pubDate>
-      <category>Business</category>
-      <description>&lt;p&gt;Delta introduces a new concept or product in the project's lineup, signaling a potential shift in how it handles data or workflows. The announcement invites readers to anticipate more details on capabilities, integrations, and use cases.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Delta 引入了该项目的新概念/产品，可能改变数据处理或工作流方式。公告预计将提供更多关于功能、集成与应用场景的细节。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 667 · 💬 249 · Business&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49276574&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/13/top_stories_08132026#story-49276574&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Memory prices climb 500% in 12 months</title>
       <link>https://www.tomshardware.com/pc-components/ram/memory-prices-climb-500-percent-in-12-months-up-to-10x-the-lowest-ever-tracked-prices-128gb-of-ddr5-now-usd3-399</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=49334960</guid>
@@ -444,31 +392,6 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49322107&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/17/top_stories_08172026#story-49322107&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Grok 4.6</title>
-      <link>https://x.ai/news/grok-4-6</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49274027</guid>
-      <dc:creator>iLuddite</dc:creator>
-      <pubDate>Wed, 12 Aug 2026 15:32:50 +0000</pubDate>
-      <category>AI</category>
-      <description>&lt;p&gt;Grok 4.6 updates the AI assistant with refinements to conversational ability, integration options, and developer-facing tooling. The release highlights ongoing efforts to evolve AI assistants into more capable, context-aware productivity partners.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Grok 4.6 对AI助手进行了若干改进，提升对话能力并扩展集成与开发工具。此次发布凸显了让AI助手成为更具情境感知的高效生产力伙伴的持续努力。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 627 · 💬 606 · AI&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49274027&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/13/top_stories_08132026#story-49274027&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>License plate reader searches should require a warrant</title>
-      <link>https://andrewpwheeler.com/2026/08/12/license-plate-reader-searches-should-require-a-warrant/</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49273165</guid>
-      <dc:creator>apwheele</dc:creator>
-      <pubDate>Wed, 12 Aug 2026 14:43:39 +0000</pubDate>
-      <category>Privacy</category>
-      <category>Legal</category>
-      <description>&lt;p&gt;Policy arguments are made for requiring warrants to search license plate data collected by LPR systems. It argues targeted, lawfully justified access over generic bulk surveillance.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;提出在使用车牌识别（LPR）系统检索数据时应当获得搜查令的政策主张。文章强调公民自由与滥用风险、数据保留与共享的隐私边界，以及应优先实现有针对性且合法授权的访问，而非大规模监控。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 627 · 💬 380 · Privacy · Legal&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49273165&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/13/top_stories_08132026#story-49273165&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>GPT-5.6 Sol Pricing Cut by 50% on OpenRouter</title>
       <link>https://openrouter.ai/openai/gpt-5.6-sol</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=49337602</guid>
@@ -479,19 +402,6 @@
 &lt;p&gt;&lt;em&gt;GPT-5.6 Sol 的价格下降了 50%，让开发者在推理和试验阶段成本更低。这一举措可能推动低成本 AI 工作负载的采用，并改变 AI 运行时的竞争格局。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 624 · 💬 445 · AI&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49337602&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/18/top_stories_08182026#story-49337602&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Don't Paste the AI, please</title>
-      <link>https://dontpastetheai.com/</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49371857</guid>
-      <dc:creator>pjerem</dc:creator>
-      <pubDate>Thu, 20 Aug 2026 08:20:44 +0000</pubDate>
-      <category>AI</category>
-      <category>Privacy</category>
-      <description>&lt;p&gt;An open campaign promoting better AI data handling and privacy, urging users not to paste prompts or model outputs into public chat interfaces. It highlights the growing need for policy and tooling to protect prompts, training data, and personal information. It also advocates for private or local prompt workflows.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;一个倡导更好 AI 数据处理与隐私的公开运动，敦促用户不要把提示或模型输出粘贴到公开的对话界面。强调保护提示、训练数据与个人信息的必要性，并倡导私有或本地化的提示工作流。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 620 · 💬 300 · AI · Privacy&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49371857&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/19/top_stories_08192026#story-49371857&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>AI isn’t outthinking mathematicians, it’s out-remembering them</title>
@@ -638,6 +548,21 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49342719&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/18/top_stories_08182026#story-49342719&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Geolocating a random island using geometry and CUDA programming</title>
+      <link>https://yassa9.github.io/osint/gralhix-004/</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49360545</guid>
+      <dc:creator>yassa9</dc:creator>
+      <pubDate>Wed, 19 Aug 2026 12:19:52 +0000</pubDate>
+      <category>Programming</category>
+      <category>Science</category>
+      <category>Privacy</category>
+      <category>Hardware</category>
+      <description>&lt;p&gt;An OSINT project demonstrates geolocating a randomly generated island using geometric methods and CUDA acceleration. The work shows how high-performance GPU computations can speed up geospatial reasoning and large-scale location inference tasks, with implications for both research and privacy/surveillance discussions.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;一个 OSINT 项目演示了如何利用几何方法并借助 CUDA 加速，对一个随机生成的岛屿进行地理定位。该工作展示了高性能 GPU 运算在地理空间推断中的潜力，并对科研与隐私/监控议题带来影响。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 510 · 💬 82 · Programming · Science · Privacy · Hardware&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49360545&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/20/top_stories_08202026#story-49360545&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Olo (Color)</title>
       <link>https://en.wikipedia.org/wiki/Olo_(color)</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=49270194</guid>
@@ -648,6 +573,84 @@
 &lt;p&gt;&lt;em&gt;Olo 是一种颜色名称，文中将其置于颜色命名与调色板的上下文。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 502 · 💬 91 · Science&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49270194&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/18/top_stories_08182026#story-49270194&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Google is making private AI practical with homomorphic encryption</title>
+      <link>https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49300314</guid>
+      <dc:creator>u1hcw9nx</dc:creator>
+      <pubDate>Fri, 14 Aug 2026 15:43:10 +0000</pubDate>
+      <category>AI</category>
+      <category>Privacy</category>
+      <category>Security</category>
+      <description>&lt;p&gt;Google is pursuing practical private AI by using homomorphic encryption to run computations on encrypted data. This approach aims to unlock privacy-preserving AI in cloud and on-device settings, though it remains challenging in terms of performance.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;谷歌正通过同态加密让隐私保护的 AI 更具可用性，能够在加密数据上执行推理。该思路有望在云端和本地场景中保护用户数据隐私，但在性能方面仍存在挑战。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 488 · 💬 282 · AI · Privacy · Security&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49300314&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/15/top_stories_08152026#story-49300314&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Semaglutide linked to lower predicted dementia risk</title>
+      <link>https://alz-journals.onlinelibrary.wiley.com/doi/10.1002/dad2.70432</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49311651</guid>
+      <dc:creator>randycupertino</dc:creator>
+      <pubDate>Sat, 15 Aug 2026 15:58:53 +0000</pubDate>
+      <category>Health</category>
+      <category>Science</category>
+      <description>&lt;p&gt;A study finds that semaglutide exposure is associated with lower predicted dementia risk, hinting at links between metabolic health and brain aging. While intriguing, the finding is observational and needs controlled trials to establish causality and understand mechanisms.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;研究显示司美格鲁肽暴露与较低的预测性痴呆风险相关，提示代谢健康与脑部老化之间可能存在联系。该发现为观测性结论，需通过对照试验来确立因果关系并揭示潜在机制。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 487 · 💬 384 · Health · Science&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49311651&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/16/top_stories_08162026#story-49311651&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quake Shareware, a CD-ROM just a little too full</title>
+      <link>https://fabiensanglard.net/quake_shareware_cd/index.html</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49338328</guid>
+      <dc:creator>shdon</dc:creator>
+      <pubDate>Mon, 17 Aug 2026 22:06:14 +0000</pubDate>
+      <category>Gaming</category>
+      <description>&lt;p&gt;A look back at the Quake shareware CD-ROM and the packaging constraints that left little room for content. The piece captures the nostalgia and constraints of early PC game distribution.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;回顾《Quake》分享版光盘及其打包容量的限制，使内容显得过于拥挤。文章捕捉了早期PC游戏发行的怀旧与约束。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 485 · 💬 218 · Gaming&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49338328&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/18/top_stories_08182026#story-49338328&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Count Binface receives over a quarter of votes in Clacton by-election</title>
+      <link>https://www.bbc.com/news/articles/ce97mm3vvemo</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49301260</guid>
+      <dc:creator>tcp_handshaker</dc:creator>
+      <pubDate>Fri, 14 Aug 2026 16:45:49 +0000</pubDate>
+      <category>Politics</category>
+      <description>&lt;p&gt;Satirical candidate Count Binface captured more than a quarter of the vote in the Clacton by-election, signaling appetite for anti-establishment voices. The result underscores how protest candidacies can influence local race dynamics.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;讽刺性候选人 Count Binface 在 Clacton 补选中获得超过四分之一的选票，显示选民对反建制声音的需求上升。此结果也凸显了抗议候选人如何影响地方选举格局。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 465 · 💬 382 · Politics&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49301260&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/15/top_stories_08152026#story-49301260&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Stripe will reportedly acquire OpenRouter for $7B+</title>
+      <link>https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49323381</guid>
+      <dc:creator>zacharyozer</dc:creator>
+      <pubDate>Sun, 16 Aug 2026 20:31:16 +0000</pubDate>
+      <category>Business</category>
+      <category>Startups</category>
+      <category>AI</category>
+      <description>&lt;p&gt;Stripe reportedly plans to acquire OpenRouter, an AI gateway startup, in a deal valued around $7B+. The move signals Stripe's push into developer-facing AI tooling and model routing, potentially accelerating integration of AI into payments and commerce.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;据报道 Stripe 将收购 AI 网关 OpenRouter，交易额约 70 亿美元。这笔交易凸显 Stripe 在面向开发者的 AI 工具与模型路由领域的布局，或将加速将 AI 融入支付与电商场景。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 463 · 💬 289 · Business · Startups · AI&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49323381&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/17/top_stories_08172026#story-49323381&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cerebras CS-4</title>
+      <link>https://www.cerebras.ai/cs4</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49354949</guid>
+      <dc:creator>sunils34</dc:creator>
+      <pubDate>Wed, 19 Aug 2026 00:28:18 +0000</pubDate>
+      <category>AI</category>
+      <category>Hardware</category>
+      <description>&lt;p&gt;The Cerebras CS‑4 is the latest wafer‑scale AI accelerator offering massive on‑chip memory and compute for training very large models without heavy distributed overhead. Its architecture targets organizations building foundation models, promising throughput gains and simpler scaling compared with multi‑chip clusters, but at significant power and cost profiles.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Cerebras CS‑4 是新一代晶圓級 AI 加速器，提供巨量片上記憶體與運算能力，能在較少分散式開銷下訓練超大模型。對於構建基礎模型的機構來說，它在吞吐量與擴展性上有優勢，但也伴隨較高的功耗與成本。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 459 · 💬 269 · AI · Hardware&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49354949&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/08/19/top_stories_08192026#story-49354949&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

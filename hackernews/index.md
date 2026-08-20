@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>181</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>26741</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>179</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>179</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-08-19</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>182</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>26790</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>179</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>180</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-08-20</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,118 +20,118 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='793' data-hn-time='1787160758'>
+<div class='hn-top-story-item' data-hn-score='870' data-hn-time='1787214044'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/19/top_stories_08192026#story-49364559'>OpenRouter is joining Stripe</a>
- <a class='hn-top-story-link' href='https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/20/top_stories_08202026#story-49371857'>Don't paste the AI, please</a>
+ <a class='hn-top-story-link' href='https://dontpastetheai.com/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>OpenRouter 加入 Stripe</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.8</span> <span class='hn-top-story-score'>&#9650; 793</span> <span class='hn-top-story-comments'>&#128172; 400</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-zh'>请勿直接粘贴 AI 内容</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 19</span> <span class='hn-top-story-score'>&#9650; 870</span> <span class='hn-top-story-comments'>&#128172; 442</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='580' data-hn-time='1787164429'>
+<div class='hn-top-story-item' data-hn-score='103' data-hn-time='1787232192'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/19/top_stories_08192026#story-49365405'>Go 1.27</a>
- <a class='hn-top-story-link' href='https://go.dev/blog/go1.27' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/20/top_stories_08202026#story-49374269'>Malicious Rust Crate Arrayref Runs a Build-Time Payload</a>
+ <a class='hn-top-story-link' href='https://safedep.io/arrayref-proc-macro1-rust-build-time-malware/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Go 1.27 发布</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.8</span> <span class='hn-top-story-score'>&#9650; 580</span> <span class='hn-top-story-comments'>&#128172; 150</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>恶意 Rust Crate Arrayref 在构建阶段执行载荷</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 103</span> <span class='hn-top-story-comments'>&#128172; 39</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='144' data-hn-time='1787189352'>
+<div class='hn-top-story-item' data-hn-score='345' data-hn-time='1787220532'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/19/top_stories_08192026#story-49369408'>Turns are Better than Radians (2022)</a>
- <a class='hn-top-story-link' href='https://www.computerenhance.com/p/turns-are-better-than-radians' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/20/top_stories_08202026#story-49372583'>AliExpress runs silent WebAudio fingerprinting that breaks Bluetooth multipoint</a>
+ <a class='hn-top-story-link' href='https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>转数胜过弧度</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 144</span> <span class='hn-top-story-comments'>&#128172; 59</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>AliExpress 静默进行 WebAudio 指纹识别，影响蓝牙多点连接</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 345</span> <span class='hn-top-story-comments'>&#128172; 111</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='845' data-hn-time='1787138510'>
+<div class='hn-top-story-item' data-hn-score='161' data-hn-time='1787227478'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/19/top_stories_08192026#story-49360015'>A joke domain purchase turned in geopolitical warfare</a>
- <a class='hn-top-story-link' href='https://sprocketfox.io/xssfox/2026/08/19/sondehub-and-war/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/20/top_stories_08202026#story-49373456'>Show HN: I trained a 125M model to autocomplete piano on-device</a>
+ <a class='hn-top-story-link' href='https://simedw.com/2026/08/20/midi-autocomplete/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>一个玩笑域名购买引发的地缘政治冲突</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 845</span> <span class='hn-top-story-comments'>&#128172; 129</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>DevOps</span></div>
+<div class='hn-top-story-zh'>在设备端实现钢琴自动完成的125M参数模型</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 10</span> <span class='hn-top-story-score'>&#9650; 161</span> <span class='hn-top-story-comments'>&#128172; 37</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='443' data-hn-time='1787161649'>
+<div class='hn-top-story-item' data-hn-score='284' data-hn-time='1787206600'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/19/top_stories_08192026#story-49364745'>Google has stopped pushing Git tags for some Android source code</a>
- <a class='hn-top-story-link' href='https://grapheneos.social/@GrapheneOS/117057099753905023' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/20/top_stories_08202026#story-49371006'>Windows brings out the Rorschach test in everyone (2003)</a>
+ <a class='hn-top-story-link' href='https://devblogs.microsoft.com/oldnewthing/20030825-00/?p=42803' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>谷歌停止为部分 Android 源码推送 Git 标签</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 443</span> <span class='hn-top-story-comments'>&#128172; 184</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>Windows：让每个人都暴露出不同的反应（2003）</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 284</span> <span class='hn-top-story-comments'>&#128172; 105</span> <span class='hn-top-story-tag'>Design</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='556' data-hn-time='1787153528'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='31' data-hn-time='1787232272'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/19/top_stories_08192026#story-49362934'>Remote workers report the highest well-being in study of 7,700 employees</a>
- <a class='hn-top-story-link' href='https://www.colorado.edu/today/2026/08/12/remote-workers-report-highest-well-being-study-7700-employees' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/20/top_stories_08202026#story-49374287'>DiffusionGemma Technical Report</a>
+ <a class='hn-top-story-link' href='https://arxiv.org/abs/2608.00146' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>远程工作者在7700名员工研究中报告最高幸福感</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 556</span> <span class='hn-top-story-comments'>&#128172; 281</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-zh'>DiffusionGemma 技术报告</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 31</span> <span class='hn-top-story-comments'>&#128172; 5</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Science</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1541' data-hn-time='1787104708'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='36' data-hn-time='1787230900'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/19/top_stories_08192026#story-49355606'>OpenLogi</a>
- <a class='hn-top-story-link' href='https://openlogi.org/en' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/20/top_stories_08202026#story-49374067'>UK internet age checks have boosted rogue adult sites, says Pornhub</a>
+ <a class='hn-top-story-link' href='https://www.ft.com/content/295c2eba-da29-434d-84e0-e9de3b0b1cc2' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>OpenLogi：开放物流</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 1541</span> <span class='hn-top-story-comments'>&#128172; 409</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-zh'>英国互联网年龄检查导致违规成人网站活跃度上升</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 36</span> <span class='hn-top-story-comments'>&#128172; 26</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='39' data-hn-time='1787200922'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='18' data-hn-time='1787235012'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/19/top_stories_08192026#story-49370440'>Why Microsoft Entertainment Pack had a sticker announcing that it had Tetris?</a>
- <a class='hn-top-story-link' href='https://devblogs.microsoft.com/oldnewthing/20260818-00/?p=112621' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/20/top_stories_08202026#story-49374797'>Bun 1.4</a>
+ <a class='hn-top-story-link' href='https://bun.com/blog/bun-v1.4' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>为什么 Microsoft Entertainment Pack 会贴“含 Tetris” 的标签</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 39</span> <span class='hn-top-story-comments'>&#128172; 11</span> <span class='hn-top-story-tag'>Legal</span></div>
+<div class='hn-top-story-zh'>Bun 1.4 新版发布</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 18</span> <span class='hn-top-story-comments'>&#128172; 1</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='549' data-hn-time='1787146415'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='924' data-hn-time='1787160758'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/19/top_stories_08192026#story-49361395'>Moderna reports first positive Phase 3 for mRNA neoantigen therapy in melanoma</a>
- <a class='hn-top-story-link' href='https://twitter.com/NoubarAfeyan/status/2090050162441752787' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/20/top_stories_08202026#story-49364559'>OpenRouter is joining Stripe</a>
+ <a class='hn-top-story-link' href='https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Moderna 与 Merck 联合推进的 mRNA 癌症疫苗在黑色素瘤三期试验取得积极结果</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 549</span> <span class='hn-top-story-comments'>&#128172; 257</span> <span class='hn-top-story-tag'>Health</span></div>
+<div class='hn-top-story-zh'>OpenRouter 加入 Stripe</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 924</span> <span class='hn-top-story-comments'>&#128172; 472</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Startups</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='56' data-hn-time='1787196716'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='40' data-hn-time='1787228377'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/19/top_stories_08192026#story-49370083'>Zuckerberg encouraged growth over child safety, ex-Meta executive testifies</a>
- <a class='hn-top-story-link' href='https://www.reuters.com/legal/litigation/former-meta-engineer-resumes-testimony-landmark-trial-over-social-medias-harm-2026-08-19/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/20/top_stories_08202026#story-49373616'>Browser De-Slop</a>
+ <a class='hn-top-story-link' href='https://www.sacredheartsc.com/blog/browser-de-slop/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>扎克伯格推动增长大于儿童安全？前 Meta 高管作证</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 56</span> <span class='hn-top-story-comments'>&#128172; 3</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>浏览器去拖慢：提升性能的设计与实践</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 40</span> <span class='hn-top-story-comments'>&#128172; 32</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
-<a class='hn-top-stories-more' href='/hackernews/2026/08/19/top_stories_08192026'>View all trending stories &rarr;</a>
+<a class='hn-top-stories-more' href='/hackernews/2026/08/20/top_stories_08202026'>View all trending stories &rarr;</a>
 <a class='hn-top-stories-more' href='/hackernews/2026/08/19/best_stories_08192026'>Latest Daily Best — 2026-08-19 &rarr;</a>
 </div>
 </div>
@@ -140,10 +140,19 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 34 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-08-17 — 2026-08-19 <span class="hn-row-sep">·</span> 450 stories <span class="hn-row-sep">·</span> 3 days</span>
+<span class='hn-week-meta'>2026-08-17 — 2026-08-20 <span class="hn-row-sep">·</span> 499 stories <span class="hn-row-sep">·</span> 4 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
+<div class='hn-day-row'>
+<div class='hn-day-date'>2026-08-20 <span class='hn-day-weekday'>Thu</span></div>
+<div class='hn-day-stories'>
+<a class='hn-story-link' href='/hackernews/2026/08/20/top_stories_08202026'>
+<span class='hn-row-type hn-type-top'>Trending</span>
+<span class='hn-row-detail'>All <b>49</b> <span class="hn-row-sep">·</span> Programming <b>16</b> <span class="hn-row-sep">·</span> AI <b>12</b></span>
+</a>
+</div>
+</div>
 <div class='hn-day-row'>
 <div class='hn-day-date'>2026-08-19 <span class='hn-day-weekday'>Wed</span></div>
 <div class='hn-day-stories'>
@@ -504,7 +513,7 @@ Sort:
 <details class='hn-week-group'>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 30</span>
-<span class='hn-week-meta'>2026-07-21 — 2026-07-26 <span class="hn-row-sep">·</span> 900 stories <span class="hn-row-sep">·</span> 6 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
+<span class='hn-week-meta'>2026-07-22 — 2026-07-26 <span class="hn-row-sep">·</span> 750 stories <span class="hn-row-sep">·</span> 5 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
 </summary>
 <div class='hn-week-content'>
 <a class='hn-story-link hn-weekly-digest-link' href='/hackernews/weekly/2026-W30'>
@@ -574,19 +583,6 @@ Sort:
 <a class='hn-story-link' href='/hackernews/2026/07/22/top_stories_07222026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
 <span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>30</b> <span class="hn-row-sep">·</span> Security <b>17</b></span>
-</a>
-</div>
-</div>
-<div class='hn-day-row'>
-<div class='hn-day-date'>2026-07-21 <span class='hn-day-weekday'>Tue</span></div>
-<div class='hn-day-stories'>
-<a class='hn-story-link' href='/hackernews/2026/07/21/best_stories_07212026'>
-<span class='hn-row-type hn-type-best'>Daily Best</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>20</b> <span class="hn-row-sep">·</span> Privacy <b>9</b></span>
-</a>
-<a class='hn-story-link' href='/hackernews/2026/07/21/top_stories_07212026'>
-<span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>29</b> <span class="hn-row-sep">·</span> Programming <b>19</b></span>
 </a>
 </div>
 </div>
