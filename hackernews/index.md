@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>182</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>26891</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>180</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>180</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-08-20</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>183</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>26940</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>180</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>181</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-08-21</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,118 +20,118 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='1383' data-hn-time='1787256446'>
+<div class='hn-top-story-item' data-hn-score='190' data-hn-time='1787317471'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/20/top_stories_08202026#story-49379550'>Aaron Swartz was prosecuted for scraping, while Meta does it without consequence</a>
- <a class='hn-top-story-link' href='https://blog.curiousquail.com/im-upset-again-about-a-co-creator-of-rss-being-prosecuted-for-something-meta-is-doing-with-little-consequence/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/21/top_stories_08212026#story-49387497'>Grand jury declines to indict Ohio man charged with destroying Flock camera</a>
+ <a class='hn-top-story-link' href='https://san.com/cc/grand-jury-declines-to-indict-ohio-man-charged-with-destroying-flock-camera/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>艾伦·斯沃茨因抓取被起诉，Meta却未受惩罚</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 14</span> <span class='hn-top-story-score'>&#9650; 1383</span> <span class='hn-top-story-comments'>&#128172; 299</span> <span class='hn-top-story-tag'>Legal</span></div>
+<div class='hn-top-story-zh'>大陪审团决定不对涉毁坏 Flock 摄像头的俄亥俄州男子提起指控</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 19</span> <span class='hn-top-story-score'>&#9650; 190</span> <span class='hn-top-story-comments'>&#128172; 70</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='266' data-hn-time='1787279867'>
+<div class='hn-top-story-item' data-hn-score='111' data-hn-time='1787320597'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/20/top_stories_08202026#story-49383026'>AI companies destroy physical books – let's scan rare books before it's too late</a>
- <a class='hn-top-story-link' href='https://annas-archive.gl/blog/physical-destruction.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/21/top_stories_08212026#story-49388154'>Kagi added a setting for removing paywalled links from search results</a>
+ <a class='hn-top-story-link' href='https://kagi.com/changelog#11296' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>AI 公司毁灭实体书——应及早扫描珍贵书籍以保存</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.6</span> <span class='hn-top-story-score'>&#9650; 266</span> <span class='hn-top-story-comments'>&#128172; 189</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>Kagi 增加可在搜索结果中去除付费墙链接的设置</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 19</span> <span class='hn-top-story-score'>&#9650; 111</span> <span class='hn-top-story-comments'>&#128172; 40</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='98' data-hn-time='1787282263'>
+<div class='hn-top-story-item' data-hn-score='351' data-hn-time='1787306746'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/20/top_stories_08202026#story-49383326'>Codex on AWS bedrock bug causing 10x charges</a>
- <a class='hn-top-story-link' href='https://github.com/openai/codex/issues/37674' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/21/top_stories_08212026#story-49385994'>AI companies destroy physical books – let's scan rare books before it's too late</a>
+ <a class='hn-top-story-link' href='https://annas-archive.pk/blog/physical-destruction.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>AWS Bedrock 上的 Codex 计费错误导致十倍收费</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.3</span> <span class='hn-top-story-score'>&#9650; 98</span> <span class='hn-top-story-comments'>&#128172; 31</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>AI 公司正在摧毁实体书——现在就扫描稀有书籍</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 351</span> <span class='hn-top-story-comments'>&#128172; 266</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Legal</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='455' data-hn-time='1787253744'>
+<div class='hn-top-story-item' data-hn-score='275' data-hn-time='1787308436'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/20/top_stories_08202026#story-49378957'>The August 17 outage</a>
- <a class='hn-top-story-link' href='https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/21/top_stories_08212026#story-49386163'>DeepSeek-v4-flash-vision-exp</a>
+ <a class='hn-top-story-link' href='https://api-docs.deepseek.com/guides/vision/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>8月17日停机事件及后续工作</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 455</span> <span class='hn-top-story-comments'>&#128172; 516</span> <span class='hn-top-story-tag'>DevOps</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>DeepSeek v4：快速视觉实验</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 275</span> <span class='hn-top-story-comments'>&#128172; 80</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='37' data-hn-time='1787290294'>
+<div class='hn-top-story-item' data-hn-score='152' data-hn-time='1787305514'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/20/top_stories_08202026#story-49384180'>Japan tried to build an operating system for the world, the US intervened</a>
- <a class='hn-top-story-link' href='https://www.xda-developers.com/japan-tried-build-operating-system-entire-world-us-government-intervened/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/21/top_stories_08212026#story-49385860'>Small, native web tricks worth remembering</a>
+ <a class='hn-top-story-link' href='https://htmlcat.net/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>日本尝试为全球打造操作系统，遭美国干预</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 37</span> <span class='hn-top-story-comments'>&#128172; 9</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>值得记住的小型原生网页技巧</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.7</span> <span class='hn-top-story-score'>&#9650; 152</span> <span class='hn-top-story-comments'>&#128172; 36</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='946' data-hn-time='1787220532'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='78' data-hn-time='1787312618'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/20/top_stories_08202026#story-49372583'>AliExpress runs silent WebAudio fingerprinting that breaks Bluetooth multipoint</a>
- <a class='hn-top-story-link' href='https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/21/top_stories_08212026#story-49386659'>TigerBeetle Core System Architecture: Deconstructing Performance Engineering</a>
+ <a class='hn-top-story-link' href='https://ixuvo.com/blog/tigerbeetle-core-system-architecture-performance-engineering' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>AliExpress 静默进行 WebAudio 指纹识别，影响蓝牙多点连接</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 946</span> <span class='hn-top-story-comments'>&#128172; 297</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>TigerBeetle 核心系统架构：性能工程解析</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.4</span> <span class='hn-top-story-score'>&#9650; 78</span> <span class='hn-top-story-comments'>&#128172; 31</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Data</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='142' data-hn-time='1787271312'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='301' data-hn-time='1787290294'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/20/top_stories_08202026#story-49382041'>Copyright does not protect AI-generated content in EU</a>
- <a class='hn-top-story-link' href='https://mathstodon.xyz/@maxpool/117128107757895678' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/21/top_stories_08212026#story-49384180'>Japan tried to build an operating system for the world, the US intervened</a>
+ <a class='hn-top-story-link' href='https://www.xda-developers.com/japan-tried-build-operating-system-entire-world-us-government-intervened/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>欧盟不为 AI 生成内容提供版权保护</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 142</span> <span class='hn-top-story-comments'>&#128172; 126</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>日本尝试为全球打造操作系统，遭美国干预</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 301</span> <span class='hn-top-story-comments'>&#128172; 173</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='325' data-hn-time='1787252072'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='189' data-hn-time='1787297007'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/20/top_stories_08202026#story-49378630'>Watching TikTok and Instagram deactivates the cognitive control network: Study</a>
- <a class='hn-top-story-link' href='https://www.rathbiotaclan.com/tiktok-videos-deactivate-key-cognitive-brain-regions/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/21/top_stories_08212026#story-49384896'>The Lost Treasure of Sid Meier's Pirates</a>
+ <a class='hn-top-story-link' href='https://remapradio.com/articles/the-lost-treasure-of-sid-meiers-pirates/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>观看 TikTok 与 Instagram 会抑制认知控制网络：研究</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 325</span> <span class='hn-top-story-comments'>&#128172; 115</span> <span class='hn-top-story-tag'>Health</span></div>
+<div class='hn-top-story-zh'>Sid Meier's Pirates 的失落宝藏</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 189</span> <span class='hn-top-story-comments'>&#128172; 108</span> <span class='hn-top-story-tag'>Entertainment</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='870' data-hn-time='1787214044'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='28' data-hn-time='1787318763'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/20/top_stories_08202026#story-49371857'>Don't paste the AI, please</a>
- <a class='hn-top-story-link' href='https://dontpastetheai.com/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/21/top_stories_08212026#story-49387755'>Nvidia AVO scores 100% on the ARC-AGI-3 interactive reasoning benchmark</a>
+ <a class='hn-top-story-link' href='https://twitter.com/NVIDIAAI/status/2090786258981466231' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>请勿直接粘贴 AI 内容</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.7</span> <span class='hn-top-story-score'>&#9650; 870</span> <span class='hn-top-story-comments'>&#128172; 442</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>NVIDIA AVO 在 ARC-AGI-3 互动推理基准中取得满分</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 28</span> <span class='hn-top-story-comments'>&#128172; 11</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='283' data-hn-time='1787252736'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='49' data-hn-time='1787312885'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/20/top_stories_08202026#story-49378768'>Show HN: Huzzah – a novel approach to coding with AI</a>
- <a class='hn-top-story-link' href='https://www.danielvaughn.dev/posts/huzzah/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/21/top_stories_08212026#story-49386699'>I'm Becoming AI-Blind</a>
+ <a class='hn-top-story-link' href='https://cymerys.com/w/im-becoming-ai-blind' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Show HN：Huzzah——用 AI 编码的新方法</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 283</span> <span class='hn-top-story-comments'>&#128172; 149</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>我开始对 AI 变得麻木</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 49</span> <span class='hn-top-story-comments'>&#128172; 42</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
-<a class='hn-top-stories-more' href='/hackernews/2026/08/20/top_stories_08202026'>View all trending stories &rarr;</a>
+<a class='hn-top-stories-more' href='/hackernews/2026/08/21/top_stories_08212026'>View all trending stories &rarr;</a>
 <a class='hn-top-stories-more' href='/hackernews/2026/08/20/best_stories_08202026'>Latest Daily Best — 2026-08-20 &rarr;</a>
 </div>
 </div>
@@ -140,10 +140,19 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 34 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-08-17 — 2026-08-20 <span class="hn-row-sep">·</span> 600 stories <span class="hn-row-sep">·</span> 4 days</span>
+<span class='hn-week-meta'>2026-08-17 — 2026-08-21 <span class="hn-row-sep">·</span> 649 stories <span class="hn-row-sep">·</span> 5 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
+<div class='hn-day-row'>
+<div class='hn-day-date'>2026-08-21 <span class='hn-day-weekday'>Fri</span></div>
+<div class='hn-day-stories'>
+<a class='hn-story-link' href='/hackernews/2026/08/21/top_stories_08212026'>
+<span class='hn-row-type hn-type-top'>Trending</span>
+<span class='hn-row-detail'>All <b>49</b> <span class="hn-row-sep">·</span> AI <b>11</b> <span class="hn-row-sep">·</span> Programming <b>8</b></span>
+</a>
+</div>
+</div>
 <div class='hn-day-row'>
 <div class='hn-day-date'>2026-08-20 <span class='hn-day-weekday'>Thu</span></div>
 <div class='hn-day-stories'>
@@ -517,7 +526,7 @@ Sort:
 <details class='hn-week-group'>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 30</span>
-<span class='hn-week-meta'>2026-07-22 — 2026-07-26 <span class="hn-row-sep">·</span> 750 stories <span class="hn-row-sep">·</span> 5 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
+<span class='hn-week-meta'>2026-07-23 — 2026-07-26 <span class="hn-row-sep">·</span> 600 stories <span class="hn-row-sep">·</span> 4 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
 </summary>
 <div class='hn-week-content'>
 <a class='hn-story-link hn-weekly-digest-link' href='/hackernews/weekly/2026-W30'>
@@ -574,19 +583,6 @@ Sort:
 <a class='hn-story-link' href='/hackernews/2026/07/23/top_stories_07232026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
 <span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>32</b> <span class="hn-row-sep">·</span> AI <b>28</b></span>
-</a>
-</div>
-</div>
-<div class='hn-day-row'>
-<div class='hn-day-date'>2026-07-22 <span class='hn-day-weekday'>Wed</span></div>
-<div class='hn-day-stories'>
-<a class='hn-story-link' href='/hackernews/2026/07/22/best_stories_07222026'>
-<span class='hn-row-type hn-type-best'>Daily Best</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>17</b> <span class="hn-row-sep">·</span> Programming <b>11</b></span>
-</a>
-<a class='hn-story-link' href='/hackernews/2026/07/22/top_stories_07222026'>
-<span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>30</b> <span class="hn-row-sep">·</span> Security <b>17</b></span>
 </a>
 </div>
 </div>
