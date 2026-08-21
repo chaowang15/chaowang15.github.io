@@ -20,7 +20,7 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='1106' data-hn-time='1787256446'>
+<div class='hn-top-story-item' data-hn-score='1383' data-hn-time='1787256446'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -28,54 +28,54 @@ Sort:
  <a class='hn-top-story-link' href='https://blog.curiousquail.com/im-upset-again-about-a-co-creator-of-rss-being-prosecuted-for-something-meta-is-doing-with-little-consequence/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>艾伦·斯沃茨因抓取被起诉，Meta却未受惩罚</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 22</span> <span class='hn-top-story-score'>&#9650; 1106</span> <span class='hn-top-story-comments'>&#128172; 241</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Data</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 14</span> <span class='hn-top-story-score'>&#9650; 1383</span> <span class='hn-top-story-comments'>&#128172; 299</span> <span class='hn-top-story-tag'>Legal</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='142' data-hn-time='1787271312'>
+<div class='hn-top-story-item' data-hn-score='266' data-hn-time='1787279867'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/20/top_stories_08202026#story-49382041'>Copyright does not protect AI-generated content in EU</a>
- <a class='hn-top-story-link' href='https://mathstodon.xyz/@maxpool/117128107757895678' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/20/top_stories_08202026#story-49383026'>AI companies destroy physical books – let's scan rare books before it's too late</a>
+ <a class='hn-top-story-link' href='https://annas-archive.gl/blog/physical-destruction.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>欧盟不为 AI 生成内容提供版权保护</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.7</span> <span class='hn-top-story-score'>&#9650; 142</span> <span class='hn-top-story-comments'>&#128172; 126</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Legal</span></div>
+<div class='hn-top-story-zh'>AI 公司毁灭实体书——应及早扫描珍贵书籍以保存</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.6</span> <span class='hn-top-story-score'>&#9650; 266</span> <span class='hn-top-story-comments'>&#128172; 189</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='93' data-hn-time='1787272472'>
+<div class='hn-top-story-item' data-hn-score='98' data-hn-time='1787282263'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/20/top_stories_08202026#story-49382200'>It is a sign of the times that Amazon gets to call this fair use</a>
- <a class='hn-top-story-link' href='http://observationalepidemiology.blogspot.com/2026/08/it-is-sign-of-times-that-amazon-gets-to.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/20/top_stories_08202026#story-49383326'>Codex on AWS bedrock bug causing 10x charges</a>
+ <a class='hn-top-story-link' href='https://github.com/openai/codex/issues/37674' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>这是时代的信号：亚马逊将此行为视为合理使用</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.4</span> <span class='hn-top-story-score'>&#9650; 93</span> <span class='hn-top-story-comments'>&#128172; 58</span> <span class='hn-top-story-tag'>Legal</span></div>
+<div class='hn-top-story-zh'>AWS Bedrock 上的 Codex 计费错误导致十倍收费</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.3</span> <span class='hn-top-story-score'>&#9650; 98</span> <span class='hn-top-story-comments'>&#128172; 31</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='351' data-hn-time='1787253744'>
+<div class='hn-top-story-item' data-hn-score='455' data-hn-time='1787253744'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/20/top_stories_08202026#story-49378957'>The August 17 outage, and the work ahead</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/20/top_stories_08202026#story-49378957'>The August 17 outage</a>
  <a class='hn-top-story-link' href='https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>8月17日停机事件及后续工作</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.0</span> <span class='hn-top-story-score'>&#9650; 351</span> <span class='hn-top-story-comments'>&#128172; 399</span> <span class='hn-top-story-tag'>DevOps</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 455</span> <span class='hn-top-story-comments'>&#128172; 516</span> <span class='hn-top-story-tag'>DevOps</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='309' data-hn-time='1787252072'>
+<div class='hn-top-story-item' data-hn-score='37' data-hn-time='1787290294'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/20/top_stories_08202026#story-49378630'>Watching TikTok and Instagram deactivates the cognitive control network: Study</a>
- <a class='hn-top-story-link' href='https://www.rathbiotaclan.com/tiktok-videos-deactivate-key-cognitive-brain-regions/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/20/top_stories_08202026#story-49384180'>Japan tried to build an operating system for the world, the US intervened</a>
+ <a class='hn-top-story-link' href='https://www.xda-developers.com/japan-tried-build-operating-system-entire-world-us-government-intervened/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>观看 TikTok 与 Instagram 会抑制认知控制网络：研究</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.8</span> <span class='hn-top-story-score'>&#9650; 309</span> <span class='hn-top-story-comments'>&#128172; 114</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Health</span></div>
+<div class='hn-top-story-zh'>日本尝试为全球打造操作系统，遭美国干预</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 37</span> <span class='hn-top-story-comments'>&#128172; 9</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='910' data-hn-time='1787220532'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='946' data-hn-time='1787220532'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -83,51 +83,51 @@ Sort:
  <a class='hn-top-story-link' href='https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>AliExpress 静默进行 WebAudio 指纹识别，影响蓝牙多点连接</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.6</span> <span class='hn-top-story-score'>&#9650; 910</span> <span class='hn-top-story-comments'>&#128172; 295</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 946</span> <span class='hn-top-story-comments'>&#128172; 297</span> <span class='hn-top-story-tag'>Privacy</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='142' data-hn-time='1787271312'>
+<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/20/top_stories_08202026#story-49382041'>Copyright does not protect AI-generated content in EU</a>
+ <a class='hn-top-story-link' href='https://mathstodon.xyz/@maxpool/117128107757895678' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>欧盟不为 AI 生成内容提供版权保护</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 142</span> <span class='hn-top-story-comments'>&#128172; 126</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='325' data-hn-time='1787252072'>
+<span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/20/top_stories_08202026#story-49378630'>Watching TikTok and Instagram deactivates the cognitive control network: Study</a>
+ <a class='hn-top-story-link' href='https://www.rathbiotaclan.com/tiktok-videos-deactivate-key-cognitive-brain-regions/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>观看 TikTok 与 Instagram 会抑制认知控制网络：研究</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 325</span> <span class='hn-top-story-comments'>&#128172; 115</span> <span class='hn-top-story-tag'>Health</span></div>
 </div>
 </div>
 <div class='hn-top-story-item hn-top-story-extra' data-hn-score='870' data-hn-time='1787214044'>
-<span class='hn-top-story-rank'>7</span>
+<span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/08/20/top_stories_08202026#story-49371857'>Don't paste the AI, please</a>
  <a class='hn-top-story-link' href='https://dontpastetheai.com/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>请勿直接粘贴 AI 内容</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.8</span> <span class='hn-top-story-score'>&#9650; 870</span> <span class='hn-top-story-comments'>&#128172; 442</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.7</span> <span class='hn-top-story-score'>&#9650; 870</span> <span class='hn-top-story-comments'>&#128172; 442</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='228' data-hn-time='1787252736'>
-<span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='283' data-hn-time='1787252736'>
+<span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/08/20/top_stories_08202026#story-49378768'>Show HN: Huzzah – a novel approach to coding with AI</a>
  <a class='hn-top-story-link' href='https://www.danielvaughn.dev/posts/huzzah/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Show HN：Huzzah——用 AI 编码的新方法</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.7</span> <span class='hn-top-story-score'>&#9650; 228</span> <span class='hn-top-story-comments'>&#128172; 134</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='242' data-hn-time='1787249991'>
-<span class='hn-top-story-rank'>9</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/20/top_stories_08202026#story-49378243'>Consumer Rights Wiki</a>
- <a class='hn-top-story-link' href='https://consumerrights.wiki/w/Main_Page' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>消费者权益维基</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 242</span> <span class='hn-top-story-comments'>&#128172; 34</span> <span class='hn-top-story-tag'>Privacy</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='528' data-hn-time='1787227478'>
-<span class='hn-top-story-rank'>10</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/20/top_stories_08202026#story-49373456'>Show HN: I trained a 125M model to autocomplete piano on-device</a>
- <a class='hn-top-story-link' href='https://simedw.com/2026/08/20/midi-autocomplete/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>在设备端实现钢琴自动完成的125M参数模型</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 528</span> <span class='hn-top-story-comments'>&#128172; 108</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 283</span> <span class='hn-top-story-comments'>&#128172; 149</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/08/20/top_stories_08202026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>33</b> <span class="hn-row-sep">·</span> AI <b>21</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>25</b> <span class="hn-row-sep">·</span> AI <b>22</b></span>
 </a>
 </div>
 </div>
