@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>184</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>27126</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>181</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>182</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-08-22</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>184</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>27136</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>181</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>182</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-08-22</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='182' data-hn-time='1787422136'>
+<div class='hn-top-story-item' data-hn-score='326' data-hn-time='1787422136'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/22/top_stories_08222026#story-49402189'>Scrap</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/22/top_stories_08222026#story-49402189'>Scrap (2006)</a>
  <a class='hn-top-story-link' href='https://twitter.com/moxie/status/2091218652133732491' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Scrap</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.1</span> <span class='hn-top-story-score'>&#9650; 182</span> <span class='hn-top-story-comments'>&#128172; 78</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-zh'>Scrap (2006)</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.5</span> <span class='hn-top-story-score'>&#9650; 326</span> <span class='hn-top-story-comments'>&#128172; 177</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='130' data-hn-time='1787425481'>
+<div class='hn-top-story-item' data-hn-score='49' data-hn-time='1787444357'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/22/top_stories_08222026#story-49402741'>hdiutil is deprecated in macOS 27 Golden Gate</a>
- <a class='hn-top-story-link' href='https://lapcatsoftware.com/articles/2026/8/7.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/22/top_stories_08222026#story-49405110'>US Military newspaper editor voices censorship fears after being fired</a>
+ <a class='hn-top-story-link' href='https://www.bbc.com/news/articles/cm2g23ng8p4o' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>macOS 27 Golden Gate 中弃用 hdiutil</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.8</span> <span class='hn-top-story-score'>&#9650; 130</span> <span class='hn-top-story-comments'>&#128172; 43</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>DevOps</span></div>
+<div class='hn-top-story-zh'>US Military newspaper editor voices censorship fears after being fired</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 49</span> <span class='hn-top-story-comments'>&#128172; 19</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='268' data-hn-time='1787410447'>
+<div class='hn-top-story-item' data-hn-score='201' data-hn-time='1787422456'>
 <span class='hn-top-story-rank'>3</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/22/top_stories_08222026#story-49400408'>ElevenLabs, TwelveLabs, ThirteenLabs</a>
- <a class='hn-top-story-link' href='https://quantumi.sh/public/labs.html' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>十一实验室、十二实验室、十三实验室</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.8</span> <span class='hn-top-story-score'>&#9650; 268</span> <span class='hn-top-story-comments'>&#128172; 87</span> <span class='hn-top-story-tag'>Science</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='506' data-hn-time='1787394369'>
-<span class='hn-top-story-rank'>4</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/22/top_stories_08222026#story-49398304'>Canada suspends trade negotiations with USA and match tariffs dollar for dollar</a>
- <a class='hn-top-story-link' href='https://www.pm.gc.ca/en/news/statements/2026/08/21/statement-prime-minister-carney-canada-us-trade-negotiations' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>加拿大暂停与美国贸易谈判，并对等征收关税</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.5</span> <span class='hn-top-story-score'>&#9650; 506</span> <span class='hn-top-story-comments'>&#128172; 418</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Business</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='130' data-hn-time='1787417929'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/22/top_stories_08222026#story-49401549'>Anthropic appears to be A/B testing reduced effort levels in Claude Code</a>
- <a class='hn-top-story-link' href='https://twitter.com/argofowl/status/2091150597374537729' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Anthropic 似乎在 Claude Code 中对降低的努力等级进行 A/B 测试</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.7</span> <span class='hn-top-story-score'>&#9650; 130</span> <span class='hn-top-story-comments'>&#128172; 131</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='68' data-hn-time='1787425666'>
-<span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/22/top_stories_08222026#story-49402781'>NetBSD and My Life (2005)</a>
- <a class='hn-top-story-link' href='https://mail-index.netbsd.org/netbsd-advocacy/2005/09/10/0000.html' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>NetBSD 与我的生活（2005）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 68</span> <span class='hn-top-story-comments'>&#128172; 15</span> <span class='hn-top-story-tag'>Open Source</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='86' data-hn-time='1787422456'>
-<span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/08/22/top_stories_08222026#story-49402232'>Why your local LLM feels dumber than it is</a>
  <a class='hn-top-story-link' href='https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>为何本地大模型看起来比实际更笨</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 86</span> <span class='hn-top-story-comments'>&#128172; 26</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 201</span> <span class='hn-top-story-comments'>&#128172; 69</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='166' data-hn-time='1787407699'>
+<div class='hn-top-story-item' data-hn-score='325' data-hn-time='1787410447'>
+<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/22/top_stories_08222026#story-49400408'>ElevenLabs, TwelveLabs, ThirteenLabs</a>
+ <a class='hn-top-story-link' href='https://quantumi.sh/public/labs.html' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>十一实验室、十二实验室、十三实验室</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 325</span> <span class='hn-top-story-comments'>&#128172; 102</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='166' data-hn-time='1787425481'>
+<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/22/top_stories_08222026#story-49402741'>hdiutil is deprecated in macOS 27 Golden Gate</a>
+ <a class='hn-top-story-link' href='https://lapcatsoftware.com/articles/2026/8/7.html' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>macOS 27 Golden Gate 中弃用 hdiutil</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.7</span> <span class='hn-top-story-score'>&#9650; 166</span> <span class='hn-top-story-comments'>&#128172; 70</span> <span class='hn-top-story-tag'>Programming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='506' data-hn-time='1787394369'>
+<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/22/top_stories_08222026#story-49398304'>Canada suspends trade negotiations with USA and match tariffs dollar for dollar</a>
+ <a class='hn-top-story-link' href='https://www.pm.gc.ca/en/news/statements/2026/08/21/statement-prime-minister-carney-canada-us-trade-negotiations' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>加拿大暂停与美国贸易谈判，并对等征收关税</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 506</span> <span class='hn-top-story-comments'>&#128172; 418</span> <span class='hn-top-story-tag'>Business</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='167' data-hn-time='1787417929'>
+<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/22/top_stories_08222026#story-49401549'>Anthropic appears to be A/B testing reduced effort levels in Claude Code</a>
+ <a class='hn-top-story-link' href='https://twitter.com/argofowl/status/2091150597374537729' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Anthropic 似乎在 Claude Code 中对降低的努力等级进行 A/B 测试</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.9</span> <span class='hn-top-story-score'>&#9650; 167</span> <span class='hn-top-story-comments'>&#128172; 158</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='507' data-hn-time='1787379417'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/22/top_stories_08222026#story-49399898'>A Friendly Introduction to Racket</a>
- <a class='hn-top-story-link' href='https://geometridae.bearblog.dev/a-friendly-introduction-to-racket/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/22/top_stories_08222026#story-49397074'>Canada will match US tariffs 'dollar for dollar' as trade talks break down</a>
+ <a class='hn-top-story-link' href='https://www.bbc.com/news/articles/cvgvyy4x2mvo' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Racket友好入门</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 166</span> <span class='hn-top-story-comments'>&#128172; 66</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Education</span></div>
+<div class='hn-top-story-zh'>加拿大将在谈判破裂时对美关税进行对等报复</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.8</span> <span class='hn-top-story-score'>&#9650; 507</span> <span class='hn-top-story-comments'>&#128172; 1265</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='88' data-hn-time='1787418567'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='53' data-hn-time='1787436867'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/22/top_stories_08222026#story-49401621'>Belgian car salesman becomes prince after DNA test proves royal parentage</a>
- <a class='hn-top-story-link' href='https://www.cnn.com/2026/08/22/europe/prince-belgium-secret-son-scli-intl' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/22/top_stories_08222026#story-49404380'>NanoGPT Speedrun Frontier</a>
+ <a class='hn-top-story-link' href='https://www.primeintellect.ai/research/nanogpt-speedrun' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>比利时汽车销售员在DNA测试证明王室血统后成为王子</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 88</span> <span class='hn-top-story-comments'>&#128172; 68</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Culture</span></div>
+<div class='hn-top-story-zh'>NanoGPT Speedrun Frontier</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.7</span> <span class='hn-top-story-score'>&#9650; 53</span> <span class='hn-top-story-comments'>&#128172; 17</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='160' data-hn-time='1787405494'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1216' data-hn-time='1787320597'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/22/top_stories_08222026#story-49399591'>New MCP Roadmap</a>
- <a class='hn-top-story-link' href='https://blog.modelcontextprotocol.io/posts/mcp-roadmap/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/22/top_stories_08222026#story-49388154'>Kagi added a setting for removing paywalled links from search results</a>
+ <a class='hn-top-story-link' href='https://kagi.com/changelog#11296' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>MCP 路线图新展望</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.2</span> <span class='hn-top-story-score'>&#9650; 160</span> <span class='hn-top-story-comments'>&#128172; 119</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>Kagi 增加可在搜索结果中去除付费墙链接的设置</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.7</span> <span class='hn-top-story-score'>&#9650; 1216</span> <span class='hn-top-story-comments'>&#128172; 379</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -140,7 +140,7 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 34 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-08-17 — 2026-08-22 <span class="hn-row-sep">·</span> 835 stories <span class="hn-row-sep">·</span> 6 days</span>
+<span class='hn-week-meta'>2026-08-17 — 2026-08-22 <span class="hn-row-sep">·</span> 845 stories <span class="hn-row-sep">·</span> 6 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/08/22/top_stories_08222026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>85</b> <span class="hn-row-sep">·</span> Programming <b>21</b> <span class="hn-row-sep">·</span> AI <b>17</b></span>
+<span class='hn-row-detail'>All <b>95</b> <span class="hn-row-sep">·</span> Programming <b>24</b> <span class="hn-row-sep">·</span> AI <b>23</b></span>
 </a>
 </div>
 </div>
