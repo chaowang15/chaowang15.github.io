@@ -20,18 +20,18 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='424' data-hn-time='1787584097'>
+<div class='hn-top-story-item' data-hn-score='280' data-hn-time='1787599148'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/24/top_stories_08242026#story-49420873'>Xiaomi: New CPU matches Apple cores single threaded, much faster multithreaded</a>
- <a class='hn-top-story-link' href='https://twitter.com/lemire/status/2091894299289874926' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/24/top_stories_08242026#story-49424606'>Oceans hit highest temperature on record</a>
+ <a class='hn-top-story-link' href='https://www.bbc.com/news/articles/c62m4gpnp78o' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>小米新 CPU 单线程媲美苹果核心，多线程更快</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 20</span> <span class='hn-top-story-score'>&#9650; 424</span> <span class='hn-top-story-comments'>&#128172; 249</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>海洋温度创历史新高</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 16</span> <span class='hn-top-story-score'>&#9650; 280</span> <span class='hn-top-story-comments'>&#128172; 150</span> <span class='hn-top-story-tag'>Science</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='734' data-hn-time='1787576725'>
+<div class='hn-top-story-item' data-hn-score='953' data-hn-time='1787576725'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -39,21 +39,21 @@ Sort:
  <a class='hn-top-story-link' href='https://lectronz.com/u/lectronz/articles/how-europe-is-killing-makers-and-micro-entrepreneurs' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>欧洲如何扼杀创客与微型创业者</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 19</span> <span class='hn-top-story-score'>&#9650; 734</span> <span class='hn-top-story-comments'>&#128172; 489</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 953</span> <span class='hn-top-story-comments'>&#128172; 605</span> <span class='hn-top-story-tag'>Startups</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='245' data-hn-time='1787586753'>
+<div class='hn-top-story-item' data-hn-score='645' data-hn-time='1787584097'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/24/top_stories_08242026#story-49421554'>Coding expertise is going to collapse from AI reliance</a>
- <a class='hn-top-story-link' href='https://larsfaye.com/articles/ai-coding-will-prevent-expertise' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/24/top_stories_08242026#story-49420873'>Xiaomi: New CPU matches Apple cores single threaded, much faster multithreaded</a>
+ <a class='hn-top-story-link' href='https://twitter.com/lemire/status/2091894299289874926' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>依赖 AI 将削弱编码专业能力</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 15</span> <span class='hn-top-story-score'>&#9650; 245</span> <span class='hn-top-story-comments'>&#128172; 270</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>小米新 CPU 单线程媲美苹果核心，多线程更快</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 645</span> <span class='hn-top-story-comments'>&#128172; 437</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='264' data-hn-time='1787585284'>
+<div class='hn-top-story-item' data-hn-score='475' data-hn-time='1787585284'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -61,73 +61,73 @@ Sort:
  <a class='hn-top-story-link' href='https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>MS Paint 与 Photos 本地输出也会隐形嵌入 GUID 水印</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 14</span> <span class='hn-top-story-score'>&#9650; 264</span> <span class='hn-top-story-comments'>&#128172; 117</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.4</span> <span class='hn-top-story-score'>&#9650; 475</span> <span class='hn-top-story-comments'>&#128172; 183</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='174' data-hn-time='1787586525'>
+<div class='hn-top-story-item' data-hn-score='379' data-hn-time='1787586753'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/24/top_stories_08242026#story-49421489'>IPFS Maintainers Winding Down</a>
- <a class='hn-top-story-link' href='https://ipshipyard.com/blog/2026-the-end-of-ipfs-at-shipyard/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/24/top_stories_08242026#story-49421554'>Coding expertise is going to collapse from AI reliance</a>
+ <a class='hn-top-story-link' href='https://larsfaye.com/articles/ai-coding-will-prevent-expertise' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>IPFS 维护者退出维护</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 10</span> <span class='hn-top-story-score'>&#9650; 174</span> <span class='hn-top-story-comments'>&#128172; 73</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-zh'>依赖 AI 将削弱编码专业能力</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.2</span> <span class='hn-top-story-score'>&#9650; 379</span> <span class='hn-top-story-comments'>&#128172; 392</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='182' data-hn-time='1787584225'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='271' data-hn-time='1787591138'>
 <span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/24/top_stories_08242026#story-49420902'>Anna's Archive Owes $340 Million, Lost Several Domains, but It's Still Online</a>
- <a class='hn-top-story-link' href='https://torrentfreak.com/annas-archive-owes-340-million-lost-several-domains-but-its-still-online/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Anna's Archive 欠款 3.4 亿美元，域名损失但仍在线</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.5</span> <span class='hn-top-story-score'>&#9650; 182</span> <span class='hn-top-story-comments'>&#128172; 112</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Business</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='169' data-hn-time='1787584963'>
-<span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/24/top_stories_08242026#story-49421074'>OpenAI: GPT 5.6 Sol price reduction (until at least Nov 21)</a>
- <a class='hn-top-story-link' href='https://developers.openai.com/api/docs/pricing' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>OpenAI：GPT‑5.6 Sol 定价下调（至少至11月21日）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.4</span> <span class='hn-top-story-score'>&#9650; 169</span> <span class='hn-top-story-comments'>&#128172; 164</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Business</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='72' data-hn-time='1787591138'>
-<span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/08/24/top_stories_08242026#story-49422784'>The entire city of San Francisco as a video game</a>
  <a class='hn-top-story-link' href='https://sf.thijs.gg/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>将整个旧金山市变成一款电子游戏</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.3</span> <span class='hn-top-story-score'>&#9650; 72</span> <span class='hn-top-story-comments'>&#128172; 27</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>Gaming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.8</span> <span class='hn-top-story-score'>&#9650; 271</span> <span class='hn-top-story-comments'>&#128172; 92</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>Gaming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='71' data-hn-time='1787588940'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='55' data-hn-time='1787605386'>
+<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/24/top_stories_08242026#story-49425819'>One corner of China’s internet is insisting that the Tang Dynasty never existed</a>
+ <a class='hn-top-story-link' href='https://www.cnn.com/2026/08/19/style/china-tang-dynasty-never-existed-hoax-intl-hnk' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>中国互联网的一个角落坚持唐朝从未存在</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.6</span> <span class='hn-top-story-score'>&#9650; 55</span> <span class='hn-top-story-comments'>&#128172; 35</span> <span class='hn-top-story-tag'>Politics</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='291' data-hn-time='1787586525'>
+<span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/24/top_stories_08242026#story-49421489'>IPFS Maintainers Winding Down</a>
+ <a class='hn-top-story-link' href='https://ipshipyard.com/blog/2026-the-end-of-ipfs-at-shipyard/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>IPFS 维护者退出维护</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.2</span> <span class='hn-top-story-score'>&#9650; 291</span> <span class='hn-top-story-comments'>&#128172; 146</span> <span class='hn-top-story-tag'>Open Source</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='261' data-hn-time='1787584963'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/24/top_stories_08242026#story-49422204'>A Blackstone real estate company exposed SSN digits, DOBs, addresses and more</a>
- <a class='hn-top-story-link' href='https://alexschapiro.com/security/vulnerability/2026/07/16/beam-living-graphql-data-exposure' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/24/top_stories_08242026#story-49421074'>OpenAI: GPT 5.6 Sol price reduction (until at least Nov 21)</a>
+ <a class='hn-top-story-link' href='https://developers.openai.com/api/docs/pricing' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Blackstone 旗下房地产公司暴露 SSN 等个人信息</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.4</span> <span class='hn-top-story-score'>&#9650; 71</span> <span class='hn-top-story-comments'>&#128172; 21</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>OpenAI：GPT‑5.6 Sol 定价下调（至少至11月21日）</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.1</span> <span class='hn-top-story-score'>&#9650; 261</span> <span class='hn-top-story-comments'>&#128172; 237</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='597' data-hn-time='1787554621'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1341' data-hn-time='1787524864'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/24/top_stories_08242026#story-49416055'>Andreessen Horowitz is investing billions into a bleak future</a>
- <a class='hn-top-story-link' href='https://www.modelrepublic.org/articles/a16z-portfolio' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/24/top_stories_08242026#story-49413320'>Everything I own, owned</a>
+ <a class='hn-top-story-link' href='https://schlarp.com/posts/everything-i-own-owned/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>A16z在黯淡未来中投出数十亿美元</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.4</span> <span class='hn-top-story-score'>&#9650; 597</span> <span class='hn-top-story-comments'>&#128172; 311</span> <span class='hn-top-story-tag'>Startups</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>我所拥有的一切，终究被拥有</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 1341</span> <span class='hn-top-story-comments'>&#128172; 334</span> <span class='hn-top-story-tag'>Culture</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/08/24/top_stories_08242026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>23</b> <span class="hn-row-sep">·</span> Programming <b>16</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>22</b> <span class="hn-row-sep">·</span> Politics <b>13</b></span>
 </a>
 </div>
 </div>
