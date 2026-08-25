@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>186</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>27491</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>184</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>184</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-08-24</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>187</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>27540</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>184</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>185</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-08-25</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,118 +20,118 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='1227' data-hn-time='1787576725'>
+<div class='hn-top-story-item' data-hn-score='320' data-hn-time='1787662882'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/24/top_stories_08242026#story-49419237'>How Europe is killing makers and micro-entrepreneurs</a>
- <a class='hn-top-story-link' href='https://lectronz.com/u/lectronz/articles/how-europe-is-killing-makers-and-micro-entrepreneurs' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/25/top_stories_08252026#story-49433292'>Apple introduces M6 and M5 Ultra for a big leap in performance and AI compute</a>
+ <a class='hn-top-story-link' href='https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>欧洲如何扼杀创客与微型创业者</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.6</span> <span class='hn-top-story-score'>&#9650; 1227</span> <span class='hn-top-story-comments'>&#128172; 725</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>苹果推出 M6 与 M5 Ultra 引领性能与 AI 算力大跃升</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 30</span> <span class='hn-top-story-score'>&#9650; 320</span> <span class='hn-top-story-comments'>&#128172; 266</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='388' data-hn-time='1787609620'>
+<div class='hn-top-story-item' data-hn-score='249' data-hn-time='1787662997'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/24/top_stories_08242026#story-49426564'>iCloud+ Hide My Email addresses will remain on icloud.com</a>
- <a class='hn-top-story-link' href='https://developer.apple.com/news/?id=1ptvdtcm' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/25/top_stories_08252026#story-49433316'>Apple Introduces New Mac Studio with M5 Max and M5 Ultra</a>
+ <a class='hn-top-story-link' href='https://www.apple.com/newsroom/2026/08/apple-introduces-new-mac-studio-with-m5-max-and-m5-ultra/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>iCloud+ 的隐藏我的邮箱地址仍将保留在 iCloud.com</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.4</span> <span class='hn-top-story-score'>&#9650; 388</span> <span class='hn-top-story-comments'>&#128172; 102</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>苹果推出新款 Mac Studio，搭载 M5 Max 与 M5 Ultra</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 24</span> <span class='hn-top-story-score'>&#9650; 249</span> <span class='hn-top-story-comments'>&#128172; 144</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='821' data-hn-time='1787584097'>
+<div class='hn-top-story-item' data-hn-score='140' data-hn-time='1787658588'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/24/top_stories_08242026#story-49420873'>Xiaomi: New CPU matches Apple cores single threaded, much faster multithreaded</a>
- <a class='hn-top-story-link' href='https://twitter.com/lemire/status/2091894299289874926' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/25/top_stories_08252026#story-49432319'>Don't Wordle</a>
+ <a class='hn-top-story-link' href='https://dontwordle.com/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>小米新 CPU 单线程媲美苹果核心，多线程更快</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.6</span> <span class='hn-top-story-score'>&#9650; 821</span> <span class='hn-top-story-comments'>&#128172; 575</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>不要玩 Wordle</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.9</span> <span class='hn-top-story-score'>&#9650; 140</span> <span class='hn-top-story-comments'>&#128172; 60</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Culture</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='492' data-hn-time='1787599148'>
+<div class='hn-top-story-item' data-hn-score='74' data-hn-time='1787661875'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/24/top_stories_08242026#story-49424606'>Oceans hit highest temperature on record</a>
- <a class='hn-top-story-link' href='https://www.bbc.com/news/articles/c62m4gpnp78o' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/25/top_stories_08252026#story-49433064'>France's tax agency got hacked (in French)</a>
+ <a class='hn-top-story-link' href='https://www.cybernetica.fr/piratage-des-impots-comment-en-est-on-arrive-la/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>海洋温度创历史新高</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.4</span> <span class='hn-top-story-score'>&#9650; 492</span> <span class='hn-top-story-comments'>&#128172; 395</span> <span class='hn-top-story-tag'>Science</span></div>
+<div class='hn-top-story-zh'>法国税务局遭遇黑客入侵</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.0</span> <span class='hn-top-story-score'>&#9650; 74</span> <span class='hn-top-story-comments'>&#128172; 38</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>DevOps</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='662' data-hn-time='1787585284'>
+<div class='hn-top-story-item' data-hn-score='102' data-hn-time='1787658583'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/24/top_stories_08242026#story-49421158'>MS Paint and Photos inivisibly watermark even locally generated output with GUID</a>
- <a class='hn-top-story-link' href='https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/25/top_stories_08252026#story-49432317'>Qwen 3.8-Flash-Next releasing tomorrow (125B a6B)</a>
+ <a class='hn-top-story-link' href='https://modelscope.cn/models/Qwen/Qwen3.8-Flash-Next' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>MS Paint 与 Photos 本地输出也会隐形嵌入 GUID 水印</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.8</span> <span class='hn-top-story-score'>&#9650; 662</span> <span class='hn-top-story-comments'>&#128172; 265</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>Qwen 3.8-Flash-Next 将于明日发布（125B 参数）</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.7</span> <span class='hn-top-story-score'>&#9650; 102</span> <span class='hn-top-story-comments'>&#128172; 39</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='426' data-hn-time='1787591138'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='74' data-hn-time='1787661180'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/24/top_stories_08242026#story-49422784'>The entire city of San Francisco as a video game</a>
- <a class='hn-top-story-link' href='https://sf.thijs.gg/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/25/top_stories_08252026#story-49432879'>OpenAI restores 5-hour Codex and Work limits for ChatGPT Plus users</a>
+ <a class='hn-top-story-link' href='https://9to5mac.com/2026/08/24/openai-restores-5-hour-codex-and-work-limits-for-chatgpt-plus-users/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>将整个旧金山市变成一款电子游戏</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 426</span> <span class='hn-top-story-comments'>&#128172; 136</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>Design</span> <span class='hn-top-story-tag'>Gaming</span></div>
+<div class='hn-top-story-zh'>OpenAI 为 ChatGPT Plus 用户恢复 5 小时 Codex 与工作限额</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.5</span> <span class='hn-top-story-score'>&#9650; 74</span> <span class='hn-top-story-comments'>&#128172; 58</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='480' data-hn-time='1787586753'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='52' data-hn-time='1787663580'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/24/top_stories_08242026#story-49421554'>Coding expertise is going to collapse from AI reliance</a>
- <a class='hn-top-story-link' href='https://larsfaye.com/articles/ai-coding-will-prevent-expertise' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/25/top_stories_08252026#story-49433450'>Apple's new Mac mini, featuring M6 and M5 Pro</a>
+ <a class='hn-top-story-link' href='https://www.apple.com/newsroom/2026/08/apple-unveils-a-more-powerful-mac-mini-featuring-the-all-new-m6-and-m5-pro/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>依赖 AI 将削弱编码专业能力</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 480</span> <span class='hn-top-story-comments'>&#128172; 475</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Career</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>苹果发布新款Mac mini，搭载M6与M5 Pro</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.2</span> <span class='hn-top-story-score'>&#9650; 52</span> <span class='hn-top-story-comments'>&#128172; 30</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='84' data-hn-time='1787623899'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='20' data-hn-time='1787667636'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/24/top_stories_08242026#story-49428318'>Thomson Reuters Launches Its Own Frontier Model</a>
- <a class='hn-top-story-link' href='https://www.thomsonreuters.com/en/press-releases/2026/august/thomson-reuters-leverages-its-world-class-data-assets-to-launch-its-own-frontier-model' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/25/top_stories_08252026#story-49434645'>Building a backyard office, the build and cost breakdown</a>
+ <a class='hn-top-story-link' href='https://www.imkylelambert.com/articles/building-a-backyard-office-the-build-and-cost-breakdown' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>汤森路透推出自有 Frontier 模型</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 84</span> <span class='hn-top-story-comments'>&#128172; 29</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Finance</span></div>
+<div class='hn-top-story-zh'>打造后院办公室：施工与成本分解</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 20</span> <span class='hn-top-story-comments'>&#128172; 3</span> <span class='hn-top-story-tag'>Education</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='91' data-hn-time='1787622039'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1517' data-hn-time='1787576725'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/24/top_stories_08242026#story-49428121'>How Universities Should Prepare Founders</a>
- <a class='hn-top-story-link' href='https://paulgraham.com/prepare.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/25/top_stories_08252026#story-49419237'>How Europe is killing makers and micro-entrepreneurs</a>
+ <a class='hn-top-story-link' href='https://lectronz.com/u/lectronz/articles/how-europe-is-killing-makers-and-micro-entrepreneurs' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>高校应如何培养创始人</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 91</span> <span class='hn-top-story-comments'>&#128172; 96</span> <span class='hn-top-story-tag'>Education</span> <span class='hn-top-story-tag'>Startups</span></div>
+<div class='hn-top-story-zh'>欧洲如何扼杀创客与微型创业者</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 1517</span> <span class='hn-top-story-comments'>&#128172; 951</span> <span class='hn-top-story-tag'>Startups</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1376' data-hn-time='1787524864'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='19' data-hn-time='1787666427'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/24/top_stories_08242026#story-49413320'>Everything I own, owned</a>
- <a class='hn-top-story-link' href='https://schlarp.com/posts/everything-i-own-owned/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/25/top_stories_08252026#story-49434291'>Anthropic tells staff to work from home due to possible security team strike</a>
+ <a class='hn-top-story-link' href='https://www.businessinsider.com/anthropic-san-francisco-staff-work-remote-office-security-strike-2026-8' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>我所拥有的一切，终究被拥有</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 1376</span> <span class='hn-top-story-comments'>&#128172; 338</span> <span class='hn-top-story-tag'>Culture</span></div>
+<div class='hn-top-story-zh'>Anthropic 因安全团队可能罢工而通知员工居家办公</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 19</span> <span class='hn-top-story-comments'>&#128172; 13</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>DevOps</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
-<a class='hn-top-stories-more' href='/hackernews/2026/08/24/top_stories_08242026'>View all trending stories &rarr;</a>
+<a class='hn-top-stories-more' href='/hackernews/2026/08/25/top_stories_08252026'>View all trending stories &rarr;</a>
 <a class='hn-top-stories-more' href='/hackernews/2026/08/24/best_stories_08242026'>Latest Daily Best — 2026-08-24 &rarr;</a>
 </div>
 </div>
@@ -140,10 +140,19 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 35 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-08-24 <span class="hn-row-sep">·</span> 150 stories <span class="hn-row-sep">·</span> 1 days</span>
+<span class='hn-week-meta'>2026-08-24 — 2026-08-25 <span class="hn-row-sep">·</span> 199 stories <span class="hn-row-sep">·</span> 2 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
+<div class='hn-day-row'>
+<div class='hn-day-date'>2026-08-25 <span class='hn-day-weekday'>Tue</span></div>
+<div class='hn-day-stories'>
+<a class='hn-story-link' href='/hackernews/2026/08/25/top_stories_08252026'>
+<span class='hn-row-type hn-type-top'>Trending</span>
+<span class='hn-row-detail'>All <b>49</b> <span class="hn-row-sep">·</span> AI <b>13</b> <span class="hn-row-sep">·</span> Programming <b>9</b></span>
+</a>
+</div>
+</div>
 <div class='hn-day-row'>
 <div class='hn-day-date'>2026-08-24 <span class='hn-day-weekday'>Mon</span></div>
 <div class='hn-day-stories'>
@@ -574,33 +583,6 @@ Sort:
 <a class='hn-story-link' href='/hackernews/2026/07/27/top_stories_07272026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
 <span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>28</b> <span class="hn-row-sep">·</span> AI <b>18</b></span>
-</a>
-</div>
-</div>
-</div>
-</div>
-</details>
-<details class='hn-week-group'>
-<summary class='hn-week-summary'>
-<span class='hn-week-title'>2026 Week 30</span>
-<span class='hn-week-meta'>2026-07-26 <span class="hn-row-sep">·</span> 150 stories <span class="hn-row-sep">·</span> 1 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
-</summary>
-<div class='hn-week-content'>
-<a class='hn-story-link hn-weekly-digest-link' href='/hackernews/weekly/2026-W30'>
-<span class='hn-row-type hn-type-weekly'>Weekly Digest</span>
-<span class='hn-row-detail'>2026-07-20 — 2026-07-26 <span class="hn-row-sep">·</span> All <b>488</b> <span class="hn-row-sep">·</span> Programming <b>115</b> <span class="hn-row-sep">·</span> AI <b>110</b></span>
-</a>
-<div class='hn-grid'>
-<div class='hn-day-row'>
-<div class='hn-day-date'>2026-07-26 <span class='hn-day-weekday'>Sun</span></div>
-<div class='hn-day-stories'>
-<a class='hn-story-link' href='/hackernews/2026/07/26/best_stories_07262026'>
-<span class='hn-row-type hn-type-best'>Daily Best</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>13</b> <span class="hn-row-sep">·</span> Programming <b>10</b></span>
-</a>
-<a class='hn-story-link' href='/hackernews/2026/07/26/top_stories_07262026'>
-<span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>29</b> <span class="hn-row-sep">·</span> Hardware <b>17</b></span>
 </a>
 </div>
 </div>
