@@ -4,44 +4,21 @@
     "source": "https://news.ycombinator.com/",
     "api": "https://github.com/HackerNews/API",
     "count_requested": 50,
-    "count_written": 49,
-    "reused_same_day": 0,
-    "reused_cross_day": 28,
-    "new_llm_enriched": 18,
-    "scrape_time_display": "07:42, August 26, 2026 (PDT)",
+    "count_written": 84,
+    "reused_same_day": 13,
+    "reused_cross_day": 0,
+    "new_llm_enriched": 36,
+    "scrape_time_display": "12:43, August 26, 2026 (PDT)",
     "timezone": "America/Los_Angeles",
     "date_dir": "2026/08/26",
     "content_date": "2026-08-26",
-    "run_time_local": "07:42, August 26, 2026 (PDT)",
-    "run_time_utc": "2026-08-26 14:42:54 UTC",
+    "run_time_local": "12:43, August 26, 2026 (PDT)",
+    "run_time_utc": "2026-08-26 19:43:30 UTC",
     "incremental": true,
     "stories_max": 100,
-    "hot_score_time_utc": "2026-08-26 14:44:20 UTC"
+    "hot_score_time_utc": "2026-08-26 19:45:59 UTC"
   },
   "items": [
-    {
-      "title_en": "AWS Acquires DuckDB",
-      "url": "https://ducklabs.com/news/2026/08/26/ducklabs-to-join-aws",
-      "title_zh": "AWS 收购 DuckDB",
-      "created_display": "Created: Aug 26, 2026 / 05:59 PT",
-      "image_url": "https://ducklabs.com/img/blog/ducklabs-aws-blog.png",
-      "summary_en": "Amazon’s AWS acquires DuckDB, the popular embeddable analytical database, signaling deeper analytics integration beyond traditional managed services. DuckDB’s in-process engine is a favorite for ad-hoc data science queries, and the deal could pave tighter integration with AWS data services, reducing data movement and latency. The move underscores AWS’s push to own more of the analytics stack, not just cloud compute.",
-      "summary_zh": "AWS 收购 DuckDB，标志着在分析能力上的进一步整合。DuckDB 以就地执行的分析引擎著称，交易可能促成与 AWS 数据服务的更紧密集成，降低数据移动和延迟。这体现 AWS 在分析栈上的进一步扩展，不再局限于云计算资源。",
-      "hn": {
-        "id": 49448321,
-        "type": "story",
-        "by": "onderkalaci",
-        "score": 407,
-        "descendants": 93,
-        "time": 1787749166,
-        "comments_url": "https://news.ycombinator.com/item?id=49448321"
-      },
-      "hot_score": 37.63,
-      "tags": [
-        "Open Source",
-        "Data"
-      ]
-    },
     {
       "title_en": "GLM-5.3-Flash",
       "url": "https://z.ai/blog/glm-5.3-flash",
@@ -54,42 +31,137 @@
         "id": 49449507,
         "type": "story",
         "by": "Philpax",
-        "score": 141,
-        "descendants": 37,
+        "score": 664,
+        "descendants": 308,
         "time": 1787753330,
         "comments_url": "https://news.ycombinator.com/item?id=49449507"
       },
-      "hot_score": 25.21,
       "tags": [
         "AI",
+        "Hardware"
+      ],
+      "hot_score": 17.14
+    },
+    {
+      "title_en": "Tim Curry has died",
+      "url": "https://www.theguardian.com/film/2026/aug/26/tim-curry-dies-rocky-horror-show-stephen-king-it-legend-film",
+      "title_zh": "蒂姆·库里去世",
+      "created_display": "Created: Aug 26, 2026 / 09:03 PT",
+      "image_url": "https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/11/10/1447180876442/d3b4806e-2803-42bb-8aec-690e08e5c939-2060x1236.jpeg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=b04bfdbe488cdc524bb7fbaefc4933be",
+      "summary_en": "Tim Curry, the versatile actor known for roles in The Rocky Horror Picture Show and IT, has died. Tributes highlight his flamboyant stage presence and iconic performances across film and television.",
+      "summary_zh": "知名演员蒂姆·库里去世，因其在舞台与银幕上塑造的标志性角色而广受赞誉。人们怀念他在《摇滚惊魂夜》等作品中的多才多艺与大胆表演。",
+      "hn": {
+        "id": 49451448,
+        "type": "story",
+        "by": "mykowebhn",
+        "score": 387,
+        "descendants": 139,
+        "time": 1787760217,
+        "comments_url": "https://news.ycombinator.com/item?id=49451448"
+      },
+      "hot_score": 16.79,
+      "tags": [
+        "Entertainment",
+        "Culture"
+      ]
+    },
+    {
+      "title_en": "AWS Acquires DuckLabs",
+      "url": "https://ducklabs.com/news/2026/08/26/ducklabs-to-join-aws",
+      "title_zh": "AWS 收购 DuckLabs",
+      "created_display": "Created: Aug 26, 2026 / 05:59 PT",
+      "image_url": "https://ducklabs.com/img/blog/ducklabs-aws-blog.png",
+      "summary_en": "Amazon Web Services has acquired DuckLabs to bolster its data tooling and AI capabilities. The acquisition signals AWS's push to integrate DuckLabs' technology into its cloud platform, potentially expanding its offerings for data-driven workloads.",
+      "summary_zh": "亚马逊网络服务宣布收购 DuckLabs，以增强其数据工具和人工智能能力。这笔交易可能将把 DuckLabs 的技术融入 AWS 的云平台，拓展数据驱动工作负载的能力。",
+      "hn": {
+        "id": 49448321,
+        "type": "story",
+        "by": "onderkalaci",
+        "score": 831,
+        "descendants": 237,
+        "time": 1787749166,
+        "comments_url": "https://news.ycombinator.com/item?id=49448321"
+      },
+      "hot_score": 16.64,
+      "tags": [
+        "Business",
+        "Startups",
+        "AI"
+      ]
+    },
+    {
+      "title_en": "Tailcat",
+      "url": "https://github.com/tailscale/tailcat",
+      "title_zh": "Tailcat 项目",
+      "created_display": "Created: Aug 26, 2026 / 10:42 PT",
+      "image_url": "https://opengraph.githubassets.com/b76f579e9791cdcf992950446915cc04f8e244cf65d878ea4db780658e89bcac/tailscale/tailcat",
+      "summary_en": "Tailcat appears to be a new project from Tailscale, but no specifics are available from the title.",
+      "summary_zh": "Tailcat 似乎是 Tailscale 的一个新项目，但从标题看没有公开的细节。",
+      "hn": {
+        "id": 49452990,
+        "type": "story",
+        "by": "nderjung",
+        "score": 197,
+        "descendants": 32,
+        "time": 1787766142,
+        "comments_url": "https://news.ycombinator.com/item?id=49452990"
+      },
+      "hot_score": 15.73,
+      "tags": [
+        "Open Source"
+      ]
+    },
+    {
+      "title_en": "Study Reveals UnitedHealth's Profit Margins Four Times What It Claimed [pdf]",
+      "url": "https://insurancewatchdogcoalition.com/wp-content/uploads/2026/08/UHG-Profits-Study_August-2026.pdf",
+      "title_zh": "研究揭示联合健康的利润率为其披露的四倍",
+      "created_display": "Created: Aug 26, 2026 / 11:20 PT",
+      "image_url": null,
+      "summary_en": "A new study by Insurance Watchdog Coalition claims UnitedHealth's profit margins are four times what the company publicly reported, prompting questions about how insurers calculate profitability. The finding could feed into ongoing debates about healthcare costs, pricing transparency, and regulatory oversight.",
+      "summary_zh": "保险监测联盟的一项新研究称联合健康的利润率是公司公开披露的四倍，这引发对保险公司利润计算方式的质疑。该结果可能推动关于医疗成本、定价透明度和监管的持续讨论。",
+      "hn": {
+        "id": 49453510,
+        "type": "story",
+        "by": "CGMthrowaway",
+        "score": 117,
+        "descendants": 41,
+        "time": 1787768409,
+        "comments_url": "https://news.ycombinator.com/item?id=49453510"
+      },
+      "hot_score": 12.61,
+      "tags": [
+        "Health",
+        "Finance",
+        "Business",
+        "Politics"
+      ]
+    },
+    {
+      "title_en": "An ongoing 3D-printer AGPL violation",
+      "url": "https://lwn.net/SubscriberLink/1089390/46116614cc74b814/",
+      "title_zh": "3D 打印机领域持续的 AGPL 许可证违规",
+      "created_display": "Created: Aug 26, 2026 / 10:41 PT",
+      "image_url": "https://static.lwn.net/images/logo/barepenguin-70.webp",
+      "summary_en": "The article documents an ongoing AGPL license violation in a 3D printer ecosystem, highlighting licensing compliance challenges for hardware vendors. It discusses potential enforcement paths and the impact on open-source developers and users.",
+      "summary_zh": "文中记录了一个持续的 AGPL 许可证违规案例，涉及 3D 打印机生态系统，凸显硬件厂商在开源许可方面的合规挑战。文中分析了可能的执法路径以及对开源开发者和用户的影响。",
+      "hn": {
+        "id": 49452980,
+        "type": "story",
+        "by": "Velocifyer",
+        "score": 142,
+        "descendants": 45,
+        "time": 1787766100,
+        "comments_url": "https://news.ycombinator.com/item?id=49452980"
+      },
+      "hot_score": 11.26,
+      "tags": [
+        "Open Source",
+        "Legal",
         "Hardware"
       ]
     },
     {
-      "title_en": "Meta reaches $16.68B settlement over social media harms to children",
-      "url": "https://www.reuters.com/world/us/meta-settles-with-us-states-over-social-media-harms-2026-08-26/",
-      "title_zh": "Meta 就儿童受社媒伤害问题达成166.8亿美元和解",
-      "created_display": "Created: Aug 26, 2026 / 06:28 PT",
-      "image_url": null,
-      "summary_en": "Meta settles with U.S. states for alleged harms to children on its platforms for roughly $16.68 billion. The agreement likely imposes safety commitments and greater transparency around features that affect minors. The case adds to mounting regulatory scrutiny of how social networks design for younger users.",
-      "summary_zh": "Meta 就其平台对儿童造成的伤害与多州达成约166.8亿美元的和解。协议预计将要求在儿童安全方面做出承诺并提升相关透明度，凸显监管机构对社交网络在未成年用户保护方面的持续审视。",
-      "hn": {
-        "id": 49448819,
-        "type": "story",
-        "by": "bhouston",
-        "score": 170,
-        "descendants": 117,
-        "time": 1787750912,
-        "comments_url": "https://news.ycombinator.com/item?id=49448819"
-      },
-      "hot_score": 20.1,
-      "tags": [
-        "Politics",
-        "Privacy"
-      ]
-    },
-    {
-      "title_en": "Qwen3.8-Flash-Next: A New Architecture, Towards Ultimate Cost-Efficiency",
+      "title_en": "Qwen3.8-Flash-Next",
       "url": "https://qwen.ai/blog?id=qwen3.8-flash-next",
       "title_zh": "Qwen3.8-Flash-Next：全新架构，向极致成本效率迈进",
       "created_display": "Created: Aug 26, 2026 / 05:52 PT",
@@ -100,16 +172,177 @@
         "id": 49448210,
         "type": "story",
         "by": "tosh",
-        "score": 228,
-        "descendants": 73,
+        "score": 508,
+        "descendants": 161,
         "time": 1787748732,
         "comments_url": "https://news.ycombinator.com/item?id=49448210"
       },
-      "hot_score": 19.88,
       "tags": [
         "AI",
         "Hardware"
+      ],
+      "hot_score": 9.92
+    },
+    {
+      "title_en": "Meta reaches $17B settlement over social media harms to children",
+      "url": "https://www.reuters.com/world/us/meta-settles-with-us-states-over-social-media-harms-2026-08-26/",
+      "title_zh": "Meta 就儿童受社媒伤害问题达成166.8亿美元和解",
+      "created_display": "Created: Aug 26, 2026 / 06:28 PT",
+      "image_url": null,
+      "summary_en": "Meta settles with U.S. states for alleged harms to children on its platforms for roughly $16.68 billion. The agreement likely imposes safety commitments and greater transparency around features that affect minors. The case adds to mounting regulatory scrutiny of how social networks design for younger users.",
+      "summary_zh": "Meta 就其平台对儿童造成的伤害与多州达成约166.8亿美元的和解。协议预计将要求在儿童安全方面做出承诺并提升相关透明度，凸显监管机构对社交网络在未成年用户保护方面的持续审视。",
+      "hn": {
+        "id": 49448819,
+        "type": "story",
+        "by": "bhouston",
+        "score": 415,
+        "descendants": 391,
+        "time": 1787750912,
+        "comments_url": "https://news.ycombinator.com/item?id=49448819"
+      },
+      "tags": [
+        "Legal",
+        "Politics"
+      ],
+      "hot_score": 9.19
+    },
+    {
+      "title_en": "Nebula Sans",
+      "url": "https://www.nebulasans.com",
+      "title_zh": "Nebula Sans 字体",
+      "created_display": "Created: Aug 26, 2026 / 08:03 PT",
+      "image_url": "https://nebulasans.com/img/NebulaSans.jpg",
+      "summary_en": "Nebula Sans is a new font family designed for clean UI typography and legible on-screen text. It supports multiple weights and likely enjoys an open license, making it appealing for UI designers.",
+      "summary_zh": "Nebula Sans 是一个新字体家族，专为清晰的界面排版与屏幕阅读而设计，支持多种字重。它可能采用开源许可，适合 UI 设计师在不同平台上使用。",
+      "hn": {
+        "id": 49450448,
+        "type": "story",
+        "by": "GavinAnderegg",
+        "score": 244,
+        "descendants": 95,
+        "time": 1787756632,
+        "comments_url": "https://news.ycombinator.com/item?id=49450448"
+      },
+      "hot_score": 7.91,
+      "tags": [
+        "Design",
+        "Open Source"
       ]
+    },
+    {
+      "title_en": "Disruption with Some GitHub Services",
+      "url": "https://www.githubstatus.com/incidents/hcbtzksccj2f",
+      "title_zh": "部分 GitHub 服务中断",
+      "created_display": "Created: Aug 26, 2026 / 08:19 PT",
+      "image_url": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png",
+      "summary_en": "GitHub reported a partial disruption affecting a subset of services. Teams were investigating the incident and restoring functionality, with some users experiencing degraded performance during the window.",
+      "summary_zh": "GitHub 报告部分服务出现中断，影响到部分功能。团队正在调查并恢复正常，一些用户在此期间体验到性能下降。",
+      "hn": {
+        "id": 49450722,
+        "type": "story",
+        "by": "blimmer",
+        "score": 201,
+        "descendants": 112,
+        "time": 1787757580,
+        "comments_url": "https://news.ycombinator.com/item?id=49450722"
+      },
+      "hot_score": 7.0,
+      "tags": [
+        "DevOps",
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "U.S. State Department Pauses Immigrant Visa Applications",
+      "url": "https://www.wsj.com/politics/policy/u-s-state-department-pauses-immigrant-visa-applications-25b31b23",
+      "title_zh": "美国国务院暂停移民签证申请",
+      "created_display": "Created: Aug 26, 2026 / 10:22 PT",
+      "image_url": null,
+      "summary_en": "The U.S. State Department paused immigrant visa applications amid processing backlogs and security concerns, affecting applicants and consular operations. The halt is expected to have widespread impact on families awaiting immigration.",
+      "summary_zh": "美国国务院因处理积压与安全问题暂停移民签证申请，影响申请人及领事馆运作。此举预计会对等待移民的家庭造成广泛影响。",
+      "hn": {
+        "id": 49452709,
+        "type": "story",
+        "by": "sss111",
+        "score": 98,
+        "descendants": 54,
+        "time": 1787764936,
+        "comments_url": "https://news.ycombinator.com/item?id=49452709"
+      },
+      "hot_score": 6.75,
+      "tags": [
+        "Politics",
+        "Security"
+      ]
+    },
+    {
+      "title_en": "Designation of Autistici/Inventati as a Specially Designated Global Terrorist",
+      "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/08/designation-of-autistici-inventati-as-a-specially-designated-global-terrorist/",
+      "title_zh": "Autistici/Inventati 被指定为全球恐怖主义特别指定对象",
+      "created_display": "Created: Aug 26, 2026 / 11:49 PT",
+      "image_url": "https://www.state.gov/wp-content/uploads/2025/01/Tarawera_social_template.png",
+      "summary_en": "The U.S. government designated Autistici/Inventati as a Specially Designated Global Terrorist, triggering asset freezes, travel bans, and other sanctions. The move expands the scope of sanctions enforcement against digital activist groups.",
+      "summary_zh": "美国政府将 Autistici/Inventati 列入全球恐怖主义特别指定对象，实施资产冻结、旅行限制等制裁。此举扩大了对数字维权与 activist 团体的制裁范围，可能影响相关志愿者和技术社区的合作。",
+      "hn": {
+        "id": 49453899,
+        "type": "story",
+        "by": "23loops",
+        "score": 38,
+        "descendants": 32,
+        "time": 1787770158,
+        "comments_url": "https://news.ycombinator.com/item?id=49453899"
+      },
+      "hot_score": 5.3,
+      "tags": [
+        "Politics",
+        "Legal"
+      ]
+    },
+    {
+      "title_en": "The Tariff Cost: analysis of the costs to Americans from new tariffs on Canada",
+      "url": "https://thetariffcost.com/",
+      "title_zh": "关税成本：对美国人因对加拿大新关税产生的成本分析",
+      "created_display": "Created: Aug 26, 2026 / 10:54 PT",
+      "image_url": "https://thetariffcost.com/share/card.png",
+      "summary_en": "A dedicated analysis estimates how new Canada-targeted tariffs raise prices for American consumers and squeeze supply chains. The study highlights potential consumer impact and policy trade-offs.",
+      "summary_zh": "一项专门分析评估了针对加拿大的新关税如何提高美国消费者价格、挤压供应链。研究强调对消费者的潜在影响及政策权衡。",
+      "hn": {
+        "id": 49453161,
+        "type": "story",
+        "by": "mikestorrent",
+        "score": 61,
+        "descendants": 35,
+        "time": 1787766891,
+        "comments_url": "https://news.ycombinator.com/item?id=49453161"
+      },
+      "hot_score": 5.29,
+      "tags": [
+        "Finance",
+        "Politics"
+      ]
+    },
+    {
+      "title_en": "Twitter Viewer – View Twitter Without Account",
+      "url": "https://twitterwebviewer.com/",
+      "title_zh": "Twitter Viewer：无需账户查看 Twitter",
+      "created_display": "Created: Aug 26, 2026 / 07:11 PT",
+      "image_url": "https://twitterwebviewer.com/api/og?type=home&title=Twitter%20Viewer&subtitle=View%20Twitter%20Without%20Account",
+      "summary_en": "Twitter Viewer lets you read public tweets without signing in, offering a privacy-friendly way to access content. It can be handy for researchers, journalists, and developers, but may raise policy and data-access questions as platforms tighten APIs. It exemplifies how third-party tooling can bypass friction while highlighting the limits of platform control.",
+      "summary_zh": "Twitter Viewer 允许在不登录的情况下浏览公开推文，为访问信息提供了更隐私友好的方式。对研究人员、记者和开发者颇有帮助，但随着平台收紧 API，相关的政策与数据访问问题亦随之浮现。此工具体现了第三方工具在降低门槛与平台控制能力之间的权衡。",
+      "hn": {
+        "id": 49449576,
+        "type": "story",
+        "by": "motownphilly",
+        "score": 192,
+        "descendants": 93,
+        "time": 1787753499,
+        "comments_url": "https://news.ycombinator.com/item?id=49449576"
+      },
+      "tags": [
+        "Privacy",
+        "Web"
+      ],
+      "hot_score": 4.99
     },
     {
       "title_en": "Z.ai confirms Ox Alpha is a new GLM-series model and will release its weights",
@@ -123,37 +356,84 @@
         "id": 49446422,
         "type": "story",
         "by": "garo-pro",
-        "score": 310,
-        "descendants": 117,
+        "score": 394,
+        "descendants": 136,
         "time": 1787738695,
         "comments_url": "https://news.ycombinator.com/item?id=49446422"
       },
       "tags": [
-        "AI"
+        "AI",
+        "Open Source"
       ],
-      "hot_score": 10.19
+      "hot_score": 4.71
     },
     {
-      "title_en": "RAG Is Simpler Than You Think",
-      "url": "https://www.lighthousenewsletter.com/p/rag-is-simpler-than-you-think",
-      "title_zh": "RAG 比你想象的更简单",
-      "created_display": "Created: Aug 26, 2026 / 01:39 PT",
-      "image_url": "https://substackcdn.com/image/fetch/$s_!yF7E!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F03ad851c-75b8-4afe-ae16-fd98c8e61836_1920x1280.jpeg",
-      "summary_en": "A concise explainer demystifies retrieval-augmented generation, outlining core components and practical patterns for building RAG systems.",
-      "summary_zh": "简要解析让 Retrieval-Augmented Generation(检索增强生成)不再神秘，梳理核心组件与落地实践模式。",
+      "title_en": "Taylor Farms: How One Company's Reach Became a National Risk",
+      "url": "https://farmaction.us/taylorfarmsreport/",
+      "title_zh": "Taylor Farms：一个公司影响力如何成为全国性风险",
+      "created_display": "Created: Aug 26, 2026 / 07:21 PT",
+      "image_url": "https://farmaction.us/wp-content/uploads/2026/08/Screenshot-2026-08-13-at-2.37.43-PM.png",
+      "summary_en": "A Farm Action report argues that Taylor Farms' scale and supplier network create systemic risks to food supply, workers’ rights, and market competition. The piece calls for greater transparency and regulatory oversight.",
+      "summary_zh": "Farm Action 的报告认为 Taylor Farms 的规模与供应链网络会带来食品供应、劳工权益和市场竞争的系统性风险。该文呼吁提高透明度并加强监管。",
       "hn": {
-        "id": 49445727,
+        "id": 49449749,
         "type": "story",
-        "by": "j0selit0",
-        "score": 261,
-        "descendants": 111,
-        "time": 1787733557,
-        "comments_url": "https://news.ycombinator.com/item?id=49445727"
+        "by": "speckx",
+        "score": 170,
+        "descendants": 112,
+        "time": 1787754104,
+        "comments_url": "https://news.ycombinator.com/item?id=49449749"
       },
+      "hot_score": 4.6,
       "tags": [
-        "AI"
-      ],
-      "hot_score": 6.04
+        "Business",
+        "Politics"
+      ]
+    },
+    {
+      "title_en": "CoMaps: The Offline App That Guided Rescuers Without a Signal in Venezuela",
+      "url": "https://hotosm.org/en/news/comaps-the-offline-app-that-guided-rescuers-without-a-signal-in-the-venezuela-response/",
+      "title_zh": "CoMaps：在委内瑞拉无信号时引导救援的离线应用",
+      "created_display": "Created: Aug 26, 2026 / 10:20 PT",
+      "image_url": "https://hotosm-website.s3.us-east-1.amazonaws.com/images/facebook-logo.original.png",
+      "summary_en": "CoMaps is an offline mapping app used in Venezuela to guide rescuers when mobile networks fail. The project demonstrates how offline GIS tools can enable rapid humanitarian response in connectivity-challenged emergencies.",
+      "summary_zh": "CoMaps 是一款离线地图应用，在委内瑞拉无信号时为救援人员提供路线指引。该项目展示了离线 GIS 工具在网络受限的紧急救援中对快速响应的贡献。",
+      "hn": {
+        "id": 49452671,
+        "type": "story",
+        "by": "gedankenstuecke",
+        "score": 68,
+        "descendants": 4,
+        "time": 1787764812,
+        "comments_url": "https://news.ycombinator.com/item?id=49452671"
+      },
+      "hot_score": 4.6,
+      "tags": [
+        "Data"
+      ]
+    },
+    {
+      "title_en": "The turbulent AI era is here",
+      "url": "https://www.gatesnotes.com/a-turbulent-ai-era-and-critical-choices-to-make",
+      "title_zh": "动荡的 AI 时代已经到来",
+      "created_display": "Created: Aug 26, 2026 / 08:55 PT",
+      "image_url": null,
+      "summary_en": "Gates notes discuss how rapid AI advancements create a turbulent landscape and the critical governance, safety, and ethical choices leaders must make now. The piece emphasizes proactive planning and collaboration.",
+      "summary_zh": "盖茨在笔记中讨论了快速发展的 AI 所带来的动荡格局，以及领导者现在必须做出的治理、安全与伦理选择。文章强调前瞻性规划与跨界协作的重要性。",
+      "hn": {
+        "id": 49451313,
+        "type": "story",
+        "by": "LVB",
+        "score": 106,
+        "descendants": 85,
+        "time": 1787759715,
+        "comments_url": "https://news.ycombinator.com/item?id=49451313"
+      },
+      "hot_score": 4.37,
+      "tags": [
+        "AI",
+        "Politics"
+      ]
     },
     {
       "title_en": "Dolly Parton has died",
@@ -176,30 +456,95 @@
         "Entertainment",
         "Culture"
       ],
-      "hot_score": 5.5
+      "hot_score": 3.83
     },
     {
-      "title_en": "U.S. gov't moves to suppress pushback on data centers",
-      "url": "https://www.tomshardware.com/tech-industry/data-centers/u-s-govt-moves-to-suppress-pushback-on-data-centers-by-removing-requirements-for-public-input-on-pollution-epa-change-would-allow-air-pollution-permits-without-publicizing-them",
-      "title_zh": "美国政府推动压制数据中心的反对声音",
-      "created_display": "Created: Aug 26, 2026 / 03:44 PT",
-      "image_url": "https://cdn.mos.cms.futurecdn.net/Mp6a5T3nkbtP8cssNG5sb9-2000-80.jpg",
-      "summary_en": "The U.S. government steps to limit public input requirements for pollution permits tied to data centers, potentially accelerating facility approvals at the cost of environmental oversight. The policy shift could reshape how communities influence site selection and emissions reporting. It marks a notable clash between infrastructure growth and public accountability.",
-      "summary_zh": "美国政府推动减少与数据中心相关污染许可证的公众参与要求，可能加速设施审批但削弱环境监管。这一政策变动或将改变社区在选址与排放报告方面的影响力，标志着基础设施扩张与公共问责之间的显著博弈。",
+      "title_en": "It’s so hard to finish an idea that is not yours and is just suggested by AI",
+      "url": "https://www.ssp.sh/brain/using-obsidian-with-ai/",
+      "title_zh": "以 AI 提示的创意难以完成：非原创想法的落地经验",
+      "created_display": "Created: Aug 26, 2026 / 08:30 PT",
+      "image_url": "https://www.ssp.sh/brain/img_Using Obsidian with AI_1777561068414.webp",
+      "summary_en": "An essay argues that finishing ideas not originated by you and largely driven by AI is tough, touching on ownership, authorship, and the friction of integrating AI-generated concepts into live projects.",
+      "summary_zh": "文章指出，完成非你原创且由 AI 提示却成形的创意很困难，涉及所有权、署名及将 AI 生成的想法落地时的阻力。",
       "hn": {
-        "id": 49446748,
+        "id": 49450898,
         "type": "story",
-        "by": "rbanffy",
-        "score": 134,
-        "descendants": 113,
-        "time": 1787741080,
-        "comments_url": "https://news.ycombinator.com/item?id=49446748"
+        "by": "zazuke",
+        "score": 101,
+        "descendants": 59,
+        "time": 1787758205,
+        "comments_url": "https://news.ycombinator.com/item?id=49450898"
       },
-      "hot_score": 5.3,
+      "hot_score": 3.68,
       "tags": [
-        "Politics",
-        "Legal",
-        "DevOps"
+        "AI",
+        "Legal"
+      ]
+    },
+    {
+      "title_en": "RAG Is Simpler Than You Think",
+      "url": "https://www.lighthousenewsletter.com/p/rag-is-simpler-than-you-think",
+      "title_zh": "RAG 比你想象的更简单",
+      "created_display": "Created: Aug 26, 2026 / 01:39 PT",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!yF7E!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F03ad851c-75b8-4afe-ae16-fd98c8e61836_1920x1280.jpeg",
+      "summary_en": "A concise explainer demystifies retrieval-augmented generation, outlining core components and practical patterns for building RAG systems.",
+      "summary_zh": "简要解析让 Retrieval-Augmented Generation(检索增强生成)不再神秘，梳理核心组件与落地实践模式。",
+      "hn": {
+        "id": 49445727,
+        "type": "story",
+        "by": "j0selit0",
+        "score": 377,
+        "descendants": 166,
+        "time": 1787733557,
+        "comments_url": "https://news.ycombinator.com/item?id=49445727"
+      },
+      "tags": [
+        "AI"
+      ],
+      "hot_score": 3.66
+    },
+    {
+      "title_en": "VMs won't contain cyber-capable agents",
+      "url": "https://blog.trailofbits.com/2026/08/26/vms-wont-contain-cyber-capable-agents/",
+      "title_zh": "虚拟机将无法容纳具备网络攻击能力的代理",
+      "created_display": "Created: Aug 26, 2026 / 07:49 PT",
+      "image_url": "https://blog.trailofbits.com/2026/08/26/vms-wont-contain-cyber-capable-agents/vm-cyber-capable-agents-social-banner.png",
+      "summary_en": "Trail of Bits argues that virtual machines cannot reliably contain cyber-capable agents, urging architecture changes and stronger containment strategies.",
+      "summary_zh": "Trail of Bits 认为虚拟机无法可靠地容纳具备网络攻击能力的代理，呼吁调整架构并加强隔离措施。文章探讨了假设 VM 隔离就足够的风险。",
+      "hn": {
+        "id": 49450188,
+        "type": "story",
+        "by": "polyrand",
+        "score": 104,
+        "descendants": 75,
+        "time": 1787755770,
+        "comments_url": "https://news.ycombinator.com/item?id=49450188"
+      },
+      "hot_score": 3.15,
+      "tags": [
+        "Security"
+      ]
+    },
+    {
+      "title_en": "YouTube Format IDs",
+      "url": "https://gist.github.com/MartinEesmaa/2f4b261cb90a47e9c41ba115a011a4aa",
+      "title_zh": "YouTube 格式 ID",
+      "created_display": "Created: Aug 26, 2026 / 10:28 PT",
+      "image_url": "https://github.githubassets.com/assets/gist-og-image-54fd7dc0713e.png",
+      "summary_en": "A compact reference of YouTube's internal format IDs used for streaming and metadata handling. Useful for developers building media players or extraction tools.",
+      "summary_zh": "提供了 YouTube 在流媒体和元数据处理方面使用的内部格式 ID 的简明参考。对开发自建播放器或提取工具的开发者很有帮助。",
+      "hn": {
+        "id": 49452789,
+        "type": "story",
+        "by": "ksec",
+        "score": 40,
+        "descendants": 12,
+        "time": 1787765301,
+        "comments_url": "https://news.ycombinator.com/item?id=49452789"
+      },
+      "hot_score": 2.83,
+      "tags": [
+        "Web"
       ]
     },
     {
@@ -223,28 +568,52 @@
         "Legal",
         "Privacy"
       ],
-      "hot_score": 3.63
+      "hot_score": 2.57
     },
     {
-      "title_en": "Wiped out: US faces surging toilet paper prices amid trade war with Canada",
-      "url": "https://www.theguardian.com/us-news/2026/aug/26/paper-product-toilet-paper-tariffs-us-canada",
-      "title_zh": "因对加拿大的贸易战，美国厕纸价格急剧上扬",
-      "created_display": "Created: Aug 26, 2026 / 06:13 PT",
-      "image_url": "https://i.guim.co.uk/img/media/97c90a89ac0adb278eaa6d5e30b8ee0b99cdafaa/589_0_2823_2259/master/2823.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=ce6d7c1361536b33e3c3bdcb591681f5",
-      "summary_en": "Tariffs and cross-border trade turmoil push US toilet paper prices higher, reflecting broader inflation pressures on household essentials. The piece traces how policy frictions translate into everyday costs and what it could mean for consumer sentiment and supply chains. It’s a reminder that policy waves ripple into small but universal commodities.",
-      "summary_zh": "关税与跨境贸易动荡推动美国厕纸等日用品价格走高，体现了对家庭必需品的普遍通胀压力。文章追踪政策摩擦如何传导到日常成本，以及对消费者信心和供应链的潜在影响。提醒读者政策波动也会波及到每个人都用得到的商品。",
+      "title_en": "FDA Approves First in Class Targeted Therapy for Metastatic Pancreatic Cancer",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-class-targeted-therapy-metastatic-pancreatic-cancer",
+      "title_zh": "FDA 批准首个同类靶向治疗用于转移性胰腺癌",
+      "created_display": "Created: Aug 26, 2026 / 09:19 PT",
+      "image_url": "https://www.fda.gov/themes/custom/preview/img/FDA-Social-Graphic.png",
+      "summary_en": "FDA approves a first-in-class targeted therapy for metastatic pancreatic cancer, marking progress in precision oncology. The approval is based on targeting a specific mutation and could expand treatment options for patients with this aggressive cancer.",
+      "summary_zh": "FDA 批准了首个同类靶向治疗用于转移性胰腺癌，代表精准肿瘤治疗的一步进展。该药物针对特定突变，或为这类晚期患者带来新的治疗选项。",
       "hn": {
-        "id": 49448560,
+        "id": 49451675,
         "type": "story",
-        "by": "mikhael",
-        "score": 32,
-        "descendants": 11,
-        "time": 1787750035,
-        "comments_url": "https://news.ycombinator.com/item?id=49448560"
+        "by": "leopoldj",
+        "score": 55,
+        "descendants": 14,
+        "time": 1787761143,
+        "comments_url": "https://news.ycombinator.com/item?id=49451675"
       },
-      "hot_score": 3.24,
+      "hot_score": 2.55,
       "tags": [
-        "Business"
+        "Health",
+        "Science"
+      ]
+    },
+    {
+      "title_en": "PageRank explained",
+      "url": "https://praveshkoirala.com/2026/08/26/you-could-have-invented-pagerank/",
+      "title_zh": "PageRank 原理解读",
+      "created_display": "Created: Aug 26, 2026 / 07:29 PT",
+      "image_url": null,
+      "summary_en": "A concise explanation of PageRank, covering how link structure informs a web page's rank and the intuition behind damping and importance signals. It connects the idea to modern search systems.",
+      "summary_zh": "对 PageRank 的原理做了简要解读，说明链接结构如何影响网页排序，以及阻尼和重要性信号的直觉。并将该思想与现代搜索系统联系起来。",
+      "hn": {
+        "id": 49449888,
+        "type": "story",
+        "by": "pkoird",
+        "score": 88,
+        "descendants": 63,
+        "time": 1787754545,
+        "comments_url": "https://news.ycombinator.com/item?id=49449888"
+      },
+      "hot_score": 2.44,
+      "tags": [
+        "Web",
+        "Data"
       ]
     },
     {
@@ -259,8 +628,8 @@
         "id": 49433292,
         "type": "story",
         "by": "interpol_p",
-        "score": 1250,
-        "descendants": 1191,
+        "score": 1278,
+        "descendants": 1239,
         "time": 1787662882,
         "comments_url": "https://news.ycombinator.com/item?id=49433292"
       },
@@ -268,28 +637,75 @@
         "Hardware",
         "AI"
       ],
-      "hot_score": 3.16
+      "hot_score": 2.39
     },
     {
-      "title_en": "A curmudgeon tries a language server",
-      "url": "https://entropicthoughts.com/curmudgeon-tries-language-server",
-      "title_zh": "挑剔者试用语言服务器",
-      "created_display": "Created: Aug 26, 2026 / 05:48 PT",
-      "image_url": "https://entropicthoughts.com/image/banner/curmudgeon-tries-language-server.jpg",
-      "summary_en": "A cranky developer hands-on test of a language server, offering blunt feedback on latency, correctness, and UX quirks. The piece spotlights real-world friction in developer tooling and reminds readers that language servers still have rough edges despite rapid progress. Expect candid takes on what actually helps a real project move faster.",
-      "summary_zh": "一位挑剔的开发者亲自试用语言服务器，直言不讳地评价延迟、正确性及用户体验中的怪癖。文章聚焦开发工具在实际场景中的磨合，提醒读者尽管进步迅速，语言服务器仍有改进空间。",
+      "title_en": "The Hugging Face incident and the road ahead",
+      "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/",
+      "title_zh": "Hugging Face 事件及未来方向",
+      "created_display": "Created: Aug 26, 2026 / 12:15 PT",
+      "image_url": "https://images.ctfassets.net/kftzwdyauwt9/7jbTfQbHvOuLnJtYMi64y4/12f03addd9350bb3b4c359071aab7e45/hero-dark-social-v6.png?w=1600&h=900&fit=fill",
+      "summary_en": "The piece reviews a notable incident at Hugging Face and outlines a path forward focusing on governance, security, and responsible AI collaboration. It emphasizes balancing openness with safety and compliance.",
+      "summary_zh": "文章回顾了 Hugging Face 的一起重要事件，并提出未来的治理、安全与负责任的 AI 合作方向，强调在开放性与安全合规之间寻求平衡。",
       "hn": {
-        "id": 49448150,
+        "id": 49454314,
         "type": "story",
-        "by": "crescit_eundo",
-        "score": 38,
-        "descendants": 13,
-        "time": 1787748517,
-        "comments_url": "https://news.ycombinator.com/item?id=49448150"
+        "by": "amrrs",
+        "score": 12,
+        "descendants": 1,
+        "time": 1787771723,
+        "comments_url": "https://news.ycombinator.com/item?id=49454314"
       },
-      "hot_score": 3.15,
+      "hot_score": 2.1,
       "tags": [
-        "Programming"
+        "AI",
+        "Security"
+      ]
+    },
+    {
+      "title_en": "11,000-year-old sculpture of man riding a leopard found in Turkey",
+      "url": "https://www.thehistoryblog.com/archives/76809",
+      "title_zh": "土耳其发现一尊 11,000 年前骑豹男子雕像",
+      "created_display": "Created: Aug 26, 2026 / 06:20 PT",
+      "image_url": null,
+      "summary_en": "Archaeologists in Turkey uncover an 11,000-year-old sculpture depicting a man riding a leopard, a rare glimpse into early symbolic art. The find offers insight into prehistoric artistry and regional cultural expression.",
+      "summary_zh": "土耳其考古学家发掘出一尊约 11,000 年前的骑豹男子雕像，是对早期象征性艺术的罕见一瞥。该发现为远古艺术与区域文化表现提供了新的认识。",
+      "hn": {
+        "id": 49448665,
+        "type": "story",
+        "by": "speckx",
+        "score": 92,
+        "descendants": 63,
+        "time": 1787750440,
+        "comments_url": "https://news.ycombinator.com/item?id=49448665"
+      },
+      "hot_score": 1.96,
+      "tags": [
+        "Science",
+        "Culture"
+      ]
+    },
+    {
+      "title_en": "U.S. gov't moves to suppress pushback on data centers",
+      "url": "https://www.tomshardware.com/tech-industry/data-centers/u-s-govt-moves-to-suppress-pushback-on-data-centers-by-removing-requirements-for-public-input-on-pollution-epa-change-would-allow-air-pollution-permits-without-publicizing-them",
+      "title_zh": "美国政府推动压制数据中心的反对声音",
+      "created_display": "Created: Aug 26, 2026 / 03:44 PT",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/Mp6a5T3nkbtP8cssNG5sb9-2000-80.jpg",
+      "summary_en": "The U.S. government steps to limit public input requirements for pollution permits tied to data centers, potentially accelerating facility approvals at the cost of environmental oversight. The policy shift could reshape how communities influence site selection and emissions reporting. It marks a notable clash between infrastructure growth and public accountability.",
+      "summary_zh": "美国政府推动减少与数据中心相关污染许可证的公众参与要求，可能加速设施审批但削弱环境监管。这一政策变动或将改变社区在选址与排放报告方面的影响力，标志着基础设施扩张与公共问责之间的显著博弈。",
+      "hn": {
+        "id": 49446748,
+        "type": "story",
+        "by": "rbanffy",
+        "score": 134,
+        "descendants": 113,
+        "time": 1787741080,
+        "comments_url": "https://news.ycombinator.com/item?id=49446748"
+      },
+      "hot_score": 1.77,
+      "tags": [
+        "Politics",
+        "DevOps"
       ]
     },
     {
@@ -304,38 +720,36 @@
         "id": 49445873,
         "type": "story",
         "by": "altilunium",
-        "score": 123,
-        "descendants": 21,
+        "score": 164,
+        "descendants": 33,
         "time": 1787734666,
         "comments_url": "https://news.ycombinator.com/item?id=49445873"
       },
-      "hot_score": 3.04,
       "tags": [
-        "Open Source",
-        "Data"
-      ]
+        "Open Source"
+      ],
+      "hot_score": 1.66
     },
     {
-      "title_en": "Twitter Viewer – View Twitter Without Account",
-      "url": "https://twitterwebviewer.com/",
-      "title_zh": "Twitter Viewer：无需账户查看 Twitter",
-      "created_display": "Created: Aug 26, 2026 / 07:11 PT",
-      "image_url": "https://twitterwebviewer.com/api/og?type=home&title=Twitter%20Viewer&subtitle=View%20Twitter%20Without%20Account",
-      "summary_en": "Twitter Viewer lets you read public tweets without signing in, offering a privacy-friendly way to access content. It can be handy for researchers, journalists, and developers, but may raise policy and data-access questions as platforms tighten APIs. It exemplifies how third-party tooling can bypass friction while highlighting the limits of platform control.",
-      "summary_zh": "Twitter Viewer 允许在不登录的情况下浏览公开推文，为访问信息提供了更隐私友好的方式。对研究人员、记者和开发者颇有帮助，但随着平台收紧 API，相关的政策与数据访问问题亦随之浮现。此工具体现了第三方工具在降低门槛与平台控制能力之间的权衡。",
+      "title_en": "CDs vs. NIMBY",
+      "url": "https://www.betonit.ai/p/cds-vs-nimby",
+      "title_zh": "CD 与 NIMBY：一场对立分析",
+      "created_display": "Created: Aug 26, 2026 / 10:31 PT",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!zUGA!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F07fe3542-1b63-4794-b51d-8febd8bec0a7_640x426.jpeg",
+      "summary_en": "Opinion piece contrasts continuous deployment (CD) with NIMBY attitudes in technology deployment, arguing for smarter rollout strategies that respect communities while accelerating innovation.",
+      "summary_zh": "评论文章对比持续交付（CD）与‘别在我家门口’（NIMBY）态度在技术部署中的作用，主张在尊重社区的前提下推进更高效的上线策略。",
       "hn": {
-        "id": 49449576,
+        "id": 49452822,
         "type": "story",
-        "by": "motownphilly",
-        "score": 15,
-        "descendants": 4,
-        "time": 1787753499,
-        "comments_url": "https://news.ycombinator.com/item?id=49449576"
+        "by": "pr337h4m",
+        "score": 22,
+        "descendants": 34,
+        "time": 1787765468,
+        "comments_url": "https://news.ycombinator.com/item?id=49452822"
       },
-      "hot_score": 2.61,
+      "hot_score": 1.55,
       "tags": [
-        "Web",
-        "Privacy"
+        "DevOps"
       ]
     },
     {
@@ -359,7 +773,7 @@
         "Hardware",
         "AI"
       ],
-      "hot_score": 2.04
+      "hot_score": 1.51
     },
     {
       "title_en": "My Friend Aaron",
@@ -379,31 +793,32 @@
         "comments_url": "https://news.ycombinator.com/item?id=49437069"
       },
       "tags": [
-        "Culture"
+        "Culture",
+        "Entertainment"
       ],
-      "hot_score": 2.01
+      "hot_score": 1.42
     },
     {
-      "title_en": "Beyond Recall and the Illusion of Competence",
-      "url": "https://var0.xyz/posts/beyond-recall-and-the-illusion-of-competence.html",
-      "title_zh": "超越记忆与能力幻觉",
-      "created_display": "Created: Aug 26, 2026 / 03:07 PT",
+      "title_en": "A Man Who Saw Humanity from Two Billion Years Away",
+      "url": "https://thereader.mitpress.mit.edu/the-man-who-saw-humanity-from-two-billion-years-away/",
+      "title_zh": "一个以二十亿年视角看待人类的人",
+      "created_display": "Created: Aug 26, 2026 / 06:34 PT",
       "image_url": null,
-      "summary_en": "It argues for external checks, ongoing practice, and rigorous testing to prevent overestimating one’s abilities. A timely reminder that confident recall isn’t a substitute for demonstrated skill.",
-      "summary_zh": "文章探讨记忆回忆如何误导对自身能力的信心，揭示交易者、开发者和研究者应警惕的认知偏差。提出需要外部检查、持续练习与严格测试，避免高估自己的能力。提醒我们，单凭自信的记忆并不能替代经过验证的技能。",
+      "summary_en": "An essay explores a perspective that views humanity on a timescale of billions of years, inviting reflections on civilization's priorities and long-term risks. It challenges readers to think beyond the present.",
+      "summary_zh": "一篇文章用亿万年的尺度审视人类，邀请读者反思文明的优先级与长期风险，挑战我们把注意力局限在当下。",
       "hn": {
-        "id": 49446442,
+        "id": 49448909,
         "type": "story",
-        "by": "tuxie_",
-        "score": 58,
-        "descendants": 18,
-        "time": 1787738822,
-        "comments_url": "https://news.ycombinator.com/item?id=49446442"
+        "by": "samizdis",
+        "score": 59,
+        "descendants": 12,
+        "time": 1787751279,
+        "comments_url": "https://news.ycombinator.com/item?id=49448909"
       },
-      "hot_score": 1.9,
+      "hot_score": 1.32,
       "tags": [
-        "Education",
-        "Culture"
+        "Culture",
+        "Science"
       ]
     },
     {
@@ -427,7 +842,30 @@
         "Health",
         "Privacy"
       ],
-      "hot_score": 1.84
+      "hot_score": 1.26
+    },
+    {
+      "title_en": "Access to Urban Woodlands Linked with Lower Use of Antidepressants",
+      "url": "https://e360.yale.edu/digest/scotland-woodlands-antidepressants",
+      "title_zh": "城市林地接近度与抑郁药使用下降相关",
+      "created_display": "Created: Aug 26, 2026 / 06:48 PT",
+      "image_url": "https://yale-threesixty.transforms.svdcdn.com/production/Dunain_Dunain.jpg?w=1200&q=60&auto=format&fit=max&dm=1787745588&s=7d1e9523308029cc13e2eb505125aba5",
+      "summary_en": "A Yale study links easier access to urban woodlands with lower antidepressant usage, suggesting nature exposure as a mental health interventions' lever. The findings have implications for urban planning and public health strategies.",
+      "summary_zh": "耶鲁的一项研究将更易接近城市林地与抑郁药使用减少联系起来，提示自然暴露可作为心理健康干预的一个杠杆。研究结果对城市规划和公共卫生策略具有一定启示。",
+      "hn": {
+        "id": 49449128,
+        "type": "story",
+        "by": "speckx",
+        "score": 53,
+        "descendants": 8,
+        "time": 1787752083,
+        "comments_url": "https://news.ycombinator.com/item?id=49449128"
+      },
+      "hot_score": 1.24,
+      "tags": [
+        "Health",
+        "Science"
+      ]
     },
     {
       "title_en": "Queryable Executables",
@@ -441,15 +879,40 @@
         "id": 49442589,
         "type": "story",
         "by": "rguiscard",
-        "score": 267,
-        "descendants": 74,
+        "score": 298,
+        "descendants": 79,
         "time": 1787703649,
         "comments_url": "https://news.ycombinator.com/item?id=49442589"
       },
       "tags": [
-        "Security"
+        "Security",
+        "Data"
       ],
-      "hot_score": 1.73
+      "hot_score": 1.19
+    },
+    {
+      "title_en": "A Citation to Asimov",
+      "url": "https://www.bookandsword.com/2026/08/25/a-citation-to-asimov/",
+      "title_zh": "向阿西莫夫致敬",
+      "created_display": "Created: Aug 26, 2026 / 07:06 PT",
+      "image_url": "https://www.bookandsword.com/wp-content/uploads/2021/07/chateau-default.jpg",
+      "summary_en": "A piece pays homage to Isaac Asimov, reflecting on his influence on science fiction, robotics, and ethics. The writing connects his ideas to contemporary AI and automation debates.",
+      "summary_zh": "这篇文章向以科幻、机器人伦理闻名的阿西莫夫致敬，回顾他的影响力。文本将他的思想与当今的人工智能和自动化辩论联系起来。",
+      "hn": {
+        "id": 49449458,
+        "type": "story",
+        "by": "speckx",
+        "score": 44,
+        "descendants": 17,
+        "time": 1787753176,
+        "comments_url": "https://news.ycombinator.com/item?id=49449458"
+      },
+      "hot_score": 1.1,
+      "tags": [
+        "Culture",
+        "Science",
+        "AI"
+      ]
     },
     {
       "title_en": "OpenAI Jalapeño: Better than Nvidia Blackwell",
@@ -472,7 +935,7 @@
         "AI",
         "Hardware"
       ],
-      "hot_score": 1.49
+      "hot_score": 1.09
     },
     {
       "title_en": "Firefox 157 will include JPEG XL by default on all platforms",
@@ -495,29 +958,30 @@
         "Web",
         "Open Source"
       ],
-      "hot_score": 1.45
+      "hot_score": 1.02
     },
     {
-      "title_en": "Value Classes Still Need Compiler Sympathy",
-      "url": "https://johan-sjolen.github.io/post/compiler-sympathy/compiler-sympathy/",
-      "title_zh": "值类仍需编译器的支持",
-      "created_display": "Created: Aug 26, 2026 / 01:59 PT",
+      "title_en": "Beyond Recall and the Illusion of Competence",
+      "url": "https://var0.xyz/posts/beyond-recall-and-the-illusion-of-competence.html",
+      "title_zh": "超越记忆与能力幻觉",
+      "created_display": "Created: Aug 26, 2026 / 03:07 PT",
       "image_url": null,
-      "summary_en": "Argues that value classes still require compiler-level sympathy to deliver predictable semantics and performance. Without proper compiler support, you risk boxing overhead or inconsistent behavior. The piece urges language designers to prioritize deep integration between language features and the compiler.",
-      "summary_zh": "主张值类仍需要编译器层面的支持，以确保语义和性能的可预测性。若缺乏充分的编译器集成，可能出现装箱开销或行为不一致的问题。倡议语言设计者优先加强语言特性与编译器的深度整合。",
+      "summary_en": "It argues for external checks, ongoing practice, and rigorous testing to prevent overestimating one’s abilities. A timely reminder that confident recall isn’t a substitute for demonstrated skill.",
+      "summary_zh": "文章探讨记忆回忆如何误导对自身能力的信心，揭示交易者、开发者和研究者应警惕的认知偏差。提出需要外部检查、持续练习与严格测试，避免高估自己的能力。提醒我们，单凭自信的记忆并不能替代经过验证的技能。",
       "hn": {
-        "id": 49445884,
+        "id": 49446442,
         "type": "story",
-        "by": "lichtenberger",
-        "score": 59,
-        "descendants": 24,
-        "time": 1787734755,
-        "comments_url": "https://news.ycombinator.com/item?id=49445884"
+        "by": "tuxie_",
+        "score": 86,
+        "descendants": 25,
+        "time": 1787738822,
+        "comments_url": "https://news.ycombinator.com/item?id=49446442"
       },
-      "hot_score": 1.45,
       "tags": [
-        "Programming"
-      ]
+        "Education",
+        "Culture"
+      ],
+      "hot_score": 1.02
     },
     {
       "title_en": "New Mac mini, featuring M6 and M5 Pro",
@@ -540,74 +1004,52 @@
         "Hardware",
         "AI"
       ],
-      "hot_score": 1.34
+      "hot_score": 0.99
     },
     {
-      "title_en": "Show HN: Buslens – where can I get to by bus? (UK)",
-      "url": "https://rupertlinacre.com/buslens/",
-      "title_zh": "Show HN：Buslens——英国公交出行路线查询",
-      "created_display": "Created: Aug 26, 2026 / 00:36 PT",
-      "image_url": null,
-      "summary_en": "Show HN introduces Buslens, a UK-focused tool for figuring out how to reach destinations by bus. It leverages transit data to map practical routes and timings, appealing to transit nerds and everyday commuters alike. A neat example of public data application that helps people navigate urban mobility.",
-      "summary_zh": "Show HN 推介 Buslens，一款面向英国的公交出行路线查询工具。它利用公共交通数据来映射实际可行的路线与时刻，吸引公交爱好者和日常通勤者。展示了公共数据在提升城市出行中的应用。",
+      "title_en": "Graze Joins Flipboard",
+      "url": "https://graze.leaflet.pub/3mtypcuxxc22p",
+      "title_zh": "Graze 加入 Flipboard",
+      "created_display": "Created: Aug 26, 2026 / 10:24 PT",
+      "image_url": "https://leaflet.pub/lish/did%3Aplc%3Ai6y3jdklpvkjvynvsrnqfdoq/3lwrpf3vw222v/3mtypcuxxc22p/opengraph-image-1qv6ug?3525228eea30403c",
+      "summary_en": "Graze joins Flipboard, likely integrating its content curation into Flipboard's magazine-style experience. The move signals consolidation in content discovery and distribution.",
+      "summary_zh": "Graze 加入 Flipboard，预计将把其内容策展融入 Flipboard 的杂志式体验。此举反映了内容发现与分发领域的整合趋势。",
       "hn": {
-        "id": 49445286,
+        "id": 49452740,
         "type": "story",
-        "by": "RobinL",
-        "score": 70,
-        "descendants": 48,
-        "time": 1787729812,
-        "comments_url": "https://news.ycombinator.com/item?id=49445286"
+        "by": "Kye",
+        "score": 15,
+        "descendants": 5,
+        "time": 1787765055,
+        "comments_url": "https://news.ycombinator.com/item?id=49452740"
       },
-      "hot_score": 1.29,
+      "hot_score": 0.99,
       "tags": [
-        "Show HN",
+        "Business",
         "Web"
       ]
     },
     {
-      "title_en": "Apple Maps Ads Are Here, and There's No Way to Turn Them Off",
-      "url": "https://www.macrumors.com/2026/08/25/apple-maps-ads-live/",
-      "title_zh": "Apple Maps 广告上线，无法关闭",
-      "created_display": "Created: Aug 26, 2026 / 04:36 PT",
-      "image_url": "https://images.macrumors.com/t/j4M7u8VagoUlrRrNhsdb3hrnqQc=/2000x/article-new/2026/08/apple-maps-ads-live.jpg",
-      "summary_en": "Apple Maps now features ads, with no opt-out option, signaling a new revenue channel for the platform. The move raises questions about user experience, ad targeting within maps, and privacy implications as location data potentially informs advertising. It highlights a broader trend of services monetizing core apps.",
-      "summary_zh": "Apple Maps 引入广告且无法关闭，标志着该平台新的收入渠道。此举引发对用户体验、地图内广告定位以及隐私影响的担忧，因为位置信息可能用于广告。反映出越来越多的服务将核心应用商业化的趋势。",
+      "title_en": "Radiation link in flight attendant's breast cancer, French court finds",
+      "url": "https://www.bbc.com/news/articles/cn0j3z6147jo",
+      "title_zh": "法国法院认定航空乘务员乳腺癌与辐射相关",
+      "created_display": "Created: Aug 26, 2026 / 04:15 PT",
+      "image_url": "https://ichef.bbci.co.uk/news/1024/branded_news/737e/live/628a85a0-a135-11f1-9311-09d4e1fc9016.jpg",
+      "summary_en": "A French court finds a radiation exposure link to a flight attendant's breast cancer, contributing to occupational health jurisprudence and aviation safety considerations. The ruling could influence how airline workers' health risks are managed.",
+      "summary_zh": "法国法院认定航空乘务员的乳腺癌与辐射暴露相关，为职业健康司法实践与航空安全管理带来影响。此判决可能影响航空公司对员工健康风险的管理方式。",
       "hn": {
-        "id": 49447222,
+        "id": 49446984,
         "type": "story",
-        "by": "robtherobber",
-        "score": 25,
-        "descendants": 6,
-        "time": 1787744210,
-        "comments_url": "https://news.ycombinator.com/item?id=49447222"
+        "by": "dazhbog",
+        "score": 60,
+        "descendants": 25,
+        "time": 1787742956,
+        "comments_url": "https://news.ycombinator.com/item?id=49446984"
       },
-      "hot_score": 1.27,
+      "hot_score": 0.86,
       "tags": [
-        "Business",
-        "Privacy"
-      ]
-    },
-    {
-      "title_en": "LibreOffice 26.8 Released with Many Nice Improvements",
-      "url": "https://wiki.documentfoundation.org/ReleaseNotes/26.8",
-      "title_zh": "LibreOffice 26.8 发布，改进颇多",
-      "created_display": "Created: Aug 26, 2026 / 05:21 PT",
-      "image_url": "https://wiki.documentfoundation.org/.within.website/x/cmd/anubis/static/img/pensive.webp?cacheBuster=v1.27.1-0.20260813194142-fabe34dfbccc+dirty",
-      "summary_en": "LibreOffice 26.8 arrives with a suite of improvements, including performance tweaks, better compatibility with document formats, and user-facing polish. The release underscores the ongoing vitality of open-source office software and its role as a robust alternative to proprietary suites. Expect smoother workflows and compatibility gains for complex documents.",
-      "summary_zh": "LibreOffice 26.8 正式发布，带来性能优化、文件格式兼容性提升及界面细节改进等多项改动。此次更新凸显开源办公软件的活力及其对比商用套件的可观竞争力，预计将提升处理复杂文档的流畅度与兼容性。",
-      "hn": {
-        "id": 49447724,
-        "type": "story",
-        "by": "DemiGuru",
-        "score": 17,
-        "descendants": 1,
-        "time": 1787746884,
-        "comments_url": "https://news.ycombinator.com/item?id=49447724"
-      },
-      "hot_score": 1.12,
-      "tags": [
-        "Open Source"
+        "Health",
+        "Legal"
       ]
     },
     {
@@ -628,31 +1070,100 @@
         "comments_url": "https://news.ycombinator.com/item?id=49434645"
       },
       "tags": [
+        "Career",
         "Design"
       ],
-      "hot_score": 1.09
+      "hot_score": 0.8
     },
     {
-      "title_en": "Black hole singularity is a surface not a point",
-      "url": "https://arxiv.org/abs/2608.21590",
-      "title_zh": "黑洞奇点是一个表面，而非点",
-      "created_display": "Created: Aug 25, 2026 / 10:02 PT",
-      "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-      "summary_en": "A new theoretical proposal suggests treating the black hole singularity as a surface rather than a point, rethinking the extreme geometry where gravity dominates. If correct, the idea could influence how we model spacetime at quantum scales and challenge long-held assumptions about information loss and singularities.",
-      "summary_zh": "一个理论性提议将黑洞奇点描述为一个曲面而非点，重新思考在极端密度下引力支配的几何结构。若成立，这一观点可能影响在量子尺度上对时空的建模，并挑战关于信息丢失与奇点的长期假设。",
+      "title_en": "Value Classes Still Need Compiler Sympathy",
+      "url": "https://johan-sjolen.github.io/post/compiler-sympathy/compiler-sympathy/",
+      "title_zh": "值类仍需编译器的支持",
+      "created_display": "Created: Aug 26, 2026 / 01:59 PT",
+      "image_url": null,
+      "summary_en": "Argues that value classes still require compiler-level sympathy to deliver predictable semantics and performance. Without proper compiler support, you risk boxing overhead or inconsistent behavior. The piece urges language designers to prioritize deep integration between language features and the compiler.",
+      "summary_zh": "主张值类仍需要编译器层面的支持，以确保语义和性能的可预测性。若缺乏充分的编译器集成，可能出现装箱开销或行为不一致的问题。倡议语言设计者优先加强语言特性与编译器的深度整合。",
       "hn": {
-        "id": 49437210,
+        "id": 49445884,
         "type": "story",
-        "by": "raattgift",
-        "score": 286,
-        "descendants": 198,
-        "time": 1787677369,
-        "comments_url": "https://news.ycombinator.com/item?id=49437210"
+        "by": "lichtenberger",
+        "score": 77,
+        "descendants": 38,
+        "time": 1787734755,
+        "comments_url": "https://news.ycombinator.com/item?id=49445884"
       },
       "tags": [
-        "Science"
+        "Programming"
       ],
-      "hot_score": 0.96
+      "hot_score": 0.77
+    },
+    {
+      "title_en": "Launch HN: Risklytics (YC S26) – Insurance brokerage for frontier tech companies",
+      "url": "https://www.risklytics.ai/",
+      "title_zh": "Risklytics（YC S26）——面向前沿科技公司的保险经纪",
+      "created_display": "Created: Aug 26, 2026 / 09:06 PT",
+      "image_url": "https://www.risklytics.ai/og.png",
+      "summary_en": "Risklytics, a YC S26 company, acts as an insurance broker specializing in frontier tech startups, offering bespoke coverage and data-driven risk assessment. The model aims to simplify complex policies for risky, emerging tech ventures.",
+      "summary_zh": "Risklytics 是 YC S26 的初创企业，专注为前沿科技公司提供保险经纪服务，提供定制化保险与数据驱动的风险评估。其商业模式旨在简化这类高风险技术创业公司的保单安排。",
+      "hn": {
+        "id": 49451495,
+        "type": "story",
+        "by": "AlexRisio",
+        "score": 18,
+        "descendants": 8,
+        "time": 1787760361,
+        "comments_url": "https://news.ycombinator.com/item?id=49451495"
+      },
+      "hot_score": 0.75,
+      "tags": [
+        "Startups",
+        "Business"
+      ]
+    },
+    {
+      "title_en": "A curmudgeon tries a language server",
+      "url": "https://entropicthoughts.com/curmudgeon-tries-language-server",
+      "title_zh": "挑剔者试用语言服务器",
+      "created_display": "Created: Aug 26, 2026 / 05:48 PT",
+      "image_url": "https://entropicthoughts.com/image/banner/curmudgeon-tries-language-server.jpg",
+      "summary_en": "A cranky developer hands-on test of a language server, offering blunt feedback on latency, correctness, and UX quirks. The piece spotlights real-world friction in developer tooling and reminds readers that language servers still have rough edges despite rapid progress. Expect candid takes on what actually helps a real project move faster.",
+      "summary_zh": "一位挑剔的开发者亲自试用语言服务器，直言不讳地评价延迟、正确性及用户体验中的怪癖。文章聚焦开发工具在实际场景中的磨合，提醒读者尽管进步迅速，语言服务器仍有改进空间。",
+      "hn": {
+        "id": 49448150,
+        "type": "story",
+        "by": "crescit_eundo",
+        "score": 38,
+        "descendants": 13,
+        "time": 1787748517,
+        "comments_url": "https://news.ycombinator.com/item?id=49448150"
+      },
+      "hot_score": 0.72,
+      "tags": [
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "How HN: Qisutu – an open-source, self-hosted ticketing and service desk",
+      "url": "https://github.com/qisutu/qisutu",
+      "title_zh": "HN：Qisutu——开源自托管的工单与服务台",
+      "created_display": "Created: Aug 26, 2026 / 07:05 PT",
+      "image_url": "https://opengraph.githubassets.com/da5ff8dd759a2d085ea03a805c1ed04a182f3d9609bc782da15cc7dffc34448f/qisutu/qisutu",
+      "summary_en": "Qisutu is an open-source, self-hosted ticketing and service desk solution, outlining its architecture, deployment considerations, and use cases for teams seeking privacy-preserving support tooling.",
+      "summary_zh": "Qisutu 是一个开源的自托管工单和服务台解决方案，介绍了其架构、部署考量以及适合需要隐私保护的团队使用场景。",
+      "hn": {
+        "id": 49449440,
+        "type": "story",
+        "by": "OFORK",
+        "score": 29,
+        "descendants": 7,
+        "time": 1787753131,
+        "comments_url": "https://news.ycombinator.com/item?id=49449440"
+      },
+      "hot_score": 0.71,
+      "tags": [
+        "Open Source",
+        "Privacy"
+      ]
     },
     {
       "title_en": "Bomb fishing is wreaking havoc on Indonesia's coral reefs",
@@ -674,7 +1185,29 @@
       "tags": [
         "Science"
       ],
-      "hot_score": 0.95
+      "hot_score": 0.7
+    },
+    {
+      "title_en": "Black hole singularity is a surface not a point",
+      "url": "https://arxiv.org/abs/2608.21590",
+      "title_zh": "黑洞奇点是一个表面，而非点",
+      "created_display": "Created: Aug 25, 2026 / 10:02 PT",
+      "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "summary_en": "A new theoretical proposal suggests treating the black hole singularity as a surface rather than a point, rethinking the extreme geometry where gravity dominates. If correct, the idea could influence how we model spacetime at quantum scales and challenge long-held assumptions about information loss and singularities.",
+      "summary_zh": "一个理论性提议将黑洞奇点描述为一个曲面而非点，重新思考在极端密度下引力支配的几何结构。若成立，这一观点可能影响在量子尺度上对时空的建模，并挑战关于信息丢失与奇点的长期假设。",
+      "hn": {
+        "id": 49437210,
+        "type": "story",
+        "by": "raattgift",
+        "score": 286,
+        "descendants": 198,
+        "time": 1787677369,
+        "comments_url": "https://news.ycombinator.com/item?id=49437210"
+      },
+      "tags": [
+        "Science"
+      ],
+      "hot_score": 0.68
     },
     {
       "title_en": "Don't Wordle",
@@ -694,10 +1227,79 @@
         "comments_url": "https://news.ycombinator.com/item?id=49432319"
       },
       "tags": [
-        "Culture",
-        "Web"
+        "Web",
+        "Design"
       ],
-      "hot_score": 0.87
+      "hot_score": 0.65
+    },
+    {
+      "title_en": "Wiped out: US faces surging toilet paper prices amid trade war with Canada",
+      "url": "https://www.theguardian.com/us-news/2026/aug/26/paper-product-toilet-paper-tariffs-us-canada",
+      "title_zh": "因对加拿大的贸易战，美国厕纸价格急剧上扬",
+      "created_display": "Created: Aug 26, 2026 / 06:13 PT",
+      "image_url": "https://i.guim.co.uk/img/media/97c90a89ac0adb278eaa6d5e30b8ee0b99cdafaa/589_0_2823_2259/master/2823.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=ce6d7c1361536b33e3c3bdcb591681f5",
+      "summary_en": "Tariffs and cross-border trade turmoil push US toilet paper prices higher, reflecting broader inflation pressures on household essentials. The piece traces how policy frictions translate into everyday costs and what it could mean for consumer sentiment and supply chains. It’s a reminder that policy waves ripple into small but universal commodities.",
+      "summary_zh": "关税与跨境贸易动荡推动美国厕纸等日用品价格走高，体现了对家庭必需品的普遍通胀压力。文章追踪政策摩擦如何传导到日常成本，以及对消费者信心和供应链的潜在影响。提醒读者政策波动也会波及到每个人都用得到的商品。",
+      "hn": {
+        "id": 49448560,
+        "type": "story",
+        "by": "mikhael",
+        "score": 32,
+        "descendants": 11,
+        "time": 1787750035,
+        "comments_url": "https://news.ycombinator.com/item?id=49448560"
+      },
+      "hot_score": 0.65,
+      "tags": [
+        "Business",
+        "Politics"
+      ]
+    },
+    {
+      "title_en": "Memory Ordering in CPUs",
+      "url": "https://fgiesen.wordpress.com/2026/08/25/memory-ordering-in-cpus/",
+      "title_zh": "CPU 的内存序（Memory Ordering）",
+      "created_display": "Created: Aug 26, 2026 / 05:49 PT",
+      "image_url": "https://s0.wp.com/i/blank.jpg?m=1383295312i",
+      "summary_en": "A deep dive into memory ordering in CPUs, covering concepts like memory models, memory fences, and how modern CPUs reorder instructions for performance. It explains why understanding ordering matters for correctness.",
+      "summary_zh": "深入解读 CPU 的内存序，涵盖内存模型、屏障与现代处理器为了性能而进行的指令重排序等要点。解释了理解内存序对正确性的重要性。",
+      "hn": {
+        "id": 49448167,
+        "type": "story",
+        "by": "ibobev",
+        "score": 33,
+        "descendants": 3,
+        "time": 1787748589,
+        "comments_url": "https://news.ycombinator.com/item?id=49448167"
+      },
+      "hot_score": 0.62,
+      "tags": [
+        "Hardware",
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "Show HN: Buslens – where can I get to by bus? (UK)",
+      "url": "https://rupertlinacre.com/buslens/",
+      "title_zh": "Show HN：Buslens——英国公交出行路线查询",
+      "created_display": "Created: Aug 26, 2026 / 00:36 PT",
+      "image_url": null,
+      "summary_en": "Show HN introduces Buslens, a UK-focused tool for figuring out how to reach destinations by bus. It leverages transit data to map practical routes and timings, appealing to transit nerds and everyday commuters alike. A neat example of public data application that helps people navigate urban mobility.",
+      "summary_zh": "Show HN 推介 Buslens，一款面向英国的公交出行路线查询工具。它利用公共交通数据来映射实际可行的路线与时刻，吸引公交爱好者和日常通勤者。展示了公共数据在提升城市出行中的应用。",
+      "hn": {
+        "id": 49445286,
+        "type": "story",
+        "by": "RobinL",
+        "score": 70,
+        "descendants": 48,
+        "time": 1787729812,
+        "comments_url": "https://news.ycombinator.com/item?id=49445286"
+      },
+      "hot_score": 0.59,
+      "tags": [
+        "Show HN",
+        "Web"
+      ]
     },
     {
       "title_en": "Harvest (IBM 7950): Supercomputer for cryptanalysis at the NSA in the Cold War",
@@ -711,15 +1313,15 @@
         "id": 49444232,
         "type": "story",
         "by": "jnord",
-        "score": 68,
-        "descendants": 18,
+        "score": 83,
+        "descendants": 21,
         "time": 1787720947,
         "comments_url": "https://news.ycombinator.com/item?id=49444232"
       },
-      "hot_score": 0.81,
       "tags": [
         "Hardware"
-      ]
+      ],
+      "hot_score": 0.52
     },
     {
       "title_en": "When str.lower() is a security vulnerability in Python",
@@ -742,31 +1344,7 @@
         "Security",
         "Programming"
       ],
-      "hot_score": 0.74
-    },
-    {
-      "title_en": "C2PA Cameras Do Not Survive Contact with Reality",
-      "url": "https://www.da.vidbuchanan.co.uk/blog/android-c2pa.html",
-      "title_zh": "C2PA 相机经不起现实考验",
-      "created_display": "Created: Aug 25, 2026 / 12:38 PT",
-      "image_url": "https://retr0.id/stuff/nocors/blog_frog.jpg",
-      "summary_en": "Critique of C2PA-based camera provenance in real-world workflows, highlighting weaknesses in metadata trust, hardware integration, and end-to-end authenticity. The piece argues for stronger, hardware-backed provenance and careful deployment across apps and devices.",
-      "summary_zh": "对基于 C2PA 的相机溯源在现实工作流中的应用进行批评，指出元数据可信度、硬件整合以及端到端真实性等方面的薄弱环节。文章主张需要更强的硬件级溯源与跨应用/设备的谨慎部署。",
-      "hn": {
-        "id": 49439499,
-        "type": "story",
-        "by": "Retr0id",
-        "score": 176,
-        "descendants": 124,
-        "time": 1787686704,
-        "comments_url": "https://news.ycombinator.com/item?id=49439499"
-      },
-      "tags": [
-        "Security",
-        "Privacy",
-        "Hardware"
-      ],
-      "hot_score": 0.72
+      "hot_score": 0.5
     },
     {
       "title_en": "Tooltips need a delay, and then they need to skip it",
@@ -788,29 +1366,30 @@
       "tags": [
         "Design"
       ],
-      "hot_score": 0.69
+      "hot_score": 0.49
     },
     {
-      "title_en": "Meta agrees to settle social media addiction suit with states for up to $16B",
-      "url": "https://www.nbcnews.com/tech/social-media/meta-settles-social-media-addiction-suit-16-billion-rcna594492",
-      "title_zh": "Meta 就社媒成瘾诉讼与各州和解，最高金额16亿美元",
-      "created_display": "Created: Aug 26, 2026 / 06:24 PT",
-      "image_url": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-03/260325-mark-zuckerberg-ew-1132a-99401a.jpg",
-      "summary_en": "Meta reaches a settlement with states over alleged social media addiction harms, with a potential payout of up to $16 billion. The agreement could drive design changes, transparency requirements, and funding for consumer-protection initiatives. It signals a broader push to curb addictive design patterns across platforms.",
-      "summary_zh": "Meta 就社媒成瘾诉讼与各州达成和解，最高金额可达16亿美元。协议可能推动设计改动、透明度要求，并为消费者保护计划提供资金，体现了对平台上成瘾性设计模式的抑制趋向。",
+      "title_en": "C2PA Cameras Do Not Survive Contact with Reality",
+      "url": "https://www.da.vidbuchanan.co.uk/blog/android-c2pa.html",
+      "title_zh": "C2PA 相机经不起现实考验",
+      "created_display": "Created: Aug 25, 2026 / 12:38 PT",
+      "image_url": "https://retr0.id/stuff/nocors/blog_frog.jpg",
+      "summary_en": "Critique of C2PA-based camera provenance in real-world workflows, highlighting weaknesses in metadata trust, hardware integration, and end-to-end authenticity. The piece argues for stronger, hardware-backed provenance and careful deployment across apps and devices.",
+      "summary_zh": "对基于 C2PA 的相机溯源在现实工作流中的应用进行批评，指出元数据可信度、硬件整合以及端到端真实性等方面的薄弱环节。文章主张需要更强的硬件级溯源与跨应用/设备的谨慎部署。",
       "hn": {
-        "id": 49448756,
+        "id": 49439499,
         "type": "story",
-        "by": "psychanarch",
-        "score": 7,
-        "descendants": 2,
-        "time": 1787750697,
-        "comments_url": "https://news.ycombinator.com/item?id=49448756"
+        "by": "Retr0id",
+        "score": 176,
+        "descendants": 124,
+        "time": 1787686704,
+        "comments_url": "https://news.ycombinator.com/item?id=49439499"
       },
-      "hot_score": 0.69,
       "tags": [
-        "Legal"
-      ]
+        "Security",
+        "Hardware"
+      ],
+      "hot_score": 0.49
     },
     {
       "title_en": "Run OpenBSD on DigitalOcean for $4/month",
@@ -831,54 +1410,101 @@
       },
       "tags": [
         "Open Source",
+        "DevOps",
         "Security"
       ],
-      "hot_score": 0.67
+      "hot_score": 0.47
     },
     {
-      "title_en": "Meta agrees multi-billion settlement to claims that its platforms harm children",
-      "url": "https://www.bbc.co.uk/news/live/cy5v0vrlp4xt",
-      "title_zh": "Meta 就儿童受社媒伤害问题达成多亿美元和解",
-      "created_display": "Created: Aug 26, 2026 / 06:37 PT",
-      "image_url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/fa99/live/0953ce70-a157-11f1-92f3-2381193e5eb4.jpg",
-      "summary_en": "Meta settles with multiple states over alleged harms to minors on its platforms for a multi-billion-dollar amount. The accord is expected to include safeguards and ongoing oversight around youth safety features. The settlement underscores continuing regulatory pressure on platform designers to protect younger users.",
-      "summary_zh": "Meta 就其平台对未成年人造成伤害的指控与多州达成数十亿美元级别的和解。协议预计将包含对青少年安全功能的保障措施与持续监督。这凸显了监管机构对平台在保护未成年用户方面继续施加压力。",
+      "title_en": "Super Curry Combat II Turbo – Legend Edition",
+      "url": "https://curry-combat-2.com",
+      "title_zh": "超级咖喱战斗 II Turbo：传说版",
+      "created_display": "Created: Aug 26, 2026 / 12:26 PT",
+      "image_url": null,
+      "summary_en": "A new edition of the whimsical game Super Curry Combat adds Turbo and Legend modes, with updated visuals and new characters. It targets players who enjoy fast-paced, retro-inspired action.",
+      "summary_zh": "《超级咖喱战斗 II Turbo：传说版》推出，新增 Turbo 与传说模式，画面与角色更新，面向喜爱快节奏、复古风格的玩家。",
       "hn": {
-        "id": 49448967,
+        "id": 49454496,
         "type": "story",
-        "by": "c-oreills",
-        "score": 6,
+        "by": "ecopoesis",
+        "score": 3,
         "descendants": 1,
-        "time": 1787751473,
-        "comments_url": "https://news.ycombinator.com/item?id=49448967"
+        "time": 1787772418,
+        "comments_url": "https://news.ycombinator.com/item?id=49454496"
       },
-      "hot_score": 0.65,
+      "hot_score": 0.44,
       "tags": [
-        "Legal",
-        "Politics"
+        "Gaming"
       ]
     },
     {
-      "title_en": "Agentic Context Management: Memory and Cost as Architecture Problems",
-      "url": "https://arxiv.org/abs/2607.21503",
-      "title_zh": "代理性情境管理：内存与成本作为架构问题",
-      "created_display": "Created: Aug 25, 2026 / 19:35 PT",
-      "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-      "summary_en": "The paper reframes context management as a core architectural concern for intelligent systems, arguing that how memory is stored, retrieved, and budgeted for context fundamentally shapes system design. It proposes approaches to treat context management as a first-class architectural problem to enable scalable, cost-aware reasoning.",
-      "summary_zh": "论文将上下文管理重新定位为智能系统的核心架构难题，指出上下文记忆的存取与预算直接决定系统设计。提出将上下文管理作为架构的首要考量，以实现可扩展、成本感知的推理能力。",
+      "title_en": "My open source project's donations no longer go through my bank account",
+      "url": "https://spliit.app/blog/spliit-funding-is-now-on-open-collective",
+      "title_zh": "我的开源项目捐款不再经银行账户处理",
+      "created_display": "Created: Aug 26, 2026 / 05:41 PT",
+      "image_url": "https://spliit.app/blog/spliit-funding-is-now-on-open-collective/opengraph-image?26f17cff54a4616e",
+      "summary_en": "Donations to my open-source project now flow through Open Collective, simplifying fundraising and improving transparency. The post explains why the change was made and how backers can contribute.",
+      "summary_zh": "我的开源项目捐款现改通过 Open Collective 处理，简化筹资流程并提升透明度。文中解释了改动原因以及支持者如何捐款。",
       "hn": {
-        "id": 49443523,
+        "id": 49448029,
         "type": "story",
-        "by": "gdad",
-        "score": 73,
-        "descendants": 26,
-        "time": 1787711725,
-        "comments_url": "https://news.ycombinator.com/item?id=49443523"
+        "by": "scastiel",
+        "score": 24,
+        "descendants": 2,
+        "time": 1787748088,
+        "comments_url": "https://news.ycombinator.com/item?id=49448029"
       },
+      "hot_score": 0.43,
+      "tags": [
+        "Open Source",
+        "Finance",
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "Qwen3.8-Flash-Next Technical Report [pdf]",
+      "url": "https://github.com/QwenLM/Qwen3.8-Flash-Next/blob/main/tech_report.pdf",
+      "title_zh": "Qwen3.8-Flash-Next 技术报告",
+      "created_display": "Created: Aug 26, 2026 / 06:01 PT",
+      "image_url": "https://opengraph.githubassets.com/058e0f12c28e2c4c12bbadf671849b52a68f3443287a5f26e006ba4508e5a24d/QwenLM/Qwen3.8-Flash-Next",
+      "summary_en": "A technical report detailing Qwen3.8-Flash-Next architecture, training improvements, and performance benchmarks. It showcases progress in high-performance language models and deployment considerations.",
+      "summary_zh": "技术报告介绍了 Qwen3.8-Flash-Next 的架构、训练改进与性能基准，展示了高性能语言模型的进展及部署要点。",
+      "hn": {
+        "id": 49448378,
+        "type": "story",
+        "by": "Philpax",
+        "score": 21,
+        "descendants": 0,
+        "time": 1787749318,
+        "comments_url": "https://news.ycombinator.com/item?id=49448378"
+      },
+      "hot_score": 0.4,
       "tags": [
         "AI"
+      ]
+    },
+    {
+      "title_en": "How credit card rewards became a $9.2B wealth transfer",
+      "url": "https://www.library.hbs.edu/working-knowledge/how-credit-card-rewards-became-multibillion-dollar-wealth-transfer",
+      "title_zh": "信用卡奖励如何成为92亿美元的财富转移",
+      "created_display": "Created: Aug 25, 2026 / 04:37 PT",
+      "image_url": "https://cloudinary.hbs.edu/hbsit/image/fetch/q_auto/f_webp/https%3A%2F%2Fwww.hbs.edu%2Fctfassets%2Fpublic%2Fimages%2F1LugQvDzX01KToTslxDIzT%2FEgan_Who%2520Pays_2026.png",
+      "summary_en": "The economics of credit-card rewards programs show why they transfer billions in value among issuers, merchants, and consumers. The article breaks down how points, fees, and partnerships create a multi-billion-dollar reshuffling of wealth.",
+      "summary_zh": "信用卡奖励计划背后的经济学揭示了为何会在发行方、商户和消费者之间发生数十亿美元的财富再分配。文章解析了积分、手续费和合作关系如何推动这场价值再分配。",
+      "hn": {
+        "id": 49432201,
+        "type": "story",
+        "by": "conbrian",
+        "score": 225,
+        "descendants": 379,
+        "time": 1787657844,
+        "comments_url": "https://news.ycombinator.com/item?id=49432201"
+      },
+      "tags": [
+        "Finance",
+        "Business"
       ],
-      "hot_score": 0.61
+      "hot_score": 0.39
     },
     {
       "title_en": "Show HN: LatticeDB – Like SQLite but for graph databases",
@@ -902,7 +1528,30 @@
         "Programming",
         "Data"
       ],
-      "hot_score": 0.55
+      "hot_score": 0.39
+    },
+    {
+      "title_en": "Apple Maps Ads Are Here, and There's No Way to Turn Them Off",
+      "url": "https://www.macrumors.com/2026/08/25/apple-maps-ads-live/",
+      "title_zh": "Apple Maps 广告上线，无法关闭",
+      "created_display": "Created: Aug 26, 2026 / 04:36 PT",
+      "image_url": "https://images.macrumors.com/t/j4M7u8VagoUlrRrNhsdb3hrnqQc=/2000x/article-new/2026/08/apple-maps-ads-live.jpg",
+      "summary_en": "Apple Maps now features ads, with no opt-out option, signaling a new revenue channel for the platform. The move raises questions about user experience, ad targeting within maps, and privacy implications as location data potentially informs advertising. It highlights a broader trend of services monetizing core apps.",
+      "summary_zh": "Apple Maps 引入广告且无法关闭，标志着该平台新的收入渠道。此举引发对用户体验、地图内广告定位以及隐私影响的担忧，因为位置信息可能用于广告。反映出越来越多的服务将核心应用商业化的趋势。",
+      "hn": {
+        "id": 49447222,
+        "type": "story",
+        "by": "robtherobber",
+        "score": 25,
+        "descendants": 6,
+        "time": 1787744210,
+        "comments_url": "https://news.ycombinator.com/item?id=49447222"
+      },
+      "hot_score": 0.37,
+      "tags": [
+        "Privacy",
+        "Business"
+      ]
     },
     {
       "title_en": "Show HN: TeXbrain, a LaTeX editor that runs pdfTeX in the browser via WASM",
@@ -926,7 +1575,7 @@
         "Programming",
         "Web"
       ],
-      "hot_score": 0.55
+      "hot_score": 0.36
     },
     {
       "title_en": "Maiao: Gerrit-style code review workflow for GitHub, GitLab, Gitea, others",
@@ -946,75 +1595,123 @@
         "comments_url": "https://news.ycombinator.com/item?id=49441666"
       },
       "tags": [
+        "DevOps",
         "Programming"
       ],
-      "hot_score": 0.55
+      "hot_score": 0.35
     },
     {
-      "title_en": "How credit card rewards became a $9.2B wealth transfer",
-      "url": "https://www.library.hbs.edu/working-knowledge/how-credit-card-rewards-became-multibillion-dollar-wealth-transfer",
-      "title_zh": "信用卡奖励如何成为92亿美元的财富转移",
-      "created_display": "Created: Aug 25, 2026 / 04:37 PT",
-      "image_url": "https://cloudinary.hbs.edu/hbsit/image/fetch/q_auto/f_webp/https%3A%2F%2Fwww.hbs.edu%2Fctfassets%2Fpublic%2Fimages%2F1LugQvDzX01KToTslxDIzT%2FEgan_Who%2520Pays_2026.png",
-      "summary_en": "The economics of credit-card rewards programs show why they transfer billions in value among issuers, merchants, and consumers. The article breaks down how points, fees, and partnerships create a multi-billion-dollar reshuffling of wealth.",
-      "summary_zh": "信用卡奖励计划背后的经济学揭示了为何会在发行方、商户和消费者之间发生数十亿美元的财富再分配。文章解析了积分、手续费和合作关系如何推动这场价值再分配。",
+      "title_en": "Agentic Context Management: Memory and Cost as Architecture Problems",
+      "url": "https://arxiv.org/abs/2607.21503",
+      "title_zh": "代理性情境管理：内存与成本作为架构问题",
+      "created_display": "Created: Aug 25, 2026 / 19:35 PT",
+      "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "summary_en": "The paper reframes context management as a core architectural concern for intelligent systems, arguing that how memory is stored, retrieved, and budgeted for context fundamentally shapes system design. It proposes approaches to treat context management as a first-class architectural problem to enable scalable, cost-aware reasoning.",
+      "summary_zh": "论文将上下文管理重新定位为智能系统的核心架构难题，指出上下文记忆的存取与预算直接决定系统设计。提出将上下文管理作为架构的首要考量，以实现可扩展、成本感知的推理能力。",
       "hn": {
-        "id": 49432201,
+        "id": 49443523,
         "type": "story",
-        "by": "conbrian",
-        "score": 225,
-        "descendants": 379,
-        "time": 1787657844,
-        "comments_url": "https://news.ycombinator.com/item?id=49432201"
+        "by": "gdad",
+        "score": 73,
+        "descendants": 26,
+        "time": 1787711725,
+        "comments_url": "https://news.ycombinator.com/item?id=49443523"
       },
       "tags": [
-        "Finance",
-        "Business"
+        "AI",
+        "Science"
       ],
-      "hot_score": 0.52
+      "hot_score": 0.35
     },
     {
-      "title_en": "Fuzzing the Gleam Compiler",
-      "url": "https://www.kurz.net/posts/fuzzing-gleam-compiler",
-      "title_zh": "对 Gleam 编译器进行模糊测试",
-      "created_display": "Created: Aug 25, 2026 / 09:30 PT",
-      "image_url": "https://www.kurz.net/_astro/profile.u9k9iE6S.jpeg",
-      "summary_en": "Fuzz testing Gleam uncovers bugs in the compiler, illustrating how fuzzing helps reveal edge-case errors in languages that blend functional and Erlang ecosystems.",
-      "summary_zh": "对 Gleam 编译器进行模糊测试揭示了若干错误，展示了 fuzzing 如何发现混合函数式与 Erlang 生态的语言工具中的边界情况。文章强调了对语言工具进行实战测试的可行做法。",
+      "title_en": "\"Famous Deep Learning Papers\", David Bau",
+      "url": "https://papers.baulab.info/",
+      "title_zh": "David Bau 的《著名深度学习论文》",
+      "created_display": "Created: Aug 26, 2026 / 05:44 PT",
+      "image_url": null,
+      "summary_en": "David Bau curates a compendium of influential deep learning papers, with commentary on their insights and lasting impact on the field. The collection serves as a useful reference for researchers and practitioners.",
+      "summary_zh": "David Bau 汇编了若干具有影响力的深度学习论文，并对其洞见及长期影响进行评述，成为研究者和从业者的有用参考。",
       "hn": {
-        "id": 49436706,
+        "id": 49448082,
         "type": "story",
-        "by": "crowdhailer",
-        "score": 69,
-        "descendants": 9,
-        "time": 1787675455,
-        "comments_url": "https://news.ycombinator.com/item?id=49436706"
+        "by": "ggcr",
+        "score": 18,
+        "descendants": 4,
+        "time": 1787748266,
+        "comments_url": "https://news.ycombinator.com/item?id=49448082"
       },
+      "hot_score": 0.32,
       "tags": [
-        "Programming"
-      ],
-      "hot_score": 0.22
+        "AI",
+        "Science"
+      ]
     },
     {
-      "title_en": "Hot in Here: Heat Waves, Climate Change, and Disability",
-      "url": "https://crystalprestonwatson.com/2026/08/23/hot-in-here-heat-waves-climate-change-and-disability-2/",
-      "title_zh": "热在这里：热浪、气候变化与残障人士",
-      "created_display": "Created: Aug 26, 2026 / 05:30 PT",
-      "image_url": "https://crystalprestonwatson.com/wp-content/uploads/2026/08/pexels-fatih-turan-63325184-12413177-1024x683.jpg",
-      "summary_en": "A narrative linking heat waves, climate change, and disability, emphasizing accessibility and protection gaps for vulnerable groups. The piece advocates inclusive cooling solutions, emergency planning, and policy changes to ensure safety during extreme heat. It personalizes climate risk and argues for practical accommodations.",
-      "summary_zh": "将热浪、气候变化与残障人士联系在一起，强调对弱势群体的无障碍降温与保护差距。文章呼吁建立包容性降温方案、应急规划及相关政策变革，确保极端高温下的安全，并以具体案例凸显气候风险的现实性。",
+      "title_en": "Show HN: Timber (iOS) and Timber Tabs (Mac) – best offline read-aloud LLMs",
+      "url": "https://timberreader.com/",
+      "title_zh": "Show HN：Timber（iOS）与 Timber Tabs（Mac）——最佳离线朗读型 LLM",
+      "created_display": "Created: Aug 26, 2026 / 10:28 PT",
+      "image_url": "https://timberreader.com/img/badges/app-store.svg",
+      "summary_en": "Timber's iOS and Mac apps offer offline, read-aloud LLM capabilities, enabling private, offline text-to-speech with language models. The project highlights the desire for dependable offline AI tools.",
+      "summary_zh": "Timber 的 iOS 与 Mac 应用提供离线朗读型语言模型能力，实现私有、离线的文本转语音。该项目凸显人们对可靠离线 AI 工具的需求。",
       "hn": {
-        "id": 49447860,
+        "id": 49452794,
         "type": "story",
-        "by": "speckx",
-        "score": 4,
+        "by": "Fe2_O3",
+        "score": 5,
         "descendants": 0,
-        "time": 1787747457,
-        "comments_url": "https://news.ycombinator.com/item?id=49447860"
+        "time": 1787765326,
+        "comments_url": "https://news.ycombinator.com/item?id=49452794"
       },
-      "hot_score": 0.22,
+      "hot_score": 0.29,
       "tags": [
-        "Health"
+        "Show HN",
+        "AI"
+      ]
+    },
+    {
+      "title_en": "LibreOffice 26.8 Released with Many Nice Improvements",
+      "url": "https://wiki.documentfoundation.org/ReleaseNotes/26.8",
+      "title_zh": "LibreOffice 26.8 发布，改进颇多",
+      "created_display": "Created: Aug 26, 2026 / 05:21 PT",
+      "image_url": "https://wiki.documentfoundation.org/.within.website/x/cmd/anubis/static/img/pensive.webp?cacheBuster=v1.27.1-0.20260813194142-fabe34dfbccc+dirty",
+      "summary_en": "LibreOffice 26.8 arrives with a suite of improvements, including performance tweaks, better compatibility with document formats, and user-facing polish. The release underscores the ongoing vitality of open-source office software and its role as a robust alternative to proprietary suites. Expect smoother workflows and compatibility gains for complex documents.",
+      "summary_zh": "LibreOffice 26.8 正式发布，带来性能优化、文件格式兼容性提升及界面细节改进等多项改动。此次更新凸显开源办公软件的活力及其对比商用套件的可观竞争力，预计将提升处理复杂文档的流畅度与兼容性。",
+      "hn": {
+        "id": 49447724,
+        "type": "story",
+        "by": "DemiGuru",
+        "score": 17,
+        "descendants": 1,
+        "time": 1787746884,
+        "comments_url": "https://news.ycombinator.com/item?id=49447724"
+      },
+      "hot_score": 0.28,
+      "tags": [
+        "Open Source"
+      ]
+    },
+    {
+      "title_en": "The turbulent AI era is here. The choices we make now are critical",
+      "url": "https://www.gatesnotes.com/home/home-page-topic/reader/a-turbulent-ai-era-and-critical-choices-to-make",
+      "title_zh": "动荡的 AI 时代已到来，我们现在的选择至关重要",
+      "created_display": "Created: Aug 26, 2026 / 08:17 PT",
+      "image_url": null,
+      "summary_en": "Further reflections on the turbulent AI era, emphasizing critical decisions around safety, governance, and responsible innovation. The message underscores the stakes of early actions.",
+      "summary_zh": "对动荡的 AI 时代再度进行反思，强调在安全、治理和负责任创新方面的关键抉择。强调早期行动的影响与风险。",
+      "hn": {
+        "id": 49450672,
+        "type": "story",
+        "by": "unethical_ban",
+        "score": 9,
+        "descendants": 6,
+        "time": 1787757430,
+        "comments_url": "https://news.ycombinator.com/item?id=49450672"
+      },
+      "hot_score": 0.28,
+      "tags": [
+        "AI",
+        "Politics"
       ]
     },
     {
@@ -1036,9 +1733,100 @@
       },
       "tags": [
         "Hardware",
-        "Open Source"
+        "Business"
       ],
-      "hot_score": 0.2
+      "hot_score": 0.16
+    },
+    {
+      "title_en": "Fuzzing the Gleam Compiler",
+      "url": "https://www.kurz.net/posts/fuzzing-gleam-compiler",
+      "title_zh": "对 Gleam 编译器进行模糊测试",
+      "created_display": "Created: Aug 25, 2026 / 09:30 PT",
+      "image_url": "https://www.kurz.net/_astro/profile.u9k9iE6S.jpeg",
+      "summary_en": "Fuzz testing Gleam uncovers bugs in the compiler, illustrating how fuzzing helps reveal edge-case errors in languages that blend functional and Erlang ecosystems.",
+      "summary_zh": "对 Gleam 编译器进行模糊测试揭示了若干错误，展示了 fuzzing 如何发现混合函数式与 Erlang 生态的语言工具中的边界情况。文章强调了对语言工具进行实战测试的可行做法。",
+      "hn": {
+        "id": 49436706,
+        "type": "story",
+        "by": "crowdhailer",
+        "score": 69,
+        "descendants": 9,
+        "time": 1787675455,
+        "comments_url": "https://news.ycombinator.com/item?id=49436706"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 0.16
+    },
+    {
+      "title_en": "Meta agrees to settle social media addiction suit with states for up to $16B",
+      "url": "https://www.nbcnews.com/tech/social-media/meta-settles-social-media-addiction-suit-16-billion-rcna594492",
+      "title_zh": "Meta 就社媒成瘾诉讼与各州和解，最高金额16亿美元",
+      "created_display": "Created: Aug 26, 2026 / 06:24 PT",
+      "image_url": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-03/260325-mark-zuckerberg-ew-1132a-99401a.jpg",
+      "summary_en": "Meta reaches a settlement with states over alleged social media addiction harms, with a potential payout of up to $16 billion. The agreement could drive design changes, transparency requirements, and funding for consumer-protection initiatives. It signals a broader push to curb addictive design patterns across platforms.",
+      "summary_zh": "Meta 就社媒成瘾诉讼与各州达成和解，最高金额可达16亿美元。协议可能推动设计改动、透明度要求，并为消费者保护计划提供资金，体现了对平台上成瘾性设计模式的抑制趋向。",
+      "hn": {
+        "id": 49448756,
+        "type": "story",
+        "by": "psychanarch",
+        "score": 7,
+        "descendants": 2,
+        "time": 1787750697,
+        "comments_url": "https://news.ycombinator.com/item?id=49448756"
+      },
+      "hot_score": 0.13,
+      "tags": [
+        "Legal",
+        "Design"
+      ]
+    },
+    {
+      "title_en": "Meta agrees multi-billion settlement to claims that its platforms harm children",
+      "url": "https://www.bbc.co.uk/news/live/cy5v0vrlp4xt",
+      "title_zh": "Meta 就儿童受社媒伤害问题达成多亿美元和解",
+      "created_display": "Created: Aug 26, 2026 / 06:37 PT",
+      "image_url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/fa99/live/0953ce70-a157-11f1-92f3-2381193e5eb4.jpg",
+      "summary_en": "Meta settles with multiple states over alleged harms to minors on its platforms for a multi-billion-dollar amount. The accord is expected to include safeguards and ongoing oversight around youth safety features. The settlement underscores continuing regulatory pressure on platform designers to protect younger users.",
+      "summary_zh": "Meta 就其平台对未成年人造成伤害的指控与多州达成数十亿美元级别的和解。协议预计将包含对青少年安全功能的保障措施与持续监督。这凸显了监管机构对平台在保护未成年用户方面继续施加压力。",
+      "hn": {
+        "id": 49448967,
+        "type": "story",
+        "by": "c-oreills",
+        "score": 6,
+        "descendants": 1,
+        "time": 1787751473,
+        "comments_url": "https://news.ycombinator.com/item?id=49448967"
+      },
+      "hot_score": 0.11,
+      "tags": [
+        "Legal",
+        "Design",
+        "Politics"
+      ]
+    },
+    {
+      "title_en": "AI Lessons from Driving 200M Autonomous Miles",
+      "url": "https://waymo.com/blog/2026/08/10ailessons/",
+      "title_zh": "从行驶两亿英里的自动驾驶中学到的 AI 经验",
+      "created_display": "Created: Aug 26, 2026 / 09:46 PT",
+      "image_url": "https://lh3.googleusercontent.com/v_WTrt44FJl9OY1Abmur0c0_PNSo7lRq_6RJmrN0qzlyhHzr23VACBZmpIZ83tmo8InRzoRtPecMDiQH3vE3kt57OaI1VVPwbn7u",
+      "summary_en": "Waymo shares lessons from accumulating 200 million autonomous miles, including data quality practices, safety protocols, and real-world edge cases that inform AI system design.",
+      "summary_zh": "Waymo 分享了在实现 2 亿英里自动驾驶中的经验教训，包括数据质量、安全规范与真实世界边界情况，这些对于设计更鲁棒的 AI 系统具有实际意义。",
+      "hn": {
+        "id": 49452135,
+        "type": "story",
+        "by": "thecybernerd",
+        "score": 3,
+        "descendants": 0,
+        "time": 1787762793,
+        "comments_url": "https://news.ycombinator.com/item?id=49452135"
+      },
+      "hot_score": 0.11,
+      "tags": [
+        "AI"
+      ]
     },
     {
       "title_en": "Visualizing Binary Files",
@@ -1060,7 +1848,7 @@
       "tags": [
         "Data"
       ],
-      "hot_score": 0.12
+      "hot_score": 0.1
     },
     {
       "title_en": "Training AI to Paint with Code",
@@ -1082,7 +1870,7 @@
       "tags": [
         "AI"
       ],
-      "hot_score": 0.1
+      "hot_score": 0.09
     },
     {
       "title_en": "Show HN: I wrote a BASIC interpreter that boots on UEFI machines",
@@ -1105,7 +1893,7 @@
         "Show HN",
         "Programming"
       ],
-      "hot_score": 0.07
+      "hot_score": 0.06
     },
     {
       "title_en": "Stalking the Wily Hacker: 40 years later – Cliff Stoll [video]",
@@ -1119,15 +1907,38 @@
         "id": 49395802,
         "type": "story",
         "by": "zoenolan",
-        "score": 182,
-        "descendants": 52,
+        "score": 260,
+        "descendants": 85,
         "time": 1787363544,
         "comments_url": "https://news.ycombinator.com/item?id=49395802"
       },
       "tags": [
         "Security"
       ],
-      "hot_score": 0.04
+      "hot_score": 0.05
+    },
+    {
+      "title_en": "Hot in Here: Heat Waves, Climate Change, and Disability",
+      "url": "https://crystalprestonwatson.com/2026/08/23/hot-in-here-heat-waves-climate-change-and-disability-2/",
+      "title_zh": "热在这里：热浪、气候变化与残障人士",
+      "created_display": "Created: Aug 26, 2026 / 05:30 PT",
+      "image_url": "https://crystalprestonwatson.com/wp-content/uploads/2026/08/pexels-fatih-turan-63325184-12413177-1024x683.jpg",
+      "summary_en": "A narrative linking heat waves, climate change, and disability, emphasizing accessibility and protection gaps for vulnerable groups. The piece advocates inclusive cooling solutions, emergency planning, and policy changes to ensure safety during extreme heat. It personalizes climate risk and argues for practical accommodations.",
+      "summary_zh": "将热浪、气候变化与残障人士联系在一起，强调对弱势群体的无障碍降温与保护差距。文章呼吁建立包容性降温方案、应急规划及相关政策变革，确保极端高温下的安全，并以具体案例凸显气候风险的现实性。",
+      "hn": {
+        "id": 49447860,
+        "type": "story",
+        "by": "speckx",
+        "score": 4,
+        "descendants": 0,
+        "time": 1787747457,
+        "comments_url": "https://news.ycombinator.com/item?id=49447860"
+      },
+      "hot_score": 0.05,
+      "tags": [
+        "Health",
+        "Politics"
+      ]
     }
   ]
 }

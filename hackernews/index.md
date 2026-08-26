@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>188</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>27690</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>185</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>186</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-08-26</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>188</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>27725</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>185</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>186</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-08-26</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='407' data-hn-time='1787749166'>
+<div class='hn-top-story-item' data-hn-score='664' data-hn-time='1787753330'>
 <span class='hn-top-story-rank'>1</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/26/top_stories_08262026#story-49448321'>AWS Acquires DuckDB</a>
- <a class='hn-top-story-link' href='https://ducklabs.com/news/2026/08/26/ducklabs-to-join-aws' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>AWS 收购 DuckDB</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 38</span> <span class='hn-top-story-score'>&#9650; 407</span> <span class='hn-top-story-comments'>&#128172; 93</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Data</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='141' data-hn-time='1787753330'>
-<span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/08/26/top_stories_08262026#story-49449507'>GLM-5.3-Flash</a>
  <a class='hn-top-story-link' href='https://z.ai/blog/glm-5.3-flash' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>GLM-5.3-Flash</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 25</span> <span class='hn-top-story-score'>&#9650; 141</span> <span class='hn-top-story-comments'>&#128172; 37</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 17</span> <span class='hn-top-story-score'>&#9650; 664</span> <span class='hn-top-story-comments'>&#128172; 308</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='170' data-hn-time='1787750912'>
+<div class='hn-top-story-item' data-hn-score='387' data-hn-time='1787760217'>
+<span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/26/top_stories_08262026#story-49451448'>Tim Curry has died</a>
+ <a class='hn-top-story-link' href='https://www.theguardian.com/film/2026/aug/26/tim-curry-dies-rocky-horror-show-stephen-king-it-legend-film' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>蒂姆·库里去世</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 17</span> <span class='hn-top-story-score'>&#9650; 387</span> <span class='hn-top-story-comments'>&#128172; 139</span> <span class='hn-top-story-tag'>Entertainment</span> <span class='hn-top-story-tag'>Culture</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='831' data-hn-time='1787749166'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/26/top_stories_08262026#story-49448819'>Meta reaches $16.68B settlement over social media harms to children</a>
- <a class='hn-top-story-link' href='https://www.reuters.com/world/us/meta-settles-with-us-states-over-social-media-harms-2026-08-26/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/26/top_stories_08262026#story-49448321'>AWS Acquires DuckLabs</a>
+ <a class='hn-top-story-link' href='https://ducklabs.com/news/2026/08/26/ducklabs-to-join-aws' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Meta 就儿童受社媒伤害问题达成166.8亿美元和解</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 20</span> <span class='hn-top-story-score'>&#9650; 170</span> <span class='hn-top-story-comments'>&#128172; 117</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>AWS 收购 DuckLabs</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 17</span> <span class='hn-top-story-score'>&#9650; 831</span> <span class='hn-top-story-comments'>&#128172; 237</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Startups</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='228' data-hn-time='1787748732'>
+<div class='hn-top-story-item' data-hn-score='197' data-hn-time='1787766142'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/26/top_stories_08262026#story-49448210'>Qwen3.8-Flash-Next: A New Architecture, Towards Ultimate Cost-Efficiency</a>
- <a class='hn-top-story-link' href='https://qwen.ai/blog?id=qwen3.8-flash-next' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/26/top_stories_08262026#story-49452990'>Tailcat</a>
+ <a class='hn-top-story-link' href='https://github.com/tailscale/tailcat' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Qwen3.8-Flash-Next：全新架构，向极致成本效率迈进</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 20</span> <span class='hn-top-story-score'>&#9650; 228</span> <span class='hn-top-story-comments'>&#128172; 73</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>Tailcat 项目</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 16</span> <span class='hn-top-story-score'>&#9650; 197</span> <span class='hn-top-story-comments'>&#128172; 32</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='310' data-hn-time='1787738695'>
+<div class='hn-top-story-item' data-hn-score='117' data-hn-time='1787768409'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/26/top_stories_08262026#story-49446422'>Z.ai confirms Ox Alpha is a new GLM-series model and will release its weights</a>
- <a class='hn-top-story-link' href='https://www.bloomberg.com/news/articles/2026-08-26/china-s-z-ai-made-ox-alpha-stealth-model-that-rivals-deepseek' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/26/top_stories_08262026#story-49453510'>Study Reveals UnitedHealth's Profit Margins Four Times What It Claimed [pdf]</a>
+ <a class='hn-top-story-link' href='https://insurancewatchdogcoalition.com/wp-content/uploads/2026/08/UHG-Profits-Study_August-2026.pdf' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Z.ai 确认 Ox Alpha 是新 GLM 系列模型，将发布权重</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 10</span> <span class='hn-top-story-score'>&#9650; 310</span> <span class='hn-top-story-comments'>&#128172; 117</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>研究揭示联合健康的利润率为其披露的四倍</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 13</span> <span class='hn-top-story-score'>&#9650; 117</span> <span class='hn-top-story-comments'>&#128172; 41</span> <span class='hn-top-story-tag'>Health</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='261' data-hn-time='1787733557'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='142' data-hn-time='1787766100'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/26/top_stories_08262026#story-49445727'>RAG Is Simpler Than You Think</a>
- <a class='hn-top-story-link' href='https://www.lighthousenewsletter.com/p/rag-is-simpler-than-you-think' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/26/top_stories_08262026#story-49452980'>An ongoing 3D-printer AGPL violation</a>
+ <a class='hn-top-story-link' href='https://lwn.net/SubscriberLink/1089390/46116614cc74b814/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>RAG 比你想象的更简单</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.0</span> <span class='hn-top-story-score'>&#9650; 261</span> <span class='hn-top-story-comments'>&#128172; 111</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>3D 打印机领域持续的 AGPL 许可证违规</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 142</span> <span class='hn-top-story-comments'>&#128172; 45</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1518' data-hn-time='1787680942'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='508' data-hn-time='1787748732'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/26/top_stories_08262026#story-49438052'>Dolly Parton has died</a>
- <a class='hn-top-story-link' href='https://www.theguardian.com/music/2026/aug/25/dolly-parton-country-singer-dead' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/26/top_stories_08262026#story-49448210'>Qwen3.8-Flash-Next</a>
+ <a class='hn-top-story-link' href='https://qwen.ai/blog?id=qwen3.8-flash-next' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>多莉·帕顿去世</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.5</span> <span class='hn-top-story-score'>&#9650; 1518</span> <span class='hn-top-story-comments'>&#128172; 231</span> <span class='hn-top-story-tag'>Entertainment</span> <span class='hn-top-story-tag'>Culture</span></div>
+<div class='hn-top-story-zh'>Qwen3.8-Flash-Next：全新架构，向极致成本效率迈进</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.9</span> <span class='hn-top-story-score'>&#9650; 508</span> <span class='hn-top-story-comments'>&#128172; 161</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='134' data-hn-time='1787741080'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='415' data-hn-time='1787750912'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/26/top_stories_08262026#story-49446748'>U.S. gov't moves to suppress pushback on data centers</a>
- <a class='hn-top-story-link' href='https://www.tomshardware.com/tech-industry/data-centers/u-s-govt-moves-to-suppress-pushback-on-data-centers-by-removing-requirements-for-public-input-on-pollution-epa-change-would-allow-air-pollution-permits-without-publicizing-them' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/26/top_stories_08262026#story-49448819'>Meta reaches $17B settlement over social media harms to children</a>
+ <a class='hn-top-story-link' href='https://www.reuters.com/world/us/meta-settles-with-us-states-over-social-media-harms-2026-08-26/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>美国政府推动压制数据中心的反对声音</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.3</span> <span class='hn-top-story-score'>&#9650; 134</span> <span class='hn-top-story-comments'>&#128172; 113</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>DevOps</span></div>
+<div class='hn-top-story-zh'>Meta 就儿童受社媒伤害问题达成166.8亿美元和解</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.2</span> <span class='hn-top-story-score'>&#9650; 415</span> <span class='hn-top-story-comments'>&#128172; 391</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1076' data-hn-time='1787677701'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='244' data-hn-time='1787756632'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/26/top_stories_08262026#story-49437283'>Nitter and XCancel receive cease and desist notices</a>
- <a class='hn-top-story-link' href='https://github.com/zedeus/nitter/issues/1442' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/26/top_stories_08262026#story-49450448'>Nebula Sans</a>
+ <a class='hn-top-story-link' href='https://www.nebulasans.com' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Nitter 与 XCancel 收到停止令通知</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 1076</span> <span class='hn-top-story-comments'>&#128172; 910</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>Nebula Sans 字体</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.9</span> <span class='hn-top-story-score'>&#9650; 244</span> <span class='hn-top-story-comments'>&#128172; 95</span> <span class='hn-top-story-tag'>Design</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='32' data-hn-time='1787750035'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='201' data-hn-time='1787757580'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/26/top_stories_08262026#story-49448560'>Wiped out: US faces surging toilet paper prices amid trade war with Canada</a>
- <a class='hn-top-story-link' href='https://www.theguardian.com/us-news/2026/aug/26/paper-product-toilet-paper-tariffs-us-canada' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/26/top_stories_08262026#story-49450722'>Disruption with Some GitHub Services</a>
+ <a class='hn-top-story-link' href='https://www.githubstatus.com/incidents/hcbtzksccj2f' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>因对加拿大的贸易战，美国厕纸价格急剧上扬</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 32</span> <span class='hn-top-story-comments'>&#128172; 11</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-zh'>部分 GitHub 服务中断</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.0</span> <span class='hn-top-story-score'>&#9650; 201</span> <span class='hn-top-story-comments'>&#128172; 112</span> <span class='hn-top-story-tag'>DevOps</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -140,7 +140,7 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 35 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-08-24 — 2026-08-26 <span class="hn-row-sep">·</span> 349 stories <span class="hn-row-sep">·</span> 3 days</span>
+<span class='hn-week-meta'>2026-08-24 — 2026-08-26 <span class="hn-row-sep">·</span> 384 stories <span class="hn-row-sep">·</span> 3 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/08/26/top_stories_08262026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>49</b> <span class="hn-row-sep">·</span> AI <b>10</b> <span class="hn-row-sep">·</span> Hardware <b>9</b></span>
+<span class='hn-row-detail'>All <b>84</b> <span class="hn-row-sep">·</span> AI <b>20</b> <span class="hn-row-sep">·</span> Politics <b>12</b></span>
 </a>
 </div>
 </div>
