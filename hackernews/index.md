@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>190</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>27940</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>186</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>188</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-08-28</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>190</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>27974</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>186</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>188</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-08-28</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='148' data-hn-time='1787916330'>
+<div class='hn-top-story-item' data-hn-score='304' data-hn-time='1787930413'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/28/top_stories_08282026#story-49477055'>Pentagon's blacklisting of Anthropic was unlawful, US judge rules</a>
- <a class='hn-top-story-link' href='https://www.reuters.com/legal/government/us-judge-blocks-pentagons-anthropic-blacklisting-2026-08-28/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/28/top_stories_08282026#story-49479878'>GLM-5.3 is now open-weight</a>
+ <a class='hn-top-story-link' href='https://twitter.com/Zai_org/status/2093354097122455713' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>五角大楼对 Anthropic 的黑名单被判违法</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 148</span> <span class='hn-top-story-comments'>&#128172; 45</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>GLM-5.3 已开源权重</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 16</span> <span class='hn-top-story-score'>&#9650; 304</span> <span class='hn-top-story-comments'>&#128172; 117</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='61' data-hn-time='1787917880'>
+<div class='hn-top-story-item' data-hn-score='466' data-hn-time='1787924560'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/28/top_stories_08282026#story-49477212'>OpenAI: Migrating to HTTPX2</a>
- <a class='hn-top-story-link' href='https://github.com/openai/openai-python/blob/main/httpx2.md' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/28/top_stories_08282026#story-49478340'>Get your Windows license refund</a>
+ <a class='hn-top-story-link' href='https://en.refund4freedom.org/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>OpenAI：迁移到 HTTPX2</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.4</span> <span class='hn-top-story-score'>&#9650; 61</span> <span class='hn-top-story-comments'>&#128172; 21</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>申请 Windows 许可证退款</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 15</span> <span class='hn-top-story-score'>&#9650; 466</span> <span class='hn-top-story-comments'>&#128172; 188</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='138' data-hn-time='1787907646'>
+<div class='hn-top-story-item' data-hn-score='570' data-hn-time='1787920336'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/28/top_stories_08282026#story-49476143'>Hilariously Fast Volume Computation with the Divergence Theorem</a>
- <a class='hn-top-story-link' href='https://alyssarosenzweig.ca/blog/hilariously-fast-volume-computation-with-the-divergence-theorem.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/28/top_stories_08282026#story-49477600'>“It works better in the app”</a>
+ <a class='hn-top-story-link' href='https://shkspr.mobi/blog/2026/08/it-works-better-in-the-app/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>用散度定理实现的极快体积计算</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.5</span> <span class='hn-top-story-score'>&#9650; 138</span> <span class='hn-top-story-comments'>&#128172; 30</span> <span class='hn-top-story-tag'>Science</span></div>
+<div class='hn-top-story-zh'>“在应用中效果更佳”</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 14</span> <span class='hn-top-story-score'>&#9650; 570</span> <span class='hn-top-story-comments'>&#128172; 373</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Design</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='204' data-hn-time='1787895767'>
+<div class='hn-top-story-item' data-hn-score='164' data-hn-time='1787930229'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/28/top_stories_08282026#story-49474786'>Sovereign Tech Agency invests €500k in Flatpak</a>
- <a class='hn-top-story-link' href='https://modal.cx/blog/announcing-flatpak-sta/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/28/top_stories_08282026#story-49479837'>GUIs should be fully keyboard-driven</a>
+ <a class='hn-top-story-link' href='https://ckardaris.com/blog/2026/08/28/keyboard-driven-guis.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Sovereign Tech Agency 投资 €500k 在 Flatpak</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 204</span> <span class='hn-top-story-comments'>&#128172; 117</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-zh'>GUI 应实现全键盘可用性</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.3</span> <span class='hn-top-story-score'>&#9650; 164</span> <span class='hn-top-story-comments'>&#128172; 106</span> <span class='hn-top-story-tag'>Design</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='828' data-hn-time='1787851077'>
+<div class='hn-top-story-item' data-hn-score='280' data-hn-time='1787921933'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/28/top_stories_08282026#story-49468083'>Saving 100 terabytes of memory by optimizing 1.1.1.1's DNS cache</a>
- <a class='hn-top-story-link' href='https://blog.cloudflare.com/dns-cache-memory-optimization-1111/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>通过优化 1.1.1.1 的 DNS 缓存节省 100 TB 内存</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 828</span> <span class='hn-top-story-comments'>&#128172; 245</span> <span class='hn-top-story-tag'>Data</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='18' data-hn-time='1787921933'>
-<span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/28/top_stories_08282026#story-49477854'>U.S. Sanctions Against the a/I Collective</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/28/top_stories_08282026#story-49477854'>U.S. sanctions against the A/I Collective</a>
  <a class='hn-top-story-link' href='https://www.inventati.org/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>美国对 a/I Collective 的制裁</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 18</span> <span class='hn-top-story-comments'>&#128172; 2</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.4</span> <span class='hn-top-story-score'>&#9650; 280</span> <span class='hn-top-story-comments'>&#128172; 246</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Legal</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1921' data-hn-time='1787793175'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='220' data-hn-time='1787923736'>
+<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/28/top_stories_08282026#story-49478178'>Htmx 4.0.0</a>
+ <a class='hn-top-story-link' href='https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Htmx 4.0.0 发布</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.5</span> <span class='hn-top-story-score'>&#9650; 220</span> <span class='hn-top-story-comments'>&#128172; 51</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Web</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='278' data-hn-time='1787920145'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/28/top_stories_08282026#story-49458161'>Nvidia agrees to acquire Hugging Face for $13B</a>
- <a class='hn-top-story-link' href='https://www.businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/28/top_stories_08282026#story-49477564'>Inception-style curved map for turn-by-turn directions</a>
+ <a class='hn-top-story-link' href='https://www.orbify.eu/demo/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>英伟达同意以130亿美元收购 Hugging Face</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.7</span> <span class='hn-top-story-score'>&#9650; 1921</span> <span class='hn-top-story-comments'>&#128172; 889</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>Inception 风格的曲线地图用于逐向导航</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.5</span> <span class='hn-top-story-score'>&#9650; 278</span> <span class='hn-top-story-comments'>&#128172; 98</span> <span class='hn-top-story-tag'>Design</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='13' data-hn-time='1787923307'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='99' data-hn-time='1787932726'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/28/top_stories_08282026#story-49478103'>EPA says power for data centers can sidestep pollution laws</a>
- <a class='hn-top-story-link' href='https://www.epa.gov/newsreleases/epa-issues-permitting-guidance-further-president-trumps-agenda-promoting-data-centers' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/28/top_stories_08282026#story-49480466'>Just the rumour of a bug is enough to find an exploit these days</a>
+ <a class='hn-top-story-link' href='https://anil.recoil.org/notes/rumour-is-the-exploit' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>EPA 表示数据中心的供电可规避污染法规</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.7</span> <span class='hn-top-story-score'>&#9650; 13</span> <span class='hn-top-story-comments'>&#128172; 1</span> <span class='hn-top-story-tag'>Energy</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>只凭传闻即可发现漏洞的时代</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.5</span> <span class='hn-top-story-score'>&#9650; 99</span> <span class='hn-top-story-comments'>&#128172; 32</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='707' data-hn-time='1787846218'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='145' data-hn-time='1787923263'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/28/top_stories_08282026#story-49466917'>Small Models Have Arrived</a>
- <a class='hn-top-story-link' href='https://calv.info/small-models-have-arrived' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/28/top_stories_08282026#story-49478091'>I used AWS cognito for a startup. I wouldn't do it again</a>
+ <a class='hn-top-story-link' href='https://joshkaramuth.com/blog/aws-cognito-authentication-startup-nightmare/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>小型模型已到来</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 707</span> <span class='hn-top-story-comments'>&#128172; 309</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>我在初创阶段用了 AWS Cognito，但不会再用</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 145</span> <span class='hn-top-story-comments'>&#128172; 110</span> <span class='hn-top-story-tag'>Startups</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='127' data-hn-time='1787898837'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='159' data-hn-time='1787917880'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/28/top_stories_08282026#story-49475079'>Luanti removed from Google Play due to baseless AI copyright notice</a>
- <a class='hn-top-story-link' href='https://blog.luanti.org/2026/08/27/luanti-dmca-tracer-ai/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/28/top_stories_08282026#story-49477212'>Migrating to HTTPX2</a>
+ <a class='hn-top-story-link' href='https://github.com/openai/openai-python/blob/main/httpx2.md' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Luanti 因无根据的 AI 版权通知被 Google Play 下架</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 127</span> <span class='hn-top-story-comments'>&#128172; 37</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Legal</span></div>
+<div class='hn-top-story-zh'>OpenAI：迁移到 HTTPX2</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 159</span> <span class='hn-top-story-comments'>&#128172; 70</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -140,7 +140,7 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 35 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-08-24 — 2026-08-28 <span class="hn-row-sep">·</span> 599 stories <span class="hn-row-sep">·</span> 5 days</span>
+<span class='hn-week-meta'>2026-08-24 — 2026-08-28 <span class="hn-row-sep">·</span> 633 stories <span class="hn-row-sep">·</span> 5 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/08/28/top_stories_08282026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>49</b> <span class="hn-row-sep">·</span> AI <b>15</b> <span class="hn-row-sep">·</span> Programming <b>11</b></span>
+<span class='hn-row-detail'>All <b>83</b> <span class="hn-row-sep">·</span> AI <b>24</b> <span class="hn-row-sep">·</span> Programming <b>17</b></span>
 </a>
 </div>
 </div>
