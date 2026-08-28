@@ -20,7 +20,7 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='440' data-hn-time='1787851077'>
+<div class='hn-top-story-item' data-hn-score='522' data-hn-time='1787851077'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -28,10 +28,10 @@ Sort:
  <a class='hn-top-story-link' href='https://blog.cloudflare.com/dns-cache-memory-optimization-1111/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>通过优化 1.1.1.1 的 DNS 缓存节省 100 TB 内存</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.6</span> <span class='hn-top-story-score'>&#9650; 440</span> <span class='hn-top-story-comments'>&#128172; 121</span> <span class='hn-top-story-tag'>DevOps</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.3</span> <span class='hn-top-story-score'>&#9650; 522</span> <span class='hn-top-story-comments'>&#128172; 142</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='404' data-hn-time='1787846218'>
+<div class='hn-top-story-item' data-hn-score='470' data-hn-time='1787846218'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -39,10 +39,10 @@ Sort:
  <a class='hn-top-story-link' href='https://calv.info/small-models-have-arrived' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>小型模型已到来</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.7</span> <span class='hn-top-story-score'>&#9650; 404</span> <span class='hn-top-story-comments'>&#128172; 183</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.3</span> <span class='hn-top-story-score'>&#9650; 470</span> <span class='hn-top-story-comments'>&#128172; 209</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='1813' data-hn-time='1787793175'>
+<div class='hn-top-story-item' data-hn-score='1830' data-hn-time='1787793175'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -50,84 +50,84 @@ Sort:
  <a class='hn-top-story-link' href='https://www.businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>英伟达同意以130亿美元收购 Hugging Face</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.8</span> <span class='hn-top-story-score'>&#9650; 1813</span> <span class='hn-top-story-comments'>&#128172; 852</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.9</span> <span class='hn-top-story-score'>&#9650; 1830</span> <span class='hn-top-story-comments'>&#128172; 857</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='462' data-hn-time='1787838569'>
+<div class='hn-top-story-item' data-hn-score='471' data-hn-time='1787839698'>
 <span class='hn-top-story-rank'>4</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/27/top_stories_08272026#story-49464896'>Trade (and Tariffs)</a>
- <a class='hn-top-story-link' href='https://xkcd.com/3290/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>贸易（与关税）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.4</span> <span class='hn-top-story-score'>&#9650; 462</span> <span class='hn-top-story-comments'>&#128172; 213</span> <span class='hn-top-story-tag'>Politics</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='97' data-hn-time='1787863311'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/27/top_stories_08272026#story-49470949'>Meta Paid $17B – Gets to Write Safety Rules for Other SocMedia Platform</a>
- <a class='hn-top-story-link' href='https://www.techdirt.com/2026/08/26/meta-just-paid-nearly-17-billion-to-make-sure-it-gets-to-write-the-kid-safety-rules-for-every-other-social-media-platform/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Meta 支付 170 亿美元后获得为其他社媒平台制定安全规则的权力</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.4</span> <span class='hn-top-story-score'>&#9650; 97</span> <span class='hn-top-story-comments'>&#128172; 11</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Politics</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='434' data-hn-time='1787839698'>
-<span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/08/27/top_stories_08272026#story-49465169'>507 Mechanical Movements</a>
  <a class='hn-top-story-link' href='https://507movements.com/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>507 种机械运动</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.3</span> <span class='hn-top-story-score'>&#9650; 434</span> <span class='hn-top-story-comments'>&#128172; 64</span> <span class='hn-top-story-tag'>Design</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.1</span> <span class='hn-top-story-score'>&#9650; 471</span> <span class='hn-top-story-comments'>&#128172; 67</span> <span class='hn-top-story-tag'>Design</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='64' data-hn-time='1787865515'>
-<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-item' data-hn-score='480' data-hn-time='1787838569'>
+<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/27/top_stories_08272026#story-49464896'>Trade (and Tariffs)</a>
+ <a class='hn-top-story-link' href='https://xkcd.com/3290/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>贸易（与关税）</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 480</span> <span class='hn-top-story-comments'>&#128172; 233</span> <span class='hn-top-story-tag'>Politics</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='106' data-hn-time='1787865515'>
+<span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/08/27/top_stories_08272026#story-49471407'>Show HN: We built open OpenRouter that turns usage into a better model</a>
  <a class='hn-top-story-link' href='https://github.com/experientiallabs/experiential' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Show HN：我们构建了开源 OpenRouter，将使用数据转化为更好模型</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.5</span> <span class='hn-top-story-score'>&#9650; 64</span> <span class='hn-top-story-comments'>&#128172; 6</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 106</span> <span class='hn-top-story-comments'>&#128172; 16</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Show HN</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='69' data-hn-time='1787863492'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/27/top_stories_08272026#story-49470996'>$900M paid out to end wind farm project going to firm run by Mar-a-Lago neighbor</a>
- <a class='hn-top-story-link' href='https://www.independent.co.uk/news/world/americas/us-politics/trump-windfarm-money-neighbors-florida-b3040628.html' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>9亿美元赔付给由马阿拉歌邻近的企业掌舵的风电项目</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 69</span> <span class='hn-top-story-comments'>&#128172; 16</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Energy</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='155' data-hn-time='1787853220'>
-<span class='hn-top-story-rank'>9</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/27/top_stories_08272026#story-49468642'>We found a division by zero bug in FFmpeg with a vibecoded fuzzer</a>
- <a class='hn-top-story-link' href='https://code.ffmpeg.org/FFmpeg/FFmpeg/issues/24290' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>我们在 FFmpeg 的 vibecoded fuzz 测试中发现除零错误</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 155</span> <span class='hn-top-story-comments'>&#128172; 120</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Security</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='471' data-hn-time='1787828276'>
-<span class='hn-top-story-rank'>10</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='513' data-hn-time='1787828276'>
+<span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/08/27/top_stories_08272026#story-49462763'>Microduck</a>
  <a class='hn-top-story-link' href='https://pollen-robotics.com/microduck/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Microduck</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.7</span> <span class='hn-top-story-score'>&#9650; 471</span> <span class='hn-top-story-comments'>&#128172; 177</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 513</span> <span class='hn-top-story-comments'>&#128172; 183</span> <span class='hn-top-story-tag'>Hardware</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='179' data-hn-time='1787853220'>
+<span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/27/top_stories_08272026#story-49468642'>We found a division by zero bug in FFmpeg with a vibecoded fuzzer</a>
+ <a class='hn-top-story-link' href='https://code.ffmpeg.org/FFmpeg/FFmpeg/issues/24290' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>我们在 FFmpeg 的 vibecoded fuzz 测试中发现除零错误</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 179</span> <span class='hn-top-story-comments'>&#128172; 139</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Programming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='66' data-hn-time='1787868647'>
+<span class='hn-top-story-rank'>9</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/27/top_stories_08272026#story-49471965'>Show HN: OpenTIE and OpenXWA, Modern Ports of Tie Fighter and X-Wing Alliance</a>
+ <a class='hn-top-story-link' href='https://github.com/elyosh/OpenTIE/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Show HN：OpenTIE 与 OpenXWA，现代移植的 Tie Fighter 与 X-Wing Alliance</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.7</span> <span class='hn-top-story-score'>&#9650; 66</span> <span class='hn-top-story-comments'>&#128172; 16</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Gaming</span> <span class='hn-top-story-tag'>Show HN</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='61' data-hn-time='1787869564'>
+<span class='hn-top-story-rank'>10</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/27/top_stories_08272026#story-49472090'>Doctors are finally learning to manage antidepressant withdrawal</a>
+ <a class='hn-top-story-link' href='https://www.newscientist.com/article/2584861-antidepressant-withdrawal-symptoms-are-prompting-a-radical-rethink-of-how-we-treat-depression/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>医生终于学会应对抗抑郁药戒断</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.7</span> <span class='hn-top-story-score'>&#9650; 61</span> <span class='hn-top-story-comments'>&#128172; 68</span> <span class='hn-top-story-tag'>Health</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/08/27/top_stories_08272026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>29</b> <span class="hn-row-sep">·</span> Programming <b>19</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>31</b> <span class="hn-row-sep">·</span> Programming <b>21</b></span>
 </a>
 </div>
 </div>
