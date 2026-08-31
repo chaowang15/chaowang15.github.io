@@ -4,21 +4,44 @@
     "source": "https://news.ycombinator.com/",
     "api": "https://github.com/HackerNews/API",
     "count_requested": 50,
-    "count_written": 49,
-    "reused_same_day": 0,
-    "reused_cross_day": 30,
-    "new_llm_enriched": 19,
-    "scrape_time_display": "00:57, August 31, 2026 (PDT)",
+    "count_written": 76,
+    "reused_same_day": 22,
+    "reused_cross_day": 0,
+    "new_llm_enriched": 27,
+    "scrape_time_display": "06:18, August 31, 2026 (PDT)",
     "timezone": "America/Los_Angeles",
     "date_dir": "2026/08/31",
     "content_date": "2026-08-31",
-    "run_time_local": "00:57, August 31, 2026 (PDT)",
-    "run_time_utc": "2026-08-31 07:57:54 UTC",
+    "run_time_local": "06:18, August 31, 2026 (PDT)",
+    "run_time_utc": "2026-08-31 13:18:32 UTC",
     "incremental": true,
     "stories_max": 100,
-    "hot_score_time_utc": "2026-08-31 08:00:14 UTC"
+    "hot_score_time_utc": "2026-08-31 13:20:39 UTC"
   },
   "items": [
+    {
+      "title_en": "OpenShot 4.0: Record, Edit, and Color Like Never Before",
+      "url": "https://www.openshot.org/blog/2026/08/30/openshot-40-record-edit-color-like-never-before/",
+      "title_zh": "OpenShot 4.0：全新錄製、剪輯與上色體驗",
+      "created_display": "Created: Aug 31, 2026 / 02:59 PT",
+      "image_url": "https://cdn.openshot.org/images/uploads/zinnia/2026/08/30/color-view.webp",
+      "summary_en": "OpenShot 4.0 introduces a major refresh to the open-source editor, adding built-in recording, faster editing, and enhanced color tools. The overhaul aims to streamline workflows for indie creators and improve stability, performance, and accessibility.",
+      "summary_zh": "OpenShot 4.0 为开源视频编辑器带来重大改动，新增直接录制、加速编辑与更强的色彩分级工具。此次改版提升工作流流畅性、稳定性与可访问性，尤其有利于独立创作者。",
+      "hn": {
+        "id": 49507822,
+        "type": "story",
+        "by": "metrofun",
+        "score": 207,
+        "descendants": 58,
+        "time": 1788170345,
+        "comments_url": "https://news.ycombinator.com/item?id=49507822"
+      },
+      "hot_score": 10.03,
+      "tags": [
+        "Open Source",
+        "Design"
+      ]
+    },
     {
       "title_en": "“I just chose words carefully”",
       "url": "https://unsung.aresluna.org/i-just-chose-words-carefully/",
@@ -31,15 +54,84 @@
         "id": 49503601,
         "type": "story",
         "by": "zdw",
-        "score": 673,
-        "descendants": 163,
+        "score": 951,
+        "descendants": 247,
         "time": 1788130188,
         "comments_url": "https://news.ycombinator.com/item?id=49503601"
       },
       "tags": [
         "Culture"
       ],
-      "hot_score": 8.72
+      "hot_score": 6.1
+    },
+    {
+      "title_en": "A CVE Dispute",
+      "url": "https://daniel.haxx.se/blog/2026/06/24/a-cve-dispute/",
+      "title_zh": "一个 CVE 的争议",
+      "created_display": "Created: Aug 31, 2026 / 04:13 PT",
+      "image_url": "https://daniel.haxx.se/blog/wp-content/uploads/2025/09/CVE.jpg",
+      "summary_en": "CVE dispute article examines a disagreement over vulnerability naming or assignment, highlighting how the CVE process handles ambiguity. It underscores how naming affects incident response and accountability.",
+      "summary_zh": "关于一个 CVE 的争议，分析对漏洞命名或分配的分歧，以及 CVE 体系如何处理歧义，强调命名对响应和问责的影响。",
+      "hn": {
+        "id": 49508290,
+        "type": "story",
+        "by": "theanonymousone",
+        "score": 74,
+        "descendants": 10,
+        "time": 1788174797,
+        "comments_url": "https://news.ycombinator.com/item?id=49508290"
+      },
+      "hot_score": 5.7,
+      "tags": [
+        "Security",
+        "Legal"
+      ]
+    },
+    {
+      "title_en": "I Think the Military Commissary's Freezers Were Hacked",
+      "url": "https://signalandsilence.substack.com/p/i-think-someone-hacked-the-commissary",
+      "title_zh": "军事供应处冷冻库疑似被黑客入侵",
+      "created_display": "Created: Aug 31, 2026 / 04:45 PT",
+      "image_url": null,
+      "summary_en": "Suggests the military commissary freezers were hacked, illustrating how everyday infrastructure can be a security choke point. The piece advocates stronger supply-chain and facility security measures.",
+      "summary_zh": "质疑军事供应处冷冻库被黑客入侵的说法，凸显日常基础设施也可能成为安全薄弱点。文章呼吁加强供应链与设施安全措施。",
+      "hn": {
+        "id": 49508506,
+        "type": "story",
+        "by": "jcurbo",
+        "score": 54,
+        "descendants": 39,
+        "time": 1788176748,
+        "comments_url": "https://news.ycombinator.com/item?id=49508506"
+      },
+      "hot_score": 5.33,
+      "tags": [
+        "Security",
+        "DevOps"
+      ]
+    },
+    {
+      "title_en": "Breaking Claude Code Opus 5 Auto Mode",
+      "url": "https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode/",
+      "title_zh": "揭秘 Claude Code Opus 5 的自动模式",
+      "created_display": "Created: Aug 31, 2026 / 00:49 PT",
+      "image_url": "https://embracethered.com/blog/images/2026/claude-automode/claude-auto-mode-rce.png",
+      "summary_en": "A detailed look at Claude Code Opus 5 Auto Mode reveals how automation is integrated into coding tasks, where it shines and where it trips up. The piece argues for stronger guardrails and better transparency as AI copilots scale.",
+      "summary_zh": "对 Claude Code Opus 5 的自动模式进行了深度解剖，展示了自动化在编码任务中的应用，以及优点与局限。作者呼吁在 AI 助手规模化时加强安全控制与透明度。",
+      "hn": {
+        "id": 49506819,
+        "type": "story",
+        "by": "Recursing",
+        "score": 159,
+        "descendants": 51,
+        "time": 1788162558,
+        "comments_url": "https://news.ycombinator.com/item?id=49506819"
+      },
+      "hot_score": 4.18,
+      "tags": [
+        "AI",
+        "Programming"
+      ]
     },
     {
       "title_en": "A 12TB Steam \"teraleak\" spills more than a decade of lost PC gaming history",
@@ -53,14 +145,85 @@
         "id": 49506182,
         "type": "story",
         "by": "WithinReason",
-        "score": 44,
-        "descendants": 4,
+        "score": 223,
+        "descendants": 37,
         "time": 1788156644,
         "comments_url": "https://news.ycombinator.com/item?id=49506182"
       },
-      "hot_score": 3.84,
       "tags": [
+        "Culture",
+        "Data",
         "Gaming"
+      ],
+      "hot_score": 4.12
+    },
+    {
+      "title_en": "The British state has lost the argument",
+      "url": "https://jonathancook.substack.com/p/the-british-state-has-lost-the-argument",
+      "title_zh": "英国政府在数字治理议题上的论辩力下降",
+      "created_display": "Created: Aug 31, 2026 / 05:13 PT",
+      "image_url": null,
+      "summary_en": "A political tech-analysis piece arguing the British state has lost the argument on a digital governance topic, signaling a shift in public opinion and policy leverage.",
+      "summary_zh": "分析称英国政府在一项数字治理议题上的论辩力已经下降，公众舆论与政策影响力的转变正在显现。",
+      "hn": {
+        "id": 49508715,
+        "type": "story",
+        "by": "hackandthink",
+        "score": 22,
+        "descendants": 2,
+        "time": 1788178398,
+        "comments_url": "https://news.ycombinator.com/item?id=49508715"
+      },
+      "hot_score": 2.7,
+      "tags": [
+        "Politics"
+      ]
+    },
+    {
+      "title_en": "Agent Memory as a File Format",
+      "url": "https://calpaterson.com/memoryfields.html",
+      "title_zh": "将 Agent Memory 作为一种文件格式",
+      "created_display": "Created: Aug 31, 2026 / 04:17 PT",
+      "image_url": "https://calpaterson.com/images/photo/kungfu.jpeg",
+      "summary_en": "The post proposes storing agent memory as a portable file format to persist state across sessions and enable sharing. It weighs tradeoffs around privacy, security, versioning, and interoperability with existing AI runtimes.",
+      "summary_zh": "提出将代理内存作为可移植的文件格式以跨会话持久化状态并实现共享，讨论隐私、安全、版本控制及与现有 AI 运行时的互操作性等取舍。",
+      "hn": {
+        "id": 49508317,
+        "type": "story",
+        "by": "ingve",
+        "score": 34,
+        "descendants": 27,
+        "time": 1788175045,
+        "comments_url": "https://news.ycombinator.com/item?id=49508317"
+      },
+      "hot_score": 2.66,
+      "tags": [
+        "Privacy",
+        "Security",
+        "AI"
+      ]
+    },
+    {
+      "title_en": "Apple Caught Off Guard by AI Demand for Mac Mini and Mac Studio",
+      "url": "https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/",
+      "title_zh": "苹果被 AI 需求冲击 Mac Mini 与 Mac Studio",
+      "created_display": "Created: Aug 31, 2026 / 05:41 PT",
+      "image_url": "https://images.macrumors.com/t/OsRlBLMFhQf-DlTIBvCnu2Opj54=/2500x/article-new/2026/04/Mac-mini-vs-Studio-Feature-Sans-Text-1.jpg",
+      "summary_en": "Apple reportedly faces unexpected demand for AI workloads pushing Mac Mini and Mac Studio beyond forecasted capacity, prompting questions about hardware supply and Apple's AI strategy.",
+      "summary_zh": "报道称 AI 需求意外拉升对 Mac Mini 与 Mac Studio 的需求，超过了公司预期，暴露出硬件供应与 AI 策略之间的紧张关系。文章讨论了消费级硬件在 AI 场景中的应用及对供应与定价的潜在影响。",
+      "hn": {
+        "id": 49508982,
+        "type": "story",
+        "by": "thm",
+        "score": 14,
+        "descendants": 4,
+        "time": 1788180082,
+        "comments_url": "https://news.ycombinator.com/item?id=49508982"
+      },
+      "hot_score": 2.24,
+      "tags": [
+        "AI",
+        "Hardware"
       ]
     },
     {
@@ -75,15 +238,16 @@
         "id": 49504625,
         "type": "story",
         "by": "gmays",
-        "score": 152,
-        "descendants": 50,
+        "score": 234,
+        "descendants": 127,
         "time": 1788139702,
         "comments_url": "https://news.ycombinator.com/item?id=49504625"
       },
-      "hot_score": 3.19,
       "tags": [
-        "AI"
-      ]
+        "AI",
+        "Programming"
+      ],
+      "hot_score": 2.05
     },
     {
       "title_en": "P99 0 ms* autocomplete for 240M domain names",
@@ -97,15 +261,38 @@
         "id": 49505219,
         "type": "story",
         "by": "dbalatero",
-        "score": 79,
-        "descendants": 34,
+        "score": 165,
+        "descendants": 70,
         "time": 1788146433,
         "comments_url": "https://news.ycombinator.com/item?id=49505219"
       },
-      "hot_score": 2.57,
       "tags": [
         "Programming",
+        "Data",
         "Hardware"
+      ],
+      "hot_score": 1.87
+    },
+    {
+      "title_en": "uv: Deduplicate all files in the wheel cache",
+      "url": "https://github.com/astral-sh/uv/pull/21327",
+      "title_zh": "uv：对 wheel 缓存中的所有文件进行去重",
+      "created_display": "Created: Aug 30, 2026 / 23:03 PT",
+      "image_url": "https://opengraph.githubassets.com/cf95b62d2cf51ead9bc215f71cace889069f139c8d213b08c6d33cb9c53d9f6e/astral-sh/uv/pull/21327",
+      "summary_en": "A PR proposes deduplicating all files in Python's wheel cache, saving disk space and reducing redundancy. The change helps environments with large dependency trees run more predictably.",
+      "summary_zh": "提交的 PR 提案对 wheel 缓存中的所有文件进行去重，节省磁盘空间、减少冗余。此举有助于大依赖环境下的可预测性与稳定性。",
+      "hn": {
+        "id": 49506142,
+        "type": "story",
+        "by": "tosh",
+        "score": 92,
+        "descendants": 28,
+        "time": 1788156182,
+        "comments_url": "https://news.ycombinator.com/item?id=49506142"
+      },
+      "hot_score": 1.65,
+      "tags": [
+        "Programming"
       ]
     },
     {
@@ -120,15 +307,16 @@
         "id": 49505310,
         "type": "story",
         "by": "doppp",
-        "score": 71,
-        "descendants": 72,
+        "score": 121,
+        "descendants": 141,
         "time": 1788147482,
         "comments_url": "https://news.ycombinator.com/item?id=49505310"
       },
-      "hot_score": 2.5,
       "tags": [
-        "AI"
-      ]
+        "AI",
+        "Security"
+      ],
+      "hot_score": 1.43
     },
     {
       "title_en": "European Commission Revives Push for Encryption Backdoors in ProtectEU Strategy",
@@ -151,28 +339,51 @@
         "Security",
         "Privacy"
       ],
-      "hot_score": 2.06
+      "hot_score": 1.31
     },
     {
-      "title_en": "Transfer files over an Ethernet patch cable",
-      "url": "https://maurycyz.com/misc/etherfiles/",
-      "title_zh": "通过以太网跳线直接传输文件",
-      "created_display": "Created: Aug 30, 2026 / 20:19 PT",
-      "image_url": null,
-      "summary_en": "Shows how to transfer files directly between machines using a regular Ethernet patch cable, bypassing switches and Wi‑Fi. It highlights simple, DIY networking possibilities, the need for a tiny transfer protocol, and the practical limits of speed and distance.",
-      "summary_zh": "演示如何通过普通以太网跳线在两台设备之间直接传输文件，省去交换机与无线路由等中介。展示了简易的DIY网络方案、所需的最小传输协议，以及速度与距离的现实限制。",
+      "title_en": "Creepy Crawlies",
+      "url": "https://people.kernel.org/monsieuricon/creepy-crawlies",
+      "title_zh": "令人毛骨悚然的爬虫",
+      "created_display": "Created: Aug 29, 2026 / 10:49 PT",
+      "image_url": "https://kaoti.ca/graphs/fig6-cpu-crawl-vs-clone.png",
+      "summary_en": "Creepy Crawlies",
+      "summary_zh": "简要地反思软件与系统中那些诡异、常被忽视的细节。",
       "hn": {
-        "id": 49505217,
+        "id": 49491791,
         "type": "story",
-        "by": "jllyhill",
-        "score": 62,
-        "descendants": 40,
-        "time": 1788146382,
-        "comments_url": "https://news.ycombinator.com/item?id=49505217"
+        "by": "zdw",
+        "score": 1254,
+        "descendants": 630,
+        "time": 1788025741,
+        "comments_url": "https://news.ycombinator.com/item?id=49491791"
       },
-      "hot_score": 2.0,
       "tags": [
-        "Hardware"
+        "Science"
+      ],
+      "hot_score": 1.3
+    },
+    {
+      "title_en": "What I Learned About AI Trust from Reconciling over 100B Transactions",
+      "url": "https://engineering.moniepoint.com/what-i-learned-about-ai-trust-from-reconciling",
+      "title_zh": "从对百亿笔交易对账中学到的 AI 信任经验",
+      "created_display": "Created: Aug 31, 2026 / 04:34 PT",
+      "image_url": "https://eu-west-2.graphassets.com/AxQ8YTi9LTCrOeR0pPuwfz/output=format:webp/cmnos8w199b6a07l4xeaanymg",
+      "summary_en": "Reconciling over 100 billion transactions reveals practical AI trust lessons: ensure data provenance, auditable decisions, and reliable models. The write-up argues governance patterns to avoid brittle deployments.",
+      "summary_zh": "对百亿级交易进行对账的过程揭示了实际的 AI 信任要点：数据来源可追溯、决策可审计，以及模型的可靠性。文中提出避免脆弱部署的治理模式。",
+      "hn": {
+        "id": 49508443,
+        "type": "story",
+        "by": "Cellz",
+        "score": 15,
+        "descendants": 13,
+        "time": 1788176068,
+        "comments_url": "https://news.ycombinator.com/item?id=49508443"
+      },
+      "hot_score": 1.28,
+      "tags": [
+        "AI",
+        "Data"
       ]
     },
     {
@@ -187,8 +398,8 @@
         "id": 49499867,
         "type": "story",
         "by": "metrofun",
-        "score": 306,
-        "descendants": 88,
+        "score": 343,
+        "descendants": 95,
         "time": 1788105670,
         "comments_url": "https://news.ycombinator.com/item?id=49499867"
       },
@@ -196,7 +407,7 @@
         "Open Source",
         "Hardware"
       ],
-      "hot_score": 1.68
+      "hot_score": 1.18
     },
     {
       "title_en": "California lawmakers unanimously pass Linux exemption from age-verification law",
@@ -216,32 +427,56 @@
         "comments_url": "https://news.ycombinator.com/item?id=49495372"
       },
       "tags": [
+        "Politics",
         "Legal",
         "Open Source"
       ],
-      "hot_score": 1.55
+      "hot_score": 1.16
     },
     {
-      "title_en": "Creepy Crawlies",
-      "url": "https://people.kernel.org/monsieuricon/creepy-crawlies",
-      "title_zh": "令人毛骨悚然的爬虫",
-      "created_display": "Created: Aug 29, 2026 / 10:49 PT",
-      "image_url": "https://kaoti.ca/graphs/fig6-cpu-crawl-vs-clone.png",
-      "summary_en": "Creepy Crawlies",
-      "summary_zh": "简要地反思软件与系统中那些诡异、常被忽视的细节。",
+      "title_en": "Malleable software = solid bases and custom code",
+      "url": "https://www.mdubakov.me/malleable-software-solid-bases-custom-code/",
+      "title_zh": "可塑性软件：扎实基础与定制代码并举",
+      "created_display": "Created: Aug 31, 2026 / 03:36 PT",
+      "image_url": "https://storage.ghost.io/c/c4/c6/c4c61cc9-7edd-4a33-857b-26f10fd22b0b/content/images/size/w1200/2026/08/malleable-software--1-.png",
+      "summary_en": "Argues that malleable software rests on solid foundational components and customizable layers, enabling rapid adaptation without sacrificing stability. Advocates modular architecture and clean boundaries between core and bespoke code.",
+      "summary_zh": "主张用稳固的基础组件搭配可定制层来构建可塑性软件，使得在快速适应新需求时仍能保持稳定性。提倡模块化架构与核心代码和定制代码之间的清晰边界。",
       "hn": {
-        "id": 49491791,
+        "id": 49508059,
         "type": "story",
-        "by": "zdw",
-        "score": 1095,
-        "descendants": 536,
-        "time": 1788025741,
-        "comments_url": "https://news.ycombinator.com/item?id=49491791"
+        "by": "tablet",
+        "score": 18,
+        "descendants": 6,
+        "time": 1788172603,
+        "comments_url": "https://news.ycombinator.com/item?id=49508059"
+      },
+      "hot_score": 1.04,
+      "tags": [
+        "Programming",
+        "Design"
+      ]
+    },
+    {
+      "title_en": "Matrox: Graphics for Professionals",
+      "url": "https://www.abortretry.fail/p/matrox",
+      "title_zh": "Matrox：面向专业用户的显卡解决方案",
+      "created_display": "Created: Aug 30, 2026 / 16:39 PT",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!BZkq!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fef60305f-5757-4f10-a492-3bad43ed4a34_640x879.jpeg",
+      "summary_en": "Profiles Matrox’s graphics hardware tailored for professionals, emphasizing reliability, multiple-monitor setups, and niche workloads like CAD and video walls. It contrasts with mainstream GPUs and explains where Matrox fits in pro pipelines.",
+      "summary_zh": "概述 Matrox 针对专业用户的图形硬件，强调稳定性、多显示器支持及 CAD/视频墙等专用应用场景，与主流显卡形成区分，并说明在专业工作流中的定位。",
+      "hn": {
+        "id": 49503934,
+        "type": "story",
+        "by": "BirAdam",
+        "score": 147,
+        "descendants": 48,
+        "time": 1788133175,
+        "comments_url": "https://news.ycombinator.com/item?id=49503934"
       },
       "tags": [
-        "Programming"
+        "Hardware"
       ],
-      "hot_score": 1.42
+      "hot_score": 1.03
     },
     {
       "title_en": "Europe's summer drought is so extreme that desertification is a growing threat",
@@ -263,50 +498,72 @@
       "tags": [
         "Science"
       ],
-      "hot_score": 1.41
+      "hot_score": 0.91
     },
     {
-      "title_en": "Matrox: Graphics for Professionals",
-      "url": "https://www.abortretry.fail/p/matrox",
-      "title_zh": "Matrox：面向专业用户的显卡解决方案",
-      "created_display": "Created: Aug 30, 2026 / 16:39 PT",
-      "image_url": "https://substackcdn.com/image/fetch/$s_!BZkq!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fef60305f-5757-4f10-a492-3bad43ed4a34_640x879.jpeg",
-      "summary_en": "Profiles Matrox’s graphics hardware tailored for professionals, emphasizing reliability, multiple-monitor setups, and niche workloads like CAD and video walls. It contrasts with mainstream GPUs and explains where Matrox fits in pro pipelines.",
-      "summary_zh": "概述 Matrox 针对专业用户的图形硬件，强调稳定性、多显示器支持及 CAD/视频墙等专用应用场景，与主流显卡形成区分，并说明在专业工作流中的定位。",
+      "title_en": "How to build a diffusion language model",
+      "url": "https://kuleshov-group.github.io/blog/blog/2026/how-to-build-a-diffusion-language-model/",
+      "title_zh": "如何构建扩散式语言模型",
+      "created_display": "Created: Aug 30, 2026 / 16:41 PT",
+      "image_url": "https://kuleshov-group.github.io/blog/assets/img/ar-diffusion-comparison.png",
+      "summary_en": "Presents an approach to building diffusion-based language models, covering data prep, model architecture, training, and sampling. Useful for researchers exploring non-autoregressive generative approaches.",
+      "summary_zh": "介绍了构建扩散式语言模型的思路，包括数据准备、模型结构、训练和采样等要点，适用于探索非自回归生成方法的研究者。",
       "hn": {
-        "id": 49503934,
+        "id": 49503956,
         "type": "story",
-        "by": "BirAdam",
-        "score": 89,
-        "descendants": 27,
-        "time": 1788133175,
-        "comments_url": "https://news.ycombinator.com/item?id=49503934"
+        "by": "volodia",
+        "score": 127,
+        "descendants": 16,
+        "time": 1788133292,
+        "comments_url": "https://news.ycombinator.com/item?id=49503956"
       },
-      "hot_score": 1.31,
       "tags": [
-        "Hardware"
+        "AI"
+      ],
+      "hot_score": 0.89
+    },
+    {
+      "title_en": "DeepSeek-V4-Flash-Vision-Exp",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+      "title_zh": "DeepSeek-V4-Flash Vision 实验",
+      "created_display": "Created: Aug 31, 2026 / 04:25 PT",
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp.png",
+      "summary_en": "Introduces a DeepSeek-V4-Flash-Vision-Exp, showcasing a vision system experiment with fast inference and novel modalities.",
+      "summary_zh": "介绍 DeepSeek-V4-Flash Vision 实验，展示在快速推理和新型视觉任务上的潜力。",
+      "hn": {
+        "id": 49508372,
+        "type": "story",
+        "by": "amulyabaral",
+        "score": 11,
+        "descendants": 2,
+        "time": 1788175509,
+        "comments_url": "https://news.ycombinator.com/item?id=49508372"
+      },
+      "hot_score": 0.85,
+      "tags": [
+        "AI"
       ]
     },
     {
-      "title_en": "Internet centralization and the original sin of NAT",
-      "url": "https://dreamstation.systems/personal/ntppost.html",
-      "title_zh": "互联网集中化与 NAT 的原罪",
-      "created_display": "Created: Aug 30, 2026 / 19:23 PT",
-      "image_url": "https://dreamstation.systems/personal/my%20shitty%20Pangram%20100%25%20Human%20badge.png",
-      "summary_en": "Argues that NAT contributed to internet centralization by complicating end-to-end connectivity; discusses IPv6, alternative networking ideas, and the trade-offs between NAT practicality and openness.",
-      "summary_zh": "论述 NAT 如何通过破坏端到端连通性推动互联网的集中化，讨论 IPv6 等解决方案以及 NAT 的实用性与开放性之间的权衡。",
+      "title_en": "Early 2000s were peak of humanity",
+      "url": "https://lukaszkups.net/notes/early-2000s-were-peak-of-humanity/",
+      "title_zh": "2000 年代初期是人类文明的巅峰",
+      "created_display": "Created: Aug 31, 2026 / 02:01 PT",
+      "image_url": null,
+      "summary_en": "An opinion arguing the early 2000s represented humanity's peak in terms of culture, tech, and internet sensations, with reflections on nostalgia versus progress.",
+      "summary_zh": "一篇观点文章认为 2000 年代初期是人类文明的巅峰，反思怀旧与科技进步之间的关系。",
       "hn": {
-        "id": 49504905,
+        "id": 49507334,
         "type": "story",
-        "by": "robinpie",
-        "score": 47,
-        "descendants": 27,
-        "time": 1788142983,
-        "comments_url": "https://news.ycombinator.com/item?id=49504905"
+        "by": "lukaszkups",
+        "score": 24,
+        "descendants": 20,
+        "time": 1788166912,
+        "comments_url": "https://news.ycombinator.com/item?id=49507334"
       },
-      "hot_score": 1.19,
+      "hot_score": 0.83,
       "tags": [
-        "Web"
+        "Culture"
       ]
     },
     {
@@ -327,9 +584,33 @@
         "comments_url": "https://news.ycombinator.com/item?id=49497810"
       },
       "tags": [
-        "Hardware"
+        "Hardware",
+        "Design"
       ],
-      "hot_score": 1.13
+      "hot_score": 0.77
+    },
+    {
+      "title_en": "I built a hardware-bound local password vault hidden in a photo",
+      "url": "https://blindlock.app/en/",
+      "title_zh": "隐藏在照片中的硬件绑定本地密码库",
+      "created_display": "Created: Aug 31, 2026 / 03:58 PT",
+      "image_url": "https://blindlock.app/assets/og-card.png?v=9fb9d40a295b",
+      "summary_en": "Describes a hardware-bound local password vault hidden in a photo, blending physical security with cryptography to reduce leakage. It discusses threat models and practical deployment hurdles.",
+      "summary_zh": "介绍一个硬件绑定的本地密码库，藏在照片中的实现，结合物理安全与加密技术以降低信息泄露风险。讨论威胁建模与落地挑战。",
+      "hn": {
+        "id": 49508206,
+        "type": "story",
+        "by": "BlindLock",
+        "score": 12,
+        "descendants": 5,
+        "time": 1788173901,
+        "comments_url": "https://news.ycombinator.com/item?id=49508206"
+      },
+      "hot_score": 0.77,
+      "tags": [
+        "Hardware",
+        "Security"
+      ]
     },
     {
       "title_en": "METR and Redwood Offer Holy %^ Postmortem of the HuggingFace Hack",
@@ -352,75 +633,29 @@
         "Security",
         "Open Source"
       ],
-      "hot_score": 1.12
+      "hot_score": 0.73
     },
     {
-      "title_en": "How to build a diffusion language model",
-      "url": "https://kuleshov-group.github.io/blog/blog/2026/how-to-build-a-diffusion-language-model/",
-      "title_zh": "如何构建扩散式语言模型",
-      "created_display": "Created: Aug 30, 2026 / 16:41 PT",
-      "image_url": "https://kuleshov-group.github.io/blog/assets/img/ar-diffusion-comparison.png",
-      "summary_en": "Presents an approach to building diffusion-based language models, covering data prep, model architecture, training, and sampling. Useful for researchers exploring non-autoregressive generative approaches.",
-      "summary_zh": "介绍了构建扩散式语言模型的思路，包括数据准备、模型结构、训练和采样等要点，适用于探索非自回归生成方法的研究者。",
+      "title_en": "Transfer files over an Ethernet patch cable",
+      "url": "https://maurycyz.com/misc/etherfiles/",
+      "title_zh": "通过以太网跳线直接传输文件",
+      "created_display": "Created: Aug 30, 2026 / 20:19 PT",
+      "image_url": null,
+      "summary_en": "Shows how to transfer files directly between machines using a regular Ethernet patch cable, bypassing switches and Wi‑Fi. It highlights simple, DIY networking possibilities, the need for a tiny transfer protocol, and the practical limits of speed and distance.",
+      "summary_zh": "演示如何通过普通以太网跳线在两台设备之间直接传输文件，省去交换机与无线路由等中介。展示了简易的DIY网络方案、所需的最小传输协议，以及速度与距离的现实限制。",
       "hn": {
-        "id": 49503956,
+        "id": 49505217,
         "type": "story",
-        "by": "volodia",
-        "score": 65,
-        "descendants": 5,
-        "time": 1788133292,
-        "comments_url": "https://news.ycombinator.com/item?id=49503956"
+        "by": "jllyhill",
+        "score": 62,
+        "descendants": 40,
+        "time": 1788146382,
+        "comments_url": "https://news.ycombinator.com/item?id=49505217"
       },
-      "hot_score": 0.96,
+      "hot_score": 0.69,
       "tags": [
-        "AI"
+        "Hardware"
       ]
-    },
-    {
-      "title_en": "Meta Security Researcher's AI Agent Accidentally Deleted Her Emails",
-      "url": "https://au.pcmag.com/ai/116091/meta-security-researchers-ai-agent-accidentally-deleted-her-emails",
-      "title_zh": "Meta 安全部门的 AI 代理不小心删除了她的电子邮件",
-      "created_display": "Created: Aug 31, 2026 / 00:23 PT",
-      "image_url": "https://sm.pcmag.com/t/pcmag_au/news/m/meta-secur/meta-security-researchers-ai-agent-accidentally-deleted-her_7uyw.1200.jpg",
-      "summary_en": "A Meta security researcher’s AI agent accidentally deleted her emails, underscoring the risks of automation in security workflows and the need for safeguards, logs, and containment when AI acts on sensitive data.",
-      "summary_zh": "Meta 安全部门的研究人员的 AI 代理意外删除了她的电子邮件，凸显安全工作流中自动化的风险及需要的日志、保护措施和数据容灾能力。",
-      "hn": {
-        "id": 49506655,
-        "type": "story",
-        "by": "Bluestein",
-        "score": 6,
-        "descendants": 2,
-        "time": 1788161027,
-        "comments_url": "https://news.ycombinator.com/item?id=49506655"
-      },
-      "hot_score": 0.89,
-      "tags": [
-        "AI",
-        "Security"
-      ]
-    },
-    {
-      "title_en": "Cores in space: The core memory module from a 1980 Spacelab computer",
-      "url": "https://www.righto.com/2026/08/spacelab-core-memory.html",
-      "title_zh": "太空中的核心记忆：来自 1980 年 Spacelab 计算机的核心内存模块",
-      "created_display": "Created: Aug 30, 2026 / 13:00 PT",
-      "image_url": "https://lh3.googleusercontent.com/blogger_img_proxy/AEn0k_ux8g5eIe89uiXA08MHC3EMMVqSTNHc6f94mim6Ham-XI5M_Nke_AqNKeIyuqWmxGPDLQuJjncj8Clav9F06CBudwsJO8XyZ-xj6Ol4aLg7rYlP_81m9A0cGjFhlz11IH3M01Y=w1200-h630-p-k-no-nu",
-      "summary_en": "Explores a magnetic core memory module recovered from a 1980 Spacelab computer, illustrating how early memory technology worked and why it mattered for aerospace reliability. The piece connects vintage hardware to contemporary memory concepts, highlighting lessons in durability and engineering trade-offs.",
-      "summary_zh": "讲述从 1980 年 Spacelab 计算机中回收的核心内存模块，展示早期内存技术的工作原理及其在航天领域的可靠性作用。文章将老派硬件与现代内存概念联系起来，强调耐用性和工程取舍的经验。",
-      "hn": {
-        "id": 49502214,
-        "type": "story",
-        "by": "pwg",
-        "score": 101,
-        "descendants": 17,
-        "time": 1788120025,
-        "comments_url": "https://news.ycombinator.com/item?id=49502214"
-      },
-      "tags": [
-        "Hardware",
-        "Space"
-      ],
-      "hot_score": 0.87
     },
     {
       "title_en": "Continuous Diffusion Language Models (CDLM's)",
@@ -434,15 +669,38 @@
         "id": 49502611,
         "type": "story",
         "by": "peter_d_sherman",
-        "score": 90,
-        "descendants": 34,
+        "score": 118,
+        "descendants": 40,
         "time": 1788122813,
         "comments_url": "https://news.ycombinator.com/item?id=49502611"
       },
       "tags": [
         "AI"
       ],
-      "hot_score": 0.85
+      "hot_score": 0.61
+    },
+    {
+      "title_en": "Cores in space: The core memory module from a 1980 Spacelab computer",
+      "url": "https://www.righto.com/2026/08/spacelab-core-memory.html",
+      "title_zh": "太空中的核心记忆：来自 1980 年 Spacelab 计算机的核心内存模块",
+      "created_display": "Created: Aug 30, 2026 / 13:00 PT",
+      "image_url": "https://lh3.googleusercontent.com/blogger_img_proxy/AEn0k_ux8g5eIe89uiXA08MHC3EMMVqSTNHc6f94mim6Ham-XI5M_Nke_AqNKeIyuqWmxGPDLQuJjncj8Clav9F06CBudwsJO8XyZ-xj6Ol4aLg7rYlP_81m9A0cGjFhlz11IH3M01Y=w1200-h630-p-k-no-nu",
+      "summary_en": "Explores a magnetic core memory module recovered from a 1980 Spacelab computer, illustrating how early memory technology worked and why it mattered for aerospace reliability. The piece connects vintage hardware to contemporary memory concepts, highlighting lessons in durability and engineering trade-offs.",
+      "summary_zh": "讲述从 1980 年 Spacelab 计算机中回收的核心内存模块，展示早期内存技术的工作原理及其在航天领域的可靠性作用。文章将老派硬件与现代内存概念联系起来，强调耐用性和工程取舍的经验。",
+      "hn": {
+        "id": 49502214,
+        "type": "story",
+        "by": "pwg",
+        "score": 123,
+        "descendants": 20,
+        "time": 1788120025,
+        "comments_url": "https://news.ycombinator.com/item?id=49502214"
+      },
+      "tags": [
+        "Hardware",
+        "Space"
+      ],
+      "hot_score": 0.59
     },
     {
       "title_en": "Coordination Headwind: How Organizations Are Like Slime Molds",
@@ -456,15 +714,62 @@
         "id": 49499891,
         "type": "story",
         "by": "rzk",
-        "score": 153,
-        "descendants": 45,
+        "score": 168,
+        "descendants": 48,
         "time": 1788105797,
         "comments_url": "https://news.ycombinator.com/item?id=49499891"
       },
       "tags": [
         "Business"
       ],
-      "hot_score": 0.84
+      "hot_score": 0.58
+    },
+    {
+      "title_en": "Study: Blue light impairs the eye's ability to distinguish fine detail most",
+      "url": "https://research.uga.edu/news/blue-light-has-a-surprising-effect-on-your-eyes-study-finds/",
+      "title_zh": "蓝光会削弱眼睛分辨细节能力的研究",
+      "created_display": "Created: Aug 31, 2026 / 01:33 PT",
+      "image_url": "https://research.uga.edu/news/wp-content/uploads/sites/19/2026/08/yaw-buabeng-1040x600-1.jpg",
+      "summary_en": "Blue light impairs the eye's ability to distinguish fine detail more than commonly assumed, with practical implications for display design and eye health. It suggests practical steps to reduce exposure, especially during late hours or precision tasks.",
+      "summary_zh": "研究发现蓝光对辨别细节能力的影响超出常规认知，给屏幕设计和眼部健康带来启示。研究建议在晚间和需要高细节判断的场景降低蓝光暴露。",
+      "hn": {
+        "id": 49507121,
+        "type": "story",
+        "by": "giuliomagnifico",
+        "score": 18,
+        "descendants": 14,
+        "time": 1788165181,
+        "comments_url": "https://news.ycombinator.com/item?id=49507121"
+      },
+      "hot_score": 0.54,
+      "tags": [
+        "Health",
+        "Science"
+      ]
+    },
+    {
+      "title_en": "Why open source rocks – a new SM750 (Silicon Motion GPU) HDMI Driver",
+      "url": "https://github.com/KodeMunkie/sm750hdmifb",
+      "title_zh": "开源为何很给力——新款 SM750 GPU 的 HDMI 驱动",
+      "created_display": "Created: Aug 30, 2026 / 11:49 PT",
+      "image_url": "https://opengraph.githubassets.com/a465f3e6cab5eaeb5673967fc3a940af439106e28c405d7dc91a764df3af6b10/KodeMunkie/sm750hdmifb",
+      "summary_en": "A new open-source HDMI driver for the SM750 GPU demonstrates how community-driven software can extend legacy hardware. It improves compatibility with modern Linux stacks and makes customization easier for hobbyists and device manufacturers.",
+      "summary_zh": "为 SM750 GPU 推出的开源 HDMI 驱动展示了社区驱动的软件如何延长旧硬件的生命。它提升了与现代内核的兼容性，并为爱好者和设备厂商带来更多定制空间。",
+      "hn": {
+        "id": 49501611,
+        "type": "story",
+        "by": "SillyUsername",
+        "score": 116,
+        "descendants": 40,
+        "time": 1788115748,
+        "comments_url": "https://news.ycombinator.com/item?id=49501611"
+      },
+      "tags": [
+        "Open Source",
+        "Programming",
+        "Hardware"
+      ],
+      "hot_score": 0.5
     },
     {
       "title_en": "Startup Anti-Patterns",
@@ -484,55 +789,9 @@
         "comments_url": "https://news.ycombinator.com/item?id=49499831"
       },
       "tags": [
-        "Startups",
-        "Business"
+        "Startups"
       ],
-      "hot_score": 0.79
-    },
-    {
-      "title_en": "Why open source rocks – a new SM750 (Silicon Motion GPU) HDMI Driver",
-      "url": "https://github.com/KodeMunkie/sm750hdmifb",
-      "title_zh": "开源为何很给力——新款 SM750 GPU 的 HDMI 驱动",
-      "created_display": "Created: Aug 30, 2026 / 11:49 PT",
-      "image_url": "https://opengraph.githubassets.com/a465f3e6cab5eaeb5673967fc3a940af439106e28c405d7dc91a764df3af6b10/KodeMunkie/sm750hdmifb",
-      "summary_en": "A new open-source HDMI driver for the SM750 GPU demonstrates how community-driven software can extend legacy hardware. It improves compatibility with modern Linux stacks and makes customization easier for hobbyists and device manufacturers.",
-      "summary_zh": "为 SM750 GPU 推出的开源 HDMI 驱动展示了社区驱动的软件如何延长旧硬件的生命。它提升了与现代内核的兼容性，并为爱好者和设备厂商带来更多定制空间。",
-      "hn": {
-        "id": 49501611,
-        "type": "story",
-        "by": "SillyUsername",
-        "score": 102,
-        "descendants": 36,
-        "time": 1788115748,
-        "comments_url": "https://news.ycombinator.com/item?id=49501611"
-      },
-      "tags": [
-        "Open Source",
-        "Hardware"
-      ],
-      "hot_score": 0.75
-    },
-    {
-      "title_en": "Claude Code reduces it's weekly limit by 17% – compared to today",
-      "url": "https://twitter.com/ClaudeDevs/status/2093742322525810912",
-      "title_zh": "Claude Code 的每周额度下降了 17%",
-      "created_display": "Created: Aug 31, 2026 / 00:02 PT",
-      "image_url": "https://pbs.twimg.com/profile_images/2044472418815893504/xf14RxM8_200x200.png",
-      "summary_en": "Claude Code lowers its weekly limit by 17% relative to today, affecting developers who rely on high quotas. The move prompts re-optimization of prompts, caching, and task batching to stay within limits.",
-      "summary_zh": "Claude Code 将每周额度相较于当前下降 17%，影响依赖高额度的开发者。需要通过优化提示、缓存与批处理等方式应对新的配额约束。",
-      "hn": {
-        "id": 49506519,
-        "type": "story",
-        "by": "partsch",
-        "score": 6,
-        "descendants": 0,
-        "time": 1788159725,
-        "comments_url": "https://news.ycombinator.com/item?id=49506519"
-      },
-      "hot_score": 0.71,
-      "tags": [
-        "AI"
-      ]
+      "hot_score": 0.49
     },
     {
       "title_en": "Arbitrary code execution in QubesOS via copy-to-VM error reporting backchannel",
@@ -552,9 +811,54 @@
         "comments_url": "https://news.ycombinator.com/item?id=49496918"
       },
       "tags": [
-        "Security"
+        "Security",
+        "Open Source"
       ],
-      "hot_score": 0.68
+      "hot_score": 0.48
+    },
+    {
+      "title_en": "Internet centralization and the original sin of NAT",
+      "url": "https://dreamstation.systems/personal/ntppost.html",
+      "title_zh": "互联网集中化与 NAT 的原罪",
+      "created_display": "Created: Aug 30, 2026 / 19:23 PT",
+      "image_url": "https://dreamstation.systems/personal/my%20shitty%20Pangram%20100%25%20Human%20badge.png",
+      "summary_en": "Argues that NAT contributed to internet centralization by complicating end-to-end connectivity; discusses IPv6, alternative networking ideas, and the trade-offs between NAT practicality and openness.",
+      "summary_zh": "论述 NAT 如何通过破坏端到端连通性推动互联网的集中化，讨论 IPv6 等解决方案以及 NAT 的实用性与开放性之间的权衡。",
+      "hn": {
+        "id": 49504905,
+        "type": "story",
+        "by": "robinpie",
+        "score": 47,
+        "descendants": 27,
+        "time": 1788142983,
+        "comments_url": "https://news.ycombinator.com/item?id=49504905"
+      },
+      "hot_score": 0.46,
+      "tags": [
+        "Web"
+      ]
+    },
+    {
+      "title_en": "The startling 1960s theory that Stonehenge was a prehistoric computer",
+      "url": "https://www.bbc.com/culture/article/20260828-the-startling-1960s-theory-that-stonehenge-was-a-prehistoric-computer",
+      "title_zh": "1960年代震惊理论：巨石阵是史前计算机",
+      "created_display": "Created: Aug 31, 2026 / 02:57 PT",
+      "image_url": "https://ychef.files.bbci.co.uk/624x351/p0p6sgc2.jpg",
+      "summary_en": "Reports a provocative 1960s theory that Stonehenge was a prehistoric computer, outlining the evidence and why such ideas capture imagination. The piece situates the claim in the history of speculative archaeology.",
+      "summary_zh": "报道一项关于巨石阵是史前计算机的1960年代理论，概述证据与为何此类观点能引发想象力，并将其置于考古学的历史脉络中。",
+      "hn": {
+        "id": 49507810,
+        "type": "story",
+        "by": "dabinat",
+        "score": 10,
+        "descendants": 7,
+        "time": 1788170254,
+        "comments_url": "https://news.ycombinator.com/item?id=49507810"
+      },
+      "hot_score": 0.43,
+      "tags": [
+        "Science"
+      ]
     },
     {
       "title_en": "Longest Straight Line Paths on Water or Land on the Earth (2018)",
@@ -576,7 +880,30 @@
       "tags": [
         "Science"
       ],
-      "hot_score": 0.59
+      "hot_score": 0.42
+    },
+    {
+      "title_en": "ReactOS 0.4.16",
+      "url": "https://reactos.org/project-news/reactos-0416-released/",
+      "title_zh": "ReactOS 0.4.16 发布",
+      "created_display": "Created: Aug 31, 2026 / 01:13 PT",
+      "image_url": "https://reactos.org/sites/default/files/Mizu-Desktop.png",
+      "summary_en": "ReactOS 0.4.16 released, continuing effort to create a Windows-compatible open-source OS. The update likely includes bug fixes and minor features, reflecting the project's steady, long-running effort.",
+      "summary_zh": "ReactOS 0.4.16 发布，继续推进打造与 Windows 兼容的开源操作系统的长期项目。",
+      "hn": {
+        "id": 49506978,
+        "type": "story",
+        "by": "marttt",
+        "score": 13,
+        "descendants": 0,
+        "time": 1788164017,
+        "comments_url": "https://news.ycombinator.com/item?id=49506978"
+      },
+      "hot_score": 0.35,
+      "tags": [
+        "Open Source",
+        "Programming"
+      ]
     },
     {
       "title_en": "Zig: Pointer Stability for ArrayLists",
@@ -590,15 +917,15 @@
         "id": 49499095,
         "type": "story",
         "by": "tosh",
-        "score": 104,
-        "descendants": 65,
+        "score": 111,
+        "descendants": 74,
         "time": 1788100913,
         "comments_url": "https://news.ycombinator.com/item?id=49499095"
       },
       "tags": [
         "Programming"
       ],
-      "hot_score": 0.5
+      "hot_score": 0.34
     },
     {
       "title_en": "The Rise and Fall of Agent Civilizations",
@@ -620,7 +947,7 @@
       "tags": [
         "AI"
       ],
-      "hot_score": 0.41
+      "hot_score": 0.31
     },
     {
       "title_en": "Automating Immersive Reading",
@@ -640,9 +967,33 @@
         "comments_url": "https://news.ycombinator.com/item?id=49497854"
       },
       "tags": [
+        "Programming",
         "Web"
       ],
-      "hot_score": 0.38
+      "hot_score": 0.26
+    },
+    {
+      "title_en": "Show HN: Floe – an open-source plugin for sample libraries – CLAP/VST3/AU",
+      "url": "https://floe.audio/",
+      "title_zh": "Show HN：Floe，面向采样库的开源插件，支持 CLAP/VST3/AU",
+      "created_display": "Created: Aug 31, 2026 / 03:11 PT",
+      "image_url": "https://floe.audio/images/logo-light-mode.svg",
+      "summary_en": "Show HN highlights Floe, an open-source plugin that handles sample libraries and supports multiple plugin formats (CLAP/VST3/AU), enabling musicians to manage and audition samples more efficiently.",
+      "summary_zh": "Show HN 推介 Floe，开源的采样库插件，支持 CLAP、VST3 和 AU 格式，帮助音乐人高效管理和试音采样。",
+      "hn": {
+        "id": 49507908,
+        "type": "story",
+        "by": "windell",
+        "score": 6,
+        "descendants": 0,
+        "time": 1788171099,
+        "comments_url": "https://news.ycombinator.com/item?id=49507908"
+      },
+      "hot_score": 0.26,
+      "tags": [
+        "Show HN",
+        "Open Source"
+      ]
     },
     {
       "title_en": "FreeCORE TrueNAS Core – Continued",
@@ -664,7 +1015,99 @@
       "tags": [
         "Open Source"
       ],
-      "hot_score": 0.33
+      "hot_score": 0.25
+    },
+    {
+      "title_en": "The Universe as a Minified Bundle",
+      "url": "https://andrewarrow.dev/2026/moons/2/day/9/the-universe-as-a-minified-bundle/",
+      "title_zh": "把宇宙当成一个被最小化打包的 bundle",
+      "created_display": "Created: Aug 31, 2026 / 04:24 PT",
+      "image_url": "https://andrewarrow.dev/2026/moons/2/day/9/the-universe-as-a-minified-bundle/assets/og-image.png",
+      "summary_en": "Explores analogies between cosmology and code bundling, treating the universe as a compact bundle to illustrate ideas about complexity, packaging, and emergent structure.",
+      "summary_zh": "以将宇宙视作一个最小化打包的 bundle 为主题，探讨宇宙的复杂性、打包与涌现结构等跨领域类比。",
+      "hn": {
+        "id": 49508367,
+        "type": "story",
+        "by": "cs1996",
+        "score": 4,
+        "descendants": 1,
+        "time": 1788175470,
+        "comments_url": "https://news.ycombinator.com/item?id=49508367"
+      },
+      "hot_score": 0.25,
+      "tags": [
+        "Science"
+      ]
+    },
+    {
+      "title_en": "Libertix installs Linux with 3 mouse clicks for Windows users",
+      "url": "https://ekimia.fr/libertix/",
+      "title_zh": "Libertix 让 Windows 用户三次鼠标点击即可安装 Linux",
+      "created_display": "Created: Aug 31, 2026 / 02:04 PT",
+      "image_url": "https://ekimia.fr/wp-content/uploads/2026/08/libertix-0.2-p1.png",
+      "summary_en": "Libertix offers a three-click Linux installation experience for Windows users, simplifying dual-boot or replacement workflows.",
+      "summary_zh": "Libertix 为 Windows 用户提供三次鼠标点击即可安装 Linux 的简化流程，优化双系统或替代安装的体验。",
+      "hn": {
+        "id": 49507363,
+        "type": "story",
+        "by": "freechelmi",
+        "score": 7,
+        "descendants": 3,
+        "time": 1788167045,
+        "comments_url": "https://news.ycombinator.com/item?id=49507363"
+      },
+      "hot_score": 0.22,
+      "tags": [
+        "Design",
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "SK Hynix CEO sees memory chip shortage lasting until 2030",
+      "url": "https://www.sammyfans.com/2026/08/29/sk-hynix-ceo-sees-memory-chip-shortage-lasting-until-2030/",
+      "title_zh": "SK 海力士 CEO 预计记忆芯片短缺将持续至 2030 年",
+      "created_display": "Created: Aug 31, 2026 / 00:46 PT",
+      "image_url": "https://www.sammyfans.com/wp-content/uploads/2023/12/sk-hynix-ftrd-img-1000x576.jpg",
+      "summary_en": "SK Hynix CEO forecasts memory chip shortage persists until 2030, signaling sustained supply constraints and potential price pressure. This underscores how AI demand and legacy manufacturing cycles shape the semiconductor landscape.",
+      "summary_zh": "公司 CEO 预计记忆芯片短缺将持续至 2030 年，预示着产能受限的长期周期，以及 AI 需求带来的潜在压力。",
+      "hn": {
+        "id": 49506805,
+        "type": "story",
+        "by": "porridgeraisin",
+        "score": 7,
+        "descendants": 0,
+        "time": 1788162381,
+        "comments_url": "https://news.ycombinator.com/item?id=49506805"
+      },
+      "hot_score": 0.16,
+      "tags": [
+        "Business",
+        "AI",
+        "Hardware"
+      ]
+    },
+    {
+      "title_en": "State of the Map 2026: OpenStreetMap conference",
+      "url": "https://povesham.wordpress.com/2026/08/30/state-of-the-map-2026-openstreetmap-conference/",
+      "title_zh": "State of the Map 2026：OpenStreetMap 大会",
+      "created_display": "Created: Aug 31, 2026 / 01:57 PT",
+      "image_url": "https://povesham.wordpress.com/wp-content/uploads/2026/08/pxl_20260830_102126301-edited.jpg",
+      "summary_en": "State of the Map 2026 gathers OpenStreetMap community updates, talks on data quality, tooling, and governance. The event emphasizes community-driven mapping's role in emergencies, urban planning, and open data advocacy.",
+      "summary_zh": "State of the Map 2026 是 OpenStreetMap 大会，汇聚社区在数据质量、工具与治理方面的更新，强调开放数据在应急、城市规划与倡导中的作用。",
+      "hn": {
+        "id": 49507280,
+        "type": "story",
+        "by": "altilunium",
+        "score": 5,
+        "descendants": 0,
+        "time": 1788166655,
+        "comments_url": "https://news.ycombinator.com/item?id=49507280"
+      },
+      "hot_score": 0.14,
+      "tags": [
+        "Open Source",
+        "Data"
+      ]
     },
     {
       "title_en": "An implementation of Conway's Game of Life for Windows 3.1x and later",
@@ -686,29 +1129,74 @@
       "tags": [
         "Programming"
       ],
-      "hot_score": 0.2
+      "hot_score": 0.13
     },
     {
-      "title_en": "Are We Sixel Yet?",
-      "url": "https://www.arewesixelyet.com/",
-      "title_zh": "我们真的支持六像图像吗？Are We Sixel Yet?",
-      "created_display": "Created: Aug 30, 2026 / 13:56 PT",
-      "image_url": "https://www.arewesixelyet.com/img/favicon/%!s(<nil>).png",
-      "summary_en": "Reviews current status of sixel graphics support in terminals and tooling, detailing which terminals and environments support inline bitmap rendering in the console. Practical implications for developers who want lightweight graphics in the terminal.",
-      "summary_zh": "评估终端对六像素图像（sixel）的支持现状，列出哪些终端与工具支持控制台内联位图显示。为希望在终端实现轻量级图形的开发者提供实用洞见。",
+      "title_en": "Meta Security Researcher's AI Agent Accidentally Deleted Her Emails",
+      "url": "https://au.pcmag.com/ai/116091/meta-security-researchers-ai-agent-accidentally-deleted-her-emails",
+      "title_zh": "Meta 安全部门的 AI 代理不小心删除了她的电子邮件",
+      "created_display": "Created: Aug 31, 2026 / 00:23 PT",
+      "image_url": "https://sm.pcmag.com/t/pcmag_au/news/m/meta-secur/meta-security-researchers-ai-agent-accidentally-deleted-her_7uyw.1200.jpg",
+      "summary_en": "A Meta security researcher’s AI agent accidentally deleted her emails, underscoring the risks of automation in security workflows and the need for safeguards, logs, and containment when AI acts on sensitive data.",
+      "summary_zh": "Meta 安全部门的研究人员的 AI 代理意外删除了她的电子邮件，凸显安全工作流中自动化的风险及需要的日志、保护措施和数据容灾能力。",
       "hn": {
-        "id": 49502718,
+        "id": 49506655,
         "type": "story",
-        "by": "smasher164",
-        "score": 20,
-        "descendants": 8,
-        "time": 1788123394,
-        "comments_url": "https://news.ycombinator.com/item?id=49502718"
+        "by": "Bluestein",
+        "score": 6,
+        "descendants": 2,
+        "time": 1788161027,
+        "comments_url": "https://news.ycombinator.com/item?id=49506655"
       },
-      "hot_score": 0.19,
+      "hot_score": 0.12,
       "tags": [
-        "Programming"
+        "AI",
+        "Security"
       ]
+    },
+    {
+      "title_en": "Claude Code reduces it's weekly limit by 17% – compared to today",
+      "url": "https://twitter.com/ClaudeDevs/status/2093742322525810912",
+      "title_zh": "Claude Code 的每周额度下降了 17%",
+      "created_display": "Created: Aug 31, 2026 / 00:02 PT",
+      "image_url": "https://pbs.twimg.com/profile_images/2044472418815893504/xf14RxM8_200x200.png",
+      "summary_en": "Claude Code lowers its weekly limit by 17% relative to today, affecting developers who rely on high quotas. The move prompts re-optimization of prompts, caching, and task batching to stay within limits.",
+      "summary_zh": "Claude Code 将每周额度相较于当前下降 17%，影响依赖高额度的开发者。需要通过优化提示、缓存与批处理等方式应对新的配额约束。",
+      "hn": {
+        "id": 49506519,
+        "type": "story",
+        "by": "partsch",
+        "score": 6,
+        "descendants": 0,
+        "time": 1788159725,
+        "comments_url": "https://news.ycombinator.com/item?id=49506519"
+      },
+      "hot_score": 0.11,
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title_en": "My hobby of building miniatures and taking pretty pictures",
+      "url": "https://sandyuraz.com/blogs/tiny-cafe/",
+      "title_zh": "我的微型模型制作与美图摄影爱好",
+      "created_display": "Created: Aug 28, 2026 / 09:43 PT",
+      "image_url": "https://sandyuraz.com/blogs/tiny-cafe/preview.jpg",
+      "summary_en": "A personal blog chronicling the hobby of building miniature scenes and capturing them with photography. It shares setup tips, lighting ideas, and composition decisions that turn tiny models into striking images.",
+      "summary_zh": "个人博客记录了制作微型场景并用摄影记录的爱好，分享灯光、构图与拍摄设置等技巧，让小型模型也能拍出有冲击力的照片。",
+      "hn": {
+        "id": 49481141,
+        "type": "story",
+        "by": "thecsw",
+        "score": 218,
+        "descendants": 36,
+        "time": 1787935391,
+        "comments_url": "https://news.ycombinator.com/item?id=49481141"
+      },
+      "tags": [
+        "Culture"
+      ],
+      "hot_score": 0.1
     },
     {
       "title_en": "Berlin is being blackmailed by hackers",
@@ -731,7 +1219,97 @@
         "Security",
         "DevOps"
       ],
-      "hot_score": 0.15
+      "hot_score": 0.1
+    },
+    {
+      "title_en": "Are We Sixel Yet?",
+      "url": "https://www.arewesixelyet.com/",
+      "title_zh": "我们真的支持六像图像吗？Are We Sixel Yet?",
+      "created_display": "Created: Aug 30, 2026 / 13:56 PT",
+      "image_url": "https://www.arewesixelyet.com/img/favicon/%!s(<nil>).png",
+      "summary_en": "Reviews current status of sixel graphics support in terminals and tooling, detailing which terminals and environments support inline bitmap rendering in the console. Practical implications for developers who want lightweight graphics in the terminal.",
+      "summary_zh": "评估终端对六像素图像（sixel）的支持现状，列出哪些终端与工具支持控制台内联位图显示。为希望在终端实现轻量级图形的开发者提供实用洞见。",
+      "hn": {
+        "id": 49502718,
+        "type": "story",
+        "by": "smasher164",
+        "score": 20,
+        "descendants": 8,
+        "time": 1788123394,
+        "comments_url": "https://news.ycombinator.com/item?id=49502718"
+      },
+      "hot_score": 0.1,
+      "tags": [
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "All CERN accelerators now on the road to HiLumi",
+      "url": "https://home.cern/all-cern-accelerators-now-on-the-road-to-hilumi/",
+      "title_zh": "所有 CERN 加速器进入 HiLumi 升级路线",
+      "created_display": "Created: Aug 31, 2026 / 03:05 PT",
+      "image_url": "https://home.cern/wp-content/themes/cern/public/images/logo-white.svg",
+      "summary_en": "HiLumi upgrade program to increase luminosity of the LHC; project-wide roadmap indicates collaboration across accelerators.",
+      "summary_zh": "HiLumi 将提升大型强子对撞机的光度，覆盖整座设施的升级路线，体现跨装置协作。",
+      "hn": {
+        "id": 49507861,
+        "type": "story",
+        "by": "ilreb",
+        "score": 3,
+        "descendants": 0,
+        "time": 1788170734,
+        "comments_url": "https://news.ycombinator.com/item?id=49507861"
+      },
+      "hot_score": 0.1,
+      "tags": [
+        "Science"
+      ]
+    },
+    {
+      "title_en": "It takes 5 cloud services to hear my doorbell",
+      "url": "https://blog.vghaisas.com/rube-goldberg-doorbell/",
+      "title_zh": "要让我的门铃工作，需依赖5个云服务",
+      "created_display": "Created: Aug 28, 2026 / 08:34 PT",
+      "image_url": "https://blog.vghaisas.com/img/rube-goldberg-doorbell/doorbell-flowchart.png",
+      "summary_en": "Describes a chain of five cloud services required for a single doorbell to function, illustrating fragility and privacy concerns in consumer IoT. The piece advocates for thinking about edge vs cloud reliance and resilience in smart-home setups.",
+      "summary_zh": "讲述一个门铃功能背后需要依赖的五个云服务，揭示消费级物联网的脆弱性与隐私问题。讨论端边与云端的权衡，以及智能家居生态的鲁棒性。",
+      "hn": {
+        "id": 49480091,
+        "type": "story",
+        "by": "vghaisas",
+        "score": 203,
+        "descendants": 202,
+        "time": 1787931270,
+        "comments_url": "https://news.ycombinator.com/item?id=49480091"
+      },
+      "tags": [
+        "Privacy"
+      ],
+      "hot_score": 0.09
+    },
+    {
+      "title_en": "Show HN: NFC Energy-Harvesting PCB Business Card with an MCU",
+      "url": "https://wilsonharper.net/projects/businesscard/",
+      "title_zh": "Show HN：带 MCU 的 NFC 能量采集 PCB 名片",
+      "created_display": "Created: Aug 28, 2026 / 06:48 PT",
+      "image_url": "https://wilsonharper.net/assets/img/nfc/hero.jpg",
+      "summary_en": "A Show HN project that embeds an NFC energy-harvesting PCB into a business card powered by an MCU, enabling a self-contained smart card. It demonstrates ultra-low-power design and practical proof-of-concept for battery-free electronics.",
+      "summary_zh": "这是一个 Show HN 项目，将 NFC 能量采集的 PCB 嵌入名片，并通过 MCU 运行实现自供电的智能名片。展示了超低功耗设计以及无电池电子设备的实际原型。",
+      "hn": {
+        "id": 49478426,
+        "type": "story",
+        "by": "WilsonHarper",
+        "score": 196,
+        "descendants": 22,
+        "time": 1787924892,
+        "comments_url": "https://news.ycombinator.com/item?id=49478426"
+      },
+      "tags": [
+        "Show HN",
+        "Hardware",
+        "Energy"
+      ],
+      "hot_score": 0.09
     },
     {
       "title_en": "Casey Muratori – The Root of the Root of All Evil – BSC 2026 [video]",
@@ -753,53 +1331,74 @@
       "tags": [
         "Programming"
       ],
-      "hot_score": 0.09
-    },
-    {
-      "title_en": "Show HN: NFC Energy-Harvesting PCB Business Card with an MCU",
-      "url": "https://wilsonharper.net/projects/businesscard/",
-      "title_zh": "Show HN：带 MCU 的 NFC 能量采集 PCB 名片",
-      "created_display": "Created: Aug 28, 2026 / 06:48 PT",
-      "image_url": "https://wilsonharper.net/assets/img/nfc/hero.jpg",
-      "summary_en": "A Show HN project that embeds an NFC energy-harvesting PCB into a business card powered by an MCU, enabling a self-contained smart card. It demonstrates ultra-low-power design and practical proof-of-concept for battery-free electronics.",
-      "summary_zh": "这是一个 Show HN 项目，将 NFC 能量采集的 PCB 嵌入名片，并通过 MCU 运行实现自供电的智能名片。展示了超低功耗设计以及无电池电子设备的实际原型。",
-      "hn": {
-        "id": 49478426,
-        "type": "story",
-        "by": "WilsonHarper",
-        "score": 159,
-        "descendants": 16,
-        "time": 1787924892,
-        "comments_url": "https://news.ycombinator.com/item?id=49478426"
-      },
-      "tags": [
-        "Show HN",
-        "Hardware",
-        "Energy"
-      ],
       "hot_score": 0.08
     },
     {
-      "title_en": "It takes 5 cloud services to hear my doorbell",
-      "url": "https://blog.vghaisas.com/rube-goldberg-doorbell/",
-      "title_zh": "要让我的门铃工作，需依赖5个云服务",
-      "created_display": "Created: Aug 28, 2026 / 08:34 PT",
-      "image_url": "https://blog.vghaisas.com/img/rube-goldberg-doorbell/doorbell-flowchart.png",
-      "summary_en": "Describes a chain of five cloud services required for a single doorbell to function, illustrating fragility and privacy concerns in consumer IoT. The piece advocates for thinking about edge vs cloud reliance and resilience in smart-home setups.",
-      "summary_zh": "讲述一个门铃功能背后需要依赖的五个云服务，揭示消费级物联网的脆弱性与隐私问题。讨论端边与云端的权衡，以及智能家居生态的鲁棒性。",
+      "title_en": "Interviewing IBM's Christian Zoellin and Christian Jacobi",
+      "url": "https://chipsandcheese.com/p/hot-chips-2026-interviewing-ibms",
+      "title_zh": "采访 IBM 的 Christian Zoellin 与 Christian Jacobi",
+      "created_display": "Created: Aug 31, 2026 / 02:31 PT",
+      "image_url": "https://substackcdn.com/image/youtube/w_728,c_limit/9Ie_D66w-tY",
+      "summary_en": "Chips and Cheese interviews IBM researchers about hardware strategy, open hardware, or IBM's research directions.",
+      "summary_zh": "采访 IBM 的 Christian Zoellin 与 Christian Jacobi，讨论 IBM 的硬件战略、开放硬件及研究方向。",
       "hn": {
-        "id": 49480091,
+        "id": 49507657,
         "type": "story",
-        "by": "vghaisas",
-        "score": 130,
-        "descendants": 111,
-        "time": 1787931270,
-        "comments_url": "https://news.ycombinator.com/item?id=49480091"
+        "by": "rbanffy",
+        "score": 3,
+        "descendants": 0,
+        "time": 1788168701,
+        "comments_url": "https://news.ycombinator.com/item?id=49507657"
+      },
+      "hot_score": 0.08,
+      "tags": [
+        "Hardware",
+        "Open Source"
+      ]
+    },
+    {
+      "title_en": "Unlimited Codex, Inside ChatGPT",
+      "url": "https://github.com/devnoname120/codexify",
+      "title_zh": "Unlimited Codex，深入 ChatGPT",
+      "created_display": "Created: Aug 31, 2026 / 00:33 PT",
+      "image_url": "https://opengraph.githubassets.com/7b0421dded0a7b84f9c9af3a39e80668400a23ab47a2aee648dda7aa2b286f10/devnoname120/codexify",
+      "summary_en": "Explains how Codex features are integrated inside ChatGPT, enabling expansive code generation workflows and the tradeoffs with safety and control.",
+      "summary_zh": "解析 Codex 如何嵌入到 ChatGPT 中，带来更大规模的代码生成工作流，同时讨论安全与控制的权衡。",
+      "hn": {
+        "id": 49506714,
+        "type": "story",
+        "by": "Ey7NFZ3P0nzAe",
+        "score": 4,
+        "descendants": 0,
+        "time": 1788161585,
+        "comments_url": "https://news.ycombinator.com/item?id=49506714"
       },
       "hot_score": 0.07,
       "tags": [
-        "Privacy"
+        "AI"
       ]
+    },
+    {
+      "title_en": "Highlighting My Code Based on How Much I Care",
+      "url": "https://hank.bond/posts/highlighting-my-code-based-on-how-much-i-care/",
+      "title_zh": "按重要性高亮代码",
+      "created_display": "Created: Aug 28, 2026 / 15:29 PT",
+      "image_url": "https://hank.bond/generated/heroes/highlighting-my-code-based-on-how-much-i-care.png",
+      "summary_en": "Describes a personal approach to code readability by highlighting code blocks according to how much the author cares about them. The practice helps reviewers focus on critical logic, though it risks over-emphasis if overused.",
+      "summary_zh": "以对代码的重要性程度来高亮代码段，帮助读者聚焦核心逻辑。此做法便于重点审阅，但若使用过度也可能造成视觉噪音。",
+      "hn": {
+        "id": 49485020,
+        "type": "story",
+        "by": "hankbond",
+        "score": 95,
+        "descendants": 51,
+        "time": 1787956174,
+        "comments_url": "https://news.ycombinator.com/item?id=49485020"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 0.05
     },
     {
       "title_en": "When fruit is scarce, these monkeys hunt animals",
@@ -821,7 +1420,7 @@
       "tags": [
         "Science"
       ],
-      "hot_score": 0.06
+      "hot_score": 0.05
     },
     {
       "title_en": "Dad’s Custom Atari Peripherals",
@@ -835,8 +1434,8 @@
         "id": 49468126,
         "type": "story",
         "by": "rbanffy",
-        "score": 128,
-        "descendants": 16,
+        "score": 143,
+        "descendants": 18,
         "time": 1787851221,
         "comments_url": "https://news.ycombinator.com/item?id=49468126"
       },
@@ -844,28 +1443,6 @@
         "Hardware"
       ],
       "hot_score": 0.04
-    },
-    {
-      "title_en": "My hobby of building miniatures and taking pretty pictures",
-      "url": "https://sandyuraz.com/blogs/tiny-cafe/",
-      "title_zh": "我的微型模型制作与美图摄影爱好",
-      "created_display": "Created: Aug 28, 2026 / 09:43 PT",
-      "image_url": "https://sandyuraz.com/blogs/tiny-cafe/preview.jpg",
-      "summary_en": "A personal blog chronicling the hobby of building miniature scenes and capturing them with photography. It shares setup tips, lighting ideas, and composition decisions that turn tiny models into striking images.",
-      "summary_zh": "个人博客记录了制作微型场景并用摄影记录的爱好，分享灯光、构图与拍摄设置等技巧，让小型模型也能拍出有冲击力的照片。",
-      "hn": {
-        "id": 49481141,
-        "type": "story",
-        "by": "thecsw",
-        "score": 84,
-        "descendants": 13,
-        "time": 1787935391,
-        "comments_url": "https://news.ycombinator.com/item?id=49481141"
-      },
-      "hot_score": 0.04,
-      "tags": [
-        "Culture"
-      ]
     },
     {
       "title_en": "Electric rain can eat through metal",
@@ -901,35 +1478,13 @@
         "id": 49435285,
         "type": "story",
         "by": "speckx",
-        "score": 113,
-        "descendants": 43,
+        "score": 131,
+        "descendants": 44,
         "time": 1787669820,
         "comments_url": "https://news.ycombinator.com/item?id=49435285"
       },
       "tags": [
         "Programming"
-      ],
-      "hot_score": 0.02
-    },
-    {
-      "title_en": "Synchronisation and SMPTE timecode (time code)",
-      "url": "https://www.philrees.co.uk/articles/timecode.htm",
-      "title_zh": "同步与 SMPTE 时间码",
-      "created_display": "Created: Aug 27, 2026 / 21:58 PT",
-      "image_url": "https://www.philrees.co.uk/articles/pix/ts1wee.jpg",
-      "summary_en": "A deep dive into timecode synchronization, SMPTE standards, and their practical use in film, video, and live productions. It covers how timecode coordinates multi-camera shoots and post-production workflows.",
-      "summary_zh": "深入解读时间码与 SMPTE 标准，以及在影视与现场制作中的实际应用，如何用于多机位拍摄的同步与后期工作流。",
-      "hn": {
-        "id": 49474515,
-        "type": "story",
-        "by": "sublinear",
-        "score": 43,
-        "descendants": 16,
-        "time": 1787893114,
-        "comments_url": "https://news.ycombinator.com/item?id=49474515"
-      },
-      "tags": [
-        "Entertainment"
       ],
       "hot_score": 0.02
     },
@@ -956,6 +1511,51 @@
       "hot_score": 0.01
     },
     {
+      "title_en": "Relm4 makes developing beautiful cross-platform applications idiomatic",
+      "url": "https://relm4.org/",
+      "title_zh": "Relm4：让跨平台应用开发更自然的框架",
+      "created_display": "Created: Aug 26, 2026 / 03:38 PT",
+      "image_url": "https://relm4.org/icons/relm4_logo.svg",
+      "summary_en": "Introduces Relm4 as a Rust-based toolkit that makes GUI development feel idiomatic, with a focus on declarative UI and message-driven architecture. It explains why Relm4 can simplify cross-platform apps compared with traditional toolkits.",
+      "summary_zh": "介绍 Relm4 这一用 Rust 编写、强调声明式 UI 和消息驱动的跨平台 GUI 框架。讨论它如何让跨平台应用开发变得更自然、简洁，并与传统工具包的差异。",
+      "hn": {
+        "id": 49446705,
+        "type": "story",
+        "by": "Bluestein",
+        "score": 56,
+        "descendants": 30,
+        "time": 1787740736,
+        "comments_url": "https://news.ycombinator.com/item?id=49446705"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 0.01
+    },
+    {
+      "title_en": "What 2000 Buried Underpants Revealed About Where Soil Is Most Alive",
+      "url": "https://studyfinds.com/what-2000-buried-underpants-revealed-about-where-soil-is-most-alive/",
+      "title_zh": "2000 条埋在地下的内裤揭示土壤最活跃的位置",
+      "created_display": "Created: Aug 27, 2026 / 04:47 PT",
+      "image_url": "https://studyfinds.com/wp-content/uploads/2026/08/Buried-Underwear.jpg",
+      "summary_en": "A quirky study used 2000 buried underwear to map soil microbial activity and life, revealing hotspots of soil biology affected by moisture, pH, and organic matter. The results shed light on soil health and land management implications.",
+      "summary_zh": "这项有趣的研究通过埋藏2000条内裤来绘制土壤微生物活性图，揭示受水分、pH值与有机质影响的土壤生物热点。研究为土壤健康与土地管理提供洞见。",
+      "hn": {
+        "id": 49463231,
+        "type": "story",
+        "by": "mdp2021",
+        "score": 55,
+        "descendants": 9,
+        "time": 1787831227,
+        "comments_url": "https://news.ycombinator.com/item?id=49463231"
+      },
+      "tags": [
+        "Science",
+        "Health"
+      ],
+      "hot_score": 0.01
+    },
+    {
       "title_en": "How would you know whether an ancient culture had zero?",
       "url": "https://www.johndcook.com/blog/2026/08/21/ancient-number-system/",
       "title_zh": "你如何判断一个古代文化是否有零？",
@@ -978,6 +1578,28 @@
       ]
     },
     {
+      "title_en": "Synchronisation and SMPTE timecode (time code)",
+      "url": "https://www.philrees.co.uk/articles/timecode.htm",
+      "title_zh": "同步与 SMPTE 时间码",
+      "created_display": "Created: Aug 27, 2026 / 21:58 PT",
+      "image_url": "https://www.philrees.co.uk/articles/pix/ts1wee.jpg",
+      "summary_en": "A deep dive into timecode synchronization, SMPTE standards, and their practical use in film, video, and live productions. It covers how timecode coordinates multi-camera shoots and post-production workflows.",
+      "summary_zh": "深入解读时间码与 SMPTE 标准，以及在影视与现场制作中的实际应用，如何用于多机位拍摄的同步与后期工作流。",
+      "hn": {
+        "id": 49474515,
+        "type": "story",
+        "by": "sublinear",
+        "score": 43,
+        "descendants": 16,
+        "time": 1787893114,
+        "comments_url": "https://news.ycombinator.com/item?id=49474515"
+      },
+      "tags": [
+        "Science"
+      ],
+      "hot_score": 0.01
+    },
+    {
       "title_en": "Commercially Available Bike Generators Are Not Sustainable (2011)",
       "url": "https://solar.lowtechmagazine.com/2011/05/bike-powered-electricity-generators-are-not-sustainable/",
       "title_zh": "市售自行车发电机并非可持续",
@@ -995,32 +1617,9 @@
         "comments_url": "https://news.ycombinator.com/item?id=49450461"
       },
       "tags": [
-        "Energy",
-        "Science"
+        "Energy"
       ],
       "hot_score": 0.01
-    },
-    {
-      "title_en": "Relm4 makes developing beautiful cross-platform applications idiomatic",
-      "url": "https://relm4.org/",
-      "title_zh": "Relm4：让跨平台应用开发更自然的框架",
-      "created_display": "Created: Aug 26, 2026 / 03:38 PT",
-      "image_url": "https://relm4.org/icons/relm4_logo.svg",
-      "summary_en": "Introduces Relm4 as a Rust-based toolkit that makes GUI development feel idiomatic, with a focus on declarative UI and message-driven architecture. It explains why Relm4 can simplify cross-platform apps compared with traditional toolkits.",
-      "summary_zh": "介绍 Relm4 这一用 Rust 编写、强调声明式 UI 和消息驱动的跨平台 GUI 框架。讨论它如何让跨平台应用开发变得更自然、简洁，并与传统工具包的差异。",
-      "hn": {
-        "id": 49446705,
-        "type": "story",
-        "by": "Bluestein",
-        "score": 33,
-        "descendants": 17,
-        "time": 1787740736,
-        "comments_url": "https://news.ycombinator.com/item?id=49446705"
-      },
-      "hot_score": 0.01,
-      "tags": [
-        "Programming"
-      ]
     },
     {
       "title_en": "Racter (1984)",
@@ -1045,28 +1644,6 @@
       ]
     },
     {
-      "title_en": "Highlighting My Code Based on How Much I Care",
-      "url": "https://hank.bond/posts/highlighting-my-code-based-on-how-much-i-care/",
-      "title_zh": "按重要性高亮代码",
-      "created_display": "Created: Aug 28, 2026 / 15:29 PT",
-      "image_url": "https://hank.bond/generated/heroes/highlighting-my-code-based-on-how-much-i-care.png",
-      "summary_en": "Describes a personal approach to code readability by highlighting code blocks according to how much the author cares about them. The practice helps reviewers focus on critical logic, though it risks over-emphasis if overused.",
-      "summary_zh": "以对代码的重要性程度来高亮代码段，帮助读者聚焦核心逻辑。此做法便于重点审阅，但若使用过度也可能造成视觉噪音。",
-      "hn": {
-        "id": 49485020,
-        "type": "story",
-        "by": "hankbond",
-        "score": 21,
-        "descendants": 4,
-        "time": 1787956174,
-        "comments_url": "https://news.ycombinator.com/item?id=49485020"
-      },
-      "hot_score": 0.01,
-      "tags": [
-        "Programming"
-      ]
-    },
-    {
       "title_en": "Quest for the Eternal Dock – Lambdock",
       "url": "https://jointhefreeworld.org/blog/articles/gnu-linux/quest-for-eternal-dock/index.html",
       "title_zh": "追寻永恒的 Dock——Lambdock",
@@ -1085,30 +1662,73 @@
       },
       "hot_score": 0.01,
       "tags": [
-        "DevOps"
+        "Programming"
       ]
     },
     {
-      "title_en": "What 2000 Buried Underpants Revealed About Where Soil Is Most Alive",
-      "url": "https://studyfinds.com/what-2000-buried-underpants-revealed-about-where-soil-is-most-alive/",
-      "title_zh": "2000 条埋在地下的内裤揭示土壤最活跃的位置",
-      "created_display": "Created: Aug 27, 2026 / 04:47 PT",
-      "image_url": "https://studyfinds.com/wp-content/uploads/2026/08/Buried-Underwear.jpg",
-      "summary_en": "A quirky study used 2000 buried underwear to map soil microbial activity and life, revealing hotspots of soil biology affected by moisture, pH, and organic matter. The results shed light on soil health and land management implications.",
-      "summary_zh": "这项有趣的研究通过埋藏2000条内裤来绘制土壤微生物活性图，揭示受水分、pH值与有机质影响的土壤生物热点。研究为土壤健康与土地管理提供洞见。",
+      "title_en": "Notes on Private Trackers",
+      "url": "https://www.jenn.site/notes-on-private-trackers/",
+      "title_zh": "私有追踪站笔记",
+      "created_display": "Created: Aug 26, 2026 / 08:00 PT",
+      "image_url": "https://www.jenn.site/static/og-image.png",
+      "summary_en": "Notes on private trackers offer a pragmatic look at how communities balance speed, moderation, and legality. The piece weighs benefits against risks and norms in private sharing ecosystems.",
+      "summary_zh": "私有追踪站笔记对社区如何在速度、监管与合规之间取得平衡进行了务实观察，权衡利弊与使用规范。",
       "hn": {
-        "id": 49463231,
+        "id": 49450382,
         "type": "story",
-        "by": "mdp2021",
-        "score": 4,
+        "by": "surprisetalk",
+        "score": 15,
         "descendants": 1,
-        "time": 1787831227,
-        "comments_url": "https://news.ycombinator.com/item?id=49463231"
+        "time": 1787756436,
+        "comments_url": "https://news.ycombinator.com/item?id=49450382"
       },
       "hot_score": 0.0,
       "tags": [
-        "Science",
-        "Health"
+        "Privacy"
+      ]
+    },
+    {
+      "title_en": "Formalization of the Solution to the Hopf Problem",
+      "url": "https://github.com/plby/HopfProblem",
+      "title_zh": "Hopf 问题解的形式化",
+      "created_display": "Created: Aug 27, 2026 / 09:04 PT",
+      "image_url": "https://opengraph.githubassets.com/b44bbb68f8dc7bb7873fdb43098c2e8c50d2fd534a42e4512c316bdfd542a302/plby/HopfProblem",
+      "summary_en": "Formalization of the Hopf problem solution likely relates to a mathematical breakthrough in topology or differential equations. The write-up probably details formal proofs, method, and implications for related math fields.",
+      "summary_zh": "对 Hopf 问题解的形式化工作进行解读，涉及拓扑/微分几何领域的证明思路与方法，以及对相关理论的意义。",
+      "hn": {
+        "id": 49467053,
+        "type": "story",
+        "by": "robinhouston",
+        "score": 14,
+        "descendants": 10,
+        "time": 1787846692,
+        "comments_url": "https://news.ycombinator.com/item?id=49467053"
+      },
+      "hot_score": 0.0,
+      "tags": [
+        "Science"
+      ]
+    },
+    {
+      "title_en": "Using floci to emulate Cloud platforms (GCP, AWS, Azure)",
+      "url": "https://flowg.cloud/blog/using-floci-local-emulators",
+      "title_zh": "使用 Floci 本地仿真云平台（GCP/AWS/Azure）",
+      "created_display": "Created: Aug 28, 2026 / 00:41 PT",
+      "image_url": "https://img.shields.io/github/v/release/link-society/flowg?style=social",
+      "summary_en": "Discusses using Floci to emulate cloud platforms locally, enabling offline development and testing for GCP, AWS, and Azure.",
+      "summary_zh": "介绍使用 Floci 本地仿真云平台（GCP/AWS/Azure），实现离线开发与测试。评估与真实云环境的差异、以及在教育和可复现实验中的潜在好处。",
+      "hn": {
+        "id": 49475568,
+        "type": "story",
+        "by": "linkdd",
+        "score": 12,
+        "descendants": 2,
+        "time": 1787902917,
+        "comments_url": "https://news.ycombinator.com/item?id=49475568"
+      },
+      "hot_score": 0.0,
+      "tags": [
+        "Programming"
       ]
     }
   ]
