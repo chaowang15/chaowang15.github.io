@@ -20,51 +20,51 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='199' data-hn-time='1788194831'>
+<div class='hn-top-story-item' data-hn-score='165' data-hn-time='1788210658'>
 <span class='hn-top-story-rank'>1</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/31/top_stories_08312026#story-49514878'>Google Has Removed MV2 Extensions from the Chrome Web Store, Including UBO</a>
+ <a class='hn-top-story-link' href='https://webiterate.dev/google-removed-extensions-ublock-origin-108/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>谷歌已从 Chrome 网上应用店移除 MV2 扩展，包括 UBO</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 20</span> <span class='hn-top-story-score'>&#9650; 165</span> <span class='hn-top-story-comments'>&#128172; 127</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='306' data-hn-time='1788194831'>
+<span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/08/31/top_stories_08312026#story-49511856'>I turned my security cameras into an automatic bird identification system</a>
  <a class='hn-top-story-link' href='https://jasontucker.blog/how-i-turned-my-security-cameras-into-an-automatic-bird-identification-system-with-birdnet-go/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>我把安防摄像头变成自动鸟类识别系统</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 199</span> <span class='hn-top-story-comments'>&#128172; 60</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.9</span> <span class='hn-top-story-score'>&#9650; 306</span> <span class='hn-top-story-comments'>&#128172; 85</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='342' data-hn-time='1788187946'>
-<span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-item' data-hn-score='432' data-hn-time='1788187946'>
+<span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/08/31/top_stories_08312026#story-49510514'>Playa Phone</a>
  <a class='hn-top-story-link' href='https://playaphone.com/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Playa Phone：隐私优先智能手机</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 10</span> <span class='hn-top-story-score'>&#9650; 342</span> <span class='hn-top-story-comments'>&#128172; 144</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.5</span> <span class='hn-top-story-score'>&#9650; 432</span> <span class='hn-top-story-comments'>&#128172; 167</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='65' data-hn-time='1788200493'>
-<span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-item' data-hn-score='149' data-hn-time='1788200493'>
+<span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/08/31/top_stories_08312026#story-49512975'>A walkable ASCII cyberpunk city in one HTML file [video]</a>
  <a class='hn-top-story-link' href='https://www.youtube.com/watch?v=3YtygAx_C6A' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>一个可步行的 ASCII 赛博朋克城市，仅用一个 HTML 文件 [视频]</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.6</span> <span class='hn-top-story-score'>&#9650; 65</span> <span class='hn-top-story-comments'>&#128172; 11</span> <span class='hn-top-story-tag'>Web</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.8</span> <span class='hn-top-story-score'>&#9650; 149</span> <span class='hn-top-story-comments'>&#128172; 26</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='106' data-hn-time='1788195155'>
-<span class='hn-top-story-rank'>4</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/31/top_stories_08312026#story-49511917'>Konrad Zuse Museum shutting down due to lack of funding</a>
- <a class='hn-top-story-link' href='https://www.heise.de/en/news/Zuse-Computer-Museum-ZCOM-in-Hoyerswerda-faces-closure-11344513.html' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>因资金短缺，康拉德·祖泽博物馆将关闭</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.8</span> <span class='hn-top-story-score'>&#9650; 106</span> <span class='hn-top-story-comments'>&#128172; 54</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Culture</span> <span class='hn-top-story-tag'>Open Source</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='468' data-hn-time='1788170345'>
+<div class='hn-top-story-item' data-hn-score='507' data-hn-time='1788170345'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -72,21 +72,21 @@ Sort:
  <a class='hn-top-story-link' href='https://www.openshot.org/blog/2026/08/30/openshot-40-record-edit-color-like-never-before/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>OpenShot 4.0：开源视频编辑器</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.4</span> <span class='hn-top-story-score'>&#9650; 468</span> <span class='hn-top-story-comments'>&#128172; 105</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 507</span> <span class='hn-top-story-comments'>&#128172; 116</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='97' data-hn-time='1788193176'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='142' data-hn-time='1788195155'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/31/top_stories_08312026#story-49511534'>ravynOS: Pre-alpha open-source OS based on Darwin, FreeBSD, Apple open-source</a>
- <a class='hn-top-story-link' href='https://ravynos.com/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/31/top_stories_08312026#story-49511917'>Konrad Zuse Museum shutting down due to lack of funding</a>
+ <a class='hn-top-story-link' href='https://www.heise.de/en/news/Zuse-Computer-Museum-ZCOM-in-Hoyerswerda-faces-closure-11344513.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>ravynOS：基于 Darwin、FreeBSD 与 Apple 开源组件的预铬开源操作系统</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.4</span> <span class='hn-top-story-score'>&#9650; 97</span> <span class='hn-top-story-comments'>&#128172; 72</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>因资金短缺，康拉德·祖泽博物馆将关闭</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.7</span> <span class='hn-top-story-score'>&#9650; 142</span> <span class='hn-top-story-comments'>&#128172; 68</span> <span class='hn-top-story-tag'>Culture</span> <span class='hn-top-story-tag'>Education</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1147' data-hn-time='1788130188'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1163' data-hn-time='1788130188'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -94,40 +94,40 @@ Sort:
  <a class='hn-top-story-link' href='https://unsung.aresluna.org/i-just-chose-words-carefully/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>我只是认真地挑选了措辞</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 1147</span> <span class='hn-top-story-comments'>&#128172; 335</span> <span class='hn-top-story-tag'>Culture</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 1163</span> <span class='hn-top-story-comments'>&#128172; 337</span> <span class='hn-top-story-tag'>Culture</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='68' data-hn-time='1788194192'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='134' data-hn-time='1788193176'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/31/top_stories_08312026#story-49511720'>You probably own this 7-Eleven (and that's why it looks so sad)</a>
- <a class='hn-top-story-link' href='https://www.thenewatlantis.com/publications/you-probably-own-this-7-eleven' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/31/top_stories_08312026#story-49511534'>ravynOS: Pre-alpha open-source OS based on Darwin, FreeBSD, Apple open-source</a>
+ <a class='hn-top-story-link' href='https://ravynos.com/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>你很可能拥有这家 7-Eleven，因此它看起来如此落寞</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 68</span> <span class='hn-top-story-comments'>&#128172; 69</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-zh'>ravynOS：基于 Darwin、FreeBSD 与 Apple 开源组件的预铬开源操作系统</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 134</span> <span class='hn-top-story-comments'>&#128172; 91</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='133' data-hn-time='1788185235'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='242' data-hn-time='1788180082'>
 <span class='hn-top-story-rank'>9</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/31/top_stories_08312026#story-49510000'>ChatGPT Work Tool and Skill Reference</a>
- <a class='hn-top-story-link' href='https://codex-tool-reference.simonw.chatgpt.site/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>ChatGPT 工作工具与技能参考</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 133</span> <span class='hn-top-story-comments'>&#128172; 45</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='157' data-hn-time='1788180082'>
-<span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/08/31/top_stories_08312026#story-49508982'>Apple caught off guard by AI demand for Mac Mini and Mac Studio</a>
  <a class='hn-top-story-link' href='https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>苹果被 AI 需求冲击 Mac Mini 与 Mac Studio</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 157</span> <span class='hn-top-story-comments'>&#128172; 185</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 242</span> <span class='hn-top-story-comments'>&#128172; 267</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='160' data-hn-time='1788185235'>
+<span class='hn-top-story-rank'>10</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/08/31/top_stories_08312026#story-49510000'>ChatGPT Work Tool and Skill Reference</a>
+ <a class='hn-top-story-link' href='https://codex-tool-reference.simonw.chatgpt.site/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>ChatGPT 工作工具与技能参考</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 160</span> <span class='hn-top-story-comments'>&#128172; 49</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/08/31/top_stories_08312026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>18</b> <span class="hn-row-sep">·</span> Hardware <b>17</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>20</b> <span class="hn-row-sep">·</span> AI <b>16</b></span>
 </a>
 </div>
 </div>
