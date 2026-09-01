@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>193</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>28484</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>190</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>191</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-08-31</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>194</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>28533</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>190</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>192</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-09-01</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,118 +20,118 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='433' data-hn-time='1788210658'>
+<div class='hn-top-story-item' data-hn-score='231' data-hn-time='1788231134'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/31/top_stories_08312026#story-49514878'>Google Has Removed MV2 Extensions from the Chrome Web Store, Including UBO</a>
- <a class='hn-top-story-link' href='https://webiterate.dev/google-removed-extensions-ublock-origin-108/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/01/top_stories_09012026#story-49517448'>Fastpotify</a>
+ <a class='hn-top-story-link' href='https://fastpotify.rocks/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>谷歌已从 Chrome 网上应用店移除 MV2 扩展，包括 UBO</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 19</span> <span class='hn-top-story-score'>&#9650; 433</span> <span class='hn-top-story-comments'>&#128172; 350</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>Fastpotify 极速版</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.6</span> <span class='hn-top-story-score'>&#9650; 231</span> <span class='hn-top-story-comments'>&#128172; 96</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='68' data-hn-time='1788216825'>
+<div class='hn-top-story-item' data-hn-score='651' data-hn-time='1788210658'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/31/top_stories_08312026#story-49515830'>Run macOS Software on Linux</a>
- <a class='hn-top-story-link' href='https://www.darlinghq.org/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/01/top_stories_09012026#story-49514878'>Google Has Removed MV2 Extensions from the Chrome Web Store, Including UBO</a>
+ <a class='hn-top-story-link' href='https://webiterate.dev/google-removed-extensions-ublock-origin-108/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>在 Linux 上运行 macOS 软件</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.5</span> <span class='hn-top-story-score'>&#9650; 68</span> <span class='hn-top-story-comments'>&#128172; 17</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>谷歌已从 Chrome 网上应用店移除 MV2 扩展，包括 UBO</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.5</span> <span class='hn-top-story-score'>&#9650; 651</span> <span class='hn-top-story-comments'>&#128172; 502</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='352' data-hn-time='1788194831'>
+<div class='hn-top-story-item' data-hn-score='51' data-hn-time='1788240776'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/31/top_stories_08312026#story-49511856'>I turned my security cameras into an automatic bird identification system</a>
- <a class='hn-top-story-link' href='https://jasontucker.blog/how-i-turned-my-security-cameras-into-an-automatic-bird-identification-system-with-birdnet-go/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/01/top_stories_09012026#story-49518316'>AI Can Make You Suck Faster Too</a>
+ <a class='hn-top-story-link' href='https://www.hermit-tech.com/blog/ai-can-make-you-suck-faster-too' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>我把安防摄像头变成自动鸟类识别系统</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.4</span> <span class='hn-top-story-score'>&#9650; 352</span> <span class='hn-top-story-comments'>&#128172; 92</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>AI 也会让你更快变糟</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.1</span> <span class='hn-top-story-score'>&#9650; 51</span> <span class='hn-top-story-comments'>&#128172; 38</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='479' data-hn-time='1788187946'>
+<div class='hn-top-story-item' data-hn-score='113' data-hn-time='1788232596'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/31/top_stories_08312026#story-49510514'>Playa Phone</a>
- <a class='hn-top-story-link' href='https://playaphone.com/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/01/top_stories_09012026#story-49517584'>GPU World</a>
+ <a class='hn-top-story-link' href='https://www.gpuworld.org/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Playa Phone：隐私优先智能手机</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.4</span> <span class='hn-top-story-score'>&#9650; 479</span> <span class='hn-top-story-comments'>&#128172; 177</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>GPU世界</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.7</span> <span class='hn-top-story-score'>&#9650; 113</span> <span class='hn-top-story-comments'>&#128172; 48</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='37' data-hn-time='1788219956'>
+<div class='hn-top-story-item' data-hn-score='83' data-hn-time='1788233028'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/31/top_stories_08312026#story-49516199'>Evidence of Fraud in an Influential Study About Procrastination</a>
- <a class='hn-top-story-link' href='https://datacolada.org/138' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/01/top_stories_09012026#story-49517624'>Restroom Archive</a>
+ <a class='hn-top-story-link' href='https://restroomarchive.com' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>有影响力的拖延研究曝出造假证据</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.6</span> <span class='hn-top-story-score'>&#9650; 37</span> <span class='hn-top-story-comments'>&#128172; 14</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Data</span></div>
+<div class='hn-top-story-zh'>厕所档案</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 83</span> <span class='hn-top-story-comments'>&#128172; 11</span> <span class='hn-top-story-tag'>Design</span> <span class='hn-top-story-tag'>Culture</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='191' data-hn-time='1788200493'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='185' data-hn-time='1788219956'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/31/top_stories_08312026#story-49512975'>A walkable ASCII cyberpunk city in one HTML file [video]</a>
- <a class='hn-top-story-link' href='https://www.youtube.com/watch?v=3YtygAx_C6A' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/01/top_stories_09012026#story-49516199'>Evidence of Fraud in an Influential Study About Procrastination</a>
+ <a class='hn-top-story-link' href='https://datacolada.org/138' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>一个可步行的 ASCII 赛博朋克城市，仅用一个 HTML 文件 [视频]</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 191</span> <span class='hn-top-story-comments'>&#128172; 28</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Entertainment</span></div>
+<div class='hn-top-story-zh'>有影响力的拖延研究曝出造假证据</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 185</span> <span class='hn-top-story-comments'>&#128172; 122</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Data</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='533' data-hn-time='1788170345'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='587' data-hn-time='1788187946'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/31/top_stories_08312026#story-49507822'>OpenShot 4.0 – Open-source video editor</a>
- <a class='hn-top-story-link' href='https://www.openshot.org/blog/2026/08/30/openshot-40-record-edit-color-like-never-before/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/01/top_stories_09012026#story-49510514'>Playa Phone</a>
+ <a class='hn-top-story-link' href='https://playaphone.com/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>OpenShot 4.0：开源视频编辑器</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 533</span> <span class='hn-top-story-comments'>&#128172; 121</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-zh'>Playa Phone：隐私优先智能手机</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 587</span> <span class='hn-top-story-comments'>&#128172; 206</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1170' data-hn-time='1788130188'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='203' data-hn-time='1788216825'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/31/top_stories_08312026#story-49503601'>“I just chose words carefully”</a>
- <a class='hn-top-story-link' href='https://unsung.aresluna.org/i-just-chose-words-carefully/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/01/top_stories_09012026#story-49515830'>Run macOS Software on Linux</a>
+ <a class='hn-top-story-link' href='https://www.darlinghq.org/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>我只是认真地挑选了措辞</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 1170</span> <span class='hn-top-story-comments'>&#128172; 339</span> <span class='hn-top-story-tag'>Culture</span></div>
+<div class='hn-top-story-zh'>在 Linux 上运行 macOS 软件</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 203</span> <span class='hn-top-story-comments'>&#128172; 68</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='283' data-hn-time='1788180082'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='450' data-hn-time='1788194831'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/31/top_stories_08312026#story-49508982'>Apple caught off guard by AI demand for Mac Mini and Mac Studio</a>
- <a class='hn-top-story-link' href='https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/01/top_stories_09012026#story-49511856'>I turned my security cameras into an automatic bird identification system</a>
+ <a class='hn-top-story-link' href='https://jasontucker.blog/how-i-turned-my-security-cameras-into-an-automatic-bird-identification-system-with-birdnet-go/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>苹果被 AI 需求冲击 Mac Mini 与 Mac Studio</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 283</span> <span class='hn-top-story-comments'>&#128172; 321</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>我把安防摄像头变成自动鸟类识别系统</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 450</span> <span class='hn-top-story-comments'>&#128172; 110</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='147' data-hn-time='1788195155'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='65' data-hn-time='1788231955'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/08/31/top_stories_08312026#story-49511917'>Konrad Zuse Museum shutting down due to lack of funding</a>
- <a class='hn-top-story-link' href='https://www.heise.de/en/news/Zuse-Computer-Museum-ZCOM-in-Hoyerswerda-faces-closure-11344513.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/01/top_stories_09012026#story-49517537'>Google Antigravity introduces Boost deep reasoning (/boost)</a>
+ <a class='hn-top-story-link' href='https://antigravity.google/docs/boost/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>因资金短缺，康拉德·祖泽博物馆将关闭</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.3</span> <span class='hn-top-story-score'>&#9650; 147</span> <span class='hn-top-story-comments'>&#128172; 75</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Culture</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-zh'>谷歌 Antigravity 引入 Boost 深度推理（/boost）</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 65</span> <span class='hn-top-story-comments'>&#128172; 48</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
-<a class='hn-top-stories-more' href='/hackernews/2026/08/31/top_stories_08312026'>View all trending stories &rarr;</a>
+<a class='hn-top-stories-more' href='/hackernews/2026/09/01/top_stories_09012026'>View all trending stories &rarr;</a>
 <a class='hn-top-stories-more' href='/hackernews/2026/08/30/best_stories_08302026'>Latest Daily Best — 2026-08-30 &rarr;</a>
 </div>
 </div>
@@ -140,10 +140,19 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 36 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-08-31 <span class="hn-row-sep">·</span> 100 stories <span class="hn-row-sep">·</span> 1 days</span>
+<span class='hn-week-meta'>2026-08-31 — 2026-09-01 <span class="hn-row-sep">·</span> 149 stories <span class="hn-row-sep">·</span> 2 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
+<div class='hn-day-row'>
+<div class='hn-day-date'>2026-09-01 <span class='hn-day-weekday'>Tue</span></div>
+<div class='hn-day-stories'>
+<a class='hn-story-link' href='/hackernews/2026/09/01/top_stories_09012026'>
+<span class='hn-row-type hn-type-top'>Trending</span>
+<span class='hn-row-detail'>All <b>49</b> <span class="hn-row-sep">·</span> AI <b>12</b> <span class="hn-row-sep">·</span> Hardware <b>9</b></span>
+</a>
+</div>
+</div>
 <div class='hn-day-row'>
 <div class='hn-day-date'>2026-08-31 <span class='hn-day-weekday'>Mon</span></div>
 <div class='hn-day-stories'>
@@ -570,33 +579,6 @@ Sort:
 <a class='hn-story-link' href='/hackernews/2026/08/03/top_stories_08032026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
 <span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>25</b> <span class="hn-row-sep">·</span> AI <b>19</b></span>
-</a>
-</div>
-</div>
-</div>
-</div>
-</details>
-<details class='hn-week-group'>
-<summary class='hn-week-summary'>
-<span class='hn-week-title'>2026 Week 31</span>
-<span class='hn-week-meta'>2026-08-02 <span class="hn-row-sep">·</span> 150 stories <span class="hn-row-sep">·</span> 1 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
-</summary>
-<div class='hn-week-content'>
-<a class='hn-story-link hn-weekly-digest-link' href='/hackernews/weekly/2026-W31'>
-<span class='hn-row-type hn-type-weekly'>Weekly Digest</span>
-<span class='hn-row-detail'>2026-07-27 — 2026-08-02 <span class="hn-row-sep">·</span> All <b>505</b> <span class="hn-row-sep">·</span> Programming <b>147</b> <span class="hn-row-sep">·</span> AI <b>108</b></span>
-</a>
-<div class='hn-grid'>
-<div class='hn-day-row'>
-<div class='hn-day-date'>2026-08-02 <span class='hn-day-weekday'>Sun</span></div>
-<div class='hn-day-stories'>
-<a class='hn-story-link' href='/hackernews/2026/08/02/best_stories_08022026'>
-<span class='hn-row-type hn-type-best'>Daily Best</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> Programming <b>14</b> <span class="hn-row-sep">·</span> AI <b>10</b></span>
-</a>
-<a class='hn-story-link' href='/hackernews/2026/08/02/top_stories_08022026'>
-<span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>32</b> <span class="hn-row-sep">·</span> Hardware <b>17</b></span>
 </a>
 </div>
 </div>
