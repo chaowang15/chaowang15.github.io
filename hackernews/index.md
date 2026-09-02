@@ -20,7 +20,7 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='833' data-hn-time='1788285233'>
+<div class='hn-top-story-item' data-hn-score='1117' data-hn-time='1788285233'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -28,10 +28,10 @@ Sort:
  <a class='hn-top-story-link' href='https://www.anthropic.com/claude-fable-and-mythos-5-1' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Claude Fable 5.1 与 Claude Mythos 5.1</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 21</span> <span class='hn-top-story-score'>&#9650; 833</span> <span class='hn-top-story-comments'>&#128172; 797</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.7</span> <span class='hn-top-story-score'>&#9650; 1117</span> <span class='hn-top-story-comments'>&#128172; 1034</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='200' data-hn-time='1788294651'>
+<div class='hn-top-story-item' data-hn-score='769' data-hn-time='1788294651'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -39,54 +39,54 @@ Sort:
  <a class='hn-top-story-link' href='https://www.newsonaut.com/articles/hang-on-to-your-firefox' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>坚持使用你的 Firefox</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 10</span> <span class='hn-top-story-score'>&#9650; 200</span> <span class='hn-top-story-comments'>&#128172; 93</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.5</span> <span class='hn-top-story-score'>&#9650; 769</span> <span class='hn-top-story-comments'>&#128172; 397</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='322' data-hn-time='1788287715'>
+<div class='hn-top-story-item' data-hn-score='149' data-hn-time='1788315670'>
 <span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/01/top_stories_09012026#story-49530989'>True Rate of Unemployment</a>
+ <a class='hn-top-story-link' href='https://www.lisep.org/tru' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>真实失业率</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.3</span> <span class='hn-top-story-score'>&#9650; 149</span> <span class='hn-top-story-comments'>&#128172; 90</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Health</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='599' data-hn-time='1788287715'>
+<span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/09/01/top_stories_09012026#story-49526069'>How accurate have Ed Zitron's AI skeptic predictions been?</a>
  <a class='hn-top-story-link' href='https://danluu.com/zitron/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>艾德·齐特龙的 AI 怀疑论预测有多准确？</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.4</span> <span class='hn-top-story-score'>&#9650; 322</span> <span class='hn-top-story-comments'>&#128172; 381</span> <span class='hn-top-story-tag'>Culture</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.1</span> <span class='hn-top-story-score'>&#9650; 599</span> <span class='hn-top-story-comments'>&#128172; 674</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='201' data-hn-time='1788293277'>
-<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-item' data-hn-score='346' data-hn-time='1788293277'>
+<span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/09/01/top_stories_09012026#story-49527396'>The ChatGPT/Codex app bundles a full copy of LibreOffice</a>
  <a class='hn-top-story-link' href='https://simonwillison.net/2026/Sep/1/codex-libreoffice/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>ChatGPT/Codex 应用捆绑 LibreOffice 的完整副本</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.1</span> <span class='hn-top-story-score'>&#9650; 201</span> <span class='hn-top-story-comments'>&#128172; 104</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 346</span> <span class='hn-top-story-comments'>&#128172; 154</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='154' data-hn-time='1788293951'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/01/top_stories_09012026#story-49527573'>Apple reveals 'shocking evidence' from ex-employee's MacBook in OpenAI suit</a>
- <a class='hn-top-story-link' href='https://9to5mac.com/2026/08/31/apple-openai-forensic-macbook-evidence/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>苹果在 OpenAI 诉讼中揭示前员工 MacBook 上的“震撼性证据”</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.4</span> <span class='hn-top-story-score'>&#9650; 154</span> <span class='hn-top-story-comments'>&#128172; 105</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='449' data-hn-time='1788278153'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='51' data-hn-time='1788322556'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/01/top_stories_09012026#story-49523754'>Play Store blocks AuroraStore, hurting GrapheneOS users</a>
- <a class='hn-top-story-link' href='https://gitlab.com/AuroraOSS/AuroraStore/-/work_items/1566' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/01/top_stories_09012026#story-49531651'>The Emergent Symbolic Structure of Artificial Neural Networks</a>
+ <a class='hn-top-story-link' href='https://arxiv.org/abs/2608.29530' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Play 商店封锁 AuroraStore，GrapheneOS 用户受影响</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.4</span> <span class='hn-top-story-score'>&#9650; 449</span> <span class='hn-top-story-comments'>&#128172; 192</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-zh'>人工神经网络的涌现符号结构</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 51</span> <span class='hn-top-story-comments'>&#128172; 6</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Science</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='813' data-hn-time='1788257462'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='865' data-hn-time='1788257462'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -94,40 +94,40 @@ Sort:
  <a class='hn-top-story-link' href='https://github.com/ankidroid/Anki-Android/issues/21656' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>AnkiDroid：Google Play 不再允许 Open Collective 捐赠链接</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.8</span> <span class='hn-top-story-score'>&#9650; 813</span> <span class='hn-top-story-comments'>&#128172; 237</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 865</span> <span class='hn-top-story-comments'>&#128172; 256</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='88' data-hn-time='1788295159'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='502' data-hn-time='1788278153'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/01/top_stories_09012026#story-49527879'>Dyson CameraJet electric toothbrush</a>
- <a class='hn-top-story-link' href='https://www.dyson.com/oral-care/electric-toothbrush/camerajet/ceramic-ultra-blue' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/01/top_stories_09012026#story-49523754'>Play Store blocks AuroraStore, hurting GrapheneOS users</a>
+ <a class='hn-top-story-link' href='https://gitlab.com/AuroraOSS/AuroraStore/-/work_items/1566' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>戴森 CameraJet 电动牙刷</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.8</span> <span class='hn-top-story-score'>&#9650; 88</span> <span class='hn-top-story-comments'>&#128172; 93</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>Play 商店封锁 AuroraStore，GrapheneOS 用户受影响</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 502</span> <span class='hn-top-story-comments'>&#128172; 209</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='164' data-hn-time='1788284781'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='142' data-hn-time='1788304663'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/01/top_stories_09012026#story-49525297'>The creator of Jujutsu has joined ERSC</a>
- <a class='hn-top-story-link' href='https://ersc.io/blog/martin-joins-ersc' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/01/top_stories_09012026#story-49529621'>FBI Probes Service Selling 153M+ Drivers Licenses</a>
+ <a class='hn-top-story-link' href='https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Jujutsu 的创建者加入 ERSC</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 164</span> <span class='hn-top-story-comments'>&#128172; 131</span> <span class='hn-top-story-tag'>Science</span></div>
+<div class='hn-top-story-zh'>FBI 调查销售超过1.53亿张驾照的服务</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 142</span> <span class='hn-top-story-comments'>&#128172; 50</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Data</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='547' data-hn-time='1788256365'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='144' data-hn-time='1788301852'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/01/top_stories_09012026#story-49519939'>I trained a small transformer in 1.5hrs and it beats many LLMs</a>
- <a class='hn-top-story-link' href='https://mvakde.github.io/blog/44-on-arc-1/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/01/top_stories_09012026#story-49529132'>My local model setup on an M4 Pro Mac Mini</a>
+ <a class='hn-top-story-link' href='https://lws.io/blog/my-local-model-setup/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>我用 1.5 小时训练出一个小型 Transformer，超过了许多 LLM</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.8</span> <span class='hn-top-story-score'>&#9650; 547</span> <span class='hn-top-story-comments'>&#128172; 147</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>在 M4 Pro Mac Mini 上的本地模型部署</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.2</span> <span class='hn-top-story-score'>&#9650; 144</span> <span class='hn-top-story-comments'>&#128172; 67</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/09/01/top_stories_09012026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>26</b> <span class="hn-row-sep">·</span> Programming <b>21</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>25</b> <span class="hn-row-sep">·</span> Hardware <b>24</b></span>
 </a>
 </div>
 </div>
