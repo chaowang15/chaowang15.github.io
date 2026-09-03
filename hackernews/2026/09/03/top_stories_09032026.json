@@ -4,21 +4,43 @@
     "source": "https://news.ycombinator.com/",
     "api": "https://github.com/HackerNews/API",
     "count_requested": 50,
-    "count_written": 83,
-    "reused_same_day": 15,
+    "count_written": 100,
+    "reused_same_day": 19,
     "reused_cross_day": 0,
-    "new_llm_enriched": 32,
-    "scrape_time_display": "10:32, September 03, 2026 (PDT)",
+    "new_llm_enriched": 30,
+    "scrape_time_display": "13:26, September 03, 2026 (PDT)",
     "timezone": "America/Los_Angeles",
     "date_dir": "2026/09/03",
     "content_date": "2026-09-03",
-    "run_time_local": "10:32, September 03, 2026 (PDT)",
-    "run_time_utc": "2026-09-03 17:32:38 UTC",
+    "run_time_local": "13:26, September 03, 2026 (PDT)",
+    "run_time_utc": "2026-09-03 20:26:43 UTC",
     "incremental": true,
     "stories_max": 100,
-    "hot_score_time_utc": "2026-09-03 17:34:17 UTC"
+    "hot_score_time_utc": "2026-09-03 20:28:08 UTC"
   },
   "items": [
+    {
+      "title_en": "GPT-6 Astra",
+      "url": "https://openai.com/index/gpt-6-astra/",
+      "title_zh": "GPT-6 Astra",
+      "created_display": "Created: Sep 03, 2026 / 11:41 PT",
+      "image_url": "https://images.ctfassets.net/kftzwdyauwt9/6ibCaqsoO7F6XCNCIO8zaZ/9475cdebc1f0af100414f1c85860fc4c/Hero_16x9.png?w=1600&h=900&fit=fill",
+      "summary_en": "OpenAI introduces GPT-6 Astra, signaling a leap in the next-gen language model family. The announcement hints at expanded reasoning, safety controls, and deployment options aimed at enterprise-scale AI workloads. For developers and researchers, Astra's release could shift expectations around performance and compliance in AI tooling.",
+      "summary_zh": "OpenAI 推出 GPT-6 Astra，标志着下一代语言模型的跃进。公告暗示在推理能力、安全控制和面向企业的部署选项方面的改进，可能改变开发者对性能与合规性的预期。对于开发者和研究者而言，这一发布将影响 AI 工具的性能与合规性基线。",
+      "hn": {
+        "id": 49554643,
+        "type": "story",
+        "by": "kibae",
+        "score": 523,
+        "descendants": 21,
+        "time": 1788460865,
+        "comments_url": "https://news.ycombinator.com/item?id=49554643"
+      },
+      "hot_score": 47.57,
+      "tags": [
+        "AI"
+      ]
+    },
     {
       "title_en": ".name Termination",
       "url": "https://neil.fraser.name/news/2026/09/03/",
@@ -31,14 +53,59 @@
         "id": 49550772,
         "type": "story",
         "by": "pavel_lishin",
-        "score": 463,
-        "descendants": 124,
+        "score": 984,
+        "descendants": 292,
         "time": 1788447279,
         "comments_url": "https://news.ycombinator.com/item?id=49550772"
       },
-      "hot_score": 28.93,
       "tags": [
         "Web"
+      ],
+      "hot_score": 25.79
+    },
+    {
+      "title_en": "Qwen 3.8 27B available on Cerebras at 1500 tokens/s",
+      "url": "https://inference-docs.cerebras.ai/models/overview",
+      "title_zh": "Qwen 3.8 27B 可在 Cerebras 上以每秒 1500 tokens 的速度运行",
+      "created_display": "Created: Sep 03, 2026 / 11:32 PT",
+      "image_url": "https://cerebras-inference.mintlify.app/mintlify-assets/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3DDocumentation%26title%3DModel%2BCatalog%26description%3DBrowse%2Ball%2Bmodels%2Bavailable%2Bon%2BCerebras%2Bpublic%2Bendpoints.%26theme%3D0d969de00f05bf51f42e2bb2&w=1200&q=100",
+      "summary_en": "Qwen 3.8 27B is now accessible on Cerebras hardware, achieving around 1500 tokens per second. This demonstrates the viability of running large LLMs on specialized accelerators with high throughput, potentially lowering latency for edge-like deployments. As hardware-optimized models become easier to run, developers may push more real-time AI features into apps and services.",
+      "summary_zh": "Qwen 3.8 27B 已在 Cerebras 硬件上可用，吞吐约每秒 1500 token，显示了在专用加速器上高吞吐运行大模型的可行性，或降低对接近边缘部署的延迟。随着对硬件优化模型的可用性提升，开发者有望在应用和服务中引入更多实时 AI 功能。",
+      "hn": {
+        "id": 49554520,
+        "type": "story",
+        "by": "altertable",
+        "score": 258,
+        "descendants": 84,
+        "time": 1788460333,
+        "comments_url": "https://news.ycombinator.com/item?id=49554520"
+      },
+      "hot_score": 21.86,
+      "tags": [
+        "AI",
+        "Hardware"
+      ]
+    },
+    {
+      "title_en": "OpenAI begins rolling out GPT-6 Astra",
+      "url": "https://www.cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html",
+      "title_zh": "OpenAI 开始分阶段推出 GPT-6 Astra",
+      "created_display": "Created: Sep 03, 2026 / 11:18 PT",
+      "image_url": "https://image.cnbcfm.com/api/v1/image/108357917-1788370763021-gettyimages-2292626781-AFP_C77688U.jpeg?v=1788370796&w=1920&h=1080",
+      "summary_en": "OpenAI begins phased rollout of GPT-6 Astra, signaling broader availability and potential early adopter use cases. Early feedback may shape performance expectations, safety reviews, and integration patterns for developers.",
+      "summary_zh": "OpenAI 开始分阶段推出 GPT-6 Astra，标志着更广泛的可用性以及早期采用场景。初期反馈可能影响对性能、安全评审与开发者集成模式的预期。",
+      "hn": {
+        "id": 49554273,
+        "type": "story",
+        "by": "maskil",
+        "score": 208,
+        "descendants": 467,
+        "time": 1788459502,
+        "comments_url": "https://news.ycombinator.com/item?id=49554273"
+      },
+      "hot_score": 15.89,
+      "tags": [
+        "AI"
       ]
     },
     {
@@ -53,15 +120,133 @@
         "id": 49548395,
         "type": "story",
         "by": "ClydeN",
-        "score": 836,
-        "descendants": 185,
+        "score": 947,
+        "descendants": 211,
         "time": 1788432788,
         "comments_url": "https://news.ycombinator.com/item?id=49548395"
       },
       "tags": [
         "Open Source"
       ],
-      "hot_score": 17.05
+      "hot_score": 11.51
+    },
+    {
+      "title_en": "Any Human Ever – One life, drawn at random from all who have ever lived",
+      "url": "https://anyhumanever.com/",
+      "title_zh": "Any Human Ever：从有史以来所有人生中随机抽取一个",
+      "created_display": "Created: Sep 03, 2026 / 07:51 PT",
+      "image_url": "https://anyhumanever.com/static/og-card.png?v=100b",
+      "summary_en": "Any Human Ever randomly selects a life from all humans who have ever lived, presenting a concise biography and statistics. The project invites reflection on population scale, lifespans, and what constitutes being a sample of humanity.",
+      "summary_zh": "Any Human Ever 随机抽取有史以来的一个人生，展示简短传记与统计数据。该项目引发关于人口规模、寿命以及何谓“人类样本”的思考。",
+      "hn": {
+        "id": 49550698,
+        "type": "story",
+        "by": "thinkingemote",
+        "score": 316,
+        "descendants": 142,
+        "time": 1788447070,
+        "comments_url": "https://news.ycombinator.com/item?id=49550698"
+      },
+      "tags": [
+        "Science"
+      ],
+      "hot_score": 8.15
+    },
+    {
+      "title_en": "Ask HN: Why were OpenAI, Claude, and Grok simultaneously down?",
+      "url": "https://news.ycombinator.com/item?id=49551096",
+      "title_zh": "Ask HN：为什么 OpenAI、Claude 与 Grok 同时宕机？巧合吗？",
+      "created_display": "Created: Sep 03, 2026 / 08:07 PT",
+      "image_url": "https://news.ycombinator.com/y18.svg",
+      "summary_en": "A thread notes multiple AI services are offline at once, suggesting common infrastructure issues or aligned maintenance windows. The discussion covers resilience strategies, fallback options, and the impact on developers relying on AI APIs.",
+      "summary_zh": "多家 AI 服务同时宕机引发讨论，可能与共同的基础设施问题或同步维护窗口有关。话题探讨了容错策略、回退方案，以及对依赖 AI API 的开发者的影响。",
+      "hn": {
+        "id": 49551096,
+        "type": "story",
+        "by": "halcdev",
+        "score": 265,
+        "descendants": 476,
+        "time": 1788448021,
+        "comments_url": "https://news.ycombinator.com/item?id=49551096"
+      },
+      "tags": [
+        "AI",
+        "DevOps"
+      ],
+      "hot_score": 7.28
+    },
+    {
+      "title_en": "K2 Horizon: A connected fleet of six open models",
+      "url": "https://ifm.ai/blog/k2/",
+      "title_zh": "K2 Horizon：六个开源模型组成的互联舰队",
+      "created_display": "Created: Sep 03, 2026 / 08:36 PT",
+      "image_url": "https://ifm.ai/blog/k2/assets/k2-horizon-social.webp",
+      "summary_en": "K2 Horizon describes a coordinated suite of six open models designed to work together as a fleet. By sharing tools, contexts, and planning capabilities, they aim to emulate collaborative AI workflows and increase robustness. For the open-model ecosystem, Horizon showcases a path toward more modular, interoperable AI agents.",
+      "summary_zh": "K2 Horizon 描绘了一组协同工作的六个开源模型组成的舰队，通过共享工具、上下文与规划能力，模拟协作式的 AI 工作流并提高鲁棒性。对开源模型生态而言，Horizon 展示了向更模块化、互操作的 AI 代理发展的路径。",
+      "hn": {
+        "id": 49551760,
+        "type": "story",
+        "by": "karimf",
+        "score": 194,
+        "descendants": 64,
+        "time": 1788449803,
+        "comments_url": "https://news.ycombinator.com/item?id=49551760"
+      },
+      "hot_score": 6.03,
+      "tags": [
+        "AI",
+        "Open Source"
+      ]
+    },
+    {
+      "title_en": "Prime Gaps at Most 186",
+      "url": "https://github.com/openai/PrimeGaps186",
+      "title_zh": "至多 186 的素数间隔",
+      "created_display": "Created: Sep 03, 2026 / 12:18 PT",
+      "image_url": "https://opengraph.githubassets.com/c28c8909a157664541350c629d3ee850a1c79859329ee0be4b4f6eb278b6e2ed/openai/PrimeGaps186",
+      "summary_en": "PrimeGaps186 presents a benchmark or dataset exploring prime gaps up to 186, illustrating tooling for number theory experiments. The project hints at new ways to visualize primes and could interest researchers building math-oriented AI capabilities.",
+      "summary_zh": "PrimeGaps186 提供一个探索至多 186 的素数间隔的基准或数据集，展示了用于数论实验的工具。该项目可能为素数可视化提供新思路，并吸引致力于数学相关 AI 能力的研究者。",
+      "hn": {
+        "id": 49555257,
+        "type": "story",
+        "by": "simonpure",
+        "score": 37,
+        "descendants": 3,
+        "time": 1788463136,
+        "comments_url": "https://news.ycombinator.com/item?id=49555257"
+      },
+      "hot_score": 4.55,
+      "tags": [
+        "Science",
+        "Data",
+        "AI"
+      ]
+    },
+    {
+      "title_en": "Nvidia to acquire Hugging Face",
+      "url": "https://www.cnbc.com/2026/09/03/nvidia-agrees-to-buy-hugging-face-for-almost-13-billion-ai-expansion.html",
+      "title_zh": "英伟达将收购 Hugging Face",
+      "created_display": "Created: Sep 03, 2026 / 05:10 PT",
+      "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/09/hf-nvidia-partner_hf-nvidia-partner-press-1920x1080-2.png",
+      "summary_en": "NVIDIA announced it will acquire Hugging Face, pairing GPU-accelerated AI hardware with model hosting and tooling in one ecosystem. The deal could reshape how developers train, deploy, and optimize models, with implications for open-source influence and AI infrastructure competition.",
+      "summary_zh": "英伟达宣布将收购 Hugging Face，意在将硬件加速与模型托管/工具链整合到同一生态。此举可能改变开发者训练、部署和优化模型的方式，并对开源生态和 AI 基础设施竞争格局产生深远影响。",
+      "hn": {
+        "id": 49548952,
+        "type": "story",
+        "by": "tosh",
+        "score": 287,
+        "descendants": 91,
+        "time": 1788437433,
+        "comments_url": "https://news.ycombinator.com/item?id=49548952"
+      },
+      "tags": [
+        "Business",
+        "AI",
+        "Open Source",
+        "Hardware",
+        "DevOps"
+      ],
+      "hot_score": 4.3
     },
     {
       "title_en": "Grok outage",
@@ -80,7 +265,29 @@
         "time": 1788449161,
         "comments_url": "https://news.ycombinator.com/item?id=49551589"
       },
-      "hot_score": 10.94,
+      "hot_score": 4.21,
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title_en": "OpenAI's GPT-6 Astra on ARC-AGI-3",
+      "url": "https://arcprize.org/blog/astra",
+      "title_zh": "GPT-6 Astra 在 ARC-AGI-3 上",
+      "created_display": "Created: Sep 03, 2026 / 12:45 PT",
+      "image_url": "https://arcprize.org/media/images/blog/astra-action-efficiency.png",
+      "summary_en": "GPT-6 Astra is being explored within the ARC-AGI-3 ecosystem, hinting at cross-platform experimentation and benchmarking opportunities. The collaboration backdrop could inform how Astra performs across different runtimes and safety frameworks. Expect discussions around interoperability and comparative metrics.",
+      "summary_zh": "GPT-6 Astra 正在 ARC-AGI-3 生态系统内进行探索，暗示跨平台的实验与基准测试机会。此类协作背景或将揭示 Astra 在不同运行环境与安全框架下的表现差异，读者可关注互操作性与对比指标的讨论。",
+      "hn": {
+        "id": 49555691,
+        "type": "story",
+        "by": "vignesh_warar",
+        "score": 25,
+        "descendants": 12,
+        "time": 1788464700,
+        "comments_url": "https://news.ycombinator.com/item?id=49555691"
+      },
+      "hot_score": 3.97,
       "tags": [
         "AI"
       ]
@@ -102,79 +309,9 @@
         "time": 1788450294,
         "comments_url": "https://news.ycombinator.com/item?id=49551925"
       },
-      "hot_score": 10.73,
+      "hot_score": 3.89,
       "tags": [
-        "Business",
         "Gaming"
-      ]
-    },
-    {
-      "title_en": "Any Human Ever – One life, drawn at random from all who have ever lived",
-      "url": "https://anyhumanever.com/",
-      "title_zh": "Any Human Ever：从有史以来所有人生中随机抽取一个",
-      "created_display": "Created: Sep 03, 2026 / 07:51 PT",
-      "image_url": "https://anyhumanever.com/static/og-card.png?v=100b",
-      "summary_en": "Any Human Ever randomly selects a life from all humans who have ever lived, presenting a concise biography and statistics. The project invites reflection on population scale, lifespans, and what constitutes being a sample of humanity.",
-      "summary_zh": "Any Human Ever 随机抽取有史以来的一个人生，展示简短传记与统计数据。该项目引发关于人口规模、寿命以及何谓“人类样本”的思考。",
-      "hn": {
-        "id": 49550698,
-        "type": "story",
-        "by": "thinkingemote",
-        "score": 165,
-        "descendants": 85,
-        "time": 1788447070,
-        "comments_url": "https://news.ycombinator.com/item?id=49550698"
-      },
-      "hot_score": 10.04,
-      "tags": [
-        "Science",
-        "Data"
-      ]
-    },
-    {
-      "title_en": "Ask HN: Why are OpenAI, Claude, and Grok simultaneously down? Coincidence?",
-      "url": "https://news.ycombinator.com/item?id=49551096",
-      "title_zh": "Ask HN：为什么 OpenAI、Claude 与 Grok 同时宕机？巧合吗？",
-      "created_display": "Created: Sep 03, 2026 / 08:07 PT",
-      "image_url": "https://news.ycombinator.com/y18.svg",
-      "summary_en": "A thread notes multiple AI services are offline at once, suggesting common infrastructure issues or aligned maintenance windows. The discussion covers resilience strategies, fallback options, and the impact on developers relying on AI APIs.",
-      "summary_zh": "多家 AI 服务同时宕机引发讨论，可能与共同的基础设施问题或同步维护窗口有关。话题探讨了容错策略、回退方案，以及对依赖 AI API 的开发者的影响。",
-      "hn": {
-        "id": 49551096,
-        "type": "story",
-        "by": "halcdev",
-        "score": 145,
-        "descendants": 114,
-        "time": 1788448021,
-        "comments_url": "https://news.ycombinator.com/item?id=49551096"
-      },
-      "hot_score": 9.78,
-      "tags": [
-        "AI",
-        "DevOps"
-      ]
-    },
-    {
-      "title_en": "K2 Horizon: Frontier Performance, Radically Open",
-      "url": "https://ifm.ai/blog/k2/",
-      "title_zh": "K2 Horizon：前沿性能，完全开放",
-      "created_display": "Created: Sep 03, 2026 / 08:36 PT",
-      "image_url": "https://ifm.ai/blog/k2/assets/k2-horizon-social.webp",
-      "summary_en": "K2 Horizon introduces a platform promising frontier-level performance for AI workloads while embracing open standards. It aims to empower developers with greater customization and collaboration through openness. This could shift how enterprises prototype and scale AI architectures.",
-      "summary_zh": "K2 Horizon 推出一个在 AI 工作负载上具备前沿性能的平台，并采用开放标准以促进开发者的自定义与协作。通过开放性，它可能改变企业在原型设计和扩展 AI 架构时的方式。",
-      "hn": {
-        "id": 49551760,
-        "type": "story",
-        "by": "karimf",
-        "score": 100,
-        "descendants": 27,
-        "time": 1788449803,
-        "comments_url": "https://news.ycombinator.com/item?id=49551760"
-      },
-      "hot_score": 8.31,
-      "tags": [
-        "AI",
-        "Open Source"
       ]
     },
     {
@@ -194,108 +331,31 @@
         "time": 1788443504,
         "comments_url": "https://news.ycombinator.com/item?id=49549919"
       },
-      "hot_score": 7.08,
+      "hot_score": 3.38,
       "tags": [
-        "Business",
         "Politics"
       ]
     },
     {
-      "title_en": "Nvidia to Acquire Hugging Face",
-      "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/",
-      "title_zh": "英伟达将收购 Hugging Face",
-      "created_display": "Created: Sep 03, 2026 / 05:10 PT",
-      "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/09/hf-nvidia-partner_hf-nvidia-partner-press-1920x1080-2.png",
-      "summary_en": "NVIDIA announced it will acquire Hugging Face, pairing GPU-accelerated AI hardware with model hosting and tooling in one ecosystem. The deal could reshape how developers train, deploy, and optimize models, with implications for open-source influence and AI infrastructure competition.",
-      "summary_zh": "英伟达宣布将收购 Hugging Face，意在将硬件加速与模型托管/工具链整合到同一生态。此举可能改变开发者训练、部署和优化模型的方式，并对开源生态和 AI 基础设施竞争格局产生深远影响。",
+      "title_en": "120 days until Google restricts side-loading, declaring war on Android freedom",
+      "url": "https://tuta.com/blog/android-side-load-apps-google",
+      "title_zh": "距 Google 限制侧载还有 120 天：对 Android 自由的挑战",
+      "created_display": "Created: Sep 03, 2026 / 11:24 PT",
+      "image_url": "https://tuta.com/assets/google-dont-be-evil.BfQ7fcD6_Z1GwKkf.png",
+      "summary_en": "Google’s upcoming side-loading restrictions threaten sideloaded apps ecosystem and user choice on Android.",
+      "summary_zh": "Google 即将实施的侧载限制将威胁 Android 生态与用户选择。文章讨论可能的变通方法、安全隐患，以及围绕平台控制权的更广泛辩论。",
       "hn": {
-        "id": 49548952,
+        "id": 49554372,
         "type": "story",
-        "by": "tosh",
-        "score": 236,
-        "descendants": 69,
-        "time": 1788437433,
-        "comments_url": "https://news.ycombinator.com/item?id=49548952"
+        "by": "krunck",
+        "score": 41,
+        "descendants": 8,
+        "time": 1788459877,
+        "comments_url": "https://news.ycombinator.com/item?id=49554372"
       },
+      "hot_score": 3.21,
       "tags": [
-        "Business",
-        "AI",
-        "Open Source",
-        "Hardware",
-        "DevOps"
-      ],
-      "hot_score": 6.41
-    },
-    {
-      "title_en": "VC isn't VC anymore – understanding the rise of Cancer Capital",
-      "url": "https://www.anildash.com/2026/09/02/cancer-capital/",
-      "title_zh": "VC 不再是 VC？解读‘癌症资本’的崛起",
-      "created_display": "Created: Sep 03, 2026 / 08:51 PT",
-      "image_url": "https://www.anildash.com/images/cancer-capital-1.jpg",
-      "summary_en": "The piece argues that venture capital has morphed into 'Cancer Capital'—funding practices that emphasize aggressive scaling and short-term gains at the expense of sustainable growth. It analyzes effects on founders, employees, and investors.",
-      "summary_zh": "文章认为风险投资已演变为“癌症资本”，强调极端扩张与短期回报，牺牲了可持续增长。分析了对创始人、员工与投资人的影响。",
-      "hn": {
-        "id": 49552055,
-        "type": "story",
-        "by": "tlhunter",
-        "score": 57,
-        "descendants": 9,
-        "time": 1788450713,
-        "comments_url": "https://news.ycombinator.com/item?id=49552055"
-      },
-      "hot_score": 5.3,
-      "tags": [
-        "Business",
-        "Finance",
-        "Health"
-      ]
-    },
-    {
-      "title_en": "Pre-Release of Polars 2.0",
-      "url": "https://pola.rs/posts/announcing-polars-2/",
-      "title_zh": "Polars 2.0 预发布",
-      "created_display": "Created: Sep 02, 2026 / 23:59 PT",
-      "image_url": "https://pola.rs/polars_2.0.0-rc1.png",
-      "summary_en": "Polars 2.0 is entering a pre-release phase, signaling a major upgrade for the popular Rust-based data frame library. The release promises performance improvements, new APIs, and potential breaking changes, inviting developers to test early and plan migrations.",
-      "summary_zh": "Polars 2.0 已进入预发布阶段，标志着这款流行的基于 Rust 的数据框架将迎来重大升级。此次更新承诺提升性能、引入新 API，并可能带来破坏性变更，邀请开发者提前测试并规划迁移。",
-      "hn": {
-        "id": 49546753,
-        "type": "story",
-        "by": "komape",
-        "score": 339,
-        "descendants": 107,
-        "time": 1788418748,
-        "comments_url": "https://news.ycombinator.com/item?id=49546753"
-      },
-      "tags": [
-        "Programming",
-        "Data",
-        "Open Source"
-      ],
-      "hot_score": 3.54
-    },
-    {
-      "title_en": "Texas Data Center Map: See where data centers are operating or planned",
-      "url": "https://www.kxan.com/news/texas/texas-data-center-tracker-see-where-600-projects-are-operating-or-planned-across-state-in-interactive-map/",
-      "title_zh": "德州数据中心地图：查看现有与规划中的数据中心",
-      "created_display": "Created: Sep 03, 2026 / 09:10 PT",
-      "image_url": null,
-      "summary_en": "An interactive map shows Texas data centers operating or planned, highlighting regional concentration and growth in cloud infrastructure. The tracker helps gauge energy demand and regional capacity.",
-      "summary_zh": "一张交互地图显示德州现有与规划中的数据中心，突出区域集中度与云基础设施增长。该追踪有助于评估能源需求与区域容量。",
-      "hn": {
-        "id": 49552375,
-        "type": "story",
-        "by": "simonpure",
-        "score": 27,
-        "descendants": 19,
-        "time": 1788451812,
-        "comments_url": "https://news.ycombinator.com/item?id=49552375"
-      },
-      "hot_score": 2.87,
-      "tags": [
-        "Energy",
-        "Web",
-        "DevOps"
+        "Security"
       ]
     },
     {
@@ -310,15 +370,60 @@
         "id": 49548452,
         "type": "story",
         "by": "tosh",
-        "score": 137,
-        "descendants": 86,
+        "score": 214,
+        "descendants": 149,
         "time": 1788433264,
         "comments_url": "https://news.ycombinator.com/item?id=49548452"
       },
-      "hot_score": 2.86,
       "tags": [
         "Legal"
-      ]
+      ],
+      "hot_score": 2.65
+    },
+    {
+      "title_en": "Pre-Release of Polars 2.0",
+      "url": "https://pola.rs/posts/announcing-polars-2/",
+      "title_zh": "Polars 2.0 预发布",
+      "created_display": "Created: Sep 02, 2026 / 23:59 PT",
+      "image_url": "https://pola.rs/polars_2.0.0-rc1.png",
+      "summary_en": "Polars 2.0 is entering a pre-release phase, signaling a major upgrade for the popular Rust-based data frame library. The release promises performance improvements, new APIs, and potential breaking changes, inviting developers to test early and plan migrations.",
+      "summary_zh": "Polars 2.0 已进入预发布阶段，标志着这款流行的基于 Rust 的数据框架将迎来重大升级。此次更新承诺提升性能、引入新 API，并可能带来破坏性变更，邀请开发者提前测试并规划迁移。",
+      "hn": {
+        "id": 49546753,
+        "type": "story",
+        "by": "komape",
+        "score": 365,
+        "descendants": 120,
+        "time": 1788418748,
+        "comments_url": "https://news.ycombinator.com/item?id=49546753"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 2.63
+    },
+    {
+      "title_en": "Artificial beaver dams saw juvenile coho salmon survival rates go from 8% to 60%",
+      "url": "https://www.discoverwildlife.com/animal-facts/artificial-beaver-dams-california",
+      "title_zh": "人工海狸坝提升鲑鱼幼鱼存活率",
+      "created_display": "Created: Sep 03, 2026 / 09:21 PT",
+      "image_url": "https://d2rj6cu2ik1biv.cloudfront.net/193c804a-a673-47bd-b09b-11baf4822a17/9ac494a4-627d-4fea-a827-dcf588dd6f96/fd5ffa75-92b9-459b-9465-2f2d37321e0d/thumbnails/5fdb6aa7-15a3-4f1c-8980-ce664981a95c.jpeg?appId=f347d34d-c1a6-4a00-b570-b78c2dcb3211&w=1200",
+      "summary_en": "A study shows artificial beaver dams increased juvenile coho salmon survival from 8% to 60%, illustrating ecosystem engineering benefits. The result highlights how landscape interventions can boost biodiversity and fisheries.",
+      "summary_zh": "研究显示人工海狸坝将幼年鲑鱼存活率从 8% 提升到 60%，显示出生态工程的潜在效益。结果凸显景观干预对提升生物多样性与渔业的潜在贡献。",
+      "hn": {
+        "id": 49552572,
+        "type": "story",
+        "by": "speckx",
+        "score": 62,
+        "descendants": 11,
+        "time": 1788452493,
+        "comments_url": "https://news.ycombinator.com/item?id=49552572"
+      },
+      "tags": [
+        "Science",
+        "Programming"
+      ],
+      "hot_score": 2.35
     },
     {
       "title_en": "Gemini 3.8 Flash and 3.8 Flash Cyber",
@@ -340,28 +445,119 @@
       "tags": [
         "AI"
       ],
-      "hot_score": 2.75
+      "hot_score": 2.31
     },
     {
-      "title_en": "Astronomers Detect a 10-Sided Structure in Saturn's Atmosphere",
-      "url": "https://www.sciencealert.com/astronomers-spot-an-uncannily-geometric-10-sided-structure-in-saturns-atmosphere",
-      "title_zh": "天文学家在土星大气中发现十边形结构",
-      "created_display": "Created: Sep 03, 2026 / 06:47 PT",
-      "image_url": "https://www.sciencealert.com/images/2026/09/saturn-decagon.jpg",
-      "summary_en": "Astronomers have detected a ten-sided polygonal structure in Saturn's atmosphere, adding a new geometric curiosity beyond Saturn's famous hexagon. The finding prompts questions about atmospheric dynamics on gas giants.",
-      "summary_zh": "天文学家在土星大气中发现一个十边形结构，增添了继北极六边形之外的新几何现象。此发现引发关于气体巨行星大气动力学的问题。",
+      "title_en": "GPT-6 Astra System Card",
+      "url": "https://deploymentsafety.openai.com/gpt-6-astra",
+      "title_zh": "GPT-6 Astra 系统卡",
+      "created_display": "Created: Sep 03, 2026 / 12:30 PT",
+      "image_url": "https://deploymentsafety.openai.com/assets/deploymentsafety-social.png",
+      "summary_en": "GPT-6 Astra System Card outlines deployment safeguards, usage policies, and risk controls for enterprise environments. The document signals how OpenAI intends operators to manage alignment, safety, and governance at scale.",
+      "summary_zh": "GPT-6 Astra 系统卡概述了在企业环境中的部署安全、使用策略与风险控制。该文档反映了 OpenAI 在大规模运营中对对齐、安全与治理的管理方向。",
       "hn": {
-        "id": 49549877,
+        "id": 49555440,
         "type": "story",
-        "by": "jjgreen",
-        "score": 55,
-        "descendants": 16,
-        "time": 1788443258,
-        "comments_url": "https://news.ycombinator.com/item?id=49549877"
+        "by": "codergautam",
+        "score": 17,
+        "descendants": 1,
+        "time": 1788463838,
+        "comments_url": "https://news.ycombinator.com/item?id=49555440"
       },
-      "hot_score": 2.3,
+      "hot_score": 2.27,
       "tags": [
-        "Science",
+        "AI"
+      ]
+    },
+    {
+      "title_en": "Porting my 1993 Amiga game to Godot, with an LLM reading the 68000 assembly",
+      "url": "https://babyloniantwins.com/blog/porting-a-1993-amiga-game-to-godot/",
+      "title_zh": "将 1993 年的 Amiga 游戏移植到 Godot，让 LLM 阅读 68000 汇编",
+      "created_display": "Created: Sep 03, 2026 / 07:28 PT",
+      "image_url": "https://www.babyloniantwins.com/img/og.png",
+      "summary_en": "The author ports a 1993 Amiga game to Godot using an LLM to decipher 68000 assembly. It demonstrates practical AI-assisted reverse engineering and modernization of classic games. The experiment reveals both limitations and potential of LLMs as copilots in software porting tasks.",
+      "summary_zh": "作者尝试用 LLM 读取 68000 汇编，将 1993 年的 Amiga 游戏移植到 Godot。这一尝试展示了 AI 辅助逆向工程与经典游戏现代化的可行性，同时也揭示了 LLM 作为代码移植助手的局限性与潜力。",
+      "hn": {
+        "id": 49550375,
+        "type": "story",
+        "by": "rabahs",
+        "score": 91,
+        "descendants": 33,
+        "time": 1788445698,
+        "comments_url": "https://news.ycombinator.com/item?id=49550375"
+      },
+      "hot_score": 2.13,
+      "tags": [
+        "Programming",
+        "AI"
+      ]
+    },
+    {
+      "title_en": "How concerned should we be about Astra's recurrent architecture?",
+      "url": "https://www.lesswrong.com/posts/PLisnSFir8y5AHkmP/how-concerned-should-we-be-about-astra-s-recurrent",
+      "title_zh": "我们该多担心 Astra 的循环式架构吗？",
+      "created_display": "Created: Sep 03, 2026 / 10:10 PT",
+      "image_url": null,
+      "summary_en": "The discussion weighs concerns about Astra's recurrent design, including memory retention, stability, and potential toxicity of long context. It frames trade-offs between improved reasoning and risk of hallucination or inefficiency.",
+      "summary_zh": "讨论评估 Astra 的循环式架构可能带来的记忆保持、稳定性和长上下文潜在的风险。权衡点在于提升推理能力与避免幻觉、低效之间的取舍。",
+      "hn": {
+        "id": 49553321,
+        "type": "story",
+        "by": "yurivish",
+        "score": 40,
+        "descendants": 21,
+        "time": 1788455406,
+        "comments_url": "https://news.ycombinator.com/item?id=49553321"
+      },
+      "hot_score": 1.94,
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title_en": "VC isn't VC anymore – understanding the rise of Cancer Capital",
+      "url": "https://www.anildash.com/2026/09/02/cancer-capital/",
+      "title_zh": "VC 不再是 VC？解读‘癌症资本’的崛起",
+      "created_display": "Created: Sep 03, 2026 / 08:51 PT",
+      "image_url": "https://www.anildash.com/images/cancer-capital-1.jpg",
+      "summary_en": "The piece argues that venture capital has morphed into 'Cancer Capital'—funding practices that emphasize aggressive scaling and short-term gains at the expense of sustainable growth. It analyzes effects on founders, employees, and investors.",
+      "summary_zh": "文章认为风险投资已演变为“癌症资本”，强调极端扩张与短期回报，牺牲了可持续增长。分析了对创始人、员工与投资人的影响。",
+      "hn": {
+        "id": 49552055,
+        "type": "story",
+        "by": "tlhunter",
+        "score": 57,
+        "descendants": 9,
+        "time": 1788450713,
+        "comments_url": "https://news.ycombinator.com/item?id=49552055"
+      },
+      "hot_score": 1.87,
+      "tags": [
+        "Business",
+        "Finance",
+        "Health"
+      ]
+    },
+    {
+      "title_en": "The asteroid currently hitting front end web development",
+      "url": "https://nolanlawson.com/2026/08/23/the-asteroid-currently-hitting-frontend-web-development/",
+      "title_zh": "当前冲击前端开发的彗星",
+      "created_display": "Created: Sep 03, 2026 / 12:17 PT",
+      "image_url": "https://nolanlawson.com/wp-content/uploads/2025/01/favicon.png?w=32",
+      "summary_en": "A metaphor-laden piece argues front-end tooling and architecture are facing a disruptive period. It highlights debates over frameworks, CSS, tooling complexity, and performance concerns shaping the next era of frontend.",
+      "summary_zh": "这篇隐喻性文章将前端开发的工具链与架构描述为正处在颠覆性时期，聚焦框架选择、CSS、工具复杂性和性能议题对前端新时代的影响。",
+      "hn": {
+        "id": 49555233,
+        "type": "story",
+        "by": "codechicago277",
+        "score": 16,
+        "descendants": 11,
+        "time": 1788463044,
+        "comments_url": "https://news.ycombinator.com/item?id=49555233"
+      },
+      "hot_score": 1.87,
+      "tags": [
+        "Web",
         "Space"
       ]
     },
@@ -385,30 +581,73 @@
       "tags": [
         "AI"
       ],
-      "hot_score": 2.2
+      "hot_score": 1.79
     },
     {
-      "title_en": "OpenAI's new reasoning technique alarms AI safety experts",
-      "url": "https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts/",
-      "title_zh": "OpenAI 的新推理技术引发 AI 安全专家警惕",
-      "created_display": "Created: Sep 03, 2026 / 09:11 PT",
-      "image_url": "https://techcrunch.com/wp-content/uploads/2026/07/OpenAI-logo-in-Seoul.jpg?w=1024",
-      "summary_en": "OpenAI unveils a new reasoning technique that some experts worry could enable more sophisticated prompting or hidden manipulation. The discussion centers on safety, alignment, and mitigation strategies.",
-      "summary_zh": "OpenAI 推出一种新型推理技术，部分专家担心可能带来更高级的引导或隐藏操控。讨论聚焦于安全、对齐与缓解策略。",
+      "title_en": "GPT-6 Astra makes major gains in the Artificial Analysis Coding Agent Index",
+      "url": "https://artificialanalysis.ai/articles/benchmarking-gpt-6-astra",
+      "title_zh": "GPT-6 Astra 在人工分析编码代理指数取得显著进展",
+      "created_display": "Created: Sep 03, 2026 / 13:11 PT",
+      "image_url": "https://cdn.sanity.io/images/6vfeftx9/articles/3d308ecf6306e8dfebe66f63adcf5209496dcce8-1024x1024.jpg?w=1200&auto=format",
+      "summary_en": "GPT-6 Astra leads in a benchmark for AI coding agents, scoring strong on automated analysis tasks. The results may shift expectations for AI-assisted development tools and testing.",
+      "summary_zh": "GPT-6 Astra 在一个 AI 编码代理基准测试中取得领先，在自动化分析任务上表现出色。结果可能改变人们对 AI 辅助开发工具与测试的预期。",
       "hn": {
-        "id": 49552395,
+        "id": 49556147,
         "type": "story",
-        "by": "Brajeshwar",
-        "score": 15,
-        "descendants": 3,
-        "time": 1788451884,
-        "comments_url": "https://news.ycombinator.com/item?id=49552395"
+        "by": "wertyk",
+        "score": 8,
+        "descendants": 2,
+        "time": 1788466285,
+        "comments_url": "https://news.ycombinator.com/item?id=49556147"
       },
-      "hot_score": 1.56,
+      "hot_score": 1.59,
       "tags": [
-        "AI",
-        "Security"
+        "AI"
       ]
+    },
+    {
+      "title_en": "The death of San Francisco's Market Street",
+      "url": "https://www.noahpinion.blog/p/the-death-of-market-street",
+      "title_zh": "旧金山 Market Street 的没落",
+      "created_display": "Created: Sep 03, 2026 / 12:33 PT",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!zchv!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7b8e27bc-1fe1-4689-b4b0-20e9ccb412bc_1024x771.jpeg",
+      "summary_en": "Market Street's decline signals broader urban and transit transitions in San Francisco, with implications for commerce and mobility. The piece analyzes factors like traffic patterns, safety, and business closures shaping the city's historic artery.",
+      "summary_zh": "Market Street 的衰落反映了旧金山在城市与交通层面的转变，对商业与出行造成影响。文章解析了交通模式、安全与商铺关闭等因素如何共同塑造这条历史大街的未来。",
+      "hn": {
+        "id": 49555478,
+        "type": "story",
+        "by": "A_D_E_P_T",
+        "score": 11,
+        "descendants": 3,
+        "time": 1788463997,
+        "comments_url": "https://news.ycombinator.com/item?id=49555478"
+      },
+      "hot_score": 1.46,
+      "tags": [
+        "Business"
+      ]
+    },
+    {
+      "title_en": "Astronomers Detect a 10-Sided Structure in Saturn's Atmosphere",
+      "url": "https://www.sciencealert.com/astronomers-spot-an-uncannily-geometric-10-sided-structure-in-saturns-atmosphere",
+      "title_zh": "天文学家在土星大气中发现十边形结构",
+      "created_display": "Created: Sep 03, 2026 / 06:47 PT",
+      "image_url": "https://www.sciencealert.com/images/2026/09/saturn-decagon.jpg",
+      "summary_en": "Astronomers have detected a ten-sided polygonal structure in Saturn's atmosphere, adding a new geometric curiosity beyond Saturn's famous hexagon. The finding prompts questions about atmospheric dynamics on gas giants.",
+      "summary_zh": "天文学家在土星大气中发现一个十边形结构，增添了继北极六边形之外的新几何现象。此发现引发关于气体巨行星大气动力学的问题。",
+      "hn": {
+        "id": 49549877,
+        "type": "story",
+        "by": "jjgreen",
+        "score": 68,
+        "descendants": 27,
+        "time": 1788443258,
+        "comments_url": "https://news.ycombinator.com/item?id=49549877"
+      },
+      "tags": [
+        "Space"
+      ],
+      "hot_score": 1.37
     },
     {
       "title_en": "A note on subscription prices from LWN",
@@ -430,78 +669,7 @@
       "tags": [
         "Open Source"
       ],
-      "hot_score": 1.52
-    },
-    {
-      "title_en": "Sanders introduces bill to ban artificial superintelligence and pause AI",
-      "url": "https://www.sanders.senate.gov/press-releases/news-sanders-casar-introduce-legislation-to-ban-artificial-superintelligence-and-temporarily-pause-advanced-ai-development/",
-      "title_zh": "桑德斯提出法案：禁止人工超智能并暂停 AI 发展",
-      "created_display": "Created: Sep 03, 2026 / 10:20 PT",
-      "image_url": "https://www.sanders.senate.gov/wp-content/uploads/2020/11/bernie-sanders-logo-greens-yellow-768x116.png",
-      "summary_en": "Senator Sanders introduces legislation to ban artificial superintelligence and temporarily pause advanced AI development, citing societal and worker disruption risks. The proposal fuels a broader debate on governance and feasibility.",
-      "summary_zh": "参议员桑德斯提出法案，禁止人工超智能并暂时暂停高级 AI 发展，强调对社会与就业的潜在风险。该提案推动关于治理与可行性的广泛讨论。",
-      "hn": {
-        "id": 49553463,
-        "type": "story",
-        "by": "-_-",
-        "score": 7,
-        "descendants": 3,
-        "time": 1788456029,
-        "comments_url": "https://news.ycombinator.com/item?id=49553463"
-      },
-      "hot_score": 1.42,
-      "tags": [
-        "Politics",
-        "Legal",
-        "AI"
-      ]
-    },
-    {
-      "title_en": "Three schoolgirls in Kinsale pulled up a pea plant covered in warts (2016)",
-      "url": "https://scienceblog.com/b-three-schoolgirls-in-kinsale-pulled-up-a-pea-plant-covered-in-warts-and-instead-of-binning-it-spent-three-years-testing-13000-seeds-in-a-spare-bedroom-the-bacteria-living-in-those-warts-made-barley/",
-      "title_zh": "肯塞尔三名女学生发现长疣的豌豆苗（2016）",
-      "created_display": "Created: Sep 03, 2026 / 00:04 PT",
-      "image_url": "https://scienceblog.com/wp-content/uploads/2026/08/pea-plant-roots-nodules.png",
-      "summary_en": "Three schoolgirls in Kinsale pulled up a pea plant covered in warts and turned the find into a long-running home science project. Over three years they tested about 13,000 seeds in a spare bedroom, with the wart-associated bacteria guiding their barley experiments.",
-      "summary_zh": "肯塞尔的三名女学生在发现一株长疣的豌豆苗后没放弃，展开了一场持续多年的家庭科学实验。三年间她们在一间空房中试验约1.3万粒种子，豌豆疣中的细菌成为大麦研究的线索。",
-      "hn": {
-        "id": 49546800,
-        "type": "story",
-        "by": "DamonHD",
-        "score": 134,
-        "descendants": 56,
-        "time": 1788419053,
-        "comments_url": "https://news.ycombinator.com/item?id=49546800"
-      },
-      "tags": [
-        "Science",
-        "Education"
-      ],
-      "hot_score": 1.41
-    },
-    {
-      "title_en": "Why office workers are turning against AI",
-      "url": "https://www.bloodinthemachine.com/p/why-office-workers-are-turning-against",
-      "title_zh": "为何办公室员工对 AI 逐渐反感",
-      "created_display": "Created: Sep 03, 2026 / 10:16 PT",
-      "image_url": "https://substackcdn.com/image/fetch/$s_!r25o!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5836ab51-d52b-4e2f-94c0-9253f110d35b_1023x682.png",
-      "summary_en": "The piece argues that AI in the workplace raises concerns about surveillance, job displacement, and workflow disruption, fueling skepticism among workers. It advocates humane deployment and human-in-the-loop practices.",
-      "summary_zh": "文章认为工作场所的 AI 引发监控、就业替代与工作流程干扰等担忧，导致员工对 AI 持怀疑态度。主张以人性化落地与人机协同的做法来缓解。",
-      "hn": {
-        "id": 49553414,
-        "type": "story",
-        "by": "speckx",
-        "score": 7,
-        "descendants": 0,
-        "time": 1788455813,
-        "comments_url": "https://news.ycombinator.com/item?id=49553414"
-      },
-      "hot_score": 1.35,
-      "tags": [
-        "AI",
-        "Culture",
-        "Privacy"
-      ]
+      "hot_score": 1.29
     },
     {
       "title_en": "Claude Fable 5.1 and Claude Mythos 5.1",
@@ -523,7 +691,75 @@
       "tags": [
         "AI"
       ],
-      "hot_score": 1.23
+      "hot_score": 1.11
+    },
+    {
+      "title_en": "Three schoolgirls in Kinsale pulled up a pea plant covered in warts (2014)",
+      "url": "https://www.yahoo.com/news/16-old-girls-win-google-science-fair-simple-194434703.html",
+      "title_zh": "肯塞尔三名女学生发现长疣的豌豆苗（2016）",
+      "created_display": "Created: Sep 03, 2026 / 00:04 PT",
+      "image_url": "https://scienceblog.com/wp-content/uploads/2026/08/pea-plant-roots-nodules.png",
+      "summary_en": "Three schoolgirls in Kinsale pulled up a pea plant covered in warts and turned the find into a long-running home science project. Over three years they tested about 13,000 seeds in a spare bedroom, with the wart-associated bacteria guiding their barley experiments.",
+      "summary_zh": "肯塞尔的三名女学生在发现一株长疣的豌豆苗后没放弃，展开了一场持续多年的家庭科学实验。三年间她们在一间空房中试验约1.3万粒种子，豌豆疣中的细菌成为大麦研究的线索。",
+      "hn": {
+        "id": 49546800,
+        "type": "story",
+        "by": "DamonHD",
+        "score": 149,
+        "descendants": 60,
+        "time": 1788419053,
+        "comments_url": "https://news.ycombinator.com/item?id=49546800"
+      },
+      "tags": [
+        "Science"
+      ],
+      "hot_score": 1.08
+    },
+    {
+      "title_en": "Texas Data Center Map: See where data centers are operating or planned",
+      "url": "https://www.kxan.com/news/texas/texas-data-center-tracker-see-where-600-projects-are-operating-or-planned-across-state-in-interactive-map/",
+      "title_zh": "德州数据中心地图：查看现有与规划中的数据中心",
+      "created_display": "Created: Sep 03, 2026 / 09:10 PT",
+      "image_url": null,
+      "summary_en": "An interactive map shows Texas data centers operating or planned, highlighting regional concentration and growth in cloud infrastructure. The tracker helps gauge energy demand and regional capacity.",
+      "summary_zh": "一张交互地图显示德州现有与规划中的数据中心，突出区域集中度与云基础设施增长。该追踪有助于评估能源需求与区域容量。",
+      "hn": {
+        "id": 49552375,
+        "type": "story",
+        "by": "simonpure",
+        "score": 27,
+        "descendants": 19,
+        "time": 1788451812,
+        "comments_url": "https://news.ycombinator.com/item?id=49552375"
+      },
+      "hot_score": 0.95,
+      "tags": [
+        "Data",
+        "Energy",
+        "DevOps"
+      ]
+    },
+    {
+      "title_en": "The Double Matthew Walker Knot by Fable 5.1",
+      "url": "https://claude.ai/public/artifacts/06fd26a5-403c-47c8-af49-dcf6c35ec55c",
+      "title_zh": "Fable 5.1 的双重马修·沃克结",
+      "created_display": "Created: Sep 03, 2026 / 11:09 PT",
+      "image_url": "https://claude.ai/images/claude_ogimage.png",
+      "summary_en": "Fable 5.1 introduces a mathematically themed knot named the Double Matthew Walker Knot.",
+      "summary_zh": "Fable 5.1 引入一个以数学为主题的结法，命名为“双重马修·沃克结”。",
+      "hn": {
+        "id": 49554154,
+        "type": "story",
+        "by": "nemesis17",
+        "score": 14,
+        "descendants": 8,
+        "time": 1788458977,
+        "comments_url": "https://news.ycombinator.com/item?id=49554154"
+      },
+      "hot_score": 0.94,
+      "tags": [
+        "Science"
+      ]
     },
     {
       "title_en": "Google avoids a breakup of its ad tech business",
@@ -543,11 +779,33 @@
         "comments_url": "https://news.ycombinator.com/item?id=49537131"
       },
       "tags": [
-        "Legal",
-        "Business",
         "Politics"
       ],
-      "hot_score": 1.09
+      "hot_score": 0.92
+    },
+    {
+      "title_en": "Launch HN: Mireye (YC S26) – Infrastructure for Physical World AI Agents",
+      "url": "https://news.ycombinator.com/item?id=49552616",
+      "title_zh": "Launch HN：Mireye（YC S26）——面向现实世界 AI 代理的基础设施",
+      "created_display": "Created: Sep 03, 2026 / 09:24 PT",
+      "image_url": "https://www.mireye.com/opengraph-image.jpg?opengraph-image.3tqhkbq-kchk3.jpg?dpl=dpl_EVktJUdt9mPq4FhQvUfHtJTbhxo8",
+      "summary_en": "Mireye provides infrastructure for deploying AI agents in the physical world, including robotics and sensor integration. The YC S26 startup promises tools to coordinate perception, planning, and actuation at scale.",
+      "summary_zh": "Mireye 提供面向现实世界的 AI 代理部署基础设施，涵盖机器人感知、规划与执行的整合。该 YC S26 初创公司承诺实现大规模的感知、决策与行动编排。",
+      "hn": {
+        "id": 49552616,
+        "type": "story",
+        "by": "anshchokshi",
+        "score": 24,
+        "descendants": 1,
+        "time": 1788452653,
+        "comments_url": "https://news.ycombinator.com/item?id=49552616"
+      },
+      "tags": [
+        "AI",
+        "Startups",
+        "DevOps"
+      ],
+      "hot_score": 0.9
     },
     {
       "title_en": "Fable 5.1 World Modeling",
@@ -567,59 +825,9 @@
         "comments_url": "https://news.ycombinator.com/item?id=49541458"
       },
       "tags": [
-        "AI",
-        "Programming"
+        "AI"
       ],
-      "hot_score": 1.06
-    },
-    {
-      "title_en": "Inside Google’s $200bn Wall Street finance machine for Anthropic",
-      "url": "https://www.ft.com/content/549f2e23-5aa2-49c7-9ea6-a9784ab7087c",
-      "title_zh": "Inside Google’s $200bn Wall Street finance machine for Anthropic",
-      "created_display": "Created: Sep 03, 2026 / 08:26 PT",
-      "image_url": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Faa0f6f91-1560-41e6-9e26-d233cb62ea61.jpg?source=next-barrier-page&fit=scale-down&quality=highest&width=700&dpr=1",
-      "summary_en": "The article reveals Google's massive financing and strategic framework for Anthropic, shaping AI startup funding and competition with deep financing instruments. It discusses implications for AI safety governance and market dynamics.",
-      "summary_zh": "报道揭示 Google 在 Anthropic 上建立的大规模融资与战略框架，影响 AI 初创公司融资与竞争格局。讨论其对 AI 安全治理与市场动态的潜在影响。",
-      "hn": {
-        "id": 49551601,
-        "type": "story",
-        "by": "porridgeraisin",
-        "score": 14,
-        "descendants": 1,
-        "time": 1788449187,
-        "comments_url": "https://news.ycombinator.com/item?id=49551601"
-      },
-      "hot_score": 1.01,
-      "tags": [
-        "Finance",
-        "Business",
-        "AI",
-        "Startups"
-      ]
-    },
-    {
-      "title_en": "Launch HN: Mireye (YC S26) – Infrastructure for Physical World AI Agents",
-      "url": "https://www.mireye.com",
-      "title_zh": "Launch HN：Mireye（YC S26）——面向现实世界 AI 代理的基础设施",
-      "created_display": "Created: Sep 03, 2026 / 09:24 PT",
-      "image_url": "https://www.mireye.com/opengraph-image.jpg?opengraph-image.3tqhkbq-kchk3.jpg?dpl=dpl_EVktJUdt9mPq4FhQvUfHtJTbhxo8",
-      "summary_en": "Mireye provides infrastructure for deploying AI agents in the physical world, including robotics and sensor integration. The YC S26 startup promises tools to coordinate perception, planning, and actuation at scale.",
-      "summary_zh": "Mireye 提供面向现实世界的 AI 代理部署基础设施，涵盖机器人感知、规划与执行的整合。该 YC S26 初创公司承诺实现大规模的感知、决策与行动编排。",
-      "hn": {
-        "id": 49552616,
-        "type": "story",
-        "by": "anshchokshi",
-        "score": 9,
-        "descendants": 0,
-        "time": 1788452653,
-        "comments_url": "https://news.ycombinator.com/item?id=49552616"
-      },
-      "hot_score": 1.0,
-      "tags": [
-        "AI",
-        "Startups",
-        "DevOps"
-      ]
+      "hot_score": 0.86
     },
     {
       "title_en": "Three sites made 215,128 “best software” pages for AI. Perplexity cites them",
@@ -642,7 +850,7 @@
         "Data",
         "AI"
       ],
-      "hot_score": 0.98
+      "hot_score": 0.83
     },
     {
       "title_en": "Can I opt out of my input or output data being used for training?",
@@ -665,7 +873,7 @@
         "Privacy",
         "AI"
       ],
-      "hot_score": 0.93
+      "hot_score": 0.79
     },
     {
       "title_en": "I wanna live an NPC life",
@@ -688,52 +896,51 @@
         "Culture",
         "AI"
       ],
-      "hot_score": 0.87
+      "hot_score": 0.71
     },
     {
-      "title_en": "Instrument Clusters Are Now Paid Extras in Two Hyundai Models",
-      "url": "https://www.caranddriver.com/news/a73583741/hyundai-instrument-cluster-paid-option/",
-      "title_zh": "两款现代车型将仪表簇作为付费选配",
-      "created_display": "Created: Sep 03, 2026 / 10:25 PT",
-      "image_url": "https://hips.hearstapps.com/hmg-prod/images/2fa717dc-2eea-4e9c-9606-239dc6d770d0.jpg?crop=0.664xw:0.498xh;0.137xw,0.257xh&resize=1200:*",
-      "summary_en": "Hyundai adds paid instrument clusters as optional extras on two models, reflecting broader trends in feature gating and monetization of automotive interfaces. The move raises questions about value, repairability, and total ownership costs.",
-      "summary_zh": "现代在两款车型上将仪表簇作为付费选配，反映了汽车界在功能分级与界面商业化的趋势。此举引发对价值、可修复性及总体拥有成本的讨论。",
+      "title_en": "Gloria Steinem has died",
+      "url": "https://www.theguardian.com/books/2026/sep/03/gloria-steinem-groundbreaking-feminist-campaigner-dies-aged-92",
+      "title_zh": "格洛丽亚·斯坦姆去世",
+      "created_display": "Created: Sep 03, 2026 / 03:31 PT",
+      "image_url": "https://i.guim.co.uk/img/media/40b70b8f5b6aa7ba38af77c2ac99e035c0c765db/0_68_5256_3154/master/5256.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=43971682c6296560810fc844e5b7bef8",
+      "summary_en": "Gloria Steinem, a pivotal feminist organizer and writer, has died at age 92. Her career helped advance women's rights and media literacy in tech and beyond, influencing voices in advocacy and policy.",
+      "summary_zh": "格洛丽亚·斯坦姆，关键的女性主义组织者与作家，逝世，享年92岁。她一生推动女性权利与媒介素养，在科技及其他领域的倡导与政策领域都产生深远影响。",
       "hn": {
-        "id": 49553549,
+        "id": 49548256,
         "type": "story",
-        "by": "WarOnPrivacy",
-        "score": 4,
-        "descendants": 1,
-        "time": 1788456347,
-        "comments_url": "https://news.ycombinator.com/item?id=49553549"
+        "by": "mellosouls",
+        "score": 61,
+        "descendants": 21,
+        "time": 1788431478,
+        "comments_url": "https://news.ycombinator.com/item?id=49548256"
       },
-      "hot_score": 0.76,
+      "hot_score": 0.69,
       "tags": [
-        "Business"
+        "Culture"
       ]
     },
     {
-      "title_en": "Claude for Commerce Agents",
-      "url": "https://claude.com/blog/claude-for-commerce-agents",
-      "title_zh": "Claude 面向商务代理的能力升级",
-      "created_display": "Created: Sep 03, 2026 / 02:37 PT",
-      "image_url": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d228c83775fcc75f4e6d_74409af25137110ac04cc39e4d5ea0a2fbcea421-1000x1000.svg",
-      "summary_en": "Claude gains new capabilities tailored for commerce agents, enabling faster customer interactions, order processing, and sales workflows. The update expands Claude’s role in e-commerce, with attention to privacy and data handling.",
-      "summary_zh": "Claude 推出面向商务代理的新能力，加速客户沟通、订单处理与销售流程的自动化。此更新扩大了 Claude 在电商场景中的应用，同时关注隐私与数据处理。",
+      "title_en": "How to bring up the Linux Kernel on a new platform",
+      "url": "https://werwolv.net/posts/linux_bringup/",
+      "title_zh": "在新平台上启动 Linux 内核的步骤",
+      "created_display": "Created: Sep 03, 2026 / 10:57 PT",
+      "image_url": null,
+      "summary_en": "A practical guide walks through bring-up steps for porting the Linux kernel to new hardware. Expect details on bootloaders, device tree, drivers, and early debugging strategies.",
+      "summary_zh": "一本实用指南介绍在新硬件上移植 Linux 内核的启动过程，涵盖引导加载程序、设备树、驱动以及早期调试策略等要点。",
       "hn": {
-        "id": 49547888,
+        "id": 49553988,
         "type": "story",
-        "by": "ashazal",
-        "score": 48,
-        "descendants": 50,
-        "time": 1788428275,
-        "comments_url": "https://news.ycombinator.com/item?id=49547888"
+        "by": "WerWolv",
+        "score": 11,
+        "descendants": 1,
+        "time": 1788458269,
+        "comments_url": "https://news.ycombinator.com/item?id=49553988"
       },
-      "hot_score": 0.75,
+      "hot_score": 0.67,
       "tags": [
-        "AI",
-        "Business",
-        "Privacy"
+        "Programming",
+        "Hardware"
       ]
     },
     {
@@ -756,98 +963,29 @@
       "tags": [
         "Science"
       ],
-      "hot_score": 0.74
+      "hot_score": 0.62
     },
     {
-      "title_en": "Japan halves speed limit to 30km/h on all narrow city streets",
-      "url": "https://www.theguardian.com/world/2026/sep/02/japan-new-speed-limit-30kmh-narrow-city-streets",
-      "title_zh": "日本在所有狭窄市区街道统一限速至30公里/小时",
-      "created_display": "Created: Sep 03, 2026 / 02:21 PT",
-      "image_url": "https://i.guim.co.uk/img/media/239bad6d4d630d5c23de374c64025bb65a23c595/0_1123_3620_2894/master/3620.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=6e438e58aef117f560c2c3625f31545b",
-      "summary_en": "Japan is cutting the speed limit to 30 km/h on all narrow city streets to improve pedestrian safety and overall urban livability. The move aligns with global trends toward slower, safer streets and could impact travel times, enforcement, and urban design.",
-      "summary_zh": "日本将狭窄市区街道的限速统一降至每小时30公里，以提升行人安全和城市宜居性。这一举措与全球推动更慢更安全街区的趋势相契合，可能影响通勤时间、执法方式以及城市设计。",
+      "title_en": "Usbsid-Pico: Bridging Real Commodore 64 Sound to Modern USB",
+      "url": "https://smallrun.net/blog/loud/usbsid-pico-sids-on-usb",
+      "title_zh": "Usbsid-Pico：将真实 Commodore 64 的 SID 声音通过 USB 接入现代设备",
+      "created_display": "Created: Sep 03, 2026 / 10:09 PT",
+      "image_url": "https://smallrun.net/img/originals/4003fd2e04d820b35c3e36517ae691af6b67ae866075331197a4d59cf61c564d.webp?w=1200&h=630&fit=cover&bg=ffffff",
+      "summary_en": "Usbsid-Pico is a compact hardware project that bridges authentic Commodore 64 SID audio to USB, delivering high-fidelity retro sound to modern setups. It appeals to retro computing enthusiasts seeking authentic C64 audio without aging analog interfaces.",
+      "summary_zh": "Usbsid-Pico 是一个小型硬件，将 Commodore 64 的原生 SID 音频通过 USB 输出，为现代设备提供高保真复古音效，深受爱好者欢迎。",
       "hn": {
-        "id": 49547763,
+        "id": 49553303,
         "type": "story",
-        "by": "haunter",
-        "score": 46,
-        "descendants": 31,
-        "time": 1788427313,
-        "comments_url": "https://news.ycombinator.com/item?id=49547763"
+        "by": "LouDNL",
+        "score": 13,
+        "descendants": 4,
+        "time": 1788455344,
+        "comments_url": "https://news.ycombinator.com/item?id=49553303"
       },
-      "hot_score": 0.69,
       "tags": [
-        "Politics"
-      ]
-    },
-    {
-      "title_en": "Government-funded journalism can work if it's free to report the truth",
-      "url": "https://theconversation.com/stars-and-stripes-shows-how-government-funded-journalism-can-work-if-its-free-to-report-the-truth-290477",
-      "title_zh": "政府资助的新闻若能自由报道真相就能有效",
-      "created_display": "Created: Sep 03, 2026 / 10:18 PT",
-      "image_url": "https://images.theconversation.com/files/757613/original/file-20260902-50-5m32rh.jpg?ixlib=rb-4.1.1&rect=0%2C407%2C4585%2C2292&q=45&auto=format&w=1356&h=668&fit=crop",
-      "summary_en": "The piece argues government-funded journalism can work if protections ensure reporters report truth without censorship or capture, and independence is preserved. It discusses models and safeguards for editorial freedom.",
-      "summary_zh": "文章认为政府资助的新闻若能在不受审查与政治干预的前提下自由报道真相，并保持独立性，就能发挥作用。探讨了可行模型与保障编辑自由的措施。",
-      "hn": {
-        "id": 49553443,
-        "type": "story",
-        "by": "chmaynard",
-        "score": 4,
-        "descendants": 0,
-        "time": 1788455922,
-        "comments_url": "https://news.ycombinator.com/item?id=49553443"
-      },
-      "hot_score": 0.69,
-      "tags": [
-        "Politics"
-      ]
-    },
-    {
-      "title_en": "Meta wanted to reduce teams by 60% because of AI",
-      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-meta-wanted-to-reduce-teams",
-      "title_zh": "Meta 因 AI 而计划削减 60% 的团队",
-      "created_display": "Created: Sep 03, 2026 / 10:18 PT",
-      "image_url": "https://substackcdn.com/image/fetch/$s_!e8iR!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4101a302-8ebd-44c4-906e-367d8be75b59_1242x892.png",
-      "summary_en": "Reports suggest Meta considered drastic headcount reductions tied to AI-driven efficiency gains, raising questions about product roadmaps and the human cost of automation. The piece analyzes management strategy and engineering culture implications.",
-      "summary_zh": "据报道，Meta 曾考虑因 AI 提高效率而大规模裁员，涉及产品路线与自动化带来的人员成本等问题。文章分析了管理策略与工程文化的影响。",
-      "hn": {
-        "id": 49553438,
-        "type": "story",
-        "by": "Plasmoid",
-        "score": 4,
-        "descendants": 0,
-        "time": 1788455905,
-        "comments_url": "https://news.ycombinator.com/item?id=49553438"
-      },
-      "hot_score": 0.69,
-      "tags": [
-        "Business",
-        "AI"
-      ]
-    },
-    {
-      "title_en": "Yes, no (built-in) AI is now a feature – LibreOffice blog",
-      "url": "https://blog.documentfoundation.org/blog/2026/09/03/yes-no-ai-is-now-a-feature/",
-      "title_zh": "是与否？（内置）AI 已成为 LibreOffice 的功能",
-      "created_display": "Created: Sep 03, 2026 / 10:12 PT",
-      "image_url": "https://blog.documentfoundation.org/wp-content/uploads/2026/09/LO268_banner_2to1_green.png",
-      "summary_en": "LibreOffice now treats built-in AI as a formal feature, enabling AI-assisted tasks directly within the suite. The note discusses rationale, privacy considerations, and trade-offs between convenience and control.",
-      "summary_zh": "LibreOffice 现将内置 AI 作为正式功能纳入办公套件，直接在应用中提供 AI 辅助。文章讨论了推出原因、隐私考量以及便利性与控制之间的权衡。",
-      "hn": {
-        "id": 49553350,
-        "type": "story",
-        "by": "mksaunders2",
-        "score": 4,
-        "descendants": 0,
-        "time": 1788455570,
-        "comments_url": "https://news.ycombinator.com/item?id=49553350"
-      },
-      "hot_score": 0.64,
-      "tags": [
-        "AI",
-        "Open Source",
-        "Privacy"
-      ]
+        "Hardware"
+      ],
+      "hot_score": 0.59
     },
     {
       "title_en": "Aging brains blend memories together instead of just forgetting them",
@@ -867,10 +1005,10 @@
         "comments_url": "https://news.ycombinator.com/item?id=49535548"
       },
       "tags": [
-        "Science",
+        "Health",
         "AI"
       ],
-      "hot_score": 0.62
+      "hot_score": 0.53
     },
     {
       "title_en": "Exit the Cave",
@@ -892,73 +1030,28 @@
       "tags": [
         "Culture"
       ],
-      "hot_score": 0.62
+      "hot_score": 0.52
     },
     {
-      "title_en": "Artificial beaver dams saw juvenile coho salmon survival rates go from 8% to 60%",
-      "url": "https://www.discoverwildlife.com/animal-facts/artificial-beaver-dams-california",
-      "title_zh": "人工海狸坝提升鲑鱼幼鱼存活率",
-      "created_display": "Created: Sep 03, 2026 / 09:21 PT",
-      "image_url": "https://d2rj6cu2ik1biv.cloudfront.net/193c804a-a673-47bd-b09b-11baf4822a17/9ac494a4-627d-4fea-a827-dcf588dd6f96/fd5ffa75-92b9-459b-9465-2f2d37321e0d/thumbnails/5fdb6aa7-15a3-4f1c-8980-ce664981a95c.jpeg?appId=f347d34d-c1a6-4a00-b570-b78c2dcb3211&w=1200",
-      "summary_en": "A study shows artificial beaver dams increased juvenile coho salmon survival from 8% to 60%, illustrating ecosystem engineering benefits. The result highlights how landscape interventions can boost biodiversity and fisheries.",
-      "summary_zh": "研究显示人工海狸坝将幼年鲑鱼存活率从 8% 提升到 60%，显示出生态工程的潜在效益。结果凸显景观干预对提升生物多样性与渔业的潜在贡献。",
+      "title_en": "OpenAI's new reasoning technique alarms AI safety experts",
+      "url": "https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts/",
+      "title_zh": "OpenAI 的新推理技术引发 AI 安全专家警惕",
+      "created_display": "Created: Sep 03, 2026 / 09:11 PT",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/07/OpenAI-logo-in-Seoul.jpg?w=1024",
+      "summary_en": "OpenAI unveils a new reasoning technique that some experts worry could enable more sophisticated prompting or hidden manipulation. The discussion centers on safety, alignment, and mitigation strategies.",
+      "summary_zh": "OpenAI 推出一种新型推理技术，部分专家担心可能带来更高级的引导或隐藏操控。讨论聚焦于安全、对齐与缓解策略。",
       "hn": {
-        "id": 49552572,
+        "id": 49552395,
         "type": "story",
-        "by": "speckx",
-        "score": 6,
-        "descendants": 0,
-        "time": 1788452493,
-        "comments_url": "https://news.ycombinator.com/item?id=49552572"
+        "by": "Brajeshwar",
+        "score": 15,
+        "descendants": 3,
+        "time": 1788451884,
+        "comments_url": "https://news.ycombinator.com/item?id=49552395"
       },
-      "hot_score": 0.61,
+      "hot_score": 0.51,
       "tags": [
-        "Science",
-        "Programming"
-      ]
-    },
-    {
-      "title_en": "Usbsid-Pico: Bridging Real Commodore 64 Sound to Modern USB",
-      "url": "https://smallrun.net/blog/loud/usbsid-pico-sids-on-usb",
-      "title_zh": "Usbsid-Pico：将真实 Commodore 64 的 SID 声音通过 USB 接入现代设备",
-      "created_display": "Created: Sep 03, 2026 / 10:09 PT",
-      "image_url": "https://smallrun.net/img/originals/4003fd2e04d820b35c3e36517ae691af6b67ae866075331197a4d59cf61c564d.webp?w=1200&h=630&fit=cover&bg=ffffff",
-      "summary_en": "Usbsid-Pico is a compact hardware project that bridges authentic Commodore 64 SID audio to USB, delivering high-fidelity retro sound to modern setups. It appeals to retro computing enthusiasts seeking authentic C64 audio without aging analog interfaces.",
-      "summary_zh": "Usbsid-Pico 是一个小型硬件，将 Commodore 64 的原生 SID 音频通过 USB 输出，为现代设备提供高保真复古音效，深受爱好者欢迎。",
-      "hn": {
-        "id": 49553303,
-        "type": "story",
-        "by": "LouDNL",
-        "score": 4,
-        "descendants": 0,
-        "time": 1788455344,
-        "comments_url": "https://news.ycombinator.com/item?id=49553303"
-      },
-      "hot_score": 0.61,
-      "tags": [
-        "Hardware"
-      ]
-    },
-    {
-      "title_en": "Cheap Desktop 400GbE Switch MikroTik CRS804-4DDQ-HRM Review",
-      "url": "https://www.servethehome.com/mikrotik-crs804-4ddq-hrm-review-marvell-annapurna-labs-400gbe/",
-      "title_zh": "MikroTik CRS804-4DDQ-HRM 400GbE 桌面交换机评测",
-      "created_display": "Created: Sep 03, 2026 / 10:05 PT",
-      "image_url": "https://www.servethehome.com/wp-content/uploads/2026/09/MikroTik-CRS804-DDQ-Two-Untis-Front-1.jpg",
-      "summary_en": "A hands-on review of the MikroTik CRS804-4DDQ-HRM 400GbE desktop switch, powered by Marvell/ Annapurna Labs silicon. It evaluates performance, noise, and suitability for small labs or edge deployments.",
-      "summary_zh": "对 MikroTik CRS804-4DDQ-HRM 400GbE 桌面交换机进行实测评测，芯片来自 Marvell/ Annapurna Labs，评估性能、噪音与在小型实验室或边缘部署的适用性。",
-      "hn": {
-        "id": 49553253,
-        "type": "story",
-        "by": "speckx",
-        "score": 4,
-        "descendants": 0,
-        "time": 1788455124,
-        "comments_url": "https://news.ycombinator.com/item?id=49553253"
-      },
-      "hot_score": 0.58,
-      "tags": [
-        "Hardware"
+        "AI"
       ]
     },
     {
@@ -979,10 +1072,102 @@
         "comments_url": "https://news.ycombinator.com/item?id=49533497"
       },
       "tags": [
-        "Culture",
-        "Gaming"
+        "Gaming",
+        "Culture"
       ],
-      "hot_score": 0.57
+      "hot_score": 0.49
+    },
+    {
+      "title_en": "Claude for Commerce Agents",
+      "url": "https://claude.com/blog/claude-for-commerce-agents",
+      "title_zh": "Claude 面向商务代理的能力升级",
+      "created_display": "Created: Sep 03, 2026 / 02:37 PT",
+      "image_url": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6903d228c83775fcc75f4e6d_74409af25137110ac04cc39e4d5ea0a2fbcea421-1000x1000.svg",
+      "summary_en": "Claude gains new capabilities tailored for commerce agents, enabling faster customer interactions, order processing, and sales workflows. The update expands Claude’s role in e-commerce, with attention to privacy and data handling.",
+      "summary_zh": "Claude 推出面向商务代理的新能力，加速客户沟通、订单处理与销售流程的自动化。此更新扩大了 Claude 在电商场景中的应用，同时关注隐私与数据处理。",
+      "hn": {
+        "id": 49547888,
+        "type": "story",
+        "by": "ashazal",
+        "score": 48,
+        "descendants": 50,
+        "time": 1788428275,
+        "comments_url": "https://news.ycombinator.com/item?id=49547888"
+      },
+      "hot_score": 0.48,
+      "tags": [
+        "AI",
+        "Privacy"
+      ]
+    },
+    {
+      "title_en": "Japan halves speed limit to 30km/h on all narrow city streets",
+      "url": "https://www.theguardian.com/world/2026/sep/02/japan-new-speed-limit-30kmh-narrow-city-streets",
+      "title_zh": "日本在所有狭窄市区街道统一限速至30公里/小时",
+      "created_display": "Created: Sep 03, 2026 / 02:21 PT",
+      "image_url": "https://i.guim.co.uk/img/media/239bad6d4d630d5c23de374c64025bb65a23c595/0_1123_3620_2894/master/3620.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=6e438e58aef117f560c2c3625f31545b",
+      "summary_en": "Japan is cutting the speed limit to 30 km/h on all narrow city streets to improve pedestrian safety and overall urban livability. The move aligns with global trends toward slower, safer streets and could impact travel times, enforcement, and urban design.",
+      "summary_zh": "日本将狭窄市区街道的限速统一降至每小时30公里，以提升行人安全和城市宜居性。这一举措与全球推动更慢更安全街区的趋势相契合，可能影响通勤时间、执法方式以及城市设计。",
+      "hn": {
+        "id": 49547763,
+        "type": "story",
+        "by": "haunter",
+        "score": 46,
+        "descendants": 31,
+        "time": 1788427313,
+        "comments_url": "https://news.ycombinator.com/item?id=49547763"
+      },
+      "hot_score": 0.44,
+      "tags": [
+        "Politics"
+      ]
+    },
+    {
+      "title_en": "FBI Probes Service Selling 153M+ Drivers Licenses",
+      "url": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
+      "title_zh": "FBI 调查销售超过1.53亿张驾照的服务",
+      "created_display": "Created: Sep 01, 2026 / 16:17 PT",
+      "image_url": "https://krebsonsecurity.com/b-gartner/11.png",
+      "summary_en": "The FBI probes a service suspected of selling more than 153 million driver’s licenses, illustrating how ID data marketplaces can operate at scale. The case underscores the urgency of improving credential security and monitoring online marketplaces for illicit activity.",
+      "summary_zh": "FBI 正在调查一家疑似销售超过1.53亿张驾照的服务，揭示了身份数据市场如何在大规模运作。此案凸显提升凭证安全和监控在线非法市场的紧迫性。",
+      "hn": {
+        "id": 49529621,
+        "type": "story",
+        "by": "tatersolid",
+        "score": 405,
+        "descendants": 266,
+        "time": 1788304663,
+        "comments_url": "https://news.ycombinator.com/item?id=49529621"
+      },
+      "tags": [
+        "Privacy",
+        "Security"
+      ],
+      "hot_score": 0.39
+    },
+    {
+      "title_en": "Inside Google’s $200bn Wall Street finance machine for Anthropic",
+      "url": "https://www.ft.com/content/549f2e23-5aa2-49c7-9ea6-a9784ab7087c",
+      "title_zh": "Inside Google’s $200bn Wall Street finance machine for Anthropic",
+      "created_display": "Created: Sep 03, 2026 / 08:26 PT",
+      "image_url": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Faa0f6f91-1560-41e6-9e26-d233cb62ea61.jpg?source=next-barrier-page&fit=scale-down&quality=highest&width=700&dpr=1",
+      "summary_en": "The article reveals Google's massive financing and strategic framework for Anthropic, shaping AI startup funding and competition with deep financing instruments. It discusses implications for AI safety governance and market dynamics.",
+      "summary_zh": "报道揭示 Google 在 Anthropic 上建立的大规模融资与战略框架，影响 AI 初创公司融资与竞争格局。讨论其对 AI 安全治理与市场动态的潜在影响。",
+      "hn": {
+        "id": 49551601,
+        "type": "story",
+        "by": "porridgeraisin",
+        "score": 14,
+        "descendants": 1,
+        "time": 1788449187,
+        "comments_url": "https://news.ycombinator.com/item?id=49551601"
+      },
+      "hot_score": 0.39,
+      "tags": [
+        "AI",
+        "Finance",
+        "Startups"
+      ]
     },
     {
       "title_en": "Qantas Airbus A380 engine failure in 2010 (2023)",
@@ -1005,7 +1190,29 @@
         "Science",
         "Politics"
       ],
-      "hot_score": 0.45
+      "hot_score": 0.37
+    },
+    {
+      "title_en": "VC isn't VC anymore",
+      "url": "https://www.anildash.com/2026/09/02/cancer-capital/",
+      "title_zh": "VC 早已不再是风险投资",
+      "created_display": "Created: Sep 02, 2026 / 15:05 PT",
+      "image_url": "https://www.anildash.com/images/cancer-capital-1.jpg",
+      "summary_en": "A critique argues that traditional VC is diverging from founder needs, driven by burn rates, fund structure, and market dynamics. The piece calls for rethinking incentives and funding models to support long-horizon innovation.",
+      "summary_zh": "一篇观点文章认为传统风险投资正在背离创始人需求，受烧钱速度、基金结构和市场动态的驱动。文章呼吁重新设定激励与资助模式，以支持长期创新。",
+      "hn": {
+        "id": 49543220,
+        "type": "story",
+        "by": "cdrnsf",
+        "score": 111,
+        "descendants": 119,
+        "time": 1788386739,
+        "comments_url": "https://news.ycombinator.com/item?id=49543220"
+      },
+      "hot_score": 0.35,
+      "tags": [
+        "Business"
+      ]
     },
     {
       "title_en": "Launch HN: RonanRX (YC S26) – Personalized Peptides and GLP-1s",
@@ -1025,77 +1232,34 @@
         "comments_url": "https://news.ycombinator.com/item?id=49543530"
       },
       "tags": [
-        "Startups",
         "Health",
+        "Startups",
         "Politics"
       ],
-      "hot_score": 0.45
+      "hot_score": 0.35
     },
     {
-      "title_en": "FBI Probes Service Selling 153M+ Drivers Licenses",
-      "url": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
-      "title_zh": "FBI 调查销售超过1.53亿张驾照的服务",
-      "created_display": "Created: Sep 01, 2026 / 16:17 PT",
-      "image_url": "https://krebsonsecurity.com/b-gartner/11.png",
-      "summary_en": "The FBI probes a service suspected of selling more than 153 million driver’s licenses, illustrating how ID data marketplaces can operate at scale. The case underscores the urgency of improving credential security and monitoring online marketplaces for illicit activity.",
-      "summary_zh": "FBI 正在调查一家疑似销售超过1.53亿张驾照的服务，揭示了身份数据市场如何在大规模运作。此案凸显提升凭证安全和监控在线非法市场的紧迫性。",
+      "title_en": "Go grandmaster Shin defeats AI KataGo with a two-stone handicap",
+      "url": "https://www.kedglobal.com/artificial-intelligence/newsView/ked202607210007",
+      "title_zh": "围棋大师 Shin 在让两子下败 AI KataGo",
+      "created_display": "Created: Sep 02, 2026 / 18:11 PT",
+      "image_url": "https://www.kedglobal.com/data/ked/image/2026/07/21/ked202607210032.jpg",
+      "summary_en": "A Go match shows a human grandmaster overcome AI KataGo when giving AI a two-stone handicap. The result reinforces that human intuition and strategic depth still matter in AI-assisted games.",
+      "summary_zh": "在围棋对局中，围棋大师 Shin 在对 KataGo 给出两子让子的情况下获胜。这一结果强化了在 AI 辅助的棋局中，人工直觉与策略深度仍具决定性作用。",
       "hn": {
-        "id": 49529621,
+        "id": 49544762,
         "type": "story",
-        "by": "tatersolid",
-        "score": 405,
-        "descendants": 266,
-        "time": 1788304663,
-        "comments_url": "https://news.ycombinator.com/item?id=49529621"
+        "by": "gmays",
+        "score": 82,
+        "descendants": 19,
+        "time": 1788397882,
+        "comments_url": "https://news.ycombinator.com/item?id=49544762"
       },
+      "hot_score": 0.33,
       "tags": [
-        "Security",
-        "Legal"
-      ],
-      "hot_score": 0.44
-    },
-    {
-      "title_en": "Reasons robotics is hard",
-      "url": "https://secondthoughts.ai/p/14-reasons-robotics-is-hard",
-      "title_zh": "机器人为何难以实现：十四条原因",
-      "created_display": "Created: Sep 02, 2026 / 15:02 PT",
-      "image_url": "https://substackcdn.com/image/fetch/$s_!Oq1t!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc0980aeb-8522-4f72-a7a3-c93bce52315d_1024x772.png",
-      "summary_en": "A concise list of 14 fundamental challenges in robotics, from perception and control to system integration, safety, and real-world deployment hurdles.",
-      "summary_zh": "总结了机器人领域的14个核心难点，涵盖感知、控制、系统集成、安全性以及落地部署等方面的挑战。",
-      "hn": {
-        "id": 49543191,
-        "type": "story",
-        "by": "ddp26",
-        "score": 103,
-        "descendants": 59,
-        "time": 1788386550,
-        "comments_url": "https://news.ycombinator.com/item?id=49543191"
-      },
-      "tags": [
+        "AI",
+        "Gaming",
         "Programming"
-      ],
-      "hot_score": 0.41
-    },
-    {
-      "title_en": "What archaeology reveals about the rise of autocracy",
-      "url": "https://knowablemagazine.org/content/article/society/2026/what-archaeology-reveals-about-rise-of-autocracy",
-      "title_zh": "考古学揭示专制兴起的线索",
-      "created_display": "Created: Sep 03, 2026 / 10:10 PT",
-      "image_url": null,
-      "summary_en": "Knowable Magazine reports archaeological findings that illuminate historical conditions fostering autocracy, such as urbanization and resource control, linking ancient patterns to modern politics.",
-      "summary_zh": "Knowable Magazine 报道的考古发现揭示了促成专制兴起的历史条件，如城市化和资源控制，并将古代模式与现代政治联系起来。",
-      "hn": {
-        "id": 49553320,
-        "type": "story",
-        "by": "knowablemag",
-        "score": 3,
-        "descendants": 0,
-        "time": 1788455405,
-        "comments_url": "https://news.ycombinator.com/item?id=49553320"
-      },
-      "hot_score": 0.41,
-      "tags": [
-        "Politics"
       ]
     },
     {
@@ -1118,7 +1282,52 @@
       "tags": [
         "Programming"
       ],
-      "hot_score": 0.38
+      "hot_score": 0.32
+    },
+    {
+      "title_en": "Reasons robotics is hard",
+      "url": "https://secondthoughts.ai/p/14-reasons-robotics-is-hard",
+      "title_zh": "机器人为何难以实现：十四条原因",
+      "created_display": "Created: Sep 02, 2026 / 15:02 PT",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!Oq1t!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc0980aeb-8522-4f72-a7a3-c93bce52315d_1024x772.png",
+      "summary_en": "A concise list of 14 fundamental challenges in robotics, from perception and control to system integration, safety, and real-world deployment hurdles.",
+      "summary_zh": "总结了机器人领域的14个核心难点，涵盖感知、控制、系统集成、安全性以及落地部署等方面的挑战。",
+      "hn": {
+        "id": 49543191,
+        "type": "story",
+        "by": "ddp26",
+        "score": 103,
+        "descendants": 59,
+        "time": 1788386550,
+        "comments_url": "https://news.ycombinator.com/item?id=49543191"
+      },
+      "tags": [
+        "Science"
+      ],
+      "hot_score": 0.32
+    },
+    {
+      "title_en": "Sanders introduces bill to ban artificial superintelligence and pause AI",
+      "url": "https://www.sanders.senate.gov/press-releases/news-sanders-casar-introduce-legislation-to-ban-artificial-superintelligence-and-temporarily-pause-advanced-ai-development/",
+      "title_zh": "桑德斯提出法案：禁止人工超智能并暂停 AI 发展",
+      "created_display": "Created: Sep 03, 2026 / 10:20 PT",
+      "image_url": "https://www.sanders.senate.gov/wp-content/uploads/2020/11/bernie-sanders-logo-greens-yellow-768x116.png",
+      "summary_en": "Senator Sanders introduces legislation to ban artificial superintelligence and temporarily pause advanced AI development, citing societal and worker disruption risks. The proposal fuels a broader debate on governance and feasibility.",
+      "summary_zh": "参议员桑德斯提出法案，禁止人工超智能并暂时暂停高级 AI 发展，强调对社会与就业的潜在风险。该提案推动关于治理与可行性的广泛讨论。",
+      "hn": {
+        "id": 49553463,
+        "type": "story",
+        "by": "-_-",
+        "score": 7,
+        "descendants": 3,
+        "time": 1788456029,
+        "comments_url": "https://news.ycombinator.com/item?id=49553463"
+      },
+      "hot_score": 0.32,
+      "tags": [
+        "Politics",
+        "AI"
+      ]
     },
     {
       "title_en": "Six curl CVEs after OpenAI and Anthropic came back with zero",
@@ -1141,7 +1350,32 @@
         "Security",
         "AI"
       ],
-      "hot_score": 0.37
+      "hot_score": 0.31
+    },
+    {
+      "title_en": "My local model setup on an M4 Pro Mac Mini",
+      "url": "https://lws.io/blog/my-local-model-setup/",
+      "title_zh": "在 M4 Pro Mac Mini 上的本地模型部署",
+      "created_display": "Created: Sep 01, 2026 / 15:30 PT",
+      "image_url": "https://lws.io/open-graph/blog/my-local-model-setup.png",
+      "summary_en": "The post details a practical guide to running local LLM inference on an M4 Pro Mac Mini, including setup, tooling (ggml/llama.cpp or MPS), and performance notes. It demonstrates that privacy-preserving local inference on consumer hardware is increasingly viable for developers and researchers.",
+      "summary_zh": "该文提供在 M4 Pro Mac Mini 上本地运行大模型推理的实用指南，涵盖环境搭建、工具链（如 ggml/llama.cpp 和 MPS）以及性能要点。表明在消费级硬件上本地推理越来越具可行性，有助于开发者和研究者保护隐私。",
+      "hn": {
+        "id": 49529132,
+        "type": "story",
+        "by": "raybb",
+        "score": 307,
+        "descendants": 185,
+        "time": 1788301852,
+        "comments_url": "https://news.ycombinator.com/item?id=49529132"
+      },
+      "tags": [
+        "Programming",
+        "AI",
+        "Privacy",
+        "Hardware"
+      ],
+      "hot_score": 0.29
     },
     {
       "title_en": "Quasar 438B: Europe's Leading AI Model",
@@ -1163,53 +1397,29 @@
       "tags": [
         "AI"
       ],
-      "hot_score": 0.33
+      "hot_score": 0.28
     },
     {
-      "title_en": "My local model setup on an M4 Pro Mac Mini",
-      "url": "https://lws.io/blog/my-local-model-setup/",
-      "title_zh": "在 M4 Pro Mac Mini 上的本地模型部署",
-      "created_display": "Created: Sep 01, 2026 / 15:30 PT",
-      "image_url": "https://lws.io/open-graph/blog/my-local-model-setup.png",
-      "summary_en": "The post details a practical guide to running local LLM inference on an M4 Pro Mac Mini, including setup, tooling (ggml/llama.cpp or MPS), and performance notes. It demonstrates that privacy-preserving local inference on consumer hardware is increasingly viable for developers and researchers.",
-      "summary_zh": "该文提供在 M4 Pro Mac Mini 上本地运行大模型推理的实用指南，涵盖环境搭建、工具链（如 ggml/llama.cpp 和 MPS）以及性能要点。表明在消费级硬件上本地推理越来越具可行性，有助于开发者和研究者保护隐私。",
+      "title_en": "The browser's main thread is expensive",
+      "url": "https://kciter.so/posts/the-expensive-main-thread/en/",
+      "title_zh": "浏览器主线程成本高",
+      "created_display": "Created: Sep 01, 2026 / 07:00 PT",
+      "image_url": "https://kciter.so/images/2026-07-12-the-expensive-main-thread/thumbnail.png",
+      "summary_en": "The main thread handles all UI and script work, so heavy tasks directly impact page responsiveness and frame rate.",
+      "summary_zh": "浏览器的主线程承担着 UI 与脚本的所有工作，密集计算会直接拖慢页面响应和帧率。文章提出减少主线程负担的策略，如将工作移到 Web Worker、批量更新以及使用异步 API和现代任务调度，以保持界面流畅。",
       "hn": {
-        "id": 49529132,
+        "id": 49522137,
         "type": "story",
-        "by": "raybb",
-        "score": 307,
-        "descendants": 185,
-        "time": 1788301852,
-        "comments_url": "https://news.ycombinator.com/item?id=49529132"
+        "by": "kciter",
+        "score": 347,
+        "descendants": 122,
+        "time": 1788271215,
+        "comments_url": "https://news.ycombinator.com/item?id=49522137"
       },
       "tags": [
-        "AI",
-        "Privacy",
-        "Hardware"
+        "Web"
       ],
-      "hot_score": 0.32
-    },
-    {
-      "title_en": "Async Rust vs RTOS showdown (2022)",
-      "url": "https://tweedegolf.nl/en/blog/65/async-rust-vs-rtos-showdown/",
-      "title_zh": "Async Rust 与 RTOS 的对决（2022）",
-      "created_display": "Created: Sep 02, 2026 / 11:32 PT",
-      "image_url": "https://media.tweedegolf.nl/images/rustvsc.png",
-      "summary_en": "A detailed comparison of asynchronous Rust versus RTOS for embedded systems, highlighting latency, determinism, memory safety, and ecosystem trade-offs.",
-      "summary_zh": "对嵌入式系统中异步 Rust 与 RTOS 的深入对比，聚焦延迟、确定性、内存安全和生态系统的取舍。",
-      "hn": {
-        "id": 49540415,
-        "type": "story",
-        "by": "kooi",
-        "score": 98,
-        "descendants": 44,
-        "time": 1788373944,
-        "comments_url": "https://news.ycombinator.com/item?id=49540415"
-      },
-      "tags": [
-        "Programming"
-      ],
-      "hot_score": 0.29
+      "hot_score": 0.24
     },
     {
       "title_en": "WebLLM: high-performance in-browser LLM inference engine",
@@ -1232,72 +1442,27 @@
         "AI",
         "Web"
       ],
-      "hot_score": 0.28
+      "hot_score": 0.24
     },
     {
-      "title_en": "Show HN: Real-time AI news aggregator with daily digest",
-      "url": "https://aibriefs.news",
-      "title_zh": "Show HN：实时 AI 新闻聚合器与每日摘要",
-      "created_display": "Created: Sep 03, 2026 / 07:39 PT",
-      "image_url": null,
-      "summary_en": "A Show HN project builds a real-time AI news aggregator that delivers a daily digest, helping readers stay on top of rapid AI developments. It demonstrates practical tooling for curating AI content.",
-      "summary_zh": "Show HN 项目构建了一个实时 AI 新闻聚合器，提供每日摘要，帮助读者跟进快速发展的 AI 动态，展示了整理 AI 内容的实用工具。",
+      "title_en": "Async Rust vs RTOS showdown (2022)",
+      "url": "https://tweedegolf.nl/en/blog/65/async-rust-vs-rtos-showdown/",
+      "title_zh": "Async Rust 与 RTOS 的对决（2022）",
+      "created_display": "Created: Sep 02, 2026 / 11:32 PT",
+      "image_url": "https://media.tweedegolf.nl/images/rustvsc.png",
+      "summary_en": "A detailed comparison of asynchronous Rust versus RTOS for embedded systems, highlighting latency, determinism, memory safety, and ecosystem trade-offs.",
+      "summary_zh": "对嵌入式系统中异步 Rust 与 RTOS 的深入对比，聚焦延迟、确定性、内存安全和生态系统的取舍。",
       "hn": {
-        "id": 49550515,
+        "id": 49540415,
         "type": "story",
-        "by": "michelmi",
-        "score": 6,
-        "descendants": 5,
-        "time": 1788446367,
-        "comments_url": "https://news.ycombinator.com/item?id=49550515"
-      },
-      "hot_score": 0.28,
-      "tags": [
-        "AI",
-        "Show HN"
-      ]
-    },
-    {
-      "title_en": "Nginx 1.31.5 introduces a built-in JSON parser, Control API, and predicate locat",
-      "url": "https://www.linuxcompatible.org/story/nginx-1315-introduces-a-builtin-json-parser-control-api-and-predicate-locations-in-september-mainline-release/",
-      "title_zh": "Nginx 1.31.5 引入内置 JSON 解析器、控制 API 与谓词定位",
-      "created_display": "Created: Sep 03, 2026 / 05:51 PT",
-      "image_url": "https://www.linuxcompatible.org/data/publish/237/363ab159822fe8de142071aa885b545432d682/nginx.webp",
-      "summary_en": "Nginx 1.31.5 adds a built-in JSON parser, a Control API, and predicate location features, simplifying configuration and runtime introspection. The release enhances JSON handling, API access, and dynamic routing capabilities.",
-      "summary_zh": "Nginx 1.31.5 新增内置 JSON 解析器、控制 API 及谓词定位等特性，简化了配置与运行时自省，提升 JSON 处理、API 接入与动态路由能力。",
-      "hn": {
-        "id": 49549308,
-        "type": "story",
-        "by": "qwertox",
-        "score": 9,
-        "descendants": 0,
-        "time": 1788439881,
-        "comments_url": "https://news.ycombinator.com/item?id=49549308"
-      },
-      "hot_score": 0.26,
-      "tags": [
-        "DevOps"
-      ]
-    },
-    {
-      "title_en": "The browser's main thread is expensive",
-      "url": "https://kciter.so/posts/the-expensive-main-thread/en/",
-      "title_zh": "浏览器主线程成本高",
-      "created_display": "Created: Sep 01, 2026 / 07:00 PT",
-      "image_url": "https://kciter.so/images/2026-07-12-the-expensive-main-thread/thumbnail.png",
-      "summary_en": "The main thread handles all UI and script work, so heavy tasks directly impact page responsiveness and frame rate.",
-      "summary_zh": "浏览器的主线程承担着 UI 与脚本的所有工作，密集计算会直接拖慢页面响应和帧率。文章提出减少主线程负担的策略，如将工作移到 Web Worker、批量更新以及使用异步 API和现代任务调度，以保持界面流畅。",
-      "hn": {
-        "id": 49522137,
-        "type": "story",
-        "by": "kciter",
-        "score": 311,
-        "descendants": 101,
-        "time": 1788271215,
-        "comments_url": "https://news.ycombinator.com/item?id=49522137"
+        "by": "kooi",
+        "score": 98,
+        "descendants": 44,
+        "time": 1788373944,
+        "comments_url": "https://news.ycombinator.com/item?id=49540415"
       },
       "tags": [
-        "Web"
+        "Programming"
       ],
       "hot_score": 0.24
     },
@@ -1321,7 +1486,29 @@
       "tags": [
         "Programming"
       ],
-      "hot_score": 0.21
+      "hot_score": 0.19
+    },
+    {
+      "title_en": "Static Allocation, Constant Work",
+      "url": "https://matklad.github.io/2026/09/02/static-allocation-constant-work.html",
+      "title_zh": "静态分配与恒定工作量",
+      "created_display": "Created: Sep 02, 2026 / 10:30 PT",
+      "image_url": null,
+      "summary_en": "A technical look at static allocation and constant work, arguing that fixed resource planning can yield predictable latency and simpler reasoning for systems programmers. Practical guidance helps choose when preallocation pays off.",
+      "summary_zh": "深入探讨静态分配与恒定工作量，认为固定资源规划能带来可预测的延迟与更易推理的代码。为系统程序员在何时应优先预分配提供实用建议。",
+      "hn": {
+        "id": 49539556,
+        "type": "story",
+        "by": "surprisetalk",
+        "score": 81,
+        "descendants": 13,
+        "time": 1788370255,
+        "comments_url": "https://news.ycombinator.com/item?id=49539556"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 0.19
     },
     {
       "title_en": "Altair Basic Interpreter Source Code (1975) [pdf]",
@@ -1345,7 +1532,7 @@
         "Programming",
         "Hardware"
       ],
-      "hot_score": 0.21
+      "hot_score": 0.17
     },
     {
       "title_en": "The Silo · interactive 3D cutaway",
@@ -1367,7 +1554,30 @@
       "tags": [
         "Design"
       ],
-      "hot_score": 0.2
+      "hot_score": 0.16
+    },
+    {
+      "title_en": "GPS glitched across the US by as much as 33 feet",
+      "url": "https://www.sciencealert.com/gps-glitched-across-the-us-by-as-much-as-33-feet-scientists-have-never-seen-this-before",
+      "title_zh": "GPS 在美国范围内误差高达 33 英尺",
+      "created_display": "Created: Sep 02, 2026 / 17:49 PT",
+      "image_url": "https://www.sciencealert.com/images/2026/08/aurora-from-space.jpg",
+      "summary_en": "A widespread GPS anomaly caused shifts up to 33 feet across the US, highlighting vulnerabilities in satellite timing. The incident underscores how small navigational errors can cascade into transport, logistics, and safety risk, and prompts discussion of alternative timing sources.",
+      "summary_zh": "一次广泛的 GPS 异常在美国造成高达 33 英尺的偏移，暴露了卫星定时的脆弱性。此事凸显了微小导航误差如何在运输、物流和安全方面产生连锁影响，并推动对替代时序源的讨论。",
+      "hn": {
+        "id": 49544618,
+        "type": "story",
+        "by": "thread_id",
+        "score": 41,
+        "descendants": 9,
+        "time": 1788396547,
+        "comments_url": "https://news.ycombinator.com/item?id=49544618"
+      },
+      "hot_score": 0.16,
+      "tags": [
+        "Science",
+        "Security"
+      ]
     },
     {
       "title_en": "LLMs: Intelligence vs. Cost",
@@ -1387,9 +1597,55 @@
         "comments_url": "https://news.ycombinator.com/item?id=49535586"
       },
       "tags": [
-        "AI"
+        "AI",
+        "Finance"
       ],
-      "hot_score": 0.18
+      "hot_score": 0.15
+    },
+    {
+      "title_en": "Nginx 1.31.5 introduces a built-in JSON parser, Control API, and predicate locat",
+      "url": "https://www.linuxcompatible.org/story/nginx-1315-introduces-a-builtin-json-parser-control-api-and-predicate-locations-in-september-mainline-release/",
+      "title_zh": "Nginx 1.31.5 引入内置 JSON 解析器、控制 API 与谓词定位",
+      "created_display": "Created: Sep 03, 2026 / 05:51 PT",
+      "image_url": "https://www.linuxcompatible.org/data/publish/237/363ab159822fe8de142071aa885b545432d682/nginx.webp",
+      "summary_en": "Nginx 1.31.5 adds a built-in JSON parser, a Control API, and predicate location features, simplifying configuration and runtime introspection. The release enhances JSON handling, API access, and dynamic routing capabilities.",
+      "summary_zh": "Nginx 1.31.5 新增内置 JSON 解析器、控制 API 及谓词定位等特性，简化了配置与运行时自省，提升 JSON 处理、API 接入与动态路由能力。",
+      "hn": {
+        "id": 49549308,
+        "type": "story",
+        "by": "qwertox",
+        "score": 9,
+        "descendants": 0,
+        "time": 1788439881,
+        "comments_url": "https://news.ycombinator.com/item?id=49549308"
+      },
+      "hot_score": 0.14,
+      "tags": [
+        "Programming",
+        "DevOps"
+      ]
+    },
+    {
+      "title_en": "Unified Arabic",
+      "url": "https://worksthatwork.com/6/unified-arabic",
+      "title_zh": "统一的阿拉伯语",
+      "created_display": "Created: Sep 02, 2026 / 12:02 PT",
+      "image_url": "https://worksthatwork.com/6/assets/Articles/91/Images/patent-beiruti2.jpg",
+      "summary_en": "Unified Arabic discusses standardization efforts or a project aiming to unify dialects or encoding. If successful, it could simplify cross-dialect NLP and improve tooling for Arabic-speaking communities.",
+      "summary_zh": "《统一的阿拉伯语》探讨语言标准化努力或统一方言与编码的项目。若取得成效，将简化跨方言的自然语言处理并改善阿拉伯语使用者的工具链。",
+      "hn": {
+        "id": 49540827,
+        "type": "story",
+        "by": "spacebuffer",
+        "score": 53,
+        "descendants": 4,
+        "time": 1788375769,
+        "comments_url": "https://news.ycombinator.com/item?id=49540827"
+      },
+      "hot_score": 0.13,
+      "tags": [
+        "Culture"
+      ]
     },
     {
       "title_en": "Show HN: The cheapest GPU cloud – H100s at $2.04/HR, H200s at $3/HR",
@@ -1408,57 +1664,11 @@
         "time": 1788403847,
         "comments_url": "https://news.ycombinator.com/item?id=49545411"
       },
-      "hot_score": 0.16,
+      "hot_score": 0.12,
       "tags": [
         "Show HN",
-        "Business",
+        "Startups",
         "Hardware"
-      ]
-    },
-    {
-      "title_en": "Syria, eyeing role as Middle East hub, offers options to bypass Hormuz",
-      "url": "https://www.washingtonpost.com/world/2026/09/02/syria-eyeing-role-middle-east-hub-offers-options-bypass-hormuz/",
-      "title_zh": "叙利亚欲成中东枢纽，提出绕过霍尔木兹的选项",
-      "created_display": "Created: Sep 03, 2026 / 00:32 PT",
-      "image_url": null,
-      "summary_en": "Syria is signaling a bid to become a Middle East logistics hub by proposing routes that bypass the Hormuz Strait, diversifying transit options for oil and goods. The move signals potential shifts in regional power dynamics and logistics planning, with implications for energy markets and maritime security.",
-      "summary_zh": "叙利亚表示希望成为中东物流枢纽，提出绕过霍尔木兹海峡的运输路线以分散贸易风险。此举可能改变区域权力格局和物流规划，对能源市场和海上安全具有潜在影响。",
-      "hn": {
-        "id": 49546988,
-        "type": "story",
-        "by": "divbzero",
-        "score": 15,
-        "descendants": 4,
-        "time": 1788420776,
-        "comments_url": "https://news.ycombinator.com/item?id=49546988"
-      },
-      "hot_score": 0.16,
-      "tags": [
-        "Politics",
-        "Energy",
-        "Security"
-      ]
-    },
-    {
-      "title_en": "Denmark versus UK: which country gets more health for their money?",
-      "url": "https://theconversation.com/denmark-versus-uk-which-country-gets-more-health-for-their-money-276937",
-      "title_zh": "丹麦与英国：哪国花钱换来更多健康？",
-      "created_display": "Created: Sep 03, 2026 / 01:07 PT",
-      "image_url": "https://images.theconversation.com/files/757248/original/file-20260901-50-5vbrfj.jpg?ixlib=rb-4.1.1&rect=0%2C94%2C1620%2C810&q=45&auto=format&w=1356&h=668&fit=crop",
-      "summary_en": "A policy-focused comparison of health outcomes per dollar spent between Denmark and the UK, highlighting efficiency gaps, prevention focus, and equity in care. The piece suggests Denmark often delivers more health per unit of expenditure under certain metrics, raising questions for health-system design.",
-      "summary_zh": "本文比较了丹麦与英国在健康支出与健康结果之间的关系，强调在效率、预防和医保公平性方面的差异。在某些指标下，丹麦表现出更高的性价比，引发对健康系统设计的思考。",
-      "hn": {
-        "id": 49547230,
-        "type": "story",
-        "by": "zeristor",
-        "score": 13,
-        "descendants": 1,
-        "time": 1788422832,
-        "comments_url": "https://news.ycombinator.com/item?id=49547230"
-      },
-      "hot_score": 0.15,
-      "tags": [
-        "Health"
       ]
     },
     {
@@ -1481,7 +1691,31 @@
       "tags": [
         "Culture"
       ],
-      "hot_score": 0.12
+      "hot_score": 0.11
+    },
+    {
+      "title_en": "Syria, eyeing role as Middle East hub, offers options to bypass Hormuz",
+      "url": "https://www.washingtonpost.com/world/2026/09/02/syria-eyeing-role-middle-east-hub-offers-options-bypass-hormuz/",
+      "title_zh": "叙利亚欲成中东枢纽，提出绕过霍尔木兹的选项",
+      "created_display": "Created: Sep 03, 2026 / 00:32 PT",
+      "image_url": null,
+      "summary_en": "Syria is signaling a bid to become a Middle East logistics hub by proposing routes that bypass the Hormuz Strait, diversifying transit options for oil and goods. The move signals potential shifts in regional power dynamics and logistics planning, with implications for energy markets and maritime security.",
+      "summary_zh": "叙利亚表示希望成为中东物流枢纽，提出绕过霍尔木兹海峡的运输路线以分散贸易风险。此举可能改变区域权力格局和物流规划，对能源市场和海上安全具有潜在影响。",
+      "hn": {
+        "id": 49546988,
+        "type": "story",
+        "by": "divbzero",
+        "score": 15,
+        "descendants": 4,
+        "time": 1788420776,
+        "comments_url": "https://news.ycombinator.com/item?id=49546988"
+      },
+      "hot_score": 0.11,
+      "tags": [
+        "Politics",
+        "Energy",
+        "Security"
+      ]
     },
     {
       "title_en": "Invisible Companies",
@@ -1495,14 +1729,37 @@
         "id": 49521264,
         "type": "story",
         "by": "ltononro",
-        "score": 135,
-        "descendants": 39,
+        "score": 156,
+        "descendants": 57,
         "time": 1788266920,
         "comments_url": "https://news.ycombinator.com/item?id=49521264"
       },
-      "hot_score": 0.1,
       "tags": [
         "Business"
+      ],
+      "hot_score": 0.1
+    },
+    {
+      "title_en": "Denmark versus UK: which country gets more health for their money?",
+      "url": "https://theconversation.com/denmark-versus-uk-which-country-gets-more-health-for-their-money-276937",
+      "title_zh": "丹麦与英国：哪国花钱换来更多健康？",
+      "created_display": "Created: Sep 03, 2026 / 01:07 PT",
+      "image_url": "https://images.theconversation.com/files/757248/original/file-20260901-50-5vbrfj.jpg?ixlib=rb-4.1.1&rect=0%2C94%2C1620%2C810&q=45&auto=format&w=1356&h=668&fit=crop",
+      "summary_en": "A policy-focused comparison of health outcomes per dollar spent between Denmark and the UK, highlighting efficiency gaps, prevention focus, and equity in care. The piece suggests Denmark often delivers more health per unit of expenditure under certain metrics, raising questions for health-system design.",
+      "summary_zh": "本文比较了丹麦与英国在健康支出与健康结果之间的关系，强调在效率、预防和医保公平性方面的差异。在某些指标下，丹麦表现出更高的性价比，引发对健康系统设计的思考。",
+      "hn": {
+        "id": 49547230,
+        "type": "story",
+        "by": "zeristor",
+        "score": 13,
+        "descendants": 1,
+        "time": 1788422832,
+        "comments_url": "https://news.ycombinator.com/item?id=49547230"
+      },
+      "hot_score": 0.1,
+      "tags": [
+        "Health",
+        "Politics"
       ]
     },
     {
@@ -1523,29 +1780,8 @@
         "comments_url": "https://news.ycombinator.com/item?id=49508608"
       },
       "tags": [
+        "Programming",
         "Security"
-      ],
-      "hot_score": 0.09
-    },
-    {
-      "title_en": "We could save petabytes of cache storage with Zstandard and Pingora",
-      "url": "https://blog.cloudflare.com/cache-transcoding/",
-      "title_zh": "用 Zstandard 与 Pingora 节省缓存存储量",
-      "created_display": "Created: Sep 01, 2026 / 06:41 PT",
-      "image_url": "https://blog.cloudflare.com/_emdash/api/media/file/01M1DAPGD3MF590TVQC32X12TX.01M1DAPH1P5MKSPDY4VF9A3H3T.png",
-      "summary_en": "Cloudflare describes how combining Zstandard compression with Pingora caching can drastically reduce cache storage and bandwidth for serving content.",
-      "summary_zh": "Cloudflare 说明将 Zstandard 压缩与 Pingora 缓存结合使用，可以显著降低缓存存储需求和带宽成本，提升缓存系统效率。",
-      "hn": {
-        "id": 49521909,
-        "type": "story",
-        "by": "torutofu",
-        "score": 116,
-        "descendants": 49,
-        "time": 1788270071,
-        "comments_url": "https://news.ycombinator.com/item?id=49521909"
-      },
-      "tags": [
-        "DevOps"
       ],
       "hot_score": 0.09
     },
@@ -1572,24 +1808,25 @@
       "hot_score": 0.08
     },
     {
-      "title_en": "A Selection of Los Alamos Rolodex Business Cards",
-      "url": "https://clui.org/collections/los-alamos-business-cards/selection-cards",
-      "title_zh": "洛斯阿拉莫斯 Rolodex 名片精选",
-      "created_display": "Created: Aug 31, 2026 / 12:25 PT",
-      "image_url": "https://clui.org/themes/custom/clui2022/logo.svg",
-      "summary_en": "A curated glimpse into scientists’ networks from Los Alamos through historical business cards; reveals collaboration webs, institutional culture, and design of professional cards from the era.",
-      "summary_zh": "通过历史名片展现洛斯阿拉莫斯科学家之间的网络与合作文化，提供对当时专业名片设计与机构氛围的珍贵一瞥。",
+      "title_en": "We could save petabytes of cache storage with Zstandard and Pingora",
+      "url": "https://blog.cloudflare.com/cache-transcoding/",
+      "title_zh": "用 Zstandard 与 Pingora 节省缓存存储量",
+      "created_display": "Created: Sep 01, 2026 / 06:41 PT",
+      "image_url": "https://blog.cloudflare.com/_emdash/api/media/file/01M1DAPGD3MF590TVQC32X12TX.01M1DAPH1P5MKSPDY4VF9A3H3T.png",
+      "summary_en": "Cloudflare describes how combining Zstandard compression with Pingora caching can drastically reduce cache storage and bandwidth for serving content.",
+      "summary_zh": "Cloudflare 说明将 Zstandard 压缩与 Pingora 缓存结合使用，可以显著降低缓存存储需求和带宽成本，提升缓存系统效率。",
       "hn": {
-        "id": 49513856,
+        "id": 49521909,
         "type": "story",
-        "by": "1970-01-01",
-        "score": 174,
+        "by": "torutofu",
+        "score": 116,
         "descendants": 49,
-        "time": 1788204344,
-        "comments_url": "https://news.ycombinator.com/item?id=49513856"
+        "time": 1788270071,
+        "comments_url": "https://news.ycombinator.com/item?id=49521909"
       },
       "tags": [
-        "Culture"
+        "Web",
+        "DevOps"
       ],
       "hot_score": 0.08
     },
@@ -1616,6 +1853,29 @@
       "hot_score": 0.08
     },
     {
+      "title_en": "A Selection of Los Alamos Rolodex Business Cards",
+      "url": "https://clui.org/collections/los-alamos-business-cards/selection-cards",
+      "title_zh": "洛斯阿拉莫斯 Rolodex 名片精选",
+      "created_display": "Created: Aug 31, 2026 / 12:25 PT",
+      "image_url": "https://clui.org/themes/custom/clui2022/logo.svg",
+      "summary_en": "A curated glimpse into scientists’ networks from Los Alamos through historical business cards; reveals collaboration webs, institutional culture, and design of professional cards from the era.",
+      "summary_zh": "通过历史名片展现洛斯阿拉莫斯科学家之间的网络与合作文化，提供对当时专业名片设计与机构氛围的珍贵一瞥。",
+      "hn": {
+        "id": 49513856,
+        "type": "story",
+        "by": "1970-01-01",
+        "score": 174,
+        "descendants": 49,
+        "time": 1788204344,
+        "comments_url": "https://news.ycombinator.com/item?id=49513856"
+      },
+      "tags": [
+        "Design",
+        "Culture"
+      ],
+      "hot_score": 0.07
+    },
+    {
       "title_en": "Engineering of the fastest WebAssembly interpreters",
       "url": "https://wasmi-labs.github.io/blog/posts/wasmi-v2.0/",
       "title_zh": "最快的 WebAssembly 解释器的工程实现",
@@ -1634,12 +1894,13 @@
       },
       "tags": [
         "Programming",
+        "Web",
         "Finance"
       ],
       "hot_score": 0.07
     },
     {
-      "title_en": "LLMs and Self-Referentiality",
+      "title_en": "LLMs and self-referentiality",
       "url": "https://scottaaronson.blog/?p=10046",
       "title_zh": "大型语言模型与自指性",
       "created_display": "Created: Sep 01, 2026 / 17:20 PT",
@@ -1650,39 +1911,37 @@
         "id": 49530169,
         "type": "story",
         "by": "mavdol04",
-        "score": 55,
-        "descendants": 57,
+        "score": 68,
+        "descendants": 73,
         "time": 1788308406,
         "comments_url": "https://news.ycombinator.com/item?id=49530169"
       },
-      "hot_score": 0.06,
       "tags": [
         "AI"
-      ]
+      ],
+      "hot_score": 0.07
     },
     {
-      "title_en": "Kids go from curious to frustrated playing with AI-stuffed toys, UW study finds",
-      "url": "https://www.geekwire.com/2026/kids-go-from-curious-to-frustrated-playing-with-ai-stuffed-toys-uw-study-finds/",
-      "title_zh": "孩子在带 AI 功能的毛绒玩具上从好奇走向沮丧",
-      "created_display": "Created: Sep 03, 2026 / 01:20 PT",
-      "image_url": "https://cdn.geekwire.com/wp-content/uploads/2026/09/AI_toys.jpg",
-      "summary_en": "A UW study finds that kids quickly become frustrated with AI-enabled stuffed toys after initial curiosity, due to unreliable interactions and limited depth of engagement. The findings have design implications for how to build engaging, privacy-conscious, and educational AI toys for children.",
-      "summary_zh": "华盛顿大学的一项研究发现，孩子在对带 AI 的毛绒玩具最初产生好奇后不久就会感到沮丧，原因包括交互不稳定和互动深度有限。研究对儿童 AI 玩具的设计提出了建议，强调可靠性、隐私保护和更有意义的互动。",
+      "title_en": "Unusual Suspects",
+      "url": "https://neal.fun/unusual-suspects/",
+      "title_zh": "不寻常的嫌疑人",
+      "created_display": "Created: Sep 02, 2026 / 08:48 PT",
+      "image_url": null,
+      "summary_en": "Unusual Suspects is an interactive project that invites curiosity through unconventional prompts.",
+      "summary_zh": "Unusual Suspects 是一个互动项目，通过非传统提示引发好奇心。",
       "hn": {
-        "id": 49547334,
+        "id": 49538069,
         "type": "story",
-        "by": "01-_-",
-        "score": 6,
-        "descendants": 6,
-        "time": 1788423651,
-        "comments_url": "https://news.ycombinator.com/item?id=49547334"
+        "by": "beeperboy95",
+        "score": 36,
+        "descendants": 11,
+        "time": 1788364093,
+        "comments_url": "https://news.ycombinator.com/item?id=49538069"
       },
-      "hot_score": 0.06,
+      "hot_score": 0.07,
       "tags": [
-        "AI",
-        "Education",
-        "Programming",
-        "Privacy"
+        "Design",
+        "Culture"
       ]
     },
     {
@@ -1708,29 +1967,7 @@
       "hot_score": 0.05
     },
     {
-      "title_en": "Static Allocation, Constant Work",
-      "url": "https://matklad.github.io/2026/09/02/static-allocation-constant-work.html",
-      "title_zh": "静态分配与恒定工作量",
-      "created_display": "Created: Sep 02, 2026 / 10:30 PT",
-      "image_url": null,
-      "summary_en": "A technical look at static allocation and constant work, arguing that fixed resource planning can yield predictable latency and simpler reasoning for systems programmers. Practical guidance helps choose when preallocation pays off.",
-      "summary_zh": "深入探讨静态分配与恒定工作量，认为固定资源规划能带来可预测的延迟与更易推理的代码。为系统程序员在何时应优先预分配提供实用建议。",
-      "hn": {
-        "id": 49539556,
-        "type": "story",
-        "by": "surprisetalk",
-        "score": 19,
-        "descendants": 0,
-        "time": 1788370255,
-        "comments_url": "https://news.ycombinator.com/item?id=49539556"
-      },
-      "hot_score": 0.05,
-      "tags": [
-        "Programming"
-      ]
-    },
-    {
-      "title_en": "What I Learned from My Mom (1941-2026)",
+      "title_en": "What I learned from my mom (1941-2026)",
       "url": "https://experimentalliving.substack.com/p/what-i-learned-from-my-mom-1941-2026",
       "title_zh": "我从母亲身上学到的教训（1941-2026）",
       "created_display": "Created: Aug 29, 2026 / 12:52 PT",
@@ -1741,14 +1978,13 @@
         "id": 49492796,
         "type": "story",
         "by": "NaOH",
-        "score": 219,
-        "descendants": 9,
+        "score": 240,
+        "descendants": 10,
         "time": 1788033171,
         "comments_url": "https://news.ycombinator.com/item?id=49492796"
       },
       "tags": [
-        "Culture",
-        "Education"
+        "Culture"
       ],
       "hot_score": 0.04
     },
@@ -1840,10 +2076,55 @@
       },
       "tags": [
         "Design",
-        "Web",
         "Privacy"
       ],
       "hot_score": 0.03
+    },
+    {
+      "title_en": "How to get a free .arpa domain",
+      "url": "https://hawksley.dev/blog/get-free-arpa-domain",
+      "title_zh": "如何获得免费 .arpa 域名",
+      "created_display": "Created: Aug 31, 2026 / 15:21 PT",
+      "image_url": "https://hawksley.dev/og/blog/get-free-arpa-domain.jpg",
+      "summary_en": "A quirky guide explains how to obtain a free ARPA domain, touching on DNS history and legacy infrastructure. The piece uses the quirk to spark discussion about internet governance and naming systems.",
+      "summary_zh": "一篇古怪的指南讲述如何获得免费 ARPA 域名，涉及 DNS 历史与遗留基础设施。通过这个趣题引发对互联网治理与命名系统的讨论。",
+      "hn": {
+        "id": 49515558,
+        "type": "story",
+        "by": "ethanhawksley",
+        "score": 71,
+        "descendants": 8,
+        "time": 1788214918,
+        "comments_url": "https://news.ycombinator.com/item?id=49515558"
+      },
+      "hot_score": 0.03,
+      "tags": [
+        "Web",
+        "DevOps"
+      ]
+    },
+    {
+      "title_en": "The true horror of Edgar Allan Poe’s stories lies in their confessions",
+      "url": "https://yalereview.org/article/emily-ogden-edgar-allan-poe",
+      "title_zh": "爱伦·坡故事的真正恐怖在于自白",
+      "created_display": "Created: Sep 02, 2026 / 08:18 PT",
+      "image_url": null,
+      "summary_en": "A literary critique reframes Poe's horror through the lens of confession and intimate truth rather than gore. By focusing on unreliable narrators and buried self-revelations, the piece reveals psychology as the engine of dread.",
+      "summary_zh": "一篇文学评论将坡（Poe）恐怖的核心放在人物自白与隐秘的真实之上，而非喧嚣血腥。通过聚焦不可靠叙述者与埋藏的自我揭示，揭示了心理因素如何成为恐怖的驱动力。",
+      "hn": {
+        "id": 49537632,
+        "type": "story",
+        "by": "lermontov",
+        "score": 18,
+        "descendants": 3,
+        "time": 1788362339,
+        "comments_url": "https://news.ycombinator.com/item?id=49537632"
+      },
+      "hot_score": 0.03,
+      "tags": [
+        "Culture",
+        "Entertainment"
+      ]
     },
     {
       "title_en": "Intrusive linked lists (2019)",
@@ -1857,19 +2138,19 @@
         "id": 49505257,
         "type": "story",
         "by": "tripdout",
-        "score": 67,
-        "descendants": 45,
+        "score": 78,
+        "descendants": 54,
         "time": 1788146912,
         "comments_url": "https://news.ycombinator.com/item?id=49505257"
       },
-      "hot_score": 0.02,
       "tags": [
         "Programming",
         "Data"
-      ]
+      ],
+      "hot_score": 0.02
     },
     {
-      "title_en": "Amazon Stonehenge: Parque Arqueológico do Solstício",
+      "title_en": "Parque Arqueológico do Solstício",
       "url": "https://en.wikipedia.org/wiki/Parque_Arqueol%C3%B3gico_do_Solst%C3%ADcio",
       "title_zh": "亚马逊 Stonehenge：Solstício 考古公园",
       "created_display": "Created: Aug 30, 2026 / 20:37 PT",
@@ -1880,10 +2161,80 @@
         "id": 49505306,
         "type": "story",
         "by": "nycdatasci",
-        "score": 36,
-        "descendants": 8,
+        "score": 53,
+        "descendants": 16,
         "time": 1788147432,
         "comments_url": "https://news.ycombinator.com/item?id=49505306"
+      },
+      "tags": [
+        "Culture",
+        "Science"
+      ],
+      "hot_score": 0.02
+    },
+    {
+      "title_en": "My practical approach to surfing the web safely",
+      "url": "https://molily.de/safe-websurfing/",
+      "title_zh": "我对安全上网的实用方法",
+      "created_display": "Created: Sep 02, 2026 / 06:49 PT",
+      "image_url": "https://molily.de/img/spidermum-gray-bg-square-small.png",
+      "summary_en": "A pragmatic guide lays out habits for safer browsing, from browser hygiene to privacy controls and risk assessment. The approach blends tech setup with mindful behavior to reduce exposure to scams and data leakage.",
+      "summary_zh": "一份务实指南提供更安全上网的习惯，包括浏览器清理、隐私控制与风险评估。方法将技术设置与谨慎行为结合，降低骗局与数据泄露风险。",
+      "hn": {
+        "id": 49536195,
+        "type": "story",
+        "by": "ethanhawksley",
+        "score": 12,
+        "descendants": 4,
+        "time": 1788356952,
+        "comments_url": "https://news.ycombinator.com/item?id=49536195"
+      },
+      "hot_score": 0.02,
+      "tags": [
+        "Privacy",
+        "Security",
+        "Web"
+      ]
+    },
+    {
+      "title_en": "“We want it to really confuse people, but also really make people happy”",
+      "url": "https://unsung.aresluna.org/we-want-it-to-really-confuse-people-but-also-really-make-people-happy/",
+      "title_zh": "“我们想让它真的让人困惑，也真正让人开心”",
+      "created_display": "Created: Aug 29, 2026 / 15:53 PT",
+      "image_url": "https://unsung.aresluna.org/_media/we-want-it-to-really-confuse-people-but-also-really-make-people-happy/ogimage.jpg",
+      "summary_en": "A design philosophy centers on creating experiences that provoke curiosity while delivering delight.",
+      "summary_zh": "一种设计哲学强调在引发好奇的同时带来愉悦体验，探讨在面向用户的产品中平衡模糊感与满足感。",
+      "hn": {
+        "id": 49494043,
+        "type": "story",
+        "by": "zdw",
+        "score": 38,
+        "descendants": 12,
+        "time": 1788043988,
+        "comments_url": "https://news.ycombinator.com/item?id=49494043"
+      },
+      "hot_score": 0.01,
+      "tags": [
+        "Design",
+        "Culture"
+      ]
+    },
+    {
+      "title_en": "A thousand years older than Stonehenge: Archaeologists explore a Czech sanctuary",
+      "url": "https://info.zcu.cz/clanek.jsp?id=9882&lang=en",
+      "title_zh": "比巨石阵更古老的一千年的捷克圣地",
+      "created_display": "Created: Sep 01, 2026 / 06:43 PT",
+      "image_url": "https://info.zcu.cz/image?obrazek=45559&type=crop_info",
+      "summary_en": "Archaeologists investigate an ancient Czech sanctuary potentially predating Stonehenge by a millennium. Findings could reshape understanding of European prehistoric religious practices and ritual spaces.",
+      "summary_zh": "考古学家正在研究一个捷克的古代圣地，或比巨石阵早一千年。新发现可能重新塑造对欧洲史前宗教实践与仪式场所的理解。",
+      "hn": {
+        "id": 49521933,
+        "type": "story",
+        "by": "nairboon",
+        "score": 21,
+        "descendants": 2,
+        "time": 1788270194,
+        "comments_url": "https://news.ycombinator.com/item?id=49521933"
       },
       "hot_score": 0.01,
       "tags": [
@@ -1892,25 +2243,48 @@
       ]
     },
     {
-      "title_en": "My BC-250 Journey (With 40 CUs Unlocked)",
-      "url": "https://worldofmatthew.com/blog/bc250/",
-      "title_zh": "我的 BC-250 路上之旅（解锁 40 个 CU）",
-      "created_display": "Created: Aug 30, 2026 / 07:14 PT",
-      "image_url": "https://worldofmatthew.com/planetmatthew/mlogowithtext.svg",
-      "summary_en": "A personal hardware journey detailing unlocking 40 compute units on a BC-250, exploring performance gains and practical implications for enthusiasts. It offers hands-on insights into hardware unlocking.",
-      "summary_zh": "个人硬件之旅，记录在 BC-250 上解锁 40 个计算单元的过程、性能提升与对爱好者的实际意义。提供关于硬件解锁的实用见解。",
+      "title_en": "The largest electric aircraft just flew [video]",
+      "url": "https://www.youtube.com/watch?v=nM86DBOqgPM",
+      "title_zh": "全球最大电动飞机刚完成飞行（视频）",
+      "created_display": "Created: Sep 01, 2026 / 12:02 PT",
+      "image_url": null,
+      "summary_en": "The video showcases the largest electric aircraft taking flight, marking progress in electric propulsion and aviation design. Such demonstrations help validate battery energy density, cooling, and safety systems at scale, with implications for urban air mobility and cargo. Industry watchers will be watching for performance metrics and real-world range implications.",
+      "summary_zh": "视频展示了全球最大的电动飞机完成飞行，标志着电动推进与航空设计的进展。这类示范有助于验证大规模电池能量密度、散热与安全系统，并影响城市空运与货运应用。行业关注点在于性能指标与实际续航的潜在影响。",
       "hn": {
-        "id": 49498860,
+        "id": 49526453,
         "type": "story",
-        "by": "worldofmatthew",
-        "score": 7,
-        "descendants": 5,
-        "time": 1788099298,
-        "comments_url": "https://news.ycombinator.com/item?id=49498860"
+        "by": "feb",
+        "score": 19,
+        "descendants": 11,
+        "time": 1788289354,
+        "comments_url": "https://news.ycombinator.com/item?id=49526453"
       },
-      "hot_score": 0.0,
+      "hot_score": 0.01,
       "tags": [
-        "Hardware"
+        "Science",
+        "Energy"
+      ]
+    },
+    {
+      "title_en": "Xanadu was waiting for agents",
+      "url": "https://zed.dev/blog/agentic-xanadu",
+      "title_zh": "Xanadu 正在等待代理",
+      "created_display": "Created: Sep 01, 2026 / 11:50 PT",
+      "image_url": "https://images.zed.dev/blog/introducing-delta/xanadu-thumb.webp",
+      "summary_en": "A treatise or narrative explores agentic AI—autonomous agents—waiting to be unleashed in a Xanadu-like network.",
+      "summary_zh": "一篇论述探讨具自主性的 AI 代理在类似 Xanadu 的网络中待发的情景，考察代理如何协同、治理以及对人类监管的挑战。",
+      "hn": {
+        "id": 49526298,
+        "type": "story",
+        "by": "nsm",
+        "score": 17,
+        "descendants": 5,
+        "time": 1788288642,
+        "comments_url": "https://news.ycombinator.com/item?id=49526298"
+      },
+      "hot_score": 0.01,
+      "tags": [
+        "AI"
       ]
     }
   ]
