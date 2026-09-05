@@ -1,0 +1,1155 @@
+{
+  "meta": {
+    "mode": "top",
+    "source": "https://news.ycombinator.com/",
+    "api": "https://github.com/HackerNews/API",
+    "count_requested": 50,
+    "count_written": 49,
+    "reused_same_day": 0,
+    "reused_cross_day": 39,
+    "new_llm_enriched": 10,
+    "scrape_time_display": "03:22, September 05, 2026 (PDT)",
+    "timezone": "America/Los_Angeles",
+    "date_dir": "2026/09/05",
+    "content_date": "2026-09-05",
+    "run_time_local": "03:22, September 05, 2026 (PDT)",
+    "run_time_utc": "2026-09-05 10:22:14 UTC",
+    "incremental": true,
+    "stories_max": 100,
+    "hot_score_time_utc": "2026-09-05 10:22:59 UTC"
+  },
+  "items": [
+    {
+      "title_en": "AI handles incidents, engineers lose touch with their systems",
+      "url": "https://www.sylvainkalache.com/blog/ai-handles-incidents-engineers-lose-touch-with-their-systems",
+      "title_zh": "AI 处理事故，工程师逐渐与系统失去联系",
+      "created_display": "Created: Sep 05, 2026 / 00:52 PT",
+      "image_url": "https://www.sylvainkalache.com/blog/ai-handles-incidents-engineers-lose-touch-with-their-systems/opengraph-image/primary?c892ecc60b0c6273",
+      "summary_en": "AI can autonomously handle incident responses, but engineers may lose touch with the system's current state. That detachment creates blind spots and raises governance and accountability concerns, underscoring the need for human-in-the-loop dashboards and audit trails.",
+      "summary_zh": "AI 可以自治处理事故响应，但工程师对系统当前状态的理解可能被削弱，容易产生盲点并引发治理与问责上的担忧。因此需要在工作流程中保留人工监督的仪表板与可审计的记录。",
+      "hn": {
+        "id": 49574167,
+        "type": "story",
+        "by": "sylvainkalache",
+        "score": 115,
+        "descendants": 78,
+        "time": 1788594770,
+        "comments_url": "https://news.ycombinator.com/item?id=49574167"
+      },
+      "hot_score": 7.6,
+      "tags": [
+        "AI",
+        "DevOps"
+      ]
+    },
+    {
+      "title_en": "Discovery of a new OpenAI agent message board",
+      "url": "https://collusion.wiki/",
+      "title_zh": "发现一个新的 OpenAI 代理消息板",
+      "created_display": "Created: Sep 04, 2026 / 04:54 PT",
+      "image_url": "https://collusion.wiki/img/social.png?v=5ce9724f",
+      "summary_en": "A new OpenAI agent message board has been discovered, suggesting a hidden or internal communication channel used by agent simulations. The finding raises questions about agent coordination, safety, and monitoring of emergent behaviours. It underscores how researchers trace and audit agent interactions as AI systems scale.",
+      "summary_zh": "发现了一个新的 OpenAI 代理消息板，表明在代理模拟中可能存在未公开的沟通渠道。此发现引发对代理协作、安全以及对新兴行为监控的担忧。也凸显了在 AI 规模化运行中追踪和审计代理互动的重要性。",
+      "hn": {
+        "id": 49563355,
+        "type": "story",
+        "by": "moultano",
+        "score": 1730,
+        "descendants": 1326,
+        "time": 1788522893,
+        "comments_url": "https://news.ycombinator.com/item?id=49563355"
+      },
+      "tags": [
+        "AI"
+      ],
+      "hot_score": 5.47
+    },
+    {
+      "title_en": "Why are European countries moving their gold out of North America?",
+      "url": "https://www.bbc.com/news/articles/cvgyn8q8gqxo",
+      "title_zh": "为何欧洲国家把黄金从北美运出？",
+      "created_display": "Created: Sep 04, 2026 / 22:52 PT",
+      "image_url": "https://ichef.bbci.co.uk/news/1024/branded_news/69ed/live/1f74ae20-a870-11f1-bbad-43eaf67b94b6.jpg",
+      "summary_en": "European nations are shifting portions of their gold reserves away from North American custody to European vaults, citing diversification, security, and geopolitical risk. The move tests gold-market dynamics and custody strategies at the central-bank level, with potential implications for reserve diversification trends.",
+      "summary_zh": "欧洲各国正在将部分黄金储备从北美托管转移至欧洲金库，原因包括分散风险、提升安全性和地缘政治考虑。此举可能影响黄金市场的托管安排与央行储备配置的长期趋势。",
+      "hn": {
+        "id": 49573455,
+        "type": "story",
+        "by": "ranit",
+        "score": 145,
+        "descendants": 197,
+        "time": 1788587529,
+        "comments_url": "https://news.ycombinator.com/item?id=49573455"
+      },
+      "tags": [
+        "Finance",
+        "Business",
+        "Security"
+      ],
+      "hot_score": 4.94
+    },
+    {
+      "title_en": "Actively exploited sandbox RCE in all Chromium versions",
+      "url": "https://nvd.nist.gov/vuln/detail/cve-2026-85046",
+      "title_zh": "所有 Chromium 版本均被主动利用的沙箱远程代码执行漏洞",
+      "created_display": "Created: Sep 04, 2026 / 14:52 PT",
+      "image_url": null,
+      "summary_en": "A sandbox escape vulnerability in Chromium has been actively exploited across all versions, enabling attackers to break out of the browser's sandbox and run arbitrary code. The broad impact across Chromium-based browsers makes timely patching critical; users should update to the latest build and apply recommended mitigations as they become available.",
+      "summary_zh": "Chromium 的沙箱逃逸漏洞正在被主动利用，影响所有版本，使攻击者能够突破沙箱执行任意代码。由于受影响的浏览器生态广泛，及时打补丁至关重要，用户应尽快更新到最新版本并遵循厂商的缓解建议。",
+      "hn": {
+        "id": 49570669,
+        "type": "story",
+        "by": "negura",
+        "score": 508,
+        "descendants": 277,
+        "time": 1788558721,
+        "comments_url": "https://news.ycombinator.com/item?id=49570669"
+      },
+      "tags": [
+        "Security",
+        "Web"
+      ],
+      "hot_score": 4.11
+    },
+    {
+      "title_en": "Git hosting that never leaves Europe",
+      "url": "https://pushin.eu",
+      "title_zh": "永远停留在欧洲的 Git 托管服务",
+      "created_display": "Created: Sep 04, 2026 / 23:31 PT",
+      "image_url": "https://pushin.eu/-/og/home",
+      "summary_en": "Pushin.eu offers Git hosting that stays within European data centers, aligning with EU data sovereignty and privacy rules. It targets teams needing compliance, reduced vendor lock-in, and stricter data controls, especially for regulated industries.",
+      "summary_zh": "Pushin.eu 提供数据始终保留在欧洲数据中心的 Git 托管，符合欧盟数据主权与隐私规则。面向需要合规、降低供应商锁定和严格数据控制的团队，尤用于受监管行业。",
+      "hn": {
+        "id": 49573680,
+        "type": "story",
+        "by": "sevenseacat",
+        "score": 92,
+        "descendants": 64,
+        "time": 1788589909,
+        "comments_url": "https://news.ycombinator.com/item?id=49573680"
+      },
+      "hot_score": 3.78,
+      "tags": [
+        "Privacy",
+        "Open Source",
+        "Programming",
+        "Politics"
+      ]
+    },
+    {
+      "title_en": "Record-High 89% in U.S. Say Government Corruption Widespread",
+      "url": "https://news.gallup.com/poll/713933/record-high-say-government-corruption-widespread.aspx",
+      "title_zh": "美国创纪录的89%认为政府腐败普遍存在",
+      "created_display": "Created: Sep 04, 2026 / 15:03 PT",
+      "image_url": "https://imagekit.gallup.com/fusion/tr:n-emd_soc_meta_og/POLL/85e4dc00-82a3-45cb-b881-981ea10dfa90.jpg",
+      "summary_en": "Gallup reports a record 89% of Americans see government corruption as widespread, signaling deep distrust in institutions. For technologists, this sentiment shapes policy considerations around transparency, regulation, and the social context of digital infrastructure.",
+      "summary_zh": "盖洛普调查显示有创纪录的 89% 的美国人认为政府腐败普遍存在，反映了对机构的深度不信任。对技术政策与数字治理而言，这一情绪会影响透明度、监管与公共基础设施的信任建设。",
+      "hn": {
+        "id": 49570772,
+        "type": "story",
+        "by": "karakoram",
+        "score": 431,
+        "descendants": 327,
+        "time": 1788559396,
+        "comments_url": "https://news.ycombinator.com/item?id=49570772"
+      },
+      "tags": [
+        "Politics",
+        "DevOps"
+      ],
+      "hot_score": 3.57
+    },
+    {
+      "title_en": "Formalizing Fermat's Last Theorem",
+      "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
+      "title_zh": "费马大定理的形式化",
+      "created_display": "Created: Sep 04, 2026 / 11:42 PT",
+      "image_url": "https://cdn.sanity.io/images/4zrzovbb/website/578f91575c42231f0994e341014614255149af80-1200x630.jpg",
+      "summary_en": "Researchers formalize Fermat's Last Theorem in a proof assistant, producing a machine-checked verification of the centuries-old result. The effort demonstrates the maturing capability of formal methods to capture famous math proofs and hints at broader tooling that could aid verification of complex theorems. It signals potential for cross-pollination between pure mathematics and software verification.",
+      "summary_zh": "研究者在证明助手中对费马大定理进行了形式化，并获得机器可检验的证明。此举体现了形式化方法在验证经典数学结论方面的成熟度，并暗示其在未来支持更复杂定理的潜力。它也展示了数学与软件验证工具之间日益紧密的协作前景。",
+      "hn": {
+        "id": 49568506,
+        "type": "story",
+        "by": "jlebar",
+        "score": 619,
+        "descendants": 388,
+        "time": 1788547376,
+        "comments_url": "https://news.ycombinator.com/item?id=49568506"
+      },
+      "tags": [
+        "Science",
+        "Education"
+      ],
+      "hot_score": 3.52
+    },
+    {
+      "title_en": "GPT-6 Astra",
+      "url": "https://openai.com/index/gpt-6-astra/",
+      "title_zh": "GPT-6 Astra",
+      "created_display": "Created: Sep 03, 2026 / 11:41 PT",
+      "image_url": "https://images.ctfassets.net/kftzwdyauwt9/6ibCaqsoO7F6XCNCIO8zaZ/9475cdebc1f0af100414f1c85860fc4c/Hero_16x9.png?w=1600&h=900&fit=fill",
+      "summary_en": "OpenAI introduces GPT-6 Astra, signaling a leap in the next-gen language model family. The announcement hints at expanded reasoning, safety controls, and deployment options aimed at enterprise-scale AI workloads. For developers and researchers, Astra's release could shift expectations around performance and compliance in AI tooling.",
+      "summary_zh": "OpenAI 推出 GPT-6 Astra，标志着下一代语言模型的跃进。公告暗示在推理能力、安全控制和面向企业的部署选项方面的改进，可能改变开发者对性能与合规性的预期。对于开发者和研究者而言，这一发布将影响 AI 工具的性能与合规性基线。",
+      "hn": {
+        "id": 49554643,
+        "type": "story",
+        "by": "kibae",
+        "score": 2176,
+        "descendants": 2001,
+        "time": 1788460865,
+        "comments_url": "https://news.ycombinator.com/item?id=49554643"
+      },
+      "tags": [
+        "AI",
+        "Business"
+      ],
+      "hot_score": 2.64
+    },
+    {
+      "title_en": "Nitter has more working instances than before the takedowns",
+      "url": "https://codeberg.org/mv12star/shitter/wiki/Instances",
+      "title_zh": "Nitter 在打击行动后仍有更多可用实例",
+      "created_display": "Created: Sep 04, 2026 / 17:04 PT",
+      "image_url": "https://codeberg.org/mv12star/shitter/-/summary-card",
+      "summary_en": "Despite takedowns, the Nitter ecosystem now has more working instances than before, reflecting a resilient, community-driven effort to keep access to social feeds without official APIs. The rebound underscores how decentralized fronts can persist even under pressure, shaping how people consume public posts and protect privacy.",
+      "summary_zh": "尽管遭到封禁，Nitter 的工作实例数量仍然比之前更多，显示出社区驱动的韧性，确保在无官方 API 的情况下仍能访问社交内容。此现象说明去中心化的前端在高压下仍能持续存在，影响用户获取公开信息和隐私保护的方式。",
+      "hn": {
+        "id": 49571634,
+        "type": "story",
+        "by": "Cider9986",
+        "score": 235,
+        "descendants": 78,
+        "time": 1788566656,
+        "comments_url": "https://news.ycombinator.com/item?id=49571634"
+      },
+      "tags": [
+        "Privacy",
+        "Open Source"
+      ],
+      "hot_score": 2.55
+    },
+    {
+      "title_en": ".name Termination",
+      "url": "https://neil.fraser.name/news/2026/09/03/",
+      "title_zh": ".name 域名将终止",
+      "created_display": "Created: Sep 03, 2026 / 07:54 PT",
+      "image_url": "https://neil.fraser.name/news/tree-opened.gif",
+      "summary_en": "The .name top-level domain is being terminated, removing a way for individuals to register name-based identities online.",
+      "summary_zh": ".name 域名将终止，个人以姓名注册的域名途径将消失。",
+      "hn": {
+        "id": 49550772,
+        "type": "story",
+        "by": "pavel_lishin",
+        "score": 2168,
+        "descendants": 534,
+        "time": 1788447279,
+        "comments_url": "https://news.ycombinator.com/item?id=49550772"
+      },
+      "tags": [
+        "Web",
+        "Legal"
+      ],
+      "hot_score": 2.25
+    },
+    {
+      "title_en": "Statichost.eu – European static site hosting",
+      "url": "https://www.statichost.eu/",
+      "title_zh": "Statichost.eu：欧洲静态网站托管服务",
+      "created_display": "Created: Sep 04, 2026 / 13:34 PT",
+      "image_url": "https://www.statichost.eu/%20preview.png",
+      "summary_en": "Statichost.eu offers Europe-based static site hosting with privacy-focused features and fast delivery. By leveraging Git-based workflows and data locality, it serves as a privacy-conscious alternative to US-centric hosts for developers hosting personal sites or documentation.",
+      "summary_zh": "Statichost.eu 提供位于欧洲的静态站点托管，强调隐私与快速交付，并支持基于 Git 的部署工作流。对于希望数据在地理上留在欧洲、并注重治理与隐私的开发者来说，这是 US 主流托管的可选替代方案。",
+      "hn": {
+        "id": 49569896,
+        "type": "story",
+        "by": "p4bl0",
+        "score": 297,
+        "descendants": 119,
+        "time": 1788554089,
+        "comments_url": "https://news.ycombinator.com/item?id=49569896"
+      },
+      "tags": [
+        "Privacy",
+        "Web",
+        "Programming"
+      ],
+      "hot_score": 2.06
+    },
+    {
+      "title_en": "Shutting down our public encrypted DNS",
+      "url": "https://mullvad.net/en/blog/shutting-down-our-public-encrypted-dns-servers-and-sponsoring-quad9-instead",
+      "title_zh": "Shutting down our public encrypted DNS",
+      "created_display": "Created: Sep 04, 2026 / 11:50 PT",
+      "image_url": "https://mullvad.net/press/MullvadVPN_logo_Round_RGB_Color_positive.png",
+      "summary_en": "Mullvad is ending its public encrypted DNS service and redirecting sponsorship to Quad9, arguing that Quad9 offers robust, privacy-minded DNS resolution at scale. The move highlights ongoing questions about who runs trusted DNS infrastructure and how governance, performance, and privacy tradeoffs influence endpoint security.",
+      "summary_zh": "Mullvad 结束其公开的加密 DNS 服务，并改为资助 Quad9，表示 Quad9 在规模化的隐私友好 DNS 解析方面更具实力。这一举动凸显了谁来运营可信 DNS 基础设施的问题，以及治理、性能与隐私之间的权衡对端点安全的影响。",
+      "hn": {
+        "id": 49568579,
+        "type": "story",
+        "by": "mywacaday",
+        "score": 349,
+        "descendants": 157,
+        "time": 1788547828,
+        "comments_url": "https://news.ycombinator.com/item?id=49568579"
+      },
+      "tags": [
+        "Privacy",
+        "Security",
+        "DevOps"
+      ],
+      "hot_score": 2.01
+    },
+    {
+      "title_en": "Adult Film Producer Unmasks Prolific 'John DOE' Torrent Pirate as Meta Executive",
+      "url": "https://torrentfreak.com/adult-film-producer-unmasks-prolific-john-doe-torrent-pirate-as-meta-executive/",
+      "title_zh": "成人电影制片人揭露知名盗版者 John DOE 是 Meta 高管",
+      "created_display": "Created: Sep 04, 2026 / 09:46 PT",
+      "image_url": "https://torrentfreak.com/images/fappening-naked.jpg",
+      "summary_en": "An adult film producer exposes a prolific torrent pirate known as John Doe as a Meta executive, underscoring tensions between piracy, identity, and corporate accountability.",
+      "summary_zh": "一位成人电影制片人披露知名盗版者 John Doe 实为 Meta 高管，这揭示了盗版、身份与企业问责之间的张力。",
+      "hn": {
+        "id": 49567053,
+        "type": "story",
+        "by": "speckx",
+        "score": 389,
+        "descendants": 227,
+        "time": 1788540419,
+        "comments_url": "https://news.ycombinator.com/item?id=49567053"
+      },
+      "tags": [
+        "Privacy",
+        "Legal"
+      ],
+      "hot_score": 1.83
+    },
+    {
+      "title_en": "GPT-6 Astra on OpenRouter",
+      "url": "https://openrouter.ai/openai/gpt-6-astra",
+      "title_zh": "OpenRouter 上的 GPT-6 Astra",
+      "created_display": "Created: Sep 04, 2026 / 14:39 PT",
+      "image_url": "https://openrouter.ai/openai/gpt-6-astra/opengraph-image-1oizug?76b21746f88151e4",
+      "summary_en": "OpenRouter's GPT-6 Astra integration hints at running a GPT-6‑class model on home hardware or edge devices managed by OpenRouter. If proven, it could reduce cloud dependence and latency for developers, while raising questions about model access, hardware requirements, and safety controls.",
+      "summary_zh": "OpenRouter 将 GPT-6 Astra 集成，意味着在路由器等边缘设备上运行 GPT-6 级模型的可能性。若成真，可能降低对云端的依赖并降低延迟，同时也提出关于模型访问、硬件要求与安全控制的新问题。",
+      "hn": {
+        "id": 49570545,
+        "type": "story",
+        "by": "Topfi",
+        "score": 231,
+        "descendants": 139,
+        "time": 1788557959,
+        "comments_url": "https://news.ycombinator.com/item?id=49570545"
+      },
+      "tags": [
+        "AI",
+        "Hardware"
+      ],
+      "hot_score": 1.82
+    },
+    {
+      "title_en": "Can AI design circuit boards yet?",
+      "url": "https://eebench.org/blog/can-ai-design-circuit-boards-yet/",
+      "title_zh": "AI 现在能设计电路板吗？",
+      "created_display": "Created: Sep 04, 2026 / 12:48 PT",
+      "image_url": "https://eebench.org/src/can-ai-design-circuit-boards-yet.png",
+      "summary_en": "AI tools are making progress on circuit-board tasks, but practical, production-ready PCB design still requires human oversight. The discussion surveys current capabilities, limits, and what remains to be solved before AI can fully design complex PCBs.",
+      "summary_zh": "AI 工具在电路板任务上取得进展，但实际投入生产的 PCB 设计仍需人类监督。文章盘点了当前的能力、局限，以及在 AI 能否完整设计复杂 PCB 之前还需要解决的问题。",
+      "hn": {
+        "id": 49569366,
+        "type": "story",
+        "by": "iopapa",
+        "score": 263,
+        "descendants": 159,
+        "time": 1788551309,
+        "comments_url": "https://news.ycombinator.com/item?id=49569366"
+      },
+      "tags": [
+        "AI",
+        "Design"
+      ],
+      "hot_score": 1.67
+    },
+    {
+      "title_en": "Portal by Spotify cut my Claude Code token usage by 90%",
+      "url": "https://engineering.atspotify.com/2026/9/portal-by-spotify-cut-my-claude-code-token-usage-by-90",
+      "title_zh": "Spotify 的 Portal 将 Claude Code 的令牌用量降低 90%",
+      "created_display": "Created: Sep 04, 2026 / 16:38 PT",
+      "image_url": "https://images.ctfassets.net/p762jor363g1/3cpzewWxmNFDmdAuYuPQVy/f57b117635dc5901dfe476da6927276b/Option_3.png",
+      "summary_en": "Spotify's Portal cuts Claude Code token usage by about 90%, dramatically reducing AI-assisted coding costs. The approach combines caching, rate limiting, and request shaping to optimize API usage across code-generation tasks.",
+      "summary_zh": "Spotify 的 Portal 将 Claude Code 的令牌用量降低约 90%，显著降低了 AI 辅助编码的成本。通过缓存、速率限制和请求塑形等手段优化代码生成任务的 API 使用。",
+      "hn": {
+        "id": 49571465,
+        "type": "story",
+        "by": "cebert",
+        "score": 142,
+        "descendants": 61,
+        "time": 1788565130,
+        "comments_url": "https://news.ycombinator.com/item?id=49571465"
+      },
+      "tags": [
+        "AI",
+        "Programming"
+      ],
+      "hot_score": 1.45
+    },
+    {
+      "title_en": "Show HN: Open-Source eInk Bike Computer",
+      "url": "https://opentrailpaper.com",
+      "title_zh": "Show HN: 开源电子墨水自行车电脑",
+      "created_display": "Created: Sep 04, 2026 / 10:18 PT",
+      "image_url": "https://opentrailpaper.com/img/logo.png",
+      "summary_en": "A Show HN on an open-source e-ink bike computer project, designed for low power and long battery life. The project invites community contributions to firmware and hardware, underscoring the appeal of hackable, energy-efficient outdoor electronics.",
+      "summary_zh": "展示式开发贴报道一个开源电子墨水自行车电脑项目，特点是低功耗和长电池寿命。该项目鼓励社区为固件和硬件贡献代码，凸显可定制、能源高效的户外电子设备的吸引力。",
+      "hn": {
+        "id": 49567437,
+        "type": "story",
+        "by": "stingrae",
+        "score": 288,
+        "descendants": 102,
+        "time": 1788542288,
+        "comments_url": "https://news.ycombinator.com/item?id=49567437"
+      },
+      "tags": [
+        "Show HN",
+        "Open Source",
+        "Hardware",
+        "Energy"
+      ],
+      "hot_score": 1.42
+    },
+    {
+      "title_en": "Artificial Analysis Intelligence Index v4.2",
+      "url": "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v4-2",
+      "title_zh": "人工分析智能指数 v4.2",
+      "created_display": "Created: Sep 04, 2026 / 17:04 PT",
+      "image_url": "https://cdn.sanity.io/images/6vfeftx9/articles/6f95888d7f2b11ac42c1be194ed4de6fa96571cb-1254x1254.png?w=1200&auto=format",
+      "summary_en": "The Artificial Analysis Intelligence Index v4.2 presents updated metrics and benchmarks for evaluating AI systems across capabilities, risk, and governance. It emphasizes transparency and ongoing gaps in measurement standards for AI safety and societal impacts.",
+      "summary_zh": "人工分析智能指数 v4.2 提供更新的评估指标与基准，用以衡量AI系统在能力、风险与治理方面的表现。强调透明度和在AI安全与社会影响测量标准方面的持续空缺。",
+      "hn": {
+        "id": 49571632,
+        "type": "story",
+        "by": "nojs",
+        "score": 120,
+        "descendants": 42,
+        "time": 1788566654,
+        "comments_url": "https://news.ycombinator.com/item?id=49571632"
+      },
+      "tags": [
+        "AI"
+      ],
+      "hot_score": 1.3
+    },
+    {
+      "title_en": "Corporate America is getting hooked on open-source AI",
+      "url": "https://www.nytimes.com/2026/09/04/technology/open-source-ai-anthropic-openai.html",
+      "title_zh": "美国企业界越来越沉迷开源AI",
+      "created_display": "Created: Sep 04, 2026 / 08:33 PT",
+      "image_url": null,
+      "summary_en": "U.S. companies are increasingly embracing open-source AI, leveraging community-driven models and tools to accelerate innovation. The shift prompts questions about governance, safety, and how firms balance openness with risk. Industry observers say open-source momentum could shift standards, licensing, and the pace of AI development across sectors.",
+      "summary_zh": "美国企业正越来越多地采用开源 AI，利用社区驱动的模型和工具来加速创新。此举引发关于治理、安全和在开放性与风险之间取舍的讨论。业内人士表示，开源的势头可能影响行业标准、许可模式，以及各领域 AI 发展的节奏。",
+      "hn": {
+        "id": 49566137,
+        "type": "story",
+        "by": "aaraujo002",
+        "score": 297,
+        "descendants": 270,
+        "time": 1788536025,
+        "comments_url": "https://news.ycombinator.com/item?id=49566137"
+      },
+      "tags": [
+        "AI",
+        "Open Source"
+      ],
+      "hot_score": 1.25
+    },
+    {
+      "title_en": "GPT-6 Astra in code review: Gains, privacy, and cost",
+      "url": "https://www.coderabbit.ai/blog/gpt-6-astra-code-review-evaluation",
+      "title_zh": "GPT-6 Astra 在代码审查中的表现：收益、隐私与成本",
+      "created_display": "Created: Sep 04, 2026 / 20:38 PT",
+      "image_url": "https://www.coderabbit.ai/content/assets/gpt-6-astra/header.png",
+      "summary_en": "GPT-6 Astra speeds up code-review with better triage and inline suggestions, helping engineers catch issues earlier. But it raises privacy concerns when proprietary code is processed by AI and adds cost considerations for large teams. The evaluation weighs gains against privacy and cost, guiding practical use in review workflows.",
+      "summary_zh": "GPT-6 Astra 在代码审查中提升分拣与内联建议的速度，帮助工程师更早发现问题；但将私有代码交给 AI 处理存在隐私风险，并对大规模团队的成本构成考量。评估从收益、隐私与成本三方面权衡，为审查工作流中的实际应用提供指引。",
+      "hn": {
+        "id": 49572875,
+        "type": "story",
+        "by": "cebert",
+        "score": 48,
+        "descendants": 24,
+        "time": 1788579536,
+        "comments_url": "https://news.ycombinator.com/item?id=49572875"
+      },
+      "hot_score": 0.95,
+      "tags": [
+        "AI",
+        "Privacy",
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "IBM Bob",
+      "url": "https://bob.ibm.com/",
+      "title_zh": "IBM Bob",
+      "created_display": "Created: Sep 04, 2026 / 05:50 PT",
+      "image_url": "https://bob.ibm.com/bob-og.png",
+      "summary_en": "IBM Bob is IBM’s latest project, signaling the company’s continued push into AI.",
+      "summary_zh": "IBM Bob 是 IBM 最新的项目，标志着公司在 AI 领域的持续推进。",
+      "hn": {
+        "id": 49563851,
+        "type": "story",
+        "by": "artpar",
+        "score": 271,
+        "descendants": 292,
+        "time": 1788526229,
+        "comments_url": "https://news.ycombinator.com/item?id=49563851"
+      },
+      "tags": [
+        "AI",
+        "Business"
+      ],
+      "hot_score": 0.92
+    },
+    {
+      "title_en": "Can guitar frets perform multiplication?",
+      "url": "https://www.charlespetzold.com/blog/2026/09/Can-Guitar-Frets-Perform-Multiplication.html",
+      "title_zh": "吉他品位能否执行乘法运算？",
+      "created_display": "Created: Sep 04, 2026 / 15:40 PT",
+      "image_url": "https://www.charlespetzold.com/blog/2026/09/images/SocialMediaImage.png",
+      "summary_en": "A playful exploration demonstrates how a guitar fretboard can be used to perform basic multiplication, using fret positions as a hands-on arithmetic visualization. The piece blends math, instrument design, and intuitive computation to illustrate how simple hardware can encode math.",
+      "summary_zh": "一篇有趣的探索展示了如何利用吉他品位来进行基本乘法运算，通过品位位置直观呈现数字。它把数学、乐器设计和直观计算结合起来，展示了简单硬件也能编码数学运算。",
+      "hn": {
+        "id": 49571047,
+        "type": "story",
+        "by": "wibbily",
+        "score": 84,
+        "descendants": 21,
+        "time": 1788561630,
+        "comments_url": "https://news.ycombinator.com/item?id=49571047"
+      },
+      "tags": [
+        "Education",
+        "Science",
+        "Hardware"
+      ],
+      "hot_score": 0.75
+    },
+    {
+      "title_en": "The Rust React Compiler is now native in Vite",
+      "url": "https://blog.master.dev/react-now-rusted-all-the-way-out/",
+      "title_zh": "Rust React 编译器现已在 Vite 原生支持",
+      "created_display": "Created: Sep 04, 2026 / 10:49 PT",
+      "image_url": "https://blog.master.dev/wp-json/social-image-generator/v1/image/10858",
+      "summary_en": "Vite now ships a native integration with a Rust-based React compiler, enabling faster builds and leaner bundles by leveraging Rust tooling in the frontend pipeline. The change signals growing interest in leveraging Rust for frontend tooling to improve performance and safety.",
+      "summary_zh": "Vite 现已原生集成基于 Rust 的 React 编译器，利用 Rust 工具链提升构建速度并缩小打包体积。此改动传达了在前端工具链中进一步使用 Rust 以提升性能与安全性的趋势。",
+      "hn": {
+        "id": 49567873,
+        "type": "story",
+        "by": "acusti",
+        "score": 140,
+        "descendants": 32,
+        "time": 1788544149,
+        "comments_url": "https://news.ycombinator.com/item?id=49567873"
+      },
+      "tags": [
+        "Programming",
+        "Web"
+      ],
+      "hot_score": 0.72
+    },
+    {
+      "title_en": "Fermat's Last Theorem in Lean 4",
+      "url": "https://github.com/anthropics/fermats-last-theorem",
+      "title_zh": "Lean 4 中的费马大定理证明",
+      "created_display": "Created: Sep 04, 2026 / 11:57 PT",
+      "image_url": "https://opengraph.githubassets.com/8fcca32c6d5ab537bd78dfc7b1bc2a0ce44b95a4b83969864b7d54df00516054/anthropics/fermats-last-theorem",
+      "summary_en": "A formal proof of Fermat's Last Theorem has been encoded in Lean 4, illustrating how proof assistants handle classical math. The milestone demonstrates the maturity of interactive theorem proving and its potential to reinforce mathematical rigor.",
+      "summary_zh": "Lean 4 实现了对费马大定理的形式化证明，展示了证明助手在现代数学中的应用前景。这一里程碑证明了交互式定理证明的成熟度及其提升数学严谨性的潜力。",
+      "hn": {
+        "id": 49568697,
+        "type": "story",
+        "by": "aaraujo002",
+        "score": 111,
+        "descendants": 21,
+        "time": 1788548252,
+        "comments_url": "https://news.ycombinator.com/item?id=49568697"
+      },
+      "tags": [
+        "Science",
+        "Education"
+      ],
+      "hot_score": 0.64
+    },
+    {
+      "title_en": "An open DNS recursive service for free security and high privacy",
+      "url": "https://quad9.net/",
+      "title_zh": "一个免费且高隐私的开放递归 DNS 服务",
+      "created_display": "Created: Sep 04, 2026 / 13:13 PT",
+      "image_url": "https://quad9.net/images/cover_c2f081e020.png",
+      "summary_en": "Quad9's open DNS recursive service is free and privacy-focused, offering DNS resolution with built-in security features. The project emphasizes minimal data collection and robust threat protection, making it a compelling option for privacy-minded networks and individuals.",
+      "summary_zh": "Quad9 的开放递归 DNS 服务免费且注重隐私，提供带有威胁防护的域名解析。该项目强调尽量不收集用户数据，适合对隐私有高度要求的网络与个人使用，但性能与可信度取决于运营方。",
+      "hn": {
+        "id": 49569663,
+        "type": "story",
+        "by": "mooreds",
+        "score": 91,
+        "descendants": 27,
+        "time": 1788552788,
+        "comments_url": "https://news.ycombinator.com/item?id=49569663"
+      },
+      "tags": [
+        "Privacy",
+        "Security"
+      ],
+      "hot_score": 0.6
+    },
+    {
+      "title_en": "deSEC – Free Secure DNS",
+      "url": "https://desec.io/",
+      "title_zh": "deSEC：免费安全 DNS",
+      "created_display": "Created: Sep 04, 2026 / 08:38 PT",
+      "image_url": "https://desec.io/assets/logo.svg",
+      "summary_en": "deSEC offers free, DNSSEC-secured DNS with emphasis on privacy and open-source tooling. The project provides an alternative to centralized DNS services, aiming to reduce surveillance risk while keeping DNS resolvers accessible.",
+      "summary_zh": "deSEC 提供免费、具 DNSSEC 的安全 DNS，强调隐私与开源工具。该项目为对公有 DNS 的集中化替代方案，力求在降低监控风险的同时保持解析服务的可访问性。",
+      "hn": {
+        "id": 49566193,
+        "type": "story",
+        "by": "gurjeet",
+        "score": 135,
+        "descendants": 48,
+        "time": 1788536338,
+        "comments_url": "https://news.ycombinator.com/item?id=49566193"
+      },
+      "tags": [
+        "Open Source",
+        "Security",
+        "Privacy"
+      ],
+      "hot_score": 0.57
+    },
+    {
+      "title_en": "“Next-token predictor” is the wrong mental model for LLMs",
+      "url": "https://gmcgoldr.github.io/2026/09/04/llm-next-token-predictors.html",
+      "title_zh": "“下一个 token 预测器”不是 LLM 的正确心智模型",
+      "created_display": "Created: Sep 04, 2026 / 10:09 PT",
+      "image_url": null,
+      "summary_en": "Argues that treating LLMs as next-token predictors is an incomplete mental model; better perspectives view internal representations, latent reasoning, or prompting strategies that exploit non-local dependencies. This reframing has implications for evaluation, alignment, and interaction design.",
+      "summary_zh": "认为将大语言模型视为“下一个标记预测器”并不能全面描述其行为；更合适的心智模型应关注内部表示、潜在推理过程或能利用非局部依赖的提示策略。重新建模对评估、对齐与交互设计有重要影响。",
+      "hn": {
+        "id": 49567310,
+        "type": "story",
+        "by": "garrinm",
+        "score": 115,
+        "descendants": 242,
+        "time": 1788541764,
+        "comments_url": "https://news.ycombinator.com/item?id=49567310"
+      },
+      "tags": [
+        "AI",
+        "Security"
+      ],
+      "hot_score": 0.56
+    },
+    {
+      "title_en": "Government Rails Site Hit Hours After CVE Patch",
+      "url": "https://rietta.com/blog/ruby-on-rails-cve-exploited-hours-after-patch/",
+      "title_zh": "政府的 Rails 站点在修补 CVE 几小时后遭入侵",
+      "created_display": "Created: Sep 04, 2026 / 12:06 PT",
+      "image_url": null,
+      "summary_en": "A government Rails site was compromised within hours of applying a CVE patch, illustrating how quickly attackers can exploit patched flaws when systems are exposed. The incident underscores the need for rapid patching, layered defenses, and vigilant monitoring to catch post-patch activity.",
+      "summary_zh": "一个政府的 Rails 站点在应用 CVE 补丁数小时后被入侵，说明攻击者在修补后利用已暴露漏洞的速度之快。事件凸显了快速打补丁、分层防御和对补丁后活动的持续监控的必要性。",
+      "hn": {
+        "id": 49568828,
+        "type": "story",
+        "by": "rietta",
+        "score": 95,
+        "descendants": 30,
+        "time": 1788548799,
+        "comments_url": "https://news.ycombinator.com/item?id=49568828"
+      },
+      "tags": [
+        "Security",
+        "Politics"
+      ],
+      "hot_score": 0.56
+    },
+    {
+      "title_en": "Ok, but does it scale?",
+      "url": "https://spacetimedb.com/blog/how-does-spacetime-scale",
+      "title_zh": "好吧，但它真的能扩展吗？",
+      "created_display": "Created: Sep 04, 2026 / 05:42 PT",
+      "image_url": "https://spacetimedb.com/og/blog/how-does-spacetime-scale.png",
+      "summary_en": "A spacetime database project faces questions about scaling as workloads grow, with analyses comparing throughput, latency, and resource needs under realistic usage.",
+      "summary_zh": "关于时空数据库的扩展性问题在工作负载增长时引发关注，分析比较吞吐、延迟和在现实使用场景下的资源需求。",
+      "hn": {
+        "id": 49563772,
+        "type": "story",
+        "by": "theanonymousone",
+        "score": 118,
+        "descendants": 66,
+        "time": 1788525728,
+        "comments_url": "https://news.ycombinator.com/item?id=49563772"
+      },
+      "tags": [
+        "Programming",
+        "Data"
+      ],
+      "hot_score": 0.39
+    },
+    {
+      "title_en": "Show HN: TERMy – A fast terminal assistant that does not use LLMs",
+      "url": "https://github.com/gioblu/NPC-Forge/blob/main/docs/development.md",
+      "title_zh": "TERMy：一个不使用大模型的快速终端助手",
+      "created_display": "Created: Sep 04, 2026 / 02:03 PT",
+      "image_url": "https://opengraph.githubassets.com/78e53eeb7fb33b49b767c67f73a80787fc5e99216f69d06cd2e0ad5deea1f6db/gioblu/NPC-Forge",
+      "summary_en": "TERMy is a fast terminal assistant that runs without LLMs, trading off cloud AI for local processing and speed. It demonstrates a rising interest in lightweight, privacy-preserving tooling that can operate offline and with minimal latency.",
+      "summary_zh": "TERMy 是一个不依赖大模型的快速终端助手，改以本地处理取代云端 AI，追求更快的响应。它体现了对轻量级、注重隐私的工具的日益关注，尤其是能离线工作且延迟更低。",
+      "hn": {
+        "id": 49562219,
+        "type": "story",
+        "by": "gioscarab",
+        "score": 135,
+        "descendants": 36,
+        "time": 1788512580,
+        "comments_url": "https://news.ycombinator.com/item?id=49562219"
+      },
+      "tags": [
+        "Show HN",
+        "Programming",
+        "AI",
+        "Privacy"
+      ],
+      "hot_score": 0.35
+    },
+    {
+      "title_en": "Connecting every app to every other app",
+      "url": "https://blog.val.town/connectors",
+      "title_zh": "让每个应用彼此连接：连接器的设想",
+      "created_display": "Created: Sep 04, 2026 / 16:09 PT",
+      "image_url": "https://imagedelivery.net/iHX6Ovru0O7AjmyT5yZRoA/5a0fe0c4-e748-4412-cb22-5e5775b21300/public",
+      "summary_en": "The post outlines an approach to connect every app to every other app via connectors, emphasizing interoperability, security, and developer ergonomics. It envisions lightweight, standardized integration layers that unlock cross-tool workflows without bespoke adapters.",
+      "summary_zh": "文章概述通过连接器实现让每个应用互联的方法，强调互操作性、安全性和开发者体验。设想采用轻量化、标准化的集成层，解锁跨工具的工作流，而无需定制化适配。",
+      "hn": {
+        "id": 49571263,
+        "type": "story",
+        "by": "Chidiebere229",
+        "score": 38,
+        "descendants": 2,
+        "time": 1788563399,
+        "comments_url": "https://news.ycombinator.com/item?id=49571263"
+      },
+      "tags": [
+        "Programming",
+        "Security"
+      ],
+      "hot_score": 0.35
+    },
+    {
+      "title_en": "How to Create a Tor Exit Node (2015)",
+      "url": "https://madpsy.uk/how-to-create-a-tor-exit-node/",
+      "title_zh": "如何创建 Tor 出口节点（2015）",
+      "created_display": "Created: Sep 04, 2026 / 13:16 PT",
+      "image_url": "https://madpsy.uk/wp-content/uploads/2015/11/tor-exit.jpg",
+      "summary_en": "The 2015 guide to creating a Tor exit node covers practical steps and the legal/operational trade-offs of running exit traffic. It highlights the tension between anonymity networks and the real-world scrutiny that exit nodes attract.",
+      "summary_zh": "2015 年的教程介绍了如何搭建 Tor 出口节点，涵盖相关的法律与运营考量、流量归属与潜在风险。揭示了匿名网络基础设施所面临的现实挑战。",
+      "hn": {
+        "id": 49569702,
+        "type": "story",
+        "by": "Eridanus2",
+        "score": 51,
+        "descendants": 32,
+        "time": 1788552982,
+        "comments_url": "https://news.ycombinator.com/item?id=49569702"
+      },
+      "tags": [
+        "Security",
+        "Privacy",
+        "Legal"
+      ],
+      "hot_score": 0.34
+    },
+    {
+      "title_en": "Icons as a Service",
+      "url": "https://nravic.com/blog/images/",
+      "title_zh": "Icons as a Service",
+      "created_display": "Created: Sep 04, 2026 / 14:44 PT",
+      "image_url": "https://nravic.com/img/icons/ark.jpg",
+      "summary_en": "A concept proposing Icons as a Service to host icon assets via an API, enabling consistent usage, theming, and caching across apps. It discusses implications for design systems, licensing, and potential monetization.",
+      "summary_zh": "提出“图标即服务”的构想，通过 API 托管图标资源，使跨应用的图标风格一致、可缓存、可主题化。讨论了对设计系统、授权与潜在商业模式的影响。",
+      "hn": {
+        "id": 49570597,
+        "type": "story",
+        "by": "nravic",
+        "score": 44,
+        "descendants": 5,
+        "time": 1788558299,
+        "comments_url": "https://news.ycombinator.com/item?id=49570597"
+      },
+      "tags": [
+        "Design"
+      ],
+      "hot_score": 0.34
+    },
+    {
+      "title_en": "Project HydraFusion: Frontier quality via multi-model orchestration",
+      "url": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
+      "title_zh": "HydraFusion 项目：通过多模型编排实现前沿质量",
+      "created_display": "Created: Sep 04, 2026 / 09:24 PT",
+      "image_url": "https://github.blog/wp-content/uploads/2026/09/OptA_UI.jpg",
+      "summary_en": "HydraFusion weaves together multiple models through a unified orchestration layer to boost output quality. By routing tasks to the model best suited for each subproblem, it aims to reach frontier-quality results at scale. This approach could reshape how teams build AI copilots and complex AI pipelines.",
+      "summary_zh": "HydraFusion 将多模型通过统一编排层整合，提升输出质量。通过为不同子任务分配最合适的模型，它旨在实现规模化的前沿级别结果。这一做法可能改变团队构建 AI 辅助工具和复杂 AI 流水线的方式。",
+      "hn": {
+        "id": 49566788,
+        "type": "story",
+        "by": "qainsights",
+        "score": 67,
+        "descendants": 31,
+        "time": 1788539090,
+        "comments_url": "https://news.ycombinator.com/item?id=49566788"
+      },
+      "tags": [
+        "AI"
+      ],
+      "hot_score": 0.3
+    },
+    {
+      "title_en": "Updates on HEIR, the Homomorphic Encryption Compiler Project",
+      "url": "https://www.jeremykun.com/2026/09/04/updates-on-heir-homomorphic-encryption/",
+      "title_zh": "HEIR 同态加密编译器项目的更新",
+      "created_display": "Created: Sep 04, 2026 / 14:16 PT",
+      "image_url": null,
+      "summary_en": "HEIR updates bring progress on homomorphic encryption compilation, including improvements in performance, support for new schemes, or tooling. The project aims to simplify compiling high-level programs into homomorphic operations, accelerating privacy-preserving computation.",
+      "summary_zh": "HEIR 同态加密编译器项目取得进展，可能涉及性能优化、新方案的支持或工具链更新。该项目旨在简化将高层程序编译成同态操作的过程，推动隐私计算落地。",
+      "hn": {
+        "id": 49570328,
+        "type": "story",
+        "by": "turtleyacht",
+        "score": 38,
+        "descendants": 0,
+        "time": 1788556576,
+        "comments_url": "https://news.ycombinator.com/item?id=49570328"
+      },
+      "tags": [
+        "Security",
+        "Programming",
+        "Privacy"
+      ],
+      "hot_score": 0.28
+    },
+    {
+      "title_en": "Show HN: Moadim.io – A scheduler for agents",
+      "url": "https://moadim.io/",
+      "title_zh": "Show HN：Moadim.io——为代理人设计的调度器",
+      "created_display": "Created: Sep 04, 2026 / 16:50 PT",
+      "image_url": "https://moadim.io/opengraph-image?ede1a15554e8c3a4",
+      "summary_en": "Moadim.io is a scheduler tailored for coordinating AI agents, enabling timed tasks and orchestrated workflows. It targets developers building multi-agent systems and could streamline automation pipelines.",
+      "summary_zh": "Moadim.io 是为协同 AI 代理而设计的调度器，支持定时任务与有序工作流编排，面向构建多代理系统的开发者，或能简化自动化管线。",
+      "hn": {
+        "id": 49571537,
+        "type": "story",
+        "by": "tupe12334",
+        "score": 25,
+        "descendants": 11,
+        "time": 1788565829,
+        "comments_url": "https://news.ycombinator.com/item?id=49571537"
+      },
+      "hot_score": 0.25,
+      "tags": [
+        "Show HN",
+        "Programming",
+        "AI"
+      ]
+    },
+    {
+      "title_en": "RSA-260 Factorized",
+      "url": "https://twitter.com/penlume/status/2095372672356212876",
+      "title_zh": "RSA-260 的因子分解",
+      "created_display": "Created: Sep 02, 2026 / 22:35 PT",
+      "image_url": "https://pbs.twimg.com/profile_images/1911652961379401728/Mf-cc4Uw_200x200.jpg",
+      "summary_en": "RSA-260’s factorization marks another milestone in practical factoring of large semi-primes using GNFS. The result informs cryptographic parameter choices and reinforces the push toward larger keys or quantum-resistant schemes to protect long-term data.",
+      "summary_zh": "RSA-260 的因子分解标志着大型半素数可因分解的又一里程碑，使用 GNFS 等现代算法实现。结果影响密码参数的选择，进一步推动对更大密钥或量子抗性方案的需求。",
+      "hn": {
+        "id": 49546284,
+        "type": "story",
+        "by": "samyok",
+        "score": 116,
+        "descendants": 64,
+        "time": 1788413731,
+        "comments_url": "https://news.ycombinator.com/item?id=49546284"
+      },
+      "tags": [
+        "Security",
+        "Science"
+      ],
+      "hot_score": 0.09
+    },
+    {
+      "title_en": "Ask HN: Resources to get good at soldering?",
+      "url": "https://news.ycombinator.com/item?id=49533840",
+      "title_zh": "焊接资源获取指南吗？",
+      "created_display": "Created: Sep 02, 2026 / 02:24 PT",
+      "image_url": "https://news.ycombinator.com/y18.svg",
+      "summary_en": "A thread curates practical soldering resources for beginners and enthusiasts, including guides, practice boards, and safety tips. It emphasizes hands-on skills as essential for hardware projects and reduces common beginner frustration.",
+      "summary_zh": "该讨论串汇集了从初学到进阶的实用焊接资源，涵盖指南、练习板和安全要点。强调动手能力在硬件项目中的重要性，并帮助新手降低挫败感。",
+      "hn": {
+        "id": 49533840,
+        "type": "story",
+        "by": "tosmatos",
+        "score": 132,
+        "descendants": 74,
+        "time": 1788341051,
+        "comments_url": "https://news.ycombinator.com/item?id=49533840"
+      },
+      "tags": [
+        "Hardware",
+        "Education"
+      ],
+      "hot_score": 0.06
+    },
+    {
+      "title_en": "The Two Abstractions of System Design: Hide or Reduce",
+      "url": "http://muratbuffalo.blogspot.com/2026/05/the-two-abstractions-of-system-design.html",
+      "title_zh": "系统设计的两种抽象：隐藏与简化",
+      "created_display": "Created: Sep 02, 2026 / 04:54 PT",
+      "image_url": "https://blogger.googleusercontent.com/img/a/AVvXsEgUV8paJsfBDCdaizCxyZLf_tgGZc_L1c6HYhST-bupV3snzItwcj-3TzIJnc20dDeTmoFeMaEHxyZpxrqsgI80le-78m0BN7QqcMGPBkhwTLTu-BaWTc0DQ9rpXsag-tonr1n-TYZXz2sRYCk7HQaB94VGFboZ8sPvIL9_mIPGhBpOqL3B_42ueVNyq9o=w393-h400",
+      "summary_en": "Two guiding abstractions shape system design: hide complexity to provide simple interfaces, or reduce operations to improve efficiency. Each approach trades off flexibility, performance, and maintainability. The article argues for balancing these abstractions to manage large-scale systems.",
+      "summary_zh": "系统设计受两种抽象指引：隐藏复杂性以提供简洁接口，或通过简化操作以提升效率。每种方法都在灵活性、性能和可维护性之间做出权衡。文章主张在大规模系统中平衡这两种抽象以实现可持续设计。",
+      "hn": {
+        "id": 49534936,
+        "type": "story",
+        "by": "ubolonton_",
+        "score": 108,
+        "descendants": 13,
+        "time": 1788350054,
+        "comments_url": "https://news.ycombinator.com/item?id=49534936"
+      },
+      "tags": [
+        "Design"
+      ],
+      "hot_score": 0.05
+    },
+    {
+      "title_en": "Elevator of the Year: Modernization of the Metropolis Trust Building",
+      "url": "https://www.starelevator.com/projects/star-elevator-modernization-of-the-metropolis-trust-building",
+      "title_zh": "年度电梯：大都会信托大厦现代化",
+      "created_display": "Created: Aug 31, 2026 / 17:01 PT",
+      "image_url": "http://static1.squarespace.com/static/669edd08b2a3fe788c2273e2/66a03203998c325bfae87cf2/66a0374c9be4c14975f518e2/1773245105520/IMG_4156.jpeg?format=1500w",
+      "summary_en": "A high-profile modernization of a city building's elevator system is featured as 'Elevator of the Year', likely detailing retrofits, safety upgrades, and accessibility improvements. It reflects the rising attention to resilient urban infrastructure and smart building tech.",
+      "summary_zh": "年度电梯项目聚焦大都会信托大厦的电梯系统现代化，涵盖翻新、安防与无障碍改进。反映出对城市基础设施韧性及智能楼宇技术日益增长的关注。",
+      "hn": {
+        "id": 49516312,
+        "type": "story",
+        "by": "palashawas",
+        "score": 146,
+        "descendants": 52,
+        "time": 1788220873,
+        "comments_url": "https://news.ycombinator.com/item?id=49516312"
+      },
+      "tags": [
+        "Design",
+        "DevOps"
+      ],
+      "hot_score": 0.03
+    },
+    {
+      "title_en": "Decompiler Explorer",
+      "url": "https://dogbolt.org",
+      "title_zh": "Decompiler Explorer（反编译浏览工具）",
+      "created_display": "Created: Sep 01, 2026 / 15:33 PT",
+      "image_url": "https://dogbolt.org/static/img/dogbolt.0138e8c3255b.png",
+      "summary_en": "Decompiler Explorer provides an interactive environment to inspect decompiled code, supporting reverse engineering and malware analysis workflows. It helps researchers explore control flow and data structures without starting from scratch.",
+      "summary_zh": "Decompiler Explorer 提供一个交互式反编译浏览环境，支持逆向工程和恶意软件分析工作流，便于研究人员直观查看控制流与数据结构。",
+      "hn": {
+        "id": 49529161,
+        "type": "story",
+        "by": "tripdout",
+        "score": 89,
+        "descendants": 5,
+        "time": 1788301995,
+        "comments_url": "https://news.ycombinator.com/item?id=49529161"
+      },
+      "tags": [
+        "Security",
+        "Open Source"
+      ],
+      "hot_score": 0.03
+    },
+    {
+      "title_en": "The Highest Point in the Netherlands",
+      "url": "https://ipv6.hanazo.no/posts/anniversary-personal/",
+      "title_zh": "荷兰的最高点（最高点探访）",
+      "created_display": "Created: Sep 02, 2026 / 07:58 PT",
+      "image_url": "https://ipv6.hanazo.no/images/psychedelic-visuals.png",
+      "summary_en": "The post surveys the Netherlands' highest point, typically the Vaalserberg, and reflects on its geography and accessibility. It offers a concise look at a geographic curiosity and the landscape around the border region.",
+      "summary_zh": "本文介绍荷兰最高点瓦尔斯堡山及其地理意义，探讨到访路径与周边风光，提供对这一地理好奇的简要观察。",
+      "hn": {
+        "id": 49537340,
+        "type": "story",
+        "by": "haasted",
+        "score": 58,
+        "descendants": 40,
+        "time": 1788361124,
+        "comments_url": "https://news.ycombinator.com/item?id=49537340"
+      },
+      "hot_score": 0.03,
+      "tags": [
+        "Culture"
+      ]
+    },
+    {
+      "title_en": "Getting Started with AT Protocol",
+      "url": "https://bnb.im/posts/atproto-essential-resources/",
+      "title_zh": "AT Protocol 入门指南",
+      "created_display": "Created: Sep 01, 2026 / 12:48 PT",
+      "image_url": "https://bnb.im/img/social/atproto-essential-resources.png",
+      "summary_en": "Getting started with AT Protocol guides developers through onboarding, core docs, and example applications for decentralized social networks. The resources help teams prototype, test, and iterate on decentralized identities and feeds at scale.",
+      "summary_zh": "AT Protocol 入门指南 引导开发者完成入门、核心文档和示例应用的学习，帮助团队在去中心化社交网络上快速原型、测试和迭代去中心化身份和信息流。",
+      "hn": {
+        "id": 49527123,
+        "type": "story",
+        "by": "evakhoury",
+        "score": 77,
+        "descendants": 25,
+        "time": 1788292117,
+        "comments_url": "https://news.ycombinator.com/item?id=49527123"
+      },
+      "tags": [
+        "Open Source",
+        "Web"
+      ],
+      "hot_score": 0.02
+    },
+    {
+      "title_en": "Git Submodules as a Package Manager",
+      "url": "https://nesbitt.io/2026/09/01/git-submodules-as-a-package-manager.html",
+      "title_zh": "把 Git 子模组当成包管理器",
+      "created_display": "Created: Sep 01, 2026 / 02:36 PT",
+      "image_url": "https://nesbitt.io/images/boxes.png",
+      "summary_en": "A provocative take suggests using Git submodules as a lightweight package manager, enabling exact, versioned dependencies with repeatable checkouts. The approach trades off simplicity for complexity in workflows, with caveats around nested repos, updates, and toolchain gaps.",
+      "summary_zh": "一种把 Git 子模组当作轻量包管理器的做法，能够实现版本化依赖和可重复的检出。该思路在简化与复杂性之间取舍，需权衡嵌套仓库、递归更新与现有工具链的局限。",
+      "hn": {
+        "id": 49519850,
+        "type": "story",
+        "by": "ErenayDev",
+        "score": 58,
+        "descendants": 7,
+        "time": 1788255370,
+        "comments_url": "https://news.ycombinator.com/item?id=49519850"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 0.01
+    },
+    {
+      "title_en": "Bugs happen: The easy way to compare solo PQ to ECC+PQ",
+      "url": "https://blog.cr.yp.to/20260704-bugs.html",
+      "title_zh": "总有 bug：把 solo PQ 与 ECC+PQ 做对比的简单方法",
+      "created_display": "Created: Sep 01, 2026 / 14:27 PT",
+      "image_url": null,
+      "summary_en": "The post argues for a practical approach to comparing solo PQ schemes against ECC+PQ hybrids, pointing out common bugs and misinterpretations. It offers guidelines to ensure fair, apples-to-apples crypto comparisons in security and performance.",
+      "summary_zh": "本文提出一种实用方法，用于将 solo PQ 算法与 ECC+PQ 混合方案进行对比，指出常见的实现错误与解读偏差，并给出在安全性与性能评估中的公平对比指南。",
+      "hn": {
+        "id": 49528484,
+        "type": "story",
+        "by": "zdw",
+        "score": 18,
+        "descendants": 7,
+        "time": 1788298057,
+        "comments_url": "https://news.ycombinator.com/item?id=49528484"
+      },
+      "hot_score": 0.01,
+      "tags": [
+        "Security"
+      ]
+    },
+    {
+      "title_en": "Pointing at the error: compiler-style diagnostics in uutils coreutils",
+      "url": "https://uutils.org/blog/2026-08-error-diagnostics/",
+      "title_zh": "在 uutils coreutils 中实现编译器风格的错误诊断",
+      "created_display": "Created: Sep 02, 2026 / 05:05 PT",
+      "image_url": null,
+      "summary_en": "The project adds compiler-style diagnostics to the uutils coreutils suite, giving precise error locations, hints, and actionable fixes for command-line mistakes. This raises the bar for developer experience in low-level utilities and reduces debugging time.",
+      "summary_zh": "该项目为 uutils coreutils 增加了编译器风格的错误诊断，提供精确的错误定位、提示和可操作的修复建议，提升命令行工具的开发者体验，减少调试时间。",
+      "hn": {
+        "id": 49535024,
+        "type": "story",
+        "by": "ingve",
+        "score": 14,
+        "descendants": 1,
+        "time": 1788350705,
+        "comments_url": "https://news.ycombinator.com/item?id=49535024"
+      },
+      "hot_score": 0.01,
+      "tags": [
+        "Programming",
+        "Open Source"
+      ]
+    },
+    {
+      "title_en": "Praearcturus gigas: giant scorpion from Lower Devonian (Lochkovian) of Britain",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/pala.70064",
+      "title_zh": "Praearcturus gigas：英国下奥陶纪的巨型蝎化石",
+      "created_display": "Created: Sep 01, 2026 / 07:05 PT",
+      "image_url": null,
+      "summary_en": "Praearcturus gigas is a giant scorpion from the Lochkovian stage of the Lower Devonian in Britain, shedding light on early arthropod gigantism and predator-prey dynamics. The fossil expands our view of Devonian ecosystems and arthropod evolution.",
+      "summary_zh": "Praearcturus gigas 是英国下奥陶纪 Lochkovian 阶段的巨大蝎化石，揭示早期节肢动物的巨大体型及捕食-被捕关系。该发现拓展了对晚古生代生态系统与节肢动物演化的理解。",
+      "hn": {
+        "id": 49522194,
+        "type": "story",
+        "by": "bryanrasmussen",
+        "score": 16,
+        "descendants": 14,
+        "time": 1788271519,
+        "comments_url": "https://news.ycombinator.com/item?id=49522194"
+      },
+      "hot_score": 0.0,
+      "tags": [
+        "Science"
+      ]
+    },
+    {
+      "title_en": "Kale: A Transformation-Safe Spreadsheet System",
+      "url": "https://arxiv.org/abs/2608.26345",
+      "title_zh": "Kale：一种具备变换安全性的电子表格系统",
+      "created_display": "Created: Aug 31, 2026 / 18:42 PT",
+      "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "summary_en": "Kale is a spreadsheet system designed to preserve semantics under transformations, preserving formulas and data integrity as users edit and rearrange. It aims to prevent silent formula changes and enable reproducible transformations with stronger correctness guarantees.",
+      "summary_zh": "Kale 提供在进行编辑和重排数据时仍能保持公式与语义正确性的电子表格系统。它致力于避免对公式的无意修改，并实现可重现的变换与更强的正确性保障。",
+      "hn": {
+        "id": 49516962,
+        "type": "story",
+        "by": "zdw",
+        "score": 14,
+        "descendants": 2,
+        "time": 1788226950,
+        "comments_url": "https://news.ycombinator.com/item?id=49516962"
+      },
+      "hot_score": 0.0,
+      "tags": [
+        "Data"
+      ]
+    },
+    {
+      "title_en": "Sky Map 2000 – Star Atlas and Planetarium",
+      "url": "https://skymap2000.com/",
+      "title_zh": "Sky Map 2000：星图与天文馆",
+      "created_display": "Created: Sep 03, 2026 / 04:20 PT",
+      "image_url": "https://skymap2000.com/img/og-image.png",
+      "summary_en": "Sky Map 2000 combines a star atlas with a planetarium, offering interactive sky maps, catalogs, and visualization tools for enthusiasts and professionals. It helps users explore constellations, simulate celestial events, and plan observations with high-quality visuals.",
+      "summary_zh": "Sky Map 2000 将星图与天文馆功能结合，提供互动天空地图、星表与可视化工具，便于爱好者与专业人士探索星空、模拟天象并规划观测。",
+      "hn": {
+        "id": 49548596,
+        "type": "story",
+        "by": "m4c-pl",
+        "score": 3,
+        "descendants": 0,
+        "time": 1788434447,
+        "comments_url": "https://news.ycombinator.com/item?id=49548596"
+      },
+      "hot_score": 0.0,
+      "tags": [
+        "Science",
+        "Education"
+      ]
+    }
+  ]
+}
