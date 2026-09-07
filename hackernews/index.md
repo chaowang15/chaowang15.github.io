@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>199</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>29384</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>196</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>197</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-09-06</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>200</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>29433</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>196</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>198</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-09-07</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,123 +20,142 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='249' data-hn-time='1788751791'>
+<div class='hn-top-story-item' data-hn-score='322' data-hn-time='1788764600'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/06/top_stories_09062026#story-49593563'>Keep Our Servers Running</a>
- <a class='hn-top-story-link' href='https://blog.archive.org/2026/09/01/keep-our-servers-running-your-recurring-donation-goes-3x-this-september/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/07/top_stories_09072026#story-49594878'>LG smart TVs caught logging audio with screen off and snooping on local devices</a>
+ <a class='hn-top-story-link' href='https://www.notebookcheck.net/LG-smart-TVs-caught-logging-audio-with-screen-off-and-snooping-on-local-devices.1391214.0.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>确保服务器持续运行</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 249</span> <span class='hn-top-story-comments'>&#128172; 55</span> <span class='hn-top-story-tag'>Web</span></div>
+<div class='hn-top-story-zh'>LG 智能电视在屏幕关闭时记录音频并对本地设备进行窥探</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.4</span> <span class='hn-top-story-score'>&#9650; 322</span> <span class='hn-top-story-comments'>&#128172; 181</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='641' data-hn-time='1788716987'>
+<div class='hn-top-story-item' data-hn-score='586' data-hn-time='1788751791'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/06/top_stories_09062026#story-49588988'>Nitter and XCancel resume service after legal advice</a>
- <a class='hn-top-story-link' href='https://github.com/zedeus/nitter/commit/1428b4c2b4246f92a7e5b2673438e5fb39fcc4a3' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/07/top_stories_09072026#story-49593563'>Keep Our Servers Running</a>
+ <a class='hn-top-story-link' href='https://blog.archive.org/2026/09/01/keep-our-servers-running-your-recurring-donation-goes-3x-this-september/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Nitter 与 XCancel 在法律意见后恢复服务</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.8</span> <span class='hn-top-story-score'>&#9650; 641</span> <span class='hn-top-story-comments'>&#128172; 300</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Legal</span></div>
+<div class='hn-top-story-zh'>确保服务器持续运行</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.2</span> <span class='hn-top-story-score'>&#9650; 586</span> <span class='hn-top-story-comments'>&#128172; 131</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='46' data-hn-time='1788755902'>
+<div class='hn-top-story-item' data-hn-score='89' data-hn-time='1788773619'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/06/top_stories_09062026#story-49593959'>I refused to train the AI that could replace me</a>
- <a class='hn-top-story-link' href='https://restofworld.org/2026/ai-training-jobs-expert-replacement/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/07/top_stories_09072026#story-49596119'>'You Can See Everything' Review: Nathan Fielder's Doc About Elizabeth Holmes</a>
+ <a class='hn-top-story-link' href='https://variety.com/2026/film/reviews/nathan-fielder-surprise-film-telluride-elizabeth-holmes-1236853513/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>我拒绝训练可能取代我的 AI</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 46</span> <span class='hn-top-story-comments'>&#128172; 28</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Career</span></div>
+<div class='hn-top-story-zh'>《You Can See Everything》评：纳森·费伯德关于伊丽莎白·霍尔姆斯的纪录片</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.6</span> <span class='hn-top-story-score'>&#9650; 89</span> <span class='hn-top-story-comments'>&#128172; 43</span> <span class='hn-top-story-tag'>Entertainment</span> <span class='hn-top-story-tag'>Startups</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='184' data-hn-time='1788736448'>
+<div class='hn-top-story-item' data-hn-score='210' data-hn-time='1788759205'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/06/top_stories_09062026#story-49591876'>Making a Python interpreter in 1024 bytes</a>
- <a class='hn-top-story-link' href='https://austinhenley.com/blog/python1024.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/07/top_stories_09072026#story-49594251'>Switzerland's Federal Government Is Replacing Microsoft on 3k Computers</a>
+ <a class='hn-top-story-link' href='https://itsfoss.com/news/switzerland-replace-microssoft-pilot/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>用 1024 字节实现一个 Python 解释器</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 184</span> <span class='hn-top-story-comments'>&#128172; 69</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>瑞士联邦政府用开源替代 Microsoft，覆盖约3000台电脑</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.3</span> <span class='hn-top-story-score'>&#9650; 210</span> <span class='hn-top-story-comments'>&#128172; 174</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='568' data-hn-time='1788705274'>
+<div class='hn-top-story-item' data-hn-score='73' data-hn-time='1788771767'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/06/top_stories_09062026#story-49586898'>A/I shuts down</a>
- <a class='hn-top-story-link' href='https://keepitfree.ai/announcements/a/i-shuts-down-stay-human/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/07/top_stories_09072026#story-49595865'>Live map of public transport in Belgium</a>
+ <a class='hn-top-story-link' href='https://openbaarvervoerbelgie.be/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>AI 将关闭时保持人性</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 568</span> <span class='hn-top-story-comments'>&#128172; 452</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>比利时实时公共交通地图</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.8</span> <span class='hn-top-story-score'>&#9650; 73</span> <span class='hn-top-story-comments'>&#128172; 23</span> <span class='hn-top-story-tag'>Data</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='261' data-hn-time='1788726240'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='99' data-hn-time='1788768300'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/06/top_stories_09062026#story-49590512'>GrapheneOS Overhauled Default Apps and Secure Clipboard</a>
- <a class='hn-top-story-link' href='https://grapheneos.social/@GrapheneOS/117225539756835649' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/07/top_stories_09072026#story-49595360'>Programming is Art</a>
+ <a class='hn-top-story-link' href='https://orchidfiles.com/programming-is-art/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>GrapheneOS 全面重构默认应用与安全剪贴板</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 261</span> <span class='hn-top-story-comments'>&#128172; 186</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-zh'>编程即艺术</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.8</span> <span class='hn-top-story-score'>&#9650; 99</span> <span class='hn-top-story-comments'>&#128172; 105</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='629' data-hn-time='1788695803'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='23' data-hn-time='1788780160'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/06/top_stories_09062026#story-49585644'>Your intellectual fly is open when you use an LLM to author a post (2025)</a>
- <a class='hn-top-story-link' href='https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/07/top_stories_09072026#story-49596976'>Apparently CodePen 2.0 sends data to their servers as you type</a>
+ <a class='hn-top-story-link' href='https://news.ycombinator.com/item?id=49596976' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>使用 LLM 撰写帖子时，你的知识漏洞暴露（2025）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 629</span> <span class='hn-top-story-comments'>&#128172; 401</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Culture</span></div>
+<div class='hn-top-story-zh'>CodePen 2.0 在你输入时将数据发送到服务器</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 23</span> <span class='hn-top-story-comments'>&#128172; 9</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='390' data-hn-time='1788712025'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='778' data-hn-time='1788716987'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/06/top_stories_09062026#story-49588080'>An Alien Mind</a>
- <a class='hn-top-story-link' href='https://openai.com/index/an-alien-mind/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/07/top_stories_09072026#story-49588988'>Nitter and XCancel resume service after legal advice</a>
+ <a class='hn-top-story-link' href='https://github.com/zedeus/nitter/commit/1428b4c2b4246f92a7e5b2673438e5fb39fcc4a3' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>外星人之脑</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 390</span> <span class='hn-top-story-comments'>&#128172; 341</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Science</span></div>
+<div class='hn-top-story-zh'>Nitter 与 XCancel 在法律意见后恢复服务</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 778</span> <span class='hn-top-story-comments'>&#128172; 343</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Legal</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='228' data-hn-time='1788726758'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='16' data-hn-time='1788781597'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/06/top_stories_09062026#story-49590611'>It took a year to ship WebAssembly in Anubis</a>
- <a class='hn-top-story-link' href='https://anubis.techaro.lol/blog/2026/anubis-wasm/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/07/top_stories_09072026#story-49597189'>Smartphone makers don't bother to comply with EU repairability requirements</a>
+ <a class='hn-top-story-link' href='https://www.theregister.com/personal-tech/2026/09/07/smartphone-makers-dont-bother-to-comply-with-eu-repairability-requirements/5294532' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>在 Anubis 上实现 WebAssembly 花了一整年</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 228</span> <span class='hn-top-story-comments'>&#128172; 119</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Web</span></div>
+<div class='hn-top-story-zh'>智能手机厂商不遵守欧盟可修复性要求</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 16</span> <span class='hn-top-story-comments'>&#128172; 0</span> <span class='hn-top-story-tag'>Legal</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='417' data-hn-time='1788703739'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='41' data-hn-time='1788773213'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/06/top_stories_09062026#story-49586698'>Asahi Linux on M3</a>
- <a class='hn-top-story-link' href='https://asahilinux.org/2026/09/m2-episode-1/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/07/top_stories_09072026#story-49596055'>Caltech Mathathon – first hackathon ever devoted to research level mathematics</a>
+ <a class='hn-top-story-link' href='https://mathathonchallenge.com/index.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Asahi Linux 在 M3 平台上的进展</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.1</span> <span class='hn-top-story-score'>&#9650; 417</span> <span class='hn-top-story-comments'>&#128172; 255</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-zh'>加州理工学院数学马拉松：首个面向研究级数学的黑客松</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 41</span> <span class='hn-top-story-comments'>&#128172; 5</span> <span class='hn-top-story-tag'>Education</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
-<a class='hn-top-stories-more' href='/hackernews/2026/09/06/top_stories_09062026'>View all trending stories &rarr;</a>
+<a class='hn-top-stories-more' href='/hackernews/2026/09/07/top_stories_09072026'>View all trending stories &rarr;</a>
 <a class='hn-top-stories-more' href='/hackernews/2026/09/05/best_stories_09052026'>Latest Daily Best — 2026-09-05 &rarr;</a>
 </div>
 </div>
 <div class='hn-index-section hn-archive-section'>
 <h3 class='hn-section-title'>News Archive <span class='hn-section-zh'>新闻归档</span></h3>
+<details class='hn-week-group' open>
+<summary class='hn-week-summary'>
+<span class='hn-week-title'>2026 Week 37 <span class='hn-this-week-badge'>This Week</span></span>
+<span class='hn-week-meta'>2026-09-07 <span class="hn-row-sep">·</span> 49 stories <span class="hn-row-sep">·</span> 1 days</span>
+</summary>
+<div class='hn-week-content'>
+<div class='hn-grid'>
+<div class='hn-day-row'>
+<div class='hn-day-date'>2026-09-07 <span class='hn-day-weekday'>Mon</span></div>
+<div class='hn-day-stories'>
+<a class='hn-story-link' href='/hackernews/2026/09/07/top_stories_09072026'>
+<span class='hn-row-type hn-type-top'>Trending</span>
+<span class='hn-row-detail'>All <b>49</b> <span class="hn-row-sep">·</span> Programming <b>9</b> <span class="hn-row-sep">·</span> AI <b>9</b></span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</details>
 <details class='hn-week-group'>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 36</span>
@@ -552,7 +571,7 @@ Sort:
 <details class='hn-week-group'>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 32</span>
-<span class='hn-week-meta'>2026-08-08 — 2026-08-09 <span class="hn-row-sep">·</span> 300 stories <span class="hn-row-sep">·</span> 2 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
+<span class='hn-week-meta'>2026-08-09 <span class="hn-row-sep">·</span> 150 stories <span class="hn-row-sep">·</span> 1 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
 </summary>
 <div class='hn-week-content'>
 <a class='hn-story-link hn-weekly-digest-link' href='/hackernews/weekly/2026-W32'>
@@ -570,19 +589,6 @@ Sort:
 <a class='hn-story-link' href='/hackernews/2026/08/09/top_stories_08092026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
 <span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Science <b>22</b> <span class="hn-row-sep">·</span> Programming <b>20</b></span>
-</a>
-</div>
-</div>
-<div class='hn-day-row'>
-<div class='hn-day-date'>2026-08-08 <span class='hn-day-weekday'>Sat</span></div>
-<div class='hn-day-stories'>
-<a class='hn-story-link' href='/hackernews/2026/08/08/best_stories_08082026'>
-<span class='hn-row-type hn-type-best'>Daily Best</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>10</b> <span class="hn-row-sep">·</span> Programming <b>9</b></span>
-</a>
-<a class='hn-story-link' href='/hackernews/2026/08/08/top_stories_08082026'>
-<span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>21</b> <span class="hn-row-sep">·</span> Security <b>18</b></span>
 </a>
 </div>
 </div>
