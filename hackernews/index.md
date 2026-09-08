@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>200</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>29534</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>197</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>198</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-09-07</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>201</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>29584</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>197</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>199</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-09-08</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,118 +20,118 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='129' data-hn-time='1788843983'>
+<div class='hn-top-story-item' data-hn-score='502' data-hn-time='1788843983'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/07/top_stories_09072026#story-49605767'>Mistral raises €3B to make sovereign, open-weight AI the technology frontier</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/08/top_stories_09082026#story-49605767'>Mistral raises €3B</a>
  <a class='hn-top-story-link' href='https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Mistral筹集30亿欧元，推动主权与开放权重的AI成为技术前沿</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 129</span> <span class='hn-top-story-comments'>&#128172; 58</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 502</span> <span class='hn-top-story-comments'>&#128172; 352</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Startups</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='112' data-hn-time='1788842890'>
+<div class='hn-top-story-item' data-hn-score='125' data-hn-time='1788856976'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/07/top_stories_09072026#story-49605691'>We have a year to fix security everywhere</a>
- <a class='hn-top-story-link' href='https://jyn.dev/a-year-to-fix-security/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/08/top_stories_09082026#story-49607443'>Among European Companies That Use a CDN, Nearly 9 in 10 Use Cloudflare</a>
+ <a class='hn-top-story-link' href='https://ciphercue.com/blog/european-cdn-concentration-cloudflare-nine-in-ten' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>我们只有一年时间解决各处的安全问题</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.1</span> <span class='hn-top-story-score'>&#9650; 112</span> <span class='hn-top-story-comments'>&#128172; 73</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>在使用CDN的欧洲企业中，近九成依赖Cloudflare</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.9</span> <span class='hn-top-story-score'>&#9650; 125</span> <span class='hn-top-story-comments'>&#128172; 128</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='278' data-hn-time='1788832595'>
+<div class='hn-top-story-item' data-hn-score='279' data-hn-time='1788846148'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/07/top_stories_09072026#story-49604861'>Jellyfin 12.0</a>
- <a class='hn-top-story-link' href='https://jellyfin.org/posts/jellyfin-release-12.0/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Jellyfin 12.0</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.6</span> <span class='hn-top-story-score'>&#9650; 278</span> <span class='hn-top-story-comments'>&#128172; 106</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Privacy</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='61' data-hn-time='1788846148'>
-<span class='hn-top-story-rank'>4</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/07/top_stories_09072026#story-49605915'>Navier-Stokes – Tristan Buckmaster [pdf]</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/08/top_stories_09082026#story-49605915'>Navier-Stokes – Tristan Buckmaster [pdf]</a>
  <a class='hn-top-story-link' href='https://cims.nyu.edu/~tristanb/statement.pdf' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Navier–Stokes 方程 — Tristan Buckmaster [PDF]</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.8</span> <span class='hn-top-story-score'>&#9650; 61</span> <span class='hn-top-story-comments'>&#128172; 10</span> <span class='hn-top-story-tag'>Science</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.7</span> <span class='hn-top-story-score'>&#9650; 279</span> <span class='hn-top-story-comments'>&#128172; 141</span> <span class='hn-top-story-tag'>Science</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='248' data-hn-time='1788830219'>
+<div class='hn-top-story-item' data-hn-score='241' data-hn-time='1788842890'>
+<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/08/top_stories_09082026#story-49605691'>We have a year to fix security everywhere</a>
+ <a class='hn-top-story-link' href='https://jyn.dev/a-year-to-fix-security/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>我们只有一年时间解决各处的安全问题</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.4</span> <span class='hn-top-story-score'>&#9650; 241</span> <span class='hn-top-story-comments'>&#128172; 217</span> <span class='hn-top-story-tag'>Security</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='391' data-hn-time='1788832595'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/07/top_stories_09072026#story-49604637'>I've factored the RSA keys of a Certificate Authority from the 90s</a>
- <a class='hn-top-story-link' href='https://mcpherrin.ca/2026/09/07/rsa.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/08/top_stories_09082026#story-49604861'>Jellyfin 12.0</a>
+ <a class='hn-top-story-link' href='https://jellyfin.org/posts/jellyfin-release-12.0/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>我已经分解了90年代某证书颁发机构的 RSA 密钥</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.5</span> <span class='hn-top-story-score'>&#9650; 248</span> <span class='hn-top-story-comments'>&#128172; 45</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>Jellyfin 12.0</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.1</span> <span class='hn-top-story-score'>&#9650; 391</span> <span class='hn-top-story-comments'>&#128172; 167</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='50' data-hn-time='1788844236'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='357' data-hn-time='1788830219'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/07/top_stories_09072026#story-49605782'>My Feed, My Way</a>
- <a class='hn-top-story-link' href='https://www.pm.gov.au/media/my-feed-my-way' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/08/top_stories_09082026#story-49604637'>I've factored the RSA keys of a Certificate Authority from the 90s</a>
+ <a class='hn-top-story-link' href='https://mcpherrin.ca/2026/09/07/rsa.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>我的信息流，我的选择</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.8</span> <span class='hn-top-story-score'>&#9650; 50</span> <span class='hn-top-story-comments'>&#128172; 23</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>我已经分解了90年代某证书颁发机构的 RSA 密钥</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 357</span> <span class='hn-top-story-comments'>&#128172; 59</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='173' data-hn-time='1788824262'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='27' data-hn-time='1788860904'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/07/top_stories_09072026#story-49604150'>TALA Is Open-Source</a>
- <a class='hn-top-story-link' href='https://d2lang.com/blog/tala-is-open-source/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/08/top_stories_09082026#story-49608023'>Why getting your hands dirty is good for you</a>
+ <a class='hn-top-story-link' href='https://www.bbc.com/future/article/20260904-how-getting-your-hands-dirty-boosts-your-health-within-weeks' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>TALA 开源了</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 173</span> <span class='hn-top-story-comments'>&#128172; 12</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Science</span></div>
+<div class='hn-top-story-zh'>为什么动手做对你有益的原因</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 27</span> <span class='hn-top-story-comments'>&#128172; 21</span> <span class='hn-top-story-tag'>Health</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='58' data-hn-time='1788838824'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='129' data-hn-time='1788844236'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/07/top_stories_09072026#story-49605424'>GamersNexus and LG: Or why rooting your TV is a bad idea</a>
- <a class='hn-top-story-link' href='https://leaflet.pub/p/did:plc:yhgc5rlqhoezrx6fbawajxlh/3muwrqenzfk2n' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/08/top_stories_09082026#story-49605782'>My Feed, My Way</a>
+ <a class='hn-top-story-link' href='https://www.pm.gov.au/media/my-feed-my-way' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>GamersNexus 与 LG：为什么 rooting 电视是个坏主意</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 58</span> <span class='hn-top-story-comments'>&#128172; 37</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>我的信息流，我的选择</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 129</span> <span class='hn-top-story-comments'>&#128172; 101</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1029' data-hn-time='1788764600'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='191' data-hn-time='1788832643'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/07/top_stories_09072026#story-49594878'>LG smart TVs caught logging audio with screen off and snooping on local devices</a>
- <a class='hn-top-story-link' href='https://www.notebookcheck.net/LG-smart-TVs-caught-logging-audio-with-screen-off-and-snooping-on-local-devices.1391214.0.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/08/top_stories_09082026#story-49604870'>There's a new "Google Jail" for independent wikis</a>
+ <a class='hn-top-story-link' href='https://weirdgloop.org/blog/google-jail' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>LG 智能电视在屏幕关闭时记录音频并对本地设备进行窥探</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 1029</span> <span class='hn-top-story-comments'>&#128172; 475</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>独立维基的新型“Google Jail”</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 191</span> <span class='hn-top-story-comments'>&#128172; 65</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='274' data-hn-time='1788807126'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='20' data-hn-time='1788860594'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/07/top_stories_09072026#story-49601655'>Watch Los Angeles get built, one building at a time (1880–2026)</a>
- <a class='hn-top-story-link' href='https://lax-skyline.parcelscope.net/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/08/top_stories_09082026#story-49607991'>Antiquated HTML Snippets and Artefacts</a>
+ <a class='hn-top-story-link' href='https://vale.rocks/posts/html-relics' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>洛杉矶天际线演变：从1880年到2026年，一座建筑的崛起</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 274</span> <span class='hn-top-story-comments'>&#128172; 138</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>DevOps</span></div>
+<div class='hn-top-story-zh'>陈旧的HTML片段与遗留痕迹</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.2</span> <span class='hn-top-story-score'>&#9650; 20</span> <span class='hn-top-story-comments'>&#128172; 3</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Design</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
-<a class='hn-top-stories-more' href='/hackernews/2026/09/07/top_stories_09072026'>View all trending stories &rarr;</a>
+<a class='hn-top-stories-more' href='/hackernews/2026/09/08/top_stories_09082026'>View all trending stories &rarr;</a>
 <a class='hn-top-stories-more' href='/hackernews/2026/09/06/best_stories_09062026'>Latest Daily Best — 2026-09-06 &rarr;</a>
 </div>
 </div>
@@ -140,10 +140,19 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 37 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-09-07 <span class="hn-row-sep">·</span> 100 stories <span class="hn-row-sep">·</span> 1 days</span>
+<span class='hn-week-meta'>2026-09-07 — 2026-09-08 <span class="hn-row-sep">·</span> 150 stories <span class="hn-row-sep">·</span> 2 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
+<div class='hn-day-row'>
+<div class='hn-day-date'>2026-09-08 <span class='hn-day-weekday'>Tue</span></div>
+<div class='hn-day-stories'>
+<a class='hn-story-link' href='/hackernews/2026/09/08/top_stories_09082026'>
+<span class='hn-row-type hn-type-top'>Trending</span>
+<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> Programming <b>10</b> <span class="hn-row-sep">·</span> AI <b>9</b></span>
+</a>
+</div>
+</div>
 <div class='hn-day-row'>
 <div class='hn-day-date'>2026-09-07 <span class='hn-day-weekday'>Mon</span></div>
 <div class='hn-day-stories'>
@@ -570,33 +579,6 @@ Sort:
 <a class='hn-story-link' href='/hackernews/2026/08/10/top_stories_08102026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
 <span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>32</b> <span class="hn-row-sep">·</span> Programming <b>19</b></span>
-</a>
-</div>
-</div>
-</div>
-</div>
-</details>
-<details class='hn-week-group'>
-<summary class='hn-week-summary'>
-<span class='hn-week-title'>2026 Week 32</span>
-<span class='hn-week-meta'>2026-08-09 <span class="hn-row-sep">·</span> 150 stories <span class="hn-row-sep">·</span> 1 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
-</summary>
-<div class='hn-week-content'>
-<a class='hn-story-link hn-weekly-digest-link' href='/hackernews/weekly/2026-W32'>
-<span class='hn-row-type hn-type-weekly'>Weekly Digest</span>
-<span class='hn-row-detail'>2026-08-03 — 2026-08-09 <span class="hn-row-sep">·</span> All <b>493</b> <span class="hn-row-sep">·</span> Programming <b>107</b> <span class="hn-row-sep">·</span> AI <b>104</b></span>
-</a>
-<div class='hn-grid'>
-<div class='hn-day-row'>
-<div class='hn-day-date'>2026-08-09 <span class='hn-day-weekday'>Sun</span></div>
-<div class='hn-day-stories'>
-<a class='hn-story-link' href='/hackernews/2026/08/09/best_stories_08092026'>
-<span class='hn-row-type hn-type-best'>Daily Best</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>13</b> <span class="hn-row-sep">·</span> Privacy <b>7</b></span>
-</a>
-<a class='hn-story-link' href='/hackernews/2026/08/09/top_stories_08092026'>
-<span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Science <b>22</b> <span class="hn-row-sep">·</span> Programming <b>20</b></span>
 </a>
 </div>
 </div>
