@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>201</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>29634</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>198</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>199</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-09-08</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>201</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>29671</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>198</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>199</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-09-08</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='502' data-hn-time='1788843983'>
+<div class='hn-top-story-item' data-hn-score='177' data-hn-time='1788887601'>
 <span class='hn-top-story-rank'>1</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/08/top_stories_09082026#story-49613262'>On the Navier–Stokes Millennium Prize Problem</a>
+ <a class='hn-top-story-link' href='https://openai.com/index/navier-stokes-solution/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>关于 Navier–Stokes 千禧奖难题</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 32</span> <span class='hn-top-story-score'>&#9650; 177</span> <span class='hn-top-story-comments'>&#128172; 95</span> <span class='hn-top-story-tag'>Science</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='585' data-hn-time='1788876357'>
+<span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/08/top_stories_09082026#story-49610538'>LibreOffice breaks download records after declaring it has no AI features</a>
+ <a class='hn-top-story-link' href='https://manualdousuario.net/en/libreoffice-download-record-no-ai/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>LibreOffice 声称无 AI 功能后下载量创纪录</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 25</span> <span class='hn-top-story-score'>&#9650; 585</span> <span class='hn-top-story-comments'>&#128172; 196</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='149' data-hn-time='1788883628'>
+<span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/08/top_stories_09082026#story-49612329'>LG TVs caught spying even when offline or on standby</a>
+ <a class='hn-top-story-link' href='https://www.theverge.com/tech/991190/lg-tv-spying-standby-recording-wi-fi-scanning-gamers-nexus' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>LG 电视即使离线或待机也在监视</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 14</span> <span class='hn-top-story-score'>&#9650; 149</span> <span class='hn-top-story-comments'>&#128172; 58</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='228' data-hn-time='1788879345'>
+<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/08/top_stories_09082026#story-49611251'>Google DeepMind Releases AlphaGenome Atlas</a>
+ <a class='hn-top-story-link' href='https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Google DeepMind 发布 AlphaGenome Atlas</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 13</span> <span class='hn-top-story-score'>&#9650; 228</span> <span class='hn-top-story-comments'>&#128172; 55</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='194' data-hn-time='1788878430'>
+<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/08/top_stories_09082026#story-49610988'>DHS 'Predictive Policing' Unit Is Analyzing Americans' Financial Habits</a>
+ <a class='hn-top-story-link' href='https://www.404media.co/a-secretive-dhs-predictive-policing-unit-is-analyzing-americans-financial-habits-and-pulling-them-over/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>国土安全部的“预测警务”单位正在分析美国人的财务习惯</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 10</span> <span class='hn-top-story-score'>&#9650; 194</span> <span class='hn-top-story-comments'>&#128172; 76</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='190' data-hn-time='1788878032'>
+<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/08/top_stories_09082026#story-49610900'>Paramount Caught Using 'Astroturf' Group to Drum Up Fake Support for Merger</a>
+ <a class='hn-top-story-link' href='https://www.techdirt.com/2026/09/08/paramount-caught-using-astroturf-group-to-drum-up-fake-support-for-merger/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Paramount 被揭露动用'人造舆论'团体为合并制造虚假支持</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.6</span> <span class='hn-top-story-score'>&#9650; 190</span> <span class='hn-top-story-comments'>&#128172; 57</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Politics</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='236' data-hn-time='1788874613'>
+<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/08/top_stories_09082026#story-49610181'>DaVinci Resolve 21.1</a>
+ <a class='hn-top-story-link' href='https://www.blackmagicdesign.com/media/release/20260908-03' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>达芬奇 Resolve 21.1 发布</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.8</span> <span class='hn-top-story-score'>&#9650; 236</span> <span class='hn-top-story-comments'>&#128172; 97</span> <span class='hn-top-story-tag'>Entertainment</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='730' data-hn-time='1788843983'>
+<span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/09/08/top_stories_09082026#story-49605767'>Mistral raises €3B</a>
  <a class='hn-top-story-link' href='https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Mistral筹集30亿欧元，推动主权与开放权重的AI成为技术前沿</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 502</span> <span class='hn-top-story-comments'>&#128172; 352</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Startups</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.8</span> <span class='hn-top-story-score'>&#9650; 730</span> <span class='hn-top-story-comments'>&#128172; 535</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='125' data-hn-time='1788856976'>
-<span class='hn-top-story-rank'>2</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/08/top_stories_09082026#story-49607443'>Among European Companies That Use a CDN, Nearly 9 in 10 Use Cloudflare</a>
- <a class='hn-top-story-link' href='https://ciphercue.com/blog/european-cdn-concentration-cloudflare-nine-in-ten' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>在使用CDN的欧洲企业中，近九成依赖Cloudflare</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.9</span> <span class='hn-top-story-score'>&#9650; 125</span> <span class='hn-top-story-comments'>&#128172; 128</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='279' data-hn-time='1788846148'>
-<span class='hn-top-story-rank'>3</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/08/top_stories_09082026#story-49605915'>Navier-Stokes – Tristan Buckmaster [pdf]</a>
- <a class='hn-top-story-link' href='https://cims.nyu.edu/~tristanb/statement.pdf' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Navier–Stokes 方程 — Tristan Buckmaster [PDF]</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.7</span> <span class='hn-top-story-score'>&#9650; 279</span> <span class='hn-top-story-comments'>&#128172; 141</span> <span class='hn-top-story-tag'>Science</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='241' data-hn-time='1788842890'>
-<span class='hn-top-story-rank'>4</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/08/top_stories_09082026#story-49605691'>We have a year to fix security everywhere</a>
- <a class='hn-top-story-link' href='https://jyn.dev/a-year-to-fix-security/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>我们只有一年时间解决各处的安全问题</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.4</span> <span class='hn-top-story-score'>&#9650; 241</span> <span class='hn-top-story-comments'>&#128172; 217</span> <span class='hn-top-story-tag'>Security</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='391' data-hn-time='1788832595'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/08/top_stories_09082026#story-49604861'>Jellyfin 12.0</a>
- <a class='hn-top-story-link' href='https://jellyfin.org/posts/jellyfin-release-12.0/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Jellyfin 12.0</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.1</span> <span class='hn-top-story-score'>&#9650; 391</span> <span class='hn-top-story-comments'>&#128172; 167</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Privacy</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='357' data-hn-time='1788830219'>
-<span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/08/top_stories_09082026#story-49604637'>I've factored the RSA keys of a Certificate Authority from the 90s</a>
- <a class='hn-top-story-link' href='https://mcpherrin.ca/2026/09/07/rsa.html' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>我已经分解了90年代某证书颁发机构的 RSA 密钥</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 357</span> <span class='hn-top-story-comments'>&#128172; 59</span> <span class='hn-top-story-tag'>Security</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='27' data-hn-time='1788860904'>
-<span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/08/top_stories_09082026#story-49608023'>Why getting your hands dirty is good for you</a>
- <a class='hn-top-story-link' href='https://www.bbc.com/future/article/20260904-how-getting-your-hands-dirty-boosts-your-health-within-weeks' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>为什么动手做对你有益的原因</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 27</span> <span class='hn-top-story-comments'>&#128172; 21</span> <span class='hn-top-story-tag'>Health</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='129' data-hn-time='1788844236'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/08/top_stories_09082026#story-49605782'>My Feed, My Way</a>
- <a class='hn-top-story-link' href='https://www.pm.gov.au/media/my-feed-my-way' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>我的信息流，我的选择</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 129</span> <span class='hn-top-story-comments'>&#128172; 101</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Privacy</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='191' data-hn-time='1788832643'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='108' data-hn-time='1788878665'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/08/top_stories_09082026#story-49604870'>There's a new "Google Jail" for independent wikis</a>
- <a class='hn-top-story-link' href='https://weirdgloop.org/blog/google-jail' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/08/top_stories_09082026#story-49611051'>The two Christian saints who are the Buddha</a>
+ <a class='hn-top-story-link' href='https://signoregalilei.com/2026/08/30/the-two-christian-saints-who-are-secretly-the-buddha/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>独立维基的新型“Google Jail”</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 191</span> <span class='hn-top-story-comments'>&#128172; 65</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>两个基督教圣人其实是佛陀</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.8</span> <span class='hn-top-story-score'>&#9650; 108</span> <span class='hn-top-story-comments'>&#128172; 44</span> <span class='hn-top-story-tag'>Culture</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='20' data-hn-time='1788860594'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='72' data-hn-time='1788881989'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/08/top_stories_09082026#story-49607991'>Antiquated HTML Snippets and Artefacts</a>
- <a class='hn-top-story-link' href='https://vale.rocks/posts/html-relics' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/08/top_stories_09082026#story-49611946'>US police fear Meta smart glasses could be used to secretly record them</a>
+ <a class='hn-top-story-link' href='https://www.theguardian.com/technology/2026/sep/08/us-law-enforcement-meta-smart-glasses' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>陈旧的HTML片段与遗留痕迹</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.2</span> <span class='hn-top-story-score'>&#9650; 20</span> <span class='hn-top-story-comments'>&#128172; 3</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Design</span></div>
+<div class='hn-top-story-zh'>美国警察担心 Meta 智能眼镜可被秘密记录</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.5</span> <span class='hn-top-story-score'>&#9650; 72</span> <span class='hn-top-story-comments'>&#128172; 63</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -140,7 +140,7 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 37 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-09-07 — 2026-09-08 <span class="hn-row-sep">·</span> 200 stories <span class="hn-row-sep">·</span> 2 days</span>
+<span class='hn-week-meta'>2026-09-07 — 2026-09-08 <span class="hn-row-sep">·</span> 237 stories <span class="hn-row-sep">·</span> 2 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/09/08/top_stories_09082026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> Programming <b>10</b> <span class="hn-row-sep">·</span> AI <b>9</b></span>
+<span class='hn-row-detail'>All <b>87</b> <span class="hn-row-sep">·</span> AI <b>17</b> <span class="hn-row-sep">·</span> Science <b>14</b></span>
 </a>
 </div>
 </div>
