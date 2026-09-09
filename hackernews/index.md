@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='1047' data-hn-time='1788887601'>
+<div class='hn-top-story-item' data-hn-score='91' data-hn-time='1788933339'>
 <span class='hn-top-story-rank'>1</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/08/top_stories_09082026#story-49621697'>The Navier–Stokes Millennium Prize Problem</a>
+ <a class='hn-top-story-link' href='https://simonwillison.net/2026/Sep/8/on-navier-stokes/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>纳维-斯托克斯千禧奖题</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 91</span> <span class='hn-top-story-comments'>&#128172; 47</span> <span class='hn-top-story-tag'>Science</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='409' data-hn-time='1788914440'>
+<span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/08/top_stories_09082026#story-49619227'>I resigned from Anthropic today</a>
+ <a class='hn-top-story-link' href='https://twitter.com/hilbertspaess/status/2097476196791709843#m' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>我今天从 Anthropic 辞职</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.0</span> <span class='hn-top-story-score'>&#9650; 409</span> <span class='hn-top-story-comments'>&#128172; 544</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='1229' data-hn-time='1788887601'>
+<span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/09/08/top_stories_09082026#story-49613262'>On the Navier–Stokes Millennium Prize Problem</a>
  <a class='hn-top-story-link' href='https://openai.com/index/navier-stokes-solution/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>关于 Navier–Stokes 千禧奖难题</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 22</span> <span class='hn-top-story-score'>&#9650; 1047</span> <span class='hn-top-story-comments'>&#128172; 875</span> <span class='hn-top-story-tag'>Science</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.6</span> <span class='hn-top-story-score'>&#9650; 1229</span> <span class='hn-top-story-comments'>&#128172; 981</span> <span class='hn-top-story-tag'>Science</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='191' data-hn-time='1788898075'>
-<span class='hn-top-story-rank'>2</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/08/top_stories_09082026#story-49616257'>Kimi K3 (2.8T) at 1 token/s on a MacBook Pro, streamed from four SSDs</a>
- <a class='hn-top-story-link' href='https://github.com/argonautlabsai/deltafin' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Kimi K3（2.8T）在 MacBook Pro 上以每秒 1 個 token，來自四個 SSD 的流式推理</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.5</span> <span class='hn-top-story-score'>&#9650; 191</span> <span class='hn-top-story-comments'>&#128172; 94</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='262' data-hn-time='1788892671'>
-<span class='hn-top-story-rank'>3</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/08/top_stories_09082026#story-49614720'>ChatGPT Images 2.5</a>
- <a class='hn-top-story-link' href='https://openai.com/index/introducing-chatgpt-images-2-5/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>ChatGPT Images 2.5</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.6</span> <span class='hn-top-story-score'>&#9650; 262</span> <span class='hn-top-story-comments'>&#128172; 345</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='211' data-hn-time='1788895500'>
+<div class='hn-top-story-item' data-hn-score='465' data-hn-time='1788895500'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/08/top_stories_09082026#story-49615537'>Muse: Meta's personal AI agent, features and capabilities</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/08/top_stories_09082026#story-49615537'>Muse – Meta’s personal AI agent</a>
  <a class='hn-top-story-link' href='https://ai.meta.com/muse/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Muse：Meta 的個人 AI 助手及其功能與能力</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.5</span> <span class='hn-top-story-score'>&#9650; 211</span> <span class='hn-top-story-comments'>&#128172; 205</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>Muse：Meta 的个人 AI 助手</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 465</span> <span class='hn-top-story-comments'>&#128172; 488</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='423' data-hn-time='1788883628'>
+<div class='hn-top-story-item' data-hn-score='1544' data-hn-time='1788846148'>
 <span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/08/top_stories_09082026#story-49612329'>LG TVs caught spying even when offline or on standby</a>
- <a class='hn-top-story-link' href='https://www.theverge.com/tech/991190/lg-tv-spying-standby-recording-wi-fi-scanning-gamers-nexus' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>LG 电视即使离线或待机也在监视</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.1</span> <span class='hn-top-story-score'>&#9650; 423</span> <span class='hn-top-story-comments'>&#128172; 233</span> <span class='hn-top-story-tag'>Privacy</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='585' data-hn-time='1788876357'>
-<span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/08/top_stories_09082026#story-49610538'>LibreOffice breaks download records after declaring it has no AI features</a>
- <a class='hn-top-story-link' href='https://manualdousuario.net/en/libreoffice-download-record-no-ai/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>LibreOffice 声称无 AI 功能后下载量创纪录</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.0</span> <span class='hn-top-story-score'>&#9650; 585</span> <span class='hn-top-story-comments'>&#128172; 196</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='149' data-hn-time='1788897993'>
-<span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/08/top_stories_09082026#story-49616239'>Trey Parker and Matt Stone Are Changing the Name of South Park to South America</a>
- <a class='hn-top-story-link' href='https://twitter.com/SouthPark/status/2097364141237539116' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>特雷·帕克和馬特·斯通 將《南方公園》改名為《南美洲》</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.5</span> <span class='hn-top-story-score'>&#9650; 149</span> <span class='hn-top-story-comments'>&#128172; 77</span> <span class='hn-top-story-tag'>Entertainment</span> <span class='hn-top-story-tag'>Culture</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='474' data-hn-time='1788879345'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/08/top_stories_09082026#story-49611251'>Google DeepMind Releases AlphaGenome Atlas</a>
- <a class='hn-top-story-link' href='https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Google DeepMind 发布 AlphaGenome Atlas</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.5</span> <span class='hn-top-story-score'>&#9650; 474</span> <span class='hn-top-story-comments'>&#128172; 114</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1134' data-hn-time='1788846148'>
-<span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/09/08/top_stories_09082026#story-49605915'>Navier-Stokes – Tristan Buckmaster [pdf]</a>
  <a class='hn-top-story-link' href='https://cims.nyu.edu/~tristanb/statement.pdf' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Navier–Stokes 方程 — Tristan Buckmaster [PDF]</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.1</span> <span class='hn-top-story-score'>&#9650; 1134</span> <span class='hn-top-story-comments'>&#128172; 495</span> <span class='hn-top-story-tag'>Science</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 1544</span> <span class='hn-top-story-comments'>&#128172; 663</span> <span class='hn-top-story-tag'>Science</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='112' data-hn-time='1788898492'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='316' data-hn-time='1788901252'>
+<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/08/top_stories_09082026#story-49616968'>Tao: Open math problems being non-renewably mined by AI</a>
+ <a class='hn-top-story-link' href='https://mathstodon.xyz/@tao/117237320796901560' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Tao：AI 正在“不可再生”地挖掘开放的数学难题</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 316</span> <span class='hn-top-story-comments'>&#128172; 304</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Science</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='268' data-hn-time='1788902531'>
+<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/08/top_stories_09082026#story-49617255'>How to build a printer</a>
+ <a class='hn-top-story-link' href='https://nishantjosh.dev/blogs/how-to-build-a-fking-printer/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>如何自行构建一台打印机</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 268</span> <span class='hn-top-story-comments'>&#128172; 53</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Open Source</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='585' data-hn-time='1788876357'>
+<span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/08/top_stories_09082026#story-49610538'>LibreOffice breaks download records after declaring it has no AI features</a>
+ <a class='hn-top-story-link' href='https://manualdousuario.net/en/libreoffice-download-record-no-ai/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>LibreOffice 声称无 AI 功能后下载量创纪录</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 585</span> <span class='hn-top-story-comments'>&#128172; 196</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='540' data-hn-time='1788879345'>
+<span class='hn-top-story-rank'>9</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/08/top_stories_09082026#story-49611251'>AlphaGenome Atlas: a high-resolution map of human DNA</a>
+ <a class='hn-top-story-link' href='https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>AlphaGenome Atlas：高分辨率的人类基因组图谱</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 540</span> <span class='hn-top-story-comments'>&#128172; 118</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Data</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='322' data-hn-time='1788892671'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/08/top_stories_09082026#story-49616354'>Mercury 2.5</a>
- <a class='hn-top-story-link' href='https://www.inceptionlabs.ai/blog/introducing-mercury-2-5' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/08/top_stories_09082026#story-49614720'>ChatGPT Images 2.5</a>
+ <a class='hn-top-story-link' href='https://openai.com/index/introducing-chatgpt-images-2-5/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Mercury 2.5</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.1</span> <span class='hn-top-story-score'>&#9650; 112</span> <span class='hn-top-story-comments'>&#128172; 14</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>ChatGPT Images 2.5</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 322</span> <span class='hn-top-story-comments'>&#128172; 393</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/09/08/top_stories_09082026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>24</b> <span class="hn-row-sep">·</span> Programming <b>19</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>22</b> <span class="hn-row-sep">·</span> Programming <b>19</b></span>
 </a>
 </div>
 </div>
