@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>202</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>29784</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>199</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>200</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-09-09</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>202</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>29827</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>199</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>200</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-09-09</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='248' data-hn-time='1788935488'>
+<div class='hn-top-story-item' data-hn-score='218' data-hn-time='1788969701'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/09/top_stories_09092026#story-49622042'>Copyright does more harm than good and should be abolished</a>
- <a class='hn-top-story-link' href='https://grapheneos.social/@GrapheneOS/117231186011306184' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/09/top_stories_09092026#story-49628704'>Anthropic Is Building a Predictive Surveillance System to Monitor Activists</a>
+ <a class='hn-top-story-link' href='https://prospect.org/2026/09/09/anthropic-artificial-intelligence-surveillance-system-monitor-activists/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>版权制度对社会的伤害大于收益，应予废除</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.3</span> <span class='hn-top-story-score'>&#9650; 248</span> <span class='hn-top-story-comments'>&#128172; 228</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Culture</span></div>
+<div class='hn-top-story-zh'>Anthropic 正在构建用于监控活动家的预测性监控系统</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 21</span> <span class='hn-top-story-score'>&#9650; 218</span> <span class='hn-top-story-comments'>&#128172; 91</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='1269' data-hn-time='1788887601'>
+<div class='hn-top-story-item' data-hn-score='555' data-hn-time='1788960431'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/09/top_stories_09092026#story-49613262'>On the Navier–Stokes Millennium Prize Problem</a>
- <a class='hn-top-story-link' href='https://openai.com/index/navier-stokes-solution/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/09/top_stories_09092026#story-49626190'>Tailwind Labs is joining Shopify</a>
+ <a class='hn-top-story-link' href='https://tailwindcss.com/blog/tailwind-is-joining-shopify' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>关于 Navier–Stokes 千禧奖难题</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.8</span> <span class='hn-top-story-score'>&#9650; 1269</span> <span class='hn-top-story-comments'>&#128172; 1017</span> <span class='hn-top-story-tag'>Science</span></div>
+<div class='hn-top-story-zh'>Tailwind Labs 将加入 Shopify</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 21</span> <span class='hn-top-story-score'>&#9650; 555</span> <span class='hn-top-story-comments'>&#128172; 213</span> <span class='hn-top-story-tag'>Design</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='83' data-hn-time='1788938566'>
+<div class='hn-top-story-item' data-hn-score='128' data-hn-time='1788968862'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/09/top_stories_09092026#story-49622561'>How GPT‑5.6 Sol helps run quantum computing experiments</a>
- <a class='hn-top-story-link' href='https://openai.com/index/codex-quantum-computing-experiments/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/09/top_stories_09092026#story-49628493'>No Man's Sky Cosmos</a>
+ <a class='hn-top-story-link' href='https://www.nomanssky.com/cosmos-update/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>GPT‑5.6 Sol 如何帮助量子计算实验</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 83</span> <span class='hn-top-story-comments'>&#128172; 59</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Science</span></div>
+<div class='hn-top-story-zh'>No Man's Sky Cosmos 更新</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 128</span> <span class='hn-top-story-comments'>&#128172; 121</span> <span class='hn-top-story-tag'>Gaming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='1719' data-hn-time='1788846148'>
+<div class='hn-top-story-item' data-hn-score='700' data-hn-time='1788946786'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/09/top_stories_09092026#story-49605915'>Navier-Stokes – Tristan Buckmaster [pdf]</a>
- <a class='hn-top-story-link' href='https://cims.nyu.edu/~tristanb/statement.pdf' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/09/top_stories_09092026#story-49623754'>Claude, change the "Add to Cart" button to blue</a>
+ <a class='hn-top-story-link' href='https://opusfived.dev/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Navier–Stokes 方程 — Tristan Buckmaster [PDF]</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 1719</span> <span class='hn-top-story-comments'>&#128172; 723</span> <span class='hn-top-story-tag'>Science</span></div>
+<div class='hn-top-story-zh'>让 Claude 的加入购物车按钮改为蓝色</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 700</span> <span class='hn-top-story-comments'>&#128172; 283</span> <span class='hn-top-story-tag'>Design</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='107' data-hn-time='1788933727'>
+<div class='hn-top-story-item' data-hn-score='342' data-hn-time='1788952766'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/09/top_stories_09092026#story-49621751'>“Tweet” and the bird logo apparently enter the public domain</a>
- <a class='hn-top-story-link' href='https://blog.ericgoldman.org/archives/2026/09/tweet-and-the-bird-logo-apparently-enter-the-public-domain-but-x-maintains-its-grip-on-the-twitter-mark-for-now-x-v-project-bluebird.htm' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/09/top_stories_09092026#story-49624603'>DeepSeek launching v4.1 flash cheaper and more capable than v4 pro</a>
+ <a class='hn-top-story-link' href='https://news.ycombinator.com/item?id=49624603' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>“Tweet”和鸟标志似乎进入公有领域</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 107</span> <span class='hn-top-story-comments'>&#128172; 65</span> <span class='hn-top-story-tag'>Legal</span></div>
+<div class='hn-top-story-zh'>DeepSeek 推出 v4.1 闪存，价格更低、性能更强于 v4 Pro</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.5</span> <span class='hn-top-story-score'>&#9650; 342</span> <span class='hn-top-story-comments'>&#128172; 176</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='530' data-hn-time='1788895500'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='135' data-hn-time='1788964667'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/09/top_stories_09092026#story-49615537'>Muse – Meta’s personal AI agent</a>
- <a class='hn-top-story-link' href='https://ai.meta.com/muse/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/09/top_stories_09092026#story-49627370'>GPT-6 Astra, looped transformers, and hidden reasoning</a>
+ <a class='hn-top-story-link' href='https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Muse：Meta 的个人 AI 助手</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 530</span> <span class='hn-top-story-comments'>&#128172; 573</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>GPT-6 Astra、循环化 Transformer 与隐藏推理</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.3</span> <span class='hn-top-story-score'>&#9650; 135</span> <span class='hn-top-story-comments'>&#128172; 39</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='375' data-hn-time='1788901252'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='286' data-hn-time='1788953986'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/09/top_stories_09092026#story-49616968'>Tao: Open math problems being non-renewably mined by AI</a>
- <a class='hn-top-story-link' href='https://mathstodon.xyz/@tao/117237320796901560' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/09/top_stories_09092026#story-49624823'>Desert Ant Labs: local, fast models that run on device</a>
+ <a class='hn-top-story-link' href='https://desertant.com/blog/introducing-desert-ant-labs/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Tao：AI 正在“不可再生”地挖掘开放的数学难题</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 375</span> <span class='hn-top-story-comments'>&#128172; 332</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Science</span></div>
+<div class='hn-top-story-zh'>Desert Ant Labs：本地、快速模型在设备上运行</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.8</span> <span class='hn-top-story-score'>&#9650; 286</span> <span class='hn-top-story-comments'>&#128172; 77</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='351' data-hn-time='1788902531'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='266' data-hn-time='1788954201'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/09/top_stories_09092026#story-49617255'>How to build a printer</a>
- <a class='hn-top-story-link' href='https://nishantjosh.dev/blogs/how-to-build-a-fking-printer/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/09/top_stories_09092026#story-49624856'>How I advertise malicious software on Google Ads</a>
+ <a class='hn-top-story-link' href='https://xlii.space/eng/malicious-software-on-google-ads/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>如何自行构建一台打印机</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 351</span> <span class='hn-top-story-comments'>&#128172; 76</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-zh'>我在 Google 广告上投放恶意软件广告</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.4</span> <span class='hn-top-story-score'>&#9650; 266</span> <span class='hn-top-story-comments'>&#128172; 162</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='60' data-hn-time='1788937124'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='59' data-hn-time='1788969186'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/09/top_stories_09092026#story-49622305'>On Really Trying (2009)</a>
- <a class='hn-top-story-link' href='https://gwern.net/on-really-trying' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/09/top_stories_09092026#story-49628576'>GNU Radio in the browser</a>
+ <a class='hn-top-story-link' href='https://gnuradioworld.com/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>真正的尝试（2009）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.3</span> <span class='hn-top-story-score'>&#9650; 60</span> <span class='hn-top-story-comments'>&#128172; 37</span> <span class='hn-top-story-tag'>Culture</span></div>
+<div class='hn-top-story-zh'>浏览器中的 GNU Radio</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.3</span> <span class='hn-top-story-score'>&#9650; 59</span> <span class='hn-top-story-comments'>&#128172; 10</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Education</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='14' data-hn-time='1788949541'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='50' data-hn-time='1788970391'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/09/top_stories_09092026#story-49624163'>How An AI math breakthrough ignited a controversy</a>
- <a class='hn-top-story-link' href='https://www.science.org/content/article/how-ai-math-breakthrough-ignited-controversy' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/09/top_stories_09092026#story-49628880'>Defining AI Psychosis. Part 2: "Prolific AI Psychosis"</a>
+ <a class='hn-top-story-link' href='https://jeffs.blog/p/defining-ai-psychosis-part-2-prolific' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>AI 数学突破引发争议</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.2</span> <span class='hn-top-story-score'>&#9650; 14</span> <span class='hn-top-story-comments'>&#128172; 1</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Science</span></div>
+<div class='hn-top-story-zh'>定义 AI 精神病。第 2 部分：‘高产型 AI 精神病’</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.3</span> <span class='hn-top-story-score'>&#9650; 50</span> <span class='hn-top-story-comments'>&#128172; 29</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -140,7 +140,7 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 37 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-09-07 — 2026-09-09 <span class="hn-row-sep">·</span> 350 stories <span class="hn-row-sep">·</span> 3 days</span>
+<span class='hn-week-meta'>2026-09-07 — 2026-09-09 <span class="hn-row-sep">·</span> 393 stories <span class="hn-row-sep">·</span> 3 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/09/09/top_stories_09092026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> Science <b>13</b> <span class="hn-row-sep">·</span> AI <b>13</b></span>
+<span class='hn-row-detail'>All <b>93</b> <span class="hn-row-sep">·</span> AI <b>30</b> <span class="hn-row-sep">·</span> Science <b>18</b></span>
 </a>
 </div>
 </div>
