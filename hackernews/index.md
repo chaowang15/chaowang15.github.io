@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>203</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>29984</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>200</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>201</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-09-10</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>204</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>30034</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>200</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>202</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-09-11</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,118 +20,118 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='70' data-hn-time='1789107786'>
+<div class='hn-top-story-item' data-hn-score='349' data-hn-time='1789107786'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/10/top_stories_09102026#story-49654229'>Astra for Coding: Why Are We Doing This Again?</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/11/top_stories_09112026#story-49654229'>Astra for Coding: Why Are We Doing This Again?</a>
  <a class='hn-top-story-link' href='https://lucumr.pocoo.org/2026/9/7/astra-why/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Astra 用于编码：我们为什么要再做这个？</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 70</span> <span class='hn-top-story-comments'>&#128172; 25</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 349</span> <span class='hn-top-story-comments'>&#128172; 253</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='981' data-hn-time='1789049371'>
+<div class='hn-top-story-item' data-hn-score='65' data-hn-time='1789116124'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/10/top_stories_09102026#story-49643982'>Shopify is moving from React Native back to Swift and Kotlin</a>
- <a class='hn-top-story-link' href='https://shopify.engineering/back-to-native' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/11/top_stories_09112026#story-49655286'>Cherenkov Radiation - traveling faster than light</a>
+ <a class='hn-top-story-link' href='http://www.iaea.org/newscenter/news/what-is-cherenkov-radiation' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Shopify 将移动端从 React Native 回归原生开发：Swift 与 Kotlin</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.0</span> <span class='hn-top-story-score'>&#9650; 981</span> <span class='hn-top-story-comments'>&#128172; 665</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Web</span></div>
+<div class='hn-top-story-zh'>切伦科夫辐射：介质中的超光速现象</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.6</span> <span class='hn-top-story-score'>&#9650; 65</span> <span class='hn-top-story-comments'>&#128172; 46</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Energy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='196' data-hn-time='1789087361'>
+<div class='hn-top-story-item' data-hn-score='1085' data-hn-time='1789049371'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/10/top_stories_09102026#story-49652105'>Google will buy half the electricity from one of Finland's nuclear power plants</a>
- <a class='hn-top-story-link' href='https://www.bbc.com/news/articles/c8r6y4me2g6o' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/11/top_stories_09112026#story-49643982'>Shopify is moving from React Native back to Swift and Kotlin</a>
+ <a class='hn-top-story-link' href='https://shopify.engineering/back-to-native' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>谷歌将从芬兰一家核电厂购买大部分电力</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.3</span> <span class='hn-top-story-score'>&#9650; 196</span> <span class='hn-top-story-comments'>&#128172; 173</span> <span class='hn-top-story-tag'>Energy</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-zh'>Shopify 将移动端从 React Native 回归原生开发：Swift 与 Kotlin</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 1085</span> <span class='hn-top-story-comments'>&#128172; 775</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='71' data-hn-time='1789098490'>
+<div class='hn-top-story-item' data-hn-score='44' data-hn-time='1789115216'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/10/top_stories_09102026#story-49653328'>Exercise intensity is associated with cardiometabolic health</a>
- <a class='hn-top-story-link' href='https://www.cell.com/cell-reports-medicine/fulltext/S2666-3791(26)00405-2' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/11/top_stories_09112026#story-49655176'>Neijuan</a>
+ <a class='hn-top-story-link' href='https://en.wikipedia.org/wiki/Neijuan' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>运动强度与心代谢健康相关</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 71</span> <span class='hn-top-story-comments'>&#128172; 36</span> <span class='hn-top-story-tag'>Health</span> <span class='hn-top-story-tag'>Science</span></div>
+<div class='hn-top-story-zh'>内卷</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 44</span> <span class='hn-top-story-comments'>&#128172; 12</span> <span class='hn-top-story-tag'>Culture</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='150' data-hn-time='1789088456'>
+<div class='hn-top-story-item' data-hn-score='234' data-hn-time='1789088456'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/10/top_stories_09102026#story-49652237'>Mexican student creates an acoustic fire extinguisher to put out fire in seconds</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/11/top_stories_09112026#story-49652237'>Mexican student creates an acoustic fire extinguisher to put out fire in seconds</a>
  <a class='hn-top-story-link' href='https://www.upsocl.com/en/16-year-old-mexican-student-creates-an-acoustic-fire-extinguisher-that-uses-sound-waves-to-put-out-fires-in-seconds/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>墨西哥学生用声波“声学灭火器”秒灭火源</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 150</span> <span class='hn-top-story-comments'>&#128172; 58</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Education</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.7</span> <span class='hn-top-story-score'>&#9650; 234</span> <span class='hn-top-story-comments'>&#128172; 81</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Education</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='652' data-hn-time='1789047556'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='682' data-hn-time='1789047556'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/10/top_stories_09102026#story-49643546'>Rust is tier-1 language at Microsoft</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/11/top_stories_09112026#story-49643546'>Rust is tier-1 language at Microsoft</a>
  <a class='hn-top-story-link' href='https://rustfoundation.org/media/guest-post-rust-is-tier-1-language-at-microsoft/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Rust 已在微软被列为 Tier-1 语言</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 652</span> <span class='hn-top-story-comments'>&#128172; 383</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.3</span> <span class='hn-top-story-score'>&#9650; 682</span> <span class='hn-top-story-comments'>&#128172; 434</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='451' data-hn-time='1789054042'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='556' data-hn-time='1789054042'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/10/top_stories_09102026#story-49645393'>Don't let anyone take away your big box of cables</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/11/top_stories_09112026#story-49645393'>Don't let anyone take away your big box of cables</a>
  <a class='hn-top-story-link' href='https://blog.jim-nielsen.com/2026/hands-off-my-cables/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>别让任何人拿走你那大箱线缆</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 451</span> <span class='hn-top-story-comments'>&#128172; 307</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.2</span> <span class='hn-top-story-score'>&#9650; 556</span> <span class='hn-top-story-comments'>&#128172; 359</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='961' data-hn-time='1789020665'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='14' data-hn-time='1789121999'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/10/top_stories_09102026#story-49639090'>DeepSeek v4.1 Flash</a>
- <a class='hn-top-story-link' href='https://twitter.com/deepseek_ai/status/2097930608790167907' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/11/top_stories_09112026#story-49656033'>Resist "AI"</a>
+ <a class='hn-top-story-link' href='https://ronjeffries.com/articles/-v026/x/t/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>DeepSeek v4.1：Flash 功能</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 961</span> <span class='hn-top-story-comments'>&#128172; 539</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>拒绝“AI”的诱惑</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.2</span> <span class='hn-top-story-score'>&#9650; 14</span> <span class='hn-top-story-comments'>&#128172; 4</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='401' data-hn-time='1789056822'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='972' data-hn-time='1789020665'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/10/top_stories_09102026#story-49646181'>I have a theory that software drives people insane</a>
- <a class='hn-top-story-link' href='https://graybeard.ing/software-drives-people-insane/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/11/top_stories_09112026#story-49639090'>DeepSeek v4.1 Flash</a>
+ <a class='hn-top-story-link' href='https://twitter.com/deepseek_ai/status/2097930608790167907' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>软件让人发疯</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 401</span> <span class='hn-top-story-comments'>&#128172; 162</span> <span class='hn-top-story-tag'>Design</span></div>
+<div class='hn-top-story-zh'>DeepSeek v4.1：Flash 功能</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 972</span> <span class='hn-top-story-comments'>&#128172; 549</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='402' data-hn-time='1789054187'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='108' data-hn-time='1789098490'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/10/top_stories_09102026#story-49645443'>Cognition launches new SWE-2 model, Rivaling Fable 5.1 and GPT-Astra</a>
- <a class='hn-top-story-link' href='https://cognition.com/blog/swe-2' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/11/top_stories_09112026#story-49653328'>Exercise intensity is associated with cardiometabolic health</a>
+ <a class='hn-top-story-link' href='https://www.cell.com/cell-reports-medicine/fulltext/S2666-3791(26)00405-2' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Cognition 推出 SWE-2 模型，挑战 Fable 5.1 与 GPT-Astra</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.3</span> <span class='hn-top-story-score'>&#9650; 402</span> <span class='hn-top-story-comments'>&#128172; 170</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>运动强度与心代谢健康相关</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 108</span> <span class='hn-top-story-comments'>&#128172; 49</span> <span class='hn-top-story-tag'>Health</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
-<a class='hn-top-stories-more' href='/hackernews/2026/09/10/top_stories_09102026'>View all trending stories &rarr;</a>
+<a class='hn-top-stories-more' href='/hackernews/2026/09/11/top_stories_09112026'>View all trending stories &rarr;</a>
 <a class='hn-top-stories-more' href='/hackernews/2026/09/09/best_stories_09092026'>Latest Daily Best — 2026-09-09 &rarr;</a>
 </div>
 </div>
@@ -140,10 +140,19 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 37 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-09-07 — 2026-09-10 <span class="hn-row-sep">·</span> 550 stories <span class="hn-row-sep">·</span> 4 days</span>
+<span class='hn-week-meta'>2026-09-07 — 2026-09-11 <span class="hn-row-sep">·</span> 600 stories <span class="hn-row-sep">·</span> 5 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
+<div class='hn-day-row'>
+<div class='hn-day-date'>2026-09-11 <span class='hn-day-weekday'>Fri</span></div>
+<div class='hn-day-stories'>
+<a class='hn-story-link' href='/hackernews/2026/09/11/top_stories_09112026'>
+<span class='hn-row-type hn-type-top'>Trending</span>
+<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>19</b> <span class="hn-row-sep">·</span> Programming <b>14</b></span>
+</a>
+</div>
+</div>
 <div class='hn-day-row'>
 <div class='hn-day-date'>2026-09-10 <span class='hn-day-weekday'>Thu</span></div>
 <div class='hn-day-stories'>
@@ -513,7 +522,7 @@ Sort:
 <details class='hn-week-group'>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 33</span>
-<span class='hn-week-meta'>2026-08-12 — 2026-08-16 <span class="hn-row-sep">·</span> 747 stories <span class="hn-row-sep">·</span> 5 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
+<span class='hn-week-meta'>2026-08-13 — 2026-08-16 <span class="hn-row-sep">·</span> 597 stories <span class="hn-row-sep">·</span> 4 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
 </summary>
 <div class='hn-week-content'>
 <a class='hn-story-link hn-weekly-digest-link' href='/hackernews/weekly/2026-W33'>
@@ -570,19 +579,6 @@ Sort:
 <a class='hn-story-link' href='/hackernews/2026/08/13/top_stories_08132026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
 <span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>25</b> <span class="hn-row-sep">·</span> AI <b>24</b></span>
-</a>
-</div>
-</div>
-<div class='hn-day-row'>
-<div class='hn-day-date'>2026-08-12 <span class='hn-day-weekday'>Wed</span></div>
-<div class='hn-day-stories'>
-<a class='hn-story-link' href='/hackernews/2026/08/12/best_stories_08122026'>
-<span class='hn-row-type hn-type-best'>Daily Best</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>20</b> <span class="hn-row-sep">·</span> Programming <b>10</b></span>
-</a>
-<a class='hn-story-link' href='/hackernews/2026/08/12/top_stories_08122026'>
-<span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>27</b> <span class="hn-row-sep">·</span> Programming <b>20</b></span>
 </a>
 </div>
 </div>
