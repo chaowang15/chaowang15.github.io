@@ -20,18 +20,18 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='117' data-hn-time='1789075379'>
+<div class='hn-top-story-item' data-hn-score='70' data-hn-time='1789107786'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/10/top_stories_09102026#story-49650326'>OpenAI’s Navier-Stokes release included a Lean 4 formal proof</a>
- <a class='hn-top-story-link' href='https://www.johndcook.com/blog/2026/09/09/formal-method-revolution/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/10/top_stories_09102026#story-49654229'>Astra for Coding: Why Are We Doing This Again?</a>
+ <a class='hn-top-story-link' href='https://lucumr.pocoo.org/2026/9/7/astra-why/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>OpenAI 的 Navier–Stokes 发布包含 Lean 4 形式证明</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.8</span> <span class='hn-top-story-score'>&#9650; 117</span> <span class='hn-top-story-comments'>&#128172; 113</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>Astra 用于编码：我们为什么要再做这个？</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 70</span> <span class='hn-top-story-comments'>&#128172; 25</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='677' data-hn-time='1789049371'>
+<div class='hn-top-story-item' data-hn-score='981' data-hn-time='1789049371'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -39,95 +39,95 @@ Sort:
  <a class='hn-top-story-link' href='https://shopify.engineering/back-to-native' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Shopify 将移动端从 React Native 回归原生开发：Swift 与 Kotlin</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.4</span> <span class='hn-top-story-score'>&#9650; 677</span> <span class='hn-top-story-comments'>&#128172; 450</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Web</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.0</span> <span class='hn-top-story-score'>&#9650; 981</span> <span class='hn-top-story-comments'>&#128172; 665</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='401' data-hn-time='1789056822'>
+<div class='hn-top-story-item' data-hn-score='196' data-hn-time='1789087361'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/10/top_stories_09102026#story-49646181'>I have a theory that software drives people insane</a>
- <a class='hn-top-story-link' href='https://graybeard.ing/software-drives-people-insane/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/10/top_stories_09102026#story-49652105'>Google will buy half the electricity from one of Finland's nuclear power plants</a>
+ <a class='hn-top-story-link' href='https://www.bbc.com/news/articles/c8r6y4me2g6o' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>软件让人发疯</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.2</span> <span class='hn-top-story-score'>&#9650; 401</span> <span class='hn-top-story-comments'>&#128172; 162</span> <span class='hn-top-story-tag'>Design</span></div>
+<div class='hn-top-story-zh'>谷歌将从芬兰一家核电厂购买大部分电力</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.3</span> <span class='hn-top-story-score'>&#9650; 196</span> <span class='hn-top-story-comments'>&#128172; 173</span> <span class='hn-top-story-tag'>Energy</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='578' data-hn-time='1789047556'>
+<div class='hn-top-story-item' data-hn-score='71' data-hn-time='1789098490'>
 <span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/10/top_stories_09102026#story-49653328'>Exercise intensity is associated with cardiometabolic health</a>
+ <a class='hn-top-story-link' href='https://www.cell.com/cell-reports-medicine/fulltext/S2666-3791(26)00405-2' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>运动强度与心代谢健康相关</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 71</span> <span class='hn-top-story-comments'>&#128172; 36</span> <span class='hn-top-story-tag'>Health</span> <span class='hn-top-story-tag'>Science</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='150' data-hn-time='1789088456'>
+<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/10/top_stories_09102026#story-49652237'>Mexican student creates an acoustic fire extinguisher to put out fire in seconds</a>
+ <a class='hn-top-story-link' href='https://www.upsocl.com/en/16-year-old-mexican-student-creates-an-acoustic-fire-extinguisher-that-uses-sound-waves-to-put-out-fires-in-seconds/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>墨西哥学生用声波“声学灭火器”秒灭火源</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 150</span> <span class='hn-top-story-comments'>&#128172; 58</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Education</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='652' data-hn-time='1789047556'>
+<span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/09/10/top_stories_09102026#story-49643546'>Rust is tier-1 language at Microsoft</a>
  <a class='hn-top-story-link' href='https://rustfoundation.org/media/guest-post-rust-is-tier-1-language-at-microsoft/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Rust 已在微软被列为 Tier-1 语言</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.7</span> <span class='hn-top-story-score'>&#9650; 578</span> <span class='hn-top-story-comments'>&#128172; 316</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 652</span> <span class='hn-top-story-comments'>&#128172; 383</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='337' data-hn-time='1789054187'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/10/top_stories_09102026#story-49645443'>Cognition launches new SWE-2 model, Rivaling Fable 5.1 and GPT-Astra</a>
- <a class='hn-top-story-link' href='https://cognition.com/blog/swe-2' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Cognition 推出 SWE-2 模型，挑战 Fable 5.1 与 GPT-Astra</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.3</span> <span class='hn-top-story-score'>&#9650; 337</span> <span class='hn-top-story-comments'>&#128172; 140</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='933' data-hn-time='1789020665'>
-<span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/10/top_stories_09102026#story-49639090'>DeepSeek v4.1 Flash</a>
- <a class='hn-top-story-link' href='https://twitter.com/deepseek_ai/status/2097930608790167907' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>DeepSeek v4.1：Flash 功能</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.5</span> <span class='hn-top-story-score'>&#9650; 933</span> <span class='hn-top-story-comments'>&#128172; 515</span> <span class='hn-top-story-tag'>Programming</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='372' data-hn-time='1789047593'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='451' data-hn-time='1789054042'>
 <span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/10/top_stories_09102026#story-49643556'>Tell HN: OpenAI keeps re-enabling the 'allow training' setting</a>
- <a class='hn-top-story-link' href='https://news.ycombinator.com/item?id=49643556' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>告知 HN：OpenAI 不断重新启用“允许训练”设置</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.3</span> <span class='hn-top-story-score'>&#9650; 372</span> <span class='hn-top-story-comments'>&#128172; 144</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='262' data-hn-time='1789054042'>
-<span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/09/10/top_stories_09102026#story-49645393'>Don't let anyone take away your big box of cables</a>
  <a class='hn-top-story-link' href='https://blog.jim-nielsen.com/2026/hands-off-my-cables/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>别让任何人拿走你那大箱线缆</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 262</span> <span class='hn-top-story-comments'>&#128172; 216</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 451</span> <span class='hn-top-story-comments'>&#128172; 307</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='117' data-hn-time='1789067014'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='961' data-hn-time='1789020665'>
+<span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/10/top_stories_09102026#story-49639090'>DeepSeek v4.1 Flash</a>
+ <a class='hn-top-story-link' href='https://twitter.com/deepseek_ai/status/2097930608790167907' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>DeepSeek v4.1：Flash 功能</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 961</span> <span class='hn-top-story-comments'>&#128172; 539</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='401' data-hn-time='1789056822'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/10/top_stories_09102026#story-49648732'>Creativity is the new moat</a>
- <a class='hn-top-story-link' href='https://www.inventbuild.studio/blog/genuine-creativity-is-your-new-moat' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/10/top_stories_09102026#story-49646181'>I have a theory that software drives people insane</a>
+ <a class='hn-top-story-link' href='https://graybeard.ing/software-drives-people-insane/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>创造力成为新护城河</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 117</span> <span class='hn-top-story-comments'>&#128172; 61</span> <span class='hn-top-story-tag'>Culture</span></div>
+<div class='hn-top-story-zh'>软件让人发疯</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 401</span> <span class='hn-top-story-comments'>&#128172; 162</span> <span class='hn-top-story-tag'>Design</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='246' data-hn-time='1789054170'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='402' data-hn-time='1789054187'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/10/top_stories_09102026#story-49645437'>Technique for Manipulating Satellite Photos Now Reveals Ancient Images</a>
- <a class='hn-top-story-link' href='https://spinoff.nasa.gov/Manipulating_Satellite_Photos_Now_Reveals_Ancient_Images' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/10/top_stories_09102026#story-49645443'>Cognition launches new SWE-2 model, Rivaling Fable 5.1 and GPT-Astra</a>
+ <a class='hn-top-story-link' href='https://cognition.com/blog/swe-2' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>操控卫星照片的新技术现能揭示古代影像</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.8</span> <span class='hn-top-story-score'>&#9650; 246</span> <span class='hn-top-story-comments'>&#128172; 35</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Space</span></div>
+<div class='hn-top-story-zh'>Cognition 推出 SWE-2 模型，挑战 Fable 5.1 与 GPT-Astra</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.3</span> <span class='hn-top-story-score'>&#9650; 402</span> <span class='hn-top-story-comments'>&#128172; 170</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/09/10/top_stories_09102026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>24</b> <span class="hn-row-sep">·</span> Programming <b>23</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>26</b> <span class="hn-row-sep">·</span> Programming <b>24</b></span>
 </a>
 </div>
 </div>
