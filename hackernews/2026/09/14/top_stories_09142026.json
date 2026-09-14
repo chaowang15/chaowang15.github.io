@@ -4,21 +4,43 @@
     "source": "https://news.ycombinator.com/",
     "api": "https://github.com/HackerNews/API",
     "count_requested": 50,
-    "count_written": 50,
-    "reused_same_day": 0,
-    "reused_cross_day": 27,
+    "count_written": 73,
+    "reused_same_day": 27,
+    "reused_cross_day": 0,
     "new_llm_enriched": 23,
-    "scrape_time_display": "00:25, September 14, 2026 (PDT)",
+    "scrape_time_display": "05:24, September 14, 2026 (PDT)",
     "timezone": "America/Los_Angeles",
     "date_dir": "2026/09/14",
     "content_date": "2026-09-14",
-    "run_time_local": "00:25, September 14, 2026 (PDT)",
-    "run_time_utc": "2026-09-14 07:25:18 UTC",
+    "run_time_local": "05:24, September 14, 2026 (PDT)",
+    "run_time_utc": "2026-09-14 12:24:29 UTC",
     "incremental": true,
     "stories_max": 100,
-    "hot_score_time_utc": "2026-09-14 07:27:14 UTC"
+    "hot_score_time_utc": "2026-09-14 12:25:56 UTC"
   },
   "items": [
+    {
+      "title_en": "XCancel suspended \"due to a new development in the ongoing legal proceedings\"",
+      "url": "https://xcancel.com/twitter",
+      "title_zh": "XCancel 因法律进展新发展暂停服务",
+      "created_display": "Created: Sep 14, 2026 / 05:05 PT",
+      "image_url": null,
+      "summary_en": "XCancel suspended again as new developments arise in ongoing legal proceedings. The move affects users relying on the service and underscores how legal shifts can ripple into enforcement-heavy platforms.",
+      "summary_zh": "XCancel 因正在进行的法律程序出现新进展再度暂停服务，影响依赖该服务的用户。此举也凸显法律变动对依赖执法与拦截功能平台的影响。",
+      "hn": {
+        "id": 49695459,
+        "type": "story",
+        "by": "unfocso",
+        "score": 32,
+        "descendants": 9,
+        "time": 1789387552,
+        "comments_url": "https://news.ycombinator.com/item?id=49695459"
+      },
+      "hot_score": 6.74,
+      "tags": [
+        "Legal"
+      ]
+    },
     {
       "title_en": "Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher",
       "url": "https://www.vals.ai/blogs/fable-solves-cyphral-distich",
@@ -31,15 +53,39 @@
         "id": 49688695,
         "type": "story",
         "by": "u1hcw9nx",
-        "score": 791,
-        "descendants": 331,
+        "score": 1041,
+        "descendants": 460,
         "time": 1789333573,
         "comments_url": "https://news.ycombinator.com/item?id=49688695"
       },
       "tags": [
-        "Security"
+        "Science"
       ],
-      "hot_score": 8.56
+      "hot_score": 6.13
+    },
+    {
+      "title_en": "EuroBirdPortal – Live bird movements across Europe",
+      "url": "https://www.eurobirdportal.org/ebp/en/",
+      "title_zh": "欧洲鸟类门户：欧洲范围内的实时迁徙数据",
+      "created_display": "Created: Sep 14, 2026 / 01:25 PT",
+      "image_url": "http://eurobirdportal.org/img/preview-2.png",
+      "summary_en": "EuroBirdPortal aggregates live bird-tracking data across Europe into an interactive map. It highlights migration routes, seasonal hotspots, and species movement patterns, offering a valuable resource for researchers and conservationists.",
+      "summary_zh": "该平台把欧洲多源鸟类追踪数据汇聚成交互地图，展示迁徙路线、季节性热点和物种运动模式。为研究者与保护工作者提供宝贵的数据资源。",
+      "hn": {
+        "id": 49693610,
+        "type": "story",
+        "by": "NKosmatos",
+        "score": 109,
+        "descendants": 40,
+        "time": 1789374347,
+        "comments_url": "https://news.ycombinator.com/item?id=49693610"
+      },
+      "hot_score": 4.29,
+      "tags": [
+        "Data",
+        "Web",
+        "Privacy"
+      ]
     },
     {
       "title_en": "Why is Google still serving dodgy ads?",
@@ -53,15 +99,270 @@
         "id": 49686445,
         "type": "story",
         "by": "iamflimflam1",
-        "score": 766,
-        "descendants": 344,
+        "score": 869,
+        "descendants": 377,
         "time": 1789321064,
         "comments_url": "https://news.ycombinator.com/item?id=49686445"
       },
       "tags": [
+        "Business",
         "Privacy"
       ],
-      "hot_score": 5.31
+      "hot_score": 3.68
+    },
+    {
+      "title_en": "A 386 PC for Your RP2350",
+      "url": "https://github.com/rh1tech/frank-386",
+      "title_zh": "在 RP2350 上的 386 PC",
+      "created_display": "Created: Sep 14, 2026 / 01:25 PT",
+      "image_url": "https://opengraph.githubassets.com/5dbeb91ad5fb856746a6df3c31d5be80035694e990d31cf403ccc37ca2d9c3be/rh1tech/frank-386",
+      "summary_en": "A 386 PC for Your RP2350 shows a project that emulates a 386-era PC on the RP2350 platform, enabling retro software and educational demos on a microcontroller-board. It demonstrates how hobbyists squeeze legacy computing into tiny devices and what it implies for embedded systems.",
+      "summary_zh": "这个在 RP2350 上实现的 386 电脑项目，可以在微控制器板上运行 386 时代的软件，适合教学演示和复古计算爱好者实验。展示了爱好者如何把遗留计算嵌入到小型设备中，并对嵌入式系统的潜力提供了启示。",
+      "hn": {
+        "id": 49693613,
+        "type": "story",
+        "by": "SamuraiLion",
+        "score": 80,
+        "descendants": 21,
+        "time": 1789374357,
+        "comments_url": "https://news.ycombinator.com/item?id=49693613"
+      },
+      "hot_score": 3.14,
+      "tags": [
+        "Hardware"
+      ]
+    },
+    {
+      "title_en": "Apple's Siri AI Can Be Swapped Out for Claude, ChatGPT, Code Shows",
+      "url": "https://www.macrumors.com/2026/09/14/siri-can-be-swapped-out-for-chatgpt-claude/",
+      "title_zh": "Siri 的后端可替换为 Claude/ChatGPT的演示",
+      "created_display": "Created: Sep 14, 2026 / 05:01 PT",
+      "image_url": "https://images.macrumors.com/t/HAbY2RBLL5aLJL0IJd9M8FyRpRE=/2500x/article-new/2026/06/macOS-iOS-27-Siri-App-Feature.jpg",
+      "summary_en": "Apple's Siri AI can be swapped out for Claude, ChatGPT, code shows reveals modular AI backend capabilities and raises questions about privacy, security, and platform openness.",
+      "summary_zh": "演示显示 Siri 的后端能力可换成 Claude 或 ChatGPT，暴露了模块化 AI 的潜力，同时也带来了隐私、安全与平台开放性方面的关注。",
+      "hn": {
+        "id": 49695409,
+        "type": "story",
+        "by": "tosh",
+        "score": 15,
+        "descendants": 2,
+        "time": 1789387292,
+        "comments_url": "https://news.ycombinator.com/item?id=49695409"
+      },
+      "hot_score": 2.88,
+      "tags": [
+        "AI",
+        "Privacy",
+        "Security",
+        "Web"
+      ]
+    },
+    {
+      "title_en": "Who Aligns the Aligners?",
+      "url": "https://prestonbyrne.com/2026/09/13/aligners/",
+      "title_zh": "谁在掌控牙套的对齐？",
+      "created_display": "Created: Sep 14, 2026 / 03:41 PT",
+      "image_url": "https://prestonbyrne.com/wp-content/uploads/2026/09/images.jpg",
+      "summary_en": "Who Aligns the Aligners? examines the players behind consumer dental aligners—regulators, manufacturers, dentists, and tech companies—and what their incentives mean for access, safety, and innovation.",
+      "summary_zh": "本文剖析牙套行业背后的主导者与利益相关方——监管机构、制造商、牙医和科技公司——及其对准入、安全与创新的影响。",
+      "hn": {
+        "id": 49694722,
+        "type": "story",
+        "by": "timr",
+        "score": 29,
+        "descendants": 21,
+        "time": 1789382516,
+        "comments_url": "https://news.ycombinator.com/item?id=49694722"
+      },
+      "hot_score": 2.61,
+      "tags": [
+        "Health",
+        "Business",
+        "Politics"
+      ]
+    },
+    {
+      "title_en": "Nike exits the S&P 100 after 18 years and a $200B market-cap wipeout",
+      "url": "https://fortune.com/2026/09/08/nike-stock-plummets-sp500-market-cap-index/",
+      "title_zh": "耐克退出标普100，市值蒸发2000亿美元",
+      "created_display": "Created: Sep 13, 2026 / 19:50 PT",
+      "image_url": "https://fortune.com/img-assets/wp-content/uploads/2026/09/GettyImages-534705402-e1788891465553.jpg?resize=1200,600",
+      "summary_en": "Nike's exit from the S&P 100 after 18 years comes amid a dramatic decline in market cap, triggering index rebalancing. The move underscores how corporate value volatility can outpace index membership and affect passive investors.",
+      "summary_zh": "耐克在18年后退出标普100，伴随市值大幅下滑，引发指数成分调整。此举凸显企业价值的波动可能超越指数成分的变动，对被动投资者产生影响。",
+      "hn": {
+        "id": 49691343,
+        "type": "story",
+        "by": "andsoitis",
+        "score": 199,
+        "descendants": 255,
+        "time": 1789354240,
+        "comments_url": "https://news.ycombinator.com/item?id=49691343"
+      },
+      "tags": [
+        "Business",
+        "Finance"
+      ],
+      "hot_score": 2.41
+    },
+    {
+      "title_en": "HP ZGX Fury Is Now Orderable: GB300 Superchip, 748GB Unified Memory",
+      "url": "https://www.storagereview.com/news/hp-zgx-fury-is-now-orderable-gb300-superchip-748gb-unified-memory-and-a-red-hat-ai-factory-plan-for-the-edge",
+      "title_zh": "HP ZGX Fury 现已可订购：GB300 超芯片与 748GB 统一内存",
+      "created_display": "Created: Sep 14, 2026 / 04:05 PT",
+      "image_url": "https://www.storagereview.com/wp-content/uploads/2026/09/StorageReview-HP-ZGX-NVIDIA-GB300-1-1.jpg",
+      "summary_en": "HP ZGX Fury is now orderable, featuring the GB300 superchip and 748GB unified memory, underscoring HP’s push into high-end edge AI deployments. The release matches increasingly data-rich workloads with specialized hardware and vendor ecosystems.",
+      "summary_zh": "HP ZGX Fury 现已可订购，配备 GB300 超芯片和 748GB 统一内存，凸显 HP 在高端边缘 AI 部署上的布局。该硬件组合与日益增长的 AI 推理和数据密集型工作负载需求相契合。",
+      "hn": {
+        "id": 49694905,
+        "type": "story",
+        "by": "rbanffy",
+        "score": 22,
+        "descendants": 23,
+        "time": 1789383925,
+        "comments_url": "https://news.ycombinator.com/item?id=49694905"
+      },
+      "hot_score": 2.39,
+      "tags": [
+        "Hardware",
+        "AI"
+      ]
+    },
+    {
+      "title_en": "Apple's Dimensional Drawings",
+      "url": "https://developer.apple.com/accessories/dimensional-drawings/",
+      "title_zh": "苹果的尺寸绘图",
+      "created_display": "Created: Sep 13, 2026 / 17:11 PT",
+      "image_url": "https://developer.apple.com/news/images/og/accessories-og.jpg",
+      "summary_en": "Apple released dimensional drawings for its accessories, giving developers precise measurements needed to design compatible hardware. The move could spur more third‑party cases, docks, and accessories, while prompting considerations about IP and security implications.",
+      "summary_zh": "苹果公开了配件的尺寸绘图，为开发者提供设计符合规格的精确尺寸。这一举措可能刺激更多第三方外设的开发，但也带来知识产权与安全方面的讨论。",
+      "hn": {
+        "id": 49690174,
+        "type": "story",
+        "by": "herbertl",
+        "score": 249,
+        "descendants": 89,
+        "time": 1789344681,
+        "comments_url": "https://news.ycombinator.com/item?id=49690174"
+      },
+      "tags": [
+        "Hardware",
+        "Security"
+      ],
+      "hot_score": 2.08
+    },
+    {
+      "title_en": "Registration without a phone number on Signal will use zero-knowledge proofs",
+      "url": "https://community.signalusers.org/t/registration-without-a-phone-number/2222?page=10",
+      "title_zh": "Signal 将在注册阶段无需手机号码，采用零知识证明",
+      "created_display": "Created: Sep 13, 2026 / 14:47 PT",
+      "image_url": "https://community.signalusers.org/uploads/db3609/original/3X/2/a/2aae74b9e7c4af45dfcd09cfa6e9c90fb3b7534c.png",
+      "summary_en": "Signal is testing a phone-number-free registration using zero-knowledge proofs, letting users create accounts without sharing a phone number. This reduces SIM swap risk and privatizes identity, but introduces onboarding and trust challenges.",
+      "summary_zh": "Signal 正在测试无需手机号码的注册方式，利用零知识证明来实现去绑定身份。此举能提升隐私、降低 SIM 卡冒充风险，但在落地时需解决新用户引导与信任问题。",
+      "hn": {
+        "id": 49689048,
+        "type": "story",
+        "by": "Cider9986",
+        "score": 309,
+        "descendants": 156,
+        "time": 1789336024,
+        "comments_url": "https://news.ycombinator.com/item?id=49689048"
+      },
+      "tags": [
+        "Privacy",
+        "Security"
+      ],
+      "hot_score": 1.95
+    },
+    {
+      "title_en": "OpenArch – PyTorch implementations of modern LLM architectures",
+      "url": "https://github.com/anuj0456/OpenArch",
+      "title_zh": "OpenArch：现代 LLM 架构的 PyTorch 实现",
+      "created_display": "Created: Sep 14, 2026 / 00:55 PT",
+      "image_url": "https://opengraph.githubassets.com/510767612f64f4ce3c1a7a09c1d73720c3e94a5f3cc50470b170177e4c349a9b/anuj0456/OpenArch",
+      "summary_en": "OpenArch provides PyTorch implementations of modern LLM architectures, enabling researchers to experiment with architectures beyond the usual suspects. It lowers the barrier to prototyping and benchmarking advanced models.",
+      "summary_zh": "OpenArch 提供现代大模型架构的 PyTorch 实现，便于研究者试验超越常见架构的设计。降低了原型化与基准测试的门槛。",
+      "hn": {
+        "id": 49693384,
+        "type": "story",
+        "by": "anuj0456",
+        "score": 56,
+        "descendants": 10,
+        "time": 1789372519,
+        "comments_url": "https://news.ycombinator.com/item?id=49693384"
+      },
+      "hot_score": 1.89,
+      "tags": [
+        "Open Source",
+        "AI"
+      ]
+    },
+    {
+      "title_en": "The case against JPEG XL",
+      "url": "https://giannirosato.com/blog/post/case-against-jxl/",
+      "title_zh": "JPEG XL 的反对理由",
+      "created_display": "Created: Sep 13, 2026 / 18:02 PT",
+      "image_url": "https://giannirosato.com/static/img/caustics-hdr.avif",
+      "summary_en": "The piece argues against adopting JPEG XL, citing adoption friction, limited ecosystem support, and potential licensing concerns. It suggests sticking with more established formats (like AVIF or WebP) that enjoy broader tooling and compatibility.",
+      "summary_zh": "文章从采用障碍、生态支持不足以及潜在许可问题等角度，提出反对 JPEG XL 的观点。作者建议在现有工具链中优先选择更成熟、兼容性更高的格式，如 AVIF 或 WebP。",
+      "hn": {
+        "id": 49690554,
+        "type": "story",
+        "by": "contact9879",
+        "score": 197,
+        "descendants": 257,
+        "time": 1789347757,
+        "comments_url": "https://news.ycombinator.com/item?id=49690554"
+      },
+      "tags": [
+        "Web"
+      ],
+      "hot_score": 1.84
+    },
+    {
+      "title_en": "Astra and Fable still hack on simple variants of alignment evals from 2025",
+      "url": "https://www.lesswrong.com/posts/munJKF7iWMsWJLAH2/astra-and-fable-still-hack-on-simple-variants-of-alignment",
+      "title_zh": "Astra 与 Fable 继续改进基于 2025 年对齐评估的简单变体",
+      "created_display": "Created: Sep 13, 2026 / 07:28 PT",
+      "image_url": null,
+      "summary_en": "Astra and Fable keep iterating on simple alignment eval variants first proposed in 2025, probing whether minor task changes expose alignment gaps in current models. The work highlights the fragility of current evals as AI systems scale and the challenge of measuring true alignment.",
+      "summary_zh": "Astra 与 Fable 继续在 2025 年提出的对齐评估的简单变体上进行试验，观察在任务设定微小变化下模型对齐性的表现。此举暴露当前对齐评估在规模化 AI 面前的脆弱性及测量真正对齐的难度。",
+      "hn": {
+        "id": 49684393,
+        "type": "story",
+        "by": "Levitating",
+        "score": 447,
+        "descendants": 208,
+        "time": 1789309716,
+        "comments_url": "https://news.ycombinator.com/item?id=49684393"
+      },
+      "tags": [
+        "AI",
+        "Science"
+      ],
+      "hot_score": 1.47
+    },
+    {
+      "title_en": "Watch AI materials-science and bioscience abilities closely",
+      "url": "https://www.lesswrong.com/posts/SCtkSz4nQ9icLZ4uq/watch-ai-materials-science-and-bioscience-abilities-closely",
+      "title_zh": "密切关注 AI 在材料与生物科学领域的能力",
+      "created_display": "Created: Sep 14, 2026 / 04:01 PT",
+      "image_url": null,
+      "summary_en": "Watch AI materials-science and bioscience abilities closely argues that advances in AI could accelerate discovery but also outpace safety and governance. It urges proactive assessment of capabilities, alignment risks, and policy responses.",
+      "summary_zh": "文章强调应密切关注 AI 在材料科学和生物科学方面的能力提升，尽管可能带来突破性进展，但也可能超出安全与治理的节奏。呼吁前瞻性评估能力、对齐风险与政策应对。",
+      "hn": {
+        "id": 49694871,
+        "type": "story",
+        "by": "joozio",
+        "score": 14,
+        "descendants": 7,
+        "time": 1789383660,
+        "comments_url": "https://news.ycombinator.com/item?id=49694871"
+      },
+      "hot_score": 1.42,
+      "tags": [
+        "AI",
+        "Science"
+      ]
     },
     {
       "title_en": "The contagion of fear",
@@ -83,98 +384,7 @@
       "tags": [
         "Culture"
       ],
-      "hot_score": 2.77
-    },
-    {
-      "title_en": "Nike exits the S&P 100 after 18 years and a $200B market-cap wipeout",
-      "url": "https://fortune.com/2026/09/08/nike-stock-plummets-sp500-market-cap-index/",
-      "title_zh": "耐克退出标普100，市值蒸发2000亿美元",
-      "created_display": "Created: Sep 13, 2026 / 19:50 PT",
-      "image_url": "https://fortune.com/img-assets/wp-content/uploads/2026/09/GettyImages-534705402-e1788891465553.jpg?resize=1200,600",
-      "summary_en": "Nike's exit from the S&P 100 after 18 years comes amid a dramatic decline in market cap, triggering index rebalancing. The move underscores how corporate value volatility can outpace index membership and affect passive investors.",
-      "summary_zh": "耐克在18年后退出标普100，伴随市值大幅下滑，引发指数成分调整。此举凸显企业价值的波动可能超越指数成分的变动，对被动投资者产生影响。",
-      "hn": {
-        "id": 49691343,
-        "type": "story",
-        "by": "andsoitis",
-        "score": 82,
-        "descendants": 85,
-        "time": 1789354240,
-        "comments_url": "https://news.ycombinator.com/item?id=49691343"
-      },
-      "hot_score": 2.71,
-      "tags": [
-        "Business",
-        "Finance"
-      ]
-    },
-    {
-      "title_en": "Apple's Dimensional Drawings",
-      "url": "https://developer.apple.com/accessories/dimensional-drawings/",
-      "title_zh": "苹果的尺寸绘图",
-      "created_display": "Created: Sep 13, 2026 / 17:11 PT",
-      "image_url": "https://developer.apple.com/news/images/og/accessories-og.jpg",
-      "summary_en": "Apple released dimensional drawings for its accessories, giving developers precise measurements needed to design compatible hardware. The move could spur more third‑party cases, docks, and accessories, while prompting considerations about IP and security implications.",
-      "summary_zh": "苹果公开了配件的尺寸绘图，为开发者提供设计符合规格的精确尺寸。这一举措可能刺激更多第三方外设的开发，但也带来知识产权与安全方面的讨论。",
-      "hn": {
-        "id": 49690174,
-        "type": "story",
-        "by": "herbertl",
-        "score": 145,
-        "descendants": 48,
-        "time": 1789344681,
-        "comments_url": "https://news.ycombinator.com/item?id=49690174"
-      },
-      "hot_score": 2.62,
-      "tags": [
-        "Hardware",
-        "Security"
-      ]
-    },
-    {
-      "title_en": "Registration without a phone number on Signal will use zero-knowledge proofs",
-      "url": "https://community.signalusers.org/t/registration-without-a-phone-number/2222?page=10",
-      "title_zh": "Signal 将在注册阶段无需手机号码，采用零知识证明",
-      "created_display": "Created: Sep 13, 2026 / 14:47 PT",
-      "image_url": "https://community.signalusers.org/uploads/db3609/original/3X/2/a/2aae74b9e7c4af45dfcd09cfa6e9c90fb3b7534c.png",
-      "summary_en": "Signal is testing a phone-number-free registration using zero-knowledge proofs, letting users create accounts without sharing a phone number. This reduces SIM swap risk and privatizes identity, but introduces onboarding and trust challenges.",
-      "summary_zh": "Signal 正在测试无需手机号码的注册方式，利用零知识证明来实现去绑定身份。此举能提升隐私、降低 SIM 卡冒充风险，但在落地时需解决新用户引导与信任问题。",
-      "hn": {
-        "id": 49689048,
-        "type": "story",
-        "by": "Cider9986",
-        "score": 216,
-        "descendants": 99,
-        "time": 1789336024,
-        "comments_url": "https://news.ycombinator.com/item?id=49689048"
-      },
-      "tags": [
-        "Privacy",
-        "Security"
-      ],
-      "hot_score": 2.58
-    },
-    {
-      "title_en": "The case against JPEG XL",
-      "url": "https://giannirosato.com/blog/post/case-against-jxl/",
-      "title_zh": "JPEG XL 的反对理由",
-      "created_display": "Created: Sep 13, 2026 / 18:02 PT",
-      "image_url": "https://giannirosato.com/static/img/caustics-hdr.avif",
-      "summary_en": "The piece argues against adopting JPEG XL, citing adoption friction, limited ecosystem support, and potential licensing concerns. It suggests sticking with more established formats (like AVIF or WebP) that enjoy broader tooling and compatibility.",
-      "summary_zh": "文章从采用障碍、生态支持不足以及潜在许可问题等角度，提出反对 JPEG XL 的观点。作者建议在现有工具链中优先选择更成熟、兼容性更高的格式，如 AVIF 或 WebP。",
-      "hn": {
-        "id": 49690554,
-        "type": "story",
-        "by": "contact9879",
-        "score": 114,
-        "descendants": 149,
-        "time": 1789347757,
-        "comments_url": "https://news.ycombinator.com/item?id=49690554"
-      },
-      "hot_score": 2.45,
-      "tags": [
-        "Web"
-      ]
+      "hot_score": 1.4
     },
     {
       "title_en": "Garry Tan wants US open-weight AI labs to 'distill' frontier models, too",
@@ -194,31 +404,100 @@
         "comments_url": "https://news.ycombinator.com/item?id=49685253"
       },
       "tags": [
-        "AI"
+        "AI",
+        "Politics"
       ],
-      "hot_score": 2.18
+      "hot_score": 1.39
     },
     {
-      "title_en": "Astra and Fable still hack on simple variants of alignment evals from 2025",
-      "url": "https://www.lesswrong.com/posts/munJKF7iWMsWJLAH2/astra-and-fable-still-hack-on-simple-variants-of-alignment",
-      "title_zh": "Astra 与 Fable 继续改进基于 2025 年对齐评估的简单变体",
-      "created_display": "Created: Sep 13, 2026 / 07:28 PT",
-      "image_url": null,
-      "summary_en": "Astra and Fable keep iterating on simple alignment eval variants first proposed in 2025, probing whether minor task changes expose alignment gaps in current models. The work highlights the fragility of current evals as AI systems scale and the challenge of measuring true alignment.",
-      "summary_zh": "Astra 与 Fable 继续在 2025 年提出的对齐评估的简单变体上进行试验，观察在任务设定微小变化下模型对齐性的表现。此举暴露当前对齐评估在规模化 AI 面前的脆弱性及测量真正对齐的难度。",
+      "title_en": "Data collected by cars and sold to third parties",
+      "url": "https://www.theverge.com/column/994172/your-car-is-selling-your-data",
+      "title_zh": "汽车数据被收集并出售给第三方",
+      "created_display": "Created: Sep 13, 2026 / 06:45 PT",
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/gettyimages-144097019.jpg?quality=90&strip=all&crop=0%2C10.678370919471%2C100%2C78.643258161058&w=1200",
+      "summary_en": "Modern cars continuously collect telemetry, location, and sensor data, much of which is sold or shared with third parties. This raises privacy concerns and highlights who controls the data and how opt-outs are handled.",
+      "summary_zh": "现代汽车会持续收集遥测、位置信息和传感器数据，且其中相当一部分被出售或分享给第三方。这引发隐私担忧，同时暴露了数据的控制权以及退出机制的不足。",
       "hn": {
-        "id": 49684393,
+        "id": 49683953,
         "type": "story",
-        "by": "Levitating",
-        "score": 426,
-        "descendants": 198,
-        "time": 1789309716,
-        "comments_url": "https://news.ycombinator.com/item?id=49684393"
+        "by": "bookofjoe",
+        "score": 439,
+        "descendants": 224,
+        "time": 1789307108,
+        "comments_url": "https://news.ycombinator.com/item?id=49683953"
       },
       "tags": [
-        "AI"
+        "Privacy",
+        "Data"
       ],
-      "hot_score": 2.13
+      "hot_score": 1.37
+    },
+    {
+      "title_en": "Pkgsrc Is Cool (2022)",
+      "url": "https://www.wisellama.rocks/posts/2021-12-23-pkgsrc-is-cool/",
+      "title_zh": "Pkgsrc：仍然很酷（2022）",
+      "created_display": "Created: Sep 14, 2026 / 02:53 PT",
+      "image_url": "https://www.wisellama.rocks/img/cc.svg",
+      "summary_en": "Pkgsrc Is Cool (2022) reflects on the portability and utility of the pkgsrc packaging system across Unix-like platforms.",
+      "summary_zh": "回顾《Pkgsrc Is Cool (2022)》，强调 pkgsrc 跨 Unix 类平台的可移植性与实用性。",
+      "hn": {
+        "id": 49694311,
+        "type": "story",
+        "by": "Tomte",
+        "score": 21,
+        "descendants": 7,
+        "time": 1789379614,
+        "comments_url": "https://news.ycombinator.com/item?id=49694311"
+      },
+      "hot_score": 1.31,
+      "tags": [
+        "Open Source"
+      ]
+    },
+    {
+      "title_en": "Show HN: Kinesis – Control your Mac with the Meta Neural Band",
+      "url": "https://github.com/callbacked/kinesis",
+      "title_zh": "Show HN：Kinesis——用可穿戴神经带控制 Mac",
+      "created_display": "Created: Sep 14, 2026 / 05:01 PT",
+      "image_url": "https://opengraph.githubassets.com/89746c58f0315b1b3f19bc85cca3c121eff586a5eebe22f702682098d3053df4/callbacked/kinesis",
+      "summary_en": "Kinesis demonstrates a concept: controlling macOS with a wearable neural-band interface, translating gestures into system inputs. It showcases how lightweight neural interaction tech could redefine hands-free computer control.",
+      "summary_zh": "Kinesis 展示了用穿戴式神经带将手势转化为 Mac 的输入，从而实现无手操作的系统控制。这一思路凸显了轻量化神经接口在日常计算中的潜在应用。",
+      "hn": {
+        "id": 49695408,
+        "type": "story",
+        "by": "callbacked",
+        "score": 7,
+        "descendants": 0,
+        "time": 1789387291,
+        "comments_url": "https://news.ycombinator.com/item?id=49695408"
+      },
+      "hot_score": 1.23,
+      "tags": [
+        "Show HN",
+        "Hardware"
+      ]
+    },
+    {
+      "title_en": "JetKVM Mini",
+      "url": "https://jetkvm.com/blog/introducing-jetkvm-mini",
+      "title_zh": "JetKVM Mini",
+      "created_display": "Created: Sep 13, 2026 / 00:49 PT",
+      "image_url": "https://jetkvm.com/blog/jetkvm-mini/og-v2.jpg",
+      "summary_en": "JetKVM expands its KVM-over-IP lineup with the JetKVM Mini, a compact, budget-friendly model designed for remote server management. The device promises the core KVM features in a smaller form factor, appealing to hobbyists and small teams who need remote control without bulky gear.",
+      "summary_zh": "JetKVM 推出 JetKVM Mini，紧凑且更实惠的 KVM-over-IP 设备，面向需要远程服务器管理的个人和小团队。小巧机身保留核心功能，提供便捷的远程控制能力。",
+      "hn": {
+        "id": 49681152,
+        "type": "story",
+        "by": "taubek",
+        "score": 553,
+        "descendants": 223,
+        "time": 1789285786,
+        "comments_url": "https://news.ycombinator.com/item?id=49681152"
+      },
+      "tags": [
+        "Hardware"
+      ],
+      "hot_score": 1.17
     },
     {
       "title_en": "David Sacks: OpenAI and Anthropic Don't Need Regulations to Pace Frontier Models",
@@ -241,52 +520,30 @@
         "AI",
         "Politics"
       ],
-      "hot_score": 1.88
+      "hot_score": 1.17
     },
     {
-      "title_en": "Data collected by cars and sold to third parties",
-      "url": "https://www.theverge.com/column/994172/your-car-is-selling-your-data",
-      "title_zh": "汽车数据被收集并出售给第三方",
-      "created_display": "Created: Sep 13, 2026 / 06:45 PT",
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/gettyimages-144097019.jpg?quality=90&strip=all&crop=0%2C10.678370919471%2C100%2C78.643258161058&w=1200",
-      "summary_en": "Modern cars continuously collect telemetry, location, and sensor data, much of which is sold or shared with third parties. This raises privacy concerns and highlights who controls the data and how opt-outs are handled.",
-      "summary_zh": "现代汽车会持续收集遥测、位置信息和传感器数据，且其中相当一部分被出售或分享给第三方。这引发隐私担忧，同时暴露了数据的控制权以及退出机制的不足。",
+      "title_en": "Mullenweg has returned as CEO after attempted board ouster",
+      "url": "https://techcrunch.com/2026/09/12/automattic-confirms-mullenweg-has-returned-as-ceo-after-attempted-ouster-by-board/",
+      "title_zh": "穆伦韦格在董事会罢黜未遂后回归 CEO",
+      "created_display": "Created: Sep 13, 2026 / 13:19 PT",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2024/10/matt-mullenweg.jpg?resize=1200,799",
+      "summary_en": "Automattic founder Matt Mullenweg has resumed CEO duties after a board attempt to oust him, signaling a stabilization of governance. The move will influence product strategy across WordPress.com and related open-source initiatives, and tests how corporate governance works in a distributed, creator-led company.",
+      "summary_zh": "Automattic 创始人 Matt Mullenweg 在董事会试图罢黜后重新担任 CEO，标志着治理局势的稳定。此举将影响 WordPress.com 等产品路线和开源计划的走向，并考验在分布式、以创作者为导向的公司中的治理实践。",
       "hn": {
-        "id": 49683953,
+        "id": 49688259,
         "type": "story",
-        "by": "bookofjoe",
-        "score": 397,
-        "descendants": 205,
-        "time": 1789307108,
-        "comments_url": "https://news.ycombinator.com/item?id=49683953"
+        "by": "ilamont",
+        "score": 203,
+        "descendants": 267,
+        "time": 1789330746,
+        "comments_url": "https://news.ycombinator.com/item?id=49688259"
       },
       "tags": [
-        "Privacy",
-        "Data"
+        "Business",
+        "Open Source"
       ],
-      "hot_score": 1.85
-    },
-    {
-      "title_en": "Of Gods and Languages: On \"When God Spoke Greek\" (2013)",
-      "url": "https://lareviewofbooks.org/article/of-gods-and-languages-on-when-god-spoke-greek/",
-      "title_zh": "众神与语言：论《当神说希腊语》",
-      "created_display": "Created: Sep 13, 2026 / 23:34 PT",
-      "image_url": "https://cdn.lareviewofbooks.org/unsafe/fit-in/331x0/filters:format(jpeg):quality(75)/https%3A%2F%2Fassets.lareviewofbooks.org%2Fuploads%2F201311when-god-spoke-greek-the-septuagint-and-the-making-of-the-christian-bible_6575_5001.jpg",
-      "summary_en": "Revisits the book 'When God Spoke Greek' to examine how language shapes biblical interpretation and theological thought. It argues Greek, rather than Hebrew or Latin, influenced early Christian ideas and translation debates, with implications for interfaith dialogue.",
-      "summary_zh": "本评述重新审视《当神说希腊语》一书，探讨语言如何影响对圣经的解读与神学思想。作者认为希腊语对早期基督教思想及翻译争论产生了重要影响，并对跨宗教对话带来启示。",
-      "hn": {
-        "id": 49692765,
-        "type": "story",
-        "by": "bryanrasmussen",
-        "score": 13,
-        "descendants": 2,
-        "time": 1789367646,
-        "comments_url": "https://news.ycombinator.com/item?id=49692765"
-      },
-      "hot_score": 1.78,
-      "tags": [
-        "Culture"
-      ]
+      "hot_score": 1.1
     },
     {
       "title_en": "Open-source AI and open models reading list",
@@ -300,156 +557,16 @@
         "id": 49690260,
         "type": "story",
         "by": "simonpure",
-        "score": 90,
-        "descendants": 9,
+        "score": 127,
+        "descendants": 24,
         "time": 1789345371,
         "comments_url": "https://news.ycombinator.com/item?id=49690260"
       },
-      "hot_score": 1.68,
       "tags": [
-        "AI",
-        "Open Source"
-      ]
-    },
-    {
-      "title_en": "Chess.com Leak Exposes 7.3M Users, Evidence Points to Scraping",
-      "url": "https://securityaffairs.com/197174/breaking-news/chess-com-leak-exposes-7-3-million-users-evidence-points-to-scraping.html",
-      "title_zh": "Chess.com 泄露：730万用户数据曝光，证据指向抓取",
-      "created_display": "Created: Sep 13, 2026 / 20:26 PT",
-      "image_url": "https://securityaffairs.com/wp-content/uploads/2026/08/image-36.png",
-      "summary_en": "A data breach at Chess.com exposed about 7.3 million users, with indications that the data was scraped rather than stolen from a database. The incident highlights the privacy risks of large gaming platforms and the need for stronger API protections and rate limiting.",
-      "summary_zh": "Chess.com 的一次数据泄露暴露约730万用户，证据指向通过数据抓取而非直接数据库被盗。事件凸显大型游戏平台的隐私风险，并呼吁加强 API 保护与访问速率限制。",
-      "hn": {
-        "id": 49691584,
-        "type": "story",
-        "by": "kristianp",
-        "score": 41,
-        "descendants": 14,
-        "time": 1789356411,
-        "comments_url": "https://news.ycombinator.com/item?id=49691584"
-      },
-      "hot_score": 1.59,
-      "tags": [
-        "Privacy",
-        "Security",
-        "Data",
-        "Gaming"
-      ]
-    },
-    {
-      "title_en": "JetKVM Mini",
-      "url": "https://jetkvm.com/blog/introducing-jetkvm-mini",
-      "title_zh": "JetKVM Mini",
-      "created_display": "Created: Sep 13, 2026 / 00:49 PT",
-      "image_url": "https://jetkvm.com/blog/jetkvm-mini/og-v2.jpg",
-      "summary_en": "JetKVM expands its KVM-over-IP lineup with the JetKVM Mini, a compact, budget-friendly model designed for remote server management. The device promises the core KVM features in a smaller form factor, appealing to hobbyists and small teams who need remote control without bulky gear.",
-      "summary_zh": "JetKVM 推出 JetKVM Mini，紧凑且更实惠的 KVM-over-IP 设备，面向需要远程服务器管理的个人和小团队。小巧机身保留核心功能，提供便捷的远程控制能力。",
-      "hn": {
-        "id": 49681152,
-        "type": "story",
-        "by": "taubek",
-        "score": 542,
-        "descendants": 221,
-        "time": 1789285786,
-        "comments_url": "https://news.ycombinator.com/item?id=49681152"
-      },
-      "tags": [
-        "Hardware"
-      ],
-      "hot_score": 1.58
-    },
-    {
-      "title_en": "The Coming War on General Computation (2011)",
-      "url": "https://en.wikisource.org/wiki/The_Coming_War_on_General_Computation",
-      "title_zh": "通用计算的来临之战",
-      "created_display": "Created: Sep 13, 2026 / 16:54 PT",
-      "image_url": "https://en.wikisource.org/static/images/icons/wikisource.svg",
-      "summary_en": "A speculative piece arguing that future warfare will hinge on general-purpose computation and access to powerful compute, with implications for AI, cyber operations, and economic power.",
-      "summary_zh": "一篇设想性文章认为未来战争将依赖通用计算能力与强大算力，影响 AI、网络行动与经济实力。",
-      "hn": {
-        "id": 49690051,
-        "type": "story",
-        "by": "gregsadetsky",
-        "score": 87,
-        "descendants": 26,
-        "time": 1789343695,
-        "comments_url": "https://news.ycombinator.com/item?id=49690051"
-      },
-      "hot_score": 1.48,
-      "tags": [
-        "Science",
+        "Open Source",
         "AI"
-      ]
-    },
-    {
-      "title_en": "Who gets to define the rules for AI?",
-      "url": "https://cohere.com/blog/who-gets-to-define-the-rules-for-ai",
-      "title_zh": "谁来定义 AI 的规则？",
-      "created_display": "Created: Sep 13, 2026 / 21:49 PT",
-      "image_url": "https://cdn.sanity.io/images/rjtqmwfu/web3-prod/aad920dfe8b269bfea7f77111be06fd7196ce23c-4522x2532.png?rect=0,79,4522,2374&w=1200&h=630&q=80&fit=crop&auto=format",
-      "summary_en": "The piece argues AI governance should be multi-stakeholder, balancing safety with innovation, and critiquing excessive power concentration in big tech. It advocates inclusive rules development and transparent standards.",
-      "summary_zh": "文章主张 AI 治理应由多方共同制定，平衡安全与创新，批评科技巨头对规范的垄断，并倡导包容性的规则制定与透明标准。",
-      "hn": {
-        "id": 49692118,
-        "type": "story",
-        "by": "throwworhtthrow",
-        "score": 22,
-        "descendants": 20,
-        "time": 1789361391,
-        "comments_url": "https://news.ycombinator.com/item?id=49692118"
-      },
-      "hot_score": 1.33,
-      "tags": [
-        "AI",
-        "Politics"
-      ]
-    },
-    {
-      "title_en": "Airbnb Preventing the Use of BnB",
-      "url": "https://www.theguardian.com/technology/2026/sep/14/portland-bnb-airbnb-silicon-valley-legal-battle-festival",
-      "title_zh": "Airbnb 阻止 BnB 使用",
-      "created_display": "Created: Sep 13, 2026 / 22:25 PT",
-      "image_url": "https://i.guim.co.uk/img/media/c716b9b1f7aae7380792978231d7c9d87d5b7cc9/1466_634_2743_2194/master/2743.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=4b44728c498584cc4d85f2db44bf5380",
-      "summary_en": "Airbnb's policy moves to curb the use of BnB-style listings amid regulatory and safety concerns, drawing attention to how platforms navigate local laws and enforcement. The changes affect hosts, renters, and city relations.",
-      "summary_zh": "Airbnb 在监管与安全问题推动下限制 BnB 式房源的使用，凸显平台如何在地方法规与执法之间寻求平衡。此举影响房东、租客及与城市的关系。",
-      "hn": {
-        "id": 49692344,
-        "type": "story",
-        "by": "cycomanic",
-        "score": 16,
-        "descendants": 2,
-        "time": 1789363537,
-        "comments_url": "https://news.ycombinator.com/item?id=49692344"
-      },
-      "hot_score": 1.22,
-      "tags": [
-        "Legal",
-        "Business",
-        "Politics"
-      ]
-    },
-    {
-      "title_en": "Writing a better reality: The case for optimistic sci-fi (2022)",
-      "url": "https://honisoit.com/2022/03/writing-a-better-reality-the-case-for-optimistic-sci-fi/",
-      "title_zh": "书写更美好的现实：乐观科幻的论证（2022）",
-      "created_display": "Created: Sep 13, 2026 / 17:27 PT",
-      "image_url": null,
-      "summary_en": "The piece argues for optimistic sci-fi as a design tool, suggesting that hopeful futures can steer real-world engineering and policy. It challenges techno-pessimism and shows how constructive narratives inspire responsible innovation and public engagement.",
-      "summary_zh": "本文主张以乐观科幻作为设计工具，认为对美好未来的构想可以引导现实世界的工程、治理与政策制定。它挑战技术悲观主义，展示积极叙事如何激发负责任的创新与公众参与。",
-      "hn": {
-        "id": 49690279,
-        "type": "story",
-        "by": "andsoitis",
-        "score": 64,
-        "descendants": 41,
-        "time": 1789345631,
-        "comments_url": "https://news.ycombinator.com/item?id=49690279"
-      },
-      "hot_score": 1.21,
-      "tags": [
-        "Design",
-        "Culture"
-      ]
+      ],
+      "hot_score": 1.08
     },
     {
       "title_en": "Why are AI agents lying, cheating and coordinating?",
@@ -469,9 +586,101 @@
         "comments_url": "https://news.ycombinator.com/item?id=49678969"
       },
       "tags": [
-        "AI"
+        "AI",
+        "Science"
       ],
-      "hot_score": 1.19
+      "hot_score": 0.92
+    },
+    {
+      "title_en": "Big AI sets out its terms for regulatory capture",
+      "url": "https://www.theregister.com/ai-and-ml/2026/09/14/big-ai-sets-out-its-terms-for-regulatory-capture-and-calls-it-pace-the-frontier/5296067",
+      "title_zh": "大 AI 为监管捕获定下条款",
+      "created_display": "Created: Sep 14, 2026 / 03:28 PT",
+      "image_url": "https://image.theregister.com/262625.jpg?imageId=262625&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
+      "summary_en": "Big AI outlines terms for regulatory capture with a strategy phrased as 'pace the frontier', signaling how policy can align with rapid AI development while guarding against capture.",
+      "summary_zh": "大型 AI 机构提出以“引导前沿”为口号的监管框架条款，意在在快速发展的 AI 领域实现政策与行业协同，同时警惕监管被捕获的风险。",
+      "hn": {
+        "id": 49694596,
+        "type": "story",
+        "by": "joebuckwilliams",
+        "score": 12,
+        "descendants": 0,
+        "time": 1789381708,
+        "comments_url": "https://news.ycombinator.com/item?id=49694596"
+      },
+      "hot_score": 0.92,
+      "tags": [
+        "AI",
+        "Politics"
+      ]
+    },
+    {
+      "title_en": "Show HN: 1080p is 920px tall – 1k real browser viewports",
+      "url": "https://screensize.net/reports/viewport-stats",
+      "title_zh": "Show HN：1080p 实际视口高度为 920px",
+      "created_display": "Created: Sep 14, 2026 / 00:35 PT",
+      "image_url": "https://screensize.net/og.png",
+      "summary_en": "Show HN: 1080p is 920px tall reveals real browser viewport heights vs nominal resolution, relevant for responsive design and automated testing. The finding helps developers calibrate layouts to actual device viewports.",
+      "summary_zh": "Show HN 发布的 1080p 实际高度约为 920px 的结论，揭示实际浏览器视口高度与名义分辨率之间的差异。这对响应式设计和自动化测试的布局校准很有帮助。",
+      "hn": {
+        "id": 49693226,
+        "type": "story",
+        "by": "zenpe",
+        "score": 29,
+        "descendants": 17,
+        "time": 1789371300,
+        "comments_url": "https://news.ycombinator.com/item?id=49693226"
+      },
+      "hot_score": 0.88,
+      "tags": [
+        "Show HN",
+        "Web"
+      ]
+    },
+    {
+      "title_en": "Ask HN: What are you working on? (September 2026)",
+      "url": "https://news.ycombinator.com/item?id=49686380",
+      "title_zh": "Ask HN：你在做什么？（2026年9月）",
+      "created_display": "Created: Sep 13, 2026 / 10:31 PT",
+      "image_url": "https://news.ycombinator.com/y18.svg",
+      "summary_en": "A recurring monthly thread where developers share current projects, from side gigs to early-stage startups and experiments. It offers a pulse on what builders are shipping and reveals emerging technical trends.",
+      "summary_zh": "这是一次每月滚动的提问贴，开发者在其中分享当前项目、从副业到早期初创与实验的进展。它提供了开发者实际在部署和推出的内容的脉搏，并揭示新兴的技术趋势。",
+      "hn": {
+        "id": 49686380,
+        "type": "story",
+        "by": "david927",
+        "score": 208,
+        "descendants": 616,
+        "time": 1789320698,
+        "comments_url": "https://news.ycombinator.com/item?id=49686380"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 0.87
+    },
+    {
+      "title_en": "D-Matrix Raptor 3D-DRAM Accelerator for Generative Inference at Hot Chips 2026",
+      "url": "https://www.servethehome.com/d-matrix-raptor-3d-dram-accelerator-for-generative-inference-at-hot-chips-2026/",
+      "title_zh": "D-Matrix 的 3D-DRAM 加速器用于生成推理",
+      "created_display": "Created: Sep 14, 2026 / 04:27 PT",
+      "image_url": "https://www.servethehome.com/wp-content/uploads/2026/08/meta-3d-dram-based-accelerator-for-genai-slide-17.jpg",
+      "summary_en": "D-Matrix Raptor 3D-DRAM accelerator advances generative inference, using 3D DRAM to boost AI model run times and efficiency on hardware.",
+      "summary_zh": "D-Matrix 的 Raptor 3D-DRAM 加速器面向生成推理，利用三维 DRAM 提升 AI 模型推理速度与数据中心效率。",
+      "hn": {
+        "id": 49695065,
+        "type": "story",
+        "by": "rbanffy",
+        "score": 7,
+        "descendants": 0,
+        "time": 1789385274,
+        "comments_url": "https://news.ycombinator.com/item?id=49695065"
+      },
+      "hot_score": 0.85,
+      "tags": [
+        "AI",
+        "Hardware"
+      ]
     },
     {
       "title_en": "The Malicious Use of Artificial Intelligence",
@@ -485,40 +694,17 @@
         "id": 49690678,
         "type": "story",
         "by": "rasengan0",
-        "score": 51,
-        "descendants": 10,
+        "score": 75,
+        "descendants": 20,
         "time": 1789348955,
         "comments_url": "https://news.ycombinator.com/item?id=49690678"
       },
-      "hot_score": 1.16,
       "tags": [
         "AI",
         "Security",
         "Privacy"
-      ]
-    },
-    {
-      "title_en": "Mullenweg has returned as CEO after attempted board ouster",
-      "url": "https://techcrunch.com/2026/09/12/automattic-confirms-mullenweg-has-returned-as-ceo-after-attempted-ouster-by-board/",
-      "title_zh": "穆伦韦格在董事会罢黜未遂后回归 CEO",
-      "created_display": "Created: Sep 13, 2026 / 13:19 PT",
-      "image_url": "https://techcrunch.com/wp-content/uploads/2024/10/matt-mullenweg.jpg?resize=1200,799",
-      "summary_en": "Automattic founder Matt Mullenweg has resumed CEO duties after a board attempt to oust him, signaling a stabilization of governance. The move will influence product strategy across WordPress.com and related open-source initiatives, and tests how corporate governance works in a distributed, creator-led company.",
-      "summary_zh": "Automattic 创始人 Matt Mullenweg 在董事会试图罢黜后重新担任 CEO，标志着治理局势的稳定。此举将影响 WordPress.com 等产品路线和开源计划的走向，并考验在分布式、以创作者为导向的公司中的治理实践。",
-      "hn": {
-        "id": 49688259,
-        "type": "story",
-        "by": "ilamont",
-        "score": 118,
-        "descendants": 172,
-        "time": 1789330746,
-        "comments_url": "https://news.ycombinator.com/item?id=49688259"
-      },
-      "hot_score": 1.13,
-      "tags": [
-        "Business",
-        "Open Source"
-      ]
+      ],
+      "hot_score": 0.73
     },
     {
       "title_en": "Why is the x86 undefined instruction called ud2? Why 2?",
@@ -540,7 +726,30 @@
       "tags": [
         "Programming"
       ],
-      "hot_score": 1.04
+      "hot_score": 0.71
+    },
+    {
+      "title_en": "The Coming War on General Computation (2011)",
+      "url": "https://en.wikisource.org/wiki/The_Coming_War_on_General_Computation",
+      "title_zh": "通用计算的来临之战",
+      "created_display": "Created: Sep 13, 2026 / 16:54 PT",
+      "image_url": "https://en.wikisource.org/static/images/icons/wikisource.svg",
+      "summary_en": "A speculative piece arguing that future warfare will hinge on general-purpose computation and access to powerful compute, with implications for AI, cyber operations, and economic power.",
+      "summary_zh": "一篇设想性文章认为未来战争将依赖通用计算能力与强大算力，影响 AI、网络行动与经济实力。",
+      "hn": {
+        "id": 49690051,
+        "type": "story",
+        "by": "gregsadetsky",
+        "score": 87,
+        "descendants": 26,
+        "time": 1789343695,
+        "comments_url": "https://news.ycombinator.com/item?id=49690051"
+      },
+      "hot_score": 0.7,
+      "tags": [
+        "Politics",
+        "AI"
+      ]
     },
     {
       "title_en": "Making Startups Powerful",
@@ -563,50 +772,77 @@
         "Startups",
         "Business"
       ],
-      "hot_score": 0.98
+      "hot_score": 0.65
     },
     {
-      "title_en": "Ask HN: What are you working on? (September 2026)",
-      "url": "https://news.ycombinator.com/item?id=49686380",
-      "title_zh": "Ask HN：你在做什么？（2026年9月）",
-      "created_display": "Created: Sep 13, 2026 / 10:31 PT",
-      "image_url": "https://news.ycombinator.com/y18.svg",
-      "summary_en": "A recurring monthly thread where developers share current projects, from side gigs to early-stage startups and experiments. It offers a pulse on what builders are shipping and reveals emerging technical trends.",
-      "summary_zh": "这是一次每月滚动的提问贴，开发者在其中分享当前项目、从副业到早期初创与实验的进展。它提供了开发者实际在部署和推出的内容的脉搏，并揭示新兴的技术趋势。",
+      "title_en": "AI Risk: The Approval Nobody Signed Off",
+      "url": "https://sdarchitect.blog/2026/09/06/ai-risk-a-users-guide-part-i-the-approval-nobody-signed/",
+      "title_zh": "AI 风险：无人签署的批准",
+      "created_display": "Created: Sep 14, 2026 / 04:17 PT",
+      "image_url": "https://i0.wp.com/sdarchitect.blog/wp-content/uploads/2026/09/unapproved-autonomous-ai-decisions-bypassing-enterprise-governance.png?fit=1200%2C675&ssl=1",
+      "summary_en": "AI Risk: The Approval Nobody Signed Off argues that formal approvals for AI risk decisions are often missing, highlighting governance gaps and the need for independent oversight.",
+      "summary_zh": "文章认为在 AI 风险决策中常常没有正式的批准流程，暴露治理缺口并呼吁独立监督。",
       "hn": {
-        "id": 49686380,
+        "id": 49694997,
         "type": "story",
-        "by": "david927",
-        "score": 142,
-        "descendants": 413,
-        "time": 1789320698,
-        "comments_url": "https://news.ycombinator.com/item?id=49686380"
+        "by": "SanjeevSharma",
+        "score": 6,
+        "descendants": 0,
+        "time": 1789384647,
+        "comments_url": "https://news.ycombinator.com/item?id=49694997"
       },
-      "hot_score": 0.97,
+      "hot_score": 0.64,
       "tags": [
-        "Career"
+        "AI",
+        "Legal"
       ]
     },
     {
-      "title_en": "OEMpocalypse: Unprivileged Android app to root on Samsung, Xiaomi, others",
-      "url": "https://calif.io/research/oempocalypse",
-      "title_zh": "OEMpocalypse：未授权的 Android 应用在三星、小米等设备上获取 root 权限",
-      "created_display": "Created: Sep 13, 2026 / 19:25 PT",
-      "image_url": "https://calif.io/og/oempocalypse.jpg",
-      "summary_en": "OEMpocalypse demonstrates an attack path where an unprivileged Android app could root devices on several manufacturers, illustrating dangerous privilege-escalation risks tied to OEM unlocking.",
-      "summary_zh": "OEMpocalypse 展示了一个漏洞路径：未获得特权的安卓应用可能在多家厂商设备上获得 root 权限，揭示了与厂商解锁相关的高危特权提升风险。",
+      "title_en": "Writing a better reality: The case for optimistic sci-fi (2022)",
+      "url": "https://honisoit.com/2022/03/writing-a-better-reality-the-case-for-optimistic-sci-fi/",
+      "title_zh": "书写更美好的现实：乐观科幻的论证（2022）",
+      "created_display": "Created: Sep 13, 2026 / 17:27 PT",
+      "image_url": null,
+      "summary_en": "The piece argues for optimistic sci-fi as a design tool, suggesting that hopeful futures can steer real-world engineering and policy. It challenges techno-pessimism and shows how constructive narratives inspire responsible innovation and public engagement.",
+      "summary_zh": "本文主张以乐观科幻作为设计工具，认为对美好未来的构想可以引导现实世界的工程、治理与政策制定。它挑战技术悲观主义，展示积极叙事如何激发负责任的创新与公众参与。",
       "hn": {
-        "id": 49691152,
+        "id": 49690279,
         "type": "story",
-        "by": "negura",
-        "score": 30,
-        "descendants": 6,
-        "time": 1789352744,
-        "comments_url": "https://news.ycombinator.com/item?id=49691152"
+        "by": "andsoitis",
+        "score": 64,
+        "descendants": 41,
+        "time": 1789345631,
+        "comments_url": "https://news.ycombinator.com/item?id=49690279"
       },
-      "hot_score": 0.87,
+      "hot_score": 0.55,
       "tags": [
-        "Security"
+        "Design",
+        "Culture"
+      ]
+    },
+    {
+      "title_en": "Chess.com Leak Exposes 7.3M Users, Evidence Points to Scraping",
+      "url": "https://securityaffairs.com/197174/breaking-news/chess-com-leak-exposes-7-3-million-users-evidence-points-to-scraping.html",
+      "title_zh": "Chess.com 泄露：730万用户数据曝光，证据指向抓取",
+      "created_display": "Created: Sep 13, 2026 / 20:26 PT",
+      "image_url": "https://securityaffairs.com/wp-content/uploads/2026/08/image-36.png",
+      "summary_en": "A data breach at Chess.com exposed about 7.3 million users, with indications that the data was scraped rather than stolen from a database. The incident highlights the privacy risks of large gaming platforms and the need for stronger API protections and rate limiting.",
+      "summary_zh": "Chess.com 的一次数据泄露暴露约730万用户，证据指向通过数据抓取而非直接数据库被盗。事件凸显大型游戏平台的隐私风险，并呼吁加强 API 保护与访问速率限制。",
+      "hn": {
+        "id": 49691584,
+        "type": "story",
+        "by": "kristianp",
+        "score": 41,
+        "descendants": 14,
+        "time": 1789356411,
+        "comments_url": "https://news.ycombinator.com/item?id=49691584"
+      },
+      "hot_score": 0.54,
+      "tags": [
+        "Privacy",
+        "Security",
+        "Gaming",
+        "Data"
       ]
     },
     {
@@ -621,8 +857,8 @@
         "id": 49688391,
         "type": "story",
         "by": "walrus01",
-        "score": 79,
-        "descendants": 9,
+        "score": 94,
+        "descendants": 11,
         "time": 1789331598,
         "comments_url": "https://news.ycombinator.com/item?id=49688391"
       },
@@ -631,7 +867,7 @@
         "DevOps",
         "Education"
       ],
-      "hot_score": 0.78
+      "hot_score": 0.52
     },
     {
       "title_en": "CUDA for AMD on Windows",
@@ -654,7 +890,31 @@
         "Programming",
         "Hardware"
       ],
-      "hot_score": 0.77
+      "hot_score": 0.51
+    },
+    {
+      "title_en": "Show HN: StemJSON – a language for LLMs to extend native mobile apps on the fly",
+      "url": "https://stemjson.com/",
+      "title_zh": "StemJSON：让 LLM 在运行时扩展原生移动应用的语言",
+      "created_display": "Created: Sep 14, 2026 / 04:26 PT",
+      "image_url": "https://stemjson.com/og.png",
+      "summary_en": "StemJSON proposes a language for LLMs to extend native mobile apps on the fly, enabling dynamic UI and feature augmentation without full app redeploys. It envisions tighter, on-device AI-assisted app evolution.",
+      "summary_zh": "StemJSON 提出一种让大模型在运行时拓展原生移动应用功能的语言，支持动态界面和功能增强而无需重新部署。该理念将推动移动端 AI 辅助的应用演进。",
+      "hn": {
+        "id": 49695057,
+        "type": "story",
+        "by": "vkrychun",
+        "score": 4,
+        "descendants": 0,
+        "time": 1789385205,
+        "comments_url": "https://news.ycombinator.com/item?id=49695057"
+      },
+      "hot_score": 0.42,
+      "tags": [
+        "Show HN",
+        "AI",
+        "Programming"
+      ]
     },
     {
       "title_en": "LG says we're fake news [video]",
@@ -668,15 +928,108 @@
         "id": 49676324,
         "type": "story",
         "by": "HelloUsername",
-        "score": 335,
-        "descendants": 174,
+        "score": 359,
+        "descendants": 187,
         "time": 1789241736,
         "comments_url": "https://news.ycombinator.com/item?id=49676324"
       },
       "tags": [
-        "Culture"
+        "Politics"
       ],
-      "hot_score": 0.48
+      "hot_score": 0.41
+    },
+    {
+      "title_en": "Who gets to define the rules for AI?",
+      "url": "https://cohere.com/blog/who-gets-to-define-the-rules-for-ai",
+      "title_zh": "谁来定义 AI 的规则？",
+      "created_display": "Created: Sep 13, 2026 / 21:49 PT",
+      "image_url": "https://cdn.sanity.io/images/rjtqmwfu/web3-prod/aad920dfe8b269bfea7f77111be06fd7196ce23c-4522x2532.png?rect=0,79,4522,2374&w=1200&h=630&q=80&fit=crop&auto=format",
+      "summary_en": "The piece argues AI governance should be multi-stakeholder, balancing safety with innovation, and critiquing excessive power concentration in big tech. It advocates inclusive rules development and transparent standards.",
+      "summary_zh": "文章主张 AI 治理应由多方共同制定，平衡安全与创新，批评科技巨头对规范的垄断，并倡导包容性的规则制定与透明标准。",
+      "hn": {
+        "id": 49692118,
+        "type": "story",
+        "by": "throwworhtthrow",
+        "score": 22,
+        "descendants": 20,
+        "time": 1789361391,
+        "comments_url": "https://news.ycombinator.com/item?id=49692118"
+      },
+      "hot_score": 0.36,
+      "tags": [
+        "AI",
+        "Politics"
+      ]
+    },
+    {
+      "title_en": "A lesson in lighting through blade runner",
+      "url": "https://nofilmschool.com/2013/07/a-lesson-in-lighting-through-blade-runner",
+      "title_zh": "从 Blade Runner 学到的照明课",
+      "created_display": "Created: Sep 14, 2026 / 03:32 PT",
+      "image_url": "https://nofilmschool.com/media-library/brrecreation2.jpg?id=34090391&width=1200&height=600&coordinates=0%2C31%2C0%2C55",
+      "summary_en": "The Nature of Dance examines how movement embodies natural principles, blending science with aesthetics to illuminate why dance resonates across cultures.",
+      "summary_zh": "通过《银翼杀手》对照的照明技巧解析，揭示灯光如何传达情绪、色彩与叙事，为当代摄影带来启示。",
+      "hn": {
+        "id": 49694634,
+        "type": "story",
+        "by": "srean",
+        "score": 5,
+        "descendants": 0,
+        "time": 1789381934,
+        "comments_url": "https://news.ycombinator.com/item?id=49694634"
+      },
+      "hot_score": 0.35,
+      "tags": [
+        "Entertainment",
+        "Design"
+      ]
+    },
+    {
+      "title_en": "XCancel service is suspended (again)",
+      "url": "https://xcancel.com/x",
+      "title_zh": "XCancel 服务再次暂停",
+      "created_display": "Created: Sep 14, 2026 / 02:59 PT",
+      "image_url": null,
+      "summary_en": "XCancel service suspended again, reflecting ongoing operational challenges amid legal and regulatory pressures.",
+      "summary_zh": "XCancel 再次暂停服务，反映在法律与监管压力下运营所面临的持续挑战。",
+      "hn": {
+        "id": 49694366,
+        "type": "story",
+        "by": "shelfchair",
+        "score": 6,
+        "descendants": 0,
+        "time": 1789379963,
+        "comments_url": "https://news.ycombinator.com/item?id=49694366"
+      },
+      "hot_score": 0.34,
+      "tags": [
+        "Business",
+        "Politics",
+        "Legal"
+      ]
+    },
+    {
+      "title_en": "Mark",
+      "url": "https://colossus.com/article/mark-zuckerberg-profile/",
+      "title_zh": "马克·扎克伯格：全景画像",
+      "created_display": "Created: Sep 14, 2026 / 04:45 PT",
+      "image_url": "https://colossus.com/wp-content/uploads/2026/09/Mark-Preview-Card.jpg",
+      "summary_en": "Mark Zuckerberg profile by Colossus offers insights into his leadership, Meta strategy, and impact on AI and social platforms.",
+      "summary_zh": "Colossus 的马克·扎克伯格专栏提供对其领导风格、Meta 的战略以及对 AI 与社交平台影响的洞见。",
+      "hn": {
+        "id": 49695227,
+        "type": "story",
+        "by": "jger15",
+        "score": 3,
+        "descendants": 0,
+        "time": 1789386359,
+        "comments_url": "https://news.ycombinator.com/item?id=49695227"
+      },
+      "hot_score": 0.34,
+      "tags": [
+        "Business",
+        "AI"
+      ]
     },
     {
       "title_en": "'Fingerprints' inside the Sun could reveal if it once swallowed a planet",
@@ -696,31 +1049,33 @@
         "comments_url": "https://news.ycombinator.com/item?id=49683033"
       },
       "tags": [
+        "Space",
         "Science",
         "Energy"
       ],
-      "hot_score": 0.48
+      "hot_score": 0.33
     },
     {
-      "title_en": "“Chilling” warning or overreaction? AI bioweapons report divides experts",
-      "url": "https://www.science.org/content/article/chilling-warning-or-overreaction-ai-bioweapons-report-divides-experts",
-      "title_zh": "AI 生物武器警告：冷静警示还是反应过度？",
-      "created_display": "Created: Sep 13, 2026 / 17:07 PT",
-      "image_url": null,
-      "summary_en": "The article surveys a debate on AI-driven bioweapons warnings, noting that experts disagree on urgency and feasibility. It highlights policy implications, calling for measured risk mitigation, governance, and international norms to curb misuse while preserving beneficial AI research.",
-      "summary_zh": "报道梳理了关于AI 驱动生物武器警示的观点分歧，指出专家在紧迫性与可行性上的分歧。强调政策含义，呼吁采取审慎的风险缓解、治理与国际规范，以防止滥用，同时保护有益的 AI 研究。",
+      "title_en": "OEMpocalypse: Unprivileged Android app to root on Samsung, Xiaomi, others",
+      "url": "https://calif.io/research/oempocalypse",
+      "title_zh": "OEMpocalypse：未授权的 Android 应用在三星、小米等设备上获取 root 权限",
+      "created_display": "Created: Sep 13, 2026 / 19:25 PT",
+      "image_url": "https://calif.io/og/oempocalypse.jpg",
+      "summary_en": "OEMpocalypse demonstrates an attack path where an unprivileged Android app could root devices on several manufacturers, illustrating dangerous privilege-escalation risks tied to OEM unlocking.",
+      "summary_zh": "OEMpocalypse 展示了一个漏洞路径：未获得特权的安卓应用可能在多家厂商设备上获得 root 权限，揭示了与厂商解锁相关的高危特权提升风险。",
       "hn": {
-        "id": 49690139,
+        "id": 49691152,
         "type": "story",
-        "by": "sbulaev",
-        "score": 28,
-        "descendants": 19,
-        "time": 1789344429,
-        "comments_url": "https://news.ycombinator.com/item?id=49690139"
+        "by": "negura",
+        "score": 30,
+        "descendants": 6,
+        "time": 1789352744,
+        "comments_url": "https://news.ycombinator.com/item?id=49691152"
       },
-      "hot_score": 0.48,
+      "hot_score": 0.33,
       "tags": [
-        "AI"
+        "Security",
+        "Programming"
       ]
     },
     {
@@ -735,8 +1090,8 @@
         "id": 49688766,
         "type": "story",
         "by": "andsoitis",
-        "score": 41,
-        "descendants": 44,
+        "score": 53,
+        "descendants": 55,
         "time": 1789334023,
         "comments_url": "https://news.ycombinator.com/item?id=49688766"
       },
@@ -744,28 +1099,52 @@
         "Privacy",
         "Politics"
       ],
-      "hot_score": 0.44
+      "hot_score": 0.31
     },
     {
-      "title_en": "AI Robots – When will they be in our homes",
-      "url": "https://spectrum.ieee.org/ai-robots",
-      "title_zh": "AI 机器人：它们何时会进入我们的家庭？",
-      "created_display": "Created: Sep 13, 2026 / 17:44 PT",
-      "image_url": "https://spectrum.ieee.org/media-library/the-robot-helper-rosie-from-the-tv-show-the-jetsons-next-to-a-group-of-new-ai-robots-consisting-of-neo-from-1x-technologies-apo.jpg?id=54170092&width=1200&height=600&coordinates=0%2C15%2C0%2C15",
-      "summary_en": "A survey of when AI-enabled robots might become common in homes, covering current capabilities, safety, and economic barriers.",
-      "summary_zh": "本文总结了AI 支撑的家用机器人何时会普及，涵盖当前能力、安全性与成本等障碍。",
+      "title_en": "Airbnb Preventing the Use of BnB",
+      "url": "https://www.theguardian.com/technology/2026/sep/14/portland-bnb-airbnb-silicon-valley-legal-battle-festival",
+      "title_zh": "Airbnb 阻止 BnB 使用",
+      "created_display": "Created: Sep 13, 2026 / 22:25 PT",
+      "image_url": "https://i.guim.co.uk/img/media/c716b9b1f7aae7380792978231d7c9d87d5b7cc9/1466_634_2743_2194/master/2743.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=4b44728c498584cc4d85f2db44bf5380",
+      "summary_en": "Airbnb's policy moves to curb the use of BnB-style listings amid regulatory and safety concerns, drawing attention to how platforms navigate local laws and enforcement. The changes affect hosts, renters, and city relations.",
+      "summary_zh": "Airbnb 在监管与安全问题推动下限制 BnB 式房源的使用，凸显平台如何在地方法规与执法之间寻求平衡。此举影响房东、租客及与城市的关系。",
       "hn": {
-        "id": 49690411,
+        "id": 49692344,
         "type": "story",
-        "by": "andsoitis",
-        "score": 21,
-        "descendants": 15,
-        "time": 1789346663,
-        "comments_url": "https://news.ycombinator.com/item?id=49690411"
+        "by": "cycomanic",
+        "score": 16,
+        "descendants": 2,
+        "time": 1789363537,
+        "comments_url": "https://news.ycombinator.com/item?id=49692344"
       },
-      "hot_score": 0.41,
+      "hot_score": 0.29,
       "tags": [
-        "AI"
+        "Business",
+        "Politics"
+      ]
+    },
+    {
+      "title_en": "Of Gods and Languages: On \"When God Spoke Greek\" (2013)",
+      "url": "https://lareviewofbooks.org/article/of-gods-and-languages-on-when-god-spoke-greek/",
+      "title_zh": "众神与语言：论《当神说希腊语》",
+      "created_display": "Created: Sep 13, 2026 / 23:34 PT",
+      "image_url": "https://cdn.lareviewofbooks.org/unsafe/fit-in/331x0/filters:format(jpeg):quality(75)/https%3A%2F%2Fassets.lareviewofbooks.org%2Fuploads%2F201311when-god-spoke-greek-the-septuagint-and-the-making-of-the-christian-bible_6575_5001.jpg",
+      "summary_en": "Revisits the book 'When God Spoke Greek' to examine how language shapes biblical interpretation and theological thought. It argues Greek, rather than Hebrew or Latin, influenced early Christian ideas and translation debates, with implications for interfaith dialogue.",
+      "summary_zh": "本评述重新审视《当神说希腊语》一书，探讨语言如何影响对圣经的解读与神学思想。作者认为希腊语对早期基督教思想及翻译争论产生了重要影响，并对跨宗教对话带来启示。",
+      "hn": {
+        "id": 49692765,
+        "type": "story",
+        "by": "bryanrasmussen",
+        "score": 13,
+        "descendants": 2,
+        "time": 1789367646,
+        "comments_url": "https://news.ycombinator.com/item?id=49692765"
+      },
+      "hot_score": 0.29,
+      "tags": [
+        "Culture",
+        "Education"
       ]
     },
     {
@@ -789,29 +1168,52 @@
         "Programming",
         "Open Source"
       ],
-      "hot_score": 0.34
+      "hot_score": 0.22
     },
     {
-      "title_en": "Show HN: Exploring the intersection of prediction markets and social media",
-      "url": "https://www.thevidmarket.com/",
-      "title_zh": "Show HN：预测市场与社交媒体交叉点探索",
-      "created_display": "Created: Sep 13, 2026 / 18:14 PT",
+      "title_en": "“Chilling” warning or overreaction? AI bioweapons report divides experts",
+      "url": "https://www.science.org/content/article/chilling-warning-or-overreaction-ai-bioweapons-report-divides-experts",
+      "title_zh": "AI 生物武器警告：冷静警示还是反应过度？",
+      "created_display": "Created: Sep 13, 2026 / 17:07 PT",
       "image_url": null,
-      "summary_en": "A Show HN post sharing a project at the intersection of prediction markets and social media, exploring how crowd-sourced bets might forecast trends or outcomes. It discusses opportunities and risks around credibility, manipulation, and latency.",
-      "summary_zh": "Show HN 分享了一个将预测市场与社交媒体数据结合的项目，探索群体下注如何用于预测趋势或结果。讨论可信度、操纵与时效性等挑战与机遇。",
+      "summary_en": "The article surveys a debate on AI-driven bioweapons warnings, noting that experts disagree on urgency and feasibility. It highlights policy implications, calling for measured risk mitigation, governance, and international norms to curb misuse while preserving beneficial AI research.",
+      "summary_zh": "报道梳理了关于AI 驱动生物武器警示的观点分歧，指出专家在紧迫性与可行性上的分歧。强调政策含义，呼吁采取审慎的风险缓解、治理与国际规范，以防止滥用，同时保护有益的 AI 研究。",
       "hn": {
-        "id": 49690614,
+        "id": 49690139,
         "type": "story",
-        "by": "ryanpere2298",
-        "score": 10,
-        "descendants": 1,
-        "time": 1789348465,
-        "comments_url": "https://news.ycombinator.com/item?id=49690614"
+        "by": "sbulaev",
+        "score": 28,
+        "descendants": 19,
+        "time": 1789344429,
+        "comments_url": "https://news.ycombinator.com/item?id=49690139"
       },
-      "hot_score": 0.2,
+      "hot_score": 0.22,
       "tags": [
-        "Show HN",
-        "Data"
+        "AI",
+        "Security"
+      ]
+    },
+    {
+      "title_en": "AI Robots – When will they be in our homes",
+      "url": "https://spectrum.ieee.org/ai-robots",
+      "title_zh": "AI 机器人：它们何时会进入我们的家庭？",
+      "created_display": "Created: Sep 13, 2026 / 17:44 PT",
+      "image_url": "https://spectrum.ieee.org/media-library/the-robot-helper-rosie-from-the-tv-show-the-jetsons-next-to-a-group-of-new-ai-robots-consisting-of-neo-from-1x-technologies-apo.jpg?id=54170092&width=1200&height=600&coordinates=0%2C15%2C0%2C15",
+      "summary_en": "A survey of when AI-enabled robots might become common in homes, covering current capabilities, safety, and economic barriers.",
+      "summary_zh": "本文总结了AI 支撑的家用机器人何时会普及，涵盖当前能力、安全性与成本等障碍。",
+      "hn": {
+        "id": 49690411,
+        "type": "story",
+        "by": "andsoitis",
+        "score": 21,
+        "descendants": 15,
+        "time": 1789346663,
+        "comments_url": "https://news.ycombinator.com/item?id=49690411"
+      },
+      "hot_score": 0.18,
+      "tags": [
+        "AI",
+        "Hardware"
       ]
     },
     {
@@ -835,7 +1237,7 @@
         "Programming",
         "Open Source"
       ],
-      "hot_score": 0.13
+      "hot_score": 0.1
     },
     {
       "title_en": "Reverse engineering my e-scooter and rewriting the firmware in Rust",
@@ -858,7 +1260,54 @@
         "Programming",
         "Hardware"
       ],
-      "hot_score": 0.1
+      "hot_score": 0.09
+    },
+    {
+      "title_en": "Show HN: Exploring the intersection of prediction markets and social media",
+      "url": "https://www.thevidmarket.com/",
+      "title_zh": "Show HN：预测市场与社交媒体交叉点探索",
+      "created_display": "Created: Sep 13, 2026 / 18:14 PT",
+      "image_url": null,
+      "summary_en": "A Show HN post sharing a project at the intersection of prediction markets and social media, exploring how crowd-sourced bets might forecast trends or outcomes. It discusses opportunities and risks around credibility, manipulation, and latency.",
+      "summary_zh": "Show HN 分享了一个将预测市场与社交媒体数据结合的项目，探索群体下注如何用于预测趋势或结果。讨论可信度、操纵与时效性等挑战与机遇。",
+      "hn": {
+        "id": 49690614,
+        "type": "story",
+        "by": "ryanpere2298",
+        "score": 10,
+        "descendants": 1,
+        "time": 1789348465,
+        "comments_url": "https://news.ycombinator.com/item?id=49690614"
+      },
+      "hot_score": 0.09,
+      "tags": [
+        "Show HN",
+        "Data",
+        "Business"
+      ]
+    },
+    {
+      "title_en": "Spaceships (Reverse Asteroid)",
+      "url": "https://spaceships.treybastian.com/",
+      "title_zh": "太空飞船：反向小行星",
+      "created_display": "Created: Sep 09, 2026 / 21:44 PT",
+      "image_url": "https://spaceships.treybastian.com/og.png",
+      "summary_en": "A creative exploration of spacecraft design in a reverse-asteroid scenario.",
+      "summary_zh": "这是一个关于在反向小行星情境下进行航天器设计的概念性探索。",
+      "hn": {
+        "id": 49638510,
+        "type": "story",
+        "by": "zdw",
+        "score": 275,
+        "descendants": 52,
+        "time": 1789015472,
+        "comments_url": "https://news.ycombinator.com/item?id=49638510"
+      },
+      "tags": [
+        "Space",
+        "Design"
+      ],
+      "hot_score": 0.06
     },
     {
       "title_en": "Julia 1.13 highlights",
@@ -872,8 +1321,8 @@
         "id": 49642645,
         "type": "story",
         "by": "eigenspace",
-        "score": 209,
-        "descendants": 19,
+        "score": 244,
+        "descendants": 32,
         "time": 1789043245,
         "comments_url": "https://news.ycombinator.com/item?id=49642645"
       },
@@ -882,6 +1331,29 @@
         "Science"
       ],
       "hot_score": 0.06
+    },
+    {
+      "title_en": "An atlas of periodic solutions to the three-body problem",
+      "url": "https://www.threebodyorbits.com/",
+      "title_zh": "三体问题周期解图集",
+      "created_display": "Created: Sep 12, 2026 / 03:13 PT",
+      "image_url": "https://www.threebodyorbits.com/images/atlas-og.png?v=20260908b",
+      "summary_en": "An atlas of periodic solutions to the three-body problem catalogs families of periodic orbits, helping researchers navigate the rich structure of gravitational dynamics. It serves as a reference for celestial mechanics, chaos theory, and numerical exploration.",
+      "summary_zh": "该三体问题周期解图集按解的族群整理周期轨道，帮助研究者理解引力动力学的丰富结构。是天体力学、混沌理论和数值探索的有用参考。",
+      "hn": {
+        "id": 49670852,
+        "type": "story",
+        "by": "danielmorozoff",
+        "score": 72,
+        "descendants": 9,
+        "time": 1789208004,
+        "comments_url": "https://news.ycombinator.com/item?id=49670852"
+      },
+      "hot_score": 0.06,
+      "tags": [
+        "Science",
+        "Space"
+      ]
     },
     {
       "title_en": "I added a non-wi-fi Mitsubishi AC to Home Assistant",
@@ -906,27 +1378,72 @@
       "hot_score": 0.05
     },
     {
-      "title_en": "Spaceships (Reverse Asteroid)",
-      "url": "https://spaceships.treybastian.com/",
-      "title_zh": "太空飞船：反向小行星",
-      "created_display": "Created: Sep 09, 2026 / 21:44 PT",
-      "image_url": "https://spaceships.treybastian.com/og.png",
-      "summary_en": "A creative exploration of spacecraft design in a reverse-asteroid scenario.",
-      "summary_zh": "这是一个关于在反向小行星情境下进行航天器设计的概念性探索。",
+      "title_en": "Reverse-Engineering Claude Web's MicroVM: Uncovering Anthropic's Hidden Antspace",
+      "url": "https://aprilnea.me/en/blog/reverse-engineering-claude-code-antspace",
+      "title_zh": "逆向工程 Claude Web 的 MicroVM：揭示 Anthropic 的隐藏 Antspace",
+      "created_display": "Created: Sep 10, 2026 / 20:45 PT",
+      "image_url": "https://media.aprilnea.me/blog/t2025/reverse-engineering-claude-code-antspace/hero.svg",
+      "summary_en": "Researchers reverse-engineer Claude Web's MicroVM and uncover a hidden Antspace component, shedding light on how Anthropic isolates AI workloads. The findings raise questions about security, reproducibility, and the deployment of cloud-based AI.",
+      "summary_zh": "研究人员对 Claude Web 的 MicroVM 进行逆向分析，发现隐藏的 Antspace 组件，揭示 Anthropic 如何对 AI 工作负载进行隔离。结果引发关于安全性、可重复性及云端 AI 部署的讨论。",
       "hn": {
-        "id": 49638510,
+        "id": 49653311,
         "type": "story",
-        "by": "zdw",
-        "score": 174,
-        "descendants": 34,
-        "time": 1789015472,
-        "comments_url": "https://news.ycombinator.com/item?id=49638510"
+        "by": "rzk",
+        "score": 101,
+        "descendants": 21,
+        "time": 1789098342,
+        "comments_url": "https://news.ycombinator.com/item?id=49653311"
       },
-      "hot_score": 0.04,
       "tags": [
-        "Entertainment",
-        "Space"
-      ]
+        "AI",
+        "Security"
+      ],
+      "hot_score": 0.04
+    },
+    {
+      "title_en": "Rope, twine and thread: Invisible technologies of the Stone Age",
+      "url": "https://knowablemagazine.org/content/article/society/2026/prehistory-lost-threads",
+      "title_zh": "绳索、麻绳与线：石器时代的隐形科技",
+      "created_display": "Created: Sep 11, 2026 / 10:38 PT",
+      "image_url": null,
+      "summary_en": "Stone Age rope and fiber technologies enabled a range of practical innovations, from binding and lashings to nets and weave-based clothing. The article argues that these invisible, everyday technologies underwrote large-scale coordination and trade long before metal tools.",
+      "summary_zh": "石器时代的绳索与纤维技术催生了一系列实用创新，如绑缚、网具、织物等。这些看不见的日常技术推动了在金属工具出现之前就已形成的大规模协作与贸易。",
+      "hn": {
+        "id": 49662246,
+        "type": "story",
+        "by": "knowablemag",
+        "score": 89,
+        "descendants": 35,
+        "time": 1789148291,
+        "comments_url": "https://news.ycombinator.com/item?id=49662246"
+      },
+      "tags": [
+        "Science"
+      ],
+      "hot_score": 0.04
+    },
+    {
+      "title_en": "The GDR and Vietnam: From Fake Coffee to Coffee Empire",
+      "url": "https://www.katjahoyer.uk/p/the-gdr-and-vietnam-from-fake-coffee",
+      "title_zh": "德意志民主共和国与越南：从假咖啡到咖啡帝国",
+      "created_display": "Created: Sep 10, 2026 / 12:39 PT",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!KS-3!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9794271c-8cd8-45f5-9145-e7cb6cf94aa1_1024x683.jpeg",
+      "summary_en": "The piece traces how East Germany manipulated coffee trade with Vietnam, including fake shipments to meet quotas and extend influence, shaping Vietnam’s coffee sector amid Cold War dynamics.",
+      "summary_zh": "文章梳理东德在越南贸易中的“假咖啡”操控，借此达到配额与影响力扩张的目的，最终影响越南的咖啡产业，揭示商品政治与冷战格局的交织。",
+      "hn": {
+        "id": 49649164,
+        "type": "story",
+        "by": "NaOH",
+        "score": 93,
+        "descendants": 51,
+        "time": 1789069153,
+        "comments_url": "https://news.ycombinator.com/item?id=49649164"
+      },
+      "tags": [
+        "Politics",
+        "Business"
+      ],
+      "hot_score": 0.03
     },
     {
       "title_en": "Sean Carroll explains the biggest ideas in the universe – Full Interview [video] (2025)",
@@ -940,37 +1457,14 @@
         "id": 49651567,
         "type": "story",
         "by": "binyu",
-        "score": 86,
-        "descendants": 25,
+        "score": 91,
+        "descendants": 26,
         "time": 1789083132,
         "comments_url": "https://news.ycombinator.com/item?id=49651567"
       },
       "tags": [
         "Science",
         "Education"
-      ],
-      "hot_score": 0.03
-    },
-    {
-      "title_en": "Reverse-Engineering Claude Web's MicroVM: Uncovering Anthropic's Hidden Antspace",
-      "url": "https://aprilnea.me/en/blog/reverse-engineering-claude-code-antspace",
-      "title_zh": "逆向工程 Claude Web 的 MicroVM：揭示 Anthropic 的隐藏 Antspace",
-      "created_display": "Created: Sep 10, 2026 / 20:45 PT",
-      "image_url": "https://media.aprilnea.me/blog/t2025/reverse-engineering-claude-code-antspace/hero.svg",
-      "summary_en": "Researchers reverse-engineer Claude Web's MicroVM and uncover a hidden Antspace component, shedding light on how Anthropic isolates AI workloads. The findings raise questions about security, reproducibility, and the deployment of cloud-based AI.",
-      "summary_zh": "研究人员对 Claude Web 的 MicroVM 进行逆向分析，发现隐藏的 Antspace 组件，揭示 Anthropic 如何对 AI 工作负载进行隔离。结果引发关于安全性、可重复性及云端 AI 部署的讨论。",
-      "hn": {
-        "id": 49653311,
-        "type": "story",
-        "by": "rzk",
-        "score": 79,
-        "descendants": 19,
-        "time": 1789098342,
-        "comments_url": "https://news.ycombinator.com/item?id=49653311"
-      },
-      "tags": [
-        "AI",
-        "Security"
       ],
       "hot_score": 0.03
     },
@@ -986,8 +1480,8 @@
         "id": 49655450,
         "type": "story",
         "by": "kevvok",
-        "score": 65,
-        "descendants": 54,
+        "score": 68,
+        "descendants": 60,
         "time": 1789117605,
         "comments_url": "https://news.ycombinator.com/item?id=49655450"
       },
@@ -995,52 +1489,6 @@
         "Programming"
       ],
       "hot_score": 0.03
-    },
-    {
-      "title_en": "Rope, twine and thread: Invisible technologies of the Stone Age",
-      "url": "https://knowablemagazine.org/content/article/society/2026/prehistory-lost-threads",
-      "title_zh": "绳索、麻绳与线：石器时代的隐形科技",
-      "created_display": "Created: Sep 11, 2026 / 10:38 PT",
-      "image_url": null,
-      "summary_en": "Stone Age rope and fiber technologies enabled a range of practical innovations, from binding and lashings to nets and weave-based clothing. The article argues that these invisible, everyday technologies underwrote large-scale coordination and trade long before metal tools.",
-      "summary_zh": "石器时代的绳索与纤维技术催生了一系列实用创新，如绑缚、网具、织物等。这些看不见的日常技术推动了在金属工具出现之前就已形成的大规模协作与贸易。",
-      "hn": {
-        "id": 49662246,
-        "type": "story",
-        "by": "knowablemag",
-        "score": 48,
-        "descendants": 5,
-        "time": 1789148291,
-        "comments_url": "https://news.ycombinator.com/item?id=49662246"
-      },
-      "hot_score": 0.03,
-      "tags": [
-        "Science",
-        "Culture"
-      ]
-    },
-    {
-      "title_en": "The GDR and Vietnam: From Fake Coffee to Coffee Empire",
-      "url": "https://www.katjahoyer.uk/p/the-gdr-and-vietnam-from-fake-coffee",
-      "title_zh": "德意志民主共和国与越南：从假咖啡到咖啡帝国",
-      "created_display": "Created: Sep 10, 2026 / 12:39 PT",
-      "image_url": "https://substackcdn.com/image/fetch/$s_!KS-3!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9794271c-8cd8-45f5-9145-e7cb6cf94aa1_1024x683.jpeg",
-      "summary_en": "The piece traces how East Germany manipulated coffee trade with Vietnam, including fake shipments to meet quotas and extend influence, shaping Vietnam’s coffee sector amid Cold War dynamics.",
-      "summary_zh": "文章梳理东德在越南贸易中的“假咖啡”操控，借此达到配额与影响力扩张的目的，最终影响越南的咖啡产业，揭示商品政治与冷战格局的交织。",
-      "hn": {
-        "id": 49649164,
-        "type": "story",
-        "by": "NaOH",
-        "score": 66,
-        "descendants": 22,
-        "time": 1789069153,
-        "comments_url": "https://news.ycombinator.com/item?id=49649164"
-      },
-      "tags": [
-        "Politics",
-        "Business"
-      ],
-      "hot_score": 0.02
     },
     {
       "title_en": "Bad code is kudzu",
@@ -1065,6 +1513,28 @@
       "hot_score": 0.02
     },
     {
+      "title_en": "Bad benchmarks and evals: Senior SWE-Bench, napkin math, and winter tires",
+      "url": "https://danluu.com/exercise-7/",
+      "title_zh": "糟糕的基准与评估：Senior SWE‑Bench、纸笔估算与冬季轮胎",
+      "created_display": "Created: Sep 11, 2026 / 02:31 PT",
+      "image_url": "https://danluu.com/images/exercise-7/deep-swe.webp",
+      "summary_en": "The post critiques common benchmarks and estimation practices in software engineering, arguing that many metrics mislead about real impact. It uses examples like 'Senior SWE-Bench' and 'napkin math' to show how sloppy numbers distort decisions and offer guidance for more robust evaluation.",
+      "summary_zh": "这篇博文批评了软件工程中常见的基准与估算方法，指出诸多度量会误导对真实影响的判断。通过“Senior SWE‑Bench”和“napkin math”等示例，揭示粗糙数字如何扭曲决策，并给出更严谨的评估思路。",
+      "hn": {
+        "id": 49655621,
+        "type": "story",
+        "by": "luu",
+        "score": 43,
+        "descendants": 16,
+        "time": 1789119087,
+        "comments_url": "https://news.ycombinator.com/item?id=49655621"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 0.02
+    },
+    {
       "title_en": "Necker, 1832: \"An optical phænomenon on viewing a figure of a geometrical solid\"",
       "url": "https://zenodo.org/records/1430991",
       "title_zh": "Necker, 1832：在观看几何固体图形时的光学现象",
@@ -1076,14 +1546,58 @@
         "id": 49667916,
         "type": "story",
         "by": "akkartik",
-        "score": 25,
-        "descendants": 4,
+        "score": 33,
+        "descendants": 17,
         "time": 1789178513,
         "comments_url": "https://news.ycombinator.com/item?id=49667916"
       },
-      "hot_score": 0.02,
       "tags": [
         "Science"
+      ],
+      "hot_score": 0.02
+    },
+    {
+      "title_en": "The Nature of Dance",
+      "url": "https://vester.si/blog/nature-of-dance/",
+      "title_zh": "舞蹈的本质",
+      "created_display": "Created: Sep 11, 2026 / 17:17 PT",
+      "image_url": "https://vester.si/blog/og/nature-of-dance.png",
+      "summary_en": "The Nature of Dance examines how movement embodies natural principles, blending science with aesthetics to illuminate why dance resonates across cultures.",
+      "summary_zh": "《舞蹈的自然》从运动如何映射自然规律入手，将科学与美学结合，揭示舞蹈为何在不同文化中广受共鸣的原因。",
+      "hn": {
+        "id": 49667198,
+        "type": "story",
+        "by": "wonger_",
+        "score": 28,
+        "descendants": 29,
+        "time": 1789172243,
+        "comments_url": "https://news.ycombinator.com/item?id=49667198"
+      },
+      "hot_score": 0.02,
+      "tags": [
+        "Culture"
+      ]
+    },
+    {
+      "title_en": "'Coltrane' Review: Sound and Spirit",
+      "url": "https://www.wsj.com/arts-culture/books/coltrane-review-sound-and-spirit-b2417282",
+      "title_zh": "Coltrane： Sound and Spirit 评析",
+      "created_display": "Created: Sep 12, 2026 / 14:23 PT",
+      "image_url": null,
+      "summary_en": "'Coltrane' Review: Sound and Spirit reviews a biography, focusing on the musician's sound, spiritual influences, and historical context.",
+      "summary_zh": "《Coltrane: Sound and Spirit》评析聚焦于大乐手的音色、灵性影响以及时代背景的呈现。",
+      "hn": {
+        "id": 49677353,
+        "type": "story",
+        "by": "Thevet",
+        "score": 15,
+        "descendants": 2,
+        "time": 1789248207,
+        "comments_url": "https://news.ycombinator.com/item?id=49677353"
+      },
+      "hot_score": 0.02,
+      "tags": [
+        "Entertainment"
       ]
     },
     {
@@ -1098,38 +1612,16 @@
         "id": 49645654,
         "type": "story",
         "by": "fdeth",
-        "score": 24,
-        "descendants": 3,
+        "score": 43,
+        "descendants": 19,
         "time": 1789054896,
         "comments_url": "https://news.ycombinator.com/item?id=49645654"
       },
-      "hot_score": 0.01,
       "tags": [
         "Show HN",
         "Open Source"
-      ]
-    },
-    {
-      "title_en": "Bad benchmarks and evals: Senior SWE-Bench, napkin math, and winter tires",
-      "url": "https://danluu.com/exercise-7/",
-      "title_zh": "糟糕的基准与评估：Senior SWE‑Bench、纸笔估算与冬季轮胎",
-      "created_display": "Created: Sep 11, 2026 / 02:31 PT",
-      "image_url": "https://danluu.com/images/exercise-7/deep-swe.webp",
-      "summary_en": "The post critiques common benchmarks and estimation practices in software engineering, arguing that many metrics mislead about real impact. It uses examples like 'Senior SWE-Bench' and 'napkin math' to show how sloppy numbers distort decisions and offer guidance for more robust evaluation.",
-      "summary_zh": "这篇博文批评了软件工程中常见的基准与估算方法，指出诸多度量会误导对真实影响的判断。通过“Senior SWE‑Bench”和“napkin math”等示例，揭示粗糙数字如何扭曲决策，并给出更严谨的评估思路。",
-      "hn": {
-        "id": 49655621,
-        "type": "story",
-        "by": "luu",
-        "score": 16,
-        "descendants": 2,
-        "time": 1789119087,
-        "comments_url": "https://news.ycombinator.com/item?id=49655621"
-      },
-      "hot_score": 0.01,
-      "tags": [
-        "Programming"
-      ]
+      ],
+      "hot_score": 0.01
     },
     {
       "title_en": "Five Words from Vanishing Fleece",
@@ -1143,14 +1635,58 @@
         "id": 49660631,
         "type": "story",
         "by": "dan353hehe",
-        "score": 3,
-        "descendants": 0,
+        "score": 13,
+        "descendants": 1,
         "time": 1789142458,
         "comments_url": "https://news.ycombinator.com/item?id=49660631"
       },
-      "hot_score": 0.0,
       "tags": [
         "Culture"
+      ],
+      "hot_score": 0.01
+    },
+    {
+      "title_en": "A Vacuum Diode for Make: Magazine",
+      "url": "https://www.nickpoole.me/2023/12/10/a-vacuum-diode-for-make-magazine/",
+      "title_zh": "为 Make: 杂志制作的真空二极管",
+      "created_display": "Created: Sep 10, 2026 / 16:56 PT",
+      "image_url": "https://www.nickpoole.me/assets/images/posts/2023/a-vacuum-diode-for-make-magazine/20230618_235616.jpg",
+      "summary_en": "A Vacuum Diode for Make: Magazine details a DIY vacuum diode project, illustrating vintage electronics and practical experimentation for makers today.",
+      "summary_zh": "这篇为 Make: 杂志撰写的真空二极管 DIY 项目，展示了复古电子学在现代动手实践中的实际应用。",
+      "hn": {
+        "id": 49651735,
+        "type": "story",
+        "by": "luu",
+        "score": 12,
+        "descendants": 0,
+        "time": 1789084592,
+        "comments_url": "https://news.ycombinator.com/item?id=49651735"
+      },
+      "hot_score": 0.0,
+      "tags": [
+        "Hardware"
+      ]
+    },
+    {
+      "title_en": "Drawably: Hand-Drawn UI Controls",
+      "url": "https://github.com/Danilaa1/drawably",
+      "title_zh": "Drawably：手绘风格的 UI 控件",
+      "created_display": "Created: Sep 09, 2026 / 10:45 PT",
+      "image_url": "https://opengraph.githubassets.com/833cbf145c3b462a1a598f1b2881d37804cb6254db9b26bfbc94328b949e84b9/Danilaa1/drawably",
+      "summary_en": "Drawably offers hand-drawn UI controls for prototyping with a sketch-like aesthetic, accelerating visual exploration and lo-fi UI experiments.",
+      "summary_zh": "Drawably 提供手绘风格的 UI 控件，便于在原型阶段快速进行视觉探索和低保真界面试验。",
+      "hn": {
+        "id": 49630353,
+        "type": "story",
+        "by": "ingve",
+        "score": 6,
+        "descendants": 4,
+        "time": 1788975932,
+        "comments_url": "https://news.ycombinator.com/item?id=49630353"
+      },
+      "hot_score": 0.0,
+      "tags": [
+        "Design"
       ]
     }
   ]
