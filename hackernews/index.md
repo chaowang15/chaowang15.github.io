@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>206</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>30432</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>203</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>204</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-09-13</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>207</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>30482</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>203</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>205</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-09-14</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,118 +20,118 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='320' data-hn-time='1789333573'>
+<div class='hn-top-story-item' data-hn-score='791' data-hn-time='1789333573'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/13/top_stories_09132026#story-49688695'>Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/14/top_stories_09142026#story-49688695'>Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher</a>
  <a class='hn-top-story-link' href='https://www.vals.ai/blogs/fable-solves-cyphral-distich' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Fable 5.1 破解370年前的 Cyphral Distich 密码</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 20</span> <span class='hn-top-story-score'>&#9650; 320</span> <span class='hn-top-story-comments'>&#128172; 110</span> <span class='hn-top-story-tag'>Science</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.6</span> <span class='hn-top-story-score'>&#9650; 791</span> <span class='hn-top-story-comments'>&#128172; 331</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='490' data-hn-time='1789321064'>
+<div class='hn-top-story-item' data-hn-score='766' data-hn-time='1789321064'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/13/top_stories_09132026#story-49686445'>Why is Google still serving dodgy ads?</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/14/top_stories_09142026#story-49686445'>Why is Google still serving dodgy ads?</a>
  <a class='hn-top-story-link' href='https://www.atomic14.com/2026/09/13/why-is-google-still-serving-dodgy-ads' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>为何谷歌仍在投放可疑广告？</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 490</span> <span class='hn-top-story-comments'>&#128172; 235</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.3</span> <span class='hn-top-story-score'>&#9650; 766</span> <span class='hn-top-story-comments'>&#128172; 344</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='240' data-hn-time='1789330125'>
+<div class='hn-top-story-item' data-hn-score='202' data-hn-time='1789339098'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/13/top_stories_09132026#story-49688157'>Mark Zuckerberg: "Cambridge Analytica" (2017)</a>
- <a class='hn-top-story-link' href='https://twitter.com/TechEmails/status/2099214399840059428' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>马克·扎克伯格：剑桥分析（2017）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 240</span> <span class='hn-top-story-comments'>&#128172; 98</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Politics</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='385' data-hn-time='1789322589'>
-<span class='hn-top-story-rank'>4</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/13/top_stories_09132026#story-49686766'>I'm being cyberattacked by Tesla, Inc</a>
- <a class='hn-top-story-link' href='https://dreamstation.systems/personal/tesla.html' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>我正遭遇特斯拉相关的网络攻击</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.7</span> <span class='hn-top-story-score'>&#9650; 385</span> <span class='hn-top-story-comments'>&#128172; 106</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Business</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='56' data-hn-time='1789339098'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/13/top_stories_09132026#story-49689460'>The Contagion of Fear</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/14/top_stories_09142026#story-49689460'>The contagion of fear</a>
  <a class='hn-top-story-link' href='https://bcantrill.dtrace.org/2026/09/13/the-contagion-of-fear/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>恐惧的传染性</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.0</span> <span class='hn-top-story-score'>&#9650; 56</span> <span class='hn-top-story-comments'>&#128172; 31</span> <span class='hn-top-story-tag'>Culture</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 202</span> <span class='hn-top-story-comments'>&#128172; 143</span> <span class='hn-top-story-tag'>Culture</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='322' data-hn-time='1789314278'>
+<div class='hn-top-story-item' data-hn-score='82' data-hn-time='1789354240'>
+<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/14/top_stories_09142026#story-49691343'>Nike exits the S&P 100 after 18 years and a $200B market-cap wipeout</a>
+ <a class='hn-top-story-link' href='https://fortune.com/2026/09/08/nike-stock-plummets-sp500-market-cap-index/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>耐克退出标普100，市值蒸发2000亿美元</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.7</span> <span class='hn-top-story-score'>&#9650; 82</span> <span class='hn-top-story-comments'>&#128172; 85</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Finance</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='145' data-hn-time='1789344681'>
+<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/14/top_stories_09142026#story-49690174'>Apple's Dimensional Drawings</a>
+ <a class='hn-top-story-link' href='https://developer.apple.com/accessories/dimensional-drawings/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>苹果的尺寸绘图</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 145</span> <span class='hn-top-story-comments'>&#128172; 48</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Security</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='216' data-hn-time='1789336024'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/13/top_stories_09132026#story-49685253'>Garry Tan wants US open-weight AI labs to 'distill' frontier models, too</a>
- <a class='hn-top-story-link' href='https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/14/top_stories_09142026#story-49689048'>Registration without a phone number on Signal will use zero-knowledge proofs</a>
+ <a class='hn-top-story-link' href='https://community.signalusers.org/t/registration-without-a-phone-number/2222?page=10' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Garry Tan 希望美国公开权重的 AI 实验室也参与对前沿模型进行蒸馏</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.0</span> <span class='hn-top-story-score'>&#9650; 322</span> <span class='hn-top-story-comments'>&#128172; 166</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>Signal 将在注册阶段无需手机号码，采用零知识证明</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 216</span> <span class='hn-top-story-comments'>&#128172; 99</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='189' data-hn-time='1789322279'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='114' data-hn-time='1789347757'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/13/top_stories_09132026#story-49686697'>Global shortage has led to motor oil rationing at Costco</a>
- <a class='hn-top-story-link' href='https://guessingheadlights.com/global-shortage-has-led-to-motor-oil-rationing-at-costco/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/14/top_stories_09142026#story-49690554'>The case against JPEG XL</a>
+ <a class='hn-top-story-link' href='https://giannirosato.com/blog/post/case-against-jxl/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>全球短缺导致 Costco 实施机油限购</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.6</span> <span class='hn-top-story-score'>&#9650; 189</span> <span class='hn-top-story-comments'>&#128172; 157</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-zh'>JPEG XL 的反对理由</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 114</span> <span class='hn-top-story-comments'>&#128172; 149</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='26' data-hn-time='1789341077'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='385' data-hn-time='1789314278'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/13/top_stories_09132026#story-49689706'>Due to concerns about malicious applications, GPT2 will not be released (2019)</a>
- <a class='hn-top-story-link' href='https://openai.com/index/better-language-models/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/14/top_stories_09142026#story-49685253'>Garry Tan wants US open-weight AI labs to 'distill' frontier models, too</a>
+ <a class='hn-top-story-link' href='https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>出于对恶意用途的担忧，GPT-2 最初不会公开发布（2019）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.5</span> <span class='hn-top-story-score'>&#9650; 26</span> <span class='hn-top-story-comments'>&#128172; 9</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>Garry Tan 希望美国公开权重的 AI 实验室也参与对前沿模型进行蒸馏</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.2</span> <span class='hn-top-story-score'>&#9650; 385</span> <span class='hn-top-story-comments'>&#128172; 212</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='350' data-hn-time='1789309716'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='426' data-hn-time='1789309716'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/13/top_stories_09132026#story-49684393'>Astra and Fable still hack on simple variants of alignment evals from 2025</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/14/top_stories_09142026#story-49684393'>Astra and Fable still hack on simple variants of alignment evals from 2025</a>
  <a class='hn-top-story-link' href='https://www.lesswrong.com/posts/munJKF7iWMsWJLAH2/astra-and-fable-still-hack-on-simple-variants-of-alignment' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Astra 与 Fable 继续改进基于 2025 年对齐评估的简单变体</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.4</span> <span class='hn-top-story-score'>&#9650; 350</span> <span class='hn-top-story-comments'>&#128172; 167</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.1</span> <span class='hn-top-story-score'>&#9650; 426</span> <span class='hn-top-story-comments'>&#128172; 198</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='223' data-hn-time='1789318353'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='295' data-hn-time='1789318353'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/13/top_stories_09132026#story-49685991'>David Sacks: OpenAI and Anthropic Don't Need Regulations to Pace Frontier Models</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/14/top_stories_09142026#story-49685991'>David Sacks: OpenAI and Anthropic Don't Need Regulations to Pace Frontier Models</a>
  <a class='hn-top-story-link' href='https://twitter.com/DavidSacks/status/2098973625252708460' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>David Sacks：OpenAI 与 Anthropic 不需要监管就能推动前沿模型</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.3</span> <span class='hn-top-story-score'>&#9650; 223</span> <span class='hn-top-story-comments'>&#128172; 165</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.9</span> <span class='hn-top-story-score'>&#9650; 295</span> <span class='hn-top-story-comments'>&#128172; 216</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
-<a class='hn-top-stories-more' href='/hackernews/2026/09/13/top_stories_09132026'>View all trending stories &rarr;</a>
+<a class='hn-top-stories-more' href='/hackernews/2026/09/14/top_stories_09142026'>View all trending stories &rarr;</a>
 <a class='hn-top-stories-more' href='/hackernews/2026/09/12/best_stories_09122026'>Latest Daily Best — 2026-09-12 &rarr;</a>
 </div>
 </div>
@@ -139,7 +139,26 @@ Sort:
 <h3 class='hn-section-title'>News Archive <span class='hn-section-zh'>新闻归档</span></h3>
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
-<span class='hn-week-title'>2026 Week 37 <span class='hn-this-week-badge'>This Week</span></span>
+<span class='hn-week-title'>2026 Week 38 <span class='hn-this-week-badge'>This Week</span></span>
+<span class='hn-week-meta'>2026-09-14 <span class="hn-row-sep">·</span> 50 stories <span class="hn-row-sep">·</span> 1 days</span>
+</summary>
+<div class='hn-week-content'>
+<div class='hn-grid'>
+<div class='hn-day-row'>
+<div class='hn-day-date'>2026-09-14 <span class='hn-day-weekday'>Mon</span></div>
+<div class='hn-day-stories'>
+<a class='hn-story-link' href='/hackernews/2026/09/14/top_stories_09142026'>
+<span class='hn-row-type hn-type-top'>Trending</span>
+<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>11</b> <span class="hn-row-sep">·</span> Programming <b>9</b></span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</details>
+<details class='hn-week-group'>
+<summary class='hn-week-summary'>
+<span class='hn-week-title'>2026 Week 37</span>
 <span class='hn-week-meta'>2026-09-07 — 2026-09-13 <span class="hn-row-sep">·</span> 998 stories <span class="hn-row-sep">·</span> 7 days</span>
 </summary>
 <div class='hn-week-content'>
@@ -552,7 +571,7 @@ Sort:
 <details class='hn-week-group'>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 33</span>
-<span class='hn-week-meta'>2026-08-15 — 2026-08-16 <span class="hn-row-sep">·</span> 297 stories <span class="hn-row-sep">·</span> 2 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
+<span class='hn-week-meta'>2026-08-16 <span class="hn-row-sep">·</span> 147 stories <span class="hn-row-sep">·</span> 1 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
 </summary>
 <div class='hn-week-content'>
 <a class='hn-story-link hn-weekly-digest-link' href='/hackernews/weekly/2026-W33'>
@@ -570,19 +589,6 @@ Sort:
 <a class='hn-story-link' href='/hackernews/2026/08/16/top_stories_08162026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
 <span class='hn-row-detail'>All <b>97</b> <span class="hn-row-sep">·</span> AI <b>26</b> <span class="hn-row-sep">·</span> Programming <b>25</b></span>
-</a>
-</div>
-</div>
-<div class='hn-day-row'>
-<div class='hn-day-date'>2026-08-15 <span class='hn-day-weekday'>Sat</span></div>
-<div class='hn-day-stories'>
-<a class='hn-story-link' href='/hackernews/2026/08/15/best_stories_08152026'>
-<span class='hn-row-type hn-type-best'>Daily Best</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>13</b> <span class="hn-row-sep">·</span> Culture <b>9</b></span>
-</a>
-<a class='hn-story-link' href='/hackernews/2026/08/15/top_stories_08152026'>
-<span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Science <b>27</b> <span class="hn-row-sep">·</span> Programming <b>25</b></span>
 </a>
 </div>
 </div>
