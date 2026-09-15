@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>208</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>30631</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>204</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>206</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-09-15</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>208</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>30644</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>204</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>206</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-09-15</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='79' data-hn-time='1789445723'>
+<div class='hn-top-story-item' data-hn-score='111' data-hn-time='1789467766'>
 <span class='hn-top-story-rank'>1</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/15/top_stories_09152026#story-49710253'>Suspected sabotage causes major Netherlands rail disruption</a>
+ <a class='hn-top-story-link' href='https://www.bbc.com/news/articles/c8ly49w9g1edo' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>荷兰铁路重大中断疑似蓄意破坏</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 14</span> <span class='hn-top-story-score'>&#9650; 111</span> <span class='hn-top-story-comments'>&#128172; 75</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>DevOps</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='288' data-hn-time='1789452984'>
+<span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/15/top_stories_09152026#story-49708431'>I can't stop thinking about Papua New Guinea</a>
+ <a class='hn-top-story-link' href='https://notnottalmud.substack.com/p/why-i-cant-stop-thinking-about-papua' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>我停不下对巴布亚新几内亚的思考</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.1</span> <span class='hn-top-story-score'>&#9650; 288</span> <span class='hn-top-story-comments'>&#128172; 101</span> <span class='hn-top-story-tag'>Culture</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='75' data-hn-time='1789466416'>
+<span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/15/top_stories_09152026#story-49710109'>Let's make quality the norm again</a>
+ <a class='hn-top-story-link' href='https://www.forbrukerradet.no/short-life/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>让质量回归成为常态</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.7</span> <span class='hn-top-story-score'>&#9650; 75</span> <span class='hn-top-story-comments'>&#128172; 81</span> <span class='hn-top-story-tag'>Design</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='51' data-hn-time='1789465668'>
+<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/15/top_stories_09152026#story-49710015'>How much of F-Droid is LLM generated?</a>
+ <a class='hn-top-story-link' href='https://tintotint.eu/whacky-corner/f-droid_slop/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>F-Droid 有多少是由大模型生成的？</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.7</span> <span class='hn-top-story-score'>&#9650; 51</span> <span class='hn-top-story-comments'>&#128172; 33</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='211' data-hn-time='1789445723'>
+<span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/09/15/top_stories_09152026#story-49707627'>Linux from Scratch</a>
  <a class='hn-top-story-link' href='https://www.linuxfromscratch.org/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Linux From Scratch（从零开始构建的 Linux）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.6</span> <span class='hn-top-story-score'>&#9650; 79</span> <span class='hn-top-story-comments'>&#128172; 30</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.8</span> <span class='hn-top-story-score'>&#9650; 211</span> <span class='hn-top-story-comments'>&#128172; 71</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Education</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='629' data-hn-time='1789406875'>
-<span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='682' data-hn-time='1789406875'>
+<span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/09/15/top_stories_09152026#story-49700661'>Steam Frame starts at $1059</a>
  <a class='hn-top-story-link' href='https://store.steampowered.com/hardware/steamframe' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Steam Frame 价格起步 1059 美元</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.5</span> <span class='hn-top-story-score'>&#9650; 629</span> <span class='hn-top-story-comments'>&#128172; 468</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Gaming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 682</span> <span class='hn-top-story-comments'>&#128172; 535</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Gaming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='542' data-hn-time='1789408229'>
-<span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='629' data-hn-time='1789408229'>
+<span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/09/15/top_stories_09152026#story-49701004'>iOS 27, iPadOS 27, and macOS 27</a>
  <a class='hn-top-story-link' href='https://www.apple.com/newsroom/2026/09/major-updates-for-apples-software-platforms-are-now-available/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>iOS 27、iPadOS 27 与 macOS 27</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 542</span> <span class='hn-top-story-comments'>&#128172; 595</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 629</span> <span class='hn-top-story-comments'>&#128172; 720</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='137' data-hn-time='1789432814'>
-<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='41' data-hn-time='1789460487'>
+<span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/15/top_stories_09152026#story-49706223'>Ex-FTC boss Khan: break out the handcuffs for AI CEOs, citing 1934 precedent</a>
- <a class='hn-top-story-link' href='https://www.theregister.com/ai-and-ml/2026/09/14/ex-ftc-boss-khan-urges-uncle-sam-to-break-out-the-handcuffs-for-ai-ceos-citing-1934-precedent/5296325' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/15/top_stories_09152026#story-49709381'>Alternatives to MinIO for single-node local S3</a>
+ <a class='hn-top-story-link' href='https://rmoff.net/2026/01/14/alternatives-to-minio-for-single-node-local-s3/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>前 FTC 主席呼吁对 AI 公司的强监管，援引1934年先例</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 137</span> <span class='hn-top-story-comments'>&#128172; 74</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='363' data-hn-time='1789406166'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/15/top_stories_09152026#story-49700477'>Pion, an agent designed to run any company autonomously</a>
- <a class='hn-top-story-link' href='https://andonlabs.com/blog/why-we-built-pion' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Pion：一个可让企业自主运行的自治代理</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 363</span> <span class='hn-top-story-comments'>&#128172; 422</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-zh'>单节点本地 S3 的替代方案</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.1</span> <span class='hn-top-story-score'>&#9650; 41</span> <span class='hn-top-story-comments'>&#128172; 26</span> <span class='hn-top-story-tag'>DevOps</span> <span class='hn-top-story-tag'>Data</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='445' data-hn-time='1789397432'>
-<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='552' data-hn-time='1789397432'>
+<span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/09/15/top_stories_09152026#story-49697893'>Dario, Please</a>
  <a class='hn-top-story-link' href='https://pop.rdi.sh/dario-please/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Dario，请</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 445</span> <span class='hn-top-story-comments'>&#128172; 212</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 552</span> <span class='hn-top-story-comments'>&#128172; 262</span> <span class='hn-top-story-tag'>Culture</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='199' data-hn-time='1789420974'>
-<span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/15/top_stories_09152026#story-49704246'>Charts built for Chat</a>
- <a class='hn-top-story-link' href='https://dbtcharts.com/blog/charts-built-for-chat/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>为聊天场景定制的图表</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 199</span> <span class='hn-top-story-comments'>&#128172; 63</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='203' data-hn-time='1789419922'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/15/top_stories_09152026#story-49704008'>Amazon vs. Perplexity – U.S. Court of Appeals for the Ninth Circuit</a>
- <a class='hn-top-story-link' href='https://law.justia.com/cases/federal/appellate-courts/ca9/26-1444/26-1444-2026-08-04.html' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>亚马逊对 Perplexity：美国第九巡回上诉法院</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.3</span> <span class='hn-top-story-score'>&#9650; 203</span> <span class='hn-top-story-comments'>&#128172; 201</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='583' data-hn-time='1789379510'>
-<span class='hn-top-story-rank'>9</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/15/top_stories_09152026#story-49694296'>XCancel service is suspended until further notice</a>
- <a class='hn-top-story-link' href='https://xcancel.com/#' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>XCancel 服务暂停，等待进一步通知</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 583</span> <span class='hn-top-story-comments'>&#128172; 857</span> <span class='hn-top-story-tag'>DevOps</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='428' data-hn-time='1789389657'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='419' data-hn-time='1789406166'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/15/top_stories_09152026#story-49695876'>OpenAI bots knew about the RubyGems caching vulnerability</a>
- <a class='hn-top-story-link' href='https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/15/top_stories_09152026#story-49700477'>Pion, an agent designed to run any company autonomously</a>
+ <a class='hn-top-story-link' href='https://andonlabs.com/blog/why-we-built-pion' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>OpenAI 系统早知 RubyGems 缓存漏洞</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.9</span> <span class='hn-top-story-score'>&#9650; 428</span> <span class='hn-top-story-comments'>&#128172; 343</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>Pion：一个可让企业自主运行的自治代理</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.9</span> <span class='hn-top-story-score'>&#9650; 419</span> <span class='hn-top-story-comments'>&#128172; 519</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Startups</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -140,7 +140,7 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 38 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-09-14 — 2026-09-15 <span class="hn-row-sep">·</span> 149 stories <span class="hn-row-sep">·</span> 2 days</span>
+<span class='hn-week-meta'>2026-09-14 — 2026-09-15 <span class="hn-row-sep">·</span> 162 stories <span class="hn-row-sep">·</span> 2 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/09/15/top_stories_09152026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>49</b> <span class="hn-row-sep">·</span> Programming <b>15</b> <span class="hn-row-sep">·</span> AI <b>15</b></span>
+<span class='hn-row-detail'>All <b>62</b> <span class="hn-row-sep">·</span> AI <b>17</b> <span class="hn-row-sep">·</span> Programming <b>14</b></span>
 </a>
 </div>
 </div>
