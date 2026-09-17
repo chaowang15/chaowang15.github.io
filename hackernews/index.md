@@ -20,7 +20,7 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='151' data-hn-time='1789584600'>
+<div class='hn-top-story-item' data-hn-score='352' data-hn-time='1789584600'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -28,76 +28,76 @@ Sort:
  <a class='hn-top-story-link' href='https://rohanbansal.com/qorl' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>用4B参数模型生成查询计划，比PostgreSQL快81%</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 151</span> <span class='hn-top-story-comments'>&#128172; 20</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Data</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 10</span> <span class='hn-top-story-score'>&#9650; 352</span> <span class='hn-top-story-comments'>&#128172; 68</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Data</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='127' data-hn-time='1789584921'>
+<div class='hn-top-story-item' data-hn-score='199' data-hn-time='1789589358'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/16/top_stories_09162026#story-49731356'>Fed hikes rates as inflation worries push up bond yields</a>
- <a class='hn-top-story-link' href='https://www.reuters.com/live/live-fed-rate-hike-expected-inflation-worries-push-up-bond-yields-2026-09-16/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/16/top_stories_09162026#story-49732270'>Xiaomi Mimo 2.6 live post-training dashboard</a>
+ <a class='hn-top-story-link' href='https://mimo.xiaomi.com/rl/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>美联储加息，通胀担忧推高债券收益率</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 127</span> <span class='hn-top-story-comments'>&#128172; 122</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Finance</span></div>
+<div class='hn-top-story-zh'>小米 Mimo 2.6：实时后训练仪表板</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.3</span> <span class='hn-top-story-score'>&#9650; 199</span> <span class='hn-top-story-comments'>&#128172; 53</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='147' data-hn-time='1789583495'>
+<div class='hn-top-story-item' data-hn-score='52' data-hn-time='1789599408'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/16/top_stories_09162026#story-49731054'>Vectorized and performance-portable Quicksort (2022)</a>
- <a class='hn-top-story-link' href='https://opensource.googleblog.com/2022/06/Vectorized%20and%20performance%20portable%20Quicksort.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/16/top_stories_09162026#story-49734171'>Australia says it could follow Canada in forging deeper ties with EU</a>
+ <a class='hn-top-story-link' href='https://www.independent.co.uk/news/world/australasia/canda-eu-membership-australia-us-trade-b3050227.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>向量化且性能可移植的快速排序（2022）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 10</span> <span class='hn-top-story-score'>&#9650; 147</span> <span class='hn-top-story-comments'>&#128172; 21</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>澳大利亚表示可能深化与欧盟的关系</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.9</span> <span class='hn-top-story-score'>&#9650; 52</span> <span class='hn-top-story-comments'>&#128172; 9</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='261' data-hn-time='1789574207'>
+<div class='hn-top-story-item' data-hn-score='114' data-hn-time='1789592364'>
 <span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/16/top_stories_09162026#story-49732931'>Breaking the 1.58-bit Barrier for Ternary LLMs</a>
+ <a class='hn-top-story-link' href='https://arxiv.org/abs/2609.16338' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>打破三值LLM的1.58比特瓶颈</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.2</span> <span class='hn-top-story-score'>&#9650; 114</span> <span class='hn-top-story-comments'>&#128172; 10</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='360' data-hn-time='1789574207'>
+<span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/09/16/top_stories_09162026#story-49729000'>Small programming tricks</a>
  <a class='hn-top-story-link' href='https://will-keleher.com/posts/small-programming-tricks-matter/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>一些小而重要的编程技巧</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.0</span> <span class='hn-top-story-score'>&#9650; 261</span> <span class='hn-top-story-comments'>&#128172; 145</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.7</span> <span class='hn-top-story-score'>&#9650; 360</span> <span class='hn-top-story-comments'>&#128172; 177</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='387' data-hn-time='1789564727'>
-<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='447' data-hn-time='1789564727'>
+<span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/09/16/top_stories_09162026#story-49726586'>Hackers Got Inside a Flock Camera</a>
  <a class='hn-top-story-link' href='https://www.wired.com/story/hackers-flock-camera-data-shows-how-system-works/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>黑客入侵 Flock 摄像头，其数据揭示系统运作方式</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.7</span> <span class='hn-top-story-score'>&#9650; 387</span> <span class='hn-top-story-comments'>&#128172; 188</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.6</span> <span class='hn-top-story-score'>&#9650; 447</span> <span class='hn-top-story-comments'>&#128172; 208</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='128' data-hn-time='1789579657'>
-<span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/16/top_stories_09162026#story-49730239'>ER visits for gambling disorders doubled after expanded online gambling market</a>
- <a class='hn-top-story-link' href='https://temertymedicine.utoronto.ca/news/emergency-room-visits-gambling-disorders-nearly-doubled-after-expanded-online-gambling-market' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>扩大的在线赌博市场后，急诊室就诊赌博障碍病例翻倍</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.1</span> <span class='hn-top-story-score'>&#9650; 128</span> <span class='hn-top-story-comments'>&#128172; 111</span> <span class='hn-top-story-tag'>Health</span> <span class='hn-top-story-tag'>Politics</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='168' data-hn-time='1789575985'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='161' data-hn-time='1789583495'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/16/top_stories_09162026#story-49729412'>Claude Cowork and chat are now one Claude</a>
- <a class='hn-top-story-link' href='https://claude.com/blog/cowork-is-now-claude' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/16/top_stories_09162026#story-49731054'>Vectorized and performance-portable Quicksort (2022)</a>
+ <a class='hn-top-story-link' href='https://opensource.googleblog.com/2022/06/Vectorized%20and%20performance%20portable%20Quicksort.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Claude Cowork 与 Chat 现合并为一个 Claude</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.9</span> <span class='hn-top-story-score'>&#9650; 168</span> <span class='hn-top-story-comments'>&#128172; 182</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>向量化且性能可移植的快速排序（2022）</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.3</span> <span class='hn-top-story-score'>&#9650; 161</span> <span class='hn-top-story-comments'>&#128172; 25</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1768' data-hn-time='1789500303'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1784' data-hn-time='1789500303'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -105,29 +105,29 @@ Sort:
  <a class='hn-top-story-link' href='https://typesafe.ai/blog/introducing-system-one-models-and-jev' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>推出 System One 模型与 Jev</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.6</span> <span class='hn-top-story-score'>&#9650; 1768</span> <span class='hn-top-story-comments'>&#128172; 471</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.8</span> <span class='hn-top-story-score'>&#9650; 1784</span> <span class='hn-top-story-comments'>&#128172; 472</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='27' data-hn-time='1789589358'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='127' data-hn-time='1789584921'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/16/top_stories_09162026#story-49732270'>Xiami Mimo 2.6 Live Training Dashboard</a>
- <a class='hn-top-story-link' href='https://mimo.xiaomi.com/rl/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/16/top_stories_09162026#story-49731356'>Fed hikes rates as inflation worries push up bond yields</a>
+ <a class='hn-top-story-link' href='https://www.reuters.com/live/live-fed-rate-hike-expected-inflation-worries-push-up-bond-yields-2026-09-16/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>小米 Mimo 2.6 实时训练仪表盘</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.4</span> <span class='hn-top-story-score'>&#9650; 27</span> <span class='hn-top-story-comments'>&#128172; 3</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>DevOps</span></div>
+<div class='hn-top-story-zh'>美联储加息，通胀担忧推高债券收益率</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.7</span> <span class='hn-top-story-score'>&#9650; 127</span> <span class='hn-top-story-comments'>&#128172; 122</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='321' data-hn-time='1789557551'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='25' data-hn-time='1789599999'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/16/top_stories_09162026#story-49724927'>The Google Play app review process now regularly takes longer than a week</a>
- <a class='hn-top-story-link' href='https://gultsch.social/@daniel/117280438824908947' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/16/top_stories_09162026#story-49734264'>OpenSpec – A lightweight and configurable AI spec framework</a>
+ <a class='hn-top-story-link' href='https://openspec.dev/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Google Play 应用审核流程现在经常超过一周</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 321</span> <span class='hn-top-story-comments'>&#128172; 307</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>OpenSpec——轻量、可配置的 AI 规格框架</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 25</span> <span class='hn-top-story-comments'>&#128172; 6</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/09/16/top_stories_09162026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>29</b> <span class="hn-row-sep">·</span> Hardware <b>17</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>33</b> <span class="hn-row-sep">·</span> Programming <b>18</b></span>
 </a>
 </div>
 </div>
