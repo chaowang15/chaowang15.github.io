@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>209</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>30882</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>206</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>207</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-09-16</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>210</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>30931</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>206</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>208</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-09-17</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,118 +20,118 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='121' data-hn-time='1789614203'>
+<div class='hn-top-story-item' data-hn-score='114' data-hn-time='1789632834'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/16/top_stories_09162026#story-49735930'>Keys Not Included: recovering the signing keys for US driver's license barcodes</a>
- <a class='hn-top-story-link' href='https://ryan.science/blog/keys-not-included' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/17/top_stories_09172026#story-49737849'>One Year of Sponsored Servo Development</a>
+ <a class='hn-top-story-link' href='https://servo.org/blog/2026/09/15/one-year-of-sponsorship/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>未包含密钥：恢复美国驾照条码的签名密钥</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.8</span> <span class='hn-top-story-score'>&#9650; 121</span> <span class='hn-top-story-comments'>&#128172; 46</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>在赞助支持下的 Servo 开发一年回顾</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.8</span> <span class='hn-top-story-score'>&#9650; 114</span> <span class='hn-top-story-comments'>&#128172; 46</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='499' data-hn-time='1789584600'>
+<div class='hn-top-story-item' data-hn-score='92' data-hn-time='1789633629'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/16/top_stories_09162026#story-49731285'>Training a 4B model to produce 81% faster query plans than Postgres</a>
- <a class='hn-top-story-link' href='https://rohanbansal.com/qorl' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/17/top_stories_09172026#story-49737922'>GLM Built Its Own Inference Infrastructure</a>
+ <a class='hn-top-story-link' href='https://z.ai/blog/glm-built-its-inference-infrastructure' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>用4B参数模型生成查询计划，比PostgreSQL快81%</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 499</span> <span class='hn-top-story-comments'>&#128172; 104</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Data</span></div>
+<div class='hn-top-story-zh'>GLM 构建了自己的推理基础设施</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.0</span> <span class='hn-top-story-score'>&#9650; 92</span> <span class='hn-top-story-comments'>&#128172; 56</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='394' data-hn-time='1789589358'>
+<div class='hn-top-story-item' data-hn-score='28' data-hn-time='1789641889'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/16/top_stories_09162026#story-49732270'>Xiaomi Mimo 2.6 live post-training dashboard</a>
- <a class='hn-top-story-link' href='https://mimo.xiaomi.com/rl/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/17/top_stories_09172026#story-49738879'>Neovim have a ~$800k Bitcoin donation sitting untouched since 2023</a>
+ <a class='hn-top-story-link' href='https://news.ycombinator.com/item?id=49738879' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>小米 Mimo 2.6：实时后训练仪表板</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 394</span> <span class='hn-top-story-comments'>&#128172; 98</span> <span class='hn-top-story-tag'>DevOps</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>Neovim 拥有约 80 万美元的比特币捐款，自 2023 年起未动</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.5</span> <span class='hn-top-story-score'>&#9650; 28</span> <span class='hn-top-story-comments'>&#128172; 3</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Finance</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='109' data-hn-time='1789609187'>
+<div class='hn-top-story-item' data-hn-score='566' data-hn-time='1789584600'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/16/top_stories_09162026#story-49735410'>DeepSeek-v4.1 Flash: Pushing the Limits of KV Cache Compression</a>
- <a class='hn-top-story-link' href='https://zartbot.github.io/blog/model_arch/dsv41flash_arch/en.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/17/top_stories_09172026#story-49731285'>Training a 4B model to produce 81% faster query plans than Postgres</a>
+ <a class='hn-top-story-link' href='https://rohanbansal.com/qorl' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>DeepSeek-v4.1 Flash：推动 KV 缓存压缩的极限</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 109</span> <span class='hn-top-story-comments'>&#128172; 8</span> <span class='hn-top-story-tag'>Data</span></div>
+<div class='hn-top-story-zh'>用4B参数模型生成查询计划，比PostgreSQL快81%</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 566</span> <span class='hn-top-story-comments'>&#128172; 120</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Data</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='488' data-hn-time='1789574207'>
+<div class='hn-top-story-item' data-hn-score='191' data-hn-time='1789614203'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/16/top_stories_09162026#story-49729000'>Small programming tricks</a>
- <a class='hn-top-story-link' href='https://will-keleher.com/posts/small-programming-tricks-matter/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/17/top_stories_09172026#story-49735930'>Keys Not Included: recovering the signing keys for US driver's license barcodes</a>
+ <a class='hn-top-story-link' href='https://ryan.science/blog/keys-not-included' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>一些小而重要的编程技巧</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 488</span> <span class='hn-top-story-comments'>&#128172; 213</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>未包含密钥：恢复美国驾照条码的签名密钥</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 191</span> <span class='hn-top-story-comments'>&#128172; 70</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1812' data-hn-time='1789500303'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='449' data-hn-time='1789589358'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/16/top_stories_09162026#story-49717558'>Introducing System One Models and Jev</a>
- <a class='hn-top-story-link' href='https://typesafe.ai/blog/introducing-system-one-models-and-jev' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/17/top_stories_09172026#story-49732270'>Xiaomi Mimo 2.6 live post-training dashboard</a>
+ <a class='hn-top-story-link' href='https://mimo.xiaomi.com/rl/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>推出 System One 模型与 Jev</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 1812</span> <span class='hn-top-story-comments'>&#128172; 476</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>小米 Mimo 2.6：实时后训练仪表板</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 449</span> <span class='hn-top-story-comments'>&#128172; 122</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='517' data-hn-time='1789564727'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1825' data-hn-time='1789500303'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/16/top_stories_09162026#story-49726586'>Hackers Got Inside a Flock Camera</a>
- <a class='hn-top-story-link' href='https://www.wired.com/story/hackers-flock-camera-data-shows-how-system-works/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/17/top_stories_09172026#story-49717558'>Introducing System One Models and Jev</a>
+ <a class='hn-top-story-link' href='https://typesafe.ai/blog/introducing-system-one-models-and-jev' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>黑客入侵 Flock 摄像头，其数据揭示系统运作方式</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 517</span> <span class='hn-top-story-comments'>&#128172; 236</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>推出 System One 模型与 Jev</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.2</span> <span class='hn-top-story-score'>&#9650; 1825</span> <span class='hn-top-story-comments'>&#128172; 480</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='2137' data-hn-time='1789475470'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='534' data-hn-time='1789574207'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/16/top_stories_09162026#story-49711544'>Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations</a>
- <a class='hn-top-story-link' href='https://github.com/arnegiacomo/fugleramme' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/17/top_stories_09172026#story-49729000'>Small programming tricks</a>
+ <a class='hn-top-story-link' href='https://will-keleher.com/posts/small-programming-tricks-matter/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Show HN：一款能听鸟鸣并将它们画成19世纪插画风格的电子墨水相框</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.3</span> <span class='hn-top-story-score'>&#9650; 2137</span> <span class='hn-top-story-comments'>&#128172; 243</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>一些小而重要的编程技巧</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.1</span> <span class='hn-top-story-score'>&#9650; 534</span> <span class='hn-top-story-comments'>&#128172; 241</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='564' data-hn-time='1789557353'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='733' data-hn-time='1789557353'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/16/top_stories_09162026#story-49724881'>Nvidia announces native GPU programming in Rust</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/17/top_stories_09172026#story-49724881'>Nvidia announces native GPU programming in Rust</a>
  <a class='hn-top-story-link' href='https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>NVIDIA 宣布原生 Rust GPU 编程支持</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.2</span> <span class='hn-top-story-score'>&#9650; 564</span> <span class='hn-top-story-comments'>&#128172; 204</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 733</span> <span class='hn-top-story-comments'>&#128172; 299</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='187' data-hn-time='1789592364'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='2180' data-hn-time='1789475470'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/16/top_stories_09162026#story-49732931'>Breaking the 1.58-bit Barrier for Ternary LLMs</a>
- <a class='hn-top-story-link' href='https://arxiv.org/abs/2609.16338' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/17/top_stories_09172026#story-49711544'>Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations</a>
+ <a class='hn-top-story-link' href='https://github.com/arnegiacomo/fugleramme' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>打破三值LLM的1.58比特瓶颈</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.1</span> <span class='hn-top-story-score'>&#9650; 187</span> <span class='hn-top-story-comments'>&#128172; 28</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>Show HN：一款能听鸟鸣并将它们画成19世纪插画风格的电子墨水相框</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 2180</span> <span class='hn-top-story-comments'>&#128172; 243</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
-<a class='hn-top-stories-more' href='/hackernews/2026/09/16/top_stories_09162026'>View all trending stories &rarr;</a>
+<a class='hn-top-stories-more' href='/hackernews/2026/09/17/top_stories_09172026'>View all trending stories &rarr;</a>
 <a class='hn-top-stories-more' href='/hackernews/2026/09/15/best_stories_09152026'>Latest Daily Best — 2026-09-15 &rarr;</a>
 </div>
 </div>
@@ -140,10 +140,19 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 38 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-09-14 — 2026-09-16 <span class="hn-row-sep">·</span> 400 stories <span class="hn-row-sep">·</span> 3 days</span>
+<span class='hn-week-meta'>2026-09-14 — 2026-09-17 <span class="hn-row-sep">·</span> 449 stories <span class="hn-row-sep">·</span> 4 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
+<div class='hn-day-row'>
+<div class='hn-day-date'>2026-09-17 <span class='hn-day-weekday'>Thu</span></div>
+<div class='hn-day-stories'>
+<a class='hn-story-link' href='/hackernews/2026/09/17/top_stories_09172026'>
+<span class='hn-row-type hn-type-top'>Trending</span>
+<span class='hn-row-detail'>All <b>49</b> <span class="hn-row-sep">·</span> AI <b>15</b> <span class="hn-row-sep">·</span> Programming <b>11</b></span>
+</a>
+</div>
+</div>
 <div class='hn-day-row'>
 <div class='hn-day-date'>2026-09-16 <span class='hn-day-weekday'>Wed</span></div>
 <div class='hn-day-stories'>
@@ -500,7 +509,7 @@ Sort:
 <details class='hn-week-group'>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 34</span>
-<span class='hn-week-meta'>2026-08-18 — 2026-08-23 <span class="hn-row-sep">·</span> 900 stories <span class="hn-row-sep">·</span> 6 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
+<span class='hn-week-meta'>2026-08-19 — 2026-08-23 <span class="hn-row-sep">·</span> 750 stories <span class="hn-row-sep">·</span> 5 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
 </summary>
 <div class='hn-week-content'>
 <a class='hn-story-link hn-weekly-digest-link' href='/hackernews/weekly/2026-W34'>
@@ -570,19 +579,6 @@ Sort:
 <a class='hn-story-link' href='/hackernews/2026/08/19/top_stories_08192026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
 <span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>27</b> <span class="hn-row-sep">·</span> AI <b>21</b></span>
-</a>
-</div>
-</div>
-<div class='hn-day-row'>
-<div class='hn-day-date'>2026-08-18 <span class='hn-day-weekday'>Tue</span></div>
-<div class='hn-day-stories'>
-<a class='hn-story-link' href='/hackernews/2026/08/18/best_stories_08182026'>
-<span class='hn-row-type hn-type-best'>Daily Best</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> Programming <b>13</b> <span class="hn-row-sep">·</span> AI <b>13</b></span>
-</a>
-<a class='hn-story-link' href='/hackernews/2026/08/18/top_stories_08182026'>
-<span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>24</b> <span class="hn-row-sep">·</span> Programming <b>22</b></span>
 </a>
 </div>
 </div>
