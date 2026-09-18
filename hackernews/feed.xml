@@ -5,7 +5,7 @@
     <link>https://chaowang15.github.io/hackernews/</link>
     <description>Curated daily digest of top Hacker News stories with AI-generated summaries, tags, and bilingual translations.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 18 Sep 2026 11:00:03 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 18 Sep 2026 16:07:20 +0000</lastBuildDate>
     <generator>Hacker News Daily RSS Builder</generator>
     <atom:link href="https://chaowang15.github.io/hackernews/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
@@ -225,6 +225,34 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49701004&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/09/15/top_stories_09152026#story-49701004&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Training a 4B model to produce 81% faster query plans than Postgres</title>
+      <link>https://rohanbansal.com/qorl</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49731285</guid>
+      <dc:creator>polyphilz</dc:creator>
+      <pubDate>Wed, 16 Sep 2026 18:50:00 +0000</pubDate>
+      <category>AI</category>
+      <category>Programming</category>
+      <category>Data</category>
+      <description>&lt;p&gt;A 4B-parameter model is trained to output query plans that run 81% faster than PostgreSQL's planner. This demonstrates the potential of learned query optimizers, but practical use requires thorough benchmarking across workloads and smooth integration with existing databases.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;一个4B参数的模型被训练来输出查询计划，其规划阶段比PostgreSQL的生成器快81%。这展示了学习优化器在查询优化中的潜力，但在实际应用中需要对多种工作负载进行基准测试，并考虑与现有数据库的无缝集成。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 683 · 💬 143 · AI · Programming · Data&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49731285&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/09/17/top_stories_09172026#story-49731285&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hister: A private search engine for the pages you visit and the files you keep</title>
+      <link>https://github.com/asciimoo/hister</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49743097</guid>
+      <dc:creator>bookofjoe</dc:creator>
+      <pubDate>Thu, 17 Sep 2026 16:25:37 +0000</pubDate>
+      <category>Privacy</category>
+      <category>Open Source</category>
+      <category>Security</category>
+      <description>&lt;p&gt;Hister is a private search engine that indexes pages you visit and files you keep, enabling fast, private retrieval of your history. It highlights a trend toward local-first, privacy-preserving search that challenges mainstream cloud-based services, while raising questions about data ownership and security.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Hister 是一款私密搜索引擎，能够对你访问的页面和保存的文件建立索引，以私密方式实现快速检索。此类本地化、隐私优先的搜索趋势挑战主流云服务，同时也引发关于数据所有权与安全性的讨论。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 679 · 💬 179 · Privacy · Open Source · Security&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49743097&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/09/17/top_stories_09172026#story-49743097&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>EU chief opens door for Canada to become 'associate member'</title>
       <link>https://www.bbc.com/news/articles/cjwyzrr9d3dko</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=49724141</guid>
@@ -249,6 +277,18 @@
 &lt;p&gt;&lt;em&gt;互联网档案馆就 Wayback Machine 的访问情况给出更新，澄清当前的访问方式、速率限制与研究/开发者 API 的使用条件。该进展暴露出开放存档与平台控制之间的张力，以及对可复现性和历史研究的影响。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 673 · 💬 354 · Web&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49716176&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/09/16/top_stories_09162026#story-49716176&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Small programming tricks</title>
+      <link>https://will-keleher.com/posts/small-programming-tricks-matter/</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49729000</guid>
+      <dc:creator>signa11</dc:creator>
+      <pubDate>Wed, 16 Sep 2026 15:56:47 +0000</pubDate>
+      <category>Programming</category>
+      <description>&lt;p&gt;Tiny programming tricks can yield outsized gains in clarity and speed. A few well-chosen patterns—like leveraging language features, avoiding boilerplate, and embracing simple abstractions—can make code easier to maintain and faster to ship.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;微小的编程技巧往往带来意想不到的提升，包括代码可读性、可维护性以及潜在的性能改进。通过善用语言特性、减少重复代码与采用简洁的抽象，这些技巧帮助开发者更高效地交付高质量软件。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 661 · 💬 289 · Programming&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49729000&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/09/17/top_stories_09172026#story-49729000&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>google.com/goto: Google's anti-scraping update</title>
@@ -277,18 +317,17 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49704132&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/09/15/top_stories_09152026#story-49704132&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Training a 4B model to produce 81% faster query plans than Postgres</title>
-      <link>https://rohanbansal.com/qorl</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49731285</guid>
-      <dc:creator>polyphilz</dc:creator>
-      <pubDate>Wed, 16 Sep 2026 18:50:00 +0000</pubDate>
+      <title>Microsoft exec called AI scraping 'the largest theft of labor in human history'</title>
+      <link>https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49752056</guid>
+      <dc:creator>pluc</dc:creator>
+      <pubDate>Fri, 18 Sep 2026 09:45:07 +0000</pubDate>
       <category>AI</category>
-      <category>Programming</category>
-      <category>Data</category>
-      <description>&lt;p&gt;A 4B-parameter model is trained to output query plans that run 81% faster than PostgreSQL's planner. This demonstrates the potential of learned query optimizers, but practical use requires thorough benchmarking across workloads and smooth integration with existing databases.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;一个4B参数的模型被训练来输出查询计划，其规划阶段比PostgreSQL的生成器快81%。这展示了学习优化器在查询优化中的潜力，但在实际应用中需要对多种工作负载进行基准测试，并考虑与现有数据库的无缝集成。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 651 · 💬 131 · AI · Programming · Data&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49731285&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/09/16/top_stories_09162026#story-49731285&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Legal</category>
+      <description>&lt;p&gt;A Microsoft executive described AI data scraping as 'the largest theft of labor in human history,' highlighting the ethical and legal tensions around training data. New unredacted filings provide more context to the debate over data licensing, consent, and compensation for model training.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;一位微软高管将AI抓取称为“人类历史上最大的劳动盗窃”，凸显训练数据背后的伦理与法律之争。公开的未披露文件提供了更多背景，强调数据授权、同意与训练成本补偿的问题。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 644 · 💬 558 · AI · Legal&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49752056&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/09/17/top_stories_09172026#story-49752056&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Claude is only available to people over 18 years</title>
@@ -318,19 +357,6 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49678969&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/09/13/top_stories_09132026#story-49678969&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Hister: A private search engine for the pages you visit and the files you keep</title>
-      <link>https://github.com/asciimoo/hister</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49743097</guid>
-      <dc:creator>bookofjoe</dc:creator>
-      <pubDate>Thu, 17 Sep 2026 16:25:37 +0000</pubDate>
-      <category>Privacy</category>
-      <category>Security</category>
-      <description>&lt;p&gt;Hister is a private search engine that indexes pages you visit and files you keep, enabling fast, private retrieval of your history. It highlights a trend toward local-first, privacy-preserving search that challenges mainstream cloud-based services, while raising questions about data ownership and security.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Hister 是一款私密搜索引擎，能够对你访问的页面和保存的文件建立索引，以私密方式实现快速检索。此类本地化、隐私优先的搜索趋势挑战主流云服务，同时也引发关于数据所有权与安全性的讨论。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 623 · 💬 170 · Privacy · Security&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49743097&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/09/18/top_stories_09182026#story-49743097&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Homebrew 7.0.0</title>
       <link>https://brew.sh/2026/09/13/homebrew-7.0.0/</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=49681545</guid>
@@ -342,18 +368,6 @@
 &lt;p&gt;&lt;em&gt;Homebrew 7.0.0 发布，带来性能与依赖解析的改进，并更新核心工具，提升在 macOS 与 Linux 上的包管理稳定性与速度。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 620 · 💬 248 · Programming · Open Source&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49681545&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/09/13/top_stories_09132026#story-49681545&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Small programming tricks</title>
-      <link>https://will-keleher.com/posts/small-programming-tricks-matter/</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49729000</guid>
-      <dc:creator>signa11</dc:creator>
-      <pubDate>Wed, 16 Sep 2026 15:56:47 +0000</pubDate>
-      <category>Programming</category>
-      <description>&lt;p&gt;Tiny programming tricks can yield outsized gains in clarity and speed. A few well-chosen patterns—like leveraging language features, avoiding boilerplate, and embracing simple abstractions—can make code easier to maintain and faster to ship.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;微小的编程技巧往往带来意想不到的提升，包括代码可读性、可维护性以及潜在的性能改进。通过善用语言特性、减少重复代码与采用简洁的抽象，这些技巧帮助开发者更高效地交付高质量软件。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 615 · 💬 269 · Programming&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49729000&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/09/16/top_stories_09162026#story-49729000&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>LG denies TV spying claims, says tracking and snooping concerns 'not true'</title>
@@ -445,6 +459,20 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49639647&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/09/13/top_stories_09132026#story-49639647&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Bend – A language that blocks AI mistakes via proof, on CPU and GPU</title>
+      <link>https://bend-lang.com/</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49746163</guid>
+      <dc:creator>nicolas-siplis</dc:creator>
+      <pubDate>Thu, 17 Sep 2026 20:36:13 +0000</pubDate>
+      <category>Programming</category>
+      <category>AI</category>
+      <category>Hardware</category>
+      <description>&lt;p&gt;Bend proposes a programming language that enforces correctness through formal proofs, aiming to block AI mistakes at runtime on both CPU and GPU. By embedding verifiable proofs into code, Bend could reduce a class of errors in AI-powered applications where reliability matters.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Bend 提出一种通过形式化证明来确保正确性的编程语言，目标是在 CPU 与 GPU 上阻止 AI 失误。将可验证的证明嵌入代码，可能降低对可靠性要求高的 AI 应用中的错误率。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 561 · 💬 285 · Programming · AI · Hardware&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49746163&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/09/17/top_stories_09172026#story-49746163&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>JetKVM Mini</title>
       <link>https://jetkvm.com/blog/introducing-jetkvm-mini</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=49681152</guid>
@@ -471,6 +499,20 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49673098&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/09/13/top_stories_09132026#story-49673098&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Astra for Law</title>
+      <link>https://openai.com/index/astra-for-law/</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49745940</guid>
+      <dc:creator>vertigoruntime</dc:creator>
+      <pubDate>Thu, 17 Sep 2026 20:17:48 +0000</pubDate>
+      <category>AI</category>
+      <category>Legal</category>
+      <category>Politics</category>
+      <description>&lt;p&gt;Astra for Law extends the Astra platform into legal work, offering AI-powered tooling for research, drafting, and analysis. It promises faster due diligence and more consistent drafting while raising concerns about accuracy, bias, and the need for expert oversight in regulated domains.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Astra 将其平台扩展到法律工作，提供AI驱动的研究、起草和分析工具。它可能提升尽职调查速度与文书的一致性，但在受监管领域也引发对准确性、偏见和专业监督需求的关注。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 555 · 💬 650 · AI · Legal · Politics&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49745940&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/09/17/top_stories_09172026#story-49745940&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Hackers Got Inside a Flock Camera</title>
       <link>https://www.wired.com/story/hackers-flock-camera-data-shows-how-system-works/</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=49726586</guid>
@@ -485,6 +527,32 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49726586&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/09/16/top_stories_09162026#story-49726586&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Xiaomi Mimo 2.6 live post-training dashboard</title>
+      <link>https://mimo.xiaomi.com/rl/</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49732270</guid>
+      <dc:creator>krackers</dc:creator>
+      <pubDate>Wed, 16 Sep 2026 20:09:18 +0000</pubDate>
+      <category>AI</category>
+      <category>Privacy</category>
+      <description>&lt;p&gt;Xiaomi Mimo 2.6 introduces a live post-training dashboard that gives engineers real-time visibility into model performance after training runs. It enhances experiment tracking, metrics comparison, and configuration debugging across iterations.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;小米 Mimo 2.6 引入实时的后训练仪表板，为工程师提供训练完成后的模型性能实时可视化。它增强了实验跟踪、指标对比和跨迭代的配置调试能力。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 547 · 💬 154 · AI · Privacy&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49732270&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/09/17/top_stories_09172026#story-49732270&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint</title>
+      <link>https://prismml.com/news/bonsai-2-27b</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49746618</guid>
+      <dc:creator>JonSchneider</dc:creator>
+      <pubDate>Thu, 17 Sep 2026 21:13:31 +0000</pubDate>
+      <category>AI</category>
+      <category>Hardware</category>
+      <description>&lt;p&gt;A new compression approach shrinks a large model’s footprint by about 9x while preserving near-lossless accuracy, enabling cheaper deployment on edge hardware. This work highlights the ongoing balance between model size and performance, with implications for on-device AI and inference cost.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;一项新的压缩方法在近似无损精度下将大型模型的体积约缩小9倍，使其能够在边缘设备上更低成本地部署。此类技术凸显了模型尺寸与性能之间的权衡，对边缘AI和推理成本具有重要影响。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 524 · 💬 172 · AI · Hardware&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49746618&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/09/17/top_stories_09172026#story-49746618&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Apple Reference Image: A New Approach for Verified Photography</title>
       <link>https://security.apple.com/blog/apple-reference-image/</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=49721322</guid>
@@ -496,20 +564,6 @@
 &lt;p&gt;&lt;em&gt;苹果推出参考图像，用以验证摄影的来源与真实性。通过对比参考信息，系统可更早检测伪造或篡改的照片，提升数字影像的可信度。此方法可能改变媒体真实性的验证标准与流程。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 519 · 💬 346 · Security · Privacy&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49721322&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/09/16/top_stories_09162026#story-49721322&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Xiaomi Mimo 2.6 live post-training dashboard</title>
-      <link>https://mimo.xiaomi.com/rl/</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49732270</guid>
-      <dc:creator>krackers</dc:creator>
-      <pubDate>Wed, 16 Sep 2026 20:09:18 +0000</pubDate>
-      <category>AI</category>
-      <category>DevOps</category>
-      <category>Privacy</category>
-      <description>&lt;p&gt;Xiaomi Mimo 2.6 introduces a live post-training dashboard that gives engineers real-time visibility into model performance after training runs. It enhances experiment tracking, metrics comparison, and configuration debugging across iterations.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;小米 Mimo 2.6 引入实时的后训练仪表板，为工程师提供训练完成后的模型性能实时可视化。它增强了实验跟踪、指标对比和跨迭代的配置调试能力。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 517 · 💬 147 · AI · DevOps · Privacy&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49732270&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/09/16/top_stories_09162026#story-49732270&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Suspected sabotage causes major Netherlands rail disruption</title>
@@ -538,20 +592,6 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49719249&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/09/16/top_stories_09162026#story-49719249&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Astra for Law</title>
-      <link>https://openai.com/index/astra-for-law/</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49745940</guid>
-      <dc:creator>vertigoruntime</dc:creator>
-      <pubDate>Thu, 17 Sep 2026 20:17:48 +0000</pubDate>
-      <category>AI</category>
-      <category>Legal</category>
-      <category>Politics</category>
-      <description>&lt;p&gt;Astra for Law extends the Astra platform into legal work, offering AI-powered tooling for research, drafting, and analysis. It promises faster due diligence and more consistent drafting while raising concerns about accuracy, bias, and the need for expert oversight in regulated domains.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Astra 将其平台扩展到法律工作，提供AI驱动的研究、起草和分析工具。它可能提升尽职调查速度与文书的一致性，但在受监管领域也引发对准确性、偏见和专业监督需求的关注。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 500 · 💬 589 · AI · Legal · Politics&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49745940&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/09/18/top_stories_09182026#story-49745940&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>The EPA is planning to scrap public review rules for data center pollution</title>
       <link>https://capitalbnews.org/data-centers-permit-rules-epa/</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=49662672</guid>
@@ -576,20 +616,6 @@
 &lt;p&gt;&lt;em&gt;文中主张 OpenAI 的系统对 RubyGems 的缓存漏洞有提前认知，揭示 AI 工具可能吸收并传播软件供应链风险。对 AI 部署而言，这强调需要将潜在安全知识与政策影响纳入考量。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 498 · 💬 407 · AI · Security&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49695876&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/09/14/top_stories_09142026#story-49695876&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Bend – A language that blocks AI mistakes via proof, on CPU and GPU</title>
-      <link>https://bend-lang.com/</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49746163</guid>
-      <dc:creator>nicolas-siplis</dc:creator>
-      <pubDate>Thu, 17 Sep 2026 20:36:13 +0000</pubDate>
-      <category>Programming</category>
-      <category>AI</category>
-      <category>Hardware</category>
-      <description>&lt;p&gt;Bend proposes a programming language that enforces correctness through formal proofs, aiming to block AI mistakes at runtime on both CPU and GPU. By embedding verifiable proofs into code, Bend could reduce a class of errors in AI-powered applications where reliability matters.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Bend 提出一种通过形式化证明来确保正确性的编程语言，目标是在 CPU 与 GPU 上阻止 AI 失误。将可验证的证明嵌入代码，可能降低对可靠性要求高的 AI 应用中的错误率。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 486 · 💬 228 · Programming · AI · Hardware&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49746163&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/09/18/top_stories_09182026#story-49746163&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Pion, an agent designed to run any company autonomously</title>
@@ -627,33 +653,6 @@
 &lt;p&gt;&lt;em&gt;尽管以 Navier–Stokes 之类的比喻描述进展，作者仍对大语言模型持悲观态度。其认为仅靠扩展规模无法解决可靠性、推理与对齐等根本问题，呼吁谨慎并探索替代的 AI 方法。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 480 · 💬 634 · AI&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49715927&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/09/16/top_stories_09162026#story-49715927&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>US confirms for first time it has deployed space weapons</title>
-      <link>https://www.bbc.com/news/articles/ck790xg41ygro</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49707473</guid>
-      <dc:creator>harporoeder</dc:creator>
-      <pubDate>Tue, 15 Sep 2026 03:47:56 +0000</pubDate>
-      <category>Space</category>
-      <category>Politics</category>
-      <category>Security</category>
-      <description>&lt;p&gt;Marks the first public confirmation that the US has deployed weapons in space, signaling a shift in strategic posture and triggering debates over space security and policy.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;美国首次公开确认在太空部署武器，体现战略姿态的转变，并引发关于太空安全与政策的广泛讨论。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 470 · 💬 346 · Space · Politics · Security&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49707473&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/09/15/top_stories_09152026#story-49707473&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint</title>
-      <link>https://prismml.com/news/bonsai-2-27b</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49746618</guid>
-      <dc:creator>JonSchneider</dc:creator>
-      <pubDate>Thu, 17 Sep 2026 21:13:31 +0000</pubDate>
-      <category>AI</category>
-      <category>Hardware</category>
-      <description>&lt;p&gt;A new compression approach shrinks a large model’s footprint by about 9x while preserving near-lossless accuracy, enabling cheaper deployment on edge hardware. This work highlights the ongoing balance between model size and performance, with implications for on-device AI and inference cost.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;一项新的压缩方法在近似无损精度下将大型模型的体积约缩小9倍，使其能够在边缘设备上更低成本地部署。此类技术凸显了模型尺寸与性能之间的权衡，对边缘AI和推理成本具有重要影响。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 460 · 💬 135 · AI · Hardware&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49746618&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/09/18/top_stories_09182026#story-49746618&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
