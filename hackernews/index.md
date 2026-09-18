@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>211</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>31131</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>208</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>209</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-09-18</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>211</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>31158</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>208</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>209</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-09-18</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,18 +20,18 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='93' data-hn-time='1789724542'>
+<div class='hn-top-story-item' data-hn-score='535' data-hn-time='1789733210'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/18/top_stories_09182026#story-49752041'>OpenJev</a>
- <a class='hn-top-story-link' href='https://openjev.com/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/18/top_stories_09182026#story-49753211'>I don't like passkeys</a>
+ <a class='hn-top-story-link' href='https://hawksley.dev/blog/i-dont-like-passkeys' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>OpenJev 开源项目</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 93</span> <span class='hn-top-story-comments'>&#128172; 44</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-zh'>我不喜欢密钥登录</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 14</span> <span class='hn-top-story-score'>&#9650; 535</span> <span class='hn-top-story-comments'>&#128172; 523</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='89' data-hn-time='1789724707'>
+<div class='hn-top-story-item' data-hn-score='728' data-hn-time='1789724707'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -39,95 +39,95 @@ Sort:
  <a class='hn-top-story-link' href='https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>微软高管称AI抓取是‘人类历史上最大的劳动盗窃’</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 89</span> <span class='hn-top-story-comments'>&#128172; 36</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Legal</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 728</span> <span class='hn-top-story-comments'>&#128172; 631</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>Legal</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='364' data-hn-time='1789699644'>
+<div class='hn-top-story-item' data-hn-score='235' data-hn-time='1789741121'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/18/top_stories_09182026#story-49749656'>A heap overflow and SSO misconfiguration to compromise OpenAI internal repos</a>
- <a class='hn-top-story-link' href='https://www.hacktron.ai/blog/hacking-openai' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/18/top_stories_09182026#story-49754785'>Cloudflare Quick Tunnels</a>
+ <a class='hn-top-story-link' href='https://try.cloudflare.com/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>利用堆溢出和 SSO 配置错误入侵 OpenAI 内部仓库</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.5</span> <span class='hn-top-story-score'>&#9650; 364</span> <span class='hn-top-story-comments'>&#128172; 157</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>Cloudflare 快速隧道</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 235</span> <span class='hn-top-story-comments'>&#128172; 116</span> <span class='hn-top-story-tag'>DevOps</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='167' data-hn-time='1789705224'>
+<div class='hn-top-story-item' data-hn-score='46' data-hn-time='1789750972'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/18/top_stories_09182026#story-49750152'>Jemalloc 5.4.0</a>
- <a class='hn-top-story-link' href='https://github.com/jemalloc/jemalloc/releases/tag/5.4.0' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/18/top_stories_09182026#story-49757178'>There's no point at which turning your brain off will work</a>
+ <a class='hn-top-story-link' href='https://danluu.com/brain-off/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>jemalloc 5.4.0 发布与改进</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 167</span> <span class='hn-top-story-comments'>&#128172; 47</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>永远没有一个时刻靠关掉大脑就能完成任务</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.6</span> <span class='hn-top-story-score'>&#9650; 46</span> <span class='hn-top-story-comments'>&#128172; 19</span> <span class='hn-top-story-tag'>Career</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='460' data-hn-time='1789679611'>
+<div class='hn-top-story-item' data-hn-score='87' data-hn-time='1789746629'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/18/top_stories_09182026#story-49746618'>Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint</a>
- <a class='hn-top-story-link' href='https://prismml.com/news/bonsai-2-27b' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/18/top_stories_09182026#story-49756171'>US Treasuries Have Become Unappetizing for Foreign Central Banks and Governments</a>
+ <a class='hn-top-story-link' href='https://wolfstreet.com/2026/09/17/treasuries-have-become-badly-unappetizing-for-foreign-central-banks-governments/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Bonsai 2 27B：9倍体积的近似无损压缩</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 460</span> <span class='hn-top-story-comments'>&#128172; 135</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>美债对外国央行和政府已变得不再有吸引力</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.1</span> <span class='hn-top-story-score'>&#9650; 87</span> <span class='hn-top-story-comments'>&#128172; 47</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='486' data-hn-time='1789677373'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='92' data-hn-time='1789744533'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/18/top_stories_09182026#story-49746163'>Bend – A language that blocks AI mistakes via proof, on CPU and GPU</a>
- <a class='hn-top-story-link' href='https://bend-lang.com/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/18/top_stories_09182026#story-49755590'>AI is an elite crime spree</a>
+ <a class='hn-top-story-link' href='https://www.thebignewsletter.com/p/ai-is-an-elite-crime-spree' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Bend——通过证明阻止 AI 错误的语言，支持 CPU 与 GPU</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 486</span> <span class='hn-top-story-comments'>&#128172; 228</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>AI 正在引发一场精英犯罪浪潮</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.6</span> <span class='hn-top-story-score'>&#9650; 92</span> <span class='hn-top-story-comments'>&#128172; 26</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='160' data-hn-time='1789704588'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='396' data-hn-time='1789724542'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/18/top_stories_09182026#story-49750094'>The scourge of x86 emulation</a>
- <a class='hn-top-story-link' href='https://fex-emu.com/Scourge-of-emulation/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/18/top_stories_09182026#story-49752041'>OpenJev</a>
+ <a class='hn-top-story-link' href='https://openjev.com/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>x86 仿真的祸根</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 160</span> <span class='hn-top-story-comments'>&#128172; 28</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>OpenJev 开源项目</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.4</span> <span class='hn-top-story-score'>&#9650; 396</span> <span class='hn-top-story-comments'>&#128172; 203</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='500' data-hn-time='1789676268'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='109' data-hn-time='1789742170'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/18/top_stories_09182026#story-49745940'>Astra for Law</a>
- <a class='hn-top-story-link' href='https://openai.com/index/astra-for-law/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/18/top_stories_09182026#story-49755024'>I vibed a proof of Conway's conjecture</a>
+ <a class='hn-top-story-link' href='https://overreacted.io/how-i-vibed-a-proof-of-conways-conjecture/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Astra 在法律领域的应用</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 500</span> <span class='hn-top-story-comments'>&#128172; 589</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>我对 Conway 猜想的证明有灵感</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.1</span> <span class='hn-top-story-score'>&#9650; 109</span> <span class='hn-top-story-comments'>&#128172; 101</span> <span class='hn-top-story-tag'>Science</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='623' data-hn-time='1789662337'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='172' data-hn-time='1789736790'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/18/top_stories_09182026#story-49743097'>Hister: A private search engine for the pages you visit and the files you keep</a>
- <a class='hn-top-story-link' href='https://github.com/asciimoo/hister' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/18/top_stories_09182026#story-49753878'>An Empirical Study of Harness Design for Coding Agents</a>
+ <a class='hn-top-story-link' href='https://arxiv.org/abs/2609.20804' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Hister：私密搜索引擎，索引你访问的页面与保存的文件</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.7</span> <span class='hn-top-story-score'>&#9650; 623</span> <span class='hn-top-story-comments'>&#128172; 170</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>为编码代理设计 harness 的实证研究</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.0</span> <span class='hn-top-story-score'>&#9650; 172</span> <span class='hn-top-story-comments'>&#128172; 37</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='234' data-hn-time='1789686348'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='90' data-hn-time='1789742732'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/18/top_stories_09182026#story-49747925'>Qwen 3.8 Omni Flash</a>
- <a class='hn-top-story-link' href='https://qwen.ai/blog?id=qwen3.8-omni-flash' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/18/top_stories_09182026#story-49755160'>North Korean nuclear test sets off years of earthquakes</a>
+ <a class='hn-top-story-link' href='https://www.science.org/content/article/north-korean-nuclear-test-sets-years-earthquakes' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Qwen 3.8 Omni Flash 发布</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 234</span> <span class='hn-top-story-comments'>&#128172; 84</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>朝鲜核试验引发多年地震</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.3</span> <span class='hn-top-story-score'>&#9650; 90</span> <span class='hn-top-story-comments'>&#128172; 70</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Energy</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -140,7 +140,7 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 38 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-09-14 — 2026-09-18 <span class="hn-row-sep">·</span> 649 stories <span class="hn-row-sep">·</span> 5 days</span>
+<span class='hn-week-meta'>2026-09-14 — 2026-09-18 <span class="hn-row-sep">·</span> 676 stories <span class="hn-row-sep">·</span> 5 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/09/18/top_stories_09182026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>49</b> <span class="hn-row-sep">·</span> AI <b>14</b> <span class="hn-row-sep">·</span> Hardware <b>12</b></span>
+<span class='hn-row-detail'>All <b>76</b> <span class="hn-row-sep">·</span> AI <b>20</b> <span class="hn-row-sep">·</span> Science <b>16</b></span>
 </a>
 </div>
 </div>
