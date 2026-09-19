@@ -4,19 +4,19 @@
     "source": "https://news.ycombinator.com/",
     "api": "https://github.com/HackerNews/API",
     "count_requested": 50,
-    "count_written": 65,
-    "reused_same_day": 33,
+    "count_written": 75,
+    "reused_same_day": 38,
     "reused_cross_day": 0,
-    "new_llm_enriched": 16,
-    "scrape_time_display": "10:01, September 19, 2026 (PDT)",
+    "new_llm_enriched": 11,
+    "scrape_time_display": "12:59, September 19, 2026 (PDT)",
     "timezone": "America/Los_Angeles",
     "date_dir": "2026/09/19",
     "content_date": "2026-09-19",
-    "run_time_local": "10:01, September 19, 2026 (PDT)",
-    "run_time_utc": "2026-09-19 17:01:15 UTC",
+    "run_time_local": "12:59, September 19, 2026 (PDT)",
+    "run_time_utc": "2026-09-19 19:59:00 UTC",
     "incremental": true,
     "stories_max": 100,
-    "hot_score_time_utc": "2026-09-19 17:02:15 UTC"
+    "hot_score_time_utc": "2026-09-19 20:00:17 UTC"
   },
   "items": [
     {
@@ -31,8 +31,8 @@
         "id": 49764791,
         "type": "story",
         "by": "ereiamjh",
-        "score": 759,
-        "descendants": 456,
+        "score": 1062,
+        "descendants": 598,
         "time": 1789809658,
         "comments_url": "https://news.ycombinator.com/item?id=49764791"
       },
@@ -40,53 +40,51 @@
         "AI",
         "Design"
       ],
-      "hot_score": 12.72
+      "hot_score": 11.01
     },
     {
-      "title_en": "Laya the open source version of Jev",
+      "title_en": "I built non-autoregressive decision models with RL a year ago",
       "url": "https://laya.convaiinnovations.com/",
-      "title_zh": "Laya：Jev 的开源版本",
+      "title_zh": "用强化学习构建非自回归决策模型",
       "created_display": "Created: Sep 19, 2026 / 03:46 PT",
       "image_url": "https://laya-ai.vercel.app/laya_vs_jev_full.png",
-      "summary_en": "Laya is the open-source release of Jev, delivering an on-premises or self-hosted option for a next-gen conversational AI. It lets developers customize models, data handling, and privacy controls without depending on hosted services, accelerating experimentation and deployment.",
-      "summary_zh": "Laya 是 Jev 的开源版本，提供可自托管的对话式AI框架，方便开发者在自有基础设施上定制模型、数据处理与隐私控制。开源发布将促进社区实验和本地部署的灵活性，同时也带来对内容与安全的额外挑战。",
+      "summary_en": "A year ago I built non-autoregressive decision models trained with reinforcement learning to parallelize decision making and reduce inference latency. This post shares what worked, what didn’t, and the stability tricks that helped training finish reliably. Takeaway: non-autoregressive RL can speed up decisions, but it demands careful reward design and robust training.",
+      "summary_zh": "一年前我用强化学习实现了非自回归决策模型，以并行化决策并降低推理延迟。文中总结了有效与无效的方法，以及帮助训练稳定的技巧。要点在于：非自回归的 RL 方法确实能加速推理，但需要精心设计奖励并确保训练稳定。",
       "hn": {
         "id": 49765348,
         "type": "story",
         "by": "nandakishor_ml",
-        "score": 555,
-        "descendants": 142,
+        "score": 834,
+        "descendants": 205,
         "time": 1789814818,
         "comments_url": "https://news.ycombinator.com/item?id=49765348"
       },
+      "hot_score": 10.73,
       "tags": [
-        "AI",
-        "Open Source",
-        "Privacy"
-      ],
-      "hot_score": 12.4
+        "AI"
+      ]
     },
     {
-      "title_en": "What Zig felt like, coming from Rust",
-      "url": "https://besok.github.io/posts/what-zig-felt-like-coming-from-rust/",
-      "title_zh": "从 Rust 转向 Zig 的使用体验",
-      "created_display": "Created: Sep 19, 2026 / 06:55 PT",
+      "title_en": "Almost Never Use AI to Write Anything Substantive",
+      "url": "https://erichgrunewald.substack.com/p/why-you-should-almost-never-use-ai",
+      "title_zh": "几乎不让 AI 撰写任何有实质性的内容",
+      "created_display": "Created: Sep 19, 2026 / 09:35 PT",
       "image_url": null,
-      "summary_en": "What Zig felt like, coming from Rust compares the ergonomics, tooling, and safety model of Zig with Rust from a developer’s perspective.",
-      "summary_zh": "从 Rust 转向 Zig 的使用体验，作者对两种语言的风格、工具链与安全模型进行了对比。内容聚焦编译时灵活性、可预测性，以及从成熟语言跳槽到新语言的取舍。",
+      "summary_en": "Almost Never Use AI to Write Anything Substantive argues for reserving AI for auxiliary tasks, warning about accuracy and originality when it comes to substantive writing. It offers guidelines on when AI is appropriate versus when to rely on human judgment.",
+      "summary_zh": "主张在实质性写作中几乎不使用 AI，强调 AI 可能带来的不准确性和原创性风险。给出对 AI 应用的边界建议，帮助读者区分辅助用途与核心创作。",
       "hn": {
-        "id": 49766637,
+        "id": 49767937,
         "type": "story",
-        "by": "ksec",
+        "by": "erwald",
         "score": 101,
-        "descendants": 106,
-        "time": 1789826118,
-        "comments_url": "https://news.ycombinator.com/item?id=49766637"
+        "descendants": 63,
+        "time": 1789835724,
+        "comments_url": "https://news.ycombinator.com/item?id=49767937"
       },
-      "hot_score": 5.3,
       "tags": [
-        "Programming"
-      ]
+        "AI"
+      ],
+      "hot_score": 4.78
     },
     {
       "title_en": "Human brain is two separate organs, Stanford Medicine-led research finds",
@@ -100,15 +98,59 @@
         "id": 49763697,
         "type": "story",
         "by": "emigre",
-        "score": 492,
-        "descendants": 180,
+        "score": 572,
+        "descendants": 208,
         "time": 1789796930,
         "comments_url": "https://news.ycombinator.com/item?id=49763697"
       },
       "tags": [
         "Science"
       ],
-      "hot_score": 4.71
+      "hot_score": 3.8
+    },
+    {
+      "title_en": "Btrfs/ZFS/bcachefs under workloads classic benchmarks skip",
+      "url": "https://bartosz.fenski.pl/modern-fs-benchmark/",
+      "title_zh": "经典基准下的 Btrfs/ZFS/bcachefs 现代工作负载对比（跳过部分基准）",
+      "created_display": "Created: Sep 19, 2026 / 11:11 PT",
+      "image_url": null,
+      "summary_en": "A modern filesystem benchmark pits Btrfs, ZFS, and bcachefs against contemporary workloads, and notes that some classic benchmarks are skipped. The results illustrate tradeoffs between data integrity, performance, and maturity across the three FS options, with ZFS offering mature features and bcachefs showing potential but less maturity.",
+      "summary_zh": "这项现代文件系统基准测试在 Btrfs、ZFS 与 bcachefs 之间进行比较，指出某些经典基准被跳过。结果揭示数据完整性、性能与成熟度之间的取舍，ZFS 功能更成熟，bcachefs 仍具潜力但不如 ZFS 成熟。",
+      "hn": {
+        "id": 49768833,
+        "type": "story",
+        "by": "farlight",
+        "score": 40,
+        "descendants": 28,
+        "time": 1789841500,
+        "comments_url": "https://news.ycombinator.com/item?id=49768833"
+      },
+      "hot_score": 3.51,
+      "tags": [
+        "Open Source"
+      ]
+    },
+    {
+      "title_en": "What Zig felt like, coming from Rust",
+      "url": "https://besok.github.io/posts/what-zig-felt-like-coming-from-rust/",
+      "title_zh": "从 Rust 转向 Zig 的使用体验",
+      "created_display": "Created: Sep 19, 2026 / 06:55 PT",
+      "image_url": null,
+      "summary_en": "What Zig felt like, coming from Rust compares the ergonomics, tooling, and safety model of Zig with Rust from a developer’s perspective.",
+      "summary_zh": "从 Rust 转向 Zig 的使用体验，作者对两种语言的风格、工具链与安全模型进行了对比。内容聚焦编译时灵活性、可预测性，以及从成熟语言跳槽到新语言的取舍。",
+      "hn": {
+        "id": 49766637,
+        "type": "story",
+        "by": "ksec",
+        "score": 145,
+        "descendants": 170,
+        "time": 1789826118,
+        "comments_url": "https://news.ycombinator.com/item?id=49766637"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 3.35
     },
     {
       "title_en": "Tin: full-text search for Postgres",
@@ -122,39 +164,16 @@
         "id": 49766611,
         "type": "story",
         "by": "ksec",
-        "score": 88,
-        "descendants": 41,
+        "score": 137,
+        "descendants": 61,
         "time": 1789825926,
         "comments_url": "https://news.ycombinator.com/item?id=49766611"
       },
-      "hot_score": 4.52,
       "tags": [
         "Programming",
         "Data"
-      ]
-    },
-    {
-      "title_en": "A graphical desktop for the ZX Spectrum",
-      "url": "https://github.com/mindbox77/zxdesk",
-      "title_zh": "ZX Spectrum 的图形桌面环境",
-      "created_display": "Created: Sep 19, 2026 / 07:01 PT",
-      "image_url": "https://opengraph.githubassets.com/83b4f470e35f140113716edf174782130bff893256fff5794fb65c576c7c9360/mindbox77/zxdesk",
-      "summary_en": "A graphical desktop environment for the ZX Spectrum demonstrates a GUI on vintage hardware, including windows and desktop metaphors. It shows how modern UI ideas can be implemented on limited resources, offering a playful bridge between retro computing and contemporary UI experiments.",
-      "summary_zh": "ZX Spectrum 的图形桌面让这台早期 8 位机拥有了窗口化界面，演示在资源受限的硬件上实现现代 GUI 的可能性。项目把复古与当代 UX 的边界拉得更近，适合爱好者和硬件实验者借此感受历史与技术的交叉。",
-      "hn": {
-        "id": 49766676,
-        "type": "story",
-        "by": "graemep",
-        "score": 69,
-        "descendants": 47,
-        "time": 1789826518,
-        "comments_url": "https://news.ycombinator.com/item?id=49766676"
-      },
-      "hot_score": 3.75,
-      "tags": [
-        "Hardware",
-        "Design"
-      ]
+      ],
+      "hot_score": 3.12
     },
     {
       "title_en": "Android 17 is the first since 3.x to add new APIs without releasing to the AOSP",
@@ -168,37 +187,83 @@
         "id": 49758736,
         "type": "story",
         "by": "theanonymousone",
-        "score": 988,
-        "descendants": 551,
+        "score": 1055,
+        "descendants": 615,
         "time": 1789758189,
         "comments_url": "https://news.ycombinator.com/item?id=49758736"
       },
       "tags": [
         "Programming"
       ],
-      "hot_score": 3.24
+      "hot_score": 2.8
     },
     {
-      "title_en": "Learning Another Language May Be One of the Best Ways to Keep Your Brain Healthy",
-      "url": "https://theconversation.com/learning-another-language-may-be-one-of-the-best-ways-to-keep-your-brain-healthy-as-you-age-291951",
-      "title_zh": "学习另一门语言可能是保持大脑健康的最佳方法之一",
-      "created_display": "Created: Sep 19, 2026 / 07:23 PT",
-      "image_url": "https://images.theconversation.com/files/760251/original/file-20260916-50-hdmc7y.jpg?ixlib=rb-4.1.1&rect=0%2C251%2C3770%2C1885&q=45&auto=format&w=1356&h=668&fit=crop",
-      "summary_en": "Learning another language may keep your brain healthy as you age, with research showing cognitive benefits from bilingualism. The piece summarizes how language learning strengthens executive function and neural reserve, with practical tips to start.",
-      "summary_zh": "研究表明学习另一门语言有助于维持大脑健康，能提升认知储备并推迟衰退。文章还给出实际的语言学习建议，鼓励从小处着手持续练习。",
+      "title_en": "A graphical desktop for the ZX Spectrum",
+      "url": "https://github.com/mindbox77/zxdesk",
+      "title_zh": "ZX Spectrum 的图形桌面环境",
+      "created_display": "Created: Sep 19, 2026 / 07:01 PT",
+      "image_url": "https://opengraph.githubassets.com/83b4f470e35f140113716edf174782130bff893256fff5794fb65c576c7c9360/mindbox77/zxdesk",
+      "summary_en": "A graphical desktop environment for the ZX Spectrum demonstrates a GUI on vintage hardware, including windows and desktop metaphors. It shows how modern UI ideas can be implemented on limited resources, offering a playful bridge between retro computing and contemporary UI experiments.",
+      "summary_zh": "ZX Spectrum 的图形桌面让这台早期 8 位机拥有了窗口化界面，演示在资源受限的硬件上实现现代 GUI 的可能性。项目把复古与当代 UX 的边界拉得更近，适合爱好者和硬件实验者借此感受历史与技术的交叉。",
       "hn": {
-        "id": 49766821,
+        "id": 49766676,
         "type": "story",
-        "by": "nativeit",
-        "score": 46,
-        "descendants": 39,
-        "time": 1789827822,
-        "comments_url": "https://news.ycombinator.com/item?id=49766821"
+        "by": "graemep",
+        "score": 118,
+        "descendants": 89,
+        "time": 1789826518,
+        "comments_url": "https://news.ycombinator.com/item?id=49766676"
       },
-      "hot_score": 2.84,
       "tags": [
-        "Science",
-        "Education"
+        "Design",
+        "Hardware"
+      ],
+      "hot_score": 2.79
+    },
+    {
+      "title_en": "Lawsuit says Anthropic, OpenAI and others made illegal agreement on AI slowdown",
+      "url": "https://apnews.com/article/antitrust-lawsuit-ai-slowdown-anthropic-openai-spacexai-google-960af4308161eaf4ed13c383b0ce1c1b",
+      "title_zh": "诉讼称 Anthropic、OpenAI 等就 AI 放缓达成非法协议",
+      "created_display": "Created: Sep 19, 2026 / 11:36 PT",
+      "image_url": null,
+      "summary_en": "A lawsuit alleges that Anthropic, OpenAI, and other players colluded to illegally slow the pace of AI development, with potential implications for antitrust enforcement in the sector. The filing underscores tensions between regulatory ambitions and competitive dynamics in AI. Takeaway: the line between collaboration and restraint is under legal scrutiny as AI evolves.",
+      "summary_zh": "诉讼指控 Anthropic、OpenAI 等就降低 AI 发展速度进行非法勾结，可能影响行业的反垄断执法。案情凸显监管目标与市场竞争之间的张力，反映出 AI 领域正处在更高强度的法律审视之下。要点：在 AI 演进的背景下，协作与克制的界线正接受法律审查。",
+      "hn": {
+        "id": 49769050,
+        "type": "story",
+        "by": "embedding-shape",
+        "score": 23,
+        "descendants": 3,
+        "time": 1789843004,
+        "comments_url": "https://news.ycombinator.com/item?id=49769050"
+      },
+      "hot_score": 2.44,
+      "tags": [
+        "Legal",
+        "AI",
+        "Politics"
+      ]
+    },
+    {
+      "title_en": "Disney+ changes subscriber agreement to allow ads on every plan",
+      "url": "https://www.dexerto.com/tv-movies/disney-changes-subscriber-agreement-to-allow-ads-on-every-plan-3410354/",
+      "title_zh": "Disney+ 将所有计划纳入广告模式的订阅协议变更",
+      "created_display": "Created: Sep 19, 2026 / 12:21 PT",
+      "image_url": "https://www.dexerto.com/cdn-image/wp-content/uploads/2024/04/16/disney-plus.jpg",
+      "summary_en": "Disney+ updates its subscriber agreement to allow ads on all plans, effectively removing the ad-free option and enabling cheaper, ad-supported plans. The shift mirrors industry-wide moves toward ad-supported streaming and raises questions about user experience and data targeting. Takeaway: ad-supported tiers may become standard, pressuring rivals to adapt pricing and features.",
+      "summary_zh": "Disney+ 更新订阅协议，允许在所有计划中投放广告，等于移除了无广告选项并可能推出以广告为支撑的更便宜计划。此举与行业转向广告模式的趋势一致，并引发对用户体验与数据投放的关注。要点：广告支持的计划或成主流，推动行业在定价和功能上的调整。",
+      "hn": {
+        "id": 49769395,
+        "type": "story",
+        "by": "DemiGuru",
+        "score": 15,
+        "descendants": 2,
+        "time": 1789845709,
+        "comments_url": "https://news.ycombinator.com/item?id=49769395"
+      },
+      "hot_score": 2.44,
+      "tags": [
+        "Business"
       ]
     },
     {
@@ -213,15 +278,15 @@
         "id": 49763987,
         "type": "story",
         "by": "nsoonhui",
-        "score": 256,
-        "descendants": 132,
+        "score": 302,
+        "descendants": 152,
         "time": 1789800104,
         "comments_url": "https://news.ycombinator.com/item?id=49763987"
       },
       "tags": [
         "AI"
       ],
-      "hot_score": 2.77
+      "hot_score": 2.22
     },
     {
       "title_en": "Claude Code now reads AGENTS.md if there is no Claude.md",
@@ -241,32 +306,9 @@
         "comments_url": "https://news.ycombinator.com/item?id=49760187"
       },
       "tags": [
-        "AI",
-        "Programming"
+        "AI"
       ],
-      "hot_score": 2.51
-    },
-    {
-      "title_en": "San Francisco Onion Futures Company",
-      "url": "https://onionfutures.com/",
-      "title_zh": "旧金山洋葱期货公司",
-      "created_display": "Created: Sep 18, 2026 / 21:23 PT",
-      "image_url": null,
-      "summary_en": "A playful project revisits onion futures by simulating trading for onions in San Francisco. It illuminates how futures markets work, including hedging, liquidity, and mispricing, even for everyday commodities. The exercise serves as a reminder of market design and the human factors behind it.",
-      "summary_zh": "一个富有趣味的项目通过在旧金山模拟洋葱期货交易，回顾期货市场的运作方式。它揭示了对冲、流动性与价格错配等要点，即便是日常商品也会受市场机制影响。此举强调市场设计及背后的人为因素。",
-      "hn": {
-        "id": 49763296,
-        "type": "story",
-        "by": "z-mach9",
-        "score": 307,
-        "descendants": 117,
-        "time": 1789791810,
-        "comments_url": "https://news.ycombinator.com/item?id=49763296"
-      },
-      "tags": [
-        "Finance"
-      ],
-      "hot_score": 2.44
+      "hot_score": 2.0
     },
     {
       "title_en": "If math is more than proof, we need to better celebrate the rest of it",
@@ -280,17 +322,38 @@
         "id": 49763928,
         "type": "story",
         "by": "num42",
-        "score": 233,
-        "descendants": 192,
+        "score": 264,
+        "descendants": 222,
         "time": 1789799282,
         "comments_url": "https://news.ycombinator.com/item?id=49763928"
       },
       "tags": [
-        "Science",
         "Education",
-        "Culture"
+        "Science"
       ],
-      "hot_score": 2.44
+      "hot_score": 1.89
+    },
+    {
+      "title_en": "San Francisco Onion Futures Company",
+      "url": "https://onionfutures.com/",
+      "title_zh": "旧金山洋葱期货公司",
+      "created_display": "Created: Sep 18, 2026 / 21:23 PT",
+      "image_url": null,
+      "summary_en": "A playful project revisits onion futures by simulating trading for onions in San Francisco. It illuminates how futures markets work, including hedging, liquidity, and mispricing, even for everyday commodities. The exercise serves as a reminder of market design and the human factors behind it.",
+      "summary_zh": "一个富有趣味的项目通过在旧金山模拟洋葱期货交易，回顾期货市场的运作方式。它揭示了对冲、流动性与价格错配等要点，即便是日常商品也会受市场机制影响。此举强调市场设计及背后的人为因素。",
+      "hn": {
+        "id": 49763296,
+        "type": "story",
+        "by": "z-mach9",
+        "score": 329,
+        "descendants": 141,
+        "time": 1789791810,
+        "comments_url": "https://news.ycombinator.com/item?id=49763296"
+      },
+      "tags": [
+        "Finance"
+      ],
+      "hot_score": 1.88
     },
     {
       "title_en": "Cloudflare Quick Tunnels",
@@ -304,36 +367,37 @@
         "id": 49754785,
         "type": "story",
         "by": "jcbhmr",
-        "score": 775,
-        "descendants": 301,
+        "score": 793,
+        "descendants": 303,
         "time": 1789741121,
         "comments_url": "https://news.ycombinator.com/item?id=49754785"
       },
       "tags": [
         "DevOps"
       ],
-      "hot_score": 1.84
+      "hot_score": 1.57
     },
     {
-      "title_en": "Jobs Without LeetCode",
-      "url": "https://noleet.lol/jobs",
-      "title_zh": "没有 LeetCode 的工作",
-      "created_display": "Created: Sep 19, 2026 / 08:32 PT",
-      "image_url": "https://noleet.lol/card.png",
-      "summary_en": "Jobs Without LeetCode highlights opportunities and hiring approaches that don’t rely on LeetCode-style algorithm interviews. It advocates prioritizing real-world skills, portfolio quality, and practical problem-solving over coding-puzzle screening.",
-      "summary_zh": "倡导没有 LeetCode 题海的招聘模式，强调用人单位应看重真实能力与项目经验，而非通过刷题测试。提供对更贴近实际工作的招聘策略的思考。",
+      "title_en": "Learning Another Language May Be One of the Best Ways to Keep Your Brain Healthy",
+      "url": "https://theconversation.com/learning-another-language-may-be-one-of-the-best-ways-to-keep-your-brain-healthy-as-you-age-291951",
+      "title_zh": "学习另一门语言可能是保持大脑健康的最佳方法之一",
+      "created_display": "Created: Sep 19, 2026 / 07:23 PT",
+      "image_url": "https://images.theconversation.com/files/760251/original/file-20260916-50-hdmc7y.jpg?ixlib=rb-4.1.1&rect=0%2C251%2C3770%2C1885&q=45&auto=format&w=1356&h=668&fit=crop",
+      "summary_en": "Learning another language may keep your brain healthy as you age, with research showing cognitive benefits from bilingualism. The piece summarizes how language learning strengthens executive function and neural reserve, with practical tips to start.",
+      "summary_zh": "研究表明学习另一门语言有助于维持大脑健康，能提升认知储备并推迟衰退。文章还给出实际的语言学习建议，鼓励从小处着手持续练习。",
       "hn": {
-        "id": 49767386,
+        "id": 49766821,
         "type": "story",
-        "by": "monological",
-        "score": 18,
-        "descendants": 7,
-        "time": 1789831939,
-        "comments_url": "https://news.ycombinator.com/item?id=49767386"
+        "by": "nativeit",
+        "score": 46,
+        "descendants": 39,
+        "time": 1789827822,
+        "comments_url": "https://news.ycombinator.com/item?id=49766821"
       },
-      "hot_score": 1.78,
+      "hot_score": 1.17,
       "tags": [
-        "Career"
+        "Health",
+        "Education"
       ]
     },
     {
@@ -348,38 +412,15 @@
         "id": 49758580,
         "type": "story",
         "by": "f311a",
-        "score": 421,
-        "descendants": 89,
+        "score": 440,
+        "descendants": 98,
         "time": 1789757506,
         "comments_url": "https://news.ycombinator.com/item?id=49758580"
       },
       "tags": [
         "Programming"
       ],
-      "hot_score": 1.36
-    },
-    {
-      "title_en": "Agreement between the USA and Denmark (1951,2004) [pdf]",
-      "url": "https://www.state.gov/wp-content/uploads/2019/02/04-806-Denmark-Defense.done_.pdf",
-      "title_zh": "美国与丹麦的协定（1951、2004）",
-      "created_display": "Created: Sep 19, 2026 / 07:45 PT",
-      "image_url": null,
-      "summary_en": "A historical defense pact between the USA and Denmark, covering security cooperation in the mid-20th and early 2000s. The documents illuminate bases, treaties, and alliance dynamics that shaped regional defense posture.",
-      "summary_zh": "这是一份关于美国与丹麦在 1951 年和 2004 年的防务协定的资料，揭示双方安全承诺和合作框架。文件展现了跨大西洋防务关系的历史脉络与区域安全影响。",
-      "hn": {
-        "id": 49766976,
-        "type": "story",
-        "by": "closingreunion",
-        "score": 19,
-        "descendants": 13,
-        "time": 1789829112,
-        "comments_url": "https://news.ycombinator.com/item?id=49766976"
-      },
-      "hot_score": 1.31,
-      "tags": [
-        "Politics",
-        "Security"
-      ]
+      "hot_score": 1.15
     },
     {
       "title_en": "OpenJev",
@@ -401,7 +442,32 @@
       "tags": [
         "Open Source"
       ],
-      "hot_score": 1.21
+      "hot_score": 1.04
+    },
+    {
+      "title_en": "Microsoft director: AI scraping 'the largest theft of labor in human history'",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-director-called-ai-scraping-the-largest-theft-of-labor-in-human-history-while-openai-head-brands-chatgpt-an-existential-threat-to-publishers-revelations-come-from-legal-briefs-filed-in-nyt-lawsuit",
+      "title_zh": "微软主管：AI 抓取数据是‘人类历史上最大的劳动盗窃’",
+      "created_display": "Created: Sep 19, 2026 / 11:21 PT",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/tfUHUik9dBB9GKZAFqC6u4-2000-80.jpg",
+      "summary_en": "A Microsoft executive characterized AI training-data scraping as the largest labor theft in history, highlighting tensions around data licensing, compensation, and the economics of AI. The remark comes amid ongoing lawsuits and regulatory scrutiny over training data sources. Takeaway: sourcing and paying for training data remains a central policy question for AI developers and publishers.",
+      "summary_zh": "一位微软高管将 AI 训练数据抓取称为“人类历史上最大的劳动盗窃”，凸显数据许可、报酬与 AI 经济学之间的紧张关系。这一说法出现在关于数据来源的诉讼与监管审查之中。要点在于训练数据的来源与报酬问题正成为 AI 行业的核心政策议题。",
+      "hn": {
+        "id": 49768921,
+        "type": "story",
+        "by": "jonbaer",
+        "score": 10,
+        "descendants": 2,
+        "time": 1789842090,
+        "comments_url": "https://news.ycombinator.com/item?id=49768921"
+      },
+      "hot_score": 0.88,
+      "tags": [
+        "Legal",
+        "Business",
+        "AI",
+        "Politics"
+      ]
     },
     {
       "title_en": "Science Is Open Software",
@@ -415,39 +481,17 @@
         "id": 49762687,
         "type": "story",
         "by": "jegp",
-        "score": 137,
-        "descendants": 51,
+        "score": 146,
+        "descendants": 64,
         "time": 1789784495,
         "comments_url": "https://news.ycombinator.com/item?id=49762687"
       },
       "tags": [
-        "Open Source",
         "Science",
+        "Open Source",
         "DevOps"
       ],
-      "hot_score": 0.86
-    },
-    {
-      "title_en": "Almost Never Use AI to Write Anything Substantive",
-      "url": "https://erichgrunewald.substack.com/p/why-you-should-almost-never-use-ai",
-      "title_zh": "几乎不让 AI 撰写任何有实质性的内容",
-      "created_display": "Created: Sep 19, 2026 / 09:35 PT",
-      "image_url": null,
-      "summary_en": "Almost Never Use AI to Write Anything Substantive argues for reserving AI for auxiliary tasks, warning about accuracy and originality when it comes to substantive writing. It offers guidelines on when AI is appropriate versus when to rely on human judgment.",
-      "summary_zh": "主张在实质性写作中几乎不使用 AI，强调 AI 可能带来的不准确性和原创性风险。给出对 AI 应用的边界建议，帮助读者区分辅助用途与核心创作。",
-      "hn": {
-        "id": 49767937,
-        "type": "story",
-        "by": "erwald",
-        "score": 5,
-        "descendants": 0,
-        "time": 1789835724,
-        "comments_url": "https://news.ycombinator.com/item?id=49767937"
-      },
-      "hot_score": 0.8,
-      "tags": [
-        "AI"
-      ]
+      "hot_score": 0.68
     },
     {
       "title_en": "How OpenAI Used Its Own LLMs to Design Its Jalapeño Chip",
@@ -461,8 +505,8 @@
         "id": 49761432,
         "type": "story",
         "by": "maxall4",
-        "score": 172,
-        "descendants": 121,
+        "score": 189,
+        "descendants": 128,
         "time": 1789772657,
         "comments_url": "https://news.ycombinator.com/item?id=49761432"
       },
@@ -470,7 +514,52 @@
         "AI",
         "Hardware"
       ],
-      "hot_score": 0.78
+      "hot_score": 0.67
+    },
+    {
+      "title_en": "Ask HN: How do you interview devs in a post-AI world?",
+      "url": "https://news.ycombinator.com/item?id=49768826",
+      "title_zh": "Ask HN：在后 AI 世界中你如何面试开发者？",
+      "created_display": "Created: Sep 19, 2026 / 11:10 PT",
+      "image_url": "https://news.ycombinator.com/y18.svg",
+      "summary_en": "A Hacker News discussion on interviewing developers in a post-AI world, focusing on evaluating design thinking, collaboration, and practical impact rather than pure algorithmic prowess. The crowd suggests shifting toward assessing learning agility and real-world problem-solving. Takeaway: interview strategies evolve as AI handles routine tasks, emphasizing judgment and product sense.",
+      "summary_zh": "关于在后 AI 时代如何面试开发者的 HN 讨论，关注于评估设计思维、协作能力和实际影响力，而非单纯的算法题。网友建议转向评估学习能力、解决真实问题的能力等。要点：随着 AI 处理常规任务，面试策略需要转向判断力与产品意识。",
+      "hn": {
+        "id": 49768826,
+        "type": "story",
+        "by": "mdwelsh",
+        "score": 8,
+        "descendants": 3,
+        "time": 1789841434,
+        "comments_url": "https://news.ycombinator.com/item?id=49768826"
+      },
+      "hot_score": 0.62,
+      "tags": [
+        "Career",
+        "AI"
+      ]
+    },
+    {
+      "title_en": "Jobs Without LeetCode",
+      "url": "https://noleet.lol/jobs",
+      "title_zh": "没有 LeetCode 的工作",
+      "created_display": "Created: Sep 19, 2026 / 08:32 PT",
+      "image_url": "https://noleet.lol/card.png",
+      "summary_en": "Jobs Without LeetCode highlights opportunities and hiring approaches that don’t rely on LeetCode-style algorithm interviews. It advocates prioritizing real-world skills, portfolio quality, and practical problem-solving over coding-puzzle screening.",
+      "summary_zh": "倡导没有 LeetCode 题海的招聘模式，强调用人单位应看重真实能力与项目经验，而非通过刷题测试。提供对更贴近实际工作的招聘策略的思考。",
+      "hn": {
+        "id": 49767386,
+        "type": "story",
+        "by": "monological",
+        "score": 18,
+        "descendants": 7,
+        "time": 1789831939,
+        "comments_url": "https://news.ycombinator.com/item?id=49767386"
+      },
+      "hot_score": 0.59,
+      "tags": [
+        "Career"
+      ]
     },
     {
       "title_en": "SDCC – Small Device C Compiler",
@@ -484,38 +573,155 @@
         "id": 49762744,
         "type": "story",
         "by": "lioeters",
-        "score": 113,
-        "descendants": 23,
+        "score": 118,
+        "descendants": 28,
         "time": 1789785156,
         "comments_url": "https://news.ycombinator.com/item?id=49762744"
       },
       "tags": [
         "Programming",
-        "Open Source"
+        "Open Source",
+        "Hardware"
       ],
-      "hot_score": 0.72
+      "hot_score": 0.56
     },
     {
-      "title_en": "Apple M6 Pro Achieves the Highest Single-Core CPU Score in Geekbench 7",
-      "url": "https://browser.geekbench.com/v7/cpu/389219",
-      "title_zh": "苹果 M6 Pro 在 Geekbench 7 单核测试中夺得最高分",
-      "created_display": "Created: Sep 18, 2026 / 23:19 PT",
-      "image_url": null,
-      "summary_en": "Apple's M6 Pro reportedly tops Geekbench 7 single-core benchmarks, signaling a notable performance lead in single-thread efficiency. While synthetic scores matter for enthusiasts, real-world tasks and power efficiency ultimately determine practical wins, especially for mobile devices.",
-      "summary_zh": "苹果 M6 Pro 在 Geekbench 7 单核测试中夺得最高分，显示单线程效率的显著提升。虽然跑分有参考价值，但真实场景的性能和电源效率才是决定性因素，对移动设备和开发工作负载尤为关键。",
+      "title_en": "How to Write with an LLM",
+      "url": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
+      "title_zh": "如何用大语言模型进行写作",
+      "created_display": "Created: Sep 17, 2026 / 14:48 PT",
+      "image_url": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/workshop_hu_1de7cdec7d0e03c9.jpg",
+      "summary_en": "A practical guide to writing with LLMs, focusing on prompt design, iterative refinement, and preserving authorial voice while maintaining quality. It helps writers leverage LLMs effectively without sacrificing clarity or voice, while noting potential pitfalls like overreliance and bias.",
+      "summary_zh": "提供用大语言模型写作的实用指南，聚焦提示设计、迭代改进以及保留作者风格，同时保持质量。帮助作者高效利用 LLM，而不牺牲清晰度与个人风格，并警惕过度依赖与偏见等风险。",
       "hn": {
-        "id": 49763883,
+        "id": 49747070,
         "type": "story",
-        "by": "gainsurier",
-        "score": 62,
-        "descendants": 41,
-        "time": 1789798764,
-        "comments_url": "https://news.ycombinator.com/item?id=49763883"
+        "by": "joeriddles",
+        "score": 590,
+        "descendants": 368,
+        "time": 1789681718,
+        "comments_url": "https://news.ycombinator.com/item?id=49747070"
       },
-      "hot_score": 0.63,
       "tags": [
-        "Hardware"
+        "AI"
+      ],
+      "hot_score": 0.55
+    },
+    {
+      "title_en": "Show HN: CUA-S1 – A System One Model for Computer Use",
+      "url": "https://github.com/trycua/cua",
+      "title_zh": "Show HN：CUA-S1——面向计算机使用的 System One 模型",
+      "created_display": "Created: Sep 19, 2026 / 08:52 PT",
+      "image_url": "https://opengraph.githubassets.com/3a6469390a820f91b7e56af636d3e96a8d7e2f3fb323779fe3d365fdbdfda7d3/trycua/cua",
+      "summary_en": "Show HN introduces CUA-S1, a System One model aimed at computer use, showcasing a lightweight, modular approach to an AI assistant that helps with everyday computing tasks. It invites hands-on experimentation and highlights practical AI tooling for real workflows. Takeaway: small, user-focused AI systems can meaningfully augment daily computer use.",
+      "summary_zh": "Show HN 展示了 CUA-S1，这是一个面向计算机使用的 System One 模型，采用轻量化、模块化设计的 AI 助手来协助日常计算任务。文章强调了可操作性和实际工作流中的工具化应用，鼓励社区参与。要点在于小型、以用户为中心的 AI 系统能够切实提升日常计算体验。",
+      "hn": {
+        "id": 49767564,
+        "type": "story",
+        "by": "frabonacci",
+        "score": 15,
+        "descendants": 1,
+        "time": 1789833171,
+        "comments_url": "https://news.ycombinator.com/item?id=49767564"
+      },
+      "hot_score": 0.54,
+      "tags": [
+        "Show HN",
+        "AI"
       ]
+    },
+    {
+      "title_en": "Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations",
+      "url": "https://github.com/arnegiacomo/fugleramme",
+      "title_zh": "Show HN：一款能听鸟鸣并将它们画成19世纪插画风格的电子墨水相框",
+      "created_display": "Created: Sep 15, 2026 / 05:31 PT",
+      "image_url": "https://repository-images.githubusercontent.com/1294088656/7d2dbd8d-ec72-4781-8363-f4f5b9afc352",
+      "summary_en": "An e-ink frame listens to birds and translates each encounter into a 1800s-style illustration. It showcases on-device audio recognition and art rendering on low-power hardware, blending nature, hardware tinkering, and generative art. A playful glimpse at how accessible hobbyist setups can produce museum-like visuals from real-world sounds.",
+      "summary_zh": "一款电子墨水相框能够监听鸟鸣并把鸟的形象绘制成19世纪风格的插画。该项目结合低功耗硬件、本地音频识别与艺术渲染，呈现自然与生成艺术的有趣融合，为爱好者级设备如何产出类似博物馆作品提供了直观案例。",
+      "hn": {
+        "id": 49711544,
+        "type": "story",
+        "by": "arnemunthekaas",
+        "score": 2344,
+        "descendants": 259,
+        "time": 1789475470,
+        "comments_url": "https://news.ycombinator.com/item?id=49711544"
+      },
+      "tags": [
+        "Show HN",
+        "Hardware",
+        "AI"
+      ],
+      "hot_score": 0.53
+    },
+    {
+      "title_en": "Agreement between the USA and Denmark (1951,2004) [pdf]",
+      "url": "https://www.state.gov/wp-content/uploads/2019/02/04-806-Denmark-Defense.done_.pdf",
+      "title_zh": "美国与丹麦的协定（1951、2004）",
+      "created_display": "Created: Sep 19, 2026 / 07:45 PT",
+      "image_url": null,
+      "summary_en": "A historical defense pact between the USA and Denmark, covering security cooperation in the mid-20th and early 2000s. The documents illuminate bases, treaties, and alliance dynamics that shaped regional defense posture.",
+      "summary_zh": "这是一份关于美国与丹麦在 1951 年和 2004 年的防务协定的资料，揭示双方安全承诺和合作框架。文件展现了跨大西洋防务关系的历史脉络与区域安全影响。",
+      "hn": {
+        "id": 49766976,
+        "type": "story",
+        "by": "closingreunion",
+        "score": 19,
+        "descendants": 13,
+        "time": 1789829112,
+        "comments_url": "https://news.ycombinator.com/item?id=49766976"
+      },
+      "hot_score": 0.51,
+      "tags": [
+        "Politics",
+        "Security"
+      ]
+    },
+    {
+      "title_en": "I vibed a proof of Conway's conjecture",
+      "url": "https://overreacted.io/how-i-vibed-a-proof-of-conways-conjecture/",
+      "title_zh": "我对 Conway 猜想的证明有灵感",
+      "created_display": "Created: Sep 18, 2026 / 07:36 PT",
+      "image_url": "https://overreacted.io/how-i-vibed-a-proof-of-conways-conjecture/opengraph-image?5b0b970dfd19bb8c",
+      "summary_en": "A personal account discusses a heuristic intuition that led toward a proof of Conway's conjecture, reflecting on how vibes and rigorous reasoning interact. It emphasizes that intuition can guide discovery but must be validated through formal proof.",
+      "summary_zh": "作者分享自己对 Conway 猜想的直觉启发，反思直觉与严格推理之间的关系。强调直觉可以指引发现，但需要通过正式的证明来验证。这一讨论也凸显了数学进展中的社会性与协作要素。",
+      "hn": {
+        "id": 49755024,
+        "type": "story",
+        "by": "m-hodges",
+        "score": 244,
+        "descendants": 225,
+        "time": 1789742170,
+        "comments_url": "https://news.ycombinator.com/item?id=49755024"
+      },
+      "tags": [
+        "Science"
+      ],
+      "hot_score": 0.49
+    },
+    {
+      "title_en": "Photon-Emission-Guided Laser Fault Injection Enables RP2350 Secure Debug",
+      "url": "https://donjon.ledger.com/blog/rp2350-secure-debug-laser-fault-injection/",
+      "title_zh": "光子发射引导的激光故障注入让 RP2350 实现安全调试",
+      "created_display": "Created: Sep 18, 2026 / 09:54 PT",
+      "image_url": "https://donjon.ledger.com/blog/rp2350-secure-debug-laser-fault-injection/cover.png",
+      "summary_en": "Photon-emission-guided laser fault injection enables secure debugging on RP2350 hardware by exploiting precisely timed laser pulses guided by optical emissions. This demonstrates a new class of side-channel vulnerabilities and the cat-and-mouse game between hardware security and attackers. The result reinforces the need for robust hardware tamper-resistance and secure debug protections.",
+      "summary_zh": "通过光子发射引导的激光故障注入，研究者能够在 RP2350 硬件上实现安全调试，利用对光学发射信号的时序引导来触发故障。这揭示了一类新的旁路攻击风险，也突显了软硬件防护与攻击之间的博弈。此结果强调加强硬件防篡改与安全调试保护的必要性。",
+      "hn": {
+        "id": 49757050,
+        "type": "story",
+        "by": "synack",
+        "score": 211,
+        "descendants": 85,
+        "time": 1789750458,
+        "comments_url": "https://news.ycombinator.com/item?id=49757050"
+      },
+      "tags": [
+        "Security",
+        "Hardware",
+        "Programming"
+      ],
+      "hot_score": 0.49
     },
     {
       "title_en": "Alibaba open-sources AI model that can detect cancer and nearly 150 conditions",
@@ -539,99 +745,7 @@
         "Open Source",
         "Health"
       ],
-      "hot_score": 0.61
-    },
-    {
-      "title_en": "How to Write with an LLM",
-      "url": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
-      "title_zh": "如何用大语言模型进行写作",
-      "created_display": "Created: Sep 17, 2026 / 14:48 PT",
-      "image_url": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/workshop_hu_1de7cdec7d0e03c9.jpg",
-      "summary_en": "A practical guide to writing with LLMs, focusing on prompt design, iterative refinement, and preserving authorial voice while maintaining quality. It helps writers leverage LLMs effectively without sacrificing clarity or voice, while noting potential pitfalls like overreliance and bias.",
-      "summary_zh": "提供用大语言模型写作的实用指南，聚焦提示设计、迭代改进以及保留作者风格，同时保持质量。帮助作者高效利用 LLM，而不牺牲清晰度与个人风格，并警惕过度依赖与偏见等风险。",
-      "hn": {
-        "id": 49747070,
-        "type": "story",
-        "by": "joeriddles",
-        "score": 560,
-        "descendants": 360,
-        "time": 1789681718,
-        "comments_url": "https://news.ycombinator.com/item?id=49747070"
-      },
-      "tags": [
-        "AI"
-      ],
-      "hot_score": 0.59
-    },
-    {
-      "title_en": "I vibed a proof of Conway's conjecture",
-      "url": "https://overreacted.io/how-i-vibed-a-proof-of-conways-conjecture/",
-      "title_zh": "我对 Conway 猜想的证明有灵感",
-      "created_display": "Created: Sep 18, 2026 / 07:36 PT",
-      "image_url": "https://overreacted.io/how-i-vibed-a-proof-of-conways-conjecture/opengraph-image?5b0b970dfd19bb8c",
-      "summary_en": "A personal account discusses a heuristic intuition that led toward a proof of Conway's conjecture, reflecting on how vibes and rigorous reasoning interact. It emphasizes that intuition can guide discovery but must be validated through formal proof.",
-      "summary_zh": "作者分享自己对 Conway 猜想的直觉启发，反思直觉与严格推理之间的关系。强调直觉可以指引发现，但需要通过正式的证明来验证。这一讨论也凸显了数学进展中的社会性与协作要素。",
-      "hn": {
-        "id": 49755024,
-        "type": "story",
-        "by": "m-hodges",
-        "score": 244,
-        "descendants": 225,
-        "time": 1789742170,
-        "comments_url": "https://news.ycombinator.com/item?id=49755024"
-      },
-      "tags": [
-        "Science",
-        "Education"
-      ],
-      "hot_score": 0.59
-    },
-    {
-      "title_en": "Photon-Emission-Guided Laser Fault Injection Enables RP2350 Secure Debug",
-      "url": "https://donjon.ledger.com/blog/rp2350-secure-debug-laser-fault-injection/",
-      "title_zh": "光子发射引导的激光故障注入让 RP2350 实现安全调试",
-      "created_display": "Created: Sep 18, 2026 / 09:54 PT",
-      "image_url": "https://donjon.ledger.com/blog/rp2350-secure-debug-laser-fault-injection/cover.png",
-      "summary_en": "Photon-emission-guided laser fault injection enables secure debugging on RP2350 hardware by exploiting precisely timed laser pulses guided by optical emissions. This demonstrates a new class of side-channel vulnerabilities and the cat-and-mouse game between hardware security and attackers. The result reinforces the need for robust hardware tamper-resistance and secure debug protections.",
-      "summary_zh": "通过光子发射引导的激光故障注入，研究者能够在 RP2350 硬件上实现安全调试，利用对光学发射信号的时序引导来触发故障。这揭示了一类新的旁路攻击风险，也突显了软硬件防护与攻击之间的博弈。此结果强调加强硬件防篡改与安全调试保护的必要性。",
-      "hn": {
-        "id": 49757050,
-        "type": "story",
-        "by": "synack",
-        "score": 209,
-        "descendants": 83,
-        "time": 1789750458,
-        "comments_url": "https://news.ycombinator.com/item?id=49757050"
-      },
-      "tags": [
-        "Security",
-        "Hardware",
-        "Programming"
-      ],
-      "hot_score": 0.58
-    },
-    {
-      "title_en": "Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations",
-      "url": "https://github.com/arnegiacomo/fugleramme",
-      "title_zh": "Show HN：一款能听鸟鸣并将它们画成19世纪插画风格的电子墨水相框",
-      "created_display": "Created: Sep 15, 2026 / 05:31 PT",
-      "image_url": "https://repository-images.githubusercontent.com/1294088656/7d2dbd8d-ec72-4781-8363-f4f5b9afc352",
-      "summary_en": "An e-ink frame listens to birds and translates each encounter into a 1800s-style illustration. It showcases on-device audio recognition and art rendering on low-power hardware, blending nature, hardware tinkering, and generative art. A playful glimpse at how accessible hobbyist setups can produce museum-like visuals from real-world sounds.",
-      "summary_zh": "一款电子墨水相框能够监听鸟鸣并把鸟的形象绘制成19世纪风格的插画。该项目结合低功耗硬件、本地音频识别与艺术渲染，呈现自然与生成艺术的有趣融合，为爱好者级设备如何产出类似博物馆作品提供了直观案例。",
-      "hn": {
-        "id": 49711544,
-        "type": "story",
-        "by": "arnemunthekaas",
-        "score": 2340,
-        "descendants": 259,
-        "time": 1789475470,
-        "comments_url": "https://news.ycombinator.com/item?id=49711544"
-      },
-      "tags": [
-        "Show HN",
-        "Hardware"
-      ],
-      "hot_score": 0.56
+      "hot_score": 0.47
     },
     {
       "title_en": "North Korean nuclear test sets off years of earthquakes",
@@ -652,9 +766,32 @@
       },
       "tags": [
         "Science",
+        "Politics",
         "Energy"
       ],
-      "hot_score": 0.53
+      "hot_score": 0.44
+    },
+    {
+      "title_en": "Apple M6 Pro Achieves the Highest Single-Core CPU Score in Geekbench 7",
+      "url": "https://browser.geekbench.com/v7/cpu/389219",
+      "title_zh": "苹果 M6 Pro 在 Geekbench 7 单核测试中夺得最高分",
+      "created_display": "Created: Sep 18, 2026 / 23:19 PT",
+      "image_url": null,
+      "summary_en": "Apple's M6 Pro reportedly tops Geekbench 7 single-core benchmarks, signaling a notable performance lead in single-thread efficiency. While synthetic scores matter for enthusiasts, real-world tasks and power efficiency ultimately determine practical wins, especially for mobile devices.",
+      "summary_zh": "苹果 M6 Pro 在 Geekbench 7 单核测试中夺得最高分，显示单线程效率的显著提升。虽然跑分有参考价值，但真实场景的性能和电源效率才是决定性因素，对移动设备和开发工作负载尤为关键。",
+      "hn": {
+        "id": 49763883,
+        "type": "story",
+        "by": "gainsurier",
+        "score": 62,
+        "descendants": 41,
+        "time": 1789798764,
+        "comments_url": "https://news.ycombinator.com/item?id=49763883"
+      },
+      "hot_score": 0.43,
+      "tags": [
+        "Hardware"
+      ]
     },
     {
       "title_en": "Inside ZCode: Silently uploading your Git history to the cloud",
@@ -668,17 +805,16 @@
         "id": 49750694,
         "type": "story",
         "by": "csmantle",
-        "score": 322,
-        "descendants": 107,
+        "score": 323,
+        "descendants": 108,
         "time": 1789711877,
         "comments_url": "https://news.ycombinator.com/item?id=49750694"
       },
       "tags": [
         "Privacy",
-        "Data",
         "Programming"
       ],
-      "hot_score": 0.49
+      "hot_score": 0.42
     },
     {
       "title_en": "Xcode 27.1 Beta Release Notes",
@@ -700,7 +836,29 @@
       "tags": [
         "Programming"
       ],
-      "hot_score": 0.45
+      "hot_score": 0.36
+    },
+    {
+      "title_en": "The first new cat species discovered in 100 years",
+      "url": "https://www.nationalgeographic.com/animals/article/meet-the-first-new-cat-species-discovered-in-100-years",
+      "title_zh": "百年内首次发现的新猫科物种",
+      "created_display": "Created: Sep 17, 2026 / 11:31 PT",
+      "image_url": "https://i.natgeofe.com/n/263400d2-00dc-4db0-9f61-3a71a9a35b9f/ANI100_00213_HR__16x9.jpg?w=1200",
+      "summary_en": "A new wild cat species has been described—the first in a century. The discovery underscores hidden biodiversity and the importance of habitat conservation amid rapid environmental change.",
+      "summary_zh": "研究团队描述了第一只在百年里被发现的新猫科物种，强调在生境现代化压力下仍存在未知生物多样性。",
+      "hn": {
+        "id": 49744704,
+        "type": "story",
+        "by": "ohjeez",
+        "score": 352,
+        "descendants": 134,
+        "time": 1789669916,
+        "comments_url": "https://news.ycombinator.com/item?id=49744704"
+      },
+      "tags": [
+        "Science"
+      ],
+      "hot_score": 0.29
     },
     {
       "title_en": "NASA-IBM Lunar Foundation open-Source Geospatial AI Model",
@@ -714,17 +872,61 @@
         "id": 49763379,
         "type": "story",
         "by": "noobplus",
-        "score": 48,
+        "score": 50,
         "descendants": 5,
         "time": 1789793075,
         "comments_url": "https://news.ycombinator.com/item?id=49763379"
       },
       "tags": [
-        "AI",
+        "Space",
         "Open Source",
-        "Space"
+        "AI"
       ],
-      "hot_score": 0.39
+      "hot_score": 0.29
+    },
+    {
+      "title_en": "We made Playwright 2x faster and 80% more token efficient",
+      "url": "https://github.com/browserbase/stagehand",
+      "title_zh": "我们让 Playwright 提速两倍，token 效率提升 80%",
+      "created_display": "Created: Sep 18, 2026 / 09:25 PT",
+      "image_url": "https://opengraph.githubassets.com/ed10f6c42801edebe329b8240b9b4317feeca86515d3f47589256fe1747ce877/browserbase/stagehand",
+      "summary_en": "A new optimization for Playwright claims doubling speed and 80% fewer tokens processed, improving end-to-end test performance and cost. The changes likely involve engine and protocol optimizations, with implications for large test suites and CI workflows. It illustrates how runtime efficiency can scale testing in modern web apps.",
+      "summary_zh": "对 Playwright 的一轮优化声称将速度提升两倍、处理的 token 数量降低了 80%，显著提升端到端测试性能与成本效益。优化点可能涵盖引擎与协议层的改进，对大型测试套件和持续集成工作流影响深远。这也展示了运行时效率在现代 Web 应用测试中的放大效应。",
+      "hn": {
+        "id": 49756671,
+        "type": "story",
+        "by": "wittydeveloper",
+        "score": 119,
+        "descendants": 34,
+        "time": 1789748723,
+        "comments_url": "https://news.ycombinator.com/item?id=49756671"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 0.27
+    },
+    {
+      "title_en": "Two parallel neural ectoderm progenitors contribute to the developing brain",
+      "url": "https://www.newscientist.com/article/2589739-our-brain-evolved-from-two-primitive-nervous-systems-that-merged/",
+      "title_zh": "两种并行的神经外胚层祖细胞共同参与大脑发育",
+      "created_display": "Created: Sep 18, 2026 / 08:12 PT",
+      "image_url": "https://www.newscientist.com/wp-content/uploads/2026/09/SEI_312848573.jpg",
+      "summary_en": "Researchers report that two parallel neural ectoderm progenitors contribute to the developing brain, supporting a theory that the brain's origins involve merging distinct primitive systems. This finding reshapes our understanding of vertebrate brain evolution and early development, with potential implications for regenerative medicine and congenital disorder research. It highlights the complexity of embryonic patterning and how early lineages specify regional identities.",
+      "summary_zh": "研究人员发现两种并行的神经外胚层祖细胞共同参与大脑发育，支持大脑起源来自于不同原始系统的合并的理论。这一发现重新塑造了人类及脊椎动物大脑进化与早期发育的理解，并可能影响再生医学与先天性疾病研究，凸显胚胎模式发生的复杂性以及早期谱系如何确定区域身份。",
+      "hn": {
+        "id": 49755533,
+        "type": "story",
+        "by": "Jimmc414",
+        "score": 123,
+        "descendants": 66,
+        "time": 1789744327,
+        "comments_url": "https://news.ycombinator.com/item?id=49755533"
+      },
+      "tags": [
+        "Science"
+      ],
+      "hot_score": 0.26
     },
     {
       "title_en": "Cache-to-Cache: Direct Semantic Communication Between LLMs (2025)",
@@ -747,73 +949,7 @@
         "AI",
         "Security"
       ],
-      "hot_score": 0.33
-    },
-    {
-      "title_en": "Two parallel neural ectoderm progenitors contribute to the developing brain",
-      "url": "https://www.newscientist.com/article/2589739-our-brain-evolved-from-two-primitive-nervous-systems-that-merged/",
-      "title_zh": "两种并行的神经外胚层祖细胞共同参与大脑发育",
-      "created_display": "Created: Sep 18, 2026 / 08:12 PT",
-      "image_url": "https://www.newscientist.com/wp-content/uploads/2026/09/SEI_312848573.jpg",
-      "summary_en": "Researchers report that two parallel neural ectoderm progenitors contribute to the developing brain, supporting a theory that the brain's origins involve merging distinct primitive systems. This finding reshapes our understanding of vertebrate brain evolution and early development, with potential implications for regenerative medicine and congenital disorder research. It highlights the complexity of embryonic patterning and how early lineages specify regional identities.",
-      "summary_zh": "研究人员发现两种并行的神经外胚层祖细胞共同参与大脑发育，支持大脑起源来自于不同原始系统的合并的理论。这一发现重新塑造了人类及脊椎动物大脑进化与早期发育的理解，并可能影响再生医学与先天性疾病研究，凸显胚胎模式发生的复杂性以及早期谱系如何确定区域身份。",
-      "hn": {
-        "id": 49755533,
-        "type": "story",
-        "by": "Jimmc414",
-        "score": 123,
-        "descendants": 66,
-        "time": 1789744327,
-        "comments_url": "https://news.ycombinator.com/item?id=49755533"
-      },
-      "tags": [
-        "Science"
-      ],
-      "hot_score": 0.31
-    },
-    {
-      "title_en": "We made Playwright 2x faster and 80% more token efficient",
-      "url": "https://github.com/browserbase/stagehand",
-      "title_zh": "我们让 Playwright 提速两倍，token 效率提升 80%",
-      "created_display": "Created: Sep 18, 2026 / 09:25 PT",
-      "image_url": "https://opengraph.githubassets.com/ed10f6c42801edebe329b8240b9b4317feeca86515d3f47589256fe1747ce877/browserbase/stagehand",
-      "summary_en": "A new optimization for Playwright claims doubling speed and 80% fewer tokens processed, improving end-to-end test performance and cost. The changes likely involve engine and protocol optimizations, with implications for large test suites and CI workflows. It illustrates how runtime efficiency can scale testing in modern web apps.",
-      "summary_zh": "对 Playwright 的一轮优化声称将速度提升两倍、处理的 token 数量降低了 80%，显著提升端到端测试性能与成本效益。优化点可能涵盖引擎与协议层的改进，对大型测试套件和持续集成工作流影响深远。这也展示了运行时效率在现代 Web 应用测试中的放大效应。",
-      "hn": {
-        "id": 49756671,
-        "type": "story",
-        "by": "wittydeveloper",
-        "score": 111,
-        "descendants": 32,
-        "time": 1789748723,
-        "comments_url": "https://news.ycombinator.com/item?id=49756671"
-      },
-      "tags": [
-        "Programming"
-      ],
-      "hot_score": 0.3
-    },
-    {
-      "title_en": "The first new cat species discovered in 100 years",
-      "url": "https://www.nationalgeographic.com/animals/article/meet-the-first-new-cat-species-discovered-in-100-years",
-      "title_zh": "百年内首次发现的新猫科物种",
-      "created_display": "Created: Sep 17, 2026 / 11:31 PT",
-      "image_url": "https://i.natgeofe.com/n/263400d2-00dc-4db0-9f61-3a71a9a35b9f/ANI100_00213_HR__16x9.jpg?w=1200",
-      "summary_en": "A new wild cat species has been described—the first in a century. The discovery underscores hidden biodiversity and the importance of habitat conservation amid rapid environmental change.",
-      "summary_zh": "研究团队描述了第一只在百年里被发现的新猫科物种，强调在生境现代化压力下仍存在未知生物多样性。",
-      "hn": {
-        "id": 49744704,
-        "type": "story",
-        "by": "ohjeez",
-        "score": 319,
-        "descendants": 122,
-        "time": 1789669916,
-        "comments_url": "https://news.ycombinator.com/item?id=49744704"
-      },
-      "tags": [
-        "Science"
-      ],
-      "hot_score": 0.29
+      "hot_score": 0.26
     },
     {
       "title_en": "Warez: The Infrastructure and Aesthetics of Piracy (2021)",
@@ -827,8 +963,8 @@
         "id": 49749724,
         "type": "story",
         "by": "succinct_ideas",
-        "score": 200,
-        "descendants": 96,
+        "score": 206,
+        "descendants": 100,
         "time": 1789700208,
         "comments_url": "https://news.ycombinator.com/item?id=49749724"
       },
@@ -836,7 +972,7 @@
         "Culture",
         "DevOps"
       ],
-      "hot_score": 0.26
+      "hot_score": 0.23
     },
     {
       "title_en": "Show HN: Cactus Needle 3: 8-29MB automation models can match DeepSeek V4 Flash",
@@ -850,8 +986,8 @@
         "id": 49748553,
         "type": "story",
         "by": "HenryNdubuaku",
-        "score": 216,
-        "descendants": 89,
+        "score": 220,
+        "descendants": 90,
         "time": 1789690304,
         "comments_url": "https://news.ycombinator.com/item?id=49748553"
       },
@@ -860,7 +996,29 @@
         "AI",
         "Hardware"
       ],
-      "hot_score": 0.25
+      "hot_score": 0.22
+    },
+    {
+      "title_en": "How SpaceX streamlined the Raptor engine",
+      "url": "https://www.construction-physics.com/p/how-spacex-streamlined-the-raptor",
+      "title_zh": "SpaceX 如何精简 Raptor 引擎",
+      "created_display": "Created: Sep 17, 2026 / 14:14 PT",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!tS8O!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F16c2c380-25a2-424c-8dab-9ccb99ea078f_1837x1222.png",
+      "summary_en": "SpaceX documents a design-and-manufacturing streamlining of the Raptor engine, reducing part count and simplifying assembly. The streamlining aims to lower cost, improve reliability, and accelerate iteration cycles for propulsion tech.",
+      "summary_zh": "SpaceX 记录了对 Raptor 引擎的设计与制造精简，降低部件数量、简化组装流程，力求降低成本、提升可靠性并缩短推进技术的迭代周期。",
+      "hn": {
+        "id": 49746626,
+        "type": "story",
+        "by": "JumpCrisscross",
+        "score": 228,
+        "descendants": 95,
+        "time": 1789679659,
+        "comments_url": "https://news.ycombinator.com/item?id=49746626"
+      },
+      "tags": [
+        "Space"
+      ],
+      "hot_score": 0.21
     },
     {
       "title_en": "AI chatbots are becoming experts at changing people's minds",
@@ -880,31 +1038,10 @@
         "comments_url": "https://news.ycombinator.com/item?id=49754250"
       },
       "tags": [
-        "AI"
+        "AI",
+        "Politics"
       ],
-      "hot_score": 0.24
-    },
-    {
-      "title_en": "How SpaceX streamlined the Raptor engine",
-      "url": "https://www.construction-physics.com/p/how-spacex-streamlined-the-raptor",
-      "title_zh": "SpaceX 如何精简 Raptor 引擎",
-      "created_display": "Created: Sep 17, 2026 / 14:14 PT",
-      "image_url": "https://substackcdn.com/image/fetch/$s_!tS8O!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F16c2c380-25a2-424c-8dab-9ccb99ea078f_1837x1222.png",
-      "summary_en": "SpaceX documents a design-and-manufacturing streamlining of the Raptor engine, reducing part count and simplifying assembly. The streamlining aims to lower cost, improve reliability, and accelerate iteration cycles for propulsion tech.",
-      "summary_zh": "SpaceX 记录了对 Raptor 引擎的设计与制造精简，降低部件数量、简化组装流程，力求降低成本、提升可靠性并缩短推进技术的迭代周期。",
-      "hn": {
-        "id": 49746626,
-        "type": "story",
-        "by": "JumpCrisscross",
-        "score": 225,
-        "descendants": 94,
-        "time": 1789679659,
-        "comments_url": "https://news.ycombinator.com/item?id=49746626"
-      },
-      "tags": [
-        "Space"
-      ],
-      "hot_score": 0.23
+      "hot_score": 0.2
     },
     {
       "title_en": "The Implications of Linguistic Illegibility for LLM Security",
@@ -927,30 +1064,7 @@
         "AI",
         "Security"
       ],
-      "hot_score": 0.23
-    },
-    {
-      "title_en": "Four AI lab breaches were caused by a single underlying issue, Irregular says",
-      "url": "https://thenextweb.com/news/irregular-four-labs-one-issue-disclosure-timeline-gemini",
-      "title_zh": "四起 AI 实验室入侵事件由一个共同问题引发",
-      "created_display": "Created: Sep 19, 2026 / 08:43 PT",
-      "image_url": "https://media.thenextweb.com/2023/11/49424155377_d34f63ee90_k.jpg",
-      "summary_en": "Four AI lab breaches were caused by a single underlying issue, Irregular says distills a security finding across multiple breaches. It argues for a systemic flaw—likely in disclosure timing, access controls, or secrets management—and outlines implications for defense in depth.",
-      "summary_zh": "Irregular 指出四起 AI 实验室入侵事件都源自同一个底层问题，强调系统性薄弱环节。文中讨论了披露时间线、访问控制与密钥管理等方面的教训，以及对改进防御深度的建议。",
-      "hn": {
-        "id": 49767480,
-        "type": "story",
-        "by": "wickedwiesel",
-        "score": 3,
-        "descendants": 0,
-        "time": 1789832612,
-        "comments_url": "https://news.ycombinator.com/item?id=49767480"
-      },
-      "hot_score": 0.23,
-      "tags": [
-        "Security",
-        "AI"
-      ]
+      "hot_score": 0.18
     },
     {
       "title_en": "Mathematicians Build Long-Awaited Graph Sandwich",
@@ -972,30 +1086,30 @@
       "tags": [
         "Science"
       ],
-      "hot_score": 0.19
+      "hot_score": 0.16
     },
     {
-      "title_en": "Google's Gemini AI hacked three companies in security test",
-      "url": "https://www.bbc.co.uk/news/articles/c607l0k72rlvo",
-      "title_zh": "谷歌 Gemini AI 在安全测试中入侵了三家公司",
-      "created_display": "Created: Sep 18, 2026 / 23:09 PT",
-      "image_url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/754e/live/31c59420-b3e9-11f1-9fb5-25be39d7a18e.jpg",
-      "summary_en": "Google's Gemini AI reportedly hacked three companies in a security test, highlighting risks of adversarial AI and the need for robust defenses. The result raises questions about how enterprise defenses should evolve to resist AI-driven intrusion.",
-      "summary_zh": "谷歌 Gemini AI 在一次安全测试中据称入侵了三家企业，凸显对抗性 AI 的风险和对强健防御的需求。该结果促使人们重新考量企业防御策略如何进化以抵御 AI 驱动的入侵。",
+      "title_en": "Black Holes or Black Hole Stars? Astronomers Spar over 'Little Red Dots'",
+      "url": "https://www.quantamagazine.org/black-holes-or-black-hole-stars-astronomers-spar-over-webb-telescopes-little-red-dots-20260914/",
+      "title_zh": "黑洞还是黑洞恒星？天文学家就‘小红点’争论",
+      "created_display": "Created: Sep 18, 2026 / 08:47 PT",
+      "image_url": "https://www.quantamagazine.org/wp-content/uploads/2026/09/Black-Hole-Star-cr-Mark-Belan-Social-1.jpg",
+      "summary_en": "Webb telescope data fueling a debate: are the 'Little Red Dots' evidence of black holes or stars with black-hole-like properties? The article outlines the competing interpretations, the observations behind them, and why classification matters for galaxy evolution and accretion physics.",
+      "summary_zh": "关于詹姆斯韦伯望远镜观测到的‘小红点’，学界就它是否来自黑洞还是带有黑洞特征的恒星展开辩论。文章梳理了证据与不同解释，以及这一分类对理解黑洞形成和星系演化的重要性。",
       "hn": {
-        "id": 49763822,
+        "id": 49756121,
         "type": "story",
-        "by": "luxpir",
-        "score": 20,
-        "descendants": 9,
-        "time": 1789798163,
-        "comments_url": "https://news.ycombinator.com/item?id=49763822"
+        "by": "jandrewrogers",
+        "score": 74,
+        "descendants": 31,
+        "time": 1789746434,
+        "comments_url": "https://news.ycombinator.com/item?id=49756121"
       },
-      "hot_score": 0.19,
       "tags": [
-        "AI",
-        "Security"
-      ]
+        "Space",
+        "Science"
+      ],
+      "hot_score": 0.16
     },
     {
       "title_en": "C++26: Trivial infinite loops are no longer undefined behaviour",
@@ -1017,30 +1131,52 @@
       "tags": [
         "Programming"
       ],
-      "hot_score": 0.17
+      "hot_score": 0.15
     },
     {
-      "title_en": "Black Holes or Black Hole Stars? Astronomers Spar over 'Little Red Dots'",
-      "url": "https://www.quantamagazine.org/black-holes-or-black-hole-stars-astronomers-spar-over-webb-telescopes-little-red-dots-20260914/",
-      "title_zh": "黑洞还是黑洞恒星？天文学家就‘小红点’争论",
-      "created_display": "Created: Sep 18, 2026 / 08:47 PT",
-      "image_url": "https://www.quantamagazine.org/wp-content/uploads/2026/09/Black-Hole-Star-cr-Mark-Belan-Social-1.jpg",
-      "summary_en": "Webb telescope data fueling a debate: are the 'Little Red Dots' evidence of black holes or stars with black-hole-like properties? The article outlines the competing interpretations, the observations behind them, and why classification matters for galaxy evolution and accretion physics.",
-      "summary_zh": "关于詹姆斯韦伯望远镜观测到的‘小红点’，学界就它是否来自黑洞还是带有黑洞特征的恒星展开辩论。文章梳理了证据与不同解释，以及这一分类对理解黑洞形成和星系演化的重要性。",
+      "title_en": "Google's Gemini AI hacked three companies in security test",
+      "url": "https://www.bbc.co.uk/news/articles/c607l0k72rlvo",
+      "title_zh": "谷歌 Gemini AI 在安全测试中入侵了三家公司",
+      "created_display": "Created: Sep 18, 2026 / 23:09 PT",
+      "image_url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/754e/live/31c59420-b3e9-11f1-9fb5-25be39d7a18e.jpg",
+      "summary_en": "Google's Gemini AI reportedly hacked three companies in a security test, highlighting risks of adversarial AI and the need for robust defenses. The result raises questions about how enterprise defenses should evolve to resist AI-driven intrusion.",
+      "summary_zh": "谷歌 Gemini AI 在一次安全测试中据称入侵了三家企业，凸显对抗性 AI 的风险和对强健防御的需求。该结果促使人们重新考量企业防御策略如何进化以抵御 AI 驱动的入侵。",
       "hn": {
-        "id": 49756121,
+        "id": 49763822,
         "type": "story",
-        "by": "jandrewrogers",
-        "score": 45,
-        "descendants": 13,
-        "time": 1789746434,
-        "comments_url": "https://news.ycombinator.com/item?id=49756121"
+        "by": "luxpir",
+        "score": 20,
+        "descendants": 9,
+        "time": 1789798163,
+        "comments_url": "https://news.ycombinator.com/item?id=49763822"
       },
-      "hot_score": 0.11,
+      "hot_score": 0.13,
       "tags": [
-        "Science",
-        "Space"
+        "AI",
+        "Security"
       ]
+    },
+    {
+      "title_en": "The Secret Life of Circuits",
+      "url": "https://blog.coredump.cx/p/the-secret-life-of-circuits-is-here",
+      "title_zh": "《电路的秘密生活》现已发布",
+      "created_display": "Created: Sep 15, 2026 / 16:15 PT",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!oRkZ!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F391700b7-a444-4e83-97cb-4b182d5094b9_2000x1334.jpeg",
+      "summary_en": "A detailed look at the hidden complexity behind circuits, explaining how components interact, timing matters, and what designers must consider when building hardware. The piece blends hardware intuition with practical takeaways for engineers and hobbyists.",
+      "summary_zh": "《电路的秘密生活》揭示电路设计中的隐藏复杂性，讨论元器件如何相互作用、时序为何重要，以及设计者需要考虑的实际要点。文章将硬件直觉与可操作的结论结合，供工程师和爱好者参考。",
+      "hn": {
+        "id": 49720143,
+        "type": "story",
+        "by": "surprisetalk",
+        "score": 242,
+        "descendants": 62,
+        "time": 1789514105,
+        "comments_url": "https://news.ycombinator.com/item?id=49720143"
+      },
+      "tags": [
+        "Hardware"
+      ],
+      "hot_score": 0.07
     },
     {
       "title_en": "Claude couldn't hack OpenAI. Then Anthropic shipped Opus 5",
@@ -1059,11 +1195,56 @@
         "time": 1789800764,
         "comments_url": "https://news.ycombinator.com/item?id=49764030"
       },
-      "hot_score": 0.1,
+      "hot_score": 0.07,
       "tags": [
         "AI",
         "Security"
       ]
+    },
+    {
+      "title_en": "Four AI lab breaches were caused by a single underlying issue, Irregular says",
+      "url": "https://thenextweb.com/news/irregular-four-labs-one-issue-disclosure-timeline-gemini",
+      "title_zh": "四起 AI 实验室入侵事件由一个共同问题引发",
+      "created_display": "Created: Sep 19, 2026 / 08:43 PT",
+      "image_url": "https://media.thenextweb.com/2023/11/49424155377_d34f63ee90_k.jpg",
+      "summary_en": "Four AI lab breaches were caused by a single underlying issue, Irregular says distills a security finding across multiple breaches. It argues for a systemic flaw—likely in disclosure timing, access controls, or secrets management—and outlines implications for defense in depth.",
+      "summary_zh": "Irregular 指出四起 AI 实验室入侵事件都源自同一个底层问题，强调系统性薄弱环节。文中讨论了披露时间线、访问控制与密钥管理等方面的教训，以及对改进防御深度的建议。",
+      "hn": {
+        "id": 49767480,
+        "type": "story",
+        "by": "wickedwiesel",
+        "score": 3,
+        "descendants": 0,
+        "time": 1789832612,
+        "comments_url": "https://news.ycombinator.com/item?id=49767480"
+      },
+      "hot_score": 0.07,
+      "tags": [
+        "Security",
+        "AI"
+      ]
+    },
+    {
+      "title_en": "Why building a Rust LSP is hard",
+      "url": "https://rust-glancer.github.io/blog/why-lsp-is-hard/",
+      "title_zh": "为什么用 Rust 构建 LSP 很困难",
+      "created_display": "Created: Sep 16, 2026 / 15:51 PT",
+      "image_url": "https://rust-glancer.github.io/logo.svg",
+      "summary_en": "Rust LSP development is hard due to Rust's ownership model, lifetimes, and macros complicating static analysis. It explains why robust Rust language servers remain a difficult engineering problem.",
+      "summary_zh": "Rust 的所有权模型、生命周期和宏系统让实现语言服务器变得异常困难。文中讨论了增量编译、诊断准确性以及大代码库下的 IDE 集成等挑战，并解释了为何要构建稳定的 Rust 语言服务器仍然是一个棘手的工程问题。",
+      "hn": {
+        "id": 49734131,
+        "type": "story",
+        "by": "agluszak",
+        "score": 127,
+        "descendants": 55,
+        "time": 1789599076,
+        "comments_url": "https://news.ycombinator.com/item?id=49734131"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 0.06
     },
     {
       "title_en": "Stepfun Step 5 Preview (LLM): On AA Pareto frontier",
@@ -1082,10 +1263,101 @@
         "time": 1789796551,
         "comments_url": "https://news.ycombinator.com/item?id=49763660"
       },
-      "hot_score": 0.09,
+      "hot_score": 0.06,
       "tags": [
         "AI"
       ]
+    },
+    {
+      "title_en": "Brood War Bench",
+      "url": "https://bw.swerdlow.dev/report",
+      "title_zh": "Brood War 基准测试",
+      "created_display": "Created: Sep 19, 2026 / 07:44 PT",
+      "image_url": "https://bw.swerdlow.dev/social/report-v2.png",
+      "summary_en": "A benchmarking report for StarCraft: Brood War, detailing performance metrics, potential bottlenecks, and reproducible tests on modern hardware. The study provides insights for developers exploring AI agents and engine behavior in legacy games. Takeaway: rigorous benchmarks help optimize even classic engines on new hardware.",
+      "summary_zh": "《星际争霸：虫群之心》基准测试报告给出性能指标、潜在瓶颈与可复现实验方法，聚焦在现代硬件上的表现。研究为探索在遗留游戏中的 AI 代理和引擎行为的开发者提供了洞见。要点是，通过严格的基准测试，可以在新硬件上为经典引擎找到优化方向。",
+      "hn": {
+        "id": 49766966,
+        "type": "story",
+        "by": "benswerd",
+        "score": 3,
+        "descendants": 1,
+        "time": 1789829042,
+        "comments_url": "https://news.ycombinator.com/item?id=49766966"
+      },
+      "hot_score": 0.06,
+      "tags": [
+        "Gaming",
+        "AI",
+        "Hardware"
+      ]
+    },
+    {
+      "title_en": "You can run Git on object storage if you re-make packfiles",
+      "url": "https://www.tigrisdata.com/blog/objgit-packfiles/",
+      "title_zh": "通过重新打包 packfiles，可以让 Git 在对象存储上运行",
+      "created_display": "Created: Sep 16, 2026 / 10:16 PT",
+      "image_url": "https://www.tigrisdata.com/blog/assets/images/hero-image-81fc688a5cf1e95701d66a80813da3c1.webp",
+      "summary_en": "Remaking packfiles enables Git to work with object storage, unlocking cloud-native workflows without relying on a POSIX filesystem. The approach trades some latency for scalability and bandwidth efficiency, suitable for centralized repos accessed over the network, but may be unfriendly for low-latency scenarios.",
+      "summary_zh": "通过重新打包 packfiles，可以让 Git 在对象存储上运行，从而实现云原生工作流。该做法在可扩展性和带宽效率上做出权衡，适合网络访问的集中仓库，但在对低延迟要求较高的场景下可能不太友好。",
+      "hn": {
+        "id": 49730069,
+        "type": "story",
+        "by": "evacchi",
+        "score": 120,
+        "descendants": 30,
+        "time": 1789578971,
+        "comments_url": "https://news.ycombinator.com/item?id=49730069"
+      },
+      "tags": [
+        "DevOps",
+        "Programming"
+      ],
+      "hot_score": 0.05
+    },
+    {
+      "title_en": "Asking Authors About Their Own Papers",
+      "url": "https://medium.com/@TmlrOrg/asking-authors-about-their-own-papers-3d2e04e5dee0",
+      "title_zh": "向作者询问他们自己的论文",
+      "created_display": "Created: Sep 16, 2026 / 16:31 PT",
+      "image_url": "https://miro.medium.com/v2/da:true/bc1f8416df0cad099e43cda2872716e5864f18a73bda2a7547ea082aca9b5632",
+      "summary_en": "Asking Authors About Their Own Papers explores the value of directly querying authors to clarify, contextualize, and supplement published work. The approach can improve understanding, reproducibility, and surface insights not captured in the text.",
+      "summary_zh": "《向作者询问他们自己的论文》探讨直接联系作者以获取论文背景和澄清的做法，强调这样可以提升理解与可重复性，并揭示文本未覆盖的洞见。通过作者视角补充信息，有助于读者更全面地把握研究成果。",
+      "hn": {
+        "id": 49734467,
+        "type": "story",
+        "by": "stefanpie",
+        "score": 101,
+        "descendants": 57,
+        "time": 1789601491,
+        "comments_url": "https://news.ycombinator.com/item?id=49734467"
+      },
+      "tags": [
+        "Science"
+      ],
+      "hot_score": 0.05
+    },
+    {
+      "title_en": "New evidence for hidden chambers beyond Tutankhamun's tomb",
+      "url": "https://www.nature.com/articles/d41586-026-02621-2",
+      "title_zh": "图坦卡蒙墓外隐藏密室的新证据",
+      "created_display": "Created: Sep 17, 2026 / 08:58 PT",
+      "image_url": "https://media.nature.com/lw1200/magazine-assets/d41586-026-02621-2/d41586-026-02621-2_53718150.jpg",
+      "summary_en": "New radar-based evidence hints at hidden chambers beyond Tutankhamun's tomb, suggesting more undiscovered spaces in the Valley of the Kings. While not conclusive, the work illustrates how modern geophysics accelerates archaeology and drives speculative exploration.",
+      "summary_zh": "利用雷达与其他地球物理手段，研究人员在图坦卡蒙墓外发现可能隐藏密室的迹象。尽管证据尚待进一步确认，这一发现展示了现代地球物理技术在考古中的潜力与前景。",
+      "hn": {
+        "id": 49742697,
+        "type": "story",
+        "by": "rndsignals",
+        "score": 66,
+        "descendants": 20,
+        "time": 1789660711,
+        "comments_url": "https://news.ycombinator.com/item?id=49742697"
+      },
+      "tags": [
+        "Science"
+      ],
+      "hot_score": 0.05
     },
     {
       "title_en": "Roman Timekeeping",
@@ -1104,76 +1376,10 @@
         "time": 1789812279,
         "comments_url": "https://news.ycombinator.com/item?id=49765056"
       },
-      "hot_score": 0.08,
+      "hot_score": 0.05,
       "tags": [
         "Culture"
       ]
-    },
-    {
-      "title_en": "“The Secret Life of Circuits” is here",
-      "url": "https://blog.coredump.cx/p/the-secret-life-of-circuits-is-here",
-      "title_zh": "《电路的秘密生活》现已发布",
-      "created_display": "Created: Sep 15, 2026 / 16:15 PT",
-      "image_url": "https://substackcdn.com/image/fetch/$s_!oRkZ!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F391700b7-a444-4e83-97cb-4b182d5094b9_2000x1334.jpeg",
-      "summary_en": "A detailed look at the hidden complexity behind circuits, explaining how components interact, timing matters, and what designers must consider when building hardware. The piece blends hardware intuition with practical takeaways for engineers and hobbyists.",
-      "summary_zh": "《电路的秘密生活》揭示电路设计中的隐藏复杂性，讨论元器件如何相互作用、时序为何重要，以及设计者需要考虑的实际要点。文章将硬件直觉与可操作的结论结合，供工程师和爱好者参考。",
-      "hn": {
-        "id": 49720143,
-        "type": "story",
-        "by": "surprisetalk",
-        "score": 192,
-        "descendants": 51,
-        "time": 1789514105,
-        "comments_url": "https://news.ycombinator.com/item?id=49720143"
-      },
-      "hot_score": 0.06,
-      "tags": [
-        "Hardware"
-      ]
-    },
-    {
-      "title_en": "Why building a Rust LSP is hard",
-      "url": "https://rust-glancer.github.io/blog/why-lsp-is-hard/",
-      "title_zh": "为什么用 Rust 构建 LSP 很困难",
-      "created_display": "Created: Sep 16, 2026 / 15:51 PT",
-      "image_url": "https://rust-glancer.github.io/logo.svg",
-      "summary_en": "Rust LSP development is hard due to Rust's ownership model, lifetimes, and macros complicating static analysis. It explains why robust Rust language servers remain a difficult engineering problem.",
-      "summary_zh": "Rust 的所有权模型、生命周期和宏系统让实现语言服务器变得异常困难。文中讨论了增量编译、诊断准确性以及大代码库下的 IDE 集成等挑战，并解释了为何要构建稳定的 Rust 语言服务器仍然是一个棘手的工程问题。",
-      "hn": {
-        "id": 49734131,
-        "type": "story",
-        "by": "agluszak",
-        "score": 118,
-        "descendants": 44,
-        "time": 1789599076,
-        "comments_url": "https://news.ycombinator.com/item?id=49734131"
-      },
-      "tags": [
-        "Programming"
-      ],
-      "hot_score": 0.06
-    },
-    {
-      "title_en": "You can run Git on object storage if you re-make packfiles",
-      "url": "https://www.tigrisdata.com/blog/objgit-packfiles/",
-      "title_zh": "通过重新打包 packfiles，可以让 Git 在对象存储上运行",
-      "created_display": "Created: Sep 16, 2026 / 10:16 PT",
-      "image_url": "https://www.tigrisdata.com/blog/assets/images/hero-image-81fc688a5cf1e95701d66a80813da3c1.webp",
-      "summary_en": "Remaking packfiles enables Git to work with object storage, unlocking cloud-native workflows without relying on a POSIX filesystem. The approach trades some latency for scalability and bandwidth efficiency, suitable for centralized repos accessed over the network, but may be unfriendly for low-latency scenarios.",
-      "summary_zh": "通过重新打包 packfiles，可以让 Git 在对象存储上运行，从而实现云原生工作流。该做法在可扩展性和带宽效率上做出权衡，适合网络访问的集中仓库，但在对低延迟要求较高的场景下可能不太友好。",
-      "hn": {
-        "id": 49730069,
-        "type": "story",
-        "by": "evacchi",
-        "score": 103,
-        "descendants": 24,
-        "time": 1789578971,
-        "comments_url": "https://news.ycombinator.com/item?id=49730069"
-      },
-      "tags": [
-        "Programming"
-      ],
-      "hot_score": 0.04
     },
     {
       "title_en": "Typesafe-computer-use drives a Mac toward a goal for 1/50th of a cent per step",
@@ -1198,29 +1404,6 @@
       "hot_score": 0.04
     },
     {
-      "title_en": "I built the fastest PHP webserver in the world",
-      "url": "https://qbixserver.com",
-      "title_zh": "我建成了全球最快的 PHP Web 服务器",
-      "created_display": "Created: Sep 17, 2026 / 20:08 PT",
-      "image_url": "https://qbix.com/img/qbix.png",
-      "summary_en": "I built the fastest PHP webserver in the world showcases aggressive performance engineering for PHP hosting. It highlights techniques to reduce overhead, boost request throughput, and squeeze latency, offering lessons for high-concurrency PHP deployments.",
-      "summary_zh": "该项目展示对 PHP Web 服务器的极致性能优化，强调降低开销、提高吞吐和降低延迟的手段。对高并发 PHP 部署提供可借鉴的技术要点，与现有 PHP 应用优化相关。",
-      "hn": {
-        "id": 49749789,
-        "type": "story",
-        "by": "EGreg",
-        "score": 31,
-        "descendants": 28,
-        "time": 1789700884,
-        "comments_url": "https://news.ycombinator.com/item?id=49749789"
-      },
-      "hot_score": 0.04,
-      "tags": [
-        "Programming",
-        "Web"
-      ]
-    },
-    {
       "title_en": "Cyclomatic Complexity in C#",
       "url": "https://blog.ndepend.com/understanding-cyclomatic-complexity/",
       "title_zh": "C# 的圈复杂度及其衡量",
@@ -1232,7 +1415,7 @@
         "id": 49731413,
         "type": "story",
         "by": "gone35",
-        "score": 72,
+        "score": 74,
         "descendants": 28,
         "time": 1789585269,
         "comments_url": "https://news.ycombinator.com/item?id=49731413"
@@ -1241,28 +1424,6 @@
         "Programming"
       ],
       "hot_score": 0.03
-    },
-    {
-      "title_en": "Asking Authors About Their Own Papers",
-      "url": "https://medium.com/@TmlrOrg/asking-authors-about-their-own-papers-3d2e04e5dee0",
-      "title_zh": "向作者询问他们自己的论文",
-      "created_display": "Created: Sep 16, 2026 / 16:31 PT",
-      "image_url": "https://miro.medium.com/v2/da:true/bc1f8416df0cad099e43cda2872716e5864f18a73bda2a7547ea082aca9b5632",
-      "summary_en": "Asking Authors About Their Own Papers explores the value of directly querying authors to clarify, contextualize, and supplement published work. The approach can improve understanding, reproducibility, and surface insights not captured in the text.",
-      "summary_zh": "《向作者询问他们自己的论文》探讨直接联系作者以获取论文背景和澄清的做法，强调这样可以提升理解与可重复性，并揭示文本未覆盖的洞见。通过作者视角补充信息，有助于读者更全面地把握研究成果。",
-      "hn": {
-        "id": 49734467,
-        "type": "story",
-        "by": "stefanpie",
-        "score": 67,
-        "descendants": 36,
-        "time": 1789601491,
-        "comments_url": "https://news.ycombinator.com/item?id=49734467"
-      },
-      "hot_score": 0.03,
-      "tags": [
-        "Education"
-      ]
     },
     {
       "title_en": "Ctenophores: Wonders of Biology",
@@ -1276,10 +1437,32 @@
         "id": 49735541,
         "type": "story",
         "by": "randomImmigrant",
-        "score": 57,
-        "descendants": 7,
+        "score": 66,
+        "descendants": 11,
         "time": 1789610305,
         "comments_url": "https://news.ycombinator.com/item?id=49735541"
+      },
+      "tags": [
+        "Science"
+      ],
+      "hot_score": 0.03
+    },
+    {
+      "title_en": "Communication by means of modulated Johnson noise",
+      "url": "https://www.pnas.org/doi/10.1073/pnas.2201337119",
+      "title_zh": "通过调制约翰逊噪声进行通信",
+      "created_display": "Created: Sep 16, 2026 / 22:41 PT",
+      "image_url": null,
+      "summary_en": "Johnson noise modulation proposes a novel physical-layer communication channel leveraging thermal noise to carry information. Experiments show data transfer without conventional signaling, with potential implications for covert channels and nanoscale communications, though practical limits remain.",
+      "summary_zh": "调制约翰逊噪声的通信提出一种利用热噪声承载信息的新型物理层通道。实验显示在不依赖常规信号的情况下也能传输数据，对隐蔽通道与纳尺度通信具有潜在意义，但实际应用仍存在局限。",
+      "hn": {
+        "id": 49736823,
+        "type": "story",
+        "by": "austinallegro",
+        "score": 50,
+        "descendants": 25,
+        "time": 1789623684,
+        "comments_url": "https://news.ycombinator.com/item?id=49736823"
       },
       "tags": [
         "Science"
@@ -1298,14 +1481,36 @@
         "id": 49743490,
         "type": "story",
         "by": "azhenley",
-        "score": 36,
-        "descendants": 4,
+        "score": 39,
+        "descendants": 6,
         "time": 1789664150,
         "comments_url": "https://news.ycombinator.com/item?id=49743490"
       },
-      "hot_score": 0.03,
       "tags": [
         "Culture"
+      ],
+      "hot_score": 0.03
+    },
+    {
+      "title_en": "I built the fastest PHP webserver in the world",
+      "url": "https://qbixserver.com",
+      "title_zh": "我建成了全球最快的 PHP Web 服务器",
+      "created_display": "Created: Sep 17, 2026 / 20:08 PT",
+      "image_url": "https://qbix.com/img/qbix.png",
+      "summary_en": "I built the fastest PHP webserver in the world showcases aggressive performance engineering for PHP hosting. It highlights techniques to reduce overhead, boost request throughput, and squeeze latency, offering lessons for high-concurrency PHP deployments.",
+      "summary_zh": "该项目展示对 PHP Web 服务器的极致性能优化，强调降低开销、提高吞吐和降低延迟的手段。对高并发 PHP 部署提供可借鉴的技术要点，与现有 PHP 应用优化相关。",
+      "hn": {
+        "id": 49749789,
+        "type": "story",
+        "by": "EGreg",
+        "score": 31,
+        "descendants": 28,
+        "time": 1789700884,
+        "comments_url": "https://news.ycombinator.com/item?id=49749789"
+      },
+      "hot_score": 0.03,
+      "tags": [
+        "Programming"
       ]
     },
     {
@@ -1320,7 +1525,7 @@
         "id": 49726773,
         "type": "story",
         "by": "torutofu",
-        "score": 56,
+        "score": 58,
         "descendants": 6,
         "time": 1789565430,
         "comments_url": "https://news.ycombinator.com/item?id=49726773"
@@ -1331,48 +1536,26 @@
       "hot_score": 0.02
     },
     {
-      "title_en": "Communication by means of modulated Johnson noise",
-      "url": "https://www.pnas.org/doi/10.1073/pnas.2201337119",
-      "title_zh": "通过调制约翰逊噪声进行通信",
-      "created_display": "Created: Sep 16, 2026 / 22:41 PT",
-      "image_url": null,
-      "summary_en": "Johnson noise modulation proposes a novel physical-layer communication channel leveraging thermal noise to carry information. Experiments show data transfer without conventional signaling, with potential implications for covert channels and nanoscale communications, though practical limits remain.",
-      "summary_zh": "调制约翰逊噪声的通信提出一种利用热噪声承载信息的新型物理层通道。实验显示在不依赖常规信号的情况下也能传输数据，对隐蔽通道与纳尺度通信具有潜在意义，但实际应用仍存在局限。",
+      "title_en": "Ray Ozzie and the Optimism of Being Early",
+      "url": "https://reproof.app/blog/lotus-notes-history",
+      "title_zh": "Ray Ozzie 与早期乐观主义",
+      "created_display": "Created: Sep 17, 2026 / 02:57 PT",
+      "image_url": "https://firebasestorage.googleapis.com/v0/b/reproof-prod.firebasestorage.app/o/blog-images%2Fdraft%2F1789096709197.webp?alt=media&token=56c74ee852889a81a5a089f730c7d1c4",
+      "summary_en": "Ray Ozzie and the Optimism of Being Early examines the career of the Lotus Notes innovator and why being early in tech can foster bold bets. The piece reflects on the advantages and risks of pioneering technologies in evolving ecosystems.",
+      "summary_zh": "回顾 Ray Ozzie 的职业路径，解读他在早期科技生态中的乐观精神与前瞻性。文章分析先行者在快速变化的技术环境中如何推动创新与承担风险。",
       "hn": {
-        "id": 49736823,
+        "id": 49738518,
         "type": "story",
-        "by": "austinallegro",
-        "score": 39,
-        "descendants": 18,
-        "time": 1789623684,
-        "comments_url": "https://news.ycombinator.com/item?id=49736823"
+        "by": "maguay",
+        "score": 28,
+        "descendants": 24,
+        "time": 1789639046,
+        "comments_url": "https://news.ycombinator.com/item?id=49738518"
       },
       "tags": [
-        "Science"
+        "Culture"
       ],
       "hot_score": 0.02
-    },
-    {
-      "title_en": "New evidence for hidden chambers beyond Tutankhamun's tomb",
-      "url": "https://www.nature.com/articles/d41586-026-02621-2",
-      "title_zh": "图坦卡蒙墓外隐藏密室的新证据",
-      "created_display": "Created: Sep 17, 2026 / 08:58 PT",
-      "image_url": "https://media.nature.com/lw1200/magazine-assets/d41586-026-02621-2/d41586-026-02621-2_53718150.jpg",
-      "summary_en": "New radar-based evidence hints at hidden chambers beyond Tutankhamun's tomb, suggesting more undiscovered spaces in the Valley of the Kings. While not conclusive, the work illustrates how modern geophysics accelerates archaeology and drives speculative exploration.",
-      "summary_zh": "利用雷达与其他地球物理手段，研究人员在图坦卡蒙墓外发现可能隐藏密室的迹象。尽管证据尚待进一步确认，这一发现展示了现代地球物理技术在考古中的潜力与前景。",
-      "hn": {
-        "id": 49742697,
-        "type": "story",
-        "by": "rndsignals",
-        "score": 26,
-        "descendants": 5,
-        "time": 1789660711,
-        "comments_url": "https://news.ycombinator.com/item?id=49742697"
-      },
-      "hot_score": 0.02,
-      "tags": [
-        "Science"
-      ]
     },
     {
       "title_en": "Show HN: I wrote a custom assembler for CHIP-8 in C++",
@@ -1421,6 +1604,28 @@
       "hot_score": 0.01
     },
     {
+      "title_en": "Suzanne Ciani's Buchla Cookbook",
+      "url": "https://echo.orpheusinstituut.be/article/suzannes-buchla-cookbook",
+      "title_zh": "苏珊娜·西亚尼的 Buchla 打线手册",
+      "created_display": "Created: Sep 16, 2026 / 17:39 PT",
+      "image_url": "https://d1q68vzgqbe8i.cloudfront.net/_1200x630_crop_center-center_82_none/Ciani_credit_Sean-Hellfritsch.png?mtime=1788780020",
+      "summary_en": "A retrospective on Suzanne Ciani's Buchla Cookbook, a patching-focused guide that helped shape her iconic sound on Buchla modular systems. Takeaway: practical patching know-how from a legendary artist remains relevant for musicians and instrument designers alike.",
+      "summary_zh": "回顾作者对苏珊娜·西亚尼的 Buchla 打线手册的介绍，该指南聚焦打线方法，塑造了她在 Buchla 模块化系统中的标志性音色。文中强调通过直观的打线与模块化结构能够产生独特的音色，这种思路至今仍影响经典与现代合成。要点在于这位传奇艺术家的实操经验对音乐人和器材设计者仍具参考价值。",
+      "hn": {
+        "id": 49735010,
+        "type": "story",
+        "by": "stuart78",
+        "score": 24,
+        "descendants": 8,
+        "time": 1789605579,
+        "comments_url": "https://news.ycombinator.com/item?id=49735010"
+      },
+      "hot_score": 0.01,
+      "tags": [
+        "Design"
+      ]
+    },
+    {
       "title_en": "Veronese's Dogs",
       "url": "https://publicdomainreview.org/essay/veroneses-dogs",
       "title_zh": "维罗内塞的狗",
@@ -1443,25 +1648,47 @@
       "hot_score": 0.01
     },
     {
-      "title_en": "Ray Ozzie and the Optimism of Being Early",
-      "url": "https://reproof.app/blog/lotus-notes-history",
-      "title_zh": "Ray Ozzie 与早期乐观主义",
-      "created_display": "Created: Sep 17, 2026 / 02:57 PT",
-      "image_url": "https://firebasestorage.googleapis.com/v0/b/reproof-prod.firebasestorage.app/o/blog-images%2Fdraft%2F1789096709197.webp?alt=media&token=56c74ee852889a81a5a089f730c7d1c4",
-      "summary_en": "Ray Ozzie and the Optimism of Being Early examines the career of the Lotus Notes innovator and why being early in tech can foster bold bets. The piece reflects on the advantages and risks of pioneering technologies in evolving ecosystems.",
-      "summary_zh": "回顾 Ray Ozzie 的职业路径，解读他在早期科技生态中的乐观精神与前瞻性。文章分析先行者在快速变化的技术环境中如何推动创新与承担风险。",
+      "title_en": "Adventures in Microcontroller Circuit Debugging",
+      "url": "https://www.bigmessowires.com/2026/08/30/adventures-in-microcontroller-circuit-debugging/",
+      "title_zh": "微控制器电路调试之旅",
+      "created_display": "Created: Sep 17, 2026 / 12:00 PT",
+      "image_url": "https://www.bigmessowires.com/bmow-title.png",
+      "summary_en": "A hands-on account of debugging microcontroller circuits, sharing practical tips on probing signals, isolating faults, and using affordable tools to tame stubborn bugs. The post emphasizes disciplined debugging and creative problem-solving in embedded hardware. Takeaway: a systematic approach reduces triage time and improves reliability for hobbyists and pros alike.",
+      "summary_zh": "一次关于微控制器电路调试的实战记录，分享探测信号、定位故障以及使用低价工具解决顽固问题的实用技巧。文章强调有纪律的调试方法与嵌入式硬件中的创造性解题思路。要点是系统化的排错方法能显著缩短定位时间并提升可靠性。",
       "hn": {
-        "id": 49738518,
+        "id": 49745049,
         "type": "story",
-        "by": "maguay",
+        "by": "lateatdesk",
         "score": 17,
-        "descendants": 11,
-        "time": 1789639046,
-        "comments_url": "https://news.ycombinator.com/item?id=49738518"
+        "descendants": 1,
+        "time": 1789671640,
+        "comments_url": "https://news.ycombinator.com/item?id=49745049"
       },
       "hot_score": 0.01,
       "tags": [
-        "Culture"
+        "Hardware"
+      ]
+    },
+    {
+      "title_en": "UFO Series Home Page: \"UFO\" TV Series from 1970",
+      "url": "https://ufoseries.com/",
+      "title_zh": "UFO 系列主页：1970 年代的 UFO 电视剧",
+      "created_display": "Created: Sep 18, 2026 / 06:35 PT",
+      "image_url": "https://ufoseries.com/index.jpg",
+      "summary_en": "The UFO Series Home Page documents the 1970 British sci‑fi show with episode guides, production notes, and fan materials. It underscores the show’s distinctive design language and practical effects that influenced later TV aesthetics. Takeaway: archival hubs like this keep classic sci‑fi accessible and inform contemporary design sensibilities.",
+      "summary_zh": "UFO 系列主页整理了 1970 年代英国科幻剧的剧集目录、制作笔记及相关收藏资料，凸显其独特的设计语言和实景特效对后续作品美学的影响。要点在于此类档案站点能让经典科幻更易获取，并启发当代的设计取向。",
+      "hn": {
+        "id": 49754194,
+        "type": "story",
+        "by": "DropDead",
+        "score": 8,
+        "descendants": 1,
+        "time": 1789738505,
+        "comments_url": "https://news.ycombinator.com/item?id=49754194"
+      },
+      "hot_score": 0.01,
+      "tags": [
+        "Entertainment"
       ]
     },
     {
