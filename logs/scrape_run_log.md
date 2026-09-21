@@ -2075,3 +2075,4 @@ Each row records one `run_scrape()` invocation.
 | 04:33:31 | schedule | top | 135s | 59 | 9 | 41 | 0 | 24,559 | $0.0074 |  |
 | 10:03:46 | schedule | best | 117s | 50 | 12 | 0 | 10 | 20,359 | $0.0060 |  |
 | 11:08:31 | schedule | top | 182s | 88 | 24 | 21 | 0 | 34,145 | $0.0100 |  |
+| 13:43:05 | schedule | top | 224s | 100 | 18 | 32 | 0 | 44,723 | $0.0135 |  |

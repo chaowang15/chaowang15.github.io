@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>214</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>31606</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>211</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>212</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-09-21</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>214</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>31618</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>211</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>212</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-09-21</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='310' data-hn-time='1790005815'>
+<div class='hn-top-story-item' data-hn-score='223' data-hn-time='1790021532'>
 <span class='hn-top-story-rank'>1</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/21/top_stories_09212026#story-49792730'>Xiaomi MiMo v2.6</a>
+ <a class='hn-top-story-link' href='https://mimo.xiaomi.com/mimo-v2-6' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>小米 MiMo v2.6</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 23</span> <span class='hn-top-story-score'>&#9650; 223</span> <span class='hn-top-story-comments'>&#128172; 97</span> <span class='hn-top-story-tag'>Hardware</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='182' data-hn-time='1790018052'>
+<span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/21/top_stories_09212026#story-49791939'>The NASA/ESA Mars Sample Return mission has been canceled</a>
+ <a class='hn-top-story-link' href='https://www.science.org/content/article/nasa-s-mars-sample-return-mission-dead' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>NASA/ESA 火星样本返回任务被取消</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 182</span> <span class='hn-top-story-comments'>&#128172; 136</span> <span class='hn-top-story-tag'>Space</span> <span class='hn-top-story-tag'>Science</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='425' data-hn-time='1790005815'>
+<span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/09/21/top_stories_09212026#story-49788838'>Grok 4.7</a>
  <a class='hn-top-story-link' href='https://x.ai/news/grok-4-7' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Grok 4.7 发布</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 15</span> <span class='hn-top-story-score'>&#9650; 310</span> <span class='hn-top-story-comments'>&#128172; 257</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 10</span> <span class='hn-top-story-score'>&#9650; 425</span> <span class='hn-top-story-comments'>&#128172; 347</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='205' data-hn-time='1790007237'>
-<span class='hn-top-story-rank'>2</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/21/top_stories_09212026#story-49789224'>Fable 5 – Median thinking declined in August</a>
- <a class='hn-top-story-link' href='https://twitter.com/Lon/status/2101793422487204027' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Fable 5：八月中位思维下降</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 205</span> <span class='hn-top-story-comments'>&#128172; 131</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='323' data-hn-time='1790000816'>
-<span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-item' data-hn-score='469' data-hn-time='1790000816'>
+<span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/09/21/top_stories_09212026#story-49787726'>Attention is all you have</a>
  <a class='hn-top-story-link' href='https://alicegg.tech/2026/09/21/attention' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>注意力就是你拥有的全部</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 323</span> <span class='hn-top-story-comments'>&#128172; 94</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.6</span> <span class='hn-top-story-score'>&#9650; 469</span> <span class='hn-top-story-comments'>&#128172; 139</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='356' data-hn-time='1789999398'>
-<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-item' data-hn-score='297' data-hn-time='1790007237'>
+<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/21/top_stories_09212026#story-49789224'>Fable 5 – Median thinking declined in August</a>
+ <a class='hn-top-story-link' href='https://twitter.com/Lon/status/2101793422487204027' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Fable 5：八月中位思维下降</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.0</span> <span class='hn-top-story-score'>&#9650; 297</span> <span class='hn-top-story-comments'>&#128172; 200</span> <span class='hn-top-story-tag'>Gaming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='134' data-hn-time='1790016119'>
+<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/21/top_stories_09212026#story-49791509'>US halts flights at busy East Coast airports, says fiber line cut</a>
+ <a class='hn-top-story-link' href='https://www.reuters.com/world/us/faa-halts-some-us-east-coast-flights-due-communication-issues-2026-09-21/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>美国因光纤线路故障暂停东海岸繁忙机场的航班</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.4</span> <span class='hn-top-story-score'>&#9650; 134</span> <span class='hn-top-story-comments'>&#128172; 88</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>DevOps</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='433' data-hn-time='1789999398'>
+<span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/09/21/top_stories_09212026#story-49787436'>What Sun got wrong</a>
  <a class='hn-top-story-link' href='https://bcantrill.dtrace.org/2026/09/20/what-sun-got-wrong/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Sun 做错了什么</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 356</span> <span class='hn-top-story-comments'>&#128172; 189</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.3</span> <span class='hn-top-story-score'>&#9650; 433</span> <span class='hn-top-story-comments'>&#128172; 242</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='95' data-hn-time='1790010023'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/21/top_stories_09212026#story-49789982'>Amazon blocks Meta’s new Muse AI agent from shopping on amazon.com</a>
- <a class='hn-top-story-link' href='https://www.forbes.com/sites/jonmarkman/2026/09/21/amazon-blocks-metas-new-muse-ai-agent-from-shopping-on-amazoncom/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>亚马逊阻止 Meta 的 Muse AI 购物代理在 amazon.com 购物</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.4</span> <span class='hn-top-story-score'>&#9650; 95</span> <span class='hn-top-story-comments'>&#128172; 81</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Business</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='64' data-hn-time='1790011821'>
-<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='181' data-hn-time='1790011821'>
+<span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/09/21/top_stories_09212026#story-49790409'>Turn off and restrict access to Apple Intelligence features on Mac</a>
  <a class='hn-top-story-link' href='https://support.apple.com/guide/mac-help/turn-restrict-access-apple-intelligence-mchlb2e44f94/mac' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>在 Mac 上关闭并限制 Apple Intelligence 功能的访问</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.2</span> <span class='hn-top-story-score'>&#9650; 64</span> <span class='hn-top-story-comments'>&#128172; 28</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.8</span> <span class='hn-top-story-score'>&#9650; 181</span> <span class='hn-top-story-comments'>&#128172; 119</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='60' data-hn-time='1790012208'>
-<span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/21/top_stories_09212026#story-49790501'>Seattle Bans Rental Junk Fees</a>
- <a class='hn-top-story-link' href='https://www.multifamilydive.com/news/seattle-ban-rental-junk-fees/827816/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>西雅图禁止租房中的冗余杂费</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.2</span> <span class='hn-top-story-score'>&#9650; 60</span> <span class='hn-top-story-comments'>&#128172; 115</span> <span class='hn-top-story-tag'>Politics</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='182' data-hn-time='1789998807'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/21/top_stories_09212026#story-49787313'>M5 Ultra Mac Studio Review</a>
- <a class='hn-top-story-link' href='https://www.macstories.net/stories/m5-ultra-mac-studio-review-the-dream-mac-for-local-ai-agents/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>M5 Ultra Mac Studio 评测</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.2</span> <span class='hn-top-story-score'>&#9650; 182</span> <span class='hn-top-story-comments'>&#128172; 155</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='332' data-hn-time='1789986470'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='68' data-hn-time='1790019829'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/21/top_stories_09212026#story-49785397'>ZuckOff is a free app that sees Meta glasses before they see you</a>
- <a class='hn-top-story-link' href='https://www.wired.me/story/meta-smart-glasses-detector-app-zuckoff' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/21/top_stories_09212026#story-49792342'>Transformers Explained Visually</a>
+ <a class='hn-top-story-link' href='https://poloclub.github.io/transformer-explainer/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>ZuckOff：一款免费应用，能在 Meta 智能眼镜发现你之前先侦测到它们</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.7</span> <span class='hn-top-story-score'>&#9650; 332</span> <span class='hn-top-story-comments'>&#128172; 313</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>Transformer 架构可视化解读</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.6</span> <span class='hn-top-story-score'>&#9650; 68</span> <span class='hn-top-story-comments'>&#128172; 7</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Education</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='319' data-hn-time='1789986794'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='65' data-hn-time='1790018613'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/21/top_stories_09212026#story-49785429'>ZuckOff Know when a camera is in the room</a>
- <a class='hn-top-story-link' href='https://zuckoff.app/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/21/top_stories_09212026#story-49792067'>AI coding has made CI a bottleneck, so we reworked ours to keep up</a>
+ <a class='hn-top-story-link' href='https://linear.app/now/ci-bottleneck-reworked' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>ZuckOff：识别房间内的摄像头</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.6</span> <span class='hn-top-story-score'>&#9650; 319</span> <span class='hn-top-story-comments'>&#128172; 121</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>AI 编程让持续集成成为瓶颈，因此我们重构CI以跟上进度</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.6</span> <span class='hn-top-story-score'>&#9650; 65</span> <span class='hn-top-story-comments'>&#128172; 54</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>DevOps</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -140,7 +140,7 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 39 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-09-21 <span class="hn-row-sep">·</span> 88 stories <span class="hn-row-sep">·</span> 1 days</span>
+<span class='hn-week-meta'>2026-09-21 <span class="hn-row-sep">·</span> 100 stories <span class="hn-row-sep">·</span> 1 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/09/21/top_stories_09212026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>88</b> <span class="hn-row-sep">·</span> AI <b>35</b> <span class="hn-row-sep">·</span> Hardware <b>13</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>38</b> <span class="hn-row-sep">·</span> Programming <b>17</b></span>
 </a>
 </div>
 </div>
