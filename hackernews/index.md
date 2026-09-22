@@ -20,7 +20,7 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='779' data-hn-time='1790100034'>
+<div class='hn-top-story-item' data-hn-score='1077' data-hn-time='1790100034'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -28,10 +28,10 @@ Sort:
  <a class='hn-top-story-link' href='https://openai.com/index/introducing-gpt-6-sol-and-luna/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>GPT-6：Sol 与 Luna</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 45</span> <span class='hn-top-story-score'>&#9650; 779</span> <span class='hn-top-story-comments'>&#128172; 428</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 26</span> <span class='hn-top-story-score'>&#9650; 1077</span> <span class='hn-top-story-comments'>&#128172; 561</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='858' data-hn-time='1790094545'>
+<div class='hn-top-story-item' data-hn-score='1113' data-hn-time='1790094545'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -39,95 +39,95 @@ Sort:
  <a class='hn-top-story-link' href='https://www.anthropic.com/claude-opus-5-5' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Claude Opus 5.5 版本</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 31</span> <span class='hn-top-story-score'>&#9650; 858</span> <span class='hn-top-story-comments'>&#128172; 648</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 20</span> <span class='hn-top-story-score'>&#9650; 1113</span> <span class='hn-top-story-comments'>&#128172; 770</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='220' data-hn-time='1790103818'>
+<div class='hn-top-story-item' data-hn-score='347' data-hn-time='1790103818'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/22/top_stories_09222026#story-49806430'>Overreliance on AI contributed to missile strike on Iran school – Pentagon</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/22/top_stories_09222026#story-49806430'>Pentagon says overreliance on AI contributed to missile strike on Iran school</a>
  <a class='hn-top-story-link' href='https://www.bloomberg.com/graphics/2026-iran-school-attack/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>五角大楼称对伊朗一所学校袭击的过度依赖 AI 起了作用</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 20</span> <span class='hn-top-story-score'>&#9650; 220</span> <span class='hn-top-story-comments'>&#128172; 114</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 347</span> <span class='hn-top-story-comments'>&#128172; 178</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='504' data-hn-time='1790087412'>
+<div class='hn-top-story-item' data-hn-score='133' data-hn-time='1790110830'>
 <span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/22/top_stories_09222026#story-49808023'>Microsoft killed FoxPro in 2007. Anyway, here's FoxPro revived</a>
+ <a class='hn-top-story-link' href='https://foxscript.org/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>微软在2007年终止 FoxPro，但如今 FoxPro 似乎又被复活</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.5</span> <span class='hn-top-story-score'>&#9650; 133</span> <span class='hn-top-story-comments'>&#128172; 97</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Open Source</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='319' data-hn-time='1790099162'>
+<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/22/top_stories_09222026#story-49805278'>'We hacked the FBI:' Hackers say they have data on all FBI employees</a>
+ <a class='hn-top-story-link' href='https://www.404media.co/we-hacked-the-fbi-hackers-say-they-have-data-on-all-fbi-employees/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>‘黑客称已入侵 FBI：掌握所有雇员数据’</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.3</span> <span class='hn-top-story-score'>&#9650; 319</span> <span class='hn-top-story-comments'>&#128172; 209</span> <span class='hn-top-story-tag'>Security</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='578' data-hn-time='1790087412'>
+<span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/09/22/top_stories_09222026#story-49801939'>Apple has added persistent 'ads' to iOS, and it's driving users crazy</a>
  <a class='hn-top-story-link' href='https://www.techradar.com/phones/iphone/i-wish-apple-would-just-stop-that-crap-apple-has-added-persistent-ads-to-ios-and-its-driving-users-crazy' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>苹果在 iOS 中加入持续性广告，让用户抓狂</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 504</span> <span class='hn-top-story-comments'>&#128172; 385</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.2</span> <span class='hn-top-story-score'>&#9650; 578</span> <span class='hn-top-story-comments'>&#128172; 437</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Design</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='481' data-hn-time='1790085135'>
-<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='536' data-hn-time='1790085135'>
+<span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/09/22/top_stories_09222026#story-49801324'>OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005</a>
  <a class='hn-top-story-link' href='https://www.cryptocellar.org/bgac/the-mvueh-break.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>GPT–6 Astra 破译自 2005 年以来未解的 Enigma 密文</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.2</span> <span class='hn-top-story-score'>&#9650; 481</span> <span class='hn-top-story-comments'>&#128172; 339</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.0</span> <span class='hn-top-story-score'>&#9650; 536</span> <span class='hn-top-story-comments'>&#128172; 354</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='196' data-hn-time='1790097171'>
-<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='251' data-hn-time='1790097171'>
+<span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/09/22/top_stories_09222026#story-49804683'>There's a high chance of devices being sold with GrapheneOS preinstalled in 2027</a>
  <a class='hn-top-story-link' href='https://grapheneos.social/@GrapheneOS/117299954135808210' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>到 2027 年设备很大概率预装 GrapheneOS</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.7</span> <span class='hn-top-story-score'>&#9650; 196</span> <span class='hn-top-story-comments'>&#128172; 86</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Security</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='264' data-hn-time='1790090712'>
-<span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/22/top_stories_09222026#story-49802871'>I asked Meta’s Muse for its filesystem and it sent me 6.8GB</a>
- <a class='hn-top-story-link' href='https://mouse.dev/blog/muse-runtime-export/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>我让 Meta 的 Muse 给我文件系统，它给了我 6.8GB</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.1</span> <span class='hn-top-story-score'>&#9650; 264</span> <span class='hn-top-story-comments'>&#128172; 136</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='76' data-hn-time='1790103437'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/22/top_stories_09222026#story-49806335'>SAML: A Fractal of Bad Design</a>
- <a class='hn-top-story-link' href='https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>SAML：坏设计的分形</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.5</span> <span class='hn-top-story-score'>&#9650; 76</span> <span class='hn-top-story-comments'>&#128172; 22</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Design</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='159' data-hn-time='1790095891'>
-<span class='hn-top-story-rank'>9</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/22/top_stories_09222026#story-49804316'>Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)</a>
- <a class='hn-top-story-link' href='https://artificialanalysis.ai/models/claude-opus-5-5' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Claude Opus 5.5 Max 的智能、性能与价格分析</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.3</span> <span class='hn-top-story-score'>&#9650; 159</span> <span class='hn-top-story-comments'>&#128172; 49</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.1</span> <span class='hn-top-story-score'>&#9650; 251</span> <span class='hn-top-story-comments'>&#128172; 105</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
 <div class='hn-top-story-item hn-top-story-extra' data-hn-score='765' data-hn-time='1790064295'>
-<span class='hn-top-story-rank'>10</span>
+<span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/09/22/top_stories_09222026#story-49797982'>I said no and Apple said yes</a>
  <a class='hn-top-story-link' href='https://dbushell.com/2026/09/22/apple-intelligence/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>我说不，苹果说是</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.0</span> <span class='hn-top-story-score'>&#9650; 765</span> <span class='hn-top-story-comments'>&#128172; 615</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.3</span> <span class='hn-top-story-score'>&#9650; 765</span> <span class='hn-top-story-comments'>&#128172; 615</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='216' data-hn-time='1790095891'>
+<span class='hn-top-story-rank'>10</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/22/top_stories_09222026#story-49804316'>Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)</a>
+ <a class='hn-top-story-link' href='https://artificialanalysis.ai/models/claude-opus-5-5' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Claude Opus 5.5 Max 的智能、性能与价格分析</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.1</span> <span class='hn-top-story-score'>&#9650; 216</span> <span class='hn-top-story-comments'>&#128172; 62</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/09/22/top_stories_09222026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>38</b> <span class="hn-row-sep">·</span> Programming <b>20</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>37</b> <span class="hn-row-sep">·</span> Programming <b>21</b></span>
 </a>
 </div>
 </div>
