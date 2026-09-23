@@ -4,21 +4,204 @@
     "source": "https://news.ycombinator.com/",
     "api": "https://github.com/HackerNews/API",
     "count_requested": 50,
-    "count_written": 60,
-    "reused_same_day": 40,
+    "count_written": 83,
+    "reused_same_day": 26,
     "reused_cross_day": 0,
-    "new_llm_enriched": 10,
-    "scrape_time_display": "04:14, September 23, 2026 (PDT)",
+    "new_llm_enriched": 20,
+    "scrape_time_display": "11:16, September 23, 2026 (PDT)",
     "timezone": "America/Los_Angeles",
     "date_dir": "2026/09/23",
     "content_date": "2026-09-23",
-    "run_time_local": "04:14, September 23, 2026 (PDT)",
-    "run_time_utc": "2026-09-23 11:14:20 UTC",
+    "run_time_local": "11:16, September 23, 2026 (PDT)",
+    "run_time_utc": "2026-09-23 18:16:19 UTC",
     "incremental": true,
     "stories_max": 100,
-    "hot_score_time_utc": "2026-09-23 11:15:22 UTC"
+    "hot_score_time_utc": "2026-09-23 18:18:06 UTC"
   },
   "items": [
+    {
+      "title_en": "Fixing the Portobello Police Station Clock",
+      "url": "https://pointinthecloud.com/2026-04-11-211700.html",
+      "title_zh": "修复波托贝洛警察局的时钟",
+      "created_display": "Created: Sep 23, 2026 / 08:18 PT",
+      "image_url": "https://pointinthecloud.com/media/rosie-flying-dog.jpg",
+      "summary_en": "An on-site repair of a long-standing public clock at Portobello Police Station highlights the practical challenges of keeping public infrastructure accurate. The piece walks through diagnosis, component choices, and the care required to maintain legacy devices in a public setting.",
+      "summary_zh": "在波托贝洛警察局对长期使用的公开时钟进行现场修复，展示保持公共基础设施准时性的实际挑战。文章梳理诊断过程、部件选择以及维护老旧设备的要点。",
+      "hn": {
+        "id": 49817469,
+        "type": "story",
+        "by": "avidly",
+        "score": 220,
+        "descendants": 50,
+        "time": 1790176733,
+        "comments_url": "https://news.ycombinator.com/item?id=49817469"
+      },
+      "hot_score": 12.14,
+      "tags": [
+        "Hardware",
+        "DevOps"
+      ]
+    },
+    {
+      "title_en": "GPT-6 Astra has gained the ability to drive a car",
+      "url": "https://drivingbench.com/",
+      "title_zh": "GPT-6 Astra 拥有驾车能力",
+      "created_display": "Created: Sep 23, 2026 / 08:14 PT",
+      "image_url": "https://drivingbench.com/og/home.png",
+      "summary_en": "GPT-6 Astra has gained the ability to drive a car, suggesting integration of advanced AI with autonomous vehicle control. The capability raises questions about safety, control, and regulatory compliance, and could accelerate AI-assisted driving tools.",
+      "summary_zh": "GPT-6 Astra 已获得驾驶汽车的能力，显示出先进 AI 与自动驾驶控制的整合前景。这一能力引发关于安全性、控制权与监管合规性的讨论，并可能推动 AI 辅助驾驶工具的普及。",
+      "hn": {
+        "id": 49817404,
+        "type": "story",
+        "by": "plurby",
+        "score": 197,
+        "descendants": 169,
+        "time": 1790176462,
+        "comments_url": "https://news.ycombinator.com/item?id=49817404"
+      },
+      "hot_score": 10.58,
+      "tags": [
+        "AI",
+        "Politics"
+      ]
+    },
+    {
+      "title_en": "Italian parliament votes for return to nuclear energy",
+      "url": "https://apnews.com/article/italy-nuclear-chernobyl-4891b6b7c7791ae84db6b0bf0f7cf567",
+      "title_zh": "意大利国会通过核能回归",
+      "created_display": "Created: Sep 23, 2026 / 10:06 PT",
+      "image_url": null,
+      "summary_en": "Italy's parliament voted to reintroduce nuclear energy as part of its energy mix, signaling a strategic shift toward energy diversification and decarbonization. The move could spur regulatory, investment, and public-privacy debates around new reactors or small modular reactors.",
+      "summary_zh": "意大利议会通过重启核能计划来丰富能源结构，体现对能源多样化和减排的战略转向。此举可能推动新型核能技术、监管框架和相关投资的讨论与部署。",
+      "hn": {
+        "id": 49819221,
+        "type": "story",
+        "by": "geox",
+        "score": 79,
+        "descendants": 12,
+        "time": 1790183176,
+        "comments_url": "https://news.ycombinator.com/item?id=49819221"
+      },
+      "hot_score": 9.63,
+      "tags": [
+        "Energy",
+        "Politics",
+        "Privacy"
+      ]
+    },
+    {
+      "title_en": "Claude Code reads AGENTS.md only when telemetry is on [fixed]",
+      "url": "https://blog.szypowi.cz/p/claude-code-reads-agents.md-only-when-telemetry-is-on/",
+      "title_zh": "Claude Code 仅在开启遥测时读取 AGENTS.md 的问题已修复",
+      "created_display": "Created: Sep 23, 2026 / 05:15 PT",
+      "image_url": null,
+      "summary_en": "Claude Code previously read AGENTS.md only when telemetry was enabled, a privacy quirk that could leak policy-facing content under certain settings. The update fixes the behavior, decoupling file access from telemetry so policy information isn’t conditionally exposed. It underscores ongoing attention to privacy controls in AI-assisted development tools.",
+      "summary_zh": "Claude Code 之前仅在遥测开启时读取 AGENTS.md，这一隐私问题在某些设置下可能导致策略性内容泄露。此次修复将数据访问与遥测状态解耦，使策略性文档的读取不再依赖遥测，提升隐私保护与可预测性。该事件反映了在 AI 辅助开发工具中对隐私控制的持续关注。",
+      "hn": {
+        "id": 49814947,
+        "type": "story",
+        "by": "pszypowicz",
+        "score": 381,
+        "descendants": 217,
+        "time": 1790165733,
+        "comments_url": "https://news.ycombinator.com/item?id=49814947"
+      },
+      "tags": [
+        "AI",
+        "Privacy"
+      ],
+      "hot_score": 8.91
+    },
+    {
+      "title_en": "28% of job postings on company career sites have been open over 90 days",
+      "url": "https://unlisted.careers/ghost-jobs/report/2026-09",
+      "title_zh": "公司职业站点中有 90 天以上的职位比例",
+      "created_display": "Created: Sep 23, 2026 / 09:35 PT",
+      "image_url": null,
+      "summary_en": "A report finds 28% of job postings on company career sites have been open for more than 90 days, signaling hiring frictions and misalignment in workforce planning. The trend highlights inefficiencies in talent acquisition and potential misrepresentation of urgency to candidates.",
+      "summary_zh": "报告显示，企业招聘网站上有 28% 的职位自上线起超过 90 天仍未关闭，反映招聘流程的摩擦与人力规划的错配。此现象揭示招聘效率低下及对求职者传达紧迫性方面的潜在误导。",
+      "hn": {
+        "id": 49818698,
+        "type": "story",
+        "by": "rubatrejo",
+        "score": 90,
+        "descendants": 112,
+        "time": 1790181334,
+        "comments_url": "https://news.ycombinator.com/item?id=49818698"
+      },
+      "hot_score": 8.41,
+      "tags": [
+        "Business",
+        "Career"
+      ]
+    },
+    {
+      "title_en": "Gemini 3.8 text-to-speech",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/",
+      "title_zh": "Gemini 3.8 文本转语音",
+      "created_display": "Created: Sep 23, 2026 / 08:29 PT",
+      "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-audio__keyword__metacard__light.width-1300.png",
+      "summary_en": "Gemini 3.8 expands text-to-speech capabilities, delivering more natural prosody and faster generation for scalable applications. The update broadens multilingual support and improves voice customization, impacting accessibility tools, IVR, and content creation.",
+      "summary_zh": "Gemini 3.8 在文本转语音方面提升了自然度和生成速度，便于在大规模场景中使用。扩展的多语言支持与更灵活的声音自定义，将影响无障碍、语音交互与内容创作等领域。",
+      "hn": {
+        "id": 49817615,
+        "type": "story",
+        "by": "swolpers",
+        "score": 131,
+        "descendants": 69,
+        "time": 1790177363,
+        "comments_url": "https://news.ycombinator.com/item?id=49817615"
+      },
+      "hot_score": 7.69,
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title_en": "I don't want the details",
+      "url": "https://michaelheap.com/i-dont-want-the-details/",
+      "title_zh": "我不想要细节",
+      "created_display": "Created: Sep 23, 2026 / 06:04 PT",
+      "image_url": null,
+      "summary_en": "A piece arguing that for certain audiences, high-level explanations trump technical minutiae, focusing on practical implications rather than details.",
+      "summary_zh": "作者主张在某些场景下，概括性解释比技术细节更有价值，聚焦实际影响而非细枝末节。",
+      "hn": {
+        "id": 49815466,
+        "type": "story",
+        "by": "mooreds",
+        "score": 231,
+        "descendants": 141,
+        "time": 1790168684,
+        "comments_url": "https://news.ycombinator.com/item?id=49815466"
+      },
+      "tags": [
+        "Culture"
+      ],
+      "hot_score": 6.55
+    },
+    {
+      "title_en": "Samsung accidentally freezes its smart fridges with a software update",
+      "url": "https://www.androidauthority.com/samsung-accidentally-freezes-its-smart-fridges-with-a-software-update-3714472/",
+      "title_zh": "三星软件更新意外让智能冰箱冻结",
+      "created_display": "Created: Sep 23, 2026 / 05:57 PT",
+      "image_url": "https://www.androidauthority.com/wp-content/uploads/2025/09/samsung-family-hub-fridge-large.jpg",
+      "summary_en": "A staged software update for Samsung smart fridges unexpectedly froze devices, sometimes locking the touchscreen or disrupting cooling features. The incident highlights the fragility of IoT firmware rollouts and why robust rollback and testing are essential.",
+      "summary_zh": "三星的一次软件更新意外使智能冰箱进入冻结状态，部分设备触屏失灵或功能异常，影响使用体验。此事件暴露了物联网固件更新的脆弱性，强调需要更稳健的回滚和测试流程。",
+      "hn": {
+        "id": 49815381,
+        "type": "story",
+        "by": "Markoff",
+        "score": 209,
+        "descendants": 230,
+        "time": 1790168279,
+        "comments_url": "https://news.ycombinator.com/item?id=49815381"
+      },
+      "tags": [
+        "Hardware",
+        "DevOps"
+      ],
+      "hot_score": 5.76
+    },
     {
       "title_en": "Jev in 25 Lines of Python",
       "url": "https://www.nobodywho.ai/posts/jev-in-25-lines/",
@@ -31,13 +214,36 @@
         "id": 49812769,
         "type": "story",
         "by": "bashbjorn",
-        "score": 210,
-        "descendants": 70,
+        "score": 519,
+        "descendants": 160,
         "time": 1790148383,
         "comments_url": "https://news.ycombinator.com/item?id=49812769"
       },
-      "hot_score": 8.79,
       "tags": [
+        "Programming"
+      ],
+      "hot_score": 5.22
+    },
+    {
+      "title_en": "Strands Harness",
+      "url": "https://strandsagents.com/blog/introducing-strands-harness/",
+      "title_zh": "Strands Harness",
+      "created_display": "Created: Sep 23, 2026 / 08:05 PT",
+      "image_url": "https://strandsagents.com/blog/og/introducing-strands-harness.png",
+      "summary_en": "Strands Harness offers a modular framework to build and orchestrate AI agents, focusing on tool use, memory, and planning. It aims to simplify composing complex autonomous systems and enables scalable agent workflows.",
+      "summary_zh": "Strands Harness 提供一个模块化框架，用于构建与编排 AI 代理，着重工具调用、记忆与计划能力，旨在简化复杂自治系统的组合与扩展。",
+      "hn": {
+        "id": 49817289,
+        "type": "story",
+        "by": "zuckerborg0101",
+        "score": 98,
+        "descendants": 67,
+        "time": 1790175946,
+        "comments_url": "https://news.ycombinator.com/item?id=49817289"
+      },
+      "hot_score": 4.98,
+      "tags": [
+        "AI",
         "Programming"
       ]
     },
@@ -53,15 +259,62 @@
         "id": 49805509,
         "type": "story",
         "by": "OfficialTurkey",
-        "score": 1570,
-        "descendants": 754,
+        "score": 1683,
+        "descendants": 809,
         "time": 1790100034,
         "comments_url": "https://news.ycombinator.com/item?id=49805509"
       },
       "tags": [
         "AI"
       ],
-      "hot_score": 7.65
+      "hot_score": 4.68
+    },
+    {
+      "title_en": "UK military jamming other nations' satellites to defend itself, BBC told",
+      "url": "https://www.bbc.com/news/articles/c32l8y8kygdvo",
+      "title_zh": "英国军方为自卫干扰其他国家卫星，BBC称",
+      "created_display": "Created: Sep 23, 2026 / 10:45 PT",
+      "image_url": "https://ichef.bbci.co.uk/news/1024/branded_news/9888/live/768b63b0-b771-11f1-a7b2-f3bdba1cd194.jpg",
+      "summary_en": "Britain's defense establishment reportedly considered or employed satellite jamming against other nations in defense scenarios, according to BBC reporting. This raises legal, strategic, and civilian-impact questions about space warfare and cross-border interference in the space domain.",
+      "summary_zh": "据 BBC 报道，英国军方在自卫情境下干扰其他国家卫星的能力成为公开议题，引发对太空战、跨境干扰以及对民用通信影响的讨论。",
+      "hn": {
+        "id": 49819814,
+        "type": "story",
+        "by": "thm",
+        "score": 25,
+        "descendants": 6,
+        "time": 1790185530,
+        "comments_url": "https://news.ycombinator.com/item?id=49819814"
+      },
+      "hot_score": 4.47,
+      "tags": [
+        "Space",
+        "Politics",
+        "Legal"
+      ]
+    },
+    {
+      "title_en": "Seattle City Council votes to ban surveillance pricing in sale of groceries",
+      "url": "https://advocacy.consumerreports.org/press_release/seattle-city-council-votes-to-ban-surveillance-pricing-in-sale-of-groceries/",
+      "title_zh": "西雅图通过禁止在杂货销售中的监控定价",
+      "created_display": "Created: Sep 23, 2026 / 07:04 PT",
+      "image_url": "https://article.images.consumerreports.org/f_auto/prod/content/dam/special-graphics/CR-generic-lowres",
+      "summary_en": "Seattle votes to ban surveillance pricing in grocery sales, restricting how retailers use customer data to adjust prices. The measure aims to protect privacy and ensure fair pricing, with potential ripple effects on retailers and other cities.",
+      "summary_zh": "西雅图市议会通过禁止在杂货销售中使用监控数据进行定价的法案，限制商家依赖顾客数据来调整价格，旨在提升隐私保护与价格公平。这一举措可能影响零售商策略并引发其他城市的模仿。",
+      "hn": {
+        "id": 49816374,
+        "type": "story",
+        "by": "ortusdux",
+        "score": 121,
+        "descendants": 73,
+        "time": 1790172274,
+        "comments_url": "https://news.ycombinator.com/item?id=49816374"
+      },
+      "hot_score": 4.46,
+      "tags": [
+        "Privacy",
+        "Politics"
+      ]
     },
     {
       "title_en": "Claude Opus 5.5",
@@ -75,37 +328,84 @@
         "id": 49803892,
         "type": "story",
         "by": "km144",
-        "score": 1577,
-        "descendants": 978,
+        "score": 1718,
+        "descendants": 1048,
         "time": 1790094545,
         "comments_url": "https://news.ycombinator.com/item?id=49803892"
       },
       "tags": [
         "AI"
       ],
-      "hot_score": 6.7
+      "hot_score": 4.32
     },
     {
-      "title_en": "Abandoning Scientific Linux Was a Mistake",
-      "url": "https://blog.melashri.net/posts/scientific-linux-mistake/",
-      "title_zh": "放弃 Scientific Linux 是一个错误的决定",
-      "created_display": "Created: Sep 23, 2026 / 01:46 PT",
-      "image_url": null,
-      "summary_en": "The author argues that Scientific Linux offered long-term support, binary compatibility, and stability for scientific workloads that generic distributions lack. Abandoning it forced researchers to migrate to less tested stacks, increasing maintenance burden and risk. The piece suggests organizations should weigh stability and reproducibility when choosing platforms.",
-      "summary_zh": "作者认为 Scientific Linux 提供长期支持、二进制兼容性和稳定性，适合科学计算工作负载，而通用发行版往往无法比肩。放弃它迫使研究人员迁移到未经充分测试的栈，增加了维护成本和风险。文章建议在选择平台时，优先考虑稳定性与可重复性。",
+      "title_en": "Stripe's Knowledge AI Platform",
+      "url": "https://stripe.dev/blog/meet-stripes-knowledge-ai-platform",
+      "title_zh": "Stripe 的 Knowledge AI 平台",
+      "created_display": "Created: Sep 23, 2026 / 06:38 PT",
+      "image_url": "https://stripe.dev/dev_social.jpeg",
+      "summary_en": "Stripe unveils Knowledge AI Platform to centralize and empower knowledge retrieval across products, enabling developers and merchants to find answers quickly and automate support workflows. The platform marks Stripe's push into enterprise AI tooling with emphasis on privacy controls and integration with existing docs.",
+      "summary_zh": "Stripe 发布 Knowledge AI 平台，聚合并加速跨产品的知识检索，帮助开发者与商家快速找到答案并自动化支持流程。此举体现 Stripe 将 AI 企业级工具包装上线，并强调隐私控制与对现有文档生态的整合。",
       "hn": {
-        "id": 49813286,
+        "id": 49815982,
         "type": "story",
-        "by": "elashri",
-        "score": 68,
-        "descendants": 40,
-        "time": 1790153199,
-        "comments_url": "https://news.ycombinator.com/item?id=49813286"
+        "by": "ltononro",
+        "score": 124,
+        "descendants": 77,
+        "time": 1790170680,
+        "comments_url": "https://news.ycombinator.com/item?id=49815982"
       },
-      "hot_score": 4.51,
+      "hot_score": 4.04,
+      "tags": [
+        "AI",
+        "Business",
+        "Privacy"
+      ]
+    },
+    {
+      "title_en": "The GitHub wiki is an anti-pattern (2022)",
+      "url": "https://michaelheap.com/github-wiki-is-an-antipattern/",
+      "title_zh": "GitHub Wiki 是反模式（2022）",
+      "created_display": "Created: Sep 23, 2026 / 06:05 PT",
+      "image_url": null,
+      "summary_en": "An opinion piece argues GitHub Wikis are an anti-pattern in modern project docs, promoting structured docs and dedicated docs sites instead, with rationale and best practices.",
+      "summary_zh": "评论认为 GitHub Wiki 已成为现代项目文档的反模式，建议使用结构化文档和专门的文档站点，并给出原因与实践建议。",
+      "hn": {
+        "id": 49815484,
+        "type": "story",
+        "by": "ibobev",
+        "score": 136,
+        "descendants": 76,
+        "time": 1790168749,
+        "comments_url": "https://news.ycombinator.com/item?id=49815484"
+      },
+      "hot_score": 3.86,
       "tags": [
         "Open Source",
-        "Science"
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "Radicle: Disclosure of Vulnerability in the Network Protocol",
+      "url": "https://radicle.dev/2026/09/23/disclosure-of-vulnerability-in-network-protocol",
+      "title_zh": "Radicle：网络协议漏洞披露",
+      "created_display": "Created: Sep 23, 2026 / 08:23 PT",
+      "image_url": "https://radicle.dev/assets/images/og-card.png",
+      "summary_en": "Radicle disclosed a vulnerability in its network protocol and outlined mitigation steps, a patch timeline, and future hardening efforts. The disclosure underscores the ongoing importance of securing peer-to-peer protocols in open-source projects.",
+      "summary_zh": "Radicle 公布其网络协议漏洞，并给出缓解措施、修复时间表与后续加固计划。此事凸显了在点对点协议中确保安全性及负责任披露在开源项目中的重要性。",
+      "hn": {
+        "id": 49817524,
+        "type": "story",
+        "by": "lostmsu",
+        "score": 62,
+        "descendants": 20,
+        "time": 1790176985,
+        "comments_url": "https://news.ycombinator.com/item?id=49817524"
+      },
+      "hot_score": 3.47,
+      "tags": [
+        "Security",
+        "Open Source"
       ]
     },
     {
@@ -120,82 +420,39 @@
         "id": 49806430,
         "type": "story",
         "by": "devonnull",
-        "score": 679,
-        "descendants": 347,
+        "score": 854,
+        "descendants": 458,
         "time": 1790103818,
         "comments_url": "https://news.ycombinator.com/item?id=49806430"
       },
       "tags": [
         "AI",
-        "Security"
+        "Politics"
       ],
-      "hot_score": 3.66
+      "hot_score": 2.55
     },
     {
-      "title_en": "I am done with this shit",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wm5c21/i_am_done_with_this_shit/",
-      "title_zh": "这玩意儿我受够了",
-      "created_display": "Created: Sep 23, 2026 / 00:59 PT",
+      "title_en": "Z80 REPL (2018)",
+      "url": "https://abagames.github.io/z80-repl/index.html",
+      "title_zh": "Z80 REPL（2018）",
+      "created_display": "Created: Sep 23, 2026 / 04:04 PT",
       "image_url": null,
-      "summary_en": "An outspoken post venting about Claude AI, highlighting reliability, safety filters, and workflow friction. It reflects broader frustration with current AI assistants and the demand for more dependable, controllable tools.",
-      "summary_zh": "一篇直言不讳的发帖，抨击 Claude AI 的可靠性、安全过滤与工作流阻碍。它反映了对现有 AI 助手的普遍挫败感，以及对更可靠、可控工具的需求。",
+      "summary_en": "A browser-based Z80 REPL from 2018 lets users experiment with Z80 assembly and see immediate results, illustrating the ongoing appeal of browser-based retro computing and education.",
+      "summary_zh": "这是一款可在浏览器中运行的 Z80 REPL，允许用户直接编写并观察 Z80 汇编的即时执行结果，展示了网页端复古计算的持续魅力与教育潜力。",
       "hn": {
-        "id": 49812975,
+        "id": 49814236,
         "type": "story",
-        "by": "meander_water",
-        "score": 68,
-        "descendants": 18,
-        "time": 1790150354,
-        "comments_url": "https://news.ycombinator.com/item?id=49812975"
+        "by": "adunk",
+        "score": 117,
+        "descendants": 14,
+        "time": 1790161492,
+        "comments_url": "https://news.ycombinator.com/item?id=49814236"
       },
-      "hot_score": 3.36,
+      "hot_score": 2.13,
       "tags": [
-        "AI"
-      ]
-    },
-    {
-      "title_en": "Grammarly will send unhinged messages to all your users if you try to cancel",
-      "url": "https://www.reddit.com/r/sysadmin/comments/1wjdpgx/psa_grammarly_will_send_unhinged_messages_to_all/",
-      "title_zh": "尝试取消订阅时 Grammarly 可能向所有用户发送失控消息",
-      "created_display": "Created: Sep 22, 2026 / 21:00 PT",
-      "image_url": null,
-      "summary_en": "A warning about cancellation flows: Grammarly reportedly triggers mass notifications to all users when an account is canceled, illustrating risks around exit processes and privacy. Highlights considerations for notification policies and user experience.",
-      "summary_zh": "警示：在取消订阅的流程中，Grammarly 可能向所有用户发送大量通知，暴露退出流程的隐私和体验风险。提醒读者关注通知策略、数据保护的边界和用户体验。",
-      "hn": {
-        "id": 49811484,
-        "type": "story",
-        "by": "ksec",
-        "score": 181,
-        "descendants": 53,
-        "time": 1790136043,
-        "comments_url": "https://news.ycombinator.com/item?id=49811484"
-      },
-      "tags": [
-        "Privacy"
-      ],
-      "hot_score": 3.29
-    },
-    {
-      "title_en": "The darker side of being a doctor",
-      "url": "https://drericlevi.pages.dev/the-darker-side-of-being-a-doctor/",
-      "title_zh": "身为医生的阴暗面",
-      "created_display": "Created: Sep 23, 2026 / 03:54 PT",
-      "image_url": "https://drericlevi.pages.dev/assets/the-darker-side-of-being-a-doctor-body-1.jpg",
-      "summary_en": "Doctors face burnout, long hours, and the emotional toll of patient outcomes, which often go unseen by patients and administrators. The piece sheds light on the human costs behind clinical care, from moral distress to administrative burdens that siphon time away from patients. It also hints at how smarter workflows, mental health support, and better doctor-patient collaboration could improve resilience and care quality.",
-      "summary_zh": "医生承受职业疲惫、长工时和病人结局带来的情感压力，这些往往被患者和管理者忽视。文章揭示临床护理背后的人性成本，从道德困境到行政负担都在挤压医生照护时间。并提出通过更智能的工作流程、心理健康支持以及更好的医患协作来提升韧性和护理质量的可能性。",
-      "hn": {
-        "id": 49814159,
-        "type": "story",
-        "by": "Danhale93",
-        "score": 16,
-        "descendants": 1,
-        "time": 1790160895,
-        "comments_url": "https://news.ycombinator.com/item?id=49814159"
-      },
-      "hot_score": 3.25,
-      "tags": [
-        "Health",
-        "Programming"
+        "Programming",
+        "Education",
+        "Web"
       ]
     },
     {
@@ -210,8 +467,8 @@
         "id": 49805278,
         "type": "story",
         "by": "spenvo",
-        "score": 631,
-        "descendants": 460,
+        "score": 765,
+        "descendants": 554,
         "time": 1790099162,
         "comments_url": "https://news.ycombinator.com/item?id=49805278"
       },
@@ -219,7 +476,75 @@
         "Security",
         "Privacy"
       ],
-      "hot_score": 3.0
+      "hot_score": 2.09
+    },
+    {
+      "title_en": "Grammarly will send unhinged messages to all your users if you try to cancel",
+      "url": "https://www.reddit.com/r/sysadmin/comments/1wjdpgx/psa_grammarly_will_send_unhinged_messages_to_all/",
+      "title_zh": "尝试取消订阅时 Grammarly 可能向所有用户发送失控消息",
+      "created_display": "Created: Sep 22, 2026 / 21:00 PT",
+      "image_url": null,
+      "summary_en": "A warning about cancellation flows: Grammarly reportedly triggers mass notifications to all users when an account is canceled, illustrating risks around exit processes and privacy. Highlights considerations for notification policies and user experience.",
+      "summary_zh": "警示：在取消订阅的流程中，Grammarly 可能向所有用户发送大量通知，暴露退出流程的隐私和体验风险。提醒读者关注通知策略、数据保护的边界和用户体验。",
+      "hn": {
+        "id": 49811484,
+        "type": "story",
+        "by": "ksec",
+        "score": 317,
+        "descendants": 92,
+        "time": 1790136043,
+        "comments_url": "https://news.ycombinator.com/item?id=49811484"
+      },
+      "tags": [
+        "Privacy"
+      ],
+      "hot_score": 2.08
+    },
+    {
+      "title_en": "Tokens Too Cheap to Meter",
+      "url": "https://jyn.dev/tokens-too-cheap-to-meter/",
+      "title_zh": "Tokens Too Cheap to Meter",
+      "created_display": "Created: Sep 23, 2026 / 02:21 PT",
+      "image_url": "https://jyn.dev/assets/epoch-ml-hardware.png",
+      "summary_en": "Explores the paradox of AI tokens being cheap enough to encourage wasteful usage, arguing for pricing models that reflect compute costs to prevent abuse and ensure sustainability.",
+      "summary_zh": "讨论用于 AI 服务计费的代币价格过低，鼓励资源浪费的现象。提出对成本进行真实反映的定价模型，以防滥用并实现可持续发展。",
+      "hn": {
+        "id": 49813482,
+        "type": "story",
+        "by": "teoruiz",
+        "score": 141,
+        "descendants": 119,
+        "time": 1790155277,
+        "comments_url": "https://news.ycombinator.com/item?id=49813482"
+      },
+      "hot_score": 1.89,
+      "tags": [
+        "AI",
+        "Business"
+      ]
+    },
+    {
+      "title_en": "What to do when your Waymo holds up a Secret Service motorcade",
+      "url": "https://www.ft.com/content/9cc479a6-8206-4af3-a6e5-77176b8d43c4",
+      "title_zh": "Waymo 搞定秘密服务车队的事件中的应对",
+      "created_display": "Created: Sep 23, 2026 / 10:34 PT",
+      "image_url": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F368e5982-f772-4b8c-83e5-56a1fc08b58e.jpg?source=next-barrier-page&fit=scale-down&quality=highest&width=700&dpr=1",
+      "summary_en": "Waymo incident where its self-driving car delayed a Secret Service motorcade raises questions about safety protocols, escalation procedures, and the role of autonomous vehicles in critical security operations.",
+      "summary_zh": "Waymo 自动驾驶车拖延秘密服务车队事件暴露出安全协议、应急流程与自动驾驶在关键安全行动中的角色等问题。",
+      "hn": {
+        "id": 49819658,
+        "type": "story",
+        "by": "cjs_ac",
+        "score": 12,
+        "descendants": 3,
+        "time": 1790184852,
+        "comments_url": "https://news.ycombinator.com/item?id=49819658"
+      },
+      "hot_score": 1.8,
+      "tags": [
+        "AI",
+        "Security"
+      ]
     },
     {
       "title_en": "Apple has added persistent 'ads' to iOS, and it's driving users crazy",
@@ -233,16 +558,37 @@
         "id": 49801939,
         "type": "story",
         "by": "MC995",
-        "score": 736,
-        "descendants": 540,
+        "score": 775,
+        "descendants": 567,
         "time": 1790087412,
         "comments_url": "https://news.ycombinator.com/item?id=49801939"
       },
       "tags": [
-        "Business",
         "Privacy"
       ],
-      "hot_score": 2.65
+      "hot_score": 1.72
+    },
+    {
+      "title_en": "Jev Can't Be Calibrated",
+      "url": "https://www.alexmolas.com/2026/09/23/jev-cant-be-calibrated.html",
+      "title_zh": "Jev 不能被校准",
+      "created_display": "Created: Sep 23, 2026 / 07:39 PT",
+      "image_url": null,
+      "summary_en": "A provocative take arguing that calibration cannot fix underlying issues in AI or systems, critiquing overreliance on calibration as a cure-all.",
+      "summary_zh": "一篇挑衅性观点认为对 Jev 的校准无法解决根本问题，批评过分依赖校准作为万金油的做法。",
+      "hn": {
+        "id": 49816899,
+        "type": "story",
+        "by": "alexmolas",
+        "score": 36,
+        "descendants": 50,
+        "time": 1790174397,
+        "comments_url": "https://news.ycombinator.com/item?id=49816899"
+      },
+      "hot_score": 1.56,
+      "tags": [
+        "AI"
+      ]
     },
     {
       "title_en": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005",
@@ -256,8 +602,8 @@
         "id": 49801324,
         "type": "story",
         "by": "sohkamyung",
-        "score": 671,
-        "descendants": 388,
+        "score": 713,
+        "descendants": 428,
         "time": 1790085135,
         "comments_url": "https://news.ycombinator.com/item?id=49801324"
       },
@@ -265,7 +611,7 @@
         "AI",
         "Security"
       ],
-      "hot_score": 2.3
+      "hot_score": 1.52
     },
     {
       "title_en": "Microsoft killed FoxPro in 2007. Anyway, here's FoxPro revived",
@@ -279,8 +625,8 @@
         "id": 49808023,
         "type": "story",
         "by": "boredjohnny",
-        "score": 339,
-        "descendants": 194,
+        "score": 435,
+        "descendants": 238,
         "time": 1790110830,
         "comments_url": "https://news.ycombinator.com/item?id=49808023"
       },
@@ -288,7 +634,7 @@
         "Programming",
         "Open Source"
       ],
-      "hot_score": 2.24
+      "hot_score": 1.5
     },
     {
       "title_en": "Transit rewards",
@@ -302,15 +648,38 @@
         "id": 49811065,
         "type": "story",
         "by": "raybb",
-        "score": 149,
-        "descendants": 171,
+        "score": 230,
+        "descendants": 283,
         "time": 1790131949,
         "comments_url": "https://news.ycombinator.com/item?id=49811065"
       },
       "tags": [
         "Business"
       ],
-      "hot_score": 2.19
+      "hot_score": 1.34
+    },
+    {
+      "title_en": "Community condemn Bedminster AI mural as 'insult' to artists",
+      "url": "https://www.bbc.co.uk/news/articles/cmlyq09jp49eo",
+      "title_zh": "社区谴责 Bedminster 的 AI 壁画为对艺术家的侮辱",
+      "created_display": "Created: Sep 23, 2026 / 07:16 PT",
+      "image_url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/78a9/live/e862d130-b721-11f1-8d21-19ad84e0e822.jpg",
+      "summary_en": "Local community condemns an AI-generated mural in Bedminster as insulting to artists, sparking debates over AI-generated art, authorship, and compensation. The incident fuels policy discussions around AI in public art.",
+      "summary_zh": "社区将 Bedminster 的 AI 壁画视为对艺术家的侮辱，引发关于 AI 艺术、署名与报酬的讨论，并推动公共艺术领域的政策讨论。",
+      "hn": {
+        "id": 49816553,
+        "type": "story",
+        "by": "edward",
+        "score": 28,
+        "descendants": 20,
+        "time": 1790172972,
+        "comments_url": "https://news.ycombinator.com/item?id=49816553"
+      },
+      "hot_score": 1.06,
+      "tags": [
+        "AI",
+        "Culture"
+      ]
     },
     {
       "title_en": "MiMo v2.6",
@@ -334,7 +703,7 @@
         "Hardware",
         "Energy"
       ],
-      "hot_score": 1.37
+      "hot_score": 1.03
     },
     {
       "title_en": "SAML: A fractal of bad design",
@@ -348,16 +717,16 @@
         "id": 49806335,
         "type": "story",
         "by": "aray07",
-        "score": 255,
-        "descendants": 144,
+        "score": 320,
+        "descendants": 167,
         "time": 1790103437,
         "comments_url": "https://news.ycombinator.com/item?id=49806335"
       },
       "tags": [
-        "Design",
-        "Security"
+        "Security",
+        "Design"
       ],
-      "hot_score": 1.36
+      "hot_score": 0.95
     },
     {
       "title_en": "Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)",
@@ -371,15 +740,85 @@
         "id": 49804316,
         "type": "story",
         "by": "theanonymousone",
-        "score": 298,
-        "descendants": 94,
+        "score": 324,
+        "descendants": 103,
         "time": 1790095891,
         "comments_url": "https://news.ycombinator.com/item?id=49804316"
       },
       "tags": [
         "AI"
       ],
-      "hot_score": 1.3
+      "hot_score": 0.83
+    },
+    {
+      "title_en": "AI Is a Boring Technology",
+      "url": "https://www.chrbutler.com/ai-is-a-boring-technology",
+      "title_zh": "AI 是一门无聊的技术",
+      "created_display": "Created: Sep 23, 2026 / 09:33 PT",
+      "image_url": "https://www.chrbutler.com/public/logos/cb_logo_slate-red.svg",
+      "summary_en": "A contrarian take argues that AI is a boring technology in practice, urging more emphasis on practical, reliable deployments rather than flashy demos. It discusses implications for startups, enterprises, and user expectations.",
+      "summary_zh": "作者认为人工智能在实际应用中其实相当无聊，建议把重点放在稳健、可持续的落地场景，而非追逐炫酷演示。对初创公司、企业与用户期望有启示作用。",
+      "hn": {
+        "id": 49818659,
+        "type": "story",
+        "by": "delaugust",
+        "score": 10,
+        "descendants": 0,
+        "time": 1790181193,
+        "comments_url": "https://news.ycombinator.com/item?id=49818659"
+      },
+      "hot_score": 0.83,
+      "tags": [
+        "AI",
+        "Business"
+      ]
+    },
+    {
+      "title_en": "Abandoning Scientific Linux Was a Mistake",
+      "url": "https://blog.melashri.net/posts/scientific-linux-mistake/",
+      "title_zh": "放弃 Scientific Linux 是一个错误的决定",
+      "created_display": "Created: Sep 23, 2026 / 01:46 PT",
+      "image_url": null,
+      "summary_en": "The author argues that Scientific Linux offered long-term support, binary compatibility, and stability for scientific workloads that generic distributions lack. Abandoning it forced researchers to migrate to less tested stacks, increasing maintenance burden and risk. The piece suggests organizations should weigh stability and reproducibility when choosing platforms.",
+      "summary_zh": "作者认为 Scientific Linux 提供长期支持、二进制兼容性和稳定性，适合科学计算工作负载，而通用发行版往往无法比肩。放弃它迫使研究人员迁移到未经充分测试的栈，增加了维护成本和风险。文章建议在选择平台时，优先考虑稳定性与可重复性。",
+      "hn": {
+        "id": 49813286,
+        "type": "story",
+        "by": "elashri",
+        "score": 68,
+        "descendants": 40,
+        "time": 1790153199,
+        "comments_url": "https://news.ycombinator.com/item?id=49813286"
+      },
+      "hot_score": 0.82,
+      "tags": [
+        "Science",
+        "Open Source"
+      ]
+    },
+    {
+      "title_en": "What to Know About JavaScript in 2026",
+      "url": "https://blog.master.dev/what-to-know-in-javascript-2026-edition/",
+      "title_zh": "2026 年 JavaScript 的要点",
+      "created_display": "Created: Sep 23, 2026 / 08:30 PT",
+      "image_url": "https://blog.master.dev/wp-json/social-image-generator/v1/image/8479",
+      "summary_en": "Overview of JavaScript in 2026: feature trajectories, evolving runtimes, and tooling shifts, with emphasis on modularization, server components, performance, and security best practices.",
+      "summary_zh": "总结 2026 年 JavaScript 的关键趋势，包括语言新特性、运行时演变、工具链变化，以及模块化、服务端组件、性能与安全的关注要点。",
+      "hn": {
+        "id": 49817636,
+        "type": "story",
+        "by": "eustoria",
+        "score": 14,
+        "descendants": 2,
+        "time": 1790177447,
+        "comments_url": "https://news.ycombinator.com/item?id=49817636"
+      },
+      "hot_score": 0.78,
+      "tags": [
+        "Programming",
+        "Web",
+        "Security"
+      ]
     },
     {
       "title_en": "There's a high chance of devices being sold with GrapheneOS preinstalled in 2027",
@@ -400,10 +839,33 @@
       },
       "tags": [
         "Privacy",
+        "Open Source",
         "Security",
         "Hardware"
       ],
-      "hot_score": 1.3
+      "hot_score": 0.76
+    },
+    {
+      "title_en": "I am done with this shit",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wm5c21/i_am_done_with_this_shit/",
+      "title_zh": "这玩意儿我受够了",
+      "created_display": "Created: Sep 23, 2026 / 00:59 PT",
+      "image_url": null,
+      "summary_en": "An outspoken post venting about Claude AI, highlighting reliability, safety filters, and workflow friction. It reflects broader frustration with current AI assistants and the demand for more dependable, controllable tools.",
+      "summary_zh": "一篇直言不讳的发帖，抨击 Claude AI 的可靠性、安全过滤与工作流阻碍。它反映了对现有 AI 助手的普遍挫败感，以及对更可靠、可控工具的需求。",
+      "hn": {
+        "id": 49812975,
+        "type": "story",
+        "by": "meander_water",
+        "score": 68,
+        "descendants": 18,
+        "time": 1790150354,
+        "comments_url": "https://news.ycombinator.com/item?id=49812975"
+      },
+      "hot_score": 0.73,
+      "tags": [
+        "AI"
+      ]
     },
     {
       "title_en": "OpenAI is well positioned to fast-follow Jev",
@@ -417,15 +879,15 @@
         "id": 49802161,
         "type": "story",
         "by": "JohnBerryman",
-        "score": 296,
-        "descendants": 209,
+        "score": 309,
+        "descendants": 218,
         "time": 1790088179,
         "comments_url": "https://news.ycombinator.com/item?id=49802161"
       },
       "tags": [
         "AI"
       ],
-      "hot_score": 1.08
+      "hot_score": 0.69
     },
     {
       "title_en": "Unreal Agent",
@@ -439,8 +901,8 @@
         "id": 49805748,
         "type": "story",
         "by": "trollied",
-        "score": 200,
-        "descendants": 110,
+        "score": 226,
+        "descendants": 119,
         "time": 1790100953,
         "comments_url": "https://news.ycombinator.com/item?id=49805748"
       },
@@ -448,30 +910,33 @@
         "AI",
         "Gaming"
       ],
-      "hot_score": 0.99
+      "hot_score": 0.64
     },
     {
-      "title_en": "Data-only attacks are easier than you think (2024)",
-      "url": "https://www.usenix.org/publications/loginonline/data-only-attacks-are-easier-you-think",
-      "title_zh": "数据仅攻击比你想象的更容易（2024）",
-      "created_display": "Created: Sep 22, 2026 / 20:49 PT",
+      "title_en": "Hubble Network Opens Satellite Coverage to All Bluetooth Devices",
+      "url": "https://www.businesswire.com/news/home/20260923752755/en/Hubble-Network-Opens-Satellite-Coverage-to-All-Bluetooth-Devices-Raises-%24200-Million-Series-C-at-%241.6-Billion-Valuation",
+      "title_zh": "Hubble Network 将卫星覆盖扩展到所有蓝牙设备",
+      "created_display": "Created: Sep 23, 2026 / 10:28 PT",
       "image_url": null,
-      "summary_en": "Data-only attacks, where adversaries manipulate data or inputs to influence a system without code execution, are more feasible than many assume. The article outlines practical techniques from 2024 and recommends stronger data validation, provenance checks, and anomaly detection to mitigate risk.",
-      "summary_zh": "数据仅攻击比想象更易实现，攻击者通过操控数据或输入来影响系统而无需执行代码。文中总结了2024年的实际攻击手段，并建议加强数据验证、溯源和异常检测以降低风险。",
+      "summary_en": "Hubble Network opens satellite coverage to all Bluetooth devices, enabling broader accessibility but raising privacy and security considerations as well as potential regulatory questions. The funding round signals momentum for satellite-to-device integration.",
+      "summary_zh": "Hubble Network 将卫星覆盖扩展到所有蓝牙设备，扩大了接入范围的同时也带来隐私与安全以及监管方面的新挑战。融资高增长显示了卫星与设备互联的持续热度。",
       "hn": {
-        "id": 49811429,
+        "id": 49819591,
         "type": "story",
-        "by": "segfaultbuserr",
-        "score": 54,
-        "descendants": 23,
-        "time": 1790135368,
-        "comments_url": "https://news.ycombinator.com/item?id=49811429"
+        "by": "jmarbach",
+        "score": 5,
+        "descendants": 1,
+        "time": 1790184525,
+        "comments_url": "https://news.ycombinator.com/item?id=49819591"
       },
+      "hot_score": 0.62,
       "tags": [
+        "Space",
+        "Business",
         "Security",
-        "Data"
-      ],
-      "hot_score": 0.93
+        "Privacy",
+        "Politics"
+      ]
     },
     {
       "title_en": "WordPress: Unauthenticated path traversal leading to conditional RCE",
@@ -485,15 +950,38 @@
         "id": 49803959,
         "type": "story",
         "by": "vntok",
-        "score": 197,
-        "descendants": 101,
+        "score": 226,
+        "descendants": 124,
         "time": 1790094825,
         "comments_url": "https://news.ycombinator.com/item?id=49803959"
       },
       "tags": [
         "Security"
       ],
-      "hot_score": 0.84
+      "hot_score": 0.57
+    },
+    {
+      "title_en": "Data-only attacks are easier than you think (2024)",
+      "url": "https://www.usenix.org/publications/loginonline/data-only-attacks-are-easier-you-think",
+      "title_zh": "数据仅攻击比你想象的更容易（2024）",
+      "created_display": "Created: Sep 22, 2026 / 20:49 PT",
+      "image_url": null,
+      "summary_en": "Data-only attacks, where adversaries manipulate data or inputs to influence a system without code execution, are more feasible than many assume. The article outlines practical techniques from 2024 and recommends stronger data validation, provenance checks, and anomaly detection to mitigate risk.",
+      "summary_zh": "数据仅攻击比想象更易实现，攻击者通过操控数据或输入来影响系统而无需执行代码。文中总结了2024年的实际攻击手段，并建议加强数据验证、溯源和异常检测以降低风险。",
+      "hn": {
+        "id": 49811429,
+        "type": "story",
+        "by": "segfaultbuserr",
+        "score": 90,
+        "descendants": 38,
+        "time": 1790135368,
+        "comments_url": "https://news.ycombinator.com/item?id=49811429"
+      },
+      "tags": [
+        "Security",
+        "Data"
+      ],
+      "hot_score": 0.57
     },
     {
       "title_en": "Obscura: VPN that can't log your activity",
@@ -507,8 +995,8 @@
         "id": 49807003,
         "type": "story",
         "by": "Flimm",
-        "score": 147,
-        "descendants": 113,
+        "score": 174,
+        "descendants": 130,
         "time": 1790106028,
         "comments_url": "https://news.ycombinator.com/item?id=49807003"
       },
@@ -516,52 +1004,7 @@
         "Privacy",
         "Security"
       ],
-      "hot_score": 0.84
-    },
-    {
-      "title_en": "The Download: why AI's latest breakthroughs and fears may be more hype than rea",
-      "url": "https://www.technologyreview.com/2026/09/22/1144910/the-download-dont-believe-ai-hype/",
-      "title_zh": "下载：AI 最新突破与恐惧或许比真实情况更像炒作",
-      "created_display": "Created: Sep 23, 2026 / 04:01 PT",
-      "image_url": "https://wp.technologyreview.com/wp-content/uploads/2026/09/summer-hype2.jpg?resize=1200,600",
-      "summary_en": "It argues that a lot of touted AI progress rests on narrow benchmarks, not broad intelligence, and public fears may outpace actual capability. The piece urges readers to demand rigorous evaluation, reproducibility, and transparency around datasets and compute. It also notes that hype can attract investment and policy attention even when real breakthroughs are incremental.",
-      "summary_zh": "文章认为许多被吹捧的 AI 进展依赖狭窄的基准，而非真正的通用智能；公众的担忧可能超出实际能力。作者呼吁对数据集、计算资源等保持严格的评估、可重复性与透明度。并指出即便进展只是渐进，炒作也能带来投资和政策关注。",
-      "hn": {
-        "id": 49814211,
-        "type": "story",
-        "by": "joozio",
-        "score": 4,
-        "descendants": 0,
-        "time": 1790161310,
-        "comments_url": "https://news.ycombinator.com/item?id=49814211"
-      },
-      "hot_score": 0.71,
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "title_en": "The current balance of power in open models",
-      "url": "https://www.interconnects.ai/p/the-current-balance-of-power-in-open",
-      "title_zh": "开放模型的力量格局现状",
-      "created_display": "Created: Sep 22, 2026 / 15:03 PT",
-      "image_url": "https://substackcdn.com/image/fetch/$s_!fktE!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fda6bb5fd-56d4-49ec-a19b-dafc917414e1_3182x1790.png",
-      "summary_en": "The piece surveys the current power balance in open models, outlining who controls access to models, compute, and governance, and how openness interacts with safety and competition.",
-      "summary_zh": "文章梳理当前开放模型领域的力量对比，阐述谁掌控模型获取、计算资源及治理，以及开放性如何影响安全、创新和市场竞争。",
-      "hn": {
-        "id": 49808816,
-        "type": "story",
-        "by": "gmays",
-        "score": 93,
-        "descendants": 34,
-        "time": 1790114626,
-        "comments_url": "https://news.ycombinator.com/item?id=49808816"
-      },
-      "tags": [
-        "Open Source",
-        "AI"
-      ],
-      "hot_score": 0.69
+      "hot_score": 0.54
     },
     {
       "title_en": "AMD's random number generator can't generate a 0?",
@@ -575,8 +1018,8 @@
         "id": 49798204,
         "type": "story",
         "by": "BruceEel",
-        "score": 263,
-        "descendants": 200,
+        "score": 273,
+        "descendants": 210,
         "time": 1790066383,
         "comments_url": "https://news.ycombinator.com/item?id=49798204"
       },
@@ -584,7 +1027,76 @@
         "Hardware",
         "Security"
       ],
-      "hot_score": 0.63
+      "hot_score": 0.44
+    },
+    {
+      "title_en": "The current balance of power in open models",
+      "url": "https://www.interconnects.ai/p/the-current-balance-of-power-in-open",
+      "title_zh": "开放模型的力量格局现状",
+      "created_display": "Created: Sep 22, 2026 / 15:03 PT",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!fktE!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fda6bb5fd-56d4-49ec-a19b-dafc917414e1_3182x1790.png",
+      "summary_en": "The piece surveys the current power balance in open models, outlining who controls access to models, compute, and governance, and how openness interacts with safety and competition.",
+      "summary_zh": "文章梳理当前开放模型领域的力量对比，阐述谁掌控模型获取、计算资源及治理，以及开放性如何影响安全、创新和市场竞争。",
+      "hn": {
+        "id": 49808816,
+        "type": "story",
+        "by": "gmays",
+        "score": 112,
+        "descendants": 51,
+        "time": 1790114626,
+        "comments_url": "https://news.ycombinator.com/item?id=49808816"
+      },
+      "tags": [
+        "AI",
+        "Open Source"
+      ],
+      "hot_score": 0.42
+    },
+    {
+      "title_en": "What California is learning from solar panels built over irrigation canals",
+      "url": "https://www.kqed.org/science/2002033/heres-what-california-is-learning-from-solar-panels-built-over-irrigation-canals",
+      "title_zh": "加州从灌溉运河上建造的太阳能板学到的经验",
+      "created_display": "Created: Sep 21, 2026 / 20:10 PT",
+      "image_url": "https://cdn.kqed.org/wp-content/uploads/sites/35/2026/09/260904-ClimateSolutionsSolarCanal-21-BL-KQED.jpg",
+      "summary_en": "California is piloting solar installations over irrigation canals to save land, reduce water interaction, and improve grid resilience; the piece discusses lessons learned for scalable solar deployment and water management. It highlights how such dual-use infrastructure can help balance energy demand, agricultural needs, and environmental goals.",
+      "summary_zh": "加州正在尝试在灌溉运河上方部署太阳能板，以节省土地、降低对水资源的影响并提升电网韧性。文章探讨了可扩展太阳能部署与水资源管理的经验教训，强调此类双用途基础设施在满足能源、农业与环境目标之间的平衡。",
+      "hn": {
+        "id": 49796379,
+        "type": "story",
+        "by": "Jtsummers",
+        "score": 327,
+        "descendants": 639,
+        "time": 1790046605,
+        "comments_url": "https://news.ycombinator.com/item?id=49796379"
+      },
+      "tags": [
+        "Energy",
+        "DevOps"
+      ],
+      "hot_score": 0.41
+    },
+    {
+      "title_en": "Show HN: Drop – A rootless Linux sandbox with gVisor support",
+      "url": "https://droprun.sh/",
+      "title_zh": "Show HN：Drop——一个无根 Linux 沙箱，支持 gVisor",
+      "created_display": "Created: Sep 22, 2026 / 06:52 PT",
+      "image_url": "https://droprun.sh/og-image.png",
+      "summary_en": "Drop is a rootless Linux sandbox with gVisor support, enabling safer experimentation on devices without root access. It targets developers and researchers needing isolated environments with modern container isolation.",
+      "summary_zh": "Drop 是一个无根的 Linux 沙箱，支持 gVisor，便于在无 Root 权限的设备上进行安全的隔离测试。面向需要现代容器隔离的开发者与研究者。",
+      "hn": {
+        "id": 49801329,
+        "type": "story",
+        "by": "mixedbit",
+        "score": 173,
+        "descendants": 59,
+        "time": 1790085167,
+        "comments_url": "https://news.ycombinator.com/item?id=49801329"
+      },
+      "tags": [
+        "Show HN",
+        "Open Source"
+      ],
+      "hot_score": 0.37
     },
     {
       "title_en": "Native apps written in TypeScript and CSS",
@@ -607,30 +1119,7 @@
         "Programming",
         "Web"
       ],
-      "hot_score": 0.63
-    },
-    {
-      "title_en": "Show HN: Drop – A rootless Linux sandbox with gVisor support",
-      "url": "https://droprun.sh/",
-      "title_zh": "Show HN：Drop——一个无根 Linux 沙箱，支持 gVisor",
-      "created_display": "Created: Sep 22, 2026 / 06:52 PT",
-      "image_url": "https://droprun.sh/og-image.png",
-      "summary_en": "Drop is a rootless Linux sandbox with gVisor support, enabling safer experimentation on devices without root access. It targets developers and researchers needing isolated environments with modern container isolation.",
-      "summary_zh": "Drop 是一个无根的 Linux 沙箱，支持 gVisor，便于在无 Root 权限的设备上进行安全的隔离测试。面向需要现代容器隔离的开发者与研究者。",
-      "hn": {
-        "id": 49801329,
-        "type": "story",
-        "by": "mixedbit",
-        "score": 173,
-        "descendants": 59,
-        "time": 1790085167,
-        "comments_url": "https://news.ycombinator.com/item?id=49801329"
-      },
-      "tags": [
-        "Show HN",
-        "Security"
-      ],
-      "hot_score": 0.59
+      "hot_score": 0.35
     },
     {
       "title_en": "How often do you think about the 1893 World's Fair?",
@@ -644,61 +1133,16 @@
         "id": 49812023,
         "type": "story",
         "by": "bryanrasmussen",
-        "score": 24,
-        "descendants": 8,
+        "score": 44,
+        "descendants": 26,
         "time": 1790141571,
         "comments_url": "https://news.ycombinator.com/item?id=49812023"
       },
-      "hot_score": 0.58,
       "tags": [
         "Culture",
         "DevOps"
-      ]
-    },
-    {
-      "title_en": "ShinyHunters claims FBI hack: 'This is NOT financially motivated'",
-      "url": "https://www.theregister.com/security/2026/09/22/shinyhunters-claims-fbi-hack-this-is-not-financially-motivated/5298385",
-      "title_zh": "ShinyHunters 声称入侵 FBI：这并非出于金钱动机",
-      "created_display": "Created: Sep 23, 2026 / 01:37 PT",
-      "image_url": "https://image.theregister.com/5298402.jpg?imageId=5298402&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
-      "summary_en": "ShinyHunters publicly claims their alleged FBI hack is not financially motivated, challenging typical crimeware narratives. It underscores the importance of cautious credential leakage, threat intelligence, and verifying such claims.",
-      "summary_zh": "ShinyHunters 公开宣称其对 FBI 的入侵并非出于金钱动机，挑战了常见的犯罪型叛论。文章探讨网络事件中的动机归因之混乱，政治、黑客行动或情报工作与犯罪之间的界线可能模糊。强调在处理凭证泄露、威胁情报与此类主张时需保持谨慎和核实。",
-      "hn": {
-        "id": 49813224,
-        "type": "story",
-        "by": "joebuckwilliams",
-        "score": 10,
-        "descendants": 0,
-        "time": 1790152656,
-        "comments_url": "https://news.ycombinator.com/item?id=49813224"
-      },
-      "hot_score": 0.57,
-      "tags": [
-        "Security"
-      ]
-    },
-    {
-      "title_en": "GPT-6 Astra has made a major breakthrough in the Goldbach Conjecture",
-      "url": "https://twitter.com/captain_sude/status/2100277626120163664",
-      "title_zh": "GPT-6 Astra 在哥德巴赫猜想上取得重大突破",
-      "created_display": "Created: Sep 23, 2026 / 03:36 PT",
-      "image_url": "https://pbs.twimg.com/card_img/2100277629983072256/5N2jPGTH?format=webp&name=medium",
-      "summary_en": "An AI claim that GPT-6 Astra achieved a major breakthrough on Goldbach's conjecture surfaces questions about AI-assisted mathematics. If true, it could mark a milestone in automated theorem proving; if not, it's an example of hype.",
-      "summary_zh": "关于 GPT-6 Astra 在哥德巴赫猜想上取得重大突破的说法，引发对 AI 助力数学研究的质疑。文章强调大模型可能帮助发现模式，但需要独立验证与同行评审。若属实，或标志自动定理证明的里程碑；若不属实，也展示了炒作的典型案例。",
-      "hn": {
-        "id": 49814019,
-        "type": "story",
-        "by": "nsoonhui",
-        "score": 4,
-        "descendants": 0,
-        "time": 1790159819,
-        "comments_url": "https://news.ycombinator.com/item?id=49814019"
-      },
-      "hot_score": 0.52,
-      "tags": [
-        "AI",
-        "Science"
-      ]
+      ],
+      "hot_score": 0.34
     },
     {
       "title_en": "16-bit Intel 8088 chip (c. 1985)",
@@ -720,7 +1164,53 @@
       "tags": [
         "Hardware"
       ],
-      "hot_score": 0.5
+      "hot_score": 0.3
+    },
+    {
+      "title_en": "People hooked on vapes try a new way to quit: cigarettes",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-18/to-quit-vaping-some-are-starting-to-smoke",
+      "title_zh": "戒电子烟的人尝试以香烟来戒烟",
+      "created_display": "Created: Sep 21, 2026 / 18:21 PT",
+      "image_url": null,
+      "summary_en": "Some vapers attempting to quit are returning to cigarettes, highlighting the ongoing complexities of nicotine cessation and the role of devices as nicotine delivery systems.",
+      "summary_zh": "一些曾使用电子烟的人在戒烟路上转向香烟，揭示戒烟过程的复杂性以及设备在尼古丁获取中的作用。",
+      "hn": {
+        "id": 49795686,
+        "type": "story",
+        "by": "alephnerd",
+        "score": 235,
+        "descendants": 315,
+        "time": 1790040080,
+        "comments_url": "https://news.ycombinator.com/item?id=49795686"
+      },
+      "tags": [
+        "Health"
+      ],
+      "hot_score": 0.27
+    },
+    {
+      "title_en": "The darker side of being a doctor",
+      "url": "https://drericlevi.pages.dev/the-darker-side-of-being-a-doctor/",
+      "title_zh": "身为医生的阴暗面",
+      "created_display": "Created: Sep 23, 2026 / 03:54 PT",
+      "image_url": "https://drericlevi.pages.dev/assets/the-darker-side-of-being-a-doctor-body-1.jpg",
+      "summary_en": "Doctors face burnout, long hours, and the emotional toll of patient outcomes, which often go unseen by patients and administrators. The piece sheds light on the human costs behind clinical care, from moral distress to administrative burdens that siphon time away from patients. It also hints at how smarter workflows, mental health support, and better doctor-patient collaboration could improve resilience and care quality.",
+      "summary_zh": "医生承受职业疲惫、长工时和病人结局带来的情感压力，这些往往被患者和管理者忽视。文章揭示临床护理背后的人性成本，从道德困境到行政负担都在挤压医生照护时间。并提出通过更智能的工作流程、心理健康支持以及更好的医患协作来提升韧性和护理质量的可能性。",
+      "hn": {
+        "id": 49814159,
+        "type": "story",
+        "by": "Danhale93",
+        "score": 16,
+        "descendants": 1,
+        "time": 1790160895,
+        "comments_url": "https://news.ycombinator.com/item?id=49814159"
+      },
+      "hot_score": 0.27,
+      "tags": [
+        "Health",
+        "Career",
+        "Programming"
+      ]
     },
     {
       "title_en": "The UV index is not the warm sensation of sunlight on bare skin",
@@ -739,33 +1229,10 @@
         "time": 1790111200,
         "comments_url": "https://news.ycombinator.com/item?id=49808109"
       },
-      "hot_score": 0.5,
+      "hot_score": 0.26,
       "tags": [
         "Science"
       ]
-    },
-    {
-      "title_en": "What California is learning from solar panels built over irrigation canals",
-      "url": "https://www.kqed.org/science/2002033/heres-what-california-is-learning-from-solar-panels-built-over-irrigation-canals",
-      "title_zh": "加州从灌溉运河上建造的太阳能板学到的经验",
-      "created_display": "Created: Sep 21, 2026 / 20:10 PT",
-      "image_url": "https://cdn.kqed.org/wp-content/uploads/sites/35/2026/09/260904-ClimateSolutionsSolarCanal-21-BL-KQED.jpg",
-      "summary_en": "California is piloting solar installations over irrigation canals to save land, reduce water interaction, and improve grid resilience; the piece discusses lessons learned for scalable solar deployment and water management. It highlights how such dual-use infrastructure can help balance energy demand, agricultural needs, and environmental goals.",
-      "summary_zh": "加州正在尝试在灌溉运河上方部署太阳能板，以节省土地、降低对水资源的影响并提升电网韧性。文章探讨了可扩展太阳能部署与水资源管理的经验教训，强调此类双用途基础设施在满足能源、农业与环境目标之间的平衡。",
-      "hn": {
-        "id": 49796379,
-        "type": "story",
-        "by": "Jtsummers",
-        "score": 226,
-        "descendants": 405,
-        "time": 1790046605,
-        "comments_url": "https://news.ycombinator.com/item?id=49796379"
-      },
-      "tags": [
-        "Energy",
-        "DevOps"
-      ],
-      "hot_score": 0.39
     },
     {
       "title_en": "Writing Rust code that's fast by asking agents to make the code faster",
@@ -788,7 +1255,7 @@
         "Programming",
         "AI"
       ],
-      "hot_score": 0.39
+      "hot_score": 0.24
     },
     {
       "title_en": "Show HN: JevBench, a reproducible benchmark for typed decision models",
@@ -808,123 +1275,7 @@
         "comments_url": "https://news.ycombinator.com/item?id=49800574"
       },
       "tags": [
-        "Show HN",
-        "Science"
-      ],
-      "hot_score": 0.35
-    },
-    {
-      "title_en": "There is no epidemic of loneliness, but there is an epidemic of scurvy",
-      "url": "https://www.experimental-history.com/p/there-is-no-epidemic-of-loneliness",
-      "title_zh": "没有孤独的流行病，但确实有坏血病的流行",
-      "created_display": "Created: Sep 22, 2026 / 23:48 PT",
-      "image_url": "https://substackcdn.com/image/fetch/$s_!aCqC!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc20f3baf-8076-4e07-9eb6-51eea34f108a_1785x1194.jpeg",
-      "summary_en": "The author challenges the notion that loneliness has become a societal epidemic, urging nuance in interpreting social data. It juxtaposes this claim with a reminder of historical public-health issues like scurvy tied to nutrition, illustrating how resource constraints shape health metrics. The piece invites readers to rethink research priorities and the kinds of interventions that actually move the needle.",
-      "summary_zh": "作者对“孤独已成流行病”的说法提出质疑，强调解读社会数据时需更具层次感。文章将这一论断与历史公共卫生问题如坏血病的营养根源对比，展示资源约束如何影响健康指标。它呼吁重新思考研究重点与真正能产生实效的干预措施。",
-      "hn": {
-        "id": 49812533,
-        "type": "story",
-        "by": "luu",
-        "score": 10,
-        "descendants": 0,
-        "time": 1790146117,
-        "comments_url": "https://news.ycombinator.com/item?id=49812533"
-      },
-      "hot_score": 0.31,
-      "tags": [
-        "Health",
-        "Culture"
-      ]
-    },
-    {
-      "title_en": "People hooked on vapes try a new way to quit: cigarettes",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-18/to-quit-vaping-some-are-starting-to-smoke",
-      "title_zh": "戒电子烟的人尝试以香烟来戒烟",
-      "created_display": "Created: Sep 21, 2026 / 18:21 PT",
-      "image_url": null,
-      "summary_en": "Some vapers attempting to quit are returning to cigarettes, highlighting the ongoing complexities of nicotine cessation and the role of devices as nicotine delivery systems.",
-      "summary_zh": "一些曾使用电子烟的人在戒烟路上转向香烟，揭示戒烟过程的复杂性以及设备在尼古丁获取中的作用。",
-      "hn": {
-        "id": 49795686,
-        "type": "story",
-        "by": "alephnerd",
-        "score": 193,
-        "descendants": 228,
-        "time": 1790040080,
-        "comments_url": "https://news.ycombinator.com/item?id=49795686"
-      },
-      "tags": [
-        "Health"
-      ],
-      "hot_score": 0.3
-    },
-    {
-      "title_en": "The (AI) Nature of the Firm",
-      "url": "https://camerongordon0.substack.com/p/the-ai-nature-of-the-firm",
-      "title_zh": "（AI）时代的企业本质",
-      "created_display": "Created: Sep 23, 2026 / 03:24 PT",
-      "image_url": null,
-      "summary_en": "This piece rethinks the organization in the age of AI, arguing that AI shifts decision-making, outsourcing, and ownership boundaries within firms. It explores how AI agents may reconfigure governance, contracts, and the relationship between workers and machines. The takeaway is that AI could redefine what a 'firm' looks like in practice, not just in theory.",
-      "summary_zh": "本文在 AI 时代重新审视企业本质，认为 AI 将改变企业内部的决策权、外包边界和所有权关系。探讨 AI 代理可能如何重塑治理结构、契约安排，以及员工与机器之间的关系。核心观点是，AI 可能在实践中重新定义“公司”的形态，而不仅仅是理论讨论。",
-      "hn": {
-        "id": 49813922,
-        "type": "story",
-        "by": "iciac",
-        "score": 3,
-        "descendants": 0,
-        "time": 1790159044,
-        "comments_url": "https://news.ycombinator.com/item?id=49813922"
-      },
-      "hot_score": 0.3,
-      "tags": [
-        "AI",
-        "Business"
-      ]
-    },
-    {
-      "title_en": "Launch HN: Coverage Cat (YC S22) – Umbrella insurance via your personal agent",
-      "url": "https://www.coveragecat.com/",
-      "title_zh": "Coverage Cat（YC S22）——通过个人代理提供伞形保险",
-      "created_display": "Created: Sep 22, 2026 / 10:26 PT",
-      "image_url": "https://www.coveragecat.com/images/general/med/logo-opengraph.webp",
-      "summary_en": "Coverage Cat offers umbrella insurance through a personal agent, promising a more transparent, hands-on buying experience. The model aims to simplify underwriting and claims, potentially appealing to customers who dislike opaque coverage terms.",
-      "summary_zh": "Coverage Cat 通过个人代理提供伞形保险，承诺提供更透明、贴身的购买体验。该模式意在简化承保与理赔流程，可能吸引对条款不透明不满意的用户。",
-      "hn": {
-        "id": 49804931,
-        "type": "story",
-        "by": "botacode",
-        "score": 48,
-        "descendants": 29,
-        "time": 1790097996,
-        "comments_url": "https://news.ycombinator.com/item?id=49804931"
-      },
-      "tags": [
-        "Startups",
-        "Business"
-      ],
-      "hot_score": 0.22
-    },
-    {
-      "title_en": "ArchiveBox v0.9 released with new native apps and 50 new plugins",
-      "url": "https://docs.sweeting.me/s/archivebox-v0.9-announcement",
-      "title_zh": "ArchiveBox 0.9 发布，新增原生应用与 50 插件",
-      "created_display": "Created: Sep 22, 2026 / 13:59 PT",
-      "image_url": "https://docs.monadical.com/icons/android-chrome-512x512.png",
-      "summary_en": "ArchiveBox 0.9 expands the self-hosted archiving toolkit with native apps and 50 plugins, broadening how users capture and preserve web content offline. The release strengthens offline privacy and automation for teams that prefer to avoid cloud services.",
-      "summary_zh": "ArchiveBox 0.9 通过原生应用与新增的 50 个插件扩展了自托管归档工具的能力，覆盖网页、PDF、媒体等离线存储场景。此次更新提升了对隐私保护需求的支持，并减少对云服务的依赖。",
-      "hn": {
-        "id": 49808008,
-        "type": "story",
-        "by": "nikisweeting",
-        "score": 34,
-        "descendants": 2,
-        "time": 1790110758,
-        "comments_url": "https://news.ycombinator.com/item?id=49808008"
-      },
-      "tags": [
-        "Open Source",
-        "DevOps",
-        "Privacy"
+        "Show HN"
       ],
       "hot_score": 0.22
     },
@@ -948,7 +1299,7 @@
       "tags": [
         "Programming"
       ],
-      "hot_score": 0.19
+      "hot_score": 0.14
     },
     {
       "title_en": "Solitaire Alone Together",
@@ -968,9 +1319,56 @@
         "comments_url": "https://news.ycombinator.com/item?id=49794193"
       },
       "tags": [
+        "Design",
         "Culture"
       ],
-      "hot_score": 0.19
+      "hot_score": 0.14
+    },
+    {
+      "title_en": "Launch HN: Coverage Cat (YC S22) – Umbrella insurance via your personal agent",
+      "url": "https://www.coveragecat.com/",
+      "title_zh": "Coverage Cat（YC S22）——通过个人代理提供伞形保险",
+      "created_display": "Created: Sep 22, 2026 / 10:26 PT",
+      "image_url": "https://www.coveragecat.com/images/general/med/logo-opengraph.webp",
+      "summary_en": "Coverage Cat offers umbrella insurance through a personal agent, promising a more transparent, hands-on buying experience. The model aims to simplify underwriting and claims, potentially appealing to customers who dislike opaque coverage terms.",
+      "summary_zh": "Coverage Cat 通过个人代理提供伞形保险，承诺提供更透明、贴身的购买体验。该模式意在简化承保与理赔流程，可能吸引对条款不透明不满意的用户。",
+      "hn": {
+        "id": 49804931,
+        "type": "story",
+        "by": "botacode",
+        "score": 48,
+        "descendants": 29,
+        "time": 1790097996,
+        "comments_url": "https://news.ycombinator.com/item?id=49804931"
+      },
+      "tags": [
+        "Startups",
+        "Business"
+      ],
+      "hot_score": 0.13
+    },
+    {
+      "title_en": "Did OpenAI solve the wrong Navier-Stokes problem?",
+      "url": "https://www.scientificamerican.com/article/did-openai-solve-the-wrong-navier-stokes-problem/",
+      "title_zh": "OpenAI 是否解决错了 Navier–Stokes 问题？",
+      "created_display": "Created: Sep 21, 2026 / 17:24 PT",
+      "image_url": "https://static.scientificamerican.com/dam/asset/f5a85a12-d9e9-4edc-a45f-cc0b170995cf/water-wall.jpg?m=1790009681.499&w=1200",
+      "summary_en": "Scientific American questions whether AI progress targeted at Navier–Stokes equations addressed the most meaningful formulation, and discusses limits of data-driven models in solving classical PDEs. The piece underscores the gap between pattern recognition in ML and rigorous mathematical guarantees in physics.",
+      "summary_zh": "Scientific American 质疑将 AI 进展用于求解 Navier–Stokes 方程是否聚焦在最具意义的问题，并讨论数据驱动模型在求解经典偏微分方程方面的局限。文章强调了机器学习的模式识别能力与物理学中严格数学保证之间的差距。",
+      "hn": {
+        "id": 49795260,
+        "type": "story",
+        "by": "tomjakubowski",
+        "score": 108,
+        "descendants": 59,
+        "time": 1790036640,
+        "comments_url": "https://news.ycombinator.com/item?id=49795260"
+      },
+      "tags": [
+        "AI",
+        "Science"
+      ],
+      "hot_score": 0.12
     },
     {
       "title_en": "Show HN: Training a model to identify AI web content from structure alone",
@@ -994,30 +1392,99 @@
         "AI",
         "Privacy"
       ],
-      "hot_score": 0.19
+      "hot_score": 0.12
     },
     {
-      "title_en": "Did OpenAI solve the wrong Navier-Stokes problem?",
-      "url": "https://www.scientificamerican.com/article/did-openai-solve-the-wrong-navier-stokes-problem/",
-      "title_zh": "OpenAI 是否解决错了 Navier–Stokes 问题？",
-      "created_display": "Created: Sep 21, 2026 / 17:24 PT",
-      "image_url": "https://static.scientificamerican.com/dam/asset/f5a85a12-d9e9-4edc-a45f-cc0b170995cf/water-wall.jpg?m=1790009681.499&w=1200",
-      "summary_en": "Scientific American questions whether AI progress targeted at Navier–Stokes equations addressed the most meaningful formulation, and discusses limits of data-driven models in solving classical PDEs. The piece underscores the gap between pattern recognition in ML and rigorous mathematical guarantees in physics.",
-      "summary_zh": "Scientific American 质疑将 AI 进展用于求解 Navier–Stokes 方程是否聚焦在最具意义的问题，并讨论数据驱动模型在求解经典偏微分方程方面的局限。文章强调了机器学习的模式识别能力与物理学中严格数学保证之间的差距。",
+      "title_en": "ReBarUEFI: Resizable BAR for almost any UEFI system",
+      "url": "https://github.com/xCuri0/ReBarUEFI",
+      "title_zh": "ReBarUEFI：几乎所有 UEFI 系统的可伸缩 BAR 支持",
+      "created_display": "Created: Sep 20, 2026 / 18:07 PT",
+      "image_url": "https://opengraph.githubassets.com/8bd4a7b513107920e9a916a83512dac8bf1360d71e8a4f4765a48b4a1e3c14c4/xCuri0/ReBarUEFI",
+      "summary_en": "ReBarUEFI brings Resizable BAR support to a broad swath of UEFI systems, enabling dynamic GPU memory mappings without changing hardware. By enabling BAR resizing at firmware level, it broadens compatibility and could unlock modest performance gains for enthusiasts on older platforms. It's a reminder that firmware tinkering can squeeze extra life from existing rigs.",
+      "summary_zh": "ReBarUEFI 让大量被支持的 UEFI 系统具备可伸缩显存条功能，提升显存映射的灵活性。通过固件层面的改造实现 BAR 大小调节，扩大对旧平台的兼容性，并有望带来一定的性能提升。提醒人们对固件层优化也能挖掘硬件潜力。",
       "hn": {
-        "id": 49795260,
+        "id": 49781862,
         "type": "story",
-        "by": "tomjakubowski",
-        "score": 108,
-        "descendants": 59,
-        "time": 1790036640,
-        "comments_url": "https://news.ycombinator.com/item?id=49795260"
+        "by": "nateb2022",
+        "score": 217,
+        "descendants": 68,
+        "time": 1789952866,
+        "comments_url": "https://news.ycombinator.com/item?id=49781862"
       },
       "tags": [
-        "AI",
-        "Science"
+        "Hardware"
       ],
-      "hot_score": 0.16
+      "hot_score": 0.11
+    },
+    {
+      "title_en": "Show HN: Npunlock – Run custom C kernels for Intel NPUs",
+      "url": "https://github.com/hsfzxjy/npunlock",
+      "title_zh": "Show HN：Npunlock——在 Intel NPU 上运行自定义 C 内核",
+      "created_display": "Created: Sep 22, 2026 / 05:58 PT",
+      "image_url": "https://opengraph.githubassets.com/dd78590353f0a388b62135066b322a925f8e0d4fddc976a122abadef6bbdbc6e/hsfzxjy/npunlock",
+      "summary_en": "Npunlock is a Show HN project that lets developers run custom C kernels on Intel NPUs, enabling experimentation outside the official SDKs. It highlights both potential performance gains and concerns around stability, security, and vendor restrictions.",
+      "summary_zh": "Npunlock 是一个 Show HN 项目，允许在英特尔 NPU 上运行自定义 C 内核，便于绕过官方 SDK 进行实验。它既展示了开放性带来的潜在性能收益，也引发关于稳定性、安全性和厂商限制的担忧。",
+      "hn": {
+        "id": 49800513,
+        "type": "story",
+        "by": "hsfzxjy",
+        "score": 54,
+        "descendants": 12,
+        "time": 1790081882,
+        "comments_url": "https://news.ycombinator.com/item?id=49800513"
+      },
+      "tags": [
+        "Show HN",
+        "Programming",
+        "Security"
+      ],
+      "hot_score": 0.11
+    },
+    {
+      "title_en": "ArchiveBox v0.9 released with new native apps and 50 new plugins",
+      "url": "https://docs.sweeting.me/s/archivebox-v0.9-announcement",
+      "title_zh": "ArchiveBox 0.9 发布，新增原生应用与 50 插件",
+      "created_display": "Created: Sep 22, 2026 / 13:59 PT",
+      "image_url": "https://docs.monadical.com/icons/android-chrome-512x512.png",
+      "summary_en": "ArchiveBox 0.9 expands the self-hosted archiving toolkit with native apps and 50 plugins, broadening how users capture and preserve web content offline. The release strengthens offline privacy and automation for teams that prefer to avoid cloud services.",
+      "summary_zh": "ArchiveBox 0.9 通过原生应用与新增的 50 个插件扩展了自托管归档工具的能力，覆盖网页、PDF、媒体等离线存储场景。此次更新提升了对隐私保护需求的支持，并减少对云服务的依赖。",
+      "hn": {
+        "id": 49808008,
+        "type": "story",
+        "by": "nikisweeting",
+        "score": 34,
+        "descendants": 2,
+        "time": 1790110758,
+        "comments_url": "https://news.ycombinator.com/item?id=49808008"
+      },
+      "tags": [
+        "Open Source",
+        "DevOps",
+        "Privacy"
+      ],
+      "hot_score": 0.11
+    },
+    {
+      "title_en": "ShinyHunters claims FBI hack: 'This is NOT financially motivated'",
+      "url": "https://www.theregister.com/security/2026/09/22/shinyhunters-claims-fbi-hack-this-is-not-financially-motivated/5298385",
+      "title_zh": "ShinyHunters 声称入侵 FBI：这并非出于金钱动机",
+      "created_display": "Created: Sep 23, 2026 / 01:37 PT",
+      "image_url": "https://image.theregister.com/5298402.jpg?imageId=5298402&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
+      "summary_en": "ShinyHunters publicly claims their alleged FBI hack is not financially motivated, challenging typical crimeware narratives. It underscores the importance of cautious credential leakage, threat intelligence, and verifying such claims.",
+      "summary_zh": "ShinyHunters 公开宣称其对 FBI 的入侵并非出于金钱动机，挑战了常见的犯罪型叛论。文章探讨网络事件中的动机归因之混乱，政治、黑客行动或情报工作与犯罪之间的界线可能模糊。强调在处理凭证泄露、威胁情报与此类主张时需保持谨慎和核实。",
+      "hn": {
+        "id": 49813224,
+        "type": "story",
+        "by": "joebuckwilliams",
+        "score": 10,
+        "descendants": 0,
+        "time": 1790152656,
+        "comments_url": "https://news.ycombinator.com/item?id=49813224"
+      },
+      "hot_score": 0.11,
+      "tags": [
+        "Security"
+      ]
     },
     {
       "title_en": "Side-stepping the Secretary Problem, unwittingly",
@@ -1039,7 +1506,7 @@
       "tags": [
         "Career"
       ],
-      "hot_score": 0.15
+      "hot_score": 0.1
     },
     {
       "title_en": "MUNI Heritage Weekend in San Francisco",
@@ -1062,29 +1529,53 @@
         "Culture",
         "DevOps"
       ],
-      "hot_score": 0.11
+      "hot_score": 0.09
     },
     {
-      "title_en": "ReBarUEFI: Resizable BAR for almost any UEFI system",
-      "url": "https://github.com/xCuri0/ReBarUEFI",
-      "title_zh": "ReBarUEFI：几乎所有 UEFI 系统的可伸缩 BAR 支持",
-      "created_display": "Created: Sep 20, 2026 / 18:07 PT",
-      "image_url": "https://opengraph.githubassets.com/8bd4a7b513107920e9a916a83512dac8bf1360d71e8a4f4765a48b4a1e3c14c4/xCuri0/ReBarUEFI",
-      "summary_en": "ReBarUEFI brings Resizable BAR support to a broad swath of UEFI systems, enabling dynamic GPU memory mappings without changing hardware. By enabling BAR resizing at firmware level, it broadens compatibility and could unlock modest performance gains for enthusiasts on older platforms. It's a reminder that firmware tinkering can squeeze extra life from existing rigs.",
-      "summary_zh": "ReBarUEFI 让大量被支持的 UEFI 系统具备可伸缩显存条功能，提升显存映射的灵活性。通过固件层面的改造实现 BAR 大小调节，扩大对旧平台的兼容性，并有望带来一定的性能提升。提醒人们对固件层优化也能挖掘硬件潜力。",
+      "title_en": "Web-based IBM 1620 emulator and IPL-V from 1963",
+      "url": "https://github.com/pkimpel/retro-1620",
+      "title_zh": "基于网络的 IBM 1620 仿真器与 IPL-V 1963",
+      "created_display": "Created: Sep 22, 2026 / 17:06 PT",
+      "image_url": "https://opengraph.githubassets.com/e49e6ec99a69a2f6b8813814a17cbe50b26c058777525e6215654b52c4f7ad21/pkimpel/retro-1620",
+      "summary_en": "A web-based IBM 1620 emulator and IPL-V interpreter lets enthusiasts explore historic computing in the browser, preserving legacy software and teaching computing history. The project highlights how emulation lowers barriers to experimentation.",
+      "summary_zh": "一个可在浏览器中运行的 IBM 1620 仿真器及 IPL-V 解释器，使爱好者能够在现代环境中体验历史计算，帮助保存遗留软件并传授计算机史。仿真技术降低了学习与实验的门槛。",
       "hn": {
-        "id": 49781862,
+        "id": 49809935,
         "type": "story",
-        "by": "nateb2022",
-        "score": 162,
-        "descendants": 51,
-        "time": 1789952866,
-        "comments_url": "https://news.ycombinator.com/item?id=49781862"
+        "by": "abrax3141",
+        "score": 21,
+        "descendants": 5,
+        "time": 1790121985,
+        "comments_url": "https://news.ycombinator.com/item?id=49809935"
+      },
+      "hot_score": 0.09,
+      "tags": [
+        "Web",
+        "Education",
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "How did AMD Ryzen get 50% faster in two years?",
+      "url": "https://lemire.me/blog/2026/09/18/how-did-amd-ryzen-get-50-faster-in-two-years/",
+      "title_zh": "两年让 AMD Ryzen 提速 50% 是怎么做到的？",
+      "created_display": "Created: Sep 18, 2026 / 12:01 PT",
+      "image_url": null,
+      "summary_en": "The post dissects the drivers behind AMD Ryzen's rapid performance gains, including microarchitectural improvements, process technology progress, clock speed, cache design, and memory subsystem optimizations. It cautions against simple benchmarks and highlights real-world implications for gamers and enthusiasts.",
+      "summary_zh": "文章分析 AMD Ryzen 近两年来性能提升的多重因素，如微架构改进、制程进步、时钟与缓存设计、以及内存子系统优化。提醒读者避免单一基准的误导，并讨论对游戏与高端用户的实际影响。",
+      "hn": {
+        "id": 49758709,
+        "type": "story",
+        "by": "ibobev",
+        "score": 449,
+        "descendants": 184,
+        "time": 1789758063,
+        "comments_url": "https://news.ycombinator.com/item?id=49758709"
       },
       "tags": [
         "Hardware"
       ],
-      "hot_score": 0.1
+      "hot_score": 0.08
     },
     {
       "title_en": "George Lucas Returns to Earth, Bearing Gifts",
@@ -1104,55 +1595,32 @@
         "comments_url": "https://news.ycombinator.com/item?id=49787163"
       },
       "tags": [
-        "Entertainment"
+        "Entertainment",
+        "Culture"
       ],
-      "hot_score": 0.1
+      "hot_score": 0.08
     },
     {
-      "title_en": "Show HN: Npunlock – Run custom C kernels for Intel NPUs",
-      "url": "https://github.com/hsfzxjy/npunlock",
-      "title_zh": "Show HN：Npunlock——在 Intel NPU 上运行自定义 C 内核",
-      "created_display": "Created: Sep 22, 2026 / 05:58 PT",
-      "image_url": "https://opengraph.githubassets.com/dd78590353f0a388b62135066b322a925f8e0d4fddc976a122abadef6bbdbc6e/hsfzxjy/npunlock",
-      "summary_en": "Npunlock is a Show HN project that lets developers run custom C kernels on Intel NPUs, enabling experimentation outside the official SDKs. It highlights both potential performance gains and concerns around stability, security, and vendor restrictions.",
-      "summary_zh": "Npunlock 是一个 Show HN 项目，允许在英特尔 NPU 上运行自定义 C 内核，便于绕过官方 SDK 进行实验。它既展示了开放性带来的潜在性能收益，也引发关于稳定性、安全性和厂商限制的担忧。",
+      "title_en": "There is no epidemic of loneliness, but there is an epidemic of scurvy",
+      "url": "https://www.experimental-history.com/p/there-is-no-epidemic-of-loneliness",
+      "title_zh": "没有孤独的流行病，但确实有坏血病的流行",
+      "created_display": "Created: Sep 22, 2026 / 23:48 PT",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!aCqC!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc20f3baf-8076-4e07-9eb6-51eea34f108a_1785x1194.jpeg",
+      "summary_en": "The author challenges the notion that loneliness has become a societal epidemic, urging nuance in interpreting social data. It juxtaposes this claim with a reminder of historical public-health issues like scurvy tied to nutrition, illustrating how resource constraints shape health metrics. The piece invites readers to rethink research priorities and the kinds of interventions that actually move the needle.",
+      "summary_zh": "作者对“孤独已成流行病”的说法提出质疑，强调解读社会数据时需更具层次感。文章将这一论断与历史公共卫生问题如坏血病的营养根源对比，展示资源约束如何影响健康指标。它呼吁重新思考研究重点与真正能产生实效的干预措施。",
       "hn": {
-        "id": 49800513,
+        "id": 49812533,
         "type": "story",
-        "by": "hsfzxjy",
-        "score": 32,
-        "descendants": 7,
-        "time": 1790081882,
-        "comments_url": "https://news.ycombinator.com/item?id=49800513"
+        "by": "luu",
+        "score": 10,
+        "descendants": 0,
+        "time": 1790146117,
+        "comments_url": "https://news.ycombinator.com/item?id=49812533"
       },
+      "hot_score": 0.08,
       "tags": [
-        "Show HN",
-        "Programming",
-        "Security"
-      ],
-      "hot_score": 0.1
-    },
-    {
-      "title_en": "How did AMD Ryzen get 50% faster in two years?",
-      "url": "https://lemire.me/blog/2026/09/18/how-did-amd-ryzen-get-50-faster-in-two-years/",
-      "title_zh": "两年让 AMD Ryzen 提速 50% 是怎么做到的？",
-      "created_display": "Created: Sep 18, 2026 / 12:01 PT",
-      "image_url": null,
-      "summary_en": "The post dissects the drivers behind AMD Ryzen's rapid performance gains, including microarchitectural improvements, process technology progress, clock speed, cache design, and memory subsystem optimizations. It cautions against simple benchmarks and highlights real-world implications for gamers and enthusiasts.",
-      "summary_zh": "文章分析 AMD Ryzen 近两年来性能提升的多重因素，如微架构改进、制程进步、时钟与缓存设计、以及内存子系统优化。提醒读者避免单一基准的误导，并讨论对游戏与高端用户的实际影响。",
-      "hn": {
-        "id": 49758709,
-        "type": "story",
-        "by": "ibobev",
-        "score": 356,
-        "descendants": 142,
-        "time": 1789758063,
-        "comments_url": "https://news.ycombinator.com/item?id=49758709"
-      },
-      "tags": [
-        "Hardware"
-      ],
-      "hot_score": 0.07
+        "Health"
+      ]
     },
     {
       "title_en": "No Easy Fix for Bogus Respondents in Online Opt-In Polls",
@@ -1166,37 +1634,60 @@
         "id": 49795337,
         "type": "story",
         "by": "luu",
-        "score": 40,
-        "descendants": 20,
+        "score": 53,
+        "descendants": 32,
         "time": 1790037164,
         "comments_url": "https://news.ycombinator.com/item?id=49795337"
       },
       "tags": [
         "Data",
-        "Security"
+        "Science"
       ],
       "hot_score": 0.06
     },
     {
-      "title_en": "The OpenEvidence Model Family",
-      "url": "https://www.openevidence.com/blog/model-family",
-      "title_zh": "OpenEvidence 模型家族",
-      "created_display": "Created: Sep 22, 2026 / 18:36 PT",
-      "image_url": "https://storage.googleapis.com/openevidence-static-files-prod/model-family/benchmark-preview.png",
-      "summary_en": "OpenEvidence presents a model family focused on evidence-driven, interpretable AI, with modular components and evaluation to quantify uncertainty. It outlines the philosophy and potential impact on trustworthy decision-making.",
-      "summary_zh": "OpenEvidence 推出以证据驱动、可解释的 AI 模型家族，强调不确定性量化、模块化设计与评估方法，旨在支持可信的决策。",
+      "title_en": "The Download: why AI's latest breakthroughs and fears may be more hype than rea",
+      "url": "https://www.technologyreview.com/2026/09/22/1144910/the-download-dont-believe-ai-hype/",
+      "title_zh": "下载：AI 最新突破与恐惧或许比真实情况更像炒作",
+      "created_display": "Created: Sep 23, 2026 / 04:01 PT",
+      "image_url": "https://wp.technologyreview.com/wp-content/uploads/2026/09/summer-hype2.jpg?resize=1200,600",
+      "summary_en": "It argues that a lot of touted AI progress rests on narrow benchmarks, not broad intelligence, and public fears may outpace actual capability. The piece urges readers to demand rigorous evaluation, reproducibility, and transparency around datasets and compute. It also notes that hype can attract investment and policy attention even when real breakthroughs are incremental.",
+      "summary_zh": "文章认为许多被吹捧的 AI 进展依赖狭窄的基准，而非真正的通用智能；公众的担忧可能超出实际能力。作者呼吁对数据集、计算资源等保持严格的评估、可重复性与透明度。并指出即便进展只是渐进，炒作也能带来投资和政策关注。",
       "hn": {
-        "id": 49810596,
+        "id": 49814211,
         "type": "story",
-        "by": "m-hodges",
-        "score": 6,
+        "by": "joozio",
+        "score": 4,
         "descendants": 0,
-        "time": 1790127401,
-        "comments_url": "https://news.ycombinator.com/item?id=49810596"
+        "time": 1790161310,
+        "comments_url": "https://news.ycombinator.com/item?id=49814211"
       },
-      "hot_score": 0.06,
+      "hot_score": 0.05,
       "tags": [
         "AI"
+      ]
+    },
+    {
+      "title_en": "GPT-6 Astra has made a major breakthrough in the Goldbach Conjecture",
+      "url": "https://twitter.com/captain_sude/status/2100277626120163664",
+      "title_zh": "GPT-6 Astra 在哥德巴赫猜想上取得重大突破",
+      "created_display": "Created: Sep 23, 2026 / 03:36 PT",
+      "image_url": "https://pbs.twimg.com/card_img/2100277629983072256/5N2jPGTH?format=webp&name=medium",
+      "summary_en": "An AI claim that GPT-6 Astra achieved a major breakthrough on Goldbach's conjecture surfaces questions about AI-assisted mathematics. If true, it could mark a milestone in automated theorem proving; if not, it's an example of hype.",
+      "summary_zh": "关于 GPT-6 Astra 在哥德巴赫猜想上取得重大突破的说法，引发对 AI 助力数学研究的质疑。文章强调大模型可能帮助发现模式，但需要独立验证与同行评审。若属实，或标志自动定理证明的里程碑；若不属实，也展示了炒作的典型案例。",
+      "hn": {
+        "id": 49814019,
+        "type": "story",
+        "by": "nsoonhui",
+        "score": 4,
+        "descendants": 0,
+        "time": 1790159819,
+        "comments_url": "https://news.ycombinator.com/item?id=49814019"
+      },
+      "hot_score": 0.05,
+      "tags": [
+        "AI",
+        "Science"
       ]
     },
     {
@@ -1217,10 +1708,32 @@
         "comments_url": "https://news.ycombinator.com/item?id=49795053"
       },
       "tags": [
-        "Culture",
-        "Science"
+        "Science",
+        "Culture"
       ],
-      "hot_score": 0.05
+      "hot_score": 0.04
+    },
+    {
+      "title_en": "Porsche puts wireless EV charging into production",
+      "url": "https://electrek.co/2026/09/18/its-finally-here-porsche-puts-wireless-ev-charging-into-production-video/",
+      "title_zh": "保时捷将无线电动车充电投入量产",
+      "created_display": "Created: Sep 20, 2026 / 01:10 PT",
+      "image_url": "https://electrek.co/wp-content/uploads/sites/3/2026/09/wireless_main.jpeg?quality=82&strip=all&resize=1200,628",
+      "summary_en": "Porsche begins production of wireless EV charging, moving beyond prototypes to real-world deployment. The move highlights a push toward hands-free charging, grid integration considerations, and user experience implications for EV adoption.",
+      "summary_zh": "保时捷正式将无线电动车充电投入量产，迈出原型阶段到实际部署的步伐。此举凸显了无缝充电、与电网的协同以及对电动汽车普及的用户体验影响。",
+      "hn": {
+        "id": 49773646,
+        "type": "story",
+        "by": "cisc",
+        "score": 81,
+        "descendants": 78,
+        "time": 1789891810,
+        "comments_url": "https://news.ycombinator.com/item?id=49773646"
+      },
+      "tags": [
+        "Energy"
+      ],
+      "hot_score": 0.03
     },
     {
       "title_en": "One Minute Park",
@@ -1243,7 +1756,7 @@
         "Entertainment",
         "Culture"
       ],
-      "hot_score": 0.04
+      "hot_score": 0.03
     },
     {
       "title_en": "Delta: Highly available, strongly consistent storage using chain replication (2022)",
@@ -1265,30 +1778,52 @@
       "tags": [
         "Data"
       ],
-      "hot_score": 0.04
+      "hot_score": 0.03
     },
     {
-      "title_en": "Porsche puts wireless EV charging into production",
-      "url": "https://electrek.co/2026/09/18/its-finally-here-porsche-puts-wireless-ev-charging-into-production-video/",
-      "title_zh": "保时捷将无线电动车充电投入量产",
-      "created_display": "Created: Sep 20, 2026 / 01:10 PT",
-      "image_url": "https://electrek.co/wp-content/uploads/sites/3/2026/09/wireless_main.jpeg?quality=82&strip=all&resize=1200,628",
-      "summary_en": "Porsche begins production of wireless EV charging, moving beyond prototypes to real-world deployment. The move highlights a push toward hands-free charging, grid integration considerations, and user experience implications for EV adoption.",
-      "summary_zh": "保时捷正式将无线电动车充电投入量产，迈出原型阶段到实际部署的步伐。此举凸显了无缝充电、与电网的协同以及对电动汽车普及的用户体验影响。",
+      "title_en": "The OpenEvidence Model Family",
+      "url": "https://www.openevidence.com/blog/model-family",
+      "title_zh": "OpenEvidence 模型家族",
+      "created_display": "Created: Sep 22, 2026 / 18:36 PT",
+      "image_url": "https://storage.googleapis.com/openevidence-static-files-prod/model-family/benchmark-preview.png",
+      "summary_en": "OpenEvidence presents a model family focused on evidence-driven, interpretable AI, with modular components and evaluation to quantify uncertainty. It outlines the philosophy and potential impact on trustworthy decision-making.",
+      "summary_zh": "OpenEvidence 推出以证据驱动、可解释的 AI 模型家族，强调不确定性量化、模块化设计与评估方法，旨在支持可信的决策。",
       "hn": {
-        "id": 49773646,
+        "id": 49810596,
         "type": "story",
-        "by": "cisc",
-        "score": 81,
-        "descendants": 78,
-        "time": 1789891810,
-        "comments_url": "https://news.ycombinator.com/item?id=49773646"
+        "by": "m-hodges",
+        "score": 6,
+        "descendants": 0,
+        "time": 1790127401,
+        "comments_url": "https://news.ycombinator.com/item?id=49810596"
       },
+      "hot_score": 0.03,
       "tags": [
-        "Hardware",
-        "Energy"
-      ],
-      "hot_score": 0.03
+        "AI"
+      ]
+    },
+    {
+      "title_en": "The (AI) Nature of the Firm",
+      "url": "https://camerongordon0.substack.com/p/the-ai-nature-of-the-firm",
+      "title_zh": "（AI）时代的企业本质",
+      "created_display": "Created: Sep 23, 2026 / 03:24 PT",
+      "image_url": null,
+      "summary_en": "This piece rethinks the organization in the age of AI, arguing that AI shifts decision-making, outsourcing, and ownership boundaries within firms. It explores how AI agents may reconfigure governance, contracts, and the relationship between workers and machines. The takeaway is that AI could redefine what a 'firm' looks like in practice, not just in theory.",
+      "summary_zh": "本文在 AI 时代重新审视企业本质，认为 AI 将改变企业内部的决策权、外包边界和所有权关系。探讨 AI 代理可能如何重塑治理结构、契约安排，以及员工与机器之间的关系。核心观点是，AI 可能在实践中重新定义“公司”的形态，而不仅仅是理论讨论。",
+      "hn": {
+        "id": 49813922,
+        "type": "story",
+        "by": "iciac",
+        "score": 3,
+        "descendants": 0,
+        "time": 1790159044,
+        "comments_url": "https://news.ycombinator.com/item?id=49813922"
+      },
+      "hot_score": 0.03,
+      "tags": [
+        "AI",
+        "Business"
+      ]
     },
     {
       "title_en": "Truman World",
@@ -1308,10 +1843,9 @@
         "comments_url": "https://news.ycombinator.com/item?id=49777601"
       },
       "tags": [
-        "Gaming",
-        "Culture"
+        "Gaming"
       ],
-      "hot_score": 0.03
+      "hot_score": 0.02
     },
     {
       "title_en": "Make Math Automatic with Mathy",
@@ -1332,7 +1866,8 @@
       },
       "hot_score": 0.02,
       "tags": [
-        "Programming"
+        "Programming",
+        "Education"
       ]
     },
     {
@@ -1354,6 +1889,7 @@
       },
       "hot_score": 0.01,
       "tags": [
+        "Data",
         "Programming"
       ]
     },
