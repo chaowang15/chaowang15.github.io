@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>217</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>32068</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>214</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>215</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-09-24</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>218</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>32117</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>214</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>216</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-09-25</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,118 +20,118 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='144' data-hn-time='1790311922'>
+<div class='hn-top-story-item' data-hn-score='290' data-hn-time='1790323609'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/24/top_stories_09242026#story-49840314'>Goodbye Google</a>
- <a class='hn-top-story-link' href='https://robert.ocallahan.org/2026/09/goodbye-google.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/25/top_stories_09252026#story-49841563'>Dutch governments builds alternative for Microsoft based on NixOS</a>
+ <a class='hn-top-story-link' href='https://www.dawo.community/en/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>告别谷歌</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 144</span> <span class='hn-top-story-comments'>&#128172; 138</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-zh'>荷兰政府基于 NixOS 构建替代微软的软件体系</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 13</span> <span class='hn-top-story-score'>&#9650; 290</span> <span class='hn-top-story-comments'>&#128172; 128</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='1133' data-hn-time='1790263572'>
+<div class='hn-top-story-item' data-hn-score='49' data-hn-time='1790331620'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/24/top_stories_09242026#story-49831968'>F-Droid 2.0</a>
- <a class='hn-top-story-link' href='https://f-droid.org/2026/09/24/f-droid-2.0-a-new-chapter-for-android-freedom.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/25/top_stories_09252026#story-49842487'>The Mafia may be keeping fentanyl out of Italy</a>
+ <a class='hn-top-story-link' href='https://economist.com/europe/2026/09/24/the-mafia-may-be-keeping-fentanyl-out-of-italy' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>F-Droid 2.0：Android 自由的新篇章</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.5</span> <span class='hn-top-story-score'>&#9650; 1133</span> <span class='hn-top-story-comments'>&#128172; 300</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>黑手党或在阻止芬太尼流入意大利</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.7</span> <span class='hn-top-story-score'>&#9650; 49</span> <span class='hn-top-story-comments'>&#128172; 33</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='220' data-hn-time='1790282072'>
+<div class='hn-top-story-item' data-hn-score='1271' data-hn-time='1790263572'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/24/top_stories_09242026#story-49836419'>California is chasing wealth that has feet</a>
- <a class='hn-top-story-link' href='https://blog.landeconomics.org/p/california-is-chasing-wealth-that' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/25/top_stories_09252026#story-49831968'>F-Droid 2.0</a>
+ <a class='hn-top-story-link' href='https://f-droid.org/2026/09/24/f-droid-2.0-a-new-chapter-for-android-freedom.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>加州在追逐会移动的财富</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 220</span> <span class='hn-top-story-comments'>&#128172; 584</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>F-Droid 2.0：Android 自由的新篇章</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.8</span> <span class='hn-top-story-score'>&#9650; 1271</span> <span class='hn-top-story-comments'>&#128172; 369</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='362' data-hn-time='1790266980'>
+<div class='hn-top-story-item' data-hn-score='31' data-hn-time='1790331576'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/24/top_stories_09242026#story-49832938'>Why is the liver so weirdly regenerative?</a>
- <a class='hn-top-story-link' href='https://dynomight.substack.com/p/liver' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/25/top_stories_09252026#story-49842483'>Oracle on the hook to pay data centre investors even if site has no electricity</a>
+ <a class='hn-top-story-link' href='https://www.ft.com/content/a96bf05a-a299-4d6a-a753-b298dd0f4016' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>为什么肝脏的再生能力如此奇特？</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.3</span> <span class='hn-top-story-score'>&#9650; 362</span> <span class='hn-top-story-comments'>&#128172; 185</span> <span class='hn-top-story-tag'>Science</span></div>
+<div class='hn-top-story-zh'>Oracle 面临即使机房停电也要向数据中心投资者付款的义务</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 31</span> <span class='hn-top-story-comments'>&#128172; 16</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>DevOps</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='212' data-hn-time='1790281727'>
+<div class='hn-top-story-item' data-hn-score='37' data-hn-time='1790329825'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/24/top_stories_09242026#story-49836374'>Opus 5.5 is good at explainer videos</a>
- <a class='hn-top-story-link' href='https://launchvideo.io' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/25/top_stories_09252026#story-49842270'>Ink and Switch Interactive Homepage</a>
+ <a class='hn-top-story-link' href='https://www.inkandswitch.com/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Opus 5.5在解释性视频方面表现出色</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.2</span> <span class='hn-top-story-score'>&#9650; 212</span> <span class='hn-top-story-comments'>&#128172; 114</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Education</span></div>
+<div class='hn-top-story-zh'>Ink & Switch 的交互式首页设计</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 37</span> <span class='hn-top-story-comments'>&#128172; 5</span> <span class='hn-top-story-tag'>Design</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='171' data-hn-time='1790285583'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='83' data-hn-time='1790321265'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/24/top_stories_09242026#story-49837006'>Show HN: Koi.rest – watch some fish and regain your balance</a>
- <a class='hn-top-story-link' href='https://koi.rest' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/25/top_stories_09252026#story-49841285'>Pentium II at 600Mhz with Voodoo 3 Emulated on 86Box with M6 Mac Mini</a>
+ <a class='hn-top-story-link' href='https://nyaa.sh/reviews/mac-mini-m6-emulation' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Show HN：Koi.rest——观看锦鲤，找回平衡</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.1</span> <span class='hn-top-story-score'>&#9650; 171</span> <span class='hn-top-story-comments'>&#128172; 42</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Web</span></div>
+<div class='hn-top-story-zh'>86Box 上的 600MHz Pentium II 与 Voodoo 3 仿真在 M6 Mac Mini 上</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 83</span> <span class='hn-top-story-comments'>&#128172; 31</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='266' data-hn-time='1790270496'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='14' data-hn-time='1790333948'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/24/top_stories_09242026#story-49833867'>Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design</a>
- <a class='hn-top-story-link' href='https://github.com/devdotfast/whiteboard' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/25/top_stories_09252026#story-49842788'>Anthropic: The Situation Report</a>
+ <a class='hn-top-story-link' href='https://www.anthropic.com/features/ebola-response' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Show HN：Whiteboard（YC W26）——用于深思软件设计的开源 IDE</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.9</span> <span class='hn-top-story-score'>&#9650; 266</span> <span class='hn-top-story-comments'>&#128172; 107</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>Anthropic：态势通报</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.3</span> <span class='hn-top-story-score'>&#9650; 14</span> <span class='hn-top-story-comments'>&#128172; 1</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='419' data-hn-time='1790246359'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='32' data-hn-time='1790326543'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/24/top_stories_09242026#story-49828731'>Two-tier encryption in the UK</a>
- <a class='hn-top-story-link' href='https://macanorak.com/two-tier-encryption-in-the-uk/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/25/top_stories_09252026#story-49841893'>Special Projects (2016)</a>
+ <a class='hn-top-story-link' href='https://openai.com/index/special-projects/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>英国两层加密：同一设备不同保护水平</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.6</span> <span class='hn-top-story-score'>&#9650; 419</span> <span class='hn-top-story-comments'>&#128172; 387</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>2016 年的 Special Projects</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.9</span> <span class='hn-top-story-score'>&#9650; 32</span> <span class='hn-top-story-comments'>&#128172; 9</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='233' data-hn-time='1790265026'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='57' data-hn-time='1790319826'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/24/top_stories_09242026#story-49832406'>GitHub has not removed malicious imitation software after 3 weeks</a>
- <a class='hn-top-story-link' href='https://successfulsoftware.net/2026/09/24/github-has-not-removed-malicious-imitation-software-after-3-weeks/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/25/top_stories_09252026#story-49841115'>CVE-2025-13032: Entering and Breaking the Avast Antivirus Sandbox Part 2</a>
+ <a class='hn-top-story-link' href='https://www.safateam.com/intelligence-hub/research/technical-articles/cve-2025-13032-entering-and-breaking-the-avast-antivirus-sandbox-part-2' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>GitHub在三周后仍未移除恶意仿冒软件</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.4</span> <span class='hn-top-story-score'>&#9650; 233</span> <span class='hn-top-story-comments'>&#128172; 99</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>CVE-2025-13032：进入并突破 Avast 防病毒沙箱（第2部分）</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.9</span> <span class='hn-top-story-score'>&#9650; 57</span> <span class='hn-top-story-comments'>&#128172; 15</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='289' data-hn-time='1790254688'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='427' data-hn-time='1790266980'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/24/top_stories_09242026#story-49829960'>Owners mourn spoiled food after firmware update bricks Samsung smart fridges</a>
- <a class='hn-top-story-link' href='https://arstechnica.com/gadgets/2026/09/owners-mourn-spoiled-food-after-firmware-update-bricks-samsung-smart-fridges/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/25/top_stories_09252026#story-49832938'>Why is the liver so weirdly regenerative?</a>
+ <a class='hn-top-story-link' href='https://dynomight.substack.com/p/liver' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>固件更新把三星智能冰箱变砖，业主为食物变质而悲痛</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.3</span> <span class='hn-top-story-score'>&#9650; 289</span> <span class='hn-top-story-comments'>&#128172; 294</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-zh'>为什么肝脏的再生能力如此奇特？</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.7</span> <span class='hn-top-story-score'>&#9650; 427</span> <span class='hn-top-story-comments'>&#128172; 223</span> <span class='hn-top-story-tag'>Science</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
-<a class='hn-top-stories-more' href='/hackernews/2026/09/24/top_stories_09242026'>View all trending stories &rarr;</a>
+<a class='hn-top-stories-more' href='/hackernews/2026/09/25/top_stories_09252026'>View all trending stories &rarr;</a>
 <a class='hn-top-stories-more' href='/hackernews/2026/09/23/best_stories_09232026'>Latest Daily Best — 2026-09-23 &rarr;</a>
 </div>
 </div>
@@ -140,10 +140,19 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 39 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-09-21 — 2026-09-24 <span class="hn-row-sep">·</span> 550 stories <span class="hn-row-sep">·</span> 4 days</span>
+<span class='hn-week-meta'>2026-09-21 — 2026-09-25 <span class="hn-row-sep">·</span> 599 stories <span class="hn-row-sep">·</span> 5 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
+<div class='hn-day-row'>
+<div class='hn-day-date'>2026-09-25 <span class='hn-day-weekday'>Fri</span></div>
+<div class='hn-day-stories'>
+<a class='hn-story-link' href='/hackernews/2026/09/25/top_stories_09252026'>
+<span class='hn-row-type hn-type-top'>Trending</span>
+<span class='hn-row-detail'>All <b>49</b> <span class="hn-row-sep">·</span> AI <b>14</b> <span class="hn-row-sep">·</span> Programming <b>11</b></span>
+</a>
+</div>
+</div>
 <div class='hn-day-row'>
 <div class='hn-day-date'>2026-09-24 <span class='hn-day-weekday'>Thu</span></div>
 <div class='hn-day-stories'>
@@ -513,7 +522,7 @@ Sort:
 <details class='hn-week-group'>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 35</span>
-<span class='hn-week-meta'>2026-08-26 — 2026-08-30 <span class="hn-row-sep">·</span> 743 stories <span class="hn-row-sep">·</span> 5 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
+<span class='hn-week-meta'>2026-08-27 — 2026-08-30 <span class="hn-row-sep">·</span> 593 stories <span class="hn-row-sep">·</span> 4 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
 </summary>
 <div class='hn-week-content'>
 <a class='hn-story-link hn-weekly-digest-link' href='/hackernews/weekly/2026-W35'>
@@ -570,19 +579,6 @@ Sort:
 <a class='hn-story-link' href='/hackernews/2026/08/27/top_stories_08272026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
 <span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>32</b> <span class="hn-row-sep">·</span> Programming <b>16</b></span>
-</a>
-</div>
-</div>
-<div class='hn-day-row'>
-<div class='hn-day-date'>2026-08-26 <span class='hn-day-weekday'>Wed</span></div>
-<div class='hn-day-stories'>
-<a class='hn-story-link' href='/hackernews/2026/08/26/best_stories_08262026'>
-<span class='hn-row-type hn-type-best'>Daily Best</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>14</b> <span class="hn-row-sep">·</span> Politics <b>11</b></span>
-</a>
-<a class='hn-story-link' href='/hackernews/2026/08/26/top_stories_08262026'>
-<span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>20</b> <span class="hn-row-sep">·</span> Programming <b>17</b></span>
 </a>
 </div>
 </div>
