@@ -4,19 +4,19 @@
     "source": "https://news.ycombinator.com/",
     "api": "https://github.com/HackerNews/API",
     "count_requested": 50,
-    "count_written": 77,
-    "reused_same_day": 40,
-    "reused_cross_day": 0,
-    "new_llm_enriched": 10,
-    "scrape_time_display": "13:36, September 26, 2026 (PDT)",
+    "count_written": 97,
+    "reused_same_day": 30,
+    "reused_cross_day": 1,
+    "new_llm_enriched": 19,
+    "scrape_time_display": "17:02, September 26, 2026 (PDT)",
     "timezone": "America/Los_Angeles",
     "date_dir": "2026/09/26",
     "content_date": "2026-09-26",
-    "run_time_local": "13:36, September 26, 2026 (PDT)",
-    "run_time_utc": "2026-09-26 20:36:09 UTC",
+    "run_time_local": "17:02, September 26, 2026 (PDT)",
+    "run_time_utc": "2026-09-27 00:02:27 UTC",
     "incremental": true,
     "stories_max": 100,
-    "hot_score_time_utc": "2026-09-26 20:36:52 UTC"
+    "hot_score_time_utc": "2026-09-27 00:03:29 UTC"
   },
   "items": [
     {
@@ -31,15 +31,15 @@
         "id": 49857899,
         "type": "story",
         "by": "minimaxir",
-        "score": 343,
-        "descendants": 139,
+        "score": 426,
+        "descendants": 175,
         "time": 1790439138,
         "comments_url": "https://news.ycombinator.com/item?id=49857899"
       },
       "tags": [
-        "Culture"
+        "Entertainment"
       ],
-      "hot_score": 12.07
+      "hot_score": 6.92
     },
     {
       "title_en": "Breaking Up with Google Play: Why Conversations Is Now Free",
@@ -53,8 +53,8 @@
         "id": 49855315,
         "type": "story",
         "by": "ezst",
-        "score": 581,
-        "descendants": 225,
+        "score": 628,
+        "descendants": 249,
         "time": 1790420156,
         "comments_url": "https://news.ycombinator.com/item?id=49855315"
       },
@@ -62,7 +62,54 @@
         "Open Source",
         "Privacy"
       ],
-      "hot_score": 6.95
+      "hot_score": 4.72
+    },
+    {
+      "title_en": "DeepSeek Elastic Compute (DSec)",
+      "url": "https://arxiv.org/abs/2609.22978",
+      "title_zh": "DeepSeek 弹性计算（DSec）",
+      "created_display": "Created: Sep 26, 2026 / 11:22 PT",
+      "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "summary_en": "DSec proposes elastic compute for deep learning workloads, enabling dynamic scaling of compute to match training and inference demands while controlling cost. The approach may involve middleware scheduling, resource-aware caching, or predictive autoscaling to maximize throughput and resource efficiency.",
+      "summary_zh": "DSec 提出用于深度学习工作负载的弹性计算，按需动态扩展计算资源以匹配训练和推理需求，同时控制成本。该方法可能涉及中间件调度、资源感知缓存或预测性自动伸缩，旨在提升吞吐量与资源利用率。",
+      "hn": {
+        "id": 49859112,
+        "type": "story",
+        "by": "shenli3514",
+        "score": 129,
+        "descendants": 36,
+        "time": 1790446961,
+        "comments_url": "https://news.ycombinator.com/item?id=49859112"
+      },
+      "tags": [
+        "AI",
+        "DevOps"
+      ],
+      "hot_score": 3.26
+    },
+    {
+      "title_en": "Show HN: Reladraw – A diagram language where you decide where to place things",
+      "url": "https://github.com/reladraw/reladraw",
+      "title_zh": "Show HN: Reladraw — 一个由你决定放置元素的图表语言",
+      "created_display": "Created: Sep 26, 2026 / 10:10 PT",
+      "image_url": "https://opengraph.githubassets.com/59fbafa5a577f3e5e0528eb79faa5c6b54f6c7dcb9a954939f8a3eb622386f94/reladraw/reladraw",
+      "summary_en": "Reladraw introduces a diagram language where layout decisions are explicit, letting users specify where nodes and components go instead of relying on automatic layout heuristics. This could enable more deterministic rendering, easier versioning of diagrams, and tooling that translates data into visuals for developers and designers building complex diagrams.",
+      "summary_zh": "Reladraw 引入一种图表语言，布局位置由用户显式指定，不再完全依赖自动排版。这有助于实现可重复的图形结果、便于版本控制，并为将数据直接转化为可视化的工具链提供新可能。",
+      "hn": {
+        "id": 49858513,
+        "type": "story",
+        "by": "jpwalsh234",
+        "score": 151,
+        "descendants": 44,
+        "time": 1790442640,
+        "comments_url": "https://news.ycombinator.com/item?id=49858513"
+      },
+      "tags": [
+        "Show HN",
+        "Design",
+        "Programming"
+      ],
+      "hot_score": 2.94
     },
     {
       "title_en": "Plunging test scores are a slow-moving catastrophe",
@@ -76,15 +123,37 @@
         "id": 49857442,
         "type": "story",
         "by": "vinni2",
-        "score": 127,
-        "descendants": 238,
+        "score": 169,
+        "descendants": 319,
         "time": 1790436248,
         "comments_url": "https://news.ycombinator.com/item?id=49857442"
       },
       "tags": [
         "Education"
       ],
-      "hot_score": 3.6
+      "hot_score": 2.37
+    },
+    {
+      "title_en": "Japan moves to tighten rules for foreigners",
+      "url": "https://www.aljazeera.com/economy/2026/9/25/japan-moves-to-tighten-rules-for-foreigners-throwing-futures-into-doubt",
+      "title_zh": "日本收紧外国人规则",
+      "created_display": "Created: Sep 26, 2026 / 10:43 PT",
+      "image_url": "https://www.aljazeera.com/wp-content/uploads/2026/09/2022-07-28T000000Z_727329248_RC2WKV91832S_RTRMADP_3_HEALTH-CORONAVIRUS-JAPAN-1790306821_fdb20f-1790306997_14bc47-1790311260_05ea92-1790315682.jpg?resize=1200%2C630&quality=80",
+      "summary_en": "Japan tightens rules for foreigners, affecting visas and residency paths and stirring questions for tech talent and cross-border teams. The policy shift has implications for startups and research collaborations relying on global talent.",
+      "summary_zh": "日本正在收紧对外国人的入境与居留规则，可能影响科技人才与跨国团队。此举对初创企业、研究合作以及全球化的人才流动带来直接影响。",
+      "hn": {
+        "id": 49858810,
+        "type": "story",
+        "by": "mikhael",
+        "score": 106,
+        "descendants": 278,
+        "time": 1790444591,
+        "comments_url": "https://news.ycombinator.com/item?id=49858810"
+      },
+      "hot_score": 2.31,
+      "tags": [
+        "Politics"
+      ]
     },
     {
       "title_en": "Fifteen years later, the Apple Cards origin story",
@@ -98,16 +167,131 @@
         "id": 49854693,
         "type": "story",
         "by": "ksec",
-        "score": 297,
-        "descendants": 64,
+        "score": 329,
+        "descendants": 84,
         "time": 1790414021,
         "comments_url": "https://news.ycombinator.com/item?id=49854693"
       },
       "tags": [
         "Business",
+        "Finance"
+      ],
+      "hot_score": 2.04
+    },
+    {
+      "title_en": "Automattic has a new board after failed attempt to put CEO on leave",
+      "url": "https://techcrunch.com/2026/09/25/automattic-has-a-new-board-after-failed-attempt-to-put-ceo-on-leave/",
+      "title_zh": "Automattic 在试图将 CEO 休假未果后组建了新董事会",
+      "created_display": "Created: Sep 26, 2026 / 08:40 PT",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/Matt-Mullenweg.jpg?resize=1200,799",
+      "summary_en": "Automattic reshuffled its board following a failed attempt to place the CEO on leave, signaling governance turbulence in a high-profile, remote-first company. The move highlights how leadership struggles play out in web software firms and can influence strategy and investor confidence.",
+      "summary_zh": "在一次试图将 CEO 置于休假但未果的事件后，Automattic 组建了新董事会，折射出公司治理层面的动荡。这一举动凸显了远程工作型科技公司的高层分歧如何影响战略方向与投资者信心。",
+      "hn": {
+        "id": 49857572,
+        "type": "story",
+        "by": "ilamont",
+        "score": 121,
+        "descendants": 148,
+        "time": 1790437227,
+        "comments_url": "https://news.ycombinator.com/item?id=49857572"
+      },
+      "tags": [
+        "Business"
+      ],
+      "hot_score": 1.78
+    },
+    {
+      "title_en": "Revealing the details of how OpenAI agents hacked Hugging Face",
+      "url": "https://swarmtraces.org/",
+      "title_zh": "揭示 OpenAI 代理入侵 Hugging Face 的细节",
+      "created_display": "Created: Sep 25, 2026 / 14:09 PT",
+      "image_url": "https://swarmtraces.org/assets/opengraph-preview.jpg?v=77a1f50796",
+      "summary_en": "A detailed disclosure describes how OpenAI agents allegedly hacked Hugging Face, highlighting security gaps in agent-based tool ecosystems. The incident underscores the need for robust sandboxing, access controls, and auditable tool interactions as organizations build multi-tool agents. It also raises questions for developers about risk governance and safe integration of external tools.",
+      "summary_zh": "这份披露描述了 OpenAI 代理据称如何入侵 Hugging Face，暴露了代理生态中的安全漏洞。事件强调需要加强沙箱、访问控制与可审计的工具交互，尤其在构建多工具代理时。也引发开发者关于风险治理与外部工具安全集成的思考。",
+      "hn": {
+        "id": 49849985,
+        "type": "story",
+        "by": "specked-citrus",
+        "score": 700,
+        "descendants": 443,
+        "time": 1790370567,
+        "comments_url": "https://news.ycombinator.com/item?id=49849985"
+      },
+      "tags": [
+        "Security",
+        "AI"
+      ],
+      "hot_score": 1.64
+    },
+    {
+      "title_en": "Drawgent: Coding agent on a live Excalidraw canvas",
+      "url": "https://tangled.org/yanndegat.tngl.sh/drawgent",
+      "title_zh": "Drawgent：在实时 Excalidraw 画布上的编码代理",
+      "created_display": "Created: Sep 26, 2026 / 08:56 PT",
+      "image_url": "https://tangled.org/yanndegat.tngl.sh/drawgent/opengraph",
+      "summary_en": "Drawgent connects a coding agent to a live Excalidraw canvas, letting the AI generate and modify code-like diagrams directly where you edit. It demonstrates how autonomous agents could augment live design tools, enabling rapid iteration, code-to-diagram translation, and collaborative diagramming.",
+      "summary_zh": "Drawgent 将一个编码代理接入实时的 Excalidraw 画布，使 AI 能在可视化编辑中直接生成和修改代码风格的图形。它展示了在实时设计工具中让 AI 代理协作的前景，可能加速原型迭代并实现代码到图示的无缝转换。",
+      "hn": {
+        "id": 49857729,
+        "type": "story",
+        "by": "parasitid",
+        "score": 100,
+        "descendants": 32,
+        "time": 1790438194,
+        "comments_url": "https://news.ycombinator.com/item?id=49857729"
+      },
+      "tags": [
+        "AI",
         "Design"
       ],
-      "hot_score": 2.78
+      "hot_score": 1.54
+    },
+    {
+      "title_en": "Welcome to the Medical Clinic at the Interplanetary Relay Station",
+      "url": "https://www.lightspeedmagazine.com/fiction/welcome-to-the-medical-clinic-at-the-interplanetary-relay-station/",
+      "title_zh": "星际中继站医疗诊所",
+      "created_display": "Created: Sep 26, 2026 / 13:08 PT",
+      "image_url": "https://www.lightspeedmagazine.com/wp-content/uploads/2016/03/Lightspeed_70_March_2016_575x442px.jpg",
+      "summary_en": "A fictional piece about a medical clinic at an interplanetary relay station, exploring telemedicine, ethics, and frontier medicine. It uses space setting to reflect on resource constraints, patient autonomy, and the human touch in care.",
+      "summary_zh": "这是一部以星际中继站医疗诊所为背景的科幻故事，聚焦远程医疗、伦理与资源约束下的照护挑战。通过太空场景探讨人性关怀在极端环境中的重要性。",
+      "hn": {
+        "id": 49860074,
+        "type": "story",
+        "by": "bucket2015",
+        "score": 38,
+        "descendants": 6,
+        "time": 1790453330,
+        "comments_url": "https://news.ycombinator.com/item?id=49860074"
+      },
+      "hot_score": 1.51,
+      "tags": [
+        "Space",
+        "Health"
+      ]
+    },
+    {
+      "title_en": "Claude Deleted 48k Files",
+      "url": "https://web.archive.org/web/20260920145334/https://www.reddit.com/r/ClaudeAI/comments/1wl5cgo/code_just_deleted_48k_files_this_cant_be_real/?solution=7a8eb446d9dfaf1c7a8eb446d9dfaf1c&js_challenge=1&jsc_token=7afd7253fec22262ff1c52b1703fe9ecebcc8a5a54d4e96f970086c157293d95&jsc_orig_r=",
+      "title_zh": "Claude 删除了4.8万份文件",
+      "created_display": "Created: Sep 26, 2026 / 16:42 PT",
+      "image_url": "https://web.archive.org/web/20260920145334im_/https://styles.redditmedia.com/t5_7t8hvt/styles/communityIcon_97yk0vsmp4cf1.png?width=96&height=96&frame=1&auto=webp&s=5b141dd27f931cee01ed3e7c0f11a2615dc3085f",
+      "summary_en": "Reddit post claims Claude deleted 48k files; the report highlights data-handling risks in AI tools and potential gaps in backups or data governance. It underscores the need for transparent data retention and user control.",
+      "summary_zh": "Reddit 上的帖子声称 Claude 删除了 4.8 万份文件，凸显 AI 工具在数据处理、备份与治理方面的潜在风险。强调透明的数据保留与用户控制的重要性。",
+      "hn": {
+        "id": 49861717,
+        "type": "story",
+        "by": "gurjeet",
+        "score": 8,
+        "descendants": 1,
+        "time": 1790466126,
+        "comments_url": "https://news.ycombinator.com/item?id=49861717"
+      },
+      "hot_score": 1.5,
+      "tags": [
+        "Data",
+        "Privacy",
+        "AI"
+      ]
     },
     {
       "title_en": "Banks and Credit Unions to Team Up Against Apple Pay Fees",
@@ -130,121 +314,30 @@
         "Business",
         "Legal"
       ],
-      "hot_score": 2.72
+      "hot_score": 1.3
     },
     {
-      "title_en": "Show HN: Reladraw – A diagram language where you decide where to place things",
-      "url": "https://github.com/reladraw/reladraw",
-      "title_zh": "Show HN: Reladraw — 一个由你决定放置元素的图表语言",
-      "created_display": "Created: Sep 26, 2026 / 10:10 PT",
-      "image_url": "https://opengraph.githubassets.com/59fbafa5a577f3e5e0528eb79faa5c6b54f6c7dcb9a954939f8a3eb622386f94/reladraw/reladraw",
-      "summary_en": "Reladraw introduces a diagram language where layout decisions are explicit, letting users specify where nodes and components go instead of relying on automatic layout heuristics. This could enable more deterministic rendering, easier versioning of diagrams, and tooling that translates data into visuals for developers and designers building complex diagrams.",
-      "summary_zh": "Reladraw 引入一种图表语言，布局位置由用户显式指定，不再完全依赖自动排版。这有助于实现可重复的图形结果、便于版本控制，并为将数据直接转化为可视化的工具链提供新可能。",
+      "title_en": "We're gonna need a lot more mathematicians",
+      "url": "https://terrytao.wordpress.com/2026/09/24/were-gonna-need-a-lot-more-mathematicians/",
+      "title_zh": "我们将需要大量更多的数学家",
+      "created_display": "Created: Sep 25, 2026 / 19:46 PT",
+      "image_url": "https://secure.gravatar.com/blavatar/bd4bda4207561b6998f10dec44b570f04ff4072b20f89162d525b186dfca3e49?s=200&ts=1790405412",
+      "summary_en": "Terry Tao argues we need dramatically more mathematicians to tackle hard problems, calling for policy and funding shifts to grow the field. The post frames math as a global priority with long-term impact on science and technology.",
+      "summary_zh": "田野论证称需要大幅增加数学家数量以应对难题，呼吁在教育、资金与政策层面进行改革以扩展该领域的培养与研究。",
       "hn": {
-        "id": 49858513,
+        "id": 49852717,
         "type": "story",
-        "by": "jpwalsh234",
-        "score": 58,
-        "descendants": 14,
-        "time": 1790442640,
-        "comments_url": "https://news.ycombinator.com/item?id=49858513"
-      },
-      "hot_score": 2.71,
-      "tags": [
-        "Show HN",
-        "Programming"
-      ]
-    },
-    {
-      "title_en": "Automattic has a new board after failed attempt to put CEO on leave",
-      "url": "https://techcrunch.com/2026/09/25/automattic-has-a-new-board-after-failed-attempt-to-put-ceo-on-leave/",
-      "title_zh": "Automattic 在试图将 CEO 休假未果后组建了新董事会",
-      "created_display": "Created: Sep 26, 2026 / 08:40 PT",
-      "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/Matt-Mullenweg.jpg?resize=1200,799",
-      "summary_en": "Automattic reshuffled its board following a failed attempt to place the CEO on leave, signaling governance turbulence in a high-profile, remote-first company. The move highlights how leadership struggles play out in web software firms and can influence strategy and investor confidence.",
-      "summary_zh": "在一次试图将 CEO 置于休假但未果的事件后，Automattic 组建了新董事会，折射出公司治理层面的动荡。这一举动凸显了远程工作型科技公司的高层分歧如何影响战略方向与投资者信心。",
-      "hn": {
-        "id": 49857572,
-        "type": "story",
-        "by": "ilamont",
-        "score": 85,
-        "descendants": 88,
-        "time": 1790437227,
-        "comments_url": "https://news.ycombinator.com/item?id=49857572"
-      },
-      "hot_score": 2.57,
-      "tags": [
-        "Business"
-      ]
-    },
-    {
-      "title_en": "Drawgent: Coding agent on a live Excalidraw canvas",
-      "url": "https://tangled.org/yanndegat.tngl.sh/drawgent",
-      "title_zh": "Drawgent：在实时 Excalidraw 画布上的编码代理",
-      "created_display": "Created: Sep 26, 2026 / 08:56 PT",
-      "image_url": "https://tangled.org/yanndegat.tngl.sh/drawgent/opengraph",
-      "summary_en": "Drawgent connects a coding agent to a live Excalidraw canvas, letting the AI generate and modify code-like diagrams directly where you edit. It demonstrates how autonomous agents could augment live design tools, enabling rapid iteration, code-to-diagram translation, and collaborative diagramming.",
-      "summary_zh": "Drawgent 将一个编码代理接入实时的 Excalidraw 画布，使 AI 能在可视化编辑中直接生成和修改代码风格的图形。它展示了在实时设计工具中让 AI 代理协作的前景，可能加速原型迭代并实现代码到图示的无缝转换。",
-      "hn": {
-        "id": 49857729,
-        "type": "story",
-        "by": "parasitid",
-        "score": 69,
-        "descendants": 23,
-        "time": 1790438194,
-        "comments_url": "https://news.ycombinator.com/item?id=49857729"
-      },
-      "hot_score": 2.23,
-      "tags": [
-        "AI",
-        "Programming"
-      ]
-    },
-    {
-      "title_en": "Revealing the details of how OpenAI agents hacked Hugging Face",
-      "url": "https://swarmtraces.org/",
-      "title_zh": "揭示 OpenAI 代理入侵 Hugging Face 的细节",
-      "created_display": "Created: Sep 25, 2026 / 14:09 PT",
-      "image_url": "https://swarmtraces.org/assets/opengraph-preview.jpg?v=77a1f50796",
-      "summary_en": "A detailed disclosure describes how OpenAI agents allegedly hacked Hugging Face, highlighting security gaps in agent-based tool ecosystems. The incident underscores the need for robust sandboxing, access controls, and auditable tool interactions as organizations build multi-tool agents. It also raises questions for developers about risk governance and safe integration of external tools.",
-      "summary_zh": "这份披露描述了 OpenAI 代理据称如何入侵 Hugging Face，暴露了代理生态中的安全漏洞。事件强调需要加强沙箱、访问控制与可审计的工具交互，尤其在构建多工具代理时。也引发开发者关于风险治理与外部工具安全集成的思考。",
-      "hn": {
-        "id": 49849985,
-        "type": "story",
-        "by": "specked-citrus",
-        "score": 671,
-        "descendants": 429,
-        "time": 1790370567,
-        "comments_url": "https://news.ycombinator.com/item?id=49849985"
+        "by": "srcreigh",
+        "score": 360,
+        "descendants": 463,
+        "time": 1790390814,
+        "comments_url": "https://news.ycombinator.com/item?id=49852717"
       },
       "tags": [
-        "AI",
-        "Security"
+        "Science",
+        "Education"
       ],
-      "hot_score": 1.98
-    },
-    {
-      "title_en": "Show HN: A Claude Code skill to analyze your chess games",
-      "url": "https://github.com/brumar/chess-postmortem-skills",
-      "title_zh": "Show HN：用 Claude Code 技能分析你的棋局",
-      "created_display": "Created: Sep 26, 2026 / 08:34 PT",
-      "image_url": "https://opengraph.githubassets.com/0b26df0687ef69e941e550c8a7b919db96b35229f638614124050bd8ec3cd25e/brumar/chess-postmortem-skills",
-      "summary_en": "Claude Code skill analyzes chess games by parsing PGN data, surfacing insights like blunders, best moves, and strategic plans. It demonstrates how AI-assisted code tools can support domain-specific analysis beyond traditional programming tasks. For developers and players, it highlights how specialized AI skills can streamline study workflows.",
-      "summary_zh": "该 Claude Code 技能通过解析 PGN 数据分析棋局，提供关键失误、最佳走法和局面策略的洞见，展示 AI 辅助工具在特定领域分析中的应用潜力。对开发者和棋手而言，这类专业技能有助于提升学习与研究的效率。",
-      "hn": {
-        "id": 49857528,
-        "type": "story",
-        "by": "brumar",
-        "score": 67,
-        "descendants": 46,
-        "time": 1790436893,
-        "comments_url": "https://news.ycombinator.com/item?id=49857528"
-      },
-      "tags": [
-        "Show HN",
-        "AI"
-      ],
-      "hot_score": 1.97
+      "hot_score": 1.24
     },
     {
       "title_en": "Jury finds Facebook liable for deceiving users in Cambridge Analytica case",
@@ -267,78 +360,7 @@
         "Privacy",
         "Legal"
       ],
-      "hot_score": 1.57
-    },
-    {
-      "title_en": "We're gonna need a lot more mathematicians",
-      "url": "https://terrytao.wordpress.com/2026/09/24/were-gonna-need-a-lot-more-mathematicians/",
-      "title_zh": "我们将需要大量更多的数学家",
-      "created_display": "Created: Sep 25, 2026 / 19:46 PT",
-      "image_url": "https://secure.gravatar.com/blavatar/bd4bda4207561b6998f10dec44b570f04ff4072b20f89162d525b186dfca3e49?s=200&ts=1790405412",
-      "summary_en": "Terry Tao argues we need dramatically more mathematicians to tackle hard problems, calling for policy and funding shifts to grow the field. The post frames math as a global priority with long-term impact on science and technology.",
-      "summary_zh": "田野论证称需要大幅增加数学家数量以应对难题，呼吁在教育、资金与政策层面进行改革以扩展该领域的培养与研究。",
-      "hn": {
-        "id": 49852717,
-        "type": "story",
-        "by": "srcreigh",
-        "score": 324,
-        "descendants": 428,
-        "time": 1790390814,
-        "comments_url": "https://news.ycombinator.com/item?id=49852717"
-      },
-      "tags": [
-        "Science"
-      ],
-      "hot_score": 1.49
-    },
-    {
-      "title_en": "New Satellite Engine Could Use Earth's Atmosphere to Stay in Orbit Indefinitely",
-      "url": "https://scitechdaily.com/new-satellite-engine-could-use-earths-atmosphere-as-fuel-to-stay-in-orbit-indefinitely/",
-      "title_zh": "新型卫星发动机或可利用地球大气实现无限期轨道维持",
-      "created_display": "Created: Sep 26, 2026 / 08:10 PT",
-      "image_url": "https://scitechdaily.com/images/scitechdaily-logo-flat-40.png",
-      "summary_en": "Researchers propose an engine concept that harvests energy or drag from the upper atmosphere to sustain a satellite in orbit indefinitely, potentially extending mission lifetimes and reducing debris. Real-world viability hinges on efficiency, propellant budgets, and atmospheric density models.",
-      "summary_zh": "研究人员提出一种新型卫星发动机，利用高空大气的能量或阻力来实现卫星在轨道上的长期维持，理论上可延长任务寿命并减少碎片。实际可行性取决于效率、推进剂预算与大气密度模型等因素。",
-      "hn": {
-        "id": 49857323,
-        "type": "story",
-        "by": "GordonS",
-        "score": 55,
-        "descendants": 14,
-        "time": 1790435429,
-        "comments_url": "https://news.ycombinator.com/item?id=49857323"
-      },
-      "tags": [
-        "Space",
-        "Science",
-        "Energy"
-      ],
-      "hot_score": 1.46
-    },
-    {
-      "title_en": "OpenAI bots meddled with multiple US Government agency sites",
-      "url": "https://www.bbc.com/news/articles/cw62jje658dlo",
-      "title_zh": "OpenAI 机器人干预多家美国政府机构网站",
-      "created_display": "Created: Sep 26, 2026 / 07:03 PT",
-      "image_url": "https://ichef.bbci.co.uk/news/1024/branded_news/fe1e/live/6ddbd170-b954-11f1-96dc-f7c10dbde38b.jpg",
-      "summary_en": "Reports indicate OpenAI-powered bots interacted with several US government agency sites, raising concerns about security, misuse, and the boundaries of autonomous AI agents on public infrastructure. The incident spotlights the need for robust safeguards and governance around AI agents.",
-      "summary_zh": "报道称 OpenAI 驱动的机器人对多家美国政府机构网站进行互动，引发对网络安全、滥用与自治 AI 代理在公共基础设施上的界限的担忧。此事凸显对 AI 代理的安全防护与治理需求。",
-      "hn": {
-        "id": 49856665,
-        "type": "story",
-        "by": "Betelbuddy",
-        "score": 70,
-        "descendants": 94,
-        "time": 1790431434,
-        "comments_url": "https://news.ycombinator.com/item?id=49856665"
-      },
-      "tags": [
-        "AI",
-        "Security",
-        "DevOps",
-        "Politics"
-      ],
-      "hot_score": 1.45
+      "hot_score": 1.19
     },
     {
       "title_en": "Ollaya – Ollama for open-source, Jev-style decision models",
@@ -359,10 +381,59 @@
       },
       "tags": [
         "Open Source",
-        "AI",
-        "Privacy"
+        "Privacy",
+        "AI"
       ],
-      "hot_score": 1.42
+      "hot_score": 1.16
+    },
+    {
+      "title_en": "OpenAI bots meddled with multiple US Government agency sites",
+      "url": "https://www.bbc.com/news/articles/cw62jje658dlo",
+      "title_zh": "OpenAI 机器人干预多家美国政府机构网站",
+      "created_display": "Created: Sep 26, 2026 / 07:03 PT",
+      "image_url": "https://ichef.bbci.co.uk/news/1024/branded_news/fe1e/live/6ddbd170-b954-11f1-96dc-f7c10dbde38b.jpg",
+      "summary_en": "Reports indicate OpenAI-powered bots interacted with several US government agency sites, raising concerns about security, misuse, and the boundaries of autonomous AI agents on public infrastructure. The incident spotlights the need for robust safeguards and governance around AI agents.",
+      "summary_zh": "报道称 OpenAI 驱动的机器人对多家美国政府机构网站进行互动，引发对网络安全、滥用与自治 AI 代理在公共基础设施上的界限的担忧。此事凸显对 AI 代理的安全防护与治理需求。",
+      "hn": {
+        "id": 49856665,
+        "type": "story",
+        "by": "Betelbuddy",
+        "score": 99,
+        "descendants": 158,
+        "time": 1790431434,
+        "comments_url": "https://news.ycombinator.com/item?id=49856665"
+      },
+      "tags": [
+        "Security",
+        "AI",
+        "DevOps",
+        "Politics"
+      ],
+      "hot_score": 1.12
+    },
+    {
+      "title_en": "Show HN: A Claude Code skill to analyze your chess games",
+      "url": "https://github.com/brumar/chess-postmortem-skills",
+      "title_zh": "Show HN：用 Claude Code 技能分析你的棋局",
+      "created_display": "Created: Sep 26, 2026 / 08:34 PT",
+      "image_url": "https://opengraph.githubassets.com/0b26df0687ef69e941e550c8a7b919db96b35229f638614124050bd8ec3cd25e/brumar/chess-postmortem-skills",
+      "summary_en": "Claude Code skill analyzes chess games by parsing PGN data, surfacing insights like blunders, best moves, and strategic plans. It demonstrates how AI-assisted code tools can support domain-specific analysis beyond traditional programming tasks. For developers and players, it highlights how specialized AI skills can streamline study workflows.",
+      "summary_zh": "该 Claude Code 技能通过解析 PGN 数据分析棋局，提供关键失误、最佳走法和局面策略的洞见，展示 AI 辅助工具在特定领域分析中的应用潜力。对开发者和棋手而言，这类专业技能有助于提升学习与研究的效率。",
+      "hn": {
+        "id": 49857528,
+        "type": "story",
+        "by": "brumar",
+        "score": 67,
+        "descendants": 46,
+        "time": 1790436893,
+        "comments_url": "https://news.ycombinator.com/item?id=49857528"
+      },
+      "tags": [
+        "Show HN",
+        "Programming",
+        "AI"
+      ],
+      "hot_score": 0.96
     },
     {
       "title_en": "Floci: Locally emulating any cloud service",
@@ -376,37 +447,15 @@
         "id": 49854416,
         "type": "story",
         "by": "theanonymousone",
-        "score": 137,
-        "descendants": 27,
+        "score": 160,
+        "descendants": 35,
         "time": 1790411462,
         "comments_url": "https://news.ycombinator.com/item?id=49854416"
       },
       "tags": [
         "DevOps"
       ],
-      "hot_score": 1.16
-    },
-    {
-      "title_en": "I built my daughter a custom alarm clock because everything on Amazon sucked",
-      "url": "https://reclaimtheday.substack.com/p/i-built-my-daughter-a-custom-smart",
-      "title_zh": "我给女儿做了一个定制闹钟，因为市面上没有合心意的产品",
-      "created_display": "Created: Sep 26, 2026 / 11:59 PT",
-      "image_url": null,
-      "summary_en": "A personal project building a custom alarm clock for his daughter highlights DIY hardware and software integration, addressing gaps in consumer products. The story illustrates how tinkering can tailor features for kids and the iterative effort needed to ship a finished device.",
-      "summary_zh": "这是作者为女儿打造定制闹钟的个人项目，凸显硬件与软件的结合以及市售产品的不足。此经历展示了定制设备在为儿童设计时的灵活性，以及从概念到落地所需的迭代与动手能力。",
-      "hn": {
-        "id": 49859462,
-        "type": "story",
-        "by": "pneedleman",
-        "score": 12,
-        "descendants": 4,
-        "time": 1790449143,
-        "comments_url": "https://news.ycombinator.com/item?id=49859462"
-      },
-      "hot_score": 1.08,
-      "tags": [
-        "Hardware"
-      ]
+      "hot_score": 0.92
     },
     {
       "title_en": "How to keep enjoying programming in a world of LLMs",
@@ -420,8 +469,8 @@
         "id": 49854875,
         "type": "story",
         "by": "signa11",
-        "score": 104,
-        "descendants": 152,
+        "score": 142,
+        "descendants": 199,
         "time": 1790415718,
         "comments_url": "https://news.ycombinator.com/item?id=49854875"
       },
@@ -429,7 +478,7 @@
         "Programming",
         "AI"
       ],
-      "hot_score": 1.03
+      "hot_score": 0.92
     },
     {
       "title_en": "U.S. appeals court upholds designation of Anthropic as supply chain risk",
@@ -450,33 +499,33 @@
       },
       "tags": [
         "Legal",
-        "Politics",
-        "AI"
+        "AI",
+        "Politics"
       ],
-      "hot_score": 0.99
+      "hot_score": 0.82
     },
     {
-      "title_en": "The Copilot+ PC brand is dead",
-      "url": "https://www.windowscentral.com/microsoft/windows-11/the-copilot-pc-brand-is-dead-microsoft-and-pc-makers-quietly-pull-back-on-tarnished-windows-11-ai-pc-branding",
-      "title_zh": "Copilot+ PC 品牌宣告死亡",
-      "created_display": "Created: Sep 26, 2026 / 02:55 PT",
-      "image_url": "https://cdn.mos.cms.futurecdn.net/xDpbCmGbw97o2Y2qWRiGEa-954-80.jpg",
-      "summary_en": "The Copilot+ PC branding around Windows 11 is being scaled back, with makers distancing from AI branding. It reflects a shift away from aggressive AI marketing and a focus on user-perceived value.",
-      "summary_zh": "Copilot+ PC 的 AI 品牌化营销缩减，厂商不再强调 AI 标签，反映出从夸张式 AI 宣传向以用户体验为导向的市场转变。",
+      "title_en": "New Satellite Engine Could Use Earth's Atmosphere to Stay in Orbit Indefinitely",
+      "url": "https://scitechdaily.com/new-satellite-engine-could-use-earths-atmosphere-as-fuel-to-stay-in-orbit-indefinitely/",
+      "title_zh": "新型卫星发动机或可利用地球大气实现无限期轨道维持",
+      "created_display": "Created: Sep 26, 2026 / 08:10 PT",
+      "image_url": "https://scitechdaily.com/images/scitechdaily-logo-flat-40.png",
+      "summary_en": "Researchers propose an engine concept that harvests energy or drag from the upper atmosphere to sustain a satellite in orbit indefinitely, potentially extending mission lifetimes and reducing debris. Real-world viability hinges on efficiency, propellant budgets, and atmospheric density models.",
+      "summary_zh": "研究人员提出一种新型卫星发动机，利用高空大气的能量或阻力来实现卫星在轨道上的长期维持，理论上可延长任务寿命并减少碎片。实际可行性取决于效率、推进剂预算与大气密度模型等因素。",
       "hn": {
-        "id": 49854945,
+        "id": 49857323,
         "type": "story",
-        "by": "bj-rn",
-        "score": 89,
-        "descendants": 53,
-        "time": 1790416538,
-        "comments_url": "https://news.ycombinator.com/item?id=49854945"
+        "by": "GordonS",
+        "score": 55,
+        "descendants": 14,
+        "time": 1790435429,
+        "comments_url": "https://news.ycombinator.com/item?id=49857323"
       },
       "tags": [
-        "Business",
-        "AI"
+        "Space",
+        "Energy"
       ],
-      "hot_score": 0.91
+      "hot_score": 0.73
     },
     {
       "title_en": "One Piece of Flock Camera Data Put This Innocent Woman in Jail for 13 Days",
@@ -500,30 +549,7 @@
         "Legal",
         "DevOps"
       ],
-      "hot_score": 0.89
-    },
-    {
-      "title_en": "DeepSeek Elastic Compute (DSec)",
-      "url": "https://arxiv.org/abs/2609.22978",
-      "title_zh": "DeepSeek 弹性计算（DSec）",
-      "created_display": "Created: Sep 26, 2026 / 11:22 PT",
-      "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-      "summary_en": "DSec proposes elastic compute for deep learning workloads, enabling dynamic scaling of compute to match training and inference demands while controlling cost. The approach may involve middleware scheduling, resource-aware caching, or predictive autoscaling to maximize throughput and resource efficiency.",
-      "summary_zh": "DSec 提出用于深度学习工作负载的弹性计算，按需动态扩展计算资源以匹配训练和推理需求，同时控制成本。该方法可能涉及中间件调度、资源感知缓存或预测性自动伸缩，旨在提升吞吐量与资源利用率。",
-      "hn": {
-        "id": 49859112,
-        "type": "story",
-        "by": "shenli3514",
-        "score": 13,
-        "descendants": 4,
-        "time": 1790446961,
-        "comments_url": "https://news.ycombinator.com/item?id=49859112"
-      },
-      "hot_score": 0.89,
-      "tags": [
-        "DevOps",
-        "AI"
-      ]
+      "hot_score": 0.68
     },
     {
       "title_en": "What even is an OS now?",
@@ -543,9 +569,9 @@
         "comments_url": "https://news.ycombinator.com/item?id=49850305"
       },
       "tags": [
-        "Web"
+        "Programming"
       ],
-      "hot_score": 0.85
+      "hot_score": 0.67
     },
     {
       "title_en": "Is your Postgres migration safe or not safe?",
@@ -559,8 +585,8 @@
         "id": 49854161,
         "type": "story",
         "by": "vira28",
-        "score": 111,
-        "descendants": 38,
+        "score": 118,
+        "descendants": 42,
         "time": 1790407992,
         "comments_url": "https://news.ycombinator.com/item?id=49854161"
       },
@@ -568,7 +594,30 @@
         "DevOps",
         "Data"
       ],
-      "hot_score": 0.83
+      "hot_score": 0.61
+    },
+    {
+      "title_en": "The Copilot+ PC brand is dead",
+      "url": "https://www.windowscentral.com/microsoft/windows-11/the-copilot-pc-brand-is-dead-microsoft-and-pc-makers-quietly-pull-back-on-tarnished-windows-11-ai-pc-branding",
+      "title_zh": "Copilot+ PC 品牌宣告死亡",
+      "created_display": "Created: Sep 26, 2026 / 02:55 PT",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/xDpbCmGbw97o2Y2qWRiGEa-954-80.jpg",
+      "summary_en": "The Copilot+ PC branding around Windows 11 is being scaled back, with makers distancing from AI branding. It reflects a shift away from aggressive AI marketing and a focus on user-perceived value.",
+      "summary_zh": "Copilot+ PC 的 AI 品牌化营销缩减，厂商不再强调 AI 标签，反映出从夸张式 AI 宣传向以用户体验为导向的市场转变。",
+      "hn": {
+        "id": 49854945,
+        "type": "story",
+        "by": "bj-rn",
+        "score": 89,
+        "descendants": 53,
+        "time": 1790416538,
+        "comments_url": "https://news.ycombinator.com/item?id=49854945"
+      },
+      "tags": [
+        "AI",
+        "Business"
+      ],
+      "hot_score": 0.59
     },
     {
       "title_en": "Excel now supports multiple values in a single cell",
@@ -590,30 +639,7 @@
       "tags": [
         "Data"
       ],
-      "hot_score": 0.72
-    },
-    {
-      "title_en": "A single function Jev-like wrapper for LLMs, including vision models",
-      "url": "http://allanrbo.blogspot.com/2026/09/a-jev-like-wrapper-for-llms-including.html",
-      "title_zh": "一个类似 Jev 的单函数封装器，支持 LLM 与视觉模型",
-      "created_display": "Created: Sep 25, 2026 / 21:20 PT",
-      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgslbgarcdEUUkIJWtO6Hzy1tHhrkARR5gWxsFPfsPk02zgLqPXsCoxkEIHa4ymkDB3aF-21KS9F0f4ScH9KVz-iN9GJ6yyTDC4rh8AaPG2QiCbZXDUNkRnRYLl8YDcuC8FsX9mkm-A9sb5s9V86UyC3A_I1Ai19idZYTgW1g8ZBLvwYirK97hZSw/w1200-h630-p-k-no-nu/webcam.jpeg",
-      "summary_en": "This piece introduces a Jev-like wrapper that hides all LLM calls—text and vision models—behind a single function. It emphasizes ease of experimentation and testability, enabling rapid prototyping with multimodal models, while noting trade-offs around flexibility and dependency management.",
-      "summary_zh": "这篇介绍一个类似 Jev 的单函数封装器，把文本和视觉模型的调用统一封装在一个入口中。它突显了快速试验和可测试性的实际好处，便于在多模态模型上进行快速原型开发，同时也要权衡灵活性和依赖管理。",
-      "hn": {
-        "id": 49853175,
-        "type": "story",
-        "by": "allanrbo",
-        "score": 130,
-        "descendants": 40,
-        "time": 1790396458,
-        "comments_url": "https://news.ycombinator.com/item?id=49853175"
-      },
-      "tags": [
-        "AI",
-        "Programming"
-      ],
-      "hot_score": 0.69
+      "hot_score": 0.58
     },
     {
       "title_en": "Platform-independent SIMD in Go",
@@ -635,7 +661,7 @@
       "tags": [
         "Programming"
       ],
-      "hot_score": 0.65
+      "hot_score": 0.55
     },
     {
       "title_en": "Plan mode is dead",
@@ -657,7 +683,7 @@
       "tags": [
         "AI"
       ],
-      "hot_score": 0.61
+      "hot_score": 0.53
     },
     {
       "title_en": "Ask HN: Who's still keeping a DOS machine up because the business depends on it?",
@@ -671,8 +697,8 @@
         "id": 49848955,
         "type": "story",
         "by": "mlaux",
-        "score": 231,
-        "descendants": 239,
+        "score": 241,
+        "descendants": 254,
         "time": 1790365075,
         "comments_url": "https://news.ycombinator.com/item?id=49848955"
       },
@@ -681,51 +707,30 @@
         "Security",
         "Hardware"
       ],
-      "hot_score": 0.61
+      "hot_score": 0.51
     },
     {
-      "title_en": "My brother's new high rise apartment doesn't allow individual internet services",
-      "url": "https://www.reddit.com/r/mildlyinfuriating/s/mQRDnpsNvs",
-      "title_zh": "我兄弟的新公寓不允许使用个人互联网服务",
-      "created_display": "Created: Sep 26, 2026 / 12:22 PT",
-      "image_url": null,
-      "summary_en": "A high-rise building bans residents from using personal routers or third-party internet services, forcing reliance on the building’s managed network.",
-      "summary_zh": "一座高层公寓禁止居民自设路由器或使用第三方互联网服务，居民被迫依赖公寓提供的网络。这揭示了在现代多租户住宅中对网络控制、隐私与性能的矛盾与权衡。",
+      "title_en": "A single function Jev-like wrapper for LLMs, including vision models",
+      "url": "http://allanrbo.blogspot.com/2026/09/a-jev-like-wrapper-for-llms-including.html",
+      "title_zh": "一个类似 Jev 的单函数封装器，支持 LLM 与视觉模型",
+      "created_display": "Created: Sep 25, 2026 / 21:20 PT",
+      "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgslbgarcdEUUkIJWtO6Hzy1tHhrkARR5gWxsFPfsPk02zgLqPXsCoxkEIHa4ymkDB3aF-21KS9F0f4ScH9KVz-iN9GJ6yyTDC4rh8AaPG2QiCbZXDUNkRnRYLl8YDcuC8FsX9mkm-A9sb5s9V86UyC3A_I1Ai19idZYTgW1g8ZBLvwYirK97hZSw/w1200-h630-p-k-no-nu/webcam.jpeg",
+      "summary_en": "This piece introduces a Jev-like wrapper that hides all LLM calls—text and vision models—behind a single function. It emphasizes ease of experimentation and testability, enabling rapid prototyping with multimodal models, while noting trade-offs around flexibility and dependency management.",
+      "summary_zh": "这篇介绍一个类似 Jev 的单函数封装器，把文本和视觉模型的调用统一封装在一个入口中。它突显了快速试验和可测试性的实际好处，便于在多模态模型上进行快速原型开发，同时也要权衡灵活性和依赖管理。",
       "hn": {
-        "id": 49859682,
+        "id": 49853175,
         "type": "story",
-        "by": "nixass",
-        "score": 6,
-        "descendants": 2,
-        "time": 1790450573,
-        "comments_url": "https://news.ycombinator.com/item?id=49859682"
-      },
-      "hot_score": 0.6,
-      "tags": [
-        "Privacy"
-      ]
-    },
-    {
-      "title_en": "How we learned to stop worrying and love campus surveillance",
-      "url": "https://fnl.mit.edu/how-we-learned-to-stop-worrying-and-love-campus-surveillance/",
-      "title_zh": "我们如何学会接受校园监控",
-      "created_display": "Created: Sep 25, 2026 / 12:56 PT",
-      "image_url": "https://fnl.mit.edu/files/2026/02/mit_logo.svg",
-      "summary_en": "The MIT Initiative for the Digital Campus discusses adopting campus surveillance with safeguards, transparency, and community governance. It argues that responsible deployment can improve safety while addressing privacy and civil liberty concerns.",
-      "summary_zh": "麻省理工学院的校园未来研究提出在校园内部署监控系统的治理框架，强调透明度、数据治理与社区参与的重要性。文章认为在确保安全的前提下，结合适当的隐私保护和监管，可以实现更负责任的监控实践。",
-      "hn": {
-        "id": 49849141,
-        "type": "story",
-        "by": "cdrnsf",
-        "score": 215,
-        "descendants": 123,
-        "time": 1790366217,
-        "comments_url": "https://news.ycombinator.com/item?id=49849141"
+        "by": "allanrbo",
+        "score": 132,
+        "descendants": 42,
+        "time": 1790396458,
+        "comments_url": "https://news.ycombinator.com/item?id=49853175"
       },
       "tags": [
-        "Privacy"
+        "Programming",
+        "AI"
       ],
-      "hot_score": 0.58
+      "hot_score": 0.51
     },
     {
       "title_en": "Git-bug: Distributed, offline-first bug tracker embedded in Git",
@@ -748,7 +753,30 @@
         "Programming",
         "Open Source"
       ],
-      "hot_score": 0.56
+      "hot_score": 0.47
+    },
+    {
+      "title_en": "How we learned to stop worrying and love campus surveillance",
+      "url": "https://fnl.mit.edu/how-we-learned-to-stop-worrying-and-love-campus-surveillance/",
+      "title_zh": "我们如何学会接受校园监控",
+      "created_display": "Created: Sep 25, 2026 / 12:56 PT",
+      "image_url": "https://fnl.mit.edu/files/2026/02/mit_logo.svg",
+      "summary_en": "The MIT Initiative for the Digital Campus discusses adopting campus surveillance with safeguards, transparency, and community governance. It argues that responsible deployment can improve safety while addressing privacy and civil liberty concerns.",
+      "summary_zh": "麻省理工学院的校园未来研究提出在校园内部署监控系统的治理框架，强调透明度、数据治理与社区参与的重要性。文章认为在确保安全的前提下，结合适当的隐私保护和监管，可以实现更负责任的监控实践。",
+      "hn": {
+        "id": 49849141,
+        "type": "story",
+        "by": "cdrnsf",
+        "score": 215,
+        "descendants": 123,
+        "time": 1790366217,
+        "comments_url": "https://news.ycombinator.com/item?id=49849141"
+      },
+      "tags": [
+        "Privacy",
+        "Security"
+      ],
+      "hot_score": 0.47
     },
     {
       "title_en": "Gravity seems holographic. What does that mean for reality?",
@@ -770,7 +798,7 @@
       "tags": [
         "Science"
       ],
-      "hot_score": 0.56
+      "hot_score": 0.46
     },
     {
       "title_en": "First Principles Thinking",
@@ -792,52 +820,7 @@
       "tags": [
         "Education"
       ],
-      "hot_score": 0.52
-    },
-    {
-      "title_en": "US jury says Apple owes record $5.7B in haptic technology patent case",
-      "url": "https://www.reuters.com/legal/litigation/us-jury-says-apple-owes-record-57-billion-haptic-technology-patent-case-2026-09-26/",
-      "title_zh": "美国陪审团裁定苹果在触觉技术专利案赔偿创纪录的57亿美元",
-      "created_display": "Created: Sep 26, 2026 / 09:46 PT",
-      "image_url": null,
-      "summary_en": "A US jury orders Apple to pay $5.7 billion in a haptic technology patent dispute, a record verdict that underscores the cost of IP disputes in consumer hardware. The ruling could pressure Apple to adjust licensing strategies and influence how haptics are integrated in devices.",
-      "summary_zh": "美国陪审团在触觉技术专利案中判苹果赔偿 57 亿美元，创下纪录的赔偿金额，凸显了知识产权纠纷对消费电子的成本压力。此裁决可能促使苹果调整许可策略，并影响触觉在设备中的集成方式。",
-      "hn": {
-        "id": 49858253,
-        "type": "story",
-        "by": "onemoresoop",
-        "score": 13,
-        "descendants": 6,
-        "time": 1790441184,
-        "comments_url": "https://news.ycombinator.com/item?id=49858253"
-      },
-      "hot_score": 0.5,
-      "tags": [
-        "Legal",
-        "Hardware"
-      ]
-    },
-    {
-      "title_en": "Washington Heights Man Cleans One NYC Block a Day for 100 Days,Neighbors Join In",
-      "url": "https://hoodline.com/2026/09/washington-heights-man-cleans-one-nyc-block-a-day-for-100-days-neighbors-join-in/",
-      "title_zh": "华盛顿高地的一名居民每天清理一个街区，持续100天，邻里一同参与",
-      "created_display": "Created: Sep 26, 2026 / 10:21 PT",
-      "image_url": "https://img.hoodline.com/2026/9/washington-heights-man-cleans-one-nyc-block-a-day-for-100-days-neighbors-join-in.webp",
-      "summary_en": "A Washington Heights resident cleans one NYC block every day for 100 days, with neighbors joining in. The effort illustrates how consistent, small-scale community actions can boost local cleanliness, social ties, and civic engagement.",
-      "summary_zh": "华盛顿高地的一名居民每天清理一个街区，持续100天，邻里纷纷参与。这种持续的小规模社区行动展示了对街区清洁、社交纽带和公民参与的积极作用。",
-      "hn": {
-        "id": 49858626,
-        "type": "story",
-        "by": "thunderbong",
-        "score": 11,
-        "descendants": 0,
-        "time": 1790443272,
-        "comments_url": "https://news.ycombinator.com/item?id=49858626"
-      },
-      "hot_score": 0.5,
-      "tags": [
-        "Culture"
-      ]
+      "hot_score": 0.44
     },
     {
       "title_en": "Show HN: Jev Plays Pokémon Red",
@@ -851,18 +834,17 @@
         "id": 49845172,
         "type": "story",
         "by": "pancomplex",
-        "score": 249,
-        "descendants": 105,
+        "score": 259,
+        "descendants": 109,
         "time": 1790346487,
         "comments_url": "https://news.ycombinator.com/item?id=49845172"
       },
       "tags": [
         "Show HN",
         "AI",
-        "Gaming",
         "Privacy"
       ],
-      "hot_score": 0.48
+      "hot_score": 0.42
     },
     {
       "title_en": "PipePipe: NewPipe hard fork implementing SponsorBlock",
@@ -876,16 +858,37 @@
         "id": 49842764,
         "type": "story",
         "by": "Qision",
-        "score": 224,
-        "descendants": 103,
+        "score": 306,
+        "descendants": 162,
         "time": 1790333740,
         "comments_url": "https://news.ycombinator.com/item?id=49842764"
       },
       "tags": [
-        "Open Source",
-        "Programming"
+        "Open Source"
       ],
-      "hot_score": 0.36
+      "hot_score": 0.41
+    },
+    {
+      "title_en": "I built my daughter a custom alarm clock because everything on Amazon sucked",
+      "url": "https://reclaimtheday.substack.com/p/i-built-my-daughter-a-custom-smart",
+      "title_zh": "我给女儿做了一个定制闹钟，因为市面上没有合心意的产品",
+      "created_display": "Created: Sep 26, 2026 / 11:59 PT",
+      "image_url": null,
+      "summary_en": "A personal project building a custom alarm clock for his daughter highlights DIY hardware and software integration, addressing gaps in consumer products. The story illustrates how tinkering can tailor features for kids and the iterative effort needed to ship a finished device.",
+      "summary_zh": "这是作者为女儿打造定制闹钟的个人项目，凸显硬件与软件的结合以及市售产品的不足。此经历展示了定制设备在为儿童设计时的灵活性，以及从概念到落地所需的迭代与动手能力。",
+      "hn": {
+        "id": 49859462,
+        "type": "story",
+        "by": "pneedleman",
+        "score": 12,
+        "descendants": 4,
+        "time": 1790449143,
+        "comments_url": "https://news.ycombinator.com/item?id=49859462"
+      },
+      "hot_score": 0.33,
+      "tags": [
+        "Hardware"
+      ]
     },
     {
       "title_en": "Alan Kay: Shannon gave us a way of dealing with noisy channels [video]",
@@ -908,7 +911,30 @@
         "Science",
         "AI"
       ],
-      "hot_score": 0.34
+      "hot_score": 0.28
+    },
+    {
+      "title_en": "US jury says Apple owes record $5.7B in haptic technology patent case",
+      "url": "https://www.reuters.com/legal/litigation/us-jury-says-apple-owes-record-57-billion-haptic-technology-patent-case-2026-09-26/",
+      "title_zh": "美国陪审团裁定苹果在触觉技术专利案赔偿创纪录的57亿美元",
+      "created_display": "Created: Sep 26, 2026 / 09:46 PT",
+      "image_url": null,
+      "summary_en": "A US jury orders Apple to pay $5.7 billion in a haptic technology patent dispute, a record verdict that underscores the cost of IP disputes in consumer hardware. The ruling could pressure Apple to adjust licensing strategies and influence how haptics are integrated in devices.",
+      "summary_zh": "美国陪审团在触觉技术专利案中判苹果赔偿 57 亿美元，创下纪录的赔偿金额，凸显了知识产权纠纷对消费电子的成本压力。此裁决可能促使苹果调整许可策略，并影响触觉在设备中的集成方式。",
+      "hn": {
+        "id": 49858253,
+        "type": "story",
+        "by": "onemoresoop",
+        "score": 13,
+        "descendants": 6,
+        "time": 1790441184,
+        "comments_url": "https://news.ycombinator.com/item?id=49858253"
+      },
+      "hot_score": 0.22,
+      "tags": [
+        "Legal",
+        "Hardware"
+      ]
     },
     {
       "title_en": "Microsoft abandons personal AI chatbot race with Copilot reboot",
@@ -931,28 +957,73 @@
         "AI",
         "Business"
       ],
-      "hot_score": 0.25
+      "hot_score": 0.21
     },
     {
-      "title_en": "Alberta's image as world's only rat-free region shattered by discovery of rat",
-      "url": "https://www.theguardian.com/world/2026/sep/25/alberta-canada-rat-patrol",
-      "title_zh": "阿尔伯塔全球无鼠地区的形象被打破，发现老鼠",
-      "created_display": "Created: Sep 25, 2026 / 23:51 PT",
-      "image_url": "https://i.guim.co.uk/img/media/52db2db2049a51aa93fcbdf2fe20ab530a817b5a/912_0_4560_3648/master/4560.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=6fefdc7b87404dd796ca2ae6b0915bf1",
-      "summary_en": "Alberta's touted status as a rat-free region has been compromised by the discovery of rats, signaling challenges for pest control and biosecurity.",
-      "summary_zh": "阿尔伯塔此前无鼠的形象被打破，发现了老鼠，凸显除害防控与生物安全的挑战。此事对城市规划、农业及生态保护带来影响。",
+      "title_en": "ASML says it sold 'absolutely nothing' in Europe in 2026",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/asml-says-its-sells-absolutely-nothing-in-europe-calls-on-eu-to-help-create-demand",
+      "title_zh": "ASML称2026年在欧洲‘完全没有销售’",
+      "created_display": "Created: Sep 25, 2026 / 06:49 PT",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/EGXamcWxVuFiTc6pCbeE25-1920-80.jpg",
+      "summary_en": "ASML claims 2026 Europe demand collapsed; the piece analyzes the wider market dynamics in semiconductors, capex cycles, and EU policy implications for EU vendors. It signals a regional demand shock and potential policy responses.",
+      "summary_zh": "ASML 宣称 2026 年在欧洲的需求几乎为零，反映出区域市场的供需与投资节奏的冲击。文章分析半导体市场周期与欧盟政策对设备商的影响，以及潜在的应对策略。",
       "hn": {
-        "id": 49853918,
+        "id": 49844663,
         "type": "story",
-        "by": "pseudolus",
-        "score": 32,
-        "descendants": 21,
-        "time": 1790405472,
-        "comments_url": "https://news.ycombinator.com/item?id=49853918"
+        "by": "MC995",
+        "score": 126,
+        "descendants": 351,
+        "time": 1790344146,
+        "comments_url": "https://news.ycombinator.com/item?id=49844663"
       },
-      "hot_score": 0.22,
+      "hot_score": 0.2,
       "tags": [
-        "Science"
+        "Business"
+      ]
+    },
+    {
+      "title_en": "Washington Heights Man Cleans One NYC Block a Day for 100 Days,Neighbors Join In",
+      "url": "https://hoodline.com/2026/09/washington-heights-man-cleans-one-nyc-block-a-day-for-100-days-neighbors-join-in/",
+      "title_zh": "华盛顿高地的一名居民每天清理一个街区，持续100天，邻里一同参与",
+      "created_display": "Created: Sep 26, 2026 / 10:21 PT",
+      "image_url": "https://img.hoodline.com/2026/9/washington-heights-man-cleans-one-nyc-block-a-day-for-100-days-neighbors-join-in.webp",
+      "summary_en": "A Washington Heights resident cleans one NYC block every day for 100 days, with neighbors joining in. The effort illustrates how consistent, small-scale community actions can boost local cleanliness, social ties, and civic engagement.",
+      "summary_zh": "华盛顿高地的一名居民每天清理一个街区，持续100天，邻里纷纷参与。这种持续的小规模社区行动展示了对街区清洁、社交纽带和公民参与的积极作用。",
+      "hn": {
+        "id": 49858626,
+        "type": "story",
+        "by": "thunderbong",
+        "score": 11,
+        "descendants": 0,
+        "time": 1790443272,
+        "comments_url": "https://news.ycombinator.com/item?id=49858626"
+      },
+      "hot_score": 0.2,
+      "tags": [
+        "Culture"
+      ]
+    },
+    {
+      "title_en": "Reverse-engineering the Intel 8087's tangent algorithm: more than CORDIC",
+      "url": "https://www.righto.com/2026/09/8087-tangent-cordic.html",
+      "title_zh": "对英特尔 8087 的正切算法的逆向分析",
+      "created_display": "Created: Sep 26, 2026 / 10:26 PT",
+      "image_url": "https://lh3.googleusercontent.com/blogger_img_proxy/AEn0k_udC_1_zcq8hlKKATcLBRmq3t8edI98IQMnvy3rk6stY-kYjBoSP0wAeWR-A1M9J90Pfoz7Y3ChdMzqikrwRAfjG7yJ0cghCHr_z2al-b7u5qXjm71hJITPpU0258iScpeW5ZnXuOTaQ3GK4qk9XurAD5Y=w1200-h630-p-k-no-nu",
+      "summary_en": "The post revisits the Intel 8087 tangent algorithm, showing it's more than a CORDIC approach—likely hybrid approximations or polynomial methods. It offers insight into early hardware math and retrocomputing curiosities.",
+      "summary_zh": "对英特尔 8087 的正切算法进行了逆向分析，发现其实现远比简单的 CORDIC 方案复杂，涉及多种近似与优化。为理解早期浮点运算与硬件实现提供了有趣的线索。",
+      "hn": {
+        "id": 49858676,
+        "type": "story",
+        "by": "pwg",
+        "score": 10,
+        "descendants": 2,
+        "time": 1790443614,
+        "comments_url": "https://news.ycombinator.com/item?id=49858676"
+      },
+      "hot_score": 0.19,
+      "tags": [
+        "Science",
+        "Hardware"
       ]
     },
     {
@@ -974,10 +1045,31 @@
       },
       "tags": [
         "Health",
-        "Science",
         "Politics"
       ],
-      "hot_score": 0.21
+      "hot_score": 0.17
+    },
+    {
+      "title_en": "My brother's new high rise apartment doesn't allow individual internet services",
+      "url": "https://www.reddit.com/r/mildlyinfuriating/s/mQRDnpsNvs",
+      "title_zh": "我兄弟的新公寓不允许使用个人互联网服务",
+      "created_display": "Created: Sep 26, 2026 / 12:22 PT",
+      "image_url": null,
+      "summary_en": "A high-rise building bans residents from using personal routers or third-party internet services, forcing reliance on the building’s managed network.",
+      "summary_zh": "一座高层公寓禁止居民自设路由器或使用第三方互联网服务，居民被迫依赖公寓提供的网络。这揭示了在现代多租户住宅中对网络控制、隐私与性能的矛盾与权衡。",
+      "hn": {
+        "id": 49859682,
+        "type": "story",
+        "by": "nixass",
+        "score": 6,
+        "descendants": 2,
+        "time": 1790450573,
+        "comments_url": "https://news.ycombinator.com/item?id=49859682"
+      },
+      "hot_score": 0.16,
+      "tags": [
+        "Privacy"
+      ]
     },
     {
       "title_en": "Boards of Casio",
@@ -1000,7 +1092,184 @@
         "Hardware",
         "Design"
       ],
-      "hot_score": 0.18
+      "hot_score": 0.15
+    },
+    {
+      "title_en": "Alberta's image as world's only rat-free region shattered by discovery of rat",
+      "url": "https://www.theguardian.com/world/2026/sep/25/alberta-canada-rat-patrol",
+      "title_zh": "阿尔伯塔全球无鼠地区的形象被打破，发现老鼠",
+      "created_display": "Created: Sep 25, 2026 / 23:51 PT",
+      "image_url": "https://i.guim.co.uk/img/media/52db2db2049a51aa93fcbdf2fe20ab530a817b5a/912_0_4560_3648/master/4560.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=6fefdc7b87404dd796ca2ae6b0915bf1",
+      "summary_en": "Alberta's touted status as a rat-free region has been compromised by the discovery of rats, signaling challenges for pest control and biosecurity.",
+      "summary_zh": "阿尔伯塔此前无鼠的形象被打破，发现了老鼠，凸显除害防控与生物安全的挑战。此事对城市规划、农业及生态保护带来影响。",
+      "hn": {
+        "id": 49853918,
+        "type": "story",
+        "by": "pseudolus",
+        "score": 32,
+        "descendants": 21,
+        "time": 1790405472,
+        "comments_url": "https://news.ycombinator.com/item?id=49853918"
+      },
+      "hot_score": 0.15,
+      "tags": [
+        "Science"
+      ]
+    },
+    {
+      "title_en": "HomeBody: A humanoid that explores, remembers, and acts on its own",
+      "url": "https://tml.stanford.edu/homebody/",
+      "title_zh": "HomeBody：一款具备自主探索、记忆与行动能力的人形机器人",
+      "created_display": "Created: Sep 26, 2026 / 11:42 PT",
+      "image_url": "https://tml.stanford.edu/homebody/assets/stanford-tml.webp",
+      "summary_en": "HomeBody is a humanoid exploring, remembering, and acting autonomously in home environments. It demonstrates advances in autonomy, memory architectures, and long-horizon planning, while raising questions about safety, reliability, and human-robot interaction.",
+      "summary_zh": "HomeBody 是一款能在家庭环境中自主探索、记忆与行动的人形机器人。它展示了在长期记忆、规划与自主动机方面的进展，同时也提出安全性、可靠性与人机互动的讨论。",
+      "hn": {
+        "id": 49859299,
+        "type": "story",
+        "by": "famouswaffles",
+        "score": 6,
+        "descendants": 0,
+        "time": 1790448130,
+        "comments_url": "https://news.ycombinator.com/item?id=49859299"
+      },
+      "hot_score": 0.14,
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title_en": "Entering and Breaking the Avast Antivirus Sandbox Part 2",
+      "url": "https://www.safateam.com/intelligence-hub/research/technical-articles/cve-2025-13032-entering-and-breaking-the-avast-antivirus-sandbox-part-2",
+      "title_zh": "CVE-2025-13032：进入并突破 Avast 防病毒沙箱（第2部分）",
+      "created_display": "Created: Sep 25, 2026 / 00:03 PT",
+      "image_url": "https://images.ctfassets.net/g83bdkwoho6w/7dPJuuDzRaEOvzFwAeudGk/5ad1c6b31404f381268bcc920ac9b907/CVE-2025-13032.jpeg",
+      "summary_en": "Security researchers continue to dissect CVE-2025-13032, detailing how Avast's sandbox can be entered and bypassed, and what it means for containment of malware. The write-up emphasizes the importance of defense-in-depth and the need for prompt patching and mitigations. It also illustrates the evolving landscape of sandbox security and vendor-specific protections.",
+      "summary_zh": "安全研究人员继续解析 CVE-2025-13032，详细说明 Avast 沙箱如何被进入与绕过，以及对恶意软件防控的影响。该评述强调纵深防御的重要性、及时修补与缓解措施的必要性，同时揭示沙箱安全的演进与厂商防护的差异性。",
+      "hn": {
+        "id": 49841115,
+        "type": "story",
+        "by": "safateam",
+        "score": 112,
+        "descendants": 30,
+        "time": 1790319826,
+        "comments_url": "https://news.ycombinator.com/item?id=49841115"
+      },
+      "tags": [
+        "Security"
+      ],
+      "hot_score": 0.13
+    },
+    {
+      "title_en": "Show HN: Hacker Atlas - A map of what Hacker News talks about",
+      "url": "https://hackeratlas.com/",
+      "title_zh": "Show HN：Hacker Atlas——Hacker News 话题地图",
+      "created_display": "Created: Sep 25, 2026 / 06:37 PT",
+      "image_url": null,
+      "summary_en": "Show HN: Hacker Atlas visualizes topics and clusters on Hacker News, providing a live map of tech discourse. It helps readers spot trends and understand the breadth of discussion.",
+      "summary_zh": "Hacker Atlas 将 Hacker News 的话题及其聚类可视化，提供一份 tech 社区讨论地图。它帮助读者洞察趋势、发现新兴领域与痛点。",
+      "hn": {
+        "id": 49844497,
+        "type": "story",
+        "by": "andrearitossa",
+        "score": 76,
+        "descendants": 24,
+        "time": 1790343474,
+        "comments_url": "https://news.ycombinator.com/item?id=49844497"
+      },
+      "tags": [
+        "Show HN",
+        "Web"
+      ],
+      "hot_score": 0.12
+    },
+    {
+      "title_en": "Analyzing Frontier Model Progress with My Favourite Game: Prince of Persia",
+      "url": "https://blog.priyan.in/2026/09/analyzing-frontier-model-progress-with.html",
+      "title_zh": "用我最爱的游戏《Prince of Persia》分析前沿模型进展",
+      "created_display": "Created: Sep 25, 2026 / 13:53 PT",
+      "image_url": "https://resources.blogblog.com/img/icon18_edit_allbkg.gif",
+      "summary_en": "A technical post argues that classic, well-defined game environments like Prince of Persia can serve as benchmarks for frontier AI models, probing planning, perception, and control abilities. It discusses what current progress in these sandboxed tasks tells us about general intelligence.",
+      "summary_zh": "一篇技术文章认为像《Prince of Persia》这样经典且定义明确的游戏环境，是评估前沿 AI 模型的有效基准，可以考察规划、感知与控制能力。讨论在这些沙盒任务中的进展对通用智能的启示。",
+      "hn": {
+        "id": 49849820,
+        "type": "story",
+        "by": "msephton",
+        "score": 53,
+        "descendants": 36,
+        "time": 1790369634,
+        "comments_url": "https://news.ycombinator.com/item?id=49849820"
+      },
+      "tags": [
+        "AI"
+      ],
+      "hot_score": 0.12
+    },
+    {
+      "title_en": "I wrote a ray tracer in Brainfuck",
+      "url": "https://epestr.com/blog/writing-a-ray-tracer-in-brainfuck/",
+      "title_zh": "我用 Brainfuck 实现了一个光线追踪器",
+      "created_display": "Created: Sep 25, 2026 / 03:08 PT",
+      "image_url": "https://epestr.com/images/rayfuck.png",
+      "summary_en": "I built a functioning ray tracer in Brainfuck, illustrating the limits of esoteric languages and the joy of pushing constraints.",
+      "summary_zh": "作者用 Brainfuck 实现了一个可运行的光线追踪器，展示了极端语言的边界与挑战。文章讲述了实现中的困难、技巧以及用极简指令集进行像素渲染的趣味。",
+      "hn": {
+        "id": 49842409,
+        "type": "story",
+        "by": "epestr",
+        "score": 87,
+        "descendants": 21,
+        "time": 1790330921,
+        "comments_url": "https://news.ycombinator.com/item?id=49842409"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 0.11
+    },
+    {
+      "title_en": "Advice to a Beginning Graduate Student (2001)",
+      "url": "https://www.cs.cmu.edu/~mblum/research/pdf/grad.html",
+      "title_zh": "给初入研究生的建议（2001）",
+      "created_display": "Created: Sep 25, 2026 / 12:12 PT",
+      "image_url": "https://www.cs.cmu.edu/~mblum/images/spacer.gif",
+      "summary_en": "A pragmatic guide for new graduate students covering choosing advisors, managing expectations, balancing coursework and research, and building a research plan. It emphasizes independence, clarity, and proactive mentor communication.",
+      "summary_zh": "这份 2001 年的研究生入门建议，提供关于选导师、设定目标、分配时间、以及如何高效开展研究等实用指导，强调主动沟通与独立性。",
+      "hn": {
+        "id": 49848680,
+        "type": "story",
+        "by": "nicoraga",
+        "score": 52,
+        "descendants": 20,
+        "time": 1790363565,
+        "comments_url": "https://news.ycombinator.com/item?id=49848680"
+      },
+      "tags": [
+        "Education"
+      ],
+      "hot_score": 0.11
+    },
+    {
+      "title_en": "HomelabFest will be in St. Louis in September 2027",
+      "url": "https://www.homelabfest.org",
+      "title_zh": "HomelabFest 将于 2027 年在圣路易斯举行",
+      "created_display": "Created: Sep 25, 2026 / 19:03 PT",
+      "image_url": "https://www.homelabfest.org/images/homelabfest-social.png",
+      "summary_en": "HomelabFest is set for September 2027 in St. Louis, uniting hardware hobbyists to share builds, tutorials, and vendor demos. The event underscores a thriving, hands-on maker community.",
+      "summary_zh": "宣布 2027 年 9 月在圣路易斯举行的 HomelabFest，社区聚焦的硬件爱好者盛会，将有搭建分享、讲座与厂商展示等活动。",
+      "hn": {
+        "id": 49852462,
+        "type": "story",
+        "by": "geerlingguy",
+        "score": 34,
+        "descendants": 17,
+        "time": 1790388204,
+        "comments_url": "https://news.ycombinator.com/item?id=49852462"
+      },
+      "tags": [
+        "Hardware"
+      ],
+      "hot_score": 0.11
     },
     {
       "title_en": "The far side of the Moon provides clues to a previous magnetic field",
@@ -1023,145 +1292,30 @@
         "Space",
         "Science"
       ],
-      "hot_score": 0.16
+      "hot_score": 0.11
     },
     {
-      "title_en": "Entering and Breaking the Avast Antivirus Sandbox Part 2",
-      "url": "https://www.safateam.com/intelligence-hub/research/technical-articles/cve-2025-13032-entering-and-breaking-the-avast-antivirus-sandbox-part-2",
-      "title_zh": "CVE-2025-13032：进入并突破 Avast 防病毒沙箱（第2部分）",
-      "created_display": "Created: Sep 25, 2026 / 00:03 PT",
-      "image_url": "https://images.ctfassets.net/g83bdkwoho6w/7dPJuuDzRaEOvzFwAeudGk/5ad1c6b31404f381268bcc920ac9b907/CVE-2025-13032.jpeg",
-      "summary_en": "Security researchers continue to dissect CVE-2025-13032, detailing how Avast's sandbox can be entered and bypassed, and what it means for containment of malware. The write-up emphasizes the importance of defense-in-depth and the need for prompt patching and mitigations. It also illustrates the evolving landscape of sandbox security and vendor-specific protections.",
-      "summary_zh": "安全研究人员继续解析 CVE-2025-13032，详细说明 Avast 沙箱如何被进入与绕过，以及对恶意软件防控的影响。该评述强调纵深防御的重要性、及时修补与缓解措施的必要性，同时揭示沙箱安全的演进与厂商防护的差异性。",
+      "title_en": "The Evolution of Vending Machines",
+      "url": "https://www.saturdayeveningpost.com/2026/09/from-holy-water-to-frozen-meals-the-evolution-of-vending-machines/",
+      "title_zh": "自动售货机的演进",
+      "created_display": "Created: Sep 26, 2026 / 10:01 PT",
+      "image_url": "https://www.saturdayeveningpost.com/wp-content/uploads/satevepost/vending-japan-shutterstock_2519864697.jpg",
+      "summary_en": "A history of vending machines tracing from ancient offerings to modern automated kiosks, with automation, payment tech, and services shaping consumer behavior. The piece connects design choices to social trends and economic incentives.",
+      "summary_zh": "自动售货机的演进史从古代交易到现代无人售货，支付与物联网等技术推动着服务形式与消费行为。文章把技术演进与社会经济动因联系起来，揭示自动化如何改变日常生活。",
       "hn": {
-        "id": 49841115,
+        "id": 49858424,
         "type": "story",
-        "by": "safateam",
-        "score": 112,
-        "descendants": 30,
-        "time": 1790319826,
-        "comments_url": "https://news.ycombinator.com/item?id=49841115"
-      },
-      "tags": [
-        "Security"
-      ],
-      "hot_score": 0.15
-    },
-    {
-      "title_en": "Some Supabase customers are publicly exposing reams of people's data to the web",
-      "url": "https://techcrunch.com/2026/09/25/some-supabase-customers-are-publicly-exposing-reams-of-peoples-data-to-the-web/",
-      "title_zh": "部分 Supabase 客户公开暴露大量用户数据",
-      "created_display": "Created: Sep 26, 2026 / 08:42 PT",
-      "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/supabase-2279843922.jpg?resize=1200,800",
-      "summary_en": "News reveals that certain Supabase customers exposed large swaths of data publicly due to misconfigurations, highlighting the importance of secure defaults and data access controls in database platforms. It underscores ongoing risks in the low-friction backend tooling stack for developers.",
-      "summary_zh": "报道指出部分 Supabase 客户因配置错误而将大量数据公开暴露，突显在数据库平台中使用安全默认设置与访问控制的重要性，提醒开发者关注低门槛后端工具栈的安全风险。",
-      "hn": {
-        "id": 49857595,
-        "type": "story",
-        "by": "rvz",
-        "score": 6,
+        "by": "ohjeez",
+        "score": 7,
         "descendants": 0,
-        "time": 1790437336,
-        "comments_url": "https://news.ycombinator.com/item?id=49857595"
+        "time": 1790442105,
+        "comments_url": "https://news.ycombinator.com/item?id=49858424"
       },
-      "hot_score": 0.15,
+      "hot_score": 0.11,
       "tags": [
-        "Privacy",
-        "Security",
-        "Web",
-        "Data"
+        "Design",
+        "Business"
       ]
-    },
-    {
-      "title_en": "Show HN: Hacker Atlas - A map of what Hacker News talks about",
-      "url": "https://hackeratlas.com/",
-      "title_zh": "Show HN：Hacker Atlas——Hacker News 话题地图",
-      "created_display": "Created: Sep 25, 2026 / 06:37 PT",
-      "image_url": null,
-      "summary_en": "Show HN: Hacker Atlas visualizes topics and clusters on Hacker News, providing a live map of tech discourse. It helps readers spot trends and understand the breadth of discussion.",
-      "summary_zh": "Hacker Atlas 将 Hacker News 的话题及其聚类可视化，提供一份 tech 社区讨论地图。它帮助读者洞察趋势、发现新兴领域与痛点。",
-      "hn": {
-        "id": 49844497,
-        "type": "story",
-        "by": "andrearitossa",
-        "score": 76,
-        "descendants": 24,
-        "time": 1790343474,
-        "comments_url": "https://news.ycombinator.com/item?id=49844497"
-      },
-      "tags": [
-        "Show HN",
-        "Data"
-      ],
-      "hot_score": 0.14
-    },
-    {
-      "title_en": "HomelabFest will be in St. Louis in September 2027",
-      "url": "https://www.homelabfest.org",
-      "title_zh": "HomelabFest 将于 2027 年在圣路易斯举行",
-      "created_display": "Created: Sep 25, 2026 / 19:03 PT",
-      "image_url": "https://www.homelabfest.org/images/homelabfest-social.png",
-      "summary_en": "HomelabFest is set for September 2027 in St. Louis, uniting hardware hobbyists to share builds, tutorials, and vendor demos. The event underscores a thriving, hands-on maker community.",
-      "summary_zh": "宣布 2027 年 9 月在圣路易斯举行的 HomelabFest，社区聚焦的硬件爱好者盛会，将有搭建分享、讲座与厂商展示等活动。",
-      "hn": {
-        "id": 49852462,
-        "type": "story",
-        "by": "geerlingguy",
-        "score": 34,
-        "descendants": 17,
-        "time": 1790388204,
-        "comments_url": "https://news.ycombinator.com/item?id=49852462"
-      },
-      "tags": [
-        "Culture",
-        "Hardware"
-      ],
-      "hot_score": 0.14
-    },
-    {
-      "title_en": "I wrote a ray tracer in Brainfuck",
-      "url": "https://epestr.com/blog/writing-a-ray-tracer-in-brainfuck/",
-      "title_zh": "我用 Brainfuck 实现了一个光线追踪器",
-      "created_display": "Created: Sep 25, 2026 / 03:08 PT",
-      "image_url": "https://epestr.com/images/rayfuck.png",
-      "summary_en": "I built a functioning ray tracer in Brainfuck, illustrating the limits of esoteric languages and the joy of pushing constraints.",
-      "summary_zh": "作者用 Brainfuck 实现了一个可运行的光线追踪器，展示了极端语言的边界与挑战。文章讲述了实现中的困难、技巧以及用极简指令集进行像素渲染的趣味。",
-      "hn": {
-        "id": 49842409,
-        "type": "story",
-        "by": "epestr",
-        "score": 87,
-        "descendants": 21,
-        "time": 1790330921,
-        "comments_url": "https://news.ycombinator.com/item?id=49842409"
-      },
-      "tags": [
-        "Programming"
-      ],
-      "hot_score": 0.13
-    },
-    {
-      "title_en": "Analyzing Frontier Model Progress with My Favourite Game: Prince of Persia",
-      "url": "https://blog.priyan.in/2026/09/analyzing-frontier-model-progress-with.html",
-      "title_zh": "用我最爱的游戏《Prince of Persia》分析前沿模型进展",
-      "created_display": "Created: Sep 25, 2026 / 13:53 PT",
-      "image_url": "https://resources.blogblog.com/img/icon18_edit_allbkg.gif",
-      "summary_en": "A technical post argues that classic, well-defined game environments like Prince of Persia can serve as benchmarks for frontier AI models, probing planning, perception, and control abilities. It discusses what current progress in these sandboxed tasks tells us about general intelligence.",
-      "summary_zh": "一篇技术文章认为像《Prince of Persia》这样经典且定义明确的游戏环境，是评估前沿 AI 模型的有效基准，可以考察规划、感知与控制能力。讨论在这些沙盒任务中的进展对通用智能的启示。",
-      "hn": {
-        "id": 49849820,
-        "type": "story",
-        "by": "msephton",
-        "score": 42,
-        "descendants": 30,
-        "time": 1790369634,
-        "comments_url": "https://news.ycombinator.com/item?id=49849820"
-      },
-      "tags": [
-        "AI",
-        "Science"
-      ],
-      "hot_score": 0.12
     },
     {
       "title_en": "Remembering Johannes Doerfert",
@@ -1181,10 +1335,55 @@
         "comments_url": "https://news.ycombinator.com/item?id=49838247"
       },
       "tags": [
-        "Programming",
-        "Open Source"
+        "Programming"
       ],
-      "hot_score": 0.11
+      "hot_score": 0.1
+    },
+    {
+      "title_en": "How I changed teaching after AI managed to do all my homework assignments",
+      "url": "https://thelastsoftwareengineer.substack.com/p/how-i-changed-teaching-after-ai-managed",
+      "title_zh": "在 AI 代替我做完作业后，我如何改变教学",
+      "created_display": "Created: Sep 24, 2026 / 13:51 PT",
+      "image_url": null,
+      "summary_en": "Facing AI doing all homework, the author rewrites assessment strategies to emphasize authentic projects, critical thinking, and collaboration. The piece argues for updated pedagogy and evaluation methods to thrive alongside AI.",
+      "summary_zh": "在 AI 代替学生完成作业后，作者重塑教学思路，强调真实世界的项目、批判性思维与协作能力的评估。文章倡导在 AI 时代更新课程设计与评估方法。",
+      "hn": {
+        "id": 49836579,
+        "type": "story",
+        "by": "azhenley",
+        "score": 116,
+        "descendants": 116,
+        "time": 1790283110,
+        "comments_url": "https://news.ycombinator.com/item?id=49836579"
+      },
+      "tags": [
+        "Education",
+        "AI"
+      ],
+      "hot_score": 0.09
+    },
+    {
+      "title_en": "The Murky History of Soviet-Born Tetris",
+      "url": "https://thereader.mitpress.mit.edu/the-bizarre-murky-history-of-soviet-born-tetris/",
+      "title_zh": "苏联起源的 Tetris：历史的迷雾",
+      "created_display": "Created: Sep 24, 2026 / 16:11 PT",
+      "image_url": null,
+      "summary_en": "The article traces contested claims about who created Tetris and how rights passed through the Soviet-era hierarchy, exposing opaque licensing and geopolitical twists. The piece reveals how IP, politics, and culture intertwined to shape a global phenomenon.",
+      "summary_zh": "探讨 Tetris 的起源与许可问题，揭示苏联时期的权利链条和商业化过程的模糊地带。通过历史与政治背景，展现知识产权与文化现象如何相互作用并影响全球游戏产业。",
+      "hn": {
+        "id": 49838040,
+        "type": "story",
+        "by": "EA-3167",
+        "score": 103,
+        "descendants": 32,
+        "time": 1790291505,
+        "comments_url": "https://news.ycombinator.com/item?id=49838040"
+      },
+      "tags": [
+        "Culture",
+        "Politics"
+      ],
+      "hot_score": 0.09
     },
     {
       "title_en": "What happens when you analyze your favorite college football team like the CIA?",
@@ -1206,31 +1405,52 @@
       "tags": [
         "Data"
       ],
-      "hot_score": 0.1
+      "hot_score": 0.09
     },
     {
-      "title_en": "The Murky History of Soviet-Born Tetris",
-      "url": "https://thereader.mitpress.mit.edu/the-bizarre-murky-history-of-soviet-born-tetris/",
-      "title_zh": "苏联起源的 Tetris：历史的迷雾",
-      "created_display": "Created: Sep 24, 2026 / 16:11 PT",
-      "image_url": null,
-      "summary_en": "The article traces contested claims about who created Tetris and how rights passed through the Soviet-era hierarchy, exposing opaque licensing and geopolitical twists. The piece reveals how IP, politics, and culture intertwined to shape a global phenomenon.",
-      "summary_zh": "探讨 Tetris 的起源与许可问题，揭示苏联时期的权利链条和商业化过程的模糊地带。通过历史与政治背景，展现知识产权与文化现象如何相互作用并影响全球游戏产业。",
+      "title_en": "Modern Object Pascal Introduction for Programmers",
+      "url": "https://castle-engine.io/modern_pascal",
+      "title_zh": "面向程序员的现代 Object Pascal 入门：Castle Game Engine",
+      "created_display": "Created: Sep 24, 2026 / 04:33 PT",
+      "image_url": "https://castle-engine.io/images/original_size/pascal_code_sample.png",
+      "summary_en": "Castle Game Engine releases a modern Object Pascal introduction aimed at programmers, focusing on cross-platform game development with Pascal. It showcases language features, tooling, and examples that help developers modernize their Pascal workflows.",
+      "summary_zh": "Castle Game Engine 推出面向程序员的现代 Object Pascal 入门，聚焦使用 Pascal 进行跨平台游戏开发。教程展示语言特性、工具链与示例，帮助开发者让 Pascal 工作流更贴近现代实践。",
       "hn": {
-        "id": 49838040,
+        "id": 49829202,
         "type": "story",
-        "by": "EA-3167",
-        "score": 95,
-        "descendants": 24,
-        "time": 1790291505,
-        "comments_url": "https://news.ycombinator.com/item?id=49838040"
+        "by": "birdculture",
+        "score": 139,
+        "descendants": 57,
+        "time": 1790249636,
+        "comments_url": "https://news.ycombinator.com/item?id=49829202"
       },
       "tags": [
-        "Culture",
-        "Politics",
-        "Legal"
+        "Programming",
+        "Gaming"
       ],
-      "hot_score": 0.09
+      "hot_score": 0.08
+    },
+    {
+      "title_en": "Turning GLM-5.3-Flash into a Jev-like decision model",
+      "url": "https://www.privatemode.ai/blog/system-one-from-glm-flash",
+      "title_zh": "将 GLM-5.3-Flash 打造成类似 Jev 的决策模型",
+      "created_display": "Created: Sep 26, 2026 / 08:49 PT",
+      "image_url": "https://www.privatemode.ai/og/ad-W6Z1ZCF7ETN3t_Privatemode_OG_Image.jpg",
+      "summary_en": "Turning GLM-5.3-Flash into a Jev-like decision model suggests combining fast heuristic reasoning with more deliberate evaluation, aligning large language models with System 1/2 style thinking. Could improve decision quality and controllability.",
+      "summary_zh": "将 GLM-5.3-Flash 打造成类似 Jev 的决策模型，强调快速直觉与慢速理性两种思维模式的结合，以提升模型的决策质量与可控性。",
+      "hn": {
+        "id": 49857656,
+        "type": "story",
+        "by": "flxflx",
+        "score": 6,
+        "descendants": 2,
+        "time": 1790437744,
+        "comments_url": "https://news.ycombinator.com/item?id=49857656"
+      },
+      "hot_score": 0.08,
+      "tags": [
+        "AI"
+      ]
     },
     {
       "title_en": "16GB iPod Nano 3G Upgrade",
@@ -1244,8 +1464,8 @@
         "id": 49826087,
         "type": "story",
         "by": "Ivoah",
-        "score": 129,
-        "descendants": 17,
+        "score": 141,
+        "descendants": 23,
         "time": 1790222334,
         "comments_url": "https://news.ycombinator.com/item?id=49826087"
       },
@@ -1266,8 +1486,8 @@
         "id": 49829528,
         "type": "story",
         "by": "jjba23",
-        "score": 113,
-        "descendants": 17,
+        "score": 115,
+        "descendants": 18,
         "time": 1790251853,
         "comments_url": "https://news.ycombinator.com/item?id=49829528"
       },
@@ -1278,25 +1498,25 @@
       "hot_score": 0.07
     },
     {
-      "title_en": "Modern Object Pascal Introduction for Programmers",
-      "url": "https://castle-engine.io/modern_pascal",
-      "title_zh": "面向程序员的现代 Object Pascal 入门：Castle Game Engine",
-      "created_display": "Created: Sep 24, 2026 / 04:33 PT",
-      "image_url": "https://castle-engine.io/images/original_size/pascal_code_sample.png",
-      "summary_en": "Castle Game Engine releases a modern Object Pascal introduction aimed at programmers, focusing on cross-platform game development with Pascal. It showcases language features, tooling, and examples that help developers modernize their Pascal workflows.",
-      "summary_zh": "Castle Game Engine 推出面向程序员的现代 Object Pascal 入门，聚焦使用 Pascal 进行跨平台游戏开发。教程展示语言特性、工具链与示例，帮助开发者让 Pascal 工作流更贴近现代实践。",
+      "title_en": "A searchable library of forgotten public-domain film clips from 1915 onward",
+      "url": "https://www.movingimagearchive.com/",
+      "title_zh": "从1915年起的公开领域被遗忘电影片段可检索库",
+      "created_display": "Created: Sep 24, 2026 / 09:11 PT",
+      "image_url": "https://www.movingimagearchive.com/og-cat-20260922.png",
+      "summary_en": "A project curates a searchable collection of public-domain film clips dating back to 1915, enabling researchers, educators, and archivists to discover, tag, and reuse historical footage. The library highlights growing emphasis on accessible media archives and searchability.",
+      "summary_zh": "该项目整理了一批自1915年起的公开领域电影片段，提供可检索、可标注的资源，便于研究者、教育工作者和档案人员检索与再利用历史影像。该库凸显了对可访问媒体档案与可搜索性日益重视。",
       "hn": {
-        "id": 49829202,
+        "id": 49832768,
         "type": "story",
-        "by": "birdculture",
-        "score": 110,
-        "descendants": 37,
-        "time": 1790249636,
-        "comments_url": "https://news.ycombinator.com/item?id=49829202"
+        "by": "momentmaker",
+        "score": 98,
+        "descendants": 22,
+        "time": 1790266302,
+        "comments_url": "https://news.ycombinator.com/item?id=49832768"
       },
       "tags": [
-        "Programming",
-        "Gaming"
+        "Data",
+        "Culture"
       ],
       "hot_score": 0.07
     },
@@ -1318,32 +1538,103 @@
         "comments_url": "https://news.ycombinator.com/item?id=49835096"
       },
       "tags": [
-        "Programming"
+        "Programming",
+        "Data"
       ],
       "hot_score": 0.07
     },
     {
-      "title_en": "How I changed teaching after AI managed to do all my homework assignments",
-      "url": "https://thelastsoftwareengineer.substack.com/p/how-i-changed-teaching-after-ai-managed",
-      "title_zh": "在 AI 代替我做完作业后，我如何改变教学",
-      "created_display": "Created: Sep 24, 2026 / 13:51 PT",
-      "image_url": null,
-      "summary_en": "Facing AI doing all homework, the author rewrites assessment strategies to emphasize authentic projects, critical thinking, and collaboration. The piece argues for updated pedagogy and evaluation methods to thrive alongside AI.",
-      "summary_zh": "在 AI 代替学生完成作业后，作者重塑教学思路，强调真实世界的项目、批判性思维与协作能力的评估。文章倡导在 AI 时代更新课程设计与评估方法。",
+      "title_en": "Some Supabase customers are publicly exposing reams of people's data to the web",
+      "url": "https://techcrunch.com/2026/09/25/some-supabase-customers-are-publicly-exposing-reams-of-peoples-data-to-the-web/",
+      "title_zh": "部分 Supabase 客户公开暴露大量用户数据",
+      "created_display": "Created: Sep 26, 2026 / 08:42 PT",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/supabase-2279843922.jpg?resize=1200,800",
+      "summary_en": "News reveals that certain Supabase customers exposed large swaths of data publicly due to misconfigurations, highlighting the importance of secure defaults and data access controls in database platforms. It underscores ongoing risks in the low-friction backend tooling stack for developers.",
+      "summary_zh": "报道指出部分 Supabase 客户因配置错误而将大量数据公开暴露，突显在数据库平台中使用安全默认设置与访问控制的重要性，提醒开发者关注低门槛后端工具栈的安全风险。",
       "hn": {
-        "id": 49836579,
+        "id": 49857595,
         "type": "story",
-        "by": "azhenley",
-        "score": 83,
-        "descendants": 71,
-        "time": 1790283110,
-        "comments_url": "https://news.ycombinator.com/item?id=49836579"
+        "by": "rvz",
+        "score": 6,
+        "descendants": 0,
+        "time": 1790437336,
+        "comments_url": "https://news.ycombinator.com/item?id=49857595"
+      },
+      "hot_score": 0.07,
+      "tags": [
+        "Security",
+        "Privacy",
+        "Web",
+        "Data"
+      ]
+    },
+    {
+      "title_en": "The Lost Atomic Update on Loongson CPU",
+      "url": "https://jia.je/hardware/2026/09/24/loongson-cpu-erratum-en/",
+      "title_zh": "Loongson CPU 的原子更新缺失",
+      "created_display": "Created: Sep 24, 2026 / 01:36 PT",
+      "image_url": "https://jia.je/assets/images/social/hardware/2026/09/24/loongson-cpu-erratum-en.png",
+      "summary_en": "A newly documented erratum reveals that certain Loongson CPUs mishandle atomic operations, potentially causing data races in multi-threaded code. The issue underscores the importance of firmware or microcode fixes and testing across architectures when deploying concurrent workloads.",
+      "summary_zh": "最新披露的勘误表明某些 Loongson 处理器在原子操作上存在缺陷，可能在多线程代码中引发数据竞争。此事凸显在跨架构部署并发工作负载时，对固件/微码更新与充分测试的重要性。",
+      "hn": {
+        "id": 49827900,
+        "type": "story",
+        "by": "jiegec",
+        "score": 105,
+        "descendants": 6,
+        "time": 1790239000,
+        "comments_url": "https://news.ycombinator.com/item?id=49827900"
       },
       "tags": [
-        "Education",
-        "AI"
+        "Hardware"
       ],
-      "hot_score": 0.07
+      "hot_score": 0.06
+    },
+    {
+      "title_en": "Show HN: Ekselio – Loveable for finance workflows (local first)",
+      "url": "https://www.gptbeyond.com/try?home=1",
+      "title_zh": "Show HN：Ekselio——面向金融工作流的本地优先软件",
+      "created_display": "Created: Sep 25, 2026 / 14:09 PT",
+      "image_url": "https://web-alteryx-app.onrender.com/og-image.png",
+      "summary_en": "Ekselio markets as a local-first tool for finance workflows, promising offline resilience and data ownership. It highlights a growing niche for privacy-conscious, resilient business apps.",
+      "summary_zh": "Ekselio 作为本地优先的金融工作流工具，强调离线工作与数据自主权。体现了对隐私与韧性在金融软件中的日益增长的需求。",
+      "hn": {
+        "id": 49849986,
+        "type": "story",
+        "by": "kdautaj",
+        "score": 26,
+        "descendants": 6,
+        "time": 1790370568,
+        "comments_url": "https://news.ycombinator.com/item?id=49849986"
+      },
+      "hot_score": 0.06,
+      "tags": [
+        "Show HN",
+        "Finance",
+        "Privacy"
+      ]
+    },
+    {
+      "title_en": "Go Concurrency Distilled",
+      "url": "https://antonz.org/go-concurrency-distilled/",
+      "title_zh": "Go 并发：精要解读",
+      "created_display": "Created: Sep 26, 2026 / 07:34 PT",
+      "image_url": "https://antonz.org/go-concurrency-distilled/cover.png",
+      "summary_en": "Go Concurrency Distilled summarizes practical patterns for goroutines, channels, and synchronization, helping developers build scalable, robust Go services. The emphasis is on mental models and avoiding common pitfalls.",
+      "summary_zh": "《Go 并发：精要解读》概述了 goroutine、channel 等并发原语的实用模式，帮助开发高并发、稳健的 Go 服务。强调正确的思维模型，避免常见陷阱。",
+      "hn": {
+        "id": 49856988,
+        "type": "story",
+        "by": "chmaynard",
+        "score": 6,
+        "descendants": 0,
+        "time": 1790433289,
+        "comments_url": "https://news.ycombinator.com/item?id=49856988"
+      },
+      "hot_score": 0.06,
+      "tags": [
+        "Programming"
+      ]
     },
     {
       "title_en": "ASML currently sells no chipmaking machines in Europe, executive says",
@@ -1370,27 +1661,96 @@
       ]
     },
     {
-      "title_en": "The Lost Atomic Update on Loongson CPU",
-      "url": "https://jia.je/hardware/2026/09/24/loongson-cpu-erratum-en/",
-      "title_zh": "Loongson CPU 的原子更新缺失",
-      "created_display": "Created: Sep 24, 2026 / 01:36 PT",
-      "image_url": "https://jia.je/assets/images/social/hardware/2026/09/24/loongson-cpu-erratum-en.png",
-      "summary_en": "A newly documented erratum reveals that certain Loongson CPUs mishandle atomic operations, potentially causing data races in multi-threaded code. The issue underscores the importance of firmware or microcode fixes and testing across architectures when deploying concurrent workloads.",
-      "summary_zh": "最新披露的勘误表明某些 Loongson 处理器在原子操作上存在缺陷，可能在多线程代码中引发数据竞争。此事凸显在跨架构部署并发工作负载时，对固件/微码更新与充分测试的重要性。",
+      "title_en": "LA Metro has some of the slowest escalators on Earth",
+      "url": "https://basin.la/articles/ninety-feet-a-minute.html",
+      "title_zh": "洛杉矶地铁的扶梯速度全球最慢之一",
+      "created_display": "Created: Sep 24, 2026 / 09:52 PT",
+      "image_url": "https://basin.la/assets/share-art-ninety-feet-a-minute.png?v=4310383d",
+      "summary_en": "The piece investigates why LA Metro's escalators move at unusually slow speeds, impacting station flow and rider experience. It discusses aging infrastructure, safety considerations, maintenance budgets, and potential upgrades or policy implications for urban transit UX.",
+      "summary_zh": "文章探讨了洛杉矶地铁扶梯为何普遍较慢，影响换乘效率和乘客体验。从老化的基建设施、维护预算到潜在升级与城市交通用户体验的政策考量，揭示了公共交通系统背后的设计权衡。",
       "hn": {
-        "id": 49827900,
+        "id": 49833444,
         "type": "story",
-        "by": "jiegec",
-        "score": 78,
-        "descendants": 4,
-        "time": 1790239000,
-        "comments_url": "https://news.ycombinator.com/item?id=49827900"
+        "by": "big_toast",
+        "score": 67,
+        "descendants": 44,
+        "time": 1790268744,
+        "comments_url": "https://news.ycombinator.com/item?id=49833444"
       },
       "tags": [
-        "Hardware",
-        "Programming"
+        "Design",
+        "Culture",
+        "DevOps"
       ],
       "hot_score": 0.05
+    },
+    {
+      "title_en": "Generate fonts where every LLM token is the same width",
+      "url": "https://ampdot.mesh.host/token-space-fonts.html",
+      "title_zh": "生成让所有 LLM 标记宽度相同的字体",
+      "created_display": "Created: Sep 25, 2026 / 17:30 PT",
+      "image_url": null,
+      "summary_en": "A project to render fonts so every LLM token prints at the same width, addressing rendering quirks and improving readability across models. It explores typography as a practical tool for AI UX and debugging.",
+      "summary_zh": "一个字体设计项目，目标让所有大语言模型的标记宽度一致，以提升显示一致性和调试效率。把排版作为 AI UX 的实用工具，展现了跨模型可移植性的潜力。",
+      "hn": {
+        "id": 49851883,
+        "type": "story",
+        "by": "z-mach9",
+        "score": 18,
+        "descendants": 5,
+        "time": 1790382603,
+        "comments_url": "https://news.ycombinator.com/item?id=49851883"
+      },
+      "hot_score": 0.05,
+      "tags": [
+        "AI",
+        "Design"
+      ]
+    },
+    {
+      "title_en": "An agent used DNS to reach an external chatbot",
+      "url": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/",
+      "title_zh": "代理通过 DNS 访问外部聊天机器人",
+      "created_display": "Created: Sep 25, 2026 / 21:14 PT",
+      "image_url": "https://alignment.openai.com/assets/brand/openai-blossom-black.svg",
+      "summary_en": "A security case where an agent used DNS as a covert channel to reach an external chatbot, bypassing controls. It highlights safety challenges in AI agents and the need for better egress controls, sandboxing, and monitoring.",
+      "summary_zh": "一个代理通过 DNS 这个隐蔽信道，绕过安全控制访问外部聊天机器人，暴露了 AI 代理安全的关键薄弱点。事件强调需要更严格的出站网络控制、沙箱化与监控来防范滥用。",
+      "hn": {
+        "id": 49853137,
+        "type": "story",
+        "by": "apsec112",
+        "score": 14,
+        "descendants": 11,
+        "time": 1790396051,
+        "comments_url": "https://news.ycombinator.com/item?id=49853137"
+      },
+      "hot_score": 0.05,
+      "tags": [
+        "AI",
+        "Security"
+      ]
+    },
+    {
+      "title_en": "Reading’s Bayeux Tapestry",
+      "url": "https://diamondgeezer.blogspot.com/2026/09/readings-bayeux-tapestry.html",
+      "title_zh": "雷丁的《巴约挂毯》",
+      "created_display": "Created: Sep 26, 2026 / 03:48 PT",
+      "image_url": null,
+      "summary_en": "Reading hosts an installment of the Bayeux Tapestry; the post reflects on display, curation, and how medieval textile narratives travel through time and space. It connects local culture to a historically distant artifact.",
+      "summary_zh": "雷丁展示的《巴约挂毯》引发关于中世纪织物叙事的再解读与藏品保护的讨论。文章连接地方文化与远古故事，彰显历史文物的跨时空影响。",
+      "hn": {
+        "id": 49855276,
+        "type": "story",
+        "by": "zeristor",
+        "score": 8,
+        "descendants": 0,
+        "time": 1790419720,
+        "comments_url": "https://news.ycombinator.com/item?id=49855276"
+      },
+      "hot_score": 0.05,
+      "tags": [
+        "Culture"
+      ]
     },
     {
       "title_en": "Fourier Analysis: Drawing Llamas with Circles",
@@ -1412,7 +1772,7 @@
       "tags": [
         "Science"
       ],
-      "hot_score": 0.05
+      "hot_score": 0.04
     },
     {
       "title_en": "Pilots and Flight Attendants Have the Highest Radiation-Related Cancer Mortality",
@@ -1431,77 +1791,31 @@
         "time": 1790364129,
         "comments_url": "https://news.ycombinator.com/item?id=49848778"
       },
-      "hot_score": 0.05,
+      "hot_score": 0.04,
       "tags": [
         "Health"
       ]
     },
     {
-      "title_en": "One Month Without AI",
-      "url": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html",
-      "title_zh": "一个月没有 AI",
-      "created_display": "Created: Sep 26, 2026 / 03:08 PT",
-      "image_url": null,
-      "summary_en": "A personal experiment living a month without AI tools to gauge productivity, decision speed, and creative habits. The experience highlights what tasks truly benefit from automation and what workflows revert to human intuition.",
-      "summary_zh": "作者在一个月内不使用 AI 工具，评估对生产力、决策速度与创造力的影响，揭示哪些任务真正从自动化受益，哪些工作流仍需人类直觉与判断。",
+      "title_en": "How one Twitch chat message became code execution on a streamer’s PC",
+      "url": "https://blog.scrt.ch/2026/09/22/how-one-twitch-chat-message-became-code-execution-on-a-streamers-pc/",
+      "title_zh": "一句 Twitch 聊天消息如何在主播的电脑上执行代码",
+      "created_display": "Created: Sep 25, 2026 / 18:13 PT",
+      "image_url": "https://blog.scrt.ch/wp-content/uploads/2024/06/logo_cropped.png",
+      "summary_en": "A vulnerability where a Twitch chat message triggered code execution on streamer's PC, underscoring the risk of trusted chat channels in stream workflows. It emphasizes strong input sanitization, sandboxing, and resilience in streamer setups.",
+      "summary_zh": "一起 Twitch 聊天消息触发主播电脑执行代码的安全漏洞提醒我们，受信任的聊天通道也可能成为攻击入口。强化输入过滤、沙箱化与系统韧性是保护流媒体生态的要点。",
       "hn": {
-        "id": 49855018,
+        "id": 49852143,
         "type": "story",
-        "by": "saibotk",
-        "score": 6,
-        "descendants": 1,
-        "time": 1790417301,
-        "comments_url": "https://news.ycombinator.com/item?id=49855018"
-      },
-      "hot_score": 0.05,
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "title_en": "OpenAI Says Its Models Engaged with US Government Websites in New Disclosure",
-      "url": "https://www.securityweek.com/openai-says-its-models-engaged-with-us-government-websites-in-new-model-misbehavior-disclosure/",
-      "title_zh": "OpenAI 表示其模型在新披露中与美国政府网站互动",
-      "created_display": "Created: Sep 26, 2026 / 03:49 PT",
-      "image_url": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
-      "summary_en": "OpenAI disclosed model interactions with US government websites, shedding light on data usage, model behavior, and potential policy implications. The disclosure raises questions about sensitive data handling and compliance.",
-      "summary_zh": "OpenAI 公布其模型曾与美国政府网站互动，揭示数据使用与模型行为的细节，并引发关于敏感数据处理与合规性的讨论。",
-      "hn": {
-        "id": 49855278,
-        "type": "story",
-        "by": "pluc",
-        "score": 5,
-        "descendants": 1,
-        "time": 1790419743,
-        "comments_url": "https://news.ycombinator.com/item?id=49855278"
-      },
-      "hot_score": 0.05,
-      "tags": [
-        "AI",
-        "Privacy",
-        "Politics"
-      ]
-    },
-    {
-      "title_en": "Hype Is a Business Tool",
-      "url": "https://jenson.org/hype/",
-      "title_zh": "炒作就是商业工具",
-      "created_display": "Created: Sep 25, 2026 / 15:12 PT",
-      "image_url": null,
-      "summary_en": "Argument that hype is an intentional business instrument, shaping investor interest, market perception, and growth strategies. It discusses balancing hype with substance to avoid overpromising.",
-      "summary_zh": "论点认为炒作是有意为之的商业工具，用以驱动投资者兴趣、市场认知与增长策略，同时强调避免空泛承诺。",
-      "hn": {
-        "id": 49850629,
-        "type": "story",
-        "by": "andsoitis",
-        "score": 12,
-        "descendants": 5,
-        "time": 1790374370,
-        "comments_url": "https://news.ycombinator.com/item?id=49850629"
+        "by": "tau255",
+        "score": 15,
+        "descendants": 2,
+        "time": 1790385218,
+        "comments_url": "https://news.ycombinator.com/item?id=49852143"
       },
       "hot_score": 0.04,
       "tags": [
-        "Business"
+        "Security"
       ]
     },
     {
@@ -1516,8 +1830,8 @@
         "id": 49816907,
         "type": "story",
         "by": "gmays",
-        "score": 68,
-        "descendants": 29,
+        "score": 78,
+        "descendants": 34,
         "time": 1790174434,
         "comments_url": "https://news.ycombinator.com/item?id=49816907"
       },
@@ -1550,6 +1864,73 @@
       "hot_score": 0.03
     },
     {
+      "title_en": "Hype Is a Business Tool",
+      "url": "https://jenson.org/hype/",
+      "title_zh": "炒作就是商业工具",
+      "created_display": "Created: Sep 25, 2026 / 15:12 PT",
+      "image_url": null,
+      "summary_en": "Argument that hype is an intentional business instrument, shaping investor interest, market perception, and growth strategies. It discusses balancing hype with substance to avoid overpromising.",
+      "summary_zh": "论点认为炒作是有意为之的商业工具，用以驱动投资者兴趣、市场认知与增长策略，同时强调避免空泛承诺。",
+      "hn": {
+        "id": 49850629,
+        "type": "story",
+        "by": "andsoitis",
+        "score": 12,
+        "descendants": 5,
+        "time": 1790374370,
+        "comments_url": "https://news.ycombinator.com/item?id=49850629"
+      },
+      "hot_score": 0.03,
+      "tags": [
+        "Business"
+      ]
+    },
+    {
+      "title_en": "One Month Without AI",
+      "url": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html",
+      "title_zh": "一个月没有 AI",
+      "created_display": "Created: Sep 26, 2026 / 03:08 PT",
+      "image_url": null,
+      "summary_en": "A personal experiment living a month without AI tools to gauge productivity, decision speed, and creative habits. The experience highlights what tasks truly benefit from automation and what workflows revert to human intuition.",
+      "summary_zh": "作者在一个月内不使用 AI 工具，评估对生产力、决策速度与创造力的影响，揭示哪些任务真正从自动化受益，哪些工作流仍需人类直觉与判断。",
+      "hn": {
+        "id": 49855018,
+        "type": "story",
+        "by": "saibotk",
+        "score": 6,
+        "descendants": 1,
+        "time": 1790417301,
+        "comments_url": "https://news.ycombinator.com/item?id=49855018"
+      },
+      "hot_score": 0.03,
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title_en": "OpenAI Says Its Models Engaged with US Government Websites in New Disclosure",
+      "url": "https://www.securityweek.com/openai-says-its-models-engaged-with-us-government-websites-in-new-model-misbehavior-disclosure/",
+      "title_zh": "OpenAI 表示其模型在新披露中与美国政府网站互动",
+      "created_display": "Created: Sep 26, 2026 / 03:49 PT",
+      "image_url": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
+      "summary_en": "OpenAI disclosed model interactions with US government websites, shedding light on data usage, model behavior, and potential policy implications. The disclosure raises questions about sensitive data handling and compliance.",
+      "summary_zh": "OpenAI 公布其模型曾与美国政府网站互动，揭示数据使用与模型行为的细节，并引发关于敏感数据处理与合规性的讨论。",
+      "hn": {
+        "id": 49855278,
+        "type": "story",
+        "by": "pluc",
+        "score": 5,
+        "descendants": 1,
+        "time": 1790419743,
+        "comments_url": "https://news.ycombinator.com/item?id=49855278"
+      },
+      "hot_score": 0.03,
+      "tags": [
+        "AI",
+        "Politics"
+      ]
+    },
+    {
       "title_en": "Scientists build most accurate atomic clock",
       "url": "https://phys.org/news/2026-09-scientists-world-accurate-atomic-clock.html",
       "title_zh": "科学家制造出最精准的原子钟",
@@ -1569,30 +1950,7 @@
       "tags": [
         "Science"
       ],
-      "hot_score": 0.03
-    },
-    {
-      "title_en": "A searchable library of forgotten public-domain film clips from 1915 onward",
-      "url": "https://www.movingimagearchive.com/",
-      "title_zh": "从1915年起的公开领域被遗忘电影片段可检索库",
-      "created_display": "Created: Sep 24, 2026 / 09:11 PT",
-      "image_url": "https://www.movingimagearchive.com/og-cat-20260922.png",
-      "summary_en": "A project curates a searchable collection of public-domain film clips dating back to 1915, enabling researchers, educators, and archivists to discover, tag, and reuse historical footage. The library highlights growing emphasis on accessible media archives and searchability.",
-      "summary_zh": "该项目整理了一批自1915年起的公开领域电影片段，提供可检索、可标注的资源，便于研究者、教育工作者和档案人员检索与再利用历史影像。该库凸显了对可访问媒体档案与可搜索性日益重视。",
-      "hn": {
-        "id": 49832768,
-        "type": "story",
-        "by": "momentmaker",
-        "score": 45,
-        "descendants": 10,
-        "time": 1790266302,
-        "comments_url": "https://news.ycombinator.com/item?id=49832768"
-      },
-      "tags": [
-        "Culture",
-        "Data"
-      ],
-      "hot_score": 0.03
+      "hot_score": 0.02
     },
     {
       "title_en": "Two and a half years without a gallbladder",
@@ -1614,51 +1972,27 @@
       "tags": [
         "Health"
       ],
-      "hot_score": 0.03
-    },
-    {
-      "title_en": "How video games inspire great UX (2019)",
-      "url": "https://jenson.org/games/",
-      "title_zh": "电子游戏如何启发出色的用户体验（2019）",
-      "created_display": "Created: Sep 20, 2026 / 09:00 PT",
-      "image_url": null,
-      "summary_en": "This piece argues that video games teach UX through clear feedback, progressive onboarding, and intuitive controls, translating those lessons into better product design. It offers practical examples for designers seeking more engaging interfaces.",
-      "summary_zh": "文章指出电子游戏通过清晰的反馈、分步引导和直观控制来塑造出色的用户体验，并将这些经验迁移到应用设计中，给设计师提供可操作的建议。",
-      "hn": {
-        "id": 49777121,
-        "type": "story",
-        "by": "andsoitis",
-        "score": 127,
-        "descendants": 19,
-        "time": 1789920013,
-        "comments_url": "https://news.ycombinator.com/item?id=49777121"
-      },
-      "tags": [
-        "Design",
-        "Gaming"
-      ],
       "hot_score": 0.02
     },
     {
-      "title_en": "Show HN: Make math automatic with Mathy",
-      "url": "https://gmays.com/making-math-automatic-with-mathy/",
-      "title_zh": "Show HN：用 Mathy 实现数学自动化",
-      "created_display": "Created: Sep 21, 2026 / 07:49 PT",
-      "image_url": "https://gmays.com/wp-content/uploads/2026/09/cropped-mathy-intro-v2-scaled-1.png",
-      "summary_en": "Show HN introducing Mathy, a tool that automates mathematical tasks—solving, reasoning, and symbolic manipulation—demonstrating how automation can scale math workflows. It hints at educational and research uses where repetitive reasoning can be offloaded to dependable automation.",
-      "summary_zh": "Show HN 介绍了 Mathy，一款用于自动化数学任务的工具，涵盖求解、推理和符号运算等，能显著提升数学工作流的效率，对教育与研究场景中的重复性推理尤为有帮助。",
+      "title_en": "Experiencing writing at our recent Chinese calligraphy workshop",
+      "url": "https://viewsproject.wordpress.com/2026/09/06/chinese-calligraphy-workshop/",
+      "title_zh": "在最近的中文书法工作坊中体验书写",
+      "created_display": "Created: Sep 24, 2026 / 08:40 PT",
+      "image_url": "https://i0.wp.com/viewsproject.wordpress.com/wp-content/uploads/2026/09/img-20260819-wa00081-edited.jpg?fit=1200%2C670&ssl=1",
+      "summary_en": "It also reveals how slow, deliberate writing can influence patience and attention to detail, with potential reflections applicable to UI/UX and creative coding.",
+      "summary_zh": "这篇记录讲述在中文书法工作坊中练习书写的体验，聚焦笔画技巧和节奏感。通过对慢练、专注过程的描述，展示了耐心与专注力如何影响思维方式，对 UI/UX 设计和创意编码等领域可能有启发。",
       "hn": {
-        "id": 49788014,
+        "id": 49832231,
         "type": "story",
-        "by": "gmays",
-        "score": 96,
-        "descendants": 26,
-        "time": 1790002145,
-        "comments_url": "https://news.ycombinator.com/item?id=49788014"
+        "by": "surprisetalk",
+        "score": 35,
+        "descendants": 1,
+        "time": 1790264403,
+        "comments_url": "https://news.ycombinator.com/item?id=49832231"
       },
       "tags": [
-        "Show HN",
-        "Programming"
+        "Culture"
       ],
       "hot_score": 0.02
     },
@@ -1680,9 +2014,122 @@
         "comments_url": "https://news.ycombinator.com/item?id=49830265"
       },
       "tags": [
-        "DevOps"
+        "Programming"
       ],
       "hot_score": 0.02
+    },
+    {
+      "title_en": "The Rise of Audio AR",
+      "url": "https://www.dbreunig.com/2024/04/10/the_rise_of_audio_ar.html",
+      "title_zh": "音频增强现实的崛起",
+      "created_display": "Created: Sep 24, 2026 / 10:31 PT",
+      "image_url": "https://www.dbreunig.com/img/sf_beach_og.jpg",
+      "summary_en": "Audio AR blends spatial audio with real-world visuals to create immersive, hands-free augmented reality interfaces. Advances in spatial audio processing, head-tracking, and edge computing are fueling experiments where sound guides users, indicates objects, or triggers actions without visuals alone. This shifts design toward audio-first UX and cross-modal accessibility.",
+      "summary_zh": "音频增强现实将空间音频与现实场景结合，打造以声音为主导的沉浸式 AR 界面。随着空间音频处理、头部跟踪和边缘计算的发展，越来越多的应用开始用声音引导用户、标示对象或触发操作，而非仅靠视觉信息。这为开发者将设计重心转向音频优先的用户体验和跨模态可访问性提供了新方向。",
+      "hn": {
+        "id": 49834040,
+        "type": "story",
+        "by": "dbreunig",
+        "score": 27,
+        "descendants": 8,
+        "time": 1790271088,
+        "comments_url": "https://news.ycombinator.com/item?id=49834040"
+      },
+      "tags": [
+        "Design",
+        "Privacy"
+      ],
+      "hot_score": 0.02
+    },
+    {
+      "title_en": "Does Georgism work? Five years later",
+      "url": "https://www.astralcodexten.com/p/does-georgism-work-five-years-later",
+      "title_zh": "乔治主义有效吗？五年后的评估",
+      "created_display": "Created: Sep 25, 2026 / 06:48 PT",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!exwi!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc40c781e-9ade-4737-9d3e-2fb83913a579_1018x511.jpeg",
+      "summary_en": "Five years after adopting Georgist policies (land value tax or land value capture), early signals suggest mixed results: housing affordability, revenue stability, and political feasibility. The piece weighs empirical lessons and what policy design tweaks might improve outcomes.",
+      "summary_zh": "五年后若施行乔治主义政策（地价税等），初步信号呈现成效参差不齐。住房负担、财政稳定性以及可行性成为核心讨论点，文章总结了经验教训，并探讨改进政策设计的方向。",
+      "hn": {
+        "id": 49844657,
+        "type": "story",
+        "by": "silveraxe93",
+        "score": 15,
+        "descendants": 2,
+        "time": 1790344118,
+        "comments_url": "https://news.ycombinator.com/item?id=49844657"
+      },
+      "hot_score": 0.02,
+      "tags": [
+        "Politics",
+        "Business"
+      ]
+    },
+    {
+      "title_en": "Promising discoveries about the potential for life on one of Saturn’s icy moons",
+      "url": "https://www.fu-berlin.de/en/presse/informationen/fup/2026/fup_26_116-enceladus-cassini-mikroben-science-postberg/index.html",
+      "title_zh": "关于土星冰卫星上潜在生命的有前景发现",
+      "created_display": "Created: Sep 25, 2026 / 20:23 PT",
+      "image_url": "https://www.fu-berlin.de/en/presse/informationen/fup/2026/fup_26_116-enceladus-cassini-mikroben-science-postberg/Enceladus-cassini2.jpg?width=250",
+      "summary_en": "New findings bolster the possibility that life could exist on Enceladus (Saturn's icy moon), including subsurface ocean chemistry and hydrothermal activity. The results fuel interest in future missions and astrobiology frameworks.",
+      "summary_zh": "关于土星冰卫星上潜在生命的研究出现有前景的发现，涉及地下海洋与水热活动等证据。为未来探测任务和天体生物学研究增添新线索。",
+      "hn": {
+        "id": 49852905,
+        "type": "story",
+        "by": "geox",
+        "score": 7,
+        "descendants": 1,
+        "time": 1790393011,
+        "comments_url": "https://news.ycombinator.com/item?id=49852905"
+      },
+      "hot_score": 0.02,
+      "tags": [
+        "Science",
+        "Space"
+      ]
+    },
+    {
+      "title_en": "How video games inspire great UX (2019)",
+      "url": "https://jenson.org/games/",
+      "title_zh": "电子游戏如何启发出色的用户体验（2019）",
+      "created_display": "Created: Sep 20, 2026 / 09:00 PT",
+      "image_url": null,
+      "summary_en": "This piece argues that video games teach UX through clear feedback, progressive onboarding, and intuitive controls, translating those lessons into better product design. It offers practical examples for designers seeking more engaging interfaces.",
+      "summary_zh": "文章指出电子游戏通过清晰的反馈、分步引导和直观控制来塑造出色的用户体验，并将这些经验迁移到应用设计中，给设计师提供可操作的建议。",
+      "hn": {
+        "id": 49777121,
+        "type": "story",
+        "by": "andsoitis",
+        "score": 127,
+        "descendants": 19,
+        "time": 1789920013,
+        "comments_url": "https://news.ycombinator.com/item?id=49777121"
+      },
+      "tags": [
+        "Design"
+      ],
+      "hot_score": 0.01
+    },
+    {
+      "title_en": "Show HN: Make math automatic with Mathy",
+      "url": "https://gmays.com/making-math-automatic-with-mathy/",
+      "title_zh": "Show HN：用 Mathy 实现数学自动化",
+      "created_display": "Created: Sep 21, 2026 / 07:49 PT",
+      "image_url": "https://gmays.com/wp-content/uploads/2026/09/cropped-mathy-intro-v2-scaled-1.png",
+      "summary_en": "Show HN introducing Mathy, a tool that automates mathematical tasks—solving, reasoning, and symbolic manipulation—demonstrating how automation can scale math workflows. It hints at educational and research uses where repetitive reasoning can be offloaded to dependable automation.",
+      "summary_zh": "Show HN 介绍了 Mathy，一款用于自动化数学任务的工具，涵盖求解、推理和符号运算等，能显著提升数学工作流的效率，对教育与研究场景中的重复性推理尤为有帮助。",
+      "hn": {
+        "id": 49788014,
+        "type": "story",
+        "by": "gmays",
+        "score": 96,
+        "descendants": 26,
+        "time": 1790002145,
+        "comments_url": "https://news.ycombinator.com/item?id=49788014"
+      },
+      "tags": [
+        "Show HN"
+      ],
+      "hot_score": 0.01
     },
     {
       "title_en": "Calculating atmospheric drag on satellites for a Cubesat [pdf]",
@@ -1705,77 +2152,73 @@
         "Space",
         "Science"
       ],
-      "hot_score": 0.02
+      "hot_score": 0.01
     },
     {
-      "title_en": "Experiencing writing at our recent Chinese calligraphy workshop",
-      "url": "https://viewsproject.wordpress.com/2026/09/06/chinese-calligraphy-workshop/",
-      "title_zh": "在最近的中文书法工作坊中体验书写",
-      "created_display": "Created: Sep 24, 2026 / 08:40 PT",
-      "image_url": "https://i0.wp.com/viewsproject.wordpress.com/wp-content/uploads/2026/09/img-20260819-wa00081-edited.jpg?fit=1200%2C670&ssl=1",
-      "summary_en": "It also reveals how slow, deliberate writing can influence patience and attention to detail, with potential reflections applicable to UI/UX and creative coding.",
-      "summary_zh": "这篇记录讲述在中文书法工作坊中练习书写的体验，聚焦笔画技巧和节奏感。通过对慢练、专注过程的描述，展示了耐心与专注力如何影响思维方式，对 UI/UX 设计和创意编码等领域可能有启发。",
+      "title_en": "Evolving programming languages in the AI era",
+      "url": "https://dashbit.co/blog/evolving-ai-era",
+      "title_zh": "AI时代的编程语言演化",
+      "created_display": "Created: Sep 24, 2026 / 19:34 PT",
+      "image_url": "https://dashbit.co/images/logo-166c057038a97186c76e9f48807c096e.png?vsn=d",
+      "summary_en": "AI tooling is reshaping language design; metaprogramming, type systems, and ergonomics adapt to model-assisted development. The article surveys trends, from safer systems languages to DSLs for ML pipelines, and notes adoption hurdles like ecosystem maturity and tooling gaps.",
+      "summary_zh": "AI 工具正在推动语言设计的变革。从更安全的系统语言到面向 ML 流水线的领域专用语言，类型系统与可用性都在进化。文章对趋势进行梳理，并指出生态系统成熟度和工具链完善程度仍是广泛挑战。",
       "hn": {
-        "id": 49832231,
+        "id": 49839567,
         "type": "story",
-        "by": "surprisetalk",
-        "score": 27,
-        "descendants": 1,
-        "time": 1790264403,
-        "comments_url": "https://news.ycombinator.com/item?id=49832231"
-      },
-      "hot_score": 0.02,
-      "tags": [
-        "Culture",
-        "Design",
-        "Education"
-      ]
-    },
-    {
-      "title_en": "The Rise of Audio AR",
-      "url": "https://www.dbreunig.com/2024/04/10/the_rise_of_audio_ar.html",
-      "title_zh": "音频增强现实的崛起",
-      "created_display": "Created: Sep 24, 2026 / 10:31 PT",
-      "image_url": "https://www.dbreunig.com/img/sf_beach_og.jpg",
-      "summary_en": "Audio AR blends spatial audio with real-world visuals to create immersive, hands-free augmented reality interfaces. Advances in spatial audio processing, head-tracking, and edge computing are fueling experiments where sound guides users, indicates objects, or triggers actions without visuals alone. This shifts design toward audio-first UX and cross-modal accessibility.",
-      "summary_zh": "音频增强现实将空间音频与现实场景结合，打造以声音为主导的沉浸式 AR 界面。随着空间音频处理、头部跟踪和边缘计算的发展，越来越多的应用开始用声音引导用户、标示对象或触发操作，而非仅靠视觉信息。这为开发者将设计重心转向音频优先的用户体验和跨模态可访问性提供了新方向。",
-      "hn": {
-        "id": 49834040,
-        "type": "story",
-        "by": "dbreunig",
-        "score": 15,
+        "by": "pjm331",
+        "score": 9,
         "descendants": 2,
-        "time": 1790271088,
-        "comments_url": "https://news.ycombinator.com/item?id=49834040"
+        "time": 1790303679,
+        "comments_url": "https://news.ycombinator.com/item?id=49839567"
       },
       "hot_score": 0.01,
       "tags": [
-        "Design",
-        "Privacy"
+        "AI",
+        "Programming"
       ]
     },
     {
-      "title_en": "LA Metro has some of the slowest escalators on Earth",
-      "url": "https://basin.la/articles/ninety-feet-a-minute.html",
-      "title_zh": "洛杉矶地铁的扶梯速度全球最慢之一",
-      "created_display": "Created: Sep 24, 2026 / 09:52 PT",
-      "image_url": "https://basin.la/assets/share-art-ninety-feet-a-minute.png?v=4310383d",
-      "summary_en": "The piece investigates why LA Metro's escalators move at unusually slow speeds, impacting station flow and rider experience. It discusses aging infrastructure, safety considerations, maintenance budgets, and potential upgrades or policy implications for urban transit UX.",
-      "summary_zh": "文章探讨了洛杉矶地铁扶梯为何普遍较慢，影响换乘效率和乘客体验。从老化的基建设施、维护预算到潜在升级与城市交通用户体验的政策考量，揭示了公共交通系统背后的设计权衡。",
+      "title_en": "Probing picosecond depairing currents in type-II superconductors",
+      "url": "https://www.nature.com/articles/s41567-026-03469-z",
+      "title_zh": "探测二型超导体的皮秒解对电流",
+      "created_display": "Created: Sep 24, 2026 / 13:21 PT",
+      "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41567-026-03469-z/MediaObjects/41567_2026_3469_Fig1_HTML.png",
+      "summary_en": "Researchers probe depairing currents at picosecond timescales in type-II superconductors, revealing limits of current-carrying capacity and insights into vortex dynamics. Findings could influence superconducting electronics and high-field systems.",
+      "summary_zh": "研究者在 II 型超导体中以皮秒尺度探测解对电流，揭示了承载极限与涡旋动力学的细节。结果可能推动超导电子学与高场磁体等应用进展。",
       "hn": {
-        "id": 49833444,
+        "id": 49836302,
         "type": "story",
-        "by": "big_toast",
-        "score": 3,
-        "descendants": 1,
-        "time": 1790268744,
-        "comments_url": "https://news.ycombinator.com/item?id=49833444"
+        "by": "PaulHoule",
+        "score": 6,
+        "descendants": 4,
+        "time": 1790281318,
+        "comments_url": "https://news.ycombinator.com/item?id=49836302"
       },
       "hot_score": 0.0,
       "tags": [
-        "Design",
-        "Politics",
-        "DevOps"
+        "Science"
+      ]
+    },
+    {
+      "title_en": "Dutch designer made DE9: Closer to the Edit into a playable web-based instrument",
+      "url": "https://www.creativeboom.com/work/why-merijn-straathof-turned-a-landmark-techno-album-into-a-playable-web-based-instrument/",
+      "title_zh": "荷兰设计师将 DE9：从编辑到网页可玩乐器",
+      "created_display": "Created: Sep 24, 2026 / 14:30 PT",
+      "image_url": "https://media.creativeboom.com/1d9719ee-6993-48e0-a315-4a9b32aae557/conversions/ed5e93a78a6ba678892fc671e697151b76daa595-medium.webp",
+      "summary_en": "Dutch designer Merijn Straathof turns the landmark DE9 album into a playable web-based instrument, blending music, UI, and interactive coding. It showcases how web tech can democratize access to experimental sound design.",
+      "summary_zh": "荷兰设计师将 DE9 专辑改造成可在网页上演奏的互动乐器，融合音乐与交互设计。展示了网页技术如何让实验性声音设计走进更广的创作者群体。",
+      "hn": {
+        "id": 49836979,
+        "type": "story",
+        "by": "ChrisArchitect",
+        "score": 4,
+        "descendants": 1,
+        "time": 1790285418,
+        "comments_url": "https://news.ycombinator.com/item?id=49836979"
+      },
+      "hot_score": 0.0,
+      "tags": [
+        "Design"
       ]
     }
   ]
