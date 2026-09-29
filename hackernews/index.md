@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>221</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>32665</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>218</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>219</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-09-28</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>222</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>32715</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>218</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>220</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-09-29</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,118 +20,118 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='567' data-hn-time='1790618291'>
+<div class='hn-top-story-item' data-hn-score='745' data-hn-time='1790618291'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/28/top_stories_09282026#story-49881850'>Sonnet 5.5</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/29/top_stories_09292026#story-49881850'>Sonnet 5.5</a>
  <a class='hn-top-story-link' href='https://www.anthropic.com/claude-sonnet-5-5' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Sonnet 5.5（Anthropic Claude的新版本）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 10</span> <span class='hn-top-story-score'>&#9650; 567</span> <span class='hn-top-story-comments'>&#128172; 390</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.2</span> <span class='hn-top-story-score'>&#9650; 745</span> <span class='hn-top-story-comments'>&#128172; 498</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='246' data-hn-time='1790627016'>
+<div class='hn-top-story-item' data-hn-score='30' data-hn-time='1790665466'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/28/top_stories_09282026#story-49883844'>Jeff – Jev-compatible 0.8B decision models, trained at home, ~30 ms</a>
- <a class='hn-top-story-link' href='https://github.com/firelex/jeff' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/29/top_stories_09292026#story-49889275'>US Forces Exit Iraq</a>
+ <a class='hn-top-story-link' href='https://www.reuters.com/world/middle-east/us-forces-exit-iraq-after-two-decades-leaving-opening-iran-2026-09-29/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Jeff：Jev 兼容的0.8B决策模型，在家训练，推理约30毫秒</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.4</span> <span class='hn-top-story-score'>&#9650; 246</span> <span class='hn-top-story-comments'>&#128172; 97</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>美军撤离伊拉克</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.9</span> <span class='hn-top-story-score'>&#9650; 30</span> <span class='hn-top-story-comments'>&#128172; 15</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='428' data-hn-time='1790617884'>
+<div class='hn-top-story-item' data-hn-score='466' data-hn-time='1790627016'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/28/top_stories_09282026#story-49881747'>Windows 11½</a>
- <a class='hn-top-story-link' href='https://definitelynotwindows.com/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/29/top_stories_09292026#story-49883844'>Jeff – Jev-compatible 0.8B decision models, trained at home, ~30 ms</a>
+ <a class='hn-top-story-link' href='https://github.com/firelex/jeff' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Windows 11½（幽默笔记）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.4</span> <span class='hn-top-story-score'>&#9650; 428</span> <span class='hn-top-story-comments'>&#128172; 132</span> <span class='hn-top-story-tag'>Entertainment</span></div>
+<div class='hn-top-story-zh'>Jeff：Jev 兼容的0.8B决策模型，在家训练，推理约30毫秒</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.4</span> <span class='hn-top-story-score'>&#9650; 466</span> <span class='hn-top-story-comments'>&#128172; 175</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='275' data-hn-time='1790625215'>
+<div class='hn-top-story-item' data-hn-score='448' data-hn-time='1790625215'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/28/top_stories_09282026#story-49883471'>It's Time to Investigate the AI Labs</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/29/top_stories_09292026#story-49883471'>It's Time to Investigate the AI Labs</a>
  <a class='hn-top-story-link' href='https://calnewport.com/its-time-to-investigate-the-ai-labs/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>是时候调查 AI 实验室了</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.3</span> <span class='hn-top-story-score'>&#9650; 275</span> <span class='hn-top-story-comments'>&#128172; 103</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 448</span> <span class='hn-top-story-comments'>&#128172; 172</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='178' data-hn-time='1790626685'>
+<div class='hn-top-story-item' data-hn-score='539' data-hn-time='1790610855'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/28/top_stories_09282026#story-49883760'>World Labs Is Joining AMD</a>
- <a class='hn-top-story-link' href='https://www.worldlabs.ai/blog/amd-announcement' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>World Labs 将加入 AMD 生态</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.2</span> <span class='hn-top-story-score'>&#9650; 178</span> <span class='hn-top-story-comments'>&#128172; 69</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='408' data-hn-time='1790610855'>
-<span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/28/top_stories_09282026#story-49880036'>Pirating the Pirates</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/29/top_stories_09292026#story-49880036'>Pirating the Pirates</a>
  <a class='hn-top-story-link' href='https://mubi.com/en/notebook/posts/pirating-the-pirates' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>盗版海盗</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.0</span> <span class='hn-top-story-score'>&#9650; 408</span> <span class='hn-top-story-comments'>&#128172; 213</span> <span class='hn-top-story-tag'>Entertainment</span> <span class='hn-top-story-tag'>Culture</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 539</span> <span class='hn-top-story-comments'>&#128172; 267</span> <span class='hn-top-story-tag'>Culture</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='338' data-hn-time='1790611902'>
-<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1877' data-hn-time='1790539974'>
+<span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/28/top_stories_09282026#story-49880312'>The problem is not AI code, but not knowing about system architecture or intent</a>
- <a class='hn-top-story-link' href='https://www.ssp.sh/brain/the-problem-is-not-the-ai-code-but-nobody-knows-anything-anymore/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>问题不在AI代码，而在于对体系结构与意图的缺乏了解</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.4</span> <span class='hn-top-story-score'>&#9650; 338</span> <span class='hn-top-story-comments'>&#128172; 220</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='210' data-hn-time='1790618687'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/28/top_stories_09282026#story-49881951'>So long Google, and thanks for all the nudes</a>
- <a class='hn-top-story-link' href='https://lecaro.me/20260921-google-less.html' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>告别 Google，感谢你留下的裸照事件</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.8</span> <span class='hn-top-story-score'>&#9650; 210</span> <span class='hn-top-story-comments'>&#128172; 83</span> <span class='hn-top-story-tag'>Privacy</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1843' data-hn-time='1790539974'>
-<span class='hn-top-story-rank'>9</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/28/top_stories_09282026#story-49870367'>When did Google get so weird?</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/29/top_stories_09292026#story-49870367'>When did Google get so weird?</a>
  <a class='hn-top-story-link' href='https://sancho.bearblog.dev/google-weird/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>谷歌什么时候变得这么怪了？</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.8</span> <span class='hn-top-story-score'>&#9650; 1843</span> <span class='hn-top-story-comments'>&#128172; 1034</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 1877</span> <span class='hn-top-story-comments'>&#128172; 1053</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='402' data-hn-time='1790603577'>
-<span class='hn-top-story-rank'>10</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='472' data-hn-time='1790609538'>
+<span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/09/28/top_stories_09282026#story-49877988'>Coding is not solved</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/29/top_stories_09292026#story-49879645'>Updated Google Maps shows destruction of the city of Rafah</a>
+ <a class='hn-top-story-link' href='https://twitter.com/AliAbunimah/status/2103890594137309425' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>更新后的谷歌地图显示拉法城遭受破坏</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 472</span> <span class='hn-top-story-comments'>&#128172; 287</span> <span class='hn-top-story-tag'>Data</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='264' data-hn-time='1790626685'>
+<span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/29/top_stories_09292026#story-49883760'>World Labs Is Joining AMD</a>
+ <a class='hn-top-story-link' href='https://www.worldlabs.ai/blog/amd-announcement' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>World Labs 将加入 AMD 生态</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 264</span> <span class='hn-top-story-comments'>&#128172; 110</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>DevOps</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='476' data-hn-time='1790603577'>
+<span class='hn-top-story-rank'>9</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/29/top_stories_09292026#story-49877988'>Coding is not solved</a>
  <a class='hn-top-story-link' href='https://blog.alexewerlof.com/p/coding-is-not-solved' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>编码问题尚未解决</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.7</span> <span class='hn-top-story-score'>&#9650; 402</span> <span class='hn-top-story-comments'>&#128172; 425</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.2</span> <span class='hn-top-story-score'>&#9650; 476</span> <span class='hn-top-story-comments'>&#128172; 477</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='13' data-hn-time='1790665673'>
+<span class='hn-top-story-rank'>10</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/09/29/top_stories_09292026#story-49889306'>OpenAI: Tomorrow we are re-opening the Pro $200 subscription</a>
+ <a class='hn-top-story-link' href='https://twitter.com/thsottiaux/status/2104823812042940713' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>OpenAI：明天重新开放 Pro 订阅，定价200美元</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.1</span> <span class='hn-top-story-score'>&#9650; 13</span> <span class='hn-top-story-comments'>&#128172; 7</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
-<a class='hn-top-stories-more' href='/hackernews/2026/09/28/top_stories_09282026'>View all trending stories &rarr;</a>
+<a class='hn-top-stories-more' href='/hackernews/2026/09/29/top_stories_09292026'>View all trending stories &rarr;</a>
 <a class='hn-top-stories-more' href='/hackernews/2026/09/27/best_stories_09272026'>Latest Daily Best — 2026-09-27 &rarr;</a>
 </div>
 </div>
@@ -140,10 +140,19 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 40 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-09-28 <span class="hn-row-sep">·</span> 100 stories <span class="hn-row-sep">·</span> 1 days</span>
+<span class='hn-week-meta'>2026-09-28 — 2026-09-29 <span class="hn-row-sep">·</span> 150 stories <span class="hn-row-sep">·</span> 2 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
+<div class='hn-day-row'>
+<div class='hn-day-date'>2026-09-29 <span class='hn-day-weekday'>Tue</span></div>
+<div class='hn-day-stories'>
+<a class='hn-story-link' href='/hackernews/2026/09/29/top_stories_09292026'>
+<span class='hn-row-type hn-type-top'>Trending</span>
+<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>15</b> <span class="hn-row-sep">·</span> Culture <b>8</b></span>
+</a>
+</div>
+</div>
 <div class='hn-day-row'>
 <div class='hn-day-date'>2026-09-28 <span class='hn-day-weekday'>Mon</span></div>
 <div class='hn-day-stories'>
@@ -570,33 +579,6 @@ Sort:
 <a class='hn-story-link' href='/hackernews/2026/08/31/top_stories_08312026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
 <span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>16</b> <span class="hn-row-sep">·</span> Hardware <b>16</b></span>
-</a>
-</div>
-</div>
-</div>
-</div>
-</details>
-<details class='hn-week-group'>
-<summary class='hn-week-summary'>
-<span class='hn-week-title'>2026 Week 35</span>
-<span class='hn-week-meta'>2026-08-30 <span class="hn-row-sep">·</span> 150 stories <span class="hn-row-sep">·</span> 1 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
-</summary>
-<div class='hn-week-content'>
-<a class='hn-story-link hn-weekly-digest-link' href='/hackernews/weekly/2026-W35'>
-<span class='hn-row-type hn-type-weekly'>Weekly Digest</span>
-<span class='hn-row-detail'>2026-08-24 — 2026-08-30 <span class="hn-row-sep">·</span> All <b>512</b> <span class="hn-row-sep">·</span> AI <b>112</b> <span class="hn-row-sep">·</span> Programming <b>97</b></span>
-</a>
-<div class='hn-grid'>
-<div class='hn-day-row'>
-<div class='hn-day-date'>2026-08-30 <span class='hn-day-weekday'>Sun</span></div>
-<div class='hn-day-stories'>
-<a class='hn-story-link' href='/hackernews/2026/08/30/best_stories_08302026'>
-<span class='hn-row-type hn-type-best'>Daily Best</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>13</b> <span class="hn-row-sep">·</span> Security <b>12</b></span>
-</a>
-<a class='hn-story-link' href='/hackernews/2026/08/30/top_stories_08302026'>
-<span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>29</b> <span class="hn-row-sep">·</span> AI <b>15</b></span>
 </a>
 </div>
 </div>
