@@ -20,7 +20,7 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='482' data-hn-time='1790883185'>
+<div class='hn-top-story-item' data-hn-score='723' data-hn-time='1790883185'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -28,32 +28,32 @@ Sort:
  <a class='hn-top-story-link' href='https://earendil.com/posts/pi-1-0/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Pi 1.0</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 29</span> <span class='hn-top-story-score'>&#9650; 482</span> <span class='hn-top-story-comments'>&#128172; 168</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 18</span> <span class='hn-top-story-score'>&#9650; 723</span> <span class='hn-top-story-comments'>&#128172; 248</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='365' data-hn-time='1790871537'>
+<div class='hn-top-story-item' data-hn-score='155' data-hn-time='1790888857'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/01/top_stories_10012026#story-49923692'>Clef: Open-source decision models, and new RL fine-tuning platform</a>
- <a class='hn-top-story-link' href='https://blog.cloudflare.com/clef-decision-models/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/01/top_stories_10012026#story-49927100'>The death of web development education</a>
+ <a class='hn-top-story-link' href='https://molily.de/web-dev-education/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Clef：开源决策模型与新的 RL 微调平台</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.6</span> <span class='hn-top-story-score'>&#9650; 365</span> <span class='hn-top-story-comments'>&#128172; 143</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-zh'>the death of web development education</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.9</span> <span class='hn-top-story-score'>&#9650; 155</span> <span class='hn-top-story-comments'>&#128172; 117</span> <span class='hn-top-story-tag'>Education</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='100' data-hn-time='1790886207'>
+<div class='hn-top-story-item' data-hn-score='424' data-hn-time='1790871537'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/01/top_stories_10012026#story-49926628'>Car Is a Smartphone on Wheels. Here's Who's Listening</a>
- <a class='hn-top-story-link' href='https://automatictransmission.khoury.northeastern.edu/index.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/01/top_stories_10012026#story-49923692'>Clef: Open-weight decision models, and new RL fine-tuning platform</a>
+ <a class='hn-top-story-link' href='https://blog.cloudflare.com/clef-decision-models/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Car Is a Smartphone on Wheels. Here's Who's Listening</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.5</span> <span class='hn-top-story-score'>&#9650; 100</span> <span class='hn-top-story-comments'>&#128172; 83</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>Clef：开源决策模型与新的 RL 微调平台</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.7</span> <span class='hn-top-story-score'>&#9650; 424</span> <span class='hn-top-story-comments'>&#128172; 158</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='134' data-hn-time='1790882648'>
+<div class='hn-top-story-item' data-hn-score='212' data-hn-time='1790882648'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -61,73 +61,73 @@ Sort:
  <a class='hn-top-story-link' href='https://earendil.com/posts/pi-durable/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Pi Durable</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.6</span> <span class='hn-top-story-score'>&#9650; 134</span> <span class='hn-top-story-comments'>&#128172; 12</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.2</span> <span class='hn-top-story-score'>&#9650; 212</span> <span class='hn-top-story-comments'>&#128172; 23</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='62' data-hn-time='1790888857'>
+<div class='hn-top-story-item' data-hn-score='139' data-hn-time='1790886207'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/01/top_stories_10012026#story-49927100'>The death of web development education</a>
- <a class='hn-top-story-link' href='https://molily.de/web-dev-education/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/01/top_stories_10012026#story-49926628'>Automatic Transmission – a data-privacy study of connected vehicles</a>
+ <a class='hn-top-story-link' href='https://automatictransmission.khoury.northeastern.edu/index.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>the death of web development education</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.6</span> <span class='hn-top-story-score'>&#9650; 62</span> <span class='hn-top-story-comments'>&#128172; 43</span> <span class='hn-top-story-tag'>Education</span> <span class='hn-top-story-tag'>Web</span></div>
+<div class='hn-top-story-zh'>自动传输：连网车辆的数据隐私研究</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.3</span> <span class='hn-top-story-score'>&#9650; 139</span> <span class='hn-top-story-comments'>&#128172; 135</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Data</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='245' data-hn-time='1790870516'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='54' data-hn-time='1790896244'>
 <span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/01/top_stories_10012026#story-49928121'>Several vulnerabilities have been discovered in the Linux kernel</a>
+ <a class='hn-top-story-link' href='https://lwn.net/Articles/1097401/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Linux 内核曝出多项漏洞</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 54</span> <span class='hn-top-story-comments'>&#128172; 28</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Open Source</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='270' data-hn-time='1790870516'>
+<span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/10/01/top_stories_10012026#story-49923466'>RIP, vector database</a>
  <a class='hn-top-story-link' href='https://turbopuffer.com/blog/rip-vector-database' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>向量数据库：再见</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.4</span> <span class='hn-top-story-score'>&#9650; 245</span> <span class='hn-top-story-comments'>&#128172; 65</span> <span class='hn-top-story-tag'>Data</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 270</span> <span class='hn-top-story-comments'>&#128172; 78</span> <span class='hn-top-story-tag'>Data</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='491' data-hn-time='1790852397'>
-<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='520' data-hn-time='1790852397'>
+<span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/10/01/top_stories_10012026#story-49920160'>StreetComplete on iOS is now in public beta</a>
  <a class='hn-top-story-link' href='https://github.com/streetcomplete/StreetComplete/issues/5421' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>StreetComplete iOS 公测现已开启</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.6</span> <span class='hn-top-story-score'>&#9650; 491</span> <span class='hn-top-story-comments'>&#128172; 109</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 520</span> <span class='hn-top-story-comments'>&#128172; 126</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1634' data-hn-time='1790798677'>
-<span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1639' data-hn-time='1790798677'>
+<span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/10/01/top_stories_10012026#story-49913571'>Gemini 4 Argon</a>
  <a class='hn-top-story-link' href='https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Gemini 4 Argon（阿尔贡）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 1634</span> <span class='hn-top-story-comments'>&#128172; 1117</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 1639</span> <span class='hn-top-story-comments'>&#128172; 1125</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='233' data-hn-time='1790865515'>
-<span class='hn-top-story-rank'>9</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/01/top_stories_10012026#story-49922278'>Cops Can Bypass iPhone's Automatic Reboot to Get into Locked Phones</a>
- <a class='hn-top-story-link' href='https://www.404media.co/cops-can-bypass-iphone-automatic-inactivity-reboot-graykey/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>警察可绕过 iPhone 的自动重启机制进入锁定手机</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 233</span> <span class='hn-top-story-comments'>&#128172; 184</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='315' data-hn-time='1790858939'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='106' data-hn-time='1790885663'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/01/top_stories_10012026#story-49920932'>Micron CEO Says Memory Supply Will Be Much Tighter in 2027 and 2028 Than in 2026</a>
- <a class='hn-top-story-link' href='https://www.techpowerup.com/353296/micron-ceo-says-memory-supply-will-be-much-tighter-in-2027-and-2028-than-in-2026' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/01/top_stories_10012026#story-49926536'>SvelteKit 3</a>
+ <a class='hn-top-story-link' href='https://svelte.dev/blog/sveltekit-3-is-here' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>美光称 2027-2028 年内存供给将显著比 2026 年更紧张</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 315</span> <span class='hn-top-story-comments'>&#128172; 372</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>SvelteKit 3 已到来</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 106</span> <span class='hn-top-story-comments'>&#128172; 38</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
