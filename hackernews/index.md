@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>224</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>33115</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>221</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>222</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-10-01</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>225</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>33164</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>221</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>223</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-10-02</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,118 +20,118 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='723' data-hn-time='1790883185'>
+<div class='hn-top-story-item' data-hn-score='1155' data-hn-time='1790883185'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/01/top_stories_10012026#story-49926069'>Pi 1.0</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/02/top_stories_10022026#story-49926069'>Pi 1.0</a>
  <a class='hn-top-story-link' href='https://earendil.com/posts/pi-1-0/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Pi 1.0</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 18</span> <span class='hn-top-story-score'>&#9650; 723</span> <span class='hn-top-story-comments'>&#128172; 248</span> <span class='hn-top-story-tag'>Hardware</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.6</span> <span class='hn-top-story-score'>&#9650; 1155</span> <span class='hn-top-story-comments'>&#128172; 365</span> <span class='hn-top-story-tag'>Hardware</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='155' data-hn-time='1790888857'>
+<div class='hn-top-story-item' data-hn-score='193' data-hn-time='1790910680'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/01/top_stories_10012026#story-49927100'>The death of web development education</a>
- <a class='hn-top-story-link' href='https://molily.de/web-dev-education/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/02/top_stories_10022026#story-49929489'>DeepSeek Harness Desktop for macOS and Windows</a>
+ <a class='hn-top-story-link' href='https://www.deepseek.com/en/harness/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>the death of web development education</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.9</span> <span class='hn-top-story-score'>&#9650; 155</span> <span class='hn-top-story-comments'>&#128172; 117</span> <span class='hn-top-story-tag'>Education</span> <span class='hn-top-story-tag'>Web</span></div>
+<div class='hn-top-story-zh'>DeepSeek Harness桌面版（macOS 与 Windows）</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.4</span> <span class='hn-top-story-score'>&#9650; 193</span> <span class='hn-top-story-comments'>&#128172; 91</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='424' data-hn-time='1790871537'>
+<div class='hn-top-story-item' data-hn-score='247' data-hn-time='1790896244'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/01/top_stories_10012026#story-49923692'>Clef: Open-weight decision models, and new RL fine-tuning platform</a>
- <a class='hn-top-story-link' href='https://blog.cloudflare.com/clef-decision-models/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Clef：开源决策模型与新的 RL 微调平台</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.7</span> <span class='hn-top-story-score'>&#9650; 424</span> <span class='hn-top-story-comments'>&#128172; 158</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='212' data-hn-time='1790882648'>
-<span class='hn-top-story-rank'>4</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/01/top_stories_10012026#story-49925969'>Pi Durable</a>
- <a class='hn-top-story-link' href='https://earendil.com/posts/pi-durable/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Pi Durable</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.2</span> <span class='hn-top-story-score'>&#9650; 212</span> <span class='hn-top-story-comments'>&#128172; 23</span> <span class='hn-top-story-tag'>Hardware</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='139' data-hn-time='1790886207'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/01/top_stories_10012026#story-49926628'>Automatic Transmission – a data-privacy study of connected vehicles</a>
- <a class='hn-top-story-link' href='https://automatictransmission.khoury.northeastern.edu/index.html' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>自动传输：连网车辆的数据隐私研究</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.3</span> <span class='hn-top-story-score'>&#9650; 139</span> <span class='hn-top-story-comments'>&#128172; 135</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Data</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='54' data-hn-time='1790896244'>
-<span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/01/top_stories_10012026#story-49928121'>Several vulnerabilities have been discovered in the Linux kernel</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/02/top_stories_10022026#story-49928121'>Several vulnerabilities have been discovered in the Linux kernel</a>
  <a class='hn-top-story-link' href='https://lwn.net/Articles/1097401/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Linux 内核曝出多项漏洞</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 54</span> <span class='hn-top-story-comments'>&#128172; 28</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 247</span> <span class='hn-top-story-comments'>&#128172; 171</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='270' data-hn-time='1790870516'>
+<div class='hn-top-story-item' data-hn-score='52' data-hn-time='1790917978'>
+<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/02/top_stories_10022026#story-49930047'>Shimano Bicycle Museum Review</a>
+ <a class='hn-top-story-link' href='https://inrng.com/2026/10/shimano-bicycle-museum/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Shimano自行车博物馆评测</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 52</span> <span class='hn-top-story-comments'>&#128172; 7</span> <span class='hn-top-story-tag'>Culture</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='491' data-hn-time='1790871537'>
+<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/02/top_stories_10022026#story-49923692'>Clef: Open-weight decision models, and new RL fine-tuning platform</a>
+ <a class='hn-top-story-link' href='https://blog.cloudflare.com/clef-decision-models/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Clef：开源决策模型与新的 RL 微调平台</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 491</span> <span class='hn-top-story-comments'>&#128172; 174</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='341' data-hn-time='1790882648'>
+<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/02/top_stories_10022026#story-49925969'>Pi Durable</a>
+ <a class='hn-top-story-link' href='https://earendil.com/posts/pi-durable/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Pi Durable</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 341</span> <span class='hn-top-story-comments'>&#128172; 44</span> <span class='hn-top-story-tag'>Hardware</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='110' data-hn-time='1790906212'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/01/top_stories_10012026#story-49923466'>RIP, vector database</a>
- <a class='hn-top-story-link' href='https://turbopuffer.com/blog/rip-vector-database' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/02/top_stories_10022026#story-49929113'>How Singapore's government-run dating service works</a>
+ <a class='hn-top-story-link' href='https://www.singapore-samizdat.com/p/how-singapores-government-run-dating-service-firstdate-works' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>向量数据库：再见</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 270</span> <span class='hn-top-story-comments'>&#128172; 78</span> <span class='hn-top-story-tag'>Data</span></div>
+<div class='hn-top-story-zh'>新加坡政府运营的约会服务如何运作</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 110</span> <span class='hn-top-story-comments'>&#128172; 61</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='520' data-hn-time='1790852397'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='46' data-hn-time='1790916962'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/01/top_stories_10012026#story-49920160'>StreetComplete on iOS is now in public beta</a>
- <a class='hn-top-story-link' href='https://github.com/streetcomplete/StreetComplete/issues/5421' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/02/top_stories_10022026#story-49929970'>Meta's Muse is fantastic for web scraping</a>
+ <a class='hn-top-story-link' href='https://sigh.dev/posts/metas-muse-is-fantastic-for-web-scraping/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>StreetComplete iOS 公测现已开启</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 520</span> <span class='hn-top-story-comments'>&#128172; 126</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-zh'>Meta的Muse在网页抓取方面表现出色</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 46</span> <span class='hn-top-story-comments'>&#128172; 53</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1639' data-hn-time='1790798677'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1653' data-hn-time='1790798677'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/01/top_stories_10012026#story-49913571'>Gemini 4 Argon</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/02/top_stories_10022026#story-49913571'>Gemini 4 Argon</a>
  <a class='hn-top-story-link' href='https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Gemini 4 Argon（阿尔贡）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 1639</span> <span class='hn-top-story-comments'>&#128172; 1125</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.4</span> <span class='hn-top-story-score'>&#9650; 1653</span> <span class='hn-top-story-comments'>&#128172; 1135</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='106' data-hn-time='1790885663'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='34' data-hn-time='1790918540'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/01/top_stories_10012026#story-49926536'>SvelteKit 3</a>
- <a class='hn-top-story-link' href='https://svelte.dev/blog/sveltekit-3-is-here' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/02/top_stories_10022026#story-49930086'>US tells France and Germany to release diesel stocks or face US export ban</a>
+ <a class='hn-top-story-link' href='https://www.reuters.com/business/energy/us-tells-france-germany-release-diesel-stocks-or-face-us-export-ban-sources-say-2026-10-01/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>SvelteKit 3 已到来</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 106</span> <span class='hn-top-story-comments'>&#128172; 38</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>美国要求法国和德国释放柴油储备，否则将面临美国出口禁令</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.2</span> <span class='hn-top-story-score'>&#9650; 34</span> <span class='hn-top-story-comments'>&#128172; 27</span> <span class='hn-top-story-tag'>Energy</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
-<a class='hn-top-stories-more' href='/hackernews/2026/10/01/top_stories_10012026'>View all trending stories &rarr;</a>
+<a class='hn-top-stories-more' href='/hackernews/2026/10/02/top_stories_10022026'>View all trending stories &rarr;</a>
 <a class='hn-top-stories-more' href='/hackernews/2026/09/30/best_stories_09302026'>Latest Daily Best — 2026-09-30 &rarr;</a>
 </div>
 </div>
@@ -140,10 +140,19 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 40 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-09-28 — 2026-10-01 <span class="hn-row-sep">·</span> 550 stories <span class="hn-row-sep">·</span> 4 days</span>
+<span class='hn-week-meta'>2026-09-28 — 2026-10-02 <span class="hn-row-sep">·</span> 599 stories <span class="hn-row-sep">·</span> 5 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
+<div class='hn-day-row'>
+<div class='hn-day-date'>2026-10-02 <span class='hn-day-weekday'>Fri</span></div>
+<div class='hn-day-stories'>
+<a class='hn-story-link' href='/hackernews/2026/10/02/top_stories_10022026'>
+<span class='hn-row-type hn-type-top'>Trending</span>
+<span class='hn-row-detail'>All <b>49</b> <span class="hn-row-sep">·</span> AI <b>14</b> <span class="hn-row-sep">·</span> Programming <b>11</b></span>
+</a>
+</div>
+</div>
 <div class='hn-day-row'>
 <div class='hn-day-date'>2026-10-01 <span class='hn-day-weekday'>Thu</span></div>
 <div class='hn-day-stories'>
@@ -513,7 +522,7 @@ Sort:
 <details class='hn-week-group'>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 36</span>
-<span class='hn-week-meta'>2026-09-02 — 2026-09-06 <span class="hn-row-sep">·</span> 750 stories <span class="hn-row-sep">·</span> 5 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
+<span class='hn-week-meta'>2026-09-03 — 2026-09-06 <span class="hn-row-sep">·</span> 600 stories <span class="hn-row-sep">·</span> 4 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
 </summary>
 <div class='hn-week-content'>
 <a class='hn-story-link hn-weekly-digest-link' href='/hackernews/weekly/2026-W36'>
@@ -570,19 +579,6 @@ Sort:
 <a class='hn-story-link' href='/hackernews/2026/09/03/top_stories_09032026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
 <span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>30</b> <span class="hn-row-sep">·</span> Programming <b>20</b></span>
-</a>
-</div>
-</div>
-<div class='hn-day-row'>
-<div class='hn-day-date'>2026-09-02 <span class='hn-day-weekday'>Wed</span></div>
-<div class='hn-day-stories'>
-<a class='hn-story-link' href='/hackernews/2026/09/02/best_stories_09022026'>
-<span class='hn-row-type hn-type-best'>Daily Best</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>27</b> <span class="hn-row-sep">·</span> Privacy <b>10</b></span>
-</a>
-<a class='hn-story-link' href='/hackernews/2026/09/02/top_stories_09022026'>
-<span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>33</b> <span class="hn-row-sep">·</span> Science <b>15</b></span>
 </a>
 </div>
 </div>
