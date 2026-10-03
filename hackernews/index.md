@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>225</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>33265</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>222</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>223</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-10-02</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>226</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>33315</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>222</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>224</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-10-03</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,118 +20,118 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='201' data-hn-time='1790974596'>
+<div class='hn-top-story-item' data-hn-score='151' data-hn-time='1790997550'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/02/top_stories_10022026#story-49938521'>Zig v0.17.0</a>
- <a class='hn-top-story-link' href='https://ziglang.org/download/0.17.0/release-notes.html' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/03/top_stories_10032026#story-49941114'>Extra Big Ass Intelligence</a>
+ <a class='hn-top-story-link' href='https://www.extrabigassintelligence.com/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Zig 0.17.0 版本发布</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.2</span> <span class='hn-top-story-score'>&#9650; 201</span> <span class='hn-top-story-comments'>&#128172; 120</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-zh'>超大号智力</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.8</span> <span class='hn-top-story-score'>&#9650; 151</span> <span class='hn-top-story-comments'>&#128172; 32</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='303' data-hn-time='1790968016'>
+<div class='hn-top-story-item' data-hn-score='170' data-hn-time='1790988925'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/02/top_stories_10022026#story-49937276'>Apple Pass Designer</a>
- <a class='hn-top-story-link' href='https://developer.apple.com/pass-designer/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/03/top_stories_10032026#story-49940394'>Newgrounds.com – A community of games, music, and art</a>
+ <a class='hn-top-story-link' href='https://www.newgrounds.com/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Apple Pass 设计器</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.6</span> <span class='hn-top-story-score'>&#9650; 303</span> <span class='hn-top-story-comments'>&#128172; 199</span> <span class='hn-top-story-tag'>Design</span></div>
+<div class='hn-top-story-zh'>Newgrounds：一个游戏、音乐与艺术社区</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 170</span> <span class='hn-top-story-comments'>&#128172; 47</span> <span class='hn-top-story-tag'>Gaming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='84' data-hn-time='1790975216'>
+<div class='hn-top-story-item' data-hn-score='398' data-hn-time='1790968016'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/02/top_stories_10022026#story-49938616'>Every SaaS business will become a harness around a model</a>
- <a class='hn-top-story-link' href='https://blog.sshh.io/p/the-harness-is-the-company' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/03/top_stories_10032026#story-49937276'>Apple Pass Designer</a>
+ <a class='hn-top-story-link' href='https://developer.apple.com/pass-designer/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>每家 SaaS 公司都将围绕一个模型构筑支撑体系</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 84</span> <span class='hn-top-story-comments'>&#128172; 62</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-zh'>Apple Pass 设计器</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.3</span> <span class='hn-top-story-score'>&#9650; 398</span> <span class='hn-top-story-comments'>&#128172; 242</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='117' data-hn-time='1790969214'>
+<div class='hn-top-story-item' data-hn-score='171' data-hn-time='1790986991'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/02/top_stories_10022026#story-49937504'>Muse Gadgets</a>
- <a class='hn-top-story-link' href='https://gadgets.muse.ai' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/03/top_stories_10032026#story-49940219'>Things that apparently cause cancer</a>
+ <a class='hn-top-story-link' href='https://www.breakthroughjournal.org/p/things-that-apparently-cause-cancer' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Muse Gadgets</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 117</span> <span class='hn-top-story-comments'>&#128172; 59</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Design</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>据称致癌的事物</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 171</span> <span class='hn-top-story-comments'>&#128172; 63</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Health</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='105' data-hn-time='1790969821'>
+<div class='hn-top-story-item' data-hn-score='54' data-hn-time='1790997305'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/02/top_stories_10022026#story-49937631'>Updates to Full Disk Access in macOS</a>
- <a class='hn-top-story-link' href='https://developer.apple.com/news/?id=p6zjojqw' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/03/top_stories_10032026#story-49941091'>Cloudflare OHTTP gateway</a>
+ <a class='hn-top-story-link' href='https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>macOS 全磁盘访问权限更新</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 105</span> <span class='hn-top-story-comments'>&#128172; 63</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span></div>
+<div class='hn-top-story-zh'>Cloudflare OHTTP 网关</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 54</span> <span class='hn-top-story-comments'>&#128172; 11</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='100' data-hn-time='1790970306'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='180' data-hn-time='1790969821'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/02/top_stories_10022026#story-49937718'>GrapheneOS has fixed the Android 17 QPR1 kernel performance regression</a>
- <a class='hn-top-story-link' href='https://discuss.grapheneos.org/d/42511-grapheneos-has-fixed-the-massive-android-17-qpr1-kernel-performance-regression' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/03/top_stories_10032026#story-49937631'>Updates to Full Disk Access in macOS</a>
+ <a class='hn-top-story-link' href='https://developer.apple.com/news/?id=p6zjojqw' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>GrapheneOS 已修复 Android 17 QPR1 内核性能回归</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 100</span> <span class='hn-top-story-comments'>&#128172; 31</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-zh'>macOS 全磁盘访问权限更新</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.6</span> <span class='hn-top-story-score'>&#9650; 180</span> <span class='hn-top-story-comments'>&#128172; 119</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='73' data-hn-time='1790974335'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='182' data-hn-time='1790969214'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/02/top_stories_10022026#story-49938477'>ICE Has Been Dumping Protester Photos into a Palantir Database</a>
- <a class='hn-top-story-link' href='https://www.wired.com/story/ice-has-been-dumping-protester-photos-into-a-palantir-database/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/03/top_stories_10032026#story-49937504'>Muse Gadgets</a>
+ <a class='hn-top-story-link' href='https://gadgets.muse.ai' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>ICE 已将抗议者照片导入 Palantir 数据库</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 73</span> <span class='hn-top-story-comments'>&#128172; 13</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Data</span></div>
+<div class='hn-top-story-zh'>Muse Gadgets</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.6</span> <span class='hn-top-story-score'>&#9650; 182</span> <span class='hn-top-story-comments'>&#128172; 79</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1396' data-hn-time='1790883185'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='214' data-hn-time='1790964076'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/02/top_stories_10022026#story-49926069'>Pi 1.0</a>
- <a class='hn-top-story-link' href='https://earendil.com/posts/pi-1-0/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Pi 1.0</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 1396</span> <span class='hn-top-story-comments'>&#128172; 448</span> <span class='hn-top-story-tag'>Programming</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='169' data-hn-time='1790960551'>
-<span class='hn-top-story-rank'>9</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/02/top_stories_10022026#story-49935867'>ICC judge on what U.S. sanctions mean for her and global courts</a>
- <a class='hn-top-story-link' href='https://www.npr.org/2026/10/01/nx-s1-5977815/trump-icc-sanctions-kimberly-prost' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>ICC 法官谈美国制裁对她和全球法院的意义</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 169</span> <span class='hn-top-story-comments'>&#128172; 84</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Politics</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='136' data-hn-time='1790964076'>
-<span class='hn-top-story-rank'>10</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/02/top_stories_10022026#story-49936575'>From the creator of Redis; run LLM locally with ds4</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/03/top_stories_10032026#story-49936575'>From the creator of Redis; run LLM locally with ds4</a>
  <a class='hn-top-story-link' href='https://dwarfstar.sh/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>来自 Redis 创始人之手；用 ds4 本地运行 LLM</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.7</span> <span class='hn-top-story-score'>&#9650; 136</span> <span class='hn-top-story-comments'>&#128172; 36</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Open Source</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.6</span> <span class='hn-top-story-score'>&#9650; 214</span> <span class='hn-top-story-comments'>&#128172; 56</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Hardware</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='130' data-hn-time='1790975216'>
+<span class='hn-top-story-rank'>9</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/03/top_stories_10032026#story-49938616'>Every SaaS business will become a harness around a model</a>
+ <a class='hn-top-story-link' href='https://blog.sshh.io/p/the-harness-is-the-company' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>每家 SaaS 公司都将围绕一个模型构筑支撑体系</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.4</span> <span class='hn-top-story-score'>&#9650; 130</span> <span class='hn-top-story-comments'>&#128172; 89</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='273' data-hn-time='1790947112'>
+<span class='hn-top-story-rank'>10</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/03/top_stories_10032026#story-49933235'>The Legend of von Neumann (1973) [pdf]</a>
+ <a class='hn-top-story-link' href='https://gwern.net/doc/math/1973-halmos.pdf' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>冯·诺依曼传奇（1973）[pdf]</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.2</span> <span class='hn-top-story-score'>&#9650; 273</span> <span class='hn-top-story-comments'>&#128172; 148</span> <span class='hn-top-story-tag'>Science</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
-<a class='hn-top-stories-more' href='/hackernews/2026/10/02/top_stories_10022026'>View all trending stories &rarr;</a>
+<a class='hn-top-stories-more' href='/hackernews/2026/10/03/top_stories_10032026'>View all trending stories &rarr;</a>
 <a class='hn-top-stories-more' href='/hackernews/2026/10/01/best_stories_10012026'>Latest Daily Best — 2026-10-01 &rarr;</a>
 </div>
 </div>
@@ -140,10 +140,19 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 40 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-09-28 — 2026-10-02 <span class="hn-row-sep">·</span> 700 stories <span class="hn-row-sep">·</span> 5 days</span>
+<span class='hn-week-meta'>2026-09-28 — 2026-10-03 <span class="hn-row-sep">·</span> 750 stories <span class="hn-row-sep">·</span> 6 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
+<div class='hn-day-row'>
+<div class='hn-day-date'>2026-10-03 <span class='hn-day-weekday'>Sat</span></div>
+<div class='hn-day-stories'>
+<a class='hn-story-link' href='/hackernews/2026/10/03/top_stories_10032026'>
+<span class='hn-row-type hn-type-top'>Trending</span>
+<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>13</b> <span class="hn-row-sep">·</span> Programming <b>10</b></span>
+</a>
+</div>
+</div>
 <div class='hn-day-row'>
 <div class='hn-day-date'>2026-10-02 <span class='hn-day-weekday'>Fri</span></div>
 <div class='hn-day-stories'>
@@ -526,7 +535,7 @@ Sort:
 <details class='hn-week-group'>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 36</span>
-<span class='hn-week-meta'>2026-09-03 — 2026-09-06 <span class="hn-row-sep">·</span> 600 stories <span class="hn-row-sep">·</span> 4 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
+<span class='hn-week-meta'>2026-09-04 — 2026-09-06 <span class="hn-row-sep">·</span> 450 stories <span class="hn-row-sep">·</span> 3 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
 </summary>
 <div class='hn-week-content'>
 <a class='hn-story-link hn-weekly-digest-link' href='/hackernews/weekly/2026-W36'>
@@ -570,19 +579,6 @@ Sort:
 <a class='hn-story-link' href='/hackernews/2026/09/04/top_stories_09042026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
 <span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> Programming <b>26</b> <span class="hn-row-sep">·</span> AI <b>24</b></span>
-</a>
-</div>
-</div>
-<div class='hn-day-row'>
-<div class='hn-day-date'>2026-09-03 <span class='hn-day-weekday'>Thu</span></div>
-<div class='hn-day-stories'>
-<a class='hn-story-link' href='/hackernews/2026/09/03/best_stories_09032026'>
-<span class='hn-row-type hn-type-best'>Daily Best</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>22</b> <span class="hn-row-sep">·</span> Programming <b>9</b></span>
-</a>
-<a class='hn-story-link' href='/hackernews/2026/09/03/top_stories_09032026'>
-<span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>30</b> <span class="hn-row-sep">·</span> Programming <b>20</b></span>
 </a>
 </div>
 </div>
