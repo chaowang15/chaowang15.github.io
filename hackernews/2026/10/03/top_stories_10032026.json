@@ -4,19 +4,19 @@
     "source": "https://news.ycombinator.com/",
     "api": "https://github.com/HackerNews/API",
     "count_requested": 50,
-    "count_written": 50,
-    "reused_same_day": 0,
-    "reused_cross_day": 31,
-    "new_llm_enriched": 19,
-    "scrape_time_display": "00:23, October 03, 2026 (PDT)",
+    "count_written": 58,
+    "reused_same_day": 42,
+    "reused_cross_day": 0,
+    "new_llm_enriched": 8,
+    "scrape_time_display": "04:26, October 03, 2026 (PDT)",
     "timezone": "America/Los_Angeles",
     "date_dir": "2026/10/03",
     "content_date": "2026-10-03",
-    "run_time_local": "00:23, October 03, 2026 (PDT)",
-    "run_time_utc": "2026-10-03 07:23:51 UTC",
+    "run_time_local": "04:26, October 03, 2026 (PDT)",
+    "run_time_utc": "2026-10-03 11:26:42 UTC",
     "incremental": true,
     "stories_max": 100,
-    "hot_score_time_utc": "2026-10-03 07:25:10 UTC"
+    "hot_score_time_utc": "2026-10-03 11:27:33 UTC"
   },
   "items": [
     {
@@ -31,15 +31,15 @@
         "id": 49941114,
         "type": "story",
         "by": "34679",
-        "score": 151,
-        "descendants": 32,
+        "score": 315,
+        "descendants": 68,
         "time": 1790997550,
         "comments_url": "https://news.ycombinator.com/item?id=49941114"
       },
-      "hot_score": 5.79,
       "tags": [
         "AI"
-      ]
+      ],
+      "hot_score": 4.85
     },
     {
       "title_en": "Newgrounds.com – A community of games, music, and art",
@@ -53,15 +53,16 @@
         "id": 49940394,
         "type": "story",
         "by": "azhenley",
-        "score": 170,
-        "descendants": 47,
+        "score": 245,
+        "descendants": 65,
         "time": 1790988925,
         "comments_url": "https://news.ycombinator.com/item?id=49940394"
       },
-      "hot_score": 3.59,
       "tags": [
-        "Gaming"
-      ]
+        "Gaming",
+        "Culture"
+      ],
+      "hot_score": 2.57
     },
     {
       "title_en": "Apple Pass Designer",
@@ -75,15 +76,39 @@
         "id": 49937276,
         "type": "story",
         "by": "soheilpro",
-        "score": 398,
-        "descendants": 242,
+        "score": 442,
+        "descendants": 275,
         "time": 1790968016,
         "comments_url": "https://news.ycombinator.com/item?id=49937276"
       },
       "tags": [
-        "Programming"
+        "Programming",
+        "Design"
       ],
-      "hot_score": 3.3
+      "hot_score": 2.35
+    },
+    {
+      "title_en": "Gemini ending free use of Flash and Pro models",
+      "url": "https://www.reddit.com/r/GeminiAI/comments/1wwalmc/wtf_google_getting_rid_of_free_gemini_flash_and/",
+      "title_zh": "Gemini 将结束对 Flash 与 Pro 模型的免费使用",
+      "created_display": "Created: Oct 03, 2026 / 02:13 PT",
+      "image_url": null,
+      "summary_en": "Google Gemini is ending free access to its Flash and Pro models, signaling a shift to paid tiers for some capabilities. The change will affect startups and individuals relying on free access to AI models and may push users toward paid plans or alternative providers.",
+      "summary_zh": "Google Gemini 将停止对 Flash 与 Pro 模型提供免费使用，转向付费访问。此举可能影响依赖免费额度进行开发的初创公司和个人，可能促使用户转向付费方案或其他厂商。",
+      "hn": {
+        "id": 49942592,
+        "type": "story",
+        "by": "rjh29",
+        "score": 28,
+        "descendants": 15,
+        "time": 1791018799,
+        "comments_url": "https://news.ycombinator.com/item?id=49942592"
+      },
+      "hot_score": 2.01,
+      "tags": [
+        "Business",
+        "AI"
+      ]
     },
     {
       "title_en": "Things that apparently cause cancer",
@@ -97,15 +122,37 @@
         "id": 49940219,
         "type": "story",
         "by": "timpera",
-        "score": 171,
-        "descendants": 63,
+        "score": 183,
+        "descendants": 67,
         "time": 1790986991,
         "comments_url": "https://news.ycombinator.com/item?id=49940219"
       },
-      "hot_score": 3.24,
       "tags": [
         "Science",
         "Health"
+      ],
+      "hot_score": 1.78
+    },
+    {
+      "title_en": "GitHub's new dashboard experience now the default",
+      "url": "https://github.blog/changelog/2026-10-01-new-dashboard-experience-now-the-default/",
+      "title_zh": "GitHub 的新仪表板体验现已设为默认",
+      "created_display": "Created: Oct 03, 2026 / 02:59 PT",
+      "image_url": "https://github.blog/wp-content/uploads/2026/10/social-image-copy.jpeg",
+      "summary_en": "GitHub has rolled out its redesigned dashboard as the default experience, signaling a shift in how developers get a project overview. The new interface emphasizes a centralized activity feed, quicker navigation, and modular widgets for issues, PRs, and repos. Users may need to adapt to the updated layout and new features as they settle in.",
+      "summary_zh": "GitHub 将全新改版的仪表板设为默认体验，改变开发者获取项目概览的方式。新界面强调集中式活动摘要、快速导航，以及用于问题、合并请求和仓库的模块化小部件。用户需要适应更新的布局和新功能带来的变化。",
+      "hn": {
+        "id": 49942818,
+        "type": "story",
+        "by": "vanyauhalin",
+        "score": 16,
+        "descendants": 11,
+        "time": 1791021541,
+        "comments_url": "https://news.ycombinator.com/item?id=49942818"
+      },
+      "hot_score": 1.59,
+      "tags": [
+        "Programming"
       ]
     },
     {
@@ -120,129 +167,16 @@
         "id": 49941091,
         "type": "story",
         "by": "est",
-        "score": 54,
-        "descendants": 11,
+        "score": 95,
+        "descendants": 24,
         "time": 1790997305,
         "comments_url": "https://news.ycombinator.com/item?id=49941091"
       },
-      "hot_score": 2.0,
       "tags": [
-        "Privacy"
-      ]
-    },
-    {
-      "title_en": "Updates to Full Disk Access in macOS",
-      "url": "https://developer.apple.com/news/?id=p6zjojqw",
-      "title_zh": "macOS 全磁盘访问权限更新",
-      "created_display": "Created: Oct 02, 2026 / 12:37 PT",
-      "image_url": "https://developer.apple.com/news/images/og/full-disk-access-og.png",
-      "summary_en": "Apple updates macOS full disk access permissions, adding more granular prompts and directory-scoped controls. The changes push developers toward transparent data usage and safer defaults, reshaping how apps request broad file-system access.",
-      "summary_zh": "苹果对 macOS 的全磁盘访问权限进行了更新，增加了更细粒度的提示和基于目录的控制。改动促使开发者在数据使用上更透明、默认设置更安全，从而重塑应用请求广域文件系统访问的方式。",
-      "hn": {
-        "id": 49937631,
-        "type": "story",
-        "by": "notfirstpost",
-        "score": 180,
-        "descendants": 119,
-        "time": 1790969821,
-        "comments_url": "https://news.ycombinator.com/item?id=49937631"
-      },
-      "tags": [
-        "Security"
-      ],
-      "hot_score": 1.59
-    },
-    {
-      "title_en": "Muse Gadgets",
-      "url": "https://gadgets.muse.ai",
-      "title_zh": "Muse Gadgets",
-      "created_display": "Created: Oct 02, 2026 / 12:26 PT",
-      "image_url": "https://gadgets.muse.ai/gadgets/og/social.png",
-      "summary_en": "Muse Gadgets showcases a lineup of modern hardware with a focus on thoughtful design and practical specs. The coverage hints at how AI-enabled gadgets are reshaping consumer tech and daily workflows.",
-      "summary_zh": "Muse Gadgets 展示了一批现代硬件，强调设计与实用规格。文章/评测暗示了 AI 助力的设备如何改变普通用户的日常工作方式。",
-      "hn": {
-        "id": 49937504,
-        "type": "story",
-        "by": "anant",
-        "score": 182,
-        "descendants": 79,
-        "time": 1790969214,
-        "comments_url": "https://news.ycombinator.com/item?id=49937504"
-      },
-      "tags": [
-        "Hardware",
-        "AI"
-      ],
-      "hot_score": 1.57
-    },
-    {
-      "title_en": "From the creator of Redis; run LLM locally with ds4",
-      "url": "https://dwarfstar.sh/",
-      "title_zh": "来自 Redis 创始人之手；用 ds4 本地运行 LLM",
-      "created_display": "Created: Oct 02, 2026 / 11:01 PT",
-      "image_url": "https://dwarfstar.sh/og-preview-v2.png",
-      "summary_en": "From the creator of Redis, ds4 is a local LLM runner designed to execute inference on commodity hardware, avoiding cloud latency and preserving privacy. It targets efficient memory usage and practical offline experimentation with open models, lowering the barrier to private AI pilots.",
-      "summary_zh": "来自 Redis 创始人之手的 ds4 是一个本地大型语言模型推理工具，旨在在普通硬件上离线运行、避免云端延迟并提升隐私性。它强调高效的内存使用，降低了私有 AI 试验的门槛。",
-      "hn": {
-        "id": 49936575,
-        "type": "story",
-        "by": "fibo",
-        "score": 214,
-        "descendants": 56,
-        "time": 1790964076,
-        "comments_url": "https://news.ycombinator.com/item?id=49936575"
-      },
-      "tags": [
-        "AI",
         "Privacy",
-        "Hardware"
+        "Web"
       ],
-      "hot_score": 1.55
-    },
-    {
-      "title_en": "Every SaaS business will become a harness around a model",
-      "url": "https://blog.sshh.io/p/the-harness-is-the-company",
-      "title_zh": "每家 SaaS 公司都将围绕一个模型构筑支撑体系",
-      "created_display": "Created: Oct 02, 2026 / 14:06 PT",
-      "image_url": "https://substackcdn.com/image/fetch/$s_!DMig!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd8cf3fdf-c311-47d0-b42d-f75864c4dd68_1620x897.png",
-      "summary_en": "SaaS firms increasingly position the core asset as a model, becoming platforms that wrap data, tooling, and interfaces around a central AI/model capability. This pivot foregrounds governance, data strategy, and monetization as the model becomes the business’s engine.",
-      "summary_zh": "SaaS 公司将核心资产定位为模型，成为围绕模型能力构筑数据、工具和界面的平台。这一转变将治理、数据策略和商业化放在核心位置，使模型成为业务引擎。",
-      "hn": {
-        "id": 49938616,
-        "type": "story",
-        "by": "iacguy",
-        "score": 130,
-        "descendants": 89,
-        "time": 1790975216,
-        "comments_url": "https://news.ycombinator.com/item?id=49938616"
-      },
-      "tags": [
-        "Business",
-        "AI"
-      ],
-      "hot_score": 1.41
-    },
-    {
-      "title_en": "The Legend of von Neumann (1973) [pdf]",
-      "url": "https://gwern.net/doc/math/1973-halmos.pdf",
-      "title_zh": "冯·诺依曼传奇（1973）[pdf]",
-      "created_display": "Created: Oct 02, 2026 / 06:18 PT",
-      "image_url": null,
-      "summary_en": "A concise retrospective essay revisits the legend of John von Neumann, separating folklore from reality. It surveys his wide-ranging contributions to mathematics and computing and reflects on how his persona helped shape the way we think about computation.",
-      "summary_zh": "这篇简短的回顾性随笔区分了冯·诺依曼传说与真实贡献，梳理他在数学与计算领域的广泛贡献，并反思他的形象如何塑造了人们对计算的认知。",
-      "hn": {
-        "id": 49933235,
-        "type": "story",
-        "by": "suopspaces",
-        "score": 273,
-        "descendants": 148,
-        "time": 1790947112,
-        "comments_url": "https://news.ycombinator.com/item?id=49933235"
-      },
-      "tags": [
-        "Science"
-      ],
-      "hot_score": 1.23
+      "hot_score": 1.44
     },
     {
       "title_en": "An Update on Orion for Linux and Windows",
@@ -256,15 +190,250 @@
         "id": 49941447,
         "type": "story",
         "by": "pentagrama",
-        "score": 17,
-        "descendants": 3,
+        "score": 68,
+        "descendants": 35,
         "time": 1791003237,
         "comments_url": "https://news.ycombinator.com/item?id=49941447"
       },
-      "hot_score": 1.06,
       "tags": [
+        "Programming",
         "Web"
-      ]
+      ],
+      "hot_score": 1.4
+    },
+    {
+      "title_en": "From the creator of Redis; run LLM locally with ds4",
+      "url": "https://dwarfstar.sh/",
+      "title_zh": "来自 Redis 创始人之手；用 ds4 本地运行 LLM",
+      "created_display": "Created: Oct 02, 2026 / 11:01 PT",
+      "image_url": "https://dwarfstar.sh/og-preview-v2.png",
+      "summary_en": "From the creator of Redis, ds4 is a local LLM runner designed to execute inference on commodity hardware, avoiding cloud latency and preserving privacy. It targets efficient memory usage and practical offline experimentation with open models, lowering the barrier to private AI pilots.",
+      "summary_zh": "来自 Redis 创始人之手的 ds4 是一个本地大型语言模型推理工具，旨在在普通硬件上离线运行、避免云端延迟并提升隐私性。它强调高效的内存使用，降低了私有 AI 试验的门槛。",
+      "hn": {
+        "id": 49936575,
+        "type": "story",
+        "by": "fibo",
+        "score": 259,
+        "descendants": 68,
+        "time": 1790964076,
+        "comments_url": "https://news.ycombinator.com/item?id=49936575"
+      },
+      "tags": [
+        "AI",
+        "Programming",
+        "Privacy",
+        "Hardware"
+      ],
+      "hot_score": 1.24
+    },
+    {
+      "title_en": "Updates to Full Disk Access in macOS",
+      "url": "https://developer.apple.com/news/?id=p6zjojqw",
+      "title_zh": "macOS 全磁盘访问权限更新",
+      "created_display": "Created: Oct 02, 2026 / 12:37 PT",
+      "image_url": "https://developer.apple.com/news/images/og/full-disk-access-og.png",
+      "summary_en": "Apple updates macOS full disk access permissions, adding more granular prompts and directory-scoped controls. The changes push developers toward transparent data usage and safer defaults, reshaping how apps request broad file-system access.",
+      "summary_zh": "苹果对 macOS 的全磁盘访问权限进行了更新，增加了更细粒度的提示和基于目录的控制。改动促使开发者在数据使用上更透明、默认设置更安全，从而重塑应用请求广域文件系统访问的方式。",
+      "hn": {
+        "id": 49937631,
+        "type": "story",
+        "by": "notfirstpost",
+        "score": 210,
+        "descendants": 141,
+        "time": 1790969821,
+        "comments_url": "https://news.ycombinator.com/item?id=49937631"
+      },
+      "tags": [
+        "Privacy",
+        "Security"
+      ],
+      "hot_score": 1.17
+    },
+    {
+      "title_en": "Muse Gadgets",
+      "url": "https://gadgets.muse.ai",
+      "title_zh": "Muse Gadgets",
+      "created_display": "Created: Oct 02, 2026 / 12:26 PT",
+      "image_url": "https://gadgets.muse.ai/gadgets/og/social.png",
+      "summary_en": "Muse Gadgets showcases a lineup of modern hardware with a focus on thoughtful design and practical specs. The coverage hints at how AI-enabled gadgets are reshaping consumer tech and daily workflows.",
+      "summary_zh": "Muse Gadgets 展示了一批现代硬件，强调设计与实用规格。文章/评测暗示了 AI 助力的设备如何改变普通用户的日常工作方式。",
+      "hn": {
+        "id": 49937504,
+        "type": "story",
+        "by": "anant",
+        "score": 203,
+        "descendants": 89,
+        "time": 1790969214,
+        "comments_url": "https://news.ycombinator.com/item?id=49937504"
+      },
+      "tags": [
+        "Hardware",
+        "Design",
+        "AI"
+      ],
+      "hot_score": 1.11
+    },
+    {
+      "title_en": "The Legend of von Neumann (1973) [pdf]",
+      "url": "https://gwern.net/doc/math/1973-halmos.pdf",
+      "title_zh": "冯·诺依曼传奇（1973）[pdf]",
+      "created_display": "Created: Oct 02, 2026 / 06:18 PT",
+      "image_url": null,
+      "summary_en": "A concise retrospective essay revisits the legend of John von Neumann, separating folklore from reality. It surveys his wide-ranging contributions to mathematics and computing and reflects on how his persona helped shape the way we think about computation.",
+      "summary_zh": "这篇简短的回顾性随笔区分了冯·诺依曼传说与真实贡献，梳理他在数学与计算领域的广泛贡献，并反思他的形象如何塑造了人们对计算的认知。",
+      "hn": {
+        "id": 49933235,
+        "type": "story",
+        "by": "suopspaces",
+        "score": 288,
+        "descendants": 150,
+        "time": 1790947112,
+        "comments_url": "https://news.ycombinator.com/item?id=49933235"
+      },
+      "tags": [
+        "Science"
+      ],
+      "hot_score": 0.93
+    },
+    {
+      "title_en": "Every SaaS business will become a harness around a model",
+      "url": "https://blog.sshh.io/p/the-harness-is-the-company",
+      "title_zh": "每家 SaaS 公司都将围绕一个模型构筑支撑体系",
+      "created_display": "Created: Oct 02, 2026 / 14:06 PT",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!DMig!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd8cf3fdf-c311-47d0-b42d-f75864c4dd68_1620x897.png",
+      "summary_en": "SaaS firms increasingly position the core asset as a model, becoming platforms that wrap data, tooling, and interfaces around a central AI/model capability. This pivot foregrounds governance, data strategy, and monetization as the model becomes the business’s engine.",
+      "summary_zh": "SaaS 公司将核心资产定位为模型，成为围绕模型能力构筑数据、工具和界面的平台。这一转变将治理、数据策略和商业化放在核心位置，使模型成为业务引擎。",
+      "hn": {
+        "id": 49938616,
+        "type": "story",
+        "by": "iacguy",
+        "score": 137,
+        "descendants": 94,
+        "time": 1790975216,
+        "comments_url": "https://news.ycombinator.com/item?id=49938616"
+      },
+      "tags": [
+        "Startups",
+        "Business",
+        "AI"
+      ],
+      "hot_score": 0.89
+    },
+    {
+      "title_en": "Court agrees with EFF: Utah's VPN law demands a technical impossibility",
+      "url": "https://www.eff.org/deeplinks/2026/10/court-agrees-eff-utahs-vpn-law-demands-technical-impossibility",
+      "title_zh": "法院认定犹他州的 VPN 法等同技术不可实现",
+      "created_display": "Created: Oct 01, 2026 / 15:23 PT",
+      "image_url": "https://www.eff.org/files/banner_library/vpn-highway-tunnel-banner.jpg",
+      "summary_en": "The court sided with the EFF, ruling that Utah's VPN law imposes requirements that are effectively impossible to meet. The decision underscores how prescriptive tech laws can clash with real-world capabilities of privacy tools. For engineers and policymakers, it's a reminder that regulatory designs must align with practical feasibility.",
+      "summary_zh": "法院支持EFF的立场，裁定犹他州的 VPN 法在技术实现上不可行。此判决凸显了规制性科技法规与隐私工具现实能力之间的冲突。对工程师和政策制定者而言，这是一个提醒：可执行的规则须与实际可行性相符。",
+      "hn": {
+        "id": 49927754,
+        "type": "story",
+        "by": "hn_acker",
+        "score": 648,
+        "descendants": 299,
+        "time": 1790893387,
+        "comments_url": "https://news.ycombinator.com/item?id=49927754"
+      },
+      "tags": [
+        "Legal",
+        "Privacy",
+        "Politics"
+      ],
+      "hot_score": 0.88
+    },
+    {
+      "title_en": "A 12-year sequence of telescope images of a star and four planets orbiting",
+      "url": "https://bsky.app/profile/theplanetaryguy.com/post/3mwucf5ert22f",
+      "title_zh": "12 年序列的望远镜影像：一颗恒星及四颗行星的轨道",
+      "created_display": "Created: Oct 02, 2026 / 04:07 PT",
+      "image_url": "https://video.bsky.app/watch/did%3Aplc%3Awwbktud2d34ont3frkv73pjo/bafkreigrgiobnhj6rl64sejfafxzpaife6lahnriedl6uc6mox5ebppmym/thumbnail.jpg",
+      "summary_en": "A 12-year sequence of telescope images reveals orbital motion of a star and four planets, offering a rare long-term view of exoplanet dynamics and system stability.",
+      "summary_zh": "一组长达 12 年的望远镜影像揭示了一颗恒星及其四颗行星的轨道运动，提供罕见的外星行星动力学与系统稳定性观测。",
+      "hn": {
+        "id": 49932147,
+        "type": "story",
+        "by": "mariuz",
+        "score": 299,
+        "descendants": 58,
+        "time": 1790939237,
+        "comments_url": "https://news.ycombinator.com/item?id=49932147"
+      },
+      "tags": [
+        "Space",
+        "Science"
+      ],
+      "hot_score": 0.83
+    },
+    {
+      "title_en": "The Forgetful CPU (Linux on M4)",
+      "url": "https://yuka.dev/blog-2026-10-02-linux-m4.html",
+      "title_zh": "忘记的 CPU：在 M4 上运行 Linux",
+      "created_display": "Created: Oct 02, 2026 / 07:22 PT",
+      "image_url": "https://yuka.dev/files/sven-m4-sptm.png",
+      "summary_en": "A developer explores running Linux on an M4-class MCU, detailing the hardware constraints and the tricks needed to boot and operate a Linux userland on such a small, memory-limited device.",
+      "summary_zh": "作者尝试在 M4 级微控制器上运行 Linux，聚焦缺乏 MMU、内存有限等硬件约束，以及在如此受限设备上实现 Linux 的关键技巧。这一尝试揭示了嵌入式 Linux 的新边界，以及微控制器层面上运行复杂软件的潜在可能。",
+      "hn": {
+        "id": 49933869,
+        "type": "story",
+        "by": "signa11",
+        "score": 229,
+        "descendants": 149,
+        "time": 1790950932,
+        "comments_url": "https://news.ycombinator.com/item?id=49933869"
+      },
+      "tags": [
+        "Hardware",
+        "Programming"
+      ],
+      "hot_score": 0.8
+    },
+    {
+      "title_en": "With most information hidden, the game Stratego had stumped AI until now",
+      "url": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/",
+      "title_zh": "信息几乎全被隐藏的 Stratego 一直让 AI 无法取胜，如今首次被击败",
+      "created_display": "Created: Oct 02, 2026 / 07:11 PT",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1864707238-1152x648.jpg",
+      "summary_en": "AI had struggled with Stratego because most information is hidden, creating a challenging imperfect-information setting. A new approach (and a tight compute budget) finally defeats top human players in this game. The result advances planning under uncertainty and shows progress in AI's ability to handle hidden information.",
+      "summary_zh": "由于 Stratego 的信息高度隐藏，AI 长期难以取胜，属于不完美信息环境的挑战。最新方法在有限预算下首次击败顶尖人类选手，推动在不确定性情境下的规划能力。此进展凸显 AI 在处理隐含信息方面的新突破。",
+      "hn": {
+        "id": 49933740,
+        "type": "story",
+        "by": "PaulHoule",
+        "score": 223,
+        "descendants": 109,
+        "time": 1790950284,
+        "comments_url": "https://news.ycombinator.com/item?id=49933740"
+      },
+      "tags": [
+        "AI"
+      ],
+      "hot_score": 0.77
+    },
+    {
+      "title_en": "Show HN: Made an open-source Lego AI generator",
+      "url": "https://github.com/anteloc/ldraw-nova",
+      "title_zh": "Show HN：开源乐高 AI 生成器",
+      "created_display": "Created: Oct 02, 2026 / 13:00 PT",
+      "image_url": "https://opengraph.githubassets.com/e50bcec8eeb41dbdb53f0148e196abd409e4783a46c7512a3622f4197f4ed1c4/anteloc/ldraw-nova",
+      "summary_en": "An open-source tool that uses AI to generate LEGO build designs, outputting models compatible with the LDraw ecosystem. The project demonstrates how AI can assist creative engineering with printable LEGO builds, and invites community contributions.",
+      "summary_zh": "一个开源工具，利用 AI 生成乐高搭建设计，输出兼容 LDraw 的模型。该项目展示了 AI 在创意制造中的潜力，并欢迎社区共同改进。",
+      "hn": {
+        "id": 49937916,
+        "type": "story",
+        "by": "antelocnova",
+        "score": 116,
+        "descendants": 46,
+        "time": 1790971215,
+        "comments_url": "https://news.ycombinator.com/item?id=49937916"
+      },
+      "tags": [
+        "Show HN",
+        "Open Source",
+        "AI"
+      ],
+      "hot_score": 0.67
     },
     {
       "title_en": "GrapheneOS has fixed the Android 17 QPR1 kernel performance regression",
@@ -284,127 +453,11 @@
         "comments_url": "https://news.ycombinator.com/item?id=49937718"
       },
       "tags": [
+        "Open Source",
         "Security",
-        "Privacy",
-        "Open Source"
+        "Privacy"
       ],
-      "hot_score": 1.03
-    },
-    {
-      "title_en": "With most information hidden, the game Stratego had stumped AI until now",
-      "url": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/",
-      "title_zh": "信息几乎全被隐藏的 Stratego 一直让 AI 无法取胜，如今首次被击败",
-      "created_display": "Created: Oct 02, 2026 / 07:11 PT",
-      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1864707238-1152x648.jpg",
-      "summary_en": "AI had struggled with Stratego because most information is hidden, creating a challenging imperfect-information setting. A new approach (and a tight compute budget) finally defeats top human players in this game. The result advances planning under uncertainty and shows progress in AI's ability to handle hidden information.",
-      "summary_zh": "由于 Stratego 的信息高度隐藏，AI 长期难以取胜，属于不完美信息环境的挑战。最新方法在有限预算下首次击败顶尖人类选手，推动在不确定性情境下的规划能力。此进展凸显 AI 在处理隐含信息方面的新突破。",
-      "hn": {
-        "id": 49933740,
-        "type": "story",
-        "by": "PaulHoule",
-        "score": 209,
-        "descendants": 103,
-        "time": 1790950284,
-        "comments_url": "https://news.ycombinator.com/item?id=49933740"
-      },
-      "tags": [
-        "AI",
-        "Gaming"
-      ],
-      "hot_score": 1.02
-    },
-    {
-      "title_en": "Court agrees with EFF: Utah's VPN law demands a technical impossibility",
-      "url": "https://www.eff.org/deeplinks/2026/10/court-agrees-eff-utahs-vpn-law-demands-technical-impossibility",
-      "title_zh": "法院认定犹他州的 VPN 法等同技术不可实现",
-      "created_display": "Created: Oct 01, 2026 / 15:23 PT",
-      "image_url": "https://www.eff.org/files/banner_library/vpn-highway-tunnel-banner.jpg",
-      "summary_en": "The court sided with the EFF, ruling that Utah's VPN law imposes requirements that are effectively impossible to meet. The decision underscores how prescriptive tech laws can clash with real-world capabilities of privacy tools. For engineers and policymakers, it's a reminder that regulatory designs must align with practical feasibility.",
-      "summary_zh": "法院支持EFF的立场，裁定犹他州的 VPN 法在技术实现上不可行。此判决凸显了规制性科技法规与隐私工具现实能力之间的冲突。对工程师和政策制定者而言，这是一个提醒：可执行的规则须与实际可行性相符。",
-      "hn": {
-        "id": 49927754,
-        "type": "story",
-        "by": "hn_acker",
-        "score": 600,
-        "descendants": 261,
-        "time": 1790893387,
-        "comments_url": "https://news.ycombinator.com/item?id=49927754"
-      },
-      "tags": [
-        "Legal",
-        "Privacy",
-        "Politics"
-      ],
-      "hot_score": 0.99
-    },
-    {
-      "title_en": "Show HN: Made an open-source Lego AI generator",
-      "url": "https://github.com/anteloc/ldraw-nova",
-      "title_zh": "Show HN：开源乐高 AI 生成器",
-      "created_display": "Created: Oct 02, 2026 / 13:00 PT",
-      "image_url": "https://opengraph.githubassets.com/e50bcec8eeb41dbdb53f0148e196abd409e4783a46c7512a3622f4197f4ed1c4/anteloc/ldraw-nova",
-      "summary_en": "An open-source tool that uses AI to generate LEGO build designs, outputting models compatible with the LDraw ecosystem. The project demonstrates how AI can assist creative engineering with printable LEGO builds, and invites community contributions.",
-      "summary_zh": "一个开源工具，利用 AI 生成乐高搭建设计，输出兼容 LDraw 的模型。该项目展示了 AI 在创意制造中的潜力，并欢迎社区共同改进。",
-      "hn": {
-        "id": 49937916,
-        "type": "story",
-        "by": "antelocnova",
-        "score": 105,
-        "descendants": 44,
-        "time": 1790971215,
-        "comments_url": "https://news.ycombinator.com/item?id=49937916"
-      },
-      "tags": [
-        "Show HN",
-        "AI",
-        "Open Source"
-      ],
-      "hot_score": 0.97
-    },
-    {
-      "title_en": "A 12-year sequence of telescope images of a star and four planets orbiting",
-      "url": "https://bsky.app/profile/theplanetaryguy.com/post/3mwucf5ert22f",
-      "title_zh": "12 年序列的望远镜影像：一颗恒星及四颗行星的轨道",
-      "created_display": "Created: Oct 02, 2026 / 04:07 PT",
-      "image_url": "https://video.bsky.app/watch/did%3Aplc%3Awwbktud2d34ont3frkv73pjo/bafkreigrgiobnhj6rl64sejfafxzpaife6lahnriedl6uc6mox5ebppmym/thumbnail.jpg",
-      "summary_en": "A 12-year sequence of telescope images reveals orbital motion of a star and four planets, offering a rare long-term view of exoplanet dynamics and system stability.",
-      "summary_zh": "一组长达 12 年的望远镜影像揭示了一颗恒星及其四颗行星的轨道运动，提供罕见的外星行星动力学与系统稳定性观测。",
-      "hn": {
-        "id": 49932147,
-        "type": "story",
-        "by": "mariuz",
-        "score": 253,
-        "descendants": 53,
-        "time": 1790939237,
-        "comments_url": "https://news.ycombinator.com/item?id=49932147"
-      },
-      "tags": [
-        "Space",
-        "Science"
-      ],
-      "hot_score": 0.94
-    },
-    {
-      "title_en": "The Forgetful CPU (Linux on M4)",
-      "url": "https://yuka.dev/blog-2026-10-02-linux-m4.html",
-      "title_zh": "忘记的 CPU：在 M4 上运行 Linux",
-      "created_display": "Created: Oct 02, 2026 / 07:22 PT",
-      "image_url": "https://yuka.dev/files/sven-m4-sptm.png",
-      "summary_en": "A developer explores running Linux on an M4-class MCU, detailing the hardware constraints and the tricks needed to boot and operate a Linux userland on such a small, memory-limited device.",
-      "summary_zh": "作者尝试在 M4 级微控制器上运行 Linux，聚焦缺乏 MMU、内存有限等硬件约束，以及在如此受限设备上实现 Linux 的关键技巧。这一尝试揭示了嵌入式 Linux 的新边界，以及微控制器层面上运行复杂软件的潜在可能。",
-      "hn": {
-        "id": 49933869,
-        "type": "story",
-        "by": "signa11",
-        "score": 188,
-        "descendants": 113,
-        "time": 1790950932,
-        "comments_url": "https://news.ycombinator.com/item?id=49933869"
-      },
-      "tags": [
-        "Hardware"
-      ],
-      "hot_score": 0.93
+      "hot_score": 0.65
     },
     {
       "title_en": "One month coding with GLM 5.3 Flash",
@@ -418,15 +471,198 @@
         "id": 49934620,
         "type": "story",
         "by": "ThibWeb",
-        "score": 145,
-        "descendants": 107,
+        "score": 167,
+        "descendants": 125,
         "time": 1790954955,
         "comments_url": "https://news.ycombinator.com/item?id=49934620"
       },
       "tags": [
         "Programming"
       ],
-      "hot_score": 0.8
+      "hot_score": 0.64
+    },
+    {
+      "title_en": "Shimano Bicycle Museum Review",
+      "url": "https://inrng.com/2026/10/shimano-bicycle-museum/",
+      "title_zh": "Shimano自行车博物馆评测",
+      "created_display": "Created: Oct 01, 2026 / 22:12 PT",
+      "image_url": "https://inrng.com/wp-content/uploads/2023/12/inrng_logo-120.png",
+      "summary_en": "Shimano's Bicycle Museum chronicles the evolution of cycling tech from early gears to modern drivetrains. The review highlights Shimano's influence on mechanical design and rider experience, showing how heritage and innovation intersect in cycling culture. It's a compact, hands-on lens for engineers and enthusiasts interested in product history.",
+      "summary_zh": "Shimano自行车博物馆通过展品展示了从早期齿轮到现代传动系统的演变。评测强调了Shimano在机械设计和骑行体验上的影响，揭示了遗产与创新在自行车文化中的交汇。对于工程师和爱好者而言，这是窥见产品史的紧凑视角。",
+      "hn": {
+        "id": 49930047,
+        "type": "story",
+        "by": "pietroppeter",
+        "score": 291,
+        "descendants": 77,
+        "time": 1790917978,
+        "comments_url": "https://news.ycombinator.com/item?id=49930047"
+      },
+      "tags": [
+        "Design",
+        "Culture"
+      ],
+      "hot_score": 0.56
+    },
+    {
+      "title_en": "Mike Tomlin spent 12 years building a Minecraft city",
+      "url": "https://www.nytimes.com/athletic/7648198/2026/10/01/mike-tomlin-minecraft-nfl-coach/",
+      "title_zh": "迈克·汤姆林花12 年打造 Minecraft 城市",
+      "created_display": "Created: Oct 01, 2026 / 11:20 PT",
+      "image_url": "https://static01.nyt.com/athletic/uploads/wp/2026/10/01110103/1001_Tomlin1.jpg?width=1200&height=630&fit=crop",
+      "summary_en": "New York Times profiles NFL coach Mike Tomlin’s 12-year Minecraft city project, revealing how long-form world-building parallels leadership, teamwork, and problem-solving in coaching. The piece offers a surprising window into how hobbies can inform professional skills.",
+      "summary_zh": "纽约时报报道 NFL 教练迈克·汤姆林花费 12 年构建 Minecraft 城市的事迹，揭示长期世界建设与领导力、团队协作以及解决问题能力之间的共鸣。文章为展示爱好也能为职业技能提供启示。",
+      "hn": {
+        "id": 49925184,
+        "type": "story",
+        "by": "CoryOndrejka",
+        "score": 482,
+        "descendants": 110,
+        "time": 1790878818,
+        "comments_url": "https://news.ycombinator.com/item?id=49925184"
+      },
+      "tags": [
+        "Gaming",
+        "Culture"
+      ],
+      "hot_score": 0.55
+    },
+    {
+      "title_en": "On social reality in China",
+      "url": "https://www.lesswrong.com/posts/b5cSYh4emQb2qrGmK/on-social-reality-in-china",
+      "title_zh": "中国的社会现实",
+      "created_display": "Created: Oct 02, 2026 / 04:42 PT",
+      "image_url": "https://res.cloudinary.com/lesswrong-2-0/image/upload/c_fill,ar_1.91,g_auto/SocialPreview/ypebfw5zo6k1yb61i8ou",
+      "summary_en": "LessWrong essay analyzes how social reality in China is shaped by online platforms, censorship, and governance, with implications for information flow and perception.",
+      "summary_zh": "LessWrong 的专栏文章分析中国的社会现实如何被在线平台、审查制度和治理所塑造，影响信息流动与社会认知。",
+      "hn": {
+        "id": 49932402,
+        "type": "story",
+        "by": "thicTurtlLverXX",
+        "score": 192,
+        "descendants": 193,
+        "time": 1790941346,
+        "comments_url": "https://news.ycombinator.com/item?id=49932402"
+      },
+      "tags": [
+        "Politics",
+        "Culture"
+      ],
+      "hot_score": 0.55
+    },
+    {
+      "title_en": "FLUX 3 Image",
+      "url": "https://bfl.ai/models/flux-3-image",
+      "title_zh": "Flux 3 Image 图像模型",
+      "created_display": "Created: Oct 01, 2026 / 12:24 PT",
+      "image_url": "https://cdn.sanity.io/images/2gpum2i6/production/486fe8dbe090c31226c868dac01a1f5d918eb756-1200x630.jpg",
+      "summary_en": "Flux 3 Image introduces a new open-source image model aimed at higher fidelity and efficiency, enabling high-quality generation with modest compute. It adds to a growing ecosystem of community-backed vision models competing with closed options.",
+      "summary_zh": "Flux 3 Image 推出一款新的开源图像模型，目标在于提升保真度与效率，使用较少的算力即可生成高质量图像。它丰富了日益壮大的开源视觉模型生态，与商业化闭源方案展开竞争。",
+      "hn": {
+        "id": 49925974,
+        "type": "story",
+        "by": "minimaxir",
+        "score": 357,
+        "descendants": 77,
+        "time": 1790882669,
+        "comments_url": "https://news.ycombinator.com/item?id=49925974"
+      },
+      "tags": [
+        "AI",
+        "Open Source"
+      ],
+      "hot_score": 0.43
+    },
+    {
+      "title_en": "Show HN: Giving Opus 5.5 a simulated paint canvas",
+      "url": "https://stillwet.art/",
+      "title_zh": "Show HN：给 Opus 5.5 增添模拟绘画画布",
+      "created_display": "Created: Oct 01, 2026 / 17:27 PT",
+      "image_url": "https://stillwet.art/img/og-card.jpg",
+      "summary_en": "Show HN demonstrates giving Opus 5.5 a simulated paint canvas, illustrating how the model can emulate brushwork and texture in a browser-friendly setup. It's a practical example of blending AI with artistic workflows.",
+      "summary_zh": "Show HN 展示如何为 Opus 5.5 增加一个模拟绘画画布，演示模型在浏览器环境中模拟笔触和纹理的能力。这是将 AI 与艺术工作流结合的实际案例。",
+      "hn": {
+        "id": 49928566,
+        "type": "story",
+        "by": "alstonite",
+        "score": 288,
+        "descendants": 90,
+        "time": 1790900876,
+        "comments_url": "https://news.ycombinator.com/item?id=49928566"
+      },
+      "tags": [
+        "Show HN",
+        "AI",
+        "Web"
+      ],
+      "hot_score": 0.43
+    },
+    {
+      "title_en": "Greg Kroah-Hartman – Security in the LLM Age [video]",
+      "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
+      "title_zh": "Greg Kroah-Hartman：LLM时代的安全性 [视频]",
+      "created_display": "Created: Oct 01, 2026 / 19:51 PT",
+      "image_url": null,
+      "summary_en": "Greg Kroah-Hartman discusses security in the LLM age, highlighting new risks from large models, prompts, and supply chains. He argues for stronger containment, safer interfaces, and better tooling for kernel and system security as AI becomes integral to software. The talk offers practical takeaways for developers building AI-assisted systems.",
+      "summary_zh": "Greg Kroah-Hartman 讨论了在 LLM 时代的安全挑战，聚焦大模型、提示攻击和供应链等新风险。他主张加强容器化与隔离、改进接口安全，以及在内核与系统层提供更好的安全工具。此视频为构建 AI 助力系统的开发者提供了切实可行的建议。",
+      "hn": {
+        "id": 49929391,
+        "type": "story",
+        "by": "usernomdeguerre",
+        "score": 248,
+        "descendants": 78,
+        "time": 1790909487,
+        "comments_url": "https://news.ycombinator.com/item?id=49929391"
+      },
+      "tags": [
+        "Security",
+        "AI"
+      ],
+      "hot_score": 0.42
+    },
+    {
+      "title_en": "Venice’s failed war against Constantinople led to the first bond market",
+      "url": "https://bigthink.com/books/a-fabulous-debt/",
+      "title_zh": "威尼斯对君士顿丁堡的失败战争催生了第一批债券市场",
+      "created_display": "Created: Oct 02, 2026 / 06:17 PT",
+      "image_url": "https://bigthink.com/wp-content/uploads/2026/09/fabulous-debt_excerpt.jpg?resize=1200,630",
+      "summary_en": "A historical account links Venice's failed war against Constantinople to the emergence of the first bond market, illustrating how debt markets evolved from wartime financing.",
+      "summary_zh": "历史研究将威尼斯对君士坦丁堡的失败战争与第一批债券市场的出现联系起来，揭示战争融资如何推动债市的演变。",
+      "hn": {
+        "id": 49933230,
+        "type": "story",
+        "by": "RickJWagner",
+        "score": 126,
+        "descendants": 37,
+        "time": 1790947067,
+        "comments_url": "https://news.ycombinator.com/item?id=49933230"
+      },
+      "tags": [
+        "Finance"
+      ],
+      "hot_score": 0.4
+    },
+    {
+      "title_en": "Sites in ChatGPT",
+      "url": "https://chatgpt.com/features/sites/",
+      "title_zh": "ChatGPT 新增“Sites”功能上线",
+      "created_display": "Created: Oct 01, 2026 / 15:22 PT",
+      "image_url": "https://images.ctfassets.net/8su2tbn87fck/7opHWDkY78DTYHpI25rerY/9d4aefed1bc3f25e49277f597037d071/37243680-10ed-4f03-82a8-5fac7eb86fa7.png?w=1600&h=900&fit=fill",
+      "summary_en": "ChatGPT adds a 'Sites' feature to publish and share pages built from chat interactions, streamlining content sharing without leaving the chat. This tight coupling of creation and publishing suits knowledge work and rapid demos.",
+      "summary_zh": "ChatGPT 新增“Sites”功能，可以直接从对话中创建并发布网页，简化内容分享流程。将创作与发布紧密结合，适合知识工作和快速演示。",
+      "hn": {
+        "id": 49927747,
+        "type": "story",
+        "by": "polvi",
+        "score": 286,
+        "descendants": 261,
+        "time": 1790893341,
+        "comments_url": "https://news.ycombinator.com/item?id=49927747"
+      },
+      "tags": [
+        "AI"
+      ],
+      "hot_score": 0.39
     },
     {
       "title_en": "NTSB Preliminary Report: Prime Air 767 Runway Overrun [pdf]",
@@ -445,213 +681,32 @@
         "time": 1790989741,
         "comments_url": "https://news.ycombinator.com/item?id=49940467"
       },
-      "hot_score": 0.78,
+      "hot_score": 0.38,
       "tags": [
         "Science"
       ]
     },
     {
-      "title_en": "Shimano Bicycle Museum Review",
-      "url": "https://inrng.com/2026/10/shimano-bicycle-museum/",
-      "title_zh": "Shimano自行车博物馆评测",
-      "created_display": "Created: Oct 01, 2026 / 22:12 PT",
-      "image_url": "https://inrng.com/wp-content/uploads/2023/12/inrng_logo-120.png",
-      "summary_en": "Shimano's Bicycle Museum chronicles the evolution of cycling tech from early gears to modern drivetrains. The review highlights Shimano's influence on mechanical design and rider experience, showing how heritage and innovation intersect in cycling culture. It's a compact, hands-on lens for engineers and enthusiasts interested in product history.",
-      "summary_zh": "Shimano自行车博物馆通过展品展示了从早期齿轮到现代传动系统的演变。评测强调了Shimano在机械设计和骑行体验上的影响，揭示了遗产与创新在自行车文化中的交汇。对于工程师和爱好者而言，这是窥见产品史的紧凑视角。",
+      "title_en": "Make Tmux the OS",
+      "url": "https://matduggan.com/what-does-my-dream-os-ui-look-like/",
+      "title_zh": "让 tmux 成为操作系统",
+      "created_display": "Created: Oct 02, 2026 / 12:29 PT",
+      "image_url": "https://matduggan.com/content/images/2026/09/image-9.png",
+      "summary_en": "A thought experiment proposing tmux as the core OS interface, envisioning a keyboard-driven, tiling environment where sessions and panes act as the OS's app and window manager components. It pushes readers to rethink the boundaries of a traditional operating system and where the UI lives.",
+      "summary_zh": "这是一个设想性的实验，提出以 tmux 作为核心操作系统界面，设想一个以键盘操作和平铺布局为特征的环境，让会话和窗格充当操作系统的应用和窗口管理组件。它促使你重新思考传统操作系统的边界以及用户界面的归属。",
       "hn": {
-        "id": 49930047,
+        "id": 49937540,
         "type": "story",
-        "by": "pietroppeter",
-        "score": 287,
-        "descendants": 76,
-        "time": 1790917978,
-        "comments_url": "https://news.ycombinator.com/item?id=49930047"
+        "by": "weaksauce",
+        "score": 62,
+        "descendants": 29,
+        "time": 1790969347,
+        "comments_url": "https://news.ycombinator.com/item?id=49937540"
       },
       "tags": [
-        "Design"
+        "Programming"
       ],
-      "hot_score": 0.7
-    },
-    {
-      "title_en": "On social reality in China",
-      "url": "https://www.lesswrong.com/posts/b5cSYh4emQb2qrGmK/on-social-reality-in-china",
-      "title_zh": "中国的社会现实",
-      "created_display": "Created: Oct 02, 2026 / 04:42 PT",
-      "image_url": "https://res.cloudinary.com/lesswrong-2-0/image/upload/c_fill,ar_1.91,g_auto/SocialPreview/ypebfw5zo6k1yb61i8ou",
-      "summary_en": "LessWrong essay analyzes how social reality in China is shaped by online platforms, censorship, and governance, with implications for information flow and perception.",
-      "summary_zh": "LessWrong 的专栏文章分析中国的社会现实如何被在线平台、审查制度和治理所塑造，影响信息流动与社会认知。",
-      "hn": {
-        "id": 49932402,
-        "type": "story",
-        "by": "thicTurtlLverXX",
-        "score": 179,
-        "descendants": 173,
-        "time": 1790941346,
-        "comments_url": "https://news.ycombinator.com/item?id=49932402"
-      },
-      "tags": [
-        "Politics"
-      ],
-      "hot_score": 0.7
-    },
-    {
-      "title_en": "Mike Tomlin spent 12 years building a Minecraft city",
-      "url": "https://www.nytimes.com/athletic/7648198/2026/10/01/mike-tomlin-minecraft-nfl-coach/",
-      "title_zh": "迈克·汤姆林花12 年打造 Minecraft 城市",
-      "created_display": "Created: Oct 01, 2026 / 11:20 PT",
-      "image_url": "https://static01.nyt.com/athletic/uploads/wp/2026/10/01110103/1001_Tomlin1.jpg?width=1200&height=630&fit=crop",
-      "summary_en": "New York Times profiles NFL coach Mike Tomlin’s 12-year Minecraft city project, revealing how long-form world-building parallels leadership, teamwork, and problem-solving in coaching. The piece offers a surprising window into how hobbies can inform professional skills.",
-      "summary_zh": "纽约时报报道 NFL 教练迈克·汤姆林花费 12 年构建 Minecraft 城市的事迹，揭示长期世界建设与领导力、团队协作以及解决问题能力之间的共鸣。文章为展示爱好也能为职业技能提供启示。",
-      "hn": {
-        "id": 49925184,
-        "type": "story",
-        "by": "CoryOndrejka",
-        "score": 418,
-        "descendants": 102,
-        "time": 1790878818,
-        "comments_url": "https://news.ycombinator.com/item?id=49925184"
-      },
-      "tags": [
-        "Gaming"
-      ],
-      "hot_score": 0.57
-    },
-    {
-      "title_en": "Show HN: Giving Opus 5.5 a simulated paint canvas",
-      "url": "https://stillwet.art/",
-      "title_zh": "Show HN：给 Opus 5.5 增添模拟绘画画布",
-      "created_display": "Created: Oct 01, 2026 / 17:27 PT",
-      "image_url": "https://stillwet.art/img/og-card.jpg",
-      "summary_en": "Show HN demonstrates giving Opus 5.5 a simulated paint canvas, illustrating how the model can emulate brushwork and texture in a browser-friendly setup. It's a practical example of blending AI with artistic workflows.",
-      "summary_zh": "Show HN 展示如何为 Opus 5.5 增加一个模拟绘画画布，演示模型在浏览器环境中模拟笔触和纹理的能力。这是将 AI 与艺术工作流结合的实际案例。",
-      "hn": {
-        "id": 49928566,
-        "type": "story",
-        "by": "alstonite",
-        "score": 262,
-        "descendants": 81,
-        "time": 1790900876,
-        "comments_url": "https://news.ycombinator.com/item?id=49928566"
-      },
-      "tags": [
-        "Show HN",
-        "AI",
-        "Web"
-      ],
-      "hot_score": 0.48
-    },
-    {
-      "title_en": "Greg Kroah-Hartman – Security in the LLM Age [video]",
-      "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
-      "title_zh": "Greg Kroah-Hartman：LLM时代的安全性 [视频]",
-      "created_display": "Created: Oct 01, 2026 / 19:51 PT",
-      "image_url": null,
-      "summary_en": "Greg Kroah-Hartman discusses security in the LLM age, highlighting new risks from large models, prompts, and supply chains. He argues for stronger containment, safer interfaces, and better tooling for kernel and system security as AI becomes integral to software. The talk offers practical takeaways for developers building AI-assisted systems.",
-      "summary_zh": "Greg Kroah-Hartman 讨论了在 LLM 时代的安全挑战，聚焦大模型、提示攻击和供应链等新风险。他主张加强容器化与隔离、改进接口安全，以及在内核与系统层提供更好的安全工具。此视频为构建 AI 助力系统的开发者提供了切实可行的建议。",
-      "hn": {
-        "id": 49929391,
-        "type": "story",
-        "by": "usernomdeguerre",
-        "score": 226,
-        "descendants": 62,
-        "time": 1790909487,
-        "comments_url": "https://news.ycombinator.com/item?id=49929391"
-      },
-      "tags": [
-        "Security",
-        "AI"
-      ],
-      "hot_score": 0.48
-    },
-    {
-      "title_en": "FLUX 3 Image",
-      "url": "https://bfl.ai/models/flux-3-image",
-      "title_zh": "Flux 3 Image 图像模型",
-      "created_display": "Created: Oct 01, 2026 / 12:24 PT",
-      "image_url": "https://cdn.sanity.io/images/2gpum2i6/production/486fe8dbe090c31226c868dac01a1f5d918eb756-1200x630.jpg",
-      "summary_en": "Flux 3 Image introduces a new open-source image model aimed at higher fidelity and efficiency, enabling high-quality generation with modest compute. It adds to a growing ecosystem of community-backed vision models competing with closed options.",
-      "summary_zh": "Flux 3 Image 推出一款新的开源图像模型，目标在于提升保真度与效率，使用较少的算力即可生成高质量图像。它丰富了日益壮大的开源视觉模型生态，与商业化闭源方案展开竞争。",
-      "hn": {
-        "id": 49925974,
-        "type": "story",
-        "by": "minimaxir",
-        "score": 319,
-        "descendants": 69,
-        "time": 1790882669,
-        "comments_url": "https://news.ycombinator.com/item?id=49925974"
-      },
-      "tags": [
-        "AI",
-        "Open Source"
-      ],
-      "hot_score": 0.46
-    },
-    {
-      "title_en": "Venice’s failed war against Constantinople led to the first bond market",
-      "url": "https://bigthink.com/books/a-fabulous-debt/",
-      "title_zh": "威尼斯对君士顿丁堡的失败战争催生了第一批债券市场",
-      "created_display": "Created: Oct 02, 2026 / 06:17 PT",
-      "image_url": "https://bigthink.com/wp-content/uploads/2026/09/fabulous-debt_excerpt.jpg?resize=1200,630",
-      "summary_en": "A historical account links Venice's failed war against Constantinople to the emergence of the first bond market, illustrating how debt markets evolved from wartime financing.",
-      "summary_zh": "历史研究将威尼斯对君士坦丁堡的失败战争与第一批债券市场的出现联系起来，揭示战争融资如何推动债市的演变。",
-      "hn": {
-        "id": 49933230,
-        "type": "story",
-        "by": "RickJWagner",
-        "score": 104,
-        "descendants": 32,
-        "time": 1790947067,
-        "comments_url": "https://news.ycombinator.com/item?id=49933230"
-      },
-      "tags": [
-        "Finance",
-        "Business"
-      ],
-      "hot_score": 0.46
-    },
-    {
-      "title_en": "Where Is the Planet",
-      "url": "http://whereistheplanet.com",
-      "title_zh": "星球在哪里",
-      "created_display": "Created: Oct 02, 2026 / 17:26 PT",
-      "image_url": "http://whereistheplanet.com/static/200112.png",
-      "summary_en": "An interactive project that helps explorers locate planets or visualize planetary data.",
-      "summary_zh": "这是一个交互式项目，帮助用户定位行星或可视化行星数据。",
-      "hn": {
-        "id": 49940233,
-        "type": "story",
-        "by": "andsoitis",
-        "score": 25,
-        "descendants": 3,
-        "time": 1790987179,
-        "comments_url": "https://news.ycombinator.com/item?id=49940233"
-      },
-      "hot_score": 0.46,
-      "tags": [
-        "Space"
-      ]
-    },
-    {
-      "title_en": "Sites in ChatGPT",
-      "url": "https://chatgpt.com/features/sites/",
-      "title_zh": "ChatGPT 新增“Sites”功能上线",
-      "created_display": "Created: Oct 01, 2026 / 15:22 PT",
-      "image_url": "https://images.ctfassets.net/8su2tbn87fck/7opHWDkY78DTYHpI25rerY/9d4aefed1bc3f25e49277f597037d071/37243680-10ed-4f03-82a8-5fac7eb86fa7.png?w=1600&h=900&fit=fill",
-      "summary_en": "ChatGPT adds a 'Sites' feature to publish and share pages built from chat interactions, streamlining content sharing without leaving the chat. This tight coupling of creation and publishing suits knowledge work and rapid demos.",
-      "summary_zh": "ChatGPT 新增“Sites”功能，可以直接从对话中创建并发布网页，简化内容分享流程。将创作与发布紧密结合，适合知识工作和快速演示。",
-      "hn": {
-        "id": 49927747,
-        "type": "story",
-        "by": "polvi",
-        "score": 255,
-        "descendants": 245,
-        "time": 1790893341,
-        "comments_url": "https://news.ycombinator.com/item?id=49927747"
-      },
-      "tags": [
-        "AI"
-      ],
-      "hot_score": 0.42
+      "hot_score": 0.34
     },
     {
       "title_en": "Loss of cell identity drives human aging: Two new papers",
@@ -665,8 +720,8 @@
         "id": 49926411,
         "type": "story",
         "by": "bookofjoe",
-        "score": 230,
-        "descendants": 70,
+        "score": 264,
+        "descendants": 84,
         "time": 1790884977,
         "comments_url": "https://news.ycombinator.com/item?id=49926411"
       },
@@ -675,7 +730,99 @@
         "Health",
         "Programming"
       ],
-      "hot_score": 0.34
+      "hot_score": 0.32
+    },
+    {
+      "title_en": "Barcodes are about to go extinct",
+      "url": "https://thehustle.co/originals/why-barcodes-are-about-to-go-extinct",
+      "title_zh": "条形码将走向灭绝",
+      "created_display": "Created: Oct 02, 2026 / 13:37 PT",
+      "image_url": "https://thehustle.co/hubfs/undefined-Sep-30-2026-05-31-48-3071-PM.jpeg",
+      "summary_en": "Barcodes are being supplanted by QR codes, NFC, and real-time computer vision, reshaping how products are scanned and tracked across retail and logistics. The shift promises frictionless checkouts and richer inventory analytics, even as legacy systems linger.",
+      "summary_zh": "条形码正逐渐被二维码、NFC 和实时计算机视觉所取代，改变了零售与物流中的识别、追踪方式。 这一转变带来无缝结账和更丰富的库存分析，但也让一些旧系统继续存在。",
+      "hn": {
+        "id": 49938306,
+        "type": "story",
+        "by": "rmason",
+        "score": 52,
+        "descendants": 84,
+        "time": 1790973427,
+        "comments_url": "https://news.ycombinator.com/item?id=49938306"
+      },
+      "tags": [
+        "Data",
+        "Business",
+        "Programming"
+      ],
+      "hot_score": 0.32
+    },
+    {
+      "title_en": "Where Is the Planet",
+      "url": "http://whereistheplanet.com",
+      "title_zh": "星球在哪里",
+      "created_display": "Created: Oct 02, 2026 / 17:26 PT",
+      "image_url": "http://whereistheplanet.com/static/200112.png",
+      "summary_en": "An interactive project that helps explorers locate planets or visualize planetary data.",
+      "summary_zh": "这是一个交互式项目，帮助用户定位行星或可视化行星数据。",
+      "hn": {
+        "id": 49940233,
+        "type": "story",
+        "by": "andsoitis",
+        "score": 28,
+        "descendants": 3,
+        "time": 1790987179,
+        "comments_url": "https://news.ycombinator.com/item?id=49940233"
+      },
+      "tags": [
+        "Space"
+      ],
+      "hot_score": 0.27
+    },
+    {
+      "title_en": "Show HN: Offrun – manage every coding agent from one workspace",
+      "url": "https://offrun.dev/",
+      "title_zh": "Show HN：Offrun——在一个工作区管理所有编码代理",
+      "created_display": "Created: Oct 03, 2026 / 01:40 PT",
+      "image_url": "https://offrun.dev/assets/og-card.png",
+      "summary_en": "Show HN: Offrun claims to let you manage every coding agent from a single workspace, enabling centralized orchestration of AI agents and shared context. The project targets developers building AI-powered pipelines who want to coordinate multiple agents without juggling separate tools.",
+      "summary_zh": "Show HN：Offrun 允许在一个工作区内管理所有编码代理，实现对 AI 代理的集中编排和上下文共享。该项目面向需构建 AI 驱动工作流的开发者，简化多代理协同的工具链。",
+      "hn": {
+        "id": 49942434,
+        "type": "story",
+        "by": "arunbhatia",
+        "score": 5,
+        "descendants": 0,
+        "time": 1791016817,
+        "comments_url": "https://news.ycombinator.com/item?id=49942434"
+      },
+      "hot_score": 0.24,
+      "tags": [
+        "Show HN",
+        "Programming",
+        "AI"
+      ]
+    },
+    {
+      "title_en": "Tiny Brutalism",
+      "url": "https://placeholders.itch.io/tiny-brutalism",
+      "title_zh": "Tiny Brutalism（小型粗野风格）",
+      "created_display": "Created: Oct 01, 2026 / 16:23 PT",
+      "image_url": "https://img.itch.zone/aW1nLzMwMjQ3MjE1LnBuZw==/original/WJxck9.png",
+      "summary_en": "Tiny Brutalism appears to be a small-scale project exploring brutalist aesthetics in a compact form, inviting experimentation with minimal interfaces.",
+      "summary_zh": "Tiny Brutalism 是一个以小型形式探索粗犷美学的项目，鼓励以极简界面进行实验。",
+      "hn": {
+        "id": 49928192,
+        "type": "story",
+        "by": "abetusk",
+        "score": 159,
+        "descendants": 32,
+        "time": 1790897011,
+        "comments_url": "https://news.ycombinator.com/item?id=49928192"
+      },
+      "tags": [
+        "Design"
+      ],
+      "hot_score": 0.23
     },
     {
       "title_en": "Blogging with Gleam, Org-Mode and Pandoc",
@@ -689,7 +836,7 @@
         "id": 49932340,
         "type": "story",
         "by": "schonfinkel",
-        "score": 77,
+        "score": 80,
         "descendants": 15,
         "time": 1790940868,
         "comments_url": "https://news.ycombinator.com/item?id=49932340"
@@ -697,7 +844,98 @@
       "tags": [
         "Programming"
       ],
-      "hot_score": 0.3
+      "hot_score": 0.23
+    },
+    {
+      "title_en": "The Nintendo 64 Partner-N64 Development Kit",
+      "url": "https://www.behindthecode.ca/partner-n64pc-dev-kit/",
+      "title_zh": "任天堂 64 合作伙伴开发套件（Partner-N64 PC 开发工具包）",
+      "created_display": "Created: Oct 02, 2026 / 11:53 PT",
+      "image_url": "https://www.behindthecode.ca/wp-content/uploads/WEBSITE_IMAGES/GERRY_AVATAR.jpg",
+      "summary_en": "Nintendo's Partner-N64 PC Development Kit reveals how developers could build N64 titles with PC-based tooling, with modern-era docs and hardware bridging retro game development.",
+      "summary_zh": "任天堂 64 合作伙伴开发套件揭示了开发者如何使用 PC 工具链为 N64 制作游戏，并展示了连接复古开发与现代工具的方式。",
+      "hn": {
+        "id": 49937146,
+        "type": "story",
+        "by": "paulgerhardt",
+        "score": 46,
+        "descendants": 6,
+        "time": 1790967214,
+        "comments_url": "https://news.ycombinator.com/item?id=49937146"
+      },
+      "tags": [
+        "Hardware",
+        "Gaming"
+      ],
+      "hot_score": 0.23
+    },
+    {
+      "title_en": "F.02 Decommission",
+      "url": "https://www.figure.ai/news/f-02-decommission",
+      "title_zh": "F.02 退役",
+      "created_display": "Created: Oct 02, 2026 / 03:57 PT",
+      "image_url": "https://images.ctfassets.net/qx5k8y1u9drj/3z8U3LNpGgBX25Ki11etOV/12faccf9f1ba4cf39b0eec13808e53ad/OPEN_GRAPH_IMAGE.png",
+      "summary_en": "F.02 is being decommissioned, signaling a lifecycle transition for that model/product and prompting reflection on legacy software assets.",
+      "summary_zh": "F.02 正在退役，标志着该模型/产品的生命周期转变，并促使人们对遗留软件资产进行反思。",
+      "hn": {
+        "id": 49932079,
+        "type": "story",
+        "by": "ad_hockey",
+        "score": 82,
+        "descendants": 36,
+        "time": 1790938647,
+        "comments_url": "https://news.ycombinator.com/item?id=49932079"
+      },
+      "tags": [
+        "Business"
+      ],
+      "hot_score": 0.22
+    },
+    {
+      "title_en": "The first packet sent via RFC1149 avian carrier is up for auction at Christie's",
+      "url": "https://onlineonly.christies.com/s/fine-printed-books-manuscripts-science/carrier-pigeon-internet-protocol-150/325216",
+      "title_zh": "首个通过 RFC1149 鸽传输协议发送的数据包将于佳士得拍卖",
+      "created_display": "Created: Oct 02, 2026 / 05:46 PT",
+      "image_url": "https://www.christies.com/img/LotImages/2026/NYR/2026_NYR_24550_0150_000(carrier_pigeon_internet_protocol_april_2001072322).jpg?mode=max",
+      "summary_en": "Christie's is auctioning the first packet sent via RFC1149 avian carrier, a playful artifact from a historic joke protocol. The item highlights the enduring appeal of quirky computing history in the art/collectibles market.",
+      "summary_zh": "佳士得将拍卖首个通过 RFC1149 鸽传输协议发送的数据包这一历史趣味 artefact，展现了「玩笑协议」在艺术收藏市场中的持久魅力。",
+      "hn": {
+        "id": 49932911,
+        "type": "story",
+        "by": "peter_hansteen",
+        "score": 69,
+        "descendants": 15,
+        "time": 1790945210,
+        "comments_url": "https://news.ycombinator.com/item?id=49932911"
+      },
+      "tags": [
+        "Culture"
+      ],
+      "hot_score": 0.21
+    },
+    {
+      "title_en": "Cloudflare opens more Enterprise-only features to all customers",
+      "url": "https://blog.cloudflare.com/enterprise-for-all-update/",
+      "title_zh": "Cloudflare 将更多企业级功能向所有客户开放",
+      "created_display": "Created: Oct 02, 2026 / 17:09 PT",
+      "image_url": "https://blog.cloudflare.com/_emdash/api/media/file/01M3XD4X46H418B7C0YZYKW9XG.01M3XD504XT4Z069E3VPPVCW8Y.png",
+      "summary_en": "Cloudflare expands access to advanced enterprise features for all customers, broadening capabilities like security analytics and performance controls beyond traditional enterprise plans.",
+      "summary_zh": "Cloudflare 将更多高级企业功能向所有客户开放，扩大安全分析和性能控制等能力，超越了传统企业计划的界限。",
+      "hn": {
+        "id": 49940152,
+        "type": "story",
+        "by": "sdko",
+        "score": 23,
+        "descendants": 5,
+        "time": 1790986178,
+        "comments_url": "https://news.ycombinator.com/item?id=49940152"
+      },
+      "tags": [
+        "Business",
+        "Security",
+        "Data"
+      ],
+      "hot_score": 0.21
     },
     {
       "title_en": "What if we stopped using GPUs? [video]",
@@ -719,51 +957,31 @@
       "tags": [
         "Hardware"
       ],
-      "hot_score": 0.3
+      "hot_score": 0.2
     },
     {
-      "title_en": "F.02 Decommission",
-      "url": "https://www.figure.ai/news/f-02-decommission",
-      "title_zh": "F.02 退役",
-      "created_display": "Created: Oct 02, 2026 / 03:57 PT",
-      "image_url": "https://images.ctfassets.net/qx5k8y1u9drj/3z8U3LNpGgBX25Ki11etOV/12faccf9f1ba4cf39b0eec13808e53ad/OPEN_GRAPH_IMAGE.png",
-      "summary_en": "F.02 is being decommissioned, signaling a lifecycle transition for that model/product and prompting reflection on legacy software assets.",
-      "summary_zh": "F.02 正在退役，标志着该模型/产品的生命周期转变，并促使人们对遗留软件资产进行反思。",
+      "title_en": "Our Project Suncatcher prototype satellite is in orbit",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-prototype/",
+      "title_zh": "我们的 Project Suncatcher 原型卫星已入轨",
+      "created_display": "Created: Oct 02, 2026 / 04:13 PT",
+      "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/wagtailvideo-fgyv69rc_thumb.jpg",
+      "summary_en": "Our Project Suncatcher prototype satellite is now in orbit, marking a milestone for space research and on‑orbit experimentation. The mission demonstrates the feasibility of lightweight, iterative hardware tests and embedded AI capabilities in a small satellite.",
+      "summary_zh": "我们的 Project Suncatcher 原型卫星已入轨，标志着太空研究与在轨实验的重要里程碑。该任务展示了轻量级、可迭代的硬件测试以及在小型卫星中运行的人工智能能力的可行性。",
       "hn": {
-        "id": 49932079,
+        "id": 49932191,
         "type": "story",
-        "by": "ad_hockey",
-        "score": 77,
-        "descendants": 32,
-        "time": 1790938647,
-        "comments_url": "https://news.ycombinator.com/item?id=49932079"
+        "by": "pantalaimon",
+        "score": 67,
+        "descendants": 65,
+        "time": 1790939582,
+        "comments_url": "https://news.ycombinator.com/item?id=49932191"
       },
       "tags": [
-        "Business"
+        "Space",
+        "AI",
+        "Hardware"
       ],
-      "hot_score": 0.28
-    },
-    {
-      "title_en": "The first packet sent via RFC1149 avian carrier is up for auction at Christie's",
-      "url": "https://onlineonly.christies.com/s/fine-printed-books-manuscripts-science/carrier-pigeon-internet-protocol-150/325216",
-      "title_zh": "首个通过 RFC1149 鸽传输协议发送的数据包将于佳士得拍卖",
-      "created_display": "Created: Oct 02, 2026 / 05:46 PT",
-      "image_url": "https://www.christies.com/img/LotImages/2026/NYR/2026_NYR_24550_0150_000(carrier_pigeon_internet_protocol_april_2001072322).jpg?mode=max",
-      "summary_en": "Christie's is auctioning the first packet sent via RFC1149 avian carrier, a playful artifact from a historic joke protocol. The item highlights the enduring appeal of quirky computing history in the art/collectibles market.",
-      "summary_zh": "佳士得将拍卖首个通过 RFC1149 鸽传输协议发送的数据包这一历史趣味 artefact，展现了「玩笑协议」在艺术收藏市场中的持久魅力。",
-      "hn": {
-        "id": 49932911,
-        "type": "story",
-        "by": "peter_hansteen",
-        "score": 66,
-        "descendants": 13,
-        "time": 1790945210,
-        "comments_url": "https://news.ycombinator.com/item?id=49932911"
-      },
-      "tags": [
-        "Entertainment"
-      ],
-      "hot_score": 0.28
+      "hot_score": 0.18
     },
     {
       "title_en": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
@@ -782,125 +1000,33 @@
         "time": 1790976325,
         "comments_url": "https://news.ycombinator.com/item?id=49938783"
       },
-      "hot_score": 0.27,
+      "hot_score": 0.16,
       "tags": [
         "AI",
         "Open Source"
       ]
     },
     {
-      "title_en": "Cloudflare opens more Enterprise-only features to all customers",
-      "url": "https://blog.cloudflare.com/enterprise-for-all-update/",
-      "title_zh": "Cloudflare 将更多企业级功能向所有客户开放",
-      "created_display": "Created: Oct 02, 2026 / 17:09 PT",
-      "image_url": "https://blog.cloudflare.com/_emdash/api/media/file/01M3XD4X46H418B7C0YZYKW9XG.01M3XD504XT4Z069E3VPPVCW8Y.png",
-      "summary_en": "Cloudflare expands access to advanced enterprise features for all customers, broadening capabilities like security analytics and performance controls beyond traditional enterprise plans.",
-      "summary_zh": "Cloudflare 将更多高级企业功能向所有客户开放，扩大安全分析和性能控制等能力，超越了传统企业计划的界限。",
+      "title_en": "Memory-Safe WebP Decoding",
+      "url": "https://halide.cx/blog/wpd/",
+      "title_zh": "内存安全的 WebP 解码",
+      "created_display": "Created: Oct 02, 2026 / 22:45 PT",
+      "image_url": "https://halide.cx/img/hero/bouquet-med.avif",
+      "summary_en": "Halide blog presents memory-safe WebP decoding, detailing techniques to prevent common vulnerabilities in image decoders. By applying bounds-aware decoding and safer memory management, the approach aims to reduce exploits without sacrificing decoding performance.",
+      "summary_zh": "Halide 博客介绍了内存安全的 WebP 解码，阐述了防范图像解码器常见漏洞的技术思路。通过边界感知解码和更安全的内存管理，力求在不牺牲解码性能的前提下降低安全风险。",
       "hn": {
-        "id": 49940152,
+        "id": 49941641,
         "type": "story",
-        "by": "sdko",
-        "score": 16,
+        "by": "computerbuster",
+        "score": 7,
         "descendants": 1,
-        "time": 1790986178,
-        "comments_url": "https://news.ycombinator.com/item?id=49940152"
+        "time": 1791006330,
+        "comments_url": "https://news.ycombinator.com/item?id=49941641"
       },
-      "hot_score": 0.27,
+      "hot_score": 0.15,
       "tags": [
-        "Business",
         "Security",
-        "Data"
-      ]
-    },
-    {
-      "title_en": "Tiny Brutalism",
-      "url": "https://placeholders.itch.io/tiny-brutalism",
-      "title_zh": "Tiny Brutalism（小型粗野风格）",
-      "created_display": "Created: Oct 01, 2026 / 16:23 PT",
-      "image_url": "https://img.itch.zone/aW1nLzMwMjQ3MjE1LnBuZw==/original/WJxck9.png",
-      "summary_en": "Tiny Brutalism appears to be a small-scale project exploring brutalist aesthetics in a compact form, inviting experimentation with minimal interfaces.",
-      "summary_zh": "Tiny Brutalism 是一个以小型形式探索粗犷美学的项目，鼓励以极简界面进行实验。",
-      "hn": {
-        "id": 49928192,
-        "type": "story",
-        "by": "abetusk",
-        "score": 152,
-        "descendants": 31,
-        "time": 1790897011,
-        "comments_url": "https://news.ycombinator.com/item?id=49928192"
-      },
-      "tags": [
-        "Design"
-      ],
-      "hot_score": 0.26
-    },
-    {
-      "title_en": "Make Tmux the OS",
-      "url": "https://matduggan.com/what-does-my-dream-os-ui-look-like/",
-      "title_zh": "让 tmux 成为操作系统",
-      "created_display": "Created: Oct 02, 2026 / 12:29 PT",
-      "image_url": "https://matduggan.com/content/images/2026/09/image-9.png",
-      "summary_en": "A thought experiment proposing tmux as the core OS interface, envisioning a keyboard-driven, tiling environment where sessions and panes act as the OS's app and window manager components. It pushes readers to rethink the boundaries of a traditional operating system and where the UI lives.",
-      "summary_zh": "这是一个设想性的实验，提出以 tmux 作为核心操作系统界面，设想一个以键盘操作和平铺布局为特征的环境，让会话和窗格充当操作系统的应用和窗口管理组件。它促使你重新思考传统操作系统的边界以及用户界面的归属。",
-      "hn": {
-        "id": 49937540,
-        "type": "story",
-        "by": "weaksauce",
-        "score": 29,
-        "descendants": 15,
-        "time": 1790969347,
-        "comments_url": "https://news.ycombinator.com/item?id=49937540"
-      },
-      "hot_score": 0.24,
-      "tags": [
         "Programming"
-      ]
-    },
-    {
-      "title_en": "Our Project Suncatcher prototype satellite is in orbit",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-prototype/",
-      "title_zh": "我们的 Project Suncatcher 原型卫星已入轨",
-      "created_display": "Created: Oct 02, 2026 / 04:13 PT",
-      "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/wagtailvideo-fgyv69rc_thumb.jpg",
-      "summary_en": "Our Project Suncatcher prototype satellite is now in orbit, marking a milestone for space research and on‑orbit experimentation. The mission demonstrates the feasibility of lightweight, iterative hardware tests and embedded AI capabilities in a small satellite.",
-      "summary_zh": "我们的 Project Suncatcher 原型卫星已入轨，标志着太空研究与在轨实验的重要里程碑。该任务展示了轻量级、可迭代的硬件测试以及在小型卫星中运行的人工智能能力的可行性。",
-      "hn": {
-        "id": 49932191,
-        "type": "story",
-        "by": "pantalaimon",
-        "score": 60,
-        "descendants": 62,
-        "time": 1790939582,
-        "comments_url": "https://news.ycombinator.com/item?id=49932191"
-      },
-      "tags": [
-        "Space",
-        "AI",
-        "Hardware"
-      ],
-      "hot_score": 0.22
-    },
-    {
-      "title_en": "The Nintendo 64 Partner-N64 Development Kit",
-      "url": "https://www.behindthecode.ca/partner-n64pc-dev-kit/",
-      "title_zh": "任天堂 64 合作伙伴开发套件（Partner-N64 PC 开发工具包）",
-      "created_display": "Created: Oct 02, 2026 / 11:53 PT",
-      "image_url": "https://www.behindthecode.ca/wp-content/uploads/WEBSITE_IMAGES/GERRY_AVATAR.jpg",
-      "summary_en": "Nintendo's Partner-N64 PC Development Kit reveals how developers could build N64 titles with PC-based tooling, with modern-era docs and hardware bridging retro game development.",
-      "summary_zh": "任天堂 64 合作伙伴开发套件揭示了开发者如何使用 PC 工具链为 N64 制作游戏，并展示了连接复古开发与现代工具的方式。",
-      "hn": {
-        "id": 49937146,
-        "type": "story",
-        "by": "paulgerhardt",
-        "score": 21,
-        "descendants": 2,
-        "time": 1790967214,
-        "comments_url": "https://news.ycombinator.com/item?id=49937146"
-      },
-      "hot_score": 0.16,
-      "tags": [
-        "Gaming",
-        "Hardware"
       ]
     },
     {
@@ -915,15 +1041,38 @@
         "id": 49925602,
         "type": "story",
         "by": "abiro",
-        "score": 106,
-        "descendants": 36,
+        "score": 114,
+        "descendants": 49,
         "time": 1790880808,
         "comments_url": "https://news.ycombinator.com/item?id=49925602"
       },
       "tags": [
-        "Programming"
+        "Programming",
+        "Education"
       ],
-      "hot_score": 0.15
+      "hot_score": 0.13
+    },
+    {
+      "title_en": "To grieve, or not to grieve?",
+      "url": "https://xenaproject.wordpress.com/2026/10/01/to-grieve-or-not-to-grieve/",
+      "title_zh": "哀悼，还是不哀悼？",
+      "created_display": "Created: Oct 01, 2026 / 02:47 PT",
+      "image_url": "https://xenaproject.wordpress.com/wp-content/uploads/2020/05/cropped-twitchpfc.png?w=200",
+      "summary_en": "The piece weighs whether it's appropriate to grieve openly in tech communities, challenging the culture around processing loss.",
+      "summary_zh": "该文探讨在科技社群中公开哀悼是否恰当，挑战关于如何处理损失的文化。",
+      "hn": {
+        "id": 49919676,
+        "type": "story",
+        "by": "stabbles",
+        "score": 145,
+        "descendants": 125,
+        "time": 1790848066,
+        "comments_url": "https://news.ycombinator.com/item?id=49919676"
+      },
+      "tags": [
+        "Culture"
+      ],
+      "hot_score": 0.12
     },
     {
       "title_en": "Show HN: Pyxel – A Python retro game engine with built-in art and sound editors",
@@ -937,7 +1086,7 @@
         "id": 49928215,
         "type": "story",
         "by": "kitao",
-        "score": 82,
+        "score": 84,
         "descendants": 8,
         "time": 1790897195,
         "comments_url": "https://news.ycombinator.com/item?id=49928215"
@@ -947,30 +1096,28 @@
         "Programming",
         "Gaming"
       ],
-      "hot_score": 0.14
+      "hot_score": 0.12
     },
     {
-      "title_en": "Barcodes are about to go extinct",
-      "url": "https://thehustle.co/originals/why-barcodes-are-about-to-go-extinct",
-      "title_zh": "条形码将走向灭绝",
-      "created_display": "Created: Oct 02, 2026 / 13:37 PT",
-      "image_url": "https://thehustle.co/hubfs/undefined-Sep-30-2026-05-31-48-3071-PM.jpeg",
-      "summary_en": "Barcodes are being supplanted by QR codes, NFC, and real-time computer vision, reshaping how products are scanned and tracked across retail and logistics. The shift promises frictionless checkouts and richer inventory analytics, even as legacy systems linger.",
-      "summary_zh": "条形码正逐渐被二维码、NFC 和实时计算机视觉所取代，改变了零售与物流中的识别、追踪方式。 这一转变带来无缝结账和更丰富的库存分析，但也让一些旧系统继续存在。",
+      "title_en": "There's a new sea spider in town",
+      "url": "https://nautil.us/theres-a-new-sea-spider-in-town-1285470",
+      "title_zh": "城里来了一种新海蜘蛛",
+      "created_display": "Created: Oct 02, 2026 / 10:48 PT",
+      "image_url": "https://lede-admin.nautil.us/wp-content/uploads/sites/70/2026/10/callipallene-pilosuspedes-credit_-cormac-toler-scott.jpg",
+      "summary_en": "Marine biologists have identified a new sea spider species, expanding our understanding of Pycnogonida diversity and evolution. The discovery sheds light on how these remote, often overlooked arthropods adapt to marine environments.",
+      "summary_zh": "海洋生物学家发现了一种新海蜘蛛，拓展了对海蜘蛛门（甲螅目）多样性与进化的认识。此发现揭示这些偏远、易被忽视的节肢动物在海洋环境中的适应方式。",
       "hn": {
-        "id": 49938306,
+        "id": 49936398,
         "type": "story",
-        "by": "rmason",
+        "by": "whiteblossom",
         "score": 15,
-        "descendants": 16,
-        "time": 1790973427,
-        "comments_url": "https://news.ycombinator.com/item?id=49938306"
+        "descendants": 2,
+        "time": 1790963334,
+        "comments_url": "https://news.ycombinator.com/item?id=49936398"
       },
-      "hot_score": 0.14,
+      "hot_score": 0.07,
       "tags": [
-        "Business",
-        "Programming",
-        "Data"
+        "Science"
       ]
     },
     {
@@ -990,9 +1137,10 @@
         "time": 1790988048,
         "comments_url": "https://news.ycombinator.com/item?id=49940317"
       },
-      "hot_score": 0.14,
+      "hot_score": 0.07,
       "tags": [
-        "Show HN"
+        "Show HN",
+        "Data"
       ]
     },
     {
@@ -1012,53 +1160,10 @@
         "time": 1790993123,
         "comments_url": "https://news.ycombinator.com/item?id=49940736"
       },
-      "hot_score": 0.14,
+      "hot_score": 0.06,
       "tags": [
-        "Open Source"
-      ]
-    },
-    {
-      "title_en": "To grieve, or not to grieve?",
-      "url": "https://xenaproject.wordpress.com/2026/10/01/to-grieve-or-not-to-grieve/",
-      "title_zh": "哀悼，还是不哀悼？",
-      "created_display": "Created: Oct 01, 2026 / 02:47 PT",
-      "image_url": "https://xenaproject.wordpress.com/wp-content/uploads/2020/05/cropped-twitchpfc.png?w=200",
-      "summary_en": "The piece weighs whether it's appropriate to grieve openly in tech communities, challenging the culture around processing loss.",
-      "summary_zh": "该文探讨在科技社群中公开哀悼是否恰当，挑战关于如何处理损失的文化。",
-      "hn": {
-        "id": 49919676,
-        "type": "story",
-        "by": "stabbles",
-        "score": 134,
-        "descendants": 119,
-        "time": 1790848066,
-        "comments_url": "https://news.ycombinator.com/item?id=49919676"
-      },
-      "tags": [
-        "Culture"
-      ],
-      "hot_score": 0.13
-    },
-    {
-      "title_en": "There's a new sea spider in town",
-      "url": "https://nautil.us/theres-a-new-sea-spider-in-town-1285470",
-      "title_zh": "城里来了一种新海蜘蛛",
-      "created_display": "Created: Oct 02, 2026 / 10:48 PT",
-      "image_url": "https://lede-admin.nautil.us/wp-content/uploads/sites/70/2026/10/callipallene-pilosuspedes-credit_-cormac-toler-scott.jpg",
-      "summary_en": "Marine biologists have identified a new sea spider species, expanding our understanding of Pycnogonida diversity and evolution. The discovery sheds light on how these remote, often overlooked arthropods adapt to marine environments.",
-      "summary_zh": "海洋生物学家发现了一种新海蜘蛛，拓展了对海蜘蛛门（甲螅目）多样性与进化的认识。此发现揭示这些偏远、易被忽视的节肢动物在海洋环境中的适应方式。",
-      "hn": {
-        "id": 49936398,
-        "type": "story",
-        "by": "whiteblossom",
-        "score": 15,
-        "descendants": 2,
-        "time": 1790963334,
-        "comments_url": "https://news.ycombinator.com/item?id=49936398"
-      },
-      "hot_score": 0.1,
-      "tags": [
-        "Science"
+        "Open Source",
+        "Programming"
       ]
     },
     {
@@ -1073,16 +1178,16 @@
         "id": 49921825,
         "type": "story",
         "by": "luu",
-        "score": 25,
-        "descendants": 13,
+        "score": 36,
+        "descendants": 21,
         "time": 1790863254,
         "comments_url": "https://news.ycombinator.com/item?id=49921825"
       },
-      "hot_score": 0.03,
       "tags": [
         "Hardware",
         "AI"
-      ]
+      ],
+      "hot_score": 0.03
     },
     {
       "title_en": "Billions of triangles redux",
@@ -1096,15 +1201,37 @@
         "id": 49912091,
         "type": "story",
         "by": "ibobev",
-        "score": 36,
+        "score": 46,
         "descendants": 0,
         "time": 1790790364,
         "comments_url": "https://news.ycombinator.com/item?id=49912091"
       },
-      "hot_score": 0.02,
       "tags": [
         "Programming",
         "Hardware"
+      ],
+      "hot_score": 0.02
+    },
+    {
+      "title_en": "cp: -r or -R?",
+      "url": "https://movq.de/blog/postings/2026-09-30/0/POSTING-en.html",
+      "title_zh": "cp：-r 还是 -R？",
+      "created_display": "Created: Sep 30, 2026 / 08:44 PT",
+      "image_url": null,
+      "summary_en": "A concise explainer of the -r vs -R debate in cp across Unix-like systems. The post contrasts historical differences, portability considerations, and practical implications for recursively copying directories and handling symlinks. The takeaway: prefer -R for portability and POSIX-aligned behavior.",
+      "summary_zh": "简要解释了 cp 命令中 -r 与 -R 的差异及在不同系统上的表现。文章对比了历史差异、可移植性考量以及在递归拷贝目录和处理符号链接时的实际影响。结论是为实现跨平台兼容性，宜优先使用 -R。",
+      "hn": {
+        "id": 49910465,
+        "type": "story",
+        "by": "zdw",
+        "score": 14,
+        "descendants": 4,
+        "time": 1790783042,
+        "comments_url": "https://news.ycombinator.com/item?id=49910465"
+      },
+      "hot_score": 0.01,
+      "tags": [
+        "Programming"
       ]
     },
     {
@@ -1119,14 +1246,59 @@
         "id": 49916007,
         "type": "story",
         "by": "zasc",
-        "score": 8,
-        "descendants": 2,
+        "score": 11,
+        "descendants": 12,
         "time": 1790812585,
         "comments_url": "https://news.ycombinator.com/item?id=49916007"
       },
-      "hot_score": 0.0,
       "tags": [
         "Security"
+      ],
+      "hot_score": 0.01
+    },
+    {
+      "title_en": "More like SC-Forth-thousand, am I right?",
+      "url": "https://www.leadedsolder.com/2026/10/01/rc2026-10-sg1000-forth-port.html",
+      "title_zh": "更像 SC-Forth-thousand 吗？",
+      "created_display": "Created: Oct 01, 2026 / 09:52 PT",
+      "image_url": "https://www.leadedsolder.com/assets/camelforth-custom-word-being-emitted.png",
+      "summary_en": "More like SC-Forth-thousand, am I right? covers porting a Forth environment to the SG-1000 using RC2026, delivering a tiny Forth-powered development environment on retro hardware. The write-up discusses memory and IO constraints and celebrates retro-computing experimentation.",
+      "summary_zh": "题为 More like SC-Forth-thousand 的文章讲述在 RC2026 上将 Forth 环境移植到 SG-1000 的过程，实现了复古硬件上的紧凑 Forth 开发环境。文中讨论了内存、输入/输出等约束，以及复古计算机实验的魅力。",
+      "hn": {
+        "id": 49924121,
+        "type": "story",
+        "by": "stevekemp",
+        "score": 10,
+        "descendants": 1,
+        "time": 1790873558,
+        "comments_url": "https://news.ycombinator.com/item?id=49924121"
+      },
+      "hot_score": 0.01,
+      "tags": [
+        "Hardware",
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "Programming the ENIAC (2011)",
+      "url": "https://www.columbia.edu/cu/computinghistory/eniac.html",
+      "title_zh": "编程 ENIAC（2011）",
+      "created_display": "Created: Sep 30, 2026 / 23:46 PT",
+      "image_url": null,
+      "summary_en": "A retrospective on programming ENIAC, detailing how technicians wired cables and set switches to implement instructions before stored-program computers.",
+      "summary_zh": "对 ENIAC 编程的回顾介绍了通过布线和开关实现指令的时代，在存储程序计算机普及之前的做法。此文强调早期计算的动手性，以及这段历史如何为现代软件工程和编译原理奠定基础。",
+      "hn": {
+        "id": 49918480,
+        "type": "story",
+        "by": "nill0",
+        "score": 8,
+        "descendants": 0,
+        "time": 1790837208,
+        "comments_url": "https://news.ycombinator.com/item?id=49918480"
+      },
+      "hot_score": 0.01,
+      "tags": [
+        "Programming"
       ]
     },
     {
@@ -1149,6 +1321,28 @@
       "hot_score": 0.0,
       "tags": [
         "Programming"
+      ]
+    },
+    {
+      "title_en": "Born Twice: Specimen and Record at the Moment of Collection",
+      "url": "https://tjid3.org/if/ifcomp.html",
+      "title_zh": "Born Twice：在采集瞬间的标本与记录",
+      "created_display": "Created: Oct 01, 2026 / 20:05 PT",
+      "image_url": null,
+      "summary_en": "Born Twice: Specimen and Record at the Moment of Collection.",
+      "summary_zh": "Born Twice：在采集瞬间的标本与记录。该作品探讨在收集瞬间数据来源与观察如何交汇，塑造记忆与身份。",
+      "hn": {
+        "id": 49929461,
+        "type": "story",
+        "by": "TimothyMJones",
+        "score": 3,
+        "descendants": 2,
+        "time": 1790910357,
+        "comments_url": "https://news.ycombinator.com/item?id=49929461"
+      },
+      "hot_score": 0.0,
+      "tags": [
+        "Gaming"
       ]
     }
   ]
