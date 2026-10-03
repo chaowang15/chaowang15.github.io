@@ -20,106 +20,106 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='216' data-hn-time='1790968016'>
+<div class='hn-top-story-item' data-hn-score='201' data-hn-time='1790974596'>
 <span class='hn-top-story-rank'>1</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/02/top_stories_10022026#story-49937276'>Apple Pass Designer</a>
- <a class='hn-top-story-link' href='https://developer.apple.com/pass-designer/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Apple Pass 设计器</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 13</span> <span class='hn-top-story-score'>&#9650; 216</span> <span class='hn-top-story-comments'>&#128172; 139</span> <span class='hn-top-story-tag'>Programming</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='76' data-hn-time='1790974596'>
-<span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/10/02/top_stories_10022026#story-49938521'>Zig v0.17.0</a>
  <a class='hn-top-story-link' href='https://ziglang.org/download/0.17.0/release-notes.html' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Zig 0.17.0 版本发布</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 76</span> <span class='hn-top-story-comments'>&#128172; 28</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.2</span> <span class='hn-top-story-score'>&#9650; 201</span> <span class='hn-top-story-comments'>&#128172; 120</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='74' data-hn-time='1790970306'>
+<div class='hn-top-story-item' data-hn-score='303' data-hn-time='1790968016'>
+<span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/02/top_stories_10022026#story-49937276'>Apple Pass Designer</a>
+ <a class='hn-top-story-link' href='https://developer.apple.com/pass-designer/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Apple Pass 设计器</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.6</span> <span class='hn-top-story-score'>&#9650; 303</span> <span class='hn-top-story-comments'>&#128172; 199</span> <span class='hn-top-story-tag'>Design</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='84' data-hn-time='1790975216'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/02/top_stories_10022026#story-49937718'>GrapheneOS has fixed the Android 17 QPR1 kernel performance regression</a>
- <a class='hn-top-story-link' href='https://discuss.grapheneos.org/d/42511-grapheneos-has-fixed-the-massive-android-17-qpr1-kernel-performance-regression' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/02/top_stories_10022026#story-49938616'>Every SaaS business will become a harness around a model</a>
+ <a class='hn-top-story-link' href='https://blog.sshh.io/p/the-harness-is-the-company' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>GrapheneOS 已修复 Android 17 QPR1 内核性能回归</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.9</span> <span class='hn-top-story-score'>&#9650; 74</span> <span class='hn-top-story-comments'>&#128172; 17</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-zh'>每家 SaaS 公司都将围绕一个模型构筑支撑体系</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.6</span> <span class='hn-top-story-score'>&#9650; 84</span> <span class='hn-top-story-comments'>&#128172; 62</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Business</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='169' data-hn-time='1790960551'>
+<div class='hn-top-story-item' data-hn-score='117' data-hn-time='1790969214'>
 <span class='hn-top-story-rank'>4</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/02/top_stories_10022026#story-49935867'>ICC judge on what U.S. sanctions mean for her and global courts</a>
- <a class='hn-top-story-link' href='https://www.npr.org/2026/10/01/nx-s1-5977815/trump-icc-sanctions-kimberly-prost' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>ICC 法官谈美国制裁对她和全球法院的意义</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.4</span> <span class='hn-top-story-score'>&#9650; 169</span> <span class='hn-top-story-comments'>&#128172; 84</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Legal</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='51' data-hn-time='1790971984'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/02/top_stories_10022026#story-49938047'>Everyone's Packing Up</a>
- <a class='hn-top-story-link' href='https://widdershins.verja.net/everyones-packing-up/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>人人都在收拾行囊</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.0</span> <span class='hn-top-story-score'>&#9650; 51</span> <span class='hn-top-story-comments'>&#128172; 26</span> <span class='hn-top-story-tag'>Business</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='185' data-hn-time='1790955783'>
-<span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/02/top_stories_10022026#story-49934784'>Supabase is acquiring Turso</a>
- <a class='hn-top-story-link' href='https://supabase.com/blog/supabase-is-acquiring-turso' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Supabase 收购 Turso</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.3</span> <span class='hn-top-story-score'>&#9650; 185</span> <span class='hn-top-story-comments'>&#128172; 97</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Startups</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='83' data-hn-time='1790964869'>
-<span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/02/top_stories_10022026#story-49936725'>Crypto Capture of Foreign Aid</a>
- <a class='hn-top-story-link' href='https://www.nber.org/papers/w35655' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>外援中的加密货币捕获</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.7</span> <span class='hn-top-story-score'>&#9650; 83</span> <span class='hn-top-story-comments'>&#128172; 28</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Science</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='50' data-hn-time='1790969214'>
-<span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/10/02/top_stories_10022026#story-49937504'>Muse Gadgets</a>
  <a class='hn-top-story-link' href='https://gadgets.muse.ai' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Muse Gadgets</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 50</span> <span class='hn-top-story-comments'>&#128172; 32</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Design</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 117</span> <span class='hn-top-story-comments'>&#128172; 59</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Design</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='25' data-hn-time='1790974335'>
-<span class='hn-top-story-rank'>9</span>
+<div class='hn-top-story-item' data-hn-score='105' data-hn-time='1790969821'>
+<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/02/top_stories_10022026#story-49937631'>Updates to Full Disk Access in macOS</a>
+ <a class='hn-top-story-link' href='https://developer.apple.com/news/?id=p6zjojqw' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>macOS 全磁盘访问权限更新</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.0</span> <span class='hn-top-story-score'>&#9650; 105</span> <span class='hn-top-story-comments'>&#128172; 63</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='100' data-hn-time='1790970306'>
+<span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/02/top_stories_10022026#story-49937718'>GrapheneOS has fixed the Android 17 QPR1 kernel performance regression</a>
+ <a class='hn-top-story-link' href='https://discuss.grapheneos.org/d/42511-grapheneos-has-fixed-the-massive-android-17-qpr1-kernel-performance-regression' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>GrapheneOS 已修复 Android 17 QPR1 内核性能回归</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 100</span> <span class='hn-top-story-comments'>&#128172; 31</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Open Source</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='73' data-hn-time='1790974335'>
+<span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/10/02/top_stories_10022026#story-49938477'>ICE Has Been Dumping Protester Photos into a Palantir Database</a>
  <a class='hn-top-story-link' href='https://www.wired.com/story/ice-has-been-dumping-protester-photos-into-a-palantir-database/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>ICE 已将抗议者照片导入 Palantir 数据库</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.5</span> <span class='hn-top-story-score'>&#9650; 25</span> <span class='hn-top-story-comments'>&#128172; 2</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 73</span> <span class='hn-top-story-comments'>&#128172; 13</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Data</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='82' data-hn-time='1790964076'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1396' data-hn-time='1790883185'>
+<span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/02/top_stories_10022026#story-49926069'>Pi 1.0</a>
+ <a class='hn-top-story-link' href='https://earendil.com/posts/pi-1-0/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Pi 1.0</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 1396</span> <span class='hn-top-story-comments'>&#128172; 448</span> <span class='hn-top-story-tag'>Programming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='169' data-hn-time='1790960551'>
+<span class='hn-top-story-rank'>9</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/02/top_stories_10022026#story-49935867'>ICC judge on what U.S. sanctions mean for her and global courts</a>
+ <a class='hn-top-story-link' href='https://www.npr.org/2026/10/01/nx-s1-5977815/trump-icc-sanctions-kimberly-prost' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>ICC 法官谈美国制裁对她和全球法院的意义</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 169</span> <span class='hn-top-story-comments'>&#128172; 84</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Politics</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='136' data-hn-time='1790964076'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -127,7 +127,7 @@ Sort:
  <a class='hn-top-story-link' href='https://dwarfstar.sh/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>来自 Redis 创始人之手；用 ds4 本地运行 LLM</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 82</span> <span class='hn-top-story-comments'>&#128172; 12</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.7</span> <span class='hn-top-story-score'>&#9650; 136</span> <span class='hn-top-story-comments'>&#128172; 36</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/10/02/top_stories_10022026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>27</b> <span class="hn-row-sep">·</span> Programming <b>25</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>29</b> <span class="hn-row-sep">·</span> Programming <b>22</b></span>
 </a>
 </div>
 </div>
