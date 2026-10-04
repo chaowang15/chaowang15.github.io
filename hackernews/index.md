@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>227</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>33464</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>223</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>225</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-10-04</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>227</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>33479</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>223</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>225</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-10-04</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,7 +20,7 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='371' data-hn-time='1791075052'>
+<div class='hn-top-story-item' data-hn-score='519' data-hn-time='1791075052'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -28,106 +28,106 @@ Sort:
  <a class='hn-top-story-link' href='https://news.ycombinator.com/item?id=49949438' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>鲍勃·克林西利去世（Bob Cringely）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.4</span> <span class='hn-top-story-score'>&#9650; 371</span> <span class='hn-top-story-comments'>&#128172; 71</span> <span class='hn-top-story-tag'>Culture</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.9</span> <span class='hn-top-story-score'>&#9650; 519</span> <span class='hn-top-story-comments'>&#128172; 103</span> <span class='hn-top-story-tag'>Culture</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='385' data-hn-time='1791073216'>
+<div class='hn-top-story-item' data-hn-score='104' data-hn-time='1791103198'>
 <span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/04/top_stories_10042026#story-49951881'>In Ukraine, distributed renewables foil Russia's assaults</a>
+ <a class='hn-top-story-link' href='https://energytransition.org/2026/09/in-ukraine-distributed-renewables-foil-russias-assaults/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>在乌克兰，分散式可再生能源抵御俄罗斯袭击</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.8</span> <span class='hn-top-story-score'>&#9650; 104</span> <span class='hn-top-story-comments'>&#128172; 86</span> <span class='hn-top-story-tag'>Energy</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='472' data-hn-time='1791073216'>
+<span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/10/04/top_stories_10042026#story-49949235'>We're going to need default hard budget caps on pretty much everything</a>
  <a class='hn-top-story-link' href='https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>我们需要对几乎所有事情设定默认的硬性预算上限</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.9</span> <span class='hn-top-story-score'>&#9650; 385</span> <span class='hn-top-story-comments'>&#128172; 191</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 472</span> <span class='hn-top-story-comments'>&#128172; 232</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
 <div class='hn-top-story-item' data-hn-score='414' data-hn-time='1791065233'>
-<span class='hn-top-story-rank'>3</span>
+<span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/10/04/top_stories_10042026#story-49948254'>Federal judge calls Flock 'indiscriminate mass surveillance'</a>
  <a class='hn-top-story-link' href='https://techcrunch.com/2026/10/03/federal-judge-calls-flock-indiscriminate-mass-surveillance/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>联邦法官称 Flock 为无差别群体监控</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.1</span> <span class='hn-top-story-score'>&#9650; 414</span> <span class='hn-top-story-comments'>&#128172; 232</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Legal</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 414</span> <span class='hn-top-story-comments'>&#128172; 232</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Legal</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='92' data-hn-time='1791087047'>
-<span class='hn-top-story-rank'>4</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/04/top_stories_10042026#story-49950554'>Why don't more developers "use the platform"?</a>
- <a class='hn-top-story-link' href='https://nolanlawson.com/2026/10/03/why-dont-more-developers-use-the-platform/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>为何没有更多开发者在用这个平台？</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.3</span> <span class='hn-top-story-score'>&#9650; 92</span> <span class='hn-top-story-comments'>&#128172; 50</span> <span class='hn-top-story-tag'>Programming</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='278' data-hn-time='1791050805'>
+<div class='hn-top-story-item' data-hn-score='165' data-hn-time='1791087047'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/04/top_stories_10042026#story-49946393'>Hole Punch: Sling your spaceship around gravitational fields</a>
- <a class='hn-top-story-link' href='https://notoriousbfg.com/hole-punch/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/04/top_stories_10042026#story-49950554'>Why don't more developers “use the platform”?</a>
+ <a class='hn-top-story-link' href='https://nolanlawson.com/2026/10/03/why-dont-more-developers-use-the-platform/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Hole Punch：在引力场中甩动太空船的技巧</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 278</span> <span class='hn-top-story-comments'>&#128172; 63</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Gaming</span></div>
+<div class='hn-top-story-zh'>为何没有更多开发者真正使用这个平台？</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.6</span> <span class='hn-top-story-score'>&#9650; 165</span> <span class='hn-top-story-comments'>&#128172; 136</span> <span class='hn-top-story-tag'>Programming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='240' data-hn-time='1791054888'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='36' data-hn-time='1791104831'>
 <span class='hn-top-story-rank'>6</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/04/top_stories_10042026#story-49952029'>VGHF Digital Archive passes 5000 magazines. Here's what's next</a>
+ <a class='hn-top-story-link' href='https://gamehistory.org/5k-magazines/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>VGHF 数字档案突破 5000 本杂志，接下来有哪些计划</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.9</span> <span class='hn-top-story-score'>&#9650; 36</span> <span class='hn-top-story-comments'>&#128172; 3</span> <span class='hn-top-story-tag'>Culture</span> <span class='hn-top-story-tag'>Gaming</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='324' data-hn-time='1791054888'>
+<span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/10/04/top_stories_10042026#story-49946895'>The work by Valve's Timur Kristóf on improving old AMD GPUs on Linux</a>
  <a class='hn-top-story-link' href='https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Valve 的 Timur Kristóf 在 Linux 上改进旧 AMD GPU 的工作</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 240</span> <span class='hn-top-story-comments'>&#128172; 35</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Gaming</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.6</span> <span class='hn-top-story-score'>&#9650; 324</span> <span class='hn-top-story-comments'>&#128172; 53</span> <span class='hn-top-story-tag'>Hardware</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Gaming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='593' data-hn-time='1791020164'>
-<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='621' data-hn-time='1791020164'>
+<span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/10/04/top_stories_10042026#story-49942706'>Kolibri: A Sovereign Open-Weight Model</a>
  <a class='hn-top-story-link' href='https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Kolibri：一款主权级的开放权重模型</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.9</span> <span class='hn-top-story-score'>&#9650; 593</span> <span class='hn-top-story-comments'>&#128172; 312</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Privacy</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.5</span> <span class='hn-top-story-score'>&#9650; 621</span> <span class='hn-top-story-comments'>&#128172; 318</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Open Source</span> <span class='hn-top-story-tag'>Privacy</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='208' data-hn-time='1791052170'>
-<span class='hn-top-story-rank'>8</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/04/top_stories_10042026#story-49946567'>Getting the most out of Opus 5.5 in Claude and Claude Code</a>
- <a class='hn-top-story-link' href='https://claude.dev/blog/getting-the-most-out-of-opus-5-5/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>在 Claude 与 Claude Code 中充分发挥 Opus 5.5 的潜力</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.6</span> <span class='hn-top-story-score'>&#9650; 208</span> <span class='hn-top-story-comments'>&#128172; 143</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='140' data-hn-time='1791060555'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='306' data-hn-time='1791050805'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/04/top_stories_10042026#story-49947631'>Reasons I didn't become an EMT, ranked</a>
- <a class='hn-top-story-link' href='https://ben.stolovitz.com/posts/reasons-not-emt-ranked/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/04/top_stories_10042026#story-49946393'>Hole Punch: Sling your spaceship around gravitational fields</a>
+ <a class='hn-top-story-link' href='https://notoriousbfg.com/hole-punch/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>为什么我没有成为 EMT 的原因（排序式）</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.4</span> <span class='hn-top-story-score'>&#9650; 140</span> <span class='hn-top-story-comments'>&#128172; 70</span> <span class='hn-top-story-tag'>Career</span></div>
+<div class='hn-top-story-zh'>Hole Punch：在引力场中甩动太空船的技巧</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.4</span> <span class='hn-top-story-score'>&#9650; 306</span> <span class='hn-top-story-comments'>&#128172; 69</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Gaming</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='162' data-hn-time='1791050487'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='53' data-hn-time='1791094257'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/04/top_stories_10042026#story-49946355'>Treachery in the Rodin Museum 3D scan verdict</a>
- <a class='hn-top-story-link' href='https://cosmowenman.substack.com/p/rodin-museum-3d-scan-verdict' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/04/top_stories_10042026#story-49951139'>UK Government Body Kept Files on People Criticizing Prevent Program</a>
+ <a class='hn-top-story-link' href='https://reclaimthenet.org/uk-prevent-unit-tracked-online-critics' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>罗丹博物馆3D扫描案裁决</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.1</span> <span class='hn-top-story-score'>&#9650; 162</span> <span class='hn-top-story-comments'>&#128172; 75</span> <span class='hn-top-story-tag'>Legal</span></div>
+<div class='hn-top-story-zh'>英国政府机构对批评 Prevent 计划的人保留档案</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.2</span> <span class='hn-top-story-score'>&#9650; 53</span> <span class='hn-top-story-comments'>&#128172; 20</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -140,7 +140,7 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 40 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-09-28 — 2026-10-04 <span class="hn-row-sep">·</span> 899 stories <span class="hn-row-sep">·</span> 7 days</span>
+<span class='hn-week-meta'>2026-09-28 — 2026-10-04 <span class="hn-row-sep">·</span> 914 stories <span class="hn-row-sep">·</span> 7 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/10/04/top_stories_10042026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>49</b> <span class="hn-row-sep">·</span> Programming <b>11</b> <span class="hn-row-sep">·</span> Science <b>8</b></span>
+<span class='hn-row-detail'>All <b>64</b> <span class="hn-row-sep">·</span> Programming <b>15</b> <span class="hn-row-sep">·</span> AI <b>12</b></span>
 </a>
 </div>
 </div>
