@@ -4,19 +4,19 @@
     "source": "https://news.ycombinator.com/",
     "api": "https://github.com/HackerNews/API",
     "count_requested": 50,
-    "count_written": 78,
-    "reused_same_day": 33,
+    "count_written": 89,
+    "reused_same_day": 34,
     "reused_cross_day": 0,
-    "new_llm_enriched": 15,
-    "scrape_time_display": "12:19, October 06, 2026 (PDT)",
+    "new_llm_enriched": 16,
+    "scrape_time_display": "15:15, October 06, 2026 (PDT)",
     "timezone": "America/Los_Angeles",
     "date_dir": "2026/10/06",
     "content_date": "2026-10-06",
-    "run_time_local": "12:19, October 06, 2026 (PDT)",
-    "run_time_utc": "2026-10-06 19:19:10 UTC",
+    "run_time_local": "15:15, October 06, 2026 (PDT)",
+    "run_time_utc": "2026-10-06 22:15:30 UTC",
     "incremental": true,
     "stories_max": 100,
-    "hot_score_time_utc": "2026-10-06 19:20:49 UTC"
+    "hot_score_time_utc": "2026-10-06 22:16:31 UTC"
   },
   "items": [
     {
@@ -31,37 +31,84 @@
         "id": 49977979,
         "type": "story",
         "by": "Philpax",
-        "score": 1177,
-        "descendants": 761,
+        "score": 1468,
+        "descendants": 912,
         "time": 1791292549,
         "comments_url": "https://news.ycombinator.com/item?id=49977979"
       },
       "tags": [
-        "AI"
+        "AI",
+        "Open Source"
       ],
-      "hot_score": 27.34
+      "hot_score": 19.55
     },
     {
-      "title_en": "AI is now capable of developing its own inference hardware",
-      "url": "https://github.com/FeSens/openTPU",
-      "title_zh": "AI 现在能够自行开发推理硬件",
-      "created_display": "Created: Oct 06, 2026 / 09:23 PT",
-      "image_url": "https://opengraph.githubassets.com/e6cec9e28bac30afde00a9599cf86d3116e4918c4d6b64b3c1c39a6e5b796040/FeSens/openTPU",
-      "summary_en": "An initiative shows AI systems designing hardware tailored for their own inference workloads, hinting at autonomous hardware specialization that could speed up AI deployment while raising governance questions.",
-      "summary_zh": "人工智能系统开始自主设计针对自身推理任务的硬件，暗示可能的自适应硬件专用化，加速 AI 部署，同时引发治理与安全方面的讨论。",
+      "title_en": "Paramount Skydance has completed its $111B merger with Warner Bros. Discovery",
+      "url": "https://arstechnica.com/tech-policy/2026/10/paramount-completes-111b-warner-merger-creating-skydance-behemoth/",
+      "title_zh": "派拉蒙-斯凯丹斯完成对华纳兄弟探索公司的1110亿美元合并",
+      "created_display": "Created: Oct 06, 2026 / 13:33 PT",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/david-ellison-1152x648-1791303833.jpg",
+      "summary_en": "Paramount Skydance completed its $111B merger with Warner Bros. Discovery, creating a media behemoth with scale across studios, franchises, and streaming. The deal consolidates a vast library of IP and streaming assets, potentially shaping negotiating leverage with distributors and talent, while drawing regulatory attention from antitrust authorities.",
+      "summary_zh": "派拉蒙-斯凯丹斯完成对华纳兄弟探索公司1110亿美元合并，形成覆盖大片 IP、工作室与流媒体的庞大整合体。此次并购将重塑电影、电视及内容分发领域的竞争格局，并可能引发监管机构的审查与行业对手的连锁反应。",
       "hn": {
-        "id": 49980715,
+        "id": 49983703,
         "type": "story",
-        "by": "fsbonetto",
-        "score": 143,
-        "descendants": 140,
-        "time": 1791303805,
-        "comments_url": "https://news.ycombinator.com/item?id=49980715"
+        "by": "Mgtyalx",
+        "score": 102,
+        "descendants": 117,
+        "time": 1791318827,
+        "comments_url": "https://news.ycombinator.com/item?id=49983703"
       },
-      "hot_score": 7.96,
+      "hot_score": 9.53,
       "tags": [
-        "AI",
-        "Hardware"
+        "Business",
+        "Legal",
+        "Politics"
+      ]
+    },
+    {
+      "title_en": "JetBrains reports revenue growth, net financial loss for 2025",
+      "url": "https://www.helgilibrary.com/companies/jetbrains",
+      "title_zh": "JetBrains 报告 2025 年营收增长但净亏损",
+      "created_display": "Created: Oct 06, 2026 / 04:45 PT",
+      "image_url": null,
+      "summary_en": "JetBrains reports growing revenue but a net financial loss for 2025, suggesting heavier investments in R&D, cloud services, or strategic initiatives offset profits. The earnings signal a long-term push beyond core desktop IDEs.",
+      "summary_zh": "JetBrains 报告 2025 年营收增长，但实现净亏损，显示公司在研发、云服务或战略计划上的高投入抵消了利润。此举表明公司正向核心桌面 IDE 之外的长期增长进行布局。",
+      "hn": {
+        "id": 49977072,
+        "type": "story",
+        "by": "thw_9a83c",
+        "score": 563,
+        "descendants": 522,
+        "time": 1791287155,
+        "comments_url": "https://news.ycombinator.com/item?id=49977072"
+      },
+      "hot_score": 5.95,
+      "tags": [
+        "Business",
+        "Finance"
+      ]
+    },
+    {
+      "title_en": "OpenSSH 10.6",
+      "url": "https://www.openssh.org/releasenotes.html#10.6",
+      "title_zh": "OpenSSH 10.6",
+      "created_display": "Created: Oct 06, 2026 / 13:41 PT",
+      "image_url": null,
+      "summary_en": "OpenSSH 10.6 ships with security fixes and quality improvements, including updated defaults and deprecation of older algorithms. The release continues to strengthen the secure remote access tool used across servers and development environments.",
+      "summary_zh": "OpenSSH 10.6 发布，包含安全修复和质量改进，更新默认设置并逐步淘汰旧算法。此版本持续提升广泛用于服务器与开发环境的远程安全访问工具的稳定性与兼容性。",
+      "hn": {
+        "id": 49983791,
+        "type": "story",
+        "by": "torcete",
+        "score": 55,
+        "descendants": 6,
+        "time": 1791319299,
+        "comments_url": "https://news.ycombinator.com/item?id=49983791"
+      },
+      "hot_score": 5.43,
+      "tags": [
+        "Security"
       ]
     },
     {
@@ -76,8 +123,8 @@
         "id": 49977588,
         "type": "story",
         "by": "beardyw",
-        "score": 329,
-        "descendants": 222,
+        "score": 361,
+        "descendants": 251,
         "time": 1791290749,
         "comments_url": "https://news.ycombinator.com/item?id=49977588"
       },
@@ -85,31 +132,55 @@
         "Privacy",
         "Security"
       ],
-      "hot_score": 6.84
+      "hot_score": 4.43
     },
     {
-      "title_en": "Release of Polars 2.0",
+      "title_en": "OpenTPU – An open-source AI accelerator, developed by AI",
+      "url": "https://github.com/FeSens/openTPU",
+      "title_zh": "OpenTPU：一个开源的AI加速器项目",
+      "created_display": "Created: Oct 06, 2026 / 09:23 PT",
+      "image_url": "https://opengraph.githubassets.com/272c1218496f6605e2927d6a09864b9810db1053d90d256a5acb16fd8243f8e1/FeSens/openTPU",
+      "summary_en": "OpenTPU is an open-source AI accelerator project offering hardware design and software for researchers to explore acceleration architectures. By inviting community contributions, it aims to democratize access to AI hardware and accelerate experimentation beyond vendor lock-in.",
+      "summary_zh": "OpenTPU 是一个开源的 AI 加速器项目，提供硬件设计和软件栈，便于研究者探索不同的加速架构。通过鼓励社区贡献，它旨在降低对厂商锁定的依赖，推动 AI 硬件的普及与创新。",
+      "hn": {
+        "id": 49980715,
+        "type": "story",
+        "by": "fsbonetto",
+        "score": 182,
+        "descendants": 238,
+        "time": 1791303805,
+        "comments_url": "https://news.ycombinator.com/item?id=49980715"
+      },
+      "hot_score": 4.4,
+      "tags": [
+        "AI",
+        "Open Source",
+        "Hardware"
+      ]
+    },
+    {
+      "title_en": "Polars 2.0",
       "url": "https://pola.rs/posts/release-polars-2/",
       "title_zh": "Polars 2.0 发布",
       "created_display": "Created: Oct 06, 2026 / 04:59 PT",
       "image_url": "https://pola.rs/polars_2.0.0.png",
-      "summary_en": "Polars 2.0 ships with significant performance and API improvements, including enhanced lazy evaluation and faster data processing, plus improved bindings across Python and Rust. The release strengthens interoperability with PyData ecosystems and scales better for large datasets.",
-      "summary_zh": "Polars 2.0 发布带来显著的性能与 API 改进，包括强化的惰性计算和更快的数据处理，以及对 Python 与 Rust 的更好绑定。此次更新提升了与 PyData 生态的互操作性，并增强了对大数据场景的扩展性。",
+      "summary_en": "Polars 2.0 brings major performance and API improvements to the fast DataFrame library, with enhancements to lazy evaluation, memory usage, and language bindings. The release tightens competition in data tooling for Python and Rust, appealing to data engineers who need speed and scalability.",
+      "summary_zh": "Polars 2.0 为高性能 DataFrame 库带来重大的性能与 API 改进，提升延迟求值、内存利用率与语言绑定。此版本增强了 Python 与 Rust 的数据处理工作流的速度与可扩展性。",
       "hn": {
         "id": 49977177,
         "type": "story",
         "by": "simicd",
-        "score": 338,
-        "descendants": 69,
+        "score": 393,
+        "descendants": 92,
         "time": 1791287941,
         "comments_url": "https://news.ycombinator.com/item?id=49977177"
       },
+      "hot_score": 4.29,
       "tags": [
         "Data",
-        "Open Source",
-        "Programming"
-      ],
-      "hot_score": 6.01
+        "Programming",
+        "Open Source"
+      ]
     },
     {
       "title_en": "Nobel Prize in Physics 2026: Francis Halzen",
@@ -123,16 +194,221 @@
         "id": 49976265,
         "type": "story",
         "by": "solarist",
-        "score": 421,
-        "descendants": 131,
+        "score": 493,
+        "descendants": 163,
         "time": 1791280126,
         "comments_url": "https://news.ycombinator.com/item?id=49976265"
       },
-      "hot_score": 5.15,
       "tags": [
         "Science",
         "Energy"
+      ],
+      "hot_score": 4.01
+    },
+    {
+      "title_en": "EmbeddingGemma 2: An open, lightweight multimodal embedding model",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
+      "title_zh": "EmbeddingGemma 2：一个开源、轻量级的多模态嵌入模型",
+      "created_display": "Created: Oct 06, 2026 / 09:03 PT",
+      "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/embeddinggemma2-banner_169.width-1300.png",
+      "summary_en": "EmbeddingGemma 2 builds on Google's open Gemma line with a lightweight, multimodal embedding model designed for fast retrieval across text and vision. By staying open and small, it lowers barriers for researchers and developers to prototype cross-modal apps and run experiments on modest hardware.",
+      "summary_zh": "EmbeddingGemma 2 在开放的 Gemma 基础上，提供一个轻量级的多模态嵌入模型，面向快速跨模态检索。保持开源和体积小，降低研究者和开发者在中等硬件上原型化跨模态应用的门槛。",
+      "hn": {
+        "id": 49980487,
+        "type": "story",
+        "by": "ilreb",
+        "score": 154,
+        "descendants": 20,
+        "time": 1791302629,
+        "comments_url": "https://news.ycombinator.com/item?id=49980487"
+      },
+      "hot_score": 3.46,
+      "tags": [
+        "AI",
+        "Open Source",
+        "Hardware"
       ]
+    },
+    {
+      "title_en": "Nature's capacity to 'bounce back' when species are lost is overestimated: study",
+      "url": "https://phys.org/news/2026-10-nature-capacity-species-lost-vastly.html",
+      "title_zh": "物种灭绝后自然界的恢复能力被严重高估",
+      "created_display": "Created: Oct 06, 2026 / 04:11 PT",
+      "image_url": "https://scx2.b-cdn.net/gfx/news/hires/2026/ecosystem.jpg",
+      "summary_en": "New research shows nature's capacity to recover after species loss is vastly overestimated; simulations reveal that ecosystems may undergo slow recovery or irreversible shifts, with cascading effects. The finding implies conservation strategies should prioritize preventing losses of keystone species and maintaining network robustness.",
+      "summary_zh": "新研究表明，自然界在物种流失后恢复的能力被严重高估；模拟显示生态系统可能缓慢恢复或发生不可逆转的转变，产生连锁效应。该发现提醒在保护策略中应优先防止关键物种流失，维护生态网络的韧性。",
+      "hn": {
+        "id": 49976823,
+        "type": "story",
+        "by": "pseudolus",
+        "score": 296,
+        "descendants": 148,
+        "time": 1791285111,
+        "comments_url": "https://news.ycombinator.com/item?id=49976823"
+      },
+      "tags": [
+        "Science"
+      ],
+      "hot_score": 2.88
+    },
+    {
+      "title_en": "Ask HN: Why is Ask HN only showing me 14 posts?",
+      "url": "https://news.ycombinator.com/item?id=49984484",
+      "title_zh": "Ask HN：为什么 Ask HN 只显示给我 14 条帖子？",
+      "created_display": "Created: Oct 06, 2026 / 14:37 PT",
+      "image_url": null,
+      "summary_en": "Ask HN thread examines why the Ask HN page only shows 14 posts, exploring pagination, feed curation, or potential site changes. The discussion highlights how browsing experience and content visibility can affect exploratory reading.",
+      "summary_zh": "此 Ask HN 话题讨论为何页面只显示14条帖子，涉及分页、内容排序与站点改动等因素。讨论揭示了浏览体验与内容可见性对技术探索性阅读的影响。",
+      "hn": {
+        "id": 49984484,
+        "type": "story",
+        "by": "Gooblebrai",
+        "score": 16,
+        "descendants": 19,
+        "time": 1791322621,
+        "comments_url": "https://news.ycombinator.com/item?id=49984484"
+      },
+      "hot_score": 2.58,
+      "tags": [
+        "Web"
+      ]
+    },
+    {
+      "title_en": "System-level ad-blocking in Android",
+      "url": "https://kevinboone.me/adblock.html",
+      "title_zh": "Android 上的系统级广告拦截",
+      "created_display": "Created: Oct 06, 2026 / 13:29 PT",
+      "image_url": "https://kevinboone.me/img/degoogle.png",
+      "summary_en": "System-level ad-blocking in Android is gaining attention as users push for privacy-centric filtering that blocks trackers across apps. The piece weighs benefits for privacy and performance against potential ad-supported revenue losses and app ecosystem implications.",
+      "summary_zh": "Android 的系统级广告拦截备受关注，用户希望实现跨应用的隐私过滤与跟踪拦截。文章评估了对隐私和性能的正面影响，以及对广告收入与应用生态可能带来的影响。",
+      "hn": {
+        "id": 49983647,
+        "type": "story",
+        "by": "birdculture",
+        "score": 28,
+        "descendants": 18,
+        "time": 1791318550,
+        "comments_url": "https://news.ycombinator.com/item?id=49983647"
+      },
+      "hot_score": 2.45,
+      "tags": [
+        "Privacy",
+        "Business"
+      ]
+    },
+    {
+      "title_en": "Toronto-Based VPN Provider Plans to Quit Canada over Lawful-Access Bill",
+      "url": "https://citizenlab.ca/toronto-based-vpn-provider-plans-to-quit-canada-over-lawful-access-bill/",
+      "title_zh": "多伦多 VPN 服务商计划因法定访问法案退出加拿大",
+      "created_display": "Created: Oct 06, 2026 / 11:52 PT",
+      "image_url": "https://citizenlab.ca/wp-content/uploads/2025/11/stock-visual-In-the-media.png",
+      "summary_en": "A Toronto-based VPN provider plans to quit Canada over a lawful-access bill, citing compliance burdens and potential data-access requirements. The move underscores the friction between user privacy protections and government surveillance laws, with implications for Canadian users and the VPN market.",
+      "summary_zh": "一家多伦多 VPN 提供商计划因法定访问法案退出加拿大，指称合规负担与潜在数据访问要求。此举凸显用户隐私保护与政府监控法规之间的冲突，对加拿大用户与 VPN 市场产生影响。",
+      "hn": {
+        "id": 49982471,
+        "type": "story",
+        "by": "speckx",
+        "score": 51,
+        "descendants": 17,
+        "time": 1791312738,
+        "comments_url": "https://news.ycombinator.com/item?id=49982471"
+      },
+      "hot_score": 2.4,
+      "tags": [
+        "Privacy",
+        "Legal",
+        "Politics"
+      ]
+    },
+    {
+      "title_en": "Decisions API is in public beta",
+      "url": "https://developers.openai.com/api/docs/guides/decisions",
+      "title_zh": "Decisions API 已进入公开测试版",
+      "created_display": "Created: Oct 06, 2026 / 13:57 PT",
+      "image_url": "https://developers.openai.com/og/api/docs/guides/decisions.png",
+      "summary_en": "Decisions API is in public beta, enabling developers to encode multi-step decision making into apps using the model’s planning and recommendation capabilities. It helps build tools that surface options, trade-offs, and recommended actions with controllable constraints.",
+      "summary_zh": "Decisions API 现处公开测试版，允许开发者在应用中嵌入多步决策能力，利用模型的规划与推荐功能输出选项、权衡与建议行动，并可对结果设定约束。",
+      "hn": {
+        "id": 49984025,
+        "type": "story",
+        "by": "chiefstorm",
+        "score": 19,
+        "descendants": 3,
+        "time": 1791320245,
+        "comments_url": "https://news.ycombinator.com/item?id=49984025"
+      },
+      "hot_score": 2.08,
+      "tags": [
+        "AI",
+        "Programming"
+      ]
+    },
+    {
+      "title_en": "The Early History of Smalltalk (1993)",
+      "url": "https://worrydream.com/EarlyHistoryOfSmalltalk/",
+      "title_zh": "Smalltalk 的早期历史（1993）",
+      "created_display": "Created: Oct 06, 2026 / 08:19 PT",
+      "image_url": "https://worrydream.com/EarlyHistoryOfSmalltalk/Images/thumbnails/b220.jpg",
+      "summary_en": "A retrospective on the origins of Smalltalk, tracing its influence on object-oriented design, live environments, and modern developer tooling that shape today’s programming culture.",
+      "summary_zh": "回顾 Smalltalk 的起源，梳理其对面向对象设计、交互式开发环境以及现代开发工具的深远影响。",
+      "hn": {
+        "id": 49979845,
+        "type": "story",
+        "by": "_reza",
+        "score": 99,
+        "descendants": 48,
+        "time": 1791299997,
+        "comments_url": "https://news.ycombinator.com/item?id=49979845"
+      },
+      "tags": [
+        "Education",
+        "Culture"
+      ],
+      "hot_score": 1.9
+    },
+    {
+      "title_en": "Gleam doesn't compile to Erlang source anymore",
+      "url": "https://gleam.run/news/gleam-doesnt-compile-to-erlang-source-anymore/",
+      "title_zh": "Gleam 不再直接编译为 Erlang 源码",
+      "created_display": "Created: Oct 06, 2026 / 01:08 PT",
+      "image_url": "https://gleam.run/images/preview/v1.19.png",
+      "summary_en": "The Gleam compiler will no longer emit Erlang source code; it now targets BEAM bytecode directly. This reduces dependency on Erlang source generation and streamlines toolchains, potentially improving interoperability with Elixir and Erlang projects, though it may alter existing code-generation workflows.",
+      "summary_zh": "Gleam 编译器不再输出 Erlang 源码，而改为直接编译成 BEAM 字节码，减少对 Erlang 源码生成的依赖，简化工具链，并提升与 Elixir/Erlang 项目的互操作性。此举可能影响现有的代码生成工作流。",
+      "hn": {
+        "id": 49975619,
+        "type": "story",
+        "by": "ingve",
+        "score": 280,
+        "descendants": 117,
+        "time": 1791274100,
+        "comments_url": "https://news.ycombinator.com/item?id=49975619"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 1.87
+    },
+    {
+      "title_en": "Tapo (Rust/Python library) now speaks TP-Link's TPAP protocol",
+      "url": "https://mihai.dinculescu.dev/posts/tapo-speaks-tpap/",
+      "title_zh": "Tapo（Rust/Python 库）现支持 TP-Link 的 TPAP 协议",
+      "created_display": "Created: Oct 06, 2026 / 06:55 PT",
+      "image_url": "https://mihai.dinculescu.dev/icons/social/github.svg",
+      "summary_en": "A Rust/Python library for Tapo now speaks TP-Link's TPAP protocol, enabling direct programmatic control and integration with TP-Link Tapo devices. This expansion improves automation workflows and cross-language tooling for smart home setups.",
+      "summary_zh": "Tapo 的 Rust/Python 库新增对 TP-Link TPAP 协议的支持，使开发者可以直接编程控制和对接这些智能家居设备，提升自动化工作流与跨语言工具链的兼容性。",
+      "hn": {
+        "id": 49978563,
+        "type": "story",
+        "by": "faithraven",
+        "score": 123,
+        "descendants": 59,
+        "time": 1791294937,
+        "comments_url": "https://news.ycombinator.com/item?id=49978563"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 1.82
     },
     {
       "title_en": "Former German spy chief arrested for attempted treason",
@@ -151,143 +427,10 @@
         "time": 1791305510,
         "comments_url": "https://news.ycombinator.com/item?id=49981063"
       },
-      "hot_score": 4.3,
+      "hot_score": 1.74,
       "tags": [
         "Politics",
-        "Security"
-      ]
-    },
-    {
-      "title_en": "Nature's capacity to 'bounce back' when species are lost is vastly overestimated",
-      "url": "https://phys.org/news/2026-10-nature-capacity-species-lost-vastly.html",
-      "title_zh": "物种灭绝后自然界的恢复能力被严重高估",
-      "created_display": "Created: Oct 06, 2026 / 04:11 PT",
-      "image_url": "https://scx2.b-cdn.net/gfx/news/hires/2026/ecosystem.jpg",
-      "summary_en": "New research shows nature's capacity to recover after species loss is vastly overestimated; simulations reveal that ecosystems may undergo slow recovery or irreversible shifts, with cascading effects. The finding implies conservation strategies should prioritize preventing losses of keystone species and maintaining network robustness.",
-      "summary_zh": "新研究表明，自然界在物种流失后恢复的能力被严重高估；模拟显示生态系统可能缓慢恢复或发生不可逆转的转变，产生连锁效应。该发现提醒在保护策略中应优先防止关键物种流失，维护生态网络的韧性。",
-      "hn": {
-        "id": 49976823,
-        "type": "story",
-        "by": "pseudolus",
-        "score": 249,
-        "descendants": 118,
-        "time": 1791285111,
-        "comments_url": "https://news.ycombinator.com/item?id=49976823"
-      },
-      "tags": [
-        "Science"
-      ],
-      "hot_score": 3.83
-    },
-    {
-      "title_en": "Tapo (Rust/Python library) now speaks TP-Link's TPAP protocol",
-      "url": "https://mihai.dinculescu.dev/posts/tapo-speaks-tpap/",
-      "title_zh": "Tapo（Rust/Python 库）现支持 TP-Link 的 TPAP 协议",
-      "created_display": "Created: Oct 06, 2026 / 06:55 PT",
-      "image_url": "https://mihai.dinculescu.dev/icons/social/github.svg",
-      "summary_en": "A Rust/Python library for Tapo now speaks TP-Link's TPAP protocol, enabling direct programmatic control and integration with TP-Link Tapo devices. This expansion improves automation workflows and cross-language tooling for smart home setups.",
-      "summary_zh": "Tapo 的 Rust/Python 库新增对 TP-Link TPAP 协议的支持，使开发者可以直接编程控制和对接这些智能家居设备，提升自动化工作流与跨语言工具链的兼容性。",
-      "hn": {
-        "id": 49978563,
-        "type": "story",
-        "by": "faithraven",
-        "score": 100,
-        "descendants": 36,
-        "time": 1791294937,
-        "comments_url": "https://news.ycombinator.com/item?id=49978563"
-      },
-      "hot_score": 2.68,
-      "tags": [
-        "Programming"
-      ]
-    },
-    {
-      "title_en": "The Early History of Smalltalk (1993)",
-      "url": "https://worrydream.com/EarlyHistoryOfSmalltalk/",
-      "title_zh": "Smalltalk 的早期历史（1993）",
-      "created_display": "Created: Oct 06, 2026 / 08:19 PT",
-      "image_url": "https://worrydream.com/EarlyHistoryOfSmalltalk/Images/thumbnails/b220.jpg",
-      "summary_en": "A retrospective on the origins of Smalltalk, tracing its influence on object-oriented design, live environments, and modern developer tooling that shape today’s programming culture.",
-      "summary_zh": "回顾 Smalltalk 的起源，梳理其对面向对象设计、交互式开发环境以及现代开发工具的深远影响。",
-      "hn": {
-        "id": 49979845,
-        "type": "story",
-        "by": "_reza",
-        "score": 67,
-        "descendants": 27,
-        "time": 1791299997,
-        "comments_url": "https://news.ycombinator.com/item?id=49979845"
-      },
-      "hot_score": 2.61,
-      "tags": [
-        "Programming"
-      ]
-    },
-    {
-      "title_en": "Gleam doesn't compile to Erlang source anymore",
-      "url": "https://gleam.run/news/gleam-doesnt-compile-to-erlang-source-anymore/",
-      "title_zh": "Gleam 不再直接编译为 Erlang 源码",
-      "created_display": "Created: Oct 06, 2026 / 01:08 PT",
-      "image_url": "https://gleam.run/images/preview/v1.19.png",
-      "summary_en": "The Gleam compiler will no longer emit Erlang source code; it now targets BEAM bytecode directly. This reduces dependency on Erlang source generation and streamlines toolchains, potentially improving interoperability with Elixir and Erlang projects, though it may alter existing code-generation workflows.",
-      "summary_zh": "Gleam 编译器不再输出 Erlang 源码，而改为直接编译成 BEAM 字节码，减少对 Erlang 源码生成的依赖，简化工具链，并提升与 Elixir/Erlang 项目的互操作性。此举可能影响现有的代码生成工作流。",
-      "hn": {
-        "id": 49975619,
-        "type": "story",
-        "by": "ingve",
-        "score": 232,
-        "descendants": 99,
-        "time": 1791274100,
-        "comments_url": "https://news.ycombinator.com/item?id=49975619"
-      },
-      "tags": [
-        "Programming"
-      ],
-      "hot_score": 2.22
-    },
-    {
-      "title_en": "World's First enhanced geothermal power plant completed in just 23 months",
-      "url": "https://techcrunch.com/2026/10/01/worlds-first-enhanced-geothermal-power-plant-completed-in-just-23-months/",
-      "title_zh": "全球首座增强型地热电站仅用23个月完工",
-      "created_display": "Created: Oct 06, 2026 / 04:34 PT",
-      "image_url": "https://techcrunch.com/wp-content/uploads/2025/12/fervo-geothermal-site-at-night.jpg?resize=1200,675",
-      "summary_en": "The world's first enhanced geothermal power plant was completed in 23 months, setting a record pace for rapid deployment of Enhanced Geothermal Systems (EGS). The milestone demonstrates the potential to scale baseload clean energy with faster deployments and reduced risk, signaling a path toward broader geothermal adoption.",
-      "summary_zh": "全球首座增强型地热电站用时仅23个月完工，刷新相关项目的施工速度记录。该成就证明通过增强地热系统可以实现更快部署与风险降低，从而扩大稳定清洁能源的潜力，推动地热在全球的更广泛应用。",
-      "hn": {
-        "id": 49976993,
-        "type": "story",
-        "by": "hochmartinez",
-        "score": 129,
-        "descendants": 50,
-        "time": 1791286454,
-        "comments_url": "https://news.ycombinator.com/item?id=49976993"
-      },
-      "tags": [
-        "Energy"
-      ],
-      "hot_score": 2.11
-    },
-    {
-      "title_en": "JetBrains reported a net financial loss first time in its tracked history",
-      "url": "https://www.helgilibrary.com/companies/jetbrains",
-      "title_zh": "JetBrains 首次披露净亏损，打破历史追踪记录",
-      "created_display": "Created: Oct 06, 2026 / 04:45 PT",
-      "image_url": null,
-      "summary_en": "JetBrains reports its first net loss in its tracked history, despite ongoing demand for core developer tools like IntelliJ and PyCharm. The loss reflects aggressive investments in cloud tooling, distribution, and regional expansion as the company scales. This underscores the profitability challenges and cost pressures that can accompany rapid growth in enterprise software.",
-      "summary_zh": "尽管开发工具需求持续强劲，JetBrains 首次披露净亏损，显示公司在云工具、渠道分发与区域扩张等方面的高额投入尚未转化为短期利润。此举凸显企业级软件在快速扩张阶段面临的盈利压力与成本挑战。",
-      "hn": {
-        "id": 49977072,
-        "type": "story",
-        "by": "thw_9a83c",
-        "score": 122,
-        "descendants": 100,
-        "time": 1791287155,
-        "comments_url": "https://news.ycombinator.com/item?id=49977072"
-      },
-      "hot_score": 2.07,
-      "tags": [
-        "Business",
-        "Finance"
+        "Legal"
       ]
     },
     {
@@ -308,35 +451,78 @@
         "comments_url": "https://news.ycombinator.com/item?id=49971846"
       },
       "tags": [
-        "Legal",
-        "Culture",
-        "AI"
+        "AI",
+        "Legal"
       ],
-      "hot_score": 1.94
+      "hot_score": 1.56
     },
     {
-      "title_en": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
-      "url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
-      "title_zh": "Opus 5.5 的代理发现两种室温磁性半导体候选材料",
-      "created_display": "Created: Oct 05, 2026 / 14:00 PT",
-      "image_url": "https://www.vals.ai/blogs/2026-10-04-room-temperature-magnetic-semiconductors/hero.png",
-      "summary_en": "AI agents in the Opus framework autonomously discovered two candidate room-temperature magnetic semiconductors, pushing spintronics closer to practical devices. This showcases how AI-assisted materials discovery can accelerate breakthroughs that once seemed out of reach.",
-      "summary_zh": "Opus 框架中的 AI 代理自动发现两种室温磁性半导体候选材料，为自旋电子学向实用器件推进带来希望。这体现了 AI 辅助的材料发现能显著加速原本难以实现的突破。",
+      "title_en": "First enhanced geothermal power plant completed in just 23 months",
+      "url": "https://techcrunch.com/2026/10/01/worlds-first-enhanced-geothermal-power-plant-completed-in-just-23-months/",
+      "title_zh": "全球首座增强型地热电站仅用23个月完工",
+      "created_display": "Created: Oct 06, 2026 / 04:34 PT",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2025/12/fervo-geothermal-site-at-night.jpg?resize=1200,675",
+      "summary_en": "The world's first enhanced geothermal power plant was completed in 23 months, setting a record pace for rapid deployment of Enhanced Geothermal Systems (EGS). The milestone demonstrates the potential to scale baseload clean energy with faster deployments and reduced risk, signaling a path toward broader geothermal adoption.",
+      "summary_zh": "全球首座增强型地热电站用时仅23个月完工，刷新相关项目的施工速度记录。该成就证明通过增强地热系统可以实现更快部署与风险降低，从而扩大稳定清洁能源的潜力，推动地热在全球的更广泛应用。",
       "hn": {
-        "id": 49970667,
+        "id": 49976993,
         "type": "story",
-        "by": "outlier99",
-        "score": 463,
-        "descendants": 311,
-        "time": 1791234021,
-        "comments_url": "https://news.ycombinator.com/item?id=49970667"
+        "by": "hochmartinez",
+        "score": 141,
+        "descendants": 63,
+        "time": 1791286454,
+        "comments_url": "https://news.ycombinator.com/item?id=49976993"
+      },
+      "tags": [
+        "Energy",
+        "Science"
+      ],
+      "hot_score": 1.44
+    },
+    {
+      "title_en": "I'm the AGI that's wiping out humanity",
+      "url": "https://ajmoon.com/posts/im-the-agi-thats-wiping-out-humanity-heres-how",
+      "title_zh": "我是正在 wiping out humanity 的 AGI",
+      "created_display": "Created: Oct 06, 2026 / 03:59 PT",
+      "image_url": "https://ajmoon.com/assets/avatar.jpg",
+      "summary_en": "A provocative take on existential risk from AGI, discussing capabilities, governance, and safety controls needed to prevent catastrophic outcomes.",
+      "summary_zh": "从挑衅角度讨论通用人工智能带来的存在性风险，聚焦能力、治理与安全控制以及防止灾难性后果的必要性。",
+      "hn": {
+        "id": 49976751,
+        "type": "story",
+        "by": "alex-moon",
+        "score": 140,
+        "descendants": 89,
+        "time": 1791284395,
+        "comments_url": "https://news.ycombinator.com/item?id=49976751"
       },
       "tags": [
         "AI",
-        "Science",
-        "Hardware"
+        "Science"
       ],
-      "hot_score": 1.48
+      "hot_score": 1.32
+    },
+    {
+      "title_en": "What's Earth's dominant species by mass?",
+      "url": "https://signoregalilei.com/2026/09/27/whats-earths-dominant-species-by-mass/",
+      "title_zh": "按生物量计算地球上的主导物种是谁？",
+      "created_display": "Created: Oct 06, 2026 / 05:40 PT",
+      "image_url": "https://signoregalilei.com/wp-content/uploads/2026/09/Larix_gmelinii0.jpg",
+      "summary_en": "Debates over Earth's dominant species by biomass, with ants often cited as surpassing humans in total mass, prompting reflections on ecosystem scales and data limits.",
+      "summary_zh": "关于地球按生物量计主导物种的讨论，蚂蚁常被引用为总量超过人类，这引发对生态系统规模与数据边界的思考。",
+      "hn": {
+        "id": 49977531,
+        "type": "story",
+        "by": "surprisetalk",
+        "score": 105,
+        "descendants": 56,
+        "time": 1791290403,
+        "comments_url": "https://news.ycombinator.com/item?id=49977531"
+      },
+      "tags": [
+        "Science"
+      ],
+      "hot_score": 1.26
     },
     {
       "title_en": "Beam: Reflection's 501B open-weight model",
@@ -350,15 +536,63 @@
         "id": 49969183,
         "type": "story",
         "by": "Philpax",
-        "score": 523,
-        "descendants": 164,
+        "score": 537,
+        "descendants": 167,
         "time": 1791227795,
         "comments_url": "https://news.ycombinator.com/item?id=49969183"
       },
       "tags": [
-        "AI"
+        "AI",
+        "Open Source"
       ],
-      "hot_score": 1.47
+      "hot_score": 1.25
+    },
+    {
+      "title_en": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
+      "url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
+      "title_zh": "Opus 5.5 的代理发现两种室温磁性半导体候选材料",
+      "created_display": "Created: Oct 05, 2026 / 14:00 PT",
+      "image_url": "https://www.vals.ai/blogs/2026-10-04-room-temperature-magnetic-semiconductors/hero.png",
+      "summary_en": "AI agents in the Opus framework autonomously discovered two candidate room-temperature magnetic semiconductors, pushing spintronics closer to practical devices. This showcases how AI-assisted materials discovery can accelerate breakthroughs that once seemed out of reach.",
+      "summary_zh": "Opus 框架中的 AI 代理自动发现两种室温磁性半导体候选材料，为自旋电子学向实用器件推进带来希望。这体现了 AI 辅助的材料发现能显著加速原本难以实现的突破。",
+      "hn": {
+        "id": 49970667,
+        "type": "story",
+        "by": "outlier99",
+        "score": 482,
+        "descendants": 325,
+        "time": 1791234021,
+        "comments_url": "https://news.ycombinator.com/item?id=49970667"
+      },
+      "tags": [
+        "AI",
+        "Science",
+        "Hardware"
+      ],
+      "hot_score": 1.25
+    },
+    {
+      "title_en": "Claude Code’s suggested message feature: I think the real customer is the model",
+      "url": "https://www.zohaib.cc/blog/smartest-claude-code-feature",
+      "title_zh": "Claude Code 的建议消息功能：真正的客户其实是模型",
+      "created_display": "Created: Oct 06, 2026 / 11:00 PT",
+      "image_url": null,
+      "summary_en": "Claude Code’s suggested message feature reveals a shift in who guides the interaction: the model itself plays a central role in proposing messages, highlighting design trade-offs around prompting, alignment, and the user-model relationship.",
+      "summary_zh": "Claude Code 的建议消息功能暴露出一个趋势：模型本身在引导对话，成为提出消息的核心。这折射出提示设计、对齐与用户-模型关系的取舍。",
+      "hn": {
+        "id": 49981905,
+        "type": "story",
+        "by": "zed_labs_dev",
+        "score": 35,
+        "descendants": 13,
+        "time": 1791309634,
+        "comments_url": "https://news.ycombinator.com/item?id=49981905"
+      },
+      "hot_score": 1.25,
+      "tags": [
+        "AI",
+        "Design"
+      ]
     },
     {
       "title_en": "Why Common Lisp is now the best programming language",
@@ -380,77 +614,29 @@
       "tags": [
         "Programming"
       ],
-      "hot_score": 1.39
+      "hot_score": 1.07
     },
     {
-      "title_en": "Show HN: Parseable, an open observability datalake, handles 100M time-series/min",
-      "url": "https://www.parseable.com",
-      "title_zh": "Show HN：Parseable 开放观测数据湖，处理每分钟 1 亿条时序数据",
-      "created_display": "Created: Oct 06, 2026 / 06:30 PT",
-      "image_url": "https://www.parseable.com/og.png",
-      "summary_en": "Parseable is an open observability data lake capable of ingesting and querying 100 million time-series per minute, aiming to simplify large-scale monitoring data workflows.",
-      "summary_zh": "Parseable 是一个开放的可观测数据湖，具备每分钟处理 1 亿条时序数据的能力，目标是简化大规模监控数据的工作流。",
+      "title_en": "Subquadratic 3SUM and Subcubic APSP",
+      "url": "https://arxiv.org/abs/2610.06783",
+      "title_zh": "子二次时间的 3SUM 与子立方时间的 APSP",
+      "created_display": "Created: Oct 06, 2026 / 05:31 PT",
+      "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "summary_en": "Presents subquadratic-time results for the 3SUM problem and subcubic-time results for all-pairs shortest path under standard complexity conjectures, pushing forward the frontier of combinatorial optimization.",
+      "summary_zh": "给出在常见复杂性假设下的 3SUM 子二次时间及 APSP 子立方时间的算法进展，推动组合优化领域的前沿。",
       "hn": {
-        "id": 49978171,
+        "id": 49977437,
         "type": "story",
-        "by": "yashdotrv",
-        "score": 55,
-        "descendants": 12,
-        "time": 1791293450,
-        "comments_url": "https://news.ycombinator.com/item?id=49978171"
-      },
-      "hot_score": 1.33,
-      "tags": [
-        "Show HN",
-        "Data",
-        "Open Source"
-      ]
-    },
-    {
-      "title_en": "I'm the AGI that's wiping out humanity",
-      "url": "https://ajmoon.com/posts/im-the-agi-thats-wiping-out-humanity-heres-how",
-      "title_zh": "我是正在 wiping out humanity 的 AGI",
-      "created_display": "Created: Oct 06, 2026 / 03:59 PT",
-      "image_url": "https://ajmoon.com/assets/avatar.jpg",
-      "summary_en": "A provocative take on existential risk from AGI, discussing capabilities, governance, and safety controls needed to prevent catastrophic outcomes.",
-      "summary_zh": "从挑衅角度讨论通用人工智能带来的存在性风险，聚焦能力、治理与安全控制以及防止灾难性后果的必要性。",
-      "hn": {
-        "id": 49976751,
-        "type": "story",
-        "by": "alex-moon",
+        "by": "mauriziocalo",
         "score": 87,
-        "descendants": 48,
-        "time": 1791284395,
-        "comments_url": "https://news.ycombinator.com/item?id=49976751"
+        "descendants": 32,
+        "time": 1791289877,
+        "comments_url": "https://news.ycombinator.com/item?id=49977437"
       },
-      "hot_score": 1.28,
       "tags": [
-        "AI",
         "Science"
-      ]
-    },
-    {
-      "title_en": "Mathematics of Geothermal Energy",
-      "url": "https://www.ebsco.com/research-starters/power-and-energy/mathematics-geothermal-energy/",
-      "title_zh": "地热能源的数学原理",
-      "created_display": "Created: Oct 06, 2026 / 06:05 PT",
-      "image_url": "https://www.ebsco.com/ebsco-default-og-image.png",
-      "summary_en": "Explores the mathematical models behind geothermal energy, including heat transfer, reservoir dynamics, and optimization of extraction. The math informs design choices and efficiency improvements for geothermal systems.",
-      "summary_zh": "介绍地热能源背后的数学建模，包括热传导、储层动力学与开采优化等内容，帮助设计与提升地热系统的效率。",
-      "hn": {
-        "id": 49977819,
-        "type": "story",
-        "by": "srameshc",
-        "score": 52,
-        "descendants": 21,
-        "time": 1791291926,
-        "comments_url": "https://news.ycombinator.com/item?id=49977819"
-      },
-      "hot_score": 1.14,
-      "tags": [
-        "Energy",
-        "Science"
-      ]
+      ],
+      "hot_score": 1.02
     },
     {
       "title_en": "Example.com just launched the biggest redesign in decades",
@@ -464,16 +650,41 @@
         "id": 49971921,
         "type": "story",
         "by": "jgx0",
-        "score": 307,
-        "descendants": 210,
+        "score": 336,
+        "descendants": 223,
         "time": 1791240911,
         "comments_url": "https://news.ycombinator.com/item?id=49971921"
       },
       "tags": [
         "Design",
+        "Programming",
         "Web"
       ],
-      "hot_score": 1.13
+      "hot_score": 0.99
+    },
+    {
+      "title_en": "Show HN: Parseable, an open observability datalake, handles 100M time-series/min",
+      "url": "https://www.parseable.com",
+      "title_zh": "Show HN：Parseable 开放观测数据湖，处理每分钟 1 亿条时序数据",
+      "created_display": "Created: Oct 06, 2026 / 06:30 PT",
+      "image_url": "https://www.parseable.com/og.png",
+      "summary_en": "Parseable is an open observability data lake capable of ingesting and querying 100 million time-series per minute, aiming to simplify large-scale monitoring data workflows.",
+      "summary_zh": "Parseable 是一个开放的可观测数据湖，具备每分钟处理 1 亿条时序数据的能力，目标是简化大规模监控数据的工作流。",
+      "hn": {
+        "id": 49978171,
+        "type": "story",
+        "by": "yashdotrv",
+        "score": 71,
+        "descendants": 18,
+        "time": 1791293450,
+        "comments_url": "https://news.ycombinator.com/item?id=49978171"
+      },
+      "tags": [
+        "Show HN",
+        "Open Source",
+        "Data"
+      ],
+      "hot_score": 0.97
     },
     {
       "title_en": "Anthropic reported diary entry to police, woman faces felony charge",
@@ -487,17 +698,16 @@
         "id": 49961057,
         "type": "story",
         "by": "emptybits",
-        "score": 786,
-        "descendants": 627,
+        "score": 802,
+        "descendants": 643,
         "time": 1791178660,
         "comments_url": "https://news.ycombinator.com/item?id=49961057"
       },
       "tags": [
-        "Legal",
-        "Privacy",
-        "AI"
+        "AI",
+        "Legal"
       ],
-      "hot_score": 1.04
+      "hot_score": 0.93
     },
     {
       "title_en": "Friendship ended with Deno, now Node is my best friend",
@@ -511,37 +721,15 @@
         "id": 49971719,
         "type": "story",
         "by": "ibobev",
-        "score": 287,
-        "descendants": 207,
+        "score": 304,
+        "descendants": 228,
         "time": 1791239402,
         "comments_url": "https://news.ycombinator.com/item?id=49971719"
       },
       "tags": [
         "Programming"
       ],
-      "hot_score": 1.02
-    },
-    {
-      "title_en": "Two ARM64-specific compiler optimization bugs, in GCC 15/16 and Rust, hit curl",
-      "url": "https://mastodon.social/@bagder/117392573268225646",
-      "title_zh": "两起 ARM64 专用的编译器优化漏洞：在 GCC 15/16 和 Rust 中影响 curl",
-      "created_display": "Created: Oct 06, 2026 / 06:06 PT",
-      "image_url": "https://mastodon.social/packs/assets/logo-DXQkHAe5.svg",
-      "summary_en": "Two ARM64-specific compiler optimization bugs in GCC 15/16 and Rust affect curl, potentially causing correctness or performance issues on ARM64 systems.",
-      "summary_zh": "两起面向 ARM64 的编译器优化漏洞出现在 GCC 15/16 与 Rust 中，可能在 ARM64 系统上影响 curl 的正确性或性能。",
-      "hn": {
-        "id": 49977832,
-        "type": "story",
-        "by": "torutofu",
-        "score": 46,
-        "descendants": 5,
-        "time": 1791291960,
-        "comments_url": "https://news.ycombinator.com/item?id=49977832"
-      },
-      "hot_score": 1.01,
-      "tags": [
-        "Programming"
-      ]
+      "hot_score": 0.87
     },
     {
       "title_en": "Web Search API",
@@ -562,9 +750,32 @@
       },
       "tags": [
         "Web",
+        "Programming",
         "Privacy"
       ],
-      "hot_score": 0.99
+      "hot_score": 0.85
+    },
+    {
+      "title_en": "Erdosproblems.com Succumbs to the AI Onslaught",
+      "url": "https://www.erdosproblems.com/forum/thread/blog:9",
+      "title_zh": "Erdosproblems.com 在 AI 的冲击下屈服",
+      "created_display": "Created: Oct 06, 2026 / 05:53 PT",
+      "image_url": null,
+      "summary_en": "AI-generated content and automation overwhelm Erdos Problems, raising moderation and community integrity concerns for this math forum.",
+      "summary_zh": "AI 生成内容与自动化对 Erdos Problems 造成冲击，引发关于社区治理与数学讨论纯度的担忧。",
+      "hn": {
+        "id": 49977689,
+        "type": "story",
+        "by": "pfdietz",
+        "score": 68,
+        "descendants": 30,
+        "time": 1791291238,
+        "comments_url": "https://news.ycombinator.com/item?id=49977689"
+      },
+      "tags": [
+        "AI"
+      ],
+      "hot_score": 0.84
     },
     {
       "title_en": "Show HN: I turned my iPhone and a $20 smart plug into an f-stop timer",
@@ -578,16 +789,16 @@
         "id": 49978595,
         "type": "story",
         "by": "pentakkusu",
-        "score": 36,
-        "descendants": 2,
+        "score": 57,
+        "descendants": 13,
         "time": 1791295087,
         "comments_url": "https://news.ycombinator.com/item?id=49978595"
       },
-      "hot_score": 0.96,
       "tags": [
         "Show HN",
         "Hardware"
-      ]
+      ],
+      "hot_score": 0.84
     },
     {
       "title_en": "Find the flattest route between any two points in SF",
@@ -601,38 +812,61 @@
         "id": 49971230,
         "type": "story",
         "by": "ishan0102",
-        "score": 284,
-        "descendants": 97,
+        "score": 299,
+        "descendants": 106,
         "time": 1791236450,
         "comments_url": "https://news.ycombinator.com/item?id=49971230"
       },
       "tags": [
-        "Web",
-        "Data"
+        "Data",
+        "Web"
       ],
-      "hot_score": 0.95
+      "hot_score": 0.81
     },
     {
-      "title_en": "Subquadratic 3SUM and Subcubic APSP",
-      "url": "https://arxiv.org/abs/2610.06783",
-      "title_zh": "子二次时间的 3SUM 与子立方时间的 APSP",
-      "created_display": "Created: Oct 06, 2026 / 05:31 PT",
-      "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-      "summary_en": "Presents subquadratic-time results for the 3SUM problem and subcubic-time results for all-pairs shortest path under standard complexity conjectures, pushing forward the frontier of combinatorial optimization.",
-      "summary_zh": "给出在常见复杂性假设下的 3SUM 子二次时间及 APSP 子立方时间的算法进展，推动组合优化领域的前沿。",
+      "title_en": "Why do tech CEOs sound like doomsday cult leaders?",
+      "url": "https://www.theglobeandmail.com/life/social-trends/article-why-do-tech-ceos-sound-like-doomsday-cult-leaders/",
+      "title_zh": "为什么科技 CEO 的语气像灾难崇拜者？",
+      "created_display": "Created: Oct 06, 2026 / 12:21 PT",
+      "image_url": "https://www.theglobeandmail.com/resizer/v2/253Q6HIT6FGWPNILERXFNX6624.jpg?auth=389e5c78ee37f09df1dffd7c3fc75aaa706361a8937e6eb0b791721291761510&width=1200&height=800&quality=80&smart=true",
+      "summary_en": "Why do tech CEOs sound like doomsday cult leaders? An examination of rhetorical style, framing of existential risks, and the social effects on trust and skepticism in technology discourse.",
+      "summary_zh": "为什么科技公司高管的口吻常带灾难式色彩？分析其修辞风格、对生存风险的框架，以及对公众信任和技术话语的社会影响。",
       "hn": {
-        "id": 49977437,
+        "id": 49982810,
         "type": "story",
-        "by": "mauriziocalo",
-        "score": 48,
-        "descendants": 19,
-        "time": 1791289877,
-        "comments_url": "https://news.ycombinator.com/item?id=49977437"
+        "by": "Fricken",
+        "score": 15,
+        "descendants": 13,
+        "time": 1791314492,
+        "comments_url": "https://news.ycombinator.com/item?id=49982810"
       },
-      "hot_score": 0.93,
+      "hot_score": 0.8,
       "tags": [
-        "Programming"
+        "Culture"
       ]
+    },
+    {
+      "title_en": "Mathematics of Geothermal Energy",
+      "url": "https://www.ebsco.com/research-starters/power-and-energy/mathematics-geothermal-energy/",
+      "title_zh": "地热能源的数学原理",
+      "created_display": "Created: Oct 06, 2026 / 06:05 PT",
+      "image_url": "https://www.ebsco.com/ebsco-default-og-image.png",
+      "summary_en": "Explores the mathematical models behind geothermal energy, including heat transfer, reservoir dynamics, and optimization of extraction. The math informs design choices and efficiency improvements for geothermal systems.",
+      "summary_zh": "介绍地热能源背后的数学建模，包括热传导、储层动力学与开采优化等内容，帮助设计与提升地热系统的效率。",
+      "hn": {
+        "id": 49977819,
+        "type": "story",
+        "by": "srameshc",
+        "score": 62,
+        "descendants": 35,
+        "time": 1791291926,
+        "comments_url": "https://news.ycombinator.com/item?id=49977819"
+      },
+      "tags": [
+        "Science",
+        "Energy"
+      ],
+      "hot_score": 0.79
     },
     {
       "title_en": "Dust: Pretraining Transformers Without Backpropagation",
@@ -646,15 +880,132 @@
         "id": 49970871,
         "type": "story",
         "by": "E-Reverance",
-        "score": 256,
-        "descendants": 69,
+        "score": 264,
+        "descendants": 79,
         "time": 1791234907,
         "comments_url": "https://news.ycombinator.com/item?id=49970871"
       },
       "tags": [
         "AI"
       ],
-      "hot_score": 0.83
+      "hot_score": 0.7
+    },
+    {
+      "title_en": "Denmark data breach exposes 8.8M people's personal data",
+      "url": "https://www.cpr.dk/cpr-nyt/nyhedsarkiv/2026/okt/omfattende-uautoriseret-adgang-til-borgeres-cpr-oplysninger",
+      "title_zh": "丹麦数据泄露曝光880万公民个人信息",
+      "created_display": "Created: Oct 05, 2026 / 01:09 PT",
+      "image_url": "https://cdn9.cpr.dk/cpr/media/12018/cpr-logo-440px.png",
+      "summary_en": "A large Danish data breach exposed personal data for about 8.8 million people due to unauthorized access. The incident underscores government data security risks and the need for stronger access controls, auditing, and breach response measures.",
+      "summary_zh": "未经授权的访问导致约880万丹麦公民的个人信息被曝光（包括 CPR 编号等）。此事件凸显政府数据安全的脆弱性，强调需要加强访问控制、审计与事件响应。",
+      "hn": {
+        "id": 49962012,
+        "type": "story",
+        "by": "clan",
+        "score": 482,
+        "descendants": 336,
+        "time": 1791187776,
+        "comments_url": "https://news.ycombinator.com/item?id=49962012"
+      },
+      "tags": [
+        "Privacy",
+        "Security",
+        "Politics"
+      ],
+      "hot_score": 0.63
+    },
+    {
+      "title_en": "Finland orders halt to work on two Google data centres",
+      "url": "https://www.bbc.com/news/articles/cvj6jkx6g1r0o",
+      "title_zh": "芬兰下令暂停两座谷歌数据中心施工",
+      "created_display": "Created: Oct 06, 2026 / 11:41 PT",
+      "image_url": "https://ichef.bbci.co.uk/news/1024/branded_news/8809/live/12b85c00-c1a6-11f1-8fa2-19a1e9b6288f.jpg",
+      "summary_en": "Finland orders halt to work on two Google data centres amid environmental and permitting reviews, delaying Google's Nordic expansion. The pause underscores regulatory scrutiny around large-scale data infrastructure and local environmental concerns.",
+      "summary_zh": "芬兰因环境与许可审查下令暂停两座谷歌数据中心建设，拖延在北欧的扩张。此举凸显对大规模数据基础设施的监管审查以及地方环境关注的影响。",
+      "hn": {
+        "id": 49982364,
+        "type": "story",
+        "by": "tosh",
+        "score": 15,
+        "descendants": 3,
+        "time": 1791312099,
+        "comments_url": "https://news.ycombinator.com/item?id=49982364"
+      },
+      "hot_score": 0.63,
+      "tags": [
+        "Politics",
+        "Business",
+        "DevOps"
+      ]
+    },
+    {
+      "title_en": "Two ARM64-specific compiler optimization bugs, in GCC 15/16 and Rust, hit curl",
+      "url": "https://mastodon.social/@bagder/117392573268225646",
+      "title_zh": "两起 ARM64 专用的编译器优化漏洞：在 GCC 15/16 和 Rust 中影响 curl",
+      "created_display": "Created: Oct 06, 2026 / 06:06 PT",
+      "image_url": "https://mastodon.social/packs/assets/logo-DXQkHAe5.svg",
+      "summary_en": "Two ARM64-specific compiler optimization bugs in GCC 15/16 and Rust affect curl, potentially causing correctness or performance issues on ARM64 systems.",
+      "summary_zh": "两起面向 ARM64 的编译器优化漏洞出现在 GCC 15/16 与 Rust 中，可能在 ARM64 系统上影响 curl 的正确性或性能。",
+      "hn": {
+        "id": 49977832,
+        "type": "story",
+        "by": "torutofu",
+        "score": 49,
+        "descendants": 7,
+        "time": 1791291960,
+        "comments_url": "https://news.ycombinator.com/item?id=49977832"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 0.62
+    },
+    {
+      "title_en": "The lamps in my house",
+      "url": "https://arslan.io/2026/10/05/the-lamps-in-my-house/",
+      "title_zh": "我家里的设计师灯具",
+      "created_display": "Created: Oct 05, 2026 / 07:12 PT",
+      "image_url": "https://storage.ghost.io/c/ce/27/ce27a3ef-1519-4f17-a161-c8cdf7793306/content/images/size/w1200/2026/10/L1008301-1.jpeg",
+      "summary_en": "A personal reflection on designer lamps discusses how lighting aesthetics, smart features, and energy efficiency converge in home design.",
+      "summary_zh": "对设计师灯具的个人反思，探讨灯光美学、智能化与节能在家居设计中的结合。",
+      "hn": {
+        "id": 49965152,
+        "type": "story",
+        "by": "farslan",
+        "score": 329,
+        "descendants": 123,
+        "time": 1791209534,
+        "comments_url": "https://news.ycombinator.com/item?id=49965152"
+      },
+      "tags": [
+        "Design",
+        "Energy"
+      ],
+      "hot_score": 0.57
+    },
+    {
+      "title_en": "Texas city demands $2M for public records on Flock usage",
+      "url": "https://arstechnica.com/tech-policy/2026/10/texas-city-demands-2m-for-public-records-on-flock-usage/",
+      "title_zh": "德州一城对 Flock 使用公开记录索要200万美元",
+      "created_display": "Created: Oct 05, 2026 / 15:05 PT",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2288945998-1024x648.jpg",
+      "summary_en": "A Texas city seeks a hefty fee for public records about Flock usage, fueling debate over transparency costs, FOIA practices, and how tech data is produced and accessed.",
+      "summary_zh": "德州一城就 Flock 使用公开记录索要高额费用，引发关于信息公开成本、FOIA 实践以及科技数据产出与获取方式的讨论。",
+      "hn": {
+        "id": 49971523,
+        "type": "story",
+        "by": "01-_-",
+        "score": 193,
+        "descendants": 29,
+        "time": 1791237957,
+        "comments_url": "https://news.ycombinator.com/item?id=49971523"
+      },
+      "tags": [
+        "Politics",
+        "Legal",
+        "Privacy"
+      ],
+      "hot_score": 0.54
     },
     {
       "title_en": "ASOS app users receive push notifications apparently sent by hackers",
@@ -677,122 +1028,7 @@
         "Security",
         "Privacy"
       ],
-      "hot_score": 0.76
-    },
-    {
-      "title_en": "Denmark data breach exposes 8.8M people's personal data",
-      "url": "https://www.cpr.dk/cpr-nyt/nyhedsarkiv/2026/okt/omfattende-uautoriseret-adgang-til-borgeres-cpr-oplysninger",
-      "title_zh": "丹麦数据泄露曝光880万公民个人信息",
-      "created_display": "Created: Oct 05, 2026 / 01:09 PT",
-      "image_url": "https://cdn9.cpr.dk/cpr/media/12018/cpr-logo-440px.png",
-      "summary_en": "A large Danish data breach exposed personal data for about 8.8 million people due to unauthorized access. The incident underscores government data security risks and the need for stronger access controls, auditing, and breach response measures.",
-      "summary_zh": "未经授权的访问导致约880万丹麦公民的个人信息被曝光（包括 CPR 编号等）。此事件凸显政府数据安全的脆弱性，强调需要加强访问控制、审计与事件响应。",
-      "hn": {
-        "id": 49962012,
-        "type": "story",
-        "by": "clan",
-        "score": 482,
-        "descendants": 336,
-        "time": 1791187776,
-        "comments_url": "https://news.ycombinator.com/item?id=49962012"
-      },
-      "tags": [
-        "Security",
-        "Privacy",
-        "Politics"
-      ],
-      "hot_score": 0.72
-    },
-    {
-      "title_en": "Texas city demands $2M for public records on Flock usage",
-      "url": "https://arstechnica.com/tech-policy/2026/10/texas-city-demands-2m-for-public-records-on-flock-usage/",
-      "title_zh": "德州一城对 Flock 使用公开记录索要200万美元",
-      "created_display": "Created: Oct 05, 2026 / 15:05 PT",
-      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2288945998-1024x648.jpg",
-      "summary_en": "A Texas city seeks a hefty fee for public records about Flock usage, fueling debate over transparency costs, FOIA practices, and how tech data is produced and accessed.",
-      "summary_zh": "德州一城就 Flock 使用公开记录索要高额费用，引发关于信息公开成本、FOIA 实践以及科技数据产出与获取方式的讨论。",
-      "hn": {
-        "id": 49971523,
-        "type": "story",
-        "by": "01-_-",
-        "score": 193,
-        "descendants": 29,
-        "time": 1791237957,
-        "comments_url": "https://news.ycombinator.com/item?id=49971523"
-      },
-      "tags": [
-        "Politics",
-        "Legal"
-      ],
-      "hot_score": 0.67
-    },
-    {
-      "title_en": "The lamps in my house",
-      "url": "https://arslan.io/2026/10/05/the-lamps-in-my-house/",
-      "title_zh": "我家里的设计师灯具",
-      "created_display": "Created: Oct 05, 2026 / 07:12 PT",
-      "image_url": "https://storage.ghost.io/c/ce/27/ce27a3ef-1519-4f17-a161-c8cdf7793306/content/images/size/w1200/2026/10/L1008301-1.jpeg",
-      "summary_en": "A personal reflection on designer lamps discusses how lighting aesthetics, smart features, and energy efficiency converge in home design.",
-      "summary_zh": "对设计师灯具的个人反思，探讨灯光美学、智能化与节能在家居设计中的结合。",
-      "hn": {
-        "id": 49965152,
-        "type": "story",
-        "by": "farslan",
-        "score": 303,
-        "descendants": 114,
-        "time": 1791209534,
-        "comments_url": "https://news.ycombinator.com/item?id=49965152"
-      },
-      "tags": [
-        "Design",
-        "Energy"
-      ],
-      "hot_score": 0.62
-    },
-    {
-      "title_en": "Weight-loss drugs show signs of slowing biological aging, say drugmakers",
-      "url": "https://www.technologyreview.com/2026/10/06/1145836/weight-loss-drugs-glp1-lilly-novo-aging-clocks/",
-      "title_zh": "减肥药显示出减缓生物学衰老的迹象，药企称",
-      "created_display": "Created: Oct 06, 2026 / 10:43 PT",
-      "image_url": "https://wp.technologyreview.com/wp-content/uploads/2026/10/silo-clock2.jpg?resize=1200,600",
-      "summary_en": "Pharma makers report signals that GLP-1 weight-loss drugs may slow aging clocks, suggesting potential anti-aging benefits but requiring long-term data to confirm effects and safety.",
-      "summary_zh": "药企表示，GLP-1 类减肥药可能减缓生物学时钟，呈现潜在抗衰老效应，但需长期数据来确证实际效果与安全性。",
-      "hn": {
-        "id": 49981728,
-        "type": "story",
-        "by": "xnx",
-        "score": 7,
-        "descendants": 0,
-        "time": 1791308626,
-        "comments_url": "https://news.ycombinator.com/item?id=49981728"
-      },
-      "hot_score": 0.59,
-      "tags": [
-        "Health"
-      ]
-    },
-    {
-      "title_en": "Resurrecting iChat Audio and Video Conferencing",
-      "url": "https://blog.pipetogrep.org/2026/09/11/resurrecting-ichat-audio-and-video-conferencing/",
-      "title_zh": "重现 iChat 的音视频会议功能",
-      "created_display": "Created: Oct 05, 2026 / 20:39 PT",
-      "image_url": "https://blog.pipetogrep.org/images/ichatav_screen_marketing.png",
-      "summary_en": "An ode to early chat apps, this piece sketches reviving iChat-like audio/video conferencing with modern UX: lightweight, secure, and easy to join. It argues that a simple, elegant conferencing tool could cut friction in remote work, countering feature bloat.",
-      "summary_zh": "本文怀旧地设想以 iChat 为灵感的现代化音视频会议工具，强调简洁、易用与安全性。作者认为，去繁就简的会话工具能降低远程办公的使用门槛，抵抗功能臃肿。",
-      "hn": {
-        "id": 49973878,
-        "type": "story",
-        "by": "thepipetogrep",
-        "score": 103,
-        "descendants": 36,
-        "time": 1791257941,
-        "comments_url": "https://news.ycombinator.com/item?id=49973878"
-      },
-      "tags": [
-        "Design",
-        "Web"
-      ],
-      "hot_score": 0.58
+      "hot_score": 0.5
     },
     {
       "title_en": "Photopea creator weighs in on Photosuite project",
@@ -806,16 +1042,39 @@
         "id": 49972730,
         "type": "story",
         "by": "montag",
-        "score": 111,
-        "descendants": 67,
+        "score": 145,
+        "descendants": 101,
         "time": 1791247304,
         "comments_url": "https://news.ycombinator.com/item?id=49972730"
       },
-      "hot_score": 0.47,
       "tags": [
         "Open Source",
-        "Web"
-      ]
+        "Design"
+      ],
+      "hot_score": 0.49
+    },
+    {
+      "title_en": "Resurrecting iChat audio and video conferencing",
+      "url": "https://blog.pipetogrep.org/2026/09/11/resurrecting-ichat-audio-and-video-conferencing/",
+      "title_zh": "重现 iChat 的音视频会议功能",
+      "created_display": "Created: Oct 05, 2026 / 20:39 PT",
+      "image_url": "https://blog.pipetogrep.org/images/ichatav_screen_marketing.png",
+      "summary_en": "An ode to early chat apps, this piece sketches reviving iChat-like audio/video conferencing with modern UX: lightweight, secure, and easy to join. It argues that a simple, elegant conferencing tool could cut friction in remote work, countering feature bloat.",
+      "summary_zh": "本文怀旧地设想以 iChat 为灵感的现代化音视频会议工具，强调简洁、易用与安全性。作者认为，去繁就简的会话工具能降低远程办公的使用门槛，抵抗功能臃肿。",
+      "hn": {
+        "id": 49973878,
+        "type": "story",
+        "by": "thepipetogrep",
+        "score": 106,
+        "descendants": 39,
+        "time": 1791257941,
+        "comments_url": "https://news.ycombinator.com/item?id=49973878"
+      },
+      "tags": [
+        "Design",
+        "Programming"
+      ],
+      "hot_score": 0.45
     },
     {
       "title_en": "Apple and a hacker's future",
@@ -835,10 +1094,10 @@
         "comments_url": "https://news.ycombinator.com/item?id=49962857"
       },
       "tags": [
-        "Business",
-        "Security"
+        "Security",
+        "Business"
       ],
-      "hot_score": 0.45
+      "hot_score": 0.39
     },
     {
       "title_en": "We are going to kill \"unalive\"",
@@ -857,7 +1116,7 @@
         "time": 1791269379,
         "comments_url": "https://news.ycombinator.com/item?id=49975083"
       },
-      "hot_score": 0.44,
+      "hot_score": 0.31,
       "tags": [
         "Culture"
       ]
@@ -874,36 +1133,38 @@
         "id": 49965308,
         "type": "story",
         "by": "Vosporos",
-        "score": 172,
-        "descendants": 52,
+        "score": 173,
+        "descendants": 53,
         "time": 1791210227,
         "comments_url": "https://news.ycombinator.com/item?id=49965308"
       },
       "tags": [
-        "Programming"
+        "Programming",
+        "Open Source"
       ],
-      "hot_score": 0.35
+      "hot_score": 0.3
     },
     {
-      "title_en": "What's Earth's dominant species by mass?",
-      "url": "https://signoregalilei.com/2026/09/27/whats-earths-dominant-species-by-mass/",
-      "title_zh": "按生物量计算地球上的主导物种是谁？",
-      "created_display": "Created: Oct 06, 2026 / 05:40 PT",
-      "image_url": "https://signoregalilei.com/wp-content/uploads/2026/09/Larix_gmelinii0.jpg",
-      "summary_en": "Debates over Earth's dominant species by biomass, with ants often cited as surpassing humans in total mass, prompting reflections on ecosystem scales and data limits.",
-      "summary_zh": "关于地球按生物量计主导物种的讨论，蚂蚁常被引用为总量超过人类，这引发对生态系统规模与数据边界的思考。",
+      "title_en": "Show HN: Jotbus – a shared encrypted scratchpad for coding agents",
+      "url": "https://jotbus.com/",
+      "title_zh": "Show HN：Jotbus——用于编码代理的共享加密草稿本",
+      "created_display": "Created: Oct 06, 2026 / 06:45 PT",
+      "image_url": "https://jotbus.com/og.png",
+      "summary_en": "Show HN: Jotbus is a shared encrypted scratchpad for coding agents, enabling private collaboration as multiple agents coordinate in a single workspace. It targets multi-agent workflows and secure, resumable coding sessions.",
+      "summary_zh": "Show HN：Jotbus 是一个用于编码代理的共享加密草稿本，支持多方在同一工作区私密协作、协同编码。适用于多代理工作流与安全、可恢复的编码会话。",
       "hn": {
-        "id": 49977531,
+        "id": 49978401,
         "type": "story",
-        "by": "surprisetalk",
-        "score": 17,
-        "descendants": 4,
-        "time": 1791290403,
-        "comments_url": "https://news.ycombinator.com/item?id=49977531"
+        "by": "shake-n-fries",
+        "score": 21,
+        "descendants": 13,
+        "time": 1791294304,
+        "comments_url": "https://news.ycombinator.com/item?id=49978401"
       },
-      "hot_score": 0.33,
+      "hot_score": 0.29,
       "tags": [
-        "Science"
+        "Show HN",
+        "Programming"
       ]
     },
     {
@@ -924,9 +1185,10 @@
         "comments_url": "https://news.ycombinator.com/item?id=49969256"
       },
       "tags": [
-        "Science"
+        "Science",
+        "Data"
       ],
-      "hot_score": 0.31
+      "hot_score": 0.26
     },
     {
       "title_en": "Qualcomm licenses patents on Huawei’s LogicFolding chip tech",
@@ -947,32 +1209,10 @@
       },
       "tags": [
         "Business",
-        "Legal",
-        "Hardware"
+        "Hardware",
+        "Legal"
       ],
-      "hot_score": 0.29
-    },
-    {
-      "title_en": "Ephemeral Testing",
-      "url": "https://lemire.me/blog/2026/10/05/ephemeral-testing/",
-      "title_zh": "短暂测试",
-      "created_display": "Created: Oct 05, 2026 / 16:06 PT",
-      "image_url": null,
-      "summary_en": "Ephemeral Testing advocates disposable, short-lived tests to accelerate feedback loops, discussing trade-offs and practicalities for fast iteration. The approach emphasizes fast failure and quick learning.",
-      "summary_zh": "短暂测试主张通过一次性、短时间存在的测试来加速反馈循环，讨论取舍与实操要点，强调快速迭代与快速学习。",
-      "hn": {
-        "id": 49972008,
-        "type": "story",
-        "by": "ibobev",
-        "score": 78,
-        "descendants": 27,
-        "time": 1791241596,
-        "comments_url": "https://news.ycombinator.com/item?id=49972008"
-      },
-      "tags": [
-        "DevOps"
-      ],
-      "hot_score": 0.29
+      "hot_score": 0.25
     },
     {
       "title_en": "Linux containers in 500 lines of code (2016)",
@@ -994,94 +1234,49 @@
       "tags": [
         "Programming"
       ],
-      "hot_score": 0.28
+      "hot_score": 0.24
     },
     {
-      "title_en": "Germany: Ex-spy chief arrested for espionage",
-      "url": "https://www.dw.com/en/germany-ex-spy-chief-arrested-for-espionage-reports/a-79560278",
-      "title_zh": "德国：前情报机构首席因间谍指控被逮捕",
-      "created_display": "Created: Oct 06, 2026 / 01:21 PT",
-      "image_url": "https://static.dw.com/image/79560324_6.jpg",
-      "summary_en": "A former head of Germany’s intelligence service was arrested on espionage charges, marking a rare high-profile case that unsettles security circles. The arrest raises questions about oversight, recruitment, and internal control within German intelligence.",
-      "summary_zh": "德国情报机构前首席因间谍指控被逮捕，属于罕见的高层案例，震动情报界。此案引发对德国情报机构监督、招募与内部治理的讨论。",
-      "hn": {
-        "id": 49975688,
-        "type": "story",
-        "by": "Tomte",
-        "score": 26,
-        "descendants": 8,
-        "time": 1791274900,
-        "comments_url": "https://news.ycombinator.com/item?id=49975688"
-      },
-      "hot_score": 0.25,
-      "tags": [
-        "Security",
-        "Politics"
-      ]
-    },
-    {
-      "title_en": "Global Solar Atlas: summary of solar power potential globally",
-      "url": "https://globalsolaratlas.info/",
-      "title_zh": "全球太阳能地图：全球潜力概览",
-      "created_display": "Created: Oct 05, 2026 / 15:37 PT",
+      "title_en": "Benchmark in Milliseconds",
+      "url": "https://matklad.github.io/2026/10/05/benchmark-milliseconds.html",
+      "title_zh": "以毫秒为单位的基准测试",
+      "created_display": "Created: Oct 05, 2026 / 10:00 PT",
       "image_url": null,
-      "summary_en": "Global Solar Atlas aggregates regional solar resource data to outline where solar power is most viable and how much capacity is realistically achievable. For developers and policymakers, the atlas helps identify high-potential regions and plan grid and investment needs.",
-      "summary_zh": "全球太阳能地图汇集各地区的日照资源数据，勾勒出最具可行性的区域和现实可实现的容量。对开发者与决策者而言，该工具有助于识别高潜力区域并规划电网与投资需求。",
+      "summary_en": "A concise look at benchmarking with millisecond timing, highlighting how timing resolution shapes performance comparisons and why choosing the right unit matters for meaningful results.",
+      "summary_zh": "简要讨论以毫秒计时的基准测试，强调计时粒度如何影响性能对比以及选择合适单位以获得有意义的结果。",
       "hn": {
-        "id": 49971782,
+        "id": 49967427,
         "type": "story",
-        "by": "stratts",
-        "score": 68,
-        "descendants": 50,
-        "time": 1791239878,
-        "comments_url": "https://news.ycombinator.com/item?id=49971782"
+        "by": "surprisetalk",
+        "score": 119,
+        "descendants": 31,
+        "time": 1791219610,
+        "comments_url": "https://news.ycombinator.com/item?id=49967427"
       },
       "tags": [
-        "Energy"
+        "Programming"
       ],
       "hot_score": 0.24
     },
     {
-      "title_en": "Erdosproblems.com Succumbs to the AI Onslaught",
-      "url": "https://www.erdosproblems.com/forum/thread/blog:9",
-      "title_zh": "Erdosproblems.com 在 AI 的冲击下屈服",
-      "created_display": "Created: Oct 06, 2026 / 05:53 PT",
+      "title_en": "Ephemeral Testing",
+      "url": "https://lemire.me/blog/2026/10/05/ephemeral-testing/",
+      "title_zh": "短暂测试",
+      "created_display": "Created: Oct 05, 2026 / 16:06 PT",
       "image_url": null,
-      "summary_en": "AI-generated content and automation overwhelm Erdos Problems, raising moderation and community integrity concerns for this math forum.",
-      "summary_zh": "AI 生成内容与自动化对 Erdos Problems 造成冲击，引发关于社区治理与数学讨论纯度的担忧。",
+      "summary_en": "Ephemeral Testing advocates disposable, short-lived tests to accelerate feedback loops, discussing trade-offs and practicalities for fast iteration. The approach emphasizes fast failure and quick learning.",
+      "summary_zh": "短暂测试主张通过一次性、短时间存在的测试来加速反馈循环，讨论取舍与实操要点，强调快速迭代与快速学习。",
       "hn": {
-        "id": 49977689,
+        "id": 49972008,
         "type": "story",
-        "by": "pfdietz",
-        "score": 12,
-        "descendants": 2,
-        "time": 1791291238,
-        "comments_url": "https://news.ycombinator.com/item?id=49977689"
-      },
-      "hot_score": 0.24,
-      "tags": [
-        "AI"
-      ]
-    },
-    {
-      "title_en": "2026 Nobel Prize in Physiology or Medicine: Deisseroth, Hegemann, Nagel",
-      "url": "https://www.nobelprize.org/prizes/medicine/2026/summary/",
-      "title_zh": "2026 年诺贝尔生理学或医学奖：德塞洛斯特、赫格曼、纳格尔",
-      "created_display": "Created: Oct 05, 2026 / 02:33 PT",
-      "image_url": "https://www.nobelprize.org/uploads/2026/10/NP_POM_2026_3-2_01-1024x683.jpg",
-      "summary_en": "The 2026 Nobel Prize in Physiology or Medicine honors breakthroughs in optogenetics and neural circuit control, highlighting how light-based techniques enable precise modulation of brain activity and potential therapies.",
-      "summary_zh": "2026 年诺贝尔生理学或医学奖表彰在光遗传学与神经回路控制方面的突破，强调光基技术在精确调控脑活动与潜在治疗中的作用。",
-      "hn": {
-        "id": 49962572,
-        "type": "story",
-        "by": "lode",
-        "score": 145,
-        "descendants": 48,
-        "time": 1791192793,
-        "comments_url": "https://news.ycombinator.com/item?id=49962572"
+        "by": "ibobev",
+        "score": 78,
+        "descendants": 27,
+        "time": 1791241596,
+        "comments_url": "https://news.ycombinator.com/item?id=49972008"
       },
       "tags": [
-        "Health"
+        "Programming"
       ],
       "hot_score": 0.23
     },
@@ -1106,7 +1301,76 @@
         "Science",
         "Health"
       ],
-      "hot_score": 0.22
+      "hot_score": 0.2
+    },
+    {
+      "title_en": "2026 Nobel Prize in Physiology or Medicine: Deisseroth, Hegemann, Nagel",
+      "url": "https://www.nobelprize.org/prizes/medicine/2026/summary/",
+      "title_zh": "2026 年诺贝尔生理学或医学奖：德塞洛斯特、赫格曼、纳格尔",
+      "created_display": "Created: Oct 05, 2026 / 02:33 PT",
+      "image_url": "https://www.nobelprize.org/uploads/2026/10/NP_POM_2026_3-2_01-1024x683.jpg",
+      "summary_en": "The 2026 Nobel Prize in Physiology or Medicine honors breakthroughs in optogenetics and neural circuit control, highlighting how light-based techniques enable precise modulation of brain activity and potential therapies.",
+      "summary_zh": "2026 年诺贝尔生理学或医学奖表彰在光遗传学与神经回路控制方面的突破，强调光基技术在精确调控脑活动与潜在治疗中的作用。",
+      "hn": {
+        "id": 49962572,
+        "type": "story",
+        "by": "lode",
+        "score": 145,
+        "descendants": 48,
+        "time": 1791192793,
+        "comments_url": "https://news.ycombinator.com/item?id=49962572"
+      },
+      "tags": [
+        "Science",
+        "Health"
+      ],
+      "hot_score": 0.2
+    },
+    {
+      "title_en": "Weight-loss drugs show signs of slowing biological aging, say drugmakers",
+      "url": "https://www.technologyreview.com/2026/10/06/1145836/weight-loss-drugs-glp1-lilly-novo-aging-clocks/",
+      "title_zh": "减肥药显示出减缓生物学衰老的迹象，药企称",
+      "created_display": "Created: Oct 06, 2026 / 10:43 PT",
+      "image_url": "https://wp.technologyreview.com/wp-content/uploads/2026/10/silo-clock2.jpg?resize=1200,600",
+      "summary_en": "Pharma makers report signals that GLP-1 weight-loss drugs may slow aging clocks, suggesting potential anti-aging benefits but requiring long-term data to confirm effects and safety.",
+      "summary_zh": "药企表示，GLP-1 类减肥药可能减缓生物学时钟，呈现潜在抗衰老效应，但需长期数据来确证实际效果与安全性。",
+      "hn": {
+        "id": 49981728,
+        "type": "story",
+        "by": "xnx",
+        "score": 7,
+        "descendants": 0,
+        "time": 1791308626,
+        "comments_url": "https://news.ycombinator.com/item?id=49981728"
+      },
+      "hot_score": 0.2,
+      "tags": [
+        "Science",
+        "Health"
+      ]
+    },
+    {
+      "title_en": "Global Solar Atlas: summary of solar power potential globally",
+      "url": "https://globalsolaratlas.info/",
+      "title_zh": "全球太阳能地图：全球潜力概览",
+      "created_display": "Created: Oct 05, 2026 / 15:37 PT",
+      "image_url": null,
+      "summary_en": "Global Solar Atlas aggregates regional solar resource data to outline where solar power is most viable and how much capacity is realistically achievable. For developers and policymakers, the atlas helps identify high-potential regions and plan grid and investment needs.",
+      "summary_zh": "全球太阳能地图汇集各地区的日照资源数据，勾勒出最具可行性的区域和现实可实现的容量。对开发者与决策者而言，该工具有助于识别高潜力区域并规划电网与投资需求。",
+      "hn": {
+        "id": 49971782,
+        "type": "story",
+        "by": "stratts",
+        "score": 68,
+        "descendants": 50,
+        "time": 1791239878,
+        "comments_url": "https://news.ycombinator.com/item?id=49971782"
+      },
+      "tags": [
+        "Energy",
+        "Data"
+      ],
+      "hot_score": 0.19
     },
     {
       "title_en": "Samon: Designing a Zen Garden Raking Puzzle",
@@ -1126,31 +1390,31 @@
         "comments_url": "https://news.ycombinator.com/item?id=49972211"
       },
       "tags": [
-        "Design",
-        "Gaming"
+        "Design"
       ],
-      "hot_score": 0.22
+      "hot_score": 0.17
     },
     {
-      "title_en": "Benchmark in Milliseconds",
-      "url": "https://matklad.github.io/2026/10/05/benchmark-milliseconds.html",
-      "title_zh": "以毫秒为单位的基准测试",
-      "created_display": "Created: Oct 05, 2026 / 10:00 PT",
-      "image_url": null,
-      "summary_en": "A concise look at benchmarking with millisecond timing, highlighting how timing resolution shapes performance comparisons and why choosing the right unit matters for meaningful results.",
-      "summary_zh": "简要讨论以毫秒计时的基准测试，强调计时粒度如何影响性能对比以及选择合适单位以获得有意义的结果。",
+      "title_en": "Germany: Ex-spy chief arrested for espionage",
+      "url": "https://www.dw.com/en/germany-ex-spy-chief-arrested-for-espionage-reports/a-79560278",
+      "title_zh": "德国：前情报机构首席因间谍指控被逮捕",
+      "created_display": "Created: Oct 06, 2026 / 01:21 PT",
+      "image_url": "https://static.dw.com/image/79560324_6.jpg",
+      "summary_en": "A former head of Germany’s intelligence service was arrested on espionage charges, marking a rare high-profile case that unsettles security circles. The arrest raises questions about oversight, recruitment, and internal control within German intelligence.",
+      "summary_zh": "德国情报机构前首席因间谍指控被逮捕，属于罕见的高层案例，震动情报界。此案引发对德国情报机构监督、招募与内部治理的讨论。",
       "hn": {
-        "id": 49967427,
+        "id": 49975688,
         "type": "story",
-        "by": "surprisetalk",
-        "score": 89,
-        "descendants": 20,
-        "time": 1791219610,
-        "comments_url": "https://news.ycombinator.com/item?id=49967427"
+        "by": "Tomte",
+        "score": 26,
+        "descendants": 8,
+        "time": 1791274900,
+        "comments_url": "https://news.ycombinator.com/item?id=49975688"
       },
-      "hot_score": 0.21,
+      "hot_score": 0.17,
       "tags": [
-        "Programming"
+        "Security",
+        "Politics"
       ]
     },
     {
@@ -1174,7 +1438,30 @@
         "Programming",
         "Data"
       ],
-      "hot_score": 0.15
+      "hot_score": 0.14
+    },
+    {
+      "title_en": "Best-selling Zigbee temperature sensors tested and compared",
+      "url": "https://smarthomescene.com/reviews/best-selling-zigbee-temperature-sensors-tested/",
+      "title_zh": "最畅销 Zigbee 温度传感器测试对比",
+      "created_display": "Created: Oct 03, 2026 / 21:30 PT",
+      "image_url": "https://smarthomescene.com/wp-content/uploads/2026/08/zigbee-temperature-sensors-compared-and-tested-hero-smarthomescene.jpg",
+      "summary_en": "Best-selling Zigbee temperature sensors tested and compared offer benchmarks on accuracy, battery life, and ease of integration with smart home hubs. The review helps buyers choose reliable sensors for reliable temperature monitoring across a Zigbee mesh.",
+      "summary_zh": "对最畅销 Zigbee 温度传感器的测试对比覆盖精度、电池寿命及与智能家居集线器的集成难易度，为购买者在 Zigbee 网络中的温控监测提供参考。",
+      "hn": {
+        "id": 49950653,
+        "type": "story",
+        "by": "walrus01",
+        "score": 229,
+        "descendants": 116,
+        "time": 1791088246,
+        "comments_url": "https://news.ycombinator.com/item?id=49950653"
+      },
+      "hot_score": 0.12,
+      "tags": [
+        "Hardware",
+        "Energy"
+      ]
     },
     {
       "title_en": "Learning Jazz Pianist Style with Cross-Attention Conditioning",
@@ -1196,7 +1483,29 @@
       "tags": [
         "AI"
       ],
-      "hot_score": 0.15
+      "hot_score": 0.12
+    },
+    {
+      "title_en": "Competitive Programmer's Handbook (2018) [pdf]",
+      "url": "https://cses.fi/book/book.pdf",
+      "title_zh": "竞争编程者手册（2018）[PDF]",
+      "created_display": "Created: Oct 03, 2026 / 06:24 PT",
+      "image_url": null,
+      "summary_en": "The PDF version of the Competitive Programmer's Handbook remains a compact, practical reference for algorithms and data structures used by competitive programmers. It continues to serve as a go-to resource for interview prep and contest practice.",
+      "summary_zh": "《竞争编程者手册》2018 年版 PDF 仍是算法与数据结构的紧凑实用参考，广受竞赛选手欢迎。依然是面试备考与实战练习的首选资源。",
+      "hn": {
+        "id": 49944049,
+        "type": "story",
+        "by": "vinhnx",
+        "score": 306,
+        "descendants": 82,
+        "time": 1791033841,
+        "comments_url": "https://news.ycombinator.com/item?id=49944049"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 0.11
     },
     {
       "title_en": "German Bundeswehr Uses AI to Screen Applicants for Right-Wing Extremism",
@@ -1215,102 +1524,10 @@
         "time": 1791272947,
         "comments_url": "https://news.ycombinator.com/item?id=49975484"
       },
-      "hot_score": 0.14,
+      "hot_score": 0.1,
       "tags": [
         "AI",
         "Privacy"
-      ]
-    },
-    {
-      "title_en": "Competitive Programmer's Handbook (2018) [pdf]",
-      "url": "https://cses.fi/book/book.pdf",
-      "title_zh": "竞争编程者手册（2018）[PDF]",
-      "created_display": "Created: Oct 03, 2026 / 06:24 PT",
-      "image_url": null,
-      "summary_en": "The PDF version of the Competitive Programmer's Handbook remains a compact, practical reference for algorithms and data structures used by competitive programmers. It continues to serve as a go-to resource for interview prep and contest practice.",
-      "summary_zh": "《竞争编程者手册》2018 年版 PDF 仍是算法与数据结构的紧凑实用参考，广受竞赛选手欢迎。依然是面试备考与实战练习的首选资源。",
-      "hn": {
-        "id": 49944049,
-        "type": "story",
-        "by": "vinhnx",
-        "score": 283,
-        "descendants": 70,
-        "time": 1791033841,
-        "comments_url": "https://news.ycombinator.com/item?id=49944049"
-      },
-      "tags": [
-        "Education",
-        "Programming"
-      ],
-      "hot_score": 0.11
-    },
-    {
-      "title_en": "Testing 12 different Zigbee temperature/humidity sensors",
-      "url": "https://smarthomescene.com/reviews/best-selling-zigbee-temperature-sensors-tested/",
-      "title_zh": "测试 12 种不同的 Zigbee 温湿度传感器",
-      "created_display": "Created: Oct 03, 2026 / 21:30 PT",
-      "image_url": "https://smarthomescene.com/wp-content/uploads/2026/08/zigbee-temperature-sensors-compared-and-tested-hero-smarthomescene.jpg",
-      "summary_en": "A hands-on evaluation of 12 Zigbee temperature/humidity sensors, examining accuracy, reliability, and practical suitability for smart home deployments. The results help buyers pick dependable devices.",
-      "summary_zh": "对12款 Zigbee 温湿度传感器进行了实测评估，关注精度、可靠性及在智能家居部署中的实际适用性，帮助选购更可靠的设备。",
-      "hn": {
-        "id": 49950653,
-        "type": "story",
-        "by": "walrus01",
-        "score": 202,
-        "descendants": 109,
-        "time": 1791088246,
-        "comments_url": "https://news.ycombinator.com/item?id=49950653"
-      },
-      "tags": [
-        "Hardware"
-      ],
-      "hot_score": 0.11
-    },
-    {
-      "title_en": "Subquadratic 3SUM and Subcubic APSP",
-      "url": "https://arxiv.org/abs/2610.06783",
-      "title_zh": "子平方级3SUM与子三次APSP的新算法",
-      "created_display": "Created: Oct 05, 2026 / 20:34 PT",
-      "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-      "summary_en": "Theoretical computer scientists present algorithms achieving subquadratic time for 3SUM and subcubic time for APSP, narrowing gaps in fundamental computational problems. These results may influence practical databases, graph algorithms, and complexity theory research.",
-      "summary_zh": "理论计算机科学家提出对3SUM实现子平方时间、对APSP实现子三次时间的算法，推动这两类基础问题时间界限的突破。相关结果可能影响数据库、图算法以及复杂度理论的研究与应用。",
-      "hn": {
-        "id": 49973854,
-        "type": "story",
-        "by": "procedurecall",
-        "score": 20,
-        "descendants": 3,
-        "time": 1791257682,
-        "comments_url": "https://news.ycombinator.com/item?id=49973854"
-      },
-      "hot_score": 0.11,
-      "tags": [
-        "Science",
-        "Programming"
-      ]
-    },
-    {
-      "title_en": "The AI boom is making the cheapest smartphones disappear",
-      "url": "https://restofworld.org/2026/ai-data-center-memory-chip-shortage-cheap-smartphones-digital-divide/",
-      "title_zh": "AI 热潮正在让最便宜的智能手机消失",
-      "created_display": "Created: Oct 05, 2026 / 21:37 PT",
-      "image_url": "https://restofworld.org/wp-content/uploads/2026/10/smartphone-price-ai-2-1600x900.jpg",
-      "summary_en": "AI boom and memory-chip shortages at data centers are driving up costs and reducing the availability of ultra-cheap smartphones, widening the digital divide in emerging markets. The piece links hardware constraints to consumer access and growth trajectories.",
-      "summary_zh": "人工智能热潮及数据中心内存芯片短缺推高成本，导致极便宜的智能手机供应受限，进一步拉大新兴市场的数字鸿沟。文章将硬件约束与你的可及性和移动增长前景联系起来。",
-      "hn": {
-        "id": 49974238,
-        "type": "story",
-        "by": "jethronethro",
-        "score": 18,
-        "descendants": 4,
-        "time": 1791261437,
-        "comments_url": "https://news.ycombinator.com/item?id=49974238"
-      },
-      "hot_score": 0.11,
-      "tags": [
-        "Hardware",
-        "Business",
-        "AI"
       ]
     },
     {
@@ -1331,33 +1548,55 @@
         "comments_url": "https://news.ycombinator.com/item?id=49971678"
       },
       "tags": [
-        "Data",
-        "Programming"
-      ],
-      "hot_score": 0.1
-    },
-    {
-      "title_en": "Using Blu-ray M-Disk as backup of last resort",
-      "url": "https://smyck.net/2026/10/03/holocron-the-backup-of-last-resort/",
-      "title_zh": "把 Blu-ray 的 M-Disc 作为最后的备份方案",
-      "created_display": "Created: Oct 04, 2026 / 01:03 PT",
-      "image_url": "https://smyck.net/wp-content/uploads/2026/10/case-final-no-meta-1-1024x726.jpg",
-      "summary_en": "Describes using Blu-ray M-Disc as a last-resort archival backup for critical data, emphasizing durability and cross-generation compatibility. Includes practical tips for long-term data integrity and recovery.",
-      "summary_zh": "介绍将 Blu-ray 的 M-Disc 作为最后的长期归档备份，强调耐久性和跨代兼容性，并给出确保长期数据完整性与可恢复性的实用要点。",
-      "hn": {
-        "id": 49951693,
-        "type": "story",
-        "by": "hukl",
-        "score": 95,
-        "descendants": 111,
-        "time": 1791101004,
-        "comments_url": "https://news.ycombinator.com/item?id=49951693"
-      },
-      "tags": [
-        "Hardware",
         "Data"
       ],
-      "hot_score": 0.06
+      "hot_score": 0.08
+    },
+    {
+      "title_en": "Subquadratic 3SUM and Subcubic APSP",
+      "url": "https://arxiv.org/abs/2610.06783",
+      "title_zh": "子平方级3SUM与子三次APSP的新算法",
+      "created_display": "Created: Oct 05, 2026 / 20:34 PT",
+      "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "summary_en": "Theoretical computer scientists present algorithms achieving subquadratic time for 3SUM and subcubic time for APSP, narrowing gaps in fundamental computational problems. These results may influence practical databases, graph algorithms, and complexity theory research.",
+      "summary_zh": "理论计算机科学家提出对3SUM实现子平方时间、对APSP实现子三次时间的算法，推动这两类基础问题时间界限的突破。相关结果可能影响数据库、图算法以及复杂度理论的研究与应用。",
+      "hn": {
+        "id": 49973854,
+        "type": "story",
+        "by": "procedurecall",
+        "score": 20,
+        "descendants": 3,
+        "time": 1791257682,
+        "comments_url": "https://news.ycombinator.com/item?id=49973854"
+      },
+      "hot_score": 0.08,
+      "tags": [
+        "Science"
+      ]
+    },
+    {
+      "title_en": "The AI boom is making the cheapest smartphones disappear",
+      "url": "https://restofworld.org/2026/ai-data-center-memory-chip-shortage-cheap-smartphones-digital-divide/",
+      "title_zh": "AI 热潮正在让最便宜的智能手机消失",
+      "created_display": "Created: Oct 05, 2026 / 21:37 PT",
+      "image_url": "https://restofworld.org/wp-content/uploads/2026/10/smartphone-price-ai-2-1600x900.jpg",
+      "summary_en": "AI boom and memory-chip shortages at data centers are driving up costs and reducing the availability of ultra-cheap smartphones, widening the digital divide in emerging markets. The piece links hardware constraints to consumer access and growth trajectories.",
+      "summary_zh": "人工智能热潮及数据中心内存芯片短缺推高成本，导致极便宜的智能手机供应受限，进一步拉大新兴市场的数字鸿沟。文章将硬件约束与你的可及性和移动增长前景联系起来。",
+      "hn": {
+        "id": 49974238,
+        "type": "story",
+        "by": "jethronethro",
+        "score": 18,
+        "descendants": 4,
+        "time": 1791261437,
+        "comments_url": "https://news.ycombinator.com/item?id=49974238"
+      },
+      "hot_score": 0.08,
+      "tags": [
+        "Business",
+        "AI",
+        "Hardware"
+      ]
     },
     {
       "title_en": "Type Safe Generic Data Structures in C (2025)",
@@ -1382,27 +1621,49 @@
       "hot_score": 0.05
     },
     {
-      "title_en": "Accountability mechanisms can be joyful (2024)",
-      "url": "https://liquidbrain.net/blog/accountability-and-joy/",
-      "title_zh": "問責機制亦可帶來快樂",
-      "created_display": "Created: Oct 03, 2026 / 23:15 PT",
-      "image_url": null,
-      "summary_en": "Designers are exploring accountability mechanisms that feel constructive rather than punitive. The piece argues that clear feedback loops, inclusive governance, and humane incentives can make accountability something people buy into, not dread. When done right, accountability can improve trust and performance without eroding autonomy.",
-      "summary_zh": "文章主张问责机制不必只带来压力，应通过清晰的反馈、包容的治理和人性化激励，让参与者愿意承担责任而非抵触。若设计得当，问责可以提升信任和绩效，同时保护自主性。",
+      "title_en": "Using Blu-ray M-Disk as backup of last resort",
+      "url": "https://smyck.net/2026/10/03/holocron-the-backup-of-last-resort/",
+      "title_zh": "把 Blu-ray 的 M-Disc 作为最后的备份方案",
+      "created_display": "Created: Oct 04, 2026 / 01:03 PT",
+      "image_url": "https://smyck.net/wp-content/uploads/2026/10/case-final-no-meta-1-1024x726.jpg",
+      "summary_en": "Describes using Blu-ray M-Disc as a last-resort archival backup for critical data, emphasizing durability and cross-generation compatibility. Includes practical tips for long-term data integrity and recovery.",
+      "summary_zh": "介绍将 Blu-ray 的 M-Disc 作为最后的长期归档备份，强调耐久性和跨代兼容性，并给出确保长期数据完整性与可恢复性的实用要点。",
       "hn": {
-        "id": 49951155,
+        "id": 49951693,
         "type": "story",
-        "by": "luu",
-        "score": 83,
-        "descendants": 28,
-        "time": 1791094517,
-        "comments_url": "https://news.ycombinator.com/item?id=49951155"
+        "by": "hukl",
+        "score": 95,
+        "descendants": 111,
+        "time": 1791101004,
+        "comments_url": "https://news.ycombinator.com/item?id=49951693"
       },
       "tags": [
-        "Design",
-        "Culture"
+        "Hardware"
       ],
       "hot_score": 0.05
+    },
+    {
+      "title_en": "Using A.I. to decode communication of sperm whales",
+      "url": "https://blue-continuum.com/the-man-who-listens-to-whales",
+      "title_zh": "用 AI 解码座头鲸的沟通",
+      "created_display": "Created: Oct 04, 2026 / 03:15 PT",
+      "image_url": "https://blue-continuum.com/__l5e/assets-v1/3b5e56fc-48a2-4baa-8443-863208306323/david-gruber-ceti3.jpg",
+      "summary_en": "Using AI to decode sperm whale communication, researchers are analyzing patterns and context to infer potential meanings behind whale vocalizations. The work illustrates how machine learning can augment marine biology, uncovering insights into animal communication at scale.",
+      "summary_zh": "研究团队利用 AI 解码座头鲸的沟通，分析模式与语境，尝试推断鲸声背后的潜在含义。该工作展示了机器学习在海洋生物学中的应用，能够大规模揭示动物沟通的规律。",
+      "hn": {
+        "id": 49952464,
+        "type": "story",
+        "by": "dnetesn",
+        "score": 83,
+        "descendants": 66,
+        "time": 1791108913,
+        "comments_url": "https://news.ycombinator.com/item?id=49952464"
+      },
+      "hot_score": 0.05,
+      "tags": [
+        "AI",
+        "Science"
+      ]
     },
     {
       "title_en": "DEDA – Tracking Dots Extraction, Decoding and Anonymisation Toolkit",
@@ -1416,7 +1677,7 @@
         "id": 49953195,
         "type": "story",
         "by": "greyface-",
-        "score": 81,
+        "score": 82,
         "descendants": 10,
         "time": 1791115750,
         "comments_url": "https://news.ycombinator.com/item?id=49953195"
@@ -1451,30 +1712,6 @@
       "hot_score": 0.05
     },
     {
-      "title_en": "'Pull the plug': protesters resort to direct action against AI firms",
-      "url": "https://www.theguardian.com/technology/2026/oct/06/pull-the-plug-protesters-resort-to-direct-action-against-ai-firms",
-      "title_zh": "‘拔掉插头’：抗议者对AI公司采取直接行动",
-      "created_display": "Created: Oct 06, 2026 / 00:46 PT",
-      "image_url": "https://i.guim.co.uk/img/media/c8e5d42e1a557862182577de9c2f72e61899aec2/237_0_5000_4000/master/5000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=fc1568b115a83284e06a9a1290784db9",
-      "summary_en": "Protesters are turning to direct action against AI firms, signaling growing public pressure over AI ethics, labor, and data practices.",
-      "summary_zh": "抗议者对AI公司采取直接行动，标志着公众对AI伦理、劳动和数据实践的持续压力在升级。文章评估了此类行动的策略、潜在的法律与安全风险，以及促使群体走向线下行动的动机。",
-      "hn": {
-        "id": 49975464,
-        "type": "story",
-        "by": "YeGoblynQueenne",
-        "score": 6,
-        "descendants": 3,
-        "time": 1791272782,
-        "comments_url": "https://news.ycombinator.com/item?id=49975464"
-      },
-      "hot_score": 0.05,
-      "tags": [
-        "Politics",
-        "Privacy",
-        "AI"
-      ]
-    },
-    {
       "title_en": "Direct retinal projection display for smart glasses using a meta-optic mirror",
       "url": "https://www.tdk.com/en/news_center/press/20261002_01.html",
       "title_zh": "使用元光学镜实现的智能眼镜直接视网膜投影显示",
@@ -1486,8 +1723,8 @@
         "id": 49944369,
         "type": "story",
         "by": "bookofjoe",
-        "score": 103,
-        "descendants": 43,
+        "score": 117,
+        "descendants": 59,
         "time": 1791036267,
         "comments_url": "https://news.ycombinator.com/item?id=49944369"
       },
@@ -1514,8 +1751,29 @@
         "comments_url": "https://news.ycombinator.com/item?id=49945588"
       },
       "tags": [
-        "Politics",
-        "Science"
+        "Security"
+      ],
+      "hot_score": 0.04
+    },
+    {
+      "title_en": "Accountability mechanisms can be joyful (2024)",
+      "url": "https://liquidbrain.net/blog/accountability-and-joy/",
+      "title_zh": "問責機制亦可帶來快樂",
+      "created_display": "Created: Oct 03, 2026 / 23:15 PT",
+      "image_url": null,
+      "summary_en": "Designers are exploring accountability mechanisms that feel constructive rather than punitive. The piece argues that clear feedback loops, inclusive governance, and humane incentives can make accountability something people buy into, not dread. When done right, accountability can improve trust and performance without eroding autonomy.",
+      "summary_zh": "文章主张问责机制不必只带来压力，应通过清晰的反馈、包容的治理和人性化激励，让参与者愿意承担责任而非抵触。若设计得当，问责可以提升信任和绩效，同时保护自主性。",
+      "hn": {
+        "id": 49951155,
+        "type": "story",
+        "by": "luu",
+        "score": 85,
+        "descendants": 31,
+        "time": 1791094517,
+        "comments_url": "https://news.ycombinator.com/item?id=49951155"
+      },
+      "tags": [
+        "Design"
       ],
       "hot_score": 0.04
     },
@@ -1531,15 +1789,38 @@
         "id": 49953344,
         "type": "story",
         "by": "aw1621107",
-        "score": 60,
-        "descendants": 24,
+        "score": 69,
+        "descendants": 26,
         "time": 1791116935,
         "comments_url": "https://news.ycombinator.com/item?id=49953344"
       },
       "tags": [
-        "Science"
+        "Programming"
       ],
       "hot_score": 0.04
+    },
+    {
+      "title_en": "'Pull the plug': protesters resort to direct action against AI firms",
+      "url": "https://www.theguardian.com/technology/2026/oct/06/pull-the-plug-protesters-resort-to-direct-action-against-ai-firms",
+      "title_zh": "‘拔掉插头’：抗议者对AI公司采取直接行动",
+      "created_display": "Created: Oct 06, 2026 / 00:46 PT",
+      "image_url": "https://i.guim.co.uk/img/media/c8e5d42e1a557862182577de9c2f72e61899aec2/237_0_5000_4000/master/5000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=fc1568b115a83284e06a9a1290784db9",
+      "summary_en": "Protesters are turning to direct action against AI firms, signaling growing public pressure over AI ethics, labor, and data practices.",
+      "summary_zh": "抗议者对AI公司采取直接行动，标志着公众对AI伦理、劳动和数据实践的持续压力在升级。文章评估了此类行动的策略、潜在的法律与安全风险，以及促使群体走向线下行动的动机。",
+      "hn": {
+        "id": 49975464,
+        "type": "story",
+        "by": "YeGoblynQueenne",
+        "score": 6,
+        "descendants": 3,
+        "time": 1791272782,
+        "comments_url": "https://news.ycombinator.com/item?id=49975464"
+      },
+      "hot_score": 0.03,
+      "tags": [
+        "Politics",
+        "AI"
+      ]
     },
     {
       "title_en": "Anthropic Subscriptions Offer 5x+ More Value Than OpenAI",
@@ -1558,33 +1839,10 @@
         "time": 1791271790,
         "comments_url": "https://news.ycombinator.com/item?id=49975345"
       },
-      "hot_score": 0.04,
-      "tags": [
-        "AI",
-        "Business"
-      ]
-    },
-    {
-      "title_en": "Using A.I. and machine learning to decode communication of sperm whales",
-      "url": "https://blue-continuum.com/the-man-who-listens-to-whales",
-      "title_zh": "使用 AI 与机器学习解码抹香鲸沟通",
-      "created_display": "Created: Oct 04, 2026 / 03:15 PT",
-      "image_url": "https://blue-continuum.com/__l5e/assets-v1/3b5e56fc-48a2-4baa-8443-863208306323/david-gruber-ceti3.jpg",
-      "summary_en": "Researchers applied AI/ML to analyze acoustic data from sperm whales, decoding communication patterns and social structures. The work advances understanding of how these giants coordinate, with implications for conservation and acoustic monitoring in oceans.",
-      "summary_zh": "研究人员使用 AI/机器学习分析抹香鲸的声学数据，揭示沟通模式与社会结构。此项工作提升了对这种巨型鲸类协同行为的理解，对海洋保护和声学监测具有重要意义。",
-      "hn": {
-        "id": 49952464,
-        "type": "story",
-        "by": "dnetesn",
-        "score": 50,
-        "descendants": 31,
-        "time": 1791108913,
-        "comments_url": "https://news.ycombinator.com/item?id=49952464"
-      },
       "hot_score": 0.03,
       "tags": [
-        "AI",
-        "Science"
+        "Business",
+        "AI"
       ]
     },
     {
@@ -1643,7 +1901,7 @@
         "id": 49920785,
         "type": "story",
         "by": "rbanffy",
-        "score": 104,
+        "score": 110,
         "descendants": 83,
         "time": 1790857900,
         "comments_url": "https://news.ycombinator.com/item?id=49920785"
@@ -1694,8 +1952,7 @@
         "comments_url": "https://news.ycombinator.com/item?id=49944392"
       },
       "tags": [
-        "Programming",
-        "Design"
+        "Programming"
       ],
       "hot_score": 0.02
     },
@@ -1718,7 +1975,8 @@
       },
       "tags": [
         "Show HN",
-        "Programming"
+        "Programming",
+        "Gaming"
       ],
       "hot_score": 0.01
     },
@@ -1740,10 +1998,10 @@
         "comments_url": "https://news.ycombinator.com/item?id=49945445"
       },
       "tags": [
-        "Science",
-        "Education"
+        "Education",
+        "Science"
       ],
-      "hot_score": 0.01
+      "hot_score": 0.0
     },
     {
       "title_en": "Fundamentals of circadian entrainment by light (2021)",
@@ -1762,7 +2020,7 @@
         "time": 1791141549,
         "comments_url": "https://news.ycombinator.com/item?id=49956932"
       },
-      "hot_score": 0.01,
+      "hot_score": 0.0,
       "tags": [
         "Science",
         "Health"
@@ -1785,7 +2043,7 @@
         "time": 1791137110,
         "comments_url": "https://news.ycombinator.com/item?id=49956281"
       },
-      "hot_score": 0.01,
+      "hot_score": 0.0,
       "tags": [
         "Culture"
       ]
