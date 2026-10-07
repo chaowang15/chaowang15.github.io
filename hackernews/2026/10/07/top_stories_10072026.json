@@ -4,21 +4,65 @@
     "source": "https://news.ycombinator.com/",
     "api": "https://github.com/HackerNews/API",
     "count_requested": 50,
-    "count_written": 50,
-    "reused_same_day": 0,
-    "reused_cross_day": 29,
-    "new_llm_enriched": 21,
-    "scrape_time_display": "01:00, October 07, 2026 (PDT)",
+    "count_written": 64,
+    "reused_same_day": 36,
+    "reused_cross_day": 0,
+    "new_llm_enriched": 14,
+    "scrape_time_display": "06:03, October 07, 2026 (PDT)",
     "timezone": "America/Los_Angeles",
     "date_dir": "2026/10/07",
     "content_date": "2026-10-07",
-    "run_time_local": "01:00, October 07, 2026 (PDT)",
-    "run_time_utc": "2026-10-07 08:00:17 UTC",
+    "run_time_local": "06:03, October 07, 2026 (PDT)",
+    "run_time_utc": "2026-10-07 13:03:45 UTC",
     "incremental": true,
     "stories_max": 100,
-    "hot_score_time_utc": "2026-10-07 08:01:49 UTC"
+    "hot_score_time_utc": "2026-10-07 13:04:52 UTC"
   },
   "items": [
+    {
+      "title_en": "Shipping JPEG XL in Chrome",
+      "url": "https://developer.chrome.com/blog/jpeg-xl-in-chrome",
+      "title_zh": "Chrome 将原生支持 JPEG XL",
+      "created_display": "Created: Oct 07, 2026 / 04:25 PT",
+      "image_url": "https://developer.chrome.com/static/blog/jpeg-xl-in-chrome/images/cover.png",
+      "summary_en": "Chrome now ships native JPEG XL support, bringing next-gen image compression to the web. JPEG XL offers higher quality at smaller file sizes and supports features like animation and HDR, which could reduce bandwidth and streamline asset pipelines for publishers and developers.",
+      "summary_zh": "Chrome 已原生支持 JPEG XL，推动网页图像压缩进入新阶段。JPEG XL 在更小尺寸下提供更高画质，并支持动画与 HDR，有望降低带宽、简化资产工作流。",
+      "hn": {
+        "id": 49991227,
+        "type": "story",
+        "by": "AshleysBrain",
+        "score": 125,
+        "descendants": 58,
+        "time": 1791372302,
+        "comments_url": "https://news.ycombinator.com/item?id=49991227"
+      },
+      "hot_score": 11.98,
+      "tags": [
+        "Web"
+      ]
+    },
+    {
+      "title_en": "A font recreated from photographs of classic Commodore 64 keycaps",
+      "url": "https://github.com/szabadkai/c64-keyboard-font/",
+      "title_zh": "从经典 Commodore 64 键帽照片重现的字体",
+      "created_display": "Created: Oct 07, 2026 / 02:17 PT",
+      "image_url": "https://opengraph.githubassets.com/e8a01b2dc4545c66ae05b8f2ee98e102cf88798d39055b7883f6b0fd9d13a886/szabadkai/c64-keyboard-font",
+      "summary_en": "A font reconstructed entirely from photographs of Commodore 64 keycaps demonstrates how photogrammetry and image-based approaches can drive typography design. It offers a retro aesthetic for UI or art and shows creative ways to derive glyph shapes from real-world objects.",
+      "summary_zh": "一个字体完全由经典 Commodore 64 键帽的照片重建而成，展示了通过摄影测量和图像方法推动字体设计的可能性。为 UI/艺术提供复古美感，并展示了从真实物件派生字形的创意路径。",
+      "hn": {
+        "id": 49990224,
+        "type": "story",
+        "by": "sohkamyung",
+        "score": 165,
+        "descendants": 26,
+        "time": 1791364675,
+        "comments_url": "https://news.ycombinator.com/item?id=49990224"
+      },
+      "hot_score": 6.97,
+      "tags": [
+        "Design"
+      ]
+    },
     {
       "title_en": "Sharing AI progress in mathematics",
       "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
@@ -31,15 +75,15 @@
         "id": 49984923,
         "type": "story",
         "by": "OfficialTurkey",
-        "score": 825,
-        "descendants": 751,
+        "score": 1026,
+        "descendants": 1013,
         "time": 1791325041,
         "comments_url": "https://news.ycombinator.com/item?id=49984923"
       },
       "tags": [
         "AI"
       ],
-      "hot_score": 9.78
+      "hot_score": 6.39
     },
     {
       "title_en": "Mistral Large 4",
@@ -53,38 +97,37 @@
         "id": 49977979,
         "type": "story",
         "by": "Philpax",
-        "score": 1753,
-        "descendants": 1035,
+        "score": 1894,
+        "descendants": 1141,
         "time": 1791292549,
         "comments_url": "https://news.ycombinator.com/item?id=49977979"
       },
       "tags": [
-        "AI"
+        "AI",
+        "Open Source"
       ],
-      "hot_score": 7.45
+      "hot_score": 5.44
     },
     {
-      "title_en": "Strands Decider 2B: a small, open-source, decision model",
-      "url": "https://strandsagents.com/blog/introducing-strands-decider/",
-      "title_zh": "Strands Decider 2B：一个小巧的开源决策模型",
-      "created_display": "Created: Oct 06, 2026 / 19:02 PT",
-      "image_url": "https://strandsagents.com/blog/og/introducing-strands-decider.png",
-      "summary_en": "Strands Decider 2B is a compact, open-source decision model designed for lightweight agent architectures. It presents a modular, pluggable decision-making framework that lets researchers experiment with different strategies without heavy infrastructure. The takeaway is that it lowers barriers to building transparent, auditable AI agents and accelerates prototyping of decision policies.",
-      "summary_zh": "Strands Decider 2B 是为轻量级智能体架构设计的紧凑开源决策模型。它提供模块化、可插拔的决策框架，便于研究者在不依赖繁重基础设施的情况下试验不同策略。其意义在于降低构建可解释、可审计的智能体决策系统的门槛，加速决策策略的原型开发。",
+      "title_en": "Nobel Prize in Chemistry 2026 to Henri B. Kagan and Kenso Soai",
+      "url": "https://www.nobelprize.org/prizes/chemistry/2026/press-release/",
+      "title_zh": "2026 年诺贝尔化学奖授予 Henri B. Kagan 与 Kenso Soai",
+      "created_display": "Created: Oct 07, 2026 / 02:51 PT",
+      "image_url": "https://www.nobelprize.org/uploads/2026/10/fig_ke_26_3x2-1024x683.jpg",
+      "summary_en": "The 2026 Nobel Prize in Chemistry goes to Henri B. Kagan and Kenso Soai for foundational work in asymmetric synthesis and catalysis. Their breakthroughs enable more selective creation of chiral molecules, with implications for pharmaceuticals, materials, and fundamental chemistry.",
+      "summary_zh": "2026 年诺贝尔化学奖授予 Henri B. Kagan 与 Kenso Soai，表彰其在不对称合成与催化方面的开创性工作。其突破有助于更高选择性地制造手性分子，影响药物、材料以及基础化学研究。",
       "hn": {
-        "id": 49987076,
+        "id": 49990470,
         "type": "story",
-        "by": "gmays",
-        "score": 148,
-        "descendants": 32,
-        "time": 1791338531,
-        "comments_url": "https://news.ycombinator.com/item?id=49987076"
+        "by": "sasvari",
+        "score": 103,
+        "descendants": 12,
+        "time": 1791366703,
+        "comments_url": "https://news.ycombinator.com/item?id=49990470"
       },
-      "hot_score": 3.49,
+      "hot_score": 5.21,
       "tags": [
-        "AI",
-        "Open Source",
-        "DevOps"
+        "Science"
       ]
     },
     {
@@ -99,18 +142,432 @@
         "id": 49985664,
         "type": "story",
         "by": "Fe2O3",
-        "score": 231,
-        "descendants": 177,
+        "score": 303,
+        "descendants": 262,
         "time": 1791329288,
         "comments_url": "https://news.ycombinator.com/item?id=49985664"
       },
       "tags": [
         "Programming",
-        "Security",
         "Legal",
         "Hardware"
       ],
-      "hot_score": 3.3
+      "hot_score": 2.15
+    },
+    {
+      "title_en": "Strands Decider 2B: a small, open-source, decision model",
+      "url": "https://strandsagents.com/blog/introducing-strands-decider/",
+      "title_zh": "Strands Decider 2B：一个小巧的开源决策模型",
+      "created_display": "Created: Oct 06, 2026 / 19:02 PT",
+      "image_url": "https://strandsagents.com/blog/og/introducing-strands-decider.png",
+      "summary_en": "Strands Decider 2B is a compact, open-source decision model designed for lightweight agent architectures. It presents a modular, pluggable decision-making framework that lets researchers experiment with different strategies without heavy infrastructure. The takeaway is that it lowers barriers to building transparent, auditable AI agents and accelerates prototyping of decision policies.",
+      "summary_zh": "Strands Decider 2B 是为轻量级智能体架构设计的紧凑开源决策模型。它提供模块化、可插拔的决策框架，便于研究者在不依赖繁重基础设施的情况下试验不同策略。其意义在于降低构建可解释、可审计的智能体决策系统的门槛，加速决策策略的原型开发。",
+      "hn": {
+        "id": 49987076,
+        "type": "story",
+        "by": "gmays",
+        "score": 219,
+        "descendants": 64,
+        "time": 1791338531,
+        "comments_url": "https://news.ycombinator.com/item?id=49987076"
+      },
+      "tags": [
+        "AI",
+        "Open Source",
+        "DevOps"
+      ],
+      "hot_score": 2.14
+    },
+    {
+      "title_en": "Decisions API is in public beta",
+      "url": "https://developers.openai.com/api/docs/guides/decisions",
+      "title_zh": "Decisions API 已进入公开测试版",
+      "created_display": "Created: Oct 06, 2026 / 13:57 PT",
+      "image_url": "https://developers.openai.com/og/api/docs/guides/decisions.png",
+      "summary_en": "Decisions API is in public beta, enabling developers to encode multi-step decision making into apps using the model’s planning and recommendation capabilities. It helps build tools that surface options, trade-offs, and recommended actions with controllable constraints.",
+      "summary_zh": "Decisions API 现处公开测试版，允许开发者在应用中嵌入多步决策能力，利用模型的规划与推荐功能输出选项、权衡与建议行动，并可对结果设定约束。",
+      "hn": {
+        "id": 49984025,
+        "type": "story",
+        "by": "chiefstorm",
+        "score": 346,
+        "descendants": 184,
+        "time": 1791320245,
+        "comments_url": "https://news.ycombinator.com/item?id=49984025"
+      },
+      "tags": [
+        "AI"
+      ],
+      "hot_score": 1.87
+    },
+    {
+      "title_en": "Write Like It's 1866: LLMs Relearn Telegraphese",
+      "url": "https://fiveminutesforward.com/post/2026-10-04-telegraph-test/",
+      "title_zh": "LLMs 重新学习电报体写作，回到1866年的风格",
+      "created_display": "Created: Oct 07, 2026 / 05:04 PT",
+      "image_url": "https://fiveminutesforward.com/dominoes.png",
+      "summary_en": "Researchers prompt LLMs to relearn telegraphese, prompting ultra-concise output that resembles 19th-century telegram style. The exercise tests how models handle brevity, punctuation, and information density, revealing limits and opportunities for constrained-output tasks.",
+      "summary_zh": "让大型语言模型学习电报体写作，输出极简信息，模仿19世纪电报风格。此练习考察模型在简洁表达、标点和信息密度方面的表现，揭示受限输出任务的潜力与局限。",
+      "hn": {
+        "id": 49991580,
+        "type": "story",
+        "by": "Theory42",
+        "score": 14,
+        "descendants": 5,
+        "time": 1791374676,
+        "comments_url": "https://news.ycombinator.com/item?id=49991580"
+      },
+      "hot_score": 1.79,
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "title_en": "PS5 Jailbreaks Are Escalating at an Unprecedented Pace",
+      "url": "https://www.pushsquare.com/news/2026/10/ps5-jailbreaks-are-escalating-at-an-unprecedented-pace-and-sony-must-be-sweating",
+      "title_zh": "PS5 越狱行动正以前所未有的速度加速",
+      "created_display": "Created: Oct 07, 2026 / 03:24 PT",
+      "image_url": "https://images.pushsquare.com/3d9221cfad228/1280x720.jpg",
+      "summary_en": "PS5 jailbreak activity is accelerating at an unprecedented pace, signaling growing security and ecosystem challenges for Sony. The surge raises questions about console protection, unsigned code risks, and the balance between homebrew communities and official policies.",
+      "summary_zh": "PS5 越狱活动呈现空前加速，给索尼及其生态系统带来更大安全挑战。此势头引发关于主机安全、未签名代码风险以及官方政策与玩家自制内容之间平衡的讨论。",
+      "hn": {
+        "id": 49990763,
+        "type": "story",
+        "by": "password54321",
+        "score": 29,
+        "descendants": 19,
+        "time": 1791368659,
+        "comments_url": "https://news.ycombinator.com/item?id=49990763"
+      },
+      "hot_score": 1.74,
+      "tags": [
+        "Security",
+        "Gaming"
+      ]
+    },
+    {
+      "title_en": "Hackers obtain counterfeit TLS certificates for Google and other large services",
+      "url": "https://arstechnica.com/security/2026/10/hackers-obtain-counterfeit-tls-certificates-for-google-and-other-large-services/",
+      "title_zh": "黑客获取针对 Google 等大型服务的伪造 TLS 证书",
+      "created_display": "Created: Oct 06, 2026 / 21:37 PT",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/broken-https-tls-1152x648.jpg",
+      "summary_en": "Researchers report counterfeit TLS certificates for major services, enabling attackers to obtain counterfeit TLS certificates for major services, enabling potential phishing and man-in-the-middle attacks. The incident underscores weaknesses in the certificate authority ecosystem and calls for tighter issuance controls and transparency.",
+      "summary_zh": "研究人员称攻击者获得针对大型服务的伪造 TLS 证书，可能用于网络钓鱼和中间人攻击。事件暴露了证书颁发体系的薄弱之处，呼吁加强颁发控制与透明度。",
+      "hn": {
+        "id": 49988230,
+        "type": "story",
+        "by": "colinprince",
+        "score": 112,
+        "descendants": 38,
+        "time": 1791347825,
+        "comments_url": "https://news.ycombinator.com/item?id=49988230"
+      },
+      "tags": [
+        "Security"
+      ],
+      "hot_score": 1.62
+    },
+    {
+      "title_en": "Tell HN: GitHub refuses to remove cracked copies of my software after a month",
+      "url": "https://news.ycombinator.com/item?id=49982498",
+      "title_zh": "GitHub 拒绝在一个月后移除我的破解软件副本",
+      "created_display": "Created: Oct 06, 2026 / 11:54 PT",
+      "image_url": null,
+      "summary_en": "A developer posts about GitHub failing to remove cracked copies of their software despite takedown requests, highlighting enforcement gaps and the friction between licensing, piracy, and platform moderation. The piece underscores the ongoing challenge creators face in maintaining control over distributed software.",
+      "summary_zh": "开发者指出尽管提出下架请求，GitHub 仍未清除其软件的破解副本，暴露了执法与平台治理之间的矛盾及版权保护的难题。文章强调创作者在分发软件时维权的持续挑战。",
+      "hn": {
+        "id": 49982498,
+        "type": "story",
+        "by": "IvanK_net",
+        "score": 345,
+        "descendants": 190,
+        "time": 1791312841,
+        "comments_url": "https://news.ycombinator.com/item?id=49982498"
+      },
+      "tags": [
+        "Legal",
+        "Programming"
+      ],
+      "hot_score": 1.54
+    },
+    {
+      "title_en": "State of Devs 2026",
+      "url": "https://2026.stateofdevs.com/en-US/",
+      "title_zh": "State of Devs 2026 调查：开发者感到筋疲力尽",
+      "created_display": "Created: Oct 06, 2026 / 16:26 PT",
+      "image_url": "https://assets.devographics.com/surveys/devs2026-og.png",
+      "summary_en": "Developers report burnout and fatigue in the 2026 State of Devs survey, with long hours, burnout, and stress affecting productivity and well-being. The results emphasize the need for healthier work practices, tooling, and management support.",
+      "summary_zh": "2026 年 State of Devs 调查显示开发者普遍感受到倦怠与精力枯竭，长工时和高压影响生产力与身心健康。结果强调需要更健康的工作节奏、改进的工具链以及更强的管理支持。",
+      "hn": {
+        "id": 49985643,
+        "type": "story",
+        "by": "sgdesign",
+        "score": 213,
+        "descendants": 118,
+        "time": 1791329190,
+        "comments_url": "https://news.ycombinator.com/item?id=49985643"
+      },
+      "tags": [
+        "Health",
+        "Career"
+      ],
+      "hot_score": 1.5
+    },
+    {
+      "title_en": "Nobel Prize in Physics 2026: Francis Halzen",
+      "url": "https://www.nobelprize.org/prizes/physics/2026/",
+      "title_zh": "2026年诺贝尔物理学奖：弗朗西斯·哈尔岑",
+      "created_display": "Created: Oct 06, 2026 / 02:48 PT",
+      "image_url": "https://www.nobelprize.org/uploads/2026/10/1-2_3-6ac4a172d1e22-scaled.jpg",
+      "summary_en": "Francis Halzen is named a Nobel laureate for physics this year, recognized for his pioneering work in neutrino astronomy and the IceCube detector. His contributions helped establish high-energy neutrinos as a major new window on the cosmos, enabling discoveries about distant cosmic sources.",
+      "summary_zh": "弗朗西斯·哈尔岑因在中微子天文学方面的开创性工作及冰立方探测器的贡献获诺贝尔物理学奖。他的工作把高能中微子确立为研究宇宙的新窗口，推动了对遥远宇宙源头的理解。",
+      "hn": {
+        "id": 49976265,
+        "type": "story",
+        "by": "solarist",
+        "score": 559,
+        "descendants": 199,
+        "time": 1791280126,
+        "comments_url": "https://news.ycombinator.com/item?id=49976265"
+      },
+      "tags": [
+        "Science",
+        "Energy"
+      ],
+      "hot_score": 1.28
+    },
+    {
+      "title_en": "EmbeddingGemma 2: An open, lightweight multimodal embedding model",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
+      "title_zh": "EmbeddingGemma 2：一个开源、轻量级的多模态嵌入模型",
+      "created_display": "Created: Oct 06, 2026 / 09:03 PT",
+      "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/embeddinggemma2-banner_169.width-1300.png",
+      "summary_en": "EmbeddingGemma 2 builds on Google's open Gemma line with a lightweight, multimodal embedding model designed for fast retrieval across text and vision. By staying open and small, it lowers barriers for researchers and developers to prototype cross-modal apps and run experiments on modest hardware.",
+      "summary_zh": "EmbeddingGemma 2 在开放的 Gemma 基础上，提供一个轻量级的多模态嵌入模型，面向快速跨模态检索。保持开源和体积小，降低研究者和开发者在中等硬件上原型化跨模态应用的门槛。",
+      "hn": {
+        "id": 49980487,
+        "type": "story",
+        "by": "ilreb",
+        "score": 363,
+        "descendants": 36,
+        "time": 1791302629,
+        "comments_url": "https://news.ycombinator.com/item?id=49980487"
+      },
+      "tags": [
+        "AI",
+        "Open Source",
+        "Hardware"
+      ],
+      "hot_score": 1.28
+    },
+    {
+      "title_en": "Penguin Mail – open-source Rust email client for Linux with AI",
+      "url": "https://penguin-mail.com/",
+      "title_zh": "Penguin Mail：基于 Rust 的 Linux 开源邮箱客户端，集成 AI",
+      "created_display": "Created: Oct 06, 2026 / 14:59 PT",
+      "image_url": "https://penguin-mail.com/brand/social-preview.png",
+      "summary_en": "Penguin Mail is an open-source Linux email client written in Rust, featuring AI-assisted composing and organization with a privacy-first, local-processing approach.",
+      "summary_zh": "Penguin Mail 是一个用 Rust 编写的 Linux 开源邮箱客户端，提供 AI 辅助的撰写与管理功能，并坚持本地处理与隐私优先的设计理念。",
+      "hn": {
+        "id": 49984716,
+        "type": "story",
+        "by": "kavourias",
+        "score": 212,
+        "descendants": 137,
+        "time": 1791323983,
+        "comments_url": "https://news.ycombinator.com/item?id=49984716"
+      },
+      "tags": [
+        "AI",
+        "Open Source",
+        "Programming",
+        "Privacy"
+      ],
+      "hot_score": 1.28
+    },
+    {
+      "title_en": "ESP32-C3 Adblock",
+      "url": "https://github.com/M-Abozaid/esp32-c3-adblock",
+      "title_zh": "ESP32-C3 广告拦截器",
+      "created_display": "Created: Oct 06, 2026 / 18:39 PT",
+      "image_url": "https://opengraph.githubassets.com/2ffb63ab7909dfdf2e86363be96745987fd4bb40d23259942a721de38c7bcff4/M-Abozaid/esp32-c3-adblock",
+      "summary_en": "This open-source project implements ad-blocking on ESP32-C3 devices, enabling users to run a lightweight network-wide blocker at the edge. The approach demonstrates how consumer IoT devices can contribute to privacy and performance by filtering ads and trackers before they reach devices.",
+      "summary_zh": "这是一个面向 ESP32-C3 的开源广告拦截实现，能够在边缘设备上实现网络级拦截。该方案展示了消费级物联网设备如何通过过滤广告与追踪来提升隐私与性能。",
+      "hn": {
+        "id": 49986862,
+        "type": "story",
+        "by": "jayhoon",
+        "score": 138,
+        "descendants": 54,
+        "time": 1791337161,
+        "comments_url": "https://news.ycombinator.com/item?id=49986862"
+      },
+      "tags": [
+        "Hardware",
+        "Open Source",
+        "Privacy"
+      ],
+      "hot_score": 1.28
+    },
+    {
+      "title_en": "Paramount Skydance has completed its $111B merger with Warner Bros. Discovery",
+      "url": "https://arstechnica.com/tech-policy/2026/10/paramount-completes-111b-warner-merger-creating-skydance-behemoth/",
+      "title_zh": "派拉蒙-斯凯丹斯完成对华纳兄弟探索公司的1110亿美元合并",
+      "created_display": "Created: Oct 06, 2026 / 13:33 PT",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/david-ellison-1152x648-1791303833.jpg",
+      "summary_en": "Paramount Skydance completed its $111B merger with Warner Bros. Discovery, creating a media behemoth with scale across studios, franchises, and streaming. The deal consolidates a vast library of IP and streaming assets, potentially shaping negotiating leverage with distributors and talent, while drawing regulatory attention from antitrust authorities.",
+      "summary_zh": "派拉蒙-斯凯丹斯完成对华纳兄弟探索公司1110亿美元合并，形成覆盖大片 IP、工作室与流媒体的庞大整合体。此次并购将重塑电影、电视及内容分发领域的竞争格局，并可能引发监管机构的审查与行业对手的连锁反应。",
+      "hn": {
+        "id": 49983703,
+        "type": "story",
+        "by": "Mgtyalx",
+        "score": 242,
+        "descendants": 407,
+        "time": 1791318827,
+        "comments_url": "https://news.ycombinator.com/item?id=49983703"
+      },
+      "tags": [
+        "Business",
+        "Politics",
+        "Legal"
+      ],
+      "hot_score": 1.26
+    },
+    {
+      "title_en": "It may soon be possible to create \"mirror life\"",
+      "url": "https://www.economist.com/science-and-technology/2026/09/30/it-may-soon-be-possible-to-create-mirror-life",
+      "title_zh": "很快可能实现“镜像生命”的创造",
+      "created_display": "Created: Oct 07, 2026 / 04:14 PT",
+      "image_url": null,
+      "summary_en": "The Economist discusses the emerging possibility of creating mirror life using opposite-chirality molecules. While still speculative, such work could illuminate fundamental biology principles and raise biosafety questions about new biochemistries.",
+      "summary_zh": "经济学人讨论在未来有望用相反手性分子构建镜像生命的可能性。尽管仍具前沿和推测性，这类研究或将揭示生物学的基本原理，并引发对于新型生物化学体系的生物安全讨论。",
+      "hn": {
+        "id": 49991132,
+        "type": "story",
+        "by": "amai",
+        "score": 15,
+        "descendants": 10,
+        "time": 1791371678,
+        "comments_url": "https://news.ycombinator.com/item?id=49991132"
+      },
+      "hot_score": 1.24,
+      "tags": [
+        "Science"
+      ]
+    },
+    {
+      "title_en": "LLMs and Data Poisoning Are Weaponized to Manufacture Consensus",
+      "url": "https://medium.com/@eslam.elsewedy/synthetic-truth-how-marketing-power-and-ai-bend-reality-cd8a1173b968",
+      "title_zh": "LLMs 与数据投毒正被武器化以操纵共识",
+      "created_display": "Created: Oct 07, 2026 / 04:23 PT",
+      "image_url": null,
+      "summary_en": "LLMs and data poisoning are being weaponized to manufacture consensus, blending marketing, AI, and manipulated information to sway opinions.",
+      "summary_zh": "大型语言模型与数据投毒正被用于制造共识，结合营销、AI 与信息操控来影响舆论。文章讨论了合成真相的风险以及对信息核验的必要性。",
+      "hn": {
+        "id": 49991218,
+        "type": "story",
+        "by": "marketinganai",
+        "score": 14,
+        "descendants": 7,
+        "time": 1791372235,
+        "comments_url": "https://news.ycombinator.com/item?id=49991218"
+      },
+      "hot_score": 1.24,
+      "tags": [
+        "AI",
+        "Security"
+      ]
+    },
+    {
+      "title_en": "Polars 2.0",
+      "url": "https://pola.rs/posts/release-polars-2/",
+      "title_zh": "Polars 2.0 发布",
+      "created_display": "Created: Oct 06, 2026 / 04:59 PT",
+      "image_url": "https://pola.rs/polars_2.0.0.png",
+      "summary_en": "Polars 2.0 brings major performance and API improvements to the fast DataFrame library, with enhancements to lazy evaluation, memory usage, and language bindings. The release tightens competition in data tooling for Python and Rust, appealing to data engineers who need speed and scalability.",
+      "summary_zh": "Polars 2.0 为高性能 DataFrame 库带来重大的性能与 API 改进，提升延迟求值、内存利用率与语言绑定。此版本增强了 Python 与 Rust 的数据处理工作流的速度与可扩展性。",
+      "hn": {
+        "id": 49977177,
+        "type": "story",
+        "by": "simicd",
+        "score": 443,
+        "descendants": 99,
+        "time": 1791287941,
+        "comments_url": "https://news.ycombinator.com/item?id=49977177"
+      },
+      "tags": [
+        "Data",
+        "Programming"
+      ],
+      "hot_score": 1.16
+    },
+    {
+      "title_en": "OpenTPU – An open-source AI accelerator, developed by AI",
+      "url": "https://github.com/FeSens/openTPU",
+      "title_zh": "OpenTPU：一个开源的AI加速器项目",
+      "created_display": "Created: Oct 06, 2026 / 09:23 PT",
+      "image_url": "https://opengraph.githubassets.com/272c1218496f6605e2927d6a09864b9810db1053d90d256a5acb16fd8243f8e1/FeSens/openTPU",
+      "summary_en": "OpenTPU is an open-source AI accelerator project offering hardware design and software for researchers to explore acceleration architectures. By inviting community contributions, it aims to democratize access to AI hardware and accelerate experimentation beyond vendor lock-in.",
+      "summary_zh": "OpenTPU 是一个开源的 AI 加速器项目，提供硬件设计和软件栈，便于研究者探索不同的加速架构。通过鼓励社区贡献，它旨在降低对厂商锁定的依赖，推动 AI 硬件的普及与创新。",
+      "hn": {
+        "id": 49980715,
+        "type": "story",
+        "by": "fsbonetto",
+        "score": 309,
+        "descendants": 358,
+        "time": 1791303805,
+        "comments_url": "https://news.ycombinator.com/item?id=49980715"
+      },
+      "tags": [
+        "Open Source",
+        "Hardware",
+        "AI"
+      ],
+      "hot_score": 1.12
+    },
+    {
+      "title_en": "The art of defusing a second world war bomb",
+      "url": "https://www.theguardian.com/news/ng-interactive/2026/oct/06/it-could-knock-a-whole-street-down-the-art-of-defusing-a-second-world-war-bomb",
+      "title_zh": "二战炸弹拆除的艺术",
+      "created_display": "Created: Oct 06, 2026 / 20:43 PT",
+      "image_url": "https://i.guim.co.uk/img/media/ba07cdb4b817ca8f125c92a90f16df0e1fe6bab9/50_0_4169_3335/master/4169.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=0d82c886c8e0579b84ae2e49323d4881",
+      "summary_en": "An immersive look at bomb disposal work, detailing how experts assess, plan, and execute the safe removal of WWII ordnance. It reveals the tension, risk mitigation, and precise handwork behind each clearance, offering lessons in safety engineering and human factors under pressure.",
+      "summary_zh": "这是一篇关于拆弹工作的沉浸式报道，介绍专家如何评估、制定计划并安全移除二战弹药。揭示每一次清除背后的紧张气氛、风险控制与精准操作，为安全工程和高压环境中的人因管理提供启示。",
+      "hn": {
+        "id": 49987858,
+        "type": "story",
+        "by": "sandebert",
+        "score": 86,
+        "descendants": 66,
+        "time": 1791344594,
+        "comments_url": "https://news.ycombinator.com/item?id=49987858"
+      },
+      "tags": [
+        "Science"
+      ],
+      "hot_score": 1.07
+    },
+    {
+      "title_en": "Claude Code’s suggested message feature: I think the real customer is the model",
+      "url": "https://www.zohaib.cc/blog/smartest-claude-code-feature",
+      "title_zh": "Claude Code 的建议消息功能：真正的客户其实是模型",
+      "created_display": "Created: Oct 06, 2026 / 11:00 PT",
+      "image_url": null,
+      "summary_en": "Claude Code’s suggested message feature reveals a shift in who guides the interaction: the model itself plays a central role in proposing messages, highlighting design trade-offs around prompting, alignment, and the user-model relationship.",
+      "summary_zh": "Claude Code 的建议消息功能暴露出一个趋势：模型本身在引导对话，成为提出消息的核心。这折射出提示设计、对齐与用户-模型关系的取舍。",
+      "hn": {
+        "id": 49981905,
+        "type": "story",
+        "by": "zed_labs_dev",
+        "score": 230,
+        "descendants": 132,
+        "time": 1791309634,
+        "comments_url": "https://news.ycombinator.com/item?id=49981905"
+      },
+      "tags": [
+        "AI"
+      ],
+      "hot_score": 0.95
     },
     {
       "title_en": "Calling It Quits on ServerFault",
@@ -129,334 +586,10 @@
         "time": 1791346924,
         "comments_url": "https://news.ycombinator.com/item?id=49988142"
       },
-      "hot_score": 2.87,
+      "hot_score": 0.91,
       "tags": [
         "Culture"
       ]
-    },
-    {
-      "title_en": "Decisions API is in public beta",
-      "url": "https://developers.openai.com/api/docs/guides/decisions",
-      "title_zh": "Decisions API 已进入公开测试版",
-      "created_display": "Created: Oct 06, 2026 / 13:57 PT",
-      "image_url": "https://developers.openai.com/og/api/docs/guides/decisions.png",
-      "summary_en": "Decisions API is in public beta, enabling developers to encode multi-step decision making into apps using the model’s planning and recommendation capabilities. It helps build tools that surface options, trade-offs, and recommended actions with controllable constraints.",
-      "summary_zh": "Decisions API 现处公开测试版，允许开发者在应用中嵌入多步决策能力，利用模型的规划与推荐功能输出选项、权衡与建议行动，并可对结果设定约束。",
-      "hn": {
-        "id": 49984025,
-        "type": "story",
-        "by": "chiefstorm",
-        "score": 261,
-        "descendants": 119,
-        "time": 1791320245,
-        "comments_url": "https://news.ycombinator.com/item?id=49984025"
-      },
-      "tags": [
-        "AI",
-        "Programming"
-      ],
-      "hot_score": 2.54
-    },
-    {
-      "title_en": "Paramount Skydance has completed its $111B merger with Warner Bros. Discovery",
-      "url": "https://arstechnica.com/tech-policy/2026/10/paramount-completes-111b-warner-merger-creating-skydance-behemoth/",
-      "title_zh": "派拉蒙-斯凯丹斯完成对华纳兄弟探索公司的1110亿美元合并",
-      "created_display": "Created: Oct 06, 2026 / 13:33 PT",
-      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/david-ellison-1152x648-1791303833.jpg",
-      "summary_en": "Paramount Skydance completed its $111B merger with Warner Bros. Discovery, creating a media behemoth with scale across studios, franchises, and streaming. The deal consolidates a vast library of IP and streaming assets, potentially shaping negotiating leverage with distributors and talent, while drawing regulatory attention from antitrust authorities.",
-      "summary_zh": "派拉蒙-斯凯丹斯完成对华纳兄弟探索公司1110亿美元合并，形成覆盖大片 IP、工作室与流媒体的庞大整合体。此次并购将重塑电影、电视及内容分发领域的竞争格局，并可能引发监管机构的审查与行业对手的连锁反应。",
-      "hn": {
-        "id": 49983703,
-        "type": "story",
-        "by": "Mgtyalx",
-        "score": 228,
-        "descendants": 378,
-        "time": 1791318827,
-        "comments_url": "https://news.ycombinator.com/item?id=49983703"
-      },
-      "tags": [
-        "Business",
-        "Politics",
-        "Legal"
-      ],
-      "hot_score": 2.11
-    },
-    {
-      "title_en": "Hackers obtain counterfeit TLS certificates for Google and other large services",
-      "url": "https://arstechnica.com/security/2026/10/hackers-obtain-counterfeit-tls-certificates-for-google-and-other-large-services/",
-      "title_zh": "黑客获取针对 Google 等大型服务的伪造 TLS 证书",
-      "created_display": "Created: Oct 06, 2026 / 21:37 PT",
-      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/broken-https-tls-1152x648.jpg",
-      "summary_en": "Researchers report counterfeit TLS certificates for major services, enabling attackers to obtain counterfeit TLS certificates for major services, enabling potential phishing and man-in-the-middle attacks. The incident underscores weaknesses in the certificate authority ecosystem and calls for tighter issuance controls and transparency.",
-      "summary_zh": "研究人员称攻击者获得针对大型服务的伪造 TLS 证书，可能用于网络钓鱼和中间人攻击。事件暴露了证书颁发体系的薄弱之处，呼吁加强颁发控制与透明度。",
-      "hn": {
-        "id": 49988230,
-        "type": "story",
-        "by": "colinprince",
-        "score": 44,
-        "descendants": 7,
-        "time": 1791347825,
-        "comments_url": "https://news.ycombinator.com/item?id=49988230"
-      },
-      "hot_score": 2.06,
-      "tags": [
-        "Security"
-      ]
-    },
-    {
-      "title_en": "State of Devs 2026",
-      "url": "https://2026.stateofdevs.com/en-US/",
-      "title_zh": "State of Devs 2026 调查：开发者感到筋疲力尽",
-      "created_display": "Created: Oct 06, 2026 / 16:26 PT",
-      "image_url": "https://assets.devographics.com/surveys/devs2026-og.png",
-      "summary_en": "Developers report burnout and fatigue in the 2026 State of Devs survey, with long hours, burnout, and stress affecting productivity and well-being. The results emphasize the need for healthier work practices, tooling, and management support.",
-      "summary_zh": "2026 年 State of Devs 调查显示开发者普遍感受到倦怠与精力枯竭，长工时和高压影响生产力与身心健康。结果强调需要更健康的工作节奏、改进的工具链以及更强的管理支持。",
-      "hn": {
-        "id": 49985643,
-        "type": "story",
-        "by": "sgdesign",
-        "score": 141,
-        "descendants": 71,
-        "time": 1791329190,
-        "comments_url": "https://news.ycombinator.com/item?id=49985643"
-      },
-      "tags": [
-        "Culture",
-        "Health"
-      ],
-      "hot_score": 2.0
-    },
-    {
-      "title_en": "Penguin Mail – open-source Rust email client for Linux with AI",
-      "url": "https://penguin-mail.com/",
-      "title_zh": "Penguin Mail：基于 Rust 的 Linux 开源邮箱客户端，集成 AI",
-      "created_display": "Created: Oct 06, 2026 / 14:59 PT",
-      "image_url": "https://penguin-mail.com/brand/social-preview.png",
-      "summary_en": "Penguin Mail is an open-source Linux email client written in Rust, featuring AI-assisted composing and organization with a privacy-first, local-processing approach.",
-      "summary_zh": "Penguin Mail 是一个用 Rust 编写的 Linux 开源邮箱客户端，提供 AI 辅助的撰写与管理功能，并坚持本地处理与隐私优先的设计理念。",
-      "hn": {
-        "id": 49984716,
-        "type": "story",
-        "by": "kavourias",
-        "score": 159,
-        "descendants": 91,
-        "time": 1791323983,
-        "comments_url": "https://news.ycombinator.com/item?id=49984716"
-      },
-      "tags": [
-        "Open Source",
-        "AI",
-        "Programming",
-        "Privacy"
-      ],
-      "hot_score": 1.79
-    },
-    {
-      "title_en": "Nobel Prize in Physics 2026: Francis Halzen",
-      "url": "https://www.nobelprize.org/prizes/physics/2026/",
-      "title_zh": "2026年诺贝尔物理学奖：弗朗西斯·哈尔岑",
-      "created_display": "Created: Oct 06, 2026 / 02:48 PT",
-      "image_url": "https://www.nobelprize.org/uploads/2026/10/1-2_3-6ac4a172d1e22-scaled.jpg",
-      "summary_en": "Francis Halzen is named a Nobel laureate for physics this year, recognized for his pioneering work in neutrino astronomy and the IceCube detector. His contributions helped establish high-energy neutrinos as a major new window on the cosmos, enabling discoveries about distant cosmic sources.",
-      "summary_zh": "弗朗西斯·哈尔岑因在中微子天文学方面的开创性工作及冰立方探测器的贡献获诺贝尔物理学奖。他的工作把高能中微子确立为研究宇宙的新窗口，推动了对遥远宇宙源头的理解。",
-      "hn": {
-        "id": 49976265,
-        "type": "story",
-        "by": "solarist",
-        "score": 549,
-        "descendants": 194,
-        "time": 1791280126,
-        "comments_url": "https://news.ycombinator.com/item?id=49976265"
-      },
-      "tags": [
-        "Science",
-        "Energy"
-      ],
-      "hot_score": 1.77
-    },
-    {
-      "title_en": "EmbeddingGemma 2: An open, lightweight multimodal embedding model",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
-      "title_zh": "EmbeddingGemma 2：一个开源、轻量级的多模态嵌入模型",
-      "created_display": "Created: Oct 06, 2026 / 09:03 PT",
-      "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/embeddinggemma2-banner_169.width-1300.png",
-      "summary_en": "EmbeddingGemma 2 builds on Google's open Gemma line with a lightweight, multimodal embedding model designed for fast retrieval across text and vision. By staying open and small, it lowers barriers for researchers and developers to prototype cross-modal apps and run experiments on modest hardware.",
-      "summary_zh": "EmbeddingGemma 2 在开放的 Gemma 基础上，提供一个轻量级的多模态嵌入模型，面向快速跨模态检索。保持开源和体积小，降低研究者和开发者在中等硬件上原型化跨模态应用的门槛。",
-      "hn": {
-        "id": 49980487,
-        "type": "story",
-        "by": "ilreb",
-        "score": 302,
-        "descendants": 31,
-        "time": 1791302629,
-        "comments_url": "https://news.ycombinator.com/item?id=49980487"
-      },
-      "tags": [
-        "AI",
-        "Open Source",
-        "Hardware"
-      ],
-      "hot_score": 1.66
-    },
-    {
-      "title_en": "Polars 2.0",
-      "url": "https://pola.rs/posts/release-polars-2/",
-      "title_zh": "Polars 2.0 发布",
-      "created_display": "Created: Oct 06, 2026 / 04:59 PT",
-      "image_url": "https://pola.rs/polars_2.0.0.png",
-      "summary_en": "Polars 2.0 brings major performance and API improvements to the fast DataFrame library, with enhancements to lazy evaluation, memory usage, and language bindings. The release tightens competition in data tooling for Python and Rust, appealing to data engineers who need speed and scalability.",
-      "summary_zh": "Polars 2.0 为高性能 DataFrame 库带来重大的性能与 API 改进，提升延迟求值、内存利用率与语言绑定。此版本增强了 Python 与 Rust 的数据处理工作流的速度与可扩展性。",
-      "hn": {
-        "id": 49977177,
-        "type": "story",
-        "by": "simicd",
-        "score": 434,
-        "descendants": 99,
-        "time": 1791287941,
-        "comments_url": "https://news.ycombinator.com/item?id=49977177"
-      },
-      "tags": [
-        "Data",
-        "Programming"
-      ],
-      "hot_score": 1.65
-    },
-    {
-      "title_en": "ESP32-C3 Adblock",
-      "url": "https://github.com/M-Abozaid/esp32-c3-adblock",
-      "title_zh": "ESP32-C3 广告拦截器",
-      "created_display": "Created: Oct 06, 2026 / 18:39 PT",
-      "image_url": "https://opengraph.githubassets.com/2ffb63ab7909dfdf2e86363be96745987fd4bb40d23259942a721de38c7bcff4/M-Abozaid/esp32-c3-adblock",
-      "summary_en": "This open-source project implements ad-blocking on ESP32-C3 devices, enabling users to run a lightweight network-wide blocker at the edge. The approach demonstrates how consumer IoT devices can contribute to privacy and performance by filtering ads and trackers before they reach devices.",
-      "summary_zh": "这是一个面向 ESP32-C3 的开源广告拦截实现，能够在边缘设备上实现网络级拦截。该方案展示了消费级物联网设备如何通过过滤广告与追踪来提升隐私与性能。",
-      "hn": {
-        "id": 49986862,
-        "type": "story",
-        "by": "jayhoon",
-        "score": 74,
-        "descendants": 27,
-        "time": 1791337161,
-        "comments_url": "https://news.ycombinator.com/item?id=49986862"
-      },
-      "hot_score": 1.59,
-      "tags": [
-        "Open Source",
-        "Privacy"
-      ]
-    },
-    {
-      "title_en": "OpenTPU – An open-source AI accelerator, developed by AI",
-      "url": "https://github.com/FeSens/openTPU",
-      "title_zh": "OpenTPU：一个开源的AI加速器项目",
-      "created_display": "Created: Oct 06, 2026 / 09:23 PT",
-      "image_url": "https://opengraph.githubassets.com/272c1218496f6605e2927d6a09864b9810db1053d90d256a5acb16fd8243f8e1/FeSens/openTPU",
-      "summary_en": "OpenTPU is an open-source AI accelerator project offering hardware design and software for researchers to explore acceleration architectures. By inviting community contributions, it aims to democratize access to AI hardware and accelerate experimentation beyond vendor lock-in.",
-      "summary_zh": "OpenTPU 是一个开源的 AI 加速器项目，提供硬件设计和软件栈，便于研究者探索不同的加速架构。通过鼓励社区贡献，它旨在降低对厂商锁定的依赖，推动 AI 硬件的普及与创新。",
-      "hn": {
-        "id": 49980715,
-        "type": "story",
-        "by": "fsbonetto",
-        "score": 278,
-        "descendants": 334,
-        "time": 1791303805,
-        "comments_url": "https://news.ycombinator.com/item?id=49980715"
-      },
-      "tags": [
-        "Open Source",
-        "AI",
-        "Hardware"
-      ],
-      "hot_score": 1.58
-    },
-    {
-      "title_en": "La Cueva BBS in Mexico in 1993 (session replay)",
-      "url": "https://nanochess.org/la_cueva_bbs.html",
-      "title_zh": "1993年的墨西哥La Cueva BBS：会话回放",
-      "created_display": "Created: Oct 06, 2026 / 20:16 PT",
-      "image_url": "https://nanochess.org/img/lacueva_1.png",
-      "summary_en": "A retrospective on La Cueva BBS in Mexico from 1993, paired with a session replay project that preserves dial-up era online activity. It highlights early online communities, their culture, and how session data can illuminate the evolution of online social platforms and networking practices.",
-      "summary_zh": "回顾1993年墨西哥的 La Cueva BBS，以及用于保留拨号时代在线活动的会话回放项目。通过会话数据，揭示早期在线社区的文化与交流方式，以及它们如何推动对在线社群演变和网络实践的理解。",
-      "hn": {
-        "id": 49987675,
-        "type": "story",
-        "by": "nanochess",
-        "score": 44,
-        "descendants": 10,
-        "time": 1791343005,
-        "comments_url": "https://news.ycombinator.com/item?id=49987675"
-      },
-      "hot_score": 1.38,
-      "tags": [
-        "Culture"
-      ]
-    },
-    {
-      "title_en": "Tell HN: GitHub refuses to remove cracked copies of my software after a month",
-      "url": "https://news.ycombinator.com/item?id=49982498",
-      "title_zh": "GitHub 拒绝在一个月后移除我的破解软件副本",
-      "created_display": "Created: Oct 06, 2026 / 11:54 PT",
-      "image_url": null,
-      "summary_en": "A developer posts about GitHub failing to remove cracked copies of their software despite takedown requests, highlighting enforcement gaps and the friction between licensing, piracy, and platform moderation. The piece underscores the ongoing challenge creators face in maintaining control over distributed software.",
-      "summary_zh": "开发者指出尽管提出下架请求，GitHub 仍未清除其软件的破解副本，暴露了执法与平台治理之间的矛盾及版权保护的难题。文章强调创作者在分发软件时维权的持续挑战。",
-      "hn": {
-        "id": 49982498,
-        "type": "story",
-        "by": "IvanK_net",
-        "score": 181,
-        "descendants": 100,
-        "time": 1791312841,
-        "comments_url": "https://news.ycombinator.com/item?id=49982498"
-      },
-      "hot_score": 1.35,
-      "tags": [
-        "Legal",
-        "Programming"
-      ]
-    },
-    {
-      "title_en": "Integer multiplication below n log n",
-      "url": "https://github.com/openai/math/tree/main/preprints/Integer-multiplication-below-n-log-n-September-23-2026",
-      "title_zh": "低于 n log n 的整数乘法",
-      "created_display": "Created: Oct 06, 2026 / 16:14 PT",
-      "image_url": "https://opengraph.githubassets.com/298be0ada1fe506d9ecd3e59041a367c32d5789671fa8f6c7636c8cbc4bba4c2/openai/math",
-      "summary_en": "A theoretical preprint claims a method for integer multiplication that beats the classic n log n bound, hinting at new algorithmic ideas in number theory. If validated, it could influence cryptography and numeric algorithms.",
-      "summary_zh": "理论预印本提出在某些情形下的整数乘法复杂度可低于经典的 n log n 上界，揭示了新的算法思路。若被验证，其对密码学与数值算法或有影响。",
-      "hn": {
-        "id": 49985524,
-        "type": "story",
-        "by": "E-Reverance",
-        "score": 98,
-        "descendants": 64,
-        "time": 1791328492,
-        "comments_url": "https://news.ycombinator.com/item?id=49985524"
-      },
-      "tags": [
-        "Science"
-      ],
-      "hot_score": 1.34
-    },
-    {
-      "title_en": "Claude Code’s suggested message feature: I think the real customer is the model",
-      "url": "https://www.zohaib.cc/blog/smartest-claude-code-feature",
-      "title_zh": "Claude Code 的建议消息功能：真正的客户其实是模型",
-      "created_display": "Created: Oct 06, 2026 / 11:00 PT",
-      "image_url": null,
-      "summary_en": "Claude Code’s suggested message feature reveals a shift in who guides the interaction: the model itself plays a central role in proposing messages, highlighting design trade-offs around prompting, alignment, and the user-model relationship.",
-      "summary_zh": "Claude Code 的建议消息功能暴露出一个趋势：模型本身在引导对话，成为提出消息的核心。这折射出提示设计、对齐与用户-模型关系的取舍。",
-      "hn": {
-        "id": 49981905,
-        "type": "story",
-        "by": "zed_labs_dev",
-        "score": 185,
-        "descendants": 101,
-        "time": 1791309634,
-        "comments_url": "https://news.ycombinator.com/item?id=49981905"
-      },
-      "tags": [
-        "AI",
-        "Design"
-      ],
-      "hot_score": 1.25
     },
     {
       "title_en": "Nature's capacity to 'bounce back' when species are lost is overestimated: study",
@@ -478,52 +611,97 @@
       "tags": [
         "Science"
       ],
-      "hot_score": 1.18
+      "hot_score": 0.82
     },
     {
-      "title_en": "The art of defusing a second world war bomb",
-      "url": "https://www.theguardian.com/news/ng-interactive/2026/oct/06/it-could-knock-a-whole-street-down-the-art-of-defusing-a-second-world-war-bomb",
-      "title_zh": "二战炸弹拆除的艺术",
-      "created_display": "Created: Oct 06, 2026 / 20:43 PT",
-      "image_url": "https://i.guim.co.uk/img/media/ba07cdb4b817ca8f125c92a90f16df0e1fe6bab9/50_0_4169_3335/master/4169.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=0d82c886c8e0579b84ae2e49323d4881",
-      "summary_en": "An immersive look at bomb disposal work, detailing how experts assess, plan, and execute the safe removal of WWII ordnance. It reveals the tension, risk mitigation, and precise handwork behind each clearance, offering lessons in safety engineering and human factors under pressure.",
-      "summary_zh": "这是一篇关于拆弹工作的沉浸式报道，介绍专家如何评估、制定计划并安全移除二战弹药。揭示每一次清除背后的紧张气氛、风险控制与精准操作，为安全工程和高压环境中的人因管理提供启示。",
+      "title_en": "What's Earth's dominant species by mass?",
+      "url": "https://signoregalilei.com/2026/09/27/whats-earths-dominant-species-by-mass/",
+      "title_zh": "按生物量计算地球上的主导物种是谁？",
+      "created_display": "Created: Oct 06, 2026 / 05:40 PT",
+      "image_url": "https://signoregalilei.com/wp-content/uploads/2026/09/Larix_gmelinii0.jpg",
+      "summary_en": "Debates over Earth's dominant species by biomass, with ants often cited as surpassing humans in total mass, prompting reflections on ecosystem scales and data limits.",
+      "summary_zh": "关于地球按生物量计主导物种的讨论，蚂蚁常被引用为总量超过人类，这引发对生态系统规模与数据边界的思考。",
       "hn": {
-        "id": 49987858,
+        "id": 49977531,
         "type": "story",
-        "by": "sandebert",
-        "score": 33,
-        "descendants": 12,
-        "time": 1791344594,
-        "comments_url": "https://news.ycombinator.com/item?id=49987858"
+        "by": "surprisetalk",
+        "score": 267,
+        "descendants": 199,
+        "time": 1791290403,
+        "comments_url": "https://news.ycombinator.com/item?id=49977531"
       },
-      "hot_score": 1.16,
       "tags": [
         "Science"
-      ]
+      ],
+      "hot_score": 0.73
     },
     {
-      "title_en": "South Korea says AI agents appear to have been used to hack the country's banks",
-      "url": "https://www.reuters.com/world/south-koreas-lee-says-ai-appears-have-been-used-bank-hacks-2026-10-06/",
-      "title_zh": "韩国称 AI 代理人被用于入侵本国银行",
-      "created_display": "Created: Oct 06, 2026 / 16:50 PT",
-      "image_url": null,
-      "summary_en": "South Korea says AI agents appear to have been used to hack the country's banks, signaling new risks from AI-powered cybercrime. Authorities are investigating and updating security measures.",
-      "summary_zh": "韩国表示 AI 代理人似乎被用于入侵本国银行，揭示了 AI 驱动网络犯罪的新风险。相关当局正在调查并升级安全措施。",
+      "title_en": "Shaders, WebGPU Components for React, Vue, Svelte, Solid, JavaScript and Framer",
+      "url": "https://github.com/shader-effects-inc/shaders",
+      "title_zh": "为 React、Vue、Svelte、Solid、Framer 等提供的着色器与 WebGPU 组件",
+      "created_display": "Created: Oct 06, 2026 / 22:38 PT",
+      "image_url": "https://opengraph.githubassets.com/b408c8030ec778542d31eb97fb6b8b4d72e1e0aa4f81e76319d70a0341511c88/shader-effects-inc/shaders",
+      "summary_en": "A curated collection of shader effects and WebGPU components compatible with major frontend frameworks. It accelerates building rich visuals by providing reusable, framework-friendly building blocks, lowering the barrier for GPU accelerated UI features.",
+      "summary_zh": "这是一套可与主流前端框架兼容的着色器效果与 WebGPU 组件合集，提供可复用的框架友好构件，帮助快速实现基于 GPU 的界面视觉效果，降低实现门槛。",
       "hn": {
-        "id": 49985861,
+        "id": 49988709,
         "type": "story",
-        "by": "thoughtpeddler",
-        "score": 72,
-        "descendants": 16,
-        "time": 1791330633,
-        "comments_url": "https://news.ycombinator.com/item?id=49985861"
+        "by": "jinqueeny",
+        "score": 42,
+        "descendants": 24,
+        "time": 1791351515,
+        "comments_url": "https://news.ycombinator.com/item?id=49988709"
       },
       "tags": [
-        "Security",
-        "AI"
+        "Programming",
+        "Web",
+        "Hardware"
       ],
-      "hot_score": 1.09
+      "hot_score": 0.72
+    },
+    {
+      "title_en": "La Cueva BBS in Mexico in 1993 (session replay)",
+      "url": "https://nanochess.org/la_cueva_bbs.html",
+      "title_zh": "1993年的墨西哥La Cueva BBS：会话回放",
+      "created_display": "Created: Oct 06, 2026 / 20:16 PT",
+      "image_url": "https://nanochess.org/img/lacueva_1.png",
+      "summary_en": "A retrospective on La Cueva BBS in Mexico from 1993, paired with a session replay project that preserves dial-up era online activity. It highlights early online communities, their culture, and how session data can illuminate the evolution of online social platforms and networking practices.",
+      "summary_zh": "回顾1993年墨西哥的 La Cueva BBS，以及用于保留拨号时代在线活动的会话回放项目。通过会话数据，揭示早期在线社区的文化与交流方式，以及它们如何推动对在线社群演变和网络实践的理解。",
+      "hn": {
+        "id": 49987675,
+        "type": "story",
+        "by": "nanochess",
+        "score": 60,
+        "descendants": 21,
+        "time": 1791343005,
+        "comments_url": "https://news.ycombinator.com/item?id=49987675"
+      },
+      "tags": [
+        "Culture"
+      ],
+      "hot_score": 0.69
+    },
+    {
+      "title_en": "Integer multiplication below n log n",
+      "url": "https://github.com/openai/math/tree/main/preprints/Integer-multiplication-below-n-log-n-September-23-2026",
+      "title_zh": "低于 n log n 的整数乘法",
+      "created_display": "Created: Oct 06, 2026 / 16:14 PT",
+      "image_url": "https://opengraph.githubassets.com/298be0ada1fe506d9ecd3e59041a367c32d5789671fa8f6c7636c8cbc4bba4c2/openai/math",
+      "summary_en": "A theoretical preprint claims a method for integer multiplication that beats the classic n log n bound, hinting at new algorithmic ideas in number theory. If validated, it could influence cryptography and numeric algorithms.",
+      "summary_zh": "理论预印本提出在某些情形下的整数乘法复杂度可低于经典的 n log n 上界，揭示了新的算法思路。若被验证，其对密码学与数值算法或有影响。",
+      "hn": {
+        "id": 49985524,
+        "type": "story",
+        "by": "E-Reverance",
+        "score": 98,
+        "descendants": 64,
+        "time": 1791328492,
+        "comments_url": "https://news.ycombinator.com/item?id=49985524"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 0.67
     },
     {
       "title_en": "Toronto-Based VPN Provider Plans to Quit Canada over Lawful-Access Bill",
@@ -547,7 +725,30 @@
         "Legal",
         "Politics"
       ],
-      "hot_score": 1.01
+      "hot_score": 0.6
+    },
+    {
+      "title_en": "Forever Junior: The Skills AI Can't Develop for You",
+      "url": "https://tech.criteo.com/blog/human-skills-ai-cant-develop-junior-engineers/",
+      "title_zh": "永远的初级：AI 无法替代的技能",
+      "created_display": "Created: Oct 07, 2026 / 01:00 PT",
+      "image_url": "https://tech.criteo.com/wp-content/uploads/2026/10/wall-e-movie-human-better-1024x640.png",
+      "summary_en": "AI may automate routine tasks, but junior engineers still need mentorship to build core skills like critical thinking, domain intuition, and collaboration. The piece argues that some skills remain uniquely human and hard for AI to replicate.",
+      "summary_zh": "AI 可以处理常规任务，但初级工程师仍需通过指导培养关键技能，如批判性思维、领域直觉及协作能力。这些能力是 AI 难以替代的核心部分。",
+      "hn": {
+        "id": 49989684,
+        "type": "story",
+        "by": "brugidou",
+        "score": 21,
+        "descendants": 13,
+        "time": 1791360006,
+        "comments_url": "https://news.ycombinator.com/item?id=49989684"
+      },
+      "hot_score": 0.59,
+      "tags": [
+        "AI",
+        "Career"
+      ]
     },
     {
       "title_en": "OpenSSH 10.6",
@@ -569,75 +770,54 @@
       "tags": [
         "Security"
       ],
-      "hot_score": 0.98
+      "hot_score": 0.55
     },
     {
-      "title_en": "Shaders, WebGPU Components for React, Vue, Svelte, Solid, JavaScript and Framer",
-      "url": "https://github.com/shader-effects-inc/shaders",
-      "title_zh": "为 React、Vue、Svelte、Solid、Framer 等提供的着色器与 WebGPU 组件",
-      "created_display": "Created: Oct 06, 2026 / 22:38 PT",
-      "image_url": "https://opengraph.githubassets.com/b408c8030ec778542d31eb97fb6b8b4d72e1e0aa4f81e76319d70a0341511c88/shader-effects-inc/shaders",
-      "summary_en": "A curated collection of shader effects and WebGPU components compatible with major frontend frameworks. It accelerates building rich visuals by providing reusable, framework-friendly building blocks, lowering the barrier for GPU accelerated UI features.",
-      "summary_zh": "这是一套可与主流前端框架兼容的着色器效果与 WebGPU 组件合集，提供可复用的框架友好构件，帮助快速实现基于 GPU 的界面视觉效果，降低实现门槛。",
-      "hn": {
-        "id": 49988709,
-        "type": "story",
-        "by": "jinqueeny",
-        "score": 15,
-        "descendants": 5,
-        "time": 1791351515,
-        "comments_url": "https://news.ycombinator.com/item?id=49988709"
-      },
-      "hot_score": 0.98,
-      "tags": [
-        "Programming",
-        "Web",
-        "Hardware"
-      ]
-    },
-    {
-      "title_en": "We Asked Starbucks Why Their 'Sugar-Free' Drinks Have Sugar",
-      "url": "https://gizmodo.com/we-asked-starbucks-why-their-sugar-free-drinks-have-sugar-and-now-were-just-more-confused-2000822422",
-      "title_zh": "我们问星巴克：他们的‘无糖’饮品为何含糖",
-      "created_display": "Created: Oct 06, 2026 / 22:27 PT",
+      "title_en": "South Korea says AI agents appear to have been used to hack the country's banks",
+      "url": "https://www.reuters.com/world/south-koreas-lee-says-ai-appears-have-been-used-bank-hacks-2026-10-06/",
+      "title_zh": "韩国称 AI 代理人被用于入侵本国银行",
+      "created_display": "Created: Oct 06, 2026 / 16:50 PT",
       "image_url": null,
-      "summary_en": "Gizmodo investigates Starbucks' sugar-free drinks, uncovering ingredients or sweeteners that contain sugar equivalents or sugar byproducts, and labeling nuances.",
-      "summary_zh": "Gizmodo 调查星巴克无糖饮品，揭示某些成分或甜味剂可能含糖分及标签细节。文章强调消费者期望与实际配方之间的差距，并提出对标签标准的质疑。",
+      "summary_en": "South Korea says AI agents appear to have been used to hack the country's banks, signaling new risks from AI-powered cybercrime. Authorities are investigating and updating security measures.",
+      "summary_zh": "韩国表示 AI 代理人似乎被用于入侵本国银行，揭示了 AI 驱动网络犯罪的新风险。相关当局正在调查并升级安全措施。",
       "hn": {
-        "id": 49988604,
+        "id": 49985861,
         "type": "story",
-        "by": "Tomte",
-        "score": 15,
-        "descendants": 5,
-        "time": 1791350821,
-        "comments_url": "https://news.ycombinator.com/item?id=49988604"
+        "by": "thoughtpeddler",
+        "score": 72,
+        "descendants": 16,
+        "time": 1791330633,
+        "comments_url": "https://news.ycombinator.com/item?id=49985861"
       },
-      "hot_score": 0.9,
       "tags": [
-        "Health"
-      ]
+        "AI",
+        "Security"
+      ],
+      "hot_score": 0.53
     },
     {
-      "title_en": "What's Earth's dominant species by mass?",
-      "url": "https://signoregalilei.com/2026/09/27/whats-earths-dominant-species-by-mass/",
-      "title_zh": "按生物量计算地球上的主导物种是谁？",
-      "created_display": "Created: Oct 06, 2026 / 05:40 PT",
-      "image_url": "https://signoregalilei.com/wp-content/uploads/2026/09/Larix_gmelinii0.jpg",
-      "summary_en": "Debates over Earth's dominant species by biomass, with ants often cited as surpassing humans in total mass, prompting reflections on ecosystem scales and data limits.",
-      "summary_zh": "关于地球按生物量计主导物种的讨论，蚂蚁常被引用为总量超过人类，这引发对生态系统规模与数据边界的思考。",
+      "title_en": "California closed the Montana license plate loophole",
+      "url": "https://www.thedrive.com/news/heres-how-california-closed-the-montana-license-plate-loophole",
+      "title_zh": "加州关闭蒙大拿牌照漏洞",
+      "created_display": "Created: Oct 06, 2026 / 10:00 PT",
+      "image_url": "https://www.thedrive.com/wp-content/uploads/2026/10/mt-plate.jpg?w=1200",
+      "summary_en": "California closes a loophole that allowed certain drivers to use Montana license plates to circumvent regulations or tolls, tightening enforcement and standardizing vehicle tracking.",
+      "summary_zh": "加州关闭了允许部分车辆通过蒙大拿州牌照规避法规或通行费等的漏洞，强化执法并统一车辆追踪。",
       "hn": {
-        "id": 49977531,
+        "id": 49981186,
         "type": "story",
-        "by": "surprisetalk",
-        "score": 217,
-        "descendants": 151,
-        "time": 1791290403,
-        "comments_url": "https://news.ycombinator.com/item?id=49977531"
+        "by": "speckx",
+        "score": 122,
+        "descendants": 313,
+        "time": 1791306059,
+        "comments_url": "https://news.ycombinator.com/item?id=49981186"
       },
       "tags": [
-        "Science"
+        "Politics",
+        "Legal",
+        "Privacy"
       ],
-      "hot_score": 0.87
+      "hot_score": 0.46
     },
     {
       "title_en": "The Early History of Smalltalk (1993)",
@@ -657,54 +837,10 @@
         "comments_url": "https://news.ycombinator.com/item?id=49979845"
       },
       "tags": [
-        "Programming"
+        "Programming",
+        "Culture"
       ],
-      "hot_score": 0.61
-    },
-    {
-      "title_en": "California closed the Montana license plate loophole",
-      "url": "https://www.thedrive.com/news/heres-how-california-closed-the-montana-license-plate-loophole",
-      "title_zh": "加州关闭蒙大拿牌照漏洞",
-      "created_display": "Created: Oct 06, 2026 / 10:00 PT",
-      "image_url": "https://www.thedrive.com/wp-content/uploads/2026/10/mt-plate.jpg?w=1200",
-      "summary_en": "California closes a loophole that allowed certain drivers to use Montana license plates to circumvent regulations or tolls, tightening enforcement and standardizing vehicle tracking.",
-      "summary_zh": "加州关闭了允许部分车辆通过蒙大拿州牌照规避法规或通行费等的漏洞，强化执法并统一车辆追踪。",
-      "hn": {
-        "id": 49981186,
-        "type": "story",
-        "by": "speckx",
-        "score": 101,
-        "descendants": 254,
-        "time": 1791306059,
-        "comments_url": "https://news.ycombinator.com/item?id=49981186"
-      },
-      "tags": [
-        "Politics",
-        "Privacy"
-      ],
-      "hot_score": 0.61
-    },
-    {
-      "title_en": "Jev-Driven SRE Diagnosis: What Worked and What Failed",
-      "url": "https://www.sregym.com/blog/jev-driven-sre-diagnosis",
-      "title_zh": "JEV 驱动的 SRE 诊断：成效与不足",
-      "created_display": "Created: Oct 06, 2026 / 18:27 PT",
-      "image_url": "https://www.sregym.com/blog/jev-driven-sre-diagnosis/share-image",
-      "summary_en": "An SRE diagnosis framework centered on 'JEV' reveals what went right and what failed during incidents, with concrete, actionable lessons for incident response, observability, and postmortems. The piece emphasizes iterating on diagnosis criteria and tooling to improve reliability.",
-      "summary_zh": "以“JEV”为核心的 SRE 诊断方法揭示事故中哪些做得好、哪些失败，并给出可执行的故障应对、可观测性与事后分析的教训。文章强调在诊断标准与工具上持续迭代以提升可靠性。",
-      "hn": {
-        "id": 49986765,
-        "type": "story",
-        "by": "matt_d",
-        "score": 28,
-        "descendants": 9,
-        "time": 1791336469,
-        "comments_url": "https://news.ycombinator.com/item?id=49986765"
-      },
-      "hot_score": 0.57,
-      "tags": [
-        "DevOps"
-      ]
+      "hot_score": 0.39
     },
     {
       "title_en": "Show HN: NanoMuse – An open-source AI agent for your phone and computer",
@@ -718,40 +854,18 @@
         "id": 49987765,
         "type": "story",
         "by": "ilreb",
-        "score": 17,
-        "descendants": 1,
+        "score": 31,
+        "descendants": 8,
         "time": 1791343844,
         "comments_url": "https://news.ycombinator.com/item?id=49987765"
       },
-      "hot_score": 0.55,
       "tags": [
+        "Show HN",
         "AI",
         "Open Source",
-        "Show HN",
         "Privacy"
-      ]
-    },
-    {
-      "title_en": "OpenAI unleashes hundreds more math results upon a field in shock",
-      "url": "https://www.scientificamerican.com/article/openai-unleashes-hundreds-more-math-results-upon-a-field-already-in-shock/",
-      "title_zh": "OpenAI 再释放数百个数学结果，令该领域震惊",
-      "created_display": "Created: Oct 06, 2026 / 23:34 PT",
-      "image_url": "https://static.scientificamerican.com/dam/asset/17b9a99a-4ff3-4784-90f4-3bf3c5dd49f7/GettyImages-1388879870.jpg?m=1791307024.645&w=1200",
-      "summary_en": "OpenAI has published a large batch of mathematical results, provoking excitement and concern within the math community about reliability, interpretability, and reproducibility of AI-generated proofs or data. The volume and novelty push researchers to rethink evaluation and risks of ML-assisted mathematics.",
-      "summary_zh": "OpenAI 发布了大量数学结果，引发数学界对可靠性、可解释性与可重复性的讨论。大量新结果促使研究者重新评估评估方法，以及人工智能辅助数学研究的潜在风险。",
-      "hn": {
-        "id": 49989115,
-        "type": "story",
-        "by": "mr_fantastic",
-        "score": 6,
-        "descendants": 1,
-        "time": 1791354852,
-        "comments_url": "https://news.ycombinator.com/item?id=49989115"
-      },
-      "hot_score": 0.54,
-      "tags": [
-        "AI"
-      ]
+      ],
+      "hot_score": 0.37
     },
     {
       "title_en": "When random is not actually random enough",
@@ -765,16 +879,107 @@
         "id": 49983404,
         "type": "story",
         "by": "steveklabnik",
-        "score": 54,
-        "descendants": 22,
+        "score": 71,
+        "descendants": 41,
         "time": 1791317525,
         "comments_url": "https://news.ycombinator.com/item?id=49983404"
       },
       "tags": [
-        "Data",
+        "Science",
         "Hardware"
       ],
-      "hot_score": 0.47
+      "hot_score": 0.35
+    },
+    {
+      "title_en": "Jev-Driven SRE Diagnosis: What Worked and What Failed",
+      "url": "https://www.sregym.com/blog/jev-driven-sre-diagnosis",
+      "title_zh": "JEV 驱动的 SRE 诊断：成效与不足",
+      "created_display": "Created: Oct 06, 2026 / 18:27 PT",
+      "image_url": "https://www.sregym.com/blog/jev-driven-sre-diagnosis/share-image",
+      "summary_en": "An SRE diagnosis framework centered on 'JEV' reveals what went right and what failed during incidents, with concrete, actionable lessons for incident response, observability, and postmortems. The piece emphasizes iterating on diagnosis criteria and tooling to improve reliability.",
+      "summary_zh": "以“JEV”为核心的 SRE 诊断方法揭示事故中哪些做得好、哪些失败，并给出可执行的故障应对、可观测性与事后分析的教训。文章强调在诊断标准与工具上持续迭代以提升可靠性。",
+      "hn": {
+        "id": 49986765,
+        "type": "story",
+        "by": "matt_d",
+        "score": 37,
+        "descendants": 18,
+        "time": 1791336469,
+        "comments_url": "https://news.ycombinator.com/item?id=49986765"
+      },
+      "tags": [
+        "DevOps"
+      ],
+      "hot_score": 0.33
+    },
+    {
+      "title_en": "What is Codemode",
+      "url": "https://lucumr.pocoo.org/2026/10/6/codemode/",
+      "title_zh": "Codemode 是什么？",
+      "created_display": "Created: Oct 06, 2026 / 06:41 PT",
+      "image_url": "https://lucumr.pocoo.org/social/2026-10-06-codemode-social.png",
+      "summary_en": "Codemode introduces a way to think about code operation modes as first class concepts. The piece argues for structured patterns that let software adapt behavior across environments with predictable outcomes, improving reliability and security.",
+      "summary_zh": "Codemode 将代码在不同运行环境中的行为视为一等公民，开发、生产、测试等模式成为设计的核心概念。通过提出结构化模式，帮助代码在不同环境下自适应、可预测，从而提升可靠性与安全性。",
+      "hn": {
+        "id": 49978333,
+        "type": "story",
+        "by": "Tomte",
+        "score": 108,
+        "descendants": 50,
+        "time": 1791294063,
+        "comments_url": "https://news.ycombinator.com/item?id=49978333"
+      },
+      "tags": [
+        "Programming",
+        "Security"
+      ],
+      "hot_score": 0.32
+    },
+    {
+      "title_en": "Erdosproblems.com Succumbs to the AI Onslaught",
+      "url": "https://www.erdosproblems.com/forum/thread/blog:9",
+      "title_zh": "Erdosproblems.com 在 AI 的冲击下屈服",
+      "created_display": "Created: Oct 06, 2026 / 05:53 PT",
+      "image_url": null,
+      "summary_en": "AI-generated content and automation overwhelm Erdos Problems, raising moderation and community integrity concerns for this math forum.",
+      "summary_zh": "AI 生成内容与自动化对 Erdos Problems 造成冲击，引发关于社区治理与数学讨论纯度的担忧。",
+      "hn": {
+        "id": 49977689,
+        "type": "story",
+        "by": "pfdietz",
+        "score": 107,
+        "descendants": 48,
+        "time": 1791291238,
+        "comments_url": "https://news.ycombinator.com/item?id=49977689"
+      },
+      "tags": [
+        "AI",
+        "Culture"
+      ],
+      "hot_score": 0.3
+    },
+    {
+      "title_en": "Sharded, encrypted storage between friends over Yggdrasil",
+      "url": "https://github.com/peterretief/yggstore",
+      "title_zh": "Yggstore：朋友之间的分片加密存储",
+      "created_display": "Created: Oct 06, 2026 / 22:20 PT",
+      "image_url": "https://opengraph.githubassets.com/9ce13af31542034396e49289854ad29efb0329d945f6e2683933913b3703e949/peterretief/yggstore",
+      "summary_en": "Yggstore demonstrates sharded, encrypted storage among friends using the Yggdrasil network, offering a decentralized, privacy-preserving way to share data.",
+      "summary_zh": "Yggstore 展示了在 Yggdrasil 网络上实现的朋友之间分片、端对端加密的存储方案，提供去中心化且隐私友好的数据共享方式。",
+      "hn": {
+        "id": 49988550,
+        "type": "story",
+        "by": "peter_retief",
+        "score": 17,
+        "descendants": 6,
+        "time": 1791350422,
+        "comments_url": "https://news.ycombinator.com/item?id=49988550"
+      },
+      "hot_score": 0.27,
+      "tags": [
+        "Privacy",
+        "Open Source"
+      ]
     },
     {
       "title_en": "Berthd",
@@ -794,31 +999,9 @@
         "comments_url": "https://news.ycombinator.com/item?id=49982735"
       },
       "tags": [
-        "Web"
+        "Programming"
       ],
-      "hot_score": 0.45
-    },
-    {
-      "title_en": "Erdosproblems.com Succumbs to the AI Onslaught",
-      "url": "https://www.erdosproblems.com/forum/thread/blog:9",
-      "title_zh": "Erdosproblems.com 在 AI 的冲击下屈服",
-      "created_display": "Created: Oct 06, 2026 / 05:53 PT",
-      "image_url": null,
-      "summary_en": "AI-generated content and automation overwhelm Erdos Problems, raising moderation and community integrity concerns for this math forum.",
-      "summary_zh": "AI 生成内容与自动化对 Erdos Problems 造成冲击，引发关于社区治理与数学讨论纯度的担忧。",
-      "hn": {
-        "id": 49977689,
-        "type": "story",
-        "by": "pfdietz",
-        "score": 100,
-        "descendants": 41,
-        "time": 1791291238,
-        "comments_url": "https://news.ycombinator.com/item?id=49977689"
-      },
-      "tags": [
-        "AI"
-      ],
-      "hot_score": 0.41
+      "hot_score": 0.26
     },
     {
       "title_en": "Show HN: I turned my iPhone and a $20 smart plug into an f-stop timer",
@@ -832,16 +1015,16 @@
         "id": 49978595,
         "type": "story",
         "by": "pentakkusu",
-        "score": 80,
-        "descendants": 31,
+        "score": 83,
+        "descendants": 35,
         "time": 1791295087,
         "comments_url": "https://news.ycombinator.com/item?id=49978595"
       },
       "tags": [
-        "Hardware",
-        "Show HN"
+        "Show HN",
+        "Hardware"
       ],
-      "hot_score": 0.36
+      "hot_score": 0.25
     },
     {
       "title_en": "Show HN: Parseable, an open observability datalake, handles 100M time-series/min",
@@ -861,33 +1044,32 @@
         "comments_url": "https://news.ycombinator.com/item?id=49978171"
       },
       "tags": [
+        "Show HN",
         "Open Source",
-        "Data",
-        "Show HN"
+        "Data"
       ],
-      "hot_score": 0.35
+      "hot_score": 0.24
     },
     {
-      "title_en": "What Is Codemode",
-      "url": "https://lucumr.pocoo.org/2026/10/6/codemode/",
-      "title_zh": "Codemode 是什么？",
-      "created_display": "Created: Oct 06, 2026 / 06:41 PT",
-      "image_url": "https://lucumr.pocoo.org/social/2026-10-06-codemode-social.png",
-      "summary_en": "Codemode introduces a way to think about code operation modes as first class concepts. The piece argues for structured patterns that let software adapt behavior across environments with predictable outcomes, improving reliability and security.",
-      "summary_zh": "Codemode 将代码在不同运行环境中的行为视为一等公民，开发、生产、测试等模式成为设计的核心概念。通过提出结构化模式，帮助代码在不同环境下自适应、可预测，从而提升可靠性与安全性。",
+      "title_en": "We Asked Starbucks Why Their 'Sugar-Free' Drinks Have Sugar",
+      "url": "https://gizmodo.com/we-asked-starbucks-why-their-sugar-free-drinks-have-sugar-and-now-were-just-more-confused-2000822422",
+      "title_zh": "我们问星巴克：他们的‘无糖’饮品为何含糖",
+      "created_display": "Created: Oct 06, 2026 / 22:27 PT",
+      "image_url": null,
+      "summary_en": "Gizmodo investigates Starbucks' sugar-free drinks, uncovering ingredients or sweeteners that contain sugar equivalents or sugar byproducts, and labeling nuances.",
+      "summary_zh": "Gizmodo 调查星巴克无糖饮品，揭示某些成分或甜味剂可能含糖分及标签细节。文章强调消费者期望与实际配方之间的差距，并提出对标签标准的质疑。",
       "hn": {
-        "id": 49978333,
+        "id": 49988604,
         "type": "story",
         "by": "Tomte",
-        "score": 69,
-        "descendants": 26,
-        "time": 1791294063,
-        "comments_url": "https://news.ycombinator.com/item?id=49978333"
+        "score": 15,
+        "descendants": 5,
+        "time": 1791350821,
+        "comments_url": "https://news.ycombinator.com/item?id=49988604"
       },
-      "hot_score": 0.3,
+      "hot_score": 0.24,
       "tags": [
-        "Programming",
-        "Security"
+        "Business"
       ]
     },
     {
@@ -903,38 +1085,15 @@
         "type": "story",
         "by": "srameshc",
         "score": 71,
-        "descendants": 42,
+        "descendants": 43,
         "time": 1791291926,
         "comments_url": "https://news.ycombinator.com/item?id=49977819"
       },
       "tags": [
-        "Energy",
-        "Science"
+        "Science",
+        "Energy"
       ],
-      "hot_score": 0.29
-    },
-    {
-      "title_en": "OpenWAM: An Open Framework for Composable World-Action Models",
-      "url": "https://openwam.stanford.edu/",
-      "title_zh": "OpenWAM：可组合的世界-行动模型开放框架",
-      "created_display": "Created: Oct 06, 2026 / 20:17 PT",
-      "image_url": "https://openwam.stanford.edu/assets/icons/github.svg",
-      "summary_en": "OpenWAM offers an open framework for composing world-action models, enabling researchers to assemble modular perception, reasoning, and action components for AI systems. The project aims to streamline experimentation with integrated world models and planner pipelines.",
-      "summary_zh": "OpenWAM 提供一个开放框架，用于组合世界-行动模型，使研究者能够把感知、推理与执行等模块化组件拼装成 AI 系统。该项目旨在简化对集成式世界模型与规划流水线的实验。",
-      "hn": {
-        "id": 49987679,
-        "type": "story",
-        "by": "ilreb",
-        "score": 8,
-        "descendants": 1,
-        "time": 1791343069,
-        "comments_url": "https://news.ycombinator.com/item?id=49987679"
-      },
-      "hot_score": 0.23,
-      "tags": [
-        "Open Source",
-        "AI"
-      ]
+      "hot_score": 0.2
     },
     {
       "title_en": "LLMs may have helped my RSI",
@@ -948,8 +1107,8 @@
         "id": 49973644,
         "type": "story",
         "by": "vaughands",
-        "score": 86,
-        "descendants": 44,
+        "score": 97,
+        "descendants": 53,
         "time": 1791255664,
         "comments_url": "https://news.ycombinator.com/item?id=49973644"
       },
@@ -957,7 +1116,75 @@
         "AI",
         "Health"
       ],
-      "hot_score": 0.18
+      "hot_score": 0.15
+    },
+    {
+      "title_en": "Benchmark in Milliseconds",
+      "url": "https://matklad.github.io/2026/10/05/benchmark-milliseconds.html",
+      "title_zh": "以毫秒为单位的基准测试",
+      "created_display": "Created: Oct 05, 2026 / 10:00 PT",
+      "image_url": null,
+      "summary_en": "A concise look at benchmarking with millisecond timing, highlighting how timing resolution shapes performance comparisons and why choosing the right unit matters for meaningful results.",
+      "summary_zh": "简要讨论以毫秒计时的基准测试，强调计时粒度如何影响性能对比以及选择合适单位以获得有意义的结果。",
+      "hn": {
+        "id": 49967427,
+        "type": "story",
+        "by": "surprisetalk",
+        "score": 144,
+        "descendants": 47,
+        "time": 1791219610,
+        "comments_url": "https://news.ycombinator.com/item?id=49967427"
+      },
+      "tags": [
+        "Programming"
+      ],
+      "hot_score": 0.14
+    },
+    {
+      "title_en": "Treg (OpenRouter for Tools)",
+      "url": "https://github.com/superdesigndev/treg",
+      "title_zh": "Treg：工具的开放路由器",
+      "created_display": "Created: Oct 06, 2026 / 09:29 PT",
+      "image_url": "https://opengraph.githubassets.com/6b99a9919052b758a8962d215f2bb7ad6092d6d80fbec6cbe51cf2772e541208/superdesigndev/treg",
+      "summary_en": "Treg is an open router for tools, enabling dynamic discovery and routing of tool invocations in AI workflows. It helps organize, route, and orchestrate tool calls, reducing integration boilerplate and enabling scalable pipelines for agents.",
+      "summary_zh": "Treg 是一个面向工具的开源路由器，支持在 AI 工作流中动态发现并路由工具调用。它整理、分发和编排工具调用，降低集成工作量，提升代理系统的可扩展性。",
+      "hn": {
+        "id": 49980790,
+        "type": "story",
+        "by": "trollied",
+        "score": 37,
+        "descendants": 8,
+        "time": 1791304199,
+        "comments_url": "https://news.ycombinator.com/item?id=49980790"
+      },
+      "tags": [
+        "Programming",
+        "Open Source",
+        "AI"
+      ],
+      "hot_score": 0.13
+    },
+    {
+      "title_en": "OpenAI unleashes hundreds more math results upon a field in shock",
+      "url": "https://www.scientificamerican.com/article/openai-unleashes-hundreds-more-math-results-upon-a-field-already-in-shock/",
+      "title_zh": "OpenAI 再释放数百个数学结果，令该领域震惊",
+      "created_display": "Created: Oct 06, 2026 / 23:34 PT",
+      "image_url": "https://static.scientificamerican.com/dam/asset/17b9a99a-4ff3-4784-90f4-3bf3c5dd49f7/GettyImages-1388879870.jpg?m=1791307024.645&w=1200",
+      "summary_en": "OpenAI has published a large batch of mathematical results, provoking excitement and concern within the math community about reliability, interpretability, and reproducibility of AI-generated proofs or data. The volume and novelty push researchers to rethink evaluation and risks of ML-assisted mathematics.",
+      "summary_zh": "OpenAI 发布了大量数学结果，引发数学界对可靠性、可解释性与可重复性的讨论。大量新结果促使研究者重新评估评估方法，以及人工智能辅助数学研究的潜在风险。",
+      "hn": {
+        "id": 49989115,
+        "type": "story",
+        "by": "mr_fantastic",
+        "score": 6,
+        "descendants": 1,
+        "time": 1791354852,
+        "comments_url": "https://news.ycombinator.com/item?id=49989115"
+      },
+      "hot_score": 0.11,
+      "tags": [
+        "AI"
+      ]
     },
     {
       "title_en": "UniEvo-VL: Self-Distillation Training for Multimodal Model Self-Improvement",
@@ -976,32 +1203,33 @@
         "time": 1791327095,
         "comments_url": "https://news.ycombinator.com/item?id=49985292"
       },
-      "hot_score": 0.18,
+      "hot_score": 0.09,
       "tags": [
         "AI"
       ]
     },
     {
-      "title_en": "Benchmark in Milliseconds",
-      "url": "https://matklad.github.io/2026/10/05/benchmark-milliseconds.html",
-      "title_zh": "以毫秒为单位的基准测试",
-      "created_display": "Created: Oct 05, 2026 / 10:00 PT",
-      "image_url": null,
-      "summary_en": "A concise look at benchmarking with millisecond timing, highlighting how timing resolution shapes performance comparisons and why choosing the right unit matters for meaningful results.",
-      "summary_zh": "简要讨论以毫秒计时的基准测试，强调计时粒度如何影响性能对比以及选择合适单位以获得有意义的结果。",
+      "title_en": "OpenWAM: An Open Framework for Composable World-Action Models",
+      "url": "https://openwam.stanford.edu/",
+      "title_zh": "OpenWAM：可组合的世界-行动模型开放框架",
+      "created_display": "Created: Oct 06, 2026 / 20:17 PT",
+      "image_url": "https://openwam.stanford.edu/assets/icons/github.svg",
+      "summary_en": "OpenWAM offers an open framework for composing world-action models, enabling researchers to assemble modular perception, reasoning, and action components for AI systems. The project aims to streamline experimentation with integrated world models and planner pipelines.",
+      "summary_zh": "OpenWAM 提供一个开放框架，用于组合世界-行动模型，使研究者能够把感知、推理与执行等模块化组件拼装成 AI 系统。该项目旨在简化对集成式世界模型与规划流水线的实验。",
       "hn": {
-        "id": 49967427,
+        "id": 49987679,
         "type": "story",
-        "by": "surprisetalk",
-        "score": 138,
-        "descendants": 45,
-        "time": 1791219610,
-        "comments_url": "https://news.ycombinator.com/item?id=49967427"
+        "by": "ilreb",
+        "score": 9,
+        "descendants": 3,
+        "time": 1791343069,
+        "comments_url": "https://news.ycombinator.com/item?id=49987679"
       },
       "tags": [
-        "Programming"
+        "AI",
+        "Open Source"
       ],
-      "hot_score": 0.17
+      "hot_score": 0.09
     },
     {
       "title_en": "The Query Transformation Pipeline",
@@ -1020,7 +1248,7 @@
         "time": 1791324554,
         "comments_url": "https://news.ycombinator.com/item?id=49984834"
       },
-      "hot_score": 0.15,
+      "hot_score": 0.08,
       "tags": [
         "Programming",
         "Security",
@@ -1028,28 +1256,26 @@
       ]
     },
     {
-      "title_en": "Treg (OpenRouter for Tools)",
-      "url": "https://github.com/superdesigndev/treg",
-      "title_zh": "Treg：工具的开放路由器",
-      "created_display": "Created: Oct 06, 2026 / 09:29 PT",
-      "image_url": "https://opengraph.githubassets.com/6b99a9919052b758a8962d215f2bb7ad6092d6d80fbec6cbe51cf2772e541208/superdesigndev/treg",
-      "summary_en": "Treg is an open router for tools, enabling dynamic discovery and routing of tool invocations in AI workflows. It helps organize, route, and orchestrate tool calls, reducing integration boilerplate and enabling scalable pipelines for agents.",
-      "summary_zh": "Treg 是一个面向工具的开源路由器，支持在 AI 工作流中动态发现并路由工具调用。它整理、分发和编排工具调用，降低集成工作量，提升代理系统的可扩展性。",
+      "title_en": "The cost of lies: A Mineserver story",
+      "url": "https://www.jeremyreimer.com/rockets-item.lsp?f=true&p=272",
+      "title_zh": "谎言的代价：Mineserver 故事",
+      "created_display": "Created: Oct 03, 2026 / 22:17 PT",
+      "image_url": "https://www.jeremyreimer.com/images/avatars/jr-avatar.jpg",
+      "summary_en": "A cautionary tale about deception within an OSS project ecosystem centered on Mineserver, exploring how misinformation, misrepresentations, or broken promises can derail maintainership and trust. The piece analyzes consequences for contributors, users, and project sustainability, and lessons for governance and transparency.",
+      "summary_zh": "这是一个关于 Mineserver 开源项目生态中欺骗与失信的警示故事，探讨虚假信息或承诺缺失如何影响维护者信任和项目可持续性。文章分析对贡献者、用户以及治理透明度的后果，并给出相应的教训。",
       "hn": {
-        "id": 49980790,
+        "id": 49950865,
         "type": "story",
-        "by": "trollied",
-        "score": 22,
-        "descendants": 5,
-        "time": 1791304199,
-        "comments_url": "https://news.ycombinator.com/item?id=49980790"
+        "by": "luu",
+        "score": 140,
+        "descendants": 60,
+        "time": 1791091032,
+        "comments_url": "https://news.ycombinator.com/item?id=49950865"
       },
-      "hot_score": 0.12,
       "tags": [
-        "Open Source",
-        "Programming",
-        "AI"
-      ]
+        "Open Source"
+      ],
+      "hot_score": 0.05
     },
     {
       "title_en": "Direct retinal projection display for smart glasses using a meta-optic mirror",
@@ -1064,36 +1290,102 @@
         "type": "story",
         "by": "bookofjoe",
         "score": 130,
-        "descendants": 63,
+        "descendants": 66,
         "time": 1791036267,
         "comments_url": "https://news.ycombinator.com/item?id=49944369"
       },
       "tags": [
         "Hardware"
       ],
-      "hot_score": 0.04
+      "hot_score": 0.03
     },
     {
-      "title_en": "The cost of lies: A Mineserver story",
-      "url": "https://www.jeremyreimer.com/rockets-item.lsp?f=true&p=272",
-      "title_zh": "谎言的代价：Mineserver 故事",
-      "created_display": "Created: Oct 03, 2026 / 22:17 PT",
-      "image_url": "https://www.jeremyreimer.com/images/avatars/jr-avatar.jpg",
-      "summary_en": "A cautionary tale about deception within an OSS project ecosystem centered on Mineserver, exploring how misinformation, misrepresentations, or broken promises can derail maintainership and trust. The piece analyzes consequences for contributors, users, and project sustainability, and lessons for governance and transparency.",
-      "summary_zh": "这是一个关于 Mineserver 开源项目生态中欺骗与失信的警示故事，探讨虚假信息或承诺缺失如何影响维护者信任和项目可持续性。文章分析对贡献者、用户以及治理透明度的后果，并给出相应的教训。",
+      "title_en": "Show HN: AstroHelm – Use your phone camera to aim a telescope or telephoto lens",
+      "url": "https://astrohelm.app/",
+      "title_zh": "Show HN：AstroHelm——用手机摄像头瞄准望远镜/长焦镜头",
+      "created_display": "Created: Oct 04, 2026 / 07:01 PT",
+      "image_url": "https://astrohelm.app/_astro/hero.4aq-D_io_wr2Dp.webp",
+      "summary_en": "AstroHelm lets you use a phone camera to aim a telescope or telephoto lens, likely by translating live video into steering commands. The project lowers the barrier to precise targeting, enabling easier, affordable astronomy setups.",
+      "summary_zh": "AstroHelm 让手机摄像头实现瞄准望远镜或长焦镜头，通常通过将实时画面转化为瞄准指令来实现。这个项目降低了精确对准的门槛，让业余天文摄影更易上手、成本更低。",
       "hn": {
-        "id": 49950865,
+        "id": 49954015,
         "type": "story",
-        "by": "luu",
-        "score": 95,
-        "descendants": 39,
-        "time": 1791091032,
-        "comments_url": "https://news.ycombinator.com/item?id=49950865"
+        "by": "HeavenFox",
+        "score": 30,
+        "descendants": 11,
+        "time": 1791122469,
+        "comments_url": "https://news.ycombinator.com/item?id=49954015"
       },
-      "hot_score": 0.04,
+      "hot_score": 0.01,
       "tags": [
-        "Open Source",
+        "Show HN",
+        "Space"
+      ]
+    },
+    {
+      "title_en": "Gallery of Processor Cache Effects (2010)",
+      "url": "https://igoro.com/archive/gallery-of-processor-cache-effects/",
+      "title_zh": "处理器缓存效应图集（2010）",
+      "created_display": "Created: Oct 04, 2026 / 10:58 PT",
+      "image_url": null,
+      "summary_en": "A retrospective gallery visualizes how different processor caches respond to memory access patterns, illustrating cache hits, misses, and latency across architectures. The collection helps engineers reason about memory locality and optimization strategies.",
+      "summary_zh": "这组回顾性画廊以直观图像展示不同处理器缓存对内存访问模式的响应，揭示缓存命中/未命中及延迟在不同架构中的表现。为工程师理解内存局部性与优化策略提供参考。",
+      "hn": {
+        "id": 49956219,
+        "type": "story",
+        "by": "porridgeraisin",
+        "score": 26,
+        "descendants": 4,
+        "time": 1791136731,
+        "comments_url": "https://news.ycombinator.com/item?id=49956219"
+      },
+      "hot_score": 0.01,
+      "tags": [
+        "Hardware"
+      ]
+    },
+    {
+      "title_en": "The Legend of the Paper Crane",
+      "url": "https://mazdastories.com/en_us/inspire/paper-cranes-into-the-fold/",
+      "title_zh": "纸鹤传奇",
+      "created_display": "Created: Oct 04, 2026 / 06:49 PT",
+      "image_url": "https://mazdastories.com/static/c6e60460367baf7370fe488fe92fcc3f/papercranes_feature.jpg",
+      "summary_en": "A lyrical meditation on the enduring symbol of origami cranes and how small, patient efforts accumulate into meaning. The piece reframes crafts as examples of resilience and collaboration, illustrating how simple, repeatable actions can inspire communities and spark creative thinking in tech culture.",
+      "summary_zh": "这是一篇关于纸鹤这一长期象征的抒情反思，强调耐心与积小成大的力量。文章把手工艺看作韧性与协作的范例，展示简单、可重复的行动如何激发社区灵感并在科技文化中激发创造性思考。",
+      "hn": {
+        "id": 49953939,
+        "type": "story",
+        "by": "vismit2000",
+        "score": 23,
+        "descendants": 11,
+        "time": 1791121791,
+        "comments_url": "https://news.ycombinator.com/item?id=49953939"
+      },
+      "tags": [
         "Culture"
+      ],
+      "hot_score": 0.01
+    },
+    {
+      "title_en": "Rust's derive often implies inline",
+      "url": "https://yossarian.net/til/post/rust-s-derive-often-implies-inline/",
+      "title_zh": "Rust 的 derive 常常意味着内联",
+      "created_display": "Created: Oct 03, 2026 / 18:27 PT",
+      "image_url": null,
+      "summary_en": "Rust derive macros often result in generated methods being inlined, influencing binary size and performance. The post argues developers should be mindful of how inlining interacts with code generation and optimization.",
+      "summary_zh": "文章指出 Rust 的 derive 宏经常生成的方法会被内联，这会影响二进制大小和性能。建议开发者注意内联与自动生成代码之间的关系，并据此优化。",
+      "hn": {
+        "id": 49949680,
+        "type": "story",
+        "by": "woodruffw",
+        "score": 22,
+        "descendants": 1,
+        "time": 1791077222,
+        "comments_url": "https://news.ycombinator.com/item?id=49949680"
+      },
+      "hot_score": 0.01,
+      "tags": [
+        "Programming"
       ]
     },
     {
@@ -1108,14 +1400,61 @@
         "id": 49953455,
         "type": "story",
         "by": "jaypatelani",
-        "score": 15,
-        "descendants": 6,
+        "score": 16,
+        "descendants": 9,
         "time": 1791117931,
         "comments_url": "https://news.ycombinator.com/item?id=49953455"
       },
+      "tags": [
+        "Security",
+        "Open Source"
+      ],
+      "hot_score": 0.01
+    },
+    {
+      "title_en": "First Steps into Memory Management in Python",
+      "url": "https://tech.daniellbastos.com.br/posts/python-memory-management/",
+      "title_zh": "Python 内存管理初步入门",
+      "created_display": "Created: Oct 05, 2026 / 13:01 PT",
+      "image_url": null,
+      "summary_en": "First Steps into Memory Management in Python walks through how Python allocates memory, how garbage collection works, and practical tips to reduce memory usage in real programs.",
+      "summary_zh": "本篇介绍 Python 内存分配、垃圾回收机制及在实际程序中降低内存使用的实用技巧。",
+      "hn": {
+        "id": 49969851,
+        "type": "story",
+        "by": "shellpipe",
+        "score": 6,
+        "descendants": 0,
+        "time": 1791230482,
+        "comments_url": "https://news.ycombinator.com/item?id=49969851"
+      },
       "hot_score": 0.01,
       "tags": [
-        "Security"
+        "Programming",
+        "Education"
+      ]
+    },
+    {
+      "title_en": "Show HN: Arcadeia – A self-hosted media library with animated video previews",
+      "url": "https://github.com/travelonium/arcadeia",
+      "title_zh": "Show HN：Arcadeia——自托管媒体库，带有动画视频预览",
+      "created_display": "Created: Oct 04, 2026 / 12:33 PT",
+      "image_url": "https://repository-images.githubusercontent.com/903928038/efc1fa34-e806-402a-a9a6-d491fc612336",
+      "summary_en": "Arcadeia is a self-hosted media library with animated video previews, enabling private, local content management with engaging previews. It emphasizes control and privacy while offering a polished browsing experience.",
+      "summary_zh": "Arcadeia 是一个自托管的媒体库，提供带有动态预览的视频缩略图，方便本地管理和隐私保护。它在提供流畅浏览体验的同时强化对内容的控制。",
+      "hn": {
+        "id": 49957044,
+        "type": "story",
+        "by": "omidontop",
+        "score": 10,
+        "descendants": 6,
+        "time": 1791142396,
+        "comments_url": "https://news.ycombinator.com/item?id=49957044"
+      },
+      "hot_score": 0.0,
+      "tags": [
+        "Show HN",
+        "Privacy"
       ]
     },
     {
@@ -1137,30 +1476,9 @@
       },
       "hot_score": 0.0,
       "tags": [
-        "Science",
+        "Culture",
+        "Education",
         "Health"
-      ]
-    },
-    {
-      "title_en": "The Legend of the Paper Crane",
-      "url": "https://mazdastories.com/en_us/inspire/paper-cranes-into-the-fold/",
-      "title_zh": "纸鹤传奇",
-      "created_display": "Created: Oct 04, 2026 / 06:49 PT",
-      "image_url": "https://mazdastories.com/static/c6e60460367baf7370fe488fe92fcc3f/papercranes_feature.jpg",
-      "summary_en": "A lyrical meditation on the enduring symbol of origami cranes and how small, patient efforts accumulate into meaning. The piece reframes crafts as examples of resilience and collaboration, illustrating how simple, repeatable actions can inspire communities and spark creative thinking in tech culture.",
-      "summary_zh": "这是一篇关于纸鹤这一长期象征的抒情反思，强调耐心与积小成大的力量。文章把手工艺看作韧性与协作的范例，展示简单、可重复的行动如何激发社区灵感并在科技文化中激发创造性思考。",
-      "hn": {
-        "id": 49953939,
-        "type": "story",
-        "by": "vismit2000",
-        "score": 6,
-        "descendants": 1,
-        "time": 1791121791,
-        "comments_url": "https://news.ycombinator.com/item?id=49953939"
-      },
-      "hot_score": 0.0,
-      "tags": [
-        "Culture"
       ]
     }
   ]
