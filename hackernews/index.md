@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>230</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>33965</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>226</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>228</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-10-07</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>231</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>34015</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>226</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>229</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-10-08</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,118 +20,118 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='674' data-hn-time='1791407778'>
+<div class='hn-top-story-item' data-hn-score='1380' data-hn-time='1791407778'>
 <span class='hn-top-story-rank'>1</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/07/top_stories_10072026#story-49998895'>Margaret Hamilton has died</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/08/top_stories_10082026#story-49998895'>Margaret Hamilton has died</a>
  <a class='hn-top-story-link' href='https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>玛格丽特·汉密尔顿去世</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 25</span> <span class='hn-top-story-score'>&#9650; 674</span> <span class='hn-top-story-comments'>&#128172; 75</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Space</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 14</span> <span class='hn-top-story-score'>&#9650; 1380</span> <span class='hn-top-story-comments'>&#128172; 153</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Space</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='666' data-hn-time='1791396092'>
+<div class='hn-top-story-item' data-hn-score='242' data-hn-time='1791436454'>
 <span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/07/top_stories_10072026#story-49996437'>Claude Haiku 5.5</a>
- <a class='hn-top-story-link' href='https://www.anthropic.com/claude-haiku-5-5' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/08/top_stories_10082026#story-50002008'>“Math 2.0” will need to value mathematical progress more holistically</a>
+ <a class='hn-top-story-link' href='https://mathstodon.xyz/@tao/117395269325940185' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Claude Haiku 5.5</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 666</span> <span class='hn-top-story-comments'>&#128172; 335</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>“Math 2.0”将以更全面的标准评估数学进步</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 13</span> <span class='hn-top-story-score'>&#9650; 242</span> <span class='hn-top-story-comments'>&#128172; 169</span> <span class='hn-top-story-tag'>Education</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='490' data-hn-time='1791396058'>
+<div class='hn-top-story-item' data-hn-score='95' data-hn-time='1791441695'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/07/top_stories_10072026#story-49996425'>GPT‑6 and Intelligent UI for everyone</a>
- <a class='hn-top-story-link' href='https://openai.com/index/gpt-6-for-everyone/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/08/top_stories_10082026#story-50002494'>The people holding up the internet</a>
+ <a class='hn-top-story-link' href='https://sheets.works/data-viz/holding-up-the-internet' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>GPT‑6 与人人可用的智能界面</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.6</span> <span class='hn-top-story-score'>&#9650; 490</span> <span class='hn-top-story-comments'>&#128172; 257</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>撑起互联网的人们</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.5</span> <span class='hn-top-story-score'>&#9650; 95</span> <span class='hn-top-story-comments'>&#128172; 35</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>DevOps</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='267' data-hn-time='1791398980'>
+<div class='hn-top-story-item' data-hn-score='845' data-hn-time='1791396092'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/07/top_stories_10072026#story-49997161'>Meta and Microsoft take steps to reduce employee usage of Claude AI</a>
- <a class='hn-top-story-link' href='https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/08/top_stories_10082026#story-49996437'>Claude Haiku 5.5</a>
+ <a class='hn-top-story-link' href='https://www.anthropic.com/claude-haiku-5-5' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Meta 与微软采取措施减少员工使用 Claude AI</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.5</span> <span class='hn-top-story-score'>&#9650; 267</span> <span class='hn-top-story-comments'>&#128172; 271</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-zh'>Claude Haiku 5.5</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.6</span> <span class='hn-top-story-score'>&#9650; 845</span> <span class='hn-top-story-comments'>&#128172; 413</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='481' data-hn-time='1791385799'>
+<div class='hn-top-story-item' data-hn-score='606' data-hn-time='1791396058'>
 <span class='hn-top-story-rank'>5</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/07/top_stories_10072026#story-49993914'>Visa, Mastercard, major banks facing new litigation over 'anticompetitive' fees</a>
- <a class='hn-top-story-link' href='https://www.classaction.org/news/visa-mastercard-major-banks-facing-new-litigation-over-anticompetitive-merchant-credit-card-transaction-fees' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/08/top_stories_10082026#story-49996425'>GPT‑6 and Intelligent UI for everyone</a>
+ <a class='hn-top-story-link' href='https://openai.com/index/gpt-6-for-everyone/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Visa、Mastercard 与主要银行面临就“反竞争”手续费的新诉讼</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.2</span> <span class='hn-top-story-score'>&#9650; 481</span> <span class='hn-top-story-comments'>&#128172; 346</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Politics</span></div>
+<div class='hn-top-story-zh'>GPT‑6 与人人可用的智能界面</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.0</span> <span class='hn-top-story-score'>&#9650; 606</span> <span class='hn-top-story-comments'>&#128172; 326</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='356' data-hn-time='1791387861'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='24' data-hn-time='1791443254'>
 <span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/07/top_stories_10072026#story-49994443'>Show HN: Bigwords.page – Turn any screen into a sign. The URL is the app</a>
- <a class='hn-top-story-link' href='https://bigwords.page/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/08/top_stories_10082026#story-50002665'>I think I found a planet nobody knew existed. I used Claude Code to find it</a>
+ <a class='hn-top-story-link' href='https://www.reddit.com/r/ClaudeAI/s/mbe5IY2LF9' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Bigwords.page：把任意屏幕变成标牌，URL 就是应用</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 356</span> <span class='hn-top-story-comments'>&#128172; 109</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Web</span></div>
+<div class='hn-top-story-zh'>我用 Claude Code 找到了一个没人知道的行星</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 24</span> <span class='hn-top-story-comments'>&#128172; 9</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Science</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='156' data-hn-time='1791401620'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='541' data-hn-time='1791385799'>
 <span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/07/top_stories_10072026#story-49997718'>The Mathocalypse</a>
- <a class='hn-top-story-link' href='https://scottaaronson.blog/?p=10169' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/08/top_stories_10082026#story-49993914'>Visa, Mastercard, major banks facing new litigation over 'anticompetitive' fees</a>
+ <a class='hn-top-story-link' href='https://www.classaction.org/news/visa-mastercard-major-banks-facing-new-litigation-over-anticompetitive-merchant-credit-card-transaction-fees' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>数学灾变</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.8</span> <span class='hn-top-story-score'>&#9650; 156</span> <span class='hn-top-story-comments'>&#128172; 164</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Science</span></div>
+<div class='hn-top-story-zh'>Visa、Mastercard 与主要银行面临就“反竞争”手续费的新诉讼</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.7</span> <span class='hn-top-story-score'>&#9650; 541</span> <span class='hn-top-story-comments'>&#128172; 389</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='480' data-hn-time='1791372302'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='475' data-hn-time='1791387861'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/07/top_stories_10072026#story-49991227'>Shipping JPEG XL in Chrome</a>
- <a class='hn-top-story-link' href='https://developer.chrome.com/blog/jpeg-xl-in-chrome' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/08/top_stories_10082026#story-49994443'>Show HN: Bigwords.page – Turn any screen into a sign. The URL is the app</a>
+ <a class='hn-top-story-link' href='https://bigwords.page/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Chrome 将原生支持 JPEG XL</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 480</span> <span class='hn-top-story-comments'>&#128172; 311</span> <span class='hn-top-story-tag'>Web</span></div>
+<div class='hn-top-story-zh'>Bigwords.page：把任意屏幕变成标牌，URL 就是应用</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 475</span> <span class='hn-top-story-comments'>&#128172; 135</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='288' data-hn-time='1791385537'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='338' data-hn-time='1791398980'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/07/top_stories_10072026#story-49993857'>Animated ASCII Art for Web Pages</a>
- <a class='hn-top-story-link' href='https://ascii.rest/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/08/top_stories_10082026#story-49997161'>Meta and Microsoft take steps to reduce employee usage of Claude AI</a>
+ <a class='hn-top-story-link' href='https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>网页的动画式 ASCII 艺术</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 288</span> <span class='hn-top-story-comments'>&#128172; 57</span> <span class='hn-top-story-tag'>Web</span></div>
+<div class='hn-top-story-zh'>Meta 与微软采取措施减少员工使用 Claude AI</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.5</span> <span class='hn-top-story-score'>&#9650; 338</span> <span class='hn-top-story-comments'>&#128172; 329</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='174' data-hn-time='1791395318'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='75' data-hn-time='1791429788'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/07/top_stories_10072026#story-49996259'>Docker Agent</a>
- <a class='hn-top-story-link' href='https://github.com/docker/docker-agent' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/08/top_stories_10082026#story-50001580'>A 100x faster* alternative to homebrew</a>
+ <a class='hn-top-story-link' href='https://github.com/zerobrewhq/zerobrew' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Docker 代理</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 174</span> <span class='hn-top-story-comments'>&#128172; 81</span> <span class='hn-top-story-tag'>DevOps</span></div>
+<div class='hn-top-story-zh'>一个比 Homebrew 快百倍的替代工具</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.3</span> <span class='hn-top-story-score'>&#9650; 75</span> <span class='hn-top-story-comments'>&#128172; 59</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Open Source</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
-<a class='hn-top-stories-more' href='/hackernews/2026/10/07/top_stories_10072026'>View all trending stories &rarr;</a>
+<a class='hn-top-stories-more' href='/hackernews/2026/10/08/top_stories_10082026'>View all trending stories &rarr;</a>
 <a class='hn-top-stories-more' href='/hackernews/2026/10/06/best_stories_10062026'>Latest Daily Best — 2026-10-06 &rarr;</a>
 </div>
 </div>
@@ -140,10 +140,19 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 41 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-10-05 — 2026-10-07 <span class="hn-row-sep">·</span> 400 stories <span class="hn-row-sep">·</span> 3 days</span>
+<span class='hn-week-meta'>2026-10-05 — 2026-10-08 <span class="hn-row-sep">·</span> 450 stories <span class="hn-row-sep">·</span> 4 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
+<div class='hn-day-row'>
+<div class='hn-day-date'>2026-10-08 <span class='hn-day-weekday'>Thu</span></div>
+<div class='hn-day-stories'>
+<a class='hn-story-link' href='/hackernews/2026/10/08/top_stories_10082026'>
+<span class='hn-row-type hn-type-top'>Trending</span>
+<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>16</b> <span class="hn-row-sep">·</span> Programming <b>11</b></span>
+</a>
+</div>
+</div>
 <div class='hn-day-row'>
 <div class='hn-day-date'>2026-10-07 <span class='hn-day-weekday'>Wed</span></div>
 <div class='hn-day-stories'>
@@ -496,7 +505,7 @@ Sort:
 <details class='hn-week-group'>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 37</span>
-<span class='hn-week-meta'>2026-09-08 — 2026-09-13 <span class="hn-row-sep">·</span> 898 stories <span class="hn-row-sep">·</span> 6 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
+<span class='hn-week-meta'>2026-09-09 — 2026-09-13 <span class="hn-row-sep">·</span> 748 stories <span class="hn-row-sep">·</span> 5 days <span class="hn-row-sep">·</span> 📊 Weekly Digest</span>
 </summary>
 <div class='hn-week-content'>
 <a class='hn-story-link hn-weekly-digest-link' href='/hackernews/weekly/2026-W37'>
@@ -566,19 +575,6 @@ Sort:
 <a class='hn-story-link' href='/hackernews/2026/09/09/top_stories_09092026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
 <span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>30</b> <span class="hn-row-sep">·</span> Hardware <b>21</b></span>
-</a>
-</div>
-</div>
-<div class='hn-day-row'>
-<div class='hn-day-date'>2026-09-08 <span class='hn-day-weekday'>Tue</span></div>
-<div class='hn-day-stories'>
-<a class='hn-story-link' href='/hackernews/2026/09/08/best_stories_09082026'>
-<span class='hn-row-type hn-type-best'>Daily Best</span>
-<span class='hn-row-detail'>All <b>50</b> <span class="hn-row-sep">·</span> AI <b>17</b> <span class="hn-row-sep">·</span> Privacy <b>9</b></span>
-</a>
-<a class='hn-story-link' href='/hackernews/2026/09/08/top_stories_09082026'>
-<span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>22</b> <span class="hn-row-sep">·</span> Programming <b>19</b></span>
 </a>
 </div>
 </div>
