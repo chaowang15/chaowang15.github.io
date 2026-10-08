@@ -4,7 +4,7 @@ title: "Hacker News Daily"
 ---
 <h1 class='hn-h1'>Hacker News Daily</h1>
 <p class='hn-subtitle'>Source: <a href='https://news.ycombinator.com/' target='_blank' rel='noopener noreferrer'>news.ycombinator.com</a></p>
-<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>231</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>34075</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>227</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>229</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-10-08</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
+<div class='hn-stats'><span class='hn-stat-item'><span class='hn-stat-num'>231</span> days</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>34105</span> stories</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>227</span> daily best</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'><span class='hn-stat-num'>229</span> trending</span> <span class="hn-stat-sep">·</span> <span class='hn-stat-item'>2026-02-16 — 2026-10-08</span> <span class="hn-stat-sep">·</span> <a class='hn-stat-link' href='/hackernews/trends/'>Trends</a> <span class="hn-stat-sep">·</span> <a class='hn-stat-link hn-rss-link' href='/hackernews/feed.xml' title='RSS Feed'>RSS</a></div>
 <div class='hn-search-box'>
 <input type='text' id='hn-search-input' class='hn-search-input' placeholder='Search all stories (title, tags, author...)' autocomplete='off'/>
 <div id='hn-search-status' class='hn-search-status'></div>
@@ -20,114 +20,114 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='1769' data-hn-time='1791407778'>
+<div class='hn-top-story-item' data-hn-score='645' data-hn-time='1791472500'>
 <span class='hn-top-story-rank'>1</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/08/top_stories_10082026#story-50006832'>Trump administration is suspending Microsoft from a green card program</a>
+ <a class='hn-top-story-link' href='https://apnews.com/article/h1b-visa-program-vance-microsoft-e7b3a407f822702b269ee277d21343ea' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>特朗普政府暂停微软参与绿卡计划</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 22</span> <span class='hn-top-story-score'>&#9650; 645</span> <span class='hn-top-story-comments'>&#128172; 1097</span> <span class='hn-top-story-tag'>Politics</span> <span class='hn-top-story-tag'>Business</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='582' data-hn-time='1791470387'>
+<span class='hn-top-story-rank'>2</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/08/top_stories_10082026#story-50006366'>Tell HN: I've been paying for a rural Tanzanian's education for 10 years</a>
+ <a class='hn-top-story-link' href='https://news.ycombinator.com/item?id=50006366' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Tell HN：我已资助坦桑尼亚农村学生教育十年</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 17</span> <span class='hn-top-story-score'>&#9650; 582</span> <span class='hn-top-story-comments'>&#128172; 157</span> <span class='hn-top-story-tag'>Education</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='219' data-hn-time='1791478779'>
+<span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/08/top_stories_10082026#story-50008427'>Whistle: Speech to Text in 16.9 MB</a>
+ <a class='hn-top-story-link' href='https://cactuscompute.com/blog/whistle' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Whistle：16.9 MB 的语音转文本</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 13</span> <span class='hn-top-story-score'>&#9650; 219</span> <span class='hn-top-story-comments'>&#128172; 59</span> <span class='hn-top-story-tag'>AI</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='204' data-hn-time='1791477958'>
+<span class='hn-top-story-rank'>4</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/08/top_stories_10082026#story-50008187'>OpenAI annualised revenues $20B less than previously signalled</a>
+ <a class='hn-top-story-link' href='https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>OpenAI 年化收入比此前预计低出200亿美元</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 11</span> <span class='hn-top-story-score'>&#9650; 204</span> <span class='hn-top-story-comments'>&#128172; 113</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>DevOps</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='186' data-hn-time='1791475413'>
+<span class='hn-top-story-rank'>5</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/08/top_stories_10082026#story-50007519'>4-hour battery storage is cheaper to install than gas turbines all across globe</a>
+ <a class='hn-top-story-link' href='https://www.solarpowerworldonline.com/2026/10/4-hour-battery-storage-is-cheaper-to-install-than-gas-turbines-all-across-globe/' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>四小时电池储能全球成本低于燃气涡轮</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.2</span> <span class='hn-top-story-score'>&#9650; 186</span> <span class='hn-top-story-comments'>&#128172; 98</span> <span class='hn-top-story-tag'>Energy</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='1769' data-hn-time='1791407778'>
+<span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/10/08/top_stories_10082026#story-49998895'>Margaret Hamilton has died</a>
  <a class='hn-top-story-link' href='https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>玛格丽特·汉密尔顿去世</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 9.8</span> <span class='hn-top-story-score'>&#9650; 1769</span> <span class='hn-top-story-comments'>&#128172; 187</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Space</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.6</span> <span class='hn-top-story-score'>&#9650; 1769</span> <span class='hn-top-story-comments'>&#128172; 187</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Space</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='404' data-hn-time='1791436454'>
-<span class='hn-top-story-rank'>2</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/08/top_stories_10082026#story-50002008'>“Math 2.0” will need to value mathematical progress more holistically</a>
- <a class='hn-top-story-link' href='https://mathstodon.xyz/@tao/117395269325940185' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>“Math 2.0”将以更全面的标准评估数学进步</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 6.4</span> <span class='hn-top-story-score'>&#9650; 404</span> <span class='hn-top-story-comments'>&#128172; 394</span> <span class='hn-top-story-tag'>Education</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='42' data-hn-time='1791460820'>
-<span class='hn-top-story-rank'>3</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='294' data-hn-time='1791460820'>
+<span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/10/08/top_stories_10082026#story-50004790'>I gave Opus 5.5 one prompt and six hours to visualize Invisible Cities</a>
  <a class='hn-top-story-link' href='https://quesma.com/blog/invisible-cities-one-shot/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>给 Opus 5.5 一个提示，花六小时可视化《隐形城市》</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.0</span> <span class='hn-top-story-score'>&#9650; 42</span> <span class='hn-top-story-comments'>&#128172; 12</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.9</span> <span class='hn-top-story-score'>&#9650; 294</span> <span class='hn-top-story-comments'>&#128172; 154</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='940' data-hn-time='1791396092'>
-<span class='hn-top-story-rank'>4</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/08/top_stories_10082026#story-49996437'>Claude Haiku 5.5</a>
- <a class='hn-top-story-link' href='https://www.anthropic.com/claude-haiku-5-5' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>Claude Haiku 5.5</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.9</span> <span class='hn-top-story-score'>&#9650; 940</span> <span class='hn-top-story-comments'>&#128172; 442</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='29' data-hn-time='1791460730'>
-<span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/08/top_stories_10082026#story-50004777'>Anne Carson wins Nobel Prize in literature 2026</a>
- <a class='hn-top-story-link' href='https://www.theguardian.com/books/2026/oct/08/wins-the-nobel-prize-in-literature-2026' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>安妮·卡森获2026年诺贝尔文学奖</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.4</span> <span class='hn-top-story-score'>&#9650; 29</span> <span class='hn-top-story-comments'>&#128172; 2</span> <span class='hn-top-story-tag'>Culture</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='106' data-hn-time='1791446917'>
-<span class='hn-top-story-rank'>6</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/08/top_stories_10082026#story-50003107'>OpenAI Withdraws 3 Math Papers</a>
- <a class='hn-top-story-link' href='https://github.com/openai/math/blob/main/history.md' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>OpenAI 撤回三篇数学论文</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 106</span> <span class='hn-top-story-comments'>&#128172; 85</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='681' data-hn-time='1791396058'>
-<span class='hn-top-story-rank'>7</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/08/top_stories_10082026#story-49996425'>GPT‑6 and Intelligent UI for everyone</a>
- <a class='hn-top-story-link' href='https://openai.com/index/gpt-6-for-everyone/' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>GPT‑6 与人人可用的智能界面</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.8</span> <span class='hn-top-story-score'>&#9650; 681</span> <span class='hn-top-story-comments'>&#128172; 399</span> <span class='hn-top-story-tag'>AI</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='110' data-hn-time='1791440965'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='38' data-hn-time='1791484146'>
 <span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/08/top_stories_10082026#story-50002426'>Classic PC demoscene productions running natively in the browser</a>
- <a class='hn-top-story-link' href='https://treylorswift.github.io/demoscene-recomp/web/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/08/top_stories_10082026#story-50009904'>Show HN: K10s – A Clickable Kubernetes TUI (Go, Bubble Tea)</a>
+ <a class='hn-top-story-link' href='https://github.com/p10node/k10s' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>经典 PC demoscene 作品在浏览器原生运行</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.2</span> <span class='hn-top-story-score'>&#9650; 110</span> <span class='hn-top-story-comments'>&#128172; 94</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Programming</span></div>
+<div class='hn-top-story-zh'>Show HN：K10s——一个可点击的 Kubernetes TUI（Go、Bubble Tea）</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.5</span> <span class='hn-top-story-score'>&#9650; 38</span> <span class='hn-top-story-comments'>&#128172; 21</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>DevOps</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='95' data-hn-time='1791441695'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='201' data-hn-time='1791465721'>
 <span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/08/top_stories_10082026#story-50002494'>The people holding up the internet</a>
- <a class='hn-top-story-link' href='https://sheets.works/data-viz/holding-up-the-internet' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/08/top_stories_10082026#story-50005527'>Beauty in DVD Menus</a>
+ <a class='hn-top-story-link' href='https://vale.rocks/posts/dvd-menus' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>撑起互联网的人们</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.0</span> <span class='hn-top-story-score'>&#9650; 95</span> <span class='hn-top-story-comments'>&#128172; 35</span> <span class='hn-top-story-tag'>Data</span> <span class='hn-top-story-tag'>DevOps</span></div>
+<div class='hn-top-story-zh'>DVD 菜单之美</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.4</span> <span class='hn-top-story-score'>&#9650; 201</span> <span class='hn-top-story-comments'>&#128172; 128</span> <span class='hn-top-story-tag'>Design</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='563' data-hn-time='1791387861'>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='573' data-hn-time='1791436454'>
 <span class='hn-top-story-rank'>10</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/08/top_stories_10082026#story-49994443'>Show HN: Bigwords.page – Turn any screen into a sign. The URL is the app</a>
- <a class='hn-top-story-link' href='https://bigwords.page/' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/08/top_stories_10082026#story-50002008'>“Math 2.0” will need to value mathematical progress more holistically</a>
+ <a class='hn-top-story-link' href='https://mathstodon.xyz/@tao/117395269325940185' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Bigwords.page：把任意屏幕变成标牌，URL 就是应用</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 1.9</span> <span class='hn-top-story-score'>&#9650; 563</span> <span class='hn-top-story-comments'>&#128172; 143</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Web</span></div>
+<div class='hn-top-story-zh'>“Math 2.0”将以更全面的标准评估数学进步</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.7</span> <span class='hn-top-story-score'>&#9650; 573</span> <span class='hn-top-story-comments'>&#128172; 592</span> <span class='hn-top-story-tag'>Education</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -140,7 +140,7 @@ Sort:
 <details class='hn-week-group' open>
 <summary class='hn-week-summary'>
 <span class='hn-week-title'>2026 Week 41 <span class='hn-this-week-badge'>This Week</span></span>
-<span class='hn-week-meta'>2026-10-05 — 2026-10-08 <span class="hn-row-sep">·</span> 510 stories <span class="hn-row-sep">·</span> 4 days</span>
+<span class='hn-week-meta'>2026-10-05 — 2026-10-08 <span class="hn-row-sep">·</span> 540 stories <span class="hn-row-sep">·</span> 4 days</span>
 </summary>
 <div class='hn-week-content'>
 <div class='hn-grid'>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/10/08/top_stories_10082026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>60</b> <span class="hn-row-sep">·</span> AI <b>19</b> <span class="hn-row-sep">·</span> Science <b>12</b></span>
+<span class='hn-row-detail'>All <b>90</b> <span class="hn-row-sep">·</span> AI <b>28</b> <span class="hn-row-sep">·</span> Programming <b>18</b></span>
 </a>
 </div>
 </div>
