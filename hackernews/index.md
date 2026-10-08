@@ -20,29 +20,29 @@ Sort:
 <div class='hn-index-section hn-top-stories-section'>
 <h3 class='hn-section-title'>Today's Top Stories <span class='hn-section-zh'>今日头条</span> <span class='hn-hot-badge'>🔥 HOT</span></h3>
 <div class='hn-top-stories-list'>
-<div class='hn-top-story-item' data-hn-score='562' data-hn-time='1791396092'>
+<div class='hn-top-story-item' data-hn-score='674' data-hn-time='1791407778'>
 <span class='hn-top-story-rank'>1</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/07/top_stories_10072026#story-49998895'>Margaret Hamilton has died</a>
+ <a class='hn-top-story-link' href='https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>玛格丽特·汉密尔顿去世</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 25</span> <span class='hn-top-story-score'>&#9650; 674</span> <span class='hn-top-story-comments'>&#128172; 75</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>Space</span></div>
+</div>
+</div>
+<div class='hn-top-story-item' data-hn-score='666' data-hn-time='1791396092'>
+<span class='hn-top-story-rank'>2</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/10/07/top_stories_10072026#story-49996437'>Claude Haiku 5.5</a>
  <a class='hn-top-story-link' href='https://www.anthropic.com/claude-haiku-5-5' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Claude Haiku 5.5</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 19</span> <span class='hn-top-story-score'>&#9650; 562</span> <span class='hn-top-story-comments'>&#128172; 266</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 12</span> <span class='hn-top-story-score'>&#9650; 666</span> <span class='hn-top-story-comments'>&#128172; 335</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='128' data-hn-time='1791407778'>
-<span class='hn-top-story-rank'>2</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/07/top_stories_10072026#story-49998895'>Margaret Hamilton, who led software development for Apollo program, dies at 90</a>
- <a class='hn-top-story-link' href='https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>阿波罗计划软件负责人玛格丽特·汉密尔顿逝世，享年90岁</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 14</span> <span class='hn-top-story-score'>&#9650; 128</span> <span class='hn-top-story-comments'>&#128172; 10</span> <span class='hn-top-story-tag'>Science</span> <span class='hn-top-story-tag'>Space</span></div>
-</div>
-</div>
-<div class='hn-top-story-item' data-hn-score='404' data-hn-time='1791396058'>
+<div class='hn-top-story-item' data-hn-score='490' data-hn-time='1791396058'>
 <span class='hn-top-story-rank'>3</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -50,10 +50,10 @@ Sort:
  <a class='hn-top-story-link' href='https://openai.com/index/gpt-6-for-everyone/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>GPT‑6 与人人可用的智能界面</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 13</span> <span class='hn-top-story-score'>&#9650; 404</span> <span class='hn-top-story-comments'>&#128172; 207</span> <span class='hn-top-story-tag'>AI</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.6</span> <span class='hn-top-story-score'>&#9650; 490</span> <span class='hn-top-story-comments'>&#128172; 257</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='203' data-hn-time='1791398980'>
+<div class='hn-top-story-item' data-hn-score='267' data-hn-time='1791398980'>
 <span class='hn-top-story-rank'>4</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
@@ -61,73 +61,73 @@ Sort:
  <a class='hn-top-story-link' href='https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Meta 与微软采取措施减少员工使用 Claude AI</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.5</span> <span class='hn-top-story-score'>&#9650; 203</span> <span class='hn-top-story-comments'>&#128172; 211</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.5</span> <span class='hn-top-story-score'>&#9650; 267</span> <span class='hn-top-story-comments'>&#128172; 271</span> <span class='hn-top-story-tag'>Privacy</span> <span class='hn-top-story-tag'>Security</span> <span class='hn-top-story-tag'>AI</span></div>
 </div>
 </div>
-<div class='hn-top-story-item' data-hn-score='156' data-hn-time='1791401620'>
+<div class='hn-top-story-item' data-hn-score='481' data-hn-time='1791385799'>
 <span class='hn-top-story-rank'>5</span>
-<div class='hn-top-story-content'>
-<div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/07/top_stories_10072026#story-49997718'>The Mathocalypse</a>
- <a class='hn-top-story-link' href='https://scottaaronson.blog/?p=10169' target='_blank' title='Read original article'>&#x1F517;</a>
-</div>
-<div class='hn-top-story-zh'>数学灾变</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 8.3</span> <span class='hn-top-story-score'>&#9650; 156</span> <span class='hn-top-story-comments'>&#128172; 164</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Science</span></div>
-</div>
-</div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='435' data-hn-time='1791385799'>
-<span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/10/07/top_stories_10072026#story-49993914'>Visa, Mastercard, major banks facing new litigation over 'anticompetitive' fees</a>
  <a class='hn-top-story-link' href='https://www.classaction.org/news/visa-mastercard-major-banks-facing-new-litigation-over-anticompetitive-merchant-credit-card-transaction-fees' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Visa、Mastercard 与主要银行面临就“反竞争”手续费的新诉讼</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 7.6</span> <span class='hn-top-story-score'>&#9650; 435</span> <span class='hn-top-story-comments'>&#128172; 295</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Finance</span> <span class='hn-top-story-tag'>Business</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.2</span> <span class='hn-top-story-score'>&#9650; 481</span> <span class='hn-top-story-comments'>&#128172; 346</span> <span class='hn-top-story-tag'>Business</span> <span class='hn-top-story-tag'>Legal</span> <span class='hn-top-story-tag'>Politics</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='280' data-hn-time='1791387861'>
-<span class='hn-top-story-rank'>7</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='356' data-hn-time='1791387861'>
+<span class='hn-top-story-rank'>6</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/10/07/top_stories_10072026#story-49994443'>Show HN: Bigwords.page – Turn any screen into a sign. The URL is the app</a>
  <a class='hn-top-story-link' href='https://bigwords.page/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Bigwords.page：把任意屏幕变成标牌，URL 就是应用</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 5.5</span> <span class='hn-top-story-score'>&#9650; 280</span> <span class='hn-top-story-comments'>&#128172; 93</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Web</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.2</span> <span class='hn-top-story-score'>&#9650; 356</span> <span class='hn-top-story-comments'>&#128172; 109</span> <span class='hn-top-story-tag'>Show HN</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='143' data-hn-time='1791395318'>
-<span class='hn-top-story-rank'>8</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='156' data-hn-time='1791401620'>
+<span class='hn-top-story-rank'>7</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
-<a class='hn-top-story-title-text' href='/hackernews/2026/10/07/top_stories_10072026#story-49996259'>Docker Agent</a>
- <a class='hn-top-story-link' href='https://github.com/docker/docker-agent' target='_blank' title='Read original article'>&#x1F517;</a>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/07/top_stories_10072026#story-49997718'>The Mathocalypse</a>
+ <a class='hn-top-story-link' href='https://scottaaronson.blog/?p=10169' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
-<div class='hn-top-story-zh'>Docker 代理</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.5</span> <span class='hn-top-story-score'>&#9650; 143</span> <span class='hn-top-story-comments'>&#128172; 58</span> <span class='hn-top-story-tag'>Programming</span> <span class='hn-top-story-tag'>DevOps</span></div>
+<div class='hn-top-story-zh'>数学灾变</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.8</span> <span class='hn-top-story-score'>&#9650; 156</span> <span class='hn-top-story-comments'>&#128172; 164</span> <span class='hn-top-story-tag'>AI</span> <span class='hn-top-story-tag'>Science</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='457' data-hn-time='1791372302'>
-<span class='hn-top-story-rank'>9</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='480' data-hn-time='1791372302'>
+<span class='hn-top-story-rank'>8</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/10/07/top_stories_10072026#story-49991227'>Shipping JPEG XL in Chrome</a>
  <a class='hn-top-story-link' href='https://developer.chrome.com/blog/jpeg-xl-in-chrome' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>Chrome 将原生支持 JPEG XL</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.4</span> <span class='hn-top-story-score'>&#9650; 457</span> <span class='hn-top-story-comments'>&#128172; 292</span> <span class='hn-top-story-tag'>Web</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.2</span> <span class='hn-top-story-score'>&#9650; 480</span> <span class='hn-top-story-comments'>&#128172; 311</span> <span class='hn-top-story-tag'>Web</span></div>
 </div>
 </div>
-<div class='hn-top-story-item hn-top-story-extra' data-hn-score='249' data-hn-time='1791385537'>
-<span class='hn-top-story-rank'>10</span>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='288' data-hn-time='1791385537'>
+<span class='hn-top-story-rank'>9</span>
 <div class='hn-top-story-content'>
 <div class='hn-top-story-title'>
 <a class='hn-top-story-title-text' href='/hackernews/2026/10/07/top_stories_10072026#story-49993857'>Animated ASCII Art for Web Pages</a>
  <a class='hn-top-story-link' href='https://ascii.rest/' target='_blank' title='Read original article'>&#x1F517;</a>
 </div>
 <div class='hn-top-story-zh'>网页的动画式 ASCII 艺术</div>
-<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 4.3</span> <span class='hn-top-story-score'>&#9650; 249</span> <span class='hn-top-story-comments'>&#128172; 55</span> <span class='hn-top-story-tag'>Web</span> <span class='hn-top-story-tag'>Design</span></div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 3.1</span> <span class='hn-top-story-score'>&#9650; 288</span> <span class='hn-top-story-comments'>&#128172; 57</span> <span class='hn-top-story-tag'>Web</span></div>
+</div>
+</div>
+<div class='hn-top-story-item hn-top-story-extra' data-hn-score='174' data-hn-time='1791395318'>
+<span class='hn-top-story-rank'>10</span>
+<div class='hn-top-story-content'>
+<div class='hn-top-story-title'>
+<a class='hn-top-story-title-text' href='/hackernews/2026/10/07/top_stories_10072026#story-49996259'>Docker Agent</a>
+ <a class='hn-top-story-link' href='https://github.com/docker/docker-agent' target='_blank' title='Read original article'>&#x1F517;</a>
+</div>
+<div class='hn-top-story-zh'>Docker 代理</div>
+<div class='hn-top-story-meta'><span class='hn-hot-idx'>&#128293; 2.9</span> <span class='hn-top-story-score'>&#9650; 174</span> <span class='hn-top-story-comments'>&#128172; 81</span> <span class='hn-top-story-tag'>DevOps</span></div>
 </div>
 </div>
 <button class='hn-top-stories-toggle' id='hn-top-stories-toggle'>Show more ▼</button>
@@ -149,7 +149,7 @@ Sort:
 <div class='hn-day-stories'>
 <a class='hn-story-link' href='/hackernews/2026/10/07/top_stories_10072026'>
 <span class='hn-row-type hn-type-top'>Trending</span>
-<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>28</b> <span class="hn-row-sep">·</span> Programming <b>20</b></span>
+<span class='hn-row-detail'>All <b>100</b> <span class="hn-row-sep">·</span> AI <b>26</b> <span class="hn-row-sep">·</span> Programming <b>21</b></span>
 </a>
 </div>
 </div>
